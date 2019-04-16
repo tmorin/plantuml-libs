@@ -23,8 +23,8 @@ system_boundary(system2, "A system boundary") {
     }
 }
 
-enterprise1 --> person1: format_name(A text, HTTP)
-enterprise1 --> person_ext1: format_name(Another text, HTTP)
+enterprise1 --> person1: fmt_name(A text, HTTP)
+enterprise1 --> person_ext1: fmt_name(Another text, HTTP)
 
 person1 --> system1
 person_ext1 --> system_ext1

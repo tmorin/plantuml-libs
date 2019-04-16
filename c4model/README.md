@@ -118,15 +118,15 @@ system(system4, System4)
 system(system6, System6)
 system(system5, System5)
 person1 -l-> system1
-person1 -u-> system3: format_name(uses, HTTPS)
-person1 -u-> system2: format_name(uses)
-person1 -r-> system4: format_tech(HTTPS)
-person1 -d-> system6: format_desc(uses, HTTPS)
-person1 -d-> system5: format_desc(uses)
+person1 -u-> system3: fmt_name(uses, HTTPS)
+person1 -u-> system2: fmt_name(uses)
+person1 -r-> system4: fmt_tech(HTTPS)
+person1 -d-> system6: fmt_desc(uses, HTTPS)
+person1 -d-> system5: fmt_desc(uses)
 @enduml
 ```
 
-![boundaries](http://plantuml.com/plantuml/png/TP0zYyCm38Rt_WhVba0JqtmD7GvkwrXezyDrr4j0jeCjSzo_FqDgjxZjz0ezZsJXZrbBz2DuYsmYMjoUSoj-wv-P9d_n3gmqca1JBOtYf8oTDLzGQF8AAvmlZYlX22oNdJ8ZOCXA8DPBu9i5h3EwM6EtPLziBSkD-mj3gbWZaDDQPA29eCb06q6RWIw2BWD314C6-WZwydRlZbLOVRBRRVUcJyrspwx6Aa7VMYWemZUvBJkSpyTJ-KfldlK7poQlInw1d8fyuPZ48OaZEFdc_RlUF-lbFm00)
+![boundaries](http://plantuml.com/plantuml/png/TP0zYyCm38Rt_WhVba0JqtmD6GvkwrXezyDrr4j0jeCjK_hlp-0wFSnrUeMUHxBmnw8b-WcyHJOJhMxat8fx_RFGxA_UWPL64sYgfL6SbB6BvYiAJLvXXSlLSIKSWUMoKsO235a9n7eDVBU2TKONCGvxziLYMUxS8mof8aOWvrXae4cWoK2RG9k1Be4k0qC2GmRw1FhoUU-1LLXzikTjhwRVckt8Reg-jL1GX3zoUtQyN4xdyZ-toTm_ajsaBae4SYxoLTDc3T6QmCatpxxSFdFBNm00)
 
 ## System Context diagram
 
@@ -146,15 +146,15 @@ system(ebanking, Internet Banking System, "Allows customers to view information 
 system_ext(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
 system_ext(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
 
-customer --> ebanking: format_name("Views accounts balances, and make payments using")
-ebanking --> mainframe: format_name("Gets accounts information from and makes payment using")
-ebanking -> email: format_name("Sends e-mail using")
-email -u-> customer: format_name("Sends e-mail to")
+customer --> ebanking: fmt_name("Views accounts balances, and make payments using")
+ebanking --> mainframe: fmt_name("Gets accounts information from and makes payment using")
+ebanking -> email: fmt_name("Sends e-mail using")
+email -u-> customer: fmt_name("Sends e-mail to")
 
 @enduml
 ```
 
-![System context diagram](http://plantuml.com/plantuml/png/VPDDRzim38Rl_XLSJXbWnvUTUXZGjK5NeDq69DkmKo3BT2nK4Ws9Mff_Fzg9xQxBUfBDZuTyNzbis6AsEKP61pVa6PyPQgFsGJbeAC2zX897Xa_AFnc_XrDjXhxceVUTyTgc6bEmq39tyQeiWpgizeRRLAM8GVTOpojDhcH7mVYoiyfpShQmfegbKu8CfVxWg4OhPw6iNNMIpxBMr0Xz6ecF7MOFrx--Vj_kVjvlF-yUrdVhBxTPrc68v9SwHIQ78OTlGq3PQUcRARMuXh4Eg05k4Iefok4W-q8tDlOnK5fJyXnNY_TP76GliJeHy_yPqq-mbWvn6XE12NuRF83nugXJRCY3gYXnFzw4luVbe7mDJZqXTEhey3p_lC1ExcU9JXcRmxheptdkLhIOOIiHy6Xqe4WDm_fPjyhl4V1KVmBDcWQaP7mZTuuvF8wF_ohRC0MC8BSpUgSb06TFBkYRFPZbSL0-AjrNHK3MWxhfJehY8umcNy69j_EopNBnGpoSGJ9LFYADbmo35ALTk2Dfm4uQNt7la5zWNufe0hc97aVy1Rhit7lx2hoHdoIEjazDmrkHf6SK_LORa_Jy0G00)
+![System context diagram](http://plantuml.com/plantuml/png/TPDDRzim38Rl_XLSJXbWnvUUUXZGTK5ReDq69DkmKo3BT2nK4Ws9Mff_Fzg9xGnBJxBvyP3lAviDMymsnyZeu9uyunj3RTG-A0SD1NYIKF38y5dvL-FtSAhDqDSyz7umNjjKOmeMMkOktfPbK8VLtd2RgXGnw1xhUQN9bUme65zsLdbEpXRMLB5qIf2Xr3UEQhHo5ihQLIVvB6jDZT2daVZOOVPyz_lRZ-tkrzFsSVUyVbX__P9b7OP8VgbJP78OSlW-19ITbhwVKeix6Ek06k0MePAY70woBtHZOny3fJKbpt6r-9Z5GVOIgnCnVy-OVeArT8ZJc0XCyCVW0OmNHvrYGnvKHOdxyIRyEom7vMjmwXMXKqU7v_dd1NPoFqjqojWSraL_pdEteiKCMuc05wC3HMeOrc-wLNwFWAVw4sZMD20bunkvSypXPNpyNzc6AM04kPtHEoq1E7joHT_imIoFW_9HwRug0h8Ur4rtKXIVO3Jv5Xh7Eo-hB1S_nS2P8YFb2z9upIr8KNe5Ec86vYJm4lg0VC6yNBy9v2Pq7DbNqB9jx-ebTIF_HXpTdZg6jo99mwZrtHucQVWB)
 
 ## Container diagram
 
@@ -180,21 +180,21 @@ system_boundary(ebanking, Internet Banking System) {
     container(api, API Application, Java and Spring MVC, "Provides  Internet banking functionalit via a JSON/HTTPS API.")
 }
 
-customer --> web: format_name(Visits, HTTPS)
-customer --> spa: format_name("Views accounts balances, and make payments using")
-customer --> mobile: format_name("Views accounts balances, and make payments using")
+customer --> web: fmt_name(Visits, HTTPS)
+customer --> spa: fmt_name("Views accounts balances, and make payments using")
+customer --> mobile: fmt_name("Views accounts balances, and make payments using")
 
-spa --> api: format_name(Makes API calls to, JSON/HTTPS)
-mobile --> api: format_name(Makes API calls to, JSON/HTTPS)
-api -l-> db: format_name(Reads from and writes to, JDBC)
-api -u-> email: format_name(Sends e-mail using, SMTP)
-api -> mainframe: format_name(Makes API calls to, XML/HTTPS)
-email -u-> customer: format_name(Sends e-mails to)
+spa --> api: fmt_name(Makes API calls to, JSON/HTTPS)
+mobile --> api: fmt_name(Makes API calls to, JSON/HTTPS)
+api -l-> db: fmt_name(Reads from and writes to, JDBC)
+api -u-> email: fmt_name(Sends e-mail using, SMTP)
+api -> mainframe: fmt_name(Makes API calls to, XML/HTTPS)
+email -u-> customer: fmt_name(Sends e-mails to)
 
 @enduml
 ```
 
-![Container diagram](http://plantuml.com/plantuml/png/fLLDJnin4BtlhvXoIgGDkVJ4eL8QK04HYDWKw2cQzKuI2w-zihq9KTN_th7t0mAYhKeESMpFctdp_EnuwHKbKwCzIaqM2ebhYoMiZ8KBxSbgyl0LzQFKQyZspbEPa2vyX7sIMgYweDegs7XVkPFnsEBkU2tzfivhHrPmOjB-M9Xox4jZfHvN2hMlIpLICdVZ4Zcb7OlFfIb8yJX2fOuhta-IZIm8mZOPlwyekPhykFc-MDvVBCwNLsVVpgvFawGYwumUYDfvKv9DOHuNKFMaf_tMqGIwE30hy1k2d8DIs35Vg3fWM0CKmjJQk-EZOU9YsqjwyWCgKQeKpaPXRFNWn0jE9QDQZ9z9OOqpAmzdJsA3Uar0JNoJw5LAtj4hbfnIc7K_NodE5J9lB3bWSJhgWXSYrn37E6DBzD9emDpKlk_KzQsau2rgXo94EI0l0fEE2eDqWNO_e3Pd-jxv3-5d0lmHdMa6EyfJkASS9bMbf8WqKhZ4BGBg0hBA1lJiRigDd9AIsq0hzE0ynmfeNHA3mt9Vk6lFyPSYg92rnESQWVyX4rTX2baJFG_HRnXbmiggAJNHwrfXCCRScYsRxK3VDoHMjOxIeP9-3zwya7WhCM2a1PO2ScjsxFstx4gJInNEEOw1MmeFM2BBSq02b2obfm9SdJjcy256JL4eQ2i5TPmAz9YZeq719tVQJbAu9OLDmduHCh5XrpzRC5nhiBIMZkqK3VV2V2biq6sOETPSNVjMUX2MYZ15nJPaGv9peCoQ9wqD3uN2IgOmcL_yYw5wsVwiJrG4uJAxkHwVBnRpBEGFbNybIVygZ4PVmWcUGDFGKlDT7Dn99yFjYQZXOJ3xxJ3uw4xIxldECHL-xhZTD18lyJ6uU5zIsAk3hOzUPMoEw-D94wOM4xAMXzbc7E-YkeBjpXVHf2za6IQjOVuBom0OAKOMhqIy9ImShAmf8-UTPN-tyDElqnPOCp2-i8VOZFzmNFU6nlxuZiyMynR5cdNlvj_9FiokEgwnKbEqEu7twmRqCFaD)
+![Container diagram](http://plantuml.com/plantuml/png/fLLDJnin4BtlhvXoIgGDkVJ4eL8QK04HYDWKw0dDUYU9XJzMjZSXglhVEtPsGmAY7oA7EBRdpRnvVdQ238goiJK1fI47bSI5Gmrpw-3217A60dn5yoJD0egD3wGpCbL8i4_I2DLKr3W5on1gVp8SEbmVBsHODcNZoGbEJ2OS2wk7GLidpR1MQ4AZrK39qWyrSaet59-rhKZnE42bZclUpxAbh0ZYDjcmgIcx6lsu-JvxlB-OdJzUdNqxkpxDifgSjwOd6X-i9fV3D2sWsf4UxxQEHj35WPr3M1AK79J3clb2tG7Z6g0GjZ717n_rCv_QVgJdq2EDKkLmDeXZgmSddd4gcTHY_4GAPxsT1pXx5aiq2mBQncyJlKh9EsREabCEa-xdAyMvGX6i8myiJaTTy4BY6kCOPvt68Aq1B6qJTftwNIiv18V6euXH7YY8oAIZmY1JeTlqgCsPltV-VVYP0Nz4PvhUcieSxgc4KLqhAHAD72vnXO2cWg9s4Jsv6tCZfwJaAjAAFVZ0iG9QbwJWkBmhtBNd-KiHrCXQuakDoF-GYQynXs8RFOtHRnWLmibwMsfa5et2Q8ofioissu6-RqZC6vEaGoN31eBTatWbCMAa0vO2IcVNxFstxBGjfOhddCR8BOS7rCZo79009RKCL85lIiyCFiHeMnGgMab17QSA0vRegLVnoPssannkIU4suMuH2h5arxzOC5vhSBIGdksK3BTdlXoMw9VC71kkRa8hFGX7LPoYOXko8SbxK7R1azQ6Xq9XBNCOJI_-nL0xsVwiJr84uRAukHwUpsRJ8kQFbNzbsUvL60o-n1CyWRaEZuOlOkzEUXclJeBq3oFPR7kHHtUIrY-tZKdmGyUDvecongVetusckDT4Gn-zIhSzg0zcp9XKoiOIxgMQSB1FYWgsE5y-c-z9qSzQa_m_aADXe1XMxQjsIrXvc3kh4zMrOpUtsDElunRLC2gzftl0WlzRVFTSffxuEazcqnR28dLFv5yuFaokEegfnhPSf_Sx5IEqd_q6)
 
 ## Component diagram
 
@@ -224,24 +224,24 @@ container_boundary(api, API Application) {
     component(api_maiframe, Mainframe Banking System Facade, Spring Bean, "A facade onto the mainframe banking system.")
 }
 
-spa --> api_signin: format_name(Makes API calls to, JSON/HTTPS)
-spa --> api_password: format_name(Makes API calls to, JSON/HTTPS)
-spa --> api_summary: format_name(Makes API calls to, JSON/HTTPS)
+spa --> api_signin: fmt_name(Makes API calls to, JSON/HTTPS)
+spa --> api_password: fmt_name(Makes API calls to, JSON/HTTPS)
+spa --> api_summary: fmt_name(Makes API calls to, JSON/HTTPS)
 
-mobile --> api_signin: format_name(Makes API calls to, JSON/HTTPS)
-mobile --> api_password: format_name(Makes API calls to, JSON/HTTPS)
-mobile --> api_summary: format_name(Makes API calls to, JSON/HTTPS)
+mobile --> api_signin: fmt_name(Makes API calls to, JSON/HTTPS)
+mobile --> api_password: fmt_name(Makes API calls to, JSON/HTTPS)
+mobile --> api_summary: fmt_name(Makes API calls to, JSON/HTTPS)
 
-api_signin --> api_security: format_name(Uses)
-api_password --> api_security: format_name(Uses)
-api_password --> api_email: format_name(Uses)
-api_summary --> api_maiframe: format_name(Uses)
+api_signin --> api_security: fmt_name(Uses)
+api_password --> api_security: fmt_name(Uses)
+api_password --> api_email: fmt_name(Uses)
+api_summary --> api_maiframe: fmt_name(Uses)
 
-api_maiframe --> mainframe: format_name(Uses, XML/HTTPS)
-api_email --> email: format_name(Sends e-mail using)
-api_security --> db: format_name(Reads from and writes to, JDBC)
+api_maiframe --> mainframe: fmt_name(Uses, XML/HTTPS)
+api_email --> email: fmt_name(Sends e-mail using)
+api_security --> db: fmt_name(Reads from and writes to, JDBC)
 
 @enduml
 ```
 
-![Component diagram](http://plantuml.com/plantuml/png/fLLBZzis4BxhLqnpiW7PlkIKGm3leyqMwyHOUTlaP8oeiKs48WMIMiSe-jyxf1wsl0wIEhvGbERnpNpVZBtqYf9RKrP6a_PGIDnQB65ZB3neJrQJXnlKNwNUGdPmdagOm7pv0FEgKbAWbqOdf0iV0_qcjL1rGRLLiFE-SkzcCulxwLRwNPtNZgmm75NxgJ3bp9V6IZsh56fVbsgYPEvc9N8IEnDlIrEGudE2Iaqh_fuaEraGXCza_A6Yv77-vTFpQlttm-h3-l7-Z_kFTqdY8iWrVVCZAb6g5EuduMpHf_1cjIEGiJPKi9326cSs7kw_YHtgBG4rzasWwPlnQKZ-eZVS84fXqJsUzOSpPDvOSi30mMp0Spx1Bo1lxTZFs3As3Z0tjGTHEszAikmZXAcrTobuYzgX25OEo8k090djuxnaHwx2538EfmYMoB1F24dXJtp1J5XPUK1Tm5nlQuMMeIsjUU4k3i3rH7S0DxMEUL59Vm1lJl2zI0m-qiAUSiYjsJEf0TeHMMbogKA3uXbmfV0PIsIk1m10oL9wAi3LkUFiluIcIGe5lKX10K-17dDqD2ho5ExQImfFfB09rh-4JEnOAaVUWax1qbOwvY2oTC9O2ZjqEqQDDMVMlcqv24j5kA9YxfX5SWwKsVBb5NThvbmNQ0yZh6HwFarZ-2S1_ebkA8FLsicj3ltB-EGMmIq7iqOfObApoeO-BVwwvVAS7toRAyKKnP9Sw5s8m-M4nq6pXngUZYz0gD2vlR55Q6BWQzdUhyPYOvY6lowuWptl2XQ7QwJz_FHu4OohIrRKWOCs0mDPy-AdmVGwFAgfozn6QlJ8s88G-y6yZ8P4RLcTdB9zWdwdzZ1k20S3CDIr3S9aMRKSDNiYXRYJmgLlK2-erp262--x23BUrwvTSv68oCZba6ppWtq7lwF0WiwJp64JtmFtlD5QlplxoJwks7zvSLS8aybxEAhz7JHJjzRiD5hWLsvQ61R1kolWvZMNVVeu-x1QBRFnmBzhrlKHMX7ylm19kuL-fOop4DTLSexZgcAE5Hm3jUeUHdfsvCR9AThh7QA4lsVTJMPdt8dpadroQX0zUlszDkS_gCLZLtWF8tfT07GwFpmxhEGMNZVxmQ_8XqvFXEoqiQQC_yXxDgIswNStj-FaFm00)
+![Component diagram](http://plantuml.com/plantuml/png/fLLBRziu4BxhLypcP0EoVTbJ3WiuZsrJnAqHEMttP8oeiKs48WMIYciK_UyxrCkIuqLRhoyKoNbydE-RiPTUKNHhyi9eqXuoYLkBEMoCXGVjoMhoS8FwHUej90VdAOS9p9SFC2yA9GLwQNH4ElDLe3-a5ghCgBGATjuNxdesixYVRgNVbMdfo0h3KRMV2fFFV6wirBD2eVPbhYPAfcwM8oUnC_5dRZ9Il4vGgMd1zr6qanb1k2RZ3mL5Z_D_FZslrbyULk_NZ_VlxZ_UHP6hGAxfcnzHZbB5S3y9QuC-XglLZa1MRqC52ociSMRZuVwRsA7U4b1jNmUQNetx8Vb6RxX05CEY_Jof3sT8lB7aW863sO3dV88F86tisC_Ol2eTO6fA3w9qtkHasKS8KshlOl0MjKCHh1oG5m595Ch7UScEN84n91nE4IoHOVS8YU43lc8Yh2myeCvWhhUbGilGbjQySXK7u3gYMu2RKbTvKKb_06zw-5ub1XzfOKyffDRicTG0xOWiDwbKeK3L6d35y1LpPAu70439N7hAm9Mfu-p_2qsT539wbO82dWmzfkXebAKnt3MR69v8OHsiEuH4x5WgHzw2Ji7ILZhce6AfnrWCEtGxHeqbPzQ-AJa8IrdOecBkc4Lo3fJPykODTslcN6Te3oCiP7pQJMFu7W7_HDkKmMhjv5Q7-YMySedWbeDPenGngKbXGvqMds_vUSuFxkPACKNLaroeNOZ3pmcVWs8FDJmTdu5Ge7DxOxDGnC3NijbVZCLMOMh-sk0EzZmhM1okblRpq-DPCAxCML473bet32JrmI-3wNHuL5ERkObKwv6n1I5sZNaU3OdIiZevPVC5tKpjODmG3XfWg6iRXCcoQZYgvqGCrKmAcwv0dQ3UmXWElFz4aF2yTisOguYe63aVacr-Ck_WRnIOqMcIEMogS-2QrrhhPcVNsSSH-uC7Tu4mcVm5HxLVmoRtQyqUemM-SCL2fmWUN04qpxZaqyVP-zLgcOm7pcsbBdHlwFyDxwWPFXUZF_6_u06d27x_3KVWnoYDbdjXdXsvSTG7UQ5r9TMpfctxjPQj0jyOH_tRohnJs8aj__yi7jkNTjahbrCS_TxWlc2LDgZQlWvEMThpU29aZuqrUVLNksShQkfxTtCxZlu5)

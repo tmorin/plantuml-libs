@@ -1,14 +1,14 @@
 
-!define format_tech(iTech) <size:TECH_FONT_SIZE>[iTech]</size>
-!define format_name(iName) <b><size:TITLE_FONT_SIZE>iName</size></b>
-!define format_name(iName, iTech) format_name(iName)\n format_tech(iTech)
-!define format_desc(iDesc) <size:DESC_FONT_SIZE>iDesc</size>
-!define format_desc(iDesc, iTech) <size:DESC_FONT_SIZE>iDesc</size>\n format_tech(iTech)
+!define fmt_tech(iTech) <size:TECH_FONT_SIZE>[iTech]</size>
+!define fmt_name(iName) <b><size:TITLE_FONT_SIZE>iName</size></b>
+!define fmt_name(iName, iTech) fmt_name(iName)\n fmt_tech(iTech)
+!define fmt_desc(iDesc) <size:DESC_FONT_SIZE>iDesc</size>
+!define fmt_desc(iDesc, iTech) <size:DESC_FONT_SIZE>iDesc</size>\n fmt_tech(iTech)
 
-!define item(iShape, iId, iName, iStereotype) iShape "format_name(iName)" as iId <<iStereotype>>
-!define item(iShape, iId, iName, iDesc, iType, iStereotype) iShape "format_name(iName, iType)\n\n format_desc(iDesc)" as iId <<iStereotype>>
-!define item_t(iShape, iId, iName, iType, iStereotype) iShape "format_name(iName, iType)" as iId <<iStereotype>>
-!define item_d(iShape, iId, iName, iDesc, iStereotype) iShape "format_name(iName)\n\n format_desc(iDesc)" as iId <<iStereotype>>
+!define item(iShape, iId, iName, iStereotype) iShape "fmt_name(iName)" as iId <<iStereotype>>
+!define item(iShape, iId, iName, iDesc, iType, iStereotype) iShape "fmt_name(iName, iType)\n\n fmt_desc(iDesc)" as iId <<iStereotype>>
+!define item_t(iShape, iId, iName, iType, iStereotype) iShape "fmt_name(iName, iType)" as iId <<iStereotype>>
+!define item_d(iShape, iId, iName, iDesc, iStereotype) iShape "fmt_name(iName)\n\n fmt_desc(iDesc)" as iId <<iStereotype>>
 
 !define box(iId, iName, iStereotype) item(rectangle, iId, iName, iStereotype)
 !define box(iId, iName, iDesc, iType, iStereotype) item(rectangle, iId, iName, iDesc, iType, iStereotype)
