@@ -1,0 +1,46 @@
+
+!define format_tech(iTech) <size:TECH_FONT_SIZE>[iTech]</size>
+!define format_name(iName) <b><size:TITLE_FONT_SIZE>iName</size></b>
+!define format_name(iName, iTech) format_name(iName)\n format_tech(iTech)
+!define format_desc(iDesc) <size:DESC_FONT_SIZE>iDesc</size>
+!define format_desc(iDesc, iTech) <size:DESC_FONT_SIZE>iDesc</size>\n format_tech(iTech)
+
+!define item(iShape, iId, iName, iStereotype) iShape "format_name(iName)" as iId <<iStereotype>>
+!define item(iShape, iId, iName, iDesc, iType, iStereotype) iShape "format_name(iName, iType)\n\n format_desc(iDesc)" as iId <<iStereotype>>
+!define item_t(iShape, iId, iName, iType, iStereotype) iShape "format_name(iName, iType)" as iId <<iStereotype>>
+!define item_d(iShape, iId, iName, iDesc, iStereotype) iShape "format_name(iName)\n\n format_desc(iDesc)" as iId <<iStereotype>>
+
+!define box(iId, iName, iStereotype) item(rectangle, iId, iName, iStereotype)
+!define box(iId, iName, iDesc, iType, iStereotype) item(rectangle, iId, iName, iDesc, iType, iStereotype)
+!define box_t(iId, iName, iType, iStereotype) item_t(rectangle, iId, iName, iType, iStereotype)
+!define box_d(iId, iName, iDesc, iStereotype) item_d(rectangle, iId, iName, iDesc, iStereotype)
+
+!define person(iId, iName) item_t(rectangle, iId, iName, Person, Person)
+!define person(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Person, Person)
+!define person_ext(iId, iName) item_t(rectangle, iId, iName, Person, ExternalPerson)
+!define person_ext(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Person, ExternalPerson)
+
+!define system(iId, iName) item_t(rectangle, iId, iName, Software System, System)
+!define system(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Software System, System)
+!define system_ext(iId, iName) item_t(rectangle, iId, iName, Software System, ExternalSystem)
+!define system_ext(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Software System, ExternalSystem)
+!define system_boundary(iId, iName) item_t(rectangle, iId, iName, System, Boundary)
+
+!define container(iId, iName) item_t(rectangle, iId, iName, Container, Container)
+!define container(iId, iName, iTech, iDesc) item(rectangle, iId, iName, iDesc, "Container: iTech", Container)
+!define container_t(iId, iName, iTech) item_t(rectangle, iId, iName, "Container: iTech", Container)
+!define container_d(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Container, Container)
+!define container_boundary(iId, iName) item_t(rectangle, iId, iName, "Container", Boundary)
+!define container_boundary(iId, iName, iTech) item_t(rectangle, iId, iName, "Container: iTech", Boundary)
+
+!define database(iId, iName) item_t(database, iId, iName, Container, Container)
+!define database(iId, iName, iTech, iDesc) item(database, iId, iName, iDesc, "Container: iTech", Container)
+!define database_t(iId, iName, iTech) item_t(database, iId, iName, "Container: iTech", Container)
+!define database_d(iId, iName, iDesc) item(database, iId, iName, iDesc, Container, Container)
+
+!define component(iId, iName) item_t(rectangle, iId, iName, Component, Component)
+!define component(iId, iName, iTech, iDesc) item(rectangle, iId, iName, iDesc, "Component: iTech", Component)
+!define component_t(iId, iName, iTech) item_t(rectangle, iId, iName, "Component: iTech", Component)
+!define component_d(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Component, Component)
+
+!define enterprise(iId, iName) item_t(rectangle, iId, iName, Enterprise, Boundary)

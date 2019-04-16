@@ -1,2 +1,5 @@
 # plantuml-libs
-Libraries for plantuml
+
+Set of libraries for [PlantUML](http://plantuml.com).
+
+- [C4 Model](c4model/README.md)
