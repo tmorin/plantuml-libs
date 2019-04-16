@@ -1,0 +1,36 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws/aws-all.puml
+'!include aws-all.puml
+
+external_systems(extsys)
+external_systems(provider, External Provider)
+frame UDD {
+    sns(udd_sns)
+    sqs(udd_sqs)
+    msk(udd_msk)
+    api_gateway(udd_ag)
+    rds_mariadb(udd_db)
+    rds_replica(udd_db_rep)
+    elasticache_memcached(udd_memcached)
+    eks(udd_eks)
+    elb(udd_elb)
+    ebs(udd_ebs)
+}
+
+extsys --> udd_ag : fmt_tech(HTTPS)
+extsys --> udd_sqs : fmt_tech(HTTPS)
+extsys <-- udd_sns : fmt_tech(HTTPS/mails/...)
+extsys <--> udd_msk : fmt_tech(TCP)
+udd_ag --> udd_elb : fmt_tech(HTTP(S))
+udd_eks -u-> udd_sns : fmt_tech(HTTPS)
+udd_eks -u-> udd_sqs : fmt_tech(HTTPS)
+udd_eks -u-> udd_msk : fmt_tech(TCP)
+udd_eks --> udd_memcached : fmt_tech(TCP)
+udd_eks --> udd_db : fmt_tech(TCP)
+udd_eks --> udd_db_rep : fmt_tech(TCP)
+udd_eks ..> udd_ebs : fmt_label(manages)
+udd_eks -l-> provider : fmt_tech(HTTPS)
+udd_eks .> udd_elb : manages
+udd_db_rep .> udd_db : fmt_label(replicates)
+
+@enduml

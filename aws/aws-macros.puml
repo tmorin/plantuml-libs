@@ -1,0 +1,62 @@
+!define fmt_tech(eTech) "[eTech]"
+!define fmt_label(eLabel) "eLabel"
+!define fmt_label(eLabel, eTech) "eLabel\n[eTech]"
+
+!define external_systems(eId, eLabel="External Systems") cloud "eLabel" as eId
+
+!define entity(eType, eId, eStereotype, eLabel) eType "eLabel" as eId <<eStereotype>>
+!define entity(eType, eId, eStereotype, eLabel, eTech) eType "eLabel\n[eTech]" as eId <<eStereotype>>
+
+!define sns(eId, eLabel) entity(node, eId, SimpleNotificationService, eLabel)
+!define sns(eId) sns(eId, Notifier)
+
+!define sqs(eId, eLabel) entity(node, eId, SimpleQueueService, eLabel)
+!define sqs(eId) sqs(eId, Queues)
+
+!define msk(eId, eLabel) entity(node, eId, ManagedStreaming, eLabel, Kafka)
+!define msk(eId) msk(eId, Streams)
+
+!define rds(eId, eLabel, eTech) entity(database, eId, RelationalDatabaseService, eLabel, eTech)
+!define rds(eId, eLabel) entity(database, eId, RelationalDatabaseService, eLabel)
+!define rds(eId) rds(eId, Database)
+
+!define rds_mariadb(eId, eLabel) rds(eId, eLabel, MariaDB)
+!define rds_mariadb(eId) rds_mariadb(eId, Database)
+
+!define rds_mysql(eId, eLabel) rds(eId, eLabel, MySQL)
+!define rds_mysql(eId) rds_mysql(eId, Database)
+
+!define rds_replica(eId, eLabel) rds(eId, eLabel, Replica)
+!define rds_replica(eId) rds_replica(eId, Database)
+
+!define elasticache(eId, eLabel, eTech) entity(database, eId, ElastiCache, eLabel, eTech)
+!define elasticache(eId, eLabel) entity(database, eId, ElastiCache, eLabel)
+!define elasticache(eId) elasticache(eId, Cache)
+
+!define elasticache_memcached(eId, eLabel) elasticache(eId, eLabel, Memcached)
+!define elasticache_memcached(eId) elasticache_memcached(eId, Cache)
+
+!define elasticache_redis(eId, eLabel) elasticache(eId, eLabel, Redis)
+!define elasticache_redis(eId) elasticache_redis(eId, Cache)
+
+!define api_gateway(eId, eLabel) entity(node, eId, APIGateway, eLabel)
+!define api_gateway(eId) api_gateway(eId, Gateway)
+
+!define elb(eId, eLabel) entity(node, eId, ElasticLoadBalancing, eLabel)
+!define elb(eId) elb(eId, Load Balancer)
+
+!define ecs(eId, eLabel, eTech) entity(node, eId, ElasticContainerService, eLabel, eTech)
+!define ecs(eId, eLabel) entity(node, eId, ElasticContainerService, eLabel)
+!define ecs(eId) ecs(eId, Containers Orchestrator)
+
+!define eks(eId, eLabel) ecs(eId, eLabel, Kubernetes)
+!define eks(eId) eks(eId, Containers Orchestrator)
+
+!define ec2(eId, eLabel) entity(node, eId, ElasticComputeCloud, eLabel)
+!define ec2(eId) ec2(eId, EC2)
+
+!define ebs(eId, eLabel) entity(node, eId, ElasticBlockStore, eLabel)
+!define ebs(eId) ebs(eId, Storage)
+
+!define ecr(eId, eLabel) entity(node, eId, ElasticContainerRegistry, eLabel)
+!define ecr(eId) ecr(eId, Registry)
