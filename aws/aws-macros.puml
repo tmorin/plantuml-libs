@@ -60,3 +60,6 @@
 
 !define ecr(eId, eLabel) entity(node, eId, ElasticContainerRegistry, eLabel)
 !define ecr(eId) ecr(eId, Registry)
+
+!define cloudfront(eId, eLabel) entity(node, eId, CloudFront, eLabel)
+!define cloudfront(eId) cloudfront(eId, CDN)
