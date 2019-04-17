@@ -63,3 +63,6 @@
 
 !define cloudfront(eId, eLabel) entity(node, eId, CloudFront, eLabel)
 !define cloudfront(eId) cloudfront(eId, CDN)
+
+!define codedeploy(eId, eLabel) entity(node, eId, CodeDeploy, eLabel)
+!define codedeploy(eId) codedeploy(eId, Deployment Manager)
