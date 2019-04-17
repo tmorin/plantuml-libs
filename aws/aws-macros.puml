@@ -66,3 +66,13 @@
 
 !define codedeploy(eId, eLabel) entity(node, eId, CodeDeploy, eLabel)
 !define codedeploy(eId) codedeploy(eId, Deployment Manager)
+
+!define s3(eId, eLabel, eTech) entity(storage, eId, SimpleStorageService, eLabel, eTech)
+!define s3(eId, eLabel) entity(storage, eId, SimpleStorageService, eLabel)
+!define s3(eId) s3(eId, S3)
+
+!define s3_standard(eId, eLabel) s3(eId, eLabel, Standard)
+!define s3_standard(eId) s3_standard(eId, S3 Standard)
+
+!define s3_glacier(eId, eLabel) s3(eId, eLabel, Glacier)
+!define s3_glacier(eId) s3_glacier(eId, S3 Glacier)
