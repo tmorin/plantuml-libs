@@ -1,0 +1,54 @@
+
+!define entity(eType, eId, eStereotype, eLabel) eType "eLabel" as eId <<eStereotype>>
+!define entity(eType, eId, eStereotype) eType eId <<eStereotype>>
+
+!define person(eId, eLabel) entity(actor, eId, Person, eLabel)
+!define person(eId) entity(actor, eId, Person)
+
+!define system(eId, eLabel) entity(file, eId, System, eLabel)
+!define system(eId) entity(file, eId, System)
+
+!define facade_command(eId, eLabel) entity(file, eId, FacadeCommand, eLabel)
+!define facade_command(eId) entity(file, eId, FacadeCommand)
+
+!define command(eId, eLabel) entity(file, eId, Command, eLabel)
+!define command(eId) entity(file, eId, Command)
+
+!define aggregate(eId, eLabel) entity(file, eId, Aggregate, eLabel)
+!define aggregate(eId) entity(file, eId, Aggregate)
+
+!define event(eId, eLabel) entity(file, eId, Event, eLabel)
+!define event(eId) entity(file, eId, Event)
+
+!define domain_event(eId, eLabel) entity(file, eId, DomainEvent, eLabel)
+!define domain_event(eId) entity(file, eId, DomainEvent)
+
+!define integration_event(eId, eLabel) entity(file, eId, IntegrationEvent, eLabel)
+!define integration_event(eId) entity(file, eId, IntegrationEvent)
+
+!define read_model(eId, eLabel) entity(file, eId, ReadModel, eLabel)
+!define read_model(eId) entity(file, eId, ReadModel)
+
+!define user_interface(eId, eLabel) entity(file, eId, UserInterface, eLabel)
+!define user_interface(eId) entity(file, eId, UserInterface)
+
+!define policy(eId, eLabel) entity(file, eId, Policy, eLabel)
+!define policy(eId) entity(file, eId, Policy)
+
+!define process(eId, eLabel) entity(file, eId, Process, eLabel)
+!define process(eId) entity(file, eId, Process)
+
+!define saga(eId, eLabel) entity(file, eId, Saga, eLabel)
+!define saga(eId) entity(file, eId, Saga)
+
+!define timer(eId, eLabel) entity(file, eId, Timer, eLabel)
+!define timer(eId) entity(file, eId, Timer)
+
+!define query(eId, eLabel) entity(file, eId, Query, eLabel)
+!define query(eId) entity(file, eId, Query)
+
+!define service(eId, eLabel) entity(file, eId, Service, eLabel)
+!define service(eId) entity(file, eId, Service)
+
+!define comment(eId, eLabel) entity(file, eId, Comment, eLabel)
+!define comment(eId) entity(file, eId, Comment)

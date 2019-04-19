@@ -1,0 +1,101 @@
+
+!definelong LAYOUT_WITH_LEGEND
+legend right
+|= Color |= Type |= Color |= Type |
+|<PERSON_COLOR_BG>| person |<USER_INTERFACE_COLOR_BG>| user interface |
+|<SYSTEM_COLOR_BG>| system |<POLICY_COLOR_BG>| policy |
+|<FACADE_COMMAND_COLOR_BG>| facade command |<PROCESS_COLOR_BG>| process |
+|<COMMAND_COLOR_BG>| command |<SAGA_COLOR_BG>| saga |
+|<AGGREGATE_COLOR_BG>| aggregate |<TIMER_COLOR_BG>| timer |
+|<EVENT_COLOR_BG>| event |<QUERY_COLOR_BG>| query |
+|<DOMAIN_EVENT_COLOR_BG>| domain event |<SERVICE_COLOR_BG>| service |
+|<INTEGRATION_EVENT_COLOR_BG>| integration event |<COMMENT_COLOR_BG>| comment |
+|<READ_MODEL_COLOR_BG>| read model |
+endlegend
+!enddefinelong
+
+skinparam file {
+    StereotypeFontSize FONT_SIZE_SMALL
+    shadowing false
+}
+skinparam actor<<Person>> {
+    StereotypeFontSize 0
+    BorderColor PERSON_COLOR_BORDER
+    BackgroundColor PERSON_COLOR_BG
+}
+skinparam file<<System>> {
+    BorderColor SYSTEM_COLOR_BORDER
+    BackgroundColor SYSTEM_COLOR_BG
+}
+skinparam file<<FacadeCommand>> {
+    BorderColor FACADE_COMMAND_COLOR_BORDER
+    BackgroundColor FACADE_COMMAND_COLOR_BG
+}
+skinparam file<<Command>> {
+    BorderColor COMMAND_COLOR_BORDER
+    BackgroundColor COMMAND_COLOR_BG
+}
+skinparam file<<Aggregate>> {
+    BorderColor AGGREGATE_COLOR_BORDER
+    BackgroundColor AGGREGATE_COLOR_BG
+}
+skinparam file<<Event>> {
+    BorderColor EVENT_COLOR_BORDER
+    BackgroundColor EVENT_COLOR_BG
+}
+skinparam file<<DomainEvent>> {
+    BorderColor DOMAIN_EVENT_COLOR_BORDER
+    BackgroundColor DOMAIN_EVENT_COLOR_BG
+}
+skinparam file<<IntegrationEvent>> {
+    BorderColor INTEGRATION_EVENT_COLOR_BORDER
+    BackgroundColor INTEGRATION_EVENT_COLOR_BG
+}
+skinparam file<<ReadModel>> {
+    BorderColor READ_MODEL_COLOR_BORDER
+    BackgroundColor READ_MODEL_COLOR_BG
+}
+skinparam file<<UserInterface>> {
+    BorderColor USER_INTERFACE_COLOR_BORDER
+    BackgroundColor USER_INTERFACE_COLOR_BG
+}
+skinparam file<<Policy>> {
+    BorderColor POLICY_COLOR_BORDER
+    BackgroundColor POLICY_COLOR_BG
+}
+skinparam file<<Process>> {
+    BorderColor PROCESS_COLOR_BORDER
+    BackgroundColor PROCESS_COLOR_BG
+}
+skinparam file<<Saga>> {
+    BorderColor SAGA_COLOR_BORDER
+    BackgroundColor SAGA_COLOR_BG
+}
+skinparam file<<Timer>> {
+    BorderColor TIMER_COLOR_BORDER
+    BackgroundColor TIMER_COLOR_BG
+}
+skinparam file<<Query>> {
+    BorderColor QUERY_COLOR_BORDER
+    BackgroundColor QUERY_COLOR_BG
+}
+skinparam file<<Service>> {
+    BorderColor SERVICE_COLOR_BORDER
+    BackgroundColor SERVICE_COLOR_BG
+}
+skinparam file<<Comment>> {
+    BorderColor COMMENT_COLOR_BORDER
+    BackgroundColor COMMENT_COLOR_BG
+}
+
+skinparam defaultTextAlignment left
+skinparam wrapWidth 200
+skinparam maxMessageSize 100
+skinparam defaultFontSize FONT_SIZE_NORMAL
+skinparam defaultFontColor FONT_COLOR_NORMAL
+
+skinparam Arrow {
+    Color ARROW_COLOR
+    FontColor FONT_COLOR_NORMAL
+    FontSize FONT_SIZE_SMALL
+}

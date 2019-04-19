@@ -1,0 +1,27 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+'!include eventstorming-macros.puml
+'!include eventstorming-constants.puml
+'!include eventstorming-styles.puml
+
+LAYOUT_WITH_LEGEND
+
+person(person)
+system(system)
+facade_command(facade_command)
+command(command)
+aggregate(aggregate)
+event(event)
+domain_event(domain_event)
+integration_event(integration_event)
+read_model(read_model)
+user_interface(user_interface)
+policy(policy)
+process(process)
+saga(saga)
+service(service)
+timer(timer)
+query(query)
+comment(comment)
+
+@enduml

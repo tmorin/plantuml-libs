@@ -1,0 +1,28 @@
+@startuml
+!includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+'!include eventstorming-macros.puml
+'!include eventstorming-constants.puml
+'!include eventstorming-styles.puml
+
+system(system)
+command(command1, command)
+aggregate(aggregate)
+domain_event(domain_event, domain event)
+read_model(read_model, read model)
+user_interface(user_interface, user interface)
+command(command2, command)
+policy(policy)
+person(person)
+
+command1 --> aggregate : invoked on
+command1 --> system : invoked on
+aggregate --> domain_event : generates
+system --> domain_event : generates
+domain_event --> read_model : translated into
+read_model --> user_interface : displayed by
+domain_event --> policy : triggers
+policy --> command2 : invokes
+person --> command2 : invokes
+person -l-> user_interface : used by
+
+@enduml
