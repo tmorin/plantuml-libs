@@ -39,8 +39,8 @@ The `person` and `external person`:
 !includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/c4model/c4-all.puml
 person(person1, A person)
 person(person2, A person, An optional descrition.)
-person_ext(person_ext1, An external person)
-person_ext(person_ext2, An external person, An optional description.)
+external_person(external_person1, An external person)
+external_person(external_person2, An external person, An optional description.)
 @enduml
 ```
 
@@ -52,8 +52,8 @@ The `system` and `external system`:
 !includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/c4model/c4-all.puml
 system(person1, A system)
 system(person2, A system, An optional descrition.)
-system_ext(system_ext1, An external system)
-system_ext(system_ext2, An external system, An optional description.)
+external_system(external_system1, An external system)
+external_system(external_system2, An external system, An optional description.)
 @enduml
 ```
 
@@ -143,8 +143,8 @@ LAYOUT_WITH_LEGEND
 person(customer, Personal Banking Customer, "A customer of the bank, with personal bank accounts.")
 system(ebanking, Internet Banking System, "Allows customers to view information about their bank accounts, and make payments.")
 
-system_ext(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
-system_ext(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
+external_system(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
+external_system(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
 
 customer --> ebanking: fmt_name("Views accounts balances, and make payments using")
 ebanking --> mainframe: fmt_name("Gets accounts information from and makes payment using")
@@ -169,8 +169,8 @@ hide stereotype
 LAYOUT_WITH_LEGEND
 
 person(customer, Personal Banking Customer, "A customer of the bank, with personal bank accounts.")
-system_ext(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
-system_ext(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
+external_system(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
+external_system(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
 
 system_boundary(ebanking, Internet Banking System) {
     container(web, Web Application, Java and Spring MVC, "Delivers the static content and the Internet banking single page application.")
@@ -208,8 +208,8 @@ endtitle
 hide stereotype
 LAYOUT_WITH_LEGEND
 
-system_ext(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
-system_ext(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
+external_system(email, E-mail System, "The internal Microsoft Exchange e-mail system.")
+external_system(mainframe, Mainframe Banking System, "Stores all of the core banking information about customers accounts, transactions etc.")
 
 container(spa, Single Page Application, JavaScript and Angular, "Provides all of the Internet banking functionality to customers via their web browser.")
 container(mobile, Mobile App, Xamarin, "Provides a limited subset of the Internet banking functionality to customers via their mobile device.")

@@ -17,13 +17,13 @@
 
 !define person(iId, iName) item_t(rectangle, iId, iName, Person, Person)
 !define person(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Person, Person)
-!define person_ext(iId, iName) item_t(rectangle, iId, iName, Person, ExternalPerson)
-!define person_ext(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Person, ExternalPerson)
+!define external_person(iId, iName) item_t(rectangle, iId, iName, Person, ExternalPerson)
+!define external_person(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Person, ExternalPerson)
 
 !define system(iId, iName) item_t(rectangle, iId, iName, Software System, System)
 !define system(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Software System, System)
-!define system_ext(iId, iName) item_t(rectangle, iId, iName, Software System, ExternalSystem)
-!define system_ext(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Software System, ExternalSystem)
+!define external_system(iId, iName) item_t(rectangle, iId, iName, Software System, ExternalSystem)
+!define external_system(iId, iName, iDesc) item(rectangle, iId, iName, iDesc, Software System, ExternalSystem)
 !define system_boundary(iId, iName) item_t(rectangle, iId, iName, System, Boundary)
 
 !define container(iId, iName) item_t(rectangle, iId, iName, Container, Container)

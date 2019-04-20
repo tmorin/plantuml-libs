@@ -2,8 +2,8 @@
 !definelong LAYOUT_WITH_LEGEND
 legend right
 |=              |= Type |
-|<PERSON_EXT_COLOR_BG>      | external person |
-|<SYSTEM_EXT_COLOR_BG>      | external system |
+|<EXTERNAL_PERSON_COLOR_BG>      | external person |
+|<EXTERNAL_SYSTEM_COLOR_BG>      | external system |
 |<PERSON_COLOR_BG>      | person |
 |<SYSTEM_COLOR_BG>   | system |
 |<CONTAINER_COLOR_BG>   | container |
@@ -53,8 +53,8 @@ skinparam rectangle<<Person>> {
 skinparam rectangle<<ExternalPerson>> {
     StereotypeFontColor ELEMENT_COLOR_TEXT
     FontColor ELEMENT_COLOR_TEXT
-    BorderColor PERSON_EXT_COLOR_BORDER
-    BackgroundColor PERSON_EXT_COLOR_BG
+    BorderColor EXTERNAL_PERSON_COLOR_BORDER
+    BackgroundColor EXTERNAL_PERSON_COLOR_BG
     roundCorner 40
 }
 
@@ -68,8 +68,8 @@ skinparam rectangle<<System>> {
 skinparam rectangle<<ExternalSystem>> {
     StereotypeFontColor ELEMENT_COLOR_TEXT
     FontColor ELEMENT_COLOR_TEXT
-    BorderColor SYSTEM_EXT_COLOR_BORDER
-    BackgroundColor SYSTEM_EXT_COLOR_BG
+    BorderColor EXTERNAL_SYSTEM_COLOR_BORDER
+    BackgroundColor EXTERNAL_SYSTEM_COLOR_BG
 }
 
 skinparam rectangle<<Container>> {

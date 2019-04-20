@@ -7,13 +7,13 @@ LAYOUT_WITH_LEGEND
 
 person(person1, Internal Person1)
 person(person2, Internal Person2, A person consuming services from other systems.)
-person_ext(person3, External Person3)
-person_ext(person4, External Person3, A person consuming services from other systems.)
+external_person(person3, External Person3)
+external_person(person4, External Person3, A person consuming services from other systems.)
 enterprise(toto, Toto) {
 system(system1, Internal System1)
 system(system2, Internal System2, A system providing support to other systems.)
-system_ext(system3, External System3)
-system_ext(system4, External System3, A system providing support to other systems.)
+external_system(system3, External System3)
+external_system(system4, External System3, A system providing support to other systems.)
 system_boundary(system5, "The system") {
     container_t(container1, Container1, jaxrs)
     container_d(container2, Container2, A container doing something.)
