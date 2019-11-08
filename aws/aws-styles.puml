@@ -1,12 +1,12 @@
-skinparam node<<SimpleNotificationService>> {
+skinparam queue<<SimpleNotificationService>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam node<<SimpleQueueService>> {
+skinparam queue<<SimpleQueueService>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam node<<ManagedStreaming>> {
+skinparam rectangle<<ManagedStreaming>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
@@ -18,11 +18,11 @@ skinparam database<<ElastiCache>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam node<<APIGateway>> {
+skinparam rectangle<<APIGateway>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam node<<ElasticLoadBalancing>> {
+skinparam rectangle<<ElasticLoadBalancing>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
@@ -34,7 +34,7 @@ skinparam node<<ElasticComputeCloud>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam node<<ElasticBlockStore>> {
+skinparam storage<<ElasticBlockStore>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
@@ -54,7 +54,7 @@ skinparam storage<<SimpleStorageService>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }
-skinparam storage<<ElasticContainerTask>> {
+skinparam card<<ElasticContainerTask>> {
     BorderColor AWS_COLOR
     StereotypeFontColor AWS_COLOR
 }

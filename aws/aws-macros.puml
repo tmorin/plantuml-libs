@@ -7,13 +7,13 @@
 !define entity(eType, eId, eStereotype, eLabel) eType "eLabel" as eId <<eStereotype>>
 !define entity(eType, eId, eStereotype, eLabel, eTech) eType "eLabel\n[eTech]" as eId <<eStereotype>>
 
-!define sns(eId, eLabel) entity(node, eId, SimpleNotificationService, eLabel)
+!define sns(eId, eLabel) entity(queue, eId, SimpleNotificationService, eLabel)
 !define sns(eId) sns(eId, Notifier)
 
-!define sqs(eId, eLabel) entity(node, eId, SimpleQueueService, eLabel)
+!define sqs(eId, eLabel) entity(queue, eId, SimpleQueueService, eLabel)
 !define sqs(eId) sqs(eId, Queues)
 
-!define msk(eId, eLabel) entity(node, eId, ManagedStreaming, eLabel, Kafka)
+!define msk(eId, eLabel) entity(rectangle, eId, ManagedStreaming, eLabel, Kafka)
 !define msk(eId) msk(eId, Streams)
 
 !define rds(eId, eLabel, eTech) entity(database, eId, RelationalDatabaseService, eLabel, eTech)
@@ -39,10 +39,10 @@
 !define elasticache_redis(eId, eLabel) elasticache(eId, eLabel, Redis)
 !define elasticache_redis(eId) elasticache_redis(eId, Cache)
 
-!define api_gateway(eId, eLabel) entity(node, eId, APIGateway, eLabel)
+!define api_gateway(eId, eLabel) entity(rectangle, eId, APIGateway, eLabel)
 !define api_gateway(eId) api_gateway(eId, Gateway)
 
-!define elb(eId, eLabel) entity(node, eId, ElasticLoadBalancing, eLabel)
+!define elb(eId, eLabel) entity(rectangle, eId, ElasticLoadBalancing, eLabel)
 !define elb(eId) elb(eId, Load Balancer)
 
 !define ecs(eId, eLabel, eTech) entity(node, eId, ElasticContainerService, eLabel, eTech)
@@ -59,7 +59,7 @@
 !define ec2(eId, eLabel) entity(node, eId, ElasticComputeCloud, eLabel)
 !define ec2(eId) ec2(eId, EC2)
 
-!define ebs(eId, eLabel) entity(node, eId, ElasticBlockStore, eLabel)
+!define ebs(eId, eLabel) entity(storage, eId, ElasticBlockStore, eLabel)
 !define ebs(eId) ebs(eId, Storage)
 
 !define ecr(eId, eLabel) entity(node, eId, ElasticContainerRegistry, eLabel)
