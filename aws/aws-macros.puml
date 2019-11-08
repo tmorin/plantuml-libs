@@ -49,6 +49,10 @@
 !define ecs(eId, eLabel) entity(node, eId, ElasticContainerService, eLabel)
 !define ecs(eId) ecs(eId, Containers Orchestrator)
 
+!define ecs_task(eId, eLabel, eTech) entity(card, eId, ElasticContainerTask, eLabel, eTech)
+!define ecs_task(eId, eLabel) entity(card, eId, ElasticContainerTask, eLabel)
+!define ecs_task(eId) ecs(eId, Task)
+
 !define eks(eId, eLabel) ecs(eId, eLabel, Kubernetes)
 !define eks(eId) eks(eId, Containers Orchestrator)
 
