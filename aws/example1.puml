@@ -4,8 +4,8 @@
 '!include aws-constants.puml
 '!include aws-styles.puml
 
-external_systems(extsys)
-external_systems(provider, External Provider)
+external_system(extsys)
+external_system(provider, External Provider)
 sns(app_sns)
 sqs(app_sqs)
 msk(app_msk)

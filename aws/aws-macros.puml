@@ -2,7 +2,7 @@
 !define fmt_label(eLabel) "eLabel"
 !define fmt_label(eLabel, eTech) "eLabel\n[eTech]"
 
-!define external_systems(eId, eLabel="External Systems") cloud "eLabel" as eId
+!define external_system(eId, eLabel="External System") cloud "eLabel" as eId
 
 !define entity(eType, eId, eStereotype, eLabel) eType "eLabel" as eId <<eStereotype>>
 !define entity(eType, eId, eStereotype, eLabel, eTech) eType "eLabel\n[eTech]" as eId <<eStereotype>>
