@@ -29,6 +29,10 @@
 !define rds_replica(eId, eLabel) rds(eId, eLabel, Replica)
 !define rds_replica(eId) rds_replica(eId, Database)
 
+!define elasticsearch(eId, eLabel, eTech) entity(database, eId, Elasticsearch, eLabel, eTech)
+!define elasticsearch(eId, eLabel) entity(database, eId, Elasticsearch, eLabel)
+!define elasticsearch(eId) elasticsearch(eId, ElasticSearch)
+
 !define elasticache(eId, eLabel, eTech) entity(database, eId, ElastiCache, eLabel, eTech)
 !define elasticache(eId, eLabel) entity(database, eId, ElastiCache, eLabel)
 !define elasticache(eId) elasticache(eId, Cache)
