@@ -4,21 +4,24 @@
 '!include aws-constants.puml
 '!include aws-styles.puml
 
-external_system(extsys)
-external_system(provider, External Provider)
-sns(app_sns)
-sqs(app_sqs)
-msk(app_msk)
-api_gateway(app_ag)
-rds_mariadb(app_db)
-rds_replica(app_db_rep)
-elasticache_memcached(app_memcached)
-eks(app_eks)
-elb(app_elb)
-ebs(app_ebs)
-s3_glacier(app_s3)
-elasticsearch(app_elasticsearch)
-
+vpc(another_vpc, Another VPC)
+vpc(my_vpc, My VPC){
+    external_system(extsys)
+    external_system(provider, External Provider)
+    sns(app_sns)
+    sqs(app_sqs)
+    msk(app_msk)
+    api_gateway(app_ag)
+    rds_mariadb(app_db)
+    rds_replica(app_db_rep)
+    elasticache_memcached(app_memcached)
+    eks(app_eks)
+    elb(app_elb)
+    ebs(app_ebs)
+    s3_glacier(app_s3)
+    elasticsearch(app_elasticsearch)
+}
+my_vpc -up-> another_vpc
 extsys --> app_ag : fmt_tech(HTTPS)
 extsys --> app_sqs : fmt_tech(HTTPS)
 extsys <-- app_sns : fmt_tech(HTTPS/mails/...)
@@ -35,5 +38,4 @@ app_eks ..> app_ebs : fmt_label(manages)
 app_eks -l-> provider : fmt_tech(HTTPS)
 app_eks .> app_elb : manages
 app_db_rep .> app_db : fmt_label(replicates)
-
 @enduml

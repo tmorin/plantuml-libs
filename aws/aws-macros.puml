@@ -89,5 +89,5 @@
 !define s3_glacier(eId, eLabel) s3(eId, eLabel, Glacier)
 !define s3_glacier(eId) s3_glacier(eId, S3 Glacier)
 
-!define vpc(eId, eLabel) entity(card, eId, VirtualPrivateCloud, eLabel)
+!define vpc(eId, eLabel) entity(rectangle, eId, VirtualPrivateCloud, eLabel)
 !define vpc(eId) vpc(eId, VPC)
