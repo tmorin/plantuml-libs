@@ -1,5 +1,5 @@
 ' LAYOUT
-!definelong LAYOUT_WITH_LEGEND
+!function legend()
 legend right
 |=              |= Type |
 |<EXTERNAL_PERSON_COLOR_BG>      | external person |
@@ -9,7 +9,7 @@ legend right
 |<CONTAINER_COLOR_BG>   | container |
 |<COMPONENT_COLOR_BG>      | component |
 endlegend
-!enddefinelong
+!endfunction
 
 ' DEFAULT STYLES
 skinparam defaultTextAlignment center

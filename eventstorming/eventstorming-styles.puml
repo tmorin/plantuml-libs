@@ -1,5 +1,5 @@
 
-!definelong LAYOUT_WITH_LEGEND
+!function legend()
 legend right
 |= Color |= Type |= Color |= Type |
 |<PERSON_COLOR_BG>| person |<USER_INTERFACE_COLOR_BG>| user interface |
@@ -12,7 +12,7 @@ legend right
 |<INTEGRATION_EVENT_COLOR_BG>| integration event |<COMMENT_COLOR_BG>| comment |
 |<READ_MODEL_COLOR_BG>| read model |
 endlegend
-!enddefinelong
+!endfunction
 
 skinparam file {
     StereotypeFontSize FONT_SIZE_SMALL
