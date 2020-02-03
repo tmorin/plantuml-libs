@@ -2,5 +2,9 @@
 
 Set of libraries for [PlantUML](http://plantuml.com).
 
-- [C4 Model](c4model/README.md)
+- [C4 Model V2](c4model-v2/README.md)
 - [EventStorming](eventstorming/README.md)
+
+Deprecated libraries:
+
+- [C4 Model](c4model/README.md)

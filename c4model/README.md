@@ -1,5 +1,7 @@
 # C4 Model
 
+This library is deprecated! Please use [C4 Model V2](../c4model-v2/README.md).
+
 Library implementing elements respecting the [C4 Model](https://c4model.com).
 
 ## Install
