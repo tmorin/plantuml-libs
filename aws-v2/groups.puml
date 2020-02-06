@@ -241,14 +241,14 @@ skinparam Rectangle<<GroupAwsStepFunctionsWorkflow>> {
     BackgroundColor transparent
     shadowing false
 }
-!function GroupGenericGroup($id, $name="Generic group", $tech="")
+!function GroupGeneric($id, $name="Generic", $tech="")
   !if ($tech)
-    Rectangle $id <<GroupGenericGroup>> as "<size:18>$name</size> <size:11><color:$COLOR_GREY>[$tech]</color></size>"
+    Rectangle $id <<GroupGeneric>> as "<size:18>$name</size> <size:11><color:$COLOR_GREY>[$tech]</color></size>"
   !else
-    Rectangle $id <<GroupGenericGroup>> as "<size:18>$name</size>"
+    Rectangle $id <<GroupGeneric>> as "<size:18>$name</size>"
   !endif
 !endfunction
-skinparam Rectangle<<GroupGenericGroup>> {
+skinparam Rectangle<<GroupGeneric>> {
     StereotypeFontColor $COLOR_GREY
     BorderThickness 1
     BorderColor $COLOR_GREY
@@ -257,6 +257,23 @@ skinparam Rectangle<<GroupGenericGroup>> {
     FontColor $COLOR_GREY
     FontSize 20
     BackgroundColor transparent
+    shadowing false
+}
+!function GroupGenericPlain($id, $name="Generic plain", $tech="")
+  !if ($tech)
+    Rectangle $id <<GroupGenericPlain>> as "<size:18>$name</size> <size:11><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupGenericPlain>> as "<size:18>$name</size>"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupGenericPlain>> {
+    StereotypeFontColor $COLOR_DARK_BLUE
+    BorderThickness 0
+    BorderColor transparent
+    FontStyle none
+    FontColor $COLOR_DARK_BLUE
+    FontSize 20
+    BackgroundColor $COLOR_GREY_BG
     shadowing false
 }
 @enduml

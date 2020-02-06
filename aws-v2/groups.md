@@ -140,13 +140,23 @@ GroupAwsStepFunctionsWorkflow("element13", "an optional name")
 
 ![GroupAwsStepFunctionsWorkflow](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2/groups.example.puml&idx=13&GroupAwsStepFunctionsWorkflow)
 
-## GroupGenericGroup
+## GroupGeneric
 ```plantuml
 !global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 includeSubLibrary("groups")
-GroupGenericGroup("element14", "an optional name")
+GroupGeneric("element14", "an optional name")
 ```
 
-![GroupGenericGroup](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2/groups.example.puml&idx=14&GroupGenericGroup)
+![GroupGeneric](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2/groups.example.puml&idx=14&GroupGeneric)
+
+## GroupGenericPlain
+```plantuml
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupGenericPlain("element15", "an optional name")
+```
+
+![GroupGenericPlain](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2/groups.example.puml&idx=15&GroupGenericPlain)
 

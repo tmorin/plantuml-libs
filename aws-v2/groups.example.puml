@@ -111,11 +111,19 @@ GroupAwsStepFunctionsWorkflow("group", "an optional name") {
     note "the group area of GroupAwsStepFunctionsWorkflow" as GroupAwsStepFunctionsWorkflowNote
 }
 @enduml
-@startuml(id=GroupGenericGroup)
+@startuml(id=GroupGeneric)
 !global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 includeSubLibrary("groups")
-GroupGenericGroup("group", "an optional name") {
-    note "the group area of GroupGenericGroup" as GroupGenericGroupNote
+GroupGeneric("group", "an optional name") {
+    note "the group area of GroupGeneric" as GroupGenericNote
+}
+@enduml
+@startuml(id=GroupGenericPlain)
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupGenericPlain("group", "an optional name") {
+    note "the group area of GroupGenericPlain" as GroupGenericPlainNote
 }
 @enduml
