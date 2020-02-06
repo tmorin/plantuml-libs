@@ -20,9 +20,9 @@
 
 !function Relationship($desc="", $tech="")
     !if ($desc) && ($tech)
-        <b><size:11>$desc</size></b>\n<size:11>[$tech]</size>
+        <size:12>$desc</size>\n<size:11>[$tech]</size>
     !elseif ($desc)
-        <b><size:11>$desc</size></b>
+        <size:12>$desc</size>
     !else
         <size:11>[$tech]</size>
     !endif
