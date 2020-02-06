@@ -1,0 +1,13 @@
+' the content of this file has been automatically generated
+@startuml(id=AmazonGamelift)
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/GameTech")
+AmazonGamelift("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=GameTech)
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/GameTech")
+GameTech("element1", "an optional name", "an optional technology")
+@enduml

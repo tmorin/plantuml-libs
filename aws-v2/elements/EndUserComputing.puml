@@ -1,0 +1,58 @@
+' the content of this file has been automatically generated
+@startuml
+!function AmazonAppstream20($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("EndUserComputing/AmazonAppstream20")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonWorkdocs($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("EndUserComputing/AmazonWorkdocs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonWorklink($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("EndUserComputing/AmazonWorklink")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonWorkspaces($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("EndUserComputing/AmazonWorkspaces")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EndUserComputing($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("EndUserComputing/EndUserComputing")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

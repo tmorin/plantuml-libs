@@ -1,0 +1,421 @@
+' the content of this file has been automatically generated
+@startuml
+!function AdConnector($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AdConnector")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCloudDirectory($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonCloudDirectory")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCognito($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonCognito")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonDetective($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonDetective")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonGuardduty($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonGuardduty")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonInspectorAgent($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonInspectorAgent")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonInspector($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonInspector")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonMacie($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AmazonMacie")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsArtifact($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsArtifact")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCertificateAuthority($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsCertificateAuthority")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCertificateManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsCertificateManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudhsm($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsCloudhsm")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsDirectoryService($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsDirectoryService")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsFirewallManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsFirewallManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamAddOn($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAddOn")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamAwsStsAlternate($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAwsStsAlternate")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamAwsSts($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAwsSts")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamDataEncryptionKey($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamEncryptedData($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamEncryptedData")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamLongTermSecurityCredential($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamLongTermSecurityCredential")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamMfaToken($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamMfaToken")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamPermissions($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamPermissions")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIam($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamRole($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamRole")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsIdentityAndAccessManagementIamTemporarySecurityCredential($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamTemporarySecurityCredential")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsKeyManagementService($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsKeyManagementService")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsManagedMicrosoftAd($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsManagedMicrosoftAd")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsResourceAccessManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsResourceAccessManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSecretsManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsSecretsManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSecurityHub($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsSecurityHub")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsShield($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsShield")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsShieldShieldAdvanced($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsShieldShieldAdvanced")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSingleSignOn($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsSingleSignOn")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsWafFilteringRule($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsWafFilteringRule")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsWaf($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/AwsWaf")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SecurityHubFinding($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/SecurityHubFinding")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SecurityIdentityAndCompliance($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/SecurityIdentityAndCompliance")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SimpleAd($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("SecurityIdentityCompliance/SimpleAd")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

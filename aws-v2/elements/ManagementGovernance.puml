@@ -1,0 +1,553 @@
+' the content of this file has been automatically generated
+@startuml
+!function AmazonCloudwatchAlarm($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCloudwatchAlarm")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCloudwatchEventEventBased($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCloudwatchEventEventBased")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCloudwatchEventTimeBased($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCloudwatchEventTimeBased")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCloudwatch($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCloudwatch")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCloudwatchRule($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCloudwatchRule")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonCodeguru($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AmazonCodeguru")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsAutoScaling($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsAutoScaling")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudformationChangeSet($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCloudformationChangeSet")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudformation($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCloudformation")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudformationStack($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCloudformationStack")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudformationTemplate($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCloudformationTemplate")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCloudtrail($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCloudtrail")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCommandLineInterface($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsCommandLineInterface")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsConfig($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsConfig")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsControlTower($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsControlTower")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsLicenseManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsLicenseManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsManagedServices($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsManagedServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsManagementConsole($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsManagementConsole")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksApps($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksApps")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksDeployments($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksDeployments")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksInstances($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksInstances")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksLayers($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksLayers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksMonitoring($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksMonitoring")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksPermissions($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksPermissions")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworks($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworks")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksResources($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksResources")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOpsworksStack2($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOpsworksStack2")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOrganizationsAccount($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOrganizationsAccount")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOrganizationsOrganizationalUnit($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOrganizationsOrganizationalUnit")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsOrganizations($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsOrganizations")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsPersonalHealthDashboard($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsPersonalHealthDashboard")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsServiceCatalog($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsServiceCatalog")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerAutomation($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerAutomation")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerDocuments($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerDocuments")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerInventory($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerInventory")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerMaintenanceWindows($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerMaintenanceWindows")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerParameterStore($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerParameterStore")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerPatchManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerPatchManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerRunCommand($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerRunCommand")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSystemsManagerStateManager($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsSystemsManagerStateManager")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisorChecklistCost($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisorChecklistCost")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisorChecklistFaultTolerant($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisorChecklistPerformance($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisorChecklistPerformance")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisorChecklist($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisorChecklist")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisorChecklistSecurity($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisorChecklistSecurity")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsTrustedAdvisor($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsTrustedAdvisor")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsWellArchitectedTool($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/AwsWellArchitectedTool")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ManagementAndGovernance($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/ManagementAndGovernance")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SystemsManagerOpscenter($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("ManagementGovernance/SystemsManagerOpscenter")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

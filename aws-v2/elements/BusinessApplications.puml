@@ -1,0 +1,47 @@
+' the content of this file has been automatically generated
+@startuml
+!function AlexaForBusiness($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("BusinessApplications/AlexaForBusiness")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonChime($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("BusinessApplications/AmazonChime")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonWorkmail($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("BusinessApplications/AmazonWorkmail")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function BusinessApplications($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("BusinessApplications/BusinessApplications")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

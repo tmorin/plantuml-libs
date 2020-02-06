@@ -1,0 +1,25 @@
+' the content of this file has been automatically generated
+@startuml
+!function AwsBraket($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("QuantumTechnologies/AwsBraket")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function QuantumTechnologies($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("QuantumTechnologies/QuantumTechnologies")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

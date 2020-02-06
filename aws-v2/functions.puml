@@ -1,0 +1,12 @@
+@startuml
+!function getIconPath($size, $name) return $IMAGE_BASE_PATH + "icons-" + $size + "x" + $size + "/" + $name + ".png"
+!function get50Path($name) return getIconPath("50", $name)
+!function getIcon($name) return get50Path($name)
+!function includeSubLibrary($name)
+    !if (%get_variable_value("$INCLUSION_MODE") == "remote")
+        !includeurl $AWS_LIB_BASE_URL/$name.puml
+    !else
+        !include $name.puml
+    !endif
+!endfunction
+@enduml

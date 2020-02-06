@@ -1,0 +1,22 @@
+@startuml
+
+hide stereotype
+
+' DEFAULT STYLES
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+skinparam Arrow {
+    Color $COLOR_DARK_BLUE
+    FontColor $COLOR_DARK_BLUE
+}
+
+skinparam Card<<AwsElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    shadowing false
+}
+
+@enduml

@@ -1,0 +1,25 @@
+' the content of this file has been automatically generated
+@startuml
+!function AmazonGamelift($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("GameTech/AmazonGamelift")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function GameTech($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("GameTech/GameTech")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

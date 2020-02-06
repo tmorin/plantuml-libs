@@ -1,0 +1,13 @@
+' the content of this file has been automatically generated
+@startuml(id=AwsGroundStation)
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Satellite")
+AwsGroundStation("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=Satellite)
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v2"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Satellite")
+Satellite("element1", "an optional name", "an optional technology")
+@enduml
