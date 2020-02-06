@@ -1,10 +1,10 @@
 @startuml
-'!global $INCLUSION_MODE="local"
-'!include library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v2"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+'!global $AWS_LIB_BRANCH="master"
+'!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v2"
+'!includeurl $AWS_LIB_BASE_URL/library.puml
 
 includeSubLibrary("groups")
 includeSubLibrary("elements/Compute")
@@ -24,8 +24,8 @@ GroupAwsCloud('aws') {
     AmazonSimpleStorageServiceS3BucketWithObjects("bucket_output", "Amazon S3 output bucket")
 }
 
-git_users -down-> git_server : git push
-git_server -down-> lambda0 : git webhook
+git_users -down-> git_server : Relationship("git push", "ssh")
+git_server -down-> lambda0 : Relationship("git webhook", "https")
 lambda0 -down-> lambda1
 lambda1 -down-> bucket_ssh
 lambda1 -down-> kms
