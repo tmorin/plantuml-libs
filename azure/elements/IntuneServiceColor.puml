@@ -1,0 +1,146 @@
+' the content of this file has been automatically generated
+@startuml
+!function ClientApps($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/ClientApps")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DedicatedEventHub($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/DedicatedEventHub")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DeviceCompliance($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/DeviceCompliance")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DeviceConfig($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/DeviceConfig")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DevicesGroups($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/DevicesGroups")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Ebooks($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/Ebooks")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Enrollment($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/Enrollment")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ExchangeOnPremisesAccess($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/ExchangeOnPremisesAccess")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function IntuneAppProtection($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/IntuneAppProtection")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ManagedDesktop($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/ManagedDesktop")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SecurityBaselines($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/SecurityBaselines")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SoftwareUpdate($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/SoftwareUpdate")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Tools($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IntuneServiceColor/Tools")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

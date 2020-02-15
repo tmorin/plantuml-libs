@@ -1,0 +1,212 @@
+' the content of this file has been automatically generated
+@startuml
+!function AzureCacheForRedis($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureCacheForRedis")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureCachePlusRedis($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureCachePlusRedis")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureCosmosDb($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureCosmosDb")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDatabaseForMariadbServers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureDatabaseForMariadbServers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDatabaseForMysqlServers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureDatabaseForMysqlServers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDatabaseForPostgresqlServers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureDatabaseForPostgresqlServers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDatabaseGeneric($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureDatabaseGeneric")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureSqlDatawarehouse($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/AzureSqlDatawarehouse")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function BlobStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/BlobStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataLake($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/DataLake")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ElasticDatabasePools($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/ElasticDatabasePools")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ElasticJobAgents($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/ElasticJobAgents")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ManagedDatabases($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/ManagedDatabases")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SqlDatabases($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/SqlDatabases")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SqlManagedInstances($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/SqlManagedInstances")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SqlServers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/SqlServers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SqlServerStretchDatabases($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/SqlServerStretchDatabases")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualClusters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/VirtualClusters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualDatacenter($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("DatabasesServiceColor/VirtualDatacenter")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

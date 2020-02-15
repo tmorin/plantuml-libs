@@ -1,0 +1,30 @@
+@startuml
+' https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/training-python-models
+
+'!global $INCLUSION_MODE="local"
+'!include library.puml
+
+!global $AZURE_LIB_BRANCH="master"
+!global $AZURE_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AZURE_LIB_BRANCH + "/azure"
+!includeurl $AZURE_LIB_BASE_URL/library.puml
+
+includeSubLibrary("elements/ComputeServiceColor/Vm")
+includeSubLibrary("elements/AiAndMlServiceColor")
+includeSubLibrary("elements/ContainerServiceColor")
+includeSubLibrary("elements/DatabasesServiceColor")
+
+Vm("dsvm", "Microsoft Data Science Virtual Machine (DSVM)")
+MachineLearningServiceWorkspaces("mls", "Azure Machine Learning service")
+VmScaleSets('mlc', 'Azure Machine Learning compute')
+ContainerRegistries("cr", "Azure Container Registry")
+BlobStorage("sb", "Azure Storage Blobs")
+
+dsvm -> mls : Training and test data and script
+dsvm <- mls : Training results
+mls --> cr : Docker container
+mls <-up-> sb
+mls -> mlc : Script execution commands
+mls <- mlc : Status
+mlc <-up-> sb
+cr -up-> mlc
+@enduml

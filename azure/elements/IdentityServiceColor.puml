@@ -1,0 +1,146 @@
+' the content of this file has been automatically generated
+@startuml
+!function AccessReview($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AccessReview")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ActiveDirectoryConnectHealth($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/ActiveDirectoryConnectHealth")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ActiveDirectory($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/ActiveDirectory")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppRegistrations($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AppRegistrations")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureAdB2c($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AzureAdB2c")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureAdDomainServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AzureAdDomainServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureAdIdentityProtection($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AzureAdIdentityProtection")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureAdPrivilegedIdentityManagement($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AzureAdPrivilegedIdentityManagement")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureInformationProtection($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/AzureInformationProtection")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ConditionalAccess($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/ConditionalAccess")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EnterpriseApplications($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/EnterpriseApplications")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function IdentityGovernance($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/IdentityGovernance")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ManagedIdentities($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("IdentityServiceColor/ManagedIdentities")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

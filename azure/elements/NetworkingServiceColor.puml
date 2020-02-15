@@ -1,0 +1,289 @@
+' the content of this file has been automatically generated
+@startuml
+!function ApplicationGateway($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/ApplicationGateway")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ApplicationSecurityGroups($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/ApplicationSecurityGroups")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureFirewall($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/AzureFirewall")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CdnProfiles($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/CdnProfiles")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Connections($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/Connections")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DdosProtectionPlans($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/DdosProtectionPlans")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DnsPrivateZones($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/DnsPrivateZones")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DnsZones($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/DnsZones")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ExpressrouteCircuits($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/ExpressrouteCircuits")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function FrontDoors($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/FrontDoors")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function LoadBalancers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/LoadBalancers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function LocalNetworkGateways($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/LocalNetworkGateways")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function NetworkInterfaces($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/NetworkInterfaces")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function NetworkSecurityGroupsClassic($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/NetworkSecurityGroupsClassic")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function NetworkWatcher($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/NetworkWatcher")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function OnPremisesDataGateways($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/OnPremisesDataGateways")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function PublicIpAddresses($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/PublicIpAddresses")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ReservedIpAddressesClassic($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/ReservedIpAddressesClassic")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function RouteFilters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/RouteFilters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function RouteTables($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/RouteTables")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ServiceEndpointPolicies($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/ServiceEndpointPolicies")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TrafficManagerProfiles($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/TrafficManagerProfiles")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualNetworkClassic($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/VirtualNetworkClassic")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualNetworkGateways($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/VirtualNetworkGateways")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualNetworks($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/VirtualNetworks")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualWans($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("NetworkingServiceColor/VirtualWans")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

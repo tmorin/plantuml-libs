@@ -1,0 +1,113 @@
+' the content of this file has been automatically generated
+@startuml
+!function ApiConnections($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/ApiConnections")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppServiceCertificates($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AppServiceCertificates")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppServiceDomains($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AppServiceDomains")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppServiceEnvironments($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AppServiceEnvironments")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppServicePlans($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AppServicePlans")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AppServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AppServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureMediaServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AzureMediaServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureSearch($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/AzureSearch")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function NotificationHubNamespaces($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/NotificationHubNamespaces")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Signalr($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("WebServiceColor/Signalr")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

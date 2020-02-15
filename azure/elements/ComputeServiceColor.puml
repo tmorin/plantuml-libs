@@ -1,0 +1,135 @@
+' the content of this file has been automatically generated
+@startuml
+!function BatchAccounts($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/BatchAccounts")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CitrixVirtualDesktopsEssentials($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/CitrixVirtualDesktopsEssentials")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudServicesClassic($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/CloudServicesClassic")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/CloudServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudsimpleVirtualMachines($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/CloudsimpleVirtualMachines")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DiskSnapshots($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/DiskSnapshots")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Disks($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/Disks")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function FunctionApps($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/FunctionApps")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function MeshApplications($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/MeshApplications")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SapHanaOnAzure($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/SapHanaOnAzure")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ServiceFabricClusters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/ServiceFabricClusters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VmImages($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("ComputeServiceColor/VmImages")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

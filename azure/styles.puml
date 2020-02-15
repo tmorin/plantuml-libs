@@ -1,0 +1,24 @@
+@startuml
+
+hide stereotype
+
+' DEFAULT STYLES
+skinparam defaultTextAlignment center
+skinparam wrapWidth 155
+skinparam maxMessageSize 155
+skinparam FontSize $FONT_SIZE
+
+skinparam Arrow {
+    Color $ARROW_COLOR
+    FontColor $ARROW_COLOR
+}
+
+skinparam Card<<AzureElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    FontSize $FONT_SIZE_MD
+    shadowing false
+}
+
+@enduml

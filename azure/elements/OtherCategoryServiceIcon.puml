@@ -1,0 +1,124 @@
+' the content of this file has been automatically generated
+@startuml
+!function CloudsimpleNodes($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/CloudsimpleNodes")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudsimpleServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/CloudsimpleServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Controllers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/Controllers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CustomerLockbox($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/CustomerLockbox")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Education($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/Education")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ImageDefinitions($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/ImageDefinitions")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ImageVersions($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/ImageVersions")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ResourceExplorer($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/ResourceExplorer")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SharedImageGalleries($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/SharedImageGalleries")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TenantStatus($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/TenantStatus")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function WebAppFirewall($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("OtherCategoryServiceIcon/WebAppFirewall")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

@@ -1,0 +1,124 @@
+' the content of this file has been automatically generated
+@startuml
+!function AnalysisServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/AnalysisServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDatabricks($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/AzureDatabricks")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureDataExplorerClusters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/AzureDataExplorerClusters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataFactories($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/DataFactories")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataLakeAnalytics($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/DataLakeAnalytics")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataLakeStoreGen1($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/DataLakeStoreGen1")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EventHubClusters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/EventHubClusters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EventHubs($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/EventHubs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Hdinsightclusters($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/Hdinsightclusters")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function LogAnalyticsWorkspaces($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/LogAnalyticsWorkspaces")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StreamAnalyticsJobs($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("AnalyticsServiceColor/StreamAnalyticsJobs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

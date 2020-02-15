@@ -1,0 +1,190 @@
+' the content of this file has been automatically generated
+@startuml
+!function ArchiveStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/ArchiveStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Azurefxtedgefiler($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/Azurefxtedgefiler")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureNetappFiles($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/AzureNetappFiles")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AzureStorsimpleDeviceManagers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/AzureStorsimpleDeviceManagers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function BlobStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/BlobStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataBoxEdgeDataBoxGateway($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/DataBoxEdgeDataBoxGateway")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataBox($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/DataBox")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DataLakeStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/DataLakeStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function GeneralStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/GeneralStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function QueuesStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/QueuesStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorageAccountsClassic($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorageAccountsClassic")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorageAccounts($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorageAccounts")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorageExplorer($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorageExplorer")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorageSyncServices($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorageSyncServices")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorsimpleDataManagers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorsimpleDataManagers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StorsimpleDeviceManagers($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/StorsimpleDeviceManagers")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TableStorage($id, $name="", $tech="")
+  card $id <<AzureElement>> [
+    <img:getIcon("StorageServiceColor/TableStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

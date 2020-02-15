@@ -1,0 +1,143 @@
+' the content of this file has been automatically generated
+@startuml
+!function GroupDotted($id, $name="Dotted", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupDotted>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupDotted>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupDotted>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupDotted>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 1
+  BorderColor $COLOR_GREY_BD
+  BorderStyle dotted
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupDashed($id, $name="Dashed", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupDashed>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupDashed>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupDashed>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupDashed>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 1
+  BorderColor $COLOR_GREY_BD
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupTransparent($id, $name="Transparent", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupTransparent>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupTransparent>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupTransparent>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupTransparent>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupPlain($id, $name="Plain", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPlain>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPlain>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPlain>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPlain>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 1
+  BorderColor $COLOR_GREY_BD_LIGHT
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_GREY_BG
+  shadowing false
+}
+!function GroupPlainDotted($id, $name="Plain Dotted", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPlainDotted>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPlainDotted>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPlainDotted>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPlainDotted>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 1
+  BorderColor $COLOR_GREY_BD
+  BorderStyle dotted
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_GREY_BG
+  shadowing false
+}
+!function GroupPlainDashed($id, $name="Plain Dashed", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPlainDashed>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPlainDashed>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPlainDashed>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPlainDashed>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 1
+  BorderColor $COLOR_GREY_BD
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_GREY_BG
+  shadowing false
+}
+!function GroupNetwork($id, $name="Network", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupNetwork>> as "<$SpriteVirtualNetworks> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupNetwork>> as "<$SpriteVirtualNetworks> <size:$FONT_SIZE_SM><color:$COLOR_GREY_FC_LIGHT>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupNetwork>> as "<$SpriteVirtualNetworks> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupNetwork>> {
+  StereotypeFontColor $COLOR_NETWORK_TRANSPARENT_BORDER
+  BorderThickness 1
+  BorderColor $COLOR_NETWORK_TRANSPARENT_BORDER
+  BorderStyle dotted
+  FontStyle none
+  FontColor $COLOR_NETWORK_TRANSPARENT_BORDER
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml
