@@ -103,3 +103,59 @@ rectangle aSprite as "<$SpriteGroupVpcSubnetPrivate>"
 rectangle aSprite as "<$SpriteGroupVpcSubnetPublic>"
 ```
 ![SpriteGroupVpcSubnetPublic](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=12&SpriteGroupVpcSubnetPublic)
+## SpriteAwsEc2ContainerRegistry
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsEc2ContainerRegistry>"
+```
+![SpriteAwsEc2ContainerRegistry](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=0&SpriteAwsEc2ContainerRegistry)
+## SpriteAwsElasticContainer
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsElasticContainer>"
+```
+![SpriteAwsElasticContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=1&SpriteAwsElasticContainer)
+## SpriteAwsElasticContainerContainer
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsElasticContainerContainer>"
+```
+![SpriteAwsElasticContainerContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=2&SpriteAwsElasticContainerContainer)
+## SpriteAwsElasticContainerService
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsElasticContainerService>"
+```
+![SpriteAwsElasticContainerService](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=3&SpriteAwsElasticContainerService)
+## SpriteAwsElasticContainerTask
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsElasticContainerTask>"
+```
+![SpriteAwsElasticContainerTask](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=4&SpriteAwsElasticContainerTask)
+## SpriteAwsElasticKubernetes
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsElasticKubernetes>"
+```
+![SpriteAwsElasticKubernetes](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=5&SpriteAwsElasticKubernetes)
+## SpriteAwsFargate
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+rectangle aSprite as "<$SpriteAwsFargate>"
+```
+![SpriteAwsFargate](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=6&SpriteAwsFargate)

@@ -320,4 +320,124 @@ skinparam Rectangle<<GroupPlain>> {
   BackgroundColor $COLOR_GREY_BG
   shadowing false
 }
+!function GroupContainerRegistry($id, $name="Container Registry", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupContainerRegistry>> as "<$SpriteAwsEc2ContainerRegistry> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupContainerRegistry>> as "<$SpriteAwsEc2ContainerRegistry> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupContainerRegistry>> as "<$SpriteAwsEc2ContainerRegistry> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupContainerRegistry>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupElasticContainer($id, $name="Elastic Container", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupElasticContainer>> as "<$SpriteAwsElasticContainer> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupElasticContainer>> as "<$SpriteAwsElasticContainer> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupElasticContainer>> as "<$SpriteAwsElasticContainer> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupElasticContainer>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupEcContainer($id, $name="EC Container", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupEcContainer>> as "<$SpriteAwsElasticContainerContainer> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupEcContainer>> as "<$SpriteAwsElasticContainerContainer> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupEcContainer>> as "<$SpriteAwsElasticContainerContainer> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupEcContainer>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupEcService($id, $name="EC Service", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupEcService>> as "<$SpriteAwsElasticContainerService> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupEcService>> as "<$SpriteAwsElasticContainerService> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupEcService>> as "<$SpriteAwsElasticContainerService> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupEcService>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupEcTask($id, $name="EC Task", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupEcTask>> as "<$SpriteAwsElasticContainerTask> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupEcTask>> as "<$SpriteAwsElasticContainerTask> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupEcTask>> as "<$SpriteAwsElasticContainerTask> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupEcTask>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupElasticKubernetes($id, $name="Elastic Kubernetes", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupElasticKubernetes>> as "<$SpriteAwsElasticKubernetes> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupElasticKubernetes>> as "<$SpriteAwsElasticKubernetes> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupElasticKubernetes>> as "<$SpriteAwsElasticKubernetes> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupElasticKubernetes>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
 @enduml

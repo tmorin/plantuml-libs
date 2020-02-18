@@ -175,3 +175,69 @@ GroupPlain("element15", "an optional name")
 
 ![GroupPlain](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=15&GroupPlain)
 
+## GroupContainerRegistry
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupContainerRegistry("element16", "an optional name")
+```
+
+![GroupContainerRegistry](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=16&GroupContainerRegistry)
+
+## GroupElasticContainer
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupElasticContainer("element17", "an optional name")
+```
+
+![GroupElasticContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=17&GroupElasticContainer)
+
+## GroupEcContainer
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupEcContainer("element18", "an optional name")
+```
+
+![GroupEcContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=18&GroupEcContainer)
+
+## GroupEcService
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupEcService("element19", "an optional name")
+```
+
+![GroupEcService](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=19&GroupEcService)
+
+## GroupEcTask
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupEcTask("element20", "an optional name")
+```
+
+![GroupEcTask](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=20&GroupEcTask)
+
+## GroupElasticKubernetes
+```plantuml
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("groups")
+GroupElasticKubernetes("element21", "an optional name")
+```
+
+![GroupElasticKubernetes](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/groups.exp.puml&idx=21&GroupElasticKubernetes)
+

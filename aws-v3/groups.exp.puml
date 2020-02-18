@@ -1,145 +1,177 @@
 ' the content of this file has been automatically generated
 @startuml(id=GroupAwsCloud)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupAwsCloud("group", "an optional name", "an optional tech") {
     note "the group area of GroupAwsCloud" as GroupAwsCloudNote
 }
 @enduml
 @startuml(id=GroupRegion)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupRegion("group", "an optional name", "an optional tech") {
     note "the group area of GroupRegion" as GroupRegionNote
 }
 @enduml
 @startuml(id=GroupAvailabilityZone)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupAvailabilityZone("group", "an optional name", "an optional tech") {
     note "the group area of GroupAvailabilityZone" as GroupAvailabilityZoneNote
 }
 @enduml
 @startuml(id=GroupSecurity)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupSecurity("group", "an optional name", "an optional tech") {
     note "the group area of GroupSecurity" as GroupSecurityNote
 }
 @enduml
 @startuml(id=GroupAutoScaling)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupAutoScaling("group", "an optional name", "an optional tech") {
     note "the group area of GroupAutoScaling" as GroupAutoScalingNote
 }
 @enduml
 @startuml(id=GroupVpc)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupVpc("group", "an optional name", "an optional tech") {
     note "the group area of GroupVpc" as GroupVpcNote
 }
 @enduml
 @startuml(id=GroupPrivateSubnet)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupPrivateSubnet("group", "an optional name", "an optional tech") {
     note "the group area of GroupPrivateSubnet" as GroupPrivateSubnetNote
 }
 @enduml
 @startuml(id=GroupPublicSubnet)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupPublicSubnet("group", "an optional name", "an optional tech") {
     note "the group area of GroupPublicSubnet" as GroupPublicSubnetNote
 }
 @enduml
 @startuml(id=GroupServerContents)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupServerContents("group", "an optional name", "an optional tech") {
     note "the group area of GroupServerContents" as GroupServerContentsNote
 }
 @enduml
 @startuml(id=GroupCorporateDataCenter)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupCorporateDataCenter("group", "an optional name", "an optional tech") {
     note "the group area of GroupCorporateDataCenter" as GroupCorporateDataCenterNote
 }
 @enduml
 @startuml(id=GroupElasticBeanstalkContainer)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupElasticBeanstalkContainer("group", "an optional name", "an optional tech") {
     note "the group area of GroupElasticBeanstalkContainer" as GroupElasticBeanstalkContainerNote
 }
 @enduml
 @startuml(id=GroupEc2InstanceContents)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupEc2InstanceContents("group", "an optional name", "an optional tech") {
     note "the group area of GroupEc2InstanceContents" as GroupEc2InstanceContentsNote
 }
 @enduml
 @startuml(id=GroupSpotFleet)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupSpotFleet("group", "an optional name", "an optional tech") {
     note "the group area of GroupSpotFleet" as GroupSpotFleetNote
 }
 @enduml
 @startuml(id=GroupAwsStepFunctionsWorkflow)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupAwsStepFunctionsWorkflow("group", "an optional name", "an optional tech") {
     note "the group area of GroupAwsStepFunctionsWorkflow" as GroupAwsStepFunctionsWorkflowNote
 }
 @enduml
 @startuml(id=GroupDashed)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupDashed("group", "an optional name", "an optional tech") {
     note "the group area of GroupDashed" as GroupDashedNote
 }
 @enduml
 @startuml(id=GroupPlain)
-!global $AWS_LIB_BRANCH="master"
-!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
-!includeurl $AWS_LIB_BASE_URL/library.puml
+!global $INCLUSION_MODE="local"
+!include library.puml
 includeSubLibrary("groups")
 GroupPlain("group", "an optional name", "an optional tech") {
     note "the group area of GroupPlain" as GroupPlainNote
+}
+@enduml
+@startuml(id=GroupContainerRegistry)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupContainerRegistry("group", "an optional name", "an optional tech") {
+    note "the group area of GroupContainerRegistry" as GroupContainerRegistryNote
+}
+@enduml
+@startuml(id=GroupElasticContainer)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupElasticContainer("group", "an optional name", "an optional tech") {
+    note "the group area of GroupElasticContainer" as GroupElasticContainerNote
+}
+@enduml
+@startuml(id=GroupEcContainer)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupEcContainer("group", "an optional name", "an optional tech") {
+    note "the group area of GroupEcContainer" as GroupEcContainerNote
+}
+@enduml
+@startuml(id=GroupEcService)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupEcService("group", "an optional name", "an optional tech") {
+    note "the group area of GroupEcService" as GroupEcServiceNote
+}
+@enduml
+@startuml(id=GroupEcTask)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupEcTask("group", "an optional name", "an optional tech") {
+    note "the group area of GroupEcTask" as GroupEcTaskNote
+}
+@enduml
+@startuml(id=GroupElasticKubernetes)
+!global $INCLUSION_MODE="local"
+!include library.puml
+includeSubLibrary("groups")
+GroupElasticKubernetes("group", "an optional name", "an optional tech") {
+    note "the group area of GroupElasticKubernetes" as GroupElasticKubernetesNote
 }
 @enduml
