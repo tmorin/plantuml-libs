@@ -43,7 +43,7 @@ includeSubLibrary("elements/IntuneServiceColor")
 
 ### Training of Python scikit-learn and deep learning models on Azure
 
-![example: Training of Python scikit-learn and deep learning models on Azure](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/azure/example-scikit_learn_and_deep_learning.puml)
+![example: Training of Python scikit-learn and deep learning models on Azure](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/azure/example-scikit_learn_and_deep_learning.puml&fmt=FORMAT)
 
 * The source: [Microsoft - Reference Architectures](https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/training-python-models)
 * The source file: [example-scikit_learn_and_deep_learning.puml](example-scikit_learn_and_deep_learning.puml)
