@@ -1,0 +1,58 @@
+' the content of this file has been automatically generated
+@startuml
+!function AwsBudgets($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("AwsCostManagement/AwsBudgets")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCostAndUsageReport($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("AwsCostManagement/AwsCostAndUsageReport")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCostExplorer($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("AwsCostManagement/AwsCostExplorer")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsCostManagement($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("AwsCostManagement/AwsCostManagement")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ReservedInstanceReporting($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("AwsCostManagement/ReservedInstanceReporting")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

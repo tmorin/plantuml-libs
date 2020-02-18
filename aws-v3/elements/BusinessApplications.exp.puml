@@ -1,0 +1,29 @@
+' the content of this file has been automatically generated
+@startuml(id=AlexaForBusiness)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/BusinessApplications")
+AlexaForBusiness("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=AmazonChime)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/BusinessApplications")
+AmazonChime("element1", "an optional name", "an optional technology")
+@enduml
+@startuml(id=AmazonWorkmail)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/BusinessApplications")
+AmazonWorkmail("element2", "an optional name", "an optional technology")
+@enduml
+@startuml(id=BusinessApplications)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/BusinessApplications")
+BusinessApplications("element3", "an optional name", "an optional technology")
+@enduml

@@ -1,0 +1,34 @@
+@startuml
+'!global $INCLUSION_MODE="local"
+'!include library.puml
+
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+
+includeSubLibrary("groups")
+includeSubLibrary("elements/Compute")
+includeSubLibrary("elements/SecurityIdentityCompliance")
+includeSubLibrary("elements/Storage")
+includeSubLibrary("elements/General")
+
+left to right direction
+
+Users("git_users", "Git users")
+TraditionalServer("git_server", "Git Server")
+GroupAwsCloud('aws') {
+    AwsLambda("lambda0", "AWS Lambda")
+    AwsLambda("lambda1", "AWS Lambda")
+    AmazonSimpleStorageServiceS3BucketWithObjects("bucket_ssh", "Amazon S3 SSH key bucket")
+    AwsIdentityAndAccessManagementIamAddOn("kms", "AWS KMS key")
+    AmazonSimpleStorageServiceS3BucketWithObjects("bucket_output", "Amazon S3 output bucket")
+}
+
+git_users -down-> git_server : Relationship("git push", "ssh")
+git_server -down-> lambda0 : Relationship("git webhook", "https")
+lambda0 -down-> lambda1
+lambda1 -down-> bucket_ssh
+lambda1 -down-> kms
+lambda1 -down-> bucket_output
+lambda1 -up-> git_server
+@enduml

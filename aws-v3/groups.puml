@@ -1,0 +1,323 @@
+' the content of this file has been automatically generated
+@startuml
+!function GroupAwsCloud($id, $name="AWS Cloud", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupAwsCloud>> as "<$SpriteGroupAwsCloudAlt> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupAwsCloud>> as "<$SpriteGroupAwsCloudAlt> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupAwsCloud>> as "<$SpriteGroupAwsCloudAlt> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupAwsCloud>> {
+  StereotypeFontColor $COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupRegion($id, $name="Region", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupRegion>> as "<$SpriteGroupRegion> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupRegion>> as "<$SpriteGroupRegion> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupRegion>> as "<$SpriteGroupRegion> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupRegion>> {
+  StereotypeFontColor $COLOR_LIGHT_BLUE
+  BorderThickness 1
+  BorderColor $COLOR_LIGHT_BLUE
+  BorderStyle dotted
+  FontStyle none
+  FontColor $COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupAvailabilityZone($id, $name="Availability Zone", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupAvailabilityZone>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupAvailabilityZone>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupAvailabilityZone>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupAvailabilityZone>> {
+  StereotypeFontColor $COLOR_LIGHT_BLUE
+  BorderThickness 1
+  BorderColor $COLOR_LIGHT_BLUE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupSecurity($id, $name="Security", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupSecurity>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupSecurity>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupSecurity>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupSecurity>> {
+  StereotypeFontColor $COLOR_RED
+  BorderThickness 1
+  BorderColor $COLOR_RED
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_RED
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupAutoScaling($id, $name="Auto Scaling", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupAutoScaling>> as "<$SpriteGroupAutoScaling> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupAutoScaling>> as "<$SpriteGroupAutoScaling> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupAutoScaling>> as "<$SpriteGroupAutoScaling> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupAutoScaling>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupVpc($id, $name="VPC", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupVpc>> as "<$SpriteGroupVirtualPrivateCloudVpc> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupVpc>> as "<$SpriteGroupVirtualPrivateCloudVpc> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupVpc>> as "<$SpriteGroupVirtualPrivateCloudVpc> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupVpc>> {
+  StereotypeFontColor $COLOR_GREEN
+  BorderThickness 1
+  BorderColor $COLOR_GREEN
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_GREEN
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupPrivateSubnet($id, $name="Private subnet", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPrivateSubnet>> as "<$SpriteGroupVpcSubnetPrivate> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPrivateSubnet>> as "<$SpriteGroupVpcSubnetPrivate> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPrivateSubnet>> as "<$SpriteGroupVpcSubnetPrivate> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPrivateSubnet>> {
+  StereotypeFontColor $COLOR_LIGHT_BLUE
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_LIGHT_BLUE_BG
+  shadowing false
+}
+!function GroupPublicSubnet($id, $name="Public subnet", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPublicSubnet>> as "<$SpriteGroupVpcSubnetPublic> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPublicSubnet>> as "<$SpriteGroupVpcSubnetPublic> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPublicSubnet>> as "<$SpriteGroupVpcSubnetPublic> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPublicSubnet>> {
+  StereotypeFontColor $COLOR_GREEN
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_GREEN
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_LIGHT_BLUE_BG
+  shadowing false
+}
+!function GroupServerContents($id, $name="Server contents", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupServerContents>> as "<$SpriteGroupServerContents> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupServerContents>> as "<$SpriteGroupServerContents> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupServerContents>> as "<$SpriteGroupServerContents> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupServerContents>> {
+  StereotypeFontColor $COLOR_GREY
+  BorderThickness 1
+  BorderColor $COLOR_GREY
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_GREY
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupCorporateDataCenter($id, $name="Corporate data center", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupCorporateDataCenter>> as "<$SpriteGroupCorporateDataCenter> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupCorporateDataCenter>> as "<$SpriteGroupCorporateDataCenter> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupCorporateDataCenter>> as "<$SpriteGroupCorporateDataCenter> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupCorporateDataCenter>> {
+  StereotypeFontColor $COLOR_GREY
+  BorderThickness 1
+  BorderColor $COLOR_GREY
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_GREY
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupElasticBeanstalkContainer($id, $name="Elastic Beanstalk container", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupElasticBeanstalkContainer>> as "<$SpriteGroupElasticBeanstalkContainer> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupElasticBeanstalkContainer>> as "<$SpriteGroupElasticBeanstalkContainer> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupElasticBeanstalkContainer>> as "<$SpriteGroupElasticBeanstalkContainer> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupElasticBeanstalkContainer>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupEc2InstanceContents($id, $name="EC2 instance contents", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupEc2InstanceContents>> as "<$SpriteGroupEc2InstanceContainer> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupEc2InstanceContents>> as "<$SpriteGroupEc2InstanceContainer> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupEc2InstanceContents>> as "<$SpriteGroupEc2InstanceContainer> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupEc2InstanceContents>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupSpotFleet($id, $name="Spot Fleet", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupSpotFleet>> as "<$SpriteGroupSpotFleet> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupSpotFleet>> as "<$SpriteGroupSpotFleet> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupSpotFleet>> as "<$SpriteGroupSpotFleet> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupSpotFleet>> {
+  StereotypeFontColor $COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $COLOR_ORANGE
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_ORANGE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupAwsStepFunctionsWorkflow($id, $name="AWS Step Functions workflow", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupAwsStepFunctionsWorkflow>> as "<$SpriteGroupAwsStepFunction> $name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupAwsStepFunctionsWorkflow>> as "<$SpriteGroupAwsStepFunction> <size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupAwsStepFunctionsWorkflow>> as "<$SpriteGroupAwsStepFunction> $name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupAwsStepFunctionsWorkflow>> {
+  StereotypeFontColor $COLOR_VIOLET
+  BorderThickness 1
+  BorderColor $COLOR_VIOLET
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_VIOLET
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupDashed($id, $name="Dashed", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupDashed>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupDashed>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupDashed>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupDashed>> {
+  StereotypeFontColor $COLOR_GREY
+  BorderThickness 1
+  BorderColor $COLOR_GREY
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_GREY
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+!function GroupPlain($id, $name="Plain", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPlain>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPlain>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPlain>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPlain>> {
+  StereotypeFontColor $COLOR_DARK_BLUE
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle SOLID
+  FontStyle none
+  FontColor $COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_LG
+  BackgroundColor $COLOR_GREY_BG
+  shadowing false
+}
+@enduml

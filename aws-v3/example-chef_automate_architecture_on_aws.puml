@@ -1,0 +1,31 @@
+@startuml
+'!global $INCLUSION_MODE="local"
+'!include library.puml
+
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+
+includeSubLibrary("groups")
+includeSubLibrary("elements/Compute/Instance")
+includeSubLibrary("elements/NetworkingContentDelivery")
+includeSubLibrary("elements/General")
+
+GroupAwsCloud('aws') {
+    GroupAvailabilityZone('az') {
+        GroupVpc('vpc', 'VPC', '10.0.0.0/16') {
+            AmazonVpcInternetGateway('gateway', 'Internet gateway')
+            GroupPublicSubnet('pubnet', 'Public subnet', '10.0.0.0/19') {
+                AmazonEc2Instance('instance1', 'Chef Automate')
+                AmazonEc2Instance('instance2', 'Chef workstation (local Chef repo)')
+                AmazonEc2Instance('instance3', 'Chef node')
+            }
+        }
+    }
+}
+
+gateway -[hidden]-> instance1
+instance1 -down-> instance2
+instance2 -> instance3
+instance3 -up-> instance1
+@enduml

@@ -1,0 +1,344 @@
+' the content of this file has been automatically generated
+@startuml
+!function AmazonElasticBlockStoreEbs($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonElasticBlockStoreEbs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonElasticBlockStoreEbsSnapshot($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonElasticBlockStoreEbsSnapshot")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonElasticBlockStoreEbsVolume($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonElasticBlockStoreEbsVolume")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonElasticFileSystemEfsFileSystem($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonElasticFileSystemEfsFileSystem")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonElasticFileSystemEfs($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonElasticFileSystemEfs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonFsxForLustre($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonFsxForLustre")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonFsxForWindowsFileServer($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonFsxForWindowsFileServer")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonFsx($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonFsx")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonS3GlacierArchive($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonS3GlacierArchive")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonS3Glacier($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonS3Glacier")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonS3GlacierVault($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonS3GlacierVault")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonSimpleStorageServiceS3Bucket($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonSimpleStorageServiceS3Bucket")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonSimpleStorageServiceS3BucketWithObjects($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonSimpleStorageServiceS3BucketWithObjects")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonSimpleStorageServiceS3Object($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonSimpleStorageServiceS3Object")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AmazonSimpleStorageServiceS3($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AmazonSimpleStorageServiceS3")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsBackup($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsBackup")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSnowballEdge($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsSnowballEdge")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSnowball($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsSnowball")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSnowFamilySnowballImportExport($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsSnowFamilySnowballImportExport")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsSnowmobile($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsSnowmobile")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsStorageGatewayCachedVolume($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsStorageGatewayCachedVolume")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsStorageGatewayNonCachedVolume($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsStorageGatewayNonCachedVolume")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsStorageGateway($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsStorageGateway")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function AwsStorageGatewayVirtualTapeLibrary($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/AwsStorageGatewayVirtualTapeLibrary")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudendureDisasterRecovery($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/CloudendureDisasterRecovery")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EfsInfrequentaccess($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/EfsInfrequentaccess")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EfsInfrequentaccessPrimaryBg($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/EfsInfrequentaccessPrimaryBg")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EfsStandard($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/EfsStandard")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function EfsStandardPrimaryBg($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/EfsStandardPrimaryBg")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function MultipleVolumesResourceIcon($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/MultipleVolumesResourceIcon")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Storage($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("Storage/Storage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

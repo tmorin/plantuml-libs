@@ -1,0 +1,234 @@
+' the content of this file has been automatically generated
+@startuml
+!function AwsMarketplace($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/AwsMarketplace")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Client($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Client")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Disk($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Disk")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Forums($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Forums")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function General($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/General")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function GenericDatabase($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/GenericDatabase")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function GenericFirewall($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/GenericFirewall")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function InternetAlt1($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/InternetAlt1")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function InternetAlt2($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/InternetAlt2")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function InternetGateway($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/InternetGateway")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function MobileClient($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/MobileClient")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Multimedia($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Multimedia")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function OfficeBuilding($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/OfficeBuilding")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SamlToken($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/SamlToken")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Sdk($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Sdk")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function SslPadlock($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/SslPadlock")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TapeStorage($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/TapeStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Toolkit($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Toolkit")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TraditionalServer($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/TraditionalServer")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function User($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/User")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Users($id, $name="", $tech="")
+  card $id <<AwsElement>> [
+    <img:getIcon("General/Users")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

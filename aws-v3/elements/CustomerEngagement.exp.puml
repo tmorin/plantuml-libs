@@ -1,0 +1,36 @@
+' the content of this file has been automatically generated
+@startuml(id=AmazonConnect)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/CustomerEngagement")
+AmazonConnect("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=AmazonPinpoint)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/CustomerEngagement")
+AmazonPinpoint("element1", "an optional name", "an optional technology")
+@enduml
+@startuml(id=AmazonSimpleEmailServiceSesEmail)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/CustomerEngagement")
+AmazonSimpleEmailServiceSesEmail("element2", "an optional name", "an optional technology")
+@enduml
+@startuml(id=AmazonSimpleEmailServiceSes)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/CustomerEngagement")
+AmazonSimpleEmailServiceSes("element3", "an optional name", "an optional technology")
+@enduml
+@startuml(id=CustomerEngagement)
+!global $AWS_LIB_BRANCH="master"
+!global $AWS_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AWS_LIB_BRANCH + "/aws-v3"
+!includeurl $AWS_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/CustomerEngagement")
+CustomerEngagement("element4", "an optional name", "an optional technology")
+@enduml

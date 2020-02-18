@@ -16,6 +16,7 @@ downloadIcons() {
     local iconsUrl=${2}
     local tmpDir="tmp/${libName}"
     local zipFile="${tmpDir}/icons.zip"
+
     mkdir -p ${tmpDir}
     if [[ ! -f ${zipFile} ]]; then
         wget ${iconsUrl} -O ${zipFile}
@@ -29,18 +30,39 @@ generateIcons() {
     local dstDir="${libName}/icons-x50"
     local srcFormat=svg
     local dstFormat=png
-    echo "generateIcons $srcDir $dstDir $srcFormat $dstFormat"
+    local extraSed=""
+
+    local POSITIONAL=()
+    while [[ $# -gt 0 ]]; do
+        key="$1"
+        case ${key} in
+            -es=*|--extra-sed=*)
+            extraSed="${key#*=}"
+            ;;
+            *)
+            POSITIONAL+=("$1")
+            ;;
+        esac
+        shift
+    done
+    set -- "${POSITIONAL[@]}"
+
+    echo "[$libName] - generate icons from ($srcDir) to ($dstDir)"
 
     find ${srcDir} -type f -name "*.${srcFormat}" -print0 |
     while IFS= read -r -d '' picturePathSrc; do
         # clean name
-        local picturePath=$(sed -r "s:${srcDir}/::;s/^_//;s/( |,|_|\+|\. )/-/gi;s/(\(|\))//g;s/-+/-/g"  <<< ${picturePathSrc%.*})
+        local picturePath=$(sed -r "s:${srcDir}/::;s/^_//;s/( |,|_|\+|\.|\&| )/-/gi;s/(\(|\))//g;s/-+/-/g"  <<< ${picturePathSrc%.*})
+         # apply custom sed expression
+        if [[ -n ${extraSed} ]]; then
+            picturePath=$(sed -r "${extraSed}" <<< ${picturePath})
+        fi
         # from `snake-case` to `CamelCase`
-        local picturePath=$(echo ${picturePath,,} | sed -r 's/(^|-|_|\.)([a-z,0-9])/\U\2/gi' | sed -r 's/(\/.)/\U\1/gi')
+        picturePath=$(echo ${picturePath,,} | sed -r 's/(^|-|_|\.)([a-z,0-9])/\U\2/gi' | sed -r 's/(\/.)/\U\1/gi')
         # add extension
-        local picturePath="${picturePath}.${dstFormat}"
+        picturePath="${picturePath}.${dstFormat}"
         # prefix with the destination
-        local picturePathDst=${dstDir}/${picturePath}
+        picturePathDst=${dstDir}/${picturePath}
         # prepare expected directory
         mkdir -p $(dirname ${picturePathDst})
         # convert when required
@@ -52,6 +74,8 @@ generateIcons() {
 
 parsePackage() {
     local libName=${1}
+    local steName=$(sed -r 's/-.*$//i' <<< ${libName^})
+    local varName=$(sed -r 's/-.*$//i' <<< ${libName^^})
     local iconsDir=${2}
     local pkgPath=${3}
     local dstDir=${4}
@@ -62,7 +86,6 @@ parsePackage() {
     local pkgDoc="${dstDir}/${pkgName}.md"
     local pkgSrc="${dstDir}/${pkgName}.puml"
     local pkgExp="${dstDir}/${pkgName}.exp.puml"
-    echo "parse pkg ${pkgName}"
 
     local h=$(sed -r "s/\//#/gi;s/\w*//gi;" <<< ${pkgName})
     echo "##${h} ${pkgName}" >> ${sumFile}
@@ -87,7 +110,7 @@ parsePackage() {
         echo '* ['${elName}']('${pkgName}'.md#'${elName}')' >> ${sumFile}
         # source
         echo '!function '${elName}'($id, $name="", $tech="")' >> ${pkgSrc}
-        echo '  card $id <<'${libName^}'Element>> [' >> ${pkgSrc}
+        echo '  card $id <<'${steName}'Element>> [' >> ${pkgSrc}
         echo '    <img:getIcon("'${pkgName}'/'${elName}'")>' >> ${pkgSrc}
         echo '    !if ($name)' >> ${pkgSrc}
         echo '      $name' >> ${pkgSrc}
@@ -101,17 +124,17 @@ parsePackage() {
         echo '## '${elName} >> ${pkgDoc}
         echo '!['${elName}']('${relativePkgPath}${iconPath}')' >> ${pkgDoc}
         echo "\`\`\`plantuml" >> ${pkgDoc}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/'${gitBranch}'/'${libName}'"' >> ${pkgDoc}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${pkgDoc}
+        echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/'${gitBranch}'/'${libName}'"' >> ${pkgDoc}
+        echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${pkgDoc}
         echo 'includeSubLibrary("elements/'${pkgName}'")' >> ${pkgDoc}
         echo ${elName}'("element'${index}'", "an optional name")' >> ${pkgDoc}
         echo "\`\`\`" >> ${pkgDoc}
         echo '<a target="_blank" href="http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/'${gitBranch}'/'${libName}'/elements/'${pkgName}'.exp.puml&idx='${index}'&'${elName}'">Render the snippet with PlantUML server</a>' >> ${pkgDoc}
         # example
         echo "@startuml(id=${elName})" >> ${pkgExp}
-        echo '!global $'${libName^^}'_LIB_BRANCH="'${gitBranch}'"' >> ${pkgExp}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${libName^^}'_LIB_BRANCH + "/'${libName}'"' >> ${pkgExp}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${pkgExp}
+        echo '!global $'${varName}'_LIB_BRANCH="'${gitBranch}'"' >> ${pkgExp}
+        echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${varName}'_LIB_BRANCH + "/'${libName}'"' >> ${pkgExp}
+        echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${pkgExp}
         echo 'includeSubLibrary("elements/'${pkgName}'")' >> ${pkgExp}
         echo ${elName}'("element'${index}'", "an optional name", "an optional technology")' >> ${pkgExp}
         echo "@enduml" >> ${pkgExp}
@@ -134,6 +157,8 @@ generateElements() {
     local iconsFormat=png
     local sumFile=${dstDir}/README.md
 
+    echo "[$libName] - generate elements from ($iconsDir) to ($dstDir)"
+
     mkdir -p ${dstDir}
     echo "# Elements" > ${sumFile}
     find ${iconsDir} -mindepth 1 -maxdepth 1 -type d -print | sort |
@@ -144,6 +169,8 @@ generateElements() {
 
 generateSprites() {
     local libName=${1}
+    local steName=$(sed -r 's/-.*$//i' <<< ${libName^})
+    local varName=$(sed -r 's/-.*$//i' <<< ${libName^^})
     local tmpDir="tmp/${libName}/sprites"
     local iconsDir="${libName}/icons-x50"
     local iconsFormat=png
@@ -151,7 +178,26 @@ generateSprites() {
     local sptSrc="${libName}/sprites.puml"
     local sptExp="${libName}/sprites.exp.puml"
     local sptDoc="${libName}/sprites.md"
+    local sptIconsClauses=""
     mkdir -p ${tmpDir}
+
+    echo "[$libName] - generate sprites"
+
+    local POSITIONAL=()
+    while [[ $# -gt 0 ]]; do
+        key="$1"
+        case ${key} in
+            -id=*|--icons-clauses=*)
+            sptIconsClauses="${key#*=}"
+            ;;
+            *)
+            POSITIONAL+=("$1")
+            ;;
+        esac
+        shift
+    done
+    set -- "${POSITIONAL[@]}"
+
     # source
     echo "' the content of this file has been automatically generated" > ${sptSrc}
     echo "@startuml" >> ${sptSrc}
@@ -159,44 +205,75 @@ generateSprites() {
     echo "' the content of this file has been automatically generated" > ${sptExp}
     # documentation
     echo "# Sprites" > ${sptDoc}
-    # iterate over CSV entries
     index=0
+    # iterate over elements directories
+    for clause in $(sed -r 's/,/ /g' <<< ${sptIconsClauses}) ; do
+        IFS=':' read -r sptIconsDir sptPrefix <<< ${clause}
+        find ${sptIconsDir} -type f -name "*.${iconsFormat}" -print | sort |
+        while read -r iconFile; do
+            local sptName="Sprite${sptPrefix}$(basename ${iconFile%.*})"
+            generateSprite ${libName} ${iconFile} ${sptName} "${index}"
+            index=$((index+1))
+        done
+    done
+    # iterate over CSV entries
     tail -n +2 ${sptCsv} | while IFS=, read -r Name Element; do
         local iconFile="${iconsDir}/${Element}.${iconsFormat}"
-        local iconFile="${iconsDir}/${Element}.${iconsFormat}"
         local sptName="Sprite${Name}"
-        # source
-        convert -quality 100 -background white -flatten -resize x20 ${iconFile} ${tmpDir}/${sptName}
-        java -jar tmp/plantuml.jar -encodesprite 16z ${tmpDir}/${sptName} >> ${sptSrc}
-        # example
-        echo "@startuml(id=${sptName})" >> ${sptExp}
-        echo '!global $'${libName^^}'_LIB_BRANCH="'${gitBranch}'"' >> ${sptExp}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${libName^^}'_LIB_BRANCH + "/'${libName}'"' >> ${sptExp}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${sptExp}
-        #echo '!global $INCLUSION_MODE="local"' >> ${sptExp}
-        #echo '!include library.puml' >> ${sptExp}
-        echo 'rectangle aSprite as "<$'${sptName}'>"' >> ${sptExp}
-        echo "@enduml" >> ${sptExp}
-        # documentation
-        echo "## ${sptName}" >> ${sptDoc}
-        echo "\`\`\`plantuml" >> ${sptDoc}
-        echo '!global $'${libName^^}'_LIB_BRANCH="'${gitBranch}'"' >> ${sptDoc}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${libName^^}'_LIB_BRANCH + "/'${libName}'"' >> ${sptDoc}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${sptDoc}
-        echo 'rectangle aSprite as "<$'${sptName}'>"' >> ${sptDoc}
-        echo "\`\`\`" >> ${sptDoc}
-        echo '!['${sptName}'](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/'${gitBranch}'/'${libName}'/sprites.exp.puml&idx='${index}'&'${sptName}')' >> ${sptDoc}
+        generateSprite ${libName} ${iconFile} ${sptName} "${index}"
         index=$((index+1))
     done
     echo "@enduml" >> ${sptSrc}
 }
 
+generateSprite() {
+    local libName=${1}
+    local iconFile=${2}
+    local sptName=${3}
+    local index=${4}
+    local steName=$(sed -r 's/-.*$//i' <<< ${libName^})
+    local varName=$(sed -r 's/-.*$//i' <<< ${libName^^})
+    local tmpDir="tmp/${libName}/sprites"
+    local iconsDir="${libName}/icons-x50"
+    local iconsFormat=png
+    local sptCsv="${libName}/sprites.csv"
+    local sptSrc="${libName}/sprites.puml"
+    local sptExp="${libName}/sprites.exp.puml"
+    local sptDoc="${libName}/sprites.md"
+    # source
+    convert -quality 100 -background white -flatten -resize x20 ${iconFile} ${tmpDir}/${sptName}
+    java -jar tmp/plantuml.jar -encodesprite 16z ${tmpDir}/${sptName} >> ${sptSrc}
+    # example
+    echo "@startuml(id=${sptName})" >> ${sptExp}
+    echo '!global $'${varName}'_LIB_BRANCH="'${gitBranch}'"' >> ${sptExp}
+    echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${varName}'_LIB_BRANCH + "/'${libName}'"' >> ${sptExp}
+    echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${sptExp}
+    #echo '!global $INCLUSION_MODE="local"' >> ${sptExp}
+    #echo '!include library.puml' >> ${sptExp}
+    echo 'rectangle aSprite as "<$'${sptName}'>"' >> ${sptExp}
+    echo "@enduml" >> ${sptExp}
+    # documentation
+    echo "## ${sptName}" >> ${sptDoc}
+    echo "\`\`\`plantuml" >> ${sptDoc}
+    echo '!global $'${varName}'_LIB_BRANCH="'${gitBranch}'"' >> ${sptDoc}
+    echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${varName}'_LIB_BRANCH + "/'${libName}'"' >> ${sptDoc}
+    echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${sptDoc}
+    echo 'rectangle aSprite as "<$'${sptName}'>"' >> ${sptDoc}
+    echo "\`\`\`" >> ${sptDoc}
+    echo '!['${sptName}'](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/'${gitBranch}'/'${libName}'/sprites.exp.puml&idx='${index}'&'${sptName}')' >> ${sptDoc}
+}
+
 generateGroups() {
     local libName=${1}
+    local steName=$(sed -r 's/-.*$//i' <<< ${libName^})
+    local varName=$(sed -r 's/-.*$//i' <<< ${libName^^})
     local grpCsv="${libName}/groups.csv"
     local grpSrc="${libName}/groups.puml"
     local grpExp="${libName}/groups.exp.puml"
     local grpDoc="${libName}/groups.md"
+
+    echo "[$libName] - generate groups"
+
     # source
     echo "' the content of this file has been automatically generated" > ${grpSrc}
     echo "@startuml" >> ${grpSrc}
@@ -235,9 +312,9 @@ generateGroups() {
         echo '}' >> ${grpSrc}
         # example
         echo "@startuml(id=${Stereotype})" >> ${grpExp}
-        echo '!global $'${libName^^}'_LIB_BRANCH="'${gitBranch}'"' >> ${grpExp}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${libName^^}'_LIB_BRANCH + "/'${libName}'"' >> ${grpExp}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${grpExp}
+        echo '!global $'${varName}'_LIB_BRANCH="'${gitBranch}'"' >> ${grpExp}
+        echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${varName}'_LIB_BRANCH + "/'${libName}'"' >> ${grpExp}
+        echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${grpExp}
         #echo '!global $INCLUSION_MODE="local"' >> ${grpExp}
         #echo '!include library.puml' >> ${grpExp}
         echo 'includeSubLibrary("groups")' >> ${grpExp}
@@ -248,9 +325,9 @@ generateGroups() {
         # documentation
         echo "## ${Stereotype}" >> ${grpDoc}
         echo "\`\`\`plantuml" >> ${grpDoc}
-        echo '!global $'${libName^^}'_LIB_BRANCH="'${gitBranch}'"' >> ${grpDoc}
-        echo '!global $'${libName^^}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${libName^^}'_LIB_BRANCH + "/'${libName}'"' >> ${grpDoc}
-        echo '!includeurl $'${libName^^}'_LIB_BASE_URL/library.puml' >> ${grpDoc}
+        echo '!global $'${varName}'_LIB_BRANCH="'${gitBranch}'"' >> ${grpDoc}
+        echo '!global $'${varName}'_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $'${varName}'_LIB_BRANCH + "/'${libName}'"' >> ${grpDoc}
+        echo '!includeurl $'${varName}'_LIB_BASE_URL/library.puml' >> ${grpDoc}
         echo 'includeSubLibrary("groups")' >> ${grpDoc}
         echo ${Stereotype}'("element'${index}'", "an optional name")' >> ${grpDoc}
         echo "\`\`\`" >> ${grpDoc}
