@@ -205,23 +205,24 @@ generateSprites() {
     echo "' the content of this file has been automatically generated" > ${sptExp}
     # documentation
     echo "# Sprites" > ${sptDoc}
-    index=0
+    local sptIndex=$(grep -e "^sprite" ${sptSrc} | wc -l)
     # iterate over elements directories
     for clause in $(sed -r 's/,/ /g' <<< ${sptIconsClauses}) ; do
         IFS=':' read -r sptIconsDir sptPrefix <<< ${clause}
         find ${sptIconsDir} -type f -name "*.${iconsFormat}" -print | sort |
         while read -r iconFile; do
             local sptName="Sprite${sptPrefix}$(basename ${iconFile%.*})"
-            generateSprite ${libName} ${iconFile} ${sptName} "${index}"
-            index=$((index+1))
+            generateSprite ${libName} ${iconFile} ${sptName} ${sptIndex}
+            sptIndex=$((sptIndex+1))
         done
     done
+    sptIndex=$(grep -e "^sprite" ${sptSrc} | wc -l)
     # iterate over CSV entries
     tail -n +2 ${sptCsv} | while IFS=, read -r Name Element; do
         local iconFile="${iconsDir}/${Element}.${iconsFormat}"
         local sptName="Sprite${Name}"
-        generateSprite ${libName} ${iconFile} ${sptName} "${index}"
-        index=$((index+1))
+        generateSprite ${libName} ${iconFile} ${sptName} ${sptIndex}
+        sptIndex=$((sptIndex+1))
     done
     echo "@enduml" >> ${sptSrc}
 }
@@ -240,6 +241,7 @@ generateSprite() {
     local sptSrc="${libName}/sprites.puml"
     local sptExp="${libName}/sprites.exp.puml"
     local sptDoc="${libName}/sprites.md"
+    echo "[${libName}] - generate sprite #${index} (${iconFile})"
     # source
     convert -quality 100 -background white -flatten -resize x20 ${iconFile} ${tmpDir}/${sptName}
     java -jar tmp/plantuml.jar -encodesprite 16z ${tmpDir}/${sptName} >> ${sptSrc}

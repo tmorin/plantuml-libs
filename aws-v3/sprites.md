@@ -110,7 +110,7 @@ rectangle aSprite as "<$SpriteGroupVpcSubnetPublic>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsEc2ContainerRegistry>"
 ```
-![SpriteAwsEc2ContainerRegistry](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=0&SpriteAwsEc2ContainerRegistry)
+![SpriteAwsEc2ContainerRegistry](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=13&SpriteAwsEc2ContainerRegistry)
 ## SpriteAwsElasticContainer
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -118,7 +118,7 @@ rectangle aSprite as "<$SpriteAwsEc2ContainerRegistry>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsElasticContainer>"
 ```
-![SpriteAwsElasticContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=1&SpriteAwsElasticContainer)
+![SpriteAwsElasticContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=14&SpriteAwsElasticContainer)
 ## SpriteAwsElasticContainerContainer
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -126,7 +126,7 @@ rectangle aSprite as "<$SpriteAwsElasticContainer>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsElasticContainerContainer>"
 ```
-![SpriteAwsElasticContainerContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=2&SpriteAwsElasticContainerContainer)
+![SpriteAwsElasticContainerContainer](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=15&SpriteAwsElasticContainerContainer)
 ## SpriteAwsElasticContainerService
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -134,7 +134,7 @@ rectangle aSprite as "<$SpriteAwsElasticContainerContainer>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsElasticContainerService>"
 ```
-![SpriteAwsElasticContainerService](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=3&SpriteAwsElasticContainerService)
+![SpriteAwsElasticContainerService](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=16&SpriteAwsElasticContainerService)
 ## SpriteAwsElasticContainerTask
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -142,7 +142,7 @@ rectangle aSprite as "<$SpriteAwsElasticContainerService>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsElasticContainerTask>"
 ```
-![SpriteAwsElasticContainerTask](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=4&SpriteAwsElasticContainerTask)
+![SpriteAwsElasticContainerTask](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=17&SpriteAwsElasticContainerTask)
 ## SpriteAwsElasticKubernetes
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -150,7 +150,7 @@ rectangle aSprite as "<$SpriteAwsElasticContainerTask>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsElasticKubernetes>"
 ```
-![SpriteAwsElasticKubernetes](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=5&SpriteAwsElasticKubernetes)
+![SpriteAwsElasticKubernetes](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=18&SpriteAwsElasticKubernetes)
 ## SpriteAwsFargate
 ```plantuml
 !global $AWS_LIB_BRANCH="master"
@@ -158,4 +158,4 @@ rectangle aSprite as "<$SpriteAwsElasticKubernetes>"
 !includeurl $AWS_LIB_BASE_URL/library.puml
 rectangle aSprite as "<$SpriteAwsFargate>"
 ```
-![SpriteAwsFargate](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=6&SpriteAwsFargate)
+![SpriteAwsFargate](http://www.plantuml.com/plantuml/proxy?src=https://raw.githubusercontent.com/tmorin/plantuml-libs/master/aws-v3/sprites.exp.puml&idx=19&SpriteAwsFargate)
