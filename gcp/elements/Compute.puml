@@ -1,0 +1,91 @@
+' the content of this file has been automatically generated
+@startuml
+!function AppEngine($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/AppEngine")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudFunctions($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/CloudFunctions")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudRun($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/CloudRun")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ComputeEngine($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/ComputeEngine")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function ContainerOptimizedOs($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/ContainerOptimizedOs")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function GkeOnPrem($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/GkeOnPrem")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function Gpu($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/Gpu")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function KubetnetesEngine($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Compute/KubetnetesEngine")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

@@ -1,0 +1,190 @@
+' the content of this file has been automatically generated
+@startuml
+!function CloudArmor($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudArmor")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudCdn($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudCdn")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudDns($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudDns")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudExternalIpAddresses($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudExternalIpAddresses")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudFirewallRules($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudFirewallRules")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudLoadBalancing($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudLoadBalancing")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudNat($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudNat")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudNetwork($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudNetwork")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudRouter($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudRouter")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudRoutes($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudRoutes")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudVpn($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/CloudVpn")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function DedicatedInterconnect($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/DedicatedInterconnect")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function PartnerInterconnect($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/PartnerInterconnect")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function PremiumNetworkTier($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/PremiumNetworkTier")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function StandardNetworkTier($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/StandardNetworkTier")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TrafficDirector($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/TrafficDirector")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function VirtualPrivateCloud($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Networking/VirtualPrivateCloud")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

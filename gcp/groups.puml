@@ -1,0 +1,443 @@
+' the content of this file has been automatically generated
+@startuml
+!function GroupUser($id, $name="User", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupUser>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupUser>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupUser>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupUser>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FFFFFF
+  shadowing false
+}
+!function GroupInfrastructureSystem($id, $name="Infrastructure System", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupInfrastructureSystem>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupInfrastructureSystem>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupInfrastructureSystem>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupInfrastructureSystem>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #F3E5F5
+  shadowing false
+}
+!function GroupOnPremise($id, $name="On premise", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupOnPremise>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupOnPremise>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupOnPremise>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupOnPremise>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #EFEBE9
+  shadowing false
+}
+!function GroupSystem($id, $name="System", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupSystem>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupSystem>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupSystem>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupSystem>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #F1F8E9
+  shadowing false
+}
+!function GroupExternalSaasProviders($id, $name="External SaaS Providers", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupExternalSaasProviders>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupExternalSaasProviders>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupExternalSaasProviders>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupExternalSaasProviders>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FFEBEE
+  shadowing false
+}
+!function GroupExternalDataSources($id, $name="External Data Sources", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupExternalDataSources>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupExternalDataSources>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupExternalDataSources>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupExternalDataSources>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FFF8E1
+  shadowing false
+}
+!function GroupExternalInfrastructure3rdParty($id, $name="External infrastructure 3rd party", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupExternalInfrastructure3rdParty>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupExternalInfrastructure3rdParty>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupExternalInfrastructure3rdParty>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupExternalInfrastructure3rdParty>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E0F2F1
+  shadowing false
+}
+!function GroupExternalInfrastructure1stParty($id, $name="External infrastructure 1st party", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupExternalInfrastructure1stParty>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupExternalInfrastructure1stParty>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupExternalInfrastructure1stParty>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupExternalInfrastructure1stParty>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E1F5FE
+  shadowing false
+}
+!function GroupProjectZone($id, $name="Project Zone", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupProjectZone>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupProjectZone>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupProjectZone>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupProjectZone>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #F6F6F6
+  shadowing false
+}
+!function GroupCloudServiceProvider($id, $name="Cloud Service Provider", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupCloudServiceProvider>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupCloudServiceProvider>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupCloudServiceProvider>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupCloudServiceProvider>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #F6F6F6
+  shadowing false
+}
+!function GroupLogicalGroupingOfServices($id, $name="Logical Grouping of Services", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupLogicalGroupingOfServices>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupLogicalGroupingOfServices>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupLogicalGroupingOfServices>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupLogicalGroupingOfServices>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E3F2FD
+  shadowing false
+}
+!function GroupInstances($id, $name="Instances", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupInstances>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupInstances>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupInstances>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupInstances>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E3F2FD
+  shadowing false
+}
+!function GroupZone($id, $name="Zone", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupZone>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupZone>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupZone>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupZone>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FFF3E0
+  shadowing false
+}
+!function GroupSubNetwork($id, $name="Sub Network", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupSubNetwork>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupSubNetwork>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupSubNetwork>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupSubNetwork>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #EDE7F6
+  shadowing false
+}
+!function GroupKubernetesCluster($id, $name="Kubernetes cluster", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupKubernetesCluster>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupKubernetesCluster>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupKubernetesCluster>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupKubernetesCluster>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FCE4EC
+  shadowing false
+}
+!function GroupPod($id, $name="Pod", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupPod>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupPod>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupPod>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupPod>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E8F5E9
+  shadowing false
+}
+!function GroupAccount($id, $name="Account", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupAccount>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupAccount>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupAccount>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupAccount>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E8EAF6
+  shadowing false
+}
+!function GroupRegion($id, $name="Region", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupRegion>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupRegion>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupRegion>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupRegion>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #ECEFF1
+  shadowing false
+}
+!function GroupFirewall($id, $name="Firewall", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupFirewall>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupFirewall>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupFirewall>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupFirewall>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #FBE9E7
+  shadowing false
+}
+!function GroupInstanceGroup($id, $name="Instance Group", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupInstanceGroup>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupInstanceGroup>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupInstanceGroup>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupInstanceGroup>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #F9FBE7
+  shadowing false
+}
+!function GroupReplicaPool($id, $name="Replica Pool", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupReplicaPool>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupReplicaPool>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupReplicaPool>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupReplicaPool>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 0
+  BorderColor transparent
+  BorderStyle solid
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor #E0F7FA
+  shadowing false
+}
+!function GroupOptionalComponent($id, $name="Optional Component", $tech="")
+  !if ($name != "") && ($tech)
+    Rectangle $id <<GroupOptionalComponent>> as "$name\n<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !elseif ($tech)
+    Rectangle $id <<GroupOptionalComponent>> as "<size:$FONT_SIZE_SM><color:$COLOR_GREY_FC>[$tech]</color></size>"
+  !else
+    Rectangle $id <<GroupOptionalComponent>> as "$name"
+  !endif
+!endfunction
+skinparam Rectangle<<GroupOptionalComponent>> {
+  StereotypeFontColor $COLOR_GREY_FC
+  BorderThickness 2
+  BorderColor #4284F3
+  BorderStyle dashed
+  FontStyle none
+  FontColor $COLOR_GREY_FC
+  FontSize $FONT_SIZE_LG
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

@@ -1,0 +1,26 @@
+@startuml
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    ' remote inclusions
+    !if (%not(%variable_exists("$GCP_LIB_BRANCH")))
+        !global $GCP_LIB_BRANCH="master"
+    !endif
+    !if (%not(%variable_exists("$GCP_LIB_BASE_URL")))
+        !global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+    !endif
+    !includeurl $GCP_LIB_BASE_URL/constants.puml
+    !includeurl $GCP_LIB_BASE_URL/functions.puml
+    !includeurl $GCP_LIB_BASE_URL/styles.puml
+!else
+    ' local inclusions
+    !include constants.puml
+    !include functions.puml
+    !include styles.puml
+!endif
+
+@enduml

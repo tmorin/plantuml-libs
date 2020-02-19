@@ -1,0 +1,22 @@
+' the content of this file has been automatically generated
+@startuml(id=CloudFilestore)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Storage")
+CloudFilestore("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=CloudStorage)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Storage")
+CloudStorage("element1", "an optional name", "an optional technology")
+@enduml
+@startuml(id=PersistentDisk)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Storage")
+PersistentDisk("element2", "an optional name", "an optional technology")
+@enduml

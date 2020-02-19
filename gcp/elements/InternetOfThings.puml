@@ -1,0 +1,14 @@
+' the content of this file has been automatically generated
+@startuml
+!function CloudIotCore($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("InternetOfThings/CloudIotCore")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

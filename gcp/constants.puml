@@ -1,14 +1,14 @@
 @startuml
 
 !if (%get_variable_value("$INCLUSION_MODE") == "remote")
-    !if (%not(%variable_exists("$AZURE_LIB_BRANCH")))
-        !global $AZURE_LIB_BRANCH="master"
+    !if (%not(%variable_exists("$GCP_LIB_BRANCH")))
+        !global $GCP_LIB_BRANCH="master"
     !endif
-    !if (%not(%variable_exists("$AZURE_LIB_BASE_URL")))
-        !global $AZURE_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $AZURE_LIB_BRANCH + "/azure"
+    !if (%not(%variable_exists("$GCP_LIB_BASE_URL")))
+        !global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
     !endif
     !if (%not(%variable_exists("$IMAGE_BASE_PATH")))
-        !global $IMAGE_BASE_PATH=$AZURE_LIB_BASE_URL + "/"
+        !global $IMAGE_BASE_PATH=$GCP_LIB_BASE_URL + "/"
     !endif
 !else
     !if (%not(%variable_exists("$IMAGE_BASE_PATH")))
@@ -28,5 +28,5 @@
 !global $COLOR_GREY_BD="#3f3f3f"
 
 ' custom
-!global $COLOR_NETWORK_TRANSPARENT_BORDER="#0078d7"
+
 @enduml

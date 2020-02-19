@@ -1,0 +1,36 @@
+' the content of this file has been automatically generated
+@startuml
+!function CloudFilestore($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Storage/CloudFilestore")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function CloudStorage($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Storage/CloudStorage")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function PersistentDisk($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("Storage/PersistentDisk")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

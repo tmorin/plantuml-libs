@@ -1,0 +1,25 @@
+' the content of this file has been automatically generated
+@startuml
+!function Stackdriver($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("HybridAndMultiCloud/Stackdriver")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+!function TrafficDirector($id, $name="", $tech="")
+  card $id <<GcpElement>> [
+    <img:getIcon("HybridAndMultiCloud/TrafficDirector")>
+    !if ($name)
+      $name
+    !endif
+    !if ($tech)
+      <size:11>[$tech]</size>
+    !endif
+  ]
+!endfunction
+@enduml

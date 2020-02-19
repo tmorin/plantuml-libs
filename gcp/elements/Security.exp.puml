@@ -1,0 +1,36 @@
+' the content of this file has been automatically generated
+@startuml(id=CloudIam)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Security")
+CloudIam("element0", "an optional name", "an optional technology")
+@enduml
+@startuml(id=CloudResourceManager)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Security")
+CloudResourceManager("element1", "an optional name", "an optional technology")
+@enduml
+@startuml(id=CloudSecurityCommandCenter)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Security")
+CloudSecurityCommandCenter("element2", "an optional name", "an optional technology")
+@enduml
+@startuml(id=CloudSecurityScanner)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Security")
+CloudSecurityScanner("element3", "an optional name", "an optional technology")
+@enduml
+@startuml(id=KeyManagementService)
+!global $GCP_LIB_BRANCH="master"
+!global $GCP_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $GCP_LIB_BRANCH + "/gcp"
+!includeurl $GCP_LIB_BASE_URL/library.puml
+includeSubLibrary("elements/Security")
+KeyManagementService("element4", "an optional name", "an optional technology")
+@enduml
