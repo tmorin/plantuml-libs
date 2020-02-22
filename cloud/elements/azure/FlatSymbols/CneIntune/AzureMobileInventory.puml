@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMobileInventoryLg [18x20/16z] {
+dSi73iGW44DHJpMO-zztqoD5VNz2UmX4dGMkOcffR4CtbIRPv5Xro-hhvfLpbtz9hQzunqUkNacU-ID5FokxvNnhdFvA6D0AbEWUjiaONafi8atL9Z6dshTL
+I-Gky4du0BAtOXUOmOchOXxLk2LurVW1
+}
+
+!function AzureMobileInventory($id, $name="Mobile Inventory", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureMobileInventory', $name, $tech)
+!endfunction
+!function AzureMobileInventoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMobileInventoryLg>', 'Mobile Inventory', $funcName, $content)
+!endfunction
+@enduml

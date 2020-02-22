@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAdDomainServicesLg [20x20/16z] {
+NP07ZaGn24CJS07kV-3TtwHedZhLzdhPzbu_S8O_9Sm_M2VHLwtpAEsQcpfEUbvyth_egkPtlv-I9JVU--yn0UgEu_uKCrNt7tyb8vBkyT9RQfC9NaMzzyka
+auPS5VxksmaBLAxDdZO0AL9AudAODURr89CPO3pPjQt8Y7Z7BjXTpapWI27h_iDriYNeERN-
+}
+
+!function AzureAdDomainServices($id, $name="Ad Domain Services", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAdDomainServices', $name, $tech)
+!endfunction
+!function AzureAdDomainServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdDomainServicesLg>', 'Ad Domain Services', $funcName, $content)
+!endfunction
+@enduml

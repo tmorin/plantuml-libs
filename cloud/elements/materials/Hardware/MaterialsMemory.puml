@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMemoryLg [20x20/16z] {
+bL054iH020EQ8Mcx3Fz_xRdxPHM7s7zmcC7lTHWH0pUAI2ujzSACiow7U816ddNK-IUUqo_SNJkuSJaMGZKDNTKmTk5OGZjTJLFjT0fxhNkEVLtZkPVddb_C
+vaySlEJgFsm1
+}
+
+!function MaterialsMemory($id, $name="Memory", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsMemory', $name, $tech)
+!endfunction
+!function MaterialsMemoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMemoryLg>', 'Memory', $funcName, $content)
+!endfunction
+@enduml

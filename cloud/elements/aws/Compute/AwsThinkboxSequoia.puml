@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsThinkboxSequoiaLg [20x20/16z] {
+bT252G0n00D0Y7R_YTyT-n3iwXq_qwHl2vcds5rxBKlZ8GsdwJu92Skv2RoRAbWqL1xcABGPnQTHSqLBbnN87A2NYQdTy9f7IqqgMOSXdNrkWzqQkPLQwthq
+CcqHxxAhvdm_9kDl9W
+}
+
+!function AwsThinkboxSequoia($id, $name="Thinkbox Sequoia", $tech="")
+  CloudElement($id, 'aws/Compute/AwsThinkboxSequoia', $name, $tech)
+!endfunction
+!function AwsThinkboxSequoiaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsThinkboxSequoiaLg>', 'Thinkbox Sequoia', $funcName, $content)
+!endfunction
+@enduml

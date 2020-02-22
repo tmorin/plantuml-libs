@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCodepipelineLg [20x20/16z] {
+RSYtOSG030F0XYI2zj_N3ok7Ayy_kYBfZzpkAiU-W2JR3GK3lPqS2bvEgSjLppJ1wUwgzQPdbPlrp0A9AEXdIOujWrPBkUHegCPmk-IWpL5Xk-GO719g-JmB
+jdFUhhN9MKlCfiUn_FD5RdEzZ_m3
+}
+
+!function AwsCodepipeline($id, $name="Codepipeline", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCodepipeline', $name, $tech)
+!endfunction
+!function AwsCodepipelineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodepipelineLg>', 'Codepipeline', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsConnectLg [20x20/16z] {
+RSv5WaL15CBGbe8BgVslj-Mxl0pFA01zB0a7o05oW6SQINwsKLevZwO2bPIRHTH3CsS4gf3lHPQidCtfQ9HPxgZj1jVVmtoha9FjFHENB4Fjis5R8RV9_O_j
+37PQ-BTpaOTpDwlAjQlns3x0VO3x07y1
+}
+
+!function AwsConnect($id, $name="Connect", $tech="")
+  CloudElement($id, 'aws/CustomerEngagement/AwsConnect', $name, $tech)
+!endfunction
+!function AwsConnectCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsConnectLg>', 'Connect', $funcName, $content)
+!endfunction
+@enduml

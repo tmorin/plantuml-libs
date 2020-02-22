@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpeakerGroupLg [20x20/16z] {
+NT3LOK0X44JHdJMSwR_QU9vmFm-E_0ReJv0hrFbRryjqaTLpaN7Rvb2HSfddjtM8v6NPlcsd-ZYCgqyULXGQwsciNs8IBtDqRiFCnrfLaecUhtcDqtG-rpR0
+5Fa-jxbQsKzR93V9XucNtnB_1ZcB4VuRBjCs_rAvWhu__XC
+}
+
+!function MaterialsSpeakerGroup($id, $name="Speaker Group", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsSpeakerGroup', $name, $tech)
+!endfunction
+!function MaterialsSpeakerGroupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpeakerGroupLg>', 'Speaker Group', $funcName, $content)
+!endfunction
+@enduml

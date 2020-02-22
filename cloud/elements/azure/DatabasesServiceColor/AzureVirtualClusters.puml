@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualClustersLg [19x20/16z] {
+ROm54iGm3CH2hjV1___szb865QrHl61bySSVScsa86r_6IZMnnYTgjWW3LyLp20ffS17ED2KqY6w8kYzp5sgssdLkSjAbNspIgq6a7HKYTEcO7zmLQNsbiqk
+YhjC4hbK1eunHgxOb0X5yDu7uIYgooneI5GLny-MR3X2TJLJRT75-QswPe7PnVm
+}
+
+!function AzureVirtualClusters($id, $name="Virtual Clusters", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureVirtualClusters', $name, $tech)
+!endfunction
+!function AzureVirtualClustersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualClustersLg>', 'Virtual Clusters', $funcName, $content)
+!endfunction
+@enduml

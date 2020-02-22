@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpCloudJobsApi element
+include('elements/gcp/AiAndMachineLearning/GcpCloudJobsApi')
+GcpCloudJobsApi('element', 'Cloud Jobs Api', 'an optional tech field')
+@enduml

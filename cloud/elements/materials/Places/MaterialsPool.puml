@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPoolLg [20x20/16z] {
+bSW7SWGX34JHLaQpedJ_srh6ENl_3D3rS4SiV5wQzwNeSXfQlUN5nAzU1DxTWTSe1Ycx5Uym1zdU4xHw49zexq_eIvbr6Nw9p9KWxW9IDnhYMsNThdtDVoO3
+P0ms5oBnCmdV9v4XR9d6PmvnfUUkYgZQCui1aiSZirY4W3d_xG4
+}
+
+!function MaterialsPool($id, $name="Pool", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsPool', $name, $tech)
+!endfunction
+!function MaterialsPoolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPoolLg>', 'Pool', $funcName, $content)
+!endfunction
+@enduml

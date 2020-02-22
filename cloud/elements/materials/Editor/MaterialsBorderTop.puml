@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderTopLg [20x20/16z] ZK-30G0n3Aoz_xgFu5dasjXA3ErUqAVFjVf0SvZu0XLJv66u0Z96S1MeDTZ1MimmQW0RjOvMUSzQpzT1RqPlbzxE9E2Ju3lEYXXPWndGsLhMnDW1
+
+!function MaterialsBorderTop($id, $name="Border Top", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderTop', $name, $tech)
+!endfunction
+!function MaterialsBorderTopCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderTopLg>', 'Border Top', $funcName, $content)
+!endfunction
+@enduml

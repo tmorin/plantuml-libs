@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsUndoLg [20x20/16z] nOo50S1020FVSRB_jFLsXTuhaAJyHUlNKrjhzUlfqUnaGEfgJozjh80IiS7dqqD2UZtzGx6U7Z3U8C5yUzRVfbaxxiXCwDkSrxZTb8TQVcC7
+
+!function MaterialsUndo($id, $name="Undo", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsUndo', $name, $tech)
+!endfunction
+!function MaterialsUndoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsUndoLg>', 'Undo', $funcName, $content)
+!endfunction
+@enduml

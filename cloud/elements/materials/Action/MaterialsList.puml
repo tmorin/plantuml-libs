@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsListLg [20x20/16z] Ow0FO0GY100BiN0nCdBnS4C13mj8Z0b8ChF00ICkuvZP6HdPEU206PSO9i2q0xjRCDrC7m
+
+!function MaterialsList($id, $name="List", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsList', $name, $tech)
+!endfunction
+!function MaterialsListCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsListLg>', 'List', $funcName, $content)
+!endfunction
+@enduml

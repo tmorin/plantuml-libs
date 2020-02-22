@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSubscriptionsLg [12x20/16z] bSUt0GD108J0DUg_Pd4-Vg91vDQYoOJPb9Z9PGOoa0cOWLwZvoYz53E3b4jwnEJZtqVtsO_CuXy
+
+!function AzureSubscriptions($id, $name="Subscriptions", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureSubscriptions', $name, $tech)
+!endfunction
+!function AzureSubscriptionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSubscriptionsLg>', 'Subscriptions', $funcName, $content)
+!endfunction
+@enduml

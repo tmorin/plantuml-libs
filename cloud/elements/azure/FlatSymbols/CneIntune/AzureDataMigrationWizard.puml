@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataMigrationWizardLg [21x20/16z] {
+PT674OGm34HHoygh_lkz4ndy9p4FS1pTx6WyOelimlWoGoeJqTI07SPmkj_BYNhQ_Sn8dQCZoRgmW73tI1Gk16eFkF7gxmjMcl62u27A3wmE8e3U6DuPSUk9
+mYfRKT0BxLfNvJnnoklBQWphpZ67zSp7x2fj7NkYInSIbN54avcVr_43
+}
+
+!function AzureDataMigrationWizard($id, $name="Data Migration Wizard", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDataMigrationWizard', $name, $tech)
+!endfunction
+!function AzureDataMigrationWizardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataMigrationWizardLg>', 'Data Migration Wizard', $funcName, $content)
+!endfunction
+@enduml

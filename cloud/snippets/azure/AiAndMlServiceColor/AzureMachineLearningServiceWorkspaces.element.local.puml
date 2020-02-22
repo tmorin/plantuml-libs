@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureMachineLearningServiceWorkspaces element
+include('elements/azure/AiAndMlServiceColor/AzureMachineLearningServiceWorkspaces')
+AzureMachineLearningServiceWorkspaces('element', 'Machine Learning Service Workspaces', 'an optional tech field')
+@enduml

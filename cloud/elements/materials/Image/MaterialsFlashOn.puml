@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFlashOnLg [20x20/16z] XSrL0W0X24NHPxVkVxNJnLZtyoY0RlmARopaj5KqiR8NUMqQbKLUcmQrwrjbMajgHyICyHjPq7Ir453NNMgUrIRnJpjMcHAegcdU2W
+
+!function MaterialsFlashOn($id, $name="Flash On", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFlashOn', $name, $tech)
+!endfunction
+!function MaterialsFlashOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlashOnLg>', 'Flash On', $funcName, $content)
+!endfunction
+@enduml

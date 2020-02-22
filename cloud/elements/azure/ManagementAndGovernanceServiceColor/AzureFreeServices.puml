@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureFreeServicesLg [22x20/16z] {
+RS-50O0W441HhudzzvNkPtyn8Bv9tXvOD3FJHQlcezqrvQ3gl6tL-RHOyCwjDLtwn9ctfPhBEMths8GHWEJucX0XCijH0Oc9pehmgep4pBhKVYPpRYoLoWA9
+atwFA_egKClWsu2vPAk895O88VPn8Zg8vFm3
+}
+
+!function AzureFreeServices($id, $name="Free Services", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureFreeServices', $name, $tech)
+!endfunction
+!function AzureFreeServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFreeServicesLg>', 'Free Services', $funcName, $content)
+!endfunction
+@enduml

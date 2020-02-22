@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSnowballLg [20x20/16z] jS-n0G0G30319X-n_y00WDO1lkC_S8kML1BoJBGsG85sj2RcZIGTCXlDrimdjhTsMvje8MjppMoW3RIco82-_lP11
+
+!function AwsSnowball($id, $name="Snowball", $tech="")
+  CloudElement($id, 'aws/Storage/AwsSnowball', $name, $tech)
+!endfunction
+!function AwsSnowballCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSnowballLg>', 'Snowball', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureIntegrationAccountsLg [20x20/16z] XP053W0n20HRFFt_Vy_za8bjS5RLFkW2VrYgk7rWMs8Te7zZW0XUhExrTv08DMAcHqpCP5DUpEijTh3gKRofBQPZw3PqKrxCxVLtU9vwtiy
+
+!function AzureIntegrationAccounts($id, $name="Integration Accounts", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureIntegrationAccounts', $name, $tech)
+!endfunction
+!function AzureIntegrationAccountsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntegrationAccountsLg>', 'Integration Accounts', $funcName, $content)
+!endfunction
+@enduml

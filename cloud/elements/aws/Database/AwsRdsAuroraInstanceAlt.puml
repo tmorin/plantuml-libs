@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsAuroraInstanceAltLg [20x20/16z] {
+lP15WWGm20JJGlF_7o_ik9oduXM7_G5RvmrrduCtEGxD0PTgcdLgfsF7gKbPDqsgQYhNTZ0EPtVTzWAxxfrr20yk2RWwjck9e-ZYtBcTh_R54P99JA5vSM_y
+o7sBwRVO_m4
+}
+
+!function AwsRdsAuroraInstanceAlt($id, $name="Rds Aurora Instance Alt", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsAuroraInstanceAlt', $name, $tech)
+!endfunction
+!function AwsRdsAuroraInstanceAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsAuroraInstanceAltLg>', 'Rds Aurora Instance Alt', $funcName, $content)
+!endfunction
+@enduml

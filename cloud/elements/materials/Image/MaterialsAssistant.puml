@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAssistantLg [20x20/16z] {
+RS_50KGX34NHHmpFxx_QSS7kZeFZNA2Xy28gtdzveQV9DIM3fRIPC_jg2KYBPGOu-s19mkjHdFvc3tgX-NzljV2KCjzXWAttDgAslTbi_qVlWt6_XZhZXQeQ
+-sCOLPNnJzqLQphItXq
+}
+
+!function MaterialsAssistant($id, $name="Assistant", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsAssistant', $name, $tech)
+!endfunction
+!function MaterialsAssistantCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAssistantLg>', 'Assistant', $funcName, $content)
+!endfunction
+@enduml

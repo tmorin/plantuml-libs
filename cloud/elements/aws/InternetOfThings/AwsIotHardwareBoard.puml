@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotHardwareBoardLg [20x20/16z] {
+RP25eS0m24GvJfBz5_vIjzV6SAYDbhhkA7Pq4z6oPLvbe04JTHDYMIkCxOpu89GAGFgqbyIAobe41LkhR00HYjD9Pv5L1vYZEjJG8ciLNTAQKfH4JxINPozO
+OgSMcQSNXgG_0OqgD1Oa9iCPFWdllNtFu7jMtpFzclql
+}
+
+!function AwsIotHardwareBoard($id, $name="Iot Hardware Board", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotHardwareBoard', $name, $tech)
+!endfunction
+!function AwsIotHardwareBoardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotHardwareBoardLg>', 'Iot Hardware Board', $funcName, $content)
+!endfunction
+@enduml

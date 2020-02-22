@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpBigqueryLg [20x20/16z] {
+RP074i0W20IDS0V__t3AORexpLdfJIo3Tj5vqOTQc1SSePuFlCBYwKA1o1Su6YWiO8PwxMsensvsAydH09Ox1lrxDJ04aAY0E9qxU3gJX16WiLJ3tQCMuZMB
+alNkxvaFXVbkynlKhQwmxqsZRZgx_GO
+}
+
+!function GcpBigquery($id, $name="Bigquery", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpBigquery', $name, $tech)
+!endfunction
+!function GcpBigqueryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpBigqueryLg>', 'Bigquery', $funcName, $content)
+!endfunction
+@enduml

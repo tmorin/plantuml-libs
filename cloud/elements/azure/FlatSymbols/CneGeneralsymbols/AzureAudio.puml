@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAudioLg [20x20/16z] {
+TT053WGn20NGZrI1kVzjrmqsysFDgm7uX2TgQ5ibteVzqyD84psinG1OX9xqF3UZmoCMvl4o1YtdsthJVXbPWyHCXcM4RTd41JEoiIj6iUwCvUMF0VOLgHO5
+Xiij_AtvsKZfJMDHdO4CEfdL5vFLsLy1
+}
+
+!function AzureAudio($id, $name="Audio", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureAudio', $name, $tech)
+!endfunction
+!function AzureAudioCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAudioLg>', 'Audio', $funcName, $content)
+!endfunction
+@enduml

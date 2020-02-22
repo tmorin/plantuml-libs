@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVoiceChatLg [20x20/16z] {
+dS_50GGn241HR2m9q7-t2-EIq_xZYmBTa1vXqcnwo-P0Kd-a56QkPSbAWBbjLWWZO2jI3biGCfe9bvV5rhT5NoFkM9NB2bCsc4xrCBTj18yEwywnt1eWhGdU
+WhGcy8w2_km7
+}
+
+!function MaterialsVoiceChat($id, $name="Voice Chat", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsVoiceChat', $name, $tech)
+!endfunction
+!function MaterialsVoiceChatCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVoiceChatLg>', 'Voice Chat', $funcName, $content)
+!endfunction
+@enduml

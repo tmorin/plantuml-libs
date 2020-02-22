@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDeviceConfigLg [18x20/16z] {
+ZSp50SGW54LHv3z1-cztuhARt2W7KUzDalliDUtrran0VGmSqeWjahu4Hn-4_uLVXINlSW55HyelaMHHyH9RjkikF2HosLwNs5nF3LkzjRucMUkfi68TpxLX
+cO7jd4fgYpwAT9LHOTQe5-oeVS42
+}
+
+!function AzureDeviceConfig($id, $name="Device Config", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureDeviceConfig', $name, $tech)
+!endfunction
+!function AzureDeviceConfigCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDeviceConfigLg>', 'Device Config', $funcName, $content)
+!endfunction
+@enduml

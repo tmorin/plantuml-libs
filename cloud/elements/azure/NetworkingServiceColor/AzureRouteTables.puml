@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureRouteTablesLg [20x20/16z] jSe53WD0449HO63kV-IkrINQ7-K5h1YyzDFuPh9TUrTjuw3qGfk0XjMWT3WeyHZ7UfbYpMu6J1HMd7O6XODb2x-JzuUEVQmy8k0UFLf1_Mfstcp8N-m2
+
+!function AzureRouteTables($id, $name="Route Tables", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureRouteTables', $name, $tech)
+!endfunction
+!function AzureRouteTablesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRouteTablesLg>', 'Route Tables', $funcName, $content)
+!endfunction
+@enduml

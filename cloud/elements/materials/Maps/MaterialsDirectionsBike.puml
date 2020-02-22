@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsBikeLg [20x20/16z] {
+VKy5eWKW27D3PFY2-v_s1_wEPqiinkC1dxzYNcK_OxDktsDOJliHKfNmAtIvYbzZgshJzYM-T4V3mtDznhZB6mC7ogL5vckGIt8CA8oUn8x1T5e8Argk489c
+OwzjHmiZU0JQlXvDiWXJFtcHzvrmHtRUnPmOr3oe79Wl6IgLBw4ElZoFGH8VlidnztW6
+}
+
+!function MaterialsDirectionsBike($id, $name="Directions Bike", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsBike', $name, $tech)
+!endfunction
+!function MaterialsDirectionsBikeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsBikeLg>', 'Directions Bike', $funcName, $content)
+!endfunction
+@enduml

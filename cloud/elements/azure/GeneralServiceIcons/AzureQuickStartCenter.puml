@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureQuickStartCenterLg [20x20/16z] {
+NSy7Oa0X30BGXX18lV-1w-pY3_MvF_ubwCz_KZs6_uyPO_0NfQo97Jz4aJMnxgGP2H6O64jGCpO229fxuP9a5u14AHPfavGnrRasgpgaIgHubWTbdRZU8I0T
+jUDIa7GlwiOr4dMfyrqxQLBTFvO44iVUUin05cCXtmwPPCxntOfhnSIksBEy-CgAHry
+}
+
+!function AzureQuickStartCenter($id, $name="Quick Start Center", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureQuickStartCenter', $name, $tech)
+!endfunction
+!function AzureQuickStartCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureQuickStartCenterLg>', 'Quick Start Center', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsFreertosLg [20x20/16z] jOz54W0W24Ld9F_z3sotQvz90pvWEh6XOZNB-dAn3Pq3BbBkgIE7SoO_j7JEhfglfMCNrWoBywuh5DqUMpJYJdiD2g4-Uo_ARAkNf-TtjWya
+
+!function AwsFreertos($id, $name="Freertos", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsFreertos', $name, $tech)
+!endfunction
+!function AwsFreertosCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFreertosLg>', 'Freertos', $funcName, $content)
+!endfunction
+@enduml

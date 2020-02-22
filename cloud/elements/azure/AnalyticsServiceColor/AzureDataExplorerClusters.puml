@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataExplorerClustersLg [20x20/16z] {
+LSq73aH1289X7E6r-nzu7N6RwP_v0-zdxZuFds0qIPi4esaj7IBHw50HagrmGhB41dOOEqIC8MrIsZwe3cbROIJ0ScrYeb1YLCZZR8hEIJPT9kT3bocvq5XK
+PaglDrt0KEmdnuQuS-C_6V_9Q4hJuCfUCGs-
+}
+
+!function AzureDataExplorerClusters($id, $name="Data Explorer Clusters", $tech="")
+  CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataExplorerClusters', $name, $tech)
+!endfunction
+!function AzureDataExplorerClustersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataExplorerClustersLg>', 'Data Explorer Clusters', $funcName, $content)
+!endfunction
+@enduml

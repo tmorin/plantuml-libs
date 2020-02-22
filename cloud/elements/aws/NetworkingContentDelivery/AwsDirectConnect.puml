@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDirectConnectLg [20x20/16z] {
+VSo50GCn34FHWcLBwVxxDZhcVvWNq1ANdiswDGAe1PkfK2maPpE2NXk1oNf45o_B4Kq-AYCe8cgqh2R4Dw9yycXGKxZq4PIjKaeWWrAcf6uoP1OI06rEgkn2
+McnENeWoB4Q8Fcjh2PyLt5gDxyb-RPCcct1giZF-0G
+}
+
+!function AwsDirectConnect($id, $name="Direct Connect", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsDirectConnect', $name, $tech)
+!endfunction
+!function AwsDirectConnectCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDirectConnectLg>', 'Direct Connect', $funcName, $content)
+!endfunction
+@enduml

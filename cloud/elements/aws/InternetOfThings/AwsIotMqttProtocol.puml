@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotMqttProtocolLg [20x20/16z] lT2r0GD03CLGVz1b_ud3Z5rUgSOmIXz48-W3K9Wdf7rkRVFSyl_sUnVTsAUcnTNAfNaaotljfP5cpqxtJgrD54jkmwbPTcr9HP34gscXUnjEltTw0Tu1
+
+!function AwsIotMqttProtocol($id, $name="Iot Mqtt Protocol", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotMqttProtocol', $name, $tech)
+!endfunction
+!function AwsIotMqttProtocolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotMqttProtocolLg>', 'Iot Mqtt Protocol', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsMultipleVolumesResourceIconLg [20x20/16z] jSY53GD05CFGqC_jFt6P1UKdYuoNQOvyishjkPA5FTOySfqI1B9wjiof6aolabPPgddcoNHVYJCDu7ZQnmV-_odtJvuuRdIMSI80cIlZFLi
+
+!function AwsMultipleVolumesResourceIcon($id, $name="Multiple Volumes Resource Icon", $tech="")
+  CloudElement($id, 'aws/Storage/AwsMultipleVolumesResourceIcon', $name, $tech)
+!endfunction
+!function AwsMultipleVolumesResourceIconCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMultipleVolumesResourceIconLg>', 'Multiple Volumes Resource Icon', $funcName, $content)
+!endfunction
+@enduml

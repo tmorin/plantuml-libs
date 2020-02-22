@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTimestreamLg [20x20/16z] {
+RSs73SH024HHfPq0_VTxm3dRN_cX4L7vcgJumB6xQa04GEtOHgedm6bUSx6MBWPMmDKOLkNh5ZEbM7nivmTwlTgoZ1P9YBjbchF50dZOajjwVHZ52XqFovZW
+gCQ2SnKPaxFHx1nRRUENyWFp0ty
+}
+
+!function AwsTimestream($id, $name="Timestream", $tech="")
+  CloudElement($id, 'aws/Database/AwsTimestream', $name, $tech)
+!endfunction
+!function AwsTimestreamCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTimestreamLg>', 'Timestream', $funcName, $content)
+!endfunction
+@enduml

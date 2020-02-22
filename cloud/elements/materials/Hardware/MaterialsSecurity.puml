@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSecurityLg [20x20/16z] {
+dT05OeH0343H612ZkVzjsynqtVVZ3nzu78ggu8KilbkMBqUbDN8ZzAgAbGPnnj9xNbrocsJBmKg61NvlytcetatZ7-yKny7ElQ6ipk7y8_JCL64a9-DTfg4T
+3CqGPfpJS4k6Gv9_XgGfS8gzSajdk1n1ip5wbtgINm
+}
+
+!function MaterialsSecurity($id, $name="Security", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsSecurity', $name, $tech)
+!endfunction
+!function MaterialsSecurityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSecurityLg>', 'Security', $funcName, $content)
+!endfunction
+@enduml

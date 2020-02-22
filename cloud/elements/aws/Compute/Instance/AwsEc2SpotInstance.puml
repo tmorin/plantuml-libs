@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2SpotInstanceLg [20x20/16z] {
+VP07WiL02495uVvNNXoolxSaE6_izUC74lVJe32Y_1npMQjdi1PcVAWBtZDqT5gmY1kS24uj708joxBZrFGFCD19SPpPnciJVcK-cxkvjioZOOEm-2UsAh6b
+LKFZqzBLYngmuBIKdZ7RBp8cCXkZ3sD2FHCq6TD65vXT4TNpijCVlpy
+}
+
+!function AwsEc2SpotInstance($id, $name="Ec2 Spot Instance", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2SpotInstance', $name, $tech)
+!endfunction
+!function AwsEc2SpotInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2SpotInstanceLg>', 'Ec2 Spot Instance', $funcName, $content)
+!endfunction
+@enduml

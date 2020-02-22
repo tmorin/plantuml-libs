@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStorageLg [20x20/16z] Ow04CBAY0KO61YPU5YOkVWJWOy8kXgbtsDX12G
+
+!function MaterialsStorage($id, $name="Storage", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsStorage', $name, $tech)
+!endfunction
+!function MaterialsStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStorageLg>', 'Storage', $funcName, $content)
+!endfunction
+@enduml

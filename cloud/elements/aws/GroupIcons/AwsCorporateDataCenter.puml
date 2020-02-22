@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCorporateDataCenterLg [20x20/16z] bSo53S1040D1WUdwBpZCd9L5yr3_YhkoDu643kR49xDEfaJQ2U4kSAEGozs4rHZr9dDZlh2uacvRCqigxk_byfvr_i_TjWPEORLuAlMd5W
+
+!function AwsCorporateDataCenter($id, $name="Corporate Data Center", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsCorporateDataCenter', $name, $tech)
+!endfunction
+!function AwsCorporateDataCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCorporateDataCenterLg>', 'Corporate Data Center', $funcName, $content)
+!endfunction
+@enduml

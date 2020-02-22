@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSlideshowLg [20x20/16z] ZT350K0X201GksF_QN-d0RoZqenEg0znFgKK7oaTZof9_f197M-HimUFo9kI_PlEkd-hnVB-pN12RjU3D5-_Mt-3qQteLW
+
+!function MaterialsSlideshow($id, $name="Slideshow", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsSlideshow', $name, $tech)
+!endfunction
+!function MaterialsSlideshowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSlideshowLg>', 'Slideshow', $funcName, $content)
+!endfunction
+@enduml

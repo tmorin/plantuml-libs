@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotPolicyLg [20x20/16z] {
+TP170a9124CXxS_zBsp1iUlRqKdg5_tWaMAy2MiZDHfJrIF7JlYPgnpVVSHNhhhwtpuGjhdtBKpP1c1Fdy19QJztxRlHeNrT74pEgA8Z9d4eaJF5HEtaM98w
+imY9RP818myqoMlDLTWqmbc1Ug4Tn_tjR_tX3
+}
+
+!function AwsIotPolicy($id, $name="Iot Policy", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotPolicy', $name, $tech)
+!endfunction
+!function AwsIotPolicyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotPolicyLg>', 'Iot Policy', $funcName, $content)
+!endfunction
+@enduml

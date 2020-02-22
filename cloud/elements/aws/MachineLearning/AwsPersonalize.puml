@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsPersonalizeLg [20x20/16z] {
+hOz74eHG44AhllA0kVzz9vktzhB9ZnkkxkMZaQRx5uGMTVToa8XPdo4oMCKhhyIGa5MTgfwcL1xvlmQgR5LhT1MOfTbqpJ2L4wjapP2BHBqlA5e77OQa6RfE
+Vdzkk1S
+}
+
+!function AwsPersonalize($id, $name="Personalize", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsPersonalize', $name, $tech)
+!endfunction
+!function AwsPersonalizeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsPersonalizeLg>', 'Personalize', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureLaptopLg [32x20/16z] xOmr0eHG34JdM_p-rzt57KegNfMC0KdZ1a5FjLekgLPwlmckILeVVRpXVpvPky5QPnUFMooZsFew3wrTOFULtC6x1NwOxnV_
+
+!function AzureLaptop($id, $name="Laptop", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLaptop', $name, $tech)
+!endfunction
+!function AzureLaptopCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLaptopLg>', 'Laptop', $funcName, $content)
+!endfunction
+@enduml

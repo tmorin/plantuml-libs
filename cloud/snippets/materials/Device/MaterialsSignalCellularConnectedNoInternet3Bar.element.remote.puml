@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsSignalCellularConnectedNoInternet3Bar element
+include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet3Bar')
+MaterialsSignalCellularConnectedNoInternet3Bar('element', 'Signal Cellular Connected No Internet3 Bar', 'an optional tech field')
+@enduml

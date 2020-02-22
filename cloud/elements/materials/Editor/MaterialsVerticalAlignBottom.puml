@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVerticalAlignBottomLg [20x20/16z] pSsr0G1120J0FJUW_sxVtJ-xoT35NyRW9CPQUah7g1LsB8cGmvuJSJXo3Y_KpdH5PJ7dQBkXyLqB
+
+!function MaterialsVerticalAlignBottom($id, $name="Vertical Align Bottom", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsVerticalAlignBottom', $name, $tech)
+!endfunction
+!function MaterialsVerticalAlignBottomCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVerticalAlignBottomLg>', 'Vertical Align Bottom', $funcName, $content)
+!endfunction
+@enduml

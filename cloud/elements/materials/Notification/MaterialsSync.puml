@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSyncLg [20x20/16z] {
+VL050W0X23if4_Z_Qw-xRCbjtT-WfudpqsHDA5njoQrgvOirf08W6iDkcBPCVPGtKuRDAtKD9Drje2iaBaULmf-sQowkpYgxBMyfF5UMwNjKYIe09LrPy4ZC
+F5tv1f9c_90cyx-epp4
+}
+
+!function MaterialsSync($id, $name="Sync", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSync', $name, $tech)
+!endfunction
+!function MaterialsSyncCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSyncLg>', 'Sync', $funcName, $content)
+!endfunction
+@enduml

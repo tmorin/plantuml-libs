@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSliderBarHorizontalLg [122x20/16z] xTQr5G1130FHLMmzzz_jCJEZfe4V6S8PWLv4X1LzNiO9jMMCnECpD6KOX_FZOrkcdvLaoP8btxSzxxiO-Wokb6C
+
+!function AzureSliderBarHorizontal($id, $name="Slider Bar Horizontal", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal', $name, $tech)
+!endfunction
+!function AzureSliderBarHorizontalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSliderBarHorizontalLg>', 'Slider Bar Horizontal', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudCdnLg [20x20/16z] {
+RL07WWD12F8OBF__y2LHjYzJxOer_WJRWTW1arFKZf0hwmIEMxQGUjhHvm-CqhygVHUvP3IB-NsVK9afa2i8C5R-1FOD5inGH8jlkd5NB4TGAtMgSUv5y-2b
+vxVPtZauk9BRZTDCSVh2_GS
+}
+
+!function GcpCloudCdn($id, $name="Cloud Cdn", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudCdn', $name, $tech)
+!endfunction
+!function GcpCloudCdnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudCdnLg>', 'Cloud Cdn', $funcName, $content)
+!endfunction
+@enduml

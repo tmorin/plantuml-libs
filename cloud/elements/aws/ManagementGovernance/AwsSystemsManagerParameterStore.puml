@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerParameterStoreLg [20x20/16z] {
+PSk7QS1G54DHFJLd_ucJxsvoQUA00CX7mfrwMeapTlwjrbTRJdEUTD3qLIuRp17Oom1bHSpBOfBnrvJQ1YZpDblB4fUN9ROn7TZVByjnvZIIjhVkpJBthqqM
+b9d3pYBqHrYcix7WRT21SqOBOonxIhtQtaOVuHS
+}
+
+!function AwsSystemsManagerParameterStore($id, $name="Systems Manager Parameter Store", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
+!endfunction
+!function AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerParameterStoreLg>', 'Systems Manager Parameter Store', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotShadowLg [20x20/16z] {
+NSy5WaKn24FH0Bdfx7_3y-tvgNlHLzkjcm8RwZgLqTlaCcblRQ2tkVrGCVlUYav6RntgDAHLQHBWMxAcKsE5DIhU9Sc8iPKinD-gMYiZkr689sjvjdt2vgAD
+97FZacfyCoM1yGL8z6Jsg8dxEnT7ccIaEBtjiqI2HFZECVQyorQ3r7velG
+}
+
+!function AwsIotShadow($id, $name="Iot Shadow", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotShadow', $name, $tech)
+!endfunction
+!function AwsIotShadowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotShadowLg>', 'Iot Shadow', $funcName, $content)
+!endfunction
+@enduml

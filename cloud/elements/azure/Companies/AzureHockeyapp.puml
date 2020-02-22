@@ -1,0 +1,14 @@
+@startuml
+sprite $AzureHockeyappLg [35x20/16z] {
+RP65WGD124KPlh3zLtm7n9EtEhZ4aA3igckfiaLat87g-aq9O-0vc0Jo3a1w78tWV3D-aUFDgyduJMwwVkd4Bux6Wcl8_0x1xO9Tp60nyompWslX5lMWbgV0
+Q8iyyFKRusH6y5B6WSRtDPvm8jM9iguvHLT0IYA9R07qRvhHDkraeOkDPWgMHvuhuNDzo-FCcm_EWUjxXsx5shYDExHSYzLfExp7OWesyr77VfEkAMKucihQ
+MTkKQoIlkpjqVPKojRwIMDzRF6JS-GC
+}
+
+!function AzureHockeyapp($id, $name="Hockeyapp", $tech="")
+  CloudElement($id, 'azure/Companies/AzureHockeyapp', $name, $tech)
+!endfunction
+!function AzureHockeyappCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureHockeyappLg>', 'Hockeyapp', $funcName, $content)
+!endfunction
+@enduml

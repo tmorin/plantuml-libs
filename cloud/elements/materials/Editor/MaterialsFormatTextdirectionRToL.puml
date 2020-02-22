@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatTextdirectionRToLLg [20x20/16z] dSr50aKX241HuDcv_zN-3hlky2W0_P3U9IISVwNnHpp6Q2_kUV9FFSm0-OIQnXDBRjG696i3tZ2nOiI0Ba262Ma1hrAALibtYZMjdarld7G7
+
+!function MaterialsFormatTextdirectionRToL($id, $name="Format Textdirection R To L", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatTextdirectionRToL', $name, $tech)
+!endfunction
+!function MaterialsFormatTextdirectionRToLCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatTextdirectionRToLLg>', 'Format Textdirection R To L', $funcName, $content)
+!endfunction
+@enduml

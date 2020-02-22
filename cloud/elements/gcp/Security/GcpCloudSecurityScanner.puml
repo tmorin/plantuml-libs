@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSecurityScannerLg [20x20/16z] {
+PP250GCX54EHsFuJjyXvJe6NRsMgRfLJJQTQsP1oIXj5RiB2d2bxlYV8mzOfA1m9d9Y3K6_izZ_DID0vhMw0em8dg0fhSp1C6Lj_6guZl_gPZDLf8nanzxhN
+Is02hX8vtil30KIx5dGQkybsr2pqLYRDixSXUVVscS5tLXixPshxdEbdzZy
+}
+
+!function GcpCloudSecurityScanner($id, $name="Cloud Security Scanner", $tech="")
+  CloudElement($id, 'gcp/Security/GcpCloudSecurityScanner', $name, $tech)
+!endfunction
+!function GcpCloudSecurityScannerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSecurityScannerLg>', 'Cloud Security Scanner', $funcName, $content)
+!endfunction
+@enduml

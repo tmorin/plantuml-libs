@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLocalCafeLg [20x20/16z] ZT350OGm443HKLpwhtO5ulvlFE8m7aaOFQQtwpgE3HFRI4vAR0NAR6FDx3xF1RDnz51ewojb4s-BkyVcZYpWSDcVLe4WV4k_CN3QmmvzXadoLEDz0G
+
+!function MaterialsLocalCafe($id, $name="Local Cafe", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalCafe', $name, $tech)
+!endfunction
+!function MaterialsLocalCafeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalCafeLg>', 'Local Cafe', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureReservedIpAddressesClassicLg [24x20/16z] tSYd5SGm40N0UxVIJ_qNRAh8Z3nm53ixHO2oCwgwMiqOur-DzPiXOM-qDNDioGVu11cW2LZBS_htz4i_
+
+!function AzureReservedIpAddressesClassic($id, $name="Reserved Ip Addresses Classic", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureReservedIpAddressesClassic', $name, $tech)
+!endfunction
+!function AzureReservedIpAddressesClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureReservedIpAddressesClassicLg>', 'Reserved Ip Addresses Classic', $funcName, $content)
+!endfunction
+@enduml

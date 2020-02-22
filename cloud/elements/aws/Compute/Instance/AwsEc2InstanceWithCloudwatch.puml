@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2InstanceWithCloudwatchLg [20x20/16z] {
+RL25TGGm54B__YFtHNfEN1404E57Tn6ni7TtTfnf9prTV6-zG07a4YzWhRkdc8yzC0HSkOjqBzqXkEwgDS1P_Jh8ViOQl1mArwF6rJz7121JHrbxw-rwofPe
+pE1mf7K2ZG_78bzWEbCoVFL1PlpFWGVCo_6HmU-iVcVwdVqV
+}
+
+!function AwsEc2InstanceWithCloudwatch($id, $name="Ec2 Instance With Cloudwatch", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2InstanceWithCloudwatch', $name, $tech)
+!endfunction
+!function AwsEc2InstanceWithCloudwatchCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2InstanceWithCloudwatchLg>', 'Ec2 Instance With Cloudwatch', $funcName, $content)
+!endfunction
+@enduml

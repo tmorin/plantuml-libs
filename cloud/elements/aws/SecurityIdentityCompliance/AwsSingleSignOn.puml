@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSingleSignOnLg [20x20/16z] fOjLWa9130HtWTRxtnUNaSzNeqcgUvXOoj82HRWZL5k3Wniy_n8v99zF6Z13iWIOVindKe341eD7NXZ4Roy0HJc1aBw9OyX-jWP2N2AcCqJ8RasWAv5xZ1i
+
+!function AwsSingleSignOn($id, $name="Single Sign On", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech)
+!endfunction
+!function AwsSingleSignOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSingleSignOnLg>', 'Single Sign On', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudToolsForEclipseLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudToolsForEclipse($id, $name="Cloud Tools For Eclipse", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudToolsForEclipse', $name, $tech)
+!endfunction
+!function GcpCloudToolsForEclipseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudToolsForEclipseLg>', 'Cloud Tools For Eclipse', $funcName, $content)
+!endfunction
+@enduml

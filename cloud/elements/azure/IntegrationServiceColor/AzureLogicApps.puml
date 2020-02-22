@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLogicAppsLg [25x20/16z] {
+ZP47aiKW34Dj5QVS_y3h6RE_DoM0D8zEf1oFiZ92nKb9CiUorDGnsixZt9QtksY5lR3jo-iUHBq4sx4Vsok0wibUWO0HLv0te6v0ofCIj4ta6YmFa4K4A6k0
+PoeuOvJ6J1LkaBm1lDcLgzR2QATNWEty0r37V9hAdJCpHkFiwqFTYbQyVTe_
+}
+
+!function AzureLogicApps($id, $name="Logic Apps", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureLogicApps', $name, $tech)
+!endfunction
+!function AzureLogicAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogicAppsLg>', 'Logic Apps', $funcName, $content)
+!endfunction
+@enduml

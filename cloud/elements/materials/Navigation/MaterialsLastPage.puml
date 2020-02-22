@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLastPageLg [20x20/16z] Ow0NO666qkm8CGvkY20R9oDSZ14iY11322B448BunH12XEt0T0l2pQpiT0ic
+
+!function MaterialsLastPage($id, $name="Last Page", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsLastPage', $name, $tech)
+!endfunction
+!function MaterialsLastPageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLastPageLg>', 'Last Page', $funcName, $content)
+!endfunction
+@enduml

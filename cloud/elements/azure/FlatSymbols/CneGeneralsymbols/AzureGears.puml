@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGearsLg [24x20/16z] {
+PP25bGKW4CIOIVfl-Gnv1pyuwpj-Y1aVfAbDNr6TzDLNGFEwaOo1P3xNlyhqnkyJy-YtpH8tot_HL545-PzFF7JdJvg1o_J482jqVX_pN0Irfr2kihiALSUc
+A4k3vcg897rx5Pmy__N0zK-3qi9uY7QyNFty1W
+}
+
+!function AzureGears($id, $name="Gears", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureGears', $name, $tech)
+!endfunction
+!function AzureGearsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGearsLg>', 'Gears', $funcName, $content)
+!endfunction
+@enduml

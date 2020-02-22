@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBlobStorageLg [22x20/16z] {
+ZOu54WCW40C7EKde_zzRSdNluek5Y0YCrbf71doQ6Gz4Pfuj4c7k_chzZML-jGJ852JNelfzDeg4cxceisbJk5uvaxB5dUtutxPjuKNGvnchP0MN89-IPMB5
+DHcogEEXn7Qpa7q-YtSMJtO5jJp3SuRieIGFR7a4
+}
+
+!function AzureBlobStorage($id, $name="Blob Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureBlobStorage', $name, $tech)
+!endfunction
+!function AzureBlobStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBlobStorageLg>', 'Blob Storage', $funcName, $content)
+!endfunction
+@enduml

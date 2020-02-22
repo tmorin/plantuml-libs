@@ -1,0 +1,16 @@
+@startuml
+!function GcpGroupAccount($id, $name="Account", $tech="")
+  CloudGroup($id, "GcpGroupAccount", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<GcpGroupAccount>> {
+  StereotypeFontColor $GCP_GROUP_FONT_COLOR
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_GROUP_FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #E8EAF6
+  shadowing false
+}
+@enduml

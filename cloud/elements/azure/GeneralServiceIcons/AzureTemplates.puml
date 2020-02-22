@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureTemplatesLg [18x20/16z] lSZL0KGX44DHaWpRVyUu_-spYyxnjWNd36kP3laPTf6bS7HTI0dv26GHoHBcHsf2IbcI5Q4IPADGvUXJyNRa8m
+
+!function AzureTemplates($id, $name="Templates", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureTemplates', $name, $tech)
+!endfunction
+!function AzureTemplatesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTemplatesLg>', 'Templates', $funcName, $content)
+!endfunction
+@enduml

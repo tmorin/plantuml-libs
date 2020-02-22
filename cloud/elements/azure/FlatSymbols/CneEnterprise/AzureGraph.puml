@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGraphLg [20x20/16z] {
+PSu50e0m241HO4NT_xm2jdxxgTi4dY51zBQbiZgzR7fcJnlcrSDQqjj8_MieVXl5J47iqPAoV32PgoZcKNVkVYM87N4Q3tVL8YLOBWqeJ8Wao3gClAomXLGu
+pmMQ83HLGkPxDG8ztce31FOZJgh1ff_bl8LiJ_ibD7wP_Di
+}
+
+!function AzureGraph($id, $name="Graph", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGraph', $name, $tech)
+!endfunction
+!function AzureGraphCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGraphLg>', 'Graph', $funcName, $content)
+!endfunction
+@enduml

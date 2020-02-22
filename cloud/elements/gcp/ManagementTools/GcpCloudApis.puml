@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudApisLg [20x20/16z] {
+PL270WKX26eW-Fy__CRXhU9cfJBQWLve5mOlZDhgp0kiKkG3S9cEXUfp58R_v_Hc_0dyYpazGp-Q8g1q_fb0e00HEXQgMI1HCxNicKxFNc-rs3XsBJcUchqL
+JszvUTiosBDINpALhaotxBy
+}
+
+!function GcpCloudApis($id, $name="Cloud Apis", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudApis', $name, $tech)
+!endfunction
+!function GcpCloudApisCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudApisLg>', 'Cloud Apis', $funcName, $content)
+!endfunction
+@enduml

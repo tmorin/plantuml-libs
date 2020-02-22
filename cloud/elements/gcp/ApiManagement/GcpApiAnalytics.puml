@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpApiAnalyticsLg [20x20/16z] {
+RP250G0X30EHacR_XN67-yUhCHNRCHE7YUjN5foWcmetf9afDxGQ1Xw4aa1ve3aDoWh0-poNTnZHV2MJOY3rHSGBaATwrD-T7xvadceDlfQY03DzVckX-zRy
+zlRNO6erpKvDLQUcZ_O9
+}
+
+!function GcpApiAnalytics($id, $name="Api Analytics", $tech="")
+  CloudElement($id, 'gcp/ApiManagement/GcpApiAnalytics', $name, $tech)
+!endfunction
+!function GcpApiAnalyticsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpApiAnalyticsLg>', 'Api Analytics', $funcName, $content)
+!endfunction
+@enduml

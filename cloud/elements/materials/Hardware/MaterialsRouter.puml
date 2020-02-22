@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRouterLg [20x20/16z] {
+bOw50GCm20G3F55a_sdhxhqe_kL_I21qxwaLq8PRdmW3kqFtYH3LtuOy-x3eeuzEg9trKRSJdcRzu4LcH4RkzXuSVLDqx3RN6zyWwOJTll7vc3wMZNNniUKD
+nkNWn0qxryzi0G
+}
+
+!function MaterialsRouter($id, $name="Router", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsRouter', $name, $tech)
+!endfunction
+!function MaterialsRouterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRouterLg>', 'Router', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsVpcSubnetPrivateLg [20x20/16z] hOot0O1G448Rxe3z1pOd_AM-ZkWVKBUS4DrWUYLRbSiwWfXg8SO0QW50l2taOwro3TBhXRSdOEYvsuD7feVcHkFss0VqLsO
+
+!function AwsVpcSubnetPrivate($id, $name="Vpc Subnet Private", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsVpcSubnetPrivate', $name, $tech)
+!endfunction
+!function AwsVpcSubnetPrivateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcSubnetPrivateLg>', 'Vpc Subnet Private', $funcName, $content)
+!endfunction
+@enduml

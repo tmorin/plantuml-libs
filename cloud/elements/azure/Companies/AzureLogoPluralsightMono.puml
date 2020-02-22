@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLogoPluralsightMonoLg [20x20/16z] {
+RL250S0m36g0Ilu_UEw3hHQ7iYBKH-ReYdA2FGzq7gQQ3zJJz3LoJngNaINMMYE5TjKCRV4ae3DKVTiZs8_Giux4G6lOXzhZLLLNYs8VmjXShklXPd4p6sv6
+0wULrzHfFmC
+}
+
+!function AzureLogoPluralsightMono($id, $name="Logo Pluralsight Mono", $tech="")
+  CloudElement($id, 'azure/Companies/AzureLogoPluralsightMono', $name, $tech)
+!endfunction
+!function AzureLogoPluralsightMonoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogoPluralsightMonoLg>', 'Logo Pluralsight Mono', $funcName, $content)
+!endfunction
+@enduml

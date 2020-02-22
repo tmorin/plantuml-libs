@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsStepFunctionLg [20x20/16z] bP3L0GCm508h787ils_TlVVv59Z_aZoNuAde7VULDbBQso500doU6MEDHtU4Koso3RF9SD9Z3GaVUrRkQcG7kTkrZTt77twhvLdpixVd39wp-fSj
+
+!function AwsStepFunction($id, $name="Step Function", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsStepFunction', $name, $tech)
+!endfunction
+!function AwsStepFunctionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStepFunctionLg>', 'Step Function', $funcName, $content)
+!endfunction
+@enduml

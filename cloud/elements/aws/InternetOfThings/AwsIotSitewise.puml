@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotSitewiseLg [20x20/16z] {
+RSe72W11349HsAY9S_y3R-_vD7beBzMpJ3Ve1dtKMkRFHF9ZkG3pQxRatSPk32bOXorOX8eiWRdRC0axvG9vM0P29gq9atQpi2mWYs1viqLjHC0k-x3z2tbl
+iIFVjTRWQ70qE0C
+}
+
+!function AwsIotSitewise($id, $name="Iot Sitewise", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotSitewise', $name, $tech)
+!endfunction
+!function AwsIotSitewiseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotSitewiseLg>', 'Iot Sitewise', $funcName, $content)
+!endfunction
+@enduml

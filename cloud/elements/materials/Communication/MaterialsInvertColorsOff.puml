@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsInvertColorsOffLg [20x20/16z] {
+bSu50iCW30NGnd38_M-xdyvz-rKUacp_Hks9RCuRf29ODNE_nTG5EwdwFJBUpNtgnTGxjbS7oecebXpR9x3IqMHARDzndHPQf-s2Th86E-7PT8HH2rodoZps
+d-Q1V2gSswa_u3dScc2l0-MAPTOyt4k-GT9SQnPKHmzFWR_C0G
+}
+
+!function MaterialsInvertColorsOff($id, $name="Invert Colors Off", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsInvertColorsOff', $name, $tech)
+!endfunction
+!function MaterialsInvertColorsOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInvertColorsOffLg>', 'Invert Colors Off', $funcName, $content)
+!endfunction
+@enduml

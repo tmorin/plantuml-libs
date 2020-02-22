@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMoodLg [20x20/16z] {
+VP05UWKX38HZE5dkVzi6R_jaLfZl7oo1Bq8Y_0iaLTMQv69A6eHPWYRQA2UUZbEU45CwIp35uKKPiBl-PvNkOh2ueA5Y2qBiORKafCvIi5NL72dt1DQFbIQx
+wcojfQMrjfy1lZsgJ_DWPvoxU6rD_RaBnjIF4g5xvzVQtlVWzYeAllRqYtu
+}
+
+!function MaterialsMood($id, $name="Mood", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsMood', $name, $tech)
+!endfunction
+!function MaterialsMoodCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMoodLg>', 'Mood', $funcName, $content)
+!endfunction
+@enduml

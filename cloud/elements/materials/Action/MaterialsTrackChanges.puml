@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTrackChangesLg [20x20/16z] {
+VP07RaKn20GNZ32BSDxzRnkNbDzNVT3Gy26Y-W2CzTNla79qoxX3oGR4PasFI2hKntQ3WXaR3LPPamdQi5tgq7APhgQYnrBBu2aW8UdJcB9EbGwxBeDpolgA
+_Rjcl-x_342yzep_NTopx7SN2GhKILS8G_vlssbClVr1QzP7wDslngWmUVofu4E-0G
+}
+
+!function MaterialsTrackChanges($id, $name="Track Changes", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTrackChanges', $name, $tech)
+!endfunction
+!function MaterialsTrackChangesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTrackChangesLg>', 'Track Changes', $funcName, $content)
+!endfunction
+@enduml

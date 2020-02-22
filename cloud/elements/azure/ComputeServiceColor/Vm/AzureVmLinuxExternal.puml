@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmLinuxExternalLg [22x20/16z] {
+PSz70eGm34DHOiQoPER-rwLNvw_WfIEwg1EBAWAEDSVvjSPTz_Z_o_VUgin4fqJq2W9YLS8CKtmL-hLcgQ8vhgh4LoEi6Ldc8iRHWPUUBFQlmDQZmPhaGTM8
+eHqPfubs_WntcmwVcWEK2FXhdklETrW
+}
+
+!function AzureVmLinuxExternal($id, $name="Vm Linux External", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmLinuxExternal', $name, $tech)
+!endfunction
+!function AzureVmLinuxExternalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmLinuxExternalLg>', 'Vm Linux External', $funcName, $content)
+!endfunction
+@enduml

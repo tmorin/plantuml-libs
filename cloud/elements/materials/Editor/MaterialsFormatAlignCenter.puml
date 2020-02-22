@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatAlignCenterLg [20x20/16z] ZT035W0X403GxFjVTuqm-iyrLcBQ3VJvvbhjD7S73jHhVBYVIhloIlzetSKgWaq3YxoDq1xuBCWIm_Dy0-HMGZi
+
+!function MaterialsFormatAlignCenter($id, $name="Format Align Center", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatAlignCenter', $name, $tech)
+!endfunction
+!function MaterialsFormatAlignCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatAlignCenterLg>', 'Format Align Center', $funcName, $content)
+!endfunction
+@enduml

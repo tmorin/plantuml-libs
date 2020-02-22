@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPetsLg [20x20/16z] {
+bSp55GCn40DGZSpqr7-rWUKDvn_iOVo5ZikpOLNbz63Z9VdfmSB0hixfWKsbq0fTSC3jOMa10BiKiOXI9y0srypcMYC0NvB1Ok_HOAbuh99k4ew29W4xFpGP
+_bmw5zcqQJmTEvtqEl2OM1gzrL9gwoCP5gGPO4RYdIi
+}
+
+!function MaterialsPets($id, $name="Pets", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPets', $name, $tech)
+!endfunction
+!function MaterialsPetsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPetsLg>', 'Pets', $funcName, $content)
+!endfunction
+@enduml

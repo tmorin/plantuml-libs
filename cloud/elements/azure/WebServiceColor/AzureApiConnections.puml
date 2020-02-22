@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureApiConnectionsLg [32x20/16z] {
+XL850iLG208Lxd_ZNwkdlrXFmGJ0b4yeYOwGTS5MJ7Dn-QpkG3dHa1RNhy90hGmvfZrMYhLOc9A0xL9os4Es3xktIYHUkguWG1K0Hjc1TCvAqdbLGYbw9I5n
+gIIqgK8cmDOVMbjMggSTgDvVsg-gQhCJfKfYjV_fbFvs-l-aPdysRFsPgz2WPlwyQNS
+}
+
+!function AzureApiConnections($id, $name="Api Connections", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureApiConnections', $name, $tech)
+!endfunction
+!function AzureApiConnectionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureApiConnectionsLg>', 'Api Connections', $funcName, $content)
+!endfunction
+@enduml

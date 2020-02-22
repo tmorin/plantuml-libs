@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsBlockchainLg [20x20/16z] jOlL0K0X24MLtd_Xro7nop6vCKfcu9H47JmFJStHf2dJiQvBFus8yDfKQhvBhkjeqTX3fmQUUMW5Em
+
+!function AwsBlockchain($id, $name="Blockchain", $tech="")
+  CloudElement($id, 'aws/Blockchain/AwsBlockchain', $name, $tech)
+!endfunction
+!function AwsBlockchainCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBlockchainLg>', 'Blockchain', $funcName, $content)
+!endfunction
+@enduml

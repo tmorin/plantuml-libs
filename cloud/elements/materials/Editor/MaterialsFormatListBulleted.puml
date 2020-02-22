@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatListBulletedLg [20x20/16z] Ow0CC68AiV4mCx9pi4C11pCsCOXUIks00sPCCPWTzFK7vG
+
+!function MaterialsFormatListBulleted($id, $name="Format List Bulleted", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatListBulleted', $name, $tech)
+!endfunction
+!function MaterialsFormatListBulletedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatListBulletedLg>', 'Format List Bulleted', $funcName, $content)
+!endfunction
+@enduml

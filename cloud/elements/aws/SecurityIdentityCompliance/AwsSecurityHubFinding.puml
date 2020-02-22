@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSecurityHubFindingLg [20x20/16z] {
+fSk74GCm30900m9d_ub3UhyMNFKwhT-1-2uJnyzAPoWgqOqSSNBO9XrSveA9OQbtUBFThbk5lblMnVo73OXtKsA-cY8fPmp3ao5ebpcPfQ3M2eMWXd3YRHMu
+K6iKGID4QzQuqZ3npAXtZC95DSDEzFgH8m
+}
+
+!function AwsSecurityHubFinding($id, $name="Security Hub Finding", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSecurityHubFinding', $name, $tech)
+!endfunction
+!function AwsSecurityHubFindingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSecurityHubFindingLg>', 'Security Hub Finding', $funcName, $content)
+!endfunction
+@enduml

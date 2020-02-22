@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAutorenewLg [20x20/16z] {
+VT230G0n30303-ja_sdVTdcfkz-FNop93O2rcbn4IYlcyKoXAMAES39fq_ewqSPGT8jYMf4RxjPedPfXCyZoOVUvl0RJRbhsZQUiymmv7pjcH6q1JXRTIYjo
+fawiAc-oO_fwqkzl
+}
+
+!function MaterialsAutorenew($id, $name="Autorenew", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAutorenew', $name, $tech)
+!endfunction
+!function MaterialsAutorenewCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAutorenewLg>', 'Autorenew', $funcName, $content)
+!endfunction
+@enduml

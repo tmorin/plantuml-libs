@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudformationStackLg [20x20/16z] {
+ZP050eGm30JfIlB_5v_iASuWRLm6k013xGKjQLgWwxhYWXAy0gmtKhsXD0AhECAl1cmiwYvqwzYj6d3Aom_q4IfjjaZrMqWDsTC3Ey9rNTlk_Drl8Rj7_iHR
+k0C
+}
+
+!function AwsCloudformationStack($id, $name="Cloudformation Stack", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudformationStack', $name, $tech)
+!endfunction
+!function AwsCloudformationStackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudformationStackLg>', 'Cloudformation Stack', $funcName, $content)
+!endfunction
+@enduml

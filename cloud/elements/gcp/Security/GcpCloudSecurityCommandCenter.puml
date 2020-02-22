@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSecurityCommandCenterLg [20x20/16z] {
+RL250GGn3Ae1tN_X2idxSzeeK8oQA4yqFj4oL3cVO9QE-OOHPRh_El3NXJW_x9Meumx1NQ1e839_rjnSBwLBBKQp33dM9wdcc1oQX4udXLpt9zRbNTdBe0YJ
+YXtDJUPYKaIAREPqWvM84Fvf--F1hrUgdvvAIa__UBy1
+}
+
+!function GcpCloudSecurityCommandCenter($id, $name="Cloud Security Command Center", $tech="")
+  CloudElement($id, 'gcp/Security/GcpCloudSecurityCommandCenter', $name, $tech)
+!endfunction
+!function GcpCloudSecurityCommandCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSecurityCommandCenterLg>', 'Cloud Security Command Center', $funcName, $content)
+!endfunction
+@enduml

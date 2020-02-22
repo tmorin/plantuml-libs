@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEfsInfrequentaccessPrimaryBgLg [20x20/16z] {
+RSY53SDG30L0AVOZxxzl8V2B9xxi_4RAdyoVt4E0RG6wpe084bItZcFHKhSaR3YFRA0QtUHr2gI2mUmt6IgKKQBEcn44gOeWMyV5t4e0jwAzttFH855CSjtG
+RfhwlC3PB-lqF2YxummqmRpVH4tdxSxEkZyvV_8E
+}
+
+!function AwsEfsInfrequentaccessPrimaryBg($id, $name="Efs Infrequentaccess Primary Bg", $tech="")
+  CloudElement($id, 'aws/Storage/AwsEfsInfrequentaccessPrimaryBg', $name, $tech)
+!endfunction
+!function AwsEfsInfrequentaccessPrimaryBgCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEfsInfrequentaccessPrimaryBgLg>', 'Efs Infrequentaccess Primary Bg', $funcName, $content)
+!endfunction
+@enduml

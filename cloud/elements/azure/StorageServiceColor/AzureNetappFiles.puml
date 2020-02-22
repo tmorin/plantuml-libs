@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureNetappFilesLg [24x20/16z] {
+RSq54eH034JHaOuizp_mDepBmt-eYkZ9tEsQwPf93cMAZLH0F2LHv721siKxgHs9xEayaTIzFdNKlO7i3MLiCOHOzfOkNFFsllVUaUdjcfBouVo4oDXhPUpo
+QV__7WMK3mEr3X41rKVjs9GEkM6--WC
+}
+
+!function AzureNetappFiles($id, $name="Netapp Files", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureNetappFiles', $name, $tech)
+!endfunction
+!function AzureNetappFilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNetappFilesLg>', 'Netapp Files', $funcName, $content)
+!endfunction
+@enduml

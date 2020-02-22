@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureAllResourcesLg [20x20/16z] Om41PaPc98g5scBCOC28Ie410mE2P8JACA1Gj70BmWv2Ra6bw15M
+
+!function AzureAllResources($id, $name="All Resources", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureAllResources', $name, $tech)
+!endfunction
+!function AzureAllResourcesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAllResourcesLg>', 'All Resources', $funcName, $content)
+!endfunction
+@enduml

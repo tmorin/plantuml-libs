@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAirportShuttleLg [20x20/16z] {
+hSp50O0m50FG97NVVrhSppoeVSFVJ7WmMuWvXn3xkesSgzrYww5ZOzo2Mup5xZV6PZzrs8Ei-xnZ2taKieoFIjPbhsFNIzjYPMGfZxuOdgwFGiW787X99Xae
+6m5WSYuH2vjizDZ8Us5ZWoF-DmC
+}
+
+!function MaterialsAirportShuttle($id, $name="Airport Shuttle", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsAirportShuttle', $name, $tech)
+!endfunction
+!function MaterialsAirportShuttleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAirportShuttleLg>', 'Airport Shuttle', $funcName, $content)
+!endfunction
+@enduml

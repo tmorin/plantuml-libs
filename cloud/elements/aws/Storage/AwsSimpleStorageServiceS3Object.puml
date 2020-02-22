@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSimpleStorageServiceS3ObjectLg [20x20/16z] VP053i003097G_d_Z-U-ouZL2mm_g1cFWfosEzOrioTowYWTqHNgA6t5TSC-2bSMFTvbcUudgQwvvcVDMADT-45SY3De0m_8A_QKCG4
+
+!function AwsSimpleStorageServiceS3Object($id, $name="Simple Storage Service S3 Object", $tech="")
+  CloudElement($id, 'aws/Storage/AwsSimpleStorageServiceS3Object', $name, $tech)
+!endfunction
+!function AwsSimpleStorageServiceS3ObjectCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSimpleStorageServiceS3ObjectLg>', 'Simple Storage Service S3 Object', $funcName, $content)
+!endfunction
+@enduml

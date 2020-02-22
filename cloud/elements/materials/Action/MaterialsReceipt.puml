@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsReceiptLg [20x20/16z] {
+TP050eGm30Ilxjt_l_QCDDWoK8idhsUCR8BpCVhiOdJvTtC_cGSmCO3nFG2_P8hAUav2xajMDBWfIzQ25qBJUACBG-DLQmHRcOpxyXoy5bxp2Kzd8BDoXrcn
+cN8-
+}
+
+!function MaterialsReceipt($id, $name="Receipt", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsReceipt', $name, $tech)
+!endfunction
+!function MaterialsReceiptCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsReceiptLg>', 'Receipt', $funcName, $content)
+!endfunction
+@enduml

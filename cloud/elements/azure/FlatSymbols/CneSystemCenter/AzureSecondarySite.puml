@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSecondarySiteLg [17x20/16z] {
+TOy54e0m30GfTo7s__yINBjeTw9DfWqE6upS26n2mbSYU0ZbWbtYu1AvqedeYrTAHe6RK09eLvU0seggGYhTQRfIAqb5k173paW9HN4N5VAA43uZNATBj1AH
+JhOTi6AaNWSopW
+}
+
+!function AzureSecondarySite($id, $name="Secondary Site", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureSecondarySite', $name, $tech)
+!endfunction
+!function AzureSecondarySiteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSecondarySiteLg>', 'Secondary Site', $funcName, $content)
+!endfunction
+@enduml

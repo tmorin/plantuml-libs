@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRedeemLg [20x20/16z] {
+ZOq54iGm203Z2Vx_rzxLtNQc0RQ8kyK7Fpuh0GN3yAokGGIYxcdh95HVpRe7fkaC84fY9gG2aFjTN4lEOAKOv5mgXyv9wAV1zzzOZayP_dBPkfIS6zxLhSmk
+XmrvS6gwmNHmJ1juS9ByXYGtpkD-5dr_FUq8xZD_
+}
+
+!function MaterialsRedeem($id, $name="Redeem", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsRedeem', $name, $tech)
+!endfunction
+!function MaterialsRedeemCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRedeemLg>', 'Redeem', $funcName, $content)
+!endfunction
+@enduml

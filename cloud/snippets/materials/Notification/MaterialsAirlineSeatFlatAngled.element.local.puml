@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsAirlineSeatFlatAngled element
+include('elements/materials/Notification/MaterialsAirlineSeatFlatAngled')
+MaterialsAirlineSeatFlatAngled('element', 'Airline Seat Flat Angled', 'an optional tech field')
+@enduml

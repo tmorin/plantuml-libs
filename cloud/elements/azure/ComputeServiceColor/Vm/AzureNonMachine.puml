@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureNonMachineLg [12x20/16z] OsBdX09s41FEuKG17EnWm05Yip630Hj40WmuKG4UlKnWWAANJC36Xh21XGLX304J0G
+
+!function AzureNonMachine($id, $name="Non Machine", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureNonMachine', $name, $tech)
+!endfunction
+!function AzureNonMachineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNonMachineLg>', 'Non Machine', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAssignmentReturnLg [20x20/16z] {
+ZP050WCn20I1MtAsDFz_RLssVXEVE7R3tLx1ia260I3P6XD0N1JxaOgeKykpH3-pB9SMDoUeM-lDpSFRtZbi9alTKPcxDt5hs9aKHxovYno0ITrH-lps5kQ7
+VzHENB0Bl0O6GjXs3W
+}
+
+!function MaterialsAssignmentReturn($id, $name="Assignment Return", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAssignmentReturn', $name, $tech)
+!endfunction
+!function MaterialsAssignmentReturnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAssignmentReturnLg>', 'Assignment Return', $funcName, $content)
+!endfunction
+@enduml

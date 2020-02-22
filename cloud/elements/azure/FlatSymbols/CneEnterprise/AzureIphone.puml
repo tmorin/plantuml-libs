@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIphoneLg [12x20/16z] {
+ROs50G8n34KfrUZ-unB3xrNY-QY6YFye1WEmE7kCqRjzHsNSYddXz_dspoZ_ljSwC_n69g0d_26kblaUeZjxs7tfCRlTfnP-sslk_gtxxUzUs9WO0Fvh2gqm
+u3-pk_W
+}
+
+!function AzureIphone($id, $name="Iphone", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureIphone', $name, $tech)
+!endfunction
+!function AzureIphoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIphoneLg>', 'Iphone', $funcName, $content)
+!endfunction
+@enduml

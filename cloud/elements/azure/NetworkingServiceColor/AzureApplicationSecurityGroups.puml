@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureApplicationSecurityGroupsLg [15x20/16z] {
+JSz70W0X24DH4KY2zx_l5AR-tRCxEaiRR-OKl0SY4jGPWKpzMclzLCtmfpn81uc4Yb4dASxXMdgOxicFFX7u2C_KGr2Yge_gYsBQZ3Wludc_V7Y_ek8GmgS7
+3i9GwuqsZAzavszn2pQwwA_5U3BKFRK3
+}
+
+!function AzureApplicationSecurityGroups($id, $name="Application Security Groups", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureApplicationSecurityGroups', $name, $tech)
+!endfunction
+!function AzureApplicationSecurityGroupsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureApplicationSecurityGroupsLg>', 'Application Security Groups', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFullscreenLg [20x20/16z] Ow01O6LdPsTYO602KgmmCNOU3eWO1myxN8m3nk90Y65XCJ5XiWW3JBruxC1q2wQRCVr60m
+
+!function MaterialsFullscreen($id, $name="Fullscreen", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsFullscreen', $name, $tech)
+!endfunction
+!function MaterialsFullscreenCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFullscreenLg>', 'Fullscreen', $funcName, $content)
+!endfunction
+@enduml

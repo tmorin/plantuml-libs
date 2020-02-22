@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsRunLg [20x20/16z] {
+ZOor0KH1509XxQtJVxSNtNUR41ai-4WSS5tfb0qPZeJJrwUqZnZoq46NH-vIzvk89R5gzkgtMNHTpUUHmn9Qy586WcsTKIh47kjLUGtf29RiibQP7otd6U76
+cj57Azs3FM07SSxmFOCZxla1
+}
+
+!function MaterialsDirectionsRun($id, $name="Directions Run", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsRun', $name, $tech)
+!endfunction
+!function MaterialsDirectionsRunCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsRunLg>', 'Directions Run', $funcName, $content)
+!endfunction
+@enduml

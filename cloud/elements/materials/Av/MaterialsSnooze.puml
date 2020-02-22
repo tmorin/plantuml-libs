@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSnoozeLg [20x20/16z] {
+VL05TiKm38jb2jXlzpzj8Uvu-sgJc47jFz0leUb42PZw-2oD8Ag2MzoX7WABd3F38E4xap6NWWYw9hYoQOptUcDGIHPe91Ue8Qp2rlLAHhx9vLyxa9DlJ-ML
+qYJmEIH2TjosoTm1Y7gIRtc8x5pKA7u7htM7-3ECf5oU2oKMF1vfRrOWpoxCqek11zmZCph_e1MWzW8d
+}
+
+!function MaterialsSnooze($id, $name="Snooze", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsSnooze', $name, $tech)
+!endfunction
+!function MaterialsSnoozeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSnoozeLg>', 'Snooze', $funcName, $content)
+!endfunction
+@enduml

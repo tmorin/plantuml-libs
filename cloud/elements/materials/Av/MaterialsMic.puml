@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMicLg [20x20/16z] jSY53GGW542nzmKdiF-qv-xQU7b4bKknztXHDkOSnXcVA_x72uwjp_1mk8IKEOkG3gVDaE22LMKlL0DM5U0aSmYv1KvfQ2qe5tA6LywCToq1
+
+!function MaterialsMic($id, $name="Mic", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsMic', $name, $tech)
+!endfunction
+!function MaterialsMicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMicLg>', 'Mic', $funcName, $content)
+!endfunction
+@enduml

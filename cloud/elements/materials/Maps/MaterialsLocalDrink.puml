@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalDrinkLg [20x20/16z] {
+TSu55WCX30JGmJN9_M_RC6_hxLy5OlWfn3S1BicR11Urn8UYaRcIyP0tSyCiU2Wpy3jwVEW3r4qVh8Eg7NlpKq75dEGivrj0cUTNV0Ob_ptjmlIV18h2C0PA
+18N551PP0GTp6bnZ3T0mqnfZLRE1ItlCntZAMqHK_RKpxk83_ha1
+}
+
+!function MaterialsLocalDrink($id, $name="Local Drink", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalDrink', $name, $tech)
+!endfunction
+!function MaterialsLocalDrinkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalDrinkLg>', 'Local Drink', $funcName, $content)
+!endfunction
+@enduml

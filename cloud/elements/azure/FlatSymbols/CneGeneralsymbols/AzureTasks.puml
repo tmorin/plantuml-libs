@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTasksLg [15x20/16z] {
+VOvLWWD0348dDfB0tF-sktLltrSKQ4UaTacx8DQHw7OSQCW4qXAO6WfuRHBahk2XD8ypxkIXRLViHslws2hMmwyiXjtRmNd-zJMbELEkBOSLxAeiIJ3kHbfx
+FFhQb6-frhooUEWVuU8Zwny
+}
+
+!function AzureTasks($id, $name="Tasks", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureTasks', $name, $tech)
+!endfunction
+!function AzureTasksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTasksLg>', 'Tasks', $funcName, $content)
+!endfunction
+@enduml

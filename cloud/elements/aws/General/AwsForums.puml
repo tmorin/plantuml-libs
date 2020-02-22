@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsForumsLg [20x20/16z] RT17WiDG20JHaRwgGFS_y3XW77bxGlUsVcoSyUL4_WfHG6CLB8JB7sldnsvguouLyo7sEgQ9ZUCcdVRDDuw2XVIL8ujeKcppZIcRWUrODw4GhNDCdKxTNm
+
+!function AwsForums($id, $name="Forums", $tech="")
+  CloudElement($id, 'aws/General/AwsForums', $name, $tech)
+!endfunction
+!function AwsForumsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsForumsLg>', 'Forums', $funcName, $content)
+!endfunction
+@enduml

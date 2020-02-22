@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsVoiceChat element
+include('elements/materials/Notification/MaterialsVoiceChat')
+MaterialsVoiceChat('element', 'Voice Chat', 'an optional tech field')
+@enduml

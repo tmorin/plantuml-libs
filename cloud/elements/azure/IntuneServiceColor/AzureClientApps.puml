@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureClientAppsLg [20x20/16z] hSwt4G0X40F0Fp-Y_u9_929Ys0HpTj4uUC1dqUk_eV8Hhtt8TnoWsGTyTBpUfIcjU9Ibda5k8UOwBcPS_Vq
+
+!function AzureClientApps($id, $name="Client Apps", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureClientApps', $name, $tech)
+!endfunction
+!function AzureClientAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureClientAppsLg>', 'Client Apps', $funcName, $content)
+!endfunction
+@enduml

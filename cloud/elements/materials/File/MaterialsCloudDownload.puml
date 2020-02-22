@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCloudDownloadLg [20x20/16z] {
+fS_50S0W30LGB8hjFsqbgPxv5U3XOJqn0-JuewBpY9OFmPYM0S-yqkULdbr0pr5O2Xu5cQ7FIY6aew_1KIdZPwS6iMMOJYFkPwDqin8itXATDg4ODTySvuqt
+JOboev4lb7XujJiryEj_ay9ITW
+}
+
+!function MaterialsCloudDownload($id, $name="Cloud Download", $tech="")
+  CloudElement($id, 'materials/File/MaterialsCloudDownload', $name, $tech)
+!endfunction
+!function MaterialsCloudDownloadCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCloudDownloadLg>', 'Cloud Download', $funcName, $content)
+!endfunction
+@enduml

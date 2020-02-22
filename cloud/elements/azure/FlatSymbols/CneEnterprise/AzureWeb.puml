@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWebLg [20x20/16z] {
+RL27WG0X20CzK49m_t4VlxTOwH2vK0Uh25VvW6MTgpkLzgvQp8ePlIkvtbG7s28H8Xjnhj8OBDUhKo-YJ3H3WKoGzuP6gdFE7FfufaqTEIOT48Sq8gG14u1B
+TdpfeaLM1XaD4WqoihxftkyiRbdVOria8FQzXWlGlOpRYsNwqxtCxkM_diKABFkSBMYl7CGN1pZhFww-EArldFx7_Gi
+}
+
+!function AzureWeb($id, $name="Web", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWeb', $name, $tech)
+!endfunction
+!function AzureWebCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWebLg>', 'Web', $funcName, $content)
+!endfunction
+@enduml

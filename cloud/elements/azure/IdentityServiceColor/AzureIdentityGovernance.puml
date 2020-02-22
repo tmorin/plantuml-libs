@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIdentityGovernanceLg [20x20/16z] {
+HP37WKKX3CGcsEF7zb_m0Z_f9f41G48zcvXRJkc9LRQh9za2L5H3N9Gj8RgW4UuYNY5gAY4yOrnfCEaMjFx-bi2T2CyzgTQcUB3IEFZNkiUtCSyJtLRpQkn7
+UleslrkjPRyNlnjdhMIjqLtRlPlM6zypP19wNkdPeZ5sB_gDEWdHgIc-K8w08rJUpKSQJ2aHBvej1JYJJ9TThItDrzVJFPlM4U0V
+}
+
+!function AzureIdentityGovernance($id, $name="Identity Governance", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureIdentityGovernance', $name, $tech)
+!endfunction
+!function AzureIdentityGovernanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIdentityGovernanceLg>', 'Identity Governance', $funcName, $content)
+!endfunction
+@enduml

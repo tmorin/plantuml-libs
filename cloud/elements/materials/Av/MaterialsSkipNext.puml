@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSkipNextLg [20x20/16z] Ow0NO664qknm8KPE3YOmWusJ4I76pys2ASRFnyw8BWO4NCpunH1w2Tk1S0k6crdPwHPC
+
+!function MaterialsSkipNext($id, $name="Skip Next", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsSkipNext', $name, $tech)
+!endfunction
+!function MaterialsSkipNextCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSkipNextLg>', 'Skip Next', $funcName, $content)
+!endfunction
+@enduml

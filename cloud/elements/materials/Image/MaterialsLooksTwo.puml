@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLooksTwoLg [20x20/16z] ZP053a0X34Cd9JZS_xJVNNcnPTvIEu83CgTIFP2c9Ee9RBbWhVMNt1YnFUSie8HphfPihxcWp6JEEKFC6gutR2wtkmhOFRT7zv_jPTyEdZsuUzLE3m
+
+!function MaterialsLooksTwo($id, $name="Looks Two", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLooksTwo', $name, $tech)
+!endfunction
+!function MaterialsLooksTwoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLooksTwoLg>', 'Looks Two', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDraftsLg [20x20/16z] {
+fSm54WKn20FG6bBD_K-xBlqkcp7c0J5luaJShLZE8fbjHo55RupN53Rjvf3KBmDlFri7p-MLJ1SgRhAMwRoZt1O3rE_Dm6ueREUoWiw05482RWsjuSQs_6xv
+rl9anjDDlBcK4G
+}
+
+!function MaterialsDrafts($id, $name="Drafts", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsDrafts', $name, $tech)
+!endfunction
+!function MaterialsDraftsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDraftsLg>', 'Drafts', $funcName, $content)
+!endfunction
+@enduml

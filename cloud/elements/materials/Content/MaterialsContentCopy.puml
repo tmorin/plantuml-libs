@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsContentCopyLg [20x20/16z] lSYr0G9G50F0vBlkFoxw18UAAmy0Wo04wp91BkoI5Eq2d5-e9kkrsQJQZdAzG8ILdexpRpUU3mIV3ZyVUaiYRxqqbsg4O10yrn4
+
+!function MaterialsContentCopy($id, $name="Content Copy", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsContentCopy', $name, $tech)
+!endfunction
+!function MaterialsContentCopyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsContentCopyLg>', 'Content Copy', $funcName, $content)
+!endfunction
+@enduml

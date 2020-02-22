@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVideoLabelLg [20x20/16z] pT2r0O1G4C3G2_hbPFzfaGw7abUcZ7n5Tu2GhEvO0ktPwHMqavtkRotrEsbjSQ1GZwr2EhR4rQklPW
+
+!function MaterialsVideoLabel($id, $name="Video Label", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVideoLabel', $name, $tech)
+!endfunction
+!function MaterialsVideoLabelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVideoLabelLg>', 'Video Label', $funcName, $content)
+!endfunction
+@enduml

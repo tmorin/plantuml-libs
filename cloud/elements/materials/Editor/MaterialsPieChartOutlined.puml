@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPieChartOutlinedLg [20x20/16z] {
+VL05ZWG122kIK2Rm_-VUhMkpZQ8L_82vstiZERl3VBQTMzcTjVHxw-W0I23wk3QDxRZsuCtBUMxWtaDiNeh2iuVY-NJojPTZW5zFKSCpUbtrrAtWK5gqPktj
+aW6V6OYiPAOQ_m
+}
+
+!function MaterialsPieChartOutlined($id, $name="Pie Chart Outlined", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsPieChartOutlined', $name, $tech)
+!endfunction
+!function MaterialsPieChartOutlinedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPieChartOutlinedLg>', 'Pie Chart Outlined', $funcName, $content)
+!endfunction
+@enduml

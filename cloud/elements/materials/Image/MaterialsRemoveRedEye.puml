@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRemoveRedEyeLg [20x20/16z] {
+hP2r0GD130HNVwJ3wRzQCqDaJoI6rH-mRRFdGFG-HlTu3yS6tRr3YvTGNiniakN9oZgIW2mBmPI192bCw6O5Ybc76IG7N04WN9mFiQTUNNglEnI2BZk-tF9s
+yzjlxnhypXu
+}
+
+!function MaterialsRemoveRedEye($id, $name="Remove Red Eye", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsRemoveRedEye', $name, $tech)
+!endfunction
+!function MaterialsRemoveRedEyeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRemoveRedEyeLg>', 'Remove Red Eye', $funcName, $content)
+!endfunction
+@enduml

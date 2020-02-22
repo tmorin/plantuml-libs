@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDoneAllLg [20x20/16z] jSg53G0X0C30uix-sxwxnd2ub9P3RCTEte0AwaH98PCN5r8x_LV22906x5vDjouMrcfzcG7NQiViuqWxEZ3rI20Le0IjHWy
+
+!function MaterialsDoneAll($id, $name="Done All", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDoneAll', $name, $tech)
+!endfunction
+!function MaterialsDoneAllCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDoneAllLg>', 'Done All', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureManagedIdentitiesLg [15x20/16z] JSm50e0m30F0HlR_BnCw3NghL08HTH8nlggIi2Ns2qih_9dFYl1IJPmgrwexUXqTNrqAXsR9ngb2fWOd6PaURGWCEAIngfPeMPLGWF_Pg8r2rsxGjGy
+
+!function AzureManagedIdentities($id, $name="Managed Identities", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureManagedIdentities', $name, $tech)
+!endfunction
+!function AzureManagedIdentitiesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagedIdentitiesLg>', 'Managed Identities', $funcName, $content)
+!endfunction
+@enduml

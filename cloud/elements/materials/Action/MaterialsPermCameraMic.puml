@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPermCameraMicLg [20x20/16z] {
+bP35eOH05C3oPDpwh_OBpcqtfn36-GxrF_ILhAy_kd7WAQMsDjgVEg1z-nobZ4swWivD8yHDvjqCxD4-jf7BRYMFirNHuU13fLxZbDH2Q0czngs4nDQYaEwL
+Pm0H2FDgVv8CB6sg87M_aaZVfChvJ6vWcoWVymi
+}
+
+!function MaterialsPermCameraMic($id, $name="Perm Camera Mic", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermCameraMic', $name, $tech)
+!endfunction
+!function MaterialsPermCameraMicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermCameraMicLg>', 'Perm Camera Mic', $funcName, $content)
+!endfunction
+@enduml

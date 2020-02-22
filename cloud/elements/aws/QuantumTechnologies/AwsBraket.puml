@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsBraketLg [20x20/16z] fSwt0S0W50FHukiazb_OcLJxAdZ4zhjycGp3O8YXa-jDmqBvEohbCrSVgHyDtQpizXnbEnjKbBlnc28Ncxd4Of63iESRjdNr_Bbz0I8Oqdfv9hbg_pi1
+
+!function AwsBraket($id, $name="Braket", $tech="")
+  CloudElement($id, 'aws/QuantumTechnologies/AwsBraket', $name, $tech)
+!endfunction
+!function AwsBraketCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBraketLg>', 'Braket', $funcName, $content)
+!endfunction
+@enduml

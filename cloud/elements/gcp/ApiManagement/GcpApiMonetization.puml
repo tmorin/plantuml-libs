@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpApiMonetizationLg [20x20/16z] {
+TP054WGX40En9Fp_m-XKRizwbIROf4CEaYaq9LHcDunewm_QZUdfT89m6zollO0SQTjfBSENEQupDOKIrdN-h2fhvBfk5uLpHR_E1f1HrXLRt5zkbyFnxaLj
+NI2uNV6U3VwTxRi6hfLZpvfguPf-rNu2
+}
+
+!function GcpApiMonetization($id, $name="Api Monetization", $tech="")
+  CloudElement($id, 'gcp/ApiManagement/GcpApiMonetization', $name, $tech)
+!endfunction
+!function GcpApiMonetizationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpApiMonetizationLg>', 'Api Monetization', $funcName, $content)
+!endfunction
+@enduml

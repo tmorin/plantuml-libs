@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRingVolumeLg [20x20/16z] {
+bSu55WGX203GDUd7_KyxXMxNj7wfoxShvrS3U3N4kqrgQTXjamNtVsixeKJP4XXKHdQ1QH1qvigr8pFscgSKL2Ne7KWLIzGrrp9ErMthLzZTPVQLRSCRFLkW
+jbcwgRkKBPdk1Yqa-owb6yNktsi5
+}
+
+!function MaterialsRingVolume($id, $name="Ring Volume", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsRingVolume', $name, $tech)
+!endfunction
+!function MaterialsRingVolumeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRingVolumeLg>', 'Ring Volume', $funcName, $content)
+!endfunction
+@enduml

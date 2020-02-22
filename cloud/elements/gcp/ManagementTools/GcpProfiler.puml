@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpProfilerLg [22x20/16z] {
+TP1PMe0n20EJGeBtFx5_3UuwJtI-ikAY-K1ufru-cKAW8u8Ps-yYD2vdabdLYNYjDf4yCzShNo-ZAatr3G_Wo0C-957ebRGjd9qk-O8Rb9YddMdejy6fs9gr
+1CxQgTGt9DAT2jh9fYYxj_S1q9j4Cb9uIDPOsdtuptL-NtA8aEcMmZizoxR2Am
+}
+
+!function GcpProfiler($id, $name="Profiler", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpProfiler', $name, $tech)
+!endfunction
+!function GcpProfilerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpProfilerLg>', 'Profiler', $funcName, $content)
+!endfunction
+@enduml

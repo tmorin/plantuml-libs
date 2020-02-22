@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/gcp')
+
+' loads the AwsAppMesh card
+include('elements/aws/NetworkingContentDelivery/AwsAppMesh')
+AwsAppMeshCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpPremiumNetworkTierLg [20x20/16z] {
+TP070e0W30EX8-N_BzP4t7fikjj4dxG3mu7DhuvnWAaQuq9iQdNzAocchiX82PC1U8ERknaeNSFmX8KagRtnKQOmS9cNv6dhvht709_5pLFnacB-UOrD2iK7
+LIIzWPdB5PivNyY_sjuzKAzUQaTFg-hewQlt2m
+}
+
+!function GcpPremiumNetworkTier($id, $name="Premium Network Tier", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpPremiumNetworkTier', $name, $tech)
+!endfunction
+!function GcpPremiumNetworkTierCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpPremiumNetworkTierLg>', 'Premium Network Tier', $funcName, $content)
+!endfunction
+@enduml

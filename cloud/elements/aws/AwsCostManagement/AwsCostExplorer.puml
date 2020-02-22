@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCostExplorerLg [20x20/16z] {
+VSY53SCm50L0gVwFlF_03NDouil8Hr8UCWyv1Xt9fask1uUCowhYVcBOQg3J0IN0yxaqNlqOShoU48X8mElrpcfYmQIvNY1K8u32VZ5G05NEUWv1CCPw7UwY
+uAWvMIx3XK03nfoEH96O91dFMXaQRvVLz-tv1m
+}
+
+!function AwsCostExplorer($id, $name="Cost Explorer", $tech="")
+  CloudElement($id, 'aws/AwsCostManagement/AwsCostExplorer', $name, $tech)
+!endfunction
+!function AwsCostExplorerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCostExplorerLg>', 'Cost Explorer', $funcName, $content)
+!endfunction
+@enduml

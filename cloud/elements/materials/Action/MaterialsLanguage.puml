@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLanguageLg [20x20/16z] {
+VL050i0W2CJJ8UWO_t_jkalf1lfv0GXNGv9gLYKTPgWL5_5YYirKD3OjO4tKWYLHDP1aeYoZB7DwSaOo1jWIsDDa4pVhtCRdtOWofLO6Ser0h1dWEYR38X7h
+bA5C50tljcVkIu-lMO8yPrvsisEtumQgnmqUjthSzFCD
+}
+
+!function MaterialsLanguage($id, $name="Language", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLanguage', $name, $tech)
+!endfunction
+!function MaterialsLanguageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLanguageLg>', 'Language', $funcName, $content)
+!endfunction
+@enduml

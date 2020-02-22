@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFreeBreakfastLg [20x20/16z] ZT350GCW343H9BZlFsszkFtZmu7xYDVHnqJAHUyjTcQ91-hC00rccHWiXQ1nc4S8dPcFB8mNq_aTDb-PGqRjFfatvV3R08qBxt9UJFwAuBud
+
+!function MaterialsFreeBreakfast($id, $name="Free Breakfast", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsFreeBreakfast', $name, $tech)
+!endfunction
+!function MaterialsFreeBreakfastCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFreeBreakfastLg>', 'Free Breakfast', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsInputLg [20x20/16z] ZT1L0eKW443HkI-KPl-hjLlg_16JqehV0uBoziOhS7zk_WxSJsv-wJlv8ei_vzrEAOxONgrSL2Jlqh7f6itz9MTBxI2rgrOZ
+
+!function MaterialsInput($id, $name="Input", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsInput', $name, $tech)
+!endfunction
+!function MaterialsInputCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInputLg>', 'Input', $funcName, $content)
+!endfunction
+@enduml

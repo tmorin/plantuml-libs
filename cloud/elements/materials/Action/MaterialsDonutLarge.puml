@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDonutLargeLg [20x20/16z] {
+VL254GGn48fdTUY_sdT_vk9P1Sh1Q9TLFmrrgDLgEj_Mfa3K6e3rfycG-_BfAn1tOnNuk7kxmMxf0tartOs1URq5-zrjGUibrT7VjXvsHPNHFc7Lmcmib_KW
+M1XcmeremBJYcl9n1W
+}
+
+!function MaterialsDonutLarge($id, $name="Donut Large", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDonutLarge', $name, $tech)
+!endfunction
+!function MaterialsDonutLargeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDonutLargeLg>', 'Donut Large', $funcName, $content)
+!endfunction
+@enduml

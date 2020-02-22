@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCallMergeLg [20x20/16z] hOsr0S0m30H5Pjf_sZ0hdVtbqy48YMYh555MQyMyB3Gs9Mlmq_J-O_Hv69soVE8_2msg5YN_C8yXfmV775zie5Sp
+
+!function MaterialsCallMerge($id, $name="Call Merge", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsCallMerge', $name, $tech)
+!endfunction
+!function MaterialsCallMergeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallMergeLg>', 'Call Merge', $funcName, $content)
+!endfunction
+@enduml

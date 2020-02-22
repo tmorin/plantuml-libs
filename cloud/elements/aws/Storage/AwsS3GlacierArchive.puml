@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsS3GlacierArchiveLg [20x20/16z] tT255S0W40FGiuJzDsuUpWhzk8k9bqIKk4r05J3osHNe6KA5ievn-eAzAnk4FG8jvmddZ7bAyPx7wdrfPp_BV_KX1TBBtXVllsZs1m
+
+!function AwsS3GlacierArchive($id, $name="S3 Glacier Archive", $tech="")
+  CloudElement($id, 'aws/Storage/AwsS3GlacierArchive', $name, $tech)
+!endfunction
+!function AwsS3GlacierArchiveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsS3GlacierArchiveLg>', 'S3 Glacier Archive', $funcName, $content)
+!endfunction
+@enduml

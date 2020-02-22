@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsIotHttp2Protocol element
+include('elements/aws/InternetOfThings/AwsIotHttp2Protocol')
+AwsIotHttp2Protocol('element', 'Iot Http2 Protocol', 'an optional tech field')
+@enduml

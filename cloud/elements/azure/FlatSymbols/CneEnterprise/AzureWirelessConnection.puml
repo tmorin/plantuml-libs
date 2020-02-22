@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWirelessConnectionLg [16x20/16z] {
+NL170W111CjWYpR__-tsoaKd2HuZ5NnjIAStQsZQzHss4UGvtBbaohPXxUmsJDtGFEL8NSzuwlEHnn5Fa7HH9OnRNT90cT6xWe_Ozy6QYobZkkOvezxRSuxh
+ttp-0z6BvuDtJ6kLJ-LRzQXwhG
+}
+
+!function AzureWirelessConnection($id, $name="Wireless Connection", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWirelessConnection', $name, $tech)
+!endfunction
+!function AzureWirelessConnectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWirelessConnectionLg>', 'Wireless Connection', $funcName, $content)
+!endfunction
+@enduml

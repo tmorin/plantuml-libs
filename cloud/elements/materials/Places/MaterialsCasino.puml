@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCasinoLg [20x20/16z] {
+ZP030i0m301h1l__xJghkgsA4p6FCW_KBW9-09lGb4kYzKsfgCqk0otzAlDImobBKjXLPeLCfuozJQiiMN_vhb08j9vFMP0opCXEtrgEMYtrcckzrMPGczKy
+2m
+}
+
+!function MaterialsCasino($id, $name="Casino", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsCasino', $name, $tech)
+!endfunction
+!function MaterialsCasinoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCasinoLg>', 'Casino', $funcName, $content)
+!endfunction
+@enduml

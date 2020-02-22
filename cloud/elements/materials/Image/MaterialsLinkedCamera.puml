@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLinkedCameraLg [20x20/16z] {
+XSy75iCW30DGon74Vc7S_xPblkvMcVePWFmBy6w7HRqtnX1Q1sqZc6iB6S7O8RZxe1hGq22YhQ-a2ChHhOnwacTAWUIswnZ3NksswBH2eLaxbRiv-b-Jmkzc
+4iQuOe_6RXI_MrA9AKNHTBTg45M1tSTjSQhIwx3xEbAQrzmCLd9FMHU3DDIdG3xc1W
+}
+
+!function MaterialsLinkedCamera($id, $name="Linked Camera", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLinkedCamera', $name, $tech)
+!endfunction
+!function MaterialsLinkedCameraCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLinkedCameraLg>', 'Linked Camera', $funcName, $content)
+!endfunction
+@enduml

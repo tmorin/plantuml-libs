@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWhatshotLg [20x20/16z] {
+VL050WGX45B6rf7_l_RAkcPJoZ3_8VA5A_ZWq98z8plUbVvmuK52MR6BXXx8OqpK81AKPBQhcmCbKp6ZWz48HyhWFCcUF6w9Jd-ui5eErp0ufTzzrKwrppwR
+vw_KlHOZoke0NwddQ5nZRuripXmWLjKQtyxA0jRymHK
+}
+
+!function MaterialsWhatshot($id, $name="Whatshot", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsWhatshot', $name, $tech)
+!endfunction
+!function MaterialsWhatshotCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWhatshotLg>', 'Whatshot', $funcName, $content)
+!endfunction
+@enduml

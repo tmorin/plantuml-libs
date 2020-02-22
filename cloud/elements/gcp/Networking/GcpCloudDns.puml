@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDnsLg [20x20/16z] {
+PP055e0024CbDhp_XOt1CxzDRR886vOBvuLFoBXUS4fJNrLwP9Vfew9ZfK9qQF7K39m2Pnw4PHZEx273ymckh1LIOmlaA4US1Qd9BEO1uRU3938YeTXO84j4
+Qa9RwG-O2iOBtJFT9UMNPqIq7gv_koYxTd2H_rsfxDgf_5mx_Ur-1m
+}
+
+!function GcpCloudDns($id, $name="Cloud Dns", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudDns', $name, $tech)
+!endfunction
+!function GcpCloudDnsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDnsLg>', 'Cloud Dns', $funcName, $content)
+!endfunction
+@enduml

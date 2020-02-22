@@ -1,0 +1,81 @@
+# MaterialsDirectionsWalk
+```text
+elements/materials/Maps/MaterialsDirectionsWalk
+```
+| Icon | Element | Card |
+| :-: | :-: | --- |
+| ![MaterialsDirectionsWalk icon](../../../icons/materials/Maps/MaterialsDirectionsWalk.png) | ![MaterialsDirectionsWalk element](MaterialsDirectionsWalk.element.png) | ![MaterialsDirectionsWalk card](MaterialsDirectionsWalk.card.png) |
+## Element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsDirectionsWalk element
+include('elements/materials/Maps/MaterialsDirectionsWalk')
+MaterialsDirectionsWalk('element', 'Directions Walk', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsDirectionsWalk element
+include('elements/materials/Maps/MaterialsDirectionsWalk')
+MaterialsDirectionsWalk('element', 'Directions Walk', 'an optional tech field')
+@enduml
+```
+## Card
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/gcp')
+
+' loads the MaterialsDirectionsWalk card
+include('elements/materials/Maps/MaterialsDirectionsWalk')
+MaterialsDirectionsWalkCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the MaterialsDirectionsWalk card
+include('elements/materials/Maps/MaterialsDirectionsWalk')
+MaterialsDirectionsWalkCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```

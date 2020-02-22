@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLogAnalyticsWorkspacesLg [20x20/16z] {
+bSk74SGm24HHC9d-2xwr9ET9znpr1-WWKLrfJ2VswY7bJD67EgBr9USwLq-HU1aeox6t6TvfmFWpFriTJRGzPkjRsspDCT2pXS3Up5gzr34cn-x5wTE2twsC
+YGH8R14cO1ZlunV6hemHlFJJuA_s0m
+}
+
+!function AzureLogAnalyticsWorkspaces($id, $name="Log Analytics Workspaces", $tech="")
+  CloudElement($id, 'azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces', $name, $tech)
+!endfunction
+!function AzureLogAnalyticsWorkspacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogAnalyticsWorkspacesLg>', 'Log Analytics Workspaces', $funcName, $content)
+!endfunction
+@enduml

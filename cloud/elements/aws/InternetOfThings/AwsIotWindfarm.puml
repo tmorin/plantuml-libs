@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotWindfarmLg [20x20/16z] {
+RP053i0m30E3plz_FAzSgTvAfx3yCZ6bUCXIQfgxyPWailW1xOY1_527wJBamKLtoreCHbPfeilEisrws2bKkfqQxOmAe1kRgiCqgSfk1_-PTzSedyncZk2p
+--uSV13UjVntdxLiDchPlKLd-Ph1QrRlcRvc_m4
+}
+
+!function AwsIotWindfarm($id, $name="Iot Windfarm", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotWindfarm', $name, $tech)
+!endfunction
+!function AwsIotWindfarmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotWindfarmLg>', 'Iot Windfarm', $funcName, $content)
+!endfunction
+@enduml

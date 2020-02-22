@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLocalParkingLg [20x20/16z] fP235K1H34EVLUq_xRUDUrWtKM-mhiNgHKfdwG2lbxc1iChb63C9sKMEso1qZNFEjAT4uddVl8_RVVkxj_-5MSVghlgTcxtIwZqr
+
+!function MaterialsLocalParking($id, $name="Local Parking", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalParking', $name, $tech)
+!endfunction
+!function MaterialsLocalParkingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalParkingLg>', 'Local Parking', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticFileSystemEfsFileSystemLg [20x20/16z] {
+NOe9Zi103C8WaD3-_yERxZsr3ai6G181hl2f0fIaWLuPd9MOBbzLbwj3NQe9OzJJ2juMehUD-ccjUNvMWafYmAi2-aiaWI-LhDL_EFPy9VKlG4yRh5Z-GbKI
+ymm7KzCvcws9ws0VKUD0cM1unia5-Mo-R_1rP6x0UXy1ZWzw6-GN7m
+}
+
+!function AwsElasticFileSystemEfsFileSystem($id, $name="Elastic File System Efs File System", $tech="")
+  CloudElement($id, 'aws/Storage/AwsElasticFileSystemEfsFileSystem', $name, $tech)
+!endfunction
+!function AwsElasticFileSystemEfsFileSystemCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticFileSystemEfsFileSystemLg>', 'Elastic File System Efs File System', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDiskSnapshotsLg [24x20/16z] {
+TT7N0GGW20DGwUZ-0r_8zVR-Z1qQSht97c6cYqGMgLbqsoJg7k2EHJDhauj7NZcdNP2doZMjtjsL8qGJUv9wxxCxoHO45itkoBiAvbWL3f7t0vbBdRsxiaRt
+FgTk3xR2u6wNhHknI2pdSy9DRh7vuClDPc2CrQaQoadlo-_F2ITZZe4DlmlagSfbZpmY9sFTyeqhwyc7pZA8spFjfIy2pxxyw-C5
+}
+
+!function AzureDiskSnapshots($id, $name="Disk Snapshots", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureDiskSnapshots', $name, $tech)
+!endfunction
+!function AzureDiskSnapshotsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDiskSnapshotsLg>', 'Disk Snapshots', $funcName, $content)
+!endfunction
+@enduml

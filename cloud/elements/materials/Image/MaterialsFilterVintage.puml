@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilterVintageLg [20x20/16z] {
+RL074e0m30hL2t7o_z_Qk5Tk8UEas760lGyH7z8bVr5bbCPo-owmHlKQGzbuJlD89kSSvud9XV8wzsu5aLoxMc06JzIkBLXTM54lCL7gHmrV_V_SckrVsPz_
+N5twgml7sdcrSEty_xRl1lzR_M_wtNu1
+}
+
+!function MaterialsFilterVintage($id, $name="Filter Vintage", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterVintage', $name, $tech)
+!endfunction
+!function MaterialsFilterVintageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterVintageLg>', 'Filter Vintage', $funcName, $content)
+!endfunction
+@enduml

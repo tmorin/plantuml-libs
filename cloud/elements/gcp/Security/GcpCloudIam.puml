@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudIamLg [20x20/16z] {
+RL350G0n2CDX_uLhSDhcXqPW0GjmW-m6LGijRbYjIhmWkURldgz5pIEHVA6Jm6U7vvHdrmUDrO5glJ6GUe8Hb3qNlnwBN7JkaJ_OnazAQbvDNXL9ITHOl7xF
+hRI4pjjKIcVDkxSzWpqhnr-cxdUcM_OT
+}
+
+!function GcpCloudIam($id, $name="Cloud Iam", $tech="")
+  CloudElement($id, 'gcp/Security/GcpCloudIam', $name, $tech)
+!endfunction
+!function GcpCloudIamCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudIamLg>', 'Cloud Iam', $funcName, $content)
+!endfunction
+@enduml

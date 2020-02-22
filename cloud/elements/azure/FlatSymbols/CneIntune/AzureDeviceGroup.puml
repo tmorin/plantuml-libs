@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureDeviceGroupLg [20x20/16z] fSZ50GCn3011CVPVRnZaV7AmHWtPJugWwMl9O0vB6DiCb8Qnl-AlQUgZr66ldv-pYcV-DObyDWpm5GnxjzaaxL5Egww8sxLOtQscaRwYAm
+
+!function AzureDeviceGroup($id, $name="Device Group", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceGroup', $name, $tech)
+!endfunction
+!function AzureDeviceGroupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDeviceGroupLg>', 'Device Group', $funcName, $content)
+!endfunction
+@enduml

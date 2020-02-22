@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsScheduleLg [20x20/16z] {
+VP255SKm24MBH5uFx3_k5wXBFBauqs0GCvs1mjmDkcE6DnNHvk0LpP1y2UQ41D3_odUFMpsqMfpY-hzwc-9A-zR_wgP7flOpPfULfJ7lh3PQsMPB1KfXcp5o
+SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
+}
+
+!function MaterialsSchedule($id, $name="Schedule", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSchedule', $name, $tech)
+!endfunction
+!function MaterialsScheduleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsScheduleLg>', 'Schedule', $funcName, $content)
+!endfunction
+@enduml

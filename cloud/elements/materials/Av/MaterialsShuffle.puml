@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsShuffleLg [20x20/16z] fL350O0m38pTVR3zfyNTeMtS4qbyDd60FeevHYEhYgE80hDjb6OZ2XAo66FqsD8cj3TjtmUJnZ4gnXudivpCVBRRwGtINWC
+
+!function MaterialsShuffle($id, $name="Shuffle", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsShuffle', $name, $tech)
+!endfunction
+!function MaterialsShuffleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsShuffleLg>', 'Shuffle', $funcName, $content)
+!endfunction
+@enduml

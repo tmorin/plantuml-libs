@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudfrontLg [20x20/16z] {
+fOz50W9H34Enl3Iz_u6XZFtzr5twFfG4jKOYG7ehIwYwGQahE24ZPiGnY-74xZvcKc6QeidjhK9o_OkYFPP0mJH7L-zF6VliBQBHbdBUBMl_nRfk_cGqem_8
+HvNu_TaxZvc0qxVX2m
+}
+
+!function AwsCloudfront($id, $name="Cloudfront", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfront', $name, $tech)
+!endfunction
+!function AwsCloudfrontCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudfrontLg>', 'Cloudfront', $funcName, $content)
+!endfunction
+@enduml

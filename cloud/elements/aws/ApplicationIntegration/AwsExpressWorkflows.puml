@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsExpressWorkflowsLg [20x20/16z] hOz50WGW30ClaOR_FtZ3kXqPjDwk0uJCjywIlxpM09Dtpo49z9fNM6Mds8yuoARgxJAvLwpVz9KiL5TKNVqCo-97RBp9JIVjs5UD_xtyx_d_R2LKrW4k
+
+!function AwsExpressWorkflows($id, $name="Express Workflows", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsExpressWorkflows', $name, $tech)
+!endfunction
+!function AwsExpressWorkflowsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsExpressWorkflowsLg>', 'Express Workflows', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewArrayLg [20x20/16z] nOwr0S10203V7sV_QUDIfOeTVXNXUGhKr1TQQZqlhddFwZESqSlYwkdIZ-xolq8juGAaZZain2aNblrvHW
+
+!function MaterialsViewArray($id, $name="View Array", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewArray', $name, $tech)
+!endfunction
+!function MaterialsViewArrayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewArrayLg>', 'View Array', $funcName, $content)
+!endfunction
+@enduml

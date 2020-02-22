@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpTransferApplianceLg [20x20/16z] {
+RP250S0m20I3FlilN8dRjJ4SKeOggSFUuIeYZuvNKuq9BMQOPSY65Wls9y0gmvV6ymKcFx-FbmGkPi8VlmoAl8iFMI3BJ1UPOFND9HPLJ3dEMeBlDP-zdJCu
+PmNQPWhqcHwpVm4
+}
+
+!function GcpTransferAppliance($id, $name="Transfer Appliance", $tech="")
+  CloudElement($id, 'gcp/Migration/GcpTransferAppliance', $name, $tech)
+!endfunction
+!function GcpTransferApplianceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpTransferApplianceLg>', 'Transfer Appliance', $funcName, $content)
+!endfunction
+@enduml

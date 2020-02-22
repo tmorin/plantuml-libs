@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsInvertColors element
+include('elements/materials/Action/MaterialsInvertColors')
+MaterialsInvertColors('element', 'Invert Colors', 'an optional tech field')
+@enduml

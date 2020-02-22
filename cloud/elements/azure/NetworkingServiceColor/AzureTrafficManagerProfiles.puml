@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTrafficManagerProfilesLg [20x20/16z] {
+HSzP0eDG24DHNnWIkly55sZL-sMEypLv_ekTImxRuFvISil5fOFKW_6ZqzXxrIBsMOjfAQfaaOcW3-AaL5Kq9YWwMjjgQZDsFiRIzBV4M4yWRdCpSvTmm5hR
+vba2OBmjFTGMyWCmaUGSjdMo0uOtAWo-zab4pe-mfFYXBE9SZQPUWv-XQuemLgcHIpTE09hkalzovnS
+}
+
+!function AzureTrafficManagerProfiles($id, $name="Traffic Manager Profiles", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureTrafficManagerProfiles', $name, $tech)
+!endfunction
+!function AzureTrafficManagerProfilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTrafficManagerProfilesLg>', 'Traffic Manager Profiles', $funcName, $content)
+!endfunction
+@enduml

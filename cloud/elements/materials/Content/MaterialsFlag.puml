@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFlagLg [20x20/16z] jSX50W0X241Hk-F-frLWCztZDtdiOyfeoCYvsKevlhNi8RKqIe-oQ8pHRcaMRv5BAGj3nFZ25jqsATchEW
+
+!function MaterialsFlag($id, $name="Flag", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsFlag', $name, $tech)
+!endfunction
+!function MaterialsFlagCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlagLg>', 'Flag', $funcName, $content)
+!endfunction
+@enduml

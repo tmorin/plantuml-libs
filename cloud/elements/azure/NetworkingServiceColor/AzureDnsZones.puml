@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDnsZonesLg [20x20/16z] {
+FT350GGX30LGoBT0__sEiF9kI7Iy9kI7CCSFHDG35BvN551CK83ulIeBwGxaaavW5Ojvi5WmnXGS5evIXvaWkyqSwhrb2exajjhTpWvjH9Cb3jEars9S4ffW
+WHQoZFxV2UNbYj7VMDCPigiNSshGgtkderC3HBUrZhSNcbDGM2G0VdiUK45GFmG1mTa1Ogwz5nDOuwMGfRLOP9wh0p7ne8FnCvbq9vpZTGC
+}
+
+!function AzureDnsZones($id, $name="Dns Zones", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureDnsZones', $name, $tech)
+!endfunction
+!function AzureDnsZonesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDnsZonesLg>', 'Dns Zones', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNotificationsOffLg [20x20/16z] {
+bP050iCm24MBn8NxttQH2Spxgtaunrbvhq_eORnQGyKW1O0eabax3aX5H7Guou1Lf97AFrm6D8vH9kGgKHKPh0_O4cYse3DiGGTiOnTK_HNPQdU8oyr23dV5
+QkOZmcdFy61K2grwPcDuVDC5
+}
+
+!function MaterialsNotificationsOff($id, $name="Notifications Off", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsNotificationsOff', $name, $tech)
+!endfunction
+!function MaterialsNotificationsOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNotificationsOffLg>', 'Notifications Off', $funcName, $content)
+!endfunction
+@enduml

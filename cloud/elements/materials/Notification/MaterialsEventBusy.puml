@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsEventBusyLg [20x20/16z] {
+ZSo50SGW343H66xxJtlIr0r-bOV0FqHOlclUwDVuHKYIbocVX9HosvKdb7P87gqui-QAMa9OmxGPwNCmwv0Z7Gri20mdanhmP1p4klDvhC_UbXRBZ6kS9wES
+qrhE11FABeBnlW
+}
+
+!function MaterialsEventBusy($id, $name="Event Busy", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsEventBusy', $name, $tech)
+!endfunction
+!function MaterialsEventBusyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEventBusyLg>', 'Event Busy', $funcName, $content)
+!endfunction
+@enduml

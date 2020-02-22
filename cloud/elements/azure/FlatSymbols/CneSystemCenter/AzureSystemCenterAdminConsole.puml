@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSystemCenterAdminConsoleLg [27x20/16z] {
+hSt50SGm34HHaMrfflzwby9qsnVEDsZh5o4_WJmh-2-rL3dHYZd9Vv8CVqeMzf2YK76Rj0YMtIN7LpmdlqkQ15E_gVn0nKQb_URN13_LlOUgUlz6jPy64A5U
+H8u4o_Ux4oQ30FczvVo_jU97MXApic_HKPFqmihbHoTYknHoeD5MzWO
+}
+
+!function AzureSystemCenterAdminConsole($id, $name="System Center Admin Console", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole', $name, $tech)
+!endfunction
+!function AzureSystemCenterAdminConsoleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSystemCenterAdminConsoleLg>', 'System Center Admin Console', $funcName, $content)
+!endfunction
+@enduml

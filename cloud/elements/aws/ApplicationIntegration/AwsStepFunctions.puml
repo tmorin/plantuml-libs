@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsStepFunctionsLg [20x20/16z] hP0t0iH0308RCR3x___UEUVEdavPq3-WGRlc3Bxc8kMS0Ag0R9ceS0RsSGcaiMPdEOIgH4y1w9IpubYdsMO3URpn_ClppxksPm_UymS
+
+!function AwsStepFunctions($id, $name="Step Functions", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsStepFunctions', $name, $tech)
+!endfunction
+!function AwsStepFunctionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStepFunctionsLg>', 'Step Functions', $funcName, $content)
+!endfunction
+@enduml

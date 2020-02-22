@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureKeyboardLg [33x20/16z] {
+XP835a0X44LxORp_zNuRtPCnvlY7euEFJR_n696KWArZxcdhiZp8gWsYD7O6gu36tbJpzg14KFOGM2Wq31AUAQ8S4gn1ZI36O1EGAPeT4lesY5ImjB5J8c6q
+iLUHmmRlsM1EKEUn2yGLF7PoEzk0rxuz036tLFcWfiPCEDamApuGM1msz1zarIKwAqlCz1oeDJehwsOpqkKRZoxUBRa1
+}
+
+!function AzureKeyboard($id, $name="Keyboard", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureKeyboard', $name, $tech)
+!endfunction
+!function AzureKeyboardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureKeyboardLg>', 'Keyboard', $funcName, $content)
+!endfunction
+@enduml

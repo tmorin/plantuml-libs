@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureApplicationServerLg [17x20/16z] {
+lT250SCW40NGbFk2tFxhneK9-d2NdZSkbtpuwHZzz7Ku3kZVZCitu_Q7ZbPhnTn1-NLrzF7A8oDAHDbJ5DrlKU_-KGfcFpOCPzQxmyT4V1tdVp22Z0L0OHve
+FTe6
+}
+
+!function AzureApplicationServer($id, $name="Application Server", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureApplicationServer', $name, $tech)
+!endfunction
+!function AzureApplicationServerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureApplicationServerLg>', 'Application Server', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStoredProceduresLg [18x20/16z] {
+ROy50e1020IFPld_WxsmTUn1oaHH9mXkWDbDLP2vIzGDQns_6pyDqXE7cLd9HED5kw2S-UGiA70tuvbf9AIef6wi44JSHS_obPH4qYHH1Lb9IHpZMKTIPO-G
+pTv79yXSRoKngWEWZYIj6z4wzhSKya3NFr3H0n5ft2E9Y-pjnUi2jW4
+}
+
+!function AzureStoredProcedures($id, $name="Stored Procedures", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStoredProcedures', $name, $tech)
+!endfunction
+!function AzureStoredProceduresCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStoredProceduresLg>', 'Stored Procedures', $funcName, $content)
+!endfunction
+@enduml

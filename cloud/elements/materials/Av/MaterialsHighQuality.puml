@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsHighQualityLg [20x20/16z] fP053a0X34DNt1RkVzhlWiPuyMbRMaFg0dcNE1VmLLIvGirhKVkWGj9A6Nvh7iR1EWBW_vgKv1mvKzQ0lcOS5Rlb3-3_yS1Az_gOtrhlhSzWZHq
+
+!function MaterialsHighQuality($id, $name="High Quality", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsHighQuality', $name, $tech)
+!endfunction
+!function MaterialsHighQualityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHighQualityLg>', 'High Quality', $funcName, $content)
+!endfunction
+@enduml

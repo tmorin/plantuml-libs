@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPeopleOutlineLg [20x20/16z] {
+jOqreWC144A1yI_tF-xwDf4kUSqeW2-WBD-hL-fQSS8xW6ZFuRcB13Ja2CXulzEuQjjdoUSsjEeWmEWot4ZS2wLxaJtJvLwprTpNCI5ILl-vrsq4RzSxKaFz
+k9rK7yL_n7g2-30h
+}
+
+!function MaterialsPeopleOutline($id, $name="People Outline", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPeopleOutline', $name, $tech)
+!endfunction
+!function MaterialsPeopleOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPeopleOutlineLg>', 'People Outline', $funcName, $content)
+!endfunction
+@enduml

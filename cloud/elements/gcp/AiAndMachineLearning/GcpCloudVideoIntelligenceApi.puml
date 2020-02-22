@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudVideoIntelligenceApiLg [20x20/16z] {
+RP252G0m30GR_Uw_S5qXXnyVJGDQf0FxWPSYpmTVKSqFEcDu7KRGyeVr0ItcPWupZ60RqmSmCIaJq6jy3b0LQjfPUb0n72SL5aiogeUptmbshP3JS3fMuIRi
+pdXsMIToi7DqM_o3-wiRkpz5O_qq-7q5
+}
+
+!function GcpCloudVideoIntelligenceApi($id, $name="Cloud Video Intelligence Api", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudVideoIntelligenceApi', $name, $tech)
+!endfunction
+!function GcpCloudVideoIntelligenceApiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudVideoIntelligenceApiLg>', 'Cloud Video Intelligence Api', $funcName, $content)
+!endfunction
+@enduml

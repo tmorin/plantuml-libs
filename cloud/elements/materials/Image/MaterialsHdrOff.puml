@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsHdrOffLg [20x20/16z] jOxL0G9G24M90oymzf_MziTEkhdoAZdNDHi_Bff9B175nC0FDL9Y3ZI7ninvA59zfXU2HcTmg0rleNEnItAEgUVTrBdU5GdhUlgn4uU1ghZUXFJ_eijDsW8
+
+!function MaterialsHdrOff($id, $name="Hdr Off", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsHdrOff', $name, $tech)
+!endfunction
+!function MaterialsHdrOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHdrOffLg>', 'Hdr Off', $funcName, $content)
+!endfunction
+@enduml

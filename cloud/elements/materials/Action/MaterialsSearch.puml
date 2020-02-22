@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSearchLg [20x20/16z] {
+fKrL0a9126If3S3xtzRMrprVC0c7W4GuOaguUqvzgbL6PAizidmUDErimPz3x6yan-yHkCQXVxFQkf5i-F5Bjvkg2P6wCVH8jOWcx0fz5Z41wErBTbWaPKeA
+mJKy
+}
+
+!function MaterialsSearch($id, $name="Search", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSearch', $name, $tech)
+!endfunction
+!function MaterialsSearchCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSearchLg>', 'Search', $funcName, $content)
+!endfunction
+@enduml

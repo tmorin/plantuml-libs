@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsIdentityAndAccessManagementIamPermissions element
+include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamPermissions')
+AwsIdentityAndAccessManagementIamPermissions('element', 'Identity And Access Management Iam Permissions', 'an optional tech field')
+@enduml

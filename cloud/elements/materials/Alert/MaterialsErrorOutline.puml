@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsErrorOutlineLg [20x20/16z] {
+VL053WH13AgDi2d_V-x9kZD2KY_o0ZNJeo6GP28siu4jtACHjfW6k8nm39DH0VtJ-A6FwS4nghKnal6dtcIaFbBxasRiRP4gOlIzpMcRhPJDDkPkYDIjX_lM
+utOMxSUPxtUxrs3JgeVUQFgCBm
+}
+
+!function MaterialsErrorOutline($id, $name="Error Outline", $tech="")
+  CloudElement($id, 'materials/Alert/MaterialsErrorOutline', $name, $tech)
+!endfunction
+!function MaterialsErrorOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsErrorOutlineLg>', 'Error Outline', $funcName, $content)
+!endfunction
+@enduml

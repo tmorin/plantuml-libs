@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRedshiftDenseComputeNodeLg [20x20/16z] {
+XL250KL12CAJyEq_yEzEBcq5Dr0adb4Xirvq1gndtKgLutfIPSRbOL_LdKORY1KMZz3c1YHEWL8eyYWripaBabXYiP6msXcdZpf9mAcYjZxUB4kgPnrkiQiz
+frZpXCSQdtfvwhdEFR_CfijidpcuS_MVKr2wPDy3
+}
+
+!function AwsRedshiftDenseComputeNode($id, $name="Redshift Dense Compute Node", $tech="")
+  CloudElement($id, 'aws/Database/AwsRedshiftDenseComputeNode', $name, $tech)
+!endfunction
+!function AwsRedshiftDenseComputeNodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRedshiftDenseComputeNodeLg>', 'Redshift Dense Compute Node', $funcName, $content)
+!endfunction
+@enduml

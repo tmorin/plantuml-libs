@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFirstPageLg [20x20/16z] Ow0NO6U1qCoiS256JZQ843S7iXXKY15L326446FYvWGBOOeHr0iLnEiM1dPMk9lf1G
+
+!function MaterialsFirstPage($id, $name="First Page", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsFirstPage', $name, $tech)
+!endfunction
+!function MaterialsFirstPageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFirstPageLg>', 'First Page', $funcName, $content)
+!endfunction
+@enduml

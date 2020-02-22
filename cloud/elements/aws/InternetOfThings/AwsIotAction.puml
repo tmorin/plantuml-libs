@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotActionLg [20x20/16z] RL030W1141hK_vzyMAF38eoiFfv0kYrFa0H0HaTyd8Fq1c4wKC421Rs3vJRFHHBr7s3LU3qk83q7PaJb4h0311HsUvagXwX5rInwapFGivepvU34x5y
+
+!function AwsIotAction($id, $name="Iot Action", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAction', $name, $tech)
+!endfunction
+!function AwsIotActionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotActionLg>', 'Iot Action', $funcName, $content)
+!endfunction
+@enduml

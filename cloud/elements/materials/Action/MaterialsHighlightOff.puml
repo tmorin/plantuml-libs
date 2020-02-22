@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHighlightOffLg [20x20/16z] {
+VL073i0W26H6hv7q_w_jtYKgUmDr7elmss1e4GrscmLHJDLAG4xJ0DqbnR0R6RXI67MJBPIkfs4hgsKXnOby4-eQtbQFXo-mPhKbMVPK7qVVaoMpPRbfZtmM
+hh-Pazto6zotgiR_ctRU3
+}
+
+!function MaterialsHighlightOff($id, $name="Highlight Off", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsHighlightOff', $name, $tech)
+!endfunction
+!function MaterialsHighlightOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHighlightOffLg>', 'Highlight Off', $funcName, $content)
+!endfunction
+@enduml

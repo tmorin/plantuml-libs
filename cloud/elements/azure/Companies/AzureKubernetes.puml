@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureKubernetesLg [21x20/16z] {
+LOw5TGH134DbowJ-6yvGahk_B7gBXzSKyGLh97t9B2twtFYarcOu-fDzhjRUxyq1IjLADvYNkYG2kHkqBAiqxgq4MllXqzRZEw8-a-D18zOLzvFRiXc7txWa
+rX6JPct6F6AD9WdZka2kAvUopcgd2aI9tZLIwlKflhOIfKKPeWDsFu1hXhkvnwq1zq-vv_TTuzXieRNfqH2Nq3-1N_9FIsn-
+}
+
+!function AzureKubernetes($id, $name="Kubernetes", $tech="")
+  CloudElement($id, 'azure/Companies/AzureKubernetes', $name, $tech)
+!endfunction
+!function AzureKubernetesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureKubernetesLg>', 'Kubernetes', $funcName, $content)
+!endfunction
+@enduml

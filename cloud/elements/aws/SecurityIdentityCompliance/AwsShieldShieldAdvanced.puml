@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsShieldShieldAdvancedLg [20x20/16z] {
+jOs7SG0X40FlbEY_Ou_0iG3hdxJiYBbP6lCdgrW9VmWSxS_QAAnfT3uF6ZLoKYluP3XSk3S_Z6hPpFuV8_pDl9T9cothZYpiIUwyKUoeC9Y8GHI0UokPMPyJ
+qF21hgYyPfevajyXbcnaeGdd1UoBZ1JFty2kzG4
+}
+
+!function AwsShieldShieldAdvanced($id, $name="Shield Shield Advanced", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsShieldShieldAdvanced', $name, $tech)
+!endfunction
+!function AwsShieldShieldAdvancedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsShieldShieldAdvancedLg>', 'Shield Shield Advanced', $funcName, $content)
+!endfunction
+@enduml

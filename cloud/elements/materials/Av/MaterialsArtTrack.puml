@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsArtTrackLg [20x20/16z] lSwr0G0X40J0tSEz_shV_OcP13d56DoyBYvjD2Hj193IDW7K6px_RjjVASkVEBzmQstD8Mlx_Yk62lJnMPkCNhXxHc-Ntiv3p
+
+!function MaterialsArtTrack($id, $name="Art Track", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsArtTrack', $name, $tech)
+!endfunction
+!function MaterialsArtTrackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsArtTrackLg>', 'Art Track', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLockOutlineLg [20x20/16z] {
+TOy55WGX2419XMVT_xJREsD-amRuWmWJ55EADAgIYLWQb6O8W1Ox5IPvFvAmr_7xuKw7afLUQ9Q_abEvIFpLQMBwmKc_kk1uPV7Gwn0N7RdJhDFMzE1tphVM
+NVixpm7K0GUU
+}
+
+!function MaterialsLockOutline($id, $name="Lock Outline", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLockOutline', $name, $tech)
+!endfunction
+!function MaterialsLockOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLockOutlineLg>', 'Lock Outline', $funcName, $content)
+!endfunction
+@enduml

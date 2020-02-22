@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBrushLg [20x20/16z] jKur0WGX41l39V__xLq9JBMMCaxteEoeYCIEmbH78Nv7SJaf4PAoKPn63xH_DG1DVFtOEUj_hXpH1bIb7QpAT0S_
+
+!function MaterialsBrush($id, $name="Brush", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsBrush', $name, $tech)
+!endfunction
+!function MaterialsBrushCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBrushLg>', 'Brush', $funcName, $content)
+!endfunction
+@enduml

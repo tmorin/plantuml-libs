@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDatabaseForPostgresqlServersLg [15x20/16z] {
+HOk94G0X20DL217xB_ZuPcvz5yWAThEA8zh8oPR-x7NMKLW2ZJznzZv9f0MyD4HEf8P8ti069fcCFLsFxN6Zr5_i5ubHxqECtboqoSQWlmkqqWttEO1MW_7l
+5ezXlxeLOuPgubXheMUj0qi59EG3
+}
+
+!function AzureDatabaseForPostgresqlServers($id, $name="Database For Postgresql Servers", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureDatabaseForPostgresqlServers', $name, $tech)
+!endfunction
+!function AzureDatabaseForPostgresqlServersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDatabaseForPostgresqlServersLg>', 'Database For Postgresql Servers', $funcName, $content)
+!endfunction
+@enduml

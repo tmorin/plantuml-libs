@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureContinousCycleCircleLg [19x20/16z] {
+PSu54aCn54BH3vVzRxd2DDGOpScpgp49-5faqWo529HzUcIr-6KaR09FKsdMWGaQjPL4avfEsun_alaXR9zPM_dRsMqadhW5gasYjcFBsEJygey6LOe5NDdH
+tdjsBNS
+}
+
+!function AzureContinousCycleCircle($id, $name="Continous Cycle Circle", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle', $name, $tech)
+!endfunction
+!function AzureContinousCycleCircleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureContinousCycleCircleLg>', 'Continous Cycle Circle', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStartupTaskLg [19x20/16z] {
+NSk54G0X34JHZM_el-1pWO-_6RJ6lmHG3F-g3c3iwol6RYljDfDbic_wyZ-PgEpxHs8inaJUeKb_IFPb9H3cJL8HdbHe-qLMJAO6zzqkKjg-qZ8AkCWf43gk
+xe-fqV4d68ig4q74W8ccl8lX_uAbDQQwT0C
+}
+
+!function AzureStartupTask($id, $name="Startup Task", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStartupTask', $name, $tech)
+!endfunction
+!function AzureStartupTaskCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStartupTaskLg>', 'Startup Task', $funcName, $content)
+!endfunction
+@enduml

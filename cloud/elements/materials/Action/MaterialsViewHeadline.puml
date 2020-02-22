@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewHeadlineLg [20x20/16z] Ow0-OE5WHmBCMCLm0IOMPC085cFbvK40NXQm62CAOC0bXgaNqmwA_45r
+
+!function MaterialsViewHeadline($id, $name="View Headline", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewHeadline', $name, $tech)
+!endfunction
+!function MaterialsViewHeadlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewHeadlineLg>', 'View Headline', $funcName, $content)
+!endfunction
+@enduml

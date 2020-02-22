@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMovieFilterLg [20x20/16z] {
+fSt50S0m30D0MGwJzv-spDygV27yYde2NW6tD0rU05PB0fS5MhckkDWmyy8IXIbHmcczrZvgRMiPXnr9sinkQybwvFBimm9BzmB6oqOcN5athhiZ202cvO7B
+hApNGbla-OUNRFQn4lhJwZwr8tKng7z5yIip
+}
+
+!function MaterialsMovieFilter($id, $name="Movie Filter", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsMovieFilter', $name, $tech)
+!endfunction
+!function MaterialsMovieFilterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMovieFilterLg>', 'Movie Filter', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsApplicationAutoScalingLg [20x20/16z] {
+RSy53WKn20JGX37kV-6losed_beil_YIB323AoCVfYe-ZDHXWyhYtwNMYY6MJMrc5Sq0Pb5Ze67LMFym4S24pjVwc3iNzQ2LmTxGaWTxGrNfi47biC4Sji1U
+u1i
+}
+
+!function AwsApplicationAutoScaling($id, $name="Application Auto Scaling", $tech="")
+  CloudElement($id, 'aws/Compute/AwsApplicationAutoScaling', $name, $tech)
+!endfunction
+!function AwsApplicationAutoScalingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsApplicationAutoScalingLg>', 'Application Auto Scaling', $funcName, $content)
+!endfunction
+@enduml

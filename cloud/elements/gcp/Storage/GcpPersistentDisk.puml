@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpPersistentDiskLg [20x20/16z] {
+RP250O0m30I9VlTV64aUxo5jN9P2o7AXUQ5KIOwBfAkF1zvkUEfGZb7NuhZ5KU2umNJ7whgNoOuGC_DoJ1Q0U9ZnxkWpzix4AF1GsJiFbZQqlraukpAsOZlI
+klptCfGzFuZvRFyTS5S_jskd0AwT_dQ_0G
+}
+
+!function GcpPersistentDisk($id, $name="Persistent Disk", $tech="")
+  CloudElement($id, 'gcp/Storage/GcpPersistentDisk', $name, $tech)
+!endfunction
+!function GcpPersistentDiskCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpPersistentDiskLg>', 'Persistent Disk', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsNoteAddLg [20x20/16z] VP254G0X3C1mX-u_xRjK3e87hvfW7f2oTVIJwdxduIBvHo8NbMjEk5yYfrorn1LtK09shLsDHwvPsuJJchaSlDO-PEoUayDo7JvlVIz-7uxLkAfgtvWYr8GT
+
+!function MaterialsNoteAdd($id, $name="Note Add", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsNoteAdd', $name, $tech)
+!endfunction
+!function MaterialsNoteAddCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNoteAddLg>', 'Note Add', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSettingsCellLg [20x20/16z] rSgr5S0m5CNGzyti_QSrKvK-jzGHEX7o40GEanTp4jcSXcpfDiq6_JQ5GVsfMIKRPT-MbzkWTzCuI2w4JoGPX01xFme2na24sIe
+
+!function MaterialsSettingsCell($id, $name="Settings Cell", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsCell', $name, $tech)
+!endfunction
+!function MaterialsSettingsCellCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsCellLg>', 'Settings Cell', $funcName, $content)
+!endfunction
+@enduml

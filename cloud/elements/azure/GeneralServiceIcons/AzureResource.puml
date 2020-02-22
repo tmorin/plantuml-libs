@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureResourceLg [18x20/16z] {
+fOp90SH02CDi39x-ErwMtFb6Fua36C8Et62k9ea3UGtMSR1EvdGEBdB_SGL21Elm2e2kE5xvxo7R6O1iZKjkAWaIQ9yoRL-uYei8VIbPhnA8kfSW6jLUnWUg
+kdJ0HIHnBFm
+}
+
+!function AzureResource($id, $name="Resource", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureResource', $name, $tech)
+!endfunction
+!function AzureResourceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureResourceLg>', 'Resource', $funcName, $content)
+!endfunction
+@enduml

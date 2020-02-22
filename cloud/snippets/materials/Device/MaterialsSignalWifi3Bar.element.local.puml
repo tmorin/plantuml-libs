@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsSignalWifi3Bar element
+include('elements/materials/Device/MaterialsSignalWifi3Bar')
+MaterialsSignalWifi3Bar('element', 'Signal Wifi3 Bar', 'an optional tech field')
+@enduml

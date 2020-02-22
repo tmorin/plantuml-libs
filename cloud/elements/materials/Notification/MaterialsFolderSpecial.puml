@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFolderSpecialLg [20x20/16z] {
+fSvL0e0W44NH1nCqx7-rTes_NFke0AOYsLBwaYzZhxBxM1ydfZDvRQ_ijyr_BLFUpjsOGgrbzWwEE8_Ncc1FglcND-BVU0G7ibP9ib0rrig-mdPQ6QQo6KXC
+XAbM
+}
+
+!function MaterialsFolderSpecial($id, $name="Folder Special", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsFolderSpecial', $name, $tech)
+!endfunction
+!function MaterialsFolderSpecialCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFolderSpecialLg>', 'Folder Special', $funcName, $content)
+!endfunction
+@enduml

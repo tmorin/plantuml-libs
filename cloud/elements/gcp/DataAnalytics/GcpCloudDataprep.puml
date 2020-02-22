@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDataprepLg [20x20/16z] {
+RL1L0iKW3Ak7-r_uoPePa9yDQ6DoG0cvO7N1X4CrBXH7OpmGFORd7Ox1v1OPyYzmZ07XsNycqiyPSMuK1G24HJyZUZuBhZza3zntTjuvk1n6ORZafU4qTNj9
+RWpRUDvdstTmTtMFtPq2x7JJ_HS
+}
+
+!function GcpCloudDataprep($id, $name="Cloud Dataprep", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataprep', $name, $tech)
+!endfunction
+!function GcpCloudDataprepCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDataprepLg>', 'Cloud Dataprep', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsSaasEventBusResourceIcon64White element
+include('elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64White')
+AwsSaasEventBusResourceIcon64White('element', 'Saas Event Bus Resource Icon64 White', 'an optional tech field')
+@enduml

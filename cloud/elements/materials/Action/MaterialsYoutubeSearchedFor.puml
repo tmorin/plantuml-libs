@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsYoutubeSearchedForLg [20x20/16z] {
+fSxL0GH120DGGiO5-g_stFrsyqNUgFmNaFeWQOmnowsYzAZAsdcrE7XSgZWJMZeEd3mJHmGEKm_dazr7EnICiqboYwUpUlt9aRHbkGt9s6R23Q7Q78cjtA7g
+hePnnalUepnZb5NP0W
+}
+
+!function MaterialsYoutubeSearchedFor($id, $name="Youtube Searched For", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsYoutubeSearchedFor', $name, $tech)
+!endfunction
+!function MaterialsYoutubeSearchedForCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsYoutubeSearchedForLg>', 'Youtube Searched For', $funcName, $content)
+!endfunction
+@enduml

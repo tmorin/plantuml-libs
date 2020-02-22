@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRedshiftDenseStorageNodeLg [20x20/16z] {
+TL250SH028CZGlTV-ALkESKXiG44uemqu77HAK8ywuOpPUL9vMwb6hMgo_Kz4HQDn0-SL14aEWEaGVns5pp98qWYYS4HDaR9BTTFHohZNv5J_MwaME1Pzzq3
+Qsp_OuKVJZMUUZdsh9nxlip6tsmt3jwvUkSqG2xPFm
+}
+
+!function AwsRedshiftDenseStorageNode($id, $name="Redshift Dense Storage Node", $tech="")
+  CloudElement($id, 'aws/Database/AwsRedshiftDenseStorageNode', $name, $tech)
+!endfunction
+!function AwsRedshiftDenseStorageNodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRedshiftDenseStorageNodeLg>', 'Redshift Dense Storage Node', $funcName, $content)
+!endfunction
+@enduml

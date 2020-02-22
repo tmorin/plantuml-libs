@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureContainerInstancesLg [20x20/16z] {
+fS_7WSKW34NHaLu0-czua9pN_peV9_YxIahCwof09kITyYJvIT46TwGhjEby87GS7yFrWiwpvxaguRC8dwblZXrGUr-DDSzMeLWs4tlPwon3g0oBOt2XZ3qp
+F-PholdOAJ_RX8tvDMIjRrjtRVy
+}
+
+!function AzureContainerInstances($id, $name="Container Instances", $tech="")
+  CloudElement($id, 'azure/ContainerServiceColor/AzureContainerInstances', $name, $tech)
+!endfunction
+!function AzureContainerInstancesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureContainerInstancesLg>', 'Container Instances', $funcName, $content)
+!endfunction
+@enduml

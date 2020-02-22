@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStackoverflowLg [16x20/16z] {
+JSq70i0W20D08SF-_yMDdQRpL63iaVx_MdQzXFBBtorcqVqw_nWzSM_cM4dLvcBPk2hAUffPdJVaPnXjDb4LD3el-ctEEIqqk22C0Zsp1kN0eP6YQaYOMAvi
+sHBxiSASrsi098MwZUCEwzzVwTjJNuxbFV49
+}
+
+!function AzureStackoverflow($id, $name="Stackoverflow", $tech="")
+  CloudElement($id, 'azure/Companies/AzureStackoverflow', $name, $tech)
+!endfunction
+!function AzureStackoverflowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStackoverflowLg>', 'Stackoverflow', $funcName, $content)
+!endfunction
+@enduml

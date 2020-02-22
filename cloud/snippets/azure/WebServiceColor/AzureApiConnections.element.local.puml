@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureApiConnections element
+include('elements/azure/WebServiceColor/AzureApiConnections')
+AzureApiConnections('element', 'Api Connections', 'an optional tech field')
+@enduml

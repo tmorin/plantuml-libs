@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRekognitionVideoLg [20x20/16z] {
+NO-5WLWn34D5blVVk7NQm_SnWW3-uUvVQdn30a3FyBkO6HEkFfNMSXgeb-H9ncC6dliAbVBW16EmID0vgK7fNhP26UFCc0i71SgsIYwoIFXFooQ1JhiSNqv8
+xbwe6ACIoSdz51XcEJrMVhi0qyzZgc89kCIi-LoXjwSIR5uvD-MdT2bS9m3s9BDDCXtXQNoU78juP3VunHy
+}
+
+!function AwsRekognitionVideo($id, $name="Rekognition Video", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsRekognitionVideo', $name, $tech)
+!endfunction
+!function AwsRekognitionVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRekognitionVideoLg>', 'Rekognition Video', $funcName, $content)
+!endfunction
+@enduml

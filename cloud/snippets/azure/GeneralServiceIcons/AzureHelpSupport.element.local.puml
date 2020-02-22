@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureHelpSupport element
+include('elements/azure/GeneralServiceIcons/AzureHelpSupport')
+AzureHelpSupport('element', 'Help Support', 'an optional tech field')
+@enduml

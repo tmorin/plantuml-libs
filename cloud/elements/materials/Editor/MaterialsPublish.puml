@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPublishLg [20x20/16z] fSZ50SGm44DH6QJTSF_LXcCypZFEXr5K4l7IU1g6wnO-Ba65H8lhoYvjMuevfPXJ4ptrlz9VzCZYrI8IQ_CYvM5t
+
+!function MaterialsPublish($id, $name="Publish", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsPublish', $name, $tech)
+!endfunction
+!function MaterialsPublishCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPublishLg>', 'Publish', $funcName, $content)
+!endfunction
+@enduml

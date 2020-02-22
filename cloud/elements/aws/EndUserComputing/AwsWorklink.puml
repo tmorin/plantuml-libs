@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsWorklinkLg [20x20/16z] {
+PSmn3WCm2CNG1S0_zpzmHKCeKZs-mUALapQERHrBxv8nzupAdB7eQJZyMG2COT-YdZy3qlhPvWYid-V-7EaPvvpmJ0Us4P5cxZPMIPa0qbW_gtpMpygN4JTF
+bNLwRPl6Ddu
+}
+
+!function AwsWorklink($id, $name="Worklink", $tech="")
+  CloudElement($id, 'aws/EndUserComputing/AwsWorklink', $name, $tech)
+!endfunction
+!function AwsWorklinkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWorklinkLg>', 'Worklink', $funcName, $content)
+!endfunction
+@enduml

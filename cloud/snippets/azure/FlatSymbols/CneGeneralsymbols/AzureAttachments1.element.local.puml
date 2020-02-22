@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureAttachments1 element
+include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1')
+AzureAttachments1('element', 'Attachments1', 'an optional tech field')
+@enduml

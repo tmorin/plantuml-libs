@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMicOffLg [20x20/16z] {
+XSy54WCX44JHPcHnkFzfuw6Qw2z_wE1N8g02BXsj7KJ501rp3iNAca7gdDFmWeMCTYuZt0tU3QeC1fqN1CoNHOHymxXCYYBOKOs7yQAFEocloJsrjg5uhIws
+8r82i90CLWBPuyT4Vpi3
+}
+
+!function MaterialsMicOff($id, $name="Mic Off", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsMicOff', $name, $tech)
+!endfunction
+!function MaterialsMicOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMicOffLg>', 'Mic Off', $funcName, $content)
+!endfunction
+@enduml

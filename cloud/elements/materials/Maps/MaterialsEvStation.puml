@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsEvStationLg [20x20/16z] {
+bSv75iGm20JHRaNWUT3zRpl6EQnSowy0-50kKRwHZyWp6tUh8RDNjCwBcOJHXAUL6jP4sc7AC6fAoiqye_xMUxQR02pUmDAEUx5Q6vCMS3Vl6MaQFIiFYv6n
+2-zM_6MYusNphUT-QnLDjG5HAci9o1aV-WC
+}
+
+!function MaterialsEvStation($id, $name="Ev Station", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsEvStation', $name, $tech)
+!endfunction
+!function MaterialsEvStationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEvStationLg>', 'Ev Station', $funcName, $content)
+!endfunction
+@enduml

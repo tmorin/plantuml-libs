@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPaletteLg [20x20/16z] {
+bP1LWeCX30QZE7ptF-rkIwW__OCF7he6YvhoX_4wWDaIlrHfghshjgPFXKHK2b52bt0ETBCnp3gGOrahNh6fNiPUABT6m-bji4-qPUpXd6rjfvXjXhjrpjw5
+DzAv0uSrkpDjF4mp4NvzustNfopqARqjTFwDbT1L_W4
+}
+
+!function MaterialsPalette($id, $name="Palette", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPalette', $name, $tech)
+!endfunction
+!function MaterialsPaletteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPaletteLg>', 'Palette', $funcName, $content)
+!endfunction
+@enduml

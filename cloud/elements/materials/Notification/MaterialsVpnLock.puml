@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVpnLockLg [20x20/16z] {
+NSu50WGX241HsjRxttO1j__qcm9-GuJ_I4JUjuc54K0GcAvet-SS1QgcnOAeEQHf70OwzNEJQzEj9XGLU1idxVooxhLsHoWXiwSXHO2zjbC9VmOVGitDoyl6
+QK1jHX9ppR1chmdLZLTys3h2_RdTgtnQO-VM2xDVH1QVa9xZZePfMAOYs8bop4HRtLgCNfDkP6sCLXX-ofbVFG
+}
+
+!function MaterialsVpnLock($id, $name="Vpn Lock", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsVpnLock', $name, $tech)
+!endfunction
+!function MaterialsVpnLockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVpnLockLg>', 'Vpn Lock', $funcName, $content)
+!endfunction
+@enduml

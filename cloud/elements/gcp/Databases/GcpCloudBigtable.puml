@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudBigtableLg [20x20/16z] {
+PP195i0W34Ah0V7-9sx4l8v_cH4uJ2kEYpukUfNQc1UZHZ4VO8zf9XfoJHxaNWBs2Qu7Mbr6mZMhVBEwMG61yEZm0n50QrbSDK4-5in_uLeMNQDNoQg5hXeG
+t19f8G7m-c4jAYq-r2_D0boPB6_cylRFu9TLZLsPAhao_ML_0W
+}
+
+!function GcpCloudBigtable($id, $name="Cloud Bigtable", $tech="")
+  CloudElement($id, 'gcp/Databases/GcpCloudBigtable', $name, $tech)
+!endfunction
+!function GcpCloudBigtableCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudBigtableLg>', 'Cloud Bigtable', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNoEncryptionLg [20x20/16z] {
+RSm54WGW34FHfFXWzp_jUidQ7sCURU6H-CfAxyK-gTSOQ__0KWcmbWEHgF7nwFJZhP2FhT2fOncWcQKH7SFO6MnxhRr6U5hQ-udtqZ6XJ2WJoeGoONOJMdGJ
+4iU4BmjzJM-L5veAXVZR5G
+}
+
+!function MaterialsNoEncryption($id, $name="No Encryption", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsNoEncryption', $name, $tech)
+!endfunction
+!function MaterialsNoEncryptionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNoEncryptionLg>', 'No Encryption', $funcName, $content)
+!endfunction
+@enduml

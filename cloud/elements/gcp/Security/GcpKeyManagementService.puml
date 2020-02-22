@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpKeyManagementServiceLg [20x20/16z] {
+PL050i0W4DgymFz_s42MiXIuF8XJE6wKl554dLblfAnUN_1b0m_GXyPWZ9ivSyGi038115cCCbDq7tgiRyrLOEXfDbxp1CV6gThCO-CipYOPNhFCVB5Q32aM
+CYHxeH6GhQXdk6KwiyKpss1Ii-qxs7SbsxrJ0FTEjzrt
+}
+
+!function GcpKeyManagementService($id, $name="Key Management Service", $tech="")
+  CloudElement($id, 'gcp/Security/GcpKeyManagementService', $name, $tech)
+!endfunction
+!function GcpKeyManagementServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpKeyManagementServiceLg>', 'Key Management Service', $funcName, $content)
+!endfunction
+@enduml

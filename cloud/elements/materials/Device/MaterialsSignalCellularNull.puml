@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSignalCellularNullLg [20x20/16z] dSY53O0m04N1ybEt_RV5uM4nBdxcBwjtLRshwrMbwLdUxaS5e_seWQFEepYAepYAepXR_HQShSNguDQpjRVQi9mUpAS9
+
+!function MaterialsSignalCellularNull($id, $name="Signal Cellular Null", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalCellularNull', $name, $tech)
+!endfunction
+!function MaterialsSignalCellularNullCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalCellularNullLg>', 'Signal Cellular Null', $funcName, $content)
+!endfunction
+@enduml

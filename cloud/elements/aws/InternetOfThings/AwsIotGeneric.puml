@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotGenericLg [20x20/16z] {
+TP07Ga0n24CVXEJV_yPMt5fVTzdm7ohruHnyK97dOALWiVCwieTPBVCD5w04Maj38YYPpdWEQQm2EMYK0InYGO-HeoVs8pmDlNeJTzVgVVov-fmp-_Tk-zXv
+5B_RQlM0YLRlAvU3ttEvvNofxTA3Iw_kFRtp0W
+}
+
+!function AwsIotGeneric($id, $name="Iot Generic", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotGeneric', $name, $tech)
+!endfunction
+!function AwsIotGenericCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotGenericLg>', 'Iot Generic', $funcName, $content)
+!endfunction
+@enduml

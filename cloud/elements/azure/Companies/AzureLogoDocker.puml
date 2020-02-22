@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLogoDockerLg [24x20/16z] {
+ROu5Wi1020E39T3_F_XAvNogEoY-q0Z_OFzuKqlp-3Iy-5pq6XVVR6fknFLYnPrzp3oFmQJkBKbkY-UfeiG4FBfRqhwUdtI7HVRyu917x0ASFb4lsyrnuslr
+sEd0IrPulPiwll3CUoa6Vk8HcM4_dUF1_7jc9I9E6UUlcTt_nPhpORagG_JxFnie4I0JYDaIPYNaOD6CLUlJfKG5KYfKAutD8Bs6LeuF
+}
+
+!function AzureLogoDocker($id, $name="Logo Docker", $tech="")
+  CloudElement($id, 'azure/Companies/AzureLogoDocker', $name, $tech)
+!endfunction
+!function AzureLogoDockerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogoDockerLg>', 'Logo Docker', $funcName, $content)
+!endfunction
+@enduml

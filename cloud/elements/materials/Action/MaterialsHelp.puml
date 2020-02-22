@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHelpLg [20x20/16z] {
+VP050WGX24K1Yocv_ssNsEaqd-I7Zm-9y0moJyioSTuniOZCiovCAnf5faoK9v4n8B8Q9K24fARixbbz6j0m43GzPcDiSRAk1QeTpNMI-2RovqcTQVcZ1Bdh
+lj3E2cGz6LjzxJY8_7s1WvKI3hpMilQnreBiA2M7Z6jlArjxksXmr-fJq-lt0m
+}
+
+!function MaterialsHelp($id, $name="Help", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsHelp', $name, $tech)
+!endfunction
+!function MaterialsHelpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHelpLg>', 'Help', $funcName, $content)
+!endfunction
+@enduml

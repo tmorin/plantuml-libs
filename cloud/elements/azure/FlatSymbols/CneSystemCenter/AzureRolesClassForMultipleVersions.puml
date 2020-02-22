@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureRolesClassForMultipleVersionsLg [17x20/16z] {
+jOv50WDH24FHG9ZxtxTCNTPzN_5etb6vaJF7CXDt1uQzSFBfG2nuSzpuY-FupGZHq9U3c2hQqm5K0qpNcrBFwKrtqZ4yGK6MJi4KbkoR0-legaBoR1YaFvec
+M4KtCRyJN9_92_NT-ru
+}
+
+!function AzureRolesClassForMultipleVersions($id, $name="Roles Class For Multiple Versions", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureRolesClassForMultipleVersions', $name, $tech)
+!endfunction
+!function AzureRolesClassForMultipleVersionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRolesClassForMultipleVersionsLg>', 'Roles Class For Multiple Versions', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsExploreLg [20x20/16z] {
+VP073iCm24K1GKHY8-v_suhLtVvCFpRmHqY4hu1rcItb1oRrbjAWoqTs5KGTiWunpN1kSWd2uSx1DCaP-N6vAyGtKOP89400ic0C8e1HpAZPXS7OatMiP0Ed
+ToneVP4JkNOl1w1CurmzcyZobcBFPZwwwCiE_kpgiTC_kW4
+}
+
+!function MaterialsExplore($id, $name="Explore", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsExplore', $name, $tech)
+!endfunction
+!function MaterialsExploreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsExploreLg>', 'Explore', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotCarLg [20x20/16z] {
+TP070aCX24E_X1VlV-EgT9V67Pcv_a53iR2E9pKiSW5vt2dm7cU3ik9w0zjIzZjdQvc9OnqBomQjJHmx3Fjcbbtajelwq4N6Ui6srRqeKvnC7afoSMbFWoJZ
+ERUlSE1q9jPCywX5UKebJYrDpKrlZGQDLhscFMu
+}
+
+!function AwsIotCar($id, $name="Iot Car", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotCar', $name, $tech)
+!endfunction
+!function AwsIotCarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotCarLg>', 'Iot Car', $funcName, $content)
+!endfunction
+@enduml

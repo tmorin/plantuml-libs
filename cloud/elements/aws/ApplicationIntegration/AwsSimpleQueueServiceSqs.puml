@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSimpleQueueServiceSqsLg [20x20/16z] fO_70SH0308lCHpklr_dRFrsNig2hfqOEvSAmaQdQjOai1Vn8yhOjHDx3YV-aFWhVPrjMmP9YVY1AMgQQYbsYn-5bbfpxMqaXh7IpW
+
+!function AwsSimpleQueueServiceSqs($id, $name="Simple Queue Service Sqs", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleQueueServiceSqs', $name, $tech)
+!endfunction
+!function AwsSimpleQueueServiceSqsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSimpleQueueServiceSqsLg>', 'Simple Queue Service Sqs', $funcName, $content)
+!endfunction
+@enduml

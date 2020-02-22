@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmWindowsLg [22x20/16z] {
+dP050iDG24E1aFtT_yGZgxkyzXiEo2tKsY7vsR8h7Mqf4iYvbE4EU6rtf150RLC4eP2rm1TnfmWLToKTYvwa6wZfR8I4n6ACKQIP_q4JS64Z-HMmYT2icb25
+lQalqyd-1m
+}
+
+!function AzureVmWindows($id, $name="Vm Windows", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmWindows', $name, $tech)
+!endfunction
+!function AzureVmWindowsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmWindowsLg>', 'Vm Windows', $funcName, $content)
+!endfunction
+@enduml

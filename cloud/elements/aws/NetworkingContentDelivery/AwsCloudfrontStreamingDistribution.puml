@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudfrontStreamingDistributionLg [20x20/16z] {
+RL255SHG38e0h_ilVDBlhb70oeW4CcmQAH6WbCtYLDHeqOj9UA_t1xqNNvEXNdnhsMopVqt5QWlzrsepHNAtCVjpUjnijzpI8_6t8KkFYaK02eTGnypdOSKy
+k4cLsz2W3iZlMjqrFRN_0W
+}
+
+!function AwsCloudfrontStreamingDistribution($id, $name="Cloudfront Streaming Distribution", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfrontStreamingDistribution', $name, $tech)
+!endfunction
+!function AwsCloudfrontStreamingDistributionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudfrontStreamingDistributionLg>', 'Cloudfront Streaming Distribution', $funcName, $content)
+!endfunction
+@enduml

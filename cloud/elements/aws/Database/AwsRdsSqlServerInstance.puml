@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsSqlServerInstanceLg [20x20/16z] {
+XOk5aGD14CIsQVe-_uJVpFPfSLGbzWrMwmKTB45WBTvawmFnKcWTiDWoSRAGcMWoEJen4Y6Aw_YWNM_iEcGE98-kmG7tmM4B2URlqTLpmDkJm-bzRiUIvxcL
+awZlBRQdjh7JvvQoXLOFpZZWiZU6EJxXFm
+}
+
+!function AwsRdsSqlServerInstance($id, $name="Rds Sql Server Instance", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsSqlServerInstance', $name, $tech)
+!endfunction
+!function AwsRdsSqlServerInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsSqlServerInstanceLg>', 'Rds Sql Server Instance', $funcName, $content)
+!endfunction
+@enduml

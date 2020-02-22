@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsFormatTextdirectionRToL element
+include('elements/materials/Editor/MaterialsFormatTextdirectionRToL')
+MaterialsFormatTextdirectionRToL('element', 'Format Textdirection R To L', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsUserLg [20x20/16z] {
+VOy50WGX24LL-B5x__jETpsJXh8GG9GJLIAjUbBb-C079J2_nAvJcz_cWsw9gVxs0-_vgb67cyUw-Vl_vE7AGyDH0nWkgIw1IvP3srfKYr9ZBfKJuvXkPrrp
+2PSB3l2g8uYh3gHnmMpW1RGU
+}
+
+!function AwsUser($id, $name="User", $tech="")
+  CloudElement($id, 'aws/General/AwsUser', $name, $tech)
+!endfunction
+!function AwsUserCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsUserLg>', 'User', $funcName, $content)
+!endfunction
+@enduml

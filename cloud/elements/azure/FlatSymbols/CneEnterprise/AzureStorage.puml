@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureStorageLg [24x20/16z] hSwr0S004CF01ple_TSDLs6wKfNKEhL2R_MYert1t2rMREbhIqUzWg7_-EcvukS_MQtalp_1bPXwkg_bqDNkqA4U
+
+!function AzureStorage($id, $name="Storage", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStorage', $name, $tech)
+!endfunction
+!function AzureStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStorageLg>', 'Storage', $funcName, $content)
+!endfunction
+@enduml

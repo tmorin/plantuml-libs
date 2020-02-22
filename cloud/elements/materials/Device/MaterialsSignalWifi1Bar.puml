@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSignalWifi1BarLg [20x20/16z] bT234S10443HrLdzLnllnFh3l9pXRuY7JrhI7mhAIWUaKt36w_LMN4cHXrOQ8d4nv-Y4OBNOfYB1cjIHgi0sEvezl81lpIDekkIws8eCV-i1
+
+!function MaterialsSignalWifi1Bar($id, $name="Signal Wifi1 Bar", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalWifi1Bar', $name, $tech)
+!endfunction
+!function MaterialsSignalWifi1BarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalWifi1BarLg>', 'Signal Wifi1 Bar', $funcName, $content)
+!endfunction
+@enduml

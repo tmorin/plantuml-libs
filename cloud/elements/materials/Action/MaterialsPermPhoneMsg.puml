@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPermPhoneMsgLg [20x20/16z] {
+ZSv50WGX34JHAX9SSl_RphG2ktxuNu7FAAe2GFJ4eucP5GB5JlgqnhsvRZPaRwp7RM-8Peb76xtteJZecL2gkZ_Ym1AF8maMse-dmoRM8-oOyn6fGkBXSXKm
+sMX5y63iCTb1CUdyyqIDTPW9TdGYn6S_
+}
+
+!function MaterialsPermPhoneMsg($id, $name="Perm Phone Msg", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermPhoneMsg', $name, $tech)
+!endfunction
+!function MaterialsPermPhoneMsgCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermPhoneMsgLg>', 'Perm Phone Msg', $funcName, $content)
+!endfunction
+@enduml

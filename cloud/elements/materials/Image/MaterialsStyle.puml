@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsStyleLg [20x20/16z] {
+bS_5WK0X34NH-m84-z9_jQF8k9nbFFnVI85t5Cjv7yPctkvdpX97w6vYaCllLv79Sn-nmXIkUpW3W-ezvPU02TAATGD81kehc5xwJ8QlM1N4KtBiNC40-PAQ
+KKRavJy_fUx44Sa1K9HQazfJfBanfHw8hKJ19e7uoIC
+}
+
+!function MaterialsStyle($id, $name="Style", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsStyle', $name, $tech)
+!endfunction
+!function MaterialsStyleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStyleLg>', 'Style', $funcName, $content)
+!endfunction
+@enduml

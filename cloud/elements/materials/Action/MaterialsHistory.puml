@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHistoryLg [20x20/16z] {
+bP053WGX34MdYiFzRxl18SJsZ_Bg_VuK41F2HJIa69FZZT179KGooS3qyWxx7qSTJ4D5s62Y7XcbVhgljJqWuMOSe8NwWr5rO1UprngbCDadkLXeFLfQiL9H
+5SgeiRLxwRzFpn-ug0HxjcS7pwx-qWy
+}
+
+!function MaterialsHistory($id, $name="History", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsHistory', $name, $tech)
+!endfunction
+!function MaterialsHistoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHistoryLg>', 'History', $funcName, $content)
+!endfunction
+@enduml

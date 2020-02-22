@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsDynamodbAttributeLg [20x20/16z] lT350KKn20LH0ZEt_uw_k-xUMIPuUp7ZHHjGo04dKOh4wgJh18MifKzlPbLL-FU6LatcwQrCifxhTSCq2NsYaml8nNnwqpvvp9KwUUgnnLiuUBxffzll0G
+
+!function AwsDynamodbAttribute($id, $name="Dynamodb Attribute", $tech="")
+  CloudElement($id, 'aws/Database/AwsDynamodbAttribute', $name, $tech)
+!endfunction
+!function AwsDynamodbAttributeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDynamodbAttributeLg>', 'Dynamodb Attribute', $funcName, $content)
+!endfunction
+@enduml

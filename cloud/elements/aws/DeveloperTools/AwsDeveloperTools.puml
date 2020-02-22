@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeveloperToolsLg [20x20/16z] {
+RT073WCX44FHjB6noVtF6oDHqlukxQ7AvM_Nhq8tjXavgcjCjZNB3QOTEGOmn7eS4uGceOAQPf8GoQfbtHPGKL37h4gHRK6oY6FklO7EJnupmCR8G4uh0dO4
+yhGWceFWicVGOrWPqu9fw3AsrNwhw-shs9zU
+}
+
+!function AwsDeveloperTools($id, $name="Developer Tools", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsDeveloperTools', $name, $tech)
+!endfunction
+!function AwsDeveloperToolsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeveloperToolsLg>', 'Developer Tools', $funcName, $content)
+!endfunction
+@enduml

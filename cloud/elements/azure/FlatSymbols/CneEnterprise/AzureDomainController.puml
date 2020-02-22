@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureDomainControllerLg [15x20/16z] jO-50G0X203V9FTVry0UuC-aWNM2NqSNx4mKDcIA60nSriaK5x-9afucSp1vkNgKSBgAIPNSwjdxFcXg8YCYUB1qVbXz5EsWpOkULhL-GzG9Lm
+
+!function AzureDomainController($id, $name="Domain Controller", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDomainController', $name, $tech)
+!endfunction
+!function AzureDomainControllerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDomainControllerLg>', 'Domain Controller', $funcName, $content)
+!endfunction
+@enduml

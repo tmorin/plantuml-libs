@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCenterFocusStrongLg [20x20/16z] {
+ZP054e1030Df4_pa_w_5dRECxTIRgbnAKbQG1NGF6JCQh8G5p1QaWSZU8GB3BJRAFKV6Pqpr4HEiaSxQRetYRkhyekvzZbrZLcEnK6zeH-2MuCsXtq8UXBmg
+rmm
+}
+
+!function MaterialsCenterFocusStrong($id, $name="Center Focus Strong", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCenterFocusStrong', $name, $tech)
+!endfunction
+!function MaterialsCenterFocusStrongCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCenterFocusStrongLg>', 'Center Focus Strong', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCardMembershipLg [20x20/16z] {
+fSu33WHH54JHPtpkVxLZUxfFLBbHmKj8Tt2Vej-9NQIkT4CxxHl13LhVNEr2_T36l3FshQVVo7ve33Vus4nksBwXrrhRF6YxwGWxY2XZduRivlNLiTq_7IEY
+FxHW00w2lsm1
+}
+
+!function MaterialsCardMembership($id, $name="Card Membership", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCardMembership', $name, $tech)
+!endfunction
+!function MaterialsCardMembershipCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCardMembershipLg>', 'Card Membership', $funcName, $content)
+!endfunction
+@enduml

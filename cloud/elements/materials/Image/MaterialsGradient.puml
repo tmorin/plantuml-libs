@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGradientLg [20x20/16z] {
+ZP054aGn349B6gdGoVrFk-xwttWKADiHVK3E9NBU84z5PSMDIZtL9ieDp9yrHQcrG6yr2eQMYA83ShcNtQ4X4Whl-Rr6t7TnsLrc31r3WsRhifkz-b9TNdlc
+jTQW5A6YtMliCyV8sNcf2VC1ogUijhC7
+}
+
+!function MaterialsGradient($id, $name="Gradient", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsGradient', $name, $tech)
+!endfunction
+!function MaterialsGradientCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGradientLg>', 'Gradient', $funcName, $content)
+!endfunction
+@enduml

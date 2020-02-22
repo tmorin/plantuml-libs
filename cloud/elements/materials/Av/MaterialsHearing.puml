@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHearingLg [20x20/16z] {
+TT355G0n20JGGUBmqd-rwox_YeCVh9WGCs57fH0acriDsAW9rBEA94zRQabWYxI6rqnsGIe4LW5YMs9YJ5CZAjrbILZoYPf2UkyHa7VUuj5lLnB45JVgWcXx
+qda79G_lUwChNb8bFF6So9dlYKqbFv8fcHV1m_dLbn4
+}
+
+!function MaterialsHearing($id, $name="Hearing", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsHearing', $name, $tech)
+!endfunction
+!function MaterialsHearingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHearingLg>', 'Hearing', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRssFeedLg [20x20/16z] {
+fKvL0eHG29Jq1UpS_xPhvwTq3WpVY9XUDSjMZ1-rda0uFPQr99ey0QGYz4nPPp0Q4UUa8uiinNPWQWcaJyKAlsnxpgdy-lKbpPpM2spBQImyWPQfWxB_Z2da
+I1uuzokA6Qn01-gn0whHP7nAROg-qHy
+}
+
+!function MaterialsRssFeed($id, $name="Rss Feed", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsRssFeed', $name, $tech)
+!endfunction
+!function MaterialsRssFeedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRssFeedLg>', 'Rss Feed', $funcName, $content)
+!endfunction
+@enduml

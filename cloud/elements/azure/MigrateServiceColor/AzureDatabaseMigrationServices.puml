@@ -1,0 +1,14 @@
+@startuml
+sprite $AzureDatabaseMigrationServicesLg [40x20/16z] {
+rOw7WSGW40FPAAtxB_W5vuiTl9o7mQjrnvj4-VfCW8BnYLBa5nR2bWNoMslE3DzYjQReQM_HGGbrARH3p1oscdd4pQo0ews769ir8ANXhCrp8-vvxUUtykfC
+CeqCKgSMekMIbp8ZFgCtiRuBoTVNmmFdUB3bF9wTFYUtbsthh27ypFN4DKmyB4ycm-K10Nbj4MfaALqL2PSLGBFOsDMTmMjafJpNFL9UjJPH9IKkQwWfLyv8
+krCbhrQXQj2rINCoktSDhowb6sYlEDKQvYcOxconase5Extk6BxU_eUNBozVhDjjMz6rNl6iabNnHbRWphtr3m
+}
+
+!function AzureDatabaseMigrationServices($id, $name="Database Migration Services", $tech="")
+  CloudElement($id, 'azure/MigrateServiceColor/AzureDatabaseMigrationServices', $name, $tech)
+!endfunction
+!function AzureDatabaseMigrationServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDatabaseMigrationServicesLg>', 'Database Migration Services', $funcName, $content)
+!endfunction
+@enduml

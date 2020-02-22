@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsReplay10Lg [20x20/16z] {
+bO-50GGn20G3k_7mrt-rv_u-KHpS9_YiylbPrHMvgnwTHQzFkbmjoZrMM9CyrK0BpxtuTiufyzR6LPpa82IS5B-b6fKKAWyTJ6STuTImnfOu9PFH4lTfQ5iM
+uz6S9QWYpRODPclDCjqPKK35_SS
+}
+
+!function MaterialsReplay10($id, $name="Replay10", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsReplay10', $name, $tech)
+!endfunction
+!function MaterialsReplay10Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsReplay10Lg>', 'Replay10', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSatelliteLg [20x20/16z] {
+ZT1L0e1024LHG9naVFjVhTrz_pnEq_z4Tyb4PjbWrc38HbIhM4ib6MCwMcPoYVbWfgueAVQ6afGuRZQjH-nnD64THZLbC-HfUQTbCy0x832vdKKcduI6ZHQp
+uNCyl-J57DCSrukbk9Oc4yCkaxkt-by7
+}
+
+!function MaterialsSatellite($id, $name="Satellite", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsSatellite', $name, $tech)
+!endfunction
+!function MaterialsSatelliteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSatelliteLg>', 'Satellite', $funcName, $content)
+!endfunction
+@enduml

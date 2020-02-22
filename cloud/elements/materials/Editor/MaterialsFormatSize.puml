@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatSizeLg [20x20/16z] hOpL0G0n24Enkh3_jEUrx-kh0adWFsHD0rjFj56fzTWv5xJuwtbxhQ-frIWF35GJhb5nxd6CHLFqRw-1GGLWVq-d7bZ7Ty_PrjlB2G
+
+!function MaterialsFormatSize($id, $name="Format Size", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatSize', $name, $tech)
+!endfunction
+!function MaterialsFormatSizeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatSizeLg>', 'Format Size', $funcName, $content)
+!endfunction
+@enduml

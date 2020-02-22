@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNotificationsPausedLg [20x20/16z] {
+bOy55WGW24IHij_S_xJROMn-amRw5_TDnRtpej8259q3SM4CbrxTp6kNqIs5qvD6nuIMZBWYFLGX0uL30d8OT4t8IfzrwVBCkg8dog3ZYXkLxwgC1_ccr3Wm
+piSYJ0jIgz0ACttY2
+}
+
+!function MaterialsNotificationsPaused($id, $name="Notifications Paused", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsNotificationsPaused', $name, $tech)
+!endfunction
+!function MaterialsNotificationsPausedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNotificationsPausedLg>', 'Notifications Paused', $funcName, $content)
+!endfunction
+@enduml

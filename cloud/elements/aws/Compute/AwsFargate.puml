@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsFargateLg [20x20/16z] {
+bT055W8n40FGnyIu_ua9xYjPxQ_tk3V9buZKkmfA1BrG0Bc6l1XZmFqyH6v1QfMLAr6vMyHSpGLJBljg_L8aGFNZ-u0Mh_5pOcEw3C_mTSc0H01lxPe3Xg-B
+jWZOfPU4K5RFQZqd
+}
+
+!function AwsFargate($id, $name="Fargate", $tech="")
+  CloudElement($id, 'aws/Compute/AwsFargate', $name, $tech)
+!endfunction
+!function AwsFargateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFargateLg>', 'Fargate', $funcName, $content)
+!endfunction
+@enduml

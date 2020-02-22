@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStorageExplorerLg [20x20/16z] {
+dOm9aiGm20D1tFx_WnSbEsVTqrMseHMbRrpU-D6vUpXkl0WqgxeV-H2JM5bVpiqiHE1FL8pv_oVx4lrsM_FmFJlMihdokEvXggyUZwEd8Gh0dCTWWUvrC8Lb
+TLr708ZmQ9upTSv9_aWLjYTdkcPc7I8YBwgAXwxcTBFtwhxSt8SkluW_
+}
+
+!function AzureStorageExplorer($id, $name="Storage Explorer", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureStorageExplorer', $name, $tech)
+!endfunction
+!function AzureStorageExplorerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStorageExplorerLg>', 'Storage Explorer', $funcName, $content)
+!endfunction
+@enduml

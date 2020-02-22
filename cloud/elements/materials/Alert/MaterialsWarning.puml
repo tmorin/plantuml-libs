@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWarningLg [20x20/16z] {
+bO-35GH04CNM6gJ_Qi_svJd37_wbb2SLvuoFha9zK4b0qhth0FrEPSCTopSg3hGKPSIhAw0nAfHhspgxTMbiS9o5Tlv30Sm0D9t_EFLT_ycdXcExvqDG07mj
+1s0Vk_90tOsM1tBubIq
+}
+
+!function MaterialsWarning($id, $name="Warning", $tech="")
+  CloudElement($id, 'materials/Alert/MaterialsWarning', $name, $tech)
+!endfunction
+!function MaterialsWarningCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWarningLg>', 'Warning', $funcName, $content)
+!endfunction
+@enduml

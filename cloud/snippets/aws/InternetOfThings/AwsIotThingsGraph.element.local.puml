@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsIotThingsGraph element
+include('elements/aws/InternetOfThings/AwsIotThingsGraph')
+AwsIotThingsGraph('element', 'Iot Things Graph', 'an optional tech field')
+@enduml

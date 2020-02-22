@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDoNotDisturbOnLg [20x20/16z] VP254GH1409_Lbab_sZVpwdhyb7WSOCvPyT2G1kZ8Mnb1_w1MqgLA_LND707lkk11yAd1Xx0PxMHi_-PP7ilkq72sHS7SZXLKxlYXzAYD0jl8WELbSvKym8
+
+!function MaterialsDoNotDisturbOn($id, $name="Do Not Disturb On", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsDoNotDisturbOn', $name, $tech)
+!endfunction
+!function MaterialsDoNotDisturbOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDoNotDisturbOnLg>', 'Do Not Disturb On', $funcName, $content)
+!endfunction
+@enduml

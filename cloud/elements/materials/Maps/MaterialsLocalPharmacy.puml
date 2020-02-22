@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalPharmacyLg [20x20/16z] {
+ZO_50KCn34CZXr7xJzj-PdeNCqYzujqf9JMSSevsTBHVA8nUzpd37MPSmWrLL4yOV6k7sdJ4igC0fJFp4IaiAG8nTOweaKWt_nAd51AzT7KHpuJfmKQs3EJU
+wdcYeuYKthfvjAE5q7gRC8-kj5jjC3kWFlC7
+}
+
+!function MaterialsLocalPharmacy($id, $name="Local Pharmacy", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalPharmacy', $name, $tech)
+!endfunction
+!function MaterialsLocalPharmacyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalPharmacyLg>', 'Local Pharmacy', $funcName, $content)
+!endfunction
+@enduml

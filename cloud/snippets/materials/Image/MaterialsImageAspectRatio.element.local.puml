@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsImageAspectRatio element
+include('elements/materials/Image/MaterialsImageAspectRatio')
+MaterialsImageAspectRatio('element', 'Image Aspect Ratio', 'an optional tech field')
+@enduml

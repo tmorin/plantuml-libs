@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSqlLg [20x20/16z] {
+RL050e0m4FAI_V_35jYYsww3QOS9qmdl4owJzJZH2irnGp8CTnlsmA9SILzj3R1BRkQx5skRlK6lBhXaDO1RbJ45Ae9CioWfVDgyoassKFpM8od7L8oBp61S
+7xFq5iST_JOptr6_ktqv-785Ut4AaDC_xXS
+}
+
+!function GcpCloudSql($id, $name="Cloud Sql", $tech="")
+  CloudElement($id, 'gcp/Databases/GcpCloudSql', $name, $tech)
+!endfunction
+!function GcpCloudSqlCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSqlLg>', 'Cloud Sql', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAppServicesLg [20x20/16z] {
+PP074iHG24ALaliVUVMpFQO_6CXO6VgwBDHxeEfXeMyF2xQ8xaDYOUKpZp0zGsnZdilKAsh4bS7ISJKAFX1o8h15WRAJv1HXNbRTOQ9IUMCrHXsMIlVAblEJ
+WIQ5nZ0Q8qiE7r2rgPtuX7PUVI2fh0Q3qhyy0oSUycU1IEaA20dztlq3
+}
+
+!function AzureAppServices($id, $name="App Services", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureAppServices', $name, $tech)
+!endfunction
+!function AzureAppServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAppServicesLg>', 'App Services', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPauseCircleFilledLg [20x20/16z] VP053i0m30DNjjec-Vzhnpnh5aKNzl0ZvxrxWeWcqX0lx66xu0zKxLJTe8FTXBKzhc5kBQ_9kB0z0lRiqjgUhCtDNfvCF6Eib-nWjx2RoM_40-OLzvHh0W
+
+!function MaterialsPauseCircleFilled($id, $name="Pause Circle Filled", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPauseCircleFilled', $name, $tech)
+!endfunction
+!function MaterialsPauseCircleFilledCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPauseCircleFilledLg>', 'Pause Circle Filled', $funcName, $content)
+!endfunction
+@enduml

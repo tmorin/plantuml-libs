@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsBrightness4 element
+include('elements/materials/Image/MaterialsBrightness4')
+MaterialsBrightness4('element', 'Brightness4', 'an optional tech field')
+@enduml

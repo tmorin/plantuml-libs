@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMovieLg [20x20/16z] nOXL0aGX3CH2v-5Gxd_QTVrTJNN2MoW6GZJO14enWFML81M8BI1t0_Cr3EiYj0XbdTtAfbfafScINznoz-jSt1D_TVtPTGCKdn1liGS
+
+!function MaterialsMovie($id, $name="Movie", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsMovie', $name, $tech)
+!endfunction
+!function MaterialsMovieCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMovieLg>', 'Movie', $funcName, $content)
+!endfunction
+@enduml

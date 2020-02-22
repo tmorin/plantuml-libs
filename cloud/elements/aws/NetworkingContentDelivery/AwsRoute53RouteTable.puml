@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRoute53RouteTableLg [20x20/16z] {
+RP250KKn30B3GThzD_xoNAwk2GZVG9bzOoP1W0fHeY37dfsoPNSI2La5WTzUaf4llNU_3Ve17W-SDhQHiLXZ775TyY_y5zQu3iKIjoK4qgz3qF5yng0Va94R
+lmtBM6N-SI57N3kIw-A1P84WMJmTuzSjmyoRzny
+}
+
+!function AwsRoute53RouteTable($id, $name="Route53 Route Table", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsRoute53RouteTable', $name, $tech)
+!endfunction
+!function AwsRoute53RouteTableCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRoute53RouteTableLg>', 'Route53 Route Table', $funcName, $content)
+!endfunction
+@enduml

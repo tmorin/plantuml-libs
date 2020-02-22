@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureFilterLg [22x20/16z] RS-v5G8n4C1GN-jJ_TVBcmXOMU7FnBLnnJHkc8A5mK9ne3XG76WU-K_p44Rbm2alJ3aqIpTiQLgmX6d2j0uOrWxTsg1PArHhEJyJ7m
+
+!function AzureFilter($id, $name="Filter", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFilter', $name, $tech)
+!endfunction
+!function AzureFilterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFilterLg>', 'Filter', $funcName, $content)
+!endfunction
+@enduml

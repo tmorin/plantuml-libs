@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHeadsetMicLg [20x20/16z] {
+dP253G0X4C3ESTX_sdU7s3VM50SES05Ua8MKWj4ZQOucOZ7hbQmORkkjd94l0osyY_T7kPsAt4qARKiptOtojbZousAOP6llUNjhCSPj1I_IZhRmqtZGCFGD
+K7J_9LAr8l20PK4JFLl82r7X2HBH_lyp
+}
+
+!function MaterialsHeadsetMic($id, $name="Headset Mic", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsHeadsetMic', $name, $tech)
+!endfunction
+!function MaterialsHeadsetMicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHeadsetMicLg>', 'Headset Mic', $funcName, $content)
+!endfunction
+@enduml

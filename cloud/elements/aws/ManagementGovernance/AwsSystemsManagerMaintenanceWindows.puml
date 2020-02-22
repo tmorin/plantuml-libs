@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerMaintenanceWindowsLg [20x20/16z] {
+RL073W0X22lGulz_VAaajvMz0VE290EFbujSYVD5grg0kjI1CL5AIobnZCrTJw9LjcsI9LQnEHfG0XMeSXMeWCZES17IfQs2IrizYHOjAgqg0YaBfosxEyTs
+vW9dxjbZnj_gEOjDcbdEcJFFcNzs-xd1twt-R_ft-mC
+}
+
+!function AwsSystemsManagerMaintenanceWindows($id, $name="Systems Manager Maintenance Windows", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerMaintenanceWindows', $name, $tech)
+!endfunction
+!function AwsSystemsManagerMaintenanceWindowsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerMaintenanceWindowsLg>', 'Systems Manager Maintenance Windows', $funcName, $content)
+!endfunction
+@enduml

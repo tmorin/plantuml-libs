@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAllOutLg [20x20/16z] fL350S1020iIgEu_Rjrxl-E5Hr0N5fGz4uRj6KU7CfCA7tdq7Ep2FJh2Zvw0hQw9jiJn1Thf9m4OPnOyi_GpyoptohT_Z3ANF-Uojhy7TJ43
+
+!function MaterialsAllOut($id, $name="All Out", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAllOut', $name, $tech)
+!endfunction
+!function MaterialsAllOutCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAllOutLg>', 'All Out', $funcName, $content)
+!endfunction
+@enduml

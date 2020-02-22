@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotUtilityLg [20x20/16z] {
+TP074WCn20C5Ol7_VvpOf9UzSzFGjKbbN4cb7X2adGHtfLWikizH8-4NHiHIih4air_BajS6xHkfm5BOgnp7BewT0HQGOnU9gHpQCXdXDlWGqNBxQ5a7k6k9
+DKGtntTg6O9ugMNmggdbnOxgiTEBNM-xZndKpE1hLdzd-Ztx2m
+}
+
+!function AwsIotUtility($id, $name="Iot Utility", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotUtility', $name, $tech)
+!endfunction
+!function AwsIotUtilityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotUtilityLg>', 'Iot Utility', $funcName, $content)
+!endfunction
+@enduml

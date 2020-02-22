@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudRoutesLg [20x20/16z] {
+RP250S0W30JZp_uBLyBNUpZnIAD4JgnEZ5zQuwIe6kD6J3NS_z2AURttBVS0s1xLc-zYc4YrPosOy3438DHINHtzO80Ihr5q2_w5nFb7TGqNsewGd35mnM0k
+GDkqiPqvd-HlRVyzUFOA-kWfDjZJdzwl
+}
+
+!function GcpCloudRoutes($id, $name="Cloud Routes", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudRoutes', $name, $tech)
+!endfunction
+!function GcpCloudRoutesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudRoutesLg>', 'Cloud Routes', $funcName, $content)
+!endfunction
+@enduml

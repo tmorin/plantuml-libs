@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGameliftLg [20x20/16z] {
+RSt7WKKX20NG1JU0h_z-npm_cJqAr6rvM_t0-iHh9a0VQuE4i88wrf41fi5GRMl939A0cRLDMHmLM5BLCaeXYI7EjssmBLZJRcnAJbFPTTPmY2G8KSkQOWgJ
+ChSraq5WBiTQMKAcO5vhARa_yTLAskMwFUsjTUds_B0V-0S
+}
+
+!function AwsGamelift($id, $name="Gamelift", $tech="")
+  CloudElement($id, 'aws/GameTech/AwsGamelift', $name, $tech)
+!endfunction
+!function AwsGameliftCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGameliftLg>', 'Gamelift', $funcName, $content)
+!endfunction
+@enduml

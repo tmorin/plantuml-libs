@@ -1,0 +1,16 @@
+@startuml
+!function AwsGroupSecurity($id, $name="Security", $tech="")
+  CloudGroup($id, "AwsGroupSecurity", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<AwsGroupSecurity>> {
+  StereotypeFontColor $AWS_COLOR_RED
+  BorderThickness 1
+  BorderColor $AWS_COLOR_RED
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_RED
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneVpnProfilesLg [17x20/16z] {
+TO-50GCm2C1m6Fl_thfCKqyDM5yH03E-Y2COmmjBc0y8S0cQm15gWwyJ-F_40X45NWHvnAl0KEJWApXQftQ5UEzUX3rKrOEse7nsKbz4TdIbJxm5sq2FE67b
+H60ZEi0A
+}
+
+!function AzureIntuneVpnProfiles($id, $name="Intune Vpn Profiles", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneVpnProfiles', $name, $tech)
+!endfunction
+!function AzureIntuneVpnProfilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneVpnProfilesLg>', 'Intune Vpn Profiles', $funcName, $content)
+!endfunction
+@enduml

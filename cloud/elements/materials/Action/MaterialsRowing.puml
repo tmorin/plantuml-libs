@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRowingLg [20x20/16z] {
+XT254S0m2010h8OS-qzRTmlddw1m2eH7r5RV2IqDo__6e8TWtVATcaozrgEHhZsuDjEheML7rVsVAd5S3KYL9Qx_c2TipsJ6qqyyKqS88z9EDD9IqplPbrhV
+9TFbVWFFvxd47_z6d6a
+}
+
+!function MaterialsRowing($id, $name="Rowing", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsRowing', $name, $tech)
+!endfunction
+!function MaterialsRowingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRowingLg>', 'Rowing', $funcName, $content)
+!endfunction
+@enduml

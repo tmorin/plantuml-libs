@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAdPrivilegedIdentityManagementLg [20x20/16z] {
+HT254G0X34HHefkb_uAHS7D__E6CatZMBbt6bw5Ui4VHSyvSCduAKPKeDjeXY9CknsX3S2obvYp9kGtYrOOv8U2fBr5GpLJb3TNcEePwyIo-4Eu1DI8YsUYg
+LcL6ccgqcVjdxhOfgr95ajiWQY1nxWAOf1d4YZllEs_S6K-GVbjHTxpP-uDlU_uVimsgQEeCVC76bpYABBo_Nm
+}
+
+!function AzureAdPrivilegedIdentityManagement($id, $name="Ad Privileged Identity Management", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement', $name, $tech)
+!endfunction
+!function AzureAdPrivilegedIdentityManagementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdPrivilegedIdentityManagementLg>', 'Ad Privileged Identity Management', $funcName, $content)
+!endfunction
+@enduml

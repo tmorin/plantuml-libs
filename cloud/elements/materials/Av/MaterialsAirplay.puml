@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAirplayLg [20x20/16z] pSZ50G9140J0wNNV_BEbWND_NZrBdeBPW23Kl583K2nMRE4PMJ4lFQNcIya7ougHQODF2Q8zZzKxa-Ur4B68INDLMYNK07Bc0m
+
+!function MaterialsAirplay($id, $name="Airplay", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsAirplay', $name, $tech)
+!endfunction
+!function MaterialsAirplayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAirplayLg>', 'Airplay', $funcName, $content)
+!endfunction
+@enduml

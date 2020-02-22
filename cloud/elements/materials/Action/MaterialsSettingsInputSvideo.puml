@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsInputSvideoLg [20x20/16z] {
+RP275SCm24Jl08Fgy_xRnef8pxVLw8245tY76gtt5leIIvdrCFCwYwH8HzMyrR5lCeAWHpZ1wCkIfHBGyq81rh9USvdJt8t8PrHyK0Di3ZcODHq2RsGt-6bR
+PgV3-bscBbcewv8jtm-ySUSG0NAliPEp3Ld5Dwvdrkn1WE6xvkmjoTx-pI1dvQzP_PtflzdV
+}
+
+!function MaterialsSettingsInputSvideo($id, $name="Settings Input Svideo", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsInputSvideo', $name, $tech)
+!endfunction
+!function MaterialsSettingsInputSvideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsInputSvideoLg>', 'Settings Input Svideo', $funcName, $content)
+!endfunction
+@enduml

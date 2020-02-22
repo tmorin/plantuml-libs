@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFolderSharedLg [20x20/16z] fT2r0S0W54NHBxZkFsrS7hJSAAT1Q2crHqwH9FUpOXYizHlZdNqDgeBcZJ_U3IqoSPmi456Oh5gnTRBahKzjC7kkZnrQaNkr1Qm5VnRQPRaFPRdF05DQQWS
+
+!function MaterialsFolderShared($id, $name="Folder Shared", $tech="")
+  CloudElement($id, 'materials/File/MaterialsFolderShared', $name, $tech)
+!endfunction
+!function MaterialsFolderSharedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFolderSharedLg>', 'Folder Shared', $funcName, $content)
+!endfunction
+@enduml

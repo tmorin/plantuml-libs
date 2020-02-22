@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureServerFarmLg [31x20/16z] {
+vP754GGn30IhlEJnAFzupy9ZUc-_n0W6QwCuR2i3IB8l9Iwx51o6kWUKeUvXK0HDMJdTkudxT7Cr4NVPTEwoF_O-hvjGdcvkudytD-d-vbWcBxANYMPt1TRR
+HEiD4-y-bWfl9hy
+}
+
+!function AzureServerFarm($id, $name="Server Farm", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerFarm', $name, $tech)
+!endfunction
+!function AzureServerFarmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureServerFarmLg>', 'Server Farm', $funcName, $content)
+!endfunction
+@enduml

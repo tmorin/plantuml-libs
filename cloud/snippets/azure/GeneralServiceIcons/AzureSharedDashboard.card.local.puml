@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the AzureSharedDashboard card
+include('elements/azure/GeneralServiceIcons/AzureSharedDashboard')
+AzureSharedDashboardCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

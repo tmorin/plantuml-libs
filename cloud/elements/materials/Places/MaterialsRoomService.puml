@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsRoomServiceLg [20x20/16z] jSk53O1050HHplrF_zNY3d5uySriznFblRfl5knjqW62lXuhetgwwymgwwrAxD9QUaxyacLEyXoQTc7cpbnCdGut-dNxsW
+
+!function MaterialsRoomService($id, $name="Room Service", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsRoomService', $name, $tech)
+!endfunction
+!function MaterialsRoomServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRoomServiceLg>', 'Room Service', $funcName, $content)
+!endfunction
+@enduml

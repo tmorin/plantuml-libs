@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotReportedStateLg [20x20/16z] {
+dT2t0GH10C90Ra5i_nM_z_vFuOIIdBii2UuDPFGGJhGltHNjsv6r3o-BUR0XZR-DxBktMTljlKKIQsqmThRhQXIeMryjgIbpShKwxYIvc9jzpgwXVLZWkq2l
+tcy1
+}
+
+!function AwsIotReportedState($id, $name="Iot Reported State", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotReportedState', $name, $tech)
+!endfunction
+!function AwsIotReportedStateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotReportedStateLg>', 'Iot Reported State', $funcName, $content)
+!endfunction
+@enduml

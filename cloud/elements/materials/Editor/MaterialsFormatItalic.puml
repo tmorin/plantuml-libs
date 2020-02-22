@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatItalicLg [20x20/16z] jSst5GCn30DGA38-O_zf7Jg9jUztZC0VZBtMsXEdnHzhE4nDkcnSUhm6Yab5fPme1hsX46uKFRENmocCUJMRyMVX9FRb9RVzu2aV
+
+!function MaterialsFormatItalic($id, $name="Format Italic", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatItalic', $name, $tech)
+!endfunction
+!function MaterialsFormatItalicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatItalicLg>', 'Format Italic', $funcName, $content)
+!endfunction
+@enduml

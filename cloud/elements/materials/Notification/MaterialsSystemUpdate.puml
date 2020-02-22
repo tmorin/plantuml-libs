@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSystemUpdateLg [20x20/16z] {
+ZP255O0m34I9FHpsdnQfU_lHndFJ3-0FV4mMsWx5lczaRVFjcBrjDmIs1K61YxVL_X1pctzvsxACs02N1I6syN5TXoIvSbsIrHEfJvhlLjSWryfhgh2QMkr_
+jFOl
+}
+
+!function MaterialsSystemUpdate($id, $name="System Update", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSystemUpdate', $name, $tech)
+!endfunction
+!function MaterialsSystemUpdateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSystemUpdateLg>', 'System Update', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsReportProblemLg [20x20/16z] {
+bO-35GH04CNM6gJ_Qi_svJd37_wbb2SLvuoFha9zK4b0qhth0FrEPSCTopSg3hGKPSIhAw0nAfHhspgxTMbiS9o5Tlv30Sm0D9t_EFLT_ycdXcExvqDG07mj
+1s0Vk_90tOsM1tBubIq
+}
+
+!function MaterialsReportProblem($id, $name="Report Problem", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsReportProblem', $name, $tech)
+!endfunction
+!function MaterialsReportProblemCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsReportProblemLg>', 'Report Problem', $funcName, $content)
+!endfunction
+@enduml

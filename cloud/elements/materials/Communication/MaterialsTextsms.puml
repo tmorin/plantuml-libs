@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTextsmsLg [20x20/16z] fSY54KD120L0O3Y_H_glDlRTRSUNLh5CyA-YOSJYDmMl2SZtR7fsyP86E8UWQRX0MfchKXYkn6mnMevbkC6pGtD88uv-LvL7w7TLQKwKxle
+
+!function MaterialsTextsms($id, $name="Textsms", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsTextsms', $name, $tech)
+!endfunction
+!function MaterialsTextsmsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTextsmsLg>', 'Textsms', $funcName, $content)
+!endfunction
+@enduml

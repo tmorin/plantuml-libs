@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRobomakerSimulationLg [20x20/16z] {
+ZOw5GGHG34EJHdhiF_2vuF2-reD_ubx8E-f6RD9tN7sn_8xfjWVX1OKEaFU-lAcUwTKt6a2HsKqkjUGePG_6evRLBXD7ngrsraZ0120kjUiAa41aEBTQbq2N
+PjHLHKQfdLmEim_DyfMRqEgc-JtYLn_Rhj9t63m3VW3VS08
+}
+
+!function AwsRobomakerSimulation($id, $name="Robomaker Simulation", $tech="")
+  CloudElement($id, 'aws/Robotics/AwsRobomakerSimulation', $name, $tech)
+!endfunction
+!function AwsRobomakerSimulationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRobomakerSimulationLg>', 'Robomaker Simulation', $funcName, $content)
+!endfunction
+@enduml

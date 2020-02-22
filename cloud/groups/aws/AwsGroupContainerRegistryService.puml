@@ -1,0 +1,18 @@
+@startuml
+sprite $AwsGroupContainerRegistryServiceLg [20x20/16z] bT250SCW50JGoidVV-4sVd71UJZrD4XUYGb0Av5BW2SHw3Iwm0ppEve64V3bQ3a62nDeI0k3ckoLUSzCnEZM2DfWNj4OLBdpS2Oul2tF--OFedOz37y
+
+!function AwsGroupContainerRegistryService($id, $name="Container Registry Service", $tech="")
+  CloudGroup($id, "AwsGroupContainerRegistryService", "<$AwsGroupContainerRegistryServiceLg>", $name, $tech)
+!endfunction
+skinparam Rectangle<<AwsGroupContainerRegistryService>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

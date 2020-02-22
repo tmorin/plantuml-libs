@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAdjustLg [20x20/16z] {
+VL053i0m21nIkGNI_xzsxYDjSOUXyuYPtWQ5kHlqDZEyg8WM1v-c4R9BWd4tKiMLGgYRh2vtPN5TMIrRXCWMKUggcAwqj5PMezf2UKkLjhnDS8viKMxG8veb
+cZdQxNk3ojzRLQNkJRzl1W
+}
+
+!function MaterialsAdjust($id, $name="Adjust", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsAdjust', $name, $tech)
+!endfunction
+!function MaterialsAdjustCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAdjustLg>', 'Adjust', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSpannerLg [20x20/16z] {
+TL070iGm2AgOGF__uHlgSPisYNjm569m6A21CGLFWnEwpXUi3jEhJHMuMoRRj-yDMipChg5R6quTrwKR2FcGblgL0BSfcnA80BArUfWHP4IoJ3qAOztQ14kU
+MLIUNQdmpCR-jTiV3ioLmruvbMHElxY_0W
+}
+
+!function GcpCloudSpanner($id, $name="Cloud Spanner", $tech="")
+  CloudElement($id, 'gcp/Databases/GcpCloudSpanner', $name, $tech)
+!endfunction
+!function GcpCloudSpannerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSpannerLg>', 'Cloud Spanner', $funcName, $content)
+!endfunction
+@enduml

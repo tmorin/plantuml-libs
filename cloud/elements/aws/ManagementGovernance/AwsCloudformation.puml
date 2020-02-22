@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCloudformationLg [20x20/16z] hS-t0S0W44FHIjBfzj_NaKpBjqclWZoHlOa0BIhQP3GDIM3aWwW8wkaxDeIev_YTn6P_8Hk3YMNk9YFuObPxL9Xk1xyj5hiHRroV_vP7kW4
+
+!function AwsCloudformation($id, $name="Cloudformation", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudformation', $name, $tech)
+!endfunction
+!function AwsCloudformationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudformationLg>', 'Cloudformation', $funcName, $content)
+!endfunction
+@enduml

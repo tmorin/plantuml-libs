@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLensLg [20x20/16z] VP253GH1549ldF7-gxrr8I7xub-1tmV6MiC5ZzfxXN_A5lC4zYgLULEEei5yWNtTJy9lDN0DsshbMbsNRUTQjwgcTiKFfKLhrjuu0vMLpbIp
+
+!function MaterialsLens($id, $name="Lens", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLens', $name, $tech)
+!endfunction
+!function MaterialsLensCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLensLg>', 'Lens', $funcName, $content)
+!endfunction
+@enduml

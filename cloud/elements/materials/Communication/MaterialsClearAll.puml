@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsClearAllLg [20x20/16z] Ow0RO4G0k10N3pSKyB3019bPu80Hjsci7730YaqCZpiGvZF3n5WGxk1YnEPWkW4
+
+!function MaterialsClearAll($id, $name="Clear All", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsClearAll', $name, $tech)
+!endfunction
+!function MaterialsClearAllCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsClearAllLg>', 'Clear All', $funcName, $content)
+!endfunction
+@enduml

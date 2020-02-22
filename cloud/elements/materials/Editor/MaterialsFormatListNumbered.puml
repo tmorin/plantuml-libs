@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatListNumberedLg [20x20/16z] fOwr0S1024Lns7_XU9fpUILyWnrGCJyg0NhuH_1zayADSB2ZK29sv_qyUMYStrHmkOC3iytPBVFkSW8
+
+!function MaterialsFormatListNumbered($id, $name="Format List Numbered", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatListNumbered', $name, $tech)
+!endfunction
+!function MaterialsFormatListNumberedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatListNumberedLg>', 'Format List Numbered', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLogoDcOsLg [16x20/16z] {
+JKi70eGm3Ce0alx_mySj5MtBZ2-0U08pJoCrexnbzKnN_YNOKfC_0v9sVU7NfiOGFulguWumIzDeV2ZmCT5f9WhmPJU3KgKlPlaAdkqqjPczXpn7LJ2gT0u3
+UqH4W9P-tyPaH8vJou-XJErQ_eoLfSktyP5F0_44-ICl
+}
+
+!function AzureLogoDcOs($id, $name="Logo Dc Os", $tech="")
+  CloudElement($id, 'azure/Companies/AzureLogoDcOs', $name, $tech)
+!endfunction
+!function AzureLogoDcOsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogoDcOsLg>', 'Logo Dc Os', $funcName, $content)
+!endfunction
+@enduml

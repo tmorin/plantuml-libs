@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDriveEtaLg [20x20/16z] {
+fOvL0eGX20PL-Eou_sctYFtV7NjK85oIa1KaSwL0ASMUjHYKsFGXId0APAtqTrJbwopPAVFtcSyQ-_pOOnqMnn7Y45dTIe74KKXBtrKqSGtL_ZunjtfJkkTe
+qMdY8fur8uOhtW
+}
+
+!function MaterialsDriveEta($id, $name="Drive Eta", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsDriveEta', $name, $tech)
+!endfunction
+!function MaterialsDriveEtaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDriveEtaLg>', 'Drive Eta', $funcName, $content)
+!endfunction
+@enduml

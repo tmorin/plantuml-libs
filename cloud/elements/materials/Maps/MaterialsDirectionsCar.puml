@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsCarLg [20x20/16z] {
+jOzL0WCW241LOc1n_zCkxB_rivy5xW_0PG7J2S60PAYWtWsyXZuXTWkcFYfi1zgl5jr_I6cNqP9aQsH9XirLkFi6EgZTbR1TADsPSkekiTfm9zDbMT_cxi3E
+F0pQYC4j0dhtCZS
+}
+
+!function MaterialsDirectionsCar($id, $name="Directions Car", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsCar', $name, $tech)
+!endfunction
+!function MaterialsDirectionsCarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsCarLg>', 'Directions Car', $funcName, $content)
+!endfunction
+@enduml

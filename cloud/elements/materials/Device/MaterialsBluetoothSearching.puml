@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBluetoothSearchingLg [20x20/16z] TT350S0W3010eZZiFstT6tWUSJT-07_ZY7_hRsHOhJuHKW37XUCJAGVW0j9rYTSRjSWQxYZ1XQstXMWfH5TwwGl94XJPC39oqUhndqNicUtTxXkOjx9lEdup
+
+!function MaterialsBluetoothSearching($id, $name="Bluetooth Searching", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBluetoothSearching', $name, $tech)
+!endfunction
+!function MaterialsBluetoothSearchingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBluetoothSearchingLg>', 'Bluetooth Searching', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsShopTwoLg [20x20/16z] {
+RSq55iGW34NH_9pWjl_LZhGulFejGYqmCsY9NOmno68gYeXrYscFUgjZZ34-sNepZvio5uT5bryB8C5h7kAg8Ker8eW_Z60FOxVDTP2uhnTjtJTMc_EFiNLJ
+Gd-R0lwtg7cE_faqLIVX67Rj2m
+}
+
+!function MaterialsShopTwo($id, $name="Shop Two", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsShopTwo', $name, $tech)
+!endfunction
+!function MaterialsShopTwoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsShopTwoLg>', 'Shop Two', $funcName, $content)
+!endfunction
+@enduml

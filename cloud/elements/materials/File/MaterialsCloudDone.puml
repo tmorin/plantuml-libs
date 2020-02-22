@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCloudDoneLg [20x20/16z] {
+fS_55GGW34NHe17azr_j27ROyvON3RtdGah1qLqq_B9uKUeOzNJEnOPL2rEIzGLiu67vx4aKKPCdYcDJ6-G4-2dfdpHmd_IhpUipkJ1fxB3zXqDe6HFz8QZJ
+kLOEjKXUEkvgckFVUNhg2m
+}
+
+!function MaterialsCloudDone($id, $name="Cloud Done", $tech="")
+  CloudElement($id, 'materials/File/MaterialsCloudDone', $name, $tech)
+!endfunction
+!function MaterialsCloudDoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCloudDoneLg>', 'Cloud Done', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudIotCoreLg [20x20/16z] {
+RL054i0W35ir_F_3M7FpR41TScm8SPpGFA4qIROJoL1lDtY5uMx33eoI8yeNgy4IiOfhR75AoSggx9Q7LxoBglYk0qTDOCjcrGvWXupvKx5oEJB1GQr6IOi9
+oosViy0TjQEUCxVarl6xsvU3BrUG5wV0oUc7-m4
+}
+
+!function GcpCloudIotCore($id, $name="Cloud Iot Core", $tech="")
+  CloudElement($id, 'gcp/InternetOfThings/GcpCloudIotCore', $name, $tech)
+!endfunction
+!function GcpCloudIotCoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudIotCoreLg>', 'Cloud Iot Core', $funcName, $content)
+!endfunction
+@enduml

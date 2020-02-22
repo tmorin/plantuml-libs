@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudNatLg [20x20/16z] {
+RP255SGm34FDoluB7yHGL1lwpqnRNAAHn4WASQnHbAcjaopDS6ROXfvEKT3_2Vvc29U24A9zTJQpJaE6VJgWMFkEHARkyLiQ6xunJVlqNOd87pccbcYp9KVD
+ZVorj_SPN6S5liuKGCxqRVPV
+}
+
+!function GcpCloudNat($id, $name="Cloud Nat", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudNat', $name, $tech)
+!endfunction
+!function GcpCloudNatCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudNatLg>', 'Cloud Nat', $funcName, $content)
+!endfunction
+@enduml

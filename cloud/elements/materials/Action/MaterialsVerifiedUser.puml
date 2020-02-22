@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVerifiedUserLg [20x20/16z] {
+TT1L0e0W44LHO49wzhzQyzbw_ppIxZ_FCRA_YIIRot9eq6AeQ5Y9gbsgj1ZRBRvRqtWQI5nei9FyPLn9Ey786ldOGKQBXMhpDu7gTi1eyo2GHRV6DcFOo1Yt
+NNR0zT9-OwhNco6k87Pdb1VAv1ulcF1wLprb0W
+}
+
+!function MaterialsVerifiedUser($id, $name="Verified User", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsVerifiedUser', $name, $tech)
+!endfunction
+!function MaterialsVerifiedUserCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVerifiedUserLg>', 'Verified User', $funcName, $content)
+!endfunction
+@enduml

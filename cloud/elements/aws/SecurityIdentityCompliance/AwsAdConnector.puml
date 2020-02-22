@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAdConnectorLg [20x20/16z] {
+NSu5WaGn309GGe7--rzuTwpwwfhWYuLRwyQbmZISP33tjG8ixAnnC37ZWoMSuz0y9YgoSFp3n8a0IFZwfbWscDg-BGBMpByQK7dSs1zhwOg8phQ9ObR7K9fl
+CQqOc5Ok6oPsX1CR2y0_
+}
+
+!function AwsAdConnector($id, $name="Ad Connector", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsAdConnector', $name, $tech)
+!endfunction
+!function AwsAdConnectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAdConnectorLg>', 'Ad Connector', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagementPointLg [20x20/16z] {
+pS_L0KCX44JHh0-p_TVxtEWW1xz_IEGfv7TpidTaF2t8SUZyjF9TJktoNqrKLJuDuUfkxk_VO0KC72ibM6Qc1iIMZjs2kxJQviwoF8Y8i6WETXzx1aTLHV2L
+nwFhsq9ZP-elNG4
+}
+
+!function AzureManagementPoint($id, $name="Management Point", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureManagementPoint', $name, $tech)
+!endfunction
+!function AzureManagementPointCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagementPointLg>', 'Management Point', $funcName, $content)
+!endfunction
+@enduml

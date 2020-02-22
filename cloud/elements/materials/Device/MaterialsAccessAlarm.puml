@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAccessAlarmLg [20x20/16z] {
+VL05eWOm1EPZpVsF-m9_nwOR-lJuHQ2saG9sAr_tpj3M527-suOfkldURXrg8p85-pGmevqDQPcy5eZ0H5YhkdJ3VmdvRs8zmqxmAU4_4IWkPRifQhZPO1gk
+jFM9iAKhmqbNPn97ZZ9geIOqQXXr3VuW3YifDykauLD5TEO5wiaqTvloT5Q0wSlx1G
+}
+
+!function MaterialsAccessAlarm($id, $name="Access Alarm", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsAccessAlarm', $name, $tech)
+!endfunction
+!function MaterialsAccessAlarmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAccessAlarmLg>', 'Access Alarm', $funcName, $content)
+!endfunction
+@enduml

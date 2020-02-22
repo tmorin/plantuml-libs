@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudCodeForIntellijLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudCodeForIntellij($id, $name="Cloud Code For Intellij", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudCodeForIntellij', $name, $tech)
+!endfunction
+!function GcpCloudCodeForIntellijCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudCodeForIntellijLg>', 'Cloud Code For Intellij', $funcName, $content)
+!endfunction
+@enduml

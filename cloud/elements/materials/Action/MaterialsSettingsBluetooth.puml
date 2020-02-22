@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsBluetoothLg [20x20/16z] {
+PSq73aGX24NHHp4eyCF-LpkzM6xwKG3VhE78BiKSFQroHdK1-h0PgOUW6_LBLknTeXDcp4TFMh1g8q2hT2E9gf2DXdjVy7cn6utW7_63q3lxcCm8i7ZIcjL1
+C3y8Uj0PDOOgkD5agUWTcc-x0m
+}
+
+!function MaterialsSettingsBluetooth($id, $name="Settings Bluetooth", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsBluetooth', $name, $tech)
+!endfunction
+!function MaterialsSettingsBluetoothCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsBluetoothLg>', 'Settings Bluetooth', $funcName, $content)
+!endfunction
+@enduml

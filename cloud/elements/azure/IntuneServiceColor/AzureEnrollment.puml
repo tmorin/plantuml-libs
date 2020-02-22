@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureEnrollmentLg [20x20/16z] {
+XSrL0iCW44NHGKPuPF_hBIC9dxrjx62Ap7HXFoTqmifK3Djx9a5lvcq-9bNvVxC8Eg0V0KjOi7TPd51l2Aj3sHC9Kyi1kQQ-QBZADP_Ls6SUSbk-Dq-QZcaB
+C9cj4RNnMfzJJjpyeUA1Y8RU_LuZ7x_JqfgeYoKfA1eip6ljZBwQuOdm0m
+}
+
+!function AzureEnrollment($id, $name="Enrollment", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureEnrollment', $name, $tech)
+!endfunction
+!function AzureEnrollmentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureEnrollmentLg>', 'Enrollment', $funcName, $content)
+!endfunction
+@enduml

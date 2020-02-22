@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAugmentedAiLg [20x20/16z] {
+PSpLOS0m54FHZuXUzX-uCfHlqCUGh_pL9Fzu3Weo-6LL0oB8Hr-caem4Yg_H4fS9uB70wu4J4ziCDWLa4Z8rANibGyMFjZtUXzDYZCJlAuziKQHgIceQUvZn
+FQysGe7UPhZMIkE7Z_VqCNb2MR2IQs6OcJ4pnzhKcl5jHPuoS-poLxL_c0y
+}
+
+!function AwsAugmentedAi($id, $name="Augmented Ai", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsAugmentedAi', $name, $tech)
+!endfunction
+!function AwsAugmentedAiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAugmentedAiLg>', 'Augmented Ai', $funcName, $content)
+!endfunction
+@enduml

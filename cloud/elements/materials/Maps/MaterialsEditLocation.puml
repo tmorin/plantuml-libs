@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsEditLocationLg [20x20/16z] {
+bS-53GCn40LHCyet_LSRMEM7wKRePtPVyY7u9obZhL7kDNIi7cwhsXcs2StB8kTQQ11bvKmbn0f5Lh510-hTkghLiWJ96v5aVZB7TgRfdSfSoX9RQ8txZoJk
+Jhl_YNwXmeGPt6DfhUIUozdjxGW
+}
+
+!function MaterialsEditLocation($id, $name="Edit Location", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsEditLocation', $name, $tech)
+!endfunction
+!function MaterialsEditLocationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEditLocationLg>', 'Edit Location', $funcName, $content)
+!endfunction
+@enduml

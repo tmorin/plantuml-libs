@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistFaultTolerantLg [20x20/16z] {
+ZOw50KCn24JXXEm_SVlTxKNnIwuWHbIUASy-HKm9M7ra9TYp-jGGjAsDBp96yDulqRFl9tTyxvVOwbF_kbfkzAaZPVdGBmlTxdsbYPGWLkTBpNGc5MQiz1OO
+MRcwwEXz8Qs-PfBgTiFiIY_W3m
+}
+
+!function AwsTrustedAdvisorChecklistFaultTolerant($id, $name="Trusted Advisor Checklist Fault Tolerant", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant', $name, $tech)
+!endfunction
+!function AwsTrustedAdvisorChecklistFaultTolerantCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTrustedAdvisorChecklistFaultTolerantLg>', 'Trusted Advisor Checklist Fault Tolerant', $funcName, $content)
+!endfunction
+@enduml

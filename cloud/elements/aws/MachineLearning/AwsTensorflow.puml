@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTensorflowLg [20x20/16z] {
+fOxL0SKW00EVDBh_ldNxv_0ZI8U9kUAy5Qb4H1u5DrBgHsPRaN3z3i9T_HDpyZ_SFpqj4XeWp8IFQxcr18UZjvcqxVhCYG4ZXGXrVo_2Yl9yq72tq3xfBPbk
+sds8r4hfC0i
+}
+
+!function AwsTensorflow($id, $name="Tensorflow", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsTensorflow', $name, $tech)
+!endfunction
+!function AwsTensorflowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTensorflowLg>', 'Tensorflow', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDialerSipLg [20x20/16z] {
+ZSe5biKm34DHotB3YVQ_sfdFJAyDtMFxEJ22kvC11mDxewIsksLYOqfnjh6pb1ZCcNlpAItkpYrsSx1zw9B2B3Ptq8vbgS3kYsSoj6nFnUGpvkvFXbfzVmI1
+2thjD1IjqNYTp3CNxGkx5arFPeZSbqIx3qx2VkuV
+}
+
+!function MaterialsDialerSip($id, $name="Dialer Sip", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsDialerSip', $name, $tech)
+!endfunction
+!function MaterialsDialerSipCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDialerSipLg>', 'Dialer Sip', $funcName, $content)
+!endfunction
+@enduml

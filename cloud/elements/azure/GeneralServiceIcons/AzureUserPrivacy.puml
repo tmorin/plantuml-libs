@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureUserPrivacyLg [14x20/16z] ROw50KGn24FHiF_4rN3wKtsuY6W0Bgq4gXeDc_AHz4I6j3DnNVIQjSDCz-lkwmMGwudQJJOXn1Q0X42jaAP2Nf7u9n5815-A27hUixv90hTn8u7otNq2
+
+!function AzureUserPrivacy($id, $name="User Privacy", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureUserPrivacy', $name, $tech)
+!endfunction
+!function AzureUserPrivacyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUserPrivacyLg>', 'User Privacy', $funcName, $content)
+!endfunction
+@enduml

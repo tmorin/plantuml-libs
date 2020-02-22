@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotThingsGraphLg [20x20/16z] {
+fSx73SH034DHG0oY-ozuCutrsV_u9aZ7xRphpOL2oAPoDP3umyZaOE1LRGc0iYni3GJVhpXJZ18g6u1psZioxtkT8dvm8vOEKuw4h8-sb5QokrzHL6_LAFVI
+cIetUm8
+}
+
+!function AwsIotThingsGraph($id, $name="Iot Things Graph", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotThingsGraph', $name, $tech)
+!endfunction
+!function AwsIotThingsGraphCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotThingsGraphLg>', 'Iot Things Graph', $funcName, $content)
+!endfunction
+@enduml

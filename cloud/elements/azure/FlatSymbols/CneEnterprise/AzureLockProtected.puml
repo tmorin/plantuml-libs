@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLockProtectedLg [16x20/16z] {
+bSs53GGn44FH38J6xh_Usy0nVu7rH4v7Ma6YQbfPC7eFXarAiCWnXI73XJNDAlEOHbisjZ4Tkgo8CG5Pbc6nWElC4IOT97OaEb-6Md73SPnlRUFzfYRIRWqp
+_cLttWLmrNbNFm4
+}
+
+!function AzureLockProtected($id, $name="Lock Protected", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLockProtected', $name, $tech)
+!endfunction
+!function AzureLockProtectedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLockProtectedLg>', 'Lock Protected', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureInventoryLicenseLg [20x20/16z] {
+TT25WG0n20J0eBjm_VVxX7URqpXmH8_Ac_az8aTGA1R7_cHHjHuoYS6SYzrsakPV62XIzEvwq-re4wQtwnih3weKl0aki3tBXDFt51QVnwFqUr_VFfFQFgwQ
+lbsRqyVC37VqhjrOBdfCtvpn5hDTx0fp1UGzjunsm8bkUwy1eb4PMuEjpGfYMhVzGLrCptVP2fpla2SWvpyl
+}
+
+!function AzureInventoryLicense($id, $name="Inventory License", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureInventoryLicense', $name, $tech)
+!endfunction
+!function AzureInventoryLicenseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureInventoryLicenseLg>', 'Inventory License', $funcName, $content)
+!endfunction
+@enduml

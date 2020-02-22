@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureNetworkWatcherLg [20x20/16z] {
+PSk7hMH1449He81wat_2gvxUxw_yGU0ZfRiryPNZZkFe6s462DKFdDeLwJZXjGYkVGROE2c4vpqIpBrkToD97KqlRP9zQZVsdkT69DNo_Is0L0Jl5c82S4t9
+CygcdkZOq7O4RwGQnpoo1FY9OfnQWcViqyoHCzyjEyHDp-l9QBg33zhNu-vkz4NF2Y29poxzh7y9_m
+}
+
+!function AzureNetworkWatcher($id, $name="Network Watcher", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureNetworkWatcher', $name, $tech)
+!endfunction
+!function AzureNetworkWatcherCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNetworkWatcherLg>', 'Network Watcher', $funcName, $content)
+!endfunction
+@enduml

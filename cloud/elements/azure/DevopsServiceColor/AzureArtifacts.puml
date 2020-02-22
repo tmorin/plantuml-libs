@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureArtifactsLg [20x20/16z] lSe53i1024HHrh7xNxSoTO_snvWNYAZ8ageMGXLpjheOridGpnO2R6aqLbKpgRkA8LXhCmxWxZfSB3BZzMypTBA2lcsJUnEOrdqz
+
+!function AzureArtifacts($id, $name="Artifacts", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureArtifacts', $name, $tech)
+!endfunction
+!function AzureArtifactsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureArtifactsLg>', 'Artifacts', $funcName, $content)
+!endfunction
+@enduml

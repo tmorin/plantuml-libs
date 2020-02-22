@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMonitorRunningAppsLg [25x20/16z] {
+TSm7iiGm28DX0SO8nVU_xYifs_TBSVbdm6wkLnjsjLXFjCuWmvCwGumOuVlkEMIhfN94nqCmAjqigCYOi765acCtvSWi-X520Unfz8Gpl6mFiu4X1vBPWFs_
+Us31MZJNy7Fe5PBqhYeyX-8iHsno3Fc12-Ty81DWpMst_WEQE0p5c8S4OBNe02otn0FlRL8iIY_tYy2OhBIN-tPye2_ta1mV_G8
+}
+
+!function AzureMonitorRunningApps($id, $name="Monitor Running Apps", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps', $name, $tech)
+!endfunction
+!function AzureMonitorRunningAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMonitorRunningAppsLg>', 'Monitor Running Apps', $funcName, $content)
+!endfunction
+@enduml

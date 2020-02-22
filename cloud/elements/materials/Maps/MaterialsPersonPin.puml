@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPersonPinLg [20x20/16z] {
+RSq30iGm443HM8Ez_sstCN_z6eXtKYt9GYenZJYfREQtPQP5O-9XIGeXqsu-l_dTGduBkx6Jql6n1yQ8snxajVpIdePnVfOCTqkocqpTqDcMmsvRnJIjH5eK
+jDPwohj_BvbwbjcACxlJsHy
+}
+
+!function MaterialsPersonPin($id, $name="Person Pin", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsPersonPin', $name, $tech)
+!endfunction
+!function MaterialsPersonPinCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPersonPinLg>', 'Person Pin', $funcName, $content)
+!endfunction
+@enduml

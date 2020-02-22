@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTextureLg [20x20/16z] bT030W0X4030MwVz_tFFTgx9DVy3ClGbC8sTYOf2Jp4DNSaZikt8PPm7Lngvdf2kb7Wyzq0H1gChZQ6U0AwauxcOzrJcZnbFdpzixFmC7G
+
+!function MaterialsTexture($id, $name="Texture", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTexture', $name, $tech)
+!endfunction
+!function MaterialsTextureCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTextureLg>', 'Texture', $funcName, $content)
+!endfunction
+@enduml

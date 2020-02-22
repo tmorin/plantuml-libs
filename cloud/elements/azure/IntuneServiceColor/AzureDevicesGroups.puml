@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDevicesGroupsLg [20x20/16z] {
+ZS_50KCX44NHBp3oXlxRnIsUYvyTZ9Qmma8Erm5jCGci5Dm1Nad9V3RgDV_3f0Q-mPC09KymsqpQoHZ6sNo9w9lnDwDYAZb5RbfzrT-RD29SRaJJZjd5xusU
+JHhnRghMMdOAGWq9
+}
+
+!function AzureDevicesGroups($id, $name="Devices Groups", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureDevicesGroups', $name, $tech)
+!endfunction
+!function AzureDevicesGroupsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDevicesGroupsLg>', 'Devices Groups', $funcName, $content)
+!endfunction
+@enduml

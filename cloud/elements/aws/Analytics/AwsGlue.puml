@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGlueLg [20x20/16z] {
+VSg54GD13CNG0yENh_zwWzuDHyDln4mplk3VBoq7LqyHUqoxOsmP0RHTKRw7xPcYhKgRURZPbZ2C2rro4z1MSW1FdgmY889xRRZa3ElIFTyDTzvDNputytUh
+3AhjgEVQlk3n1Sy
+}
+
+!function AwsGlue($id, $name="Glue", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsGlue', $name, $tech)
+!endfunction
+!function AwsGlueCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGlueLg>', 'Glue', $funcName, $content)
+!endfunction
+@enduml

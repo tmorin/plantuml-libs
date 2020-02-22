@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBluetoothAudioLg [20x20/16z] TT350S0W3010eZZiFstT6tWUSJT-07_ZY7_hRsHOhJuHKW37XUCJAGVW0j9rYTSRjSWQxYZ1XQstXMWfH5TwwGl94XJPC39oqUhndqNicUtTxXkOjx9lEdup
+
+!function MaterialsBluetoothAudio($id, $name="Bluetooth Audio", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsBluetoothAudio', $name, $tech)
+!endfunction
+!function MaterialsBluetoothAudioCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBluetoothAudioLg>', 'Bluetooth Audio', $funcName, $content)
+!endfunction
+@enduml

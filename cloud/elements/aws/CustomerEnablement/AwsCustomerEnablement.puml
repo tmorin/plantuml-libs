@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCustomerEnablementLg [20x20/16z] {
+RT350GCX443HjL7IVxrXTFKV7yxosVfeqaQSaGVhD55LYNY6PMhWU3K28CSs1cH6rp825fng63QKM948XR1jfEdJZkDYQYQeWdmrHc0xtCwWj25WCspWjE6J
+r0hx3TSipJ0vZRZglrgtHzC--WC
+}
+
+!function AwsCustomerEnablement($id, $name="Customer Enablement", $tech="")
+  CloudElement($id, 'aws/CustomerEnablement/AwsCustomerEnablement', $name, $tech)
+!endfunction
+!function AwsCustomerEnablementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCustomerEnablementLg>', 'Customer Enablement', $funcName, $content)
+!endfunction
+@enduml

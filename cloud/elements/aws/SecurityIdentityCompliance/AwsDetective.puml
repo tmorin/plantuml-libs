@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDetectiveLg [20x20/16z] {
+RSs5bSCm54JH1Gt5_VSRVSy9vvcl1NdaM_c2-OAND47WpOh6e58hWacqdDee5a1Y5MjS6pV1oROcY0GprPB0lQOH0XG4oZSJ4qXak6x6VJD82C3Dj2-6XaBM
+0k9_-VnXZ4qsiH8Ofnt7jcvaHzPOyLPIUyVQ6ru1
+}
+
+!function AwsDetective($id, $name="Detective", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsDetective', $name, $tech)
+!endfunction
+!function AwsDetectiveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDetectiveLg>', 'Detective', $funcName, $content)
+!endfunction
+@enduml

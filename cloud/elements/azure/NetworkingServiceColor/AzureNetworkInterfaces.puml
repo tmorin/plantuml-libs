@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureNetworkInterfacesLg [18x20/16z] {
+TT050WGX50BGoG_s_M-xYsm7apxR-CYw-0lE0B6jbZncEcFV0mHGXcF1ksmIFaKZgqcaDbDv7Taoe-zzd3ZFJz5uvAiSXriy9U934XFVX3steZtjVoKiX4Gh
+fDk4slXy0BJSiaQrAC-TM9o7N
+}
+
+!function AzureNetworkInterfaces($id, $name="Network Interfaces", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureNetworkInterfaces', $name, $tech)
+!endfunction
+!function AzureNetworkInterfacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNetworkInterfacesLg>', 'Network Interfaces', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcInternetGatewayLg [20x20/16z] {
+RP07ZWGW30CXiUV_JpuPRdleZ9HYhpkgfQxrDXei6Vf1jgdxAhmlGgy8SQ23zYEVV7ATQDicEPBpt1AGCpcpaf7QgpZPg7POSYPNc5lwPjB4fjZYcr5P7wou
+FSDbvDrNcwcmmakUF9YycZsTlFy3
+}
+
+!function AwsVpcInternetGateway($id, $name="Vpc Internet Gateway", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcInternetGateway', $name, $tech)
+!endfunction
+!function AwsVpcInternetGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcInternetGatewayLg>', 'Vpc Internet Gateway', $funcName, $content)
+!endfunction
+@enduml

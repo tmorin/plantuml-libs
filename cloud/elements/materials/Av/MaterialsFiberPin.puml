@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFiberPinLg [20x20/16z] {
+fP150WDH24DngF1p_zFMtJlpbcWIceNw7RehoGfth6HN6_UryQxMOURBzaHwL_IX9YJaQpOOXSkfniPshB6UQyHIXve8dMkwRXngMkTQ1833ZqH4_w7lsTkh
+36Qn1G
+}
+
+!function MaterialsFiberPin($id, $name="Fiber Pin", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFiberPin', $name, $tech)
+!endfunction
+!function MaterialsFiberPinCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFiberPinLg>', 'Fiber Pin', $funcName, $content)
+!endfunction
+@enduml

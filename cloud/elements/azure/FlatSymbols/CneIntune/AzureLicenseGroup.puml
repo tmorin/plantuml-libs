@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLicenseGroupLg [20x20/16z] {
+NOy5OiL020KNbeVb_lSjqlRBn2Se2TyzYhgT0Xb_nzoedAJXdOwJk8VfxvYpdQH7XDSnZs1aEOFCqPJhE1Vx1t2gE8G4P357nuqpNTomzLmotPfuJ9pln9KR
+oht5RVB44GaXa4z6g63ZQfNh0gX2mr3UgHmUDpL88A2MEN6XRgvm3wcVHkV5LPmls1Ztoy79zCiH7zvIFm
+}
+
+!function AzureLicenseGroup($id, $name="License Group", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureLicenseGroup', $name, $tech)
+!endfunction
+!function AzureLicenseGroupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLicenseGroupLg>', 'License Group', $funcName, $content)
+!endfunction
+@enduml

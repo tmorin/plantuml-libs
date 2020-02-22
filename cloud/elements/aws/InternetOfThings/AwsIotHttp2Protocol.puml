@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotHttp2ProtocolLg [20x20/16z] lP370GCm308526V_ZOELtdyvztDNGVs0KB0VdGsvdd0sFhkz_zdft-xtMt0FkPsNxrWQ9u33hEfnJKbefOKS6PU6B35khd1SWq1nBf0DcxUmEldWWiZ7EFC8
+
+!function AwsIotHttp2Protocol($id, $name="Iot Http2 Protocol", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotHttp2Protocol', $name, $tech)
+!endfunction
+!function AwsIotHttp2ProtocolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotHttp2ProtocolLg>', 'Iot Http2 Protocol', $funcName, $content)
+!endfunction
+@enduml

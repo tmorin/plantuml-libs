@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeepLearningContainersLg [20x20/16z] {
+hO_L0KCn30CBqKdE_li-vj_sWcQx_qoSkw9Y8L8N7P9inCNjIrfBkQNlhe0SDJUXJHa1w8iilCMQ5KUHifPWGvJRglEb1RAyuL1bhr5Al_pshsj-igXs9G94
+7YCdrV_12
+}
+
+!function AwsDeepLearningContainers($id, $name="Deep Learning Containers", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsDeepLearningContainers', $name, $tech)
+!endfunction
+!function AwsDeepLearningContainersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeepLearningContainersLg>', 'Deep Learning Containers', $funcName, $content)
+!endfunction
+@enduml

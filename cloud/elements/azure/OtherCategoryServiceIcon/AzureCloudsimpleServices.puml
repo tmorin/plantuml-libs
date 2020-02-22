@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCloudsimpleServicesLg [20x20/16z] {
+jO-55GD024CV5cJ_WHkeBT2UtqSZ_nXgfihJtVH5F014L4ztsg4ZI98YnZ87NDLosdZ1p-qkmJJUsGou5Dx3u0pzCi9iuab21VpJKXIpFikQxdzF71CZ37Qt
+sTXBgRmWiF-juXzfjhtHsrL-Fnu
+}
+
+!function AzureCloudsimpleServices($id, $name="Cloudsimple Services", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureCloudsimpleServices', $name, $tech)
+!endfunction
+!function AzureCloudsimpleServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCloudsimpleServicesLg>', 'Cloudsimple Services', $funcName, $content)
+!endfunction
+@enduml

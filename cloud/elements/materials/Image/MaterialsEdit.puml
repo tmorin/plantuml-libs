@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsEditLg [20x20/16z] jSk52S1050JHBxjnwR_Q27AAHMxm1oElSgs8sr2YZljU8DJ6VVLYl90PhVUe9UqRAbhPYhmcGQHeDOa2Bgyw0G
+
+!function MaterialsEdit($id, $name="Edit", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsEdit', $name, $tech)
+!endfunction
+!function MaterialsEditCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEditLg>', 'Edit', $funcName, $content)
+!endfunction
+@enduml

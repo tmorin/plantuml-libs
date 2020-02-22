@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsStorageGateway element
+include('elements/aws/Storage/AwsStorageGateway')
+AwsStorageGateway('element', 'Storage Gateway', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneManagedAppLg [26x20/16z] {
+RO-50S0W30I9s_xprhqvdEWFv1OSuFd5OnaEcFKX9PRXXFaZje6q63kCo4VBqmAo09s51L7uOzb4cJAhCGi-BL8PaRNl-h9aCbcc4MVA9ni97Tih6qSmQOGI
+HSYdZbjKXVc_pb8-j_rjGRvvrMamGeVE04PWRWrkC01ROCm
+}
+
+!function AzureIntuneManagedApp($id, $name="Intune Managed App", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneManagedApp', $name, $tech)
+!endfunction
+!function AzureIntuneManagedAppCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneManagedAppLg>', 'Intune Managed App', $funcName, $content)
+!endfunction
+@enduml

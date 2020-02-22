@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2HighMemoryInstanceLg [20x20/16z] {
+ZL07WWD12081___ZkoJR-pBLhW104Pgl4Iu6qkyQD78dxGoNDNgjK0PA8LPWL6Swq5kT2QM9OO4as15WIaYrqB8urb3KbVYd6sierMN5eswCTPaegMWCDLPW
+HoUzl9xZX8CJhiuvFUF-7m
+}
+
+!function AwsEc2HighMemoryInstance($id, $name="Ec2 High Memory Instance", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2HighMemoryInstance', $name, $tech)
+!endfunction
+!function AwsEc2HighMemoryInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2HighMemoryInstanceLg>', 'Ec2 High Memory Instance', $funcName, $content)
+!endfunction
+@enduml

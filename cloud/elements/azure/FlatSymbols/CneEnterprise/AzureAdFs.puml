@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAdFsLg [16x20/16z] {
+bOxLWKKn20Kt1ZdIVxllkdtkH2S2q2Vnj-EBURgueykpxU2-F_3b9__s_3fQURiwykqPLdkSdJRAxIELgN7LDxjG2bJF-YlC23fNvvnZh9ePLDlkQwF68CSG
+YiMUPYr0gNJONAy9S1lY0W
+}
+
+!function AzureAdFs($id, $name="Ad Fs", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureAdFs', $name, $tech)
+!endfunction
+!function AzureAdFsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdFsLg>', 'Ad Fs', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAddAPhotoLg [20x20/16z] {
+RP255GGX34JZEEc_stl8hSygFnu0G7X9ChvPUJAps88ncQeQBvPJwJcB-51T454h4walc5AIcOzYgNveb2IXv5vCDBRfEvXQzKIpXU4-sXZfAu76oA0N5kUx
+8DQJ6OIHYZ6VBCoeHbXEbX5ZgmfyvXl1G0YKhymZ8qdU_MtclOxcjX_bteRw-hGmrq0t8Npf1m
+}
+
+!function MaterialsAddAPhoto($id, $name="Add A Photo", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsAddAPhoto', $name, $tech)
+!endfunction
+!function MaterialsAddAPhotoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAddAPhotoLg>', 'Add A Photo', $funcName, $content)
+!endfunction
+@enduml

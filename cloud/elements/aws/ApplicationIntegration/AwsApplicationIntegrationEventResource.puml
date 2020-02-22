@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsApplicationIntegrationEventResourceLg [20x20/16z] {
+ZL070WCn2185-lyNjxszBo7JhSX_ACQ7CU5JcMLuV6QT4G5ZVEvqkke2LnseF_AWawgAtkjoAY7kTAvH1sFHnTeTjUhogaFe73lMm5YZzhtG9ENZ71o0eoxw
+E81VEBtZ_WS
+}
+
+!function AwsApplicationIntegrationEventResource($id, $name="Application Integration Event Resource", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsApplicationIntegrationEventResource', $name, $tech)
+!endfunction
+!function AwsApplicationIntegrationEventResourceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsApplicationIntegrationEventResourceLg>', 'Application Integration Event Resource', $funcName, $content)
+!endfunction
+@enduml

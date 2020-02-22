@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudVpnLg [20x20/16z] {
+RL054i0m2CEJ_tzuHe-RPTeMYCW5NP21rS1a5HK7jKg3DqINWGsu9N4LvlI9E9ad0MwpWiH1SoD8x_8utvbW5SkR1YHT928plFVmj-SuUui4fbVomt7NWaiB
+xQuPe_d7sty6zwowx9OfWCxqB_iT
+}
+
+!function GcpCloudVpn($id, $name="Cloud Vpn", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudVpn', $name, $tech)
+!endfunction
+!function GcpCloudVpnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudVpnLg>', 'Cloud Vpn', $funcName, $content)
+!endfunction
+@enduml

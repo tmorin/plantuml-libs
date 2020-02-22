@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGpsOffLg [20x20/16z] {
+PT250KCX30JGY-2Nl_-sLQI2yt2mWWZ-GYcVFNbcQqtbK7T8lSZeQQlJeQPgEQhiYU7lbes5YMKiP9hJCfmJStzDj31ij510IgDYex8LcRPGsOi06eQD5hRE
+sAZpCebsy4sGEYQMou65aLzlO-V1rEFz1zu5MtN-rQQ_F_t_-pi
+}
+
+!function MaterialsGpsOff($id, $name="Gps Off", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsGpsOff', $name, $tech)
+!endfunction
+!function MaterialsGpsOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGpsOffLg>', 'Gps Off', $funcName, $content)
+!endfunction
+@enduml

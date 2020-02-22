@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDeviceHealthLg [31x20/16z] {
+VP95WaKX30JZqjp_lZF_kTSEgeE6nDuHai8x9OQE5x9XXg0tygIrv4lNY0-j62tlEf7mEMW_bEAW1INTJ4I67wFve7zHSXWHD_o77QlvLybTJ3xYlBVzP-Tz
+0_RBdNKD02tp0NwvizOViioW-A8FA63qhYcIBlhhIquVcgv-_j1pEvIVXqBVpVG7
+}
+
+!function AzureDeviceHealth($id, $name="Device Health", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceHealth', $name, $tech)
+!endfunction
+!function AzureDeviceHealthCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDeviceHealthLg>', 'Device Health', $funcName, $content)
+!endfunction
+@enduml

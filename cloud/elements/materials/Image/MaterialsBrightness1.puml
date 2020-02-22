@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBrightness1Lg [20x20/16z] VP253GH1549ldF7-gxrr8I7xub-1tmV6MiC5ZzfxXN_A5lC4zYgLULEEei5yWNtTJy9lDN0DsshbMbsNRUTQjwgcTiKFfKLhrjuu0vMLpbIp
+
+!function MaterialsBrightness1($id, $name="Brightness1", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsBrightness1', $name, $tech)
+!endfunction
+!function MaterialsBrightness1Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBrightness1Lg>', 'Brightness1', $funcName, $content)
+!endfunction
+@enduml

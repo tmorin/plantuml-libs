@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsClosedCaptionLg [20x20/16z] fP230G0n34L_QcV_QSysNjqu-8VK2sJ_bNb1xZuLhr3dVzaefLFIIfay_daYWdDeZZ3_cUIIXOikdV_jRVSntkIthstVWt_K
+
+!function MaterialsClosedCaption($id, $name="Closed Caption", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsClosedCaption', $name, $tech)
+!endfunction
+!function MaterialsClosedCaptionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsClosedCaptionLg>', 'Closed Caption', $funcName, $content)
+!endfunction
+@enduml

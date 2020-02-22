@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTextFieldsLg [20x20/16z] jSp50S0m30D0DJ64lV-qPNuMxcbBmYial13QRy4sOR-ngcRBgieu4rFSYGaSpVpvnlleSQEKckMavnlWiX5mlNN9_3St2ZJTH1r-C
+
+!function MaterialsTextFields($id, $name="Text Fields", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsTextFields', $name, $tech)
+!endfunction
+!function MaterialsTextFieldsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTextFieldsLg>', 'Text Fields', $funcName, $content)
+!endfunction
+@enduml

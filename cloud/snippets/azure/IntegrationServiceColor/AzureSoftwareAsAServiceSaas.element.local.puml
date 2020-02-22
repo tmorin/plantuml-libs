@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureSoftwareAsAServiceSaas element
+include('elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas')
+AzureSoftwareAsAServiceSaas('element', 'Software As A Service Saas', 'an optional tech field')
+@enduml

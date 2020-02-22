@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureDiagnosticSettingsLg [18x20/16z] dSx50SGm34HH3Rd_ZXV3dFpZCqZCeXPnbjBcnKjf1s8lXLn82WjHLIPY6uHZknC22Ca2yvV-dVjNuz-B3Q6bABqiUYR2ab1l
+
+!function AzureDiagnosticSettings($id, $name="Diagnostic Settings", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureDiagnosticSettings', $name, $tech)
+!endfunction
+!function AzureDiagnosticSettingsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDiagnosticSettingsLg>', 'Diagnostic Settings', $funcName, $content)
+!endfunction
+@enduml

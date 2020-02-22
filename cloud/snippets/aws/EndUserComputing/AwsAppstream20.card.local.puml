@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the AwsAppstream20 card
+include('elements/aws/EndUserComputing/AwsAppstream20')
+AwsAppstream20Card('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

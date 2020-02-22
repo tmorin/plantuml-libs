@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsRdsInstanceAltLg [20x20/16z] {
+lL350GH121k8zT_nmM_jVSae3fqNEZWF83d5Xt1aJ5C22IrL8tDaMmgaVNLIeXOhfocDx1AeXeEH0GNCUSrXorBw9WkrlCease2lighgEbrNsGL_b7tDz6ls
+Fm
+}
+
+!function AwsRdsRdsInstanceAlt($id, $name="Rds Rds Instance Alt", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsRdsInstanceAlt', $name, $tech)
+!endfunction
+!function AwsRdsRdsInstanceAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsRdsInstanceAltLg>', 'Rds Rds Instance Alt', $funcName, $content)
+!endfunction
+@enduml

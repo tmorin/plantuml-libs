@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRoboticsLg [20x20/16z] {
+RT050eGm34HHh1dX_lTTqYpEnn_UuRFnKHAOOQzjE54Lgp9VwMfeBRf5ckmlIun6wMhUg0KIophbHRdIOGGe82wc1IsuO8xTrXKp9KlBSXfdz7VE5pEguD-y
+PguEkwAH1lQkOpLEZpRxw0S
+}
+
+!function AwsRobotics($id, $name="Robotics", $tech="")
+  CloudElement($id, 'aws/Robotics/AwsRobotics', $name, $tech)
+!endfunction
+!function AwsRoboticsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRoboticsLg>', 'Robotics', $funcName, $content)
+!endfunction
+@enduml

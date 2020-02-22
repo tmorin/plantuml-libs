@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudShellLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudShell($id, $name="Cloud Shell", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudShell', $name, $tech)
+!endfunction
+!function GcpCloudShellCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudShellLg>', 'Cloud Shell', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpDedicatedInterconnect element
+include('elements/gcp/Networking/GcpDedicatedInterconnect')
+GcpDedicatedInterconnect('element', 'Dedicated Interconnect', 'an optional tech field')
+@enduml

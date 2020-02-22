@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureImportGenericLg [16x20/16z] {
+XStL0KKX30FGjZWaxB_jq-l6-Ql6WxDEBu8IPf7mmY0pHKVOrWtafXQpEDMpCDUwhwsukOvgfXu8_xhZXvrPV_Mgx6fM-zKbVMGowVP_3O_vit6D6ZOgFBW1
+_mO
+}
+
+!function AzureImportGeneric($id, $name="Import Generic", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureImportGeneric', $name, $tech)
+!endfunction
+!function AzureImportGenericCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureImportGenericLg>', 'Import Generic', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsWbIridescentLg [20x20/16z] bT030WGW4030RRF__zhpPKusu8ynw2XLDSaxupnLtorDqgZctmeg1CZLErmb77vaJEHjdx3cnuhya0GMKEIt2VnjP_BRZFWDOlu_9DF_o_-yyWG
+
+!function MaterialsWbIridescent($id, $name="Wb Iridescent", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsWbIridescent', $name, $tech)
+!endfunction
+!function MaterialsWbIridescentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWbIridescentLg>', 'Wb Iridescent', $funcName, $content)
+!endfunction
+@enduml

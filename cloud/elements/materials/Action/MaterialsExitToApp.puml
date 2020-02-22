@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsExitToAppLg [20x20/16z] ZP050e0W34NvT7F_qzejiQVKUcDqk7p0Tr6CuIB6JIYZm8M8SfC5i0k4Xmo6FsGGs-uyFsKNV15UCc5tVF6y9glurdFKQwdMNEkjDeFQhEZC
+
+!function MaterialsExitToApp($id, $name="Exit To App", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsExitToApp', $name, $tech)
+!endfunction
+!function MaterialsExitToAppCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsExitToAppLg>', 'Exit To App', $funcName, $content)
+!endfunction
+@enduml

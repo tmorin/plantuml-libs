@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsApiGatewayLg [20x20/16z] fL3L0GKn27joCVRVzzpxsLHnI7L3NkuebmO3bvS33YqPhJefvAP3IiWCg8Axpdxfp4JHKmS8W9z-XCYNhfJIguQR6cqlBdEVqBlE05OTrz8xSd7GYma
+
+!function AwsApiGateway($id, $name="Api Gateway", $tech="")
+  CloudElement($id, 'aws/Mobile/AwsApiGateway', $name, $tech)
+!endfunction
+!function AwsApiGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsApiGatewayLg>', 'Api Gateway', $funcName, $content)
+!endfunction
+@enduml

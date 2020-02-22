@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAlexaVoiceServiceLg [20x20/16z] {
+TP3LeGHH349pWPET_Xj-ikF6PmIhSavmLS5v1cNg0fpKFuPipJFF_vLEGkim8t8YuMsMg75Wj9RPwD4pGyGoSrRn5cEUnNYUnT7xRFzb_TqrX3Xu8LMZZNRF
+3AocVShscQRFbctfm8SEdhegy0bGJzt_0W
+}
+
+!function AwsIotAlexaVoiceService($id, $name="Iot Alexa Voice Service", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAlexaVoiceService', $name, $tech)
+!endfunction
+!function AwsIotAlexaVoiceServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAlexaVoiceServiceLg>', 'Iot Alexa Voice Service', $funcName, $content)
+!endfunction
+@enduml

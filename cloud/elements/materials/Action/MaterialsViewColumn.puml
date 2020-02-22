@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewColumnLg [20x20/16z] Ow0-O65dPsT6460nDdv-VXPME04MOnqSOZZTnyB9oScC822UOsHaH2Ae3m
+
+!function MaterialsViewColumn($id, $name="View Column", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewColumn', $name, $tech)
+!endfunction
+!function MaterialsViewColumnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewColumnLg>', 'View Column', $funcName, $content)
+!endfunction
+@enduml

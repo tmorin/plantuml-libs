@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElasticacheCacheNodeLg [20x20/16z] pP254GD14CEqXkk_up0z510ThiP31cU3WRMshWilTjGDZ13IC1Aa3MIcoaJ9sqrmOvBsc_CZud4-Zk5pVTo6_tTdNPrr2ku6mnK
+
+!function AwsElasticacheCacheNode($id, $name="Elasticache Cache Node", $tech="")
+  CloudElement($id, 'aws/Database/AwsElasticacheCacheNode', $name, $tech)
+!endfunction
+!function AwsElasticacheCacheNodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticacheCacheNodeLg>', 'Elasticache Cache Node', $funcName, $content)
+!endfunction
+@enduml

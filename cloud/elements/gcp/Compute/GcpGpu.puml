@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpGpuLg [20x20/16z] {
+RP250S1020EHF67_XIkfoxLlE9Zm7Jk9EebTvDKdjPkYRq0Yvrr66GvTnNeRQmBTa9a1QSEirXCU2mwkQKm7CyXYf1uIIPROPSr3ra0VCXsCuC8kInkV7FTQ
+4hqIZveb6h-zVMVmdHNzELEIvqm_ivy1
+}
+
+!function GcpGpu($id, $name="Gpu", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpGpu', $name, $tech)
+!endfunction
+!function GcpGpuCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpGpuLg>', 'Gpu', $funcName, $content)
+!endfunction
+@enduml

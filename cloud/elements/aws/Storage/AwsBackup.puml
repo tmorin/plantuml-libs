@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsBackupLg [20x20/16z] {
+hSt7OGC034BH5E33_WCdxkrgFzMJj4-0lQhKFSEIsQEuK6TNZTF2TbnsOcdvJTn9tWbIo8PpVqJ6jdhXTj0p6vwxAxTEZdqt2OKITiElQD4lkq7oWSJkwB6N
+lUqV
+}
+
+!function AwsBackup($id, $name="Backup", $tech="")
+  CloudElement($id, 'aws/Storage/AwsBackup', $name, $tech)
+!endfunction
+!function AwsBackupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBackupLg>', 'Backup', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsGolfCourseLg [20x20/16z] nO-r0S0m40FDyBZ_jc7cAbVPJvBCDtpsXrfGFbI3gdBnXnfbjwljAsrDJZJ8_bFZdJiVMiyrnxOSop3V_dtI5h2cwE3TfehCZ2MqxpcETItMtD4
+
+!function MaterialsGolfCourse($id, $name="Golf Course", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsGolfCourse', $name, $tech)
+!endfunction
+!function MaterialsGolfCourseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGolfCourseLg>', 'Golf Course', $funcName, $content)
+!endfunction
+@enduml

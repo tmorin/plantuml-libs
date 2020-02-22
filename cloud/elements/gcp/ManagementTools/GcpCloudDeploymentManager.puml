@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDeploymentManagerLg [20x20/16z] {
+RP274GGX30D1CXRzL_n-mLpUYIpEpVHDEq0UOAkUyo1tQCmBiS9qTNBWc3T6AMWg3-fHRN8NFjgb6wJVG7E4Giin606xAJiWm1gAi6D9aSs0yeZ3ZkoTXLm9
+MhF-tmRdpDfgVE_sVOFZLaVOULCL-wOVj_y1
+}
+
+!function GcpCloudDeploymentManager($id, $name="Cloud Deployment Manager", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudDeploymentManager', $name, $tech)
+!endfunction
+!function GcpCloudDeploymentManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDeploymentManagerLg>', 'Cloud Deployment Manager', $funcName, $content)
+!endfunction
+@enduml

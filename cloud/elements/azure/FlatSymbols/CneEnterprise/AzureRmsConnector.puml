@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureRmsConnectorLg [15x20/16z] {
+POo70G0X309DHT7zr_tU_wn908wTRcLbdFXUigrmn5x2Lg8VvUWRv_JaNVALtDHThh9xPaBEaevIqiuI3f6Ce-pMEjcfPyc1N9vVoLfRLOvQjnA-89Ut0KXH
+0qoNv1ekHOe2MaIs890qRIIne06qZ0fW1W
+}
+
+!function AzureRmsConnector($id, $name="Rms Connector", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureRmsConnector', $name, $tech)
+!endfunction
+!function AzureRmsConnectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRmsConnectorLg>', 'Rms Connector', $funcName, $content)
+!endfunction
+@enduml

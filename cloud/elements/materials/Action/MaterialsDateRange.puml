@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDateRangeLg [20x20/16z] jT2r0S0W443HSnpsdpRkrkNXlmJU4CudqfOmA4mqu9BOSZ0TMCZ6Sohje4nHsecyjgAoqJAtXB31j3Pq3Ah03hyRRFvgMMWZUMeKoq6avISF49xr
+
+!function MaterialsDateRange($id, $name="Date Range", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDateRange', $name, $tech)
+!endfunction
+!function MaterialsDateRangeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDateRangeLg>', 'Date Range', $funcName, $content)
+!endfunction
+@enduml

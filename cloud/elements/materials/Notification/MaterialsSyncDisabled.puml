@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSyncDisabledLg [20x20/16z] {
+fP05GWKW44IPaSxxtrOQ_HqqRtl5TuDr0tKhfHK6ybB0iJvoYNBggVeYEdDOnZPrCOE9QY9u7nga53fCHPcefYEcwL1vY0dXrM4TJZPjnOHCFpD6q4AoGphi
+14tWqDpvmPLS6NoFEXt6pkZjhWsrT8NU1-LvgqTlZ5y
+}
+
+!function MaterialsSyncDisabled($id, $name="Sync Disabled", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSyncDisabled', $name, $tech)
+!endfunction
+!function MaterialsSyncDisabledCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSyncDisabledLg>', 'Sync Disabled', $funcName, $content)
+!endfunction
+@enduml

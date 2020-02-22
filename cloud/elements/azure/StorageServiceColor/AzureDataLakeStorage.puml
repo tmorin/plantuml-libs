@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataLakeStorageLg [22x20/16z] {
+TOW7aWGX30CPafF-_zuJliqCNILRwbAkKbg_ojKQJsyfncBEpqFWSyDnil8hXJPkG1BEutcMOLnKHnVJtjMa3rLnm7fhBVCgjkp6qRfiE0u4SUEnF1u4S5KL
+4PuCZpeGEPN9irRGclvWWGZRYD2uGQi6Vg3y0m
+}
+
+!function AzureDataLakeStorage($id, $name="Data Lake Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureDataLakeStorage', $name, $tech)
+!endfunction
+!function AzureDataLakeStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataLakeStorageLg>', 'Data Lake Storage', $funcName, $content)
+!endfunction
+@enduml

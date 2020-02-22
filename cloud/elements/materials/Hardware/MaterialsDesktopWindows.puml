@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDesktopWindowsLg [20x20/16z] rSY54SKm50CmEmpElVsd_LY60QfZuGhT0O4y3ZAev7QII0NiX0TSB-ahVgIlqebGsvVCrBvgm0U_abdY5nOkcsM7BQVneKF-uDuR
+
+!function MaterialsDesktopWindows($id, $name="Desktop Windows", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsDesktopWindows', $name, $tech)
+!endfunction
+!function MaterialsDesktopWindowsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDesktopWindowsLg>', 'Desktop Windows', $funcName, $content)
+!endfunction
+@enduml

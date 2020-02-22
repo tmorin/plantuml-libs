@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFitnessCenterLg [20x20/16z] VT072W0X44FHaMGXOCdzRxjInVhfpsvSIoiW88eJ5MKxOvedRuHirvcIEhKlfkYChyweZ8W5sMdWQ22u8RBMcSXcpDYghJGPwl51raPPPPf7KGWyltRk1m
+
+!function MaterialsFitnessCenter($id, $name="Fitness Center", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsFitnessCenter', $name, $tech)
+!endfunction
+!function MaterialsFitnessCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFitnessCenterLg>', 'Fitness Center', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPlayArrowLg [20x20/16z] Ow09O6J256FYPcN44EFZvsJ65EFdPMD45mC2BXPCCNu-TaQyOWYzXEtWPCRdPeJVQ0W
+
+!function MaterialsPlayArrow($id, $name="Play Arrow", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPlayArrow', $name, $tech)
+!endfunction
+!function MaterialsPlayArrowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlayArrowLg>', 'Play Arrow', $funcName, $content)
+!endfunction
+@enduml

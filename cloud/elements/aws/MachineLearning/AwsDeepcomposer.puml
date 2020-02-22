@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeepcomposerLg [20x20/16z] {
+RT35WGGX04JH5KhpptUatVxnuVIf4AUOblGfieNN-UatOpS0lbaqV3L1o6QnQEX_ZCqCa0RX3rNOzixNPE7_Q__v23444vI-fhQ4Ovpkb-_cLyF7n9CLZ8VF
+5WBgoRxQRlRmLuz_-jGR
+}
+
+!function AwsDeepcomposer($id, $name="Deepcomposer", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsDeepcomposer', $name, $tech)
+!endfunction
+!function AwsDeepcomposerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeepcomposerLg>', 'Deepcomposer', $funcName, $content)
+!endfunction
+@enduml

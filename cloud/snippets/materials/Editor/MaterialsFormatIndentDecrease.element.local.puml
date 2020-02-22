@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsFormatIndentDecrease element
+include('elements/materials/Editor/MaterialsFormatIndentDecrease')
+MaterialsFormatIndentDecrease('element', 'Format Indent Decrease', 'an optional tech field')
+@enduml

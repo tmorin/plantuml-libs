@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotOverTheAirUpdateLg [20x20/16z] {
+bL273S0W36jYE_J_YqkiRasYXRp5jdOHVmGbYH-8YgcaNb3gf0XS4SepiqITO5rajDOFVNAAapdx4jawLwLECLN38G9QPd6CtHW8tMko8TSKEkmiTalqAZpZ
+gKe_SuDtJn8Ey8sTqIlUH_XZ5ky
+}
+
+!function AwsIotOverTheAirUpdate($id, $name="Iot Over The Air Update", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotOverTheAirUpdate', $name, $tech)
+!endfunction
+!function AwsIotOverTheAirUpdateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotOverTheAirUpdateLg>', 'Iot Over The Air Update', $funcName, $content)
+!endfunction
+@enduml

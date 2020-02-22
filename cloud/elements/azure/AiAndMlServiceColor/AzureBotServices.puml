@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBotServicesLg [20x20/16z] {
+RP05YaL130IdRUv_v0tD_kU5feYlGYSxvXeEOv5oyhEAi0eK_QjhIIMh81KqTBFfCbdofE4eR092UmfvSQlPatvrocOTFO9rt1ykNxNsrH7ZpQ3k06aBnOMZ
+ci3mEEmuzUC7Nx-w_lJvwUGmVm
+}
+
+!function AzureBotServices($id, $name="Bot Services", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureBotServices', $name, $tech)
+!endfunction
+!function AzureBotServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBotServicesLg>', 'Bot Services', $funcName, $content)
+!endfunction
+@enduml

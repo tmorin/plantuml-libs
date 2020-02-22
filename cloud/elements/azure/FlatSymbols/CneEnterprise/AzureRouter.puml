@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureRouterLg [26x20/16z] {
+RP5L0W11248dTL3kVztjTj-dBIWDBNt82gVwA2dIp5LKSqXKDFIMLBw9WffrdLfIrGTrZQIyDniVMBtNEL_uUMmU-72T6sux0tK4Zar2nxhOILzFWLFEZ2JG
+SYDRDYB9dK4tkWnoYDCwpaptG3_521m7bdZrgexcYlAhADfXN731xKW4v-ZG_Els3
+}
+
+!function AzureRouter($id, $name="Router", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureRouter', $name, $tech)
+!endfunction
+!function AzureRouterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRouterLg>', 'Router', $funcName, $content)
+!endfunction
+@enduml

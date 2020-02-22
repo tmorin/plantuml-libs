@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCallMissedLg [20x20/16z] lSY50K0X24LHiDlzfxNUpmMu9eTaujEFTDubeFRdDRq7Omme1rZBMTEFo6GTW20OyqRGOxGHX5ZlAvG2Uje8-YD8gWa
+
+!function MaterialsCallMissed($id, $name="Call Missed", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsCallMissed', $name, $tech)
+!endfunction
+!function MaterialsCallMissedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallMissedLg>', 'Call Missed', $funcName, $content)
+!endfunction
+@enduml

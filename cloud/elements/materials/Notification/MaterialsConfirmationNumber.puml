@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsConfirmationNumberLg [20x20/16z] fP253G1H24E_Ex3_jET-ZV9Y3KwD2XzV-2NakhpeRedn9Ya4sWJViU7Sk6D7kbQ-OZRkUTfp8rgpa3Vj_PRBIm34SA_Zrmvy2xmP_OOyK343
+
+!function MaterialsConfirmationNumber($id, $name="Confirmation Number", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsConfirmationNumber', $name, $tech)
+!endfunction
+!function MaterialsConfirmationNumberCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsConfirmationNumberLg>', 'Confirmation Number', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerAutomationLg [20x20/16z] {
+JO-7OGCm20GVlf3iFt1Y8nUTAXrmw2J6HG5ASmg55nmx11mbTLHfyVYRMcLDuyBUM-kSk064g-EMg6AwbGPQAJ00q9uXmqe8g8_kPm1Df_6bQdDjJebrwJn6
+_OxNtOtAFA_Yd0mo8ErFtHrJTW5dZirOb4wuLYTSH5YbStmLHrZAx0Y8oi8NZZC5t5IJZHV_
+}
+
+!function AwsSystemsManagerAutomation($id, $name="Systems Manager Automation", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerAutomation', $name, $tech)
+!endfunction
+!function AwsSystemsManagerAutomationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerAutomationLg>', 'Systems Manager Automation', $funcName, $content)
+!endfunction
+@enduml

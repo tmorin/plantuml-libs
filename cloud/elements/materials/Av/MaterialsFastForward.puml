@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFastForwardLg [20x20/16z] lKx50G0n2AihaFsdFNVvKY_4ZCxmRhbikDHI3qkjPtlK8ZZPgKPe_gm1rS-rfNdKGD4HvgRxgRsvRuztbdTcnJ42
+
+!function MaterialsFastForward($id, $name="Fast Forward", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFastForward', $name, $tech)
+!endfunction
+!function MaterialsFastForwardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFastForwardLg>', 'Fast Forward', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudConsoleLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudConsole($id, $name="Cloud Console", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudConsole', $name, $tech)
+!endfunction
+!function GcpCloudConsoleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudConsoleLg>', 'Cloud Console', $funcName, $content)
+!endfunction
+@enduml

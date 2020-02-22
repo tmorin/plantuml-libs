@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsPollyLg [20x20/16z] {
+fOv70W91408DqmNC_n_ivdHIjuxL0VeF9BagQi3dhNBIcizkk2nMkJjLutmhEn7oxeIK8C5QGAe1eHvO5mU74wFKieW7ejRUR-7rdosRsbqNeE4ezdYx0-c3
+FRbGL9sRz-aqqE_n0G
+}
+
+!function AwsPolly($id, $name="Polly", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsPolly', $name, $tech)
+!endfunction
+!function AwsPollyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsPollyLg>', 'Polly', $funcName, $content)
+!endfunction
+@enduml

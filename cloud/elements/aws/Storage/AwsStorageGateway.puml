@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsStorageGatewayLg [20x20/16z] fKt50GCX0Al5zX_u77qMXsYMXmbuWY0B6h1Bur-lDUxBGeL-Z4NIgKeen3qYbZI38C7pTMEaByzvaYbWmTYQcoxv5_kDs7aTv_BO0G
+
+!function AwsStorageGateway($id, $name="Storage Gateway", $tech="")
+  CloudElement($id, 'aws/Storage/AwsStorageGateway', $name, $tech)
+!endfunction
+!function AwsStorageGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStorageGatewayLg>', 'Storage Gateway', $funcName, $content)
+!endfunction
+@enduml

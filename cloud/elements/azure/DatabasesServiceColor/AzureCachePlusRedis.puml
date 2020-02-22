@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCachePlusRedisLg [20x20/16z] {
+PSm53W0n44BH4Q3JlVzzrxq__aAmBT-pfyZ4NeQTEPxoN5c0sYBoF6WCzzXQ8HcxLHE1p0Gf7TPQhMcD1FoqhLNoAFnbdk0QuZ7ftALkQrEl9gfLlMohD_sj
+AuSTdVMr3hF_hcZ3RcAeVbQelU1fwbFrli_C0jgCqcw2Bm
+}
+
+!function AzureCachePlusRedis($id, $name="Cache Plus Redis", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureCachePlusRedis', $name, $tech)
+!endfunction
+!function AzureCachePlusRedisCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCachePlusRedisLg>', 'Cache Plus Redis', $funcName, $content)
+!endfunction
+@enduml

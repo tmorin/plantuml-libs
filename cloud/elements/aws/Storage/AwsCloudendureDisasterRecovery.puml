@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCloudendureDisasterRecoveryLg [20x20/16z] hKzL0eH05DeYvlu7rkdyND6fLq3u7_OHGGJN61ItDSZomWyQPQup3RUoScCyzIkLGZrIe5P2TG2HKYonoeElQgpsuYV1gRTo0CmK1ZGxGwBS77uH3Z0yWXi
+
+!function AwsCloudendureDisasterRecovery($id, $name="Cloudendure Disaster Recovery", $tech="")
+  CloudElement($id, 'aws/Storage/AwsCloudendureDisasterRecovery', $name, $tech)
+!endfunction
+!function AwsCloudendureDisasterRecoveryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudendureDisasterRecoveryLg>', 'Cloudendure Disaster Recovery', $funcName, $content)
+!endfunction
+@enduml

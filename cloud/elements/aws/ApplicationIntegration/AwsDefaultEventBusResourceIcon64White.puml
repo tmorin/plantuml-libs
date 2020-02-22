@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsDefaultEventBusResourceIcon64WhiteLg [25x20/16z] OnXnO1G
+
+!function AwsDefaultEventBusResourceIcon64White($id, $name="Default Event Bus Resource Icon64 White", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsDefaultEventBusResourceIcon64White', $name, $tech)
+!endfunction
+!function AwsDefaultEventBusResourceIcon64WhiteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDefaultEventBusResourceIcon64WhiteLg>', 'Default Event Bus Resource Icon64 White', $funcName, $content)
+!endfunction
+@enduml

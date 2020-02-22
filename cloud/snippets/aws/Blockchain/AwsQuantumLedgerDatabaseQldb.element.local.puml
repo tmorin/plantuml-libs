@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsQuantumLedgerDatabaseQldb element
+include('elements/aws/Blockchain/AwsQuantumLedgerDatabaseQldb')
+AwsQuantumLedgerDatabaseQldb('element', 'Quantum Ledger Database Qldb', 'an optional tech field')
+@enduml

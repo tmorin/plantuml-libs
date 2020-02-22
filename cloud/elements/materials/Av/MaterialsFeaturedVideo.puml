@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFeaturedVideoLg [20x20/16z] bT033W1144JH7gDr_zEkxVtnIqK5NpF-a06J6OT8T2mRGy4CsJePTkPXR3QwCFnlPcjOnsGrrBM_HaUZwrq-MZPNNtsj1G
+
+!function MaterialsFeaturedVideo($id, $name="Featured Video", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFeaturedVideo', $name, $tech)
+!endfunction
+!function MaterialsFeaturedVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFeaturedVideoLg>', 'Featured Video', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsLg [20x20/16z] {
+VP054iKW44ExLaDo_zCYtoNJZC5Rpt8X7Vf1SjPwoazQ0Sf7eeNgXg5DDUo6v41Ek2bb7BS6yVW_U4ostuYB-8tkj_OJ-dpvHBhSO4QIM-U4F15Xf9RDOBkm
+dSbjn0Fc5VUKgmC
+}
+
+!function MaterialsSettings($id, $name="Settings", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettings', $name, $tech)
+!endfunction
+!function MaterialsSettingsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsLg>', 'Settings', $funcName, $content)
+!endfunction
+@enduml

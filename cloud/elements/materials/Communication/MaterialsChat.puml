@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsChatLg [20x20/16z] {
+bS-35S10303GCyBzfwtj_kSuvf9rExOF5U4DALtGiUwmwsAY37K2h3B6gbrcrpa6taqyp34C2tpgfJJAkT2XpejszZlYDgR2FT5DxFAFkX5D7wDWDqmVes2E
+t1pwhmK
+}
+
+!function MaterialsChat($id, $name="Chat", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsChat', $name, $tech)
+!endfunction
+!function MaterialsChatCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsChatLg>', 'Chat', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderClearLg [20x20/16z] ZL053W0X36idGVx_tnEMHR4YSyKrn00Jg2RtmJhP3QKazuDncHoGX4mXOdzIob15h4G6rV0GBA25B0htv6Qw2MOrPhtCUfxDDjl1T5VNU04
+
+!function MaterialsBorderClear($id, $name="Border Clear", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderClear', $name, $tech)
+!endfunction
+!function MaterialsBorderClearCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderClearLg>', 'Border Clear', $funcName, $content)
+!endfunction
+@enduml

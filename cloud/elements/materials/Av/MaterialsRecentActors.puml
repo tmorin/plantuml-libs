@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsRecentActorsLg [20x20/16z] hO_50KH1349XN9F-gztzxiTvjoY0qOHuOE0zR2Ih7ZZ42DV8DXN9XNRsbhtCwSMZbm2uHwyQC3rwMbFHHw_447A_wdPFJDXowMLkvY-zbkB2kVUL3OFv0m
+
+!function MaterialsRecentActors($id, $name="Recent Actors", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsRecentActors', $name, $tech)
+!endfunction
+!function MaterialsRecentActorsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRecentActorsLg>', 'Recent Actors', $funcName, $content)
+!endfunction
+@enduml

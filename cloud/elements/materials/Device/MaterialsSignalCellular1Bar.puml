@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSignalCellular1BarLg [20x20/16z] dSe53WGX0CLGA4Jm-vzsTrn-nXj_gVcQFI0EY0FYW3WW3WWXDGTgFZerNv9OHqtDvwRMNMhTfTPHhRL5DiQKDLVz0G
+
+!function MaterialsSignalCellular1Bar($id, $name="Signal Cellular1 Bar", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalCellular1Bar', $name, $tech)
+!endfunction
+!function MaterialsSignalCellular1BarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalCellular1BarLg>', 'Signal Cellular1 Bar', $funcName, $content)
+!endfunction
+@enduml

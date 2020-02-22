@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUserManagementLg [22x20/16z] {
+POw5eG0n34AlCHhOVzulv_AgSPOxmstvu4tMspbQ5EFb3VuXlBovUkUxBKNgqxWazLT5ejvEozKJyPobhiX9ObnUYFg7t2LxPeOtLquPwSDgk7jGcsG7q1Ep
+0SJerTiZ9HIt2xPrwU50HCtroiNy7rkyoYEnNfVI52lvVxLm5y-TczVhukhm2m
+}
+
+!function AzureUserManagement($id, $name="User Management", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUserManagement', $name, $tech)
+!endfunction
+!function AzureUserManagementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUserManagementLg>', 'User Management', $funcName, $content)
+!endfunction
+@enduml

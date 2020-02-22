@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAttachments1Lg [12x20/16z] {
+fK-50GGn36eSs7_WRzuMk6eSE5OWoivTrYAfMQU4z8JosfytEFSLVIi9-zkujeanOsithWsixQEdDZC8MzjBfEgCbay1jJHAyBEhLJP2ciMi11zzr6nwHNvK
+lW
+}
+
+!function AzureAttachments1($id, $name="Attachments1", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1', $name, $tech)
+!endfunction
+!function AzureAttachments1Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAttachments1Lg>', 'Attachments1', $funcName, $content)
+!endfunction
+@enduml

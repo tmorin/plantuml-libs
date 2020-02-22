@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsBatchLg [20x20/16z] {
+RSvN5WCn24FH3vuizh_Y44ZbM3DkrzMTynTFRkQh4TfxaM9RmJOhWcq6-si7JcsEga1ZG2Yagb1SZBBqR3Ezj-_ET4gsfy8kAoHwiMQndoO9Kx4Gjiiu7zFR
+3FF8hjew_cPiOrxm0G
+}
+
+!function AwsBatch($id, $name="Batch", $tech="")
+  CloudElement($id, 'aws/Compute/AwsBatch', $name, $tech)
+!endfunction
+!function AwsBatchCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBatchLg>', 'Batch', $funcName, $content)
+!endfunction
+@enduml

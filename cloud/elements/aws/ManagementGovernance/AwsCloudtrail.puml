@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudtrailLg [20x20/16z] {
+RS-53KGn30JHexLtylllznGMU8HvOLRsZG8fa08fiDtnmJOn92LiwvWo_aLkwoZtYP_4iHGpwLXucHKC8vJAZQQRVygGP204TElhElOyhN5_0Trkx5g1hS2d
+mAV0Fm
+}
+
+!function AwsCloudtrail($id, $name="Cloudtrail", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudtrail', $name, $tech)
+!endfunction
+!function AwsCloudtrailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudtrailLg>', 'Cloudtrail', $funcName, $content)
+!endfunction
+@enduml

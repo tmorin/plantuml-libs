@@ -1,0 +1,14 @@
+@startuml
+sprite $AzureSapHanaLg [40x20/16z] {
+ZT9LWiH0203HGXe2zp_mXhNOojHFsnk9z4lLUiqjNcJCK7izVOmrNTcuD15HtxfJLVTXwPvvdXcT0jFgDi1d-2XEZ5BGvVD5cm1QuzGLP3iOSnZpdxvsSjpg
+KeY3CMiiTpOp0p-vWz71fD49ce9i1XOER0UZEvHfEQms2ECZg-3akj851F0qi0ydVcPqpLKjJWbOPlMPqI7cBbnRtLT6sUaq8ltBNHcThYBYIzMgkpUTuixu
+VWsETs7lO2VtR9ZQlswOcCb_BkNftW
+}
+
+!function AzureSapHana($id, $name="Sap Hana", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureSapHana', $name, $tech)
+!endfunction
+!function AzureSapHanaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSapHanaLg>', 'Sap Hana', $funcName, $content)
+!endfunction
+@enduml

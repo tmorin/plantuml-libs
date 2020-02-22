@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureOpenshiftLg [22x20/16z] {
+NP45Ti0m34CLCaYv_tathocy_MBCW8jXIIbjuAKvTK7lE8pKInxp_YTCDyzBt1lGedxdyI95ER0aHRipz9wC1OJ4ZeVX5RXJCdmJbtHAMiVsjLaiyMESKgo9
+DgXyMxBGtWvq6mqlerodq_3595RE_9fsbg1wy6aTnMbq_NuYzzvFnwVHXixFTDv6-xz97ffzf_xIBIa-6_e1
+}
+
+!function AzureOpenshift($id, $name="Openshift", $tech="")
+  CloudElement($id, 'azure/Companies/AzureOpenshift', $name, $tech)
+!endfunction
+!function AzureOpenshiftCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureOpenshiftLg>', 'Openshift', $funcName, $content)
+!endfunction
+@enduml

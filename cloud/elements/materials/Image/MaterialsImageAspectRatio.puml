@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsImageAspectRatioLg [20x20/16z] fT054iGW50FGa0oQvVx7NVTw-yRGRpX4CNs90a2xjhTg4s0NmXlKxsV45ywTHK4H8OQlin8H2rWv__Uz7vxnnDbtmXVTp-pwnURO30wv
+
+!function MaterialsImageAspectRatio($id, $name="Image Aspect Ratio", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsImageAspectRatio', $name, $tech)
+!endfunction
+!function MaterialsImageAspectRatioCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsImageAspectRatioLg>', 'Image Aspect Ratio', $funcName, $content)
+!endfunction
+@enduml

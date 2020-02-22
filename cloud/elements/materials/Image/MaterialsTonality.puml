@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTonalityLg [20x20/16z] {
+VP250G0X30DnacBxJ_lkGbwvUbL7sXXz1uwvb0ntOiCI7SMpmUn8Q9MA6InDLgX9esOM9mcMS5Vi_87OIQ6vvH0NzzZoh8OvDBk5WNPnJ5EmMKBtV975VB6l
+s8yQVxret7l-cstP0VovWzzTdJlzrmW
+}
+
+!function MaterialsTonality($id, $name="Tonality", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTonality', $name, $tech)
+!endfunction
+!function MaterialsTonalityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTonalityLg>', 'Tonality', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsServerlessApplicationRepositoryLg [20x20/16z] {
+RSs74KCn30BGkm12-qySkQPyuVxSF1C_SODkq0swmGsI_Yn8lX3-DgfOeBxD3eYLQwGZEEw2syG2GUDh3amR80bG6CEmDBN-XYB4OHD7ohHUo86Xa_bdplWx
+lJMO3MQ3Rm
+}
+
+!function AwsServerlessApplicationRepository($id, $name="Serverless Application Repository", $tech="")
+  CloudElement($id, 'aws/Compute/AwsServerlessApplicationRepository', $name, $tech)
+!endfunction
+!function AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsServerlessApplicationRepositoryLg>', 'Serverless Application Repository', $funcName, $content)
+!endfunction
+@enduml

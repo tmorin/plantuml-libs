@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsWeekendLg [20x20/16z] hSYr0GKX403HzJq3-g_so-74J3OFzeVcBSDiaeOacuwcsUJfzCXVI4bYfIYi17Ycawvg5_qMyKutdTLE-cqsqP9KUrHQ-cHR-jcrseN0liImkoy
+
+!function MaterialsWeekend($id, $name="Weekend", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsWeekend', $name, $tech)
+!endfunction
+!function MaterialsWeekendCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWeekendLg>', 'Weekend', $funcName, $content)
+!endfunction
+@enduml

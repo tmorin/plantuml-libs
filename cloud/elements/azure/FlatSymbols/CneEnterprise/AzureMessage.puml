@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMessageLg [26x20/16z] {
+fOx50KGn20M9O_tNkxplbjFE9O71s2T0p97-GbQZbHuqsvgit_9fxFaeu7IAB95J646lb5tKI6hfC4m5LMsTr34XqsQMoTPZOkRjivdj6iv5zqjFGqiI2pCz
+30O58z7BO3dEU1bGChtDnl_6-0E5cS5JyGC
+}
+
+!function AzureMessage($id, $name="Message", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMessage', $name, $tech)
+!endfunction
+!function AzureMessageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMessageLg>', 'Message', $funcName, $content)
+!endfunction
+@enduml

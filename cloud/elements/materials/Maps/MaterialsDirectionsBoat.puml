@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsBoatLg [20x20/16z] {
+LP175WGX20NzFM00djp_jeDqj1Q4sX3AnH6KdPy5lzsH1_GLjVRbUgrqgoao4f5voIe7W58Y758lDn0H6SRhG4sr4LvdNJtHRkdGp3zOGnmGQfFhdBwxNWBU
+7UUfqtrwigey6k92RQb6KQ8ic2DJtWhczrLO4VUpGCJ3jJ4tzS54kPz92wqQeedbVW0oPihu1m
+}
+
+!function MaterialsDirectionsBoat($id, $name="Directions Boat", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsBoat', $name, $tech)
+!endfunction
+!function MaterialsDirectionsBoatCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsBoatLg>', 'Directions Boat', $funcName, $content)
+!endfunction
+@enduml

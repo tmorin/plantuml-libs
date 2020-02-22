@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsMariadbInstanceLg [20x20/16z] {
+POy50eH030DffE7-_-5Rt09hKqS-GZYznAHggkMAiGFBaJ1AiK0GtUgkXQNHjZasEYiJxLWQs-g7BL-XQjc09MKoVVHWvHwoxook8TtzQZPGyE_EeYLMyuFL
+UZvZMwJw6KlPPhwnDJzYjn6ViQ34IdXZsdf6JZMy7COV
+}
+
+!function AwsRdsMariadbInstance($id, $name="Rds Mariadb Instance", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsMariadbInstance', $name, $tech)
+!endfunction
+!function AwsRdsMariadbInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsMariadbInstanceLg>', 'Rds Mariadb Instance', $funcName, $content)
+!endfunction
+@enduml

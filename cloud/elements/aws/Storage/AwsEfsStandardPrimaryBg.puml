@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEfsStandardPrimaryBgLg [20x20/16z] {
+RSY5SSL034NH3m_TVy7Hx2WEtaMTdl8jk_zW_y43PlhJOae7VPjfJZO1hTLl97Yz6Cqv5b60I6BEsDNQh5GvY8zTZLYhdBqsA4u22S9hflb2ydugFJQrWJ0x
+_RGfh5oEzPTXR5gh259TsqAbQtSBQzj_TkC7
+}
+
+!function AwsEfsStandardPrimaryBg($id, $name="Efs Standard Primary Bg", $tech="")
+  CloudElement($id, 'aws/Storage/AwsEfsStandardPrimaryBg', $name, $tech)
+!endfunction
+!function AwsEfsStandardPrimaryBgCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEfsStandardPrimaryBgLg>', 'Efs Standard Primary Bg', $funcName, $content)
+!endfunction
+@enduml

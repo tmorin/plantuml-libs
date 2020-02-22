@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCodeFileLg [19x20/16z] {
+fP254KGn20KV3XFwh_U-syZPnZSELry903ao3dAq0vsuK3svZeVgkAke6hsfa_XOaTCs8e7Gh3IDLLtKL24wAt6tc7AmCTYMZIfkEYqwL-5aMaMBklEFoeVA
+leLmOXfpzPtY5m
+}
+
+!function AzureCodeFile($id, $name="Code File", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCodeFile', $name, $tech)
+!endfunction
+!function AzureCodeFileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCodeFileLg>', 'Code File', $funcName, $content)
+!endfunction
+@enduml

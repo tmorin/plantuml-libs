@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAssessmentLg [20x20/16z] ZT150iGm243Hk0FtF-rClOtdBzy6OUi9zKcSbEXJEb1HbdeDdSFIaX0fDw34UMvUcieiKpqBBbQcc9sR4Bb5w_UTlOsFPQds3-fVhVS7
+
+!function MaterialsAssessment($id, $name="Assessment", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAssessment', $name, $tech)
+!endfunction
+!function MaterialsAssessmentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAssessmentLg>', 'Assessment', $funcName, $content)
+!endfunction
+@enduml

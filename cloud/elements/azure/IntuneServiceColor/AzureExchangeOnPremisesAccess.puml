@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureExchangeOnPremisesAccessLg [12x20/16z] VOs5SGC030FF9F3--xPXJlx88D0DhpWK8E8m8uQPdE1r5eup6vgnHgipUqGeg6VPEkcLPGJFSntcFCo4rbxBUoxHUKR0Lyrr3gxLt3bd_a9z5p22hxFli_y1
+
+!function AzureExchangeOnPremisesAccess($id, $name="Exchange On Premises Access", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureExchangeOnPremisesAccess', $name, $tech)
+!endfunction
+!function AzureExchangeOnPremisesAccessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureExchangeOnPremisesAccessLg>', 'Exchange On Premises Access', $funcName, $content)
+!endfunction
+@enduml

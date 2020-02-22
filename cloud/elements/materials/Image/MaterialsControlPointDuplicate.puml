@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsControlPointDuplicateLg [20x20/16z] {
+bL25SKDH33F3n_stxLF3dCXtPgQV8MegPyF1Qba7vS5hIu6rYOZrOiEbQp0P6C2n6l6K10Q7WEN4lWWg1QuZzox41aCNXQXUOuWUpAltBYUAxPdlMUsp6Szs
+UTnPRsxZqssd7-G2f3pzrVVu0m
+}
+
+!function MaterialsControlPointDuplicate($id, $name="Control Point Duplicate", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsControlPointDuplicate', $name, $tech)
+!endfunction
+!function MaterialsControlPointDuplicateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsControlPointDuplicateLg>', 'Control Point Duplicate', $funcName, $content)
+!endfunction
+@enduml

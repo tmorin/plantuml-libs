@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElasticContainerServiceContainer2Lg [20x20/16z] hS_70SH020D0hGJqN_ATSBPV3lFPIC8Rl80oJbBI00Pctil8G3G4AGioLBwgtgztYRzyUEUAnpjMOzyPAR31Unid4g-p4H_x0G
+
+!function AwsElasticContainerServiceContainer2($id, $name="Elastic Container Service Container2", $tech="")
+  CloudElement($id, 'aws/Compute/AwsElasticContainerServiceContainer2', $name, $tech)
+!endfunction
+!function AwsElasticContainerServiceContainer2Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticContainerServiceContainer2Lg>', 'Elastic Container Service Container2', $funcName, $content)
+!endfunction
+@enduml

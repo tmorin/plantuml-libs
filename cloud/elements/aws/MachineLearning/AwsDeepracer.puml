@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeepracerLg [20x20/16z] {
+RSs54KCX40JG6MxjwB_VUBwo-CEonLjwWRt0Nc3tNVzaaP8tCr2GD0hyMQo1T280ojTG5TFn6EJNJCLuTHhrwkFPJTbcAG7X97CsYcgyUalrCu9CiGgieOzD
+5cIymfVxQ_tvo9rOpjVUl6MtURO5pWNE1Ju1
+}
+
+!function AwsDeepracer($id, $name="Deepracer", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsDeepracer', $name, $tech)
+!endfunction
+!function AwsDeepracerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeepracerLg>', 'Deepracer', $funcName, $content)
+!endfunction
+@enduml

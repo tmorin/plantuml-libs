@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotFireTvStickLg [20x20/16z] lOwt0G0n30A5ERF_o9_prxvI8jK8sXFD9z8VPBv2FKXYq1NZ-TQO4LxFQaRppU2IUp97MQhZDgEji3RlRyTtoy_cCKm
+
+!function AwsIotFireTvStick($id, $name="Iot Fire Tv Stick", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotFireTvStick', $name, $tech)
+!endfunction
+!function AwsIotFireTvStickCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotFireTvStickLg>', 'Iot Fire Tv Stick', $funcName, $content)
+!endfunction
+@enduml

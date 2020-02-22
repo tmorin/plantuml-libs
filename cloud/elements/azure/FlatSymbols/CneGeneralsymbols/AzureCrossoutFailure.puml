@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCrossoutFailureLg [16x20/16z] {
+PL230S0m47np_tbhniv96E5JI2hbioNGAdwskWtMIUSMdVOnEauCr_DLjkspNSV0LHkcv8CZ6oQNlJpQcV4LulsoZljJGoR2XFVmwNx8CEkPzVhVZ_RFxvW7
+3tcj
+}
+
+!function AzureCrossoutFailure($id, $name="Crossout Failure", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCrossoutFailure', $name, $tech)
+!endfunction
+!function AzureCrossoutFailureCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCrossoutFailureLg>', 'Crossout Failure', $funcName, $content)
+!endfunction
+@enduml

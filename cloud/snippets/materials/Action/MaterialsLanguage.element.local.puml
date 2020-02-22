@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsLanguage element
+include('elements/materials/Action/MaterialsLanguage')
+MaterialsLanguage('element', 'Language', 'an optional tech field')
+@enduml

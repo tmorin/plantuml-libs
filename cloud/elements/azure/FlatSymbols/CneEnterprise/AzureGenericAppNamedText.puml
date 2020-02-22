@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGenericAppNamedTextLg [30x20/16z] {
+nSb50WGn24HHg49QSl_hZcjiDV8N2V3Azzh7dT0vBCiE6HOFXK70-rChcHhEH9uUhTLyGK2SbwTIXYQ24jUdKWq_GOHBdfzAJtxQS7zgFMTwVogj-hUM9OTj
+PTuH
+}
+
+!function AzureGenericAppNamedText($id, $name="Generic App Named Text", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText', $name, $tech)
+!endfunction
+!function AzureGenericAppNamedTextCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGenericAppNamedTextLg>', 'Generic App Named Text', $funcName, $content)
+!endfunction
+@enduml

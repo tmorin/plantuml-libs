@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLeakRemoveLg [20x20/16z] {
+ZP1L0iCm243H66Mz_sr7cPJyDPw70yy7nX84feAM04r2qw8dHq0WvsgiBd4O5biPPsZoRZfPJFQm4O_C9T-iz8LggrlwTCj878-66JsqFe58EH_zTPa7hAbR
+cDEimPgHk6nwLsbo1Yo3dM0CFIfKGmeWgzWIPyC0uVbu0m
+}
+
+!function MaterialsLeakRemove($id, $name="Leak Remove", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLeakRemove', $name, $tech)
+!endfunction
+!function MaterialsLeakRemoveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLeakRemoveLg>', 'Leak Remove', $funcName, $content)
+!endfunction
+@enduml

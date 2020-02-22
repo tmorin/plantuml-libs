@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSolutionsLg [20x20/16z] {
+jS-tRKK13CLGnKljFx4X_9Txdv8TxP82EkpcpK_TRTCd9Z2p9HJs8w2AmQtxbnn6PXf5mTtaNbGDQ7KmP2ao06OHKCcKEQ2pXTMCF86yMm-ijhCXVjhlzgFS
+WHKUiTnjiHIijfzPv2pzK_i3
+}
+
+!function AzureSolutions($id, $name="Solutions", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureSolutions', $name, $tech)
+!endfunction
+!function AzureSolutionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSolutionsLg>', 'Solutions', $funcName, $content)
+!endfunction
+@enduml

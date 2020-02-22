@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMqLg [20x20/16z] {
+fOx75SHG308tmOZVVx-RvEoZESrJ0CPL9S6GP1cLPC2MQfwPvXAUPwWnNkxgEw4IwZjDp-3BJ-bP6TIIyBAJbrz8zEj-TlerSqP29R1c3DGOYtDdUvwLRS1q
+vrd1a75T7m
+}
+
+!function AwsMq($id, $name="Mq", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsMq', $name, $tech)
+!endfunction
+!function AwsMqCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMqLg>', 'Mq', $funcName, $content)
+!endfunction
+@enduml

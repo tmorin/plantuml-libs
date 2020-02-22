@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSchedulerJobCollectionsLg [23x20/16z] {
+LOu7ZiL024Cnjfbext_W1LAa_r8CRse4N8YE8Pho1Ekm9VFrFCNmKTSK83VJGCUNOcrQsQZOlQwh8vtfJgdhyLmjGHshWuNLzsIyEinRq-0A-VclLckEkFuc
+-EflzgdAJtFsZfl4jtSMqVL3lZU1PthU5gNltYNGH4ksVJLi8LK3O_LnHxPFW48iFZoL4P0jFZhhCE2ZgUM6UtllA1KBkBqOlm1V-Gy
+}
+
+!function AzureSchedulerJobCollections($id, $name="Scheduler Job Collections", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections', $name, $tech)
+!endfunction
+!function AzureSchedulerJobCollectionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSchedulerJobCollectionsLg>', 'Scheduler Job Collections', $funcName, $content)
+!endfunction
+@enduml

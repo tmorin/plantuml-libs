@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSliderBarVertLg [9x20/16z] Os1WOW02HaQi34OmWna8cE0Cc1HSCTqP
+
+!function AzureSliderBarVert($id, $name="Slider Bar Vert", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarVert', $name, $tech)
+!endfunction
+!function AzureSliderBarVertCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSliderBarVertLg>', 'Slider Bar Vert', $funcName, $content)
+!endfunction
+@enduml

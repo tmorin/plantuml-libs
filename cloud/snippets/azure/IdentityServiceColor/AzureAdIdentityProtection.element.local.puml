@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureAdIdentityProtection element
+include('elements/azure/IdentityServiceColor/AzureAdIdentityProtection')
+AzureAdIdentityProtection('element', 'Ad Identity Protection', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePrimarySiteLg [15x20/16z] {
+bOs54GD1203_SFZ--mqM7SsUxc27fU5p5Hnt4zWgOPfuqAfoeY-Tv9SE_-XFhGkyzNPaKHKwCqZG8p6KJ7GNv2PLY0WutCoTEnh2qN15C-cjcMMyEkyx-K1n
+q3qo3wy5Y9dWUW
+}
+
+!function AzurePrimarySite($id, $name="Primary Site", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzurePrimarySite', $name, $tech)
+!endfunction
+!function AzurePrimarySiteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePrimarySiteLg>', 'Primary Site', $funcName, $content)
+!endfunction
+@enduml

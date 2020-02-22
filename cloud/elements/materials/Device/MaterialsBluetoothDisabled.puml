@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBluetoothDisabledLg [20x20/16z] {
+VT054iGW30NGnfE1REv_sdL3fh_AmpdE0Xip7OhujD9_QlAq_4VDEvfBdn4Ll6X2u6Vd4L46Uk4SgGKbQqPEZHYxIogOWLz-I8z5k7Dh_Ol0zvTb6cZ7uLpA
+uDxb6EnESt2YAJS
+}
+
+!function MaterialsBluetoothDisabled($id, $name="Bluetooth Disabled", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBluetoothDisabled', $name, $tech)
+!endfunction
+!function MaterialsBluetoothDisabledCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBluetoothDisabledLg>', 'Bluetooth Disabled', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLandscapeLg [20x20/16z] lSp50G9100F0PDtJVxNuwJw1cm86rtB4cUq19wPeE6n8C4cg1Wlc01OzvBKCwlRHwM4ftP2AWPUqbARg8T4EBIMpNdAJbjBd4mzmWb-x0m
+
+!function MaterialsLandscape($id, $name="Landscape", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLandscape', $name, $tech)
+!endfunction
+!function MaterialsLandscapeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLandscapeLg>', 'Landscape', $funcName, $content)
+!endfunction
+@enduml

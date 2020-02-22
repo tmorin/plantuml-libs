@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRekognitionImageLg [20x20/16z] {
+NOlBeHWm3CA4ZKdtdxXEslVLKGXuTCwIvXjLW3hHT-cPrlRrQPAkTaozKbSrZvajWIbIvKjhJ1e5cumzaoRQi8TiAQZrR7je4zR9KdoJWwthQZBpnzIwrud4
+-7sjGuLfJhICIQrWv2FdKRs5GSwCU5HA4NJ4dDPRYpHubUB9OcdygMxrFgiuLxMsyRPJFAUtLRjRF7oE-SLV
+}
+
+!function AwsRekognitionImage($id, $name="Rekognition Image", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsRekognitionImage', $name, $tech)
+!endfunction
+!function AwsRekognitionImageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRekognitionImageLg>', 'Rekognition Image', $funcName, $content)
+!endfunction
+@enduml

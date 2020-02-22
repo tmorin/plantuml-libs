@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsDynamodbItemLg [20x20/16z] lT350GGn3CNGsFvI_nqlCzxcXHcQYnak6dFYGGA9a7NIsWlDobCVL9cdldWeI_xrZRCMFEzNAYj0dqJJatJ3U95uCP_wdjQUyFoEaspIz_Id9_Bfx_S
+
+!function AwsDynamodbItem($id, $name="Dynamodb Item", $tech="")
+  CloudElement($id, 'aws/Database/AwsDynamodbItem', $name, $tech)
+!endfunction
+!function AwsDynamodbItemCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDynamodbItemLg>', 'Dynamodb Item', $funcName, $content)
+!endfunction
+@enduml

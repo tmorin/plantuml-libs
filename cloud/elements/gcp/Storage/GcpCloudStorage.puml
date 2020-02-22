@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudStorageLg [20x20/16z] {
+RP350GL124Fnq7_3NtR7cNV3IUY16pIG64XBSUGWMglbWhrjM7Du6Zqt_7y0Umv2z1n0FE0vGpOtipnhOEzaw0-pUATlEKMPLV9oe_wISl-vQgiULA_0XwV0
+yBHu_mK
+}
+
+!function GcpCloudStorage($id, $name="Cloud Storage", $tech="")
+  CloudElement($id, 'gcp/Storage/GcpCloudStorage', $name, $tech)
+!endfunction
+!function GcpCloudStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudStorageLg>', 'Cloud Storage', $funcName, $content)
+!endfunction
+@enduml

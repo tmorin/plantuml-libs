@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureInformationProtectionLg [17x20/16z] {
+TS-50S0W30H0oCl-8vUl6rV58cs074BRq0UsW2q2eEpiwRAgHVxw-DYwpew9UapKPA9lCJAnrQ1D_k0JwGUaefEOKkeS8lLSFJ2BJD0Tivw9HuIWBy8Lz8f4
+FqWE-0aB
+}
+
+!function AzureInformationProtection($id, $name="Information Protection", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureInformationProtection', $name, $tech)
+!endfunction
+!function AzureInformationProtectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureInformationProtectionLg>', 'Information Protection', $funcName, $content)
+!endfunction
+@enduml

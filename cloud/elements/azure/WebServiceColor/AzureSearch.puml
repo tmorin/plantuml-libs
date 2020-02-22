@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSearchLg [20x20/16z] {
+PSk7bSDG24HHu0-81VTVxnAS_PJl6T4ZFW3azId2Z4eLl2IuVwkPOLS3QdLsqdQQxDbvcBt2q9hxzS0XDSygLk-hltI5HGxghAvq4IQ9cE7CF554f3DKcL_Z
+D17IcqXGbYYRNLCbfzxRkFR2jEajBv7Z2Ng4l6LcP7mIH0tyIVGHnz1d_aF_
+}
+
+!function AzureSearch($id, $name="Search", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureSearch', $name, $tech)
+!endfunction
+!function AzureSearchCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSearchLg>', 'Search', $funcName, $content)
+!endfunction
+@enduml

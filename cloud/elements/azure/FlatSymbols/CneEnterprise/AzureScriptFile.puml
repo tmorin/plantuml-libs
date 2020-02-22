@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureScriptFileLg [19x20/16z] {
+PSr9baGX20NH01iUN_Q_tUehrPCnl0furba0MehTgWabZhA-h8ARAcwAp5MRsfzkwhh980BVv1gGpNByKyymF8sci1_oPm93W3_ZXnWPXWO_t_SkIyVKpujT
+W74GOm9SPBmH9uaxbPRYJ4kUTIV_1
+}
+
+!function AzureScriptFile($id, $name="Script File", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureScriptFile', $name, $tech)
+!endfunction
+!function AzureScriptFileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureScriptFileLg>', 'Script File', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpStackdriverLg [20x20/16z] {
+RL1L0iKW3Ajck_-51zIUvWUBKGfmWGQ2WL2HS0zGLBlVO4cxtk-k87fi0UIRdu2plOwteRTe5t69FSWcpPKrY1OchYhcktDwnntCp5ztITSDR6qaAtc9rL0P
+tSKE4K6JwRnn1_p_t_xFW1W_j9dfjioP_flz0W
+}
+
+!function GcpStackdriver($id, $name="Stackdriver", $tech="")
+  CloudElement($id, 'gcp/HybridAndMultiCloud/GcpStackdriver', $name, $tech)
+!endfunction
+!function GcpStackdriverCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpStackdriverLg>', 'Stackdriver', $funcName, $content)
+!endfunction
+@enduml

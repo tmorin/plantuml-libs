@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAndroidPhoneLg [12x20/16z] {
+PKy70W8W2Cn0PHt_VsvWkyx17eVCX5cqI02X6a2fcuYOwzi0NnxWFtqKdlfotm_zwX5EHnyiXHAbpsuUCXzwvaEdtVgYKplKNSQZ9wzD7xC-T_ZNTU-zLdsQ
+3J2ZvVb43jKR
+}
+
+!function AzureAndroidPhone($id, $name="Android Phone", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureAndroidPhone', $name, $tech)
+!endfunction
+!function AzureAndroidPhoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAndroidPhoneLg>', 'Android Phone', $funcName, $content)
+!endfunction
+@enduml

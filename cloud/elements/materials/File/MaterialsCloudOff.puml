@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCloudOffLg [20x20/16z] {
+fO_50SH024NHFqhIVxKRz-E-KHpeFsG-hExAfuehY5BK6irEfJOG2xCW_7J4YEtdeVkdnZ3iofpN1m4LQzWTNOWiRC-vFhLrfx9wdqfYxxPdkfIKIqlqKc94
+avSo5oxbc8aji1ML7BLir644YMtZOyVHG1yqyrUvgpvC
+}
+
+!function MaterialsCloudOff($id, $name="Cloud Off", $tech="")
+  CloudElement($id, 'materials/File/MaterialsCloudOff', $name, $tech)
+!endfunction
+!function MaterialsCloudOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCloudOffLg>', 'Cloud Off', $funcName, $content)
+!endfunction
+@enduml

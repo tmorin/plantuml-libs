@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsInsertInvitationLg [20x20/16z] dSW54iGm241HT4e23FS_RRthsX_bmH8Y7Eybq-rLEuJ4JTRCXJQAkYbMbBfBtbeEUcd8pHpX4lefizuD7wnN-IzcxktHS0uE2yPB7AjHX5-A85XHRjhejoO
+
+!function MaterialsInsertInvitation($id, $name="Insert Invitation", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsInsertInvitation', $name, $tech)
+!endfunction
+!function MaterialsInsertInvitationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInsertInvitationLg>', 'Insert Invitation', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDatabaseMigrationServiceLg [20x20/16z] {
+JSq93aKn24BHFoY2-z_l6zlIcz6J4CLPhMIaJRvjkYJZ3ZOnm2l4Rly4aF4lshAGYOhTWi-ho-XjvDYIQyi2wjxUs8z5KMJz7sFtO_aK7DRFzibs8H8596mj
+ylb1sJfP5pCb6mKIAZtO8wri6zesF04
+}
+
+!function AwsDatabaseMigrationService($id, $name="Database Migration Service", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsDatabaseMigrationService', $name, $tech)
+!endfunction
+!function AwsDatabaseMigrationServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDatabaseMigrationServiceLg>', 'Database Migration Service', $funcName, $content)
+!endfunction
+@enduml

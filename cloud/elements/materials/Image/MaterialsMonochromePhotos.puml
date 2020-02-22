@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMonochromePhotosLg [20x20/16z] {
+bSt70GCW241HYbs1_RSDajwJVtmAm7zHykYEU9ct64wbMjkqQBLQanCjYwH6VP6RRj5U66EBd6qbmDxPZIwMWJALnJSsaEO0AEt66cHpuu6tbfvi4hO1sEhj
+ZGh8kNUwCKV2MX3kpAGpxj8s71RfZDQ8t-akWfyx
+}
+
+!function MaterialsMonochromePhotos($id, $name="Monochrome Photos", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsMonochromePhotos', $name, $tech)
+!endfunction
+!function MaterialsMonochromePhotosCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMonochromePhotosLg>', 'Monochrome Photos', $funcName, $content)
+!endfunction
+@enduml

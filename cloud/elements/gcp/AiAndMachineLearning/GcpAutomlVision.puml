@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAutomlVisionLg [20x20/16z] {
+TP050e0m30CxITB_VnW9m-5mTgk5AOCug3oeCIJc0OVQyqBVDEK5MKGke2_GRsk2LMCSgweHt9uWcORHPR_bWRgi5IqN4l1F9-r8b2gLwd_DOfeME1uh917M
+w5gSPSMPwruL-uBVyDFRUmOM-TAEcKewPlgQ_Gm
+}
+
+!function GcpAutomlVision($id, $name="Automl Vision", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlVision', $name, $tech)
+!endfunction
+!function GcpAutomlVisionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAutomlVisionLg>', 'Automl Vision', $funcName, $content)
+!endfunction
+@enduml

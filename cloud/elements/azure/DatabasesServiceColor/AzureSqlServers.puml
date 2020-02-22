@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSqlServersLg [20x20/16z] {
+PSv70W0X24DH2OI8zx_lz3v_vxFHbcoltS5Zpt6InTrnr0t1N6EWOTDAXs7D3DHcOunI9ibKxwTjLQ_gFrkwRLcE8IrmMpWhW11qMe4bA2rl6q8G2nEgyzns
+X84qAW5VZPubM7RtI99spj8ZUbSI5epNV9dMZ7YQ3gk7dNUXUjpbqZeEgFMCCj324QtD
+}
+
+!function AzureSqlServers($id, $name="Sql Servers", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlServers', $name, $tech)
+!endfunction
+!function AzureSqlServersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSqlServersLg>', 'Sql Servers', $funcName, $content)
+!endfunction
+@enduml

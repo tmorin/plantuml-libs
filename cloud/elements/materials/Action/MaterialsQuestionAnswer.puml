@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsQuestionAnswerLg [20x20/16z] fSZ50GCn300mEypPVzgoeNIef-0der2rqLz6mTUDoUhcmvJmw-emfw-c-1I0hbeWTCM2TSItnrd0FCNj7a8cdG-GkCOdN9EJf5jt1G
+
+!function MaterialsQuestionAnswer($id, $name="Question Answer", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsQuestionAnswer', $name, $tech)
+!endfunction
+!function MaterialsQuestionAnswerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsQuestionAnswerLg>', 'Question Answer', $funcName, $content)
+!endfunction
+@enduml

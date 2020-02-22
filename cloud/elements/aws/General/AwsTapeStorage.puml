@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTapeStorageLg [20x20/16z] {
+lKx50KDH38f3kl_0VJx2vn95v1juLkXiDAfyDUWCq4ICZ0J66OLn2weovbmGfrZOQ3DBtCUIFZfbHm5myQONS-_SykpCa8FhERanhX6BAwXw7ZLMYPc56VWr
+q3-iB3UpBKIbopVu0m
+}
+
+!function AwsTapeStorage($id, $name="Tape Storage", $tech="")
+  CloudElement($id, 'aws/General/AwsTapeStorage', $name, $tech)
+!endfunction
+!function AwsTapeStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTapeStorageLg>', 'Tape Storage', $funcName, $content)
+!endfunction
+@enduml

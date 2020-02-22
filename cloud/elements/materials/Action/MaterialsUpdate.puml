@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsUpdateLg [20x20/16z] {
+bOy5ae0m34KRgqta_gV54bR6-L1xyVPHW0Z_2KzrrqdNZSfd-6GYMTPPETbuBs8HUMMxppiTQZ7Out6cXZkAeJzfvyNe4ZoXYiLAlwoFsmCc_Oa5MLSgCimQ
+FGDGeFMTquXIAv5AZJ4t5TeJsWkr4o9rBPJvjwdQba95aHcXVTC9
+}
+
+!function MaterialsUpdate($id, $name="Update", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsUpdate', $name, $tech)
+!endfunction
+!function MaterialsUpdateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsUpdateLg>', 'Update', $funcName, $content)
+!endfunction
+@enduml

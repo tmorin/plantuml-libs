@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsFsxForLustreLg [20x20/16z] RSZ70GD1548nfm7UxxzVvxpeA6xopQOa9Ib9IKfI4eWT-Mi7TAlOCSyRf5Y9bgyUDtA8uhLEfwCVPqWa-RIEqkE0E07BkPa7FjgHAJabf-IKd98N
+
+!function AwsFsxForLustre($id, $name="Fsx For Lustre", $tech="")
+  CloudElement($id, 'aws/Storage/AwsFsxForLustre', $name, $tech)
+!endfunction
+!function AwsFsxForLustreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFsxForLustreLg>', 'Fsx For Lustre', $funcName, $content)
+!endfunction
+@enduml

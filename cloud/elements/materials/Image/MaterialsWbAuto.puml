@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWbAutoLg [20x20/16z] {
+hP25WG0W24K_Y6BUst_Qw-vIka5_V1wr5djXoGDSZFBCD67bW1EIJ3Ap3bJvlcLbkbeBOBlKWLIbQCG0kee5C2ndy-a727Mt1Rlqw37im3A5A-7qjDwR1gJC
+NS5jboGKKDJPDydd5CLnMIVRWTxM3fVCxsU-VIS-tUtf1l_ohW
+}
+
+!function MaterialsWbAuto($id, $name="Wb Auto", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsWbAuto', $name, $tech)
+!endfunction
+!function MaterialsWbAutoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWbAutoLg>', 'Wb Auto', $funcName, $content)
+!endfunction
+@enduml

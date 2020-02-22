@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTabUnselectedLg [20x20/16z] {
+ZT253OH0503HcVnDSEY_sXFSuQsxy9OIWGaYzOGio3AYrBhhvI8eoDHNzNszkQ_MCWvz9EdDPmHdp7RzaNdMnvcqwpPXkLzRYkmuH7UrvG_AePQj_oeDDNdh
+2m
+}
+
+!function MaterialsTabUnselected($id, $name="Tab Unselected", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTabUnselected', $name, $tech)
+!endfunction
+!function MaterialsTabUnselectedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTabUnselectedLg>', 'Tab Unselected', $funcName, $content)
+!endfunction
+@enduml

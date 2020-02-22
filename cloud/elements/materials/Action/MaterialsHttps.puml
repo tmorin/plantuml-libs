@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHttpsLg [20x20/16z] {
+ZOw30GL134GdEcpKVxNVvhrbFBX2X1TuTf_vsUMBwk9FpcKXW9RvmKMknqUT7droVEJ1Hnh61opqwfIehYE79mGdh1-mFxvSrtprJS3qwXD0_kQzzjkkHRpo
+GhdW33-0B-m1
+}
+
+!function MaterialsHttps($id, $name="Https", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsHttps', $name, $tech)
+!endfunction
+!function MaterialsHttpsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHttpsLg>', 'Https', $funcName, $content)
+!endfunction
+@enduml

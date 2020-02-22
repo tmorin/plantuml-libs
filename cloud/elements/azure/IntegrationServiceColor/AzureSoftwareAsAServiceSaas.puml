@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSoftwareAsAServiceSaasLg [20x20/16z] {
+NS_70G0X24HH1MO0--zt0xhnUtlcjX83eUsTWcVM7nAkR47l0bx9shRaMMWymbMP5j6F8iCFb8Pf017qmmZXjAxMNFGqOgspMiSoQfdJ8_8OjQvPhHD5Tx5v
+NdqBr8DTuIYgVz0pSsHIdWz3uHe6j2U8yJplROn8pmY-BCO8v1W_Ou-l-R9vtWu
+}
+
+!function AzureSoftwareAsAServiceSaas($id, $name="Software As A Service Saas", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas', $name, $tech)
+!endfunction
+!function AzureSoftwareAsAServiceSaasCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSoftwareAsAServiceSaasLg>', 'Software As A Service Saas', $funcName, $content)
+!endfunction
+@enduml

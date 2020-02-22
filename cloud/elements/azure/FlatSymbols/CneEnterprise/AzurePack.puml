@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePackLg [22x20/16z] {
+RSx50SD034JHqOXbwB_RCCT_-PqMjthwrZG-Aa9C0Qal5TWoXEIFThL3wa_dG4LLVZIfbP4k_gdY4QavAP_AKLdMChTFzShkyDVFU4qYjatXOy5RIrMbHgoh
+GJgJUO5fW4whkaveq0JeYyPQx0IdipL6Ryh9CPPJhTogwgOolIZ4CuE8cRmfH0c80Ig0AYuwcLLrsGB8UZo6PEshaG88wTkU5uBLkcyTk2OvsxuaSGO
+}
+
+!function AzurePack($id, $name="Pack", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePack', $name, $tech)
+!endfunction
+!function AzurePackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePackLg>', 'Pack', $funcName, $content)
+!endfunction
+@enduml

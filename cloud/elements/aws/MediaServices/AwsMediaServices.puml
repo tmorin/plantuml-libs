@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsMediaServicesLg [20x20/16z] ZS_L0S0W54DHv2Nf_WlN3UVoTt1NpMSTH2N1xwObgMUw-fjmfSJELI3uDyDk5asV7OCYa1WjiMHl_uuhTTuy_r-asM4XpUzMQGC
+
+!function AwsMediaServices($id, $name="Media Services", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsMediaServices', $name, $tech)
+!endfunction
+!function AwsMediaServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMediaServicesLg>', 'Media Services', $funcName, $content)
+!endfunction
+@enduml

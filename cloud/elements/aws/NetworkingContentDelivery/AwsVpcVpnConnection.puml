@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcVpnConnectionLg [20x20/16z] {
+POw50KCX50DvCThz1_xk71OERGSbeRrXhFYZQkdzai4-r7NJCjcZs5IhwW683HBfYyG_Vf0_rWDPsl4KMlQ8LjcTrR0d9Bziz1vUdri0rbu-t3fMmYDVJaA-
+3Zr-k-DBNqUFhZ2wTsRNHGvNyWqMCGC
+}
+
+!function AwsVpcVpnConnection($id, $name="Vpc Vpn Connection", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcVpnConnection', $name, $tech)
+!endfunction
+!function AwsVpcVpnConnectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcVpnConnectionLg>', 'Vpc Vpn Connection', $funcName, $content)
+!endfunction
+@enduml

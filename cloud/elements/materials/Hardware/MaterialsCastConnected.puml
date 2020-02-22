@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCastConnectedLg [20x20/16z] {
+ZP054iGm3CIq3gVEtFz_UsKQgi8AcwyelX2gOtemgkH93vBFBd9NH9-zaVtOw9dPCMFPVpjbMnTjjlNXceyQKBavK6mZeNfpDkiqCjQllRqdpJAIhdKXUnMb
+I-tsbZ1bR4IkDnSZ3gDbkFxMvnB93JjYG8XpCIoW8rPV-GC
+}
+
+!function MaterialsCastConnected($id, $name="Cast Connected", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsCastConnected', $name, $tech)
+!endfunction
+!function MaterialsCastConnectedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCastConnectedLg>', 'Cast Connected', $funcName, $content)
+!endfunction
+@enduml

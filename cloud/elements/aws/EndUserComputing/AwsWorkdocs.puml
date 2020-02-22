@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsWorkdocsLg [20x20/16z] fT350OGm04JHjR7qt-yQ5haW_yOZNWwKNoqH_rXHu7pZKxNzvudaOCgCjPKDDzimaBy1alXaRVoPY7gkFNzSD-URb6z6wZTeNo9LvK0V
+
+!function AwsWorkdocs($id, $name="Workdocs", $tech="")
+  CloudElement($id, 'aws/EndUserComputing/AwsWorkdocs', $name, $tech)
+!endfunction
+!function AwsWorkdocsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWorkdocsLg>', 'Workdocs', $funcName, $content)
+!endfunction
+@enduml

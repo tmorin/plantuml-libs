@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalTaxiLg [20x20/16z] {
+bP15WiCm3035a1Z-_zhTjdBerevvp8BVG7c1JoVpXTm4k-VRfJl38fGN6ajHudbiKdNKuCIqskJBSTRMdduIdUePUxJveSLU3vB18EK4U9JhT3dgvMRQNcwt
+dCizMAx5UMqhn_F-ZyaL9e8J4eIl-GS
+}
+
+!function MaterialsLocalTaxi($id, $name="Local Taxi", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalTaxi', $name, $tech)
+!endfunction
+!function MaterialsLocalTaxiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalTaxiLg>', 'Local Taxi', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudNetworkLg [20x20/16z] {
+TL150WH029fGuFyVtX9dcvj9Z0UcCGuM3fPR4pg0LqClY5hZQu-FnNJXKTu9MAszFRlHDC5kAfY04h2hoQ0FCpFchigz6PdmIzP8YAJaLal1REauMjHQj5uq
+kvM_lFtBm5drscUcTAO_ihy2
+}
+
+!function GcpCloudNetwork($id, $name="Cloud Network", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudNetwork', $name, $tech)
+!endfunction
+!function GcpCloudNetworkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudNetworkLg>', 'Cloud Network', $funcName, $content)
+!endfunction
+@enduml

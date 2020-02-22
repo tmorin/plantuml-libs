@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsNotificationsPaused element
+include('elements/materials/Social/MaterialsNotificationsPaused')
+MaterialsNotificationsPaused('element', 'Notifications Paused', 'an optional tech field')
+@enduml

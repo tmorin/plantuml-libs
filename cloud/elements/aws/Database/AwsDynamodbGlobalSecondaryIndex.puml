@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsDynamodbGlobalSecondaryIndexLg [20x20/16z] TP375KGn20Fz4IFrN_4cdc_it1n0eO1gwE9Ik4CWf0T3dyRdc3v30m-uol0Ce3XoOiL3j6l8f3jOmp-DCf62Qm3P5ZRoHTlTChjgR5usprksfODLO-bqrNW3
+
+!function AwsDynamodbGlobalSecondaryIndex($id, $name="Dynamodb Global Secondary Index", $tech="")
+  CloudElement($id, 'aws/Database/AwsDynamodbGlobalSecondaryIndex', $name, $tech)
+!endfunction
+!function AwsDynamodbGlobalSecondaryIndexCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDynamodbGlobalSecondaryIndexLg>', 'Dynamodb Global Secondary Index', $funcName, $content)
+!endfunction
+@enduml

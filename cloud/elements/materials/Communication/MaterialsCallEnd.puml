@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCallEndLg [20x20/16z] nSw53GCn30LGis9G_lxJbdc0tXCbPleZllZwQsHVP2W_8fQxmiqyQgTTevB02Dt802ba3Q2VBRUF9NvZICbBoEZ1wjOikOHUP5r2buQVG-amPm
+
+!function MaterialsCallEnd($id, $name="Call End", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsCallEnd', $name, $tech)
+!endfunction
+!function MaterialsCallEndCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallEndLg>', 'Call End', $funcName, $content)
+!endfunction
+@enduml

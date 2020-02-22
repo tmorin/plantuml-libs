@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureWebSiteGeneric element
+include('elements/azure/FlatSymbols/CneEnterprise/AzureWebSiteGeneric')
+AzureWebSiteGeneric('element', 'Web Site Generic', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudformationTemplateLg [20x20/16z] {
+VP350K0n34AHXkw_yNUNTum2WDi5OwHVQtqiCO14R8HpJRswRZKNIlA4zjeqvvhmLiFKl-rEF7yaVFw8m8cZ5aSj4_iFLZN-_JZcwl4ZojCR7p-KX0jVFrup
+VSj-
+}
+
+!function AwsCloudformationTemplate($id, $name="Cloudformation Template", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudformationTemplate', $name, $tech)
+!endfunction
+!function AwsCloudformationTemplateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudformationTemplateLg>', 'Cloudformation Template', $funcName, $content)
+!endfunction
+@enduml

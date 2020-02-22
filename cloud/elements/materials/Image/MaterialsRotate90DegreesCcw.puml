@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRotate90DegreesCcwLg [20x20/16z] {
+VT254KCX301GB4wE_RTjxXFgBSx3AVz2XKzY_gHbqEkBDLjkRlZGsagVN1j6SOWr4AFLDN2JQU3LwJwIUfN0Av0aHNbmpAXfzNsmvkAmuR5vLcdPErJ0wju2
+uL0LsetXAwc0zvAOLC7X-QT6xo3FL1fFTwF-zbkjrV8xt
+}
+
+!function MaterialsRotate90DegreesCcw($id, $name="Rotate90 Degrees Ccw", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsRotate90DegreesCcw', $name, $tech)
+!endfunction
+!function MaterialsRotate90DegreesCcwCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRotate90DegreesCcwLg>', 'Rotate90 Degrees Ccw', $funcName, $content)
+!endfunction
+@enduml

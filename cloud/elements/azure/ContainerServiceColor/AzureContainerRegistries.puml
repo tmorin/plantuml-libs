@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureContainerRegistriesLg [24x20/16z] {
+NS_70GGW24HH9s3_9IyCc__DPpv9rV7y1TzaWFZYMgxkVctJgW1bXPwUWGcPe7iBFiS8oYaYLOfp79pZvpXhxzupoRtrraonLuz--sIhtfxkSlc-tP9tzVHU
+Ju2TfBYUVkYi5ISPNd-_SouLUQ3wVezhzys7kxFUaE99yORjxLd_LcaioM591CvNiB_e0G
+}
+
+!function AzureContainerRegistries($id, $name="Container Registries", $tech="")
+  CloudElement($id, 'azure/ContainerServiceColor/AzureContainerRegistries', $name, $tech)
+!endfunction
+!function AzureContainerRegistriesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureContainerRegistriesLg>', 'Container Registries', $funcName, $content)
+!endfunction
+@enduml

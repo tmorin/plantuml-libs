@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureToolsLg [19x20/16z] {
+LSe93W0n249H1F7-DvwjrMR8PfuVGDZ2MU2poW6jaovkiOFnKdMM9IWVKvFCDqYbDycnqc_M2E8pKz7oZ6HIQXb-mp_bI-81PdtaCRsWa1y-KaBuIqSS0DjK
+_MmREIQtj1cqXHap2QYbTmC
+}
+
+!function AzureTools($id, $name="Tools", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureTools', $name, $tech)
+!endfunction
+!function AzureToolsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureToolsLg>', 'Tools', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAvTimerLg [20x20/16z] {
+bP254SGm40DjoOpzLnlM18R-5VGUd_bNTB1V5kSe_gOsRFyfC_HaXTBS_htVugkWRq7_RFvqA-5s2ENuelEEOiV-SGsU6umRyMZkPWOKKwp43jMGLCFunjs3
+TozxpvNcxbcm1mBNR8A-zDQwTY0AfrtzhXK
+}
+
+!function MaterialsAvTimer($id, $name="Av Timer", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsAvTimer', $name, $tech)
+!endfunction
+!function MaterialsAvTimerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAvTimerLg>', 'Av Timer', $funcName, $content)
+!endfunction
+@enduml

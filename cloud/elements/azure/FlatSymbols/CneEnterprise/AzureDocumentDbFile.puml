@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDocumentDbFileLg [19x20/16z] {
+PSk53GD130NHRtjZxh_TS78B8txISFIS0V1o--VL2hHZAlffRHkrVOW440OiefxuaaY6rS0p-v3KxUbf4uqI0Ea7nKIKGG2qnaLnqJNoD4wKDf6y5bw8F1cM
+CX5806PCDFSatyZRostEopbwBVW1
+}
+
+!function AzureDocumentDbFile($id, $name="Document Db File", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDocumentDbFile', $name, $tech)
+!endfunction
+!function AzureDocumentDbFileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDocumentDbFileLg>', 'Document Db File', $funcName, $content)
+!endfunction
+@enduml

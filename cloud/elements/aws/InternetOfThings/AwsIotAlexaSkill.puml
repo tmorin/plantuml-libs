@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAlexaSkillLg [20x20/16z] {
+RP05aiDG34Fz9Jqdzx_mRjimQCXZ4bGv5xYguDg3CdK3JfPAjfRAotsvIMYVUa5A9BBtp80O1jvwlIoKKQyz8LPAeQNd90VbQ-z-QtJZ6As-Q1bL69yraz6G
+YxTfdgVTsqi6RraL-0Aej-p_0G
+}
+
+!function AwsIotAlexaSkill($id, $name="Iot Alexa Skill", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAlexaSkill', $name, $tech)
+!endfunction
+!function AwsIotAlexaSkillCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAlexaSkillLg>', 'Iot Alexa Skill', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCloudCycleLg [28x20/16z] {
+TP5PbiCm20H5Bzp_nZC91hBtdrKFocgTAq4xhJYVWRDY_a0LWX9YKGpQ6CEO4_iTQcG8BEordi_d5NZMcRN28kXC5M8HnGdIEwsPCgDlOhQ4TJaITwAP1l9Y
+KVyp13NjrjiYvI6Xd7YB5ACQJrkw3XMKLC8YvUaol9r2dh8mNH106LSv7Ugit2wbB6_TbErHzlddCxToj_y3
+}
+
+!function AzureCloudCycle($id, $name="Cloud Cycle", $tech="")
+  CloudElement($id, 'azure/Companies/AzureCloudCycle', $name, $tech)
+!endfunction
+!function AzureCloudCycleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCloudCycleLg>', 'Cloud Cycle', $funcName, $content)
+!endfunction
+@enduml

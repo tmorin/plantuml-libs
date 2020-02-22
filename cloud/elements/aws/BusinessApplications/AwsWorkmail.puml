@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsWorkmailLg [20x20/16z] hSYr0G0W34JH9dhxxuix9Nmq3sy9yOYa6f5wIucgiRBLdwLlCxUAwV5Xo5YkQMKklbh2H8V17PVLlfZvo9e9BmdUYW
+
+!function AwsWorkmail($id, $name="Workmail", $tech="")
+  CloudElement($id, 'aws/BusinessApplications/AwsWorkmail', $name, $tech)
+!endfunction
+!function AwsWorkmailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWorkmailLg>', 'Workmail', $funcName, $content)
+!endfunction
+@enduml

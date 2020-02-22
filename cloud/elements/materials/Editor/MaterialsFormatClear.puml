@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatClearLg [20x20/16z] hSwr0SD040NHltWawBzQitIKc2PyqU3l2K72cG80nKJm_SXnedhUivkve2AbNN5qe6T2Zv70wACK2ME-JqXbAoFQ7Zcc3XyZr2C79npOHz4m8-6JhW
+
+!function MaterialsFormatClear($id, $name="Format Clear", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatClear', $name, $tech)
+!endfunction
+!function MaterialsFormatClearCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatClearLg>', 'Format Clear', $funcName, $content)
+!endfunction
+@enduml

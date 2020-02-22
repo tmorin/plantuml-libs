@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSiteToSiteVpnLg [20x20/16z] hOt50G9154EnQFy5iwv7UAFValw1MBccGC7d7DKQnoOEQtZeuLdW2mildle6Zdr3yWEIdwEB6OiEUSYf0JoyfrpnINN9YRtbafvdeGaSSj52-YjV
+
+!function AwsSiteToSiteVpn($id, $name="Site To Site Vpn", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsSiteToSiteVpn', $name, $tech)
+!endfunction
+!function AwsSiteToSiteVpnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSiteToSiteVpnLg>', 'Site To Site Vpn', $funcName, $content)
+!endfunction
+@enduml

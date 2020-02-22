@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFavoriteLg [20x20/16z] {
+bSt50O0m343H61hRVrhSmgqVVrIW8MIX_Kd2U95efez4esUgd1IvfvfxiIDEMPeGWAoQqMPUpJV3kTgyRzrNws6Bvj-mFRQNZE5C_2ONkElyeWxUn9vH5KsW
+ngeC_uYWjHK
+}
+
+!function MaterialsFavorite($id, $name="Favorite", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFavorite', $name, $tech)
+!endfunction
+!function MaterialsFavoriteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFavoriteLg>', 'Favorite', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSettingsLg [20x20/16z] {
+RP053WGn30DJ3lZ_xpsNZcSnO6bK8Qdvc1-pAfSIY2nI0K-tbnmm7NohF54S-guPQiowgWDH9HNMDW9MaqYgZb0FVeZdarcLQgp4eO7La6AV1Zepuzt0qELl
+xpER0rR40a2xlSuYr9PBsQqQgwhBsLjci0T5B9haFGuplbcpiHWuZ7S3cEfyovj1b7kqb-PBMsrBFG
+}
+
+!function AzureSettings($id, $name="Settings", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSettings', $name, $tech)
+!endfunction
+!function AzureSettingsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSettingsLg>', 'Settings', $funcName, $content)
+!endfunction
+@enduml

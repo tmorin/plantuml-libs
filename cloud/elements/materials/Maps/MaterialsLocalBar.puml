@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalBarLg [20x20/16z] {
+dSy5ZWDH201Gx2js_zjknYMoRLyS1pw6ye1BJDBrv2bBZAOoxbWdmOAqqHQYfWmRDjEL6SD1F5SkS2cnXAB0NLrY5PvQPiDN3CT0UEiTVeejB_I-F7EhCTK8
+LRlLikmOll47
+}
+
+!function MaterialsLocalBar($id, $name="Local Bar", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalBar', $name, $tech)
+!endfunction
+!function MaterialsLocalBarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalBarLg>', 'Local Bar', $funcName, $content)
+!endfunction
+@enduml

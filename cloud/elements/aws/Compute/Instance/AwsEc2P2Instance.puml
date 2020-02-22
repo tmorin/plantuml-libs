@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2P2InstanceLg [20x20/16z] {
+ZL230GDH50lV_XiNfnhvPW008dnq6o8Mzj9XWJFjf6iNRxVke01oYJkmrhizCFTxoz8T0f2m2k7KG0YmoVeB3mxL1Sjx3es9UET0jXUUVRPmhE3EyKRBtpxU
+PF0cg_UPlil-3
+}
+
+!function AwsEc2P2Instance($id, $name="Ec2 P2 Instance", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2P2Instance', $name, $tech)
+!endfunction
+!function AwsEc2P2InstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2P2InstanceLg>', 'Ec2 P2 Instance', $funcName, $content)
+!endfunction
+@enduml

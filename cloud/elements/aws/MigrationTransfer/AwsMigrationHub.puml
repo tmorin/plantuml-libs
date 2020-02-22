@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMigrationHubLg [20x20/16z] {
+PSs5bGCW40JGansZ_uApF2Gs-CUIU4SdB-ON-y8i5CYYNomkL4VsCRA5R0IsgS46klqNbxbgKgFg_zvLWAf6mfP66sYYzTeOywxcEMfzFGrbGuBNRswB0Jbf
+wd7Pc3zCgnwE3NFz0Hth9AfIaZSBcLTRkBBi6yV9Ypq
+}
+
+!function AwsMigrationHub($id, $name="Migration Hub", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsMigrationHub', $name, $tech)
+!endfunction
+!function AwsMigrationHubCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMigrationHubLg>', 'Migration Hub', $funcName, $content)
+!endfunction
+@enduml

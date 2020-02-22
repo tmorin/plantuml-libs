@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureConnectionsLg [20x20/16z] {
+RP254GHH24CtmlPVyZ7aSyuOF3pN65ttNMQYGonIhbgg4kAXtOFUMmRo3H49hHTo-t9pVA0BHNk6BsgpCrCDTSvJBg8RGaPMtytUuB3kVOEQtkmumv0TkMNd
+vvQvcK6d8xzXKSA_6dnhzQtfjz9jInu
+}
+
+!function AzureConnections($id, $name="Connections", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureConnections', $name, $tech)
+!endfunction
+!function AzureConnectionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureConnectionsLg>', 'Connections', $funcName, $content)
+!endfunction
+@enduml

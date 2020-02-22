@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAddCircleOutlineLg [20x20/16z] {
+VL254S1022joI0_s7xUkxuuccGO34E5lO8_CS7xDwAbCn9gEjsbsEb_aysa4TzYlut0xqZcFADKZCdc_JAVZikFI_OBWhurZIyOj5TGimanXIyQMhPNRwD73
+0bPWRd3hQV1gPGmDJVjZ1G
+}
+
+!function MaterialsAddCircleOutline($id, $name="Add Circle Outline", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsAddCircleOutline', $name, $tech)
+!endfunction
+!function MaterialsAddCircleOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAddCircleOutlineLg>', 'Add Circle Outline', $funcName, $content)
+!endfunction
+@enduml

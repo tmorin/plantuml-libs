@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsRegionLg [20x20/16z] hOtL0SLG24EVG6J_WUlEJ-rSnH9VGQgvY9hBh3d-S-JFDOVnHVYOKwZadDpaKkmG_bfpaHF5O-Nz72Dup8cKRz02
+
+!function AwsRegion($id, $name="Region", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsRegion', $name, $tech)
+!endfunction
+!function AwsRegionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRegionLg>', 'Region', $funcName, $content)
+!endfunction
+@enduml

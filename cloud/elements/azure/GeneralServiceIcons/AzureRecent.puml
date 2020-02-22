@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureRecentLg [20x20/16z] {
+LP27SG0m20CH896w_xh1ZRky-xjZcqWr6JOuHMQo6xygn80v3A7AgnBTY5s1M_fMsntfNH4Mp_LOij0IppLHaSH_X-BhclGwfJHOW--lqnh7nU_l1_susPja
+VGXhxzpH81A6udlB41Mstpp28CtVcldRn02O64oicebLuwmIgQxTXc0r3Dly0G
+}
+
+!function AzureRecent($id, $name="Recent", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureRecent', $name, $tech)
+!endfunction
+!function AzureRecentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRecentLg>', 'Recent', $funcName, $content)
+!endfunction
+@enduml

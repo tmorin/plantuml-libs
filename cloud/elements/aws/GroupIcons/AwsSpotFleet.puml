@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSpotFleetLg [20x20/16z] {
+bP35WGG020CVJ2Rqt_3vhIilFBBlHdjHrSp47YR5O2AH_st7d_MA_xSHLm3pjoThcYZzNuox7HYf-JsThA45ckbVxwSiSVzw6ui3tsNoZr4qwS_mo0LmFN9P
+iUrk7VTSMuZqlWU7oRln2G
+}
+
+!function AwsSpotFleet($id, $name="Spot Fleet", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsSpotFleet', $name, $tech)
+!endfunction
+!function AwsSpotFleetCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSpotFleetLg>', 'Spot Fleet', $funcName, $content)
+!endfunction
+@enduml

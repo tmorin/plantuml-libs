@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPanToolLg [20x20/16z] {
+dT053i0W30LGAhZy-vzslX4Qtu_oiBRkIoZioAt9K2awrnGy7UOHf_6eV1kfVDOUurx8clJspy9XOzh87QMWPap3bqgEevAr22IHlXWbe1SiTY6C6Np-fMpF
+MSnlVHF7DrQE_QPoq0u
+}
+
+!function MaterialsPanTool($id, $name="Pan Tool", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPanTool', $name, $tech)
+!endfunction
+!function MaterialsPanToolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPanToolLg>', 'Pan Tool', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmScaleSetsLg [20x20/16z] {
+JT270OH020LHmWVjl-BZ6DEOdtdrhSfjKdtgsxgh58a6LZDpuoJ5shVkn7gg3BRO9EvcAq6VciFhBazs7jlFY5gJC6MOQyqyiOpKj6PncOSoRvFstlWRzquk
+til9ozXlrfX9zKcskPlbSHnYTq9rdcSXbCN3TbH_
+}
+
+!function AzureVmScaleSets($id, $name="Vm Scale Sets", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmScaleSets', $name, $tech)
+!endfunction
+!function AzureVmScaleSetsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmScaleSetsLg>', 'Vm Scale Sets', $funcName, $content)
+!endfunction
+@enduml

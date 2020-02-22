@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotCameraLg [20x20/16z] {
+TL35WKKn27mmmlPVyH8zvKy4r-yN4CX6awiAGsm8ZgsIF8udqV8Qv4B34_ON6IafMxJHRb3epsRIcI6q8rOQQppJQhySXEcgSgJCR9si_5I2YqkuEdme7Hq7
+OGagxbXewC83CVnMBs8cgmf9hLxir4NQUCpssC5ZL--Tll4F
+}
+
+!function AwsIotCamera($id, $name="Iot Camera", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotCamera', $name, $tech)
+!endfunction
+!function AwsIotCameraCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotCameraLg>', 'Iot Camera', $funcName, $content)
+!endfunction
+@enduml

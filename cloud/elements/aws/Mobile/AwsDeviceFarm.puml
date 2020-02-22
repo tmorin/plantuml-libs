@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeviceFarmLg [20x20/16z] {
+bP253GHG348ZvG5__ttFtOzOKqFMlsYVMfPytuq0b6kdaCuaqEjIV40kgq6JGp5pxI6vjGINNb9cQ7BRMzLq9RxqeCjU2xZZsFKoKcwrW1qfBpM_zlOwWsjM
+_s8B
+}
+
+!function AwsDeviceFarm($id, $name="Device Farm", $tech="")
+  CloudElement($id, 'aws/Mobile/AwsDeviceFarm', $name, $tech)
+!endfunction
+!function AwsDeviceFarmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeviceFarmLg>', 'Device Farm', $funcName, $content)
+!endfunction
+@enduml

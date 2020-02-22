@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSwitchVideoLg [20x20/16z] hO_50G0n40BPkAV_Qi_zU6P-gm168yxVsBsdMh-9W55xhrqzCMNlPPVNshMUN6rRhsX9fLGlRhtOUaK3iW8iJTgZjqo3Uc6UIRRnp
+
+!function MaterialsSwitchVideo($id, $name="Switch Video", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsSwitchVideo', $name, $tech)
+!endfunction
+!function MaterialsSwitchVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSwitchVideoLg>', 'Switch Video', $funcName, $content)
+!endfunction
+@enduml

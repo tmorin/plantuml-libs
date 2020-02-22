@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewComfyLg [20x20/16z] hK-35GHH3BmaCz_elzfRFQyH6x_FmRodUk_KpUnrZA5tRxL7BJrRx6qlfe39mX0RUOgHDZA4f63ag_EsUZTsN9wt-TlNC
+
+!function MaterialsViewComfy($id, $name="View Comfy", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsViewComfy', $name, $tech)
+!endfunction
+!function MaterialsViewComfyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewComfyLg>', 'View Comfy', $funcName, $content)
+!endfunction
+@enduml

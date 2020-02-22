@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsChildFriendlyLg [20x20/16z] {
+VP050iKW240b31Jq_gTT6Z_tDei6zmp2bmXA3lWfqzOAVSjQmMzPYpzaYkUL6NiEEpaZebQ1IqWNrnr89IvwajWMjSl8bYoFPcJ9k8j8jLu2K-kDG8xeJtTb
+bDJdeNmE81O15tey4A6WvDWyvz4RYHL_d44juMorZnFx-OCT
+}
+
+!function MaterialsChildFriendly($id, $name="Child Friendly", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsChildFriendly', $name, $tech)
+!endfunction
+!function MaterialsChildFriendlyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsChildFriendlyLg>', 'Child Friendly', $funcName, $content)
+!endfunction
+@enduml

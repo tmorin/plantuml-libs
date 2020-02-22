@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCloudwatchAlarmLg [20x20/16z] fOlL0O0m44FF4lQV6EhwoQjUH3OqGcN72D1sZPRrlLb6xcrgDoPEJriE4JWbOmGjVn97rn_WyQQ52BA6ydgY_ATMqxisx_-QAdpUMJCcRBr50ubORxMui0y
+
+!function AwsCloudwatchAlarm($id, $name="Cloudwatch Alarm", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchAlarm', $name, $tech)
+!endfunction
+!function AwsCloudwatchAlarmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudwatchAlarmLg>', 'Cloudwatch Alarm', $funcName, $content)
+!endfunction
+@enduml

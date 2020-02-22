@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureGenericAppLg [30x20/16z] jS-34KH144NHSJF_T9TlyUrJxBf3luvDUyIQ9v5R2fFQiyOCpuNfEw1cypTvL5PWrE9_DIQ8OxKHjFcw_MGsaB7w-z5OBGqgQXAWHwNlW3fXkJhJ9FLvTm
+
+!function AzureGenericApp($id, $name="Generic App", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericApp', $name, $tech)
+!endfunction
+!function AzureGenericAppCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGenericAppLg>', 'Generic App', $funcName, $content)
+!endfunction
+@enduml

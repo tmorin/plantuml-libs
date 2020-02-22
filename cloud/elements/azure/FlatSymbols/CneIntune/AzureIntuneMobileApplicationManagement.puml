@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneMobileApplicationManagementLg [20x20/16z] {
+XSpNWSKm24HH8sP8xh_VXUVyjTTHHs7hO4yafMdbVXSTnyBlpCnjZDkxnSTKLKvRIzj4rK3g6aCLsr0HbPunnY3Qr04dZ3_ZxpoaMGR3trQPLLdnMF-j9TBF
+QM9uHt1ELGNqJjecwlPqclrhZia_LfMMLMz3xMtxnuGsKLxs1m
+}
+
+!function AzureIntuneMobileApplicationManagement($id, $name="Intune Mobile Application Management", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement', $name, $tech)
+!endfunction
+!function AzureIntuneMobileApplicationManagementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneMobileApplicationManagementLg>', 'Intune Mobile Application Management', $funcName, $content)
+!endfunction
+@enduml

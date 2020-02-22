@@ -1,0 +1,13 @@
+@startuml
+sprite $Materials3dRotationLg [20x20/16z] {
+ZK-54GCW38nRRVzjYrvT7dy10XiOvRmFD_9oZ6SMdQK4Na3vZYnw9IMsIctmSE1wHyqKqyon7tpQcag18DOEd2lRV8sZ66cSdDgDW-HklsKxNDja3VkD1cxo
+xIyByNSn-OuiOSVdU1ml-Km2MyMDl08
+}
+
+!function Materials3dRotation($id, $name="Rotation", $tech="")
+  CloudElement($id, 'materials/Action/Materials3dRotation', $name, $tech)
+!endfunction
+!function Materials3dRotationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$Materials3dRotationLg>', 'Rotation', $funcName, $content)
+!endfunction
+@enduml

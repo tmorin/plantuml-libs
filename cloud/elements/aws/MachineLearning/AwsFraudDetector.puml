@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsFraudDetectorLg [20x20/16z] {
+dOl5TGGm4CKE_ZZzzviiCyiiFyt7rBbp4dlle5jPGHGpxPp_5DEQkESWr2BIxT2-JHQG42JJVKbeQRfpF3WXonFG5h9l9O0Db8YUFGKNkIWHEJWhD4niq5w5
+9kY9BUvZSp7j8U4krluyq7qgps_y0m
+}
+
+!function AwsFraudDetector($id, $name="Fraud Detector", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsFraudDetector', $name, $tech)
+!endfunction
+!function AwsFraudDetectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFraudDetectorLg>', 'Fraud Detector', $funcName, $content)
+!endfunction
+@enduml

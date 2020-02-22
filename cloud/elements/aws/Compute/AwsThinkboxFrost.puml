@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsThinkboxFrostLg [20x20/16z] bP253GD030EbdE7tNxZCt0X3flLljSyZwM4O1-BSlXa9uGj0aOzt5ZtD1hoaPRZCua4Wnkdbjw4b5Mzcrryz_3voF6gvQXwXg-QhjpgVChXczMzj0G
+
+!function AwsThinkboxFrost($id, $name="Thinkbox Frost", $tech="")
+  CloudElement($id, 'aws/Compute/AwsThinkboxFrost', $name, $tech)
+!endfunction
+!function AwsThinkboxFrostCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsThinkboxFrostLg>', 'Thinkbox Frost', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsReplay30 element
+include('elements/materials/Av/MaterialsReplay30')
+MaterialsReplay30('element', 'Replay30', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePerformanceMonitorLg [25x20/16z] {
+TShNWSKm24JH8SDO_RUxGVQ65tn_93XWb-kv0xjQNGznNK31GtM1kRdf_Zr238SiXOtX3wGOAc9D3qk8_q1IiIig8ghr1AK1ctmIscOb6t80-yQO7840WWrT
+aE68qesAtGNUertLq0UeZb8egN3gpleR_3oB0BhpsArlG3VEdEPv5W2aLYi0YIE1ltIER7Or6O_xrO1bLyZJVXHluiqUfE9jdm
+}
+
+!function AzurePerformanceMonitor($id, $name="Performance Monitor", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePerformanceMonitor', $name, $tech)
+!endfunction
+!function AzurePerformanceMonitorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePerformanceMonitorLg>', 'Performance Monitor', $funcName, $content)
+!endfunction
+@enduml

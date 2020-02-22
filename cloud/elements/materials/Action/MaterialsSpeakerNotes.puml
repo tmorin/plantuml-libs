@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpeakerNotesLg [20x20/16z] {
+ZOy50e0m24NNpUV-jnMxTMz9Wtf4cnDwL2NG0IHH6k8JP4G7fbAuv952Z5cNjIKxvywhhbXFtepOikgg2mZMZTIls1OYOX1YQbS_nyAbHjXrye8nph3hdkV8
+1xmQTStf0shKDQUkcAkgdm4
+}
+
+!function MaterialsSpeakerNotes($id, $name="Speaker Notes", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSpeakerNotes', $name, $tech)
+!endfunction
+!function MaterialsSpeakerNotesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpeakerNotesLg>', 'Speaker Notes', $funcName, $content)
+!endfunction
+@enduml

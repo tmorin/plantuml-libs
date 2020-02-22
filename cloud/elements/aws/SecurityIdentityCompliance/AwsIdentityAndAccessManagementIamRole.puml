@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamRoleLg [20x20/16z] {
+jKx50S0m20ndPF-9wpP0-M1duwU2RE5piKNGuNrYTnAhohfGirbLq0gxZjrrFiFAFdFUskk5Ep1P5r1YZHZPgUk7jkJqxBcnEBqgKJQXZYt4JA-ZICSI8wnh
+xgYxHAtggF5lBG
+}
+
+!function AwsIdentityAndAccessManagementIamRole($id, $name="Identity And Access Management Iam Role", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamRole', $name, $tech)
+!endfunction
+!function AwsIdentityAndAccessManagementIamRoleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamRoleLg>', 'Identity And Access Management Iam Role', $funcName, $content)
+!endfunction
+@enduml

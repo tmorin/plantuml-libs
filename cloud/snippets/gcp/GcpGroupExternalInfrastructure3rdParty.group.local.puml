@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpGroupExternalInfrastructure3rdParty group
+include('groups/gcp/GcpGroupExternalInfrastructure3rdParty')
+GcpGroupExternalInfrastructure3rdParty('element', 'External infrastructure 3rd party', 'an optional tech field')
+@enduml

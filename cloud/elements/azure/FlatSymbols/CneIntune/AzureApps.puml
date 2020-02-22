@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAppsLg [20x20/16z] {
+VSq54iGW44JHRcJOQUv_tqMhuY_-Wo34Cm915mP4MJn8Ahr5C8I0SITzDhgaDEwsMr2jjRLsFpQDflev3ga9I3ddY99dOmDmc_isYJzVubulq-karJIQfkEu
+OwCryTGIXbFpNtSSHol3iM6ZwzOGD_u1
+}
+
+!function AzureApps($id, $name="Apps", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureApps', $name, $tech)
+!endfunction
+!function AzureAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAppsLg>', 'Apps', $funcName, $content)
+!endfunction
+@enduml

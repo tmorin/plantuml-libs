@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAlertsLg [20x20/16z] {
+RL255GKX36lGolxpektNombv4OmSI0dq2PGk2xsyvSng1yhPfQAc9hNA6hJSr69gZQZjKNSIRBfu9-g7C7RpWjb9SJTm6v2Z6UVCbmbIQ4IXfISD_nge_sez
+zlBMjFYUNVCznzaOO3zRt86gY6wfFDxLyvq-tVq4
+}
+
+!function AzureAlerts($id, $name="Alerts", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureAlerts', $name, $tech)
+!endfunction
+!function AzureAlertsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAlertsLg>', 'Alerts', $funcName, $content)
+!endfunction
+@enduml

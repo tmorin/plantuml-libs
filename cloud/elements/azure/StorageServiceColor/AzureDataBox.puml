@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataBoxLg [21x20/16z] {
+VT350SD034JH4Klz5soUSFoEVtbnifgPDBoIwDd5ivYRQXxLh-QvSpbhXLvj5zfpQ8CbcSzLDP9Svr998IZMbmPbvNBROt3J996UayCObJ41MBp53Xpq0Ebq
+Cy4RQGVTHhKE5RpBypFUIV4xtolR2W
+}
+
+!function AzureDataBox($id, $name="Data Box", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureDataBox', $name, $tech)
+!endfunction
+!function AzureDataBoxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataBoxLg>', 'Data Box', $funcName, $content)
+!endfunction
+@enduml

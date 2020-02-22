@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsStoreLg [20x20/16z] {
+fOzL0e0W38OT2rllVrgwuOrFgVM_hO5IWS56rvcvADW0LGOXsEIka11s_XKdUDjJsnvlmxy1VTlMvXkhyn77S_fDXRwXxYMkN-WxjrtE1gtjlvogdoiRLlB9
+RIiO
+}
+
+!function MaterialsStore($id, $name="Store", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsStore', $name, $tech)
+!endfunction
+!function MaterialsStoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStoreLg>', 'Store', $funcName, $content)
+!endfunction
+@enduml

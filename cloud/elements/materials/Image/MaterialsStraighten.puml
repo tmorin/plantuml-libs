@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStraightenLg [20x20/16z] lSwr0S0m40D0oSpxRnlc9knh38-eGVa31KPdOZIkM5l6MoIJWhLGwSBD64XFUjdTvh-TEt_TBZlTBb0-xFYXZZluNWi
+
+!function MaterialsStraighten($id, $name="Straighten", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsStraighten', $name, $tech)
+!endfunction
+!function MaterialsStraightenCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStraightenLg>', 'Straighten', $funcName, $content)
+!endfunction
+@enduml

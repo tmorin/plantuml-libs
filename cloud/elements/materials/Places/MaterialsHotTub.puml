@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHotTubLg [20x20/16z] {
+fOw50GCX40JFSUY_st34FVaVR1aK_eO9Y2ypLCz9GTF5sMXJMaIkTE-eA8Q49uUoxf62LEHo_N9K2AAUbFHXIywAfwDXZ648LoZbDbtF9vBlxYs45gqKYvxw
+SWLnFXSZYAVzhefKuvJOFBd3sDiDFQ9_cUvmzO83
+}
+
+!function MaterialsHotTub($id, $name="Hot Tub", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsHotTub', $name, $tech)
+!endfunction
+!function MaterialsHotTubCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHotTubLg>', 'Hot Tub', $funcName, $content)
+!endfunction
+@enduml

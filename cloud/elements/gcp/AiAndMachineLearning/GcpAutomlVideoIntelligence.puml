@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAutomlVideoIntelligenceLg [20x20/16z] {
+RP050i0m308RW_p_mnFcSjEIgmvXE-F4SU9xPEWJx6hsZTmqtZDAh5weN83-rWbM3UEiSfa6sxS0jC18oW-IlS6aD6D6LbSfL3MhrupcoaBYMcI7Pj574AWX
+3LgBPbdHp7wi2hbGglxlxVyCXk6ZdMTASZ_JdxEV0G
+}
+
+!function GcpAutomlVideoIntelligence($id, $name="Automl Video Intelligence", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlVideoIntelligence', $name, $tech)
+!endfunction
+!function GcpAutomlVideoIntelligenceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAutomlVideoIntelligenceLg>', 'Automl Video Intelligence', $funcName, $content)
+!endfunction
+@enduml

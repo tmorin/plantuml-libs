@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureHealthyLg [24x20/16z] {
+PT25SKLH20JGlIv8_-Kc3FlzZE5FW7xDP5KWr2Mgfm7ewa57b2UJZggUR0FRc6ZTZA8HPThgBr4cPVnm-0HZdMwfh5yF7D1M3WTcBaZVxjQnChLP9Ekb79iO
+vap1y9Goq9H71u3ZRA2ACyO_PhRhOLagGcD3U5mRqkFiLvaR95bcupfTbgdalxHJy2L-c4xyQlVznXy
+}
+
+!function AzureHealthy($id, $name="Healthy", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureHealthy', $name, $tech)
+!endfunction
+!function AzureHealthyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureHealthyLg>', 'Healthy', $funcName, $content)
+!endfunction
+@enduml

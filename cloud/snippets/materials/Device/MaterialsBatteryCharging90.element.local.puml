@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsBatteryCharging90 element
+include('elements/materials/Device/MaterialsBatteryCharging90')
+MaterialsBatteryCharging90('element', 'Battery Charging90', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPersonAddLg [20x20/16z] {
+hSZ50SCm341HCGMy_xHXlhRVg0T_2KK5FnIjjJWHju-sDJrCOxrzCp_C4jTxCri1rR8t8w1keOuso-h7AWOWJoSuiaBuPhaP4X6UHho0HFL3No4NSxMpufqm
+srtYRjt3-iFq6S8FpG
+}
+
+!function MaterialsPersonAdd($id, $name="Person Add", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPersonAdd', $name, $tech)
+!endfunction
+!function MaterialsPersonAddCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPersonAddLg>', 'Person Add', $funcName, $content)
+!endfunction
+@enduml

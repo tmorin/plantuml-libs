@@ -1,0 +1,10 @@
+@startuml
+sprite $AzurePhoneLg [13x20/16z] pST50SC0402myL7ysnsLB3I_9Bgg6ed9YCY1V6oIvsNpF7VoyLmy4aoyOgmcdg-1TCWF
+
+!function AzurePhone($id, $name="Phone", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePhone', $name, $tech)
+!endfunction
+!function AzurePhoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePhoneLg>', 'Phone', $funcName, $content)
+!endfunction
+@enduml

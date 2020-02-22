@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilterTiltShiftLg [20x20/16z] {
+VH030W0nQAtZ-F_NpdPsaSE30AtX-XW0-wx6_Cht8kHohDeeHeuq9xwqyRuX_P9ORIWlpxvG110XbFwymgvGGEkGTZ5F8UHezp0EkhRDkUiUyophcUVTrZTO
+twhUzF0i
+}
+
+!function MaterialsFilterTiltShift($id, $name="Filter Tilt Shift", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterTiltShift', $name, $tech)
+!endfunction
+!function MaterialsFilterTiltShiftCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterTiltShiftLg>', 'Filter Tilt Shift', $funcName, $content)
+!endfunction
+@enduml

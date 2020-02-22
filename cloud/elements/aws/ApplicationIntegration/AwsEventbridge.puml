@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEventbridgeLg [20x20/16z] {
+LS_7TKKX30HG1qt2_VVhWwG5Vru0BZaRFycBhvbgVGs28bAlUQpOTgu9vIv_My_5gtSEeMexOU82oWBNgBjBZsMXpSWHPlkuj7Q_jVlTkU3EJOYCYJI0kkua
+RUA9FOkEXULpInJ7RWnIUyMsHiad4Dpsn5Hk_iv7nXPV-mS
+}
+
+!function AwsEventbridge($id, $name="Eventbridge", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsEventbridge', $name, $tech)
+!endfunction
+!function AwsEventbridgeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEventbridgeLg>', 'Eventbridge', $funcName, $content)
+!endfunction
+@enduml

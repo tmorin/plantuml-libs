@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsZoomOutMapLg [20x20/16z] jP250G0X201LZk_OVzhlxbIwmLn-5f1M5C3M0dcUqDf8yfpE5lGvGMzBWaHRarOYRH6ZQMEaOaYVWwkfm_pprZtwMHXdsPvvlTlM3JPlTVcL
+
+!function MaterialsZoomOutMap($id, $name="Zoom Out Map", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsZoomOutMap', $name, $tech)
+!endfunction
+!function MaterialsZoomOutMapCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsZoomOutMapLg>', 'Zoom Out Map', $funcName, $content)
+!endfunction
+@enduml

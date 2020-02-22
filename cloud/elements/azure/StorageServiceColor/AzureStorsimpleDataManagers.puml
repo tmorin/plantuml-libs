@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStorsimpleDataManagersLg [15x20/16z] {
+POw5OG0m20IHFs3_YHkhNnH_ExYxFJmp9MM6RqlVk8L5Sb26UIlSOxFgavakTc4Aghfx5lNeOpTyczL8SCqfiHo8Pz9CzpMdAJHQ5zk4qRvRl6W9jVHPkyjF
+yBkpnE-v_rKH7CSrv6QnImkKo_W
+}
+
+!function AzureStorsimpleDataManagers($id, $name="Storsimple Data Managers", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureStorsimpleDataManagers', $name, $tech)
+!endfunction
+!function AzureStorsimpleDataManagersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStorsimpleDataManagersLg>', 'Storsimple Data Managers', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalSeeLg [20x20/16z] {
+fOzL0aKX449XwjhkVxMlk-DywHI0vr0syAeaPVG-YXp_wXvbxYZXhfkIr7b5bKrjx9yfxPlZMEj1WD4lQm6w4N5HgsJPA93rN4kmkS6GNjTkTuyQTjHuuUN6
+yyDiKBz2yHTh
+}
+
+!function MaterialsLocalSee($id, $name="Local See", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalSee', $name, $tech)
+!endfunction
+!function MaterialsLocalSeeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalSeeLg>', 'Local See', $funcName, $content)
+!endfunction
+@enduml

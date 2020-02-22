@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsArrowDropDownCircleLg [20x20/16z] {
+VP054e0m40EfU_l_tz8S3XaMQfdpvGUbjNeADfRMIhINhEFOYVgGyZZ9cwZ4wY2AknqFB3IOzIPq6CAr88pL4ul0PJhh1WyF3uzRquS64H8qyHL2m0vVoV4W
+ibfOpQGtCWCsApvJpWe
+}
+
+!function MaterialsArrowDropDownCircle($id, $name="Arrow Drop Down Circle", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsArrowDropDownCircle', $name, $tech)
+!endfunction
+!function MaterialsArrowDropDownCircleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsArrowDropDownCircleLg>', 'Arrow Drop Down Circle', $funcName, $content)
+!endfunction
+@enduml

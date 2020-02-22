@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSdkLg [20x20/16z] {
+VP1P0iH014JJA4fo__jEasrsN-hPBNzCtEML310WnXCo-fJ3QLTPX5oUjeEreagMj1N5c27YLAMBHB9OgERcvVcMfj5C5cJDDCv2EPbXE1dYzincuIp74qFf
+ua-rIXG3zMHQrt9QhQxDmDuvitScdcu3pjlk7m3d3-vVPTw_UdxE7ti
+}
+
+!function AwsSdk($id, $name="Sdk", $tech="")
+  CloudElement($id, 'aws/General/AwsSdk', $name, $tech)
+!endfunction
+!function AwsSdkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSdkLg>', 'Sdk', $funcName, $content)
+!endfunction
+@enduml

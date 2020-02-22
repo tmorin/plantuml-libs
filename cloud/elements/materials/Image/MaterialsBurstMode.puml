@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBurstModeLg [20x20/16z] hS-r0SCm443HBsPf_saJCpU6LnuV7nDEOGpIBImYQvn3jqKIvrY-YAM7iPZsiUHRbBfkOqNtfsAtUoq8G8HDBBXHokBgjw_z0G
+
+!function MaterialsBurstMode($id, $name="Burst Mode", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsBurstMode', $name, $tech)
+!endfunction
+!function MaterialsBurstModeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBurstModeLg>', 'Burst Mode', $funcName, $content)
+!endfunction
+@enduml

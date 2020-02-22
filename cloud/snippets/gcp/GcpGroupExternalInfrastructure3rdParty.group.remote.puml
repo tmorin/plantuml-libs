@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpGroupExternalInfrastructure3rdParty group
+include('groups/gcp/GcpGroupExternalInfrastructure3rdParty')
+GcpGroupExternalInfrastructure3rdParty('element', 'External infrastructure 3rd party', 'an optional tech field')
+@enduml

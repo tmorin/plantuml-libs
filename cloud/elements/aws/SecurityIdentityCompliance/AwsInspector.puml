@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsInspectorLg [20x20/16z] {
+TSm50iCm34FHWINBwVtlkwaQmo_c1UQPxiqFd1-uCcXI3rn6mbblja85m2jZ0g2ojN4t4kmgPU7i1hAwE1sR67W6H9lBNld0C_Ym0O7oWuUjDe958kQ4D8Hi
+QNJzRQWHUzQ0RTjUKPGj-6XYmRyMl
+}
+
+!function AwsInspector($id, $name="Inspector", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsInspector', $name, $tech)
+!endfunction
+!function AwsInspectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsInspectorLg>', 'Inspector', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsYoutubeSearchedFor element
+include('elements/materials/Action/MaterialsYoutubeSearchedFor')
+MaterialsYoutubeSearchedFor('element', 'Youtube Searched For', 'an optional tech field')
+@enduml

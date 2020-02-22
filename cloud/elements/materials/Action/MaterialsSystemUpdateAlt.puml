@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSystemUpdateAltLg [20x20/16z] jSZ50KGX54FH17VwxtO2gt7_5tq7RsTM1BNtLnIx6WunmetrZs0DLX4fWUiNAjaSThATQqUPYxL6TsbCSoPUcb1qPI1nRUgvvPelgfamuIg3Tpi1
+
+!function MaterialsSystemUpdateAlt($id, $name="System Update Alt", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSystemUpdateAlt', $name, $tech)
+!endfunction
+!function MaterialsSystemUpdateAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSystemUpdateAltLg>', 'System Update Alt', $funcName, $content)
+!endfunction
+@enduml

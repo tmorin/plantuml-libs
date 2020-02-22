@@ -1,0 +1,18 @@
+@startuml
+sprite $AwsGroupCloudLg [20x20/16z] jOot0KGX34CxP0jv_t4l_42cv7MASGXD3W6mjnmKuQsLao922PPhpUu34YgrScMucwfMw6aIqM3SUOAhuD1zOYYOodKXJl05
+
+!function AwsGroupCloud($id, $name="Cloud", $tech="")
+  CloudGroup($id, "AwsGroupCloud", "<$AwsGroupCloudLg>", $name, $tech)
+!endfunction
+skinparam Rectangle<<AwsGroupCloud>> {
+  StereotypeFontColor $AWS_COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

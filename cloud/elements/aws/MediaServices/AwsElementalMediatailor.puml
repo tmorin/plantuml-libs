@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElementalMediatailorLg [20x20/16z] {
+RSs54KCX00FGkyROV-A6xnRyOLdYMxBco_9fqii8y6QMOKCypQYHCA7Tw0WDBHmcC989SJURT0Vo-gy04j1geqBz52aTc6b5sjnRKYjg_LXnMt5CDDT_wSoK
+fierJJZjbl61umF71_u1
+}
+
+!function AwsElementalMediatailor($id, $name="Elemental Mediatailor", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElementalMediatailor', $name, $tech)
+!endfunction
+!function AwsElementalMediatailorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElementalMediatailorLg>', 'Elemental Mediatailor', $funcName, $content)
+!endfunction
+@enduml

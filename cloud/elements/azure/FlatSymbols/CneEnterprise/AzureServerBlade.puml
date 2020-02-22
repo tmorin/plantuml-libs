@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureServerBladeLg [64x20/16z] {
+xPI35KKn343RMFkl-ssRxnuMCT3h3dnF_4gy_eY1tE9gSOE-0Lsjm9asaALyneMQGcK3Msg5Zd6P_ts3XZctZgqrlYnzlaaiBc4YJnUEwmR0YwYbjMxNo-DI
+FatyNGl0xzrVOm
+}
+
+!function AzureServerBlade($id, $name="Server Blade", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerBlade', $name, $tech)
+!endfunction
+!function AzureServerBladeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureServerBladeLg>', 'Server Blade', $funcName, $content)
+!endfunction
+@enduml

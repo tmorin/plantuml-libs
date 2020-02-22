@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotGreengrassConnectorLg [20x20/16z] nOx70GHH2491d_JVyUwae_Tlpg9pP6QcfBeSVakX31Auo5C4IHrCVnblfzDlpO6jjkmkFpOiv-WF
+
+!function AwsIotGreengrassConnector($id, $name="Iot Greengrass Connector", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotGreengrassConnector', $name, $tech)
+!endfunction
+!function AwsIotGreengrassConnectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotGreengrassConnectorLg>', 'Iot Greengrass Connector', $funcName, $content)
+!endfunction
+@enduml

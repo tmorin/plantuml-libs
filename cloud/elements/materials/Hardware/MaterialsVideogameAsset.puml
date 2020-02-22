@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVideogameAssetLg [20x20/16z] lOv50i9054EJSKcR-vyMTzW1VIFV1LkG-Wi97BPAzPr1okuCgy_KF4HgKKEOEda7aO--J09ai-TKP7toDOQXkJxL5g3PdeypbCjo5FoqowUT3_09_9uz
+
+!function MaterialsVideogameAsset($id, $name="Videogame Asset", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsVideogameAsset', $name, $tech)
+!endfunction
+!function MaterialsVideogameAssetCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVideogameAssetLg>', 'Videogame Asset', $funcName, $content)
+!endfunction
+@enduml

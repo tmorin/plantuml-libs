@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUserGroupLg [26x20/16z] {
+RP054iD03CGC1_Rk_zzRyBLXXQrHI1PgyapF39SFDcRNem39_4myISRUQn80ksZKoToCeGP375-OTciQKTZjEMqriDExJTlYs9-Zebg75Vj_7WXNjO4mQP7J
+zyUJo0Iwknv-oF-fHFDl_9ctnFowpgMcLnoH81cVUX95wwoMTS0d3gAmIUomYIQBj3YP8Tf7qIrFPihnjnw9WqaS2JseC_86
+}
+
+!function AzureUserGroup($id, $name="User Group", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUserGroup', $name, $tech)
+!endfunction
+!function AzureUserGroupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUserGroupLg>', 'User Group', $funcName, $content)
+!endfunction
+@enduml

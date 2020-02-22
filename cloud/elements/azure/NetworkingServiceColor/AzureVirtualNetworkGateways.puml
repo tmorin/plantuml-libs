@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualNetworkGatewaysLg [18x20/16z] {
+LOw74S0m2CGC_BF_oB6EE4Mf5dL1b3SLwr2-gP_Ggu9Zx2ykxXHDybRrVY69ZSclYIHdKBE2F4Xsmn75g6uOeQJBQoGhjh37I7IZBKqnENEtO5sCAjdRNOi5
+JXz7ClWpgrRKEmkA5eCCtNM4KuWNrmK
+}
+
+!function AzureVirtualNetworkGateways($id, $name="Virtual Network Gateways", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworkGateways', $name, $tech)
+!endfunction
+!function AzureVirtualNetworkGatewaysCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualNetworkGatewaysLg>', 'Virtual Network Gateways', $funcName, $content)
+!endfunction
+@enduml

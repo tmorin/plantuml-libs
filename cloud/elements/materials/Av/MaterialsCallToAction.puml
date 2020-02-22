@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCallToActionLg [20x20/16z] lT0r0e0m343HVEgQ-vyMsN2O-hPALFx2dY14FObGpdS5wlcktlqRSrUr7sozL3yT-EtEoe7TxXm7ha9ivQ15xdRrrm8
+
+!function MaterialsCallToAction($id, $name="Call To Action", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsCallToAction', $name, $tech)
+!endfunction
+!function MaterialsCallToActionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallToActionLg>', 'Call To Action', $funcName, $content)
+!endfunction
+@enduml

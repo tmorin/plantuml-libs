@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRadioLg [20x20/16z] {
+VSt50S0m243HneFllssfU__n9S3mMqWzNoKMf1elNnf13fSl85SPAfiPmbPnYjnAANMhSNIJUBabDqjbitIinf1cKy8j5YITpT0tszPireDluelflAzTJ6Qh
+rzdg5F0wApMbRblY5hgQgCgQ-aN7UCdfhH4
+}
+
+!function MaterialsRadio($id, $name="Radio", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsRadio', $name, $tech)
+!endfunction
+!function MaterialsRadioCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRadioLg>', 'Radio', $funcName, $content)
+!endfunction
+@enduml

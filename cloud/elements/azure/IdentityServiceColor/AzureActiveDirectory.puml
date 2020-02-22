@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureActiveDirectoryLg [20x20/16z] {
+LSq93aGn20BGGQ3tF_8O_a8-sSXhrT-TiUVffM8f-27DA5ZoR7mMIoQm5dnfZGgM35WtPltIsh58BMOz53j63jLgcSKuHcGsDxG8cEZX830l1Oy1b8BRoN6e
+I80t5QMNYgLYwGy
+}
+
+!function AzureActiveDirectory($id, $name="Active Directory", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureActiveDirectory', $name, $tech)
+!endfunction
+!function AzureActiveDirectoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureActiveDirectoryLg>', 'Active Directory', $funcName, $content)
+!endfunction
+@enduml

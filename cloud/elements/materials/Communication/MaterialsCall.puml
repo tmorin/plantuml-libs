@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCallLg [20x20/16z] {
+ZKu53aKn32ehoRpS_xHV8b-UZZXkou2Jlk5SKiEU6nikJIasONH9t1HcgM33SKyPMhOTE7rFvfvs76fzaw03tu-rkw4eHllM8CzSfCrJDkqu0tCFQNi1oHss
+Z2S
+}
+
+!function MaterialsCall($id, $name="Call", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsCall', $name, $tech)
+!endfunction
+!function MaterialsCallCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallLg>', 'Call', $funcName, $content)
+!endfunction
+@enduml

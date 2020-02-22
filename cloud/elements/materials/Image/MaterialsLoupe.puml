@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLoupeLg [20x20/16z] {
+VP056i0W28N7au-OTV_JhZji_McwnY20xe0zvPoSJmpFoY6mPiUEUW_hAtY_GZAd-LeEjyMSywAbkcXcdY_JRhbikNI-AF6LSPgCCPcIcgLafZGPuukzRIlU
+CIhUkHIySgu5pzhgmguzIBNMZ6klIYtJONJjwJeMz1uZ
+}
+
+!function MaterialsLoupe($id, $name="Loupe", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLoupe', $name, $tech)
+!endfunction
+!function MaterialsLoupeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLoupeLg>', 'Loupe', $funcName, $content)
+!endfunction
+@enduml

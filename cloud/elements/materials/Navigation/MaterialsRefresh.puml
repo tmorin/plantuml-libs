@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRefreshLg [20x20/16z] {
+fP054e1024NtarkCzp-jtKxxT8k6z1-8gc2vd19jKMiqXUWXyZ02o7g9GwOXsyM7OPUXsNQHVieaQ3svzTvtcLPizYjtsSdfkmF2cUEGMSMx5ZdBkseEJ-dJ
+ssS6ZFIV2G
+}
+
+!function MaterialsRefresh($id, $name="Refresh", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsRefresh', $name, $tech)
+!endfunction
+!function MaterialsRefreshCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRefreshLg>', 'Refresh', $funcName, $content)
+!endfunction
+@enduml

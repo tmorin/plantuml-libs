@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudTpuLg [20x20/16z] {
+RP055i0W34DhINV_2qy2R_wdX50puHCx2Px4b9pB2QUrbXirR7tNMaReLnn_E1BehtAdj1jcFBxbxk5UnpvDdqvFe2Ars2Lf0KHwZjMf9HXJ6_Pma9Y-D8mS
+4MUERorBF6gMXF_UlZCGpe_jd6btdpFzp7u3
+}
+
+!function GcpCloudTpu($id, $name="Cloud Tpu", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudTpu', $name, $tech)
+!endfunction
+!function GcpCloudTpuCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudTpuLg>', 'Cloud Tpu', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVoicemailLg [20x20/16z] {
+lOx5WSL0243X1vUa_swN2QTj86y45_Y4ozm8ZuOqwZMAj8cruhZqLGMe-UJM_5mdXvlSu20EuFAgviygL8X56xv3Lmd4sB36Dldbs9A_ROrQGfAt4CcJezQi
+W1nPkOmIlAl-0xxX3m
+}
+
+!function MaterialsVoicemail($id, $name="Voicemail", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsVoicemail', $name, $tech)
+!endfunction
+!function MaterialsVoicemailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVoicemailLg>', 'Voicemail', $funcName, $content)
+!endfunction
+@enduml

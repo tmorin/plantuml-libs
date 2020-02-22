@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSimpleNotificationServiceSnsHttpNotificationLg [20x20/16z] {
+ROs5WKHH2CGW6TZ-ExvlvpjvWbDbg3-QoVu9EbNixrXIrUl-a2mzKs8kqPDsTwfKQ0sLn3e5qWtK6NlDgJqutqElT7puCjhXv8un9qBz4UZVc4BrJJy66EyX
+-J8a_jvXqARF2u-X_j_xFXRi0-0n8f8EGSc5V
+}
+
+!function AwsSimpleNotificationServiceSnsHttpNotification($id, $name="Simple Notification Service Sns Http Notification", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsHttpNotification', $name, $tech)
+!endfunction
+!function AwsSimpleNotificationServiceSnsHttpNotificationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSimpleNotificationServiceSnsHttpNotificationLg>', 'Simple Notification Service Sns Http Notification', $funcName, $content)
+!endfunction
+@enduml

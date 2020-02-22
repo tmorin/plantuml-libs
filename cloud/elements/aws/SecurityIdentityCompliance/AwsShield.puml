@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsShieldLg [20x20/16z] {
+bSz7WW805CBG6PK0__xtjVTkbc-N-R4-G918hmI1076slQmGLay6TEXOrvRPMRys7WroCU_D0deoTbRLDGSBU6ZmKj71Ail2bEIq4XbXEL6kZqKGUpffEp-t
+0G
+}
+
+!function AwsShield($id, $name="Shield", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsShield', $name, $tech)
+!endfunction
+!function AwsShieldCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsShieldLg>', 'Shield', $funcName, $content)
+!endfunction
+@enduml

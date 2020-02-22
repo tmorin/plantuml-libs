@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSoftwareUpdateLg [22x20/16z] {
+ZT050iCm34DHPx4a1-v_tWN6s5V-AQjUX4fjVMfkrrW8ZTg6BgkXcoXBcvKtskg1gkDLnwi6VgZ46a6vLqcW1ZZnK0ckwEJf-iKHn5Y9S37NigpV4xMs9eGi
+wj82JgdsFYeiPT-oapuXsuDC7-laRezIJdFCaxr9-_8p
+}
+
+!function AzureSoftwareUpdate($id, $name="Software Update", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureSoftwareUpdate', $name, $tech)
+!endfunction
+!function AzureSoftwareUpdateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSoftwareUpdateLg>', 'Software Update', $funcName, $content)
+!endfunction
+@enduml

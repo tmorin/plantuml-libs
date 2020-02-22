@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCognitoLg [20x20/16z] {
+fT0t0WDH309HXyy0klzzdRFBdVAf4hEnldkI1Q1RF4pNQsvaFGrZeINMovn4g49Fmr1hQG5lStnCWz_cn2jJkmzJfXDXsNgWTOqgO_Z-GnPXlW8NVrkHwFyO
+ixKp
+}
+
+!function AwsCognito($id, $name="Cognito", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCognito', $name, $tech)
+!endfunction
+!function AwsCognitoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCognitoLg>', 'Cognito', $funcName, $content)
+!endfunction
+@enduml

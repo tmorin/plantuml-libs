@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureInformationLg [20x20/16z] {
+PT3N0GCn20DGqxF_n44Wf-fBzyxz86AU7JSvDnh9X9ACtudu1uN9b09ghlMgqLIbKxYI3LMY40E4c5FSp6ipCxcV5dCjleoHFwjFywLF2rjwV9Zny1-MkDjj
+ieQdyLrNrM9A4v4XpNGcCP7PQS6tVm8
+}
+
+!function AzureInformation($id, $name="Information", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureInformation', $name, $tech)
+!endfunction
+!function AzureInformationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureInformationLg>', 'Information', $funcName, $content)
+!endfunction
+@enduml

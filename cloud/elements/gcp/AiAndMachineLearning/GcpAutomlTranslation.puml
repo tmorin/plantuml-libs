@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAutomlTranslationLg [20x20/16z] {
+RP055WGX34EB99dxNnW9ilf7gEHH2PCsSScyvDWYFXTkQNtUg4kczvWin3HH1xGr2qmPusOrod2T8BdBH9NrHO3sZGuf9pa6EEXa7NOfesPsh5WuRW5OLfLv
+6988o-XUN6NYolbqnJgmXV-p_Tz19Fx8xaubxPt-sNq7
+}
+
+!function GcpAutomlTranslation($id, $name="Automl Translation", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlTranslation', $name, $tech)
+!endfunction
+!function GcpAutomlTranslationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAutomlTranslationLg>', 'Automl Translation', $funcName, $content)
+!endfunction
+@enduml

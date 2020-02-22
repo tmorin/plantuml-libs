@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCloudServicesLg [24x20/16z] {
+JP47Oi0W30Ez9_z_RqCDBSe-Iyg2HvhTPVWGn6_pNbj9bv9N1ViwofFWsbVT7_7oN4k7npMs0i4NY-ckcsSK4vAQ8kh3YzWrYFkNKrpUB2xEqXq4L0TM9w6v
+uYP5CJGJFKC0mMhdJqaW4gA5fkGOBpTtjE-gJsqE9XSNi7MLiWsb51RCUN4BQEy0a3BOy-80RD6f2gm-hnV6C8fjkIKAVv8ULBqw4FurloH8J5uCQDNbB_e1
+}
+
+!function AzureCloudServices($id, $name="Cloud Services", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureCloudServices', $name, $tech)
+!endfunction
+!function AzureCloudServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCloudServicesLg>', 'Cloud Services', $funcName, $content)
+!endfunction
+@enduml

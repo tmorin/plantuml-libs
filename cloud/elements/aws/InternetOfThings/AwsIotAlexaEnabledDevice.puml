@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAlexaEnabledDeviceLg [20x20/16z] {
+TL070aKX218K-lS_yQ_UNjXqImom2u1nRO0WPh9VcwRKkjZpAWnTAKzG3PqO9wGYg7RLDJ6WlFhXouztFwHFEaGwSTQLErG0zrXDcASQ9HVJKXozU8v0YxiV
+BEucxRfShuC3QtIGDWwkXf2jhUadfqMrzfkgW_k8h1oK_W4
+}
+
+!function AwsIotAlexaEnabledDevice($id, $name="Iot Alexa Enabled Device", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAlexaEnabledDevice', $name, $tech)
+!endfunction
+!function AwsIotAlexaEnabledDeviceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAlexaEnabledDeviceLg>', 'Iot Alexa Enabled Device', $funcName, $content)
+!endfunction
+@enduml

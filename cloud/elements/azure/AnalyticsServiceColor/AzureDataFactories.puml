@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataFactoriesLg [20x20/16z] {
+bSxN0OKW44HHDjp5_Xis2_FpWgEaGspc4U7M91O9PAWHHzmLbrv50cAzBmTNgksfjtOzATGSt-j4B2XlbZNDOg_Tg6daEKE9QRuO4TpbikjQhc8yXZjfL_bo
+tc_R
+}
+
+!function AzureDataFactories($id, $name="Data Factories", $tech="")
+  CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataFactories', $name, $tech)
+!endfunction
+!function AzureDataFactoriesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataFactoriesLg>', 'Data Factories', $funcName, $content)
+!endfunction
+@enduml

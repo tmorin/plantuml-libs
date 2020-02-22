@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSecurityCenterLg [15x20/16z] TT2r0O1000J1K_el6NVORE0TIpHnHAKHCMKxNKlidWrJdqmoQQT9vYHLyM2cNsKFmZ6oSpsHxkGFTGvsEvodMXVSAy2U8gRs_y6QEg727jtjTKO
+
+!function AzureSecurityCenter($id, $name="Security Center", $tech="")
+  CloudElement($id, 'azure/SecurityServiceColor/AzureSecurityCenter', $name, $tech)
+!endfunction
+!function AzureSecurityCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSecurityCenterLg>', 'Security Center', $funcName, $content)
+!endfunction
+@enduml

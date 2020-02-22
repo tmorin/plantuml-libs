@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotTravelLg [20x20/16z] {
+TP250GCm20HVOV-9wouN3mxE2E89GNXGLhRAuaQwtSvSZjo-V4RN_VfPuum5k781TGt7tQ9DjHLOQvFPQL2hlEWn3IcpWRUYQe2P0EvvYVJu4dq8JQNnzKzE
+DU6kBt-gPnjFXbEukiHm9mcI6Bxb0d1gS1BubWk0hixRLUzMcmS01RYF7Zne_lNgkwU_Udy4
+}
+
+!function AwsIotTravel($id, $name="Iot Travel", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotTravel', $name, $tech)
+!endfunction
+!function AwsIotTravelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotTravelLg>', 'Iot Travel', $funcName, $content)
+!endfunction
+@enduml

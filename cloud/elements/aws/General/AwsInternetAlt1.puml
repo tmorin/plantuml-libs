@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsInternetAlt1Lg [20x20/16z] {
+dKy5hiKm30lKThP___l-j1gBdmK61Mt1CztUG4c5LogsTUfPTHWIY2EhGtWHvKj6i-SAP-qKMUoAFzfHe6ZR9L8LZacZ79or8Kyxm05C3ja5CFNDD8pAY917
+k5ihodkeIebHDJWbteyh5lsG8PMVOPRRlk5Rc7j7N_Z1_m
+}
+
+!function AwsInternetAlt1($id, $name="Internet Alt1", $tech="")
+  CloudElement($id, 'aws/General/AwsInternetAlt1', $name, $tech)
+!endfunction
+!function AwsInternetAlt1Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsInternetAlt1Lg>', 'Internet Alt1', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRestorePageLg [20x20/16z] {
+TT1L0aGX241HALlO_sxdDKpTpsER_eHNWMZesjB9Rc9N6xevkaLqqvPpqmtfjZOOjdYQoMsC8Ar9ac2KS9jY3DsD0Sjc5QhRcdDjLg9Pbc4s46Um0YY2KCnj
+GuHzppUprVkoQ27nlxhIGVUVXjAVNW
+}
+
+!function MaterialsRestorePage($id, $name="Restore Page", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsRestorePage', $name, $tech)
+!endfunction
+!function MaterialsRestorePageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRestorePageLg>', 'Restore Page', $funcName, $content)
+!endfunction
+@enduml

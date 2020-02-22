@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistSecurityLg [20x20/16z] {
+XOx50GH020C33Dd-ApvTpcMU40lkfAvWXkwv8Mr1tc_GAg3guUPuksd8VtbMLjLRNdTJhSYtF6p7KvxgufYyYrU55DvvkyC65W4Q5XSCgpVfs4kYXljD6kBZ
+JVVRMuVk55VY2
+}
+
+!function AwsTrustedAdvisorChecklistSecurity($id, $name="Trusted Advisor Checklist Security", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity', $name, $tech)
+!endfunction
+!function AwsTrustedAdvisorChecklistSecurityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTrustedAdvisorChecklistSecurityLg>', 'Trusted Advisor Checklist Security', $funcName, $content)
+!endfunction
+@enduml

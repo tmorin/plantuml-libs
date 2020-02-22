@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureKeyPermissionsLg [10x20/16z] XOk50K0X448vMs7_TNztFkC2A9B8uPiQxwc9PjOqKwj-APnoP8658S1W07pAoi3InQshjdOAzrtQVFHhrzpccrINwn2To2mOw04
+
+!function AzureKeyPermissions($id, $name="Key Permissions", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureKeyPermissions', $name, $tech)
+!endfunction
+!function AzureKeyPermissionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureKeyPermissionsLg>', 'Key Permissions', $funcName, $content)
+!endfunction
+@enduml

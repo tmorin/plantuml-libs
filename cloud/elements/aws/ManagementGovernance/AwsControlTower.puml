@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsControlTowerLg [20x20/16z] {
+RSp50GGn34FHWq5Iflzw5n9x-1-VGHLvf1VKqTE0Xz6CtIX3HAfj8Nz6j4raolrguFmdP1iiqjtCFCAWQRHys9YtxXH1IHmpGkvAQhPCP2QeiWeHqCrafiCg
+uc6pikq5jnVy0W
+}
+
+!function AwsControlTower($id, $name="Control Tower", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsControlTower', $name, $tech)
+!endfunction
+!function AwsControlTowerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsControlTowerLg>', 'Control Tower', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTabLg [20x20/16z] nT033W1104FHTkov_sdNThWl_cbKV4LrGD3bE4frvCYaEP9JZ5rJ675gwT2EEqZLi_DkG_tPD7Tqr-OFPjdnwgklMW
+
+!function MaterialsTab($id, $name="Tab", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTab', $name, $tech)
+!endfunction
+!function MaterialsTabCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTabLg>', 'Tab', $funcName, $content)
+!endfunction
+@enduml

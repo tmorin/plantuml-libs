@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCropRotateLg [20x20/16z] {
+POy70eCm24L1Dctr_hSjmQtFaUJnis07BOtW0VhoTNfAOqw13JxAKsmIK-6KrAbSf7vHK8qSov5-fNv5-jYgWnWAZKPbnDwEukq0yUqWwE98kZ4vt07v2ASs
+8afzSnvRPVETKpeOqoWrcXCqqh8XXWr99aEuG_vT7E5fBI_9Fm
+}
+
+!function MaterialsCropRotate($id, $name="Crop Rotate", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCropRotate', $name, $tech)
+!endfunction
+!function MaterialsCropRotateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCropRotateLg>', 'Crop Rotate', $funcName, $content)
+!endfunction
+@enduml

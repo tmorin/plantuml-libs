@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsDoNotDisturbOff element
+include('elements/materials/Notification/MaterialsDoNotDisturbOff')
+MaterialsDoNotDisturbOff('element', 'Do Not Disturb Off', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureResourceGroupsLg [25x20/16z] {
+fT454W8n44JHFvhS_yGm5SNAwFL-wm6i6HLFXtEisKB6jhLKGAAsFWuqsaZeECbx0EBjn0M8tWqO_HR01c2vwpGMY0lYrurqGKHHp4Uh7iWC0wrQrEo69ocZ
+VeMA8MRVmD5_WPyW5Xj6Nn00uXjK0ABFtuv6GTNpj--1mWmHza3jeHmvnmy
+}
+
+!function AzureResourceGroups($id, $name="Resource Groups", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureResourceGroups', $name, $tech)
+!endfunction
+!function AzureResourceGroupsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureResourceGroupsLg>', 'Resource Groups', $funcName, $content)
+!endfunction
+@enduml

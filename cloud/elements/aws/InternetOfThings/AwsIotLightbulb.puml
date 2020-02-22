@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotLightbulbLg [20x20/16z] {
+TL195aCn26eKoFrlN3HsxcU1F4ESRbV8bM4uF5DBIHXChKcHeiW9nyNcYFQmEALcKccXufNsXPQLmhwqIgfKjwTz9GCyLInB8Ip61unlSbKFg7gJ0xilq7s9
+c1v-t_j4pYm6zeR3p2ArblmsCyzkIURizhg1ciW_j_f_q_-u0m
+}
+
+!function AwsIotLightbulb($id, $name="Iot Lightbulb", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotLightbulb', $name, $tech)
+!endfunction
+!function AwsIotLightbulbCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotLightbulbLg>', 'Iot Lightbulb', $funcName, $content)
+!endfunction
+@enduml

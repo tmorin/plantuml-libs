@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsCustomEventBusResourceIcon64Squid element
+include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64Squid')
+AwsCustomEventBusResourceIcon64Squid('element', 'Custom Event Bus Resource Icon64 Squid', 'an optional tech field')
+@enduml

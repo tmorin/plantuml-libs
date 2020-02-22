@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilter2Lg [20x20/16z] {
+RT054iKW34NHf4bvw7J_g_rINExumQ5_VFMOtiJ78VCQlFOG-3LGJoCp9Djj0IaMjPdtFDgRXjL4iThzfFSQerdBJ0VZnV34j9uhgZhUprAjcOaMBUzVkmo6
+XFwsnW4w92-Q47i9L3z--Val
+}
+
+!function MaterialsFilter2($id, $name="Filter2", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilter2', $name, $tech)
+!endfunction
+!function MaterialsFilter2Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilter2Lg>', 'Filter2', $funcName, $content)
+!endfunction
+@enduml

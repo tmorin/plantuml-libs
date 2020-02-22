@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePolicyLg [18x20/16z] {
+RP250OLG24NX1km_yGzRyUWh6c85BiI5LFzG7czsEzFTN0MiDbPFhqSNumHOJG_IRiK1n20s2IG4wnzebS1LHWg7HFL3InnDoVHwZNm0C_XIuUnYTZgdCISs
+f_e5
+}
+
+!function AzurePolicy($id, $name="Policy", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzurePolicy', $name, $tech)
+!endfunction
+!function AzurePolicyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePolicyLg>', 'Policy', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNaturePeopleLg [20x20/16z] {
+VSg53G11449HMFVflzlBdFkFaHVm7ycRc51gYVPCjehM_K56IHjkjo1RcT0FmRBRC4ezWatsh5e9O3cR8e6uKoN0b8k7xPjvVGsH2FYnKE9XS7c8r42eDP6W
+Wsvu5SrBCT1CDrXpalcqOetckpTcjT6Fuc8qv_3H1
+}
+
+!function MaterialsNaturePeople($id, $name="Nature People", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsNaturePeople', $name, $tech)
+!endfunction
+!function MaterialsNaturePeopleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNaturePeopleLg>', 'Nature People', $funcName, $content)
+!endfunction
+@enduml

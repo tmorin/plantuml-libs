@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsKeyboardCapslockLg [20x20/16z] lSgr0OG040J0FVy7hlzoSO_moLRm9G_25dccxqglLAlDazeAs9QMYfQcBHqBUi8uJNsaInV5AB2W4LxH
+
+!function MaterialsKeyboardCapslock($id, $name="Keyboard Capslock", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsKeyboardCapslock', $name, $tech)
+!endfunction
+!function MaterialsKeyboardCapslockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKeyboardCapslockLg>', 'Keyboard Capslock', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsElasticContainerServiceContainer1 element
+include('elements/aws/Compute/AwsElasticContainerServiceContainer1')
+AwsElasticContainerServiceContainer1('element', 'Elastic Container Service Container1', 'an optional tech field')
+@enduml

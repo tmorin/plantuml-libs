@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureGenomicsAccountsLg [10x20/16z] LOu50W913CGsqydz_yaKXwpKnJaFHfqbr1hWn44dHDSgLDbSHkUXrCAgQ3XpILT9CjQUPD7LU6hVA9f78_Q7Nltlx3fe7af0cMk0WzN9Skft-ni
+
+!function AzureGenomicsAccounts($id, $name="Genomics Accounts", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureGenomicsAccounts', $name, $tech)
+!endfunction
+!function AzureGenomicsAccountsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGenomicsAccountsLg>', 'Genomics Accounts', $funcName, $content)
+!endfunction
+@enduml

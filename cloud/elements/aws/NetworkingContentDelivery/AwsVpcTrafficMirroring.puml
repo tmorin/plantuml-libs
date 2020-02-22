@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcTrafficMirroringLg [20x20/16z] {
+RT053WGn509Gv4Cxzx_mPZIszRuG0zUWqyR4DpYDPQVpghudftf888dhy8KyQU-INUj40ZC0znBWUVui8LPdv7oVu80Teb903H3786j476X8J6elQl4siNRh
+TTHHfD7CxEN6Ad4QJGFLn07uvKmWPWcjyZHa2oVCGCTsH7iVGWPW1UdAKOBBfuDlkFhVrTUflqxnh_iV
+}
+
+!function AwsVpcTrafficMirroring($id, $name="Vpc Traffic Mirroring", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcTrafficMirroring', $name, $tech)
+!endfunction
+!function AwsVpcTrafficMirroringCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcTrafficMirroringLg>', 'Vpc Traffic Mirroring', $funcName, $content)
+!endfunction
+@enduml

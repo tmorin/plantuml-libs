@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFlashAutoLg [20x20/16z] {
+XSxL0KKX3C3Gj1It_QTzhbU3do_OJFIP0AfFiz4VEP1Iv6dpKHQmKkpN38ZUnnyh0bhrDhyM0EiXTFjOKo0bivG-5W4j-jnULc9q280i_l99GsXp3iTVakTC
+hApfsW8hAx8sOsL1MAMSTWK
+}
+
+!function MaterialsFlashAuto($id, $name="Flash Auto", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFlashAuto', $name, $tech)
+!endfunction
+!function MaterialsFlashAutoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlashAutoLg>', 'Flash Auto', $funcName, $content)
+!endfunction
+@enduml

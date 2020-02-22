@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudEndpointsLg [20x20/16z] {
+RP050eL024IN7Ev_uHy3ja-tQ5X4XhMZkQCZagoT75El4zvcECj0mwWByK-0gmo_DCaBZZqx0OoQiByGpbqT_WEcV6woeAmDkOzlpgDBEUVEPosbxpK_UtlE
+u3aho6scmCpqPVPV
+}
+
+!function GcpCloudEndpoints($id, $name="Cloud Endpoints", $tech="")
+  CloudElement($id, 'gcp/ApiManagement/GcpCloudEndpoints', $name, $tech)
+!endfunction
+!function GcpCloudEndpointsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudEndpointsLg>', 'Cloud Endpoints', $funcName, $content)
+!endfunction
+@enduml

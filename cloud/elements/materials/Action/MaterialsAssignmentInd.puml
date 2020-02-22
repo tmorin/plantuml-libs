@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAssignmentIndLg [20x20/16z] {
+ZP055W0X24HXLWNx_gVTxluRpfE65fZfZ0d1q0QCCJOvbsmlC5sbsfE1F9nfl3Hr98JfDDjTKasdkzWGDV5uvmRbjhid9OEIurrsW2kdkZc4VAXRr80PHijw
+LopDsFKkCCrmME_0CvZla6gACxt4kgiLq7yw
+}
+
+!function MaterialsAssignmentInd($id, $name="Assignment Ind", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAssignmentInd', $name, $tech)
+!endfunction
+!function MaterialsAssignmentIndCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAssignmentIndLg>', 'Assignment Ind', $funcName, $content)
+!endfunction
+@enduml

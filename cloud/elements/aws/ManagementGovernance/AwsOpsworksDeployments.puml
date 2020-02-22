@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsOpsworksDeploymentsLg [20x20/16z] nOdN3S1034B32IDb_u6lLt-dk07FroXWk5NaFqpo98XKE539XM_8REaeeIdq4YCXaClKf-N6CWtUmc6A9mwJ
+
+!function AwsOpsworksDeployments($id, $name="Opsworks Deployments", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksDeployments', $name, $tech)
+!endfunction
+!function AwsOpsworksDeploymentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOpsworksDeploymentsLg>', 'Opsworks Deployments', $funcName, $content)
+!endfunction
+@enduml

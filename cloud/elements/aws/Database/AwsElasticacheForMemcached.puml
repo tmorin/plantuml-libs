@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticacheForMemcachedLg [20x20/16z] {
+TSY5WS1024HHXX4s_JTy9EVsLldr1-eNviZs7krvlYU89_TQpyS14YE7c6cUm0bYkPo6X8vBSj9qCMzOOZyD8zI21cyjVSm6cZwTfy6Cd6M5xcrAc2hKVSBS
+vXeTQweS7fth2de5leWp21TgzPIIE9YkDtriAGpFPmka-wbyD0o0shYVUgTOowFw16eHzQyN
+}
+
+!function AwsElasticacheForMemcached($id, $name="Elasticache For Memcached", $tech="")
+  CloudElement($id, 'aws/Database/AwsElasticacheForMemcached', $name, $tech)
+!endfunction
+!function AwsElasticacheForMemcachedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticacheForMemcachedLg>', 'Elasticache For Memcached', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmClassicLg [22x20/16z] {
+PS-54S0W341HuhB_m1KS_bdkjHYhth4ANSdhvOgdWXgT2XAPQRWhUNufh8f24kbCiYgb2p5fsAwPYk_MbnhdeHXDTUeRQhpgVBw2X0JArAjNXQz4QKnl_HSg
+BVeHocpgAeZOTk1tR0YlpFvT7W
+}
+
+!function AzureVmClassic($id, $name="Vm Classic", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmClassic', $name, $tech)
+!endfunction
+!function AzureVmClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmClassicLg>', 'Vm Classic', $funcName, $content)
+!endfunction
+@enduml

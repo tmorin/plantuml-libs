@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPermContactCalendarLg [20x20/16z] {
+ZP255SGW40MpYaF_rPvit9a4-6zmXZy0mzmkU1bRyRD1JfuDdnX7bTk6R98jrnYh1LvSPW3EUwV_fAkxJCkuz_LQJUcmRmqgeg5kN23u9w2mk8pBDVFi8imE
+uknAM2ZcpczWaZUOwkGB
+}
+
+!function MaterialsPermContactCalendar($id, $name="Perm Contact Calendar", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermContactCalendar', $name, $tech)
+!endfunction
+!function MaterialsPermContactCalendarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermContactCalendarLg>', 'Perm Contact Calendar', $funcName, $content)
+!endfunction
+@enduml

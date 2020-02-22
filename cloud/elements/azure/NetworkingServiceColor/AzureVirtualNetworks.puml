@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualNetworksLg [35x20/16z] {
+VT273iD0309Gk1Zk_x-uoqbZ5QbedCVBn1bAc94ukXQxC5ExJOWm8SA426DUmaE42P5c22x6qUOIX-q5h3wepz76M_shRDVtADldV5lR7AJwE0OHrPzFMRoF
+ijOf0BeD2CJn4G3L9jCYJ8Wm8QRvBxeFKNbDYbzZpFY-uWa
+}
+
+!function AzureVirtualNetworks($id, $name="Virtual Networks", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworks', $name, $tech)
+!endfunction
+!function AzureVirtualNetworksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualNetworksLg>', 'Virtual Networks', $funcName, $content)
+!endfunction
+@enduml

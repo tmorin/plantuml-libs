@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVideoLg [20x20/16z] {
+ZP350GDH44BNnY7zbvjSuj_USHJ09RnzGBb0e5HUQ064Q6uVf0fQDOBVjKS1fyHdBUG4pB_dtC32Tmt5EgxOtwKzhgEOYVW0cMpKchkj7oqj3SqDRykvD3Dj
+PNy7
+}
+
+!function AzureVideo($id, $name="Video", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureVideo', $name, $tech)
+!endfunction
+!function AzureVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVideoLg>', 'Video', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAccessibleLg [20x20/16z] {
+VT055WGX201GQLZqpVrFkzCTlFvAbgz0l15bqjMaw-HgO0RbXdV2YATwINVhak5ghZKFlPccML1sqpQQddPeFFLmDzo-nJXBPjRzh_auCmxXjlMiOmex5DiC
+uiUaJSl12bfjAN2qKH6EXxr73m
+}
+
+!function MaterialsAccessible($id, $name="Accessible", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAccessible', $name, $tech)
+!endfunction
+!function MaterialsAccessibleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAccessibleLg>', 'Accessible', $funcName, $content)
+!endfunction
+@enduml

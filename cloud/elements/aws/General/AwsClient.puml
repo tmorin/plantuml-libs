@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsClientLg [20x20/16z] nT2r5GD15CNGZvftt7-_fcN8zuOAPP4dOQLneWIE2HgKiPFwDxSTVxPrzQhwtvg3faCNOSL9MOeJ5MshV7qDE3Hz0NdpzExz1m
+
+!function AwsClient($id, $name="Client", $tech="")
+  CloudElement($id, 'aws/General/AwsClient', $name, $tech)
+!endfunction
+!function AwsClientCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsClientLg>', 'Client', $funcName, $content)
+!endfunction
+@enduml

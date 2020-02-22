@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPictureInPictureLg [20x20/16z] fT235K0n30NGlDhPVzfl6_UuZUafg0qGN8uhsG59OqMdvaqDDNga5cysDOd9hD-uPJ-zQMSRUdwR_N_RxtPq0u9KAnBqL0q
+
+!function MaterialsPictureInPicture($id, $name="Picture In Picture", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPictureInPicture', $name, $tech)
+!endfunction
+!function MaterialsPictureInPictureCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPictureInPictureLg>', 'Picture In Picture', $funcName, $content)
+!endfunction
+@enduml

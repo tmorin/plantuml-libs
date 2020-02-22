@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSettingsBrightnessLg [20x20/16z] ZP250SGm203HkEm_xVjNOzV6S81LK2uWeClnH7Q8IV64ffTCVZ7mUyec8tQUwIIZNAFwJ4SPbne0FHzawEjB1kfnADjzspdQjJHhRlRMca5hLgiy0G
+
+!function MaterialsSettingsBrightness($id, $name="Settings Brightness", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsBrightness', $name, $tech)
+!endfunction
+!function MaterialsSettingsBrightnessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsBrightnessLg>', 'Settings Brightness', $funcName, $content)
+!endfunction
+@enduml

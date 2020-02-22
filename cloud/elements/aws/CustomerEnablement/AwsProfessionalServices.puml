@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsProfessionalServicesLg [20x20/16z] {
+RSu75eGW54FHASad2VjVhxqVd_sgGAPyJL9UC6kMJbobGF3GnHfj5sz69JPqCNEvi3s_Yw77U7cE5_pm_ocRzMMyabKKj5hlPjjM-UTkjP19YA1c2xD4E2Oy
+cpOp54q-cy4biLYJPHulMs3ZREbxYRCSDplgBpW2
+}
+
+!function AwsProfessionalServices($id, $name="Professional Services", $tech="")
+  CloudElement($id, 'aws/CustomerEnablement/AwsProfessionalServices', $name, $tech)
+!endfunction
+!function AwsProfessionalServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsProfessionalServicesLg>', 'Professional Services', $funcName, $content)
+!endfunction
+@enduml

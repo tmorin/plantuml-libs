@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWebappwordpressLg [20x20/16z] {
+NO-50SGm24NvWZJPVzvpxOlY47UGbId45ncgIlyeNQKGuyPRYPikxmAToOUAK3s-gXj-HX92X0NLAo1Ihvm6vT93nqSlppZuh0CfugxpkxRSCsr6I24ZPENQ
+DveCCBBo_ceEvyeWNib8Hszp3SoNpcfwTyn-ziD7XIciHguQnHr8x0FToPvYl80FSGvuZ7Z3JAmj9UCBfHcJyGkevsnN
+}
+
+!function AzureWebappwordpress($id, $name="Webappwordpress", $tech="")
+  CloudElement($id, 'azure/Companies/AzureWebappwordpress', $name, $tech)
+!endfunction
+!function AzureWebappwordpressCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWebappwordpressLg>', 'Webappwordpress', $funcName, $content)
+!endfunction
+@enduml

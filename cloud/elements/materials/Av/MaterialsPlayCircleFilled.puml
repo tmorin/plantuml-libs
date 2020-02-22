@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPlayCircleFilledLg [20x20/16z] {
+VP253GH130CJBtF_rVuVetKZYWmBaGyKqBjWOscjH7lAY6CZOfVoECYhg75SY4lTpcFtQHFjhCL5WuQ-1kTgMJKHL-Ufg0ZQhecPxGQciIwvWxs5lPdyZUo0
+xOhlbFC7
+}
+
+!function MaterialsPlayCircleFilled($id, $name="Play Circle Filled", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPlayCircleFilled', $name, $tech)
+!endfunction
+!function MaterialsPlayCircleFilledCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlayCircleFilledLg>', 'Play Circle Filled', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalCarWashLg [20x20/16z] {
+TT053aGX34NHLyMcOV-h7G7IyHjhpXS4_t81p03n98uA6eDGWzEQWsebU4i3FOUCiYJhxTJj43MXapJQ9XLP5QpSa9dlJxjIfdrzB3CkMSpriSvgRQwQrQdB
+WY7R11pRff9jCz9vB7eiMiEnjuuDpSOs6GLP6N9k9MdFDm
+}
+
+!function MaterialsLocalCarWash($id, $name="Local Car Wash", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalCarWash', $name, $tech)
+!endfunction
+!function MaterialsLocalCarWashCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalCarWashLg>', 'Local Car Wash', $funcName, $content)
+!endfunction
+@enduml

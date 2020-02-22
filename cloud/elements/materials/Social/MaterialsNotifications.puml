@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsNotificationsLg [20x20/16z] hSk35GD150NGhx7whpOUHSjx_01RQGtlA2LwYyINucK-beVnpkcP9NwRlGrjpInKw6hcy8oCGiq2rSYLnhr2CGE1ZfW9td083E-8u9yh
+
+!function MaterialsNotifications($id, $name="Notifications", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsNotifications', $name, $tech)
+!endfunction
+!function MaterialsNotificationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNotificationsLg>', 'Notifications', $funcName, $content)
+!endfunction
+@enduml

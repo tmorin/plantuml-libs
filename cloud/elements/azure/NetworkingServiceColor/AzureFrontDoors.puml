@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureFrontDoorsLg [23x20/16z] {
+RSxL0S0W34NH5qNstxUAm_rAJp5yiPgR4ER4_Cq8H8DwoTwaA9bFwRmuXZB8nrfEIBdyi8LpYkLgqAz27FFZXQc_RMJrdLrX9tRn8zjvjSjvDVJ0ne3On4K1
+uYSKbc_kVPnyei91i7FG_d43
+}
+
+!function AzureFrontDoors($id, $name="Front Doors", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureFrontDoors', $name, $tech)
+!endfunction
+!function AzureFrontDoorsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFrontDoorsLg>', 'Front Doors', $funcName, $content)
+!endfunction
+@enduml

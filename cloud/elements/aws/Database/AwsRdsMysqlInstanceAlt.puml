@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsRdsMysqlInstanceAltLg [20x20/16z] rP350S0W34KZNxh_mlLBWGNwSE8fJvGx1jgEYVClUOu88Cd2-xTn8-06GBr_ac2KTFtbyuT0kS2IMxZ_BfBtWNfZ3FpqRzNJLUyF
+
+!function AwsRdsMysqlInstanceAlt($id, $name="Rds Mysql Instance Alt", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsMysqlInstanceAlt', $name, $tech)
+!endfunction
+!function AwsRdsMysqlInstanceAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsMysqlInstanceAltLg>', 'Rds Mysql Instance Alt', $funcName, $content)
+!endfunction
+@enduml

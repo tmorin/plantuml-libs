@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureActivityLogLg [18x20/16z] rSl50S0W04DHd1_stxTks01znuY7_8M8hk8fgX0eDKqI1NVYIQmvfJwPlIg_I1nDuimA
+
+!function AzureActivityLog($id, $name="Activity Log", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureActivityLog', $name, $tech)
+!endfunction
+!function AzureActivityLogCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureActivityLogLg>', 'Activity Log', $funcName, $content)
+!endfunction
+@enduml

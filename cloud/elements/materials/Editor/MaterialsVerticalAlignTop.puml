@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVerticalAlignTopLg [20x20/16z] pSYr0S0m30J0byoa_RSDCwVpbOVlM6_mU2QdHJRZqGvU67CkaMFgB98FIUmz4mwy1sevfV1N2m
+
+!function MaterialsVerticalAlignTop($id, $name="Vertical Align Top", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsVerticalAlignTop', $name, $tech)
+!endfunction
+!function MaterialsVerticalAlignTopCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVerticalAlignTopLg>', 'Vertical Align Top', $funcName, $content)
+!endfunction
+@enduml

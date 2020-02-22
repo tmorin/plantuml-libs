@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBatteryCharging80Lg [20x20/16z] bT250S0W30J0FC4j-qzRT-zNEHpw6IY5WtJKuKxLb2-6lS4Om_qB6qjI6LdItXoTh30H-xorxD6zmxvTwj0Snyj0F9kHeoMTJbQY72pKKakf0RlJ6xBIAIq
+
+!function MaterialsBatteryCharging80($id, $name="Battery Charging80", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBatteryCharging80', $name, $tech)
+!endfunction
+!function MaterialsBatteryCharging80Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBatteryCharging80Lg>', 'Battery Charging80', $funcName, $content)
+!endfunction
+@enduml

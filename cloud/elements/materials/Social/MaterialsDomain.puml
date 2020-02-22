@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDomainLg [20x20/16z] {
+ZSzL0eL0241Hm6bg_wjzORVUppC9l0t3KBSoCX5NiROs3TGovZDZmg7nhAce2m_HVryAN4AHq9UqDyAQ83KShkhDQb4kh2L0I3UsFxj-8n9GDzZobmYn3BRw
+Co0Ux5-OpleoXzZFCEn2UDiN
+}
+
+!function MaterialsDomain($id, $name="Domain", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsDomain', $name, $tech)
+!endfunction
+!function MaterialsDomainCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDomainLg>', 'Domain', $funcName, $content)
+!endfunction
+@enduml

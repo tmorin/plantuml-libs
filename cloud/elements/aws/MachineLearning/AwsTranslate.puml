@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTranslateLg [20x20/16z] {
+bSj54iGm34JHXTMa-nzu3A7j_CJqgjJ_bEpzAvYn3Rvg91oQcrvZjsh8A7yiZXHKFaRCVVQn09EiWHiJ0PEwKVTqxCHKnxhD9MkQ2gQFXJFDh-gsMGgXF93N
+lAQqljTQ39KPNWifxDBVikf_-W4
+}
+
+!function AwsTranslate($id, $name="Translate", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsTranslate', $name, $tech)
+!endfunction
+!function AwsTranslateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTranslateLg>', 'Translate', $funcName, $content)
+!endfunction
+@enduml

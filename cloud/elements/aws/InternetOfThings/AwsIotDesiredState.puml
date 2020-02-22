@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotDesiredStateLg [20x20/16z] {
+NP250GCX40HlbVuxpiF71n_yPY3146cO56OcbA3jxeePSFuWfDDnBtow4daw4Q3ykQjXl16iZsibTHduSdkp3TyRlbp5d0tzk93ntlhZr7zNmTyEW0qlCqnv
+qHl1QPAgEnVfESzLchNIpN6LrHKxgxPRpVrelIiB4xx32O7aVX3y3hifOUO1
+}
+
+!function AwsIotDesiredState($id, $name="Iot Desired State", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotDesiredState', $name, $tech)
+!endfunction
+!function AwsIotDesiredStateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotDesiredStateLg>', 'Iot Desired State', $funcName, $content)
+!endfunction
+@enduml

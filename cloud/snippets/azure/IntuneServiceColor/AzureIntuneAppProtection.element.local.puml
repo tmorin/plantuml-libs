@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureIntuneAppProtection element
+include('elements/azure/IntuneServiceColor/AzureIntuneAppProtection')
+AzureIntuneAppProtection('element', 'Intune App Protection', 'an optional tech field')
+@enduml

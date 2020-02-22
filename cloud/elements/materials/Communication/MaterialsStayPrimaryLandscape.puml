@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStayPrimaryLandscapeLg [20x20/16z] Ow0sO6P70ymCZ5pyV1m80Gu-VYv6Hcv-RYQ4BYPkVXwm62D23CIbZnWFfbkmkHcRtwWD
+
+!function MaterialsStayPrimaryLandscape($id, $name="Stay Primary Landscape", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsStayPrimaryLandscape', $name, $tech)
+!endfunction
+!function MaterialsStayPrimaryLandscapeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStayPrimaryLandscapeLg>', 'Stay Primary Landscape', $funcName, $content)
+!endfunction
+@enduml

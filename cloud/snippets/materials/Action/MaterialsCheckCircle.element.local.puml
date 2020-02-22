@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsCheckCircle element
+include('elements/materials/Action/MaterialsCheckCircle')
+MaterialsCheckCircle('element', 'Check Circle', 'an optional tech field')
+@enduml

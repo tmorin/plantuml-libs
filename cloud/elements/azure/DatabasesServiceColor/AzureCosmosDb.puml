@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCosmosDbLg [22x20/16z] {
+RT07biGW30DGSCC1cxd_RJSosJvwZVSHjRNUsviG_RTE8lI_3QrPPkfTV4LCVdPWDJDbZRZS8yysOa1XhdNZLIh74EXQjNKrOSKZfQg_LDFEhYAA7IfZU-sA
+SUryn-Q3jj1IXLjixxNfTdxQEZADWHHNfsBrs5E8e9xKEXEnhXs3YMk3lB10nzhx4i9raGZLCVShvr1XD16vIxbSM5IbyCpGx-ybvVOcsFa3
+}
+
+!function AzureCosmosDb($id, $name="Cosmos Db", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureCosmosDb', $name, $tech)
+!endfunction
+!function AzureCosmosDbCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCosmosDbLg>', 'Cosmos Db', $funcName, $content)
+!endfunction
+@enduml

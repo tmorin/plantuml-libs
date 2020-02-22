@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSdCardLg [20x20/16z] rT2r0S0m30H0cVb__sd3J7skjCNoGIzaPqkR5BC_LMUYySuKjpz1YnUh9VdjYTStKqcikSkRum0W1dJhs-ulRwQWBR3TIX_8Ynu
+
+!function MaterialsSdCard($id, $name="Sd Card", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSdCard', $name, $tech)
+!endfunction
+!function MaterialsSdCardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSdCardLg>', 'Sd Card', $funcName, $content)
+!endfunction
+@enduml

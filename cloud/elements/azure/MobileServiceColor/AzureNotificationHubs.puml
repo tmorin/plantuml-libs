@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureNotificationHubsLg [20x20/16z] RSZB0SHG2090HB3_ajUNV-BESK8FTfNrAdMrTxK-lwwIA_D18a9L-EgCIJTV_bvWKESy4TH0ogwRTiyoz_AZ4in5AvKBSQBBn0Sz3-mR6DZz
+
+!function AzureNotificationHubs($id, $name="Notification Hubs", $tech="")
+  CloudElement($id, 'azure/MobileServiceColor/AzureNotificationHubs', $name, $tech)
+!endfunction
+!function AzureNotificationHubsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNotificationHubsLg>', 'Notification Hubs', $funcName, $content)
+!endfunction
+@enduml

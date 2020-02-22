@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPublicLg [20x20/16z] {
+VP250i8m34GN6OtI__zRgZZSj2-vgnn_18Zm2bWyquKV6AKEUIfkP7MAIMr265rNAMVxLnbs7Zqn6oYvVsQRhVWYtUeQjU0EvsX53EAyJ33Cs5ZImMvDYfj1
+S7UCjMpl8QMzpisAZDIaPkbCJbXh0Mb1KB9JDO6rDwMrp6ht3MiAwt3ZqrbfpBFwUwRlkW4
+}
+
+!function MaterialsPublic($id, $name="Public", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPublic', $name, $tech)
+!endfunction
+!function MaterialsPublicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPublicLg>', 'Public', $funcName, $content)
+!endfunction
+@enduml

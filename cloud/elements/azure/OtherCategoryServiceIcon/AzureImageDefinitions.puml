@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureImageDefinitionsLg [20x20/16z] {
+XT175iGm20HHGrTBulu7dXoSNIkzln7GsxokwL53itYRZWnO6wHWRhnU0N_3ERsI_mOl5EPdIXG9OcOHCjBA0bqR-JOibFhEbu11jilnsSCsejUpDjkNKQEt
+QZ6xI-z6oVnM675uqxtRtm4
+}
+
+!function AzureImageDefinitions($id, $name="Image Definitions", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureImageDefinitions', $name, $tech)
+!endfunction
+!function AzureImageDefinitionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureImageDefinitionsLg>', 'Image Definitions', $funcName, $content)
+!endfunction
+@enduml

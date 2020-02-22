@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRoute53HostedZoneLg [20x20/16z] {
+RSu50WGX34FHtv26-vzuVOUnXsiBL058R7CgKp3c7A2P0cWhB_hsRk3JLV7lszGK1vg5cuCsL8hbjunWKG3Ezu0H3ZBEJq51uIIoER7lzfJYe29ypi_0I2m-
+v6IigU7TYqMTj3ZHsda2
+}
+
+!function AwsRoute53HostedZone($id, $name="Route53 Hosted Zone", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsRoute53HostedZone', $name, $tech)
+!endfunction
+!function AwsRoute53HostedZoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRoute53HostedZoneLg>', 'Route53 Hosted Zone', $funcName, $content)
+!endfunction
+@enduml

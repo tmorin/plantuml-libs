@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTagFacesLg [20x20/16z] {
+VP05UWKX38HZE5dkVzi6R_jaLfZl7oo1Bq8Y_0iaLTMQv69A6eHPWYRQA2UUZbEU45CwIp35uKKPiBl-PvNkOh2ueA5Y2qBiORKafCvIi5NL72dt1DQFbIQx
+wcojfQMrjfy1lZsgJ_DWPvoxU6rD_RaBnjIF4g5xvzVQtlVWzYeAllRqYtu
+}
+
+!function MaterialsTagFaces($id, $name="Tag Faces", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTagFaces', $name, $tech)
+!endfunction
+!function MaterialsTagFacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTagFacesLg>', 'Tag Faces', $funcName, $content)
+!endfunction
+@enduml

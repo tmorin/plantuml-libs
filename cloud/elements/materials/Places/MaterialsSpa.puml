@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpaLg [20x20/16z] {
+bSw50GD020F01Duj-qzRT--zA-1VCU6Hp-LuKAJAnslIuyMedOSVitOoJXY30LQaiXz396138pkG4k1bjp20JT9C19YcfCRpLyhaQO8Trq5AsZadL7IZuC2Q
+BfhXoBjEkkFCYWwAuOgXZ542SSyCdsm1
+}
+
+!function MaterialsSpa($id, $name="Spa", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsSpa', $name, $tech)
+!endfunction
+!function MaterialsSpaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpaLg>', 'Spa', $funcName, $content)
+!endfunction
+@enduml

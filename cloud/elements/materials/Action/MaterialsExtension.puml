@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsExtensionLg [20x20/16z] {
+TOw50G0X3CGeNjz_sdUNuC4kR0249uLxVAWexlNXahdtS99RQ-ZkCeqr7jTEwkhiwjg_Gtwu9Mqv7VVj6q2_q66H_UfeSP5FOrgcYxdGgJ358mjtj4S-YW7g
+nUaqBTC4-73GJJqlYKmbRvbZZElt4-6F4G
+}
+
+!function MaterialsExtension($id, $name="Extension", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsExtension', $name, $tech)
+!endfunction
+!function MaterialsExtensionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsExtensionLg>', 'Extension', $funcName, $content)
+!endfunction
+@enduml

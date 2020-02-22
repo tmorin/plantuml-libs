@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureServiceEndpointPoliciesLg [20x20/16z] {
+PSy5We0m34JHdsHmoVrFkn8S1cdxwW0nJ6VcN9eY6KUwp0NenPKfCy56kyYchcqeCndrgm5bHOMdXI9m9q9ncEIDITQuT9Y537SimaxZcClDy7zpk1l_njka
+hqNS9ztlLcRTj4xZdjxBnhobfUnEgrEstB6pPW0qtt6U1Fm2
+}
+
+!function AzureServiceEndpointPolicies($id, $name="Service Endpoint Policies", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureServiceEndpointPolicies', $name, $tech)
+!endfunction
+!function AzureServiceEndpointPoliciesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureServiceEndpointPoliciesLg>', 'Service Endpoint Policies', $funcName, $content)
+!endfunction
+@enduml

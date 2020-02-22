@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatLineSpacingLg [20x20/16z] Ow0CCBDY2l7mip4mi72mGm4J0mCZ6pSl1pEA612mSJ5YQ6RZ946CXGCAs9dmYH4s3zCjsDsCwJTe650F
+
+!function MaterialsFormatLineSpacing($id, $name="Format Line Spacing", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatLineSpacing', $name, $tech)
+!endfunction
+!function MaterialsFormatLineSpacingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatLineSpacingLg>', 'Format Line Spacing', $funcName, $content)
+!endfunction
+@enduml

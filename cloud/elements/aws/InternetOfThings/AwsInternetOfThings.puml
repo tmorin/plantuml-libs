@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsInternetOfThingsLg [20x20/16z] XSw54O0m30LGx0lxBunJRz_bB3xLp8KpHoLuvXRj2IqXPnSvaSfotcmuoPa2H4SvGxlEWF-SUIPFC1tdG89HxhmWaHAStBWv--NamS-HJevAyCpDIsQUQWu
+
+!function AwsInternetOfThings($id, $name="Internet Of Things", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsInternetOfThings', $name, $tech)
+!endfunction
+!function AwsInternetOfThingsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsInternetOfThingsLg>', 'Internet Of Things', $funcName, $content)
+!endfunction
+@enduml

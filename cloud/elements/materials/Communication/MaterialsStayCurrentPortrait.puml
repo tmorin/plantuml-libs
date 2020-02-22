@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStayCurrentPortraitLg [20x20/16z] tT2n0G0G3011083zfmK0JE0QaYuFCeWoc80EArDehN3VSJ_mkTFDiXC85aZCtI-_UTkpmRlLR5hLfhrzLTj7
+
+!function MaterialsStayCurrentPortrait($id, $name="Stay Current Portrait", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsStayCurrentPortrait', $name, $tech)
+!endfunction
+!function MaterialsStayCurrentPortraitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStayCurrentPortraitLg>', 'Stay Current Portrait', $funcName, $content)
+!endfunction
+@enduml

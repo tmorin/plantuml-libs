@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsEventLg [20x20/16z] dSW54iGm241HT4e23FS_RRthsX_bmH8Y7Eybq-rLEuJ4JTRCXJQAkYbMbBfBtbeEUcd8pHpX4lefizuD7wnN-IzcxktHS0uE2yPB7AjHX5-A85XHRjhejoO
+
+!function MaterialsEvent($id, $name="Event", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsEvent', $name, $tech)
+!endfunction
+!function MaterialsEventCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEventLg>', 'Event', $funcName, $content)
+!endfunction
+@enduml

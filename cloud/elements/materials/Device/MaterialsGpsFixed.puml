@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGpsFixedLg [20x20/16z] {
+RP053aCn34D_N0Phzx_jscOyMnIziA-dpAu_bV9B3At1laZgd9CzsHjLvW24p6elD897OJnXcXi16yxaPJqlKicwQEwd45nbzRPKLo6ngagRM7mphc2sOeg9
+Nh53tA9k5hyf3xHNsbFb_Hq
+}
+
+!function MaterialsGpsFixed($id, $name="Gps Fixed", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsGpsFixed', $name, $tech)
+!endfunction
+!function MaterialsGpsFixedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGpsFixedLg>', 'Gps Fixed', $funcName, $content)
+!endfunction
+@enduml

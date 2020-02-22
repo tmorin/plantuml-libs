@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTouchAppLg [20x20/16z] {
+bS-r0GH0449HM6PTflzgpztlXoy2_5amFGZp7BFmpjAmO2tV4bjIaOrmQzsYPyrRGpbOuwr9UpFSjpFW9-j9J-O-YvvifvauHf79Z-baoKVjHxhCPl5pdNZ2
+HZnXmJNM0wt3lIq
+}
+
+!function MaterialsTouchApp($id, $name="Touch App", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTouchApp', $name, $tech)
+!endfunction
+!function MaterialsTouchAppCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTouchAppLg>', 'Touch App', $funcName, $content)
+!endfunction
+@enduml

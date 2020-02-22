@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLiveHelpLg [20x20/16z] {
+RSm75i0W20DGt3vBoFrFsprvZVkho7z2V2Ni58S1He3REk9ccMkqfbHrs-NBSEpmjYwXjI3zOx6HHUhRQAGcQH_RIoPrLYLD_1gYT7hBMRqHe3VzUQSnlYpj
+dsmCsqiasR6Kqa2YhPiaJufP4P_Yo6K1
+}
+
+!function MaterialsLiveHelp($id, $name="Live Help", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsLiveHelp', $name, $tech)
+!endfunction
+!function MaterialsLiveHelpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLiveHelpLg>', 'Live Help', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCloudDirectoryLg [20x20/16z] fS-r0GGn4CNG8sd-kFz-5v9ZNfbVvh6vA6YkgAXUAkfYsElHScsWS6tswAfbyyOAwjvClBT0xgnNwniBdawIQ_Eusj5hAufry_tVHdGjOtCp
+
+!function AwsCloudDirectory($id, $name="Cloud Directory", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCloudDirectory', $name, $tech)
+!endfunction
+!function AwsCloudDirectoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudDirectoryLg>', 'Cloud Directory', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTimerOffLg [20x20/16z] {
+PL050WGX25J21F__t1F7wzbcQZLTq4RwXhYPo_SioqP-VTAvYQhGQpGq9JKRmwrGWP-dRXdbJ3hTvEOlFSNxwlDcbcLxM5iGLb0vYuJzV1K8sIdnLjuFFd56
+A0eGIZXceSICpmDoADdfTFGQ3oXBVwx_u-Sv0TNaalhUbEfDcAKj305kvZORIsI-jKGvIApj7my
+}
+
+!function MaterialsTimerOff($id, $name="Timer Off", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTimerOff', $name, $tech)
+!endfunction
+!function MaterialsTimerOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTimerOffLg>', 'Timer Off', $funcName, $content)
+!endfunction
+@enduml

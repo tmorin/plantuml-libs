@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureConditionalAccessLg [15x20/16z] TT2r0O1000J1K_el6NVORE0TIpHnHAKHCMKxNKlidWrJdqmoQQT9vYHLyM2cNsKFmZ6oSpsHxkGFTGvsEvodMXVSAy2U8gRs_y6QEg727jtjTKO
+
+!function AzureConditionalAccess($id, $name="Conditional Access", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureConditionalAccess', $name, $tech)
+!endfunction
+!function AzureConditionalAccessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureConditionalAccessLg>', 'Conditional Access', $funcName, $content)
+!endfunction
+@enduml

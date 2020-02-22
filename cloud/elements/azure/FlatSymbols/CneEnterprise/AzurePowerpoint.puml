@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePowerpointLg [20x20/16z] {
+RP050e0W40Ilr_-_s8F5Tao6k929McIbBDIyXzYQqw67Yuh5Tb5AykPIrAIXum78Q4y7DujXqIVPScecDISZJfV5Gu1phxhtkacSJZJ6johaT84ZlvjZHZam
+kgXR7Ln7xkjEVjULaRptofVyw-bVxtS
+}
+
+!function AzurePowerpoint($id, $name="Powerpoint", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePowerpoint', $name, $tech)
+!endfunction
+!function AzurePowerpointCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePowerpointLg>', 'Powerpoint', $funcName, $content)
+!endfunction
+@enduml

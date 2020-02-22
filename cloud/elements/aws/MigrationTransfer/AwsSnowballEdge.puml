@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSnowballEdgeLg [20x20/16z] {
+fOzL0iKm3CCUJBRJ-zztpFkSoYebxHsb0zUYeElGLCVHctC4ow3DLKKZgPmSJ0vykB3EdguvEjsLP0FsxZA1OpOt8yd8QZEY6ncLHAX5rao88j_IHgp73gBC
+wWq3
+}
+
+!function AwsSnowballEdge($id, $name="Snowball Edge", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsSnowballEdge', $name, $tech)
+!endfunction
+!function AwsSnowballEdgeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSnowballEdgeLg>', 'Snowball Edge', $funcName, $content)
+!endfunction
+@enduml

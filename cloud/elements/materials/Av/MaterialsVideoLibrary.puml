@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVideoLibraryLg [20x20/16z] {
+TSe54aKX34FHjhY4xd-rNplFW3j-4jecPsmKSJIoOT4po8_uQzs6yJ79yliL2JWCVwj4hiv6acSZXybyU_uuGX_cikh3HjURPJs3cIjdWVvsnam_2t9cIyPP
+OKEvHBlU
+}
+
+!function MaterialsVideoLibrary($id, $name="Video Library", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVideoLibrary', $name, $tech)
+!endfunction
+!function MaterialsVideoLibraryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVideoLibraryLg>', 'Video Library', $funcName, $content)
+!endfunction
+@enduml

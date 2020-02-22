@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRvHookupLg [20x20/16z] {
+dSw50S0m20H0Y2k__xPrzrvSWNunl5eeryjXjQbJhsP52-vvFQ-NsJnnqKocKrLGIn58ARLEcoOeLW6EMIKxPz8sZtR9qL6FLKj7-BRFuvv5RG7j8B3JtefR
+xPMCNlPgoCz769MJxwavHMUAeIrRgcVQKOfkDG
+}
+
+!function MaterialsRvHookup($id, $name="Rv Hookup", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsRvHookup', $name, $tech)
+!endfunction
+!function MaterialsRvHookupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRvHookupLg>', 'Rv Hookup', $funcName, $content)
+!endfunction
+@enduml

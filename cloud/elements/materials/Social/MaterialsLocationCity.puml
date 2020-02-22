@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocationCityLg [20x20/16z] {
+bO-53G0X54DnBNJ_RSzTUI5yDz6ASrSNS7PgwFvjjkonHUjYjfJS0mBSVAPO2_PVtVaWPMR_OUTZ29Mr_v8FmUkZR_XeZhNC_MSECmhHVvEF0Bb-asyuWUjt
+vtkibUQ05B_f
+}
+
+!function MaterialsLocationCity($id, $name="Location City", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsLocationCity', $name, $tech)
+!endfunction
+!function MaterialsLocationCityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocationCityLg>', 'Location City', $funcName, $content)
+!endfunction
+@enduml

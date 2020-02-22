@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudFilestoreLg [22x20/16z] {
+PT254S1G20FGuDr_uGgX_iuux0iEbXV3IMkvb68a4vGWMrwuG_ATJJcopdsjGpzQ9zJTD0WG7RYrw7J0ghCns6p9UL7FT1Mcard3C6Qr_jbI12z3l6RCpUfo
+P9Nbj_Yzc8yuyCeN1yMxzV_hl2HPKbLnVWC
+}
+
+!function GcpCloudFilestore($id, $name="Cloud Filestore", $tech="")
+  CloudElement($id, 'gcp/Storage/GcpCloudFilestore', $name, $tech)
+!endfunction
+!function GcpCloudFilestoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudFilestoreLg>', 'Cloud Filestore', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAutomlNaturalLanguageLg [20x20/16z] {
+RP050iGW30G39Blv_uUHhSlSjOqCQgBis4d5IRLTGfvWLprl-ARnNgF4M67u18hM0ak3dLrMCspV0902vfJVw3CIT4ehL2r2HJKzSjLOgcfDOghc9g_DZm0G
+9WtQYrPPQELwx0e-KHJ_P_k_0oluQEUTajplzEVk1m
+}
+
+!function GcpAutomlNaturalLanguage($id, $name="Automl Natural Language", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlNaturalLanguage', $name, $tech)
+!endfunction
+!function GcpAutomlNaturalLanguageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAutomlNaturalLanguageLg>', 'Automl Natural Language', $funcName, $content)
+!endfunction
+@enduml

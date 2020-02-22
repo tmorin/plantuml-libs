@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticLoadBalancingLg [20x20/16z] {
+VSu53aGn24NH2C_wzx_U4UYut5XpaWAvvtl_BTyiHl5gwya8LTkWN-sY1A2e06qBcBZvqfZO_qiHuBJHRGHBHB9jtOr9vk-bbFllsA9cXpCztN9VlRfv49w_
+Jub6tYoSlyTwqRHzmUCBdW4
+}
+
+!function AwsElasticLoadBalancing($id, $name="Elastic Load Balancing", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsElasticLoadBalancing', $name, $tech)
+!endfunction
+!function AwsElasticLoadBalancingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticLoadBalancingLg>', 'Elastic Load Balancing', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualNetworkClassicLg [35x20/16z] {
+VT05haCn44DH1mQI_U_tmoGkMQe5jt0UugwPuNLc3Hn5pBSVPfGH8KQ46X5Yl57uXn0ZGWn5drrJXcAklSOZ_I-JniFgQhdtTk0_0VXVyhp2SBktT4cSMCb3
+hDbv_9uhUYN_qcBbkA9kjqphGALLAqS0F8-CGemADIfelWZzpb-c7gFYqpXUvmRk5m
+}
+
+!function AzureVirtualNetworkClassic($id, $name="Virtual Network Classic", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworkClassic', $name, $tech)
+!endfunction
+!function AzureVirtualNetworkClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualNetworkClassicLg>', 'Virtual Network Classic', $funcName, $content)
+!endfunction
+@enduml

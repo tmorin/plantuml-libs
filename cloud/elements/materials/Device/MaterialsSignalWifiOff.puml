@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSignalWifiOffLg [20x20/16z] {
+bSu55eGm40FGCQnw_zjkkk-bwqBm3pGZR-FwGhhlGFC8DoLQ0guTgMcBAslaJaGIr7RSt27kpL9_mcJYvH6BYqYqUsmX26xlSEM44pSSd70YIKOFaM5FBSHR
+pse7aJrZkMELEqn9nqNbBcPoDXS
+}
+
+!function MaterialsSignalWifiOff($id, $name="Signal Wifi Off", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalWifiOff', $name, $tech)
+!endfunction
+!function MaterialsSignalWifiOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalWifiOffLg>', 'Signal Wifi Off', $funcName, $content)
+!endfunction
+@enduml

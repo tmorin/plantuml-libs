@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhoneForwardedLg [20x20/16z] {
+ZSv50aKn24FHf52Nx7-rtrtV7PuAu7-EKpHtkn1hn36Jr7Y46DDOyMhZQ659qWd3b9Oz6xiaVtwBB1K-pu3VwBOBs3BUycdlc7juCzPwHBgHDmor6rYqHhCR
+CizSTCnnpvlU3FJSbsHuZi6CsDmU
+}
+
+!function MaterialsPhoneForwarded($id, $name="Phone Forwarded", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPhoneForwarded', $name, $tech)
+!endfunction
+!function MaterialsPhoneForwardedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhoneForwardedLg>', 'Phone Forwarded', $funcName, $content)
+!endfunction
+@enduml

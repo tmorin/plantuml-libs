@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsStoreMallDirectoryLg [20x20/16z] {
+fOzL0e0W38OT2rllVrgwuOrFgVM_hO5IWS56rvcvADW0LGOXsEIka11s_XKdUDjJsnvlmxy1VTlMvXkhyn77S_fDXRwXxYMkN-WxjrtE1gtjlvogdoiRLlB9
+RIiO
+}
+
+!function MaterialsStoreMallDirectory($id, $name="Store Mall Directory", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsStoreMallDirectory', $name, $tech)
+!endfunction
+!function MaterialsStoreMallDirectoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStoreMallDirectoryLg>', 'Store Mall Directory', $funcName, $content)
+!endfunction
+@enduml

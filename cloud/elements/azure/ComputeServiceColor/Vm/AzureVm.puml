@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmLg [22x20/16z] {
+PO-7bSL020C1ITprN_4tE6mQnvr714zKZqweV93oPLYwyvMlPTX5SB62DLWioQXGQRRmw8d0rLvQm64Tt2tZiTecAqlbi8LwzHnsOOGSKYXTFEU6PjxWhu0N
+zi7_0ZO8WDcnIU09zRLTnVy
+}
+
+!function AzureVm($id, $name="Vm", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVm', $name, $tech)
+!endfunction
+!function AzureVmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmLg>', 'Vm', $funcName, $content)
+!endfunction
+@enduml

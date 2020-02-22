@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureServiceCatalogManagedApplicationDefinitions element
+include('elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions')
+AzureServiceCatalogManagedApplicationDefinitions('element', 'Service Catalog Managed Application Definitions', 'an optional tech field')
+@enduml

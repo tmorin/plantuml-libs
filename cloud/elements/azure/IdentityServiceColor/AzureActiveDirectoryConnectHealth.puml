@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureActiveDirectoryConnectHealthLg [20x20/16z] {
+HSg73O1030H1Xpi7wBzUmXlngpnQcOnGsGtnnqt0XvlSR73JOug81pV1HPqBDq6DM3ZaxgHQq1qBIPYDXPanN0IFwHYNcOW-w8hNNB6sXOH23OW8D_SVLTbT
+WUeZ5aQOUtPdFNGUCWYpwk9BomQP6SpgFb866QEFbSc7RcALUPxj8r-MnzdVjR7gfHi
+}
+
+!function AzureActiveDirectoryConnectHealth($id, $name="Active Directory Connect Health", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth', $name, $tech)
+!endfunction
+!function AzureActiveDirectoryConnectHealthCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureActiveDirectoryConnectHealthLg>', 'Active Directory Connect Health', $funcName, $content)
+!endfunction
+@enduml

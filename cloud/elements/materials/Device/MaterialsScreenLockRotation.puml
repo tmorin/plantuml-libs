@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsScreenLockRotationLg [20x20/16z] {
+PSm50WCX34JHYQ8jzxzjGzbK_oeFmOcT0P2P8UE-Ug1mt4cZIcj4HTKSIGGMo8fkVAWHThhjphdgnzh8OzzxVSfb9Ahw7509V4VuG-qSG5_8BR0Alb2MmnoV
+I3NMSUF49C0A4fDYv8byqHvL5jiuaWAjpnNexL1gxOQ_Y90z
+}
+
+!function MaterialsScreenLockRotation($id, $name="Screen Lock Rotation", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsScreenLockRotation', $name, $tech)
+!endfunction
+!function MaterialsScreenLockRotationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsScreenLockRotationLg>', 'Screen Lock Rotation', $funcName, $content)
+!endfunction
+@enduml

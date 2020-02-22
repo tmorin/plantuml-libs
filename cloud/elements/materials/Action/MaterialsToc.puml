@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTocLg [20x20/16z] Ow0FO4G080SinCB33GKyN8oCN2nWPInmm0nKmOJBE6OEE61dP6HdnYM62J3jmEuMJ3VJ1m
+
+!function MaterialsToc($id, $name="Toc", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsToc', $name, $tech)
+!endfunction
+!function MaterialsTocCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTocLg>', 'Toc', $funcName, $content)
+!endfunction
+@enduml

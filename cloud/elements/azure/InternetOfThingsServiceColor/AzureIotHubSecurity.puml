@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureIotHubSecurityLg [15x20/16z] JSs50SH024JHOOJ-EpvXYVpe8xAOoeMxOcBEG99pigGyzQ-T7oqBVbFqO9dGMLgs2rmAadapJaVMuLHgAyjkkWqTzadPqvFWbmAK7nL-NNPXuYn1t2dxw0i
+
+!function AzureIotHubSecurity($id, $name="Iot Hub Security", $tech="")
+  CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureIotHubSecurity', $name, $tech)
+!endfunction
+!function AzureIotHubSecurityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIotHubSecurityLg>', 'Iot Hub Security', $funcName, $content)
+!endfunction
+@enduml

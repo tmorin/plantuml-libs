@@ -1,0 +1,18 @@
+@startuml
+sprite $AwsGroupCorporateDataCenterLg [20x20/16z] bSo53S1040D1WUdwBpZCd9L5yr3_YhkoDu643kR49xDEfaJQ2U4kSAEGozs4rHZr9dDZlh2uacvRCqigxk_byfvr_i_TjWPEORLuAlMd5W
+
+!function AwsGroupCorporateDataCenter($id, $name="Corporate Data Center", $tech="")
+  CloudGroup($id, "AwsGroupCorporateDataCenter", "<$AwsGroupCorporateDataCenterLg>", $name, $tech)
+!endfunction
+skinparam Rectangle<<AwsGroupCorporateDataCenter>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

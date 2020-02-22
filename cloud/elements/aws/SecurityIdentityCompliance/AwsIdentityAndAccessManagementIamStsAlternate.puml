@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamStsAlternateLg [20x20/16z] {
+VSg7YGHH30DGsGhNVyStaV7V9C3X8Q2qfB15EMxxMD5kvZRAYVSAVLk7MzBJGaXWXbMm6rAFjTj_tAndhwg0cZtel8HXSAGOYw79nhIHtzOighSvp8roRNDO
+gKlRv3GIskPY3HppCaKZqMubF-IT_W4
+}
+
+!function AwsIdentityAndAccessManagementIamStsAlternate($id, $name="Identity And Access Management Iam Sts Alternate", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamStsAlternate', $name, $tech)
+!endfunction
+!function AwsIdentityAndAccessManagementIamStsAlternateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamStsAlternateLg>', 'Identity And Access Management Iam Sts Alternate', $funcName, $content)
+!endfunction
+@enduml

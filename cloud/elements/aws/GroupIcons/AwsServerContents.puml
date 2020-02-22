@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsServerContentsLg [20x20/16z] uoG5SB130GT2Z8s55GnOs934s3Z0gjXGnDX0ojXGnI0qONKSOC16WHsq54E40TQm8WK
+
+!function AwsServerContents($id, $name="Server Contents", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsServerContents', $name, $tech)
+!endfunction
+!function AwsServerContentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsServerContentsLg>', 'Server Contents', $funcName, $content)
+!endfunction
+@enduml

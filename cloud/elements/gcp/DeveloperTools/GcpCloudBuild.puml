@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudBuildLg [20x20/16z] {
+PL074i0m2CAT_x-uftI7pYZWm41Eu8Rc3GKXkMxaIVNrWfDMxrWDCIWoeqLqWUgiTzhdLu7iRm1cGad2AOomoB0X37r5izoCnBfZBdh5h2QcBLR6c4g1U0XR
+pRiNc87c-lGSyVIypxRlODyLQSzEg-hUwRRx0m
+}
+
+!function GcpCloudBuild($id, $name="Cloud Build", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudBuild', $name, $tech)
+!endfunction
+!function GcpCloudBuildCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudBuildLg>', 'Cloud Build', $funcName, $content)
+!endfunction
+@enduml

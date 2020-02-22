@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsPinpointLg [20x20/16z] {
+RSy5KWKm34LHx6dslrywfFY_uwUQdl8psts0VO2zA5AEFt25e4G1_38oiICOlYPM884t86l1qTXwXUGrgmpnzYg4MfD38tWpBHwRphNWosRkMJ08jLRMZ7tW
+wDf81qygsMkbsgGXqwvD1Tc2TjBPOadfDb_rgmVqSDyx
+}
+
+!function AwsPinpoint($id, $name="Pinpoint", $tech="")
+  CloudElement($id, 'aws/CustomerEngagement/AwsPinpoint', $name, $tech)
+!endfunction
+!function AwsPinpointCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsPinpointLg>', 'Pinpoint', $funcName, $content)
+!endfunction
+@enduml

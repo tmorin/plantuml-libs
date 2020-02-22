@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCrop54Lg [20x20/16z] Ow0-O6L70gnW8MPU3eGG1oypI8o5XmcXXuc71Ip6pOWGO-IccnYcMp3TZCrlr0S
+
+!function MaterialsCrop54($id, $name="Crop54", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCrop54', $name, $tech)
+!endfunction
+!function MaterialsCrop54Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCrop54Lg>', 'Crop54', $funcName, $content)
+!endfunction
+@enduml

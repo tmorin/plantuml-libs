@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCloudwatchEventEventBasedLg [20x20/16z] fSg54GGX40NH7YN_ZE-V8wMx3--2MQGuC-kKjhKXLvlBsiYIP64b1hZm5ktU0J6gHdnQGZvRGGKXx_kllN-lRTflDxEAUGTlyNd7iYJdtJmF_W
+
+!function AwsCloudwatchEventEventBased($id, $name="Cloudwatch Event Event Based", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchEventEventBased', $name, $tech)
+!endfunction
+!function AwsCloudwatchEventEventBasedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudwatchEventEventBasedLg>', 'Cloudwatch Event Event Based', $funcName, $content)
+!endfunction
+@enduml

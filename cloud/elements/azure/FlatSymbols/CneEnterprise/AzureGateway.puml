@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGatewayLg [20x20/16z] {
+RL150i0m22jrvF_l7J8uDRCiKci6MCWYZ0jQOg8AUwjCyvVqHxNU_RD34YbDOU8CUW5kcBC1YkEqTe8Xh23LLIoD_S6JxDe2DZ5xbfNgHqWN2hrh7djNkaXU
+MdM9gbjph9Ni9YC0IXTGSaixrvnxgnpFnncypohFL10bp_HrzXy
+}
+
+!function AzureGateway($id, $name="Gateway", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGateway', $name, $tech)
+!endfunction
+!function AzureGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGatewayLg>', 'Gateway', $funcName, $content)
+!endfunction
+@enduml

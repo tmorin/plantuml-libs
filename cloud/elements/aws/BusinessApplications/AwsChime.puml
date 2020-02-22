@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsChimeLg [20x20/16z] {
+bP253GGm30EbDlOvtN_VP-O_KHYy_gQVVKjteLIty6rj2mB4uX9qh9GSwb8PCpp0d4DoH96QIb-dQMGj7EnZq2PchGo1pfNHh50MrlaM3DC3vt9U4KkHudK6
+EO5WzTsxkBkuUrdoAsd-PWi
+}
+
+!function AwsChime($id, $name="Chime", $tech="")
+  CloudElement($id, 'aws/BusinessApplications/AwsChime', $name, $tech)
+!endfunction
+!function AwsChimeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsChimeLg>', 'Chime', $funcName, $content)
+!endfunction
+@enduml

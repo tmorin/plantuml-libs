@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsInvertColorsLg [20x20/16z] {
+bSq53eOX281XqcRS_xH_MljS-QuV1U0sqOFKJ0-AzO5Y0RF_SH50SJUPn5_wcXjtmfoWcsSSttYQzuzQSPbsAwT9swnV9fDfZVhXM6XOX1wLme1V-puEJ9PZ
+SqzV6g74dACWNFK6
+}
+
+!function MaterialsInvertColors($id, $name="Invert Colors", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsInvertColors', $name, $tech)
+!endfunction
+!function MaterialsInvertColorsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInvertColorsLg>', 'Invert Colors', $funcName, $content)
+!endfunction
+@enduml

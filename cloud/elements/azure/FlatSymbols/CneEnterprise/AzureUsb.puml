@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureUsbLg [9x20/16z] JKw30K1120s7lF-stxZi7W3WHBYePxyyUVbLOWcXkwG8Jq3YXeH7O5MQoagQaHLDaQn92fq1eH7Pj06W3KFuV633y7vbVWV0TsLvqPplGhmmieBE03NbS3i
+
+!function AzureUsb($id, $name="Usb", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUsb', $name, $tech)
+!endfunction
+!function AzureUsbCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUsbLg>', 'Usb', $funcName, $content)
+!endfunction
+@enduml

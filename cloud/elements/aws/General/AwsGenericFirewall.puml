@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGenericFirewallLg [20x20/16z] {
+bL07OWGW33810-h__rlRtjw7c-5gdmFY7SS9LjoGGanVab79Qbowu78ELqiR5pvpSdEqpd5dHcFbMdNA-hSNSn6nyRlg_L-87iFso5z77eNuJGX7JXcIfwGv
+jbpzZuE1b03wToiSEKZvo_sIYkgfwVzu__-4WAAfWDBDzsY3xGly
+}
+
+!function AwsGenericFirewall($id, $name="Generic Firewall", $tech="")
+  CloudElement($id, 'aws/General/AwsGenericFirewall', $name, $tech)
+!endfunction
+!function AwsGenericFirewallCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGenericFirewallLg>', 'Generic Firewall', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewQuiltLg [20x20/16z] hOp30G0n44LZ3lglTcqZxn1yYV8OxxrkZmxTQOwPZUK1qsdsbGO32qsg0Jbh9iMeJMoEMPkFKyqTQDtAV8WEAUNYA4yD
+
+!function MaterialsViewQuilt($id, $name="View Quilt", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewQuilt', $name, $tech)
+!endfunction
+!function MaterialsViewQuiltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewQuiltLg>', 'View Quilt', $funcName, $content)
+!endfunction
+@enduml

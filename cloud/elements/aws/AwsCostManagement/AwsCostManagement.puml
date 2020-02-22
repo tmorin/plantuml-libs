@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCostManagementLg [20x20/16z] {
+RS-r0GLH44BHBm_6-kztXtMxuOdWyzhtbiZSjjYDnfz7vqljE6p3mnm3eF1YxZ3XOXb13BC1wM6DOt2to0p2EiYu6w5uCGr_Cv8MLtCjZDWigG3iLjd55cLP
+9LMRVKqlZo3xtMfxQG8
+}
+
+!function AwsCostManagement($id, $name="Cost Management", $tech="")
+  CloudElement($id, 'aws/AwsCostManagement/AwsCostManagement', $name, $tech)
+!endfunction
+!function AwsCostManagementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCostManagementLg>', 'Cost Management', $funcName, $content)
+!endfunction
+@enduml

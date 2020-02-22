@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotHouseLg [20x20/16z] {
+TL050WCn3Bf0eF__yQZCjvn0WEhrhrX4Al2GobIdHDUH9EVHWPqwi2EQG7jos9XeCpwr7C0C4HEaack7bJevnK7hQft9EZgYoHfrDZLaRGqcSO50gB37giT0
+CfmKUmrrR9MYMMSlObKqRxhtd9YSZ3iVpzbgrZgUwkKEx0NwSLU_x_HttG
+}
+
+!function AwsIotHouse($id, $name="Iot House", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotHouse', $name, $tech)
+!endfunction
+!function AwsIotHouseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotHouseLg>', 'Iot House', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAddCircleLg [20x20/16z] {
+VP053iHG448NrlX-_zFMlQJ49YzZy7eGI9p1HwcKfC-EgRP8N55ic-8CCNLLgKwTq_XdQiXadehFo3GpO6OQHzCmc7C4Oix3U1g6MSPp62fWVA3GCJThRhXV
+tC_6cyd0PUKpzUe1
+}
+
+!function MaterialsAddCircle($id, $name="Add Circle", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsAddCircle', $name, $tech)
+!endfunction
+!function MaterialsAddCircleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAddCircleLg>', 'Add Circle', $funcName, $content)
+!endfunction
+@enduml

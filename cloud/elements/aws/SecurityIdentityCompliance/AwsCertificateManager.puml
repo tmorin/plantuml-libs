@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCertificateManagerLg [20x20/16z] fOz50i9G34IniTx_mDGxRB2-h_5aE4TSPD611LOTIhNfd14f8-QgotW5orCwFZZkLvsGGArRYcFug4lYaRIECW2gTN98TInNFDLVTAdvntEE9m
+
+!function AwsCertificateManager($id, $name="Certificate Manager", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCertificateManager', $name, $tech)
+!endfunction
+!function AwsCertificateManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCertificateManagerLg>', 'Certificate Manager', $funcName, $content)
+!endfunction
+@enduml

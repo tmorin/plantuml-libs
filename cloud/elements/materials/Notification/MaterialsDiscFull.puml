@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDiscFullLg [20x20/16z] hP253SHG34CTQZzx_scFEUBh4qLX6_yY5k7wbRAwICxz8-kJTzerATUK3Zuf0hqLThvnw5H0EiaHTYljzvpEMtolLMZDkGjf5efyOsZw1Pf_pjgo1qTm1W
+
+!function MaterialsDiscFull($id, $name="Disc Full", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsDiscFull', $name, $tech)
+!endfunction
+!function MaterialsDiscFullCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDiscFullLg>', 'Disc Full', $funcName, $content)
+!endfunction
+@enduml

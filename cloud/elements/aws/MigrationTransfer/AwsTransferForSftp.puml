@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTransferForSftpLg [20x20/16z] {
+NSq9YWCW38LX6D-czp_mnDQ8z6VrKvEPphVvOjk3QNjGRBje0CTQFUY1Daig8pHuB908ocNACLO03FmnEGR766La2jSsrWsvxxPb5PPj1DEsjks3Cb_B06Vr
+ccZan-397Tg-gvN4pZpsuTkrLw-z-0y
+}
+
+!function AwsTransferForSftp($id, $name="Transfer For Sftp", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsTransferForSftp', $name, $tech)
+!endfunction
+!function AwsTransferForSftpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTransferForSftpLg>', 'Transfer For Sftp', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+!function AzureGroupDashed($id, $name="Dashed", $tech="")
+  CloudGroup($id, "AzureGroupDashed", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<AzureGroupDashed>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_DARK
+  BorderStyle dashed
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

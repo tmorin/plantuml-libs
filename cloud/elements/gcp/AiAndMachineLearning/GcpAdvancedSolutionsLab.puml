@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAdvancedSolutionsLabLg [20x20/16z] {
+PL250SCm34jCwlyNppnIGMOwYTiu2x85jUdQix0EbTI09AcmLC1Sd86QEK9NBAmQ3V107I9gegvu6ujuXfgvBUhOaQh5QghCgGdY7udtnZ_Rh8tUDiRacZdL
+YEesakm1eUnnWc0vY-Q0D3CZPiv5T7Pp22VXxWqMydEh3TkRmh4t_Rlz2m
+}
+
+!function GcpAdvancedSolutionsLab($id, $name="Advanced Solutions Lab", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAdvancedSolutionsLab', $name, $tech)
+!endfunction
+!function GcpAdvancedSolutionsLabCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAdvancedSolutionsLabLg>', 'Advanced Solutions Lab', $funcName, $content)
+!endfunction
+@enduml

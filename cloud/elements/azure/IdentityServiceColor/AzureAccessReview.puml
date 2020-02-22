@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAccessReviewLg [20x20/16z] {
+bO_L0KDH24C3WI3xxrltVhrp5OSzYlIl0dwLPO3LbweTcV3UDqDmry5vgmBGNEzuAHD8POX0FbGo3rdGH8CU9MFQ48Jry5wSoBthV3OGzwB6MwmhQ8_Iau2h
+M_vPM0Rk4gRFqUvp_0n7WBtVJCJiGSu
+}
+
+!function AzureAccessReview($id, $name="Access Review", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAccessReview', $name, $tech)
+!endfunction
+!function AzureAccessReviewCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAccessReviewLg>', 'Access Review', $funcName, $content)
+!endfunction
+@enduml

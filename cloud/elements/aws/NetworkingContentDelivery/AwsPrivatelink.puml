@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsPrivatelinkLg [20x20/16z] lOs50SDG449hyE3stxTkoG3_N66MIO7kHZ8eczcpZVnt6pyJsBzFferDvFUbgMGvgFXzDZ2WLXtrDMi4biMyPuFmvI8WFvRmbSmYkG4
+
+!function AwsPrivatelink($id, $name="Privatelink", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsPrivatelink', $name, $tech)
+!endfunction
+!function AwsPrivatelinkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsPrivatelinkLg>', 'Privatelink', $funcName, $content)
+!endfunction
+@enduml

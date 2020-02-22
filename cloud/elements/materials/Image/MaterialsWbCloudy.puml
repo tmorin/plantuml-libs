@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsWbCloudyLg [20x20/16z] fS_50G0X30J0nJNP_gizztioFuXZd74XE8CdNxce7hUWt6Yuwhpm86x_2LLvILX5FlLW0Q_avnU5N-A5FwNoHo9_YYd_Vh1PFtFtyvyiXim
+
+!function MaterialsWbCloudy($id, $name="Wb Cloudy", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsWbCloudy', $name, $tech)
+!endfunction
+!function MaterialsWbCloudyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWbCloudyLg>', 'Wb Cloudy', $funcName, $content)
+!endfunction
+@enduml

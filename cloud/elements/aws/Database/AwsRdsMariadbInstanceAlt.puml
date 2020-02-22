@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsRdsMariadbInstanceAltLg [20x20/16z] tL350SKW32LFzv-unkdB18Mu9-ZFGxc-7jkPDRU8kH0tQrbrEE3r4oLpsnh4DdEX-zX4kvOkyiHXrnlCt0IuIxRh-xt7zk-c_sv_0W
+
+!function AwsRdsMariadbInstanceAlt($id, $name="Rds Mariadb Instance Alt", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsMariadbInstanceAlt', $name, $tech)
+!endfunction
+!function AwsRdsMariadbInstanceAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsMariadbInstanceAltLg>', 'Rds Mariadb Instance Alt', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpErrorReportingLg [20x20/16z] {
+RP050e1G24EfCUz_OMD-swU_Q33X0pk9FeaXyfvEUfZMTADsCzvbb26sMmKwQzDYIy1Lb9R4kcttDKqh2DWa5Bht194Cf3D3SIXPmTOVaatyaoLVleh-oV6e
+PIHyr2mHVdlxdy5pLlJdJ4cUC_tCVW4
+}
+
+!function GcpErrorReporting($id, $name="Error Reporting", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpErrorReporting', $name, $tech)
+!endfunction
+!function GcpErrorReportingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpErrorReportingLg>', 'Error Reporting', $funcName, $content)
+!endfunction
+@enduml

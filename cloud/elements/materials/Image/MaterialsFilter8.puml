@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilter8Lg [20x20/16z] {
+PT254GGX343HU8BDzb_joHhsnnyE_4Fg8PnnhaDsccVfUS7J77fI4Pql8mldswfSPZLonjaYGCfYciHZCQwjwRAV1-g-7-gstz6EMDO22-DW0NVTh8Q_vNmQ
+cGyn_6qDYyiGdsYbzfhVCsdz-Iy
+}
+
+!function MaterialsFilter8($id, $name="Filter8", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilter8', $name, $tech)
+!endfunction
+!function MaterialsFilter8Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilter8Lg>', 'Filter8', $funcName, $content)
+!endfunction
+@enduml

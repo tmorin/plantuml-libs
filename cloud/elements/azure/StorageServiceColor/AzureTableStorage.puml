@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTableStorageLg [21x20/16z] {
+TOr50WGX3C0MhV7_zsx6FGTeCvAiVYM6PRKEwi8fhXpgvlA3RfapM-TCEbnIIhDCaqpmBO_FVPFdKBY27n8qvWkvrBtcd6l8fJx9qc9QBh9S923BMTgS86jc
+Owll4XsRb0nRNJcB8Gk3H9l_gPoxr8U4cnGZOpviWYo4PN6FSS7o7m
+}
+
+!function AzureTableStorage($id, $name="Table Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureTableStorage', $name, $tech)
+!endfunction
+!function AzureTableStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTableStorageLg>', 'Table Storage', $funcName, $content)
+!endfunction
+@enduml

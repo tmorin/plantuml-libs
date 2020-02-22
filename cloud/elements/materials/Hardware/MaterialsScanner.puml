@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsScannerLg [20x20/16z] {
+hSw53SDG30JG6Z-TvVsdBOKJKU69ZNVxFwzAvvfMeCYvpDQY-xNiFPhngKhY0rNd4PcfzmnvbqRklGSrnqZqoPXhO8RHX37NHE0yaRcM4HcOnBHB3JkDfc2y
+CvM-zm
+}
+
+!function MaterialsScanner($id, $name="Scanner", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsScanner', $name, $tech)
+!endfunction
+!function MaterialsScannerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsScannerLg>', 'Scanner', $funcName, $content)
+!endfunction
+@enduml

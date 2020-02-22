@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWorkstationClientLg [20x20/16z] {
+fSwr0SD0341H-yIu_xWnKvjN_WCf-g3JfK_-Q4OhZcVJiV5dgrnKrRDjglhJaea8tat8ddHjhEMtgBt5VB_aiqqt-gzL9dsR0SwMVBFgT2V9rVfc5Ms808XZ
+36uRc-DCvW7Q0MDTldQewQhgwKly0G
+}
+
+!function AzureWorkstationClient($id, $name="Workstation Client", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWorkstationClient', $name, $tech)
+!endfunction
+!function AzureWorkstationClientCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWorkstationClientLg>', 'Workstation Client', $funcName, $content)
+!endfunction
+@enduml

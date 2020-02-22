@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureReportsLg [19x20/16z] {
+NP150W0X24L1QUv_tWbZWhVyPG1q-e80q3I-i3GaYVnAJe0UQSIJM-hGB59b99mzM3koN9BcJLpIlOyZbMledfz5aW6D-L4Cc_WbMR-BaPi8wZYa3znn5b_M
+lQBUtkeRIt5SjHJ79RnklSKtLRvmV6kd_k5IJW
+}
+
+!function AzureReports($id, $name="Reports", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureReports', $name, $tech)
+!endfunction
+!function AzureReportsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureReportsLg>', 'Reports', $funcName, $content)
+!endfunction
+@enduml

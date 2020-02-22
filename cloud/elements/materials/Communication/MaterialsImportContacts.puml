@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsImportContactsLg [20x20/16z] pOz55W9034ERTgIIUTp_j3XiSVcRkaHU0wh0qS7PiPd5og4wacHD4zJcn6ACPgr70JpdQ903ZRZsfSXVvdZ9gGsFc7x8qSSONYiPy-0KS9Q4tlNacDpB3W
+
+!function MaterialsImportContacts($id, $name="Import Contacts", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsImportContacts', $name, $tech)
+!endfunction
+!function MaterialsImportContactsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsImportContactsLg>', 'Import Contacts', $funcName, $content)
+!endfunction
+@enduml

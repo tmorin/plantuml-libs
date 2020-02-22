@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMarketplaceLg [20x20/16z] {
+RSe7WiGW34FHRPQ5BEv_tOscjv_G7jZpc98_e8EFV36lrgZN1MC345K4D2ccFx1-3_kxl8prAa6rUeqkDY3uHpHOO2pOFn2EqP6Orqm1A0rqDQx1882PjBr5
+4zKzkjhUkMPHm_RLJA2FgdInO4CsgsrVRT3BHiTyCI_QLilfRE67Oc-uF-0_
+}
+
+!function AwsMarketplace($id, $name="Marketplace", $tech="")
+  CloudElement($id, 'aws/General/AwsMarketplace', $name, $tech)
+!endfunction
+!function AwsMarketplaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMarketplaceLg>', 'Marketplace', $funcName, $content)
+!endfunction
+@enduml

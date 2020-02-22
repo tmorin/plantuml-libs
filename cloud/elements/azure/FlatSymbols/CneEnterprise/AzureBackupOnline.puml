@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBackupOnlineLg [24x20/16z] {
+dP2r0O1034L_v2Io_xguGyLhueeTxX4cUCAU4_uAz5omPbRfaXvvOdk0jEQLkhhLyuuJGBL7FWW2Mxw9ik_n2aH-ubVzjklfbijUhd5elPs12hMOcToPNNqr
+2W3YXJuxsgfV7-HgfivuG0Bh4C8RCqpyz8y
+}
+
+!function AzureBackupOnline($id, $name="Backup Online", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureBackupOnline', $name, $tech)
+!endfunction
+!function AzureBackupOnlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBackupOnlineLg>', 'Backup Online', $funcName, $content)
+!endfunction
+@enduml

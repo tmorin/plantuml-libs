@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDatasyncAgentLg [20x20/16z] {
+dP1L0WG12489nRd_XRUxTzwd2IZpG1JZ0MVmn7olyRdcqR76tc6tkYVnSKugau8aC7NShI7ETBYhCPqpxYPcD0Puf9O2hZM0e4qIXzrAKeewEvg77xtmsOTU
+ULjNUvNfg-ot
+}
+
+!function AwsDatasyncAgent($id, $name="Datasync Agent", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsDatasyncAgent', $name, $tech)
+!endfunction
+!function AwsDatasyncAgentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDatasyncAgentLg>', 'Datasync Agent', $funcName, $content)
+!endfunction
+@enduml

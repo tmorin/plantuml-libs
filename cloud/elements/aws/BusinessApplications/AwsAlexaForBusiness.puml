@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAlexaForBusinessLg [20x20/16z] {
+RSf9ba812CNGKG8FzxzUzJTKQuRt9D_rbW-O3pWvAy5QEr5KSMqI5GNCRTFeTLEvJMc01fCrMw2496lHghuiXvMqT0Ak1Saa3RqsXVG4o6sBGA-TA4i_JCnS
+zdYSrbHcrYxSrdxZsXzy0G
+}
+
+!function AwsAlexaForBusiness($id, $name="Alexa For Business", $tech="")
+  CloudElement($id, 'aws/BusinessApplications/AwsAlexaForBusiness', $name, $tech)
+!endfunction
+!function AwsAlexaForBusinessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAlexaForBusinessLg>', 'Alexa For Business', $funcName, $content)
+!endfunction
+@enduml

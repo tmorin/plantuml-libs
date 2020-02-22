@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsRailwayLg [20x20/16z] {
+bSy53WCW343HEWxtF-qKQOXjF_xGmZVy12VKcCkh71KNvR5B4sMKtP2lMIQSKRPf2VVDwK_JQhkgquRBMqkftMQlUszZ07OcVf_iUVTzUNsBh8vFrGXMFAqn
+79FPj1zx0W
+}
+
+!function MaterialsDirectionsRailway($id, $name="Directions Railway", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsRailway', $name, $tech)
+!endfunction
+!function MaterialsDirectionsRailwayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsRailwayLg>', 'Directions Railway', $funcName, $content)
+!endfunction
+@enduml

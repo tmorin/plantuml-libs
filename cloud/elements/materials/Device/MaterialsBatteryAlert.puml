@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBatteryAlertLg [20x20/16z] dT2r0S0W40NGS8RpzvysriJrbN3UtN14Rl-cW6vVs28GZTU96RFiVhrLrRf_AywLtsyYXpVKYZTnXUZmrb9gptj4j16YsrvqCZrT6
+
+!function MaterialsBatteryAlert($id, $name="Battery Alert", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBatteryAlert', $name, $tech)
+!endfunction
+!function MaterialsBatteryAlertCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBatteryAlertLg>', 'Battery Alert', $funcName, $content)
+!endfunction
+@enduml

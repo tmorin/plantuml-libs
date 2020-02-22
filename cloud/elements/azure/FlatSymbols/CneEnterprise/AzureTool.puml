@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureToolLg [21x20/16z] {
+LS-55OKm50FGzBdjl-uNd60v5wW08DE5ColqU4x9PTDoDJxRJEy_oanSDkD106ocrctefCMrusxsBrNzgosWFWnKioM5uZI0iwT_5ZtJQJX2pExwir4yiunp
+d-obNjwcxq-zH4IxzMKCo_zK-hHzNxUktLugrRizb6eCEBL_cWlUjl3I00NZ6QjaV04
+}
+
+!function AzureTool($id, $name="Tool", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTool', $name, $tech)
+!endfunction
+!function AzureToolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureToolLg>', 'Tool', $funcName, $content)
+!endfunction
+@enduml

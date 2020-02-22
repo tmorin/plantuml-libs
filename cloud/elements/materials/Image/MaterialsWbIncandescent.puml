@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWbIncandescentLg [20x20/16z] {
+dL050i0W4EAmTV7_rwwx9pPXuHwq7RZdTDr1Pt7YUix9bkkeWJmcDsaIy3FdXhMaaWWp5y0o2PIIrUSXIc60cJcpkOgVRBAxNrdNvUP-jD9rMhFJvd-maOiS
+xHGSAAq7Kh21zzXZzjsZ1G
+}
+
+!function MaterialsWbIncandescent($id, $name="Wb Incandescent", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsWbIncandescent', $name, $tech)
+!endfunction
+!function MaterialsWbIncandescentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWbIncandescentLg>', 'Wb Incandescent', $funcName, $content)
+!endfunction
+@enduml

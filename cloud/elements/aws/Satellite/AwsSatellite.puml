@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSatelliteLg [20x20/16z] {
+XS_50KCX44NHRy-W_txZoK3iBWywoyVMgJDjpX3NiwMtKjVLsY-BHyiv7AocS-JXOj9bAwXYl5sFie_iPpDOtW1ioNAna4wBnlz9jZ9QY_DljZxaiwrKpRZO
+DdMs3vq
+}
+
+!function AwsSatellite($id, $name="Satellite", $tech="")
+  CloudElement($id, 'aws/Satellite/AwsSatellite', $name, $tech)
+!endfunction
+!function AwsSatelliteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSatelliteLg>', 'Satellite', $funcName, $content)
+!endfunction
+@enduml

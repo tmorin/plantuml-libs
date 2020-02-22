@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFlipLg [20x20/16z] ZL250G0X40Axzb_tE-tMIm3t854CQxy_ePGYd0FbzZbDASKaTviCf3kCAaaIkmtSrs6B-ttOKBKng39EihIXaclbsFQEeiSK5gBEhTIWhbLTqrBx5G
+
+!function MaterialsFlip($id, $name="Flip", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFlip', $name, $tech)
+!endfunction
+!function MaterialsFlipCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlipLg>', 'Flip', $funcName, $content)
+!endfunction
+@enduml

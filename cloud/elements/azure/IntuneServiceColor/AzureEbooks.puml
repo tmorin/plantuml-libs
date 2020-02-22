@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureEbooksLg [24x20/16z] {
+fOe5SWGm4CDgBmJ-_-1kulQOJqCQMm3e6vuQUayZzjkQoonxdybbHiAzR2cOSmQui7M9ibZxgZIMokBGd-Q77XIoRthRFMJFUplj2LpqjOZB_cmNlDn_S7Ya
+sjCy8ZASXPT4kEMSem_HMplec5sKRKRl0X2CKMiG4By
+}
+
+!function AzureEbooks($id, $name="Ebooks", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureEbooks', $name, $tech)
+!endfunction
+!function AzureEbooksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureEbooksLg>', 'Ebooks', $funcName, $content)
+!endfunction
+@enduml

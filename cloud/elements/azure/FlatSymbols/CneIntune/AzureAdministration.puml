@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureAdministrationLg [12x20/16z] VSg50GGW243HJoYr_xxN7GOy0b0uHG7HJ0L9X-rhKf0wEbAh3VBuRQq-EHHspTGf7xzNz-PYxBXoirRhtVrkhv2xEtauxiuvneVjZoFiPjbROLSAe4V2KGS
+
+!function AzureAdministration($id, $name="Administration", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureAdministration', $name, $tech)
+!endfunction
+!function AzureAdministrationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdministrationLg>', 'Administration', $funcName, $content)
+!endfunction
+@enduml

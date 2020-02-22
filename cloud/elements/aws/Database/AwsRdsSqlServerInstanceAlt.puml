@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsRdsSqlServerInstanceAltLg [20x20/16z] tP370O0020CX8MJ_YUrT9_3ezmH-0JCUSB98PaRWa7PDg892SQ886r99aUeMMwtP4IAH117pI3jU_Dfz_HH-WH4
+
+!function AwsRdsSqlServerInstanceAlt($id, $name="Rds Sql Server Instance Alt", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsSqlServerInstanceAlt', $name, $tech)
+!endfunction
+!function AwsRdsSqlServerInstanceAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsSqlServerInstanceAltLg>', 'Rds Sql Server Instance Alt', $funcName, $content)
+!endfunction
+@enduml

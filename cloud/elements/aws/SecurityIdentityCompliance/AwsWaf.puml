@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsWafLg [20x20/16z] {
+RSfH8W1X30DXQD9Cz_xdXUuFC8zVmbV9YN-GVt1WXzW9nsQYHAgIkhsswDZGhluqAtwg43UteKHLpu9MECQuf18ey6ujPg_FJHbO6uGxzgUnfemRvRPnnbPQ
+YJX6Wv_bsFaqTGQ8zMaThFUInUkQZMwOoMq7JwmT_Dy-yHK
+}
+
+!function AwsWaf($id, $name="Waf", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsWaf', $name, $tech)
+!endfunction
+!function AwsWafCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWafLg>', 'Waf', $funcName, $content)
+!endfunction
+@enduml

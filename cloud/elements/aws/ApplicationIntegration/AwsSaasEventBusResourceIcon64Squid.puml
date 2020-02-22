@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSaasEventBusResourceIcon64SquidLg [21x20/16z] {
+TP654GGn30CZy_prt-zRcMDGU4E6GO6jiCvMfR3h9db0Su9kRkCYYnDGde1bMAI1DxHXARn2k8nqz9gdu4irupGNnsf0MD-MFbZkCLP5Nx0iFgaJke5mDPuG
+vYSuTjYJsybLOJkq5G9Mrg2lpzcyK3gDaHBF4AvNDmUyVkKOgvkRe1DzX-uxoFTq_04
+}
+
+!function AwsSaasEventBusResourceIcon64Squid($id, $name="Saas Event Bus Resource Icon64 Squid", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64Squid', $name, $tech)
+!endfunction
+!function AwsSaasEventBusResourceIcon64SquidCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSaasEventBusResourceIcon64SquidLg>', 'Saas Event Bus Resource Icon64 Squid', $funcName, $content)
+!endfunction
+@enduml

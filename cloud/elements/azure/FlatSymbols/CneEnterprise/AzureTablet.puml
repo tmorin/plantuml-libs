@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureTabletLg [27x20/16z] xSch5S102031_7XtiDj_lL4uR5p6pj8PIvc9FDVaGRcEoVLv_HNt911fAo8MJPQsN6kbZVK2
+
+!function AzureTablet($id, $name="Tablet", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTablet', $name, $tech)
+!endfunction
+!function AzureTabletCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTabletLg>', 'Tablet', $funcName, $content)
+!endfunction
+@enduml

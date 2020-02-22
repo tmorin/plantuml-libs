@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsFilter9 element
+include('elements/materials/Image/MaterialsFilter9')
+MaterialsFilter9('element', 'Filter9', 'an optional tech field')
+@enduml

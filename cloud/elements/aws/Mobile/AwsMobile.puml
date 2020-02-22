@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMobileLg [20x20/16z] {
+bSm50iCm30J1acvr_l-3AmTTRZReCPpUTdwgw88VqhdCxI4Myznerbm-M00AF1erK4ZoWrdbvAFHpSTDGFHdF4zI9AdDMbO4GbvjpZNXzc1pivt5Gz7jybJP
+c-u
+}
+
+!function AwsMobile($id, $name="Mobile", $tech="")
+  CloudElement($id, 'aws/Mobile/AwsMobile', $name, $tech)
+!endfunction
+!function AwsMobileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMobileLg>', 'Mobile', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDatabaseSynchronizationLg [16x20/16z] {
+fSyreWHH24JHVXHUx7-xNzh6mhdPIP2UirhRVtF5q-mzKWu7zl8opovVVUFFUsW0v7R3UeOXfzNOxbKfEmiiCHEfsEzp6uzfI7CImFA9gEdWJ6UcAMK50-pz
+Frbb2g36Z_yDnMvEdFkeI4xRjlq2
+}
+
+!function AzureDatabaseSynchronization($id, $name="Database Synchronization", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization', $name, $tech)
+!endfunction
+!function AzureDatabaseSynchronizationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDatabaseSynchronizationLg>', 'Database Synchronization', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsRemoveLg [20x20/16z] OnYYW9K33bYnYWrH
+
+!function MaterialsRemove($id, $name="Remove", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsRemove', $name, $tech)
+!endfunction
+!function MaterialsRemoveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRemoveLg>', 'Remove', $funcName, $content)
+!endfunction
+@enduml

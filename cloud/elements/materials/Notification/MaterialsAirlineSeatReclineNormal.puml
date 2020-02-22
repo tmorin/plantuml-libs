@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAirlineSeatReclineNormalLg [20x20/16z] {
+ZOtL0O0m30KRUVMG_QT5Vd0xg5qiF49C5vU6T4chNY-9clMKDQUS-o4JMkQ3YuMhUwQZa-RkHOvviyl5CkZeG5hgsSqtEjUgxaQZKlQ5laqHOqvbfcwIIXLc
+cLVQ96Th2qAfRprP5oWGAFnd0W
+}
+
+!function MaterialsAirlineSeatReclineNormal($id, $name="Airline Seat Recline Normal", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsAirlineSeatReclineNormal', $name, $tech)
+!endfunction
+!function MaterialsAirlineSeatReclineNormalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAirlineSeatReclineNormalLg>', 'Airline Seat Recline Normal', $funcName, $content)
+!endfunction
+@enduml

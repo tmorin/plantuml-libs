@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatQuoteLg [20x20/16z] lOwr0SCm50N5qkVzfqtCq9clUL2T-mZViyH8OIBq7ecup5yrC_QUkwXdlrp1oFjQQVn6oZ0yM5fbI48NoS0lNnuT6gUTz1ZkC_u
+
+!function MaterialsFormatQuote($id, $name="Format Quote", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatQuote', $name, $tech)
+!endfunction
+!function MaterialsFormatQuoteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatQuoteLg>', 'Format Quote', $funcName, $content)
+!endfunction
+@enduml

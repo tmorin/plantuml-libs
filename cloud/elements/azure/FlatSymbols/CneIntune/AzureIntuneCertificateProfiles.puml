@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneCertificateProfilesLg [16x20/16z] {
+NSc53KDH3CNGvCB3_UTjFvE5HrPvv8WYNB54616v5-dDMRPuEi2r-tlj_idFbzTmUY-9f-abNawBaYvpVVBB-N1QadKvs4fjkPYxFViOYb1PC_jqdJtZo7r0
+lUfqmfcN7lq1
+}
+
+!function AzureIntuneCertificateProfiles($id, $name="Intune Certificate Profiles", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneCertificateProfiles', $name, $tech)
+!endfunction
+!function AzureIntuneCertificateProfilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneCertificateProfilesLg>', 'Intune Certificate Profiles', $funcName, $content)
+!endfunction
+@enduml

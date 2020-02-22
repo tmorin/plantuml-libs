@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the MaterialsExposurePlus1 card
+include('elements/materials/Image/MaterialsExposurePlus1')
+MaterialsExposurePlus1Card('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

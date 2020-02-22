@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerStateManagerLg [20x20/16z] {
+RT250OH044FHZ2IX_ufl1ywGZpzyWUfJ1O0y6ubYv56W6j79kT6Sv9AQKlVPgiqXv3j4087TplsikAgpiJDREVqiWRH5McVJtEfbEPtD9caV5X4SOp7bN5ap
+xIPABi_ia7UZMkQsyNUTgijcD-UINbOccrrZrRDMFOtfqzY_
+}
+
+!function AwsSystemsManagerStateManager($id, $name="Systems Manager State Manager", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerStateManager', $name, $tech)
+!endfunction
+!function AwsSystemsManagerStateManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerStateManagerLg>', 'Systems Manager State Manager', $funcName, $content)
+!endfunction
+@enduml

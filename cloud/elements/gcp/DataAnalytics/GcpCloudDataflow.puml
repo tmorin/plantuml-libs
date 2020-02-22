@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDataflowLg [20x20/16z] {
+RP050i0m20DNBFp_mnF8l3SjJfPYaEL2ua9e6f4NmL3B1zPXo9tzrTyAzCfHTwqQVZHejx56OcyJRH8HjN87dQw8W7hxqJRFYEDTnfbDySpbYAoXZnwS9QzP
+KfupiyorsmN6N0DgzGnxQWg0cawqtm
+}
+
+!function GcpCloudDataflow($id, $name="Cloud Dataflow", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataflow', $name, $tech)
+!endfunction
+!function GcpCloudDataflowCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDataflowLg>', 'Cloud Dataflow', $funcName, $content)
+!endfunction
+@enduml

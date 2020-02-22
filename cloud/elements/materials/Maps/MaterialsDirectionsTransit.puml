@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsTransitLg [20x20/16z] {
+ZSq5biKm241H88QUx7-tK-hp_TLl8_0sf3MyX8PwBBaEEiZccUtOfef8n7BJsJRhIeZ8lDn8-swIQpFdNlB9z3BThGMFmUvvZxRRl7KQTyzlxtnODuIsZK7R
+rwjEqDCwaDVDK8qZBTWKOOjokMr1WgEoMnIuhEwb_TuV
+}
+
+!function MaterialsDirectionsTransit($id, $name="Directions Transit", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsTransit', $name, $tech)
+!endfunction
+!function MaterialsDirectionsTransitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsTransitLg>', 'Directions Transit', $funcName, $content)
+!endfunction
+@enduml

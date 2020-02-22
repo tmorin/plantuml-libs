@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticLoadBalancingClassicLoadBalancerLg [20x20/16z] {
+TP1POeOX20CJ8C7U_y8jVjhzdpT7TWmizmSkuf9M4638UPHSyG1QZrAqDilpsea8dOGsu0JDR-vD8qeOHzbAfW2LOnnTp5uv6U7cE0diPKyMkp4_Cx8SjKSv
+hjVgJ5p7SQxCrR9sxjCZJLGlvUvnPYbBRSQUvSxChDY_8z88yv22yxc1BrqwXt7W4DRBc_wz_Ji
+}
+
+!function AwsElasticLoadBalancingClassicLoadBalancer($id, $name="Elastic Load Balancing Classic Load Balancer", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsElasticLoadBalancingClassicLoadBalancer', $name, $tech)
+!endfunction
+!function AwsElasticLoadBalancingClassicLoadBalancerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticLoadBalancingClassicLoadBalancerLg>', 'Elastic Load Balancing Classic Load Balancer', $funcName, $content)
+!endfunction
+@enduml

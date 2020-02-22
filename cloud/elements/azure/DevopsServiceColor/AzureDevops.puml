@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDevopsLg [20x20/16z] {
+bOg55GH12CNG3zD_mmUSsqf6amVT4AKl52xV3J1-2QAEAA0bp1KCY2bmKmT0Djuw0oqQKIgbWyI0aPDDksI-jooEDiLt8s9pCrKHPhutabn5IqJqZmfRhwHI
+uyizRoc41guFApg3wOR8t9wJBW
+}
+
+!function AzureDevops($id, $name="Devops", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureDevops', $name, $tech)
+!endfunction
+!function AzureDevopsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDevopsLg>', 'Devops', $funcName, $content)
+!endfunction
+@enduml

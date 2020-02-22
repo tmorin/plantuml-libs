@@ -1,0 +1,16 @@
+@startuml
+!function GcpGroupOptionalComponent($id, $name="Optional Component", $tech="")
+  CloudGroup($id, "GcpGroupOptionalComponent", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<GcpGroupOptionalComponent>> {
+  StereotypeFontColor $GCP_GROUP_FONT_COLOR
+  BorderThickness 2
+  BorderColor #4284F3
+  BorderStyle dashed
+  FontStyle none
+  FontColor $GCP_GROUP_FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

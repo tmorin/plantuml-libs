@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotFactoryLg [20x20/16z] {
+TL05WW0X45ef___ZOxQkiGdh-0zSHD7XfLPe5MRMJTcPadFmvV8ZpdWkc212PzWwZeGLwIcbkHiqQwHDdT8UBcOJAaSj2d1WePmdkUjgoBGVpg5TJiFTMN01
+Yn3FBA-i4krCvBcB8rifSTqbONmZixhUnW9WqSMNF_0z_F5NV__ft_W
+}
+
+!function AwsIotFactory($id, $name="Iot Factory", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotFactory', $name, $tech)
+!endfunction
+!function AwsIotFactoryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotFactoryLg>', 'Iot Factory', $funcName, $content)
+!endfunction
+@enduml

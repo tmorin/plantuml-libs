@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWcLg [20x20/16z] {
+bOq5WiKW30KRnSdzRxlr8liDPtX3bbSDyDWH7XIARBkKS4EgvhRTMQKxg7u_azV7HOJXFmmffIt1qLzGR6q95eXctB8CModp0zDjmuvjwYrBDgi1DlMHsIni
+wWfhEcNQdn7L8Y6qRCk7ZVp6oim04SzzUTN-
+}
+
+!function MaterialsWc($id, $name="Wc", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsWc', $name, $tech)
+!endfunction
+!function MaterialsWcCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWcLg>', 'Wc', $funcName, $content)
+!endfunction
+@enduml

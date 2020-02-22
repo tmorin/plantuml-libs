@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2ContainerRegistryRegistryLg [20x20/16z] {
+RL250SGm23ni_v4RGLvw2Uu0gFqy1U3-QtE7Eb9KJITy9qgaEnD23fLKcfPDzpksmyiMljycoQyDDOCcnyIP5-aUfjr3pQcDvD8UP1OwCz-DtI23Vs_5Rifk
+lm
+}
+
+!function AwsEc2ContainerRegistryRegistry($id, $name="Ec2 Container Registry Registry", $tech="")
+  CloudElement($id, 'aws/Compute/AwsEc2ContainerRegistryRegistry', $name, $tech)
+!endfunction
+!function AwsEc2ContainerRegistryRegistryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2ContainerRegistryRegistryLg>', 'Ec2 Container Registry Registry', $funcName, $content)
+!endfunction
+@enduml

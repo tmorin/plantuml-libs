@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticacheForRedisLg [20x20/16z] {
+TSY7OS1024DH1EY3zryuPwUtHoV-KFrBiMsxJvvwraLukEDu5YE1nPPciXOPXDjXKjrA7DqDMOxYJKLNFZzDAmxrwEr7hIkbB6_n_EIYpU6cd0LzPuGo8u9Y
+WBscbm9QREzreIEfEqT97eeZHm4uD1blyfh2bBW-VvF9IULy_bQXCqARySw3kyquFgdQxbBywmK
+}
+
+!function AwsElasticacheForRedis($id, $name="Elasticache For Redis", $tech="")
+  CloudElement($id, 'aws/Database/AwsElasticacheForRedis', $name, $tech)
+!endfunction
+!function AwsElasticacheForRedisCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticacheForRedisLg>', 'Elasticache For Redis', $funcName, $content)
+!endfunction
+@enduml

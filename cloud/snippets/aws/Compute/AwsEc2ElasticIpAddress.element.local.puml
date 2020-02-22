@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsEc2ElasticIpAddress element
+include('elements/aws/Compute/AwsEc2ElasticIpAddress')
+AwsEc2ElasticIpAddress('element', 'Ec2 Elastic Ip Address', 'an optional tech field')
+@enduml

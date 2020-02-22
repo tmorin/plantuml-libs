@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCachedLg [20x20/16z] {
+fL350SDG22sKB_Z-qrP3z1XE-9F7_G1gZU3GQUeYph1h3Uy8WBXRQqwNNzhNTBP_GevhA-FVx5gzBc7y-KDi8NMCoviMEQ5wXTQgzNsperXeRLVXbtFtiLV2
+NstQZegVvS7DU0C
+}
+
+!function MaterialsCached($id, $name="Cached", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCached', $name, $tech)
+!endfunction
+!function MaterialsCachedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCachedLg>', 'Cached', $funcName, $content)
+!endfunction
+@enduml

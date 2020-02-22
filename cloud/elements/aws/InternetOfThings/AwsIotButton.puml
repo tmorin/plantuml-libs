@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotButtonLg [20x20/16z] {
+RSx70O0m34FHY-Is_y0es7G-_G59SXNttFC7BxgIa8nc1pZckWmwnYAxXMpJtSgKBcrEwmZ0P7NxbvIwhDnsS3Wp26khPS6RlVwDPHMq2O1dM_fPZ35BpR8P
+kLja7kJKMMQqg9cRrZRbMVrW_U06
+}
+
+!function AwsIotButton($id, $name="Iot Button", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotButton', $name, $tech)
+!endfunction
+!function AwsIotButtonCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotButtonLg>', 'Iot Button', $funcName, $content)
+!endfunction
+@enduml

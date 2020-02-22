@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMusicVideoLg [20x20/16z] ZT030WKX50NGTxFR_se_nfDFDcWLH0444_rBD42GsB4_G0OW2DffQms8nBFFMIMhFlNFftrmikXZnkQY3oxdie_5lQ-S5tcvdpQ2xZvvl0mx6T3wWzPVhVe2
+
+!function MaterialsMusicVideo($id, $name="Music Video", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsMusicVideo', $name, $tech)
+!endfunction
+!function MaterialsMusicVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMusicVideoLg>', 'Music Video', $funcName, $content)
+!endfunction
+@enduml

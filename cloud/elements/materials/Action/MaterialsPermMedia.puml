@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPermMediaLg [20x20/16z] {
+TSY50S0m30D1oM7q_jkMkRcW7mEoUYHJUfjvuk9q4zr6jlQGajtQWnkt5kkd1SvFp-tM4e6WKVpLgW70860wMhSuIDbRTVQKzlPKvyQGxgATsmC9Q927EI7K
+zk0maoVYtmG
+}
+
+!function MaterialsPermMedia($id, $name="Perm Media", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermMedia', $name, $tech)
+!endfunction
+!function MaterialsPermMediaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermMediaLg>', 'Perm Media', $funcName, $content)
+!endfunction
+@enduml

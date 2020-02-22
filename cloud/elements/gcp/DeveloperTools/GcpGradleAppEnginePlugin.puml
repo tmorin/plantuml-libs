@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpGradleAppEnginePluginLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpGradleAppEnginePlugin($id, $name="Gradle App Engine Plugin", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpGradleAppEnginePlugin', $name, $tech)
+!endfunction
+!function GcpGradleAppEnginePluginCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpGradleAppEnginePluginLg>', 'Gradle App Engine Plugin', $funcName, $content)
+!endfunction
+@enduml

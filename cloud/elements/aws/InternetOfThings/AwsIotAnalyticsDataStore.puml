@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAnalyticsDataStoreLg [20x20/16z] {
+VP075iCm34830ld-DovjinSP_i_Qcdu2AoAcLNGasMqkLnqweSOI10xDTvsWdmBBNKumGdYzOot9jpk0EDqD4Ra365nZvPy2-nhdM5MvJdVUvlHQmogILUgj
+1YZPKk6rFv7Yme-x2hbFExtk_WC
+}
+
+!function AwsIotAnalyticsDataStore($id, $name="Iot Analytics Data Store", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsDataStore', $name, $tech)
+!endfunction
+!function AwsIotAnalyticsDataStoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAnalyticsDataStoreLg>', 'Iot Analytics Data Store', $funcName, $content)
+!endfunction
+@enduml

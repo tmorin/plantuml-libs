@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSupportLg [20x20/16z] {
+RStL0SGm30FG3wFa_VSzErTk5NuXTd1DPl83kMFcZfinJTLstIM0QDqDFkBURNHP60XrKo0rDdFIkva3zhJWpQ1c2jB7YZMMon2UOrKH1KqI8IAQVtDsxQZr
+OLk6dcKJP4YMrRo6zO_kvqR3t3r4LP9jkmO8Tv3ShVN81tsU-m4
+}
+
+!function AwsSupport($id, $name="Support", $tech="")
+  CloudElement($id, 'aws/CustomerEnablement/AwsSupport', $name, $tech)
+!endfunction
+!function AwsSupportCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSupportLg>', 'Support', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFlightTakeoffLg [20x20/16z] {
+fOw50SGW34KXZk-_xMdTsuV6ltiA6Inya2CkdDBImkbZoxJesBvE817V9zhRgPPRg_2s-7F1s_UcHlssiCWQozkHZF5V2Fbjvo1lUq3U1R1GuixWPtnycjE8
+h1yVqWHqfta1
+}
+
+!function MaterialsFlightTakeoff($id, $name="Flight Takeoff", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFlightTakeoff', $name, $tech)
+!endfunction
+!function MaterialsFlightTakeoffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlightTakeoffLg>', 'Flight Takeoff', $funcName, $content)
+!endfunction
+@enduml

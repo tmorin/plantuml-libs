@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudNaturalLanguageApiLg [20x20/16z] {
+RP1L0aGX30Ef9Tp_n1jadyzdc59f4zkq0yU1xyZG3x3Lx1ToQRncd6BfqJ4BNIMboAMvWGBc4jLc61umKU73NWqyM8BAH79b286LyIiBlcjRdJsMX_SitJzc
+_jxj-mRDyDBMJJdPD_su_Gy
+}
+
+!function GcpCloudNaturalLanguageApi($id, $name="Cloud Natural Language Api", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudNaturalLanguageApi', $name, $tech)
+!endfunction
+!function GcpCloudNaturalLanguageApiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudNaturalLanguageApiLg>', 'Cloud Natural Language Api', $funcName, $content)
+!endfunction
+@enduml

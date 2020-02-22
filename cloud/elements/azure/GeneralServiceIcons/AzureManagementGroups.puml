@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagementGroupsLg [25x20/16z] {
+NP47hi0W3CMSyLZtl-yV1HI9r-N8PGFHWoy6LEsjopQCze6fDoV_Nr_QdBF1-Jc7sB7n9uQnep4IU5j0ba2zTptYmm0Y7n7IzoMbe4JCjRwQM6j6YLnh9Lmg
+uNDDXqiba0HSAk59EXGTON9SHj4MthhZlHbsoBU8tkDz_GbXahqlZM_RAxNjTL1Vwg3gABzK_Gi
+}
+
+!function AzureManagementGroups($id, $name="Management Groups", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureManagementGroups', $name, $tech)
+!endfunction
+!function AzureManagementGroupsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagementGroupsLg>', 'Management Groups', $funcName, $content)
+!endfunction
+@enduml

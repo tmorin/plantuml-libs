@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSelectAllLg [20x20/16z] {
+ZP254GH120IdVxOAop_UT_U-MyD1_xEHZ6pX_UCaIcWhGcx8av3Jp-LsaPsvo5P3pP62Njg3nSJQ4uECJZ3hw34NWOERZF1xsQll-noljRol-RMtzpDudTN_
+x
+}
+
+!function MaterialsSelectAll($id, $name="Select All", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsSelectAll', $name, $tech)
+!endfunction
+!function MaterialsSelectAllCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSelectAllLg>', 'Select All', $funcName, $content)
+!endfunction
+@enduml

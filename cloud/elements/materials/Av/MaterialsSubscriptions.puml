@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSubscriptionsLg [20x20/16z] {
+TOs55S0W34HnX-o_RLDSFtxo82zOfqlKnegbZzmBOIT4qRYQuEG5bsf2_a7cOS4prD9_IxPPQMYSgR1h_qt7GoFCxHgLVkiAuQO_8lo4t_g9g56J8l9l-JIK
+eCWMVkd21m
+}
+
+!function MaterialsSubscriptions($id, $name="Subscriptions", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsSubscriptions', $name, $tech)
+!endfunction
+!function MaterialsSubscriptionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSubscriptionsLg>', 'Subscriptions', $funcName, $content)
+!endfunction
+@enduml

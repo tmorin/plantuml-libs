@@ -1,0 +1,10 @@
+@startuml
+sprite $AzurePremiumStarLg [21x20/16z] ROq74i0W3CCG_l-RkrZErMg1dBBQXXRemI52eKAffD0jyU-MzJFG2uDHuem6WdjiASQsU9dRwhB49jR2SHNPv-FTM32Wuz5W11RV
+
+!function AzurePremiumStar($id, $name="Premium Star", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzurePremiumStar', $name, $tech)
+!endfunction
+!function AzurePremiumStarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePremiumStarLg>', 'Premium Star', $funcName, $content)
+!endfunction
+@enduml

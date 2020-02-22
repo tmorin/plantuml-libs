@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsManagedBlockchainLg [20x20/16z] lOx50O1G34EnlB3_mhX-EzQzpHn61foK913_4eVzJ3BT9ExobepZ9hkNlxLfaxsOxTf-VlYsJImtvaXQ0G
+
+!function AwsManagedBlockchain($id, $name="Managed Blockchain", $tech="")
+  CloudElement($id, 'aws/Blockchain/AwsManagedBlockchain', $name, $tech)
+!endfunction
+!function AwsManagedBlockchainCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsManagedBlockchainLg>', 'Managed Blockchain', $funcName, $content)
+!endfunction
+@enduml

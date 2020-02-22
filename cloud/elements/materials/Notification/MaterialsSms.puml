@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSmsLg [20x20/16z] fSY54KD120L0O3Y_H_glDlRTRSUNLh5CyA-YOSJYDmMl2SZtR7fsyP86E8UWQRX0MfchKXYkn6mnMevbkC6pGtD88uv-LvL7w7TLQKwKxle
+
+!function MaterialsSms($id, $name="Sms", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSms', $name, $tech)
+!endfunction
+!function MaterialsSmsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSmsLg>', 'Sms', $funcName, $content)
+!endfunction
+@enduml

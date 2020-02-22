@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureKubernetesServicesLg [27x20/16z] {
+dP87aaCn24C5ah1z_mil_Eqz2TCqVgQ3jc2vYgDKMawy6KsjSrP2eixPzOQIEUWGcOsQnLs8_8hAZPO0sUfKV0KHGJ8HevIAUMgWAkrY85psdiBfVbeAFKTV
+I57LIbV2FQbVQa8mNr3-Zru2rbj0GhhGdfnNjQ4fGmcaNof3l1O_QdnZnEUM7L2hBfVuPr2FJvxMe0h8WxRnPdC0pjS3q8lF4m
+}
+
+!function AzureKubernetesServices($id, $name="Kubernetes Services", $tech="")
+  CloudElement($id, 'azure/ContainerServiceColor/AzureKubernetesServices', $name, $tech)
+!endfunction
+!function AzureKubernetesServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureKubernetesServicesLg>', 'Kubernetes Services', $funcName, $content)
+!endfunction
+@enduml

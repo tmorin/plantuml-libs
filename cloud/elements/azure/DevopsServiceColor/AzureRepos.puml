@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureReposLg [18x20/16z] {
+NOnN0iH028MSmjFP-nzuqnFb3onc5h-7i8t6UikYcR4IcA9m1CbZmz5T4Rw52PnbKob2SujbH_TECCy_VJxlpw9SdD4xJncx3ZnkQ4atw8hCh4MJwQbiIbu2
+bHqdhIWA-WC
+}
+
+!function AzureRepos($id, $name="Repos", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureRepos', $name, $tech)
+!endfunction
+!function AzureReposCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureReposLg>', 'Repos', $funcName, $content)
+!endfunction
+@enduml

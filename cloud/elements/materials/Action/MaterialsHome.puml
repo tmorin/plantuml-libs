@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsHomeLg [20x20/16z] hSg54O0m44JHlRXl_zNYFePzYBqvF4q4rrI8wagHlA1E74hwI9bJUKTJk5JCGhPogzfvAXqjpPCITWk2EK_IMpiTsAqfGBMVp3Xh1H1hdS77UW
+
+!function MaterialsHome($id, $name="Home", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsHome', $name, $tech)
+!endfunction
+!function MaterialsHomeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHomeLg>', 'Home', $funcName, $content)
+!endfunction
+@enduml

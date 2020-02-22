@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsInternetAlt2Lg [20x20/16z] {
+fKrL5iGm41eo0dcz_tqtjjRVZYlOSm7kaw34-1iL7N3MtnLc0jCTPqRVkNMIUmYDtCnMOAuHEH2li15XtaU0SZJg6aEEGoGHd2pETcOZHkP2ud2mpM5My3qh
+gcWZ1vYOCnXuzMO8ZR8aHeMK4PGsA80LJ_bCNW
+}
+
+!function AwsInternetAlt2($id, $name="Internet Alt2", $tech="")
+  CloudElement($id, 'aws/General/AwsInternetAlt2', $name, $tech)
+!endfunction
+!function AwsInternetAlt2Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsInternetAlt2Lg>', 'Internet Alt2', $funcName, $content)
+!endfunction
+@enduml

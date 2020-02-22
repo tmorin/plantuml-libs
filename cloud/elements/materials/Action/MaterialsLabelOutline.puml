@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLabelOutlineLg [20x20/16z] hK-r0G1123itOFznt_L2IKg8Edla-Y1SfoZjFetXprlY--i2rUj6_h59ak3c2WUu-T6yVaCjPgXTiBE-pHuh
+
+!function MaterialsLabelOutline($id, $name="Label Outline", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLabelOutline', $name, $tech)
+!endfunction
+!function MaterialsLabelOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLabelOutlineLg>', 'Label Outline', $funcName, $content)
+!endfunction
+@enduml

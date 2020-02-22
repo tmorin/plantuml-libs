@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGameControllerLg [29x20/16z] {
+VP470iCW4CFE5lz_StiCToRAD69JZO1gafJayIHPTEIaiG0Rs4bBdXYWNwSXbanS5QUfzrTyIgzUNGANbnA06AnULNHzxOaeh_ANj03BtUyk1vN70fsbAcFh
+OxQDjBBjhtMszBZ6t4WYiTNOASgFAsJQ7oueJNEM8MVgk5_h8br-Oj03
+}
+
+!function AzureGameController($id, $name="Game Controller", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureGameController', $name, $tech)
+!endfunction
+!function AzureGameControllerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGameControllerLg>', 'Game Controller', $funcName, $content)
+!endfunction
+@enduml

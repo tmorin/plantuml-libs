@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAdvisorLg [20x20/16z] {
+RT250OD0343HU0hilszphXz_-44DMIA4AGfGCwM3PaHfPjgkwHHH41VHPbmfWtSRzsbaFfjhiTXIlxMPMSLixQdQFxUIvxSW4J6h1OK94xJGFCG5vlY975Rx
+ejzgShN7lsSrVGXikov_GndyFm
+}
+
+!function AzureAdvisor($id, $name="Advisor", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureAdvisor', $name, $tech)
+!endfunction
+!function AzureAdvisorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdvisorLg>', 'Advisor', $funcName, $content)
+!endfunction
+@enduml

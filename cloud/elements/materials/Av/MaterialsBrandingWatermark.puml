@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBrandingWatermarkLg [20x20/16z] hT053iH030H1zrquk_R_NnjcfXAtHZHo5S42Gc8B2UJBbeDRDhUr-wRv96vaRcmPqWYcJOwREzhzQ8IEuGDrUSCdR7rrLGa
+
+!function MaterialsBrandingWatermark($id, $name="Branding Watermark", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsBrandingWatermark', $name, $tech)
+!endfunction
+!function MaterialsBrandingWatermarkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBrandingWatermarkLg>', 'Branding Watermark', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureFxtedgefilerLg [20x20/16z] XS-r0S0m3031YFUVE6QcAzyeZl3hSGARnbI4HZY2s63NHkai3H134vL6JLFhN1hBW6ERxC_2qX1y6vZwaO6csqAJWKfiqttFbZa
+
+!function AzureFxtedgefiler($id, $name="Fxtedgefiler", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureFxtedgefiler', $name, $tech)
+!endfunction
+!function AzureFxtedgefilerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFxtedgefilerLg>', 'Fxtedgefiler', $funcName, $content)
+!endfunction
+@enduml

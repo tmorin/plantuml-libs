@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderRightLg [20x20/16z] ZP055iGm24Hda1Ux_tbNwXBxRGm7J2C6c41rlV4liqncGmZBhHZ-SFsNuoB3AiCkixoyGhZ8PBLMFMKd5va6CYZSbrjJTbBDKQ-bNdEzjzeCghEQvWi
+
+!function MaterialsBorderRight($id, $name="Border Right", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderRight', $name, $tech)
+!endfunction
+!function MaterialsBorderRightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderRightLg>', 'Border Right', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureRouteFiltersLg [24x20/16z] {
+TL450iGW38Cg-V-7xpB7ic7rDcM4HYqpQW2oa3i0kqmkdAy4WgUOdmWxdiWgl9Yh6iKHV0Vq2cZ_I8zS6UGhZqCkBPb6A-KYwgxgeTfIM46c52Ve9D60Hl2q
+fvPHpZYnYCEy4MFUHpxMQQx6AiU-v9OESrZDRJ_dFIyx7dy
+}
+
+!function AzureRouteFilters($id, $name="Route Filters", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureRouteFilters', $name, $tech)
+!endfunction
+!function AzureRouteFiltersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureRouteFiltersLg>', 'Route Filters', $funcName, $content)
+!endfunction
+@enduml

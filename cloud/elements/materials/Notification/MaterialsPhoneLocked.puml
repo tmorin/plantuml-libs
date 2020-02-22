@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhoneLockedLg [20x20/16z] {
+ZSW74a8n30DHAVOdFRx_RK7q3c_Qpk81yOpk6o4qTuDOGl9JHKGZ0EQyxGelRwZIZ0F7EPSfrlMngnuVSaIXtbXpJeEubYG1X2tZXK_3YzmJdh5MJRgHk4Yr
+6rXYZMQuO9wvX3XklCNB0ptt5M5un6H6_6qF
+}
+
+!function MaterialsPhoneLocked($id, $name="Phone Locked", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPhoneLocked', $name, $tech)
+!endfunction
+!function MaterialsPhoneLockedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhoneLockedLg>', 'Phone Locked', $funcName, $content)
+!endfunction
+@enduml

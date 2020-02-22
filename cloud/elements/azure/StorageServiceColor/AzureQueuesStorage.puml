@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureQueuesStorageLg [23x20/16z] bT050i0W00B09Ghu_--kksTxjefLtGLE5H59ENtam1-iUCNo3uP_CA0BndVc7vQk63ViaJtpUE7GCQRPakoQmx_R7FfZICpGOJe4bYq
+
+!function AzureQueuesStorage($id, $name="Queues Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureQueuesStorage', $name, $tech)
+!endfunction
+!function AzureQueuesStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureQueuesStorageLg>', 'Queues Storage', $funcName, $content)
+!endfunction
+@enduml

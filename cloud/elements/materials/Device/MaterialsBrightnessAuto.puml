@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBrightnessAutoLg [20x20/16z] {
+TP055e0m241fCBd_QUrs-xgDHmES8C8NTCUVAlEfP5EDN0XLurrd-S1sdQxo436ihpvqWHYtRfS5G7RRNd6XfuL-bHmFLJgemY7YeHDWte9lnmwH2B7RLNiD
+NujlmO5dBusrcQqrp_vkj3BRVmV_NTLt-j_z3
+}
+
+!function MaterialsBrightnessAuto($id, $name="Brightness Auto", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBrightnessAuto', $name, $tech)
+!endfunction
+!function MaterialsBrightnessAutoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBrightnessAutoLg>', 'Brightness Auto', $funcName, $content)
+!endfunction
+@enduml

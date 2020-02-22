@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTenantStatusLg [18x20/16z] {
+TOu50e0m24M93wlxtzS5jZvpZoGYXfdI5NZdgiG7ngVHgxdc_FK9593pn2myloBHAPgA7OMh1tVXE8s9kgTaf2FVf-eYv-pZ8GzoJbrs94G_ARezZHaSoNe_
+3W7BBQjbG0vogoYjNBQNqcghIXUqgrZoL5Di
+}
+
+!function AzureTenantStatus($id, $name="Tenant Status", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureTenantStatus', $name, $tech)
+!endfunction
+!function AzureTenantStatusCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTenantStatusLg>', 'Tenant Status', $funcName, $content)
+!endfunction
+@enduml

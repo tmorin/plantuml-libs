@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsSignalCellularConnectedNoInternet3Bar element
+include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet3Bar')
+MaterialsSignalCellularConnectedNoInternet3Bar('element', 'Signal Cellular Connected No Internet3 Bar', 'an optional tech field')
+@enduml

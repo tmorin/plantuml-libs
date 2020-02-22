@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIqLg [20x20/16z] {
+RSv5beKm50JG0Qyq-zzlDtg-5SHkjF_9Qspt1xPVUfh9Lzmf4B5lUZ6pWJ63btLZ0Kp0nxpD1gGnRWlSx5Nrc5Yx7d5ysEg-1I0769wsrh6DMzg0bvcfY9ml
+k4s387l8NdkJUiEUqMdB87XiFT-szbJkIzQLNxPUxGV-0G
+}
+
+!function AwsIq($id, $name="Iq", $tech="")
+  CloudElement($id, 'aws/CustomerEnablement/AwsIq', $name, $tech)
+!endfunction
+!function AwsIqCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIqLg>', 'Iq', $funcName, $content)
+!endfunction
+@enduml

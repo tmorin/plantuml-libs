@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistPerformanceLg [20x20/16z] {
+XOo7aGCn4CEq99Rw_Xj-1vt6sSPa1XGtD1Q4JVVE6ECOw9P1XW7xbf5woSP6ltso_UBhRjxuIguhDr_DB2RBvqPPlncMJ_RE_YQmTUTCLH4m-mfATP8sb0yK
+Ow4qOrEnMgx73A4ku9PD5hbbWqsT
+}
+
+!function AwsTrustedAdvisorChecklistPerformance($id, $name="Trusted Advisor Checklist Performance", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance', $name, $tech)
+!endfunction
+!function AwsTrustedAdvisorChecklistPerformanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTrustedAdvisorChecklistPerformanceLg>', 'Trusted Advisor Checklist Performance', $funcName, $content)
+!endfunction
+@enduml

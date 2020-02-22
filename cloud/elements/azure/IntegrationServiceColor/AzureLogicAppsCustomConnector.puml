@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureLogicAppsCustomConnectorLg [20x20/16z] lSx74GCn241HCipsNx05etorlV_u5038AeBLAuOYgY88PyBG-ucHAlLvL2M5TnIhafwdOpTEIkIMThEoK6brWyAm_IqaTfgMUE-IUEty0G
+
+!function AzureLogicAppsCustomConnector($id, $name="Logic Apps Custom Connector", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureLogicAppsCustomConnector', $name, $tech)
+!endfunction
+!function AzureLogicAppsCustomConnectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLogicAppsCustomConnectorLg>', 'Logic Apps Custom Connector', $funcName, $content)
+!endfunction
+@enduml

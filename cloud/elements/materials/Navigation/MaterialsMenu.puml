@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMenuLg [20x20/16z] Ow0-O4G1O25cBauamCKC4cDYGm5Cf5Z1p842cB6AaG0mtOBfPcn-epu
+
+!function MaterialsMenu($id, $name="Menu", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsMenu', $name, $tech)
+!endfunction
+!function MaterialsMenuCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMenuLg>', 'Menu', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsGamesLg [20x20/16z] dP053i1040Ax4o9L_l_RkljDV1N8xWawOb-JwzewrZeIQnHsmV9H7NJ5heGwkkyq7aPW67R3K1kBG-ckThLxzUD2IwgtwwokCxsc1G
+
+!function MaterialsGames($id, $name="Games", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsGames', $name, $tech)
+!endfunction
+!function MaterialsGamesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGamesLg>', 'Games', $funcName, $content)
+!endfunction
+@enduml

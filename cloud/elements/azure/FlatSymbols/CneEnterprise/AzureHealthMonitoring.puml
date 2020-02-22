@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureHealthMonitoringLg [24x20/16z] {
+RSz50WCm24JH6Ppx7xX2gFVjykE0PdSwCSIpAWI0LT-buZKeXLGl0xnNClgeQfzy-2uFQh_RN0BMdud0Lw_OvLyzTPT_TOD7X438p3Zk_oGE9uCuTFu2gAeb
+gQ0Ewy3T_UeY27l-TZfpElZwp24vtLzvIRMUvQ-yEyfpShxotZ62-CJxwMNufHc2foi
+}
+
+!function AzureHealthMonitoring($id, $name="Health Monitoring", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureHealthMonitoring', $name, $tech)
+!endfunction
+!function AzureHealthMonitoringCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureHealthMonitoringLg>', 'Health Monitoring', $funcName, $content)
+!endfunction
+@enduml

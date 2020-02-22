@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureApplicationGatewayLg [20x20/16z] {
+LSy72i1G30BGBBt_aHjfGBwT_m4PSIcWucB2r4lJcmSBFLNT4BfMzgonJ3B8X4TGiMvIU2IifH-F9YCIL50cerATqPaJUINNCgAPoOceAoWRszzukd_RU41I
+fdWHeYCRfgjoxmTDHfFHz04
+}
+
+!function AzureApplicationGateway($id, $name="Application Gateway", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureApplicationGateway', $name, $tech)
+!endfunction
+!function AzureApplicationGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureApplicationGatewayLg>', 'Application Gateway', $funcName, $content)
+!endfunction
+@enduml

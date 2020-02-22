@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLoadBalancersLg [20x20/16z] {
+JSu54W0n20D04kJ_Jxxq9XN6w1OB1xlfz27ZIwJn4Y8WVAao8dk6bnI0I6YwPcHNYGYaf5ieGefOdSA4S6rKe7eQWB9Lp0296Xc9u0o5warMKLwBl7OA48rF
+NAWNCFCUA7jkDluvJKQRoVZtcYxUneiFVG
+}
+
+!function AzureLoadBalancers($id, $name="Load Balancers", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureLoadBalancers', $name, $tech)
+!endfunction
+!function AzureLoadBalancersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLoadBalancersLg>', 'Load Balancers', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureEnterpriseLg [13x20/16z] {
+XOp7WKGn24DbcmpzrxlwtWd7uSHJcdiEh0sqHtaIjW2rjyC86WiTT8eGSz0YkTqXDR7U43DzNh5Jp-PhmDARddlnCqKIr5A2JdHFxnFBtTWusP4LzO2jk0u7
+ghe_7LtvNNEjcM8CZCrpdTbtu7i_uGy
+}
+
+!function AzureEnterprise($id, $name="Enterprise", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureEnterprise', $name, $tech)
+!endfunction
+!function AzureEnterpriseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureEnterpriseLg>', 'Enterprise', $funcName, $content)
+!endfunction
+@enduml

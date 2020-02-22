@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPermScanWifiLg [20x20/16z] {
+bSp50O0m30NG7watpVxJudxZGIs6NuX5LPZkWAPglh2QbFP8zLKzZYKgsJUTkVicInX7JFM8ZO3eEpFVHO3okouJ0AvRZ6YBLSPA-XthWfsECpOKftZ68YwK
+t6AqRVuTBBueX2TkxetnfcQAhn3mrmm
+}
+
+!function MaterialsPermScanWifi($id, $name="Perm Scan Wifi", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermScanWifi', $name, $tech)
+!endfunction
+!function MaterialsPermScanWifiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermScanWifiLg>', 'Perm Scan Wifi', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCameraAltLg [20x20/16z] {
+fOzL0aKX449XwjhkVxMlk-DywHI0vr0syAeaPVG-YXp_wXvbxYZXhfkIr7b5bKrjx9yfxPlZMEj1WD4lQm6w4N5HgsJPA93rN4kmkS6GNjTkTuyQTjHuuUN6
+yyDiKBz2yHTh
+}
+
+!function MaterialsCameraAlt($id, $name="Camera Alt", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCameraAlt', $name, $tech)
+!endfunction
+!function MaterialsCameraAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCameraAltLg>', 'Camera Alt', $funcName, $content)
+!endfunction
+@enduml

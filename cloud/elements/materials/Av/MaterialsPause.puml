@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPauseLg [20x20/16z] Ow05O6DdPs9WO69dPuCBCNBoyu74-FWv6OUc6ARVQ04
+
+!function MaterialsPause($id, $name="Pause", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPause', $name, $tech)
+!endfunction
+!function MaterialsPauseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPauseLg>', 'Pause', $funcName, $content)
+!endfunction
+@enduml

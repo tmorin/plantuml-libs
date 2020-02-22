@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFilterHdrLg [20x20/16z] lSp50G9100F0PDtJVxNuwJw1cm86rtB4cUq19wPeE6n8C4cg1Wlc01OzvBKCwlRHwM4ftP2AWPUqbARg8T4EBIMpNdAJbjBd4mzmWb-x0m
+
+!function MaterialsFilterHdr($id, $name="Filter Hdr", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterHdr', $name, $tech)
+!endfunction
+!function MaterialsFilterHdrCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterHdrLg>', 'Filter Hdr', $funcName, $content)
+!endfunction
+@enduml

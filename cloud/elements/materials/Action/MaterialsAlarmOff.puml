@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAlarmOffLg [20x20/16z] {
+TOq55iH024EHZCFh_M-x7LrFE_Q1XFw9FouScOBCkzGmMSbCB0W1mj4ZTvQl6qQlrIqABFN644OdiuHMHVTqx-oIKkQ5OaFPqE9iQt46pVeurOKELDT-m8GE
+5CCeTRQXsEYJsJwX-cf8T227cGN74z9IiWNZTI0dpr15zlJIgTdSBIlnlOvOXCT9l_K
+}
+
+!function MaterialsAlarmOff($id, $name="Alarm Off", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAlarmOff', $name, $tech)
+!endfunction
+!function MaterialsAlarmOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAlarmOffLg>', 'Alarm Off', $funcName, $content)
+!endfunction
+@enduml

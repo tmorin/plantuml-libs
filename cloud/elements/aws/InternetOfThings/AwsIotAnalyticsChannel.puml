@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAnalyticsChannelLg [20x20/16z] {
+NP250G0X24Nbb_jFV9tOFffn3Bb66pBTcLZv4nBEnD_G6WFvmW2f1faunWx1czUcHPkQaLqdax6VsMDBPn0XsiRahk2NaSok0lzjDyKAFZ52nJ5RBcyV3CoU
+Sw-jzw3tgZFB3VNUhm
+}
+
+!function AwsIotAnalyticsChannel($id, $name="Iot Analytics Channel", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsChannel', $name, $tech)
+!endfunction
+!function AwsIotAnalyticsChannelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAnalyticsChannelLg>', 'Iot Analytics Channel', $funcName, $content)
+!endfunction
+@enduml

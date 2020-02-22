@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticTranscoderLg [20x20/16z] {
+ZSq53iGm34HHgKEv_udNbbCKxI-_1fBEhpBzQIBuCKCcz3AgRpXrXhdlLkEsflbtS9kvYI2uJVDJu74QGH8YAhQjCa4fZClSjZAZbB6CpJYgY4pA5ZlOx3tA
+KXRxtanjKpeFtRQxxSRRtlW3
+}
+
+!function AwsElasticTranscoder($id, $name="Elastic Transcoder", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElasticTranscoder', $name, $tech)
+!endfunction
+!function AwsElasticTranscoderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticTranscoderLg>', 'Elastic Transcoder', $funcName, $content)
+!endfunction
+@enduml

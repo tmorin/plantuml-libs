@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerLg [20x20/16z] {
+RSr50aGX30FGJQHXxd_UBr36itoLf5DloHzyqfksaFId6Iv3syPjzBqBqCikBAvjYssZgDrCjibJ3D3Yj31ZVbCHqDwx7y2sXCgqK3BbUujCBhkmRDHbb97a
+eicYG0hQrl-gZ7gp43IXB6kCbhHjxZpUSRJzmHC
+}
+
+!function AwsSystemsManager($id, $name="Systems Manager", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManager', $name, $tech)
+!endfunction
+!function AwsSystemsManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerLg>', 'Systems Manager', $funcName, $content)
+!endfunction
+@enduml

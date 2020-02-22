@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureOnPremisesDataGatewaysLg [20x20/16z] {
+LSq75iGW20HGfe2xzpzmgihBfFeV9LOWs-mZ2VXAfl4IFSzPLNwh7iYwxZkyJJVLZfPLnm-zjclTH7XYKmHcPSu50i65immMadhhk1O8SqqoE4TVLfEkKEeG
+qV68Rw3Re8yDUN3uKwZV-8sSXyR_fiQAbHC
+}
+
+!function AzureOnPremisesDataGateways($id, $name="On Premises Data Gateways", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureOnPremisesDataGateways', $name, $tech)
+!endfunction
+!function AzureOnPremisesDataGatewaysCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureOnPremisesDataGatewaysLg>', 'On Premises Data Gateways', $funcName, $content)
+!endfunction
+@enduml

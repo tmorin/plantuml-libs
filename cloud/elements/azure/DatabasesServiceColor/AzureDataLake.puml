@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataLakeLg [15x20/16z] {
+dSpL0KCX30NGU8BiFs-vfFRRdYSGfOCRNQBML52o3oOZCGzm4vALAYnmfjNtNhCoJDNSmtSh3BX_GlWnNES-rrs5SCmvgYP2oAp45otRFw5hV8KknEg1pUuc
+H0y
+}
+
+!function AzureDataLake($id, $name="Data Lake", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureDataLake', $name, $tech)
+!endfunction
+!function AzureDataLakeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataLakeLg>', 'Data Lake', $funcName, $content)
+!endfunction
+@enduml

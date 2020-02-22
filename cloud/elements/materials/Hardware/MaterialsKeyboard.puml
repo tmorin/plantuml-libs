@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsKeyboardLg [20x20/16z] {
+hO-54S0m24MZF_Im_RUjUtkQ5yKXTAUq6sLI9V4RaYQTATg00PYk1hL5np7LK6EShXJPDZzGfUtQ_2HdH6oN_EjSHCLKRNh4DvqxbGLoFtK82zXrCdsOsWJn
+rlDxjkwC
+}
+
+!function MaterialsKeyboard($id, $name="Keyboard", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsKeyboard', $name, $tech)
+!endfunction
+!function MaterialsKeyboardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKeyboardLg>', 'Keyboard', $funcName, $content)
+!endfunction
+@enduml

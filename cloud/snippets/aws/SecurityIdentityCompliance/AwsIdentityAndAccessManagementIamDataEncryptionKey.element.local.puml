@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsIdentityAndAccessManagementIamDataEncryptionKey element
+include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey')
+AwsIdentityAndAccessManagementIamDataEncryptionKey('element', 'Identity And Access Management Iam Data Encryption Key', 'an optional tech field')
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsShortTextLg [20x20/16z] OnXSW8a52J11n5XvUU20bnKYneW24688BamlN1l23hZnWn
+
+!function MaterialsShortText($id, $name="Short Text", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsShortText', $name, $tech)
+!endfunction
+!function MaterialsShortTextCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsShortTextLg>', 'Short Text', $funcName, $content)
+!endfunction
+@enduml

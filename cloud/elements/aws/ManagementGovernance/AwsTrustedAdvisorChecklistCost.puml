@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistCostLg [20x20/16z] {
+XSo53KDH34FH98RN_HVkPoQBZwoRt5OnZLv9MemHyw4s8nqW2Mn6vyLYMNtt2ltEFKaid7kohJpsB1UTMmyg-rS1vzehbAiY9jnwZ9YHJTFe5HFpCYVCLh5j
+n3Gs6H4RRTXMsd1iTG
+}
+
+!function AwsTrustedAdvisorChecklistCost($id, $name="Trusted Advisor Checklist Cost", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech)
+!endfunction
+!function AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTrustedAdvisorChecklistCostLg>', 'Trusted Advisor Checklist Cost', $funcName, $content)
+!endfunction
+@enduml

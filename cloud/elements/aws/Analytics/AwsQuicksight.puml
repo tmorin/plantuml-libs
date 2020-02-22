@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsQuicksightLg [20x20/16z] fP350O1030G_oLh__U8EF-PypfD_21UqEa07uEPqR76tBqvppUgSpbKEczUzg9wKXTE14-rS713Kf0v7WVDvokbGI8pswTobR9nxcQjx_msVCVZ72
+
+!function AwsQuicksight($id, $name="Quicksight", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsQuicksight', $name, $tech)
+!endfunction
+!function AwsQuicksightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsQuicksightLg>', 'Quicksight', $funcName, $content)
+!endfunction
+@enduml

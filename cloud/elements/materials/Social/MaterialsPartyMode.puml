@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPartyModeLg [20x20/16z] {
+fOy54aGn34A9rjlxdtRTvUiRoyG0_8Vu1E4LphsrdXatnCppk93TJCuhPRnH6E1-BMEy3lkzrvm0ylRQSv2eMddf5Q9mtgxzsOkGyolZ-D9ZE_S4BxrUpzy3
+gBne55CLm6Uyl7l-dGrYRmXsSGG
+}
+
+!function MaterialsPartyMode($id, $name="Party Mode", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPartyMode', $name, $tech)
+!endfunction
+!function MaterialsPartyModeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPartyModeLg>', 'Party Mode', $funcName, $content)
+!endfunction
+@enduml

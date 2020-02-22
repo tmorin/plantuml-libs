@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSqlDatabasesLg [15x20/16z] {
+PSx50GDG20DGFCdVV-2MkhmRZYrVTXUPjJ9ZA_NcbXRLixh2KfFkiToZUSuXfhjwG6wuH8cVuTrVY6gX4YnSGqM3qHKJ6vuAJ0hUzr3j7OJVgwfCPdZ1exXV
+w6YYYS7h48RItrrzXycFSD8yXzeGdMuN
+}
+
+!function AzureSqlDatabases($id, $name="Sql Databases", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlDatabases', $name, $tech)
+!endfunction
+!function AzureSqlDatabasesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSqlDatabasesLg>', 'Sql Databases', $funcName, $content)
+!endfunction
+@enduml

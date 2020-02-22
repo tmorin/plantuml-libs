@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsWorkspacesLg [20x20/16z] {
+RSt75KGX20NGXIzX__t-m67ocBqAL3BDprP_iFvWDLg3BoC9Msvj4sIYkpE6laCneJ4QNBQJU64i94Wd9jxCNkXGEDvt3L2oBesHP5yOKtSjoMExorI5YTZM
+w1kPCjZM63Aqw8nrkBcWrDXWEVSwDZZjiZ-u_-09
+}
+
+!function AwsWorkspaces($id, $name="Workspaces", $tech="")
+  CloudElement($id, 'aws/EndUserComputing/AwsWorkspaces', $name, $tech)
+!endfunction
+!function AwsWorkspacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWorkspacesLg>', 'Workspaces', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,18 @@
+@startuml
+sprite $AwsGroupVpcLg [20x20/16z] jOx50KGn20LNU4R__Qv-I-wPq-3q6fBC6G9GnXIJWBbaZLy51HqvVZIqPNXBgJu6L3wwTVwAUgAm1TjaYp7w9qVEXUAPCvoJxOfmSdoJ2xs0Dm
+
+!function AwsGroupVpc($id, $name="VPC", $tech="")
+  CloudGroup($id, "AwsGroupVpc", "<$AwsGroupVpcLg>", $name, $tech)
+!endfunction
+skinparam Rectangle<<AwsGroupVpc>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREEN
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

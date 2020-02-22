@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTransformLg [20x20/16z] {
+hSy5aiGm30J04KrEYklo_zSkew5msymMLkZeyMZzfDY-AJfIn1VDh2FWbHU66mco1OmNzOSdIUA6AJ-Ti-ZUw6Jn9k9I13UMTTF-grBn83SiWNHXRhjrK_1s
+43sdOE4C
+}
+
+!function MaterialsTransform($id, $name="Transform", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTransform', $name, $tech)
+!endfunction
+!function MaterialsTransformCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTransformLg>', 'Transform', $funcName, $content)
+!endfunction
+@enduml

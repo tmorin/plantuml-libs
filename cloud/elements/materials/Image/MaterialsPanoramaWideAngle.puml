@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPanoramaWideAngleLg [20x20/16z] fP053i1G24Ft2pFa_iUT-nhzBqRmjgcZGBJTK47PKkAHuRQm1RBcUbEK0wZrQywwvwBErcskpvpwiX4Xpvm4bbpYbKkQOxFi1lc5_SoqCG_gc04
+
+!function MaterialsPanoramaWideAngle($id, $name="Panorama Wide Angle", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPanoramaWideAngle', $name, $tech)
+!endfunction
+!function MaterialsPanoramaWideAngleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPanoramaWideAngleLg>', 'Panorama Wide Angle', $funcName, $content)
+!endfunction
+@enduml

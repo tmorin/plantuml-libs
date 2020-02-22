@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSecurityHubLg [20x20/16z] {
+hL350GH127j0ZFxxFNUNpIWEcGKGChSw0xwKnKo0pKKTL06vrt5xxK40tTMRXnVPUeCgvofZLnSqjxg-rCNQHdPJFgg0vbQthPMJJljUVEubFlGyoQlPpXpy
+ZpK
+}
+
+!function AwsSecurityHub($id, $name="Security Hub", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSecurityHub', $name, $tech)
+!endfunction
+!function AwsSecurityHubCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSecurityHubLg>', 'Security Hub', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPlayCircleOutlineLg [20x20/16z] {
+VP053i0W34LNGJvfi_kVTkvhS7ZvrQ4pY9dUG67k1hqnmukAQ77mYHfaVmdQ3WcuJ0XrUwklgiD8NDUhblLCPHUNkifDDpOssQoC5YENdOsMDcEEM6GRneXp
+eVh9EQujxi7Lgwhqxsbdp
+}
+
+!function MaterialsPlayCircleOutline($id, $name="Play Circle Outline", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPlayCircleOutline', $name, $tech)
+!endfunction
+!function MaterialsPlayCircleOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlayCircleOutlineLg>', 'Play Circle Outline', $funcName, $content)
+!endfunction
+@enduml

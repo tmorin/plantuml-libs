@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsBlockchainResourceIconLg [20x20/16z] pOs54G0m2CIG_NTko77U0GXLv3zEKP2UaPx1JJHf4kqdhFbhAh2vdboRwyrDoCx-F4xn
+
+!function AwsBlockchainResourceIcon($id, $name="Blockchain Resource Icon", $tech="")
+  CloudElement($id, 'aws/Blockchain/AwsBlockchainResourceIcon', $name, $tech)
+!endfunction
+!function AwsBlockchainResourceIconCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBlockchainResourceIconLg>', 'Blockchain Resource Icon', $funcName, $content)
+!endfunction
+@enduml

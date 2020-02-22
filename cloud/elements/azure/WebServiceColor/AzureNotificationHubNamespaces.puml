@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureNotificationHubNamespacesLg [20x20/16z] RSZB0SHG2090HB3_ajUNV-BESK8FTfNrAdMrTxK-lwwIA_D18a9L-EgCIJTV_bvWKESy4TH0ogwRTiyoz_AZ4in5AvKBSQBBn0Sz3-mR6DZz
+
+!function AzureNotificationHubNamespaces($id, $name="Notification Hub Namespaces", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureNotificationHubNamespaces', $name, $tech)
+!endfunction
+!function AzureNotificationHubNamespacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNotificationHubNamespacesLg>', 'Notification Hub Namespaces', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsNetworkingAndContentDeliveryLg [20x20/16z] {
+RSlN0S1G24BHD8LdzjytaDxkvn6xt_fN9b1XBtCI3cnRt8hBjBnRcLAzB66sfQrLDMHJmii8avUNmMQycRvocY93jyFARn5WEspMSwJ-fk3D11dQNZkXfeR3
+QZPkNUOEBCXwqE4eRCChsKyB
+}
+
+!function AwsNetworkingAndContentDelivery($id, $name="Networking And Content Delivery", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsNetworkingAndContentDelivery', $name, $tech)
+!endfunction
+!function AwsNetworkingAndContentDeliveryCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsNetworkingAndContentDeliveryLg>', 'Networking And Content Delivery', $funcName, $content)
+!endfunction
+@enduml

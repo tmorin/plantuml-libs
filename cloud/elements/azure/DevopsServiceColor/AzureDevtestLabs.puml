@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDevtestLabsLg [20x20/16z] {
+PSr70W0X24DHL229zp_mCBtzbJuBTZII8hez2agQKtwJQwCdTkvKiTM-1KXTDaSHf5kgCCkJa02ecMOyIE6UcMNDheVqo6GTSk0qRRQlz3TpxiZBqgoxnrfP
+5J7ihFjc1LVDtREATbileSZqnxK4rv7CVje8G2eJuheMaTZBSGtroBso1G
+}
+
+!function AzureDevtestLabs($id, $name="Devtest Labs", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureDevtestLabs', $name, $tech)
+!endfunction
+!function AzureDevtestLabsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDevtestLabsLg>', 'Devtest Labs', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsEc2ContainerRegistryImageLg [20x20/16z] VT250O0W50HGhzn_PFdOnPayckahu2FD5DsIXjAzdyU6bo7nq-Jwlnl3e6eEApGRsOSXwFtxesw8maw5Bai3n4M5CxVNX9aVQyw6scp3ztwXpRxFwdscdra
+
+!function AwsEc2ContainerRegistryImage($id, $name="Ec2 Container Registry Image", $tech="")
+  CloudElement($id, 'aws/Compute/AwsEc2ContainerRegistryImage', $name, $tech)
+!endfunction
+!function AwsEc2ContainerRegistryImageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2ContainerRegistryImageLg>', 'Ec2 Container Registry Image', $funcName, $content)
+!endfunction
+@enduml

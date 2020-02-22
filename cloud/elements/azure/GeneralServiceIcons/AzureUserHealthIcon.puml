@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUserHealthIconLg [18x20/16z] {
+TOu50e0m24M93wlxtzS5jZvpZoGYXfdI5NZdgiG7ngVHgxdc_FK9593pn2myloBHAPgA7OMh1tVXE8s9kgTaf2FVf-eYv-pZ8GzoJbrs94G_ARezZHaSoNe_
+3W7BBQjbG0vogoYjNBQNqcghIXUqgrZoL5Di
+}
+
+!function AzureUserHealthIcon($id, $name="User Health Icon", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureUserHealthIcon', $name, $tech)
+!endfunction
+!function AzureUserHealthIconCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUserHealthIconLg>', 'User Health Icon', $funcName, $content)
+!endfunction
+@enduml

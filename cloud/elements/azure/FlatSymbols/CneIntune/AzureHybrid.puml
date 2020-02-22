@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureHybridLg [29x20/16z] {
+TS-54OGm54NHzrtwBtWtCWnwS2wIu8KAFbao5j8hWdNOttXRoyzA4LtvvoC6paB16GGYFAChm24WjqlaGHMOhqdPAMhbK0h9eLjFqVTtrmIiajyYg-p9Fg9x
+kWSBOqHQRCTq0lQ5TWsTVdpsZo9a7CmditC4QGJZe9UuVlWTpwUQCkHxxAweRiN6oO-OlaGA3gGt1Fm
+}
+
+!function AzureHybrid($id, $name="Hybrid", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureHybrid', $name, $tech)
+!endfunction
+!function AzureHybridCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureHybridLg>', 'Hybrid', $funcName, $content)
+!endfunction
+@enduml

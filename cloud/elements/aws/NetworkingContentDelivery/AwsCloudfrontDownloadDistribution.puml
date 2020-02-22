@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudfrontDownloadDistributionLg [20x20/16z] {
+RL050aKn23AG-z_unHW_7-jGWH2gWQxuG9C33Dc-oM7jtvpK5R6MTGBNCj0V_SMiN3ldpdNdPFdEEUyUZXLOFV7zBwO1CyeG0FZkOwFOKhvIh6fqtlcoLUFk
+2jYfY-QSVI7DsTfchCqU660-UVNiwPFt9m
+}
+
+!function AwsCloudfrontDownloadDistribution($id, $name="Cloudfront Download Distribution", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfrontDownloadDistribution', $name, $tech)
+!endfunction
+!function AwsCloudfrontDownloadDistributionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudfrontDownloadDistributionLg>', 'Cloudfront Download Distribution', $funcName, $content)
+!endfunction
+@enduml

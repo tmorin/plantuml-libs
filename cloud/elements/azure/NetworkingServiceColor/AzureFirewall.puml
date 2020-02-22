@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureFirewallLg [20x20/16z] {
+LOxL5KGn20LZwFRVxyADSDvyH0PjZqbCitrOdApUYicRLQhJSTIlcL2W7xMucAzNGQk_NiNAlp2G09do2qG3yNWPdBcR9ApkhbdB6k0GoIDKHwtwFIodiWMY
+xnWj75fz7LfL0wkycf5EF13B0y1XPynzUOHQ723T7m
+}
+
+!function AzureFirewall($id, $name="Firewall", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureFirewall', $name, $tech)
+!endfunction
+!function AzureFirewallCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFirewallLg>', 'Firewall', $funcName, $content)
+!endfunction
+@enduml

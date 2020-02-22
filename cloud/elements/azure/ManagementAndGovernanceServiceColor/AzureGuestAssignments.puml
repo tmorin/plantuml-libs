@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureGuestAssignmentsLg [18x20/16z] TSq54W0X34DHI9kitV--wpX_Z7b0ItgE7a9WBBke5NaZTd-DJVm5g0MKY59u9I6BYLUBDQ9Ie0kq84kqvSghNTk-RwXaFuvUzafifnhnwvWbDnDw5Na2
+
+!function AzureGuestAssignments($id, $name="Guest Assignments", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureGuestAssignments', $name, $tech)
+!endfunction
+!function AzureGuestAssignmentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGuestAssignmentsLg>', 'Guest Assignments', $funcName, $content)
+!endfunction
+@enduml

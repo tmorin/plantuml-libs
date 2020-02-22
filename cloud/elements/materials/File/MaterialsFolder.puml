@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFolderLg [20x20/16z] Ow08CBC20HipiX0JDpy8yB0m8ednyKC4EI605Iw60BnCc69yWqsC6rMCcmaM1WZ0J5c80W
+
+!function MaterialsFolder($id, $name="Folder", $tech="")
+  CloudElement($id, 'materials/File/MaterialsFolder', $name, $tech)
+!endfunction
+!function MaterialsFolderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFolderLg>', 'Folder', $funcName, $content)
+!endfunction
+@enduml

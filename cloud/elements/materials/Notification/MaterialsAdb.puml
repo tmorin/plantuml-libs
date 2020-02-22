@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAdbLg [20x20/16z] {
+bOy70e8X28KLS6ll_gTjzsZN_pdP43wX_Y6MewXAp1QSt2SmUxcF7JWpF3QsLKz-TRN8T2Ynu7mnOKPF7UShKpS9TN87_HgXNm4fMtKPXFbqXolBXoiUIcB5
+cHg34wsEKUsg8j4L1m
+}
+
+!function MaterialsAdb($id, $name="Adb", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsAdb', $name, $tech)
+!endfunction
+!function MaterialsAdbCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAdbLg>', 'Adb', $funcName, $content)
+!endfunction
+@enduml

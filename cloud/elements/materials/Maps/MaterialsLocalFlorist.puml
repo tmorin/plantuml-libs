@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalFloristLg [20x20/16z] {
+VSpL0GKn24JH0IB8RgR_Rf-xd9ye5pSYU6UPXXUgGOOg7iQ-BN9j-tZysiaQeyZz_bEAcm6sCGKtdO6ZOCUDE4lEtrsUUzFCNtf1SYsISVidaDQAhDQEMvnO
+-d4_o75yyxHRpHLcq6lnMilZLlDHR3nom7dKS35vPCQZYIiPYvoJN4DmPrwPvOONeYhuum
+}
+
+!function MaterialsLocalFlorist($id, $name="Local Florist", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalFlorist', $name, $tech)
+!endfunction
+!function MaterialsLocalFloristCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalFloristLg>', 'Local Florist', $funcName, $content)
+!endfunction
+@enduml

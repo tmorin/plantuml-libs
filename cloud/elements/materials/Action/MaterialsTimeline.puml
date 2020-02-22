@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTimelineLg [20x20/16z] lKxJ0G0n3AqLxJzjURx_nivJ6qaVtcLtLYAiK1SfHzkGv3L67CynHdAZXD4SOm6TxZfAHsMaeq65Zf8s4TqCKC2igSZaZaYY-ZxNvWToBpK
+
+!function MaterialsTimeline($id, $name="Timeline", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTimeline', $name, $tech)
+!endfunction
+!function MaterialsTimelineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTimelineLg>', 'Timeline', $funcName, $content)
+!endfunction
+@enduml

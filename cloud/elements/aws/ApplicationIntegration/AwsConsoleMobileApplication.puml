@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsConsoleMobileApplicationLg [20x20/16z] bP250SH020JVPXUk_tu_xZx96GxbATco41duGSojVjRlAx6GgO65ZEcOPBcLEKtCPAcQMeI2NXBHYjpgPbQogR6MyLgkQt73PHz5jFXYLfTK
+
+!function AwsConsoleMobileApplication($id, $name="Console Mobile Application", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsConsoleMobileApplication', $name, $tech)
+!endfunction
+!function AwsConsoleMobileApplicationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsConsoleMobileApplicationLg>', 'Console Mobile Application', $funcName, $content)
+!endfunction
+@enduml

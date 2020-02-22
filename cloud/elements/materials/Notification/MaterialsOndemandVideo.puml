@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsOndemandVideoLg [20x20/16z] {
+bT254KD120HG5ZcN_gkDvxk-iPrJWAw2Be0GQfwf0IY66Ij0KPhHOKqCgpNjKTPhlGLUhVLYoxNgUNatoEeFB6fPrvUIdqa99EyG-qTyPw4lQU-b9Xi30zto
+1
+}
+
+!function MaterialsOndemandVideo($id, $name="Ondemand Video", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsOndemandVideo', $name, $tech)
+!endfunction
+!function MaterialsOndemandVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsOndemandVideoLg>', 'Ondemand Video', $funcName, $content)
+!endfunction
+@enduml

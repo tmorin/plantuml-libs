@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2Z1dInstanceLg [20x20/16z] {
+ZL050WH120A1-V-FxxQxcBGLT2X2opN1nK0Qhb4ZjwGvusLDNXkKWLA83HZLbGxqNcT2QQEklrbWYm0J9Ae9LC2vXZg5nJXhZJ9WbJdgXjYae6Bi8NQeGMAg
+CzOuz_9vZZC7rrnTSthc_Wy
+}
+
+!function AwsEc2Z1dInstance($id, $name="Ec2 Z1d Instance", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2Z1dInstance', $name, $tech)
+!endfunction
+!function AwsEc2Z1dInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2Z1dInstanceLg>', 'Ec2 Z1d Instance', $funcName, $content)
+!endfunction
+@enduml

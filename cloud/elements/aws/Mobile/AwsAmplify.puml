@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsAmplifyLg [20x20/16z] jOt50GH13CCER3cJ_liznhntzJMezsAjdfHSioN5endBv7zfCukMaCFl4Z22-WfSxk3VTO8hZY2Vsgg4Cp-Q2C2oPENL-wEtvme
+
+!function AwsAmplify($id, $name="Amplify", $tech="")
+  CloudElement($id, 'aws/Mobile/AwsAmplify', $name, $tech)
+!endfunction
+!function AwsAmplifyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAmplifyLg>', 'Amplify', $funcName, $content)
+!endfunction
+@enduml

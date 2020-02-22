@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocationOnLg [20x20/16z] {
+bO-55SKW301nX-m_BUvVUrNkHT4NC27uCi9uRyHkYOQA9YjAGKVDI5f262l1T3W1O4ckO074S3A7bMyEbD_YsAh7XiCMEdPDo8VZmwn0Cy96nLLjRTAtM13R
+vZbWtZDqmpbwIW8
+}
+
+!function MaterialsLocationOn($id, $name="Location On", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsLocationOn', $name, $tech)
+!endfunction
+!function MaterialsLocationOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocationOnLg>', 'Location On', $funcName, $content)
+!endfunction
+@enduml

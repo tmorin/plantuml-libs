@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsInputHdmiLg [20x20/16z] {
+hP254GGn201nukc_slVdVFGslXC3k8H-m8BrtZvL5vUTc5xLSoZC1ep8O1dZjk9ep8PUuaQRlVRMNjsql_CP-1rE5YVB__ug8omRbstBncNRiZ6sBT1ugq4R
+rpyiRaagNFC4
+}
+
+!function MaterialsSettingsInputHdmi($id, $name="Settings Input Hdmi", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsInputHdmi', $name, $tech)
+!endfunction
+!function MaterialsSettingsInputHdmiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsInputHdmiLg>', 'Settings Input Hdmi', $funcName, $content)
+!endfunction
+@enduml

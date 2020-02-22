@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTvLg [20x20/16z] rT0r0W113090MFVy_xMdpRcKEqq29VYAve1Wg7cd1h9OxjX25eCTqq6Najz9YT3p4sKHvrzZfTjSDNqn6F7B2
+
+!function MaterialsTv($id, $name="Tv", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsTv', $name, $tech)
+!endfunction
+!function MaterialsTvCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTvLg>', 'Tv', $funcName, $content)
+!endfunction
+@enduml

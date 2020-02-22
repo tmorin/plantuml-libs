@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSupervisorAccountLg [20x20/16z] {
+jOxN0K8n30Dj4PDAjF-so7JuvbtwASqEeTJogu9aQFGFr-IwejdnSbMk6XPvVZcqsM2Od-vnK-dLFvHhyGcYZHav0HvHw6esrybrMQCYmrGC_V7ESBbDKQm-
+t8PSJKuMzG7itrm1
+}
+
+!function MaterialsSupervisorAccount($id, $name="Supervisor Account", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSupervisorAccount', $name, $tech)
+!endfunction
+!function MaterialsSupervisorAccountCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSupervisorAccountLg>', 'Supervisor Account', $funcName, $content)
+!endfunction
+@enduml

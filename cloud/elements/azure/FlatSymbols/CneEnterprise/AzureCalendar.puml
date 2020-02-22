@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCalendarLg [25x20/16z] {
+hOy5ZWKn34DREzFW_S-xpMSQuHQV5BBh_rQQ_bgMCSSOKsHYNn4qKeW8x02hH2iOfNB7Qo1JD0EHAetbjy0a9yX1ueheLke7pNYulc9qOvFt6TPuNW4INpFO
+hJprNHKrMrKt_Zs3mj_E3nMeGdJDTSNjxBVSQm0MgqUji3lkm8ma2Tpk7G5cPVnQMNy
+}
+
+!function AzureCalendar($id, $name="Calendar", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCalendar', $name, $tech)
+!endfunction
+!function AzureCalendarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCalendarLg>', 'Calendar', $funcName, $content)
+!endfunction
+@enduml

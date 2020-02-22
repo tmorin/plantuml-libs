@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureConditionalAccessExchangeLg [18x20/16z] {
+ZSx50GD120NGmJxIVx_9kjkxuIXifQq3eHap-ennQpoWBfWoP0FUP7Jmc3bFdJUlFcI8jnasUEWsWwfCY0WlcOIdYvbYoOYdCQjsoHuF6H2B40y8gUZtcBO9
+AY9TTCseHwPHP_kVSEly0G
+}
+
+!function AzureConditionalAccessExchange($id, $name="Conditional Access Exchange", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureConditionalAccessExchange', $name, $tech)
+!endfunction
+!function AzureConditionalAccessExchangeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureConditionalAccessExchangeLg>', 'Conditional Access Exchange', $funcName, $content)
+!endfunction
+@enduml

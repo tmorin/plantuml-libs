@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFeedbackLg [20x20/16z] ZOy50a0n142n3jp_jByxzvOQU0Jf18wgA7n0ug0arXDCWqxcVyxpAxkk4jMR3h59no7mLQUbjDMmzgPJ4RteRdDmEk1Wr5MB1s3KLGjNwAPgfWS
+
+!function MaterialsFeedback($id, $name="Feedback", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFeedback', $name, $tech)
+!endfunction
+!function MaterialsFeedbackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFeedbackLg>', 'Feedback', $funcName, $content)
+!endfunction
+@enduml

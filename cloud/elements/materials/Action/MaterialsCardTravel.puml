@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCardTravelLg [20x20/16z] {
+ZOq50e0m2021zGZ__rgx-tHr53o2D89xbtGaxTCuKa_aNIA9XnulD8jOIZKkFMorb33cf90qnvwi_NN89IL0dcePn-UyZSsHOESMNbsW7M5qrjYEnaOdl4D6
+fnvtU7rmM8-r5OVf_W31Rpe
+}
+
+!function MaterialsCardTravel($id, $name="Card Travel", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCardTravel', $name, $tech)
+!endfunction
+!function MaterialsCardTravelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCardTravelLg>', 'Card Travel', $funcName, $content)
+!endfunction
+@enduml

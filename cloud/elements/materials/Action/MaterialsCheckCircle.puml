@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCheckCircleLg [20x20/16z] {
+VT073iKm20FG3rrM4D_tlstZxcrDdfGmVXynTpj3YyWCj3ixk0I-Kk6MCgDXanm29cjtwchHoh2Jta1FWrbsOjJ7dknis8ZfCghwBoJJMzNDGdgh7iALY6MM
+YjikxJPpnaAmbzrkDtY_rNxJzum
+}
+
+!function MaterialsCheckCircle($id, $name="Check Circle", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCheckCircle', $name, $tech)
+!endfunction
+!function MaterialsCheckCircleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCheckCircleLg>', 'Check Circle', $funcName, $content)
+!endfunction
+@enduml

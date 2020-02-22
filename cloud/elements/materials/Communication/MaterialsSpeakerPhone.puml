@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpeakerPhoneLg [20x20/16z] {
+lOx50S0W34M9e_kFMpViseV6lvi29Af2y75nB364xU8doOeXxCdR1owVqkxOAqdVShHSIZPq7pGo8aUjvi9xlvDbWoiNfhYHiFBnaVo_Jt53Qryg6mbhqGTk
+pWe
+}
+
+!function MaterialsSpeakerPhone($id, $name="Speaker Phone", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsSpeakerPhone', $name, $tech)
+!endfunction
+!function MaterialsSpeakerPhoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpeakerPhoneLg>', 'Speaker Phone', $funcName, $content)
+!endfunction
+@enduml

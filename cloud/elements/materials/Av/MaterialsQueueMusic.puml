@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsQueueMusicLg [20x20/16z] lSe34i0m443HHSpxdxOEnzLhepyBls1RCAXjfwsHAWYqLn9XfFMsJNEbiIkuj45fI8VznlPg8kuy0lkOfpcqEPTMeD-QWf7AEJ1CX2HuQWK
+
+!function MaterialsQueueMusic($id, $name="Queue Music", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsQueueMusic', $name, $tech)
+!endfunction
+!function MaterialsQueueMusicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsQueueMusicLg>', 'Queue Music', $funcName, $content)
+!endfunction
+@enduml

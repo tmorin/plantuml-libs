@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMediaPlayerLg [20x20/16z] {
+RP053WCn3C3INTZ__-zK6C-YoWtBP5WsTDgG1rf0Dr1wb4E5ctaK-54TTeXUKcct9m4gemXxuK4De-PRRxgKUs6vmowHIwVo91i_JeRwXAPjkyar8vj_xYSt
+wDD3Lz3fyPnbcJtBdjcdEM4rHEdm9m6wp_AK-JeCbSlKKNzl-dlxEm
+}
+
+!function AzureMediaPlayer($id, $name="Media Player", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer', $name, $tech)
+!endfunction
+!function AzureMediaPlayerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMediaPlayerLg>', 'Media Player', $funcName, $content)
+!endfunction
+@enduml

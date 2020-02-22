@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUdfFunctionLg [20x20/16z] {
+TO-53S0m3C0A8UV_VySCtagMGjgLFC1gAGNqAjCdgMRDBuvU5YmloB_pP68EF68hcFjiFP9QPZeXRgX6MFgU3eljIrr3OtSUJjj2Cy5Xtc8DrPnXtOxGaosq
+SN6nTY9vmJu6qyCHExANHRhizDxc6X72oJfSxTUKJE4Z
+}
+
+!function AzureUdfFunction($id, $name="Udf Function", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUdfFunction', $name, $tech)
+!endfunction
+!function AzureUdfFunctionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUdfFunctionLg>', 'Udf Function', $funcName, $content)
+!endfunction
+@enduml

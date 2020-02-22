@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureFileGeneralLg [19x20/16z] {
+VT350KGX54FHeC_IVxiZtvMpl3ZPU2G0B5Gs6km05GV6NwDS4kMSn3ruJaX9vzHbrW38b9B5JBU4jDfJRREwBtJER9-LooplgTIfr39SM6Vxh9ENf3XJpb-u
+qx1iFBFy1G
+}
+
+!function AzureFileGeneral($id, $name="File General", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFileGeneral', $name, $tech)
+!endfunction
+!function AzureFileGeneralCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFileGeneralLg>', 'File General', $funcName, $content)
+!endfunction
+@enduml

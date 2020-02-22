@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureConnectorsLg [32x20/16z] {
+bLA50S0m22jG8_3_ktFtPLeaQDX02imDHS8Lk9gFiC9dTKIl0T1RrPDQEZ4o4v5aWvp8uQupAv_fIwUcS0k2c_HVYRDlpXlxDAR4weuqoAcuIfzsrGvTSgcJ
+wL0TT19PHs4-GSOQzb31ezwIRFb7uuNVA-_pwzaip_aXdUhZb6JkIEN7_l13VsEudK_ev-FvPRvA__RZVhzQ
+}
+
+!function AzureConnectors($id, $name="Connectors", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureConnectors', $name, $tech)
+!endfunction
+!function AzureConnectorsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureConnectorsLg>', 'Connectors', $funcName, $content)
+!endfunction
+@enduml

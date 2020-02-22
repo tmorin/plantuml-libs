@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudRouterLg [20x20/16z] {
+RP070eCm30DLHudu_uVRuiKKMvmdN9yKMhPQXeJMrbg9SZk9WUdioS4P7xEU04mLmm0Dy0BI08RaPUAdI9c9b7_8SOS8c1FbyUGDdMF3YbOSecAKxcLse_RI
+y_jixpk8NJLsswaKEttR_Gy
+}
+
+!function GcpCloudRouter($id, $name="Cloud Router", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudRouter', $name, $tech)
+!endfunction
+!function GcpCloudRouterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudRouterLg>', 'Cloud Router', $funcName, $content)
+!endfunction
+@enduml

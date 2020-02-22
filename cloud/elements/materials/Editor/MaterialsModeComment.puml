@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsModeCommentLg [20x20/16z] rSYr0S1030D0MM6Gi_-qOURshppSCXxOKBbhn_C-gUP0xC-Fvo6SheUasD5qi9sudkuWhebh4dzr
+
+!function MaterialsModeComment($id, $name="Mode Comment", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsModeComment', $name, $tech)
+!endfunction
+!function MaterialsModeCommentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsModeCommentLg>', 'Mode Comment', $funcName, $content)
+!endfunction
+@enduml

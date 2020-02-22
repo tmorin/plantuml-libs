@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSupportRequestsLg [27x20/16z] {
+dT1NWeH028HXAOgYSUv_tsMn9x_DR_Opzd5bxfWTv-myewHC79uhrobxIiW1btm91fxh8PxEp4MqE8EynPqKtbB9QeWGLssnP3ITqi9Gv0qFqZz5KmpfGGI7
+dCOMCOQsAglOEs0el1wqVtMs1XoeseGz4WOpUvoOb9dNmnXiGqZnfCG1HEU7XTv9r12T-g1LYPZqHUScVL7zHfLWjuaNONBOQtt-3m
+}
+
+!function AzureSupportRequests($id, $name="Support Requests", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureSupportRequests', $name, $tech)
+!endfunction
+!function AzureSupportRequestsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSupportRequestsLg>', 'Support Requests', $funcName, $content)
+!endfunction
+@enduml

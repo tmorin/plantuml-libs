@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudhsmLg [20x20/16z] {
+fSz50WK120BG7mB2_UyxtTjvIzky973JHmpoIio6vLZgn4SCPOE4BZ6LfyWKzHaB6vGBx4STRtKeDwOef3vQ_uv55Q3iq9u89Jp-4DJet3KBS9xHAkJ9KjuP
+0G
+}
+
+!function AwsCloudhsm($id, $name="Cloudhsm", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCloudhsm', $name, $tech)
+!endfunction
+!function AwsCloudhsmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudhsmLg>', 'Cloudhsm', $funcName, $content)
+!endfunction
+@enduml

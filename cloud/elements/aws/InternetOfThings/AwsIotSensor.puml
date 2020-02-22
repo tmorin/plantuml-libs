@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotSensorLg [20x20/16z] {
+NK-5WGH129iXyjT_nO-iPoN1OJKsYVK6JKhxwKARy7vuFPf_zkaDdMBXaDji7ZrTZLTlrq-7WM4bW-Fw_SP9L8lf9CKiKKGX4cJzeIaBIWA99CRhFjvwnq2A
+GIueKqn8R5Zf2nYFscYVwThVUFXW9jcwVI89iFy9AVty8DO_
+}
+
+!function AwsIotSensor($id, $name="Iot Sensor", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotSensor', $name, $tech)
+!endfunction
+!function AwsIotSensorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotSensorLg>', 'Iot Sensor', $funcName, $content)
+!endfunction
+@enduml

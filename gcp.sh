@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ./lib.sh
+. lib.v1.sh
 
 iconsUrl="https://cloud.google.com/icons/files/gcp-icons.zip"
 

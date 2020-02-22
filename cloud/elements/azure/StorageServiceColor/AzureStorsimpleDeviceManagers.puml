@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureStorsimpleDeviceManagersLg [22x20/16z] {
+ZSrP0a8n24DH84dtlsJpEZhh_Jmj4Ai4AI8UAXfRQynNT3oO2nqcLO97jQuuQMbBux5LHO1ksb5sHJaygaGuJXMpQplQ8ouLqg7jOZ2TDYewLxWQ8Z73PSPM
+PcOyL6xIAU7gBpLVFMF9CQvk
+}
+
+!function AzureStorsimpleDeviceManagers($id, $name="Storsimple Device Managers", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureStorsimpleDeviceManagers', $name, $tech)
+!endfunction
+!function AzureStorsimpleDeviceManagersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStorsimpleDeviceManagersLg>', 'Storsimple Device Managers', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDatasyncLg [20x20/16z] {
+RSrNeWGW24FHLo09xd_18rYcSJ-F0g4JRz5WD1WDnaO25sEXpuo9r-2IO4vTax6MkalRw52PwcUPwnvtI1ovZNjEgiLZ8Ws45phI9kBVg-rfD88qevXo_v78
+ux5jfhXjozvmD3WQ70q-
+}
+
+!function AwsDatasync($id, $name="Datasync", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsDatasync', $name, $tech)
+!endfunction
+!function AwsDatasyncCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDatasyncLg>', 'Datasync', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsHealingLg [20x20/16z] {
+TT05bWGX40DGIE7okFzjbrJMnjB-smBXKsByEVvH6-0Hen55ENMGpY6AGhX84eekZaaInf5ejeuo-A0DuxTA4U6IeuqDh3yYheBMKCxyeO1vP7lyc9TOm1xc
+FKLCANn864dCClLalowQmotxGE0uO3rTwYGXltKn--U49FRiyVESlkOB
+}
+
+!function MaterialsHealing($id, $name="Healing", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsHealing', $name, $tech)
+!endfunction
+!function MaterialsHealingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHealingLg>', 'Healing', $funcName, $content)
+!endfunction
+@enduml

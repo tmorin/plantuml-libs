@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPowerInputLg [20x20/16z] OnXKW9a51J23n3XuUP00BmT8Z14DmCIGIQXURYP6JbvUJaOcRg1Uc1sC89APWH5inw02
+
+!function MaterialsPowerInput($id, $name="Power Input", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsPowerInput', $name, $tech)
+!endfunction
+!function MaterialsPowerInputCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPowerInputLg>', 'Power Input', $funcName, $content)
+!endfunction
+@enduml

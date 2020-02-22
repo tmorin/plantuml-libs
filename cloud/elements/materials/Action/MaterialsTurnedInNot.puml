@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTurnedInNotLg [20x20/16z] rOg53S10202Byxx_j7MD4-_X5wO8n2TqA-crxDGkbpD7s46ts_rW0nRuE2SjjHObVzneMH0bj_4uPzWcyFEtYcSDi
+
+!function MaterialsTurnedInNot($id, $name="Turned In Not", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTurnedInNot', $name, $tech)
+!endfunction
+!function MaterialsTurnedInNotCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTurnedInNotLg>', 'Turned In Not', $funcName, $content)
+!endfunction
+@enduml

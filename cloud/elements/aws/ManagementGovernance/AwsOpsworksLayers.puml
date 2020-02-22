@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsOpsworksLayersLg [20x20/16z] OsJ108miR6WYO046DC12VJ5sLZJ0piB0X04OY0NOz6AnWov-mnQcsC8U
+
+!function AwsOpsworksLayers($id, $name="Opsworks Layers", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksLayers', $name, $tech)
+!endfunction
+!function AwsOpsworksLayersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOpsworksLayersLg>', 'Opsworks Layers', $funcName, $content)
+!endfunction
+@enduml

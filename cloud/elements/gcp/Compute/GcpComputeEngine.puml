@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpComputeEngineLg [20x20/16z] {
+RP3L0SLG24FHfFil_0Iet_E3gnGwo87XmCQbs0umgR5TY4xZrSTApDP_b9B_0QKoCgErtnYKuaKvqGCOJe3UnkIdGnK-hLS-vwlM9LyphhjaBsZ7pWUvlctz
+0r6yqiwValFJnU-_
+}
+
+!function GcpComputeEngine($id, $name="Compute Engine", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpComputeEngine', $name, $tech)
+!endfunction
+!function GcpComputeEngineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpComputeEngineLg>', 'Compute Engine', $funcName, $content)
+!endfunction
+@enduml

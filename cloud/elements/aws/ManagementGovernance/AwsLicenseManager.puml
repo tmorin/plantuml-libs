@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsLicenseManagerLg [20x20/16z] {
+TSW5gi0m40L0O9zjUl_pVab3gGu-lUIaN_Bpn0a-7KKwGUqvvbcqZS9-_qdL9AuRRpUQiG3PvskZ2WxJnuKb5iFkFWwW0FzVpnji5LZAl5uNL27deoo9ukaw
+8K0x-orEFBhNdQpRNd9xoLy
+}
+
+!function AwsLicenseManager($id, $name="License Manager", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsLicenseManager', $name, $tech)
+!endfunction
+!function AwsLicenseManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsLicenseManagerLg>', 'License Manager', $funcName, $content)
+!endfunction
+@enduml

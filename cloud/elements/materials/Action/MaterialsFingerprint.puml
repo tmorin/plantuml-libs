@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFingerprintLg [20x20/16z] {
+TOi74WGW4C80m_x_oQTplSMUYVgFi_6hISkcpJCYroxuHKwXmxDZOkUiSbTuNRibgaDmkNQjxj-xnC1Wq9LqMszMrNkMu6v4mjMDoK9Y1VVkUkmsYkVghYRL
+h7HTtJQuQWpH5STZbeT4Jqwu7B2U437H5xR-Sm4
+}
+
+!function MaterialsFingerprint($id, $name="Fingerprint", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFingerprint', $name, $tech)
+!endfunction
+!function MaterialsFingerprintCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFingerprintLg>', 'Fingerprint', $funcName, $content)
+!endfunction
+@enduml

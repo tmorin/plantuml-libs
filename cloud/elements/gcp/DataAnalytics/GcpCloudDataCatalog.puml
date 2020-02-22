@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDataCatalogLg [21x20/16z] {
+TP254GH120Hno3_Yfv0_xv95UauM4ZHV367GE51eoEF0wH0Fz2ckQbMwi7cjBMTS6H84Pguf0rf5r1arZr9Hwg1KF9tgGYhWKgTs5zu70wMm7sBifo6ECb-a
+QYvYBS8_GiJHSFtbyVGHLpsWpmi1FAkEq4WS20oelcY9Fm
+}
+
+!function GcpCloudDataCatalog($id, $name="Cloud Data Catalog", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataCatalog', $name, $tech)
+!endfunction
+!function GcpCloudDataCatalogCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDataCatalogLg>', 'Cloud Data Catalog', $funcName, $content)
+!endfunction
+@enduml

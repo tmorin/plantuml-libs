@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGlobalAcceleratorLg [20x20/16z] {
+RSi92iD034DHWYLvvDp_llLG9rq_OdiWtwqx_y4tyfUbIELOUTVIWMFrf02ZUQmgcq8PxUanIGa98Zbc4jm6zDbZahZJs7mPmMnpjor51101wZ8pYJQA7ckq
+uZX2NcEx5I8LwNT3elTXvP9yTTPxOt_m_8CF
+}
+
+!function AwsGlobalAccelerator($id, $name="Global Accelerator", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsGlobalAccelerator', $name, $tech)
+!endfunction
+!function AwsGlobalAcceleratorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGlobalAcceleratorLg>', 'Global Accelerator', $funcName, $content)
+!endfunction
+@enduml

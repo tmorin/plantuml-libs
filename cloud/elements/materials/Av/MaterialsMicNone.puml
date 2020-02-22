@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMicNoneLg [20x20/16z] jSY53GHG2C3G8b-0_USzTzUNnieZgbpgLPrpLhQACnuG_iVN74kHChmTta1YHHY7fsL8QuAbijVIWDLgS39dQxCQfxHLDUN2dF3AC-DTIm
+
+!function MaterialsMicNone($id, $name="Mic None", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsMicNone', $name, $tech)
+!endfunction
+!function MaterialsMicNoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMicNoneLg>', 'Mic None', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsContactMailLg [20x20/16z] {
+ZT030WCn40NGGMFy-vzs4TNjljYWYrXlBvGztlIk7DEPXoRZ58JP0PORYqFLSzy88qgaOjfAeOE78J56o3pDEtActeUWVJzgB9eISpkzoMq_Rurn2G-Sq8bD
+nkIP1eF9hZwj67AO8hhwwGy-_HLTj0C
+}
+
+!function MaterialsContactMail($id, $name="Contact Mail", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsContactMail', $name, $tech)
+!endfunction
+!function MaterialsContactMailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsContactMailLg>', 'Contact Mail', $funcName, $content)
+!endfunction
+@enduml

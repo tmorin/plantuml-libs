@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsApplicationDiscoveryServiceLg [20x20/16z] {
+bP350SLG3CC-rF9pzj-tp3rLHuLJByb36E5Sb9XGkoXXX8vCi-R1xa18SsgktKpZA1QRFPpdMYEupRNeL3jDJ7I6ezX8GkIGk19I4Box9DDbqDZxJMJ-nNvp
+Hkez0m
+}
+
+!function AwsApplicationDiscoveryService($id, $name="Application Discovery Service", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsApplicationDiscoveryService', $name, $tech)
+!endfunction
+!function AwsApplicationDiscoveryServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsApplicationDiscoveryServiceLg>', 'Application Discovery Service', $funcName, $content)
+!endfunction
+@enduml

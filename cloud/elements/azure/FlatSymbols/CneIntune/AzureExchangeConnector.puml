@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureExchangeConnectorLg [20x20/16z] {
+ROy5UiKW48HP5-v_tmxvwARo_kW8jW29CE4h-AvBT7VGylCPhrH3j4mhN-yCJC7VUDQGZeSorfZey19cfpL8eCMXwyM5P15nlZqhHWkQwyTU85Flt_LQDPq3
+x_7k0GAVsH-B217JFUz0LQEdM_t9an74pCGUcD-53YS_Qk_TUoEfAaKZmgqVp09ypy4FTyDV
+}
+
+!function AzureExchangeConnector($id, $name="Exchange Connector", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureExchangeConnector', $name, $tech)
+!endfunction
+!function AzureExchangeConnectorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureExchangeConnectorLg>', 'Exchange Connector', $funcName, $content)
+!endfunction
+@enduml

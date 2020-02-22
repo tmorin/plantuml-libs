@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSecureVirtualMachineLg [26x20/16z] {
+RT055eD034NH9XFFt_zwcuDMU3XtqCH3-fhGuUxn5MAJMVz4bLz2miyYYL9wa5K0Ml-5LA9JbV-4vxGCoeEWjO2HIUHBO7q82PyoIOsq4ItYG0dnscH_1vkX
+XcfCrRtBbU7iL-IIGiTTskfJ8dfllqDoOg_bHLlxMAVhTadN_yLai-SRzDf_fyXnRBfuTb5oZRypiWwUqsy
+}
+
+!function AzureSecureVirtualMachine($id, $name="Secure Virtual Machine", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSecureVirtualMachine', $name, $tech)
+!endfunction
+!function AzureSecureVirtualMachineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSecureVirtualMachineLg>', 'Secure Virtual Machine', $funcName, $content)
+!endfunction
+@enduml

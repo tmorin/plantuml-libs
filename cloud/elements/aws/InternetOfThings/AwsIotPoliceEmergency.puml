@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotPoliceEmergencyLg [20x20/16z] {
+RP275O1024C90Mx_ZQNODTRxr1SfgIXI-P5J3bTIytCGyvLNH7ziHxnfe5DkOfQhhs8GODXo5LIUXKNULdcOF8QQvXtiFAYpc-ojcGWC2c9O84iuxCfhrhMk
+mzIxjcSuZ-MkNH3E8e5hbputdxoZ4DZB_ppuy-hVqp_lDm
+}
+
+!function AwsIotPoliceEmergency($id, $name="Iot Police Emergency", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotPoliceEmergency', $name, $tech)
+!endfunction
+!function AwsIotPoliceEmergencyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotPoliceEmergencyLg>', 'Iot Police Emergency', $funcName, $content)
+!endfunction
+@enduml

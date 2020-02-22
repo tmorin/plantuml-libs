@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticBeanstalkContainerLg [20x20/16z] {
+fOz74iGm3CDcLY2f_xzuqnFxQhZ3JUfb8YcZChBAmocyTQxlMTCjaCGjWxOMlFNaLabWSvthfDbqKRAtDRwSsQn0jmio6sLptzqa_b6gygqs4gkCUie5S4_W
+zCobLla3
+}
+
+!function AwsElasticBeanstalkContainer($id, $name="Elastic Beanstalk Container", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsElasticBeanstalkContainer', $name, $tech)
+!endfunction
+!function AwsElasticBeanstalkContainerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticBeanstalkContainerLg>', 'Elastic Beanstalk Container', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureWhatSNew element
+include('elements/azure/GeneralServiceIcons/AzureWhatSNew')
+AzureWhatSNew('element', 'What S New', 'an optional tech field')
+@enduml

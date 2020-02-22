@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSimpleEmailServiceSesEmailLg [20x20/16z] {
+RSx5OKGn34LHmGDF-Yyud_dkT8pnMG7re3RWEwOXaJUR10AppYOpJPJsnb_tSlPwpXsJr4bKiZEhgpT9SU9MhwlBJuquB31Zk-DYuT4OZ8kbs5O9fqt3-SHg
+xRvyPR7svN_JC9arqHL7ysVT6h-AV1LV_GC
+}
+
+!function AwsSimpleEmailServiceSesEmail($id, $name="Simple Email Service Ses Email", $tech="")
+  CloudElement($id, 'aws/CustomerEngagement/AwsSimpleEmailServiceSesEmail', $name, $tech)
+!endfunction
+!function AwsSimpleEmailServiceSesEmailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSimpleEmailServiceSesEmailLg>', 'Simple Email Service Ses Email', $funcName, $content)
+!endfunction
+@enduml

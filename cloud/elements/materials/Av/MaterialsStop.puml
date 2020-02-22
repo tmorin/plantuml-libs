@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStopLg [20x20/16z] Ow09O8G2925sJYXWHwZYv8S2JiP19eRfPao_qGG
+
+!function MaterialsStop($id, $name="Stop", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsStop', $name, $tech)
+!endfunction
+!function MaterialsStopCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStopLg>', 'Stop', $funcName, $content)
+!endfunction
+@enduml

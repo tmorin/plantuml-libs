@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMicrosoftIntuneLg [25x20/16z] {
+XS-50OGm343Hfl5a_tdl8BX_d8UqNVIKG1kJi5D11MhG3e4lq3u0u1x83ISGF81bXksY1JHJUSjq0H3U3uyNE2TtW53Ws4-fuG0SNiMIHwG1Q-iLUgRXUCBp
+6ykyHwWVwFoFka2oo0mbx5WyW_cQpC05i0iDQsJQJc54g4V86K1KPDZm3m
+}
+
+!function AzureMicrosoftIntune($id, $name="Microsoft Intune", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureMicrosoftIntune', $name, $tech)
+!endfunction
+!function AzureMicrosoftIntuneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMicrosoftIntuneLg>', 'Microsoft Intune', $funcName, $content)
+!endfunction
+@enduml

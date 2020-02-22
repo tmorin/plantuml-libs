@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpContainerOptimizedOsLg [20x20/16z] {
+PL095eHG2780zT__n9DcE-q-MS8Qlu6TG9o0pLAi4p6hMZTeNylxB7lHcoDIhU5baFNoWplXjGYpg2su8hP7V-m6qcA9IBMexFL8Rf3ODZCB8ys9dh66r2B8
+dRjeFXwUswCMuip22A6ZuieCN9c___RjuDlLh9sTPkRPwQVxFm
+}
+
+!function GcpContainerOptimizedOs($id, $name="Container Optimized Os", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpContainerOptimizedOs', $name, $tech)
+!endfunction
+!function GcpContainerOptimizedOsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpContainerOptimizedOsLg>', 'Container Optimized Os', $funcName, $content)
+!endfunction
+@enduml

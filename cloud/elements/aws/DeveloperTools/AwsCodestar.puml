@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCodestarLg [20x20/16z] {
+RSwt5KCn34FHHaJI_lkQ_Zcz2kTMIEThalA1-S1iMOKTLn4C0ZfDDSgi6ZWD16F99dTZbH8lWvl5jWmPtMf60WYWQwXjjWsO2yQrs9pi8jXnose2cFLJCQj5
+Igo483RhE0fCZLAocmaXt9xDjG3Etjpnqlp0-O4_
+}
+
+!function AwsCodestar($id, $name="Codestar", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCodestar', $name, $tech)
+!endfunction
+!function AwsCodestarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodestarLg>', 'Codestar', $funcName, $content)
+!endfunction
+@enduml

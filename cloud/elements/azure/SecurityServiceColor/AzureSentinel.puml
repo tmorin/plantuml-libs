@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSentinelLg [18x20/16z] {
+JSo7WGGn24DHp10a-Y_uB6xJc-ZlO78I9FBOouacBYBKCWlKaE0CEvDONTMSjINTBgzFUNIOZWZ-bxY_3RI-MyeiSSsa6LJ278XpadmiL9xxdtRLr7bc03GO
+AZb33fAuIgL7qh7IlKRe5X1o_cb_KUKLTljHUeK-zagSLGehjp3jAp23i5_UxQ_VFm
+}
+
+!function AzureSentinel($id, $name="Sentinel", $tech="")
+  CloudElement($id, 'azure/SecurityServiceColor/AzureSentinel', $name, $tech)
+!endfunction
+!function AzureSentinelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSentinelLg>', 'Sentinel', $funcName, $content)
+!endfunction
+@enduml

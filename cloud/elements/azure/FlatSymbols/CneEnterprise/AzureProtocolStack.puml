@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureProtocolStackLg [29x20/16z] {
+jSw53KGn30FGDbImzv_tX5y-vYSCP_E-YnfutxJ9UvQvBOgDmx94si9XTplq016QQC87XpUH9IPdYUJBKBXVYnQuLqkVdbgLXy8sjuKyr4GkhcoYcoYMYRuX
+I49i_iT-L3i1
+}
+
+!function AzureProtocolStack($id, $name="Protocol Stack", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureProtocolStack', $name, $tech)
+!endfunction
+!function AzureProtocolStackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureProtocolStackLg>', 'Protocol Stack', $funcName, $content)
+!endfunction
+@enduml

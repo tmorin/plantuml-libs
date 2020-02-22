@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudComposerLg [20x20/16z] {
+PP250GH120DnwB_YF_HjJZV92a210nna1us45eTDLE83wPX_Qbv1pJyfqjNS87yC2akRyjivnCoLFrzC3SVtQ8z5kEU4huRqrjZtgBYQWFOQYglPdOLFepsp
+cZxtdlc_jlyU_FUgOzTJVxYU_lN-1G
+}
+
+!function GcpCloudComposer($id, $name="Cloud Composer", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudComposer', $name, $tech)
+!endfunction
+!function GcpCloudComposerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudComposerLg>', 'Cloud Composer', $funcName, $content)
+!endfunction
+@enduml

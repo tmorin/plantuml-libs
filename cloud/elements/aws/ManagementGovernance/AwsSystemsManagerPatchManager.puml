@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerPatchManagerLg [20x20/16z] {
+NSu73aGX409GYeFtl_6w6VtjnRG14d58-DASel5YAGvnE4k1hl8vZSK4c1fzPFq9VKiFAwcJzWqsIRHzKuYB70kQhx-orc6zullpslKB8omPTGwaZNthkIf9
+STz20AEMqGltZMEnq5nbAd_4mJYIyM9gJk5Bml43
+}
+
+!function AwsSystemsManagerPatchManager($id, $name="Systems Manager Patch Manager", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerPatchManager', $name, $tech)
+!endfunction
+!function AwsSystemsManagerPatchManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerPatchManagerLg>', 'Systems Manager Patch Manager', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotLambdaFunctionLg [20x20/16z] {
+RL075aCn2484__rlt4ViRlaZ4TnOL4jTU0DjIRA9EyeZaglLdHB77iVGaXOOUsf9uDWSDLe8pFt0dehZ-fGHb0JT7QjznAi7jOxg5JrstnsbdF6mZ9hbsZdY
+uuORWBjyt60oZWOS0nBYRaOz_RgkvX3Wa5EdNmTRqS5z1tX2pyKS__TTxTsIdzgVtTy
+}
+
+!function AwsIotLambdaFunction($id, $name="Iot Lambda Function", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotLambdaFunction', $name, $tech)
+!endfunction
+!function AwsIotLambdaFunctionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotLambdaFunctionLg>', 'Iot Lambda Function', $funcName, $content)
+!endfunction
+@enduml

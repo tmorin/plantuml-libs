@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRoundedCornerLg [20x20/16z] {
+ZP034iKm441NC_7zZ_lHndv5iWPSWmp022m_AEh48be6vPtpGM5qVDyV94ubNK42nTYY8o-nHW6TnDkWOuK7dUBT70N6eHUqClGCtMpnLkz00VzlKk-Aq-sQ
+Bm
+}
+
+!function MaterialsRoundedCorner($id, $name="Rounded Corner", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsRoundedCorner', $name, $tech)
+!endfunction
+!function MaterialsRoundedCornerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRoundedCornerLg>', 'Rounded Corner', $funcName, $content)
+!endfunction
+@enduml

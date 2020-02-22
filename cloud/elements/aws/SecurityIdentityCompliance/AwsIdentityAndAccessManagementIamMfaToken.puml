@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamMfaTokenLg [20x20/16z] {
+VL3L0KLH2085zj_unUqyVja41b7TTMfGYPs8-yvIKAcjLRYat5fJSxgGjivMXIH8Tk6VPDg60rikna0AQ4DHh5JPX7lkjLiobVJKgw09_cM8fUaMuKbIdhdS
+EJzhktjmz-hPq-Vu0W
+}
+
+!function AwsIdentityAndAccessManagementIamMfaToken($id, $name="Identity And Access Management Iam Mfa Token", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamMfaToken', $name, $tech)
+!endfunction
+!function AwsIdentityAndAccessManagementIamMfaTokenCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamMfaTokenLg>', 'Identity And Access Management Iam Mfa Token', $funcName, $content)
+!endfunction
+@enduml

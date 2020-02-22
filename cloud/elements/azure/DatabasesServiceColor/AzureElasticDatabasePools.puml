@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureElasticDatabasePoolsLg [20x20/16z] {
+NSu7beLG20DGpn3g_XSym8yrzgk-S33YBhozgVFt8G3gyg8saKXvK8GPaBL8MjEinfjeH75LjV3UokTETYu88gkZm1HvkAberCHrYyPsgJMM-rhTbZWMes9E
+wUOiZge489nbClVPHKWICNsAICIVBTqOhlOa_awwWmVz0m
+}
+
+!function AzureElasticDatabasePools($id, $name="Elastic Database Pools", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureElasticDatabasePools', $name, $tech)
+!endfunction
+!function AzureElasticDatabasePoolsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureElasticDatabasePoolsLg>', 'Elastic Database Pools', $funcName, $content)
+!endfunction
+@enduml

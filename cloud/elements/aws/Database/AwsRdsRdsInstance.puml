@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsRdsInstanceLg [20x20/16z] {
+POs50OH030GloGhqt_3lEp9mDh7sZVQi2sElmaN6mGroW64-ik9aIY8z92MrNGJ3oqCWuzQVoXVYPcec-t66H97kv561Z3EOZqbW1IIFX3IZLHkxgxbxLLNN
+ob-60ZOVnhe-Cmvk4sQW_UWy83c-rzQnNnu4w7Dj3p1bpy6X0jp-eQO3-m4
+}
+
+!function AwsRdsRdsInstance($id, $name="Rds Rds Instance", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsRdsInstance', $name, $tech)
+!endfunction
+!function AwsRdsRdsInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsRdsInstanceLg>', 'Rds Rds Instance', $funcName, $content)
+!endfunction
+@enduml

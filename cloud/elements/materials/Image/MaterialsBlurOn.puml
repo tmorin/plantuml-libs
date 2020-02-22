@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBlurOnLg [20x20/16z] fP053iGm30HNUsDPdF-_zihCxOHZjXxYPbu0SaXXmUxV2RP8Ev4zH8nGbXybcvidLIIcv-PlicMoNSVuLiVtNgsf
+
+!function MaterialsBlurOn($id, $name="Blur On", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsBlurOn', $name, $tech)
+!endfunction
+!function MaterialsBlurOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBlurOnLg>', 'Blur On', $funcName, $content)
+!endfunction
+@enduml

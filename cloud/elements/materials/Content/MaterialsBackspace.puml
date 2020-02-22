@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBackspaceLg [20x20/16z] bP050e0m2009E___MtUpMqzNDCWVFDdWYYZjTnHODVqU4IquwtRT9y_2qfOzFYRFGYNjs7ZWEGazYA9lnZO9Wsb_BRls5JlckAxbkcQyzrpDu79M7na
+
+!function MaterialsBackspace($id, $name="Backspace", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsBackspace', $name, $tech)
+!endfunction
+!function MaterialsBackspaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBackspaceLg>', 'Backspace', $funcName, $content)
+!endfunction
+@enduml

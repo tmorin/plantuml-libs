@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntegrationServiceEnvironmentsLg [20x20/16z] {
+TP07TWGn24C74BAu_uLZFTAJrLH_EeyLE7Dr4C-7Ic83JQdUKGyhi_nmUf6GMRgw53AiGPfLcIMcdX3pEqigi7zvf9DhnM6k-FbpfcFDv0P4py0CP3S9Com3
+QtsnpB7THlkD7jVOgCtW6b2PsN6_9OJuar7XsGeeCtynzR633s7wQrTnjRjwjTE_kty3
+}
+
+!function AzureIntegrationServiceEnvironments($id, $name="Integration Service Environments", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureIntegrationServiceEnvironments', $name, $tech)
+!endfunction
+!function AzureIntegrationServiceEnvironmentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntegrationServiceEnvironmentsLg>', 'Integration Service Environments', $funcName, $content)
+!endfunction
+@enduml

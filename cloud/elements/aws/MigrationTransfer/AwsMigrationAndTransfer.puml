@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMigrationAndTransferLg [20x20/16z] {
+RT3L0O0m34LHxCMw_xx4SExdgNVwRNuLH1nH1MoEYwXaFTIcILsR8mEWD9m63duOatY4qv8q43ZCb8wfe39rysaW2fCs4w9D59lJQQQyaG0YfmKg4UVbwJHp
+ouks3IlDocoCkwRnxGEe_cLUNhdzj0C
+}
+
+!function AwsMigrationAndTransfer($id, $name="Migration And Transfer", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsMigrationAndTransfer', $name, $tech)
+!endfunction
+!function AwsMigrationAndTransferCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMigrationAndTransferLg>', 'Migration And Transfer', $funcName, $content)
+!endfunction
+@enduml

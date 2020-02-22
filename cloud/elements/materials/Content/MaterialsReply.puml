@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsReplyLg [20x20/16z] jS-r0G0X04DHt27xJtlkeJn--Qf4Z4bAfg2OcY82h282IhJoHNjHiw6O7ge7DgkDYnNXkqLgNpLljhxpJKlnUpC
+
+!function MaterialsReply($id, $name="Reply", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsReply', $name, $tech)
+!endfunction
+!function MaterialsReplyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsReplyLg>', 'Reply', $funcName, $content)
+!endfunction
+@enduml

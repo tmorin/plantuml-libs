@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2T3InstanceCopyLg [20x20/16z] {
+ZL250SD04EAGtt_ZDkv6ydOEwC22bcs2MO4qRAD5RabpnisQeZQW0Ig53IhYbGtblSq5fHLG98liRIq2N03JHAUthJtwTl7IOx4nDVM09nizs8onnuZ2tECy
+osSUPmskjRhMzApz7m
+}
+
+!function AwsEc2T3InstanceCopy($id, $name="Ec2 T3 Instance Copy", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2T3InstanceCopy', $name, $tech)
+!endfunction
+!function AwsEc2T3InstanceCopyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2T3InstanceCopyLg>', 'Ec2 T3 Instance Copy', $funcName, $content)
+!endfunction
+@enduml

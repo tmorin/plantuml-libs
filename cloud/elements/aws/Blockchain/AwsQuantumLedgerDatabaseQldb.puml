@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsQuantumLedgerDatabaseQldbLg [20x20/16z] {
+ZSy5ZiKm4C1GwSUUwVrFl64GhaNj2sSldlB2rrwT__fQW0fUXcDokGqDvJQZIcKYjwrl35s6b1LxBV0hbD-mhrdEUSk-16jeltfsM-UQesgVyu7ah5hQ8uvL
+p76hsuR_psxy0m
+}
+
+!function AwsQuantumLedgerDatabaseQldb($id, $name="Quantum Ledger Database Qldb", $tech="")
+  CloudElement($id, 'aws/Blockchain/AwsQuantumLedgerDatabaseQldb', $name, $tech)
+!endfunction
+!function AwsQuantumLedgerDatabaseQldbCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsQuantumLedgerDatabaseQldbLg>', 'Quantum Ledger Database Qldb', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureMouseLg [12x20/16z] bOy53WG120F9eg7p_--UU_G6fx6Q-QXRusOMWcvGsB4m4GDxD92x2VI2KfU41LJtNG0rKppOYEL9DpVzYaVN3_o9FjRXnVXBa5leiORTFCBDuna
+
+!function AzureMouse($id, $name="Mouse", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMouse', $name, $tech)
+!endfunction
+!function AzureMouseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMouseLg>', 'Mouse', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDataCatalogLg [19x20/16z] {
+ZP1L0WCX30M9lcplVzyAab3V-ME8Du4Ne7O7RedwK9V2ko8ShqeTkvg9lzJXDclbMqMOjbhAsf6ACfPkcBDMz4GHyumAH8pTibRWJbSPLQfgbT9rbr8BFwLq
+AMk9cCDDXMu
+}
+
+!function AzureDataCatalog($id, $name="Data Catalog", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureDataCatalog', $name, $tech)
+!endfunction
+!function AzureDataCatalogCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDataCatalogLg>', 'Data Catalog', $funcName, $content)
+!endfunction
+@enduml

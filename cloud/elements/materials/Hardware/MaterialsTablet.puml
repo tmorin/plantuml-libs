@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTabletLg [20x20/16z] nT2r0GH134DHoyFe_gkzM-PeyOK_a-WADiOk6CE483M6E0YnIW2o92OCY9Fahe4cI9A0z57BnurfmbthjaswRKSVNF47
+
+!function MaterialsTablet($id, $name="Tablet", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsTablet', $name, $tech)
+!endfunction
+!function MaterialsTabletCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTabletLg>', 'Tablet', $funcName, $content)
+!endfunction
+@enduml

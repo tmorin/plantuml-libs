@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSchoolLg [20x20/16z] {
+bP350O1G34FvMc_tdnPtJhnZDSdmbvpVbTH4UdfKAiSCjwjQANQeRjM27YUEPHdIU62GFdEewNrltakVltkjvaMVpfLype7rlFX8NU6iHKXBysW438NNMbb-
+C2y_odpyu-sRmJUhlqm
+}
+
+!function MaterialsSchool($id, $name="School", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsSchool', $name, $tech)
+!endfunction
+!function MaterialsSchoolCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSchoolLg>', 'School', $funcName, $content)
+!endfunction
+@enduml

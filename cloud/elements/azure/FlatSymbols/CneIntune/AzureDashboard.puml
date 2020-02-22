@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDashboardLg [25x20/16z] {
+XP650GGn20JPJU03z5_ldxlDIGG7mJs2vdSqqFCE9nu4WCVlIWo29bVQXm1rXC9QqN-hW9439ffHVndS10EfOay2ghAeuY8ePgos5-IRgr3Hw0Mn2QICGD3_
+MCfNWGuvCrpImw-4yt5GZwFj
+}
+
+!function AzureDashboard($id, $name="Dashboard", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDashboard', $name, $tech)
+!endfunction
+!function AzureDashboardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDashboardLg>', 'Dashboard', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,45 @@
+@startuml
+' https://docs.google.com/presentation/d/1vjm5YdmOH5LrubFhHf1vlqW2O9Z2UqdWA8biN3e8K5U/edit#slide=id.g19bd855f64_0_292
+
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+'!global $INCLUSION_MODE="local"
+'!global $LIB_BASE_LOCATION="../"
+'!include ../library.puml
+
+left to right direction
+
+include('styles/gcp')
+include('elements/materials/Hardware/MaterialsLaptop')
+include('elements/materials/Hardware/MaterialsPhoneAndroid')
+include('elements/gcp/Networking/GcpCloudDns')
+include('elements/gcp/Networking/GcpCloudLoadBalancing')
+include('elements/gcp/Compute/GcpComputeEngine')
+include('elements/materials/Device/MaterialsStorage')
+include('groups/gcp/GcpGroupProjectZone')
+include('groups/gcp/GcpGroupInstances')
+
+MaterialsLaptop('laptop', '')
+MaterialsPhoneAndroid('phone', '')
+GcpCloudDns('dns')
+GcpGroupProjectZone('project') {
+  GcpCloudLoadBalancing('lb')
+  GcpGroupInstances('grp_instances', 'Instance Group') {
+    GcpComputeEngineCard('instances','Serving Instances', 'Multiple Instances')
+  }
+  GcpGroupInstances('grp_heartbeat', 'Instance Group') {
+    GcpComputeEngineCard('heartbeat', 'Heartbeat and Snapshot System', 'Multiple Instances')
+  }
+  MaterialsStorage('storage', 'Persistent Disk Snapshot')
+}
+
+laptop --> dns
+phone --> dns
+dns --> lb
+lb --> instances
+heartbeat <-> instances
+instances --> storage
+
+@enduml

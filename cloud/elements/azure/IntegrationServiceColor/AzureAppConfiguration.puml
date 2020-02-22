@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAppConfigurationLg [20x20/16z] {
+JOy70iCW3CJm3V__oJK7BLL7OY4orfUY9BmHA6YmUHMKUKnturG9t57jE2h5nRNTplg1bxqGervcARj_QcAJ7jvEyIBoPiyPzU-KXRMEz9wS5TH-jnd10SC9
+5ssjGixhT6gxbIbPthUh9WGljNP7jEj4G5mfBpaKiIwak08gXmy
+}
+
+!function AzureAppConfiguration($id, $name="App Configuration", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureAppConfiguration', $name, $tech)
+!endfunction
+!function AzureAppConfigurationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAppConfigurationLg>', 'App Configuration', $funcName, $content)
+!endfunction
+@enduml

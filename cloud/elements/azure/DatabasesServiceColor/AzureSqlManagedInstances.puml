@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSqlManagedInstancesLg [15x20/16z] {
+PS-50SCW443HSxpilsqFhUH7NnG0WEFDd1fJdgKO1tDfVLONymzZBglqn_-7_p_r_56QBzPQysIEogovzpPfXAFmAeFY0W_DtqLlQivbOfkSGyB8J8HsIEG6
+a4aM4cL189W-gm2CcpkpDm
+}
+
+!function AzureSqlManagedInstances($id, $name="Sql Managed Instances", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlManagedInstances', $name, $tech)
+!endfunction
+!function AzureSqlManagedInstancesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSqlManagedInstancesLg>', 'Sql Managed Instances', $funcName, $content)
+!endfunction
+@enduml

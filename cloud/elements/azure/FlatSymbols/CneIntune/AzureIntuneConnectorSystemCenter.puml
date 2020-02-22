@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneConnectorSystemCenterLg [27x20/16z] {
+RO-5OSD0301VJFllMpqqYU7CFk7uW28qNf78J7qpd9LzAWl3rO2tEJXUp4ewbCDNQEG5FWBLiowcT1kEkeaw5I4ghuJvhiXvfL9SLQsLv8sG34zlHRSSLGqL
+2oOOLlMZt39e5-C1TYtdjgTJw0SI4OVJ0bMNSXu721qBoRKKhRgeAXgPpg82Ocu8v6wjo4mr6Z6ppi3CMAa7QCO6Gybzl48maFhv1m
+}
+
+!function AzureIntuneConnectorSystemCenter($id, $name="Intune Connector System Center", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter', $name, $tech)
+!endfunction
+!function AzureIntuneConnectorSystemCenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneConnectorSystemCenterLg>', 'Intune Connector System Center', $funcName, $content)
+!endfunction
+@enduml

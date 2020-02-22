@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMoreHorizLg [20x20/16z] OnW2W8K5GS24-FbP40HsCKozGm
+
+!function MaterialsMoreHoriz($id, $name="More Horiz", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsMoreHoriz', $name, $tech)
+!endfunction
+!function MaterialsMoreHorizCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMoreHorizLg>', 'More Horiz', $funcName, $content)
+!endfunction
+@enduml

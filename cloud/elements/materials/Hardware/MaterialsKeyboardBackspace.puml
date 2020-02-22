@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsKeyboardBackspaceLg [20x20/16z] Ow0RO6Hbn13Yu6R256B64EB15EBduK00PgnY2Bq4xK2u1TFDz0K
+
+!function MaterialsKeyboardBackspace($id, $name="Keyboard Backspace", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsKeyboardBackspace', $name, $tech)
+!endfunction
+!function MaterialsKeyboardBackspaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKeyboardBackspaceLg>', 'Keyboard Backspace', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFindReplaceLg [20x20/16z] {
+fOw50GCn24M3nu3zfwsxz-v5yLzM0oJ2i7klBce-kWz6WujhL090zTdEFcZryCMP5nyv7Lmjufg7fsV79o7IUvV3p_JYoxHJOxxnAHma3RZuJ6TNhTxzKejG
+K5ip1esByyeR9pyx6ShFR04
+}
+
+!function MaterialsFindReplace($id, $name="Find Replace", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFindReplace', $name, $tech)
+!endfunction
+!function MaterialsFindReplaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFindReplaceLg>', 'Find Replace', $funcName, $content)
+!endfunction
+@enduml

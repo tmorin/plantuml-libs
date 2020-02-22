@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGeneralStorageLg [20x20/16z] {
+TSxL0O1030DGd2Jj_klYdD_xh6Q2SiOPOaPc5DRCjj65lDIlPQMtHaIycIl_UNFjyszviL53KblgsfBKk3yGoANlPUJ2TjiZ_PaPsLTZNMDUW-u76KwGp5ES
+Jm
+}
+
+!function AzureGeneralStorage($id, $name="General Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureGeneralStorage', $name, $tech)
+!endfunction
+!function AzureGeneralStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGeneralStorageLg>', 'General Storage', $funcName, $content)
+!endfunction
+@enduml

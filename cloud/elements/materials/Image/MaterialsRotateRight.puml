@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRotateRightLg [20x20/16z] {
+fOu35aKn44EJ3i-hzh_QRnkfRmV1AodlMSGjeIxJUKMizZ6dNQBeNdBcPPnr1MABH8zXrRSVt6xr42kz73DAbKFgGXn5F6UtkSSUnvJAivTZYkAehUTDeXqI
+ZpcLh5LnASecaVXVQm
+}
+
+!function MaterialsRotateRight($id, $name="Rotate Right", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsRotateRight', $name, $tech)
+!endfunction
+!function MaterialsRotateRightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRotateRightLg>', 'Rotate Right', $funcName, $content)
+!endfunction
+@enduml

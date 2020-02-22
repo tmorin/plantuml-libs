@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotCartLg [20x20/16z] {
+TT05OW0n4090M1Rk_p_knQhfn5tm7r7r4eM3aVjbXLZiZ91P60DDV9aD9UN2aGYW3AKMmY8W1toyXB60QWDxSHdk6cM0RWmjnAUFnX3klXvjnmFMMZbZrQCg
+2uZtNS34xQJsNPBPr-g4wyvhVt9dvkKFBdzr_zEx3m
+}
+
+!function AwsIotCart($id, $name="Iot Cart", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotCart', $name, $tech)
+!endfunction
+!function AwsIotCartCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotCartLg>', 'Iot Cart', $funcName, $content)
+!endfunction
+@enduml

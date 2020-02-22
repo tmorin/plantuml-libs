@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsContentCutLg [20x20/16z] {
+TT055iCm30DGLmlw5Uv_se4MXd9_K9RD0KmIhYjaFOmvlg-WBwFXJuXF_1fE8s9EP8AqbebZZT4JBGd2UPw_Fv-92dQ19rNMcAMr68djMDNly2O7rsYMPOvs
+BvizBx8nnrW3vXXhrTPqVtm
+}
+
+!function MaterialsContentCut($id, $name="Content Cut", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsContentCut', $name, $tech)
+!endfunction
+!function MaterialsContentCutCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsContentCutLg>', 'Content Cut', $funcName, $content)
+!endfunction
+@enduml

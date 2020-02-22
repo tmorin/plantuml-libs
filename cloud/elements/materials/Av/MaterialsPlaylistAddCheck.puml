@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPlaylistAddCheckLg [20x20/16z] lSg53KDH3CNGv3x6_RTjFpFJ4LkcBy0rlEmQAzqGj8Nr_8DlgVgX6RQw72jTYh98CHKYsAWofIBrdyuAvJMYK-XIHyyJCUYsFm
+
+!function MaterialsPlaylistAddCheck($id, $name="Playlist Add Check", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPlaylistAddCheck', $name, $tech)
+!endfunction
+!function MaterialsPlaylistAddCheckCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlaylistAddCheckLg>', 'Playlist Add Check', $funcName, $content)
+!endfunction
+@enduml

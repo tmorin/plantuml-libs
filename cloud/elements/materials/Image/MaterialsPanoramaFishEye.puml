@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPanoramaFishEyeLg [20x20/16z] {
+VL055eKm3FkLIVRQ-n_t6mw1-Qf9NWz3LELeS4Hcm3Up8fkRUKleOXgmwMKOar60DKNG_szFsofR-k_gRT-kzLzu-DxcyKtMANLBLcPZkRG7noBzY9bpunfi
+MdKNekdz-
+}
+
+!function MaterialsPanoramaFishEye($id, $name="Panorama Fish Eye", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPanoramaFishEye', $name, $tech)
+!endfunction
+!function MaterialsPanoramaFishEyeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPanoramaFishEyeLg>', 'Panorama Fish Eye', $funcName, $content)
+!endfunction
+@enduml

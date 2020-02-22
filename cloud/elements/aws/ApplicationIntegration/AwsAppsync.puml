@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAppsyncLg [20x20/16z] {
+hL350GC13Ae40ko_R_LSNYtF29O_m9BN4n4ak1gXdTYhaHCf2Kh3Z9suol4TmwtXSQPn9YHfifDGmumnoovwcXdgAg1AcNxhBhRTj9XX1cJwo0mxiLQZD4XG
+9ntyY2S
+}
+
+!function AwsAppsync($id, $name="Appsync", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsAppsync', $name, $tech)
+!endfunction
+!function AwsAppsyncCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAppsyncLg>', 'Appsync', $funcName, $content)
+!endfunction
+@enduml

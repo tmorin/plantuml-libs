@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDataUsageLg [20x20/16z] {
+VP050i0W24K760nn__wdNNVPFfhcPz2ypY2e4Pc60tCBE943oXioU9AcaUIm1PB2P96AGMVp01_H2XrXkXNfY9QWasc174nGHcEkpWTZh_p6tcplCIZfEPTp
+rUUSsqpdsfZNsbQeGEVU0ShdNfLQozgh0pFJNyy7
+}
+
+!function MaterialsDataUsage($id, $name="Data Usage", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsDataUsage', $name, $tech)
+!endfunction
+!function MaterialsDataUsageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDataUsageLg>', 'Data Usage', $funcName, $content)
+!endfunction
+@enduml

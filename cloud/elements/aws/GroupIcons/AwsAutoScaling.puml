@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsAutoScalingLg [20x20/16z] dP033W1134MJyj__mckEfo-eYLdSSnTHvZGHon9L4VEvxNFD7rjLXMmRGxAfNlRbjV5Tyjlo7vH-DSiA
+
+!function AwsAutoScaling($id, $name="Auto Scaling", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsAutoScaling', $name, $tech)
+!endfunction
+!function AwsAutoScalingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAutoScalingLg>', 'Auto Scaling', $funcName, $content)
+!endfunction
+@enduml

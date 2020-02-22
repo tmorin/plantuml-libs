@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureIntuneEmailProfilesLg [20x20/16z] {
+ZSg53GH134DHXvnS_mKl3ubkdiZwiZ46Ecvq7OnlKq1UW8mMVEZSzBNxat-_Phl1rsRUQ6jI_1Hx-_atShGg2W2lyTEKA5EcEXbsKqt0iW9mgZ_iRX31tV2H
+2dybqGGREm4
+}
+
+!function AzureIntuneEmailProfiles($id, $name="Intune Email Profiles", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneEmailProfiles', $name, $tech)
+!endfunction
+!function AzureIntuneEmailProfilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureIntuneEmailProfilesLg>', 'Intune Email Profiles', $funcName, $content)
+!endfunction
+@enduml

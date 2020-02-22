@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTranscribeLg [20x20/16z] {
+fSv50iGW44JHaIxZ_lUDAwkHlqeUZRHlorH7nfnlHYL1-MwYoHlAbbc5GooA961k4b8J2c3BPcGIBu-9jZ6e2Y0oVsSnizvBlXWch49TB4XinmI1jfddawXb
+PRks013SVe-dR0F_Dm8
+}
+
+!function AwsTranscribe($id, $name="Transcribe", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsTranscribe', $name, $tech)
+!endfunction
+!function AwsTranscribeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTranscribeLg>', 'Transcribe', $funcName, $content)
+!endfunction
+@enduml

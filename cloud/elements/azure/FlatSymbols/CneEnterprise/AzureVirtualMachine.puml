@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualMachineLg [22x20/16z] {
+RSt50G0n24HHYCim_NUxxjb_V0dGE6QDgAMK-WfabQ7wqE16zTMGzAE-hrVoMpN6zM_qBtLeCSQ2z55QwkIWpFYgnBwe5NTgaItDgGIHMuT-LHT56m8hjenh
+XhqgkkMnQjCzEUlavuOFiTYgo37uysOtuv5PruLc
+}
+
+!function AzureVirtualMachine($id, $name="Virtual Machine", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureVirtualMachine', $name, $tech)
+!endfunction
+!function AzureVirtualMachineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualMachineLg>', 'Virtual Machine', $funcName, $content)
+!endfunction
+@enduml

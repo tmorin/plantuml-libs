@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPlusOneLg [20x20/16z] jG-34G0nh4Qu_xHlyzJOC0t1kX2kiKoQ3wuRXVSb7q8q1Kq-nlWUy-pFiGY0YW3n4FCfPSaf-STv_x4wnr8wlcKQGWy
+
+!function MaterialsPlusOne($id, $name="Plus One", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPlusOne', $name, $tech)
+!endfunction
+!function MaterialsPlusOneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlusOneLg>', 'Plus One', $funcName, $content)
+!endfunction
+@enduml

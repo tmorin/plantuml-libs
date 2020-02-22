@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEndUserComputingLg [20x20/16z] {
+RT350SKm40FH3zR8q7-zIKpXERxTapwlVMzLmZLwKjZm5rDiZTEmXXxjXbe1MzCKJRN0OKJHddGoDWsEC2odX6mXGsoMSav42BeOWMfOXqMW-SbosW8R8jCg
+nqR3oi1MjrpAMPlvD01zb-_lrcOlhG
+}
+
+!function AwsEndUserComputing($id, $name="End User Computing", $tech="")
+  CloudElement($id, 'aws/EndUserComputing/AwsEndUserComputing', $name, $tech)
+!endfunction
+!function AwsEndUserComputingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEndUserComputingLg>', 'End User Computing', $funcName, $content)
+!endfunction
+@enduml

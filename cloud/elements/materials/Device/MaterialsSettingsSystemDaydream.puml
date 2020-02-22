@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSettingsSystemDaydreamLg [20x20/16z] ZT2r0GGn34HHZSpSVxN7i6Q_y2S2EWNP0C6cK4aMY0eL5HzDKaLU6dFRO58og9gmvK5TcypbAMhycoqVPj3ilx7FBr7-6u5VKEzNxzpVDlh1w5UdxW
+
+!function MaterialsSettingsSystemDaydream($id, $name="Settings System Daydream", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSettingsSystemDaydream', $name, $tech)
+!endfunction
+!function MaterialsSettingsSystemDaydreamCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsSystemDaydreamLg>', 'Settings System Daydream', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpRecommendationsAiLg [22x20/16z] {
+RP050iKm24Df4-JV_y9_P2wPzk5Oo-kGsoxMHTpWo2lDOMVyCyVCtQkrVAPSDn1Z4JPdj9a0t6nWjWjiXBwHv7IVJIi6IpIBDC94YoaA4DujOQkhZvEUUjKM
+gpS9JXBxV7xavIyf61f2FO38WEZSTaEGqHLLP5_EUproVgzon8UhLd4AjelHoXO5_W
+}
+
+!function GcpRecommendationsAi($id, $name="Recommendations Ai", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpRecommendationsAi', $name, $tech)
+!endfunction
+!function GcpRecommendationsAiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpRecommendationsAiLg>', 'Recommendations Ai', $funcName, $content)
+!endfunction
+@enduml

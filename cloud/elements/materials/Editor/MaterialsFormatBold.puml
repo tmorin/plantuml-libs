@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatBoldLg [20x20/16z] jOy53iKm242BrI1m_zD-YzIYVzkhuf2k0l835vt65-DL9qJPEymwny_T0XS_0Y1JM7JQkpcVDLoE6jo3zXf98Yz-301bqvcgXUAag-rBeMMu7-aXtW
+
+!function MaterialsFormatBold($id, $name="Format Bold", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatBold', $name, $tech)
+!endfunction
+!function MaterialsFormatBoldCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatBoldLg>', 'Format Bold', $funcName, $content)
+!endfunction
+@enduml

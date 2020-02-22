@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsShoppingBasketLg [20x20/16z] {
+ZSm3WWKn44NHcqBKslzgPxxQF35USIM4_LNEkqllEcTDMxDMrycI89MmIbO1gMDQpSpROY-bzTUiX3fir43UtcNmxwuhfVlk7EIxZH2_Zy9OK477Sf3M_n8l
+jgvdl4WxBBG2OtYK-0Xg4mqyzmy
+}
+
+!function MaterialsShoppingBasket($id, $name="Shopping Basket", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsShoppingBasket', $name, $tech)
+!endfunction
+!function MaterialsShoppingBasketCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsShoppingBasketLg>', 'Shopping Basket', $funcName, $content)
+!endfunction
+@enduml

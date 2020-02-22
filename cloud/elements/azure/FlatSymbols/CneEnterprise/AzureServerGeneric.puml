@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureServerGenericLg [10x20/16z] u-A10Y033hYvm82RXuU36GmuW69Gm4D3WB03OIyN1nXm8SIGt8S
+
+!function AzureServerGeneric($id, $name="Server Generic", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerGeneric', $name, $tech)
+!endfunction
+!function AzureServerGenericCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureServerGenericLg>', 'Server Generic', $funcName, $content)
+!endfunction
+@enduml

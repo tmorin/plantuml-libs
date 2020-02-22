@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhoneBluetoothSpeakerLg [20x20/16z] {
+ZOw50KGn3493GrtOVzfpr_-gSUmlAPnVEEcd3v7osUcI6eu_nfHuymtO4Ove9yAKbZ_xq2NnkTQoLF0ymtXqFMinj6nlSFgxC_VmvaEjHoVemCqPQdT3qHhj
+tWPvvg8Zj3jiUlCPcFkIt9v1S8TjPWy
+}
+
+!function MaterialsPhoneBluetoothSpeaker($id, $name="Phone Bluetooth Speaker", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPhoneBluetoothSpeaker', $name, $tech)
+!endfunction
+!function MaterialsPhoneBluetoothSpeakerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhoneBluetoothSpeakerLg>', 'Phone Bluetooth Speaker', $funcName, $content)
+!endfunction
+@enduml

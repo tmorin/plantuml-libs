@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsOpsworksAppsLg [20x20/16z] OsJ108miR6WYO046DC12j1WpCxeOCpCJfhrCHDex9CMm-GrRs0C
+
+!function AwsOpsworksApps($id, $name="Opsworks Apps", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksApps', $name, $tech)
+!endfunction
+!function AwsOpsworksAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOpsworksAppsLg>', 'Opsworks Apps', $funcName, $content)
+!endfunction
+@enduml

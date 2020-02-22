@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSnowFamilySnowballImportExportLg [20x20/16z] {
+ZT25OGGn30H0BUdIVyKnFFEO6UfNq8CgjfFOJhngIKMprbG2TnA5xGRWzj04b31E3PuuAZprmKR14w3TvuY6XbWoHHLPI6eWsIvbwp_lwd60r4ZpP1Imvwtz
+sWmpj6JlSxbkCOtwllCj9OpSkQMGxTnoylnNh9_z0m
+}
+
+!function AwsSnowFamilySnowballImportExport($id, $name="Snow Family Snowball Import Export", $tech="")
+  CloudElement($id, 'aws/Storage/AwsSnowFamilySnowballImportExport', $name, $tech)
+!endfunction
+!function AwsSnowFamilySnowballImportExportCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSnowFamilySnowballImportExportLg>', 'Snow Family Snowball Import Export', $funcName, $content)
+!endfunction
+@enduml

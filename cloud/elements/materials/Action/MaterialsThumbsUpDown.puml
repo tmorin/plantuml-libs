@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsThumbsUpDownLg [20x20/16z] {
+RT455iGW30JGmI798_S_xMfnflwB0y14WoqcLtkGYZb8osOVKiaffJ1CM-XY-MB-D3A0Yzy4rom0bl-l8lydMo2q_ox4RnnWg1bwl9wMBqON2ocbB6tq8wPy
+o6mc1y7MdTesl04
+}
+
+!function MaterialsThumbsUpDown($id, $name="Thumbs Up Down", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsThumbsUpDown', $name, $tech)
+!endfunction
+!function MaterialsThumbsUpDownCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsThumbsUpDownLg>', 'Thumbs Up Down', $funcName, $content)
+!endfunction
+@enduml

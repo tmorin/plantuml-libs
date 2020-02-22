@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalGroceryStoreLg [20x20/16z] {
+TP253GL124HnEE-_sYzavMnVZE0py0OHtbEuxF58agwk9p2pSPpOE7DopdbPEVNKIf2S6wsaJeqBGSLgJlkFiNYY_LCf3vonLQNGYZmlXTNEFYGdFoWiOxIW
+qokSEqu_opfJzi-hz7rb3HAC-08
+}
+
+!function MaterialsLocalGroceryStore($id, $name="Local Grocery Store", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalGroceryStore', $name, $tech)
+!endfunction
+!function MaterialsLocalGroceryStoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalGroceryStoreLg>', 'Local Grocery Store', $funcName, $content)
+!endfunction
+@enduml

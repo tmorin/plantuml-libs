@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpDebuggerLg [20x20/16z] {
+RP250KCn24JHE_PVkC8dL5yyEDBe88jXCHabr89HZNeZBZNM6sp5dDU8yXdWUGy74luKqqGwW3jxTfW904Ays786gw69-hdF2LUn4-mIWkK2ObBCtnYRInBU
+SjkSb_nRssyFVderQjjJFjYU_lJ-3W
+}
+
+!function GcpDebugger($id, $name="Debugger", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpDebugger', $name, $tech)
+!endfunction
+!function GcpDebuggerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpDebuggerLg>', 'Debugger', $funcName, $content)
+!endfunction
+@enduml

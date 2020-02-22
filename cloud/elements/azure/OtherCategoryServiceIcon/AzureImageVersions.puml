@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureImageVersionsLg [21x20/16z] {
+TSy50i0W34DHsYJ8_Iyyshdz-Pj1rQNg9HCkwS1wIS69n1uXNF7WAv9yuXGFlI9XypJuG73zfr5N163n8755Iy43f-8VtP584ZwHCwaEsJvEAhO-efgOIcYC
+tjgeTfaxUvFWB4KwKViqYobmJokMUgqbBW
+}
+
+!function AzureImageVersions($id, $name="Image Versions", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureImageVersions', $name, $tech)
+!endfunction
+!function AzureImageVersionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureImageVersionsLg>', 'Image Versions', $funcName, $content)
+!endfunction
+@enduml

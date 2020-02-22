@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureExpressrouteCircuitsLg [33x20/16z] {
+VP5NWaCX3CJ0PQZtF-zwDft4Jx-IgUK3TRYM70MvA3ZlyDHNG8e0zI8miOj06qZJpC_Lm_SrDVFBgrHRKIJU2c5XkMSnMUJ-NkJ-B7Ykkp-ACFVtRvF-A6OB
+e_Gil9vu0mdlea0V9psaE1lZ7yozFjcJVsA0H-ZuZV-l3sBb6wFW_pkGV0xdony
+}
+
+!function AzureExpressrouteCircuits($id, $name="Expressroute Circuits", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureExpressrouteCircuits', $name, $tech)
+!endfunction
+!function AzureExpressrouteCircuitsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureExpressrouteCircuitsLg>', 'Expressroute Circuits', $funcName, $content)
+!endfunction
+@enduml

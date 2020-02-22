@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGroupLg [20x20/16z] {
+jOY70GCX3CJkw63dlV-sUVe2YIYoXNyGSYJ0cCDDZra6ijbpuhkOaF8gxHRVfG3rLToDMQe3N9LC77Xq4xcyGonDf2O7f5PYpq5iyadWEqi0cnqyolitEhqj
+8B-_EkQBH-mYVimN
+}
+
+!function MaterialsGroup($id, $name="Group", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsGroup', $name, $tech)
+!endfunction
+!function MaterialsGroupCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGroupLg>', 'Group', $funcName, $content)
+!endfunction
+@enduml

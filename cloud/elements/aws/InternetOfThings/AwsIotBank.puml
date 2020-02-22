@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotBankLg [20x20/16z] {
+TP07UWL1288Ln7ttFt5iwGbR-EOVfgYrOF1IcNr8Bf0eirFegITpB0wn1Omj56VACKQPGGyBH4ePAFO8vYAay9wGGFdaf2RzIPrpYCYAPmSIBEHCMjJRspAi
+XX_CC_s3GSlYYM52dt4vRUxkueaz5-bt5-2b6Ea5L6vg0yZzZBeUu4DK_DUhtptzg_Tl
+}
+
+!function AwsIotBank($id, $name="Iot Bank", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotBank', $name, $tech)
+!endfunction
+!function AwsIotBankCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotBankLg>', 'Iot Bank', $funcName, $content)
+!endfunction
+@enduml

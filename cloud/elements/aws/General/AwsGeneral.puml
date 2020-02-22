@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGeneralLg [20x20/16z] {
+XT250SCm34JHc4NUVzrUML8XF_p2FhvMQgY0gcY82antY9sfPZCcOlDcGcBxkdeRpVl5avpn_JfsndP_dh4tB3ZE9fAC3GRY-2qeV0kKvsGx_RSy1iIX1Iir
+1VlI1G
+}
+
+!function AwsGeneral($id, $name="General", $tech="")
+  CloudElement($id, 'aws/General/AwsGeneral', $name, $tech)
+!endfunction
+!function AwsGeneralCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGeneralLg>', 'General', $funcName, $content)
+!endfunction
+@enduml

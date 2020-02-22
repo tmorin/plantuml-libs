@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureVirtualClusters element
+include('elements/azure/DatabasesServiceColor/AzureVirtualClusters')
+AzureVirtualClusters('element', 'Virtual Clusters', 'an optional tech field')
+@enduml

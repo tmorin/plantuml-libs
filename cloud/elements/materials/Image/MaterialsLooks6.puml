@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLooks6Lg [20x20/16z] ZP053W1120EHNjQN_x_st7rY16_fFu8TCgMoxSXZ4dO0Mouuv-8nvtY8ZZcG0kwSSwNQESUiyPgZvfnpxkQ64gw_iBl-74vtDt3lmTMh_tG
+
+!function MaterialsLooks6($id, $name="Looks6", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsLooks6', $name, $tech)
+!endfunction
+!function MaterialsLooks6Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLooks6Lg>', 'Looks6', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsMysqlInstanceLg [20x20/16z] {
+POi7aWH13C8QC6Rk_ny-RvgeZbQLc0UCrWqbQs7MtFDyVkCGHM2BtVBF9HxAad_EPKNibs--tU8Y6X8gb3vkW3uFrgSzW7kmpox6K3avR2P1_vrTgeVQBWxl
+zzfsITNNLcLRURROBcrSvLnRgaf8T7A5eSBiD9t1_0S
+}
+
+!function AwsRdsMysqlInstance($id, $name="Rds Mysql Instance", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsMysqlInstance', $name, $tech)
+!endfunction
+!function AwsRdsMysqlInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsMysqlInstanceLg>', 'Rds Mysql Instance', $funcName, $content)
+!endfunction
+@enduml

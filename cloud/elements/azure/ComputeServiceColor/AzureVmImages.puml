@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmImagesLg [22x20/16z] {
+RSq7GWKn30DHEz88xdzYqe3VPglVbiZlOPiF6IGv2IIn989HTIkusqJTfQCmhMRJuMgJFqtehHQnh2hP17bfPkuXpxGdCB2qMqXBrsuyEEgj3F-jfgFchePA
+1e-pbbLRNLLAc2MQWvVkSZi3zYPkzydGwSmwZRhfUwPwoKlzA6F8NpjhZ8iD-GjwqWy
+}
+
+!function AzureVmImages($id, $name="Vm Images", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureVmImages', $name, $tech)
+!endfunction
+!function AzureVmImagesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmImagesLg>', 'Vm Images', $funcName, $content)
+!endfunction
+@enduml

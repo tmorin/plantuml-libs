@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFastRewindLg [20x20/16z] lKwr0G1123jtoFxJllzLgN67E4EA_d4Xxeglywd5MVRGmBfglWZoDvG5TorsuAk5XejMo0kyndVP3uQ5OhQX4m
+
+!function MaterialsFastRewind($id, $name="Fast Rewind", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFastRewind', $name, $tech)
+!endfunction
+!function MaterialsFastRewindCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFastRewindLg>', 'Fast Rewind', $funcName, $content)
+!endfunction
+@enduml

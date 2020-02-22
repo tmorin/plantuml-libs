@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRedshiftLg [20x20/16z] {
+RSq50eCm44JHIcPjxd_VJjdWVFmHAPN78g8UiBeJDeL1MJGkvF1GUkmsh2TXx8RPoR8o8innCkLVd2mz_pkriKrZR7XCOzjm74m8KLNKRYpDYrA9hCsYzmhe
+raPDJQL7gJQ6OGnOr19dTOWFo0Vy0G
+}
+
+!function AwsRedshift($id, $name="Redshift", $tech="")
+  CloudElement($id, 'aws/Database/AwsRedshift', $name, $tech)
+!endfunction
+!function AwsRedshiftCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRedshiftLg>', 'Redshift', $funcName, $content)
+!endfunction
+@enduml

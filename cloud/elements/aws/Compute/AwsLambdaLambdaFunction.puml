@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsLambdaLambdaFunctionLg [20x20/16z] {
+RL050WCn22Es_pzv7AnpJXeYjTe29QBUYhObstnIZWYiTYWnTgQL7rJXGi6JPFyGysdXVaK6OnmFLeLKqXf13tLJ2bcEAphsCKep8l3JA4rsF6QFauLhT0Dk
+uDcdsPxPPIC45w8Hzjiew7VswwjsnO7dmC_IysBCvpr-tscEzkVkxm
+}
+
+!function AwsLambdaLambdaFunction($id, $name="Lambda Lambda Function", $tech="")
+  CloudElement($id, 'aws/Compute/AwsLambdaLambdaFunction', $name, $tech)
+!endfunction
+!function AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsLambdaLambdaFunctionLg>', 'Lambda Lambda Function', $funcName, $content)
+!endfunction
+@enduml

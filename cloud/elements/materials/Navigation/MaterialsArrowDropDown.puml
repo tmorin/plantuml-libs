@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsArrowDropDownLg [20x20/16z] OnWIW9aD39YHnHWv-860Wv41JH0XX11422446GUbJm4
+
+!function MaterialsArrowDropDown($id, $name="Arrow Drop Down", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsArrowDropDown', $name, $tech)
+!endfunction
+!function MaterialsArrowDropDownCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsArrowDropDownLg>', 'Arrow Drop Down', $funcName, $content)
+!endfunction
+@enduml

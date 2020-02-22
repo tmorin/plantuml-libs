@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsKinesisVideoStreamsLg [20x20/16z] {
+TSq50WCX44FH2faam_tlMxp-rzyYFkdqruuUenrwnRGXWtx1p1IiWykI405gQoDPG0HwmMa4nK6b5AovvlWQ6lQsXlVIe-qrLqJqW6Px3yA0h6L9ID4i2hO9
+5jGCeMsXVaAapMLifvCOiLdDatTru6dPDpu
+}
+
+!function AwsKinesisVideoStreams($id, $name="Kinesis Video Streams", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsKinesisVideoStreams', $name, $tech)
+!endfunction
+!function AwsKinesisVideoStreamsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsKinesisVideoStreamsLg>', 'Kinesis Video Streams', $funcName, $content)
+!endfunction
+@enduml

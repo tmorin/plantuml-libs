@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGpsNotFixedLg [20x20/16z] {
+RP254GHH24ENy0Njlznplp36F3GvdY5o_CNUlqJW3laYCxggOyeRMIy5TBN92wNUCyqdd7L13rZptXRhlNd5hH6jRwQDIzVsmfkXV0jZP9RS8B-mduasvW7t
+YdlAl3y3
+}
+
+!function MaterialsGpsNotFixed($id, $name="Gps Not Fixed", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsGpsNotFixed', $name, $tech)
+!endfunction
+!function MaterialsGpsNotFixedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGpsNotFixedLg>', 'Gps Not Fixed', $funcName, $content)
+!endfunction
+@enduml

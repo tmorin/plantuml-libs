@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsThinkboxDeadlineLg [20x20/16z] {
+RSY53SD000GmzV3tdxXXjjXTvAOVsJtjvqM0RnTJKkJpfab5Gl5sPje0blppTev4kWAf_KfECLLqdXs2Kg-dgUBjHiTqXA2GaJhT6ARWcfJEG-o0QKEtypKr
+H3UQgnsBk9RdEQyZWDBjjcocEM_BdlUHVm
+}
+
+!function AwsThinkboxDeadline($id, $name="Thinkbox Deadline", $tech="")
+  CloudElement($id, 'aws/Compute/AwsThinkboxDeadline', $name, $tech)
+!endfunction
+!function AwsThinkboxDeadlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsThinkboxDeadlineLg>', 'Thinkbox Deadline', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNetworkLockedLg [20x20/16z] {
+XSu54eKW50NGrpJiVxS_bPpnAdL8U0xoJjvsQhfJjqxTEdNhzB6PYcDSgCg-qGEQoKHDGEdp3vJVW20qK7D0mTHRfyypzDCa_D1i6O5DVp6-ROpMKcgS3UaJ
+EEK5
+}
+
+!function MaterialsNetworkLocked($id, $name="Network Locked", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsNetworkLocked', $name, $tech)
+!endfunction
+!function MaterialsNetworkLockedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNetworkLockedLg>', 'Network Locked', $funcName, $content)
+!endfunction
+@enduml

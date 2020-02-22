@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilterFramesLg [20x20/16z] {
+lSYr5SDG5C3G3uyXtd_RcBcsAfrRjW2sEoW27eJW1tOa8iVHVHpi8pLtDOCo1chgtaRBNaxrdAsLjZNkPZhyvWOzszh7nhh6XnrjXkqKJbObBqaj8xPB8xtr
+1m
+}
+
+!function MaterialsFilterFrames($id, $name="Filter Frames", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterFrames', $name, $tech)
+!endfunction
+!function MaterialsFilterFramesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterFramesLg>', 'Filter Frames', $funcName, $content)
+!endfunction
+@enduml

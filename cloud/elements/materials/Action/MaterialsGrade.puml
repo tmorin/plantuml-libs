@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGradeLg [20x20/16z] {
+bOrL0WGX34EN6axkVzhr6UoBe7sLF4v5j3FlzxASjq85T44k0j7rBXQrq80MJ4NempXZKEPVOUmeNKOKBXHeSW2-BbqN6n2L7olK6GF5h03ScI7Grye69hzN
+1kRwvqGl
+}
+
+!function MaterialsGrade($id, $name="Grade", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsGrade', $name, $tech)
+!endfunction
+!function MaterialsGradeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGradeLg>', 'Grade', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSwapHorizLg [20x20/16z] Ow0fOC8Yniw2p6Da0W9cJbvaGLO-NY3Wu-TcnAqEOJGRN8Y53KEIXPUJ6QGJsIHkVeZvh10-fZg4ULYzH5C
+
+!function MaterialsSwapHoriz($id, $name="Swap Horiz", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSwapHoriz', $name, $tech)
+!endfunction
+!function MaterialsSwapHorizCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSwapHorizLg>', 'Swap Horiz', $funcName, $content)
+!endfunction
+@enduml

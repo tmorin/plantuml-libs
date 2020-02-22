@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSystemsManagerDocumentsLg [20x20/16z] {
+VSz50eKm34NH94zW_nl6eVbwPptrYE8HecLHMyncIlY8tSYa91BDK1FtPdKx1xQwvLOufMQm6RPdlUtDAdZO_NBelyLLjRsulj8jpvgzxpK-hP9yioqOtQvg
+ufKUIpuXOWK
+}
+
+!function AwsSystemsManagerDocuments($id, $name="Systems Manager Documents", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerDocuments', $name, $tech)
+!endfunction
+!function AwsSystemsManagerDocumentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSystemsManagerDocumentsLg>', 'Systems Manager Documents', $funcName, $content)
+!endfunction
+@enduml

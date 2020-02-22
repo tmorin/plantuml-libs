@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDiskLg [20x20/16z] {
+RP050iGm20HnzlylldBrPkCP7Dc7HMQOF8OtAhFGVXBjy-tTUg2yBNA7ExhXNt_NDjlDni_kAz2Da5t7i2FVnWvXKMC8h-voZ7b5vcJSutKx9kjCnfWjYq5o
+OJcJsjOUG5clU4zPxty
+}
+
+!function AwsDisk($id, $name="Disk", $tech="")
+  CloudElement($id, 'aws/General/AwsDisk', $name, $tech)
+!endfunction
+!function AwsDiskCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDiskLg>', 'Disk', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCodedeployLg [20x20/16z] {
+fOsr0SKm44ER4th_VJy6sppZaTJdc3FqEHC8Uc_ab4hPzywHH9O_EQzWrqgbH6esJGmvsy4_ftRO4gsmkzPUwtqCzuzDIk_ZT6EzCtfdq1CK39gNd4bHjrpU
+EpZd17xfOru
+}
+
+!function AwsCodedeploy($id, $name="Codedeploy", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCodedeploy', $name, $tech)
+!endfunction
+!function AwsCodedeployCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodedeployLg>', 'Codedeploy', $funcName, $content)
+!endfunction
+@enduml

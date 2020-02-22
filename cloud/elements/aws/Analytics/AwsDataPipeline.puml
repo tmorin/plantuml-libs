@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDataPipelineLg [20x20/16z] {
+hOr50WCn30CFyJYM___VeihStGcQf5u3wI5JKCuQGGJeRQwoMZDpgcTM7o07IGJ9I9nZH0H4nC2v5AK3XT9zeiqXvpwrThGkVHMOc1u91dc0YmUK0S-s_Fgx
+Y2q
+}
+
+!function AwsDataPipeline($id, $name="Data Pipeline", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsDataPipeline', $name, $tech)
+!endfunction
+!function AwsDataPipelineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDataPipelineLg>', 'Data Pipeline', $funcName, $content)
+!endfunction
+@enduml

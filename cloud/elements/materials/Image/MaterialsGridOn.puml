@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsGridOnLg [20x20/16z] Oy0A69bG02D8Y8CN1N001PbuMPcOM9489g0OKGGElNmWa_dX11_JqBG3CwomXIbM
+
+!function MaterialsGridOn($id, $name="Grid On", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsGridOn', $name, $tech)
+!endfunction
+!function MaterialsGridOnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGridOnLg>', 'Grid On', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLibraryBooksLg [20x20/16z] {
+TSt50KGn24LH86xGVxLZaVV7xl8a0FrD42-AGqzvOR7UPjs6l8YB1PwvhW-JBFHbusdZpCAIduKEypIJ1glvKKefwuTLU_Gnwu_XHhfQDZIMkO82JKFCzB8W
+QBtaWGelb4lqhpi
+}
+
+!function MaterialsLibraryBooks($id, $name="Library Books", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsLibraryBooks', $name, $tech)
+!endfunction
+!function MaterialsLibraryBooksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLibraryBooksLg>', 'Library Books', $funcName, $content)
+!endfunction
+@enduml

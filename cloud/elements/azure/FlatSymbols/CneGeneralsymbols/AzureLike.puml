@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLikeLg [21x20/16z] {
+RSrLWWKm24DHg4kI_UzsvhdH-tbQm3xBs6w_DR4675BxDTy7h1JBZnL8FuTIkvZwbymhYSslNySOtUlM8sAlMIKXRts56-BRHaHMYwXvGFQ8A1QHzOGbuivc
+1c2bjlX4f0kcIsPUnYP5Ole5_m4
+}
+
+!function AzureLike($id, $name="Like", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureLike', $name, $tech)
+!endfunction
+!function AzureLikeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLikeLg>', 'Like', $funcName, $content)
+!endfunction
+@enduml

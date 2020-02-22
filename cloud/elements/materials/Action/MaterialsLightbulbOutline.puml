@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLightbulbOutlineLg [20x20/16z] {
+VL030eKX6Aiju_x7VVmp5ZvJN201EMbCJ2cQNWiVDQcZH_DoVm7ULKzcDkQ1yONpfd3M5SxPcr-VxrPN80GyVmFpL_T45iTijRQvk9MC7xHijrKjosBwW9FZ
+rqzSy0O
+}
+
+!function MaterialsLightbulbOutline($id, $name="Lightbulb Outline", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLightbulbOutline', $name, $tech)
+!endfunction
+!function MaterialsLightbulbOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLightbulbOutlineLg>', 'Lightbulb Outline', $funcName, $content)
+!endfunction
+@enduml

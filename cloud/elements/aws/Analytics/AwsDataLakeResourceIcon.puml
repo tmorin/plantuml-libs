@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDataLakeResourceIconLg [20x20/16z] {
+TP07beKm30CjsJBvzpymwSdMUTG1LpEuig6WBQ1KECd-PTaCEp0nxWLsaO_R9trPK6MwPrJGAEDQRlpHG7_0SPr0g1yIed2vl9JCSB99Gkr0EnumGgB3PT6E
+i7ZiT-ns4C_n4OSRiHuzraiFad1ZrMD1qY2VWHIRkpZ_tTNTQPoT_hNx2W
+}
+
+!function AwsDataLakeResourceIcon($id, $name="Data Lake Resource Icon", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsDataLakeResourceIcon', $name, $tech)
+!endfunction
+!function AwsDataLakeResourceIconCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDataLakeResourceIconLg>', 'Data Lake Resource Icon', $funcName, $content)
+!endfunction
+@enduml

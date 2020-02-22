@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFormatShapesLg [20x20/16z] {
+RP056e0m28LvB63nwVrlwvjTlwve4AWgP6D_eFRUi-naFYhGBTOQTtYpJbaKczlER1A7h5ftnOfwjqgPrSdJ20zkoQTglCIkGio4A4EHs30UfGmLsasMo5lc
+glwI1PROmbEMFINF3ncAZZGuPQm55568hPQpPhBN_DFRxmn-P_Ktqx_PBm
+}
+
+!function MaterialsFormatShapes($id, $name="Format Shapes", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatShapes', $name, $tech)
+!endfunction
+!function MaterialsFormatShapesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatShapesLg>', 'Format Shapes', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSimpleQueueServiceSqsMessageLg [20x20/16z] hL050iGm30gIk___U9sxhzue0DU3eiHw6WB_nVHprhQKOPHdHeIig2-oFj7QCX61R5n37Eiu4lNv8iv7VLtRB8vn6xPppFuOyvPMsvgkjJSg
+
+!function AwsSimpleQueueServiceSqsMessage($id, $name="Simple Queue Service Sqs Message", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleQueueServiceSqsMessage', $name, $tech)
+!endfunction
+!function AwsSimpleQueueServiceSqsMessageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSimpleQueueServiceSqsMessageLg>', 'Simple Queue Service Sqs Message', $funcName, $content)
+!endfunction
+@enduml

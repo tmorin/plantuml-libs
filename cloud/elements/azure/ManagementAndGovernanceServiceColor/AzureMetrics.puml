@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMetricsLg [21x20/16z] {
+pKvL4aD12CC9lVzzdopKvRjP8HEPWHeCo51D7sPLEZIhcZW2CJOwAPbC36rRnbkMWebYQUez3qJgMJbGTGPO3aEhOcpOeNc4aDmtOBgAfAVc0CnCHsp4PI5-
+YUBk_2fgPig_YZi
+}
+
+!function AzureMetrics($id, $name="Metrics", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureMetrics', $name, $tech)
+!endfunction
+!function AzureMetricsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMetricsLg>', 'Metrics', $funcName, $content)
+!endfunction
+@enduml

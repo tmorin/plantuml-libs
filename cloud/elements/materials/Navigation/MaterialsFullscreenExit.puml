@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFullscreenExitLg [20x20/16z] Ow09O69d0XCeOhnC408XmiGA4MDbWekoy_52n7ZvsE7gW01EamWGUWdPWN0Bffkn-eqc
+
+!function MaterialsFullscreenExit($id, $name="Fullscreen Exit", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsFullscreenExit', $name, $tech)
+!endfunction
+!function MaterialsFullscreenExitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFullscreenExitLg>', 'Fullscreen Exit', $funcName, $content)
+!endfunction
+@enduml

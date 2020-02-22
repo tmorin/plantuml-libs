@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDatalabLg [20x20/16z] {
+PP050eL0448t2Ez_uHyxsDZu9jjIZzgXeKEZ1T9sI46nlkprG64keXvU88EXKl1V8F_3RVwLIG41-rj32X9WG3WUHEJLyOIDK_6cYvSuPtcpMY7chuEnGAKN
+pN4C-NlRGQGmCrjqpfOM8xnt5UpOgUrZfw_TVm4
+}
+
+!function GcpCloudDatalab($id, $name="Cloud Datalab", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudDatalab', $name, $tech)
+!endfunction
+!function GcpCloudDatalabCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDatalabLg>', 'Cloud Datalab', $funcName, $content)
+!endfunction
+@enduml

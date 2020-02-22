@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWidgetsLg [20x20/16z] {
+hT054eKm30JGHhu0bVlVbcomZE6BxJoiRJeAqL8K4MlS_sVKXcGoQWqO30GCfbrh2oxs6IRhWv5a9_PtCsAtWI24F5OaTw1eH5_5DRnBlHUDuwFivNsBQoLU
+A9tE2
+}
+
+!function MaterialsWidgets($id, $name="Widgets", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsWidgets', $name, $tech)
+!endfunction
+!function MaterialsWidgetsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWidgetsLg>', 'Widgets', $funcName, $content)
+!endfunction
+@enduml

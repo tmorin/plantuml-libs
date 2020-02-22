@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsGroundStationLg [20x20/16z] bP253GGm30Eb9Z5r_ts_mcSwST1s_cJlfv99FvHOQnNlQrE7oJtgraD5hA9kgsxq73etpu4XJv6y-rjTnBJlVipmuO_1wNOUQq2-r-RmK0ifwZchdJ-v
+
+!function AwsGroundStation($id, $name="Ground Station", $tech="")
+  CloudElement($id, 'aws/Satellite/AwsGroundStation', $name, $tech)
+!endfunction
+!function AwsGroundStationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGroundStationLg>', 'Ground Station', $funcName, $content)
+!endfunction
+@enduml

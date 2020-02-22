@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpellcheckLg [20x20/16z] {
+bSw54SGW40NG5M1r9lrN6pVEBq4Vye6_FkOdGazwj99P7qrRTUo9WZ0URgm68FAGK9ShknGUJDM6BaL2LSLjJK5fIq8MM3jUQPqTpr2PgUqRbikHrY8hxLyD
+XWS2rE2BBjI57l2Y2na-V1C
+}
+
+!function MaterialsSpellcheck($id, $name="Spellcheck", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSpellcheck', $name, $tech)
+!endfunction
+!function MaterialsSpellcheckCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpellcheckLg>', 'Spellcheck', $funcName, $content)
+!endfunction
+@enduml

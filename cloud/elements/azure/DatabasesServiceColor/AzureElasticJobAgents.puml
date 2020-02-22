@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureElasticJobAgentsLg [17x20/16z] {
+LOy50W8n30IpblB_5yFYD_L9QbC0ai1ya8i8u1ss4rCarVYwKn33gT7jdBCXP_oiEWzkImuYVCIfUF0dJ69WVCMAaZ0_iUcw8c-nCIi0zTfiY9xGWt88hdka
+GZU3OZDC9noGC8WP9h7PW_pvTiUF-4Eoz2_W67Crd_KT
+}
+
+!function AzureElasticJobAgents($id, $name="Elastic Job Agents", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureElasticJobAgents', $name, $tech)
+!endfunction
+!function AzureElasticJobAgentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureElasticJobAgentsLg>', 'Elastic Job Agents', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMoveToInboxLg [20x20/16z] {
+ZT1N0iCW38FXuiZkKgBxtxOHTE-V_Jso-R_0NJ68F5uZEu9JkpOHtOvjtGq-ZdUMP3vRIVLas4jxF5hOui6Cfdipcgus9n2TWPo7QQryAzzkHhG6FfgMms7H
+rOAwY_7kh_xl1
+}
+
+!function MaterialsMoveToInbox($id, $name="Move To Inbox", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsMoveToInbox', $name, $tech)
+!endfunction
+!function MaterialsMoveToInboxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMoveToInboxLg>', 'Move To Inbox', $funcName, $content)
+!endfunction
+@enduml

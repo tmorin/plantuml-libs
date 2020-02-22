@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAppRegistrationsLg [19x20/16z] {
+dSr55WCn30DGI-RU_y1L8I_x-OCnlgJolcdsE5GIVjymIt7UDvwCtzbLQALYfMkw9ynS2BsoVn8Z6RE9w4zLESwi3bA50V24fj911Tnlg2e1bxEnIqWNG0pm
+6xB3ynSYp0v4aYTm431v0m
+}
+
+!function AzureAppRegistrations($id, $name="App Registrations", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAppRegistrations', $name, $tech)
+!endfunction
+!function AzureAppRegistrationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAppRegistrationsLg>', 'App Registrations', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAiPlatformLg [20x20/16z] {
+RP055e1024IblV-9XHbRnrZYxoCMI7OjfpHFwHwIN4_bZlfwanEhUwm0nfXX4KPh2WoMQYtD0RiC2aHeXm9sia28Q8T5Oa0luEh3kIfS_4nbQeWQIXk2JiwB
+BGP1SpTYUVJ2kwYhzvwTrkzi_pkuTdLXrqwhYZlzs_q6
+}
+
+!function GcpAiPlatform($id, $name="Ai Platform", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAiPlatform', $name, $tech)
+!endfunction
+!function GcpAiPlatformCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAiPlatformLg>', 'Ai Platform', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsZoomOutMap element
+include('elements/materials/Maps/MaterialsZoomOutMap')
+MaterialsZoomOutMap('element', 'Zoom Out Map', 'an optional tech field')
+@enduml

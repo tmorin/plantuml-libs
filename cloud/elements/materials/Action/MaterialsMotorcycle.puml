@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMotorcycleLg [20x20/16z] {
+jSf5eWD120JGmg47Ukv_sw_nRV9s9VWKomX-wV8enZEkIqcY5t6M400zzfnNim-5T31P_pLjpD5IHI2Exs9o301LRGTYvhjIQS4ttoi0qU-BW5lnBPQD0hmI
+tt8ne6FaKzd5-CRLMUC4Y8SHVf652zxk2m
+}
+
+!function MaterialsMotorcycle($id, $name="Motorcycle", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsMotorcycle', $name, $tech)
+!endfunction
+!function MaterialsMotorcycleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMotorcycleLg>', 'Motorcycle', $funcName, $content)
+!endfunction
+@enduml

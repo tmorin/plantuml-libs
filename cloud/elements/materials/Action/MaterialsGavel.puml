@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGavelLg [20x20/16z] {
+VSw55SGW00DGt7dPVzeJtDDY7oMlS4Ktyj0hIc11HebQa7kTKVPL7aXe-ZggaL0qufAiXt4FjM0QhKZr3GMX2wP7B2XJhsBF2-tFH0rFHrlsgrt8YJgjp2Up
+adxE5m
+}
+
+!function MaterialsGavel($id, $name="Gavel", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsGavel', $name, $tech)
+!endfunction
+!function MaterialsGavelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGavelLg>', 'Gavel', $funcName, $content)
+!endfunction
+@enduml

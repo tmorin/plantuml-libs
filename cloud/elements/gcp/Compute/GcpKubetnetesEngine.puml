@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpKubetnetesEngineLg [20x20/16z] {
+RP050e1G24EfiN__2niVR6S_HygKjkIKvIbhf3bEPLjZt1Hbuvrn6b7l4VKFUm7k1Bu9yzL4Sdzw463u3hCAP0piIM8QWiNecpZPOBCKCybcbSBWPWwRp0LT
+WpnhdBq0NftQJy-_i_tluBahwdEd97kdFxjV0G
+}
+
+!function GcpKubetnetesEngine($id, $name="Kubetnetes Engine", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpKubetnetesEngine', $name, $tech)
+!endfunction
+!function GcpKubetnetesEngineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpKubetnetesEngineLg>', 'Kubetnetes Engine', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSimCardAlertLg [20x20/16z] dP254G1120FFFT1_jU_kVpl6u8buG4riKgOGEYZhJOedx3QrvjRKFgVx59p39cVxk4XPgdDQdt8Cy347Qp_TfH1ebrjvokbCc5YzKXl43Iq
+
+!function MaterialsSimCardAlert($id, $name="Sim Card Alert", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsSimCardAlert', $name, $tech)
+!endfunction
+!function MaterialsSimCardAlertCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSimCardAlertLg>', 'Sim Card Alert', $funcName, $content)
+!endfunction
+@enduml

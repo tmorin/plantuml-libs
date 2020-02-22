@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRadioButtonCheckedLg [20x20/16z] {
+VP053W9134Mf9FNC_M_B24xXxuwzr2z_18Zm3jYoAesV6As4YLZAy8xSwDp8_40mWtNipNIxSqqhb0Z1QLcycCf4CQPYGj5bdZnlOqkcLqvddAxWXpbCP-nO
+vzlcw6i1VQ-vxwsVmNDMoj3CzBUk
+}
+
+!function MaterialsRadioButtonChecked($id, $name="Radio Button Checked", $tech="")
+  CloudElement($id, 'materials/Toggle/MaterialsRadioButtonChecked', $name, $tech)
+!endfunction
+!function MaterialsRadioButtonCheckedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRadioButtonCheckedLg>', 'Radio Button Checked', $funcName, $content)
+!endfunction
+@enduml

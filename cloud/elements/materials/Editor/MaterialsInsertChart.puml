@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsInsertChartLg [20x20/16z] ZT150iGm243Hk0FtF-rClOtdBzy6OUi9zKcSbEXJEb1HbdeDdSFIaX0fDw34UMvUcieiKpqBBbQcc9sR4Bb5w_UTlOsFPQds3-fVhVS7
+
+!function MaterialsInsertChart($id, $name="Insert Chart", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsInsertChart', $name, $tech)
+!endfunction
+!function MaterialsInsertChartCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInsertChartLg>', 'Insert Chart', $funcName, $content)
+!endfunction
+@enduml

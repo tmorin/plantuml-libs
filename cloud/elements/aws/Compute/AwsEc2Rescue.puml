@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2RescueLg [20x20/16z] {
+RP3L0S1G30B9uzX_vBetV5rSfE6NXYHu-q03RJ9u9uPtgjYf3UtTvqHA_F11hRw2osSqKfKXVFXgjGF9M73pEQkqQ8FDXQLYzL6IwNnzRJz3Chk_XFkT-zkw
+7tI_wdxQ_Nu6
+}
+
+!function AwsEc2Rescue($id, $name="Ec2 Rescue", $tech="")
+  CloudElement($id, 'aws/Compute/AwsEc2Rescue', $name, $tech)
+!endfunction
+!function AwsEc2RescueCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2RescueLg>', 'Ec2 Rescue', $funcName, $content)
+!endfunction
+@enduml

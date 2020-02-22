@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsEc2HighMemoryInstance element
+include('elements/aws/Compute/Instance/AwsEc2HighMemoryInstance')
+AwsEc2HighMemoryInstance('element', 'Ec2 High Memory Instance', 'an optional tech field')
+@enduml

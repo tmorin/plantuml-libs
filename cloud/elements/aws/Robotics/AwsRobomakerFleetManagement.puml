@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRobomakerFleetManagementLg [20x20/16z] {
+PO-5WSL024G7Hg3_XhzjSlfMSS0BHdXJAdmG4QRA1ST7Ho9AGGNFfQj2gy-lZwgJ-pVtBvJX_kZ6uQaPGdIrTqJxoeSAdV5aZf84PEsiCZDCWpE558iZJtNJ
+xshLOQED2a3bzBUxcKtUU-VkJArKJtSSG4BbxPnYWA9FNTFEEzoHUG_8JsyPAxXGwDaDcS8DO-tfufjITl0FDGvF
+}
+
+!function AwsRobomakerFleetManagement($id, $name="Robomaker Fleet Management", $tech="")
+  CloudElement($id, 'aws/Robotics/AwsRobomakerFleetManagement', $name, $tech)
+!endfunction
+!function AwsRobomakerFleetManagementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRobomakerFleetManagementLg>', 'Robomaker Fleet Management', $funcName, $content)
+!endfunction
+@enduml

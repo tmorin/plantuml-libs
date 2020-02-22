@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSendgridAccountsLg [20x20/16z] lSYt0G0X300nmDdxx_lXAYQmIYsSG3Ocxa3pveX61YOk4G4zQAJZB4pS2m
+
+!function AzureSendgridAccounts($id, $name="Sendgrid Accounts", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureSendgridAccounts', $name, $tech)
+!endfunction
+!function AzureSendgridAccountsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSendgridAccountsLg>', 'Sendgrid Accounts', $funcName, $content)
+!endfunction
+@enduml

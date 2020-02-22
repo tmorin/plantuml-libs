@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePipelinesLg [20x20/16z] {
+NS-70S0W20H04MdkFt1uqRHFzQoqEwnMqPi8LBbDC494NyQWmJmqZLOw-eKp6EyhjJWiEsEbp33NZjcEgi7kONVq9jL3Z855suGQAORTf5mrYTna_IvLDeNJ
+iIu2yPYnZFDDdH9ZpcsZLb38pmno6nDXUg6NPHXxEymQSW4
+}
+
+!function AzurePipelines($id, $name="Pipelines", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzurePipelines', $name, $tech)
+!endfunction
+!function AzurePipelinesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePipelinesLg>', 'Pipelines', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsContentPasteLg [20x20/16z] rT255S0W30JGv1wk-q-BKr-W7tUXHNWlwCG0X3V6YrRXqGKNOqmHQ5cC3cDL42BaR4pElIRcJim-3xrsz2azg4iV7VxS5mGEhN7yrS7X-DC3qxSA
+
+!function MaterialsContentPaste($id, $name="Content Paste", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsContentPaste', $name, $tech)
+!endfunction
+!function MaterialsContentPasteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsContentPasteLg>', 'Content Paste', $funcName, $content)
+!endfunction
+@enduml

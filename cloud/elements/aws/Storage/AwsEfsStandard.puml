@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsEfsStandardLg [20x20/16z] fOw3bGG044CFyuF-2rxRo7FSRn7baZ7oXZmgne1Ym3ik_fza_lvK_xFZX6O43DfnDfKgbuGT9seNbNZ7LG02ZV1nc3_MCphxE9kPd75KxdEkOa0zHo3z7ai
+
+!function AwsEfsStandard($id, $name="Efs Standard", $tech="")
+  CloudElement($id, 'aws/Storage/AwsEfsStandard', $name, $tech)
+!endfunction
+!function AwsEfsStandardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEfsStandardLg>', 'Efs Standard', $funcName, $content)
+!endfunction
+@enduml

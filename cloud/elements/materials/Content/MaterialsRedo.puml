@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsRedoLg [20x20/16z] nOk50G0X30Efuzb_sbUOWKCRIMSXPgRl9_mhx7K2BUIHwgzPHyqH5SErpKzpLAMtBmKJdsOex_EYmATnQrkIjZIfjgMAEUTu4vGM_9EESGC
+
+!function MaterialsRedo($id, $name="Redo", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsRedo', $name, $tech)
+!endfunction
+!function MaterialsRedoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRedoLg>', 'Redo', $funcName, $content)
+!endfunction
+@enduml

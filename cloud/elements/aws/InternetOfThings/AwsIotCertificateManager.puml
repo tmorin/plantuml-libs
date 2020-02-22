@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotCertificateManagerLg [20x20/16z] {
+LSw5iS0m30DGoOBkF_67OlAEV6PSA5l4Weubn_nI5KugtzJWDa_I1eWlFjkezkxbrJYPYbF78NBMvBI6uhYsxjnn6CgV9hfcTSvg_jopwAXvR-2aVBz4Js3S
+73oIkJO77xSvFrh8dA6rvq12tdDgxJrtcFInvQYpCZZz0W
+}
+
+!function AwsIotCertificateManager($id, $name="Iot Certificate Manager", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotCertificateManager', $name, $tech)
+!endfunction
+!function AwsIotCertificateManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotCertificateManagerLg>', 'Iot Certificate Manager', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBugReportLg [20x20/16z] {
+bP05WiGm24KBn9F2_M-xSTdnNyt3kNuIm7WlMGSPERipIjvQd-XaahKnG0fI5GXxIiqimlTTtgoxNtPZZQWvEy88ziAKaxBuWNJCKJ64c6DZZoMJgrfZRAvi
+w7KicHnbjSv-SVZfqDiJ3a7F3RZ6tBu5iAaKg6G9YV3wKNy
+}
+
+!function MaterialsBugReport($id, $name="Bug Report", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsBugReport', $name, $tech)
+!endfunction
+!function MaterialsBugReportCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBugReportLg>', 'Bug Report', $funcName, $content)
+!endfunction
+@enduml

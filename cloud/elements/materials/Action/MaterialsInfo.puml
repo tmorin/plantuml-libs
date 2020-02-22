@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsInfoLg [20x20/16z] {
+VP252i0m34GNWth__sidgKFOOU4Hkxj-18Xm0dOnv-XuONIro-50eKw51a6xYdD5EtMSjI4192tuOsrP5ibjvJSQQuCDrVWEOswpH6qsus80YxNPnjfikx4p
+j_s2s7-nVZQy6HbOMTcPsde
+}
+
+!function MaterialsInfo($id, $name="Info", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsInfo', $name, $tech)
+!endfunction
+!function MaterialsInfoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInfoLg>', 'Info', $funcName, $content)
+!endfunction
+@enduml

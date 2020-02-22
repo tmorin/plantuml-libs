@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureSubscriptionPortalLg [20x20/16z] nOkt0SDG509vEUs_htzfPNM23kwm2-4Gg-GzLJEveqHxSgDxbsZfTfefeTsqgiV9lftqE85Y3jCQTnF2G8ATwNYJ7m
+
+!function AzureSubscriptionPortal($id, $name="Subscription Portal", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureSubscriptionPortal', $name, $tech)
+!endfunction
+!function AzureSubscriptionPortalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSubscriptionPortalLg>', 'Subscription Portal', $funcName, $content)
+!endfunction
+@enduml

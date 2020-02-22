@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpCloudTranslationApi element
+include('elements/gcp/AiAndMachineLearning/GcpCloudTranslationApi')
+GcpCloudTranslationApi('element', 'Cloud Translation Api', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualDatacenterLg [20x20/16z] {
+bOxN5OCm301HBuRzruqbvudyvgW-rUiBCZD1_Gt43Ou0ADN0LBtGLFq0apNqeFg85ZAfzVB8pB39F6uzpsqi8YEjyvGsKznvsOAmzi5okMx3hiLU1wZSSkvQ
+vQk0KwkgPcvud7b4M3jxtUP_ruWsumOW4JEb_Vi1
+}
+
+!function AzureVirtualDatacenter($id, $name="Virtual Datacenter", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureVirtualDatacenter', $name, $tech)
+!endfunction
+!function AzureVirtualDatacenterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualDatacenterLg>', 'Virtual Datacenter', $funcName, $content)
+!endfunction
+@enduml

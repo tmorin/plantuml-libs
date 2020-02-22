@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmExternalLg [22x20/16z] {
+PSw74GGX241HaJpNVx-tcD4_qMT2zCcyuQEkAYmjPXbPqnO14BUsKYrVbR9YQM5ImZWCH4aHAY4I8MMDln1VHRgL7XsJXOPjRVx5INDDrUxSMStlJ0hqglr-
+LiUYh49B2bZ4ugOmR6LVSOC_
+}
+
+!function AzureVmExternal($id, $name="Vm External", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmExternal', $name, $tech)
+!endfunction
+!function AzureVmExternalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmExternalLg>', 'Vm External', $funcName, $content)
+!endfunction
+@enduml

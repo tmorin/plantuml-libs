@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderColorLg [20x20/16z] hSYt0SCm30J01vZZxx-jsJ5LbdJbOQN9uI29pPuNoARhQ3GZawoLM8qutOiZSHQJVb5o5znTS7V1rHAFWWnuGb_u0G
+
+!function MaterialsBorderColor($id, $name="Border Color", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderColor', $name, $tech)
+!endfunction
+!function MaterialsBorderColorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderColorLg>', 'Border Color', $funcName, $content)
+!endfunction
+@enduml

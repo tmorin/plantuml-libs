@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUnhealthyLg [24x20/16z] {
+POu53aKn2C0wtu3xd_Tdmd_M66adG1fgqYABM4Mr9o2hJQHCNSGccebYXmRDPubpz72VzolgjtpGaqCz3uT7a4XTsjVGOLUuj8rg7YW9rrQ2NE7I4YW-9YZk
+2z1Tv-IX0woNP3h_LoAJ95lxdlF54zhIA_IfFOnnVjGn4XTns654xeI-TGyysVyMlgJ7qpy
+}
+
+!function AzureUnhealthy($id, $name="Unhealthy", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUnhealthy', $name, $tech)
+!endfunction
+!function AzureUnhealthyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUnhealthyLg>', 'Unhealthy', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMachineLearningStudioWebServicePlansLg [20x20/16z] {
+JOw73O0m30JpZVr79cyXYuEqaziPA5_4ir14Jt2j15nHUQHFZIXepYHMB6YwSV0pDszY5nhNqSJEmMYQ6te67SMd-1wEcA3hvuWwimQmyJchPXmD1t0aQB0E
+605CRqEBnhWu_pd31YXQXHZCvSawXSmpy7muhYgRZ9h1c_i2
+}
+
+!function AzureMachineLearningStudioWebServicePlans($id, $name="Machine Learning Studio Web Service Plans", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureMachineLearningStudioWebServicePlans', $name, $tech)
+!endfunction
+!function AzureMachineLearningStudioWebServicePlansCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMachineLearningStudioWebServicePlansLg>', 'Machine Learning Studio Web Service Plans', $funcName, $content)
+!endfunction
+@enduml

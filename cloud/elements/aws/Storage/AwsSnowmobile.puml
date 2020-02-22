@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsSnowmobileLg [20x20/16z] hP2p0G0134MBVEJs7_XiwpKnYn-mv5nwA5lapAlUyEGqTxI1kiATAmMrWBQ6aNq5nK6rwMmMeKKEjO40f8YWXbL4DBrCqZkxxEryTjlqW-zK
+
+!function AwsSnowmobile($id, $name="Snowmobile", $tech="")
+  CloudElement($id, 'aws/Storage/AwsSnowmobile', $name, $tech)
+!endfunction
+!function AwsSnowmobileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSnowmobileLg>', 'Snowmobile', $funcName, $content)
+!endfunction
+@enduml

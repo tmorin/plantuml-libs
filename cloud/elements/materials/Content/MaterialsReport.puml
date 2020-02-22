@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsReportLg [20x20/16z] dL1L0aGX25pYsShzJxjXnvSx9WtpkW9m1imgAnaMDrLMmgnAngJiENa5n30yMR8E8Ek4_z0H7Je9GGu_vketUh7Gtj5Wr3gEde_PJWvEhgxm0G
+
+!function MaterialsReport($id, $name="Report", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsReport', $name, $tech)
+!endfunction
+!function MaterialsReportCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsReportLg>', 'Report', $funcName, $content)
+!endfunction
+@enduml

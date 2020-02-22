@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMonitorLg [20x20/16z] {
+NP25WS0W40HNIVyT_uLxdmZiuE0YPx3m3STu-6MLY1YerAlYYQH5S2LV9NjY1UJzEOGIqurCDXC5KY90-WIkRZTXoJbY4uFNaVFPHFhjplESbrotd5N7wqWC
+n98warOkR1JzTQxWu3Tizco_IBbtG61XwlztrL4BtMQOl_2D9l-O3m
+}
+
+!function AzureMonitor($id, $name="Monitor", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureMonitor', $name, $tech)
+!endfunction
+!function AzureMonitorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMonitorLg>', 'Monitor', $funcName, $content)
+!endfunction
+@enduml

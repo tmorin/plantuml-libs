@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSagemakerLg [20x20/16z] {
+fP17OaG1249JX0VU_xx9zBRzBbNg7fwYHFHbbN6aM7ckf2niFNdid1XMlx-ttULiuoRsZLBEEFMeYwwxKGMg9rGzhwfOmkpou-jk1MI6tJ9wQ629Td6VNbXc
+fdxwKmY6l0QPuPdjiuF3ymy
+}
+
+!function AwsSagemaker($id, $name="Sagemaker", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsSagemaker', $name, $tech)
+!endfunction
+!function AwsSagemakerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSagemakerLg>', 'Sagemaker', $funcName, $content)
+!endfunction
+@enduml

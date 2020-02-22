@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGestureLg [20x20/16z] {
+bP150iGm24Nv9CKYtF-smxYj-jeO3dG2RlYHG5RQZv1dHBOVmyRw9ojBHnt0MmJBNWg9eIzfJwq0aHLMdp9VJ3pM0TZYHxHb1C-ZRfOcV9EbLaGfoSwYKu6O
+KM94cgSyMcen12HvG3U_Ya6j2DphV0EVuXNiYpvpoV_4cCvn0G
+}
+
+!function MaterialsGesture($id, $name="Gesture", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsGesture', $name, $tech)
+!endfunction
+!function MaterialsGestureCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGestureLg>', 'Gesture', $funcName, $content)
+!endfunction
+@enduml

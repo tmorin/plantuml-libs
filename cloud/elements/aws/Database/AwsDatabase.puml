@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDatabaseLg [20x20/16z] {
+RT370GGX34FHJKYosVxh7U79uHyVcTTZxqkc3xN4ghrjaPcn90cR2Ouwcg084KTZeqm_Z-n6aHGswyDgqnP7Qo21W_KkPJYibZREvxQZQJd3njtIsN8tuwYk
+LVRlewmsCrQxKMlRNxq_bsmFJG
+}
+
+!function AwsDatabase($id, $name="Database", $tech="")
+  CloudElement($id, 'aws/Database/AwsDatabase', $name, $tech)
+!endfunction
+!function AwsDatabaseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDatabaseLg>', 'Database', $funcName, $content)
+!endfunction
+@enduml

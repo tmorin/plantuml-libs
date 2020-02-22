@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAcUnitLg [20x20/16z] {
+VP053aH124EB13gMkVzfrtt9Vt6qBOvG_Iq0cS1dsOQ3X0_32udffC-GrvG0iIu48FT97G4WzhvEnRZVlEr8QzVITDpnTIcIa5ZtaYQvTkESR7inKwjQlVlx
+ezHIQlxrLcLGPbLdMdC6
+}
+
+!function MaterialsAcUnit($id, $name="Ac Unit", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsAcUnit', $name, $tech)
+!endfunction
+!function MaterialsAcUnitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAcUnitLg>', 'Ac Unit', $funcName, $content)
+!endfunction
+@enduml

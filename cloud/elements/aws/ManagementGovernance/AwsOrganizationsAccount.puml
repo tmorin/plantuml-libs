@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOrganizationsAccountLg [20x20/16z] {
+XS-50G0X30F0L9B-_Wk_kt6uKopCSMCQ1IwKWDTbQt2h3vaOkTxsDU-hAbMb7LCfXuqvTKmHAm_w-b_RfiWK3K3ajhzYgnbOL2LWx0YGCNCvHMKG2CuoP8Wo
+E76GmOJR7Cq4LmA758iAN1YF-Eu6
+}
+
+!function AwsOrganizationsAccount($id, $name="Organizations Account", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOrganizationsAccount', $name, $tech)
+!endfunction
+!function AwsOrganizationsAccountCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOrganizationsAccountLg>', 'Organizations Account', $funcName, $content)
+!endfunction
+@enduml

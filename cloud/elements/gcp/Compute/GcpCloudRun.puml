@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudRunLg [20x20/16z] {
+RP050eH024Nfx_qlx0J8kF5sLRfemmKr4esKYUDgeaBjUc4PXhSDEz2ND2cZhmPOWa6z0cURoDAXQXaQb0B4tKDZouPgfn2LZC2nzLZGpbtxf8ayUqofUvnP
+dWtbcNd_D_v_j_ytw5jrsBaf9dtJdziF
+}
+
+!function GcpCloudRun($id, $name="Cloud Run", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpCloudRun', $name, $tech)
+!endfunction
+!function GcpCloudRunCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudRunLg>', 'Cloud Run', $funcName, $content)
+!endfunction
+@enduml

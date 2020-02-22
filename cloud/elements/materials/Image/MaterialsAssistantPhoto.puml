@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAssistantPhotoLg [20x20/16z] jSX50W0X241Hk-F-frLWCztZDtdiOyfeoCYvsKevlhNi8RKqIe-oQ8pHRcaMRv5BAGj3nFZ25jqsATchEW
+
+!function MaterialsAssistantPhoto($id, $name="Assistant Photo", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsAssistantPhoto', $name, $tech)
+!endfunction
+!function MaterialsAssistantPhotoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAssistantPhotoLg>', 'Assistant Photo', $funcName, $content)
+!endfunction
+@enduml

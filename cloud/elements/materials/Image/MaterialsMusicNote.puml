@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMusicNoteLg [20x20/16z] fSYt0SD02030pqzc_sbjgOH6wSehZ_KnHaz7xexrnl7UgwGByV5ghVa6CjgCPNw81txlrbdQmjLjBhCalRVos1y
+
+!function MaterialsMusicNote($id, $name="Music Note", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsMusicNote', $name, $tech)
+!endfunction
+!function MaterialsMusicNoteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMusicNoteLg>', 'Music Note', $funcName, $content)
+!endfunction
+@enduml

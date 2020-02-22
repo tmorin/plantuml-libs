@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVolumeDownLg [20x20/16z] hL350G0n2AjxOVzfpptyhdaYCJK66aVEuwXx63L-pQnpll4oy_QQHTxWLIWQPfwjFCDVKGEze6SSUhc3_vW1
+
+!function MaterialsVolumeDown($id, $name="Volume Down", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVolumeDown', $name, $tech)
+!endfunction
+!function MaterialsVolumeDownCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVolumeDownLg>', 'Volume Down', $funcName, $content)
+!endfunction
+@enduml

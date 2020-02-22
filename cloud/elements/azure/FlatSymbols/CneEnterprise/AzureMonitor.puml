@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureMonitorLg [22x20/16z] tSx50O0m343HUYD__tLnXmbujtYK3uBr5uCUNlg_in9V1F25BNm1LHRAp6LLmoeQ4mbtoPbel6HARSP2MotfUEIqhXa1
+
+!function AzureMonitor($id, $name="Monitor", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMonitor', $name, $tech)
+!endfunction
+!function AzureMonitorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMonitorLg>', 'Monitor', $funcName, $content)
+!endfunction
+@enduml

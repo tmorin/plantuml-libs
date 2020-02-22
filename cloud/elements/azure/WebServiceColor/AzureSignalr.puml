@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSignalrLg [20x20/16z] {
+PP255SCm44CRqVuZznaKLD3_-7vJa1CBuxyaMowbSyfSQFwVV41ue6UurXS4g67N3rVc1a4BLSDbzRKrqezpxk9A_sKtHr-nAZgk6cZOhPScHRSJJLDZ3tS0
+ve9g4le6UUsqi6fsr-SF
+}
+
+!function AzureSignalr($id, $name="Signalr", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureSignalr', $name, $tech)
+!endfunction
+!function AzureSignalrCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSignalrLg>', 'Signalr', $funcName, $content)
+!endfunction
+@enduml

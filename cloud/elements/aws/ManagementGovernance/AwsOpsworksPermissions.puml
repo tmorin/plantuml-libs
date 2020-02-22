@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsworksPermissionsLg [20x20/16z] {
+bP450iKW34ERX8Rxd_ZBt0TlIbrY0YHYZvnf7KI8m5xu5_s5iG8lgWLc32IxPP0nOCq1LLqzyFjH39Go66F-NxwqUPHPogEis3hA8ZEEikNzaZVs_wgvCDSC
+Qc5Om1S
+}
+
+!function AwsOpsworksPermissions($id, $name="Opsworks Permissions", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksPermissions', $name, $tech)
+!endfunction
+!function AwsOpsworksPermissionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOpsworksPermissionsLg>', 'Opsworks Permissions', $funcName, $content)
+!endfunction
+@enduml

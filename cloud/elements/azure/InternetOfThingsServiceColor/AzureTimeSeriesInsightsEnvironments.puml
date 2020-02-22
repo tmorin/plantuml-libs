@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTimeSeriesInsightsEnvironmentsLg [20x20/16z] {
+RP27OG0n20CHmaZxJvoufjw_6nrY0hPiDH4NjgrFxEOH3NiGqthUZaXy7bf2MXcFb1dG5Y6lKAWRORperTiiBLp3pktJDkE2J3BBGoDG2xONZQ5iQzB81O9k
+5oQlXe3SwooMNn7AKmkaMstTcl_hRSqWVynWKdzdzNUc_yt-0m
+}
+
+!function AzureTimeSeriesInsightsEnvironments($id, $name="Time Series Insights Environments", $tech="")
+  CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEnvironments', $name, $tech)
+!endfunction
+!function AzureTimeSeriesInsightsEnvironmentsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTimeSeriesInsightsEnvironmentsLg>', 'Time Series Insights Environments', $funcName, $content)
+!endfunction
+@enduml

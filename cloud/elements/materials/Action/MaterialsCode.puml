@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCodeLg [20x20/16z] Ow0NO6Hb0b5Ch8m8CJPUPX35pCE69CG2OR3mi34Y2S458K9yG26u82yR3Z5ClH117Wmx46u1QyHqCxq
+
+!function MaterialsCode($id, $name="Code", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCode', $name, $tech)
+!endfunction
+!function MaterialsCodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCodeLg>', 'Code', $funcName, $content)
+!endfunction
+@enduml

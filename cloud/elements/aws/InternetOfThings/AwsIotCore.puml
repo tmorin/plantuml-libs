@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotCoreLg [20x20/16z] fKxL5SKm57foaUu_S5o_IpNOuNaFKRuPWo9qSUte04zR_vZOb3fL0XYjx5H4-NB4cwOeKAyPFeS9XyMrf0P9HQoLLaqY2ixX2bRsdgr_mQ0M-F_p8dgfd_V8
+
+!function AwsIotCore($id, $name="Iot Core", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotCore', $name, $tech)
+!endfunction
+!function AwsIotCoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotCoreLg>', 'Iot Core', $funcName, $content)
+!endfunction
+@enduml

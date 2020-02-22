@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSpaceBarLg [20x20/16z] OnXSW8aPmMPcWj1id8mm8KPEDZnYN4oCKC341HFZv-M10bv-g1WJ2n9W6cG1
+
+!function MaterialsSpaceBar($id, $name="Space Bar", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsSpaceBar', $name, $tech)
+!endfunction
+!function MaterialsSpaceBarCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpaceBarLg>', 'Space Bar', $funcName, $content)
+!endfunction
+@enduml

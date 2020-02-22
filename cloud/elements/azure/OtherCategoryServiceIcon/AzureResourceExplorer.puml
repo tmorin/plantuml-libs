@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureResourceExplorerLg [22x20/16z] {
+dSn75WGX24NHzWTq_nkkZE4uwpVp2kWDloKDNZHvL5BNYaHiNOhoTh--C0ww6bcgQckjQbMtDyzA-farPvN9g46GiuR5sxHgX47fRuNyA8cXhoDjQC5ew1g9
+idS2
+}
+
+!function AzureResourceExplorer($id, $name="Resource Explorer", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureResourceExplorer', $name, $tech)
+!endfunction
+!function AzureResourceExplorerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureResourceExplorerLg>', 'Resource Explorer', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsScreenRotationLg [20x20/16z] {
+PSs54SCm30LGCPNstxOXdPBpDpyJT33A6MuXbmr_x-2XjDpGMKgQIZO-LjTmZOr5roaObEZf80Q3sm63wY19J-I45H5XnUGLNU69vi21WpqBwUcCL3IBsMgy
+Fr72ZXlO_Vzu_t93tsZ2Le7G-GC
+}
+
+!function MaterialsScreenRotation($id, $name="Screen Rotation", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsScreenRotation', $name, $tech)
+!endfunction
+!function MaterialsScreenRotationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsScreenRotationLg>', 'Screen Rotation', $funcName, $content)
+!endfunction
+@enduml

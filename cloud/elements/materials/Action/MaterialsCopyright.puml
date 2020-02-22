@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCopyrightLg [20x20/16z] {
+VL250KGX23tgGENjF-xlBgKRVX-FcEbiq9905jtDNE0geex2gwaMcIKfTJPIALiAbPXaXOmXPZmow6WB7ntj7rEUnnYUEf1cWwgZCuTaXinaVW9-jksvjkLk
+FNpfiS_2fhJFGd6V-RxRymtsMuNI_QOVhmS
+}
+
+!function MaterialsCopyright($id, $name="Copyright", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCopyright', $name, $tech)
+!endfunction
+!function MaterialsCopyrightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCopyrightLg>', 'Copyright', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsCloudDevelopmentKit element
+include('elements/aws/DeveloperTools/AwsCloudDevelopmentKit')
+AwsCloudDevelopmentKit('element', 'Cloud Development Kit', 'an optional tech field')
+@enduml

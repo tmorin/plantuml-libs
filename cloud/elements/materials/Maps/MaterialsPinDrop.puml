@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPinDropLg [20x20/16z] {
+VOy5WWGW2005E-V_hxtRDZR6fC7yG5JbKFdIU_6RAd0ZB2exe5OOTkeYH97hFNKPxCKRyjGbkEJta9Qgq69ii5JMnescltinMW6gxdF0pBQsQ0uaPp4dgeSu
+UUNgB-8llvD_
+}
+
+!function MaterialsPinDrop($id, $name="Pin Drop", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsPinDrop', $name, $tech)
+!endfunction
+!function MaterialsPinDropCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPinDropLg>', 'Pin Drop', $funcName, $content)
+!endfunction
+@enduml

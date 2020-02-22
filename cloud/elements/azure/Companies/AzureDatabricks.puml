@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDatabricksLg [19x20/16z] {
+NP250GGW30EnIjX_tvSKF_pmfY2BIMPlYcRkRctBgXvelSIMLSrFJ2ly1RtZ4GIt4AVSmYLbGSXe9F_VpS4yugV4k6MVQSAMSdR0oViDBBXCDJPRsF-NngDv
+HhSP2--1jxHeVWcInLUWlm
+}
+
+!function AzureDatabricks($id, $name="Databricks", $tech="")
+  CloudElement($id, 'azure/Companies/AzureDatabricks', $name, $tech)
+!endfunction
+!function AzureDatabricksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDatabricksLg>', 'Databricks', $funcName, $content)
+!endfunction
+@enduml

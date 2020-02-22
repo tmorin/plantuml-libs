@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLocalMoviesLg [20x20/16z] jP235K1H34EVMUm_xRVDUrmc4TTHMaZJ88LMRSqbgOahIClakXg6o0qnu6RjO3SRrzQSoLtDCc2xYy2strMcdJEgtjskRU_EV_pWOvtLTKe
+
+!function MaterialsLocalMovies($id, $name="Local Movies", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalMovies', $name, $tech)
+!endfunction
+!function MaterialsLocalMoviesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalMoviesLg>', 'Local Movies', $funcName, $content)
+!endfunction
+@enduml

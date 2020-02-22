@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhoneInTalkLg [20x20/16z] {
+ZOi5WWL02491dGxkVzhDt_qc9V0nz0W7uCQJvf8wWRPxueKs-PlFgnv4Mz9sW82FWyWXAO1Q3JxJVx18ltQqOSZzFnZwRx1L-BB_SY_uDolP_F1VZZlAi3kD
+hTdl4qwUH6l3mQezkv-JPPMgNm9dekjE0wECBJckeRaJ7_CD
+}
+
+!function MaterialsPhoneInTalk($id, $name="Phone In Talk", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPhoneInTalk', $name, $tech)
+!endfunction
+!function MaterialsPhoneInTalkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhoneInTalkLg>', 'Phone In Talk', $funcName, $content)
+!endfunction
+@enduml

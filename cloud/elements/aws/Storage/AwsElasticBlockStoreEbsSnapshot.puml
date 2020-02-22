@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticBlockStoreEbsSnapshotLg [20x20/16z] {
+POs54G0X30GX9z1_nO-_xLWcPsaG74Iw2HCD-dxcOWvSyldnS7vH93San-q3rS7jeubeWEPwmNUpiNxLcZwvhbyuADaIsxa3etHKdHhrWqMHyklN25dL-nTx
+LdKRYRG0_zUjXjAtvQpTHuCM6pBJJGwGYEMw
+}
+
+!function AwsElasticBlockStoreEbsSnapshot($id, $name="Elastic Block Store Ebs Snapshot", $tech="")
+  CloudElement($id, 'aws/Storage/AwsElasticBlockStoreEbsSnapshot', $name, $tech)
+!endfunction
+!function AwsElasticBlockStoreEbsSnapshotCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticBlockStoreEbsSnapshotLg>', 'Elastic Block Store Ebs Snapshot', $funcName, $content)
+!endfunction
+@enduml

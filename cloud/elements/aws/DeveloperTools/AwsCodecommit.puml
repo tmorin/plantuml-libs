@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCodecommitLg [20x20/16z] {
+fKsr0O1046ikTkm_B-wK1Fre_qEe3qSZRqv0LJeRTX86Ogx0pd4saTcwJsu8nJldcdy0pyp6xRk36GMw-sPEbC2hBuBRYCuDaF9QT_O9jVJrVPVQDXOO6nTw
+UMrG_yC4
+}
+
+!function AwsCodecommit($id, $name="Codecommit", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCodecommit', $name, $tech)
+!endfunction
+!function AwsCodecommitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodecommitLg>', 'Codecommit', $funcName, $content)
+!endfunction
+@enduml

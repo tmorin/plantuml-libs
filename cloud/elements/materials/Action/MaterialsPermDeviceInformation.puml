@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPermDeviceInformationLg [20x20/16z] dP150iGm203ZBlz_xMuR3t3gH9aBmbwuUE4FR293QiGOv7IsBknsSN0u9tX3kEtU7-Vpjzs-jfCIEVAdDNREVNVxmZNZtkWPqBFQCsticRRPDtWB_m
+
+!function MaterialsPermDeviceInformation($id, $name="Perm Device Information", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPermDeviceInformation', $name, $tech)
+!endfunction
+!function MaterialsPermDeviceInformationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPermDeviceInformationLg>', 'Perm Device Information', $funcName, $content)
+!endfunction
+@enduml

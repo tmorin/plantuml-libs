@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRobomakerCloudExtensionRosLg [20x20/16z] {
+LL1P0aGX2085k_-D9stUnWzB6uaDMXWm3cV2hcnchMY61ClPpBM6FsSZ_zv4nF3bRIlNeZOZ1NcWM7MoEDdS6SHrT_Eb1-HukuGCG9n-Sjcou0GSqq-IhmvN
+lzjVwIKY45L4nTpN7XAwCuAV_q9vE8KBx8oyEjxpu-gx4h7vcj_eD8OtM9xzZUOV
+}
+
+!function AwsRobomakerCloudExtensionRos($id, $name="Robomaker Cloud Extension Ros", $tech="")
+  CloudElement($id, 'aws/Robotics/AwsRobomakerCloudExtensionRos', $name, $tech)
+!endfunction
+!function AwsRobomakerCloudExtensionRosCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRobomakerCloudExtensionRosLg>', 'Robomaker Cloud Extension Ros', $funcName, $content)
+!endfunction
+@enduml

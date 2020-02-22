@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudMobileAppLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudMobileApp($id, $name="Cloud Mobile App", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudMobileApp', $name, $tech)
+!endfunction
+!function GcpCloudMobileAppCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudMobileAppLg>', 'Cloud Mobile App', $funcName, $content)
+!endfunction
+@enduml

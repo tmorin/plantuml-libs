@@ -1,0 +1,14 @@
+@startuml
+sprite $AzureCognitiveServicesLg [34x20/16z] {
+PT1RZeKn20BWLbHm_nkUrED_o_3QBmIxNa5AJ9KIwtys3Aehoi3-leSgKPyGRv1LFq4WQw8NYHeXH5gIG-m2fbkOoWmsFJ70MPSe1w0Adn9S6nwXJDLFI5Kw
+BLcJjCpikXQ4-S7BQtZ90HWlWL2VrHl2m2dok4LM2_O0faNgAz80FHEv0NHR7neWwTP0F3V1ecWg6jFEl6rsx0cZ6Mk4r0AIDClsR6nH3elPCScrZ2zHPBs5
+OfzFzSm87T4PqSVizSJSo35o5trUtzaBgJD-hstF-ny
+}
+
+!function AzureCognitiveServices($id, $name="Cognitive Services", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureCognitiveServices', $name, $tech)
+!endfunction
+!function AzureCognitiveServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCognitiveServicesLg>', 'Cognitive Services', $funcName, $content)
+!endfunction
+@enduml

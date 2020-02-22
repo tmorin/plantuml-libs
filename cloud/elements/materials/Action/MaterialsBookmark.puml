@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBookmarkLg [20x20/16z] Oo05CBD00JDSY9KV3bXXOkm8CVOXByR3Wox6nSh4nCh5XoJ6mS88eXbPEE1YG044amG
+
+!function MaterialsBookmark($id, $name="Bookmark", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsBookmark', $name, $tech)
+!endfunction
+!function MaterialsBookmarkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBookmarkLg>', 'Bookmark', $funcName, $content)
+!endfunction
+@enduml

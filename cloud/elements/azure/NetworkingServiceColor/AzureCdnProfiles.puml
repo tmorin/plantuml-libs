@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCdnProfilesLg [44x20/16z] {
+VTBLWGKm24HHT6RxRtZj6H2vtoSUEQQHGAQhZ7Hcl_8l4jubECDJ_fLQh7-D6YMpMEEmw9PHi7eh1oLLDfd7piRkdb0g5YlD3iScDDvbP9VJijrKerSxwTol
+OnFNmlOduxRKYkDg-ntxtVANsFlIxfRju_2AqJyaBnOcegYO9vmcFm
+}
+
+!function AzureCdnProfiles($id, $name="Cdn Profiles", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureCdnProfiles', $name, $tech)
+!endfunction
+!function AzureCdnProfilesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCdnProfilesLg>', 'Cdn Profiles', $funcName, $content)
+!endfunction
+@enduml

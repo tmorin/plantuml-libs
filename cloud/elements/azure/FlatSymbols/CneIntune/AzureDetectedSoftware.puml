@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDetectedSoftwareLg [22x20/16z] {
+VP650KGX34DBYYNTVzvpnTvNwc9OOA3uHYozjbuwe1-OUwqz4s3nWNAN9Xj8ToaikSFmUYN3KreaeaaDbCf76d6JHjoa4JzIlQNwIf6pcxzUE4d72ETiOsMd
+BWOEKiU0twKBiDxG5G
+}
+
+!function AzureDetectedSoftware($id, $name="Detected Software", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDetectedSoftware', $name, $tech)
+!endfunction
+!function AzureDetectedSoftwareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDetectedSoftwareLg>', 'Detected Software', $funcName, $content)
+!endfunction
+@enduml

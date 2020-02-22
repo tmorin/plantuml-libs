@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMapLg [20x20/16z] pP0d0i0m30DhHzd3_tzjDZ9gMKKa7RpdKyZGNNm6mUUQ_SI4KB6GoIBY44eAQQxD86SneYZsxnN1ckMGIe1RosnM0sYQsI9mjR0IzZe3
+
+!function MaterialsMap($id, $name="Map", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsMap', $name, $tech)
+!endfunction
+!function MaterialsMapCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMapLg>', 'Map', $funcName, $content)
+!endfunction
+@enduml

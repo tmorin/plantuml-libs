@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpGenomicsLg [20x20/16z] {
+RP055e0m34EHoEv_OkWodF-ihvvCdNamdImwMKPgLZlHQ4MxWRJvddDlP8q4xcNMWMfZHwZ6_KmEk4Yeum01Ch5n7g3ECoFdHfwvDKc0W8uNcSKk4kONWw5o
+ItushKxT-jVsxy7frTbsUjelnzC_xpS
+}
+
+!function GcpGenomics($id, $name="Genomics", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpGenomics', $name, $tech)
+!endfunction
+!function GcpGenomicsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpGenomicsLg>', 'Genomics', $funcName, $content)
+!endfunction
+@enduml

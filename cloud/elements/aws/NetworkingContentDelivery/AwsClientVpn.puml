@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsClientVpnLg [20x20/16z] jOv55i0m448tuGEv_u7xwh9lF3FO_6NKa4z9RlGkRfWEqGTiUoTmbTPdLi5UIBD2anMDRxN8rdfpuIeZgnTk8fWQ4nxEDHsZkA_GaLQJvp20vpzZ0G
+
+!function AwsClientVpn($id, $name="Client Vpn", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsClientVpn', $name, $tech)
+!endfunction
+!function AwsClientVpnCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsClientVpnLg>', 'Client Vpn', $funcName, $content)
+!endfunction
+@enduml

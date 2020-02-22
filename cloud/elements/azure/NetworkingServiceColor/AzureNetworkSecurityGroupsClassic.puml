@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureNetworkSecurityGroupsClassicLg [15x20/16z] {
+VSy50iH020F05KY0_p_umhcrgGxhuvg5rPyxB98sX-8EHWPJ3zpr2VesgfXLYRttMWQ0J75rhCLuaITqFcWTHqUC_j9tXpVoJdoI5I8VZFGCFeZ2L8SR9SuX
+PzDKxpDEL0MG1QbZKQhOU6GYxqqN
+}
+
+!function AzureNetworkSecurityGroupsClassic($id, $name="Network Security Groups Classic", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureNetworkSecurityGroupsClassic', $name, $tech)
+!endfunction
+!function AzureNetworkSecurityGroupsClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureNetworkSecurityGroupsClassicLg>', 'Network Security Groups Classic', $funcName, $content)
+!endfunction
+@enduml

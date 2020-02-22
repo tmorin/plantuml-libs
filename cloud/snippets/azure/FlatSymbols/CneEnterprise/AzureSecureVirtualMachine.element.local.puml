@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureSecureVirtualMachine element
+include('elements/azure/FlatSymbols/CneEnterprise/AzureSecureVirtualMachine')
+AzureSecureVirtualMachine('element', 'Secure Virtual Machine', 'an optional tech field')
+@enduml

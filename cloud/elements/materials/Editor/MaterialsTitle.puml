@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTitleLg [20x20/16z] Ow0GiB2nGW4R2qoCdHyEs65YhEpix1py_1n0YXLPFnClBnE87afYZEpiZ0mq0W
+
+!function MaterialsTitle($id, $name="Title", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsTitle', $name, $tech)
+!endfunction
+!function MaterialsTitleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTitleLg>', 'Title', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTrendingUpLg [20x20/16z] nSk53OHG50NH--oxz5_jAWvnPE8d6LmQ7P2FCV86EVV6cqbocuo2_Ib8v95gjHyHc0RAOjL-14m4M6rR-k1C-D4c5JpG6m
+
+!function MaterialsTrendingUp($id, $name="Trending Up", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTrendingUp', $name, $tech)
+!endfunction
+!function MaterialsTrendingUpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTrendingUpLg>', 'Trending Up', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFlightLandLg [20x20/16z] {
+ZS_50SGm3011aLdGVxN744xsEKR1GOXhaxP62Tcm3F-OtjOdXtDzM_34FD7ByiGYjEKQCNcPIxTuPl97G4vrFB4N8PXwRlfqWLaafQkSZprTclUqecEIbgUn
+p6Aut1q
+}
+
+!function MaterialsFlightLand($id, $name="Flight Land", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFlightLand', $name, $tech)
+!endfunction
+!function MaterialsFlightLandCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlightLandLg>', 'Flight Land', $funcName, $content)
+!endfunction
+@enduml

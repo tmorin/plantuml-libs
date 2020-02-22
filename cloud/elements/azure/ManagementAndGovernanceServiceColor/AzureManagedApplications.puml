@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagedApplicationsLg [19x20/16z] {
+LSw7aS1020D0Am3d_Xj-SP_bl6CqFD-1XETVv4I_tn0Povtu_IEVM3PNS0a0VLyYvk-Wg0vr6T_rx7EMkhV8shApz5IeYe2dGnEYYfVFQSykXnBXReMAgbbg
+Wmv5ED_rTt59tlgPU586-wH-weqjJxjlVJ6qSlEU2T-4talttW0hzlMT0ZqRv_rhtbX8E5yptAyF
+}
+
+!function AzureManagedApplications($id, $name="Managed Applications", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureManagedApplications', $name, $tech)
+!endfunction
+!function AzureManagedApplicationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagedApplicationsLg>', 'Managed Applications', $funcName, $content)
+!endfunction
+@enduml

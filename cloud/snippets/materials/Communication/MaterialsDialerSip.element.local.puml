@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsDialerSip element
+include('elements/materials/Communication/MaterialsDialerSip')
+MaterialsDialerSip('element', 'Dialer Sip', 'an optional tech field')
+@enduml

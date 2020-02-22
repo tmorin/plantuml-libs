@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsKitchenLg [20x20/16z] {
+XT054i0W30J095VqOFh_rzPTTnpYyi9skZo1jPOw8-OtHmni1BhvpIUnO3BIvFUtUdzJfvStkcRXkBovjXIMMRlsoAQc4yk77kcrx_zRlhsfgDpVvFBc25k0
+Rh_LYhZVrEH53m
+}
+
+!function MaterialsKitchen($id, $name="Kitchen", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsKitchen', $name, $tech)
+!endfunction
+!function MaterialsKitchenCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKitchenLg>', 'Kitchen', $funcName, $content)
+!endfunction
+@enduml

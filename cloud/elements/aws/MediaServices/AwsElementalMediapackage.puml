@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElementalMediapackageLg [20x20/16z] hP0t0WD14CAA4MB__s8tpjc-KpaHM3jGw5qb0EbLHI8OxDLQKNevq26bfM5EDMe3gUMgXXgkQo89ugMMBC6LN7uC8PAPom-CsWYzqjoamRxpTibWEmS
+
+!function AwsElementalMediapackage($id, $name="Elemental Mediapackage", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElementalMediapackage', $name, $tech)
+!endfunction
+!function AwsElementalMediapackageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElementalMediapackageLg>', 'Elemental Mediapackage', $funcName, $content)
+!endfunction
+@enduml

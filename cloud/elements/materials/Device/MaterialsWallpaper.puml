@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWallpaperLg [20x20/16z] {
+RP250O0m30J_Wll-q-Br7jJYYQfWBz9tyeZ6xM61PNiOaMphOhjkUsxF5h1CHYbZ6ahPFF7Bbk2BUw84L9CvO-jTBOlBmNXqOY3Esn_7rWr7N4ip_JIH7HA4
+tiePr6TLphJA1G
+}
+
+!function MaterialsWallpaper($id, $name="Wallpaper", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsWallpaper', $name, $tech)
+!endfunction
+!function MaterialsWallpaperCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWallpaperLg>', 'Wallpaper', $funcName, $content)
+!endfunction
+@enduml

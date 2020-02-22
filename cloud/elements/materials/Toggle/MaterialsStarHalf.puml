@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsStarHalfLg [20x20/16z] {
+bOrL0W0X24IbOOlxdtQx_N9C7Z6bLOWrCwlB-hugb27aXo220vukOb7F00yLPjmOzRaf2hBOsDDH63lR9cXSHkW70tDyEUniStcqiWuAnGlXa3aPGk33A7DG
+xRIZXsawxbRwOdoy_6BmV5gq
+}
+
+!function MaterialsStarHalf($id, $name="Star Half", $tech="")
+  CloudElement($id, 'materials/Toggle/MaterialsStarHalf', $name, $tech)
+!endfunction
+!function MaterialsStarHalfCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStarHalfLg>', 'Star Half', $funcName, $content)
+!endfunction
+@enduml

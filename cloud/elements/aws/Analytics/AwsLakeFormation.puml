@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsLakeFormationLg [20x20/16z] {
+fSu52iG030H0k6Gj___lMRqu7JowyrYOUqbT5dskkweQ8dJKyEgk_bquYku4z1SyAv8Y0SXSIq7GMSzahJ5TCNywvxde1sjjw2FxhCm9ltBg3XbzcPo385lG
+d4MaCizz
+}
+
+!function AwsLakeFormation($id, $name="Lake Formation", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsLakeFormation', $name, $tech)
+!endfunction
+!function AwsLakeFormationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsLakeFormationLg>', 'Lake Formation', $funcName, $content)
+!endfunction
+@enduml

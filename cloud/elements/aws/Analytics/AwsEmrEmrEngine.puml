@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEmrEmrEngineLg [20x20/16z] {
+bT170WCX58BXru3S_yJ1IU-PVwKVhenTPRbyj864UhHgeVEH1CSBPYP9X2CvCKIEoppFfL71WevhwpAFjcNIuTN0LnlyiEgoTGy1d0UHjcrSGwuJ4sJ5ET39
+hpCVlojZLqS
+}
+
+!function AwsEmrEmrEngine($id, $name="Emr Emr Engine", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsEmrEmrEngine', $name, $tech)
+!endfunction
+!function AwsEmrEmrEngineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEmrEmrEngineLg>', 'Emr Emr Engine', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureApplicationInsightsLg [13x20/16z] {
+HSw70KGX20FG8564kF-yX__QirS0Z96PGJIBUcJORzx2PltDtJkyecfdfTaOmsnNbigzTznxbbAH8ajAIcUDydKaOkf4B-9e0bWdlJpFGhFKrguqNDJfGk1p
+9Ds3no0vyF5ay5qm8eWlQx-vknk-vbwuNW
+}
+
+!function AzureApplicationInsights($id, $name="Application Insights", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureApplicationInsights', $name, $tech)
+!endfunction
+!function AzureApplicationInsightsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureApplicationInsightsLg>', 'Application Insights', $funcName, $content)
+!endfunction
+@enduml

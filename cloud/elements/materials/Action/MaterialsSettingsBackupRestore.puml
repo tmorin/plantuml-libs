@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsBackupRestoreLg [20x20/16z] {
+bP254OKm44Hp6a_wh_RBuZ36GkpDUNWdObMc2x7IM-l5w42fkp2BzqGxgX8WgHkq1WJOR34hVaJs0aFkC5E5OMSy6l_tEV-Gss-Nt4QDT68mcvaVleaVEGBs
+QotGKVFHtBKtw343MB9WLg_q1G
+}
+
+!function MaterialsSettingsBackupRestore($id, $name="Settings Backup Restore", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsBackupRestore', $name, $tech)
+!endfunction
+!function MaterialsSettingsBackupRestoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsBackupRestoreLg>', 'Settings Backup Restore', $funcName, $content)
+!endfunction
+@enduml

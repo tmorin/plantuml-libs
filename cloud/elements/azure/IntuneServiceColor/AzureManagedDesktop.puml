@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagedDesktopLg [28x20/16z] {
+TP050e0W301X7Vp_lNQxipt6eZN9yKDAc_7G7y9drSFw3nRzuu2nT6nSEJA1ZmFiCwYAttniD2-G-VvrSmJjoRxvI9NdPBzkbgPOzSTATU-pUhfMpMoTfyCF
+liH1PloG2QtfAD06SNwupFZv6N0B2v-9SM8nIc82
+}
+
+!function AzureManagedDesktop($id, $name="Managed Desktop", $tech="")
+  CloudElement($id, 'azure/IntuneServiceColor/AzureManagedDesktop', $name, $tech)
+!endfunction
+!function AzureManagedDesktopCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagedDesktopLg>', 'Managed Desktop', $funcName, $content)
+!endfunction
+@enduml

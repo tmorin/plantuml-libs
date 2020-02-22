@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsFsxForWindowsFileServerLg [20x20/16z] RSY54KHH5CBGjGVazj_lkdyo6JlSodSs1Ib8GGfIy2tmRPPkyzO11PaeDWyR94V6Qqdoqnomk5gikuqOaYLfMKyB4oacfzD9tEmMdsvMS0fEmIau1QVW1G
+
+!function AwsFsxForWindowsFileServer($id, $name="Fsx For Windows File Server", $tech="")
+  CloudElement($id, 'aws/Storage/AwsFsxForWindowsFileServer', $name, $tech)
+!endfunction
+!function AwsFsxForWindowsFileServerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFsxForWindowsFileServerLg>', 'Fsx For Windows File Server', $funcName, $content)
+!endfunction
+@enduml

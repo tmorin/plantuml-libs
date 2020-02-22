@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBoardsLg [20x20/16z] {
+NSo50O0W04HHYGlsNrWEss_o28zVAjiOzdJDZbzFioGFz0wltvVDncrdzlaJ4qaDpnv3AMLjUnbhhVoj6twEIh4xIyeppMcHLsgFdKIWFZiTPIt0RLPdg9Fo
+aSHICKbaEMjaBoMhYEsiO68DiIr8BIj2_QO3GsLxbPt8nXq
+}
+
+!function AzureBoards($id, $name="Boards", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureBoards', $name, $tech)
+!endfunction
+!function AzureBoardsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBoardsLg>', 'Boards', $funcName, $content)
+!endfunction
+@enduml

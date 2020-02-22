@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCropOriginalLg [20x20/16z] jT235G0n40JGB8uJz5_jsUP_JjRcEjO9Rf-inS3Qvb6jq42iDcyWCo3y-yQBDoOZLcTlZ9YpO6NoHgb51Y2bIHnrXhZLRkiRRDtgkX8
+
+!function MaterialsCropOriginal($id, $name="Crop Original", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCropOriginal', $name, $tech)
+!endfunction
+!function MaterialsCropOriginalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCropOriginalLg>', 'Crop Original', $funcName, $content)
+!endfunction
+@enduml

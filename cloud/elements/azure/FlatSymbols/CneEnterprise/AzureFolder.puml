@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureFolderLg [23x20/16z] xSX50S1040ImmyNnRxVCBA1v9aHszAo4ZSYOUDuqOs5fRSVAPC89bmnV_VnwoI-t1G
+
+!function AzureFolder($id, $name="Folder", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFolder', $name, $tech)
+!endfunction
+!function AzureFolderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFolderLg>', 'Folder', $funcName, $content)
+!endfunction
+@enduml

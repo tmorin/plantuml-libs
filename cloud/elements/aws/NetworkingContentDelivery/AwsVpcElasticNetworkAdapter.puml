@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcElasticNetworkAdapterLg [20x20/16z] {
+RP254GHH24E12DT_mxVk_uqnU18tAZxKhmOvvnRb2KnjnVO9Grnob10dwLfofEa3b7F9bGr858iAUi-LvLO3YX3tFcSvjERIjVVPF_KZXwmbI5spx4fqmyP-
+WmxP9ksCSev_naVRruEnLsDFHzvF
+}
+
+!function AwsVpcElasticNetworkAdapter($id, $name="Vpc Elastic Network Adapter", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcElasticNetworkAdapter', $name, $tech)
+!endfunction
+!function AwsVpcElasticNetworkAdapterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcElasticNetworkAdapterLg>', 'Vpc Elastic Network Adapter', $funcName, $content)
+!endfunction
+@enduml

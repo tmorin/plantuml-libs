@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFlareLg [20x20/16z] fP053WCm200F2A7U_xzsxYEsNRqut17XYmY-AEMtlt3mymeU-5007SuJHSm4vHM9lKCUZrAAO_k4uQMKaEmliKrY9BaaEV_NWxodMU-F
+
+!function MaterialsFlare($id, $name="Flare", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFlare', $name, $tech)
+!endfunction
+!function MaterialsFlareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFlareLg>', 'Flare', $funcName, $content)
+!endfunction
+@enduml

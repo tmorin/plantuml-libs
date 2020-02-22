@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWebServerLg [15x20/16z] {
+fOvN4WGX24J70KcDtl-uQwpQ_tb6SgDlcZoJVh5j9XRjc4OJnZ5RBcxouOFPybz6AejmEMPMYL0uRLF7LyaTj8F6OUh6DZMxA3kJ64Kt7fymZ2WiEpoiwkkL
+TTmpokGnUY52UXj4TTStp0eMGfxZBiyF
+}
+
+!function AzureWebServer($id, $name="Web Server", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWebServer', $name, $tech)
+!endfunction
+!function AzureWebServerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWebServerLg>', 'Web Server', $funcName, $content)
+!endfunction
+@enduml

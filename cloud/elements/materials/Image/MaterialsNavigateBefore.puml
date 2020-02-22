@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsNavigateBeforeLg [20x20/16z] Ow0hO6HbmX1ZusN656B14EB15E832s6A4TQBi0FJBHW0w6Rw0G
+
+!function MaterialsNavigateBefore($id, $name="Navigate Before", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsNavigateBefore', $name, $tech)
+!endfunction
+!function MaterialsNavigateBeforeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNavigateBeforeLg>', 'Navigate Before', $funcName, $content)
+!endfunction
+@enduml

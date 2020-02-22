@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureControllersLg [22x20/16z] {
+hT15WWCX443HBZUO-nztaAHjdRzyECSt56Ku7W69gBi9tX15bWw7Nwjwl5KjihNAy9k2LLlLJP69lQOn07vDp8H8TG2WC2uJCNTN74GaDgSCs-fyeAL7j6xo
+K3VDzEvFDOxsvx5L_PnhlTPSjQYgt9hHgmtLh7t_PD38d3D2GRmcEezR3Xwvp0UIbz7tcy9vs3y
+}
+
+!function AzureControllers($id, $name="Controllers", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureControllers', $name, $tech)
+!endfunction
+!function AzureControllersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureControllersLg>', 'Controllers', $funcName, $content)
+!endfunction
+@enduml

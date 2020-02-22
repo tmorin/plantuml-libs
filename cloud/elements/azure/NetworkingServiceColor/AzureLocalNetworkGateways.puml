@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLocalNetworkGatewaysLg [20x20/16z] {
+JSy73e0m30F0JF__oLW4orIhlMR6TsgtT3SP7QL8KohTD1tH2vI99vD459rH3e_cx2ALs6HCaR2apio81YQ2ry7AnWRbOfMhWWCaOV-DGVCiXpOlWkt8NXFn
+VPJ8Q3AQZAO7
+}
+
+!function AzureLocalNetworkGateways($id, $name="Local Network Gateways", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureLocalNetworkGateways', $name, $tech)
+!endfunction
+!function AzureLocalNetworkGatewaysCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLocalNetworkGatewaysLg>', 'Local Network Gateways', $funcName, $content)
+!endfunction
+@enduml

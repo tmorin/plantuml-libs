@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPlaylistPlayLg [20x20/16z] jSx50S0W30NG7zpPVzgw0hcrxnOFlYRiWzF378VKazndqqEsH-DBcxj_kGSLj6nl46ms0WrRY-boNg8b2J-O0G
+
+!function MaterialsPlaylistPlay($id, $name="Playlist Play", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsPlaylistPlay', $name, $tech)
+!endfunction
+!function MaterialsPlaylistPlayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPlaylistPlayLg>', 'Playlist Play', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsAirplanemodeInactive element
+include('elements/materials/Device/MaterialsAirplanemodeInactive')
+MaterialsAirplanemodeInactive('element', 'Airplanemode Inactive', 'an optional tech field')
+@enduml

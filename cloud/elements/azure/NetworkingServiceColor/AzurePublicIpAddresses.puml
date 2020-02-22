@@ -1,0 +1,10 @@
+@startuml
+sprite $AzurePublicIpAddressesLg [24x20/16z] TSs50GGX40J1PtTwyi_u7OS-hqCaq1B0xpRphqmKPKw6IAayvcI1aB9Mbrhs1NzRjtJjmhwmvxLx5_Q5VU7kDhQPFOgiaYPYTB9w2Rf3MwDjy-EzpgiVcHS
+
+!function AzurePublicIpAddresses($id, $name="Public Ip Addresses", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzurePublicIpAddresses', $name, $tech)
+!endfunction
+!function AzurePublicIpAddressesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePublicIpAddressesLg>', 'Public Ip Addresses', $funcName, $content)
+!endfunction
+@enduml

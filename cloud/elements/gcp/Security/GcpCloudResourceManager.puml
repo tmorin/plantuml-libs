@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudResourceManagerLg [20x20/16z] {
+RL350G0n2CDX_uLhSDhcXqPW0GjmW-m6LGijRbYjIhmWkURldgz5pIEHVA6Jm6U7vvHdrmUDrO5glJ6GUe8Hb3qNlnwBN7JkaJ_OnazAQbvDNXL9ITHOl7xF
+hRI4pjjKIcVDkxSzWpqhnr-cxdUcM_OT
+}
+
+!function GcpCloudResourceManager($id, $name="Cloud Resource Manager", $tech="")
+  CloudElement($id, 'gcp/Security/GcpCloudResourceManager', $name, $tech)
+!endfunction
+!function GcpCloudResourceManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudResourceManagerLg>', 'Cloud Resource Manager', $funcName, $content)
+!endfunction
+@enduml

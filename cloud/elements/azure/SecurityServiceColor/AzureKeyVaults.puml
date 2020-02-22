@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureKeyVaultsLg [19x20/16z] {
+NOw50GD020ER7Eo_Sf4gURz7ybWPy5w_v323vIyJ0ZoHGet2uYqvYa35uHPedeM5LtIIfgINpHrInuGoVwrU50Vf5-aW9vn4KFn7ALNqBohepHk5EYqcD1Yc
+laRp-K8jaWKJ4bbYGvu
+}
+
+!function AzureKeyVaults($id, $name="Key Vaults", $tech="")
+  CloudElement($id, 'azure/SecurityServiceColor/AzureKeyVaults', $name, $tech)
+!endfunction
+!function AzureKeyVaultsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureKeyVaultsLg>', 'Key Vaults', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLaptopChromebookLg [20x20/16z] nSX50eCm50JGoRTuSl_JLd3OrClRZE1PJWuSGAtaZT88e2fkG-hm4JRetCzamuQlzRkISnbA8u3Rq9H8nyQ8kGzIZ6biEPhfm6nj-C0L
+
+!function MaterialsLaptopChromebook($id, $name="Laptop Chromebook", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsLaptopChromebook', $name, $tech)
+!endfunction
+!function MaterialsLaptopChromebookCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLaptopChromebookLg>', 'Laptop Chromebook', $funcName, $content)
+!endfunction
+@enduml

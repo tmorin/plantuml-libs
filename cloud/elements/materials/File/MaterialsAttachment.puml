@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAttachmentLg [20x20/16z] lSg50KCX30JGE-BxBroS2VeV4iLN-61fKOzpjieQBmzqgG3D1oDORQmHYB112URe9TPmqR72yNdwaYNemlidkWWnC4FQXeEMMn0FD_p53m
+
+!function MaterialsAttachment($id, $name="Attachment", $tech="")
+  CloudElement($id, 'materials/File/MaterialsAttachment', $name, $tech)
+!endfunction
+!function MaterialsAttachmentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAttachmentLg>', 'Attachment', $funcName, $content)
+!endfunction
+@enduml

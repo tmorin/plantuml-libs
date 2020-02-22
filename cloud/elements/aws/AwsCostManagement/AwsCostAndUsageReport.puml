@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCostAndUsageReportLg [20x20/16z] {
+RSm5bWCX44NHcQI-iVy5fpZjybgvI6O-9-K5yu9pp7xV32WmPgVDs8H-4_XmjIXkOwBlbziwQffjLFLx941LXUX4J1inRKoZlTfOJ9HYhGOMlfWHN4sWOCcT
+LejZH4hdrGWAGyKEvQpdKIDQIj8MURwFnjwRZSDUy0S
+}
+
+!function AwsCostAndUsageReport($id, $name="Cost And Usage Report", $tech="")
+  CloudElement($id, 'aws/AwsCostManagement/AwsCostAndUsageReport', $name, $tech)
+!endfunction
+!function AwsCostAndUsageReportCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCostAndUsageReportLg>', 'Cost And Usage Report', $funcName, $content)
+!endfunction
+@enduml

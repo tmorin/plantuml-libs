@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFunctionsLg [20x20/16z] fP2r0S0m30JD3FjF6-PSv-jUh1UZ66StdBbZiHz4USLqNgHVSAkwWrwA3ofr9tx1s9sa8CKen3lm5hWPVoCFHfa1
+
+!function MaterialsFunctions($id, $name="Functions", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFunctions', $name, $tech)
+!endfunction
+!function MaterialsFunctionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFunctionsLg>', 'Functions', $funcName, $content)
+!endfunction
+@enduml

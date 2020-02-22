@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotActuatorLg [20x20/16z] {
+NKs70OCm3BEr-F_ZfauwG2nDKeEMEEG7HRJxt-98fl_SRAxhruKFwQ8FYoR1yDqCzpzzlkUrOE13bgUXI314gzwVKrM3YMG2_VOQeCzCKh-ti8Nw0TVrauqD
+wP2kicKjsFiLBm-CFkSwmdXckfYmAWf-FMT6yNYcI6fXtbuUz03g1G
+}
+
+!function AwsIotActuator($id, $name="Iot Actuator", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotActuator', $name, $tech)
+!endfunction
+!function AwsIotActuatorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotActuatorLg>', 'Iot Actuator', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsSignalWifi2BarLock element
+include('elements/materials/Device/MaterialsSignalWifi2BarLock')
+MaterialsSignalWifi2BarLock('element', 'Signal Wifi2 Bar Lock', 'an optional tech field')
+@enduml

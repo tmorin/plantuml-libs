@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloud9Lg [20x20/16z] {
+RSo50KCX30JGMiwo_xxzxeS_81dYOoJb0VE0US3ahWk8l9W1edGoS9XKu6wkOL10OJDW60N5CtP2J0vEXKVhm8EPlxdeP0tr_E9WBWx1D9KoMKTSuoms-HxV
+AUa7x0Vi1_m3
+}
+
+!function AwsCloud9($id, $name="Cloud9", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCloud9', $name, $tech)
+!endfunction
+!function AwsCloud9Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloud9Lg>', 'Cloud9', $funcName, $content)
+!endfunction
+@enduml

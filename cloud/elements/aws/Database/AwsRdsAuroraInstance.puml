@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsAuroraInstanceLg [20x20/16z] {
+POo75OH020K5Vl3wR_WmotCsCeJqXtGjiGpANefPURBBTXJLcvHqkQm6G3MNwtcJSzx1uoY9a4fnkyogZ7rJ3Udt84O3lroip8pax-qCDLY7Y_sTlK8LD7iB
+9ClVtbX7hmdGipSBgB3hvH0DdBvHqWtp3m
+}
+
+!function AwsRdsAuroraInstance($id, $name="Rds Aurora Instance", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsAuroraInstance', $name, $tech)
+!endfunction
+!function AwsRdsAuroraInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsAuroraInstanceLg>', 'Rds Aurora Instance', $funcName, $content)
+!endfunction
+@enduml

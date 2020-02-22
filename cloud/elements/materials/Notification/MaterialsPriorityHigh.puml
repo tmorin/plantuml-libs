@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPriorityHighLg [20x20/16z] Oo0HCB6mCA6BiVBpimubCOG_20D6DZP6BEQne8iny_4nCs080eL81
+
+!function MaterialsPriorityHigh($id, $name="Priority High", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPriorityHigh', $name, $tech)
+!endfunction
+!function MaterialsPriorityHighCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPriorityHighLg>', 'Priority High', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticsearchServiceLg [20x20/16z] {
+hS_L0G8m40HHR6Vsqd-_kFz2F2zwwoz9c6zBO_lYKRDCoDCQmzcSkv7W9C3JCePeoRmP4RhecucNYNvOMUjpNwx_xO5tqyX1u6PSR46RudsV91uYFEEeNafr
+XgxVqWa
+}
+
+!function AwsElasticsearchService($id, $name="Elasticsearch Service", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsElasticsearchService', $name, $tech)
+!endfunction
+!function AwsElasticsearchServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticsearchServiceLg>', 'Elasticsearch Service', $funcName, $content)
+!endfunction
+@enduml

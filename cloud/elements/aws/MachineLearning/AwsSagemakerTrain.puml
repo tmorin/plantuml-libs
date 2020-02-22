@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSagemakerTrainLg [20x20/16z] {
+bSfP5eH024FH19BK_dVSO4_-UhMcTy1JxKJ4dTCifMv9nkhWXo66wFwr2eQDzhwq4dHDUZUdXy8w-vHsQzI8m7dnrDNA8qVJ-ZZy30_wv2JgSEVoKIbSKG8_
+u08ZIyt-s0RQdAQFRPV9F_cqpWtno0i
+}
+
+!function AwsSagemakerTrain($id, $name="Sagemaker Train", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsSagemakerTrain', $name, $tech)
+!endfunction
+!function AwsSagemakerTrainCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSagemakerTrainLg>', 'Sagemaker Train', $funcName, $content)
+!endfunction
+@enduml

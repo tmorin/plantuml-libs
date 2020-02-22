@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsManagementAndGovernanceLg [20x20/16z] {
+TT2r0KD140DHqsgawxzWtsUUy2KBhzlUfpfzY7T5xsvfXnZCRInsZcPAAiXcKTIpLeif6zpmOfPnJzaP570oooP7GzBF1vE73XPK33Mytm-6jlq6zD1m7Gy_
+U8j3DTZdLBUR_W
+}
+
+!function AwsManagementAndGovernance($id, $name="Management And Governance", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsManagementAndGovernance', $name, $tech)
+!endfunction
+!function AwsManagementAndGovernanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsManagementAndGovernanceLg>', 'Management And Governance', $funcName, $content)
+!endfunction
+@enduml

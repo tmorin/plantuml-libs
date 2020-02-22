@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMeshApplicationsLg [20x20/16z] {
+RL050aKX29Dms_ql_EDrJEc6iRqYQpmU93nCGObnDqt-thmO4qH6BEnIg_-ypvfnjSLM2zsi_pZT-DSiaFdNg_xs957x32NLFfEpkLpJmynYPZQxkHluM_cR
+kjj_0G
+}
+
+!function AzureMeshApplications($id, $name="Mesh Applications", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureMeshApplications', $name, $tech)
+!endfunction
+!function AzureMeshApplicationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMeshApplicationsLg>', 'Mesh Applications', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBluetoothLg [20x20/16z] VL253G1122ldplxJliHUhe4eLeDLZino9ZDDycebtBCrqsiMPWHA2UDz6QzXoLBKuprCjQRx_3DSwpUwXgeHT4P_6GVJmZHpRpm3Eoi7iqu
+
+!function MaterialsBluetooth($id, $name="Bluetooth", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBluetooth', $name, $tech)
+!endfunction
+!function MaterialsBluetoothCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBluetoothLg>', 'Bluetooth', $funcName, $content)
+!endfunction
+@enduml

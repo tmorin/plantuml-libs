@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAccessibilityLg [20x20/16z] hSZ50GGn34DHoH26_hjTne5JNj0VPqJmJsjL_F4v7NyO8x_7En7UtPEs-gKfhcXNSLv5ko9UR5uPxjQqCJQjstN_jKQsXOq2277i0W
+
+!function MaterialsAccessibility($id, $name="Accessibility", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAccessibility', $name, $tech)
+!endfunction
+!function MaterialsAccessibilityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAccessibilityLg>', 'Accessibility', $funcName, $content)
+!endfunction
+@enduml

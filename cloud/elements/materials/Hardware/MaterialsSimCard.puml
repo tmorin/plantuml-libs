@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSimCardLg [20x20/16z] {
+VT054WD124JHCTReXlkVDfx0n7vjsTlnygVsAD60aQHfJ-IF95DOfcmT_c7Ytyn01vomiAq9UwUqBMmjusgZh9CvwPFjOwK8rx67cHArWZhlSRNOuyU-L3ZW
+K3wjgvdnziLRjLJvqHa
+}
+
+!function MaterialsSimCard($id, $name="Sim Card", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsSimCard', $name, $tech)
+!endfunction
+!function MaterialsSimCardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSimCardLg>', 'Sim Card', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsUnarchiveLg [20x20/16z] bT350S0W343Hak2w_xHrm-4V7yuo4T0tk0a5lWayYMWbtfGcXz4GHJjcRMOMqIHczlCkVCtkTE5hvgGJNrEKalsYbAh_VlxOpoVdAY5K-yvW_sJX_QgtamRR
+
+!function MaterialsUnarchive($id, $name="Unarchive", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsUnarchive', $name, $tech)
+!endfunction
+!function MaterialsUnarchiveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsUnarchiveLg>', 'Unarchive', $funcName, $content)
+!endfunction
+@enduml

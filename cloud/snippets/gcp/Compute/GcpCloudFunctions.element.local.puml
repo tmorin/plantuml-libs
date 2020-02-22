@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpCloudFunctions element
+include('elements/gcp/Compute/GcpCloudFunctions')
+GcpCloudFunctions('element', 'Cloud Functions', 'an optional tech field')
+@enduml

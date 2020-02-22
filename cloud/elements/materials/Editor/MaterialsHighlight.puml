@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsHighlightLg [20x20/16z] dSg55SGm40DHQStSVxM7OKx6_9znbCZQd3ipumY0lysPl-ciWULLs1i5VKftAVGnjAx0kmRVcyUGXEwRO84zzUclQJoqKfP6-KJizmO
+
+!function MaterialsHighlight($id, $name="Highlight", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsHighlight', $name, $tech)
+!endfunction
+!function MaterialsHighlightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsHighlightLg>', 'Highlight', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcRouterLg [20x20/16z] {
+RL070eGW31CoqFz_-5fwsqPPtSbHc20nZo_05YaRBykG8uACQ6kKoOoTrxKFRwEuzq2Up1tEQ-KcigRdhsqw_nzR1a7LPv13LH-CFx2Mj5RU87QsBhVhqSpI
+plpY1Wd5xKk3yrHfyAsLNbgrcdRQFm
+}
+
+!function AwsVpcRouter($id, $name="Vpc Router", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcRouter', $name, $tech)
+!endfunction
+!function AwsVpcRouterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcRouterLg>', 'Vpc Router', $funcName, $content)
+!endfunction
+@enduml

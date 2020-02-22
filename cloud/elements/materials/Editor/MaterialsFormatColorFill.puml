@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFormatColorFillLg [20x20/16z] {
+fSq55iCW44NHFrASm_vNMuMPkkN5Rn2Sua2uJzeJr1uVaEkuHyuvj5laaXawqKOnS8EK2y-D0cOoSZYr2xNOm31cJR6GWX6YEaxIKSdmH9Tb18RbH92I21RP
+u_juGmS
+}
+
+!function MaterialsFormatColorFill($id, $name="Format Color Fill", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatColorFill', $name, $tech)
+!endfunction
+!function MaterialsFormatColorFillCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatColorFillLg>', 'Format Color Fill', $funcName, $content)
+!endfunction
+@enduml

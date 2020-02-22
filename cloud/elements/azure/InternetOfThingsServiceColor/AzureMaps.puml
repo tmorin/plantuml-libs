@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMapsLg [16x20/16z] {
+LOu53i0m30E3Tfl__tUyfJkX9PDygCcFY9yqv2eraRgw0TZY9e5eDqwTxUP15nXFkW2yWBVxqj7kfI3vWbCxByQOaqUXtabdLOsut6dNfQgPukdwdff5LMby
+J9SLOyeFZHq
+}
+
+!function AzureMaps($id, $name="Maps", $tech="")
+  CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureMaps', $name, $tech)
+!endfunction
+!function AzureMapsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMapsLg>', 'Maps', $funcName, $content)
+!endfunction
+@enduml

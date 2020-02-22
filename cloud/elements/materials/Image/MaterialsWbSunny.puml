@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWbSunnyLg [20x20/16z] {
+VT053WGX50FGjZY4uVwdNI5TbnV1-G9OZFXGAvuH05BoT4kDCBQ4JLK0Gw2dnZoEOsJYILbRmKDSvdmaN_D52HnJQCiQD0TnZLUNrMjyPxWiuOxLruW7bhdM
+B0HCcO1Y5C0iRBaBffwnKO_-YN_w1z_xvmm
+}
+
+!function MaterialsWbSunny($id, $name="Wb Sunny", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsWbSunny', $name, $tech)
+!endfunction
+!function MaterialsWbSunnyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWbSunnyLg>', 'Wb Sunny', $funcName, $content)
+!endfunction
+@enduml

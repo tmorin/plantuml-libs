@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCustomerLockboxLg [19x20/16z] {
+JSq7OWGX28LXKSf39FS_RYp9Bl_qRonjDzICMssOmNrKqajMXEmIg50TzHTVubPZ1OeGqRlHxf6PQT_F0S3-wDWU0tV7buoRUg6RUgKQ3-RHROUvSuyLQqNO
+fOYOx1coN1ENuC4yCwLtlwJG8MD6_g2DbI2YWP2EY8pXeddsxOZf4MVjtATj8h4NJiQ_
+}
+
+!function AzureCustomerLockbox($id, $name="Customer Lockbox", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureCustomerLockbox', $name, $tech)
+!endfunction
+!function AzureCustomerLockboxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCustomerLockboxLg>', 'Customer Lockbox', $funcName, $content)
+!endfunction
+@enduml

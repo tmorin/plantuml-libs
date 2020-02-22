@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLiveTvLg [20x20/16z] {
+TOw50GGW30CRgE7xJ_kkoA7rq17yFK-OF_SNOIAMgLYP5P-oz22tbfy_9XJN1oBFrmjGcVxW-lO1guypO_6Dxd7nZT5qyLN5xBCmzmjnchlgq_27Lf2r2ID2
+c03jk08
+}
+
+!function MaterialsLiveTv($id, $name="Live Tv", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsLiveTv', $name, $tech)
+!endfunction
+!function MaterialsLiveTvCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLiveTvLg>', 'Live Tv', $funcName, $content)
+!endfunction
+@enduml

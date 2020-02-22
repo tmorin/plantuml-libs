@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureDataFactories element
+include('elements/azure/AnalyticsServiceColor/AzureDataFactories')
+AzureDataFactories('element', 'Data Factories', 'an optional tech field')
+@enduml

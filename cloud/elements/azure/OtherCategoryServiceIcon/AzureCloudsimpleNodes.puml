@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCloudsimpleNodesLg [20x20/16z] {
+JSt50GGX40J0LfRy8qPEwmFZ0Bq9_oG2OFeZKPIbw4ZYQIMTux44acdrs87d26bkRdOk0TrPzXZROpLznenkUDmRSanhSrjFIDXeWLj7zG2AP8jNUtFe6Dt6
+nydvzVigmFgdevadfuZ7xmOhy-rtu-rS-joWBW_h8Zxe-Y_AKTlDPXpordVUmW8
+}
+
+!function AzureCloudsimpleNodes($id, $name="Cloudsimple Nodes", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureCloudsimpleNodes', $name, $tech)
+!endfunction
+!function AzureCloudsimpleNodesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCloudsimpleNodesLg>', 'Cloudsimple Nodes', $funcName, $content)
+!endfunction
+@enduml

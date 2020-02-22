@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPolymerLg [20x20/16z] {
+fKzL5iH021ltrzp_jWk4jUz9FH1fk4HjDUepjrQTAW-wFjC6dc9Kd3X9Npe4CveIQBu-XAvKB9t5XPti5aBZY4-Aqg55FXYHvjcvEEJz4_YZ-GH6pVWBugWF
+bgM85WBz4m_qibI4xkkgRYsRehOQBl42
+}
+
+!function MaterialsPolymer($id, $name="Polymer", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPolymer', $name, $tech)
+!endfunction
+!function MaterialsPolymerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPolymerLg>', 'Polymer', $funcName, $content)
+!endfunction
+@enduml

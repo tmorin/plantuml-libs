@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureGenericCodeLg [19x20/16z] {
+TSw50O0m30J0JqA9xhykxl9GkofxNQC0B4tFPFL06IxncgpqGQKhaH1407NFMeWy69eTfjXAactoM3ReJW8Wx4BTGduX2YS0BTj9lf26_6pyFNvv1ATUY2nu
+EUeaa4o5SA5h9h87MLdQFMbiTO_n2
+}
+
+!function AzureGenericCode($id, $name="Generic Code", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericCode', $name, $tech)
+!endfunction
+!function AzureGenericCodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureGenericCodeLg>', 'Generic Code', $funcName, $content)
+!endfunction
+@enduml

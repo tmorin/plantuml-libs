@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAppsLg [20x20/16z] Ow0CCBEnCICHOC36py_6mChFpmfcOHV3r3jixA0C
+
+!function MaterialsApps($id, $name="Apps", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsApps', $name, $tech)
+!endfunction
+!function MaterialsAppsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAppsLg>', 'Apps', $funcName, $content)
+!endfunction
+@enduml

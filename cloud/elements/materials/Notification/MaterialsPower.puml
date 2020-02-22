@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPowerLg [20x20/16z] bOs50G0n20EXr2txJ_lk_bV54le5Qvwk5LNKT3tdf6XcNOHMT49EAIFfDHSm4LRNDSS_ShTwfCkOAfgsoJMr9YjG3UtW24H-pv5eBVIJ5W
+
+!function MaterialsPower($id, $name="Power", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPower', $name, $tech)
+!endfunction
+!function MaterialsPowerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPowerLg>', 'Power', $funcName, $content)
+!endfunction
+@enduml

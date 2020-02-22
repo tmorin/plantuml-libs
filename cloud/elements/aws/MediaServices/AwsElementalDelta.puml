@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElementalDeltaLg [20x20/16z] RS_50S0m34FHWorR-q_SXac__4f9rk8e1QR0d9qMM7KByvaDy_buB0EAmHt3Khoh_b636yQ8M8xrfVfx56J57m13VQzOmJ98ctFdG217dBYYG0gaG0hy
+
+!function AwsElementalDelta($id, $name="Elemental Delta", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElementalDelta', $name, $tech)
+!endfunction
+!function AwsElementalDeltaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElementalDeltaLg>', 'Elemental Delta', $funcName, $content)
+!endfunction
+@enduml

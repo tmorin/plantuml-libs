@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWifiLockLg [20x20/16z] {
+TP05eeL020074DpU-v_snqjpT8i6xX7zGpPlYrnRxwtcC7b8bZpcXv4NmT8yaCpd2MSzYbQGiXMqd0Imjh5HdlZMxSKdP5Cqme1lo0mX4WBVa0bnSDs6J5YE
+oBuD6SzZl6IIvopooiOBQyquo707OlRUwyLebGj-0G
+}
+
+!function MaterialsWifiLock($id, $name="Wifi Lock", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsWifiLock', $name, $tech)
+!endfunction
+!function MaterialsWifiLockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWifiLockLg>', 'Wifi Lock', $funcName, $content)
+!endfunction
+@enduml

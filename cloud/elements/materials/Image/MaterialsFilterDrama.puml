@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilterDramaLg [20x20/16z] {
+fSzL4iKm20NGYqPfzh_QfypG_vwu1pn7OYQ4ErqnPon5iN0cOWz38es6N9F_ZCrpLcxe_TTuk8Y7vqPZGEDtSJOorpQCdgVoIhAjb-D73AcFbUl5Zo_EVksZ
+CJAckW_ShpdAslOFtuin7da3
+}
+
+!function MaterialsFilterDrama($id, $name="Filter Drama", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterDrama', $name, $tech)
+!endfunction
+!function MaterialsFilterDramaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterDramaLg>', 'Filter Drama', $funcName, $content)
+!endfunction
+@enduml

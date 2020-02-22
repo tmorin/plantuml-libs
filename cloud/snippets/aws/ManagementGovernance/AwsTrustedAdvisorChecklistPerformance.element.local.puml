@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsTrustedAdvisorChecklistPerformance element
+include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance')
+AwsTrustedAdvisorChecklistPerformance('element', 'Trusted Advisor Checklist Performance', 'an optional tech field')
+@enduml

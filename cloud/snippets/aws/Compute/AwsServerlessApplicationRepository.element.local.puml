@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsServerlessApplicationRepository element
+include('elements/aws/Compute/AwsServerlessApplicationRepository')
+AwsServerlessApplicationRepository('element', 'Serverless Application Repository', 'an optional tech field')
+@enduml

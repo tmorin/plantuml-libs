@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudwatchEventTimeBasedLg [20x20/16z] {
+fOt50G1120CXmlPVyRajtvi7JX8JAMNCiEpYV5L9Rc4wSrWXpJCDjbaMzf3DGofsO-aOOUCUZQh1FTk3Zt6OJ-P6cvtNRVR4_xDCyniZK1lunaXvGz-Oa3fO
+0G
+}
+
+!function AwsCloudwatchEventTimeBased($id, $name="Cloudwatch Event Time Based", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchEventTimeBased', $name, $tech)
+!endfunction
+!function AwsCloudwatchEventTimeBasedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudwatchEventTimeBasedLg>', 'Cloudwatch Event Time Based', $funcName, $content)
+!endfunction
+@enduml

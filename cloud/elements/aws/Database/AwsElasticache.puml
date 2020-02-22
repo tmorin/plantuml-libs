@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticacheLg [20x20/16z] {
+hP1L0WCn20KhJu3x7xXaNJwx4vyuzHzvOdRW0SpEBK60e_NiH1if9MngSNQRGTgR6yE-gvlDXKWrNSVY23Ao2VAxtYklwopNohgk3gphZaxpEXtT-hvx8Ee1
+VW
+}
+
+!function AwsElasticache($id, $name="Elasticache", $tech="")
+  CloudElement($id, 'aws/Database/AwsElasticache', $name, $tech)
+!endfunction
+!function AwsElasticacheCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticacheLg>', 'Elasticache', $funcName, $content)
+!endfunction
+@enduml

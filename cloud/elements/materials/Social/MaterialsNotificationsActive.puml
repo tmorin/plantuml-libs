@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNotificationsActiveLg [20x20/16z] {
+fT053iDG30FGaB90uVwtdV-OqUsd9uj2NqGKcpisbIDLO9jdlAFso95CLkjQHfp1msnMydKN9vrjM0HkUviLBn2tZTgnQCqm5ugZ1Od34CwZvO2_JVfeBKT2
+xLGye6qkObUpESta5EtM-o4AlSeM
+}
+
+!function MaterialsNotificationsActive($id, $name="Notifications Active", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsNotificationsActive', $name, $tech)
+!endfunction
+!function MaterialsNotificationsActiveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNotificationsActiveLg>', 'Notifications Active', $funcName, $content)
+!endfunction
+@enduml

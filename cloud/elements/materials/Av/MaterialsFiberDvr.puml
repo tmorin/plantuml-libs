@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFiberDvrLg [20x20/16z] {
+fP250GCn24NvM8oK_QUjkxVtui6XRu7U0KBDEoemxly64FT_yKAlg6hhrgk5greF89IOfCE4Wud9zdyyXASmB1aAFV-b4zLaskvdsso4MB4uQfnYv3JFT0-h
+iIZdPprurgjlsG
+}
+
+!function MaterialsFiberDvr($id, $name="Fiber Dvr", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFiberDvr', $name, $tech)
+!endfunction
+!function MaterialsFiberDvrCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFiberDvrLg>', 'Fiber Dvr', $funcName, $content)
+!endfunction
+@enduml

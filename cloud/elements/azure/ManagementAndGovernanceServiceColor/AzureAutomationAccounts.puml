@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAutomationAccountsLg [22x20/16z] {
+NP054iDG20LvzidzJzoXLCC8kXkflu28syGiIlgVCeOa_evCnPG4Vw-TnAGqonyyh7gUvkq0DJKa56BYpG_6cPQIBByOnx2oLOGhmjOxz5RalZT_lPZkxKL1
+ph0hirZa8Gi9VcGuVNLpC15GdZBsKLeodGdJgZgNIzV1VhIZzNJxDD__TrzglOTr2-0Gz-43
+}
+
+!function AzureAutomationAccounts($id, $name="Automation Accounts", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts', $name, $tech)
+!endfunction
+!function AzureAutomationAccountsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAutomationAccountsLg>', 'Automation Accounts', $funcName, $content)
+!endfunction
+@enduml

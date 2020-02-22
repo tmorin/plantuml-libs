@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPhoneAndroidLg [20x20/16z] rP150W0n20Dh8Ulv_slNtUwT2Z3SucPycF5knxDkPchk5kfMXCsHOONStRv5tiwspWxNb2lDuIGHcCkHbMGfsLZmb-az-m4
+
+!function MaterialsPhoneAndroid($id, $name="Phone Android", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsPhoneAndroid', $name, $tech)
+!endfunction
+!function MaterialsPhoneAndroidCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhoneAndroidLg>', 'Phone Android', $funcName, $content)
+!endfunction
+@enduml

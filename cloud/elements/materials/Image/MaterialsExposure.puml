@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsExposureLg [20x20/16z] {
+RT053iGm34JHjQSGSdh_swup0QdmHTLh-FUPw2rf52epLcjmLBjAzkngbM3gLWl42wGDDoFvDDgOIrh6I3URD6tHpIR9pKXRaccJSDgk63Oc9h_HCOtak1V8
+cDk8uLZh1MWFWExD95YnNcaVGRxUzBC_
+}
+
+!function MaterialsExposure($id, $name="Exposure", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsExposure', $name, $tech)
+!endfunction
+!function MaterialsExposureCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsExposureLg>', 'Exposure', $funcName, $content)
+!endfunction
+@enduml

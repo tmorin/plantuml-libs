@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsEc2G3Instance element
+include('elements/aws/Compute/Instance/AwsEc2G3Instance')
+AwsEc2G3Instance('element', 'Ec2 G3 Instance', 'an optional tech field')
+@enduml

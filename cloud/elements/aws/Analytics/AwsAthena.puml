@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAthenaLg [20x20/16z] {
+fOwtOIH000B_fMK6jlz-vLr-XFZxC2O9_KirT6lO7sfJU-M7OyLMBdvpMmJKPLyKnppdF8zzxvGpJCwiVpYzFe_ItsmZBFjzirWT9tnJEj2S_N8NLjja-4CQ
+882vlrYxTwttCRm2
+}
+
+!function AwsAthena($id, $name="Athena", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsAthena', $name, $tech)
+!endfunction
+!function AwsAthenaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAthenaLg>', 'Athena', $funcName, $content)
+!endfunction
+@enduml

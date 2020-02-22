@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhotoFilterLg [20x20/16z] {
+ZP230SL044JN-p6N_hkDxHSFSg3tY0t8IWB-7N0Y7ZM3yW1fJDf_SlLNWdUQv4ytETLMj6qtixkpownfLYMrrVvseotThQQwrmRkDIZFA6pPWn50DdkrRDXB
+6W
+}
+
+!function MaterialsPhotoFilter($id, $name="Photo Filter", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPhotoFilter', $name, $tech)
+!endfunction
+!function MaterialsPhotoFilterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhotoFilterLg>', 'Photo Filter', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSpeechToTextLg [20x20/16z] {
+RP054e0m30GX_lyF8yb1TKTxiuqToGcE7x8VGdHQ_1XKYGufpVlCKzGOqBS1D5M8JnlBjpipSgi6n2BCRaolA5uPeFozozZRNwzCSXIrYBU7POzrbg3DpBlT
+zZTejsfQkwa_uAQRszy
+}
+
+!function GcpCloudSpeechToText($id, $name="Cloud Speech To Text", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudSpeechToText', $name, $tech)
+!endfunction
+!function GcpCloudSpeechToTextCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSpeechToTextLg>', 'Cloud Speech To Text', $funcName, $content)
+!endfunction
+@enduml

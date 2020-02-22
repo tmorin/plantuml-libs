@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureDistributionPointLg [18x20/16z] hSx50G0X34HHB1FhlzurdFF-uqEIIAqKMcJcJsQOelAs2jCJ3EShN-Nj9t7_9BsRLc52Ve2VnSehpeL7ZwWgmKSWGoa9Rhr7J0sxd7VQFwleAI6-RV9LCCet
+
+!function AzureDistributionPoint($id, $name="Distribution Point", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureDistributionPoint', $name, $tech)
+!endfunction
+!function AzureDistributionPointCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDistributionPointLg>', 'Distribution Point', $funcName, $content)
+!endfunction
+@enduml

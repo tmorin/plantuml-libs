@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsMultimediaLg [20x20/16z] {
+RP050WGn20CBGU__3xvqtOBFIcLy2BKgwLiW0k7AeifMFTY6HxTwDz3jsXrEvcIsCbFooOR8O52iZ8LDOVvVPtSm8n0hlJ2f-RDXUM58qaoKN5X8YVtiohIq
+-KUjwngHPVohNHXXHTJQddk66ROzVvtjymw-xWhRNLu2uqD_
+}
+
+!function AwsMultimedia($id, $name="Multimedia", $tech="")
+  CloudElement($id, 'aws/General/AwsMultimedia', $name, $tech)
+!endfunction
+!function AwsMultimediaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMultimediaLg>', 'Multimedia', $funcName, $content)
+!endfunction
+@enduml

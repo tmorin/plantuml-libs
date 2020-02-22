@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsOnVmwareLg [20x20/16z] {
+fOut0WL124ABKNWwzp_lZsxezrL6e9-Xy5GEJHN1LAoSodplQggJqfVg2vibQo5VeoPj9tqELPkG56mqCnB2Ta2UaWLfAw7wf1f9jgGHd48PaYPqBBwgQe0n
+mNHl-rjNzWrIajBzZ3S
+}
+
+!function AwsRdsOnVmware($id, $name="Rds On Vmware", $tech="")
+  CloudElement($id, 'aws/Database/AwsRdsOnVmware', $name, $tech)
+!endfunction
+!function AwsRdsOnVmwareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsRdsOnVmwareLg>', 'Rds On Vmware', $funcName, $content)
+!endfunction
+@enduml

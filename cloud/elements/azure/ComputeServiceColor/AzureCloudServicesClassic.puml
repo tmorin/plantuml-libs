@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCloudServicesClassicLg [24x20/16z] {
+PT654S0W50FG7sF_aNjeBLNUuTGZT5fKtoYjnzW09uRQYZUFUkcYz4QSxbMl0qgdGPOQHH5CTZSp0M83q-5sd75_DUDHkvTa3ScgdRXaix1MuUmfezUcwTLw
+kMpCgjCp6N5OkfqPRzW1V7Cfiu7kwdDJ8STaaTDZeSuEvGogEk6YsUKZ6cnG_9rLz8GB
+}
+
+!function AzureCloudServicesClassic($id, $name="Cloud Services Classic", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/AzureCloudServicesClassic', $name, $tech)
+!endfunction
+!function AzureCloudServicesClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCloudServicesClassicLg>', 'Cloud Services Classic', $funcName, $content)
+!endfunction
+@enduml

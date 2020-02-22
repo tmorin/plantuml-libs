@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureEventGridTopicsLg [20x20/16z] dT230GD14030jVhlDtdRSpO0gBQE-z1MiktRi2eaxEiiVIbcBEBHodA2tb7VTcqF6Q57EjR4pADNmKTznskFp_XyFrQ5BJtugwXw-iz_
+
+!function AzureEventGridTopics($id, $name="Event Grid Topics", $tech="")
+  CloudElement($id, 'azure/IntegrationServiceColor/AzureEventGridTopics', $name, $tech)
+!endfunction
+!function AzureEventGridTopicsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureEventGridTopicsLg>', 'Event Grid Topics', $funcName, $content)
+!endfunction
+@enduml

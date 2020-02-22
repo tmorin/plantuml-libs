@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsOpacityLg [20x20/16z] {
+bSq54aKX241HoXRT_sf_mYkdl5FCCO3TH5PIbOLISZm9qV4aW1kovWzzC2iROIdud7ZuwJc6XcxOWXkJnMuoXrfZscRIUQG4_z9f2IogJfN0e_AdGd26acfD
+Wh3L6m
+}
+
+!function MaterialsOpacity($id, $name="Opacity", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsOpacity', $name, $tech)
+!endfunction
+!function MaterialsOpacityCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsOpacityLg>', 'Opacity', $funcName, $content)
+!endfunction
+@enduml

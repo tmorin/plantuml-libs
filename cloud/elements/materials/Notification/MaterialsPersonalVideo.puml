@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPersonalVideoLg [20x20/16z] rT0r0W113090MFVy_xMdpRcKEqq29VYAve1Wg7cd1h9OxjX25eCTqq6Najz9YT3p4sKHvrzZfTjSDNqn6F7B2
+
+!function MaterialsPersonalVideo($id, $name="Personal Video", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPersonalVideo', $name, $tech)
+!endfunction
+!function MaterialsPersonalVideoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPersonalVideoLg>', 'Personal Video', $funcName, $content)
+!endfunction
+@enduml

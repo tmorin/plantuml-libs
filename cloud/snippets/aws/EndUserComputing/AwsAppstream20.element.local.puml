@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsAppstream20 element
+include('elements/aws/EndUserComputing/AwsAppstream20')
+AwsAppstream20('element', 'Appstream20', 'an optional tech field')
+@enduml

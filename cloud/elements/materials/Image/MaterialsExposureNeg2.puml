@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsExposureNeg2Lg [20x20/16z] jOt50OD044N7BTd-outW35Tunw_m7AHktAHAzQ4dpLu448b7ZVyzBuG6baqp7Z-SvdvHr_JTVl-IT4ck4eyKPiPJi_97dHTn0kxd2m
+
+!function MaterialsExposureNeg2($id, $name="Exposure Neg2", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsExposureNeg2', $name, $tech)
+!endfunction
+!function MaterialsExposureNeg2Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsExposureNeg2Lg>', 'Exposure Neg2', $funcName, $content)
+!endfunction
+@enduml

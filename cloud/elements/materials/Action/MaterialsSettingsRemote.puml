@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsRemoteLg [20x20/16z] {
+jSg53GGn44DH3pYSJF_T7ZEiQ9yi-ZBEDBMrMbBSIHuzfvJxo79BjRlWIBpNMtI566a2TTnPc-qumnDc5T5CR34_ifUaCzQAgIyjYcg9rxOCiFNsSy3VVvti
+wwt5qSwjZQFsqY1w9BWu
+}
+
+!function MaterialsSettingsRemote($id, $name="Settings Remote", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsRemote', $name, $tech)
+!endfunction
+!function MaterialsSettingsRemoteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsRemoteLg>', 'Settings Remote', $funcName, $content)
+!endfunction
+@enduml

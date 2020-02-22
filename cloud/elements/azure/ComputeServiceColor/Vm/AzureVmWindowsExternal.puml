@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmWindowsExternalLg [22x20/16z] {
+fSm54e0m34JH9XiTxdzUN6gZVBIlOZuK-MAZwMvgNN7gqmwwrwa0qYWJ0RI_6gMfCZEmlnezZnJyEHTW0VTg-dLg0wzwz6MgH_Q55RhYM9PWkYflXvOcKhCu
+TfhIfvflUi86
+}
+
+!function AzureVmWindowsExternal($id, $name="Vm Windows External", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmWindowsExternal', $name, $tech)
+!endfunction
+!function AzureVmWindowsExternalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmWindowsExternalLg>', 'Vm Windows External', $funcName, $content)
+!endfunction
+@enduml

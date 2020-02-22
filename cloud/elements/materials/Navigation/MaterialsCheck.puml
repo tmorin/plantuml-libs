@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCheckLg [20x20/16z] Ow0nOCGKOk5Wn13YOQDSY9a5KnKRBmkcHZOU5eGGGf0TqtWsVZPC7x4mqZ2y
+
+!function MaterialsCheck($id, $name="Check", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsCheck', $name, $tech)
+!endfunction
+!function MaterialsCheckCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCheckLg>', 'Check', $funcName, $content)
+!endfunction
+@enduml

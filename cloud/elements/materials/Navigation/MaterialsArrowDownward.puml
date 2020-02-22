@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsArrowDownwardLg [20x20/16z] jSYr5G11203HSvV-gprP759sedc_oMWOeYrBJUlc3WosrAvR1zQjAzYt7twc2N1PW3Jk-mQayBw1309P_2YX5m
+
+!function MaterialsArrowDownward($id, $name="Arrow Downward", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsArrowDownward', $name, $tech)
+!endfunction
+!function MaterialsArrowDownwardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsArrowDownwardLg>', 'Arrow Downward', $funcName, $content)
+!endfunction
+@enduml

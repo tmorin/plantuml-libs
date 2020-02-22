@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSecurityIdentityAndComplianceLg [20x20/16z] {
+XT170WH124BHIGfQzx_lOETSNrTloUkozw4YiCAS2J-C8KwDbYLkvjWQt6LAwcMH8O91x8kbEwFUiBCiyurXiOYjeMij2Op6nLe0yBfOhH4m4MTBMHAAkJNf
+7Ch0eUrMxyyXsKL_
+}
+
+!function AwsSecurityIdentityAndCompliance($id, $name="Security Identity And Compliance", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSecurityIdentityAndCompliance', $name, $tech)
+!endfunction
+!function AwsSecurityIdentityAndComplianceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSecurityIdentityAndComplianceLg>', 'Security Identity And Compliance', $funcName, $content)
+!endfunction
+@enduml

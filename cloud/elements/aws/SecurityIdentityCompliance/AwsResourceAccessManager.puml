@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsResourceAccessManagerLg [20x20/16z] {
+RSg5bS1030FH0ylIRFglDqm7aopzPvvonJ_ubgi1hQVIPWE5E6jsNAU1Ak0gHvUvBIYxRaj9PLpoQKDW1o9bDGwBka5hcx5RPniMguZJ_CoTrenes-oyp6hr
+IbocKDzEjoe-pRBABScj1gPfhD7oDW1ijk7JPN_miGSN
+}
+
+!function AwsResourceAccessManager($id, $name="Resource Access Manager", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsResourceAccessManager', $name, $tech)
+!endfunction
+!function AwsResourceAccessManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsResourceAccessManagerLg>', 'Resource Access Manager', $funcName, $content)
+!endfunction
+@enduml

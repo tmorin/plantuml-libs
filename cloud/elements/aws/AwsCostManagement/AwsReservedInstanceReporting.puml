@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsReservedInstanceReportingLg [20x20/16z] {
+RSw54SGm34JH0sb1_HUSCOLt-2Nsjzjq7kaNz0jwZRoQB4I0PyjCg76UxCz-_1UxAPcj5mmsAzk0XSoaWMvbXkoKKbQmMxrPSPo537YQMsEcbbN-Uv__j3ri
+lJaprR0wjdYWGLkjaVRToYzMXxtW1W
+}
+
+!function AwsReservedInstanceReporting($id, $name="Reserved Instance Reporting", $tech="")
+  CloudElement($id, 'aws/AwsCostManagement/AwsReservedInstanceReporting', $name, $tech)
+!endfunction
+!function AwsReservedInstanceReportingCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsReservedInstanceReportingLg>', 'Reserved Instance Reporting', $funcName, $content)
+!endfunction
+@enduml

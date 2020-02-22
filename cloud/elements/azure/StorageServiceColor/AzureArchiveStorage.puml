@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureArchiveStorageLg [21x20/16z] {
+ZSu53iD034HHhN7ivFxdRKOB1L6Vq7zHP0nH7QHgglQCbMOwR1ecmxokXhkAEPbmFVfcDF7fYUA_KTrch0ZNc3HS8Xchqb04HmZwUev7kCNaF9JDo84IaM49
+nioC922HXXrdeupVE37MqWTVjycFkZlb5tRK3plg7n6rVtDq2VY7BoKl
+}
+
+!function AzureArchiveStorage($id, $name="Archive Storage", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureArchiveStorage', $name, $tech)
+!endfunction
+!function AzureArchiveStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureArchiveStorageLg>', 'Archive Storage', $funcName, $content)
+!endfunction
+@enduml

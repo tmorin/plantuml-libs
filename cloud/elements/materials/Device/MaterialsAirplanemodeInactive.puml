@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAirplanemodeInactiveLg [20x20/16z] {
+VT076eCW50DWU9FD_M_RfiEjSVygv2CyXSuaNKzVwFGDnM8d2rnjjIt6lDYAv76FDe6oaMXjZZTcNqfAcGYmQeH47xEw-1TdmgTKZ2Ewj6OXMX5yYAzXIT0p
+hhEZCoeTsgHmG6aJ2yE55gBYQeKn-9g8OuLpNW
+}
+
+!function MaterialsAirplanemodeInactive($id, $name="Airplanemode Inactive", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsAirplanemodeInactive', $name, $tech)
+!endfunction
+!function MaterialsAirplanemodeInactiveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAirplanemodeInactiveLg>', 'Airplanemode Inactive', $funcName, $content)
+!endfunction
+@enduml

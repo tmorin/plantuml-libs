@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsLightsailLg [20x20/16z] jO-t0SH040BVCB3zLombv-ERR2rGbuYThODUoDmIAK1J4qB-_y2qbee5wOisjXMhvACN-RYTHS2Jnkdbz7nckyG3
+
+!function AwsLightsail($id, $name="Lightsail", $tech="")
+  CloudElement($id, 'aws/Compute/AwsLightsail', $name, $tech)
+!endfunction
+!function AwsLightsailCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsLightsailLg>', 'Lightsail', $funcName, $content)
+!endfunction
+@enduml

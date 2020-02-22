@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBusinessLg [20x20/16z] {
+ZSzL0eL0241Hm6bg_wjzORVUppC9l0t3KBSoCX5NiROs3TGovZDZmg7nhAce2m_HVryAN4AHq9UqDyAQ83KShkhDQb4kh2L0I3UsFxj-8n9GDzZobmYn3BRw
+Co0Ux5-OpleoXzZFCEn2UDiN
+}
+
+!function MaterialsBusiness($id, $name="Business", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsBusiness', $name, $tech)
+!endfunction
+!function MaterialsBusinessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBusinessLg>', 'Business', $funcName, $content)
+!endfunction
+@enduml

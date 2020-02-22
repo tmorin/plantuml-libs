@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVolumeUpLg [20x20/16z] dT2r0GGX54NHztLm-gyMITPrRdXmS29w1avshto0l8HRv9W0I5vufRuDKWmxKjNObx43dcYRzjssAf3AzzOTNEIhNTS-d_5ybmztVdxRzG-YNUdA_pK1
+
+!function MaterialsVolumeUp($id, $name="Volume Up", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVolumeUp', $name, $tech)
+!endfunction
+!function MaterialsVolumeUpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVolumeUpLg>', 'Volume Up', $funcName, $content)
+!endfunction
+@enduml

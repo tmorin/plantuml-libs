@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMachineLearningStudioWorkspacesLg [20x20/16z] {
+ZOy73iGm20Iz2-p_dtoco9nw9dqqH2A-GX1WNdCo0cT1tT8XENKMqx51fkEe9l1c3rpX7hBN8SCW8yxEjaEwdLttDsjom0FFLKw0uUFShBCAwUP14frbQE3b
+N4m6-cMthynLs3YJqtQxSH5QruGUzVyV
+}
+
+!function AzureMachineLearningStudioWorkspaces($id, $name="Machine Learning Studio Workspaces", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces', $name, $tech)
+!endfunction
+!function AzureMachineLearningStudioWorkspacesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMachineLearningStudioWorkspacesLg>', 'Machine Learning Studio Workspaces', $funcName, $content)
+!endfunction
+@enduml

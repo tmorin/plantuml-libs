@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVmwareCloudLg [20x20/16z] {
+RSe53W9140NHPB_r_K_C2B3M5N-fh7mh3QR1D7WHtKsSuMhYJXUZ08XOk4tqD5DOkCaSG7ZWDZfcXXsICQo69UkBSMohI340nn2POHCv0bTEfbLc9fHTdUXS
+RU2rQh0Qh0O_
+}
+
+!function AwsVmwareCloud($id, $name="Vmware Cloud", $tech="")
+  CloudElement($id, 'aws/Compute/AwsVmwareCloud', $name, $tech)
+!endfunction
+!function AwsVmwareCloudCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVmwareCloudLg>', 'Vmware Cloud', $funcName, $content)
+!endfunction
+@enduml

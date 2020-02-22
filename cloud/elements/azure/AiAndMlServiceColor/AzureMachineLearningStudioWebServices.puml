@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMachineLearningStudioWebServicesLg [20x20/16z] {
+JOy93iGm20FnnV-Vl2IbgqxFZ6mawWLoOjK7Ah8KuQEaCkV-IyInxcslasGnUYPi3ZKLSnvWWim3OP7pNDUTUSZOdYTdM9lpVBl5DhWE1hNkv9Gu0svNO3mP
+mjA98I7WPfdqg8tX1fsOknOE2i7TLI7aeLs7ZJ5z2DOvfFl1hpjxBVft-oMr_
+}
+
+!function AzureMachineLearningStudioWebServices($id, $name="Machine Learning Studio Web Services", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureMachineLearningStudioWebServices', $name, $tech)
+!endfunction
+!function AzureMachineLearningStudioWebServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMachineLearningStudioWebServicesLg>', 'Machine Learning Studio Web Services', $funcName, $content)
+!endfunction
+@enduml

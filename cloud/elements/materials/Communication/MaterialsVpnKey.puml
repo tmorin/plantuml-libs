@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVpnKeyLg [20x20/16z] lSu35WKn30NGeDRR_sg_CSNXuDPCw1hgOt3IRTcAXwpRMmqlYUad045DVlJMlLZcX2945Zz5Ldlzs_GSk8_X0TFbyjlhStOnAesOwNXt
+
+!function MaterialsVpnKey($id, $name="Vpn Key", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsVpnKey', $name, $tech)
+!endfunction
+!function MaterialsVpnKeyCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVpnKeyLg>', 'Vpn Key', $funcName, $content)
+!endfunction
+@enduml

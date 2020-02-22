@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsLooks5 element
+include('elements/materials/Image/MaterialsLooks5')
+MaterialsLooks5('element', 'Looks5', 'an optional tech field')
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDnsLg [20x20/16z] ZP150W1H24BnMzFU_xJJtMzf0lWDiUnW6ceSKTMnmaDDmXCNQqt6MfK0FTKQ1knKYqAjEjQuh7QKZ04wWFlQTVVwurxBlUQhjxiCRhFwJGS
+
+!function MaterialsDns($id, $name="Dns", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDns', $name, $tech)
+!endfunction
+!function MaterialsDnsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDnsLg>', 'Dns', $funcName, $content)
+!endfunction
+@enduml

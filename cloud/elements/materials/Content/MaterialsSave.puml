@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSaveLg [20x20/16z] {
+ZP055e0W40NfZlkVrcB3rb7Wlw4H_r66aAXAoOFQenhE52q7jgCq6MUOlaXvTTrigLepyEmwySEL4Ch9PIs4paVdrkJOFIM_9dzqpIdb6ZbLniRGA7ehOgX_
+p
+}
+
+!function MaterialsSave($id, $name="Save", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsSave', $name, $tech)
+!endfunction
+!function MaterialsSaveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSaveLg>', 'Save', $funcName, $content)
+!endfunction
+@enduml

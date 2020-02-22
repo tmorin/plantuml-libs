@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMarkunreadMailboxLg [20x20/16z] jSp50GL130BGa75Z-g_soxhVzXqJG7wG-f-JsVsDvF4Mz0UxM_QovrAY4vic_mLjmxphawQ_6_StFjqy_EbMSptSPk_TslxMVZT4jWr6oE-eEv1BNm
+
+!function MaterialsMarkunreadMailbox($id, $name="Markunread Mailbox", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsMarkunreadMailbox', $name, $tech)
+!endfunction
+!function MaterialsMarkunreadMailboxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMarkunreadMailboxLg>', 'Markunread Mailbox', $funcName, $content)
+!endfunction
+@enduml

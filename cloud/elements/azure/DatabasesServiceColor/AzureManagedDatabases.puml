@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagedDatabasesLg [19x20/16z] {
+RSs5OSH044FHatRGwR_VZCo1RtvU-FmVG09u0Qzk8jVUJHXRfXPEIiedFOoYhSD86Ith8DMTMLLzawfmzyWNbTlUGxNlgB1JbyOSUv2YOuulW8iGdNCw0E_n
+8PU0_UMsRGT9EDIpg0W7OSWZhKM0Y2BIjeEup8RIW5K7VI2R0Dqatm
+}
+
+!function AzureManagedDatabases($id, $name="Managed Databases", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureManagedDatabases', $name, $tech)
+!endfunction
+!function AzureManagedDatabasesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagedDatabasesLg>', 'Managed Databases', $funcName, $content)
+!endfunction
+@enduml

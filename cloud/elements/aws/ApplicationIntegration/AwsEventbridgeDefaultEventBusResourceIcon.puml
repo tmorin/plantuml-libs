@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEventbridgeDefaultEventBusResourceIconLg [20x20/16z] {
+hOrPaWD02491mViVUNfnhCvtydh5Ki0l83zrh2Frft7UMlhfAo82hFy-xc9waT4IDbU7ChMwwS96WjKVYO_VOloufDpvEffLUljK-yzkw7QYOM0Hn10UOhfo
+8Bxa3m
+}
+
+!function AwsEventbridgeDefaultEventBusResourceIcon($id, $name="Eventbridge Default Event Bus Resource Icon", $tech="")
+  CloudElement($id, 'aws/ApplicationIntegration/AwsEventbridgeDefaultEventBusResourceIcon', $name, $tech)
+!endfunction
+!function AwsEventbridgeDefaultEventBusResourceIconCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEventbridgeDefaultEventBusResourceIconLg>', 'Eventbridge Default Event Bus Resource Icon', $funcName, $content)
+!endfunction
+@enduml

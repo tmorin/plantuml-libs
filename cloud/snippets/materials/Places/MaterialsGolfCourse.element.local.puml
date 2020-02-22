@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsGolfCourse element
+include('elements/materials/Places/MaterialsGolfCourse')
+MaterialsGolfCourse('element', 'Golf Course', 'an optional tech field')
+@enduml

@@ -1,0 +1,81 @@
+# MaterialsPlayCircleFilledWhite
+```text
+elements/materials/Av/MaterialsPlayCircleFilledWhite
+```
+| Icon | Element | Card |
+| :-: | :-: | --- |
+| ![MaterialsPlayCircleFilledWhite icon](../../../icons/materials/Av/MaterialsPlayCircleFilledWhite.png) | ![MaterialsPlayCircleFilledWhite element](MaterialsPlayCircleFilledWhite.element.png) | ![MaterialsPlayCircleFilledWhite card](MaterialsPlayCircleFilledWhite.card.png) |
+## Element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsPlayCircleFilledWhite element
+include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
+MaterialsPlayCircleFilledWhite('element', 'Play Circle Filled White', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsPlayCircleFilledWhite element
+include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
+MaterialsPlayCircleFilledWhite('element', 'Play Circle Filled White', 'an optional tech field')
+@enduml
+```
+## Card
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/gcp')
+
+' loads the MaterialsPlayCircleFilledWhite card
+include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
+MaterialsPlayCircleFilledWhiteCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the MaterialsPlayCircleFilledWhite card
+include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
+MaterialsPlayCircleFilledWhiteCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```

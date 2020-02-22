@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpTraceLg [20x20/16z] {
+RP150i0W30HBRFl_3sERAim56sB7f2J7ZSIDv5M9yoPIjVE5KSFx3bFq_YXo__UHe6ioNmZwOGY8TnecmCqus4oW9L4QcpkT-WMlheI8mRWCrj9XeyfTYYO3
+OyrhR_iPtBEwjVTC0N2ckzat
+}
+
+!function GcpTrace($id, $name="Trace", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpTrace', $name, $tech)
+!endfunction
+!function GcpTraceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpTraceLg>', 'Trace', $funcName, $content)
+!endfunction
+@enduml

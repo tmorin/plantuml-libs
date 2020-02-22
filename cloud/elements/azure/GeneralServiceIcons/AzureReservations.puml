@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureReservationsLg [20x20/16z] {
+FP1Hbc1114CXa9dk_M-tgJhrykS28Y9gRkPUBAWSQJOPRXf5bby8ahP9qMZ6OK7sC4naLWSwCp9C8iMW0rsqMhVjC5ErBWMXMxvi22o8BJCzJ8Uv6gjBhghr
+gffvo_ptD-qq9p_syylAS1_szGA8BD_URuUU5TWT81IFgON5WEgFl9ltDnNu0e_xcqWC73bKdmSB6xPrzhmQ-RgPUJrzKbIJ_Rp_0m
+}
+
+!function AzureReservations($id, $name="Reservations", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureReservations', $name, $tech)
+!endfunction
+!function AzureReservationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureReservationsLg>', 'Reservations', $funcName, $content)
+!endfunction
+@enduml

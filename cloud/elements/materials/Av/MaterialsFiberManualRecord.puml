@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFiberManualRecordLg [20x20/16z] Ow0SCBAmih8meeYmSlC30JSh8qA8dHyAsE62hFnmm0fJneqGuuOgPE570Ym8hGZDECKmzMBQWUaMx6x6z1jc650E
+
+!function MaterialsFiberManualRecord($id, $name="Fiber Manual Record", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFiberManualRecord', $name, $tech)
+!endfunction
+!function MaterialsFiberManualRecordCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFiberManualRecordLg>', 'Fiber Manual Record', $funcName, $content)
+!endfunction
+@enduml

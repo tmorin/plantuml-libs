@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSignalWifi2BarLockLg [20x20/16z] {
+bSzL0iGW38JXcGJN-vzs1SZgK__wLmDSZVovb9FTC30s-a7v2tz8-vww46Dmkc2XXZBcim1OOUwQG4BGPLAsPIAGWGkrBKkW1xnWvSOspI5a__d9WFWy3EoO
+vapSDd6IKWG_1j7rYTvxnLUq2Vzr1m
+}
+
+!function MaterialsSignalWifi2BarLock($id, $name="Signal Wifi2 Bar Lock", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalWifi2BarLock', $name, $tech)
+!endfunction
+!function MaterialsSignalWifi2BarLockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalWifi2BarLockLg>', 'Signal Wifi2 Bar Lock', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBeachAccessLg [20x20/16z] {
+bSs5SKGn40FGPTFur7-t-MG89nf-2w9_XjLKU1U91k1LOwc6M-H-SDL1fIPZajJHT1nM0CsPh8ory8GpMOX7OpF3ZJmB47mUdxz639byqDphmlaWzMdoGYB9
+IjudSaMtit770Cf9EtATxnVgQlJAz2ad_JLl
+}
+
+!function MaterialsBeachAccess($id, $name="Beach Access", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsBeachAccess', $name, $tech)
+!endfunction
+!function MaterialsBeachAccessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBeachAccessLg>', 'Beach Access', $funcName, $content)
+!endfunction
+@enduml

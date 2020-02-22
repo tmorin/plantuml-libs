@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpAutomlVision element
+include('elements/gcp/AiAndMachineLearning/GcpAutomlVision')
+GcpAutomlVision('element', 'Automl Vision', 'an optional tech field')
+@enduml

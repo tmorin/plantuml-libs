@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAdB2cLg [22x20/16z] {
+PSm7Wk0W34DHi6p9ulu7Nfpiz9_Aewm9RDl2-bR8OsmhFX4zMCZvmN-C1pjjbZzPdfG-pFdPW_0RaE_v-R6qaa8MQbIZRMSAcpuDkTrpXDtee_2D5FLV3Pdf
+ILNKQDkrvu1R4oiPLsc1AlHWxHNpMk7aEQuw5mC1F5plPfcN2eN8N6lBJxh_LM2jNL_S151883FMvUp7nJkCOkwBuoYo06BDywkegbX_Ydpn7m
+}
+
+!function AzureAdB2c($id, $name="Ad B2c", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAdB2c', $name, $tech)
+!endfunction
+!function AzureAdB2cCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdB2cLg>', 'Ad B2c', $funcName, $content)
+!endfunction
+@enduml

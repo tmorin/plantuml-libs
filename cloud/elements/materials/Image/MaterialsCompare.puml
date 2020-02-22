@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCompareLg [20x20/16z] {
+jT0t5e0m30JHNMTRUjRzJqlEq3BbBmTR95x5YcikJ9K6XYctajfSWnCHrGM3RGQINiFTfYZ_MSuDvCqgOuFBl9WufCbwEaqzLkl1xPO8BcQQTBDMQzN5h5ku
+FvZCr7s_-dxwVZy2
+}
+
+!function MaterialsCompare($id, $name="Compare", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCompare', $name, $tech)
+!endfunction
+!function MaterialsCompareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCompareLg>', 'Compare', $funcName, $content)
+!endfunction
+@enduml

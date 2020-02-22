@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSagemakerNotebookLg [20x20/16z] {
+dP350O1G3CLUdVqN_eexv9Xw0H1lG4N3t2OycZG5Q0ImwdG8WNg7O7FUmfB7qXdpgEQ9DNHq4i7xMdOZg7LeTE4yxusrAnngtQtBonbqiVFUuNVU-DE5O9pz
+FWC
+}
+
+!function AwsSagemakerNotebook($id, $name="Sagemaker Notebook", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsSagemakerNotebook', $name, $tech)
+!endfunction
+!function AwsSagemakerNotebookCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSagemakerNotebookLg>', 'Sagemaker Notebook', $funcName, $content)
+!endfunction
+@enduml

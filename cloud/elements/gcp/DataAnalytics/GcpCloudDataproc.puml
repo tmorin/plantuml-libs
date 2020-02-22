@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudDataprocLg [20x20/16z] {
+RL050iGm24EJ_l_39y1ysThY4YdeG7OOTjYO56i79ZJM2T5XFDjOWTb97ktBVuCIQU6nMXB1f21yscmDg2evOd04IxVDo7QvhUNYhTNZvefGTo-JP2L2rJN3
+gaVDacQE__qVmcPcO2-UhxizENXoHRrmoXzsJX_SVm4
+}
+
+!function GcpCloudDataproc($id, $name="Cloud Dataproc", $tech="")
+  CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataproc', $name, $tech)
+!endfunction
+!function GcpCloudDataprocCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudDataprocLg>', 'Cloud Dataproc', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTriggersLg [18x20/16z] {
+ROy50e1020Iv8vV_FrYmQ-n1IbcG9_19WEfDfGyrOyyRIeNTZPqcL0s7wInC8cqZ9KPiwOOzGenkGUBev556Evi7SVJBaLInsK_mbbHeFUv96ThYdeGIHz8y
+jZgJ96yu5Vgt5E90jdyWB0VCJBCYWOiW6bo99z05
+}
+
+!function AzureTriggers($id, $name="Triggers", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTriggers', $name, $tech)
+!endfunction
+!function AzureTriggersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTriggersLg>', 'Triggers', $funcName, $content)
+!endfunction
+@enduml

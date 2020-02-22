@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDeleteForeverLg [20x20/16z] {
+bSx70SKW30DG2R12P_zfVqtpCU_eAZp3z45SabJMHv4ITgfbLuKTGmm_CH27t7OP1vQrAxpLUbshTbzBp9d9rmmapDTc0kBqjKo0sTLcX1dYT7D5OyZDkNmx
+hPrmOam_aNZY3G
+}
+
+!function MaterialsDeleteForever($id, $name="Delete Forever", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDeleteForever', $name, $tech)
+!endfunction
+!function MaterialsDeleteForeverCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDeleteForeverLg>', 'Delete Forever', $funcName, $content)
+!endfunction
+@enduml

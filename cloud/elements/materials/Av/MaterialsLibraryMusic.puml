@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLibraryMusicLg [20x20/16z] {
+TSjN0i1014LHJ2_O_sfJfMVkv-71CBf2eyXhiiII3OkkSMjDb6aZt2qXKbLPZ3BPNu3J-3I_Rj-cIpVhmT7R0W2ypVrON2ozZADFShUiLspcobM0tQuGORD0
+LtR9V5NGa6x1g1a
+}
+
+!function MaterialsLibraryMusic($id, $name="Library Music", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsLibraryMusic', $name, $tech)
+!endfunction
+!function MaterialsLibraryMusicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLibraryMusicLg>', 'Library Music', $funcName, $content)
+!endfunction
+@enduml

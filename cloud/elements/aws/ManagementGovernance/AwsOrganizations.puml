@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsOrganizationsLg [20x20/16z] hOx50KHH20DNI0RelzzrrszpY3ob5w3iUbb189vMS-DkR_9n3LkoU5gZxQC-a2eevSiV4Q9-pr89QH_rjeviHzZtdudWGKueKOkJfAvhgGSvOOcZk3dAFFO
+
+!function AwsOrganizations($id, $name="Organizations", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsOrganizations', $name, $tech)
+!endfunction
+!function AwsOrganizationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOrganizationsLg>', 'Organizations', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsComprehendLg [20x20/16z] {
+LSy92aGX38DX69kaUly3Z-6bW3-hd_lkIPhsYx4NOoYWYiQnXhgxLZ3h-WPcPOm0KMl961D5KcKpZW62oCinEDBt6u_DKM0tVU4vrxm8yb0rHhBd_bZkodbP
+zrLO_epjDB-atq_RblQjg_grAVPYxCK_
+}
+
+!function AwsComprehend($id, $name="Comprehend", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsComprehend', $name, $tech)
+!endfunction
+!function AwsComprehendCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsComprehendLg>', 'Comprehend', $funcName, $content)
+!endfunction
+@enduml

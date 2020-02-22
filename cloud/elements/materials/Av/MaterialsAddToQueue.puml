@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAddToQueueLg [20x20/16z] {
+bT230GCm40NG-pc7-qzRstsnGR-2F00XHhip0kYAEzftVK87mB6Kcpxtvxw8XpwOjMQ6sxvIwnYrblkrYC3N_VQOx_hkxFjgzJkrWdXVoNMG-phJ4Szzr-GN
+7mRwonO
+}
+
+!function MaterialsAddToQueue($id, $name="Add To Queue", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsAddToQueue', $name, $tech)
+!endfunction
+!function MaterialsAddToQueueCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAddToQueueLg>', 'Add To Queue', $funcName, $content)
+!endfunction
+@enduml

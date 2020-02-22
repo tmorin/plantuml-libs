@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStayPrimaryPortraitLg [20x20/16z] tT2n0G0G3011083zfmK0JE0QaYuFCeWoc80EArDehN3VSJ_mkTFDiXC85aZCtI-_UTkpmRlLR5hLfhrzLTj7
+
+!function MaterialsStayPrimaryPortrait($id, $name="Stay Primary Portrait", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsStayPrimaryPortrait', $name, $tech)
+!endfunction
+!function MaterialsStayPrimaryPortraitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStayPrimaryPortraitLg>', 'Stay Primary Portrait', $funcName, $content)
+!endfunction
+@enduml

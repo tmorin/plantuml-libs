@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsKeyboardArrowUpLg [20x20/16z] OnYCW8sD4KE8ZuyDNOY7XOK7LIKRBmi30weWAqW8ACZBYX1ZOeRGp4o3pki
+
+!function MaterialsKeyboardArrowUp($id, $name="Keyboard Arrow Up", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsKeyboardArrowUp', $name, $tech)
+!endfunction
+!function MaterialsKeyboardArrowUpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKeyboardArrowUpLg>', 'Keyboard Arrow Up', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsManagedServicesLg [20x20/16z] {
+fO-r0SH040CVXDT_mMQAFU62OBodiTF7A9GjvZQoMgUbhqSs1E2gnqmkA0ezH_ufyyoanZ6iAZ8bxNykNynJ8SOnQmOnZq3vyarDc01oHNPdBypS4egIGK2F
+mkayOiUJrXqlcG
+}
+
+!function AwsManagedServices($id, $name="Managed Services", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsManagedServices', $name, $tech)
+!endfunction
+!function AwsManagedServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsManagedServicesLg>', 'Managed Services', $funcName, $content)
+!endfunction
+@enduml

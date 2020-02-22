@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSpatialAnchorLg [19x20/16z] {
+LK_50KKn38eIs7_WBqzRJb74LYJ5t2SIfMqsAY_DCd7IpQdzAYt5TTG75wwk2BUGTDCVJVy_zR3NltRBvyWRu03fyr-OUw8pCgBGnwZ9gJYHWq6R9COzWeSZ
+k8t20Xx0T9wZ6ZJg40GE-aPcvMthD157irkzyGRQqPhdxGi
+}
+
+!function AzureSpatialAnchor($id, $name="Spatial Anchor", $tech="")
+  CloudElement($id, 'azure/MixedRealityServiceIcon/AzureSpatialAnchor', $name, $tech)
+!endfunction
+!function AzureSpatialAnchorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSpatialAnchorLg>', 'Spatial Anchor', $funcName, $content)
+!endfunction
+@enduml

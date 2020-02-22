@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPageviewLg [20x20/16z] {
+fP150e1030FJPbt__riSkcVcL9VW5_GB1A1rBbJTO-EmUawvdx7nnAeJWCN6XeDGmMPYMQGSWvA99N3tF8AjExPt8dwnmrLFIBPx2m48M4rijXHY9jXCxAJo
+ZjdVMZj-MpK8uT3W5ni
+}
+
+!function MaterialsPageview($id, $name="Pageview", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPageview', $name, $tech)
+!endfunction
+!function MaterialsPageviewCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPageviewLg>', 'Pageview', $funcName, $content)
+!endfunction
+@enduml

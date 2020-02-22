@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAppServiceDomainsLg [24x20/16z] {
+TSa5Wi0m30F1QwELPV__lyTKsl140fq2-DpE_DbQQD-EoR0lQNiv9Wk4j7xIPrpoTpdMyzsHvxS7dWCVt5MEonyVIKzD-iF1UycA2EMia0-t40e6LsDCVtYM
+l3Erogi7PNa-7Q9Cqs6cFEJ3F-ivzy3pmFF0K_USDm
+}
+
+!function AzureAppServiceDomains($id, $name="App Service Domains", $tech="")
+  CloudElement($id, 'azure/WebServiceColor/AzureAppServiceDomains', $name, $tech)
+!endfunction
+!function AzureAppServiceDomainsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAppServiceDomainsLg>', 'App Service Domains', $funcName, $content)
+!endfunction
+@enduml

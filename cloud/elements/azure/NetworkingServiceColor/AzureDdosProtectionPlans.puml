@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDdosProtectionPlansLg [15x20/16z] {
+TT170W0X24DH1HBx_QyxJEzlzyrAmY9g38Se1fFbGLKDApDLdEZWqe9RijJcof6bzjxBTVMyhcDSrpwkQnlNjNLtPEr_gRVKO6HU91B-Et27vO-sbOMLm0Do
+daEnNMS2
+}
+
+!function AzureDdosProtectionPlans($id, $name="Ddos Protection Plans", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureDdosProtectionPlans', $name, $tech)
+!endfunction
+!function AzureDdosProtectionPlansCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDdosProtectionPlansLg>', 'Ddos Protection Plans', $funcName, $content)
+!endfunction
+@enduml

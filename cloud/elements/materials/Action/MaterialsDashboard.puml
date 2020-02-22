@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsDashboardLg [20x20/16z] Oo0QCBA00GC3X6O4YR7mWm0F8oCFcC52BJ5iTi3SWQAN7GoOGMBC43R2F2G05qFu0ov60tzWXXNH
+
+!function MaterialsDashboard($id, $name="Dashboard", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsDashboard', $name, $tech)
+!endfunction
+!function MaterialsDashboardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDashboardLg>', 'Dashboard', $funcName, $content)
+!endfunction
+@enduml

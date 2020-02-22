@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPregnantWomanLg [20x20/16z] ZK_50G0n30frP_zjxtlryanGEG1gEgbKp7ZJf9-aBgWNFnsJ6qx898SGrKW6p3U6-SQgvbkxtt9bpRcx2Jo3WlImqzxt6vII4pu
+
+!function MaterialsPregnantWoman($id, $name="Pregnant Woman", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPregnantWoman', $name, $tech)
+!endfunction
+!function MaterialsPregnantWomanCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPregnantWomanLg>', 'Pregnant Woman', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalPhoneLg [20x20/16z] {
+ZKu53aKn32ehoRpS_xHV8b-UZZXkou2Jlk5SKiEU6nikJIasONH9t1HcgM33SKyPMhOTE7rFvfvs76fzaw03tu-rkw4eHllM8CzSfCrJDkqu0tCFQNi1oHss
+Z2S
+}
+
+!function MaterialsLocalPhone($id, $name="Local Phone", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalPhone', $name, $tech)
+!endfunction
+!function MaterialsLocalPhoneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalPhoneLg>', 'Local Phone', $funcName, $content)
+!endfunction
+@enduml

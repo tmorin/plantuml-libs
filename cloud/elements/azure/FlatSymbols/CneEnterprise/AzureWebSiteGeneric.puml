@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureWebSiteGenericLg [14x20/16z] bSgr0GCn0CLGoSx-Av-PgxpkWs4ImcygQH64Kj48M5-mRMfDDYYM8QmS8x75_OD8OmLxP8iyNFY3cvfP4W
+
+!function AzureWebSiteGeneric($id, $name="Web Site Generic", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWebSiteGeneric', $name, $tech)
+!endfunction
+!function AzureWebSiteGenericCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWebSiteGenericLg>', 'Web Site Generic', $funcName, $content)
+!endfunction
+@enduml

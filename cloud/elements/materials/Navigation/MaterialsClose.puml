@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCloseLg [20x20/16z] Ow01O6I1iLWOuInULWY3bHSa2sEpmYbaGIY1AWWNGWZoyuE5CCK8wKNOWTCjc6x6z1iD
+
+!function MaterialsClose($id, $name="Close", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsClose', $name, $tech)
+!endfunction
+!function MaterialsCloseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCloseLg>', 'Close', $funcName, $content)
+!endfunction
+@enduml

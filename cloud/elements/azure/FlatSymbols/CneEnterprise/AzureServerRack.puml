@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureServerRackLg [20x20/16z] ZP054iGm30Flse0b-V_VBGoKWXj6xrXU81-YatFmcnnZpAxLddiXXEmqweO0o2KKB6J9j0jLn5KeNM3W3TekAfXn8TbmMQt85Q7lM-q
+
+!function AzureServerRack($id, $name="Server Rack", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerRack', $name, $tech)
+!endfunction
+!function AzureServerRackCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureServerRackLg>', 'Server Rack', $funcName, $content)
+!endfunction
+@enduml

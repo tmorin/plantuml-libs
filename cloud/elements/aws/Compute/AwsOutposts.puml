@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOutpostsLg [20x20/16z] {
+NSe73e0m34DHgR6TtF_2h4xpeUif-IKh3Ss6kX7u6uC8keLUnsc0y7IQub6IONC47yLfGfms6dFvMYsJzDYBDH2Qsslbzc0D19Tb3MHhqIA73GG43XjuLePc
+XZS
+}
+
+!function AwsOutposts($id, $name="Outposts", $tech="")
+  CloudElement($id, 'aws/Compute/AwsOutposts', $name, $tech)
+!endfunction
+!function AwsOutpostsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsOutpostsLg>', 'Outposts', $funcName, $content)
+!endfunction
+@enduml

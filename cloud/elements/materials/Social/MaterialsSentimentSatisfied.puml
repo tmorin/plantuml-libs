@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSentimentSatisfiedLg [20x20/16z] {
+VL054iGm20moWMt3_xzx4CwjkhCIPFovY9bU2SMAMD07pGXJ4RK0twW3qaXmD4d0FKBmZJLaKA7wIcWXjvHFIkhCW7c9AnL3SR1ChKGSLI11VoIukVlLN6Uv
+VRopNMDCIqGsHzVeNWnpOjvx8KULKkL7p--plU_0-NrNhlHtf-_N1G
+}
+
+!function MaterialsSentimentSatisfied($id, $name="Sentiment Satisfied", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsSentimentSatisfied', $name, $tech)
+!endfunction
+!function MaterialsSentimentSatisfiedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSentimentSatisfiedLg>', 'Sentiment Satisfied', $funcName, $content)
+!endfunction
+@enduml

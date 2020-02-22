@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPortableWifiOffLg [20x20/16z] {
+ZSq5ZaLH20FG0hqwJ_Q_sq76zJVMD9o0FoAgWhTG0SxZE8_5rtaiHHiqupYzbbgl3RPsLPctZpPNLyYQoNbm-iY-3y9EmZC7B2uX_L2C6VGW-jFASNTNZlKq
+h2x1qPTZVTt0u9mmzsMt81zPsloXnm2Irm_GCQUWnaOWgo10ZHNTMR-C8zkh-HgXuE4y0m
+}
+
+!function MaterialsPortableWifiOff($id, $name="Portable Wifi Off", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsPortableWifiOff', $name, $tech)
+!endfunction
+!function MaterialsPortableWifiOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPortableWifiOffLg>', 'Portable Wifi Off', $funcName, $content)
+!endfunction
+@enduml

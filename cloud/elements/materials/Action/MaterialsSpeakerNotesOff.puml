@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSpeakerNotesOffLg [20x20/16z] {
+RSw50SGW44JH5Lpxx_OMcVCVVqa0-XCpaRndpo4pXJ4w6ec9qyBvgWkHpeqbhqgVmqp6HgKLPzX2bfKMM2s6wbOLbZLb-VgtXJGDDSRKNdFeMBYM12lgpqJX
+PNFO0OIjWFrOpwTgw3qjQuvlM98qHmWee3T4mCI_QByz
+}
+
+!function MaterialsSpeakerNotesOff($id, $name="Speaker Notes Off", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSpeakerNotesOff', $name, $tech)
+!endfunction
+!function MaterialsSpeakerNotesOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSpeakerNotesOffLg>', 'Speaker Notes Off', $funcName, $content)
+!endfunction
+@enduml

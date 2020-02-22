@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDeveloperModeLg [20x20/16z] {
+VP273aCX24N54GGw_lzlcsk0qddUKs-EsmOeQS4GTMI4utl2JtTnYfFkIBgrIafeeExKYXAXg5DfHzjLA9L1GLh8hjfBYYWdTe5AkR77XahwH3sBclCpyIPd
+SxgRwS5k_E-jXbqS6osWxb033m
+}
+
+!function MaterialsDeveloperMode($id, $name="Developer Mode", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsDeveloperMode', $name, $tech)
+!endfunction
+!function MaterialsDeveloperModeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDeveloperModeLg>', 'Developer Mode', $funcName, $content)
+!endfunction
+@enduml

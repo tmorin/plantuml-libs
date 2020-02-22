@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureAvailabilitySetsLg [20x20/16z] {
+RP254S0m30DDKlRVs506jQ4_Sv1cprK8ghWlDfA72fgAsYbjs8VXL0mZnC5w-R0o19lDAp1owNZ3oBOawHrlPsLGWJUs-pBSB8Q19rCVvpsULNp2-ZZZYVZa
+07Z6QtPgZrTIrLWhwf0jta33MhZwRJrcy3Uhlvd-pJu1
+}
+
+!function AzureAvailabilitySets($id, $name="Availability Sets", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureAvailabilitySets', $name, $tech)
+!endfunction
+!function AzureAvailabilitySetsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAvailabilitySetsLg>', 'Availability Sets', $funcName, $content)
+!endfunction
+@enduml

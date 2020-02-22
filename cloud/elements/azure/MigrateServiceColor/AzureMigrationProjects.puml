@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMigrationProjectsLg [32x20/16z] {
+TT5L0iCm30DGA-RT_y1h4dqKFIWyXULK6ltxTHhahKOUkghqbIipgxkgsfviRkRk4KCGhLU5sjIOvKCa4e8Js-Ib37XMfOEkP9Q9e4yJ7LTsp1dibGmslx9O
+HjQCn1fzkQkgatUoZjtQxhwdfUuAc1_509tpbh7485Ylka_E05Um0kKYG-ddWEw0OsyDFVJc9lhDwpev7imR1_tAXbEEVkBWybrvy5TckM7o7m
+}
+
+!function AzureMigrationProjects($id, $name="Migration Projects", $tech="")
+  CloudElement($id, 'azure/MigrateServiceColor/AzureMigrationProjects', $name, $tech)
+!endfunction
+!function AzureMigrationProjectsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMigrationProjectsLg>', 'Migration Projects', $funcName, $content)
+!endfunction
+@enduml

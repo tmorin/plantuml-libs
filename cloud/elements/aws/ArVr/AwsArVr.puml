@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsArVrLg [20x20/16z] bSy30iGm04JHSB3tl-_MzgzVbOJJugwM4grLHcpDlqtiJ1_CuyTMHennDfV9gYSJvuzfO_B137Xj1Wcfstl-hoMF-s_pyD4YkAbsbdQrTb83
+
+!function AwsArVr($id, $name="Ar Vr", $tech="")
+  CloudElement($id, 'aws/ArVr/AwsArVr', $name, $tech)
+!endfunction
+!function AwsArVrCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsArVrLg>', 'Ar Vr', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,81 @@
+# AwsGeneral
+```text
+elements/aws/General/AwsGeneral
+```
+| Icon | Element | Card |
+| :-: | :-: | --- |
+| ![AwsGeneral icon](../../../icons/aws/General/AwsGeneral.png) | ![AwsGeneral element](AwsGeneral.element.png) | ![AwsGeneral card](AwsGeneral.card.png) |
+## Element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsGeneral element
+include('elements/aws/General/AwsGeneral')
+AwsGeneral('element', 'General', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsGeneral element
+include('elements/aws/General/AwsGeneral')
+AwsGeneral('element', 'General', 'an optional tech field')
+@enduml
+```
+## Card
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the AWS style
+include('styles/gcp')
+
+' loads the AwsGeneral card
+include('elements/aws/General/AwsGeneral')
+AwsGeneralCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the GCP style
+include('styles/gcp')
+
+' loads the AwsGeneral card
+include('elements/aws/General/AwsGeneral')
+AwsGeneralCard('card', 'an optional functional name', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```

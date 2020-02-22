@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEmrEmrEngineMaprM5Lg [20x20/16z] {
+fO_5WKDH24NX6lrNd7oNtSXvYaFz2cKIldMD6FrM9JDntKZ9ylHOA8WbAYHg0LGm2YK_ScTSqbjNtQikGudTJJSfOTSvNaXQiRZ70fGjDK0UkYFHdOyoY6E8
+J1PTT-_9zdaGttF7ak9gucvC2wn_ymK
+}
+
+!function AwsEmrEmrEngineMaprM5($id, $name="Emr Emr Engine Mapr M5", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsEmrEmrEngineMaprM5', $name, $tech)
+!endfunction
+!function AwsEmrEmrEngineMaprM5Card($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEmrEmrEngineMaprM5Lg>', 'Emr Emr Engine Mapr M5', $funcName, $content)
+!endfunction
+@enduml

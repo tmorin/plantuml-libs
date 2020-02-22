@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamPermissionsLg [20x20/16z] ZT2t0GGX44FHhq62wx_YYzOx21_ZGJuy0RZlgHiW3Q00W9RLd9Evt7Mo6YkjXiJ9vdkqbLRJ26T3N8shbR5EHX_XRFdvR1MbNdiytLJEHZ7m1m
+
+!function AwsIdentityAndAccessManagementIamPermissions($id, $name="Identity And Access Management Iam Permissions", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamPermissions', $name, $tech)
+!endfunction
+!function AwsIdentityAndAccessManagementIamPermissionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamPermissionsLg>', 'Identity And Access Management Iam Permissions', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCommandLineInterfaceLg [20x20/16z] fSwr0GGn34JHQB3_VW-N5Vg7po1rBV6I_WQGyZ_XOblSxIF3qgCS5dfO3G_xO8QH-NQr3mc0BnPbpfYxoFgM3sapyPzRKrth3G
+
+!function AwsCommandLineInterface($id, $name="Command Line Interface", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCommandLineInterface', $name, $tech)
+!endfunction
+!function AwsCommandLineInterfaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCommandLineInterfaceLg>', 'Command Line Interface', $funcName, $content)
+!endfunction
+@enduml

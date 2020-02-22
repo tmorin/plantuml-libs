@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsInboxLg [20x20/16z] nT053WH124HHfBsH-vzsVSSjEZzMUL60wr6OH5yIwKCY7mp2ECGIFjOHXh3VQnf3eDz1KR_chz9xfVSQJG9YaBcvjMO-68bF4jhwrVMU
+
+!function MaterialsInbox($id, $name="Inbox", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsInbox', $name, $tech)
+!endfunction
+!function MaterialsInboxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsInboxLg>', 'Inbox', $funcName, $content)
+!endfunction
+@enduml

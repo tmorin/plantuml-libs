@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVideocamOffLg [20x20/16z] {
+ZT3L0SCm34LH2ypmzf-sNAcOv7uUiyFFw0SL_KOTFp1E_To2Aov8kTQQwJ6cm1Mb0vs2wjtko0sTTPhTiOyyO6OpOUOptLvdklbCCqUH-vqzVoPPFz-kZNxz
+vl7E
+}
+
+!function MaterialsVideocamOff($id, $name="Videocam Off", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVideocamOff', $name, $tech)
+!endfunction
+!function MaterialsVideocamOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVideocamOffLg>', 'Videocam Off', $funcName, $content)
+!endfunction
+@enduml

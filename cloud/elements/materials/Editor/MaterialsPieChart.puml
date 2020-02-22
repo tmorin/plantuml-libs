@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPieChartLg [20x20/16z] {
+VP052WGn40IplcFq_tzxh4MRAu9LnjCVvklLJ9leDAbiKuaHmAV909a_fVWSx96Je3Z8dRwYTjWkTxPEhbJxdFg5NbF5wzBqa8YZkQG7cuNDJ7VZDxYOrdmh
+VbFE3m
+}
+
+!function MaterialsPieChart($id, $name="Pie Chart", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsPieChart', $name, $tech)
+!endfunction
+!function MaterialsPieChartCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPieChartLg>', 'Pie Chart', $funcName, $content)
+!endfunction
+@enduml

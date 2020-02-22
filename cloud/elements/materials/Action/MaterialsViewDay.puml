@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewDayLg [20x20/16z] Oo0MCBAW0aQW61CVFmfW0ObneW9cN0OoeGAm40yVCk1bncO7fMAOTc2w1Jl0z1iEEp33YcW
+
+!function MaterialsViewDay($id, $name="View Day", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewDay', $name, $tech)
+!endfunction
+!function MaterialsViewDayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewDayLg>', 'View Day', $funcName, $content)
+!endfunction
+@enduml

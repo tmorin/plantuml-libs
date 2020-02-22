@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsQueryBuilderLg [20x20/16z] {
+VP255SKm24MBH5uFx3_k5wXBFBauqs0GCvs1mjmDkcE6DnNHvk0LpP1y2UQ41D3_odUFMpsqMfpY-hzwc-9A-zR_wgP7flOpPfULfJ7lh3PQsMPB1KfXcp5o
+SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
+}
+
+!function MaterialsQueryBuilder($id, $name="Query Builder", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsQueryBuilder', $name, $tech)
+!endfunction
+!function MaterialsQueryBuilderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsQueryBuilderLg>', 'Query Builder', $funcName, $content)
+!endfunction
+@enduml

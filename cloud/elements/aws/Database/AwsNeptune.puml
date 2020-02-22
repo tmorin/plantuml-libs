@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsNeptuneLg [20x20/16z] {
+RSi7aWD134BHNLiIYBx_VSta-2VsgqAkpv7K2-e5vLZfYXkQaF2HI1uMMFPPXqqxbt6oyj0r_0CkbgqvGFZMOf6WmvUgW6ruwtCLc5bXiGrlXnmxAZUBOikp
+26HhiK8v9104LfEt3XM-DDcWjmxfUKlguNePTnSqDPPqRcoTxGL_
+}
+
+!function AwsNeptune($id, $name="Neptune", $tech="")
+  CloudElement($id, 'aws/Database/AwsNeptune', $name, $tech)
+!endfunction
+!function AwsNeptuneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsNeptuneLg>', 'Neptune', $funcName, $content)
+!endfunction
+@enduml

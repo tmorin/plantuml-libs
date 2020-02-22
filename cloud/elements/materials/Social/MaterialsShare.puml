@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsShareLg [20x20/16z] {
+XP1L0aKX448dRMN_gtsTD_HyJWAqH6HN2gs5JKa7CFI_PhZnLsEl3SZykvYpYjchnAeigJh_x2ICKkEV2iKD9rhLE6vtzpysMlYkPQEv0ecttlP-fGDzczPj
+ssaBCvrm1G
+}
+
+!function MaterialsShare($id, $name="Share", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsShare', $name, $tech)
+!endfunction
+!function MaterialsShareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsShareLg>', 'Share', $funcName, $content)
+!endfunction
+@enduml

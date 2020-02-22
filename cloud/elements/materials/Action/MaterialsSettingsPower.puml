@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsPowerLg [20x20/16z] {
+dSx50KGX30JGJ1phlznrMBS_9tWGeKzXVhQ8PykyltlWQ0XVfCFE_speXL1ZraR5sMJmD1voDgkOXcgtvdvhsdajtdKUR9gjPszocTRNWiYc88As12sCqJBR
+2D1Ds2ACQKDWJAh4XXlhIfca_Mnx
+}
+
+!function MaterialsSettingsPower($id, $name="Settings Power", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsPower', $name, $tech)
+!endfunction
+!function MaterialsSettingsPowerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsPowerLg>', 'Settings Power', $funcName, $content)
+!endfunction
+@enduml

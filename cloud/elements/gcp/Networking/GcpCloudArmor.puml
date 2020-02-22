@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudArmorLg [20x20/16z] {
+RP070aCX24C_WGJlV-8okjlyeJxPryZkkfw2di8TcSvJkfl6ULEiMVO-oLt7aBqBk2EQiX1gGqJE1UjVQTH1UCQH7LhNs8VII2xBGcFdJejX1PTPoAa7yuP4
+8PfSOx6bE2Y8taXRon729OmPfkQ1HGVnRs-_C_YTrPgzPfgPEzD_ixy1
+}
+
+!function GcpCloudArmor($id, $name="Cloud Armor", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudArmor', $name, $tech)
+!endfunction
+!function GcpCloudArmorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudArmorLg>', 'Cloud Armor', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCallSplitLg [20x20/16z] nKh50SH02CJbZFwhFOidl-Zi0cEm3MngyYFo9TnuLfNq8vHLrdXQvNsgBKj__ga-FTkU4EZFbEyYWHu_4nizDHU8kCOJWJtm0G
+
+!function MaterialsCallSplit($id, $name="Call Split", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsCallSplit', $name, $tech)
+!endfunction
+!function MaterialsCallSplitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCallSplitLg>', 'Call Split', $funcName, $content)
+!endfunction
+@enduml

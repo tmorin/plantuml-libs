@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsColorLensLg [20x20/16z] {
+bP1LWeCX30QZE7ptF-rkIwW__OCF7he6YvhoX_4wWDaIlrHfghshjgPFXKHK2b52bt0ETBCnp3gGOrahNh6fNiPUABT6m-bji4-qPUpXd6rjfvXjXhjrpjw5
+DzAv0uSrkpDjF4mp4NvzustNfopqARqjTFwDbT1L_W4
+}
+
+!function MaterialsColorLens($id, $name="Color Lens", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsColorLens', $name, $tech)
+!endfunction
+!function MaterialsColorLensCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsColorLensLg>', 'Color Lens', $funcName, $content)
+!endfunction
+@enduml

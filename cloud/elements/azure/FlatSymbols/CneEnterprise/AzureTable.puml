@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureTableLg [20x20/16z] hT2r5G0n203G5zpsd_SujpQ_Y0iGcDN8rbQfLjFNW5O3cOXnq2f0j06lBQ6kvl-hrf3Nbj5MLonh2qSi69Dhu9aPfDc4SXMu0RXRhFXR
+
+!function AzureTable($id, $name="Table", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTable', $name, $tech)
+!endfunction
+!function AzureTableCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTableLg>', 'Table', $funcName, $content)
+!endfunction
+@enduml

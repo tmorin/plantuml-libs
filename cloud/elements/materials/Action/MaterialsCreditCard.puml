@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCreditCardLg [20x20/16z] fT054e0W441HXsQ_SV_JsjtAcuRjB8csRiNgzab1b5a4rRuLUfDLz6zMhTZ-hTpftwgDuGrPeRpieTPlwiFRUJs8Aw3ERf2a0G
+
+!function MaterialsCreditCard($id, $name="Credit Card", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsCreditCard', $name, $tech)
+!endfunction
+!function MaterialsCreditCardCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCreditCardLg>', 'Credit Card', $funcName, $content)
+!endfunction
+@enduml

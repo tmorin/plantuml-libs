@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTunnelLg [110x20/16z] {
+lPP50e0m30Jhcl-_byMXzzsvu4mrYGEX3fizuymFup2AToVfKZJSYDD8Z7ZA7a67hXYBcI0BdzvKN0vZCO9pxQj7RwlHgCj4DURCeJFrV-rvonAK_hzEvz2I
+wCkuPUh4pRMln3q0j3RjIFR_TUIk4kqEqEvkQUGIH-KrurHYnb5cqrCcgXI20ni
+}
+
+!function AzureTunnel($id, $name="Tunnel", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTunnel', $name, $tech)
+!endfunction
+!function AzureTunnelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTunnelLg>', 'Tunnel', $funcName, $content)
+!endfunction
+@enduml

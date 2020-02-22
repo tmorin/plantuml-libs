@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLockOpenLg [20x20/16z] {
+TOy35aL1240ppcZ_g_t6KtUO2xuWmW7orfpsgXOYqNRA20J0y8qAWv-FD8GZlD7H1-s2F_FuqVYjqyRqWPk-TPQ_D9YsrI6UT9H9HvskfOLVaQ-eU-oldWDe
+0nJS0G
+}
+
+!function MaterialsLockOpen($id, $name="Lock Open", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLockOpen', $name, $tech)
+!endfunction
+!function MaterialsLockOpenCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLockOpenLg>', 'Lock Open', $funcName, $content)
+!endfunction
+@enduml

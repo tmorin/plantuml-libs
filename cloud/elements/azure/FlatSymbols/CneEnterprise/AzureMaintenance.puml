@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMaintenanceLg [14x20/16z] {
+TSg50G0n20F0r1l8_kk-krI00x8QfbCpK0fMPLMWUKvp1bKcYT6d77sPIO4922OhnUMBflPosgh86GoB9ffa0Pi29UAGVIXR3QSavLCaqwbQQ_pP_14xJu6r
+TS2bD2kRJNa4
+}
+
+!function AzureMaintenance($id, $name="Maintenance", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMaintenance', $name, $tech)
+!endfunction
+!function AzureMaintenanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMaintenanceLg>', 'Maintenance', $funcName, $content)
+!endfunction
+@enduml

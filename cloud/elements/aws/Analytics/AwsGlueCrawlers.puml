@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGlueCrawlersLg [20x20/16z] {
+LSs5WGH024FH1CcVwx_WMxStBi0vV_mwKB5-L1YwVWmd9tiRRm57SdvZdN9HVkjW27_a2XuTnxeDoQSrkFATZ_P4NipCdcr9GnX9dxlnqBHNdzZTSCYE6BgQ
+baqS9_9kzZQy5IkgLFJIH8u4hSzbPAoKFeeEQRxkEeTISTAVkwgKhgD6Nvf7WGi
+}
+
+!function AwsGlueCrawlers($id, $name="Glue Crawlers", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsGlueCrawlers', $name, $tech)
+!endfunction
+!function AwsGlueCrawlersCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGlueCrawlersLg>', 'Glue Crawlers', $funcName, $content)
+!endfunction
+@enduml

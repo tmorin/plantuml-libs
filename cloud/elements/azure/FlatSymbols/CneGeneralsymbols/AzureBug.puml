@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBugLg [20x20/16z] {
+POw50G8n34KZbVZ-uz8S3g_wuz1iNVqC5O8Nk0S0FInFIDUI2L_ChChzPQAeGuulsxhWXqIyRa8WUcfnFbD4Beuko2vTtP5FkSrPkT1oTaibhRkjWXy3uL4F
+MwtNSFMoQMjHnVss6OcAXTENpS80yIktTVFVWnQ-Pw59RRAWrymRtOzHSW7CQ5iAmaezSbubRR4lx647t
+}
+
+!function AzureBug($id, $name="Bug", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureBug', $name, $tech)
+!endfunction
+!function AzureBugCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBugLg>', 'Bug', $funcName, $content)
+!endfunction
+@enduml

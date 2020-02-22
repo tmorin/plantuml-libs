@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudSchedulerLg [18x20/16z] {
+FOu94iD02CECEV__uexQ9kHSmGXBBhrLbXIpVe1tBS-r8dkcArGtxkl8lQEseZX6yvzPSnn3Adh2M7k5xVU9duOjVIF8teIQDNFv9pVoRNWt7hAENKCX9a5g
+plyP3u6iPGvzCV4uqESTLIeM9yB6MyXOtCIAp00ysROTuLvwr23THGv1D3cGoRg6H5iAcrZyVW
+}
+
+!function GcpCloudScheduler($id, $name="Cloud Scheduler", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudScheduler', $name, $tech)
+!endfunction
+!function GcpCloudSchedulerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudSchedulerLg>', 'Cloud Scheduler', $funcName, $content)
+!endfunction
+@enduml

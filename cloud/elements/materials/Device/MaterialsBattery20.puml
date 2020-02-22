@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBattery20Lg [20x20/16z] rSYr0S0m44MnUp_C-qyRPdPfbJ97I9m6zJYiPfuVIJfAs5tHZ8glo-ggLsVO1esmHnq
+
+!function MaterialsBattery20($id, $name="Battery20", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBattery20', $name, $tech)
+!endfunction
+!function MaterialsBattery20Card($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBattery20Lg>', 'Battery20', $funcName, $content)
+!endfunction
+@enduml

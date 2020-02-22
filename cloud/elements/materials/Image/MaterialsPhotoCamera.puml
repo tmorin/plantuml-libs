@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhotoCameraLg [20x20/16z] {
+fOzL0aKX449XwjhkVxMlk-DywHI0vr0syAeaPVG-YXp_wXvbxYZXhfkIr7b5bKrjx9yfxPlZMEj1WD4lQm6w4N5HgsJPA93rN4kmkS6GNjTkTuyQTjHuuUN6
+yyDiKBz2yHTh
+}
+
+!function MaterialsPhotoCamera($id, $name="Photo Camera", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPhotoCamera', $name, $tech)
+!endfunction
+!function MaterialsPhotoCameraCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhotoCameraLg>', 'Photo Camera', $funcName, $content)
+!endfunction
+@enduml

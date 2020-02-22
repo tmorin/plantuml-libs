@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsChildCareLg [20x20/16z] {
+bL030aKn35io-_wdVPg-aR5k8_u3g1Hnfz4XfvI3nbAvP2GfJNAOgYZRJyQXrEbGTMNIbvUjvhZHZgdslAE2WBT2M7zyL3G2yV9MgfqZKqJJTNHTZ-M5CpQP
+NeEXbb83MutU2ssCbgsNrJCmUbwpWT9aXqySBAx-mmu
+}
+
+!function MaterialsChildCare($id, $name="Child Care", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsChildCare', $name, $tech)
+!endfunction
+!function MaterialsChildCareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsChildCareLg>', 'Child Care', $funcName, $content)
+!endfunction
+@enduml

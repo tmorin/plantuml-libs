@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudJobsApiLg [20x20/16z] {
+RP074WCn20CLP87__-4a1rotfZ7hTHCodmwEc1ynjEJpYBSwvYMZjBYoI57p5W6mr4AaQZB0So0bCg7t1M98GUNwY6GK0Qg4s9a1jZCc52M9AWITTzI7_FAM
+8S_Pxc_UaDP_MtVGNLsrQwTHdQww_m4
+}
+
+!function GcpCloudJobsApi($id, $name="Cloud Jobs Api", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudJobsApi', $name, $tech)
+!endfunction
+!function GcpCloudJobsApiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudJobsApiLg>', 'Cloud Jobs Api', $funcName, $content)
+!endfunction
+@enduml

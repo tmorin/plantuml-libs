@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBatchAiLg [14x20/16z] {
+DSt50S0020D0Y7R_YUltGpCpaAc6SrCIwZYggm2jgwf3BOrbg71LsT2pMUc8hLXK6hUv6BjCBuxfWAtQC8AVEwGQO7LN1hWpCg-gIgvYuDnLoxdH01ZDOwt5
+lVTwlym71iE_Mbpshz0BvWVoAdu-lh0J
+}
+
+!function AzureBatchAi($id, $name="Batch Ai", $tech="")
+  CloudElement($id, 'azure/AiAndMlServiceColor/AzureBatchAi', $name, $tech)
+!endfunction
+!function AzureBatchAiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBatchAiLg>', 'Batch Ai', $funcName, $content)
+!endfunction
+@enduml

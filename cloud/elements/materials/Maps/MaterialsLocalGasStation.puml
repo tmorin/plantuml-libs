@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalGasStationLg [20x20/16z] {
+fSe53WDH549HUCBtTF-hhNkidRanSWB-oEEIVz2QOuovdEB3iXj96mcL1wfTLnVOApyjeLhrPMncjusSkhIkltwtmos1eVPfimNuPSKRlosvoyo-3MfDk6Pn
+om1t_D49
+}
+
+!function MaterialsLocalGasStation($id, $name="Local Gas Station", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalGasStation', $name, $tech)
+!endfunction
+!function MaterialsLocalGasStationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalGasStationLg>', 'Local Gas Station', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSubdirectoryArrowLeftLg [20x20/16z] hOo35S1G5CNwZQVzfwrjvVWYnJkCtaGg-PyojSrSLklCaPjsKxJA72UZMmpqcKOXf0vncvtMQkDhE0-pseRRw9eA
+
+!function MaterialsSubdirectoryArrowLeft($id, $name="Subdirectory Arrow Left", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsSubdirectoryArrowLeft', $name, $tech)
+!endfunction
+!function MaterialsSubdirectoryArrowLeftCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSubdirectoryArrowLeftLg>', 'Subdirectory Arrow Left', $funcName, $content)
+!endfunction
+@enduml

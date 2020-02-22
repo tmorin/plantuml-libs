@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcNetworkAccessControlListLg [20x20/16z] {
+RL3N0OHG25D8ukq_yGLzxGExbBJhEoA1ZEiuKY90AMVbfc9CY_TN4lO6z1OvIgF85yiVSzVjmYmifa4DbInCN_TR0mdN2ZwIe6lnI4-uHZ01_iGaisxg8J1h
+OQHP6xj6DDhO7HmiF0wEfSN7qD9fRhnr6NHPzPbssVy1
+}
+
+!function AwsVpcNetworkAccessControlList($id, $name="Vpc Network Access Control List", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcNetworkAccessControlList', $name, $tech)
+!endfunction
+!function AwsVpcNetworkAccessControlListCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcNetworkAccessControlListLg>', 'Vpc Network Access Control List', $funcName, $content)
+!endfunction
+@enduml

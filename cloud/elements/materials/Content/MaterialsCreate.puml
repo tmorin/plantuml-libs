@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCreateLg [20x20/16z] jSk52S1050JHBxjnwR_Q27AAHMxm1oElSgs8sr2YZljU8DJ6VVLYl90PhVUe9UqRAbhPYhmcGQHeDOa2Bgyw0G
+
+!function MaterialsCreate($id, $name="Create", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsCreate', $name, $tech)
+!endfunction
+!function MaterialsCreateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCreateLg>', 'Create', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureReservedIpAddressesClassic element
+include('elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic')
+AzureReservedIpAddressesClassic('element', 'Reserved Ip Addresses Classic', 'an optional tech field')
+@enduml

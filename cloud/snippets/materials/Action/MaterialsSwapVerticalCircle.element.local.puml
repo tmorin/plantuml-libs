@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsSwapVerticalCircle element
+include('elements/materials/Action/MaterialsSwapVerticalCircle')
+MaterialsSwapVerticalCircle('element', 'Swap Vertical Circle', 'an optional tech field')
+@enduml

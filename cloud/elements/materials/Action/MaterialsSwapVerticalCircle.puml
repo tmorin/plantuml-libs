@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSwapVerticalCircleLg [20x20/16z] {
+VP070iCW24LbXiHr_ziMHRlRd-bZa_u84E4LiELQi_43e_KbmuskthFL2Q-0u5w5aYxF6SxkHVxLDY4FvcudGoB9uJX2SrYFNcRAxC5OWvc1ZB-AcmcO9Gws
+OslfHx0CKSDLX1Bm6JN2sflwB-NL2wp9T2A3DLjuMexPlk_W-wuUE_sZ6m
+}
+
+!function MaterialsSwapVerticalCircle($id, $name="Swap Vertical Circle", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSwapVerticalCircle', $name, $tech)
+!endfunction
+!function MaterialsSwapVerticalCircleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSwapVerticalCircleLg>', 'Swap Vertical Circle', $funcName, $content)
+!endfunction
+@enduml

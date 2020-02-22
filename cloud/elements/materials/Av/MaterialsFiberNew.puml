@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFiberNewLg [20x20/16z] {
+fL050WGX2AHj_Vzhhs-xTqmQ1cw1TGH-gIYr4HAzT7Migskwg26h5n6liIMDRvq72gX0uj1Untzrm5yT6TfFXm9_lruN6Buw1FpgekRmhM6lI_E9_kQpBN5m
+2qy
+}
+
+!function MaterialsFiberNew($id, $name="Fiber New", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsFiberNew', $name, $tech)
+!endfunction
+!function MaterialsFiberNewCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFiberNewLg>', 'Fiber New', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTermsAndConditionsLg [16x20/16z] {
+PSd70SD0449HRPn0__sQ7UJyRm-kdwQftNfvGsMt9UTjnsvbPvbzXo_PZ1wTbLMSnh7joe4iXqhszSl_lniBuEKJRVks9HBmDczx-epe8sK0qLb0PeYYh84i
+vxlZiJvhrmC
+}
+
+!function AzureTermsAndConditions($id, $name="Terms And Conditions", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureTermsAndConditions', $name, $tech)
+!endfunction
+!function AzureTermsAndConditionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTermsAndConditionsLg>', 'Terms And Conditions', $funcName, $content)
+!endfunction
+@enduml

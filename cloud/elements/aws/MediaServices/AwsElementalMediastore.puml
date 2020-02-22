@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElementalMediastoreLg [20x20/16z] hT053WH144BHfFb0tV_2wown6UAlfMHsI9D-K03oTeb5Yzm7MSPdYNmt1ED5B1uMAptVoiFSgUdGXrt1hdXvwr0xYpmjFTlRsu1l3ULriDWi-Zw9HFxiO6kE
+
+!function AwsElementalMediastore($id, $name="Elemental Mediastore", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElementalMediastore', $name, $tech)
+!endfunction
+!function AwsElementalMediastoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElementalMediastoreLg>', 'Elemental Mediastore', $funcName, $content)
+!endfunction
+@enduml

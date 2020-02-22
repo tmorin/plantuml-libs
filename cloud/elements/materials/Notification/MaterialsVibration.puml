@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsVibrationLg [20x20/16z] fP234G1H34I_5VLVxTd66sNYNVK6xGRqd4iC7PpcjXnrHynwJEaS-YXatITjDdFEPAkKCmwMEMWIuhSvBtzoHpVslnpyVA3jm8D3hzvG0m
+
+!function MaterialsVibration($id, $name="Vibration", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsVibration', $name, $tech)
+!endfunction
+!function MaterialsVibrationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVibrationLg>', 'Vibration', $funcName, $content)
+!endfunction
+@enduml

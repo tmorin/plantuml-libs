@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMailOutlineLg [20x20/16z] {
+fT3L0SKW343HHY6w_xRFtULMW0DVB7z5eXS9RGWZpVoGMGPkh9tX57blhTm5bbqWxhKp8ZFQqdQalU5cFnH0OtCUZxRvpuYvcPnj6_DkEDkvBuqkZNOMOHT5
+uACx-Air
+}
+
+!function MaterialsMailOutline($id, $name="Mail Outline", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsMailOutline', $name, $tech)
+!endfunction
+!function MaterialsMailOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMailOutlineLg>', 'Mail Outline', $funcName, $content)
+!endfunction
+@enduml

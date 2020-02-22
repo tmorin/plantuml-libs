@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsWavelengthLg [20x20/16z] {
+bOv74iGm3CDcB9Bm_r-yIjFc6gGQgliRn0wRbx6Sz4lybJcfDSxUgSR9un2kIbfkUD8eBMcLmBTB784RxYbdQKdz6kT4QVFEYpbTluXdRdf0BGLbNqHGTWLt
+siZe76xsmBdVKpYIP-H0fuJzZHy
+}
+
+!function AwsWavelength($id, $name="Wavelength", $tech="")
+  CloudElement($id, 'aws/Compute/AwsWavelength', $name, $tech)
+!endfunction
+!function AwsWavelengthCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsWavelengthLg>', 'Wavelength', $funcName, $content)
+!endfunction
+@enduml

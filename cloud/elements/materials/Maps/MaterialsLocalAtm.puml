@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalAtmLg [20x20/16z] {
+fP1L0i0W28QHdzbn_zlEMlhejraqq1Ouz8i3LSGXE5znOm-1goo1L8MvxOJKPNMhXxLGxNnao3ab-Sea2VvsKgmn_9MnCRRyV1KWQxoKC_vsrZ8zCb23ksZM
+N7jx6BsjCzZY1
+}
+
+!function MaterialsLocalAtm($id, $name="Local Atm", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalAtm', $name, $tech)
+!endfunction
+!function MaterialsLocalAtmCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalAtmLg>', 'Local Atm', $funcName, $content)
+!endfunction
+@enduml

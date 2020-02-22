@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhonePausedLg [20x20/16z] {
+ZSW53aKn509HA3Ufb_slzhlhczZaO7DKX2u7YCUJxNQww6IFguqNIzDUUZPss_5io7RXYyM5m0IaoxQCjsBg7NDFRyPQZyWGUSDKky3YDPfko3npyR70lMX-
+Cp1oNxRm79D4R6uF
+}
+
+!function MaterialsPhonePaused($id, $name="Phone Paused", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsPhonePaused', $name, $tech)
+!endfunction
+!function MaterialsPhonePausedCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhonePausedLg>', 'Phone Paused', $funcName, $content)
+!endfunction
+@enduml

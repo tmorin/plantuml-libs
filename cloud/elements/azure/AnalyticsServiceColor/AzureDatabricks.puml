@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDatabricksLg [19x20/16z] {
+NT050i0W30F05Yff___VMUQPSZZ2g8Mfl3CZCsC-C3mP8k6EZnyG2py2kZw8gjvouGME6u4TuA9UEu9GhY8wysX-F9McOi4nxkvX-uTu_tLVlmyqyOQkcSGR
+SefSM4NOGppOv8vXGtpFLHr-mGe
+}
+
+!function AzureDatabricks($id, $name="Databricks", $tech="")
+  CloudElement($id, 'azure/AnalyticsServiceColor/AzureDatabricks', $name, $tech)
+!endfunction
+!function AzureDatabricksCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDatabricksLg>', 'Databricks', $funcName, $content)
+!endfunction
+@enduml

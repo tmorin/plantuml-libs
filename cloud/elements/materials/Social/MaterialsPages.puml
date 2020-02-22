@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPagesLg [20x20/16z] ZL254SGm33CzLdVPVzfomwIWsHRDGso74kdnogM2sm7cwpsLvcATirk77muT_WYwFykHJ-GVT5UIA_Mb0w2NJW6SEcBcItLzwxeojgnHxwNUSpbRdOEIgtbi
+
+!function MaterialsPages($id, $name="Pages", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsPages', $name, $tech)
+!endfunction
+!function MaterialsPagesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPagesLg>', 'Pages', $funcName, $content)
+!endfunction
+@enduml

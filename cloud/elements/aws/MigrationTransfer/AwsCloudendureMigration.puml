@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudendureMigrationLg [20x20/16z] {
+TSn50WD124JH26Lz_mDdO6JL-Sk7-4bFsM0sc46Jr8FfL22gyJ6NRBC6BYFd7jyg-J9up39WZm5EOf5KbTh81bduVcPJSndZmt3UbRp6Wg9WjDbhYGVHX2qR
+Q0j5Hh005Drsg18wdiP6d_xQ1jS6rmP_
+}
+
+!function AwsCloudendureMigration($id, $name="Cloudendure Migration", $tech="")
+  CloudElement($id, 'aws/MigrationTransfer/AwsCloudendureMigration', $name, $tech)
+!endfunction
+!function AwsCloudendureMigrationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudendureMigrationLg>', 'Cloudendure Migration', $funcName, $content)
+!endfunction
+@enduml

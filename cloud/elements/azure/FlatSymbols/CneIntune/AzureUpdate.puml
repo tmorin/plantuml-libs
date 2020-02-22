@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureUpdateLg [20x20/16z] {
+ZP053WH120GNX-R__ptM9NOLdKeFjfmGBM_OipBieSdH6wNpKbvLTgEgW8OjMkCe6Yb4n5QD0COPu6VP-T7Zg3glsjPOSmhegHHxZbNe_1gvmikVSApu-Pru
+VifMriw88sdSS2ckzZq7Ftz6r_ONwqP2OoJNAgkpTIDKPk7umRP-EM-rfax4iohzim4zRly3
+}
+
+!function AzureUpdate($id, $name="Update", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUpdate', $name, $tech)
+!endfunction
+!function AzureUpdateCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureUpdateLg>', 'Update', $funcName, $content)
+!endfunction
+@enduml

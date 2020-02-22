@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCropSquareLg [20x20/16z] Ow0GiB310GjCY8yB3lYWWcnSJ8nGmCJ51XNZP8IPmiWv6CMu469SR72_SK81s6-OOK0X
+
+!function MaterialsCropSquare($id, $name="Crop Square", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCropSquare', $name, $tech)
+!endfunction
+!function MaterialsCropSquareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCropSquareLg>', 'Crop Square', $funcName, $content)
+!endfunction
+@enduml

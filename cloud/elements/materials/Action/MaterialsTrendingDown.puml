@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTrendingDownLg [20x20/16z] lSYr0S1040Cm-vbl_sd3d3AWKlY5qVSB-PvSqWPUqzPsJLkjpkUirG9JAcuvr9GwAgm9pDdQUYkLvNhqCSRBWGEyhWS
+
+!function MaterialsTrendingDown($id, $name="Trending Down", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsTrendingDown', $name, $tech)
+!endfunction
+!function MaterialsTrendingDownCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTrendingDownLg>', 'Trending Down', $funcName, $content)
+!endfunction
+@enduml

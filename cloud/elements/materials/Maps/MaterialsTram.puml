@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTramLg [20x20/16z] {
+fP3L0O10242lQTb_MhlZowTND8HFqif9506HZ13YrRJAQhNPvGgYqCfXbyXNUBTjljCs6N1POTXbVswKqqocG-PcnZnkVfAvKunJbN2k3qF0ioo9km6OUrUE
+vhY3rfhg8Gf5wtn8EO_qE3yO
+}
+
+!function MaterialsTram($id, $name="Tram", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsTram', $name, $tech)
+!endfunction
+!function MaterialsTramCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTramLg>', 'Tram', $funcName, $content)
+!endfunction
+@enduml

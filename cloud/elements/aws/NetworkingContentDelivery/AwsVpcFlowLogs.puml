@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcFlowLogsLg [20x20/16z] {
+RP074iD020CvDUV_BuuvfuSTfj6bkW0beZvWOia9dvdbe3Q8rvMArfDITj8g7TaSA7dlwZGslQDt1fsJJsZqpexEWIVeN0NSyrH3BRfCgVJ9pTAKcsQd6yCl
+qy-3jic3oQlPqydxEm
+}
+
+!function AwsVpcFlowLogs($id, $name="Vpc Flow Logs", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcFlowLogs', $name, $tech)
+!endfunction
+!function AwsVpcFlowLogsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcFlowLogsLg>', 'Vpc Flow Logs', $funcName, $content)
+!endfunction
+@enduml

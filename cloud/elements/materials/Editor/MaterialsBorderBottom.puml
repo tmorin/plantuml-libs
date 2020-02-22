@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderBottomLg [20x20/16z] ZOw30GH140Ix1_-d_DDTdrcBCV0PCS04ghEMi84S3F__h6LOBsSDc0Kv6xKsYrIRQBLIEwZM3C4D-YV_2lTPk_4TkPbnskLkPt17xJ2D6wPIIzj1V2O2
+
+!function MaterialsBorderBottom($id, $name="Border Bottom", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderBottom', $name, $tech)
+!endfunction
+!function MaterialsBorderBottomCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderBottomLg>', 'Border Bottom', $funcName, $content)
+!endfunction
+@enduml

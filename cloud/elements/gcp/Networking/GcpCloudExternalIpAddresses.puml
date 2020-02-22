@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudExternalIpAddressesLg [20x20/16z] {
+RP195aGX20ELATp_nFqWz9zhfMLKO3LxM0SI1p9gHnx4H2ql66EuEdJGZotgrEk3MaInHP49MIig8IBgotZE3o1HQpuDGpi6d4NXub91fpYTn9JexHn0q0Lh
+WH2cfsOqMVXdR-yPl6V5s35JzDSqxzd_
+}
+
+!function GcpCloudExternalIpAddresses($id, $name="Cloud External Ip Addresses", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpCloudExternalIpAddresses', $name, $tech)
+!endfunction
+!function GcpCloudExternalIpAddressesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudExternalIpAddressesLg>', 'Cloud External Ip Addresses', $funcName, $content)
+!endfunction
+@enduml

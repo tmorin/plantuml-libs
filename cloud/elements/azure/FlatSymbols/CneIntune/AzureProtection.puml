@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureProtectionLg [19x20/16z] {
+NSu54iH020J0mLQO_x_tBfwmNKRXk8W9AXdPdrYnqK5caoCKdpsyJUPcX4UVvaacZymLcUNAD5aId2fpIGr1Nr8T26OHG5t6L023TMxZzGMWjh7Ze9FlKpXv
+yjhjk4Noo0HUdYIduyjwTiNYJVm1
+}
+
+!function AzureProtection($id, $name="Protection", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureProtection', $name, $tech)
+!endfunction
+!function AzureProtectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureProtectionLg>', 'Protection', $funcName, $content)
+!endfunction
+@enduml

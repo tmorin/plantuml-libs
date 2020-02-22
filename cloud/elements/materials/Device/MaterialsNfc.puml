@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNfcLg [20x20/16z] {
+ZT350OG030NHUFBH_gjT5npc-8v3cx7CuYTLDwiUABth9E_bQKAJv6k14aa0yJSq8T5bDfXO45KHnSA0bTausXLZTrxQixd1Ns5YsNpAl_6lhvbCigSnnc7I
+YDT0dSMqsHq
+}
+
+!function MaterialsNfc($id, $name="Nfc", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsNfc', $name, $tech)
+!endfunction
+!function MaterialsNfcCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNfcLg>', 'Nfc', $funcName, $content)
+!endfunction
+@enduml

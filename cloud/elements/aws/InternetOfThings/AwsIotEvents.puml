@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotEventsLg [20x20/16z] {
+RSx50SL024NHBq-0_lkD49UxcpD6piKvErymNp3NdcOtdqr0X7Gnus-2ylbkw4zCgQrcwQEW07gsAWEom4oIEapz3OdL-kva86EzEsiJP4Tk5dqHv3pwQWPx
+aTrwrv6dQklDwitgi1SS0G
+}
+
+!function AwsIotEvents($id, $name="Iot Events", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotEvents', $name, $tech)
+!endfunction
+!function AwsIotEventsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotEventsLg>', 'Iot Events', $funcName, $content)
+!endfunction
+@enduml

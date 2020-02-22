@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureFirewallLg [23x20/16z] hSy56eH0243XNHKU-77_wzhTzK_t43KZUbWCtavJ4w4rT7s0-2W6ER75LzFhtJP0R4776T6c-IHAhw7UKzgPWMQCpgDyFbq2
+
+!function AzureFirewall($id, $name="Firewall", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFirewall', $name, $tech)
+!endfunction
+!function AzureFirewallCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFirewallLg>', 'Firewall', $funcName, $content)
+!endfunction
+@enduml

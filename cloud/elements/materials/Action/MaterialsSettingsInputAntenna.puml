@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSettingsInputAntennaLg [20x20/16z] {
+dSY5WGH120311WuRsSq_sdVtlngbUI9tU4iinvmZxJLhxOxB9NgtFYLRRK-_Ney_NIcePxeYkHIGQi7Nh9hBaIu1suRl493O_Z2IZQxWGIob4nc1Jy6w3PbE
+394o8g7Fio43A-7HKtlFvZG-gkBQviVX7zDst--ZBGTVzZu-NT-w1G
+}
+
+!function MaterialsSettingsInputAntenna($id, $name="Settings Input Antenna", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSettingsInputAntenna', $name, $tech)
+!endfunction
+!function MaterialsSettingsInputAntennaCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSettingsInputAntennaLg>', 'Settings Input Antenna', $funcName, $content)
+!endfunction
+@enduml

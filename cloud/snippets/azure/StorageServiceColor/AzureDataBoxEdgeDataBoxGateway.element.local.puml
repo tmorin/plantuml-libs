@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureDataBoxEdgeDataBoxGateway element
+include('elements/azure/StorageServiceColor/AzureDataBoxEdgeDataBoxGateway')
+AzureDataBoxEdgeDataBoxGateway('element', 'Data Box Edge Data Box Gateway', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDirectionsWalkLg [20x20/16z] {
+TO-50KKX24LL6kFkF-tlV75C6ie7abesj07TwIQiRE5TBAd-gohxn2QTJ-_0e5-tq9fO8-bN9ssWaq_dZzAO02-5xJUd0B5jnKR2DysaDmTl1fFR-TSHgDJn
+hvFHTZgBijE5xdMjFgzphW
+}
+
+!function MaterialsDirectionsWalk($id, $name="Directions Walk", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsDirectionsWalk', $name, $tech)
+!endfunction
+!function MaterialsDirectionsWalkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDirectionsWalkLg>', 'Directions Walk', $funcName, $content)
+!endfunction
+@enduml

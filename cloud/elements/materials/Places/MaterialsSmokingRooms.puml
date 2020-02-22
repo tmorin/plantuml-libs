@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSmokingRoomsLg [20x20/16z] {
+hOu30a9H44N7IllVRQvldyVnXLbmm9NQTr9IosPxLBgqKwINf_fmLM7BPu-BBB1LQo84Pgs6QfP2YNqjGT06Wti-OEH7BMe3bCTwjBZUVfpuNKl-nqWV2uxc
+3W
+}
+
+!function MaterialsSmokingRooms($id, $name="Smoking Rooms", $tech="")
+  CloudElement($id, 'materials/Places/MaterialsSmokingRooms', $name, $tech)
+!endfunction
+!function MaterialsSmokingRoomsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSmokingRoomsLg>', 'Smoking Rooms', $funcName, $content)
+!endfunction
+@enduml

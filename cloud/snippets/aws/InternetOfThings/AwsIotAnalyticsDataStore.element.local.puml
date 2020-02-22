@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsIotAnalyticsDataStore element
+include('elements/aws/InternetOfThings/AwsIotAnalyticsDataStore')
+AwsIotAnalyticsDataStore('element', 'Iot Analytics Data Store', 'an optional tech field')
+@enduml

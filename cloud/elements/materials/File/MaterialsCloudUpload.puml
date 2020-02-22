@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCloudUploadLg [20x20/16z] {
+fO_L5S0W00E3E-o_RGd-tyFo3iT_X3962Rpes3fHFyhKDgW62w4B5t5fKTEOo5L1oj07DvpjYGgWpAO7NPV2aBG8L5cBUN3ccRhGrPouD-MvAQvNqAqN5RkS
+0jHoGOGLd5kfQ4XVsqisw_iF4h_u
+}
+
+!function MaterialsCloudUpload($id, $name="Cloud Upload", $tech="")
+  CloudElement($id, 'materials/File/MaterialsCloudUpload', $name, $tech)
+!endfunction
+!function MaterialsCloudUploadCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCloudUploadLg>', 'Cloud Upload', $funcName, $content)
+!endfunction
+@enduml

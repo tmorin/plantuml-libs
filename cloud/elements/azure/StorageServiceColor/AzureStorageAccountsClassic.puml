@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureStorageAccountsClassicLg [23x20/16z] bSst0G0n30B0JqZ0_WD_xMnVfuZSGnzXNmHQ4O6xXOZlQdt3DhwtzY56KgsCIBV6xSXMJ29TcqNsj_kHY1xy
+
+!function AzureStorageAccountsClassic($id, $name="Storage Accounts Classic", $tech="")
+  CloudElement($id, 'azure/StorageServiceColor/AzureStorageAccountsClassic', $name, $tech)
+!endfunction
+!function AzureStorageAccountsClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureStorageAccountsClassicLg>', 'Storage Accounts Classic', $funcName, $content)
+!endfunction
+@enduml

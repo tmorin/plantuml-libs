@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsCustomEventBusResourceIcon64White element
+include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64White')
+AwsCustomEventBusResourceIcon64White('element', 'Custom Event Bus Resource Icon64 White', 'an optional tech field')
+@enduml

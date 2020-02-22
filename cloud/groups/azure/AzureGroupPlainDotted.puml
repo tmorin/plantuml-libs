@@ -1,0 +1,16 @@
+@startuml
+!function AzureGroupPlainDotted($id, $name="Plain Dotted", $tech="")
+  CloudGroup($id, "AzureGroupPlainDotted", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<AzureGroupPlainDotted>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_DARK
+  BorderStyle dotted
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AZURE_GROUP_BG_LIGHT
+  shadowing false
+}
+@enduml

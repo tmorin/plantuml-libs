@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFilterBAndWLg [20x20/16z] {
+hT2r0GHH24LH-2v8_zMkZhlTZ9Fnu7Z63J9_8lqcL3yH_T3fhsBmaoKtDFY6zIaBPcO1evbOGYWPH_OzYqOSM37mDGszLGj_KszQ2_Z9V8qZ_SpG_tlHRsIM
+jZhU6m
+}
+
+!function MaterialsFilterBAndW($id, $name="Filter B And W", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsFilterBAndW', $name, $tech)
+!endfunction
+!function MaterialsFilterBAndWCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFilterBAndWLg>', 'Filter B And W', $funcName, $content)
+!endfunction
+@enduml

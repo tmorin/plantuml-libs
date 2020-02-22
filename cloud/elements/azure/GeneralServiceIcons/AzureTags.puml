@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTagsLg [17x20/16z] {
+LSm93WGX24HHK5dlV-0Xra3iole-KS9OL5KO-DkgZ8zMEDlswvgVZztTLl-drnvoxt3KqlgEa95wNgTdy87neX8js0DpsdhTGObsUO8n4IECQI6qfxIdjAUq
+foZSs-CV
+}
+
+!function AzureTags($id, $name="Tags", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureTags', $name, $tech)
+!endfunction
+!function AzureTagsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTagsLg>', 'Tags', $funcName, $content)
+!endfunction
+@enduml

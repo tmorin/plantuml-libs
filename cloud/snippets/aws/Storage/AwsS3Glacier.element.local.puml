@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsS3Glacier element
+include('elements/aws/Storage/AwsS3Glacier')
+AwsS3Glacier('element', 'S3 Glacier', 'an optional tech field')
+@enduml

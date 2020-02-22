@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsNetworkCellLg [20x20/16z] dSe33i1000NHLLJU_xQrFgg9NoRyBGfAWf8Wj9B9IarMsWPif1wjD3tQUA6D5zfueOqNsdYXZHVQIDtQRkbK3Au1
+
+!function MaterialsNetworkCell($id, $name="Network Cell", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsNetworkCell', $name, $tech)
+!endfunction
+!function MaterialsNetworkCellCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNetworkCellLg>', 'Network Cell', $funcName, $content)
+!endfunction
+@enduml

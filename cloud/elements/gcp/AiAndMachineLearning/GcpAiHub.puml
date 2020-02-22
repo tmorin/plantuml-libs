@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAiHubLg [20x20/16z] {
+RL270S0W21CCmVyVxeXqDwtA7cc25Te9vmalat6SO8LYt80PbbAo7WM6v32FbB0ts2K2llVQ0pU12jfqsCnXWyAYmmokTYdJOCOMPNtMpiD6DWjGjfwoaN1W
+ZZh3oOYuUjGi6sgMuUVCXDVmlxjzEVXoLM4dfvbPdFvmlm8
+}
+
+!function GcpAiHub($id, $name="Ai Hub", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAiHub', $name, $tech)
+!endfunction
+!function GcpAiHubCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAiHubLg>', 'Ai Hub', $funcName, $content)
+!endfunction
+@enduml

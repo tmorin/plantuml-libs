@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureClientApplicationLg [32x20/16z] {
+bT3L0OD0403HqsMj_tepFp6SXpFebLBLZxI2eQtkQZeBfh0QiiQzykdLSsqywXR8W2EmwftliS6gWm_M-TyRUzevP-3CijEDFXVCYow7_VhvYeEkz24Osxvm
+sbK-_DilnbzC3fYGU-IXwALxVgd0yil_SioE6VdbcgVq1G
+}
+
+!function AzureClientApplication($id, $name="Client Application", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureClientApplication', $name, $tech)
+!endfunction
+!function AzureClientApplicationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureClientApplicationLg>', 'Client Application', $funcName, $content)
+!endfunction
+@enduml

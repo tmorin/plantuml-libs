@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsChatBubbleOutlineLg [20x20/16z] rSe53e1040J1sJct_VzlSOSOqQjuf_59U2DpYkqcJf7DyS8rpesuO2UDpXz2NPgB-PJSF6krSe6vLOidMlmr0W
+
+!function MaterialsChatBubbleOutline($id, $name="Chat Bubble Outline", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsChatBubbleOutline', $name, $tech)
+!endfunction
+!function MaterialsChatBubbleOutlineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsChatBubbleOutlineLg>', 'Chat Bubble Outline', $funcName, $content)
+!endfunction
+@enduml

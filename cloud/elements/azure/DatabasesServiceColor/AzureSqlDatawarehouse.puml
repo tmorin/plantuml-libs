@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSqlDatawarehouseLg [20x20/16z] {
+NOs50O0m30IRjx3_mhWVr2usTXJL-81qT_WsxWFZOxwsFwIEl10aLfYSrSme7lTeFCxykofWxoCMgdOdGti6jC7DKOS3k2bmTK1jVxbZKSvL2zFTKsTbGE2M
+HzYAjEKzs9I8hmjNHVhjEXtvcxUEE6Oyg7jt7c-PRfkr
+}
+
+!function AzureSqlDatawarehouse($id, $name="Sql Datawarehouse", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlDatawarehouse', $name, $tech)
+!endfunction
+!function AzureSqlDatawarehouseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSqlDatawarehouseLg>', 'Sql Datawarehouse', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPrintLg [20x20/16z] {
+bT054iGW341HuaF3XlkVjjx0oDeVxIjU_eduZfAWzhiAdwoetMaEGyhm6YWjNbaqsGczZnghusuncID7Mc9Bgtfsd2bDxpCzvkvTBfE-V-nM071vnYq8yDpD
+uCpc-uQVnR3vhVvf0m
+}
+
+!function MaterialsPrint($id, $name="Print", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPrint', $name, $tech)
+!endfunction
+!function MaterialsPrintCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPrintLg>', 'Print', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsStorageLg [20x20/16z] {
+RS_70S0m24FHD8I5zzytu9xoRtetRR_jhu8qQG_UvNWaUgdcBjrYDPmcaAleOb285AnctQwtALIq6yt201H3Cq0G9bYCT0gOfgG0yZAB9tJZi1R0Pjci7sOp
+ozcrn6QxnikPX1slt7ww0G
+}
+
+!function AwsStorage($id, $name="Storage", $tech="")
+  CloudElement($id, 'aws/Storage/AwsStorage', $name, $tech)
+!endfunction
+!function AwsStorageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStorageLg>', 'Storage', $funcName, $content)
+!endfunction
+@enduml

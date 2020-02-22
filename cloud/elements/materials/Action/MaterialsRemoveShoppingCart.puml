@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsRemoveShoppingCartLg [20x20/16z] {
+RP350KKn2C3Gkkm_xPSAJtCC3hp0_7IQvKKM0LId6zoIIryq1fDvEGy3ZDLatIEbMwO3s8bRPeAD-nKDgQOm91_oJogQayfp-WbNL4JIHNBAWuiamZ_dsoau
+7BDIbTCgF7hqRkLI4etyL8AL4y802RIyFPdX2m
+}
+
+!function MaterialsRemoveShoppingCart($id, $name="Remove Shopping Cart", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsRemoveShoppingCart', $name, $tech)
+!endfunction
+!function MaterialsRemoveShoppingCartCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsRemoveShoppingCartLg>', 'Remove Shopping Cart', $funcName, $content)
+!endfunction
+@enduml

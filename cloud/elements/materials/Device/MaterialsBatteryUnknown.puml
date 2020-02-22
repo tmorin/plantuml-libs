@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBatteryUnknownLg [20x20/16z] {
+ZT350SGW54LH-8g__giTbtXobmSd71I9uj8KqBcmPI0RJoXMlAhnrAfPNLYX4AZCh6bqZzhcyn9gbBa1ZMDUcWP7NPXfNreNMHlHob3AXRTbZ4V8SVQZh_wq
+wWu
+}
+
+!function MaterialsBatteryUnknown($id, $name="Battery Unknown", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsBatteryUnknown', $name, $tech)
+!endfunction
+!function MaterialsBatteryUnknownCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBatteryUnknownLg>', 'Battery Unknown', $funcName, $content)
+!endfunction
+@enduml

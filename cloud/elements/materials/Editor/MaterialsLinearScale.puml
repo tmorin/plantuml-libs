@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLinearScaleLg [20x20/16z] pKt54G0W30jUkyl-syA_353t1BMavMQPT62e3g2BJRmKf8auwI96Hl_FCDDlvgWb5m
+
+!function MaterialsLinearScale($id, $name="Linear Scale", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsLinearScale', $name, $tech)
+!endfunction
+!function MaterialsLinearScaleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLinearScaleLg>', 'Linear Scale', $funcName, $content)
+!endfunction
+@enduml

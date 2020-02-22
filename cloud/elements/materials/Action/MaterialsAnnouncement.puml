@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAnnouncementLg [20x20/16z] hSi54iGW44HHO6PsOzsv_sdZxlRnLuNRp8TPlgQ8g6DtH1K6v4rPrfu8bR4baHOvCUy_DKOHj-tyByomi36qXdYIkTeozPDSRPcwPQ6YXvK
+
+!function MaterialsAnnouncement($id, $name="Announcement", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAnnouncement', $name, $tech)
+!endfunction
+!function MaterialsAnnouncementCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAnnouncementLg>', 'Announcement', $funcName, $content)
+!endfunction
+@enduml

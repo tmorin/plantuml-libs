@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCakeLg [20x20/16z] {
+ZO-50O1024Kfh_NlFwtT_Ivfe0KHkk3zHQLDesTT1LHd7NlFjF6t1glrf3JSofCgOCUKLN501vq1I0dBRRDVaY51O4cp7pilpEnSVubtSn6I4ALNn20qgJI4
+39GG2f13c6iSi2UTrWTqdduFtTC1
+}
+
+!function MaterialsCake($id, $name="Cake", $tech="")
+  CloudElement($id, 'materials/Social/MaterialsCake', $name, $tech)
+!endfunction
+!function MaterialsCakeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCakeLg>', 'Cake', $funcName, $content)
+!endfunction
+@enduml

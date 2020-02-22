@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSslPadlockLg [20x20/16z] {
+NOo7eHWX3CNaRlPVEF3ok-u0kG9cNDpvScmt8CvvzwwIKzTs8cPtemRGPOP-jU37UVHkSr6YfJLcKu1YMqq4nF0LEkJfp3u9FbpMyTFYN5qWHrFMXJPCmePo
+kHlAnRvGEJ_7bBjN5SfnHRahrSgPHPWfr-LhuFk1Wzshdc22LouWToeGNhE9YAjbLYf-uxtRpXyYllGV
+}
+
+!function AwsSslPadlock($id, $name="Ssl Padlock", $tech="")
+  CloudElement($id, 'aws/General/AwsSslPadlock', $name, $tech)
+!endfunction
+!function AwsSslPadlockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsSslPadlockLg>', 'Ssl Padlock', $funcName, $content)
+!endfunction
+@enduml

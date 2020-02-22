@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsArtifactLg [20x20/16z] {
+RSY5SK0n44F1W7Lwyk-_tzmOmZky-SALVpB_vCnYDPDzdK4oz3lh6hAaCV3eN1U1mE-TOfzhefBrhiXPLwoJIh4I-fG-5NJGbtibX_gyOaR0xFCvQcPKKwMy
+Rug99HkKS-ciCIg8UvsbCLIxyZnhmSQPvrOUv_x9TR_o0m
+}
+
+!function AwsArtifact($id, $name="Artifact", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsArtifact', $name, $tech)
+!endfunction
+!function AwsArtifactCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsArtifactLg>', 'Artifact', $funcName, $content)
+!endfunction
+@enduml

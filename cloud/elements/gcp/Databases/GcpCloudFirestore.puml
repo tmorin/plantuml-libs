@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudFirestoreLg [22x20/16z] {
+LP274GGn20F9SlyL_s1qysOlceoaoVE1a0y_Vs0qQfs7eZNEmYSKsrhwjAe8Lkg6XkvHtbb-xL2HOWlBK5PBSLoh9QgGSu9DBI1Dn8kDSwnb8jRFc6E-UHkL
+AzWkfqAxZBF5imI4hQ7FmaZwVOcpvV5jDHbMS0enRDM95scLcXy
+}
+
+!function GcpCloudFirestore($id, $name="Cloud Firestore", $tech="")
+  CloudElement($id, 'gcp/Databases/GcpCloudFirestore', $name, $tech)
+!endfunction
+!function GcpCloudFirestoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudFirestoreLg>', 'Cloud Firestore', $funcName, $content)
+!endfunction
+@enduml

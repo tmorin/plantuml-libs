@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureBlueprintsLg [21x20/16z] {
+POq74WCn20CFYUh_FpXmgNRMVM5avafS1xNMSZdaQYf-SESjaxzes2qX8bHfq5V6MzATBTsxa6zfX4sDlrBDHiRMoQm9ZTWwtUsGOBW5kKbgggPnpzJkSFly
+NbKjJITspf5bO3yK_UYD69cpomOoZ0T0mWyYlQuJrCe_AHbu
+}
+
+!function AzureBlueprints($id, $name="Blueprints", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureBlueprints', $name, $tech)
+!endfunction
+!function AzureBlueprintsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureBlueprintsLg>', 'Blueprints', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsWebAssetLg [20x20/16z] nSYr0G0X301080ak-q_xWjE-Nddi7g09b0ff4d9YMc2-eAXJePpZhEFkt_E2TSBd0szDPpsmd2Gx0dRF3W
+
+!function MaterialsWebAsset($id, $name="Web Asset", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsWebAsset', $name, $tech)
+!endfunction
+!function MaterialsWebAssetCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWebAssetLg>', 'Web Asset', $funcName, $content)
+!endfunction
+@enduml

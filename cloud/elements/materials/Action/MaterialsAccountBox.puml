@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAccountBoxLg [20x20/16z] {
+ZP034WHH34Gt_0hkVzgrnjEbLt7wSbx8Vy9NoF9FzWpoawFtU09_OyO0RDEOFaZ_On_QgTkPbp76R6yq5T4MVx56y22WzeqPVj-qJwp39mRz4_FsbJzZAnwi
+U7LQDm
+}
+
+!function MaterialsAccountBox($id, $name="Account Box", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAccountBox', $name, $tech)
+!endfunction
+!function MaterialsAccountBoxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAccountBoxLg>', 'Account Box', $funcName, $content)
+!endfunction
+@enduml

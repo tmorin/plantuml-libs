@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsSurroundSoundLg [20x20/16z] {
+fP2r0G0X40GNpd3wx_RTFsEYSraCGVA0vf3F_K7sSwprA6NpYyJUrbWbM8-giHkehh7PyaKTuBJuERl669eScE6IWjVOt1eNUyd5kValzjlxl-Ew9LstV6x-
+_-shmH0J
+}
+
+!function MaterialsSurroundSound($id, $name="Surround Sound", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsSurroundSound', $name, $tech)
+!endfunction
+!function MaterialsSurroundSoundCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSurroundSoundLg>', 'Surround Sound', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsGameTechLg [20x20/16z] {
+RT250OGm44JH4tOi_TUBEtpyuVcyzhqr4JN6DQ0RyIVFQQqEqzKo6Oet4q1wDapcn2oI8ay6egew0BkPon41RgOYeMbTz6ekJ3TsXTsQ6JWHp9E9IGn2cqLq
+5lHYQQrboJxifE5t6ojngoRxtHhjfG4
+}
+
+!function AwsGameTech($id, $name="Game Tech", $tech="")
+  CloudElement($id, 'aws/GameTech/AwsGameTech', $name, $tech)
+!endfunction
+!function AwsGameTechCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsGameTechLg>', 'Game Tech', $funcName, $content)
+!endfunction
+@enduml

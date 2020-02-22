@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsQuantumTechnologiesLg [20x20/16z] {
+VT2t0OH044FHO-Nel-AR2V2mNzaBzNjjkTKaLzh3KkPKtkFKOf4tQnhQRBI9A2Drc1c0i3RBcWXm27gtDGHoCyC08UgmIA00E9iLnkebqMQbQhXOOUxMRRPz
+LPs_6hVANle3
+}
+
+!function AwsQuantumTechnologies($id, $name="Quantum Technologies", $tech="")
+  CloudElement($id, 'aws/QuantumTechnologies/AwsQuantumTechnologies', $name, $tech)
+!endfunction
+!function AwsQuantumTechnologiesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsQuantumTechnologiesLg>', 'Quantum Technologies', $funcName, $content)
+!endfunction
+@enduml

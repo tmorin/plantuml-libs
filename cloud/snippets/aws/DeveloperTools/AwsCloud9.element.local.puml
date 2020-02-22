@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsCloud9 element
+include('elements/aws/DeveloperTools/AwsCloud9')
+AwsCloud9('element', 'Cloud9', 'an optional tech field')
+@enduml

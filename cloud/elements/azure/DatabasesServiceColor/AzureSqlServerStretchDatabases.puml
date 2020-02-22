@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSqlServerStretchDatabasesLg [20x20/16z] {
+POxN0KCn308jrC3x3nmzfoVtUIgm3lPWFO5xF737KG_nqhDaXiYiGsR05hmJDlvWrqB1kBVOrqhCTfEzLkq7eYIIkLQytHsVs5-72TPMfbHHh7wvG34yh90Y
+xRWS1mhXbyFvfx94y-qcjm8TSBGZcdxwiNgh4UoigvzfF-YybsxB_TkFmNzNAFsud62BQkguhlIfV0C
+}
+
+!function AzureSqlServerStretchDatabases($id, $name="Sql Server Stretch Databases", $tech="")
+  CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlServerStretchDatabases', $name, $tech)
+!endfunction
+!function AzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSqlServerStretchDatabasesLg>', 'Sql Server Stretch Databases', $funcName, $content)
+!endfunction
+@enduml

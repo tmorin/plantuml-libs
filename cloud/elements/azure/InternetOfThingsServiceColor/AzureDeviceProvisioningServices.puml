@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDeviceProvisioningServicesLg [19x20/16z] {
+DO_L0K1H248L4_VVzyKDll3OyWlP77P2ZZIwmioYEdIJQeEl0klw6VnBrTHfS8YHa0-rB86qZTJR5hBvK6plXSt2scMhkA4t3HaUaPo9LSP13FEZFUDtcWRM
+TLcdwiwA4hJ-fhCMoRyhwpynqLY89kBJ2aAorgkGXL0fefro1UIQXovSL8rZc8OAv7fWoofZw6adFfIbnxu
+}
+
+!function AzureDeviceProvisioningServices($id, $name="Device Provisioning Services", $tech="")
+  CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureDeviceProvisioningServices', $name, $tech)
+!endfunction
+!function AzureDeviceProvisioningServicesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDeviceProvisioningServicesLg>', 'Device Provisioning Services', $funcName, $content)
+!endfunction
+@enduml

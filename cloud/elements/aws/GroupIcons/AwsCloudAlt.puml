@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudAltLg [20x20/16z] {
+lOs54GHH349d8iJO_ijTbmhktjSOBFzXgZdaBEJnFL8CMFga4k68kVeQG4BBI_DAjOMX705dkvt9id4VHKkmn-hK0p8PnHZ2u_BOryDjpAeljnHEGHuMmvsf
+G86NCrH4LSLYfb-Thin3wYTi
+}
+
+!function AwsCloudAlt($id, $name="Cloud Alt", $tech="")
+  CloudElement($id, 'aws/GroupIcons/AwsCloudAlt', $name, $tech)
+!endfunction
+!function AwsCloudAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudAltLg>', 'Cloud Alt', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsLexLg [20x20/16z] {
+fT3L0S8m04LH9C-o_y14wbz0R_tKKtyeioC9n6ZNG6n9rC7Sv6eYJLmCQ1BvQ4xZ5W5jxnKKiw_Mb_jDkhAW9AkbWTAeQBCMLT4mPui1nmSJManRBkEWWjHh
+KhtR1m
+}
+
+!function AwsLex($id, $name="Lex", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsLex', $name, $tech)
+!endfunction
+!function AwsLexCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsLexLg>', 'Lex', $funcName, $content)
+!endfunction
+@enduml

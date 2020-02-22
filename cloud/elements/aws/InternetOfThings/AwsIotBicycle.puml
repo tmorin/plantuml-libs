@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotBicycleLg [20x20/16z] {
+TL090WCW29eXsFzVF7JtrkWcAFNo3mWimykJ2e5f48exHQhRJEHDvUK5jXBIEoV1Cj1JxrPB2C-WXbkerJhsRVPxLTGUNIvpraLM8NVxnE6uf6figa_Z9G1c
+sGQE5nmvVPw7U8i5GYf2wSqj5id-z2xIFWc7t0urEDJgNDCphW
+}
+
+!function AwsIotBicycle($id, $name="Iot Bicycle", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotBicycle', $name, $tech)
+!endfunction
+!function AwsIotBicycleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotBicycleLg>', 'Iot Bicycle', $funcName, $content)
+!endfunction
+@enduml

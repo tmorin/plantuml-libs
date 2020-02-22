@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsFaceLg [20x20/16z] {
+VP05ciKW38I9KABR-zzsoLT_DlYVmT9-213X2LWyquKlZBBk4ZoGhUlV3cs3C5t9VQS2nNZEbjPwR92BJTke82uM6IcrrQF3-HxiFXUONCksTvHOZERCpwuO
+1C_0mBtZABUCTjEGwZdfGfIylLdX_BWAx7zJsbrgvuSr1nFnICLRhZGoGnZUS_f3_m
+}
+
+!function MaterialsFace($id, $name="Face", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsFace', $name, $tech)
+!endfunction
+!function MaterialsFaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFaceLg>', 'Face', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsViewCarouselLg [20x20/16z] nS-r0S0m3011cItUVzemzC4lhtkuMoYrJDKITWWGsPSuGfWv8hRJ6cASp1nFGxS_ZRcVrfdZyX5E2-7Ogssf1dYZ4G
+
+!function MaterialsViewCarousel($id, $name="View Carousel", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsViewCarousel', $name, $tech)
+!endfunction
+!function MaterialsViewCarouselCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsViewCarouselLg>', 'View Carousel', $funcName, $content)
+!endfunction
+@enduml

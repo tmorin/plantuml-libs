@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsTrustedAdvisorLg [20x20/16z] dL350GCn3Fi8i_--PUwnWcPROo_QNqK4AbzguWP-kf6MJFPBLxi7TCqGOeSSwTChvWtEopEq291ctkd0cmulDu7DvN9AwAdpzRvUVkgQNYwWz-ztY-jShUCC
+
+!function AwsTrustedAdvisor($id, $name="Trusted Advisor", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisor', $name, $tech)
+!endfunction
+!function AwsTrustedAdvisorCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTrustedAdvisorLg>', 'Trusted Advisor', $funcName, $content)
+!endfunction
+@enduml

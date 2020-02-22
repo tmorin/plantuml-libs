@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCommentLg [20x20/16z] bS_L0KCn243Hk0FxJrj3wa_kvudYVkR3M_vE3U4bR3SCG6z1k1aIZ2uD86JhtkxkQYC6AGwrcQovTNOLQvrzWz2c83QWbzXSxYy1c_ClfSNsLbfcBsYssnK
+
+!function MaterialsComment($id, $name="Comment", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsComment', $name, $tech)
+!endfunction
+!function MaterialsCommentCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCommentLg>', 'Comment', $funcName, $content)
+!endfunction
+@enduml

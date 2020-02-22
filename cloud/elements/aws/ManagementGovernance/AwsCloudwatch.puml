@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudwatchLg [20x20/16z] {
+RStN0SD020FG58HEyVxxvYZkrX-FfiuuH0-e1zn15tF0iEclQDO0Lmj4ZiECIfj8r4tHs3PgZExqYMd8epHC8TeK1Y2aZJvfe7wx52QFcQXerCoqgJde-09j
+7N4uuBlrEErk6chRiR8yuFA0Vm
+}
+
+!function AwsCloudwatch($id, $name="Cloudwatch", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatch', $name, $tech)
+!endfunction
+!function AwsCloudwatchCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudwatchLg>', 'Cloudwatch', $funcName, $content)
+!endfunction
+@enduml

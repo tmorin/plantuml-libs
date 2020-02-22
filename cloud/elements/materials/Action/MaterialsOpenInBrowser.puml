@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsOpenInBrowserLg [20x20/16z] {
+fSm54WD124JHdeQC0SNzJnjtJ_QNFmJBajLLSg38gsAFcZVftg9TJbiSp0hE5Risyi4u1k-C8tForhIQLRt_rplmtfmNe-zDOeuXEvCnPWZsM6ibLC5Qgs1P
+6m
+}
+
+!function MaterialsOpenInBrowser($id, $name="Open In Browser", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsOpenInBrowser', $name, $tech)
+!endfunction
+!function MaterialsOpenInBrowserCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsOpenInBrowserLg>', 'Open In Browser', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsEc2ImageBuilderLg [20x20/16z] fP053WH0309F6AR___2vIso9DJLarc0li3vR2P1zzjL7pv7aqlVHQogevDvhEaF2mBq7qu9fqrllN0lNBzvxP3vw89-tvyexnmyjVcfE_EFj8uDr704
+
+!function AwsEc2ImageBuilder($id, $name="Ec2 Image Builder", $tech="")
+  CloudElement($id, 'aws/Compute/AwsEc2ImageBuilder', $name, $tech)
+!endfunction
+!function AwsEc2ImageBuilderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2ImageBuilderLg>', 'Ec2 Image Builder', $funcName, $content)
+!endfunction
+@enduml

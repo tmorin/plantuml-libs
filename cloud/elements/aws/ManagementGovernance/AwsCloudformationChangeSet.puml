@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudformationChangeSetLg [20x20/16z] {
+VL15GaL138kqcSVz3uoDmDVigX70TGC3mBZj3G0C9U8ND13-z6faa6oZBgrU5-Ba8qerzruF0bQFlZnxieKVoBPc3pUOFRgu6Y9dpwdyyYgTNXojoUlXpkon
+Om0cNEyuG3tqbFIiYSrRnIo_YKvlyi9NU6vhyMhoObJdDjDdsNy1
+}
+
+!function AwsCloudformationChangeSet($id, $name="Cloudformation Change Set", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudformationChangeSet', $name, $tech)
+!endfunction
+!function AwsCloudformationChangeSetCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudformationChangeSetLg>', 'Cloudformation Change Set', $funcName, $content)
+!endfunction
+@enduml

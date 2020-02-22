@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAuroraLg [20x20/16z] {
+TSu50WD124FH2WaXS__xbg5kV_snvgvUa-GVw1_uD44tR13HKV6qdBc8lRyPqFkgFAlKsnX94BssiMvMdXEAh9kXqIv58cfQYnDcvTrg_c-U978CQ7IUOyyY
+z7oMIbGXxyykxvY0R6yhxg580pDiMrQIALlojEvv-cy_y08
+}
+
+!function AwsAurora($id, $name="Aurora", $tech="")
+  CloudElement($id, 'aws/Database/AwsAurora', $name, $tech)
+!endfunction
+!function AwsAuroraCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAuroraLg>', 'Aurora', $funcName, $content)
+!endfunction
+@enduml

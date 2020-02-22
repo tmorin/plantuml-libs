@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudToolsForVisualStudioLg [20x20/16z] {
+RP1L0i0m24FnvFuNdh3E-_ug49561t9XTM4oFXKlQdmDFeZZ6_W0_J7v8dS1y0LCP1S04Ev1O9Tf0NYLg4YLWqHWrtAQLgd1iwVkEp4UTuunApsxgxZq2zaQ
+R8s_5zhSyp_RluD_Lz1tfm2kJd_Thm
+}
+
+!function GcpCloudToolsForVisualStudio($id, $name="Cloud Tools For Visual Studio", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudToolsForVisualStudio', $name, $tech)
+!endfunction
+!function GcpCloudToolsForVisualStudioCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudToolsForVisualStudioLg>', 'Cloud Tools For Visual Studio', $funcName, $content)
+!endfunction
+@enduml

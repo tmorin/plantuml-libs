@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsGraphicEqLg [20x20/16z] ZL2r0S102Fop-FxhHfguKGAdvMt8wwwkhxkc-TwXqR9JWzskzx9p_xPZiEqGBZiF-ztWXzq5-rltwlb_tlUkoF8s4m
+
+!function MaterialsGraphicEq($id, $name="Graphic Eq", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsGraphicEq', $name, $tech)
+!endfunction
+!function MaterialsGraphicEqCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGraphicEqLg>', 'Graphic Eq', $funcName, $content)
+!endfunction
+@enduml

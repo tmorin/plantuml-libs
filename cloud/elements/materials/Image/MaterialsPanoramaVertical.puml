@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPanoramaVerticalLg [20x20/16z] RP055i0W34CXTBx2_KyxnSb_rbTF3CUYmluv2Pe9ykUWCoAp8WvliudCsnYLgXnnipqavTo9kFbqAGUDeLFad4yvJtDibjrWlz2VcJRc0VEAUigv0G
+
+!function MaterialsPanoramaVertical($id, $name="Panorama Vertical", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsPanoramaVertical', $name, $tech)
+!endfunction
+!function MaterialsPanoramaVerticalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPanoramaVerticalLg>', 'Panorama Vertical', $funcName, $content)
+!endfunction
+@enduml

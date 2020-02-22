@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatIndentIncreaseLg [20x20/16z] Oo0QCBAW04QG63CFDnBWOOOeH078Hc0JO-T1qiiCCO4PsGuMRcOCjx3mSpC1ALOE26369OQf5zCEN6x1T3Ectt240MPO4Gq
+
+!function MaterialsFormatIndentIncrease($id, $name="Format Indent Increase", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatIndentIncrease', $name, $tech)
+!endfunction
+!function MaterialsFormatIndentIncreaseCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatIndentIncreaseLg>', 'Format Indent Increase', $funcName, $content)
+!endfunction
+@enduml

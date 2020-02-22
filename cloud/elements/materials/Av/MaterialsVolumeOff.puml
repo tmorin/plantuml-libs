@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsVolumeOffLg [20x20/16z] {
+ZT254S0m30D0cGfkOFzfoymwqdqu-1-w593h15pRgXfwv19KnEg0NFL5cXDYm60ZaAfw79ONGE4qcEOXFP8B9F9c0ug1WsmspJoPMr1CQwSpwfnhcgwqNeRh
+xDELUjgmDvH9DvhV5ZmSaC1kf4xNJoFyJmS
+}
+
+!function MaterialsVolumeOff($id, $name="Volume Off", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsVolumeOff', $name, $tech)
+!endfunction
+!function MaterialsVolumeOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsVolumeOffLg>', 'Volume Off', $funcName, $content)
+!endfunction
+@enduml

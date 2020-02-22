@@ -1,0 +1,14 @@
+@startuml
+sprite $AzureHdInsightLg [26x20/16z] {
+PP05ikCm44J7dYPfQ-z_tL_ZSFBCRX3K6wUJkEi7HEY6KPySNEWByVXeYdLNcZheczhAbZm_Hy6Ae-bHP84zC6XkWpbznarTVz6jnLROM4xIC4OHfweROzbU
+6_T8SvHXV1lBLpb6KJ_XgkjJxhio_Y4iwF6FuTnD05OLnmwJCRib_lyNiAkEv2gwxu2tr-eQBB5VU0DdtHLC7Sa9GUcwSrX1jxKq4GJrX6kyfqS8tvKZX5Wa
+eaRN6qtdhCEBzSuV
+}
+
+!function AzureHdInsight($id, $name="Hd Insight", $tech="")
+  CloudElement($id, 'azure/Companies/AzureHdInsight', $name, $tech)
+!endfunction
+!function AzureHdInsightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureHdInsightLg>', 'Hd Insight', $funcName, $content)
+!endfunction
+@enduml

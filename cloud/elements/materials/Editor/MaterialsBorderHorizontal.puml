@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderHorizontalLg [20x20/16z] ZT230S0m443HVoZttxTsWtknGPWwk69srXO-YenErvsrbUnHpXgSXHm5nrfWNRjOrfvdBCo0yumKwryisPUGEYDrbzITKszB_K7ohy9c
+
+!function MaterialsBorderHorizontal($id, $name="Border Horizontal", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderHorizontal', $name, $tech)
+!endfunction
+!function MaterialsBorderHorizontalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderHorizontalLg>', 'Border Horizontal', $funcName, $content)
+!endfunction
+@enduml

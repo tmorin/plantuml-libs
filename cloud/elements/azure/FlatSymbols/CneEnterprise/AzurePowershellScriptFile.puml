@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePowershellScriptFileLg [19x20/16z] {
+NSY5aGD130J04THg1Fcd-s_x-BguDUSk0B0P9_OiO8YRdCzDl6fYBrLyHLNFNb7RYV0ehTmEiTLsyYfOyrtmNgyIlikh7FUIrLJSoxANcfcU9Pa6TdUS1HN0
+t5tFkcp5Lt7OZ3isDUU9-Wy
+}
+
+!function AzurePowershellScriptFile($id, $name="Powershell Script File", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePowershellScriptFile', $name, $tech)
+!endfunction
+!function AzurePowershellScriptFileCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePowershellScriptFileLg>', 'Powershell Script File', $funcName, $content)
+!endfunction
+@enduml

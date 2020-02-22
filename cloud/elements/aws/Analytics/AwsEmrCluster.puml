@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEmrClusterLg [20x20/16z] {
+TP27aKLH249H0U_st_3-b_CP9va1E_o1Az5avordmCA5x0YtuvnoZrz6WnL8IgfoeGpOQjOlidea08aZG6fOKZUGz9yxmH-HFresezpjBd5zBl13em3ikNp9
+sSphh84uRZWZWfTVGFyGpp-_QhjxyEtLjwUWj6x_1m
+}
+
+!function AwsEmrCluster($id, $name="Emr Cluster", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsEmrCluster', $name, $tech)
+!endfunction
+!function AwsEmrClusterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEmrClusterLg>', 'Emr Cluster', $funcName, $content)
+!endfunction
+@enduml

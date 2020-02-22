@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsCodeguruLg [20x20/16z] hSr7bW9H34FHRa3oa_U_NpByungHxinH_GlGGtBh9Qk7iMHCBuY0nha83beT42uRhQ0gbLmkLQrSWG5bPEHiPhJfnZrOLTxqq1azv20TqbD9rLj9l-i4
+
+!function AwsCodeguru($id, $name="Codeguru", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCodeguru', $name, $tech)
+!endfunction
+!function AwsCodeguruCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodeguruLg>', 'Codeguru', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotAnalyticsLg [20x20/16z] {
+hS_L4GGX44NHggNla_m3NX_x7vo3Tcz8GP_sGcDSq24mp8XCTdA5CuzZ7sv8CxEJrKeVplXlfE6_4-qcVGdCPi4aGaD-9Wiir6vKhxL0QNLwr-iZDJb7uSHy
+Q4T7W7j3UW4
+}
+
+!function AwsIotAnalytics($id, $name="Iot Analytics", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAnalytics', $name, $tech)
+!endfunction
+!function AwsIotAnalyticsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAnalyticsLg>', 'Iot Analytics', $funcName, $content)
+!endfunction
+@enduml

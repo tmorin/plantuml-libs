@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureEndProtectionLg [19x20/16z] {
+NOy50WCm20E3j9Ja_--TCDzLSS2BCFnYnOqN_jJegND4LyPgySPPaTKP5AdHK7FI-KPScs9uwwtQm17TZfvnEeQasb1IjtZxExob0onrnEtBn4GimDc6c4HR
+51r0gGnvFnHrPZYgdY_9n9qIDoOHLHYynMNrh3fCaiCP1lZeD0FXGxQaJdpZrUNuuwEu0W
+}
+
+!function AzureEndProtection($id, $name="End Protection", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureEndProtection', $name, $tech)
+!endfunction
+!function AzureEndProtectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureEndProtectionLg>', 'End Protection', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBlockLg [20x20/16z] {
+VT053WGn20LGh2aq_FiVTwswDiJ8Ir2w21RXTx188CCsIw2QgbMuJ6gXFTDi7JbYbXIaltA3BYeAUsPUDn5LVvQc7KIMZsA17aGAwJQfMwzTr6lxZ4NF6NsN
+JMCNzbp4uJnkotbRj7Mmpn-4VFxAZIz_-Xbt
+}
+
+!function MaterialsBlock($id, $name="Block", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsBlock', $name, $tech)
+!endfunction
+!function MaterialsBlockCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBlockLg>', 'Block', $funcName, $content)
+!endfunction
+@enduml

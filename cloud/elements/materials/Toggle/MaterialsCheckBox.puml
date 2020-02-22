@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsCheckBoxLg [20x20/16z] ZT2r0G0n30H1CqF_rPhvSRERJ0B_GsG9LJ9-oHGaVeiSPhawpT8qkWs2efjLaxfHo0SDIyirwfOtRjGjOwTX2L6ZQTxg-pk6tV_W_DN_8W
+
+!function MaterialsCheckBox($id, $name="Check Box", $tech="")
+  CloudElement($id, 'materials/Toggle/MaterialsCheckBox', $name, $tech)
+!endfunction
+!function MaterialsCheckBoxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCheckBoxLg>', 'Check Box', $funcName, $content)
+!endfunction
+@enduml

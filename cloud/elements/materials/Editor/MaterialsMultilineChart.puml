@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsMultilineChartLg [20x20/16z] {
+jSZ50GGX343H213VxR_RSRtFH_FWWv27o63SXlNgKQxg5NsUkyuNQWs2EHebsAh373FiSNWEEEjjlV-65_rgHl9AkaWq6vcnZvC6eAOxmN0y2HPa02wwQ4PQ
+hh6QpFGEuUic
+}
+
+!function MaterialsMultilineChart($id, $name="Multiline Chart", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsMultilineChart', $name, $tech)
+!endfunction
+!function MaterialsMultilineChartCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMultilineChartLg>', 'Multiline Chart', $funcName, $content)
+!endfunction
+@enduml

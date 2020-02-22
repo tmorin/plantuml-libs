@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureSharedImageGalleriesLg [20x20/16z] {
+PSs50O0m40H1-DiZqd-_kF_YGyJbbOSzJznDs_jksa9hdjXExSRMQWvvQjDge748E8oocuOr-MKWZQE0jsqY_Is8Zud89XJejI_coM1FhgzQFqgqMQR-ecmz
+My_MixMFBG
+}
+
+!function AzureSharedImageGalleries($id, $name="Shared Image Galleries", $tech="")
+  CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureSharedImageGalleries', $name, $tech)
+!endfunction
+!function AzureSharedImageGalleriesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureSharedImageGalleriesLg>', 'Shared Image Galleries', $funcName, $content)
+!endfunction
+@enduml

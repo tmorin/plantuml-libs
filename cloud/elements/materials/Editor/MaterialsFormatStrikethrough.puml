@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsFormatStrikethroughLg [20x20/16z] jSv30aG130FGrEFU_xJZR-iLsGORgTkVA_uYIu4_YuXBvkKTXXhFTBHOfg65c0cZvD8WU6DlO8mITvdJHICK1ta1
+
+!function MaterialsFormatStrikethrough($id, $name="Format Strikethrough", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsFormatStrikethrough', $name, $tech)
+!endfunction
+!function MaterialsFormatStrikethroughCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsFormatStrikethroughLg>', 'Format Strikethrough', $funcName, $content)
+!endfunction
+@enduml

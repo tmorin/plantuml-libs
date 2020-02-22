@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsEqualizerLg [20x20/16z] Ow02O6PZOqONO-NdPwL8Z8c5XGbD34ImOH5ZXNAvk5ZHnTY0B0nrv8WXp6C3So4iXFSH16K
+
+!function MaterialsEqualizer($id, $name="Equalizer", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsEqualizer', $name, $tech)
+!endfunction
+!function MaterialsEqualizerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsEqualizerLg>', 'Equalizer', $funcName, $content)
+!endfunction
+@enduml

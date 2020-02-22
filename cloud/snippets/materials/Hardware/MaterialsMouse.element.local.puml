@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the MaterialsMouse element
+include('elements/materials/Hardware/MaterialsMouse')
+MaterialsMouse('element', 'Mouse', 'an optional tech field')
+@enduml

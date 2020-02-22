@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBookmarkBorderLg [20x20/16z] rOg53S10202Byxx_j7MD4-_X5wO8n2TqA-crxDGkbpD7s46ts_rW0nRuE2SjjHObVzneMH0bj_4uPzWcyFEtYcSDi
+
+!function MaterialsBookmarkBorder($id, $name="Bookmark Border", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsBookmarkBorder', $name, $tech)
+!endfunction
+!function MaterialsBookmarkBorderCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBookmarkBorderLg>', 'Bookmark Border', $funcName, $content)
+!endfunction
+@enduml

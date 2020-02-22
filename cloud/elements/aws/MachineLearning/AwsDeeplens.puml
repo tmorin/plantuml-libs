@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsDeeplensLg [20x20/16z] fSur0aGn24NHaJo1_U_tInUW6RdbYK1-MSGGW1QAYt55LJFWRdV307LBAQiPkeBhBk_NwuqejXR85Vsj3JVpPIflR-8gbk8qtz7vToS
+
+!function AwsDeeplens($id, $name="Deeplens", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsDeeplens', $name, $tech)
+!endfunction
+!function AwsDeeplensCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsDeeplensLg>', 'Deeplens', $funcName, $content)
+!endfunction
+@enduml

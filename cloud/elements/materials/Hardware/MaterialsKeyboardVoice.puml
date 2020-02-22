@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsKeyboardVoiceLg [20x20/16z] jL030aHH2CnQtV-qQtzh7dCDJ0GouxygJYV_K_Bf2lxLoKqd6-fCNtNLNZeDGB_t5_hIKSbZ3YdyPDl9LS3hypr6fdic_r5GrI018g01zwQE2Ffm0G
+
+!function MaterialsKeyboardVoice($id, $name="Keyboard Voice", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsKeyboardVoice', $name, $tech)
+!endfunction
+!function MaterialsKeyboardVoiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsKeyboardVoiceLg>', 'Keyboard Voice', $funcName, $content)
+!endfunction
+@enduml

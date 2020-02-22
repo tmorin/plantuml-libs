@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMessageLg [20x20/16z] bS-35S10303GCyBzfwtj_kSuvf9rExOF5U4DALtGiUwmwsAY37K2h3B6gbrcrpa6taqyp34C2tpgfRIWlpjKbYzqYLtzKJUYwMCKx8RfOnJCaLj2lxK
+
+!function MaterialsMessage($id, $name="Message", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsMessage', $name, $tech)
+!endfunction
+!function MaterialsMessageCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMessageLg>', 'Message', $funcName, $content)
+!endfunction
+@enduml

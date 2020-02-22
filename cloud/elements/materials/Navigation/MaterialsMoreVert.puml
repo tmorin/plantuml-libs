@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsMoreVertLg [20x20/16z] Ow06O6715EBdPy4hXj0xWkmW3
+
+!function MaterialsMoreVert($id, $name="More Vert", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsMoreVert', $name, $tech)
+!endfunction
+!function MaterialsMoreVertCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsMoreVertLg>', 'More Vert', $funcName, $content)
+!endfunction
+@enduml

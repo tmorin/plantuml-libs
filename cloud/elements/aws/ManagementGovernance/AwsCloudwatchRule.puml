@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudwatchRuleLg [20x20/16z] {
+dSr70e1024FH11Bm_XUsTtV-tHHuZCmCF5BRBl4M901qNRKat0g9Ujrn62YfxJAFEvjIQAxQLwtDBTsAm_NHnmM_hafukqhWlrl-kdwxl5o_N70kw-5YBV8g
+E04
+}
+
+!function AwsCloudwatchRule($id, $name="Cloudwatch Rule", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchRule', $name, $tech)
+!endfunction
+!function AwsCloudwatchRuleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudwatchRuleLg>', 'Cloudwatch Rule', $funcName, $content)
+!endfunction
+@enduml

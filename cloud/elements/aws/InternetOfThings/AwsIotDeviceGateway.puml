@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIotDeviceGatewayLg [20x20/16z] {
+TSy70WGX30B014Ay_x_usDxPeeuzFeBSQecDVhLP_JYNR3MIwHUkSgQahT8lccb4P_2OoyY6spRK7DZiYqajLtMpuUzgrI8kusY0nAkr9xUkLe3wEfUQmxF5
+cjLaE-vh4wCQTTot_7eyD8wvGuWvpCt0-CWV
+}
+
+!function AwsIotDeviceGateway($id, $name="Iot Device Gateway", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotDeviceGateway', $name, $tech)
+!endfunction
+!function AwsIotDeviceGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotDeviceGatewayLg>', 'Iot Device Gateway', $funcName, $content)
+!endfunction
+@enduml

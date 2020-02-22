@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsBorderInnerLg [20x20/16z] ZP350S0m202nHsp_TQjnvTeO3g261408cDFjGHoY4p0ctLxm-us9joI3J_O_ec-HHL-IOXTpHA8imkOZXF_akMpqdUSOQvdNFFOscy5qLcfk
+
+!function MaterialsBorderInner($id, $name="Border Inner", $tech="")
+  CloudElement($id, 'materials/Editor/MaterialsBorderInner', $name, $tech)
+!endfunction
+!function MaterialsBorderInnerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBorderInnerLg>', 'Border Inner', $funcName, $content)
+!endfunction
+@enduml

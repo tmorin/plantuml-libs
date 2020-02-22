@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudFunctionsLg [20x20/16z] {
+RP1N0e0m348x0lJ-9zOCjtmf6I-bXNgfdHeyDShgNATOhRPkicpJtLCqOZq41-njCeivy-yTG_z93Bev9W5ZvjmSouUKda20uIrT7g7ofbwpVY8k1ejHjo2u
+2Vov-Vzj_ncSMLrjLwQIAjEVx3S
+}
+
+!function GcpCloudFunctions($id, $name="Cloud Functions", $tech="")
+  CloudElement($id, 'gcp/Compute/GcpCloudFunctions', $name, $tech)
+!endfunction
+!function GcpCloudFunctionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudFunctionsLg>', 'Cloud Functions', $funcName, $content)
+!endfunction
+@enduml

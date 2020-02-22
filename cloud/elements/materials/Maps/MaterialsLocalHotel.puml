@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsLocalHotelLg [20x20/16z] {
+hSg54G8m343HUEhPVrlIud0El_wkyEVG-Tk6v8QvRjtCUcFmqNTDZt54DFAufTiqB_Df3TDeH1HyMDy6R8Rmi95cH9opllwBTOfNc_sjCT8Ktz9j0cz9cjAx
+aIByq0K
+}
+
+!function MaterialsLocalHotel($id, $name="Local Hotel", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsLocalHotel', $name, $tech)
+!endfunction
+!function MaterialsLocalHotelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLocalHotelLg>', 'Local Hotel', $funcName, $content)
+!endfunction
+@enduml

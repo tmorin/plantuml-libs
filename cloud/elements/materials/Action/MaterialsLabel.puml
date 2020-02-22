@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLabelLg [20x20/16z] Ow0-O6M70oQe43C_0d0nGiHO-940EnOnVXOiOjnCc6By78o4n11w2Tl1ZjtDc7wZ1G
+
+!function MaterialsLabel($id, $name="Label", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLabel', $name, $tech)
+!endfunction
+!function MaterialsLabelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLabelLg>', 'Label', $funcName, $content)
+!endfunction
+@enduml

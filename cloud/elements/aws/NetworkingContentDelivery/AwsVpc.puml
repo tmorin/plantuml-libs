@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsVpcLg [20x20/16z] {
+VSt9WGKW20JH2zKjJlxvZhj_hvjFXJoLqm-xUirIELW7WHJUM3jA_MT8sveo_wFObc8lWMLUP0AKmvYBY1ubbxMQgQXRjbF1FVgJ89jrjAGdMoLHgf-j6Wnw
+ih6ONBRHTlR-wbFJBbxxWFy
+}
+
+!function AwsVpc($id, $name="Vpc", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpc', $name, $tech)
+!endfunction
+!function AwsVpcCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsVpcLg>', 'Vpc', $funcName, $content)
+!endfunction
+@enduml

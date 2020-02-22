@@ -1,0 +1,16 @@
+@startuml
+!function AzureGroupPlain($id, $name="Plain", $tech="")
+  CloudGroup($id, "AzureGroupPlain", "", $name, $tech)
+!endfunction
+skinparam Rectangle<<AzureGroupPlain>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_LIGHT
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AZURE_GROUP_BG_LIGHT
+  shadowing false
+}
+@enduml

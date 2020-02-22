@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsManagedMicrosoftAdLg [20x20/16z] {
+NOu7aaKX20IPX7l_2-zFMe-oAmfCZxMnwWPhuPx5zZLY5_ewR5KfSxAVpLdGt8A7em_FvB7JZlrTHDlQaUJEq6I90FCtwf9qTxpsFuO3Qtm_GW74IdE3A8hz
+cHqSsQQrQdEo5CziTioPMYILhW6_Sk45
+}
+
+!function AwsManagedMicrosoftAd($id, $name="Managed Microsoft Ad", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsManagedMicrosoftAd', $name, $tech)
+!endfunction
+!function AwsManagedMicrosoftAdCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsManagedMicrosoftAdLg>', 'Managed Microsoft Ad', $funcName, $content)
+!endfunction
+@enduml

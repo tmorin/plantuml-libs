@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVirtualWansLg [20x20/16z] {
+JSw73GH120D0m67tll-2Nt1nb2s2ur8aaV45ZefR9dZ9P-k5T-kLdod94iz7Ls9JQtdIPBChKaXCEBnGNjKD9WIfPVftQCvRisn6O0lg8X8h4gu8LaHs24_5
+NZeNrwfYD7OMIMd_bgwi-f-wxEwZhHWyZZfNUgcfUEoSh5T7ogMPi-DMHYdxJSOBMjj2Z3y
+}
+
+!function AzureVirtualWans($id, $name="Virtual Wans", $tech="")
+  CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualWans', $name, $tech)
+!endfunction
+!function AzureVirtualWansCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVirtualWansLg>', 'Virtual Wans', $funcName, $content)
+!endfunction
+@enduml

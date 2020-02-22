@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsMobileClientLg [20x20/16z] tS-50G0X20LG6lx-0r_OC_Zi5chCVs6qHNufmZFM51TRQCRVMNE8lYzmpdcpv_OHhllcKDdK6Qz9OtiVPNWJIGjxDDwtlG
+
+!function AwsMobileClient($id, $name="Mobile Client", $tech="")
+  CloudElement($id, 'aws/General/AwsMobileClient', $name, $tech)
+!endfunction
+!function AwsMobileClientCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsMobileClientLg>', 'Mobile Client', $funcName, $content)
+!endfunction
+@enduml

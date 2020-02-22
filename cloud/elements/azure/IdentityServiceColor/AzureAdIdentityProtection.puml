@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureAdIdentityProtectionLg [20x20/16z] bO-50SGm3CIak-o_yZEMgw3P7cT9vYgOAWlGgIgPACNdzQiYZzk__7U4_AfGligIKL1eVTRnH_UkKp51ZM8_2KqRtkdUodT7ctFSazvJJT1nbYi
+
+!function AzureAdIdentityProtection($id, $name="Ad Identity Protection", $tech="")
+  CloudElement($id, 'azure/IdentityServiceColor/AzureAdIdentityProtection', $name, $tech)
+!endfunction
+!function AzureAdIdentityProtectionCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureAdIdentityProtectionLg>', 'Ad Identity Protection', $funcName, $content)
+!endfunction
+@enduml

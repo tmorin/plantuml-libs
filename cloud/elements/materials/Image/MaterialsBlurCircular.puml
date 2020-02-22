@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsBlurCircularLg [20x20/16z] {
+VP073aCX34F9a8Y_oFslMmpT3MNpbEdsPuYgV0B7o1pm5rPaTpFl2NsW2xPVXcj30QQBhYM8vUv9ArchMJfPT2BQ4VRWR_ZyQOZ4l9eF1gBhmvVEMh7AjyXn
+gaNYi-QYjwC6Bwt2fT3qF6u
+}
+
+!function MaterialsBlurCircular($id, $name="Blur Circular", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsBlurCircular', $name, $tech)
+!endfunction
+!function MaterialsBlurCircularCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsBlurCircularLg>', 'Blur Circular', $funcName, $content)
+!endfunction
+@enduml

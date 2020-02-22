@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpAutomlTablesLg [20x20/16z] {
+RP050eGm30IZc_p_mz0kBdC7HAOgH7Van71Yiale4-ngz8tOjEeRHJ5dc340exd0r21djqm4spS1D854qVUk4P4jADE2UtGcYsn63ZMor5XpYhEETgx23m6G
+GWtS2rUPS6KxTeKOCCh_i_tVWIW-sdcdLRNVwS_Thm
+}
+
+!function GcpAutomlTables($id, $name="Automl Tables", $tech="")
+  CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlTables', $name, $tech)
+!endfunction
+!function GcpAutomlTablesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpAutomlTablesLg>', 'Automl Tables', $funcName, $content)
+!endfunction
+@enduml

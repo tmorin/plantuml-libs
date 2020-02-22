@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudMemorystoreLg [20x20/16z] {
+TP250S9034N_nVTV68cXVT0sRaXEWuLi8HJ7Oh4EbNX3AipVRPw1ccBob1G0FILdUi0f4c1f0d20D1eaVNh0Z5DbnEk3utRGsjhKryO_kS7GYaiopdgM47vG
+2z7C_4AlTlk-mTpgEsnlwkvpqz_Rtm4
+}
+
+!function GcpCloudMemorystore($id, $name="Cloud Memorystore", $tech="")
+  CloudElement($id, 'gcp/Databases/GcpCloudMemorystore', $name, $tech)
+!endfunction
+!function GcpCloudMemorystoreCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudMemorystoreLg>', 'Cloud Memorystore', $funcName, $content)
+!endfunction
+@enduml

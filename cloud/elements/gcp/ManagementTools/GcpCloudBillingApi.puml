@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudBillingApiLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpCloudBillingApi($id, $name="Cloud Billing Api", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudBillingApi', $name, $tech)
+!endfunction
+!function GcpCloudBillingApiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudBillingApiLg>', 'Cloud Billing Api', $funcName, $content)
+!endfunction
+@enduml

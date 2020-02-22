@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsLineStyleLg [20x20/16z] fSl50GL120DG4kGhi_rNk-vocdT18rKOlXEKdZK7zh2xPXym1Wxus8n_-XryWC_Og3m0IGXxSzkppEBuPdxX9TDk_nxe6tYhH2nTZmuunMpfgdG
+
+!function MaterialsLineStyle($id, $name="Line Style", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsLineStyle', $name, $tech)
+!endfunction
+!function MaterialsLineStyleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsLineStyleLg>', 'Line Style', $funcName, $content)
+!endfunction
+@enduml

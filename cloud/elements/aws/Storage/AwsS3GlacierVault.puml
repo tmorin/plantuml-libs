@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsS3GlacierVaultLg [20x20/16z] {
+NS_N0K0X24FHG1BSV-BN2te_ZnMSKK_4c_oQzL0QNoREOZ2-E097h2dUHwVoVe4j-pAYbNei8cGh4E1hMHOf5ty3QzXrK3EpWAAxYIOjTSjY5IkxWJuY9aD8
+WSMGYSMMEPPvBqjD9R03
+}
+
+!function AwsS3GlacierVault($id, $name="S3 Glacier Vault", $tech="")
+  CloudElement($id, 'aws/Storage/AwsS3GlacierVault', $name, $tech)
+!endfunction
+!function AwsS3GlacierVaultCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsS3GlacierVaultLg>', 'S3 Glacier Vault', $funcName, $content)
+!endfunction
+@enduml

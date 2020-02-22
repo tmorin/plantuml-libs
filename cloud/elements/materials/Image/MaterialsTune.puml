@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsTuneLg [20x20/16z] dSq54iKW30JGXGqJdFkVzclTspSQNJnWY1N95d_K7-yWrQjogxU-7T6iCcmMpD1xtmJE_t6djxuTCqYiU8yHzOFGxFMBUxtnTeN4NMy
+
+!function MaterialsTune($id, $name="Tune", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsTune', $name, $tech)
+!endfunction
+!function MaterialsTuneCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTuneLg>', 'Tune', $funcName, $content)
+!endfunction
+@enduml

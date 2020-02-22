@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotAnalyticsPipelineLg [20x20/16z] hOy30aHH24Kls_-EnpR-USo5fI752qaaFEtmfDfAJe3fYG6IUAEp92URlT5vfoi1g5NKIzqUVgqRwu1tDHxrygZdkzasqjAi0G
+
+!function AwsIotAnalyticsPipeline($id, $name="Iot Analytics Pipeline", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsPipeline', $name, $tech)
+!endfunction
+!function AwsIotAnalyticsPipelineCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotAnalyticsPipelineLg>', 'Iot Analytics Pipeline', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsGroupWorkLg [20x20/16z] {
+VP050i0W24MLiEF-jvr_tNyXyK35_CWIsMj0Ggur1pd25FggG5ie3IyxbyUIbg05LTWOBY3dSa5HX1LX2Qm0Au-qpR22sQpkcP5SibJxhDQMjT8SQvur3qBP
+DyHGYnQoT0-enQ86E02Z041SE5dFVFJ3cRUxRKhqCeEVMHqp_T44
+}
+
+!function MaterialsGroupWork($id, $name="Group Work", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsGroupWork', $name, $tech)
+!endfunction
+!function MaterialsGroupWorkCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsGroupWorkLg>', 'Group Work', $funcName, $content)
+!endfunction
+@enduml

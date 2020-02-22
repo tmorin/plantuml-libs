@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudCodeLg [20x20/16z] {
+TL054i0m2CF3_pyygzwnPjf82z014XCokCY9u4PPRh2FOkmSkDWo_Jq0tv-t9nD2v5rqd_-AzoEDavT4ezhAUmeR5uFxozOpejQIRyjUQgwzdMP07CMsPWg4
+q0HtjDKD
+}
+
+!function GcpCloudCode($id, $name="Cloud Code", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpCloudCode', $name, $tech)
+!endfunction
+!function GcpCloudCodeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudCodeLg>', 'Cloud Code', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzurePerformanceLg [20x20/16z] {
+RP05Wi1020EH5KBo__TUzNpQDHpin2Se4TFjPRJOG5Cz7j4IT_f1Rd8z8gJbhjff2Pt28KGKTL8Hq31lPhGUEfBjKzjAdopRcc3awSWgSe-PIR1zdw9X5f75
+xKtXSiLL0QKow96rctdhbh5zwM17x2k9DzySuhrd45FhUorbIzERyRtc8FpipP_UME7Wk6SGbgjgfGNq38PSSLxYlBqpXOWgl3FzR_OV
+}
+
+!function AzurePerformance($id, $name="Performance", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePerformance', $name, $tech)
+!endfunction
+!function AzurePerformanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePerformanceLg>', 'Performance', $funcName, $content)
+!endfunction
+@enduml

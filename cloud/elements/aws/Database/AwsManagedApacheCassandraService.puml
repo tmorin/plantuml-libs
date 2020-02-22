@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsManagedApacheCassandraServiceLg [20x20/16z] {
+JSrRSW0W24FHlWX9tFz-2pOpzdmvLmKF_KVIQqylRYFgwiHfNTHY8T6kzYN-l5ReLJMDl0razsIAKltmDdba-yyttxo1gYRVlFrUYcD8lG0xxM3wwcbEAsJ5
+hap3Qe2iNPU_5aavCczu8F4SGbv4ckU9y8UEinolnMk_
+}
+
+!function AwsManagedApacheCassandraService($id, $name="Managed Apache Cassandra Service", $tech="")
+  CloudElement($id, 'aws/Database/AwsManagedApacheCassandraService', $name, $tech)
+!endfunction
+!function AwsManagedApacheCassandraServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsManagedApacheCassandraServiceLg>', 'Managed Apache Cassandra Service', $funcName, $content)
+!endfunction
+@enduml

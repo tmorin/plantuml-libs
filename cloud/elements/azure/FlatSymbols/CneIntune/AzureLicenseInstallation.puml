@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureLicenseInstallationLg [23x20/16z] {
+ROw5WI1H34A9GwR_Vc_irj_NE8X0k8UTow_BB0t8tLbfUIvT5xa3r1uptLEiwVDYwv31E1vVyMG1kHtx5OPuktCh_fCytGE4AdVg0z7PGEta7gk7FTHE6fmP
+UoWVUYihwit-Gd5p3A7CCxlUxDkThv9Z-NAx6mXzqLsfVDnEUeJVAopTJhT7r1xa35kZSVNfZb26r28lf-ZSqROsO0wtwu8PJl-94Z-msKE1NrZJyHTsNVy
+}
+
+!function AzureLicenseInstallation($id, $name="License Installation", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureLicenseInstallation', $name, $tech)
+!endfunction
+!function AzureLicenseInstallationCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureLicenseInstallationLg>', 'License Installation', $funcName, $content)
+!endfunction
+@enduml

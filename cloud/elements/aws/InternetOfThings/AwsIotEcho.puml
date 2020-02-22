@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsIotEchoLg [20x20/16z] fP250S1020CVai3-4zVTvTet74gFWuIN1HuXaj926gIr9sEMPMT6HIxipD7Wjh0RhxSosyiIrecmpA61fPtGeQKTgGRoLIt_Qmxq9nOoKpyhzVP7iwy1
+
+!function AwsIotEcho($id, $name="Iot Echo", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotEcho', $name, $tech)
+!endfunction
+!function AwsIotEchoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotEchoLg>', 'Iot Echo', $funcName, $content)
+!endfunction
+@enduml

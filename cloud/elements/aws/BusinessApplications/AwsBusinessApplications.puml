@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsBusinessApplicationsLg [20x20/16z] {
+VT253O1G54DHh7ss_xvynxbfxCGxlJRVoYIQanuIBcerhLNpGNSZApERUKPk6y-Ma210Eva9bDIDPoFp03Mx6VbhyMe4oZOC2sK9a6OU4PwprCaAroIRQEdy
+rRpSIlRI3W
+}
+
+!function AwsBusinessApplications($id, $name="Business Applications", $tech="")
+  CloudElement($id, 'aws/BusinessApplications/AwsBusinessApplications', $name, $tech)
+!endfunction
+!function AwsBusinessApplicationsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsBusinessApplicationsLg>', 'Business Applications', $funcName, $content)
+!endfunction
+@enduml

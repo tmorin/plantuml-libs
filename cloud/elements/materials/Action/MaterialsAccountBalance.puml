@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsAccountBalanceLg [20x20/16z] {
+bSy54i0W34JHBExS_xQTr1ruBVP7GnlG7RGtk1RbQwrHdogNMTYgTANklE8aShtW27rX17sHHfstcQcMIFCstsPwRtgy9SERNMyp0ATjXgjvjdWbvtdBMLN4
+yGhqQW8
+}
+
+!function MaterialsAccountBalance($id, $name="Account Balance", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsAccountBalance', $name, $tech)
+!endfunction
+!function MaterialsAccountBalanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAccountBalanceLg>', 'Account Balance', $funcName, $content)
+!endfunction
+@enduml

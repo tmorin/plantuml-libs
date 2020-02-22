@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpCloudServiceMeshLg [22x20/16z] {
+VL454e0m3AkbwVzVpCrm2BfSP28Dg1sG1QyJV9BACqiTRDG5qKdhqipsTB7jLJGbrRWAdOqar5rHVU2YsPMeR4fqTKfCVuO1EJE2rUbG8qtNS7xWrhAZfeWz
+mUXcHu8SRNwqZKMqSS1mRCLv5SUs7IicX-1jT_2ta-AFZNm_eGq
+}
+
+!function GcpCloudServiceMesh($id, $name="Cloud Service Mesh", $tech="")
+  CloudElement($id, 'gcp/ManagementTools/GcpCloudServiceMesh', $name, $tech)
+!endfunction
+!function GcpCloudServiceMeshCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpCloudServiceMeshLg>', 'Cloud Service Mesh', $funcName, $content)
+!endfunction
+@enduml

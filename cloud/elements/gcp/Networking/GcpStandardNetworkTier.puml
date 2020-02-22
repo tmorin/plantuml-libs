@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpStandardNetworkTierLg [20x20/16z] {
+TP255S0m44A9GVQVk0_gzjluAGXb0mUL1nMR4US1DzC-BtJ4JFE2OZYobQWy3YVmJXpaOBOLS0AEbcFtJ7XHPQ-CkVQNtkQiQBQ9kHyQxL6yTK8v49FFipmr
+btA7gULE1Pw6uw-tjmOsvCliq5JIeUbB-mK
+}
+
+!function GcpStandardNetworkTier($id, $name="Standard Network Tier", $tech="")
+  CloudElement($id, 'gcp/Networking/GcpStandardNetworkTier', $name, $tech)
+!endfunction
+!function GcpStandardNetworkTierCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpStandardNetworkTierLg>', 'Standard Network Tier', $funcName, $content)
+!endfunction
+@enduml

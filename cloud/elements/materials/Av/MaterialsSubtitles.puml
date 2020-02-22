@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSubtitlesLg [20x20/16z] fP3L5S0W34LxS7Z8_jisH2hVt1QB9zSHFlxm979OF-18Dl-oUIn3QrYeZG7B1cNtj35qOrbqBkwDYIoRW-2D4T_N99hT6ueZimoe0bQZ3Ovda9HzuHaSS0C
+
+!function MaterialsSubtitles($id, $name="Subtitles", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsSubtitles', $name, $tech)
+!endfunction
+!function MaterialsSubtitlesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSubtitlesLg>', 'Subtitles', $funcName, $content)
+!endfunction
+@enduml

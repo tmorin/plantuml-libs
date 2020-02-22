@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureWhatSNewLg [20x20/16z] {
+RL050WCn2Ej5-lyVpsYOiDHI7DOBaFUsi1hGFd2aTFrV5qjK4bvb_HJYMArrEUxgI2ocXGxliAIqo6INGqwy590SuVzadZ9hoeGfGzVSUTMzwTrRPc02LJyp
+guOvPff9pzdV0G
+}
+
+!function AzureWhatSNew($id, $name="What S New", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureWhatSNew', $name, $tech)
+!endfunction
+!function AzureWhatSNewCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureWhatSNewLg>', 'What S New', $funcName, $content)
+!endfunction
+@enduml

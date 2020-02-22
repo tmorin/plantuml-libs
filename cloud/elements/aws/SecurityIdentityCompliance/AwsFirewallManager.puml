@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsFirewallManagerLg [20x20/16z] {
+fL3L0SKW37oIdB3_m4sezxSuPyXuNPGavHkMA11L3jWeQAfJEmOEkxaJOtWuSg8Jt1n6_7MwM-88rDIOrpXr4ZD20zZoMDWGye_cjy268GbE7tSfkjCWddSc
+ZEOsO4Cp2FZv2nt_lYm
+}
+
+!function AwsFirewallManager($id, $name="Firewall Manager", $tech="")
+  CloudElement($id, 'aws/SecurityIdentityCompliance/AwsFirewallManager', $name, $tech)
+!endfunction
+!function AwsFirewallManagerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsFirewallManagerLg>', 'Firewall Manager', $funcName, $content)
+!endfunction
+@enduml

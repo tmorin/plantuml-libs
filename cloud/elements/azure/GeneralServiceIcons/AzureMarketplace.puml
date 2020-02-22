@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureMarketplaceLg [17x20/16z] {
+ZSt50G9144JHxhBT_2E6CUp4FxuQgP6IMAmJtOnQE22Ku08FU44lw6wpdz1GTvUkpnpv2n9lkEyVI0vahEugBXXBtFFpUy6OPznmiLQTVKArmu3nE7i6dSzU
+_GdVDlxiRe2IFMRK0m
+}
+
+!function AzureMarketplace($id, $name="Marketplace", $tech="")
+  CloudElement($id, 'azure/GeneralServiceIcons/AzureMarketplace', $name, $tech)
+!endfunction
+!function AzureMarketplaceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureMarketplaceLg>', 'Marketplace', $funcName, $content)
+!endfunction
+@enduml

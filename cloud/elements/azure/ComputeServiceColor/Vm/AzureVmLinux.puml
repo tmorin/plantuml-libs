@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureVmLinuxLg [22x20/16z] {
+RP254GCn3C3CsFtdxVcP55ROB6zqoWUYjk5XEwUDtoztUThgxhTDyqzh5KyRHcJj3ri2I9rtwyM8MFLOwuv06QVTD9E-ts2HyR0FTABpaigZXssy802um3um
+3d0WCJ2S4BEO3oRCsrAyNpVh_m
+}
+
+!function AzureVmLinux($id, $name="Vm Linux", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmLinux', $name, $tech)
+!endfunction
+!function AzureVmLinuxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureVmLinuxLg>', 'Vm Linux', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsAddBoxLg [20x20/16z] ZP055iGm4483ktNUvFwdhNjZ__aeuChX_mQtalmDhSM_V_2_QjQszgw9rAS6F6iczK0lsLLh2JW7i0tLqhl7Zx2MjEOx_r06eQpAcG
+
+!function MaterialsAddBox($id, $name="Add Box", $tech="")
+  CloudElement($id, 'materials/Content/MaterialsAddBox', $name, $tech)
+!endfunction
+!function MaterialsAddBoxCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsAddBoxLg>', 'Add Box', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsPictureInPictureAltLg [20x20/16z] hT2r0S0m34HHcK6q_xJ19en-vU_ku2dZDmoOpBZ2sHWAPYNGq3oi-4Ojv3G8gvPqbBur6aPGN3Kp6zhXjgCFZhvwgWS
+
+!function MaterialsPictureInPictureAlt($id, $name="Picture In Picture Alt", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsPictureInPictureAlt', $name, $tech)
+!endfunction
+!function MaterialsPictureInPictureAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPictureInPictureAltLg>', 'Picture In Picture Alt', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNetworkWifiLg [20x20/16z] {
+bSr50WKX30FG57VkVzelKpAsuwsW5kmIUNtDmWOBBBFqAkh3kX-hRnn5dqeVevVajGHnUSnbPASfOTw45PokKX8eKrWg1cIRbfh5nOqZmU4kyFwD9Dw_CONt
+xqMBNLy
+}
+
+!function MaterialsNetworkWifi($id, $name="Network Wifi", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsNetworkWifi', $name, $tech)
+!endfunction
+!function MaterialsNetworkWifiCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNetworkWifiLg>', 'Network Wifi', $funcName, $content)
+!endfunction
+@enduml

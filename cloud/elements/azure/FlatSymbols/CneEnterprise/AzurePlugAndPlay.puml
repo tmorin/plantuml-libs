@@ -1,0 +1,10 @@
+@startuml
+sprite $AzurePlugAndPlayLg [16x20/16z] NL1L0a0X2BDriljVztN8-ADM8mLNd3MwdaJsFQr5rvEp-9usaklvuf80ElZYSfpZN9lTkFNwQu3TkDhhlU8fd-fHlUf7_MeUcjSE
+
+!function AzurePlugAndPlay($id, $name="Plug And Play", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePlugAndPlay', $name, $tech)
+!endfunction
+!function AzurePlugAndPlayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzurePlugAndPlayLg>', 'Plug And Play', $funcName, $content)
+!endfunction
+@enduml

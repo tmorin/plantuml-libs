@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsChevronRightLg [20x20/16z] Ow0VO69bn11ZvcN356JX8LgGZmsV648lNY64Mx2wcQu
+
+!function MaterialsChevronRight($id, $name="Chevron Right", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsChevronRight', $name, $tech)
+!endfunction
+!function MaterialsChevronRightCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsChevronRightLg>', 'Chevron Right', $funcName, $content)
+!endfunction
+@enduml

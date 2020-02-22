@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsApiGatewayEndpointLg [20x20/16z] {
+XP350O1G34DJXVqNHhzhJgyk-CJoYP5bRf_SiiioPI1vGUZbwFAJ03hzStukTlNNv-Bys-27VX_uU935e8heUzbavHDcsVls_PfT7emxIhdpuBR13uQ_6lzq
+zFiR
+}
+
+!function AwsApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsApiGatewayEndpoint', $name, $tech)
+!endfunction
+!function AwsApiGatewayEndpointCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsApiGatewayEndpointLg>', 'Api Gateway Endpoint', $funcName, $content)
+!endfunction
+@enduml

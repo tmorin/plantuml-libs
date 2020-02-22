@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsElementalServerLg [20x20/16z] jSwr0G1124JHWE4F_JTyxXRTldM5-fyvyB8NkObrJ_PotzhsO1p9H5zl6MKUOqoGg0EK2Zk6WME2CLLS1vPSLr0tThNI0m
+
+!function AwsElementalServer($id, $name="Elemental Server", $tech="")
+  CloudElement($id, 'aws/MediaServices/AwsElementalServer', $name, $tech)
+!endfunction
+!function AwsElementalServerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElementalServerLg>', 'Elemental Server', $funcName, $content)
+!endfunction
+@enduml

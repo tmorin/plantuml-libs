@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCameraFrontLg [20x20/16z] {
+ZSk50KGX201GbRROVzhBt_rCAdn0yK61C932Wo9Jxko7kCkXEnxbRcUFVn6882vpIiK_2kcSwzr_UfzpFdcQup18QfRjIrEOHKmnXeNq8Vn_mq1QQzqnrTRa
+k6y6SVw_0G
+}
+
+!function MaterialsCameraFront($id, $name="Camera Front", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCameraFront', $name, $tech)
+!endfunction
+!function MaterialsCameraFrontCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCameraFrontLg>', 'Camera Front', $funcName, $content)
+!endfunction
+@enduml

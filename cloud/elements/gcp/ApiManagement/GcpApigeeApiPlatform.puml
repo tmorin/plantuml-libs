@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpApigeeApiPlatformLg [20x20/16z] {
+RP270KD1248jAEm_SUAbn_-kLmKx-1Dx4_qcdblUUjFFgz0NiC6fBtWkriogfIvAgWb0YOa4CdFcOJO12g8xXPem1iwGH0IOSu6W1dX8uT30gxrSRmMhhnXv
+OknS5DSvRstRW-qL_STJtdbxkho_0G
+}
+
+!function GcpApigeeApiPlatform($id, $name="Apigee Api Platform", $tech="")
+  CloudElement($id, 'gcp/ApiManagement/GcpApigeeApiPlatform', $name, $tech)
+!endfunction
+!function GcpApigeeApiPlatformCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpApigeeApiPlatformLg>', 'Apigee Api Platform', $funcName, $content)
+!endfunction
+@enduml

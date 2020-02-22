@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloudDevelopmentKitLg [20x20/16z] {
+bK-35SH043tCrsx_zSP-pDXeho2M7o539dAhGdgV4hxKIdrH88_OsKNjnfmrEMMoLMhEiUpYxZLc4W09pFkMGhdF2N9skxLUugQID8dcRLzKZ7u_XQNjX9w2
+MCL9fE-lCHLh4lJbjtL7BZyRVqYJSBk0voVSti48
+}
+
+!function AwsCloudDevelopmentKit($id, $name="Cloud Development Kit", $tech="")
+  CloudElement($id, 'aws/DeveloperTools/AwsCloudDevelopmentKit', $name, $tech)
+!endfunction
+!function AwsCloudDevelopmentKitCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCloudDevelopmentKitLg>', 'Cloud Development Kit', $funcName, $content)
+!endfunction
+@enduml

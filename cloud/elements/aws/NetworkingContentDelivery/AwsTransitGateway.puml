@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsTransitGatewayLg [20x20/16z] {
+RSy5eiGW38JX9_n99ht_VRS4MMCgm8Th9tPqG1rmDGtCfsMHmVy_CAqZ9WSFOrhAh3irVbgWEzKH-3379M-j_p6LyG_M8bhV2QcRVPXgRYXZpoqJUQVs4A6o
+DEyThCtBX6U0oz2oN7SpBIjrmqEgN4Khqmvu7V01
+}
+
+!function AwsTransitGateway($id, $name="Transit Gateway", $tech="")
+  CloudElement($id, 'aws/NetworkingContentDelivery/AwsTransitGateway', $name, $tech)
+!endfunction
+!function AwsTransitGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsTransitGatewayLg>', 'Transit Gateway', $funcName, $content)
+!endfunction
+@enduml

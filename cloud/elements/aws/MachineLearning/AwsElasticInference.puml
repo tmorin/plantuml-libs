@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticInferenceLg [20x20/16z] {
+RSi73eGm34HHBPxctF_0wz3K-93s97UU_DOVs1_O5zgn7krTY1sTru9ou13AOwOaMbLyJJ09drik4rMqCN3X616OSaaUYzUOHHg93o3JMdlMgah7TTiWJ24c
+mDjM63Tsn_5OammAmgzqsvuU1WxniIdfJZpRjgT--hBE-i0_
+}
+
+!function AwsElasticInference($id, $name="Elastic Inference", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsElasticInference', $name, $tech)
+!endfunction
+!function AwsElasticInferenceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticInferenceLg>', 'Elastic Inference', $funcName, $content)
+!endfunction
+@enduml

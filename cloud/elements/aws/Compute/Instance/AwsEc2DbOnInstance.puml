@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2DbOnInstanceLg [20x20/16z] {
+ZP05WiH020Jfeidz_ySNpyXQ9MCun4f62hGUSQ5IuMGzT8ggGuTLD1JhbjNBAd-t4uFTceJiPMQIaGo-IjjqERGOSBMri7Yb_bexB41BPvT7xcO6USkUMRcH
+HGP2ef6rEVQAeiL7t7y
+}
+
+!function AwsEc2DbOnInstance($id, $name="Ec2 Db On Instance", $tech="")
+  CloudElement($id, 'aws/Compute/Instance/AwsEc2DbOnInstance', $name, $tech)
+!endfunction
+!function AwsEc2DbOnInstanceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsEc2DbOnInstanceLg>', 'Ec2 Db On Instance', $funcName, $content)
+!endfunction
+@enduml

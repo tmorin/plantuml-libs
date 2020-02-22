@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSwapVertLg [20x20/16z] bL2r0G0n28nxmlxJldN0lL42f-RVMBqAFQZLe2cMBjLLanEFVdh5vwR3EnkjsAbdlRjW3wJOa3Qk0eu0Yy25VPyT
+
+!function MaterialsSwapVert($id, $name="Swap Vert", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsSwapVert', $name, $tech)
+!endfunction
+!function MaterialsSwapVertCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSwapVertLg>', 'Swap Vert', $funcName, $content)
+!endfunction
+@enduml

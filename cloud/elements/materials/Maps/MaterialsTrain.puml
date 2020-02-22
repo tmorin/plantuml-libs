@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTrainLg [20x20/16z] {
+bP055iCW342JjCHvtF-seyvy-_Z70sz1Mi7B47lMJhhGeQATn2vBSpEhjLVUokRO2H5LUqNEkxFbRDNbBllWId8dOgcp77SCV7JAkOoJzN0S26LRWx7VCIS1
+Buw1SjuSUcXTNDLmF6EGpKIq9XCSJ2dBVCa9BZVXti8_t
+}
+
+!function MaterialsTrain($id, $name="Train", $tech="")
+  CloudElement($id, 'materials/Maps/MaterialsTrain', $name, $tech)
+!endfunction
+!function MaterialsTrainCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTrainLg>', 'Train', $funcName, $content)
+!endfunction
+@enduml

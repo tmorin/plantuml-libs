@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCollectionsLg [20x20/16z] {
+fSp50KGn24NH1t4Xz5_jQ7HazU_o8FWRhwYJbrcB7PEkX5z4kxM7SMHycLos9gh9rSEybS9mRRD4S1Q0NrOPxoXgjrZyA4ata_8eERnjHOINELwDhx9Ar96t
+yAyx
+}
+
+!function MaterialsCollections($id, $name="Collections", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsCollections', $name, $tech)
+!endfunction
+!function MaterialsCollectionsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCollectionsLg>', 'Collections', $funcName, $content)
+!endfunction
+@enduml

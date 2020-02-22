@@ -1,0 +1,13 @@
+@startuml
+sprite $GcpMavenAppEnginePluginLg [20x20/16z] {
+PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0Xj1ETY0eXA7TXPhJFyFHLZyEnuxrMsZXdSEgy5t1u
+rjPnxopTE_zl-__W_wjEktygwVpf__SR
+}
+
+!function GcpMavenAppEnginePlugin($id, $name="Maven App Engine Plugin", $tech="")
+  CloudElement($id, 'gcp/DeveloperTools/GcpMavenAppEnginePlugin', $name, $tech)
+!endfunction
+!function GcpMavenAppEnginePluginCard($id, $funcName="", $content="")
+  CloudCard($id, '<$GcpMavenAppEnginePluginLg>', 'Maven App Engine Plugin', $funcName, $content)
+!endfunction
+@enduml

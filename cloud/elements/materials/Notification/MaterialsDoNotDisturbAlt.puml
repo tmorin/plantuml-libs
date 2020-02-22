@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsDoNotDisturbAltLg [20x20/16z] {
+VT273aKX20FGA-N6QkZ_V-vR3jucgvv41Ou_LSpAApX32dgoKTK1fsYBUiD8K1zOsDQLKy57Tc7J2VaziIRTJhnV3K-wtOhRPHCMZMziMDAmSNVGkdkGWqPL
+pbwIPY-5iSaQomXzTOtMBNT01xoAzcTNkTC_TGK
+}
+
+!function MaterialsDoNotDisturbAlt($id, $name="Do Not Disturb Alt", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsDoNotDisturbAlt', $name, $tech)
+!endfunction
+!function MaterialsDoNotDisturbAltCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsDoNotDisturbAltLg>', 'Do Not Disturb Alt', $funcName, $content)
+!endfunction
+@enduml

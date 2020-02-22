@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureCheckmarkSuccessLg [18x20/16z] hL350S1032e4zb-vtqYzbryCssensW1o6uN5-nDKs76YSM8FM2rb9Xep9LRci1Kep9Gj5N48sOqPXNc6kGC
+
+!function AzureCheckmarkSuccess($id, $name="Checkmark Success", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCheckmarkSuccess', $name, $tech)
+!endfunction
+!function AzureCheckmarkSuccessCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCheckmarkSuccessLg>', 'Checkmark Success', $funcName, $content)
+!endfunction
+@enduml

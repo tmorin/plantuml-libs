@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureDigitalTwinsLg [18x20/16z] {
+ZOq5aiGm30HZZKQK_xytPAgxecrpMr0REJug9hcCkqS--siQAP-fipBBLAcmVmR3H8qicLcUtisXUlniSjSXTg_JISFk7b4KK9L_kpUoLJxK-MwZihumthrr
+yz6idzkeONoHyfuWg1zKi1iXkm5w0Tf85pFS
+}
+
+!function AzureDigitalTwins($id, $name="Digital Twins", $tech="")
+  CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureDigitalTwins', $name, $tech)
+!endfunction
+!function AzureDigitalTwinsCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDigitalTwinsLg>', 'Digital Twins', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsSignalCellularNoSimLg [20x20/16z] bSZ50K8150EmFiVPVrgiVFSSWuFClmoa2Y0Upv_WnTMWjoSLA3_fz-79-QfDDeTwCeV771rpTCpHCOV771vJXySS7DEQ2yOmpVyiBue95ynw0m
+
+!function MaterialsSignalCellularNoSim($id, $name="Signal Cellular No Sim", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsSignalCellularNoSim', $name, $tech)
+!endfunction
+!function MaterialsSignalCellularNoSimCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsSignalCellularNoSimLg>', 'Signal Cellular No Sim', $funcName, $content)
+!endfunction
+@enduml

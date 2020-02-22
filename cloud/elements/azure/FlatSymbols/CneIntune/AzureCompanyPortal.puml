@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureCompanyPortalLg [26x20/16z] {
+VSk7aKKn24DHG61Xjlz-r__bV63Y7OdYoiV1HBEkiezBG_rTLEJlW7e1fCtm-rq2bA0ob0vQK1Ry5Gy9rmPhYZYK7XEFipuAVxAI9wDGVwohd12WjTRmM4JU
+DYBniP6t3Lys-hQnHlfZqHzSYXAQ_CdYMQeO_0T-0fD_
+}
+
+!function AzureCompanyPortal($id, $name="Company Portal", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureCompanyPortal', $name, $tech)
+!endfunction
+!function AzureCompanyPortalCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureCompanyPortalLg>', 'Company Portal', $funcName, $content)
+!endfunction
+@enduml

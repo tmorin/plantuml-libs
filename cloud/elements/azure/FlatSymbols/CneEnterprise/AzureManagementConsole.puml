@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureManagementConsoleLg [30x20/16z] {
+nOrLOa0X40Epi8RS_xnD3QdzrEO998FC_oBzKt9E1I041ozHdwoJK2QEHXUFMPOLeB8ENjG5nS6kV6LjMzpMBXkcwgoyzvwqeQgnR5KYGAa4R1_1ifaP0Wat
+2sfdzcMDzuq2UMgO6tFx4QkjjIp7lSphteKKWWsjwwOItVZycWS
+}
+
+!function AzureManagementConsole($id, $name="Management Console", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureManagementConsole', $name, $tech)
+!endfunction
+!function AzureManagementConsoleCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureManagementConsoleLg>', 'Management Console', $funcName, $content)
+!endfunction
+@enduml

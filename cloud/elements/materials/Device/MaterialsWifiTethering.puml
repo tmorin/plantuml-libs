@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsWifiTetheringLg [20x20/16z] {
+bKr90eGm26Cl5Qh__-s0dUrgJY4BWMT05Y7yLyXYPQwmdyeHIeYaSV17IgTgLuOyjuY78x17E0FwWQrf4kXo4LyAbDhQDE3Lh1o6CNipfGbQZSu1abJQeexA
+TGdOxBDpt3wVvrtapc6K7mJCG57vw67tEhmOUb1V1QurjcR6zz4OPRz1CJP1_uZxnnODV-G1NW
+}
+
+!function MaterialsWifiTethering($id, $name="Wifi Tethering", $tech="")
+  CloudElement($id, 'materials/Device/MaterialsWifiTethering', $name, $tech)
+!endfunction
+!function MaterialsWifiTetheringCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsWifiTetheringLg>', 'Wifi Tethering', $funcName, $content)
+!endfunction
+@enduml

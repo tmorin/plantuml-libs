@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the GcpAutomlVideoIntelligence element
+include('elements/gcp/AiAndMachineLearning/GcpAutomlVideoIntelligence')
+GcpAutomlVideoIntelligence('element', 'Automl Video Intelligence', 'an optional tech field')
+@enduml

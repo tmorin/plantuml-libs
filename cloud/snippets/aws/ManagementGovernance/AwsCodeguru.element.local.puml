@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AwsCodeguru element
+include('elements/aws/ManagementGovernance/AwsCodeguru')
+AwsCodeguru('element', 'Codeguru', 'an optional tech field')
+@enduml

@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-. ./lib.sh
+. lib.v1.sh
 
 iconsUrl="https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_SVG_20200131.abfc4fb34450d2294f8c65d2dcc9ea1602b6a449.zip"
 

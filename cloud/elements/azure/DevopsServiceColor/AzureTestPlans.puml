@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureTestPlansLg [20x20/16z] {
+dSx75SGm20HGcJGZqN-z3h1vR_ud7dbS951y6s-6OkE3iiYj78f-fBPWYS-pPBDt6tW2IBmUz4gv1-cZ2ObmCtSGqhaWp4p477Mc3_YPKv6whdq0ra3s6MGk
+j9cN69gdMIbcqwxnIgriCzkQ5JNc7mh_KmS
+}
+
+!function AzureTestPlans($id, $name="Test Plans", $tech="")
+  CloudElement($id, 'azure/DevopsServiceColor/AzureTestPlans', $name, $tech)
+!endfunction
+!function AzureTestPlansCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureTestPlansLg>', 'Test Plans', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureInventorySoftwareLg [20x20/16z] {
+NOs74GGn20DDD8Z--trTdlczw2LeYH8ZVcDBF2Bthkh6ZTFbdulFWSpCwKpDtJmZOX_FuMGnPotZrnU_X-DPBoUlC-Mm6l7jPd7tYVhkfc6VFliIGv12Tyy6
+fcitfNfUizhJMPKrCB5hre5iD1BZRA0pYU7H7TcJUkLUhkheYyi9euO9s7kWIwyCuQ4o2xDLl5tS8xncW9cAxWPpL4sLkUXK3oBhHinqtVm
+}
+
+!function AzureInventorySoftware($id, $name="Inventory Software", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureInventorySoftware', $name, $tech)
+!endfunction
+!function AzureInventorySoftwareCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureInventorySoftwareLg>', 'Inventory Software', $funcName, $content)
+!endfunction
+@enduml

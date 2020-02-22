@@ -1,0 +1,10 @@
+@startuml
+sprite $AwsKinesisLg [20x20/16z] fP254KC15C9g1EZ--zPTl-GuUIxRURX7FKEEUYPgbDTY9IAFzMcHZGJackQ40v8sN19hTCNVVPORG0-rQP2DE927NI3zipCvwFiFvhC7
+
+!function AwsKinesis($id, $name="Kinesis", $tech="")
+  CloudElement($id, 'aws/Analytics/AwsKinesis', $name, $tech)
+!endfunction
+!function AwsKinesisCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsKinesisLg>', 'Kinesis', $funcName, $content)
+!endfunction
+@enduml

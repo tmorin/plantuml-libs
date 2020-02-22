@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureDeviceLg [39x20/16z] bSfL0WKX34FH58Tq_zjzhcDXpbVbuY7Jjp7ZAz7tCE4jq_Sno-hTlIlHlIlPvK5jP0kc1SCiqu3IXzQBdq0U3MyjnYQ66mOWy7YOpxoQrQFXRGmnpAfqZVKA
+
+!function AzureDevice($id, $name="Device", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDevice', $name, $tech)
+!endfunction
+!function AzureDeviceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureDeviceLg>', 'Device', $funcName, $content)
+!endfunction
+@enduml

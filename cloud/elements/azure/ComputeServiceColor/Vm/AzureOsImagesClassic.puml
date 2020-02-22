@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureOsImagesClassicLg [22x20/16z] {
+RS_L0GGm20DGIA2s_y2Nsdc-u5M9yYTHaZz9kPE4dK2DwpoZzvvcNYhDKaqiRN3px6EC2dUqesx6DcQAcs-5ZYEfpIseEY4DKpWbM7ervQKw3LrzbInRQuob
+XVSrzAFblXQTS9GkRG6mB-MUWidqDGMbuG3SJbOZpVX95ZuhvMwXdN3XlUbJtmN0kI5K7dJ9oRtb0G
+}
+
+!function AzureOsImagesClassic($id, $name="Os Images Classic", $tech="")
+  CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureOsImagesClassic', $name, $tech)
+!endfunction
+!function AzureOsImagesClassicCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureOsImagesClassicLg>', 'Os Images Classic', $funcName, $content)
+!endfunction
+@enduml

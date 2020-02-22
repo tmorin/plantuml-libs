@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticKubernetesServiceLg [20x20/16z] {
+RSw54O0m40J0cPob_uhvn-qWjj6iyIFvmHmelKqOWEvcKaKiFQma1co1kucziYARt4t5sbRfCaOzmjCu5FCobmdNkfdPPbaoIAPijfcq2M0SHYSw7fcqzQh4
+ZjihPQMYibMxxKewJujBdbQOotvm0G
+}
+
+!function AwsElasticKubernetesService($id, $name="Elastic Kubernetes Service", $tech="")
+  CloudElement($id, 'aws/Compute/AwsElasticKubernetesService', $name, $tech)
+!endfunction
+!function AwsElasticKubernetesServiceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsElasticKubernetesServiceLg>', 'Elastic Kubernetes Service', $funcName, $content)
+!endfunction
+@enduml

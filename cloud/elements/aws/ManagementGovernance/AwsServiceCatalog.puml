@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsServiceCatalogLg [20x20/16z] {
+XSW5SaGX44NHgay_8_lVRx38-4NxvEH_vGO_cZ3IV_EQXs_hGqWj3ekQrWCYRcIJ2zX68AhHdtN1myaQCtLCAV2wY3APPQOBg48rGzi2WoCGWfDfdL8reDNm
+ZAO5jZEEu6CJQK0ST6oYIPQIOqV9z1ix7VkwmMDFy1i
+}
+
+!function AwsServiceCatalog($id, $name="Service Catalog", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsServiceCatalog', $name, $tech)
+!endfunction
+!function AwsServiceCatalogCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsServiceCatalogLg>', 'Service Catalog', $funcName, $content)
+!endfunction
+@enduml

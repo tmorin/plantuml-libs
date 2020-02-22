@@ -1,0 +1,10 @@
+@startuml
+sprite $AzureFavoriteLg [14x20/16z] XOs50S0m40BXil_CzPVwHTzW_08zidiajG29-2L46466XE8QE1KtKj7WL2NkVx2fu6eNXbW7Pg06Cm
+
+!function AzureFavorite($id, $name="Favorite", $tech="")
+  CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureFavorite', $name, $tech)
+!endfunction
+!function AzureFavoriteCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureFavoriteLg>', 'Favorite', $funcName, $content)
+!endfunction
+@enduml

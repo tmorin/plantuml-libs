@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsIsoLg [20x20/16z] {
+ZT150WGn24JHK76__sbReepFNpvgXVW_A1OwfSfA3LMjsTWX9gbkEKBcSfD276OW2EucGTEi95BXfcqrGRKLj-9yfsrtdRPjsjQ9hhRrbVNUqRHEJpi3cib-
+HqfnbHBU_Uh_JW
+}
+
+!function MaterialsIso($id, $name="Iso", $tech="")
+  CloudElement($id, 'materials/Image/MaterialsIso', $name, $tech)
+!endfunction
+!function MaterialsIsoCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsIsoLg>', 'Iso', $funcName, $content)
+!endfunction
+@enduml

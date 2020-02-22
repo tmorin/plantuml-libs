@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsPhonelinkOffLg [20x20/16z] {
+RSs73S0m24JH0zoBs7_R89oUVFLd0_YBlqGjVL66OKXdaG0Uci2b7LKscxadW3nuPYA67h5dnZWmwhIwsu6f2tDMjmDJ9I0kEp0-pP7pqnm9RZ85gp3M8SrL
+QrwLeOQnwpD3hXeVfMuOy4owu1CJVji
+}
+
+!function MaterialsPhonelinkOff($id, $name="Phonelink Off", $tech="")
+  CloudElement($id, 'materials/Hardware/MaterialsPhonelinkOff', $name, $tech)
+!endfunction
+!function MaterialsPhonelinkOffCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsPhonelinkOffLg>', 'Phonelink Off', $funcName, $content)
+!endfunction
+@enduml

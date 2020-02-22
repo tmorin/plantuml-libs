@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../../"
+
+' loads the library
+!include ../../../../library.puml
+
+' loads the AWS style
+include('styles/aws')
+
+' loads the AzureVmLinux element
+include('elements/azure/ComputeServiceColor/Vm/AzureVmLinux')
+AzureVmLinux('element', 'Vm Linux', 'an optional tech field')
+@enduml

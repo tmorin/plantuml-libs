@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsTimeToLeaveLg [20x20/16z] {
+fOvL0eGX20PL-Eou_sctYFtV7NjK85oIa1KaSwL0ASMUjHYKsFGXId0APAtqTrJbwopPAVFtcSyQ-_pOOnqMnn7Y45dTIe74KKXBtrKqSGtL_ZunjtfJkkTe
+qMdY8fur8uOhtW
+}
+
+!function MaterialsTimeToLeave($id, $name="Time To Leave", $tech="")
+  CloudElement($id, 'materials/Notification/MaterialsTimeToLeave', $name, $tech)
+!endfunction
+!function MaterialsTimeToLeaveCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsTimeToLeaveLg>', 'Time To Leave', $funcName, $content)
+!endfunction
+@enduml

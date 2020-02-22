@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsNewReleasesLg [20x20/16z] {
+TT050e0W30LGoSsO__wdDRRPql1ekcO8EMn52dVB66iTaMyK1sWOeaCev0ICL7HzdFVUp6nrL9EzFSKuxRMOJMeXMAr6k1jeeuAdeLwMqcM-5Y9MqtM6bEBd
+gybzFuc_T_v_s_CFVl_g_q__mme
+}
+
+!function MaterialsNewReleases($id, $name="New Releases", $tech="")
+  CloudElement($id, 'materials/Av/MaterialsNewReleases', $name, $tech)
+!endfunction
+!function MaterialsNewReleasesCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsNewReleasesLg>', 'New Releases', $funcName, $content)
+!endfunction
+@enduml

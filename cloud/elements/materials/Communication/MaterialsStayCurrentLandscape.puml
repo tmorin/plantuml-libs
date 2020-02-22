@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsStayCurrentLandscapeLg [20x20/16z] Ow0sO6P70ymCZ5pyV1m80Gu-VYv6Hcv-RYQ4BYPkVXwm62D23CIbZnWFfbkmkHcRtwWD
+
+!function MaterialsStayCurrentLandscape($id, $name="Stay Current Landscape", $tech="")
+  CloudElement($id, 'materials/Communication/MaterialsStayCurrentLandscape', $name, $tech)
+!endfunction
+!function MaterialsStayCurrentLandscapeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsStayCurrentLandscapeLg>', 'Stay Current Landscape', $funcName, $content)
+!endfunction
+@enduml

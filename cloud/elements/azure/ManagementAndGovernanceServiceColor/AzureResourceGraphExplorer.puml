@@ -1,0 +1,13 @@
+@startuml
+sprite $AzureResourceGraphExplorerLg [20x20/16z] {
+VSx50KH120FGO1Ec_u9NoBhyTyC1pF2GR0Qio7oa-YgA5s73EJcELMFrKB9YP4lCB4ID1S-iCkNycbHWbH2BS8XNu4kKuqjMhkPxnRYlEl0KMzhmm7sJZvJr
+FRSESz-ptpUatd-HxBsfdyy
+}
+
+!function AzureResourceGraphExplorer($id, $name="Resource Graph Explorer", $tech="")
+  CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureResourceGraphExplorer', $name, $tech)
+!endfunction
+!function AzureResourceGraphExplorerCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AzureResourceGraphExplorerLg>', 'Resource Graph Explorer', $funcName, $content)
+!endfunction
+@enduml

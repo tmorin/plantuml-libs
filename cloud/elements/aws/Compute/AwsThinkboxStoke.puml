@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsThinkboxStokeLg [20x20/16z] {
+bT053aHH24FH0BSj-z_mk4_izoad2diqoR_0ZmOa-41ZaI3Z9qq79oOz3rG3Uzkq7bPk3APTJniJx0cUfs6PtTlpj4kmhY1zccRqQGYm0V6mQAedcQvHtgrL
+9LLaF-AHnd-3IVPWpW
+}
+
+!function AwsThinkboxStoke($id, $name="Thinkbox Stoke", $tech="")
+  CloudElement($id, 'aws/Compute/AwsThinkboxStoke', $name, $tech)
+!endfunction
+!function AwsThinkboxStokeCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsThinkboxStokeLg>', 'Thinkbox Stoke', $funcName, $content)
+!endfunction
+@enduml

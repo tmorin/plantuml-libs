@@ -1,0 +1,13 @@
+@startuml
+sprite $MaterialsCancelLg [20x20/16z] {
+VP1N4WCn24DjmGVZUl_RHZWzqQos-j4f5wf0_GOUVSuU_iQ8_L3WYTf-gTrXfTVe2VgWvmbt8hDEP4ReoI9PiTxvIiSCpJ2U0VByPJ3cIGN-dQGJYgbOKKFr
+edeMiuaTg5tfdMhT
+}
+
+!function MaterialsCancel($id, $name="Cancel", $tech="")
+  CloudElement($id, 'materials/Navigation/MaterialsCancel', $name, $tech)
+!endfunction
+!function MaterialsCancelCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsCancelLg>', 'Cancel', $funcName, $content)
+!endfunction
+@enduml

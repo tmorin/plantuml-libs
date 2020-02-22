@@ -1,0 +1,10 @@
+@startuml
+sprite $MaterialsThumbUpLg [20x20/16z] bS-r0KKn34DHXJdUVzgFZyEtywaiT6DQ56J8bKIs9D8baRYP_b9M_1i3X1HWWNxuou152knhHz_pQR5Yhc8AXKLUca5XMQ3unM8ps9sI1FuxmEIMm49l
+
+!function MaterialsThumbUp($id, $name="Thumb Up", $tech="")
+  CloudElement($id, 'materials/Action/MaterialsThumbUp', $name, $tech)
+!endfunction
+!function MaterialsThumbUpCard($id, $funcName="", $content="")
+  CloudCard($id, '<$MaterialsThumbUpLg>', 'Thumb Up', $funcName, $content)
+!endfunction
+@enduml
