@@ -1,0 +1,18 @@
+@startuml
+sprite $MaterialsGroupNetworkLg [20x20/16z] pKt54G0W30jUkyl-syA_353t1BMavMQPT62e3g2BJRmKf8auwI96Hl_FCDDlvgWb5m
+
+!function MaterialsGroupNetwork($id, $name="Network", $tech="")
+  PersoGroup($id, "MaterialsGroupNetwork", "<$MaterialsGroupNetworkLg>", $name, $tech)
+!endfunction
+skinparam Rectangle<<MaterialsGroupNetwork>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle dashed
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

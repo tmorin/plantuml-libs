@@ -1,0 +1,15 @@
+@startuml
+sprite $MaterialsUsbLg [20x20/16z] {
+XSu36i0m30NW1NNMT__JpZQA_ukQhqVrHbmANuW24EWQ5oEVOOY8SOYcBTIrXKUJOdwr1BZH50XR7EOuhRjHzdEza7cp56ZiIo7jVJtCQZM3tur4DMTLkKmT
+uxZ-cfZ9rJpWhwQ0tfEb-Nfw
+}
+
+sprite $MaterialsUsbMd [14x14/16z] TOq54a0X24Ib5aRb_iVztV6cY8toWTbbuLhv-uSWCmgdUQ6QRCPPQPNvh0oiIWrnbz1r8w1MWBxx2d1Pg7Vw-PsC
+
+!function MaterialsUsb($id, $name="Usb", $tech="")
+  PersoElement($id, 'materials/MaterialsUsb', $name, $tech)
+!endfunction
+!function MaterialsUsbCard($id, $funcName="", $content="")
+  PersoCard($id, '<$MaterialsUsbMd>', 'Usb', $funcName, $content)
+!endfunction
+@enduml

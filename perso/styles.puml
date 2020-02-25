@@ -1,0 +1,32 @@
+@startuml
+
+hide stereotype
+
+skinparam wrapWidth $TEXT_WIDTH_MAX
+skinparam maxMessageSize $MSG_WIDTH_MAX
+skinparam DefaultFontSize $FONT_SIZE_MD
+skinparam DefaultFontColor $FONT_COLOR
+skinparam DefaultTextAlignment center
+
+skinparam Arrow {
+    FontColor $FONT_COLOR
+    Color grey
+    Thickness 1
+}
+
+skinparam Card<<PersoElement>> {
+    BorderThickness 1
+    BorderColor lightgrey
+    BackgroundColor #FFFFFF
+    FontColor $FONT_COLOR
+    shadowing true
+}
+
+skinparam Rectangle<<PersoCard>> {
+    BorderThickness 1
+    BorderColor lightgrey
+    BackgroundColor #FFFFFF
+    FontColor $FONT_COLOR
+    shadowing true
+}
+@enduml

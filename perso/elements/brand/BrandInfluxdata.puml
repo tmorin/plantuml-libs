@@ -1,0 +1,15 @@
+@startuml
+sprite $BrandInfluxdataLg [20x20/16z] {
+NOw5bK1120D3WlRVy3tOy_cwW-9XXl-eEvt_LVTCnO_sAQFBgwVYHm4KJ3N3fzBkcn8r3Y0-bVcLLGBMVOfksf_SOxMV0iJhH21Q0hNL--9iTCXqB1VeRJYE
+S9SzXwgRj9MKAqJbBPljXiKYgEutAV6GyIbmIczhgOiuegTJ1cQNuHFJwPeVTPfHauR_49zy
+}
+
+sprite $BrandInfluxdataMd [14x14/16z] HOY70GCn2CIuPjX_ul1Eamj8zI3MdpFJ8UwESsYd9u_qsIegmvMRhAhZqd25sDyfZF6iUzLLBGVNqAn4N4HuL6hLTbbpTevh8JkrfDj4LYxGXd7zW7Jd2m
+
+!function BrandInfluxdata($id, $name="Influxdata", $tech="")
+  PersoElement($id, 'brand/BrandInfluxdata', $name, $tech)
+!endfunction
+!function BrandInfluxdataCard($id, $funcName="", $content="")
+  PersoCard($id, '<$BrandInfluxdataMd>', 'Influxdata', $funcName, $content)
+!endfunction
+@enduml

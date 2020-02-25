@@ -1,0 +1,12 @@
+@startuml
+sprite $MaterialsSdCardLg [20x20/16z] rT2r0S0m30H0cVb__sd3J7skjCNoGIzaPqkR5BC_LMUYySuKjpz1YnUh9VdjYTStKqcikSkRum0W1dJhs-ulRwQWBR3TIX_8Ynu
+
+sprite $MaterialsSdCardMd [14x14/16z] hSUr0O1G50F0_pHuzfyMTrgkk_9bMEWMhpmzChRq45FrN68TQmltN1Sa1mu3uzZYpobsMbuc
+
+!function MaterialsSdCard($id, $name="Sd Card", $tech="")
+  PersoElement($id, 'materials/MaterialsSdCard', $name, $tech)
+!endfunction
+!function MaterialsSdCardCard($id, $funcName="", $content="")
+  PersoCard($id, '<$MaterialsSdCardMd>', 'Sd Card', $funcName, $content)
+!endfunction
+@enduml

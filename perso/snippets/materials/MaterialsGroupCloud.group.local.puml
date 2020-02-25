@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the MaterialsGroupCloud group
+include('groups/materials/MaterialsGroupCloud')
+MaterialsGroupCloud('element', 'Cloud', 'an optional tech field')
+@enduml

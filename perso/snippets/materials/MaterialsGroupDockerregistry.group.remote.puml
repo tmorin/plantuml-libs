@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $LIB_BRANCH="feat/perso/add-library"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/perso"
+
+' loads the library
+!includeurl $LIB_BASE_LOCATION/library.puml
+
+' loads the MaterialsGroupDockerregistry group
+include('groups/materials/MaterialsGroupDockerregistry')
+MaterialsGroupDockerregistry('element', 'DockerRegistry', 'an optional tech field')
+@enduml

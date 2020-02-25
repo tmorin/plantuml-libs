@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the MaterialsGroupDockerregistry group
+include('groups/materials/MaterialsGroupDockerregistry')
+MaterialsGroupDockerregistry('element', 'DockerRegistry', 'an optional tech field')
+@enduml

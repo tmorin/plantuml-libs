@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the MaterialsStack element
+include('elements/materials/MaterialsStack')
+MaterialsStack('element', 'Stack', 'an optional tech field')
+@enduml

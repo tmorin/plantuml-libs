@@ -35,7 +35,7 @@ log() {
 }
 
 if [[ -z ${libName} ]]; then
-  log error "the library name is required (--lib-name=...)"
+  log error "the library name is required (--lib-name=... or LIB_NAME=...)"
   exit 1
 fi
 
@@ -71,6 +71,15 @@ downloadIcons() {
       mv "${originalIconsDir}" ${pkgTmpDir}/icons
     fi
   fi
+}
+
+copySrcIcons() {
+  local pkgName=${1}
+  local pkgTmpDir="${tmpDir}/${libName}/${pkgName}/icons"
+  local srcDir="${libName}/src/${pkgName}"
+  log ${pkgName} "copy icons from (${srcDir}) to (${pkgTmpDir})"
+  mkdir -p ${pkgTmpDir}
+  cp -fR ${srcDir}/* ${pkgTmpDir}
 }
 
 generateIcons() {
@@ -167,20 +176,21 @@ generateElementFunctions() {
   local icon=$(sed -r 's:([^/]*/){2}::' <<< ${iconPath%.*})
   cat <<EOF >> ${elSrc}
 !function ${elName}(\$id, \$name="${hName}", \$tech="")
-  CloudElement(\$id, '${icon}', \$name, \$tech)
+  ${libName^}Element(\$id, '${icon}', \$name, \$tech)
 !endfunction
 EOF
 
-  local sptName="${elName}Lg"
+  local sptName="${elName}Md"
   cat <<EOF >> ${elSrc}
 !function ${elName}Card(\$id, \$funcName="", \$content="")
-  CloudCard(\$id, '<\$${sptName}>', '${hName}', \$funcName, \$content)
+  ${libName^}Card(\$id, '<\$${sptName}>', '${hName}', \$funcName, \$content)
 !endfunction
 EOF
 }
 
 generateElementSnippets() {
   local elSrc=$1
+  local pkgStlRes=$2
   local elName=$(basename ${elSrc%.*})
   local hName=$(sed -e 's/\([A-Z]\)/ \1/g;s/^ //;s/[^ ]*//;s/^ //;' <<< ${elName})
   local baseElSnp=$(sed -r 's:/elements/:/snippets/:' <<< ${elSrc%.*})
@@ -191,6 +201,10 @@ generateElementSnippets() {
   local elFullName=$(sed -r 's:([^/]*/){1}::' <<< ${elSrc%.*})
   local relativeRootLib=$(sed -r "s:[^/]*/:../:g;s:/[^/]*$:/:" <<< "${elFullName}")
   mkdir -p $(dirname ${elSnpElLocal})
+  local pkgStlResSmt=""
+  if [[ -f "${pkgStlRes}.puml" ]]; then
+    pkgStlResSmt=$(echo -e "\n\n' loads the style\ninclude('${pkgStlRes}')")
+  fi
   cat <<EOF > ${elSnpElLocal}
 @startuml
 ' configures the library
@@ -198,10 +212,7 @@ generateElementSnippets() {
 !global \$LIB_BASE_LOCATION="${relativeRootLib}"
 
 ' loads the library
-!include ${relativeRootLib}library.puml
-
-' loads the AWS style
-include('styles/aws')
+!include ${relativeRootLib}library.puml${pkgStlResSmt}
 
 ' loads the ${elName} element
 include('${elFullName}')
@@ -212,13 +223,10 @@ EOF
 @startuml
 ' configures the library
 !global \$LIB_BRANCH="${libBranch}"
-!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/cloud"
+!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/${libName}"
 
 ' loads the library
-!includeurl \$LIB_BASE_LOCATION/library.puml
-
-' loads the AWS style
-include('styles/aws')
+!includeurl \$LIB_BASE_LOCATION/library.puml${pkgStlResSmt}
 
 ' loads the ${elName} element
 include('${elFullName}')
@@ -232,10 +240,7 @@ EOF
 !global \$LIB_BASE_LOCATION="${relativeRootLib}"
 
 ' loads the library
-!include ${relativeRootLib}library.puml
-
-' loads the GCP style
-include('styles/gcp')
+!include ${relativeRootLib}library.puml${pkgStlResSmt}
 
 ' loads the ${elName} card
 include('${elFullName}')
@@ -246,13 +251,10 @@ EOF
 @startuml
 ' configures the library
 !global \$LIB_BRANCH="${libBranch}"
-!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/cloud"
+!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/${libName}"
 
 ' loads the library
-!includeurl \$LIB_BASE_LOCATION/library.puml
-
-' loads the AWS style
-include('styles/gcp')
+!includeurl \$LIB_BASE_LOCATION/library.puml${pkgStlResSmt}
 
 ' loads the ${elName} card
 include('${elFullName}')
@@ -329,9 +331,9 @@ EOF
 generateElement() {
   local pkgName=$1
   local iconPath=$2
-  local elDir=$(dirname ${iconPath})
-  elDir=$(sed -r 's:/icons/:/elements/:' <<< ${elDir})
-  sptDir=$(sed -r 's:/elements/:/sprites/:' <<< ${elDir})
+  local elDir=$(sed -r 's:/icons/:/elements/:' <<< $(dirname ${iconPath}))
+  local sptDir=$(sed -r 's:/elements/:/sprites/:' <<< ${elDir})
+  local pkgStlRes="${libName}/styles/${pkgName}"
   local elName=$(basename ${iconPath})
   elName=${elName%.*}
   local elSrc="${elDir}/${elName}.puml"
@@ -346,8 +348,12 @@ generateElement() {
   generateElementSprite ${iconPath} ${tmpSptLg} ${lgSize}
   cat ${tmpSptLg} >> ${elSrc}
 
+  local tmpSptMd="${tmpDir}/${sptDir}/${elName}Md.puml"
+  generateElementSprite ${iconPath} ${tmpSptMd} ${mdSize}
+  cat ${tmpSptMd} >> ${elSrc}
+
   generateElementFunctions ${iconPath} ${elSrc}
-  generateElementSnippets ${elSrc}
+  generateElementSnippets ${elSrc} ${pkgStlRes}
   generateElementDocumentation ${iconPath} ${elSrc}
 
   echo '@enduml' >> ${elSrc}
@@ -383,10 +389,15 @@ generateGroups() {
       local relativeRootLib=$(sed -r "s:[^/]*/:../:g;s:/[^/]*$:/:" <<< "${grpFullName}")
       local grpSnpLocalImgSrc="${grpSnpGrpLocal%.*}.png"
       local grpSnpLocalImgDst="${grpDoc%.*}.group.png"
+      local pkgStlRes="${libName}/styles/${PkgName}"
       mkdir -p $(dirname ${grpSrc})
       mkdir -p $(dirname ${grpDoc})
       mkdir -p $(dirname ${grpSnpGrpLocal})
       echo '@startuml' > ${grpSrc}
+      local pkgStlResSmt=""
+      if [[ -f "${pkgStlRes}.puml" ]]; then
+        pkgStlResSmt=$(echo -e "\n\n' loads the style\ninclude('${pkgStlRes}')")
+      fi
       local spriteValue=""
       if [[ -n "$Icon" ]]; then
         local iconPath="${libName}/icons/${PkgName}/${Icon}.${iconsFormat}"
@@ -397,7 +408,7 @@ generateGroups() {
       fi
       cat <<EOF >> ${grpSrc}
 !function ${grpName}(\$id, \$name="${Label}", \$tech="")
-  CloudGroup(\$id, "${grpName}", "${spriteValue}", \$name, \$tech)
+  ${libName^}Group(\$id, "${grpName}", "${spriteValue}", \$name, \$tech)
 !endfunction
 EOF
       cat <<EOF >> ${grpSrc}
@@ -418,13 +429,10 @@ EOF
 @startuml
 ' configures the library
 !global \$LIB_BRANCH="${libBranch}"
-!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/cloud"
+!global \$LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + \$LIB_BRANCH + "/${libName}"
 
 ' loads the library
-!includeurl \$LIB_BASE_LOCATION/library.puml
-
-' loads the AWS style
-include('styles/aws')
+!includeurl \$LIB_BASE_LOCATION/library.puml${pkgStlResSmt}
 
 ' loads the ${grpName} group
 include('${grpFullName}')
@@ -438,10 +446,7 @@ EOF
 !global \$LIB_BASE_LOCATION="${relativeRootLib}"
 
 ' loads the library
-!include ${relativeRootLib}library.puml
-
-' loads the AWS style
-include('styles/aws')
+!include ${relativeRootLib}library.puml${pkgStlResSmt}
 
 ' loads the ${grpName} group
 include('${grpFullName}')

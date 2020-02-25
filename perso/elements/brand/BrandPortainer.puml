@@ -1,0 +1,15 @@
+@startuml
+sprite $BrandPortainerLg [20x20/16z] {
+PSrP5aKn14HHIXKo_m6_lc7TyxaJs2_OfIZQ3gJ8yTLTWWkGlXfKfbGbfcBCXZFTvgnJsroP4NOr6BLCAMv3FKfVnlCibiKvNOMOvbNPdIKRiSuh_0dd4-UD
+JsCO_R6qWNneTy5c41rkd-u
+}
+
+sprite $BrandPortainerMd [14x14/16z] LOv50a112497mRh_WNzEleqjj1-qXS0WFLKQ2AFy5GYdgeoX4kF83MApCkUQ8JCnArObPwKH6R6gUh2r-H37pDi0pcxp1W
+
+!function BrandPortainer($id, $name="Portainer", $tech="")
+  PersoElement($id, 'brand/BrandPortainer', $name, $tech)
+!endfunction
+!function BrandPortainerCard($id, $funcName="", $content="")
+  PersoCard($id, '<$BrandPortainerMd>', 'Portainer', $funcName, $content)
+!endfunction
+@enduml

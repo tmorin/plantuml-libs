@@ -1,0 +1,15 @@
+@startuml
+sprite $MaterialsSecurityLg [20x20/16z] {
+dT05OeH0343H612ZkVzjsynqtVVZ3nzu78ggu8KilbkMBqUbDN8ZzAgAbGPnnj9xNbrocsJBmKg61NvlytcetatZ7-yKny7ElQ6ipk7y8_JCL64a9-DTfg4T
+3CqGPfpJS4k6Gv9_XgGfS8gzSajdk1n1ip5wbtgINm
+}
+
+sprite $MaterialsSecurityMd [14x14/16z] RKw53S1020HUiR3_j7NlEsV9mRQ8u5fKMUg1K-kP9BodLP2yl1mHHWlgS20V80J0BYoh4tKPDeQN1_fYOZWZ-K0jhmZxXlBgNYqSGeNFSjYKswQyMyy
+
+!function MaterialsSecurity($id, $name="Security", $tech="")
+  PersoElement($id, 'materials/MaterialsSecurity', $name, $tech)
+!endfunction
+!function MaterialsSecurityCard($id, $funcName="", $content="")
+  PersoCard($id, '<$MaterialsSecurityMd>', 'Security', $funcName, $content)
+!endfunction
+@enduml

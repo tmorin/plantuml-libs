@@ -1,0 +1,15 @@
+@startuml
+sprite $MaterialsShareLg [20x20/16z] {
+XP1L0aKX448dRMN_gtsTD_HyJWAqH6HN2gs5JKa7CFI_PhZnLsEl3SZykvYpYjchnAeigJh_x2ICKkEV2iKD9rhLE6vtzpysMlYkPQEv0ecttlP-fGDzczPj
+ssaBCvrm1G
+}
+
+sprite $MaterialsShareMd [14x14/16z] RKw35S0m48sD_QUjcnmVJbzABXljNdITLQ_DzrdqWddhpJC55wBPXE4sVMyKkLMSKT0XwqqlZz-cMnhs1
+
+!function MaterialsShare($id, $name="Share", $tech="")
+  PersoElement($id, 'materials/MaterialsShare', $name, $tech)
+!endfunction
+!function MaterialsShareCard($id, $funcName="", $content="")
+  PersoCard($id, '<$MaterialsShareMd>', 'Share', $funcName, $content)
+!endfunction
+@enduml

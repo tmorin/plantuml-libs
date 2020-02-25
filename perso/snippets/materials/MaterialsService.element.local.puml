@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the MaterialsService element
+include('elements/materials/MaterialsService')
+MaterialsService('element', 'Service', 'an optional tech field')
+@enduml

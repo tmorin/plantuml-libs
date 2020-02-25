@@ -1,0 +1,18 @@
+@startuml
+sprite $BrandSyncthingLg [20x20/16z] {
+FSi90iD020901GNo_mUtoVQOP2-LEhYojQm_hAsRlVYMnbwY6rnxlYMnkTAogLE41SZ7kQ5Q9lo7dcrQhVYdgyGDcR_jQg-DpS_q3EmOog4X5C69YhQqqrNA
+gPbLZHkxsiaYrbIjVRAjX1CnsxvoB2meR6UGRn7T4tSn8NmzWYg5LRLN1fGjTi5RTOgN1xUndz91Fy7Scra_FSfTrNGztW
+}
+
+sprite $BrandSyncthingMd [14x14/16z] {
+BOi75WGX24E3AU3zBxoCRx-L502bT4U5ZvE8L7A-eKNPUpLH4Vj1kfJ_C0BLrZp2qafvVp7Hz3cs16HsIa5sL1cx7VPzjVsusZik1-e2LtRYKo6muyJEz0vB
+UUuTrtv_
+}
+
+!function BrandSyncthing($id, $name="Syncthing", $tech="")
+  PersoElement($id, 'brand/BrandSyncthing', $name, $tech)
+!endfunction
+!function BrandSyncthingCard($id, $funcName="", $content="")
+  PersoCard($id, '<$BrandSyncthingMd>', 'Syncthing', $funcName, $content)
+!endfunction
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the BrandDocker element
+include('elements/brand/BrandDocker')
+BrandDocker('element', 'Docker', 'an optional tech field')
+@enduml

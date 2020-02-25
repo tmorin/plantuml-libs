@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../"
+
+' loads the library
+!include ../../library.puml
+
+' loads the MaterialsSync element
+include('elements/materials/MaterialsSync')
+MaterialsSync('element', 'Sync', 'an optional tech field')
+@enduml

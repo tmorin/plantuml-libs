@@ -1,0 +1,15 @@
+@startuml
+sprite $BrandDockerLg [20x20/16z] {
+jO_L0GCm24JnE_PVkB7wTruK1xc5XVtfilDRKIWkdVehhYUf8W4xNhsXYGEOheu-X2Snt3L80EEifsm4MumWdZDSXsw08OE36IqRHmRO0yPxX9bxQCg-1hC8
+Kxd40m
+}
+
+sprite $BrandDockerMd [14x14/16z] bSp50G0W30F0XchsNnZdpxrIbKyQUDaYQrHj5qNIWR1HwoW6qqmTnPOL2a5oP9BLzZ_FKUGe9gXdgFpf
+
+!function BrandDocker($id, $name="Docker", $tech="")
+  PersoElement($id, 'brand/BrandDocker', $name, $tech)
+!endfunction
+!function BrandDockerCard($id, $funcName="", $content="")
+  PersoCard($id, '<$BrandDockerMd>', 'Docker', $funcName, $content)
+!endfunction
+@enduml
