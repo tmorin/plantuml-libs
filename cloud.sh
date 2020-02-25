@@ -3,7 +3,7 @@
 export LIB_NAME="cloud"
 export LIB_BRANCH="master"
 
-. lib.v2.sh
+. lib.sh
 
 cleanGeneratedResources
 

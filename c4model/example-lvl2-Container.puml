@@ -1,0 +1,33 @@
+@startuml
+!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
+!includeurl $C4_LIB_BASE_URL/c4-all.puml
+' !include c4-all.puml
+
+showLegend()
+showTitle("Container diagram for Internet Banking System")
+
+Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
+SystemBoundary("ibs", "Internet Banking System") {
+    Container("wa", "Web Application", "Delivers the static content and the Internet banking single page application.", "Java and Spring MVC")
+    Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
+    Container("ma", "Mobile App", "Provides limited subset of the Internet banking functionality to customers via their mobile device.", "Xamarin")
+    Container("api", "API Application", "Provides Internet banking functionality via a JSON/HTTPS API.", "Java and Spring MVC")
+    Database("db", "Database", "Stores user registration information, hashed authentication credentials, access log, etc.", "Oracle Database Schema")
+}
+ExternalSystem("mbs", "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+ExternalSystem("ems", "E-Mail System", "The internal Microsoft Exchange e-email system.")
+
+pbc --> wa : Relationship("Visits bigbank.com/ib using", "HTTPS")
+pbc --> spa : Relationship("Views account balances, and makes payments using")
+pbc --> ma : Relationship("Views account balances, and makes payments using")
+wa -> spa : Relationship("Delivers to the the customer's browser")
+spa --> api : Relationship("Maks API calls to", "JSON/HTTPS")
+ma --> api : Relationship("Maks API calls to", "JSON/HTTPS")
+api -left-> db : Relationship("Reads from and writes to", "JDBC")
+api -right-> mbs : Relationship("Makes API calls to", "XML/HTTPS")
+api -up-> ems : Relationship("Sends e-mail using", "SMTP")
+ems -left-> pbc : Relationship("Sends e-mail to")
+ma -right[hidden]-> ems
+
+@enduml
