@@ -4,10 +4,15 @@ NP47hi0W3CMSyLZtl-yV1HI9r-N8PGFHWoy6LEsjopQCze6fDoV_Nr_QdBF1-Jc7sB7n9uQnep4IU5j0
 uNDDXqiba0HSAk59EXGTON9SHj4MthhZlHbsoBU8tkDz_GbXahqlZM_RAxNjTL1Vwg3gABzK_Gi
 }
 
+sprite $AzureManagementGroupsMd [17x14/16z] {
+HS-74GGX20LGVc0H-o_uJ3DdzXa9f2C2mcgT27rUGrJNPdygnahixZkeMkjdnniy447z8KiRAn-mfnTuDYzW32xW67WW7P0UcF0Q6lG15L6vRWPB2yX4M247
+agppzPFUrrzmAxtWVW
+}
+
 !function AzureManagementGroups($id, $name="Management Groups", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureManagementGroups', $name, $tech)
 !endfunction
 !function AzureManagementGroupsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureManagementGroupsLg>', 'Management Groups', $funcName, $content)
+  CloudCard($id, '<$AzureManagementGroupsMd>', 'Management Groups', $funcName, $content)
 !endfunction
 @enduml

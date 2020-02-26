@@ -4,10 +4,12 @@ ZSq5ZaLH20FG0hqwJ_Q_sq76zJVMD9o0FoAgWhTG0SxZE8_5rtaiHHiqupYzbbgl3RPsLPctZpPNLyYQ
 h2x1qPTZVTt0u9mmzsMt81zPsloXnm2Irm_GCQUWnaOWgo10ZHNTMR-C8zkh-HgXuE4y0m
 }
 
+sprite $MaterialsPortableWifiOffMd [14x14/16z] NOs74KCn349116DVzjyt9wN_vwe6-8T4EN5Df52MV3pXteH4fiFQArIEU0gmUGzHXpOGAGxddMXnXvh8xe5R21iz8A53jMKFOK8qBZn3_5Auy
+
 !function MaterialsPortableWifiOff($id, $name="Portable Wifi Off", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsPortableWifiOff', $name, $tech)
 !endfunction
 !function MaterialsPortableWifiOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPortableWifiOffLg>', 'Portable Wifi Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsPortableWifiOffMd>', 'Portable Wifi Off', $funcName, $content)
 !endfunction
 @enduml

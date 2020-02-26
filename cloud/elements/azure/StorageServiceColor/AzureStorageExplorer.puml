@@ -4,10 +4,12 @@ dOm9aiGm20D1tFx_WnSbEsVTqrMseHMbRrpU-D6vUpXkl0WqgxeV-H2JM5bVpiqiHE1FL8pv_oVx4lrs
 TLr708ZmQ9upTSv9_aWLjYTdkcPc7I8YBwgAXwxcTBFtwhxSt8SkluW_
 }
 
+sprite $AzureStorageExplorerMd [14x14/16z] LSk50GGW30F095NOV-0ll1zQwqDu-Ozgf964F0A3ENMpgiQHQosJUq2PQP8emg392vHygb144BfxPXCWJNTR9pXlTTNvFjjwzze5UeoyjObgigyzKTP7FW
+
 !function AzureStorageExplorer($id, $name="Storage Explorer", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureStorageExplorer', $name, $tech)
 !endfunction
 !function AzureStorageExplorerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStorageExplorerLg>', 'Storage Explorer', $funcName, $content)
+  CloudCard($id, '<$AzureStorageExplorerMd>', 'Storage Explorer', $funcName, $content)
 !endfunction
 @enduml

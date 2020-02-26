@@ -16,8 +16,8 @@ elements/azure/Companies/AzureLogoPluralsightTwotone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogoPluralsightTwotone element
 include('elements/azure/Companies/AzureLogoPluralsightTwotone')
@@ -34,8 +34,8 @@ AzureLogoPluralsightTwotone('element', 'Logo Pluralsight Twotone', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogoPluralsightTwotone element
 include('elements/azure/Companies/AzureLogoPluralsightTwotone')
@@ -53,8 +53,8 @@ AzureLogoPluralsightTwotone('element', 'Logo Pluralsight Twotone', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogoPluralsightTwotone card
 include('elements/azure/Companies/AzureLogoPluralsightTwotone')
@@ -71,8 +71,8 @@ AzureLogoPluralsightTwotoneCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogoPluralsightTwotone card
 include('elements/azure/Companies/AzureLogoPluralsightTwotone')

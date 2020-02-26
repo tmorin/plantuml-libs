@@ -16,7 +16,7 @@ elements/aws/Mobile/AwsApiGatewayEndpoint
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApiGatewayEndpoint element
@@ -34,7 +34,7 @@ AwsApiGatewayEndpoint('element', 'Api Gateway Endpoint', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApiGatewayEndpoint element
@@ -53,8 +53,8 @@ AwsApiGatewayEndpoint('element', 'Api Gateway Endpoint', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApiGatewayEndpoint card
 include('elements/aws/Mobile/AwsApiGatewayEndpoint')
@@ -71,8 +71,8 @@ AwsApiGatewayEndpointCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApiGatewayEndpoint card
 include('elements/aws/Mobile/AwsApiGatewayEndpoint')

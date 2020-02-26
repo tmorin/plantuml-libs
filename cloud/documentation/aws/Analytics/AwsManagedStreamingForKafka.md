@@ -16,7 +16,7 @@ elements/aws/Analytics/AwsManagedStreamingForKafka
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedStreamingForKafka element
@@ -34,7 +34,7 @@ AwsManagedStreamingForKafka('element', 'Managed Streaming For Kafka', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedStreamingForKafka element
@@ -53,8 +53,8 @@ AwsManagedStreamingForKafka('element', 'Managed Streaming For Kafka', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedStreamingForKafka card
 include('elements/aws/Analytics/AwsManagedStreamingForKafka')
@@ -71,8 +71,8 @@ AwsManagedStreamingForKafkaCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedStreamingForKafka card
 include('elements/aws/Analytics/AwsManagedStreamingForKafka')

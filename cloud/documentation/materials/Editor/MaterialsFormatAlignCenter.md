@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatAlignCenter
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignCenter element
 include('elements/materials/Editor/MaterialsFormatAlignCenter')
@@ -34,8 +34,8 @@ MaterialsFormatAlignCenter('element', 'Format Align Center', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignCenter element
 include('elements/materials/Editor/MaterialsFormatAlignCenter')
@@ -53,8 +53,8 @@ MaterialsFormatAlignCenter('element', 'Format Align Center', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignCenter card
 include('elements/materials/Editor/MaterialsFormatAlignCenter')
@@ -71,8 +71,8 @@ MaterialsFormatAlignCenterCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignCenter card
 include('elements/materials/Editor/MaterialsFormatAlignCenter')

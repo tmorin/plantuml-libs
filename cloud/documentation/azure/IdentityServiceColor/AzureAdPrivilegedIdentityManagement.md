@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdPrivilegedIdentityManagement element
 include('elements/azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement')
@@ -34,8 +34,8 @@ AzureAdPrivilegedIdentityManagement('element', 'Ad Privileged Identity Managemen
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdPrivilegedIdentityManagement element
 include('elements/azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement')
@@ -53,8 +53,8 @@ AzureAdPrivilegedIdentityManagement('element', 'Ad Privileged Identity Managemen
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdPrivilegedIdentityManagement card
 include('elements/azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement')
@@ -71,8 +71,8 @@ AzureAdPrivilegedIdentityManagementCard('card', 'an optional functional name', '
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdPrivilegedIdentityManagement card
 include('elements/azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement')

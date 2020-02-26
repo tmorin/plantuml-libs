@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatIndentDecreaseLg [20x20/16z] Oo0QCBAW04QG63CFDnBWOOOeH078Hc0JO-U1weNP0Z8MPWT4Y8CTmoqS_20nLWu8OCObXgaNqmxSRi5qCwRVCCC0QrWH3G
 
+sprite $MaterialsFormatIndentDecreaseMd [14x14/16z] NStL0O1G34FH6npstvVdblDLBsRh0DrFTOj26TK-UgTGs-Fwn7P6XoppoN75F_ZthSC4
+
 !function MaterialsFormatIndentDecrease($id, $name="Format Indent Decrease", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatIndentDecrease', $name, $tech)
 !endfunction
 !function MaterialsFormatIndentDecreaseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatIndentDecreaseLg>', 'Format Indent Decrease', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatIndentDecreaseMd>', 'Format Indent Decrease', $funcName, $content)
 !endfunction
 @enduml

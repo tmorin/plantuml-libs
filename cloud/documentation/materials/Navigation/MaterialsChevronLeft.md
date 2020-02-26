@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsChevronLeft
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChevronLeft element
 include('elements/materials/Navigation/MaterialsChevronLeft')
@@ -34,8 +34,8 @@ MaterialsChevronLeft('element', 'Chevron Left', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChevronLeft element
 include('elements/materials/Navigation/MaterialsChevronLeft')
@@ -53,8 +53,8 @@ MaterialsChevronLeft('element', 'Chevron Left', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChevronLeft card
 include('elements/materials/Navigation/MaterialsChevronLeft')
@@ -71,8 +71,8 @@ MaterialsChevronLeftCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChevronLeft card
 include('elements/materials/Navigation/MaterialsChevronLeft')

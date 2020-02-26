@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsLocalActivity
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalActivity element
 include('elements/materials/Maps/MaterialsLocalActivity')
@@ -34,8 +34,8 @@ MaterialsLocalActivity('element', 'Local Activity', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalActivity element
 include('elements/materials/Maps/MaterialsLocalActivity')
@@ -53,8 +53,8 @@ MaterialsLocalActivity('element', 'Local Activity', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalActivity card
 include('elements/materials/Maps/MaterialsLocalActivity')
@@ -71,8 +71,8 @@ MaterialsLocalActivityCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalActivity card
 include('elements/materials/Maps/MaterialsLocalActivity')

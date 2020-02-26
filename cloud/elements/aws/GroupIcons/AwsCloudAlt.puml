@@ -4,10 +4,12 @@ lOs54GHH349d8iJO_ijTbmhktjSOBFzXgZdaBEJnFL8CMFga4k68kVeQG4BBI_DAjOMX705dkvt9id4V
 G86NCrH4LSLYfb-Thin3wYTi
 }
 
+sprite $AwsCloudAltMd [14x14/16z] bOr10iGm14KtyC7zhplvif-sBm70VA2hUvemW3d2motwHCUQgM6ZKZUeQuKMEoEB3s2jvbAEtNAgcN349g6g1Xwwq7dY1m
+
 !function AwsCloudAlt($id, $name="Cloud Alt", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsCloudAlt', $name, $tech)
 !endfunction
 !function AwsCloudAltCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudAltLg>', 'Cloud Alt', $funcName, $content)
+  CloudCard($id, '<$AwsCloudAltMd>', 'Cloud Alt', $funcName, $content)
 !endfunction
 @enduml

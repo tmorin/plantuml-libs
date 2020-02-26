@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureDataMigrationWizard
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataMigrationWizard element
 include('elements/azure/FlatSymbols/CneIntune/AzureDataMigrationWizard')
@@ -34,8 +34,8 @@ AzureDataMigrationWizard('element', 'Data Migration Wizard', 'an optional tech f
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataMigrationWizard element
 include('elements/azure/FlatSymbols/CneIntune/AzureDataMigrationWizard')
@@ -53,8 +53,8 @@ AzureDataMigrationWizard('element', 'Data Migration Wizard', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataMigrationWizard card
 include('elements/azure/FlatSymbols/CneIntune/AzureDataMigrationWizard')
@@ -71,8 +71,8 @@ AzureDataMigrationWizardCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataMigrationWizard card
 include('elements/azure/FlatSymbols/CneIntune/AzureDataMigrationWizard')

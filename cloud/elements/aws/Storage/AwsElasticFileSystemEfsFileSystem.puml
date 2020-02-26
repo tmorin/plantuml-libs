@@ -4,10 +4,12 @@ NOe9Zi103C8WaD3-_yERxZsr3ai6G181hl2f0fIaWLuPd9MOBbzLbwj3NQe9OzJJ2juMehUD-ccjUNvM
 ymm7KzCvcws9ws0VKUD0cM1unia5-Mo-R_1rP6x0UXy1ZWzw6-GN7m
 }
 
+sprite $AwsElasticFileSystemEfsFileSystemMd [14x14/16z] HS6B0S803491GXwqxZ-mV-sTbfN06XWtDKqdIJVAWkhQXzjwsmvjD1x97eCbZLyspbfEU5b3tF0HIDcV95W_xZ7ehwSO_UnDPdvyIbpo
+
 !function AwsElasticFileSystemEfsFileSystem($id, $name="Elastic File System Efs File System", $tech="")
   CloudElement($id, 'aws/Storage/AwsElasticFileSystemEfsFileSystem', $name, $tech)
 !endfunction
 !function AwsElasticFileSystemEfsFileSystemCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElasticFileSystemEfsFileSystemLg>', 'Elastic File System Efs File System', $funcName, $content)
+  CloudCard($id, '<$AwsElasticFileSystemEfsFileSystemMd>', 'Elastic File System Efs File System', $funcName, $content)
 !endfunction
 @enduml

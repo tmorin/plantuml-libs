@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureMonitor
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitor element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitor')
@@ -34,8 +34,8 @@ AzureMonitor('element', 'Monitor', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitor element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitor')
@@ -53,8 +53,8 @@ AzureMonitor('element', 'Monitor', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitor card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitor')
@@ -71,8 +71,8 @@ AzureMonitorCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitor card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitor')

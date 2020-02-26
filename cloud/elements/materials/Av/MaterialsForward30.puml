@@ -4,10 +4,12 @@ bK_5OSLG31E5dvlzf-rdPXrj8TuYJsvJzt3YlDuTrGsr_bqVETGotTuuBk6Tjc--pr3h7hga2HJ0grit
 SacfqPB7kgwOgLghARW6POlu3Hi
 }
 
+sprite $MaterialsForward30Md [14x14/16z] RSt50O1G30FG95zRRFzfSOTtgXT_4cy9lPofYdL3sfDeKMUFfjjUp23FhHIX40AejPUWE6SvOYRZohIDLW6gvuiwYpX9-341
+
 !function MaterialsForward30($id, $name="Forward30", $tech="")
   CloudElement($id, 'materials/Av/MaterialsForward30', $name, $tech)
 !endfunction
 !function MaterialsForward30Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsForward30Lg>', 'Forward30', $funcName, $content)
+  CloudCard($id, '<$MaterialsForward30Md>', 'Forward30', $funcName, $content)
 !endfunction
 @enduml

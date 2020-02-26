@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureUserEnterprise
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserEnterprise element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureUserEnterprise')
@@ -34,8 +34,8 @@ AzureUserEnterprise('element', 'User Enterprise', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserEnterprise element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureUserEnterprise')
@@ -53,8 +53,8 @@ AzureUserEnterprise('element', 'User Enterprise', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserEnterprise card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureUserEnterprise')
@@ -71,8 +71,8 @@ AzureUserEnterpriseCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserEnterprise card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureUserEnterprise')

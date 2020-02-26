@@ -4,10 +4,15 @@ LOu7ZiL024Cnjfbext_W1LAa_r8CRse4N8YE8Pho1Ekm9VFrFCNmKTSK83VJGCUNOcrQsQZOlQwh8vtf
 -EflzgdAJtFsZfl4jtSMqVL3lZU1PthU5gNltYNGH4ksVJLi8LK3O_LnHxPFW48iFZoL4P0jFZhhCE2ZgUM6UtllA1KBkBqOlm1V-Gy
 }
 
+sprite $AzureSchedulerJobCollectionsMd [16x14/16z] {
+DOo50GCn30DFO6V_ZTkde8Lu0_elo9h-eUpybyZs2CVDzHYTXLwJWqRiyaVXmYH_h2I63gZwuzuuP_JWr06GRZyUry3NnzIDbJ7i4PuwdGXqPendcW3U-GE3
+q-ePtwLt_04
+}
+
 !function AzureSchedulerJobCollections($id, $name="Scheduler Job Collections", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections', $name, $tech)
 !endfunction
 !function AzureSchedulerJobCollectionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSchedulerJobCollectionsLg>', 'Scheduler Job Collections', $funcName, $content)
+  CloudCard($id, '<$AzureSchedulerJobCollectionsMd>', 'Scheduler Job Collections', $funcName, $content)
 !endfunction
 @enduml

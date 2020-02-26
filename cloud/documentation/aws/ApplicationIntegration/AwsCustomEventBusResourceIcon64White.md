@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64White
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64White element
@@ -34,7 +34,7 @@ AwsCustomEventBusResourceIcon64White('element', 'Custom Event Bus Resource Icon6
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64White element
@@ -53,8 +53,8 @@ AwsCustomEventBusResourceIcon64White('element', 'Custom Event Bus Resource Icon6
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64White card
 include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64White')
@@ -71,8 +71,8 @@ AwsCustomEventBusResourceIcon64WhiteCard('card', 'an optional functional name', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64White card
 include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64White')

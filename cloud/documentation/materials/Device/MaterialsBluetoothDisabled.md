@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsBluetoothDisabled
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothDisabled element
 include('elements/materials/Device/MaterialsBluetoothDisabled')
@@ -34,8 +34,8 @@ MaterialsBluetoothDisabled('element', 'Bluetooth Disabled', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothDisabled element
 include('elements/materials/Device/MaterialsBluetoothDisabled')
@@ -53,8 +53,8 @@ MaterialsBluetoothDisabled('element', 'Bluetooth Disabled', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothDisabled card
 include('elements/materials/Device/MaterialsBluetoothDisabled')
@@ -71,8 +71,8 @@ MaterialsBluetoothDisabledCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothDisabled card
 include('elements/materials/Device/MaterialsBluetoothDisabled')

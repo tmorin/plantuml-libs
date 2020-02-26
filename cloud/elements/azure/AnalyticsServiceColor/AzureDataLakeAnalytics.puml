@@ -4,10 +4,12 @@ ZP250S0m3CDY1xp_7nupgwnoRAIQekq06P8gEO91nObUCkn0yCC1aukTYxbHhSvNrooEvS1n7RAgV7J5
 h0oSy9AKXEr1IECREm
 }
 
+sprite $AzureDataLakeAnalyticsMd [14x14/16z] LOu50e0W34Mt7tB_4wiqF68TyVCKPNH0sHP_4C7fZkHlnKBJQh_T9RjLcWMx2Ylr2zce8ksToIZkilyzbhEnhkdWJzyEow_Mu0C
+
 !function AzureDataLakeAnalytics($id, $name="Data Lake Analytics", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataLakeAnalytics', $name, $tech)
 !endfunction
 !function AzureDataLakeAnalyticsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDataLakeAnalyticsLg>', 'Data Lake Analytics', $funcName, $content)
+  CloudCard($id, '<$AzureDataLakeAnalyticsMd>', 'Data Lake Analytics', $funcName, $content)
 !endfunction
 @enduml

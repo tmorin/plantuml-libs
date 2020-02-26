@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsGuarddutyLg [20x20/16z] {
-PSd70G8n34JHYoR8zDyl8zYyt_cvpxpNbzxc0zScH777DMYmf28KZQKGbUPdDx25n2PwCr65obGuE5IEaJ5NS0mEKsAfLUv-MOy5R804xEBO81ke0fhipSXb
-92zYim3fHCAR1QcoIw7fyuab0SgnMN1ljnU-RV0B
+hP150WCn30ClraZr_n_SPSojdON43Fq7BBcl15TI9gTAa0dGeOIs9ZpVDan45GhUL4ik9kPpKoeztITgkkYYmsRJxR4II6TicnPLKkDBBz74PxgDUXxCDjZ1
+xtm1
 }
+
+sprite $AwsGuarddutyMd [14x14/16z] XOt50S0m30DVbdJTVzyoKounKzS095Y3I9bagIYM7B54hX4laPAoAz4pGgcHVGvBHZmk7DSR3
 
 !function AwsGuardduty($id, $name="Guardduty", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsGuardduty', $name, $tech)
 !endfunction
 !function AwsGuarddutyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsGuarddutyLg>', 'Guardduty', $funcName, $content)
+  CloudCard($id, '<$AwsGuarddutyMd>', 'Guardduty', $funcName, $content)
 !endfunction
 @enduml

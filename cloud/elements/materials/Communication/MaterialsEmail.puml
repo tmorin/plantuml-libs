@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsEmailLg [20x20/16z] fT230S0m50JGsDX_sk9-RLoP5uVzYjIho8v4B7MH4aLdMPaqIZ8gmoIJZiXrlx0IDUSwrahV0aEzi5QWFHd6uOnnZ3jQbw1Kg7LjjU2xCkIrnRL5SNG6lz82
 
+sprite $MaterialsEmailMd [14x14/16z] XSUt0SCm30H0P83nzv_MsIgfwuvEnCC_meKeQ-1ZLBvcaXlOAVRUTDRUZMs-1vGoQm7VOKPCN7kxd_X5wEG9
+
 !function MaterialsEmail($id, $name="Email", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsEmail', $name, $tech)
 !endfunction
 !function MaterialsEmailCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsEmailLg>', 'Email', $funcName, $content)
+  CloudCard($id, '<$MaterialsEmailMd>', 'Email', $funcName, $content)
 !endfunction
 @enduml

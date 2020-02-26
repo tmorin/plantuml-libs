@@ -4,10 +4,12 @@ jKw70G8n2Cm5quFilwsqTm8zUgVy2zGxLDM8OAfUaQbwUqHkceXmnHQotEl0jEOES5Y7UvyyEgbpDkbC
 kSU7Hn937-38pPNeXTOg3Zp8-x_51m
 }
 
+sprite $MaterialsGroupAddMd [14x14/16z] ZSZ50SHG20JGcOyJwx_QUCwx3mU_ySgFjSFi-lfPqxOCdGbA3IAseYMHFPU2v-TCGCuNXrpxbGQfPLjR6OfJRfUcRpY9NWH3yRS3
+
 !function MaterialsGroupAdd($id, $name="Group Add", $tech="")
   CloudElement($id, 'materials/Social/MaterialsGroupAdd', $name, $tech)
 !endfunction
 !function MaterialsGroupAddCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsGroupAddLg>', 'Group Add', $funcName, $content)
+  CloudCard($id, '<$MaterialsGroupAddMd>', 'Group Add', $funcName, $content)
 !endfunction
 @enduml

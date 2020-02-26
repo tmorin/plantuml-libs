@@ -4,10 +4,12 @@ fOxL0SKW00EVDBh_ldNxv_0ZI8U9kUAy5Qb4H1u5DrBgHsPRaN3z3i9T_HDpyZ_SFpqj4XeWp8IFQxcr
 sds8r4hfC0i
 }
 
+sprite $AwsTensorflowMd [14x14/16z] XOst0G0n308h0QVzz_rth7sEIj0Fy80JH1aefuGbioEwHAjsoSW3uHdDnsEZLRigguPmbH7RmIHiXntYz8CV
+
 !function AwsTensorflow($id, $name="Tensorflow", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsTensorflow', $name, $tech)
 !endfunction
 !function AwsTensorflowCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsTensorflowLg>', 'Tensorflow', $funcName, $content)
+  CloudCard($id, '<$AwsTensorflowMd>', 'Tensorflow', $funcName, $content)
 !endfunction
 @enduml

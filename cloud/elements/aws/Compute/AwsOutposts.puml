@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsOutpostsLg [20x20/16z] {
-NSe73e0m34DHgR6TtF_2h4xpeUif-IKh3Ss6kX7u6uC8keLUnsc0y7IQub6IONC47yLfGfms6dFvMYsJzDYBDH2Qsslbzc0D19Tb3MHhqIA73GG43XjuLePc
-XZS
-}
+sprite $AwsOutpostsLg [20x20/16z] hOkr0S0m0CC2flylxbZcUBIa39X8Ro-8qEerd11OdeJ8zMUObBJ-106hBsRVVGaFFzkxBtdsxLkrrbjVVoO5vVSc
+
+sprite $AwsOutpostsMd [14x14/16z] XSc53G0X40J0o5h_3V_Z43qucsogPyeFB6XB54dlg45R4OYJzPHwrUfL7e74KHgKulq
 
 !function AwsOutposts($id, $name="Outposts", $tech="")
   CloudElement($id, 'aws/Compute/AwsOutposts', $name, $tech)
 !endfunction
 !function AwsOutpostsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOutpostsLg>', 'Outposts', $funcName, $content)
+  CloudCard($id, '<$AwsOutpostsMd>', 'Outposts', $funcName, $content)
 !endfunction
 @enduml

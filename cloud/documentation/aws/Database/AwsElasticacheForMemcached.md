@@ -16,7 +16,7 @@ elements/aws/Database/AwsElasticacheForMemcached
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticacheForMemcached element
@@ -34,7 +34,7 @@ AwsElasticacheForMemcached('element', 'Elasticache For Memcached', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticacheForMemcached element
@@ -53,8 +53,8 @@ AwsElasticacheForMemcached('element', 'Elasticache For Memcached', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticacheForMemcached card
 include('elements/aws/Database/AwsElasticacheForMemcached')
@@ -71,8 +71,8 @@ AwsElasticacheForMemcachedCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticacheForMemcached card
 include('elements/aws/Database/AwsElasticacheForMemcached')

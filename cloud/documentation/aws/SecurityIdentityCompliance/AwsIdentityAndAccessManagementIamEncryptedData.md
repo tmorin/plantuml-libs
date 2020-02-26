@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamEncrypt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamEncryptedData element
@@ -34,7 +34,7 @@ AwsIdentityAndAccessManagementIamEncryptedData('element', 'Identity And Access M
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamEncryptedData element
@@ -53,8 +53,8 @@ AwsIdentityAndAccessManagementIamEncryptedData('element', 'Identity And Access M
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamEncryptedData card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamEncryptedData')
@@ -71,8 +71,8 @@ AwsIdentityAndAccessManagementIamEncryptedDataCard('card', 'an optional function
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamEncryptedData card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamEncryptedData')

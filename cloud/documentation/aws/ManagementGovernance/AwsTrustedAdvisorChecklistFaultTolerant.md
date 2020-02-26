@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant element
@@ -34,7 +34,7 @@ AwsTrustedAdvisorChecklistFaultTolerant('element', 'Trusted Advisor Checklist Fa
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant element
@@ -53,8 +53,8 @@ AwsTrustedAdvisorChecklistFaultTolerant('element', 'Trusted Advisor Checklist Fa
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')
@@ -71,8 +71,8 @@ AwsTrustedAdvisorChecklistFaultTolerantCard('card', 'an optional functional name
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')

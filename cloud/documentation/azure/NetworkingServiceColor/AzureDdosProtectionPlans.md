@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureDdosProtectionPlans
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDdosProtectionPlans element
 include('elements/azure/NetworkingServiceColor/AzureDdosProtectionPlans')
@@ -34,8 +34,8 @@ AzureDdosProtectionPlans('element', 'Ddos Protection Plans', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDdosProtectionPlans element
 include('elements/azure/NetworkingServiceColor/AzureDdosProtectionPlans')
@@ -53,8 +53,8 @@ AzureDdosProtectionPlans('element', 'Ddos Protection Plans', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDdosProtectionPlans card
 include('elements/azure/NetworkingServiceColor/AzureDdosProtectionPlans')
@@ -71,8 +71,8 @@ AzureDdosProtectionPlansCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDdosProtectionPlans card
 include('elements/azure/NetworkingServiceColor/AzureDdosProtectionPlans')

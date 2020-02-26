@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAutorenew
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAutorenew element
 include('elements/materials/Action/MaterialsAutorenew')
@@ -34,8 +34,8 @@ MaterialsAutorenew('element', 'Autorenew', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAutorenew element
 include('elements/materials/Action/MaterialsAutorenew')
@@ -53,8 +53,8 @@ MaterialsAutorenew('element', 'Autorenew', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAutorenew card
 include('elements/materials/Action/MaterialsAutorenew')
@@ -71,8 +71,8 @@ MaterialsAutorenewCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAutorenew card
 include('elements/materials/Action/MaterialsAutorenew')

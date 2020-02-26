@@ -4,10 +4,12 @@ POy50eH030DffE7-_-5Rt09hKqS-GZYznAHggkMAiGFBaJ1AiK0GtUgkXQNHjZasEYiJxLWQs-g7BL-X
 UZvZMwJw6KlPPhwnDJzYjn6ViQ34IdXZsdf6JZMy7COV
 }
 
+sprite $AwsRdsMariadbInstanceMd [14x14/16z] NOc50S0m20Hvezr_uRhc4kHuvuE3Ea41nuKK5RUpq_5MsGr54aSXgGj8V4mHtRSbakV7I2A_R7fC_yn3ndPEVBGL
+
 !function AwsRdsMariadbInstance($id, $name="Rds Mariadb Instance", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsMariadbInstance', $name, $tech)
 !endfunction
 !function AwsRdsMariadbInstanceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsMariadbInstanceLg>', 'Rds Mariadb Instance', $funcName, $content)
+  CloudCard($id, '<$AwsRdsMariadbInstanceMd>', 'Rds Mariadb Instance', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ POi74W0X20Eb9Fp_nuTdrnrfwwGCLCk5W8GSnccb67tPUgolYcuX0NNqXHBY4FCD4sJNS7Y-HcZj2aG-
 9y6Da5HqnqOLwW_w0G
 }
 
+sprite $AwsSystemsManagerInventoryMd [14x14/16z] JSo70G0n2090HVZzHtvCl_HOOgYA0wmYOaWot_t-iXua98emeL-VXR5VZdY7NolMRgnbhjYA2gkdUGDLEahqM2Z-
+
 !function AwsSystemsManagerInventory($id, $name="Systems Manager Inventory", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerInventory', $name, $tech)
 !endfunction
 !function AwsSystemsManagerInventoryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSystemsManagerInventoryLg>', 'Systems Manager Inventory', $funcName, $content)
+  CloudCard($id, '<$AwsSystemsManagerInventoryMd>', 'Systems Manager Inventory', $funcName, $content)
 !endfunction
 @enduml

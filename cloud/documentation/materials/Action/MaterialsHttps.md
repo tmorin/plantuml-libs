@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsHttps
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHttps element
 include('elements/materials/Action/MaterialsHttps')
@@ -34,8 +34,8 @@ MaterialsHttps('element', 'Https', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHttps element
 include('elements/materials/Action/MaterialsHttps')
@@ -53,8 +53,8 @@ MaterialsHttps('element', 'Https', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHttps card
 include('elements/materials/Action/MaterialsHttps')
@@ -71,8 +71,8 @@ MaterialsHttpsCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHttps card
 include('elements/materials/Action/MaterialsHttps')

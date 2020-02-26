@@ -4,10 +4,12 @@ TP27aKLH249H0U_st_3-b_CP9va1E_o1Az5avordmCA5x0YtuvnoZrz6WnL8IgfoeGpOQjOlidea08aZ
 sSphh84uRZWZWfTVGFyGpp-_QhjxyEtLjwUWj6x_1m
 }
 
+sprite $AwsEmrClusterMd [14x14/16z] RKw30KHH30lxzf_uZA_Q3TxK1ZzYMVqoZUQLKgAQPQycyv02wPXjaqQFP9gMWCO4LyMBx3UPI2dWr2naw_TX-_qIsG_r7G
+
 !function AwsEmrCluster($id, $name="Emr Cluster", $tech="")
   CloudElement($id, 'aws/Analytics/AwsEmrCluster', $name, $tech)
 !endfunction
 !function AwsEmrClusterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEmrClusterLg>', 'Emr Cluster', $funcName, $content)
+  CloudCard($id, '<$AwsEmrClusterMd>', 'Emr Cluster', $funcName, $content)
 !endfunction
 @enduml

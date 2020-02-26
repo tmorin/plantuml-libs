@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsDirectionsTransit
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsTransit element
 include('elements/materials/Maps/MaterialsDirectionsTransit')
@@ -34,8 +34,8 @@ MaterialsDirectionsTransit('element', 'Directions Transit', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsTransit element
 include('elements/materials/Maps/MaterialsDirectionsTransit')
@@ -53,8 +53,8 @@ MaterialsDirectionsTransit('element', 'Directions Transit', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsTransit card
 include('elements/materials/Maps/MaterialsDirectionsTransit')
@@ -71,8 +71,8 @@ MaterialsDirectionsTransitCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsTransit card
 include('elements/materials/Maps/MaterialsDirectionsTransit')

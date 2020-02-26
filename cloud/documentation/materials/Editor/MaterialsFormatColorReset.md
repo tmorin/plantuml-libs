@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatColorReset
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatColorReset element
 include('elements/materials/Editor/MaterialsFormatColorReset')
@@ -34,8 +34,8 @@ MaterialsFormatColorReset('element', 'Format Color Reset', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatColorReset element
 include('elements/materials/Editor/MaterialsFormatColorReset')
@@ -53,8 +53,8 @@ MaterialsFormatColorReset('element', 'Format Color Reset', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatColorReset card
 include('elements/materials/Editor/MaterialsFormatColorReset')
@@ -71,8 +71,8 @@ MaterialsFormatColorResetCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatColorReset card
 include('elements/materials/Editor/MaterialsFormatColorReset')

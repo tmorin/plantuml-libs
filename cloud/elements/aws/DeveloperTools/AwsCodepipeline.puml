@@ -4,10 +4,12 @@ RSYtOSG030F0XYI2zj_N3ok7Ayy_kYBfZzpkAiU-W2JR3GK3lPqS2bvEgSjLppJ1wUwgzQPdbPlrp0A9
 jdFUhhN9MKlCfiUn_FD5RdEzZ_m3
 }
 
+sprite $AwsCodepipelineMd [14x14/16z] RSct0S0W34JHIfUq_xuMgVCdFaZYbtHrcGWtsWdU1tvK08cgMlB2eknEomubUjGjOYQOetbVwyfnCigIkOAIz9JRqkxg0m
+
 !function AwsCodepipeline($id, $name="Codepipeline", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodepipeline', $name, $tech)
 !endfunction
 !function AwsCodepipelineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCodepipelineLg>', 'Codepipeline', $funcName, $content)
+  CloudCard($id, '<$AwsCodepipelineMd>', 'Codepipeline', $funcName, $content)
 !endfunction
 @enduml

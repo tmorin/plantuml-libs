@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsIotAnalyticsNotebookLg [20x20/16z] dP253GCn40JtCEc_OJFReX_nw7014AyGCkQsu5cICq0De3ZxExTQDyAicymwbWAZrmcWZURqPtJsiYkWLkXraklwtPjBdBsMcEwvWroUDzzr_BdkplILVGG
 
+sprite $AwsIotAnalyticsNotebookMd [14x14/16z] ROx50O104CIocOF-EyQToszb1Co9m91zDWqSKsaBrZP9hN1EprjmfQxRoZKPWVkphabM-bEkQM-satLwjfu1
+
 !function AwsIotAnalyticsNotebook($id, $name="Iot Analytics Notebook", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsNotebook', $name, $tech)
 !endfunction
 !function AwsIotAnalyticsNotebookCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotAnalyticsNotebookLg>', 'Iot Analytics Notebook', $funcName, $content)
+  CloudCard($id, '<$AwsIotAnalyticsNotebookMd>', 'Iot Analytics Notebook', $funcName, $content)
 !endfunction
 @enduml

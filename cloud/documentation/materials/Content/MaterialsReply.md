@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsReply
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReply element
 include('elements/materials/Content/MaterialsReply')
@@ -34,8 +34,8 @@ MaterialsReply('element', 'Reply', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReply element
 include('elements/materials/Content/MaterialsReply')
@@ -53,8 +53,8 @@ MaterialsReply('element', 'Reply', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReply card
 include('elements/materials/Content/MaterialsReply')
@@ -71,8 +71,8 @@ MaterialsReplyCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReply card
 include('elements/materials/Content/MaterialsReply')

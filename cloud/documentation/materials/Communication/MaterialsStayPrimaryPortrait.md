@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsStayPrimaryPortrait
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryPortrait element
 include('elements/materials/Communication/MaterialsStayPrimaryPortrait')
@@ -34,8 +34,8 @@ MaterialsStayPrimaryPortrait('element', 'Stay Primary Portrait', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryPortrait element
 include('elements/materials/Communication/MaterialsStayPrimaryPortrait')
@@ -53,8 +53,8 @@ MaterialsStayPrimaryPortrait('element', 'Stay Primary Portrait', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryPortrait card
 include('elements/materials/Communication/MaterialsStayPrimaryPortrait')
@@ -71,8 +71,8 @@ MaterialsStayPrimaryPortraitCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryPortrait card
 include('elements/materials/Communication/MaterialsStayPrimaryPortrait')

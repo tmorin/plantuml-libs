@@ -4,10 +4,12 @@ fP150WDH24DngF1p_zFMtJlpbcWIceNw7RehoGfth6HN6_UryQxMOURBzaHwL_IX9YJaQpOOXSkfniPs
 36Qn1G
 }
 
+sprite $MaterialsFiberPinMd [14x14/16z] VOtL0SDG24LnUSR-qzQzISuVN8CZI5yGWDSBlrvZrbnhtIyXJlMGqEl5XCvcm7o_f5ykHhfU6bKNfzdDMQjUBTyBt-j7d04
+
 !function MaterialsFiberPin($id, $name="Fiber Pin", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFiberPin', $name, $tech)
 !endfunction
 !function MaterialsFiberPinCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFiberPinLg>', 'Fiber Pin', $funcName, $content)
+  CloudCard($id, '<$MaterialsFiberPinMd>', 'Fiber Pin', $funcName, $content)
 !endfunction
 @enduml

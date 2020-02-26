@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAirlineSeatIndividualSuiteLg [20x20/16z] lOh55K0X30GZk6t_rNvNk3CGcxSq0zwBjxhOpwJayjPyoJl9RguO1P34uyBkpWAehqkyEIb0uCVbtP4wn_IuiZadejkFtnpQ0Jwvb3iI4m_G35O
 
+sprite $MaterialsAirlineSeatIndividualSuiteMd [14x14/16z] dSV50S1G30BGEDJtdxPkv_-YI2DFBPXp1vUeN9Pz3eD5nRpabHQFqWYzKyI0NNydvuzBemq
+
 !function MaterialsAirlineSeatIndividualSuite($id, $name="Airline Seat Individual Suite", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatIndividualSuite', $name, $tech)
 !endfunction
 !function MaterialsAirlineSeatIndividualSuiteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAirlineSeatIndividualSuiteLg>', 'Airline Seat Individual Suite', $funcName, $content)
+  CloudCard($id, '<$MaterialsAirlineSeatIndividualSuiteMd>', 'Airline Seat Individual Suite', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Places/MaterialsAirportShuttle
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirportShuttle element
 include('elements/materials/Places/MaterialsAirportShuttle')
@@ -34,8 +34,8 @@ MaterialsAirportShuttle('element', 'Airport Shuttle', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirportShuttle element
 include('elements/materials/Places/MaterialsAirportShuttle')
@@ -53,8 +53,8 @@ MaterialsAirportShuttle('element', 'Airport Shuttle', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirportShuttle card
 include('elements/materials/Places/MaterialsAirportShuttle')
@@ -71,8 +71,8 @@ MaterialsAirportShuttleCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirportShuttle card
 include('elements/materials/Places/MaterialsAirportShuttle')

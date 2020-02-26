@@ -4,10 +4,12 @@ TP055eGm34IJnYlR-vzsSOU1sdzn-5PwGVKCKNIK_Kn4L71X7gjQpOutzo9uGccwSxaOII1W29o5ML57
 WyQEffsmC52b2V64vaiFywvp9RmbocOM6I-peRb5Fh4rlDdPRXrKWZSD
 }
 
+sprite $MaterialsTranslateMd [14x14/16z] POs50KD124CJ953TVzlskxuxt733SlCazKkf62F6I3xJrpBWXHKvoW0kjQu4yh64zNMmd_EaAfekrnmGRaeRMwcndyz7lm8B8N8_apOguiGV
+
 !function MaterialsTranslate($id, $name="Translate", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTranslate', $name, $tech)
 !endfunction
 !function MaterialsTranslateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTranslateLg>', 'Translate', $funcName, $content)
+  CloudCard($id, '<$MaterialsTranslateMd>', 'Translate', $funcName, $content)
 !endfunction
 @enduml

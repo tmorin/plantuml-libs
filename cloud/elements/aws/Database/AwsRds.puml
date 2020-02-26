@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsRdsLg [20x20/16z] {
-RSk7LGL134DHWXNiwRzVD9ZCVvllqKxgdzcU1_YFWY4MFpzHo3rMfS-jNckDHYyQmjhzDW6w7LbhTL7YgyDhZMkfB7YDdYv9iH5YPmrANtREvxye4ruxuzt1
-wbcRP2PtA8LezhoNENU7ydpar-gvHd3E6ekvdzla_D7vxASzm3S
-}
+sprite $AwsRdsLg [20x20/16z] fP253G0n30C50Rk__xvVPc5FP8NZy8Qf7L85BGRHceInA4Ov-cbcpZ0WA0QOi8Uf7cEH65EsUH_50HT-i15JZsYBNNiZQ7K84_Hso-NcwszN3zxu0G
+
+sprite $AwsRdsMd [14x14/16z] VOt50K0n349F0Lxtt_UxI-CAhIlIDKlCYMqAiGFhYLDsnMi3iWkyhfXtRCkibsbtb3l3Wxqh8m
 
 !function AwsRds($id, $name="Rds", $tech="")
   CloudElement($id, 'aws/Database/AwsRds', $name, $tech)
 !endfunction
 !function AwsRdsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsLg>', 'Rds', $funcName, $content)
+  CloudCard($id, '<$AwsRdsMd>', 'Rds', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSettingsOverscanLg [20x20/16z] ZP350S1G34AZrFSVj-vVtp4AK2riFvYudOOFKyiyEk-8y8wFpAFH3a0xzjJOdR-rcxl6JuNFchPybrgDrTAxTo6j9QevwYsMGIohMXO
 
+sprite $MaterialsSettingsOverscanMd [14x14/16z] NOw55O0m34JZil_2FA1s_PMu4CAoO9AkHOlbcw3w_caMhpHx_tYjnMkzMNysMdScTi49E1qtGnu
+
 !function MaterialsSettingsOverscan($id, $name="Settings Overscan", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsOverscan', $name, $tech)
 !endfunction
 !function MaterialsSettingsOverscanCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsOverscanLg>', 'Settings Overscan', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsOverscanMd>', 'Settings Overscan', $funcName, $content)
 !endfunction
 @enduml

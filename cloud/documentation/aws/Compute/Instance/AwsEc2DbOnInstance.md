@@ -16,7 +16,7 @@ elements/aws/Compute/Instance/AwsEc2DbOnInstance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2DbOnInstance element
@@ -34,7 +34,7 @@ AwsEc2DbOnInstance('element', 'Ec2 Db On Instance', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2DbOnInstance element
@@ -53,8 +53,8 @@ AwsEc2DbOnInstance('element', 'Ec2 Db On Instance', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2DbOnInstance card
 include('elements/aws/Compute/Instance/AwsEc2DbOnInstance')
@@ -71,8 +71,8 @@ AwsEc2DbOnInstanceCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2DbOnInstance card
 include('elements/aws/Compute/Instance/AwsEc2DbOnInstance')

@@ -4,10 +4,12 @@ TOq55iH024EHZCFh_M-x7LrFE_Q1XFw9FouScOBCkzGmMSbCB0W1mj4ZTvQl6qQlrIqABFN644OdiuHM
 5CCeTRQXsEYJsJwX-cf8T227cGN74z9IiWNZTI0dpr15zlJIgTdSBIlnlOvOXCT9l_K
 }
 
+sprite $MaterialsAlarmOffMd [14x14/16z] LKq54WD124lmdVx_lvq5AeThWgS8HMwctUX9ghjA1W4xGNFFihXRVILlElqGxd5Ro_jTlBzJG0gOjcH6jzqYjOc2YXzODl9bT5Ml3BJGCvrGuYbl
+
 !function MaterialsAlarmOff($id, $name="Alarm Off", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAlarmOff', $name, $tech)
 !endfunction
 !function MaterialsAlarmOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAlarmOffLg>', 'Alarm Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsAlarmOffMd>', 'Alarm Off', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFilterCenterFocusLg [20x20/16z] ZL230G0n4BiqUHVxJ_ksKvnf_-4aOM3GCsvIUTzu3XnxnezAUG8s0g3Ng6jWAz0ywi3fvsWYDdkHKW4xWAa77tNtiTSQ__kxpdQ_W-kk_gC3
 
+sprite $MaterialsFilterCenterFocusMd [14x14/16z] NKwr0S1020mELVQVzjrnvxw70B4wHAX9k45nvb4SEemPnvBPNB6wKST4gXrL-N-f_ixkoVlA_U7-VYDxA0C
+
 !function MaterialsFilterCenterFocus($id, $name="Filter Center Focus", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterCenterFocus', $name, $tech)
 !endfunction
 !function MaterialsFilterCenterFocusCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilterCenterFocusLg>', 'Filter Center Focus', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilterCenterFocusMd>', 'Filter Center Focus', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsBackspace
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBackspace element
 include('elements/materials/Content/MaterialsBackspace')
@@ -34,8 +34,8 @@ MaterialsBackspace('element', 'Backspace', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBackspace element
 include('elements/materials/Content/MaterialsBackspace')
@@ -53,8 +53,8 @@ MaterialsBackspace('element', 'Backspace', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBackspace card
 include('elements/materials/Content/MaterialsBackspace')
@@ -71,8 +71,8 @@ MaterialsBackspaceCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBackspace card
 include('elements/materials/Content/MaterialsBackspace')

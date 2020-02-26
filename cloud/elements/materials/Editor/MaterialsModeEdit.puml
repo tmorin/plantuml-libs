@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsModeEditLg [20x20/16z] jSk52S1050JHBxjnwR_Q27AAHMxm1oElSgs8sr2YZljU8DJ6VVLYl90PhVUe9UqRAbhPYhmcGQHeDOa2Bgyw0G
 
+sprite $MaterialsModeEditMd [14x14/16z] Oy01694vh5nCI3Ai_5oCS1aE9bPME8UFduCHYSF7IYA7YGV4GV1uW1m4bmcNMm4
+
 !function MaterialsModeEdit($id, $name="Mode Edit", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsModeEdit', $name, $tech)
 !endfunction
 !function MaterialsModeEditCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsModeEditLg>', 'Mode Edit', $funcName, $content)
+  CloudCard($id, '<$MaterialsModeEditMd>', 'Mode Edit', $funcName, $content)
 !endfunction
 @enduml

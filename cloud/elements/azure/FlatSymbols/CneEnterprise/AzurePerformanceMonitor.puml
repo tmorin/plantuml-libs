@@ -4,10 +4,15 @@ TShNWSKm24JH8SDO_RUxGVQ65tn_93XWb-kv0xjQNGznNK31GtM1kRdf_Zr238SiXOtX3wGOAc9D3qk8
 aE68qesAtGNUertLq0UeZb8egN3gpleR_3oB0BhpsArlG3VEdEPv5W2aLYi0YIE1ltIER7Or6O_xrO1bLyZJVXHluiqUfE9jdm
 }
 
+sprite $AzurePerformanceMonitorMd [18x14/16z] {
+NSc5aKL1449HskcQbt-yExRV3gKNJFwC3vYYzIKUJ9hX2gW0i050gY9OiqDEgS0K58_KLRoWjehBt2hfg1QlI4oxPAMJwgyIfJF7UaZs0qWR9gV51aHtcYKL
+LuwGg0h1LIFnRHH-_04
+}
+
 !function AzurePerformanceMonitor($id, $name="Performance Monitor", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePerformanceMonitor', $name, $tech)
 !endfunction
 !function AzurePerformanceMonitorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzurePerformanceMonitorLg>', 'Performance Monitor', $funcName, $content)
+  CloudCard($id, '<$AzurePerformanceMonitorMd>', 'Performance Monitor', $funcName, $content)
 !endfunction
 @enduml

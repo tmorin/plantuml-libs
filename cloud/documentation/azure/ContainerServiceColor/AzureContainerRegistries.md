@@ -16,8 +16,8 @@ elements/azure/ContainerServiceColor/AzureContainerRegistries
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContainerRegistries element
 include('elements/azure/ContainerServiceColor/AzureContainerRegistries')
@@ -34,8 +34,8 @@ AzureContainerRegistries('element', 'Container Registries', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContainerRegistries element
 include('elements/azure/ContainerServiceColor/AzureContainerRegistries')
@@ -53,8 +53,8 @@ AzureContainerRegistries('element', 'Container Registries', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContainerRegistries card
 include('elements/azure/ContainerServiceColor/AzureContainerRegistries')
@@ -71,8 +71,8 @@ AzureContainerRegistriesCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContainerRegistries card
 include('elements/azure/ContainerServiceColor/AzureContainerRegistries')

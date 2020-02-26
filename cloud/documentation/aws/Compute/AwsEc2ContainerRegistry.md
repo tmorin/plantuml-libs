@@ -16,7 +16,7 @@ elements/aws/Compute/AwsEc2ContainerRegistry
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistry element
@@ -34,7 +34,7 @@ AwsEc2ContainerRegistry('element', 'Ec2 Container Registry', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistry element
@@ -53,8 +53,8 @@ AwsEc2ContainerRegistry('element', 'Ec2 Container Registry', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistry card
 include('elements/aws/Compute/AwsEc2ContainerRegistry')
@@ -71,8 +71,8 @@ AwsEc2ContainerRegistryCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistry card
 include('elements/aws/Compute/AwsEc2ContainerRegistry')

@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsHeadsetMic
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadsetMic element
 include('elements/materials/Hardware/MaterialsHeadsetMic')
@@ -34,8 +34,8 @@ MaterialsHeadsetMic('element', 'Headset Mic', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadsetMic element
 include('elements/materials/Hardware/MaterialsHeadsetMic')
@@ -53,8 +53,8 @@ MaterialsHeadsetMic('element', 'Headset Mic', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadsetMic card
 include('elements/materials/Hardware/MaterialsHeadsetMic')
@@ -71,8 +71,8 @@ MaterialsHeadsetMicCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadsetMic card
 include('elements/materials/Hardware/MaterialsHeadsetMic')

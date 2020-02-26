@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupLogicalGroupingOfServices group
 include('groups/gcp/GcpGroupLogicalGroupingOfServices')
@@ -30,8 +30,8 @@ GcpGroupLogicalGroupingOfServices('element', 'Logical Grouping of Services', 'an
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupLogicalGroupingOfServices group
 include('groups/gcp/GcpGroupLogicalGroupingOfServices')

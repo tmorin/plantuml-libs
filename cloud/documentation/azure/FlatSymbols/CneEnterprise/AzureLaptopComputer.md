@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureLaptopComputer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLaptopComputer element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLaptopComputer')
@@ -34,8 +34,8 @@ AzureLaptopComputer('element', 'Laptop Computer', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLaptopComputer element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLaptopComputer')
@@ -53,8 +53,8 @@ AzureLaptopComputer('element', 'Laptop Computer', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLaptopComputer card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLaptopComputer')
@@ -71,8 +71,8 @@ AzureLaptopComputerCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLaptopComputer card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLaptopComputer')

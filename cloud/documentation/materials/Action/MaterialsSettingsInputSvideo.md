@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsInputSvideo
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputSvideo element
 include('elements/materials/Action/MaterialsSettingsInputSvideo')
@@ -34,8 +34,8 @@ MaterialsSettingsInputSvideo('element', 'Settings Input Svideo', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputSvideo element
 include('elements/materials/Action/MaterialsSettingsInputSvideo')
@@ -53,8 +53,8 @@ MaterialsSettingsInputSvideo('element', 'Settings Input Svideo', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputSvideo card
 include('elements/materials/Action/MaterialsSettingsInputSvideo')
@@ -71,8 +71,8 @@ MaterialsSettingsInputSvideoCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputSvideo card
 include('elements/materials/Action/MaterialsSettingsInputSvideo')

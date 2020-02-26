@@ -4,10 +4,12 @@ RSs5bSCm54JH1Gt5_VSRVSy9vvcl1NdaM_c2-OAND47WpOh6e58hWacqdDee5a1Y5MjS6pV1oROcY0Gp
 0k9_-VnXZ4qsiH8Ofnt7jcvaHzPOyLPIUyVQ6ru1
 }
 
+sprite $AwsDetectiveMd [14x14/16z] LStL0GDH24JH62Ea_tup4DkzJyyN_gJD9_R-0Bmr14Lu5E81vlWjrKHxPTAWKxS08aShkWTLMiabWa8Kec1YzEoa7SPekJawyGK
+
 !function AwsDetective($id, $name="Detective", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsDetective', $name, $tech)
 !endfunction
 !function AwsDetectiveCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDetectiveLg>', 'Detective', $funcName, $content)
+  CloudCard($id, '<$AwsDetectiveMd>', 'Detective', $funcName, $content)
 !endfunction
 @enduml

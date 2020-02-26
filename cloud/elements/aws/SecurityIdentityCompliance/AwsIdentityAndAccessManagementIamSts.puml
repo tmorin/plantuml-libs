@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsIdentityAndAccessManagementIamStsLg [20x20/16z] fOzL0W1124914Uz_uktUptcJjc84_e3Q7reIm0ZYGWj8B-HBbmw05fBCG-VKycMxbssjkdBL6Xa91gBgeMDio4UirjZQuLw3UurVBy9Bz-_vFvl07nXX1W
 
+sprite $AwsIdentityAndAccessManagementIamStsMd [14x14/16z] VSt70SC024DHXBxs7pbnx_OxqQaFwWC5WsSaQa3pN82kZZ5IHgxs8AmPKyOosHebyk7A-SFvUttu0m
+
 !function AwsIdentityAndAccessManagementIamSts($id, $name="Identity And Access Management Iam Sts", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamSts', $name, $tech)
 !endfunction
 !function AwsIdentityAndAccessManagementIamStsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIdentityAndAccessManagementIamStsLg>', 'Identity And Access Management Iam Sts', $funcName, $content)
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamStsMd>', 'Identity And Access Management Iam Sts', $funcName, $content)
 !endfunction
 @enduml

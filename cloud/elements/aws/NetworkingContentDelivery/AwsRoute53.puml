@@ -4,10 +4,12 @@ fOorWGC10CCgox3_lW_9KNyg3TfRdCtUuZkI41BI6KRcHBbdTc8_XiBhrXdj032908wemj3AHZryg3Mr
 XIDunoy
 }
 
+sprite $AwsRoute53Md [14x14/16z] XOt50G0X40DVHEY_NrRVTuEk9VSRqSoj2R1qI81ItHKv0pj3RmG96_M_5Yi2hCH0rywe7Ax56YpbVly8
+
 !function AwsRoute53($id, $name="Route53", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsRoute53', $name, $tech)
 !endfunction
 !function AwsRoute53Card($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRoute53Lg>', 'Route53', $funcName, $content)
+  CloudCard($id, '<$AwsRoute53Md>', 'Route53', $funcName, $content)
 !endfunction
 @enduml

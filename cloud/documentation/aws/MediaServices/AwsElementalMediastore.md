@@ -16,7 +16,7 @@ elements/aws/MediaServices/AwsElementalMediastore
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElementalMediastore element
@@ -34,7 +34,7 @@ AwsElementalMediastore('element', 'Elemental Mediastore', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElementalMediastore element
@@ -53,8 +53,8 @@ AwsElementalMediastore('element', 'Elemental Mediastore', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElementalMediastore card
 include('elements/aws/MediaServices/AwsElementalMediastore')
@@ -71,8 +71,8 @@ AwsElementalMediastoreCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElementalMediastore card
 include('elements/aws/MediaServices/AwsElementalMediastore')

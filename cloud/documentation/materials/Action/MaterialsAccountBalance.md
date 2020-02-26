@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAccountBalance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalance element
 include('elements/materials/Action/MaterialsAccountBalance')
@@ -34,8 +34,8 @@ MaterialsAccountBalance('element', 'Account Balance', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalance element
 include('elements/materials/Action/MaterialsAccountBalance')
@@ -53,8 +53,8 @@ MaterialsAccountBalance('element', 'Account Balance', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalance card
 include('elements/materials/Action/MaterialsAccountBalance')
@@ -71,8 +71,8 @@ MaterialsAccountBalanceCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalance card
 include('elements/materials/Action/MaterialsAccountBalance')

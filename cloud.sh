@@ -5,7 +5,7 @@ export LIB_BRANCH="master"
 
 . lib.sh
 
-cleanGeneratedResources
+#cleanGeneratedResources
 
 setConstants
 

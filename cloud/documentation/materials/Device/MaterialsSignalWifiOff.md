@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalWifiOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifiOff element
 include('elements/materials/Device/MaterialsSignalWifiOff')
@@ -34,8 +34,8 @@ MaterialsSignalWifiOff('element', 'Signal Wifi Off', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifiOff element
 include('elements/materials/Device/MaterialsSignalWifiOff')
@@ -53,8 +53,8 @@ MaterialsSignalWifiOff('element', 'Signal Wifi Off', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifiOff card
 include('elements/materials/Device/MaterialsSignalWifiOff')
@@ -71,8 +71,8 @@ MaterialsSignalWifiOffCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifiOff card
 include('elements/materials/Device/MaterialsSignalWifiOff')

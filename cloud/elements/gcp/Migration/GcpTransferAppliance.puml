@@ -4,10 +4,12 @@ RP250S0m20I3FlilN8dRjJ4SKeOggSFUuIeYZuvNKuq9BMQOPSY65Wls9y0gmvV6ymKcFx-FbmGkPi8V
 PmNQPWhqcHwpVm4
 }
 
+sprite $GcpTransferApplianceMd [14x14/16z] JOw50S0W40FpdlqNRd4uz3q0n0RIlit86kGmdGjlXXONfK2CJuCCMB4oJRL_sc5wJ8irBL_Mcqb3y93l1EexFQuoieQoL_KF
+
 !function GcpTransferAppliance($id, $name="Transfer Appliance", $tech="")
   CloudElement($id, 'gcp/Migration/GcpTransferAppliance', $name, $tech)
 !endfunction
 !function GcpTransferApplianceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpTransferApplianceLg>', 'Transfer Appliance', $funcName, $content)
+  CloudCard($id, '<$GcpTransferApplianceMd>', 'Transfer Appliance', $funcName, $content)
 !endfunction
 @enduml

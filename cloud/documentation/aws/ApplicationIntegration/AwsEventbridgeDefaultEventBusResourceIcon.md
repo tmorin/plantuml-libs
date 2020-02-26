@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsEventbridgeDefaultEventBusResourceIcon
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEventbridgeDefaultEventBusResourceIcon element
@@ -34,7 +34,7 @@ AwsEventbridgeDefaultEventBusResourceIcon('element', 'Eventbridge Default Event 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEventbridgeDefaultEventBusResourceIcon element
@@ -53,8 +53,8 @@ AwsEventbridgeDefaultEventBusResourceIcon('element', 'Eventbridge Default Event 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEventbridgeDefaultEventBusResourceIcon card
 include('elements/aws/ApplicationIntegration/AwsEventbridgeDefaultEventBusResourceIcon')
@@ -71,8 +71,8 @@ AwsEventbridgeDefaultEventBusResourceIconCard('card', 'an optional functional na
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEventbridgeDefaultEventBusResourceIcon card
 include('elements/aws/ApplicationIntegration/AwsEventbridgeDefaultEventBusResourceIcon')

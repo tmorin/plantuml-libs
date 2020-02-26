@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsEventbridgeSaasPartnerEventBusResourceIco
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEventbridgeSaasPartnerEventBusResourceIcon element
@@ -34,7 +34,7 @@ AwsEventbridgeSaasPartnerEventBusResourceIcon('element', 'Eventbridge Saas Partn
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEventbridgeSaasPartnerEventBusResourceIcon element
@@ -53,8 +53,8 @@ AwsEventbridgeSaasPartnerEventBusResourceIcon('element', 'Eventbridge Saas Partn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEventbridgeSaasPartnerEventBusResourceIcon card
 include('elements/aws/ApplicationIntegration/AwsEventbridgeSaasPartnerEventBusResourceIcon')
@@ -71,8 +71,8 @@ AwsEventbridgeSaasPartnerEventBusResourceIconCard('card', 'an optional functiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEventbridgeSaasPartnerEventBusResourceIcon card
 include('elements/aws/ApplicationIntegration/AwsEventbridgeSaasPartnerEventBusResourceIcon')

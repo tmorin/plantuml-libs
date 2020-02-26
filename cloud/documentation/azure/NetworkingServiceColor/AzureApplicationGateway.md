@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureApplicationGateway
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationGateway element
 include('elements/azure/NetworkingServiceColor/AzureApplicationGateway')
@@ -34,8 +34,8 @@ AzureApplicationGateway('element', 'Application Gateway', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationGateway element
 include('elements/azure/NetworkingServiceColor/AzureApplicationGateway')
@@ -53,8 +53,8 @@ AzureApplicationGateway('element', 'Application Gateway', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationGateway card
 include('elements/azure/NetworkingServiceColor/AzureApplicationGateway')
@@ -71,8 +71,8 @@ AzureApplicationGatewayCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationGateway card
 include('elements/azure/NetworkingServiceColor/AzureApplicationGateway')

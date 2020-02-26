@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsKeyboardCapslock
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardCapslock element
 include('elements/materials/Hardware/MaterialsKeyboardCapslock')
@@ -34,8 +34,8 @@ MaterialsKeyboardCapslock('element', 'Keyboard Capslock', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardCapslock element
 include('elements/materials/Hardware/MaterialsKeyboardCapslock')
@@ -53,8 +53,8 @@ MaterialsKeyboardCapslock('element', 'Keyboard Capslock', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardCapslock card
 include('elements/materials/Hardware/MaterialsKeyboardCapslock')
@@ -71,8 +71,8 @@ MaterialsKeyboardCapslockCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardCapslock card
 include('elements/materials/Hardware/MaterialsKeyboardCapslock')

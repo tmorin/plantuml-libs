@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpCloudCodeForIntellij
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudCodeForIntellij element
 include('elements/gcp/DeveloperTools/GcpCloudCodeForIntellij')
@@ -34,8 +34,8 @@ GcpCloudCodeForIntellij('element', 'Cloud Code For Intellij', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudCodeForIntellij element
 include('elements/gcp/DeveloperTools/GcpCloudCodeForIntellij')
@@ -53,7 +53,7 @@ GcpCloudCodeForIntellij('element', 'Cloud Code For Intellij', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudCodeForIntellij card
@@ -71,7 +71,7 @@ GcpCloudCodeForIntellijCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudCodeForIntellij card

@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsPanoramaFishEye
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaFishEye element
 include('elements/materials/Image/MaterialsPanoramaFishEye')
@@ -34,8 +34,8 @@ MaterialsPanoramaFishEye('element', 'Panorama Fish Eye', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaFishEye element
 include('elements/materials/Image/MaterialsPanoramaFishEye')
@@ -53,8 +53,8 @@ MaterialsPanoramaFishEye('element', 'Panorama Fish Eye', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaFishEye card
 include('elements/materials/Image/MaterialsPanoramaFishEye')
@@ -71,8 +71,8 @@ MaterialsPanoramaFishEyeCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaFishEye card
 include('elements/materials/Image/MaterialsPanoramaFishEye')

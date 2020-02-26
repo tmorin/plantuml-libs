@@ -16,7 +16,7 @@ elements/aws/DeveloperTools/AwsCloud9
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloud9 element
@@ -34,7 +34,7 @@ AwsCloud9('element', 'Cloud9', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloud9 element
@@ -53,8 +53,8 @@ AwsCloud9('element', 'Cloud9', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloud9 card
 include('elements/aws/DeveloperTools/AwsCloud9')
@@ -71,8 +71,8 @@ AwsCloud9Card('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloud9 card
 include('elements/aws/DeveloperTools/AwsCloud9')

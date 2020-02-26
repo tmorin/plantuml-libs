@@ -4,10 +4,12 @@ fOw50GCX40JFSUY_st34FVaVR1aK_eO9Y2ypLCz9GTF5sMXJMaIkTE-eA8Q49uUoxf62LEHo_N9K2AAU
 SWLnFXSZYAVzhefKuvJOFBd3sDiDFQ9_cUvmzO83
 }
 
+sprite $MaterialsHotTubMd [14x14/16z] ROo50GDH24Dng-s_RLCzVL-197G64_FdfqQKxFPfzvN9NPF_Cou9-rIEhh6yAvv78GIWYBdURzDW0cajfH7QsecgaE0kU8xLM5icha6b-KTfonC
+
 !function MaterialsHotTub($id, $name="Hot Tub", $tech="")
   CloudElement($id, 'materials/Places/MaterialsHotTub', $name, $tech)
 !endfunction
 !function MaterialsHotTubCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHotTubLg>', 'Hot Tub', $funcName, $content)
+  CloudCard($id, '<$MaterialsHotTubMd>', 'Hot Tub', $funcName, $content)
 !endfunction
 @enduml

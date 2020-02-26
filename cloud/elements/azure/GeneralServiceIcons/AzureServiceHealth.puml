@@ -4,10 +4,12 @@ XSY5RG1140J1tO7FFsGVwM_CBMfLLK4Zr8n-xBFQTRMUbK8bUDfsw6tfBZJP_p5-OhEOZECe1BCeZzZe
 BlfgU6YwGyCT6cw5XeT-
 }
 
+sprite $AzureServiceHealthMd [16x14/16z] BSZ13G0m3C90IY3xZzm8SJyR64a4wBLUyd2yHsyKzeQgkLQCjdIiDqrJX-aa7e_e6UyEWAT3oau2b3opc-oGayLcT3IBJNm
+
 !function AzureServiceHealth($id, $name="Service Health", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureServiceHealth', $name, $tech)
 !endfunction
 !function AzureServiceHealthCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServiceHealthLg>', 'Service Health', $funcName, $content)
+  CloudCard($id, '<$AzureServiceHealthMd>', 'Service Health', $funcName, $content)
 !endfunction
 @enduml

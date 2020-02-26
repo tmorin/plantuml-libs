@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceCatalogManagedApplicationDefinitions element
 include('elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions')
@@ -34,8 +34,8 @@ AzureServiceCatalogManagedApplicationDefinitions('element', 'Service Catalog Man
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceCatalogManagedApplicationDefinitions element
 include('elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions')
@@ -53,8 +53,8 @@ AzureServiceCatalogManagedApplicationDefinitions('element', 'Service Catalog Man
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceCatalogManagedApplicationDefinitions card
 include('elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions')
@@ -71,8 +71,8 @@ AzureServiceCatalogManagedApplicationDefinitionsCard('card', 'an optional functi
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceCatalogManagedApplicationDefinitions card
 include('elements/azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions')

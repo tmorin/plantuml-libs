@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsRotate90DegreesCcw
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotate90DegreesCcw element
 include('elements/materials/Image/MaterialsRotate90DegreesCcw')
@@ -34,8 +34,8 @@ MaterialsRotate90DegreesCcw('element', 'Rotate90 Degrees Ccw', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotate90DegreesCcw element
 include('elements/materials/Image/MaterialsRotate90DegreesCcw')
@@ -53,8 +53,8 @@ MaterialsRotate90DegreesCcw('element', 'Rotate90 Degrees Ccw', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotate90DegreesCcw card
 include('elements/materials/Image/MaterialsRotate90DegreesCcw')
@@ -71,8 +71,8 @@ MaterialsRotate90DegreesCcwCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotate90DegreesCcw card
 include('elements/materials/Image/MaterialsRotate90DegreesCcw')

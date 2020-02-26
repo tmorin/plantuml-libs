@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsCommandLineInterfaceLg [20x20/16z] bT350O0m44JHq-u8_TUBndFYum-FVtGC5IA6-5ba9ak8RYWrQz0jdzUKjpcBwPc_r4sXpSpO3Mb9ept4pEHez5Stz_zqiG3VP0inZy5hdCVgtVMFBW
+sprite $AwsCommandLineInterfaceLg [20x20/16z] {
+VSs54KGX34NHjNZ__UuZt_0xnXmWSMHrgkeJXFHSJBXAW30Y7C_ujp6McovZU_OetSOwcbBYQP46D4zDYpHXArK6maiYVGnV_QYoYCw2H3C32NOLKpc2AGiU
+nvtVZJH_zmS
+}
+
+sprite $AwsCommandLineInterfaceMd [14x14/16z] LSjL0i0W30JHhsOtm_tFYwOs5NW8a7SsFu8Yf9Wf4zQukxPqYYsHvt8SMRVQ5E79MvObtyfrxfnioZM78sjcaA3jsDswEG
 
 !function AwsCommandLineInterface($id, $name="Command Line Interface", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCommandLineInterface', $name, $tech)
 !endfunction
 !function AwsCommandLineInterfaceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCommandLineInterfaceLg>', 'Command Line Interface', $funcName, $content)
+  CloudCard($id, '<$AwsCommandLineInterfaceMd>', 'Command Line Interface', $funcName, $content)
 !endfunction
 @enduml

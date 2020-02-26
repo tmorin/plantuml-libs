@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureIntegrationAccounts
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntegrationAccounts element
 include('elements/azure/IntegrationServiceColor/AzureIntegrationAccounts')
@@ -34,8 +34,8 @@ AzureIntegrationAccounts('element', 'Integration Accounts', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntegrationAccounts element
 include('elements/azure/IntegrationServiceColor/AzureIntegrationAccounts')
@@ -53,8 +53,8 @@ AzureIntegrationAccounts('element', 'Integration Accounts', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntegrationAccounts card
 include('elements/azure/IntegrationServiceColor/AzureIntegrationAccounts')
@@ -71,8 +71,8 @@ AzureIntegrationAccountsCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntegrationAccounts card
 include('elements/azure/IntegrationServiceColor/AzureIntegrationAccounts')

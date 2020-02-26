@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureHomeLg [25x20/16z] jSv16a1034FXcLQJ-zzODg3DLbQ-zsDcFOlQooqA4jj1J0bebFWkYTd18Oa7oEWTR99emBpx0uya34Yogdg7blDIFEnjjMnG6XniFOM1-WzE
 
+sprite $AzureHomeMd [17x14/16z] ZSi54e0m44FHhj__ndmqC4gzBvDr3YzRxs7Lf-W_quZ-0A8_877-m2bt3jn2Ba3SFLJ92ASas7ydb7jyWQl_mWO
+
 !function AzureHome($id, $name="Home", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureHome', $name, $tech)
 !endfunction
 !function AzureHomeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHomeLg>', 'Home', $funcName, $content)
+  CloudCard($id, '<$AzureHomeMd>', 'Home', $funcName, $content)
 !endfunction
 @enduml

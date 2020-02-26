@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsCloudMap
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudMap element
@@ -34,7 +34,7 @@ AwsCloudMap('element', 'Cloud Map', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudMap element
@@ -53,8 +53,8 @@ AwsCloudMap('element', 'Cloud Map', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudMap card
 include('elements/aws/NetworkingContentDelivery/AwsCloudMap')
@@ -71,8 +71,8 @@ AwsCloudMapCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudMap card
 include('elements/aws/NetworkingContentDelivery/AwsCloudMap')

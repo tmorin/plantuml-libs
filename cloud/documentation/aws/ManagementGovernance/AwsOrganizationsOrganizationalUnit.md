@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsOrganizationsOrganizationalUnit
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOrganizationsOrganizationalUnit element
@@ -34,7 +34,7 @@ AwsOrganizationsOrganizationalUnit('element', 'Organizations Organizational Unit
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOrganizationsOrganizationalUnit element
@@ -53,8 +53,8 @@ AwsOrganizationsOrganizationalUnit('element', 'Organizations Organizational Unit
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOrganizationsOrganizationalUnit card
 include('elements/aws/ManagementGovernance/AwsOrganizationsOrganizationalUnit')
@@ -71,8 +71,8 @@ AwsOrganizationsOrganizationalUnitCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOrganizationsOrganizationalUnit card
 include('elements/aws/ManagementGovernance/AwsOrganizationsOrganizationalUnit')

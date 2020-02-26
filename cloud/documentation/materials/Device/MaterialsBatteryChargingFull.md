@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsBatteryChargingFull
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryChargingFull element
 include('elements/materials/Device/MaterialsBatteryChargingFull')
@@ -34,8 +34,8 @@ MaterialsBatteryChargingFull('element', 'Battery Charging Full', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryChargingFull element
 include('elements/materials/Device/MaterialsBatteryChargingFull')
@@ -53,8 +53,8 @@ MaterialsBatteryChargingFull('element', 'Battery Charging Full', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryChargingFull card
 include('elements/materials/Device/MaterialsBatteryChargingFull')
@@ -71,8 +71,8 @@ MaterialsBatteryChargingFullCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryChargingFull card
 include('elements/materials/Device/MaterialsBatteryChargingFull')

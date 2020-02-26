@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureStoredProcedures
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStoredProcedures element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureStoredProcedures')
@@ -34,8 +34,8 @@ AzureStoredProcedures('element', 'Stored Procedures', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStoredProcedures element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureStoredProcedures')
@@ -53,8 +53,8 @@ AzureStoredProcedures('element', 'Stored Procedures', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStoredProcedures card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureStoredProcedures')
@@ -71,8 +71,8 @@ AzureStoredProceduresCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStoredProcedures card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureStoredProcedures')

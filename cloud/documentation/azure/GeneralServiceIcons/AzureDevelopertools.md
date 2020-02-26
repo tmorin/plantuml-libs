@@ -16,8 +16,8 @@ elements/azure/GeneralServiceIcons/AzureDevelopertools
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDevelopertools element
 include('elements/azure/GeneralServiceIcons/AzureDevelopertools')
@@ -34,8 +34,8 @@ AzureDevelopertools('element', 'Developertools', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDevelopertools element
 include('elements/azure/GeneralServiceIcons/AzureDevelopertools')
@@ -53,8 +53,8 @@ AzureDevelopertools('element', 'Developertools', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDevelopertools card
 include('elements/azure/GeneralServiceIcons/AzureDevelopertools')
@@ -71,8 +71,8 @@ AzureDevelopertoolsCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDevelopertools card
 include('elements/azure/GeneralServiceIcons/AzureDevelopertools')

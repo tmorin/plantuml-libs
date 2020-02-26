@@ -4,10 +4,12 @@ hP25WG0W24K_Y6BUst_Qw-vIka5_V1wr5djXoGDSZFBCD67bW1EIJ3Ap3bJvlcLbkbeBOBlKWLIbQCG0
 NS5jboGKKDJPDydd5CLnMIVRWTxM3fVCxsU-VIS-tUtf1l_ohW
 }
 
+sprite $MaterialsWbAutoMd [14x14/16z] XOtL0KKn24EBmwra_scVkvul9D9-GchArqKsz3dil717aW7UZCa2CEA1uZAnWS7AYQ7kBWFPc1Ihn9C2og7SqKaFznw5xjsu4PqQW6alxN_P0m
+
 !function MaterialsWbAuto($id, $name="Wb Auto", $tech="")
   CloudElement($id, 'materials/Image/MaterialsWbAuto', $name, $tech)
 !endfunction
 !function MaterialsWbAutoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWbAutoLg>', 'Wb Auto', $funcName, $content)
+  CloudCard($id, '<$MaterialsWbAutoMd>', 'Wb Auto', $funcName, $content)
 !endfunction
 @enduml

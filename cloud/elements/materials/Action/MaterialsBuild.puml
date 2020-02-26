@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBuildLg [20x20/16z] jSj73iH044BHhjHH9Uv_sv6ppNx-yWdAbeWKokSQGIeTm5321g2zZd8kynxAx7A-uxQ59jBmiG7qZYqlLu6pStSEp_91RScuQOH74cxz3OSmObcXOcn4RSSV
 
+sprite $MaterialsBuildMd [14x14/16z] XSa52WH14CNGr6_QxVwdtHqNR88-0iY9EpzQU75wjkJ1yYosoGrlowkxr4Rkyto4kJOyUxxKqc-QcHytbpxPz63pF1By0G
+
 !function MaterialsBuild($id, $name="Build", $tech="")
   CloudElement($id, 'materials/Action/MaterialsBuild', $name, $tech)
 !endfunction
 !function MaterialsBuildCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBuildLg>', 'Build', $funcName, $content)
+  CloudCard($id, '<$MaterialsBuildMd>', 'Build', $funcName, $content)
 !endfunction
 @enduml

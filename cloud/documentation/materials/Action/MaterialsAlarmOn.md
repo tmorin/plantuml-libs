@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAlarmOn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAlarmOn element
 include('elements/materials/Action/MaterialsAlarmOn')
@@ -34,8 +34,8 @@ MaterialsAlarmOn('element', 'Alarm On', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAlarmOn element
 include('elements/materials/Action/MaterialsAlarmOn')
@@ -53,8 +53,8 @@ MaterialsAlarmOn('element', 'Alarm On', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAlarmOn card
 include('elements/materials/Action/MaterialsAlarmOn')
@@ -71,8 +71,8 @@ MaterialsAlarmOnCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAlarmOn card
 include('elements/materials/Action/MaterialsAlarmOn')

@@ -4,10 +4,12 @@ bSq54aKX241HoXRT_sf_mYkdl5FCCO3TH5PIbOLISZm9qV4aW1kovWzzC2iROIdud7ZuwJc6XcxOWXkJ
 Wh3L6m
 }
 
+sprite $MaterialsOpacityMd [14x14/16z] RKu50W0G39nk_lzQtPoyO8CF4De8LWflXB5C9m6OL6QIgQo4j0CagMAsricqgD2L4HygFAaHqPY02YHyTiHiXp16u4K2
+
 !function MaterialsOpacity($id, $name="Opacity", $tech="")
   CloudElement($id, 'materials/Action/MaterialsOpacity', $name, $tech)
 !endfunction
 !function MaterialsOpacityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsOpacityLg>', 'Opacity', $funcName, $content)
+  CloudCard($id, '<$MaterialsOpacityMd>', 'Opacity', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ RL25TGKW3Cpb1Bh_mdr8-nNYdjHvJObTJu-99IUi--3qZOvnJ17-CvGjMptwOVIkLHo3iezZrKmNPvgq
 aK69Nd6ykVtZCbSFwB-UzY1x5ZtwTkxCKtByFtDPd099_EzMYFlv1jzkzVsctsx_2m
 }
 
+sprite $AwsVpcNatGatewayMd [14x14/16z] LOw7WGGW408N7Fp-EtxnyXWtCmSJy5m4bWogaJKNvvWuaLsJxhszqZICPpL3excrGShIJgsJkTZXxpnuyCt4nZIprjIDSr9oBDFfqMVwZx9Y2Exl7m
+
 !function AwsVpcNatGateway($id, $name="Vpc Nat Gateway", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcNatGateway', $name, $tech)
 !endfunction
 !function AwsVpcNatGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsVpcNatGatewayLg>', 'Vpc Nat Gateway', $funcName, $content)
+  CloudCard($id, '<$AwsVpcNatGatewayMd>', 'Vpc Nat Gateway', $funcName, $content)
 !endfunction
 @enduml

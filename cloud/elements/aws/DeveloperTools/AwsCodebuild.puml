@@ -4,10 +4,12 @@ hSq73a8n30DGwJTsud3_-s91XuGMozslgp_9RMS9a6G-MauI0cEa6pceQTTb6C0r465nE29HafZkUc8X
 4JLj_Y78udREXVXCJeiez4i8il-KEm
 }
 
+sprite $AwsCodebuildMd [14x14/16z] ZSd50SC030J1a7PFIl_rXkaJs_Cwc4M0ehcNhkFfoSTtX0JoF8Npw3mqODtuQATeOfwjKC5d4mm_N-Ucvwx8R705
+
 !function AwsCodebuild($id, $name="Codebuild", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodebuild', $name, $tech)
 !endfunction
 !function AwsCodebuildCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCodebuildLg>', 'Codebuild', $funcName, $content)
+  CloudCard($id, '<$AwsCodebuildMd>', 'Codebuild', $funcName, $content)
 !endfunction
 @enduml

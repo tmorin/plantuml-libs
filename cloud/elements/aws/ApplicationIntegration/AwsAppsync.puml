@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsAppsyncLg [20x20/16z] {
-hL350GC13Ae40ko_R_LSNYtF29O_m9BN4n4ak1gXdTYhaHCf2Kh3Z9suol4TmwtXSQPn9YHfifDGmumnoovwcXdgAg1AcNxhBhRTj9XX1cJwo0mxiLQZD4XG
-9ntyY2S
+RSjP5eH034BHZoG5bFlVRnFRMP_pzQ0jNj87wknb11x6SZascqr8yBATHXRja9Wvsepr_wGOoTraYx2XDcFRS59FDfiQIMRnCByWeoeICckr3FRG5qfktLR_
+SInkDZSH2heOoWtgQbDisEpQPii7BX_u0m
 }
+
+sprite $AwsAppsyncMd [14x14/16z] LSY70SCm30F1DF81P_zz3NVfLO_UqvdF1WcurGszQmcmPFs85hLTPKwHGSdWNQhkdquLKQbbH-tS9a_U13I-P4dUTRNhFt45
 
 !function AwsAppsync($id, $name="Appsync", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsAppsync', $name, $tech)
 !endfunction
 !function AwsAppsyncCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAppsyncLg>', 'Appsync', $funcName, $content)
+  CloudCard($id, '<$AwsAppsyncMd>', 'Appsync', $funcName, $content)
 !endfunction
 @enduml

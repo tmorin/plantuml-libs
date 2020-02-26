@@ -4,10 +4,12 @@ lSYr5SDG5C3G3uyXtd_RcBcsAfrRjW2sEoW27eJW1tOa8iVHVHpi8pLtDOCo1chgtaRBNaxrdAsLjZNk
 1m
 }
 
+sprite $MaterialsFilterFramesMd [14x14/16z] bSSv0WCX30D0oTXMgl3_r-RWfjpf1eq7Dd_9qLXaYbHc6A1q9q3tr6z6QsXjNjy_rUUQnwCtR0iRuhUYfU3s1G
+
 !function MaterialsFilterFrames($id, $name="Filter Frames", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterFrames', $name, $tech)
 !endfunction
 !function MaterialsFilterFramesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilterFramesLg>', 'Filter Frames', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilterFramesMd>', 'Filter Frames', $funcName, $content)
 !endfunction
 @enduml

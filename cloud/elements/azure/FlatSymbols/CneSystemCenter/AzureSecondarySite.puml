@@ -4,10 +4,12 @@ TOy54e0m30GfTo7s__yINBjeTw9DfWqE6upS26n2mbSYU0ZbWbtYu1AvqedeYrTAHe6RK09eLvU0segg
 JhOTi6AaNWSopW
 }
 
+sprite $AzureSecondarySiteMd [12x14/16z] NSP50GC140ImPHh_UjjZoYkQ6wP5JdVFwFOEzpW-c_tu78zF7qUvkwe8By-iHOJdb2kjsBBJzjFok3yTvotJ3le7
+
 !function AzureSecondarySite($id, $name="Secondary Site", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureSecondarySite', $name, $tech)
 !endfunction
 !function AzureSecondarySiteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSecondarySiteLg>', 'Secondary Site', $funcName, $content)
+  CloudCard($id, '<$AzureSecondarySiteMd>', 'Secondary Site', $funcName, $content)
 !endfunction
 @enduml

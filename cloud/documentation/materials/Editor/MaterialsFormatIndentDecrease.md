@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatIndentDecrease
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatIndentDecrease element
 include('elements/materials/Editor/MaterialsFormatIndentDecrease')
@@ -34,8 +34,8 @@ MaterialsFormatIndentDecrease('element', 'Format Indent Decrease', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatIndentDecrease element
 include('elements/materials/Editor/MaterialsFormatIndentDecrease')
@@ -53,8 +53,8 @@ MaterialsFormatIndentDecrease('element', 'Format Indent Decrease', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatIndentDecrease card
 include('elements/materials/Editor/MaterialsFormatIndentDecrease')
@@ -71,8 +71,8 @@ MaterialsFormatIndentDecreaseCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatIndentDecrease card
 include('elements/materials/Editor/MaterialsFormatIndentDecrease')

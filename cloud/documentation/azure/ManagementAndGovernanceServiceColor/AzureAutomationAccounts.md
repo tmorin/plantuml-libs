@@ -16,8 +16,8 @@ elements/azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAutomationAccounts element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts')
@@ -34,8 +34,8 @@ AzureAutomationAccounts('element', 'Automation Accounts', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAutomationAccounts element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts')
@@ -53,8 +53,8 @@ AzureAutomationAccounts('element', 'Automation Accounts', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAutomationAccounts card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts')
@@ -71,8 +71,8 @@ AzureAutomationAccountsCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAutomationAccounts card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts')

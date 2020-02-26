@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsElasticBlockStoreEbsLg [20x20/16z] hT2r0OH040NGa_dMVy6uGxQyR6KqRL3CWeLCwgyizA_bKN14AeQOXLsKM7Ps-eF4acCXMZ8lTncyTcU30oozR3rBIyyFiptke4qF
+sprite $AwsElasticBlockStoreEbsLg [20x20/16z] {
+RSXN5a8n24NH3-2Mp7_0XeNwwabbkzCvqYyuTCKjbVWXeiOow4vjCGQMH81I0csTc0LKKjsO6RKBZAqnY5J1OskiR_njlTdw6-snxZ3_p2e0bP9bjL5bSsSL
+8RTbzEsEaVlU4v8_GrRRF_zRHuUzu0S
+}
+
+sprite $AwsElasticBlockStoreEbsMd [14x14/16z] LSe53iHG203H63BS_y2BRjlv-XB8_BB2Gn0PYengveIRg4gwHKjBKR8-fVWeMr42LrCrTrAgK3yHfrK3Y41CJF7X3m
 
 !function AwsElasticBlockStoreEbs($id, $name="Elastic Block Store Ebs", $tech="")
   CloudElement($id, 'aws/Storage/AwsElasticBlockStoreEbs', $name, $tech)
 !endfunction
 !function AwsElasticBlockStoreEbsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElasticBlockStoreEbsLg>', 'Elastic Block Store Ebs', $funcName, $content)
+  CloudCard($id, '<$AwsElasticBlockStoreEbsMd>', 'Elastic Block Store Ebs', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTerrainLg [20x20/16z] lSp50G9100F0PDtJVxNuwJw1cm86rtB4cUq19wPeE6n8C4cg1Wlc01OzvBKCwlRHwM4ftP2AWPUqbARg8T4EBIMpNdAJbjBd4mzmWb-x0m
 
+sprite $MaterialsTerrainMd [14x14/16z] bOl50OC034NZBVhsdnQt8yJpHJw7Ff_yFnxloVCCAHXyUwpjpLfeRVt-q6W2gtNTDDqwKzJZ3fNNCGC
+
 !function MaterialsTerrain($id, $name="Terrain", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTerrain', $name, $tech)
 !endfunction
 !function MaterialsTerrainCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTerrainLg>', 'Terrain', $funcName, $content)
+  CloudCard($id, '<$MaterialsTerrainMd>', 'Terrain', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ RP250GCn24M1Bzb_uyRglBiO3h6eg9pC8rueLK3D8oxKc9-z3ruHFZX28Jw08ae3KRnKOAWYXUrERaSe
 jRGrDxqrC-XcrS-qc_q3
 }
 
+sprite $AwsIotMedicalEmergencyMd [14x14/16z] NOx70GC13C90Xlr7JgutlLm1IHZ0Q8McILFM9Xm4KRHVYkBWJZ8rCOLHgu7Ymgu2jNDrdyklojlXvVv9zaxz1m
+
 !function AwsIotMedicalEmergency($id, $name="Iot Medical Emergency", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotMedicalEmergency', $name, $tech)
 !endfunction
 !function AwsIotMedicalEmergencyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotMedicalEmergencyLg>', 'Iot Medical Emergency', $funcName, $content)
+  CloudCard($id, '<$AwsIotMedicalEmergencyMd>', 'Iot Medical Emergency', $funcName, $content)
 !endfunction
 @enduml

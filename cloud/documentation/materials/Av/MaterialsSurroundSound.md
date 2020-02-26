@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsSurroundSound
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSurroundSound element
 include('elements/materials/Av/MaterialsSurroundSound')
@@ -34,8 +34,8 @@ MaterialsSurroundSound('element', 'Surround Sound', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSurroundSound element
 include('elements/materials/Av/MaterialsSurroundSound')
@@ -53,8 +53,8 @@ MaterialsSurroundSound('element', 'Surround Sound', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSurroundSound card
 include('elements/materials/Av/MaterialsSurroundSound')
@@ -71,8 +71,8 @@ MaterialsSurroundSoundCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSurroundSound card
 include('elements/materials/Av/MaterialsSurroundSound')

@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalInfrastructure1stParty group
 include('groups/gcp/GcpGroupExternalInfrastructure1stParty')
@@ -30,8 +30,8 @@ GcpGroupExternalInfrastructure1stParty('element', 'External infrastructure 1st p
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalInfrastructure1stParty group
 include('groups/gcp/GcpGroupExternalInfrastructure1stParty')

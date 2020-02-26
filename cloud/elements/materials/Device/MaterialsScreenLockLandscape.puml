@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsScreenLockLandscapeLg [20x20/16z] hOzL0iGm20M3n8NxdtQtxjvE19YlX_eQiWj8GP3YHk6A180a4LK5jd-K110bGZqmrx8U1yS0l73edVCuTomLVEueLr3h-Yn05T1dsSYyjTlN_04
 
+sprite $MaterialsScreenLockLandscapeMd [14x14/16z] VOq30W0X44N_8El-frqRlHeBNUW0u13zHWoiBKnPaKc5fjeyC4U0toAnLix8jcO_escBgCgovNxXThtB2
+
 !function MaterialsScreenLockLandscape($id, $name="Screen Lock Landscape", $tech="")
   CloudElement($id, 'materials/Device/MaterialsScreenLockLandscape', $name, $tech)
 !endfunction
 !function MaterialsScreenLockLandscapeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScreenLockLandscapeLg>', 'Screen Lock Landscape', $funcName, $content)
+  CloudCard($id, '<$MaterialsScreenLockLandscapeMd>', 'Screen Lock Landscape', $funcName, $content)
 !endfunction
 @enduml

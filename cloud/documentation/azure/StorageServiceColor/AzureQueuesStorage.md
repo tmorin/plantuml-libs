@@ -16,8 +16,8 @@ elements/azure/StorageServiceColor/AzureQueuesStorage
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureQueuesStorage element
 include('elements/azure/StorageServiceColor/AzureQueuesStorage')
@@ -34,8 +34,8 @@ AzureQueuesStorage('element', 'Queues Storage', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureQueuesStorage element
 include('elements/azure/StorageServiceColor/AzureQueuesStorage')
@@ -53,8 +53,8 @@ AzureQueuesStorage('element', 'Queues Storage', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureQueuesStorage card
 include('elements/azure/StorageServiceColor/AzureQueuesStorage')
@@ -71,8 +71,8 @@ AzureQueuesStorageCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureQueuesStorage card
 include('elements/azure/StorageServiceColor/AzureQueuesStorage')

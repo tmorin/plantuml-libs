@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsFlightTakeoff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlightTakeoff element
 include('elements/materials/Action/MaterialsFlightTakeoff')
@@ -34,8 +34,8 @@ MaterialsFlightTakeoff('element', 'Flight Takeoff', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlightTakeoff element
 include('elements/materials/Action/MaterialsFlightTakeoff')
@@ -53,8 +53,8 @@ MaterialsFlightTakeoff('element', 'Flight Takeoff', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlightTakeoff card
 include('elements/materials/Action/MaterialsFlightTakeoff')
@@ -71,8 +71,8 @@ MaterialsFlightTakeoffCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlightTakeoff card
 include('elements/materials/Action/MaterialsFlightTakeoff')

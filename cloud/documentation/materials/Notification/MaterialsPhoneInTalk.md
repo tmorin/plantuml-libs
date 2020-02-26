@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsPhoneInTalk
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneInTalk element
 include('elements/materials/Notification/MaterialsPhoneInTalk')
@@ -34,8 +34,8 @@ MaterialsPhoneInTalk('element', 'Phone In Talk', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneInTalk element
 include('elements/materials/Notification/MaterialsPhoneInTalk')
@@ -53,8 +53,8 @@ MaterialsPhoneInTalk('element', 'Phone In Talk', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneInTalk card
 include('elements/materials/Notification/MaterialsPhoneInTalk')
@@ -71,8 +71,8 @@ MaterialsPhoneInTalkCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneInTalk card
 include('elements/materials/Notification/MaterialsPhoneInTalk')

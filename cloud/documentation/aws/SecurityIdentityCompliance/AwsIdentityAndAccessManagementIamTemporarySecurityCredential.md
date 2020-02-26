@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamTempora
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamTemporarySecurityCredential element
@@ -34,7 +34,7 @@ AwsIdentityAndAccessManagementIamTemporarySecurityCredential('element', 'Identit
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamTemporarySecurityCredential element
@@ -53,8 +53,8 @@ AwsIdentityAndAccessManagementIamTemporarySecurityCredential('element', 'Identit
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamTemporarySecurityCredential card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamTemporarySecurityCredential')
@@ -71,8 +71,8 @@ AwsIdentityAndAccessManagementIamTemporarySecurityCredentialCard('card', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamTemporarySecurityCredential card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamTemporarySecurityCredential')

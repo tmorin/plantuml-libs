@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsKeyboardReturnLg [20x20/16z] Ow0NO6HbWZDX33PUPfWG5vJ5niC2LyRD0bK55s9WWaYpyVDoi7F003yMCNPcX5u4GDY100YtO7KpdG4
 
+sprite $MaterialsKeyboardReturnMd [14x14/16z] Oo09C29pc3aWN3OGnSp9317bO69WOEBcP8K0BXGU2qmbfYa86qW7
+
 !function MaterialsKeyboardReturn($id, $name="Keyboard Return", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardReturn', $name, $tech)
 !endfunction
 !function MaterialsKeyboardReturnCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsKeyboardReturnLg>', 'Keyboard Return', $funcName, $content)
+  CloudCard($id, '<$MaterialsKeyboardReturnMd>', 'Keyboard Return', $funcName, $content)
 !endfunction
 @enduml

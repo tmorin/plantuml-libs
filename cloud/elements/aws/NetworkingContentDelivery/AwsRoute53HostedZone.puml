@@ -4,10 +4,12 @@ RSu50WGX34FHtv26-vzuVOUnXsiBL058R7CgKp3c7A2P0cWhB_hsRk3JLV7lszGK1vg5cuCsL8hbjunW
 v6IigU7TYqMTj3ZHsda2
 }
 
+sprite $AwsRoute53HostedZoneMd [14x14/16z] LOk50G9140EZ_RTCWDSvtGXWxXZW3jJcHokm1EVkxAlW8a9u3fnXdPECj-TdpxDmc-z96-y1wgwXzF-wtXPERFpu
+
 !function AwsRoute53HostedZone($id, $name="Route53 Hosted Zone", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsRoute53HostedZone', $name, $tech)
 !endfunction
 !function AwsRoute53HostedZoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRoute53HostedZoneLg>', 'Route53 Hosted Zone', $funcName, $content)
+  CloudCard($id, '<$AwsRoute53HostedZoneMd>', 'Route53 Hosted Zone', $funcName, $content)
 !endfunction
 @enduml

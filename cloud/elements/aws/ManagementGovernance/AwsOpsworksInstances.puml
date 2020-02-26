@@ -4,10 +4,12 @@ ZL1L0aCn20kHzlut7knhyYmLNCiDWKC83Icl_dSbTbBRVYi0h0e1fXO0d-ggTGAKPaQdlHhm_COQ2DK0
 zhYNevqUxVu5
 }
 
+sprite $AwsOpsworksInstancesMd [14x14/16z] LOw50KHH2CDeIVOV-Lp-mvsk69I8QqDDBAbcjipGdIXh1UjYsau_9eW5g8WPohnCFBDpyhnoVZY_dyXMlwXrxm
+
 !function AwsOpsworksInstances($id, $name="Opsworks Instances", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksInstances', $name, $tech)
 !endfunction
 !function AwsOpsworksInstancesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOpsworksInstancesLg>', 'Opsworks Instances', $funcName, $content)
+  CloudCard($id, '<$AwsOpsworksInstancesMd>', 'Opsworks Instances', $funcName, $content)
 !endfunction
 @enduml

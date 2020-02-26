@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsApiGatewayLg [20x20/16z] fOw30KDH54EhSFzzQ-lhF5wdYt5w97xoOCVJonrqTP7n-I-7lFYG6Za2DxZxXDXlFZDHzEe31Bpd4I9VVQfI_P_1RrfSywAvllfCuEpZUVILABTdAGS
+sprite $AwsApiGatewayLg [20x20/16z] {
+VSq54WCW30J0aPob__zl1qXT3byiz_YU_vOtqnx5OxtcA2vZWTiwW7MC1iRIMbD3SRsON8hnCCOqxzRB0A6mBNSZnB6CCKhuQllVMfPjN1OxU1ZSPgzDHMCc
+SAm0BLk9zcWvAvT-oR71L_l4Am
+}
+
+sprite $AwsApiGatewayMd [14x14/16z] FSe53W0n20J062lS__zxMDfYawptQT_9Jw9ge9KcWZO3QA4iWOeJHoXbAH11ZsW2HCkbx2HB7eds4r5v0QCqtKEsl-AzrlBq0m
 
 !function AwsApiGateway($id, $name="Api Gateway", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsApiGateway', $name, $tech)
 !endfunction
 !function AwsApiGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsApiGatewayLg>', 'Api Gateway', $funcName, $content)
+  CloudCard($id, '<$AwsApiGatewayMd>', 'Api Gateway', $funcName, $content)
 !endfunction
 @enduml

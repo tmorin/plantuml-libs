@@ -12,7 +12,7 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupElasticContainerService group
@@ -30,7 +30,7 @@ AwsGroupElasticContainerService('element', 'Elastic Container Service', 'an opti
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupElasticContainerService group

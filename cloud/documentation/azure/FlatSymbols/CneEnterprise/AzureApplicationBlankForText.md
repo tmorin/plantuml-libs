@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationBlankForText element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText')
@@ -34,8 +34,8 @@ AzureApplicationBlankForText('element', 'Application Blank For Text', 'an option
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationBlankForText element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText')
@@ -53,8 +53,8 @@ AzureApplicationBlankForText('element', 'Application Blank For Text', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationBlankForText card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText')
@@ -71,8 +71,8 @@ AzureApplicationBlankForTextCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationBlankForText card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText')

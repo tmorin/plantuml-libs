@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsApplications
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsApplications element
 include('elements/materials/Action/MaterialsSettingsApplications')
@@ -34,8 +34,8 @@ MaterialsSettingsApplications('element', 'Settings Applications', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsApplications element
 include('elements/materials/Action/MaterialsSettingsApplications')
@@ -53,8 +53,8 @@ MaterialsSettingsApplications('element', 'Settings Applications', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsApplications card
 include('elements/materials/Action/MaterialsSettingsApplications')
@@ -71,8 +71,8 @@ MaterialsSettingsApplicationsCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsApplications card
 include('elements/materials/Action/MaterialsSettingsApplications')

@@ -4,10 +4,12 @@ RL250S0m21iM-l_5s7nB3L9yQz2ExGJZ1EyKOPt0Rghh1XqpltFUXjQYYLX_MYKeoPD9jiLCWteTUTO4
 kUuAALFAwamOyQo5LLcQuxDcg8wP_VRsdS5tLcDspTJTZvb-Pny
 }
 
+sprite $GcpDeveloperPortalMd [14x14/16z] LOw50GHG248nSV-93xr-Fsq0M1m6hD4y-ioS5od3ESFklHqeFIba5e93NanBHdj62k_XMhL6nJF8LvUP-EtIhmcyaFzEhuyo6JJWN_K3
+
 !function GcpDeveloperPortal($id, $name="Developer Portal", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpDeveloperPortal', $name, $tech)
 !endfunction
 !function GcpDeveloperPortalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpDeveloperPortalLg>', 'Developer Portal', $funcName, $content)
+  CloudCard($id, '<$GcpDeveloperPortalMd>', 'Developer Portal', $funcName, $content)
 !endfunction
 @enduml

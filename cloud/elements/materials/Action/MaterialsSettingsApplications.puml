@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSettingsApplicationsLg [20x20/16z] ZP030iKm343ZZnNtF-tiycrLd40_93Te4xauuuV1BwTRXH8N557NY-oosOO1UBOzPOvnzI1aTyWCJkoGwNgi3praGTQeonxoijGtdoEj9LzplhTq1hbPzJC1
 
+sprite $MaterialsSettingsApplicationsMd [14x14/16z] NOw50S0W30JpNmDY-qzRzqFY8Z_04sn6TRTIpBsk9Zsp02NJkLaZDy5njtJzW5EXZIAbY8psjQxC3UglotV2T_ftinyB
+
 !function MaterialsSettingsApplications($id, $name="Settings Applications", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsApplications', $name, $tech)
 !endfunction
 !function MaterialsSettingsApplicationsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsApplicationsLg>', 'Settings Applications', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsApplicationsMd>', 'Settings Applications', $funcName, $content)
 !endfunction
 @enduml

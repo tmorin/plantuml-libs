@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsTimeToLeave
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTimeToLeave element
 include('elements/materials/Notification/MaterialsTimeToLeave')
@@ -34,8 +34,8 @@ MaterialsTimeToLeave('element', 'Time To Leave', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTimeToLeave element
 include('elements/materials/Notification/MaterialsTimeToLeave')
@@ -53,8 +53,8 @@ MaterialsTimeToLeave('element', 'Time To Leave', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTimeToLeave card
 include('elements/materials/Notification/MaterialsTimeToLeave')
@@ -71,8 +71,8 @@ MaterialsTimeToLeaveCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTimeToLeave card
 include('elements/materials/Notification/MaterialsTimeToLeave')

@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64White
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64White element
@@ -34,7 +34,7 @@ AwsSaasEventBusResourceIcon64White('element', 'Saas Event Bus Resource Icon64 Wh
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64White element
@@ -53,8 +53,8 @@ AwsSaasEventBusResourceIcon64White('element', 'Saas Event Bus Resource Icon64 Wh
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64White card
 include('elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64White')
@@ -71,8 +71,8 @@ AwsSaasEventBusResourceIcon64WhiteCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64White card
 include('elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64White')

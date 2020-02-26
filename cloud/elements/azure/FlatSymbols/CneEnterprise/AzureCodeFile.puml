@@ -4,10 +4,12 @@ fP254KGn20KV3XFwh_U-syZPnZSELry903ao3dAq0vsuK3svZeVgkAke6hsfa_XOaTCs8e7Gh3IDLLtK
 leLmOXfpzPtY5m
 }
 
+sprite $AzureCodeFileMd [13x14/16z] TOo30KLH34DlaNoa-w_xR9oQr4Bzh0a-W_gQlCr4rMyhBAcXMF6Xy4EHZCX1tNCem06aEIGtTnlDu_BWlO2lGDGEUm
+
 !function AzureCodeFile($id, $name="Code File", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCodeFile', $name, $tech)
 !endfunction
 !function AzureCodeFileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCodeFileLg>', 'Code File', $funcName, $content)
+  CloudCard($id, '<$AzureCodeFileMd>', 'Code File', $funcName, $content)
 !endfunction
 @enduml

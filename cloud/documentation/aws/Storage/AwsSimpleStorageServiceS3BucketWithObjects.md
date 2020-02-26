@@ -16,7 +16,7 @@ elements/aws/Storage/AwsSimpleStorageServiceS3BucketWithObjects
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleStorageServiceS3BucketWithObjects element
@@ -34,7 +34,7 @@ AwsSimpleStorageServiceS3BucketWithObjects('element', 'Simple Storage Service S3
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleStorageServiceS3BucketWithObjects element
@@ -53,8 +53,8 @@ AwsSimpleStorageServiceS3BucketWithObjects('element', 'Simple Storage Service S3
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleStorageServiceS3BucketWithObjects card
 include('elements/aws/Storage/AwsSimpleStorageServiceS3BucketWithObjects')
@@ -71,8 +71,8 @@ AwsSimpleStorageServiceS3BucketWithObjectsCard('card', 'an optional functional n
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleStorageServiceS3BucketWithObjects card
 include('elements/aws/Storage/AwsSimpleStorageServiceS3BucketWithObjects')

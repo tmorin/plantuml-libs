@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsDatabaseMigrationServiceLg [20x20/16z] {
-JSq93aKn24BHFoY2-z_l6zlIcz6J4CLPhMIaJRvjkYJZ3ZOnm2l4Rly4aF4lshAGYOhTWi-ho-XjvDYIQyi2wjxUs8z5KMJz7sFtO_aK7DRFzibs8H8596mj
-ylb1sJfP5pCb6mKIAZtO8wri6zesF04
-}
+sprite $AwsDatabaseMigrationServiceLg [20x20/16z] bO_50KGX44FN9aB_1Uzt23SUpcZQ8jx87w4seD6fv6rdUVZx5JVgw_0ZG8NV-V0K2nBrIp-HcloEklfbxC4KUp36Dfur66h53OLYcDucnZ-P4gqM-9Xh_04
+
+sprite $AwsDatabaseMigrationServiceMd [14x14/16z] TOt50G0n3CDUiUpil-ynWzemzPjC7845ybuf4YfR92QKlUR4VpNidxb6JF-uj_0L_JC2
 
 !function AwsDatabaseMigrationService($id, $name="Database Migration Service", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsDatabaseMigrationService', $name, $tech)
 !endfunction
 !function AwsDatabaseMigrationServiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDatabaseMigrationServiceLg>', 'Database Migration Service', $funcName, $content)
+  CloudCard($id, '<$AwsDatabaseMigrationServiceMd>', 'Database Migration Service', $funcName, $content)
 !endfunction
 @enduml

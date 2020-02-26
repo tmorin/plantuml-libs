@@ -16,8 +16,8 @@ elements/azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogAnalyticsWorkspaces element
 include('elements/azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces')
@@ -34,8 +34,8 @@ AzureLogAnalyticsWorkspaces('element', 'Log Analytics Workspaces', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogAnalyticsWorkspaces element
 include('elements/azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces')
@@ -53,8 +53,8 @@ AzureLogAnalyticsWorkspaces('element', 'Log Analytics Workspaces', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogAnalyticsWorkspaces card
 include('elements/azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces')
@@ -71,8 +71,8 @@ AzureLogAnalyticsWorkspacesCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogAnalyticsWorkspaces card
 include('elements/azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces')

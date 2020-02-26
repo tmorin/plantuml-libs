@@ -16,7 +16,7 @@ elements/aws/Storage/AwsS3GlacierArchive
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsS3GlacierArchive element
@@ -34,7 +34,7 @@ AwsS3GlacierArchive('element', 'S3 Glacier Archive', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsS3GlacierArchive element
@@ -53,8 +53,8 @@ AwsS3GlacierArchive('element', 'S3 Glacier Archive', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsS3GlacierArchive card
 include('elements/aws/Storage/AwsS3GlacierArchive')
@@ -71,8 +71,8 @@ AwsS3GlacierArchiveCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsS3GlacierArchive card
 include('elements/aws/Storage/AwsS3GlacierArchive')

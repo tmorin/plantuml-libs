@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsMacieLg [20x20/16z] nOw50SGm30CVgfFb_VSjqmQvW1bw9CbBdaZPNPiyyKetODC7KTPh-5MhpZI4fO1SEjAcgV2VeWD7el-r-dNqzyIzG5Rwj8Qn
+sprite $AwsMacieLg [20x20/16z] {
+RSy70iCW30F03ij6yF__LgWxiJA0O_ERyGuRP8EpmTdWR50c7MymcX0q0HjjbPba9lHIw64aXZfkHPJGmu02Y4GMR8oehBkRGDIsYY67rwVwFDSVVQLTs3wX
+8sjmhJEk1bU3jWC-
+}
+
+sprite $AwsMacieMd [14x14/16z] LOp50GG120FlLWWJ-gzttPWNnBZ80zhhzhgztjuyRuvFytxC0TkNoiYO984T6xDY8p7JbjfZceJDPyStx5HxgxtLtXK
 
 !function AwsMacie($id, $name="Macie", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsMacie', $name, $tech)
 !endfunction
 !function AwsMacieCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsMacieLg>', 'Macie', $funcName, $content)
+  CloudCard($id, '<$AwsMacieMd>', 'Macie', $funcName, $content)
 !endfunction
 @enduml

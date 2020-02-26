@@ -4,10 +4,12 @@ bP250O10202bm_ttLUoEqoyQG2QmsI8veJknPdYHTX0hzyX9FDB-4by6CH62cLdSXdYCk9dHBFObL5Mh
 hg9LC-zZEu2cc-sdpRwaP9e1gCAnhWYqW6RGN42rTG
 }
 
+sprite $AzureSoftwareUpdatePointMd [16x14/16z] NShL0S0m40BGIqw0TFzvw_x-aC0cx88XQU3EL5KHhtqr_VBuPbJ6ohtjMQKTcMkUXhAtNOzZpsQ722ChuyoT2eh8AsSvXOhxdvOa8dpNqUtDtMm1
+
 !function AzureSoftwareUpdatePoint($id, $name="Software Update Point", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureSoftwareUpdatePoint', $name, $tech)
 !endfunction
 !function AzureSoftwareUpdatePointCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSoftwareUpdatePointLg>', 'Software Update Point', $funcName, $content)
+  CloudCard($id, '<$AzureSoftwareUpdatePointMd>', 'Software Update Point', $funcName, $content)
 !endfunction
 @enduml

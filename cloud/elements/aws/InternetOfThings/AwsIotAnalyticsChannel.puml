@@ -4,10 +4,12 @@ NP250G0X24Nbb_jFV9tOFffn3Bb66pBTcLZv4nBEnD_G6WFvmW2f1faunWx1czUcHPkQaLqdax6VsMDB
 Sw-jzw3tgZFB3VNUhm
 }
 
+sprite $AwsIotAnalyticsChannelMd [14x14/16z] POx70GD1308N6Dn_nxwSzHDvp0VZEeFF9w4v7wgHdBeI4KVBAylmmsYJ9ksiolRPp5zyAGkt5EdRSBP_bprNJm
+
 !function AwsIotAnalyticsChannel($id, $name="Iot Analytics Channel", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsChannel', $name, $tech)
 !endfunction
 !function AwsIotAnalyticsChannelCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotAnalyticsChannelLg>', 'Iot Analytics Channel', $funcName, $content)
+  CloudCard($id, '<$AwsIotAnalyticsChannelMd>', 'Iot Analytics Channel', $funcName, $content)
 !endfunction
 @enduml

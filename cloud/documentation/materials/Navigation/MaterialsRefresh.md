@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsRefresh
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRefresh element
 include('elements/materials/Navigation/MaterialsRefresh')
@@ -34,8 +34,8 @@ MaterialsRefresh('element', 'Refresh', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRefresh element
 include('elements/materials/Navigation/MaterialsRefresh')
@@ -53,8 +53,8 @@ MaterialsRefresh('element', 'Refresh', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRefresh card
 include('elements/materials/Navigation/MaterialsRefresh')
@@ -71,8 +71,8 @@ MaterialsRefreshCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRefresh card
 include('elements/materials/Navigation/MaterialsRefresh')

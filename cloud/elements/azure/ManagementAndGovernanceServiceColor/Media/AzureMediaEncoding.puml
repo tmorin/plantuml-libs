@@ -4,10 +4,12 @@ RSv70WCX241HXQ5p__C68JrvK_swOAs5aIESzogSJo6dW9fRYmnU1zR6SKNwAY16KooZCX4pqpKXAt1x
 aTO3FsG6Lg1yyfvcaveSJB06y7g3p7MY1nqRq4DhZ743
 }
 
+sprite $AzureMediaEncodingMd [12x14/16z] 9Ok54S0m3CHaliRPVzs6TFG8qVFG2VZeiUbhj5H4l1kng52GCR7SnDNgL-lHzSYZTtXa70rOAJmjNhwf-K7Cnp3G-kvRsThIb8jOTTcL2m
+
 !function AzureMediaEncoding($id, $name="Media Encoding", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/Media/AzureMediaEncoding', $name, $tech)
 !endfunction
 !function AzureMediaEncodingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMediaEncodingLg>', 'Media Encoding', $funcName, $content)
+  CloudCard($id, '<$AzureMediaEncodingMd>', 'Media Encoding', $funcName, $content)
 !endfunction
 @enduml

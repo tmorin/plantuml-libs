@@ -16,7 +16,7 @@ elements/aws/Storage/AwsStorageGatewayVirtualTapeLibrary
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsStorageGatewayVirtualTapeLibrary element
@@ -34,7 +34,7 @@ AwsStorageGatewayVirtualTapeLibrary('element', 'Storage Gateway Virtual Tape Lib
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsStorageGatewayVirtualTapeLibrary element
@@ -53,8 +53,8 @@ AwsStorageGatewayVirtualTapeLibrary('element', 'Storage Gateway Virtual Tape Lib
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsStorageGatewayVirtualTapeLibrary card
 include('elements/aws/Storage/AwsStorageGatewayVirtualTapeLibrary')
@@ -71,8 +71,8 @@ AwsStorageGatewayVirtualTapeLibraryCard('card', 'an optional functional name', '
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsStorageGatewayVirtualTapeLibrary card
 include('elements/aws/Storage/AwsStorageGatewayVirtualTapeLibrary')

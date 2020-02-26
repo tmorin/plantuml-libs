@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGenericAppNamedText element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText')
@@ -34,8 +34,8 @@ AzureGenericAppNamedText('element', 'Generic App Named Text', 'an optional tech 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGenericAppNamedText element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText')
@@ -53,8 +53,8 @@ AzureGenericAppNamedText('element', 'Generic App Named Text', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGenericAppNamedText card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText')
@@ -71,8 +71,8 @@ AzureGenericAppNamedTextCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGenericAppNamedText card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText')

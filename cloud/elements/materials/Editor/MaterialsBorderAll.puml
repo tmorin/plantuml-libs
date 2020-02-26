@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBorderAllLg [20x20/16z] dP350O0m3029FDh6zfyMTuVxnBLw3V06w7mSAYBgtelWtgS409WIje9qy0bq8gM-aNppAIu-7Fj5wb3jHLpuBch_xN9nsyaFBdxrZWO
 
+sprite $MaterialsBorderAllMd [14x14/16z] TKw52G014F934FVVzpklEqMWyQ4ziIGVPjmo3G0933eod1cAp2IbpJXc_Lxu4Bx_a0LQ0G
+
 !function MaterialsBorderAll($id, $name="Border All", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderAll', $name, $tech)
 !endfunction
 !function MaterialsBorderAllCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBorderAllLg>', 'Border All', $funcName, $content)
+  CloudCard($id, '<$MaterialsBorderAllMd>', 'Border All', $funcName, $content)
 !endfunction
 @enduml

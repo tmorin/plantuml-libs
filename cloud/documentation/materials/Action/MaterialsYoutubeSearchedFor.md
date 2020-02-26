@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsYoutubeSearchedFor
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsYoutubeSearchedFor element
 include('elements/materials/Action/MaterialsYoutubeSearchedFor')
@@ -34,8 +34,8 @@ MaterialsYoutubeSearchedFor('element', 'Youtube Searched For', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsYoutubeSearchedFor element
 include('elements/materials/Action/MaterialsYoutubeSearchedFor')
@@ -53,8 +53,8 @@ MaterialsYoutubeSearchedFor('element', 'Youtube Searched For', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsYoutubeSearchedFor card
 include('elements/materials/Action/MaterialsYoutubeSearchedFor')
@@ -71,8 +71,8 @@ MaterialsYoutubeSearchedForCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsYoutubeSearchedFor card
 include('elements/materials/Action/MaterialsYoutubeSearchedFor')

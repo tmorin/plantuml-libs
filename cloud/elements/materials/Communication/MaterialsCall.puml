@@ -4,10 +4,12 @@ ZKu53aKn32ehoRpS_xHV8b-UZZXkou2Jlk5SKiEU6nikJIasONH9t1HcgM33SKyPMhOTE7rFvfvs76fz
 Z2S
 }
 
+sprite $MaterialsCallMd [14x14/16z] NKo34K0n5AlnkF-qtyWrfpWiI2d-8h8EL4uGJfVqg-OLNyuYX1LL7EMinBSxQgn2uz6naRfh-gxQ54uuZs713W
+
 !function MaterialsCall($id, $name="Call", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCall', $name, $tech)
 !endfunction
 !function MaterialsCallCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCallLg>', 'Call', $funcName, $content)
+  CloudCard($id, '<$MaterialsCallMd>', 'Call', $funcName, $content)
 !endfunction
 @enduml

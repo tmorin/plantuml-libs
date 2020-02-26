@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpAutomlTranslation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAutomlTranslation element
 include('elements/gcp/AiAndMachineLearning/GcpAutomlTranslation')
@@ -34,8 +34,8 @@ GcpAutomlTranslation('element', 'Automl Translation', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAutomlTranslation element
 include('elements/gcp/AiAndMachineLearning/GcpAutomlTranslation')
@@ -53,7 +53,7 @@ GcpAutomlTranslation('element', 'Automl Translation', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAutomlTranslation card
@@ -71,7 +71,7 @@ GcpAutomlTranslationCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAutomlTranslation card

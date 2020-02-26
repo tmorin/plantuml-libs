@@ -4,10 +4,12 @@ XSv50i0m24JH2eFKxd_RkD1L_l95m9uHRwrdfjCkUqlULDulvIrLhtdhUJDjRnVMMytekrnCH8VV-RkP
 SyycpRe-ASFVB5yq1YQT4G
 }
 
+sprite $AzureAppServicePlansMd [14x14/16z] PSt50GCn30J00uEu_t8Z2k_BOn5BXgyZ8ipguRj4g6OlLLur-kpaj_uxqNmBZd6VVK5mphNc6PqCUuRMxU8zXgD5S-JRMo-lBLUJ9LOqnmC
+
 !function AzureAppServicePlans($id, $name="App Service Plans", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureAppServicePlans', $name, $tech)
 !endfunction
 !function AzureAppServicePlansCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAppServicePlansLg>', 'App Service Plans', $funcName, $content)
+  CloudCard($id, '<$AzureAppServicePlansMd>', 'App Service Plans', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/GroupIcons/AwsVirtualPrivateCloudVpc
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVirtualPrivateCloudVpc element
@@ -34,7 +34,7 @@ AwsVirtualPrivateCloudVpc('element', 'Virtual Private Cloud Vpc', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVirtualPrivateCloudVpc element
@@ -53,8 +53,8 @@ AwsVirtualPrivateCloudVpc('element', 'Virtual Private Cloud Vpc', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVirtualPrivateCloudVpc card
 include('elements/aws/GroupIcons/AwsVirtualPrivateCloudVpc')
@@ -71,8 +71,8 @@ AwsVirtualPrivateCloudVpcCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVirtualPrivateCloudVpc card
 include('elements/aws/GroupIcons/AwsVirtualPrivateCloudVpc')

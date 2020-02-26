@@ -4,10 +4,12 @@ RSk7ZGCm34FHAn6RzzytWkNqVFG7CfsVavGlc2zuZA3kE5GWIoy69j6by33N_8d1JSZaMPwd2T0sSCnn
 kHl13aZNDWX8WBDn7HIfdDQztFj2NtTN
 }
 
+sprite $AwsXRayMd [14x14/16z] RSV70K8n30FGKzIo_xuefiDtrKlYPqdvv4YaHYuC2SSZAZ71aHXBTbaL857QEnGTaJhQgGY1hafoBS8PRK6T9ADjqZbrq4ekT0C
+
 !function AwsXRay($id, $name="X Ray", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsXRay', $name, $tech)
 !endfunction
 !function AwsXRayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsXRayLg>', 'X Ray', $funcName, $content)
+  CloudCard($id, '<$AwsXRayMd>', 'X Ray', $funcName, $content)
 !endfunction
 @enduml

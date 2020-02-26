@@ -4,10 +4,12 @@ VSW7ZW8020J0EtKR_l-_GYHsdVJ9ZMz-t-xj252th1vtYA2pLnKe13eJxub5si29pXxiavDPTCu5XZ8e
 i-wkURjRYdlt9DrthkVDtERplUS5
 }
 
+sprite $AwsCloudsearchMd [14x14/16z] LScv5G0n30BHo22q_VUxoBSd-syqYj6KEHK4E9Gfa6ZG4FsAGmX8ebdoAG6I5QYy96MVR0I7CXoYcBFYrAJqRKhMmny
+
 !function AwsCloudsearch($id, $name="Cloudsearch", $tech="")
   CloudElement($id, 'aws/Analytics/AwsCloudsearch', $name, $tech)
 !endfunction
 !function AwsCloudsearchCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudsearchLg>', 'Cloudsearch', $funcName, $content)
+  CloudCard($id, '<$AwsCloudsearchMd>', 'Cloudsearch', $funcName, $content)
 !endfunction
 @enduml

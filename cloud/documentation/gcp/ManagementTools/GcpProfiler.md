@@ -16,8 +16,8 @@ elements/gcp/ManagementTools/GcpProfiler
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpProfiler element
 include('elements/gcp/ManagementTools/GcpProfiler')
@@ -34,8 +34,8 @@ GcpProfiler('element', 'Profiler', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpProfiler element
 include('elements/gcp/ManagementTools/GcpProfiler')
@@ -53,7 +53,7 @@ GcpProfiler('element', 'Profiler', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpProfiler card
@@ -71,7 +71,7 @@ GcpProfilerCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpProfiler card

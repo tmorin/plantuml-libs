@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseBuilding element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding')
@@ -34,8 +34,8 @@ AzureEnterpriseBuilding('element', 'Enterprise Building', 'an optional tech fiel
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseBuilding element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding')
@@ -53,8 +53,8 @@ AzureEnterpriseBuilding('element', 'Enterprise Building', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseBuilding card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding')
@@ -71,8 +71,8 @@ AzureEnterpriseBuildingCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseBuilding card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding')

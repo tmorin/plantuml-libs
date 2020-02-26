@@ -4,10 +4,12 @@ PSv70W0X24DH2OI8zx_lz3v_vxFHbcoltS5Zpt6InTrnr0t1N6EWOTDAXs7D3DHcOunI9ibKxwTjLQ_g
 X84qAW5VZPubM7RtI99spj8ZUbSI5epNV9dMZ7YQ3gk7dNUXUjpbqZeEgFMCCj324QtD
 }
 
+sprite $AzureSqlServersMd [14x14/16z] HOp70KH124B70GMt_uBNdzz9IMl57c9TR9xW_B71pEJuyxMI09ZYVB-XRRUlR_1mVQ8BMNLzHK5WzlcPH84K8oQP5YXcad6jb5rSuFcrhm_wFX11kQtpnle3
+
 !function AzureSqlServers($id, $name="Sql Servers", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlServers', $name, $tech)
 !endfunction
 !function AzureSqlServersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSqlServersLg>', 'Sql Servers', $funcName, $content)
+  CloudCard($id, '<$AzureSqlServersMd>', 'Sql Servers', $funcName, $content)
 !endfunction
 @enduml

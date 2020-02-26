@@ -4,10 +4,12 @@ TSe50iKW281XmbR6_K-xPCQBVw5-0d-Z4He5wMt9CEj8w2QSRJkD4a7ECSdvjH9JlKm8JWRF0Cu3fcw4
 ksclMzAHc74UUNXiX0YtUHhPJP9HHaEQWdyT
 }
 
+sprite $MaterialsPictureAsPdfMd [14x14/16z] NSi50e0m20LGu8Ejk_zjPHrlIT6Ajpq3EGt5JYIip_NUlc-FTb5b1HkmfGWCWUyIuH21QExSZc3OxSfHA5A46gKvWcRiaKd6vB0NeDKF
+
 !function MaterialsPictureAsPdf($id, $name="Picture As Pdf", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPictureAsPdf', $name, $tech)
 !endfunction
 !function MaterialsPictureAsPdfCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPictureAsPdfLg>', 'Picture As Pdf', $funcName, $content)
+  CloudCard($id, '<$MaterialsPictureAsPdfMd>', 'Picture As Pdf', $funcName, $content)
 !endfunction
 @enduml

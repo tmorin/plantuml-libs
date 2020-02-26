@@ -4,10 +4,12 @@ hP350GHH348tdg_qN-swZvpc7QF0QGzUbdJOecQ88siKAFHRaWHGzNl8EsxCU8lKYXVDw75feeK6YdgT
 x_ab5m
 }
 
+sprite $MaterialsFlightMd [14x14/16z] ZKx50S0m22pneFjFMtVd1PmsDnFTxW2EFwzePHMwOcOK9bPaGIMQu5IZSnp1vmezjhh0hMUowhQuw8A_wTi1
+
 !function MaterialsFlight($id, $name="Flight", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsFlight', $name, $tech)
 !endfunction
 !function MaterialsFlightCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFlightLg>', 'Flight', $funcName, $content)
+  CloudCard($id, '<$MaterialsFlightMd>', 'Flight', $funcName, $content)
 !endfunction
 @enduml

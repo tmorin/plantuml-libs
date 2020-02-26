@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsLocalConvenienceStore
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalConvenienceStore element
 include('elements/materials/Maps/MaterialsLocalConvenienceStore')
@@ -34,8 +34,8 @@ MaterialsLocalConvenienceStore('element', 'Local Convenience Store', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalConvenienceStore element
 include('elements/materials/Maps/MaterialsLocalConvenienceStore')
@@ -53,8 +53,8 @@ MaterialsLocalConvenienceStore('element', 'Local Convenience Store', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalConvenienceStore card
 include('elements/materials/Maps/MaterialsLocalConvenienceStore')
@@ -71,8 +71,8 @@ MaterialsLocalConvenienceStoreCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalConvenienceStore card
 include('elements/materials/Maps/MaterialsLocalConvenienceStore')

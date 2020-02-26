@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsSkipPrevious
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSkipPrevious element
 include('elements/materials/Av/MaterialsSkipPrevious')
@@ -34,8 +34,8 @@ MaterialsSkipPrevious('element', 'Skip Previous', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSkipPrevious element
 include('elements/materials/Av/MaterialsSkipPrevious')
@@ -53,8 +53,8 @@ MaterialsSkipPrevious('element', 'Skip Previous', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSkipPrevious card
 include('elements/materials/Av/MaterialsSkipPrevious')
@@ -71,8 +71,8 @@ MaterialsSkipPreviousCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSkipPrevious card
 include('elements/materials/Av/MaterialsSkipPrevious')

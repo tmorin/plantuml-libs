@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsEqualizer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsEqualizer element
 include('elements/materials/Av/MaterialsEqualizer')
@@ -34,8 +34,8 @@ MaterialsEqualizer('element', 'Equalizer', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsEqualizer element
 include('elements/materials/Av/MaterialsEqualizer')
@@ -53,8 +53,8 @@ MaterialsEqualizer('element', 'Equalizer', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsEqualizer card
 include('elements/materials/Av/MaterialsEqualizer')
@@ -71,8 +71,8 @@ MaterialsEqualizerCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsEqualizer card
 include('elements/materials/Av/MaterialsEqualizer')

@@ -4,10 +4,12 @@ VL05ZWG122kIK2Rm_-VUhMkpZQ8L_82vstiZERl3VBQTMzcTjVHxw-W0I23wk3QDxRZsuCtBUMxWtaDi
 aW6V6OYiPAOQ_m
 }
 
+sprite $MaterialsPieChartOutlinedMd [14x14/16z] POw55S1024C3VH_PV-2wdsCH3Sl9nC-4thBcICe4ijnIRzEMoTgFu7bosgU1p6_sdVonF0h5eFuu6zO2
+
 !function MaterialsPieChartOutlined($id, $name="Pie Chart Outlined", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsPieChartOutlined', $name, $tech)
 !endfunction
 !function MaterialsPieChartOutlinedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPieChartOutlinedLg>', 'Pie Chart Outlined', $funcName, $content)
+  CloudCard($id, '<$MaterialsPieChartOutlinedMd>', 'Pie Chart Outlined', $funcName, $content)
 !endfunction
 @enduml

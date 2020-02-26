@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsRepeatOneLg [20x20/16z] dOxL0S10349F0_NzfwqxVtcdSOAB4jL7NiwA4_RJvKHFzL5hWVLA-Ppn-7AFy2R6zLG68NEFgW-uQyjsvRSlyj62opKzcjK7LAazEMUuM
 
+sprite $MaterialsRepeatOneMd [14x14/16z] TOr50a0X449jOUNzJ_l3hddc52W1KnwTCSYX1l71X1pHB3MjdArp-V5-qNDpJTj_80SeAimHKd4OjKoR4tW1
+
 !function MaterialsRepeatOne($id, $name="Repeat One", $tech="")
   CloudElement($id, 'materials/Av/MaterialsRepeatOne', $name, $tech)
 !endfunction
 !function MaterialsRepeatOneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRepeatOneLg>', 'Repeat One', $funcName, $content)
+  CloudCard($id, '<$MaterialsRepeatOneMd>', 'Repeat One', $funcName, $content)
 !endfunction
 @enduml

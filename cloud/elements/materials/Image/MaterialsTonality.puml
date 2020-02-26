@@ -4,10 +4,12 @@ VP250G0X30DnacBxJ_lkGbwvUbL7sXXz1uwvb0ntOiCI7SMpmUn8Q9MA6InDLgX9esOM9mcMS5Vi_87O
 s8yQVxret7l-cstP0VovWzzTdJlzrmW
 }
 
+sprite $MaterialsTonalityMd [14x14/16z] POxL0O1034DF6chilovkuTvFlKaPQ515kmeur6t6MLWjI8lSo-PrxuXCkIrZRo5KrRTC-taAc7B5c_o555YTdVrP0G
+
 !function MaterialsTonality($id, $name="Tonality", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTonality', $name, $tech)
 !endfunction
 !function MaterialsTonalityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTonalityLg>', 'Tonality', $funcName, $content)
+  CloudCard($id, '<$MaterialsTonalityMd>', 'Tonality', $funcName, $content)
 !endfunction
 @enduml

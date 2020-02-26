@@ -4,10 +4,12 @@ hSr50iCm34HHQHGptV-srRYCg_xmYq5-XtUAMVrcZtIGGbLX0S9Y4D7IJ5Yi6wt0qSeJXf9pLCloY0h4
 zdgub1mvLuMzRlHFDFdS2G
 }
 
+sprite $MaterialsSmokeFreeMd [14x14/16z] TOlL0O0050BX1RRklwtTUd_4uOimqFRW2PPpYfnJW2a0r1nJwH7pROcavjSUiMpc7as2DW4Kmz3tNJ9oVjg24YGnSxg_qQzfraO
+
 !function MaterialsSmokeFree($id, $name="Smoke Free", $tech="")
   CloudElement($id, 'materials/Places/MaterialsSmokeFree', $name, $tech)
 !endfunction
 !function MaterialsSmokeFreeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSmokeFreeLg>', 'Smoke Free', $funcName, $content)
+  CloudCard($id, '<$MaterialsSmokeFreeMd>', 'Smoke Free', $funcName, $content)
 !endfunction
 @enduml

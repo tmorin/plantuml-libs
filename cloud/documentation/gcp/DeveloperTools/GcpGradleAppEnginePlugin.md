@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpGradleAppEnginePlugin
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGradleAppEnginePlugin element
 include('elements/gcp/DeveloperTools/GcpGradleAppEnginePlugin')
@@ -34,8 +34,8 @@ GcpGradleAppEnginePlugin('element', 'Gradle App Engine Plugin', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGradleAppEnginePlugin element
 include('elements/gcp/DeveloperTools/GcpGradleAppEnginePlugin')
@@ -53,7 +53,7 @@ GcpGradleAppEnginePlugin('element', 'Gradle App Engine Plugin', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpGradleAppEnginePlugin card
@@ -71,7 +71,7 @@ GcpGradleAppEnginePluginCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpGradleAppEnginePlugin card

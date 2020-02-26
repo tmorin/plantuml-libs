@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsEc2ElasticIpAddressLg [20x20/16z] pKx50O0m36pEzjyOT_ZJkEVQVrHWFKemQUp94fHhCsis5w4vfhcIKz-rz-xxnuu5rNgW4G
 
+sprite $AwsEc2ElasticIpAddressMd [14x14/16z] Oo0RC38n8ZXCp4085cK64Y3CmWG2BCoeF1ILC5Ce1G
+
 !function AwsEc2ElasticIpAddress($id, $name="Ec2 Elastic Ip Address", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2ElasticIpAddress', $name, $tech)
 !endfunction
 !function AwsEc2ElasticIpAddressCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2ElasticIpAddressLg>', 'Ec2 Elastic Ip Address', $funcName, $content)
+  CloudCard($id, '<$AwsEc2ElasticIpAddressMd>', 'Ec2 Elastic Ip Address', $funcName, $content)
 !endfunction
 @enduml

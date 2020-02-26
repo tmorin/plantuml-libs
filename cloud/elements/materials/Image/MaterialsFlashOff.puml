@@ -4,10 +4,12 @@ bOw34S10403VHl_L7c9ZazVEIToY9kQtf3-tIdGtg-1eTQOiSJexeI8x3jlBDMoLSzWiAycWTavc2fB6
 Td6QTxLhJUet2
 }
 
+sprite $MaterialsFlashOffMd [14x14/16z] VSV50SH040CmUp3B_LTxp13zX2-U9uOpSyHQgmikmdbg0CzskO_5QS9xj-KCkq-ZE_70Flrr6S-o29wb0HJiEm8
+
 !function MaterialsFlashOff($id, $name="Flash Off", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFlashOff', $name, $tech)
 !endfunction
 !function MaterialsFlashOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFlashOffLg>', 'Flash Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsFlashOffMd>', 'Flash Off', $funcName, $content)
 !endfunction
 @enduml

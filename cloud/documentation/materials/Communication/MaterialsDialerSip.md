@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsDialerSip
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDialerSip element
 include('elements/materials/Communication/MaterialsDialerSip')
@@ -34,8 +34,8 @@ MaterialsDialerSip('element', 'Dialer Sip', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDialerSip element
 include('elements/materials/Communication/MaterialsDialerSip')
@@ -53,8 +53,8 @@ MaterialsDialerSip('element', 'Dialer Sip', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDialerSip card
 include('elements/materials/Communication/MaterialsDialerSip')
@@ -71,8 +71,8 @@ MaterialsDialerSipCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDialerSip card
 include('elements/materials/Communication/MaterialsDialerSip')

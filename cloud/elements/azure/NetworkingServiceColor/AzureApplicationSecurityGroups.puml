@@ -4,10 +4,12 @@ JSz70W0X24DH4KY2zx_l5AR-tRCxEaiRR-OKl0SY4jGPWKpzMclzLCtmfpn81uc4Yb4dASxXMdgOxicF
 3i9GwuqsZAzavszn2pQwwA_5U3BKFRK3
 }
 
+sprite $AzureApplicationSecurityGroupsMd [10x14/16z] 9Os50SCm30JJIe_xxniyMqp7pUwZ_xEqkJF-I6lYWQuNt1LPG_fFydeOwFC4Vhd5Bi7ArkydD-k8L8g3VU5z3sc3us7ikSq5
+
 !function AzureApplicationSecurityGroups($id, $name="Application Security Groups", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureApplicationSecurityGroups', $name, $tech)
 !endfunction
 !function AzureApplicationSecurityGroupsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureApplicationSecurityGroupsLg>', 'Application Security Groups', $funcName, $content)
+  CloudCard($id, '<$AzureApplicationSecurityGroupsMd>', 'Application Security Groups', $funcName, $content)
 !endfunction
 @enduml

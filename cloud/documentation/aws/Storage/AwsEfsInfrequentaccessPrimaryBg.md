@@ -16,7 +16,7 @@ elements/aws/Storage/AwsEfsInfrequentaccessPrimaryBg
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEfsInfrequentaccessPrimaryBg element
@@ -34,7 +34,7 @@ AwsEfsInfrequentaccessPrimaryBg('element', 'Efs Infrequentaccess Primary Bg', 'a
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEfsInfrequentaccessPrimaryBg element
@@ -53,8 +53,8 @@ AwsEfsInfrequentaccessPrimaryBg('element', 'Efs Infrequentaccess Primary Bg', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEfsInfrequentaccessPrimaryBg card
 include('elements/aws/Storage/AwsEfsInfrequentaccessPrimaryBg')
@@ -71,8 +71,8 @@ AwsEfsInfrequentaccessPrimaryBgCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEfsInfrequentaccessPrimaryBg card
 include('elements/aws/Storage/AwsEfsInfrequentaccessPrimaryBg')

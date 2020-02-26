@@ -4,10 +4,12 @@ bS-r0GH0449HM6PTflzgpztlXoy2_5amFGZp7BFmpjAmO2tV4bjIaOrmQzsYPyrRGpbOuwr9UpFSjpFW
 HZnXmJNM0wt3lIq
 }
 
+sprite $MaterialsTouchAppMd [14x14/16z] RKp50GCn38lP3ku_RNlCUedJ1n1E3kR1Xr9bZYCrBcAuA-OgSYwnolMcQhggvWod6cF4-YCYingqNhOnesEwoBeFfK_A9_87
+
 !function MaterialsTouchApp($id, $name="Touch App", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTouchApp', $name, $tech)
 !endfunction
 !function MaterialsTouchAppCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTouchAppLg>', 'Touch App', $funcName, $content)
+  CloudCard($id, '<$MaterialsTouchAppMd>', 'Touch App', $funcName, $content)
 !endfunction
 @enduml

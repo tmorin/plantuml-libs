@@ -4,10 +4,15 @@ TS-54OGm54NHzrtwBtWtCWnwS2wIu8KAFbao5j8hWdNOttXRoyzA4LtvvoC6paB16GGYFAChm24Wjqla
 kWSBOqHQRCTq0lQ5TWsTVdpsZo9a7CmditC4QGJZe9UuVlWTpwUQCkHxxAweRiN6oO-OlaGA3gGt1Fm
 }
 
+sprite $AzureHybridMd [20x14/16z] {
+LOm50e0m30FRf0By_x_0V3kODI8xi7ee9eBBIOXuU2TfJqQuI40wHd4NOCoKfDb_A2_scMK9ApFppZ7ZluN2WCGn2xUW_fUCGftz6ug7NcdPVuDxELPVkrkV
+1SbiCtYVFVVrt4J1sMQ8y8XH_G4
+}
+
 !function AzureHybrid($id, $name="Hybrid", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureHybrid', $name, $tech)
 !endfunction
 !function AzureHybridCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHybridLg>', 'Hybrid', $funcName, $content)
+  CloudCard($id, '<$AzureHybridMd>', 'Hybrid', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TT25WG0n20J0eBjm_VVxX7URqpXmH8_Ac_az8aTGA1R7_cHHjHuoYS6SYzrsakPV62XIzEvwq-re4wQt
 lbsRqyVC37VqhjrOBdfCtvpn5hDTx0fp1UGzjunsm8bkUwy1eb4PMuEjpGfYMhVzGLrCptVP2fpla2SWvpyl
 }
 
+sprite $AzureInventoryLicenseMd [14x14/16z] NOc55KD120J3P-su_kkD-w3pjj3e6xXsONB7IOOTKWyG85eFYSp-jttNxAlXPhcozYkpYJmCakX8C32nnLZoi0WIxG3WSRfJwFltW88-TbJTimi
+
 !function AzureInventoryLicense($id, $name="Inventory License", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureInventoryLicense', $name, $tech)
 !endfunction
 !function AzureInventoryLicenseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureInventoryLicenseLg>', 'Inventory License', $funcName, $content)
+  CloudCard($id, '<$AzureInventoryLicenseMd>', 'Inventory License', $funcName, $content)
 !endfunction
 @enduml

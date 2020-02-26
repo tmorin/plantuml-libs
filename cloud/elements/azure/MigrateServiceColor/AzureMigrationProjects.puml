@@ -4,10 +4,15 @@ TT5L0iCm30DGA-RT_y1h4dqKFIWyXULK6ltxTHhahKOUkghqbIipgxkgsfviRkRk4KCGhLU5sjIOvKCa
 HjQCn1fzkQkgatUoZjtQxhwdfUuAc1_509tpbh7485Ylka_E05Um0kKYG-ddWEw0OsyDFVJc9lhDwpev7imR1_tAXbEEVkBWybrvy5TckM7o7m
 }
 
+sprite $AzureMigrationProjectsMd [22x14/16z] {
+LSw74SH020D0aaZz5_p7ySboNXYDQSF8xdAc_x1dLbUb_AC1y01h_BR5Zlg9ai9ClkWtOFAf7rtSNOcgRcofmt1nvjbr2WQCoQ3JYk7LPNV8h4UGwDOQNMPI
+Tz7VNp7UC_0KFN7kgs-4ohRmLHlSm9Ze1G
+}
+
 !function AzureMigrationProjects($id, $name="Migration Projects", $tech="")
   CloudElement($id, 'azure/MigrateServiceColor/AzureMigrationProjects', $name, $tech)
 !endfunction
 !function AzureMigrationProjectsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMigrationProjectsLg>', 'Migration Projects', $funcName, $content)
+  CloudCard($id, '<$AzureMigrationProjectsMd>', 'Migration Projects', $funcName, $content)
 !endfunction
 @enduml

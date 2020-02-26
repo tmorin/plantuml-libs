@@ -16,7 +16,7 @@ elements/aws/Compute/AwsComputeOptimizer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsComputeOptimizer element
@@ -34,7 +34,7 @@ AwsComputeOptimizer('element', 'Compute Optimizer', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsComputeOptimizer element
@@ -53,8 +53,8 @@ AwsComputeOptimizer('element', 'Compute Optimizer', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsComputeOptimizer card
 include('elements/aws/Compute/AwsComputeOptimizer')
@@ -71,8 +71,8 @@ AwsComputeOptimizerCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsComputeOptimizer card
 include('elements/aws/Compute/AwsComputeOptimizer')

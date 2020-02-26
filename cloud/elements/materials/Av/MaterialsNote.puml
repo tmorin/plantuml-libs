@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsNoteLg [20x20/16z] jT2r0S0W00NHZpliFsqKfujS-Sh3gvWeIPQ9kbIoZcUBrJZtV35a72pZQ12E3cQLKZfKQyK_p8tcQ7rGOtZL3W
 
+sprite $MaterialsNoteMd [14x14/16z] Oy07c5Z1W8qPp6Fd1mDETXOa7XiZa8lWCG2v29MiBEpi81uSaCHZOeK39hpE1
+
 !function MaterialsNote($id, $name="Note", $tech="")
   CloudElement($id, 'materials/Av/MaterialsNote', $name, $tech)
 !endfunction
 !function MaterialsNoteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNoteLg>', 'Note', $funcName, $content)
+  CloudCard($id, '<$MaterialsNoteMd>', 'Note', $funcName, $content)
 !endfunction
 @enduml

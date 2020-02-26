@@ -16,8 +16,8 @@ elements/azure/InternetOfThingsServiceColor/AzureDigitalTwins
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDigitalTwins element
 include('elements/azure/InternetOfThingsServiceColor/AzureDigitalTwins')
@@ -34,8 +34,8 @@ AzureDigitalTwins('element', 'Digital Twins', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDigitalTwins element
 include('elements/azure/InternetOfThingsServiceColor/AzureDigitalTwins')
@@ -53,8 +53,8 @@ AzureDigitalTwins('element', 'Digital Twins', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDigitalTwins card
 include('elements/azure/InternetOfThingsServiceColor/AzureDigitalTwins')
@@ -71,8 +71,8 @@ AzureDigitalTwinsCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDigitalTwins card
 include('elements/azure/InternetOfThingsServiceColor/AzureDigitalTwins')

@@ -4,10 +4,15 @@ LS-55OKm50FGzBdjl-uNd60v5wW08DE5ColqU4x9PTDoDJxRJEy_oanSDkD106ocrctefCMrusxsBrNz
 d-obNjwcxq-zH4IxzMKCo_zK-hHzNxUktLugrRizb6eCEBL_cWlUjl3I00NZ6QjaV04
 }
 
+sprite $AzureToolMd [15x14/16z] {
+FKo50S0m28CAcl_VtUfEbAXgfxNOslmaTIDav_47wdWTW7gXbcW7SOGd82GJZQ8OVuWaKbP3xoO6MA6xccQsXwXR5pC-I8oR0mVB_2KtBhxPlZ1RZCg3ipQT
+w63Z7m
+}
+
 !function AzureTool($id, $name="Tool", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTool', $name, $tech)
 !endfunction
 !function AzureToolCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureToolLg>', 'Tool', $funcName, $content)
+  CloudCard($id, '<$AzureToolMd>', 'Tool', $funcName, $content)
 !endfunction
 @enduml

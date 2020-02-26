@@ -4,10 +4,12 @@ lP453e9H38CprlOzwEv_NTmTVlcInUPjpOqlF4rJ0gIas9xcRQXMYsLrFSrNlSqd6Ka4c7oQRoVuQlwH
 g7On0ni
 }
 
+sprite $AzureSmartcardMd [22x14/16z] dO-r0S00408Zxx3_kj4gBjUz0lm7QWMRRdf8geLjkra2YzfsGxHN4TNjRc1clxljdd_Ogi5EdVbpYcT6
+
 !function AzureSmartcard($id, $name="Smartcard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSmartcard', $name, $tech)
 !endfunction
 !function AzureSmartcardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSmartcardLg>', 'Smartcard', $funcName, $content)
+  CloudCard($id, '<$AzureSmartcardMd>', 'Smartcard', $funcName, $content)
 !endfunction
 @enduml

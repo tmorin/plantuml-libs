@@ -4,10 +4,12 @@ NSk73GH124FH0PEy_VUxmPgBNv4divuCsNS9MwzGFQeBcqAoDKGnFpq8hUgpnR9wFWPUBok3zd1tlAOe
 zyYBge9t2RY7NhJGdE7DNTi2Z-FWyDWHQwtK-Ofvqmi_f30l6gnN5irxqs4wBm
 }
 
+sprite $AzureLogoPluralsightTwotoneMd [14x14/16z] JSw50SGW50DGlYUt_y2NEccHXw-rB4T9MqTYS6PYmqaJflgY5T3XKITh9FVCR6b0JaP6POB2feFZdfL3eLJIGurI3jMD4x0L_DtX-HXSWA1uKnFjwlu1
+
 !function AzureLogoPluralsightTwotone($id, $name="Logo Pluralsight Twotone", $tech="")
   CloudElement($id, 'azure/Companies/AzureLogoPluralsightTwotone', $name, $tech)
 !endfunction
 !function AzureLogoPluralsightTwotoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLogoPluralsightTwotoneLg>', 'Logo Pluralsight Twotone', $funcName, $content)
+  CloudCard($id, '<$AzureLogoPluralsightTwotoneMd>', 'Logo Pluralsight Twotone', $funcName, $content)
 !endfunction
 @enduml

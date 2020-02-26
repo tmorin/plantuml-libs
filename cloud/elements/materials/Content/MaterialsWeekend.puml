@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsWeekendLg [20x20/16z] hSYr0GKX403HzJq3-g_so-74J3OFzeVcBSDiaeOacuwcsUJfzCXVI4bYfIYi17Ycawvg5_qMyKutdTLE-cqsqP9KUrHQ-cHR-jcrseN0liImkoy
 
+sprite $MaterialsWeekendMd [14x14/16z] VSt50K0X201GmfROVzeVrj5tee4xN4R2RU4_Yxx4Vuwx3vqHgAMuMgbHy1Bw48g7u9N3mFNFJ1RpGBKTbSRp1QvU
+
 !function MaterialsWeekend($id, $name="Weekend", $tech="")
   CloudElement($id, 'materials/Content/MaterialsWeekend', $name, $tech)
 !endfunction
 !function MaterialsWeekendCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWeekendLg>', 'Weekend', $funcName, $content)
+  CloudCard($id, '<$MaterialsWeekendMd>', 'Weekend', $funcName, $content)
 !endfunction
 @enduml

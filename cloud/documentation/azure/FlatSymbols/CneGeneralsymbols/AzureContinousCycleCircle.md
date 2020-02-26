@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContinousCycleCircle element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle')
@@ -34,8 +34,8 @@ AzureContinousCycleCircle('element', 'Continous Cycle Circle', 'an optional tech
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContinousCycleCircle element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle')
@@ -53,8 +53,8 @@ AzureContinousCycleCircle('element', 'Continous Cycle Circle', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContinousCycleCircle card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle')
@@ -71,8 +71,8 @@ AzureContinousCycleCircleCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureContinousCycleCircle card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle')

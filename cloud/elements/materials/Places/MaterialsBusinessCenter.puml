@@ -4,10 +4,12 @@ bO-50GGX30G_ONdRSFHVBNBkClXWoUiX3d0hvOqqlr1g487fA4G40NqdhVcGj6Xznq-n6kA2eCKrIzTC
 fvrWSYsdJcsk-fmLCrframm
 }
 
+sprite $MaterialsBusinessCenterMd [14x14/16z] ROw5TGGn34HZCRxqt-qjypUAv-y3WFC_n4p6Rg6DORXzBSgimcQ7_X_eQdL4hnPdbewXbSbJGoB2gNnwfhQGLI4ILGcJrNkJdgpXlU5ZLW8Rat7d1m
+
 !function MaterialsBusinessCenter($id, $name="Business Center", $tech="")
   CloudElement($id, 'materials/Places/MaterialsBusinessCenter', $name, $tech)
 !endfunction
 !function MaterialsBusinessCenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBusinessCenterLg>', 'Business Center', $funcName, $content)
+  CloudCard($id, '<$MaterialsBusinessCenterMd>', 'Business Center', $funcName, $content)
 !endfunction
 @enduml

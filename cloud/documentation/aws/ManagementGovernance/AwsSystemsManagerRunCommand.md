@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsSystemsManagerRunCommand
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerRunCommand element
@@ -34,7 +34,7 @@ AwsSystemsManagerRunCommand('element', 'Systems Manager Run Command', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerRunCommand element
@@ -53,8 +53,8 @@ AwsSystemsManagerRunCommand('element', 'Systems Manager Run Command', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerRunCommand card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerRunCommand')
@@ -71,8 +71,8 @@ AwsSystemsManagerRunCommandCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerRunCommand card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerRunCommand')

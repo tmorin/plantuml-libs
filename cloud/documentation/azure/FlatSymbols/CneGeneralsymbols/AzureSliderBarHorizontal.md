@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSliderBarHorizontal element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal')
@@ -34,8 +34,8 @@ AzureSliderBarHorizontal('element', 'Slider Bar Horizontal', 'an optional tech f
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSliderBarHorizontal element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal')
@@ -53,8 +53,8 @@ AzureSliderBarHorizontal('element', 'Slider Bar Horizontal', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSliderBarHorizontal card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal')
@@ -71,8 +71,8 @@ AzureSliderBarHorizontalCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSliderBarHorizontal card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal')

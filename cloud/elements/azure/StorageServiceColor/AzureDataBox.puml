@@ -4,10 +4,12 @@ VT350SD034JH4Klz5soUSFoEVtbnifgPDBoIwDd5ivYRQXxLh-QvSpbhXLvj5zfpQ8CbcSzLDP9Svr99
 Cy4RQGVTHhKE5RpBypFUIV4xtolR2W
 }
 
+sprite $AzureDataBoxMd [15x14/16z] LOs50GCm20GVX_qNBdsg5xq4mPEOwH0GKRMScQ9RPeR5UeUk4QjPMkEKtvjmvj2cdog4tsqlDtu6pjLPcdqNU9a9FdZW1utK7ztKl-z87Wy
+
 !function AzureDataBox($id, $name="Data Box", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureDataBox', $name, $tech)
 !endfunction
 !function AzureDataBoxCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDataBoxLg>', 'Data Box', $funcName, $content)
+  CloudCard($id, '<$AzureDataBoxMd>', 'Data Box', $funcName, $content)
 !endfunction
 @enduml

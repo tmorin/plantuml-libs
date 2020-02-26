@@ -4,10 +4,12 @@ ZP254GHH24ClSWxzbxlk-XdBF3oFyg1jj0ADO8yY_g5MgH7HGOU0lWDGk6D_p7FmNp9omQ2MV38_BTNS
 LNdK
 }
 
+sprite $MaterialsCenterFocusWeakMd [14x14/16z] NKw30G102FnS-m_yTdQNFWB4vX2X9U46rPb7TUWmPnnhPdsi6ckcjYH2Mj097VhOdxsJxvNtm_lzHVPI0G
+
 !function MaterialsCenterFocusWeak($id, $name="Center Focus Weak", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCenterFocusWeak', $name, $tech)
 !endfunction
 !function MaterialsCenterFocusWeakCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCenterFocusWeakLg>', 'Center Focus Weak', $funcName, $content)
+  CloudCard($id, '<$MaterialsCenterFocusWeakMd>', 'Center Focus Weak', $funcName, $content)
 !endfunction
 @enduml

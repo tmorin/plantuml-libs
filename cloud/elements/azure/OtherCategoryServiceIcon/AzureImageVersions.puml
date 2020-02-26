@@ -4,10 +4,12 @@ TSy50i0W34DHsYJ8_Iyyshdz-Pj1rQNg9HCkwS1wIS69n1uXNF7WAv9yuXGFlI9XypJuG73zfr5N163n
 tjgeTfaxUvFWB4KwKViqYobmJokMUgqbBW
 }
 
+sprite $AzureImageVersionsMd [15x14/16z] JSs54G0X40D0BeBqt_1VPjw2BchTSOrEZpU5CBeJIYJJUBC1wcRS8wINAF1ZGVgpI2hZVJZod0kHaddEFhR5n2kJmPltluFJTy8B
+
 !function AzureImageVersions($id, $name="Image Versions", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureImageVersions', $name, $tech)
 !endfunction
 !function AzureImageVersionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureImageVersionsLg>', 'Image Versions', $funcName, $content)
+  CloudCard($id, '<$AzureImageVersionsMd>', 'Image Versions', $funcName, $content)
 !endfunction
 @enduml

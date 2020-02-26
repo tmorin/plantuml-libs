@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpRecommendationsAi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpRecommendationsAi element
 include('elements/gcp/AiAndMachineLearning/GcpRecommendationsAi')
@@ -34,8 +34,8 @@ GcpRecommendationsAi('element', 'Recommendations Ai', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpRecommendationsAi element
 include('elements/gcp/AiAndMachineLearning/GcpRecommendationsAi')
@@ -53,7 +53,7 @@ GcpRecommendationsAi('element', 'Recommendations Ai', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpRecommendationsAi card
@@ -71,7 +71,7 @@ GcpRecommendationsAiCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpRecommendationsAi card

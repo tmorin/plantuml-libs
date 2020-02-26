@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsNetworkingAndContentDelivery
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsNetworkingAndContentDelivery element
@@ -34,7 +34,7 @@ AwsNetworkingAndContentDelivery('element', 'Networking And Content Delivery', 'a
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsNetworkingAndContentDelivery element
@@ -53,8 +53,8 @@ AwsNetworkingAndContentDelivery('element', 'Networking And Content Delivery', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsNetworkingAndContentDelivery card
 include('elements/aws/NetworkingContentDelivery/AwsNetworkingAndContentDelivery')
@@ -71,8 +71,8 @@ AwsNetworkingAndContentDeliveryCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsNetworkingAndContentDelivery card
 include('elements/aws/NetworkingContentDelivery/AwsNetworkingAndContentDelivery')

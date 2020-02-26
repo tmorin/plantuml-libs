@@ -4,10 +4,12 @@ bSW7SWGX34JHLaQpedJ_srh6ENl_3D3rS4SiV5wQzwNeSXfQlUN5nAzU1DxTWTSe1Ycx5Uym1zdU4xHw
 P0ms5oBnCmdV9v4XR9d6PmvnfUUkYgZQCui1aiSZirY4W3d_xG4
 }
 
+sprite $MaterialsPoolMd [14x14/16z] NKw50GG120BRp_sdlMwx1KyY5xib_JB0FhccOcz7_7kVjP-BovQm_d_7JbvcgVl9Ks7L4LKHNGQeq8opoZoiIYuw9r5PbRDMB8YuA-uq0W
+
 !function MaterialsPool($id, $name="Pool", $tech="")
   CloudElement($id, 'materials/Places/MaterialsPool', $name, $tech)
 !endfunction
 !function MaterialsPoolCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPoolLg>', 'Pool', $funcName, $content)
+  CloudCard($id, '<$MaterialsPoolMd>', 'Pool', $funcName, $content)
 !endfunction
 @enduml

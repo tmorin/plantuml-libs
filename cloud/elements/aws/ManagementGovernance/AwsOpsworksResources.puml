@@ -4,10 +4,12 @@ bL074e0m2BCG8l__i8kBTjookymacuRxDWqBCgotDD2lI4RxqeZwW2YBTUuMjDkKwCiWBwFlbQd2-rqv
 t3uD06dmQGL8gq_Jp4xJLViJ
 }
 
+sprite $AwsOpsworksResourcesMd [14x14/16z] RKw50S0m35e2xF-Fw-vj3FdA8h-nN02znaPQ-cfEMQigZV_oFl-dde5Uvvco4XLipRf2pu1d1bhDZAZgEHjkd5ADTzSH
+
 !function AwsOpsworksResources($id, $name="Opsworks Resources", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksResources', $name, $tech)
 !endfunction
 !function AwsOpsworksResourcesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOpsworksResourcesLg>', 'Opsworks Resources', $funcName, $content)
+  CloudCard($id, '<$AwsOpsworksResourcesMd>', 'Opsworks Resources', $funcName, $content)
 !endfunction
 @enduml

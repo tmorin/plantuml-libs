@@ -4,10 +4,12 @@ ZSv50WGX34JHAX9SSl_RphG2ktxuNu7FAAe2GFJ4eucP5GB5JlgqnhsvRZPaRwp7RM-8Peb76xtteJZe
 sMX5y63iCTb1CUdyyqIDTPW9TdGYn6S_
 }
 
+sprite $MaterialsPermPhoneMsgMd [14x14/16z] NSo5RGLG34FHQpycPVzfsyzqH47pmnR85u3MwJ3EESlNBgOO4N4CZDX-TpKApDbQ4-0fQEQX5X1FwXcm7grxKTcpFthLUMwP3wvZB_CcyUCV
+
 !function MaterialsPermPhoneMsg($id, $name="Perm Phone Msg", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermPhoneMsg', $name, $tech)
 !endfunction
 !function MaterialsPermPhoneMsgCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPermPhoneMsgLg>', 'Perm Phone Msg', $funcName, $content)
+  CloudCard($id, '<$MaterialsPermPhoneMsgMd>', 'Perm Phone Msg', $funcName, $content)
 !endfunction
 @enduml

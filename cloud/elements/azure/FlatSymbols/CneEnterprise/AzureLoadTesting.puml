@@ -4,10 +4,12 @@ POu50WGX24N1eF7-nrt6hObdqX--2Fnvk8WPDXCspAHkkFzztsYk7a7p3qMK9rJuYyXXkx4U5GFhKgf2
 c3GP_l3Ap4LmOkHQHxCJBSeLU7QXbylX36KHyzmzTVHfIQVcigir-a-MusV8JvZfvVC2
 }
 
+sprite $AzureLoadTestingMd [13x14/16z] JOo50SGm24L9y1_A_jkUr1-kjAD74DdzaGBp5tS3gi8FeWehP4oTGmCmSoTlft2p_wvOcM0S3rTcWkd0kblfHBRU-5t8bIzNNyTeuBzlkHSJO_UJw0i
+
 !function AzureLoadTesting($id, $name="Load Testing", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLoadTesting', $name, $tech)
 !endfunction
 !function AzureLoadTestingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLoadTestingLg>', 'Load Testing', $funcName, $content)
+  CloudCard($id, '<$AzureLoadTestingMd>', 'Load Testing', $funcName, $content)
 !endfunction
 @enduml

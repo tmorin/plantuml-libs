@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsVirtualPrivateCloudVpcLg [20x20/16z] jOx50KGn20LNU4R__Qv-I-wPq-3q6fBC6G9GnXIJWBbaZLy51HqvVZIqPNXBgJu6L3wwTVwAUgAm1TjaYp7w9qVEXUAPCvoJxOfmSdoJ2xs0Dm
 
+sprite $AwsVirtualPrivateCloudVpcMd [14x14/16z] bKgr0G0W39k8_Nym3dCzbbA9z2VGcCCDnshGOaG6jXVLi82cbOcOmQR1iOOiKjRm1kKffr0T
+
 !function AwsVirtualPrivateCloudVpc($id, $name="Virtual Private Cloud Vpc", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsVirtualPrivateCloudVpc', $name, $tech)
 !endfunction
 !function AwsVirtualPrivateCloudVpcCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsVirtualPrivateCloudVpcLg>', 'Virtual Private Cloud Vpc', $funcName, $content)
+  CloudCard($id, '<$AwsVirtualPrivateCloudVpcMd>', 'Virtual Private Cloud Vpc', $funcName, $content)
 !endfunction
 @enduml

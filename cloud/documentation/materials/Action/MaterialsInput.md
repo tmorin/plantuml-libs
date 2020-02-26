@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsInput
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInput element
 include('elements/materials/Action/MaterialsInput')
@@ -34,8 +34,8 @@ MaterialsInput('element', 'Input', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInput element
 include('elements/materials/Action/MaterialsInput')
@@ -53,8 +53,8 @@ MaterialsInput('element', 'Input', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInput card
 include('elements/materials/Action/MaterialsInput')
@@ -71,8 +71,8 @@ MaterialsInputCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInput card
 include('elements/materials/Action/MaterialsInput')

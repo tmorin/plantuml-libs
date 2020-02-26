@@ -4,10 +4,12 @@ ZSv50aKn24FHf52Nx7-rtrtV7PuAu7-EKpHtkn1hn36Jr7Y46DDOyMhZQ659qWd3b9Oz6xiaVtwBB1K-
 CizSTCnnpvlU3FJSbsHuZi6CsDmU
 }
 
+sprite $MaterialsPhoneForwardedMd [14x14/16z] NKw50G0X29IqlVst_GwbcmiBCTFfHNP3jQVTgQScHuQoDoE0lFkCncylEEpR2xmF_iZjdr7ItJBTAISZQoNTENdfGESNaETM-RzEA-OD
+
 !function MaterialsPhoneForwarded($id, $name="Phone Forwarded", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPhoneForwarded', $name, $tech)
 !endfunction
 !function MaterialsPhoneForwardedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPhoneForwardedLg>', 'Phone Forwarded', $funcName, $content)
+  CloudCard($id, '<$MaterialsPhoneForwardedMd>', 'Phone Forwarded', $funcName, $content)
 !endfunction
 @enduml

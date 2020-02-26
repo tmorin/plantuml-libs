@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsViewStreamLg [20x20/16z] Ow0-O6571inWCJP-PC025cCbLem76K3469cG0IF4NavaG9gzcEempODOZ0ne47W
 
+sprite $MaterialsViewStreamMd [14x14/16z] Oy0F6640n67bve829X2F7mfuCNbCB300qiZ22GCW7XkAIZQS-eW7
+
 !function MaterialsViewStream($id, $name="View Stream", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewStream', $name, $tech)
 !endfunction
 !function MaterialsViewStreamCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsViewStreamLg>', 'View Stream', $funcName, $content)
+  CloudCard($id, '<$MaterialsViewStreamMd>', 'View Stream', $funcName, $content)
 !endfunction
 @enduml

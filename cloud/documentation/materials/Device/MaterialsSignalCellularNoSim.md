@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalCellularNoSim
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularNoSim element
 include('elements/materials/Device/MaterialsSignalCellularNoSim')
@@ -34,8 +34,8 @@ MaterialsSignalCellularNoSim('element', 'Signal Cellular No Sim', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularNoSim element
 include('elements/materials/Device/MaterialsSignalCellularNoSim')
@@ -53,8 +53,8 @@ MaterialsSignalCellularNoSim('element', 'Signal Cellular No Sim', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularNoSim card
 include('elements/materials/Device/MaterialsSignalCellularNoSim')
@@ -71,8 +71,8 @@ MaterialsSignalCellularNoSimCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularNoSim card
 include('elements/materials/Device/MaterialsSignalCellularNoSim')

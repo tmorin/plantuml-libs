@@ -4,10 +4,12 @@ VL15GaL138kqcSVz3uoDmDVigX70TGC3mBZj3G0C9U8ND13-z6faa6oZBgrU5-Ba8qerzruF0bQFlZnx
 Om0cNEyuG3tqbFIiYSrRnIo_YKvlyi9NU6vhyMhoObJdDjDdsNy1
 }
 
+sprite $AwsCloudformationChangeSetMd [14x14/16z] JSo50GGW30F0nc3_ZRzv3tf8H_4xqOn5OaFIgoHauEsLGXsVuqhQzmD95R1eK3a61DjL7FagIKNkqtQyzV-lxpdlcf6LIrzLFcvDgL8Qnuxc0G
+
 !function AwsCloudformationChangeSet($id, $name="Cloudformation Change Set", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudformationChangeSet', $name, $tech)
 !endfunction
 !function AwsCloudformationChangeSetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudformationChangeSetLg>', 'Cloudformation Change Set', $funcName, $content)
+  CloudCard($id, '<$AwsCloudformationChangeSetMd>', 'Cloudformation Change Set', $funcName, $content)
 !endfunction
 @enduml

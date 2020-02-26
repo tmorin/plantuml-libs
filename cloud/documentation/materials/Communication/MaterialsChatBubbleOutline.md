@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsChatBubbleOutline
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubbleOutline element
 include('elements/materials/Communication/MaterialsChatBubbleOutline')
@@ -34,8 +34,8 @@ MaterialsChatBubbleOutline('element', 'Chat Bubble Outline', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubbleOutline element
 include('elements/materials/Communication/MaterialsChatBubbleOutline')
@@ -53,8 +53,8 @@ MaterialsChatBubbleOutline('element', 'Chat Bubble Outline', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubbleOutline card
 include('elements/materials/Communication/MaterialsChatBubbleOutline')
@@ -71,8 +71,8 @@ MaterialsChatBubbleOutlineCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubbleOutline card
 include('elements/materials/Communication/MaterialsChatBubbleOutline')

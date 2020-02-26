@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsManagedServicesLg [20x20/16z] {
-fOr54iC030CBGkV_xoqtSCwUF99sFAUf-SBxA7G_HRSLktpYRA4o0W5Diix6i6HqDN6hgJVSFdXWDXGB_S9b19D6UjUiG3BWU9Kr8V1EiUxqlbeGnAmXdGGW
-aJMifRSFpf6Ad9Cy0G
+RS-7JK0n34LHYRnci_--n1_JkQevwNshxoNflpYscazS4czQVYYOOOHyMY4TEkMBQtG9n67PQyKo9FbydbTuYKY9HArrN30h97DuxRKdGQJX78sz8oG3icli
+5dM8CmgkjVJy3jFQHJe9G9pqs61P2f-zZortbuQwlsXRM_ooV_0D
 }
+
+sprite $AwsManagedServicesMd [14x14/16z] HSk70KGn20BGQohW_liU-XkfBr59l09OZrT81yC5dAmL4naHE9HPaHd6gkmCBxBTUFpbg0LcJ6hKqu_y_NwhPcKzcbvNG-gJcrCN_m
 
 !function AwsManagedServices($id, $name="Managed Services", $tech="")
   CloudElement($id, 'aws/CustomerEnablement/AwsManagedServices', $name, $tech)
 !endfunction
 !function AwsManagedServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagedServicesLg>', 'Managed Services', $funcName, $content)
+  CloudCard($id, '<$AwsManagedServicesMd>', 'Managed Services', $funcName, $content)
 !endfunction
 @enduml

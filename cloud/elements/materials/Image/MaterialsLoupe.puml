@@ -4,10 +4,12 @@ VP056i0W28N7au-OTV_JhZji_McwnY20xe0zvPoSJmpFoY6mPiUEUW_hAtY_GZAd-LeEjyMSywAbkcXc
 CIhUkHIySgu5pzhgmguzIBNMZ6klIYtJONJjwJeMz1uZ
 }
 
+sprite $MaterialsLoupeMd [14x14/16z] PKw54S102CDoI6t_QUl-k1DgIE0EEHCaL5Tp9CwROzzIoJKnMzDSXm5w6LSoHC18_PUz9_rzfVpzOVBdUqsJtyWsKlhI0W
+
 !function MaterialsLoupe($id, $name="Loupe", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLoupe', $name, $tech)
 !endfunction
 !function MaterialsLoupeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLoupeLg>', 'Loupe', $funcName, $content)
+  CloudCard($id, '<$MaterialsLoupeMd>', 'Loupe', $funcName, $content)
 !endfunction
 @enduml

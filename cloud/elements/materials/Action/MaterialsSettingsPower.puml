@@ -4,10 +4,12 @@ dSx50KGX30JGJ1phlznrMBS_9tWGeKzXVhQ8PykyltlWQ0XVfCFE_speXL1ZraR5sMJmD1voDgkOXcgt
 2D1Ds2ACQKDWJAh4XXlhIfca_Mnx
 }
 
+sprite $MaterialsSettingsPowerMd [14x14/16z] RKq50W812AFZ_n-MYN4rEaSFKFtdJExZ5Xwemj-5zCvQK9dF66QeuCssEpxsF33RWpq7h8rv72qagr8E_7p8Vmv8CPD4zW8
+
 !function MaterialsSettingsPower($id, $name="Settings Power", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsPower', $name, $tech)
 !endfunction
 !function MaterialsSettingsPowerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsPowerLg>', 'Settings Power', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsPowerMd>', 'Settings Power', $funcName, $content)
 !endfunction
 @enduml

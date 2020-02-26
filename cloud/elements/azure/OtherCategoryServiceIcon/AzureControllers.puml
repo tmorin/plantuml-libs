@@ -4,10 +4,15 @@ hT15WWCX443HBZUO-nztaAHjdRzyECSt56Ku7W69gBi9tX15bWw7Nwjwl5KjihNAy9k2LLlLJP69lQOn
 K3VDzEvFDOxsvx5L_PnhlTPSjQYgt9hHgmtLh7t_PD38d3D2GRmcEezR3Xwvp0UIbz7tcy9vs3y
 }
 
+sprite $AzureControllersMd [16x14/16z] {
+JKo50SD020J2uTr_tCRbbLFQ5mjCcUwr01RXUcCSEEp6UcAys3m_65azNRTVrAitA7mYSrCeCmCBNrrAYtjK0YS68wApxSLMlooppTMvuwhfDkJCTAfuRIj1
+OjlBHAoH45e1
+}
+
 !function AzureControllers($id, $name="Controllers", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureControllers', $name, $tech)
 !endfunction
 !function AzureControllersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureControllersLg>', 'Controllers', $funcName, $content)
+  CloudCard($id, '<$AzureControllersMd>', 'Controllers', $funcName, $content)
 !endfunction
 @enduml

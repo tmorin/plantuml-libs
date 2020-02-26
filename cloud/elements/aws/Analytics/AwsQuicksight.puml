@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsQuicksightLg [20x20/16z] fP350O1030G_oLh__U8EF-PypfD_21UqEa07uEPqR76tBqvppUgSpbKEczUzg9wKXTE14-rS713Kf0v7WVDvokbGI8pswTobR9nxcQjx_msVCVZ72
+sprite $AwsQuicksightLg [20x20/16z] {
+VSm7WiD024FHtGG9XEz_tu1x_wxpfcWjrbwjsomuXyhBKadu4i6sJFgssMnltcz-iRDU8OBKR2dX2pd2TmRIYxIPID6AsgGoTp9btz1cD6OAq6Q2zGaj-xqv
+jJT6vMEOJNIkHTcGnzGsNAZiYZy
+}
+
+sprite $AwsQuicksightMd [14x14/16z] FSjB4iGm20FH-LcecVlVDrH4fLT-1aXER2jAMzdTSjBng0mk_8k0UKbQvKfuP5c_OiJek7LO7NK3gp8t8bTImR-V68Mh2m
 
 !function AwsQuicksight($id, $name="Quicksight", $tech="")
   CloudElement($id, 'aws/Analytics/AwsQuicksight', $name, $tech)
 !endfunction
 !function AwsQuicksightCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsQuicksightLg>', 'Quicksight', $funcName, $content)
+  CloudCard($id, '<$AwsQuicksightMd>', 'Quicksight', $funcName, $content)
 !endfunction
 @enduml

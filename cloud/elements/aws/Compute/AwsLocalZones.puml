@@ -4,10 +4,12 @@ PSq72iGm34HHMFqlvVudtep1f8txSvkLVcGk_1Y0bqLAHRWC1BIkSurbzqcuJN5EKjX6vlNJyc5MMNMT
 OsCtVTd2hWfTjZ1qsSBaiW_-0G
 }
 
+sprite $AwsLocalZonesMd [14x14/16z] FSY70SGm3CF0Bm2T_ISEdIAudbRBT4ip4X1lASehC28Z_Z92UINULt9izeHibIdTeweqALfLmXgLRJGy0G
+
 !function AwsLocalZones($id, $name="Local Zones", $tech="")
   CloudElement($id, 'aws/Compute/AwsLocalZones', $name, $tech)
 !endfunction
 !function AwsLocalZonesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsLocalZonesLg>', 'Local Zones', $funcName, $content)
+  CloudCard($id, '<$AwsLocalZonesMd>', 'Local Zones', $funcName, $content)
 !endfunction
 @enduml

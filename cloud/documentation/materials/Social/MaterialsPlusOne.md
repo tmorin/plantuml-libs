@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsPlusOne
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlusOne element
 include('elements/materials/Social/MaterialsPlusOne')
@@ -34,8 +34,8 @@ MaterialsPlusOne('element', 'Plus One', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlusOne element
 include('elements/materials/Social/MaterialsPlusOne')
@@ -53,8 +53,8 @@ MaterialsPlusOne('element', 'Plus One', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlusOne card
 include('elements/materials/Social/MaterialsPlusOne')
@@ -71,8 +71,8 @@ MaterialsPlusOneCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlusOne card
 include('elements/materials/Social/MaterialsPlusOne')

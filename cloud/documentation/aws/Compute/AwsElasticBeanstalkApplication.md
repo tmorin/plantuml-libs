@@ -16,7 +16,7 @@ elements/aws/Compute/AwsElasticBeanstalkApplication
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkApplication element
@@ -34,7 +34,7 @@ AwsElasticBeanstalkApplication('element', 'Elastic Beanstalk Application', 'an o
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkApplication element
@@ -53,8 +53,8 @@ AwsElasticBeanstalkApplication('element', 'Elastic Beanstalk Application', 'an o
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkApplication card
 include('elements/aws/Compute/AwsElasticBeanstalkApplication')
@@ -71,8 +71,8 @@ AwsElasticBeanstalkApplicationCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkApplication card
 include('elements/aws/Compute/AwsElasticBeanstalkApplication')

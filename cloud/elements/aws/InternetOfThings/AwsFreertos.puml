@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsFreertosLg [20x20/16z] jOz54W0W24Ld9F_z3sotQvz90pvWEh6XOZNB-dAn3Pq3BbBkgIE7SoO_j7JEhfglfMCNrWoBywuh5DqUMpJYJdiD2g4-Uo_ARAkNf-TtjWya
+sprite $AwsFreertosLg [20x20/16z] {
+TSi53iGW04JHf4n7kF-15r__BVO2wVarAJymFp2dTnD7TulB14gQNBIjpGOKgt1PSNDqd5R7FSEae6MrsmssW7SRtTlgU3koNwowN5TnNYnz0jCjmmngHIXf
+rf0dfLLF6Vsr7rX_u0C
+}
+
+sprite $AwsFreertosMd [14x14/16z] LSm50W0X40B0AzZu_uCFMp5dZL1ynEBW0Sb14WIiY501hb555K1NzvG8gbUbz2bTnk3x8iPP_KKAATYYGgGI8rBDqC4V
 
 !function AwsFreertos($id, $name="Freertos", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsFreertos', $name, $tech)
 !endfunction
 !function AwsFreertosCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsFreertosLg>', 'Freertos', $funcName, $content)
+  CloudCard($id, '<$AwsFreertosMd>', 'Freertos', $funcName, $content)
 !endfunction
 @enduml

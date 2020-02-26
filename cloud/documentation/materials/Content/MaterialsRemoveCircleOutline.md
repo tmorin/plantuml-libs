@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsRemoveCircleOutline
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRemoveCircleOutline element
 include('elements/materials/Content/MaterialsRemoveCircleOutline')
@@ -34,8 +34,8 @@ MaterialsRemoveCircleOutline('element', 'Remove Circle Outline', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRemoveCircleOutline element
 include('elements/materials/Content/MaterialsRemoveCircleOutline')
@@ -53,8 +53,8 @@ MaterialsRemoveCircleOutline('element', 'Remove Circle Outline', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRemoveCircleOutline card
 include('elements/materials/Content/MaterialsRemoveCircleOutline')
@@ -71,8 +71,8 @@ MaterialsRemoveCircleOutlineCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRemoveCircleOutline card
 include('elements/materials/Content/MaterialsRemoveCircleOutline')

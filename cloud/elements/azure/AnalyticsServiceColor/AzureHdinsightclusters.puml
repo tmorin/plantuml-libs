@@ -4,10 +4,15 @@ LOu70iGW20I7OkN__pqaNflKdILHBYssyu_iY2tVw6vef5FKlGhhlS686E2z6o2jzwvd6hHbBwSgLsXF
 SKPIIi-6IWcYPMPCmOxJ6-WHqK4JRhYFuZkmOYbgYTm0OWBF6ZTyz-8blxJF_hvOBwaKBm
 }
 
+sprite $AzureHdinsightclustersMd [14x14/16z] {
+9Oo74G112081mKlzz_lZ_5uqBGRTA_n8o7kP5r27EaTC2t1tWOIwZUeEAP59AbFov6MxOgex5ilZcMvR6BmAZWkr3DvtC1QSTyZpDaWI-sr29ZETD36uUyBX
+T-PtVW
+}
+
 !function AzureHdinsightclusters($id, $name="Hdinsightclusters", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureHdinsightclusters', $name, $tech)
 !endfunction
 !function AzureHdinsightclustersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHdinsightclustersLg>', 'Hdinsightclusters', $funcName, $content)
+  CloudCard($id, '<$AzureHdinsightclustersMd>', 'Hdinsightclusters', $funcName, $content)
 !endfunction
 @enduml

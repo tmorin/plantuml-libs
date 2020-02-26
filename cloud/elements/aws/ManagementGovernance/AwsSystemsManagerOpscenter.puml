@@ -4,10 +4,12 @@ NOu5WaGn24C94lhlV-45oexL-v14QY2OJz8XyFuFSYYXxXBBN9kpdn6BxetQHbnca1rLZtYXmM0r2QjN
 xbziKl2LQ6T-QrvlD-Oyl3F12GUT6mspLEE90afTDIPTxNYdv9Vgv63P6ngSyWipy0S
 }
 
+sprite $AwsSystemsManagerOpscenterMd [14x14/16z] HSV5WGG048H0sYR_Z4zMUL50TxTG0RA9SGAe0e4hm0908uQ1WoPKk8YsHXsSWGQKmNYdGlFMusgG87S2DQhLcsl0tPep6kzSyHNUyWi
+
 !function AwsSystemsManagerOpscenter($id, $name="Systems Manager Opscenter", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerOpscenter', $name, $tech)
 !endfunction
 !function AwsSystemsManagerOpscenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSystemsManagerOpscenterLg>', 'Systems Manager Opscenter', $funcName, $content)
+  CloudCard($id, '<$AwsSystemsManagerOpscenterMd>', 'Systems Manager Opscenter', $funcName, $content)
 !endfunction
 @enduml

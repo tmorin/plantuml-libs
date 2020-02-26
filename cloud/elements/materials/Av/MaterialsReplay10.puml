@@ -4,10 +4,12 @@ bO-50GGn20G3k_7mrt-rv_u-KHpS9_YiylbPrHMvgnwTHQzFkbmjoZrMM9CyrK0BpxtuTiufyzR6LPpa
 uz6S9QWYpRODPclDCjqPKK35_SS
 }
 
+sprite $MaterialsReplay10Md [14x14/16z] ROq50e0m30EJJ5li_w_57Mwh6xumtOFYn4aQEYkwrHGjtkTaF4C2UIsAa490J9Y96GnpbERQFa3Ij1seirLDs8Xr9k94mWyJ
+
 !function MaterialsReplay10($id, $name="Replay10", $tech="")
   CloudElement($id, 'materials/Av/MaterialsReplay10', $name, $tech)
 !endfunction
 !function MaterialsReplay10Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsReplay10Lg>', 'Replay10', $funcName, $content)
+  CloudCard($id, '<$MaterialsReplay10Md>', 'Replay10', $funcName, $content)
 !endfunction
 @enduml

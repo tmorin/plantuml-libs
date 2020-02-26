@@ -4,10 +4,12 @@ fP05GWKW44IPaSxxtrOQ_HqqRtl5TuDr0tKhfHK6ybB0iJvoYNBggVeYEdDOnZPrCOE9QY9u7nga53fC
 14tWqDpvmPLS6NoFEXt6pkZjhWsrT8NU1-LvgqTlZ5y
 }
 
+sprite $MaterialsSyncDisabledMd [14x14/16z] VKp50S0m2CIXll-s3SS_pYbjb-1OE3TAOrllvwETrbmba1wre71g8pTEwzzfNi11cYmD0quKS1a3a7z959S1i4TtIWfjrmy
+
 !function MaterialsSyncDisabled($id, $name="Sync Disabled", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsSyncDisabled', $name, $tech)
 !endfunction
 !function MaterialsSyncDisabledCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSyncDisabledLg>', 'Sync Disabled', $funcName, $content)
+  CloudCard($id, '<$MaterialsSyncDisabledMd>', 'Sync Disabled', $funcName, $content)
 !endfunction
 @enduml

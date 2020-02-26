@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsSelectAll
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSelectAll element
 include('elements/materials/Content/MaterialsSelectAll')
@@ -34,8 +34,8 @@ MaterialsSelectAll('element', 'Select All', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSelectAll element
 include('elements/materials/Content/MaterialsSelectAll')
@@ -53,8 +53,8 @@ MaterialsSelectAll('element', 'Select All', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSelectAll card
 include('elements/materials/Content/MaterialsSelectAll')
@@ -71,8 +71,8 @@ MaterialsSelectAllCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSelectAll card
 include('elements/materials/Content/MaterialsSelectAll')

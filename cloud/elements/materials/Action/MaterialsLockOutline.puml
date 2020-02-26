@@ -4,10 +4,12 @@ TOy55WGX2419XMVT_xJREsD-amRuWmWJ55EADAgIYLWQb6O8W1Ox5IPvFvAmr_7xuKw7afLUQ9Q_abEv
 NVixpm7K0GUU
 }
 
+sprite $MaterialsLockOutlineMd [14x14/16z] NSk54K0X30FGrA_il-yN7DvfcmG_4Y4C59zvkW7cume6EFeXgSoQKW_Dg5BhIb6fZujvkwWKMXVSMtRlpBbo-o-EZd5v0G
+
 !function MaterialsLockOutline($id, $name="Lock Outline", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLockOutline', $name, $tech)
 !endfunction
 !function MaterialsLockOutlineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLockOutlineLg>', 'Lock Outline', $funcName, $content)
+  CloudCard($id, '<$MaterialsLockOutlineMd>', 'Lock Outline', $funcName, $content)
 !endfunction
 @enduml

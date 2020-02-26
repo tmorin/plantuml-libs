@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsManagedApacheCassandraServiceLg [20x20/16z] {
-JSrRSW0W24FHlWX9tFz-2pOpzdmvLmKF_KVIQqylRYFgwiHfNTHY8T6kzYN-l5ReLJMDl0razsIAKltmDdba-yyttxo1gYRVlFrUYcD8lG0xxM3wwcbEAsJ5
-hap3Qe2iNPU_5aavCczu8F4SGbv4ckU9y8UEinolnMk_
+TL250GCX4Al5OFzzU--ULs98UqREOt64TXISMLgv-ktrwRtzl78_ohR8NvPYELR1ay4JryTa8KtVYLkg3IWvz0dZ-D0dBCpKrmlPSqjcR5iuaY8LGWld5jkB
+PUbR_l9q1XD9WWKzdEaZ_W
 }
+
+sprite $AwsManagedApacheCassandraServiceMd [14x14/16z] POx50G0W30DVq0liFo_k75fFU11cXePXKlLq4wy2ZcxPo9HJiOY5wlJLSXHirY704qTT2B7UewSL62EWpAnxJATFlvNzP
 
 !function AwsManagedApacheCassandraService($id, $name="Managed Apache Cassandra Service", $tech="")
   CloudElement($id, 'aws/Database/AwsManagedApacheCassandraService', $name, $tech)
 !endfunction
 !function AwsManagedApacheCassandraServiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagedApacheCassandraServiceLg>', 'Managed Apache Cassandra Service', $funcName, $content)
+  CloudCard($id, '<$AwsManagedApacheCassandraServiceMd>', 'Managed Apache Cassandra Service', $funcName, $content)
 !endfunction
 @enduml

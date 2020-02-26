@@ -4,10 +4,12 @@ ZSzL0eL0241Hm6bg_wjzORVUppC9l0t3KBSoCX5NiROs3TGovZDZmg7nhAce2m_HVryAN4AHq9UqDyAQ
 Co0Ux5-OpleoXzZFCEn2UDiN
 }
 
+sprite $MaterialsBusinessMd [14x14/16z] LOp50G012CDmtt_TSyqlq1R-86tWRPvPcO-96YS-l-gSsD7zPyx9MrbyCu-qLjZqDTpjJX8W7dQiE0gVFxNZ1tpyig9Z8pT3Ua3uim8
+
 !function MaterialsBusiness($id, $name="Business", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsBusiness', $name, $tech)
 !endfunction
 !function MaterialsBusinessCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBusinessLg>', 'Business', $funcName, $content)
+  CloudCard($id, '<$MaterialsBusinessMd>', 'Business', $funcName, $content)
 !endfunction
 @enduml

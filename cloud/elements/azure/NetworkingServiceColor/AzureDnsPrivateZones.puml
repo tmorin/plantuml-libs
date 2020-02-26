@@ -5,10 +5,15 @@ LOu7bWKX20ILxWQCzp_kwiocN-Pw4igXKXVKyWi40yqe-r4y8DAXCru56g6C86d-o2eu3IHW2leRwHcA
 -0K
 }
 
+sprite $AzureDnsPrivateZonesMd [14x14/16z] {
+BOs55S0W44FF1Tj_t0PUFtgM4B4QK7emVk78y0lmoJ20I2tDtItAXUX-mpEZmsw49JZrHsQkWUIBmgiglKOALE8cVErvciaGTFQgc3jW27aVExHtmbAWaxjx
+RkWyfFTPAFrm92eV
+}
+
 !function AzureDnsPrivateZones($id, $name="Dns Private Zones", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureDnsPrivateZones', $name, $tech)
 !endfunction
 !function AzureDnsPrivateZonesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDnsPrivateZonesLg>', 'Dns Private Zones', $funcName, $content)
+  CloudCard($id, '<$AzureDnsPrivateZonesMd>', 'Dns Private Zones', $funcName, $content)
 !endfunction
 @enduml

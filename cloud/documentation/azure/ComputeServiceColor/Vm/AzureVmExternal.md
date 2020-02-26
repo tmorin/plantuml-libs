@@ -16,8 +16,8 @@ elements/azure/ComputeServiceColor/Vm/AzureVmExternal
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmExternal element
 include('elements/azure/ComputeServiceColor/Vm/AzureVmExternal')
@@ -34,8 +34,8 @@ AzureVmExternal('element', 'Vm External', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmExternal element
 include('elements/azure/ComputeServiceColor/Vm/AzureVmExternal')
@@ -53,8 +53,8 @@ AzureVmExternal('element', 'Vm External', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmExternal card
 include('elements/azure/ComputeServiceColor/Vm/AzureVmExternal')
@@ -71,8 +71,8 @@ AzureVmExternalCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmExternal card
 include('elements/azure/ComputeServiceColor/Vm/AzureVmExternal')

@@ -4,10 +4,12 @@ ZP030i0m301hXFz_xMpsjYfEp8grvae026R7XH0YfKHnkBXPH3h0pl5uqYGCEW4mds6HOLx0NPRDGjvb
 En7M6UoGMsUrCulQw04
 }
 
+sprite $MaterialsAssignmentMd [14x14/16z] NSw53G0n20NGKiL-s7_QS-sBugH3AUb2ELVccZFjWG3HMW2oXHbXAg8Mo7jacJRPpWYZRmREo6lPL9-ZktDOVBVm7MqNLB57v_MJqFdPYT9a1G
+
 !function MaterialsAssignment($id, $name="Assignment", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignment', $name, $tech)
 !endfunction
 !function MaterialsAssignmentCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAssignmentLg>', 'Assignment', $funcName, $content)
+  CloudCard($id, '<$MaterialsAssignmentMd>', 'Assignment', $funcName, $content)
 !endfunction
 @enduml

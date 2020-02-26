@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsScreenLockLandscape
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockLandscape element
 include('elements/materials/Device/MaterialsScreenLockLandscape')
@@ -34,8 +34,8 @@ MaterialsScreenLockLandscape('element', 'Screen Lock Landscape', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockLandscape element
 include('elements/materials/Device/MaterialsScreenLockLandscape')
@@ -53,8 +53,8 @@ MaterialsScreenLockLandscape('element', 'Screen Lock Landscape', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockLandscape card
 include('elements/materials/Device/MaterialsScreenLockLandscape')
@@ -71,8 +71,8 @@ MaterialsScreenLockLandscapeCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockLandscape card
 include('elements/materials/Device/MaterialsScreenLockLandscape')

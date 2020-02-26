@@ -4,10 +4,12 @@ VL055eKm3FkLIVRQ-n_t6mw1-Qf9NWz3LELeS4Hcm3Up8fkRUKleOXgmwMKOar60DKNG_szFsofR-k_g
 MdKNekdz-
 }
 
+sprite $MaterialsRadioButtonUncheckedMd [14x14/16z] PKw30S1038on_y35suWES2rITwMMQ2hpzzJ4yV_G_vJoJ_uqls7LcjJ8kMViUxPFxYodmbG_d9th1G
+
 !function MaterialsRadioButtonUnchecked($id, $name="Radio Button Unchecked", $tech="")
   CloudElement($id, 'materials/Toggle/MaterialsRadioButtonUnchecked', $name, $tech)
 !endfunction
 !function MaterialsRadioButtonUncheckedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRadioButtonUncheckedLg>', 'Radio Button Unchecked', $funcName, $content)
+  CloudCard($id, '<$MaterialsRadioButtonUncheckedMd>', 'Radio Button Unchecked', $funcName, $content)
 !endfunction
 @enduml

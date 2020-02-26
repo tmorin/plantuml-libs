@@ -4,10 +4,12 @@ bL150iD020osFit_NrjVhOOZCBfz6trTMNnTxOdMrMc7DtxPnGnFAvOq1thHaEnUlLZX5takJvlKIIXP
 YrY4QJis5m
 }
 
+sprite $MaterialsReplayMd [14x14/16z] ROw30O1G443FIljFcrtlumpuWdetlF2oTEZI-HOZIRdNKIBSi3L8kqzq_UqMEmemQHiGiwGuDf2O4JWXWXyc
+
 !function MaterialsReplay($id, $name="Replay", $tech="")
   CloudElement($id, 'materials/Av/MaterialsReplay', $name, $tech)
 !endfunction
 !function MaterialsReplayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsReplayLg>', 'Replay', $funcName, $content)
+  CloudCard($id, '<$MaterialsReplayMd>', 'Replay', $funcName, $content)
 !endfunction
 @enduml

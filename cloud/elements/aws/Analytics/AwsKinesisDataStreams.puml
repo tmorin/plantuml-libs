@@ -4,10 +4,12 @@ VSu5GiL030HG96FX_lSba7wNQTVUQixnEUyjkJ8bz3Ls0WVA5NQt4SDNs1F10hMyvXWWCI6r9iZwfwh2
 SmnarTg-MJKmrHhzzmU5qQnf_kpjJ2O_VPNqsWqUzWH_0G
 }
 
+sprite $AwsKinesisDataStreamsMd [14x14/16z] LSg53GD144FHa6dIVxt7Ir_a9pbtlil2H55dHLPdLIXIzYtx48vuAkAnVhz9n_uoQK_oXrEHT0gNPDaupZhbSihaWVphANMgyzGE
+
 !function AwsKinesisDataStreams($id, $name="Kinesis Data Streams", $tech="")
   CloudElement($id, 'aws/Analytics/AwsKinesisDataStreams', $name, $tech)
 !endfunction
 !function AwsKinesisDataStreamsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsKinesisDataStreamsLg>', 'Kinesis Data Streams', $funcName, $content)
+  CloudCard($id, '<$AwsKinesisDataStreamsMd>', 'Kinesis Data Streams', $funcName, $content)
 !endfunction
 @enduml

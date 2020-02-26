@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsRedshiftLg [20x20/16z] {
-RSq50eCm44JHIcPjxd_VJjdWVFmHAPN78g8UiBeJDeL1MJGkvF1GUkmsh2TXx8RPoR8o8innCkLVd2mz_pkriKrZR7XCOzjm74m8KLNKRYpDYrA9hCsYzmhe
-raPDJQL7gJQ6OGnOr19dTOWFo0Vy0G
-}
+sprite $AwsRedshiftLg [20x20/16z] fO_L0KCn30CBPks_RzN7-iw5BsJFCfr1iX-geffmk9r73-dmfziHnsFRLNKOvDVLrQ1Sp_5CMhOu2hSIHuNf4HTM7DHL3y7JfMKJ3fAmctdKBFC3
+
+sprite $AwsRedshiftMd [14x14/16z] XKsr0S104AgEH_QVD-vAX_i7R0Eu4iWMPXfYzC1Cb1ojoPkOvDePQY0hQoLoOy2unOU7oSH0Vj03
 
 !function AwsRedshift($id, $name="Redshift", $tech="")
   CloudElement($id, 'aws/Database/AwsRedshift', $name, $tech)
 !endfunction
 !function AwsRedshiftCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRedshiftLg>', 'Redshift', $funcName, $content)
+  CloudCard($id, '<$AwsRedshiftMd>', 'Redshift', $funcName, $content)
 !endfunction
 @enduml

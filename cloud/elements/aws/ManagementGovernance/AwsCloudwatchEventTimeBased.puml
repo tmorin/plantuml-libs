@@ -4,10 +4,12 @@ fOt50G1120CXmlPVyRajtvi7JX8JAMNCiEpYV5L9Rc4wSrWXpJCDjbaMzf3DGofsO-aOOUCUZQh1FTk3
 0G
 }
 
+sprite $AwsCloudwatchEventTimeBasedMd [14x14/16z] ROg50KCn50AHO_-HwzwVF0DEpsU8Ne_sBKCnBt1rNagb-AMo8R7bdcKNfJIGHjmL2H_AFbHpxsGzcQsNffTs-NWz0m
+
 !function AwsCloudwatchEventTimeBased($id, $name="Cloudwatch Event Time Based", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchEventTimeBased', $name, $tech)
 !endfunction
 !function AwsCloudwatchEventTimeBasedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudwatchEventTimeBasedLg>', 'Cloudwatch Event Time Based', $funcName, $content)
+  CloudCard($id, '<$AwsCloudwatchEventTimeBasedMd>', 'Cloudwatch Event Time Based', $funcName, $content)
 !endfunction
 @enduml

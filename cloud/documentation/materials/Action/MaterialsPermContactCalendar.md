@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPermContactCalendar
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermContactCalendar element
 include('elements/materials/Action/MaterialsPermContactCalendar')
@@ -34,8 +34,8 @@ MaterialsPermContactCalendar('element', 'Perm Contact Calendar', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermContactCalendar element
 include('elements/materials/Action/MaterialsPermContactCalendar')
@@ -53,8 +53,8 @@ MaterialsPermContactCalendar('element', 'Perm Contact Calendar', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermContactCalendar card
 include('elements/materials/Action/MaterialsPermContactCalendar')
@@ -71,8 +71,8 @@ MaterialsPermContactCalendarCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermContactCalendar card
 include('elements/materials/Action/MaterialsPermContactCalendar')

@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsScreenLockPortrait
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockPortrait element
 include('elements/materials/Device/MaterialsScreenLockPortrait')
@@ -34,8 +34,8 @@ MaterialsScreenLockPortrait('element', 'Screen Lock Portrait', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockPortrait element
 include('elements/materials/Device/MaterialsScreenLockPortrait')
@@ -53,8 +53,8 @@ MaterialsScreenLockPortrait('element', 'Screen Lock Portrait', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockPortrait card
 include('elements/materials/Device/MaterialsScreenLockPortrait')
@@ -71,8 +71,8 @@ MaterialsScreenLockPortraitCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockPortrait card
 include('elements/materials/Device/MaterialsScreenLockPortrait')

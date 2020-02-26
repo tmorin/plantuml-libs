@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsLocalPostOfficeLg [20x20/16z] fT230S0m50JGsDX_sk9-RLoP5uVzYjIho8v4B7MH4aLdMPaqIZ8gmoIJZiXrlx0IDUSwrahV0aEzi5QWFHd6uOnnZ3jQbw1Kg7LjjU2xCkIrnRL5SNG6lz82
 
+sprite $MaterialsLocalPostOfficeMd [14x14/16z] XSUt0SCm30H0P83nzv_MsIgfwuvEnCC_meKeQ-1ZLBvcaXlOAVRUTDRUZMs-1vGoQm7VOKPCN7kxd_X5wEG9
+
 !function MaterialsLocalPostOffice($id, $name="Local Post Office", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalPostOffice', $name, $tech)
 !endfunction
 !function MaterialsLocalPostOfficeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLocalPostOfficeLg>', 'Local Post Office', $funcName, $content)
+  CloudCard($id, '<$MaterialsLocalPostOfficeMd>', 'Local Post Office', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TSe54aKX34FHjhY4xd-rNplFW3j-4jecPsmKSJIoOT4po8_uQzs6yJ79yliL2JWCVwj4hiv6acSZXyby
 OKEvHBlU
 }
 
+sprite $MaterialsVideoLibraryMd [14x14/16z] NSgr0S0m40D0VMB6_QSrytK2l4Z8xaV1uY21ZqgomlKalv8qVVf80Aap_UPuSh-VJeSuqXy7KHD-rb59_Ei8nI-77wyC
+
 !function MaterialsVideoLibrary($id, $name="Video Library", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideoLibrary', $name, $tech)
 !endfunction
 !function MaterialsVideoLibraryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVideoLibraryLg>', 'Video Library', $funcName, $content)
+  CloudCard($id, '<$MaterialsVideoLibraryMd>', 'Video Library', $funcName, $content)
 !endfunction
 @enduml

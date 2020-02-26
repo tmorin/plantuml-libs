@@ -4,10 +4,12 @@ HSvH4iGm209G1SJU_yIxJipaVRMeJBwdulg4LOxB0CyN5KyPU3RCPBUFxdj6EIzlM4MbzaUuvn5PegvP
 bM0XSbVEa-H9j2Lqphl0P07C4xRjZ3pd5_xsS2qnzp0TLnMM-eNz_
 }
 
+sprite $AzureEventHubClustersMd [15x14/16z] BSnX0i1G10BWAjZzBxpjyRv_K4-DDaP9-DbO2ddDdigC8tElbddstYjWvoK5u0Y9fAebq6Biw_z0cE1PZAaAamxyCaCGpm8_sSA-NWfncZ3SDVe3
+
 !function AzureEventHubClusters($id, $name="Event Hub Clusters", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureEventHubClusters', $name, $tech)
 !endfunction
 !function AzureEventHubClustersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureEventHubClustersLg>', 'Event Hub Clusters', $funcName, $content)
+  CloudCard($id, '<$AzureEventHubClustersMd>', 'Event Hub Clusters', $funcName, $content)
 !endfunction
 @enduml

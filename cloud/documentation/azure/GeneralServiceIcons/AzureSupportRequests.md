@@ -16,8 +16,8 @@ elements/azure/GeneralServiceIcons/AzureSupportRequests
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSupportRequests element
 include('elements/azure/GeneralServiceIcons/AzureSupportRequests')
@@ -34,8 +34,8 @@ AzureSupportRequests('element', 'Support Requests', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSupportRequests element
 include('elements/azure/GeneralServiceIcons/AzureSupportRequests')
@@ -53,8 +53,8 @@ AzureSupportRequests('element', 'Support Requests', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSupportRequests card
 include('elements/azure/GeneralServiceIcons/AzureSupportRequests')
@@ -71,8 +71,8 @@ AzureSupportRequestsCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSupportRequests card
 include('elements/azure/GeneralServiceIcons/AzureSupportRequests')

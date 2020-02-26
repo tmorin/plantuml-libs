@@ -4,10 +4,12 @@ TO-53S0m3C0A8UV_VySCtagMGjgLFC1gAGNqAjCdgMRDBuvU5YmloB_pP68EF68hcFjiFP9QPZeXRgX6
 SN6nTY9vmJu6qyCHExANHRhizDxc6X72oJfSxTUKJE4Z
 }
 
+sprite $AzureUdfFunctionMd [14x14/16z] ROw50SGm30CTbCxxx_jORYzerXpEFxG8gREOBX5Hjc3zMYIxLP4CvfSvcDDJyemFGZ_SVua9_knVOiy5_H9NgpzCmp_qL-8-5pxHsW-otm
+
 !function AzureUdfFunction($id, $name="Udf Function", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUdfFunction', $name, $tech)
 !endfunction
 !function AzureUdfFunctionCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureUdfFunctionLg>', 'Udf Function', $funcName, $content)
+  CloudCard($id, '<$AzureUdfFunctionMd>', 'Udf Function', $funcName, $content)
 !endfunction
 @enduml

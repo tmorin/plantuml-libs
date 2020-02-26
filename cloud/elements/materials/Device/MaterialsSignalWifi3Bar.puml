@@ -4,10 +4,12 @@ bSr50WKX30FG57VkVzelKpAsuwsW5kmIUNtDmWOBBBFqAkh3kX-hRnn5dqeVevVajGHnUSnbPASfOTw4
 xqMBNLy
 }
 
+sprite $MaterialsSignalWifi3BarMd [14x14/16z] VSw35KKn303GiCR-qvQVJ_UW2E4P8Ws8wquVk1yimgydgq-b9AyySxM-w2hq--4H9ehp4UarWdEjcU5DNqKlrlwl0nSw
+
 !function MaterialsSignalWifi3Bar($id, $name="Signal Wifi3 Bar", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalWifi3Bar', $name, $tech)
 !endfunction
 !function MaterialsSignalWifi3BarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSignalWifi3BarLg>', 'Signal Wifi3 Bar', $funcName, $content)
+  CloudCard($id, '<$MaterialsSignalWifi3BarMd>', 'Signal Wifi3 Bar', $funcName, $content)
 !endfunction
 @enduml

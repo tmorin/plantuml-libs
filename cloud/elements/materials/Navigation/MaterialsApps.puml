@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAppsLg [20x20/16z] Ow0CCBEnCICHOC36py_6mChFpmfcOHV3r3jixA0C
 
+sprite $MaterialsAppsMd [14x14/16z] Oy0BcDcO6LbP6O4KYCV6pyh8myF8oi-6ASV8o0Z4O0e8M7bP6Rcu684K9W-XaWGRy08
+
 !function MaterialsApps($id, $name="Apps", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsApps', $name, $tech)
 !endfunction
 !function MaterialsAppsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAppsLg>', 'Apps', $funcName, $content)
+  CloudCard($id, '<$MaterialsAppsMd>', 'Apps', $funcName, $content)
 !endfunction
 @enduml

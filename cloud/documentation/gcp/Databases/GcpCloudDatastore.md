@@ -16,8 +16,8 @@ elements/gcp/Databases/GcpCloudDatastore
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudDatastore element
 include('elements/gcp/Databases/GcpCloudDatastore')
@@ -34,8 +34,8 @@ GcpCloudDatastore('element', 'Cloud Datastore', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudDatastore element
 include('elements/gcp/Databases/GcpCloudDatastore')
@@ -53,7 +53,7 @@ GcpCloudDatastore('element', 'Cloud Datastore', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudDatastore card
@@ -71,7 +71,7 @@ GcpCloudDatastoreCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudDatastore card

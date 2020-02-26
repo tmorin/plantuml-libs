@@ -4,10 +4,12 @@ RP1L0i0m24FnvFuNdh3E-_ug49561t9XTM4oFXKlQdmDFeZZ6_W0_J7v8dS1y0LCP1S04Ev1O9Tf0NYL
 R8s_5zhSyp_RluD_Lz1tfm2kJd_Thm
 }
 
+sprite $GcpIdePluginsMd [14x14/16z] JOxL0G10248z0zn_uUjwNoOW8iKcfPUz0IUOhUV6UwCy7LKaPZ578SO4GZM0P6_eK7U5pvE_6vU4AiQhIUG5lqFgxnutMMyua_sf6m
+
 !function GcpIdePlugins($id, $name="Ide Plugins", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpIdePlugins', $name, $tech)
 !endfunction
 !function GcpIdePluginsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpIdePluginsLg>', 'Ide Plugins', $funcName, $content)
+  CloudCard($id, '<$GcpIdePluginsMd>', 'Ide Plugins', $funcName, $content)
 !endfunction
 @enduml

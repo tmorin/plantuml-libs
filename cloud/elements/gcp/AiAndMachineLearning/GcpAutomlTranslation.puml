@@ -4,10 +4,12 @@ RP055WGX34EB99dxNnW9ilf7gEHH2PCsSScyvDWYFXTkQNtUg4kczvWin3HH1xGr2qmPusOrod2T8BdB
 6988o-XUN6NYolbqnJgmXV-p_Tz19Fx8xaubxPt-sNq7
 }
 
+sprite $GcpAutomlTranslationMd [14x14/16z] LOw50KGn34AX-G7sd_XgPwyQ1m1hGomeRxJD9vTd6iE9f7bx03qDaYkZKPw-sh5u6ccwEpjtLwNRr0t6Ketv5dhr9bT8Pu9Fb_4xlJ_Afc42_wfV
+
 !function GcpAutomlTranslation($id, $name="Automl Translation", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlTranslation', $name, $tech)
 !endfunction
 !function GcpAutomlTranslationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpAutomlTranslationLg>', 'Automl Translation', $funcName, $content)
+  CloudCard($id, '<$GcpAutomlTranslationMd>', 'Automl Translation', $funcName, $content)
 !endfunction
 @enduml

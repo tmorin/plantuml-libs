@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsCostManagementLg [20x20/16z] {
-RS-r0GLH44BHBm_6-kztXtMxuOdWyzhtbiZSjjYDnfz7vqljE6p3mnm3eF1YxZ3XOXb13BC1wM6DOt2to0p2EiYu6w5uCGr_Cv8MLtCjZDWigG3iLjd55cLP
-9LMRVKqlZo3xtMfxQG8
-}
+sprite $AwsCostManagementLg [20x20/16z] VSn90e0m24DH1vBW_IyiNMaw_UvUWMFQsTL8QR7moiVIrXWatH9HdcPaI23T456MVuCgk14WEbDACwFTozaSm7h0PzRAJif2iwkhRD8B
+
+sprite $AwsCostManagementMd [14x14/16z] LStL0G0n20FGL49w-mzyNkHzuQ0QT0EmmyqlanJPcf8y4scqdTdBUtVCoBGKcKcvztepbk-3hWDe3hW
 
 !function AwsCostManagement($id, $name="Cost Management", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsCostManagement', $name, $tech)
 !endfunction
 !function AwsCostManagementCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCostManagementLg>', 'Cost Management', $funcName, $content)
+  CloudCard($id, '<$AwsCostManagementMd>', 'Cost Management', $funcName, $content)
 !endfunction
 @enduml

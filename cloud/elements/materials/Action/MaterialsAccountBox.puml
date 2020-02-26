@@ -4,10 +4,12 @@ ZP034WHH34Gt_0hkVzgrnjEbLt7wSbx8Vy9NoF9FzWpoawFtU09_OyO0RDEOFaZ_On_QgTkPbp76R6yq
 U7LQDm
 }
 
+sprite $MaterialsAccountBoxMd [14x14/16z] NOw50G0W20Jj1lQVrkupwMSVN4nuCpnCV3K544Mj8n68OId6rBQmFRXZbdDxCj5xN1OOoRaqC2mpvffXMTMnpNgclyfU2W
+
 !function MaterialsAccountBox($id, $name="Account Box", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAccountBox', $name, $tech)
 !endfunction
 !function MaterialsAccountBoxCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAccountBoxLg>', 'Account Box', $funcName, $content)
+  CloudCard($id, '<$MaterialsAccountBoxMd>', 'Account Box', $funcName, $content)
 !endfunction
 @enduml

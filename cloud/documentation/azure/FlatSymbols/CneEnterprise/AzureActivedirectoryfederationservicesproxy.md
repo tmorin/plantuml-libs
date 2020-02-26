@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesp
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActivedirectoryfederationservicesproxy element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesproxy')
@@ -34,8 +34,8 @@ AzureActivedirectoryfederationservicesproxy('element', 'Activedirectoryfederatio
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActivedirectoryfederationservicesproxy element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesproxy')
@@ -53,8 +53,8 @@ AzureActivedirectoryfederationservicesproxy('element', 'Activedirectoryfederatio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActivedirectoryfederationservicesproxy card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesproxy')
@@ -71,8 +71,8 @@ AzureActivedirectoryfederationservicesproxyCard('card', 'an optional functional 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActivedirectoryfederationservicesproxy card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesproxy')

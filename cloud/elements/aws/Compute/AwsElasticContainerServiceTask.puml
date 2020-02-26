@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsElasticContainerServiceTaskLg [20x20/16z] VP253G1H348hiF_Ab-z6xZLQ1pFB0oiuznIzvc3kRXtqN90bNrYv4Yp0Hyv9tBEsa3avgs_eN_JF-WQGuWO3XVq6w55PivdnVqDxghp_
 
+sprite $AwsElasticContainerServiceTaskMd [14x14/16z] JOw30G0m30HV-wzS8rV63_W1WAQuCAVbc9AEbLZV8h4ubbYin1FTBglfYG6rJb6jSwrRpv-0hmmtCmOw
+
 !function AwsElasticContainerServiceTask($id, $name="Elastic Container Service Task", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticContainerServiceTask', $name, $tech)
 !endfunction
 !function AwsElasticContainerServiceTaskCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElasticContainerServiceTaskLg>', 'Elastic Container Service Task', $funcName, $content)
+  CloudCard($id, '<$AwsElasticContainerServiceTaskMd>', 'Elastic Container Service Task', $funcName, $content)
 !endfunction
 @enduml

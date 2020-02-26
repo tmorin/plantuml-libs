@@ -4,10 +4,12 @@ ROy7WiGm20CFaEJx_uit2jXRIR4yzB-n16lhWq1zG9Zn3OMH6A-iQ2RiaCo4K2JqpwmAPm6y0kBIN98k
 d5cNMfsAINREJ1tTG6olsNsLhOOPhQLXaql6R37zedOFa1OF
 }
 
+sprite $AzureServiceFabricClustersMd [14x14/16z] FOt50G0W3CGgbxB_n3ZaTQdQ8aJOHu8llinFz2rLCrXeuXCASik-H1NVV9cdxl4iOjRyMBGLb7UIFQ4rcvJEQm7xnZQGhbdioO0q6m
+
 !function AzureServiceFabricClusters($id, $name="Service Fabric Clusters", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureServiceFabricClusters', $name, $tech)
 !endfunction
 !function AzureServiceFabricClustersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServiceFabricClustersLg>', 'Service Fabric Clusters', $funcName, $content)
+  CloudCard($id, '<$AzureServiceFabricClustersMd>', 'Service Fabric Clusters', $funcName, $content)
 !endfunction
 @enduml

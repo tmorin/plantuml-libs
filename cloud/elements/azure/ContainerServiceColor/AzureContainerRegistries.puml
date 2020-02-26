@@ -4,10 +4,12 @@ NS_70GGW24HH9s3_9IyCc__DPpv9rV7y1TzaWFZYMgxkVctJgW1bXPwUWGcPe7iBFiS8oYaYLOfp79pZ
 Ju2TfBYUVkYi5ISPNd-_SouLUQ3wVezhzys7kxFUaE99yORjxLd_LcaioM591CvNiB_e0G
 }
 
+sprite $AzureContainerRegistriesMd [17x14/16z] HOm70WH010EHiVz_idObMpE8cRdoPTXVl5O2Eg-n2ZNdsq1R97RG9u3CcLA3c5zaWzc4jz-E4_0EI8BnR8TxW1GXqHd_q6aq5t8sSMMhJ-0VCE1Yx1Jqt-TN
+
 !function AzureContainerRegistries($id, $name="Container Registries", $tech="")
   CloudElement($id, 'azure/ContainerServiceColor/AzureContainerRegistries', $name, $tech)
 !endfunction
 !function AzureContainerRegistriesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureContainerRegistriesLg>', 'Container Registries', $funcName, $content)
+  CloudCard($id, '<$AzureContainerRegistriesMd>', 'Container Registries', $funcName, $content)
 !endfunction
 @enduml

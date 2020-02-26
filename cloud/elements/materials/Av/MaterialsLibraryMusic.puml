@@ -4,10 +4,12 @@ TSjN0i1014LHJ2_O_sfJfMVkv-71CBf2eyXhiiII3OkkSMjDb6aZt2qXKbLPZ3BPNu3J-3I_Rj-cIpVh
 LtR9V5NGa6x1g1a
 }
 
+sprite $MaterialsLibraryMusicMd [14x14/16z] NSV50S0W50MmzwN5OVzfgtXkmOvEyvDtMah9plfY0APtaUbuP_XT4EFxlD5OsZo3Kvy5EFT5PLFgf5JdEuZ-wDd1Fy93J2NOtG
+
 !function MaterialsLibraryMusic($id, $name="Library Music", $tech="")
   CloudElement($id, 'materials/Av/MaterialsLibraryMusic', $name, $tech)
 !endfunction
 !function MaterialsLibraryMusicCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLibraryMusicLg>', 'Library Music', $funcName, $content)
+  CloudCard($id, '<$MaterialsLibraryMusicMd>', 'Library Music', $funcName, $content)
 !endfunction
 @enduml

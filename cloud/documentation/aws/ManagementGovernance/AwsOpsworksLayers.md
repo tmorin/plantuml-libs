@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsOpsworksLayers
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOpsworksLayers element
@@ -34,7 +34,7 @@ AwsOpsworksLayers('element', 'Opsworks Layers', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOpsworksLayers element
@@ -53,8 +53,8 @@ AwsOpsworksLayers('element', 'Opsworks Layers', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOpsworksLayers card
 include('elements/aws/ManagementGovernance/AwsOpsworksLayers')
@@ -71,8 +71,8 @@ AwsOpsworksLayersCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOpsworksLayers card
 include('elements/aws/ManagementGovernance/AwsOpsworksLayers')

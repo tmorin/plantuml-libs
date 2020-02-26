@@ -16,8 +16,8 @@ elements/azure/WebServiceColor/AzureAppServiceCertificates
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServiceCertificates element
 include('elements/azure/WebServiceColor/AzureAppServiceCertificates')
@@ -34,8 +34,8 @@ AzureAppServiceCertificates('element', 'App Service Certificates', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServiceCertificates element
 include('elements/azure/WebServiceColor/AzureAppServiceCertificates')
@@ -53,8 +53,8 @@ AzureAppServiceCertificates('element', 'App Service Certificates', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServiceCertificates card
 include('elements/azure/WebServiceColor/AzureAppServiceCertificates')
@@ -71,8 +71,8 @@ AzureAppServiceCertificatesCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServiceCertificates card
 include('elements/azure/WebServiceColor/AzureAppServiceCertificates')

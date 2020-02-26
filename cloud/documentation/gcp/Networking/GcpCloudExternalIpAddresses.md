@@ -16,8 +16,8 @@ elements/gcp/Networking/GcpCloudExternalIpAddresses
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudExternalIpAddresses element
 include('elements/gcp/Networking/GcpCloudExternalIpAddresses')
@@ -34,8 +34,8 @@ GcpCloudExternalIpAddresses('element', 'Cloud External Ip Addresses', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudExternalIpAddresses element
 include('elements/gcp/Networking/GcpCloudExternalIpAddresses')
@@ -53,7 +53,7 @@ GcpCloudExternalIpAddresses('element', 'Cloud External Ip Addresses', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudExternalIpAddresses card
@@ -71,7 +71,7 @@ GcpCloudExternalIpAddressesCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudExternalIpAddresses card

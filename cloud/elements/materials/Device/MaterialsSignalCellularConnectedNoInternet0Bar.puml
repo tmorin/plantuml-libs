@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSignalCellularConnectedNoInternet0BarLg [20x20/16z] dSn50e0020LH_jXr_-kwCG5pbe-mloaX4Y8X0abwTwXAZZ0cJkHD11F1H32nMuSZzsirFCaOiH2MDWC
 
+sprite $MaterialsSignalCellularConnectedNoInternet0BarMd [14x14/16z] ZSb15a0m5CNGdu3zhnZ0QsVDx9xKMD126W3T8H3NGDn-HFWg40oaRZsTMAhl
+
 !function MaterialsSignalCellularConnectedNoInternet0Bar($id, $name="Signal Cellular Connected No Internet0 Bar", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar', $name, $tech)
 !endfunction
 !function MaterialsSignalCellularConnectedNoInternet0BarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSignalCellularConnectedNoInternet0BarLg>', 'Signal Cellular Connected No Internet0 Bar', $funcName, $content)
+  CloudCard($id, '<$MaterialsSignalCellularConnectedNoInternet0BarMd>', 'Signal Cellular Connected No Internet0 Bar', $funcName, $content)
 !endfunction
 @enduml

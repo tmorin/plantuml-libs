@@ -16,7 +16,7 @@ elements/aws/DeveloperTools/AwsCodebuild
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCodebuild element
@@ -34,7 +34,7 @@ AwsCodebuild('element', 'Codebuild', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCodebuild element
@@ -53,8 +53,8 @@ AwsCodebuild('element', 'Codebuild', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCodebuild card
 include('elements/aws/DeveloperTools/AwsCodebuild')
@@ -71,8 +71,8 @@ AwsCodebuildCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCodebuild card
 include('elements/aws/DeveloperTools/AwsCodebuild')

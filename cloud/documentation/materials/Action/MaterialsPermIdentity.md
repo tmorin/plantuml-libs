@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPermIdentity
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermIdentity element
 include('elements/materials/Action/MaterialsPermIdentity')
@@ -34,8 +34,8 @@ MaterialsPermIdentity('element', 'Perm Identity', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermIdentity element
 include('elements/materials/Action/MaterialsPermIdentity')
@@ -53,8 +53,8 @@ MaterialsPermIdentity('element', 'Perm Identity', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermIdentity card
 include('elements/materials/Action/MaterialsPermIdentity')
@@ -71,8 +71,8 @@ MaterialsPermIdentityCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermIdentity card
 include('elements/materials/Action/MaterialsPermIdentity')

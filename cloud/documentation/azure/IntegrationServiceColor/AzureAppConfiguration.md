@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureAppConfiguration
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppConfiguration element
 include('elements/azure/IntegrationServiceColor/AzureAppConfiguration')
@@ -34,8 +34,8 @@ AzureAppConfiguration('element', 'App Configuration', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppConfiguration element
 include('elements/azure/IntegrationServiceColor/AzureAppConfiguration')
@@ -53,8 +53,8 @@ AzureAppConfiguration('element', 'App Configuration', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppConfiguration card
 include('elements/azure/IntegrationServiceColor/AzureAppConfiguration')
@@ -71,8 +71,8 @@ AzureAppConfigurationCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppConfiguration card
 include('elements/azure/IntegrationServiceColor/AzureAppConfiguration')

@@ -4,10 +4,15 @@ RT055eD034NH9XFFt_zwcuDMU3XtqCH3-fhGuUxn5MAJMVz4bLz2miyYYL9wa5K0Ml-5LA9JbV-4vxGC
 XcfCrRtBbU7iL-IIGiTTskfJ8dfllqDoOg_bHLlxMAVhTadN_yLai-SRzDf_fyXnRBfuTb5oZRypiWwUqsy
 }
 
+sprite $AzureSecureVirtualMachineMd [18x14/16z] {
+JSw5OGGn30H0eK7h_kkD8Cd_tfd6YE-yO2AuY6YLZ8UaA6N4k9j_CRmhtyBhnFP_oQ8uVeDJ3ly9pejSmqOZv7TVPRUBRTv2N2lV1CQ_KGm0aQd6ekNqMtVs
+5g-2UJ6FoAccddMZJuYZ6qxq0m
+}
+
 !function AzureSecureVirtualMachine($id, $name="Secure Virtual Machine", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSecureVirtualMachine', $name, $tech)
 !endfunction
 !function AzureSecureVirtualMachineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSecureVirtualMachineLg>', 'Secure Virtual Machine', $funcName, $content)
+  CloudCard($id, '<$AzureSecureVirtualMachineMd>', 'Secure Virtual Machine', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ ZOq54iGm203Z2Vx_rzxLtNQc0RQ8kyK7Fpuh0GN3yAokGGIYxcdh95HVpRe7fkaC84fY9gG2aFjTN4lE
 XmrvS6gwmNHmJ1juS9ByXYGtpkD-5dr_FUq8xZD_
 }
 
+sprite $MaterialsRedeemMd [14x14/16z] PST50SG040ImMOO3_sxBtFo25tDcjosIrcqfc916-V_l5Kg0f_ady-EM3eH0YgW44jCOAe0eU9vW8_CgDZMlSzFpb3OwpIetPG3uW8SH
+
 !function MaterialsRedeem($id, $name="Redeem", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRedeem', $name, $tech)
 !endfunction
 !function MaterialsRedeemCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRedeemLg>', 'Redeem', $funcName, $content)
+  CloudCard($id, '<$MaterialsRedeemMd>', 'Redeem', $funcName, $content)
 !endfunction
 @enduml

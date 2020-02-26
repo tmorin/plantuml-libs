@@ -16,7 +16,7 @@ elements/aws/Storage/AwsElasticBlockStoreEbsSnapshot
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsSnapshot element
@@ -34,7 +34,7 @@ AwsElasticBlockStoreEbsSnapshot('element', 'Elastic Block Store Ebs Snapshot', '
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsSnapshot element
@@ -53,8 +53,8 @@ AwsElasticBlockStoreEbsSnapshot('element', 'Elastic Block Store Ebs Snapshot', '
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsSnapshot card
 include('elements/aws/Storage/AwsElasticBlockStoreEbsSnapshot')
@@ -71,8 +71,8 @@ AwsElasticBlockStoreEbsSnapshotCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsSnapshot card
 include('elements/aws/Storage/AwsElasticBlockStoreEbsSnapshot')

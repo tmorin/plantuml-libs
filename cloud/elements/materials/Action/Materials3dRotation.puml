@@ -4,10 +4,12 @@ ZK-54GCW38nRRVzjYrvT7dy10XiOvRmFD_9oZ6SMdQK4Na3vZYnw9IMsIctmSE1wHyqKqyon7tpQcag1
 xIyByNSn-OuiOSVdU1ml-Km2MyMDl08
 }
 
+sprite $Materials3dRotationMd [14x14/16z] NOo53KHH3CESfg2t_y27doqCygTNYGDDj-54J_ahXuWGkBx2vNO9pQzIKTWGyLF-AqQ4yz-4ylcotPxuANjqIjLg_hm1
+
 !function Materials3dRotation($id, $name="Rotation", $tech="")
   CloudElement($id, 'materials/Action/Materials3dRotation', $name, $tech)
 !endfunction
 !function Materials3dRotationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$Materials3dRotationLg>', 'Rotation', $funcName, $content)
+  CloudCard($id, '<$Materials3dRotationMd>', 'Rotation', $funcName, $content)
 !endfunction
 @enduml

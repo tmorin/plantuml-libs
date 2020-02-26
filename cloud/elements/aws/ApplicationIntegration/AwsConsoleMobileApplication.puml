@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsConsoleMobileApplicationLg [20x20/16z] bP250SH020JVPXUk_tu_xZx96GxbATco41duGSojVjRlAx6GgO65ZEcOPBcLEKtCPAcQMeI2NXBHYjpgPbQogR6MyLgkQt73PHz5jFXYLfTK
+sprite $AwsConsoleMobileApplicationLg [20x20/16z] {
+ZSZ7WG9030F0Ex2abUc_Nxo9dEOvNjeDRpyU4PrkhaNbaOX-kGy4i2xdmPqmBvzl9Kt8xNei2WK4ZtDJByW6O8zZ9w8Ghip9iblfvtrmshw_KCVxOuVRIsBG
+xQMlJdbhtOiy0m
+}
+
+sprite $AwsConsoleMobileApplicationMd [14x14/16z] RSe53W9H54DHhFRO_txvnM7cndgI9itFTcJW0hx4wY9xAYaslLIgfuV6ehYgqWKASFhqIXATJ9EJV0IIbvVCbghbsNLULJS
 
 !function AwsConsoleMobileApplication($id, $name="Console Mobile Application", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsConsoleMobileApplication', $name, $tech)
 !endfunction
 !function AwsConsoleMobileApplicationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsConsoleMobileApplicationLg>', 'Console Mobile Application', $funcName, $content)
+  CloudCard($id, '<$AwsConsoleMobileApplicationMd>', 'Console Mobile Application', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ RP055i0W34DhINV_2qy2R_wdX50puHCx2Px4b9pB2QUrbXirR7tNMaReLnn_E1BehtAdj1jcFBxbxk5U
 4MUERorBF6gMXF_UlZCGpe_jd6btdpFzp7u3
 }
 
+sprite $GcpCloudTpuMd [14x14/16z] LSu70WGn209058p-_yL7lCvkogG326u2k3YzEKlDApAoPzfndK2v4Icpm3Q2J7dKSCKYEUwzLDJLhamfhlWynJ7EwuRPvE_jzNcPqM7ylVe1
+
 !function GcpCloudTpu($id, $name="Cloud Tpu", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudTpu', $name, $tech)
 !endfunction
 !function GcpCloudTpuCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudTpuLg>', 'Cloud Tpu', $funcName, $content)
+  CloudCard($id, '<$GcpCloudTpuMd>', 'Cloud Tpu', $funcName, $content)
 !endfunction
 @enduml

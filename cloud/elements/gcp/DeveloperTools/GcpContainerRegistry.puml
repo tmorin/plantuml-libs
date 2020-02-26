@@ -4,10 +4,12 @@ RP050WD120DN8E7_BoxMyxHdiq57QhR6eOL3gz647K9RnIwIil7Ac4QDD-TzroZWBzWm-7_vERqCug6U
 qAm1fVcjQdGlrT-6tzU_PpkatxEzTz2xUjgEdTBLE_tO_Gy
 }
 
+sprite $GcpContainerRegistryMd [14x14/16z] JKw74S102FfN4FQVE5owlSjQQ_T9Es6IqKbpfl1DI59wCjLQj21DZBbQ1bqbmafYf04DR2K3ysEdTpO1a35sNrTyclb_SFs_yq5sFZ-H_L4V
+
 !function GcpContainerRegistry($id, $name="Container Registry", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpContainerRegistry', $name, $tech)
 !endfunction
 !function GcpContainerRegistryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpContainerRegistryLg>', 'Container Registry', $funcName, $content)
+  CloudCard($id, '<$GcpContainerRegistryMd>', 'Container Registry', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ ROv94i0W20IZ30ZP_l_Sm1oozqcxceBff0EGTdvRFWNGfDy2AZFJnWWCe4Q4MPaCxEOa6vQaN9CKmswW
 fU1Eg6TLD_S2TJLiI9jEu9cuZrGd6h5ks-flbpmSU7EyPddpp-powE34wdq
 }
 
+sprite $AzureStorageSyncServicesMd [14x14/16z] TSc53GLG34BH2l2q-u_xtUN6EC4kUGBfrvMHF8Mpm7CwvQUB3uKve7iCaABwt7kUUCP9OrwKkWOrAIqI2O9i3BlahQltCoxgisg-QAtnvsjZZEvcHm
+
 !function AzureStorageSyncServices($id, $name="Storage Sync Services", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureStorageSyncServices', $name, $tech)
 !endfunction
 !function AzureStorageSyncServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStorageSyncServicesLg>', 'Storage Sync Services', $funcName, $content)
+  CloudCard($id, '<$AzureStorageSyncServicesMd>', 'Storage Sync Services', $funcName, $content)
 !endfunction
 @enduml

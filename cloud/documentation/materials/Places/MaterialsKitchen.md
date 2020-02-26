@@ -16,8 +16,8 @@ elements/materials/Places/MaterialsKitchen
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKitchen element
 include('elements/materials/Places/MaterialsKitchen')
@@ -34,8 +34,8 @@ MaterialsKitchen('element', 'Kitchen', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKitchen element
 include('elements/materials/Places/MaterialsKitchen')
@@ -53,8 +53,8 @@ MaterialsKitchen('element', 'Kitchen', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKitchen card
 include('elements/materials/Places/MaterialsKitchen')
@@ -71,8 +71,8 @@ MaterialsKitchenCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKitchen card
 include('elements/materials/Places/MaterialsKitchen')

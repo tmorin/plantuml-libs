@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsVolumeDown
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVolumeDown element
 include('elements/materials/Av/MaterialsVolumeDown')
@@ -34,8 +34,8 @@ MaterialsVolumeDown('element', 'Volume Down', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVolumeDown element
 include('elements/materials/Av/MaterialsVolumeDown')
@@ -53,8 +53,8 @@ MaterialsVolumeDown('element', 'Volume Down', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVolumeDown card
 include('elements/materials/Av/MaterialsVolumeDown')
@@ -71,8 +71,8 @@ MaterialsVolumeDownCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVolumeDown card
 include('elements/materials/Av/MaterialsVolumeDown')

@@ -16,8 +16,8 @@ elements/azure/ComputeServiceColor/Vm/AzureVmLinux
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmLinux element
 include('elements/azure/ComputeServiceColor/Vm/AzureVmLinux')
@@ -34,8 +34,8 @@ AzureVmLinux('element', 'Vm Linux', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmLinux element
 include('elements/azure/ComputeServiceColor/Vm/AzureVmLinux')
@@ -53,8 +53,8 @@ AzureVmLinux('element', 'Vm Linux', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmLinux card
 include('elements/azure/ComputeServiceColor/Vm/AzureVmLinux')
@@ -71,8 +71,8 @@ AzureVmLinuxCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVmLinux card
 include('elements/azure/ComputeServiceColor/Vm/AzureVmLinux')

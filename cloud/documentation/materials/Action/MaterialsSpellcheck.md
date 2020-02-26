@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSpellcheck
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpellcheck element
 include('elements/materials/Action/MaterialsSpellcheck')
@@ -34,8 +34,8 @@ MaterialsSpellcheck('element', 'Spellcheck', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpellcheck element
 include('elements/materials/Action/MaterialsSpellcheck')
@@ -53,8 +53,8 @@ MaterialsSpellcheck('element', 'Spellcheck', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpellcheck card
 include('elements/materials/Action/MaterialsSpellcheck')
@@ -71,8 +71,8 @@ MaterialsSpellcheckCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpellcheck card
 include('elements/materials/Action/MaterialsSpellcheck')

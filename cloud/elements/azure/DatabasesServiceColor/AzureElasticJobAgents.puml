@@ -4,10 +4,12 @@ LOy50W8n30IpblB_5yFYD_L9QbC0ai1ya8i8u1ss4rCarVYwKn33gT7jdBCXP_oiEWzkImuYVCIfUF0d
 GZU3OZDC9noGC8WP9h7PW_pvTiUF-4Eoz2_W67Crd_KT
 }
 
+sprite $AzureElasticJobAgentsMd [12x14/16z] FSV70O1048LGVXZjlsApo-a1o8bvKjhwIdYQs5Z1-rL4bWs_nrTwlKqYK6zV8uIx9nEZnjtYo-bKo0Pr9E0sZt1h_XBkJW
+
 !function AzureElasticJobAgents($id, $name="Elastic Job Agents", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureElasticJobAgents', $name, $tech)
 !endfunction
 !function AzureElasticJobAgentsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureElasticJobAgentsLg>', 'Elastic Job Agents', $funcName, $content)
+  CloudCard($id, '<$AzureElasticJobAgentsMd>', 'Elastic Job Agents', $funcName, $content)
 !endfunction
 @enduml

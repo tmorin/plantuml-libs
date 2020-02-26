@@ -4,10 +4,12 @@ XSy75iCW30DGon74Vc7S_xPblkvMcVePWFmBy6w7HRqtnX1Q1sqZc6iB6S7O8RZxe1hGq22YhQ-a2ChH
 4iQuOe_6RXI_MrA9AKNHTBTg45M1tSTjSQhIwx3xEbAQrzmCLd9FMHU3DDIdG3xc1W
 }
 
+sprite $MaterialsLinkedCameraMd [14x14/16z] ROh50KDH3CFYu7_e_RSjStKoIFvZZbj0P9fQdYlSYsHPc8iap-mz_VoAd8-LgZcg_DhYR2FEzgLDFQVGUMi3IIR6hT7qEDHuRzq0wu_6rThYjLazCVda1
+
 !function MaterialsLinkedCamera($id, $name="Linked Camera", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLinkedCamera', $name, $tech)
 !endfunction
 !function MaterialsLinkedCameraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLinkedCameraLg>', 'Linked Camera', $funcName, $content)
+  CloudCard($id, '<$MaterialsLinkedCameraMd>', 'Linked Camera', $funcName, $content)
 !endfunction
 @enduml

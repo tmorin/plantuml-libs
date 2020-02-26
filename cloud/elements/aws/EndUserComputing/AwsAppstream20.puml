@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsAppstream20Lg [20x20/16z] fSq54eH044FHafPqxd_VNHXDKOPy_3729zLkI9ZlWYrOrWnU0nqSLJD1CK4rucBfSUGfrlP5fQiHvqi58DOG0KUpZHM4GupmZ7ON8ypRtIWXsptuhJy
 
+sprite $AwsAppstream20Md [14x14/16z] VOi54eGm0CJ6Rkt__prWSKqrapPNl50XYC8co0MjvoEcDnD7jDbF5brhZ4dNgcE3-hkFnuosgX8pdmm
+
 !function AwsAppstream20($id, $name="Appstream20", $tech="")
   CloudElement($id, 'aws/EndUserComputing/AwsAppstream20', $name, $tech)
 !endfunction
 !function AwsAppstream20Card($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAppstream20Lg>', 'Appstream20', $funcName, $content)
+  CloudCard($id, '<$AwsAppstream20Md>', 'Appstream20', $funcName, $content)
 !endfunction
 @enduml

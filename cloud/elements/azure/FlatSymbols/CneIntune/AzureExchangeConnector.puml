@@ -4,10 +4,12 @@ ROy5UiKW48HP5-v_tmxvwARo_kW8jW29CE4h-AvBT7VGylCPhrH3j4mhN-yCJC7VUDQGZeSorfZey19c
 x_7k0GAVsH-B217JFUz0LQEdM_t9an74pCGUcD-53YS_Qk_TUoEfAaKZmgqVp09ypy4FTyDV
 }
 
+sprite $AzureExchangeConnectorMd [14x14/16z] JOo50S1020C9a3pqzv-tReUhcILpTw8TeCV8hD4ugt8B0GKxe10EbrqaTqjS1GDmYFRSCO_m_6H8xVSN0fHWDnhse-gAy1trejWZihl6CkTKTHFkSEximR41
+
 !function AzureExchangeConnector($id, $name="Exchange Connector", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureExchangeConnector', $name, $tech)
 !endfunction
 !function AzureExchangeConnectorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureExchangeConnectorLg>', 'Exchange Connector', $funcName, $content)
+  CloudCard($id, '<$AzureExchangeConnectorMd>', 'Exchange Connector', $funcName, $content)
 !endfunction
 @enduml

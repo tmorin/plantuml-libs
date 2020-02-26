@@ -4,10 +4,12 @@ ZT1L0e1024LHG9naVFjVhTrz_pnEq_z4Tyb4PjbWrc38HbIhM4ib6MCwMcPoYVbWfgueAVQ6afGuRZQj
 uNCyl-J57DCSrukbk9Oc4yCkaxkt-by7
 }
 
+sprite $MaterialsSatelliteMd [14x14/16z] NSu54e0m34HHkjN8Jkv_Mjm_LDvOElrAE4iRP8WD9oahCL9fq8WWLaaHW9Ui8OsuD80LFENc3CbwY2p5C6KUgkksZggxh9QzQjYcyqpIzsM_5W
+
 !function MaterialsSatellite($id, $name="Satellite", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsSatellite', $name, $tech)
 !endfunction
 !function MaterialsSatelliteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSatelliteLg>', 'Satellite', $funcName, $content)
+  CloudCard($id, '<$MaterialsSatelliteMd>', 'Satellite', $funcName, $content)
 !endfunction
 @enduml

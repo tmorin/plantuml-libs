@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsCenterFocusWeak
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCenterFocusWeak element
 include('elements/materials/Image/MaterialsCenterFocusWeak')
@@ -34,8 +34,8 @@ MaterialsCenterFocusWeak('element', 'Center Focus Weak', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCenterFocusWeak element
 include('elements/materials/Image/MaterialsCenterFocusWeak')
@@ -53,8 +53,8 @@ MaterialsCenterFocusWeak('element', 'Center Focus Weak', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCenterFocusWeak card
 include('elements/materials/Image/MaterialsCenterFocusWeak')
@@ -71,8 +71,8 @@ MaterialsCenterFocusWeakCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCenterFocusWeak card
 include('elements/materials/Image/MaterialsCenterFocusWeak')

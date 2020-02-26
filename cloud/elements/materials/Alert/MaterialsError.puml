@@ -4,10 +4,12 @@ VP053WCm30CNabn8y__N3efZYw8B-_97n4olG57S2_HWHao15ygnbGUaNjM0rYjxk_Q2obnxe0-6mOW6
 tFpbjoyU_FJgUFfRDm
 }
 
+sprite $MaterialsErrorMd [14x14/16z] PKw30S0m48oD_RTjuxTvWf6otbkr4rlwJyMkP8IZC58r0cD6IQrMrxglfd-PtvbpArkJ8GnhoHNouNqdo2Xz
+
 !function MaterialsError($id, $name="Error", $tech="")
   CloudElement($id, 'materials/Alert/MaterialsError', $name, $tech)
 !endfunction
 !function MaterialsErrorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsErrorLg>', 'Error', $funcName, $content)
+  CloudCard($id, '<$MaterialsErrorMd>', 'Error', $funcName, $content)
 !endfunction
 @enduml

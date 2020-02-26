@@ -4,10 +4,12 @@ ZT350OG030NHUFBH_gjT5npc-8v3cx7CuYTLDwiUABth9E_bQKAJv6k14aa0yJSq8T5bDfXO45KHnSA0
 YDT0dSMqsHq
 }
 
+sprite $MaterialsNfcMd [14x14/16z] LSc54K0X30JHs1sG_llzYkxecvKpO-dHH0gyX_B8r4qUg7sAZ6ZCwA80mgLQbw2rAjPJNQ_XgNLfVEadM0-FlCvSpcu
+
 !function MaterialsNfc($id, $name="Nfc", $tech="")
   CloudElement($id, 'materials/Device/MaterialsNfc', $name, $tech)
 !endfunction
 !function MaterialsNfcCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNfcLg>', 'Nfc', $funcName, $content)
+  CloudCard($id, '<$MaterialsNfcMd>', 'Nfc', $funcName, $content)
 !endfunction
 @enduml

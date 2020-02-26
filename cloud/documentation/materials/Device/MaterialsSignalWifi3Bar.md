@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalWifi3Bar
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi3Bar element
 include('elements/materials/Device/MaterialsSignalWifi3Bar')
@@ -34,8 +34,8 @@ MaterialsSignalWifi3Bar('element', 'Signal Wifi3 Bar', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi3Bar element
 include('elements/materials/Device/MaterialsSignalWifi3Bar')
@@ -53,8 +53,8 @@ MaterialsSignalWifi3Bar('element', 'Signal Wifi3 Bar', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi3Bar card
 include('elements/materials/Device/MaterialsSignalWifi3Bar')
@@ -71,8 +71,8 @@ MaterialsSignalWifi3BarCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi3Bar card
 include('elements/materials/Device/MaterialsSignalWifi3Bar')

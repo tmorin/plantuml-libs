@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsGetAppLg [20x20/16z] fSs52i0020HGXSEW_F-lNSyW5uysxkWTneRd3B71xraMQ6oqrqXS96Sv5EeaHtEOeoH2NuYd380aq4yh
 
+sprite $MaterialsGetAppMd [14x14/16z] VSp50S0020D0d7hsdxRkTYyqzCGYV7JHTN7gW8zEimAgr3KZC4f-_wC8UgSsMrCyPax_1W
+
 !function MaterialsGetApp($id, $name="Get App", $tech="")
   CloudElement($id, 'materials/Action/MaterialsGetApp', $name, $tech)
 !endfunction
 !function MaterialsGetAppCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsGetAppLg>', 'Get App', $funcName, $content)
+  CloudCard($id, '<$MaterialsGetAppMd>', 'Get App', $funcName, $content)
 !endfunction
 @enduml

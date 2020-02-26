@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsGridOn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsGridOn element
 include('elements/materials/Image/MaterialsGridOn')
@@ -34,8 +34,8 @@ MaterialsGridOn('element', 'Grid On', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsGridOn element
 include('elements/materials/Image/MaterialsGridOn')
@@ -53,8 +53,8 @@ MaterialsGridOn('element', 'Grid On', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsGridOn card
 include('elements/materials/Image/MaterialsGridOn')
@@ -71,8 +71,8 @@ MaterialsGridOnCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsGridOn card
 include('elements/materials/Image/MaterialsGridOn')

@@ -4,10 +4,12 @@ ZT254GCn44DHBGHN6VTVRLZ7z8UVsJYUvwU0vIVx4bbLlCAhs5f-B1ds2J2_oihmxyGhPQB7oKi64Qmt
 gpx7yLu
 }
 
+sprite $MaterialsOpenInNewMd [14x14/16z] NSw54GGW44FH10t3zTykaZt_w1i3_CLqydun93LMpSTX4d4hSrf67aLM8AFI2joiG4iMTG65G7n4E5xvTJSOFuk8lpO
+
 !function MaterialsOpenInNew($id, $name="Open In New", $tech="")
   CloudElement($id, 'materials/Action/MaterialsOpenInNew', $name, $tech)
 !endfunction
 !function MaterialsOpenInNewCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsOpenInNewLg>', 'Open In New', $funcName, $content)
+  CloudCard($id, '<$MaterialsOpenInNewMd>', 'Open In New', $funcName, $content)
 !endfunction
 @enduml

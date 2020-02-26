@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsOpenWith
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOpenWith element
 include('elements/materials/Action/MaterialsOpenWith')
@@ -34,8 +34,8 @@ MaterialsOpenWith('element', 'Open With', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOpenWith element
 include('elements/materials/Action/MaterialsOpenWith')
@@ -53,8 +53,8 @@ MaterialsOpenWith('element', 'Open With', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOpenWith card
 include('elements/materials/Action/MaterialsOpenWith')
@@ -71,8 +71,8 @@ MaterialsOpenWithCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOpenWith card
 include('elements/materials/Action/MaterialsOpenWith')

@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsTrain
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTrain element
 include('elements/materials/Maps/MaterialsTrain')
@@ -34,8 +34,8 @@ MaterialsTrain('element', 'Train', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTrain element
 include('elements/materials/Maps/MaterialsTrain')
@@ -53,8 +53,8 @@ MaterialsTrain('element', 'Train', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTrain card
 include('elements/materials/Maps/MaterialsTrain')
@@ -71,8 +71,8 @@ MaterialsTrainCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTrain card
 include('elements/materials/Maps/MaterialsTrain')

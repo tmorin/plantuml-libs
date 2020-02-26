@@ -16,7 +16,7 @@ elements/aws/GroupIcons/AwsElasticBeanstalkContainer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkContainer element
@@ -34,7 +34,7 @@ AwsElasticBeanstalkContainer('element', 'Elastic Beanstalk Container', 'an optio
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkContainer element
@@ -53,8 +53,8 @@ AwsElasticBeanstalkContainer('element', 'Elastic Beanstalk Container', 'an optio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkContainer card
 include('elements/aws/GroupIcons/AwsElasticBeanstalkContainer')
@@ -71,8 +71,8 @@ AwsElasticBeanstalkContainerCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkContainer card
 include('elements/aws/GroupIcons/AwsElasticBeanstalkContainer')

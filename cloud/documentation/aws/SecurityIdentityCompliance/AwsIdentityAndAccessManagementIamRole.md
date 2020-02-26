@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamRole
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamRole element
@@ -34,7 +34,7 @@ AwsIdentityAndAccessManagementIamRole('element', 'Identity And Access Management
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamRole element
@@ -53,8 +53,8 @@ AwsIdentityAndAccessManagementIamRole('element', 'Identity And Access Management
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamRole card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamRole')
@@ -71,8 +71,8 @@ AwsIdentityAndAccessManagementIamRoleCard('card', 'an optional functional name',
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamRole card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamRole')

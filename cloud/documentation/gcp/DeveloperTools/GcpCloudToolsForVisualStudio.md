@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpCloudToolsForVisualStudio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudToolsForVisualStudio element
 include('elements/gcp/DeveloperTools/GcpCloudToolsForVisualStudio')
@@ -34,8 +34,8 @@ GcpCloudToolsForVisualStudio('element', 'Cloud Tools For Visual Studio', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudToolsForVisualStudio element
 include('elements/gcp/DeveloperTools/GcpCloudToolsForVisualStudio')
@@ -53,7 +53,7 @@ GcpCloudToolsForVisualStudio('element', 'Cloud Tools For Visual Studio', 'an opt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudToolsForVisualStudio card
@@ -71,7 +71,7 @@ GcpCloudToolsForVisualStudioCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudToolsForVisualStudio card

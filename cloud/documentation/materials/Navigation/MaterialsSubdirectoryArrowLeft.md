@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsSubdirectoryArrowLeft
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSubdirectoryArrowLeft element
 include('elements/materials/Navigation/MaterialsSubdirectoryArrowLeft')
@@ -34,8 +34,8 @@ MaterialsSubdirectoryArrowLeft('element', 'Subdirectory Arrow Left', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSubdirectoryArrowLeft element
 include('elements/materials/Navigation/MaterialsSubdirectoryArrowLeft')
@@ -53,8 +53,8 @@ MaterialsSubdirectoryArrowLeft('element', 'Subdirectory Arrow Left', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSubdirectoryArrowLeft card
 include('elements/materials/Navigation/MaterialsSubdirectoryArrowLeft')
@@ -71,8 +71,8 @@ MaterialsSubdirectoryArrowLeftCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSubdirectoryArrowLeft card
 include('elements/materials/Navigation/MaterialsSubdirectoryArrowLeft')

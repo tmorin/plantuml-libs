@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureWorkstationClient
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWorkstationClient element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureWorkstationClient')
@@ -34,8 +34,8 @@ AzureWorkstationClient('element', 'Workstation Client', 'an optional tech field'
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWorkstationClient element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureWorkstationClient')
@@ -53,8 +53,8 @@ AzureWorkstationClient('element', 'Workstation Client', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWorkstationClient card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureWorkstationClient')
@@ -71,8 +71,8 @@ AzureWorkstationClientCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWorkstationClient card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureWorkstationClient')

@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsTraditionalServerLg [20x20/16z] pT2t5SGW54HH-Bx_XdSbl2VL3T-PQDm3f02NY75YKXgX14XD0mgWRQX1j_CO-BQH1dJTMT3jd0zSrv9ljldJ-Vi_
 
+sprite $AwsTraditionalServerMd [14x14/16z] hOx50S0m24NXs_uRrxtNl0WkLULik3OYBoY7HI_micA7_zZV0XTmMcC4UW6RzTfw1W
+
 !function AwsTraditionalServer($id, $name="Traditional Server", $tech="")
   CloudElement($id, 'aws/General/AwsTraditionalServer', $name, $tech)
 !endfunction
 !function AwsTraditionalServerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsTraditionalServerLg>', 'Traditional Server', $funcName, $content)
+  CloudCard($id, '<$AwsTraditionalServerMd>', 'Traditional Server', $funcName, $content)
 !endfunction
 @enduml

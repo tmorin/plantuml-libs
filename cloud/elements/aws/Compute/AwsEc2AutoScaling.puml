@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsEc2AutoScalingLg [20x20/16z] {
-RSy52aKn34HHI4Uo_mr_dGUrYvzg_4jBlg3JrO33M8N304uMf3SJni1ieZ603u8niG3uwmK-Dlw6MCzd3Vbh_NmPK2Rge4adTL2a7kmWgpXPa9uiwCbEx0k-
-0G
-}
+sprite $AwsEc2AutoScalingLg [20x20/16z] VP350SH05489bluxNjUHT_mAO4SobDpwhqHT8VwGC42E5UcxIe3DbH9urYqm1t24a765SgdWIiHQlDTElMewhxLnT_PZq39g7f2moM2NrRLexBW
+
+sprite $AwsEc2AutoScalingMd [14x14/16z] bOwr0S00409vPF-HuqQPgru17CpWPP9FIubuuTlKZc2a4DmRMm8acztLvH-7JjQfLm
 
 !function AwsEc2AutoScaling($id, $name="Ec2 Auto Scaling", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2AutoScaling', $name, $tech)
 !endfunction
 !function AwsEc2AutoScalingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2AutoScalingLg>', 'Ec2 Auto Scaling', $funcName, $content)
+  CloudCard($id, '<$AwsEc2AutoScalingMd>', 'Ec2 Auto Scaling', $funcName, $content)
 !endfunction
 @enduml

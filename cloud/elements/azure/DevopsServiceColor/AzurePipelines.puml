@@ -4,10 +4,12 @@ NS-70S0W20H04MdkFt1uqRHFzQoqEwnMqPi8LBbDC494NyQWmJmqZLOw-eKp6EyhjJWiEsEbp33NZjcE
 iIu2yPYnZFDDdH9ZpcsZLb38pmno6nDXUg6NPHXxEymQSW4
 }
 
+sprite $AzurePipelinesMd [14x14/16z] HSq75e0m20DG-yA-_u45ueZp1sqlHdnY1EQrhyNfDu7qRQ8z0M2UdN3VsbS3_lUCR0kn7uPUpepGmvqNgVtQ1PfHDS8qdlLelhPw96WVRqdh1W
+
 !function AzurePipelines($id, $name="Pipelines", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzurePipelines', $name, $tech)
 !endfunction
 !function AzurePipelinesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzurePipelinesLg>', 'Pipelines', $funcName, $content)
+  CloudCard($id, '<$AzurePipelinesMd>', 'Pipelines', $funcName, $content)
 !endfunction
 @enduml

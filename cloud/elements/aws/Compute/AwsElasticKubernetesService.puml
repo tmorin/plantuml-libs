@@ -4,10 +4,12 @@ RSw54O0m40J0cPob_uhvn-qWjj6iyIFvmHmelKqOWEvcKaKiFQma1co1kucziYARt4t5sbRfCaOzmjCu
 ZjihPQMYibMxxKewJujBdbQOotvm0G
 }
 
+sprite $AwsElasticKubernetesServiceMd [14x14/16z] LSt50G0W30F0HoFTVs5SWnxg5fruyKg8m1OXWE0GAJQ9619xe2q5zGYzDgMvRWQiJD7g3dLPrFZ6TkOmQIyrh_og
+
 !function AwsElasticKubernetesService($id, $name="Elastic Kubernetes Service", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticKubernetesService', $name, $tech)
 !endfunction
 !function AwsElasticKubernetesServiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElasticKubernetesServiceLg>', 'Elastic Kubernetes Service', $funcName, $content)
+  CloudCard($id, '<$AwsElasticKubernetesServiceMd>', 'Elastic Kubernetes Service', $funcName, $content)
 !endfunction
 @enduml

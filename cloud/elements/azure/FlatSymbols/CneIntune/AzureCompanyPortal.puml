@@ -4,10 +4,12 @@ VSk7aKKn24DHG61Xjlz-r__bV63Y7OdYoiV1HBEkiezBG_rTLEJlW7e1fCtm-rq2bA0ob0vQK1Ry5Gy9
 DYBniP6t3Lys-hQnHlfZqHzSYXAQ_CdYMQeO_0T-0fD_
 }
 
+sprite $AzureCompanyPortalMd [18x14/16z] PSm50e0W44HHbvalTV_psksZsGZ66ukWtrek9JFMyWPIyZvYM0XaER6EyoSl7PTroe2ax7Gos4wZXfD0m_z7tv_uvjXyVf2LqGc2nSWjPW
+
 !function AzureCompanyPortal($id, $name="Company Portal", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureCompanyPortal', $name, $tech)
 !endfunction
 !function AzureCompanyPortalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCompanyPortalLg>', 'Company Portal', $funcName, $content)
+  CloudCard($id, '<$AzureCompanyPortalMd>', 'Company Portal', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/MigrationTransfer/AwsServerMigrationService
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsServerMigrationService element
@@ -34,7 +34,7 @@ AwsServerMigrationService('element', 'Server Migration Service', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsServerMigrationService element
@@ -53,8 +53,8 @@ AwsServerMigrationService('element', 'Server Migration Service', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsServerMigrationService card
 include('elements/aws/MigrationTransfer/AwsServerMigrationService')
@@ -71,8 +71,8 @@ AwsServerMigrationServiceCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsServerMigrationService card
 include('elements/aws/MigrationTransfer/AwsServerMigrationService')

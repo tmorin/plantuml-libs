@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsAuroraLg [20x20/16z] {
-TSu50WD124FH2WaXS__xbg5kV_snvgvUa-GVw1_uD44tR13HKV6qdBc8lRyPqFkgFAlKsnX94BssiMvMdXEAh9kXqIv58cfQYnDcvTrg_c-U978CQ7IUOyyY
-z7oMIbGXxyykxvY0R6yhxg580pDiMrQIALlojEvv-cy_y08
+hOv50W8m30IHPgt_VozQkyESufFyWvxopeGtz54JvDXybsQrldqrTRTHnA0SCwFchmCc-zp5tAtA00iIUtTyb10wlBg_dMvDnwvOTcdiwci3KHfY5MKBoFR6
+940bKdxc2G
 }
+
+sprite $AwsAuroraMd [14x14/16z] XKp50SH047ejTltNUqb6tZikG2vcHvoPPQxv9pZMcQyeKh1SFtvC4AbVqK1gVmOI77ygP55BzgiMYpT4nSh57W
 
 !function AwsAurora($id, $name="Aurora", $tech="")
   CloudElement($id, 'aws/Database/AwsAurora', $name, $tech)
 !endfunction
 !function AwsAuroraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAuroraLg>', 'Aurora', $funcName, $content)
+  CloudCard($id, '<$AwsAuroraMd>', 'Aurora', $funcName, $content)
 !endfunction
 @enduml

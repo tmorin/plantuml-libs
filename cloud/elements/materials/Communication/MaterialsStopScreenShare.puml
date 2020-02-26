@@ -4,10 +4,12 @@ RSr50W0X241HiCRc_hSTk__oAG2l46zJ-aRc4Z8vuiKeeQAUmsIHAePGBB9Y5RNmcsNamDsqXW3SBsQ5
 HkqPZIXX3nF2sVorzmC
 }
 
+sprite $MaterialsStopScreenShareMd [14x14/16z] LOk54S0W5CM-5sV_RNiuvFH9u04LxsWVeWu8uAiVQgcDhwKMls-b5X6_bO8PWfIPbDE7AsMNkzkIrKQF1lAL7KbiynaA77I5nGy
+
 !function MaterialsStopScreenShare($id, $name="Stop Screen Share", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsStopScreenShare', $name, $tech)
 !endfunction
 !function MaterialsStopScreenShareCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsStopScreenShareLg>', 'Stop Screen Share', $funcName, $content)
+  CloudCard($id, '<$MaterialsStopScreenShareMd>', 'Stop Screen Share', $funcName, $content)
 !endfunction
 @enduml

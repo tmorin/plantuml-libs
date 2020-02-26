@@ -4,10 +4,12 @@ fOz50W9H34Enl3Iz_u6XZFtzr5twFfG4jKOYG7ehIwYwGQahE24ZPiGnY-74xZvcKc6QeidjhK9o_OkY
 HvNu_TaxZvc0qxVX2m
 }
 
+sprite $AwsCloudfrontMd [14x14/16z] XKt50G0X33kDiF_0rFxKDLa7CG5w6a7u0VK6OL6ZjfHfSuM5W7zi65QTALBJHPtFo5H5NW3DeK_HPHXsCZO7sG
+
 !function AwsCloudfront($id, $name="Cloudfront", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfront', $name, $tech)
 !endfunction
 !function AwsCloudfrontCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudfrontLg>', 'Cloudfront', $funcName, $content)
+  CloudCard($id, '<$AwsCloudfrontMd>', 'Cloudfront', $funcName, $content)
 !endfunction
 @enduml

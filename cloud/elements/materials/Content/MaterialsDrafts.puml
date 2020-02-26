@@ -4,10 +4,12 @@ fSm54WKn20FG6bBD_K-xBlqkcp7c0J5luaJShLZE8fbjHo55RupN53Rjvf3KBmDlFri7p-MLJ1SgRhAM
 rl9anjDDlBcK4G
 }
 
+sprite $MaterialsDraftsMd [14x14/16z] XOgr0GD024LnYBB_jEVI9Q_v2WD4k4Y4m89T4TLvdCm86cJMxcRhCfo_5CT7NzvIPZ00H-PC-J5xvqgBludqGF2B2W
+
 !function MaterialsDrafts($id, $name="Drafts", $tech="")
   CloudElement($id, 'materials/Content/MaterialsDrafts', $name, $tech)
 !endfunction
 !function MaterialsDraftsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDraftsLg>', 'Drafts', $funcName, $content)
+  CloudCard($id, '<$MaterialsDraftsMd>', 'Drafts', $funcName, $content)
 !endfunction
 @enduml

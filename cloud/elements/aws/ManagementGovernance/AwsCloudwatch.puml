@@ -4,10 +4,12 @@ RStN0SD020FG58HEyVxxvYZkrX-FfiuuH0-e1zn15tF0iEclQDO0Lmj4ZiECIfj8r4tHs3PgZExqYMd8
 7N4uuBlrEErk6chRiR8yuFA0Vm
 }
 
+sprite $AwsCloudwatchMd [14x14/16z] LSl50GCn44FHa6ZIVxtBfd_IC-JAJrbuJMaIHTwgH4e4N2hpVenBz060ugLK28cNp7D5K59LvpVo1v-wEh_oqcDxrjb_uGu
+
 !function AwsCloudwatch($id, $name="Cloudwatch", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatch', $name, $tech)
 !endfunction
 !function AwsCloudwatchCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudwatchLg>', 'Cloudwatch', $funcName, $content)
+  CloudCard($id, '<$AwsCloudwatchMd>', 'Cloudwatch', $funcName, $content)
 !endfunction
 @enduml

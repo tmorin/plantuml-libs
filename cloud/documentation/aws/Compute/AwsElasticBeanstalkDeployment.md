@@ -16,7 +16,7 @@ elements/aws/Compute/AwsElasticBeanstalkDeployment
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkDeployment element
@@ -34,7 +34,7 @@ AwsElasticBeanstalkDeployment('element', 'Elastic Beanstalk Deployment', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBeanstalkDeployment element
@@ -53,8 +53,8 @@ AwsElasticBeanstalkDeployment('element', 'Elastic Beanstalk Deployment', 'an opt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkDeployment card
 include('elements/aws/Compute/AwsElasticBeanstalkDeployment')
@@ -71,8 +71,8 @@ AwsElasticBeanstalkDeploymentCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBeanstalkDeployment card
 include('elements/aws/Compute/AwsElasticBeanstalkDeployment')

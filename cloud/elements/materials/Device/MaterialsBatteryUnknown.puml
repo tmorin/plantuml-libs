@@ -4,10 +4,12 @@ ZT350SGW54LH-8g__giTbtXobmSd71I9uj8KqBcmPI0RJoXMlAhnrAfPNLYX4AZCh6bqZzhcyn9gbBa1
 wWu
 }
 
+sprite $MaterialsBatteryUnknownMd [14x14/16z] PSsr0SD040NHvR-sgFzgnN0msOk6-XZW5uffWZxAPIzVJS3qoKNy4_wXdvQ_HA6mfP1xgOXIvSyIIAEk3G
+
 !function MaterialsBatteryUnknown($id, $name="Battery Unknown", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBatteryUnknown', $name, $tech)
 !endfunction
 !function MaterialsBatteryUnknownCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBatteryUnknownLg>', 'Battery Unknown', $funcName, $content)
+  CloudCard($id, '<$MaterialsBatteryUnknownMd>', 'Battery Unknown', $funcName, $content)
 !endfunction
 @enduml

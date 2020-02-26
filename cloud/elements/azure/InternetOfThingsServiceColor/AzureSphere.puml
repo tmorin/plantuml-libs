@@ -4,10 +4,12 @@ RSs5OS0W00H0U2NPV-0sMdtyi745RUVudXaDPdu3TSqnL_KWOiRJeODBAe1f2AY7pKFUwFZ41jvJW3rc
 8JS5SkcwuZfbKJtMSw3WEWN5cFqa1c2t4iX1ZdeiSBPMqG2XcWJf2iGu0xUhzRNy
 }
 
+sprite $AzureSphereMd [13x14/16z] FOu70iCm20DjeLF6_nzSGjjutda0wsd0-hMDbzd3XPavB9LBQjlDSgosROlplkyJsPIQ7rCHlQBqpJ5oz0snh-RB3eXAIwg9POk9jIX2gJkP6aGIrFG1
+
 !function AzureSphere($id, $name="Sphere", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureSphere', $name, $tech)
 !endfunction
 !function AzureSphereCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSphereLg>', 'Sphere', $funcName, $content)
+  CloudCard($id, '<$AzureSphereMd>', 'Sphere', $funcName, $content)
 !endfunction
 @enduml

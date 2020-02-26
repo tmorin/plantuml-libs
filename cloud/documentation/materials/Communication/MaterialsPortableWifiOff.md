@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsPortableWifiOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPortableWifiOff element
 include('elements/materials/Communication/MaterialsPortableWifiOff')
@@ -34,8 +34,8 @@ MaterialsPortableWifiOff('element', 'Portable Wifi Off', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPortableWifiOff element
 include('elements/materials/Communication/MaterialsPortableWifiOff')
@@ -53,8 +53,8 @@ MaterialsPortableWifiOff('element', 'Portable Wifi Off', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPortableWifiOff card
 include('elements/materials/Communication/MaterialsPortableWifiOff')
@@ -71,8 +71,8 @@ MaterialsPortableWifiOffCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPortableWifiOff card
 include('elements/materials/Communication/MaterialsPortableWifiOff')

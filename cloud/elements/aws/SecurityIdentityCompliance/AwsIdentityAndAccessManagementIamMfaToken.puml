@@ -4,10 +4,12 @@ VL3L0KLH2085zj_unUqyVja41b7TTMfGYPs8-yvIKAcjLRYat5fJSxgGjivMXIH8Tk6VPDg60rikna0A
 EJzhktjmz-hPq-Vu0W
 }
 
+sprite $AwsIdentityAndAccessManagementIamMfaTokenMd [14x14/16z] POw50GDH24CZZx__nlMUuavqem3abu0bmpV9V-9ljZAf6bmR2IyMawa-6OLsvjkptYA7ovNBX_tx1TcLdW
+
 !function AwsIdentityAndAccessManagementIamMfaToken($id, $name="Identity And Access Management Iam Mfa Token", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamMfaToken', $name, $tech)
 !endfunction
 !function AwsIdentityAndAccessManagementIamMfaTokenCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIdentityAndAccessManagementIamMfaTokenLg>', 'Identity And Access Management Iam Mfa Token', $funcName, $content)
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamMfaTokenMd>', 'Identity And Access Management Iam Mfa Token', $funcName, $content)
 !endfunction
 @enduml

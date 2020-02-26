@@ -5,10 +5,15 @@ PP05ikCm44J7dYPfQ-z_tL_ZSFBCRX3K6wUJkEi7HEY6KPySNEWByVXeYdLNcZheczhAbZm_Hy6Ae-bH
 eaRN6qtdhCEBzSuV
 }
 
+sprite $AzureHdinsightColorMd [18x14/16z] {
+HOy5beC034I1FnBkV-7TFDeITpa-G5kVnmkAGBu-xaag08Nm7t0d5fBef59YWqH2JUSE0VoqYSdmcSe3SmPYs4wnUYEs4abpspeq0cV5FRCdzbaao5oVOujI
+h_WySHKlrlb4ZarUxU_BFm
+}
+
 !function AzureHdinsightColor($id, $name="Hdinsight Color", $tech="")
   CloudElement($id, 'azure/Companies/AzureHdinsightColor', $name, $tech)
 !endfunction
 !function AzureHdinsightColorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHdinsightColorLg>', 'Hdinsight Color', $funcName, $content)
+  CloudCard($id, '<$AzureHdinsightColorMd>', 'Hdinsight Color', $funcName, $content)
 !endfunction
 @enduml

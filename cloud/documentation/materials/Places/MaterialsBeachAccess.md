@@ -16,8 +16,8 @@ elements/materials/Places/MaterialsBeachAccess
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBeachAccess element
 include('elements/materials/Places/MaterialsBeachAccess')
@@ -34,8 +34,8 @@ MaterialsBeachAccess('element', 'Beach Access', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBeachAccess element
 include('elements/materials/Places/MaterialsBeachAccess')
@@ -53,8 +53,8 @@ MaterialsBeachAccess('element', 'Beach Access', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBeachAccess card
 include('elements/materials/Places/MaterialsBeachAccess')
@@ -71,8 +71,8 @@ MaterialsBeachAccessCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBeachAccess card
 include('elements/materials/Places/MaterialsBeachAccess')

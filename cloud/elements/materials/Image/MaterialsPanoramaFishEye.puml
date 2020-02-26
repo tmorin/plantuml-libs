@@ -4,10 +4,12 @@ VL055eKm3FkLIVRQ-n_t6mw1-Qf9NWz3LELeS4Hcm3Up8fkRUKleOXgmwMKOar60DKNG_szFsofR-k_g
 MdKNekdz-
 }
 
+sprite $MaterialsPanoramaFishEyeMd [14x14/16z] PKw30S1038on_y35suWES2rITwMMQ2hpzzJ4yV_G_vJoJ_uqls7LcjJ8kMViUxPFxYodmbG_d9th1G
+
 !function MaterialsPanoramaFishEye($id, $name="Panorama Fish Eye", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPanoramaFishEye', $name, $tech)
 !endfunction
 !function MaterialsPanoramaFishEyeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPanoramaFishEyeLg>', 'Panorama Fish Eye', $funcName, $content)
+  CloudCard($id, '<$MaterialsPanoramaFishEyeMd>', 'Panorama Fish Eye', $funcName, $content)
 !endfunction
 @enduml

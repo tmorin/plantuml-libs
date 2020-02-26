@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsFindInPage
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFindInPage element
 include('elements/materials/Action/MaterialsFindInPage')
@@ -34,8 +34,8 @@ MaterialsFindInPage('element', 'Find In Page', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFindInPage element
 include('elements/materials/Action/MaterialsFindInPage')
@@ -53,8 +53,8 @@ MaterialsFindInPage('element', 'Find In Page', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFindInPage card
 include('elements/materials/Action/MaterialsFindInPage')
@@ -71,8 +71,8 @@ MaterialsFindInPageCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFindInPage card
 include('elements/materials/Action/MaterialsFindInPage')

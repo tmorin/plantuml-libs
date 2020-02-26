@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureTagLg [20x20/16z] LSg54SHG30DH9vyazz_lOMJOuJThqNK0ajCgVO3k1Q_z8ouyAA9lcquHgCyX0l_eJeZ0w7pjIyNsXnQwJH4wTLj9IB8XIqeKLHHL55KKDHG5YcgpqXi
 
+sprite $AzureTagMd [14x14/16z] HSV90O1G30BHloPW__sw4DGvpMlL0ibbJDubYXCtC98VU80Kf3i8hrAmC0GOBIIZzIq9Jo49ve_M0ramf-y2
+
 !function AzureTag($id, $name="Tag", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureTag', $name, $tech)
 !endfunction
 !function AzureTagCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTagLg>', 'Tag', $funcName, $content)
+  CloudCard($id, '<$AzureTagMd>', 'Tag', $funcName, $content)
 !endfunction
 @enduml

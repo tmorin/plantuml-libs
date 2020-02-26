@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsCloudfrontEdgeLocation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontEdgeLocation element
@@ -34,7 +34,7 @@ AwsCloudfrontEdgeLocation('element', 'Cloudfront Edge Location', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontEdgeLocation element
@@ -53,8 +53,8 @@ AwsCloudfrontEdgeLocation('element', 'Cloudfront Edge Location', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontEdgeLocation card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontEdgeLocation')
@@ -71,8 +71,8 @@ AwsCloudfrontEdgeLocationCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontEdgeLocation card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontEdgeLocation')

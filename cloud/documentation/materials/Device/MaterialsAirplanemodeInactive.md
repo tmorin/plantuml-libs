@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsAirplanemodeInactive
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeInactive element
 include('elements/materials/Device/MaterialsAirplanemodeInactive')
@@ -34,8 +34,8 @@ MaterialsAirplanemodeInactive('element', 'Airplanemode Inactive', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeInactive element
 include('elements/materials/Device/MaterialsAirplanemodeInactive')
@@ -53,8 +53,8 @@ MaterialsAirplanemodeInactive('element', 'Airplanemode Inactive', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeInactive card
 include('elements/materials/Device/MaterialsAirplanemodeInactive')
@@ -71,8 +71,8 @@ MaterialsAirplanemodeInactiveCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeInactive card
 include('elements/materials/Device/MaterialsAirplanemodeInactive')

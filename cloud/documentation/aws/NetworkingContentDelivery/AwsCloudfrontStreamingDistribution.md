@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsCloudfrontStreamingDistribution
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontStreamingDistribution element
@@ -34,7 +34,7 @@ AwsCloudfrontStreamingDistribution('element', 'Cloudfront Streaming Distribution
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontStreamingDistribution element
@@ -53,8 +53,8 @@ AwsCloudfrontStreamingDistribution('element', 'Cloudfront Streaming Distribution
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontStreamingDistribution card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontStreamingDistribution')
@@ -71,8 +71,8 @@ AwsCloudfrontStreamingDistributionCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontStreamingDistribution card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontStreamingDistribution')

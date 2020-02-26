@@ -4,10 +4,12 @@ XSrL0iCW44NHGKPuPF_hBIC9dxrjx62Ap7HXFoTqmifK3Djx9a5lvcq-9bNvVxC8Eg0V0KjOi7TPd51l
 C9cj4RNnMfzJJjpyeUA1Y8RU_LuZ7x_JqfgeYoKfA1eip6ljZBwQuOdm0m
 }
 
+sprite $AzureEnrollmentMd [14x14/16z] HSvN0aGX349HAmdH_QztODgxNnuxIp5uxhtPc2eYwHe15oeVfUBW5qn4bULTs7k35DnF7YsOKYOm9n0Re8-FtiT7lU_l6gJMEdp4iDhulPuboNsLltrU
+
 !function AzureEnrollment($id, $name="Enrollment", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureEnrollment', $name, $tech)
 !endfunction
 !function AzureEnrollmentCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureEnrollmentLg>', 'Enrollment', $funcName, $content)
+  CloudCard($id, '<$AzureEnrollmentMd>', 'Enrollment', $funcName, $content)
 !endfunction
 @enduml

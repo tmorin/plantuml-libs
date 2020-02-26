@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsLocalDrink
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalDrink element
 include('elements/materials/Maps/MaterialsLocalDrink')
@@ -34,8 +34,8 @@ MaterialsLocalDrink('element', 'Local Drink', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalDrink element
 include('elements/materials/Maps/MaterialsLocalDrink')
@@ -53,8 +53,8 @@ MaterialsLocalDrink('element', 'Local Drink', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalDrink card
 include('elements/materials/Maps/MaterialsLocalDrink')
@@ -71,8 +71,8 @@ MaterialsLocalDrinkCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalDrink card
 include('elements/materials/Maps/MaterialsLocalDrink')

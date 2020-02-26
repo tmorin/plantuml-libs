@@ -4,10 +4,12 @@ TP07TWGn24C74BAu_uLZFTAJrLH_EeyLE7Dr4C-7Ic83JQdUKGyhi_nmUf6GMRgw53AiGPfLcIMcdX3p
 QtsnpB7THlkD7jVOgCtW6b2PsN6_9OJuar7XsGeeCtynzR633s7wQrTnjRjwjTE_kty3
 }
 
+sprite $AzureIntegrationServiceEnvironmentsMd [14x14/16z] LOw70GGm208J47J_YL_zVgbspZbmDSOP8iL66MlmHcPSjease0YXJLWNc1XmvI8QQMvMpQrcl6DHt6iiGbvBO5cm0mWRCf9RCtTYfcFXIumsDiQ_wWS
+
 !function AzureIntegrationServiceEnvironments($id, $name="Integration Service Environments", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureIntegrationServiceEnvironments', $name, $tech)
 !endfunction
 !function AzureIntegrationServiceEnvironmentsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureIntegrationServiceEnvironmentsLg>', 'Integration Service Environments', $funcName, $content)
+  CloudCard($id, '<$AzureIntegrationServiceEnvironmentsMd>', 'Integration Service Environments', $funcName, $content)
 !endfunction
 @enduml

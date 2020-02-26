@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureCdnProfiles
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCdnProfiles element
 include('elements/azure/NetworkingServiceColor/AzureCdnProfiles')
@@ -34,8 +34,8 @@ AzureCdnProfiles('element', 'Cdn Profiles', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCdnProfiles element
 include('elements/azure/NetworkingServiceColor/AzureCdnProfiles')
@@ -53,8 +53,8 @@ AzureCdnProfiles('element', 'Cdn Profiles', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCdnProfiles card
 include('elements/azure/NetworkingServiceColor/AzureCdnProfiles')
@@ -71,8 +71,8 @@ AzureCdnProfilesCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCdnProfiles card
 include('elements/azure/NetworkingServiceColor/AzureCdnProfiles')

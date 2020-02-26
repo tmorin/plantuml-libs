@@ -16,8 +16,8 @@ elements/azure/MigrateServiceColor/AzureRecoveryServicesVaults
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRecoveryServicesVaults element
 include('elements/azure/MigrateServiceColor/AzureRecoveryServicesVaults')
@@ -34,8 +34,8 @@ AzureRecoveryServicesVaults('element', 'Recovery Services Vaults', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRecoveryServicesVaults element
 include('elements/azure/MigrateServiceColor/AzureRecoveryServicesVaults')
@@ -53,8 +53,8 @@ AzureRecoveryServicesVaults('element', 'Recovery Services Vaults', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRecoveryServicesVaults card
 include('elements/azure/MigrateServiceColor/AzureRecoveryServicesVaults')
@@ -71,8 +71,8 @@ AzureRecoveryServicesVaultsCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRecoveryServicesVaults card
 include('elements/azure/MigrateServiceColor/AzureRecoveryServicesVaults')

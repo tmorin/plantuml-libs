@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsS3GlacierLg [20x20/16z] {
-RSq9ZWGn24DHgO9juFu77fafUl_QNmAKozUa-e7r0qT4J7nO0fHdYD1jZDm5YBK3a28HPqrCYUOaRErzdWjwX6FTPIlwBF1YBebpSMtl2ZlRl0q8rfhQ99m3
-rR-9RMHS9rGrLc0wHCoQ7XG1I3BTPjxMbjT-u1y
+fKrN5i0W37hF14ZlV-4Qjz_IAVDxXOW4jPW050aHCJXYoUkNbZ69X6ErHHAL3d7rvTkL4LqSSmcSpHWQOKMJYzNC-OiX0ZwogramEo9TycA-XfsA2lZ8ZiKA
+IJdnXXy
 }
+
+sprite $AwsS3GlacierMd [14x14/16z] VOd70OGm30JlW0tgls4KI2-FhJ3QM6CMSejOqs8RGIL4XvBDgXZBF1LjSnGFVOtHzC2UMLiEfxdD8fN4cXC
 
 !function AwsS3Glacier($id, $name="S3 Glacier", $tech="")
   CloudElement($id, 'aws/Storage/AwsS3Glacier', $name, $tech)
 !endfunction
 !function AwsS3GlacierCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsS3GlacierLg>', 'S3 Glacier', $funcName, $content)
+  CloudCard($id, '<$AwsS3GlacierMd>', 'S3 Glacier', $funcName, $content)
 !endfunction
 @enduml

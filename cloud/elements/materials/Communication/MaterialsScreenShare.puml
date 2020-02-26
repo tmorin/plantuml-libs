@@ -4,10 +4,12 @@ fSvL0W0H50NGrvhzxtOwyEdEg2DXAQnTU2TAhKkYtUezAFbiwj-yfC5A4E3KMUJpklopI32P89k0xFHQ
 00lP
 }
 
+sprite $MaterialsScreenShareMd [14x14/16z] VSl50SGm40D0cRtSVxLtuUJbUIr8MCdjaO4HZt5lOxoRj9J6lN46KFtQMkcboFMpQS5wzdeyEchtU_5UU_leMFW3
+
 !function MaterialsScreenShare($id, $name="Screen Share", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsScreenShare', $name, $tech)
 !endfunction
 !function MaterialsScreenShareCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScreenShareLg>', 'Screen Share', $funcName, $content)
+  CloudCard($id, '<$MaterialsScreenShareMd>', 'Screen Share', $funcName, $content)
 !endfunction
 @enduml

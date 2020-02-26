@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSystemCenterAdminConsole element
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole')
@@ -34,8 +34,8 @@ AzureSystemCenterAdminConsole('element', 'System Center Admin Console', 'an opti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSystemCenterAdminConsole element
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole')
@@ -53,8 +53,8 @@ AzureSystemCenterAdminConsole('element', 'System Center Admin Console', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSystemCenterAdminConsole card
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole')
@@ -71,8 +71,8 @@ AzureSystemCenterAdminConsoleCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSystemCenterAdminConsole card
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole')

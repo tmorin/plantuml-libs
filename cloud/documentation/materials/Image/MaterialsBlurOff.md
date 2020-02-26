@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsBlurOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlurOff element
 include('elements/materials/Image/MaterialsBlurOff')
@@ -34,8 +34,8 @@ MaterialsBlurOff('element', 'Blur Off', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlurOff element
 include('elements/materials/Image/MaterialsBlurOff')
@@ -53,8 +53,8 @@ MaterialsBlurOff('element', 'Blur Off', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlurOff card
 include('elements/materials/Image/MaterialsBlurOff')
@@ -71,8 +71,8 @@ MaterialsBlurOffCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlurOff card
 include('elements/materials/Image/MaterialsBlurOff')

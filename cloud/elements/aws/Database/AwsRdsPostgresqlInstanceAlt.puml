@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsRdsPostgresqlInstanceAltLg [20x20/16z] tP254GGn30EjbMUK_Yl-FyOARiCncpmWhXlEWEE9a2gZs_Qq9i2U_kW_dYQJh9MX0aHRawKDIIseTlQ_-k3VMq_90tu
 
+sprite $AwsRdsPostgresqlInstanceAltMd [14x14/16z] lKu50S0m37j3_XsVHmPMvaQUIAdZexhP4Jl1ATnU09xCxzG_Rdz-MxQYlW
+
 !function AwsRdsPostgresqlInstanceAlt($id, $name="Rds Postgresql Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsPostgresqlInstanceAlt', $name, $tech)
 !endfunction
 !function AwsRdsPostgresqlInstanceAltCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsPostgresqlInstanceAltLg>', 'Rds Postgresql Instance Alt', $funcName, $content)
+  CloudCard($id, '<$AwsRdsPostgresqlInstanceAltMd>', 'Rds Postgresql Instance Alt', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ VSx50KH120FGO1Ec_u9NoBhyTyC1pF2GR0Qio7oa-YgA5s73EJcELMFrKB9YP4lCB4ID1S-iCkNycbHW
 FRSESz-ptpUatd-HxBsfdyy
 }
 
+sprite $AzureResourceGraphExplorerMd [14x14/16z] NSt50KC120DGNFPVk91-VpSqf4eWMI6UQLjmL5NaS3FpAL063yafagVDD3GhPUyD9GiJsaPF5ll-hBn7yR_WwkL7rH3V6TXr1rwDw1y
+
 !function AzureResourceGraphExplorer($id, $name="Resource Graph Explorer", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureResourceGraphExplorer', $name, $tech)
 !endfunction
 !function AzureResourceGraphExplorerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureResourceGraphExplorerLg>', 'Resource Graph Explorer', $funcName, $content)
+  CloudCard($id, '<$AzureResourceGraphExplorerMd>', 'Resource Graph Explorer', $funcName, $content)
 !endfunction
 @enduml

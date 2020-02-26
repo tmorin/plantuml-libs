@@ -4,10 +4,12 @@ bS-5aKKX341H4Ymwz5_jKsJbwntbuE5fW5Um1AkO7vbK7AHjfXrp4-v9oxSLGUYXb6uCyov-PR9CkcMd
 vASvYOqFKzDwfOr2hwxRwZ1Cq9-SC7pH3W
 }
 
+sprite $MaterialsDirectionsBusMd [14x14/16z] RSlL0GCn203Gu736_jD6I7_QtejYxHUAcgbW1NHbkMX5ObnCLgJS2kjBv2mJUqMITqvtxZd3o0oqNTCLEMhLy3gFwRnmHH0AamQq2k5p_ne
+
 !function MaterialsDirectionsBus($id, $name="Directions Bus", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsBus', $name, $tech)
 !endfunction
 !function MaterialsDirectionsBusCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDirectionsBusLg>', 'Directions Bus', $funcName, $content)
+  CloudCard($id, '<$MaterialsDirectionsBusMd>', 'Directions Bus', $funcName, $content)
 !endfunction
 @enduml

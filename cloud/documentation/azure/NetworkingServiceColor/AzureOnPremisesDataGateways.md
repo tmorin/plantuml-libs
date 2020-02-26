@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureOnPremisesDataGateways
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureOnPremisesDataGateways element
 include('elements/azure/NetworkingServiceColor/AzureOnPremisesDataGateways')
@@ -34,8 +34,8 @@ AzureOnPremisesDataGateways('element', 'On Premises Data Gateways', 'an optional
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureOnPremisesDataGateways element
 include('elements/azure/NetworkingServiceColor/AzureOnPremisesDataGateways')
@@ -53,8 +53,8 @@ AzureOnPremisesDataGateways('element', 'On Premises Data Gateways', 'an optional
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureOnPremisesDataGateways card
 include('elements/azure/NetworkingServiceColor/AzureOnPremisesDataGateways')
@@ -71,8 +71,8 @@ AzureOnPremisesDataGatewaysCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureOnPremisesDataGateways card
 include('elements/azure/NetworkingServiceColor/AzureOnPremisesDataGateways')

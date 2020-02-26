@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDesktopMacLg [20x20/16z] nSwr0SHG0CDG-pDx_saFmr3dbQg4ApG7168_Y60BPYSqiZdikEVQzP_wZZwjwA0GBlyqgUKVXmz-c28Lmmyil3uyjamTlOzgzl47zzu
 
+sprite $MaterialsDesktopMacMd [14x14/16z] bSi35W0n30JGO6ha_gTTUv_wouXUs8UBPqILWqR0qyMFHE6E0b32fK2RNPgI0l1cVddq632xnpaic7vc
+
 !function MaterialsDesktopMac($id, $name="Desktop Mac", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDesktopMac', $name, $tech)
 !endfunction
 !function MaterialsDesktopMacCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDesktopMacLg>', 'Desktop Mac', $funcName, $content)
+  CloudCard($id, '<$MaterialsDesktopMacMd>', 'Desktop Mac', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0X
 rjPnxopTE_zl-__W_wjEktygwVpf__SR
 }
 
+sprite $GcpCloudBillingApiMd [14x14/16z] LOw50GHG24B1td_Y4w_VJni0z8CGh3xgp9WNiORrp4Pq6v1wI5ypSRTbXhmooYiYgLnPpBDUmM2MgRK_krXSoMl27FOxFJ_ArcW2_weV
+
 !function GcpCloudBillingApi($id, $name="Cloud Billing Api", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpCloudBillingApi', $name, $tech)
 !endfunction
 !function GcpCloudBillingApiCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudBillingApiLg>', 'Cloud Billing Api', $funcName, $content)
+  CloudCard($id, '<$GcpCloudBillingApiMd>', 'Cloud Billing Api', $funcName, $content)
 !endfunction
 @enduml

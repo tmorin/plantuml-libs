@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsVpcPeering
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcPeering element
@@ -34,7 +34,7 @@ AwsVpcPeering('element', 'Vpc Peering', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcPeering element
@@ -53,8 +53,8 @@ AwsVpcPeering('element', 'Vpc Peering', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcPeering card
 include('elements/aws/NetworkingContentDelivery/AwsVpcPeering')
@@ -71,8 +71,8 @@ AwsVpcPeeringCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcPeering card
 include('elements/aws/NetworkingContentDelivery/AwsVpcPeering')

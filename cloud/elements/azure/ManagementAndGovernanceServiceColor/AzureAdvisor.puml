@@ -4,10 +4,12 @@ RT250OD0343HU0hilszphXz_-44DMIA4AGfGCwM3PaHfPjgkwHHH41VHPbmfWtSRzsbaFfjhiTXIlxMP
 ejzgShN7lsSrVGXikov_GndyFm
 }
 
+sprite $AzureAdvisorMd [14x14/16z] JSU50S0m24HHvAIo_xnroO_0YxDi41bt2L1YNVk9GyA1nWCnR-YkuW59g_CMZsInNkbKPFVX2wYuecrbFDMoB1rllQuhVisO1tLK7tC7
+
 !function AzureAdvisor($id, $name="Advisor", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureAdvisor', $name, $tech)
 !endfunction
 !function AzureAdvisorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAdvisorLg>', 'Advisor', $funcName, $content)
+  CloudCard($id, '<$AzureAdvisorMd>', 'Advisor', $funcName, $content)
 !endfunction
 @enduml

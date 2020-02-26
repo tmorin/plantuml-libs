@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureUserGroup
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserGroup element
 include('elements/azure/FlatSymbols/CneIntune/AzureUserGroup')
@@ -34,8 +34,8 @@ AzureUserGroup('element', 'User Group', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserGroup element
 include('elements/azure/FlatSymbols/CneIntune/AzureUserGroup')
@@ -53,8 +53,8 @@ AzureUserGroup('element', 'User Group', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserGroup card
 include('elements/azure/FlatSymbols/CneIntune/AzureUserGroup')
@@ -71,8 +71,8 @@ AzureUserGroupCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureUserGroup card
 include('elements/azure/FlatSymbols/CneIntune/AzureUserGroup')

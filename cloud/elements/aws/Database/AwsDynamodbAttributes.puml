@@ -4,10 +4,12 @@ RP250SD024N3r_qdhdjvoHaEmmVplgb9czp-6vLreBri2OuRyaLceRyo9lwMXKf59wOkC8OVa7u0FhFP
 acqptMP_1W
 }
 
+sprite $AwsDynamodbAttributesMd [14x14/16z] LOu50iH020CNak7-_-EhjvaLNEGTNGBvvvxf3K7PB5WR1QrnRwAg6W_RyIROnFwnOtlxI_Yj2oipiqjEoEcvMMxz1m
+
 !function AwsDynamodbAttributes($id, $name="Dynamodb Attributes", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbAttributes', $name, $tech)
 !endfunction
 !function AwsDynamodbAttributesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDynamodbAttributesLg>', 'Dynamodb Attributes', $funcName, $content)
+  CloudCard($id, '<$AwsDynamodbAttributesMd>', 'Dynamodb Attributes', $funcName, $content)
 !endfunction
 @enduml

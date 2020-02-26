@@ -4,10 +4,15 @@ fT454W8n44JHFvhS_yGm5SNAwFL-wm6i6HLFXtEisKB6jhLKGAAsFWuqsaZeECbx0EBjn0M8tWqO_HR0
 VeMA8MRVmD5_WPyW5Xj6Nn00uXjK0ABFtuv6GTNpj--1mWmHza3jeHmvnmy
 }
 
+sprite $AzureResourceGroupsMd [17x14/16z] {
+VO_50S0m30DF9kq_SPbU3SSWG5r0pN6so2aHOxi3rQG3jS_H8coXkG8Zj0KKoZqqoHc8AQaEgDGPcDvUAF89p1JRznlelu3g2GHR823w28GWV4XN5X4SqYzp
+WilS2W
+}
+
 !function AzureResourceGroups($id, $name="Resource Groups", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureResourceGroups', $name, $tech)
 !endfunction
 !function AzureResourceGroupsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureResourceGroupsLg>', 'Resource Groups', $funcName, $content)
+  CloudCard($id, '<$AzureResourceGroupsMd>', 'Resource Groups', $funcName, $content)
 !endfunction
 @enduml

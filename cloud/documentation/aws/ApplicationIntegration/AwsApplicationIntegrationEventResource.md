@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsApplicationIntegrationEventResource
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationIntegrationEventResource element
@@ -34,7 +34,7 @@ AwsApplicationIntegrationEventResource('element', 'Application Integration Event
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationIntegrationEventResource element
@@ -53,8 +53,8 @@ AwsApplicationIntegrationEventResource('element', 'Application Integration Event
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationIntegrationEventResource card
 include('elements/aws/ApplicationIntegration/AwsApplicationIntegrationEventResource')
@@ -71,8 +71,8 @@ AwsApplicationIntegrationEventResourceCard('card', 'an optional functional name'
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationIntegrationEventResource card
 include('elements/aws/ApplicationIntegration/AwsApplicationIntegrationEventResource')

@@ -4,10 +4,12 @@ ZSW74a8n30DHAVOdFRx_RK7q3c_Qpk81yOpk6o4qTuDOGl9JHKGZ0EQyxGelRwZIZ0F7EPSfrlMngnuV
 6rXYZMQuO9wvX3XklCNB0ptt5M5un6H6_6qF
 }
 
+sprite $MaterialsPhoneLockedMd [14x14/16z] JKo55KGn23jg-6F_RU_NYqkItpP8ewK4VSafzQPENolO4FeMyZMCyFxai7It5dKWiNL-wi1hhRuRKEcGZKXKePhGsg693ytzRcoQNle2Nli3
+
 !function MaterialsPhoneLocked($id, $name="Phone Locked", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPhoneLocked', $name, $tech)
 !endfunction
 !function MaterialsPhoneLockedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPhoneLockedLg>', 'Phone Locked', $funcName, $content)
+  CloudCard($id, '<$MaterialsPhoneLockedMd>', 'Phone Locked', $funcName, $content)
 !endfunction
 @enduml

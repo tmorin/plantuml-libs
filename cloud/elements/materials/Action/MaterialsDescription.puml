@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDescriptionLg [20x20/16z] TT350G0X3031u0xzLtk2M_OvE814QnCn5yEVuyD4ocbHSJ85tFF3Agu6tB75BF-oShQQwEPjpizMLyZP5CsfsMB8HNmUlfytEJ_Pb9Z_AXSTc_-q1aWl
 
+sprite $MaterialsDescriptionMd [14x14/16z] NSV50OH0402mSJkX_sfnMCalC24_y3rTTkxIJV3eCmLqVfTcgTU-cLNVvPxXpfwLx-gPqywVXJ1BFBkT8xyHJ3O
+
 !function MaterialsDescription($id, $name="Description", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDescription', $name, $tech)
 !endfunction
 !function MaterialsDescriptionCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDescriptionLg>', 'Description', $funcName, $content)
+  CloudCard($id, '<$MaterialsDescriptionMd>', 'Description', $funcName, $content)
 !endfunction
 @enduml

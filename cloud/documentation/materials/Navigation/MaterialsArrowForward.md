@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsArrowForward
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowForward element
 include('elements/materials/Navigation/MaterialsArrowForward')
@@ -34,8 +34,8 @@ MaterialsArrowForward('element', 'Arrow Forward', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowForward element
 include('elements/materials/Navigation/MaterialsArrowForward')
@@ -53,8 +53,8 @@ MaterialsArrowForward('element', 'Arrow Forward', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowForward card
 include('elements/materials/Navigation/MaterialsArrowForward')
@@ -71,8 +71,8 @@ MaterialsArrowForwardCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowForward card
 include('elements/materials/Navigation/MaterialsArrowForward')

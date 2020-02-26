@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsBorderAll
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderAll element
 include('elements/materials/Editor/MaterialsBorderAll')
@@ -34,8 +34,8 @@ MaterialsBorderAll('element', 'Border All', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderAll element
 include('elements/materials/Editor/MaterialsBorderAll')
@@ -53,8 +53,8 @@ MaterialsBorderAll('element', 'Border All', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderAll card
 include('elements/materials/Editor/MaterialsBorderAll')
@@ -71,8 +71,8 @@ MaterialsBorderAllCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderAll card
 include('elements/materials/Editor/MaterialsBorderAll')

@@ -4,10 +4,12 @@ LSx50OH0343HsCJflzqDji0R_RV0m1CSYEN4D8NoG10aMRfRGYZjSzCEYIsxky9DrJoggiUsTLtwL2CZ
 sGSazJrTlBjpnNUCooTJufN1W69Panac23y
 }
 
+sprite $AzureDatabaseForMariadbServersMd [11x14/16z] BOo55S0W34JZtltNRNZmaUWT0D810O3aGY34egh299EcicZqV3FJrSiSDeRNImtzTGEfJrhE07hIf7N7sDGqqoLgqxNxhbbUXoLGipUjKFm1
+
 !function AzureDatabaseForMariadbServers($id, $name="Database For Mariadb Servers", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureDatabaseForMariadbServers', $name, $tech)
 !endfunction
 !function AzureDatabaseForMariadbServersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDatabaseForMariadbServersLg>', 'Database For Mariadb Servers', $funcName, $content)
+  CloudCard($id, '<$AzureDatabaseForMariadbServersMd>', 'Database For Mariadb Servers', $funcName, $content)
 !endfunction
 @enduml

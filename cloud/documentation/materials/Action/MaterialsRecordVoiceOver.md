@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsRecordVoiceOver
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRecordVoiceOver element
 include('elements/materials/Action/MaterialsRecordVoiceOver')
@@ -34,8 +34,8 @@ MaterialsRecordVoiceOver('element', 'Record Voice Over', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRecordVoiceOver element
 include('elements/materials/Action/MaterialsRecordVoiceOver')
@@ -53,8 +53,8 @@ MaterialsRecordVoiceOver('element', 'Record Voice Over', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRecordVoiceOver card
 include('elements/materials/Action/MaterialsRecordVoiceOver')
@@ -71,8 +71,8 @@ MaterialsRecordVoiceOverCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRecordVoiceOver card
 include('elements/materials/Action/MaterialsRecordVoiceOver')

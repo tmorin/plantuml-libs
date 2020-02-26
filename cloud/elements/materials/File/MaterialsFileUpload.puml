@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFileUploadLg [20x20/16z] fStL0GGX34LHtAN_QdT77nct-taW2NiQvrjo3WYg5TW8s0W8AZqLWbm8qviHWawhtXI1HrOAh9t1WSECHmRB35BiOty
 
+sprite $MaterialsFileUploadMd [14x14/16z] Oo08sDYGEVpyRCWS19UPdPkVdvkT6LqbOHuZ4nCZZCtC0WPGKrZPm82LW0i1
+
 !function MaterialsFileUpload($id, $name="File Upload", $tech="")
   CloudElement($id, 'materials/File/MaterialsFileUpload', $name, $tech)
 !endfunction
 !function MaterialsFileUploadCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFileUploadLg>', 'File Upload', $funcName, $content)
+  CloudCard($id, '<$MaterialsFileUploadMd>', 'File Upload', $funcName, $content)
 !endfunction
 @enduml

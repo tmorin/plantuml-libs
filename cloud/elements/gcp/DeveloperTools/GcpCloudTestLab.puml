@@ -4,10 +4,12 @@ TP050iGW30GXifl_l_Y8dBTJPP38ka4SWykeZNY1tSxY0-jb_7IiXPv_h3kbPm0UvPwtvYayOH3bSEwj
 Ej99v_o9NzLsruEryRMi4JGaPDtm
 }
 
+sprite $GcpCloudTestLabMd [14x14/16z] LOw50G0m2CEAy__3SyqKBm3Y0G7Ty1ZuC3KNsWoERGK3bkaDQwz1ubhHZRI6Uy_zhPcvB85Tozy9oUzqEygQ4GJygYi
+
 !function GcpCloudTestLab($id, $name="Cloud Test Lab", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudTestLab', $name, $tech)
 !endfunction
 !function GcpCloudTestLabCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudTestLabLg>', 'Cloud Test Lab', $funcName, $content)
+  CloudCard($id, '<$GcpCloudTestLabMd>', 'Cloud Test Lab', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ VO-50S0m20IRV-B2_jFMtIwAG_U1mLCLcdleiaPpLzeWTxTncvigiVFPNxN9igb6ddK-iAgs6fmS5HAY
 Im5ydAa1Qy8O2P24aPpMUCIQPp1-mrQQClCO_Py1
 }
 
+sprite $MaterialsAirlineSeatReclineExtraMd [14x14/16z] PSp50O1G201G6Wm--qzhj-z20nzeygYenNF8TEV2v79NPfL6U9ovrcZXnykGJ89Z1Y5z6T5HcbYrp86tYeD55vrkfSR22NsV8YtWRmO
+
 !function MaterialsAirlineSeatReclineExtra($id, $name="Airline Seat Recline Extra", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatReclineExtra', $name, $tech)
 !endfunction
 !function MaterialsAirlineSeatReclineExtraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAirlineSeatReclineExtraLg>', 'Airline Seat Recline Extra', $funcName, $content)
+  CloudCard($id, '<$MaterialsAirlineSeatReclineExtraMd>', 'Airline Seat Recline Extra', $funcName, $content)
 !endfunction
 @enduml

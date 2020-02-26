@@ -4,10 +4,12 @@ VSt50S0m243HneFllssfU__n9S3mMqWzNoKMf1elNnf13fSl85SPAfiPmbPnYjnAANMhSNIJUBabDqjb
 rzdg5F0wApMbRblY5hgQgCgQ-aN7UCdfhH4
 }
 
+sprite $MaterialsRadioMd [14x14/16z] LOg30S1034LZbFjFMnxV8Vc00Y8qo8AgpUwCPTVb29MNnx5GLJDJ3GDmAXqWVnJ_oeHVjMOkpztMzLL9vET7QTBUb4ng5SxMP6ympDm
+
 !function MaterialsRadio($id, $name="Radio", $tech="")
   CloudElement($id, 'materials/Av/MaterialsRadio', $name, $tech)
 !endfunction
 !function MaterialsRadioCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRadioLg>', 'Radio', $funcName, $content)
+  CloudCard($id, '<$MaterialsRadioMd>', 'Radio', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpCloudTestLab
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudTestLab element
 include('elements/gcp/DeveloperTools/GcpCloudTestLab')
@@ -34,8 +34,8 @@ GcpCloudTestLab('element', 'Cloud Test Lab', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudTestLab element
 include('elements/gcp/DeveloperTools/GcpCloudTestLab')
@@ -53,7 +53,7 @@ GcpCloudTestLab('element', 'Cloud Test Lab', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudTestLab card
@@ -71,7 +71,7 @@ GcpCloudTestLabCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudTestLab card

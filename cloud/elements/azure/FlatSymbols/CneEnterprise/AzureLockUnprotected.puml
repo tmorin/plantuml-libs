@@ -4,10 +4,12 @@ ROq54aGX34DRD26z_tbtlniFZSpK_XGgn68RLI8ejLLbQGaIbHVPe-usbeToM-5mCmTsYTNVnIBJyjnb
 mny
 }
 
+sprite $AzureLockUnprotectedMd [10x14/16z] PSRN0G0n209GZ6aA-wzxpVpTim3WGOO3iDpkAmqOxqDCO2qyvWRCJcjbHMEHg4U4IffbDNgZofpwjRtre0xU
+
 !function AzureLockUnprotected($id, $name="Lock Unprotected", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLockUnprotected', $name, $tech)
 !endfunction
 !function AzureLockUnprotectedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLockUnprotectedLg>', 'Lock Unprotected', $funcName, $content)
+  CloudCard($id, '<$AzureLockUnprotectedMd>', 'Lock Unprotected', $funcName, $content)
 !endfunction
 @enduml

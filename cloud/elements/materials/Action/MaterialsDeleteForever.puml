@@ -4,10 +4,12 @@ bSx70SKW30DG2R12P_zfVqtpCU_eAZp3z45SabJMHv4ITgfbLuKTGmm_CH27t7OP1vQrAxpLUbshTbzB
 hPrmOam_aNZY3G
 }
 
+sprite $MaterialsDeleteForeverMd [14x14/16z] POu50W0G3035JFF_r-fsOXtaXp96foxGU6zGT0j40xh5LOEFM0onN1YM1yJo3Ij0_qOc4e8hqp40vbRCE6TcZ5bVi6mlLbVxo
+
 !function MaterialsDeleteForever($id, $name="Delete Forever", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDeleteForever', $name, $tech)
 !endfunction
 !function MaterialsDeleteForeverCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDeleteForeverLg>', 'Delete Forever', $funcName, $content)
+  CloudCard($id, '<$MaterialsDeleteForeverMd>', 'Delete Forever', $funcName, $content)
 !endfunction
 @enduml

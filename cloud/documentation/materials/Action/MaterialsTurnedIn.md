@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsTurnedIn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTurnedIn element
 include('elements/materials/Action/MaterialsTurnedIn')
@@ -34,8 +34,8 @@ MaterialsTurnedIn('element', 'Turned In', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTurnedIn element
 include('elements/materials/Action/MaterialsTurnedIn')
@@ -53,8 +53,8 @@ MaterialsTurnedIn('element', 'Turned In', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTurnedIn card
 include('elements/materials/Action/MaterialsTurnedIn')
@@ -71,8 +71,8 @@ MaterialsTurnedInCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTurnedIn card
 include('elements/materials/Action/MaterialsTurnedIn')

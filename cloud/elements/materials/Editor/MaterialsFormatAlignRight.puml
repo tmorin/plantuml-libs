@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatAlignRightLg [20x20/16z] Oo0QCBAW04QG60iFDnBWOO4eH0789c2ACVCWz69Qn8ZBBSmSA80PcnYHdc74xHPCDsFw3JCCi8OLqG
 
+sprite $MaterialsFormatAlignRightMd [14x14/16z] Oq03J700v32oSq01EoD4cX42e8fPKEKG-bXXW8KHXOUg4hif481cEwhBq
+
 !function MaterialsFormatAlignRight($id, $name="Format Align Right", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatAlignRight', $name, $tech)
 !endfunction
 !function MaterialsFormatAlignRightCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatAlignRightLg>', 'Format Align Right', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatAlignRightMd>', 'Format Align Right', $funcName, $content)
 !endfunction
 @enduml

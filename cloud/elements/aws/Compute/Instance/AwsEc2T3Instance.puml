@@ -4,10 +4,12 @@ ZL25WGD14881fl-E_vES-x6k200KeRaRuM8W_RfXH-wadQ6pnbihb85IY1KOrTaUwEsU2QK9iAhu4yAE
 osiVnmpEiphFz9ZzFm
 }
 
+sprite $AwsEc2T3InstanceMd [14x14/16z] NOw50SCm30GVvFrNxZMSd44CakB4786xEe2mrFgWLPPru1NtjkgC4Ksn9iRIBdYRLMU4XJ1IYR4-NTuJtjFVcxst_W4
+
 !function AwsEc2T3Instance($id, $name="Ec2 T3 Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2T3Instance', $name, $tech)
 !endfunction
 !function AwsEc2T3InstanceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2T3InstanceLg>', 'Ec2 T3 Instance', $funcName, $content)
+  CloudCard($id, '<$AwsEc2T3InstanceMd>', 'Ec2 T3 Instance', $funcName, $content)
 !endfunction
 @enduml

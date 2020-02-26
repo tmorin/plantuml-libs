@@ -4,10 +4,12 @@ XStL0KKX30FGjZWaxB_jq-l6-Ql6WxDEBu8IPf7mmY0pHKVOrWtafXQpEDMpCDUwhwsukOvgfXu8_xhZ
 _mO
 }
 
+sprite $AzureImportGenericMd [11x14/16z] NOk50GCn30C3Pjf_s_QPBc2G9BuJs7ps3GlqtZR4uspRyAljMpjrh6sggfN3qjQEzsLhPiitJY_tCxRmRMVVcIv-8dy
+
 !function AzureImportGeneric($id, $name="Import Generic", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureImportGeneric', $name, $tech)
 !endfunction
 !function AzureImportGenericCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureImportGenericLg>', 'Import Generic', $funcName, $content)
+  CloudCard($id, '<$AzureImportGenericMd>', 'Import Generic', $funcName, $content)
 !endfunction
 @enduml

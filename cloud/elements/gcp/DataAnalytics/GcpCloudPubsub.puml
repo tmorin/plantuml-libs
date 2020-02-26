@@ -4,10 +4,12 @@ TL250SD02EmZ1_jFN2oUt0kkly8Q_7OGTj2e5dm7nbNy16atAy66bACsJznApGARVVEFCaZAS557kQ8B
 ONg9nrp4dVQUNQIfxhFjiFMrWwZvSDjtQcRxJX-x_mC
 }
 
+sprite $GcpCloudPubsubMd [14x14/16z] LKw50GH02FA2s7_YHx_jbgfQPsWbJ48DSTBh5zqaMmd86EqgnFcS6AEEh4DI4wX7rBq9ei3UwCqPsCXENplFAq1FylL1RRn_l-E3hFj1ze_w0G
+
 !function GcpCloudPubsub($id, $name="Cloud Pubsub", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudPubsub', $name, $tech)
 !endfunction
 !function GcpCloudPubsubCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudPubsubLg>', 'Cloud Pubsub', $funcName, $content)
+  CloudCard($id, '<$GcpCloudPubsubMd>', 'Cloud Pubsub', $funcName, $content)
 !endfunction
 @enduml

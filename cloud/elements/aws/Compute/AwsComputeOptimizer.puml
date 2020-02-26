@@ -4,10 +4,12 @@ fOu52WG1549XzUc__ucNwQ0PQNi-ez2cToeoZd9ZQpCGsoSP6c0HESiK5dISdSE8Bjb6Esb5gHXtOESI
 JZ9qkc0-uWy
 }
 
+sprite $AwsComputeOptimizerMd [14x14/16z] XOod0S0m40F9tydxB-nkcWYfjny4pHCM2nw5OAoyI0XR5ML9v1PbPIwrWW9uBmhUqnKLlZ0ODUqJ0m
+
 !function AwsComputeOptimizer($id, $name="Compute Optimizer", $tech="")
   CloudElement($id, 'aws/Compute/AwsComputeOptimizer', $name, $tech)
 !endfunction
 !function AwsComputeOptimizerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsComputeOptimizerLg>', 'Compute Optimizer', $funcName, $content)
+  CloudCard($id, '<$AwsComputeOptimizerMd>', 'Compute Optimizer', $funcName, $content)
 !endfunction
 @enduml

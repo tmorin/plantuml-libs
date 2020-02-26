@@ -4,10 +4,12 @@ jSZ50GGX343H213VxR_RSRtFH_FWWv27o63SXlNgKQxg5NsUkyuNQWs2EHebsAh373FiSNWEEEjjlV-6
 hh6QpFGEuUic
 }
 
+sprite $MaterialsMultilineChartMd [14x14/16z] dKp50S1038fobltNhPqyQt41wCcOroZ8EISz1Y7IOi9isQLeHvsHmpfMcvsRzALuSS1nBLL9QY8kt1SYEIRZhll3TW
+
 !function MaterialsMultilineChart($id, $name="Multiline Chart", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsMultilineChart', $name, $tech)
 !endfunction
 !function MaterialsMultilineChartCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsMultilineChartLg>', 'Multiline Chart', $funcName, $content)
+  CloudCard($id, '<$MaterialsMultilineChartMd>', 'Multiline Chart', $funcName, $content)
 !endfunction
 @enduml

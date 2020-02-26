@@ -16,8 +16,8 @@ elements/gcp/Networking/GcpCloudVpn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudVpn element
 include('elements/gcp/Networking/GcpCloudVpn')
@@ -34,8 +34,8 @@ GcpCloudVpn('element', 'Cloud Vpn', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudVpn element
 include('elements/gcp/Networking/GcpCloudVpn')
@@ -53,7 +53,7 @@ GcpCloudVpn('element', 'Cloud Vpn', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudVpn card
@@ -71,7 +71,7 @@ GcpCloudVpnCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudVpn card

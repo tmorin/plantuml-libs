@@ -4,10 +4,15 @@ fP5N5iCW30IfGknm_-kc2bxuphXxYmsa87U7sNEwA3RnuSwqaZQvkS3RAoEGjnnM3RCXTPzYBJwX8MXl
 vu3z58utrmrh5mPN_r7k_ZS4wu_-evmxF1LJF9-ahCGyysjj-MTTn7eZg-aYztcjunC
 }
 
+sprite $AzureCacheRedisProductIconMd [17x14/16z] {
+LO-50G0X30EnUlPV5tqzd6hIeh2vSKaNLTofShZKPIGL8bMn0CAeUFZyRn7pZRdxMcRA974muBZgSJA_dFqDMM1nXSHrlJpjkbpxB-QSNiZYnMZsdwiSDvUQ
+qw6mmozn0m
+}
+
 !function AzureCacheRedisProductIcon($id, $name="Cache Redis Product Icon", $tech="")
   CloudElement($id, 'azure/Companies/AzureCacheRedisProductIcon', $name, $tech)
 !endfunction
 !function AzureCacheRedisProductIconCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCacheRedisProductIconLg>', 'Cache Redis Product Icon', $funcName, $content)
+  CloudCard($id, '<$AzureCacheRedisProductIconMd>', 'Cache Redis Product Icon', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsPartyMode
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPartyMode element
 include('elements/materials/Social/MaterialsPartyMode')
@@ -34,8 +34,8 @@ MaterialsPartyMode('element', 'Party Mode', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPartyMode element
 include('elements/materials/Social/MaterialsPartyMode')
@@ -53,8 +53,8 @@ MaterialsPartyMode('element', 'Party Mode', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPartyMode card
 include('elements/materials/Social/MaterialsPartyMode')
@@ -71,8 +71,8 @@ MaterialsPartyModeCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPartyMode card
 include('elements/materials/Social/MaterialsPartyMode')

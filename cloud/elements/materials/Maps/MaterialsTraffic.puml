@@ -4,10 +4,12 @@ bP1b0WGX28KDmCHt_zDkF_srzSrOD8I_oF8WXqCQW3imqZOgrL5Jgl1Qyalc0FBj1E1qrmb8209CFIac
 zBB23TddWrXFZXh3IwZiJMyY2Zc3-65Mlt45
 }
 
+sprite $MaterialsTrafficMd [14x14/16z] RKx50KDH27kEm_xJjjyzDuYc5tAPaFS3ZSXmFPi4vKmXRQ5WlI0lL-KO8xWkLzELqrKvVBvyV2bjLTgYJCCvP_QnrQ_jZsKl_04
+
 !function MaterialsTraffic($id, $name="Traffic", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTraffic', $name, $tech)
 !endfunction
 !function MaterialsTrafficCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTrafficLg>', 'Traffic', $funcName, $content)
+  CloudCard($id, '<$MaterialsTrafficMd>', 'Traffic', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ RSm54WGW34FHfFXWzp_jUidQ7sCURU6H-CfAxyK-gTSOQ__0KWcmbWEHgF7nwFJZhP2FhT2fOncWcQKH
 4iU4BmjzJM-L5veAXVZR5G
 }
 
+sprite $MaterialsNoEncryptionMd [14x14/16z] FSg55GH120DGNCxelzlRh93H_m8XhCfuB-IHPJYHn_LtnfZa9Iic4MkzDCNscVaPv0D-P_pIpHNuYnMu7IYy0az9tWbeStH_
+
 !function MaterialsNoEncryption($id, $name="No Encryption", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsNoEncryption', $name, $tech)
 !endfunction
 !function MaterialsNoEncryptionCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNoEncryptionLg>', 'No Encryption', $funcName, $content)
+  CloudCard($id, '<$MaterialsNoEncryptionMd>', 'No Encryption', $funcName, $content)
 !endfunction
 @enduml

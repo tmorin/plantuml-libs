@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsAugmentedAiLg [20x20/16z] {
-PSpLOS0m54FHZuXUzX-uCfHlqCUGh_pL9Fzu3Weo-6LL0oB8Hr-caem4Yg_H4fS9uB70wu4J4ziCDWLa4Z8rANibGyMFjZtUXzDYZCJlAuziKQHgIceQUvZn
-FQysGe7UPhZMIkE7Z_VqCNb2MR2IQs6OcJ4pnzhKcl5jHPuoS-poLxL_c0y
+bOnLjeGm44IVf7J_2vxJoG3VN8XrILyHmQ7I1o-OeE1x940EMkYUqJACrhYcWHfuWXOo8uCW592JqKxIMMuOk5xUioKlrhHcxq25aY3GpV69iOiqs4qp2nTI
+Ud8ntCsS-iU_kkKDLKCMhAG7uqICz2Q61xWFuI5zmmS
 }
+
+sprite $AwsAugmentedAiMd [14x14/16z] PScn3S1G30BHoi1v_u63h7GVggVRPoI47ncvvu1aU-rS4cxXQcIvdLMgwMERQ-xLNqDgMe6gSfaHqfxYOBCth2IgVdRPPny
 
 !function AwsAugmentedAi($id, $name="Augmented Ai", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsAugmentedAi', $name, $tech)
 !endfunction
 !function AwsAugmentedAiCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAugmentedAiLg>', 'Augmented Ai', $funcName, $content)
+  CloudCard($id, '<$AwsAugmentedAiMd>', 'Augmented Ai', $funcName, $content)
 !endfunction
 @enduml

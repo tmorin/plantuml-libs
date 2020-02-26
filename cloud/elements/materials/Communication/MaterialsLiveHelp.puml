@@ -4,10 +4,12 @@ RSm75i0W20DGt3vBoFrFsprvZVkho7z2V2Ni58S1He3REk9ccMkqfbHrs-NBSEpmjYwXjI3zOx6HHUhR
 dsmCsqiasR6Kqa2YhPiaJufP4P_Yo6K1
 }
 
+sprite $MaterialsLiveHelpMd [14x14/16z] NSsr0SKm4C1G-_X2sd_QpnXrhz8uvVdARv0DIhLWavjsUehCPd-gT5rclCL1pFg8civN9lkFklcH-riR4C7pDooye3niF9kPStoRBrm1
+
 !function MaterialsLiveHelp($id, $name="Live Help", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsLiveHelp', $name, $tech)
 !endfunction
 !function MaterialsLiveHelpCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLiveHelpLg>', 'Live Help', $funcName, $content)
+  CloudCard($id, '<$MaterialsLiveHelpMd>', 'Live Help', $funcName, $content)
 !endfunction
 @enduml

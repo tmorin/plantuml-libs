@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsPlayCircleFilledWhite
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilledWhite element
 include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
@@ -34,8 +34,8 @@ MaterialsPlayCircleFilledWhite('element', 'Play Circle Filled White', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilledWhite element
 include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
@@ -53,8 +53,8 @@ MaterialsPlayCircleFilledWhite('element', 'Play Circle Filled White', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilledWhite card
 include('elements/materials/Av/MaterialsPlayCircleFilledWhite')
@@ -71,8 +71,8 @@ MaterialsPlayCircleFilledWhiteCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilledWhite card
 include('elements/materials/Av/MaterialsPlayCircleFilledWhite')

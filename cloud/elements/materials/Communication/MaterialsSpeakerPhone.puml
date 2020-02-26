@@ -4,10 +4,12 @@ lOx50S0W34M9e_kFMpViseV6lvi29Af2y75nB364xU8doOeXxCdR1owVqkxOAqdVShHSIZPq7pGo8aUj
 pWe
 }
 
+sprite $MaterialsSpeakerPhoneMd [14x14/16z] dOp50OK03CMQLzr_uQyuDr9N-m6sGiw7v5zC2LJpBuLNER8_qUuTsw50sn_D1ssLFlQa2YcsYlw0tNW3
+
 !function MaterialsSpeakerPhone($id, $name="Speaker Phone", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsSpeakerPhone', $name, $tech)
 !endfunction
 !function MaterialsSpeakerPhoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSpeakerPhoneLg>', 'Speaker Phone', $funcName, $content)
+  CloudCard($id, '<$MaterialsSpeakerPhoneMd>', 'Speaker Phone', $funcName, $content)
 !endfunction
 @enduml

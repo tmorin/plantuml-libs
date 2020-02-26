@@ -4,10 +4,12 @@ bSq50iGW30J0f2KR_VzxhyYvBpgeHRYgUfPIJxYRY5XcSBVB2A0-R79Uk3F-CpuRoypBYgCRixNFD2FT
 FTmVwwQHTlbl3P0PFG4
 }
 
+sprite $AzureDeviceComplianceMd [11x14/16z] POlL0KCn54B9kqXi_tNhNhwmCsPtvXQ07jiPLnjTvPTrz6_zPOrsjJR9AkM1uwYRRG1PFRsxM4ADkNT0DzHHf806r9MuybKw0m
+
 !function AzureDeviceCompliance($id, $name="Device Compliance", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureDeviceCompliance', $name, $tech)
 !endfunction
 !function AzureDeviceComplianceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDeviceComplianceLg>', 'Device Compliance', $funcName, $content)
+  CloudCard($id, '<$AzureDeviceComplianceMd>', 'Device Compliance', $funcName, $content)
 !endfunction
 @enduml

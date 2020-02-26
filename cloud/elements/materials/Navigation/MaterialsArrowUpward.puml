@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsArrowUpwardLg [20x20/16z] jSi52a0X54JHmMxtlzgVjZJFImq71XGnjfErRAES2tPothk2ZPWnvTu9ne2vWeLUUz2nOfhXjJ9RnKgdJ0XGT0C
 
+sprite $MaterialsArrowUpwardMd [14x14/16z] XSUr0S1030ImCyF--uRXEwiJHinhklbFTHT_KJCzUmTcUCg2Sn36uznfdWX6Em
+
 !function MaterialsArrowUpward($id, $name="Arrow Upward", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsArrowUpward', $name, $tech)
 !endfunction
 !function MaterialsArrowUpwardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsArrowUpwardLg>', 'Arrow Upward', $funcName, $content)
+  CloudCard($id, '<$MaterialsArrowUpwardMd>', 'Arrow Upward', $funcName, $content)
 !endfunction
 @enduml

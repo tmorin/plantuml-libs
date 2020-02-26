@@ -16,8 +16,8 @@ elements/azure/DevopsServiceColor/AzureTestPlans
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTestPlans element
 include('elements/azure/DevopsServiceColor/AzureTestPlans')
@@ -34,8 +34,8 @@ AzureTestPlans('element', 'Test Plans', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTestPlans element
 include('elements/azure/DevopsServiceColor/AzureTestPlans')
@@ -53,8 +53,8 @@ AzureTestPlans('element', 'Test Plans', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTestPlans card
 include('elements/azure/DevopsServiceColor/AzureTestPlans')
@@ -71,8 +71,8 @@ AzureTestPlansCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTestPlans card
 include('elements/azure/DevopsServiceColor/AzureTestPlans')

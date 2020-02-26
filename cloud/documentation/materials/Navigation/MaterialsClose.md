@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsClose
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsClose element
 include('elements/materials/Navigation/MaterialsClose')
@@ -34,8 +34,8 @@ MaterialsClose('element', 'Close', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsClose element
 include('elements/materials/Navigation/MaterialsClose')
@@ -53,8 +53,8 @@ MaterialsClose('element', 'Close', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsClose card
 include('elements/materials/Navigation/MaterialsClose')
@@ -71,8 +71,8 @@ MaterialsCloseCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsClose card
 include('elements/materials/Navigation/MaterialsClose')

@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsFlipToBack
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlipToBack element
 include('elements/materials/Action/MaterialsFlipToBack')
@@ -34,8 +34,8 @@ MaterialsFlipToBack('element', 'Flip To Back', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlipToBack element
 include('elements/materials/Action/MaterialsFlipToBack')
@@ -53,8 +53,8 @@ MaterialsFlipToBack('element', 'Flip To Back', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlipToBack card
 include('elements/materials/Action/MaterialsFlipToBack')
@@ -71,8 +71,8 @@ MaterialsFlipToBackCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlipToBack card
 include('elements/materials/Action/MaterialsFlipToBack')

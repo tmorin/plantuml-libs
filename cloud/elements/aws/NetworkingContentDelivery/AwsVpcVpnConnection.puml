@@ -4,10 +4,12 @@ POw50KCX50DvCThz1_xk71OERGSbeRrXhFYZQkdzai4-r7NJCjcZs5IhwW683HBfYyG_Vf0_rWDPsl4K
 3Zr-k-DBNqUFhZ2wTsRNHGvNyWqMCGC
 }
 
+sprite $AwsVpcVpnConnectionMd [14x14/16z] JOg50G0n20EZxB_nk_Gg4C494-555UDNXSVNEmZD0oi2Pj9Sp00qWWFJlAfp9VLbcdH8vL82s-Dx5LekIi6Yo4-P5xgK-c1W1m
+
 !function AwsVpcVpnConnection($id, $name="Vpc Vpn Connection", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcVpnConnection', $name, $tech)
 !endfunction
 !function AwsVpcVpnConnectionCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsVpcVpnConnectionLg>', 'Vpc Vpn Connection', $funcName, $content)
+  CloudCard($id, '<$AwsVpcVpnConnectionMd>', 'Vpc Vpn Connection', $funcName, $content)
 !endfunction
 @enduml

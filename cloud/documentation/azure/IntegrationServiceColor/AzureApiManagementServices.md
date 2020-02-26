@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureApiManagementServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApiManagementServices element
 include('elements/azure/IntegrationServiceColor/AzureApiManagementServices')
@@ -34,8 +34,8 @@ AzureApiManagementServices('element', 'Api Management Services', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApiManagementServices element
 include('elements/azure/IntegrationServiceColor/AzureApiManagementServices')
@@ -53,8 +53,8 @@ AzureApiManagementServices('element', 'Api Management Services', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApiManagementServices card
 include('elements/azure/IntegrationServiceColor/AzureApiManagementServices')
@@ -71,8 +71,8 @@ AzureApiManagementServicesCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApiManagementServices card
 include('elements/azure/IntegrationServiceColor/AzureApiManagementServices')

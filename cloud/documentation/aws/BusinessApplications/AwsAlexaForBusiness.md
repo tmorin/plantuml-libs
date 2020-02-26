@@ -16,7 +16,7 @@ elements/aws/BusinessApplications/AwsAlexaForBusiness
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsAlexaForBusiness element
@@ -34,7 +34,7 @@ AwsAlexaForBusiness('element', 'Alexa For Business', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsAlexaForBusiness element
@@ -53,8 +53,8 @@ AwsAlexaForBusiness('element', 'Alexa For Business', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsAlexaForBusiness card
 include('elements/aws/BusinessApplications/AwsAlexaForBusiness')
@@ -71,8 +71,8 @@ AwsAlexaForBusinessCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsAlexaForBusiness card
 include('elements/aws/BusinessApplications/AwsAlexaForBusiness')

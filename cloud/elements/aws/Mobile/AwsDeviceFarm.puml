@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsDeviceFarmLg [20x20/16z] {
-bP253GHG348ZvG5__ttFtOzOKqFMlsYVMfPytuq0b6kdaCuaqEjIV40kgq6JGp5pxI6vjGINNb9cQ7BRMzLq9RxqeCjU2xZZsFKoKcwrW1qfBpM_zlOwWsjM
-_s8B
+RSu5RaGn34LHmSFC_lTRAn_RpXMVWDsdNFKBlk36TP98fQTjD7S-T0r6J81uzBHGzYIRSBUPW3iPu6NIVcI2OpqiAG76rbZ7ChOAj6-JkgHMUep8iXk0fvMA
+BTecicrGsZk7Ia_RQujYkljy3ZNfhjCkF9wSTkBPFpln1m
 }
+
+sprite $AwsDeviceFarmMd [14x14/16z] JSj50W9G24LHwnNkVxz-mBgpG-ITfm-MbPC0hIec0N9bK2T2EH8UIlG0HoT0fwJb8lCH4Il0o9194MvLvey7UTR9f5EjuJJwvmi
 
 !function AwsDeviceFarm($id, $name="Device Farm", $tech="")
   CloudElement($id, 'aws/Mobile/AwsDeviceFarm', $name, $tech)
 !endfunction
 !function AwsDeviceFarmCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDeviceFarmLg>', 'Device Farm', $funcName, $content)
+  CloudCard($id, '<$AwsDeviceFarmMd>', 'Device Farm', $funcName, $content)
 !endfunction
 @enduml

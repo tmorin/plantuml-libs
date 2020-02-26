@@ -4,10 +4,12 @@ RP254GHH24CtmlPVyZ7aSyuOF3pN65ttNMQYGonIhbgg4kAXtOFUMmRo3H49hHTo-t9pVA0BHNk6Bsgp
 vvQvcK6d8xzXKSA_6dnhzQtfjz9jInu
 }
 
+sprite $AzureConnectionsMd [14x14/16z] LKw50G0W26CC_Z-PiDkLWeY0vcw4zD02Gz91XbYyA1O1KP0SPDnaMzfWPBrr5HrVUh5BVNn2ZZYi0KTit0OiKl2l_dVsTvq
+
 !function AzureConnections($id, $name="Connections", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureConnections', $name, $tech)
 !endfunction
 !function AzureConnectionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureConnectionsLg>', 'Connections', $funcName, $content)
+  CloudCard($id, '<$AzureConnectionsMd>', 'Connections', $funcName, $content)
 !endfunction
 @enduml

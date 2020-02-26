@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsMoreLg [20x20/16z] bT350GCn3011cTdRVxNX7EFy34AvmzW9ezvNZfdu_bMP4r6HrPrZQHq9tyWI2ZLaMao01-X634vqywBorjrshEZAPY-NUbv7R-rWSrSNFG4
 
+sprite $MaterialsMoreMd [14x14/16z] NOw30G0n301hDxV_j6_cYXX6OzsDtOmoRwenaHVZ1Y-sW0pct2y9YAu5ruCVolfbgYvgmc-wskp72W
+
 !function MaterialsMore($id, $name="More", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsMore', $name, $tech)
 !endfunction
 !function MaterialsMoreCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsMoreLg>', 'More', $funcName, $content)
+  CloudCard($id, '<$MaterialsMoreMd>', 'More', $funcName, $content)
 !endfunction
 @enduml

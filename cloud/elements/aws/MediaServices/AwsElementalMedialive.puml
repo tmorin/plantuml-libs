@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsElementalMedialiveLg [20x20/16z] {
-RSu53aDX20FWP1NU_KyyOF9hur-GHiTBOk2mWQT9XudaOlOn9zZiEV1d02bRm0l_ESDA5gJnWqQAcJ0iAD7us9EY6W2SfYXBf4LPWeo8j4JptqMH-1HMoEvU
-IMeKUcPOOzEmnXWsSDW5tm
+hT3L0GGX54FHZvVaJlyLRzRT1-VWB2i44cv93Ln944qvgwTcryP7KvkMwQ1Ebg2f9ISBE-ziSZIig2QPeydHZEk-s8_oWhZOJ-fMO2cNTyQ6w-VH3SMRF_Wr
+R
 }
+
+sprite $AwsElementalMedialiveMd [14x14/16z] XSsd0K110C9G0ydjl_3lLLqKJp5c2JvRMlH4kwlnK30CBY5jvLJtqbuYjTmgIklzaA2_zrah
 
 !function AwsElementalMedialive($id, $name="Elemental Medialive", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMedialive', $name, $tech)
 !endfunction
 !function AwsElementalMedialiveCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElementalMedialiveLg>', 'Elemental Medialive', $funcName, $content)
+  CloudCard($id, '<$AwsElementalMedialiveMd>', 'Elemental Medialive', $funcName, $content)
 !endfunction
 @enduml

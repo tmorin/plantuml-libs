@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActiveDirectoryConnectHealth element
 include('elements/azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth')
@@ -34,8 +34,8 @@ AzureActiveDirectoryConnectHealth('element', 'Active Directory Connect Health', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActiveDirectoryConnectHealth element
 include('elements/azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth')
@@ -53,8 +53,8 @@ AzureActiveDirectoryConnectHealth('element', 'Active Directory Connect Health', 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActiveDirectoryConnectHealth card
 include('elements/azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth')
@@ -71,8 +71,8 @@ AzureActiveDirectoryConnectHealthCard('card', 'an optional functional name', 'Mo
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureActiveDirectoryConnectHealth card
 include('elements/azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth')

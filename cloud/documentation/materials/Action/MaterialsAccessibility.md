@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAccessibility
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccessibility element
 include('elements/materials/Action/MaterialsAccessibility')
@@ -34,8 +34,8 @@ MaterialsAccessibility('element', 'Accessibility', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccessibility element
 include('elements/materials/Action/MaterialsAccessibility')
@@ -53,8 +53,8 @@ MaterialsAccessibility('element', 'Accessibility', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccessibility card
 include('elements/materials/Action/MaterialsAccessibility')
@@ -71,8 +71,8 @@ MaterialsAccessibilityCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccessibility card
 include('elements/materials/Action/MaterialsAccessibility')

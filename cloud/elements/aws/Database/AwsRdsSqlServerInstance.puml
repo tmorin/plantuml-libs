@@ -4,10 +4,12 @@ XOk5aGD14CIsQVe-_uJVpFPfSLGbzWrMwmKTB45WBTvawmFnKcWTiDWoSRAGcMWoEJen4Y6Aw_YWNM_i
 awZlBRQdjh7JvvQoXLOFpZZWiZU6EJxXFm
 }
 
+sprite $AwsRdsSqlServerInstanceMd [14x14/16z] NOg50KGn24CBIRZRV-5VrrU127N0i6Ifteg2XKGK20b56SXwfLKh53Kmm9U2u0oj4i3_KkvkkhBVKhWpFfa7rM7xCW
+
 !function AwsRdsSqlServerInstance($id, $name="Rds Sql Server Instance", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsSqlServerInstance', $name, $tech)
 !endfunction
 !function AwsRdsSqlServerInstanceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsSqlServerInstanceLg>', 'Rds Sql Server Instance', $funcName, $content)
+  CloudCard($id, '<$AwsRdsSqlServerInstanceMd>', 'Rds Sql Server Instance', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSettingsEthernetLg [20x20/16z] jK_J0S0m4Cqvsd_Tsds_EHjf1D3FI5eEcueU8Ub-PhtBfhdbkpSQR_Nb35rUT5xIaioI12NkWMAe5-_utW9kHh-DW1a
 
+sprite $MaterialsSettingsEthernetMd [14x14/16z] Oo05C3E2I4Pc28S3mkC0SPaucO0abC78oGnKoiJ42AGu6L5vA2fHJ46rWHG
+
 !function MaterialsSettingsEthernet($id, $name="Settings Ethernet", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsEthernet', $name, $tech)
 !endfunction
 !function MaterialsSettingsEthernetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsEthernetLg>', 'Settings Ethernet', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsEthernetMd>', 'Settings Ethernet', $funcName, $content)
 !endfunction
 @enduml

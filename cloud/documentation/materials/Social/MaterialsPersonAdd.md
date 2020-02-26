@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsPersonAdd
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonAdd element
 include('elements/materials/Social/MaterialsPersonAdd')
@@ -34,8 +34,8 @@ MaterialsPersonAdd('element', 'Person Add', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonAdd element
 include('elements/materials/Social/MaterialsPersonAdd')
@@ -53,8 +53,8 @@ MaterialsPersonAdd('element', 'Person Add', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonAdd card
 include('elements/materials/Social/MaterialsPersonAdd')
@@ -71,8 +71,8 @@ MaterialsPersonAddCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonAdd card
 include('elements/materials/Social/MaterialsPersonAdd')

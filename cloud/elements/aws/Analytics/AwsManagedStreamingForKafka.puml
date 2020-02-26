@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsManagedStreamingForKafkaLg [20x20/16z] hOr50a8144ADuG7__lUrErOwdR3yGIg_pJnwco7rPHJLlA5DyDC8TrpbuN6sDdY61p3vA8Y7GyWntgcD72HYNNcQW1D3qkztYILi92UNEz4pJP6NtsGF
+sprite $AwsManagedStreamingForKafkaLg [20x20/16z] {
+RSs5WKCX00FGkvO8_FttBS6gmHzMJtnIVs3zWMSD7cpBM8etjeL0h2uRA9Z8P5aGkWiSkCoGYz87XxdSIQ1_WnU34XJMf0q4bN_WRI9aeajNJgjsr0GblvsB
+d7FE7NG8UnbLcyS7XBfTxJKTOZ_m-e4F
+}
+
+sprite $AwsManagedStreamingForKafkaMd [14x14/16z] RSa74a8120DH6qd0-zzN8lhxJdspEMaQcAl0OHbwnTmo0V3BQX91g6dnnK2yJ2j8mieg4MW1l13S8ag4PBthNsPhnmy
 
 !function AwsManagedStreamingForKafka($id, $name="Managed Streaming For Kafka", $tech="")
   CloudElement($id, 'aws/Analytics/AwsManagedStreamingForKafka', $name, $tech)
 !endfunction
 !function AwsManagedStreamingForKafkaCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagedStreamingForKafkaLg>', 'Managed Streaming For Kafka', $funcName, $content)
+  CloudCard($id, '<$AwsManagedStreamingForKafkaMd>', 'Managed Streaming For Kafka', $funcName, $content)
 !endfunction
 @enduml

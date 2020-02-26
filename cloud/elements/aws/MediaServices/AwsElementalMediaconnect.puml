@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsElementalMediaconnectLg [20x20/16z] hP375OD050CF2aF_5JlRCcS4c-RzV5mWMawelgl_Hl9TAcDqHt27xZX6hJBkJfKdZx-ic3uthoyIwtlW7Bd_thpXmSZaLS66QdpZ-lw7Ks_Zk3EuG3S
 
+sprite $AwsElementalMediaconnectMd [14x14/16z] XOsr0G11408JcFd-6twtYsvTOPc9u5lR9Duz2OTVgpQdUNKMwjqHMd83KS6-VxVTe6tBo3wJ3G
+
 !function AwsElementalMediaconnect($id, $name="Elemental Mediaconnect", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediaconnect', $name, $tech)
 !endfunction
 !function AwsElementalMediaconnectCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElementalMediaconnectLg>', 'Elemental Mediaconnect', $funcName, $content)
+  CloudCard($id, '<$AwsElementalMediaconnectMd>', 'Elemental Mediaconnect', $funcName, $content)
 !endfunction
 @enduml

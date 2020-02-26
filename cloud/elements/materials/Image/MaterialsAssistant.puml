@@ -4,10 +4,12 @@ RS_50KGX34NHHmpFxx_QSS7kZeFZNA2Xy28gtdzveQV9DIM3fRIPC_jg2KYBPGOu-s19mkjHdFvc3tgX
 -sCOLPNnJzqLQphItXq
 }
 
+sprite $MaterialsAssistantMd [14x14/16z] NSm54W0X30F0ujxy_xUNWOnTq4LglvIc529k0EwSTgGEDxLoEjAEV26TdirIFq-3CzUXbxEmyeJ4zSuIUeUqeMpASYsTjwLcUmcjXRiHXGy
+
 !function MaterialsAssistant($id, $name="Assistant", $tech="")
   CloudElement($id, 'materials/Image/MaterialsAssistant', $name, $tech)
 !endfunction
 !function MaterialsAssistantCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAssistantLg>', 'Assistant', $funcName, $content)
+  CloudCard($id, '<$MaterialsAssistantMd>', 'Assistant', $funcName, $content)
 !endfunction
 @enduml

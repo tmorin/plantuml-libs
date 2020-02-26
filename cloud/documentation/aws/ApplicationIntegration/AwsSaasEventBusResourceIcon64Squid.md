@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64Squid
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64Squid element
@@ -34,7 +34,7 @@ AwsSaasEventBusResourceIcon64Squid('element', 'Saas Event Bus Resource Icon64 Sq
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64Squid element
@@ -53,8 +53,8 @@ AwsSaasEventBusResourceIcon64Squid('element', 'Saas Event Bus Resource Icon64 Sq
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64Squid card
 include('elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64Squid')
@@ -71,8 +71,8 @@ AwsSaasEventBusResourceIcon64SquidCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSaasEventBusResourceIcon64Squid card
 include('elements/aws/ApplicationIntegration/AwsSaasEventBusResourceIcon64Squid')

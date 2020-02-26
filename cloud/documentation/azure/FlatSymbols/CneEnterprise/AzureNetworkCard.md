@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureNetworkCard
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNetworkCard element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureNetworkCard')
@@ -34,8 +34,8 @@ AzureNetworkCard('element', 'Network Card', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNetworkCard element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureNetworkCard')
@@ -53,8 +53,8 @@ AzureNetworkCard('element', 'Network Card', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNetworkCard card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureNetworkCard')
@@ -71,8 +71,8 @@ AzureNetworkCardCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNetworkCard card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureNetworkCard')

@@ -16,8 +16,8 @@ elements/azure/AnalyticsServiceColor/AzureDataLakeStoreGen1
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataLakeStoreGen1 element
 include('elements/azure/AnalyticsServiceColor/AzureDataLakeStoreGen1')
@@ -34,8 +34,8 @@ AzureDataLakeStoreGen1('element', 'Data Lake Store Gen1', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataLakeStoreGen1 element
 include('elements/azure/AnalyticsServiceColor/AzureDataLakeStoreGen1')
@@ -53,8 +53,8 @@ AzureDataLakeStoreGen1('element', 'Data Lake Store Gen1', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataLakeStoreGen1 card
 include('elements/azure/AnalyticsServiceColor/AzureDataLakeStoreGen1')
@@ -71,8 +71,8 @@ AzureDataLakeStoreGen1Card('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataLakeStoreGen1 card
 include('elements/azure/AnalyticsServiceColor/AzureDataLakeStoreGen1')

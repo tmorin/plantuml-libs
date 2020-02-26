@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsDeepracerLg [20x20/16z] {
-RSs54KCX40JG6MxjwB_VUBwo-CEonLjwWRt0Nc3tNVzaaP8tCr2GD0hyMQo1T280ojTG5TFn6EJNJCLuTHhrwkFPJTbcAG7X97CsYcgyUalrCu9CiGgieOzD
-5cIymfVxQ_tvo9rOpjVUl6MtURO5pWNE1Ju1
-}
+sprite $AwsDeepracerLg [20x20/16z] lKs54OH049lvwD9_mOz31GJEDhPyX5dHhEZSiuhWEWBbIrP3ivsIUiu4hFCk_S6vhDaaUS_aDcPMWo-l80z9Dy4rerq8b87B2xea9O5NRsOjoinU_X7-
+
+sprite $AwsDeepracerMd [14x14/16z] bKg50SGm47f1GlSVk4GMo2dst5HQ8pdCfBjQFFgx9kXjrHdvRqRPKAIn66I0mlBKP8cml6HDzwPU
 
 !function AwsDeepracer($id, $name="Deepracer", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepracer', $name, $tech)
 !endfunction
 !function AwsDeepracerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDeepracerLg>', 'Deepracer', $funcName, $content)
+  CloudCard($id, '<$AwsDeepracerMd>', 'Deepracer', $funcName, $content)
 !endfunction
 @enduml

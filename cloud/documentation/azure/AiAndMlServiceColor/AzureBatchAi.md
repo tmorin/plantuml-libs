@@ -16,8 +16,8 @@ elements/azure/AiAndMlServiceColor/AzureBatchAi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBatchAi element
 include('elements/azure/AiAndMlServiceColor/AzureBatchAi')
@@ -34,8 +34,8 @@ AzureBatchAi('element', 'Batch Ai', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBatchAi element
 include('elements/azure/AiAndMlServiceColor/AzureBatchAi')
@@ -53,8 +53,8 @@ AzureBatchAi('element', 'Batch Ai', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBatchAi card
 include('elements/azure/AiAndMlServiceColor/AzureBatchAi')
@@ -71,8 +71,8 @@ AzureBatchAiCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBatchAi card
 include('elements/azure/AiAndMlServiceColor/AzureBatchAi')

@@ -4,10 +4,15 @@ TSm7iiGm28DX0SO8nVU_xYifs_TBSVbdm6wkLnjsjLXFjCuWmvCwGumOuVlkEMIhfN94nqCmAjqigCYO
 Us31MZJNy7Fe5PBqhYeyX-8iHsno3Fc12-Ty81DWpMst_WEQE0p5c8S4OBNe02otn0FlRL8iIY_tYy2OhBIN-tPye2_ta1mV_G8
 }
 
+sprite $AzureMonitorRunningAppsMd [18x14/16z] {
+NSY5OKKn34DH6QK7-yzR9_ryWhuOULyVCEhmbzp5kzBdiVLVnSWgSZfi5rDXb2ohVPKaF5O9IykOmeGEowx6y5MQbT8qZ9XITA0JtPHqt80TWP6Ase0wZeve
+EHxwAYko30-y6jykuiSV
+}
+
 !function AzureMonitorRunningApps($id, $name="Monitor Running Apps", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps', $name, $tech)
 !endfunction
 !function AzureMonitorRunningAppsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMonitorRunningAppsLg>', 'Monitor Running Apps', $funcName, $content)
+  CloudCard($id, '<$AzureMonitorRunningAppsMd>', 'Monitor Running Apps', $funcName, $content)
 !endfunction
 @enduml

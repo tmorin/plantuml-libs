@@ -4,10 +4,12 @@ fOp90SH02CDi39x-ErwMtFb6Fua36C8Et62k9ea3UGtMSR1EvdGEBdB_SGL21Elm2e2kE5xvxo7R6O1i
 kdJ0HIHnBFm
 }
 
+sprite $AzureResourceMd [13x14/16z] JOx50G1120CXHlyLdylE1oUfWrRKTSFCJ7YcyDmOLPeN5TvHK1sXcFEamIJgHXV8iuYlzbF4P_yjz1HU2ZJz5hYTdJTut45rfpi
+
 !function AzureResource($id, $name="Resource", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureResource', $name, $tech)
 !endfunction
 !function AzureResourceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureResourceLg>', 'Resource', $funcName, $content)
+  CloudCard($id, '<$AzureResourceMd>', 'Resource', $funcName, $content)
 !endfunction
 @enduml

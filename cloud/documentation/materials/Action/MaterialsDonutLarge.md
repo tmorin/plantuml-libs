@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsDonutLarge
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDonutLarge element
 include('elements/materials/Action/MaterialsDonutLarge')
@@ -34,8 +34,8 @@ MaterialsDonutLarge('element', 'Donut Large', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDonutLarge element
 include('elements/materials/Action/MaterialsDonutLarge')
@@ -53,8 +53,8 @@ MaterialsDonutLarge('element', 'Donut Large', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDonutLarge card
 include('elements/materials/Action/MaterialsDonutLarge')
@@ -71,8 +71,8 @@ MaterialsDonutLargeCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDonutLarge card
 include('elements/materials/Action/MaterialsDonutLarge')

@@ -4,10 +4,12 @@ VSq54iGW44JHRcJOQUv_tqMhuY_-Wo34Cm915mP4MJn8Ahr5C8I0SITzDhgaDEwsMr2jjRLsFpQDflev
 OwCryTGIXbFpNtSSHol3iM6ZwzOGD_u1
 }
 
+sprite $AzureAppsMd [14x14/16z] HOw50G0X30FRv96K_VTzd4FhGNh0al91dwNi98oabs4nea8Ht5OJrBQ5gk9L5TComFk14oDJggWQf5itIATdYuXXZNb-hA4b7GjVXxxhR94c_04
+
 !function AzureApps($id, $name="Apps", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureApps', $name, $tech)
 !endfunction
 !function AzureAppsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAppsLg>', 'Apps', $funcName, $content)
+  CloudCard($id, '<$AzureAppsMd>', 'Apps', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureFileGeneral
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFileGeneral element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFileGeneral')
@@ -34,8 +34,8 @@ AzureFileGeneral('element', 'File General', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFileGeneral element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFileGeneral')
@@ -53,8 +53,8 @@ AzureFileGeneral('element', 'File General', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFileGeneral card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFileGeneral')
@@ -71,8 +71,8 @@ AzureFileGeneralCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFileGeneral card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFileGeneral')

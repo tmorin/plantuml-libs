@@ -4,10 +4,12 @@ ZP235S0034IR78hzzwtj_n2pkLBFykpsWJ7BnG7t7cFI8oP9hqb9Pd62FMSVI9nz8dLEAwCeZyLHzeNP
 fdJvWMv-LJM_wG
 }
 
+sprite $AzureServiceBusRelaysMd [14x14/16z] PKu30W0W39p3__-RtUnTl2duHINp28FGHwOQKBVSgo9Zui-4MLT29LGUOseb8jCsJ5OpDgDY2LYm7c90Eh-x2rbuG6S
+
 !function AzureServiceBusRelays($id, $name="Service Bus Relays", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureServiceBusRelays', $name, $tech)
 !endfunction
 !function AzureServiceBusRelaysCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServiceBusRelaysLg>', 'Service Bus Relays', $funcName, $content)
+  CloudCard($id, '<$AzureServiceBusRelaysMd>', 'Service Bus Relays', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ XL250KL12CAJyEq_yEzEBcq5Dr0adb4Xirvq1gndtKgLutfIPSRbOL_LdKORY1KMZz3c1YHEWL8eyYWr
 frZpXCSQdtfvwhdEFR_CfijidpcuS_MVKr2wPDy3
 }
 
+sprite $AwsRedshiftDenseComputeNodeMd [14x14/16z] POw50KG1249LUBh_n1U_msw9bS1nK99THrPTtTeJFDBWakHnc5Q2BQjX1aE1mueSAYdiF39PEYRlL-uVNjzVo0Bukoy
+
 !function AwsRedshiftDenseComputeNode($id, $name="Redshift Dense Compute Node", $tech="")
   CloudElement($id, 'aws/Database/AwsRedshiftDenseComputeNode', $name, $tech)
 !endfunction
 !function AwsRedshiftDenseComputeNodeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRedshiftDenseComputeNodeLg>', 'Redshift Dense Compute Node', $funcName, $content)
+  CloudCard($id, '<$AwsRedshiftDenseComputeNodeMd>', 'Redshift Dense Compute Node', $funcName, $content)
 !endfunction
 @enduml

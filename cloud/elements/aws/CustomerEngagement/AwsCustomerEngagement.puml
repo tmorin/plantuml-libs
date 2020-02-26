@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsCustomerEngagementLg [20x20/16z] {
-RT370GGX34FHJRObiVtNEsGcy8-Fp6lR-rQcJw0NDNjdeoIsaFDk7N4rXPViQWN3m8Vvi2G2HO2JUUJS2UEqG2xCFBefMuzSvie5wZsZMUhRAJSjnr2hsJ_L
-hjOnBGkCvb-zFxUoRJe
+XS_50KGX34NHRpmX_VSxo2OmTfS7pV6nSwlH9I_XREQegU2m-iq4zXQZcWZPObhQrvzhOYU3H87LwMpV8fL29Pif_mKUBqSsjW3lVpR_pXPBQdQ2EPLkrrQp
+3xq
 }
+
+sprite $AwsCustomerEngagementMd [14x14/16z] LSsr0S0m00D11GNUVz-WwRkh7dFxsTg0ioGfJpbkvKvthZBlD4gVYYZIJNSyvIgRJZvPecwqWzFKkhKThGt0qW8k
 
 !function AwsCustomerEngagement($id, $name="Customer Engagement", $tech="")
   CloudElement($id, 'aws/CustomerEngagement/AwsCustomerEngagement', $name, $tech)
 !endfunction
 !function AwsCustomerEngagementCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCustomerEngagementLg>', 'Customer Engagement', $funcName, $content)
+  CloudCard($id, '<$AwsCustomerEngagementMd>', 'Customer Engagement', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/Compute/AwsEc2ContainerRegistryImage
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryImage element
@@ -34,7 +34,7 @@ AwsEc2ContainerRegistryImage('element', 'Ec2 Container Registry Image', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryImage element
@@ -53,8 +53,8 @@ AwsEc2ContainerRegistryImage('element', 'Ec2 Container Registry Image', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryImage card
 include('elements/aws/Compute/AwsEc2ContainerRegistryImage')
@@ -71,8 +71,8 @@ AwsEc2ContainerRegistryImageCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryImage card
 include('elements/aws/Compute/AwsEc2ContainerRegistryImage')

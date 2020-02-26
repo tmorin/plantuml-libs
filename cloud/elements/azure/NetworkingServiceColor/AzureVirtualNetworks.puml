@@ -4,10 +4,12 @@ VT273iD0309Gk1Zk_x-uoqbZ5QbedCVBn1bAc94ukXQxC5ExJOWm8SA426DUmaE42P5c22x6qUOIX-q5
 ijOf0BeD2CJn4G3L9jCYJ8Wm8QRvBxeFKNbDYbzZpFY-uWa
 }
 
+sprite $AzureVirtualNetworksMd [24x14/16z] RP250O0m40DVm_uRyy621MbxLpV6aNOauNR6k_sdxWtraH2M47w90sVnbyFuem1n06K997yn0kWbo0zqyTxdYJ3zYF_M9MOaX2NUM49OGlTsu1K
+
 !function AzureVirtualNetworks($id, $name="Virtual Networks", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworks', $name, $tech)
 !endfunction
 !function AzureVirtualNetworksCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVirtualNetworksLg>', 'Virtual Networks', $funcName, $content)
+  CloudCard($id, '<$AzureVirtualNetworksMd>', 'Virtual Networks', $funcName, $content)
 !endfunction
 @enduml

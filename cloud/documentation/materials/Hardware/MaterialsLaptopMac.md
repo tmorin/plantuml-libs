@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsLaptopMac
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopMac element
 include('elements/materials/Hardware/MaterialsLaptopMac')
@@ -34,8 +34,8 @@ MaterialsLaptopMac('element', 'Laptop Mac', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopMac element
 include('elements/materials/Hardware/MaterialsLaptopMac')
@@ -53,8 +53,8 @@ MaterialsLaptopMac('element', 'Laptop Mac', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopMac card
 include('elements/materials/Hardware/MaterialsLaptopMac')
@@ -71,8 +71,8 @@ MaterialsLaptopMacCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopMac card
 include('elements/materials/Hardware/MaterialsLaptopMac')

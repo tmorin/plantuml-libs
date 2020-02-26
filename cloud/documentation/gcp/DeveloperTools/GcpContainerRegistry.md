@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpContainerRegistry
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpContainerRegistry element
 include('elements/gcp/DeveloperTools/GcpContainerRegistry')
@@ -34,8 +34,8 @@ GcpContainerRegistry('element', 'Container Registry', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpContainerRegistry element
 include('elements/gcp/DeveloperTools/GcpContainerRegistry')
@@ -53,7 +53,7 @@ GcpContainerRegistry('element', 'Container Registry', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpContainerRegistry card
@@ -71,7 +71,7 @@ GcpContainerRegistryCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpContainerRegistry card

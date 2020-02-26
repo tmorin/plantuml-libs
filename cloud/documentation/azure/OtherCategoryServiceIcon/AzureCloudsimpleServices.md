@@ -16,8 +16,8 @@ elements/azure/OtherCategoryServiceIcon/AzureCloudsimpleServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCloudsimpleServices element
 include('elements/azure/OtherCategoryServiceIcon/AzureCloudsimpleServices')
@@ -34,8 +34,8 @@ AzureCloudsimpleServices('element', 'Cloudsimple Services', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCloudsimpleServices element
 include('elements/azure/OtherCategoryServiceIcon/AzureCloudsimpleServices')
@@ -53,8 +53,8 @@ AzureCloudsimpleServices('element', 'Cloudsimple Services', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCloudsimpleServices card
 include('elements/azure/OtherCategoryServiceIcon/AzureCloudsimpleServices')
@@ -71,8 +71,8 @@ AzureCloudsimpleServicesCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCloudsimpleServices card
 include('elements/azure/OtherCategoryServiceIcon/AzureCloudsimpleServices')

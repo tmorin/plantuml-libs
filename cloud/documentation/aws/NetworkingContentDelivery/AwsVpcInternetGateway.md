@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsVpcInternetGateway
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcInternetGateway element
@@ -34,7 +34,7 @@ AwsVpcInternetGateway('element', 'Vpc Internet Gateway', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcInternetGateway element
@@ -53,8 +53,8 @@ AwsVpcInternetGateway('element', 'Vpc Internet Gateway', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcInternetGateway card
 include('elements/aws/NetworkingContentDelivery/AwsVpcInternetGateway')
@@ -71,8 +71,8 @@ AwsVpcInternetGatewayCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcInternetGateway card
 include('elements/aws/NetworkingContentDelivery/AwsVpcInternetGateway')

@@ -4,10 +4,12 @@ hSwrOLX144NHONhzr_kPR2dKsUmk3MtO_Cje5-bVTTGK-dB_WnY_HLNQyJTQJn99Tl0R2nYb1E17Z2To
 2SiKrhh-byP-hu7f0UA8EW3QPcRBW-8ZxZE4pmdDTE1j7V4Wz52_7ITN
 }
 
+sprite $AzureGroupsMd [15x14/16z] ROw50GCm3CF2-F-_SyUaOjX4PF54YJZaWGPCfmVonxHFypHGVPYv8peJRsRiTbPL79UnpOQe2dEMXukQq07-ZUo8BeRfiuC3nc2g0vZW8KVooebU
+
 !function AzureGroups($id, $name="Groups", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureGroups', $name, $tech)
 !endfunction
 !function AzureGroupsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureGroupsLg>', 'Groups', $funcName, $content)
+  CloudCard($id, '<$AzureGroupsMd>', 'Groups', $funcName, $content)
 !endfunction
 @enduml

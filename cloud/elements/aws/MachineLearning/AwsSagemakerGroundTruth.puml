@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsSagemakerGroundTruthLg [20x20/16z] {
-RSY54GCn34JHcSWBSly5PvDZ-4QzzfRs-WLxnqDxGL62l5kG0oCR9qF1W1ayJ0Be-fIzceeSX9bxDGrXs2XOmSLAG0V1P6l662CGhOfvpcceFQg6WbgiZIOI
-7VvR46PLVMXuDm6L0EuM1KZ0tOTDCxdJRgcttgnZJ_m2
+fS-t0SKm30FHGiI1uFu3_-ZO-fHVftbUdFUy24BlULQAiQV5OUh6JgtQoOLbqYt_gSjIGZ5H_ypBw7s2xSreC6IqwcyjlrULEbJcLnH046KEythdQFOiVKpo
+xNFlcJdNlEjvtWi
 }
+
+sprite $AwsSagemakerGroundTruthMd [14x14/16z] XOr90eKm34B_L-6Htl--Jh7hiaeOnm95Gir7sFXxCOI3blmef4LiHXHuFx1SRckvhEVj6j2-YymvtQ2bZZ9Mk
 
 !function AwsSagemakerGroundTruth($id, $name="Sagemaker Ground Truth", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsSagemakerGroundTruth', $name, $tech)
 !endfunction
 !function AwsSagemakerGroundTruthCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSagemakerGroundTruthLg>', 'Sagemaker Ground Truth', $funcName, $content)
+  CloudCard($id, '<$AwsSagemakerGroundTruthMd>', 'Sagemaker Ground Truth', $funcName, $content)
 !endfunction
 @enduml

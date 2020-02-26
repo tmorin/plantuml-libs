@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTaskListOrBacklog element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog')
@@ -34,8 +34,8 @@ AzureTaskListOrBacklog('element', 'Task List Or Backlog', 'an optional tech fiel
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTaskListOrBacklog element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog')
@@ -53,8 +53,8 @@ AzureTaskListOrBacklog('element', 'Task List Or Backlog', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTaskListOrBacklog card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog')
@@ -71,8 +71,8 @@ AzureTaskListOrBacklogCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTaskListOrBacklog card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog')

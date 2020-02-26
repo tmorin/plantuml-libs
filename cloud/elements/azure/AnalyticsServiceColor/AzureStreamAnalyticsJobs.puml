@@ -4,10 +4,15 @@ ROu70eLG2CDQohh_YJyu_euxGNtum3E9lqIclXtT06Lc4DHRPeoRO_7CyhSIBidFLYsy4cbcf8wGU45f
 15YzW3juA9FHfjWHIZm_SwmxOW9yVBfv61PB1sbxLnDsGXcIHmggC58JhbLpV8ZqLRMdQzKNod4l_5MYkiwub_V2SDu_fpk-oTVq5-esN3m
 }
 
+sprite $AzureStreamAnalyticsJobsMd [18x14/16z] {
+JO-54KD120LX7zP_nVbdCzbJ7EpXbVO7Rgh2dAjGPTH7L5yL0fHLtNvpi8cUtEAdS8VlpccvRK42kJ4plNDyEuHjJGKE7i7Iv3Js2OeKbP1pCuEhv_2gqrsV
+xhiQkofCCxfJNFpr-mC
+}
+
 !function AzureStreamAnalyticsJobs($id, $name="Stream Analytics Jobs", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs', $name, $tech)
 !endfunction
 !function AzureStreamAnalyticsJobsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStreamAnalyticsJobsLg>', 'Stream Analytics Jobs', $funcName, $content)
+  CloudCard($id, '<$AzureStreamAnalyticsJobsMd>', 'Stream Analytics Jobs', $funcName, $content)
 !endfunction
 @enduml

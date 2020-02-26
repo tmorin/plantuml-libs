@@ -16,8 +16,8 @@ elements/azure/IntuneServiceColor/AzureExchangeOnPremisesAccess
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureExchangeOnPremisesAccess element
 include('elements/azure/IntuneServiceColor/AzureExchangeOnPremisesAccess')
@@ -34,8 +34,8 @@ AzureExchangeOnPremisesAccess('element', 'Exchange On Premises Access', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureExchangeOnPremisesAccess element
 include('elements/azure/IntuneServiceColor/AzureExchangeOnPremisesAccess')
@@ -53,8 +53,8 @@ AzureExchangeOnPremisesAccess('element', 'Exchange On Premises Access', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureExchangeOnPremisesAccess card
 include('elements/azure/IntuneServiceColor/AzureExchangeOnPremisesAccess')
@@ -71,8 +71,8 @@ AzureExchangeOnPremisesAccessCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureExchangeOnPremisesAccess card
 include('elements/azure/IntuneServiceColor/AzureExchangeOnPremisesAccess')

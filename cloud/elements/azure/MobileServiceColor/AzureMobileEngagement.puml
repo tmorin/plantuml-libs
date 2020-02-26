@@ -4,10 +4,12 @@ dOy54WCm20GdQ3Zu_tiRhOvsenk5Za4V05M16BYP1p8ppFHWFepRWGrXzAUfCB4mYqwpuQCJbcthIzed
 -RJ2bdW
 }
 
+sprite $AzureMobileEngagementMd [10x14/16z] LOg55GCm24HVSDj_tXwf_mYSP5MwPyyE0nuLGeTm9KFEvNz313J3L5I5TpF3jYacqTs4vBsnicmFL4HLDMwhzinazMHYgGS
+
 !function AzureMobileEngagement($id, $name="Mobile Engagement", $tech="")
   CloudElement($id, 'azure/MobileServiceColor/AzureMobileEngagement', $name, $tech)
 !endfunction
 !function AzureMobileEngagementCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMobileEngagementLg>', 'Mobile Engagement', $funcName, $content)
+  CloudCard($id, '<$AzureMobileEngagementMd>', 'Mobile Engagement', $funcName, $content)
 !endfunction
 @enduml

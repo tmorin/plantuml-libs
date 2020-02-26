@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsAppMeshLg [20x20/16z] {
-TSY53SCm50L0ATz-bFtdBHdA9pvlslxSzdNYpinY5UHvZvH0GboNg7NVgJUkuz4rxe3dgKi08NRPuunOLRJnFCO1FCv-N4z2skxxr9n8jXlt5HmoHksBAG8K
-vN43g-0fYvJCE_DgteyyV-GL
+hP054WGX30IhDZ8p-Vz_rnKelSFfD5h_I6A7w8Q622JUgZoqz-cw6ARWpcB2xOK4CCNGpR1MizN5XrLcVTW-tGCtutQSjkgycQrnOjNiPYKGcIHKxmGpZF_W
+zxG
 }
+
+sprite $AwsAppMeshMd [14x14/16z] XSsf0GLH5C9G1PVGVxz_cNtKYpigNPOyOLySq-BP9GDOkm8Iv5HdUieKYW-vINseH0gl-x8l
 
 !function AwsAppMesh($id, $name="App Mesh", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsAppMesh', $name, $tech)
 !endfunction
 !function AwsAppMeshCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAppMeshLg>', 'App Mesh', $funcName, $content)
+  CloudCard($id, '<$AwsAppMeshMd>', 'App Mesh', $funcName, $content)
 !endfunction
 @enduml

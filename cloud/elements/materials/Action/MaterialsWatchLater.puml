@@ -4,10 +4,12 @@ VP1L0iGW44ERgGM__srtKpTuVpp6kmOmmrqC32a53gSsLpPek_BbmAyIr2Dp_I7aXYAYZMLXaEFgCAoE
 2A_iOP_vXAZi9idp1erRdJTjy0C
 }
 
+sprite $MaterialsWatchLaterMd [14x14/16z] POw55SCm34Jxn37klsqjAEORnVUu0QpAK0QFVHYSXd_dkTm4Zv2w2pAqKNO6zMDfMGmwtShCAK1hStHncYtlui64RzC_ocuy0G
+
 !function MaterialsWatchLater($id, $name="Watch Later", $tech="")
   CloudElement($id, 'materials/Action/MaterialsWatchLater', $name, $tech)
 !endfunction
 !function MaterialsWatchLaterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWatchLaterLg>', 'Watch Later', $funcName, $content)
+  CloudCard($id, '<$MaterialsWatchLaterMd>', 'Watch Later', $funcName, $content)
 !endfunction
 @enduml

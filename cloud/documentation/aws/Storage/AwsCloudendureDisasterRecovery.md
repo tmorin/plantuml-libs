@@ -16,7 +16,7 @@ elements/aws/Storage/AwsCloudendureDisasterRecovery
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudendureDisasterRecovery element
@@ -34,7 +34,7 @@ AwsCloudendureDisasterRecovery('element', 'Cloudendure Disaster Recovery', 'an o
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudendureDisasterRecovery element
@@ -53,8 +53,8 @@ AwsCloudendureDisasterRecovery('element', 'Cloudendure Disaster Recovery', 'an o
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudendureDisasterRecovery card
 include('elements/aws/Storage/AwsCloudendureDisasterRecovery')
@@ -71,8 +71,8 @@ AwsCloudendureDisasterRecoveryCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudendureDisasterRecovery card
 include('elements/aws/Storage/AwsCloudendureDisasterRecovery')

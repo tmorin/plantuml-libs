@@ -16,8 +16,8 @@ elements/azure/IntuneServiceColor/AzureClientApps
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientApps element
 include('elements/azure/IntuneServiceColor/AzureClientApps')
@@ -34,8 +34,8 @@ AzureClientApps('element', 'Client Apps', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientApps element
 include('elements/azure/IntuneServiceColor/AzureClientApps')
@@ -53,8 +53,8 @@ AzureClientApps('element', 'Client Apps', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientApps card
 include('elements/azure/IntuneServiceColor/AzureClientApps')
@@ -71,8 +71,8 @@ AzureClientAppsCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientApps card
 include('elements/azure/IntuneServiceColor/AzureClientApps')

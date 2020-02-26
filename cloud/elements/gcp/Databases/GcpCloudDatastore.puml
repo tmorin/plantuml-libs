@@ -4,10 +4,12 @@ RP050e0m30CdaVt_mqXNdCElmLA2cfIJffEMgcgSAACODp1ZlZj7aEC1DzNyTDvUepYHDnHZvGjGk84v
 -Vjltmu-NKNiqQcTdVvqlm8
 }
 
+sprite $GcpCloudDatastoreMd [14x14/16z] JOw50G0n30A9GDX_uNVfLUC0YBe8u3Gq5xhCzaCVHivhJGBq1r57I9Hql7CQPakK3_EqnEwMd-28l6ArTj4wmRbEvw_CdaVehte7
+
 !function GcpCloudDatastore($id, $name="Cloud Datastore", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudDatastore', $name, $tech)
 !endfunction
 !function GcpCloudDatastoreCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudDatastoreLg>', 'Cloud Datastore', $funcName, $content)
+  CloudCard($id, '<$GcpCloudDatastoreMd>', 'Cloud Datastore', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ PSm70eH024DH0adm_YTUk-9-wxmf4U08iKPJqaNcPgfqTyLHQJVQYvt3f6gHqmo4QbX9e34jpDwEmzku
 jtHyZ844Xj57Xz7SqXxDpK3nrIe_
 }
 
+sprite $AwsIdentityAndAccessManagementIamDataEncryptionKeyMd [14x14/16z] HSl50O1034JHqT1_nJZilxq8c3Iz2W4bKrv5fzfjZ3Fxr3ZEBTsNYdxvl0ND9TRbBnNn8zIzUmI68ozXUCktQERUXTJ_n_Gjn04
+
 !function AwsIdentityAndAccessManagementIamDataEncryptionKey($id, $name="Identity And Access Management Iam Data Encryption Key", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey', $name, $tech)
 !endfunction
 !function AwsIdentityAndAccessManagementIamDataEncryptionKeyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIdentityAndAccessManagementIamDataEncryptionKeyLg>', 'Identity And Access Management Iam Data Encryption Key', $funcName, $content)
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamDataEncryptionKeyMd>', 'Identity And Access Management Iam Data Encryption Key', $funcName, $content)
 !endfunction
 @enduml

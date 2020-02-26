@@ -4,10 +4,12 @@ ZOw30GL134GdEcpKVxNVvhrbFBX2X1TuTf_vsUMBwk9FpcKXW9RvmKMknqUT7droVEJ1Hnh61opqwfIe
 GhdW33-0B-m1
 }
 
+sprite $MaterialsHttpsMd [14x14/16z] NSUr0GC130ImCqF0-qyRV5OdV948OKNniTKDCCSY6E1O8gNCMe8ldNb-pEXtDWjRzd1_x4iWzpLpxvlxVVPzBUDOC2xU
+
 !function MaterialsHttps($id, $name="Https", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHttps', $name, $tech)
 !endfunction
 !function MaterialsHttpsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHttpsLg>', 'Https', $funcName, $content)
+  CloudCard($id, '<$MaterialsHttpsMd>', 'Https', $funcName, $content)
 !endfunction
 @enduml

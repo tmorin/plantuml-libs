@@ -4,10 +4,12 @@ RSxL0S0W34NH5qNstxUAm_rAJp5yiPgR4ER4_Cq8H8DwoTwaA9bFwRmuXZB8nrfEIBdyi8LpYkLgqAz2
 uYSKbc_kVPnyei91i7FG_d43
 }
 
+sprite $AzureFrontDoorsMd [16x14/16z] NSh50S0m30D0su8csN_VCjzF42l8ghZH6u97LxxncVlaLPrP7gFjXzmYasCCsmXwht5afJxP_6NpcnLyPrL4LjMUMPLnmkYA5qmLkmK
+
 !function AzureFrontDoors($id, $name="Front Doors", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureFrontDoors', $name, $tech)
 !endfunction
 !function AzureFrontDoorsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureFrontDoorsLg>', 'Front Doors', $funcName, $content)
+  CloudCard($id, '<$AzureFrontDoorsMd>', 'Front Doors', $funcName, $content)
 !endfunction
 @enduml

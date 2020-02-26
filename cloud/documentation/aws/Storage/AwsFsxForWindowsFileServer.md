@@ -16,7 +16,7 @@ elements/aws/Storage/AwsFsxForWindowsFileServer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsFsxForWindowsFileServer element
@@ -34,7 +34,7 @@ AwsFsxForWindowsFileServer('element', 'Fsx For Windows File Server', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsFsxForWindowsFileServer element
@@ -53,8 +53,8 @@ AwsFsxForWindowsFileServer('element', 'Fsx For Windows File Server', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsFsxForWindowsFileServer card
 include('elements/aws/Storage/AwsFsxForWindowsFileServer')
@@ -71,8 +71,8 @@ AwsFsxForWindowsFileServerCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsFsxForWindowsFileServer card
 include('elements/aws/Storage/AwsFsxForWindowsFileServer')

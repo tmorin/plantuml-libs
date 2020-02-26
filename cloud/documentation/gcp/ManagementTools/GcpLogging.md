@@ -16,8 +16,8 @@ elements/gcp/ManagementTools/GcpLogging
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpLogging element
 include('elements/gcp/ManagementTools/GcpLogging')
@@ -34,8 +34,8 @@ GcpLogging('element', 'Logging', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpLogging element
 include('elements/gcp/ManagementTools/GcpLogging')
@@ -53,7 +53,7 @@ GcpLogging('element', 'Logging', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpLogging card
@@ -71,7 +71,7 @@ GcpLoggingCard('card', 'an optional functional name', 'Molestiae praesentium aut
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpLogging card

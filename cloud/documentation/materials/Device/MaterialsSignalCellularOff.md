@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalCellularOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularOff element
 include('elements/materials/Device/MaterialsSignalCellularOff')
@@ -34,8 +34,8 @@ MaterialsSignalCellularOff('element', 'Signal Cellular Off', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularOff element
 include('elements/materials/Device/MaterialsSignalCellularOff')
@@ -53,8 +53,8 @@ MaterialsSignalCellularOff('element', 'Signal Cellular Off', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularOff card
 include('elements/materials/Device/MaterialsSignalCellularOff')
@@ -71,8 +71,8 @@ MaterialsSignalCellularOffCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularOff card
 include('elements/materials/Device/MaterialsSignalCellularOff')

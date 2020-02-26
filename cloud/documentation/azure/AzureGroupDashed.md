@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGroupDashed group
 include('groups/azure/AzureGroupDashed')
@@ -30,8 +30,8 @@ AzureGroupDashed('element', 'Dashed', 'an optional tech field')
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGroupDashed group
 include('groups/azure/AzureGroupDashed')

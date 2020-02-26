@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsSchool
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSchool element
 include('elements/materials/Social/MaterialsSchool')
@@ -34,8 +34,8 @@ MaterialsSchool('element', 'School', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSchool element
 include('elements/materials/Social/MaterialsSchool')
@@ -53,8 +53,8 @@ MaterialsSchool('element', 'School', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSchool card
 include('elements/materials/Social/MaterialsSchool')
@@ -71,8 +71,8 @@ MaterialsSchoolCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSchool card
 include('elements/materials/Social/MaterialsSchool')

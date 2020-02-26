@@ -4,10 +4,12 @@ NP07WWCn3091W2x_V_4ftkgC-xWBA6yK1cVrfTN4ombVI6BGxLYIgpOt5LNwTH2zEtvpSNCtjokR0Esw
 dxyEdxVKoVxcnHw3Nd1pmP37HN9ZQ4jPhZm8WyxO_mC
 }
 
+sprite $AwsStorageGatewayVirtualTapeLibraryMd [14x14/16z] HOu50e1020GPTl3_FxRrcjee_1TL7Q0RI9zPrvdSqNkbip8A-3BgN6yMjLkJAviKIcMkJ9zChonnczbCFawWVixH-JXlwVJjZ75kQeSw
+
 !function AwsStorageGatewayVirtualTapeLibrary($id, $name="Storage Gateway Virtual Tape Library", $tech="")
   CloudElement($id, 'aws/Storage/AwsStorageGatewayVirtualTapeLibrary', $name, $tech)
 !endfunction
 !function AwsStorageGatewayVirtualTapeLibraryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsStorageGatewayVirtualTapeLibraryLg>', 'Storage Gateway Virtual Tape Library', $funcName, $content)
+  CloudCard($id, '<$AwsStorageGatewayVirtualTapeLibraryMd>', 'Storage Gateway Virtual Tape Library', $funcName, $content)
 !endfunction
 @enduml

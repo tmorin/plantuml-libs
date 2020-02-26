@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsPlayCircleOutline
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleOutline element
 include('elements/materials/Av/MaterialsPlayCircleOutline')
@@ -34,8 +34,8 @@ MaterialsPlayCircleOutline('element', 'Play Circle Outline', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleOutline element
 include('elements/materials/Av/MaterialsPlayCircleOutline')
@@ -53,8 +53,8 @@ MaterialsPlayCircleOutline('element', 'Play Circle Outline', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleOutline card
 include('elements/materials/Av/MaterialsPlayCircleOutline')
@@ -71,8 +71,8 @@ MaterialsPlayCircleOutlineCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleOutline card
 include('elements/materials/Av/MaterialsPlayCircleOutline')

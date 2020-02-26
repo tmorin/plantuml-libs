@@ -4,10 +4,12 @@ VP050WGX24K1Yocv_ssNsEaqd-I7Zm-9y0moJyioSTuniOZCiovCAnf5faoK9v4n8B8Q9K24fARixbbz
 lj3E2cGz6LjzxJY8_7s1WvKI3hpMilQnreBiA2M7Z6jlArjxksXmr-fJq-lt0m
 }
 
+sprite $MaterialsHelpMd [14x14/16z] PKu55aCn25ibvNqgkVzjDsIEExdzKOK8QYPOH_KiHCBTI-cRbjP5AMCKuQhMeihHCcXDuODMgqfAPYWNFODdtQrV8IzhsHLlTkiXlrEL2z_8_kWE
+
 !function MaterialsHelp($id, $name="Help", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHelp', $name, $tech)
 !endfunction
 !function MaterialsHelpCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHelpLg>', 'Help', $funcName, $content)
+  CloudCard($id, '<$MaterialsHelpMd>', 'Help', $funcName, $content)
 !endfunction
 @enduml

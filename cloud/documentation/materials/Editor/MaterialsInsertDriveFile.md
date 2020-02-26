@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsInsertDriveFile
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertDriveFile element
 include('elements/materials/Editor/MaterialsInsertDriveFile')
@@ -34,8 +34,8 @@ MaterialsInsertDriveFile('element', 'Insert Drive File', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertDriveFile element
 include('elements/materials/Editor/MaterialsInsertDriveFile')
@@ -53,8 +53,8 @@ MaterialsInsertDriveFile('element', 'Insert Drive File', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertDriveFile card
 include('elements/materials/Editor/MaterialsInsertDriveFile')
@@ -71,8 +71,8 @@ MaterialsInsertDriveFileCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertDriveFile card
 include('elements/materials/Editor/MaterialsInsertDriveFile')

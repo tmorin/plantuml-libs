@@ -4,10 +4,12 @@ PKy70W8W2Cn0PHt_VsvWkyx17eVCX5cqI02X6a2fcuYOwzi0NnxWFtqKdlfotm_zwX5EHnyiXHAbpsuU
 3J2ZvVb43jKR
 }
 
+sprite $AzureAndroidPhoneMd [8x14/16z] JKk50SD027p3uVRVjeqdE2S5X1SgLPX5qziUtTyzp4PpxnH1sxyqKzUs7MNRxfH9Xvxew-l7Zd8NSQy2J87w0m
+
 !function AzureAndroidPhone($id, $name="Android Phone", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureAndroidPhone', $name, $tech)
 !endfunction
 !function AzureAndroidPhoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAndroidPhoneLg>', 'Android Phone', $funcName, $content)
+  CloudCard($id, '<$AzureAndroidPhoneMd>', 'Android Phone', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSns
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSns element
@@ -34,7 +34,7 @@ AwsSimpleNotificationServiceSns('element', 'Simple Notification Service Sns', 'a
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSns element
@@ -53,8 +53,8 @@ AwsSimpleNotificationServiceSns('element', 'Simple Notification Service Sns', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSns card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSns')
@@ -71,8 +71,8 @@ AwsSimpleNotificationServiceSnsCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSns card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSns')

@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsReceipt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReceipt element
 include('elements/materials/Action/MaterialsReceipt')
@@ -34,8 +34,8 @@ MaterialsReceipt('element', 'Receipt', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReceipt element
 include('elements/materials/Action/MaterialsReceipt')
@@ -53,8 +53,8 @@ MaterialsReceipt('element', 'Receipt', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReceipt card
 include('elements/materials/Action/MaterialsReceipt')
@@ -71,8 +71,8 @@ MaterialsReceiptCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReceipt card
 include('elements/materials/Action/MaterialsReceipt')

@@ -4,10 +4,12 @@ TSw54GKX30HGOkI2RV_TVZct7MCUiVGQChsP0JTK3BdrwfNO9ZkBU0E6defw-00Adqm4Q3NaQ6o0yzHt
 _3CRdBJHhuxNEY_qitdUScPu-XkfgaN-4JLRB7zJ_6TS9IKfonr2-rMKzdm
 }
 
+sprite $MaterialsTransferWithinAStationMd [14x14/16z] JSwr0GHH3CHGUSOV3zn_jSUmobucdWM7lFEeyq6HvflwhldJwBEg_UHPVKo_PUyI_WYTpoE83tDecroz9z0RtQ3tqVHJoXo6MF6ItGKOzDs-0m
+
 !function MaterialsTransferWithinAStation($id, $name="Transfer Within A Station", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTransferWithinAStation', $name, $tech)
 !endfunction
 !function MaterialsTransferWithinAStationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTransferWithinAStationLg>', 'Transfer Within A Station', $funcName, $content)
+  CloudCard($id, '<$MaterialsTransferWithinAStationMd>', 'Transfer Within A Station', $funcName, $content)
 !endfunction
 @enduml

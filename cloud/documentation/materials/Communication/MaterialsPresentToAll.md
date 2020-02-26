@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsPresentToAll
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPresentToAll element
 include('elements/materials/Communication/MaterialsPresentToAll')
@@ -34,8 +34,8 @@ MaterialsPresentToAll('element', 'Present To All', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPresentToAll element
 include('elements/materials/Communication/MaterialsPresentToAll')
@@ -53,8 +53,8 @@ MaterialsPresentToAll('element', 'Present To All', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPresentToAll card
 include('elements/materials/Communication/MaterialsPresentToAll')
@@ -71,8 +71,8 @@ MaterialsPresentToAllCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPresentToAll card
 include('elements/materials/Communication/MaterialsPresentToAll')

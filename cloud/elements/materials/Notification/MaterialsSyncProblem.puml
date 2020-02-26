@@ -4,10 +4,12 @@ fL254S0W38mIzDX_sahukmxGh_A6q6ymlsyfNfn1MRVyx3qKbAzWOdwv06NBdtS4sOXfIN5BiLPIfTfE
 Y5of8H1xsxjcZkMWTBmSjdZ0Nhm8Jk8tRW
 }
 
+sprite $MaterialsSyncProblemMd [14x14/16z] XSdL5S1G20FG4EHKzr-ts7-VSXFyB0eW7jRm8yNtOS4IfZpExexCt4Lu9F8fRJmHL_b8herXvq5Lo64bFY-HS7GNBYdYPtq
+
 !function MaterialsSyncProblem($id, $name="Sync Problem", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsSyncProblem', $name, $tech)
 !endfunction
 !function MaterialsSyncProblemCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSyncProblemLg>', 'Sync Problem', $funcName, $content)
+  CloudCard($id, '<$MaterialsSyncProblemMd>', 'Sync Problem', $funcName, $content)
 !endfunction
 @enduml

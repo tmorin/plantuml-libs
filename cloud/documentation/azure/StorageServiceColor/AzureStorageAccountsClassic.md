@@ -16,8 +16,8 @@ elements/azure/StorageServiceColor/AzureStorageAccountsClassic
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageAccountsClassic element
 include('elements/azure/StorageServiceColor/AzureStorageAccountsClassic')
@@ -34,8 +34,8 @@ AzureStorageAccountsClassic('element', 'Storage Accounts Classic', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageAccountsClassic element
 include('elements/azure/StorageServiceColor/AzureStorageAccountsClassic')
@@ -53,8 +53,8 @@ AzureStorageAccountsClassic('element', 'Storage Accounts Classic', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageAccountsClassic card
 include('elements/azure/StorageServiceColor/AzureStorageAccountsClassic')
@@ -71,8 +71,8 @@ AzureStorageAccountsClassicCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageAccountsClassic card
 include('elements/azure/StorageServiceColor/AzureStorageAccountsClassic')

@@ -16,7 +16,7 @@ elements/aws/Compute/Instance/AwsEc2SpotInstance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2SpotInstance element
@@ -34,7 +34,7 @@ AwsEc2SpotInstance('element', 'Ec2 Spot Instance', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2SpotInstance element
@@ -53,8 +53,8 @@ AwsEc2SpotInstance('element', 'Ec2 Spot Instance', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2SpotInstance card
 include('elements/aws/Compute/Instance/AwsEc2SpotInstance')
@@ -71,8 +71,8 @@ AwsEc2SpotInstanceCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2SpotInstance card
 include('elements/aws/Compute/Instance/AwsEc2SpotInstance')

@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsIdentityAndAccessManagementIamLg [20x20/16z] {
-RT050eKm38FX9qkQbFkV5-bm-F4Fdu-qvHVq2wQVcZDgBw9R4aSDPOO5X2jj9aIqY-LiDYGo593ByAy7WOh5l5WJmNaLek1kS1a0RSQcs5wo6x7CLmCNGyLk
-wTu-9iEGvznjUDe37rOu0G
-}
+sprite $AwsIdentityAndAccessManagementIamLg [20x20/16z] jO-r0S1030CRYxB_lc66Bd-bGT0r82VM4S4TS9aX8Rs-O9j1HgwpSR0UnziC1HH3MSVCXEes2y4oWMIRbINLd6wV4Nkmu2FpHxTV6G
+
+sprite $AwsIdentityAndAccessManagementIamMd [14x14/16z] bSst0S103CF0IY3U--_hd3jTfyYfmPpSAeInOQiIurPbgoX0zAXM5N9LeTJNvbZnIsXO
 
 !function AwsIdentityAndAccessManagementIam($id, $name="Identity And Access Management Iam", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam', $name, $tech)
 !endfunction
 !function AwsIdentityAndAccessManagementIamCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIdentityAndAccessManagementIamLg>', 'Identity And Access Management Iam', $funcName, $content)
+  CloudCard($id, '<$AwsIdentityAndAccessManagementIamMd>', 'Identity And Access Management Iam', $funcName, $content)
 !endfunction
 @enduml

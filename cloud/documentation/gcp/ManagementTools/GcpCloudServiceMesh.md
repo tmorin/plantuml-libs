@@ -16,8 +16,8 @@ elements/gcp/ManagementTools/GcpCloudServiceMesh
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudServiceMesh element
 include('elements/gcp/ManagementTools/GcpCloudServiceMesh')
@@ -34,8 +34,8 @@ GcpCloudServiceMesh('element', 'Cloud Service Mesh', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudServiceMesh element
 include('elements/gcp/ManagementTools/GcpCloudServiceMesh')
@@ -53,7 +53,7 @@ GcpCloudServiceMesh('element', 'Cloud Service Mesh', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudServiceMesh card
@@ -71,7 +71,7 @@ GcpCloudServiceMeshCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudServiceMesh card

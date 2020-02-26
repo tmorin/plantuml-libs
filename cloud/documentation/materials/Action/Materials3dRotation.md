@@ -16,8 +16,8 @@ elements/materials/Action/Materials3dRotation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the Materials3dRotation element
 include('elements/materials/Action/Materials3dRotation')
@@ -34,8 +34,8 @@ Materials3dRotation('element', 'Rotation', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the Materials3dRotation element
 include('elements/materials/Action/Materials3dRotation')
@@ -53,8 +53,8 @@ Materials3dRotation('element', 'Rotation', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the Materials3dRotation card
 include('elements/materials/Action/Materials3dRotation')
@@ -71,8 +71,8 @@ Materials3dRotationCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the Materials3dRotation card
 include('elements/materials/Action/Materials3dRotation')

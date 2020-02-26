@@ -4,10 +4,12 @@ VL053WH13AgDi2d_V-x9kZD2KY_o0ZNJeo6GP28siu4jtACHjfW6k8nm39DH0VtJ-A6FwS4nghKnal6d
 utOMxSUPxtUxrs3JgeVUQFgCBm
 }
 
+sprite $MaterialsErrorOutlineMd [14x14/16z] PKw53G0W36FIDFn_CExEh1A-fI2X8q64MNbwGgcViAOQI-9UqgYbXN0yj9aPHwRQib4MQGE3nMomt0fR_N7shWm
+
 !function MaterialsErrorOutline($id, $name="Error Outline", $tech="")
   CloudElement($id, 'materials/Alert/MaterialsErrorOutline', $name, $tech)
 !endfunction
 !function MaterialsErrorOutlineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsErrorOutlineLg>', 'Error Outline', $funcName, $content)
+  CloudCard($id, '<$MaterialsErrorOutlineMd>', 'Error Outline', $funcName, $content)
 !endfunction
 @enduml

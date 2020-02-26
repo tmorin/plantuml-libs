@@ -4,10 +4,12 @@ dT2t0GH10C90Ra5i_nM_z_vFuOIIdBii2UuDPFGGJhGltHNjsv6r3o-BUR0XZR-DxBktMTljlKKIQsqm
 tcy1
 }
 
+sprite $AwsIotReportedStateMd [14x14/16z] TSwr0G0120F0G6J_ZTzThiC1TI38Ef0g09e0AAqHy1brLH-H8yL7PC2_4MbtxtEU93wsB9abehbQFhj_FG8
+
 !function AwsIotReportedState($id, $name="Iot Reported State", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotReportedState', $name, $tech)
 !endfunction
 !function AwsIotReportedStateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotReportedStateLg>', 'Iot Reported State', $funcName, $content)
+  CloudCard($id, '<$AwsIotReportedStateMd>', 'Iot Reported State', $funcName, $content)
 !endfunction
 @enduml

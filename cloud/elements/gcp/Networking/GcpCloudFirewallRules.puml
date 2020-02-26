@@ -4,10 +4,12 @@ RP250K0X44Br2lTVs6vzFsmFS1NVSHEo2VKfRs5YVQk43MdRiC-XRjJIw-IkbWAv0oPI9PBIpsMiR5Cp
 ELgQnztwzVPcy6O5VsIApCpqoJu1
 }
 
+sprite $GcpCloudFirewallRulesMd [14x14/16z] LOw50GDH34BZiF_4fJb_N-EOcUVY-ieOBBDcyQHa18Y52BCckrfRhoLqJzN8WWnP2sL-hNScyzrbTi95lAVtfUnlu1JwgFu1
+
 !function GcpCloudFirewallRules($id, $name="Cloud Firewall Rules", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudFirewallRules', $name, $tech)
 !endfunction
 !function GcpCloudFirewallRulesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudFirewallRulesLg>', 'Cloud Firewall Rules', $funcName, $content)
+  CloudCard($id, '<$GcpCloudFirewallRulesMd>', 'Cloud Firewall Rules', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsVerticalAlignCenterLg [20x20/16z] Ou01HaO63C3EZYd6mK6C62i73my7AweO8mS_FmSZ0xeWGWZPBGG02mSIOC4jXW24xK2u1TFDc7uZDLmGOOhNBG
 
+sprite $MaterialsVerticalAlignCenterMd [14x14/16z] Om039YO69C3AYiHXP6DZH9BYuK6MP6DZm0gOMQ606Ps709Yc86p0j1tJPGXN0m
+
 !function MaterialsVerticalAlignCenter($id, $name="Vertical Align Center", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsVerticalAlignCenter', $name, $tech)
 !endfunction
 !function MaterialsVerticalAlignCenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVerticalAlignCenterLg>', 'Vertical Align Center', $funcName, $content)
+  CloudCard($id, '<$MaterialsVerticalAlignCenterMd>', 'Vertical Align Center', $funcName, $content)
 !endfunction
 @enduml

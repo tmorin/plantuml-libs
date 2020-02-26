@@ -4,10 +4,12 @@ ZOy73iGm20Iz2-p_dtoco9nw9dqqH2A-GX1WNdCo0cT1tT8XENKMqx51fkEe9l1c3rpX7hBN8SCW8yxE
 N4m6-cMthynLs3YJqtQxSH5QruGUzVyV
 }
 
+sprite $AzureMachineLearningStudioWorkspacesMd [14x14/16z] LSb50G1130J1mVYNV0nRdq1tvPy6Fma8di3Z0jDTdkP9ghj18vLtkw-dfM9zDXyRwT0EoOIoZnS1LUhC50VNdOEmEy8X03O
+
 !function AzureMachineLearningStudioWorkspaces($id, $name="Machine Learning Studio Workspaces", $tech="")
   CloudElement($id, 'azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces', $name, $tech)
 !endfunction
 !function AzureMachineLearningStudioWorkspacesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMachineLearningStudioWorkspacesLg>', 'Machine Learning Studio Workspaces', $funcName, $content)
+  CloudCard($id, '<$AzureMachineLearningStudioWorkspacesMd>', 'Machine Learning Studio Workspaces', $funcName, $content)
 !endfunction
 @enduml

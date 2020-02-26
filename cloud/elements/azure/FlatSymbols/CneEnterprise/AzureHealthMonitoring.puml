@@ -4,10 +4,15 @@ RSz50WCm24JH6Ppx7xX2gFVjykE0PdSwCSIpAWI0LT-buZKeXLGl0xnNClgeQfzy-2uFQh_RN0BMdud0
 gQ0Ewy3T_UeY27l-TZfpElZwp24vtLzvIRMUvQ-yEyfpShxotZ62-CJxwMNufHc2foi
 }
 
+sprite $AzureHealthMonitoringMd [17x14/16z] {
+JSw70GKn209GC2UO_GU-mgyllIgMzpG1b6PSMBDltycKCtXwTYZzOfRnp0JaulTA_Msuf0PfMzAzVU36WnbH8m1j2wJyg6nl0Pq8wttHuBpNKMud03wIhuWV
+zXplwGK
+}
+
 !function AzureHealthMonitoring($id, $name="Health Monitoring", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureHealthMonitoring', $name, $tech)
 !endfunction
 !function AzureHealthMonitoringCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHealthMonitoringLg>', 'Health Monitoring', $funcName, $content)
+  CloudCard($id, '<$AzureHealthMonitoringMd>', 'Health Monitoring', $funcName, $content)
 !endfunction
 @enduml

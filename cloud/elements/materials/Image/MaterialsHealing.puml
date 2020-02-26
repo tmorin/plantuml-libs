@@ -4,10 +4,12 @@ TT05bWGX40DGIE7okFzjbrJMnjB-smBXKsByEVvH6-0Hen55ENMGpY6AGhX84eekZaaInf5ejeuo-A0D
 FKLCANn864dCClLalowQmotxGE0uO3rTwYGXltKn--U49FRiyVESlkOB
 }
 
+sprite $MaterialsHealingMd [14x14/16z] NSTB0eGW34J1ruPqvf_xttOKM5cxukv8G7dCX8V1_RvwM8IhUpO7wDcN13bKzfaILn_ET1TJzRMdTxhjKbpDlZm48o7UPyg17CmMyhXoDGNAuEuF
+
 !function MaterialsHealing($id, $name="Healing", $tech="")
   CloudElement($id, 'materials/Image/MaterialsHealing', $name, $tech)
 !endfunction
 !function MaterialsHealingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHealingLg>', 'Healing', $funcName, $content)
+  CloudCard($id, '<$MaterialsHealingMd>', 'Healing', $funcName, $content)
 !endfunction
 @enduml

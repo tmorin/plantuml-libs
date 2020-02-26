@@ -4,10 +4,12 @@ JSw73GH120D0m67tll-2Nt1nb2s2ur8aaV45ZefR9dZ9P-k5T-kLdod94iz7Ls9JQtdIPBChKaXCEBnG
 NZeNrwfYD7OMIMd_bgwi-f-wxEwZhHWyZZfNUgcfUEoSh5T7ogMPi-DMHYdxJSOBMjj2Z3y
 }
 
+sprite $AzureVirtualWansMd [14x14/16z] DSc50GCn30D0aTrq_uK_gE1PM54I0NXuL5uUQYOnSP3kdjP2P5EhdkZy_WOuMwQ5rG8fWG4Cg2nZVMawOvIMg1522QVMt03AM57PwrxLOhhYXGy
+
 !function AzureVirtualWans($id, $name="Virtual Wans", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualWans', $name, $tech)
 !endfunction
 !function AzureVirtualWansCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVirtualWansLg>', 'Virtual Wans', $funcName, $content)
+  CloudCard($id, '<$AzureVirtualWansMd>', 'Virtual Wans', $funcName, $content)
 !endfunction
 @enduml

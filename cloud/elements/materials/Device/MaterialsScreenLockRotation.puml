@@ -4,10 +4,12 @@ PSm50WCX34JHYQ8jzxzjGzbK_oeFmOcT0P2P8UE-Ug1mt4cZIcj4HTKSIGGMo8fkVAWHThhjphdgnzh8
 I3NMSUF49C0A4fDYv8byqHvL5jiuaWAjpnNexL1gxOQ_Y90z
 }
 
+sprite $MaterialsScreenLockRotationMd [14x14/16z] HSc54KD13CHGxTe73lPVRU3JQV2D0EWD7C6EEPDqUiEGxFlpDNO0VhxVFsNzmUyzExY2ZRPO91B7HSscpiPDdUQ36XtKjN43k4VALHj0xJRb10w7sVe2
+
 !function MaterialsScreenLockRotation($id, $name="Screen Lock Rotation", $tech="")
   CloudElement($id, 'materials/Device/MaterialsScreenLockRotation', $name, $tech)
 !endfunction
 !function MaterialsScreenLockRotationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScreenLockRotationLg>', 'Screen Lock Rotation', $funcName, $content)
+  CloudCard($id, '<$MaterialsScreenLockRotationMd>', 'Screen Lock Rotation', $funcName, $content)
 !endfunction
 @enduml

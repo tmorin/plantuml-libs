@@ -16,8 +16,8 @@ elements/materials/Navigation/MaterialsArrowDropDownCircle
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowDropDownCircle element
 include('elements/materials/Navigation/MaterialsArrowDropDownCircle')
@@ -34,8 +34,8 @@ MaterialsArrowDropDownCircle('element', 'Arrow Drop Down Circle', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowDropDownCircle element
 include('elements/materials/Navigation/MaterialsArrowDropDownCircle')
@@ -53,8 +53,8 @@ MaterialsArrowDropDownCircle('element', 'Arrow Drop Down Circle', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowDropDownCircle card
 include('elements/materials/Navigation/MaterialsArrowDropDownCircle')
@@ -71,8 +71,8 @@ MaterialsArrowDropDownCircleCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsArrowDropDownCircle card
 include('elements/materials/Navigation/MaterialsArrowDropDownCircle')

@@ -4,10 +4,12 @@ RP150WKX34FhwVql_6MQSTu6g8R8XX8vi3emXhJwe5WQVI6c3DSOjiBi6_bV04xYL9Z8N16gWKbo0Lmp
 UmLzUWfwkl3-2m
 }
 
+sprite $GcpCloudVisionApiMd [14x14/16z] LOw54S0020CVP_-9Ur37dG1YImAJP2tbfjuNEQ1rPwKG4sIE3QowArHZ_2Pc4RRHFnlJCzcJ_AvyFxH-lyUDR8y9_54V
+
 !function GcpCloudVisionApi($id, $name="Cloud Vision Api", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudVisionApi', $name, $tech)
 !endfunction
 !function GcpCloudVisionApiCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudVisionApiLg>', 'Cloud Vision Api', $funcName, $content)
+  CloudCard($id, '<$GcpCloudVisionApiMd>', 'Cloud Vision Api', $funcName, $content)
 !endfunction
 @enduml

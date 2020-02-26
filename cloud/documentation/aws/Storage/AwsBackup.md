@@ -16,7 +16,7 @@ elements/aws/Storage/AwsBackup
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsBackup element
@@ -34,7 +34,7 @@ AwsBackup('element', 'Backup', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsBackup element
@@ -53,8 +53,8 @@ AwsBackup('element', 'Backup', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsBackup card
 include('elements/aws/Storage/AwsBackup')
@@ -71,8 +71,8 @@ AwsBackupCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsBackup card
 include('elements/aws/Storage/AwsBackup')

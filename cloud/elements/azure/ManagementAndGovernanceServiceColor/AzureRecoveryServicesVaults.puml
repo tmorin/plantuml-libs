@@ -4,10 +4,15 @@ ROw54S1020GVVQ3_WdF4RSUOvP1nXpmhdHzAL3YgScRS6W9LsPeqWyuqD0Zjg9PUyOIUX7M3PlcrdiIX
 2nEyqs3IxnYjFyVREm_36dck0Kh3G_he2-sFX_e76S2_Q7lxpV_kuVQaVt50ybXbkru
 }
 
+sprite $AzureRecoveryServicesVaultsMd [17x14/16z] {
+PSh70S1020D1YNpqtwzpzluqW3Ej7a7iILQEBglODqTtfn8oP0UBIcf8jksmvRKybgvt3zULeXS1BDRS5wn5m3XpslgXSQNC4lKRN4Zi-nJW3_e4nIf-Jj_s
+3
+}
+
 !function AzureRecoveryServicesVaults($id, $name="Recovery Services Vaults", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureRecoveryServicesVaults', $name, $tech)
 !endfunction
 !function AzureRecoveryServicesVaultsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureRecoveryServicesVaultsLg>', 'Recovery Services Vaults', $funcName, $content)
+  CloudCard($id, '<$AzureRecoveryServicesVaultsMd>', 'Recovery Services Vaults', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDialpadLg [20x20/16z] Om02HaOa0WAOE3cPa0WmOENdPqKGEDLXcZTyx418e0E4DWH068-f3fTv
 
+sprite $MaterialsDialpadMd [14x14/16z] ROs50O0m40EJuBx_j41ThtqtW0CXMVCpFYFtdRynaHPXdgrfIBLs3lg_4LHHUs4rMwpfyjSIPWu9-PaF
+
 !function MaterialsDialpad($id, $name="Dialpad", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsDialpad', $name, $tech)
 !endfunction
 !function MaterialsDialpadCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDialpadLg>', 'Dialpad', $funcName, $content)
+  CloudCard($id, '<$MaterialsDialpadMd>', 'Dialpad', $funcName, $content)
 !endfunction
 @enduml

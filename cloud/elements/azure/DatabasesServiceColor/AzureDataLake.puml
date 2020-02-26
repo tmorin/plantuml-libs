@@ -4,10 +4,12 @@ dSpL0KCX30NGU8BiFs-vfFRRdYSGfOCRNQBML52o3oOZCGzm4vALAYnmfjNtNhCoJDNSmtSh3BX_GlWn
 H0y
 }
 
+sprite $AzureDataLakeMd [11x14/16z] PSg53S0030EmClz_xpGc2me90D8A0O1aHo34egh2I9qcmhG-PgOxLCrqLg6hzzh7MbrPiLOj8ZpSLhxwhNQjWcBhgiAm
+
 !function AzureDataLake($id, $name="Data Lake", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureDataLake', $name, $tech)
 !endfunction
 !function AzureDataLakeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDataLakeLg>', 'Data Lake', $funcName, $content)
+  CloudCard($id, '<$AzureDataLakeMd>', 'Data Lake', $funcName, $content)
 !endfunction
 @enduml

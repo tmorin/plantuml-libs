@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsWebAsset
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWebAsset element
 include('elements/materials/Av/MaterialsWebAsset')
@@ -34,8 +34,8 @@ MaterialsWebAsset('element', 'Web Asset', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWebAsset element
 include('elements/materials/Av/MaterialsWebAsset')
@@ -53,8 +53,8 @@ MaterialsWebAsset('element', 'Web Asset', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWebAsset card
 include('elements/materials/Av/MaterialsWebAsset')
@@ -71,8 +71,8 @@ MaterialsWebAssetCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWebAsset card
 include('elements/materials/Av/MaterialsWebAsset')

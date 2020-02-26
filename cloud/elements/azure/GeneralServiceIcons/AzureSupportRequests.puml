@@ -4,10 +4,15 @@ dT1NWeH028HXAOgYSUv_tsMn9x_DR_Opzd5bxfWTv-myewHC79uhrobxIiW1btm91fxh8PxEp4MqE8Ey
 dCOMCOQsAglOEs0el1wqVtMs1XoeseGz4WOpUvoOb9dNmnXiGqZnfCG1HEU7XTv9r12T-g1LYPZqHUScVL7zHfLWjuaNONBOQtt-3m
 }
 
+sprite $AzureSupportRequestsMd [19x14/16z] {
+VSw5aGKW34NHy2I1xR_WHRxR7MCEbfWrIYsQx1QdPj79ihBZaEKgbQXfvr2w-d3HJezz3DwKXtYESH81EJKK9rXx2podA2q5zXgBiafxA0GoTQ6o9ec-Knz9
+Uy9l-dicIZ8nummH_m
+}
+
 !function AzureSupportRequests($id, $name="Support Requests", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureSupportRequests', $name, $tech)
 !endfunction
 !function AzureSupportRequestsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSupportRequestsLg>', 'Support Requests', $funcName, $content)
+  CloudCard($id, '<$AzureSupportRequestsMd>', 'Support Requests', $funcName, $content)
 !endfunction
 @enduml

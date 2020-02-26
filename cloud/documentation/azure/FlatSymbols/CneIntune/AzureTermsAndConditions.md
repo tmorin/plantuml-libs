@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureTermsAndConditions
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTermsAndConditions element
 include('elements/azure/FlatSymbols/CneIntune/AzureTermsAndConditions')
@@ -34,8 +34,8 @@ AzureTermsAndConditions('element', 'Terms And Conditions', 'an optional tech fie
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTermsAndConditions element
 include('elements/azure/FlatSymbols/CneIntune/AzureTermsAndConditions')
@@ -53,8 +53,8 @@ AzureTermsAndConditions('element', 'Terms And Conditions', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTermsAndConditions card
 include('elements/azure/FlatSymbols/CneIntune/AzureTermsAndConditions')
@@ -71,8 +71,8 @@ AzureTermsAndConditionsCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTermsAndConditions card
 include('elements/azure/FlatSymbols/CneIntune/AzureTermsAndConditions')

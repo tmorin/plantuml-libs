@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientSoftwareDeploymentWizard element
 include('elements/azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard')
@@ -34,8 +34,8 @@ AzureClientSoftwareDeploymentWizard('element', 'Client Software Deployment Wizar
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientSoftwareDeploymentWizard element
 include('elements/azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard')
@@ -53,8 +53,8 @@ AzureClientSoftwareDeploymentWizard('element', 'Client Software Deployment Wizar
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientSoftwareDeploymentWizard card
 include('elements/azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard')
@@ -71,8 +71,8 @@ AzureClientSoftwareDeploymentWizardCard('card', 'an optional functional name', '
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureClientSoftwareDeploymentWizard card
 include('elements/azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard')

@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsPhoneLocked
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneLocked element
 include('elements/materials/Notification/MaterialsPhoneLocked')
@@ -34,8 +34,8 @@ MaterialsPhoneLocked('element', 'Phone Locked', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneLocked element
 include('elements/materials/Notification/MaterialsPhoneLocked')
@@ -53,8 +53,8 @@ MaterialsPhoneLocked('element', 'Phone Locked', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneLocked card
 include('elements/materials/Notification/MaterialsPhoneLocked')
@@ -71,8 +71,8 @@ MaterialsPhoneLockedCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPhoneLocked card
 include('elements/materials/Notification/MaterialsPhoneLocked')

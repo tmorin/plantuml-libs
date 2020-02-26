@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsSnowmobileLg [20x20/16z] {
-fP0r0WKX44CB9dbXxt_Vh-jIaGh68jCuUZ0vb909Tj-LvWzQYrdxMOiGWEyzPxvF-OToukNQl26BkHQKv5CMrbghQbLsQssfJROa0xApqzBNrwFcsHlO_I63
-CRm1
+RSt50KCX00FG0yJOV-3YjH_yOV69RlA0-K0VsqW0EZQH5MJlFepm3EirmJbuZH9xP8FkTbu3KCQmJCJwgQ8NMssSWoGdO4VRhJMpb58hvh0j93f9h02NDI4h
+5hmjXAS9sjPHe4J0EJQLv3myxUZ9awNRFxu
 }
+
+sprite $AwsSnowmobileMd [14x14/16z] LSc53GG130D1GMAu_WiEFQx88riND__HGoBn4S3n2TIKAs7gdMenvqDcIayhWLQC7YCY6e4JtIav6ae4rHhkja_jg_NB0W
 
 !function AwsSnowmobile($id, $name="Snowmobile", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsSnowmobile', $name, $tech)
 !endfunction
 !function AwsSnowmobileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSnowmobileLg>', 'Snowmobile', $funcName, $content)
+  CloudCard($id, '<$AwsSnowmobileMd>', 'Snowmobile', $funcName, $content)
 !endfunction
 @enduml

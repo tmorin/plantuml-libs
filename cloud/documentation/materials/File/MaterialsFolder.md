@@ -16,8 +16,8 @@ elements/materials/File/MaterialsFolder
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFolder element
 include('elements/materials/File/MaterialsFolder')
@@ -34,8 +34,8 @@ MaterialsFolder('element', 'Folder', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFolder element
 include('elements/materials/File/MaterialsFolder')
@@ -53,8 +53,8 @@ MaterialsFolder('element', 'Folder', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFolder card
 include('elements/materials/File/MaterialsFolder')
@@ -71,8 +71,8 @@ MaterialsFolderCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFolder card
 include('elements/materials/File/MaterialsFolder')

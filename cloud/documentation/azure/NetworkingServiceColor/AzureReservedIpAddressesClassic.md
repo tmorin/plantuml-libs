@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureReservedIpAddressesClassic element
 include('elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic')
@@ -34,8 +34,8 @@ AzureReservedIpAddressesClassic('element', 'Reserved Ip Addresses Classic', 'an 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureReservedIpAddressesClassic element
 include('elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic')
@@ -53,8 +53,8 @@ AzureReservedIpAddressesClassic('element', 'Reserved Ip Addresses Classic', 'an 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureReservedIpAddressesClassic card
 include('elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic')
@@ -71,8 +71,8 @@ AzureReservedIpAddressesClassicCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureReservedIpAddressesClassic card
 include('elements/azure/NetworkingServiceColor/AzureReservedIpAddressesClassic')

@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAirlineSeatFlat
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlat element
 include('elements/materials/Notification/MaterialsAirlineSeatFlat')
@@ -34,8 +34,8 @@ MaterialsAirlineSeatFlat('element', 'Airline Seat Flat', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlat element
 include('elements/materials/Notification/MaterialsAirlineSeatFlat')
@@ -53,8 +53,8 @@ MaterialsAirlineSeatFlat('element', 'Airline Seat Flat', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlat card
 include('elements/materials/Notification/MaterialsAirlineSeatFlat')
@@ -71,8 +71,8 @@ MaterialsAirlineSeatFlatCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlat card
 include('elements/materials/Notification/MaterialsAirlineSeatFlat')

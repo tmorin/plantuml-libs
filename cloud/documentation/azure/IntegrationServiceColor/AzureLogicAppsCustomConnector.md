@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureLogicAppsCustomConnector
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogicAppsCustomConnector element
 include('elements/azure/IntegrationServiceColor/AzureLogicAppsCustomConnector')
@@ -34,8 +34,8 @@ AzureLogicAppsCustomConnector('element', 'Logic Apps Custom Connector', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogicAppsCustomConnector element
 include('elements/azure/IntegrationServiceColor/AzureLogicAppsCustomConnector')
@@ -53,8 +53,8 @@ AzureLogicAppsCustomConnector('element', 'Logic Apps Custom Connector', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogicAppsCustomConnector card
 include('elements/azure/IntegrationServiceColor/AzureLogicAppsCustomConnector')
@@ -71,8 +71,8 @@ AzureLogicAppsCustomConnectorCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLogicAppsCustomConnector card
 include('elements/azure/IntegrationServiceColor/AzureLogicAppsCustomConnector')

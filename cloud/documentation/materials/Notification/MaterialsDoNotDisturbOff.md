@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsDoNotDisturbOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDoNotDisturbOff element
 include('elements/materials/Notification/MaterialsDoNotDisturbOff')
@@ -34,8 +34,8 @@ MaterialsDoNotDisturbOff('element', 'Do Not Disturb Off', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDoNotDisturbOff element
 include('elements/materials/Notification/MaterialsDoNotDisturbOff')
@@ -53,8 +53,8 @@ MaterialsDoNotDisturbOff('element', 'Do Not Disturb Off', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDoNotDisturbOff card
 include('elements/materials/Notification/MaterialsDoNotDisturbOff')
@@ -71,8 +71,8 @@ MaterialsDoNotDisturbOffCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDoNotDisturbOff card
 include('elements/materials/Notification/MaterialsDoNotDisturbOff')

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsDeepLearningAmisLg [20x20/16z] fOz50iD024Kht-Zzxzku9wjvepZycWazF1wUcQB17fYrAeclOe3Q-I4axMnkDWS0Q5QMeA_Ba8HCEkaBEjIu7dJNs1djQZptClTSvvuDKiVPGk-U5Ze
+sprite $AwsDeepLearningAmisLg [20x20/16z] {
+RSv7Oi0m44BH1HzcvFiVE17f1LljgPxzo7pc_8Fd7pp5a8l1jI8HW4AjGV94-h6E0PBCVbY20TtLMzjWPIFxjZL7SWRtsvtdh-tpYY7A6M8hrugniK7UQqKp
+u6IsLZJA1k5lDjYsXbgpxkF7-RBdVENQ7xts1ry
+}
+
+sprite $AwsDeepLearningAmisMd [14x14/16z] LShN0KCn34BH52J0-mySbRHtltoCh8sJBtIHKO-8bGC8F96x1QBAtHZ8cf4g9Px1wAHZ0Z-TxoLBnPXIevCHDGPNwk_ShVAxrTSl
 
 !function AwsDeepLearningAmis($id, $name="Deep Learning Amis", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepLearningAmis', $name, $tech)
 !endfunction
 !function AwsDeepLearningAmisCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDeepLearningAmisLg>', 'Deep Learning Amis', $funcName, $content)
+  CloudCard($id, '<$AwsDeepLearningAmisMd>', 'Deep Learning Amis', $funcName, $content)
 !endfunction
 @enduml

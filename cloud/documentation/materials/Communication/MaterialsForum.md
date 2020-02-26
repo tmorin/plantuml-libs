@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsForum
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsForum element
 include('elements/materials/Communication/MaterialsForum')
@@ -34,8 +34,8 @@ MaterialsForum('element', 'Forum', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsForum element
 include('elements/materials/Communication/MaterialsForum')
@@ -53,8 +53,8 @@ MaterialsForum('element', 'Forum', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsForum card
 include('elements/materials/Communication/MaterialsForum')
@@ -71,8 +71,8 @@ MaterialsForumCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsForum card
 include('elements/materials/Communication/MaterialsForum')

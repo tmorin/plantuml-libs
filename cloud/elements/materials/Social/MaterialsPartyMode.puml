@@ -4,10 +4,12 @@ fOy54aGn34A9rjlxdtRTvUiRoyG0_8Vu1E4LphsrdXatnCppk93TJCuhPRnH6E1-BMEy3lkzrvm0ylRQ
 gBne55CLm6Uyl7l-dGrYRmXsSGG
 }
 
+sprite $MaterialsPartyModeMd [14x14/16z] VSS54iH024HHcg8XplrFcuoMhEIFm9Elu16EjYgvPcbrgaZKTT_h7qsx0Joc3FIOsi7CnOwkmvPCOk_A8vomd29WnrHnsPkK9VVwgxpr
+
 !function MaterialsPartyMode($id, $name="Party Mode", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPartyMode', $name, $tech)
 !endfunction
 !function MaterialsPartyModeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPartyModeLg>', 'Party Mode', $funcName, $content)
+  CloudCard($id, '<$MaterialsPartyModeMd>', 'Party Mode', $funcName, $content)
 !endfunction
 @enduml

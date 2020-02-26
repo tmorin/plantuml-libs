@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEnc
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamDataEncryptionKey element
@@ -34,7 +34,7 @@ AwsIdentityAndAccessManagementIamDataEncryptionKey('element', 'Identity And Acce
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamDataEncryptionKey element
@@ -53,8 +53,8 @@ AwsIdentityAndAccessManagementIamDataEncryptionKey('element', 'Identity And Acce
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamDataEncryptionKey card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey')
@@ -71,8 +71,8 @@ AwsIdentityAndAccessManagementIamDataEncryptionKeyCard('card', 'an optional func
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamDataEncryptionKey card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey')

@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsBackupRestore
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsBackupRestore element
 include('elements/materials/Action/MaterialsSettingsBackupRestore')
@@ -34,8 +34,8 @@ MaterialsSettingsBackupRestore('element', 'Settings Backup Restore', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsBackupRestore element
 include('elements/materials/Action/MaterialsSettingsBackupRestore')
@@ -53,8 +53,8 @@ MaterialsSettingsBackupRestore('element', 'Settings Backup Restore', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsBackupRestore card
 include('elements/materials/Action/MaterialsSettingsBackupRestore')
@@ -71,8 +71,8 @@ MaterialsSettingsBackupRestoreCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsBackupRestore card
 include('elements/materials/Action/MaterialsSettingsBackupRestore')

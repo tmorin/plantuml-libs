@@ -4,10 +4,12 @@ fOx50KGn20M9O_tNkxplbjFE9O71s2T0p97-GbQZbHuqsvgit_9fxFaeu7IAB95J646lb5tKI6hfC4m5
 30O58z7BO3dEU1bGChtDnl_6-0E5cS5JyGC
 }
 
+sprite $AzureMessageMd [18x14/16z] NSp90S0W24HHS1Uc_tep8Ql-apmLmnR1vYyBpFAM3K7bWUfmpjsznQmTNYT5Ys6eI9hdWa69yyod9mcvt_EloYEnqxd_BvAIRC9UKT5V5DYImx1b1m
+
 !function AzureMessage($id, $name="Message", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMessage', $name, $tech)
 !endfunction
 !function AzureMessageCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMessageLg>', 'Message', $funcName, $content)
+  CloudCard($id, '<$AzureMessageMd>', 'Message', $funcName, $content)
 !endfunction
 @enduml

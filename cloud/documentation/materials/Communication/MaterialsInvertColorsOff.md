@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsInvertColorsOff
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInvertColorsOff element
 include('elements/materials/Communication/MaterialsInvertColorsOff')
@@ -34,8 +34,8 @@ MaterialsInvertColorsOff('element', 'Invert Colors Off', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInvertColorsOff element
 include('elements/materials/Communication/MaterialsInvertColorsOff')
@@ -53,8 +53,8 @@ MaterialsInvertColorsOff('element', 'Invert Colors Off', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInvertColorsOff card
 include('elements/materials/Communication/MaterialsInvertColorsOff')
@@ -71,8 +71,8 @@ MaterialsInvertColorsOffCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInvertColorsOff card
 include('elements/materials/Communication/MaterialsInvertColorsOff')

@@ -4,10 +4,12 @@ VL050W0X23if4_Z_Qw-xRCbjtT-WfudpqsHDA5njoQrgvOirf08W6iDkcBPCVPGtKuRDAtKD9Drje2ia
 F5tv1f9c_90cyx-epp4
 }
 
+sprite $MaterialsSyncMd [14x14/16z] POnL0W1124APKDcu_tKtf-MFUl0ACZexDNMdXnX3sG4P47ucQPb_Ooa84U-I_QvWAH-cCcbo_AY2FGs39C3h1W
+
 !function MaterialsSync($id, $name="Sync", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsSync', $name, $tech)
 !endfunction
 !function MaterialsSyncCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSyncLg>', 'Sync', $funcName, $content)
+  CloudCard($id, '<$MaterialsSyncMd>', 'Sync', $funcName, $content)
 !endfunction
 @enduml

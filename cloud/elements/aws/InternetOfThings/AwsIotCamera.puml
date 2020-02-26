@@ -4,10 +4,12 @@ TL35WKKn27mmmlPVyH8zvKy4r-yN4CX6awiAGsm8ZgsIF8udqV8Qv4B34_ON6IafMxJHRb3epsRIcI6q
 OGagxbXewC83CVnMBs8cgmf9hLxir4NQUCpssC5ZL--Tll4F
 }
 
+sprite $AwsIotCameraMd [14x14/16z] NOw50GGm3099EEZ-6x_hLUAY6tExJymTwmPlxX6DTaUwHS4dSNP0GwuqTSB8OLDgOjqibIatQoYYxL9697PFd22PsJk3_wR_RVQpzGK
+
 !function AwsIotCamera($id, $name="Iot Camera", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotCamera', $name, $tech)
 !endfunction
 !function AwsIotCameraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotCameraLg>', 'Iot Camera', $funcName, $content)
+  CloudCard($id, '<$AwsIotCameraMd>', 'Iot Camera', $funcName, $content)
 !endfunction
 @enduml

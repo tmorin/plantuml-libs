@@ -16,8 +16,8 @@ elements/azure/MigrateServiceColor/AzureDatabaseMigrationServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseMigrationServices element
 include('elements/azure/MigrateServiceColor/AzureDatabaseMigrationServices')
@@ -34,8 +34,8 @@ AzureDatabaseMigrationServices('element', 'Database Migration Services', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseMigrationServices element
 include('elements/azure/MigrateServiceColor/AzureDatabaseMigrationServices')
@@ -53,8 +53,8 @@ AzureDatabaseMigrationServices('element', 'Database Migration Services', 'an opt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseMigrationServices card
 include('elements/azure/MigrateServiceColor/AzureDatabaseMigrationServices')
@@ -71,8 +71,8 @@ AzureDatabaseMigrationServicesCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseMigrationServices card
 include('elements/azure/MigrateServiceColor/AzureDatabaseMigrationServices')

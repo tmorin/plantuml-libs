@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAccountBalanceWalletLg [20x20/16z] ZP350K0X34EBE-m_xNV1wJj1FG4yb6VGE-HJXh-2_FuuSyF-c2AGSSSOq8Sl5YcO55ECCT0iPfDL_dpbCKz1O6B9whottT7UqjxSQkjxq7g5PmS
 
+sprite $MaterialsAccountBalanceWalletMd [14x14/16z] NOw35K1H34EVKUu_xJTp3uiW035Tn7sOUcAqZKdTjPMTQnhX_3sd7gU9URydQcdY19_WyYRa-4sVyTyCM04
+
 !function MaterialsAccountBalanceWallet($id, $name="Account Balance Wallet", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAccountBalanceWallet', $name, $tech)
 !endfunction
 !function MaterialsAccountBalanceWalletCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAccountBalanceWalletLg>', 'Account Balance Wallet', $funcName, $content)
+  CloudCard($id, '<$MaterialsAccountBalanceWalletMd>', 'Account Balance Wallet', $funcName, $content)
 !endfunction
 @enduml

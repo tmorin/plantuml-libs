@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAirlineSeatLegroomReduced
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatLegroomReduced element
 include('elements/materials/Notification/MaterialsAirlineSeatLegroomReduced')
@@ -34,8 +34,8 @@ MaterialsAirlineSeatLegroomReduced('element', 'Airline Seat Legroom Reduced', 'a
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatLegroomReduced element
 include('elements/materials/Notification/MaterialsAirlineSeatLegroomReduced')
@@ -53,8 +53,8 @@ MaterialsAirlineSeatLegroomReduced('element', 'Airline Seat Legroom Reduced', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatLegroomReduced card
 include('elements/materials/Notification/MaterialsAirlineSeatLegroomReduced')
@@ -71,8 +71,8 @@ MaterialsAirlineSeatLegroomReducedCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatLegroomReduced card
 include('elements/materials/Notification/MaterialsAirlineSeatLegroomReduced')

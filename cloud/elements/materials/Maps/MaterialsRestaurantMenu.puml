@@ -4,10 +4,12 @@ dSe53aCn38FXkCoz_stNU1ZHjlUBh4-MIpaFqH3n4AInHj0LTtfGsQS6sauG3gthzcVmMMXLjAG8aQgq
 8LeoY0Sf9ZmMoKvuUUKXltS3
 }
 
+sprite $MaterialsRestaurantMenuMd [14x14/16z] TSU50GD124JH6KAGoD5_jUSkVmKU7YA7JwVTlYc0D3R8gyfw_UQ_wWr0_ptbNvN4oA1b637s4liArYpSDZZfjW5Og0C6wZWmHvpg
+
 !function MaterialsRestaurantMenu($id, $name="Restaurant Menu", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsRestaurantMenu', $name, $tech)
 !endfunction
 !function MaterialsRestaurantMenuCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRestaurantMenuLg>', 'Restaurant Menu', $funcName, $content)
+  CloudCard($id, '<$MaterialsRestaurantMenuMd>', 'Restaurant Menu', $funcName, $content)
 !endfunction
 @enduml

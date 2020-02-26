@@ -4,10 +4,12 @@ RP1NWW0n24892Bd_YRT8VhQycJIxeb0pOkz5YMUS28_Zi3V6fwBC7lkQxE4LEV4AlR7UzIaZeB5CW6vC
 ooocCjYeB4HO6LaPqveTB_7MtAHwD7LdK3g3_sRr_qp_c_qd
 }
 
+sprite $AwsVpcVpnGatewayMd [14x14/16z] NKu70W8124A4_l_aqBg9Uuk0iaGiAbuLfPh0J7N42HMdfKweOK3BAMpfqs5WP-cOADH63HkToE8LKHI62VsvhC15_QyFw7f_5iIpjkCB
+
 !function AwsVpcVpnGateway($id, $name="Vpc Vpn Gateway", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcVpnGateway', $name, $tech)
 !endfunction
 !function AwsVpcVpnGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsVpcVpnGatewayLg>', 'Vpc Vpn Gateway', $funcName, $content)
+  CloudCard($id, '<$AwsVpcVpnGatewayMd>', 'Vpc Vpn Gateway', $funcName, $content)
 !endfunction
 @enduml

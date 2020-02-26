@@ -4,10 +4,12 @@ hOx5OK9H54GJOBJ_Vh_x5ixJwzDlCUNMedTFI0aa93AhJvnlV6QJMdtmV4jpVNZrDM-UFir_rS1P6pfy
 URXExFw24G
 }
 
+sprite $AwsPersonalHealthDashboardMd [14x14/16z] XSYr0S0m40J1o4Vzzok6p5hXVFuJQPDQi01v4kuJnUoYu_3pb6YG43K50cex8wh5h0otdSk6cvHd5G
+
 !function AwsPersonalHealthDashboard($id, $name="Personal Health Dashboard", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsPersonalHealthDashboard', $name, $tech)
 !endfunction
 !function AwsPersonalHealthDashboardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsPersonalHealthDashboardLg>', 'Personal Health Dashboard', $funcName, $content)
+  CloudCard($id, '<$AwsPersonalHealthDashboardMd>', 'Personal Health Dashboard', $funcName, $content)
 !endfunction
 @enduml

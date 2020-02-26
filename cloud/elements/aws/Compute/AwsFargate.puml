@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsFargateLg [20x20/16z] {
-bT055W8n40FGnyIu_ua9xYjPxQ_tk3V9buZKkmfA1BrG0Bc6l1XZmFqyH6v1QfMLAr6vMyHSpGLJBljg_L8aGFNZ-u0Mh_5pOcEw3C_mTSc0H01lxPe3Xg-B
-jWZOfPU4K5RFQZqd
+PS-7ZSGW04HH7PFel-9Zi5TEd_mKoSwFSk7RBhtC1FWq5TZjCXmsxaOBa76Pn6unnDCe_yp4ON18xHcTvlq4mBLhsKnLu4vEhMWC91hTKvkP0Y0HW8kp6MFy
+hJ6OjktuB-HSDZCNAhcis2wxyB8l_WC
 }
+
+sprite $AwsFargateMd [14x14/16z] FSp13KGX30DH2O_Dxx_YTT0gS-81oMtPHi-h6Bn2YLWP_5VCjOCz8fu8em89SFAzBGxAhKeTq76_VQKvHypwgcREgscr_04
 
 !function AwsFargate($id, $name="Fargate", $tech="")
   CloudElement($id, 'aws/Compute/AwsFargate', $name, $tech)
 !endfunction
 !function AwsFargateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsFargateLg>', 'Fargate', $funcName, $content)
+  CloudCard($id, '<$AwsFargateMd>', 'Fargate', $funcName, $content)
 !endfunction
 @enduml

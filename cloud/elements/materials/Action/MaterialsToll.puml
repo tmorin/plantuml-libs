@@ -4,10 +4,12 @@ fP2r0S0W401VSTX_t7ZGZYlWtM0Nl1vILVeivEprb1XYTe-LesVWv1aHsIU-yeB3vxb05qv18ptF0qK5
 Gh3B0G
 }
 
+sprite $MaterialsTollMd [14x14/16z] VSsr0S002031ns7_WMDL_2eS_Yc8HoYxBD4fZquWziG0gK1QY60derRGog7icbqdBrSk7nxVVwm
+
 !function MaterialsToll($id, $name="Toll", $tech="")
   CloudElement($id, 'materials/Action/MaterialsToll', $name, $tech)
 !endfunction
 !function MaterialsTollCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTollLg>', 'Toll', $funcName, $content)
+  CloudCard($id, '<$MaterialsTollMd>', 'Toll', $funcName, $content)
 !endfunction
 @enduml

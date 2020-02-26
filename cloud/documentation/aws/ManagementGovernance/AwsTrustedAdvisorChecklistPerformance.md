@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistPerformance element
@@ -34,7 +34,7 @@ AwsTrustedAdvisorChecklistPerformance('element', 'Trusted Advisor Checklist Perf
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistPerformance element
@@ -53,8 +53,8 @@ AwsTrustedAdvisorChecklistPerformance('element', 'Trusted Advisor Checklist Perf
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistPerformance card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance')
@@ -71,8 +71,8 @@ AwsTrustedAdvisorChecklistPerformanceCard('card', 'an optional functional name',
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistPerformance card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance')

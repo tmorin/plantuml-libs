@@ -16,8 +16,8 @@ elements/gcp/Security/GcpCloudSecurityCommandCenter
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSecurityCommandCenter element
 include('elements/gcp/Security/GcpCloudSecurityCommandCenter')
@@ -34,8 +34,8 @@ GcpCloudSecurityCommandCenter('element', 'Cloud Security Command Center', 'an op
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSecurityCommandCenter element
 include('elements/gcp/Security/GcpCloudSecurityCommandCenter')
@@ -53,7 +53,7 @@ GcpCloudSecurityCommandCenter('element', 'Cloud Security Command Center', 'an op
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSecurityCommandCenter card
@@ -71,7 +71,7 @@ GcpCloudSecurityCommandCenterCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSecurityCommandCenter card

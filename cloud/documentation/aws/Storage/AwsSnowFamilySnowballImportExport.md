@@ -16,7 +16,7 @@ elements/aws/Storage/AwsSnowFamilySnowballImportExport
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSnowFamilySnowballImportExport element
@@ -34,7 +34,7 @@ AwsSnowFamilySnowballImportExport('element', 'Snow Family Snowball Import Export
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSnowFamilySnowballImportExport element
@@ -53,8 +53,8 @@ AwsSnowFamilySnowballImportExport('element', 'Snow Family Snowball Import Export
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSnowFamilySnowballImportExport card
 include('elements/aws/Storage/AwsSnowFamilySnowballImportExport')
@@ -71,8 +71,8 @@ AwsSnowFamilySnowballImportExportCard('card', 'an optional functional name', 'Mo
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSnowFamilySnowballImportExport card
 include('elements/aws/Storage/AwsSnowFamilySnowballImportExport')

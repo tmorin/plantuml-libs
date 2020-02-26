@@ -16,8 +16,8 @@ elements/azure/GeneralServiceIcons/AzureWhatSNew
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWhatSNew element
 include('elements/azure/GeneralServiceIcons/AzureWhatSNew')
@@ -34,8 +34,8 @@ AzureWhatSNew('element', 'What S New', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWhatSNew element
 include('elements/azure/GeneralServiceIcons/AzureWhatSNew')
@@ -53,8 +53,8 @@ AzureWhatSNew('element', 'What S New', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWhatSNew card
 include('elements/azure/GeneralServiceIcons/AzureWhatSNew')
@@ -71,8 +71,8 @@ AzureWhatSNewCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureWhatSNew card
 include('elements/azure/GeneralServiceIcons/AzureWhatSNew')

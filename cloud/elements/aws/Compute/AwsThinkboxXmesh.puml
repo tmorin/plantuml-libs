@@ -4,10 +4,12 @@ bP05aWGm40AhGjDp___mhRl7Cmhy_JhqtZ8ap9qjPbtPndIckur7kmau8vLZrHO4iAIdE1krjAldUec2
 H_kAcKyQ7BNwTMm
 }
 
+sprite $AwsThinkboxXmeshMd [14x14/16z] ROx50KHH48CE0xpjl-5r-y9fDCdbXBN-cfW-yqggvxx1KfvhnGVZyr98OJqxqC1dv_W0VNIX9TF70JyEppNjaXsv0G
+
 !function AwsThinkboxXmesh($id, $name="Thinkbox Xmesh", $tech="")
   CloudElement($id, 'aws/Compute/AwsThinkboxXmesh', $name, $tech)
 !endfunction
 !function AwsThinkboxXmeshCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsThinkboxXmeshLg>', 'Thinkbox Xmesh', $funcName, $content)
+  CloudCard($id, '<$AwsThinkboxXmeshMd>', 'Thinkbox Xmesh', $funcName, $content)
 !endfunction
 @enduml

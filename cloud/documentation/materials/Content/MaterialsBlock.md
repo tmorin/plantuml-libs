@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsBlock
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlock element
 include('elements/materials/Content/MaterialsBlock')
@@ -34,8 +34,8 @@ MaterialsBlock('element', 'Block', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlock element
 include('elements/materials/Content/MaterialsBlock')
@@ -53,8 +53,8 @@ MaterialsBlock('element', 'Block', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlock card
 include('elements/materials/Content/MaterialsBlock')
@@ -71,8 +71,8 @@ MaterialsBlockCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBlock card
 include('elements/materials/Content/MaterialsBlock')

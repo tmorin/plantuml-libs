@@ -16,7 +16,7 @@ elements/aws/EndUserComputing/AwsWorklink
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsWorklink element
@@ -34,7 +34,7 @@ AwsWorklink('element', 'Worklink', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsWorklink element
@@ -53,8 +53,8 @@ AwsWorklink('element', 'Worklink', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsWorklink card
 include('elements/aws/EndUserComputing/AwsWorklink')
@@ -71,8 +71,8 @@ AwsWorklinkCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsWorklink card
 include('elements/aws/EndUserComputing/AwsWorklink')

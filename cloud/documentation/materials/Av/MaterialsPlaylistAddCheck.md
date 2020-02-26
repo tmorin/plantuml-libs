@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsPlaylistAddCheck
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlaylistAddCheck element
 include('elements/materials/Av/MaterialsPlaylistAddCheck')
@@ -34,8 +34,8 @@ MaterialsPlaylistAddCheck('element', 'Playlist Add Check', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlaylistAddCheck element
 include('elements/materials/Av/MaterialsPlaylistAddCheck')
@@ -53,8 +53,8 @@ MaterialsPlaylistAddCheck('element', 'Playlist Add Check', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlaylistAddCheck card
 include('elements/materials/Av/MaterialsPlaylistAddCheck')
@@ -71,8 +71,8 @@ MaterialsPlaylistAddCheckCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlaylistAddCheck card
 include('elements/materials/Av/MaterialsPlaylistAddCheck')

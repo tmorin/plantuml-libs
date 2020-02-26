@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatListBulleted
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListBulleted element
 include('elements/materials/Editor/MaterialsFormatListBulleted')
@@ -34,8 +34,8 @@ MaterialsFormatListBulleted('element', 'Format List Bulleted', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListBulleted element
 include('elements/materials/Editor/MaterialsFormatListBulleted')
@@ -53,8 +53,8 @@ MaterialsFormatListBulleted('element', 'Format List Bulleted', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListBulleted card
 include('elements/materials/Editor/MaterialsFormatListBulleted')
@@ -71,8 +71,8 @@ MaterialsFormatListBulletedCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListBulleted card
 include('elements/materials/Editor/MaterialsFormatListBulleted')

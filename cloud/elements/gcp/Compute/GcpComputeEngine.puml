@@ -4,10 +4,12 @@ RP3L0SLG24FHfFil_0Iet_E3gnGwo87XmCQbs0umgR5TY4xZrSTApDP_b9B_0QKoCgErtnYKuaKvqGCO
 0r6yqiwValFJnU-_
 }
 
+sprite $GcpComputeEngineMd [14x14/16z] LKw50GD138h3_XENlkPFOuYPUHxB5IeP76kEj7YjKXAuCuHPwv_kqTUMK9BTfHHALEkgRYhzPdkIkLbcAp2sUh_EI1pEjkiV
+
 !function GcpComputeEngine($id, $name="Compute Engine", $tech="")
   CloudElement($id, 'gcp/Compute/GcpComputeEngine', $name, $tech)
 !endfunction
 !function GcpComputeEngineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpComputeEngineLg>', 'Compute Engine', $funcName, $content)
+  CloudCard($id, '<$GcpComputeEngineMd>', 'Compute Engine', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsPlayCircleFilledWhiteLg [20x20/16z] OnXKO1G
 
+sprite $MaterialsPlayCircleFilledWhiteMd [14x14/16z] OnW6
+
 !function MaterialsPlayCircleFilledWhite($id, $name="Play Circle Filled White", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPlayCircleFilledWhite', $name, $tech)
 !endfunction
 !function MaterialsPlayCircleFilledWhiteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPlayCircleFilledWhiteLg>', 'Play Circle Filled White', $funcName, $content)
+  CloudCard($id, '<$MaterialsPlayCircleFilledWhiteMd>', 'Play Circle Filled White', $funcName, $content)
 !endfunction
 @enduml

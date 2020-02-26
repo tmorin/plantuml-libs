@@ -4,10 +4,12 @@ RSY5SK0n44F1W7Lwyk-_tzmOmZky-SALVpB_vCnYDPDzdK4oz3lh6hAaCV3eN1U1mE-TOfzhefBrhiXP
 Rug99HkKS-ciCIg8UvsbCLIxyZnhmSQPvrOUv_x9TR_o0m
 }
 
+sprite $AwsArtifactMd [14x14/16z] JSZ50G9044DHBBRqtoyZs3_b9UyyVR0yFLcjJW5DZKnJU8YZ-aYYlhHYK6AOZ4ZxJvBeKOg0JBUEfST3ZJoBAQjGQcwZVxu
+
 !function AwsArtifact($id, $name="Artifact", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsArtifact', $name, $tech)
 !endfunction
 !function AwsArtifactCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsArtifactLg>', 'Artifact', $funcName, $content)
+  CloudCard($id, '<$AwsArtifactMd>', 'Artifact', $funcName, $content)
 !endfunction
 @enduml

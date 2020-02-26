@@ -16,8 +16,8 @@ elements/azure/StorageServiceColor/AzureStorsimpleDataManagers
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDataManagers element
 include('elements/azure/StorageServiceColor/AzureStorsimpleDataManagers')
@@ -34,8 +34,8 @@ AzureStorsimpleDataManagers('element', 'Storsimple Data Managers', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDataManagers element
 include('elements/azure/StorageServiceColor/AzureStorsimpleDataManagers')
@@ -53,8 +53,8 @@ AzureStorsimpleDataManagers('element', 'Storsimple Data Managers', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDataManagers card
 include('elements/azure/StorageServiceColor/AzureStorsimpleDataManagers')
@@ -71,8 +71,8 @@ AzureStorsimpleDataManagersCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDataManagers card
 include('elements/azure/StorageServiceColor/AzureStorsimpleDataManagers')

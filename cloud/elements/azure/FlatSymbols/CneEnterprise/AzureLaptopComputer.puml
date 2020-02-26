@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureLaptopComputerLg [32x20/16z] xOmr0eHG34JdM_p-rzt57KegNfMC0KdZ1a5FjLekgLPwlmckILeVVRpXVpvPky5QPnUFMooZsFew3wrTOFULtC6x1NwOxnV_
 
+sprite $AzureLaptopComputerMd [22x14/16z] rT350G1120F0i8Btt-wvNmKx7v8y0TaF0LNm8MLPUR1LoeTMa6Rit8-G0ibTj5hFdEBdkdpbpEap
+
 !function AzureLaptopComputer($id, $name="Laptop Computer", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLaptopComputer', $name, $tech)
 !endfunction
 !function AzureLaptopComputerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLaptopComputerLg>', 'Laptop Computer', $funcName, $content)
+  CloudCard($id, '<$AzureLaptopComputerMd>', 'Laptop Computer', $funcName, $content)
 !endfunction
 @enduml

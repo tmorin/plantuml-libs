@@ -4,10 +4,12 @@ ZKu53aKn32ehoRpS_xHV8b-UZZXkou2Jlk5SKiEU6nikJIasONH9t1HcgM33SKyPMhOTE7rFvfvs76fz
 Z2S
 }
 
+sprite $MaterialsLocalPhoneMd [14x14/16z] NKo34K0n5AlnkF-qtyWrfpWiI2d-8h8EL4uGJfVqg-OLNyuYX1LL7EMinBSxQgn2uz6naRfh-gxQ54uuZs713W
+
 !function MaterialsLocalPhone($id, $name="Local Phone", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalPhone', $name, $tech)
 !endfunction
 !function MaterialsLocalPhoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLocalPhoneLg>', 'Local Phone', $funcName, $content)
+  CloudCard($id, '<$MaterialsLocalPhoneMd>', 'Local Phone', $funcName, $content)
 !endfunction
 @enduml

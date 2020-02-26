@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsForecastLg [20x20/16z] hSi7aW8m3CNGNR3qxTp_llGEKq7fRoRhTysSp_RQp3PdqyunZVJ5Slu6PDRT9ZbGnGUpqEZT8YNF1g5zCi4tipzO93mR5J55hfRYrjNciVLbUm
 
+sprite $AwsForecastMd [14x14/16z] VSV50K0n2C3GKm9q_ts_kpGLUArVBKrZHhYKkAZc3w8sXQAhCi3OvRoVygQrJI32gigjrcy4
+
 !function AwsForecast($id, $name="Forecast", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsForecast', $name, $tech)
 !endfunction
 !function AwsForecastCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsForecastLg>', 'Forecast', $funcName, $content)
+  CloudCard($id, '<$AwsForecastMd>', 'Forecast', $funcName, $content)
 !endfunction
 @enduml

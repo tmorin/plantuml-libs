@@ -16,7 +16,7 @@ elements/aws/General/AwsSdk
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSdk element
@@ -34,7 +34,7 @@ AwsSdk('element', 'Sdk', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSdk element
@@ -53,8 +53,8 @@ AwsSdk('element', 'Sdk', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSdk card
 include('elements/aws/General/AwsSdk')
@@ -71,8 +71,8 @@ AwsSdkCard('card', 'an optional functional name', 'Molestiae praesentium aut nat
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSdk card
 include('elements/aws/General/AwsSdk')

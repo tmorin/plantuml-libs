@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsPanoramaHorizontalLg [20x20/16z] lP2r0SHG242Fh_Z-srxSKyKUJeFyxW0fhCkGe7LkL58CBJ4LCWzjpqeXKNCt5Ih5-bxh8CIM07qvk9cFUyTTZZiVRplzmHqQ
 
+sprite $MaterialsPanoramaHorizontalMd [14x14/16z] ZSsr0S0m30H0FHZttpVSX7sLMF55GcmWHPHUQrxKsikI2PGjGcl6E70ykrovVBXy_p03
+
 !function MaterialsPanoramaHorizontal($id, $name="Panorama Horizontal", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPanoramaHorizontal', $name, $tech)
 !endfunction
 !function MaterialsPanoramaHorizontalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPanoramaHorizontalLg>', 'Panorama Horizontal', $funcName, $content)
+  CloudCard($id, '<$MaterialsPanoramaHorizontalMd>', 'Panorama Horizontal', $funcName, $content)
 !endfunction
 @enduml

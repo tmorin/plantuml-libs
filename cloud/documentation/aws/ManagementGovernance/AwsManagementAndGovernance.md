@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsManagementAndGovernance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagementAndGovernance element
@@ -34,7 +34,7 @@ AwsManagementAndGovernance('element', 'Management And Governance', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagementAndGovernance element
@@ -53,8 +53,8 @@ AwsManagementAndGovernance('element', 'Management And Governance', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagementAndGovernance card
 include('elements/aws/ManagementGovernance/AwsManagementAndGovernance')
@@ -71,8 +71,8 @@ AwsManagementAndGovernanceCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagementAndGovernance card
 include('elements/aws/ManagementGovernance/AwsManagementAndGovernance')

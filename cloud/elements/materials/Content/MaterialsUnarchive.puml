@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsUnarchiveLg [20x20/16z] bT350S0W343Hak2w_xHrm-4V7yuo4T0tk0a5lWayYMWbtfGcXz4GHJjcRMOMqIHczlCkVCtkTE5hvgGJNrEKalsYbAh_VlxOpoVdAY5K-yvW_sJX_QgtamRR
 
+sprite $MaterialsUnarchiveMd [14x14/16z] NOw50GCn30EhC6V_RMii_0NDUZr14216oad8YGpCEOGvAHhsDNOmg_SVgm7DBJAel9cr4bjfgNKsPz9ZTNlEhNNes-WGOGOP_xm1
+
 !function MaterialsUnarchive($id, $name="Unarchive", $tech="")
   CloudElement($id, 'materials/Content/MaterialsUnarchive', $name, $tech)
 !endfunction
 !function MaterialsUnarchiveCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsUnarchiveLg>', 'Unarchive', $funcName, $content)
+  CloudCard($id, '<$MaterialsUnarchiveMd>', 'Unarchive', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ POu52W11200L1Ipm_x-zswwvt35XW7138hVYIBiKMZwEydNS718JddcavSEZttzIiYm4ZKHFasp8si_T
 uXWEHjxj31yNToc84DoikWy
 }
 
+sprite $MaterialsToysMd [14x14/16z] LOw54G0X40DnoELdqd-rxzYYvt4FFhX901QhQR4y7ylxtpB1PnxjgywoeXlun_A5DDo4W1iZo-U7ReefVyFQmUmXwptl5wAVCw7c5WkRr2_l0W
+
 !function MaterialsToys($id, $name="Toys", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsToys', $name, $tech)
 !endfunction
 !function MaterialsToysCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsToysLg>', 'Toys', $funcName, $content)
+  CloudCard($id, '<$MaterialsToysMd>', 'Toys', $funcName, $content)
 !endfunction
 @enduml

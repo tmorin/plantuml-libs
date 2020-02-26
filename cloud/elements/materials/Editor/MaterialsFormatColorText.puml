@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatColorTextLg [20x20/16z] fSu53WL120FGmY0Pl_zflyikaRKN8q9R79KI8cwD4MZlYZNAPfb2McVk8T4pa3qqAA3h5kqCyBebp_8mywh1xS6NBLO83rHiEUuJkvX8uTY9BxW3
 
+sprite $MaterialsFormatColorTextMd [14x14/16z] VKo50OC03Alh__Tkk4DTai238HwtYCD2cRHlAg8xAt28TUDnutNpZcZVD0YHLXtHMGc-ZJxi3m
+
 !function MaterialsFormatColorText($id, $name="Format Color Text", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatColorText', $name, $tech)
 !endfunction
 !function MaterialsFormatColorTextCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatColorTextLg>', 'Format Color Text', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatColorTextMd>', 'Format Color Text', $funcName, $content)
 !endfunction
 @enduml

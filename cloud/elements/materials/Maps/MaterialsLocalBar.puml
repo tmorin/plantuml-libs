@@ -4,10 +4,12 @@ dSy5ZWDH201Gx2js_zjknYMoRLyS1pw6ye1BJDBrv2bBZAOoxbWdmOAqqHQYfWmRDjEL6SD1F5SkS2cn
 LRlLikmOll47
 }
 
+sprite $MaterialsLocalBarMd [14x14/16z] ZSor0S1030D0wSaKs7_QC5UvoYXyfClQXEd6OcsRSYCDgsRRIh2XZWibZjR6qNZ7kYVSQiMVBgkwgsPic3R4rmm
+
 !function MaterialsLocalBar($id, $name="Local Bar", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalBar', $name, $tech)
 !endfunction
 !function MaterialsLocalBarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLocalBarLg>', 'Local Bar', $funcName, $content)
+  CloudCard($id, '<$MaterialsLocalBarMd>', 'Local Bar', $funcName, $content)
 !endfunction
 @enduml

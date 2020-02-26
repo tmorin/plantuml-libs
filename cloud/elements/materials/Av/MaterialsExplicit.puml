@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsExplicitLg [20x20/16z] Oo0UCB4W0IQ840y_4k012xBmem0Mk1WNEn1m8SHmivXPMDZHnTXvUNZHnHWP6LdnYo7quhS3mIBWPao_OOO1PbWH3m
 
+sprite $MaterialsExplicitMd [14x14/16z] PSx50O0m30LGwcrq_sbn-_1kyKmV8Px25WmzZJMCwiv4xAvnZpI5aFIEOghTdYYaeXXXvtyBNi3h-1bQ
+
 !function MaterialsExplicit($id, $name="Explicit", $tech="")
   CloudElement($id, 'materials/Av/MaterialsExplicit', $name, $tech)
 !endfunction
 !function MaterialsExplicitCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsExplicitLg>', 'Explicit', $funcName, $content)
+  CloudCard($id, '<$MaterialsExplicitMd>', 'Explicit', $funcName, $content)
 !endfunction
 @enduml

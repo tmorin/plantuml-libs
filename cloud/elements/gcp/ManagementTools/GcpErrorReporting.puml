@@ -4,10 +4,12 @@ RP050e1G24EfCUz_OMD-swU_Q33X0pk9FeaXyfvEUfZMTADsCzvbb26sMmKwQzDYIy1Lb9R4kcttDKqh
 PIHyr2mHVdlxdy5pLlJdJ4cUC_tCVW4
 }
 
+sprite $GcpErrorReportingMd [14x14/16z] LOx50K1H3CBgPF-9lylBgGgOcUU9x-NUZ4xcR8kRsfiGcXsXC6jKCHqbsb9Cz4uCsXiwJngqTlzBybE1UHmqGFpT-qssDxg3Vgat
+
 !function GcpErrorReporting($id, $name="Error Reporting", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpErrorReporting', $name, $tech)
 !endfunction
 !function GcpErrorReportingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpErrorReportingLg>', 'Error Reporting', $funcName, $content)
+  CloudCard($id, '<$GcpErrorReportingMd>', 'Error Reporting', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ LSy72i1G30BGBBt_aHjfGBwT_m4PSIcWucB2r4lJcmSBFLNT4BfMzgonJ3B8X4TGiMvIU2IifH-F9YCI
 fdWHeYCRfgjoxmTDHfFHz04
 }
 
+sprite $AzureApplicationGatewayMd [14x14/16z] BSo74S0m20D0exR_o44vtD-Krp7Iz3wGB0y0DGS3ehqiJ979ih0mIbcqP5okCDWnS8Dwpw3t_0l9Ihgc2P0KfJTPFuw7u-43
+
 !function AzureApplicationGateway($id, $name="Application Gateway", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureApplicationGateway', $name, $tech)
 !endfunction
 !function AzureApplicationGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureApplicationGatewayLg>', 'Application Gateway', $funcName, $content)
+  CloudCard($id, '<$AzureApplicationGatewayMd>', 'Application Gateway', $funcName, $content)
 !endfunction
 @enduml

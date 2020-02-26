@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsExpressWorkflowsLg [20x20/16z] hOz50WGW30ClaOR_FtZ3kXqPjDwk0uJCjywIlxpM09Dtpo49z9fNM6Mds8yuoARgxJAvLwpVz9KiL5TKNVqCo-97RBp9JIVjs5UD_xtyx_d_R2LKrW4k
+sprite $AwsExpressWorkflowsLg [20x20/16z] {
+ZSi5ZWD034FH1KCylVzzgsXInY_qavofhigfBwt81vEeZAqn0wvfDPha_py9ZoqBe7f8sHR89XDRahUH02i5IVpVNxKfRYElljfVLz8c0NHIaTEjhiZ-4sEx
+552PrcJ9wyv2PXgRnWutEFO4Zm
+}
+
+sprite $AwsExpressWorkflowsMd [14x14/16z] NSpN0SGm20JHIpiez5_lsLvmdByd0TsrwY43hf9Imp-_7qg1VmXBQpq4MZKeWLMJsy4nSfEIhUvI4QUSDMzS
 
 !function AwsExpressWorkflows($id, $name="Express Workflows", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsExpressWorkflows', $name, $tech)
 !endfunction
 !function AwsExpressWorkflowsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsExpressWorkflowsLg>', 'Express Workflows', $funcName, $content)
+  CloudCard($id, '<$AwsExpressWorkflowsMd>', 'Express Workflows', $funcName, $content)
 !endfunction
 @enduml

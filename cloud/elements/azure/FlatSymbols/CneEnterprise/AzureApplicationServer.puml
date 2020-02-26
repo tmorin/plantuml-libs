@@ -4,10 +4,12 @@ lT250SCW40NGbFk2tFxhneK9-d2NdZSkbtpuwHZzz7Ku3kZVZCitu_Q7ZbPhnTn1-NLrzF7A8oDAHDbJ
 FTe6
 }
 
+sprite $AzureApplicationServerMd [12x14/16z] bSl75SH020FGVGiIiVzwxObt_mjHrOF_XguXPby4O7i_nQU-wcQ3HXr6xp5bkK51-Qje6Q7H56BqAfOGh7_WRG0-
+
 !function AzureApplicationServer($id, $name="Application Server", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureApplicationServer', $name, $tech)
 !endfunction
 !function AzureApplicationServerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureApplicationServerLg>', 'Application Server', $funcName, $content)
+  CloudCard($id, '<$AzureApplicationServerMd>', 'Application Server', $funcName, $content)
 !endfunction
 @enduml

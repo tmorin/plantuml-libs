@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsLooks6Lg [20x20/16z] ZP053W1120EHNjQN_x_st7rY16_fFu8TCgMoxSXZ4dO0Mouuv-8nvtY8ZZcG0kwSSwNQESUiyPgZvfnpxkQ64gw_iBl-74vtDt3lmTMh_tG
 
+sprite $MaterialsLooks6Md [14x14/16z] NOw50G0W20G5xDn_MhlFf9zz04wW6IPCJ3Knf1ISTVN6OGa02iDg3qaTZmMaqsK1tfdKdjD5d9xHkJYiP_ghxAK
+
 !function MaterialsLooks6($id, $name="Looks6", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLooks6', $name, $tech)
 !endfunction
 !function MaterialsLooks6Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLooks6Lg>', 'Looks6', $funcName, $content)
+  CloudCard($id, '<$MaterialsLooks6Md>', 'Looks6', $funcName, $content)
 !endfunction
 @enduml

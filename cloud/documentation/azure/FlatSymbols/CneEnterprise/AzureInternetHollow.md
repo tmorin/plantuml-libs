@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureInternetHollow
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInternetHollow element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureInternetHollow')
@@ -34,8 +34,8 @@ AzureInternetHollow('element', 'Internet Hollow', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInternetHollow element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureInternetHollow')
@@ -53,8 +53,8 @@ AzureInternetHollow('element', 'Internet Hollow', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInternetHollow card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureInternetHollow')
@@ -71,8 +71,8 @@ AzureInternetHollowCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInternetHollow card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureInternetHollow')

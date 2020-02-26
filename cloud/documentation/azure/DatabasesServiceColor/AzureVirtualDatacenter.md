@@ -16,8 +16,8 @@ elements/azure/DatabasesServiceColor/AzureVirtualDatacenter
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualDatacenter element
 include('elements/azure/DatabasesServiceColor/AzureVirtualDatacenter')
@@ -34,8 +34,8 @@ AzureVirtualDatacenter('element', 'Virtual Datacenter', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualDatacenter element
 include('elements/azure/DatabasesServiceColor/AzureVirtualDatacenter')
@@ -53,8 +53,8 @@ AzureVirtualDatacenter('element', 'Virtual Datacenter', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualDatacenter card
 include('elements/azure/DatabasesServiceColor/AzureVirtualDatacenter')
@@ -71,8 +71,8 @@ AzureVirtualDatacenterCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualDatacenter card
 include('elements/azure/DatabasesServiceColor/AzureVirtualDatacenter')

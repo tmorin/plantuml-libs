@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatColorResetLg [20x20/16z] hS_LWGGW54FHu4xwhtPtF8ph_JpemoyA0MiMW1l3hzGyJ26hNJ1q3zV8X1kudZPjZyN8FBb7BqlSOq-omWDcMUO1hIpmYCgK6sZp96UEvpjT20u8ca-9NkWV
 
+sprite $MaterialsFormatColorResetMd [14x14/16z] XKsr0G0X38pYil-qE9J_gN8EloToFsAWcEWWj8AkEhpGJoWNXJnWE2BNcWRaXoQaKneNV6jf8FyWgH9QWi_h
+
 !function MaterialsFormatColorReset($id, $name="Format Color Reset", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatColorReset', $name, $tech)
 !endfunction
 !function MaterialsFormatColorResetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatColorResetLg>', 'Format Color Reset', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatColorResetMd>', 'Format Color Reset', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ bP050iCm24MBn8NxttQH2Spxgtaunrbvhq_eORnQGyKW1O0eabax3aX5H7Guou1Lf97AFrm6D8vH9kGg
 QkOZmcdFy61K2grwPcDuVDC5
 }
 
+sprite $MaterialsNotificationsOffMd [14x14/16z] RST50eGm40NH_e93-lwd7I6oIgtgnIHod0F7ZYPivfa76tbPLnweKjxwKLNElAJRNNzQNIzHjUPBlj1PEoe1s83MQ2rBJFe2
+
 !function MaterialsNotificationsOff($id, $name="Notifications Off", $tech="")
   CloudElement($id, 'materials/Social/MaterialsNotificationsOff', $name, $tech)
 !endfunction
 !function MaterialsNotificationsOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNotificationsOffLg>', 'Notifications Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsNotificationsOffMd>', 'Notifications Off', $funcName, $content)
 !endfunction
 @enduml

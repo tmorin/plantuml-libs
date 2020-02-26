@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPowerSettingsNew
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPowerSettingsNew element
 include('elements/materials/Action/MaterialsPowerSettingsNew')
@@ -34,8 +34,8 @@ MaterialsPowerSettingsNew('element', 'Power Settings New', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPowerSettingsNew element
 include('elements/materials/Action/MaterialsPowerSettingsNew')
@@ -53,8 +53,8 @@ MaterialsPowerSettingsNew('element', 'Power Settings New', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPowerSettingsNew card
 include('elements/materials/Action/MaterialsPowerSettingsNew')
@@ -71,8 +71,8 @@ MaterialsPowerSettingsNewCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPowerSettingsNew card
 include('elements/materials/Action/MaterialsPowerSettingsNew')

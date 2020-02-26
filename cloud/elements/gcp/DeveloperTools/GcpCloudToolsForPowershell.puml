@@ -4,10 +4,12 @@ RP1L0i0m24FnvFuNdh3E-_ug49561t9XTM4oFXKlQdmDFeZZ6_W0_J7v8dS1y0LCP1S04Ev1O9Tf0NYL
 R8s_5zhSyp_RluD_Lz1tfm2kJd_Thm
 }
 
+sprite $GcpCloudToolsForPowershellMd [14x14/16z] JOxL0G10248z0zn_uUjwNoOW8iKcfPUz0IUOhUV6UwCy7LKaPZ578SO4GZM0P6_eK7U5pvE_6vU4AiQhIUG5lqFgxnutMMyua_sf6m
+
 !function GcpCloudToolsForPowershell($id, $name="Cloud Tools For Powershell", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudToolsForPowershell', $name, $tech)
 !endfunction
 !function GcpCloudToolsForPowershellCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudToolsForPowershellLg>', 'Cloud Tools For Powershell', $funcName, $content)
+  CloudCard($id, '<$GcpCloudToolsForPowershellMd>', 'Cloud Tools For Powershell', $funcName, $content)
 !endfunction
 @enduml

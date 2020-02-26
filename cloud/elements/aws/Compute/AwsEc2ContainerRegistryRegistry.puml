@@ -4,10 +4,12 @@ RL250SGm23ni_v4RGLvw2Uu0gFqy1U3-QtE7Eb9KJITy9qgaEnD23fLKcfPDzpksmyiMljycoQyDDOCc
 lm
 }
 
+sprite $AwsEc2ContainerRegistryRegistryMd [14x14/16z] Os160b0E4nCpbC4295Z011CwZv45n641aOn07fG918o4z25K8fj2G1-gor1T3G
+
 !function AwsEc2ContainerRegistryRegistry($id, $name="Ec2 Container Registry Registry", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2ContainerRegistryRegistry', $name, $tech)
 !endfunction
 !function AwsEc2ContainerRegistryRegistryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2ContainerRegistryRegistryLg>', 'Ec2 Container Registry Registry', $funcName, $content)
+  CloudCard($id, '<$AwsEc2ContainerRegistryRegistryMd>', 'Ec2 Container Registry Registry', $funcName, $content)
 !endfunction
 @enduml

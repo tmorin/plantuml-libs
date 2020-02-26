@@ -4,10 +4,12 @@ VSwr0G1H3CFGmCVO-yzxpA3kTP8fxMWgUvca7qmaJfIASf9Ow0yJx2GBTZkfeo_EAXxLmzjepNIBAXQg
 JHjztJZCaqQtLGC
 }
 
+sprite $AzureLoadBalancerGenericMd [10x14/16z] BOo30S1034L_Z7R_TSyl9W3k9Xpa_nYN33nCyN1_YNRBFeHcH0euDTcKK-ehsHShwGeofQWcejtR0MJkzjvrlmnnFay
+
 !function AzureLoadBalancerGeneric($id, $name="Load Balancer Generic", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric', $name, $tech)
 !endfunction
 !function AzureLoadBalancerGenericCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLoadBalancerGenericLg>', 'Load Balancer Generic', $funcName, $content)
+  CloudCard($id, '<$AzureLoadBalancerGenericMd>', 'Load Balancer Generic', $funcName, $content)
 !endfunction
 @enduml

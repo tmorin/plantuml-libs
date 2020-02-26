@@ -4,10 +4,15 @@ FT350GGX30LGoBT0__sEiF9kI7Iy9kI7CCSFHDG35BvN551CK83ulIeBwGxaaavW5Ojvi5WmnXGS5evI
 WHQoZFxV2UNbYj7VMDCPigiNSshGgtkderC3HBUrZhSNcbDGM2G0VdiUK45GFmG1mTa1Ogwz5nDOuwMGfRLOP9wh0p7ne8FnCvbq9vpZTGC
 }
 
+sprite $AzureDnsZonesMd [14x14/16z] {
+BOw75KGX2C0K4Ypx3tputyL2BsECYGrpF98CYHQV0Uujj3c1G0arO2shyHoRmiLwPZ_e6uZ7lqMogRQiTAsNkQk-BhkfrsK2QPMfnaYqxctRRnd9ghJQQC9g
+Z5P_
+}
+
 !function AzureDnsZones($id, $name="Dns Zones", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureDnsZones', $name, $tech)
 !endfunction
 !function AzureDnsZonesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDnsZonesLg>', 'Dns Zones', $funcName, $content)
+  CloudCard($id, '<$AzureDnsZonesMd>', 'Dns Zones', $funcName, $content)
 !endfunction
 @enduml

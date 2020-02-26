@@ -4,10 +4,12 @@ XP254K0X34E3E-m_xNV1UMUzUW90fWo92oOp64OmKN0sKfSA70Lel4CfxsBySf43F9OvHm3Yrdt9I-ch
 GStGqzRx7G
 }
 
+sprite $MaterialsContactsMd [14x14/16z] LSw55G0W20JG0vzT-qzhvxSJ01dy42GQEjg2vS60pettlTTpPOZCNVr3a3ASLT1Ich1MKQ0HSQuyKyD-tVH3l_b7_pFxiwu
+
 !function MaterialsContacts($id, $name="Contacts", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsContacts', $name, $tech)
 !endfunction
 !function MaterialsContactsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsContactsLg>', 'Contacts', $funcName, $content)
+  CloudCard($id, '<$MaterialsContactsMd>', 'Contacts', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureFilter
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFilter element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFilter')
@@ -34,8 +34,8 @@ AzureFilter('element', 'Filter', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFilter element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFilter')
@@ -53,8 +53,8 @@ AzureFilter('element', 'Filter', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFilter card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFilter')
@@ -71,8 +71,8 @@ AzureFilterCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFilter card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureFilter')

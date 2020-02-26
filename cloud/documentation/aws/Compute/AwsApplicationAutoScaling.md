@@ -16,7 +16,7 @@ elements/aws/Compute/AwsApplicationAutoScaling
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationAutoScaling element
@@ -34,7 +34,7 @@ AwsApplicationAutoScaling('element', 'Application Auto Scaling', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationAutoScaling element
@@ -53,8 +53,8 @@ AwsApplicationAutoScaling('element', 'Application Auto Scaling', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationAutoScaling card
 include('elements/aws/Compute/AwsApplicationAutoScaling')
@@ -71,8 +71,8 @@ AwsApplicationAutoScalingCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationAutoScaling card
 include('elements/aws/Compute/AwsApplicationAutoScaling')

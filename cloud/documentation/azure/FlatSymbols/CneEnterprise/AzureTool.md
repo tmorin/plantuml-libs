@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureTool
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTool element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureTool')
@@ -34,8 +34,8 @@ AzureTool('element', 'Tool', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTool element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureTool')
@@ -53,8 +53,8 @@ AzureTool('element', 'Tool', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTool card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureTool')
@@ -71,8 +71,8 @@ AzureToolCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTool card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureTool')

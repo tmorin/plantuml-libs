@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsShieldShieldAdvanced
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsShieldShieldAdvanced element
@@ -34,7 +34,7 @@ AwsShieldShieldAdvanced('element', 'Shield Shield Advanced', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsShieldShieldAdvanced element
@@ -53,8 +53,8 @@ AwsShieldShieldAdvanced('element', 'Shield Shield Advanced', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsShieldShieldAdvanced card
 include('elements/aws/SecurityIdentityCompliance/AwsShieldShieldAdvanced')
@@ -71,8 +71,8 @@ AwsShieldShieldAdvancedCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsShieldShieldAdvanced card
 include('elements/aws/SecurityIdentityCompliance/AwsShieldShieldAdvanced')

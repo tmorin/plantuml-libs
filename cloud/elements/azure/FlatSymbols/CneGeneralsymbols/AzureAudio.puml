@@ -4,10 +4,12 @@ TT053WGn20NGZrI1kVzjrmqsysFDgm7uX2TgQ5ibteVzqyD84psinG1OX9xqF3UZmoCMvl4o1YtdsthJ
 Xiij_AtvsKZfJMDHdO4CEfdL5vFLsLy1
 }
 
+sprite $AzureAudioMd [14x14/16z] NKw30S103CpbpVstRTzMTA2-jAIzL99daYMX582MrCnR2a6BajICWyhPbbioTj1-PUGanvrPTMJieK88fhE0uNLLq4s1hCEXhl4ukrt_
+
 !function AzureAudio($id, $name="Audio", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureAudio', $name, $tech)
 !endfunction
 !function AzureAudioCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAudioLg>', 'Audio', $funcName, $content)
+  CloudCard($id, '<$AzureAudioMd>', 'Audio', $funcName, $content)
 !endfunction
 @enduml

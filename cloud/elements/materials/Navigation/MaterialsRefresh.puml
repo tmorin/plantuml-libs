@@ -4,10 +4,12 @@ fP054e1024NtarkCzp-jtKxxT8k6z1-8gc2vd19jKMiqXUWXyZ02o7g9GwOXsyM7OPUXsNQHVieaQ3sv
 ssS6ZFIV2G
 }
 
+sprite $MaterialsRefreshMd [14x14/16z] XKs35G1H3AjonlxJ7hxxL3kXI1HG8aurBmkmp43gvfIMEoMT_sX7xf1dgjAx9EKoJML0mKoTOPxPiKVo0W
+
 !function MaterialsRefresh($id, $name="Refresh", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsRefresh', $name, $tech)
 !endfunction
 !function MaterialsRefreshCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsRefreshLg>', 'Refresh', $funcName, $content)
+  CloudCard($id, '<$MaterialsRefreshMd>', 'Refresh', $funcName, $content)
 !endfunction
 @enduml

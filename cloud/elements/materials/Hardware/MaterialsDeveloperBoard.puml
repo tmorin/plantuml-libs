@@ -4,10 +4,12 @@ ZP050e0m24NX6nlXTl_JsjrFLpJGRr3kA4OHgzkADwCGJSahq6gIWRY7XaKIU9P5CqM_WIGP9fdax90y
 tpL7MdDSQxdMVDlRTGQti_fF1m
 }
 
+sprite $MaterialsDeveloperBoardMd [14x14/16z] POw30KKn34LZVEw_xLFTKyON5gXo6Phna79Qpe0N87PPn15iGVBHovB_N-ny7EzO9ekY95yMYL3-wR9AvcKvRbtwX6twf6pc
+
 !function MaterialsDeveloperBoard($id, $name="Developer Board", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDeveloperBoard', $name, $tech)
 !endfunction
 !function MaterialsDeveloperBoardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDeveloperBoardLg>', 'Developer Board', $funcName, $content)
+  CloudCard($id, '<$MaterialsDeveloperBoardMd>', 'Developer Board', $funcName, $content)
 !endfunction
 @enduml

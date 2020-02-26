@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsSystemsManagerInventory
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerInventory element
@@ -34,7 +34,7 @@ AwsSystemsManagerInventory('element', 'Systems Manager Inventory', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerInventory element
@@ -53,8 +53,8 @@ AwsSystemsManagerInventory('element', 'Systems Manager Inventory', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerInventory card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerInventory')
@@ -71,8 +71,8 @@ AwsSystemsManagerInventoryCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerInventory card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerInventory')

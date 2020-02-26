@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPermScanWifi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermScanWifi element
 include('elements/materials/Action/MaterialsPermScanWifi')
@@ -34,8 +34,8 @@ MaterialsPermScanWifi('element', 'Perm Scan Wifi', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermScanWifi element
 include('elements/materials/Action/MaterialsPermScanWifi')
@@ -53,8 +53,8 @@ MaterialsPermScanWifi('element', 'Perm Scan Wifi', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermScanWifi card
 include('elements/materials/Action/MaterialsPermScanWifi')
@@ -71,8 +71,8 @@ MaterialsPermScanWifiCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermScanWifi card
 include('elements/materials/Action/MaterialsPermScanWifi')

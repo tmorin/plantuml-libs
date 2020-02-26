@@ -16,7 +16,7 @@ elements/aws/AwsCostManagement/AwsReservedInstanceReporting
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsReservedInstanceReporting element
@@ -34,7 +34,7 @@ AwsReservedInstanceReporting('element', 'Reserved Instance Reporting', 'an optio
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsReservedInstanceReporting element
@@ -53,8 +53,8 @@ AwsReservedInstanceReporting('element', 'Reserved Instance Reporting', 'an optio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsReservedInstanceReporting card
 include('elements/aws/AwsCostManagement/AwsReservedInstanceReporting')
@@ -71,8 +71,8 @@ AwsReservedInstanceReportingCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsReservedInstanceReporting card
 include('elements/aws/AwsCostManagement/AwsReservedInstanceReporting')

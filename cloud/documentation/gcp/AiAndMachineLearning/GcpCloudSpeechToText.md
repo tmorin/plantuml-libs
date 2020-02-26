@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpCloudSpeechToText
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSpeechToText element
 include('elements/gcp/AiAndMachineLearning/GcpCloudSpeechToText')
@@ -34,8 +34,8 @@ GcpCloudSpeechToText('element', 'Cloud Speech To Text', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSpeechToText element
 include('elements/gcp/AiAndMachineLearning/GcpCloudSpeechToText')
@@ -53,7 +53,7 @@ GcpCloudSpeechToText('element', 'Cloud Speech To Text', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSpeechToText card
@@ -71,7 +71,7 @@ GcpCloudSpeechToTextCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSpeechToText card

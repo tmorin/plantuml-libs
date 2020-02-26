@@ -4,10 +4,15 @@ XP835a0X44LxORp_zNuRtPCnvlY7euEFJR_n696KWArZxcdhiZp8gWsYD7O6gu36tbJpzg14KFOGM2Wq
 iLUHmmRlsM1EKEUn2yGLF7PoEzk0rxuz036tLFcWfiPCEDamApuGM1msz1zarIKwAqlCz1oeDJehwsOpqkKRZoxUBRa1
 }
 
+sprite $AzureKeyboardMd [23x14/16z] {
+TP07ZaCn24I_6Ko__tdNY4rFHa-5NgA-AGwVwi0YD1YeENw_D6493uGZ3AcNjtixn4cDJCa5BkF-Q39kBRutIUEwDJ6IWv8AsM6FcvWNU8J5V6-Iy1evyjP4
+ipSS6R8Nd7DwbH4jp3dVZ__ngZy
+}
+
 !function AzureKeyboard($id, $name="Keyboard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureKeyboard', $name, $tech)
 !endfunction
 !function AzureKeyboardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureKeyboardLg>', 'Keyboard', $funcName, $content)
+  CloudCard($id, '<$AzureKeyboardMd>', 'Keyboard', $funcName, $content)
 !endfunction
 @enduml

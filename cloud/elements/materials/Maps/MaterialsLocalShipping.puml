@@ -4,10 +4,12 @@ fO_50GKW5CDQtDb_MlIxIqw1v_W7eIyW9lJrJ3pyfJT_IGan_-B5N_7EYvk_A20Sx_wWpKrj23v47luk
 XziFzXyT
 }
 
+sprite $MaterialsLocalShippingMd [14x14/16z] VOU53S0m3C32EFZ_ssbSKHsm31DGJ4zCpk9jlucpP7yefh74wAz4DFnghMoMVUljh5F2wUWPSOc1Z8tW5P2U_zAK0m
+
 !function MaterialsLocalShipping($id, $name="Local Shipping", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalShipping', $name, $tech)
 !endfunction
 !function MaterialsLocalShippingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLocalShippingLg>', 'Local Shipping', $funcName, $content)
+  CloudCard($id, '<$MaterialsLocalShippingMd>', 'Local Shipping', $funcName, $content)
 !endfunction
 @enduml

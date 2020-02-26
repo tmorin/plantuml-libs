@@ -4,10 +4,12 @@ VP250i8m34GN6OtI__zRgZZSj2-vgnn_18Zm2bWyquKV6AKEUIfkP7MAIMr265rNAMVxLnbs7Zqn6oYv
 S7UCjMpl8QMzpisAZDIaPkbCJbXh0Mb1KB9JDO6rDwMrp6ht3MiAwt3ZqrbfpBFwUwRlkW4
 }
 
+sprite $MaterialsPublicMd [14x14/16z] PKu53iH041gZhENu_slhiHwn4Sp-420Hxu8bQNOyYwGrodcjSNtApRp7-Vffy1RXV19jSxkGFBTqZZxmREVVkxGzpEXkcpGG_LAZkVDAUGCxU2sVPbyS
+
 !function MaterialsPublic($id, $name="Public", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPublic', $name, $tech)
 !endfunction
 !function MaterialsPublicCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPublicLg>', 'Public', $funcName, $content)
+  CloudCard($id, '<$MaterialsPublicMd>', 'Public', $funcName, $content)
 !endfunction
 @enduml

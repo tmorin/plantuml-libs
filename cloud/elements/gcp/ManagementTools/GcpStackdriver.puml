@@ -4,10 +4,12 @@ RL1L0iKW3Ajck_-51zIUvWUBKGfmWGQ2WL2HS0zGLBlVO4cxtk-k87fi0UIRdu2plOwteRTe5t69FSWc
 tSKE4K6JwRnn1_p_t_xFW1W_j9dfjioP_flz0W
 }
 
+sprite $GcpStackdriverMd [14x14/16z] JKw75SHG2CBk_XEVxPBmgmeF090C2EZ2O-1JQXwq2exCcbGL35W_n5wrGUeMGAIxNGIpAAsYZgfrTKChNZ5ROZlqAdmT3lnrjqrsvXVqJVq3
+
 !function GcpStackdriver($id, $name="Stackdriver", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpStackdriver', $name, $tech)
 !endfunction
 !function GcpStackdriverCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpStackdriverLg>', 'Stackdriver', $funcName, $content)
+  CloudCard($id, '<$GcpStackdriverMd>', 'Stackdriver', $funcName, $content)
 !endfunction
 @enduml

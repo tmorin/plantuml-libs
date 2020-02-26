@@ -4,10 +4,12 @@ VT055WGX201GQLZqpVrFkzCTlFvAbgz0l15bqjMaw-HgO0RbXdV2YATwINVhak5ghZKFlPccML1sqpQQ
 uiUaJSl12bfjAN2qKH6EXxr73m
 }
 
+sprite $MaterialsAccessibleMd [14x14/16z] ROi54e1G508Vy3l6-v_MRcKIsBMVU7yhA0MtAZt8W1jPXuYhjPwIFpZL1kYGM7jmtB042odbl9c9PYBIrboIosSpnK23Xxqo0G
+
 !function MaterialsAccessible($id, $name="Accessible", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAccessible', $name, $tech)
 !endfunction
 !function MaterialsAccessibleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAccessibleLg>', 'Accessible', $funcName, $content)
+  CloudCard($id, '<$MaterialsAccessibleMd>', 'Accessible', $funcName, $content)
 !endfunction
 @enduml

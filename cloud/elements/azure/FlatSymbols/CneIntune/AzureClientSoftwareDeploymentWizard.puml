@@ -4,10 +4,15 @@ NOy5WiKW30KXBlU_x-OLzjlKfz5rsCHCwmUoh25qVrgjxYhSWj_MwaZSIZvYuHAoEkdMpR7b8gA1UByb
 PpkhgXqzo9X5-CSg6tgZo2HNpeieHza2OpebuKSQNIyODiI4c8YPE4jH9PxbdBKk_NWk-3RsmyGmog0mwW2Qeh200qlMO9iJzi8M6Q6qhdsppnf42_m1
 }
 
+sprite $AzureClientSoftwareDeploymentWizardMd [16x14/16z] {
+DO_N0S10249pdg32_lkclpyhS5oi9FOwVZ2orFihAJyetwcihXfxuYhNM6GtskPLRxafQI3FUjPh9c2owgjRIIEOx_xmMcyGSpLMMqra9hAKpu95petx_U06
+a54JnyLkISFWLRx4lk8itEK9
+}
+
 !function AzureClientSoftwareDeploymentWizard($id, $name="Client Software Deployment Wizard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard', $name, $tech)
 !endfunction
 !function AzureClientSoftwareDeploymentWizardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureClientSoftwareDeploymentWizardLg>', 'Client Software Deployment Wizard', $funcName, $content)
+  CloudCard($id, '<$AzureClientSoftwareDeploymentWizardMd>', 'Client Software Deployment Wizard', $funcName, $content)
 !endfunction
 @enduml

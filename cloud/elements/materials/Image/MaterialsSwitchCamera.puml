@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSwitchCameraLg [20x20/16z] fO_L0G0X243jLlRVzkpswvv90tg3IGGlAcA2zy6G9bFEXO6C4PpJv69XmPAe2wikT5s_Xaw990erwHIcBaAnwZgDOuEHUEkxxXqxQhnwkVPydmrHla3HBpu
 
+sprite $MaterialsSwitchCameraMd [14x14/16z] VSrL0iGW30JGGJB1kVzfT-lUlX-8uyPGbGOZAnBx858ie7sZKzHgxxKjKQCEFxOv8gnp5Zn7vyxxblC5AnkBBty
+
 !function MaterialsSwitchCamera($id, $name="Switch Camera", $tech="")
   CloudElement($id, 'materials/Image/MaterialsSwitchCamera', $name, $tech)
 !endfunction
 !function MaterialsSwitchCameraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSwitchCameraLg>', 'Switch Camera', $funcName, $content)
+  CloudCard($id, '<$MaterialsSwitchCameraMd>', 'Switch Camera', $funcName, $content)
 !endfunction
 @enduml

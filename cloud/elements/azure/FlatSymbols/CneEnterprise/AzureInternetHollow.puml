@@ -4,10 +4,12 @@ hSx50GH124JHJq4n-KUyxYsdVPSMb4_ggsIbB21SpAMvSo69GSVhrYuFesIU8cQZQbZEoOliOvWQ_Rb_
 PNQgA0TBPI1xwJ2S0G
 }
 
+sprite $AzureInternetHollowMd [23x14/16z] TSZ50SC040InMRZ-Imx7R3t5Nz_4GGsuajXmUFCqDOkAnVBfi57UL8kj2DoQlPY44rN31RLSkUlXIXFEN38zuma
+
 !function AzureInternetHollow($id, $name="Internet Hollow", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureInternetHollow', $name, $tech)
 !endfunction
 !function AzureInternetHollowCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureInternetHollowLg>', 'Internet Hollow', $funcName, $content)
+  CloudCard($id, '<$AzureInternetHollowMd>', 'Internet Hollow', $funcName, $content)
 !endfunction
 @enduml

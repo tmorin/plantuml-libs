@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsMailOutline
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMailOutline element
 include('elements/materials/Communication/MaterialsMailOutline')
@@ -34,8 +34,8 @@ MaterialsMailOutline('element', 'Mail Outline', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMailOutline element
 include('elements/materials/Communication/MaterialsMailOutline')
@@ -53,8 +53,8 @@ MaterialsMailOutline('element', 'Mail Outline', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMailOutline card
 include('elements/materials/Communication/MaterialsMailOutline')
@@ -71,8 +71,8 @@ MaterialsMailOutlineCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMailOutline card
 include('elements/materials/Communication/MaterialsMailOutline')

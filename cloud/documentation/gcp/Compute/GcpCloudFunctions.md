@@ -16,8 +16,8 @@ elements/gcp/Compute/GcpCloudFunctions
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudFunctions element
 include('elements/gcp/Compute/GcpCloudFunctions')
@@ -34,8 +34,8 @@ GcpCloudFunctions('element', 'Cloud Functions', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudFunctions element
 include('elements/gcp/Compute/GcpCloudFunctions')
@@ -53,7 +53,7 @@ GcpCloudFunctions('element', 'Cloud Functions', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudFunctions card
@@ -71,7 +71,7 @@ GcpCloudFunctionsCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudFunctions card

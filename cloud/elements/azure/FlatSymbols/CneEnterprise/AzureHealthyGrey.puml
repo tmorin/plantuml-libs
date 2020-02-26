@@ -4,10 +4,15 @@ NP5N0i0W24C38fBU_xwTiUjzcGTkm0TPtN1YlLZf05ej1nM73eK6g-M27UXKACjbmZoqIBN_ANvpnYNu
 N9e1p1KJrnqrVb9QthV5WUjeHMa7tWKXhS9Vgp2c7jB2ajUR6dv4wNF--7YliG4
 }
 
+sprite $AzureHealthyGreyMd [17x14/16z] {
+HOy50WGX30DJR_Z_Vq_2oUm2TK4isGR0Upa1t_DY0t45doDOlCBe5PJClw6KJQNiIsnhfIJFMvcrKaQYzPY5aXimPOP_kWAGYz8PU1DIxdWNXIl-YpMF5lfJ
+MxWy0G
+}
+
 !function AzureHealthyGrey($id, $name="Healthy Grey", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureHealthyGrey', $name, $tech)
 !endfunction
 !function AzureHealthyGreyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHealthyGreyLg>', 'Healthy Grey', $funcName, $content)
+  CloudCard($id, '<$AzureHealthyGreyMd>', 'Healthy Grey', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/StorageServiceColor/AzureStorageSyncServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageSyncServices element
 include('elements/azure/StorageServiceColor/AzureStorageSyncServices')
@@ -34,8 +34,8 @@ AzureStorageSyncServices('element', 'Storage Sync Services', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageSyncServices element
 include('elements/azure/StorageServiceColor/AzureStorageSyncServices')
@@ -53,8 +53,8 @@ AzureStorageSyncServices('element', 'Storage Sync Services', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageSyncServices card
 include('elements/azure/StorageServiceColor/AzureStorageSyncServices')
@@ -71,8 +71,8 @@ AzureStorageSyncServicesCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorageSyncServices card
 include('elements/azure/StorageServiceColor/AzureStorageSyncServices')

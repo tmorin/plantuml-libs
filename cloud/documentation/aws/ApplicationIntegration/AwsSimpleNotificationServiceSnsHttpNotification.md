@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsHttpNotificat
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsHttpNotification element
@@ -34,7 +34,7 @@ AwsSimpleNotificationServiceSnsHttpNotification('element', 'Simple Notification 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsHttpNotification element
@@ -53,8 +53,8 @@ AwsSimpleNotificationServiceSnsHttpNotification('element', 'Simple Notification 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsHttpNotification card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsHttpNotification')
@@ -71,8 +71,8 @@ AwsSimpleNotificationServiceSnsHttpNotificationCard('card', 'an optional functio
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsHttpNotification card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsHttpNotification')

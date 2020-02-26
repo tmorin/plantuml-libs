@@ -4,10 +4,12 @@ bT150aCn30FHIDRu_ZSk-9UvitpXSCxcKZmTpLF0QphQclpHegL7asmzM0Megms5RhmPaP907oe5i6-e
 yK-BLt-_1m
 }
 
+sprite $AzureAppServiceEnvironmentsMd [14x14/16z] NSx70SH0349H-0Zrt_7cO9k9xuJwIj9tB8c4n-DMV-ajOnyqBIyXyy3MfWdpn2xa0QRxp9WKVxJGIkQTVmF_Xd_xPRBEJ9FNqpi
+
 !function AzureAppServiceEnvironments($id, $name="App Service Environments", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureAppServiceEnvironments', $name, $tech)
 !endfunction
 !function AzureAppServiceEnvironmentsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAppServiceEnvironmentsLg>', 'App Service Environments', $funcName, $content)
+  CloudCard($id, '<$AzureAppServiceEnvironmentsMd>', 'App Service Environments', $funcName, $content)
 !endfunction
 @enduml

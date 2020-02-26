@@ -4,10 +4,12 @@ ZP055e0W40NfZlkVrcB3rb7Wlw4H_r66aAXAoOFQenhE52q7jgCq6MUOlaXvTTrigLepyEmwySEL4Ch9
 p
 }
 
+sprite $MaterialsSaveMd [14x14/16z] NOu30W0m202hsVz_xUmRCk03QJ0Cenl6YsQHnYv25Ds2OILFLJWbApgcGDqvs9QJqXsB0_1jnIPEdKIK8uOc16-C3y7WjHaXV1G
+
 !function MaterialsSave($id, $name="Save", $tech="")
   CloudElement($id, 'materials/Content/MaterialsSave', $name, $tech)
 !endfunction
 !function MaterialsSaveCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSaveLg>', 'Save', $funcName, $content)
+  CloudCard($id, '<$MaterialsSaveMd>', 'Save', $funcName, $content)
 !endfunction
 @enduml

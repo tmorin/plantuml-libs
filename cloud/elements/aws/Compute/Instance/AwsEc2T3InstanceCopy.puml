@@ -4,10 +4,12 @@ ZL250SD04EAGtt_ZDkv6ydOEwC22bcs2MO4qRAD5RabpnisQeZQW0Ig53IhYbGtblSq5fHLG98liRIq2
 osSUPmskjRhMzApz7m
 }
 
+sprite $AwsEc2T3InstanceCopyMd [14x14/16z] LOw70GCm3C8G9F-_NDnjPNeZoTXqgP2RK_eW9Rn9v8lUS4r-Ll2XJvnQnzJIF6Fnj3BFM1uBOTNQNTWJzlIjRAj-
+
 !function AwsEc2T3InstanceCopy($id, $name="Ec2 T3 Instance Copy", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2T3InstanceCopy', $name, $tech)
 !endfunction
 !function AwsEc2T3InstanceCopyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2T3InstanceCopyLg>', 'Ec2 T3 Instance Copy', $funcName, $content)
+  CloudCard($id, '<$AwsEc2T3InstanceCopyMd>', 'Ec2 T3 Instance Copy', $funcName, $content)
 !endfunction
 @enduml

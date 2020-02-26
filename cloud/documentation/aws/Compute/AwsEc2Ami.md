@@ -16,7 +16,7 @@ elements/aws/Compute/AwsEc2Ami
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2Ami element
@@ -34,7 +34,7 @@ AwsEc2Ami('element', 'Ec2 Ami', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2Ami element
@@ -53,8 +53,8 @@ AwsEc2Ami('element', 'Ec2 Ami', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2Ami card
 include('elements/aws/Compute/AwsEc2Ami')
@@ -71,8 +71,8 @@ AwsEc2AmiCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2Ami card
 include('elements/aws/Compute/AwsEc2Ami')

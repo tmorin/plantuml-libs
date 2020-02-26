@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSettingsSystemDaydream
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsSystemDaydream element
 include('elements/materials/Device/MaterialsSettingsSystemDaydream')
@@ -34,8 +34,8 @@ MaterialsSettingsSystemDaydream('element', 'Settings System Daydream', 'an optio
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsSystemDaydream element
 include('elements/materials/Device/MaterialsSettingsSystemDaydream')
@@ -53,8 +53,8 @@ MaterialsSettingsSystemDaydream('element', 'Settings System Daydream', 'an optio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsSystemDaydream card
 include('elements/materials/Device/MaterialsSettingsSystemDaydream')
@@ -71,8 +71,8 @@ MaterialsSettingsSystemDaydreamCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsSystemDaydream card
 include('elements/materials/Device/MaterialsSettingsSystemDaydream')

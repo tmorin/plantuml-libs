@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsProfessionalServicesLg [20x20/16z] {
-RSu75eGW54FHASad2VjVhxqVd_sgGAPyJL9UC6kMJbobGF3GnHfj5sz69JPqCNEvi3s_Yw77U7cE5_pm_ocRzMMyabKKj5hlPjjM-UTkjP19YA1c2xD4E2Oy
-cpOp54q-cy4biLYJPHulMs3ZREbxYRCSDplgBpW2
+bKt75K0n23eeH7J_UN-loIcaIdda9AIUQG3OKzgl7mSzzyiTD-Flgy4N-yYk10QpNrHWI5ivz5A7evBsnDdEFA3zdBQyk5ttg_GkYhhrS1m8a4J-uMZmZbFM
+TYQm0W
 }
+
+sprite $AwsProfessionalServicesMd [14x14/16z] TKor0SC039k4_V_UXZdHOWlxWfn-aTg9nrVUhRJHsVFE2X3xZfJ8wAzT1qno7c975Qemaa0ZJ7EkndOCxKCV6
 
 !function AwsProfessionalServices($id, $name="Professional Services", $tech="")
   CloudElement($id, 'aws/CustomerEnablement/AwsProfessionalServices', $name, $tech)
 !endfunction
 !function AwsProfessionalServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsProfessionalServicesLg>', 'Professional Services', $funcName, $content)
+  CloudCard($id, '<$AwsProfessionalServicesMd>', 'Professional Services', $funcName, $content)
 !endfunction
 @enduml

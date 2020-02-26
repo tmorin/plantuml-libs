@@ -16,8 +16,8 @@ elements/azure/GeneralServiceIcons/AzureTags
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTags element
 include('elements/azure/GeneralServiceIcons/AzureTags')
@@ -34,8 +34,8 @@ AzureTags('element', 'Tags', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTags element
 include('elements/azure/GeneralServiceIcons/AzureTags')
@@ -53,8 +53,8 @@ AzureTags('element', 'Tags', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTags card
 include('elements/azure/GeneralServiceIcons/AzureTags')
@@ -71,8 +71,8 @@ AzureTagsCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTags card
 include('elements/azure/GeneralServiceIcons/AzureTags')

@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureVirtualNetworks
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworks element
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworks')
@@ -34,8 +34,8 @@ AzureVirtualNetworks('element', 'Virtual Networks', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworks element
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworks')
@@ -53,8 +53,8 @@ AzureVirtualNetworks('element', 'Virtual Networks', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworks card
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworks')
@@ -71,8 +71,8 @@ AzureVirtualNetworksCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworks card
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworks')

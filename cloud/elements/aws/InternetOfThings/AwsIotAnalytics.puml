@@ -4,10 +4,12 @@ hS_L4GGX44NHggNla_m3NX_x7vo3Tcz8GP_sGcDSq24mp8XCTdA5CuzZ7sv8CxEJrKeVplXlfE6_4-qc
 Q4T7W7j3UW4
 }
 
+sprite $AwsIotAnalyticsMd [14x14/16z] XSot0SD040D1EUpY-YzOZkIdFz5Pp1PEEuSc4OvMZ7aUdOmjyVXfAVLe6QHDEFA2A4V8wnKxA_Bb5EUWG6Vd0m
+
 !function AwsIotAnalytics($id, $name="Iot Analytics", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalytics', $name, $tech)
 !endfunction
 !function AwsIotAnalyticsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotAnalyticsLg>', 'Iot Analytics', $funcName, $content)
+  CloudCard($id, '<$AwsIotAnalyticsMd>', 'Iot Analytics', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsOndemandVideo
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOndemandVideo element
 include('elements/materials/Notification/MaterialsOndemandVideo')
@@ -34,8 +34,8 @@ MaterialsOndemandVideo('element', 'Ondemand Video', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOndemandVideo element
 include('elements/materials/Notification/MaterialsOndemandVideo')
@@ -53,8 +53,8 @@ MaterialsOndemandVideo('element', 'Ondemand Video', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOndemandVideo card
 include('elements/materials/Notification/MaterialsOndemandVideo')
@@ -71,8 +71,8 @@ MaterialsOndemandVideoCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsOndemandVideo card
 include('elements/materials/Notification/MaterialsOndemandVideo')

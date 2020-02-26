@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsAddBox
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAddBox element
 include('elements/materials/Content/MaterialsAddBox')
@@ -34,8 +34,8 @@ MaterialsAddBox('element', 'Add Box', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAddBox element
 include('elements/materials/Content/MaterialsAddBox')
@@ -53,8 +53,8 @@ MaterialsAddBox('element', 'Add Box', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAddBox card
 include('elements/materials/Content/MaterialsAddBox')
@@ -71,8 +71,8 @@ MaterialsAddBoxCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAddBox card
 include('elements/materials/Content/MaterialsAddBox')

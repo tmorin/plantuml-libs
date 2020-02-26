@@ -4,10 +4,12 @@ VL073i0W26H6hv7q_w_jtYKgUmDr7elmss1e4GrscmLHJDLAG4xJ0DqbnR0R6RXI67MJBPIkfs4hgsKX
 hh-Pazto6zotgiR_ctRU3
 }
 
+sprite $MaterialsHighlightOffMd [14x14/16z] PKw74OG020DoESh--_xRDKhln3uKp6GS2Pl0OlOaVNMUQnhjjgIBwMMOD4yWVOqiOOQPrQPcEgbNv8D-LsHl-WC
+
 !function MaterialsHighlightOff($id, $name="Highlight Off", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHighlightOff', $name, $tech)
 !endfunction
 !function MaterialsHighlightOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHighlightOffLg>', 'Highlight Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsHighlightOffMd>', 'Highlight Off', $funcName, $content)
 !endfunction
 @enduml

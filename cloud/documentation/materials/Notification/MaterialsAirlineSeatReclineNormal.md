@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAirlineSeatReclineNormal
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatReclineNormal element
 include('elements/materials/Notification/MaterialsAirlineSeatReclineNormal')
@@ -34,8 +34,8 @@ MaterialsAirlineSeatReclineNormal('element', 'Airline Seat Recline Normal', 'an 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatReclineNormal element
 include('elements/materials/Notification/MaterialsAirlineSeatReclineNormal')
@@ -53,8 +53,8 @@ MaterialsAirlineSeatReclineNormal('element', 'Airline Seat Recline Normal', 'an 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatReclineNormal card
 include('elements/materials/Notification/MaterialsAirlineSeatReclineNormal')
@@ -71,8 +71,8 @@ MaterialsAirlineSeatReclineNormalCard('card', 'an optional functional name', 'Mo
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatReclineNormal card
 include('elements/materials/Notification/MaterialsAirlineSeatReclineNormal')

@@ -16,8 +16,8 @@ elements/azure/StorageServiceColor/AzureStorsimpleDeviceManagers
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDeviceManagers element
 include('elements/azure/StorageServiceColor/AzureStorsimpleDeviceManagers')
@@ -34,8 +34,8 @@ AzureStorsimpleDeviceManagers('element', 'Storsimple Device Managers', 'an optio
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDeviceManagers element
 include('elements/azure/StorageServiceColor/AzureStorsimpleDeviceManagers')
@@ -53,8 +53,8 @@ AzureStorsimpleDeviceManagers('element', 'Storsimple Device Managers', 'an optio
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDeviceManagers card
 include('elements/azure/StorageServiceColor/AzureStorsimpleDeviceManagers')
@@ -71,8 +71,8 @@ AzureStorsimpleDeviceManagersCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStorsimpleDeviceManagers card
 include('elements/azure/StorageServiceColor/AzureStorsimpleDeviceManagers')

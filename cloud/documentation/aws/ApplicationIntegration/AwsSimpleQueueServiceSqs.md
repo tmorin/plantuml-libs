@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSimpleQueueServiceSqs
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleQueueServiceSqs element
@@ -34,7 +34,7 @@ AwsSimpleQueueServiceSqs('element', 'Simple Queue Service Sqs', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleQueueServiceSqs element
@@ -53,8 +53,8 @@ AwsSimpleQueueServiceSqs('element', 'Simple Queue Service Sqs', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleQueueServiceSqs card
 include('elements/aws/ApplicationIntegration/AwsSimpleQueueServiceSqs')
@@ -71,8 +71,8 @@ AwsSimpleQueueServiceSqsCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleQueueServiceSqs card
 include('elements/aws/ApplicationIntegration/AwsSimpleQueueServiceSqs')

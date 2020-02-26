@@ -16,8 +16,8 @@ elements/gcp/Compute/GcpGpu
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGpu element
 include('elements/gcp/Compute/GcpGpu')
@@ -34,8 +34,8 @@ GcpGpu('element', 'Gpu', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGpu element
 include('elements/gcp/Compute/GcpGpu')
@@ -53,7 +53,7 @@ GcpGpu('element', 'Gpu', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpGpu card
@@ -71,7 +71,7 @@ GcpGpuCard('card', 'an optional functional name', 'Molestiae praesentium aut nat
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpGpu card

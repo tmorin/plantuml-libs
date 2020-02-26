@@ -4,10 +4,12 @@ jT350SGW441HO7m7wR_Qk2SSz-FlIEYKBcq4NlQgmshaa19OMwBLsEAqot_j1sAWDwDMMYlbOMlgDojM
 RWG
 }
 
+sprite $MaterialsPhotoAlbumMd [14x14/16z] ZSwr0OLG5C3Gw_9q_sc_u52HxdI1H-HRz9SQaSzV-fS9WBwJYjWX7NFqENRDNcT8ssKK2BhA4W41CEqlRR7Kz77sw0i
+
 !function MaterialsPhotoAlbum($id, $name="Photo Album", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPhotoAlbum', $name, $tech)
 !endfunction
 !function MaterialsPhotoAlbumCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPhotoAlbumLg>', 'Photo Album', $funcName, $content)
+  CloudCard($id, '<$MaterialsPhotoAlbumMd>', 'Photo Album', $funcName, $content)
 !endfunction
 @enduml

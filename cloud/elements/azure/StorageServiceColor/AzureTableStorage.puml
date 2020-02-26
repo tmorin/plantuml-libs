@@ -4,10 +4,15 @@ TOr50WGX3C0MhV7_zsx6FGTeCvAiVYM6PRKEwi8fhXpgvlA3RfapM-TCEbnIIhDCaqpmBO_FVPFdKBY2
 Owll4XsRb0nRNJcB8Gk3H9l_gPoxr8U4cnGZOpviWYo4PN6FSS7o7m
 }
 
+sprite $AzureTableStorageMd [15x14/16z] {
+JKu74WCW25CX0KB__zxYTJfP6QXPUbs9vUSmxLZo6BfiBS-zTle4VobkgW2Y2Ah8RC6T1K0vmMluKcc6xPEQwOMb-s0PIY1QGMP5HC-JhMkZPhXeXbUgIHKt
+hS6c0BomA7K_-dMRJm
+}
+
 !function AzureTableStorage($id, $name="Table Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureTableStorage', $name, $tech)
 !endfunction
 !function AzureTableStorageCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTableStorageLg>', 'Table Storage', $funcName, $content)
+  CloudCard($id, '<$AzureTableStorageMd>', 'Table Storage', $funcName, $content)
 !endfunction
 @enduml

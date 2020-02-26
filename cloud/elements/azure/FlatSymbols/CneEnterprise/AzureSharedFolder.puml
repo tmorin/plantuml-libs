@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureSharedFolderLg [17x20/16z] rSd50OK030FGkk-_xXSSDk1TsYImmPYVLjZvB5hP_2zcqprlqS-iaOlEHIYio12kB6BVz4zII4AMr_yq6Jdq_neiegfyVRy
 
+sprite $AzureSharedFolderMd [12x14/16z] hSQ73KCn24LHUjz_tZnPBGFyOmENdhoxKJ50mknzR_zI3J8CbC0otuq8JzLqX8XmLWKZVW
+
 !function AzureSharedFolder($id, $name="Shared Folder", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSharedFolder', $name, $tech)
 !endfunction
 !function AzureSharedFolderCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSharedFolderLg>', 'Shared Folder', $funcName, $content)
+  CloudCard($id, '<$AzureSharedFolderMd>', 'Shared Folder', $funcName, $content)
 !endfunction
 @enduml

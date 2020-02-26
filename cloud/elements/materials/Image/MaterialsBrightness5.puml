@@ -4,10 +4,12 @@ RL250S0W35kzy_-ldIi4fvgakGTHKmwAeCeqpr-Zk5dEsqWpbzFc-t_ekc6__RJPPd4cOj-iTji6FLyw
 X1bnGnf0hR2cIFiL
 }
 
+sprite $MaterialsBrightness5Md [14x14/16z] LKw30S0m46oSz_xJrhhmTLZEbTBrNmdHavRUAO9wBqVMmsUjqwDVMJk-TcQ9veMOdFOawfNLe8GPJY8BAg0wEaFN6m
+
 !function MaterialsBrightness5($id, $name="Brightness5", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBrightness5', $name, $tech)
 !endfunction
 !function MaterialsBrightness5Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBrightness5Lg>', 'Brightness5', $funcName, $content)
+  CloudCard($id, '<$MaterialsBrightness5Md>', 'Brightness5', $funcName, $content)
 !endfunction
 @enduml

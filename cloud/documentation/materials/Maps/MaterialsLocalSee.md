@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsLocalSee
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalSee element
 include('elements/materials/Maps/MaterialsLocalSee')
@@ -34,8 +34,8 @@ MaterialsLocalSee('element', 'Local See', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalSee element
 include('elements/materials/Maps/MaterialsLocalSee')
@@ -53,8 +53,8 @@ MaterialsLocalSee('element', 'Local See', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalSee card
 include('elements/materials/Maps/MaterialsLocalSee')
@@ -71,8 +71,8 @@ MaterialsLocalSeeCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalSee card
 include('elements/materials/Maps/MaterialsLocalSee')

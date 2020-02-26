@@ -4,10 +4,15 @@ HT254G0X34HHefkb_uAHS7D__E6CatZMBbt6bw5Ui4VHSyvSCduAKPKeDjeXY9CknsX3S2obvYp9kGtY
 LcL6ccgqcVjdxhOfgr95ajiWQY1nxWAOf1d4YZllEs_S6K-GVbjHTxpP-uDlU_uVimsgQEeCVC76bpYABBo_Nm
 }
 
+sprite $AzureAdPrivilegedIdentityManagementMd [14x14/16z] {
+BKw55KGn36fA1Fx-0r_ekseCEUT43JaLnmiRTvE44_-xAE64Ev0mdnZ5VzQVP0BE1IutSrpLm2oHqmIOfKH9myBTDkzcB78IkOTIMO4PaP8OLjV0Si9p9dLB
+T6BNvdwkVm
+}
+
 !function AzureAdPrivilegedIdentityManagement($id, $name="Ad Privileged Identity Management", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement', $name, $tech)
 !endfunction
 !function AzureAdPrivilegedIdentityManagementCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAdPrivilegedIdentityManagementLg>', 'Ad Privileged Identity Management', $funcName, $content)
+  CloudCard($id, '<$AzureAdPrivilegedIdentityManagementMd>', 'Ad Privileged Identity Management', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ bT254KD120HG5ZcN_gkDvxk-iPrJWAw2Be0GQfwf0IY66Ij0KPhHOKqCgpNjKTPhlGLUhVLYoxNgUNat
 1
 }
 
+sprite $MaterialsOndemandVideoMd [14x14/16z] PSt50S0m40D1IMRklzemPupxEhnH5q8fNf9im2LOwvV722k_bw-EZnhTFofRt2NYgC1Bi5hdvCKwLm1fQclLaDXfWRyP
+
 !function MaterialsOndemandVideo($id, $name="Ondemand Video", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsOndemandVideo', $name, $tech)
 !endfunction
 !function MaterialsOndemandVideoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsOndemandVideoLg>', 'Ondemand Video', $funcName, $content)
+  CloudCard($id, '<$MaterialsOndemandVideoMd>', 'Ondemand Video', $funcName, $content)
 !endfunction
 @enduml

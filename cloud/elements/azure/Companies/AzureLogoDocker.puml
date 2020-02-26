@@ -4,10 +4,15 @@ ROu5Wi1020E39T3_F_XAvNogEoY-q0Z_OFzuKqlp-3Iy-5pq6XVVR6fknFLYnPrzp3oFmQJkBKbkY-Uf
 sEd0IrPulPiwll3CUoa6Vk8HcM4_dUF1_7jc9I9E6UUlcTt_nPhpORagG_JxFnie4I0JYDaIPYNaOD6CLUlJfKG5KYfKAutD8Bs6LeuF
 }
 
+sprite $AzureLogoDockerMd [17x14/16z] {
+JOg50GGm309ZGBF_ma_Vhv8WyIAFuey1LjVEb-uriW2U3lP51oGwrvwzbqEXSiwFdSv8EZvk6CQbZdX-sbGtBTNnfNgwFY8xyuwoaxuO3T2OOG_6By0iJhJA
+WQL_Ue4RL4uy
+}
+
 !function AzureLogoDocker($id, $name="Logo Docker", $tech="")
   CloudElement($id, 'azure/Companies/AzureLogoDocker', $name, $tech)
 !endfunction
 !function AzureLogoDockerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLogoDockerLg>', 'Logo Docker', $funcName, $content)
+  CloudCard($id, '<$AzureLogoDockerMd>', 'Logo Docker', $funcName, $content)
 !endfunction
 @enduml

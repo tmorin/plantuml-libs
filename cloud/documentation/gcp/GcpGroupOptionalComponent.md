@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupOptionalComponent group
 include('groups/gcp/GcpGroupOptionalComponent')
@@ -30,8 +30,8 @@ GcpGroupOptionalComponent('element', 'Optional Component', 'an optional tech fie
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupOptionalComponent group
 include('groups/gcp/GcpGroupOptionalComponent')

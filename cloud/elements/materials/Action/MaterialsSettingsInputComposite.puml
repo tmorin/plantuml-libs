@@ -4,10 +4,15 @@ bP070aCn1419P95m_zisTE_s_Pzb0m08LqwFtEEiDKGz-q4Iijv39lHELcOAfmYHPl6xA5V8OywHeR9A
 F3z4LyHRA-8jbNFUR9jyoWlLJ0cGpHY1rAm2O5FoiCpU8cd3F-P27BBMGiPqCsx4o-C
 }
 
+sprite $MaterialsSettingsInputCompositeMd [14x14/16z] {
+NKrLWaCX41i9X8VU_xQRhRS_8r6pC3Dtknz1ZL8q6FhQysjXNZg4w48lZdEwrtEgztFm_UNLczHIjNwbkVkzmJM2h0uINid8_VRjT2urzAw6HVzk__ayTKHe
+fDiV
+}
+
 !function MaterialsSettingsInputComposite($id, $name="Settings Input Composite", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputComposite', $name, $tech)
 !endfunction
 !function MaterialsSettingsInputCompositeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsInputCompositeLg>', 'Settings Input Composite', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsInputCompositeMd>', 'Settings Input Composite', $funcName, $content)
 !endfunction
 @enduml

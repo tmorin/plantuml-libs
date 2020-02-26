@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsGlueLg [20x20/16z] {
-VSg54GD13CNG0yENh_zwWzuDHyDln4mplk3VBoq7LqyHUqoxOsmP0RHTKRw7xPcYhKgRURZPbZ2C2rro4z1MSW1FdgmY889xRRZa3ElIFTyDTzvDNputytUh
-3AhjgEVQlk3n1Sy
-}
+sprite $AwsGlueLg [20x20/16z] hSut5eLG20JG7oR1_XViAtLgxw4Yxnl2L6Rilokddrsvw2yWkQT-e4Z-xad8X_WykaTTbdUj-eLpOfyiUSkGqxcGwHm1RhFt3HS
+
+sprite $AwsGlueMd [14x14/16z] XOor0S003CDACVt_RvcsQ3EcHV0dW9zIeQ1RUDbLBNuosbGU3fKN7o__qvzmrJyZqx81
 
 !function AwsGlue($id, $name="Glue", $tech="")
   CloudElement($id, 'aws/Analytics/AwsGlue', $name, $tech)
 !endfunction
 !function AwsGlueCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsGlueLg>', 'Glue', $funcName, $content)
+  CloudCard($id, '<$AwsGlueMd>', 'Glue', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsVideoCallLg [20x20/16z] lOw54S0m30CbNvYy_xPbXiFsWsRX5oIkU094Zz6Uu79_PyAOrMVW1v-OklXAwNsbQl55PryI0gHfslFYkzPUProrR9hJNdCF5_0D7G
 
+sprite $MaterialsVideoCallMd [14x14/16z] bOsr0S1024NFSTX_sbX7Ebw5V6a5vleOtp8q72W2s-pFPc5ZHT2IyMvdjZx9pNvRLkQKr53X1W
+
 !function MaterialsVideoCall($id, $name="Video Call", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideoCall', $name, $tech)
 !endfunction
 !function MaterialsVideoCallCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVideoCallLg>', 'Video Call', $funcName, $content)
+  CloudCard($id, '<$MaterialsVideoCallMd>', 'Video Call', $funcName, $content)
 !endfunction
 @enduml

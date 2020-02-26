@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsInsertLinkLg [20x20/16z] lOx50S0W300XRllFM_U-EIGkRHHzPlztq38pUezP66wkKaASzVaZhSNPNTeDyRaU2kPFRKPXCtzyVxK_Ctvs-Tbv51C
 
+sprite $MaterialsInsertLinkMd [14x14/16z] dOor0G0130AF-FuBlvHfumPmDkzkiw_ulunB87q3bAFyJ7ZjRIEtojbU
+
 !function MaterialsInsertLink($id, $name="Insert Link", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertLink', $name, $tech)
 !endfunction
 !function MaterialsInsertLinkCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsInsertLinkLg>', 'Insert Link', $funcName, $content)
+  CloudCard($id, '<$MaterialsInsertLinkMd>', 'Insert Link', $funcName, $content)
 !endfunction
 @enduml

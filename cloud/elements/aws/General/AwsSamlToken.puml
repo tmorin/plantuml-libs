@@ -4,10 +4,12 @@ JSo75GCn20DGqqNstpT5CO_JLN_AsLWoeKkEO91B-DLDJj2M0X3Qqgc0qOR4t2euEsH0SpwNEXr28ucO
 SRiknWjUSRi6lSeVD1DBYpgqEBGHzD16xMm-
 }
 
+sprite $AwsSamlTokenMd [14x14/16z] DSVH0G0G30FHD9Mm_y90tTSzlEXJ-s1afWi1k6yLWZPTQBq7mWVSiCuTo3u8auucqXUGe36e2q2Depil7fCNHJmKLIX-B
+
 !function AwsSamlToken($id, $name="Saml Token", $tech="")
   CloudElement($id, 'aws/General/AwsSamlToken', $name, $tech)
 !endfunction
 !function AwsSamlTokenCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSamlTokenLg>', 'Saml Token', $funcName, $content)
+  CloudCard($id, '<$AwsSamlTokenMd>', 'Saml Token', $funcName, $content)
 !endfunction
 @enduml

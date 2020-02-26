@@ -4,10 +4,12 @@ PSs54SCm30LGCPNstxOXdPBpDpyJT33A6MuXbmr_x-2XjDpGMKgQIZO-LjTmZOr5roaObEZf80Q3sm63
 Fr72ZXlO_Vzu_t93tsZ2Le7G-GC
 }
 
+sprite $MaterialsScreenRotationMd [14x14/16z] LSU75GCm20DHdMdF-o-S0AbKVNMXl86seepAj8NJgK_ZUPOibXOKUfEIfJuyvu_5XnHXUjD39CD1fo6DOHPM2ucuAIO-
+
 !function MaterialsScreenRotation($id, $name="Screen Rotation", $tech="")
   CloudElement($id, 'materials/Device/MaterialsScreenRotation', $name, $tech)
 !endfunction
 !function MaterialsScreenRotationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScreenRotationLg>', 'Screen Rotation', $funcName, $content)
+  CloudCard($id, '<$MaterialsScreenRotationMd>', 'Screen Rotation', $funcName, $content)
 !endfunction
 @enduml

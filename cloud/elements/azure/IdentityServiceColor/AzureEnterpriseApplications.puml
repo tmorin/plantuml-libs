@@ -4,10 +4,12 @@ fOr73iGm30FLg9J_FtZ9LFkw6TWg0n3QoLAgQwh2pBwu9eYt9bsHzBV6dpUMxdLoMnS1yhmHpW8-eiih
 01LsKtSoxQLEbsu3SGT_
 }
 
+sprite $AzureEnterpriseApplicationsMd [14x14/16z] POk50G0X24LHUTJ--rxtAVMhgiWgywL5_YXsX0ZG5SPOMYGpDJBDCdda5hHfh9egj2EttXXjqq8tY6wvs6-za9cXw-jZ1p1aUvrL6aqEgB206G
+
 !function AzureEnterpriseApplications($id, $name="Enterprise Applications", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureEnterpriseApplications', $name, $tech)
 !endfunction
 !function AzureEnterpriseApplicationsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureEnterpriseApplicationsLg>', 'Enterprise Applications', $funcName, $content)
+  CloudCard($id, '<$AzureEnterpriseApplicationsMd>', 'Enterprise Applications', $funcName, $content)
 !endfunction
 @enduml

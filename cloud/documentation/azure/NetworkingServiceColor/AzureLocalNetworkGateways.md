@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureLocalNetworkGateways
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLocalNetworkGateways element
 include('elements/azure/NetworkingServiceColor/AzureLocalNetworkGateways')
@@ -34,8 +34,8 @@ AzureLocalNetworkGateways('element', 'Local Network Gateways', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLocalNetworkGateways element
 include('elements/azure/NetworkingServiceColor/AzureLocalNetworkGateways')
@@ -53,8 +53,8 @@ AzureLocalNetworkGateways('element', 'Local Network Gateways', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLocalNetworkGateways card
 include('elements/azure/NetworkingServiceColor/AzureLocalNetworkGateways')
@@ -71,8 +71,8 @@ AzureLocalNetworkGatewaysCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLocalNetworkGateways card
 include('elements/azure/NetworkingServiceColor/AzureLocalNetworkGateways')

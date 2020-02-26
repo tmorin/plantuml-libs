@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsTextractLg [20x20/16z] hSz50WCn30J1WAQbsV__TndjOzB7CchuHrvwKegbktebYRfPhfj3d5G8svMNbOG2A0vp24haPQclabJSp7p3Cv7tinaGgZbkxnu_c-r2lAQR6UY7snf-RG8
 
+sprite $AwsTextractMd [14x14/16z] XOor0OHG44JlW97z_VUBhAJmij7rIJoCC4Xmf1n1g0KecypD8q0gbGw8e3IP03ygSVwPyodRLAj8rZiN
+
 !function AwsTextract($id, $name="Textract", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsTextract', $name, $tech)
 !endfunction
 !function AwsTextractCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsTextractLg>', 'Textract', $funcName, $content)
+  CloudCard($id, '<$AwsTextractMd>', 'Textract', $funcName, $content)
 !endfunction
 @enduml

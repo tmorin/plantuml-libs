@@ -16,8 +16,8 @@ elements/azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTimeSeriesInsightsEventsSources element
 include('elements/azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources')
@@ -34,8 +34,8 @@ AzureTimeSeriesInsightsEventsSources('element', 'Time Series Insights Events Sou
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTimeSeriesInsightsEventsSources element
 include('elements/azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources')
@@ -53,8 +53,8 @@ AzureTimeSeriesInsightsEventsSources('element', 'Time Series Insights Events Sou
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTimeSeriesInsightsEventsSources card
 include('elements/azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources')
@@ -71,8 +71,8 @@ AzureTimeSeriesInsightsEventsSourcesCard('card', 'an optional functional name', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureTimeSeriesInsightsEventsSources card
 include('elements/azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources')

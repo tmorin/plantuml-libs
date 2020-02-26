@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsCloudfront
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfront element
@@ -34,7 +34,7 @@ AwsCloudfront('element', 'Cloudfront', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfront element
@@ -53,8 +53,8 @@ AwsCloudfront('element', 'Cloudfront', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfront card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfront')
@@ -71,8 +71,8 @@ AwsCloudfrontCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfront card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfront')

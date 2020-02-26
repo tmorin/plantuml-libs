@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsInsertInvitation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertInvitation element
 include('elements/materials/Editor/MaterialsInsertInvitation')
@@ -34,8 +34,8 @@ MaterialsInsertInvitation('element', 'Insert Invitation', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertInvitation element
 include('elements/materials/Editor/MaterialsInsertInvitation')
@@ -53,8 +53,8 @@ MaterialsInsertInvitation('element', 'Insert Invitation', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertInvitation card
 include('elements/materials/Editor/MaterialsInsertInvitation')
@@ -71,8 +71,8 @@ MaterialsInsertInvitationCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsInsertInvitation card
 include('elements/materials/Editor/MaterialsInsertInvitation')

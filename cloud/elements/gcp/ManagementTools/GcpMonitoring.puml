@@ -4,10 +4,12 @@ RP274GGX30D1CXRzL_n-mLpUYIpEpVHDEq0UOAkUyo1tQCmBiS9qTNBWc3T6AMWg3-fHRN8NFjgb6wJV
 MhF-tmRdpDfgVE_sVOFZLaVOULCL-wOVj_y1
 }
 
+sprite $GcpMonitoringMd [14x14/16z] LOwr0G01308X1lil_AxNHH00p0DYXwE3ESRoHMr3w9uKG5jp83TIJW04qjg6ROh8s2PhcoeYm2WVnmw2ZBPpTv6gTkVv9ZY-wNqtsmSH-BTU0G
+
 !function GcpMonitoring($id, $name="Monitoring", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpMonitoring', $name, $tech)
 !endfunction
 !function GcpMonitoringCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpMonitoringLg>', 'Monitoring', $funcName, $content)
+  CloudCard($id, '<$GcpMonitoringMd>', 'Monitoring', $funcName, $content)
 !endfunction
 @enduml

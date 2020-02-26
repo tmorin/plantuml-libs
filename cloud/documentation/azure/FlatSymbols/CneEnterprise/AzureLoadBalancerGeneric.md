@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLoadBalancerGeneric element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric')
@@ -34,8 +34,8 @@ AzureLoadBalancerGeneric('element', 'Load Balancer Generic', 'an optional tech f
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLoadBalancerGeneric element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric')
@@ -53,8 +53,8 @@ AzureLoadBalancerGeneric('element', 'Load Balancer Generic', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLoadBalancerGeneric card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric')
@@ -71,8 +71,8 @@ AzureLoadBalancerGenericCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureLoadBalancerGeneric card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureLoadBalancerGeneric')

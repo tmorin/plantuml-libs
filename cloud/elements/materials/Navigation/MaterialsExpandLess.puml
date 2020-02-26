@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsExpandLessLg [20x20/16z] OnYCW8sD4KE8ZuyDNOY7XOK7LIKRBmi30weWAqW8ACZBYX1ZOeRGp4o3pki
 
+sprite $MaterialsExpandLessMd [14x14/16z] Ow0YO6D7uR2pmJb09aAMaHL4iZ9IpLu
+
 !function MaterialsExpandLess($id, $name="Expand Less", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsExpandLess', $name, $tech)
 !endfunction
 !function MaterialsExpandLessCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsExpandLessLg>', 'Expand Less', $funcName, $content)
+  CloudCard($id, '<$MaterialsExpandLessMd>', 'Expand Less', $funcName, $content)
 !endfunction
 @enduml

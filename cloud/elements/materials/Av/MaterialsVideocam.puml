@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsVideocamLg [20x20/16z] Ow0BOEA40tP61WP6a1WBFnnmCpAmiA2BCR7meelniFFmmyKGW80OGYy1En1kmULc80K3D0ef
 
+sprite $MaterialsVideocamMd [14x14/16z] Oo01CBE00HEOmyJ33mOS3CoCG1ulXCV9mis4uF7oygBnK5MYcuAmWIG
+
 !function MaterialsVideocam($id, $name="Videocam", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideocam', $name, $tech)
 !endfunction
 !function MaterialsVideocamCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVideocamLg>', 'Videocam', $funcName, $content)
+  CloudCard($id, '<$MaterialsVideocamMd>', 'Videocam', $funcName, $content)
 !endfunction
 @enduml

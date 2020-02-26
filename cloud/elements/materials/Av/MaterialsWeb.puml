@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsWebLg [20x20/16z] fT230S0m4030MA_zjwtjvc93LR5-mxPT1cG3JDl7spw-wgFWHh6j1UhwscpafkPvdzCZl_H5FqfBtzlzxDpNrcpV1v1705qo_H-4bVOFgZG
 
+sprite $MaterialsWebMd [14x14/16z] VSh50S9G54JHuJxR0Ec_s_ouv-n6z8PO8LMtgY7zPcDo1kxuaD00n902QtnE_XdOa2xFz46cPqj4pWAzwG4
+
 !function MaterialsWeb($id, $name="Web", $tech="")
   CloudElement($id, 'materials/Av/MaterialsWeb', $name, $tech)
 !endfunction
 !function MaterialsWebCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWebLg>', 'Web', $funcName, $content)
+  CloudCard($id, '<$MaterialsWebMd>', 'Web', $funcName, $content)
 !endfunction
 @enduml

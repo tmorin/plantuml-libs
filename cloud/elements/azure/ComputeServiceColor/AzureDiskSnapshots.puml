@@ -4,10 +4,15 @@ TT7N0GGW20DGwUZ-0r_8zVR-Z1qQSht97c6cYqGMgLbqsoJg7k2EHJDhauj7NZcdNP2doZMjtjsL8qGJ
 FgTk3xR2u6wNhHknI2pdSy9DRh7vuClDPc2CrQaQoadlo-_F2ITZZe4DlmlagSfbZpmY9sFTyeqhwyc7pZA8spFjfIy2pxxyw-C5
 }
 
+sprite $AzureDiskSnapshotsMd [17x14/16z] {
+POy74aGX24Cb48Btl_0Q_pXjdvKE8s4z88qGAv07t9yKAFQ1HHP2W4NjlMKjiA0csRBSpeSPQwuuumBe_MWiWxeHDwVbh2fQSTuySfIXwnvY0MHbvgSce82j
+NnqY94G4ql7tfx_XVW
+}
+
 !function AzureDiskSnapshots($id, $name="Disk Snapshots", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureDiskSnapshots', $name, $tech)
 !endfunction
 !function AzureDiskSnapshotsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDiskSnapshotsLg>', 'Disk Snapshots', $funcName, $content)
+  CloudCard($id, '<$AzureDiskSnapshotsMd>', 'Disk Snapshots', $funcName, $content)
 !endfunction
 @enduml

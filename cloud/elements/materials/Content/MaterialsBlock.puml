@@ -4,10 +4,12 @@ VT053WGn20LGh2aq_FiVTwswDiJ8Ir2w21RXTx188CCsIw2QgbMuJ6gXFTDi7JbYbXIaltA3BYeAUsPU
 JMCNzbp4uJnkotbRj7Mmpn-4VFxAZIz_-Xbt
 }
 
+sprite $MaterialsBlockMd [14x14/16z] PSx10G0G20LGgezEzfyM000yKEOh1Ez10r0mbw73spf9h2HjO9LGBWCTt5QU1mpxfeOkOA3Tf20TLgbkHMdm-ABlpBwI0G
+
 !function MaterialsBlock($id, $name="Block", $tech="")
   CloudElement($id, 'materials/Content/MaterialsBlock', $name, $tech)
 !endfunction
 !function MaterialsBlockCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBlockLg>', 'Block', $funcName, $content)
+  CloudCard($id, '<$MaterialsBlockMd>', 'Block', $funcName, $content)
 !endfunction
 @enduml

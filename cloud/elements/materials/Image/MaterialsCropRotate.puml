@@ -4,10 +4,12 @@ POy70eCm24L1Dctr_hSjmQtFaUJnis07BOtW0VhoTNfAOqw13JxAKsmIK-6KrAbSf7vHK8qSov5-fNv5
 8afzSnvRPVETKpeOqoWrcXCqqh8XXWr99aEuG_vT7E5fBI_9Fm
 }
 
+sprite $MaterialsCropRotateMd [14x14/16z] JOw50GCn30FFtEo_SFMS2vh5HQyoNcow0uHVZvscJv6P8TCWL5BTAuW2iX6TAjujt1-hP35sMtQwWbWjgeEpRQJuZGCX4n5-FTspQwpLNFm1
+
 !function MaterialsCropRotate($id, $name="Crop Rotate", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCropRotate', $name, $tech)
 !endfunction
 !function MaterialsCropRotateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCropRotateLg>', 'Crop Rotate', $funcName, $content)
+  CloudCard($id, '<$MaterialsCropRotateMd>', 'Crop Rotate', $funcName, $content)
 !endfunction
 @enduml

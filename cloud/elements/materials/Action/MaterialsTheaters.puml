@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTheatersLg [20x20/16z] jP235K1H34EVMUm_xRVDUrmc4TTHMaZJ88LMRSqbgOahIClakXg6o0qnu6RjO3SRrzQSoLtDCc2xYy2strMcdJEgtjskRU_EV_pWOvtLTKe
 
+sprite $MaterialsTheatersMd [14x14/16z] POw54G0X30Ino-3flreiO_U_I5pS1-zTE5nv068VeqVWMjAg7cgJPo5DrPbWLibwoCKimRKWR77chmjFuEcy6RC1
+
 !function MaterialsTheaters($id, $name="Theaters", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTheaters', $name, $tech)
 !endfunction
 !function MaterialsTheatersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTheatersLg>', 'Theaters', $funcName, $content)
+  CloudCard($id, '<$MaterialsTheatersMd>', 'Theaters', $funcName, $content)
 !endfunction
 @enduml

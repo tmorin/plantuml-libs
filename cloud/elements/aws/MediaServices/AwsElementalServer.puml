@@ -1,10 +1,12 @@
 @startuml
-sprite $AwsElementalServerLg [20x20/16z] jSwr0G1124JHWE4F_JTyxXRTldM5-fyvyB8NkObrJ_PotzhsO1p9H5zl6MKUOqoGg0EK2Zk6WME2CLLS1vPSLr0tThNI0m
+sprite $AwsElementalServerLg [20x20/16z] RS_50S0m34FHWorR-q_SXac__4f9rk8e1QR0d9qMM7KByvaDy_buB0EAmHt3Khoh_b636yQ8M8xrfVfx56J57m13VQzOmJ98ctFdG217dBYYG0gaG0hy
+
+sprite $AwsElementalServerMd [14x14/16z] TOo74GGX4CCcMEpsN_6Zlvn4b3rGax5JycaZ45aCKmXBfoQB5P20sVA9XRHTS6fjcvHCKtqXhUwqN6tN7m
 
 !function AwsElementalServer($id, $name="Elemental Server", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalServer', $name, $tech)
 !endfunction
 !function AwsElementalServerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElementalServerLg>', 'Elemental Server', $funcName, $content)
+  CloudCard($id, '<$AwsElementalServerMd>', 'Elemental Server', $funcName, $content)
 !endfunction
 @enduml

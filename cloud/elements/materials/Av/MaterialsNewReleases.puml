@@ -4,10 +4,12 @@ TT050e0W30LGoSsO__wdDRRPql1ekcO8EMn52dVB66iTaMyK1sWOeaCev0ICL7HzdFVUp6nrL9EzFSKu
 gybzFuc_T_v_s_CFVl_g_q__mme
 }
 
+sprite $MaterialsNewReleasesMd [14x14/16z] POw30G0n34LhDzb_stjdbT67-IsNWy_kJ8goofRQqbN7u1PBrcY4mDF872trdgSx1lNCjDWzIsdFzibIziaNorVXLlyu-wu5
+
 !function MaterialsNewReleases($id, $name="New Releases", $tech="")
   CloudElement($id, 'materials/Av/MaterialsNewReleases', $name, $tech)
 !endfunction
 !function MaterialsNewReleasesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNewReleasesLg>', 'New Releases', $funcName, $content)
+  CloudCard($id, '<$MaterialsNewReleasesMd>', 'New Releases', $funcName, $content)
 !endfunction
 @enduml

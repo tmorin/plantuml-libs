@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsApacheMxnetLg [20x20/16z] {
-RSX18W1H44D1w2Gl__xtXUa1g6KLRldKVxAV-RNTZ3HolgwHd7Zcwr301i_NqOmq9k6-eWba1kwZFEyzXN2TG96aA1d8sMibsEES-ZgxAD5r9wwCZGTvhwBM
-Z4o6lOCe4itakatJuaa_xpHfOzhkxNxQ-vtddtm5
+fOxL0SKW00EVDBh_ldNxv_0ZI8U9kUAy5Qb4H1u5DrBgHsPRaN3z3i9T_HDpyZ_SFpqj4XeWp8IFQxcr18UZjvcqxVhCYG4ZXGXrVo_2Yl9yq72tq3xfBPbk
+sds8r4hfC0i
 }
+
+sprite $AwsApacheMxnetMd [14x14/16z] XOst0G0n308h0QVzz_rth7sEIj0Fy80JH1aefuGbioEwHAjsoSW3uHdDnsEZLRigguPmbH7RmIHiXntYz8CV
 
 !function AwsApacheMxnet($id, $name="Apache Mxnet", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsApacheMxnet', $name, $tech)
 !endfunction
 !function AwsApacheMxnetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsApacheMxnetLg>', 'Apache Mxnet', $funcName, $content)
+  CloudCard($id, '<$AwsApacheMxnetMd>', 'Apache Mxnet', $funcName, $content)
 !endfunction
 @enduml

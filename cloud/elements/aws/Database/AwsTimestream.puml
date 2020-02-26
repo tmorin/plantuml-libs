@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsTimestreamLg [20x20/16z] {
-RSs73SH024HHfPq0_VTxm3dRN_cX4L7vcgJumB6xQa04GEtOHgedm6bUSx6MBWPMmDKOLkNh5ZEbM7nivmTwlTgoZ1P9YBjbchF50dZOajjwVHZ52XqFovZW
-gCQ2SnKPaxFHx1nRRUENyWFp0ty
-}
+sprite $AwsTimestreamLg [20x20/16z] fP054e0m40F7cask__ylxZ16eBPpNdyL9kMC8Aa4JbQjglVfF3Em3JenHaUFxcTVLHzzCIuTlaui2-sC690viz6pHqrostsTSR_PcL52uCDtkP2FtZvcy4S3
+
+sprite $AwsTimestreamMd [14x14/16z] XOt50S0m4CD-9xdxxrjcYe97TlTF7CaMC5zhA8xK6YNZZdjj382b6gDx96EcQejcmDLkpjtSMmm
 
 !function AwsTimestream($id, $name="Timestream", $tech="")
   CloudElement($id, 'aws/Database/AwsTimestream', $name, $tech)
 !endfunction
 !function AwsTimestreamCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsTimestreamLg>', 'Timestream', $funcName, $content)
+  CloudCard($id, '<$AwsTimestreamMd>', 'Timestream', $funcName, $content)
 !endfunction
 @enduml

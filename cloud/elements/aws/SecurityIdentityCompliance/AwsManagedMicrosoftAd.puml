@@ -4,10 +4,12 @@ NOu7aaKX20IPX7l_2-zFMe-oAmfCZxMnwWPhuPx5zZLY5_ewR5KfSxAVpLdGt8A7em_FvB7JZlrTHDlQ
 cHqSsQQrQdEo5CziTioPMYILhW6_Sk45
 }
 
+sprite $AwsManagedMicrosoftAdMd [14x14/16z] JOw50O0m30Jp1ljFZDIl6l_wOUh0uJOe7C6Wf6b8tTE0MpQ1t-7MmOrY2-6svBkCPXaaqbeq2vzrnJzgLz3X7ri2yS_RYfGFlG
+
 !function AwsManagedMicrosoftAd($id, $name="Managed Microsoft Ad", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsManagedMicrosoftAd', $name, $tech)
 !endfunction
 !function AwsManagedMicrosoftAdCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagedMicrosoftAdLg>', 'Managed Microsoft Ad', $funcName, $content)
+  CloudCard($id, '<$AwsManagedMicrosoftAdMd>', 'Managed Microsoft Ad', $funcName, $content)
 !endfunction
 @enduml

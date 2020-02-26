@@ -4,10 +4,12 @@ ZSs50SCW54NHsfFF_WCNXsfouZT8EY-yH6z4HZGj1YmvX4nqQmyiZzxWc31Qh2qunx7QruELMP-DA0Vs
 FKOwxma
 }
 
+sprite $AwsKendraMd [14x14/16z] NOx70S0m20DVaY3x3nngYi_rN83hm9So9W1e8KvIPIgpHcCgnXGGU8q8jNr9kE1bCHl8i82K682fMqazVHbvkG4
+
 !function AwsKendra($id, $name="Kendra", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsKendra', $name, $tech)
 !endfunction
 !function AwsKendraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsKendraLg>', 'Kendra', $funcName, $content)
+  CloudCard($id, '<$AwsKendraMd>', 'Kendra', $funcName, $content)
 !endfunction
 @enduml

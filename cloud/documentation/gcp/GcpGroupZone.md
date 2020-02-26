@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupZone group
 include('groups/gcp/GcpGroupZone')
@@ -30,8 +30,8 @@ GcpGroupZone('element', 'Zone', 'an optional tech field')
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupZone group
 include('groups/gcp/GcpGroupZone')

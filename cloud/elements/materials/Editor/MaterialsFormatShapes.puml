@@ -4,10 +4,12 @@ RP056e0m28LvB63nwVrlwvjTlwve4AWgP6D_eFRUi-naFYhGBTOQTtYpJbaKczlER1A7h5ftnOfwjqgP
 glwI1PROmbEMFINF3ncAZZGuPQm55568hPQpPhBN_DFRxmn-P_Ktqx_PBm
 }
 
+sprite $MaterialsFormatShapesMd [14x14/16z] LOw50K8n44CRgTt-0nFWwwkU1xRQ3zbmpHA3yh4dQ_qeJgjgemNiAZMj67RCbGPS2OoHQ_5lqUPjZN1P6EJ0pqeNf4-kT7bFU4z_Atkh_W
+
 !function MaterialsFormatShapes($id, $name="Format Shapes", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatShapes', $name, $tech)
 !endfunction
 !function MaterialsFormatShapesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatShapesLg>', 'Format Shapes', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatShapesMd>', 'Format Shapes', $funcName, $content)
 !endfunction
 @enduml

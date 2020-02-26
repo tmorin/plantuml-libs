@@ -16,7 +16,7 @@ elements/aws/General/AwsClient
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsClient element
@@ -34,7 +34,7 @@ AwsClient('element', 'Client', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsClient element
@@ -53,8 +53,8 @@ AwsClient('element', 'Client', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsClient card
 include('elements/aws/General/AwsClient')
@@ -71,8 +71,8 @@ AwsClientCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsClient card
 include('elements/aws/General/AwsClient')

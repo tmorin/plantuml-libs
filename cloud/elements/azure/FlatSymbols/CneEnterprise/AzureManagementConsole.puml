@@ -4,10 +4,15 @@ nOrLOa0X40Epi8RS_xnD3QdzrEO998FC_oBzKt9E1I041ozHdwoJK2QEHXUFMPOLeB8ENjG5nS6kV6Lj
 2sfdzcMDzuq2UMgO6tFx4QkjjIp7lSphteKKWWsjwwOItVZycWS
 }
 
+sprite $AzureManagementConsoleMd [21x14/16z] {
+ZOY75KGn2CECiTFtN_Twhry9eAUrdVdE6idCv8MJvkW8om9TTD7e8q8uVAqrm9DU8jwZ9O6j5Ppq5E5IYBHyqLFiQnaAY4VLSyp7M5fBIF953v5nXhpPcAE_
+CkOU
+}
+
 !function AzureManagementConsole($id, $name="Management Console", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureManagementConsole', $name, $tech)
 !endfunction
 !function AzureManagementConsoleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureManagementConsoleLg>', 'Management Console', $funcName, $content)
+  CloudCard($id, '<$AzureManagementConsoleMd>', 'Management Console', $funcName, $content)
 !endfunction
 @enduml

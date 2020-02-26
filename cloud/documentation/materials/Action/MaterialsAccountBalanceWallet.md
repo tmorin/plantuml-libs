@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAccountBalanceWallet
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalanceWallet element
 include('elements/materials/Action/MaterialsAccountBalanceWallet')
@@ -34,8 +34,8 @@ MaterialsAccountBalanceWallet('element', 'Account Balance Wallet', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalanceWallet element
 include('elements/materials/Action/MaterialsAccountBalanceWallet')
@@ -53,8 +53,8 @@ MaterialsAccountBalanceWallet('element', 'Account Balance Wallet', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalanceWallet card
 include('elements/materials/Action/MaterialsAccountBalanceWallet')
@@ -71,8 +71,8 @@ MaterialsAccountBalanceWalletCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAccountBalanceWallet card
 include('elements/materials/Action/MaterialsAccountBalanceWallet')

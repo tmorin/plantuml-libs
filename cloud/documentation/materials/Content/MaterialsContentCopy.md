@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsContentCopy
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContentCopy element
 include('elements/materials/Content/MaterialsContentCopy')
@@ -34,8 +34,8 @@ MaterialsContentCopy('element', 'Content Copy', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContentCopy element
 include('elements/materials/Content/MaterialsContentCopy')
@@ -53,8 +53,8 @@ MaterialsContentCopy('element', 'Content Copy', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContentCopy card
 include('elements/materials/Content/MaterialsContentCopy')
@@ -71,8 +71,8 @@ MaterialsContentCopyCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContentCopy card
 include('elements/materials/Content/MaterialsContentCopy')

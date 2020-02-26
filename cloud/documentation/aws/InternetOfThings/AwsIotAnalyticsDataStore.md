@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotAnalyticsDataStore
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAnalyticsDataStore element
@@ -34,7 +34,7 @@ AwsIotAnalyticsDataStore('element', 'Iot Analytics Data Store', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAnalyticsDataStore element
@@ -53,8 +53,8 @@ AwsIotAnalyticsDataStore('element', 'Iot Analytics Data Store', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAnalyticsDataStore card
 include('elements/aws/InternetOfThings/AwsIotAnalyticsDataStore')
@@ -71,8 +71,8 @@ AwsIotAnalyticsDataStoreCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAnalyticsDataStore card
 include('elements/aws/InternetOfThings/AwsIotAnalyticsDataStore')

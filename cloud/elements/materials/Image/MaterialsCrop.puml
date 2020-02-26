@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsCropLg [20x20/16z] lP433aHX38H_99tg_jVTVRRrHPCQeI36C0CuPkE9BGBi29bHGcbcOwS-TwxmgSgvit6OGSuO44jR8jImEpUs7kRBbso-y0S
 
+sprite $MaterialsCropMd [14x14/16z] bOw50S0m40BXQv3zzwsxvoBl0g303eex8tgBFODHo8cL9TVxM2z6CrUWmcG5PmQpjdgSh74h3eI3zmlEotS
+
 !function MaterialsCrop($id, $name="Crop", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCrop', $name, $tech)
 !endfunction
 !function MaterialsCropCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCropLg>', 'Crop', $funcName, $content)
+  CloudCard($id, '<$MaterialsCropMd>', 'Crop', $funcName, $content)
 !endfunction
 @enduml

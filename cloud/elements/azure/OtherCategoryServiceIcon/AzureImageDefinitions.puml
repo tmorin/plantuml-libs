@@ -4,10 +4,12 @@ XT175iGm20HHGrTBulu7dXoSNIkzln7GsxokwL53itYRZWnO6wHWRhnU0N_3ERsI_mOl5EPdIXG9OcOH
 QZ6xI-z6oVnM675uqxtRtm4
 }
 
+sprite $AzureImageDefinitionsMd [14x14/16z] LOw55SKm24MH2sts7_WhSXh5dcJC4f7mNbG6J0QcJcMWdy-WCbSnxyo-uMQg-6JUcQf4ZK7cvQqNzxbFb1Uk_4JI6J_rf-it
+
 !function AzureImageDefinitions($id, $name="Image Definitions", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureImageDefinitions', $name, $tech)
 !endfunction
 !function AzureImageDefinitionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureImageDefinitionsLg>', 'Image Definitions', $funcName, $content)
+  CloudCard($id, '<$AzureImageDefinitionsMd>', 'Image Definitions', $funcName, $content)
 !endfunction
 @enduml

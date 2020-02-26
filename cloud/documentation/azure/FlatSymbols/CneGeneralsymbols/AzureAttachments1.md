@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAttachments1 element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1')
@@ -34,8 +34,8 @@ AzureAttachments1('element', 'Attachments1', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAttachments1 element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1')
@@ -53,8 +53,8 @@ AzureAttachments1('element', 'Attachments1', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAttachments1 card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1')
@@ -71,8 +71,8 @@ AzureAttachments1Card('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAttachments1 card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1')

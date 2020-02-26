@@ -4,10 +4,12 @@ TSt50KGn24LH86xGVxLZaVV7xl8a0FrD42-AGqzvOR7UPjs6l8YB1PwvhW-JBFHbusdZpCAIduKEypIJ
 QBtaWGelb4lqhpi
 }
 
+sprite $MaterialsLibraryBooksMd [14x14/16z] NSh50G0X30J0U73wh_PSWFcjm0hDRtmcwJ4SOdK0GccCftWafsSBzKvDw9IUpKH5D7z9hFN-FwK-YNkhzPYwdGbORdWafHl2WVt1iDe1
+
 !function MaterialsLibraryBooks($id, $name="Library Books", $tech="")
   CloudElement($id, 'materials/Av/MaterialsLibraryBooks', $name, $tech)
 !endfunction
 !function MaterialsLibraryBooksCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLibraryBooksLg>', 'Library Books', $funcName, $content)
+  CloudCard($id, '<$MaterialsLibraryBooksMd>', 'Library Books', $funcName, $content)
 !endfunction
 @enduml

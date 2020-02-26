@@ -4,10 +4,12 @@ RSe7WiGW34FHRPQ5BEv_tOscjv_G7jZpc98_e8EFV36lrgZN1MC345K4D2ccFx1-3_kxl8prAa6rUeqk
 4zKzkjhUkMPHm_RLJA2FgdInO4CsgsrVRT3BHiTyCI_QLilfRE67Oc-uF-0_
 }
 
+sprite $AwsMarketplaceMd [14x14/16z] LSa74WGm24BHQGc2UF_hhhhzfxxHpdUI_CUMGWmk6oTExwLDT1UKHec3sU18ESfGZgX0H4PsLQBkbLxoZ73aLH5fzF5AjDcdMPFVrHyV
+
 !function AwsMarketplace($id, $name="Marketplace", $tech="")
   CloudElement($id, 'aws/General/AwsMarketplace', $name, $tech)
 !endfunction
 !function AwsMarketplaceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsMarketplaceLg>', 'Marketplace', $funcName, $content)
+  CloudCard($id, '<$AwsMarketplaceMd>', 'Marketplace', $funcName, $content)
 !endfunction
 @enduml

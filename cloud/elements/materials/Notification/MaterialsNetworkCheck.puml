@@ -4,10 +4,12 @@ hSn5eWCm409G68adtF-qtwMsQzzg53oFDEFLmEjOUpTp_iwZIsUD6Havukke7erqVkXUT2g1gfdylfza
 Efxz_v04YYP9NE9KnusGweDPu6uOU8Lt
 }
 
+sprite $MaterialsNetworkCheckMd [14x14/16z] XS7L0SDG54EnSsq_Q4FxJrk6pqYSADd5c_frsvOu0h8itLBBN4BDNa3DgZwBWipHfg1uwFlqPVJEYuoFI7oDm_pKiXH_DgVk
+
 !function MaterialsNetworkCheck($id, $name="Network Check", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsNetworkCheck', $name, $tech)
 !endfunction
 !function MaterialsNetworkCheckCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNetworkCheckLg>', 'Network Check', $funcName, $content)
+  CloudCard($id, '<$MaterialsNetworkCheckMd>', 'Network Check', $funcName, $content)
 !endfunction
 @enduml

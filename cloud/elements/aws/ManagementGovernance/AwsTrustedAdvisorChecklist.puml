@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsTrustedAdvisorChecklistLg [20x20/16z] pT3L0O0m34NH6ttxJumx3C3vRECGUHC0oadbJe0ruCMkRNxpi8x7cvKIicQnlK40vZFRtsw-t_xPrnQFlZsxzRtbehmHVDr-1
 
+sprite $AwsTrustedAdvisorChecklistMd [14x14/16z] XSwr0S0024JHay_-8yUjo-jmrE4obOXJxu94WsLRtgDG1MZsoBhuYln6CVb4SyxnFwT-vZfyxYNnyra7vbIj
+
 !function AwsTrustedAdvisorChecklist($id, $name="Trusted Advisor Checklist", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklist', $name, $tech)
 !endfunction
 !function AwsTrustedAdvisorChecklistCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsTrustedAdvisorChecklistLg>', 'Trusted Advisor Checklist', $funcName, $content)
+  CloudCard($id, '<$AwsTrustedAdvisorChecklistMd>', 'Trusted Advisor Checklist', $funcName, $content)
 !endfunction
 @enduml

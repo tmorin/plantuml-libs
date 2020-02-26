@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsSnowmobileLg [20x20/16z] hP2p0G0134MBVEJs7_XiwpKnYn-mv5nwA5lapAlUyEGqTxI1kiATAmMrWBQ6aNq5nK6rwMmMeKKEjO40f8YWXbL4DBrCqZkxxEryTjlqW-zK
+sprite $AwsSnowmobileLg [20x20/16z] {
+VSp50KCX44NH1KzcwB_WuCJlLmwIlNZEpa_izg6RBCelPb9DwMlY-8RWRUO-qposYw2QrNu-D2gqsQscjVPIqBGQfiFHZJm6540gfM1PbGZG5aZdj62kp5XM
+pKkPtGRADXlrwYmjkSksxVdNFl41
+}
+
+sprite $AwsSnowmobileMd [14x14/16z] PStL0GCW30JG7tAI_GSkaJh-3lCjUXQMtkur0N2bMZ4umXmerbON4bAQGKi8b59tvjM9ad7EAQ2KPBy2kUJ-0PLbKIJbLIV-rmC
 
 !function AwsSnowmobile($id, $name="Snowmobile", $tech="")
   CloudElement($id, 'aws/Storage/AwsSnowmobile', $name, $tech)
 !endfunction
 !function AwsSnowmobileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSnowmobileLg>', 'Snowmobile', $funcName, $content)
+  CloudCard($id, '<$AwsSnowmobileMd>', 'Snowmobile', $funcName, $content)
 !endfunction
 @enduml

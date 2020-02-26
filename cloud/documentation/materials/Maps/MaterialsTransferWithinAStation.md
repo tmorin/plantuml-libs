@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsTransferWithinAStation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTransferWithinAStation element
 include('elements/materials/Maps/MaterialsTransferWithinAStation')
@@ -34,8 +34,8 @@ MaterialsTransferWithinAStation('element', 'Transfer Within A Station', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTransferWithinAStation element
 include('elements/materials/Maps/MaterialsTransferWithinAStation')
@@ -53,8 +53,8 @@ MaterialsTransferWithinAStation('element', 'Transfer Within A Station', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTransferWithinAStation card
 include('elements/materials/Maps/MaterialsTransferWithinAStation')
@@ -71,8 +71,8 @@ MaterialsTransferWithinAStationCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsTransferWithinAStation card
 include('elements/materials/Maps/MaterialsTransferWithinAStation')

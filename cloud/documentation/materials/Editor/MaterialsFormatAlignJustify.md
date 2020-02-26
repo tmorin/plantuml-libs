@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatAlignJustify
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignJustify element
 include('elements/materials/Editor/MaterialsFormatAlignJustify')
@@ -34,8 +34,8 @@ MaterialsFormatAlignJustify('element', 'Format Align Justify', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignJustify element
 include('elements/materials/Editor/MaterialsFormatAlignJustify')
@@ -53,8 +53,8 @@ MaterialsFormatAlignJustify('element', 'Format Align Justify', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignJustify card
 include('elements/materials/Editor/MaterialsFormatAlignJustify')
@@ -71,8 +71,8 @@ MaterialsFormatAlignJustifyCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignJustify card
 include('elements/materials/Editor/MaterialsFormatAlignJustify')

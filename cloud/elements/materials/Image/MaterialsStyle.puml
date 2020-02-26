@@ -4,10 +4,12 @@ bS_5WK0X34NH-m84-z9_jQF8k9nbFFnVI85t5Cjv7yPctkvdpX97w6vYaCllLv79Sn-nmXIkUpW3W-ez
 KKRavJy_fUx44Sa1K9HQazfJfBanfHw8hKJ19e7uoIC
 }
 
+sprite $MaterialsStyleMd [14x14/16z] RSUt0G8140D1hKxlNV_LuWuYVhBHBQCVCf_BjsIvNgfNzTdKytAyjxixNH-Z953rLgGObcx4x6BeJVBgnDixMwGY2-Drp45l332K_Zq1
+
 !function MaterialsStyle($id, $name="Style", $tech="")
   CloudElement($id, 'materials/Image/MaterialsStyle', $name, $tech)
 !endfunction
 !function MaterialsStyleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsStyleLg>', 'Style', $funcName, $content)
+  CloudCard($id, '<$MaterialsStyleMd>', 'Style', $funcName, $content)
 !endfunction
 @enduml

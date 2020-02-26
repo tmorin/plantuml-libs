@@ -4,10 +4,12 @@ bSz7WW805CBG6PK0__xtjVTkbc-N-R4-G918hmI1076slQmGLay6TEXOrvRPMRys7WroCU_D0deoTbRL
 0G
 }
 
+sprite $AwsShieldMd [14x14/16z] VOsr0KK12CGgaeFzz_qkprCX9tDD2wRVYr05l3T83FHdcpXkjbbj-QHq4jJd5enQRsq3XT5_kzZpfj_3bZi
+
 !function AwsShield($id, $name="Shield", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsShield', $name, $tech)
 !endfunction
 !function AwsShieldCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsShieldLg>', 'Shield', $funcName, $content)
+  CloudCard($id, '<$AwsShieldMd>', 'Shield', $funcName, $content)
 !endfunction
 @enduml

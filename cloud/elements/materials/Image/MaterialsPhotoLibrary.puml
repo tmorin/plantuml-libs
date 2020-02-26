@@ -4,10 +4,12 @@ fSp50KGn24NH1t4Xz5_jQ7HazU_o8FWRhwYJbrcB7PEkX5z4kxM7SMHycLos9gh9rSEybS9mRRD4S1Q0
 yAyx
 }
 
+sprite $MaterialsPhotoLibraryMd [14x14/16z] XSV50O0m50Mmznrd_sbnbpQtu8ayLZ9F-qq0JDS5PzRsTRJxIga4lgrX443bCgdTpTrBdmVH5KqpNX4c4Xl1qmW
+
 !function MaterialsPhotoLibrary($id, $name="Photo Library", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPhotoLibrary', $name, $tech)
 !endfunction
 !function MaterialsPhotoLibraryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPhotoLibraryLg>', 'Photo Library', $funcName, $content)
+  CloudCard($id, '<$MaterialsPhotoLibraryMd>', 'Photo Library', $funcName, $content)
 !endfunction
 @enduml

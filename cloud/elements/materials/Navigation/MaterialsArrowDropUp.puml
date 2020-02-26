@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsArrowDropUpLg [20x20/16z] OnYCW94HKuY3Wn53Y9yVBeWGGXTaPWC3PeOX0G
 
+sprite $MaterialsArrowDropUpMd [14x14/16z] Ow0YO692vd1nCI4ud3myd70k8nXGpru
+
 !function MaterialsArrowDropUp($id, $name="Arrow Drop Up", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsArrowDropUp', $name, $tech)
 !endfunction
 !function MaterialsArrowDropUpCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsArrowDropUpLg>', 'Arrow Drop Up', $funcName, $content)
+  CloudCard($id, '<$MaterialsArrowDropUpMd>', 'Arrow Drop Up', $funcName, $content)
 !endfunction
 @enduml

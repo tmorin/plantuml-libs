@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64Squid
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64Squid element
@@ -34,7 +34,7 @@ AwsCustomEventBusResourceIcon64Squid('element', 'Custom Event Bus Resource Icon6
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64Squid element
@@ -53,8 +53,8 @@ AwsCustomEventBusResourceIcon64Squid('element', 'Custom Event Bus Resource Icon6
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64Squid card
 include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64Squid')
@@ -71,8 +71,8 @@ AwsCustomEventBusResourceIcon64SquidCard('card', 'an optional functional name', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomEventBusResourceIcon64Squid card
 include('elements/aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64Squid')

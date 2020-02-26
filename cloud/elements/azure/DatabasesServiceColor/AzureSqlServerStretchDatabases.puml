@@ -4,10 +4,15 @@ POxN0KCn308jrC3x3nmzfoVtUIgm3lPWFO5xF737KG_nqhDaXiYiGsR05hmJDlvWrqB1kBVOrqhCTfEz
 xRWS1mhXbyFvfx94y-qcjm8TSBGZcdxwiNgh4UoigvzfF-YybsxB_TkFmNzNAFsud62BQkguhlIfV0C
 }
 
+sprite $AzureSqlServerStretchDatabasesMd [14x14/16z] {
+FSk70GCn20D0OOdc_GSEJv8_Lne0EyimZFgXuTYXV8ZpLON4Xpnv-ewkqMce-uO1vAtiZCflr8oGn2oVwCu_aXC5h3eKeakPOD-UhHqySLSjpzweDmemglk9
+qeaF
+}
+
 !function AzureSqlServerStretchDatabases($id, $name="Sql Server Stretch Databases", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlServerStretchDatabases', $name, $tech)
 !endfunction
 !function AzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSqlServerStretchDatabasesLg>', 'Sql Server Stretch Databases', $funcName, $content)
+  CloudCard($id, '<$AzureSqlServerStretchDatabasesMd>', 'Sql Server Stretch Databases', $funcName, $content)
 !endfunction
 @enduml

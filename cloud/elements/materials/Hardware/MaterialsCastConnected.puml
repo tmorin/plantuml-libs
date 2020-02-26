@@ -4,10 +4,12 @@ ZP054iGm3CIq3gVEtFz_UsKQgi8AcwyelX2gOtemgkH93vBFBd9NH9-zaVtOw9dPCMFPVpjbMnTjjlNX
 I-tsbZ1bR4IkDnSZ3gDbkFxMvnB93JjYG8XpCIoW8rPV-GC
 }
 
+sprite $MaterialsCastConnectedMd [14x14/16z] LSt50GD134DHVOq67Eo_sZ3ilfFPsiC_oBL-ofdYGpDkZFKo6H7oE5yV3eoqDHivVJBHrY2NT-PXnc2-Cr9XDR-lWCiPUdz8qUEb_lgE1KBOHdjt
+
 !function MaterialsCastConnected($id, $name="Cast Connected", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsCastConnected', $name, $tech)
 !endfunction
 !function MaterialsCastConnectedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCastConnectedLg>', 'Cast Connected', $funcName, $content)
+  CloudCard($id, '<$MaterialsCastConnectedMd>', 'Cast Connected', $funcName, $content)
 !endfunction
 @enduml

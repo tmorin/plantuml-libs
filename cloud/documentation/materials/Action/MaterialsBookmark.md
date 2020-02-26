@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsBookmark
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmark element
 include('elements/materials/Action/MaterialsBookmark')
@@ -34,8 +34,8 @@ MaterialsBookmark('element', 'Bookmark', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmark element
 include('elements/materials/Action/MaterialsBookmark')
@@ -53,8 +53,8 @@ MaterialsBookmark('element', 'Bookmark', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmark card
 include('elements/materials/Action/MaterialsBookmark')
@@ -71,8 +71,8 @@ MaterialsBookmarkCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmark card
 include('elements/materials/Action/MaterialsBookmark')

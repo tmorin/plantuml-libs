@@ -4,10 +4,12 @@ JOy70iCW3CJm3V__oJK7BLL7OY4orfUY9BmHA6YmUHMKUKnturG9t57jE2h5nRNTplg1bxqGervcARj_
 5ssjGixhT6gxbIbPthUh9WGljNP7jEj4G5mfBpaKiIwak08gXmy
 }
 
+sprite $AzureAppConfigurationMd [14x14/16z] 9Kw50G1129Bw_KT-yR3RET0spuCiEqb3d9Vl-tnDzOhWIizliNqNDAaNn9QywbLKc71QabU46LcKo5KQE074gGo322ekSWXGgsP6qJrUzGC
+
 !function AzureAppConfiguration($id, $name="App Configuration", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureAppConfiguration', $name, $tech)
 !endfunction
 !function AzureAppConfigurationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAppConfigurationLg>', 'App Configuration', $funcName, $content)
+  CloudCard($id, '<$AzureAppConfigurationMd>', 'App Configuration', $funcName, $content)
 !endfunction
 @enduml

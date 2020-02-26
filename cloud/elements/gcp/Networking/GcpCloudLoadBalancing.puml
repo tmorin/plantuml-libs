@@ -4,10 +4,12 @@ RP3L0SLG24FHSFTV-0catlE3gpHAPCUmOtGfrWwO6kj4J5gTVTM9kIxaVq2d8NwW4qq4RBCt1kL2kYUc
 dTzlU_-1A1vf-q-hYZzz-VqN
 }
 
+sprite $GcpCloudLoadBalancingMd [14x14/16z] LOw50S0m409vx_uJDr3DnVC202o4WLYFQ3tpk4a0Fizh7AXrLgOE14DX5WpgCOpfCafSr1CCmGfsURgs51xyhrwFCpKqO7Tz0W
+
 !function GcpCloudLoadBalancing($id, $name="Cloud Load Balancing", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudLoadBalancing', $name, $tech)
 !endfunction
 !function GcpCloudLoadBalancingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudLoadBalancingLg>', 'Cloud Load Balancing', $funcName, $content)
+  CloudCard($id, '<$GcpCloudLoadBalancingMd>', 'Cloud Load Balancing', $funcName, $content)
 !endfunction
 @enduml

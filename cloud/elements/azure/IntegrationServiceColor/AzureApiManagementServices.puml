@@ -4,10 +4,12 @@ PP050iCW34MJBvcm-rztDQY-2iGbTY2NpOmBAOkWR5pKGqvT378-hacUdTBiWJEwnAx_jOMC0tYMM3t3
 SSMdjNUYqASFs0Jm-hNM71PdRAnxjEkxw2kyCdOrupR3DED6VJuAEkDW1AqJtQ0bb-8Ev38EUG8
 }
 
+sprite $AzureApiManagementServicesMd [17x14/16z] FOs50GCn30E5nVtdVGfSm6pXWMaROS6Of7Q6qsDv_qw3WNDdx-xT2iJ3tpDznjEde8OZ8Icv7NVOVDz3L4LYvVV_LxLJ0xBxdmaBDtjaivTkqeR3FG4
+
 !function AzureApiManagementServices($id, $name="Api Management Services", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureApiManagementServices', $name, $tech)
 !endfunction
 !function AzureApiManagementServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureApiManagementServicesLg>', 'Api Management Services', $funcName, $content)
+  CloudCard($id, '<$AzureApiManagementServicesMd>', 'Api Management Services', $funcName, $content)
 !endfunction
 @enduml

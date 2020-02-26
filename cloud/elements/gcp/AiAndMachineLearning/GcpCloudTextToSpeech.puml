@@ -4,10 +4,12 @@ TL250O0m3DjgsVyNKyCXw9gaDXApCGwG7Q0EJLi7hAMoBf2IuHf32lKq1gjH04U8uXzUnlmZp6QY6Lis
 44UuJRF6sOlD6eYkFTVO-ZVRSmUzguVit2aSnqvVkzy
 }
 
+sprite $GcpCloudTextToSpeechMd [14x14/16z] JKxL0KG12B9X_uaFlNfyOH1cvdbmKGs3mznO_A0q18u2H9Yr27JGIrk2KzroqLq3HqF4ChodheZIT9_LbTLaocNHcpFlX0_YcTw_Pfl_AVfl_G8
+
 !function GcpCloudTextToSpeech($id, $name="Cloud Text To Speech", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudTextToSpeech', $name, $tech)
 !endfunction
 !function GcpCloudTextToSpeechCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudTextToSpeechLg>', 'Cloud Text To Speech', $funcName, $content)
+  CloudCard($id, '<$GcpCloudTextToSpeechMd>', 'Cloud Text To Speech', $funcName, $content)
 !endfunction
 @enduml

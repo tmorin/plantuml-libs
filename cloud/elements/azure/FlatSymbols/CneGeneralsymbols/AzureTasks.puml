@@ -4,10 +4,12 @@ VOvLWWD0348dDfB0tF-sktLltrSKQ4UaTacx8DQHw7OSQCW4qXAO6WfuRHBahk2XD8ypxkIXRLViHslw
 FFhQb6-frhooUEWVuU8Zwny
 }
 
+sprite $AzureTasksMd [11x14/16z] FOo50S0W30JpQ0pstxR5BwuquCOp16InQf93y2hkwYxidH4cuDuhRLwQqasZbva648pd0hC6LgpTe6xXd0LD-mCJ0JjrtNYpTh4V
+
 !function AzureTasks($id, $name="Tasks", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureTasks', $name, $tech)
 !endfunction
 !function AzureTasksCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTasksLg>', 'Tasks', $funcName, $content)
+  CloudCard($id, '<$AzureTasksMd>', 'Tasks', $funcName, $content)
 !endfunction
 @enduml

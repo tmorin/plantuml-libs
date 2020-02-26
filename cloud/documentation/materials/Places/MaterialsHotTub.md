@@ -16,8 +16,8 @@ elements/materials/Places/MaterialsHotTub
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHotTub element
 include('elements/materials/Places/MaterialsHotTub')
@@ -34,8 +34,8 @@ MaterialsHotTub('element', 'Hot Tub', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHotTub element
 include('elements/materials/Places/MaterialsHotTub')
@@ -53,8 +53,8 @@ MaterialsHotTub('element', 'Hot Tub', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHotTub card
 include('elements/materials/Places/MaterialsHotTub')
@@ -71,8 +71,8 @@ MaterialsHotTubCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHotTub card
 include('elements/materials/Places/MaterialsHotTub')

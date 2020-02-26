@@ -16,8 +16,8 @@ elements/azure/ContainerServiceColor/AzureKubernetesServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKubernetesServices element
 include('elements/azure/ContainerServiceColor/AzureKubernetesServices')
@@ -34,8 +34,8 @@ AzureKubernetesServices('element', 'Kubernetes Services', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKubernetesServices element
 include('elements/azure/ContainerServiceColor/AzureKubernetesServices')
@@ -53,8 +53,8 @@ AzureKubernetesServices('element', 'Kubernetes Services', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKubernetesServices card
 include('elements/azure/ContainerServiceColor/AzureKubernetesServices')
@@ -71,8 +71,8 @@ AzureKubernetesServicesCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKubernetesServices card
 include('elements/azure/ContainerServiceColor/AzureKubernetesServices')

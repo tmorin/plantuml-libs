@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsSumerianLg [20x20/16z] {
-RSq50WGX50BG3G7vU__xBauNapu3B-c7-07zW9kevscDkmdV30crM0KeGefWNbTb4hIPlGZD1WrJZ5zwikgGa0w1NCsSEz2jpU3u5_8mhvPMAAzOS5ZQN4Y7
-CCoLe6MAmveM6yqqkn3Qh4Ol8N6nHPaQzCqsN_AhOnPxm3y
+dP2r0GDG448ZX-w_Rrn-4ttbAT2_IBhYj06yLB0VHJHk2vHWXo2WQus4MgRXt4gbgDPfjEUj5bnt3UbHOsiCw3vhIAk1kjPg6RRiHstebAuDzWR6FTVYyUA2
+OGHezIxiIObT2Mt0RvBwZYC
 }
+
+sprite $AwsSumerianMd [14x14/16z] TSwt0GG03CB0oY1v_tq_vq35LR1_ugEK9RrKID8aPpKHoNXLzI5g9xKtBHFl2XR8HKwtqjpNaYOyrjF6zsDVEG8
 
 !function AwsSumerian($id, $name="Sumerian", $tech="")
   CloudElement($id, 'aws/ArVr/AwsSumerian', $name, $tech)
 !endfunction
 !function AwsSumerianCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSumerianLg>', 'Sumerian', $funcName, $content)
+  CloudCard($id, '<$AwsSumerianMd>', 'Sumerian', $funcName, $content)
 !endfunction
 @enduml

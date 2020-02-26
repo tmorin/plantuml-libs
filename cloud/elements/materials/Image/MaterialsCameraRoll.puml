@@ -4,10 +4,12 @@ hT23jGD1503GuJFwh_OZMkzHxjWe_sfhjMo1cV6cimtEJ9zzwQgIJp6MQP4lWW_jqyVaIkh4yUcBNWKA
 tVs4tTXSvB7MyuLXJe1PIwaK_Yzq_LdjfTpv1G
 }
 
+sprite $MaterialsCameraRollMd [14x14/16z] RSUt0O103CNGVzdP-qzBXWgfUW1QRmLlJJF7o-6P6LpB4R0Ek3eVpLjKkStHrorTjeJfrjk_ulWJD-bhZbTT1grvwyZdcBC3RPqD_BG3
+
 !function MaterialsCameraRoll($id, $name="Camera Roll", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCameraRoll', $name, $tech)
 !endfunction
 !function MaterialsCameraRollCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCameraRollLg>', 'Camera Roll', $funcName, $content)
+  CloudCard($id, '<$MaterialsCameraRollMd>', 'Camera Roll', $funcName, $content)
 !endfunction
 @enduml

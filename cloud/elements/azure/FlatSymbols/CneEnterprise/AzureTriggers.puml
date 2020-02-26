@@ -4,10 +4,12 @@ ROy50e1020Iv8vV_FrYmQ-n1IbcG9_19WEfDfGyrOyyRIeNTZPqcL0s7wInC8cqZ9KPiwOOzGenkGUBe
 jZgJ96yu5Vgt5E90jdyWB0VCJBCYWOiW6bo99z05
 }
 
+sprite $AzureTriggersMd [13x14/16z] FOs50S1020E31hh_m8NAtokMPF1wwHJI-uy2aDfFJue09g3Qt0beNwsIKmd09oMQcm9o9bpvZ4Xli28E-3mr_x_hXQ_BIsxGzU80M9uV0NMUgHi
+
 !function AzureTriggers($id, $name="Triggers", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTriggers', $name, $tech)
 !endfunction
 !function AzureTriggersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTriggersLg>', 'Triggers', $funcName, $content)
+  CloudCard($id, '<$AzureTriggersMd>', 'Triggers', $funcName, $content)
 !endfunction
 @enduml

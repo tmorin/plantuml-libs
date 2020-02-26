@@ -4,10 +4,12 @@ RL075aCn2484__rlt4ViRlaZ4TnOL4jTU0DjIRA9EyeZaglLdHB77iVGaXOOUsf9uDWSDLe8pFt0dehZ
 uuORWBjyt60oZWOS0nBYRaOz_RgkvX3Wa5EdNmTRqS5z1tX2pyKS__TTxTsIdzgVtTy
 }
 
+sprite $AwsIotLambdaFunctionMd [14x14/16z] DOw75GDH3C84w6V_aVEkkNS3aEd2GvurrLmDTtHGhquvvMhKIwZjxiOAcH7e3EndDuY6s7CtuyfQpQIB4NEPMlGed-CiBpmkqYQzEtoe2_07
+
 !function AwsIotLambdaFunction($id, $name="Iot Lambda Function", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotLambdaFunction', $name, $tech)
 !endfunction
 !function AwsIotLambdaFunctionCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotLambdaFunctionLg>', 'Iot Lambda Function', $funcName, $content)
+  CloudCard($id, '<$AwsIotLambdaFunctionMd>', 'Iot Lambda Function', $funcName, $content)
 !endfunction
 @enduml

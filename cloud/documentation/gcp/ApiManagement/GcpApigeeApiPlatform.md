@@ -16,8 +16,8 @@ elements/gcp/ApiManagement/GcpApigeeApiPlatform
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpApigeeApiPlatform element
 include('elements/gcp/ApiManagement/GcpApigeeApiPlatform')
@@ -34,8 +34,8 @@ GcpApigeeApiPlatform('element', 'Apigee Api Platform', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpApigeeApiPlatform element
 include('elements/gcp/ApiManagement/GcpApigeeApiPlatform')
@@ -53,7 +53,7 @@ GcpApigeeApiPlatform('element', 'Apigee Api Platform', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpApigeeApiPlatform card
@@ -71,7 +71,7 @@ GcpApigeeApiPlatformCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpApigeeApiPlatform card

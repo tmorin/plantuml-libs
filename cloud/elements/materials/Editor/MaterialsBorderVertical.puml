@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBorderVerticalLg [20x20/16z] ZP053i0m24MnwVqFl92yUUtNVd6GOLY8X8axB6Mng-uXwtgoXEPE6GoPf8mFlhSCNulRZXm06V15TV6KmGgoacyfHwcMKisbtaepACvg60S
 
+sprite $MaterialsBorderVerticalMd [14x14/16z] Oq03Z2089a0SLY1aOG5H82u8ix822OWSZ8T5Zfc1cP6L5KoXy4Wm1TDsXClG
+
 !function MaterialsBorderVertical($id, $name="Border Vertical", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderVertical', $name, $tech)
 !endfunction
 !function MaterialsBorderVerticalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBorderVerticalLg>', 'Border Vertical', $funcName, $content)
+  CloudCard($id, '<$MaterialsBorderVerticalMd>', 'Border Vertical', $funcName, $content)
 !endfunction
 @enduml

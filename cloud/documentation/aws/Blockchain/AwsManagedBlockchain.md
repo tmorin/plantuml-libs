@@ -16,7 +16,7 @@ elements/aws/Blockchain/AwsManagedBlockchain
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedBlockchain element
@@ -34,7 +34,7 @@ AwsManagedBlockchain('element', 'Managed Blockchain', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedBlockchain element
@@ -53,8 +53,8 @@ AwsManagedBlockchain('element', 'Managed Blockchain', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedBlockchain card
 include('elements/aws/Blockchain/AwsManagedBlockchain')
@@ -71,8 +71,8 @@ AwsManagedBlockchainCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedBlockchain card
 include('elements/aws/Blockchain/AwsManagedBlockchain')

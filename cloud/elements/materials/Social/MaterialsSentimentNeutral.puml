@@ -4,10 +4,12 @@ VL073iGm23k611dy_xjdgBg7soIMBURl0yHCPq7RZ9XDTvbRc8geHUDLwaqM9gql8hMsXe1xSGtvKJ7S
 YgqnQf2AhHgm7SW0yxMN5MilvDUUxxDTT-1ytPKhVUxqYZy
 }
 
+sprite $MaterialsSentimentNeutralMd [14x14/16z] PKw53G0m24C23Vy_FEQ6EwMFn02JaLYOQfgUWAjZr5I2ETCq8TaoWXCvQaHGajeJKhHiKCrgNzsrHn9rhch8-s5_Vv2zL
+
 !function MaterialsSentimentNeutral($id, $name="Sentiment Neutral", $tech="")
   CloudElement($id, 'materials/Social/MaterialsSentimentNeutral', $name, $tech)
 !endfunction
 !function MaterialsSentimentNeutralCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSentimentNeutralLg>', 'Sentiment Neutral', $funcName, $content)
+  CloudCard($id, '<$MaterialsSentimentNeutralMd>', 'Sentiment Neutral', $funcName, $content)
 !endfunction
 @enduml

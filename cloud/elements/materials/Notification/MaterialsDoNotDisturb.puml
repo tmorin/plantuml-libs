@@ -4,10 +4,12 @@ VP253GKn242ngn3OVzmlTKckteS3BmE9S0UIpTsoJ4pPep1Bz4mTgJ6KmLahn6J-T2Sv5NDnVWPab_-L
 ouGj5qmP1xI4hRRSQpEbgmU9pbubmTUUdkCB
 }
 
+sprite $MaterialsDoNotDisturbMd [14x14/16z] PSx50KGn24LHx4PMwR_QsCpt271M3_aS8sVi3ohkL7veiPhcHQjHVREQ28Z_229vJZzw_cdn9v0VzsHLVuoo8icRqVYaNvjzpW
+
 !function MaterialsDoNotDisturb($id, $name="Do Not Disturb", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsDoNotDisturb', $name, $tech)
 !endfunction
 !function MaterialsDoNotDisturbCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDoNotDisturbLg>', 'Do Not Disturb', $funcName, $content)
+  CloudCard($id, '<$MaterialsDoNotDisturbMd>', 'Do Not Disturb', $funcName, $content)
 !endfunction
 @enduml

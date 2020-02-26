@@ -12,7 +12,7 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupContainerRegistryService group
@@ -30,7 +30,7 @@ AwsGroupContainerRegistryService('element', 'Container Registry Service', 'an op
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupContainerRegistryService group

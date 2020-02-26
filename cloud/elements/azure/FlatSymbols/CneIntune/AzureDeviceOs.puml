@@ -4,10 +4,12 @@ fSZ50GHH20Kmu64V-gzttMKqnn0HUppu2Kw7weUHcNw-y5TnEQLNylCO-3glOPyNeVfr8EmuSRmoEnq9
 Hm
 }
 
+sprite $AzureDeviceOsMd [14x14/16z] LOo53K1124EBbkJsd_VhwOj13T3ga0xu-WYOeYC1CS4WicBxQBvxE9B7Ia9yOYa0VBZvvST7D_CSNpMoSOuMMJDv0m
+
 !function AzureDeviceOs($id, $name="Device Os", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceOs', $name, $tech)
 !endfunction
 !function AzureDeviceOsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDeviceOsLg>', 'Device Os', $funcName, $content)
+  CloudCard($id, '<$AzureDeviceOsMd>', 'Device Os', $funcName, $content)
 !endfunction
 @enduml

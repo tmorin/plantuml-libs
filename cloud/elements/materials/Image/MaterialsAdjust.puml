@@ -4,10 +4,12 @@ VL053i0m21nIkGNI_xzsxYDjSOUXyuYPtWQ5kHlqDZEyg8WM1v-c4R9BWd4tKiMLGgYRh2vtPN5TMIrR
 cZdQxNk3ojzRLQNkJRzl1W
 }
 
+sprite $MaterialsAdjustMd [14x14/16z] PKw53G0m29ir3R7z_-rSW2bM2Muba4WxWI3d_go4SNoH8qtIavbA7mPw0CGLCVU_rXvbwanFQXQbeDIDCxiQ
+
 !function MaterialsAdjust($id, $name="Adjust", $tech="")
   CloudElement($id, 'materials/Image/MaterialsAdjust', $name, $tech)
 !endfunction
 !function MaterialsAdjustCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAdjustLg>', 'Adjust', $funcName, $content)
+  CloudCard($id, '<$MaterialsAdjustMd>', 'Adjust', $funcName, $content)
 !endfunction
 @enduml

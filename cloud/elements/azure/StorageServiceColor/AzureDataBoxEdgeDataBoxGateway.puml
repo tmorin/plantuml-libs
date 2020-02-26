@@ -4,10 +4,15 @@ VP45biGm3CM-IOtlV-35l8dR1PMhW447hzNTLxb-etgpyZSThDvWT-KURZ9UVieeFabJzgR2jhGl-NMB
 wRqi0PCNPN8eLGyAA1bmbLc1nTGBGWe-SIbmxmduVxeWn-8FlU8MsbDZK2Unfmu5TShoq2KfJr6F7dsDtPAdBjizYuAZPyFU0G
 }
 
+sprite $AzureDataBoxEdgeDataBoxGatewayMd [22x14/16z] {
+LT170a8X54FHb9TysF-6nQwNVeRWcRBsNY7-ceEdfOzGjfX_TdiA_UGENwZ7blti4jHGW9XmlNWn3JX3fEf-rTRCTOMkvwsh0_P4p7nqz_0yjnzr0zX0we-M
+YNnSFxe4fhLxydmGe8z_zFb5Dm
+}
+
 !function AzureDataBoxEdgeDataBoxGateway($id, $name="Data Box Edge Data Box Gateway", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureDataBoxEdgeDataBoxGateway', $name, $tech)
 !endfunction
 !function AzureDataBoxEdgeDataBoxGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDataBoxEdgeDataBoxGatewayLg>', 'Data Box Edge Data Box Gateway', $funcName, $content)
+  CloudCard($id, '<$AzureDataBoxEdgeDataBoxGatewayMd>', 'Data Box Edge Data Box Gateway', $funcName, $content)
 !endfunction
 @enduml

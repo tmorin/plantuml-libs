@@ -4,10 +4,12 @@ PL074i0m2CAT_x-uftI7pYZWm41Eu8Rc3GKXkMxaIVNrWfDMxrWDCIWoeqLqWUgiTzhdLu7iRm1cGad2
 pRiNc87c-lGSyVIypxRlODyLQSzEg-hUwRRx0m
 }
 
+sprite $GcpCloudBuildMd [14x14/16z] LKw50GC020Ai_N-niSPk0T0En89PXxpG7o_u1AfnCaULW1XZW4qoLfVBN37EfeekTwrtaKsLwsqdwSwjsNEBj2FvkZ030_rUZyzdMoVm_tK3
+
 !function GcpCloudBuild($id, $name="Cloud Build", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudBuild', $name, $tech)
 !endfunction
 !function GcpCloudBuildCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudBuildLg>', 'Cloud Build', $funcName, $content)
+  CloudCard($id, '<$GcpCloudBuildMd>', 'Cloud Build', $funcName, $content)
 !endfunction
 @enduml

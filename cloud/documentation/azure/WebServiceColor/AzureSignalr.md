@@ -16,8 +16,8 @@ elements/azure/WebServiceColor/AzureSignalr
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSignalr element
 include('elements/azure/WebServiceColor/AzureSignalr')
@@ -34,8 +34,8 @@ AzureSignalr('element', 'Signalr', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSignalr element
 include('elements/azure/WebServiceColor/AzureSignalr')
@@ -53,8 +53,8 @@ AzureSignalr('element', 'Signalr', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSignalr card
 include('elements/azure/WebServiceColor/AzureSignalr')
@@ -71,8 +71,8 @@ AzureSignalrCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSignalr card
 include('elements/azure/WebServiceColor/AzureSignalr')

@@ -4,10 +4,12 @@ jO-55SCm50CZ_Fjlt30CK1dExypB6jhSY0rd4dUdgziHMR5soktQMNTfNkiMWCqgnEMJtDkUbJRmLJF9
 l2RL-x-KBPx__G4
 }
 
+sprite $AwsIotRuleMd [14x14/16z] ZSUt0O0m00CmL_Z_OZea8ze481N022V61gBWqfPiWWVFuvizPMtNjseErRqivvRSitYGt-7mPmeF4TuUhkm
+
 !function AwsIotRule($id, $name="Iot Rule", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotRule', $name, $tech)
 !endfunction
 !function AwsIotRuleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotRuleLg>', 'Iot Rule', $funcName, $content)
+  CloudCard($id, '<$AwsIotRuleMd>', 'Iot Rule', $funcName, $content)
 !endfunction
 @enduml

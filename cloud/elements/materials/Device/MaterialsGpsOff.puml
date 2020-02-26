@@ -4,10 +4,12 @@ PT250KCX30JGY-2Nl_-sLQI2yt2mWWZ-GYcVFNbcQqtbK7T8lSZeQQlJeQPgEQhiYU7lbes5YMKiP9hJ
 sAZpCebsy4sGEYQMou65aLzlO-V1rEFz1zu5MtN-rQQ_F_t_-pi
 }
 
+sprite $MaterialsGpsOffMd [14x14/16z] LOw50O0m30G_BliF33Nagl77X1alv7w-pXILQSkIPW8uObfQoUED4QLadYOdWJs1PQRpiBPPpYDpcHG4m0BRn222XzLRZ-MDogld_7wgBm
+
 !function MaterialsGpsOff($id, $name="Gps Off", $tech="")
   CloudElement($id, 'materials/Device/MaterialsGpsOff', $name, $tech)
 !endfunction
 !function MaterialsGpsOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsGpsOffLg>', 'Gps Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsGpsOffMd>', 'Gps Off', $funcName, $content)
 !endfunction
 @enduml

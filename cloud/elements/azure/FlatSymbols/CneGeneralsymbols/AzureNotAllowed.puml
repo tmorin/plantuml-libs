@@ -4,10 +4,12 @@ TT1L0i0W30FGsjBS_yGZS-qV3wYPmXDDDj9jZmItG6vKEbHcwQfswbXl0oicJpERo3G7kqySH-XPn0M3
 MPgyO1EkdDC5rvf58awhlrszT_gr-na
 }
 
+sprite $AzureNotAllowedMd [14x14/16z] LSxN0S10209GE8Em_yBfxPhw_080vSGYZbDEIntNWUHe6DuxdUWGQ5CftQmiRk1X-nWUAdU_bswyj9Nni2AwUJCcAZtmf9YJpQat
+
 !function AzureNotAllowed($id, $name="Not Allowed", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureNotAllowed', $name, $tech)
 !endfunction
 !function AzureNotAllowedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureNotAllowedLg>', 'Not Allowed', $funcName, $content)
+  CloudCard($id, '<$AzureNotAllowedMd>', 'Not Allowed', $funcName, $content)
 !endfunction
 @enduml

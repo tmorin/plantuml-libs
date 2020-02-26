@@ -4,10 +4,12 @@ ROy50e1020IFPld_WxsmTUn1oaHH9mXkWDbDLP2vIzGDQns_6pyDqXE7cLd9HED5kw2S-UGiA70tuvbf
 pTv79yXSRoKngWEWZYIj6z4wzhSKya3NFr3H0n5ft2E9Y-pjnUi2jW4
 }
 
+sprite $AzureStoredProceduresMd [13x14/16z] DKs50GD120iEl__0HNev1I9kyHtAAKBhLGPGxgzF0CYXIBCTu6ucIpzDq-uRirOnuAL473KIgX9cQRqEwmlcbYzhVDVufGnyYif3In2f_eU1DHunVW
+
 !function AzureStoredProcedures($id, $name="Stored Procedures", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStoredProcedures', $name, $tech)
 !endfunction
 !function AzureStoredProceduresCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStoredProceduresLg>', 'Stored Procedures', $funcName, $content)
+  CloudCard($id, '<$AzureStoredProceduresMd>', 'Stored Procedures', $funcName, $content)
 !endfunction
 @enduml

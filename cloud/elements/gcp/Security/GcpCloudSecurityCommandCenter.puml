@@ -4,10 +4,12 @@ RL250GGn3Ae1tN_X2idxSzeeK8oQA4yqFj4oL3cVO9QE-OOHPRh_El3NXJW_x9Meumx1NQ1e839_rjnS
 YXtDJUPYKaIAREPqWvM84Fvf--F1hrUgdvvAIa__UBy1
 }
 
+sprite $GcpCloudSecurityCommandCenterMd [14x14/16z] LKw50GH02C92zf_urUzBYm1WSSk0JTYtU6dgjN8IRtMnQZu7IdHaRhKG-tXFXUf9nEo8UQJU-yoaQxRjf4yMAAcMXH9NOL9o4lclUdsSJT86_Bj-
+
 !function GcpCloudSecurityCommandCenter($id, $name="Cloud Security Command Center", $tech="")
   CloudElement($id, 'gcp/Security/GcpCloudSecurityCommandCenter', $name, $tech)
 !endfunction
 !function GcpCloudSecurityCommandCenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudSecurityCommandCenterLg>', 'Cloud Security Command Center', $funcName, $content)
+  CloudCard($id, '<$GcpCloudSecurityCommandCenterMd>', 'Cloud Security Command Center', $funcName, $content)
 !endfunction
 @enduml

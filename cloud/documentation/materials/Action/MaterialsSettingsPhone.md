@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsPhone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsPhone element
 include('elements/materials/Action/MaterialsSettingsPhone')
@@ -34,8 +34,8 @@ MaterialsSettingsPhone('element', 'Settings Phone', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsPhone element
 include('elements/materials/Action/MaterialsSettingsPhone')
@@ -53,8 +53,8 @@ MaterialsSettingsPhone('element', 'Settings Phone', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsPhone card
 include('elements/materials/Action/MaterialsSettingsPhone')
@@ -71,8 +71,8 @@ MaterialsSettingsPhoneCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsPhone card
 include('elements/materials/Action/MaterialsSettingsPhone')

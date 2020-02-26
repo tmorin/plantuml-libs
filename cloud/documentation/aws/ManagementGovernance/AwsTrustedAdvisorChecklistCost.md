@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistCost
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistCost element
@@ -34,7 +34,7 @@ AwsTrustedAdvisorChecklistCost('element', 'Trusted Advisor Checklist Cost', 'an 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistCost element
@@ -53,8 +53,8 @@ AwsTrustedAdvisorChecklistCost('element', 'Trusted Advisor Checklist Cost', 'an 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistCost card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistCost')
@@ -71,8 +71,8 @@ AwsTrustedAdvisorChecklistCostCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistCost card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistCost')

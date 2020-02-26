@@ -4,10 +4,12 @@ ZP054e1030Df4_pa_w_5dRECxTIRgbnAKbQG1NGF6JCQh8G5p1QaWSZU8GB3BJRAFKV6Pqpr4HEiaSxQ
 rmm
 }
 
+sprite $MaterialsCenterFocusStrongMd [14x14/16z] NKw30G0W4Eoost_QxBV_o4UWj3bAqHAZ5QfJsbH7DUQCfZLJVQmQrKnjoH1a2pfHdv9lZJVRaw87xvNtm_lzHVPI0G
+
 !function MaterialsCenterFocusStrong($id, $name="Center Focus Strong", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCenterFocusStrong', $name, $tech)
 !endfunction
 !function MaterialsCenterFocusStrongCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCenterFocusStrongLg>', 'Center Focus Strong', $funcName, $content)
+  CloudCard($id, '<$MaterialsCenterFocusStrongMd>', 'Center Focus Strong', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsKeyManagementServiceLg [20x20/16z] fOor0S10548h7f3zzurxUvn-R1f43VrHGYWVZW3HrrR4Uh_9TSggn1lE2hDUS72N7ShwRu_GrIZ9slYByyvnSe_F53Tv-o3O-Es3VOlfn5xrGtrIurW
+sprite $AwsKeyManagementServiceLg [20x20/16z] {
+RSi74WCn24FHD4c8lVzzCvf0-jzY-mtsgzhy1_q7Erk2jHZhBX34u1W5GF1Wp311emR7N3R49CTQT9iifbivPiBOgrax6Bln1hlM54FiSquigbJmQuuKAN3D
+CJpYM1Dmszjn1ENkD1PyDVQBBtlX7G
+}
+
+sprite $AwsKeyManagementServiceMd [14x14/16z] LScr0GC15CFGwikG_UVDCQbxTiwybm-R27oo5GFds-0HFjXkEs9jap6ARPosQ8PnJXc4JKvjpUnQOQqv-QrKkfLL6_lepGK
 
 !function AwsKeyManagementService($id, $name="Key Management Service", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsKeyManagementService', $name, $tech)
 !endfunction
 !function AwsKeyManagementServiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsKeyManagementServiceLg>', 'Key Management Service', $funcName, $content)
+  CloudCard($id, '<$AwsKeyManagementServiceMd>', 'Key Management Service', $funcName, $content)
 !endfunction
 @enduml

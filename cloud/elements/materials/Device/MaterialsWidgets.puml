@@ -4,10 +4,12 @@ hT054eKm30JGHhu0bVlVbcomZE6BxJoiRJeAqL8K4MlS_sVKXcGoQWqO30GCfbrh2oxs6IRhWv5a9_Pt
 A9tE2
 }
 
+sprite $MaterialsWidgetsMd [14x14/16z] VOw55GGn24JnKnxzTxkJhEkFuaC71E1nwSOlCvMYljAih2eBNCtiLdmB-6If_k0Ye819Vp1cYpLCQSd4bV9apTCLrqycPTDzO
+
 !function MaterialsWidgets($id, $name="Widgets", $tech="")
   CloudElement($id, 'materials/Device/MaterialsWidgets', $name, $tech)
 !endfunction
 !function MaterialsWidgetsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWidgetsLg>', 'Widgets', $funcName, $content)
+  CloudCard($id, '<$MaterialsWidgetsMd>', 'Widgets', $funcName, $content)
 !endfunction
 @enduml

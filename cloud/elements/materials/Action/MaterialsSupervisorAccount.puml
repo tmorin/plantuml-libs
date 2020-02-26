@@ -4,10 +4,12 @@ jOxN0K8n30Dj4PDAjF-so7JuvbtwASqEeTJogu9aQFGFr-IwejdnSbMk6XPvVZcqsM2Od-vnK-dLFvHh
 t8PSJKuMzG7itrm1
 }
 
+sprite $MaterialsSupervisorAccountMd [14x14/16z] XOm53eH0303hcj3___PmY1spKfiKli1txiLFnJC1579Kr6DWatYgj0gfLy7t9lHLH38tNYkRMOYNMLbTwogIzQksrLmv_ZN-umS
+
 !function MaterialsSupervisorAccount($id, $name="Supervisor Account", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSupervisorAccount', $name, $tech)
 !endfunction
 !function MaterialsSupervisorAccountCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSupervisorAccountLg>', 'Supervisor Account', $funcName, $content)
+  CloudCard($id, '<$MaterialsSupervisorAccountMd>', 'Supervisor Account', $funcName, $content)
 !endfunction
 @enduml

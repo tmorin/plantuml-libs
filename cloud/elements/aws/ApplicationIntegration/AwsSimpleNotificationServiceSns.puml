@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsSimpleNotificationServiceSnsLg [20x20/16z] {
-RSi7iWCX30JH7pJJ6dp_-tf5ENjx0_1Av5Q_b1FCiqzhRB-RPR1kkeRasx3AOmUQxAYIjgrMq54ZXiRifV-glyQ1RIqPjONALMmhkOsuMMvt5tA2qsHRUuOP
-mvra7PaLadILVBEOp19Kt6m56IpIsNPJcu6RFRlPvGGl9tW5
+fL350SKm2Ft2i-m_S4EzvoQumtZ_eldoi11jWqPE4vILYz1kuouOHUuYfqOmfhadauD_r3_jz9u12X544F1gAz0qlDkEt25CSkQssC5gmSerIrfnrJbVUCmC
+-BaReUHvWmv-_nO
 }
+
+sprite $AwsSimpleNotificationServiceSnsMd [14x14/16z] XKsb0G1H54eFst_Vx-cKXkS75YaV8iXBcCIm7QCm6SKgU6TTc200BoP2XuKAa9ECQJckOZOz3_VtTtG
 
 !function AwsSimpleNotificationServiceSns($id, $name="Simple Notification Service Sns", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleNotificationServiceSns', $name, $tech)
 !endfunction
 !function AwsSimpleNotificationServiceSnsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSimpleNotificationServiceSnsLg>', 'Simple Notification Service Sns', $funcName, $content)
+  CloudCard($id, '<$AwsSimpleNotificationServiceSnsMd>', 'Simple Notification Service Sns', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAirlineSeatFlatAngled
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlatAngled element
 include('elements/materials/Notification/MaterialsAirlineSeatFlatAngled')
@@ -34,8 +34,8 @@ MaterialsAirlineSeatFlatAngled('element', 'Airline Seat Flat Angled', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlatAngled element
 include('elements/materials/Notification/MaterialsAirlineSeatFlatAngled')
@@ -53,8 +53,8 @@ MaterialsAirlineSeatFlatAngled('element', 'Airline Seat Flat Angled', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlatAngled card
 include('elements/materials/Notification/MaterialsAirlineSeatFlatAngled')
@@ -71,8 +71,8 @@ MaterialsAirlineSeatFlatAngledCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatFlatAngled card
 include('elements/materials/Notification/MaterialsAirlineSeatFlatAngled')

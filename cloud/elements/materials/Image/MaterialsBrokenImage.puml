@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBrokenImageLg [20x20/16z] bT050iCW40J0qmJd_x_jBNLlDyhWqEyHkuaSgSsRj8Ls1SJ-jcGbtiDzBECKnAGrYCXXmA30uiJu0U7FY-87jOYXnvXLpwF0fdkF2QgbDslvtTwSmTDP_Pu3
 
+sprite $MaterialsBrokenImageMd [14x14/16z] NOwr0G0m20JZ3km_RTolGrxO1nSJtWOF4rz70JG1CIR0DhI91ufI8pbXwyIabunhnolrLd6QzsNLMU48jOmKkcSpHJYU9-59Vvkz5
+
 !function MaterialsBrokenImage($id, $name="Broken Image", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBrokenImage', $name, $tech)
 !endfunction
 !function MaterialsBrokenImageCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBrokenImageLg>', 'Broken Image', $funcName, $content)
+  CloudCard($id, '<$MaterialsBrokenImageMd>', 'Broken Image', $funcName, $content)
 !endfunction
 @enduml

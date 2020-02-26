@@ -4,10 +4,12 @@ bSy53WCW343HEWxtF-qKQOXjF_xGmZVy12VKcCkh71KNvR5B4sMKtP2lMIQSKRPf2VVDwK_JQhkgquRB
 79FPj1zx0W
 }
 
+sprite $MaterialsDirectionsRailwayMd [14x14/16z] PSUr0G0n30D0XScszf_s8L3bkiF7Xu_7vAhm8zNzIwDE8_tB4LFCk9VSbEQIoMHfZjISbJohGDsBPFU-a_6VAq8HQd6ORVff7ekVS7a1
+
 !function MaterialsDirectionsRailway($id, $name="Directions Railway", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsRailway', $name, $tech)
 !endfunction
 !function MaterialsDirectionsRailwayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDirectionsRailwayLg>', 'Directions Railway', $funcName, $content)
+  CloudCard($id, '<$MaterialsDirectionsRailwayMd>', 'Directions Railway', $funcName, $content)
 !endfunction
 @enduml

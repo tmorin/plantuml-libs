@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsDeeplensLg [20x20/16z] fSur0aGn24NHaJo1_U_tInUW6RdbYK1-MSGGW1QAYt55LJFWRdV307LBAQiPkeBhBk_NwuqejXR85Vsj3JVpPIflR-8gbk8qtz7vToS
+sprite $AwsDeeplensLg [20x20/16z] {
+RSW7he1040BGn6M0yVxtjOlxoqj_3aN_a_rFzfKg58dSaSsIvA9pVHwWNySwqVvE972TfpFfwvm33xZEMk-iiIoZV5klz02gHkvCWP9AkIDLEe-TE_D0A7SI
+_USiw_ZkwJfoytutvmu
+}
+
+sprite $AwsDeeplensMd [14x14/16z] LSV50SCm50MmmYDt_u7xanXrKphVshcgAVDPqIrz5i5zb98nYKhvrOBl5xbNDMJwNjNAs5qRRlTA4cMkFVh6ymS
 
 !function AwsDeeplens($id, $name="Deeplens", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeeplens', $name, $tech)
 !endfunction
 !function AwsDeeplensCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDeeplensLg>', 'Deeplens', $funcName, $content)
+  CloudCard($id, '<$AwsDeeplensMd>', 'Deeplens', $funcName, $content)
 !endfunction
 @enduml

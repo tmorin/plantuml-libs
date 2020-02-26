@@ -4,10 +4,12 @@ VSy50e0W30NGyUdQxdzQUxP-0tWqlSPWpPaIT-wTcpyCd6oGAUnFPWdjYf00Bt91i3IMAq91yR3Uvsz3
 mxIWhKgA1nseT20NfHFsedG4Xduo0W
 }
 
+sprite $MaterialsLoyaltyMd [14x14/16z] NSU50S0W3011t6N_QP6lzv7an3VjT-gKTwRqdavw8rE7g2n0r0cYOasm9c-grBtOsUx4Pa2kQ07j-aq6y0OC2PnquDS4
+
 !function MaterialsLoyalty($id, $name="Loyalty", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLoyalty', $name, $tech)
 !endfunction
 !function MaterialsLoyaltyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLoyaltyLg>', 'Loyalty', $funcName, $content)
+  CloudCard($id, '<$MaterialsLoyaltyMd>', 'Loyalty', $funcName, $content)
 !endfunction
 @enduml

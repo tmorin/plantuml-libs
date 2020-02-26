@@ -4,10 +4,12 @@ VP273aCX24N54GGw_lzlcsk0qddUKs-EsmOeQS4GTMI4utl2JtTnYfFkIBgrIafeeExKYXAXg5DfHzjL
 SxgRwS5k_E-jXbqS6osWxb033m
 }
 
+sprite $MaterialsDeveloperModeMd [14x14/16z] POs50S10308XxzNzfwsGUkyr1W0O127gBAe2TbtRw3egAjUZr-YNHpK0eTA35lSdDeLsHWOFzqu52itFtu5T5Pr7RHPD4IoAVN05
+
 !function MaterialsDeveloperMode($id, $name="Developer Mode", $tech="")
   CloudElement($id, 'materials/Device/MaterialsDeveloperMode', $name, $tech)
 !endfunction
 !function MaterialsDeveloperModeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDeveloperModeLg>', 'Developer Mode', $funcName, $content)
+  CloudCard($id, '<$MaterialsDeveloperModeMd>', 'Developer Mode', $funcName, $content)
 !endfunction
 @enduml

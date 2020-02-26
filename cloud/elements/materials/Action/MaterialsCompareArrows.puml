@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsCompareArrowsLg [20x20/16z] Ow0TO6J456DdmL35ni_61098OYny_BmWmCE4NHt2V3OqyrZOKUm5Qm1gH7894m_OQ7u-i4vCTUZcCMBp5-q
 
+sprite $MaterialsCompareArrowsMd [14x14/16z] bSkr0S104CJ0FQR-wpL3_1DBM4K2_2A5XN7ZcOYmfuCuFYuWN2mYPhv5M3A0dn1MxG
+
 !function MaterialsCompareArrows($id, $name="Compare Arrows", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCompareArrows', $name, $tech)
 !endfunction
 !function MaterialsCompareArrowsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCompareArrowsLg>', 'Compare Arrows', $funcName, $content)
+  CloudCard($id, '<$MaterialsCompareArrowsMd>', 'Compare Arrows', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ JO-7OGCm20GVlf3iFt1Y8nUTAXrmw2J6HG5ASmg55nmx11mbTLHfyVYRMcLDuyBUM-kSk064g-EMg6Aw
 _OxNtOtAFA_Yd0mo8ErFtHrJTW5dZirOb4wuLYTSH5YbStmLHrZAx0Y8oi8NZZC5t5IJZHV_
 }
 
+sprite $AwsSystemsManagerAutomationMd [14x14/16z] DOs55GDH3CECzxh_n8qB-WnoCDB7-AAuL1r-3xwLTc-90NaN5M33aQwNICaiw5LrdqdC8vH7SBqqp2XxDs3Xy1jn4FyAqDJiIxh5JN1Gh5mQFpnjl04
+
 !function AwsSystemsManagerAutomation($id, $name="Systems Manager Automation", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerAutomation', $name, $tech)
 !endfunction
 !function AwsSystemsManagerAutomationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSystemsManagerAutomationLg>', 'Systems Manager Automation', $funcName, $content)
+  CloudCard($id, '<$AwsSystemsManagerAutomationMd>', 'Systems Manager Automation', $funcName, $content)
 !endfunction
 @enduml

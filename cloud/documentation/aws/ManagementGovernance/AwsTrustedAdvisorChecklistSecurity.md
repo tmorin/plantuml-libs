@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistSecurity element
@@ -34,7 +34,7 @@ AwsTrustedAdvisorChecklistSecurity('element', 'Trusted Advisor Checklist Securit
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistSecurity element
@@ -53,8 +53,8 @@ AwsTrustedAdvisorChecklistSecurity('element', 'Trusted Advisor Checklist Securit
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistSecurity card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity')
@@ -71,8 +71,8 @@ AwsTrustedAdvisorChecklistSecurityCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTrustedAdvisorChecklistSecurity card
 include('elements/aws/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity')

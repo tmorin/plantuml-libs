@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPictureInPictureAlt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPictureInPictureAlt element
 include('elements/materials/Action/MaterialsPictureInPictureAlt')
@@ -34,8 +34,8 @@ MaterialsPictureInPictureAlt('element', 'Picture In Picture Alt', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPictureInPictureAlt element
 include('elements/materials/Action/MaterialsPictureInPictureAlt')
@@ -53,8 +53,8 @@ MaterialsPictureInPictureAlt('element', 'Picture In Picture Alt', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPictureInPictureAlt card
 include('elements/materials/Action/MaterialsPictureInPictureAlt')
@@ -71,8 +71,8 @@ MaterialsPictureInPictureAltCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPictureInPictureAlt card
 include('elements/materials/Action/MaterialsPictureInPictureAlt')

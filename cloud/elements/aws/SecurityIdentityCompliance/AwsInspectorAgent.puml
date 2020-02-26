@@ -4,10 +4,12 @@ RSxLWKH124JHeep9F-6nr-jxFqyBu6hmgt6V-RkxvZDNdvJIVIP-eifcC6nONbR656Z4ofjObjbiC6NV
 G6vcvMCiKyckkQlFfPKsr7BgWur8jojCWwlh7jwtSl1qOVKRCn5-bGR_zG
 }
 
+sprite $AwsInspectorAgentMd [14x14/16z] HOtN0GKm208LZko_yIkfzwUq-Y6h3WeGhyCivja1bI3zko0UIIqnM4FOC3MSwf5vcPZ4ozan2l7Wpk5XpxC90UftJdfw-fmdKezMVG4
+
 !function AwsInspectorAgent($id, $name="Inspector Agent", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsInspectorAgent', $name, $tech)
 !endfunction
 !function AwsInspectorAgentCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsInspectorAgentLg>', 'Inspector Agent', $funcName, $content)
+  CloudCard($id, '<$AwsInspectorAgentMd>', 'Inspector Agent', $funcName, $content)
 !endfunction
 @enduml

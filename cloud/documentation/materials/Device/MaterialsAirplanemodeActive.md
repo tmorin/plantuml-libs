@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsAirplanemodeActive
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeActive element
 include('elements/materials/Device/MaterialsAirplanemodeActive')
@@ -34,8 +34,8 @@ MaterialsAirplanemodeActive('element', 'Airplanemode Active', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeActive element
 include('elements/materials/Device/MaterialsAirplanemodeActive')
@@ -53,8 +53,8 @@ MaterialsAirplanemodeActive('element', 'Airplanemode Active', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeActive card
 include('elements/materials/Device/MaterialsAirplanemodeActive')
@@ -71,8 +71,8 @@ MaterialsAirplanemodeActiveCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirplanemodeActive card
 include('elements/materials/Device/MaterialsAirplanemodeActive')

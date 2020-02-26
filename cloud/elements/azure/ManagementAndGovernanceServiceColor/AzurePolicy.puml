@@ -4,10 +4,12 @@ RP250OLG24NX1km_yGzRyUWh6c85BiI5LFzG7czsEzFTN0MiDbPFhqSNumHOJG_IRiK1n20s2IG4wnze
 f_e5
 }
 
+sprite $AzurePolicyMd [13x14/16z] LKu50W0X21CM_l_5r-7ePkEWebdZ9bYGSOPzU_0mP_XGS_Oxt8rPPo2KZeapQTjzE4GIOt4WJiVJW1D0Tm
+
 !function AzurePolicy($id, $name="Policy", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzurePolicy', $name, $tech)
 !endfunction
 !function AzurePolicyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzurePolicyLg>', 'Policy', $funcName, $content)
+  CloudCard($id, '<$AzurePolicyMd>', 'Policy', $funcName, $content)
 !endfunction
 @enduml

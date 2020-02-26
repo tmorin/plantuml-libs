@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsFilterList
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterList element
 include('elements/materials/Content/MaterialsFilterList')
@@ -34,8 +34,8 @@ MaterialsFilterList('element', 'Filter List', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterList element
 include('elements/materials/Content/MaterialsFilterList')
@@ -53,8 +53,8 @@ MaterialsFilterList('element', 'Filter List', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterList card
 include('elements/materials/Content/MaterialsFilterList')
@@ -71,8 +71,8 @@ MaterialsFilterListCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterList card
 include('elements/materials/Content/MaterialsFilterList')

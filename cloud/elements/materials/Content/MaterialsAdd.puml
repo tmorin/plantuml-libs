@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAddLg [20x20/16z] Ow0LO6N55EFWe9eOAmSGyF20I5PiOhIn5-4tMW4
 
+sprite $MaterialsAddMd [14x14/16z] Oo0HiB0WyrXPSV1OM5avE5XPML1v-FKXR20H
+
 !function MaterialsAdd($id, $name="Add", $tech="")
   CloudElement($id, 'materials/Content/MaterialsAdd', $name, $tech)
 !endfunction
 !function MaterialsAddCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAddLg>', 'Add', $funcName, $content)
+  CloudCard($id, '<$MaterialsAddMd>', 'Add', $funcName, $content)
 !endfunction
 @enduml

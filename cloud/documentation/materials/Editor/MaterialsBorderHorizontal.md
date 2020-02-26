@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsBorderHorizontal
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderHorizontal element
 include('elements/materials/Editor/MaterialsBorderHorizontal')
@@ -34,8 +34,8 @@ MaterialsBorderHorizontal('element', 'Border Horizontal', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderHorizontal element
 include('elements/materials/Editor/MaterialsBorderHorizontal')
@@ -53,8 +53,8 @@ MaterialsBorderHorizontal('element', 'Border Horizontal', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderHorizontal card
 include('elements/materials/Editor/MaterialsBorderHorizontal')
@@ -71,8 +71,8 @@ MaterialsBorderHorizontalCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderHorizontal card
 include('elements/materials/Editor/MaterialsBorderHorizontal')

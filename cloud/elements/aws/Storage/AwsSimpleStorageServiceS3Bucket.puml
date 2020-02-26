@@ -4,10 +4,12 @@ RSw7bSGm24LH-06v_ueNwGXlcklyd8WjGKaaOj2sDhjySbg8aRJxOCKlnMwFaHEIVhhHgkPMJOK8wFpt
 sy2gtSGOxrlKhvPn_pHcYlpGpkHZNhBUcEQCPKjK7tOQ8BiYu_W2
 }
 
+sprite $AwsSimpleStorageServiceS3BucketMd [14x14/16z] HOw50O103CHoKjX_ObpoKXV0wK4CuCOwS6equi63bcbY9vs1dZczqdjQG08u405kGmen5-co5eU7HkYt1EfdVHyyxZoRrV1lBM07
+
 !function AwsSimpleStorageServiceS3Bucket($id, $name="Simple Storage Service S3 Bucket", $tech="")
   CloudElement($id, 'aws/Storage/AwsSimpleStorageServiceS3Bucket', $name, $tech)
 !endfunction
 !function AwsSimpleStorageServiceS3BucketCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSimpleStorageServiceS3BucketLg>', 'Simple Storage Service S3 Bucket', $funcName, $content)
+  CloudCard($id, '<$AwsSimpleStorageServiceS3BucketMd>', 'Simple Storage Service S3 Bucket', $funcName, $content)
 !endfunction
 @enduml

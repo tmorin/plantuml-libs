@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsDirectionsSubway
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsSubway element
 include('elements/materials/Maps/MaterialsDirectionsSubway')
@@ -34,8 +34,8 @@ MaterialsDirectionsSubway('element', 'Directions Subway', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsSubway element
 include('elements/materials/Maps/MaterialsDirectionsSubway')
@@ -53,8 +53,8 @@ MaterialsDirectionsSubway('element', 'Directions Subway', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsSubway card
 include('elements/materials/Maps/MaterialsDirectionsSubway')
@@ -71,8 +71,8 @@ MaterialsDirectionsSubwayCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsSubway card
 include('elements/materials/Maps/MaterialsDirectionsSubway')

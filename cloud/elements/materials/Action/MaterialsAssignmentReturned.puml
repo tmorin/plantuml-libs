@@ -4,10 +4,12 @@ ZSY55O1G34FHaXCyfVjFYxk_hxssb2HsZbN5tGYIgR9CAKbCfEXpm8TN8pB6gcfwETckJyl8x6GDpD1y
 6v6xOF_h
 }
 
+sprite $MaterialsAssignmentReturnedMd [14x14/16z] LOw50S0m40A1kj3VVzfwxABluANhy4Efd-TUucCiTWn3sCjjoX7Xzz9d7VPHh5cQYpK1KxQc3kYcPCq4E9SwijJTvXoVnSK_2pzb7xVHSW4
+
 !function MaterialsAssignmentReturned($id, $name="Assignment Returned", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignmentReturned', $name, $tech)
 !endfunction
 !function MaterialsAssignmentReturnedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAssignmentReturnedLg>', 'Assignment Returned', $funcName, $content)
+  CloudCard($id, '<$MaterialsAssignmentReturnedMd>', 'Assignment Returned', $funcName, $content)
 !endfunction
 @enduml

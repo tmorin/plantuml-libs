@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsKeyboardTabLg [20x20/16z] Ow0hO646aKmSJ0WXHWvkPf0OBqGC8GWJGmXo0WL1Oepi7330piNFpOHL35ClOJiGRi5qCoT23A6U-Y44
 
+sprite $MaterialsKeyboardTabMd [14x14/16z] Oo0LC88m4up7pih0mCGEb-DW0V6OM260dPU56PM7fXA7AI3CJ8AJ
+
 !function MaterialsKeyboardTab($id, $name="Keyboard Tab", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardTab', $name, $tech)
 !endfunction
 !function MaterialsKeyboardTabCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsKeyboardTabLg>', 'Keyboard Tab', $funcName, $content)
+  CloudCard($id, '<$MaterialsKeyboardTabMd>', 'Keyboard Tab', $funcName, $content)
 !endfunction
 @enduml

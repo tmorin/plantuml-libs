@@ -16,8 +16,8 @@ elements/azure/AnalyticsServiceColor/AzureDataExplorerClusters
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataExplorerClusters element
 include('elements/azure/AnalyticsServiceColor/AzureDataExplorerClusters')
@@ -34,8 +34,8 @@ AzureDataExplorerClusters('element', 'Data Explorer Clusters', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataExplorerClusters element
 include('elements/azure/AnalyticsServiceColor/AzureDataExplorerClusters')
@@ -53,8 +53,8 @@ AzureDataExplorerClusters('element', 'Data Explorer Clusters', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataExplorerClusters card
 include('elements/azure/AnalyticsServiceColor/AzureDataExplorerClusters')
@@ -71,8 +71,8 @@ AzureDataExplorerClustersCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDataExplorerClusters card
 include('elements/azure/AnalyticsServiceColor/AzureDataExplorerClusters')

@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsVpnLock
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVpnLock element
 include('elements/materials/Notification/MaterialsVpnLock')
@@ -34,8 +34,8 @@ MaterialsVpnLock('element', 'Vpn Lock', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVpnLock element
 include('elements/materials/Notification/MaterialsVpnLock')
@@ -53,8 +53,8 @@ MaterialsVpnLock('element', 'Vpn Lock', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVpnLock card
 include('elements/materials/Notification/MaterialsVpnLock')
@@ -71,8 +71,8 @@ MaterialsVpnLockCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVpnLock card
 include('elements/materials/Notification/MaterialsVpnLock')

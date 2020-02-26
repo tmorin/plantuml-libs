@@ -16,7 +16,7 @@ elements/aws/Compute/Instance/AwsEc2InstanceWithCloudwatch
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2InstanceWithCloudwatch element
@@ -34,7 +34,7 @@ AwsEc2InstanceWithCloudwatch('element', 'Ec2 Instance With Cloudwatch', 'an opti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2InstanceWithCloudwatch element
@@ -53,8 +53,8 @@ AwsEc2InstanceWithCloudwatch('element', 'Ec2 Instance With Cloudwatch', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2InstanceWithCloudwatch card
 include('elements/aws/Compute/Instance/AwsEc2InstanceWithCloudwatch')
@@ -71,8 +71,8 @@ AwsEc2InstanceWithCloudwatchCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2InstanceWithCloudwatch card
 include('elements/aws/Compute/Instance/AwsEc2InstanceWithCloudwatch')

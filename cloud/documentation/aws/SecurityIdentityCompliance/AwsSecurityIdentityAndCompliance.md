@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsSecurityIdentityAndCompliance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSecurityIdentityAndCompliance element
@@ -34,7 +34,7 @@ AwsSecurityIdentityAndCompliance('element', 'Security Identity And Compliance', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSecurityIdentityAndCompliance element
@@ -53,8 +53,8 @@ AwsSecurityIdentityAndCompliance('element', 'Security Identity And Compliance', 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSecurityIdentityAndCompliance card
 include('elements/aws/SecurityIdentityCompliance/AwsSecurityIdentityAndCompliance')
@@ -71,8 +71,8 @@ AwsSecurityIdentityAndComplianceCard('card', 'an optional functional name', 'Mol
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSecurityIdentityAndCompliance card
 include('elements/aws/SecurityIdentityCompliance/AwsSecurityIdentityAndCompliance')

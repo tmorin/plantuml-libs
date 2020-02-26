@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatAlignJustifyLg [20x20/16z] Oo0QCBAW04QG60iFDnBWOO4eH04CsCKmzMAr0mTWva01pDZ4Xe8_C04
 
+sprite $MaterialsFormatAlignJustifyMd [14x14/16z] Oq03J700v32oSq01EoE82mTeSXZwM5YXW8KHbKST6z
+
 !function MaterialsFormatAlignJustify($id, $name="Format Align Justify", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatAlignJustify', $name, $tech)
 !endfunction
 !function MaterialsFormatAlignJustifyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatAlignJustifyLg>', 'Format Align Justify', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatAlignJustifyMd>', 'Format Align Justify', $funcName, $content)
 !endfunction
 @enduml

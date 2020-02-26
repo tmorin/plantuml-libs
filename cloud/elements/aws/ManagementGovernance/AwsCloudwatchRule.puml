@@ -4,10 +4,12 @@ dSr70e1024FH11Bm_XUsTtV-tHHuZCmCF5BRBl4M901qNRKat0g9Ujrn62YfxJAFEvjIQAxQLwtDBTsA
 E04
 }
 
+sprite $AwsCloudwatchRuleMd [14x14/16z] HSlR0KD120BHrHcs_v9pDQ_pfm1gdQzG7J_Oe8OXeViiRqjouyWGRZvsLsjxL9rHKhAD8IRgVvUdrpmQJVgipqwbXqtcZH-y
+
 !function AwsCloudwatchRule($id, $name="Cloudwatch Rule", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchRule', $name, $tech)
 !endfunction
 !function AwsCloudwatchRuleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudwatchRuleLg>', 'Cloudwatch Rule', $funcName, $content)
+  CloudCard($id, '<$AwsCloudwatchRuleMd>', 'Cloudwatch Rule', $funcName, $content)
 !endfunction
 @enduml

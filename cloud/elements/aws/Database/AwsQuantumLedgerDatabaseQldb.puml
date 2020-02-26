@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsQuantumLedgerDatabaseQldbLg [20x20/16z] {
-ZSy53WCn34JHKWRi-z-tjYAh37_vBILH-Jv9yO9jBwejgcxO0f04T6TWT5ht1aeYxeqMIHbt1lTFBAYRTuNBXBBiTxtMEbzmETUnBGFEf-So0Oa4eShRvhzq
-L6EPVO6PUbbmZzcnAslT8vroYl_i7gy
+hKz50iCm31kOvFp_lvCBeUkgOWI6_1T002lZxi5dPYsojPQmcRC8H9XEd0D1m6SV62GSnCYQY2Wl4UzPK_iA1NvxrfGklNntNozKTzpPejQ-Viti-swqRXiN
+yX7y
 }
+
+sprite $AwsQuantumLedgerDatabaseQldbMd [14x14/16z] XOs50OG0548l51ww_xnsv--4wba2MHf8uhat2MRU9GIMdIMLaiUTogBiJEjEDcC78VM6WUpOtwK5
 
 !function AwsQuantumLedgerDatabaseQldb($id, $name="Quantum Ledger Database Qldb", $tech="")
   CloudElement($id, 'aws/Database/AwsQuantumLedgerDatabaseQldb', $name, $tech)
 !endfunction
 !function AwsQuantumLedgerDatabaseQldbCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsQuantumLedgerDatabaseQldbLg>', 'Quantum Ledger Database Qldb', $funcName, $content)
+  CloudCard($id, '<$AwsQuantumLedgerDatabaseQldbMd>', 'Quantum Ledger Database Qldb', $funcName, $content)
 !endfunction
 @enduml

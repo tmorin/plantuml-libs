@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsForumsLg [20x20/16z] RT17WiDG20JHaRwgGFS_y3XW77bxGlUsVcoSyUL4_WfHG6CLB8JB7sldnsvguouLyo7sEgQ9ZUCcdVRDDuw2XVIL8ujeKcppZIcRWUrODw4GhNDCdKxTNm
 
+sprite $AwsForumsMd [14x14/16z] NOw54G0W3CIk5lQV6FUWzRUuC4mhdXf0U2MczMKkgj7kr74HKPmBVorKAcD2Bwmm-IUaaTKqiAsgpxxC0W
+
 !function AwsForums($id, $name="Forums", $tech="")
   CloudElement($id, 'aws/General/AwsForums', $name, $tech)
 !endfunction
 !function AwsForumsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsForumsLg>', 'Forums', $funcName, $content)
+  CloudCard($id, '<$AwsForumsMd>', 'Forums', $funcName, $content)
 !endfunction
 @enduml

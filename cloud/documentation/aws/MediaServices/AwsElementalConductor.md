@@ -16,7 +16,7 @@ elements/aws/MediaServices/AwsElementalConductor
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElementalConductor element
@@ -34,7 +34,7 @@ AwsElementalConductor('element', 'Elemental Conductor', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElementalConductor element
@@ -53,8 +53,8 @@ AwsElementalConductor('element', 'Elemental Conductor', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElementalConductor card
 include('elements/aws/MediaServices/AwsElementalConductor')
@@ -71,8 +71,8 @@ AwsElementalConductorCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElementalConductor card
 include('elements/aws/MediaServices/AwsElementalConductor')

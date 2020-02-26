@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsCostExplorerLg [20x20/16z] {
-VSY53SCm50L0gVwFlF_03NDouil8Hr8UCWyv1Xt9fask1uUCowhYVcBOQg3J0IN0yxaqNlqOShoU48X8mElrpcfYmQIvNY1K8u32VZ5G05NEUWv1CCPw7UwY
-uAWvMIx3XK03nfoEH96O91dFMXaQRvVLz-tv1m
+fOut0W0n38E664d-_uElrpcacecUnDtnyTYt8stjJwhoSowg-3jK4PTA-N3ZU4u4RHdwushOHUGyhZ4rnCwd9L3Wa4-V47jY_vgztoC_ruB1sumegG1qH_ic
+kETO0G
 }
+
+sprite $AwsCostExplorerMd [14x14/16z] VScv5SDG50BHv350_mNRsgNe3z4zT9st9IKxGgbXV2iQAxkiJKFf7WCoEHKOITpA1iUNYfNFPpGwJnjluIxx0m
 
 !function AwsCostExplorer($id, $name="Cost Explorer", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsCostExplorer', $name, $tech)
 !endfunction
 !function AwsCostExplorerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCostExplorerLg>', 'Cost Explorer', $funcName, $content)
+  CloudCard($id, '<$AwsCostExplorerMd>', 'Cost Explorer', $funcName, $content)
 !endfunction
 @enduml

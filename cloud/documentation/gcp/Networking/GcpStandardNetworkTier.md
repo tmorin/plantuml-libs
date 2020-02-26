@@ -16,8 +16,8 @@ elements/gcp/Networking/GcpStandardNetworkTier
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpStandardNetworkTier element
 include('elements/gcp/Networking/GcpStandardNetworkTier')
@@ -34,8 +34,8 @@ GcpStandardNetworkTier('element', 'Standard Network Tier', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpStandardNetworkTier element
 include('elements/gcp/Networking/GcpStandardNetworkTier')
@@ -53,7 +53,7 @@ GcpStandardNetworkTier('element', 'Standard Network Tier', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpStandardNetworkTier card
@@ -71,7 +71,7 @@ GcpStandardNetworkTierCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpStandardNetworkTier card

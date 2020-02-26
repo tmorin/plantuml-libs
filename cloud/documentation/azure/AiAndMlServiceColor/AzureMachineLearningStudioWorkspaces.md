@@ -16,8 +16,8 @@ elements/azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMachineLearningStudioWorkspaces element
 include('elements/azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces')
@@ -34,8 +34,8 @@ AzureMachineLearningStudioWorkspaces('element', 'Machine Learning Studio Workspa
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMachineLearningStudioWorkspaces element
 include('elements/azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces')
@@ -53,8 +53,8 @@ AzureMachineLearningStudioWorkspaces('element', 'Machine Learning Studio Workspa
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMachineLearningStudioWorkspaces card
 include('elements/azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces')
@@ -71,8 +71,8 @@ AzureMachineLearningStudioWorkspacesCard('card', 'an optional functional name', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMachineLearningStudioWorkspaces card
 include('elements/azure/AiAndMlServiceColor/AzureMachineLearningStudioWorkspaces')

@@ -4,10 +4,15 @@ RSx50SD034JHqOXbwB_RCCT_-PqMjthwrZG-Aa9C0Qal5TWoXEIFThL3wa_dG4LLVZIfbP4k_gdY4Qav
 GJgJUO5fW4whkaveq0JeYyPQx0IdipL6Ryh9CPPJhTogwgOolIZ4CuE8cRmfH0c80Ig0AYuwcLLrsGB8UZo6PEshaG88wTkU5uBLkcyTk2OvsxuaSGO
 }
 
+sprite $AzurePackMd [16x14/16z] {
+JKt50G0123A1o_t7lGvUA6Kx891WsuqE9on-Tms3_-z0_-wAHdVcSpkA5FsvGnYKKQUtAajBcz2v7yhgr83AxbqIh8TIxH7kcW6sYzuxaWCDzEpmZCYJaAsH
+3JFSfCPrE9SkiW4
+}
+
 !function AzurePack($id, $name="Pack", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePack', $name, $tech)
 !endfunction
 !function AzurePackCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzurePackLg>', 'Pack', $funcName, $content)
+  CloudCard($id, '<$AzurePackMd>', 'Pack', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsGroundStationLg [20x20/16z] bP253GGm30Eb9Z5r_ts_mcSwST1s_cJlfv99FvHOQnNlQrE7oJtgraD5hA9kgsxq73etpu4XJv6y-rjTnBJlVipmuO_1wNOUQq2-r-RmK0ifwZchdJ-v
+sprite $AwsGroundStationLg [20x20/16z] {
+RSk7ZGGn34DHO2K6o_tNUs7boVEH7yZwQvopNIzOBrYTIU_OnFXyWXSR-3VirZdY-XsI8YITBPb08azM92W0Qpc_gFXBoFJN6fq0CzUkSL0PEQgMpJQGzTUo
+kLlZx0Q0RAlDIZ9TtTohlHTwtVq2
+}
+
+sprite $AwsGroundStationMd [14x14/16z] PSl70SC0349HDq0Y--yR8wVdtvwAxNvMvI-EH5sCk6rxlTJStpiHE_bK0GIKsrju7E2XA1Hn8WfBODkdaZZofPRaD9hdVzq1
 
 !function AwsGroundStation($id, $name="Ground Station", $tech="")
   CloudElement($id, 'aws/Satellite/AwsGroundStation', $name, $tech)
 !endfunction
 !function AwsGroundStationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsGroundStationLg>', 'Ground Station', $funcName, $content)
+  CloudCard($id, '<$AwsGroundStationMd>', 'Ground Station', $funcName, $content)
 !endfunction
 @enduml

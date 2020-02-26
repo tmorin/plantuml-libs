@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGroupPlainDotted group
 include('groups/azure/AzureGroupPlainDotted')
@@ -30,8 +30,8 @@ AzureGroupPlainDotted('element', 'Plain Dotted', 'an optional tech field')
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGroupPlainDotted group
 include('groups/azure/AzureGroupPlainDotted')

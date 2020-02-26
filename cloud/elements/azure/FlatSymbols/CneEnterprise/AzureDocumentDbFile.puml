@@ -4,10 +4,12 @@ PSk53GD130NHRtjZxh_TS78B8txISFIS0V1o--VL2hHZAlffRHkrVOW440OiefxuaaY6rS0p-v3KxUbf
 CX5806PCDFSatyZRostEopbwBVW1
 }
 
+sprite $AzureDocumentDbFileMd [13x14/16z] LOo53S1024Ln2Uo_RhqdBmRVh3uw4KhfHJkm25wuE-z71OrGhAu7ay4SWEw7hgh6zzm79-xFZFqTJ0B_7v1x-dj-haVfHyjgOYS
+
 !function AzureDocumentDbFile($id, $name="Document Db File", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDocumentDbFile', $name, $tech)
 !endfunction
 !function AzureDocumentDbFileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDocumentDbFileLg>', 'Document Db File', $funcName, $content)
+  CloudCard($id, '<$AzureDocumentDbFileMd>', 'Document Db File', $funcName, $content)
 !endfunction
 @enduml

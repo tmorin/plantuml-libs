@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 export LIB_NAME="perso"
-export LIB_BRANCH="feat/perso/add-library"
+export LIB_BRANCH="master"
 
 . lib.sh
 
-cleanGeneratedResources
+#cleanGeneratedResources
 
 setConstants
 

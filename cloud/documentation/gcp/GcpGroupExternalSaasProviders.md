@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalSaasProviders group
 include('groups/gcp/GcpGroupExternalSaasProviders')
@@ -30,8 +30,8 @@ GcpGroupExternalSaasProviders('element', 'External SaaS Providers', 'an optional
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalSaasProviders group
 include('groups/gcp/GcpGroupExternalSaasProviders')

@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsKinesisDataFirehoseLg [20x20/16z] hL054i0025e8ulx_ttLtSULPHF4D7jiUTdhKjgUTHISemXTxX06MavAhtuFLFR0kyfnzpxfUzBtvBQWQ9npGBSs8tGp-GmK
 
+sprite $AwsKinesisDataFirehoseMd [14x14/16z] uy8BE51ux9meSa0k9uB7oih6oiO15M9dPG7osTbOs31v29LmKt3Pm4KS
+
 !function AwsKinesisDataFirehose($id, $name="Kinesis Data Firehose", $tech="")
   CloudElement($id, 'aws/Analytics/AwsKinesisDataFirehose', $name, $tech)
 !endfunction
 !function AwsKinesisDataFirehoseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsKinesisDataFirehoseLg>', 'Kinesis Data Firehose', $funcName, $content)
+  CloudCard($id, '<$AwsKinesisDataFirehoseMd>', 'Kinesis Data Firehose', $funcName, $content)
 !endfunction
 @enduml

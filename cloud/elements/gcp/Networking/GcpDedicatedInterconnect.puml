@@ -4,10 +4,12 @@ RP250OG024Lfs7zXuuFjkrFf8i03dKYSo9WuwYGcrEg6TLZUROb0XmXsoVS6a48s3DwjJJV8Y33jDjCW
 dg4X-DzkFpVutYhvTTFClkdVxLS
 }
 
+sprite $GcpDedicatedInterconnectMd [14x14/16z] JOw50G0n20DJzFUV-0FLg-81CBGPG1cHJRHfty9eIFAJVGdWVCFKQ3kKTxg5Lh0D0qozVjTQmPL9T7KngwSdREITxbSPgvVGg_e7
+
 !function GcpDedicatedInterconnect($id, $name="Dedicated Interconnect", $tech="")
   CloudElement($id, 'gcp/Networking/GcpDedicatedInterconnect', $name, $tech)
 !endfunction
 !function GcpDedicatedInterconnectCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpDedicatedInterconnectLg>', 'Dedicated Interconnect', $funcName, $content)
+  CloudCard($id, '<$GcpDedicatedInterconnectMd>', 'Dedicated Interconnect', $funcName, $content)
 !endfunction
 @enduml

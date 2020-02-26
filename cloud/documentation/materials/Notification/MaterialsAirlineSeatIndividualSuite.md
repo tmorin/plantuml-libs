@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAirlineSeatIndividualSuite
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatIndividualSuite element
 include('elements/materials/Notification/MaterialsAirlineSeatIndividualSuite')
@@ -34,8 +34,8 @@ MaterialsAirlineSeatIndividualSuite('element', 'Airline Seat Individual Suite', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatIndividualSuite element
 include('elements/materials/Notification/MaterialsAirlineSeatIndividualSuite')
@@ -53,8 +53,8 @@ MaterialsAirlineSeatIndividualSuite('element', 'Airline Seat Individual Suite', 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatIndividualSuite card
 include('elements/materials/Notification/MaterialsAirlineSeatIndividualSuite')
@@ -71,8 +71,8 @@ MaterialsAirlineSeatIndividualSuiteCard('card', 'an optional functional name', '
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAirlineSeatIndividualSuite card
 include('elements/materials/Notification/MaterialsAirlineSeatIndividualSuite')

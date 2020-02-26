@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsConfigLg [20x20/16z] {
-RSe7ZWKn28DXQR4DPEz_t-TCR_-KX4_qLbtg3xp8rSGZv6PCg3pwu69ZCJQZz8VDHfE18WeHECp3DCLbpuENCYbcR-OX0onIjTgmiU58q3XDqvZm8MJtkWSD
-GKe5sTtJPZQg9ApMhhgCJEHgQqr8G5tCM6HQhcRT-X_NDll07m
+fSx55SGm30JGWuQq_HUy0JshW4nY-iRVjuYR7gEX5X986TDbFw9TF4OMMWXHF0PKT75Xzmfib4ElcKg18TrhQbnvDgnT5QohoddVPPGjY6DNT1aLUQnpfGEH
+dWTEcf3dZiMGkUXR_W
 }
+
+sprite $AwsConfigMd [14x14/16z] VOor0O1000EH6Eo_B-xorqNx8jQA5oKf2BafC3IWJS6NRAAzxanApAP2MTIYLkprffjOcpkHLl7F2
 
 !function AwsConfig($id, $name="Config", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsConfig', $name, $tech)
 !endfunction
 !function AwsConfigCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsConfigLg>', 'Config', $funcName, $content)
+  CloudCard($id, '<$AwsConfigMd>', 'Config', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/DatabasesServiceColor/AzureBlobStorage
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBlobStorage element
 include('elements/azure/DatabasesServiceColor/AzureBlobStorage')
@@ -34,8 +34,8 @@ AzureBlobStorage('element', 'Blob Storage', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBlobStorage element
 include('elements/azure/DatabasesServiceColor/AzureBlobStorage')
@@ -53,8 +53,8 @@ AzureBlobStorage('element', 'Blob Storage', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBlobStorage card
 include('elements/azure/DatabasesServiceColor/AzureBlobStorage')
@@ -71,8 +71,8 @@ AzureBlobStorageCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureBlobStorage card
 include('elements/azure/DatabasesServiceColor/AzureBlobStorage')

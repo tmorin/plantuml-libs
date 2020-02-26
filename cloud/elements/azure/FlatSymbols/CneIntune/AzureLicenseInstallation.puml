@@ -4,10 +4,15 @@ ROw5WI1H34A9GwR_Vc_irj_NE8X0k8UTow_BB0t8tLbfUIvT5xa3r1uptLEiwVDYwv31E1vVyMG1kHtx
 UoWVUYihwit-Gd5p3A7CCxlUxDkThv9Z-NAx6mXzqLsfVDnEUeJVAopTJhT7r1xa35kZSVNfZb26r28lf-ZSqROsO0wtwu8PJl-94Z-msKE1NrZJyHTsNVy
 }
 
+sprite $AzureLicenseInstallationMd [16x14/16z] {
+HSg70WCm10HGYJkE_l__biwNOLuw0M8_vxLeIRadfQP1u1Va5cBbMr4q9iMtOi8Y-QZtM8XttLeT8emxZrLpVEVTDK9JmoWC0evRT8zMQI-AktFy-5qdkZkF
+_V5T_lcKJm
+}
+
 !function AzureLicenseInstallation($id, $name="License Installation", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureLicenseInstallation', $name, $tech)
 !endfunction
 !function AzureLicenseInstallationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLicenseInstallationLg>', 'License Installation', $funcName, $content)
+  CloudCard($id, '<$AzureLicenseInstallationMd>', 'License Installation', $funcName, $content)
 !endfunction
 @enduml

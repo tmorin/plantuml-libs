@@ -4,10 +4,12 @@ TP254GH120Hno3_Yfv0_xv95UauM4ZHV367GE51eoEF0wH0Fz2ckQbMwi7cjBMTS6H84Pguf0rf5r1ar
 QYvYBS8_GiJHSFtbyVGHLpsWpmi1FAkEq4WS20oelcY9Fm
 }
 
+sprite $GcpCloudDataCatalogMd [15x14/16z] NO-50GGm20En9km_yPFoVbKSpAoub0bdBtI9fr-SaO8ouDvXXcvKMXNdOybc0icQ82OLerzjq5mr4N4B8AdhCAk7t3gLq8Cjz2B-slXhKkJN20y
+
 !function GcpCloudDataCatalog($id, $name="Cloud Data Catalog", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataCatalog', $name, $tech)
 !endfunction
 !function GcpCloudDataCatalogCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudDataCatalogLg>', 'Cloud Data Catalog', $funcName, $content)
+  CloudCard($id, '<$GcpCloudDataCatalogMd>', 'Cloud Data Catalog', $funcName, $content)
 !endfunction
 @enduml

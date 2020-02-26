@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFilterNoneLg [20x20/16z] pT253SGm40NH9UsFgVzo3nAp6yWJZtZeZsLWkcdC4xyReWr8V3VGO9aPUhPixs_NsJnVw6AycpWcIl-sumIRw1qzvQ60slZj_1S
 
+sprite $MaterialsFilterNoneMd [14x14/16z] hSur0G013C30b5l_Wfz9mD-MBO3wnTXqvQ5cIsdXb6xnBS-_IkLKMv7J5zqAkO1DvIdOsFTv1G
+
 !function MaterialsFilterNone($id, $name="Filter None", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterNone', $name, $tech)
 !endfunction
 !function MaterialsFilterNoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilterNoneLg>', 'Filter None', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilterNoneMd>', 'Filter None', $funcName, $content)
 !endfunction
 @enduml

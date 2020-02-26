@@ -16,7 +16,7 @@ elements/aws/CustomerEngagement/AwsSimpleEmailServiceSes
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleEmailServiceSes element
@@ -34,7 +34,7 @@ AwsSimpleEmailServiceSes('element', 'Simple Email Service Ses', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleEmailServiceSes element
@@ -53,8 +53,8 @@ AwsSimpleEmailServiceSes('element', 'Simple Email Service Ses', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleEmailServiceSes card
 include('elements/aws/CustomerEngagement/AwsSimpleEmailServiceSes')
@@ -71,8 +71,8 @@ AwsSimpleEmailServiceSesCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleEmailServiceSes card
 include('elements/aws/CustomerEngagement/AwsSimpleEmailServiceSes')

@@ -4,10 +4,12 @@ fL350SDG22sKB_Z-qrP3z1XE-9F7_G1gZU3GQUeYph1h3Uy8WBXRQqwNNzhNTBP_GevhA-FVx5gzBc7y
 NstQZegVvS7DU0C
 }
 
+sprite $MaterialsCachedMd [14x14/16z] XKs30S1047i5nVxhrkQPIVYJ3EIrZZR0k7J6yKnpfk8OvrLfsg50svIf1KSCSRvKFhn3AmK1ErxOlwK7
+
 !function MaterialsCached($id, $name="Cached", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCached', $name, $tech)
 !endfunction
 !function MaterialsCachedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCachedLg>', 'Cached', $funcName, $content)
+  CloudCard($id, '<$MaterialsCachedMd>', 'Cached', $funcName, $content)
 !endfunction
 @enduml

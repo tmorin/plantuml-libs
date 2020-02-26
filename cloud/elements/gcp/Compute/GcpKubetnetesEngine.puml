@@ -4,10 +4,12 @@ RP050e1G24EfiN__2niVR6S_HygKjkIKvIbhf3bEPLjZt1Hbuvrn6b7l4VKFUm7k1Bu9yzL4Sdzw463u
 WpnhdBq0NftQJy-_i_tluBahwdEd97kdFxjV0G
 }
 
+sprite $GcpKubetnetesEngineMd [14x14/16z] LOw50O1030Fh-Vqdvd18tMjcdWSSbs1qO8wmreKY2E7Ce1HcZUcg9jcMMgef68U0qaJCNjGkLUv5RIyY3P8zUMu1bEQwm028x_M-FplgVFR_UWC
+
 !function GcpKubetnetesEngine($id, $name="Kubetnetes Engine", $tech="")
   CloudElement($id, 'gcp/Compute/GcpKubetnetesEngine', $name, $tech)
 !endfunction
 !function GcpKubetnetesEngineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpKubetnetesEngineLg>', 'Kubetnetes Engine', $funcName, $content)
+  CloudCard($id, '<$GcpKubetnetesEngineMd>', 'Kubetnetes Engine', $funcName, $content)
 !endfunction
 @enduml

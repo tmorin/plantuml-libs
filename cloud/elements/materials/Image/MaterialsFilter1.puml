@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFilter1Lg [20x20/16z] lT0r5iGm301HqPDHklzj5un9t6VANmxyGzeXj3ZNIzeiPDc5Wiq2xAGY1Xwc8T2mAjEI7mPifz4BXe8NYp3QfZM6LSxDICCbXhyzmnBa4ZVKKdSMu3B-UluB
 
+sprite $MaterialsFilter1Md [14x14/16z] ZOx50SCm34M_6FOVk4cCnpw3602mJWGF6VuHzPYKz7pFWwlOPqNpQwcFMDuMuczBjyKqYCU2LqxuiK0JG2fyOC1ZtZl_
+
 !function MaterialsFilter1($id, $name="Filter1", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilter1', $name, $tech)
 !endfunction
 !function MaterialsFilter1Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilter1Lg>', 'Filter1', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilter1Md>', 'Filter1', $funcName, $content)
 !endfunction
 @enduml

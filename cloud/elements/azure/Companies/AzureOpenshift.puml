@@ -4,10 +4,15 @@ NP45Ti0m34CLCaYv_tathocy_MBCW8jXIIbjuAKvTK7lE8pKInxp_YTCDyzBt1lGedxdyI95ER0aHRip
 DgXyMxBGtWvq6mqlerodq_3595RE_9fsbg1wy6aTnMbq_NuYzzvFnwVHXixFTDv6-xz97ffzf_xIBIa-6_e1
 }
 
+sprite $AzureOpenshiftMd [15x14/16z] {
+NOy54WDH34A_nQ3tFsypR7NVI5mOpGgGPNE80ufQYaY4UNPyzbXWRQMzcCE8ZhJ2sybEYOtEpoIEmWbsULMk8GoFt6vNeBAsNMYf0PbR4HXZBlk-iUvFtYGy
+0G
+}
+
 !function AzureOpenshift($id, $name="Openshift", $tech="")
   CloudElement($id, 'azure/Companies/AzureOpenshift', $name, $tech)
 !endfunction
 !function AzureOpenshiftCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureOpenshiftLg>', 'Openshift', $funcName, $content)
+  CloudCard($id, '<$AzureOpenshiftMd>', 'Openshift', $funcName, $content)
 !endfunction
 @enduml

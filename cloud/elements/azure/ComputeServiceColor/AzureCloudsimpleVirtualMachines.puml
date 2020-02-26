@@ -5,10 +5,15 @@ z1Qc1hLrIkrUQQrqHKpScXo-sSkvzQ1v1oG_nVk-WRkMzndjWLa30UjUx2MG_fo5-D8EtKVL4j9VvaOv
 TLucmnJ_
 }
 
+sprite $AzureCloudsimpleVirtualMachinesMd [22x14/16z] {
+HL075i1G1BDzkV-1YwvqPzGB8c9r3tVLEDL8uoR5Oz0Kq2I0P98ctDIoSDe_BoNSJfr8e8mM8gGHyp4id5wqLVR5WCembGs6yxAS65ITa8zjUkRKAlhzOGLH
+YnQElTC-MA7Oc-PjoBJGPactXPb7vhJnW_A_SUHKHb_1ttQczBqT9Re
+}
+
 !function AzureCloudsimpleVirtualMachines($id, $name="Cloudsimple Virtual Machines", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureCloudsimpleVirtualMachines', $name, $tech)
 !endfunction
 !function AzureCloudsimpleVirtualMachinesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCloudsimpleVirtualMachinesLg>', 'Cloudsimple Virtual Machines', $funcName, $content)
+  CloudCard($id, '<$AzureCloudsimpleVirtualMachinesMd>', 'Cloudsimple Virtual Machines', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDeleteLg [20x20/16z] rSWt0e0m30D0AKLq-FzhgR4zP-J6Gn-M6n6AD1stIIfeD4_DB3HCERro8iouD2CCfwEP-9U3ZaPmpEMLYHuN
 
+sprite $MaterialsDeleteMd [14x14/16z] Oy04Z4nCZ30sAniNBoyN6ok4ny8A1YmG7ZC76313vVZ1W8MQF2PkNY3WPa8u3EGq3
+
 !function MaterialsDelete($id, $name="Delete", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDelete', $name, $tech)
 !endfunction
 !function MaterialsDeleteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDeleteLg>', 'Delete', $funcName, $content)
+  CloudCard($id, '<$MaterialsDeleteMd>', 'Delete', $funcName, $content)
 !endfunction
 @enduml

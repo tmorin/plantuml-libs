@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsSentimentVeryDissatisfied
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSentimentVeryDissatisfied element
 include('elements/materials/Social/MaterialsSentimentVeryDissatisfied')
@@ -34,8 +34,8 @@ MaterialsSentimentVeryDissatisfied('element', 'Sentiment Very Dissatisfied', 'an
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSentimentVeryDissatisfied element
 include('elements/materials/Social/MaterialsSentimentVeryDissatisfied')
@@ -53,8 +53,8 @@ MaterialsSentimentVeryDissatisfied('element', 'Sentiment Very Dissatisfied', 'an
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSentimentVeryDissatisfied card
 include('elements/materials/Social/MaterialsSentimentVeryDissatisfied')
@@ -71,8 +71,8 @@ MaterialsSentimentVeryDissatisfiedCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSentimentVeryDissatisfied card
 include('elements/materials/Social/MaterialsSentimentVeryDissatisfied')

@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsOpsworksMonitoringLg [20x20/16z] fOp70GD120C7LfBxhzZnylsyym8b_gBgBZrILobZf9T7lyE2NaGd0cnOHPboMbvAWlxkZcrUefQ1Oa6g3Cv8CdTD4vhxWjNnXJGJl
 
+sprite $AwsOpsworksMonitoringMd [14x14/16z] ZKt50O1038lkFp9k7-2yRGmZIzNsasiJnclJQdcMqTf6I9PcdMy3Q6dMphcD5Wq_EZqZdSSoFjOC
+
 !function AwsOpsworksMonitoring($id, $name="Opsworks Monitoring", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksMonitoring', $name, $tech)
 !endfunction
 !function AwsOpsworksMonitoringCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOpsworksMonitoringLg>', 'Opsworks Monitoring', $funcName, $content)
+  CloudCard($id, '<$AwsOpsworksMonitoringMd>', 'Opsworks Monitoring', $funcName, $content)
 !endfunction
 @enduml

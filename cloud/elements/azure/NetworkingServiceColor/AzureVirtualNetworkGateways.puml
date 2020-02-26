@@ -4,10 +4,12 @@ LOw74S0m2CGC_BF_oB6EE4Mf5dL1b3SLwr2-gP_Ggu9Zx2ykxXHDybRrVY69ZSclYIHdKBE2F4Xsmn75
 JXz7ClWpgrRKEmkA5eCCtNM4KuWNrmK
 }
 
+sprite $AzureVirtualNetworkGatewaysMd [13x14/16z] DOp50S1G348ZlB__o8sL4svcBa1k3MSHBOIyKnKFyCsZXQoX4Y6GKkAHDDAB5-uetuhk14fAPFtIZq4d8R8JTfEt-Tz6LDhBuVe
+
 !function AzureVirtualNetworkGateways($id, $name="Virtual Network Gateways", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworkGateways', $name, $tech)
 !endfunction
 !function AzureVirtualNetworkGatewaysCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVirtualNetworkGatewaysLg>', 'Virtual Network Gateways', $funcName, $content)
+  CloudCard($id, '<$AzureVirtualNetworkGatewaysMd>', 'Virtual Network Gateways', $funcName, $content)
 !endfunction
 @enduml

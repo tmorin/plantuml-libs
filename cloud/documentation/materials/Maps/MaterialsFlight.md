@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsFlight
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlight element
 include('elements/materials/Maps/MaterialsFlight')
@@ -34,8 +34,8 @@ MaterialsFlight('element', 'Flight', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlight element
 include('elements/materials/Maps/MaterialsFlight')
@@ -53,8 +53,8 @@ MaterialsFlight('element', 'Flight', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlight card
 include('elements/materials/Maps/MaterialsFlight')
@@ -71,8 +71,8 @@ MaterialsFlightCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFlight card
 include('elements/materials/Maps/MaterialsFlight')

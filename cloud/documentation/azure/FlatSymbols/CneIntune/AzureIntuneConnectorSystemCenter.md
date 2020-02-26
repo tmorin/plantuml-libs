@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneConnectorSystemCenter element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter')
@@ -34,8 +34,8 @@ AzureIntuneConnectorSystemCenter('element', 'Intune Connector System Center', 'a
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneConnectorSystemCenter element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter')
@@ -53,8 +53,8 @@ AzureIntuneConnectorSystemCenter('element', 'Intune Connector System Center', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneConnectorSystemCenter card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter')
@@ -71,8 +71,8 @@ AzureIntuneConnectorSystemCenterCard('card', 'an optional functional name', 'Mol
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneConnectorSystemCenter card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter')

@@ -16,7 +16,7 @@ elements/aws/MigrationTransfer/AwsApplicationDiscoveryService
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationDiscoveryService element
@@ -34,7 +34,7 @@ AwsApplicationDiscoveryService('element', 'Application Discovery Service', 'an o
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsApplicationDiscoveryService element
@@ -53,8 +53,8 @@ AwsApplicationDiscoveryService('element', 'Application Discovery Service', 'an o
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationDiscoveryService card
 include('elements/aws/MigrationTransfer/AwsApplicationDiscoveryService')
@@ -71,8 +71,8 @@ AwsApplicationDiscoveryServiceCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsApplicationDiscoveryService card
 include('elements/aws/MigrationTransfer/AwsApplicationDiscoveryService')

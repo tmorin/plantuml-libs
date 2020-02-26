@@ -4,10 +4,12 @@ fOx75SHG308tmOZVVx-RvEoZESrJ0CPL9S6GP1cLPC2MQfwPvXAUPwWnNkxgEw4IwZjDp-3BJ-bP6TII
 vrd1a75T7m
 }
 
+sprite $AwsMqMd [14x14/16z] VKsr0S102Anomlu31skYhy1P_2zBfEnfW2m5U3hcRqud1KZcFqHaTu3mlKk6bxcUtlUUaAqt_N-T
+
 !function AwsMq($id, $name="Mq", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsMq', $name, $tech)
 !endfunction
 !function AwsMqCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsMqLg>', 'Mq', $funcName, $content)
+  CloudCard($id, '<$AwsMqMd>', 'Mq', $funcName, $content)
 !endfunction
 @enduml

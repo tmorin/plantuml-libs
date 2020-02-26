@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsBudgetsLg [20x20/16z] fOtL0OKm5CMU7El-0rTm-oDGoxNobd0XHvU1pwuC-E1qSyQnDXgEADGibmHINVVhxFINP8rRlovEI_EHl3htr5xZdkJDXMR7pER4aJNMNljN5hOP1ZVWyeu6
 
+sprite $AwsBudgetsMd [14x14/16z] XSU53S0m34HHqT7-2_SK4fH-m7xvYQEZFk5Hha1wG6Hl-gSHbCOOCjc_Oscq1CUzMEAe-km2
+
 !function AwsBudgets($id, $name="Budgets", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsBudgets', $name, $tech)
 !endfunction
 !function AwsBudgetsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsBudgetsLg>', 'Budgets', $funcName, $content)
+  CloudCard($id, '<$AwsBudgetsMd>', 'Budgets', $funcName, $content)
 !endfunction
 @enduml

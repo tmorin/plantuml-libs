@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsCreateNewFolderLg [20x20/16z] fP350SKW343ZEEm_xPSgSkIrM3o1BLX_6FSYIkrF5knajPt2SAAthADGB_FYVtiTP0ewoM8Kq1XxMQQhYbucX80akVUjHxmwvJ2m9MzqyPQbDf3ed44FmnPV
 
+sprite $MaterialsCreateNewFolderMd [14x14/16z] VOl50G0W30DnhUm_BPulXpPYVhWOKxIOiYvAsDWxBMITX8dyUlERUh6X2QPTiHLJJTONngJa4dfdv3EvU4WfHcT-J
+
 !function MaterialsCreateNewFolder($id, $name="Create New Folder", $tech="")
   CloudElement($id, 'materials/File/MaterialsCreateNewFolder', $name, $tech)
 !endfunction
 !function MaterialsCreateNewFolderCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCreateNewFolderLg>', 'Create New Folder', $funcName, $content)
+  CloudCard($id, '<$MaterialsCreateNewFolderMd>', 'Create New Folder', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ jO_L0S0m449xJcJ_TIln1Vh-Je5S1-bgr4ccNfVSABE6DB3cWrbF_gmBW3Zg864cufTMkzfRo5kY-JDN
 e_ztUAXwH3m
 }
 
+sprite $AzureServerDirectoryMd [11x14/16z] bOh10G0G54AXWc__TG46y2vLPMrHtAJPObiJoNJQpOUrPoiG_MIjY64YoucCz16q990CWBR5jkihpIWD
+
 !function AzureServerDirectory($id, $name="Server Directory", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerDirectory', $name, $tech)
 !endfunction
 !function AzureServerDirectoryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServerDirectoryLg>', 'Server Directory', $funcName, $content)
+  CloudCard($id, '<$AzureServerDirectoryMd>', 'Server Directory', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ RL070WCn20eOpFz_NB2xFMy60STAS14E-kSLWbX5Vnu0jewlxlbi1DigS-hnqXvXnL6Ek9LoECRK1x3I
 mMBKTOqnz5WfBOrsQgIdRcT4VlOIxDrBUhxluD7p_spNE_ZVrVLEhtP_0m
 }
 
+sprite $AwsIotThermostatMd [14x14/16z] LOx15S1G10JN6Fstd4TE7m3O91H0aIN6qN7OH6Xja32hUeuIfAhN5zFJkQ7UdYRJsQ1A-xAqDxczIRn9i6P-VnzKxyFx_KNselu
+
 !function AwsIotThermostat($id, $name="Iot Thermostat", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotThermostat', $name, $tech)
 !endfunction
 !function AwsIotThermostatCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotThermostatLg>', 'Iot Thermostat', $funcName, $content)
+  CloudCard($id, '<$AwsIotThermostatMd>', 'Iot Thermostat', $funcName, $content)
 !endfunction
 @enduml

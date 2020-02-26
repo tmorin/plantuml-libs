@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsSystemsManagerRunCommandLg [20x20/16z] fSw55O0020HGkDf_Omjv3k2t9Ui_sKir6ApxbHSuN4f35yPQIJqwrpMAAjenNNcLEM6ff-8ETlMb30GtymuoCTA8Rsdu6x7qhZonONonbNvZmc9gm1_KFoS
 
+sprite $AwsSystemsManagerRunCommandMd [14x14/16z] XSN90OG0349Hbf_fl-Dnrvk-1D07S_86igE53eTVd1XtisxMeRKpGMbQQ4kG4-Ait6Y5fMV7Xz6c7AfN2m
+
 !function AwsSystemsManagerRunCommand($id, $name="Systems Manager Run Command", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerRunCommand', $name, $tech)
 !endfunction
 !function AwsSystemsManagerRunCommandCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSystemsManagerRunCommandLg>', 'Systems Manager Run Command', $funcName, $content)
+  CloudCard($id, '<$AwsSystemsManagerRunCommandMd>', 'Systems Manager Run Command', $funcName, $content)
 !endfunction
 @enduml

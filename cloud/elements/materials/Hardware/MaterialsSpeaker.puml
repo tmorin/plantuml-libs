@@ -4,10 +4,12 @@ VP054WKn34APqgqttF-qNzRzJSRYW2VSofhohNSRe_ab5oLbCakA-nm1lkJUPaTEkJAGGpdaiXlVpBkS
 -TPDlSjwys-Udla2
 }
 
+sprite $MaterialsSpeakerMd [14x14/16z] NKx50G0n22kGkkq_xMazFuYg4x0Vy1qKQW9I3TGkfvIRryubv-RbcOXzluITOscN9rsh9jykHgtWTaL3mcHYpxGYjcNEPITk
+
 !function MaterialsSpeaker($id, $name="Speaker", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsSpeaker', $name, $tech)
 !endfunction
 !function MaterialsSpeakerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSpeakerLg>', 'Speaker', $funcName, $content)
+  CloudCard($id, '<$MaterialsSpeakerMd>', 'Speaker', $funcName, $content)
 !endfunction
 @enduml

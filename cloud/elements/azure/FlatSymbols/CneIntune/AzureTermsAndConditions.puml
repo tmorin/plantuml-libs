@@ -4,10 +4,12 @@ PSd70SD0449HRPn0__sQ7UJyRm-kdwQftNfvGsMt9UTjnsvbPvbzXo_PZ1wTbLMSnh7joe4iXqhszSl_
 vxlZiJvhrmC
 }
 
+sprite $AzureTermsAndConditionsMd [11x14/16z] BSY74S0W3C300Axo_ll655txqvYxR-Uv4sb6qKdw-8BmG4HdaqmYmixjgDZSNMOhttKFYCC4L3SJ5nMQLOMkhCrjggd-qky7
+
 !function AzureTermsAndConditions($id, $name="Terms And Conditions", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureTermsAndConditions', $name, $tech)
 !endfunction
 !function AzureTermsAndConditionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTermsAndConditionsLg>', 'Terms And Conditions', $funcName, $content)
+  CloudCard($id, '<$AzureTermsAndConditionsMd>', 'Terms And Conditions', $funcName, $content)
 !endfunction
 @enduml

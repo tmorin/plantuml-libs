@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotAnalyticsChannel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAnalyticsChannel element
@@ -34,7 +34,7 @@ AwsIotAnalyticsChannel('element', 'Iot Analytics Channel', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAnalyticsChannel element
@@ -53,8 +53,8 @@ AwsIotAnalyticsChannel('element', 'Iot Analytics Channel', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAnalyticsChannel card
 include('elements/aws/InternetOfThings/AwsIotAnalyticsChannel')
@@ -71,8 +71,8 @@ AwsIotAnalyticsChannelCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAnalyticsChannel card
 include('elements/aws/InternetOfThings/AwsIotAnalyticsChannel')

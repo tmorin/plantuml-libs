@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsScreenLockPortraitLg [20x20/16z] XP055iH03487mcwzlVzfwphwd-N5mMs09t0NrlOdhLsvQhgfdbntyihLn0xh9vUAo217YNvEWBmScxfk-CrfMb4vP-EA-NTNqf-cjVaU-5xbFFMzNm
 
+sprite $MaterialsScreenLockPortraitMd [14x14/16z] TOu30e1044Nd8-l-fyskVOin8e9UOQnKmqgr6gYhSgQgiLhbMm0t2n8kItckoyg78KzP8F5f_Pr-t-ovzGG
+
 !function MaterialsScreenLockPortrait($id, $name="Screen Lock Portrait", $tech="")
   CloudElement($id, 'materials/Device/MaterialsScreenLockPortrait', $name, $tech)
 !endfunction
 !function MaterialsScreenLockPortraitCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScreenLockPortraitLg>', 'Screen Lock Portrait', $funcName, $content)
+  CloudCard($id, '<$MaterialsScreenLockPortraitMd>', 'Screen Lock Portrait', $funcName, $content)
 !endfunction
 @enduml

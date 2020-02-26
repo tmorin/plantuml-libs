@@ -5,10 +5,15 @@ CeqCKgSMekMIbp8ZFgCtiRuBoTVNmmFdUB3bF9wTFYUtbsthh27ypFN4DKmyB4ycm-K10Nbj4MfaALqL
 krCbhrQXQj2rINCoktSDhowb6sYlEDKQvYcOxconase5Extk6BxU_eUNBozVhDjjMz6rNl6iabNnHbRWphtr3m
 }
 
+sprite $AzureDatabaseMigrationServicesMd [28x14/16z] {
+fP17WWGn20C52iR-_uFNlNdEKuvG9uI7pamQtp0NVXUzPisU_bQkGlbJLcVKwvp1fQzI6d2XChCDz9pJA4lKqXH4PFOv-xxt8Tm0oXP0ub6JXZ8dRJpO19HU
+UxjPQ7AT2L3oIipgQ0-bBaewOvNJIdEw0fgsx4JXhTPJM8dvFUkw51xKlyyRhbyTSIdNJuBN_QHRJfm8m0S
+}
+
 !function AzureDatabaseMigrationServices($id, $name="Database Migration Services", $tech="")
   CloudElement($id, 'azure/MigrateServiceColor/AzureDatabaseMigrationServices', $name, $tech)
 !endfunction
 !function AzureDatabaseMigrationServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDatabaseMigrationServicesLg>', 'Database Migration Services', $funcName, $content)
+  CloudCard($id, '<$AzureDatabaseMigrationServicesMd>', 'Database Migration Services', $funcName, $content)
 !endfunction
 @enduml

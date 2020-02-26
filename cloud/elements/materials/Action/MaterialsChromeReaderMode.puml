@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsChromeReaderModeLg [20x20/16z] fSy35W1H20NGNj_U_sh7DkvnZlvWDT0znGHNUjdteWFY4FFegRY8KKysiJ3473hh65lNaEiwRk51dMXiwenj7C-xkS_p_8STOZc6Jh8Wo0tGKpK
 
+sprite $MaterialsChromeReaderModeMd [14x14/16z] VSpL0O0m40FGimI7_QV57ThtTHh9q21cN8HwFymQnApo61QLB1XxP-vkLnU0dvtF8RSEzvqjZgvMcHLXJJThoqLbedPIUPe
+
 !function MaterialsChromeReaderMode($id, $name="Chrome Reader Mode", $tech="")
   CloudElement($id, 'materials/Action/MaterialsChromeReaderMode', $name, $tech)
 !endfunction
 !function MaterialsChromeReaderModeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsChromeReaderModeLg>', 'Chrome Reader Mode', $funcName, $content)
+  CloudCard($id, '<$MaterialsChromeReaderModeMd>', 'Chrome Reader Mode', $funcName, $content)
 !endfunction
 @enduml

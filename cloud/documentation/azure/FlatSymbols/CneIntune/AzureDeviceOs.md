@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureDeviceOs
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDeviceOs element
 include('elements/azure/FlatSymbols/CneIntune/AzureDeviceOs')
@@ -34,8 +34,8 @@ AzureDeviceOs('element', 'Device Os', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDeviceOs element
 include('elements/azure/FlatSymbols/CneIntune/AzureDeviceOs')
@@ -53,8 +53,8 @@ AzureDeviceOs('element', 'Device Os', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDeviceOs card
 include('elements/azure/FlatSymbols/CneIntune/AzureDeviceOs')
@@ -71,8 +71,8 @@ AzureDeviceOsCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDeviceOs card
 include('elements/azure/FlatSymbols/CneIntune/AzureDeviceOs')

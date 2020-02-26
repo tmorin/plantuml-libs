@@ -4,10 +4,12 @@ bT230GCm40NG-pc7-qzRstsnGR-2F00XHhip0kYAEzftVK87mB6Kcpxtvxw8XpwOjMQ6sxvIwnYrblkr
 7mRwonO
 }
 
+sprite $MaterialsAddToQueueMd [14x14/16z] LSt50K0n309Ge6xxh_kb_axnu4OjX59Sacp0YyGhMElniXOltpDwpvKfbXArUd1kJRwC6LdW4go-F_dr_TNtozJMgY7HwOLbUG
+
 !function MaterialsAddToQueue($id, $name="Add To Queue", $tech="")
   CloudElement($id, 'materials/Av/MaterialsAddToQueue', $name, $tech)
 !endfunction
 !function MaterialsAddToQueueCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAddToQueueLg>', 'Add To Queue', $funcName, $content)
+  CloudCard($id, '<$MaterialsAddToQueueMd>', 'Add To Queue', $funcName, $content)
 !endfunction
 @enduml

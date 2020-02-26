@@ -16,7 +16,7 @@ elements/aws/Storage/AwsElasticBlockStoreEbsVolume
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsVolume element
@@ -34,7 +34,7 @@ AwsElasticBlockStoreEbsVolume('element', 'Elastic Block Store Ebs Volume', 'an o
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsVolume element
@@ -53,8 +53,8 @@ AwsElasticBlockStoreEbsVolume('element', 'Elastic Block Store Ebs Volume', 'an o
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsVolume card
 include('elements/aws/Storage/AwsElasticBlockStoreEbsVolume')
@@ -71,8 +71,8 @@ AwsElasticBlockStoreEbsVolumeCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticBlockStoreEbsVolume card
 include('elements/aws/Storage/AwsElasticBlockStoreEbsVolume')

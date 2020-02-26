@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsArtifact
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsArtifact element
@@ -34,7 +34,7 @@ AwsArtifact('element', 'Artifact', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsArtifact element
@@ -53,8 +53,8 @@ AwsArtifact('element', 'Artifact', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsArtifact card
 include('elements/aws/SecurityIdentityCompliance/AwsArtifact')
@@ -71,8 +71,8 @@ AwsArtifactCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsArtifact card
 include('elements/aws/SecurityIdentityCompliance/AwsArtifact')

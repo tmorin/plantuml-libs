@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAudiotrackLg [20x20/16z] dS-r0S0m44FH0vbf_sc3JHZyorT9z3l5bEujjYbtj1I2FPfXfgE1gC_uQ6A3BtkJPTlUR3jRk32_skui5Whx5oPF9BHFL9d-DW8
 
+sprite $MaterialsAudiotrackMd [14x14/16z] RKor0S0m30ip_FzjkyIiIUmi-102ghxFyA16Jz6XAa2byaJ5rW-eCE-zeEAbAknV9TZbkOedbyWfFW
+
 !function MaterialsAudiotrack($id, $name="Audiotrack", $tech="")
   CloudElement($id, 'materials/Image/MaterialsAudiotrack', $name, $tech)
 !endfunction
 !function MaterialsAudiotrackCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAudiotrackLg>', 'Audiotrack', $funcName, $content)
+  CloudCard($id, '<$MaterialsAudiotrackMd>', 'Audiotrack', $funcName, $content)
 !endfunction
 @enduml

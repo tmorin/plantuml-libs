@@ -4,10 +4,12 @@ VP053iHG448NrlX-_zFMlQJ49YzZy7eGI9p1HwcKfC-EgRP8N55ic-8CCNLLgKwTq_XdQiXadehFo3Gp
 tC_6cyd0PUKpzUe1
 }
 
+sprite $MaterialsAddCircleMd [14x14/16z] PKx50S1033htXFsdhHizFb74J70nv-Yk8Gvi6F4SzdPVxAFRcn3sbJjFy1xdCMC4RwqF0vad_cGLSc1tJlR72W
+
 !function MaterialsAddCircle($id, $name="Add Circle", $tech="")
   CloudElement($id, 'materials/Content/MaterialsAddCircle', $name, $tech)
 !endfunction
 !function MaterialsAddCircleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAddCircleLg>', 'Add Circle', $funcName, $content)
+  CloudCard($id, '<$MaterialsAddCircleMd>', 'Add Circle', $funcName, $content)
 !endfunction
 @enduml

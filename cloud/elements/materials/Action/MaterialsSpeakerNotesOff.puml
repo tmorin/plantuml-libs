@@ -4,10 +4,12 @@ RSw50SGW44JH5Lpxx_OMcVCVVqa0-XCpaRndpo4pXJ4w6ec9qyBvgWkHpeqbhqgVmqp6HgKLPzX2bfKM
 PNFO0OIjWFrOpwTgw3qjQuvlM98qHmWee3T4mCI_QByz
 }
 
+sprite $MaterialsSpeakerNotesOffMd [14x14/16z] LSo50OGm343HD7xA_jiImpxwQl18SAbD1EI8dwqp07iZEaTMsjwuCDAMUr5Q5ek1ZfL2iJYEQhrUM_BTocfMGp_XI1nnXHWgTCntOtX513i
+
 !function MaterialsSpeakerNotesOff($id, $name="Speaker Notes Off", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSpeakerNotesOff', $name, $tech)
 !endfunction
 !function MaterialsSpeakerNotesOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSpeakerNotesOffLg>', 'Speaker Notes Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsSpeakerNotesOffMd>', 'Speaker Notes Off', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatQuote
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatQuote element
 include('elements/materials/Editor/MaterialsFormatQuote')
@@ -34,8 +34,8 @@ MaterialsFormatQuote('element', 'Format Quote', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatQuote element
 include('elements/materials/Editor/MaterialsFormatQuote')
@@ -53,8 +53,8 @@ MaterialsFormatQuote('element', 'Format Quote', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatQuote card
 include('elements/materials/Editor/MaterialsFormatQuote')
@@ -71,8 +71,8 @@ MaterialsFormatQuoteCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatQuote card
 include('elements/materials/Editor/MaterialsFormatQuote')

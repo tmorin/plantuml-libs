@@ -4,10 +4,12 @@ jSgr0G9044JHlxFdsd-rk9F2oqRu0mivbuJoXJZnFif7fv75XrAD3pO2Dxe0DFrUpNKo1Nhyp2yCA8Kl
 704
 }
 
+sprite $MaterialsLowPriorityMd [14x14/16z] ZSgt0O103C10EHlstvUSElvQYHyYWkm0oUwIwEu0wVYqI3xAs5rdEZlTWRMYF7ogsV7Cyn9lmzpTO2SCM04
+
 !function MaterialsLowPriority($id, $name="Low Priority", $tech="")
   CloudElement($id, 'materials/Content/MaterialsLowPriority', $name, $tech)
 !endfunction
 !function MaterialsLowPriorityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLowPriorityLg>', 'Low Priority', $funcName, $content)
+  CloudCard($id, '<$MaterialsLowPriorityMd>', 'Low Priority', $funcName, $content)
 !endfunction
 @enduml

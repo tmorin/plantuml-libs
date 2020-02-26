@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsNfc
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNfc element
 include('elements/materials/Device/MaterialsNfc')
@@ -34,8 +34,8 @@ MaterialsNfc('element', 'Nfc', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNfc element
 include('elements/materials/Device/MaterialsNfc')
@@ -53,8 +53,8 @@ MaterialsNfc('element', 'Nfc', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNfc card
 include('elements/materials/Device/MaterialsNfc')
@@ -71,8 +71,8 @@ MaterialsNfcCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNfc card
 include('elements/materials/Device/MaterialsNfc')

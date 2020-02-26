@@ -4,10 +4,12 @@ XSW5SaGX44NHgay_8_lVRx38-4NxvEH_vGO_cZ3IV_EQXs_hGqWj3ekQrWCYRcIJ2zX68AhHdtN1myaQ
 ZAO5jZEEu6CJQK0ST6oYIPQIOqV9z1ix7VkwmMDFy1i
 }
 
+sprite $AwsServiceCatalogMd [14x14/16z] PScv5G9G44BHv0F3s7-_8kxw8kx1RHxzQvXqKw44HcjY2527qRB2e59m3YXLodC0oP794v9ZRyv6kTeHKLHhTRjgrUMBLm
+
 !function AwsServiceCatalog($id, $name="Service Catalog", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsServiceCatalog', $name, $tech)
 !endfunction
 !function AwsServiceCatalogCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsServiceCatalogLg>', 'Service Catalog', $funcName, $content)
+  CloudCard($id, '<$AwsServiceCatalogMd>', 'Service Catalog', $funcName, $content)
 !endfunction
 @enduml

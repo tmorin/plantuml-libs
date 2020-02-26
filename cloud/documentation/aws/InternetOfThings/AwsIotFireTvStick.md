@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotFireTvStick
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotFireTvStick element
@@ -34,7 +34,7 @@ AwsIotFireTvStick('element', 'Iot Fire Tv Stick', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotFireTvStick element
@@ -53,8 +53,8 @@ AwsIotFireTvStick('element', 'Iot Fire Tv Stick', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotFireTvStick card
 include('elements/aws/InternetOfThings/AwsIotFireTvStick')
@@ -71,8 +71,8 @@ AwsIotFireTvStickCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotFireTvStick card
 include('elements/aws/InternetOfThings/AwsIotFireTvStick')

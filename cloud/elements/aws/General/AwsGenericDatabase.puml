@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsGenericDatabaseLg [20x20/16z] rT253SH044FHONkr_TTx5-OKa2z-5bgcB78eJDOq2LHc0KoTYRNjLfpGUyXMT9-iWHK-54MqsI0MXQ4A4woszs6pizdzA-ZRf_Vl_m
 
+sprite $AwsGenericDatabaseMd [14x14/16z] hOwr4G114CEy8CzS_mK_S_nQL6P9sTXqQWKg8x9WaHYbZHgncDi6BsSrbbcGE6pbLxCE79zaxzGp
+
 !function AwsGenericDatabase($id, $name="Generic Database", $tech="")
   CloudElement($id, 'aws/General/AwsGenericDatabase', $name, $tech)
 !endfunction
 !function AwsGenericDatabaseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsGenericDatabaseLg>', 'Generic Database', $funcName, $content)
+  CloudCard($id, '<$AwsGenericDatabaseMd>', 'Generic Database', $funcName, $content)
 !endfunction
 @enduml

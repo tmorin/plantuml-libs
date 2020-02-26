@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureEnterpriseApplications
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseApplications element
 include('elements/azure/IdentityServiceColor/AzureEnterpriseApplications')
@@ -34,8 +34,8 @@ AzureEnterpriseApplications('element', 'Enterprise Applications', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseApplications element
 include('elements/azure/IdentityServiceColor/AzureEnterpriseApplications')
@@ -53,8 +53,8 @@ AzureEnterpriseApplications('element', 'Enterprise Applications', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseApplications card
 include('elements/azure/IdentityServiceColor/AzureEnterpriseApplications')
@@ -71,8 +71,8 @@ AzureEnterpriseApplicationsCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureEnterpriseApplications card
 include('elements/azure/IdentityServiceColor/AzureEnterpriseApplications')

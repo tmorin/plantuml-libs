@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsContactMail
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactMail element
 include('elements/materials/Communication/MaterialsContactMail')
@@ -34,8 +34,8 @@ MaterialsContactMail('element', 'Contact Mail', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactMail element
 include('elements/materials/Communication/MaterialsContactMail')
@@ -53,8 +53,8 @@ MaterialsContactMail('element', 'Contact Mail', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactMail card
 include('elements/materials/Communication/MaterialsContactMail')
@@ -71,8 +71,8 @@ MaterialsContactMailCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactMail card
 include('elements/materials/Communication/MaterialsContactMail')

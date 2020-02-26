@@ -4,10 +4,12 @@ RT054iKW34NHf4bvw7J_g_rINExumQ5_VFMOtiJ78VCQlFOG-3LGJoCp9Djj0IaMjPdtFDgRXjL4iThz
 XFwsnW4w92-Q47i9L3z--Val
 }
 
+sprite $MaterialsFilter2Md [14x14/16z] JSwt0S0m3CJ0PoRt7zXMbj1T1m2iAq4hmqTHZPG48WBWAjObMTQbtWMIl2BFkD8Gkh8GlX9tssAQHHEySiLDe1KW5JupjEHz_W4
+
 !function MaterialsFilter2($id, $name="Filter2", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilter2', $name, $tech)
 !endfunction
 !function MaterialsFilter2Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilter2Lg>', 'Filter2', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilter2Md>', 'Filter2', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalWifi4BarLock
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi4BarLock element
 include('elements/materials/Device/MaterialsSignalWifi4BarLock')
@@ -34,8 +34,8 @@ MaterialsSignalWifi4BarLock('element', 'Signal Wifi4 Bar Lock', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi4BarLock element
 include('elements/materials/Device/MaterialsSignalWifi4BarLock')
@@ -53,8 +53,8 @@ MaterialsSignalWifi4BarLock('element', 'Signal Wifi4 Bar Lock', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi4BarLock card
 include('elements/materials/Device/MaterialsSignalWifi4BarLock')
@@ -71,8 +71,8 @@ MaterialsSignalWifi4BarLockCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalWifi4BarLock card
 include('elements/materials/Device/MaterialsSignalWifi4BarLock')

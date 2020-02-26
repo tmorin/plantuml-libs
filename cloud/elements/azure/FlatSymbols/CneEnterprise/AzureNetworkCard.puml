@@ -4,10 +4,15 @@ fT550eGm343Hr1kv_tMhoU2hUJWVHmfy4eoVv5yvJedaX7alF2nuRYNGyjfycR9xFO-7ZskwF1GECBdd
 ePnXL5cl-QK4d4WK8x8kxRydQ-YWwDAQpoe2XBbC01q
 }
 
+sprite $AzureNetworkCardMd [20x14/16z] {
+PSw5OGGm30F0e47I_lCsqESBeyrUVWZvGmSFVV2wcFxH4i0iotpkZLW_VEzv1Bmizje34Sm5hpqAUQTpR24QHO_jV72-u3CzjBgvEAa7NcAVPdRtOR7wDBRp
+HsopzDNtyWS
+}
+
 !function AzureNetworkCard($id, $name="Network Card", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureNetworkCard', $name, $tech)
 !endfunction
 !function AzureNetworkCardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureNetworkCardLg>', 'Network Card', $funcName, $content)
+  CloudCard($id, '<$AzureNetworkCardMd>', 'Network Card', $funcName, $content)
 !endfunction
 @enduml

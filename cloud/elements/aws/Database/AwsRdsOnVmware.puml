@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsRdsOnVmwareLg [20x20/16z] {
-fOut0WL124ABKNWwzp_lZsxezrL6e9-Xy5GEJHN1LAoSodplQggJqfVg2vibQo5VeoPj9tqELPkG56mqCnB2Ta2UaWLfAw7wf1f9jgGHd48PaYPqBBwgQe0n
-mNHl-rjNzWrIajBzZ3S
+RSz70aGX30BGXGOmtl--GopJ-TLdJJhZFPBo3twJKuREqqAF-jXwqndCrezHkEE8OpKcAfBX6CW6H2DmZKXsqiy0Zc6aEWATgIYRwH_PO6DecN4S4vNR2fCs
+mdjZMMsRZZSEPu_RTGY34e-9PRi4RvosojeTWDTpzxpubla7vnzy
 }
+
+sprite $AwsRdsOnVmwareMd [14x14/16z] LSc53SLG34FH3uqf-yzRfdT5Fd8INqblUHMmBqoo7zMkM02uxaqY2mLo5wq2OApguUkEZIrg4vaOLOLDG2BQsjL96oIuZhsSzS05
 
 !function AwsRdsOnVmware($id, $name="Rds On Vmware", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsOnVmware', $name, $tech)
 !endfunction
 !function AwsRdsOnVmwareCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsOnVmwareLg>', 'Rds On Vmware', $funcName, $content)
+  CloudCard($id, '<$AwsRdsOnVmwareMd>', 'Rds On Vmware', $funcName, $content)
 !endfunction
 @enduml

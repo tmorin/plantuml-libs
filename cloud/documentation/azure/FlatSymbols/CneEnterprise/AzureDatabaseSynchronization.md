@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseSynchronization element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization')
@@ -34,8 +34,8 @@ AzureDatabaseSynchronization('element', 'Database Synchronization', 'an optional
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseSynchronization element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization')
@@ -53,8 +53,8 @@ AzureDatabaseSynchronization('element', 'Database Synchronization', 'an optional
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseSynchronization card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization')
@@ -71,8 +71,8 @@ AzureDatabaseSynchronizationCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseSynchronization card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureDatabaseSynchronization')

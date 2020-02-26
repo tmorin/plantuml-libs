@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsPanoramaWideAngle
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaWideAngle element
 include('elements/materials/Image/MaterialsPanoramaWideAngle')
@@ -34,8 +34,8 @@ MaterialsPanoramaWideAngle('element', 'Panorama Wide Angle', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaWideAngle element
 include('elements/materials/Image/MaterialsPanoramaWideAngle')
@@ -53,8 +53,8 @@ MaterialsPanoramaWideAngle('element', 'Panorama Wide Angle', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaWideAngle card
 include('elements/materials/Image/MaterialsPanoramaWideAngle')
@@ -71,8 +71,8 @@ MaterialsPanoramaWideAngleCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaWideAngle card
 include('elements/materials/Image/MaterialsPanoramaWideAngle')

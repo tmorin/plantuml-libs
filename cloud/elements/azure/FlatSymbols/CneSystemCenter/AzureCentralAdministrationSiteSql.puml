@@ -4,10 +4,12 @@ bO_N5GCn20GLbkN0_VThqhE_RnH74ROqM8Nuf_1RIdyISumISLH7EOT_EhpG_zqoqpDQ1g4giViZHGvk
 CZgBSPzaeoApkuOZf9pr1G
 }
 
+sprite $AzureCentralAdministrationSiteSqlMd [11x14/16z] JSR50O0m50Kmx3zZ_tbnskQKbRUQBepjwAa1wEr--vfah5kD-UtkeiILIRJfKZHGy8KqYPl-rWOMx-Q2wJQ3n782
+
 !function AzureCentralAdministrationSiteSql($id, $name="Central Administration Site Sql", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql', $name, $tech)
 !endfunction
 !function AzureCentralAdministrationSiteSqlCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCentralAdministrationSiteSqlLg>', 'Central Administration Site Sql', $funcName, $content)
+  CloudCard($id, '<$AzureCentralAdministrationSiteSqlMd>', 'Central Administration Site Sql', $funcName, $content)
 !endfunction
 @enduml

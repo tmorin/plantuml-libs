@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureManagedIdentities
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedIdentities element
 include('elements/azure/IdentityServiceColor/AzureManagedIdentities')
@@ -34,8 +34,8 @@ AzureManagedIdentities('element', 'Managed Identities', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedIdentities element
 include('elements/azure/IdentityServiceColor/AzureManagedIdentities')
@@ -53,8 +53,8 @@ AzureManagedIdentities('element', 'Managed Identities', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedIdentities card
 include('elements/azure/IdentityServiceColor/AzureManagedIdentities')
@@ -71,8 +71,8 @@ AzureManagedIdentitiesCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedIdentities card
 include('elements/azure/IdentityServiceColor/AzureManagedIdentities')

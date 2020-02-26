@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsHdrOn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHdrOn element
 include('elements/materials/Image/MaterialsHdrOn')
@@ -34,8 +34,8 @@ MaterialsHdrOn('element', 'Hdr On', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHdrOn element
 include('elements/materials/Image/MaterialsHdrOn')
@@ -53,8 +53,8 @@ MaterialsHdrOn('element', 'Hdr On', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHdrOn card
 include('elements/materials/Image/MaterialsHdrOn')
@@ -71,8 +71,8 @@ MaterialsHdrOnCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHdrOn card
 include('elements/materials/Image/MaterialsHdrOn')

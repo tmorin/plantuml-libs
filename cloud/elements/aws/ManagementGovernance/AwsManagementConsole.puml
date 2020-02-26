@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsManagementConsoleLg [20x20/16z] fT2r0GKX00FGXkZ--twNz9TJ7awlHPpeRG0floECVSAlVMKjRGpu-VrR03qqQqBjGcE1zMgPiHCzaZDMCg-xOpvATBnM4w1dBR8iCWyIzWnUPghNSWS
 
+sprite $AwsManagementConsoleMd [14x14/16z] VSst0G0n3CF03eIu_xwVGsSuNgKkozSf8AhXKfukfHF8DBU2aaU38FCf-LHHx2KSmGx_zFFjiXq
+
 !function AwsManagementConsole($id, $name="Management Console", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsManagementConsole', $name, $tech)
 !endfunction
 !function AwsManagementConsoleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagementConsoleLg>', 'Management Console', $funcName, $content)
+  CloudCard($id, '<$AwsManagementConsoleMd>', 'Management Console', $funcName, $content)
 !endfunction
 @enduml

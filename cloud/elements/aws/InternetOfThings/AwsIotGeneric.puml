@@ -4,10 +4,12 @@ TP07Ga0n24CVXEJV_yPMt5fVTzdm7ohruHnyK97dOALWiVCwieTPBVCD5w04Maj38YYPpdWEQQm2EMYK
 5B_RQlM0YLRlAvU3ttEvvNofxTA3Iw_kFRtp0W
 }
 
+sprite $AwsIotGenericMd [14x14/16z] LOu50W0W20CPiFy_cR0zavuq67jYFh1X-65410Ffg3le1L51bEMaQLleM0NSHcnaMfc-CwasBVnT_Wd_z5_Phpe1
+
 !function AwsIotGeneric($id, $name="Iot Generic", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotGeneric', $name, $tech)
 !endfunction
 !function AwsIotGenericCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotGenericLg>', 'Iot Generic', $funcName, $content)
+  CloudCard($id, '<$AwsIotGenericMd>', 'Iot Generic', $funcName, $content)
 !endfunction
 @enduml

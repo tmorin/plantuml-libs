@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsSystemsManagerStateManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerStateManager element
@@ -34,7 +34,7 @@ AwsSystemsManagerStateManager('element', 'Systems Manager State Manager', 'an op
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerStateManager element
@@ -53,8 +53,8 @@ AwsSystemsManagerStateManager('element', 'Systems Manager State Manager', 'an op
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerStateManager card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerStateManager')
@@ -71,8 +71,8 @@ AwsSystemsManagerStateManagerCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerStateManager card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerStateManager')

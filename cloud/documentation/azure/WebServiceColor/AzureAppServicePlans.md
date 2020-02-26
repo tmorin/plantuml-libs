@@ -16,8 +16,8 @@ elements/azure/WebServiceColor/AzureAppServicePlans
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServicePlans element
 include('elements/azure/WebServiceColor/AzureAppServicePlans')
@@ -34,8 +34,8 @@ AzureAppServicePlans('element', 'App Service Plans', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServicePlans element
 include('elements/azure/WebServiceColor/AzureAppServicePlans')
@@ -53,8 +53,8 @@ AzureAppServicePlans('element', 'App Service Plans', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServicePlans card
 include('elements/azure/WebServiceColor/AzureAppServicePlans')
@@ -71,8 +71,8 @@ AzureAppServicePlansCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAppServicePlans card
 include('elements/azure/WebServiceColor/AzureAppServicePlans')

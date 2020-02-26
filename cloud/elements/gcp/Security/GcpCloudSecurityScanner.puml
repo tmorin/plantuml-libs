@@ -4,10 +4,12 @@ PP250GCX54EHsFuJjyXvJe6NRsMgRfLJJQTQsP1oIXj5RiB2d2bxlYV8mzOfA1m9d9Y3K6_izZ_DID0v
 Is02hX8vtil30KIx5dGQkybsr2pqLYRDixSXUVVscS5tLXixPshxdEbdzZy
 }
 
+sprite $GcpCloudSecurityScannerMd [14x14/16z] LSwr0G11449Hne3-ApwN_TcB043KMU0eg3EURD_rZfJtI4a9Z4LRNQr1oJqUQfTtA9e83MtjAZBIfqhcM5BBBemzpGhQl1R8RjlvNv_tsGu5iBxU
+
 !function GcpCloudSecurityScanner($id, $name="Cloud Security Scanner", $tech="")
   CloudElement($id, 'gcp/Security/GcpCloudSecurityScanner', $name, $tech)
 !endfunction
 !function GcpCloudSecurityScannerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudSecurityScannerLg>', 'Cloud Security Scanner', $funcName, $content)
+  CloudCard($id, '<$GcpCloudSecurityScannerMd>', 'Cloud Security Scanner', $funcName, $content)
 !endfunction
 @enduml

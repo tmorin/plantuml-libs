@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsPollLg [20x20/16z] ZT150iGm243Hk0FtF-rClOtdBzy6OUi9zKcSbEXJEb1HbdeDdSFIaX0fDw34UMvUcieiKpqBBbQcc9sR4Bb5w_UTlOsFPQds3-fVhVS7
 
+sprite $MaterialsPollMd [14x14/16z] NOw50S0m20HB38VzfwtxHV6VVa0vWSrWF-7LB9wPPklbvRHQkoqdhVMs1CRVuc4lQu0SbXPi3OkUFTNDNFUwp_IliYyB
+
 !function MaterialsPoll($id, $name="Poll", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPoll', $name, $tech)
 !endfunction
 !function MaterialsPollCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPollLg>', 'Poll', $funcName, $content)
+  CloudCard($id, '<$MaterialsPollMd>', 'Poll', $funcName, $content)
 !endfunction
 @enduml

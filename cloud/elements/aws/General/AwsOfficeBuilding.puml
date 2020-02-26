@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsOfficeBuildingLg [20x20/16z] pP250G0X24M5JyZ-2vzT4zopdqtgg6d9wOJ32i6NSwZ2N-T-Eq9te6LopaO0MUdGT584Sz6odLdVQxOT06ePst7Ps3B_Sw-gSikwN9WEB6W5Vg6fy04
 
+sprite $AwsOfficeBuildingMd [14x14/16z] dOwr0G0X40JFTkY_uyUZZnZaNApZTDmsWKHSIw1jUQ4EDNEpAIDJBQU5IlsoBCL4EyQ8yH1J1tuc19k-smS
+
 !function AwsOfficeBuilding($id, $name="Office Building", $tech="")
   CloudElement($id, 'aws/General/AwsOfficeBuilding', $name, $tech)
 !endfunction
 !function AwsOfficeBuildingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOfficeBuildingLg>', 'Office Building', $funcName, $content)
+  CloudCard($id, '<$AwsOfficeBuildingMd>', 'Office Building', $funcName, $content)
 !endfunction
 @enduml

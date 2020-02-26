@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupCloudServiceProvider group
 include('groups/gcp/GcpGroupCloudServiceProvider')
@@ -30,8 +30,8 @@ GcpGroupCloudServiceProvider('element', 'Cloud Service Provider', 'an optional t
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupCloudServiceProvider group
 include('groups/gcp/GcpGroupCloudServiceProvider')

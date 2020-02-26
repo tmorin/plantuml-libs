@@ -190,7 +190,8 @@ EOF
 
 generateElementSnippets() {
   local elSrc=$1
-  local pkgStlRes=$2
+  local pkgStlFile=$2
+  local pkgStlRes=$(sed -r 's:([^/]*/){1}::' <<< ${pkgStlFile%.*})
   local elName=$(basename ${elSrc%.*})
   local hName=$(sed -e 's/\([A-Z]\)/ \1/g;s/^ //;s/[^ ]*//;s/^ //;' <<< ${elName})
   local baseElSnp=$(sed -r 's:/elements/:/snippets/:' <<< ${elSrc%.*})
@@ -202,7 +203,7 @@ generateElementSnippets() {
   local relativeRootLib=$(sed -r "s:[^/]*/:../:g;s:/[^/]*$:/:" <<< "${elFullName}")
   mkdir -p $(dirname ${elSnpElLocal})
   local pkgStlResSmt=""
-  if [[ -f "${pkgStlRes}.puml" ]]; then
+  if [[ -f ${pkgStlFile} ]]; then
     pkgStlResSmt=$(echo -e "\n\n' loads the style\ninclude('${pkgStlRes}')")
   fi
   cat <<EOF > ${elSnpElLocal}
@@ -333,7 +334,7 @@ generateElement() {
   local iconPath=$2
   local elDir=$(sed -r 's:/icons/:/elements/:' <<< $(dirname ${iconPath}))
   local sptDir=$(sed -r 's:/elements/:/sprites/:' <<< ${elDir})
-  local pkgStlRes="${libName}/styles/${pkgName}"
+  local pkgStlFile="${libName}/styles/${pkgName}.puml"
   local elName=$(basename ${iconPath})
   elName=${elName%.*}
   local elSrc="${elDir}/${elName}.puml"
@@ -353,7 +354,7 @@ generateElement() {
   cat ${tmpSptMd} >> ${elSrc}
 
   generateElementFunctions ${iconPath} ${elSrc}
-  generateElementSnippets ${elSrc} ${pkgStlRes}
+  generateElementSnippets ${elSrc} ${pkgStlFile}
   generateElementDocumentation ${iconPath} ${elSrc}
 
   echo '@enduml' >> ${elSrc}
@@ -389,13 +390,14 @@ generateGroups() {
       local relativeRootLib=$(sed -r "s:[^/]*/:../:g;s:/[^/]*$:/:" <<< "${grpFullName}")
       local grpSnpLocalImgSrc="${grpSnpGrpLocal%.*}.png"
       local grpSnpLocalImgDst="${grpDoc%.*}.group.png"
-      local pkgStlRes="${libName}/styles/${PkgName}"
+      local pkgStlFile="${libName}/styles/${pkgName}.puml"
+      local pkgStlRes="styles/${PkgName}"
       mkdir -p $(dirname ${grpSrc})
       mkdir -p $(dirname ${grpDoc})
       mkdir -p $(dirname ${grpSnpGrpLocal})
       echo '@startuml' > ${grpSrc}
       local pkgStlResSmt=""
-      if [[ -f "${pkgStlRes}.puml" ]]; then
+      if [[ -f ${pkgStlFile} ]]; then
         pkgStlResSmt=$(echo -e "\n\n' loads the style\ninclude('${pkgStlRes}')")
       fi
       local spriteValue=""

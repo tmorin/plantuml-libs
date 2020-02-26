@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsHdrWeakLg [20x20/16z] lOwr4G0W303n-B7_j7YPcaVY4lwI6XBafwUuHHQ1HbQN6a6DyfACSVtLbjxwWcCeci86SONx9WV0S2WIFPzJwyrmTl5s_iC4
 
+sprite $MaterialsHdrWeakMd [14x14/16z] bOsr0G0n24K_3gVxRnjQIbw26zQG2A5XRgNbKGBu-nYu690aUV__9dKq8JEQdMFBlB3W
+
 !function MaterialsHdrWeak($id, $name="Hdr Weak", $tech="")
   CloudElement($id, 'materials/Image/MaterialsHdrWeak', $name, $tech)
 !endfunction
 !function MaterialsHdrWeakCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHdrWeakLg>', 'Hdr Weak', $funcName, $content)
+  CloudCard($id, '<$MaterialsHdrWeakMd>', 'Hdr Weak', $funcName, $content)
 !endfunction
 @enduml

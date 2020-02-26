@@ -16,7 +16,7 @@ elements/aws/Compute/AwsElasticContainerServiceTask
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticContainerServiceTask element
@@ -34,7 +34,7 @@ AwsElasticContainerServiceTask('element', 'Elastic Container Service Task', 'an 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticContainerServiceTask element
@@ -53,8 +53,8 @@ AwsElasticContainerServiceTask('element', 'Elastic Container Service Task', 'an 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticContainerServiceTask card
 include('elements/aws/Compute/AwsElasticContainerServiceTask')
@@ -71,8 +71,8 @@ AwsElasticContainerServiceTaskCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticContainerServiceTask card
 include('elements/aws/Compute/AwsElasticContainerServiceTask')

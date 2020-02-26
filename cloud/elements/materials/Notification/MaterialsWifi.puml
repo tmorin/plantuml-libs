@@ -4,10 +4,12 @@ fO_55G0X34GXyWQV_gjTz-j-D9w4_qHPY4-5eRJUMu6TQYlagANKGHRRd31ONEE2Uk70uWfMZrSMhqG8
 6E_tWG7sdIsJ-VIwSzwvRkMj-iCC
 }
 
+sprite $MaterialsWifiMd [14x14/16z] XSE53SHG44F1P-_6uVJVxJ68_qZ3W5nbyU9ivyCM0xtlARkoxusM2FISHGXwsVUbGJpaMgPfkSABYuSo7qxCZxVD_DaCtG4
+
 !function MaterialsWifi($id, $name="Wifi", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsWifi', $name, $tech)
 !endfunction
 !function MaterialsWifiCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWifiLg>', 'Wifi', $funcName, $content)
+  CloudCard($id, '<$MaterialsWifiMd>', 'Wifi', $funcName, $content)
 !endfunction
 @enduml

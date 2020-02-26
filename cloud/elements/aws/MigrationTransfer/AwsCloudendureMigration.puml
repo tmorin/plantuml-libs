@@ -4,10 +4,12 @@ TSn50WD124JH26Lz_mDdO6JL-Sk7-4bFsM0sc46Jr8FfL22gyJ6NRBC6BYFd7jyg-J9up39WZm5EOf5K
 Q0j5Hh005Drsg18wdiP6d_xQ1jS6rmP_
 }
 
+sprite $AwsCloudendureMigrationMd [14x14/16z] LOe50WD1309hGVB_1nUgTwnE6Bt3Ttn21mbG7p91pgz3nHceHDHEZL0hYez7K4jPZuaPMol6nP12EhCVPG1fTsqf9ocLcpCvTC8d
+
 !function AwsCloudendureMigration($id, $name="Cloudendure Migration", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsCloudendureMigration', $name, $tech)
 !endfunction
 !function AwsCloudendureMigrationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudendureMigrationLg>', 'Cloudendure Migration', $funcName, $content)
+  CloudCard($id, '<$AwsCloudendureMigrationMd>', 'Cloudendure Migration', $funcName, $content)
 !endfunction
 @enduml

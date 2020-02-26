@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsUndo
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsUndo element
 include('elements/materials/Content/MaterialsUndo')
@@ -34,8 +34,8 @@ MaterialsUndo('element', 'Undo', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsUndo element
 include('elements/materials/Content/MaterialsUndo')
@@ -53,8 +53,8 @@ MaterialsUndo('element', 'Undo', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsUndo card
 include('elements/materials/Content/MaterialsUndo')
@@ -71,8 +71,8 @@ MaterialsUndoCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsUndo card
 include('elements/materials/Content/MaterialsUndo')

@@ -4,10 +4,12 @@ PO-7bSL020C1ITprN_4tE6mQnvr714zKZqweV93oPLYwyvMlPTX5SB62DLWioQXGQRRmw8d0rLvQm64T
 zi7_0ZO8WDcnIU09zRLTnVy
 }
 
+sprite $AzureVmMd [15x14/16z] JOu50W0W20Ef3V__ORlEf1S_GDyFTfCaN7syouI9YE6OuIOQrtJp28zhgeK_CsoODvdeoQ_pOykOtu4EB3FNJphgMGfL9jPpLxABD
+
 !function AzureVm($id, $name="Vm", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVm', $name, $tech)
 !endfunction
 !function AzureVmCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVmLg>', 'Vm', $funcName, $content)
+  CloudCard($id, '<$AzureVmMd>', 'Vm', $funcName, $content)
 !endfunction
 @enduml

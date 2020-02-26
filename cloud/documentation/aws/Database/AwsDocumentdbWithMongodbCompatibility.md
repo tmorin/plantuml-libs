@@ -16,7 +16,7 @@ elements/aws/Database/AwsDocumentdbWithMongodbCompatibility
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDocumentdbWithMongodbCompatibility element
@@ -34,7 +34,7 @@ AwsDocumentdbWithMongodbCompatibility('element', 'Documentdb With Mongodb Compat
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDocumentdbWithMongodbCompatibility element
@@ -53,8 +53,8 @@ AwsDocumentdbWithMongodbCompatibility('element', 'Documentdb With Mongodb Compat
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDocumentdbWithMongodbCompatibility card
 include('elements/aws/Database/AwsDocumentdbWithMongodbCompatibility')
@@ -71,8 +71,8 @@ AwsDocumentdbWithMongodbCompatibilityCard('card', 'an optional functional name',
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDocumentdbWithMongodbCompatibility card
 include('elements/aws/Database/AwsDocumentdbWithMongodbCompatibility')

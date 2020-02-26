@@ -4,10 +4,12 @@ XS_5WGH024JHAXmw_totMVVvjtT1SEDBm2PgBwbSqJuYZ68Ucvj09rKe6wdHvvok3FV8wbvkqzjFbkOP
 Qn3lYyfK_T4PyuMbzOcv1sJFpBwbn1C
 }
 
+sprite $AzureDatabaseForMysqlServersMd [11x14/16z] JOo50GGn20HP8G7IVxtlSeDh1FW44K6_OPXoPbhKgMNhKUu-JwQVd8TElT8XMzZLzKX30BtO8yCKYCVkz5GI-doejUhwh7xfHjOyqjh67G
+
 !function AzureDatabaseForMysqlServers($id, $name="Database For Mysql Servers", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureDatabaseForMysqlServers', $name, $tech)
 !endfunction
 !function AzureDatabaseForMysqlServersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDatabaseForMysqlServersLg>', 'Database For Mysql Servers', $funcName, $content)
+  CloudCard($id, '<$AzureDatabaseForMysqlServersMd>', 'Database For Mysql Servers', $funcName, $content)
 !endfunction
 @enduml

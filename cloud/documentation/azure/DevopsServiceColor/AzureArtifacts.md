@@ -16,8 +16,8 @@ elements/azure/DevopsServiceColor/AzureArtifacts
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureArtifacts element
 include('elements/azure/DevopsServiceColor/AzureArtifacts')
@@ -34,8 +34,8 @@ AzureArtifacts('element', 'Artifacts', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureArtifacts element
 include('elements/azure/DevopsServiceColor/AzureArtifacts')
@@ -53,8 +53,8 @@ AzureArtifacts('element', 'Artifacts', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureArtifacts card
 include('elements/azure/DevopsServiceColor/AzureArtifacts')
@@ -71,8 +71,8 @@ AzureArtifactsCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureArtifacts card
 include('elements/azure/DevopsServiceColor/AzureArtifacts')

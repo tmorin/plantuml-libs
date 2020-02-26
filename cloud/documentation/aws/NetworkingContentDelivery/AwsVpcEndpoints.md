@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsVpcEndpoints
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcEndpoints element
@@ -34,7 +34,7 @@ AwsVpcEndpoints('element', 'Vpc Endpoints', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcEndpoints element
@@ -53,8 +53,8 @@ AwsVpcEndpoints('element', 'Vpc Endpoints', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcEndpoints card
 include('elements/aws/NetworkingContentDelivery/AwsVpcEndpoints')
@@ -71,8 +71,8 @@ AwsVpcEndpointsCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcEndpoints card
 include('elements/aws/NetworkingContentDelivery/AwsVpcEndpoints')

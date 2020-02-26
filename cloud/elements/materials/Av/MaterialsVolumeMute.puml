@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsVolumeMuteLg [20x20/16z] Ow0MOCGKOcF25E9ZmX3YHnLZPc5XvqSLO-Jc1mBAnJ3jm7GBOJSZ_8OP1XG3
 
+sprite $MaterialsVolumeMuteMd [14x14/16z] Oo06C29ps9YG9DZuu3nMDWv-18-3dn-JXwaIOGgc3GZR2G
+
 !function MaterialsVolumeMute($id, $name="Volume Mute", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVolumeMute', $name, $tech)
 !endfunction
 !function MaterialsVolumeMuteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVolumeMuteLg>', 'Volume Mute', $funcName, $content)
+  CloudCard($id, '<$MaterialsVolumeMuteMd>', 'Volume Mute', $funcName, $content)
 !endfunction
 @enduml

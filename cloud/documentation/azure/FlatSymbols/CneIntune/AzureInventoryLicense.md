@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureInventoryLicense
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInventoryLicense element
 include('elements/azure/FlatSymbols/CneIntune/AzureInventoryLicense')
@@ -34,8 +34,8 @@ AzureInventoryLicense('element', 'Inventory License', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInventoryLicense element
 include('elements/azure/FlatSymbols/CneIntune/AzureInventoryLicense')
@@ -53,8 +53,8 @@ AzureInventoryLicense('element', 'Inventory License', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInventoryLicense card
 include('elements/azure/FlatSymbols/CneIntune/AzureInventoryLicense')
@@ -71,8 +71,8 @@ AzureInventoryLicenseCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureInventoryLicense card
 include('elements/azure/FlatSymbols/CneIntune/AzureInventoryLicense')

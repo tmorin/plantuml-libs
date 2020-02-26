@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsElementalMediatailorLg [20x20/16z] {
-RSs54KCX00FGkyROV-A6xnRyOLdYMxBco_9fqii8y6QMOKCypQYHCA7Tw0WDBHmcC989SJURT0Vo-gy04j1geqBz52aTc6b5sjnRKYjg_LXnMt5CDDT_wSoK
-fierJJZjbl61umF71_u1
-}
+sprite $AwsElementalMediatailorLg [20x20/16z] hOwt0G90008BE73_XStwgLHAykKVI0uAcuKeSUlG4JCLgFXRu1HBfl7WH9EYmRKuRUnsS96DbS4nieo-PmndzE4qKXgp78JdlO4caBmN1Zs8Nt03
+
+sprite $AwsElementalMediatailorMd [14x14/16z] XOt50S0W5CLgBs7_XUl8ZS1tApC4Xo2feVdnYyWDiVPfxTKSkR_MEHZcU6Fh0KY_w4sPSG4
 
 !function AwsElementalMediatailor($id, $name="Elemental Mediatailor", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediatailor', $name, $tech)
 !endfunction
 !function AwsElementalMediatailorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElementalMediatailorLg>', 'Elemental Mediatailor', $funcName, $content)
+  CloudCard($id, '<$AwsElementalMediatailorMd>', 'Elemental Mediatailor', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TP050e1G24EbkV-5Vunlw-pnf3Q8bhP3x8TuMUHvo1UgUP4M5lCzXl04Q1KdAjvcWPXH9MPIl8uo3ehT
 7U1PuzPBJl5tp-Tii89-Td3kwiJEdKP4xVHhznq
 }
 
+sprite $GcpApigeeSenseMd [14x14/16z] LKw50G112C9s_uaV_URI0W28BGIO86kH6tfVS0PQtUK-jmB1nrIDOS2AGR2u7wPSfrKvNnk5Nz4sE37KThCCQJuAJUXNFHvd38hE_guF
+
 !function GcpApigeeSense($id, $name="Apigee Sense", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpApigeeSense', $name, $tech)
 !endfunction
 !function GcpApigeeSenseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpApigeeSenseLg>', 'Apigee Sense', $funcName, $content)
+  CloudCard($id, '<$GcpApigeeSenseMd>', 'Apigee Sense', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsLaptopWindows
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopWindows element
 include('elements/materials/Hardware/MaterialsLaptopWindows')
@@ -34,8 +34,8 @@ MaterialsLaptopWindows('element', 'Laptop Windows', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopWindows element
 include('elements/materials/Hardware/MaterialsLaptopWindows')
@@ -53,8 +53,8 @@ MaterialsLaptopWindows('element', 'Laptop Windows', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopWindows card
 include('elements/materials/Hardware/MaterialsLaptopWindows')
@@ -71,8 +71,8 @@ MaterialsLaptopWindowsCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopWindows card
 include('elements/materials/Hardware/MaterialsLaptopWindows')

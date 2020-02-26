@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsCloudendureDisasterRecoveryLg [20x20/16z] hKzL0eH05DeYvlu7rkdyND6fLq3u7_OHGGJN61ItDSZomWyQPQup3RUoScCyzIkLGZrIe5P2TG2HKYonoeElQgpsuYV1gRTo0CmK1ZGxGwBS77uH3Z0yWXi
+sprite $AwsCloudendureDisasterRecoveryLg [20x20/16z] {
+PS_5eKCn34JH3mCQzrzmOdfubyUezEgQdJSkk-iclqmWU3UoKiBLYdC5u67IlfFgrX9Zhf0osAqL1nKCfQXkLkj6Z_tcQMRqpstpLK45xxFD91MJZhwKRYrh
+OvywwROYijiKrSsMlcpXiZT-
+}
+
+sprite $AwsCloudendureDisasterRecoveryMd [14x14/16z] ROk70SHG24BlKW3TV-2WwOLVdq1OsiMYa_jFdYG0CtU2BytDPQtXmbmjp90nnNJOJX3bLOlsO2y9i04oEHYSefKjwgJI5oq
 
 !function AwsCloudendureDisasterRecovery($id, $name="Cloudendure Disaster Recovery", $tech="")
   CloudElement($id, 'aws/Storage/AwsCloudendureDisasterRecovery', $name, $tech)
 !endfunction
 !function AwsCloudendureDisasterRecoveryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudendureDisasterRecoveryLg>', 'Cloudendure Disaster Recovery', $funcName, $content)
+  CloudCard($id, '<$AwsCloudendureDisasterRecoveryMd>', 'Cloudendure Disaster Recovery', $funcName, $content)
 !endfunction
 @enduml

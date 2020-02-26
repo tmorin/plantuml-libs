@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsChangeHistoryLg [20x20/16z] hOx50S0W34Mn2Bx_j5MSO_lG-1T_8ENkGznSEaQzLh9pl5H3q3g0654UhuvUZJvoygftDBXCDFKfb8IINYYDIjk7OI14NQMfDh-8X1ni8sHuV0ZO00JnYHC
 
+sprite $MaterialsChangeHistoryMd [14x14/16z] XSZ50OG03031ZKl__PuBBvXuk2J2GIP_DcDyIPkry1496Rpf2CWeB-K0Nhp7uIbR_b8heFcZdBa3
+
 !function MaterialsChangeHistory($id, $name="Change History", $tech="")
   CloudElement($id, 'materials/Action/MaterialsChangeHistory', $name, $tech)
 !endfunction
 !function MaterialsChangeHistoryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsChangeHistoryLg>', 'Change History', $funcName, $content)
+  CloudCard($id, '<$MaterialsChangeHistoryMd>', 'Change History', $funcName, $content)
 !endfunction
 @enduml

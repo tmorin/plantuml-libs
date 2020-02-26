@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalCellular3Bar
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellular3Bar element
 include('elements/materials/Device/MaterialsSignalCellular3Bar')
@@ -34,8 +34,8 @@ MaterialsSignalCellular3Bar('element', 'Signal Cellular3 Bar', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellular3Bar element
 include('elements/materials/Device/MaterialsSignalCellular3Bar')
@@ -53,8 +53,8 @@ MaterialsSignalCellular3Bar('element', 'Signal Cellular3 Bar', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellular3Bar card
 include('elements/materials/Device/MaterialsSignalCellular3Bar')
@@ -71,8 +71,8 @@ MaterialsSignalCellular3BarCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellular3Bar card
 include('elements/materials/Device/MaterialsSignalCellular3Bar')

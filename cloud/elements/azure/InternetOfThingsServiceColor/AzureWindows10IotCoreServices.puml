@@ -5,10 +5,15 @@ JL07eiKW25CshVpS_xOVtkxKBAFhTR5fH5x7NdCo8Jzs01G_eHse0Y9-iGJkCDEhmJCWcUCOFJBhIbmz
 -LpbjDxNPh_gfBqEz1y
 }
 
+sprite $AzureWindows10IotCoreServicesMd [14x14/16z] {
+7Ko50GGn28EaXdttt_RfLOcAYAgkPPvJ7ZXswkIzuo5cdJdN_JbQ2UDpx1r74TaKgSfJGtq92H2omgp3V1fbMiMb46lXGsWdC0O-9oBGOajVY-M1eCyEqsxt
+FSbvdab4LtHrb3LuiClAflRu1m
+}
+
 !function AzureWindows10IotCoreServices($id, $name="Windows10 Iot Core Services", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureWindows10IotCoreServices', $name, $tech)
 !endfunction
 !function AzureWindows10IotCoreServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureWindows10IotCoreServicesLg>', 'Windows10 Iot Core Services', $funcName, $content)
+  CloudCard($id, '<$AzureWindows10IotCoreServicesMd>', 'Windows10 Iot Core Services', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsInputAntenna
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputAntenna element
 include('elements/materials/Action/MaterialsSettingsInputAntenna')
@@ -34,8 +34,8 @@ MaterialsSettingsInputAntenna('element', 'Settings Input Antenna', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputAntenna element
 include('elements/materials/Action/MaterialsSettingsInputAntenna')
@@ -53,8 +53,8 @@ MaterialsSettingsInputAntenna('element', 'Settings Input Antenna', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputAntenna card
 include('elements/materials/Action/MaterialsSettingsInputAntenna')
@@ -71,8 +71,8 @@ MaterialsSettingsInputAntennaCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsInputAntenna card
 include('elements/materials/Action/MaterialsSettingsInputAntenna')

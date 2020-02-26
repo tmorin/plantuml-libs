@@ -4,10 +4,12 @@ RP27OG0n20CHmaZxJvoufjw_6nrY0hPiDH4NjgrFxEOH3NiGqthUZaXy7bf2MXcFb1dG5Y6lKAWRORpe
 5oQlXe3SwooMNn7AKmkaMstTcl_hRSqWVynWKdzdzNUc_yt-0m
 }
 
+sprite $AzureTimeSeriesInsightsEnvironmentsMd [14x14/16z] LOvL0W11248DaBt_YTVucZST0cRcrFU9RaDAo8IKUy3UEleOGc_t30Mhrw0DHSvlQXy3qUGevC1gCejYuoSeHS-hqX2hSWxcv_2wlydUr3y
+
 !function AzureTimeSeriesInsightsEnvironments($id, $name="Time Series Insights Environments", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEnvironments', $name, $tech)
 !endfunction
 !function AzureTimeSeriesInsightsEnvironmentsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTimeSeriesInsightsEnvironmentsLg>', 'Time Series Insights Environments', $funcName, $content)
+  CloudCard($id, '<$AzureTimeSeriesInsightsEnvironmentsMd>', 'Time Series Insights Environments', $funcName, $content)
 !endfunction
 @enduml

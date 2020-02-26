@@ -4,10 +4,12 @@ ZT230S0m4030j_RVjpPpiL7Dqavox3CuiQ77U6iY3PdODebie0W7P8H8VEa2714TPzb4-DWrDn3dBWvb
 VVYhg6Oz
 }
 
+sprite $AzureEventGridDomainsMd [14x14/16z] NSu50e0m30F0Didq_mzcmU7csiwlqMzZpfvnoZu9Jq3AVPY4S-O5mGLXQoAO5wML9Z_R9IhJpqvP9D5hmaj39DxHso-phmq
+
 !function AzureEventGridDomains($id, $name="Event Grid Domains", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureEventGridDomains', $name, $tech)
 !endfunction
 !function AzureEventGridDomainsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureEventGridDomainsLg>', 'Event Grid Domains', $funcName, $content)
+  CloudCard($id, '<$AzureEventGridDomainsMd>', 'Event Grid Domains', $funcName, $content)
 !endfunction
 @enduml

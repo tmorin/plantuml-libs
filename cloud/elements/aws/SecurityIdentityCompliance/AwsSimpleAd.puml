@@ -4,10 +4,12 @@ ZOu53WCm24M1BztzBpojaCRseiYNc11nasFalHF9QrMEzFLeH41zCqTN3t1DWyEortuyxaMA_1w4wMe1
 Tp2g2d8qIhQ5U04
 }
 
+sprite $AwsSimpleAdMd [14x14/16z] JSk50O0m30J0lC7-4oFrgyRgnzJ1uGue7CMWf1b8FTF0hPl0dp3_o4snbN1Rybr6RoU9ICTmhhZf4Jhsg3e4_rM3yj4B
+
 !function AwsSimpleAd($id, $name="Simple Ad", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSimpleAd', $name, $tech)
 !endfunction
 !function AwsSimpleAdCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSimpleAdLg>', 'Simple Ad', $funcName, $content)
+  CloudCard($id, '<$AwsSimpleAdMd>', 'Simple Ad', $funcName, $content)
 !endfunction
 @enduml

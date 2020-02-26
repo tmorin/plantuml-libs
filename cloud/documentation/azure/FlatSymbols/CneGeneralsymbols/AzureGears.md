@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureGears
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGears element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureGears')
@@ -34,8 +34,8 @@ AzureGears('element', 'Gears', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGears element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureGears')
@@ -53,8 +53,8 @@ AzureGears('element', 'Gears', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGears card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureGears')
@@ -71,8 +71,8 @@ AzureGearsCard('card', 'an optional functional name', 'Molestiae praesentium aut
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureGears card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureGears')

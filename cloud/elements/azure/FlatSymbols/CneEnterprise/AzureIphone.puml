@@ -4,10 +4,12 @@ ROs50G8n34KfrUZ-unB3xrNY-QY6YFye1WEmE7kCqRjzHsNSYddXz_dspoZ_ljSwC_n69g0d_26kblaU
 u3-pk_W
 }
 
+sprite $AzureIphoneMd [9x14/16z] BKp50G0n3Bgw0VkFUsqINZWaWX8uvsXZBfxqFMGOoK5ACrBtsksIV2JM81el6fViHr9lFJyIFsZbeK4a1aYzyQA47m
+
 !function AzureIphone($id, $name="Iphone", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureIphone', $name, $tech)
 !endfunction
 !function AzureIphoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureIphoneLg>', 'Iphone', $funcName, $content)
+  CloudCard($id, '<$AzureIphoneMd>', 'Iphone', $funcName, $content)
 !endfunction
 @enduml

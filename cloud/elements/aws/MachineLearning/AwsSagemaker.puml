@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsSagemakerLg [20x20/16z] {
-fP17OaG1249JX0VU_xx9zBRzBbNg7fwYHFHbbN6aM7ckf2niFNdid1XMlx-ttULiuoRsZLBEEFMeYwwxKGMg9rGzhwfOmkpou-jk1MI6tJ9wQ629Td6VNbXc
-fdxwKmY6l0QPuPdjiuF3ymy
+RSy5YWLH30LHw7SjsVz-npA_lV23LkMJz-e5QyT3Qr2GGESmWmP4Q3S3ZXHpQJVQb89jAMCXB8gn2EVFI8CE5n9Y30WjXh0Cnrt5Y3ILQ2EIT1Sb1r1LjCP-
+42Qef4IFTHINW9K_6gCLqJ9swm06B3gxzVzAgcfiT6_iZls2tm
 }
+
+sprite $AwsSagemakerMd [14x14/16z] FSc74SKm40BH7mwMK_y5Mscy4nzqJkpwyceIMUAAmfhBaMVuNrb2acNa9LdO1IAZZQVZgamXgqZagNN2jB8qa6t4qOYnqtqq-dRq-W4
 
 !function AwsSagemaker($id, $name="Sagemaker", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsSagemaker', $name, $tech)
 !endfunction
 !function AwsSagemakerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSagemakerLg>', 'Sagemaker', $funcName, $content)
+  CloudCard($id, '<$AwsSagemakerMd>', 'Sagemaker', $funcName, $content)
 !endfunction
 @enduml

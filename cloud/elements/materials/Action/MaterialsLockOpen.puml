@@ -4,10 +4,12 @@ TOy35aL1240ppcZ_g_t6KtUO2xuWmW7orfpsgXOYqNRA20J0y8qAWv-FD8GZlD7H1-s2F_FuqVYjqyRq
 0nJS0G
 }
 
+sprite $MaterialsLockOpenMd [14x14/16z] NSg54KCn30DGMQRBtt_WDWplK81AL0MJvD-AuO37JFN6786L5Mt1IZR5QWf3Op4JUIJvFja94TYf6ic3JNXDp85u_
+
 !function MaterialsLockOpen($id, $name="Lock Open", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLockOpen', $name, $tech)
 !endfunction
 !function MaterialsLockOpenCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLockOpenLg>', 'Lock Open', $funcName, $content)
+  CloudCard($id, '<$MaterialsLockOpenMd>', 'Lock Open', $funcName, $content)
 !endfunction
 @enduml

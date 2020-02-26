@@ -4,10 +4,12 @@ ZKw54KKX34jext2o_xJVzIaERGpJW-PkYvf9AbpNsg8MkZGMP5P9lX2CKYBCG0VygUBt4cA45x8y6Ipn
 QP7KYrOrq6CTqZ82WnanFQu
 }
 
+sprite $MaterialsSettingsPhoneMd [14x14/16z] NKp50GD140BMTVglDZatNZW-a7WBjf6VokeZBDPrgsW1pZ4Wh1LLGgImlyM01vZzMZclb0D3h_dGZ7MOZUjQiVIcvvpuu0y
+
 !function MaterialsSettingsPhone($id, $name="Settings Phone", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsPhone', $name, $tech)
 !endfunction
 !function MaterialsSettingsPhoneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsPhoneLg>', 'Settings Phone', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsPhoneMd>', 'Settings Phone', $funcName, $content)
 !endfunction
 @enduml

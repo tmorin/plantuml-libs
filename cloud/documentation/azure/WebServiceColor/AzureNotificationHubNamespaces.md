@@ -16,8 +16,8 @@ elements/azure/WebServiceColor/AzureNotificationHubNamespaces
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNotificationHubNamespaces element
 include('elements/azure/WebServiceColor/AzureNotificationHubNamespaces')
@@ -34,8 +34,8 @@ AzureNotificationHubNamespaces('element', 'Notification Hub Namespaces', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNotificationHubNamespaces element
 include('elements/azure/WebServiceColor/AzureNotificationHubNamespaces')
@@ -53,8 +53,8 @@ AzureNotificationHubNamespaces('element', 'Notification Hub Namespaces', 'an opt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNotificationHubNamespaces card
 include('elements/azure/WebServiceColor/AzureNotificationHubNamespaces')
@@ -71,8 +71,8 @@ AzureNotificationHubNamespacesCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureNotificationHubNamespaces card
 include('elements/azure/WebServiceColor/AzureNotificationHubNamespaces')

@@ -4,10 +4,12 @@ fOp5WSL034CjoJJRVxzXEksdbmnPe8oR39Ybyq4kaw0PTipid4Hkw9vm1pzwRbvCi9t-cEIVe6L2dXCl
 Bd0Tt2Xgv7DWKKVb3
 }
 
+sprite $AzureIntuneWiFiProfilesMd [12x14/16z] RSW74e0W44FHtHIu_uqDRQfVWJUnhPIdAt-lIlchrypYi_1ZfklRCvXphKcPZXEdXguT3fW0uQokHcfgk6xPSty
+
 !function AzureIntuneWiFiProfiles($id, $name="Intune Wi Fi Profiles", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles', $name, $tech)
 !endfunction
 !function AzureIntuneWiFiProfilesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureIntuneWiFiProfilesLg>', 'Intune Wi Fi Profiles', $funcName, $content)
+  CloudCard($id, '<$AzureIntuneWiFiProfilesMd>', 'Intune Wi Fi Profiles', $funcName, $content)
 !endfunction
 @enduml

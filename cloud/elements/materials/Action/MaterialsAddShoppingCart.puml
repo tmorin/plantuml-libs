@@ -4,10 +4,12 @@ TSn7jiGm20NHUc1bkRt_rVwW0vxr7HAA9F4o4_zQ8sbzElzwvsNbTbJgMhK8dBomCUzx3iEty-_wFrJl
 b4Eekrp12JvNs9LafiDC18kuQZT2VHu_ZUUfX6lFixUvBr9cP7pp2m
 }
 
+sprite $MaterialsAddShoppingCartMd [14x14/16z] NOpL0S0m20LvM6p_VOjzzQA7KS4yxzAupTgW1_1p72JfRj2z5RmH5dTLHaibbH1rUmPT2uwqwKuReMDSjDak76LSHJAbvu48xxIfLRtIdmy
+
 !function MaterialsAddShoppingCart($id, $name="Add Shopping Cart", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAddShoppingCart', $name, $tech)
 !endfunction
 !function MaterialsAddShoppingCartCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAddShoppingCartLg>', 'Add Shopping Cart', $funcName, $content)
+  CloudCard($id, '<$MaterialsAddShoppingCartMd>', 'Add Shopping Cart', $funcName, $content)
 !endfunction
 @enduml

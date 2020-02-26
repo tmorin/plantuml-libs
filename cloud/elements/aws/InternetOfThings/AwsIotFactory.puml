@@ -4,10 +4,12 @@ TL05WW0X45ef___ZOxQkiGdh-0zSHD7XfLPe5MRMJTcPadFmvV8ZpdWkc212PzWwZeGLwIcbkHiqQwHD
 Yn3FBA-i4krCvBcB8rifSTqbONmZixhUnW9WqSMNF_0z_F5NV__ft_W
 }
 
+sprite $AwsIotFactoryMd [14x14/16z] NOw50S10308ZH_RVk4Azz_uHY9tqF6XC-y6D8rNxKR57aQ1h28X4P1PIGWPYHef2x9b0kyIPhfGGpfHnfhKVVMTv_PrzNQy
+
 !function AwsIotFactory($id, $name="Iot Factory", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotFactory', $name, $tech)
 !endfunction
 !function AwsIotFactoryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotFactoryLg>', 'Iot Factory', $funcName, $content)
+  CloudCard($id, '<$AwsIotFactoryMd>', 'Iot Factory', $funcName, $content)
 !endfunction
 @enduml

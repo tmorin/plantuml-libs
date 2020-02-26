@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPermDeviceInformation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermDeviceInformation element
 include('elements/materials/Action/MaterialsPermDeviceInformation')
@@ -34,8 +34,8 @@ MaterialsPermDeviceInformation('element', 'Perm Device Information', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermDeviceInformation element
 include('elements/materials/Action/MaterialsPermDeviceInformation')
@@ -53,8 +53,8 @@ MaterialsPermDeviceInformation('element', 'Perm Device Information', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermDeviceInformation card
 include('elements/materials/Action/MaterialsPermDeviceInformation')
@@ -71,8 +71,8 @@ MaterialsPermDeviceInformationCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermDeviceInformation card
 include('elements/materials/Action/MaterialsPermDeviceInformation')

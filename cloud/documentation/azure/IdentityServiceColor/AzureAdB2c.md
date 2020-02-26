@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureAdB2c
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdB2c element
 include('elements/azure/IdentityServiceColor/AzureAdB2c')
@@ -34,8 +34,8 @@ AzureAdB2c('element', 'Ad B2c', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdB2c element
 include('elements/azure/IdentityServiceColor/AzureAdB2c')
@@ -53,8 +53,8 @@ AzureAdB2c('element', 'Ad B2c', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdB2c card
 include('elements/azure/IdentityServiceColor/AzureAdB2c')
@@ -71,8 +71,8 @@ AzureAdB2cCard('card', 'an optional functional name', 'Molestiae praesentium aut
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureAdB2c card
 include('elements/azure/IdentityServiceColor/AzureAdB2c')

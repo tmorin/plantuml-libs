@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureTimeSeriesInsightsEventsSourcesLg [22x20/16z] dT150WGn24JHOl3x7tYylQD_bxS9083rKas5TwsAVJoX0gZpNlyz8XdNUC-w5XahvpvRbDSydN1EJaX42oxlPJuMcjsuVCbJ9Nq1
 
+sprite $AzureTimeSeriesInsightsEventsSourcesMd [16x14/16z] ROu50iGm20INZG3_V_1TsxXC11SWf9dFZerY4usRpIYIOh53arOLn89wTTY7cYicg2fD5mAvccIPru9nct_VT-OF
+
 !function AzureTimeSeriesInsightsEventsSources($id, $name="Time Series Insights Events Sources", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureTimeSeriesInsightsEventsSources', $name, $tech)
 !endfunction
 !function AzureTimeSeriesInsightsEventsSourcesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureTimeSeriesInsightsEventsSourcesLg>', 'Time Series Insights Events Sources', $funcName, $content)
+  CloudCard($id, '<$AzureTimeSeriesInsightsEventsSourcesMd>', 'Time Series Insights Events Sources', $funcName, $content)
 !endfunction
 @enduml

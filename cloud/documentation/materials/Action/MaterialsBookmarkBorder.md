@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsBookmarkBorder
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmarkBorder element
 include('elements/materials/Action/MaterialsBookmarkBorder')
@@ -34,8 +34,8 @@ MaterialsBookmarkBorder('element', 'Bookmark Border', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmarkBorder element
 include('elements/materials/Action/MaterialsBookmarkBorder')
@@ -53,8 +53,8 @@ MaterialsBookmarkBorder('element', 'Bookmark Border', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmarkBorder card
 include('elements/materials/Action/MaterialsBookmarkBorder')
@@ -71,8 +71,8 @@ MaterialsBookmarkBorderCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBookmarkBorder card
 include('elements/materials/Action/MaterialsBookmarkBorder')

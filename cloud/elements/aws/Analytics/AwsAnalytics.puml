@@ -4,10 +4,12 @@ RSZL0SCm30N01lJ0sN_VIWx3VTxlq_1GHILkW3bpb3jjOhzokxO7ULupq4Kcwbpdf02UXm1lnmYOrwDW
 p1kembtKZGzv7_u
 }
 
+sprite $AwsAnalyticsMd [14x14/16z] LSU73S0m30D1kP6YlF--SGVoQ7_shxHJhTaCclc8TIWcLbiS0K-IDt0hA8BqetawwceWqA2bSCvyYht7J3ewdAfejsncwMNs0G
+
 !function AwsAnalytics($id, $name="Analytics", $tech="")
   CloudElement($id, 'aws/Analytics/AwsAnalytics', $name, $tech)
 !endfunction
 !function AwsAnalyticsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAnalyticsLg>', 'Analytics', $funcName, $content)
+  CloudCard($id, '<$AwsAnalyticsMd>', 'Analytics', $funcName, $content)
 !endfunction
 @enduml

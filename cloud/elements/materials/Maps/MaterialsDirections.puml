@@ -4,10 +4,12 @@ VT1L0WD120DGO5np_zDMqwvlFjy88dTHFP2LOWS2Y6iYhecuevo9f3a6WXBvlJCp5IrVr1SXyaa2YjA2
 Jg_p1
 }
 
+sprite $MaterialsDirectionsMd [14x14/16z] RKs35G0n5AlnkV-qPrHvZCq28RI4EJH4bKD3g51u29MSREHmEybOQon8k5YqfRYajodP4zUBtFlQZJQaVR_fHrhi
+
 !function MaterialsDirections($id, $name="Directions", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirections', $name, $tech)
 !endfunction
 !function MaterialsDirectionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDirectionsLg>', 'Directions', $funcName, $content)
+  CloudCard($id, '<$MaterialsDirectionsMd>', 'Directions', $funcName, $content)
 !endfunction
 @enduml

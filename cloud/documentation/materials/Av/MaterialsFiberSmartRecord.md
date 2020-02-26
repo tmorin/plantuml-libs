@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsFiberSmartRecord
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFiberSmartRecord element
 include('elements/materials/Av/MaterialsFiberSmartRecord')
@@ -34,8 +34,8 @@ MaterialsFiberSmartRecord('element', 'Fiber Smart Record', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFiberSmartRecord element
 include('elements/materials/Av/MaterialsFiberSmartRecord')
@@ -53,8 +53,8 @@ MaterialsFiberSmartRecord('element', 'Fiber Smart Record', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFiberSmartRecord card
 include('elements/materials/Av/MaterialsFiberSmartRecord')
@@ -71,8 +71,8 @@ MaterialsFiberSmartRecordCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFiberSmartRecord card
 include('elements/materials/Av/MaterialsFiberSmartRecord')

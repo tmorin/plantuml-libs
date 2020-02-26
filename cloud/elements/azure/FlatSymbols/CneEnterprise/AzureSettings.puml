@@ -4,10 +4,12 @@ RP053WGn30DJ3lZ_xpsNZcSnO6bK8Qdvc1-pAfSIY2nI0K-tbnmm7NohF54S-guPQiowgWDH9HNMDW9M
 xpER0rR40a2xlSuYr9PBsQqQgwhBsLjci0T5B9haFGuplbcpiHWuZ7S3cEfyovj1b7kqb-PBMsrBFG
 }
 
+sprite $AzureSettingsMd [14x14/16z] JOu73i0m30AH2aw2-Vzxg-wUXhS102rWUCD9PL6ESA8Sz35ZqJt8qJxIf8cZtSagP-1aPWaCd_CD_uhuRxgEBpf7dPYYUqhpJ75S7dpdrkUCBg1yp7O
+
 !function AzureSettings($id, $name="Settings", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSettings', $name, $tech)
 !endfunction
 !function AzureSettingsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSettingsLg>', 'Settings', $funcName, $content)
+  CloudCard($id, '<$AzureSettingsMd>', 'Settings', $funcName, $content)
 !endfunction
 @enduml

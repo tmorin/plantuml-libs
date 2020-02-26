@@ -4,10 +4,12 @@ HP270SGm20C1qVBx3_mXShbKd-M63Fe-xlnPM6wNTkJyghBpWFZ0RawcwNgoU5sPHCWmNok6hPHEwwoH
 zaFN5gosce_dJ74KorETQ7SgOgRefwZkaSgpHntdWjvpNUANL_q1
 }
 
+sprite $AwsCustomEventBusResourceIcon64SquidMd [14x14/16z] FSU50S0m24JHuuHs_uKhiH-11u20z8-HY2fGM8oTWKfL-FNFmWzy_Hm3ep0nmwdg-s9vAMu2bOLyK5a7PQ3DWL59VVS2JEK0XRuMNW
+
 !function AwsCustomEventBusResourceIcon64Squid($id, $name="Custom Event Bus Resource Icon64 Squid", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsCustomEventBusResourceIcon64Squid', $name, $tech)
 !endfunction
 !function AwsCustomEventBusResourceIcon64SquidCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCustomEventBusResourceIcon64SquidLg>', 'Custom Event Bus Resource Icon64 Squid', $funcName, $content)
+  CloudCard($id, '<$AwsCustomEventBusResourceIcon64SquidMd>', 'Custom Event Bus Resource Icon64 Squid', $funcName, $content)
 !endfunction
 @enduml

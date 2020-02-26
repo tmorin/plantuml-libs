@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsChatBubble
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubble element
 include('elements/materials/Communication/MaterialsChatBubble')
@@ -34,8 +34,8 @@ MaterialsChatBubble('element', 'Chat Bubble', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubble element
 include('elements/materials/Communication/MaterialsChatBubble')
@@ -53,8 +53,8 @@ MaterialsChatBubble('element', 'Chat Bubble', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubble card
 include('elements/materials/Communication/MaterialsChatBubble')
@@ -71,8 +71,8 @@ MaterialsChatBubbleCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsChatBubble card
 include('elements/materials/Communication/MaterialsChatBubble')

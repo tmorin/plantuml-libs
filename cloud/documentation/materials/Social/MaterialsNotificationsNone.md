@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsNotificationsNone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsNone element
 include('elements/materials/Social/MaterialsNotificationsNone')
@@ -34,8 +34,8 @@ MaterialsNotificationsNone('element', 'Notifications None', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsNone element
 include('elements/materials/Social/MaterialsNotificationsNone')
@@ -53,8 +53,8 @@ MaterialsNotificationsNone('element', 'Notifications None', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsNone card
 include('elements/materials/Social/MaterialsNotificationsNone')
@@ -71,8 +71,8 @@ MaterialsNotificationsNoneCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsNone card
 include('elements/materials/Social/MaterialsNotificationsNone')

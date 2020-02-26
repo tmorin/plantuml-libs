@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsConsoleMobileApplication
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsConsoleMobileApplication element
@@ -34,7 +34,7 @@ AwsConsoleMobileApplication('element', 'Console Mobile Application', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsConsoleMobileApplication element
@@ -53,8 +53,8 @@ AwsConsoleMobileApplication('element', 'Console Mobile Application', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsConsoleMobileApplication card
 include('elements/aws/ApplicationIntegration/AwsConsoleMobileApplication')
@@ -71,8 +71,8 @@ AwsConsoleMobileApplicationCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsConsoleMobileApplication card
 include('elements/aws/ApplicationIntegration/AwsConsoleMobileApplication')

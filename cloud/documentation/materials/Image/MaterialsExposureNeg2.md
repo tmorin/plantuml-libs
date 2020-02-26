@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsExposureNeg2
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsExposureNeg2 element
 include('elements/materials/Image/MaterialsExposureNeg2')
@@ -34,8 +34,8 @@ MaterialsExposureNeg2('element', 'Exposure Neg2', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsExposureNeg2 element
 include('elements/materials/Image/MaterialsExposureNeg2')
@@ -53,8 +53,8 @@ MaterialsExposureNeg2('element', 'Exposure Neg2', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsExposureNeg2 card
 include('elements/materials/Image/MaterialsExposureNeg2')
@@ -71,8 +71,8 @@ MaterialsExposureNeg2Card('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsExposureNeg2 card
 include('elements/materials/Image/MaterialsExposureNeg2')

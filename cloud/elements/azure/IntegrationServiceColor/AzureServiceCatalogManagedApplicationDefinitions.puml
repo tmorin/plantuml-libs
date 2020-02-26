@@ -4,10 +4,12 @@ LOw55K0n20E191Iw_xxVzUh8lPevm2zfg1fV963C7wM0_g4XPr_txYk4gwhJFVkiGkq11KZ45XoNVi0X
 Vjk3oWnudleEC_FW7irPXvvk1f89PvS0TNUwUMmh-z7FGW3QhfV-o_Nx7qN3_5E-0W
 }
 
+sprite $AzureServiceCatalogManagedApplicationDefinitionsMd [13x14/16z] FKu50e0m27HN6_p_lxRIpMsm_92Cr4-6-wCASldbzIKbageANHsAef-EUFFJiK3exjIKxBk3hB4DoixTCGP9v3rjKgkV0p-2aVuJ7G
+
 !function AzureServiceCatalogManagedApplicationDefinitions($id, $name="Service Catalog Managed Application Definitions", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureServiceCatalogManagedApplicationDefinitions', $name, $tech)
 !endfunction
 !function AzureServiceCatalogManagedApplicationDefinitionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServiceCatalogManagedApplicationDefinitionsLg>', 'Service Catalog Managed Application Definitions', $funcName, $content)
+  CloudCard($id, '<$AzureServiceCatalogManagedApplicationDefinitionsMd>', 'Service Catalog Managed Application Definitions', $funcName, $content)
 !endfunction
 @enduml

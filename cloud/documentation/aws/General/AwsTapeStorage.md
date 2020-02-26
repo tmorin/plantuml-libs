@@ -16,7 +16,7 @@ elements/aws/General/AwsTapeStorage
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTapeStorage element
@@ -34,7 +34,7 @@ AwsTapeStorage('element', 'Tape Storage', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTapeStorage element
@@ -53,8 +53,8 @@ AwsTapeStorage('element', 'Tape Storage', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTapeStorage card
 include('elements/aws/General/AwsTapeStorage')
@@ -71,8 +71,8 @@ AwsTapeStorageCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTapeStorage card
 include('elements/aws/General/AwsTapeStorage')

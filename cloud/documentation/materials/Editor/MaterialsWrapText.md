@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsWrapText
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWrapText element
 include('elements/materials/Editor/MaterialsWrapText')
@@ -34,8 +34,8 @@ MaterialsWrapText('element', 'Wrap Text', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWrapText element
 include('elements/materials/Editor/MaterialsWrapText')
@@ -53,8 +53,8 @@ MaterialsWrapText('element', 'Wrap Text', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWrapText card
 include('elements/materials/Editor/MaterialsWrapText')
@@ -71,8 +71,8 @@ MaterialsWrapTextCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsWrapText card
 include('elements/materials/Editor/MaterialsWrapText')

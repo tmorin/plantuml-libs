@@ -47,22 +47,24 @@ card $id <<CloudElement>> [
 !function CloudCard($id, $sprite="", $techName="", $funcName="", $content="")
   !local $V=""
   !local $H=""
+  !local $S=""
   !local $F=""
   !if ($sprite)
-    !$H="<color:" + $SPRITE_COLOR + ">" + $sprite + " </color>"
+    !$S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
   !endif
   Rectangle $id <<CloudCard>> [
     !if ($techName) && ($funcName)
+      !$ST="<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>"
       !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
-      !$ST="\l" + $techName
-      !$H=$H + $T + $ST
+      !$H=$T + "\l" + $S + $ST
       !$V=$V + $H
     !elseif ($techName)
-      !$H=$H + $techName
+      !$ST="<color:" + $FONT_COLOR + ">" + $techName + "</color>"
+      !$H=$S + $ST
       !$V=$V + $H
     !elseif ($funcName)
-      !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
-      !$H=$H + $T
+      !$T=$S + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
+      !$H=$T
       !$V=$V + $H
     !endif
     !if ($H) && ($content)

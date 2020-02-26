@@ -4,10 +4,12 @@ jO-30GGm34L_N7V_QSysNnads4E4IwmKkr1ndxFpkKxd2lsZJWMorgsUWze3LEOiXF2zJWg3tLTNOUpn
 kgRhVDgskYK
 }
 
+sprite $MaterialsSettingsVoiceMd [14x14/16z] ZOu30iH034L_d6NkVzf5xVODOg216IFoUibeUPLViQYrg8kGLYbrKLE8GAtBT6Cs9tHefcB4khJrPWJwNNG4gtBWnnS
+
 !function MaterialsSettingsVoice($id, $name="Settings Voice", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsVoice', $name, $tech)
 !endfunction
 !function MaterialsSettingsVoiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsVoiceLg>', 'Settings Voice', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsVoiceMd>', 'Settings Voice', $funcName, $content)
 !endfunction
 @enduml

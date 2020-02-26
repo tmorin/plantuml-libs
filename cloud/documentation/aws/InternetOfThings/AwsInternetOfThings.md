@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsInternetOfThings
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsInternetOfThings element
@@ -34,7 +34,7 @@ AwsInternetOfThings('element', 'Internet Of Things', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsInternetOfThings element
@@ -53,8 +53,8 @@ AwsInternetOfThings('element', 'Internet Of Things', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsInternetOfThings card
 include('elements/aws/InternetOfThings/AwsInternetOfThings')
@@ -71,8 +71,8 @@ AwsInternetOfThingsCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsInternetOfThings card
 include('elements/aws/InternetOfThings/AwsInternetOfThings')

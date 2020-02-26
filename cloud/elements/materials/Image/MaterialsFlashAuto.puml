@@ -4,10 +4,12 @@ XSxL0KKX3C3Gj1It_QTzhbU3do_OJFIP0AfFiz4VEP1Iv6dpKHQmKkpN38ZUnnyh0bhrDhyM0EiXTFjO
 hApfsW8hAx8sOsL1MAMSTWK
 }
 
+sprite $MaterialsFlashAutoMd [14x14/16z] RSV70OCm54J1jyjN1jH_jSxPp6tufd9bb0LuctCs4JsU2oXBUQmBjzHyNuAKdD9z9MGXWyUbLJmepMtX9MRcOyEVItomE7O6
+
 !function MaterialsFlashAuto($id, $name="Flash Auto", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFlashAuto', $name, $tech)
 !endfunction
 !function MaterialsFlashAutoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFlashAutoLg>', 'Flash Auto', $funcName, $content)
+  CloudCard($id, '<$MaterialsFlashAutoMd>', 'Flash Auto', $funcName, $content)
 !endfunction
 @enduml

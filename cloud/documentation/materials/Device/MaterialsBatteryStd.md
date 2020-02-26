@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsBatteryStd
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryStd element
 include('elements/materials/Device/MaterialsBatteryStd')
@@ -34,8 +34,8 @@ MaterialsBatteryStd('element', 'Battery Std', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryStd element
 include('elements/materials/Device/MaterialsBatteryStd')
@@ -53,8 +53,8 @@ MaterialsBatteryStd('element', 'Battery Std', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryStd card
 include('elements/materials/Device/MaterialsBatteryStd')
@@ -71,8 +71,8 @@ MaterialsBatteryStdCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBatteryStd card
 include('elements/materials/Device/MaterialsBatteryStd')

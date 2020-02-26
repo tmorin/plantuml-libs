@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsLooks5
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLooks5 element
 include('elements/materials/Image/MaterialsLooks5')
@@ -34,8 +34,8 @@ MaterialsLooks5('element', 'Looks5', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLooks5 element
 include('elements/materials/Image/MaterialsLooks5')
@@ -53,8 +53,8 @@ MaterialsLooks5('element', 'Looks5', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLooks5 card
 include('elements/materials/Image/MaterialsLooks5')
@@ -71,8 +71,8 @@ MaterialsLooks5Card('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLooks5 card
 include('elements/materials/Image/MaterialsLooks5')

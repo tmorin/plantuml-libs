@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsAdb
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAdb element
 include('elements/materials/Notification/MaterialsAdb')
@@ -34,8 +34,8 @@ MaterialsAdb('element', 'Adb', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAdb element
 include('elements/materials/Notification/MaterialsAdb')
@@ -53,8 +53,8 @@ MaterialsAdb('element', 'Adb', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAdb card
 include('elements/materials/Notification/MaterialsAdb')
@@ -71,8 +71,8 @@ MaterialsAdbCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAdb card
 include('elements/materials/Notification/MaterialsAdb')

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatUnderlinedLg [20x20/16z] lSY53GD020NGJyvmzf-sxh7wmy4hMhlE4nAbmrIXV_uWTloPu69LmqwhXOiMse2cqN0rCaGY1surDkE61qGFvnLEfjk9JvoqVj7mWYq
 
+sprite $MaterialsFormatUnderlinedMd [14x14/16z] bSwr0S0m30J0jnZsdpVCNSuMLiBN64VUIAmvv9XopVbxecQ0cx2pLct3IIBaSy3HUMnytz01NpC
+
 !function MaterialsFormatUnderlined($id, $name="Format Underlined", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatUnderlined', $name, $tech)
 !endfunction
 !function MaterialsFormatUnderlinedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatUnderlinedLg>', 'Format Underlined', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatUnderlinedMd>', 'Format Underlined', $funcName, $content)
 !endfunction
 @enduml

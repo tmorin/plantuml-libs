@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsInsertPhotoLg [20x20/16z] jT2r0G0n30H1dPdTVxNFpBZX90Aw7XEJM4iXJmeDYZnB_6efhas9E3MjSZOWDJ4BqgvQ5dQmUdSq-pFVcm9rGVRcx91hRVs3zQ-kLm8
 
+sprite $MaterialsInsertPhotoMd [14x14/16z] ZOu53W1120EHzhpP_x_st6CxwCJ0VdYS-2QzJlfLG-L4KMMwRPfAdyDf0iQmr64qMwTnjv7OuHZVwz_FVYm
+
 !function MaterialsInsertPhoto($id, $name="Insert Photo", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertPhoto', $name, $tech)
 !endfunction
 !function MaterialsInsertPhotoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsInsertPhotoLg>', 'Insert Photo', $funcName, $content)
+  CloudCard($id, '<$MaterialsInsertPhotoMd>', 'Insert Photo', $funcName, $content)
 !endfunction
 @enduml

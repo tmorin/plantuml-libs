@@ -4,10 +4,15 @@ RT07biGW30DGSCC1cxd_RJSosJvwZVSHjRNUsviG_RTE8lI_3QrPPkfTV4LCVdPWDJDbZRZS8yysOa1X
 SUryn-Q3jj1IXLjixxNfTdxQEZADWHHNfsBrs5E8e9xKEXEnhXs3YMk3lB10nzhx4i9raGZLCVShvr1XD16vIxbSM5IbyCpGx-ybvVOcsFa3
 }
 
+sprite $AzureCosmosDbMd [15x14/16z] {
+NOj1WWD010G1PWR__-wsqoRfMwb2pFGnLlr19XOLzljURAmUuPgXFWW4O0fFra0u45YUuziSAMOlLwg2tRCFw9mLuQUJYUA9g6XMkK2MuJdUe65WPvpkbwOh
+oUuzjZqS_ETm-WC
+}
+
 !function AzureCosmosDb($id, $name="Cosmos Db", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureCosmosDb', $name, $tech)
 !endfunction
 !function AzureCosmosDbCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCosmosDbLg>', 'Cosmos Db', $funcName, $content)
+  CloudCard($id, '<$AzureCosmosDbMd>', 'Cosmos Db', $funcName, $content)
 !endfunction
 @enduml

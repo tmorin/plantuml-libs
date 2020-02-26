@@ -4,10 +4,12 @@ dT053i0W30LGAhZy-vzslX4Qtu_oiBRkIoZioAt9K2awrnGy7UOHf_6eV1kfVDOUurx8clJspy9XOzh8
 MSnlVHF7DrQE_QPoq0u
 }
 
+sprite $MaterialsPanToolMd [14x14/16z] RSV50KDH30Em9FPZsd_QzZFh9ba5foORQFOkwnfhJC4NutBhyp8RRkFNOasfnaxHUMD5JH4u9cmjZsDJnsNYZa8kBIPBwnBA7m
+
 !function MaterialsPanTool($id, $name="Pan Tool", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPanTool', $name, $tech)
 !endfunction
 !function MaterialsPanToolCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPanToolLg>', 'Pan Tool', $funcName, $content)
+  CloudCard($id, '<$MaterialsPanToolMd>', 'Pan Tool', $funcName, $content)
 !endfunction
 @enduml

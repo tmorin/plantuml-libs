@@ -16,8 +16,8 @@ elements/azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMediaPlayer element
 include('elements/azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer')
@@ -34,8 +34,8 @@ AzureMediaPlayer('element', 'Media Player', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMediaPlayer element
 include('elements/azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer')
@@ -53,8 +53,8 @@ AzureMediaPlayer('element', 'Media Player', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMediaPlayer card
 include('elements/azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer')
@@ -71,8 +71,8 @@ AzureMediaPlayerCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMediaPlayer card
 include('elements/azure/ManagementAndGovernanceServiceColor/Media/AzureMediaPlayer')

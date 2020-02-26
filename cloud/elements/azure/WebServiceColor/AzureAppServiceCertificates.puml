@@ -4,10 +4,12 @@ hSs50SCm40D0IthQV-9omvmB-X6Q1IrgC-wDqmRuhyVGvdpW-U9u3Zp2dab-uHj_XYFLgAzlFUB5bkgd
 Onh77m
 }
 
+sprite $AzureAppServiceCertificatesMd [17x14/16z] RSs54O1030J04tAJ_Xl67NRaFou_oUATREAElmbT2_OE7lQEzQFLcb3YHwAIKBSTGrAFA-v-95pTyGNBI7Yx31F6PG8
+
 !function AzureAppServiceCertificates($id, $name="App Service Certificates", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureAppServiceCertificates', $name, $tech)
 !endfunction
 !function AzureAppServiceCertificatesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAppServiceCertificatesLg>', 'App Service Certificates', $funcName, $content)
+  CloudCard($id, '<$AzureAppServiceCertificatesMd>', 'App Service Certificates', $funcName, $content)
 !endfunction
 @enduml

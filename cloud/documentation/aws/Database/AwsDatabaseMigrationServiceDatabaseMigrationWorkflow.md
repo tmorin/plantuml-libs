@@ -16,7 +16,7 @@ elements/aws/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflow
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflow element
@@ -34,7 +34,7 @@ AwsDatabaseMigrationServiceDatabaseMigrationWorkflow('element', 'Database Migrat
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflow element
@@ -53,8 +53,8 @@ AwsDatabaseMigrationServiceDatabaseMigrationWorkflow('element', 'Database Migrat
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflow card
 include('elements/aws/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflow')
@@ -71,8 +71,8 @@ AwsDatabaseMigrationServiceDatabaseMigrationWorkflowCard('card', 'an optional fu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflow card
 include('elements/aws/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflow')

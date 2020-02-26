@@ -4,10 +4,12 @@ fL3L0SKW37oIdB3_m4sezxSuPyXuNPGavHkMA11L3jWeQAfJEmOEkxaJOtWuSg8Jt1n6_7MwM-88rDIO
 ZEOsO4Cp2FZv2nt_lYm
 }
 
+sprite $AwsFirewallManagerMd [14x14/16z] XKs34S004AkYtt_VMiUtash4b9ox2U48kfiuU-JLiBpiYxCD561n4TbR9H0N-toKTn4btuzHyd34fEKVFLsTR
+
 !function AwsFirewallManager($id, $name="Firewall Manager", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsFirewallManager', $name, $tech)
 !endfunction
 !function AwsFirewallManagerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsFirewallManagerLg>', 'Firewall Manager', $funcName, $content)
+  CloudCard($id, '<$AwsFirewallManagerMd>', 'Firewall Manager', $funcName, $content)
 !endfunction
 @enduml

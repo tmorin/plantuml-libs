@@ -16,7 +16,7 @@ elements/aws/Compute/Instance/AwsEc2X1Instance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2X1Instance element
@@ -34,7 +34,7 @@ AwsEc2X1Instance('element', 'Ec2 X1 Instance', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2X1Instance element
@@ -53,8 +53,8 @@ AwsEc2X1Instance('element', 'Ec2 X1 Instance', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2X1Instance card
 include('elements/aws/Compute/Instance/AwsEc2X1Instance')
@@ -71,8 +71,8 @@ AwsEc2X1InstanceCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2X1Instance card
 include('elements/aws/Compute/Instance/AwsEc2X1Instance')

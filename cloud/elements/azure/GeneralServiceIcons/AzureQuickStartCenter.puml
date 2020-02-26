@@ -4,10 +4,12 @@ NSy7Oa0X30BGXX18lV-1w-pY3_MvF_ubwCz_KZs6_uyPO_0NfQo97Jz4aJMnxgGP2H6O64jGCpO229fx
 jUDIa7GlwiOr4dMfyrqxQLBTFvO44iVUUin05cCXtmwPPCxntOfhnSIksBEy-CgAHry
 }
 
+sprite $AzureQuickStartCenterMd [14x14/16z] HSt70S0010LGVa6o_xxfnSbJum_sV3bwNVl9qrNBmgTXmdss8BkGO2D2nqmN03g25qe7ybXF7JW3znjLd_qBa4vCvod1TC-j52XwHiyW4PXxBN5DE2_j
+
 !function AzureQuickStartCenter($id, $name="Quick Start Center", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureQuickStartCenter', $name, $tech)
 !endfunction
 !function AzureQuickStartCenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureQuickStartCenterLg>', 'Quick Start Center', $funcName, $content)
+  CloudCard($id, '<$AzureQuickStartCenterMd>', 'Quick Start Center', $funcName, $content)
 !endfunction
 @enduml

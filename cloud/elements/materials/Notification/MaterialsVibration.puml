@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsVibrationLg [20x20/16z] fP234G1H34I_5VLVxTd66sNYNVK6xGRqd4iC7PpcjXnrHynwJEaS-YXatITjDdFEPAkKCmwMEMWIuhSvBtzoHpVslnpyVA3jm8D3hzvG0m
 
+sprite $MaterialsVibrationMd [14x14/16z] POw35G0n44IJDVglzwnvzuCrnWywk0oks2W-BR7zDzd_gNfQgdCO-sqvMyjhIQE5cTW59-1qt0nP0G
+
 !function MaterialsVibration($id, $name="Vibration", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsVibration', $name, $tech)
 !endfunction
 !function MaterialsVibrationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVibrationLg>', 'Vibration', $funcName, $content)
+  CloudCard($id, '<$MaterialsVibrationMd>', 'Vibration', $funcName, $content)
 !endfunction
 @enduml

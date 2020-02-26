@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsReport
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReport element
 include('elements/materials/Content/MaterialsReport')
@@ -34,8 +34,8 @@ MaterialsReport('element', 'Report', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReport element
 include('elements/materials/Content/MaterialsReport')
@@ -53,8 +53,8 @@ MaterialsReport('element', 'Report', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReport card
 include('elements/materials/Content/MaterialsReport')
@@ -71,8 +71,8 @@ MaterialsReportCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsReport card
 include('elements/materials/Content/MaterialsReport')

@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsNature
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNature element
 include('elements/materials/Image/MaterialsNature')
@@ -34,8 +34,8 @@ MaterialsNature('element', 'Nature', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNature element
 include('elements/materials/Image/MaterialsNature')
@@ -53,8 +53,8 @@ MaterialsNature('element', 'Nature', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNature card
 include('elements/materials/Image/MaterialsNature')
@@ -71,8 +71,8 @@ MaterialsNatureCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNature card
 include('elements/materials/Image/MaterialsNature')

@@ -4,10 +4,12 @@ VT253G0n3CNGGlpJ_IU-WfJZMlp4Jf_bHuDGZwZcRlAU8jiPrgkLYycO6GepD4JKgu64XNaR9dU1NKoV
 ktrq
 }
 
+sprite $AwsComputeMd [14x14/16z] NSg53G0m4CF053xf_WkNsSAJZ3SVUw7cWIY9FGjTj1RPr55VsshkibGbVRAjwYrPZ-nA8ccKkbgIkaBSUG1k1nG
+
 !function AwsCompute($id, $name="Compute", $tech="")
   CloudElement($id, 'aws/Compute/AwsCompute', $name, $tech)
 !endfunction
 !function AwsComputeCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsComputeLg>', 'Compute', $funcName, $content)
+  CloudCard($id, '<$AwsComputeMd>', 'Compute', $funcName, $content)
 !endfunction
 @enduml

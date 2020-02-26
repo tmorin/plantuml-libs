@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCentralAdministrationSiteSql element
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql')
@@ -34,8 +34,8 @@ AzureCentralAdministrationSiteSql('element', 'Central Administration Site Sql', 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCentralAdministrationSiteSql element
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql')
@@ -53,8 +53,8 @@ AzureCentralAdministrationSiteSql('element', 'Central Administration Site Sql', 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCentralAdministrationSiteSql card
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql')
@@ -71,8 +71,8 @@ AzureCentralAdministrationSiteSqlCard('card', 'an optional functional name', 'Mo
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCentralAdministrationSiteSql card
 include('elements/azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSiteSql')

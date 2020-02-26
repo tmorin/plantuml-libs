@@ -4,10 +4,12 @@ RP3L0S1G30B9uzX_vBetV5rSfE6NXYHu-q03RJ9u9uPtgjYf3UtTvqHA_F11hRw2osSqKfKXVFXgjGF9
 7tI_wdxQ_Nu6
 }
 
+sprite $AwsEc2RescueMd [14x14/16z] NKu70i10357o_pVNwNGhEu1-1-BX8orBEo1zkrMq6N8IsCXMDiaqlZ5tLK1SPptPACsmiRUoLdq2
+
 !function AwsEc2Rescue($id, $name="Ec2 Rescue", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2Rescue', $name, $tech)
 !endfunction
 !function AwsEc2RescueCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2RescueLg>', 'Ec2 Rescue', $funcName, $content)
+  CloudCard($id, '<$AwsEc2RescueMd>', 'Ec2 Rescue', $funcName, $content)
 !endfunction
 @enduml

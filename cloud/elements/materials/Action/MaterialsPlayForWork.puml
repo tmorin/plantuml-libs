@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsPlayForWorkLg [20x20/16z] jKv50WGX32Cj4ehz_xNhCd8Qop7kha88QuxSoq58mPnYxRroIOunfmGFya51_XpJm_bm9Kx-LddPw-GtiYcWbZ4jP3DhbFckXg1mnt47
 
+sprite $MaterialsPlayForWorkMd [14x14/16z] bOU50S0m409vexR_l7Mt9FS2XqBSpnRnPSAsfUngNMTOKOSgN5ThT7qptaGqZWsDKAGO
+
 !function MaterialsPlayForWork($id, $name="Play For Work", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPlayForWork', $name, $tech)
 !endfunction
 !function MaterialsPlayForWorkCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPlayForWorkLg>', 'Play For Work', $funcName, $content)
+  CloudCard($id, '<$MaterialsPlayForWorkMd>', 'Play For Work', $funcName, $content)
 !endfunction
 @enduml

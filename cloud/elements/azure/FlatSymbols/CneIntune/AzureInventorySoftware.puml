@@ -4,10 +4,15 @@ NOs74GGn20DDD8Z--trTdlczw2LeYH8ZVcDBF2Bthkh6ZTFbdulFWSpCwKpDtJmZOX_FuMGnPotZrnU_
 fcitfNfUizhJMPKrCB5hre5iD1BZRA0pYU7H7TcJUkLUhkheYyi9euO9s7kWIwyCuQ4o2xDLl5tS8xncW9cAxWPpL4sLkUXK3oBhHinqtVm
 }
 
+sprite $AzureInventorySoftwareMd [14x14/16z] {
+LOnNWaKX349JmMJslz_1wzSxTYcUMTMDZmnTU6RtJo2wzTBpmaZNp8oAe5xcOU6UPdXQTfUq-p9hfQPrNgrsRqtbb-DoHjlJpXnIM_neZfSRShO3yAp22k2S
+jajqXxcx_GC
+}
+
 !function AzureInventorySoftware($id, $name="Inventory Software", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureInventorySoftware', $name, $tech)
 !endfunction
 !function AzureInventorySoftwareCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureInventorySoftwareLg>', 'Inventory Software', $funcName, $content)
+  CloudCard($id, '<$AzureInventorySoftwareMd>', 'Inventory Software', $funcName, $content)
 !endfunction
 @enduml

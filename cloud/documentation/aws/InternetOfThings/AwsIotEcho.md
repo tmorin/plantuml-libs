@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotEcho
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotEcho element
@@ -34,7 +34,7 @@ AwsIotEcho('element', 'Iot Echo', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotEcho element
@@ -53,8 +53,8 @@ AwsIotEcho('element', 'Iot Echo', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotEcho card
 include('elements/aws/InternetOfThings/AwsIotEcho')
@@ -71,8 +71,8 @@ AwsIotEchoCard('card', 'an optional functional name', 'Molestiae praesentium aut
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotEcho card
 include('elements/aws/InternetOfThings/AwsIotEcho')

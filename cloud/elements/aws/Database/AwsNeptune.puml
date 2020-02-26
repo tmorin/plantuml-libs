@@ -4,10 +4,12 @@ RSi7aWD134BHNLiIYBx_VSta-2VsgqAkpv7K2-e5vLZfYXkQaF2HI1uMMFPPXqqxbt6oyj0r_0Ckbgqv
 26HhiK8v9104LfEt3XM-DDcWjmxfUKlguNePTnSqDPPqRcoTxGL_
 }
 
+sprite $AwsNeptuneMd [14x14/16z] LSVNOKDH3CFGnBO8YdV_UL-l-C99qcTsNamQINXZedNGeHAWEaIlgM5LuJRgMZH26rjIhv8JgqHs0LB1ea4diNxbB8e1jvnahELerSCp
+
 !function AwsNeptune($id, $name="Neptune", $tech="")
   CloudElement($id, 'aws/Database/AwsNeptune', $name, $tech)
 !endfunction
 !function AwsNeptuneCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsNeptuneLg>', 'Neptune', $funcName, $content)
+  CloudCard($id, '<$AwsNeptuneMd>', 'Neptune', $funcName, $content)
 !endfunction
 @enduml

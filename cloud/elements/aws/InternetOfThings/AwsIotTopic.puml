@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsIotTopicLg [20x20/16z] rSY70OHG3CFGsB42-ozyXRu2xzUeDix6zJ0htQnJDm7QhYlHg6TQD4Vg4IgxXAPhauLOFmvBZXO7PY3ErUhovkPn7UwlWVm0helSILkr-G8
 
+sprite $AwsIotTopicMd [14x14/16z] hOk70G0W3CAa1F__s7s2SPRH5Wx4xP5UrNF_WZfRUo9eGJYJpS8-a_KQFwUwKt5lQs6kAhCuXGa
+
 !function AwsIotTopic($id, $name="Iot Topic", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotTopic', $name, $tech)
 !endfunction
 !function AwsIotTopicCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotTopicLg>', 'Iot Topic', $funcName, $content)
+  CloudCard($id, '<$AwsIotTopicMd>', 'Iot Topic', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ PP250GCn24NxYU3xhziJpkDvEBzZ0B_FcFE3I9MUf6ikG_j5mCcDg2qN3iRUzaTpFWnpGGLpDuVovOPr
 SebHPOXHUTkSLVqn2Q0PjpvWUFgongE7Q6RjqrNcs-VR-py
 }
 
+sprite $MaterialsLocationSearchingMd [14x14/16z] LSg74GGn34BH3xD6Sly5NzZiDqa2s4cy9DosdhEtgoXBhXnDiQkzRRDpWzESEbu_z2m5ZB3Bu4SLWrDYVqTtpo5EIiJ3PlS5
+
 !function MaterialsLocationSearching($id, $name="Location Searching", $tech="")
   CloudElement($id, 'materials/Device/MaterialsLocationSearching', $name, $tech)
 !endfunction
 !function MaterialsLocationSearchingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLocationSearchingLg>', 'Location Searching', $funcName, $content)
+  CloudCard($id, '<$MaterialsLocationSearchingMd>', 'Location Searching', $funcName, $content)
 !endfunction
 @enduml

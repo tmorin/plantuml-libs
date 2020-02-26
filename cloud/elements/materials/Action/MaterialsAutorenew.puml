@@ -4,10 +4,12 @@ VT230G0n30303-ja_sdVTdcfkz-FNop93O2rcbn4IYlcyKoXAMAES39fq_ewqSPGT8jYMf4RxjPedPfX
 fawiAc-oO_fwqkzl
 }
 
+sprite $MaterialsAutorenewMd [14x14/16z] ROt50S10408vMI3IVxjnpyrhTK2BIBWe78M3PCL073Y02kotvJXYsGHnYEBVbKEWiZitILmP74A-yZLkmeCKQ343
+
 !function MaterialsAutorenew($id, $name="Autorenew", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAutorenew', $name, $tech)
 !endfunction
 !function MaterialsAutorenewCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAutorenewLg>', 'Autorenew', $funcName, $content)
+  CloudCard($id, '<$MaterialsAutorenewMd>', 'Autorenew', $funcName, $content)
 !endfunction
 @enduml

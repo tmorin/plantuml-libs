@@ -4,10 +4,12 @@ fOwtOIH000B_fMK6jlz-vLr-XFZxC2O9_KirT6lO7sfJU-M7OyLMBdvpMmJKPLyKnppdF8zzxvGpJCwi
 882vlrYxTwttCRm2
 }
 
+sprite $AwsAthenaMd [14x14/16z] XOt50O1030InjUk_OCxoXVabQ-s7g9DzMEumMx4wrhfC0ECUbo7owKTT2kkAASdODNA_e7r57TAiHJkXsoSl
+
 !function AwsAthena($id, $name="Athena", $tech="")
   CloudElement($id, 'aws/Analytics/AwsAthena', $name, $tech)
 !endfunction
 !function AwsAthenaCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAthenaLg>', 'Athena', $funcName, $content)
+  CloudCard($id, '<$AwsAthenaMd>', 'Athena', $funcName, $content)
 !endfunction
 @enduml

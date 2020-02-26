@@ -4,10 +4,12 @@ PSx50GDG20DGFCdVV-2MkhmRZYrVTXUPjJ9ZA_NcbXRLixh2KfFkiToZUSuXfhjwG6wuH8cVuTrVY6gX
 w6YYYS7h48RItrrzXycFSD8yXzeGdMuN
 }
 
+sprite $AzureSqlDatabasesMd [11x14/16z] HOo50G9H34FhJVx-0nFWvDNLpEEBcrdKdx2ChEukHQw2gC4H900g5Kh5uO0z6AMJgCvAfIY5_gLRFHcJjJe_cYpmVX1FEbvBfJlb7m
+
 !function AzureSqlDatabases($id, $name="Sql Databases", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlDatabases', $name, $tech)
 !endfunction
 !function AzureSqlDatabasesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureSqlDatabasesLg>', 'Sql Databases', $funcName, $content)
+  CloudCard($id, '<$AzureSqlDatabasesMd>', 'Sql Databases', $funcName, $content)
 !endfunction
 @enduml

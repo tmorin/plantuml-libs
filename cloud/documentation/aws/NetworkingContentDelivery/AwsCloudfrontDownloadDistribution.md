@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsCloudfrontDownloadDistribution
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontDownloadDistribution element
@@ -34,7 +34,7 @@ AwsCloudfrontDownloadDistribution('element', 'Cloudfront Download Distribution',
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudfrontDownloadDistribution element
@@ -53,8 +53,8 @@ AwsCloudfrontDownloadDistribution('element', 'Cloudfront Download Distribution',
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontDownloadDistribution card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontDownloadDistribution')
@@ -71,8 +71,8 @@ AwsCloudfrontDownloadDistributionCard('card', 'an optional functional name', 'Mo
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudfrontDownloadDistribution card
 include('elements/aws/NetworkingContentDelivery/AwsCloudfrontDownloadDistribution')

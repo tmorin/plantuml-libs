@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsHourglassEmptyLg [20x20/16z] bL250S0m2Alx_-_EVMYgECHea4hTKDAbihMb3QtQMtVO4wqpiVlryJq-YtI_gjAbE9INwbQEaGoe0sF16b0lqZaW3c2kv9W1
 
+sprite $MaterialsHourglassEmptyMd [14x14/16z] NSxL0S0m20JGms7_WUjsVLy9ZZ_rW-BW4vlnwvVOvFNJ5a3wgeIrI1jkDdDzwCULF8Kty7Q-ZAq
+
 !function MaterialsHourglassEmpty($id, $name="Hourglass Empty", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHourglassEmpty', $name, $tech)
 !endfunction
 !function MaterialsHourglassEmptyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHourglassEmptyLg>', 'Hourglass Empty', $funcName, $content)
+  CloudCard($id, '<$MaterialsHourglassEmptyMd>', 'Hourglass Empty', $funcName, $content)
 !endfunction
 @enduml

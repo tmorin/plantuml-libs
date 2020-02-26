@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotSensor
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotSensor element
@@ -34,7 +34,7 @@ AwsIotSensor('element', 'Iot Sensor', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotSensor element
@@ -53,8 +53,8 @@ AwsIotSensor('element', 'Iot Sensor', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotSensor card
 include('elements/aws/InternetOfThings/AwsIotSensor')
@@ -71,8 +71,8 @@ AwsIotSensorCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotSensor card
 include('elements/aws/InternetOfThings/AwsIotSensor')

@@ -4,10 +4,12 @@ VP054WCn24NHsDhzRzi1wltJU1uE_HcSwntOMCnhsXlkHpSYwyUK9nEjM-SgoFrDE4UQsw7nAwY7nJLw
 PrpRUm_6CGJr2lSKZni
 }
 
+sprite $MaterialsSlowMotionVideoMd [14x14/16z] PKw50G0W29Em_VzTk-c6AK6eiSfAd0RGNey4e3cmkdTg0YtrTLZh6ZXI8yBMIgb6PB_icVokV1_Ezm_PJmK
+
 !function MaterialsSlowMotionVideo($id, $name="Slow Motion Video", $tech="")
   CloudElement($id, 'materials/Av/MaterialsSlowMotionVideo', $name, $tech)
 !endfunction
 !function MaterialsSlowMotionVideoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSlowMotionVideoLg>', 'Slow Motion Video', $funcName, $content)
+  CloudCard($id, '<$MaterialsSlowMotionVideoMd>', 'Slow Motion Video', $funcName, $content)
 !endfunction
 @enduml

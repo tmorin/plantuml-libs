@@ -4,10 +4,12 @@ RT150iDG30FHaaTIxd_WsiNGPFVo-NBQTTUGubMXyPPbayQyJ3bOB87M5fM5Asl3CqgbduKgX1BoDTTy
 ly4LRQgnswwsavu
 }
 
+sprite $AwsMachineLearningMd [14x14/16z] ROp50O0054AnYB__ldRhkv5uql6a0rWdmwOySofHadSLpZBofaHAzg5cEIizctyl5SlEhavcrGqd7O3c19W
+
 !function AwsMachineLearning($id, $name="Machine Learning", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsMachineLearning', $name, $tech)
 !endfunction
 !function AwsMachineLearningCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsMachineLearningLg>', 'Machine Learning', $funcName, $content)
+  CloudCard($id, '<$AwsMachineLearningMd>', 'Machine Learning', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotAlexaEnabledDevice
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAlexaEnabledDevice element
@@ -34,7 +34,7 @@ AwsIotAlexaEnabledDevice('element', 'Iot Alexa Enabled Device', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotAlexaEnabledDevice element
@@ -53,8 +53,8 @@ AwsIotAlexaEnabledDevice('element', 'Iot Alexa Enabled Device', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAlexaEnabledDevice card
 include('elements/aws/InternetOfThings/AwsIotAlexaEnabledDevice')
@@ -71,8 +71,8 @@ AwsIotAlexaEnabledDeviceCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotAlexaEnabledDevice card
 include('elements/aws/InternetOfThings/AwsIotAlexaEnabledDevice')

@@ -4,10 +4,12 @@ PT070W0H30J0GpQw_Vzhh_VeHZTzWmkJ2GfBX2N24c69i4HO8YnH_rGKuKjLt7zXtQPu_rae6_NiNhHs
 XOaZLrBVvaLPPRlbHqTQomK
 }
 
+sprite $MaterialsPermDataSettingMd [14x14/16z] LKt50G0X36kfuUm_xIcQNnmca623oKQqoKuwwwIpJffk91XDaWNF3ikCeREKZR4FK67AGl902IYJI_E3GafX_QDwX1i
+
 !function MaterialsPermDataSetting($id, $name="Perm Data Setting", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermDataSetting', $name, $tech)
 !endfunction
 !function MaterialsPermDataSettingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPermDataSettingLg>', 'Perm Data Setting', $funcName, $content)
+  CloudCard($id, '<$MaterialsPermDataSettingMd>', 'Perm Data Setting', $funcName, $content)
 !endfunction
 @enduml

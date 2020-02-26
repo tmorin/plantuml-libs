@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureFrontDoors
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFrontDoors element
 include('elements/azure/NetworkingServiceColor/AzureFrontDoors')
@@ -34,8 +34,8 @@ AzureFrontDoors('element', 'Front Doors', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFrontDoors element
 include('elements/azure/NetworkingServiceColor/AzureFrontDoors')
@@ -53,8 +53,8 @@ AzureFrontDoors('element', 'Front Doors', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFrontDoors card
 include('elements/azure/NetworkingServiceColor/AzureFrontDoors')
@@ -71,8 +71,8 @@ AzureFrontDoorsCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureFrontDoors card
 include('elements/azure/NetworkingServiceColor/AzureFrontDoors')

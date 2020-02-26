@@ -4,10 +4,15 @@ NO-50SGm24NvWZJPVzvpxOlY47UGbId45ncgIlyeNQKGuyPRYPikxmAToOUAK3s-gXj-HX92X0NLAo1I
 DveCCBBo_ceEvyeWNib8Hszp3SoNpcfwTyn-ziD7XIciHguQnHr8x0FToPvYl80FSGvuZ7Z3JAmj9UCBfHcJyGkevsnN
 }
 
+sprite $AzureWebappwordpressMd [14x14/16z] {
+BKu94W0X24f4tFh_WrUQl6zPAuAgZ7KfYY3YPQcAiQHpJ6CXIih9w8Q8QKvclGsuvoMgMAqPoqYBpZaAVn03kQa6F2SgjtYAqqpEpshqDvc9ZOzZ7ZpcRlzu
+11hu3m
+}
+
 !function AzureWebappwordpress($id, $name="Webappwordpress", $tech="")
   CloudElement($id, 'azure/Companies/AzureWebappwordpress', $name, $tech)
 !endfunction
 !function AzureWebappwordpressCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureWebappwordpressLg>', 'Webappwordpress', $funcName, $content)
+  CloudCard($id, '<$AzureWebappwordpressMd>', 'Webappwordpress', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ bL273S0W36jYE_J_YqkiRasYXRp5jdOHVmGbYH-8YgcaNb3gf0XS4SepiqITO5rajDOFVNAAapdx4jaw
 gKe_SuDtJn8Ey8sTqIlUH_XZ5ky
 }
 
+sprite $AwsIotOverTheAirUpdateMd [14x14/16z] PKk50O10499GzzzO7blvkAEcF_3OQLitoIS1PUwmE-6pREGn2z5A2IslcMYw4Gn60smjH2CD92scD30lP987I2daXmq
+
 !function AwsIotOverTheAirUpdate($id, $name="Iot Over The Air Update", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotOverTheAirUpdate', $name, $tech)
 !endfunction
 !function AwsIotOverTheAirUpdateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotOverTheAirUpdateLg>', 'Iot Over The Air Update', $funcName, $content)
+  CloudCard($id, '<$AwsIotOverTheAirUpdateMd>', 'Iot Over The Air Update', $funcName, $content)
 !endfunction
 @enduml

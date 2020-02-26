@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsPages
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPages element
 include('elements/materials/Social/MaterialsPages')
@@ -34,8 +34,8 @@ MaterialsPages('element', 'Pages', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPages element
 include('elements/materials/Social/MaterialsPages')
@@ -53,8 +53,8 @@ MaterialsPages('element', 'Pages', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPages card
 include('elements/materials/Social/MaterialsPages')
@@ -71,8 +71,8 @@ MaterialsPagesCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPages card
 include('elements/materials/Social/MaterialsPages')

@@ -4,10 +4,12 @@ NOy94iKm24AZ2ER-9_x6QKtdlwukC64re0fY3Iu5Yb1EDtscQQknJNzQt6ylGmynU_LZvkvLNstYr6RG
 gOAXyPDNOO3hcsDldGTODmVahbZsqNOE4lcVOs_wxB4FOepQxTx5tle7
 }
 
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowMd [14x14/16z] TOwt0KD134AFTDf_O_DpvTSe2zPQS8hHj4NO1CnPSeIYuLc5BZJl6G7-dP7VJBAbd1MsuxBlJMyhJsLECjIZhZhHw9h9pkXIkBZI7m
+
 !function AwsDatabaseMigrationServiceDatabaseMigrationWorkflow($id, $name="Database Migration Service Database Migration Workflow", $tech="")
   CloudElement($id, 'aws/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflow', $name, $tech)
 !endfunction
 !function AwsDatabaseMigrationServiceDatabaseMigrationWorkflowCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowLg>', 'Database Migration Service Database Migration Workflow', $funcName, $content)
+  CloudCard($id, '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowMd>', 'Database Migration Service Database Migration Workflow', $funcName, $content)
 !endfunction
 @enduml

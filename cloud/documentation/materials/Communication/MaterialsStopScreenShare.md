@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsStopScreenShare
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStopScreenShare element
 include('elements/materials/Communication/MaterialsStopScreenShare')
@@ -34,8 +34,8 @@ MaterialsStopScreenShare('element', 'Stop Screen Share', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStopScreenShare element
 include('elements/materials/Communication/MaterialsStopScreenShare')
@@ -53,8 +53,8 @@ MaterialsStopScreenShare('element', 'Stop Screen Share', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStopScreenShare card
 include('elements/materials/Communication/MaterialsStopScreenShare')
@@ -71,8 +71,8 @@ MaterialsStopScreenShareCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStopScreenShare card
 include('elements/materials/Communication/MaterialsStopScreenShare')

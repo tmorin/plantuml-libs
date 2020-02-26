@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsContactPhone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactPhone element
 include('elements/materials/Communication/MaterialsContactPhone')
@@ -34,8 +34,8 @@ MaterialsContactPhone('element', 'Contact Phone', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactPhone element
 include('elements/materials/Communication/MaterialsContactPhone')
@@ -53,8 +53,8 @@ MaterialsContactPhone('element', 'Contact Phone', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactPhone card
 include('elements/materials/Communication/MaterialsContactPhone')
@@ -71,8 +71,8 @@ MaterialsContactPhoneCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsContactPhone card
 include('elements/materials/Communication/MaterialsContactPhone')

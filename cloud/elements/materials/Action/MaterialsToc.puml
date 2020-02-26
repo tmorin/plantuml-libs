@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTocLg [20x20/16z] Ow0FO4G080SinCB33GKyN8oCN2nWPInmm0nKmOJBE6OEE61dP6HdnYM62J3jmEuMJ3VJ1m
 
+sprite $MaterialsTocMd [14x14/16z] Oo0NCB9pW04R8oiZaCi40OmC80uZ2oiOC3CmCwBmK5MYcq8k
+
 !function MaterialsToc($id, $name="Toc", $tech="")
   CloudElement($id, 'materials/Action/MaterialsToc', $name, $tech)
 !endfunction
 !function MaterialsTocCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTocLg>', 'Toc', $funcName, $content)
+  CloudCard($id, '<$MaterialsTocMd>', 'Toc', $funcName, $content)
 !endfunction
 @enduml

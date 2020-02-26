@@ -4,10 +4,12 @@ VOy50iKW34EfuEdzZpiBtoKRzkffIG-bLta0uQzC_92yClMSNL-yAcACGD7Y2-cOMKKqpy1YqliHfUVg
 heFkb8MobVfWjRCPv_2lrmfV2FKnRZGtynP5db8tHA1PUf6eIlgZ7G
 }
 
+sprite $MaterialsTimerMd [14x14/16z] POm74aGn24B14kBi_U-xaxhblrGLmC0Y39UGuXRqrfpWqdL5g2jdKGuI_l9H3Kic46sOYgjYvt2Dq17PRRV8_O4S4zUyoqxq82hTim8BffJ4WpS
+
 !function MaterialsTimer($id, $name="Timer", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTimer', $name, $tech)
 !endfunction
 !function MaterialsTimerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTimerLg>', 'Timer', $funcName, $content)
+  CloudCard($id, '<$MaterialsTimerMd>', 'Timer', $funcName, $content)
 !endfunction
 @enduml

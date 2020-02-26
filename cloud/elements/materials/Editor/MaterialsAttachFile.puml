@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAttachFileLg [20x20/16z] lT2r5G0n30DGiwtz1pwcG7qA_wSgT8MPkh03AQrv2NjnKyFUAMrjhwHrPhOPHsFXcqdnt-OJir9ePnpbr9hG7Yrw4x7lNFOnhX2MpFQt0YZVgL5-P0K
 
+sprite $MaterialsAttachFileMd [14x14/16z] fScr0S0044BHG_VVE6vzVlTWzYZCa-hoKJ7CHqI0MmmY_rRZLw16kXJj4o-XSJLFqlci
+
 !function MaterialsAttachFile($id, $name="Attach File", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsAttachFile', $name, $tech)
 !endfunction
 !function MaterialsAttachFileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAttachFileLg>', 'Attach File', $funcName, $content)
+  CloudCard($id, '<$MaterialsAttachFileMd>', 'Attach File', $funcName, $content)
 !endfunction
 @enduml

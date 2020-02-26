@@ -4,10 +4,12 @@ bT3L0OD0403HqsMj_tepFp6SXpFebLBLZxI2eQtkQZeBfh0QiiQzykdLSsqywXR8W2EmwftliS6gWm_M
 sbK-_DilnbzC3fYGU-IXwALxVgd0yil_SioE6VdbcgVq1G
 }
 
+sprite $AzureClientApplicationMd [22x14/16z] fSYr0S0m40J1qz-JeFzspPnwibsKp7Yh0j1G-51WtAxqSRFFxOld3JALjg3Trm4NU6Q0Vwv5-FEcMRhvmkAuBhG75ITAZlun4ZbstLMz7n5j7EfY7DeC
+
 !function AzureClientApplication($id, $name="Client Application", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureClientApplication', $name, $tech)
 !endfunction
 !function AzureClientApplicationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureClientApplicationLg>', 'Client Application', $funcName, $content)
+  CloudCard($id, '<$AzureClientApplicationMd>', 'Client Application', $funcName, $content)
 !endfunction
 @enduml

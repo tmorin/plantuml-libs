@@ -4,10 +4,12 @@ PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0X
 rjPnxopTE_zl-__W_wjEktygwVpf__SR
 }
 
+sprite $GcpCloudShellMd [14x14/16z] LOw50GHG24B1td_Y4w_VJni0z8CGh3xgp9WNiORrp4Pq6v1wI5ypSRTbXhmooYiYgLnPpBDUmM2MgRK_krXSoMl27FOxFJ_ArcW2_weV
+
 !function GcpCloudShell($id, $name="Cloud Shell", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpCloudShell', $name, $tech)
 !endfunction
 !function GcpCloudShellCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudShellLg>', 'Cloud Shell', $funcName, $content)
+  CloudCard($id, '<$GcpCloudShellMd>', 'Cloud Shell', $funcName, $content)
 !endfunction
 @enduml

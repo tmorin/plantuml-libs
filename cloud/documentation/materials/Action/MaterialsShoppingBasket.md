@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsShoppingBasket
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShoppingBasket element
 include('elements/materials/Action/MaterialsShoppingBasket')
@@ -34,8 +34,8 @@ MaterialsShoppingBasket('element', 'Shopping Basket', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShoppingBasket element
 include('elements/materials/Action/MaterialsShoppingBasket')
@@ -53,8 +53,8 @@ MaterialsShoppingBasket('element', 'Shopping Basket', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShoppingBasket card
 include('elements/materials/Action/MaterialsShoppingBasket')
@@ -71,8 +71,8 @@ MaterialsShoppingBasketCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShoppingBasket card
 include('elements/materials/Action/MaterialsShoppingBasket')

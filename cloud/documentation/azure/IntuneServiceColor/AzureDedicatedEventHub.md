@@ -16,8 +16,8 @@ elements/azure/IntuneServiceColor/AzureDedicatedEventHub
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDedicatedEventHub element
 include('elements/azure/IntuneServiceColor/AzureDedicatedEventHub')
@@ -34,8 +34,8 @@ AzureDedicatedEventHub('element', 'Dedicated Event Hub', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDedicatedEventHub element
 include('elements/azure/IntuneServiceColor/AzureDedicatedEventHub')
@@ -53,8 +53,8 @@ AzureDedicatedEventHub('element', 'Dedicated Event Hub', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDedicatedEventHub card
 include('elements/azure/IntuneServiceColor/AzureDedicatedEventHub')
@@ -71,8 +71,8 @@ AzureDedicatedEventHubCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDedicatedEventHub card
 include('elements/azure/IntuneServiceColor/AzureDedicatedEventHub')

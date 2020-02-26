@@ -16,7 +16,7 @@ elements/aws/Analytics/AwsQuicksight
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsQuicksight element
@@ -34,7 +34,7 @@ AwsQuicksight('element', 'Quicksight', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsQuicksight element
@@ -53,8 +53,8 @@ AwsQuicksight('element', 'Quicksight', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsQuicksight card
 include('elements/aws/Analytics/AwsQuicksight')
@@ -71,8 +71,8 @@ AwsQuicksightCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsQuicksight card
 include('elements/aws/Analytics/AwsQuicksight')

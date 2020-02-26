@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsStayCurrentLandscape
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayCurrentLandscape element
 include('elements/materials/Communication/MaterialsStayCurrentLandscape')
@@ -34,8 +34,8 @@ MaterialsStayCurrentLandscape('element', 'Stay Current Landscape', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayCurrentLandscape element
 include('elements/materials/Communication/MaterialsStayCurrentLandscape')
@@ -53,8 +53,8 @@ MaterialsStayCurrentLandscape('element', 'Stay Current Landscape', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayCurrentLandscape card
 include('elements/materials/Communication/MaterialsStayCurrentLandscape')
@@ -71,8 +71,8 @@ MaterialsStayCurrentLandscapeCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayCurrentLandscape card
 include('elements/materials/Communication/MaterialsStayCurrentLandscape')

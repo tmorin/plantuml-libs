@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsSettingsOverscan
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsOverscan element
 include('elements/materials/Action/MaterialsSettingsOverscan')
@@ -34,8 +34,8 @@ MaterialsSettingsOverscan('element', 'Settings Overscan', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsOverscan element
 include('elements/materials/Action/MaterialsSettingsOverscan')
@@ -53,8 +53,8 @@ MaterialsSettingsOverscan('element', 'Settings Overscan', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsOverscan card
 include('elements/materials/Action/MaterialsSettingsOverscan')
@@ -71,8 +71,8 @@ MaterialsSettingsOverscanCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSettingsOverscan card
 include('elements/materials/Action/MaterialsSettingsOverscan')

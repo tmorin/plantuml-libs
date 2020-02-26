@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatListNumbered
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListNumbered element
 include('elements/materials/Editor/MaterialsFormatListNumbered')
@@ -34,8 +34,8 @@ MaterialsFormatListNumbered('element', 'Format List Numbered', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListNumbered element
 include('elements/materials/Editor/MaterialsFormatListNumbered')
@@ -53,8 +53,8 @@ MaterialsFormatListNumbered('element', 'Format List Numbered', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListNumbered card
 include('elements/materials/Editor/MaterialsFormatListNumbered')
@@ -71,8 +71,8 @@ MaterialsFormatListNumberedCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatListNumbered card
 include('elements/materials/Editor/MaterialsFormatListNumbered')

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsEc2Lg [20x20/16z] bP154eH0300FiVt_XnU81wTFKptntsT46OPGeUvGmnYbyfWrKz89WKBI712l4AZpHE3jmUK8f_EEuTXd6KuaNFMeQMkMShehMw8xNI6dLM9xERdIPnO
+sprite $AwsEc2Lg [20x20/16z] {
+RSu94e0m24FH6Ka8zp-nGt2tt_sfRUNobQQLQMa8XwT5TepdU4nt6wFRyB0C9abiB_ELSHd0l_NT6BsMag2nlhWg6_j-XZXC34TrOwNqeZMr-JuXPol2lQpq
+okPMziGT
+}
+
+sprite $AwsEc2Md [14x14/16z] HSg53G0n50BG4-Jllt2Tz4KH3r8uyIOJKpPgE8d_m2HGuhyJ2TbAqawaLAQXzVHEn43RAzcYboekIUMhbgGE
 
 !function AwsEc2($id, $name="Ec2", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2', $name, $tech)
 !endfunction
 !function AwsEc2Card($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2Lg>', 'Ec2', $funcName, $content)
+  CloudCard($id, '<$AwsEc2Md>', 'Ec2', $funcName, $content)
 !endfunction
 @enduml

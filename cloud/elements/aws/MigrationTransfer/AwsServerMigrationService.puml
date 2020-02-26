@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsServerMigrationServiceLg [20x20/16z] fSo50GCX04FHMepz1swek_vJ7ZA-AEs6YCPhWnfoRIG8wL8BlKqaPnCvzt83NvxdMkBD4UVnwQiPlhKYNvXirTBFSQyuI-Oturme7U3IU6lpiDJ-RWi
 
+sprite $AwsServerMigrationServiceMd [14x14/16z] XSUt0SG000An3ZZst_U3SxOwzGWsiQJr-Z6xZPyMh8m3fsMiwM___gVm6zZ_nLQmGqUHt0K9VVC5
+
 !function AwsServerMigrationService($id, $name="Server Migration Service", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsServerMigrationService', $name, $tech)
 !endfunction
 !function AwsServerMigrationServiceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsServerMigrationServiceLg>', 'Server Migration Service', $funcName, $content)
+  CloudCard($id, '<$AwsServerMigrationServiceMd>', 'Server Migration Service', $funcName, $content)
 !endfunction
 @enduml

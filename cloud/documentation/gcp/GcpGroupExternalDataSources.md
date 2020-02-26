@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalDataSources group
 include('groups/gcp/GcpGroupExternalDataSources')
@@ -30,8 +30,8 @@ GcpGroupExternalDataSources('element', 'External Data Sources', 'an optional tec
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupExternalDataSources group
 include('groups/gcp/GcpGroupExternalDataSources')

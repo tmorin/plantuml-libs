@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsRoute53HostedZone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRoute53HostedZone element
@@ -34,7 +34,7 @@ AwsRoute53HostedZone('element', 'Route53 Hosted Zone', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRoute53HostedZone element
@@ -53,8 +53,8 @@ AwsRoute53HostedZone('element', 'Route53 Hosted Zone', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRoute53HostedZone card
 include('elements/aws/NetworkingContentDelivery/AwsRoute53HostedZone')
@@ -71,8 +71,8 @@ AwsRoute53HostedZoneCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRoute53HostedZone card
 include('elements/aws/NetworkingContentDelivery/AwsRoute53HostedZone')

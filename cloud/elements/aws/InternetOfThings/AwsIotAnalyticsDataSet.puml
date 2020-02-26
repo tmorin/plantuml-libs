@@ -4,10 +4,12 @@ VT150WKn2C1G4g3tl_6uV9stJBqHDMuTkqvFEM1ln8bsdzhkgzkYiR_c1SSy4DFqfILbrk9knEMULrts
 UYBehryrZrRZHKNC
 }
 
+sprite $AwsIotAnalyticsDataSetMd [14x14/16z] RSst0O1G201Hk8FzHrP_h7mLcR0tuoCv15LycVKHnD6B77OcOdbwey7f8UZjRR-PdxnP0lT3-obxPe5CERFimtW1
+
 !function AwsIotAnalyticsDataSet($id, $name="Iot Analytics Data Set", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsDataSet', $name, $tech)
 !endfunction
 !function AwsIotAnalyticsDataSetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotAnalyticsDataSetLg>', 'Iot Analytics Data Set', $funcName, $content)
+  CloudCard($id, '<$AwsIotAnalyticsDataSetMd>', 'Iot Analytics Data Set', $funcName, $content)
 !endfunction
 @enduml

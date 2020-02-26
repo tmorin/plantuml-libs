@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsVideocam
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVideocam element
 include('elements/materials/Av/MaterialsVideocam')
@@ -34,8 +34,8 @@ MaterialsVideocam('element', 'Videocam', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVideocam element
 include('elements/materials/Av/MaterialsVideocam')
@@ -53,8 +53,8 @@ MaterialsVideocam('element', 'Videocam', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVideocam card
 include('elements/materials/Av/MaterialsVideocam')
@@ -71,8 +71,8 @@ MaterialsVideocamCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVideocam card
 include('elements/materials/Av/MaterialsVideocam')

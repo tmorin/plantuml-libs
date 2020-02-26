@@ -16,8 +16,8 @@ elements/azure/ManagementAndGovernanceServiceColor/AzureManagedApplications
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedApplications element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureManagedApplications')
@@ -34,8 +34,8 @@ AzureManagedApplications('element', 'Managed Applications', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedApplications element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureManagedApplications')
@@ -53,8 +53,8 @@ AzureManagedApplications('element', 'Managed Applications', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedApplications card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureManagedApplications')
@@ -71,8 +71,8 @@ AzureManagedApplicationsCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureManagedApplications card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureManagedApplications')

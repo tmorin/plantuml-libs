@@ -4,10 +4,12 @@ RL073W0X22lGulz_VAaajvMz0VE290EFbujSYVD5grg0kjI1CL5AIobnZCrTJw9LjcsI9LQnEHfG0XMe
 vW9dxjbZnj_gEOjDcbdEcJFFcNzs-xd1twt-R_ft-mC
 }
 
+sprite $AwsSystemsManagerMaintenanceWindowsMd [14x14/16z] NKw30GD033nb_vKRrC_eW5ckCcunAlKnDqb4Aacd3fYg3XD0OL7g9uAhKzWBxuIPSI9KNSQ4a-taIyZ7CacdJuKLY__LGN-S_Rf-
+
 !function AwsSystemsManagerMaintenanceWindows($id, $name="Systems Manager Maintenance Windows", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerMaintenanceWindows', $name, $tech)
 !endfunction
 !function AwsSystemsManagerMaintenanceWindowsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsSystemsManagerMaintenanceWindowsLg>', 'Systems Manager Maintenance Windows', $funcName, $content)
+  CloudCard($id, '<$AwsSystemsManagerMaintenanceWindowsMd>', 'Systems Manager Maintenance Windows', $funcName, $content)
 !endfunction
 @enduml

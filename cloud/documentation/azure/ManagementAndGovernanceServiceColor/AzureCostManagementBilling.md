@@ -16,8 +16,8 @@ elements/azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCostManagementBilling element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling')
@@ -34,8 +34,8 @@ AzureCostManagementBilling('element', 'Cost Management Billing', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCostManagementBilling element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling')
@@ -53,8 +53,8 @@ AzureCostManagementBilling('element', 'Cost Management Billing', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCostManagementBilling card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling')
@@ -71,8 +71,8 @@ AzureCostManagementBillingCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCostManagementBilling card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling')

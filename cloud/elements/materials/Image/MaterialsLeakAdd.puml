@@ -4,10 +4,12 @@ ZL054iGm25pOmD6GJF__swkNyMu4Lto6D6vFG7rrRNMqePBswkY22EWaAcoJBQNcYsdGT9HyOo4akjIw
 hMcr_mHSHYiwJu7DQBNBD70QAZWKIq2SPRmKtNBvMlBfjR3jVSOV
 }
 
+sprite $MaterialsLeakAddMd [14x14/16z] NKs54S1037eWmdN_VUiULnW_8SQgLpDH1Pyj28k-BkL4nzcWXFHU7QTj38ItNzYnnIQk0wo_geicUltLXMlAuCLfb3ZnejcKuoSB
+
 !function MaterialsLeakAdd($id, $name="Leak Add", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLeakAdd', $name, $tech)
 !endfunction
 !function MaterialsLeakAddCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLeakAddLg>', 'Leak Add', $funcName, $content)
+  CloudCard($id, '<$MaterialsLeakAddMd>', 'Leak Add', $funcName, $content)
 !endfunction
 @enduml

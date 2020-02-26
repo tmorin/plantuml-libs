@@ -4,10 +4,12 @@ bSxN0OKW44HHDjp5_Xis2_FpWgEaGspc4U7M91O9PAWHHzmLbrv50cAzBmTNgksfjtOzATGSt-j4B2Xl
 tc_R
 }
 
+sprite $AzureDataFactoriesMd [14x14/16z] PSU50O0m34JH9YTb_uLngFrAyWhEehm19F9JjSxYqrPj_wgdj0Wdy8agGJzAtk-HzRucwnL2cGeyOWfGFcgDEW
+
 !function AzureDataFactories($id, $name="Data Factories", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataFactories', $name, $tech)
 !endfunction
 !function AzureDataFactoriesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDataFactoriesLg>', 'Data Factories', $funcName, $content)
+  CloudCard($id, '<$AzureDataFactoriesMd>', 'Data Factories', $funcName, $content)
 !endfunction
 @enduml

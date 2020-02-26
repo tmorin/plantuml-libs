@@ -4,10 +4,12 @@ TT05OW0n4090M1Rk_p_knQhfn5tm7r7r4eM3aVjbXLZiZ91P60DDV9aD9UN2aGYW3AKMmY8W1toyXB60
 2uZtNS34xQJsNPBPr-g4wyvhVt9dvkKFBdzr_zEx3m
 }
 
+sprite $AwsIotCartMd [14x14/16z] NOw70KGX34930FSV-OBt-xER0XMGUK1jM44NEz97bfXGkmCcc6KEeeI95JiLIE6E0wqwCikcMKScbhMSMp7n1YV6b_hNsTlr3m
+
 !function AwsIotCart($id, $name="Iot Cart", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotCart', $name, $tech)
 !endfunction
 !function AwsIotCartCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotCartLg>', 'Iot Cart', $funcName, $content)
+  CloudCard($id, '<$AwsIotCartMd>', 'Iot Cart', $funcName, $content)
 !endfunction
 @enduml

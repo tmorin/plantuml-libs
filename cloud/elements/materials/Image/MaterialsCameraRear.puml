@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsCameraRearLg [20x20/16z] pSp50SCm30NGBvbv_sqRDj_x4fC81n7A8mWyzF6AniJZq7YOuw40THocZObZn1WpH6QCbH3A63lyMqpZmTOvxqwMKP5a8ZJuOFHzVlDIIhb8ZYcPJTr7DDD-
 
+sprite $MaterialsCameraRearMd [14x14/16z] fSV50KCn30MmbvZjmFxJbZuDKDq4mFQUSs_3LyjTHBMpdNF0dqtL-UpdpyMn-0sTHPYvurXdRRqVQsgUNKmR3ermU0C
+
 !function MaterialsCameraRear($id, $name="Camera Rear", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCameraRear', $name, $tech)
 !endfunction
 !function MaterialsCameraRearCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCameraRearLg>', 'Camera Rear', $funcName, $content)
+  CloudCard($id, '<$MaterialsCameraRearMd>', 'Camera Rear', $funcName, $content)
 !endfunction
 @enduml

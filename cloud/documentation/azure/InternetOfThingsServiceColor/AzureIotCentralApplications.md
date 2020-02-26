@@ -16,8 +16,8 @@ elements/azure/InternetOfThingsServiceColor/AzureIotCentralApplications
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIotCentralApplications element
 include('elements/azure/InternetOfThingsServiceColor/AzureIotCentralApplications')
@@ -34,8 +34,8 @@ AzureIotCentralApplications('element', 'Iot Central Applications', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIotCentralApplications element
 include('elements/azure/InternetOfThingsServiceColor/AzureIotCentralApplications')
@@ -53,8 +53,8 @@ AzureIotCentralApplications('element', 'Iot Central Applications', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIotCentralApplications card
 include('elements/azure/InternetOfThingsServiceColor/AzureIotCentralApplications')
@@ -71,8 +71,8 @@ AzureIotCentralApplicationsCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIotCentralApplications card
 include('elements/azure/InternetOfThingsServiceColor/AzureIotCentralApplications')

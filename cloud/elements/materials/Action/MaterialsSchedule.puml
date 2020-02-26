@@ -4,10 +4,12 @@ VP255SKm24MBH5uFx3_k5wXBFBauqs0GCvs1mjmDkcE6DnNHvk0LpP1y2UQ41D3_odUFMpsqMfpY-hzw
 SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
 }
 
+sprite $MaterialsScheduleMd [14x14/16z] PKw54S1022j-xBzmy-w6HRvdiKKOzyJIHF2q9AXy52NbH2ACDF5OAIc26eMCJA9dubIoFlcnIuagIrbKM2w5fNuvkzSF
+
 !function MaterialsSchedule($id, $name="Schedule", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSchedule', $name, $tech)
 !endfunction
 !function MaterialsScheduleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsScheduleLg>', 'Schedule', $funcName, $content)
+  CloudCard($id, '<$MaterialsScheduleMd>', 'Schedule', $funcName, $content)
 !endfunction
 @enduml

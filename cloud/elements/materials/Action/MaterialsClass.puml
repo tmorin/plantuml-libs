@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsClassLg [20x20/16z] lP150e0m30GXrVZ_Nukx767Qs1otUG4EB2gmhXY7sIKE005z8iqkOplqygsZK33KaqkkxgeND_Et2soth6wPFj43
 
+sprite $MaterialsClassMd [14x14/16z] Oq03JEnGm0JYiR8nCR7p0m4hYCV60XGXZiVAmi86vx7oyVFn8dWW5eayD9UX0G
+
 !function MaterialsClass($id, $name="Class", $tech="")
   CloudElement($id, 'materials/Action/MaterialsClass', $name, $tech)
 !endfunction
 !function MaterialsClassCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsClassLg>', 'Class', $funcName, $content)
+  CloudCard($id, '<$MaterialsClassMd>', 'Class', $funcName, $content)
 !endfunction
 @enduml

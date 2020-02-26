@@ -16,8 +16,8 @@ elements/materials/Content/MaterialsNextWeek
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNextWeek element
 include('elements/materials/Content/MaterialsNextWeek')
@@ -34,8 +34,8 @@ MaterialsNextWeek('element', 'Next Week', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNextWeek element
 include('elements/materials/Content/MaterialsNextWeek')
@@ -53,8 +53,8 @@ MaterialsNextWeek('element', 'Next Week', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNextWeek card
 include('elements/materials/Content/MaterialsNextWeek')
@@ -71,8 +71,8 @@ MaterialsNextWeekCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNextWeek card
 include('elements/materials/Content/MaterialsNextWeek')

@@ -4,10 +4,12 @@ jSf5eWD120JGmg47Ukv_sw_nRV9s9VWKomX-wV8enZEkIqcY5t6M400zzfnNim-5T31P_pLjpD5IHI2E
 tt8ne6FaKzd5-CRLMUC4Y8SHVf652zxk2m
 }
 
+sprite $MaterialsMotorcycleMd [14x14/16z] XSor0SC030J05rDW_sc3fig-HYnS8y9EglGuuloLuk5VTG-1bjeyFqO_QGiady_ytaaFmwgTGW0U3_uzq6GA9yjlyItJ220i2AVU
+
 !function MaterialsMotorcycle($id, $name="Motorcycle", $tech="")
   CloudElement($id, 'materials/Action/MaterialsMotorcycle', $name, $tech)
 !endfunction
 !function MaterialsMotorcycleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsMotorcycleLg>', 'Motorcycle', $funcName, $content)
+  CloudCard($id, '<$MaterialsMotorcycleMd>', 'Motorcycle', $funcName, $content)
 !endfunction
 @enduml

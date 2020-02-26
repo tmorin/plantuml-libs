@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsBorderBottom
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderBottom element
 include('elements/materials/Editor/MaterialsBorderBottom')
@@ -34,8 +34,8 @@ MaterialsBorderBottom('element', 'Border Bottom', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderBottom element
 include('elements/materials/Editor/MaterialsBorderBottom')
@@ -53,8 +53,8 @@ MaterialsBorderBottom('element', 'Border Bottom', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderBottom card
 include('elements/materials/Editor/MaterialsBorderBottom')
@@ -71,8 +71,8 @@ MaterialsBorderBottomCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBorderBottom card
 include('elements/materials/Editor/MaterialsBorderBottom')

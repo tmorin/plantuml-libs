@@ -16,7 +16,7 @@ elements/aws/Robotics/AwsRobomakerCloudExtensionRos
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRobomakerCloudExtensionRos element
@@ -34,7 +34,7 @@ AwsRobomakerCloudExtensionRos('element', 'Robomaker Cloud Extension Ros', 'an op
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRobomakerCloudExtensionRos element
@@ -53,8 +53,8 @@ AwsRobomakerCloudExtensionRos('element', 'Robomaker Cloud Extension Ros', 'an op
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRobomakerCloudExtensionRos card
 include('elements/aws/Robotics/AwsRobomakerCloudExtensionRos')
@@ -71,8 +71,8 @@ AwsRobomakerCloudExtensionRosCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRobomakerCloudExtensionRos card
 include('elements/aws/Robotics/AwsRobomakerCloudExtensionRos')

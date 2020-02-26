@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupInfrastructureSystem group
 include('groups/gcp/GcpGroupInfrastructureSystem')
@@ -30,8 +30,8 @@ GcpGroupInfrastructureSystem('element', 'Infrastructure System', 'an optional te
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupInfrastructureSystem group
 include('groups/gcp/GcpGroupInfrastructureSystem')

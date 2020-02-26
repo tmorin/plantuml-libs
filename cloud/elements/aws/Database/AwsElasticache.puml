@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsElasticacheLg [20x20/16z] {
-hP1L0WCn20KhJu3x7xXaNJwx4vyuzHzvOdRW0SpEBK60e_NiH1if9MngSNQRGTgR6yE-gvlDXKWrNSVY23Ao2VAxtYklwopNohgk3gphZaxpEXtT-hvx8Ee1
-VW
+VSe74WDH28BX544VU__xXjNqzkkqRv1RprMLFj7seRkjUive2mUVtutbu137WCmeie84nao5henZJ0ArLW7CcnKn1Tes2G7aSXaunswRaWc0089WcrMeta7I
+mq0IU9YHZvritM9NQjmcBQThBQtkhttY1G
 }
+
+sprite $AwsElasticacheMd [14x14/16z] RSq50i0W50BGrI-y_tq7wn3pcG3gJ2PrcqecjbG1lXonJSQoTHAFkAhlSfDCQd2pa1QZMfM7c4anxeG3kpBq8KW9nLDG20NeQ0K
 
 !function AwsElasticache($id, $name="Elasticache", $tech="")
   CloudElement($id, 'aws/Database/AwsElasticache', $name, $tech)
 !endfunction
 !function AwsElasticacheCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsElasticacheLg>', 'Elasticache', $funcName, $content)
+  CloudCard($id, '<$AwsElasticacheMd>', 'Elasticache', $funcName, $content)
 !endfunction
 @enduml

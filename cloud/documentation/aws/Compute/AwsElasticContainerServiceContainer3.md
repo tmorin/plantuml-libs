@@ -16,7 +16,7 @@ elements/aws/Compute/AwsElasticContainerServiceContainer3
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticContainerServiceContainer3 element
@@ -34,7 +34,7 @@ AwsElasticContainerServiceContainer3('element', 'Elastic Container Service Conta
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticContainerServiceContainer3 element
@@ -53,8 +53,8 @@ AwsElasticContainerServiceContainer3('element', 'Elastic Container Service Conta
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticContainerServiceContainer3 card
 include('elements/aws/Compute/AwsElasticContainerServiceContainer3')
@@ -71,8 +71,8 @@ AwsElasticContainerServiceContainer3Card('card', 'an optional functional name', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticContainerServiceContainer3 card
 include('elements/aws/Compute/AwsElasticContainerServiceContainer3')

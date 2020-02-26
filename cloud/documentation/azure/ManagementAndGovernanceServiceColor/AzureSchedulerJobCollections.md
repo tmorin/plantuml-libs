@@ -16,8 +16,8 @@ elements/azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSchedulerJobCollections element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections')
@@ -34,8 +34,8 @@ AzureSchedulerJobCollections('element', 'Scheduler Job Collections', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSchedulerJobCollections element
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections')
@@ -53,8 +53,8 @@ AzureSchedulerJobCollections('element', 'Scheduler Job Collections', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSchedulerJobCollections card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections')
@@ -71,8 +71,8 @@ AzureSchedulerJobCollectionsCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSchedulerJobCollections card
 include('elements/azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections')

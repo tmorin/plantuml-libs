@@ -4,10 +4,12 @@ RP054iHG24EBKx__QLUgNv8nvk4P3ib-I8P2TZ8hcP_CIvOdomBHl2_JjEmplIWMPoBs9Hvegvw1hlPq
 57d_1G
 }
 
+sprite $MaterialsWatchMd [14x14/16z] LKw34S1043nZbFwhZH_xF2teNdhSI-bV_cG-idYo-1FkCglcBqj_n_DDDF-YliMtzVsOuIIoe0AgepDqVG4
+
 !function MaterialsWatch($id, $name="Watch", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsWatch', $name, $tech)
 !endfunction
 !function MaterialsWatchCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWatchLg>', 'Watch', $funcName, $content)
+  CloudCard($id, '<$MaterialsWatchMd>', 'Watch', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsSiteToSiteVpn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSiteToSiteVpn element
@@ -34,7 +34,7 @@ AwsSiteToSiteVpn('element', 'Site To Site Vpn', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSiteToSiteVpn element
@@ -53,8 +53,8 @@ AwsSiteToSiteVpn('element', 'Site To Site Vpn', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSiteToSiteVpn card
 include('elements/aws/NetworkingContentDelivery/AwsSiteToSiteVpn')
@@ -71,8 +71,8 @@ AwsSiteToSiteVpnCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSiteToSiteVpn card
 include('elements/aws/NetworkingContentDelivery/AwsSiteToSiteVpn')

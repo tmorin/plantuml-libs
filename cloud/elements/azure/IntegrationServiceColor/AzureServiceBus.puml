@@ -1,10 +1,12 @@
 @startuml
 sprite $AzureServiceBusLg [20x20/16z] ZP050W8n30Il95dW_l_VkllKfvxtcZyQ_ixXQO0ruDOn_2BroQWdeWGHoOv8eYBAHuYLNaa-dE2ahoWxlykTq3W8iw1rdhqRtppyZI1Z32Qn-htN6
 
+sprite $AzureServiceBusMd [14x14/16z] NSw50G0X20LGbK_kF_2T7SzEY9lRuX6Mqv0jgAIbqDyHDzIt2FB3M37mBy1Z9VZ9MWd_RQp03Vxf5Q6SqVN9xFO1
+
 !function AzureServiceBus($id, $name="Service Bus", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureServiceBus', $name, $tech)
 !endfunction
 !function AzureServiceBusCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureServiceBusLg>', 'Service Bus', $funcName, $content)
+  CloudCard($id, '<$AzureServiceBusMd>', 'Service Bus', $funcName, $content)
 !endfunction
 @enduml

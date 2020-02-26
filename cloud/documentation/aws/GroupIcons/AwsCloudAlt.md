@@ -16,7 +16,7 @@ elements/aws/GroupIcons/AwsCloudAlt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudAlt element
@@ -34,7 +34,7 @@ AwsCloudAlt('element', 'Cloud Alt', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudAlt element
@@ -53,8 +53,8 @@ AwsCloudAlt('element', 'Cloud Alt', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudAlt card
 include('elements/aws/GroupIcons/AwsCloudAlt')
@@ -71,8 +71,8 @@ AwsCloudAltCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudAlt card
 include('elements/aws/GroupIcons/AwsCloudAlt')

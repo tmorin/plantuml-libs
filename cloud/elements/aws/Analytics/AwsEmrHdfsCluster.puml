@@ -4,10 +4,12 @@ RL050iGm38eGwFt_mpUtXgqM1xk01VQ62r1yR3HZlMqXTuh-D55ZiTH0dkPaBcl9PWcE5RNbL66u0I2s
 evsbcxdbrclGQzLhkirOi0r_
 }
 
+sprite $AwsEmrHdfsClusterMd [14x14/16z] LOxN0KLH2C8KY6V_YLylrtnPWNe3gHzDer-dqVnQaMCV8jj9LHWtMC8ACmIwokEkFgXtjo-_AWOtss6xxsGxzHq
+
 !function AwsEmrHdfsCluster($id, $name="Emr Hdfs Cluster", $tech="")
   CloudElement($id, 'aws/Analytics/AwsEmrHdfsCluster', $name, $tech)
 !endfunction
 !function AwsEmrHdfsClusterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEmrHdfsClusterLg>', 'Emr Hdfs Cluster', $funcName, $content)
+  CloudCard($id, '<$AwsEmrHdfsClusterMd>', 'Emr Hdfs Cluster', $funcName, $content)
 !endfunction
 @enduml

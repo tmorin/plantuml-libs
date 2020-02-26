@@ -4,10 +4,12 @@ RT350SKm40FH3zR8q7-zIKpXERxTapwlVMzLmZLwKjZm5rDiZTEmXXxjXbe1MzCKJRN0OKJHddGoDWsE
 nqR3oi1MjrpAMPlvD01zb-_lrcOlhG
 }
 
+sprite $AwsEndUserComputingMd [14x14/16z] LSxL0KGX44FHGP8W_VUx8sllVd5mUpO0pAgROIzF7aTeYr6AU_l0TqDlaP1AnoL0_4YSeHbQ82Q9bJexBX9JztZvg4ibBpI9T_4pQz_CNW
+
 !function AwsEndUserComputing($id, $name="End User Computing", $tech="")
   CloudElement($id, 'aws/EndUserComputing/AwsEndUserComputing', $name, $tech)
 !endfunction
 !function AwsEndUserComputingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEndUserComputingLg>', 'End User Computing', $funcName, $content)
+  CloudCard($id, '<$AwsEndUserComputingMd>', 'End User Computing', $funcName, $content)
 !endfunction
 @enduml

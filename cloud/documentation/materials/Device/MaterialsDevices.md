@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsDevices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDevices element
 include('elements/materials/Device/MaterialsDevices')
@@ -34,8 +34,8 @@ MaterialsDevices('element', 'Devices', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDevices element
 include('elements/materials/Device/MaterialsDevices')
@@ -53,8 +53,8 @@ MaterialsDevices('element', 'Devices', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDevices card
 include('elements/materials/Device/MaterialsDevices')
@@ -71,8 +71,8 @@ MaterialsDevicesCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDevices card
 include('elements/materials/Device/MaterialsDevices')

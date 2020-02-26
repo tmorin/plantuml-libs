@@ -4,10 +4,15 @@ POw5eG0n34AlCHhOVzulv_AgSPOxmstvu4tMspbQ5EFb3VuXlBovUkUxBKNgqxWazLT5ejvEozKJyPob
 0SJerTiZ9HIt2xPrwU50HCtroiNy7rkyoYEnNfVI52lvVxLm5y-TczVhukhm2m
 }
 
+sprite $AzureUserManagementMd [15x14/16z] {
+TKo5OGG13BeuaFttRTyzBi1nDSkqus4jzMCpxifVLlfFi4NONIiv4SEyVAp_XVJFjl-j8gCRgt_jdC6_JzR-8x9PeobspBz5TjRKVxreZi0bD9Ur0Cn_rcNz
+0m
+}
+
 !function AzureUserManagement($id, $name="User Management", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUserManagement', $name, $tech)
 !endfunction
 !function AzureUserManagementCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureUserManagementLg>', 'User Management', $funcName, $content)
+  CloudCard($id, '<$AzureUserManagementMd>', 'User Management', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TSu7aWDG209G4C7i_G-Swi_sDysnuo29R-GyMEzynUA3d9ECS7Gs67CZUaukSKjg9pcpfDfsLrKNDuUL
 ZYx8u_sQjGYhXe-SiuJKr7lifIQzeMQ_xm_ZOET16Nn34YxyvmO
 }
 
+sprite $AwsDynamodbDaxMd [14x14/16z] JSct0O0m30J0Z_B-4mDMnLKVSCaMWQN6ThgTnLAtdOYaEziY9x6ZRRXKZm0Q812oa1spLU4pr0UnfwW1-HBh072sgSMLY4GEiPJ4O_piym8
+
 !function AwsDynamodbDax($id, $name="Dynamodb Dax", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbDax', $name, $tech)
 !endfunction
 !function AwsDynamodbDaxCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDynamodbDaxLg>', 'Dynamodb Dax', $funcName, $content)
+  CloudCard($id, '<$AwsDynamodbDaxMd>', 'Dynamodb Dax', $funcName, $content)
 !endfunction
 @enduml

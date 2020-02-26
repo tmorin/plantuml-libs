@@ -16,8 +16,8 @@ elements/azure/Companies/AzureDatabricks
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabricks element
 include('elements/azure/Companies/AzureDatabricks')
@@ -34,8 +34,8 @@ AzureDatabricks('element', 'Databricks', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabricks element
 include('elements/azure/Companies/AzureDatabricks')
@@ -53,8 +53,8 @@ AzureDatabricks('element', 'Databricks', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabricks card
 include('elements/azure/Companies/AzureDatabricks')
@@ -71,8 +71,8 @@ AzureDatabricksCard('card', 'an optional functional name', 'Molestiae praesentiu
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabricks card
 include('elements/azure/Companies/AzureDatabricks')

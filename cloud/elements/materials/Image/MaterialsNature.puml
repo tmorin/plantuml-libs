@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsNatureLg [20x20/16z] XSZ50KDH200mx0dVs7_QEbBFCV0Bukl8N5TjjN7OZL9UjmT5BzhCYPzO67ujJp_SzECZhe6RNYl5aTvh4qWqDhDzCZmXLO9NSyA_emjMPRhm6tiOVbJ05sS
 
+sprite $MaterialsNatureMd [14x14/16z] POq50iGW3C2m5eV_l_PkM-OB6gYOBrxKdw9ZpXaj4kQ6OWahV6QiOX7BHBgsMJWQb2LEp86DaIIGwySv5-Eo4QPnGmc-yGS
+
 !function MaterialsNature($id, $name="Nature", $tech="")
   CloudElement($id, 'materials/Image/MaterialsNature', $name, $tech)
 !endfunction
 !function MaterialsNatureCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNatureLg>', 'Nature', $funcName, $content)
+  CloudCard($id, '<$MaterialsNatureMd>', 'Nature', $funcName, $content)
 !endfunction
 @enduml

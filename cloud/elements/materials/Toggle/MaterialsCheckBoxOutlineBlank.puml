@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsCheckBoxOutlineBlankLg [20x20/16z] Oo0UCB4W0IQ840yFDnpmy805MNYO6U60cOS5BCRDY327aNl8Yc7w3JCCi8KLyG
 
+sprite $MaterialsCheckBoxOutlineBlankMd [14x14/16z] Oq03Z4nGm0ZYS7900IUGoyJ125N3mGJYmRHGauUm0TLsL9UX0G
+
 !function MaterialsCheckBoxOutlineBlank($id, $name="Check Box Outline Blank", $tech="")
   CloudElement($id, 'materials/Toggle/MaterialsCheckBoxOutlineBlank', $name, $tech)
 !endfunction
 !function MaterialsCheckBoxOutlineBlankCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCheckBoxOutlineBlankLg>', 'Check Box Outline Blank', $funcName, $content)
+  CloudCard($id, '<$MaterialsCheckBoxOutlineBlankMd>', 'Check Box Outline Blank', $funcName, $content)
 !endfunction
 @enduml

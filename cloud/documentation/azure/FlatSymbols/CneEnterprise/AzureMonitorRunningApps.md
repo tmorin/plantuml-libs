@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitorRunningApps element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps')
@@ -34,8 +34,8 @@ AzureMonitorRunningApps('element', 'Monitor Running Apps', 'an optional tech fie
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitorRunningApps element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps')
@@ -53,8 +53,8 @@ AzureMonitorRunningApps('element', 'Monitor Running Apps', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitorRunningApps card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps')
@@ -71,8 +71,8 @@ AzureMonitorRunningAppsCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureMonitorRunningApps card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps')

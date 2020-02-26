@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsArVrLg [20x20/16z] bSy30iGm04JHSB3tl-_MzgzVbOJJugwM4grLHcpDlqtiJ1_CuyTMHennDfV9gYSJvuzfO_B137Xj1Wcfstl-hoMF-s_pyD4YkAbsbdQrTb83
+sprite $AwsArVrLg [20x20/16z] {
+RSW7UWKX24NXQTp2x7-_mK-9AUzO-O-FdNyQH4diWAVmaaTQCTesggrnMywPLPlJ25GH0GdB7ipYOPlecV1jPgQbmZy6Q9YN9KX804BBtapRTKdojfchjerj
+-LPREOmQiOkoy_fJsOU-
+}
+
+sprite $AwsArVrMd [14x14/16z] RSp50KCn30DGXOpxxzkW--cTZC9TQKkjDGEadGnSLxVRqTaecNbtt8YeDThT-jgTg8cex6uiXjcvhL3Lth6x3VhHLMf71f02y0C
 
 !function AwsArVr($id, $name="Ar Vr", $tech="")
   CloudElement($id, 'aws/ArVr/AwsArVr', $name, $tech)
 !endfunction
 !function AwsArVrCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsArVrLg>', 'Ar Vr', $funcName, $content)
+  CloudCard($id, '<$AwsArVrMd>', 'Ar Vr', $funcName, $content)
 !endfunction
 @enduml

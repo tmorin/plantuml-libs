@@ -4,10 +4,12 @@ NP250GGW30EnIjX_tvSKF_pmfY2BIMPlYcRkRctBgXvelSIMLSrFJ2ly1RtZ4GIt4AVSmYLbGSXe9F_V
 HhSP2--1jxHeVWcInLUWlm
 }
 
+sprite $AzureDatabricksMd [13x14/16z] HOw50G0W20H5wc7_VUquWuuo876Xic43OFnKRDFnyOodHqOUSogayr-g4kbG9W6bcxtaAhb5FhnnebxOSvZJlNOGZ7f8sP12rw8T
+
 !function AzureDatabricks($id, $name="Databricks", $tech="")
   CloudElement($id, 'azure/Companies/AzureDatabricks', $name, $tech)
 !endfunction
 !function AzureDatabricksCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDatabricksLg>', 'Databricks', $funcName, $content)
+  CloudCard($id, '<$AzureDatabricksMd>', 'Databricks', $funcName, $content)
 !endfunction
 @enduml

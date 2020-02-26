@@ -4,10 +4,12 @@ fKzL5iH021ltrzp_jWk4jUz9FH1fk4HjDUepjrQTAW-wFjC6dc9Kd3X9Npe4CveIQBu-XAvKB9t5XPti
 bgM85WBz4m_qibI4xkkgRYsRehOQBl42
 }
 
+sprite $MaterialsPolymerMd [14x14/16z] VKr50W0X46Bizl-_NPYzsqhYEInddg5aqwzS_gpTMmJkJZ3VsdS0wes4vh1uAz9f49I0TfB_4c7_IMbZqY8bmkhLKvMYXjiyjVpjHM1c-tDy
+
 !function MaterialsPolymer($id, $name="Polymer", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPolymer', $name, $tech)
 !endfunction
 !function MaterialsPolymerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPolymerLg>', 'Polymer', $funcName, $content)
+  CloudCard($id, '<$MaterialsPolymerMd>', 'Polymer', $funcName, $content)
 !endfunction
 @enduml

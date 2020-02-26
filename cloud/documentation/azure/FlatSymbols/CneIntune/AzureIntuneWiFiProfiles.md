@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneWiFiProfiles element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles')
@@ -34,8 +34,8 @@ AzureIntuneWiFiProfiles('element', 'Intune Wi Fi Profiles', 'an optional tech fi
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneWiFiProfiles element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles')
@@ -53,8 +53,8 @@ AzureIntuneWiFiProfiles('element', 'Intune Wi Fi Profiles', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneWiFiProfiles card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles')
@@ -71,8 +71,8 @@ AzureIntuneWiFiProfilesCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneWiFiProfiles card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneWiFiProfiles')

@@ -4,10 +4,12 @@ ROzLWWGm24CJdBt_VNSCElh-8YrWjNG0PHoi7KqC-jVHiefgVPG0h5MUV2WwuNMoIB7ILQo0RHEU0d0o
 yG8
 }
 
+sprite $AzureRpdRemotingFileMd [10x14/16z] DSc55S0m30FHa_5r_u4R_W63wkYasUBBsodwT26gaPF9wgYCqka2U-cqkgkgyaAJpSSakMmtPkwkrKrkC
+
 !function AzureRpdRemotingFile($id, $name="Rpd Remoting File", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureRpdRemotingFile', $name, $tech)
 !endfunction
 !function AzureRpdRemotingFileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureRpdRemotingFileLg>', 'Rpd Remoting File', $funcName, $content)
+  CloudCard($id, '<$AzureRpdRemotingFileMd>', 'Rpd Remoting File', $funcName, $content)
 !endfunction
 @enduml

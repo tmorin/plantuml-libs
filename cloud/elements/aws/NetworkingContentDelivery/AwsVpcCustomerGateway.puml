@@ -4,10 +4,12 @@ RL275KGn28eAlEm_yQLU-v1gLzf65b3Plb0I0KfrDK4D3t9uYx5LmhZPEyS3BIMnmiaL2AvSRG7OhsgS
 EGuSLvvJn_qB
 }
 
+sprite $AwsVpcCustomerGatewayMd [14x14/16z] LKw50G1125Aus7_ZHxyEkoL46294KofgoKec8lVEm5JQ8sGlbBnPQ1pvPbdNDiavPROIotpIh_W7_-x87FK5
+
 !function AwsVpcCustomerGateway($id, $name="Vpc Customer Gateway", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcCustomerGateway', $name, $tech)
 !endfunction
 !function AwsVpcCustomerGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsVpcCustomerGatewayLg>', 'Vpc Customer Gateway', $funcName, $content)
+  CloudCard($id, '<$AwsVpcCustomerGatewayMd>', 'Vpc Customer Gateway', $funcName, $content)
 !endfunction
 @enduml

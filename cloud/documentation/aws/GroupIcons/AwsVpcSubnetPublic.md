@@ -16,7 +16,7 @@ elements/aws/GroupIcons/AwsVpcSubnetPublic
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcSubnetPublic element
@@ -34,7 +34,7 @@ AwsVpcSubnetPublic('element', 'Vpc Subnet Public', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcSubnetPublic element
@@ -53,8 +53,8 @@ AwsVpcSubnetPublic('element', 'Vpc Subnet Public', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcSubnetPublic card
 include('elements/aws/GroupIcons/AwsVpcSubnetPublic')
@@ -71,8 +71,8 @@ AwsVpcSubnetPublicCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcSubnetPublic card
 include('elements/aws/GroupIcons/AwsVpcSubnetPublic')

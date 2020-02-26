@@ -4,10 +4,12 @@ JSq70i0W20D08SF-_yMDdQRpL63iaVx_MdQzXFBBtorcqVqw_nWzSM_cM4dLvcBPk2hAUffPdJVaPnXj
 sHBxiSASrsi098MwZUCEwzzVwTjJNuxbFV49
 }
 
+sprite $AzureStackoverflowMd [11x14/16z] FOd70S0m308bchB_mkas7-2k_hJn3LQP6raVXLj-xCqevj6AOEcMQDYyKIcnXAhf1XKPDRYXpJoJilDEPcQ2Tr8IdtdCbmDr0G
+
 !function AzureStackoverflow($id, $name="Stackoverflow", $tech="")
   CloudElement($id, 'azure/Companies/AzureStackoverflow', $name, $tech)
 !endfunction
 !function AzureStackoverflowCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStackoverflowLg>', 'Stackoverflow', $funcName, $content)
+  CloudCard($id, '<$AzureStackoverflowMd>', 'Stackoverflow', $funcName, $content)
 !endfunction
 @enduml

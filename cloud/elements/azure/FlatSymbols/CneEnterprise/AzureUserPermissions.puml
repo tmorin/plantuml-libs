@@ -4,10 +4,12 @@ NSu50iGW40F0moBy_y57ctgg3BBxIofiZP91H7F5kArm9hYe-I3NayOyqqz2bgpWjSeKmL4VPqcJr1oX
 mRwIvADpYnYYU-eVuKOgMNIJtFaXJ_X16jHwFodT-Wy
 }
 
+sprite $AzureUserPermissionsMd [13x14/16z] JSt70S0m24DHLv3OV-0exl_4Sqqg6savpIoKpxam_jf03QM34ze1tCPMXa07nXkD0YaCmIKNklUi-fZr55ek7MrzeZC658iP3Enu02xG6Vm
+
 !function AzureUserPermissions($id, $name="User Permissions", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUserPermissions', $name, $tech)
 !endfunction
 !function AzureUserPermissionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureUserPermissionsLg>', 'User Permissions', $funcName, $content)
+  CloudCard($id, '<$AzureUserPermissionsMd>', 'User Permissions', $funcName, $content)
 !endfunction
 @enduml

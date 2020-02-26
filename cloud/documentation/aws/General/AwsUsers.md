@@ -16,7 +16,7 @@ elements/aws/General/AwsUsers
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsUsers element
@@ -34,7 +34,7 @@ AwsUsers('element', 'Users', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsUsers element
@@ -53,8 +53,8 @@ AwsUsers('element', 'Users', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsUsers card
 include('elements/aws/General/AwsUsers')
@@ -71,8 +71,8 @@ AwsUsersCard('card', 'an optional functional name', 'Molestiae praesentium aut n
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsUsers card
 include('elements/aws/General/AwsUsers')

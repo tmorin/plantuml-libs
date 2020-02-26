@@ -16,7 +16,7 @@ elements/aws/CustomerEngagement/AwsCustomerEngagement
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomerEngagement element
@@ -34,7 +34,7 @@ AwsCustomerEngagement('element', 'Customer Engagement', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCustomerEngagement element
@@ -53,8 +53,8 @@ AwsCustomerEngagement('element', 'Customer Engagement', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomerEngagement card
 include('elements/aws/CustomerEngagement/AwsCustomerEngagement')
@@ -71,8 +71,8 @@ AwsCustomerEngagementCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCustomerEngagement card
 include('elements/aws/CustomerEngagement/AwsCustomerEngagement')

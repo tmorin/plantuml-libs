@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsBrightness2
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBrightness2 element
 include('elements/materials/Image/MaterialsBrightness2')
@@ -34,8 +34,8 @@ MaterialsBrightness2('element', 'Brightness2', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBrightness2 element
 include('elements/materials/Image/MaterialsBrightness2')
@@ -53,8 +53,8 @@ MaterialsBrightness2('element', 'Brightness2', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBrightness2 card
 include('elements/materials/Image/MaterialsBrightness2')
@@ -71,8 +71,8 @@ MaterialsBrightness2Card('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBrightness2 card
 include('elements/materials/Image/MaterialsBrightness2')

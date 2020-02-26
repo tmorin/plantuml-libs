@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureApplicationSecurityGroups
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationSecurityGroups element
 include('elements/azure/NetworkingServiceColor/AzureApplicationSecurityGroups')
@@ -34,8 +34,8 @@ AzureApplicationSecurityGroups('element', 'Application Security Groups', 'an opt
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationSecurityGroups element
 include('elements/azure/NetworkingServiceColor/AzureApplicationSecurityGroups')
@@ -53,8 +53,8 @@ AzureApplicationSecurityGroups('element', 'Application Security Groups', 'an opt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationSecurityGroups card
 include('elements/azure/NetworkingServiceColor/AzureApplicationSecurityGroups')
@@ -71,8 +71,8 @@ AzureApplicationSecurityGroupsCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureApplicationSecurityGroups card
 include('elements/azure/NetworkingServiceColor/AzureApplicationSecurityGroups')

@@ -4,10 +4,12 @@ jOqreWC144A1yI_tF-xwDf4kUSqeW2-WBD-hL-fQSS8xW6ZFuRcB13Ja2CXulzEuQjjdoUSsjEeWmEWo
 k9rK7yL_n7g2-30h
 }
 
+sprite $MaterialsPeopleOutlineMd [14x14/16z] XOc50GH13089jjT_m--k4mNmXxciqsa3f3rf2o43-LrDUhXkvgHapj0wgaCYTyjX1SefNwT0Mkc1xJ1PmZo0N-m1
+
 !function MaterialsPeopleOutline($id, $name="People Outline", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPeopleOutline', $name, $tech)
 !endfunction
 !function MaterialsPeopleOutlineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPeopleOutlineLg>', 'People Outline', $funcName, $content)
+  CloudCard($id, '<$MaterialsPeopleOutlineMd>', 'People Outline', $funcName, $content)
 !endfunction
 @enduml

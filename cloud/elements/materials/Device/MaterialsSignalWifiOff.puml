@@ -4,10 +4,12 @@ bSu55eGm40FGCQnw_zjkkk-bwqBm3pGZR-FwGhhlGFC8DoLQ0guTgMcBAslaJaGIr7RSt27kpL9_mcJY
 pse7aJrZkMELEqn9nqNbBcPoDXS
 }
 
+sprite $MaterialsSignalWifiOffMd [14x14/16z] RKt50O103AiNP_zjaNF9BmujM02G20F3LT3EOr-KNcB7AUZtYyEGZ_jEz6JGErDzYvweXvb0DSpI_jDyURw3QwRwBg1dwky2KcA8CC43
+
 !function MaterialsSignalWifiOff($id, $name="Signal Wifi Off", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalWifiOff', $name, $tech)
 !endfunction
 !function MaterialsSignalWifiOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSignalWifiOffLg>', 'Signal Wifi Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsSignalWifiOffMd>', 'Signal Wifi Off', $funcName, $content)
 !endfunction
 @enduml

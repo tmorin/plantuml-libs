@@ -4,10 +4,12 @@ XSu36i0m30NW1NNMT__JpZQA_ukQhqVrHbmANuW24EWQ5oEVOOY8SOYcBTIrXKUJOdwr1BZH50XR7EOu
 uxZ-cfZ9rJpWhwQ0tfEb-Nfw
 }
 
+sprite $MaterialsUsbMd [14x14/16z] TOq54a0X24Ib5aRb_iVztV6cY8toWTbbuLhv-uSWCmgdUQ6QRCPPQPNvh0oiIWrnbz1r8w1MWBxx2d1Pg7Vw-PsC
+
 !function MaterialsUsb($id, $name="Usb", $tech="")
   CloudElement($id, 'materials/Device/MaterialsUsb', $name, $tech)
 !endfunction
 !function MaterialsUsbCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsUsbLg>', 'Usb', $funcName, $content)
+  CloudCard($id, '<$MaterialsUsbMd>', 'Usb', $funcName, $content)
 !endfunction
 @enduml

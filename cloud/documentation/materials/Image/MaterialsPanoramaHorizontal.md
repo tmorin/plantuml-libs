@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsPanoramaHorizontal
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaHorizontal element
 include('elements/materials/Image/MaterialsPanoramaHorizontal')
@@ -34,8 +34,8 @@ MaterialsPanoramaHorizontal('element', 'Panorama Horizontal', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaHorizontal element
 include('elements/materials/Image/MaterialsPanoramaHorizontal')
@@ -53,8 +53,8 @@ MaterialsPanoramaHorizontal('element', 'Panorama Horizontal', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaHorizontal card
 include('elements/materials/Image/MaterialsPanoramaHorizontal')
@@ -71,8 +71,8 @@ MaterialsPanoramaHorizontalCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPanoramaHorizontal card
 include('elements/materials/Image/MaterialsPanoramaHorizontal')

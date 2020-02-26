@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsOpsworksDeployments
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOpsworksDeployments element
@@ -34,7 +34,7 @@ AwsOpsworksDeployments('element', 'Opsworks Deployments', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsOpsworksDeployments element
@@ -53,8 +53,8 @@ AwsOpsworksDeployments('element', 'Opsworks Deployments', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOpsworksDeployments card
 include('elements/aws/ManagementGovernance/AwsOpsworksDeployments')
@@ -71,8 +71,8 @@ AwsOpsworksDeploymentsCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsOpsworksDeployments card
 include('elements/aws/ManagementGovernance/AwsOpsworksDeployments')

@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotDeviceManagement
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotDeviceManagement element
@@ -34,7 +34,7 @@ AwsIotDeviceManagement('element', 'Iot Device Management', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotDeviceManagement element
@@ -53,8 +53,8 @@ AwsIotDeviceManagement('element', 'Iot Device Management', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotDeviceManagement card
 include('elements/aws/InternetOfThings/AwsIotDeviceManagement')
@@ -71,8 +71,8 @@ AwsIotDeviceManagementCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotDeviceManagement card
 include('elements/aws/InternetOfThings/AwsIotDeviceManagement')

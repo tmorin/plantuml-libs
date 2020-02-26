@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureServiceBusRelays
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceBusRelays element
 include('elements/azure/IntegrationServiceColor/AzureServiceBusRelays')
@@ -34,8 +34,8 @@ AzureServiceBusRelays('element', 'Service Bus Relays', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceBusRelays element
 include('elements/azure/IntegrationServiceColor/AzureServiceBusRelays')
@@ -53,8 +53,8 @@ AzureServiceBusRelays('element', 'Service Bus Relays', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceBusRelays card
 include('elements/azure/IntegrationServiceColor/AzureServiceBusRelays')
@@ -71,8 +71,8 @@ AzureServiceBusRelaysCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceBusRelays card
 include('elements/azure/IntegrationServiceColor/AzureServiceBusRelays')

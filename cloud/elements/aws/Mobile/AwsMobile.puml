@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsMobileLg [20x20/16z] {
-bSm50iCm30J1acvr_l-3AmTTRZReCPpUTdwgw88VqhdCxI4Myznerbm-M00AF1erK4ZoWrdbvAFHpSTDGFHdF4zI9AdDMbO4GbvjpZNXzc1pivt5Gz7jybJP
-c-u
+RT175aH124BHJeBuzx_VhfnElPbtXgzhxwDCz1nxbl3ZQdcfMjIBkrcjAB8f70R039in9CiDKp580c-cnMAtPp6V1f8_ahOO2PZ3CUp9GsW4kyMJYgWBjLZM
+6hFHI-kltf-ZP9V-
 }
+
+sprite $AwsMobileMd [14x14/16z] LSV70S0m30CnfV54UVzvqvlnG_GcBRTvZ90FUPZtLIA9PopIihp35jApCivkvbn3cKhaSmaIrsXLDf3NslwTZyrQ7cD43A-83G
 
 !function AwsMobile($id, $name="Mobile", $tech="")
   CloudElement($id, 'aws/Mobile/AwsMobile', $name, $tech)
 !endfunction
 !function AwsMobileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsMobileLg>', 'Mobile', $funcName, $content)
+  CloudCard($id, '<$AwsMobileMd>', 'Mobile', $funcName, $content)
 !endfunction
 @enduml

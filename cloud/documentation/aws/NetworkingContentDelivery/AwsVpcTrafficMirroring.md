@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsVpcTrafficMirroring
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcTrafficMirroring element
@@ -34,7 +34,7 @@ AwsVpcTrafficMirroring('element', 'Vpc Traffic Mirroring', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsVpcTrafficMirroring element
@@ -53,8 +53,8 @@ AwsVpcTrafficMirroring('element', 'Vpc Traffic Mirroring', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcTrafficMirroring card
 include('elements/aws/NetworkingContentDelivery/AwsVpcTrafficMirroring')
@@ -71,8 +71,8 @@ AwsVpcTrafficMirroringCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsVpcTrafficMirroring card
 include('elements/aws/NetworkingContentDelivery/AwsVpcTrafficMirroring')

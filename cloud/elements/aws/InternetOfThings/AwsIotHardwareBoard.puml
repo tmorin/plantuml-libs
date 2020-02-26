@@ -4,10 +4,12 @@ RP25eS0m24GvJfBz5_vIjzV6SAYDbhhkA7Pq4z6oPLvbe04JTHDYMIkCxOpu89GAGFgqbyIAobe41Lkh
 OgSMcQSNXgG_0OqgD1Oa9iCPFWdllNtFu7jMtpFzclql
 }
 
+sprite $AwsIotHardwareBoardMd [14x14/16z] NSx70GL0545HBgR_ad-EPwBLenjQzCAkU2K7ObsHg-Q11OQn8QjF4WcwjgPqNiyjvXeSIoJND5VQUhNhPf006Vd2z_J_Ph-jBm
+
 !function AwsIotHardwareBoard($id, $name="Iot Hardware Board", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotHardwareBoard', $name, $tech)
 !endfunction
 !function AwsIotHardwareBoardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotHardwareBoardLg>', 'Iot Hardware Board', $funcName, $content)
+  CloudCard($id, '<$AwsIotHardwareBoardMd>', 'Iot Hardware Board', $funcName, $content)
 !endfunction
 @enduml

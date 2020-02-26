@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneMobileApplicationManagement element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement')
@@ -34,8 +34,8 @@ AzureIntuneMobileApplicationManagement('element', 'Intune Mobile Application Man
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneMobileApplicationManagement element
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement')
@@ -53,8 +53,8 @@ AzureIntuneMobileApplicationManagement('element', 'Intune Mobile Application Man
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneMobileApplicationManagement card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement')
@@ -71,8 +71,8 @@ AzureIntuneMobileApplicationManagementCard('card', 'an optional functional name'
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIntuneMobileApplicationManagement card
 include('elements/azure/FlatSymbols/CneIntune/AzureIntuneMobileApplicationManagement')

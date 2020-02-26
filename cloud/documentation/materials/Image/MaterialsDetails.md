@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsDetails
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDetails element
 include('elements/materials/Image/MaterialsDetails')
@@ -34,8 +34,8 @@ MaterialsDetails('element', 'Details', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDetails element
 include('elements/materials/Image/MaterialsDetails')
@@ -53,8 +53,8 @@ MaterialsDetails('element', 'Details', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDetails card
 include('elements/materials/Image/MaterialsDetails')
@@ -71,8 +71,8 @@ MaterialsDetailsCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDetails card
 include('elements/materials/Image/MaterialsDetails')

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsStorageGatewayLg [20x20/16z] fKt50GCX0Al5zX_u77qMXsYMXmbuWY0B6h1Bur-lDUxBGeL-Z4NIgKeen3qYbZI38C7pTMEaByzvaYbWmTYQcoxv5_kDs7aTv_BO0G
+sprite $AwsStorageGatewayLg [20x20/16z] {
+RSi73i0m30903OF1_tzmvRYx9Vj4tD4zcVx1iQVk0Y2Vba5by678xaOWJnEcdSHX2beac49qizPFOYAYhGm918bknR8Y1SWMaCIOoSCMgJfNptxQxBxCf_bf
+iSpB3FOTk6pYC_M3zOCR
+}
+
+sprite $AwsStorageGatewayMd [14x14/16z] LSUt0S0020F12WNs7zW2vw_-d7H7_pWWm4U255-2x10hGgW2Xsqu7wkY9Wis2XXPfwWen4hsgcuvQh1D-5BAhNuy
 
 !function AwsStorageGateway($id, $name="Storage Gateway", $tech="")
   CloudElement($id, 'aws/Storage/AwsStorageGateway', $name, $tech)
 !endfunction
 !function AwsStorageGatewayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsStorageGatewayLg>', 'Storage Gateway', $funcName, $content)
+  CloudCard($id, '<$AwsStorageGatewayMd>', 'Storage Gateway', $funcName, $content)
 !endfunction
 @enduml

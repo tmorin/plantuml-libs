@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsStayPrimaryLandscape
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryLandscape element
 include('elements/materials/Communication/MaterialsStayPrimaryLandscape')
@@ -34,8 +34,8 @@ MaterialsStayPrimaryLandscape('element', 'Stay Primary Landscape', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryLandscape element
 include('elements/materials/Communication/MaterialsStayPrimaryLandscape')
@@ -53,8 +53,8 @@ MaterialsStayPrimaryLandscape('element', 'Stay Primary Landscape', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryLandscape card
 include('elements/materials/Communication/MaterialsStayPrimaryLandscape')
@@ -71,8 +71,8 @@ MaterialsStayPrimaryLandscapeCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStayPrimaryLandscape card
 include('elements/materials/Communication/MaterialsStayPrimaryLandscape')

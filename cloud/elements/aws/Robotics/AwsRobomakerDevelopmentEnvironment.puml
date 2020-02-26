@@ -4,10 +4,12 @@ RP274SH030910ixzL_oCmyHV9rWvup_qeh3x5uzpk8jSCyRDO8z1Gc4B2ZNeEcMde2JH5Pxuvh1EyKGC
 5LkdRLdhldZsIjsmkQIpec5O9y_b2K5i6Xmpv16ypp-ObBgskkTVCQCsrJNYXabHB4NuO07bNlcN7m
 }
 
+sprite $AwsRobomakerDevelopmentEnvironmentMd [14x14/16z] HSY50GCm30D1eVSVkIf_y0o0-4NvADRaMwMGjz8fMHqxAI9t0Guextwf9ojAu8dQDicFVBQ6rW2KBIfjJENSI-Gm6BLfBDbOJCOs-4S23m
+
 !function AwsRobomakerDevelopmentEnvironment($id, $name="Robomaker Development Environment", $tech="")
   CloudElement($id, 'aws/Robotics/AwsRobomakerDevelopmentEnvironment', $name, $tech)
 !endfunction
 !function AwsRobomakerDevelopmentEnvironmentCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRobomakerDevelopmentEnvironmentLg>', 'Robomaker Development Environment', $funcName, $content)
+  CloudCard($id, '<$AwsRobomakerDevelopmentEnvironmentMd>', 'Robomaker Development Environment', $funcName, $content)
 !endfunction
 @enduml

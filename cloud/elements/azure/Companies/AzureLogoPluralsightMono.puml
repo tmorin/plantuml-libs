@@ -4,10 +4,12 @@ RL250S0m36g0Ilu_UEw3hHQ7iYBKH-ReYdA2FGzq7gQQ3zJJz3LoJngNaINMMYE5TjKCRV4ae3DKVTiZ
 0wULrzHfFmC
 }
 
+sprite $AzureLogoPluralsightMonoMd [14x14/16z] LKw50G1123BWrFqN_Wxi5ZCBzampxA3SuuCwZsHUIekZmxgwmPb29C_nmrO4Y3gQS_J0971q9TD9lQ8VzBiYKzGR
+
 !function AzureLogoPluralsightMono($id, $name="Logo Pluralsight Mono", $tech="")
   CloudElement($id, 'azure/Companies/AzureLogoPluralsightMono', $name, $tech)
 !endfunction
 !function AzureLogoPluralsightMonoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLogoPluralsightMonoLg>', 'Logo Pluralsight Mono', $funcName, $content)
+  CloudCard($id, '<$AzureLogoPluralsightMonoMd>', 'Logo Pluralsight Mono', $funcName, $content)
 !endfunction
 @enduml

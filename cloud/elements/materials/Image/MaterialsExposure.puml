@@ -4,10 +4,12 @@ RT053iGm34JHjQSGSdh_swup0QdmHTLh-FUPw2rf52epLcjmLBjAzkngbM3gLWl42wGDDoFvDDgOIrh6
 cDk8uLZh1MWFWExD95YnNcaVGRxUzBC_
 }
 
+sprite $MaterialsExposureMd [14x14/16z] LSx50KD124NHmU5h_ztcGVpkpYZhFubFibQSbRdVztraG4L43gYqpiGUiBXreyPNm5UpyrP3YsKqEtM4javWBd4hXP4e6_GtsNyF
+
 !function MaterialsExposure($id, $name="Exposure", $tech="")
   CloudElement($id, 'materials/Image/MaterialsExposure', $name, $tech)
 !endfunction
 !function MaterialsExposureCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsExposureLg>', 'Exposure', $funcName, $content)
+  CloudCard($id, '<$MaterialsExposureMd>', 'Exposure', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TT25OS0m34JHmf6z_y0zgKm__C8-USyVdP3ubdn8Dtq4r7psVjEpjhuO0CSVjWXhC1zMXS3YkyMIeISy
 UsFz7niqrkwXadtLXnM5qZQcskXxPatVnvIr8tulkU-Tpru
 }
 
+sprite $AwsDeepcomposerPrimaryBgMd [14x14/16z] DSg53S103CNGqgViFt1pPE6J76l4cGmIkuzcR0koXA4cC7X4VB27J3IsncE04bxwSnfW1va97IhsK8KvYgf4CeavLN56BKhSmJMMKtu
+
 !function AwsDeepcomposerPrimaryBg($id, $name="Deepcomposer Primary Bg", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepcomposerPrimaryBg', $name, $tech)
 !endfunction
 !function AwsDeepcomposerPrimaryBgCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDeepcomposerPrimaryBgLg>', 'Deepcomposer Primary Bg', $funcName, $content)
+  CloudCard($id, '<$AwsDeepcomposerPrimaryBgMd>', 'Deepcomposer Primary Bg', $funcName, $content)
 !endfunction
 @enduml

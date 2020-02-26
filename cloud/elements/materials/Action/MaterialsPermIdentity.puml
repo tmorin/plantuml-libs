@@ -4,10 +4,12 @@ hKtL0ODG32Jk-uzRnN_RWsSvM_u05C7RY3kp-JA2L01Dk3WRFzj5r_psmyMihQ__LYBkijm0Y70Ti6TL
 bj_m1
 }
 
+sprite $MaterialsPermIdentityMd [14x14/16z] XSor0O0030J0sCl-2-FImLNHZpy9vDiOyDEM8bJlhihlQKiTZvfv3iSYvJaRrHbrj6GVo2E2buvFAm
+
 !function MaterialsPermIdentity($id, $name="Perm Identity", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermIdentity', $name, $tech)
 !endfunction
 !function MaterialsPermIdentityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPermIdentityLg>', 'Perm Identity', $funcName, $content)
+  CloudCard($id, '<$MaterialsPermIdentityMd>', 'Perm Identity', $funcName, $content)
 !endfunction
 @enduml

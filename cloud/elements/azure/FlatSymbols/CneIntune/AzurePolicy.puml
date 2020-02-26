@@ -4,10 +4,12 @@ TT053iL024NHul3O_tg_K6_I4x_Zi_oGd7WPaZYawDJi0zHHlqY5y14eHKEc6Gz5YPhIjDgWQ1ctjMVB
 p4S9UWF3rYYnyqJk--c6ITRq1G
 }
 
+sprite $AzurePolicyMd [14x14/16z] ZSV90GCW20H0qB1S_VSRLfyvvpSY-i2rPQ3w28ijcca3XIZZC6QwX7Cg4_bhyNx5TDzv7CMjI0eKPbPD6SsfWMoRpfu
+
 !function AzurePolicy($id, $name="Policy", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzurePolicy', $name, $tech)
 !endfunction
 !function AzurePolicyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzurePolicyLg>', 'Policy', $funcName, $content)
+  CloudCard($id, '<$AzurePolicyMd>', 'Policy', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsAssignmentReturn
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAssignmentReturn element
 include('elements/materials/Action/MaterialsAssignmentReturn')
@@ -34,8 +34,8 @@ MaterialsAssignmentReturn('element', 'Assignment Return', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAssignmentReturn element
 include('elements/materials/Action/MaterialsAssignmentReturn')
@@ -53,8 +53,8 @@ MaterialsAssignmentReturn('element', 'Assignment Return', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAssignmentReturn card
 include('elements/materials/Action/MaterialsAssignmentReturn')
@@ -71,8 +71,8 @@ MaterialsAssignmentReturnCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAssignmentReturn card
 include('elements/materials/Action/MaterialsAssignmentReturn')

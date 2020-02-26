@@ -16,8 +16,8 @@ elements/gcp/Security/GcpCloudResourceManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudResourceManager element
 include('elements/gcp/Security/GcpCloudResourceManager')
@@ -34,8 +34,8 @@ GcpCloudResourceManager('element', 'Cloud Resource Manager', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudResourceManager element
 include('elements/gcp/Security/GcpCloudResourceManager')
@@ -53,7 +53,7 @@ GcpCloudResourceManager('element', 'Cloud Resource Manager', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudResourceManager card
@@ -71,7 +71,7 @@ GcpCloudResourceManagerCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudResourceManager card

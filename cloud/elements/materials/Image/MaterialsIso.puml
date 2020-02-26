@@ -4,10 +4,12 @@ ZT150WGn24JHK76__sbReepFNpvgXVW_A1OwfSfA3LMjsTWX9gbkEKBcSfD276OW2EucGTEi95BXfcqr
 HqfnbHBU_Uh_JW
 }
 
+sprite $MaterialsIsoMd [14x14/16z] NSxL0O0m34NHkiNstvOy7ExVgIRyYkai0bEOnUFfJ6ArcndNaLnSO-h69HpggKmf0SB93jp2iLidJW6rbNY-YLyzACvnDkDtibyR
+
 !function MaterialsIso($id, $name="Iso", $tech="")
   CloudElement($id, 'materials/Image/MaterialsIso', $name, $tech)
 !endfunction
 !function MaterialsIsoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsIsoLg>', 'Iso', $funcName, $content)
+  CloudCard($id, '<$MaterialsIsoMd>', 'Iso', $funcName, $content)
 !endfunction
 @enduml

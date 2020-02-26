@@ -4,10 +4,12 @@ fSz50WK120BG7mB2_UyxtTjvIzky973JHmpoIio6vLZgn4SCPOE4BZ6LfyWKzHaB6vGBx4STRtKeDwOe
 0G
 }
 
+sprite $AwsCloudhsmMd [14x14/16z] VSx50GK130BHBvj9eFz-rztczaxWzt8CJK0gEMjK840rgKWoybQ1842Z2gbegDq2uAqYydZ2htK
+
 !function AwsCloudhsm($id, $name="Cloudhsm", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCloudhsm', $name, $tech)
 !endfunction
 !function AwsCloudhsmCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudhsmLg>', 'Cloudhsm', $funcName, $content)
+  CloudCard($id, '<$AwsCloudhsmMd>', 'Cloudhsm', $funcName, $content)
 !endfunction
 @enduml

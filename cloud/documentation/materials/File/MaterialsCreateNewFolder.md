@@ -16,8 +16,8 @@ elements/materials/File/MaterialsCreateNewFolder
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreateNewFolder element
 include('elements/materials/File/MaterialsCreateNewFolder')
@@ -34,8 +34,8 @@ MaterialsCreateNewFolder('element', 'Create New Folder', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreateNewFolder element
 include('elements/materials/File/MaterialsCreateNewFolder')
@@ -53,8 +53,8 @@ MaterialsCreateNewFolder('element', 'Create New Folder', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreateNewFolder card
 include('elements/materials/File/MaterialsCreateNewFolder')
@@ -71,8 +71,8 @@ MaterialsCreateNewFolderCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreateNewFolder card
 include('elements/materials/File/MaterialsCreateNewFolder')

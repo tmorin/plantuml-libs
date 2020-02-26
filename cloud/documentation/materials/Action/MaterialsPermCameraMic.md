@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsPermCameraMic
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermCameraMic element
 include('elements/materials/Action/MaterialsPermCameraMic')
@@ -34,8 +34,8 @@ MaterialsPermCameraMic('element', 'Perm Camera Mic', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermCameraMic element
 include('elements/materials/Action/MaterialsPermCameraMic')
@@ -53,8 +53,8 @@ MaterialsPermCameraMic('element', 'Perm Camera Mic', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermCameraMic card
 include('elements/materials/Action/MaterialsPermCameraMic')
@@ -71,8 +71,8 @@ MaterialsPermCameraMicCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPermCameraMic card
 include('elements/materials/Action/MaterialsPermCameraMic')

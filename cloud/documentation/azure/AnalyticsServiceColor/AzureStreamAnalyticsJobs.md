@@ -16,8 +16,8 @@ elements/azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStreamAnalyticsJobs element
 include('elements/azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs')
@@ -34,8 +34,8 @@ AzureStreamAnalyticsJobs('element', 'Stream Analytics Jobs', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStreamAnalyticsJobs element
 include('elements/azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs')
@@ -53,8 +53,8 @@ AzureStreamAnalyticsJobs('element', 'Stream Analytics Jobs', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStreamAnalyticsJobs card
 include('elements/azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs')
@@ -71,8 +71,8 @@ AzureStreamAnalyticsJobsCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureStreamAnalyticsJobs card
 include('elements/azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs')

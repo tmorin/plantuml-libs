@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsExitToAppLg [20x20/16z] ZP050e0W34NvT7F_qzejiQVKUcDqk7p0Tr6CuIB6JIYZm8M8SfC5i0k4Xmo6FsGGs-uyFsKNV15UCc5tVF6y9glurdFKQwdMNEkjDeFQhEZC
 
+sprite $MaterialsExitToAppMd [14x14/16z] NOw30G0m30HhxZzl6LyPlpFu0FXhz0RqOuRc8QU5OzNpI-VZhkNyjUxl7f_oONQlBPjfk-W9UhfMfja
+
 !function MaterialsExitToApp($id, $name="Exit To App", $tech="")
   CloudElement($id, 'materials/Action/MaterialsExitToApp', $name, $tech)
 !endfunction
 !function MaterialsExitToAppCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsExitToAppLg>', 'Exit To App', $funcName, $content)
+  CloudCard($id, '<$MaterialsExitToAppMd>', 'Exit To App', $funcName, $content)
 !endfunction
 @enduml

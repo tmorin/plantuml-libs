@@ -5,10 +5,15 @@ PP05ikCm44J7dYPfQ-z_tL_ZSFBCRX3K6wUJkEi7HEY6KPySNEWByVXeYdLNcZheczhAbZm_Hy6Ae-bH
 eaRN6qtdhCEBzSuV
 }
 
+sprite $AzureHdInsightMd [18x14/16z] {
+HOy5beC034I1FnBkV-7TFDeITpa-G5kVnmkAGBu-xaag08Nm7t0d5fBef59YWqH2JUSE0VoqYSdmcSe3SmPYs4wnUYEs4abpspeq0cV5FRCdzbaao5oVOujI
+h_WySHKlrlb4ZarUxU_BFm
+}
+
 !function AzureHdInsight($id, $name="Hd Insight", $tech="")
   CloudElement($id, 'azure/Companies/AzureHdInsight', $name, $tech)
 !endfunction
 !function AzureHdInsightCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureHdInsightLg>', 'Hd Insight', $funcName, $content)
+  CloudCard($id, '<$AzureHdInsightMd>', 'Hd Insight', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsEmailNotifica
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsEmailNotification element
@@ -34,7 +34,7 @@ AwsSimpleNotificationServiceSnsEmailNotification('element', 'Simple Notification
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsEmailNotification element
@@ -53,8 +53,8 @@ AwsSimpleNotificationServiceSnsEmailNotification('element', 'Simple Notification
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsEmailNotification card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsEmailNotification')
@@ -71,8 +71,8 @@ AwsSimpleNotificationServiceSnsEmailNotificationCard('card', 'an optional functi
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSimpleNotificationServiceSnsEmailNotification card
 include('elements/aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsEmailNotification')

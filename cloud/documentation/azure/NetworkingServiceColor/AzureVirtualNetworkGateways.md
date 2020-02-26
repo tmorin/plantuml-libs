@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureVirtualNetworkGateways
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworkGateways element
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworkGateways')
@@ -34,8 +34,8 @@ AzureVirtualNetworkGateways('element', 'Virtual Network Gateways', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworkGateways element
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworkGateways')
@@ -53,8 +53,8 @@ AzureVirtualNetworkGateways('element', 'Virtual Network Gateways', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworkGateways card
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworkGateways')
@@ -71,8 +71,8 @@ AzureVirtualNetworkGatewaysCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureVirtualNetworkGateways card
 include('elements/azure/NetworkingServiceColor/AzureVirtualNetworkGateways')

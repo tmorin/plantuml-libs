@@ -4,10 +4,15 @@ RP275SCm24Jl08Fgy_xRnef8pxVLw8245tY76gtt5leIIvdrCFCwYwH8HzMyrR5lCeAWHpZ1wCkIfHBG
 PgV3-bscBbcewv8jtm-ySUSG0NAliPEp3Ld5Dwvdrkn1WE6xvkmjoTx-pI1dvQzP_PtflzdV
 }
 
+sprite $MaterialsSettingsInputSvideoMd [14x14/16z] {
+HOw5aG0n30FNKiPovlglz-5m0sRW7zdYnZFTC-QVjLr_U2_0MwpZM6WROb2tm45JnKdLoAbPP_bKxE0wGoRMG1Nd6n6JXWxEEK42wPp0Ed_EwO0poSHmyctz
+2m
+}
+
 !function MaterialsSettingsInputSvideo($id, $name="Settings Input Svideo", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputSvideo', $name, $tech)
 !endfunction
 !function MaterialsSettingsInputSvideoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSettingsInputSvideoLg>', 'Settings Input Svideo', $funcName, $content)
+  CloudCard($id, '<$MaterialsSettingsInputSvideoMd>', 'Settings Input Svideo', $funcName, $content)
 !endfunction
 @enduml

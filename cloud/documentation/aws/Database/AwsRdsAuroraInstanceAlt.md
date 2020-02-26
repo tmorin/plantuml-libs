@@ -16,7 +16,7 @@ elements/aws/Database/AwsRdsAuroraInstanceAlt
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRdsAuroraInstanceAlt element
@@ -34,7 +34,7 @@ AwsRdsAuroraInstanceAlt('element', 'Rds Aurora Instance Alt', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRdsAuroraInstanceAlt element
@@ -53,8 +53,8 @@ AwsRdsAuroraInstanceAlt('element', 'Rds Aurora Instance Alt', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRdsAuroraInstanceAlt card
 include('elements/aws/Database/AwsRdsAuroraInstanceAlt')
@@ -71,8 +71,8 @@ AwsRdsAuroraInstanceAltCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRdsAuroraInstanceAlt card
 include('elements/aws/Database/AwsRdsAuroraInstanceAlt')

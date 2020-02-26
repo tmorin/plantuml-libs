@@ -12,8 +12,8 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupInstances group
 include('groups/gcp/GcpGroupInstances')
@@ -30,8 +30,8 @@ GcpGroupInstances('element', 'Instances', 'an optional tech field')
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpGroupInstances group
 include('groups/gcp/GcpGroupInstances')

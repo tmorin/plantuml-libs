@@ -4,10 +4,12 @@ VSx50GKm309GwWRil-rtbxvp0k1Lx1H7mZzv-OmPlyNbAoQ46F2b-swqnTKJtWNw7GlU9Fa3qyjxgTrV
 yjwIzqJlQNXl9Nf71ON-Jnr0dl8VhC0H
 }
 
+sprite $AzureInternetMd [23x14/16z] RSg54GDH30DHVIPB_NSRpg7VyCxYhngjugfI4byz76iqlLcVgyV3hDtwzrI63lgtDkh40X3xkbGn8YtTi65ANgSyvcTE_yxcpHLbyVPMF04
+
 !function AzureInternet($id, $name="Internet", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureInternet', $name, $tech)
 !endfunction
 !function AzureInternetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureInternetLg>', 'Internet', $funcName, $content)
+  CloudCard($id, '<$AzureInternetMd>', 'Internet', $funcName, $content)
 !endfunction
 @enduml

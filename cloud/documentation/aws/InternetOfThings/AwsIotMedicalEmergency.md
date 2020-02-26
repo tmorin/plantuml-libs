@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotMedicalEmergency
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotMedicalEmergency element
@@ -34,7 +34,7 @@ AwsIotMedicalEmergency('element', 'Iot Medical Emergency', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotMedicalEmergency element
@@ -53,8 +53,8 @@ AwsIotMedicalEmergency('element', 'Iot Medical Emergency', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotMedicalEmergency card
 include('elements/aws/InternetOfThings/AwsIotMedicalEmergency')
@@ -71,8 +71,8 @@ AwsIotMedicalEmergencyCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotMedicalEmergency card
 include('elements/aws/InternetOfThings/AwsIotMedicalEmergency')

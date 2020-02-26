@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsBluetoothSearching
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothSearching element
 include('elements/materials/Device/MaterialsBluetoothSearching')
@@ -34,8 +34,8 @@ MaterialsBluetoothSearching('element', 'Bluetooth Searching', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothSearching element
 include('elements/materials/Device/MaterialsBluetoothSearching')
@@ -53,8 +53,8 @@ MaterialsBluetoothSearching('element', 'Bluetooth Searching', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothSearching card
 include('elements/materials/Device/MaterialsBluetoothSearching')
@@ -71,8 +71,8 @@ MaterialsBluetoothSearchingCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsBluetoothSearching card
 include('elements/materials/Device/MaterialsBluetoothSearching')

@@ -16,7 +16,7 @@ elements/aws/InternetOfThings/AwsIotCertificateManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotCertificateManager element
@@ -34,7 +34,7 @@ AwsIotCertificateManager('element', 'Iot Certificate Manager', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIotCertificateManager element
@@ -53,8 +53,8 @@ AwsIotCertificateManager('element', 'Iot Certificate Manager', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotCertificateManager card
 include('elements/aws/InternetOfThings/AwsIotCertificateManager')
@@ -71,8 +71,8 @@ AwsIotCertificateManagerCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIotCertificateManager card
 include('elements/aws/InternetOfThings/AwsIotCertificateManager')

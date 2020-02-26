@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsSpeakerGroup
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpeakerGroup element
 include('elements/materials/Hardware/MaterialsSpeakerGroup')
@@ -34,8 +34,8 @@ MaterialsSpeakerGroup('element', 'Speaker Group', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpeakerGroup element
 include('elements/materials/Hardware/MaterialsSpeakerGroup')
@@ -53,8 +53,8 @@ MaterialsSpeakerGroup('element', 'Speaker Group', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpeakerGroup card
 include('elements/materials/Hardware/MaterialsSpeakerGroup')
@@ -71,8 +71,8 @@ MaterialsSpeakerGroupCard('card', 'an optional functional name', 'Molestiae prae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSpeakerGroup card
 include('elements/materials/Hardware/MaterialsSpeakerGroup')

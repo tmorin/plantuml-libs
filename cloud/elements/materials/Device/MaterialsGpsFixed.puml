@@ -4,10 +4,12 @@ RP053aCn34D_N0Phzx_jscOyMnIziA-dpAu_bV9B3At1laZgd9CzsHjLvW24p6elD897OJnXcXi16yxa
 Nh53tA9k5hyf3xHNsbFb_Hq
 }
 
+sprite $MaterialsGpsFixedMd [14x14/16z] POx50S0m30CLJepxJrlctiTi2Hinua6jTrxwGi5EQn68hUsJjj-rTHfwH5MjY3qWreuexXBHQtnNvsPPDxzVReMV-j_PxNe6
+
 !function MaterialsGpsFixed($id, $name="Gps Fixed", $tech="")
   CloudElement($id, 'materials/Device/MaterialsGpsFixed', $name, $tech)
 !endfunction
 !function MaterialsGpsFixedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsGpsFixedLg>', 'Gps Fixed', $funcName, $content)
+  CloudCard($id, '<$MaterialsGpsFixedMd>', 'Gps Fixed', $funcName, $content)
 !endfunction
 @enduml

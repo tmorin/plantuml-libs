@@ -4,10 +4,12 @@ TT150a9H34FHjCyr-ryj3i7-7PwE6XpaZw32sElIdb6M-EY6Cg5CADijvxOl61xslCT9ffSbM4g6H5at
 06zPnjNxcX4U3_xLLfVs34zqPJZe3
 }
 
+sprite $MaterialsFindInPageMd [14x14/16z] NOx50KCn34FDuMZ_QTlFz6u60NsGjAB7v5ZfTa_tk4mregBhFcLUoF1z4gbLP9-YSG31BRRR4ErTPHwVYLb8ZXkGpOB57db5xcOBJb_-
+
 !function MaterialsFindInPage($id, $name="Find In Page", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFindInPage', $name, $tech)
 !endfunction
 !function MaterialsFindInPageCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFindInPageLg>', 'Find In Page', $funcName, $content)
+  CloudCard($id, '<$MaterialsFindInPageMd>', 'Find In Page', $funcName, $content)
 !endfunction
 @enduml

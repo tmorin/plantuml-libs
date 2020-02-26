@@ -16,8 +16,8 @@ elements/azure/SecurityServiceColor/AzureKeyVaults
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKeyVaults element
 include('elements/azure/SecurityServiceColor/AzureKeyVaults')
@@ -34,8 +34,8 @@ AzureKeyVaults('element', 'Key Vaults', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKeyVaults element
 include('elements/azure/SecurityServiceColor/AzureKeyVaults')
@@ -53,8 +53,8 @@ AzureKeyVaults('element', 'Key Vaults', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKeyVaults card
 include('elements/azure/SecurityServiceColor/AzureKeyVaults')
@@ -71,8 +71,8 @@ AzureKeyVaultsCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureKeyVaults card
 include('elements/azure/SecurityServiceColor/AzureKeyVaults')

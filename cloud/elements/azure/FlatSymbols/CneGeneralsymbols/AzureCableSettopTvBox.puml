@@ -5,10 +5,15 @@ Ck02hCKzGKFHWona4xmEkgQ-KbBA9Lz4AqmisYVINzUXqk33lQ2vINkrjvcAjFg0tQa8TRC84myVzNBh
 H0UyasRsEgVQIyUemRbkPNY7CS8_Kdd51geTfeTLVRYwrgVm3m
 }
 
+sprite $AzureCableSettopTvBoxMd [29x14/16z] {
+VOu5TWCn34HtQp7U_xOrb9jadlWRT6q12Kr3uMDmVMi0Xr0eXU4qTnYVw1vWHkhBP1cpyxWF0oHLbX_6AWJtPY39d4Bv-MmuUk2aGrJLlio-JMLuFDTccH5L
+9-MUYiMdAYkxehfdMkpjklKRTbLcpRYXp3tf2qvKDLFsXZQXVC7EckEkF3T3nhduSbls5-mT
+}
+
 !function AzureCableSettopTvBox($id, $name="Cable Settop Tv Box", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCableSettopTvBox', $name, $tech)
 !endfunction
 !function AzureCableSettopTvBoxCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCableSettopTvBoxLg>', 'Cable Settop Tv Box', $funcName, $content)
+  CloudCard($id, '<$AzureCableSettopTvBoxMd>', 'Cable Settop Tv Box', $funcName, $content)
 !endfunction
 @enduml

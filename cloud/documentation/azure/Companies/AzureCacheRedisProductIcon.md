@@ -16,8 +16,8 @@ elements/azure/Companies/AzureCacheRedisProductIcon
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCacheRedisProductIcon element
 include('elements/azure/Companies/AzureCacheRedisProductIcon')
@@ -34,8 +34,8 @@ AzureCacheRedisProductIcon('element', 'Cache Redis Product Icon', 'an optional t
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCacheRedisProductIcon element
 include('elements/azure/Companies/AzureCacheRedisProductIcon')
@@ -53,8 +53,8 @@ AzureCacheRedisProductIcon('element', 'Cache Redis Product Icon', 'an optional t
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCacheRedisProductIcon card
 include('elements/azure/Companies/AzureCacheRedisProductIcon')
@@ -71,8 +71,8 @@ AzureCacheRedisProductIconCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCacheRedisProductIcon card
 include('elements/azure/Companies/AzureCacheRedisProductIcon')

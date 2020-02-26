@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneEnterprise/AzureImportGeneric
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureImportGeneric element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureImportGeneric')
@@ -34,8 +34,8 @@ AzureImportGeneric('element', 'Import Generic', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureImportGeneric element
 include('elements/azure/FlatSymbols/CneEnterprise/AzureImportGeneric')
@@ -53,8 +53,8 @@ AzureImportGeneric('element', 'Import Generic', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureImportGeneric card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureImportGeneric')
@@ -71,8 +71,8 @@ AzureImportGenericCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureImportGeneric card
 include('elements/azure/FlatSymbols/CneEnterprise/AzureImportGeneric')

@@ -4,10 +4,12 @@ JP050i0W30D93Vt_UzSmOPdG747B5dm4of6skMRNrqgTYvfLdlHwDHp5-cIVcxDOtVPV8IfmreDUr2F2
 GvHWJ-gs9uq4Pra30_stCMi4P-kLjkftk96s6RxZpmI1tmLDfe_WtP_o0W
 }
 
+sprite $AzureMediaServicesMd [12x14/16z] FKu50e1028FRGEh_txMLRYOd8H9oathDjEiPigQxPugIFKd0pahCnA8PK7sc964Ehvo2KvI6V69TTiNNZ5qpbldlHkPxasUu2S-nhipWYw72L6v2RElo1m
+
 !function AzureMediaServices($id, $name="Media Services", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureMediaServices', $name, $tech)
 !endfunction
 !function AzureMediaServicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureMediaServicesLg>', 'Media Services', $funcName, $content)
+  CloudCard($id, '<$AzureMediaServicesMd>', 'Media Services', $funcName, $content)
 !endfunction
 @enduml

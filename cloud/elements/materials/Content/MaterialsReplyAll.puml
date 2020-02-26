@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsReplyAllLg [20x20/16z] jO_L0SGm243ZmTb_shkwVxOlYaFuWhHT6wMlrwxIDbxzf88OYZZckAbaLhaRztnHZMYBDvrxVrAsSurIWTtojPTO6UAjvmJvFbiiuMN-
 
+sprite $MaterialsReplyAllMd [14x14/16z] bSsr0S1030D0Wvx1-qyRfYPqdL7qXpAnxWKYStHxaOIZ9SXIvBcOLCzxjOXyRFfOp5--C99U4mHqnVHW1
+
 !function MaterialsReplyAll($id, $name="Reply All", $tech="")
   CloudElement($id, 'materials/Content/MaterialsReplyAll', $name, $tech)
 !endfunction
 !function MaterialsReplyAllCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsReplyAllLg>', 'Reply All', $funcName, $content)
+  CloudCard($id, '<$MaterialsReplyAllMd>', 'Reply All', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/NetworkingContentDelivery/AwsElasticLoadBalancingClassicLoadBalance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticLoadBalancingClassicLoadBalancer element
@@ -34,7 +34,7 @@ AwsElasticLoadBalancingClassicLoadBalancer('element', 'Elastic Load Balancing Cl
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsElasticLoadBalancingClassicLoadBalancer element
@@ -53,8 +53,8 @@ AwsElasticLoadBalancingClassicLoadBalancer('element', 'Elastic Load Balancing Cl
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticLoadBalancingClassicLoadBalancer card
 include('elements/aws/NetworkingContentDelivery/AwsElasticLoadBalancingClassicLoadBalancer')
@@ -71,8 +71,8 @@ AwsElasticLoadBalancingClassicLoadBalancerCard('card', 'an optional functional n
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsElasticLoadBalancingClassicLoadBalancer card
 include('elements/aws/NetworkingContentDelivery/AwsElasticLoadBalancingClassicLoadBalancer')

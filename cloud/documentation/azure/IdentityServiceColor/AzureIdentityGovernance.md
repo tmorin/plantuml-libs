@@ -16,8 +16,8 @@ elements/azure/IdentityServiceColor/AzureIdentityGovernance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIdentityGovernance element
 include('elements/azure/IdentityServiceColor/AzureIdentityGovernance')
@@ -34,8 +34,8 @@ AzureIdentityGovernance('element', 'Identity Governance', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIdentityGovernance element
 include('elements/azure/IdentityServiceColor/AzureIdentityGovernance')
@@ -53,8 +53,8 @@ AzureIdentityGovernance('element', 'Identity Governance', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIdentityGovernance card
 include('elements/azure/IdentityServiceColor/AzureIdentityGovernance')
@@ -71,8 +71,8 @@ AzureIdentityGovernanceCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureIdentityGovernance card
 include('elements/azure/IdentityServiceColor/AzureIdentityGovernance')

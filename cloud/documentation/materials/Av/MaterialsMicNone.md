@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsMicNone
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMicNone element
 include('elements/materials/Av/MaterialsMicNone')
@@ -34,8 +34,8 @@ MaterialsMicNone('element', 'Mic None', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMicNone element
 include('elements/materials/Av/MaterialsMicNone')
@@ -53,8 +53,8 @@ MaterialsMicNone('element', 'Mic None', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMicNone card
 include('elements/materials/Av/MaterialsMicNone')
@@ -71,8 +71,8 @@ MaterialsMicNoneCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMicNone card
 include('elements/materials/Av/MaterialsMicNone')

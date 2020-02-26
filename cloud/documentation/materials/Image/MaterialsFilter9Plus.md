@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsFilter9Plus
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilter9Plus element
 include('elements/materials/Image/MaterialsFilter9Plus')
@@ -34,8 +34,8 @@ MaterialsFilter9Plus('element', 'Filter9 Plus', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilter9Plus element
 include('elements/materials/Image/MaterialsFilter9Plus')
@@ -53,8 +53,8 @@ MaterialsFilter9Plus('element', 'Filter9 Plus', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilter9Plus card
 include('elements/materials/Image/MaterialsFilter9Plus')
@@ -71,8 +71,8 @@ MaterialsFilter9PlusCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilter9Plus card
 include('elements/materials/Image/MaterialsFilter9Plus')

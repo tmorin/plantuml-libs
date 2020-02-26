@@ -4,10 +4,12 @@ ZP255SGW40MpYaF_rPvit9a4-6zmXZy0mzmkU1bRyRD1JfuDdnX7bTk6R98jrnYh1LvSPW3EUwV_fAkx
 uknAM2ZcpczWaZUOwkGB
 }
 
+sprite $MaterialsPermContactCalendarMd [14x14/16z] NSxL0K0X34FH1DTs_scV2t3HyrS0D3Won1b3D4Sny4GMwKSY-Q3fgjNxgjhDBGUuJt8-yaeZ6VMJv2olUh2a3VrMm5Mu5TrLFCNSdpAlCP-8fHq
+
 !function MaterialsPermContactCalendar($id, $name="Perm Contact Calendar", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermContactCalendar', $name, $tech)
 !endfunction
 !function MaterialsPermContactCalendarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPermContactCalendarLg>', 'Perm Contact Calendar', $funcName, $content)
+  CloudCard($id, '<$MaterialsPermContactCalendarMd>', 'Perm Contact Calendar', $funcName, $content)
 !endfunction
 @enduml

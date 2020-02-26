@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatAlignLeft
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignLeft element
 include('elements/materials/Editor/MaterialsFormatAlignLeft')
@@ -34,8 +34,8 @@ MaterialsFormatAlignLeft('element', 'Format Align Left', 'an optional tech field
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignLeft element
 include('elements/materials/Editor/MaterialsFormatAlignLeft')
@@ -53,8 +53,8 @@ MaterialsFormatAlignLeft('element', 'Format Align Left', 'an optional tech field
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignLeft card
 include('elements/materials/Editor/MaterialsFormatAlignLeft')
@@ -71,8 +71,8 @@ MaterialsFormatAlignLeftCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatAlignLeft card
 include('elements/materials/Editor/MaterialsFormatAlignLeft')

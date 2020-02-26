@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsAttachMoney
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAttachMoney element
 include('elements/materials/Editor/MaterialsAttachMoney')
@@ -34,8 +34,8 @@ MaterialsAttachMoney('element', 'Attach Money', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAttachMoney element
 include('elements/materials/Editor/MaterialsAttachMoney')
@@ -53,8 +53,8 @@ MaterialsAttachMoney('element', 'Attach Money', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAttachMoney card
 include('elements/materials/Editor/MaterialsAttachMoney')
@@ -71,8 +71,8 @@ MaterialsAttachMoneyCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsAttachMoney card
 include('elements/materials/Editor/MaterialsAttachMoney')

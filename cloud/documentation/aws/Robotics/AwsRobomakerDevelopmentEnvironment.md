@@ -16,7 +16,7 @@ elements/aws/Robotics/AwsRobomakerDevelopmentEnvironment
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRobomakerDevelopmentEnvironment element
@@ -34,7 +34,7 @@ AwsRobomakerDevelopmentEnvironment('element', 'Robomaker Development Environment
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRobomakerDevelopmentEnvironment element
@@ -53,8 +53,8 @@ AwsRobomakerDevelopmentEnvironment('element', 'Robomaker Development Environment
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRobomakerDevelopmentEnvironment card
 include('elements/aws/Robotics/AwsRobomakerDevelopmentEnvironment')
@@ -71,8 +71,8 @@ AwsRobomakerDevelopmentEnvironmentCard('card', 'an optional functional name', 'M
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRobomakerDevelopmentEnvironment card
 include('elements/aws/Robotics/AwsRobomakerDevelopmentEnvironment')

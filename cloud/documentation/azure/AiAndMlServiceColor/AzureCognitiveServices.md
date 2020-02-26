@@ -16,8 +16,8 @@ elements/azure/AiAndMlServiceColor/AzureCognitiveServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCognitiveServices element
 include('elements/azure/AiAndMlServiceColor/AzureCognitiveServices')
@@ -34,8 +34,8 @@ AzureCognitiveServices('element', 'Cognitive Services', 'an optional tech field'
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCognitiveServices element
 include('elements/azure/AiAndMlServiceColor/AzureCognitiveServices')
@@ -53,8 +53,8 @@ AzureCognitiveServices('element', 'Cognitive Services', 'an optional tech field'
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCognitiveServices card
 include('elements/azure/AiAndMlServiceColor/AzureCognitiveServices')
@@ -71,8 +71,8 @@ AzureCognitiveServicesCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCognitiveServices card
 include('elements/azure/AiAndMlServiceColor/AzureCognitiveServices')

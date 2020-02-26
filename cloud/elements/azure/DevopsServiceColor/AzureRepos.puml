@@ -4,10 +4,12 @@ NOnN0iH028MSmjFP-nzuqnFb3onc5h-7i8t6UikYcR4IcA9m1CbZmz5T4Rw52PnbKob2SujbH_TECCy_
 bHqdhIWA-WC
 }
 
+sprite $AzureReposMd [13x14/16z] HOlL0KCX54EH6sdtt_VXSBwYAUk_K4wPlmCp_UXQf2o0qsiQOHW1myGwp06gjn5gnJ9HQb1Ur90FYl058gyXe3EoTNK3
+
 !function AzureRepos($id, $name="Repos", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzureRepos', $name, $tech)
 !endfunction
 !function AzureReposCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureReposLg>', 'Repos', $funcName, $content)
+  CloudCard($id, '<$AzureReposMd>', 'Repos', $funcName, $content)
 !endfunction
 @enduml

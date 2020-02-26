@@ -16,8 +16,8 @@ elements/azure/NetworkingServiceColor/AzureServiceEndpointPolicies
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceEndpointPolicies element
 include('elements/azure/NetworkingServiceColor/AzureServiceEndpointPolicies')
@@ -34,8 +34,8 @@ AzureServiceEndpointPolicies('element', 'Service Endpoint Policies', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceEndpointPolicies element
 include('elements/azure/NetworkingServiceColor/AzureServiceEndpointPolicies')
@@ -53,8 +53,8 @@ AzureServiceEndpointPolicies('element', 'Service Endpoint Policies', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceEndpointPolicies card
 include('elements/azure/NetworkingServiceColor/AzureServiceEndpointPolicies')
@@ -71,8 +71,8 @@ AzureServiceEndpointPoliciesCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureServiceEndpointPolicies card
 include('elements/azure/NetworkingServiceColor/AzureServiceEndpointPolicies')

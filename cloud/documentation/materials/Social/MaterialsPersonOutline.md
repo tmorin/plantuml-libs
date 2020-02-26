@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsPersonOutline
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonOutline element
 include('elements/materials/Social/MaterialsPersonOutline')
@@ -34,8 +34,8 @@ MaterialsPersonOutline('element', 'Person Outline', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonOutline element
 include('elements/materials/Social/MaterialsPersonOutline')
@@ -53,8 +53,8 @@ MaterialsPersonOutline('element', 'Person Outline', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonOutline card
 include('elements/materials/Social/MaterialsPersonOutline')
@@ -71,8 +71,8 @@ MaterialsPersonOutlineCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPersonOutline card
 include('elements/materials/Social/MaterialsPersonOutline')

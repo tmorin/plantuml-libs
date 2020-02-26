@@ -4,10 +4,12 @@ fSsr0SDG30HGiJ_V_jE6p6v2hnCUVOoLrSpqsBEg6K0vz-JVNhK7FVKMllNIrekvfqriOA5pZskmkdj4
 dNjiPihqkJi
 }
 
+sprite $MaterialsAirlineSeatLegroomReducedMd [14x14/16z] NOh70GCn3CD4HSrz_scJN3yRFnAW1O0Prs3NrjAzGiUOLyPxLJUJOydOsMi4Hocr3jzJiuy8PCY-e156Ka4FNWMlrRey2yoqyWC
+
 !function MaterialsAirlineSeatLegroomReduced($id, $name="Airline Seat Legroom Reduced", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatLegroomReduced', $name, $tech)
 !endfunction
 !function MaterialsAirlineSeatLegroomReducedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAirlineSeatLegroomReducedLg>', 'Airline Seat Legroom Reduced', $funcName, $content)
+  CloudCard($id, '<$MaterialsAirlineSeatLegroomReducedMd>', 'Airline Seat Legroom Reduced', $funcName, $content)
 !endfunction
 @enduml

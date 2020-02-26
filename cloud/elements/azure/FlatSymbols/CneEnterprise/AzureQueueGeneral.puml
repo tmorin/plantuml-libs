@@ -6,10 +6,15 @@ q6oL40UhPxk4F5ZD1wy4e5kT7aeWrH80cYODbn2gRSOjWCKMuIDC6oL4JBY5w92t0CfH2Mo24gfNm2D4
 KJf2M_jFYz6VqGJc_ji0flLVt-u502BZsrJeG3z_vVu1
 }
 
+sprite $AzureQueueGeneralMd [46x14/16z] {
+ZT473WCm24DH0mahlVzvI-ZUjUQNdgOz8_yR0qYc_wQ-DObUDua_X1B5sDeEuQUjW-WryZ46Hb1h9-pDriuTeq3fMm2kMqU406HfIpGYAw1fEJJz5Ai2uE3I
+Ifw3Ir6A6bbEzehIJjenA2O0ywq1NSi9hO6PoncjWP4h16WzywGXLHTTGRXey8xM5BDrxwPhDzrhROxIQPSjqRiOkku2abnQp2-ppy481LB-Vfu0pN_708u
+}
+
 !function AzureQueueGeneral($id, $name="Queue General", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureQueueGeneral', $name, $tech)
 !endfunction
 !function AzureQueueGeneralCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureQueueGeneralLg>', 'Queue General', $funcName, $content)
+  CloudCard($id, '<$AzureQueueGeneralMd>', 'Queue General', $funcName, $content)
 !endfunction
 @enduml

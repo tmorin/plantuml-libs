@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularConnectedNoInternet0Bar element
 include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar')
@@ -34,8 +34,8 @@ MaterialsSignalCellularConnectedNoInternet0Bar('element', 'Signal Cellular Conne
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularConnectedNoInternet0Bar element
 include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar')
@@ -53,8 +53,8 @@ MaterialsSignalCellularConnectedNoInternet0Bar('element', 'Signal Cellular Conne
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularConnectedNoInternet0Bar card
 include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar')
@@ -71,8 +71,8 @@ MaterialsSignalCellularConnectedNoInternet0BarCard('card', 'an optional function
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSignalCellularConnectedNoInternet0Bar card
 include('elements/materials/Device/MaterialsSignalCellularConnectedNoInternet0Bar')

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFiberSmartRecordLg [20x20/16z] fP253G0X300Fjv3kF-sxVwCSJhsCOdtmbWLp_UGk8ZqllsdPLboJdUPmPTd0L3cf1fENZI0t0MmBcFBuAq0inhJ7NpFWc_gdsIenj5oKd9NQb1wCCWC
 
+sprite $MaterialsFiberSmartRecordMd [14x14/16z] VOs30K0X441pdVUVzjlerLckJyWv-SaiGH4pW-1hcO9i2-XzpSwJhKnkyr6tg3bNupswTzwst2xSh_SP0G
+
 !function MaterialsFiberSmartRecord($id, $name="Fiber Smart Record", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFiberSmartRecord', $name, $tech)
 !endfunction
 !function MaterialsFiberSmartRecordCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFiberSmartRecordLg>', 'Fiber Smart Record', $funcName, $content)
+  CloudCard($id, '<$MaterialsFiberSmartRecordMd>', 'Fiber Smart Record', $funcName, $content)
 !endfunction
 @enduml

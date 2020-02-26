@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSendLg [20x20/16z] dL034W0n3BpQoVzVUtRT7GUhgHM4n3Dg9OrcW5upyfyXWX7aEzlX98rcY5vT58HngOmB1mL_KH3Ak53seeXcyM-i4Nc9FSVPuWxYhaQn
 
+sprite $MaterialsSendMd [14x14/16z] Oy07sDYOa7Zi_3pip4WyVdu-JXP628-LYviNAC0Dqy38nCp2ni43rO3WeQb4c8Am0TrsmW
+
 !function MaterialsSend($id, $name="Send", $tech="")
   CloudElement($id, 'materials/Content/MaterialsSend', $name, $tech)
 !endfunction
 !function MaterialsSendCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSendLg>', 'Send', $funcName, $content)
+  CloudCard($id, '<$MaterialsSendMd>', 'Send', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsControlPointDuplicate
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsControlPointDuplicate element
 include('elements/materials/Image/MaterialsControlPointDuplicate')
@@ -34,8 +34,8 @@ MaterialsControlPointDuplicate('element', 'Control Point Duplicate', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsControlPointDuplicate element
 include('elements/materials/Image/MaterialsControlPointDuplicate')
@@ -53,8 +53,8 @@ MaterialsControlPointDuplicate('element', 'Control Point Duplicate', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsControlPointDuplicate card
 include('elements/materials/Image/MaterialsControlPointDuplicate')
@@ -71,8 +71,8 @@ MaterialsControlPointDuplicateCard('card', 'an optional functional name', 'Moles
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsControlPointDuplicate card
 include('elements/materials/Image/MaterialsControlPointDuplicate')

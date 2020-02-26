@@ -16,8 +16,8 @@ elements/azure/DevopsServiceColor/AzureRepos
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRepos element
 include('elements/azure/DevopsServiceColor/AzureRepos')
@@ -34,8 +34,8 @@ AzureRepos('element', 'Repos', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRepos element
 include('elements/azure/DevopsServiceColor/AzureRepos')
@@ -53,8 +53,8 @@ AzureRepos('element', 'Repos', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRepos card
 include('elements/azure/DevopsServiceColor/AzureRepos')
@@ -71,8 +71,8 @@ AzureReposCard('card', 'an optional functional name', 'Molestiae praesentium aut
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureRepos card
 include('elements/azure/DevopsServiceColor/AzureRepos')

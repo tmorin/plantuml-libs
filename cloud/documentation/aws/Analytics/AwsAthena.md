@@ -16,7 +16,7 @@ elements/aws/Analytics/AwsAthena
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsAthena element
@@ -34,7 +34,7 @@ AwsAthena('element', 'Athena', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsAthena element
@@ -53,8 +53,8 @@ AwsAthena('element', 'Athena', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsAthena card
 include('elements/aws/Analytics/AwsAthena')
@@ -71,8 +71,8 @@ AwsAthenaCard('card', 'an optional functional name', 'Molestiae praesentium aut 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsAthena card
 include('elements/aws/Analytics/AwsAthena')

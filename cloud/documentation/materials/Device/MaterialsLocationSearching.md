@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsLocationSearching
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocationSearching element
 include('elements/materials/Device/MaterialsLocationSearching')
@@ -34,8 +34,8 @@ MaterialsLocationSearching('element', 'Location Searching', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocationSearching element
 include('elements/materials/Device/MaterialsLocationSearching')
@@ -53,8 +53,8 @@ MaterialsLocationSearching('element', 'Location Searching', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocationSearching card
 include('elements/materials/Device/MaterialsLocationSearching')
@@ -71,8 +71,8 @@ MaterialsLocationSearchingCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocationSearching card
 include('elements/materials/Device/MaterialsLocationSearching')

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsCodeguruLg [20x20/16z] hSr7bW9H34FHRa3oa_U_NpByungHxinH_GlGGtBh9Qk7iMHCBuY0nha83beT42uRhQ0gbLmkLQrSWG5bPEHiPhJfnZrOLTxqq1azv20TqbD9rLj9l-i4
+sprite $AwsCodeguruLg [20x20/16z] {
+RSW5RWHH44F1aFlPdVkVDzdz80sLkBBu8ESyNnuESZfxN61SZolhXLetKzZya7aZXIaZPvyjL2K4-s1VrRhNoXPOULdNLfo8ZEofw4QPzWbKvtD9yldo8_ta
+V8t4zJhfNlVRH-iUyXy
+}
+
+sprite $AwsCodeguruMd [14x14/16z] LSnB0e0m20FHLJC4xtzV3Vvdzrh0Krtvnnj-H4b5r950Z0uET0bDH24Koh4EPMlkTHB8ZrYBLvRgLHfjF-u
 
 !function AwsCodeguru($id, $name="Codeguru", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCodeguru', $name, $tech)
 !endfunction
 !function AwsCodeguruCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCodeguruLg>', 'Codeguru', $funcName, $content)
+  CloudCard($id, '<$AwsCodeguruMd>', 'Codeguru', $funcName, $content)
 !endfunction
 @enduml

@@ -16,7 +16,7 @@ elements/aws/Storage/AwsStorageGatewayNonCachedVolume
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsStorageGatewayNonCachedVolume element
@@ -34,7 +34,7 @@ AwsStorageGatewayNonCachedVolume('element', 'Storage Gateway Non Cached Volume',
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsStorageGatewayNonCachedVolume element
@@ -53,8 +53,8 @@ AwsStorageGatewayNonCachedVolume('element', 'Storage Gateway Non Cached Volume',
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsStorageGatewayNonCachedVolume card
 include('elements/aws/Storage/AwsStorageGatewayNonCachedVolume')
@@ -71,8 +71,8 @@ AwsStorageGatewayNonCachedVolumeCard('card', 'an optional functional name', 'Mol
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsStorageGatewayNonCachedVolume card
 include('elements/aws/Storage/AwsStorageGatewayNonCachedVolume')

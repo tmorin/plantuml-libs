@@ -4,10 +4,12 @@ RP255SGm34FDoluB7yHGL1lwpqnRNAAHn4WASQnHbAcjaopDS6ROXfvEKT3_2Vvc29U24A9zTJQpJaE6
 ZVorj_SPN6S5liuKGCxqRVPV
 }
 
+sprite $GcpCloudNatMd [14x14/16z] LKw50S002CBs_uk7hkqM069B0aoIjPIRUb_aJBGOK6aK2BhqJGD67nwnpKdIapBjUhAek_bC_gvyFxH-lyU3RFf4zaTz
+
 !function GcpCloudNat($id, $name="Cloud Nat", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudNat', $name, $tech)
 !endfunction
 !function GcpCloudNatCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudNatLg>', 'Cloud Nat', $funcName, $content)
+  CloudCard($id, '<$GcpCloudNatMd>', 'Cloud Nat', $funcName, $content)
 !endfunction
 @enduml

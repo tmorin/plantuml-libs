@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsInsertDriveFileLg [20x20/16z] pT0r0e0m40NH7_Va_gV58RezhvnoGE0FL2BaT0goDbKkLhsnDWCPvTHgR1fa45tpyk3rrohrzrPVFN8GtzCAX1q
 
+sprite $MaterialsInsertDriveFileMd [14x14/16z] hSUb0S0m4030Pr3TVzfIE3hd3ZRa7wxJw-KkqmHBonJGkI_DKikgWoEl23OF
+
 !function MaterialsInsertDriveFile($id, $name="Insert Drive File", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertDriveFile', $name, $tech)
 !endfunction
 !function MaterialsInsertDriveFileCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsInsertDriveFileLg>', 'Insert Drive File', $funcName, $content)
+  CloudCard($id, '<$MaterialsInsertDriveFileMd>', 'Insert Drive File', $funcName, $content)
 !endfunction
 @enduml

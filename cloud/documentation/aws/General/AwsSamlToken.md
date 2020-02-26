@@ -16,7 +16,7 @@ elements/aws/General/AwsSamlToken
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSamlToken element
@@ -34,7 +34,7 @@ AwsSamlToken('element', 'Saml Token', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSamlToken element
@@ -53,8 +53,8 @@ AwsSamlToken('element', 'Saml Token', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSamlToken card
 include('elements/aws/General/AwsSamlToken')
@@ -71,8 +71,8 @@ AwsSamlTokenCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSamlToken card
 include('elements/aws/General/AwsSamlToken')

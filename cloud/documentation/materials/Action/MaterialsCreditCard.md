@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsCreditCard
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreditCard element
 include('elements/materials/Action/MaterialsCreditCard')
@@ -34,8 +34,8 @@ MaterialsCreditCard('element', 'Credit Card', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreditCard element
 include('elements/materials/Action/MaterialsCreditCard')
@@ -53,8 +53,8 @@ MaterialsCreditCard('element', 'Credit Card', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreditCard card
 include('elements/materials/Action/MaterialsCreditCard')
@@ -71,8 +71,8 @@ MaterialsCreditCardCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCreditCard card
 include('elements/materials/Action/MaterialsCreditCard')

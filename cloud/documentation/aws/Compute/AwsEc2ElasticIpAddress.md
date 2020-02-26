@@ -16,7 +16,7 @@ elements/aws/Compute/AwsEc2ElasticIpAddress
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ElasticIpAddress element
@@ -34,7 +34,7 @@ AwsEc2ElasticIpAddress('element', 'Ec2 Elastic Ip Address', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ElasticIpAddress element
@@ -53,8 +53,8 @@ AwsEc2ElasticIpAddress('element', 'Ec2 Elastic Ip Address', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ElasticIpAddress card
 include('elements/aws/Compute/AwsEc2ElasticIpAddress')
@@ -71,8 +71,8 @@ AwsEc2ElasticIpAddressCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ElasticIpAddress card
 include('elements/aws/Compute/AwsEc2ElasticIpAddress')

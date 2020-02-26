@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsPlace
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlace element
 include('elements/materials/Maps/MaterialsPlace')
@@ -34,8 +34,8 @@ MaterialsPlace('element', 'Place', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlace element
 include('elements/materials/Maps/MaterialsPlace')
@@ -53,8 +53,8 @@ MaterialsPlace('element', 'Place', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlace card
 include('elements/materials/Maps/MaterialsPlace')
@@ -71,8 +71,8 @@ MaterialsPlaceCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlace card
 include('elements/materials/Maps/MaterialsPlace')

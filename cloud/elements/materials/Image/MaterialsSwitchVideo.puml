@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsSwitchVideoLg [20x20/16z] hO_50G0n40BPkAV_Qi_zU6P-gm168yxVsBsdMh-9W55xhrqzCMNlPPVNshMUN6rRhsX9fLGlRhtOUaK3iW8iJTgZjqo3Uc6UIRRnp
 
+sprite $MaterialsSwitchVideoMd [14x14/16z] XSs35K0n30NG1ZNU_jD-c_SeZlb4YobnESt4i34UhG4LKF53Lcq4d4SiOwQ6HOWySCvka-Shvm_xznyz
+
 !function MaterialsSwitchVideo($id, $name="Switch Video", $tech="")
   CloudElement($id, 'materials/Image/MaterialsSwitchVideo', $name, $tech)
 !endfunction
 !function MaterialsSwitchVideoCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSwitchVideoLg>', 'Switch Video', $funcName, $content)
+  CloudCard($id, '<$MaterialsSwitchVideoMd>', 'Switch Video', $funcName, $content)
 !endfunction
 @enduml

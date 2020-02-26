@@ -4,10 +4,12 @@ VP350K0n34AHXkw_yNUNTum2WDi5OwHVQtqiCO14R8HpJRswRZKNIlA4zjeqvvhmLiFKl-rEF7yaVFw8
 VSj-
 }
 
+sprite $AwsCloudformationTemplateMd [14x14/16z] POk50GHG2485PF-Lpxf-FoL2piEAI1Pec3KXNK-1cIopWbgFudd_asKqErNdemVY8wdKTu-IU3qdMCn47An9Vg5u
+
 !function AwsCloudformationTemplate($id, $name="Cloudformation Template", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudformationTemplate', $name, $tech)
 !endfunction
 !function AwsCloudformationTemplateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudformationTemplateLg>', 'Cloudformation Template', $funcName, $content)
+  CloudCard($id, '<$AwsCloudformationTemplateMd>', 'Cloudformation Template', $funcName, $content)
 !endfunction
 @enduml

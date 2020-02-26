@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDvrLg [20x20/16z] bT254S0m20LGB2xiFstTlU_iNnI0hr0E4D2Nj5CyOZQuOtAt9h0ZuneHqcnUSuvp6Rc7SvVlMSjnOkSr4R8JURXxNelHxSI8m7q8EWXzPXXnxPSgNmmCuPSM
 
+sprite $MaterialsDvrMd [14x14/16z] PStL0G0n20FG9FKMzX_ttEzzuU2DkX1gzT8K2oubnWnH6-GbOmfbbRbc8BZPUpdKLVdt2YybQltJ5-jV0MGmTmiaTbhWRmO
+
 !function MaterialsDvr($id, $name="Dvr", $tech="")
   CloudElement($id, 'materials/Device/MaterialsDvr', $name, $tech)
 !endfunction
 !function MaterialsDvrCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDvrLg>', 'Dvr', $funcName, $content)
+  CloudCard($id, '<$MaterialsDvrMd>', 'Dvr', $funcName, $content)
 !endfunction
 @enduml

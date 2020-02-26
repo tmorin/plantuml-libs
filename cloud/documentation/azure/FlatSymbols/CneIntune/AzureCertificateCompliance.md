@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureCertificateCompliance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCertificateCompliance element
 include('elements/azure/FlatSymbols/CneIntune/AzureCertificateCompliance')
@@ -34,8 +34,8 @@ AzureCertificateCompliance('element', 'Certificate Compliance', 'an optional tec
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCertificateCompliance element
 include('elements/azure/FlatSymbols/CneIntune/AzureCertificateCompliance')
@@ -53,8 +53,8 @@ AzureCertificateCompliance('element', 'Certificate Compliance', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCertificateCompliance card
 include('elements/azure/FlatSymbols/CneIntune/AzureCertificateCompliance')
@@ -71,8 +71,8 @@ AzureCertificateComplianceCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCertificateCompliance card
 include('elements/azure/FlatSymbols/CneIntune/AzureCertificateCompliance')

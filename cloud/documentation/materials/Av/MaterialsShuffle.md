@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsShuffle
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShuffle element
 include('elements/materials/Av/MaterialsShuffle')
@@ -34,8 +34,8 @@ MaterialsShuffle('element', 'Shuffle', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShuffle element
 include('elements/materials/Av/MaterialsShuffle')
@@ -53,8 +53,8 @@ MaterialsShuffle('element', 'Shuffle', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShuffle card
 include('elements/materials/Av/MaterialsShuffle')
@@ -71,8 +71,8 @@ MaterialsShuffleCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsShuffle card
 include('elements/materials/Av/MaterialsShuffle')

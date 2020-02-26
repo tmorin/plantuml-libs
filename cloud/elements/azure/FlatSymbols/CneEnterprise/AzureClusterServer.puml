@@ -4,10 +4,12 @@ ZSwr5KD134JHJ-BflrxFqLBgk_Wo5PegsaoOOIWJ2hCGqa9co2SVjqGcoCIR69e6MkXgL_BJuHIdqVxh
 x-amYjDetJy
 }
 
+sprite $AzureClusterServerMd [11x14/16z] LKi50W0X23Ef-V_ttkJQW2NMMf2SCBCGvmHSn-HLfyEn1KO8JUs2iSy9i_w78JFXb0WP2GUXIqBngBMxYdgljPJc8kAj54BiGtW
+
 !function AzureClusterServer($id, $name="Cluster Server", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureClusterServer', $name, $tech)
 !endfunction
 !function AzureClusterServerCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureClusterServerLg>', 'Cluster Server', $funcName, $content)
+  CloudCard($id, '<$AzureClusterServerMd>', 'Cluster Server', $funcName, $content)
 !endfunction
 @enduml

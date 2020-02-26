@@ -4,10 +4,12 @@ RL074e0m30hL2t7o_z_Qk5Tk8UEas760lGyH7z8bVr5bbCPo-owmHlKQGzbuJlD89kSSvud9XV8wzsu5
 N5twgml7sdcrSEty_xRl1lzR_M_wtNu1
 }
 
+sprite $MaterialsFilterVintageMd [14x14/16z] NKx50S1023iNTFzfwvRo0gBXc9J2Et7E-5x5lLoasd9txxdLTFoDMYCxy4ZEspEnqwvDr7P5enJmGYQwO0Aa_vjXwnK
+
 !function MaterialsFilterVintage($id, $name="Filter Vintage", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterVintage', $name, $tech)
 !endfunction
 !function MaterialsFilterVintageCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFilterVintageLg>', 'Filter Vintage', $funcName, $content)
+  CloudCard($id, '<$MaterialsFilterVintageMd>', 'Filter Vintage', $funcName, $content)
 !endfunction
 @enduml

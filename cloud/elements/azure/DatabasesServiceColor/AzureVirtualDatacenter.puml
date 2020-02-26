@@ -4,10 +4,12 @@ bOxN5OCm301HBuRzruqbvudyvgW-rUiBCZD1_Gt43Ou0ADN0LBtGLFq0apNqeFg85ZAfzVB8pB39F6uz
 vQk0KwkgPcvud7b4M3jxtUP_ruWsumOW4JEb_Vi1
 }
 
+sprite $AzureVirtualDatacenterMd [14x14/16z] RKo50SGW38Gejl-y7tjhUsZEcWE82E9NGus0L2Y-0BtPBGREcOZ7EbievfZsaZBRjC_oAYHidKoR5AEtMcu9YsgFQGmL6vuc_Ku-6eXLkRKN
+
 !function AzureVirtualDatacenter($id, $name="Virtual Datacenter", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureVirtualDatacenter', $name, $tech)
 !endfunction
 !function AzureVirtualDatacenterCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVirtualDatacenterLg>', 'Virtual Datacenter', $funcName, $content)
+  CloudCard($id, '<$AzureVirtualDatacenterMd>', 'Virtual Datacenter', $funcName, $content)
 !endfunction
 @enduml

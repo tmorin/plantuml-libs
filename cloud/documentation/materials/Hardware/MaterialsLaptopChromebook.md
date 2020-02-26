@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsLaptopChromebook
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopChromebook element
 include('elements/materials/Hardware/MaterialsLaptopChromebook')
@@ -34,8 +34,8 @@ MaterialsLaptopChromebook('element', 'Laptop Chromebook', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopChromebook element
 include('elements/materials/Hardware/MaterialsLaptopChromebook')
@@ -53,8 +53,8 @@ MaterialsLaptopChromebook('element', 'Laptop Chromebook', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopChromebook card
 include('elements/materials/Hardware/MaterialsLaptopChromebook')
@@ -71,8 +71,8 @@ MaterialsLaptopChromebookCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLaptopChromebook card
 include('elements/materials/Hardware/MaterialsLaptopChromebook')

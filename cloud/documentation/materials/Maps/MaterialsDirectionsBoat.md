@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsDirectionsBoat
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsBoat element
 include('elements/materials/Maps/MaterialsDirectionsBoat')
@@ -34,8 +34,8 @@ MaterialsDirectionsBoat('element', 'Directions Boat', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsBoat element
 include('elements/materials/Maps/MaterialsDirectionsBoat')
@@ -53,8 +53,8 @@ MaterialsDirectionsBoat('element', 'Directions Boat', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsBoat card
 include('elements/materials/Maps/MaterialsDirectionsBoat')
@@ -71,8 +71,8 @@ MaterialsDirectionsBoatCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirectionsBoat card
 include('elements/materials/Maps/MaterialsDirectionsBoat')

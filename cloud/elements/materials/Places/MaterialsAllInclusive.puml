@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAllInclusiveLg [20x20/16z] lKwr0KGn20qUW_stlVlkTMYmPsb80HB2VSJYuGNJPSHQ2AcqwKXj6IjQnPaaaBZRmglMTPCLLrW6xTiDr6LxQj-urdaHMBYx1qtRxl6HvIlpaFe3
 
+sprite $MaterialsAllInclusiveMd [14x14/16z] bKt50G0n30fG8_llUwxFnXLYGe1FhdRVChfTetQYjg0hs6ioDf6rHMRoQexkk3IZ7PS_b3_3XAm
+
 !function MaterialsAllInclusive($id, $name="All Inclusive", $tech="")
   CloudElement($id, 'materials/Places/MaterialsAllInclusive', $name, $tech)
 !endfunction
 !function MaterialsAllInclusiveCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAllInclusiveLg>', 'All Inclusive', $funcName, $content)
+  CloudCard($id, '<$MaterialsAllInclusiveMd>', 'All Inclusive', $funcName, $content)
 !endfunction
 @enduml

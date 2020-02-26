@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpAutomlVideoIntelligence
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAutomlVideoIntelligence element
 include('elements/gcp/AiAndMachineLearning/GcpAutomlVideoIntelligence')
@@ -34,8 +34,8 @@ GcpAutomlVideoIntelligence('element', 'Automl Video Intelligence', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAutomlVideoIntelligence element
 include('elements/gcp/AiAndMachineLearning/GcpAutomlVideoIntelligence')
@@ -53,7 +53,7 @@ GcpAutomlVideoIntelligence('element', 'Automl Video Intelligence', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAutomlVideoIntelligence card
@@ -71,7 +71,7 @@ GcpAutomlVideoIntelligenceCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAutomlVideoIntelligence card

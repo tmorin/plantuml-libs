@@ -16,8 +16,8 @@ elements/azure/AnalyticsServiceColor/AzureHdinsightclusters
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureHdinsightclusters element
 include('elements/azure/AnalyticsServiceColor/AzureHdinsightclusters')
@@ -34,8 +34,8 @@ AzureHdinsightclusters('element', 'Hdinsightclusters', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureHdinsightclusters element
 include('elements/azure/AnalyticsServiceColor/AzureHdinsightclusters')
@@ -53,8 +53,8 @@ AzureHdinsightclusters('element', 'Hdinsightclusters', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureHdinsightclusters card
 include('elements/azure/AnalyticsServiceColor/AzureHdinsightclusters')
@@ -71,8 +71,8 @@ AzureHdinsightclustersCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureHdinsightclusters card
 include('elements/azure/AnalyticsServiceColor/AzureHdinsightclusters')

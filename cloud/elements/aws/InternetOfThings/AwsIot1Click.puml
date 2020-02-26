@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsIot1ClickLg [20x20/16z] {
-RSm7RWG020F156oy_F_14JhIRzM7mfQVTVC4UO90f3nGEiEsWCIIpreo2N5Ldz6Mrxrq1b8Y7MKU5eZbiqMRBTBP4C5XpWRTerOuezybbLJch5M1DgJKP4qM
-an9GAbYBUiPUSncOAsg0yCE6w-olpXFy
+hOv75W9024Cj_92v_u4j83xscaqAzVm62xUI9fDIBI0_MO9Q13uJYch9YWPWG-peu3er9_Qz5PhTFp9TIDRi7GW8JP9ryFstlmyYwj-MqvTl5o-fsE-OFF_0
+4m
 }
+
+sprite $AwsIot1ClickMd [14x14/16z] VOst0G0W408h3jn_OBEMVyr7e9M4h8Bt1AoTk3U1e_Lndv2_yAidvEyc5l1UFIliCa7R_aUSwCnQCG
 
 !function AwsIot1Click($id, $name="Iot1 Click", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIot1Click', $name, $tech)
 !endfunction
 !function AwsIot1ClickCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIot1ClickLg>', 'Iot1 Click', $funcName, $content)
+  CloudCard($id, '<$AwsIot1ClickMd>', 'Iot1 Click', $funcName, $content)
 !endfunction
 @enduml

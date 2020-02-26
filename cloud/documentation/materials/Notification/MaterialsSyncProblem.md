@@ -16,8 +16,8 @@ elements/materials/Notification/MaterialsSyncProblem
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSyncProblem element
 include('elements/materials/Notification/MaterialsSyncProblem')
@@ -34,8 +34,8 @@ MaterialsSyncProblem('element', 'Sync Problem', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSyncProblem element
 include('elements/materials/Notification/MaterialsSyncProblem')
@@ -53,8 +53,8 @@ MaterialsSyncProblem('element', 'Sync Problem', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSyncProblem card
 include('elements/materials/Notification/MaterialsSyncProblem')
@@ -71,8 +71,8 @@ MaterialsSyncProblemCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsSyncProblem card
 include('elements/materials/Notification/MaterialsSyncProblem')

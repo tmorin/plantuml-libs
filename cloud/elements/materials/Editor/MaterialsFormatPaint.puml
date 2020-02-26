@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatPaintLg [20x20/16z] nT2r0SCm441HCHtjFsrY5FV-vMiEr3vjQlerp_J4gPhKC7Wp6u6usRB5sun_2zQ0MtVep8IxoCsS29Khsrkg2pUBwWEp947DjN_k-mC
 
+sprite $MaterialsFormatPaintMd [14x14/16z] fScr0OC040NGSqk0_QV57JfUzGLks1SqD-qMeNXkDRraEgCWcE5aR_QlY4nSMwUm-DB46LuC
+
 !function MaterialsFormatPaint($id, $name="Format Paint", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatPaint', $name, $tech)
 !endfunction
 !function MaterialsFormatPaintCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatPaintLg>', 'Format Paint', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatPaintMd>', 'Format Paint', $funcName, $content)
 !endfunction
 @enduml

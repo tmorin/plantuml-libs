@@ -16,7 +16,7 @@ elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamStsAlte
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamStsAlternate element
@@ -34,7 +34,7 @@ AwsIdentityAndAccessManagementIamStsAlternate('element', 'Identity And Access Ma
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamStsAlternate element
@@ -53,8 +53,8 @@ AwsIdentityAndAccessManagementIamStsAlternate('element', 'Identity And Access Ma
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamStsAlternate card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamStsAlternate')
@@ -71,8 +71,8 @@ AwsIdentityAndAccessManagementIamStsAlternateCard('card', 'an optional functiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsIdentityAndAccessManagementIamStsAlternate card
 include('elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamStsAlternate')

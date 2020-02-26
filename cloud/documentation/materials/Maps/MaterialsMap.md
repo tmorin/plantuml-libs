@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsMap
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMap element
 include('elements/materials/Maps/MaterialsMap')
@@ -34,8 +34,8 @@ MaterialsMap('element', 'Map', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMap element
 include('elements/materials/Maps/MaterialsMap')
@@ -53,8 +53,8 @@ MaterialsMap('element', 'Map', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMap card
 include('elements/materials/Maps/MaterialsMap')
@@ -71,8 +71,8 @@ MaterialsMapCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsMap card
 include('elements/materials/Maps/MaterialsMap')

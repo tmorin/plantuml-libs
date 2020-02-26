@@ -4,10 +4,12 @@ ZL250GGX38ko_yPdlEi5hRV11X6-NHT4BEpZcXfdj2ETLtpnUe02o2KUm5gVT62UTI7SiUieGje_emOE
 BwVdUEVWCrUVENtdVWK
 }
 
+sprite $AwsEc2C5InstanceMd [14x14/16z] NOu50e0W40GtuFzVTiHsoEkL52Tc2TpP0JoMMf-qohHEFEC-Lfs1rQHO8yRYssLvMViJB0TB0M7zkdmdVAT_bNrLRm
+
 !function AwsEc2C5Instance($id, $name="Ec2 C5 Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2C5Instance', $name, $tech)
 !endfunction
 !function AwsEc2C5InstanceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEc2C5InstanceLg>', 'Ec2 C5 Instance', $funcName, $content)
+  CloudCard($id, '<$AwsEc2C5InstanceMd>', 'Ec2 C5 Instance', $funcName, $content)
 !endfunction
 @enduml

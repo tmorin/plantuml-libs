@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsCodestarLg [20x20/16z] {
-RSwt5KCn34FHHaJI_lkQ_Zcz2kTMIEThalA1-S1iMOKTLn4C0ZfDDSgi6ZWD16F99dTZbH8lWvl5jWmPtMf60WYWQwXjjWsO2yQrs9pi8jXnose2cFLJCQj5
-Igo483RhE0fCZLAocmaXt9xDjG3Etjpnqlp0-O4_
+hSYtWGH130GnPzYYc7-yBq_R2nDSeT9764Kk3zKCrXplunHxII7X9ZDTO2qziYMusF9j158aezFR7H4hygBRsJOLfUKcaXVOZlB8GCFQ4ToipyZCg3pKYd1v
+8vKhV0C
 }
+
+sprite $AwsCodestarMd [14x14/16z] XOot0G0n20Chk0FlF-_duCvgGB6NA9nU2SVDCcsh7bSElu4hQ6DYU5cXI5i7kIB7ywpU2oOt6mP2zGEFTuaT
 
 !function AwsCodestar($id, $name="Codestar", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodestar', $name, $tech)
 !endfunction
 !function AwsCodestarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCodestarLg>', 'Codestar', $funcName, $content)
+  CloudCard($id, '<$AwsCodestarMd>', 'Codestar', $funcName, $content)
 !endfunction
 @enduml

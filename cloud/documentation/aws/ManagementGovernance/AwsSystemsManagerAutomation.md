@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsSystemsManagerAutomation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerAutomation element
@@ -34,7 +34,7 @@ AwsSystemsManagerAutomation('element', 'Systems Manager Automation', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerAutomation element
@@ -53,8 +53,8 @@ AwsSystemsManagerAutomation('element', 'Systems Manager Automation', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerAutomation card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerAutomation')
@@ -71,8 +71,8 @@ AwsSystemsManagerAutomationCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerAutomation card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerAutomation')

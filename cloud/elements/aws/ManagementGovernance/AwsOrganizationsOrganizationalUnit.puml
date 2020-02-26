@@ -4,10 +4,12 @@ VP050e1020I5NKR__s6xQ_IAXkQ5o0THr8rHeBkdVcG6Zx4LXymLWRA5s6MLwxLqoCRDDjaUCdVGIOp4
 ob-_RxDwcsdpmW
 }
 
+sprite $AwsOrganizationsOrganizationalUnitMd [14x14/16z] LStN0GCm20DH97FUV-I8TCxrVL6hNg7w9iZjThxvZ4JOd9TyAZ1ltRu7haR2DYwr85TLlcv6UCBIwBogn9xUgrez
+
 !function AwsOrganizationsOrganizationalUnit($id, $name="Organizations Organizational Unit", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOrganizationsOrganizationalUnit', $name, $tech)
 !endfunction
 !function AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOrganizationsOrganizationalUnitLg>', 'Organizations Organizational Unit', $funcName, $content)
+  CloudCard($id, '<$AwsOrganizationsOrganizationalUnitMd>', 'Organizations Organizational Unit', $funcName, $content)
 !endfunction
 @enduml

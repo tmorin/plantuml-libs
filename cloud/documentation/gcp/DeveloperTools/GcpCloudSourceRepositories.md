@@ -16,8 +16,8 @@ elements/gcp/DeveloperTools/GcpCloudSourceRepositories
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSourceRepositories element
 include('elements/gcp/DeveloperTools/GcpCloudSourceRepositories')
@@ -34,8 +34,8 @@ GcpCloudSourceRepositories('element', 'Cloud Source Repositories', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudSourceRepositories element
 include('elements/gcp/DeveloperTools/GcpCloudSourceRepositories')
@@ -53,7 +53,7 @@ GcpCloudSourceRepositories('element', 'Cloud Source Repositories', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSourceRepositories card
@@ -71,7 +71,7 @@ GcpCloudSourceRepositoriesCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudSourceRepositories card

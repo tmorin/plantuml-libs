@@ -4,10 +4,12 @@ ZT3L0G8n301GwjxilorHd9E_UutVVduv_B11w6lr7-WQG7zDI8Xn0ipqD3-cu2xE2FCq4feKfL8lw2pE
 6P4VOJvNSMLbv_8gihkjDskbrTumT3b1Rkw9pjbabxyx
 }
 
+sprite $MaterialsLayersClearMd [14x14/16z] VKxL0O0W4BqkQ_zfRO4loQiNW30kjklXBrK3cXVzKZFKTVC7mhdTQV7TshOdjGSut-c39EIwKg1xqf4YpF1HaMH4dkqpaAh9-gNebveA_Aq3
+
 !function MaterialsLayersClear($id, $name="Layers Clear", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLayersClear', $name, $tech)
 !endfunction
 !function MaterialsLayersClearCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLayersClearLg>', 'Layers Clear', $funcName, $content)
+  CloudCard($id, '<$MaterialsLayersClearMd>', 'Layers Clear', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ TL090WCW29eXsFzVF7JtrkWcAFNo3mWimykJ2e5f48exHQhRJEHDvUK5jXBIEoV1Cj1JxrPB2C-WXbke
 sGQE5nmvVPw7U8i5GYf2wSqj5id-z2xIFWc7t0urEDJgNDCphW
 }
 
+sprite $AwsIotBicycleMd [14x14/16z] LOw50G0114Mr_JS-p_NNJO325pmMla4ys8fSe3ef7TRB6wd8858otf5bU18vRdKdTHsb5k7hKFCm2wV61UCNuyB_-l-p_zS7
+
 !function AwsIotBicycle($id, $name="Iot Bicycle", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotBicycle', $name, $tech)
 !endfunction
 !function AwsIotBicycleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotBicycleLg>', 'Iot Bicycle', $funcName, $content)
+  CloudCard($id, '<$AwsIotBicycleMd>', 'Iot Bicycle', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsFormatTextdirectionLToRLg [20x20/16z] fSq54a0X24LHdjtiVxM_k-EEKqS5EWsYRq4wvgw0YMHXpafbitXdc3a1IT6npNz7M-qeEoEOlP7wOL2Depsxd1jHEzld4e-uj_tVTGhqeXe
 
+sprite $MaterialsFormatTextdirectionLToRMd [14x14/16z] POor0G0X40Hnb_whVGNE9bjL7EtZWrygpkbzCYigSreRrCw8qhukjLAY0b7E6AVtwOT9vXCnlUIPPBPP0d43
+
 !function MaterialsFormatTextdirectionLToR($id, $name="Format Textdirection L To R", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatTextdirectionLToR', $name, $tech)
 !endfunction
 !function MaterialsFormatTextdirectionLToRCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFormatTextdirectionLToRLg>', 'Format Textdirection L To R', $funcName, $content)
+  CloudCard($id, '<$MaterialsFormatTextdirectionLToRMd>', 'Format Textdirection L To R', $funcName, $content)
 !endfunction
 @enduml

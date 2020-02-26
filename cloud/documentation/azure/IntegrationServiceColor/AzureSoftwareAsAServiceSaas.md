@@ -16,8 +16,8 @@ elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSoftwareAsAServiceSaas element
 include('elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas')
@@ -34,8 +34,8 @@ AzureSoftwareAsAServiceSaas('element', 'Software As A Service Saas', 'an optiona
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSoftwareAsAServiceSaas element
 include('elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas')
@@ -53,8 +53,8 @@ AzureSoftwareAsAServiceSaas('element', 'Software As A Service Saas', 'an optiona
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSoftwareAsAServiceSaas card
 include('elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas')
@@ -71,8 +71,8 @@ AzureSoftwareAsAServiceSaasCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSoftwareAsAServiceSaas card
 include('elements/azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas')

@@ -4,10 +4,12 @@ hSo5aSGm30NGRn3h9lrN6-OCtpwp1VYNGiGdeeA5366-iXW4gvfSTfmL6uwojt4-EmO_WYlQIceIJiNM
 lp01
 }
 
+sprite $MaterialsDetailsMd [14x14/16z] XSY53G0X30NGNszW_tqlEB7ZrOjVwfEsowfsrTf5oMrm4XgDraCnf02IcDhMFfEhEZOkXN6OuKA4fmy
+
 !function MaterialsDetails($id, $name="Details", $tech="")
   CloudElement($id, 'materials/Image/MaterialsDetails', $name, $tech)
 !endfunction
 !function MaterialsDetailsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDetailsLg>', 'Details', $funcName, $content)
+  CloudCard($id, '<$MaterialsDetailsMd>', 'Details', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatStrikethrough
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatStrikethrough element
 include('elements/materials/Editor/MaterialsFormatStrikethrough')
@@ -34,8 +34,8 @@ MaterialsFormatStrikethrough('element', 'Format Strikethrough', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatStrikethrough element
 include('elements/materials/Editor/MaterialsFormatStrikethrough')
@@ -53,8 +53,8 @@ MaterialsFormatStrikethrough('element', 'Format Strikethrough', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatStrikethrough card
 include('elements/materials/Editor/MaterialsFormatStrikethrough')
@@ -71,8 +71,8 @@ MaterialsFormatStrikethroughCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatStrikethrough card
 include('elements/materials/Editor/MaterialsFormatStrikethrough')

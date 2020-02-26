@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsHdrStrongLg [20x20/16z] lOwr0G0W30HZkEs_BLf-pI5neR-8ZodequLfeNaicbigXzQJBfd7eI_T5zEOcMmy8d5PoLALmdXaHZvGYsQ0NT3EVvW
 
+sprite $MaterialsHdrStrongMd [14x14/16z] bKsr0S0m38kntFn_hM7KQ6PfZOL4g3Dp1NtslglmyxB5rUnzaPn45-bk-GGxl0GKP1X80W
+
 !function MaterialsHdrStrong($id, $name="Hdr Strong", $tech="")
   CloudElement($id, 'materials/Image/MaterialsHdrStrong', $name, $tech)
 !endfunction
 !function MaterialsHdrStrongCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHdrStrongLg>', 'Hdr Strong', $funcName, $content)
+  CloudCard($id, '<$MaterialsHdrStrongMd>', 'Hdr Strong', $funcName, $content)
 !endfunction
 @enduml

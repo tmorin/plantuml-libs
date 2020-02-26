@@ -4,10 +4,12 @@ fOw50GCn24M3nu3zfwsxz-v5yLzM0oJ2i7klBce-kWz6WujhL090zTdEFcZryCMP5nyv7Lmjufg7fsV7
 K5ip1esByyeR9pyx6ShFR04
 }
 
+sprite $MaterialsFindReplaceMd [14x14/16z] XKk35KDH38rLxJ_jr-DXurp0dq1HGS3sS9fOk3GcwPhnQn_BFTovsxO9Kd5BZPvFVtRFx9o6MqHnDo0B0VUt1oVjRtzMd
+
 !function MaterialsFindReplace($id, $name="Find Replace", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFindReplace', $name, $tech)
 !endfunction
 !function MaterialsFindReplaceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFindReplaceLg>', 'Find Replace', $funcName, $content)
+  CloudCard($id, '<$MaterialsFindReplaceMd>', 'Find Replace', $funcName, $content)
 !endfunction
 @enduml

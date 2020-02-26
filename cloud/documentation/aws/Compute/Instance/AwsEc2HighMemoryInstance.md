@@ -16,7 +16,7 @@ elements/aws/Compute/Instance/AwsEc2HighMemoryInstance
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2HighMemoryInstance element
@@ -34,7 +34,7 @@ AwsEc2HighMemoryInstance('element', 'Ec2 High Memory Instance', 'an optional tec
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2HighMemoryInstance element
@@ -53,8 +53,8 @@ AwsEc2HighMemoryInstance('element', 'Ec2 High Memory Instance', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2HighMemoryInstance card
 include('elements/aws/Compute/Instance/AwsEc2HighMemoryInstance')
@@ -71,8 +71,8 @@ AwsEc2HighMemoryInstanceCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2HighMemoryInstance card
 include('elements/aws/Compute/Instance/AwsEc2HighMemoryInstance')

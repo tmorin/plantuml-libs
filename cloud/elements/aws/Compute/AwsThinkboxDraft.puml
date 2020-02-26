@@ -4,10 +4,12 @@ bP05ZW1H34Aply3Z_XTU7u_DYpLrw4j87hci9Su976oFESOqhbsa_6UzOjUJDX_-pmcvbXHcoxaIm2px
 0Sdy_toeTR9fsq271mT9t_85
 }
 
+sprite $AwsThinkboxDraftMd [14x14/16z] RSwt0K814CDGWcMn_yB0pz7LlKhtkPdkxxmxsyPI9XFQQ1XLAe59Kf0m2wWwYjGcT5Gqw9kfrdSjksBg_MVRVW
+
 !function AwsThinkboxDraft($id, $name="Thinkbox Draft", $tech="")
   CloudElement($id, 'aws/Compute/AwsThinkboxDraft', $name, $tech)
 !endfunction
 !function AwsThinkboxDraftCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsThinkboxDraftLg>', 'Thinkbox Draft', $funcName, $content)
+  CloudCard($id, '<$AwsThinkboxDraftMd>', 'Thinkbox Draft', $funcName, $content)
 !endfunction
 @enduml

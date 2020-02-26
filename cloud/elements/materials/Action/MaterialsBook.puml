@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBookLg [20x20/16z] lP150e0m30GXrVZ_Nukx767Qs1otUG4EB2gmhXY7sIKE005z8iqkOplqygsZK33KaqkkxgeND_Et2soth6wPFj43
 
+sprite $MaterialsBookMd [14x14/16z] Oq03JEnGm0JYiR8nCR7p0m4hYCV60XGXZiVAmi86vx7oyVFn8dWW5eayD9UX0G
+
 !function MaterialsBook($id, $name="Book", $tech="")
   CloudElement($id, 'materials/Action/MaterialsBook', $name, $tech)
 !endfunction
 !function MaterialsBookCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBookLg>', 'Book', $funcName, $content)
+  CloudCard($id, '<$MaterialsBookMd>', 'Book', $funcName, $content)
 !endfunction
 @enduml

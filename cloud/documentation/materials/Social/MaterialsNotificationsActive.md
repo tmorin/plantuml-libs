@@ -16,8 +16,8 @@ elements/materials/Social/MaterialsNotificationsActive
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsActive element
 include('elements/materials/Social/MaterialsNotificationsActive')
@@ -34,8 +34,8 @@ MaterialsNotificationsActive('element', 'Notifications Active', 'an optional tec
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsActive element
 include('elements/materials/Social/MaterialsNotificationsActive')
@@ -53,8 +53,8 @@ MaterialsNotificationsActive('element', 'Notifications Active', 'an optional tec
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsActive card
 include('elements/materials/Social/MaterialsNotificationsActive')
@@ -71,8 +71,8 @@ MaterialsNotificationsActiveCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsNotificationsActive card
 include('elements/materials/Social/MaterialsNotificationsActive')

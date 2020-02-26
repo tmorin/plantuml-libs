@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsKeyboardVoice
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardVoice element
 include('elements/materials/Hardware/MaterialsKeyboardVoice')
@@ -34,8 +34,8 @@ MaterialsKeyboardVoice('element', 'Keyboard Voice', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardVoice element
 include('elements/materials/Hardware/MaterialsKeyboardVoice')
@@ -53,8 +53,8 @@ MaterialsKeyboardVoice('element', 'Keyboard Voice', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardVoice card
 include('elements/materials/Hardware/MaterialsKeyboardVoice')
@@ -71,8 +71,8 @@ MaterialsKeyboardVoiceCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsKeyboardVoice card
 include('elements/materials/Hardware/MaterialsKeyboardVoice')

@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsBraketLg [20x20/16z] fSwt0S0W50FHukiazb_OcLJxAdZ4zhjycGp3O8YXa-jDmqBvEohbCrSVgHyDtQpizXnbEnjKbBlnc28Ncxd4Of63iESRjdNr_Bbz0I8Oqdfv9hbg_pi1
+sprite $AwsBraketLg [20x20/16z] {
+RSm73W0X24JHHEOFtl_4Qzt-OzeJo94VvG_c3pu5SPf0I21jeqGPRridrcg4jyK-6tmC-MLzLTiyJ17CtRhd71PbMbr6I6wMpHewQ0IUXxlPLYjQPAyP89AM
+Srj2FggpFwiF-y43
+}
+
+sprite $AwsBraketMd [14x14/16z] LSc54SGm50FH0y7ll-8ePk_WctNIoXStm2xy4uWcW0b_Tj69q9A4Gq1JsP05igbC2Y1eHsmZI5MYF8hIhSK7
 
 !function AwsBraket($id, $name="Braket", $tech="")
   CloudElement($id, 'aws/QuantumTechnologies/AwsBraket', $name, $tech)
 !endfunction
 !function AwsBraketCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsBraketLg>', 'Braket', $funcName, $content)
+  CloudCard($id, '<$AwsBraketMd>', 'Braket', $funcName, $content)
 !endfunction
 @enduml

@@ -3,7 +3,7 @@
 ![simple](examples/simple.png)
 ```plantuml
 @startuml simple
-'!global $LIB_BRANCH="feat/perso/add-library"
+'!global $LIB_BRANCH="master"
 '!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/perso"
 '!includeurl $LIB_BASE_LOCATION/library.puml
 

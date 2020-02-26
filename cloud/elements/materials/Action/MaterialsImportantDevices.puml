@@ -4,10 +4,12 @@ RSm54iKW34NH5yN9_bTRORwsFLKkG_24BmX8VVpBX4ZynmOZx3Bgjz6ziLqRQwegE93Igv7Fo8oNrrbk
 Z2gl1j016f49UBM5FQ88mOLPyafKnqdXy_WqBBmGQ7tnO0S
 }
 
+sprite $MaterialsImportantDevicesMd [14x14/16z] LOx50S1020HnYFVVRSvbViWARAXF66wXZZfS21tgaomJsgMOHgmtlINTLQLCX9GUL6Eu8AVpvPPGupAH98ulg4p5EZv7L2BhxGJCtM3Z1m
+
 !function MaterialsImportantDevices($id, $name="Important Devices", $tech="")
   CloudElement($id, 'materials/Action/MaterialsImportantDevices', $name, $tech)
 !endfunction
 !function MaterialsImportantDevicesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsImportantDevicesLg>', 'Important Devices', $funcName, $content)
+  CloudCard($id, '<$MaterialsImportantDevicesMd>', 'Important Devices', $funcName, $content)
 !endfunction
 @enduml

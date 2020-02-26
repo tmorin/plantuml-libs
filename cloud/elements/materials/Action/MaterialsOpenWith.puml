@@ -4,10 +4,12 @@ VL254GGn48gnyT1_jUzomXmZwmBk2i0vjHPEAVAGZ7MGewPTqXjfVjlr72RnSPz0VJI4bCAZlUApVfY5
 umu
 }
 
+sprite $MaterialsOpenWithMd [14x14/16z] NOx50S1G5C88TTz_slhNd9u2UW4b60QovZXIwsxRElyRYsL1vZthm8PkuFdP5ajUjcEWx8hBIYKvrEvriZBr1G
+
 !function MaterialsOpenWith($id, $name="Open With", $tech="")
   CloudElement($id, 'materials/Action/MaterialsOpenWith', $name, $tech)
 !endfunction
 !function MaterialsOpenWithCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsOpenWithLg>', 'Open With', $funcName, $content)
+  CloudCard($id, '<$MaterialsOpenWithMd>', 'Open With', $funcName, $content)
 !endfunction
 @enduml

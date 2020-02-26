@@ -16,7 +16,7 @@ elements/aws/Database/AwsRedshiftDenseStorageNode
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRedshiftDenseStorageNode element
@@ -34,7 +34,7 @@ AwsRedshiftDenseStorageNode('element', 'Redshift Dense Storage Node', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsRedshiftDenseStorageNode element
@@ -53,8 +53,8 @@ AwsRedshiftDenseStorageNode('element', 'Redshift Dense Storage Node', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRedshiftDenseStorageNode card
 include('elements/aws/Database/AwsRedshiftDenseStorageNode')
@@ -71,8 +71,8 @@ AwsRedshiftDenseStorageNodeCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsRedshiftDenseStorageNode card
 include('elements/aws/Database/AwsRedshiftDenseStorageNode')

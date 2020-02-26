@@ -4,10 +4,12 @@ TP455WGX34DhIRd_XTSgwndbaqTDxi9PGKP-NkGDDLzfQj6erUp50re-eCMOxHagrLy3UdOKCDhiehn_
 PC6ALYQAM9k3cuEzDimx6hlYTbjRfpkl-U1V9x-x7jBwdj0L
 }
 
+sprite $GcpTrafficDirectorMd [16x14/16z] LOu54aGX34C3lFno_nFlLDOoKer8Ed4BSPHOpnqyAsVor3iaxVpcD6DBpiQuFfnYSJ3K7AaTPWFDQ2zWutue9x2BAjTiHa-h6SVZfnyX_lF6KY8bcoFf1G
+
 !function GcpTrafficDirector($id, $name="Traffic Director", $tech="")
   CloudElement($id, 'gcp/Networking/GcpTrafficDirector', $name, $tech)
 !endfunction
 !function GcpTrafficDirectorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpTrafficDirectorLg>', 'Traffic Director', $funcName, $content)
+  CloudCard($id, '<$GcpTrafficDirectorMd>', 'Traffic Director', $funcName, $content)
 !endfunction
 @enduml

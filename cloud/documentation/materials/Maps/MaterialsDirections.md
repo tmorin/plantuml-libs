@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsDirections
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirections element
 include('elements/materials/Maps/MaterialsDirections')
@@ -34,8 +34,8 @@ MaterialsDirections('element', 'Directions', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirections element
 include('elements/materials/Maps/MaterialsDirections')
@@ -53,8 +53,8 @@ MaterialsDirections('element', 'Directions', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirections card
 include('elements/materials/Maps/MaterialsDirections')
@@ -71,8 +71,8 @@ MaterialsDirectionsCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDirections card
 include('elements/materials/Maps/MaterialsDirections')

@@ -16,8 +16,8 @@ elements/gcp/Networking/GcpDedicatedInterconnect
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpDedicatedInterconnect element
 include('elements/gcp/Networking/GcpDedicatedInterconnect')
@@ -34,8 +34,8 @@ GcpDedicatedInterconnect('element', 'Dedicated Interconnect', 'an optional tech 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpDedicatedInterconnect element
 include('elements/gcp/Networking/GcpDedicatedInterconnect')
@@ -53,7 +53,7 @@ GcpDedicatedInterconnect('element', 'Dedicated Interconnect', 'an optional tech 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpDedicatedInterconnect card
@@ -71,7 +71,7 @@ GcpDedicatedInterconnectCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpDedicatedInterconnect card

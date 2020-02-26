@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsPagesLg [20x20/16z] ZL254SGm33CzLdVPVzfomwIWsHRDGso74kdnogM2sm7cwpsLvcATirk77muT_WYwFykHJ-GVT5UIA_Mb0w2NJW6SEcBcItLzwxeojgnHxwNUSpbRdOEIgtbi
 
+sprite $MaterialsPagesMd [14x14/16z] NKw53G1124CYBzUm_xHOj8SxbOlKp4JQw2Gl0FSsRwU6EE4U2Cp8T5IdkrcuDFdsf3kJTLSuuqc-mX_uEoExg
+
 !function MaterialsPages($id, $name="Pages", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPages', $name, $tech)
 !endfunction
 !function MaterialsPagesCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPagesLg>', 'Pages', $funcName, $content)
+  CloudCard($id, '<$MaterialsPagesMd>', 'Pages', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpAiPlatform
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAiPlatform element
 include('elements/gcp/AiAndMachineLearning/GcpAiPlatform')
@@ -34,8 +34,8 @@ GcpAiPlatform('element', 'Ai Platform', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpAiPlatform element
 include('elements/gcp/AiAndMachineLearning/GcpAiPlatform')
@@ -53,7 +53,7 @@ GcpAiPlatform('element', 'Ai Platform', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAiPlatform card
@@ -71,7 +71,7 @@ GcpAiPlatformCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpAiPlatform card

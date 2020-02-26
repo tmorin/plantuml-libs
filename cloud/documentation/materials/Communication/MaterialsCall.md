@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsCall
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCall element
 include('elements/materials/Communication/MaterialsCall')
@@ -34,8 +34,8 @@ MaterialsCall('element', 'Call', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCall element
 include('elements/materials/Communication/MaterialsCall')
@@ -53,8 +53,8 @@ MaterialsCall('element', 'Call', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCall card
 include('elements/materials/Communication/MaterialsCall')
@@ -71,8 +71,8 @@ MaterialsCallCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCall card
 include('elements/materials/Communication/MaterialsCall')

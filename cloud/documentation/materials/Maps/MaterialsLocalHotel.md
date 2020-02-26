@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsLocalHotel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalHotel element
 include('elements/materials/Maps/MaterialsLocalHotel')
@@ -34,8 +34,8 @@ MaterialsLocalHotel('element', 'Local Hotel', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalHotel element
 include('elements/materials/Maps/MaterialsLocalHotel')
@@ -53,8 +53,8 @@ MaterialsLocalHotel('element', 'Local Hotel', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalHotel card
 include('elements/materials/Maps/MaterialsLocalHotel')
@@ -71,8 +71,8 @@ MaterialsLocalHotelCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsLocalHotel card
 include('elements/materials/Maps/MaterialsLocalHotel')

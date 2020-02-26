@@ -16,8 +16,8 @@ elements/azure/MixedRealityServiceIcon/AzureSpatialAnchor
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSpatialAnchor element
 include('elements/azure/MixedRealityServiceIcon/AzureSpatialAnchor')
@@ -34,8 +34,8 @@ AzureSpatialAnchor('element', 'Spatial Anchor', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSpatialAnchor element
 include('elements/azure/MixedRealityServiceIcon/AzureSpatialAnchor')
@@ -53,8 +53,8 @@ AzureSpatialAnchor('element', 'Spatial Anchor', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSpatialAnchor card
 include('elements/azure/MixedRealityServiceIcon/AzureSpatialAnchor')
@@ -71,8 +71,8 @@ AzureSpatialAnchorCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSpatialAnchor card
 include('elements/azure/MixedRealityServiceIcon/AzureSpatialAnchor')

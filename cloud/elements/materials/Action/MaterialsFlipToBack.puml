@@ -4,10 +4,12 @@ bOy55iGm44AXJ1kz_tNNcNNxCTwFuoz8IA201QO4Ie4wMLCI8C-3XHESZZjwM9rJ34AvKBIxvU9OvBtd
 0G
 }
 
+sprite $MaterialsFlipToBackMd [14x14/16z] ROs50GGW4CCQdFq7Vi4jw5ch1w3_AZYinUDgYCP3mDVm_vWqQ_y8MqFB7OdkK2BR74f4S_z3JeMW0gQ0Bhu
+
 !function MaterialsFlipToBack($id, $name="Flip To Back", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFlipToBack', $name, $tech)
 !endfunction
 !function MaterialsFlipToBackCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFlipToBackLg>', 'Flip To Back', $funcName, $content)
+  CloudCard($id, '<$MaterialsFlipToBackMd>', 'Flip To Back', $funcName, $content)
 !endfunction
 @enduml

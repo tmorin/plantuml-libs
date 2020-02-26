@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsIotGreengrassLg [20x20/16z] {
-hOxN5SCm30DJ1EAm_y3kDf--arDbH_v4YJRiurPLktGcw3jetpWIAIit-4Y4o6dlxgJYoko4eCnEgdrSJXFhbYfs_5LkXQfliI-PMo0rVFr6Iq4odD8RIqD5
-VcO5
+RSy5eWGX38FX9qt_XliVUEcEIqQ03tUdpW6_e5_G9rHm6DH4GjeD1Jqq_eEJvRVCr6Okbe6Kc3QyQ2Dfr7R2OXPj9oGFgmK5HekbL9vL_cMb5yl8waSGjPWp
+yDXtzxHMYUM-xem5qKoMTrluo3Xos0j-
 }
+
+sprite $AwsIotGreengrassMd [14x14/16z] LSc90OH034BHNJKGfl-2_TxAd2-4z1NdmnrGTKg2jUZKuiGgxuf5QLCEbERZBdJIfwnEN6hjAXxRSb3sia4o21QJKvYSUda5
 
 !function AwsIotGreengrass($id, $name="Iot Greengrass", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotGreengrass', $name, $tech)
 !endfunction
 !function AwsIotGreengrassCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotGreengrassLg>', 'Iot Greengrass', $funcName, $content)
+  CloudCard($id, '<$AwsIotGreengrassMd>', 'Iot Greengrass', $funcName, $content)
 !endfunction
 @enduml

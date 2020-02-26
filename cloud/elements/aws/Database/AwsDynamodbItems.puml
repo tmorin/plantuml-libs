@@ -4,10 +4,12 @@ RP250SKm24I14_QV-Bksz-B1QRpexuth1_kSzqMn7emzXTqfwkzlXph-oSRzp-0Do1Qu9gpH2q0l1k-u
 fwdtLm
 }
 
+sprite $AwsDynamodbItemsMd [14x14/16z] LOxP0SHG20AVoh3zTxov4-R7MnZjp1MOth1RlwsWrWOif8Akgjw2F8qCM5lm5a0IEuRtJaoHLMxcbrH8zNIMhly
+
 !function AwsDynamodbItems($id, $name="Dynamodb Items", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbItems', $name, $tech)
 !endfunction
 !function AwsDynamodbItemsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDynamodbItemsLg>', 'Dynamodb Items', $funcName, $content)
+  CloudCard($id, '<$AwsDynamodbItemsMd>', 'Dynamodb Items', $funcName, $content)
 !endfunction
 @enduml

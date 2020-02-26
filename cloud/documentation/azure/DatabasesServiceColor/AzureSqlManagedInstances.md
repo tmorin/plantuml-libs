@@ -16,8 +16,8 @@ elements/azure/DatabasesServiceColor/AzureSqlManagedInstances
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSqlManagedInstances element
 include('elements/azure/DatabasesServiceColor/AzureSqlManagedInstances')
@@ -34,8 +34,8 @@ AzureSqlManagedInstances('element', 'Sql Managed Instances', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSqlManagedInstances element
 include('elements/azure/DatabasesServiceColor/AzureSqlManagedInstances')
@@ -53,8 +53,8 @@ AzureSqlManagedInstances('element', 'Sql Managed Instances', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSqlManagedInstances card
 include('elements/azure/DatabasesServiceColor/AzureSqlManagedInstances')
@@ -71,8 +71,8 @@ AzureSqlManagedInstancesCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSqlManagedInstances card
 include('elements/azure/DatabasesServiceColor/AzureSqlManagedInstances')

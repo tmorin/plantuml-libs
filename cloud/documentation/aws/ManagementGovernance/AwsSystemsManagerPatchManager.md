@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsSystemsManagerPatchManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerPatchManager element
@@ -34,7 +34,7 @@ AwsSystemsManagerPatchManager('element', 'Systems Manager Patch Manager', 'an op
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsSystemsManagerPatchManager element
@@ -53,8 +53,8 @@ AwsSystemsManagerPatchManager('element', 'Systems Manager Patch Manager', 'an op
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerPatchManager card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerPatchManager')
@@ -71,8 +71,8 @@ AwsSystemsManagerPatchManagerCard('card', 'an optional functional name', 'Molest
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsSystemsManagerPatchManager card
 include('elements/aws/ManagementGovernance/AwsSystemsManagerPatchManager')

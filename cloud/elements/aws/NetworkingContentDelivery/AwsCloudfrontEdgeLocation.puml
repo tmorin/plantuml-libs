@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsCloudfrontEdgeLocationLg [20x20/16z] hL254S0W4EiJEVPVkDwYvpYy9aaSHg8xostOki45jk0zehRHJyVQzfwLBU0t6l7O8EkpoGB9RDIvK2RLzz0CotA-CqrdsXy
 
+sprite $AwsCloudfrontEdgeLocationMd [14x14/16z] TOwr0G0130BH_KT-Txac7aWlfEA1MkA07nKzmRrof7YhM05QagPPgYLfpas_llphtPtTNOy
+
 !function AwsCloudfrontEdgeLocation($id, $name="Cloudfront Edge Location", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfrontEdgeLocation', $name, $tech)
 !endfunction
 !function AwsCloudfrontEdgeLocationCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCloudfrontEdgeLocationLg>', 'Cloudfront Edge Location', $funcName, $content)
+  CloudCard($id, '<$AwsCloudfrontEdgeLocationMd>', 'Cloudfront Edge Location', $funcName, $content)
 !endfunction
 @enduml

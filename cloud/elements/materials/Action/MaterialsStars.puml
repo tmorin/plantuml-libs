@@ -4,10 +4,12 @@ VP05iiP028CNrkWoDFS_ROKy_IrZGUU3ya6YAlyJpJp2hVscTGCeq-_Koj1mQJ4f6Q1MTkPuIx-9S4Ex
 OqVcn473SiuMkx6uxmQrRvPPT4ujaona7jq1xuFCl2rsNDeZRsFI7dxm-Al7dtxG2G
 }
 
+sprite $MaterialsStarsMd [14x14/16z] POw55O0m34Hhb-1__srvE6tZdWiT9RahtOaMjer5LmAu0qUQ5bXJMc59Hskm4aAnuMWw5e-5QFYH7VRnWl78Hj1n1OjIzEFAqHn7c4RqV0SMrSWwsW4
+
 !function MaterialsStars($id, $name="Stars", $tech="")
   CloudElement($id, 'materials/Action/MaterialsStars', $name, $tech)
 !endfunction
 !function MaterialsStarsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsStarsLg>', 'Stars', $funcName, $content)
+  CloudCard($id, '<$MaterialsStarsMd>', 'Stars', $funcName, $content)
 !endfunction
 @enduml

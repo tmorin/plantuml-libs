@@ -4,10 +4,12 @@ dSnN0iGW20JGeGGOSl_xhkdjRyV-LB14OE62An8XLYozfBWSD7dQr0QOGAhKp1PF2fGBTx2R2YDTj0S9
 Ia-25KTISTA2xX5u423alrHVeYw9EtMJOxe8ES-TDIOxIICZ8jFn0m
 }
 
+sprite $AzureDeviceHistoryMd [13x14/16z] TSUt0KGn34Enfs2HzlxxNWxLHmSWOqtmDaEE4u1oHDAgxc142Qnz9hopdAX28WjQhK22censymfBTlC9XFu1hyjCPlgRittElDEshBm3
+
 !function AzureDeviceHistory($id, $name="Device History", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceHistory', $name, $tech)
 !endfunction
 !function AzureDeviceHistoryCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDeviceHistoryLg>', 'Device History', $funcName, $content)
+  CloudCard($id, '<$AzureDeviceHistoryMd>', 'Device History', $funcName, $content)
 !endfunction
 @enduml

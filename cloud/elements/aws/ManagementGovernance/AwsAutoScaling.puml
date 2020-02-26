@@ -1,10 +1,15 @@
 @startuml
-sprite $AwsAutoScalingLg [20x20/16z] hKyt5aH122fKOBp_VNT_JhJ3ir99FGEaho9iAK1jIryDOBnvpUGoVV750B8gWO3ENGBS9gcRgrgWYsiUdiKpUpTRicVW3m
+sprite $AwsAutoScalingLg [20x20/16z] {
+RSp50GH120NH0qrzOFAFTxLjf8uFoLvivGFcwcvmCymcLZU1fatKV5aTmpqsgo1bO4hqvHyPDFU66-gc1WBzBETjU6kk9BwlgvVkaRqQINcr05rDPhhVajFs
+kXqFU3pW6m
+}
+
+sprite $AwsAutoScalingMd [14x14/16z] LOot0G8154AR7t7_UTK3BhsEk6JCYfUgUgZ9b09bjye0PgUghIOh_rIs5SdPewcNFGv1z6srcP8WtMjbg3ul-GC
 
 !function AwsAutoScaling($id, $name="Auto Scaling", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsAutoScaling', $name, $tech)
 !endfunction
 !function AwsAutoScalingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsAutoScalingLg>', 'Auto Scaling', $funcName, $content)
+  CloudCard($id, '<$AwsAutoScalingMd>', 'Auto Scaling', $funcName, $content)
 !endfunction
 @enduml

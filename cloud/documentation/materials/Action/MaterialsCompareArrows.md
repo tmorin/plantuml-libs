@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsCompareArrows
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCompareArrows element
 include('elements/materials/Action/MaterialsCompareArrows')
@@ -34,8 +34,8 @@ MaterialsCompareArrows('element', 'Compare Arrows', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCompareArrows element
 include('elements/materials/Action/MaterialsCompareArrows')
@@ -53,8 +53,8 @@ MaterialsCompareArrows('element', 'Compare Arrows', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCompareArrows card
 include('elements/materials/Action/MaterialsCompareArrows')
@@ -71,8 +71,8 @@ MaterialsCompareArrowsCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCompareArrows card
 include('elements/materials/Action/MaterialsCompareArrows')

@@ -4,10 +4,12 @@ RP1N0e0m348x0lJ-9zOCjtmf6I-bXNgfdHeyDShgNATOhRPkicpJtLCqOZq41-njCeivy-yTG_z93Bev
 2Vov-Vzj_ncSMLrjLwQIAjEVx3S
 }
 
+sprite $GcpCloudFunctionsMd [14x14/16z] JKx50G0n3AA2xB_mQOrVWW8exKC1taF-eE_i6UZFKJqlLu0nbOWEqHnLluJYvmYR9JKcdfU_wrIcVIdlnKHdG-hPphNiEJo6xjKt
+
 !function GcpCloudFunctions($id, $name="Cloud Functions", $tech="")
   CloudElement($id, 'gcp/Compute/GcpCloudFunctions', $name, $tech)
 !endfunction
 !function GcpCloudFunctionsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudFunctionsLg>', 'Cloud Functions', $funcName, $content)
+  CloudCard($id, '<$GcpCloudFunctionsMd>', 'Cloud Functions', $funcName, $content)
 !endfunction
 @enduml

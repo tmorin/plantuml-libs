@@ -4,10 +4,12 @@ POk50KCX44E97A7xBro-sqClmdnWr5ueWxn6Wa3Bi2LP6wIqQFH4o-RY6HbeuCJ2qboYITj0Ercq6ryD
 KhvTZ4StPLUUNSeM4jqqO-8m9vsLIV4F
 }
 
+sprite $AwsRdsPostgresqlInstanceMd [14x14/16z] NOg50SCm30JxsEo_S1Xz1kd1UU7YTu3rfDODKt2T9jV1P6-TzLtjuCvM5D6zL29vkXL9v9FzRwLlvY5ZdODzUW4
+
 !function AwsRdsPostgresqlInstance($id, $name="Rds Postgresql Instance", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsPostgresqlInstance', $name, $tech)
 !endfunction
 !function AwsRdsPostgresqlInstanceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsPostgresqlInstanceLg>', 'Rds Postgresql Instance', $funcName, $content)
+  CloudCard($id, '<$AwsRdsPostgresqlInstanceMd>', 'Rds Postgresql Instance', $funcName, $content)
 !endfunction
 @enduml

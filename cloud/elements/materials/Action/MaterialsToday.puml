@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTodayLg [20x20/16z] dT054aCn24NHE4nvVzZ_Qcj8NM_yZAUSghN4cV6qSt986yBZ7CjeHj2hSCQXDusNjj7CQ3EJMh8gONMkDUzDL7T_MkbZz7kpFXXwpJhErW390F-OSPNHTnq
 
+sprite $MaterialsTodayMd [14x14/16z] NSV70GCn30Cmqhrx_sqZATVn0m0w24Sefkn4JjJKjQPOgqhTt8VfP2r5avgkW2H4iJ6FybZPzR6OupsOSuIXZhKSAY5r1-BZ1m
+
 !function MaterialsToday($id, $name="Today", $tech="")
   CloudElement($id, 'materials/Action/MaterialsToday', $name, $tech)
 !endfunction
 !function MaterialsTodayCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTodayLg>', 'Today', $funcName, $content)
+  CloudCard($id, '<$MaterialsTodayMd>', 'Today', $funcName, $content)
 !endfunction
 @enduml

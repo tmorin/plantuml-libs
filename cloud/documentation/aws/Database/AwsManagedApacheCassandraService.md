@@ -16,7 +16,7 @@ elements/aws/Database/AwsManagedApacheCassandraService
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedApacheCassandraService element
@@ -34,7 +34,7 @@ AwsManagedApacheCassandraService('element', 'Managed Apache Cassandra Service', 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsManagedApacheCassandraService element
@@ -53,8 +53,8 @@ AwsManagedApacheCassandraService('element', 'Managed Apache Cassandra Service', 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedApacheCassandraService card
 include('elements/aws/Database/AwsManagedApacheCassandraService')
@@ -71,8 +71,8 @@ AwsManagedApacheCassandraServiceCard('card', 'an optional functional name', 'Mol
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsManagedApacheCassandraService card
 include('elements/aws/Database/AwsManagedApacheCassandraService')

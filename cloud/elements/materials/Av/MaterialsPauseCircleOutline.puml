@@ -4,10 +4,12 @@ VP255SDG24MBH5uExBzkYNvtkJY_oI1cAe72t0sQCCCt5T7DmIyw8FTBSDoGWC-4i5zlTObFoCyWudgo
 kLDRlmUfLxjIszF9-0C
 }
 
+sprite $MaterialsPauseCircleOutlineMd [14x14/16z] PKw54S102CDb_u7hyZdS8JH8FDFbIRnTzJ1tadmwpZELPkA3Y5kErb4ArRYZr3VJn0mdyGfyWE-8RD0E
+
 !function MaterialsPauseCircleOutline($id, $name="Pause Circle Outline", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPauseCircleOutline', $name, $tech)
 !endfunction
 !function MaterialsPauseCircleOutlineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsPauseCircleOutlineLg>', 'Pause Circle Outline', $funcName, $content)
+  CloudCard($id, '<$MaterialsPauseCircleOutlineMd>', 'Pause Circle Outline', $funcName, $content)
 !endfunction
 @enduml

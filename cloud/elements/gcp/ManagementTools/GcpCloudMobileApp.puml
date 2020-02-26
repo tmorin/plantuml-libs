@@ -4,10 +4,12 @@ PP3L0S1024EHNDBz5wx0rTyFhbRun2w25p5TpkM2CnNB0tIQdZvLuYYLEnKSnu13KzXJPGS3oAn4zW0X
 rjPnxopTE_zl-__W_wjEktygwVpf__SR
 }
 
+sprite $GcpCloudMobileAppMd [14x14/16z] LOw50GHG24B1td_Y4w_VJni0z8CGh3xgp9WNiORrp4Pq6v1wI5ypSRTbXhmooYiYgLnPpBDUmM2MgRK_krXSoMl27FOxFJ_ArcW2_weV
+
 !function GcpCloudMobileApp($id, $name="Cloud Mobile App", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpCloudMobileApp', $name, $tech)
 !endfunction
 !function GcpCloudMobileAppCard($id, $funcName="", $content="")
-  CloudCard($id, '<$GcpCloudMobileAppLg>', 'Cloud Mobile App', $funcName, $content)
+  CloudCard($id, '<$GcpCloudMobileAppMd>', 'Cloud Mobile App', $funcName, $content)
 !endfunction
 @enduml

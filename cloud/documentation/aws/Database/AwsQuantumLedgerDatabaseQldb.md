@@ -16,7 +16,7 @@ elements/aws/Database/AwsQuantumLedgerDatabaseQldb
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsQuantumLedgerDatabaseQldb element
@@ -34,7 +34,7 @@ AwsQuantumLedgerDatabaseQldb('element', 'Quantum Ledger Database Qldb', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsQuantumLedgerDatabaseQldb element
@@ -53,8 +53,8 @@ AwsQuantumLedgerDatabaseQldb('element', 'Quantum Ledger Database Qldb', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsQuantumLedgerDatabaseQldb card
 include('elements/aws/Database/AwsQuantumLedgerDatabaseQldb')
@@ -71,8 +71,8 @@ AwsQuantumLedgerDatabaseQldbCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsQuantumLedgerDatabaseQldb card
 include('elements/aws/Database/AwsQuantumLedgerDatabaseQldb')

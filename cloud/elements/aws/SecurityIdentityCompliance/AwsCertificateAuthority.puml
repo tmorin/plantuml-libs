@@ -4,10 +4,12 @@ ROw50KGX3CLuoluRdtoNu07QZXUO1tHu8qvzetbpzXhNvhApLvV-7boSVaTKPrV-gbAkpYhHiuizDNnv
 Y9aJ_3txpYzy
 }
 
+sprite $AwsCertificateAuthorityMd [14x14/16z] TOk34S0000F3_KUkZJ-5lD5SQ7ip9YbR9DqIm5m0uE8iCDvTf2f7bz97T__1al7JdIuR15Bkp1r7
+
 !function AwsCertificateAuthority($id, $name="Certificate Authority", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCertificateAuthority', $name, $tech)
 !endfunction
 !function AwsCertificateAuthorityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsCertificateAuthorityLg>', 'Certificate Authority', $funcName, $content)
+  CloudCard($id, '<$AwsCertificateAuthorityMd>', 'Certificate Authority', $funcName, $content)
 !endfunction
 @enduml

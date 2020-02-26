@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatLineSpacing
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatLineSpacing element
 include('elements/materials/Editor/MaterialsFormatLineSpacing')
@@ -34,8 +34,8 @@ MaterialsFormatLineSpacing('element', 'Format Line Spacing', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatLineSpacing element
 include('elements/materials/Editor/MaterialsFormatLineSpacing')
@@ -53,8 +53,8 @@ MaterialsFormatLineSpacing('element', 'Format Line Spacing', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatLineSpacing card
 include('elements/materials/Editor/MaterialsFormatLineSpacing')
@@ -71,8 +71,8 @@ MaterialsFormatLineSpacingCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatLineSpacing card
 include('elements/materials/Editor/MaterialsFormatLineSpacing')

@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatUnderlined
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatUnderlined element
 include('elements/materials/Editor/MaterialsFormatUnderlined')
@@ -34,8 +34,8 @@ MaterialsFormatUnderlined('element', 'Format Underlined', 'an optional tech fiel
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatUnderlined element
 include('elements/materials/Editor/MaterialsFormatUnderlined')
@@ -53,8 +53,8 @@ MaterialsFormatUnderlined('element', 'Format Underlined', 'an optional tech fiel
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatUnderlined card
 include('elements/materials/Editor/MaterialsFormatUnderlined')
@@ -71,8 +71,8 @@ MaterialsFormatUnderlinedCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatUnderlined card
 include('elements/materials/Editor/MaterialsFormatUnderlined')

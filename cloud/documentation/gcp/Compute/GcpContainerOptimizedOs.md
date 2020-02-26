@@ -16,8 +16,8 @@ elements/gcp/Compute/GcpContainerOptimizedOs
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpContainerOptimizedOs element
 include('elements/gcp/Compute/GcpContainerOptimizedOs')
@@ -34,8 +34,8 @@ GcpContainerOptimizedOs('element', 'Container Optimized Os', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpContainerOptimizedOs element
 include('elements/gcp/Compute/GcpContainerOptimizedOs')
@@ -53,7 +53,7 @@ GcpContainerOptimizedOs('element', 'Container Optimized Os', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpContainerOptimizedOs card
@@ -71,7 +71,7 @@ GcpContainerOptimizedOsCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpContainerOptimizedOs card

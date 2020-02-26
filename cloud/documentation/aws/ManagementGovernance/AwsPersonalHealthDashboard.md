@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsPersonalHealthDashboard
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsPersonalHealthDashboard element
@@ -34,7 +34,7 @@ AwsPersonalHealthDashboard('element', 'Personal Health Dashboard', 'an optional 
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsPersonalHealthDashboard element
@@ -53,8 +53,8 @@ AwsPersonalHealthDashboard('element', 'Personal Health Dashboard', 'an optional 
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsPersonalHealthDashboard card
 include('elements/aws/ManagementGovernance/AwsPersonalHealthDashboard')
@@ -71,8 +71,8 @@ AwsPersonalHealthDashboardCard('card', 'an optional functional name', 'Molestiae
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsPersonalHealthDashboard card
 include('elements/aws/ManagementGovernance/AwsPersonalHealthDashboard')

@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsForwardLg [20x20/16z] Ow0AOCGYniw4ASR5XIJ8o0G2pDpyd0X1Ldu-4E3d1meYn2008eWGGmWI44C8OTg1wHOCDuE52FkDaIeX2G
 
+sprite $MaterialsForwardMd [14x14/16z] Oo0C655ux4mmOIOc9cPkJYYNbP-FZu-V7yY5y400naNmq5KYJC6m0M4xGG
+
 !function MaterialsForward($id, $name="Forward", $tech="")
   CloudElement($id, 'materials/Content/MaterialsForward', $name, $tech)
 !endfunction
 !function MaterialsForwardCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsForwardLg>', 'Forward', $funcName, $content)
+  CloudCard($id, '<$MaterialsForwardMd>', 'Forward', $funcName, $content)
 !endfunction
 @enduml

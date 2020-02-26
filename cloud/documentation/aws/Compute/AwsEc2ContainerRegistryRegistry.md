@@ -16,7 +16,7 @@ elements/aws/Compute/AwsEc2ContainerRegistryRegistry
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryRegistry element
@@ -34,7 +34,7 @@ AwsEc2ContainerRegistryRegistry('element', 'Ec2 Container Registry Registry', 'a
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryRegistry element
@@ -53,8 +53,8 @@ AwsEc2ContainerRegistryRegistry('element', 'Ec2 Container Registry Registry', 'a
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryRegistry card
 include('elements/aws/Compute/AwsEc2ContainerRegistryRegistry')
@@ -71,8 +71,8 @@ AwsEc2ContainerRegistryRegistryCard('card', 'an optional functional name', 'Mole
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsEc2ContainerRegistryRegistry card
 include('elements/aws/Compute/AwsEc2ContainerRegistryRegistry')

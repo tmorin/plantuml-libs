@@ -16,8 +16,8 @@ elements/gcp/AiAndMachineLearning/GcpCloudVideoIntelligenceApi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudVideoIntelligenceApi element
 include('elements/gcp/AiAndMachineLearning/GcpCloudVideoIntelligenceApi')
@@ -34,8 +34,8 @@ GcpCloudVideoIntelligenceApi('element', 'Cloud Video Intelligence Api', 'an opti
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudVideoIntelligenceApi element
 include('elements/gcp/AiAndMachineLearning/GcpCloudVideoIntelligenceApi')
@@ -53,7 +53,7 @@ GcpCloudVideoIntelligenceApi('element', 'Cloud Video Intelligence Api', 'an opti
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudVideoIntelligenceApi card
@@ -71,7 +71,7 @@ GcpCloudVideoIntelligenceApiCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudVideoIntelligenceApi card

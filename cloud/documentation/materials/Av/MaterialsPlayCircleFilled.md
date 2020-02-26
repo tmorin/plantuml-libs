@@ -16,8 +16,8 @@ elements/materials/Av/MaterialsPlayCircleFilled
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilled element
 include('elements/materials/Av/MaterialsPlayCircleFilled')
@@ -34,8 +34,8 @@ MaterialsPlayCircleFilled('element', 'Play Circle Filled', 'an optional tech fie
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilled element
 include('elements/materials/Av/MaterialsPlayCircleFilled')
@@ -53,8 +53,8 @@ MaterialsPlayCircleFilled('element', 'Play Circle Filled', 'an optional tech fie
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilled card
 include('elements/materials/Av/MaterialsPlayCircleFilled')
@@ -71,8 +71,8 @@ MaterialsPlayCircleFilledCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsPlayCircleFilled card
 include('elements/materials/Av/MaterialsPlayCircleFilled')

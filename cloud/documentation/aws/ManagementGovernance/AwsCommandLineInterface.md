@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsCommandLineInterface
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCommandLineInterface element
@@ -34,7 +34,7 @@ AwsCommandLineInterface('element', 'Command Line Interface', 'an optional tech f
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCommandLineInterface element
@@ -53,8 +53,8 @@ AwsCommandLineInterface('element', 'Command Line Interface', 'an optional tech f
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCommandLineInterface card
 include('elements/aws/ManagementGovernance/AwsCommandLineInterface')
@@ -71,8 +71,8 @@ AwsCommandLineInterfaceCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCommandLineInterface card
 include('elements/aws/ManagementGovernance/AwsCommandLineInterface')

@@ -16,7 +16,7 @@ elements/aws/MachineLearning/AwsDeepracer
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDeepracer element
@@ -34,7 +34,7 @@ AwsDeepracer('element', 'Deepracer', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDeepracer element
@@ -53,8 +53,8 @@ AwsDeepracer('element', 'Deepracer', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDeepracer card
 include('elements/aws/MachineLearning/AwsDeepracer')
@@ -71,8 +71,8 @@ AwsDeepracerCard('card', 'an optional functional name', 'Molestiae praesentium a
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDeepracer card
 include('elements/aws/MachineLearning/AwsDeepracer')

@@ -4,10 +4,12 @@ PSz70eGm34DHOiQoPER-rwLNvw_WfIEwg1EBAWAEDSVvjSPTz_Z_o_VUgin4fqJq2W9YLS8CKtmL-hLc
 eHqPfubs_WntcmwVcWEK2FXhdklETrW
 }
 
+sprite $AzureVmLinuxExternalMd [15x14/16z] JSV70SCm34FHgA74--zhaNJx5-3ncqHaDJInTZeSWvioNeBxlEHgwu-7ccry2BIXbzlCsVn4a_ARMezqABVzTYsvRzRbI7t_4m
+
 !function AzureVmLinuxExternal($id, $name="Vm Linux External", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmLinuxExternal', $name, $tech)
 !endfunction
 !function AzureVmLinuxExternalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVmLinuxExternalLg>', 'Vm Linux External', $funcName, $content)
+  CloudCard($id, '<$AzureVmLinuxExternalMd>', 'Vm Linux External', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsFilterDrama
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterDrama element
 include('elements/materials/Image/MaterialsFilterDrama')
@@ -34,8 +34,8 @@ MaterialsFilterDrama('element', 'Filter Drama', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterDrama element
 include('elements/materials/Image/MaterialsFilterDrama')
@@ -53,8 +53,8 @@ MaterialsFilterDrama('element', 'Filter Drama', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterDrama card
 include('elements/materials/Image/MaterialsFilterDrama')
@@ -71,8 +71,8 @@ MaterialsFilterDramaCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFilterDrama card
 include('elements/materials/Image/MaterialsFilterDrama')

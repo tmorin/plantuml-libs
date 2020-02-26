@@ -4,10 +4,12 @@ RT050iKW30DGwltQ-vzsxYJpDuEqFKJj6OgWZggkA6wMDINDN5RpclDxV-U3hsQBlPbzKhlPTARVpIWF
 Tugw7m4
 }
 
+sprite $MaterialsBrightnessMediumMd [14x14/16z] LKu54iH030ftBRFE_rzRDp8QF8u3uZtaVBz_CakP_EyV9TKv3V7-SiHyVCZd5wdWUCvlKeP_hlGKR_1sN-QhLm
+
 !function MaterialsBrightnessMedium($id, $name="Brightness Medium", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBrightnessMedium', $name, $tech)
 !endfunction
 !function MaterialsBrightnessMediumCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBrightnessMediumLg>', 'Brightness Medium', $funcName, $content)
+  CloudCard($id, '<$MaterialsBrightnessMediumMd>', 'Brightness Medium', $funcName, $content)
 !endfunction
 @enduml

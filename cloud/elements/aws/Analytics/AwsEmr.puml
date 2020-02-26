@@ -1,13 +1,12 @@
 @startuml
-sprite $AwsEmrLg [20x20/16z] {
-RSk52S1040LHuFRRfVzwuvuC_c1ovhFyu8toCO67zSCWABiTM2X7scn6om9BAd0tWcYEQYPi9cQ6nQj1MOrsCQMeANcP6vsvzUt7Mz1cdI2RkweexDOj2uAD
-qc5pAPOJvsumLhXPDvYzeT_RxGU77vm
-}
+sprite $AwsEmrLg [20x20/16z] hK-r0SD030mSQlzzmsYthrB7i-8YxtwCilr1xEJxRcAQ2Jy6fdNEXBUNtkxJsryy0-hpfmGkF3c_x3w_t7xkRBG0cDTJb6uoWuwsNKfcrxdTREDkM-XPS5S
+
+sprite $AwsEmrMd [14x14/16z] XKs34G0107gc_VTzcnrpVY7wm01cuPO69d0Y78ZQPcO34QX6EJBwaZokwFYmOpQ-qGC
 
 !function AwsEmr($id, $name="Emr", $tech="")
   CloudElement($id, 'aws/Analytics/AwsEmr', $name, $tech)
 !endfunction
 !function AwsEmrCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsEmrLg>', 'Emr', $funcName, $content)
+  CloudCard($id, '<$AwsEmrMd>', 'Emr', $funcName, $content)
 !endfunction
 @enduml

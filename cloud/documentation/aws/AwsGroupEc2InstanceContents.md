@@ -12,7 +12,7 @@
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupEc2InstanceContents group
@@ -30,7 +30,7 @@ AwsGroupEc2InstanceContents('element', 'EC2 Instance Contents', 'an optional tec
 ' loads the library
 !include ../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsGroupEc2InstanceContents group

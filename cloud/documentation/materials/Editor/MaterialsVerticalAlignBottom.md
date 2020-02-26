@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsVerticalAlignBottom
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVerticalAlignBottom element
 include('elements/materials/Editor/MaterialsVerticalAlignBottom')
@@ -34,8 +34,8 @@ MaterialsVerticalAlignBottom('element', 'Vertical Align Bottom', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVerticalAlignBottom element
 include('elements/materials/Editor/MaterialsVerticalAlignBottom')
@@ -53,8 +53,8 @@ MaterialsVerticalAlignBottom('element', 'Vertical Align Bottom', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVerticalAlignBottom card
 include('elements/materials/Editor/MaterialsVerticalAlignBottom')
@@ -71,8 +71,8 @@ MaterialsVerticalAlignBottomCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsVerticalAlignBottom card
 include('elements/materials/Editor/MaterialsVerticalAlignBottom')

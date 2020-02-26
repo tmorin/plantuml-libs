@@ -4,10 +4,12 @@ hOy5ZWKn34DREzFW_S-xpMSQuHQV5BBh_rQQ_bgMCSSOKsHYNn4qKeW8x02hH2iOfNB7Qo1JD0EHAetb
 hJprNHKrMrKt_Zs3mj_E3nMeGdJDTSNjxBVSQm0MgqUji3lkm8ma2Tpk7G5cPVnQMNy
 }
 
+sprite $AzureCalendarMd [17x14/16z] XSo53GC13CNGiBzotN_TCeeQiFYT_ixExonchcxbCs0MospjS0-HtfaTpm177z-X9gS-WQVtGMyUl39mfUg5klil6cQe-A1kfXMw3k8MQIy
+
 !function AzureCalendar($id, $name="Calendar", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCalendar', $name, $tech)
 !endfunction
 !function AzureCalendarCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCalendarLg>', 'Calendar', $funcName, $content)
+  CloudCard($id, '<$AzureCalendarMd>', 'Calendar', $funcName, $content)
 !endfunction
 @enduml

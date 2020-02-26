@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBattery50Lg [20x20/16z] lSYr0O1000D04XgS_QV5zTsllCeJI0W3Rl1RNafVVVaKkk7GuNFzVEXpNZkDcwazxW8Ujj9P0G
 
+sprite $MaterialsBattery50Md [14x14/16z] Oy0261cHEKnCZCWS89Tq7Wih4B30U1pyGC11Ee-57GXOCDqB
+
 !function MaterialsBattery50($id, $name="Battery50", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBattery50', $name, $tech)
 !endfunction
 !function MaterialsBattery50Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBattery50Lg>', 'Battery50', $funcName, $content)
+  CloudCard($id, '<$MaterialsBattery50Md>', 'Battery50', $funcName, $content)
 !endfunction
 @enduml

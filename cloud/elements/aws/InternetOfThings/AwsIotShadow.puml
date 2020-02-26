@@ -4,10 +4,12 @@ NSy5WaKn24FH0Bdfx7_3y-tvgNlHLzkjcm8RwZgLqTlaCcblRQ2tkVrGCVlUYav6RntgDAHLQHBWMxAc
 97FZacfyCoM1yGL8z6Jsg8dxEnT7ccIaEBtjiqI2HFZECVQyorQ3r7velG
 }
 
+sprite $AwsIotShadowMd [14x14/16z] HOc74GC13CB026V_ZNFVvQf3aWFMZHaFSzlvk72P3kpa4CP7UHebtQPabmHtyQ_UNyoPiSjk9gAqK00fz8R8X9bafjI6MgsynKVcQO_iC3xy1m
+
 !function AwsIotShadow($id, $name="Iot Shadow", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotShadow', $name, $tech)
 !endfunction
 !function AwsIotShadowCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotShadowLg>', 'Iot Shadow', $funcName, $content)
+  CloudCard($id, '<$AwsIotShadowMd>', 'Iot Shadow', $funcName, $content)
 !endfunction
 @enduml

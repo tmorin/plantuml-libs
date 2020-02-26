@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsLineWeightLg [20x20/16z] fSx50O1G201GsjRzfxNh1oVUZGP2oFJ727Qo9CJ9bRCEqeHxWvi4WmCbWR2JSVWPvMfCW9Ch_mlP
 
+sprite $MaterialsLineWeightMd [14x14/16z] VSp50S1030F1DOMX_sh333TFMn8f4WS1RVjDgyyVSW2qRZQrWlX103q0aXUR_BKYTX1IHW
+
 !function MaterialsLineWeight($id, $name="Line Weight", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLineWeight', $name, $tech)
 !endfunction
 !function MaterialsLineWeightCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLineWeightLg>', 'Line Weight', $funcName, $content)
+  CloudCard($id, '<$MaterialsLineWeightMd>', 'Line Weight', $funcName, $content)
 !endfunction
 @enduml

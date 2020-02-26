@@ -4,10 +4,12 @@ RSs50SKm20JGBoUG_GSkrEtYBvQTECVE5ymNt4swcCKEgcapoc7Ijh1Rj8iPvjaCQBDH9XUIzPCMAnJf
 kxwHPPtG7_Ypf5EmA5issx99sGkE5vm
 }
 
+sprite $AwsIotDeviceDefenderMd [14x14/16z] RSc54G1134BHaGYa_u8FpksllWaLZfeFRl-gFfHLwTCMIZirFyJSDMGLkbjZQQHqXu1C3Uz2WTAmKmdaE9J_rXv_j
+
 !function AwsIotDeviceDefender($id, $name="Iot Device Defender", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotDeviceDefender', $name, $tech)
 !endfunction
 !function AwsIotDeviceDefenderCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotDeviceDefenderLg>', 'Iot Device Defender', $funcName, $content)
+  CloudCard($id, '<$AwsIotDeviceDefenderMd>', 'Iot Device Defender', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ bSs53GGn44FH38J6xh_Usy0nVu7rH4v7Ma6YQbfPC7eFXarAiCWnXI73XJNDAlEOHbisjZ4Tkgo8CG5P
 _cLttWLmrNbNFm4
 }
 
+sprite $AzureLockProtectedMd [11x14/16z] RSQ50GGn24HH8jXC-c_tRjr_0ZoHuYIzo5H0co8cDRPz6sGkRMBkx0cRG_PnBpLtTkaxlSHEL7oGnkMCFVu1
+
 !function AzureLockProtected($id, $name="Lock Protected", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureLockProtected', $name, $tech)
 !endfunction
 !function AzureLockProtectedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureLockProtectedLg>', 'Lock Protected', $funcName, $content)
+  CloudCard($id, '<$AzureLockProtectedMd>', 'Lock Protected', $funcName, $content)
 !endfunction
 @enduml

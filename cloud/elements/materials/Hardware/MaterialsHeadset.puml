@@ -4,10 +4,12 @@ dT375GKG50HGByhqN-qFigrPpRaoCmA_c2keFaQlU92aeCmQaYpIhD3MQvv8hRL8fbwS6x8xPjx66TlI
 UJ0DMHJxZmbtUiyN
 }
 
+sprite $MaterialsHeadsetMd [14x14/16z] VOtL0O0m34GZTTr_MuXzmgl6xa0WPW87Iwkr5RIWPNplt3GiHMv_iQCFI94QE8qaYff6QtIKWR4asdT_FJWY6Y90sTmpmIyF
+
 !function MaterialsHeadset($id, $name="Headset", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsHeadset', $name, $tech)
 !endfunction
 !function MaterialsHeadsetCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsHeadsetLg>', 'Headset', $funcName, $content)
+  CloudCard($id, '<$MaterialsHeadsetMd>', 'Headset', $funcName, $content)
 !endfunction
 @enduml

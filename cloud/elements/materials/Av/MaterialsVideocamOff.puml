@@ -4,10 +4,12 @@ ZT3L0SCm34LH2ypmzf-sNAcOv7uUiyFFw0SL_KOTFp1E_To2Aov8kTQQwJ6cm1Mb0vs2wjtko0sTTPhT
 vl7E
 }
 
+sprite $MaterialsVideocamOffMd [14x14/16z] VKt50K0X549yTkq_xUyEkT6uWxmnVwCk4bfarPXR96Fpq6fYfIqqIEB2LbhBpXQwivK6BYixLS2ylk3-IuikHW
+
 !function MaterialsVideocamOff($id, $name="Videocam Off", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideocamOff', $name, $tech)
 !endfunction
 !function MaterialsVideocamOffCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVideocamOffLg>', 'Videocam Off', $funcName, $content)
+  CloudCard($id, '<$MaterialsVideocamOffMd>', 'Videocam Off', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/materials/Editor/MaterialsFormatTextdirectionLToR
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatTextdirectionLToR element
 include('elements/materials/Editor/MaterialsFormatTextdirectionLToR')
@@ -34,8 +34,8 @@ MaterialsFormatTextdirectionLToR('element', 'Format Textdirection L To R', 'an o
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatTextdirectionLToR element
 include('elements/materials/Editor/MaterialsFormatTextdirectionLToR')
@@ -53,8 +53,8 @@ MaterialsFormatTextdirectionLToR('element', 'Format Textdirection L To R', 'an o
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatTextdirectionLToR card
 include('elements/materials/Editor/MaterialsFormatTextdirectionLToR')
@@ -71,8 +71,8 @@ MaterialsFormatTextdirectionLToRCard('card', 'an optional functional name', 'Mol
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsFormatTextdirectionLToR card
 include('elements/materials/Editor/MaterialsFormatTextdirectionLToR')

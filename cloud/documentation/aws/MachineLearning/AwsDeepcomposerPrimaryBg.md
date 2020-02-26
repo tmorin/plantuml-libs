@@ -16,7 +16,7 @@ elements/aws/MachineLearning/AwsDeepcomposerPrimaryBg
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDeepcomposerPrimaryBg element
@@ -34,7 +34,7 @@ AwsDeepcomposerPrimaryBg('element', 'Deepcomposer Primary Bg', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsDeepcomposerPrimaryBg element
@@ -53,8 +53,8 @@ AwsDeepcomposerPrimaryBg('element', 'Deepcomposer Primary Bg', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDeepcomposerPrimaryBg card
 include('elements/aws/MachineLearning/AwsDeepcomposerPrimaryBg')
@@ -71,8 +71,8 @@ AwsDeepcomposerPrimaryBgCard('card', 'an optional functional name', 'Molestiae p
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsDeepcomposerPrimaryBg card
 include('elements/aws/MachineLearning/AwsDeepcomposerPrimaryBg')

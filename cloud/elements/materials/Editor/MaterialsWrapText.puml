@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsWrapTextLg [20x20/16z] Ow0-OE5WXmCE5knYbDi11-mic68SF6oOUfYvcJ05kLXGpMK1gqEucOc1XPUB7MGUkXZ8NdIzb0C
 
+sprite $MaterialsWrapTextMd [14x14/16z] XSt50G1120F0P1tflzrprtdXu1iNKvAaJIITUtSnpnAFMIaugc6v0YQ6nlb3HlRM8Wuz_EW1
+
 !function MaterialsWrapText($id, $name="Wrap Text", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsWrapText', $name, $tech)
 !endfunction
 !function MaterialsWrapTextCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsWrapTextLg>', 'Wrap Text', $funcName, $content)
+  CloudCard($id, '<$MaterialsWrapTextMd>', 'Wrap Text', $funcName, $content)
 !endfunction
 @enduml

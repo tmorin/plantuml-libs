@@ -4,10 +4,12 @@ PO_L0S0m20NZ0ZpstxRUwFrnk7bnLI3PcevdlG2vhaXVQZC1dqBuLTAVyglS5ErLjCtgy-s_4R7V9L_V
 ulkMR9peZBY4HI6HhbJP56DJE04
 }
 
+sprite $AzureUserEnterpriseMd [13x14/16z] JSt50G0X34JH20wJ_hjTmJ_wJg4lJa0M6aNxAjp_qkmlT3Xqb0wzmRKZKI_W-yFHL4NrurUYi30x9eemgq4q8vBs8MZuBarsIkr2nGMy
+
 !function AzureUserEnterprise($id, $name="User Enterprise", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUserEnterprise', $name, $tech)
 !endfunction
 !function AzureUserEnterpriseCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureUserEnterpriseLg>', 'User Enterprise', $funcName, $content)
+  CloudCard($id, '<$AzureUserEnterpriseMd>', 'User Enterprise', $funcName, $content)
 !endfunction
 @enduml

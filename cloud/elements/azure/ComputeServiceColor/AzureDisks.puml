@@ -4,10 +4,15 @@ PP5RWiGW20IZqY3S_y0RqWHtPkhFKdbUDsCk0Q0AMMkEYqo15X0oxxT2LPx_L5gRUuIxAQ7-zReP855A
 kp4pFhViUT8ULiA6LwcdJK2AVesU1467o3zodY5T1puw_tvwf1kYbH144nczbmDoBxt7rzKY_m
 }
 
+sprite $AzureDisksMd [17x14/16z] {
+HOs54SGm30HZYx__Wdylk07hOApZMDiZCiFDza8Q0Z3mmzObUsRwylEYkkkQfbJsDvYaYwUPramUblDxc3IjeL-WHUpTBWBSD4dVTyOzyXbSIbsIpq0jLrka
+y7Ml0LMHVm
+}
+
 !function AzureDisks($id, $name="Disks", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureDisks', $name, $tech)
 !endfunction
 !function AzureDisksCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureDisksLg>', 'Disks', $funcName, $content)
+  CloudCard($id, '<$AzureDisksMd>', 'Disks', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCutAndPaste element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste')
@@ -34,8 +34,8 @@ AzureCutAndPaste('element', 'Cut And Paste', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCutAndPaste element
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste')
@@ -53,8 +53,8 @@ AzureCutAndPaste('element', 'Cut And Paste', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCutAndPaste card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste')
@@ -71,8 +71,8 @@ AzureCutAndPasteCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureCutAndPaste card
 include('elements/azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste')

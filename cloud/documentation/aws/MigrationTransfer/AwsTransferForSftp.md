@@ -16,7 +16,7 @@ elements/aws/MigrationTransfer/AwsTransferForSftp
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTransferForSftp element
@@ -34,7 +34,7 @@ AwsTransferForSftp('element', 'Transfer For Sftp', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsTransferForSftp element
@@ -53,8 +53,8 @@ AwsTransferForSftp('element', 'Transfer For Sftp', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTransferForSftp card
 include('elements/aws/MigrationTransfer/AwsTransferForSftp')
@@ -71,8 +71,8 @@ AwsTransferForSftpCard('card', 'an optional functional name', 'Molestiae praesen
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsTransferForSftp card
 include('elements/aws/MigrationTransfer/AwsTransferForSftp')

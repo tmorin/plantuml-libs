@@ -16,7 +16,7 @@ elements/aws/ManagementGovernance/AwsLicenseManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsLicenseManager element
@@ -34,7 +34,7 @@ AwsLicenseManager('element', 'License Manager', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsLicenseManager element
@@ -53,8 +53,8 @@ AwsLicenseManager('element', 'License Manager', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsLicenseManager card
 include('elements/aws/ManagementGovernance/AwsLicenseManager')
@@ -71,8 +71,8 @@ AwsLicenseManagerCard('card', 'an optional functional name', 'Molestiae praesent
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsLicenseManager card
 include('elements/aws/ManagementGovernance/AwsLicenseManager')

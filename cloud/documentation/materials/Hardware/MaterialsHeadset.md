@@ -16,8 +16,8 @@ elements/materials/Hardware/MaterialsHeadset
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadset element
 include('elements/materials/Hardware/MaterialsHeadset')
@@ -34,8 +34,8 @@ MaterialsHeadset('element', 'Headset', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadset element
 include('elements/materials/Hardware/MaterialsHeadset')
@@ -53,8 +53,8 @@ MaterialsHeadset('element', 'Headset', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadset card
 include('elements/materials/Hardware/MaterialsHeadset')
@@ -71,8 +71,8 @@ MaterialsHeadsetCard('card', 'an optional functional name', 'Molestiae praesenti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsHeadset card
 include('elements/materials/Hardware/MaterialsHeadset')

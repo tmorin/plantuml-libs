@@ -16,7 +16,7 @@ elements/aws/Compute/AwsThinkboxKrakatoa
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsThinkboxKrakatoa element
@@ -34,7 +34,7 @@ AwsThinkboxKrakatoa('element', 'Thinkbox Krakatoa', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsThinkboxKrakatoa element
@@ -53,8 +53,8 @@ AwsThinkboxKrakatoa('element', 'Thinkbox Krakatoa', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsThinkboxKrakatoa card
 include('elements/aws/Compute/AwsThinkboxKrakatoa')
@@ -71,8 +71,8 @@ AwsThinkboxKrakatoaCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsThinkboxKrakatoa card
 include('elements/aws/Compute/AwsThinkboxKrakatoa')

@@ -4,10 +4,12 @@ VL254S1022joI0_s7xUkxuuccGO34E5lO8_CS7xDwAbCn9gEjsbsEb_aysa4TzYlut0xqZcFADKZCdc_
 0bPWRd3hQV1gPGmDJVjZ1G
 }
 
+sprite $MaterialsAddCircleOutlineMd [14x14/16z] PKw30S1038mks7_Wkcz61zgM80Bo9IYeNi-R1DyVnvrANOdPbTOr3D3mX98X4qOQSpPFpYohGbTVdAth1
+
 !function MaterialsAddCircleOutline($id, $name="Add Circle Outline", $tech="")
   CloudElement($id, 'materials/Content/MaterialsAddCircleOutline', $name, $tech)
 !endfunction
 !function MaterialsAddCircleOutlineCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAddCircleOutlineLg>', 'Add Circle Outline', $funcName, $content)
+  CloudCard($id, '<$MaterialsAddCircleOutlineMd>', 'Add Circle Outline', $funcName, $content)
 !endfunction
 @enduml

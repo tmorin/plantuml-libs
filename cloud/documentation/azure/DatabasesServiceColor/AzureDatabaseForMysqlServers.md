@@ -16,8 +16,8 @@ elements/azure/DatabasesServiceColor/AzureDatabaseForMysqlServers
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseForMysqlServers element
 include('elements/azure/DatabasesServiceColor/AzureDatabaseForMysqlServers')
@@ -34,8 +34,8 @@ AzureDatabaseForMysqlServers('element', 'Database For Mysql Servers', 'an option
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseForMysqlServers element
 include('elements/azure/DatabasesServiceColor/AzureDatabaseForMysqlServers')
@@ -53,8 +53,8 @@ AzureDatabaseForMysqlServers('element', 'Database For Mysql Servers', 'an option
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseForMysqlServers card
 include('elements/azure/DatabasesServiceColor/AzureDatabaseForMysqlServers')
@@ -71,8 +71,8 @@ AzureDatabaseForMysqlServersCard('card', 'an optional functional name', 'Molesti
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureDatabaseForMysqlServers card
 include('elements/azure/DatabasesServiceColor/AzureDatabaseForMysqlServers')

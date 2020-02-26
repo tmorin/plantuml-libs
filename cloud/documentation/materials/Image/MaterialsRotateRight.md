@@ -16,8 +16,8 @@ elements/materials/Image/MaterialsRotateRight
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotateRight element
 include('elements/materials/Image/MaterialsRotateRight')
@@ -34,8 +34,8 @@ MaterialsRotateRight('element', 'Rotate Right', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotateRight element
 include('elements/materials/Image/MaterialsRotateRight')
@@ -53,8 +53,8 @@ MaterialsRotateRight('element', 'Rotate Right', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotateRight card
 include('elements/materials/Image/MaterialsRotateRight')
@@ -71,8 +71,8 @@ MaterialsRotateRightCard('card', 'an optional functional name', 'Molestiae praes
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsRotateRight card
 include('elements/materials/Image/MaterialsRotateRight')

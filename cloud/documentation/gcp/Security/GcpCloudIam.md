@@ -16,8 +16,8 @@ elements/gcp/Security/GcpCloudIam
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudIam element
 include('elements/gcp/Security/GcpCloudIam')
@@ -34,8 +34,8 @@ GcpCloudIam('element', 'Cloud Iam', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudIam element
 include('elements/gcp/Security/GcpCloudIam')
@@ -53,7 +53,7 @@ GcpCloudIam('element', 'Cloud Iam', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudIam card
@@ -71,7 +71,7 @@ GcpCloudIamCard('card', 'an optional functional name', 'Molestiae praesentium au
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudIam card

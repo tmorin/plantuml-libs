@@ -4,10 +4,12 @@ RSv5beKm50JG0Qyq-zzlDtg-5SHkjF_9Qspt1xPVUfh9Lzmf4B5lUZ6pWJ63btLZ0Kp0nxpD1gGnRWlS
 k4s387l8NdkJUiEUqMdB87XiFT-szbJkIzQLNxPUxGV-0G
 }
 
+sprite $AwsIqMd [14x14/16z] LSe52a013CDGR6tMtV-ytpNeWoJfEyYFE-IRcuHj-PPLGXngRNNiGuP6BZRDz7wMoeTmN9qMfsG1LevpznQx9f2hEVhhvWe
+
 !function AwsIq($id, $name="Iq", $tech="")
   CloudElement($id, 'aws/CustomerEnablement/AwsIq', $name, $tech)
 !endfunction
 !function AwsIqCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIqLg>', 'Iq', $funcName, $content)
+  CloudCard($id, '<$AwsIqMd>', 'Iq', $funcName, $content)
 !endfunction
 @enduml

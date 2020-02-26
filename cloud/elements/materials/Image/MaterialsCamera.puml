@@ -4,10 +4,15 @@ VP050iKW34EfZ7MQ-z-MohxBcv9QeFs1cEbLKDkENKYVP8CpKuVnBSiNmCvo06k9P4ehq2cpBSiLAzMJ
 QHJvNMihqSTh7xtLQ0Ail2HkifxoN5uxmcHvRhp64DuHcw5MiFbYpkpdioBPZysKFi_q3mC
 }
 
+sprite $MaterialsCameraMd [14x14/16z] {
+POe73WGX30DJgKR-_sylQ4yLI1jhv7cMlQd-mK5c83-mnM6Jl6Y8E9u7M2QIN1QY7X55dMnNMHkr6tOfjSbUOIck4hQOLm5E-ed0LPASDhZC2meHbU034TNM
+q-HvFm
+}
+
 !function MaterialsCamera($id, $name="Camera", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCamera', $name, $tech)
 !endfunction
 !function MaterialsCameraCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsCameraLg>', 'Camera', $funcName, $content)
+  CloudCard($id, '<$MaterialsCameraMd>', 'Camera', $funcName, $content)
 !endfunction
 @enduml

@@ -4,10 +4,12 @@ NSk54G0X34JHZM_el-1pWO-_6RJ6lmHG3F-g3c3iwol6RYljDfDbic_wyZ-PgEpxHs8inaJUeKb_IFPb
 xe-fqV4d68ig4q74W8ccl8lX_uAbDQQwT0C
 }
 
+sprite $AzureStartupTaskMd [13x14/16z] HSVR0O0m309084BJ_GVshRs_Sx_c8Bhuq0oRU73EyGUgVaC9VADawCjcE5Ves55yPOkkcLTis3XTqKZg2rJ2c-97xLvy
+
 !function AzureStartupTask($id, $name="Startup Task", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStartupTask', $name, $tech)
 !endfunction
 !function AzureStartupTaskCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureStartupTaskLg>', 'Startup Task', $funcName, $content)
+  CloudCard($id, '<$AzureStartupTaskMd>', 'Startup Task', $funcName, $content)
 !endfunction
 @enduml

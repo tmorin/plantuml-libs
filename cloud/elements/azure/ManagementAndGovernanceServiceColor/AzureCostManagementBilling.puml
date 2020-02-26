@@ -4,10 +4,12 @@ LT074iGm24FH6D3M-zztaJRoOARcpO_RfOa2gZBqONaysePc2qqJ9finxYeZDnQf5lzOqlndvTs4mGoi
 JehpBChMUMPbusxP-u6Pty1JeXCHyqqb9ThQO_a1
 }
 
+sprite $AzureCostManagementBillingMd [14x14/16z] HSw53S1030D0m-UbxhzmxMA45mP0pwmbeg7PEuflL3VPYaYLT40a6BKl_Mi1hKvBFAR5HzX7UctVdTEQhN-Belz2y5vlpiJ3Pb9wlfwxSW8
+
 !function AzureCostManagementBilling($id, $name="Cost Management Billing", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureCostManagementBilling', $name, $tech)
 !endfunction
 !function AzureCostManagementBillingCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCostManagementBillingLg>', 'Cost Management Billing', $funcName, $content)
+  CloudCard($id, '<$AzureCostManagementBillingMd>', 'Cost Management Billing', $funcName, $content)
 !endfunction
 @enduml

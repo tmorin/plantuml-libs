@@ -16,8 +16,8 @@ elements/materials/Communication/MaterialsCallMissed
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCallMissed element
 include('elements/materials/Communication/MaterialsCallMissed')
@@ -34,8 +34,8 @@ MaterialsCallMissed('element', 'Call Missed', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCallMissed element
 include('elements/materials/Communication/MaterialsCallMissed')
@@ -53,8 +53,8 @@ MaterialsCallMissed('element', 'Call Missed', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCallMissed card
 include('elements/materials/Communication/MaterialsCallMissed')
@@ -71,8 +71,8 @@ MaterialsCallMissedCard('card', 'an optional functional name', 'Molestiae praese
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsCallMissed card
 include('elements/materials/Communication/MaterialsCallMissed')

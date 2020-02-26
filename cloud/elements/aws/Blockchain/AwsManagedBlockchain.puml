@@ -1,10 +1,12 @@
 @startuml
-sprite $AwsManagedBlockchainLg [20x20/16z] lOx50O1G34EnlB3_mhX-EzQzpHn61foK913_4eVzJ3BT9ExobepZ9hkNlxLfaxsOxTf-VlYsJImtvaXQ0G
+sprite $AwsManagedBlockchainLg [20x20/16z] RS-50SGW50FGan_PV-6w84a5UBYEi8i2Ag02Ak0Dm60i08NEmAEZCTILV-6shVxVt_rNe-qLREPkBe_OznugNkVqYI0ksj0dTZVoWNqSq04Tq05N
+
+sprite $AwsManagedBlockchainMd [14x14/16z] LSg73G0n24FHAs1x_udJW_nJdmHxkD58es4gUqSOtuoj-5SnbHlHHzJPdtw8BeavqPkgP9HHnWO
 
 !function AwsManagedBlockchain($id, $name="Managed Blockchain", $tech="")
   CloudElement($id, 'aws/Blockchain/AwsManagedBlockchain', $name, $tech)
 !endfunction
 !function AwsManagedBlockchainCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsManagedBlockchainLg>', 'Managed Blockchain', $funcName, $content)
+  CloudCard($id, '<$AwsManagedBlockchainMd>', 'Managed Blockchain', $funcName, $content)
 !endfunction
 @enduml

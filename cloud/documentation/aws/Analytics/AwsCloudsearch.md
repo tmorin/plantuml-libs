@@ -16,7 +16,7 @@ elements/aws/Analytics/AwsCloudsearch
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudsearch element
@@ -34,7 +34,7 @@ AwsCloudsearch('element', 'Cloudsearch', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsCloudsearch element
@@ -53,8 +53,8 @@ AwsCloudsearch('element', 'Cloudsearch', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudsearch card
 include('elements/aws/Analytics/AwsCloudsearch')
@@ -71,8 +71,8 @@ AwsCloudsearchCard('card', 'an optional functional name', 'Molestiae praesentium
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsCloudsearch card
 include('elements/aws/Analytics/AwsCloudsearch')

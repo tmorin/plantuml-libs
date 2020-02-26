@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsRdsPiopLg [20x20/16z] vP350O0024M97_jFRBTku8CB7UKNvOu7RSUBN_YWHf6Jvk6Z9W5erUbZhhw-r6OijOZmrq-_VZy2
 
+sprite $AwsRdsPiopMd [14x14/16z] lOg50G0n20EH7Fjl_5AVe8UJY0DX1zow_4yVbvS-KB-2H5HCfqT66E90Bm
+
 !function AwsRdsPiop($id, $name="Rds Piop", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsPiop', $name, $tech)
 !endfunction
 !function AwsRdsPiopCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsRdsPiopLg>', 'Rds Piop', $funcName, $content)
+  CloudCard($id, '<$AwsRdsPiopMd>', 'Rds Piop', $funcName, $content)
 !endfunction
 @enduml

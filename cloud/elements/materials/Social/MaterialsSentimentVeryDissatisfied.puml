@@ -4,10 +4,12 @@ VL074iGW2AG6S6Jy_syFkTwogMvH04w0HFXEICpC6VAaATA4MIo3xjG8XWR7k98OyOXWUFzBCX0Iz8jJ
 xedcElliexDzHlsEpB55ytijkXfwhmKzIBGX58w_U_izW-UiNF1xfYUu
 }
 
+sprite $MaterialsSentimentVeryDissatisfiedMd [14x14/16z] PKu50WCW2AHEPV7_xuvQczG5_It1tf19u52DfvFD-V7EL9mvqdXSeWLQ7k7AYBQIWHb6kYkRbHcG_zQCYiLkz_lDYeLmL9X5pmYUL9_axUntFG
+
 !function MaterialsSentimentVeryDissatisfied($id, $name="Sentiment Very Dissatisfied", $tech="")
   CloudElement($id, 'materials/Social/MaterialsSentimentVeryDissatisfied', $name, $tech)
 !endfunction
 !function MaterialsSentimentVeryDissatisfiedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsSentimentVeryDissatisfiedLg>', 'Sentiment Very Dissatisfied', $funcName, $content)
+  CloudCard($id, '<$MaterialsSentimentVeryDissatisfiedMd>', 'Sentiment Very Dissatisfied', $funcName, $content)
 !endfunction
 @enduml

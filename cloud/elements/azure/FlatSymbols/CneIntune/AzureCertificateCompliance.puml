@@ -4,10 +4,15 @@ PT25eI0m20DG2aMIxB_lbRDlh-vY7YSy_8cpmSFC76mEyN1UQF2Q1TcTNK_dLiWqEzrnF_4StxbTn7-i
 nVLp8Lpt5z4bOkOIeAWjSa-J9czG8YaK-HfTsdPY2y6TZ7r5Bc-XoNj6E7zVd5MbiipJKfk3ymA0mBwgA8Pz_AILzhqxzRCp8YMuVU4Z2M7VdEQu_UJ7rYy
 }
 
+sprite $AzureCertificateComplianceMd [16x14/16z] {
+JOw70GGW20DLIaBSVz-7xsUbPuU7zuwOQwqG2H2ShREC7OgCpCxWNiwiV47dUTeOqjnUzgt9zOx7tcEB0L2tm7p64RmDKsaJGq2bifIxkbNJFmlLFeWnZMMk
+6-k3IRgjvukLslpZ-9WF
+}
+
 !function AzureCertificateCompliance($id, $name="Certificate Compliance", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureCertificateCompliance', $name, $tech)
 !endfunction
 !function AzureCertificateComplianceCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureCertificateComplianceLg>', 'Certificate Compliance', $funcName, $content)
+  CloudCard($id, '<$AzureCertificateComplianceMd>', 'Certificate Compliance', $funcName, $content)
 !endfunction
 @enduml

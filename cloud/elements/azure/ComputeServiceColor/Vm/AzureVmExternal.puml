@@ -4,10 +4,12 @@ PSw74GGX241HaJpNVx-tcD4_qMT2zCcyuQEkAYmjPXbPqnO14BUsKYrVbR9YQM5ImZWCH4aHAY4I8MMD
 LiUYh49B2bZ4ugOmR6LVSOC_
 }
 
+sprite $AzureVmExternalMd [15x14/16z] NOw54S0m30D5eUl-yvRvWsQrDxst-gADLikAwUsfXoa0kisOe6_JSkBS9Xa_PhIPJwlYvEZydzlwUEZKHf-wDeWLxYPne7uaRjeM
+
 !function AzureVmExternal($id, $name="Vm External", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmExternal', $name, $tech)
 !endfunction
 !function AzureVmExternalCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureVmExternalLg>', 'Vm External', $funcName, $content)
+  CloudCard($id, '<$AzureVmExternalMd>', 'Vm External', $funcName, $content)
 !endfunction
 @enduml

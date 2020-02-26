@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTextureLg [20x20/16z] bT030W0X4030MwVz_tFFTgx9DVy3ClGbC8sTYOf2Jp4DNSaZikt8PPm7Lngvdf2kb7Wyzq0H1gChZQ6U0AwauxcOzrJcZnbFdpzixFmC7G
 
+sprite $MaterialsTextureMd [14x14/16z] ZSUd0S0m300msTd_FrpIZI8cFn78ApFfdJ8GLrQ1hVGaxtJOIWR6bHc0H8IV0m
+
 !function MaterialsTexture($id, $name="Texture", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTexture', $name, $tech)
 !endfunction
 !function MaterialsTextureCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTextureLg>', 'Texture', $funcName, $content)
+  CloudCard($id, '<$MaterialsTextureMd>', 'Texture', $funcName, $content)
 !endfunction
 @enduml

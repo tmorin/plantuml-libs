@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsBlurLinearLg [20x20/16z] ZT350GCm3C10oIxJ_jkMENY_W95fBdu8a8VzbqDoum_k8a5-RK_XLjOB39uMAqa8-L0AwrsuacM2lJkbKDGeUcdtx0yQEoXtDUq2
 
+sprite $MaterialsBlurLinearMd [14x14/16z] PSs53S0024JHZuNklt3TBhmO3YX_0TRBhGqmuwVBakGMZc7SAis9aSdak28VvdT_WTe
+
 !function MaterialsBlurLinear($id, $name="Blur Linear", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBlurLinear', $name, $tech)
 !endfunction
 !function MaterialsBlurLinearCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsBlurLinearLg>', 'Blur Linear', $funcName, $content)
+  CloudCard($id, '<$MaterialsBlurLinearMd>', 'Blur Linear', $funcName, $content)
 !endfunction
 @enduml

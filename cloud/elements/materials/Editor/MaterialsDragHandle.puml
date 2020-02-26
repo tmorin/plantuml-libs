@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsDragHandleLg [20x20/16z] OnXSW8a52J11n5XvUU20bnKYneW2S8fXwiMqOt01
 
+sprite $MaterialsDragHandleMd [14x14/16z] Ow0IO6Pd0mDsPX2FYHaAc51vQ2gf1
+
 !function MaterialsDragHandle($id, $name="Drag Handle", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsDragHandle', $name, $tech)
 !endfunction
 !function MaterialsDragHandleCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsDragHandleLg>', 'Drag Handle', $funcName, $content)
+  CloudCard($id, '<$MaterialsDragHandleMd>', 'Drag Handle', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/azure/FlatSymbols/CneIntune/AzureSettings
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSettings element
 include('elements/azure/FlatSymbols/CneIntune/AzureSettings')
@@ -34,8 +34,8 @@ AzureSettings('element', 'Settings', 'an optional tech field')
 ' loads the library
 !include ../../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSettings element
 include('elements/azure/FlatSymbols/CneIntune/AzureSettings')
@@ -53,8 +53,8 @@ AzureSettings('element', 'Settings', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSettings card
 include('elements/azure/FlatSymbols/CneIntune/AzureSettings')
@@ -71,8 +71,8 @@ AzureSettingsCard('card', 'an optional functional name', 'Molestiae praesentium 
 ' loads the library
 !include ../../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/azure')
 
 ' loads the AzureSettings card
 include('elements/azure/FlatSymbols/CneIntune/AzureSettings')

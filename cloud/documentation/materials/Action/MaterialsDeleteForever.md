@@ -16,8 +16,8 @@ elements/materials/Action/MaterialsDeleteForever
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDeleteForever element
 include('elements/materials/Action/MaterialsDeleteForever')
@@ -34,8 +34,8 @@ MaterialsDeleteForever('element', 'Delete Forever', 'an optional tech field')
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDeleteForever element
 include('elements/materials/Action/MaterialsDeleteForever')
@@ -53,8 +53,8 @@ MaterialsDeleteForever('element', 'Delete Forever', 'an optional tech field')
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDeleteForever card
 include('elements/materials/Action/MaterialsDeleteForever')
@@ -71,8 +71,8 @@ MaterialsDeleteForeverCard('card', 'an optional functional name', 'Molestiae pra
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsDeleteForever card
 include('elements/materials/Action/MaterialsDeleteForever')

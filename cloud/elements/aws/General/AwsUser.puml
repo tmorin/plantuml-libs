@@ -4,10 +4,12 @@ VOy50WGX24LL-B5x__jETpsJXh8GG9GJLIAjUbBb-C079J2_nAvJcz_cWsw9gVxs0-_vgb67cyUw-Vl_
 2PSB3l2g8uYh3gHnmMpW1RGU
 }
 
+sprite $AwsUserMd [14x14/16z] HOs50GGW30Df3FPV-0Kzj9QqFqpO3Z9Wxm3pO-mIPxTMn1bfHvLQrmHzsADZZGL55gBfrJRXwv-ZKseZ1Iz2mhemIXxw0W
+
 !function AwsUser($id, $name="User", $tech="")
   CloudElement($id, 'aws/General/AwsUser', $name, $tech)
 !endfunction
 !function AwsUserCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsUserLg>', 'User', $funcName, $content)
+  CloudCard($id, '<$AwsUserMd>', 'User', $funcName, $content)
 !endfunction
 @enduml

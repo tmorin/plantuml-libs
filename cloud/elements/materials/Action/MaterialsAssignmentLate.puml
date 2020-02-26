@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAssignmentLateLg [20x20/16z] hP052eL120PN-LP0ZFkVzkNVNREXZbAM5g8o1QeOb0oWceXL0FnNbX-SsR_HVXBvG_KVqRY6gNCHdpeZiaSTC7FfdaVcZ7dcGZLwr_GRh5aC1d0vpXi
 
+sprite $MaterialsAssignmentLateMd [14x14/16z] ZSs53G0X341Hg9qstNzQNADyzCNgIeYkvG7elWd0PpogncogJoAecMcveEc-Lo6UwdbMCQyIgShJQtbw8hGojY8
+
 !function MaterialsAssignmentLate($id, $name="Assignment Late", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignmentLate', $name, $tech)
 !endfunction
 !function MaterialsAssignmentLateCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAssignmentLateLg>', 'Assignment Late', $funcName, $content)
+  CloudCard($id, '<$MaterialsAssignmentLateMd>', 'Assignment Late', $funcName, $content)
 !endfunction
 @enduml

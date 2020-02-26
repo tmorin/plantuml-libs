@@ -4,10 +4,12 @@ bP1L0W112487fqllVzhjxdsV9g1-GY7GeQIJIDAxaYtIKUnQWMSPO8_vL9I5E1x5K5gAk9YxluVjNuob
 GlVY2A3-qW8
 }
 
+sprite $MaterialsLayersMd [14x14/16z] XOt50S0m24MBIst_QUkkxv80Nue7Y0w3rBMiVx1sm61MHJkHarhR1PrTrVYlPYS2vQW3d9G6u8vWivA302XuxGwHsFl1nhOVUW
+
 !function MaterialsLayers($id, $name="Layers", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLayers', $name, $tech)
 !endfunction
 !function MaterialsLayersCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsLayersLg>', 'Layers', $funcName, $content)
+  CloudCard($id, '<$MaterialsLayersMd>', 'Layers', $funcName, $content)
 !endfunction
 @enduml

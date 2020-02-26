@@ -4,10 +4,12 @@ hP2r0GD130HNVwJ3wRzQCqDaJoI6rH-mRRFdGFG-HlTu3yS6tRr3YvTGNiniakN9oZgIW2mBmPI192bC
 yzjlxnhypXu
 }
 
+sprite $MaterialsVisibilityMd [14x14/16z] XOr50a0X448dRUN-f_sTAzzc4g0PBC9thwdLsf8UW_TcpDQwRuC1nkvi64PIKTa1vwsH_qGsti-Voo_XbpvZ1G
+
 !function MaterialsVisibility($id, $name="Visibility", $tech="")
   CloudElement($id, 'materials/Action/MaterialsVisibility', $name, $tech)
 !endfunction
 !function MaterialsVisibilityCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsVisibilityLg>', 'Visibility', $funcName, $content)
+  CloudCard($id, '<$MaterialsVisibilityMd>', 'Visibility', $funcName, $content)
 !endfunction
 @enduml

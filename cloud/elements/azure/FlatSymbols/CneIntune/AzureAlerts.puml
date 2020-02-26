@@ -4,10 +4,12 @@ RL255GKX36lGolxpektNombv4OmSI0dq2PGk2xsyvSng1yhPfQAc9hNA6hJSr69gZQZjKNSIRBfu9-g7
 zlBMjFYUNVCznzaOO3zRt86gY6wfFDxLyvq-tVq4
 }
 
+sprite $AzureAlertsMd [14x14/16z] LKw50S0W3CC9wV__hZP3Qv5YgutHIguEwaBtP5AubZxJEXGvjHuHQXT2Sczz1ANHCi0ojX5V5CS_iy-o-0hU3A5WcIk4EX3gVsT_rnS
+
 !function AzureAlerts($id, $name="Alerts", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureAlerts', $name, $tech)
 !endfunction
 !function AzureAlertsCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureAlertsLg>', 'Alerts', $funcName, $content)
+  CloudCard($id, '<$AzureAlertsMd>', 'Alerts', $funcName, $content)
 !endfunction
 @enduml

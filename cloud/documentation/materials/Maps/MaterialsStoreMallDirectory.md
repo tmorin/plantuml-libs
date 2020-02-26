@@ -16,8 +16,8 @@ elements/materials/Maps/MaterialsStoreMallDirectory
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStoreMallDirectory element
 include('elements/materials/Maps/MaterialsStoreMallDirectory')
@@ -34,8 +34,8 @@ MaterialsStoreMallDirectory('element', 'Store Mall Directory', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStoreMallDirectory element
 include('elements/materials/Maps/MaterialsStoreMallDirectory')
@@ -53,8 +53,8 @@ MaterialsStoreMallDirectory('element', 'Store Mall Directory', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStoreMallDirectory card
 include('elements/materials/Maps/MaterialsStoreMallDirectory')
@@ -71,8 +71,8 @@ MaterialsStoreMallDirectoryCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsStoreMallDirectory card
 include('elements/materials/Maps/MaterialsStoreMallDirectory')

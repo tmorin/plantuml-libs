@@ -16,8 +16,8 @@ elements/materials/Device/MaterialsScreenLockRotation
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockRotation element
 include('elements/materials/Device/MaterialsScreenLockRotation')
@@ -34,8 +34,8 @@ MaterialsScreenLockRotation('element', 'Screen Lock Rotation', 'an optional tech
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockRotation element
 include('elements/materials/Device/MaterialsScreenLockRotation')
@@ -53,8 +53,8 @@ MaterialsScreenLockRotation('element', 'Screen Lock Rotation', 'an optional tech
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockRotation card
 include('elements/materials/Device/MaterialsScreenLockRotation')
@@ -71,8 +71,8 @@ MaterialsScreenLockRotationCard('card', 'an optional functional name', 'Molestia
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/materials')
 
 ' loads the MaterialsScreenLockRotation card
 include('elements/materials/Device/MaterialsScreenLockRotation')

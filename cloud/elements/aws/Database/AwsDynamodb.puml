@@ -1,13 +1,15 @@
 @startuml
 sprite $AwsDynamodbLg [20x20/16z] {
-fSgvbKGn50BHMKG1KlxvzdF-udTvtCF-jfWf-pnaqjQ2t2Rl2GSUax1z3huDsgpP_7ERS2sVwFujacuQzJOncOScD2CIUKo0jOfV9YV2YvTXWsC_PgMJrVrK
-Cxdx-pu
+RSu7WeGm34FHBPPaY_lVTpID_kaFIE8q-xhRDnWvwzkQI9fFJe9wXWLgjL8k0mbO3G1JcBtPJ1Td-C_Do5R9mlfTKHg74KXB32H12Est1OaPgm1zB0WcL8Fs
+Qf02gfW_HaevMdIAfSyISh5JB8sOD7wtVF9Qx0QN6tm
 }
+
+sprite $AwsDynamodbMd [14x14/16z] LScxTGL04CBGQ0J3zj-lyRw_idkKP5_P-M5X0Rhi6UyouwUGjEWf6NhVRp7RpkcJmBdAoFJd_GP8xiDDIdawBSdvh-fkRtty1m
 
 !function AwsDynamodb($id, $name="Dynamodb", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodb', $name, $tech)
 !endfunction
 !function AwsDynamodbCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsDynamodbLg>', 'Dynamodb', $funcName, $content)
+  CloudCard($id, '<$AwsDynamodbMd>', 'Dynamodb', $funcName, $content)
 !endfunction
 @enduml

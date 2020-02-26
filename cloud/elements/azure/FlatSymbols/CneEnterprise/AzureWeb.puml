@@ -4,10 +4,15 @@ RL27WG0X20CzK49m_t4VlxTOwH2vK0Uh25VvW6MTgpkLzgvQp8ePlIkvtbG7s28H8Xjnhj8OBDUhKo-Y
 TdpfeaLM1XaD4WqoihxftkyiRbdVOria8FQzXWlGlOpRYsNwqxtCxkM_diKABFkSBMYl7CGN1pZhFww-EArldFx7_Gi
 }
 
+sprite $AzureWebMd [14x14/16z] {
+NKu5WWH02782mPZ_F_Tkk-mMCvlgSrhJheGwSQ5Jk2PTCjAK3Pl93e-BD7EAMmkPMDnKBSAkamPVrIgvPvAHwbR6DNDNgMlvSvAhnCttbTi7F3yOEk_Vg_63
+x1lrFm
+}
+
 !function AzureWeb($id, $name="Web", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWeb', $name, $tech)
 !endfunction
 !function AzureWebCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AzureWebLg>', 'Web', $funcName, $content)
+  CloudCard($id, '<$AzureWebMd>', 'Web', $funcName, $content)
 !endfunction
 @enduml

@@ -1,10 +1,12 @@
 @startuml
 sprite $AwsOpsworksStack2Lg [20x20/16z] OsJ108miR6WYO046DC12WjYe6BOmnHRs
 
+sprite $AwsOpsworksStack2Md [14x14/16z] OsPbWGDMPbOcHZXWOcLbP803nW7ceRgCcHK9C0C
+
 !function AwsOpsworksStack2($id, $name="Opsworks Stack2", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksStack2', $name, $tech)
 !endfunction
 !function AwsOpsworksStack2Card($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsOpsworksStack2Lg>', 'Opsworks Stack2', $funcName, $content)
+  CloudCard($id, '<$AwsOpsworksStack2Md>', 'Opsworks Stack2', $funcName, $content)
 !endfunction
 @enduml

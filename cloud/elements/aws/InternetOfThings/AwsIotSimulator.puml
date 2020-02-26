@@ -4,10 +4,12 @@ PSu73WCW28LXu0rw_nFNeXscVwPVL8WfISGTJKhvIvWZ-6lEn8gepzrIm1BfX3Qb6Q2Rx4plcqOiKvjU
 2_M9wzRfw8QJsAeIBxFRwjiWLF8o4x25oqJz6K7Rbu5JnlG4
 }
 
+sprite $AwsIotSimulatorMd [14x14/16z] HSs70KCX54BHXrpC_Xi7JVbOZtKQW-ONBFsva0tBLnspoUBG7kULQ5moLJTrfwZYxAaI9WrcJQCh__vWRyVpKy8Z8FmLsC-U8RaFlW4
+
 !function AwsIotSimulator($id, $name="Iot Simulator", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotSimulator', $name, $tech)
 !endfunction
 !function AwsIotSimulatorCard($id, $funcName="", $content="")
-  CloudCard($id, '<$AwsIotSimulatorLg>', 'Iot Simulator', $funcName, $content)
+  CloudCard($id, '<$AwsIotSimulatorMd>', 'Iot Simulator', $funcName, $content)
 !endfunction
 @enduml

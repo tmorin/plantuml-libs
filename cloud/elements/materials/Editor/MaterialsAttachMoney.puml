@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsAttachMoneyLg [20x20/16z] bH050WCXQ2YDyV_NhhVhKhhXTl4bp0iRTPcRidMV1N9LrigJg4vlHnhPiB_o067Sj5Y6UGlqvfncHa29Tu-PMJfEbdZJII1sV5DQpgmmtoqGZcxmlTNLzm
 
+sprite $MaterialsAttachMoneyMd [14x14/16z] TKw30K1120rtUVzrluti7dmGuJMfVaailEq9UaDoshFWoHoRBPGlPx2P7UaSM3kky7IbNJ_qs_TVP0UD
+
 !function MaterialsAttachMoney($id, $name="Attach Money", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsAttachMoney', $name, $tech)
 !endfunction
 !function MaterialsAttachMoneyCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAttachMoneyLg>', 'Attach Money', $funcName, $content)
+  CloudCard($id, '<$MaterialsAttachMoneyMd>', 'Attach Money', $funcName, $content)
 !endfunction
 @enduml

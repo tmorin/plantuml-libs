@@ -4,10 +4,12 @@ VL253GCn46iSvlstRJW5woqw6OvU3n20-2QKYpb7fouDLnSSDXNgGPYacAwSftF4rT0re6ElLEUwBOu8
 ZVo0_Oh_bECD
 }
 
+sprite $MaterialsAlbumMd [14x14/16z] POw55G0n349vSAxxRrlN_6eS6BZk-yfihC_lUTPa_9bWqaTsQVTHnj0EZpVNU0iavBsZrJAFc9cxUEFXC66OFYepE
+
 !function MaterialsAlbum($id, $name="Album", $tech="")
   CloudElement($id, 'materials/Av/MaterialsAlbum', $name, $tech)
 !endfunction
 !function MaterialsAlbumCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAlbumLg>', 'Album', $funcName, $content)
+  CloudCard($id, '<$MaterialsAlbumMd>', 'Album', $funcName, $content)
 !endfunction
 @enduml

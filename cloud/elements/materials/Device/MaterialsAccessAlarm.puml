@@ -4,10 +4,12 @@ VL05eWOm1EPZpVsF-m9_nwOR-lJuHQ2saG9sAr_tpj3M527-suOfkldURXrg8p85-pGmevqDQPcy5eZ0
 jFM9iAKhmqbNPn97ZZ9geIOqQXXr3VuW3YifDykauLD5TEO5wiaqTvloT5Q0wSlx1G
 }
 
+sprite $MaterialsAccessAlarmMd [14x14/16z] POo70KD1249LiEs_SBZqvB-hAc3_qC_jlD_LWKn4bxeiJfCz-cWO2rCN6oPQBOPE7z_we_BH9qOjGjUyMbvyVAnX0W7vtc4d-i1D89VsmBCxtIxS
+
 !function MaterialsAccessAlarm($id, $name="Access Alarm", $tech="")
   CloudElement($id, 'materials/Device/MaterialsAccessAlarm', $name, $tech)
 !endfunction
 !function MaterialsAccessAlarmCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsAccessAlarmLg>', 'Access Alarm', $funcName, $content)
+  CloudCard($id, '<$MaterialsAccessAlarmMd>', 'Access Alarm', $funcName, $content)
 !endfunction
 @enduml

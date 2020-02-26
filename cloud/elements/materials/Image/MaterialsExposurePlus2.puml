@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsExposurePlus2Lg [20x20/16z] jOx30KDH44N73Fglzjlhv3oEB_mHCZVU3SJvvWwDz-uCNUv4mF8jBMt9e-dAE7qRz9BvzeXtHonkZC2dpulWKMkzkKwVzYRar2BVu0cyQhRA6O8hk00_PmG
 
+sprite $MaterialsExposurePlus2Md [14x14/16z] ZKsp0G1038on_y1ljBdk32KWV8Y7BSuoZ2GCNhBjd0_66gaoE0T-Ha7maelybH3X_o2BbT41
+
 !function MaterialsExposurePlus2($id, $name="Exposure Plus2", $tech="")
   CloudElement($id, 'materials/Image/MaterialsExposurePlus2', $name, $tech)
 !endfunction
 !function MaterialsExposurePlus2Card($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsExposurePlus2Lg>', 'Exposure Plus2', $funcName, $content)
+  CloudCard($id, '<$MaterialsExposurePlus2Md>', 'Exposure Plus2', $funcName, $content)
 !endfunction
 @enduml

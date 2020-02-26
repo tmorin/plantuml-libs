@@ -16,7 +16,7 @@ elements/aws/CustomerEnablement/AwsProfessionalServices
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsProfessionalServices element
@@ -34,7 +34,7 @@ AwsProfessionalServices('element', 'Professional Services', 'an optional tech fi
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/aws')
 
 ' loads the AwsProfessionalServices element
@@ -53,8 +53,8 @@ AwsProfessionalServices('element', 'Professional Services', 'an optional tech fi
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsProfessionalServices card
 include('elements/aws/CustomerEnablement/AwsProfessionalServices')
@@ -71,8 +71,8 @@ AwsProfessionalServicesCard('card', 'an optional functional name', 'Molestiae pr
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
-include('styles/gcp')
+' loads the style
+include('styles/aws')
 
 ' loads the AwsProfessionalServices card
 include('elements/aws/CustomerEnablement/AwsProfessionalServices')

@@ -4,10 +4,12 @@ bSt50O0m343H61hRVrhSmgqVVrIW8MIX_Kd2U95efez4esUgd1IvfvfxiIDEMPeGWAoQqMPUpJV3kTgy
 ngeC_uYWjHK
 }
 
+sprite $MaterialsFavoriteMd [14x14/16z] NSt50G0X30312AxzLtk2aqNd5P0XORiQT4nUAP-Y_i2brfhpTnK6C7Lbf7YB0S1Dk3R0T_W-Wdm3DJGkVA5pkF2nGVO2
+
 !function MaterialsFavorite($id, $name="Favorite", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFavorite', $name, $tech)
 !endfunction
 !function MaterialsFavoriteCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsFavoriteLg>', 'Favorite', $funcName, $content)
+  CloudCard($id, '<$MaterialsFavoriteMd>', 'Favorite', $funcName, $content)
 !endfunction
 @enduml

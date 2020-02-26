@@ -1,10 +1,12 @@
 @startuml
 sprite $MaterialsTabletAndroidLg [20x20/16z] tT2r0G0X50FGu0xxJtk2omQyvciL0Dobpd7yg4yJHv7V-CJnl3EOcFjtbfAEsh9BRfBgxYSvbxd9EvfZLaAeaUcP_Gi
 
+sprite $MaterialsTabletAndroidMd [14x14/16z] lKS50OHG5Dktvz8_xIbKO3w0-W816Chq0-i09k42pKSUtu-_pqM4-HF-UIEwRM_hZW60gjCzkmXu0m
+
 !function MaterialsTabletAndroid($id, $name="Tablet Android", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsTabletAndroid', $name, $tech)
 !endfunction
 !function MaterialsTabletAndroidCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsTabletAndroidLg>', 'Tablet Android', $funcName, $content)
+  CloudCard($id, '<$MaterialsTabletAndroidMd>', 'Tablet Android', $funcName, $content)
 !endfunction
 @enduml

@@ -16,8 +16,8 @@ elements/gcp/ManagementTools/GcpCloudDeploymentManager
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudDeploymentManager element
 include('elements/gcp/ManagementTools/GcpCloudDeploymentManager')
@@ -34,8 +34,8 @@ GcpCloudDeploymentManager('element', 'Cloud Deployment Manager', 'an optional te
 ' loads the library
 !include ../../../library.puml
 
-' loads the AWS style
-include('styles/aws')
+' loads the style
+include('styles/gcp')
 
 ' loads the GcpCloudDeploymentManager element
 include('elements/gcp/ManagementTools/GcpCloudDeploymentManager')
@@ -53,7 +53,7 @@ GcpCloudDeploymentManager('element', 'Cloud Deployment Manager', 'an optional te
 ' loads the library
 !includeurl $LIB_BASE_LOCATION/library.puml
 
-' loads the AWS style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudDeploymentManager card
@@ -71,7 +71,7 @@ GcpCloudDeploymentManagerCard('card', 'an optional functional name', 'Molestiae 
 ' loads the library
 !include ../../../library.puml
 
-' loads the GCP style
+' loads the style
 include('styles/gcp')
 
 ' loads the GcpCloudDeploymentManager card

@@ -4,10 +4,12 @@ bOy55WGW24IHij_S_xJROMn-amRw5_TDnRtpej8259q3SM4CbrxTp6kNqIs5qvD6nuIMZBWYFLGX0uL3
 piSYJ0jIgz0ACttY2
 }
 
+sprite $MaterialsNotificationsPausedMd [14x14/16z] ROt50SKm34FDuMZ_QJ-MstSo2EW1aSF2fV3-AK2HxPFTy_fLX913_vjXc5JOkWLPEMmYiMw1ESP0_4FgmZ-6cSsOztvtUk0D
+
 !function MaterialsNotificationsPaused($id, $name="Notifications Paused", $tech="")
   CloudElement($id, 'materials/Social/MaterialsNotificationsPaused', $name, $tech)
 !endfunction
 !function MaterialsNotificationsPausedCard($id, $funcName="", $content="")
-  CloudCard($id, '<$MaterialsNotificationsPausedLg>', 'Notifications Paused', $funcName, $content)
+  CloudCard($id, '<$MaterialsNotificationsPausedMd>', 'Notifications Paused', $funcName, $content)
 !endfunction
 @enduml
