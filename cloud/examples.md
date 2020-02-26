@@ -3,13 +3,13 @@
 ![chef automate architecture on aws](examples/aws-chef_automate_architecture_on_aws.png)
 ```plantuml
 @startuml
-'!global $LIB_BRANCH="master"
-'!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
-'!includeurl $LIB_BASE_LOCATION/library.puml
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
+!includeurl $LIB_BASE_LOCATION/library.puml
 
-!global $INCLUSION_MODE="local"
-!global $LIB_BASE_LOCATION="../"
-!include ../library.puml
+'!global $INCLUSION_MODE="local"
+'!global $LIB_BASE_LOCATION="../"
+'!include ../library.puml
 
 include('styles/aws')
 include("groups/aws/AwsGroupCloudAws")

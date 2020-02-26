@@ -13,9 +13,6 @@
 | ![AwsGroupEcsContainer](AwsGroupEcsContainer.group.png) | [AwsGroupEcsContainer](AwsGroupEcsContainer.md)<br>`groups/aws/AwsGroupEcsContainer` |
 | ![AwsGroupEcsService](AwsGroupEcsService.group.png) | [AwsGroupEcsService](AwsGroupEcsService.md)<br>`groups/aws/AwsGroupEcsService` |
 | ![AwsGroupEcsTask](AwsGroupEcsTask.group.png) | [AwsGroupEcsTask](AwsGroupEcsTask.md)<br>`groups/aws/AwsGroupEcsTask` |
-| ![AwsGroupEksContainer](AwsGroupEksContainer.group.png) | [AwsGroupEksContainer](AwsGroupEksContainer.md)<br>`groups/aws/AwsGroupEksContainer` |
-| ![AwsGroupEksPod](AwsGroupEksPod.group.png) | [AwsGroupEksPod](AwsGroupEksPod.md)<br>`groups/aws/AwsGroupEksPod` |
-| ![AwsGroupEksService](AwsGroupEksService.group.png) | [AwsGroupEksService](AwsGroupEksService.md)<br>`groups/aws/AwsGroupEksService` |
 | ![AwsGroupElasticBeanstalkContainer](AwsGroupElasticBeanstalkContainer.group.png) | [AwsGroupElasticBeanstalkContainer](AwsGroupElasticBeanstalkContainer.md)<br>`groups/aws/AwsGroupElasticBeanstalkContainer` |
 | ![AwsGroupElasticContainerService](AwsGroupElasticContainerService.group.png) | [AwsGroupElasticContainerService](AwsGroupElasticContainerService.md)<br>`groups/aws/AwsGroupElasticContainerService` |
 | ![AwsGroupElasticKubernetesService](AwsGroupElasticKubernetesService.group.png) | [AwsGroupElasticKubernetesService](AwsGroupElasticKubernetesService.md)<br>`groups/aws/AwsGroupElasticKubernetesService` |
