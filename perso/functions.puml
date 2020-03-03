@@ -1,5 +1,27 @@
 @startuml
 
+' title
+
+!function title($title, $subtitle="", $version="", $date="")
+  !$s=$title
+  !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
+  !$s_v=""
+  !if ($date)
+    !$s_d="Last modified: " + $date
+  !endif
+  !if ($version)
+    !$s_v=" | version: " + $version
+  !endif
+  !$s=$s_d + $s_v
+  left header
+  <color:black><size:16>$title</size></color>
+  !if ($subtitle)
+    <color:black><size:14>$subtitle</size></color>
+  !endif
+  <color:grey><size:12>$s</size></color>
+  end header
+!endfunction
+
 ' icons
 
 !function getIcon($name) return $IMAGE_BASE_PATH + "icons" + "/" + $name + "." + $ICON_FORMAT
