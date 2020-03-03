@@ -4,8 +4,8 @@
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
 
-showLegend()
-showTitle("Component diagram for Internet Banking System - API Application")
+legend()
+title("Component diagram for Internet Banking System - API Application")
 
 Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
 Container("ma", "Mobile App", "Provides limited subset of the Internet banking functionality to customers via their mobile device.", "Xamarin")

@@ -4,8 +4,8 @@
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
 
-showLegend()
-showTitle("System Context diagram for Internet Banking System")
+legend()
+title("System Context diagram for Internet Banking System")
 
 Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
 Enterprise("enterprise", "Big Bank pic") {

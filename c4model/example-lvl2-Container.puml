@@ -4,8 +4,8 @@
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
 
-showLegend()
-showTitle("Container diagram for Internet Banking System")
+legend()
+title("Container diagram for Internet Banking System")
 
 Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
 SystemBoundary("ibs", "Internet Banking System") {

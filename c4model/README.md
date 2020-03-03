@@ -123,7 +123,7 @@ p1 -> s1 : Relationship("an optional name", "optional technology")
 ```plantuml
 @startuml
 !includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/c4model/c4-all.puml
-showTitle("the name of the diagram", "an optional date", "an optional version")
+title("the title of the diagram", "an optional subtitle", "an optional version", "an optional date")
 @enduml
 ```
 
@@ -134,7 +134,7 @@ showTitle("the name of the diagram", "an optional date", "an optional version")
 ```plantuml
 @startuml
 !includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/c4model/c4-all.puml
-showLegend()
+legend()
 @enduml
 ```
 
