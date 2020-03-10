@@ -1,0 +1,41 @@
+{
+  "name": "@tmorin/plantuml-libs",
+  "version": "1.0.0-alpha.3",
+  "description": "Set of libraries for [PlantUML](http://plantuml.com).",
+  "license": "MIT",
+  "homepage": "https://github.com/tmorin/plantuml-libs#readme",
+  "bugs": {
+    "url": "https://github.com/tmorin/plantuml-libs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmorin/plantuml-libs.git"
+  },
+  "author": {
+    "name": "Thibault Morin",
+    "url": "https://tmorin.github.io"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "release": "npm test && standard-version",
+    "release:publish": "git push --tags && git push --all && npm publish --tag latest",
+    "alpha": "npm test && standard-version --skip.changelog --skip.tag --prerelease alpha",
+    "alpha:publish": "git push --tags && git push --all && npm publish --tag canary",
+    "test": "test/test.sh"
+  },
+  "bin": {
+    "gdiag": "bin/gdiag.js"
+  },
+  "devDependencies": {
+    "standard-version": "^8.0.0"
+  },
+  "dependencies": {
+    "glob": "^7.1.6",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "winston": "^3.2.1",
+    "yargs": "^15.3.1"
+  }
+}

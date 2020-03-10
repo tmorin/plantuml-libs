@@ -1,0 +1,29 @@
+image: ubuntu/latest
+environment:
+  NVM_DIR: "/home/build/.nvm"
+sources:
+  - https://github.com/tmorin/plantuml-libs.git
+secrets:
+  - acf6b9a6-072c-47ec-8af0-304017a5fcec
+packages:
+  - curl
+  - openjdk-11-jre-headless
+tasks:
+  - git: |
+      cd plantuml-libs
+      git fetch origin ${GITHUB_REF}
+      #git fetch origin feat/transform-to-npm-package
+      git checkout FETCH_HEAD -b build
+  - tools: |
+      set +x
+      wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.1/install.sh | bash
+      . $NVM_DIR/nvm.sh
+      nvm install --lts
+      echo '. $NVM_DIR/nvm.sh' >> ~/.buildenv
+      set -x
+  - install: |
+      cd plantuml-libs
+      npm ci --no-progress
+  - test: |
+      cd plantuml-libs
+      npm run test
