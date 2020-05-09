@@ -4,9 +4,9 @@ VT273iD0309Gk1Zk_x-uoqbZ5QbedCVBn1bAc94ukXQxC5ExJOWm8SA426DUmaE42P5c22x6qUOIX-q5
 ijOf0BeD2CJn4G3L9jCYJ8Wm8QRvBxeFKNbDYbzZpFY-uWa
 }
 
-!function AzureGroupNetwork($id, $name="Network", $tech="")
+!procedure AzureGroupNetwork($id, $name="Network", $tech="")
   CloudGroup($id, "AzureGroupNetwork", "<$AzureGroupNetworkLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AzureGroupNetwork>> {
   StereotypeFontColor $AZURE_BLUE
   BorderThickness 1

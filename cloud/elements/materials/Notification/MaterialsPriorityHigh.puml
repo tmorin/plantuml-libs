@@ -3,10 +3,10 @@ sprite $MaterialsPriorityHighLg [20x20/16z] Oo0HCB6mCA6BiVBpimubCOG_20D6DZP6BEQn
 
 sprite $MaterialsPriorityHighMd [14x14/16z] Oy02c9YGE8pSt8n8F1uUQl3Os60yJC3EZcmx9oSZCXUhDW
 
-!function MaterialsPriorityHigh($id, $name="Priority High", $tech="")
+!procedure MaterialsPriorityHigh($id, $name="Priority High", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPriorityHigh', $name, $tech)
-!endfunction
-!function MaterialsPriorityHighCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPriorityHighCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPriorityHighMd>', 'Priority High', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

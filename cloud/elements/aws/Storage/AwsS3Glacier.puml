@@ -6,10 +6,10 @@ IJdnXXy
 
 sprite $AwsS3GlacierMd [14x14/16z] VOd70OGm30JlW0tgls4KI2-FhJ3QM6CMSejOqs8RGIL4XvBDgXZBF1LjSnGFVOtHzC2UMLiEfxdD8fN4cXC
 
-!function AwsS3Glacier($id, $name="S3 Glacier", $tech="")
+!procedure AwsS3Glacier($id, $name="S3 Glacier", $tech="")
   CloudElement($id, 'aws/Storage/AwsS3Glacier', $name, $tech)
-!endfunction
-!function AwsS3GlacierCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsS3GlacierCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsS3GlacierMd>', 'S3 Glacier', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

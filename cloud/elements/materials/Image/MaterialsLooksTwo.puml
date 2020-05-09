@@ -3,10 +3,10 @@ sprite $MaterialsLooksTwoLg [20x20/16z] ZP053a0X34Cd9JZS_xJVNNcnPTvIEu83CgTIFP2c
 
 sprite $MaterialsLooksTwoMd [14x14/16z] NOw50G0n20C_fDu2-q_xxbV5C_s0d60pgfxKrHHrxwsljyfkAO5uMrOIr-Uql12FfG8MVoocOkykVEfwQ_t8_4p_Alko
 
-!function MaterialsLooksTwo($id, $name="Looks Two", $tech="")
+!procedure MaterialsLooksTwo($id, $name="Looks Two", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLooksTwo', $name, $tech)
-!endfunction
-!function MaterialsLooksTwoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLooksTwoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLooksTwoMd>', 'Looks Two', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

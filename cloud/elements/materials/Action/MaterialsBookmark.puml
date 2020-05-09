@@ -3,10 +3,10 @@ sprite $MaterialsBookmarkLg [20x20/16z] Oo05CBD00JDSY9KV3bXXOkm8CVOXByR3Wox6nSh4
 
 sprite $MaterialsBookmarkMd [14x14/16z] Oq07Z4nWm0ZXSV220GT4YeiV3BWOQSZZPcFZXl7OMHc190ixaCG7
 
-!function MaterialsBookmark($id, $name="Bookmark", $tech="")
+!procedure MaterialsBookmark($id, $name="Bookmark", $tech="")
   CloudElement($id, 'materials/Action/MaterialsBookmark', $name, $tech)
-!endfunction
-!function MaterialsBookmarkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBookmarkCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBookmarkMd>', 'Bookmark', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

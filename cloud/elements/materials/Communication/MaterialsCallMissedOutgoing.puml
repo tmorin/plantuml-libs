@@ -3,10 +3,10 @@ sprite $MaterialsCallMissedOutgoingLg [20x20/16z] lSY54G0n24HHY7lwh_PaTuOI-56U-A
 
 sprite $MaterialsCallMissedOutgoingMd [14x14/16z] fSS50S0m30J0CWJysrtGm1hyAxzhL3djI6cOnpYGMqdMlQx8MS-iH-GyKsujGS5BVG
 
-!function MaterialsCallMissedOutgoing($id, $name="Call Missed Outgoing", $tech="")
+!procedure MaterialsCallMissedOutgoing($id, $name="Call Missed Outgoing", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCallMissedOutgoing', $name, $tech)
-!endfunction
-!function MaterialsCallMissedOutgoingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallMissedOutgoingCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallMissedOutgoingMd>', 'Call Missed Outgoing', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ SefSM4NOGppOv8vXGtpFLHr-mGe
 
 sprite $AzureDatabricksMd [13x14/16z] HOw30G0m3C1g_V_lZ0mrO28c21isTpUUAgblbC3yOvbnr1XgZRVLIjJnHSJu5L5y-aRS1NVsgQmbTbLv7dD81vxcKjSE4bKL0XlKK9nA1m
 
-!function AzureDatabricks($id, $name="Databricks", $tech="")
+!procedure AzureDatabricks($id, $name="Databricks", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureDatabricks', $name, $tech)
-!endfunction
-!function AzureDatabricksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDatabricksCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDatabricksMd>', 'Databricks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

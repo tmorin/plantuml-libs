@@ -6,10 +6,10 @@ bA5C50tljcVkIu-lMO8yPrvsisEtumQgnmqUjthSzFCD
 
 sprite $MaterialsLanguageMd [14x14/16z] PKw54S102Fi3SjZ-yzOjVTp9c4ZW3haIPEKcE1ENa4ryJwNDIhNCMlOvh_9TQskw3cnkKtNEU9Alq0V-piZ-j08
 
-!function MaterialsLanguage($id, $name="Language", $tech="")
+!procedure MaterialsLanguage($id, $name="Language", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLanguage', $name, $tech)
-!endfunction
-!function MaterialsLanguageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLanguageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLanguageMd>', 'Language', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

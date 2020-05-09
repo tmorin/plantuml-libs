@@ -6,10 +6,10 @@ URXExFw24G
 
 sprite $AwsPersonalHealthDashboardMd [14x14/16z] XSYr0S0m40J1o4Vzzok6p5hXVFuJQPDQi01v4kuJnUoYu_3pb6YG43K50cex8wh5h0otdSk6cvHd5G
 
-!function AwsPersonalHealthDashboard($id, $name="Personal Health Dashboard", $tech="")
+!procedure AwsPersonalHealthDashboard($id, $name="Personal Health Dashboard", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsPersonalHealthDashboard', $name, $tech)
-!endfunction
-!function AwsPersonalHealthDashboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsPersonalHealthDashboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsPersonalHealthDashboardMd>', 'Personal Health Dashboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

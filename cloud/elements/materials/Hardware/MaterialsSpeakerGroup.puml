@@ -6,10 +6,10 @@ NT3LOK0X44JHdJMSwR_QU9vmFm-E_0ReJv0hrFbRryjqaTLpaN7Rvb2HSfddjtM8v6NPlcsd-ZYCgqyU
 
 sprite $MaterialsSpeakerGroupMd [14x14/16z] HOw50S0m20JX8Hxw-qzRRtCHNEJ2_CHKRZ3PQZ2z5eTAORxqPE24rYUM7HjhYMLbm6P-hORIaJ-hOjBzimOyeNuMcrlvkcZjuppsMA8tSk4jNxnRgld5RHq
 
-!function MaterialsSpeakerGroup($id, $name="Speaker Group", $tech="")
+!procedure MaterialsSpeakerGroup($id, $name="Speaker Group", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsSpeakerGroup', $name, $tech)
-!endfunction
-!function MaterialsSpeakerGroupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSpeakerGroupCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSpeakerGroupMd>', 'Speaker Group', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

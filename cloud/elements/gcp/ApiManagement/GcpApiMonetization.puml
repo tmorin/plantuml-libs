@@ -6,10 +6,10 @@ NI2uNV6U3VwTxRi6hfLZpvfguPf-rNu2
 
 sprite $GcpApiMonetizationMd [14x14/16z] JSx50GGW44FH897-6yPN_ksX0w2qKm4sv9CEUrvzeJexEwu0BwY4QBxOyeMujUYpyRGtNTkAImtSBwoSwFl3hlx_pkza2tw3_gQU
 
-!function GcpApiMonetization($id, $name="Api Monetization", $tech="")
+!procedure GcpApiMonetization($id, $name="Api Monetization", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpApiMonetization', $name, $tech)
-!endfunction
-!function GcpApiMonetizationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpApiMonetizationCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpApiMonetizationMd>', 'Api Monetization', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

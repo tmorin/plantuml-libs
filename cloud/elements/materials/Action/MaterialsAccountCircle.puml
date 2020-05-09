@@ -6,10 +6,10 @@ OHvr3RPpHt7dUbUewuAC4qEcx9lFI-Xepsz9O2sa0vuyA2cLuS4VhnwU_j4D
 
 sprite $MaterialsAccountCircleMd [14x14/16z] PKu54iH025j3fkIQ_xzsVQo7Eqb_LCHCoaq4V1v2Ja9gpagkj81lcUubocwnfTIucpOTL36TxInCn69dGi_hM7RAkgBdaMAzb9_asPhkVW_tW7oGVMa
 
-!function MaterialsAccountCircle($id, $name="Account Circle", $tech="")
+!procedure MaterialsAccountCircle($id, $name="Account Circle", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAccountCircle', $name, $tech)
-!endfunction
-!function MaterialsAccountCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAccountCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAccountCircleMd>', 'Account Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

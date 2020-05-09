@@ -6,10 +6,10 @@ mRwIvADpYnYYU-eVuKOgMNIJtFaXJ_X16jHwFodT-Wy
 
 sprite $AzureUserPermissionsMd [13x14/16z] JSt70S0m24DHLv3OV-0exl_4Sqqg6savpIoKpxam_jf03QM34ze1tCPMXa07nXkD0YaCmIKNklUi-fZr55ek7MrzeZC658iP3Enu02xG6Vm
 
-!function AzureUserPermissions($id, $name="User Permissions", $tech="")
+!procedure AzureUserPermissions($id, $name="User Permissions", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUserPermissions', $name, $tech)
-!endfunction
-!function AzureUserPermissionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserPermissionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserPermissionsMd>', 'User Permissions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

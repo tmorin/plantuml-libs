@@ -6,10 +6,10 @@ x4EG75RZ8HdIY12Vksd5t42Au9q0GMJe-8-4Ph4d1sHnV3AfH5VvEgNexg039Yduo2NYjNi1
 
 sprite $AzureNoncompliantAppsMd [13x14/16z] JOg50KKn20ChuG9q_tc_oxiAH3PVOWqwF_GUf401IWtiSyXpuYBwBMGhh9Nx9RJcIcklPyrKTLVvAP83uSTdWRhMwXO5H5foJVa1oghK-13TCNxifty7
 
-!function AzureNoncompliantApps($id, $name="Noncompliant Apps", $tech="")
+!procedure AzureNoncompliantApps($id, $name="Noncompliant Apps", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureNoncompliantApps', $name, $tech)
-!endfunction
-!function AzureNoncompliantAppsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNoncompliantAppsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNoncompliantAppsMd>', 'Noncompliant Apps', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

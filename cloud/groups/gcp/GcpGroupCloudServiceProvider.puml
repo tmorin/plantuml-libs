@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupCloudServiceProvider($id, $name="Cloud Service Provider", $tech="")
+!procedure GcpGroupCloudServiceProvider($id, $name="Cloud Service Provider", $tech="")
   CloudGroup($id, "GcpGroupCloudServiceProvider", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupCloudServiceProvider>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

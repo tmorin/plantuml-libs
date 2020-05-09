@@ -6,10 +6,10 @@ QBtaWGelb4lqhpi
 
 sprite $MaterialsLibraryBooksMd [14x14/16z] NSh50G0X30J0U73wh_PSWFcjm0hDRtmcwJ4SOdK0GccCftWafsSBzKvDw9IUpKH5D7z9hFN-FwK-YNkhzPYwdGbORdWafHl2WVt1iDe1
 
-!function MaterialsLibraryBooks($id, $name="Library Books", $tech="")
+!procedure MaterialsLibraryBooks($id, $name="Library Books", $tech="")
   CloudElement($id, 'materials/Av/MaterialsLibraryBooks', $name, $tech)
-!endfunction
-!function MaterialsLibraryBooksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLibraryBooksCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLibraryBooksMd>', 'Library Books', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

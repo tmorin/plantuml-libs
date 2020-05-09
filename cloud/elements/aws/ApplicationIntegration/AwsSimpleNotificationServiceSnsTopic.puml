@@ -3,10 +3,10 @@ sprite $AwsSimpleNotificationServiceSnsTopicLg [20x20/16z] TT310KCH54JHP-x8xx_Z0
 
 sprite $AwsSimpleNotificationServiceSnsTopicMd [14x14/16z] VSk50S0W30J0lEq_SjqB71gh5_b1OU5GJ50Nn7cmLbxtvjdvYGR6SrmtkR_rCWC
 
-!function AwsSimpleNotificationServiceSnsTopic($id, $name="Simple Notification Service Sns Topic", $tech="")
+!procedure AwsSimpleNotificationServiceSnsTopic($id, $name="Simple Notification Service Sns Topic", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleNotificationServiceSnsTopic', $name, $tech)
-!endfunction
-!function AwsSimpleNotificationServiceSnsTopicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleNotificationServiceSnsTopicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleNotificationServiceSnsTopicMd>', 'Simple Notification Service Sns Topic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

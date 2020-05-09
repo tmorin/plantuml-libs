@@ -3,10 +3,10 @@ sprite $MaterialsFormatStrikethroughLg [20x20/16z] jSv30aG130FGrEFU_xJZR-iLsGORg
 
 sprite $MaterialsFormatStrikethroughMd [14x14/16z] VOo30S10303xZhF_jBLrCRj_Igrbiha8oEpEZ64fGnI98MoxeRLmEjq70NR2L6xiyrB2wOpe-UMV0G
 
-!function MaterialsFormatStrikethrough($id, $name="Format Strikethrough", $tech="")
+!procedure MaterialsFormatStrikethrough($id, $name="Format Strikethrough", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatStrikethrough', $name, $tech)
-!endfunction
-!function MaterialsFormatStrikethroughCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatStrikethroughCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatStrikethroughMd>', 'Format Strikethrough', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

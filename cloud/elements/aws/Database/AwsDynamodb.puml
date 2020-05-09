@@ -6,10 +6,10 @@ Qf02gfW_HaevMdIAfSyISh5JB8sOD7wtVF9Qx0QN6tm
 
 sprite $AwsDynamodbMd [14x14/16z] LScxTGL04CBGQ0J3zj-lyRw_idkKP5_P-M5X0Rhi6UyouwUGjEWf6NhVRp7RpkcJmBdAoFJd_GP8xiDDIdawBSdvh-fkRtty1m
 
-!function AwsDynamodb($id, $name="Dynamodb", $tech="")
+!procedure AwsDynamodb($id, $name="Dynamodb", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodb', $name, $tech)
-!endfunction
-!function AwsDynamodbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbMd>', 'Dynamodb', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

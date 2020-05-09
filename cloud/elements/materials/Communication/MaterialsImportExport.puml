@@ -3,10 +3,10 @@ sprite $MaterialsImportExportLg [20x20/16z] bL2r0G0n28nxmlxJldN0lL42f-RVMBqAFQZL
 
 sprite $MaterialsImportExportMd [14x14/16z] XSUr0S0m30J0brcu_xXfmkJh3XEbqv4iqKujunIa3j1bFRqFj6txAAUqa7ngBvXO
 
-!function MaterialsImportExport($id, $name="Import Export", $tech="")
+!procedure MaterialsImportExport($id, $name="Import Export", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsImportExport', $name, $tech)
-!endfunction
-!function MaterialsImportExportCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsImportExportCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsImportExportMd>', 'Import Export', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

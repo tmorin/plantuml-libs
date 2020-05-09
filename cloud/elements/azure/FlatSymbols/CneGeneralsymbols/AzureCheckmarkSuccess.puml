@@ -3,10 +3,10 @@ sprite $AzureCheckmarkSuccessLg [18x20/16z] hL350S1032e4zb-vtqYzbryCssensW1o6uN5
 
 sprite $AzureCheckmarkSuccessMd [13x14/16z] RSor0G1120H0rlel-LtEID2X_X3_cj5NmyP_5BQBHXjBNRtM1TbeHVZUGh7yQJgDBhsB7G
 
-!function AzureCheckmarkSuccess($id, $name="Checkmark Success", $tech="")
+!procedure AzureCheckmarkSuccess($id, $name="Checkmark Success", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCheckmarkSuccess', $name, $tech)
-!endfunction
-!function AzureCheckmarkSuccessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCheckmarkSuccessCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCheckmarkSuccessMd>', 'Checkmark Success', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

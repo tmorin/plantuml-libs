@@ -9,10 +9,10 @@ VO_50S0m30DF9kq_SPbU3SSWG5r0pN6so2aHOxi3rQG3jS_H8coXkG8Zj0KKoZqqoHc8AQaEgDGPcDvU
 WilS2W
 }
 
-!function AzureResourceGroups($id, $name="Resource Groups", $tech="")
+!procedure AzureResourceGroups($id, $name="Resource Groups", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureResourceGroups', $name, $tech)
-!endfunction
-!function AzureResourceGroupsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureResourceGroupsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureResourceGroupsMd>', 'Resource Groups', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

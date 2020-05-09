@@ -6,10 +6,10 @@ PrpRUm_6CGJr2lSKZni
 
 sprite $MaterialsSlowMotionVideoMd [14x14/16z] PKw50G0W29Em_VzTk-c6AK6eiSfAd0RGNey4e3cmkdTg0YtrTLZh6ZXI8yBMIgb6PB_icVokV1_Ezm_PJmK
 
-!function MaterialsSlowMotionVideo($id, $name="Slow Motion Video", $tech="")
+!procedure MaterialsSlowMotionVideo($id, $name="Slow Motion Video", $tech="")
   CloudElement($id, 'materials/Av/MaterialsSlowMotionVideo', $name, $tech)
-!endfunction
-!function MaterialsSlowMotionVideoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSlowMotionVideoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSlowMotionVideoMd>', 'Slow Motion Video', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

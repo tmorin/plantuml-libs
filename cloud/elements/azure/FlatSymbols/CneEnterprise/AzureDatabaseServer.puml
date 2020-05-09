@@ -6,10 +6,10 @@ Em4
 
 sprite $AzureDatabaseServerMd [11x14/16z] JOm53W1120FNXVR_xxt5afiOr415QYc5CDexiUQSI_IaoeITaOtJGgFgkQVkN3-FOkV1WtvImTbxnBdN-f-RoHqNbFK1
 
-!function AzureDatabaseServer($id, $name="Database Server", $tech="")
+!procedure AzureDatabaseServer($id, $name="Database Server", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDatabaseServer', $name, $tech)
-!endfunction
-!function AzureDatabaseServerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDatabaseServerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDatabaseServerMd>', 'Database Server', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

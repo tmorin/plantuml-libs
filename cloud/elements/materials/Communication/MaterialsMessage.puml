@@ -3,10 +3,10 @@ sprite $MaterialsMessageLg [20x20/16z] bS-35S10303GCyBzfwtj_kSuvf9rExOF5U4DALtGi
 
 sprite $MaterialsMessageMd [14x14/16z] TSc53S0m4C30vB7S_QSjXF64baqDDK5Zz4xqBoL7VGauuejzSNZen6UTy5PrLb-9V7Ko1VOhCWKmKoy
 
-!function MaterialsMessage($id, $name="Message", $tech="")
+!procedure MaterialsMessage($id, $name="Message", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsMessage', $name, $tech)
-!endfunction
-!function MaterialsMessageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMessageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMessageMd>', 'Message', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

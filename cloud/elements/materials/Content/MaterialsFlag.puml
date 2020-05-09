@@ -3,10 +3,10 @@ sprite $MaterialsFlagLg [20x20/16z] jSX50W0X241Hk-F-frLWCztZDtdiOyfeoCYvsKevlhNi
 
 sprite $MaterialsFlagMd [14x14/16z] XSV50S0m30H1CmZxhpQSUmNM84tuhhPQQxmGoRTQAGdQg_yI4OLcYh6vNHfn-r9A4Rg2mF3I2W
 
-!function MaterialsFlag($id, $name="Flag", $tech="")
+!procedure MaterialsFlag($id, $name="Flag", $tech="")
   CloudElement($id, 'materials/Content/MaterialsFlag', $name, $tech)
-!endfunction
-!function MaterialsFlagCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFlagCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFlagMd>', 'Flag', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

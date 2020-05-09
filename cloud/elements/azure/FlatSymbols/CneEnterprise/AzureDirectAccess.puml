@@ -6,10 +6,10 @@ p6MHudoTJc948jVnaWL4pQueASNmPqP2Ho1POd8_
 
 sprite $AzureDirectAccessMd [16x14/16z] NSn50a1120BGAGNZ_jVzdVDs1fGRSXVl7EuU-Swkgipf_vtrcfjSUCwWRW3JQnxRSuFyvgxZcQNMscepYKqMCUwCUp6ZTD73EERi4GJ0I5Nt2Cl0pjE7R5O
 
-!function AzureDirectAccess($id, $name="Direct Access", $tech="")
+!procedure AzureDirectAccess($id, $name="Direct Access", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDirectAccess', $name, $tech)
-!endfunction
-!function AzureDirectAccessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDirectAccessCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDirectAccessMd>', 'Direct Access', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

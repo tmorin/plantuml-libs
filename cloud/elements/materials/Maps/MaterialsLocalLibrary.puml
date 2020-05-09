@@ -6,10 +6,10 @@ u5ACRjGF
 
 sprite $MaterialsLocalLibraryMd [14x14/16z] ZKu30W112BncZUh_hptRsKrp9VAUjiofkjiC_P2r_JY6f9Q0teLI1yUgxDnWvsoW7rdcESaOWC1brUn0TyWswW
 
-!function MaterialsLocalLibrary($id, $name="Local Library", $tech="")
+!procedure MaterialsLocalLibrary($id, $name="Local Library", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalLibrary', $name, $tech)
-!endfunction
-!function MaterialsLocalLibraryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalLibraryCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalLibraryMd>', 'Local Library', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

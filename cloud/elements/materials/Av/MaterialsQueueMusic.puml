@@ -3,10 +3,10 @@ sprite $MaterialsQueueMusicLg [20x20/16z] lSe34i0m443HHSpxdxOEnzLhepyBls1RCAXjfw
 
 sprite $MaterialsQueueMusicMd [14x14/16z] ZScr0S0m30H0qOTX_sdDjgh0LG_q7riXfAQf8PkKrzdosIoSovAjgAr-UItVd0ZPifLF4fRpBgsIurx8AOJUHG
 
-!function MaterialsQueueMusic($id, $name="Queue Music", $tech="")
+!procedure MaterialsQueueMusic($id, $name="Queue Music", $tech="")
   CloudElement($id, 'materials/Av/MaterialsQueueMusic', $name, $tech)
-!endfunction
-!function MaterialsQueueMusicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsQueueMusicCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsQueueMusicMd>', 'Queue Music', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

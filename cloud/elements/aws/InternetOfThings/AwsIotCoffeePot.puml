@@ -6,10 +6,10 @@ dF2xLuneh79cTEwQF9pQLXdXrd9xGZOUjsPAhSnN9RwzYIrHZCyPBAs5VsRrSwR_wGq
 
 sprite $AwsIotCoffeePotMd [14x14/16z] LOw5OGGm30CDKhh_nitf-G9cA6ZkarNO0ZGB4gaQen6LUiuvGgkMhzhZmL-o_cwAtKfyFOX9fdRJcKoUqtejHCRxaXow7fjGahGyz9-j_m4
 
-!function AwsIotCoffeePot($id, $name="Iot Coffee Pot", $tech="")
+!procedure AwsIotCoffeePot($id, $name="Iot Coffee Pot", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotCoffeePot', $name, $tech)
-!endfunction
-!function AwsIotCoffeePotCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotCoffeePotCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotCoffeePotMd>', 'Iot Coffee Pot', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

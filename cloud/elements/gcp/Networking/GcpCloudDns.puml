@@ -6,10 +6,10 @@ Qa9RwG-O2iOBtJFT9UMNPqIq7gv_koYxTd2H_rsfxDgf_5mx_Ur-1m
 
 sprite $GcpCloudDnsMd [14x14/16z] HKw50S0m38g7_oyUPLQD8MRcgUKCcSngZT82iCkdcCGoYT9hri1CPF9loyNsyadTqvhkgRxXJAfQcIQ7fJELOicgF9L7OOOlGkhFwiyPatsC_gul
 
-!function GcpCloudDns($id, $name="Cloud Dns", $tech="")
+!procedure GcpCloudDns($id, $name="Cloud Dns", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudDns', $name, $tech)
-!endfunction
-!function GcpCloudDnsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudDnsCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudDnsMd>', 'Cloud Dns', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

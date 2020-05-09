@@ -6,10 +6,10 @@ iIFVjTRWQ70qE0C
 
 sprite $AwsIotSitewiseMd [14x14/16z] TSg54KHH24FH5SWbh_z-lxlWPmOFKMlW4ttY3EaWWNObvAHc8sLAZ6eLOHWceuWivQhnD_wux46ZmLEC6FskbJq
 
-!function AwsIotSitewise($id, $name="Iot Sitewise", $tech="")
+!procedure AwsIotSitewise($id, $name="Iot Sitewise", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotSitewise', $name, $tech)
-!endfunction
-!function AwsIotSitewiseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotSitewiseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotSitewiseMd>', 'Iot Sitewise', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

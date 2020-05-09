@@ -9,10 +9,10 @@ TP07ZaCn24I_6Ko__tdNY4rFHa-5NgA-AGwVwi0YD1YeENw_D6493uGZ3AcNjtixn4cDJCa5BkF-Q39k
 ipSS6R8Nd7DwbH4jp3dVZ__ngZy
 }
 
-!function AzureKeyboard($id, $name="Keyboard", $tech="")
+!procedure AzureKeyboard($id, $name="Keyboard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureKeyboard', $name, $tech)
-!endfunction
-!function AzureKeyboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureKeyboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureKeyboardMd>', 'Keyboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

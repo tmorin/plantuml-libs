@@ -6,10 +6,10 @@ MkGwIIVYpPDOV75Ol-yXtlu
 
 sprite $AwsElasticBeanstalkDeploymentMd [14x14/16z] dOh70SD00C84ulOVEJqUm7ne8iu0tOwnrdGcPxR7V6xL80ZKQf48bHRR6deH-YtbeytqNzZnoc206-qgJm
 
-!function AwsElasticBeanstalkDeployment($id, $name="Elastic Beanstalk Deployment", $tech="")
+!procedure AwsElasticBeanstalkDeployment($id, $name="Elastic Beanstalk Deployment", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticBeanstalkDeployment', $name, $tech)
-!endfunction
-!function AwsElasticBeanstalkDeploymentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBeanstalkDeploymentCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBeanstalkDeploymentMd>', 'Elastic Beanstalk Deployment', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ WtbyvKBnpFbPstiFZbw5qhEdFsC
 
 sprite $MaterialsInfoOutlineMd [14x14/16z] PKu54WGn2BkIPZBy_yE7hLUnoE-pZ19j4Zg1U3hHocyfK_D8W4WzXibiP3iZ8GUI0vgCh6o2UOPbxs9vArpgBsVlzGS
 
-!function MaterialsInfoOutline($id, $name="Info Outline", $tech="")
+!procedure MaterialsInfoOutline($id, $name="Info Outline", $tech="")
   CloudElement($id, 'materials/Action/MaterialsInfoOutline', $name, $tech)
-!endfunction
-!function MaterialsInfoOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInfoOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInfoOutlineMd>', 'Info Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

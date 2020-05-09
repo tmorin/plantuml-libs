@@ -3,10 +3,10 @@ sprite $MaterialsRestaurantLg [20x20/16z] lSc54S0m34DHoM4wxpzjcUcuF_o2noY042BpY-
 
 sprite $MaterialsRestaurantMd [14x14/16z] XSY50SH020J0nJdllzftbmGVy1vafnG1sEaqafBDm6tmKxP-g4RBgZSXrbgLxe9s9y36LLJbFAMz2Bml-FNfXFSu0W
 
-!function MaterialsRestaurant($id, $name="Restaurant", $tech="")
+!procedure MaterialsRestaurant($id, $name="Restaurant", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsRestaurant', $name, $tech)
-!endfunction
-!function MaterialsRestaurantCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRestaurantCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRestaurantMd>', 'Restaurant', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

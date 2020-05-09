@@ -6,10 +6,10 @@ hjVgJ5p7SQxCrR9sxjCZJLGlvUvnPYbBRSQUvSxChDY_8z88yv22yxc1BrqwXt7W4DRBc_wz_Ji
 
 sprite $AwsElasticLoadBalancingClassicLoadBalancerMd [14x14/16z] DOw74GD13081BNhtNx7dm-qaHK1Iw4rqCvtO2NCt560hHa7u7lugGeG3J9LMOd0li9vkjmkhf-jUspaTuBrQgqGOkaRXTN2iccYWtFGDyoPCx-Qavfxz0G
 
-!function AwsElasticLoadBalancingClassicLoadBalancer($id, $name="Elastic Load Balancing Classic Load Balancer", $tech="")
+!procedure AwsElasticLoadBalancingClassicLoadBalancer($id, $name="Elastic Load Balancing Classic Load Balancer", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsElasticLoadBalancingClassicLoadBalancer', $name, $tech)
-!endfunction
-!function AwsElasticLoadBalancingClassicLoadBalancerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticLoadBalancingClassicLoadBalancerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticLoadBalancingClassicLoadBalancerMd>', 'Elastic Load Balancing Classic Load Balancer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsKinesisLg [20x20/16z] fP254KC15C9g1EZ--zPTl-GuUIxRURX7FKEEUYPgbDTY9IA
 
 sprite $AwsKinesisMd [14x14/16z] ZSsr0O1030NG2hxilo_EkRqg7W_HLCn086R29RH9x0yylIlPReqiJjPNG33xxXKd
 
-!function AwsKinesis($id, $name="Kinesis", $tech="")
+!procedure AwsKinesis($id, $name="Kinesis", $tech="")
   CloudElement($id, 'aws/Analytics/AwsKinesis', $name, $tech)
-!endfunction
-!function AwsKinesisCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsKinesisCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsKinesisMd>', 'Kinesis', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

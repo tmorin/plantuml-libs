@@ -6,10 +6,10 @@ yzjlxnhypXu
 
 sprite $MaterialsRemoveRedEyeMd [14x14/16z] XOr50a0X448dRUN-f_sTAzzc4g0PBC9thwdLsf8UW_TcpDQwRuC1nkvi64PIKTa1vwsH_qGsti-Voo_XbpvZ1G
 
-!function MaterialsRemoveRedEye($id, $name="Remove Red Eye", $tech="")
+!procedure MaterialsRemoveRedEye($id, $name="Remove Red Eye", $tech="")
   CloudElement($id, 'materials/Image/MaterialsRemoveRedEye', $name, $tech)
-!endfunction
-!function MaterialsRemoveRedEyeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveRedEyeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveRedEyeMd>', 'Remove Red Eye', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ RSs50K8n54DHB3Sld_ttfOgdVchPgLVomZ_sqhsavTCGXjlIevEOXwLf3I4hObX36hlAf3IjrCnNwKgL
 
 sprite $AwsSimpleQueueServiceSqsMd [14x14/16z] LSnN0iCm28FX9_GZz_xthQ0ZYJm_3xpfR_pWRf5OdM2s5ADZVHxK2gp4AEhi2bL9_4HGqSaGo61F5NihzoXCDO9es82z-cRrUl0D
 
-!function AwsSimpleQueueServiceSqs($id, $name="Simple Queue Service Sqs", $tech="")
+!procedure AwsSimpleQueueServiceSqs($id, $name="Simple Queue Service Sqs", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleQueueServiceSqs', $name, $tech)
-!endfunction
-!function AwsSimpleQueueServiceSqsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleQueueServiceSqsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleQueueServiceSqsMd>', 'Simple Queue Service Sqs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

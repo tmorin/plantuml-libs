@@ -3,10 +3,10 @@ sprite $AwsDatabaseMigrationServiceLg [20x20/16z] fOz50a9H24KdSClzxzTM-2FZlAGXts
 
 sprite $AwsDatabaseMigrationServiceMd [14x14/16z] dSc53K0n30DHOUpB_lj-B0XBLtnAJhAUg0g3eqjwT31xQhByx2PicdX5Jhe1
 
-!function AwsDatabaseMigrationService($id, $name="Database Migration Service", $tech="")
+!procedure AwsDatabaseMigrationService($id, $name="Database Migration Service", $tech="")
   CloudElement($id, 'aws/Database/AwsDatabaseMigrationService', $name, $tech)
-!endfunction
-!function AwsDatabaseMigrationServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDatabaseMigrationServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDatabaseMigrationServiceMd>', 'Database Migration Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureNonMachineLg [12x20/16z] OsBdX09s41FEuKG17EnWm05Yip630Hj40WmuKG4UlK
 
 sprite $AzureNonMachineMd [9x14/16z] O-M4020D1smW06QmihA269Y0WmK4E40i4E340TZXoc5AK9K2
 
-!function AzureNonMachine($id, $name="Non Machine", $tech="")
+!procedure AzureNonMachine($id, $name="Non Machine", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureNonMachine', $name, $tech)
-!endfunction
-!function AzureNonMachineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNonMachineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNonMachineMd>', 'Non Machine', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

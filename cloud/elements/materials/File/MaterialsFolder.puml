@@ -3,10 +3,10 @@ sprite $MaterialsFolderLg [20x20/16z] Ow08CBC20HipiX0JDpy8yB0m8ednyKC4EI605Iw60B
 
 sprite $MaterialsFolderMd [14x14/16z] Oy07c5XPsLWPOJnsVY3WO041HX0F3jXGUEpKuZ6nmW4JNcS2
 
-!function MaterialsFolder($id, $name="Folder", $tech="")
+!procedure MaterialsFolder($id, $name="Folder", $tech="")
   CloudElement($id, 'materials/File/MaterialsFolder', $name, $tech)
-!endfunction
-!function MaterialsFolderCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFolderCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFolderMd>', 'Folder', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

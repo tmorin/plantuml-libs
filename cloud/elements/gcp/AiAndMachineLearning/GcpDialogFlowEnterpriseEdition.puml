@@ -6,10 +6,10 @@ PLTYDEp-g8kskOLinjU0P7UtK6y1b_yP_6Srjiqq2Zl0V_Ol
 
 sprite $GcpDialogFlowEnterpriseEditionMd [14x14/16z] LOu55aHH24AntV-AXuDJ_wKN4u25bj4az6YrC7TtXayId4QxDoK7Ig922Z7R6Gp9sOcHb1GOD2B0G9BpIXlrE0cMXBuEnGWklzAojzwJYSQ0vzGl
 
-!function GcpDialogFlowEnterpriseEdition($id, $name="Dialog Flow Enterprise Edition", $tech="")
+!procedure GcpDialogFlowEnterpriseEdition($id, $name="Dialog Flow Enterprise Edition", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpDialogFlowEnterpriseEdition', $name, $tech)
-!endfunction
-!function GcpDialogFlowEnterpriseEditionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpDialogFlowEnterpriseEditionCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpDialogFlowEnterpriseEditionMd>', 'Dialog Flow Enterprise Edition', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

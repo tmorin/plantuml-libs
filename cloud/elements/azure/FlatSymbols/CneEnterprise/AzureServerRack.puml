@@ -3,10 +3,10 @@ sprite $AzureServerRackLg [20x20/16z] ZP054iGm30Flse0b-V_VBGoKWXj6xrXU81-YatFmcn
 
 sprite $AzureServerRackMd [14x14/16z] TSv50eG0243H6PNytF-wTiVRqL0dfm0eSWjKb33MoCnIz4Iuk6x9s0Bf13SM-TpozKjcthR45bL4C
 
-!function AzureServerRack($id, $name="Server Rack", $tech="")
+!procedure AzureServerRack($id, $name="Server Rack", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerRack', $name, $tech)
-!endfunction
-!function AzureServerRackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServerRackCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServerRackMd>', 'Server Rack', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

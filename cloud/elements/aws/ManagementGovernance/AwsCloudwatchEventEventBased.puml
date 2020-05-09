@@ -3,10 +3,10 @@ sprite $AwsCloudwatchEventEventBasedLg [20x20/16z] fSg54GGX40NH7YN_ZE-V8wMx3--2M
 
 sprite $AwsCloudwatchEventEventBasedMd [14x14/16z] RKk50S0W38l-V_BS1zHYE5-Qy0GiQLyeW1w8i1-vbXVoWZPE6nA2fMGbkb6aF10vHALtframhPUEbwRpU9u1
 
-!function AwsCloudwatchEventEventBased($id, $name="Cloudwatch Event Event Based", $tech="")
+!procedure AwsCloudwatchEventEventBased($id, $name="Cloudwatch Event Event Based", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchEventEventBased', $name, $tech)
-!endfunction
-!function AwsCloudwatchEventEventBasedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudwatchEventEventBasedCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudwatchEventEventBasedMd>', 'Cloudwatch Event Event Based', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ NOrEOrs9v6uS6qsAJJdivMuPU-6q_i7r3pu
 
 sprite $AwsManagedServicesMd [14x14/16z] LSfB5WDH20BHYLBIsVz-8o_VPdPFuRDvprz-1U8hiLHqdT8jYAvfghk2I6eeYIWrhV44GrZOA-UpqYeSqAUT6HnzlNlSz0G
 
-!function AwsManagedServices($id, $name="Managed Services", $tech="")
+!procedure AwsManagedServices($id, $name="Managed Services", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsManagedServices', $name, $tech)
-!endfunction
-!function AwsManagedServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsManagedServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsManagedServicesMd>', 'Managed Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

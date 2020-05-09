@@ -3,10 +3,10 @@ sprite $MaterialsFunctionsLg [20x20/16z] fP2r0S0m30JD3FjF6-PSv-jUh1UZ66StdBbZiHz
 
 sprite $MaterialsFunctionsMd [14x14/16z] Oy0FcDXOsO202S9Zvk7duURcPcQ0SJcP61dXQfcvsL2qmha87gPAX2cODY1inmy
 
-!function MaterialsFunctions($id, $name="Functions", $tech="")
+!procedure MaterialsFunctions($id, $name="Functions", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFunctions', $name, $tech)
-!endfunction
-!function MaterialsFunctionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFunctionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFunctionsMd>', 'Functions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ cHg34wsEKUsg8j4L1m
 
 sprite $MaterialsAdbMd [14x14/16z] RSa54WCm24HHY5Bq_gUj9A7-n_RDmdUb8YBKSZXObKT-eX4gvvlKp1hD1MIX21B6nNRQ7rrMX4iSA_uZe2s2LRK7hCAkiJitoB1MNEC6
 
-!function MaterialsAdb($id, $name="Adb", $tech="")
+!procedure MaterialsAdb($id, $name="Adb", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAdb', $name, $tech)
-!endfunction
-!function MaterialsAdbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAdbCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAdbMd>', 'Adb', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

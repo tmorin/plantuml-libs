@@ -6,10 +6,10 @@ WBscbm9QREzreIEfEqT97eeZHm4uD1blyfh2bBW-VvF9IULy_bQXCqARySw3kyquFgdQxbBywmK
 
 sprite $AwsElasticacheForRedisMd [14x14/16z] HOs50G0n20E1vDBz9twNQt6hxfzA-4YK41ubiDQOMJ8mRYvQEYFegWQV4U03y904jLKYQ-ci6sICgWef6L4NO3oyaRhxgxttwgKVTmS
 
-!function AwsElasticacheForRedis($id, $name="Elasticache For Redis", $tech="")
+!procedure AwsElasticacheForRedis($id, $name="Elasticache For Redis", $tech="")
   CloudElement($id, 'aws/Database/AwsElasticacheForRedis', $name, $tech)
-!endfunction
-!function AwsElasticacheForRedisCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticacheForRedisCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticacheForRedisMd>', 'Elasticache For Redis', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

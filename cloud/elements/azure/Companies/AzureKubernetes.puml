@@ -9,10 +9,10 @@ DKw7WGD023h0kl_2Zv_4tkKTiQPe_qlMNFfFUarvfZrHxdGmshuUPbDAdjc1F0CLI_2MqdkP86mTUaKI
 n5rRlYCvkroE_m
 }
 
-!function AzureKubernetes($id, $name="Kubernetes", $tech="")
+!procedure AzureKubernetes($id, $name="Kubernetes", $tech="")
   CloudElement($id, 'azure/Companies/AzureKubernetes', $name, $tech)
-!endfunction
-!function AzureKubernetesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureKubernetesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureKubernetesMd>', 'Kubernetes', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

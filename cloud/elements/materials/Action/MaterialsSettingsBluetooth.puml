@@ -6,10 +6,10 @@ C3y8Uj0PDOOgkD5agUWTcc-x0m
 
 sprite $MaterialsSettingsBluetoothMd [14x14/16z] JKm55WGX548UsDx_kBjJTdmIpv9nB0_DCGhEUK8MsIvXmbnh9kPYQnj0OsY3d7UB2eyM4Mv72rmF01uW85ndeaI9wPx-
 
-!function MaterialsSettingsBluetooth($id, $name="Settings Bluetooth", $tech="")
+!procedure MaterialsSettingsBluetooth($id, $name="Settings Bluetooth", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsBluetooth', $name, $tech)
-!endfunction
-!function MaterialsSettingsBluetoothCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsBluetoothCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsBluetoothMd>', 'Settings Bluetooth', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

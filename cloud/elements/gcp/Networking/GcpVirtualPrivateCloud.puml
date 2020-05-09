@@ -6,10 +6,10 @@ hFc1RtlxQ_3JAiqkJT6vDFrftm
 
 sprite $GcpVirtualPrivateCloudMd [14x14/16z] LKw30G0m3CjMvV-7PxCA02GPAm4zyHZBHwfSIrkIOsUH0IDDtAN_aDOII3kjsHEwH8ZtsJzx9oalYxyApA-w7MSjYGJyhYi
 
-!function GcpVirtualPrivateCloud($id, $name="Virtual Private Cloud", $tech="")
+!procedure GcpVirtualPrivateCloud($id, $name="Virtual Private Cloud", $tech="")
   CloudElement($id, 'gcp/Networking/GcpVirtualPrivateCloud', $name, $tech)
-!endfunction
-!function GcpVirtualPrivateCloudCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpVirtualPrivateCloudCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpVirtualPrivateCloudMd>', 'Virtual Private Cloud', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

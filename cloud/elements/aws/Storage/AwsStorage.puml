@@ -6,10 +6,10 @@ ozcrn6QxnikPX1slt7ww0G
 
 sprite $AwsStorageMd [14x14/16z] LSvL0W0X24LHB6hslzzvsDw_Oq9lfVKgoaHiPXg9b2vb5l2eCLGXDnpYXjqXORIaF3Wrdba2umCBVNWbqY6F346bxJ0PfHtH3m
 
-!function AwsStorage($id, $name="Storage", $tech="")
+!procedure AwsStorage($id, $name="Storage", $tech="")
   CloudElement($id, 'aws/Storage/AwsStorage', $name, $tech)
-!endfunction
-!function AwsStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsStorageMd>', 'Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

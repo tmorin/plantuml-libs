@@ -3,10 +3,10 @@ sprite $MaterialsLocalOfferLg [20x20/16z] VSZ50SCm40J0qogSW_wh3TfUyJn7XXB-ohgvkP
 
 sprite $MaterialsLocalOfferMd [14x14/16z] LSV50S0m302nCCVUVzhY5QAV3E3poR6Smb1jD0VRz6qUHzvclL16NNkRpA_36qeeeOGcijW1
 
-!function MaterialsLocalOffer($id, $name="Local Offer", $tech="")
+!procedure MaterialsLocalOffer($id, $name="Local Offer", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalOffer', $name, $tech)
-!endfunction
-!function MaterialsLocalOfferCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalOfferCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalOfferMd>', 'Local Offer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

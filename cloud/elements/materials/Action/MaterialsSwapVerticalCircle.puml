@@ -6,10 +6,10 @@ OslfHx0CKSDLX1Bm6JN2sflwB-NL2wp9T2A3DLjuMexPlk_W-wuUE_sZ6m
 
 sprite $MaterialsSwapVerticalCircleMd [14x14/16z] PKw74GCX3CF2EZhilssYvFlhggqQNW1J8hQ3VNtH-J_MODAj4truC9qTedgoc3SohJNWYMEjzB-O7F-BqkHegKi9vISBFfJo9nD5FTlFPIzy
 
-!function MaterialsSwapVerticalCircle($id, $name="Swap Vertical Circle", $tech="")
+!procedure MaterialsSwapVerticalCircle($id, $name="Swap Vertical Circle", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSwapVerticalCircle', $name, $tech)
-!endfunction
-!function MaterialsSwapVerticalCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSwapVerticalCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSwapVerticalCircleMd>', 'Swap Vertical Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

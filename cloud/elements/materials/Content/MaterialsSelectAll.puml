@@ -6,10 +6,10 @@ x
 
 sprite $MaterialsSelectAllMd [14x14/16z] ZKs54S1038h1iV_2hsVrnXNi93vrXTcKmpD7AB_iuDGGElPE5L7QktI5MMWKf-vqUKBvoNwI3W
 
-!function MaterialsSelectAll($id, $name="Select All", $tech="")
+!procedure MaterialsSelectAll($id, $name="Select All", $tech="")
   CloudElement($id, 'materials/Content/MaterialsSelectAll', $name, $tech)
-!endfunction
-!function MaterialsSelectAllCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSelectAllCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSelectAllMd>', 'Select All', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

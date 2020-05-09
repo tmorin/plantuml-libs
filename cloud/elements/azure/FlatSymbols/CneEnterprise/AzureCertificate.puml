@@ -9,10 +9,10 @@ NO-50S1020D30-5j_tNhVgyu85jz8913E33I2RIOi1CfAGm51mf6kAUT2fSdgN2T2Z5jVygfI6fFvFdt
 BXR0DiO2
 }
 
-!function AzureCertificate($id, $name="Certificate", $tech="")
+!procedure AzureCertificate($id, $name="Certificate", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCertificate', $name, $tech)
-!endfunction
-!function AzureCertificateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCertificateCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCertificateMd>', 'Certificate', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ ToneVP4JkNOl1w1CurmzcyZobcBFPZwwwCiE_kpgiTC_kW4
 
 sprite $MaterialsExploreMd [14x14/16z] POvL0W11248Td2xkVzjrkzwN2SWFX9G2ZYPq6Zti3LTcAMkBTJEokjAnhugAwAGjasqKa4ochSi2w5YxzNAzA-HwYLwSPjkmGsnPokHA-BdVoNui
 
-!function MaterialsExplore($id, $name="Explore", $tech="")
+!procedure MaterialsExplore($id, $name="Explore", $tech="")
   CloudElement($id, 'materials/Action/MaterialsExplore', $name, $tech)
-!endfunction
-!function MaterialsExploreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsExploreCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsExploreMd>', 'Explore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

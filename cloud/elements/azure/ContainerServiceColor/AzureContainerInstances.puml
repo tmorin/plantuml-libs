@@ -6,10 +6,10 @@ F-PholdOAJ_RX8tvDMIjRrjtRVy
 
 sprite $AzureContainerInstancesMd [14x14/16z] XOjH0aHH1483sF-AfypzVmU009Z1gyiXeYghkyiuU9DCfj3frbRC0HLgADILMIMkQ9YTbuhopMFvObbJkh44IFsd0ZwdFDxKEsIRxGy
 
-!function AzureContainerInstances($id, $name="Container Instances", $tech="")
+!procedure AzureContainerInstances($id, $name="Container Instances", $tech="")
   CloudElement($id, 'azure/ContainerServiceColor/AzureContainerInstances', $name, $tech)
-!endfunction
-!function AzureContainerInstancesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureContainerInstancesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureContainerInstancesMd>', 'Container Instances', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

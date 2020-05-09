@@ -6,10 +6,10 @@ bK-50GGX32DfY-Tl_sdVtG-d4abVXx-9jNW9eIzFGKRHihaFecYqnnZgS3prvcdF79pneiKd3m2yZqN7
 
 sprite $MaterialsForward5Md [14x14/16z] ROs50S0W40EJuBx_jdNlmRlX3yTRm1pEK26ruVR09gkpngJRdFLpvfno5Z2QCpfgcZFUOaQ9uFoJjjOuMyNpH9onE97mmmG
 
-!function MaterialsForward5($id, $name="Forward5", $tech="")
+!procedure MaterialsForward5($id, $name="Forward5", $tech="")
   CloudElement($id, 'materials/Av/MaterialsForward5', $name, $tech)
-!endfunction
-!function MaterialsForward5Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsForward5Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsForward5Md>', 'Forward5', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

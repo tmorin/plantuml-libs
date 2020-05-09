@@ -6,10 +6,10 @@ nkNWn0qxryzi0G
 
 sprite $MaterialsRouterMd [14x14/16z] RSk30G0W4030h0_xJvjT5r_e2nEy_gnObHoGhJEl1JEq8Qg_jE2cpc487U1SSe8B9fWBZfH8YhnuYx1sdSPba7GvE2K
 
-!function MaterialsRouter($id, $name="Router", $tech="")
+!procedure MaterialsRouter($id, $name="Router", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsRouter', $name, $tech)
-!endfunction
-!function MaterialsRouterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRouterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRouterMd>', 'Router', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

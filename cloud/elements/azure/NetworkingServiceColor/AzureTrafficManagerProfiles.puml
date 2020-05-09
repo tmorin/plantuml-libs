@@ -9,10 +9,10 @@ FSxNOKKn30BGQz7a_HSEUOqlZgkUvu7O2Ar5MqEY68nsiocxCsSK9MjHDCu0sNjbQeDpK5phfnvwoQIy
 9Sji_GC
 }
 
-!function AzureTrafficManagerProfiles($id, $name="Traffic Manager Profiles", $tech="")
+!procedure AzureTrafficManagerProfiles($id, $name="Traffic Manager Profiles", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureTrafficManagerProfiles', $name, $tech)
-!endfunction
-!function AzureTrafficManagerProfilesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTrafficManagerProfilesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTrafficManagerProfilesMd>', 'Traffic Manager Profiles', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ bO-52KHH30J_yoZRVxNdoxaD5YQ-VQ3KMXxCj4oRjxOg405elLR9GRLsa5Be6Wwkb8D3evlGEKePKp7f
 
 sprite $MaterialsAddLocationMd [14x14/16z] RSf50iCm30LHewWmzpzjwIUhPZQsfDV-wijzzNC8geXZt30dR4sPUuoTALZ-GTrBDBZFUISa5vZ1qjGJ87jJwmdFsSuSN3zPkQCnsaLl
 
-!function MaterialsAddLocation($id, $name="Add Location", $tech="")
+!procedure MaterialsAddLocation($id, $name="Add Location", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsAddLocation', $name, $tech)
-!endfunction
-!function MaterialsAddLocationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAddLocationCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAddLocationMd>', 'Add Location', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

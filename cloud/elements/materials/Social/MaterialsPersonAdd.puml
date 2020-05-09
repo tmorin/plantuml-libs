@@ -6,10 +6,10 @@ srtYRjt3-iFq6S8FpG
 
 sprite $MaterialsPersonAddMd [14x14/16z] XSTL0eGm34NHUBrl_wkTmU4BJYMvz4tS7j60s3RJvG6el0GdPz89v2KqjvQPh2IXLVZwC-rKY3LIk1nTiHh1QsNifgvbuJkX5ty
 
-!function MaterialsPersonAdd($id, $name="Person Add", $tech="")
+!procedure MaterialsPersonAdd($id, $name="Person Add", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPersonAdd', $name, $tech)
-!endfunction
-!function MaterialsPersonAddCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPersonAddCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPersonAddMd>', 'Person Add', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

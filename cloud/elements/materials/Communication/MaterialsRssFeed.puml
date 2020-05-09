@@ -6,10 +6,10 @@ I1uuzokA6Qn01-gn0whHP7nAROg-qHy
 
 sprite $MaterialsRssFeedMd [14x14/16z] VKs54GD032AynA_xJrktiuyhu2Ya_7NhaZhm4U7otl_xMVPkLop1gFtgk3E8sPzVMWXSNxKEvi9AUJ4ejeFD9yCYk9xfA3S
 
-!function MaterialsRssFeed($id, $name="Rss Feed", $tech="")
+!procedure MaterialsRssFeed($id, $name="Rss Feed", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsRssFeed', $name, $tech)
-!endfunction
-!function MaterialsRssFeedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRssFeedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRssFeedMd>', 'Rss Feed', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

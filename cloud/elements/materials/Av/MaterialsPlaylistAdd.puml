@@ -3,10 +3,10 @@ sprite $MaterialsPlaylistAddLg [20x20/16z] hSm30W0X40NGdztS_xHh6xtS0CMn4IRS3RoSq
 
 sprite $MaterialsPlaylistAddMd [14x14/16z] ZSh50G0X30J01UBzzul3xsIGAFuhD64XuI6jAYrO9TkKU2tlYSoALPKX6j43Skcd_oOvurYRLrzurm
 
-!function MaterialsPlaylistAdd($id, $name="Playlist Add", $tech="")
+!procedure MaterialsPlaylistAdd($id, $name="Playlist Add", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPlaylistAdd', $name, $tech)
-!endfunction
-!function MaterialsPlaylistAddCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPlaylistAddCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPlaylistAddMd>', 'Playlist Add', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

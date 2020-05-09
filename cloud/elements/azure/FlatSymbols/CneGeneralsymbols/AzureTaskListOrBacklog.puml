@@ -3,10 +3,10 @@ sprite $AzureTaskListOrBacklogLg [16x20/16z] TSk74GDH30BH3ulxRzbSpc_YYf7PQLJGAb4
 
 sprite $AzureTaskListOrBacklogMd [11x14/16z] JOl50G0W30CZPV-HSMZl5VK5W8b5U4eSsVoa8smyfYGfQKk9aoKfQiAL4Y-TigRlXY-90rqO
 
-!function AzureTaskListOrBacklog($id, $name="Task List Or Backlog", $tech="")
+!procedure AzureTaskListOrBacklog($id, $name="Task List Or Backlog", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureTaskListOrBacklog', $name, $tech)
-!endfunction
-!function AzureTaskListOrBacklogCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTaskListOrBacklogCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTaskListOrBacklogMd>', 'Task List Or Backlog', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

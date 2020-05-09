@@ -6,10 +6,10 @@ nydvzVigmFgdevadfuZ7xmOhy-rtu-rS-joWBW_h8Zxe-Y_AKTlDPXpordVUmW8
 
 sprite $AzureCloudsimpleNodesMd [14x14/16z] JSo5OGCW50JGuupzDoxM90_d2mQNjuqpQKkEAwar1y0eyd13xLXsB2sJpZdBNNUuBgZTRb4Lm4tIQxsMBEybZfzCwpXTCBGaMWY0YxmxuyPixo3-
 
-!function AzureCloudsimpleNodes($id, $name="Cloudsimple Nodes", $tech="")
+!procedure AzureCloudsimpleNodes($id, $name="Cloudsimple Nodes", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureCloudsimpleNodes', $name, $tech)
-!endfunction
-!function AzureCloudsimpleNodesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudsimpleNodesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudsimpleNodesMd>', 'Cloudsimple Nodes', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

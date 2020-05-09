@@ -6,10 +6,10 @@ fL050WGX2AHj_Vzhhs-xTqmQ1cw1TGH-gIYr4HAzT7Migskwg26h5n6liIMDRvq72gX0uj1Untzrm5yT
 
 sprite $MaterialsFiberNewMd [14x14/16z] VOq50iGW30GXsSNb_w-zgtix43VpXN13ZF5zmqzHhQNKDaKEWHJGHxeXig8g1A1Zf6A7I5McY06KuG_HjgNLqltvmkNw5ty
 
-!function MaterialsFiberNew($id, $name="Fiber New", $tech="")
+!procedure MaterialsFiberNew($id, $name="Fiber New", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFiberNew', $name, $tech)
-!endfunction
-!function MaterialsFiberNewCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFiberNewCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFiberNewMd>', 'Fiber New', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

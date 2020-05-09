@@ -3,10 +3,10 @@ sprite $AwsElementalServerLg [20x20/16z] RS_50S0m34FHWorR-q_SXac__4f9rk8e1QR0d9q
 
 sprite $AwsElementalServerMd [14x14/16z] TOo74GGX4CCcMEpsN_6Zlvn4b3rGax5JycaZ45aCKmXBfoQB5P20sVA9XRHTS6fjcvHCKtqXhUwqN6tN7m
 
-!function AwsElementalServer($id, $name="Elemental Server", $tech="")
+!procedure AwsElementalServer($id, $name="Elemental Server", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalServer', $name, $tech)
-!endfunction
-!function AwsElementalServerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalServerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalServerMd>', 'Elemental Server', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

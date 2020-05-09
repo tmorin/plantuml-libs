@@ -6,10 +6,10 @@ RP250S1020EHF67_XIkfoxLlE9Zm7Jk9EebTvDKdjPkYRq0Yvrr66GvTnNeRQmBTa9a1QSEirXCU2mwk
 
 sprite $GcpGpuMd [14x14/16z] JOu50W0X20Hf-F-BRwxKCUaL4VK7vOjH_L2F6VCH6DOp3TmcaZpX7fWftXWMRBmON94PFlnUg-grpipnjqluRTGtOHxid9vB6KP_GhVg2m
 
-!function GcpGpu($id, $name="Gpu", $tech="")
+!procedure GcpGpu($id, $name="Gpu", $tech="")
   CloudElement($id, 'gcp/Compute/GcpGpu', $name, $tech)
-!endfunction
-!function GcpGpuCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpGpuCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpGpuMd>', 'Gpu', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

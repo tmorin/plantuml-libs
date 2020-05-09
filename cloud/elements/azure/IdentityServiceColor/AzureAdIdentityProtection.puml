@@ -3,10 +3,10 @@ sprite $AzureAdIdentityProtectionLg [20x20/16z] bO-50SGm3CIak-o_yZEMgw3P7cT9vYgO
 
 sprite $AzureAdIdentityProtectionMd [14x14/16z] ROx70O0030BXplrNjdVbbr277-ZzI6vdazuEFKzIRJWEEcCzNMMDnFagAqNNNBlvwf49jmeINik-c
 
-!function AzureAdIdentityProtection($id, $name="Ad Identity Protection", $tech="")
+!procedure AzureAdIdentityProtection($id, $name="Ad Identity Protection", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAdIdentityProtection', $name, $tech)
-!endfunction
-!function AzureAdIdentityProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAdIdentityProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAdIdentityProtectionMd>', 'Ad Identity Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

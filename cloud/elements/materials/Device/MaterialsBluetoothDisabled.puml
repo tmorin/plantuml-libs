@@ -6,10 +6,10 @@ uDxb6EnESt2YAJS
 
 sprite $MaterialsBluetoothDisabledMd [14x14/16z] RKp50O0m48jGx_xhuWxvt4Nn0-luE7-X7LH52BKSr4KQGk55cJm_5xqcrPikKcPSemuX76umGidnT16wSGtP-C44
 
-!function MaterialsBluetoothDisabled($id, $name="Bluetooth Disabled", $tech="")
+!procedure MaterialsBluetoothDisabled($id, $name="Bluetooth Disabled", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBluetoothDisabled', $name, $tech)
-!endfunction
-!function MaterialsBluetoothDisabledCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBluetoothDisabledCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBluetoothDisabledMd>', 'Bluetooth Disabled', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

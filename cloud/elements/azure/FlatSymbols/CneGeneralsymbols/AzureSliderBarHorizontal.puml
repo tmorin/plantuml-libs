@@ -3,10 +3,10 @@ sprite $AzureSliderBarHorizontalLg [122x20/16z] xTQr5G1130FHLMmzzz_jCJEZfe4V6S8P
 
 sprite $AzureSliderBarHorizontalMd [85x14/16z] Oo0VCF7oWG0tfWnD36Kc6p323ML2b-8b6x3336NaH9VY8niW6OekDKGC7JMK9acA9eb_wEHz
 
-!function AzureSliderBarHorizontal($id, $name="Slider Bar Horizontal", $tech="")
+!procedure AzureSliderBarHorizontal($id, $name="Slider Bar Horizontal", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarHorizontal', $name, $tech)
-!endfunction
-!function AzureSliderBarHorizontalCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSliderBarHorizontalCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSliderBarHorizontalMd>', 'Slider Bar Horizontal', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

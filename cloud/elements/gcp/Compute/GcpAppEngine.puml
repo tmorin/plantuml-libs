@@ -6,10 +6,10 @@ hOPxwOpmYEte-I2FsGuq_sJWh0xjdgca8zDNzYi
 
 sprite $GcpAppEngineMd [14x14/16z] LOw50GDH24E3i__49L2xznKF0B5501fPIwxftLqrbu-X_4JGfG3VT5yVh6XaqgmnAZpdUCpthB2pc5dkLsZORX4qyYQyqPj-n5SPqmLugdu1
 
-!function GcpAppEngine($id, $name="App Engine", $tech="")
+!procedure GcpAppEngine($id, $name="App Engine", $tech="")
   CloudElement($id, 'gcp/Compute/GcpAppEngine', $name, $tech)
-!endfunction
-!function GcpAppEngineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAppEngineCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAppEngineMd>', 'App Engine', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

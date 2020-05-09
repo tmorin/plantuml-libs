@@ -3,10 +3,10 @@ sprite $MaterialsFormatAlignCenterLg [20x20/16z] ZT035W0X403GxFjVTuqm-iyrLcBQ3VJ
 
 sprite $MaterialsFormatAlignCenterMd [14x14/16z] NSt50G0m20F0XEh-2zSrzyA1iACbJ7b9HCS1IynDn49hrbWugDcTr2loGR_R0L41
 
-!function MaterialsFormatAlignCenter($id, $name="Format Align Center", $tech="")
+!procedure MaterialsFormatAlignCenter($id, $name="Format Align Center", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatAlignCenter', $name, $tech)
-!endfunction
-!function MaterialsFormatAlignCenterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatAlignCenterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatAlignCenterMd>', 'Format Align Center', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

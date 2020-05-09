@@ -6,10 +6,10 @@ RL050e0m4FAI_V_35jYYsww3QOS9qmdl4owJzJZH2irnGp8CTnlsmA9SILzj3R1BRkQx5skRlK6lBhXa
 
 sprite $GcpCloudSqlMd [14x14/16z] JKw50G0W35hZ_nUBtQu84L6VInaoASnLCussLp0nCC1yJ2JvXLamJt6-fPbQh38PhvbVG9dxokQaxymFIpAfNw7PhvxF6VlRw7FT0G
 
-!function GcpCloudSql($id, $name="Cloud Sql", $tech="")
+!procedure GcpCloudSql($id, $name="Cloud Sql", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudSql', $name, $tech)
-!endfunction
-!function GcpCloudSqlCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudSqlCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudSqlMd>', 'Cloud Sql', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -1,7 +1,7 @@
 @startuml
-!function AzureGroupDotted($id, $name="Dotted", $tech="")
+!procedure AzureGroupDotted($id, $name="Dotted", $tech="")
   CloudGroup($id, "AzureGroupDotted", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AzureGroupDotted>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

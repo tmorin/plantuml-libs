@@ -6,10 +6,10 @@ avSo5oxbc8aji1ML7BLir644YMtZOyVHG1yqyrUvgpvC
 
 sprite $MaterialsCloudOffMd [14x14/16z] VOi50WKm24911wxkVzxV7MyfWRy4a59U9ukIUl7YJPqU-tHhL3-D774SYg1FeuSvuz8zkQuLk8-nIhYFETYhdT0Mb62JJwWBJx3XZGC
 
-!function MaterialsCloudOff($id, $name="Cloud Off", $tech="")
+!procedure MaterialsCloudOff($id, $name="Cloud Off", $tech="")
   CloudElement($id, 'materials/File/MaterialsCloudOff', $name, $tech)
-!endfunction
-!function MaterialsCloudOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCloudOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCloudOffMd>', 'Cloud Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ sds8r4hfC0i
 
 sprite $AwsTensorflowMd [14x14/16z] XOst0G0n308h0QVzz_rth7sEIj0Fy80JH1aefuGbioEwHAjsoSW3uHdDnsEZLRigguPmbH7RmIHiXntYz8CV
 
-!function AwsTensorflow($id, $name="Tensorflow", $tech="")
+!procedure AwsTensorflow($id, $name="Tensorflow", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsTensorflow', $name, $tech)
-!endfunction
-!function AwsTensorflowCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTensorflowCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTensorflowMd>', 'Tensorflow', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

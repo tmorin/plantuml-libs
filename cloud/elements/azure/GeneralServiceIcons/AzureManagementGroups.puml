@@ -9,10 +9,10 @@ HS-74GGX20LGVc0H-o_uJ3DdzXa9f2C2mcgT27rUGrJNPdygnahixZkeMkjdnniy447z8KiRAn-mfnTu
 agppzPFUrrzmAxtWVW
 }
 
-!function AzureManagementGroups($id, $name="Management Groups", $tech="")
+!procedure AzureManagementGroups($id, $name="Management Groups", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureManagementGroups', $name, $tech)
-!endfunction
-!function AzureManagementGroupsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureManagementGroupsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureManagementGroupsMd>', 'Management Groups', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

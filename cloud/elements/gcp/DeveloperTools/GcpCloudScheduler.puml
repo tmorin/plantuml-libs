@@ -6,10 +6,10 @@ plyP3u6iPGvzCV4uqESTLIeM9yB6MyXOtCIAp00ysROTuLvwr23THGv1D3cGoRg6H5iAcrZyVW
 
 sprite $GcpCloudSchedulerMd [13x14/16z] 9Ku70a1H247XtV_2VxPt8EEd5PIGiqCuUgKlMJQKhgXjHBW3p79gi7wNJxZLL5zoHfqj0VWSi_jsc7FEgiFwYqENs8xM_pKmjIJtMqu_oflG-h3HmWq
 
-!function GcpCloudScheduler($id, $name="Cloud Scheduler", $tech="")
+!procedure GcpCloudScheduler($id, $name="Cloud Scheduler", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudScheduler', $name, $tech)
-!endfunction
-!function GcpCloudSchedulerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudSchedulerCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudSchedulerMd>', 'Cloud Scheduler', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

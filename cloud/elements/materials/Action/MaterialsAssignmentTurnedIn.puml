@@ -6,10 +6,10 @@ R4g6Say56gjR2F-t0W
 
 sprite $MaterialsAssignmentTurnedInMd [14x14/16z] LSx10S0G04DH043stxODm0VU2T7JMioaKYO4evGaOgsm5hN6dwe2_vMR6kBLfQDgf1ygYN0Oyj8JKraBOWh544jeROglpw8SFniHJny
 
-!function MaterialsAssignmentTurnedIn($id, $name="Assignment Turned In", $tech="")
+!procedure MaterialsAssignmentTurnedIn($id, $name="Assignment Turned In", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignmentTurnedIn', $name, $tech)
-!endfunction
-!function MaterialsAssignmentTurnedInCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAssignmentTurnedInCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAssignmentTurnedInMd>', 'Assignment Turned In', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

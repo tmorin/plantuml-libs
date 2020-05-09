@@ -6,10 +6,10 @@ xjmjODdqKavpOYmdisuidQNN6anvxwbR-WVx1nS
 
 sprite $AwsCodecommitMd [14x14/16z] LSgt5G0n40BHIC3Ezb_lUIDDzXy0zPOyUWXHyH8qv6kuL0UZiql6EeTB4HwF-XoGBP_gKiKvS6iuuNcs5GpSAeEFPEWhddhX3W
 
-!function AwsCodecommit($id, $name="Codecommit", $tech="")
+!procedure AwsCodecommit($id, $name="Codecommit", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodecommit', $name, $tech)
-!endfunction
-!function AwsCodecommitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCodecommitCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCodecommitMd>', 'Codecommit', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

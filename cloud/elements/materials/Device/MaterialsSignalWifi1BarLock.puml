@@ -6,10 +6,10 @@ S8R0xoF66CqDeltmrWK
 
 sprite $MaterialsSignalWifi1BarLockMd [14x14/16z] VSor0S0020H0dFZlFstSxHeS-iSi8-OvbnrlnRMyh_BsHTHTYSrugg81IjQnIoDhWOeZ8cdYW7C5W6QPTAgcxv4PT34
 
-!function MaterialsSignalWifi1BarLock($id, $name="Signal Wifi1 Bar Lock", $tech="")
+!procedure MaterialsSignalWifi1BarLock($id, $name="Signal Wifi1 Bar Lock", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalWifi1BarLock', $name, $tech)
-!endfunction
-!function MaterialsSignalWifi1BarLockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSignalWifi1BarLockCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSignalWifi1BarLockMd>', 'Signal Wifi1 Bar Lock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

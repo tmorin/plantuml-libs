@@ -3,10 +3,10 @@ sprite $AwsRegionLg [20x20/16z] hOtL0SLG24EVG6J_WUlEJ-rSnH9VGQgvY9hBh3d-S-JFDOVn
 
 sprite $AwsRegionMd [14x14/16z] uyGFs5cHUHoix600vR5n004h6vG75eKeHyXXrGUb2VFOM3cGvI0SJ
 
-!function AwsRegion($id, $name="Region", $tech="")
+!procedure AwsRegion($id, $name="Region", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsRegion', $name, $tech)
-!endfunction
-!function AwsRegionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRegionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRegionMd>', 'Region', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

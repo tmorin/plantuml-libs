@@ -3,10 +3,10 @@ sprite $MaterialsArtTrackLg [20x20/16z] lSwr0G0X40J0tSEz_shV_OcP13d56DoyBYvjD2Hj
 
 sprite $MaterialsArtTrackMd [14x14/16z] dOpJ0S1G34MJYnhxJrlpzvsOKGgR3OKtxuXwtcWZ0UHHZNERjCsjQcjLRsL2pRNv_rBA2W
 
-!function MaterialsArtTrack($id, $name="Art Track", $tech="")
+!procedure MaterialsArtTrack($id, $name="Art Track", $tech="")
   CloudElement($id, 'materials/Av/MaterialsArtTrack', $name, $tech)
-!endfunction
-!function MaterialsArtTrackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsArtTrackCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsArtTrackMd>', 'Art Track', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

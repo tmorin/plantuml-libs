@@ -6,10 +6,10 @@ ZP230SL044JN-p6N_hkDxHSFSg3tY0t8IWB-7N0Y7ZM3yW1fJDf_SlLNWdUQv4ytETLMj6qtixkpownf
 
 sprite $MaterialsPhotoFilterMd [14x14/16z] NOw50G0X30DxARh_mA_ueVNO0NhfHdd9y5agtqkAl_Mdv4Itt0swvRMwMTPg5StCQRrqYpvOxzMfT6KlsC4D
 
-!function MaterialsPhotoFilter($id, $name="Photo Filter", $tech="")
+!procedure MaterialsPhotoFilter($id, $name="Photo Filter", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPhotoFilter', $name, $tech)
-!endfunction
-!function MaterialsPhotoFilterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhotoFilterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhotoFilterMd>', 'Photo Filter', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

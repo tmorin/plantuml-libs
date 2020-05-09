@@ -6,10 +6,10 @@ hSy5aiGm30J04KrEYklo_zSkew5msymMLkZeyMZzfDY-AJfIn1VDh2FWbHU66mco1OmNzOSdIUA6AJ-T
 
 sprite $MaterialsTransformMd [14x14/16z] TSq53a11309HcWAxlV-1lxjCzCK6Ku5BxXV6LSacaCn5T2baLs8pfin_wT1rckKfoLp9gTwOs8lkm5Mu59WQ0G
 
-!function MaterialsTransform($id, $name="Transform", $tech="")
+!procedure MaterialsTransform($id, $name="Transform", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTransform', $name, $tech)
-!endfunction
-!function MaterialsTransformCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTransformCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTransformMd>', 'Transform', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ TSpBaSL024DHa11CE_-01xj_gtTst59Xat_CBW1T0DuAqK42eHtzxnaHAUfvSi_6e1bWLa_jtHXzitkS
 
 sprite $BrandTraefikMd [14x14/16z] FOw50S0m20JX9RB_mgMnY-8VHIvYGoO0OXcOdHBdM55EHYBQtBbDS6t7Ggr9lN4PMLPXxZhRPTZOCSckAnO0oBgsnHqx5lfFozXejOp7rVm1
 
-!function BrandTraefik($id, $name="Traefik", $tech="")
+!procedure BrandTraefik($id, $name="Traefik", $tech="")
   PersoElement($id, 'brand/BrandTraefik', $name, $tech)
-!endfunction
-!function BrandTraefikCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandTraefikCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandTraefikMd>', 'Traefik', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

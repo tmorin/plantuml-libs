@@ -6,10 +6,10 @@ _mO
 
 sprite $AzureImportGenericMd [11x14/16z] NOk50GCn30C3Pjf_s_QPBc2G9BuJs7ps3GlqtZR4uspRyAljMpjrh6sggfN3qjQEzsLhPiitJY_tCxRmRMVVcIv-8dy
 
-!function AzureImportGeneric($id, $name="Import Generic", $tech="")
+!procedure AzureImportGeneric($id, $name="Import Generic", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureImportGeneric', $name, $tech)
-!endfunction
-!function AzureImportGenericCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureImportGenericCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureImportGenericMd>', 'Import Generic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

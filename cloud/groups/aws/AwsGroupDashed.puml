@@ -1,7 +1,7 @@
 @startuml
-!function AwsGroupDashed($id, $name="Dashed", $tech="")
+!procedure AwsGroupDashed($id, $name="Dashed", $tech="")
   CloudGroup($id, "AwsGroupDashed", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupDashed>> {
   StereotypeFontColor $AWS_COLOR_GREY
   BorderThickness 1

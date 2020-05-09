@@ -3,10 +3,10 @@ sprite $MaterialsSortLg [20x20/16z] Ow0-O4G1O25cBauamCKC4cDYGm5Cf5Z1p043p5Z5I0LC
 
 sprite $MaterialsSortMd [14x14/16z] Oo0UCBB00IEGnye61QoC62fPmO0PauUf4bax8zXeaW4
 
-!function MaterialsSort($id, $name="Sort", $tech="")
+!procedure MaterialsSort($id, $name="Sort", $tech="")
   CloudElement($id, 'materials/Content/MaterialsSort', $name, $tech)
-!endfunction
-!function MaterialsSortCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSortCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSortMd>', 'Sort', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

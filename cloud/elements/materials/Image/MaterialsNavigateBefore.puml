@@ -3,10 +3,10 @@ sprite $MaterialsNavigateBeforeLg [20x20/16z] Ow0hO6HbmX1ZusN656B14EB15E832s6A4T
 
 sprite $MaterialsNavigateBeforeMd [14x14/16z] Oo0PC29ps5cHE6nio1ns1amUGYKgbnND1j8
 
-!function MaterialsNavigateBefore($id, $name="Navigate Before", $tech="")
+!procedure MaterialsNavigateBefore($id, $name="Navigate Before", $tech="")
   CloudElement($id, 'materials/Image/MaterialsNavigateBefore', $name, $tech)
-!endfunction
-!function MaterialsNavigateBeforeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNavigateBeforeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNavigateBeforeMd>', 'Navigate Before', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

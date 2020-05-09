@@ -9,10 +9,10 @@ TKo5OGG13BeuaFttRTyzBi1nDSkqus4jzMCpxifVLlfFi4NONIiv4SEyVAp_XVJFjl-j8gCRgt_jdC6_
 0m
 }
 
-!function AzureUserManagement($id, $name="User Management", $tech="")
+!procedure AzureUserManagement($id, $name="User Management", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUserManagement', $name, $tech)
-!endfunction
-!function AzureUserManagementCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserManagementCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserManagementMd>', 'User Management', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

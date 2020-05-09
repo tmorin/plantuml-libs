@@ -6,10 +6,10 @@ e_ztUAXwH3m
 
 sprite $AzureServerDirectoryMd [11x14/16z] bOh10G0G54AXWc__TG46y2vLPMrHtAJPObiJoNJQpOUrPoiG_MIjY64YoucCz16q990CWBR5jkihpIWD
 
-!function AzureServerDirectory($id, $name="Server Directory", $tech="")
+!procedure AzureServerDirectory($id, $name="Server Directory", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerDirectory', $name, $tech)
-!endfunction
-!function AzureServerDirectoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServerDirectoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServerDirectoryMd>', 'Server Directory', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

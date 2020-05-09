@@ -6,10 +6,10 @@ j_s2s7-nVZQy6HbOMTcPsde
 
 sprite $MaterialsInfoMd [14x14/16z] PKw50S0m2Ai1cV__xUg6EyGeSYH2hYPqVv5kAaaAKo6bBWKXf98hhG_uIbEIPqvMQkPzpMXaj5tPFepl6xATVW
 
-!function MaterialsInfo($id, $name="Info", $tech="")
+!procedure MaterialsInfo($id, $name="Info", $tech="")
   CloudElement($id, 'materials/Action/MaterialsInfo', $name, $tech)
-!endfunction
-!function MaterialsInfoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInfoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInfoMd>', 'Info', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsHighlightLg [20x20/16z] dSg55SGm40DHQStSVxM7OKx6_9znbCZQd3ipumY
 
 sprite $MaterialsHighlightMd [14x14/16z] TOY50O1030DJnxl_jBZ3N_M27qIEZ-PHtH-O0TSbtenfExwoXveh-cTKBr8JDhZ9R1W7dkaec4Oelam
 
-!function MaterialsHighlight($id, $name="Highlight", $tech="")
+!procedure MaterialsHighlight($id, $name="Highlight", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsHighlight', $name, $tech)
-!endfunction
-!function MaterialsHighlightCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHighlightCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHighlightMd>', 'Highlight', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

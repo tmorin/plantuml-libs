@@ -6,10 +6,10 @@ oosViy0TjQEUCxVarl6xsvU3BrUG5wV0oUc7-m4
 
 sprite $GcpCloudIotCoreMd [14x14/16z] LOw50GHG24AnqFqdFlJw_RG1O74O5cCVF3FdHShmrgVlSg1cc6R9cKAqV2PS7ncomhNxNL1axUU2J3BN2fHSh0lnFM4M_vrUNsMA6_2l-W4
 
-!function GcpCloudIotCore($id, $name="Cloud Iot Core", $tech="")
+!procedure GcpCloudIotCore($id, $name="Cloud Iot Core", $tech="")
   CloudElement($id, 'gcp/InternetOfThings/GcpCloudIotCore', $name, $tech)
-!endfunction
-!function GcpCloudIotCoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudIotCoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudIotCoreMd>', 'Cloud Iot Core', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

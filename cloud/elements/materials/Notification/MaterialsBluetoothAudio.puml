@@ -3,10 +3,10 @@ sprite $MaterialsBluetoothAudioLg [20x20/16z] TT350S0W3010eZZiFstT6tWUSJT-07_ZY7
 
 sprite $MaterialsBluetoothAudioMd [14x14/16z] PKw54G0n28FKTVzjtwKvE2KkzZpMBzRlZP1OyllwWkXJ4lNFMqzEazxlh42K2FvOIIdKGEsypDuE
 
-!function MaterialsBluetoothAudio($id, $name="Bluetooth Audio", $tech="")
+!procedure MaterialsBluetoothAudio($id, $name="Bluetooth Audio", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsBluetoothAudio', $name, $tech)
-!endfunction
-!function MaterialsBluetoothAudioCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBluetoothAudioCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBluetoothAudioMd>', 'Bluetooth Audio', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

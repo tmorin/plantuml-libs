@@ -6,10 +6,10 @@ D17IcqXGbYYRNLCbfzxRkFR2jEajBv7Z2Ng4l6LcP7mIH0tyIVGHnz1d_aF_
 
 sprite $AzureSearchMd [14x14/16z] JSt50GGm20J015Yq_thZ9xmOj9te8a8tOs4H0BnrCa0LlJLQq1kqDnRSRGaRi8p8sDojD29ENpmjNliQPtHflqBUevnONqFlUrIPXhM75AXSI2NVxBR-C04
 
-!function AzureSearch($id, $name="Search", $tech="")
+!procedure AzureSearch($id, $name="Search", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureSearch', $name, $tech)
-!endfunction
-!function AzureSearchCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSearchCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSearchMd>', 'Search', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

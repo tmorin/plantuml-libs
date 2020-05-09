@@ -4,9 +4,9 @@ bP1L0W112487fqllVzhjxdsV9g1-GY7GeQIJIDAxaYtIKUnQWMSPO8_vL9I5E1x5K5gAk9YxluVjNuob
 GlVY2A3-qW8
 }
 
-!function MaterialsGroupSwarmstack($id, $name="SwarmStack", $tech="")
+!procedure MaterialsGroupSwarmstack($id, $name="SwarmStack", $tech="")
   PersoGroup($id, "MaterialsGroupSwarmstack", "<$MaterialsGroupSwarmstackLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupSwarmstack>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

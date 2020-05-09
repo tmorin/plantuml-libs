@@ -3,10 +3,10 @@ sprite $AwsEc2AmiLg [20x20/16z] bP235KHH34H7UVrtlFWsxb6C0UGL0f2iOmaKR8XiU4Ndicot
 
 sprite $AwsEc2AmiMd [14x14/16z] PKw54G1022BSV-RtkpWxWG_0ueBigXrYQf1Lb9APWI4r2pMfGTrRe9tYg5B3kiUwHFYxSlNklPlPpRe
 
-!function AwsEc2Ami($id, $name="Ec2 Ami", $tech="")
+!procedure AwsEc2Ami($id, $name="Ec2 Ami", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2Ami', $name, $tech)
-!endfunction
-!function AwsEc2AmiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2AmiCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2AmiMd>', 'Ec2 Ami', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

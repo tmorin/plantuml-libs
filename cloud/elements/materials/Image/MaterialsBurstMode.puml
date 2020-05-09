@@ -3,10 +3,10 @@ sprite $MaterialsBurstModeLg [20x20/16z] hS-r0SCm443HBsPf_saJCpU6LnuV7nDEOGpIBIm
 
 sprite $MaterialsBurstModeMd [14x14/16z] ZSr50iGW30LG89xCjFS_RTtzGMprqxFS_L42of8fV038MJFN8_nmLNN8Vxc8CV5yQIuvG-2OODepsAS_QG4
 
-!function MaterialsBurstMode($id, $name="Burst Mode", $tech="")
+!procedure MaterialsBurstMode($id, $name="Burst Mode", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBurstMode', $name, $tech)
-!endfunction
-!function MaterialsBurstModeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBurstModeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBurstModeMd>', 'Burst Mode', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

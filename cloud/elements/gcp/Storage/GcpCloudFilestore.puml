@@ -6,10 +6,10 @@ P9Nbj_Yzc8yuyCeN1yMxzV_hl2HPKbLnVWC
 
 sprite $GcpCloudFilestoreMd [15x14/16z] LO-50G0n20CfmVQV-9E-NnK7CqDr5GzCh9gJMX9ZRaB6vgTxtpIdt00e90rDRL0CVNmh4HNORX9X0XAzlw8hLPUWlgv25_vh8tzDgejxX9vMZmS
 
-!function GcpCloudFilestore($id, $name="Cloud Filestore", $tech="")
+!procedure GcpCloudFilestore($id, $name="Cloud Filestore", $tech="")
   CloudElement($id, 'gcp/Storage/GcpCloudFilestore', $name, $tech)
-!endfunction
-!function GcpCloudFilestoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudFilestoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudFilestoreMd>', 'Cloud Filestore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

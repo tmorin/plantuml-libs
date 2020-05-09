@@ -2,7 +2,7 @@
 
 ' title
 
-!function title($title, $subtitle="", $version="", $date="")
+!procedure title($title, $subtitle="", $version="", $date="")
   !$s=$title
   !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
   !$s_v=""
@@ -20,39 +20,39 @@
   !endif
   <color:grey><size:12>$s</size></color>
   end header
-!endfunction
+!endprocedure
 
 ' icons
 
-!function getIcon($name) return $IMAGE_BASE_PATH + "icons" + "/" + $name + "." + $ICON_FORMAT
+!function getIcon($name) !return $IMAGE_BASE_PATH + "icons" + "/" + $name + "." + $ICON_FORMAT
 
 ' library
 
-!function include($resource)
+!procedure include($resource)
   !if (%get_variable_value("$INCLUSION_MODE") == "remote")
     !includeurl $LIB_BASE_LOCATION/$resource.puml
   !else
     !include $LIB_BASE_LOCATION/$resource.puml
   !endif
-!endfunction
+!endprocedure
 
 ' Formatting
 
-!function fmtTech($value)
+!procedure fmtTech($value)
   <size:$FONT_SIZE_SM>[$value]</size>
-!endfunction
+!endprocedure
 
-!function fmtLabel($value, $tech="")
+!procedure fmtLabel($value, $tech="")
   !if ($tech != '')
     $value\n<size:$FONT_SIZE_SM>[$tech]</size>
   !else
     $value
   !endif
-!endfunction
+!endprocedure
 
 ' Element
 
-!function CloudElement($id, $icon, $name="", $tech="")
+!procedure CloudElement($id, $icon, $name="", $tech="")
 card $id <<CloudElement>> [
   <img:getIcon($icon)>
   !if ($name)
@@ -62,11 +62,11 @@ card $id <<CloudElement>> [
     <size:$FONT_SIZE_SM>[$tech]</size>
   !endif
 ]
-!endfunction
+!endprocedure
 
 ' Card
 
-!function CloudCard($id, $sprite="", $techName="", $funcName="", $content="")
+!procedure CloudCard($id, $sprite="", $techName="", $funcName="", $content="")
   !local $V=""
   !local $H=""
   !local $S=""
@@ -98,11 +98,11 @@ card $id <<CloudElement>> [
     !endif
     $V
   ]
-!endfunction
+!endprocedure
 
 ' Group
 
-!function CloudGroup($id, $stereotype, $sprite, $name, $tech="")
+!procedure CloudGroup($id, $stereotype, $sprite, $name, $tech="")
   !local $value=""
   !if ($sprite)
     !$value=$sprite + " "
@@ -121,6 +121,6 @@ card $id <<CloudElement>> [
   !else
     Rectangle $id <<$stereotype>>
   !endif
-!endfunction
+!endprocedure
 
 @enduml

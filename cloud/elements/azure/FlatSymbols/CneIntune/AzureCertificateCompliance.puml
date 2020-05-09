@@ -9,10 +9,10 @@ JOw70GGW20DLIaBSVz-7xsUbPuU7zuwOQwqG2H2ShREC7OgCpCxWNiwiV47dUTeOqjnUzgt9zOx7tcEB
 6-k3IRgjvukLslpZ-9WF
 }
 
-!function AzureCertificateCompliance($id, $name="Certificate Compliance", $tech="")
+!procedure AzureCertificateCompliance($id, $name="Certificate Compliance", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureCertificateCompliance', $name, $tech)
-!endfunction
-!function AzureCertificateComplianceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCertificateComplianceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCertificateComplianceMd>', 'Certificate Compliance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

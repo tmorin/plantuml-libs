@@ -6,10 +6,10 @@ QkOZmcdFy61K2grwPcDuVDC5
 
 sprite $MaterialsNotificationsOffMd [14x14/16z] RST50eGm40NH_e93-lwd7I6oIgtgnIHod0F7ZYPivfa76tbPLnweKjxwKLNElAJRNNzQNIzHjUPBlj1PEoe1s83MQ2rBJFe2
 
-!function MaterialsNotificationsOff($id, $name="Notifications Off", $tech="")
+!procedure MaterialsNotificationsOff($id, $name="Notifications Off", $tech="")
   CloudElement($id, 'materials/Social/MaterialsNotificationsOff', $name, $tech)
-!endfunction
-!function MaterialsNotificationsOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNotificationsOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNotificationsOffMd>', 'Notifications Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsHighQualityLg [20x20/16z] fP053a0X34DNt1RkVzhlWiPuyMbRMaFg0dcNE
 
 sprite $MaterialsHighQualityMd [14x14/16z] VSs35G1130JGss0Pz5_jsVgFuNI_AF8iqbY0-4fWhDH6hkewLp75c03YKX42CnAj5OHJ5KSfXAZ7bnHTuPfmJVyr
 
-!function MaterialsHighQuality($id, $name="High Quality", $tech="")
+!procedure MaterialsHighQuality($id, $name="High Quality", $tech="")
   CloudElement($id, 'materials/Av/MaterialsHighQuality', $name, $tech)
-!endfunction
-!function MaterialsHighQualityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHighQualityCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHighQualityMd>', 'High Quality', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

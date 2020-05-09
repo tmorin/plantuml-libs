@@ -6,10 +6,10 @@ Rm
 
 sprite $AwsIotServoMd [14x14/16z] VSUv0G0W3090CC3-6_kczhh3H-cA9Rj4738PgGSdnRDt4cVb0GbRZmbx6DpGgzX0Jo6jNjcIewlmiG
 
-!function AwsIotServo($id, $name="Iot Servo", $tech="")
+!procedure AwsIotServo($id, $name="Iot Servo", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotServo', $name, $tech)
-!endfunction
-!function AwsIotServoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotServoCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotServoMd>', 'Iot Servo', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

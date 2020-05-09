@@ -6,10 +6,10 @@ w7KicHnbjSv-SVZfqDiJ3a7F3RZ6tBu5iAaKg6G9YV3wKNy
 
 sprite $MaterialsBugReportMd [14x14/16z] XOs53GH1201lSKlelzldP6Dl4y67um_4Qp7j2YgYuCuNMW-6wzhpJjLiltUvRIrhlXtPPLQTrspD361crzr8GYH6S_b7CpZ1yy-gxCflrZe-y08
 
-!function MaterialsBugReport($id, $name="Bug Report", $tech="")
+!procedure MaterialsBugReport($id, $name="Bug Report", $tech="")
   CloudElement($id, 'materials/Action/MaterialsBugReport', $name, $tech)
-!endfunction
-!function MaterialsBugReportCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBugReportCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBugReportMd>', 'Bug Report', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

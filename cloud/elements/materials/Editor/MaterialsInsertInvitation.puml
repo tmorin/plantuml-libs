@@ -3,10 +3,10 @@ sprite $MaterialsInsertInvitationLg [20x20/16z] dSW54iGm241HT4e23FS_RRthsX_bmH8Y
 
 sprite $MaterialsInsertInvitationMd [14x14/16z] TSY73GCn30H17W4p_KlglriV1UUmYBCY0XMca0xcojpGo3a7cpD97UlMKAhiihDgXToAF_8oF9KhNcHXDu42Qo7ZLkwjjuZthW
 
-!function MaterialsInsertInvitation($id, $name="Insert Invitation", $tech="")
+!procedure MaterialsInsertInvitation($id, $name="Insert Invitation", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertInvitation', $name, $tech)
-!endfunction
-!function MaterialsInsertInvitationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInsertInvitationCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInsertInvitationMd>', 'Insert Invitation', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

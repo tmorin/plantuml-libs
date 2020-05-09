@@ -3,10 +3,10 @@ sprite $MaterialsRemoveCircleLg [20x20/16z] VP254GH1409_Lbab_sZVpwdhyb7WSOCvPyT2
 
 sprite $MaterialsRemoveCircleMd [14x14/16z] Oy00JApixAnCK0uh3pyGyB12EFnG0E8oWMN0iamGAOGaEpyF2pCGiF3miwFoK5MYce9k0y9sL9TX
 
-!function MaterialsRemoveCircle($id, $name="Remove Circle", $tech="")
+!procedure MaterialsRemoveCircle($id, $name="Remove Circle", $tech="")
   CloudElement($id, 'materials/Content/MaterialsRemoveCircle', $name, $tech)
-!endfunction
-!function MaterialsRemoveCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveCircleMd>', 'Remove Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

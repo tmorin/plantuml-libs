@@ -9,10 +9,10 @@ ZOY75KGn2CECiTFtN_Twhry9eAUrdVdE6idCv8MJvkW8om9TTD7e8q8uVAqrm9DU8jwZ9O6j5Ppq5E5I
 CkOU
 }
 
-!function AzureManagementConsole($id, $name="Management Console", $tech="")
+!procedure AzureManagementConsole($id, $name="Management Console", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureManagementConsole', $name, $tech)
-!endfunction
-!function AzureManagementConsoleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureManagementConsoleCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureManagementConsoleMd>', 'Management Console', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

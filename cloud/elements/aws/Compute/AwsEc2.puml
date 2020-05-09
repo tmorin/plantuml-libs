@@ -6,10 +6,10 @@ okPMziGT
 
 sprite $AwsEc2Md [14x14/16z] HSg53G0n50BG4-Jllt2Tz4KH3r8uyIOJKpPgE8d_m2HGuhyJ2TbAqawaLAQXzVHEn43RAzcYboekIUMhbgGE
 
-!function AwsEc2($id, $name="Ec2", $tech="")
+!procedure AwsEc2($id, $name="Ec2", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2', $name, $tech)
-!endfunction
-!function AwsEc2Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2Md>', 'Ec2', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

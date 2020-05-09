@@ -3,10 +3,10 @@ sprite $AwsElasticBeanstalkApplicationLg [20x20/16z] jKpL5GD020kHw_uJLtbG-MvEYM5
 
 sprite $AwsElasticBeanstalkApplicationMd [14x14/16z] bSct0SKm009H3f3st_W7A_I-xe6UI3lGgZMPR5WYMN8aIlQ55BH47zXBuOzeQTHaGyp6w6ZDhoLq-m8
 
-!function AwsElasticBeanstalkApplication($id, $name="Elastic Beanstalk Application", $tech="")
+!procedure AwsElasticBeanstalkApplication($id, $name="Elastic Beanstalk Application", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticBeanstalkApplication', $name, $tech)
-!endfunction
-!function AwsElasticBeanstalkApplicationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBeanstalkApplicationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBeanstalkApplicationMd>', 'Elastic Beanstalk Application', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

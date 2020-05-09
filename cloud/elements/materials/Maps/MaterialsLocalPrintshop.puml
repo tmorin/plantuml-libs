@@ -6,10 +6,10 @@ uCpc-uQVnR3vhVvf0m
 
 sprite $MaterialsLocalPrintshopMd [14x14/16z] NSx75GGX40DHGTknv9_jwcddnCVMhR4RKmR4tuTUXzWfffZcOfFXp_l8UJXGwvDUgkScNl-gGNnPqLU0ucgzdg1qY9zDfs-JxNu
 
-!function MaterialsLocalPrintshop($id, $name="Local Printshop", $tech="")
+!procedure MaterialsLocalPrintshop($id, $name="Local Printshop", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalPrintshop', $name, $tech)
-!endfunction
-!function MaterialsLocalPrintshopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalPrintshopCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalPrintshopMd>', 'Local Printshop', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

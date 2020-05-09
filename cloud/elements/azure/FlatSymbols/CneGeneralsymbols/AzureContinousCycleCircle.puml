@@ -6,10 +6,10 @@ tdjsBNS
 
 sprite $AzureContinousCycleCircleMd [13x14/16z] HOxN0K1H5C4G-w_yogtvEXMI74hyLQjkoLVICGoDtAw3aXHDA5GBSnTISZSYQLRzLGQFUXGf_WZDIl3nr-k2M0klwWK
 
-!function AzureContinousCycleCircle($id, $name="Continous Cycle Circle", $tech="")
+!procedure AzureContinousCycleCircle($id, $name="Continous Cycle Circle", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureContinousCycleCircle', $name, $tech)
-!endfunction
-!function AzureContinousCycleCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureContinousCycleCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureContinousCycleCircleMd>', 'Continous Cycle Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

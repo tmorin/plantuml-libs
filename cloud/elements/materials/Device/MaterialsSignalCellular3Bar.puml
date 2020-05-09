@@ -3,10 +3,10 @@ sprite $MaterialsSignalCellular3BarLg [20x20/16z] dSe33i1000NHLLJU_xQrFgg9NoRyBG
 
 sprite $MaterialsSignalCellular3BarMd [14x14/16z] ZSUr0G0X00F0LrpsdnQ7X8xhxZfptvo7zZwqJzC-ZvL4x7CH-tp4Ih0Ix96TUEwoJGO
 
-!function MaterialsSignalCellular3Bar($id, $name="Signal Cellular3 Bar", $tech="")
+!procedure MaterialsSignalCellular3Bar($id, $name="Signal Cellular3 Bar", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalCellular3Bar', $name, $tech)
-!endfunction
-!function MaterialsSignalCellular3BarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSignalCellular3BarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSignalCellular3BarMd>', 'Signal Cellular3 Bar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

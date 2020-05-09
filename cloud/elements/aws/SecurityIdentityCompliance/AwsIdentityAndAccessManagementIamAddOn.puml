@@ -3,10 +3,10 @@ sprite $AwsIdentityAndAccessManagementIamAddOnLg [20x20/16z] lOx50S0m3CHCEk-_SPd
 
 sprite $AwsIdentityAndAccessManagementIamAddOnMd [14x14/16z] bSsr0S0m30J0n_r73gCxNoKM9j0YRevSNOaYWdNJ44bBo1HLtzcklYPrkAyC7sQj
 
-!function AwsIdentityAndAccessManagementIamAddOn($id, $name="Identity And Access Management Iam Add On", $tech="")
+!procedure AwsIdentityAndAccessManagementIamAddOn($id, $name="Identity And Access Management Iam Add On", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAddOn', $name, $tech)
-!endfunction
-!function AwsIdentityAndAccessManagementIamAddOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamAddOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIdentityAndAccessManagementIamAddOnMd>', 'Identity And Access Management Iam Add On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

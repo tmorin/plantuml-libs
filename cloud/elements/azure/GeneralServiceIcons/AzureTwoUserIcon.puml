@@ -6,10 +6,10 @@ dS-t0S0m4090-0VstzWvgpCLEcNSOSiYdg4ano_ipTAVPQlvk_LZE4nFgtqhyKPRjLMIfvwDiWcmZd5L
 
 sprite $AzureTwoUserIconMd [14x14/16z] TST50GC10CJ0PV-IozpBAuDxJeKtjBo3IJVZtgTyLeb7iYzG190uHp8jb9oP3MukChIpI9vrhcVLI7Jx2xExxXtf1
 
-!function AzureTwoUserIcon($id, $name="Two User Icon", $tech="")
+!procedure AzureTwoUserIcon($id, $name="Two User Icon", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureTwoUserIcon', $name, $tech)
-!endfunction
-!function AzureTwoUserIconCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTwoUserIconCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTwoUserIconMd>', 'Two User Icon', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

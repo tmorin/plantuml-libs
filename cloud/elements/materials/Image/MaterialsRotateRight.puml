@@ -6,10 +6,10 @@ ZpcLh5LnASecaVXVQm
 
 sprite $MaterialsRotateRightMd [14x14/16z] XKt50GC120jEUxR_jEUkUK4KDr311ibYVIaY6rk-C9W3Cja2u84SNvjDJDTlS69r8YPHbeKa2jdMYGHVw
 
-!function MaterialsRotateRight($id, $name="Rotate Right", $tech="")
+!procedure MaterialsRotateRight($id, $name="Rotate Right", $tech="")
   CloudElement($id, 'materials/Image/MaterialsRotateRight', $name, $tech)
-!endfunction
-!function MaterialsRotateRightCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRotateRightCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRotateRightMd>', 'Rotate Right', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

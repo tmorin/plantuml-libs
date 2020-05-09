@@ -6,10 +6,10 @@ PNy7
 
 sprite $AzureVideoMd [14x14/16z] VOwr0S1030EJnhp_kizCLnab2PeM34MP_mAp2j9NeB2Ztj5pfoHOaBsxgzntQx8vjGS
 
-!function AzureVideo($id, $name="Video", $tech="")
+!procedure AzureVideo($id, $name="Video", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureVideo', $name, $tech)
-!endfunction
-!function AzureVideoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVideoCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVideoMd>', 'Video', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

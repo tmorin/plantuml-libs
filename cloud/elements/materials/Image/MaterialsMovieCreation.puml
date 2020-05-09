@@ -3,10 +3,10 @@ sprite $MaterialsMovieCreationLg [20x20/16z] nOXL0aGX3CH2v-5Gxd_QTVrTJNN2MoW6GZJ
 
 sprite $MaterialsMovieCreationMd [14x14/16z] fSVL0O0m34NHM_Tc_sbn-CDFz755EvHTsba8Ol66e8bXJicuQ7pKVadI-zAofDsVfDr1SsK4
 
-!function MaterialsMovieCreation($id, $name="Movie Creation", $tech="")
+!procedure MaterialsMovieCreation($id, $name="Movie Creation", $tech="")
   CloudElement($id, 'materials/Image/MaterialsMovieCreation', $name, $tech)
-!endfunction
-!function MaterialsMovieCreationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMovieCreationCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMovieCreationMd>', 'Movie Creation', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

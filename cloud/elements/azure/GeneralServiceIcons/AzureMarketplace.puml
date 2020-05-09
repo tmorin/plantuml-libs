@@ -6,10 +6,10 @@ _GdVDlxiRe2IFMRK0m
 
 sprite $AzureMarketplaceMd [12x14/16z] JOm50W11209j_V-B3xdQsJ11H2mhtOI4EkwJ2tBq4Q8YSSEz-gNooAjwsjMVF5UMqvlIotlp4fARTmP8zA4PmlpmD7TiS5Sl
 
-!function AzureMarketplace($id, $name="Marketplace", $tech="")
+!procedure AzureMarketplace($id, $name="Marketplace", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureMarketplace', $name, $tech)
-!endfunction
-!function AzureMarketplaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMarketplaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMarketplaceMd>', 'Marketplace', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

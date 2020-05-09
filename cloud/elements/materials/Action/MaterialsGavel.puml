@@ -6,10 +6,10 @@ adxE5m
 
 sprite $MaterialsGavelMd [14x14/16z] JSg55G0n20DGmbtTzf-sBgJwNw0La8YsWd35NVxC_l8lhjCiW5qdLgKTJwx65Y_fYeUa0Gds8qYRYbYFcAzJ4U6VsKCD
 
-!function MaterialsGavel($id, $name="Gavel", $tech="")
+!procedure MaterialsGavel($id, $name="Gavel", $tech="")
   CloudElement($id, 'materials/Action/MaterialsGavel', $name, $tech)
-!endfunction
-!function MaterialsGavelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGavelCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGavelMd>', 'Gavel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsSendLg [20x20/16z] dL034W0n3BpQoVzVUtRT7GUhgHM4n3Dg9OrcW5upyfyX
 
 sprite $MaterialsSendMd [14x14/16z] Oy07sDYOa7Zi_3pip4WyVdu-JXP628-LYviNAC0Dqy38nCp2ni43rO3WeQb4c8Am0TrsmW
 
-!function MaterialsSend($id, $name="Send", $tech="")
+!procedure MaterialsSend($id, $name="Send", $tech="")
   CloudElement($id, 'materials/Content/MaterialsSend', $name, $tech)
-!endfunction
-!function MaterialsSendCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSendCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSendMd>', 'Send', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureUserPrivacyLg [14x20/16z] ROw50KGn24FHiF_4rN3wKtsuY6W0Bgq4gXeDc_AHz
 
 sprite $AzureUserPrivacyMd [10x14/16z] HKo50G0m2C80_xzutI49E9LOYwgoETYSV76f8lRomwIFcJH8SglIcZXls7XB9AK_dKVIAJyJOWo1FJBG0G
 
-!function AzureUserPrivacy($id, $name="User Privacy", $tech="")
+!procedure AzureUserPrivacy($id, $name="User Privacy", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureUserPrivacy', $name, $tech)
-!endfunction
-!function AzureUserPrivacyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserPrivacyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserPrivacyMd>', 'User Privacy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

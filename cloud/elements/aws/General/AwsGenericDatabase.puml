@@ -3,10 +3,10 @@ sprite $AwsGenericDatabaseLg [20x20/16z] rT253SH044FHONkr_TTx5-OKa2z-5bgcB78eJDO
 
 sprite $AwsGenericDatabaseMd [14x14/16z] hOwr4G114CEy8CzS_mK_S_nQL6P9sTXqQWKg8x9WaHYbZHgncDi6BsSrbbcGE6pbLxCE79zaxzGp
 
-!function AwsGenericDatabase($id, $name="Generic Database", $tech="")
+!procedure AwsGenericDatabase($id, $name="Generic Database", $tech="")
   CloudElement($id, 'aws/General/AwsGenericDatabase', $name, $tech)
-!endfunction
-!function AwsGenericDatabaseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGenericDatabaseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGenericDatabaseMd>', 'Generic Database', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

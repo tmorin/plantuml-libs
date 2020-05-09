@@ -6,10 +6,10 @@ gaNYi-QYjwC6Bwt2fT3qF6u
 
 sprite $MaterialsBlurCircularMd [14x14/16z] PKw50G1H13tD_WlVxzBD-nAXc0cEH4A8Ykc9GNLWDSKeIKi3IwkK281wPCL3eLApExidxolNX-lxZIpH3m
 
-!function MaterialsBlurCircular($id, $name="Blur Circular", $tech="")
+!procedure MaterialsBlurCircular($id, $name="Blur Circular", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBlurCircular', $name, $tech)
-!endfunction
-!function MaterialsBlurCircularCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBlurCircularCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBlurCircularMd>', 'Blur Circular', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

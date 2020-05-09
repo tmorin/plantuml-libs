@@ -6,10 +6,10 @@ ZVorj_SPN6S5liuKGCxqRVPV
 
 sprite $GcpCloudNatMd [14x14/16z] LKw50S002CBs_uk7hkqM069B0aoIjPIRUb_aJBGOK6aK2BhqJGD67nwnpKdIapBjUhAek_bC_gvyFxH-lyU3RFf4zaTz
 
-!function GcpCloudNat($id, $name="Cloud Nat", $tech="")
+!procedure GcpCloudNat($id, $name="Cloud Nat", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudNat', $name, $tech)
-!endfunction
-!function GcpCloudNatCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudNatCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudNatMd>', 'Cloud Nat', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

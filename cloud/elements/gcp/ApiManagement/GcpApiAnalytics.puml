@@ -6,10 +6,10 @@ zlRNO6erpKvDLQUcZ_O9
 
 sprite $GcpApiAnalyticsMd [14x14/16z] JOu53W0X30HxmCh_NtmRB4niwgsghq--Q09gmXaERqQ2fXEfLM7AJA6wB60C89B0yHdRMX6vejb9cmdSvvODtmjkxtNSpn9eVlP-_GC
 
-!function GcpApiAnalytics($id, $name="Api Analytics", $tech="")
+!procedure GcpApiAnalytics($id, $name="Api Analytics", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpApiAnalytics', $name, $tech)
-!endfunction
-!function GcpApiAnalyticsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpApiAnalyticsCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpApiAnalyticsMd>', 'Api Analytics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

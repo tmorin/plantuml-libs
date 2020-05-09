@@ -6,10 +6,10 @@ FNpfiS_2fhJFGd6V-RxRymtsMuNI_QOVhmS
 
 sprite $MaterialsCopyrightMd [14x14/16z] PKw50S0m20kI0lyVF3Swt0b-f8oWNWcBPfivav3TIUofba3SjhGK885myeeCce005Ztha_rA-z2-JyXcMW4
 
-!function MaterialsCopyright($id, $name="Copyright", $tech="")
+!procedure MaterialsCopyright($id, $name="Copyright", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCopyright', $name, $tech)
-!endfunction
-!function MaterialsCopyrightCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCopyrightCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCopyrightMd>', 'Copyright', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

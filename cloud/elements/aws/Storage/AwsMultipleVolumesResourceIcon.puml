@@ -3,10 +3,10 @@ sprite $AwsMultipleVolumesResourceIconLg [20x20/16z] jSY53GD05CFGqC_jFt6P1UKdYuo
 
 sprite $AwsMultipleVolumesResourceIconMd [14x14/16z] ZST50GC140ImmVNlkCmzoY_uHbtniLYI8_EQyLNZokXCUvLnKzx5IQUu2nZsSpWsAccjAzSHe2VyEmC
 
-!function AwsMultipleVolumesResourceIcon($id, $name="Multiple Volumes Resource Icon", $tech="")
+!procedure AwsMultipleVolumesResourceIcon($id, $name="Multiple Volumes Resource Icon", $tech="")
   CloudElement($id, 'aws/Storage/AwsMultipleVolumesResourceIcon', $name, $tech)
-!endfunction
-!function AwsMultipleVolumesResourceIconCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsMultipleVolumesResourceIconCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsMultipleVolumesResourceIconMd>', 'Multiple Volumes Resource Icon', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

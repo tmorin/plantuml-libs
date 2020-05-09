@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupAutoScalingLg [20x20/16z] dP033W1134MJyj__mckEfo-eYLdSSnTHvZGHon9L4VEvxNFD7rjLXMmRGxAfNlRbjV5Tyjlo7vH-DSiA
 
-!function AwsGroupAutoScaling($id, $name="Auto Scaling", $tech="")
+!procedure AwsGroupAutoScaling($id, $name="Auto Scaling", $tech="")
   CloudGroup($id, "AwsGroupAutoScaling", "<$AwsGroupAutoScalingLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupAutoScaling>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

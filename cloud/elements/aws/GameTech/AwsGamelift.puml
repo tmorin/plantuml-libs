@@ -6,10 +6,10 @@ ChSraq5WBiTQMKAcO5vhARa_yTLAskMwFUsjTUds_B0V-0S
 
 sprite $AwsGameliftMd [14x14/16z] LScn0G9G20FHXbn-SFzz1QcyYaTolUjmF5dYr0c5g_nJ6q71YJS7nbc9iYKv6Nasjc5tL58XMFLZjA_H1iHmcZKTd7m6LpBwunS
 
-!function AwsGamelift($id, $name="Gamelift", $tech="")
+!procedure AwsGamelift($id, $name="Gamelift", $tech="")
   CloudElement($id, 'aws/GameTech/AwsGamelift', $name, $tech)
-!endfunction
-!function AwsGameliftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGameliftCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGameliftMd>', 'Gamelift', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

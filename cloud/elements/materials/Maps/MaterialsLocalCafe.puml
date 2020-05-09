@@ -3,10 +3,10 @@ sprite $MaterialsLocalCafeLg [20x20/16z] ZT350OGm443HKLpwhtO5ulvlFE8m7aaOFQQtwpg
 
 sprite $MaterialsLocalCafeMd [14x14/16z] PSx50G0X30J03UxqN-q9BlEB1mTYtH_950jhvH_bId2zH4gkaTLyxGIkYASI18P2c4yPAkY7GffER8yH3Yy
 
-!function MaterialsLocalCafe($id, $name="Local Cafe", $tech="")
+!procedure MaterialsLocalCafe($id, $name="Local Cafe", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalCafe', $name, $tech)
-!endfunction
-!function MaterialsLocalCafeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalCafeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalCafeMd>', 'Local Cafe', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

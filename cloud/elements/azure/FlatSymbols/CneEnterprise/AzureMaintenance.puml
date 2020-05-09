@@ -6,10 +6,10 @@ TS2bD2kRJNa4
 
 sprite $AzureMaintenanceMd [10x14/16z] LSP50GH040EmxZ3KlzrZp2lHmCc3rFjY3xgzW5evGmqWESsvJuPSkmzA1fvREkopMNsjwhtkzqZxMzLhfrfm1G
 
-!function AzureMaintenance($id, $name="Maintenance", $tech="")
+!procedure AzureMaintenance($id, $name="Maintenance", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMaintenance', $name, $tech)
-!endfunction
-!function AzureMaintenanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMaintenanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMaintenanceMd>', 'Maintenance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

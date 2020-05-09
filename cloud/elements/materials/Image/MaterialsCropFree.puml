@@ -3,10 +3,10 @@ sprite $MaterialsCropFreeLg [20x20/16z] jP2r0K0n44AFG1VsN_UxkxxcNECwIH9g1PMIMfUT
 
 sprite $MaterialsCropFreeMd [14x14/16z] VKw50S0m22Cu_nyyzxN5dT27mBmwPgn9PM1naRKuJXmpoKiMvqhmMhiEq93Ua-yhxm_lxszaRve1
 
-!function MaterialsCropFree($id, $name="Crop Free", $tech="")
+!procedure MaterialsCropFree($id, $name="Crop Free", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCropFree', $name, $tech)
-!endfunction
-!function MaterialsCropFreeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCropFreeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCropFreeMd>', 'Crop Free', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

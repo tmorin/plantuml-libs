@@ -3,10 +3,10 @@ sprite $AwsEfsStandardLg [20x20/16z] fOw3bGG044CFyuF-2rxRo7FSRn7baZ7oXZmgne1Ym3i
 
 sprite $AwsEfsStandardMd [14x14/16z] XOp70OH0549trGT_-YzuShWfd8Zf7Q4umf9SBO-8nzmOZQBfxCg41aUJ1_6iOTLLxMFFtbIQ7rFYz8K2
 
-!function AwsEfsStandard($id, $name="Efs Standard", $tech="")
+!procedure AwsEfsStandard($id, $name="Efs Standard", $tech="")
   CloudElement($id, 'aws/Storage/AwsEfsStandard', $name, $tech)
-!endfunction
-!function AwsEfsStandardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEfsStandardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEfsStandardMd>', 'Efs Standard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

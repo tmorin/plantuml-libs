@@ -6,10 +6,10 @@ HEiD4-y-bWfl9hy
 
 sprite $AzureServerFarmMd [22x14/16z] lS_70KCn20FG2x8GQFzve_HaWV_SkraxM7ueFfhrJfBW2KEFeNsgYi9K3CGqnzwmy6oXP_iaF5leqLmzIm0j36AWJaExIKfOna9Aqy_OVlV-nROFxzXk
 
-!function AzureServerFarm($id, $name="Server Farm", $tech="")
+!procedure AzureServerFarm($id, $name="Server Farm", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerFarm', $name, $tech)
-!endfunction
-!function AzureServerFarmCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServerFarmCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServerFarmMd>', 'Server Farm', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

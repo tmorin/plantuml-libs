@@ -4,9 +4,9 @@ dT2r0KCX00JGuepz9yvzjuhWF9mn6TBm4XEW7qHwIwUexG0PflODnBMtZb2xkTnLBlYqS5tIwX_pPjHf
 uGS
 }
 
-!function AwsGroupElasticContainerService($id, $name="Elastic Container Service", $tech="")
+!procedure AwsGroupElasticContainerService($id, $name="Elastic Container Service", $tech="")
   CloudGroup($id, "AwsGroupElasticContainerService", "<$AwsGroupElasticContainerServiceLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupElasticContainerService>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

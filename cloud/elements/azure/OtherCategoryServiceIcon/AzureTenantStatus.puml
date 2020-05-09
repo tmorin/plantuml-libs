@@ -6,10 +6,10 @@ TOu50e0m24M93wlxtzS5jZvpZoGYXfdI5NZdgiG7ngVHgxdc_FK9593pn2myloBHAPgA7OMh1tVXE8s9
 
 sprite $AzureTenantStatusMd [13x14/16z] FOq74W0n20ADg32N___tqdVQMZ7pJDWbgygFjrcyKRp9726k0pvhj5bKfSzDtqKbYWnKZ68YKHAcpa6ESXUPp85lielVIwlUsUp2wJy
 
-!function AzureTenantStatus($id, $name="Tenant Status", $tech="")
+!procedure AzureTenantStatus($id, $name="Tenant Status", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureTenantStatus', $name, $tech)
-!endfunction
-!function AzureTenantStatusCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTenantStatusCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTenantStatusMd>', 'Tenant Status', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

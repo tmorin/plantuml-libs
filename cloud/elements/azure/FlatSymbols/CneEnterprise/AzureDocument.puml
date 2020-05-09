@@ -3,10 +3,10 @@ sprite $AzureDocumentLg [16x20/16z] jSv74WGX2010AIpo_x-xEy6ir-aRcR3AELqCeU2WEuPK
 
 sprite $AzureDocumentMd [11x14/16z] NSg54G9H40FGbG-HeVzsETStifAOc54TWLZ9TQu_zxv24cANGDHdp2gMTPnhVnUzhDcBV7sh5-_k0IOsz0G
 
-!function AzureDocument($id, $name="Document", $tech="")
+!procedure AzureDocument($id, $name="Document", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDocument', $name, $tech)
-!endfunction
-!function AzureDocumentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDocumentCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDocumentMd>', 'Document', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

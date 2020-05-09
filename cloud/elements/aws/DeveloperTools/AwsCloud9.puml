@@ -6,10 +6,10 @@ AUa7x0Vi1_m3
 
 sprite $AwsCloud9Md [14x14/16z] PSp70G0X24JHqpBmxR_VDUVyHWM8qTmvoC5NoctAHSYiAV9k5YfCo7Fm1Mv50cGGHIaaMPbUb9ZbYqhGswl57m
 
-!function AwsCloud9($id, $name="Cloud9", $tech="")
+!procedure AwsCloud9($id, $name="Cloud9", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCloud9', $name, $tech)
-!endfunction
-!function AwsCloud9Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloud9Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloud9Md>', 'Cloud9', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

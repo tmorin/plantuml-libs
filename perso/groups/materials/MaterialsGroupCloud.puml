@@ -4,9 +4,9 @@ fS_50SD030J05QmE5VTVRJWnFJsVGn6k4oDDiEKZUy_XM353HJII_pZ_xPdskM5VAhxgPnSPQt8c5V1q
 9Z_ZnugAInu
 }
 
-!function MaterialsGroupCloud($id, $name="Cloud", $tech="")
+!procedure MaterialsGroupCloud($id, $name="Cloud", $tech="")
   PersoGroup($id, "MaterialsGroupCloud", "<$MaterialsGroupCloudLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupCloud>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

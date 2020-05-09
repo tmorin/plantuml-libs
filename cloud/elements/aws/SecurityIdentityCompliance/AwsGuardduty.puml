@@ -6,10 +6,10 @@ xtm1
 
 sprite $AwsGuarddutyMd [14x14/16z] XOt50S0m30DVbdJTVzyoKounKzS095Y3I9bagIYM7B54hX4laPAoAz4pGgcHVGvBHZmk7DSR3
 
-!function AwsGuardduty($id, $name="Guardduty", $tech="")
+!procedure AwsGuardduty($id, $name="Guardduty", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsGuardduty', $name, $tech)
-!endfunction
-!function AwsGuarddutyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGuarddutyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGuarddutyMd>', 'Guardduty', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

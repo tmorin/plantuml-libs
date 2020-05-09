@@ -6,10 +6,10 @@ jtHyZ844Xj57Xz7SqXxDpK3nrIe_
 
 sprite $AwsIdentityAndAccessManagementIamDataEncryptionKeyMd [14x14/16z] HSl50O1034JHqT1_nJZilxq8c3Iz2W4bKrv5fzfjZ3Fxr3ZEBTsNYdxvl0ND9TRbBnNn8zIzUmI68ozXUCktQERUXTJ_n_Gjn04
 
-!function AwsIdentityAndAccessManagementIamDataEncryptionKey($id, $name="Identity And Access Management Iam Data Encryption Key", $tech="")
+!procedure AwsIdentityAndAccessManagementIamDataEncryptionKey($id, $name="Identity And Access Management Iam Data Encryption Key", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey', $name, $tech)
-!endfunction
-!function AwsIdentityAndAccessManagementIamDataEncryptionKeyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamDataEncryptionKeyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIdentityAndAccessManagementIamDataEncryptionKeyMd>', 'Identity And Access Management Iam Data Encryption Key', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ K7J_9LAr8l20PK4JFLl82r7X2HBH_lyp
 
 sprite $MaterialsHeadsetMicMd [14x14/16z] TKw30GD145mhwh_R_37yuse0RH4pmLneuHw68md5uzNegLbxvu-94z2Q531NKCjshsNNQhEOTMtPxN4x-x3UCo3jwcQrtQcPEwwCHUH8dW
 
-!function MaterialsHeadsetMic($id, $name="Headset Mic", $tech="")
+!procedure MaterialsHeadsetMic($id, $name="Headset Mic", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsHeadsetMic', $name, $tech)
-!endfunction
-!function MaterialsHeadsetMicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHeadsetMicCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHeadsetMicMd>', 'Headset Mic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

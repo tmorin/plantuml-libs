@@ -3,10 +3,10 @@ sprite $AzureSecurityCenterLg [15x20/16z] TT2r0O1000J1K_el6NVORE0TIpHnHAKHCMKxNK
 
 sprite $AzureSecurityCenterMd [10x14/16z] NOg50S0m20J92_kFtCRb8l0IFsJy552s2BYJcTScO6oWsBT2eMsA7pzR-Vatve2XljGEkrE1ZNzy
 
-!function AzureSecurityCenter($id, $name="Security Center", $tech="")
+!procedure AzureSecurityCenter($id, $name="Security Center", $tech="")
   CloudElement($id, 'azure/SecurityServiceColor/AzureSecurityCenter', $name, $tech)
-!endfunction
-!function AzureSecurityCenterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSecurityCenterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSecurityCenterMd>', 'Security Center', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

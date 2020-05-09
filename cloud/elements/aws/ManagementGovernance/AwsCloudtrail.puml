@@ -6,10 +6,10 @@ mAV0Fm
 
 sprite $AwsCloudtrailMd [14x14/16z] LSh95O1G34BHrMVG_liruFnMkJcuwSe_-iVhlhW50EHgI5eBrH3PSbKcbJaHpGYWBTWZ4CX7e-IhgBrwkVzu
 
-!function AwsCloudtrail($id, $name="Cloudtrail", $tech="")
+!procedure AwsCloudtrail($id, $name="Cloudtrail", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudtrail', $name, $tech)
-!endfunction
-!function AwsCloudtrailCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudtrailCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudtrailMd>', 'Cloudtrail', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

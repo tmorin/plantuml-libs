@@ -6,10 +6,10 @@ vXeTQweS7fth2de5leWp21TgzPIIE9YkDtriAGpFPmka-wbyD0o0shYVUgTOowFw16eHzQyN
 
 sprite $AwsElasticacheForMemcachedMd [14x14/16z] JSU50GH134BH1FXC_nMVoxueinVJyjEwfNoM8JuAEWxWB2zhWn9sPaaC0l80Y1QiNPcUXf16nz3C3ARKp0j18fyKQqREl6m0ilErd_SE
 
-!function AwsElasticacheForMemcached($id, $name="Elasticache For Memcached", $tech="")
+!procedure AwsElasticacheForMemcached($id, $name="Elasticache For Memcached", $tech="")
   CloudElement($id, 'aws/Database/AwsElasticacheForMemcached', $name, $tech)
-!endfunction
-!function AwsElasticacheForMemcachedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticacheForMemcachedCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticacheForMemcachedMd>', 'Elasticache For Memcached', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

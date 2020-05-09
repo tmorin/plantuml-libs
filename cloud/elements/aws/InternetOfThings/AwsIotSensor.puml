@@ -6,10 +6,10 @@ GIueKqn8R5Zf2nYFscYVwThVUFXW9jcwVI89iFy9AVty8DO_
 
 sprite $AwsIotSensorMd [14x14/16z] DOo14S1G1CM4s7_blZlz0O0AezJ3eUqwsZZMkL6_bRYvtfzPmVDH4dVZCERyt0DW9gx2jM-XKBjZOK6NsbZMm97URS1eUF01
 
-!function AwsIotSensor($id, $name="Iot Sensor", $tech="")
+!procedure AwsIotSensor($id, $name="Iot Sensor", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotSensor', $name, $tech)
-!endfunction
-!function AwsIotSensorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotSensorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotSensorMd>', 'Iot Sensor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

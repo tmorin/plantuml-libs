@@ -6,10 +6,10 @@ qMdY8fur8uOhtW
 
 sprite $MaterialsDriveEtaMd [14x14/16z] VSc75S0m20DHEkdPVriB3U3lUW_PYwHWM1cLSUH2pc6xaZV2dkjw0BUXJeiV0X_KvJLLVasz-DBBwg2UqZGXIvMT1G
 
-!function MaterialsDriveEta($id, $name="Drive Eta", $tech="")
+!procedure MaterialsDriveEta($id, $name="Drive Eta", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsDriveEta', $name, $tech)
-!endfunction
-!function MaterialsDriveEtaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDriveEtaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDriveEtaMd>', 'Drive Eta', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ PVOjvZCtRQ5siF4mzh3w0m
 
 sprite $AzureIotCentralApplicationsMd [12x14/16z] JKw50O002AF3_mzsc7J322IPGXUnLqGv8xH24Qqo6YNcgLMZg5MALdUm7I13B1aniID6RyNqpJZ_k_lc_hKnR6md
 
-!function AzureIotCentralApplications($id, $name="Iot Central Applications", $tech="")
+!procedure AzureIotCentralApplications($id, $name="Iot Central Applications", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureIotCentralApplications', $name, $tech)
-!endfunction
-!function AzureIotCentralApplicationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIotCentralApplicationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIotCentralApplicationsMd>', 'Iot Central Applications', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

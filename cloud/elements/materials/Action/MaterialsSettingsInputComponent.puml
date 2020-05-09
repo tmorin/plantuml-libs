@@ -9,10 +9,10 @@ NKrLWaCX41i9X8VU_xQRhRS_8r6pC3Dtknz1ZL8q6FhQysjXNZg4w48lZdEwrtEgztFm_UNLczHIjNwb
 fDiV
 }
 
-!function MaterialsSettingsInputComponent($id, $name="Settings Input Component", $tech="")
+!procedure MaterialsSettingsInputComponent($id, $name="Settings Input Component", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputComponent', $name, $tech)
-!endfunction
-!function MaterialsSettingsInputComponentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsInputComponentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsInputComponentMd>', 'Settings Input Component', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

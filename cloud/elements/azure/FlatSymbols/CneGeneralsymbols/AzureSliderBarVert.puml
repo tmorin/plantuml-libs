@@ -3,10 +3,10 @@ sprite $AzureSliderBarVertLg [9x20/16z] Os1WOW02HaQi34OmWna8cE0Cc1HSCTqP
 
 sprite $AzureSliderBarVertMd [6x14/16z] Os1aO01Y2Cd422IPcPdXR20aWmG
 
-!function AzureSliderBarVert($id, $name="Slider Bar Vert", $tech="")
+!procedure AzureSliderBarVert($id, $name="Slider Bar Vert", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureSliderBarVert', $name, $tech)
-!endfunction
-!function AzureSliderBarVertCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSliderBarVertCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSliderBarVertMd>', 'Slider Bar Vert', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

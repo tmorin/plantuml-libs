@@ -6,10 +6,10 @@ HSYdZbjKXVc_pb8-j_rjGRvvrMamGeVE04PWRWrkC01ROCm
 
 sprite $AzureIntuneManagedAppMd [18x14/16z] NOe74WH120BF0KPS___UoybjSvUXFL3ew2z7sacL9n8l0qXuBWjOh-Lb8WGeucjOTZrAFoFQLF5ZaEJUPE9ZrELkk_VtntQcRRxDO8aR0p5u8cu
 
-!function AzureIntuneManagedApp($id, $name="Intune Managed App", $tech="")
+!procedure AzureIntuneManagedApp($id, $name="Intune Managed App", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneManagedApp', $name, $tech)
-!endfunction
-!function AzureIntuneManagedAppCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIntuneManagedAppCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIntuneManagedAppMd>', 'Intune Managed App', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

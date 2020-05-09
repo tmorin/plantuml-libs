@@ -3,10 +3,10 @@ sprite $AwsClientVpnLg [20x20/16z] jOv55i0m448tuGEv_u7xwh9lF3FO_6NKa4z9RlGkRfWEq
 
 sprite $AwsClientVpnMd [14x14/16z] XSct0G8n40NHQCrC_mNpWJEXdhJU4_0ruMr7f--vaMN-usokIVzni4F6o66warQ3_uH_TE2DyEG3
 
-!function AwsClientVpn($id, $name="Client Vpn", $tech="")
+!procedure AwsClientVpn($id, $name="Client Vpn", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsClientVpn', $name, $tech)
-!endfunction
-!function AwsClientVpnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsClientVpnCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsClientVpnMd>', 'Client Vpn', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

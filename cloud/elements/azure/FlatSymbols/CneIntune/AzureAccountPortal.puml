@@ -6,10 +6,10 @@ YfJTf2VUtMInmnGnx1HLtp6v0G
 
 sprite $AzureAccountPortalMd [12x14/16z] FSU70S0m20D1Ea7QVzvq-rnuvAOHAXyzWFwN983ukkzcVLrFvzSESam-tlrdf8fO-Pq5JlKG8Nh_l86768WNHmC_mXBymJqtkm
 
-!function AzureAccountPortal($id, $name="Account Portal", $tech="")
+!procedure AzureAccountPortal($id, $name="Account Portal", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureAccountPortal', $name, $tech)
-!endfunction
-!function AzureAccountPortalCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAccountPortalCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAccountPortalMd>', 'Account Portal', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

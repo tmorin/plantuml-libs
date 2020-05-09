@@ -6,10 +6,10 @@ PTuH
 
 sprite $AzureApplicationBlankForTextMd [21x14/16z] ZSZ50GCn4CNG-M1s_-s6EKll9it3Hlyt6_verBWI8GM5Q-0-uUoBn7GjtgSlKtB2vwGlnyZcSzxfqevupZ_79qRZ7uyv_iqp
 
-!function AzureApplicationBlankForText($id, $name="Application Blank For Text", $tech="")
+!procedure AzureApplicationBlankForText($id, $name="Application Blank For Text", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureApplicationBlankForText', $name, $tech)
-!endfunction
-!function AzureApplicationBlankForTextCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureApplicationBlankForTextCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureApplicationBlankForTextMd>', 'Application Blank For Text', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

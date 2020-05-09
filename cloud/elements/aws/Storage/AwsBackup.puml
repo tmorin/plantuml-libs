@@ -6,10 +6,10 @@ RHb8OWntzVv7S0KyhK-hCzl6VTkdVfitE6_m0G
 
 sprite $AwsBackupMd [14x14/16z] PSUx0SGW44F1PD6JwB_W0_P-jYURBFuWb-Q0lr75TsZhCLYrQds6GbYz6Pb4hAnDB13aRCKmdEob1gfQornmOdBMakTU
 
-!function AwsBackup($id, $name="Backup", $tech="")
+!procedure AwsBackup($id, $name="Backup", $tech="")
   CloudElement($id, 'aws/Storage/AwsBackup', $name, $tech)
-!endfunction
-!function AwsBackupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBackupCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBackupMd>', 'Backup', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

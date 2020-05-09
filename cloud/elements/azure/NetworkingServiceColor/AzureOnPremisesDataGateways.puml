@@ -6,10 +6,10 @@ qV68Rw3Re8yDUN3uKwZV-8sSXyR_fiQAbHC
 
 sprite $AzureOnPremisesDataGatewaysMd [14x14/16z] HOk94GCn20C1hPZhl-8Oa-JMBthYaa3jJmXiQoRmqEsCAEnUQXfdMC4pk5sv8zmXwuut9mesEYArlOWwI7F75pdozqzZ53_qF8uNUjyF
 
-!function AzureOnPremisesDataGateways($id, $name="On Premises Data Gateways", $tech="")
+!procedure AzureOnPremisesDataGateways($id, $name="On Premises Data Gateways", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureOnPremisesDataGateways', $name, $tech)
-!endfunction
-!function AzureOnPremisesDataGatewaysCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureOnPremisesDataGatewaysCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureOnPremisesDataGatewaysMd>', 'On Premises Data Gateways', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsRedoLg [20x20/16z] nOk50G0X30Efuzb_sbUOWKCRIMSXPgRl9_mhx7K2BUIH
 
 sprite $MaterialsRedoMd [14x14/16z] fOU50S0m20HnYEy_ROGHsaF-3_w0H7Y3NkTehLL5yIlQZP2ard6D6yF3rhhccY9zFaD8w05VEG
 
-!function MaterialsRedo($id, $name="Redo", $tech="")
+!procedure MaterialsRedo($id, $name="Redo", $tech="")
   CloudElement($id, 'materials/Content/MaterialsRedo', $name, $tech)
-!endfunction
-!function MaterialsRedoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRedoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRedoMd>', 'Redo', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ bj_m1
 
 sprite $MaterialsPersonOutlineMd [14x14/16z] XSor0O0030J0sCl-2-FImLNHZpy9vDiOyDEM8bJlhihlQKiTZvfv3iSYvJaRrHbrj6GVo2E2buvFAm
 
-!function MaterialsPersonOutline($id, $name="Person Outline", $tech="")
+!procedure MaterialsPersonOutline($id, $name="Person Outline", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPersonOutline', $name, $tech)
-!endfunction
-!function MaterialsPersonOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPersonOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPersonOutlineMd>', 'Person Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

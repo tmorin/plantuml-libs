@@ -6,10 +6,10 @@ yyDiKBz2yHTh
 
 sprite $MaterialsCameraAltMd [14x14/16z] VOo55KKn24CX1qAz-q_xNPvVN6M7CeBwIk6UvuDCXqWyqrgVFbvLDLLhtygKLFjK5PoJgBjgjpcR0VylZ_gHlohu0_Bf8LVS0G
 
-!function MaterialsCameraAlt($id, $name="Camera Alt", $tech="")
+!procedure MaterialsCameraAlt($id, $name="Camera Alt", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCameraAlt', $name, $tech)
-!endfunction
-!function MaterialsCameraAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCameraAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCameraAltMd>', 'Camera Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

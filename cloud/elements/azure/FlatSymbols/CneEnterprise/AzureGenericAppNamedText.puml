@@ -6,10 +6,10 @@ PTuH
 
 sprite $AzureGenericAppNamedTextMd [21x14/16z] ZSZ50GCn4CNG-M1s_-s6EKll9it3Hlyt6_verBWI8GM5Q-0-uUoBn7GjtgSlKtB2vwGlnyZcSzxfqevupZ_79qRZ7uyv_iqp
 
-!function AzureGenericAppNamedText($id, $name="Generic App Named Text", $tech="")
+!procedure AzureGenericAppNamedText($id, $name="Generic App Named Text", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericAppNamedText', $name, $tech)
-!endfunction
-!function AzureGenericAppNamedTextCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGenericAppNamedTextCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGenericAppNamedTextMd>', 'Generic App Named Text', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

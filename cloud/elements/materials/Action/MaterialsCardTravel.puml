@@ -6,10 +6,10 @@ fnvtU7rmM8-r5OVf_W31Rpe
 
 sprite $MaterialsCardTravelMd [14x14/16z] PSUr0S104CJ0FORllrupUo89Fn8BEI-LMHChKcrJjLObmDD7kCTO0WY64K06ZkqEsybvibx5eTRhFFHwIWTTpYeFPG3uWeyP
 
-!function MaterialsCardTravel($id, $name="Card Travel", $tech="")
+!procedure MaterialsCardTravel($id, $name="Card Travel", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCardTravel', $name, $tech)
-!endfunction
-!function MaterialsCardTravelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCardTravelCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCardTravelMd>', 'Card Travel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

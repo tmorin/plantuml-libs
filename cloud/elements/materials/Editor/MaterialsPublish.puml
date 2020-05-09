@@ -3,10 +3,10 @@ sprite $MaterialsPublishLg [20x20/16z] fSZ50SGm44DH6QJTSF_LXcCypZFEXr5K4l7IU1g6w
 
 sprite $MaterialsPublishMd [14x14/16z] XSVL0SCm50D0sO_QaFQVDinuVuTtvYERfZCiHB2Hgf9ToBLID6HJp4qvoCW9CoSTk9-u2xvq
 
-!function MaterialsPublish($id, $name="Publish", $tech="")
+!procedure MaterialsPublish($id, $name="Publish", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsPublish', $name, $tech)
-!endfunction
-!function MaterialsPublishCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPublishCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPublishMd>', 'Publish', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

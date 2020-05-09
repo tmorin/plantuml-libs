@@ -6,10 +6,10 @@ OknS5DSvRstRW-qL_STJtdbxkho_0G
 
 sprite $GcpApigeeApiPlatformMd [14x14/16z] LOw50GDH34BZiF_4fJb_N-EOcUVY-ieOBBDcyQHa18Y52BCcQW7R4hAG2LcG8Ikxyr-Eh_NEP3vTo3adaDgCz_I-bSd0AVHH_GC
 
-!function GcpApigeeApiPlatform($id, $name="Apigee Api Platform", $tech="")
+!procedure GcpApigeeApiPlatform($id, $name="Apigee Api Platform", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpApigeeApiPlatform', $name, $tech)
-!endfunction
-!function GcpApigeeApiPlatformCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpApigeeApiPlatformCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpApigeeApiPlatformMd>', 'Apigee Api Platform', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

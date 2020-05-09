@@ -3,10 +3,10 @@ sprite $AwsOrganizationsLg [20x20/16z] hOx50KHH20DNI0RelzzrrszpY3ob5w3iUbb189vMS
 
 sprite $AwsOrganizationsMd [14x14/16z] XKot0S0m39emmlyV7FKnLY_0VPb8xM8mZzbutBW_8sr_Yfzs4wdPd0CujpH00VAMBpkXugtqAHVnTd_j0m
 
-!function AwsOrganizations($id, $name="Organizations", $tech="")
+!procedure AwsOrganizations($id, $name="Organizations", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOrganizations', $name, $tech)
-!endfunction
-!function AwsOrganizationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsOrganizationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsOrganizationsMd>', 'Organizations', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

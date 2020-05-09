@@ -6,10 +6,10 @@ _2ARa6KK5Rc9ze4nvRY25C_q
 
 sprite $MaterialsQueuePlayNextMd [14x14/16z] LOu50aCX34FR9ZZS_xfROFloaBhO6uyBjsZreWNBJd3zXSoIfFvyBC_PBolg63MkcAMa7t4iGEbkBFudLm_DwLyQl1VDmbnhGZ4JMclNlVa
 
-!function MaterialsQueuePlayNext($id, $name="Queue Play Next", $tech="")
+!procedure MaterialsQueuePlayNext($id, $name="Queue Play Next", $tech="")
   CloudElement($id, 'materials/Av/MaterialsQueuePlayNext', $name, $tech)
-!endfunction
-!function MaterialsQueuePlayNextCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsQueuePlayNextCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsQueuePlayNextMd>', 'Queue Play Next', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

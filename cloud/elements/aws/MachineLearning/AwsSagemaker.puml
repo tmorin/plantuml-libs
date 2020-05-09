@@ -6,10 +6,10 @@ RSy5YWLH30LHw7SjsVz-npA_lV23LkMJz-e5QyT3Qr2GGESmWmP4Q3S3ZXHpQJVQb89jAMCXB8gn2EVF
 
 sprite $AwsSagemakerMd [14x14/16z] FSc74SKm40BH7mwMK_y5Mscy4nzqJkpwyceIMUAAmfhBaMVuNrb2acNa9LdO1IAZZQVZgamXgqZagNN2jB8qa6t4qOYnqtqq-dRq-W4
 
-!function AwsSagemaker($id, $name="Sagemaker", $tech="")
+!procedure AwsSagemaker($id, $name="Sagemaker", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsSagemaker', $name, $tech)
-!endfunction
-!function AwsSagemakerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSagemakerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSagemakerMd>', 'Sagemaker', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

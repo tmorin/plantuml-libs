@@ -3,10 +3,10 @@ sprite $AwsSnowballLg [20x20/16z] hO-t0G0n20CR1VJxx_ivswNF0RXAJED9kRopDZcS243x1R
 
 sprite $AwsSnowballMd [14x14/16z] bSst0S0m20NHYkFR---hd3jEyLNyWSH8LHXOFJIXAZ64IYnzfIN7onuoQkLv9WJA
 
-!function AwsSnowball($id, $name="Snowball", $tech="")
+!procedure AwsSnowball($id, $name="Snowball", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsSnowball', $name, $tech)
-!endfunction
-!function AwsSnowballCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSnowballCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSnowballMd>', 'Snowball', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

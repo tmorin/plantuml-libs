@@ -9,10 +9,10 @@ PSw5OGGm30F0e47I_lCsqESBeyrUVWZvGmSFVV2wcFxH4i0iotpkZLW_VEzv1Bmizje34Sm5hpqAUQTp
 HsopzDNtyWS
 }
 
-!function AzureNetworkCard($id, $name="Network Card", $tech="")
+!procedure AzureNetworkCard($id, $name="Network Card", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureNetworkCard', $name, $tech)
-!endfunction
-!function AzureNetworkCardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNetworkCardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNetworkCardMd>', 'Network Card', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

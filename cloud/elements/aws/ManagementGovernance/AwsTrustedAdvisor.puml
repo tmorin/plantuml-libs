@@ -3,10 +3,10 @@ sprite $AwsTrustedAdvisorLg [20x20/16z] dL350GCn3Fi8i_--PUwnWcPROo_QNqK4AbzguWP-
 
 sprite $AwsTrustedAdvisorMd [14x14/16z] TOw30S0m44Mhh-w_R-qcBpXZB90yT06wR6A1bqMRHIiX9NBl50eBujvdCOPXCG_31ktTrFAJkzmXQvlTp
 
-!function AwsTrustedAdvisor($id, $name="Trusted Advisor", $tech="")
+!procedure AwsTrustedAdvisor($id, $name="Trusted Advisor", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisor', $name, $tech)
-!endfunction
-!function AwsTrustedAdvisorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTrustedAdvisorMd>', 'Trusted Advisor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

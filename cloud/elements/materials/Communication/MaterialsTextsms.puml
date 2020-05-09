@@ -3,10 +3,10 @@ sprite $MaterialsTextsmsLg [20x20/16z] fSY54KD120L0O3Y_H_glDlRTRSUNLh5CyA-YOSJYD
 
 sprite $MaterialsTextsmsMd [14x14/16z] TOk30G1H34FpZMh_QS_6gn7S2UKW0CKEoiSaAfDl4uMQKWsqJfnQAItnf-vxojCaAMwuQOguuF7B2
 
-!function MaterialsTextsms($id, $name="Textsms", $tech="")
+!procedure MaterialsTextsms($id, $name="Textsms", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsTextsms', $name, $tech)
-!endfunction
-!function MaterialsTextsmsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTextsmsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTextsmsMd>', 'Textsms', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

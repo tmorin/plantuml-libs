@@ -6,10 +6,10 @@ _MmREIQtj1cqXHap2QYbTmC
 
 sprite $AzureToolsMd [13x14/16z] JOs50S0m20I1b_qtRkE671wHOinNNON1H8jIwWosCEaU59hAjcfmYoYXW5WlAUO9PA8cepCr8jgCidk4nt7oYcJiKSPp8Ny
 
-!function AzureTools($id, $name="Tools", $tech="")
+!procedure AzureTools($id, $name="Tools", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureTools', $name, $tech)
-!endfunction
-!function AzureToolsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureToolsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureToolsMd>', 'Tools', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

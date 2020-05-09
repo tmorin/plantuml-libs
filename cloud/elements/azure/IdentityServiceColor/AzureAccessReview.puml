@@ -6,10 +6,10 @@ M_vPM0Rk4gRFqUvp_0n7WBtVJCJiGSu
 
 sprite $AzureAccessReviewMd [14x14/16z] RKx50KDH22E2lEw_Rzs-v0RHombc_W_oTou1Mf_BCHr-7ndgPkJpACYIYReVZPuWCOLvvBbqH_cPEmfrApIl0aTL-5jHU4Pyq7sszmO
 
-!function AzureAccessReview($id, $name="Access Review", $tech="")
+!procedure AzureAccessReview($id, $name="Access Review", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAccessReview', $name, $tech)
-!endfunction
-!function AzureAccessReviewCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAccessReviewCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAccessReviewMd>', 'Access Review', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsRemoveLg [20x20/16z] OnYYW9K33bYnYWrH
 
 sprite $MaterialsRemoveMd [14x14/16z] Ow0DO6450nOq7cq
 
-!function MaterialsRemove($id, $name="Remove", $tech="")
+!procedure MaterialsRemove($id, $name="Remove", $tech="")
   CloudElement($id, 'materials/Content/MaterialsRemove', $name, $tech)
-!endfunction
-!function MaterialsRemoveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveMd>', 'Remove', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ VGXhxzpH81A6udlB41Mstpp28CtVcldRn02O64oicebLuwmIgQxTXc0r3Dly0G
 
 sprite $AzureRecentMd [14x14/16z] HOw55GD024C_4Qwl--zR5zm9CEc3CW2eqOEoVYM26Fn8fnfeOBoJ0FHZgt_cNGrm3Z0wAu3BTJFel2SPrtWJFZGqxm_m_l3-FWF-WAabzvN0PC_P3707
 
-!function AzureRecent($id, $name="Recent", $tech="")
+!procedure AzureRecent($id, $name="Recent", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureRecent', $name, $tech)
-!endfunction
-!function AzureRecentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureRecentCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureRecentMd>', 'Recent', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

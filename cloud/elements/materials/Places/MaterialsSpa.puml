@@ -6,10 +6,10 @@ BfhXoBjEkkFCYWwAuOgXZ542SSyCdsm1
 
 sprite $MaterialsSpaMd [14x14/16z] ROs50SCm3C3CBaR_NplcLU4O90UOoHkTPts_0kBzQfWUMNfxzVrMIvbcgbqk8WbRNeuDBeVjC387x5TDSRdiGDrbt7WejGUCVlczokMVCm
 
-!function MaterialsSpa($id, $name="Spa", $tech="")
+!procedure MaterialsSpa($id, $name="Spa", $tech="")
   CloudElement($id, 'materials/Places/MaterialsSpa', $name, $tech)
-!endfunction
-!function MaterialsSpaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSpaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSpaMd>', 'Spa', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

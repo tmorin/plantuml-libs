@@ -3,10 +3,10 @@ sprite $MaterialsNotificationsNoneLg [20x20/16z] hOk30SH044L7Q_LVxLri9syv7t0NhLS
 
 sprite $MaterialsNotificationsNoneMd [14x14/16z] XOo30G0n301ZxR_lssWl9dn0T2am4yz9JEnJ30RWsARiitTUAx7Pc_GhCvmmMvzKnaJM-cOQY4mETbJXWn4
 
-!function MaterialsNotificationsNone($id, $name="Notifications None", $tech="")
+!procedure MaterialsNotificationsNone($id, $name="Notifications None", $tech="")
   CloudElement($id, 'materials/Social/MaterialsNotificationsNone', $name, $tech)
-!endfunction
-!function MaterialsNotificationsNoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNotificationsNoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNotificationsNoneMd>', 'Notifications None', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

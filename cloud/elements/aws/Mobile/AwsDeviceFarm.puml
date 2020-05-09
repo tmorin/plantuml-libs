@@ -6,10 +6,10 @@ BTecicrGsZk7Ia_RQujYkljy3ZNfhjCkF9wSTkBPFpln1m
 
 sprite $AwsDeviceFarmMd [14x14/16z] JSj50W9G24LHwnNkVxz-mBgpG-ITfm-MbPC0hIec0N9bK2T2EH8UIlG0HoT0fwJb8lCH4Il0o9194MvLvey7UTR9f5EjuJJwvmi
 
-!function AwsDeviceFarm($id, $name="Device Farm", $tech="")
+!procedure AwsDeviceFarm($id, $name="Device Farm", $tech="")
   CloudElement($id, 'aws/Mobile/AwsDeviceFarm', $name, $tech)
-!endfunction
-!function AwsDeviceFarmCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeviceFarmCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeviceFarmMd>', 'Device Farm', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

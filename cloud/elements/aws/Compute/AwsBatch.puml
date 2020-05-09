@@ -3,10 +3,10 @@ sprite $AwsBatchLg [20x20/16z] bOpL0KC1308h1sJ_XIlFNUuZ2jHjiheOl1HXa-KjOUaMQ2PAS
 
 sprite $AwsBatchMd [14x14/16z] XOt50G0X40C_IMRxh_ZS3nXOjng1pHLbvhT6A7irCvQyyOqG5Qzc9WeIQ5thEDAirhspnMOssudQpPi9
 
-!function AwsBatch($id, $name="Batch", $tech="")
+!procedure AwsBatch($id, $name="Batch", $tech="")
   CloudElement($id, 'aws/Compute/AwsBatch', $name, $tech)
-!endfunction
-!function AwsBatchCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBatchCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBatchMd>', 'Batch', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsKeyboardArrowUpLg [20x20/16z] OnYCW8sD4KE8ZuyDNOY7XOK7LIKRBmi30
 
 sprite $MaterialsKeyboardArrowUpMd [14x14/16z] Ow0YO6D7uR2pmJb09aAMaHL4iZ9IpLu
 
-!function MaterialsKeyboardArrowUp($id, $name="Keyboard Arrow Up", $tech="")
+!procedure MaterialsKeyboardArrowUp($id, $name="Keyboard Arrow Up", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardArrowUp', $name, $tech)
-!endfunction
-!function MaterialsKeyboardArrowUpCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardArrowUpCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardArrowUpMd>', 'Keyboard Arrow Up', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

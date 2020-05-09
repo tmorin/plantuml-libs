@@ -6,10 +6,10 @@ XhqgkkMnQjCzEUlavuOFiTYgo37uysOtuv5PruLc
 
 sprite $AzureVirtualMachineMd [15x14/16z] LSo50SGm20LGF0RiF-xzy_PL4ZJhAilrBwgKG8m9z1rwzfPVAB5p-Y-qdB4tlq91MBdwq3VaSTQsRmWYtyqcmFpwU-MTAApk7Wf2m1DXCBteFeMmpbQY1m
 
-!function AzureVirtualMachine($id, $name="Virtual Machine", $tech="")
+!procedure AzureVirtualMachine($id, $name="Virtual Machine", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureVirtualMachine', $name, $tech)
-!endfunction
-!function AzureVirtualMachineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVirtualMachineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVirtualMachineMd>', 'Virtual Machine', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

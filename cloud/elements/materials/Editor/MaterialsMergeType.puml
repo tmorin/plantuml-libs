@@ -3,10 +3,10 @@ sprite $MaterialsMergeTypeLg [20x20/16z] hOsr0S0m30H5Pjf_sZ0hdVtbqy48YMYh555MQyM
 
 sprite $MaterialsMergeTypeMd [14x14/16z] ZSUr0O1044N1j_Bn_jl5BO6xoOQYY5ToclAEgUzbt2IeclVnJfB-2jdxkG08vzy2
 
-!function MaterialsMergeType($id, $name="Merge Type", $tech="")
+!procedure MaterialsMergeType($id, $name="Merge Type", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsMergeType', $name, $tech)
-!endfunction
-!function MaterialsMergeTypeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMergeTypeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMergeTypeMd>', 'Merge Type', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

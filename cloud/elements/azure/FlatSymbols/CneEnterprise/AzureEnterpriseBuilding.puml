@@ -6,10 +6,10 @@ ghe_7LtvNNEjcM8CZCrpdTbtu7i_uGy
 
 sprite $AzureEnterpriseBuildingMd [9x14/16z] LKhL0KCn2EH5JWBxpzl8Lz6poap6zuK69wAFM10Hz546UkPS58agdmmvixmpMzfWRiMrTmfqoiO6wDiwOJbhoTgPL__W1m
 
-!function AzureEnterpriseBuilding($id, $name="Enterprise Building", $tech="")
+!procedure AzureEnterpriseBuilding($id, $name="Enterprise Building", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureEnterpriseBuilding', $name, $tech)
-!endfunction
-!function AzureEnterpriseBuildingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEnterpriseBuildingCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEnterpriseBuildingMd>', 'Enterprise Building', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

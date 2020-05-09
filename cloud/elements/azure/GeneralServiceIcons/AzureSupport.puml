@@ -6,10 +6,10 @@ R_2D1m
 
 sprite $AzureSupportMd [9x14/16z] RSQt0OLG30D0FILx_uL_04ggEo2pMm2Df2bSEj6gbbDdJFyI3y1VtCLleZRa-P-qVS2ql_ZlFqcVz3rV
 
-!function AzureSupport($id, $name="Support", $tech="")
+!procedure AzureSupport($id, $name="Support", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureSupport', $name, $tech)
-!endfunction
-!function AzureSupportCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSupportCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSupportMd>', 'Support', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsPauseLg [20x20/16z] Ow05O6DdPs9WO69dPuCBCNBoyu74-FWv6OUc6ARVQ04
 
 sprite $MaterialsPauseMd [14x14/16z] Oo0061d160AOkTaO6DYucI4y5dvs1WPsVXRgyH0seDfE
 
-!function MaterialsPause($id, $name="Pause", $tech="")
+!procedure MaterialsPause($id, $name="Pause", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPause', $name, $tech)
-!endfunction
-!function MaterialsPauseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPauseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPauseMd>', 'Pause', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

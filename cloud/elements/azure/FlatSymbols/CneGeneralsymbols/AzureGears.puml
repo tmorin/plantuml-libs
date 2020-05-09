@@ -6,10 +6,10 @@ A4k3vcg897rx5Pmy__N0zK-3qi9uY7QyNFty1W
 
 sprite $AzureGearsMd [17x14/16z] JOs50SHG5CAGxB_oIQdbwpEGbEXDIljEbPHN8bGwMjmbkeGL8bigBGdbJwIaJGnjmVfXow6IItnPaJqiuL99wrW6cccCC78bd4CnwnXU_nS
 
-!function AzureGears($id, $name="Gears", $tech="")
+!procedure AzureGears($id, $name="Gears", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureGears', $name, $tech)
-!endfunction
-!function AzureGearsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGearsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGearsMd>', 'Gears', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

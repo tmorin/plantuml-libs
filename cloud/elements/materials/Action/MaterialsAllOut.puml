@@ -3,10 +3,10 @@ sprite $MaterialsAllOutLg [20x20/16z] fL350S1020iIgEu_Rjrxl-E5Hr0N5fGz4uRj6KU7Cf
 
 sprite $MaterialsAllOutMd [14x14/16z] VOt50K0X34EJrFQV6BryvK7TSCI2uFXXCmfN3kGn8we434LCSWGZp1Lm6oJlqRtplkL-uN7zI0S
 
-!function MaterialsAllOut($id, $name="All Out", $tech="")
+!procedure MaterialsAllOut($id, $name="All Out", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAllOut', $name, $tech)
-!endfunction
-!function MaterialsAllOutCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAllOutCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAllOutMd>', 'All Out', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

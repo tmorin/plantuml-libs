@@ -6,10 +6,10 @@ rmYoTw_dCyZNi_gUBG
 
 sprite $AwsPinpointMd [14x14/16z] XOsr0G0n30ChvqxPVzzdhCmipKw496STJ8Ip9SAeirE56kPSWGNXwJox-tAFBuhXnv0FkxEJ5G
 
-!function AwsPinpoint($id, $name="Pinpoint", $tech="")
+!procedure AwsPinpoint($id, $name="Pinpoint", $tech="")
   CloudElement($id, 'aws/CustomerEngagement/AwsPinpoint', $name, $tech)
-!endfunction
-!function AwsPinpointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsPinpointCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsPinpointMd>', 'Pinpoint', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

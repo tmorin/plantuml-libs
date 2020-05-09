@@ -3,10 +3,10 @@ sprite $AzureAlertsLg [20x20/16z] hT2r0S0m00D1qVuhXraky-MPJUUJcvABBFKAu5VBoCXKTX
 
 sprite $AzureAlertsMd [14x14/16z] Os910b0ECpEo82CZUJnc9cGE7fK8KMOG039052C3632pC44OK2uAZm6Y2
 
-!function AzureAlerts($id, $name="Alerts", $tech="")
+!procedure AzureAlerts($id, $name="Alerts", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureAlerts', $name, $tech)
-!endfunction
-!function AzureAlertsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAlertsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAlertsMd>', 'Alerts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

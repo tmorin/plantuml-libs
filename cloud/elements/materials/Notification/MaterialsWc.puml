@@ -6,10 +6,10 @@ wWfhEcNQdn7L8Y6qRCk7ZVp6oim04SzzUTN-
 
 sprite $MaterialsWcMd [14x14/16z] PKs50GD12CEbblstxRkT0p5wBWqcuj2r2qo58jPEZAVNU6sgaaboPJemKGDzTlp2LuvEfySNNICvW8sQiCdt5t9q9D_f6JkRetXwdkiF
 
-!function MaterialsWc($id, $name="Wc", $tech="")
+!procedure MaterialsWc($id, $name="Wc", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsWc', $name, $tech)
-!endfunction
-!function MaterialsWcCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWcCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWcMd>', 'Wc', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ cj57Azs3FM07SSxmFOCZxla1
 
 sprite $MaterialsDirectionsRunMd [14x14/16z] POh50GCn30J5553_rGQFRCzd4Vwem0dT4qvG-VGIZdlWp6xTavXqfT6sgRMXxcUCzls8WAcb-n2HABPl909iS38b4bXv0m
 
-!function MaterialsDirectionsRun($id, $name="Directions Run", $tech="")
+!procedure MaterialsDirectionsRun($id, $name="Directions Run", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsRun', $name, $tech)
-!endfunction
-!function MaterialsDirectionsRunCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsRunCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsRunMd>', 'Directions Run', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

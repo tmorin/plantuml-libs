@@ -6,10 +6,10 @@ knKeVYLes1egpBWee2lqnT5-yr2tpXClAkSXpG
 
 sprite $AzureComputerInventoryMd [15x14/16z] VSr10W9010LG0Dp_m47DihS3llXZ2E2LSRAuoq0uV2LyqTyIdLw9FBeiQwecZKat8vLd9MGthKiMT9lAihgaI2USZoRSosJ80aSKYL1_9TkY3m
 
-!function AzureComputerInventory($id, $name="Computer Inventory", $tech="")
+!procedure AzureComputerInventory($id, $name="Computer Inventory", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureComputerInventory', $name, $tech)
-!endfunction
-!function AzureComputerInventoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureComputerInventoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureComputerInventoryMd>', 'Computer Inventory', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

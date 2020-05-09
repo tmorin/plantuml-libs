@@ -6,10 +6,10 @@ YdlAl3y3
 
 sprite $MaterialsGpsNotFixedMd [14x14/16z] NOx50S1G24E3i__2xNTx5vm43MOSkE_Sic2ZY6208_eaHhDEANbyIW9xOf3ETtLkFbyUXLVzTRPT_m
 
-!function MaterialsGpsNotFixed($id, $name="Gps Not Fixed", $tech="")
+!procedure MaterialsGpsNotFixed($id, $name="Gps Not Fixed", $tech="")
   CloudElement($id, 'materials/Device/MaterialsGpsNotFixed', $name, $tech)
-!endfunction
-!function MaterialsGpsNotFixedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGpsNotFixedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGpsNotFixedMd>', 'Gps Not Fixed', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

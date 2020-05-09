@@ -3,10 +3,10 @@ sprite $MaterialsFormatIndentIncreaseLg [20x20/16z] Oo0QCBAW04QG63CFDnBWOOOeH078
 
 sprite $MaterialsFormatIndentIncreaseMd [14x14/16z] Oq03J700v32oSq01EoDKdX4COAgPON9CB20vc3uc7XOWmGe4B8mOF8HAX2cODg3PZkeoD
 
-!function MaterialsFormatIndentIncrease($id, $name="Format Indent Increase", $tech="")
+!procedure MaterialsFormatIndentIncrease($id, $name="Format Indent Increase", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatIndentIncrease', $name, $tech)
-!endfunction
-!function MaterialsFormatIndentIncreaseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatIndentIncreaseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatIndentIncreaseMd>', 'Format Indent Increase', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

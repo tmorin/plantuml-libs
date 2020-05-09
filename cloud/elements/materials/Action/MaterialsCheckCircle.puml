@@ -6,10 +6,10 @@ YjikxJPpnaAmbzrkDtY_rNxJzum
 
 sprite $MaterialsCheckCircleMd [14x14/16z] PSxL0OKm341HY3w9x3yjJlN-dMgMAM1LXWTiUMHy8w_yVnBi1i4Fpgsui4eUc-gaDr8F1QvwuXAduN8X-Nh5w8B1_OF7jJN_NYSRsm4
 
-!function MaterialsCheckCircle($id, $name="Check Circle", $tech="")
+!procedure MaterialsCheckCircle($id, $name="Check Circle", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCheckCircle', $name, $tech)
-!endfunction
-!function MaterialsCheckCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCheckCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCheckCircleMd>', 'Check Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

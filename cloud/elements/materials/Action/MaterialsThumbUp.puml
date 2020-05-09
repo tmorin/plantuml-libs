@@ -3,10 +3,10 @@ sprite $MaterialsThumbUpLg [20x20/16z] bS-r0KKn34DHXJdUVzgFZyEtywaiT6DQ56J8bKIs9
 
 sprite $MaterialsThumbUpMd [14x14/16z] NSc54SG020NHZtC6_LTx5YDvepkB5M6mf15zfoEgOm-jxk0li1jbVrNLaxNpMokTTNw1MJBhHf1Nmby_JmM82U0_N7q
 
-!function MaterialsThumbUp($id, $name="Thumb Up", $tech="")
+!procedure MaterialsThumbUp($id, $name="Thumb Up", $tech="")
   CloudElement($id, 'materials/Action/MaterialsThumbUp', $name, $tech)
-!endfunction
-!function MaterialsThumbUpCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsThumbUpCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsThumbUpMd>', 'Thumb Up', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ HoUzl9xZX8CJhiuvFUF-7m
 
 sprite $AwsEc2HighMemoryInstanceMd [14x14/16z] LOw50GGn3CCinTr_v6Uug1269AA8US2SwOE789dXmqmyv0D7vcyDLgEWLcgdxMajRsiUr68ba01rTzaJzlIzsTxw3W
 
-!function AwsEc2HighMemoryInstance($id, $name="Ec2 High Memory Instance", $tech="")
+!procedure AwsEc2HighMemoryInstance($id, $name="Ec2 High Memory Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2HighMemoryInstance', $name, $tech)
-!endfunction
-!function AwsEc2HighMemoryInstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2HighMemoryInstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2HighMemoryInstanceMd>', 'Ec2 High Memory Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzurePhoneLg [13x20/16z] pST50SC0402myL7ysnsLB3I_9Bgg6ed9YCY1V6oIvsNpF7V
 
 sprite $AzurePhoneMd [9x14/16z] hOO50G0n30F7RNFnR_V1mu8dKrbOP9np8b5llxfk0NlzsjYkNT_AHdp_0W
 
-!function AzurePhone($id, $name="Phone", $tech="")
+!procedure AzurePhone($id, $name="Phone", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePhone', $name, $tech)
-!endfunction
-!function AzurePhoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzurePhoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzurePhoneMd>', 'Phone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

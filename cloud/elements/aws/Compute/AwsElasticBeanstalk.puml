@@ -6,10 +6,10 @@ ZSrL0aGX34FHZoQ4_QzusdV7FVZ1ScGz9EITvRzpBfKUpLfPadrdK5M176lkn20tfvEpm73p-CCzqTLa
 
 sprite $AwsElasticBeanstalkMd [14x14/16z] HSU74K0X3CFGNsI7_HUctXbHabSpfwNbAqjNHYAIIi2HcHUBBTdyQ-L8-a5BRN81uQd9ig1cKuTUghQOMXY50m
 
-!function AwsElasticBeanstalk($id, $name="Elastic Beanstalk", $tech="")
+!procedure AwsElasticBeanstalk($id, $name="Elastic Beanstalk", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticBeanstalk', $name, $tech)
-!endfunction
-!function AwsElasticBeanstalkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBeanstalkCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBeanstalkMd>', 'Elastic Beanstalk', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

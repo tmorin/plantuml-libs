@@ -6,10 +6,10 @@ fbMcrA3kyry
 
 sprite $MaterialsFilter4Md [14x14/16z] JSx50S1G2C3GuD3zzwrRlhuRWFgTiTULPpKxfGNXsEaMXzor3daUYj3-QUcVnE8dqByGvvRALUqYf-zq5t87DfLN0Jl_Csy
 
-!function MaterialsFilter4($id, $name="Filter4", $tech="")
+!procedure MaterialsFilter4($id, $name="Filter4", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilter4', $name, $tech)
-!endfunction
-!function MaterialsFilter4Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFilter4Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFilter4Md>', 'Filter4', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureMediaOnDemandLg [20x20/16z] XSk54G1124FH1KBwx_XqNJF-vaVWpKX4geqOYLm
 
 sprite $AzureMediaOnDemandMd [14x14/16z] TSv50G0120H0MElV-Do5t-3q4V6AJRbX9NKL2d9ELUkgAlYkdquwXxWMDZbVsXuzC08
 
-!function AzureMediaOnDemand($id, $name="Media On Demand", $tech="")
+!procedure AzureMediaOnDemand($id, $name="Media On Demand", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/Media/AzureMediaOnDemand', $name, $tech)
-!endfunction
-!function AzureMediaOnDemandCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMediaOnDemandCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMediaOnDemandMd>', 'Media On Demand', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ DOo50GCn30DFO6V_ZTkde8Lu0_elo9h-eUpybyZs2CVDzHYTXLwJWqRiyaVXmYH_h2I63gZwuzuuP_JW
 q-ePtwLt_04
 }
 
-!function AzureSchedulerJobCollections($id, $name="Scheduler Job Collections", $tech="")
+!procedure AzureSchedulerJobCollections($id, $name="Scheduler Job Collections", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureSchedulerJobCollections', $name, $tech)
-!endfunction
-!function AzureSchedulerJobCollectionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSchedulerJobCollectionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSchedulerJobCollectionsMd>', 'Scheduler Job Collections', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

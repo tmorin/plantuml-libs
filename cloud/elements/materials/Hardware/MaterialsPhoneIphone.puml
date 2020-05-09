@@ -3,10 +3,10 @@ sprite $MaterialsPhoneIphoneLg [20x20/16z] rT2r0SGm50JH3u8LRl_L7ffTWITyuSWtLVkcA
 
 sprite $MaterialsPhoneIphoneMd [14x14/16z] jSut0G0W3031T3huLqkD1NwxxG40MNO4hpZwhZvYOje5UOe8E_kefC8iqPL79Xr3_6pBXf-TQ_Rh1G
 
-!function MaterialsPhoneIphone($id, $name="Phone Iphone", $tech="")
+!procedure MaterialsPhoneIphone($id, $name="Phone Iphone", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsPhoneIphone', $name, $tech)
-!endfunction
-!function MaterialsPhoneIphoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhoneIphoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhoneIphoneMd>', 'Phone Iphone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

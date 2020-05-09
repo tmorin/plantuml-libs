@@ -3,10 +3,10 @@ sprite $MaterialsFormatTextdirectionLToRLg [20x20/16z] fSq54a0X24LHdjtiVxM_k-EEK
 
 sprite $MaterialsFormatTextdirectionLToRMd [14x14/16z] POor0G0X40Hnb_whVGNE9bjL7EtZWrygpkbzCYigSreRrCw8qhukjLAY0b7E6AVtwOT9vXCnlUIPPBPP0d43
 
-!function MaterialsFormatTextdirectionLToR($id, $name="Format Textdirection L To R", $tech="")
+!procedure MaterialsFormatTextdirectionLToR($id, $name="Format Textdirection L To R", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatTextdirectionLToR', $name, $tech)
-!endfunction
-!function MaterialsFormatTextdirectionLToRCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatTextdirectionLToRCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatTextdirectionLToRMd>', 'Format Textdirection L To R', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

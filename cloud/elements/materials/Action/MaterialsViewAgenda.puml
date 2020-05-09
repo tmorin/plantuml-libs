@@ -3,10 +3,10 @@ sprite $MaterialsViewAgendaLg [20x20/16z] Oo0QCBCW0sP6e10JBpyAO0Q9yQ6AiL0gniM33B
 
 sprite $MaterialsViewAgendaMd [14x14/16z] Oq05Z4nm0EInyS80Dv3BpWy3l7XuF40U4pCSCA3oK5JYDHFLTbINeG4
 
-!function MaterialsViewAgenda($id, $name="View Agenda", $tech="")
+!procedure MaterialsViewAgenda($id, $name="View Agenda", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewAgenda', $name, $tech)
-!endfunction
-!function MaterialsViewAgendaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewAgendaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewAgendaMd>', 'View Agenda', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsRecentActorsLg [20x20/16z] hO_50KH1349XN9F-gztzxiTvjoY0qOHuOE0z
 
 sprite $MaterialsRecentActorsMd [14x14/16z] VSs52GH144JHQLUkyu_sV0MRZzN3Qks2N-_n1cLMLPQ0WH3FfDYCWeFoMxIWBid2ljIUS-XX22ZzLo6yyvye_LF-7kxl-ru
 
-!function MaterialsRecentActors($id, $name="Recent Actors", $tech="")
+!procedure MaterialsRecentActors($id, $name="Recent Actors", $tech="")
   CloudElement($id, 'materials/Av/MaterialsRecentActors', $name, $tech)
-!endfunction
-!function MaterialsRecentActorsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRecentActorsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRecentActorsMd>', 'Recent Actors', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

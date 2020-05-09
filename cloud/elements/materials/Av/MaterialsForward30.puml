@@ -6,10 +6,10 @@ SacfqPB7kgwOgLghARW6POlu3Hi
 
 sprite $MaterialsForward30Md [14x14/16z] RSt50O1G30FG95zRRFzfSOTtgXT_4cy9lPofYdL3sfDeKMUFfjjUp23FhHIX40AejPUWE6SvOYRZohIDLW6gvuiwYpX9-341
 
-!function MaterialsForward30($id, $name="Forward30", $tech="")
+!procedure MaterialsForward30($id, $name="Forward30", $tech="")
   CloudElement($id, 'materials/Av/MaterialsForward30', $name, $tech)
-!endfunction
-!function MaterialsForward30Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsForward30Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsForward30Md>', 'Forward30', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ yAyx
 
 sprite $MaterialsCollectionsMd [14x14/16z] XSV50O0m50Mmznrd_sbnbpQtu8ayLZ9F-qq0JDS5PzRsTRJxIga4lgrX443bCgdTpTrBdmVH5KqpNX4c4Xl1qmW
 
-!function MaterialsCollections($id, $name="Collections", $tech="")
+!procedure MaterialsCollections($id, $name="Collections", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCollections', $name, $tech)
-!endfunction
-!function MaterialsCollectionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCollectionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCollectionsMd>', 'Collections', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

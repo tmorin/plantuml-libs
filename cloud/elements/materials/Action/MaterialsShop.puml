@@ -6,10 +6,10 @@ kG4
 
 sprite $MaterialsShopMd [14x14/16z] PSp50S0020F0u53TVzgwztv8WX_o2ATpuX8fnafKlLJBLGM8yHBRr5iEZuaXDJmcK3mcikwUk1wvxCvEwoy6W2_uc04
 
-!function MaterialsShop($id, $name="Shop", $tech="")
+!procedure MaterialsShop($id, $name="Shop", $tech="")
   CloudElement($id, 'materials/Action/MaterialsShop', $name, $tech)
-!endfunction
-!function MaterialsShopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsShopCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsShopMd>', 'Shop', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

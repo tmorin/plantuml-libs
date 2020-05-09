@@ -6,10 +6,10 @@ meKi2tiDz6rdtaJUg8IpznaefUGgdmAslpe1
 
 sprite $MaterialsFavoriteBorderMd [14x14/16z] PSS50WH0249H60llV-5bk_w4Flp6myVdQgLCQSi84MVtW0gW_K3wYxxBFPJprAG_vHqfEAvfB77jcCR1lQCg6Oye4Uze_7S1
 
-!function MaterialsFavoriteBorder($id, $name="Favorite Border", $tech="")
+!procedure MaterialsFavoriteBorder($id, $name="Favorite Border", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFavoriteBorder', $name, $tech)
-!endfunction
-!function MaterialsFavoriteBorderCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFavoriteBorderCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFavoriteBorderMd>', 'Favorite Border', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsLensLg [20x20/16z] VP253GH1549ldF7-gxrr8I7xub-1tmV6MiC5ZzfxXN_A
 
 sprite $MaterialsLensMd [14x14/16z] Oy00JApixAnCK0uh3pyGyB12EFnG0E8oWMN0iamGAOGaEuB7Zif3LObg2heD2DjHNOO1
 
-!function MaterialsLens($id, $name="Lens", $tech="")
+!procedure MaterialsLens($id, $name="Lens", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLens', $name, $tech)
-!endfunction
-!function MaterialsLensCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLensCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLensMd>', 'Lens', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

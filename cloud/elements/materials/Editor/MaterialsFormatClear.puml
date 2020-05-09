@@ -3,10 +3,10 @@ sprite $MaterialsFormatClearLg [20x20/16z] hSwr0SD040NHltWawBzQitIKc2PyqU3l2K72c
 
 sprite $MaterialsFormatClearMd [14x14/16z] XOc53S0m30G_YTbMzz-sJABsZAV73-q0AuEQP4PcyXOeDVP9MGOEXHWEZhJZKIUyBEgbL4CVLK5xj6sZ7Tyi
 
-!function MaterialsFormatClear($id, $name="Format Clear", $tech="")
+!procedure MaterialsFormatClear($id, $name="Format Clear", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatClear', $name, $tech)
-!endfunction
-!function MaterialsFormatClearCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatClearCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatClearMd>', 'Format Clear', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

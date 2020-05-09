@@ -6,10 +6,10 @@ XWS2rE2BBjI57l2Y2na-V1C
 
 sprite $MaterialsSpellcheckMd [14x14/16z] PKsr0S1040BUJlQVD-wXm_43-MGs7aHckbchjTqj8-rY9LhBShBHM-jzxGz2jgSXhm05YE9AThJn842tXJm_ySSC
 
-!function MaterialsSpellcheck($id, $name="Spellcheck", $tech="")
+!procedure MaterialsSpellcheck($id, $name="Spellcheck", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSpellcheck', $name, $tech)
-!endfunction
-!function MaterialsSpellcheckCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSpellcheckCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSpellcheckMd>', 'Spellcheck', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

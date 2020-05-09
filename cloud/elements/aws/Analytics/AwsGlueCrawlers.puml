@@ -6,10 +6,10 @@ baqS9_9kzZQy5IkgLFJIH8u4hSzbPAoKFeeEQRxkEeTISTAVkwgKhgD6Nvf7WGi
 
 sprite $AwsGlueCrawlersMd [14x14/16z] HSl50G1130B0eDj_nUSohmYibLyJuiMk5TUFnfXWRZcjjxMkttaMYyHMDQF6Wtk3j6gX8OBpbGO-KHR5U2uewIddPYVEt9WIZUUXn8CT
 
-!function AwsGlueCrawlers($id, $name="Glue Crawlers", $tech="")
+!procedure AwsGlueCrawlers($id, $name="Glue Crawlers", $tech="")
   CloudElement($id, 'aws/Analytics/AwsGlueCrawlers', $name, $tech)
-!endfunction
-!function AwsGlueCrawlersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGlueCrawlersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGlueCrawlersMd>', 'Glue Crawlers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

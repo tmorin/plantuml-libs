@@ -6,10 +6,10 @@ RP254GCn3C3CsFtdxVcP55ROB6zqoWUYjk5XEwUDtoztUThgxhTDyqzh5KyRHcJj3ri2I9rtwyM8MFLO
 
 sprite $AzureVmLinuxMd [15x14/16z] JSw54S0W3030k73TVztYyhWcyb9jjJ6pCRIbDVbb7yuooxiCIxzBLzHobo50nUzbGmvxbkRtg-j9Oy2Et7tEe47s24COgDyTjncW0W
 
-!function AzureVmLinux($id, $name="Vm Linux", $tech="")
+!procedure AzureVmLinux($id, $name="Vm Linux", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmLinux', $name, $tech)
-!endfunction
-!function AzureVmLinuxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVmLinuxCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVmLinuxMd>', 'Vm Linux', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

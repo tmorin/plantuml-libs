@@ -6,10 +6,10 @@ LopDsFKkCCrmME_0CvZla6gACxt4kgiLq7yw
 
 sprite $MaterialsAssignmentIndMd [14x14/16z] NOu30W0X44L7MVS_xIBNY-CF5MRe895OAqJu6owbebH9oNqcfL9A2D-Lg5c6o4mh_q-UCGRWbUb5_BIy5j6-MnRhMDiiWOhy5ZflAzvXKzP0k7W1
 
-!function MaterialsAssignmentInd($id, $name="Assignment Ind", $tech="")
+!procedure MaterialsAssignmentInd($id, $name="Assignment Ind", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignmentInd', $name, $tech)
-!endfunction
-!function MaterialsAssignmentIndCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAssignmentIndCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAssignmentIndMd>', 'Assignment Ind', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

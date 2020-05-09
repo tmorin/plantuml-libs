@@ -6,10 +6,10 @@ dCizMAx5UMqhn_F-ZyaL9e8J4eIl-GS
 
 sprite $MaterialsLocalTaxiMd [14x14/16z] PSY55GGX303HUD17_zNYfple3pn38lp0M_DBD3FtUMspm4vutKf7fFF2QBgpY7EKBRHPi4nJ4Nc9CIuLZqlHor8jESrogKjPS2Tv2X1k27yD
 
-!function MaterialsLocalTaxi($id, $name="Local Taxi", $tech="")
+!procedure MaterialsLocalTaxi($id, $name="Local Taxi", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalTaxi', $name, $tech)
-!endfunction
-!function MaterialsLocalTaxiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalTaxiCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalTaxiMd>', 'Local Taxi', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

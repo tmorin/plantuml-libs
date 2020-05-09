@@ -6,10 +6,10 @@ lW
 
 sprite $AzureAttachments1Md [8x14/16z] VOV70SC0309H1RJ_leczW3zNiFO26EzwW7T6m3LG2jnibcflLANsXtTLzhJTPIeZWanf-XaaRIR-
 
-!function AzureAttachments1($id, $name="Attachments1", $tech="")
+!procedure AzureAttachments1($id, $name="Attachments1", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureAttachments1', $name, $tech)
-!endfunction
-!function AzureAttachments1Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAttachments1Card($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAttachments1Md>', 'Attachments1', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ fL350SKm2Ft2i-m_S4EzvoQumtZ_eldoi11jWqPE4vILYz1kuouOHUuYfqOmfhadauD_r3_jz9u12X54
 
 sprite $AwsSimpleNotificationServiceSnsMd [14x14/16z] XKsb0G1H54eFst_Vx-cKXkS75YaV8iXBcCIm7QCm6SKgU6TTc200BoP2XuKAa9ECQJckOZOz3_VtTtG
 
-!function AwsSimpleNotificationServiceSns($id, $name="Simple Notification Service Sns", $tech="")
+!procedure AwsSimpleNotificationServiceSns($id, $name="Simple Notification Service Sns", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleNotificationServiceSns', $name, $tech)
-!endfunction
-!function AwsSimpleNotificationServiceSnsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleNotificationServiceSnsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleNotificationServiceSnsMd>', 'Simple Notification Service Sns', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

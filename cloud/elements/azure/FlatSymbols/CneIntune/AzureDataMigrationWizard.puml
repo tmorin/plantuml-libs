@@ -9,10 +9,10 @@ NOq70iCm20FDa03r_-zDukxsF5dIMXP0XgqxnYOIxBo76B-_CR4V_eKtDLajFSCdhr1tflmTNiLsq9xX
 WaXRPbTm0W
 }
 
-!function AzureDataMigrationWizard($id, $name="Data Migration Wizard", $tech="")
+!procedure AzureDataMigrationWizard($id, $name="Data Migration Wizard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDataMigrationWizard', $name, $tech)
-!endfunction
-!function AzureDataMigrationWizardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataMigrationWizardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataMigrationWizardMd>', 'Data Migration Wizard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

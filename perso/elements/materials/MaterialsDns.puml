@@ -3,10 +3,10 @@ sprite $MaterialsDnsLg [20x20/16z] ZP150W1H24BnMzFU_xJJtMzf0lWDiUnW6ceSKTMnmaDDm
 
 sprite $MaterialsDnsMd [14x14/16z] NOw35S1044JFHl_T9gVLVrmCbC00QwWbjxwevf-AqMak-fgoLcHgEOqzjIMqWE8J_vGkAo73nD9vCyu7
 
-!function MaterialsDns($id, $name="Dns", $tech="")
+!procedure MaterialsDns($id, $name="Dns", $tech="")
   PersoElement($id, 'materials/MaterialsDns', $name, $tech)
-!endfunction
-!function MaterialsDnsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDnsCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsDnsMd>', 'Dns', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

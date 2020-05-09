@@ -6,10 +6,10 @@ Q0j5Hh005Drsg18wdiP6d_xQ1jS6rmP_
 
 sprite $AwsCloudendureMigrationMd [14x14/16z] LOe50WD1309hGVB_1nUgTwnE6Bt3Ttn21mbG7p91pgz3nHceHDHEZL0hYez7K4jPZuaPMol6nP12EhCVPG1fTsqf9ocLcpCvTC8d
 
-!function AwsCloudendureMigration($id, $name="Cloudendure Migration", $tech="")
+!procedure AwsCloudendureMigration($id, $name="Cloudendure Migration", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsCloudendureMigration', $name, $tech)
-!endfunction
-!function AwsCloudendureMigrationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudendureMigrationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudendureMigrationMd>', 'Cloudendure Migration', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

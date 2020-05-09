@@ -6,10 +6,10 @@ bP053WGX34MdYiFzRxl18SJsZ_Bg_VuK41F2HJIa69FZZT179KGooS3qyWxx7qSTJ4D5s62Y7XcbVhgl
 
 sprite $MaterialsRestoreMd [14x14/16z] RKw50G0X29Jwj_PVrswbcrCF0eGHus-q_gabXa416Su9w5I5NCIKqP_CbrGa1yMqidZ7AUEQmP_hYZbFJa9JVyhyCByVo4wA
 
-!function MaterialsRestore($id, $name="Restore", $tech="")
+!procedure MaterialsRestore($id, $name="Restore", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRestore', $name, $tech)
-!endfunction
-!function MaterialsRestoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRestoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRestoreMd>', 'Restore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

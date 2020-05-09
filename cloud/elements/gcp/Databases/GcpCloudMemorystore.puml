@@ -6,10 +6,10 @@ TP250S9034N_nVTV68cXVT0sRaXEWuLi8HJ7Oh4EbNX3AipVRPw1ccBob1G0FILdUi0f4c1f0d20D1ea
 
 sprite $GcpCloudMemorystoreMd [14x14/16z] LOw50S1020E3i__43TJl5Gy0iKKmIDQIQtfVE0sjsoe5WeyHEWEyoo4o1KLZhF0jhzFooxeoiPPj5oTCok-4rk_qU9JHA07-gWy
 
-!function GcpCloudMemorystore($id, $name="Cloud Memorystore", $tech="")
+!procedure GcpCloudMemorystore($id, $name="Cloud Memorystore", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudMemorystore', $name, $tech)
-!endfunction
-!function GcpCloudMemorystoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudMemorystoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudMemorystoreMd>', 'Cloud Memorystore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ WUeZ5aQOUtPdFNGUCWYpwk9BomQP6SpgFb866QEFbSc7RcALUPxj8r-MnzdVjR7gfHi
 
 sprite $AzureActiveDirectoryConnectHealthMd [14x14/16z] HOk50KGn24EX2Vhtt_UWPrLUH7RHL7uBHkeVS7ukp8xI5ozmlOkSs1mdE3YnI--gaW3EMX0P74ijavOsE654HTRJiaX4UbRNqBeCZohAHHL6FoQ_nNLU
 
-!function AzureActiveDirectoryConnectHealth($id, $name="Active Directory Connect Health", $tech="")
+!procedure AzureActiveDirectoryConnectHealth($id, $name="Active Directory Connect Health", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureActiveDirectoryConnectHealth', $name, $tech)
-!endfunction
-!function AzureActiveDirectoryConnectHealthCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureActiveDirectoryConnectHealthCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureActiveDirectoryConnectHealthMd>', 'Active Directory Connect Health', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

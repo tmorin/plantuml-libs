@@ -6,10 +6,10 @@ BGP1SpTYUVJ2kwYhzvwTrkzi_pkuTdLXrqwhYZlzs_q6
 
 sprite $GcpAiPlatformMd [14x14/16z] JKw50GD138h3_XENIzyuZG5cvhbminCC5hDXyK8f290Za0YpLf22mhO4KIVI01Im8wioMY6siMfRyUraBajKnUYz570c65_rVfmfm3hxklu1
 
-!function GcpAiPlatform($id, $name="Ai Platform", $tech="")
+!procedure GcpAiPlatform($id, $name="Ai Platform", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAiPlatform', $name, $tech)
-!endfunction
-!function GcpAiPlatformCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAiPlatformCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAiPlatformMd>', 'Ai Platform', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

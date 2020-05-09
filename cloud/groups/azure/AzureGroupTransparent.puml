@@ -1,7 +1,7 @@
 @startuml
-!function AzureGroupTransparent($id, $name="Transparent", $tech="")
+!procedure AzureGroupTransparent($id, $name="Transparent", $tech="")
   CloudGroup($id, "AzureGroupTransparent", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AzureGroupTransparent>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 0

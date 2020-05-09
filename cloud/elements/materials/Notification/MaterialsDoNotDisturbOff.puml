@@ -6,10 +6,10 @@ vyyXh94XEdjvHaiJVqPkGlipCkgaw8FulAiwxNEdjPQlUG
 
 sprite $MaterialsDoNotDisturbOffMd [14x14/16z] LOu73a9X28CBqlmBm_rlgzJvlaow0YwO0yunwBf6sAWdIPqhR5RJfsU-ptI0LNUTCaUT666to1fzPV04N1UhKPTexNqEnzliAGYcpANpyvcIFypm
 
-!function MaterialsDoNotDisturbOff($id, $name="Do Not Disturb Off", $tech="")
+!procedure MaterialsDoNotDisturbOff($id, $name="Do Not Disturb Off", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsDoNotDisturbOff', $name, $tech)
-!endfunction
-!function MaterialsDoNotDisturbOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDoNotDisturbOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDoNotDisturbOffMd>', 'Do Not Disturb Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

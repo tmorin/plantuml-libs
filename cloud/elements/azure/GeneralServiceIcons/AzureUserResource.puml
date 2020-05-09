@@ -6,10 +6,10 @@ XSq74iGW34DHsohS_yQBjlVyQPgN09K6GDTp4RvO8qIy_XJYCV7rO5teyyd8Iy_GkxU5tMGCT-WhPNJ4
 
 sprite $AzureUserResourceMd [13x14/16z] LOe50e1G3497JEz_OlsTA-1512N6U91i3C4gU8kD2J4LYN5XhBgbYj2scb30VjuteVQSLR2TTcQAIppTts8azH7n0m
 
-!function AzureUserResource($id, $name="User Resource", $tech="")
+!procedure AzureUserResource($id, $name="User Resource", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureUserResource', $name, $tech)
-!endfunction
-!function AzureUserResourceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserResourceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserResourceMd>', 'User Resource', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

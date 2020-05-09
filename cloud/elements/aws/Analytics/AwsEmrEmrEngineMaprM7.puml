@@ -6,10 +6,10 @@ bdPLBPez6Cbk2rU0zITGoZYWpBWQU1yNuXD_
 
 sprite $AwsEmrEmrEngineMaprM7Md [14x14/16z] ROxN0SDG4C9o8BtiFt5wjQslgy1fpynycxZuThYSrn5oNpCbqDVvClhivjOcUaPQYwtI5CaTkLy-x9enKRrrKNZPWpCvYFRb2W
 
-!function AwsEmrEmrEngineMaprM7($id, $name="Emr Emr Engine Mapr M7", $tech="")
+!procedure AwsEmrEmrEngineMaprM7($id, $name="Emr Emr Engine Mapr M7", $tech="")
   CloudElement($id, 'aws/Analytics/AwsEmrEmrEngineMaprM7', $name, $tech)
-!endfunction
-!function AwsEmrEmrEngineMaprM7Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEmrEmrEngineMaprM7Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEmrEmrEngineMaprM7Md>', 'Emr Emr Engine Mapr M7', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsSwapVertLg [20x20/16z] bL2r0G0n28nxmlxJldN0lL42f-RVMBqAFQZLe2cM
 
 sprite $MaterialsSwapVertMd [14x14/16z] XSUr0S0m30J0brcu_xXfmkJh3XEbqv4iqKujunIa3j1bFRqFj6txAAUqa7ngBvXO
 
-!function MaterialsSwapVert($id, $name="Swap Vert", $tech="")
+!procedure MaterialsSwapVert($id, $name="Swap Vert", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSwapVert', $name, $tech)
-!endfunction
-!function MaterialsSwapVertCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSwapVertCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSwapVertMd>', 'Swap Vert', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

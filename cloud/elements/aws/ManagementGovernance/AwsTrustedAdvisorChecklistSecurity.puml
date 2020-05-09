@@ -6,10 +6,10 @@ JVVRMuVk55VY2
 
 sprite $AwsTrustedAdvisorChecklistSecurityMd [14x14/16z] RSm50W8n30J0hFt_osIlECn96rLSyLH8OMNAtjYMJqGDrea2gAV_TcBQwjMTq4P3ZzHEN9sXWcpdOYGvYYzTZCp1pyW0-8YGqWq
 
-!function AwsTrustedAdvisorChecklistSecurity($id, $name="Trusted Advisor Checklist Security", $tech="")
+!procedure AwsTrustedAdvisorChecklistSecurity($id, $name="Trusted Advisor Checklist Security", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity', $name, $tech)
-!endfunction
-!function AwsTrustedAdvisorChecklistSecurityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistSecurityCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTrustedAdvisorChecklistSecurityMd>', 'Trusted Advisor Checklist Security', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

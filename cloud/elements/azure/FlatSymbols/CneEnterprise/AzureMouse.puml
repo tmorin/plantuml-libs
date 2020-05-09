@@ -3,10 +3,10 @@ sprite $AzureMouseLg [12x20/16z] bOy53WG120F9eg7p_--UU_G6fx6Q-QXRusOMWcvGsB4m4GD
 
 sprite $AzureMouseMd [8x14/16z] TSUr0GK130BG5CI0_TVzUbBTYnBW3X6GgYoiEKEll1-MpMxwgzlsp5JDpGzu7CWVGe3V56y
 
-!function AzureMouse($id, $name="Mouse", $tech="")
+!procedure AzureMouse($id, $name="Mouse", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMouse', $name, $tech)
-!endfunction
-!function AzureMouseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMouseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMouseMd>', 'Mouse', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

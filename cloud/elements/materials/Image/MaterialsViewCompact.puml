@@ -3,10 +3,10 @@ sprite $MaterialsViewCompactLg [20x20/16z] Ow0wO6P71Kn0CHP-5C17aXWF2k06YJ4oeGAml
 
 sprite $MaterialsViewCompactMd [14x14/16z] VStL0G0X201G5Ixe_QUzxl1zqQIgV4gfy4xQARFOTSyium6cZAY7dcRhdgBiau-CcO3s3sd-kd-l6G4
 
-!function MaterialsViewCompact($id, $name="View Compact", $tech="")
+!procedure MaterialsViewCompact($id, $name="View Compact", $tech="")
   CloudElement($id, 'materials/Image/MaterialsViewCompact', $name, $tech)
-!endfunction
-!function MaterialsViewCompactCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewCompactCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewCompactMd>', 'View Compact', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

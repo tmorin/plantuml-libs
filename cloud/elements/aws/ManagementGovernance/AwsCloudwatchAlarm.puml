@@ -3,10 +3,10 @@ sprite $AwsCloudwatchAlarmLg [20x20/16z] fOlL0O0m44FF4lQV6EhwoQjUH3OqGcN72D1sZPR
 
 sprite $AwsCloudwatchAlarmMd [14x14/16z] ROh70GC1088ikF_8wJtdJq3F6QBNgF7xIUtxvTEPlPMwJMBBxSNNfpIGHjmV2H_FFdnpxsKzcQriTCFbOpq3
 
-!function AwsCloudwatchAlarm($id, $name="Cloudwatch Alarm", $tech="")
+!procedure AwsCloudwatchAlarm($id, $name="Cloudwatch Alarm", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCloudwatchAlarm', $name, $tech)
-!endfunction
-!function AwsCloudwatchAlarmCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudwatchAlarmCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudwatchAlarmMd>', 'Cloudwatch Alarm', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

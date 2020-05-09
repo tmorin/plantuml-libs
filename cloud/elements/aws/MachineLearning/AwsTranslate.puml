@@ -6,10 +6,10 @@ RSW73i9030H02M_p_V_1-EWa6VN9Xp_w8hklhWCIZC7l6GbhaihxmcxLJKOftxCj1UMV8s8E9-yBC2KL
 
 sprite $AwsTranslateMd [14x14/16z] LSUt0O0m40ImvfAz_y0yuAXE6Vnfzvf9MfnJ29DZZYN2-KUPSp6hGJMzbiWMLUkH2g1llK4sAF-hoFxsLnB_LNzZyta
 
-!function AwsTranslate($id, $name="Translate", $tech="")
+!procedure AwsTranslate($id, $name="Translate", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsTranslate', $name, $tech)
-!endfunction
-!function AwsTranslateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTranslateCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTranslateMd>', 'Translate', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ GuHzppUprVkoQ27nlxhIGVUVXjAVNW
 
 sprite $MaterialsRestorePageMd [14x14/16z] NSU53KGn30MmAfnFR_zf3yiMkcp8lxXEyNL9NstTONRWukyibPWfeBzvaGVATSbw8-cqxnGPWD5TvoH23lqF8HBe-weZhwXitW
 
-!function MaterialsRestorePage($id, $name="Restore Page", $tech="")
+!procedure MaterialsRestorePage($id, $name="Restore Page", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRestorePage', $name, $tech)
-!endfunction
-!function MaterialsRestorePageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRestorePageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRestorePageMd>', 'Restore Page', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

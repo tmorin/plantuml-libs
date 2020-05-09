@@ -6,10 +6,10 @@ CfmKUmrrR9MYMMSlObKqRxhtd9YSZ3iVpzbgrZgUwkKEx0NwSLU_x_HttG
 
 sprite $AwsIotHouseMd [14x14/16z] NKw70GD125B0x3zo3kuxzcuP7TwW0YRG1LUYN11TigNYzHAX2bfUbsQONJEk6o2ftOdv9UDE6r0QU1_LfE0jV5t_VlR--Wy
 
-!function AwsIotHouse($id, $name="Iot House", $tech="")
+!procedure AwsIotHouse($id, $name="Iot House", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotHouse', $name, $tech)
-!endfunction
-!function AwsIotHouseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotHouseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotHouseMd>', 'Iot House', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ F0pQYC4j0dhtCZS
 
 sprite $MaterialsDirectionsCarMd [14x14/16z] XSfN0WH110JGbfbu_zkkikbpNaVKUa3Zy_UFgKNNKC5jl0ORWkKslAXRk-VTqdVkgaXG2HMg8mfLnO7gFFQjxSU9QbSQkdUrQC7_y_S2
 
-!function MaterialsDirectionsCar($id, $name="Directions Car", $tech="")
+!procedure MaterialsDirectionsCar($id, $name="Directions Car", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsCar', $name, $tech)
-!endfunction
-!function MaterialsDirectionsCarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsCarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsCarMd>', 'Directions Car', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

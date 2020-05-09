@@ -6,10 +6,10 @@ l3Erogi7PNa-7Q9Cqs6cFEJ3F-ivzy3pmFF0K_USDm
 
 sprite $AzureAppServiceDomainsMd [17x14/16z] NSZ50GD13CNGXKzs_mLd8Fnk4aXyK1pD-tgvxz4thcCvXuiJDaxoMsh9I_NstnrRbkBo_Z51IfoR6YCW71WrMZs6xV4hNSCOGt_xx_PVrmC
 
-!function AzureAppServiceDomains($id, $name="App Service Domains", $tech="")
+!procedure AzureAppServiceDomains($id, $name="App Service Domains", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureAppServiceDomains', $name, $tech)
-!endfunction
-!function AzureAppServiceDomainsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAppServiceDomainsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAppServiceDomainsMd>', 'App Service Domains', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

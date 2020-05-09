@@ -3,10 +3,10 @@ sprite $AzurePlugAndPlayLg [16x20/16z] NL1L0a0X2BDriljVztN8-ADM8mLNd3MwdaJsFQr5r
 
 sprite $AzurePlugAndPlayMd [11x14/16z] POx50S1020JFiUc_tRY73xQc9Ps5zsi4hTT8Z7oEOEi3wLqyGd9QVrq2l3t61-2a_SIq_8mVSMO
 
-!function AzurePlugAndPlay($id, $name="Plug And Play", $tech="")
+!procedure AzurePlugAndPlay($id, $name="Plug And Play", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePlugAndPlay', $name, $tech)
-!endfunction
-!function AzurePlugAndPlayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzurePlugAndPlayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzurePlugAndPlayMd>', 'Plug And Play', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

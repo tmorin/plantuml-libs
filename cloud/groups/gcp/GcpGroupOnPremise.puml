@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupOnPremise($id, $name="On premise", $tech="")
+!procedure GcpGroupOnPremise($id, $name="On premise", $tech="")
   CloudGroup($id, "GcpGroupOnPremise", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupOnPremise>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

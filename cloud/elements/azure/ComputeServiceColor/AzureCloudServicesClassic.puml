@@ -6,10 +6,10 @@ kMpCgjCp6N5OkfqPRzW1V7Cfiu7kwdDJ8STaaTDZeSuEvGogEk6YsUKZ6cnG_9rLz8GB
 
 sprite $AzureCloudServicesClassicMd [17x14/16z] JKw50SC026kC_qyUCiETF6zYAiB5aD1vap-zIifIIbDmRPC0ioFPWc13NO3hhr3UFA5lfLTt7qINjCjfOMUVrMZs_mfww1YtNp4FMUJDCUa7chtjfTwFFiaB
 
-!function AzureCloudServicesClassic($id, $name="Cloud Services Classic", $tech="")
+!procedure AzureCloudServicesClassic($id, $name="Cloud Services Classic", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureCloudServicesClassic', $name, $tech)
-!endfunction
-!function AzureCloudServicesClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudServicesClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudServicesClassicMd>', 'Cloud Services Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

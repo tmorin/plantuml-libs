@@ -3,10 +3,10 @@ sprite $MaterialsPagesLg [20x20/16z] ZL254SGm33CzLdVPVzfomwIWsHRDGso74kdnogM2sm7
 
 sprite $MaterialsPagesMd [14x14/16z] NKw53G1124CYBzUm_xHOj8SxbOlKp4JQw2Gl0FSsRwU6EE4U2Cp8T5IdkrcuDFdsf3kJTLSuuqc-mX_uEoExg
 
-!function MaterialsPages($id, $name="Pages", $tech="")
+!procedure MaterialsPages($id, $name="Pages", $tech="")
   CloudElement($id, 'materials/Social/MaterialsPages', $name, $tech)
-!endfunction
-!function MaterialsPagesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPagesCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPagesMd>', 'Pages', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

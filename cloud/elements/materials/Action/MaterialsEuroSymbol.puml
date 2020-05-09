@@ -3,10 +3,10 @@ sprite $MaterialsEuroSymbolLg [20x20/16z] bP035WGn340RrCZzJxlUOVaVOgfba9ZmxB59H9
 
 sprite $MaterialsEuroSymbolMd [14x14/16z] ROw54S1G24DBlYFxZrlNNDy9JZBz8P0dhshMqrcCaO1QZwfrURPQZDhoMQPgEILGnPlqXHHO_N76B
 
-!function MaterialsEuroSymbol($id, $name="Euro Symbol", $tech="")
+!procedure MaterialsEuroSymbol($id, $name="Euro Symbol", $tech="")
   CloudElement($id, 'materials/Action/MaterialsEuroSymbol', $name, $tech)
-!endfunction
-!function MaterialsEuroSymbolCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsEuroSymbolCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsEuroSymbolMd>', 'Euro Symbol', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

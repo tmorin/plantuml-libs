@@ -3,10 +3,10 @@ sprite $AzureFirewallLg [23x20/16z] hSy56eH0243XNHKU-77_wzhTzK_t43KZUbWCtavJ4w4r
 
 sprite $AzureFirewallMd [16x14/16z] XOu35W0n30KVyoUu_tNNHZj5ZAeAQe5OvStEp50kA38JaC2qIkfUMq_RLmm_m2w-tdn0TiuaZrrMUlD7
 
-!function AzureFirewall($id, $name="Firewall", $tech="")
+!procedure AzureFirewall($id, $name="Firewall", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFirewall', $name, $tech)
-!endfunction
-!function AzureFirewallCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFirewallCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFirewallMd>', 'Firewall', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

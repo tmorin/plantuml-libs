@@ -6,10 +6,10 @@ BcdpULbtfhe2ostoz8EdNvb6UW
 
 sprite $MaterialsContactPhoneMd [14x14/16z] LSw54KGX34NHF5pdzb_jobSuOn2tZTn2TIugK4AQG2q0NMOPcjI0QcOHelm0Pf1hu1E7KHlthqKd-N9MJd-khSUK6SEX7XksxMM_p3PV
 
-!function MaterialsContactPhone($id, $name="Contact Phone", $tech="")
+!procedure MaterialsContactPhone($id, $name="Contact Phone", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsContactPhone', $name, $tech)
-!endfunction
-!function MaterialsContactPhoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContactPhoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContactPhoneMd>', 'Contact Phone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

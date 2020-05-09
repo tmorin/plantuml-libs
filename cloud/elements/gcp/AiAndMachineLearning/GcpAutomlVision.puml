@@ -6,10 +6,10 @@ w5gSPSMPwruL-uBVyDFRUmOM-TAEcKewPlgQ_Gm
 
 sprite $GcpAutomlVisionMd [14x14/16z] LOw50GHG24B1mlqdFlNw_RG1G3-8XQMZpen-4MEOkgjgRXcGOv3SZ8HhV2xre34wgOo-tAlgIB5UmNMwpUF8kOFSK3qdw2Qq_KxFZx8nHE1VzGC
 
-!function GcpAutomlVision($id, $name="Automl Vision", $tech="")
+!procedure GcpAutomlVision($id, $name="Automl Vision", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlVision', $name, $tech)
-!endfunction
-!function GcpAutomlVisionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAutomlVisionCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAutomlVisionMd>', 'Automl Vision', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

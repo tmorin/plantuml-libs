@@ -6,10 +6,10 @@ hOu30a9H44N7IllVRQvldyVnXLbmm9NQTr9IosPxLBgqKwINf_fmLM7BPu-BBB1LQo84Pgs6QfP2YNqj
 
 sprite $MaterialsSmokingRoomsMd [14x14/16z] XScr0GC140InELfJ__NwcKcfEEV9MWKZavDpHkAV-Lnc8PzJoYWMbMBX4P0QP4I0VeDNPe5DUD
 
-!function MaterialsSmokingRooms($id, $name="Smoking Rooms", $tech="")
+!procedure MaterialsSmokingRooms($id, $name="Smoking Rooms", $tech="")
   CloudElement($id, 'materials/Places/MaterialsSmokingRooms', $name, $tech)
-!endfunction
-!function MaterialsSmokingRoomsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSmokingRoomsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSmokingRoomsMd>', 'Smoking Rooms', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

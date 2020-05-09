@@ -1,7 +1,7 @@
 @startuml
-!function AwsGroupAvailabilityZone($id, $name="Availability Zone", $tech="")
+!procedure AwsGroupAvailabilityZone($id, $name="Availability Zone", $tech="")
   CloudGroup($id, "AwsGroupAvailabilityZone", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupAvailabilityZone>> {
   StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
   BorderThickness 1

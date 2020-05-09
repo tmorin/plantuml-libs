@@ -6,10 +6,10 @@ RSrLWWKm24DHg4kI_UzsvhdH-tbQm3xBs6w_DR4675BxDTy7h1JBZnL8FuTIkvZwbymhYSslNySOtUlM
 
 sprite $AzureLikeMd [15x14/16z] LOp7WKD124FP8Kr0wh_RTRRvxmHAya4hfE5S_PsNry3yFYEA68zZ3B5L92jS1x0TV8D3dkI7oijxHd-n__fRGzgBCwGjbugucsWU4BXdvGO
 
-!function AzureLike($id, $name="Like", $tech="")
+!procedure AzureLike($id, $name="Like", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureLike', $name, $tech)
-!endfunction
-!function AzureLikeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLikeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLikeMd>', 'Like', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

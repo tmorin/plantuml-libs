@@ -6,10 +6,10 @@ zCobLla3
 
 sprite $AwsElasticBeanstalkContainerMd [14x14/16z] XSor0GDH40DHWqQp_JTiFCh-YnOr2uLU6alrruZ2leOfAFslo9Cg_hhm31ty9pwJx8_Q49tTjjZKMNe3
 
-!function AwsElasticBeanstalkContainer($id, $name="Elastic Beanstalk Container", $tech="")
+!procedure AwsElasticBeanstalkContainer($id, $name="Elastic Beanstalk Container", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsElasticBeanstalkContainer', $name, $tech)
-!endfunction
-!function AwsElasticBeanstalkContainerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBeanstalkContainerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBeanstalkContainerMd>', 'Elastic Beanstalk Container', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

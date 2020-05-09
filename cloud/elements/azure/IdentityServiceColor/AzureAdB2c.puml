@@ -9,10 +9,10 @@ HSi9WWKW209G4r2P-nzuh5a-hQyq8jZswCJBgGlDu75bJSkJAtfJczsNxQaMATlRRgkfLsyyklfhQzJB
 t2IG-Ke_EK_V
 }
 
-!function AzureAdB2c($id, $name="Ad B2c", $tech="")
+!procedure AzureAdB2c($id, $name="Ad B2c", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAdB2c', $name, $tech)
-!endfunction
-!function AzureAdB2cCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAdB2cCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAdB2cMd>', 'Ad B2c', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

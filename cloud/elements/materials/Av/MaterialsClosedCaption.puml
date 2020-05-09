@@ -3,10 +3,10 @@ sprite $MaterialsClosedCaptionLg [20x20/16z] fP230G0n34L_QcV_QSysNjqu-8VK2sJ_bNb
 
 sprite $MaterialsClosedCaptionMd [14x14/16z] Oy0BMDXOmO2D1SXXuk670Xuc88-NdvUN7uHvmJms9YPsTYOcDWYFXPcDWnM8qNcOAX6ceDg0QZjU
 
-!function MaterialsClosedCaption($id, $name="Closed Caption", $tech="")
+!procedure MaterialsClosedCaption($id, $name="Closed Caption", $tech="")
   CloudElement($id, 'materials/Av/MaterialsClosedCaption', $name, $tech)
-!endfunction
-!function MaterialsClosedCaptionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsClosedCaptionCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsClosedCaptionMd>', 'Closed Caption', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

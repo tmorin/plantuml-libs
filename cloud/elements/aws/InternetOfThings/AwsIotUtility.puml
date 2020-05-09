@@ -6,10 +6,10 @@ DKGtntTg6O9ugMNmggdbnOxgiTEBNM-xZndKpE1hLdzd-Ztx2m
 
 sprite $AwsIotUtilityMd [14x14/16z] NOw7OGL024BF1xh_oE7CxzYxvnoAe3WNjDlXvWP6jYLCAf6PwTj4MIbFT4pHyaB_DRS215tf9537RkVZJctdu-gmjUSFx36pIoppyzdtrty
 
-!function AwsIotUtility($id, $name="Iot Utility", $tech="")
+!procedure AwsIotUtility($id, $name="Iot Utility", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotUtility', $name, $tech)
-!endfunction
-!function AwsIotUtilityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotUtilityCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotUtilityMd>', 'Iot Utility', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

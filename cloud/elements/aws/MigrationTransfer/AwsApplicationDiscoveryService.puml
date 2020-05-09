@@ -6,10 +6,10 @@ Hkez0m
 
 sprite $AwsApplicationDiscoveryServiceMd [14x14/16z] VOod0G0n30DHJfRttpVTwCinrVp70ha4coj5Mqf70MrfbmALqX7KIzjT7oK1n976baseRd1QSPVELmO
 
-!function AwsApplicationDiscoveryService($id, $name="Application Discovery Service", $tech="")
+!procedure AwsApplicationDiscoveryService($id, $name="Application Discovery Service", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsApplicationDiscoveryService', $name, $tech)
-!endfunction
-!function AwsApplicationDiscoveryServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApplicationDiscoveryServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApplicationDiscoveryServiceMd>', 'Application Discovery Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

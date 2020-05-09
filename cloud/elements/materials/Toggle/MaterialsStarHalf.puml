@@ -6,10 +6,10 @@ xRIZXsawxbRwOdoy_6BmV5gq
 
 sprite $MaterialsStarHalfMd [14x14/16z] TKm33WK02CtUklzflus6dk778RuoaLShuiNaDBuYCezESdEZSsTsywJ6jSjzOdZFWc-T2lUHt37o-_u4inVTLXLFajxOtpi2
 
-!function MaterialsStarHalf($id, $name="Star Half", $tech="")
+!procedure MaterialsStarHalf($id, $name="Star Half", $tech="")
   CloudElement($id, 'materials/Toggle/MaterialsStarHalf', $name, $tech)
-!endfunction
-!function MaterialsStarHalfCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStarHalfCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStarHalfMd>', 'Star Half', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

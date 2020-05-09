@@ -3,10 +3,10 @@ sprite $AzureChartLg [21x20/16z] hSn70a8n24LH0xo4ll_TsXtPzT_XeQZixjiAbnlTeNVn8vI
 
 sprite $AzureChartMd [15x14/16z] RSS50a9120HGDs3e-z_MrbzBpaExxMlDtlQaa0DB2MDFBNe64HrxUiqlkRKNgJT-4UPTFE6EDoFVpDYnTXoYHgfamEjt5S5hWFT_
 
-!function AzureChart($id, $name="Chart", $tech="")
+!procedure AzureChart($id, $name="Chart", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureChart', $name, $tech)
-!endfunction
-!function AzureChartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureChartCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureChartMd>', 'Chart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

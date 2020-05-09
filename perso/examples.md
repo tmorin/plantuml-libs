@@ -3,13 +3,13 @@
 ![simple](examples/simple.png)
 ```plantuml
 @startuml simple
-'!global $LIB_BRANCH="master"
-'!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/perso"
-'!includeurl $LIB_BASE_LOCATION/library.puml
+!global $LIB_BRANCH="master"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/perso"
+!includeurl $LIB_BASE_LOCATION/library.puml
 
-!global $INCLUSION_MODE="local"
-!global $LIB_BASE_LOCATION="../"
-!include ../library.puml
+'!global $INCLUSION_MODE="local"
+'!global $LIB_BASE_LOCATION="../"
+'!include ../library.puml
 
 include('elements/materials/MaterialsCloud')
 include('elements/materials/MaterialsDns')

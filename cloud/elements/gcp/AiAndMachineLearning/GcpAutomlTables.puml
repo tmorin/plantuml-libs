@@ -6,10 +6,10 @@ GWtS2rUPS6KxTeKOCCh_i_tVWIW-sdcdLRNVwS_Thm
 
 sprite $GcpAutomlTablesMd [14x14/16z] LKw50G112B9b_uaV_URI0aH4VQ4oqEf5RHYu40oiWQhYtIQI35HrEbAycVCk4Cq0gHMCftUdO55QLt4IRdnyM12gKwfJeLS1zbNFnnc3LWO_rmS
 
-!function GcpAutomlTables($id, $name="Automl Tables", $tech="")
+!procedure GcpAutomlTables($id, $name="Automl Tables", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlTables', $name, $tech)
-!endfunction
-!function GcpAutomlTablesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAutomlTablesCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAutomlTablesMd>', 'Automl Tables', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

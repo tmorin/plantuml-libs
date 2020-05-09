@@ -6,10 +6,10 @@ OJcJsjOUG5clU4zPxty
 
 sprite $AwsDiskMd [14x14/16z] LOw50S10308f2Uo_ST_jNkEWGjaYEfyKP4XVCnpeXAkfRdHJeEehkpzi8NLQq0IiJ1cWNsjdPijSNR8zV2Uyqrzbh-e2
 
-!function AwsDisk($id, $name="Disk", $tech="")
+!procedure AwsDisk($id, $name="Disk", $tech="")
   CloudElement($id, 'aws/General/AwsDisk', $name, $tech)
-!endfunction
-!function AwsDiskCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDiskCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDiskMd>', 'Disk', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

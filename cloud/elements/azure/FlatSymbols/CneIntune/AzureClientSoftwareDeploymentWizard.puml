@@ -9,10 +9,10 @@ DO_N0S10249pdg32_lkclpyhS5oi9FOwVZ2orFihAJyetwcihXfxuYhNM6GtskPLRxafQI3FUjPh9c2o
 a54JnyLkISFWLRx4lk8itEK9
 }
 
-!function AzureClientSoftwareDeploymentWizard($id, $name="Client Software Deployment Wizard", $tech="")
+!procedure AzureClientSoftwareDeploymentWizard($id, $name="Client Software Deployment Wizard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureClientSoftwareDeploymentWizard', $name, $tech)
-!endfunction
-!function AzureClientSoftwareDeploymentWizardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureClientSoftwareDeploymentWizardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureClientSoftwareDeploymentWizardMd>', 'Client Software Deployment Wizard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ XOcEjvtV8ki77hCPFxZkuGa
 
 sprite $AwsInternetGatewayMd [14x14/16z] XOhN0SD024C1bUm_iNtz_k97HueFikeUjAJS1rk3CNNd_1d35maIaJy45UbEcuAhotQVPGqtsGUS5hbow5XKnZzU
 
-!function AwsInternetGateway($id, $name="Internet Gateway", $tech="")
+!procedure AwsInternetGateway($id, $name="Internet Gateway", $tech="")
   CloudElement($id, 'aws/General/AwsInternetGateway', $name, $tech)
-!endfunction
-!function AwsInternetGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsInternetGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsInternetGatewayMd>', 'Internet Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

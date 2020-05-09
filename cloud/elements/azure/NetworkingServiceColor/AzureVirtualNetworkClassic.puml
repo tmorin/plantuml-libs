@@ -9,10 +9,10 @@ PP073iKm348Tho_v_WV-HQIJDlFPW1J3jpfiVz4B6t7LaZEEw942iHI8fK2CXTSk5XeuPzfg9gsn7DMk
 6_y1
 }
 
-!function AzureVirtualNetworkClassic($id, $name="Virtual Network Classic", $tech="")
+!procedure AzureVirtualNetworkClassic($id, $name="Virtual Network Classic", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureVirtualNetworkClassic', $name, $tech)
-!endfunction
-!function AzureVirtualNetworkClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVirtualNetworkClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVirtualNetworkClassicMd>', 'Virtual Network Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

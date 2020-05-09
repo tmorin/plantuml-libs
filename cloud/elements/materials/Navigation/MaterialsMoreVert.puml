@@ -3,10 +3,10 @@ sprite $MaterialsMoreVertLg [20x20/16z] Ow06O6715EBdPy4hXj0xWkmW3
 
 sprite $MaterialsMoreVertMd [14x14/16z] Oo08c9cHE8pSt8oeShW08mS7Ae_QDY
 
-!function MaterialsMoreVert($id, $name="More Vert", $tech="")
+!procedure MaterialsMoreVert($id, $name="More Vert", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsMoreVert', $name, $tech)
-!endfunction
-!function MaterialsMoreVertCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMoreVertCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMoreVertMd>', 'More Vert', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

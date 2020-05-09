@@ -3,10 +3,10 @@ sprite $AwsVpcLg [20x20/16z] fOz55aGn40B72kY-_tt7lcURMl6GICyJkwvEIJQvUD8lGESkVns
 
 sprite $AwsVpcMd [14x14/16z] XOgt0S0m3CCMYSN__-jUjWGR2PGVJEeDg6_lDSNHmhWjp3a7CXCpxCi9OowpaogSQpx9wJRCxFeYpl510m
 
-!function AwsVpc($id, $name="Vpc", $tech="")
+!procedure AwsVpc($id, $name="Vpc", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpc', $name, $tech)
-!endfunction
-!function AwsVpcCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcMd>', 'Vpc', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

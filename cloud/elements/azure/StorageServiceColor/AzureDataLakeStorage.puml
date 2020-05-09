@@ -6,10 +6,10 @@ TOW7aWGX30CPafF-_zuJliqCNILRwbAkKbg_ojKQJsyfncBEpqFWSyDnil8hXJPkG1BEutcMOLnKHnVJ
 
 sprite $AzureDataLakeStorageMd [15x14/16z] JSk75GGX20JG9nc7_kizkCJ-CGk7Y8Le1XETTBKVzOJRSY0ZTg0wjmUgHyTDnMo6Jh6nI8-PR839icvvgW9k0ZCkMdY4-um-zMEidD9rOQW5Um4
 
-!function AzureDataLakeStorage($id, $name="Data Lake Storage", $tech="")
+!procedure AzureDataLakeStorage($id, $name="Data Lake Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureDataLakeStorage', $name, $tech)
-!endfunction
-!function AzureDataLakeStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataLakeStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataLakeStorageMd>', 'Data Lake Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

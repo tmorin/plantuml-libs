@@ -6,10 +6,10 @@ xPMCNlPgoCz769MJxwavHMUAeIrRgcVQKOfkDG
 
 sprite $MaterialsRvHookupMd [14x14/16z] TOor0GCn30355Df_MhEx_8aH7g2Ri0tobYGY6hZp7KvHRWjQFHVsZxBhNT4tWjWinDth6rvhfh-3pJzSxxBtgseFaLEJS00BSOO_T
 
-!function MaterialsRvHookup($id, $name="Rv Hookup", $tech="")
+!procedure MaterialsRvHookup($id, $name="Rv Hookup", $tech="")
   CloudElement($id, 'materials/Places/MaterialsRvHookup', $name, $tech)
-!endfunction
-!function MaterialsRvHookupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRvHookupCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRvHookupMd>', 'Rv Hookup', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

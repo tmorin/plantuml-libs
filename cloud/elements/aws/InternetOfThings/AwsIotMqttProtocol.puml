@@ -3,10 +3,10 @@ sprite $AwsIotMqttProtocolLg [20x20/16z] lT2r0GD03CLGVz1b_ud3Z5rUgSOmIXz48-W3K9W
 
 sprite $AwsIotMqttProtocolMd [14x14/16z] hSc15G0G30FHffVkFpA02NpWNWC_1EW1AnxvPsbZbih7hXn8JfcHIeEKOpQR2cmyrDmT
 
-!function AwsIotMqttProtocol($id, $name="Iot Mqtt Protocol", $tech="")
+!procedure AwsIotMqttProtocol($id, $name="Iot Mqtt Protocol", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotMqttProtocol', $name, $tech)
-!endfunction
-!function AwsIotMqttProtocolCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotMqttProtocolCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotMqttProtocolMd>', 'Iot Mqtt Protocol', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

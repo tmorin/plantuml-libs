@@ -6,10 +6,10 @@ PaglDrt0KEmdnuQuS-C_6V_9Q4hJuCfUCGs-
 
 sprite $AzureDataExplorerClustersMd [14x14/16z] BSb10W81249HL33h_WTEnc7t-Fh-l6bFC8rYIrWQYfA8vRIAKfQ5QcM9OHrTA20BkA96ChScjtp6S4rZCjzQFJD-htARSTKynCAiVTFbuHy
 
-!function AzureDataExplorerClusters($id, $name="Data Explorer Clusters", $tech="")
+!procedure AzureDataExplorerClusters($id, $name="Data Explorer Clusters", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataExplorerClusters', $name, $tech)
-!endfunction
-!function AzureDataExplorerClustersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataExplorerClustersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataExplorerClustersMd>', 'Data Explorer Clusters', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

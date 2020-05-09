@@ -6,10 +6,10 @@ p6Aut1q
 
 sprite $MaterialsFlightLandMd [14x14/16z] POs50G0X201j6lQVzhl_bAxq9xTNnELobo_z2EfO8peZ7RM87Qq5DTIZvtEm3b9dk1UN1gpbUIQdBnKlwj9GBhwjCm
 
-!function MaterialsFlightLand($id, $name="Flight Land", $tech="")
+!procedure MaterialsFlightLand($id, $name="Flight Land", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFlightLand', $name, $tech)
-!endfunction
-!function MaterialsFlightLandCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFlightLandCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFlightLandMd>', 'Flight Land', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

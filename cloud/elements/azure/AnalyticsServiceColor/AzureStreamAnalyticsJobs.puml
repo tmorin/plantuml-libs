@@ -9,10 +9,10 @@ JO-54KD120LX7zP_nVbdCzbJ7EpXbVO7Rgh2dAjGPTH7L5yL0fHLtNvpi8cUtEAdS8VlpccvRK42kJ4p
 xhiQkofCCxfJNFpr-mC
 }
 
-!function AzureStreamAnalyticsJobs($id, $name="Stream Analytics Jobs", $tech="")
+!procedure AzureStreamAnalyticsJobs($id, $name="Stream Analytics Jobs", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureStreamAnalyticsJobs', $name, $tech)
-!endfunction
-!function AzureStreamAnalyticsJobsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureStreamAnalyticsJobsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureStreamAnalyticsJobsMd>', 'Stream Analytics Jobs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

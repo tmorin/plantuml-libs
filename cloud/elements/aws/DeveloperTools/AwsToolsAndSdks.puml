@@ -6,10 +6,10 @@ k-zdBOdWZ9rvjkFnjiaKIJYtjHE_l2ZRMkksjlYllG8
 
 sprite $AwsToolsAndSdksMd [14x14/16z] LSV70SCm3CNGDFsc_VSDoHJREE4byIyf5uu4SDZe9JJIaadhnHR19IvY9AjsKQMzIoBrbmd07vaEww2KYfBA6UqOKBf2E_dhu1i
 
-!function AwsToolsAndSdks($id, $name="Tools And Sdks", $tech="")
+!procedure AwsToolsAndSdks($id, $name="Tools And Sdks", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsToolsAndSdks', $name, $tech)
-!endfunction
-!function AwsToolsAndSdksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsToolsAndSdksCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsToolsAndSdksMd>', 'Tools And Sdks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

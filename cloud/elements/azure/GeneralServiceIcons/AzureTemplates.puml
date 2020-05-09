@@ -3,10 +3,10 @@ sprite $AzureTemplatesLg [18x20/16z] lSZL0KGX44DHaWpRVyUu_-spYyxnjWNd36kP3laPTf6
 
 sprite $AzureTemplatesMd [12x14/16z] XOk30S1054CRTF-HopFVDs85Z4C8w4JgAGi9zJr3JxqcFe6lqHVW2y1Ek-sjX6y
 
-!function AzureTemplates($id, $name="Templates", $tech="")
+!procedure AzureTemplates($id, $name="Templates", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureTemplates', $name, $tech)
-!endfunction
-!function AzureTemplatesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTemplatesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTemplatesMd>', 'Templates', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

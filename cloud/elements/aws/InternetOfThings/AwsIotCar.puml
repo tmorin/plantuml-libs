@@ -6,10 +6,10 @@ ERUlSE1q9jPCywX5UKebJYrDpKrlZGQDLhscFMu
 
 sprite $AwsIotCarMd [14x14/16z] NOw50KCn24J32VkFt1pz_YAuh52v1zJ0CNGnaNMGwBW0LBIA1P7QLkLHbGfllsnFsCrLSb2xMrDBxXXBUazuJVzkzjxw1m
 
-!function AwsIotCar($id, $name="Iot Car", $tech="")
+!procedure AwsIotCar($id, $name="Iot Car", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotCar', $name, $tech)
-!endfunction
-!function AwsIotCarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotCarCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotCarMd>', 'Iot Car', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

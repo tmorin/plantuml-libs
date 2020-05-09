@@ -6,10 +6,10 @@ YxTfdgVTsqi6RraL-0Aej-p_0G
 
 sprite $AwsIotAlexaSkillMd [14x14/16z] LOw50KCn24GlFFht7xb857TE-2O4OnFua6HWuOP75WOYwCo9DBWo2wqfomnSGS2RdKd5vBfY2M9_-7xV-Y35S7z_aRse_m
 
-!function AwsIotAlexaSkill($id, $name="Iot Alexa Skill", $tech="")
+!procedure AwsIotAlexaSkill($id, $name="Iot Alexa Skill", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAlexaSkill', $name, $tech)
-!endfunction
-!function AwsIotAlexaSkillCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotAlexaSkillCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotAlexaSkillMd>', 'Iot Alexa Skill', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

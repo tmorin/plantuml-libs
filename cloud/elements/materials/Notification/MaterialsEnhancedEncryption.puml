@@ -6,10 +6,10 @@ thpVzTorFkxXxl6wEiCRcW47t04
 
 sprite $MaterialsEnhancedEncryptionMd [14x14/16z] NSt50SGm34HHiOAU_gjTZF4RtqdqZLMPQfoV6iE9FAfIY2GVw6uYjkiFLb20psLVEO080FxNVQbUTrNoTqhLxYA-Lm6gGDTnL4a-2Isz0G
 
-!function MaterialsEnhancedEncryption($id, $name="Enhanced Encryption", $tech="")
+!procedure MaterialsEnhancedEncryption($id, $name="Enhanced Encryption", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsEnhancedEncryption', $name, $tech)
-!endfunction
-!function MaterialsEnhancedEncryptionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsEnhancedEncryptionCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsEnhancedEncryptionMd>', 'Enhanced Encryption', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

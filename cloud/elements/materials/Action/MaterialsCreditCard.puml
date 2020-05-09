@@ -3,10 +3,10 @@ sprite $MaterialsCreditCardLg [20x20/16z] fT054e0W441HXsQ_SV_JsjtAcuRjB8csRiNgza
 
 sprite $MaterialsCreditCardMd [14x14/16z] VSsr0S0m0CJ03yUy_xHcfkjK2JldyqRF2Npl7RsVhUUC7bSgSyL8n5nTY2vN9wAph_RGtdSC
 
-!function MaterialsCreditCard($id, $name="Credit Card", $tech="")
+!procedure MaterialsCreditCard($id, $name="Credit Card", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCreditCard', $name, $tech)
-!endfunction
-!function MaterialsCreditCardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCreditCardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCreditCardMd>', 'Credit Card', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

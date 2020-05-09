@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupProjectZone($id, $name="Project Zone", $tech="")
+!procedure GcpGroupProjectZone($id, $name="Project Zone", $tech="")
   CloudGroup($id, "GcpGroupProjectZone", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupProjectZone>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

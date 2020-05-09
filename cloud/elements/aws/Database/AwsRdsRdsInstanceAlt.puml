@@ -6,10 +6,10 @@ Fm
 
 sprite $AwsRdsRdsInstanceAltMd [14x14/16z] fOp50O1G3CNuVKdPVsBSxgIk-057JGzQ7KdOYARTw5tHiLFZG8kGt7VCAiyNe9xgZ3yh_C0A
 
-!function AwsRdsRdsInstanceAlt($id, $name="Rds Rds Instance Alt", $tech="")
+!procedure AwsRdsRdsInstanceAlt($id, $name="Rds Rds Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsRdsInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsRdsInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsRdsInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsRdsInstanceAltMd>', 'Rds Rds Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

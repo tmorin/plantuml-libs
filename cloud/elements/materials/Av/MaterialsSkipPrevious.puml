@@ -3,10 +3,10 @@ sprite $MaterialsSkipPreviousLg [20x20/16z] Ow0NO6U1q8mW6ihaP0FJJ1oSZ6XYBDpyQ6AC
 
 sprite $MaterialsSkipPreviousMd [14x14/16z] Oo05C391A0YFXGt4PcT1y9Wv-H4yLbv-D1w6IanJc60sa08
 
-!function MaterialsSkipPrevious($id, $name="Skip Previous", $tech="")
+!procedure MaterialsSkipPrevious($id, $name="Skip Previous", $tech="")
   CloudElement($id, 'materials/Av/MaterialsSkipPrevious', $name, $tech)
-!endfunction
-!function MaterialsSkipPreviousCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSkipPreviousCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSkipPreviousMd>', 'Skip Previous', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

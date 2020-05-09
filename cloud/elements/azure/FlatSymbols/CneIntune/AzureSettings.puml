@@ -6,10 +6,10 @@ TL07bWKX29EcIEv_tqNMzwTdgf24qWh4wvsl0-8pppnTZrW7ZCY0Vk85OivyoH7JF2OGMojTD688iNY4
 
 sprite $AzureSettingsMd [14x14/16z] NKw70SH021AkYViF_7nwOkyIfaPhYvse15BSCwXamTP1hvnJrK6FgIOyi3n0PYME-QJjZ8sMguzC24_gdgHKwxgoVT1Q-uVFzo-o87UD-04
 
-!function AzureSettings($id, $name="Settings", $tech="")
+!procedure AzureSettings($id, $name="Settings", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureSettings', $name, $tech)
-!endfunction
-!function AzureSettingsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSettingsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSettingsMd>', 'Settings', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

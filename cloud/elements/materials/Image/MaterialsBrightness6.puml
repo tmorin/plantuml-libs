@@ -6,10 +6,10 @@ Tugw7m4
 
 sprite $MaterialsBrightness6Md [14x14/16z] LKu54iH030ftBRFE_rzRDp8QF8u3uZtaVBz_CakP_EyV9TKv3V7-SiHyVCZd5wdWUCvlKeP_hlGKR_1sN-QhLm
 
-!function MaterialsBrightness6($id, $name="Brightness6", $tech="")
+!procedure MaterialsBrightness6($id, $name="Brightness6", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBrightness6', $name, $tech)
-!endfunction
-!function MaterialsBrightness6Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBrightness6Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBrightness6Md>', 'Brightness6', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

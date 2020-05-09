@@ -6,10 +6,10 @@ Qc5Om1S
 
 sprite $AwsOpsworksPermissionsMd [14x14/16z] ROg50S0m20JVOF-DwzvS15wmmeGuKRJSKuLhVAdp-olkYfjGTHQwj9a2RK9dXLNBDrQmyL3afQmDRqev4303
 
-!function AwsOpsworksPermissions($id, $name="Opsworks Permissions", $tech="")
+!procedure AwsOpsworksPermissions($id, $name="Opsworks Permissions", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksPermissions', $name, $tech)
-!endfunction
-!function AwsOpsworksPermissionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsOpsworksPermissionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsOpsworksPermissionsMd>', 'Opsworks Permissions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

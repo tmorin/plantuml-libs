@@ -3,10 +3,10 @@ sprite $GcpCloudTasksLg [23x20/16z] VP7L0S0m24Hns7_XUZpqVUBSmOru55oWG4-qnAc4BNhq
 
 sprite $GcpCloudTasksMd [16x14/16z] NS_50S0m30D0cRt_mkK6TA-04O1LFyfma-nFodtt7lp-hdal0Q8NyHIRwh_-akySp_Mu7y_3y_8-9m
 
-!function GcpCloudTasks($id, $name="Cloud Tasks", $tech="")
+!procedure GcpCloudTasks($id, $name="Cloud Tasks", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudTasks', $name, $tech)
-!endfunction
-!function GcpCloudTasksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudTasksCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudTasksMd>', 'Cloud Tasks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

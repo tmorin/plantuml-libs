@@ -6,10 +6,10 @@ qx1iFBFy1G
 
 sprite $AzureFileGeneralMd [13x14/16z] HSc53S0m4C30v9dsdxSDdz2ov5RUMp8iKjOJsa9LTgEpvXye0pOOGJhi01hw2lQ1LdGSpedXdAcjs4Om79oIZtm
 
-!function AzureFileGeneral($id, $name="File General", $tech="")
+!procedure AzureFileGeneral($id, $name="File General", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFileGeneral', $name, $tech)
-!endfunction
-!function AzureFileGeneralCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFileGeneralCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFileGeneralMd>', 'File General', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

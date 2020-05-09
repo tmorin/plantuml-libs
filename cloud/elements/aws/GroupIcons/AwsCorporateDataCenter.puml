@@ -3,10 +3,10 @@ sprite $AwsCorporateDataCenterLg [20x20/16z] bSo53S1040D1WUdwBpZCd9L5yr3_YhkoDu6
 
 sprite $AwsCorporateDataCenterMd [14x14/16z] ROwr0S103CIga-pz1mvpNftXeF_KmZq5SayeZwdkoQ34uq8jS5nrcpmcbb5ytXpVmaAyYotqZna
 
-!function AwsCorporateDataCenter($id, $name="Corporate Data Center", $tech="")
+!procedure AwsCorporateDataCenter($id, $name="Corporate Data Center", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsCorporateDataCenter', $name, $tech)
-!endfunction
-!function AwsCorporateDataCenterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCorporateDataCenterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCorporateDataCenterMd>', 'Corporate Data Center', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -2,16 +2,16 @@
 
 ' layout
 
-!function legend()
+!procedure legend()
     legend right
     |=   |=Type|=   |=Type|
     |<$EXTERNAL_PERSON_COLOR_BG>| external person |<$EXTERNAL_SYSTEM_COLOR_BG>| external system |
     |<$PERSON_COLOR_BG>| person |<$SYSTEM_COLOR_BG>| system |
     |<$CONTAINER_COLOR_BG>| container |<$COMPONENT_COLOR_BG>| component |
     endlegend
-!endfunction
+!endprocedure
 
-!function title($title, $subtitle="", $version="", $date="")
+!procedure title($title, $subtitle="", $version="", $date="")
   !$s=$title
   !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
   !$s_v=""
@@ -29,27 +29,27 @@
   !endif
   <color:grey><size:12>$s</size></color>
   end header
-!endfunction
+!endprocedure
 
 ' Label
 
-!function LabelName($name)
+!procedure LabelName($name)
     <b><size:$NAME_FONT_SIZE>$name</size></b>
-!endfunction
+!endprocedure
 
-!function LabelDesc($desc)
+!procedure LabelDesc($desc)
     <size:$DESC_FONT_SIZE>$desc</size>
-!endfunction
+!endprocedure
 
-!function LabelType($type, $tech="")
+!procedure LabelType($type, $tech="")
     !if ($tech)
         <size:$TECH_FONT_SIZE>[$type: $tech]</size>
     !else
         <size:$TECH_FONT_SIZE>[$type]</size>
     !endif
-!endfunction
+!endprocedure
 
-!function Label($name, $type, $desc, $tech)
+!procedure Label($name, $type, $desc, $tech)
     LabelName($name)
     !if ($type)
         LabelType($type, $tech)
@@ -58,73 +58,73 @@
 
         LabelDesc($desc)
     !endif
-!endfunction
+!endprocedure
 
 ' Element
 
-!function Element($shape, $stereotype, $type, $id, $name, $desc="", $tech="")
+!procedure Element($shape, $stereotype, $type, $id, $name, $desc="", $tech="")
     $shape $id <<$stereotype>> [
         Label($name, $type, $desc, $tech)
     ]
-!endfunction
+!endprocedure
 
-!function Boundary($type, $id, $name)
+!procedure Boundary($type, $id, $name)
     rectangle $id <<Boundary>> as "<b><size:$NAME_FONT_SIZE>$name</size></b>\n<size:$TECH_FONT_SIZE>[$type]</size>"
-!endfunction
+!endprocedure
 
 ' Enterprise
 
-!function Enterprise($id, $name)
+!procedure Enterprise($id, $name)
     Boundary("Enterprise", $id, $name)
-!endfunction
+!endprocedure
 
 ' Person
 
-!function Person($id, $name, $desc="")
+!procedure Person($id, $name, $desc="")
     Element("rectangle", "Person", "Person", $id, $name, $desc)
-!endfunction
+!endprocedure
 
-!function ExternalPerson($id, $name, $desc="")
+!procedure ExternalPerson($id, $name, $desc="")
     Element("rectangle", "ExternalPerson", "Person", $id, $name, $desc)
-!endfunction
+!endprocedure
 
 ' Software System (internal vs external)
 
-!function System($id, $name, $desc="")
+!procedure System($id, $name, $desc="")
     Element("rectangle", "System", "System", $id, $name, $desc)
-!endfunction
+!endprocedure
 
-!function ExternalSystem($id, $name, $desc="")
+!procedure ExternalSystem($id, $name, $desc="")
     Element("rectangle", "ExternalSystem", "System", $id, $name, $desc)
-!endfunction
+!endprocedure
 
-!function SystemBoundary($id, $name)
+!procedure SystemBoundary($id, $name)
     Boundary("System", $id, $name)
-!endfunction
+!endprocedure
 
 ' Container
 
-!function Container($id, $name, $desc="", $tech="")
+!procedure Container($id, $name, $desc="", $tech="")
     Element("rectangle", "Container", "Container", $id, $name, $desc, $tech)
-!endfunction
+!endprocedure
 
-!function Database($id, $name, $desc="", $tech="")
+!procedure Database($id, $name, $desc="", $tech="")
     Element("database", "Container", "Container", $id, $name, $desc, $tech)
-!endfunction
+!endprocedure
 
-!function ContainerBoundary($id, $name)
+!procedure ContainerBoundary($id, $name)
     Boundary("Container", $id, $name)
-!endfunction
+!endprocedure
 
 ' Component
 
-!function Component($id, $name, $desc="", $tech="")
+!procedure Component($id, $name, $desc="", $tech="")
     Element("rectangle", "Component", "Component", $id, $name, $desc, $tech)
-!endfunction
+!endprocedure
 
 ' Relationship
 
-!function Relationship($desc="", $tech="")
+!procedure Relationship($desc="", $tech="")
     !if ($desc) && ($tech)
         <b><size:$DESC_FONT_SIZE>$desc</size></b>\n<size:$TECH_FONT_SIZE>[$tech]</size>
     !elseif ($desc)
@@ -132,6 +132,6 @@
     !else
         <size:$TECH_FONT_SIZE>[$tech]</size>
     !endif
-!endfunction
+!endprocedure
 
 @enduml

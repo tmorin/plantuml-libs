@@ -6,10 +6,10 @@ vZbWtZDqmpbwIW8
 
 sprite $MaterialsLocationOnMd [14x14/16z] ROgr0SD040JldddwhzQqKcHDicX_U2eb-HqQGBjYvhHso4gTQbRfEevldHcwDaQCWwPduaTIyWxGtKGwSABTLAXo-kft4O8zy0O
 
-!function MaterialsLocationOn($id, $name="Location On", $tech="")
+!procedure MaterialsLocationOn($id, $name="Location On", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsLocationOn', $name, $tech)
-!endfunction
-!function MaterialsLocationOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocationOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocationOnMd>', 'Location On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

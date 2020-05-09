@@ -6,10 +6,10 @@ QrDlk-PQDPhVlRrd85gFjZrJ09FfI_PV
 
 sprite $GcpCloudAutomlMd [14x14/16z] LKw50GH0209x_ubV_ERI0W3G3uJ0waDT6FD2R60zinNT1kHCaUaR9dGxiqj51QNHzjfBaKO3zIfkMz9dHv3NHQhffN0JOx_g-N6sGHFuT_q
 
-!function GcpCloudAutoml($id, $name="Cloud Automl", $tech="")
+!procedure GcpCloudAutoml($id, $name="Cloud Automl", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudAutoml', $name, $tech)
-!endfunction
-!function GcpCloudAutomlCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudAutomlCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudAutomlMd>', 'Cloud Automl', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

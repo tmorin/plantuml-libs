@@ -3,10 +3,10 @@ sprite $AwsElementalDeltaLg [20x20/16z] jSwr0G1124JHWE4F_JTyxXRTldM5-fyvyB8NkObr
 
 sprite $AwsElementalDeltaMd [14x14/16z] bOp50OHG5CHsWKcc_uPnEVyyrmvWRkmEGONmLYJXsuJOWtE2Tq6Mx8hVM_kX7MG3
 
-!function AwsElementalDelta($id, $name="Elemental Delta", $tech="")
+!procedure AwsElementalDelta($id, $name="Elemental Delta", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalDelta', $name, $tech)
-!endfunction
-!function AwsElementalDeltaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalDeltaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalDeltaMd>', 'Elemental Delta', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

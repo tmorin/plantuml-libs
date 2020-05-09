@@ -6,10 +6,10 @@ POo75OH020K5Vl3wR_WmotCsCeJqXtGjiGpANefPURBBTXJLcvHqkQm6G3MNwtcJSzx1uoY9a4fnkyog
 
 sprite $AwsRdsAuroraInstanceMd [14x14/16z] NOg50GCn30E5QVTV-9alO0lI1od57G2jJdzJFDbL94l4sSo2QQl5JcfbdAgryx-K9FQL_IxbTvPFff7kR3Cp
 
-!function AwsRdsAuroraInstance($id, $name="Rds Aurora Instance", $tech="")
+!procedure AwsRdsAuroraInstance($id, $name="Rds Aurora Instance", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsAuroraInstance', $name, $tech)
-!endfunction
-!function AwsRdsAuroraInstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsAuroraInstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsAuroraInstanceMd>', 'Rds Aurora Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ w1kPCjZM63Aqw8nrkBcWrDXWEVSwDZZjiZ-u_-09
 
 sprite $AwsWorkspacesMd [14x14/16z] LSe52WH0049HOgov_u5Nt9PyV6Dlsf8_bU8yYJmWv0dTeO2fgR3FcGYMEzy8e7basFUsEg8ujT9gudHZ0fIhCMt9D6xJbmy
 
-!function AwsWorkspaces($id, $name="Workspaces", $tech="")
+!procedure AwsWorkspaces($id, $name="Workspaces", $tech="")
   CloudElement($id, 'aws/EndUserComputing/AwsWorkspaces', $name, $tech)
-!endfunction
-!function AwsWorkspacesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWorkspacesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWorkspacesMd>', 'Workspaces', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

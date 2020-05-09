@@ -6,10 +6,10 @@ HOk94G0X20DL217xB_ZuPcvz5yWAThEA8zh8oPR-x7NMKLW2ZJznzZv9f0MyD4HEf8P8ti069fcCFLsF
 
 sprite $AzureDatabaseForPostgresqlServersMd [11x14/16z] DKk50G112BA5tt_VloubHTJMKH6nECV4p2CpmzLwJhSjDBgxCgkgzwdUaCH7z87hRHK4MRbWe_1jk4kisd0R3syGuhbWXia
 
-!function AzureDatabaseForPostgresqlServers($id, $name="Database For Postgresql Servers", $tech="")
+!procedure AzureDatabaseForPostgresqlServers($id, $name="Database For Postgresql Servers", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureDatabaseForPostgresqlServers', $name, $tech)
-!endfunction
-!function AzureDatabaseForPostgresqlServersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDatabaseForPostgresqlServersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDatabaseForPostgresqlServersMd>', 'Database For Postgresql Servers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

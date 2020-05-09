@@ -3,10 +3,10 @@ sprite $MaterialsInsertCommentLg [20x20/16z] bS_L0KCn243Hk0FxJrj3wa_kvudYVkR3M_v
 
 sprite $MaterialsInsertCommentMd [14x14/16z] LSt50S1020H0d7ZwhpPo2lD35pBsWG7y7lolN0glbL5XjT9QQPjnqMTOjDdgnVfNbX9G6Zs_Qf9K0K7s0W
 
-!function MaterialsInsertComment($id, $name="Insert Comment", $tech="")
+!procedure MaterialsInsertComment($id, $name="Insert Comment", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertComment', $name, $tech)
-!endfunction
-!function MaterialsInsertCommentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInsertCommentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInsertCommentMd>', 'Insert Comment', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsTvLg [20x20/16z] rT0r0W113090MFVy_xMdpRcKEqq29VYAve1Wg7cd1h9Oxj
 
 sprite $MaterialsTvMd [14x14/16z] dSsr0S0m50DHIMRu-uyRvdH-tLM7D-f2gEHBaK-u9EyZBd6y4Y_9Q_tKnVeLGBfkrXs9dHRucm4
 
-!function MaterialsTv($id, $name="Tv", $tech="")
+!procedure MaterialsTv($id, $name="Tv", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsTv', $name, $tech)
-!endfunction
-!function MaterialsTvCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTvCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTvMd>', 'Tv', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

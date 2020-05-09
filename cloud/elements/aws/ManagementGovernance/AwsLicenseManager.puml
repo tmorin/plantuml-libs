@@ -6,10 +6,10 @@ TSW5gi0m40L0O9zjUl_pVab3gGu-lUIaN_Bpn0a-7KKwGUqvvbcqZS9-_qdL9AuRRpUQiG3PvskZ2WxJ
 
 sprite $AwsLicenseManagerMd [14x14/16z] PSc54G8m40LHvBw5_libYkxecytCkpyP8C4j4JBlwcf3rGE7MkklYygIEN2a0gehGrRLKheqo2EJ0EcfNkQOsaqzllW4
 
-!function AwsLicenseManager($id, $name="License Manager", $tech="")
+!procedure AwsLicenseManager($id, $name="License Manager", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsLicenseManager', $name, $tech)
-!endfunction
-!function AwsLicenseManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsLicenseManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsLicenseManagerMd>', 'License Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

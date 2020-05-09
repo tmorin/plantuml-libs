@@ -3,10 +3,10 @@ sprite $AwsIotHttp2ProtocolLg [20x20/16z] lP370GCm308526V_ZOELtdyvztDNGVs0KB0VdG
 
 sprite $AwsIotHttp2ProtocolMd [14x14/16z] hST70G1154An3m_yIzvU34nk6V9XG1-8vgEicruSQtvIRGmsru9bB0AgBv0EvDNi
 
-!function AwsIotHttp2Protocol($id, $name="Iot Http2 Protocol", $tech="")
+!procedure AwsIotHttp2Protocol($id, $name="Iot Http2 Protocol", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotHttp2Protocol', $name, $tech)
-!endfunction
-!function AwsIotHttp2ProtocolCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotHttp2ProtocolCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotHttp2ProtocolMd>', 'Iot Http2 Protocol', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

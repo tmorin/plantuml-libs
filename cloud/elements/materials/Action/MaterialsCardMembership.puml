@@ -6,10 +6,10 @@ FxHW00w2lsm1
 
 sprite $MaterialsCardMembershipMd [14x14/16z] PSh50SGm40D0BPcX_seFavZc9y1A_4C0Rtmn_qcC2vz9wQBVrCkbVvFNY_ycvSltAI74Kck98GY-fFNU11Uk8LJ6XGGGmk4D
 
-!function MaterialsCardMembership($id, $name="Card Membership", $tech="")
+!procedure MaterialsCardMembership($id, $name="Card Membership", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCardMembership', $name, $tech)
-!endfunction
-!function MaterialsCardMembershipCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCardMembershipCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCardMembershipMd>', 'Card Membership', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

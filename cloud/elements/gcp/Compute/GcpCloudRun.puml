@@ -6,10 +6,10 @@ dWtbcNd_D_v_j_ytw5jrsBaf9dtJdziF
 
 sprite $GcpCloudRunMd [14x14/16z] LOw50G0m2CEAy__3SyqKBm2I0G7Ty1ZuC3KNsWoExAiH35Ycctat3HBD4bDhRtGZerd2tZxB0eOrCtLsbj75LvSnOSFlTDlAkX44_Aeh
 
-!function GcpCloudRun($id, $name="Cloud Run", $tech="")
+!procedure GcpCloudRun($id, $name="Cloud Run", $tech="")
   CloudElement($id, 'gcp/Compute/GcpCloudRun', $name, $tech)
-!endfunction
-!function GcpCloudRunCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudRunCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudRunMd>', 'Cloud Run', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ TP1PMe0n20EJGeBtFx5_3UuwJtI-ikAY-K1ufru-cKAW8u8Ps-yYD2vdabdLYNYjDf4yCzShNo-ZAatr
 
 sprite $GcpProfilerMd [15x14/16z] PKz70WCW28CCxVzVN4AzDQuC5rMb-mckAkYerHtfi1lFet17eRdB2mNPYTSbX7R8dg5Wd64d4zK5AJAno1ATe784ClF2gTg5tA_Xzuq7_tyo9Gnou_0l
 
-!function GcpProfiler($id, $name="Profiler", $tech="")
+!procedure GcpProfiler($id, $name="Profiler", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpProfiler', $name, $tech)
-!endfunction
-!function GcpProfilerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpProfilerCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpProfilerMd>', 'Profiler', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsRedshiftLg [20x20/16z] fSt50SKW40JGBpks_VSRu18zPl27zUjO12YVI71c11rMp1
 
 sprite $AwsRedshiftMd [14x14/16z] XSsd0S0m4CLGzDljls_YRcYnXrIFh9OtcAfmKL0BMd8bv54IN16WjuZOH-3Od4EBUoYI3Oz-
 
-!function AwsRedshift($id, $name="Redshift", $tech="")
+!procedure AwsRedshift($id, $name="Redshift", $tech="")
   CloudElement($id, 'aws/Analytics/AwsRedshift', $name, $tech)
-!endfunction
-!function AwsRedshiftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRedshiftCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRedshiftMd>', 'Redshift', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

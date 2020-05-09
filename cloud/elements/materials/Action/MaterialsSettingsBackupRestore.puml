@@ -6,10 +6,10 @@ QotGKVFHtBKtw343MB9WLg_q1G
 
 sprite $MaterialsSettingsBackupRestoreMd [14x14/16z] POw30G0m30G_jVSVj_OLCV13ZD4of2d8OMZD0APrZ-ZXh54oh7m4C5C_MpvZK3u6RfEcPK5OXiB81E7eKk37X9Ayfk_DVZ8
 
-!function MaterialsSettingsBackupRestore($id, $name="Settings Backup Restore", $tech="")
+!procedure MaterialsSettingsBackupRestore($id, $name="Settings Backup Restore", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsBackupRestore', $name, $tech)
-!endfunction
-!function MaterialsSettingsBackupRestoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsBackupRestoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsBackupRestoreMd>', 'Settings Backup Restore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

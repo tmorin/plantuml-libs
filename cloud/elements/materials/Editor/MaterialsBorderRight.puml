@@ -3,10 +3,10 @@ sprite $MaterialsBorderRightLg [20x20/16z] ZP055iGm24Hda1Ux_tbNwXBxRGm7J2C6c41rl
 
 sprite $MaterialsBorderRightMd [14x14/16z] NKw50G1121Busd_XloxibZ12uMfAScUMidbPUvq-bbuEf9wrSVGC2e64O9bDsXNxuDyNCgC4
 
-!function MaterialsBorderRight($id, $name="Border Right", $tech="")
+!procedure MaterialsBorderRight($id, $name="Border Right", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderRight', $name, $tech)
-!endfunction
-!function MaterialsBorderRightCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBorderRightCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBorderRightMd>', 'Border Right', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

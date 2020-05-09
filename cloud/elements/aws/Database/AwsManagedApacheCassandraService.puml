@@ -6,10 +6,10 @@ PUbR_l9q1XD9WWKzdEaZ_W
 
 sprite $AwsManagedApacheCassandraServiceMd [14x14/16z] POx50G0W30DVq0liFo_k75fFU11cXePXKlLq4wy2ZcxPo9HJiOY5wlJLSXHirY704qTT2B7UewSL62EWpAnxJATFlvNzP
 
-!function AwsManagedApacheCassandraService($id, $name="Managed Apache Cassandra Service", $tech="")
+!procedure AwsManagedApacheCassandraService($id, $name="Managed Apache Cassandra Service", $tech="")
   CloudElement($id, 'aws/Database/AwsManagedApacheCassandraService', $name, $tech)
-!endfunction
-!function AwsManagedApacheCassandraServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsManagedApacheCassandraServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsManagedApacheCassandraServiceMd>', 'Managed Apache Cassandra Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

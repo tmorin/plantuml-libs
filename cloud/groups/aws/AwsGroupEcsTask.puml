@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupEcsTaskLg [20x20/16z] VP253G1H348hiF_Ab-z6xZLQ1pFB0oiuznIzvc3kRXtqN90bNrYv4Yp0Hyv9tBEsa3avgs_eN_JF-WQGuWO3XVq6w55PivdnVqDxghp_
 
-!function AwsGroupEcsTask($id, $name="ECS Task", $tech="")
+!procedure AwsGroupEcsTask($id, $name="ECS Task", $tech="")
   CloudGroup($id, "AwsGroupEcsTask", "<$AwsGroupEcsTaskLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupEcsTask>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

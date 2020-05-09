@@ -6,10 +6,10 @@ KDcY9m
 
 sprite $AwsGameTechMd [14x14/16z] LSU55KCn34DHbGJPV-3wd_0Bs1TtNwu-0DlgrnLdAz9IWPATBfSgTv4bYbqoNLTTbjlpTIMjIhfMfSzlzG7mMW5_
 
-!function AwsGameTech($id, $name="Game Tech", $tech="")
+!procedure AwsGameTech($id, $name="Game Tech", $tech="")
   CloudElement($id, 'aws/GameTech/AwsGameTech', $name, $tech)
-!endfunction
-!function AwsGameTechCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGameTechCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGameTechMd>', 'Game Tech', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

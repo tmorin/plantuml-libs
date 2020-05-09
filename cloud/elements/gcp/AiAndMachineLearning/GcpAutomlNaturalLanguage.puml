@@ -6,10 +6,10 @@ RP050iGW30G39Blv_uUHhSlSjOqCQgBis4d5IRLTGfvWLprl-ARnNgF4M67u18hM0ak3dLrMCspV0902
 
 sprite $GcpAutomlNaturalLanguageMd [14x14/16z] LOx70K01344Z1Vil_7jzfrH41Ee0iGFgW4VRlkYjITaaPIiZnYQ0jZrHihAEdRKr7gZRn-tnvMw1rz8YAstNhk86zXLF1vqg-NMVEzdnZ8X_wXK
 
-!function GcpAutomlNaturalLanguage($id, $name="Automl Natural Language", $tech="")
+!procedure GcpAutomlNaturalLanguage($id, $name="Automl Natural Language", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAutomlNaturalLanguage', $name, $tech)
-!endfunction
-!function GcpAutomlNaturalLanguageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAutomlNaturalLanguageCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAutomlNaturalLanguageMd>', 'Automl Natural Language', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsMenuLg [20x20/16z] Ow0-O4G1O25cBauamCKC4cDYGm5Cf5Z1p842cB6AaG0m
 
 sprite $MaterialsMenuMd [14x14/16z] Oo0UCBB00IEGnye61QoC62fPuO0HZOS2K4r1iu5u
 
-!function MaterialsMenu($id, $name="Menu", $tech="")
+!procedure MaterialsMenu($id, $name="Menu", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsMenu', $name, $tech)
-!endfunction
-!function MaterialsMenuCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMenuCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMenuMd>', 'Menu', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

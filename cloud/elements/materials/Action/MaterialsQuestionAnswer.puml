@@ -3,10 +3,10 @@ sprite $MaterialsQuestionAnswerLg [20x20/16z] fSZ50GCn300mEypPVzgoeNIef-0der2rqL
 
 sprite $MaterialsQuestionAnswerMd [14x14/16z] XST50G1140EmJfVPlzfZnlo2C-rcPffhCt-Puc7YtS-grIE5QLeuYyC8NSkaEGn4JqoPjjAdWJZh0G
 
-!function MaterialsQuestionAnswer($id, $name="Question Answer", $tech="")
+!procedure MaterialsQuestionAnswer($id, $name="Question Answer", $tech="")
   CloudElement($id, 'materials/Action/MaterialsQuestionAnswer', $name, $tech)
-!endfunction
-!function MaterialsQuestionAnswerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsQuestionAnswerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsQuestionAnswerMd>', 'Question Answer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

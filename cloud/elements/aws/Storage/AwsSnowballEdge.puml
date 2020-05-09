@@ -3,10 +3,10 @@ sprite $AwsSnowballEdgeLg [20x20/16z] fT2r0O0m04JHvYpxBypXsl7nXsVyAxgq6Gb0eBhXXe
 
 sprite $AwsSnowballEdgeMd [14x14/16z] VOod0G0n30EHJlR-0t-92ymnrRnYAE9N6ZZAWKHG2lo1IfN9Pc30zLAYCklNrA0moBa4aNTU
 
-!function AwsSnowballEdge($id, $name="Snowball Edge", $tech="")
+!procedure AwsSnowballEdge($id, $name="Snowball Edge", $tech="")
   CloudElement($id, 'aws/Storage/AwsSnowballEdge', $name, $tech)
-!endfunction
-!function AwsSnowballEdgeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSnowballEdgeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSnowballEdgeMd>', 'Snowball Edge', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

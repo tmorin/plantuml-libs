@@ -9,10 +9,10 @@ LOu54WHG248TledS_xhR-QPCmCnGt6N1xZWdtNFezsOJqHt8TGFpK3TuagW1zQ0nnGXfColIW-ijfTaP
 U2RxItq5
 }
 
-!function AzurePerformance($id, $name="Performance", $tech="")
+!procedure AzurePerformance($id, $name="Performance", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePerformance', $name, $tech)
-!endfunction
-!function AzurePerformanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzurePerformanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzurePerformanceMd>', 'Performance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

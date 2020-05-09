@@ -3,10 +3,10 @@ sprite $AwsStorageGatewayNonCachedVolumeLg [20x20/16z] vT253G0n34FHf8RzDpueTuP-a
 
 sprite $AwsStorageGatewayNonCachedVolumeMd [14x14/16z] nKa50S0m30lwj_mFBQmG17E7WCmzrk_-NwCtZatAvKmPiEZV_KL_qa_41m
 
-!function AwsStorageGatewayNonCachedVolume($id, $name="Storage Gateway Non Cached Volume", $tech="")
+!procedure AwsStorageGatewayNonCachedVolume($id, $name="Storage Gateway Non Cached Volume", $tech="")
   CloudElement($id, 'aws/Storage/AwsStorageGatewayNonCachedVolume', $name, $tech)
-!endfunction
-!function AwsStorageGatewayNonCachedVolumeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsStorageGatewayNonCachedVolumeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsStorageGatewayNonCachedVolumeMd>', 'Storage Gateway Non Cached Volume', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

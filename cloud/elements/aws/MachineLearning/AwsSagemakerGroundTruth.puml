@@ -6,10 +6,10 @@ xNFlcJdNlEjvtWi
 
 sprite $AwsSagemakerGroundTruthMd [14x14/16z] XOr90eKm34B_L-6Htl--Jh7hiaeOnm95Gir7sFXxCOI3blmef4LiHXHuFx1SRckvhEVj6j2-YymvtQ2bZZ9Mk
 
-!function AwsSagemakerGroundTruth($id, $name="Sagemaker Ground Truth", $tech="")
+!procedure AwsSagemakerGroundTruth($id, $name="Sagemaker Ground Truth", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsSagemakerGroundTruth', $name, $tech)
-!endfunction
-!function AwsSagemakerGroundTruthCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSagemakerGroundTruthCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSagemakerGroundTruthMd>', 'Sagemaker Ground Truth', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

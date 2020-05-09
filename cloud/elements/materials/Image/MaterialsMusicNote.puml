@@ -3,10 +3,10 @@ sprite $MaterialsMusicNoteLg [20x20/16z] fSYt0SD02030pqzc_sbjgOH6wSehZ_KnHaz7xex
 
 sprite $MaterialsMusicNoteMd [14x14/16z] ROwr0G0W30Hnb_stfI9-NUJ5MVWGF4vzdqIcEIEPwADhTA2J3x5x6Dez4wPuxrri6gWhQoRQopkB1m
 
-!function MaterialsMusicNote($id, $name="Music Note", $tech="")
+!procedure MaterialsMusicNote($id, $name="Music Note", $tech="")
   CloudElement($id, 'materials/Image/MaterialsMusicNote', $name, $tech)
-!endfunction
-!function MaterialsMusicNoteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMusicNoteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMusicNoteMd>', 'Music Note', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

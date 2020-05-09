@@ -3,10 +3,10 @@ sprite $MaterialsCheckBoxLg [20x20/16z] ZT2r0G0n30H1CqF_rPhvSRERJ0B_GsG9LJ9-oHGa
 
 sprite $MaterialsCheckBoxMd [14x14/16z] NSx70S0W34DHUXVUVzi4i9toR-yacL_MSNQXWgit7MY73gT2S9srODDOwY5l49Q6jtdX2CER1HQDi22YELdVzU-pRnS
 
-!function MaterialsCheckBox($id, $name="Check Box", $tech="")
+!procedure MaterialsCheckBox($id, $name="Check Box", $tech="")
   CloudElement($id, 'materials/Toggle/MaterialsCheckBox', $name, $tech)
-!endfunction
-!function MaterialsCheckBoxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCheckBoxCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCheckBoxMd>', 'Check Box', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

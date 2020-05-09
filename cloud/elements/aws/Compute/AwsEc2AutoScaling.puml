@@ -3,10 +3,10 @@ sprite $AwsEc2AutoScalingLg [20x20/16z] VP350SH05489bluxNjUHT_mAO4SobDpwhqHT8VwG
 
 sprite $AwsEc2AutoScalingMd [14x14/16z] bOwr0S00409vPF-HuqQPgru17CpWPP9FIubuuTlKZc2a4DmRMm8acztLvH-7JjQfLm
 
-!function AwsEc2AutoScaling($id, $name="Ec2 Auto Scaling", $tech="")
+!procedure AwsEc2AutoScaling($id, $name="Ec2 Auto Scaling", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2AutoScaling', $name, $tech)
-!endfunction
-!function AwsEc2AutoScalingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2AutoScalingCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2AutoScalingMd>', 'Ec2 Auto Scaling', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

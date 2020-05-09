@@ -6,10 +6,10 @@ hOv50W8m30IHPgt_VozQkyESufFyWvxopeGtz54JvDXybsQrldqrTRTHnA0SCwFchmCc-zp5tAtA00iI
 
 sprite $AwsAuroraMd [14x14/16z] XKp50SH047ejTltNUqb6tZikG2vcHvoPPQxv9pZMcQyeKh1SFtvC4AbVqK1gVmOI77ygP55BzgiMYpT4nSh57W
 
-!function AwsAurora($id, $name="Aurora", $tech="")
+!procedure AwsAurora($id, $name="Aurora", $tech="")
   CloudElement($id, 'aws/Database/AwsAurora', $name, $tech)
-!endfunction
-!function AwsAuroraCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAuroraCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAuroraMd>', 'Aurora', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

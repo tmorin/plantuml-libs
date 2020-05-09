@@ -6,10 +6,10 @@ hSYtWGH130GnPzYYc7-yBq_R2nDSeT9764Kk3zKCrXplunHxII7X9ZDTO2qziYMusF9j158aezFR7H4h
 
 sprite $AwsCodestarMd [14x14/16z] XOot0G0n20Chk0FlF-_duCvgGB6NA9nU2SVDCcsh7bSElu4hQ6DYU5cXI5i7kIB7ywpU2oOt6mP2zGEFTuaT
 
-!function AwsCodestar($id, $name="Codestar", $tech="")
+!procedure AwsCodestar($id, $name="Codestar", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodestar', $name, $tech)
-!endfunction
-!function AwsCodestarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCodestarCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCodestarMd>', 'Codestar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

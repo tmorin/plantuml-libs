@@ -6,10 +6,10 @@ WIQ5nZ0Q8qiE7r2rgPtuX7PUVI2fh0Q3qhyy0oSUycU1IEaA20dztlq3
 
 sprite $AzureAppServicesMd [14x14/16z] FOw70G0X3093o_uZFtwp0wTcPZ3UZJ2dCKHYyGXaAnk0U5K9TuVWO82QkwhV88LF65IvVbtjhtmZgb9LMKeSQsW_1bWApPEpyRa4u2scqYUvfV9LVG4
 
-!function AzureAppServices($id, $name="App Services", $tech="")
+!procedure AzureAppServices($id, $name="App Services", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureAppServices', $name, $tech)
-!endfunction
-!function AzureAppServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAppServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAppServicesMd>', 'App Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

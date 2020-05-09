@@ -6,10 +6,10 @@ NeEXbb83MutU2ssCbgsNrJCmUbwpWT9aXqySBAx-mmu
 
 sprite $MaterialsChildCareMd [14x14/16z] POw55G0n24E1F1hsNnWvbr_58t_KJ2_3e_7384t4o3t2mpdH5IgGtXfBq8QwzcuJOnsqDPd6nYPpkYWYeFHpWaxyD_rMzgS
 
-!function MaterialsChildCare($id, $name="Child Care", $tech="")
+!procedure MaterialsChildCare($id, $name="Child Care", $tech="")
   CloudElement($id, 'materials/Places/MaterialsChildCare', $name, $tech)
-!endfunction
-!function MaterialsChildCareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsChildCareCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsChildCareMd>', 'Child Care', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupRegionLg [20x20/16z] hOtL0SLG24EVG6J_WUlEJ-rSnH9VGQgvY9hBh3d-S-JFDOVnHVYOKwZadDpaKkmG_bfpaHF5O-Nz72Dup8cKRz02
 
-!function AwsGroupRegion($id, $name="Region", $tech="")
+!procedure AwsGroupRegion($id, $name="Region", $tech="")
   CloudGroup($id, "AwsGroupRegion", "<$AwsGroupRegionLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupRegion>> {
   StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
   BorderThickness 1

@@ -6,10 +6,10 @@ kdJ0HIHnBFm
 
 sprite $AzureResourceMd [13x14/16z] JOx50G1120CXHlyLdylE1oUfWrRKTSFCJ7YcyDmOLPeN5TvHK1sXcFEamIJgHXV8iuYlzbF4P_yjz1HU2ZJz5hYTdJTut45rfpi
 
-!function AzureResource($id, $name="Resource", $tech="")
+!procedure AzureResource($id, $name="Resource", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureResource', $name, $tech)
-!endfunction
-!function AzureResourceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureResourceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureResourceMd>', 'Resource', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

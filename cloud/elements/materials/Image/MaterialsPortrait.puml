@@ -3,10 +3,10 @@ sprite $MaterialsPortraitLg [20x20/16z] ZP054WH120CNEuCf_l_QynstBaUJ7FiWP-2lPAOH
 
 sprite $MaterialsPortraitMd [14x14/16z] NOw54G0W30Dfapjq_tLnVxGUyo4waMPuD_7LL2Spnscpwa-rNilIbFHOufmSouYSJA6rb6N1LJ0jcJJhcVugUoa
 
-!function MaterialsPortrait($id, $name="Portrait", $tech="")
+!procedure MaterialsPortrait($id, $name="Portrait", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPortrait', $name, $tech)
-!endfunction
-!function MaterialsPortraitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPortraitCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPortraitMd>', 'Portrait', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ OwzjHmiZU0JQlXvDiWXJFtcHzvrmHtRUnPmOr3oe79Wl6IgLBw4ElZoFGH8VlidnztW6
 
 sprite $MaterialsDirectionsBikeMd [14x14/16z] LOS50WGn2CHcyFF___PMgcc111rY8Mj9reFJIvRuFKjw-IzfZsYbxyEeFDGYJ9yAFIxSG5S_Fc6Um947F2IJW9mb0DESZCCaI3Te-157UYXs_W
 
-!function MaterialsDirectionsBike($id, $name="Directions Bike", $tech="")
+!procedure MaterialsDirectionsBike($id, $name="Directions Bike", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsBike', $name, $tech)
-!endfunction
-!function MaterialsDirectionsBikeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsBikeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsBikeMd>', 'Directions Bike', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

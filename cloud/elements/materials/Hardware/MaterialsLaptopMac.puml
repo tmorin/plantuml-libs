@@ -3,10 +3,10 @@ sprite $MaterialsLaptopMacLg [20x20/16z] pSYr0KKn3CLG-uPv_sa3dLDzU7WwYRu6lS5S77C
 
 sprite $MaterialsLaptopMacMd [14x14/16z] bOo53S1030EjjqB5_QSjC_V2Y0DfeIiaV284C6A2rbLfEVbH7R-eYUYWhg1MTLsBTAvIKcIUYH0Fj
 
-!function MaterialsLaptopMac($id, $name="Laptop Mac", $tech="")
+!procedure MaterialsLaptopMac($id, $name="Laptop Mac", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsLaptopMac', $name, $tech)
-!endfunction
-!function MaterialsLaptopMacCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLaptopMacCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLaptopMacMd>', 'Laptop Mac', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

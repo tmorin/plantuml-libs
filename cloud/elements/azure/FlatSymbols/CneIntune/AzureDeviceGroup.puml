@@ -3,10 +3,10 @@ sprite $AzureDeviceGroupLg [20x20/16z] fSZ50GCn3011CVPVRnZaV7AmHWtPJugWwMl9O0vB6
 
 sprite $AzureDeviceGroupMd [14x14/16z] NOg50G0n20EB1Dr_tdVjLI02Vy5mi9om-d0UDsItsWiAlfGv0BDRoVR9h9HtBcMv4tugEhcoSJ8f0-2Fwl9glvIwcxkk
 
-!function AzureDeviceGroup($id, $name="Device Group", $tech="")
+!procedure AzureDeviceGroup($id, $name="Device Group", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceGroup', $name, $tech)
-!endfunction
-!function AzureDeviceGroupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDeviceGroupCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDeviceGroupMd>', 'Device Group', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

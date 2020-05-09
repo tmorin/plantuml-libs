@@ -3,10 +3,10 @@ sprite $MaterialsWbCloudyLg [20x20/16z] fS_50G0X30J0nJNP_gizztioFuXZd74XE8CdNxce
 
 sprite $MaterialsWbCloudyMd [14x14/16z] XSUr0OH0503HrU_IVxLtE4JmefdofS_PpwuOcO7rcDp0EbDpPssPo9D2rNm0UvxXywJIFTfB7VFKofi_
 
-!function MaterialsWbCloudy($id, $name="Wb Cloudy", $tech="")
+!procedure MaterialsWbCloudy($id, $name="Wb Cloudy", $tech="")
   CloudElement($id, 'materials/Image/MaterialsWbCloudy', $name, $tech)
-!endfunction
-!function MaterialsWbCloudyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWbCloudyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWbCloudyMd>', 'Wb Cloudy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

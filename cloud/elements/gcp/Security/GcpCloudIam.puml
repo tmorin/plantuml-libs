@@ -6,10 +6,10 @@ hRI4pjjKIcVDkxSzWpqhnr-cxdUcM_OT
 
 sprite $GcpCloudIamMd [14x14/16z] JKw50G112C9s_ucVlswB020sbZ1aaZLMZjHxBMUYnI2JJoaGZ4t4c0UCBKK4b4shCU7EZ16pDirKwzMCcBSDV2jY93aLQYYqlkfndN5W6RskFm
 
-!function GcpCloudIam($id, $name="Cloud Iam", $tech="")
+!procedure GcpCloudIam($id, $name="Cloud Iam", $tech="")
   CloudElement($id, 'gcp/Security/GcpCloudIam', $name, $tech)
-!endfunction
-!function GcpCloudIamCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudIamCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudIamMd>', 'Cloud Iam', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

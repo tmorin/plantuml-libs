@@ -3,10 +3,10 @@ sprite $MaterialsViewWeekLg [20x20/16z] rKyd0i10328JL_x_syPNTjrbi1nuUgp9X9CCnA1F
 
 sprite $MaterialsViewWeekMd [14x14/16z] Oy0B61aHc86DcuEHbPkJaGM86HZO-RaOsVXv65dvUPcemqEr0TLsl
 
-!function MaterialsViewWeek($id, $name="View Week", $tech="")
+!procedure MaterialsViewWeek($id, $name="View Week", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewWeek', $name, $tech)
-!endfunction
-!function MaterialsViewWeekCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewWeekCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewWeekMd>', 'View Week', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

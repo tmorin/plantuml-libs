@@ -6,10 +6,10 @@ hOv75W9024Cj_92v_u4j83xscaqAzVm62xUI9fDIBI0_MO9Q13uJYch9YWPWG-peu3er9_Qz5PhTFp9T
 
 sprite $AwsIot1ClickMd [14x14/16z] VOst0G0W408h3jn_OBEMVyr7e9M4h8Bt1AoTk3U1e_Lndv2_yAidvEyc5l1UFIliCa7R_aUSwCnQCG
 
-!function AwsIot1Click($id, $name="Iot1 Click", $tech="")
+!procedure AwsIot1Click($id, $name="Iot1 Click", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIot1Click', $name, $tech)
-!endfunction
-!function AwsIot1ClickCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIot1ClickCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIot1ClickMd>', 'Iot1 Click', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

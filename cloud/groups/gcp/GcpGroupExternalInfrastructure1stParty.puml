@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupExternalInfrastructure1stParty($id, $name="External infrastructure 1st party", $tech="")
+!procedure GcpGroupExternalInfrastructure1stParty($id, $name="External infrastructure 1st party", $tech="")
   CloudGroup($id, "GcpGroupExternalInfrastructure1stParty", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupExternalInfrastructure1stParty>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

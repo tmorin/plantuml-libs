@@ -6,10 +6,10 @@ Y2q
 
 sprite $AwsDataPipelineMd [14x14/16z] XSc53SH034HHWJtKVy4t5n8dR_7B-MJdOUxIJ-tCNaM8dGbCeOEQGOgKI-HLgQkmY-gTme3L9sNb8EVL3m
 
-!function AwsDataPipeline($id, $name="Data Pipeline", $tech="")
+!procedure AwsDataPipeline($id, $name="Data Pipeline", $tech="")
   CloudElement($id, 'aws/Analytics/AwsDataPipeline', $name, $tech)
-!endfunction
-!function AwsDataPipelineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDataPipelineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDataPipelineMd>', 'Data Pipeline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

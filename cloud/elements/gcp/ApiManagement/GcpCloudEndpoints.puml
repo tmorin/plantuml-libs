@@ -6,10 +6,10 @@ u3aho6scmCpqPVPV
 
 sprite $GcpCloudEndpointsMd [14x14/16z] JOw50G0W408n7jX_OZlE_0P0AfC438EQS9hLczgDh6Cf0-5BeFGG-n7x6KPKHh14DvzrWkp7xAVyNVXFSFwdnrDcQmjzgXi
 
-!function GcpCloudEndpoints($id, $name="Cloud Endpoints", $tech="")
+!procedure GcpCloudEndpoints($id, $name="Cloud Endpoints", $tech="")
   CloudElement($id, 'gcp/ApiManagement/GcpCloudEndpoints', $name, $tech)
-!endfunction
-!function GcpCloudEndpointsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudEndpointsCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudEndpointsMd>', 'Cloud Endpoints', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

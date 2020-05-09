@@ -3,10 +3,10 @@ sprite $MaterialsUnfoldLessLg [20x20/16z] Ow0OC3A1I2P6P34M7XOmWQAEZOU5XOUD4LKt6o
 
 sprite $MaterialsUnfoldLessMd [14x14/16z] Oo0069aO69WOOJmcJcPcJYQu93CN5pEIMYOc0ePXgaIOWca3mdO2
 
-!function MaterialsUnfoldLess($id, $name="Unfold Less", $tech="")
+!procedure MaterialsUnfoldLess($id, $name="Unfold Less", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsUnfoldLess', $name, $tech)
-!endfunction
-!function MaterialsUnfoldLessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsUnfoldLessCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsUnfoldLessMd>', 'Unfold Less', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

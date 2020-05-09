@@ -9,10 +9,10 @@ BOi75WGX24E3AU3zBxoCRx-L502bT4U5ZvE8L7A-eKNPUpLH4Vj1kfJ_C0BLrZp2qafvVp7Hz3cs16Hs
 UUuTrtv_
 }
 
-!function BrandSyncthing($id, $name="Syncthing", $tech="")
+!procedure BrandSyncthing($id, $name="Syncthing", $tech="")
   PersoElement($id, 'brand/BrandSyncthing', $name, $tech)
-!endfunction
-!function BrandSyncthingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandSyncthingCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandSyncthingMd>', 'Syncthing', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

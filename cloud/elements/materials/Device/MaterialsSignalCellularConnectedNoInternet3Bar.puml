@@ -3,10 +3,10 @@ sprite $MaterialsSignalCellularConnectedNoInternet3BarLg [20x20/16z] dSk53O0034J
 
 sprite $MaterialsSignalCellularConnectedNoInternet3BarMd [14x14/16z] ZSc53SDG301HizlW_jD-Hc5E-7JmBSGLj8XfUV97m87xZsG3Rv8tNEzKEbK3IKW3IP14NZCaXRq8
 
-!function MaterialsSignalCellularConnectedNoInternet3Bar($id, $name="Signal Cellular Connected No Internet3 Bar", $tech="")
+!procedure MaterialsSignalCellularConnectedNoInternet3Bar($id, $name="Signal Cellular Connected No Internet3 Bar", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalCellularConnectedNoInternet3Bar', $name, $tech)
-!endfunction
-!function MaterialsSignalCellularConnectedNoInternet3BarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSignalCellularConnectedNoInternet3BarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSignalCellularConnectedNoInternet3BarMd>', 'Signal Cellular Connected No Internet3 Bar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

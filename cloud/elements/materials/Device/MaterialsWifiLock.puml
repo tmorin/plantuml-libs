@@ -6,10 +6,10 @@ oBuD6SzZl6IIvopooiOBQyquo707OlRUwyLebGj-0G
 
 sprite $MaterialsWifiLockMd [14x14/16z] NOu74WCn308HLh2k__-tYVlaTfegW3TqvIndgLDSJ-MA1DtFv1QFrHs4ZsLyogTQamq5YzASDFSogA-x9MCgMxzB9ocNhhpAzjz5VmrR7KYWnCCVNm
 
-!function MaterialsWifiLock($id, $name="Wifi Lock", $tech="")
+!procedure MaterialsWifiLock($id, $name="Wifi Lock", $tech="")
   CloudElement($id, 'materials/Device/MaterialsWifiLock', $name, $tech)
-!endfunction
-!function MaterialsWifiLockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWifiLockCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWifiLockMd>', 'Wifi Lock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsDatabaseLg [20x20/16z] VSzN0i8W08DXPmRS_xw6FZMe_Rh_BhZzTDyaFUI2UvhdY1
 
 sprite $AwsDatabaseMd [14x14/16z] TSs50S0m2031ZsBxxrltvk82y5JxgK0F3v_DKvjFyqvdVfn4pLIEawv6R_FfUXDL-RvzAvpcKscd0gGJJ
 
-!function AwsDatabase($id, $name="Database", $tech="")
+!procedure AwsDatabase($id, $name="Database", $tech="")
   CloudElement($id, 'aws/Database/AwsDatabase', $name, $tech)
-!endfunction
-!function AwsDatabaseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDatabaseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDatabaseMd>', 'Database', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

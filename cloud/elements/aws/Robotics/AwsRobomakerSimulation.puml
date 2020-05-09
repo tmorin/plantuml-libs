@@ -6,10 +6,10 @@ PjHLHKQfdLmEim_DyfMRqEgc-JtYLn_Rhj9t63m3VW3VS08
 
 sprite $AwsRobomakerSimulationMd [14x14/16z] LSo30G0n30NGVEw_yPclRZ0_agn7pQQND0ukPBOvbxZs_gB82aUCgkC8Uqo1kS_f5Wic91sLYkt6PdHqmMus0e87RSaNpSyA
 
-!function AwsRobomakerSimulation($id, $name="Robomaker Simulation", $tech="")
+!procedure AwsRobomakerSimulation($id, $name="Robomaker Simulation", $tech="")
   CloudElement($id, 'aws/Robotics/AwsRobomakerSimulation', $name, $tech)
-!endfunction
-!function AwsRobomakerSimulationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRobomakerSimulationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRobomakerSimulationMd>', 'Robomaker Simulation', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

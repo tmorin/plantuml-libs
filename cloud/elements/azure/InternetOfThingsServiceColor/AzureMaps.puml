@@ -6,10 +6,10 @@ J9SLOyeFZHq
 
 sprite $AzureMapsMd [11x14/16z] FOs50G0W20JfsdzVMywWURWmV4Znkshqoswl0zrDNdcvjvbzSPhHjdkQnG-hcRQDJDrbOvGiHnOwSf6jZMxGlam
 
-!function AzureMaps($id, $name="Maps", $tech="")
+!procedure AzureMaps($id, $name="Maps", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureMaps', $name, $tech)
-!endfunction
-!function AzureMapsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMapsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMapsMd>', 'Maps', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

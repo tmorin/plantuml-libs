@@ -6,10 +6,10 @@ nioC922HXXrdeupVE37MqWTVjycFkZlb5tRK3plg7n6rVtDq2VY7BoKl
 
 sprite $AzureArchiveStorageMd [15x14/16z] HSk54GCm20NGE_WIeFlFMr9zKGmPaR4IaSdMFbo1WAV515T-Gu0BJ9xfSwYpQBWVRP6IB4DRjINRnrkl6rvd-ORdghUU9XRVD8NuuplCjniIu0SqtFcVrXC
 
-!function AzureArchiveStorage($id, $name="Archive Storage", $tech="")
+!procedure AzureArchiveStorage($id, $name="Archive Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureArchiveStorage', $name, $tech)
-!endfunction
-!function AzureArchiveStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureArchiveStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureArchiveStorageMd>', 'Archive Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

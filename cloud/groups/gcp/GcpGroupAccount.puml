@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupAccount($id, $name="Account", $tech="")
+!procedure GcpGroupAccount($id, $name="Account", $tech="")
   CloudGroup($id, "GcpGroupAccount", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupAccount>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

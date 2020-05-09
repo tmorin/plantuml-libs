@@ -3,10 +3,10 @@ sprite $MaterialsRemoveFromQueueLg [20x20/16z] bT235S0m403GOupzfwtj_eSu1_WAvG01N
 
 sprite $MaterialsRemoveFromQueueMd [14x14/16z] PSl50GGn509G86xzbxio4dsdBu0LrH5AiKko0LsmrgFpzyQVlYd-wDcwOmliWlrtKlv9TvSqjRLgIDpqWzCN
 
-!function MaterialsRemoveFromQueue($id, $name="Remove From Queue", $tech="")
+!procedure MaterialsRemoveFromQueue($id, $name="Remove From Queue", $tech="")
   CloudElement($id, 'materials/Av/MaterialsRemoveFromQueue', $name, $tech)
-!endfunction
-!function MaterialsRemoveFromQueueCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveFromQueueCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveFromQueueMd>', 'Remove From Queue', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

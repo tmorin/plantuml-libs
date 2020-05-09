@@ -6,10 +6,10 @@ gTiJdw3awrSiVzbwEG8
 
 sprite $AwsEventbridgeMd [14x14/16z] TSwd0GG008D0bmJst_TxB-Tm-8dnKcrOvzKIMO9da8rUSpDjbwZ4LJl2kNWfavv4vaaJjWpFQ8PDlLfdcxzxLqS
 
-!function AwsEventbridge($id, $name="Eventbridge", $tech="")
+!procedure AwsEventbridge($id, $name="Eventbridge", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsEventbridge', $name, $tech)
-!endfunction
-!function AwsEventbridgeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEventbridgeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEventbridgeMd>', 'Eventbridge', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

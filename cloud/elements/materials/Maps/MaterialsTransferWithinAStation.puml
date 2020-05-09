@@ -6,10 +6,10 @@ _3CRdBJHhuxNEY_qitdUScPu-XkfgaN-4JLRB7zJ_6TS9IKfonr2-rMKzdm
 
 sprite $MaterialsTransferWithinAStationMd [14x14/16z] JSwr0GHH3CHGUSOV3zn_jSUmobucdWM7lFEeyq6HvflwhldJwBEg_UHPVKo_PUyI_WYTpoE83tDecroz9z0RtQ3tqVHJoXo6MF6ItGKOzDs-0m
 
-!function MaterialsTransferWithinAStation($id, $name="Transfer Within A Station", $tech="")
+!procedure MaterialsTransferWithinAStation($id, $name="Transfer Within A Station", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTransferWithinAStation', $name, $tech)
-!endfunction
-!function MaterialsTransferWithinAStationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTransferWithinAStationCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTransferWithinAStationMd>', 'Transfer Within A Station', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

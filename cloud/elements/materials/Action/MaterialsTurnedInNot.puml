@@ -3,10 +3,10 @@ sprite $MaterialsTurnedInNotLg [20x20/16z] rOg53S10202Byxx_j7MD4-_X5wO8n2TqA-crx
 
 sprite $MaterialsTurnedInNotMd [14x14/16z] jOV50G0n3CF2iF_0nrZwLG5RK89qWATv7FWX63WZK0HlIm-py3pDTKjKHnYo0W
 
-!function MaterialsTurnedInNot($id, $name="Turned In Not", $tech="")
+!procedure MaterialsTurnedInNot($id, $name="Turned In Not", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTurnedInNot', $name, $tech)
-!endfunction
-!function MaterialsTurnedInNotCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTurnedInNotCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTurnedInNotMd>', 'Turned In Not', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

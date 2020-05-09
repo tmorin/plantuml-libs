@@ -9,10 +9,10 @@ POe73WGX30DJgKR-_sylQ4yLI1jhv7cMlQd-mK5c83-mnM6Jl6Y8E9u7M2QIN1QY7X55dMnNMHkr6tOf
 q-HvFm
 }
 
-!function MaterialsCamera($id, $name="Camera", $tech="")
+!procedure MaterialsCamera($id, $name="Camera", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCamera', $name, $tech)
-!endfunction
-!function MaterialsCameraCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCameraCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCameraMd>', 'Camera', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

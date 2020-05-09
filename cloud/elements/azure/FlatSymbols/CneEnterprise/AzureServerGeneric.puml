@@ -3,10 +3,10 @@ sprite $AzureServerGenericLg [10x20/16z] u-A10Y033hYvm82RXuU36GmuW69Gm4D3WB03OIy
 
 sprite $AzureServerGenericMd [7x14/16z] u-O10MuURY00acoihAniG34I0JS7Epix1pStEniR6pkCWie1
 
-!function AzureServerGeneric($id, $name="Server Generic", $tech="")
+!procedure AzureServerGeneric($id, $name="Server Generic", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerGeneric', $name, $tech)
-!endfunction
-!function AzureServerGenericCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServerGenericCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServerGenericMd>', 'Server Generic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

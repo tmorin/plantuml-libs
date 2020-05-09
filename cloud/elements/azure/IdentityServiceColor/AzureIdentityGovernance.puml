@@ -9,10 +9,10 @@ DST50GH140ImBXpmB_Xmyyj0PDzCSIOE2T3B8O9eW45XeGsqjyODR61wRm5IvSpudE3T5ZF86v_v9CVV
 j_SnBm
 }
 
-!function AzureIdentityGovernance($id, $name="Identity Governance", $tech="")
+!procedure AzureIdentityGovernance($id, $name="Identity Governance", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureIdentityGovernance', $name, $tech)
-!endfunction
-!function AzureIdentityGovernanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIdentityGovernanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIdentityGovernanceMd>', 'Identity Governance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

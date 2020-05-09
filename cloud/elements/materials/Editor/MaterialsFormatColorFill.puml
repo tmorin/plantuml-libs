@@ -6,10 +6,10 @@ u_juGmS
 
 sprite $MaterialsFormatColorFillMd [14x14/16z] VOh50G0X0CDQtDb_sXFyHNvj0e26ED3sd38TKtYf--nZnmoQf72cEviQgY_QMclMK7hERy17zcd-J1jS4HTU
 
-!function MaterialsFormatColorFill($id, $name="Format Color Fill", $tech="")
+!procedure MaterialsFormatColorFill($id, $name="Format Color Fill", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatColorFill', $name, $tech)
-!endfunction
-!function MaterialsFormatColorFillCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatColorFillCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatColorFillMd>', 'Format Color Fill', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

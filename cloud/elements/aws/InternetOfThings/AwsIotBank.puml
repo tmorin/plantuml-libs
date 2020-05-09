@@ -6,10 +6,10 @@ XX_CC_s3GSlYYM52dt4vRUxkueaz5-bt5-2b6Ea5L6vg0yZzZBeUu4DK_DUhtptzg_Tl
 
 sprite $AwsIotBankMd [14x14/16z] NOw50SC040BXWEw_STsITtyaOG2Z1x6kNSSZAP00HGo95Zr2DsdiFBnPXa3Fm8Ne4WNgLzQzClRBdfEDRANFNj8d9KCqRoedP4VKDm
 
-!function AwsIotBank($id, $name="Iot Bank", $tech="")
+!procedure AwsIotBank($id, $name="Iot Bank", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotBank', $name, $tech)
-!endfunction
-!function AwsIotBankCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotBankCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotBankMd>', 'Iot Bank', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureExchangeOnPremisesAccessLg [12x20/16z] VOs5SGC030FF9F3--xPXJlx88D0D
 
 sprite $AzureExchangeOnPremisesAccessMd [8x14/16z] JKg53S0024i6DVx_TsvepLUDcm0xAdQpOagEno1bZXOsTEYsetc-IZZqq3fol-B5KfNlRm
 
-!function AzureExchangeOnPremisesAccess($id, $name="Exchange On Premises Access", $tech="")
+!procedure AzureExchangeOnPremisesAccess($id, $name="Exchange On Premises Access", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureExchangeOnPremisesAccess', $name, $tech)
-!endfunction
-!function AzureExchangeOnPremisesAccessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureExchangeOnPremisesAccessCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureExchangeOnPremisesAccessMd>', 'Exchange On Premises Access', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
 
 sprite $MaterialsAccessTimeMd [14x14/16z] PKw54S1022j-xBzmy-w6HRvdiKKOzyJIHF2q9AXy52NbH2ACDF5OAIc26eMCJA9dubIoFlcnIuagIrbKM2w5fNuvkzSF
 
-!function MaterialsAccessTime($id, $name="Access Time", $tech="")
+!procedure MaterialsAccessTime($id, $name="Access Time", $tech="")
   CloudElement($id, 'materials/Device/MaterialsAccessTime', $name, $tech)
-!endfunction
-!function MaterialsAccessTimeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAccessTimeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAccessTimeMd>', 'Access Time', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

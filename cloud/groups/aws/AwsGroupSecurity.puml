@@ -1,7 +1,7 @@
 @startuml
-!function AwsGroupSecurity($id, $name="Security", $tech="")
+!procedure AwsGroupSecurity($id, $name="Security", $tech="")
   CloudGroup($id, "AwsGroupSecurity", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupSecurity>> {
   StereotypeFontColor $AWS_COLOR_RED
   BorderThickness 1

@@ -3,10 +3,10 @@ sprite $AwsVpcSubnetPublicLg [20x20/16z] hSg53SD044HHmT9C__twcCN9ju-Ubdy8xhWer4p
 
 sprite $AwsVpcSubnetPublicMd [14x14/16z] XSct5S1G38NGwWlqzj_NEJGETFUGlnhwHcbTb0IlDM2S4rJXa5tLlYYGIxGsXsJBV3S3
 
-!function AwsVpcSubnetPublic($id, $name="Vpc Subnet Public", $tech="")
+!procedure AwsVpcSubnetPublic($id, $name="Vpc Subnet Public", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsVpcSubnetPublic', $name, $tech)
-!endfunction
-!function AwsVpcSubnetPublicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcSubnetPublicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcSubnetPublicMd>', 'Vpc Subnet Public', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

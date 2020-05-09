@@ -6,10 +6,10 @@ bP053WGX34MdYiFzRxl18SJsZ_Bg_VuK41F2HJIa69FZZT179KGooS3qyWxx7qSTJ4D5s62Y7XcbVhgl
 
 sprite $MaterialsHistoryMd [14x14/16z] RKw50G0X29Jwj_PVrswbcrCF0eGHus-q_gabXa416Su9w5I5NCIKqP_CbrGa1yMqidZ7AUEQmP_hYZbFJa9JVyhyCByVo4wA
 
-!function MaterialsHistory($id, $name="History", $tech="")
+!procedure MaterialsHistory($id, $name="History", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHistory', $name, $tech)
-!endfunction
-!function MaterialsHistoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHistoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHistoryMd>', 'History', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

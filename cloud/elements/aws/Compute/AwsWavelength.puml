@@ -6,10 +6,10 @@ siZe76xsmBdVKpYIP-H0fuJzZHy
 
 sprite $AwsWavelengthMd [14x14/16z] POst0GGm2CGAJiBxB_m1t5aLuS9vQUtJTnO5TfdPxAPMA5QA14BJioKXyMvGWTtKL4MzcIJpsZK_PXdOxal_E2zV
 
-!function AwsWavelength($id, $name="Wavelength", $tech="")
+!procedure AwsWavelength($id, $name="Wavelength", $tech="")
   CloudElement($id, 'aws/Compute/AwsWavelength', $name, $tech)
-!endfunction
-!function AwsWavelengthCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWavelengthCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWavelengthMd>', 'Wavelength', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

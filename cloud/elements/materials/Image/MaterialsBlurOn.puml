@@ -3,10 +3,10 @@ sprite $MaterialsBlurOnLg [20x20/16z] fP053iGm30HNUsDPdF-_zihCxOHZjXxYPbu0SaXXmU
 
 sprite $MaterialsBlurOnMd [14x14/16z] Oo0464482bWPM9YOM80KfXmZ2oCx2mixa09pcS0gWHGc3w6IM1i80G
 
-!function MaterialsBlurOn($id, $name="Blur On", $tech="")
+!procedure MaterialsBlurOn($id, $name="Blur On", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBlurOn', $name, $tech)
-!endfunction
-!function MaterialsBlurOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBlurOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBlurOnMd>', 'Blur On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ ouGj5qmP1xI4hRRSQpEbgmU9pbubmTUUdkCB
 
 sprite $MaterialsNotInterestedMd [14x14/16z] PSx50KGn24LHx4PMwR_QsCpt271M3_aS8sVi3ohkL7veiPhcHQjHVREQ28Z_229vJZzw_cdn9v0VzsHLVuoo8icRqVYaNvjzpW
 
-!function MaterialsNotInterested($id, $name="Not Interested", $tech="")
+!procedure MaterialsNotInterested($id, $name="Not Interested", $tech="")
   CloudElement($id, 'materials/Av/MaterialsNotInterested', $name, $tech)
-!endfunction
-!function MaterialsNotInterestedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNotInterestedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNotInterestedMd>', 'Not Interested', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

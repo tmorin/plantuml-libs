@@ -3,10 +3,10 @@ sprite $MaterialsBrushLg [20x20/16z] jKur0WGX41l39V__xLq9JBMMCaxteEoeYCIEmbH78Nv
 
 sprite $MaterialsBrushMd [14x14/16z] Oy01654u7En874v-3aOa3YSH70Oc7ZY7aPMDaGakmyBFpuPa3pAFYPE7Wmd9NYWR4m
 
-!function MaterialsBrush($id, $name="Brush", $tech="")
+!procedure MaterialsBrush($id, $name="Brush", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBrush', $name, $tech)
-!endfunction
-!function MaterialsBrushCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBrushCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBrushMd>', 'Brush', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

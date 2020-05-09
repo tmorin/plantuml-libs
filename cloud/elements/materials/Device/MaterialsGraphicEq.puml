@@ -3,10 +3,10 @@ sprite $MaterialsGraphicEqLg [20x20/16z] ZL2r0S102Fop-FxhHfguKGAdvMt8wwwkhxkc-Tw
 
 sprite $MaterialsGraphicEqMd [14x14/16z] RKw54S0m22pE_WktZIT_uGnuVIuZibzc6q9c9EDADkDiEusB_eE3saN1S04JN4O2f4Cpd0y
 
-!function MaterialsGraphicEq($id, $name="Graphic Eq", $tech="")
+!procedure MaterialsGraphicEq($id, $name="Graphic Eq", $tech="")
   CloudElement($id, 'materials/Device/MaterialsGraphicEq', $name, $tech)
-!endfunction
-!function MaterialsGraphicEqCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGraphicEqCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGraphicEqMd>', 'Graphic Eq', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

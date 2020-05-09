@@ -6,10 +6,10 @@ Ey_hcyuqVqfVTUMSg-jAEytl_1M7lrW1
 
 sprite $MaterialsRecordVoiceOverMd [14x14/16z] TOr50eGm34MZTRd_RQTDiXhWGVqBVC7egoz5uK2bdPMH6zwxlJT35MnyPEsSvEZi1BhtqMIYJXOcU9EqU2HPQ3v2IdMCNiHwg6r7pJE3ufu0uS4F
 
-!function MaterialsRecordVoiceOver($id, $name="Record Voice Over", $tech="")
+!procedure MaterialsRecordVoiceOver($id, $name="Record Voice Over", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRecordVoiceOver', $name, $tech)
-!endfunction
-!function MaterialsRecordVoiceOverCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRecordVoiceOverCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRecordVoiceOverMd>', 'Record Voice Over', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

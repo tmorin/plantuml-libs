@@ -6,10 +6,10 @@ y2BLg-8VsxqVS6C9cXpr-4k5JPI_klBNemH-
 
 sprite $AwsDefaultEventBusResourceIcon64SquidMd [17x14/16z] JOs50S1030A9xxznwPFAlSO0n7XQhsZ-Yd5ZSRSRTxpzGb4bGhqTo3h9Lg_toZ8js0nGZ2Q2FqObXLKf1f9OaODQP2C-byLJRih7_0bS
 
-!function AwsDefaultEventBusResourceIcon64Squid($id, $name="Default Event Bus Resource Icon64 Squid", $tech="")
+!procedure AwsDefaultEventBusResourceIcon64Squid($id, $name="Default Event Bus Resource Icon64 Squid", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsDefaultEventBusResourceIcon64Squid', $name, $tech)
-!endfunction
-!function AwsDefaultEventBusResourceIcon64SquidCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDefaultEventBusResourceIcon64SquidCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDefaultEventBusResourceIcon64SquidMd>', 'Default Event Bus Resource Icon64 Squid', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

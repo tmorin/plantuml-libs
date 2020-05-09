@@ -6,10 +6,10 @@ AMk9cCDDXMu
 
 sprite $AzureDataCatalogMd [13x14/16z] LOl50O1G34DBDMN_VU6xl5FqSUku476YOyK8tavjz3GyT1hF9an5U7nCL5MOingu5MTzXa2uksGtKGsZqRGJFGMRfd8Pjd0p-G4
 
-!function AzureDataCatalog($id, $name="Data Catalog", $tech="")
+!procedure AzureDataCatalog($id, $name="Data Catalog", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureDataCatalog', $name, $tech)
-!endfunction
-!function AzureDataCatalogCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataCatalogCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataCatalogMd>', 'Data Catalog', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

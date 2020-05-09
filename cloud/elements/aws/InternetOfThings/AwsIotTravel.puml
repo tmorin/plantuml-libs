@@ -6,10 +6,10 @@ DU6kBt-gPnjFXbEukiHm9mcI6Bxb0d1gS1BubWk0hixRLUzMcmS01RYF7Zne_lNgkwU_Udy4
 
 sprite $AwsIotTravelMd [14x14/16z] NOw50GH02CCWJM__aTyLTpepBC0oDw9MQxab0ibLP2YpswochB6UYd6vbrbk8TlS3js6uww9Maxla_P4x7toVZTZdwippQnp2v4O4kGFsI_g2m
 
-!function AwsIotTravel($id, $name="Iot Travel", $tech="")
+!procedure AwsIotTravel($id, $name="Iot Travel", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotTravel', $name, $tech)
-!endfunction
-!function AwsIotTravelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotTravelCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotTravelMd>', 'Iot Travel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

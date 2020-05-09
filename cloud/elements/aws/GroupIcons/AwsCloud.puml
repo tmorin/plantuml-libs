@@ -3,10 +3,10 @@ sprite $AwsCloudLg [20x20/16z] jOot0KGX34CxP0jv_t4l_42cv7MASGXD3W6mjnmKuQsLao922
 
 sprite $AwsCloudMd [14x14/16z] bOkr0G1H24Cx9BB_kEVoMru3COyGe4-mWEAhcuUJnISwRV6IkiJvzF6mlInKu0NwMg0l80_O0G
 
-!function AwsCloud($id, $name="Cloud", $tech="")
+!procedure AwsCloud($id, $name="Cloud", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsCloud', $name, $tech)
-!endfunction
-!function AwsCloudCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudMd>', 'Cloud', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

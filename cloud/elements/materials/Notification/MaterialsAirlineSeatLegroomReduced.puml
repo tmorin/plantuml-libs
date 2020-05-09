@@ -6,10 +6,10 @@ dNjiPihqkJi
 
 sprite $MaterialsAirlineSeatLegroomReducedMd [14x14/16z] NOh70GCn3CD4HSrz_scJN3yRFnAW1O0Prs3NrjAzGiUOLyPxLJUJOydOsMi4Hocr3jzJiuy8PCY-e156Ka4FNWMlrRey2yoqyWC
 
-!function MaterialsAirlineSeatLegroomReduced($id, $name="Airline Seat Legroom Reduced", $tech="")
+!procedure MaterialsAirlineSeatLegroomReduced($id, $name="Airline Seat Legroom Reduced", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatLegroomReduced', $name, $tech)
-!endfunction
-!function MaterialsAirlineSeatLegroomReducedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirlineSeatLegroomReducedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirlineSeatLegroomReducedMd>', 'Airline Seat Legroom Reduced', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

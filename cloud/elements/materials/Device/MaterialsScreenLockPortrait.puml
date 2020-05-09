@@ -3,10 +3,10 @@ sprite $MaterialsScreenLockPortraitLg [20x20/16z] XP055iH03487mcwzlVzfwphwd-N5mM
 
 sprite $MaterialsScreenLockPortraitMd [14x14/16z] TOu30e1044Nd8-l-fyskVOin8e9UOQnKmqgr6gYhSgQgiLhbMm0t2n8kItckoyg78KzP8F5f_Pr-t-ovzGG
 
-!function MaterialsScreenLockPortrait($id, $name="Screen Lock Portrait", $tech="")
+!procedure MaterialsScreenLockPortrait($id, $name="Screen Lock Portrait", $tech="")
   CloudElement($id, 'materials/Device/MaterialsScreenLockPortrait', $name, $tech)
-!endfunction
-!function MaterialsScreenLockPortraitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsScreenLockPortraitCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsScreenLockPortraitMd>', 'Screen Lock Portrait', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

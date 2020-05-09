@@ -6,10 +6,10 @@ POo70G0X309DHT7zr_tU_wn908wTRcLbdFXUigrmn5x2Lg8VvUWRv_JaNVALtDHThh9xPaBEaevIqiuI
 
 sprite $AzureRmsConnectorMd [11x14/16z] HSQ50GH130B0bG2n_jjzEOt0LFydnc-wChCE5W7eO1-JB_LGXdsoWCbvq4dJFiWeRztaZoLoHyN5jU2sHeUM6G2p23SF_Jw-
 
-!function AzureRmsConnector($id, $name="Rms Connector", $tech="")
+!procedure AzureRmsConnector($id, $name="Rms Connector", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureRmsConnector', $name, $tech)
-!endfunction
-!function AzureRmsConnectorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureRmsConnectorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureRmsConnectorMd>', 'Rms Connector', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

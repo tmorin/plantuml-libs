@@ -3,10 +3,10 @@ sprite $AwsApplicationAutoScalingLg [20x20/16z] hK-33K0n44twTFil_6s4FHlL0wHtgBLd
 
 sprite $AwsApplicationAutoScalingMd [14x14/16z] XKs34G1141j4_JVyvd7D95CXFuq1VrhftKI4ukkC4aJuxWXUNMoJM_YWz1d8J6K5
 
-!function AwsApplicationAutoScaling($id, $name="Application Auto Scaling", $tech="")
+!procedure AwsApplicationAutoScaling($id, $name="Application Auto Scaling", $tech="")
   CloudElement($id, 'aws/Compute/AwsApplicationAutoScaling', $name, $tech)
-!endfunction
-!function AwsApplicationAutoScalingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApplicationAutoScalingCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApplicationAutoScalingMd>', 'Application Auto Scaling', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

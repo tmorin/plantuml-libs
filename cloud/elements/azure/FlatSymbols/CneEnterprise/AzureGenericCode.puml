@@ -6,10 +6,10 @@ EUeaa4o5SA5h9h87MLdQFMbiTO_n2
 
 sprite $AzureGenericCodeMd [13x14/16z] JOo54S0m24LnERB_l6qyxmo-MMqIePGcsWABOCAjPNzKq0d5wdym6Sm1g3-K21hhwGSdlGy-iTxP0xwVFgsqdqb_b7X2MbON-m
 
-!function AzureGenericCode($id, $name="Generic Code", $tech="")
+!procedure AzureGenericCode($id, $name="Generic Code", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericCode', $name, $tech)
-!endfunction
-!function AzureGenericCodeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGenericCodeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGenericCodeMd>', 'Generic Code', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

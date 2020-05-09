@@ -6,10 +6,10 @@ XSp50S1024JHA3BGVxsPZVk-uqUWxOCbQtEsrQuzwyWJRcSE2jPRNAhrTuDVwx2urg5QnuriaDZ5BXEk
 
 sprite $AzureStorageAccountsMd [16x14/16z] RSpL0K9H30FGQvKaxByky5pFJxtifIxAFndYg2ScvWu0FmppLKIaQFt4ZtfC_hNRmlyiHCoenVJlprUfrzgljPzgP4Jke07gn7u
 
-!function AzureStorageAccounts($id, $name="Storage Accounts", $tech="")
+!procedure AzureStorageAccounts($id, $name="Storage Accounts", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureStorageAccounts', $name, $tech)
-!endfunction
-!function AzureStorageAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureStorageAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureStorageAccountsMd>', 'Storage Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

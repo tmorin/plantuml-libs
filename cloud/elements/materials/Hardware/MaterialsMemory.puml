@@ -6,10 +6,10 @@ vaySlEJgFsm1
 
 sprite $MaterialsMemoryMd [14x14/16z] POw50G0X24NvDEo_xtNgC-YW6HptDa8rRjEhQxj-HegnmOKZhQ7kYZwIjU0RAAN16ZA_NSO9u_HhivaL
 
-!function MaterialsMemory($id, $name="Memory", $tech="")
+!procedure MaterialsMemory($id, $name="Memory", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsMemory', $name, $tech)
-!endfunction
-!function MaterialsMemoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMemoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMemoryMd>', 'Memory', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ t04
 
 sprite $AwsElasticFileSystemEfsMd [14x14/16z] VOt50S0m30DB5km_S47EgtI9cVnBeIsgjKHRbSW224aUKJ9km2lF3WKYA64iLpYeA67JkCDGzRp-pG4
 
-!function AwsElasticFileSystemEfs($id, $name="Elastic File System Efs", $tech="")
+!procedure AwsElasticFileSystemEfs($id, $name="Elastic File System Efs", $tech="")
   CloudElement($id, 'aws/Storage/AwsElasticFileSystemEfs', $name, $tech)
-!endfunction
-!function AwsElasticFileSystemEfsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticFileSystemEfsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticFileSystemEfsMd>', 'Elastic File System Efs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

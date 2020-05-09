@@ -3,10 +3,10 @@ sprite $BrandNextcloudLg [20x20/16z] nOur0a0X34EXcjp_mCZojJjlgJTfPv40GkxIhSlghAv
 
 sprite $BrandNextcloudMd [14x14/16z] Ow04CBEnCKDPxAmix2n0n0eKOMHdOUTaOM1WuGGo655vG3q8bKYcK08
 
-!function BrandNextcloud($id, $name="Nextcloud", $tech="")
+!procedure BrandNextcloud($id, $name="Nextcloud", $tech="")
   PersoElement($id, 'brand/BrandNextcloud', $name, $tech)
-!endfunction
-!function BrandNextcloudCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandNextcloudCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandNextcloudMd>', 'Nextcloud', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

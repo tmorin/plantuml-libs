@@ -3,10 +3,10 @@ sprite $MaterialsDashboardLg [20x20/16z] Oo0QCBA00GC3X6O4YR7mWm0F8oCFcC52BJ5iTi3
 
 sprite $MaterialsDashboardMd [14x14/16z] NOu35W0W342dntJ_q-OQVfW10Pgy7oYNKfZdbvUpjDQOvrVKSh5JzooK2G8S-UfEph7U1DTJBJVTRUOP
 
-!function MaterialsDashboard($id, $name="Dashboard", $tech="")
+!procedure MaterialsDashboard($id, $name="Dashboard", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDashboard', $name, $tech)
-!endfunction
-!function MaterialsDashboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDashboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDashboardMd>', 'Dashboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsFsxForWindowsFileServerLg [20x20/16z] RSY54KHH5CBGjGVazj_lkdyo6JlSodS
 
 sprite $AwsFsxForWindowsFileServerMd [14x14/16z] LSnH0W0G30BG7r3tFx20hO07Wp9UEemmmhXsqFBKL-uTqHPwrRBKzQmjDOd2kgrrINbL8Is-q4WZZHC
 
-!function AwsFsxForWindowsFileServer($id, $name="Fsx For Windows File Server", $tech="")
+!procedure AwsFsxForWindowsFileServer($id, $name="Fsx For Windows File Server", $tech="")
   CloudElement($id, 'aws/Storage/AwsFsxForWindowsFileServer', $name, $tech)
-!endfunction
-!function AwsFsxForWindowsFileServerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsFsxForWindowsFileServerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsFsxForWindowsFileServerMd>', 'Fsx For Windows File Server', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

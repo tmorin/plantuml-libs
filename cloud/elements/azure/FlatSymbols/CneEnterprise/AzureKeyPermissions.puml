@@ -3,10 +3,10 @@ sprite $AzureKeyPermissionsLg [10x20/16z] XOk50K0X448vMs7_TNztFkC2A9B8uPiQxwc9Pj
 
 sprite $AzureKeyPermissionsMd [7x14/16z] NKY50G112C9F1VPVzpjFQLefqwueRwUIcvjoct92Dp61tQRJ6FYC6SyOvuYPFR02
 
-!function AzureKeyPermissions($id, $name="Key Permissions", $tech="")
+!procedure AzureKeyPermissions($id, $name="Key Permissions", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureKeyPermissions', $name, $tech)
-!endfunction
-!function AzureKeyPermissionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureKeyPermissionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureKeyPermissionsMd>', 'Key Permissions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

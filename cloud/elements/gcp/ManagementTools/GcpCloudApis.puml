@@ -6,10 +6,10 @@ JszvUTiosBDINpALhaotxBy
 
 sprite $GcpCloudApisMd [14x14/16z] LKw50S0m20iM-l_35MQiYaK0YDKIu2JCMgpKnxry9vex8FUJ2iJvpKujSBvCCiz_4XeZzhFJVzOdXtKMTeMXNJq-PtjSJjPTBm
 
-!function GcpCloudApis($id, $name="Cloud Apis", $tech="")
+!procedure GcpCloudApis($id, $name="Cloud Apis", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpCloudApis', $name, $tech)
-!endfunction
-!function GcpCloudApisCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudApisCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudApisMd>', 'Cloud Apis', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

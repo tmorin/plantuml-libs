@@ -6,10 +6,10 @@ rwjEqDCwaDVDK8qZBTWKOOjokMr1WgEoMnIuhEwb_TuV
 
 sprite $MaterialsDirectionsSubwayMd [14x14/16z] RSl50SK020DGYbFB_jDMuFJbdP24lh5vX1lt8ZlQBkzcePgf6lPkhi_bcTJ_R3d9xCrmu75WUi455CVyd1D8zlujiU6nnKAzrl5OcGOt-d43
 
-!function MaterialsDirectionsSubway($id, $name="Directions Subway", $tech="")
+!procedure MaterialsDirectionsSubway($id, $name="Directions Subway", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsSubway', $name, $tech)
-!endfunction
-!function MaterialsDirectionsSubwayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsSubwayCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsSubwayMd>', 'Directions Subway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

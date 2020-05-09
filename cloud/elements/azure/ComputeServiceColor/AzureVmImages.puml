@@ -6,10 +6,10 @@ RSq7GWKn30DHEz88xdzYqe3VPglVbiZlOPiF6IGv2IIn989HTIkusqJTfQCmhMRJuMgJFqtehHQnh2hP
 
 sprite $AzureVmImagesMd [15x14/16z] JOw70GH1209L1c_xh_YFpxFH3F_O6Fo2cFHWjSmq2sDFLUM9oQ99ohxsgWLYTmtQb4ki_AhLRVAkxTpslZgRbB_gRE6RM84ASvrhwaFhdAD-6txNHjm3
 
-!function AzureVmImages($id, $name="Vm Images", $tech="")
+!procedure AzureVmImages($id, $name="Vm Images", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureVmImages', $name, $tech)
-!endfunction
-!function AzureVmImagesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVmImagesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVmImagesMd>', 'Vm Images', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

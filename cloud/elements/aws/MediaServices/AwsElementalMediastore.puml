@@ -3,10 +3,10 @@ sprite $AwsElementalMediastoreLg [20x20/16z] hT053WH144BHfFb0tV_2wown6UAlfMHsI9D
 
 sprite $AwsElementalMediastoreMd [14x14/16z] XOsd0G0n008DTsJ_XRzN5Hnzp53jGmp6oo0Xa1vi8xxCGf6JWPhaOg8_Byd9HhiJ-tkVOGK
 
-!function AwsElementalMediastore($id, $name="Elemental Mediastore", $tech="")
+!procedure AwsElementalMediastore($id, $name="Elemental Mediastore", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediastore', $name, $tech)
-!endfunction
-!function AwsElementalMediastoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalMediastoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalMediastoreMd>', 'Elemental Mediastore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

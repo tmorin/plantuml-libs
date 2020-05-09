@@ -3,10 +3,10 @@ sprite $AzureGuestAssignmentsLg [18x20/16z] TSq54W0X34DHI9kitV--wpX_Z7b0ItgE7a9W
 
 sprite $AzureGuestAssignmentsMd [12x14/16z] HSY54GDH30FHs98-zbzlw0mxz6Q5YFQ2HQILdOHL-1aImYvfkBMH7YE_SMzQMFUszrOQ3eGp29K-
 
-!function AzureGuestAssignments($id, $name="Guest Assignments", $tech="")
+!procedure AzureGuestAssignments($id, $name="Guest Assignments", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureGuestAssignments', $name, $tech)
-!endfunction
-!function AzureGuestAssignmentsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGuestAssignmentsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGuestAssignmentsMd>', 'Guest Assignments', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

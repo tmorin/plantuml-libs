@@ -3,10 +3,10 @@ sprite $MaterialsCreateNewFolderLg [20x20/16z] fP350SKW343ZEEm_xPSgSkIrM3o1BLX_6
 
 sprite $MaterialsCreateNewFolderMd [14x14/16z] VOl50G0W30DnhUm_BPulXpPYVhWOKxIOiYvAsDWxBMITX8dyUlERUh6X2QPTiHLJJTONngJa4dfdv3EvU4WfHcT-J
 
-!function MaterialsCreateNewFolder($id, $name="Create New Folder", $tech="")
+!procedure MaterialsCreateNewFolder($id, $name="Create New Folder", $tech="")
   CloudElement($id, 'materials/File/MaterialsCreateNewFolder', $name, $tech)
-!endfunction
-!function MaterialsCreateNewFolderCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCreateNewFolderCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCreateNewFolderMd>', 'Create New Folder', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

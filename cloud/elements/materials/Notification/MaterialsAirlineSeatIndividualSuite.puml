@@ -3,10 +3,10 @@ sprite $MaterialsAirlineSeatIndividualSuiteLg [20x20/16z] lOh55K0X30GZk6t_rNvNk3
 
 sprite $MaterialsAirlineSeatIndividualSuiteMd [14x14/16z] dSV50S1G30BGEDJtdxPkv_-YI2DFBPXp1vUeN9Pz3eD5nRpabHQFqWYzKyI0NNydvuzBemq
 
-!function MaterialsAirlineSeatIndividualSuite($id, $name="Airline Seat Individual Suite", $tech="")
+!procedure MaterialsAirlineSeatIndividualSuite($id, $name="Airline Seat Individual Suite", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatIndividualSuite', $name, $tech)
-!endfunction
-!function MaterialsAirlineSeatIndividualSuiteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirlineSeatIndividualSuiteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirlineSeatIndividualSuiteMd>', 'Airline Seat Individual Suite', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

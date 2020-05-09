@@ -6,10 +6,10 @@ dSY5WGH120311WuRsSq_sdVtlngbUI9tU4iinvmZxJLhxOxB9NgtFYLRRK-_Ney_NIcePxeYkHIGQi7N
 
 sprite $MaterialsSettingsInputAntennaMd [14x14/16z] PSg54KCn30DGMJBUPVzro_tu0aQyKI9-r5tLBRpvo5uq_fuCcTr9Ze0Inyryg0BRqa72qveAA-DQV8KGtjuLTfauYC11rN6nQbzb047SF04
 
-!function MaterialsSettingsInputAntenna($id, $name="Settings Input Antenna", $tech="")
+!procedure MaterialsSettingsInputAntenna($id, $name="Settings Input Antenna", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputAntenna', $name, $tech)
-!endfunction
-!function MaterialsSettingsInputAntennaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsInputAntennaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsInputAntennaMd>', 'Settings Input Antenna', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

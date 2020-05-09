@@ -6,10 +6,10 @@ fvPHpZYnYCEy4MFUHpxMQQx6AiU-v9OESrZDRJ_dFIyx7dy
 
 sprite $AzureRouteFiltersMd [17x14/16z] PK-50G11248VZFq7_kwpE_20YNY3PSUkVOFDKeS192K50IlQ5dPCYbXpIk0AQ0qm7Q13eWYFx8o8Acu1VG8EngTb2xo7Keg8P-rms7ZwyDm2
 
-!function AzureRouteFilters($id, $name="Route Filters", $tech="")
+!procedure AzureRouteFilters($id, $name="Route Filters", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureRouteFilters', $name, $tech)
-!endfunction
-!function AzureRouteFiltersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureRouteFiltersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureRouteFiltersMd>', 'Route Filters', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

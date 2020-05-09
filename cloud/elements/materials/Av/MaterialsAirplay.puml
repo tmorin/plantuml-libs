@@ -3,10 +3,10 @@ sprite $MaterialsAirplayLg [20x20/16z] pSZ50G9140J0wNNV_BEbWND_NZrBdeBPW23Kl583K
 
 sprite $MaterialsAirplayMd [14x14/16z] dSYt0GH14091O0KprkOVxVzfwLrvtRYZ3eGo3gbg75nhFwj_BvE0192kYZ2LAJfYUSenfYGMpPE6bpy
 
-!function MaterialsAirplay($id, $name="Airplay", $tech="")
+!procedure MaterialsAirplay($id, $name="Airplay", $tech="")
   CloudElement($id, 'materials/Av/MaterialsAirplay', $name, $tech)
-!endfunction
-!function MaterialsAirplayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirplayCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirplayMd>', 'Airplay', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

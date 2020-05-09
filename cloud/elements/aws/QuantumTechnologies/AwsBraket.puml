@@ -6,10 +6,10 @@ Srj2FggpFwiF-y43
 
 sprite $AwsBraketMd [14x14/16z] LSc54SGm50FH0y7ll-8ePk_WctNIoXStm2xy4uWcW0b_Tj69q9A4Gq1JsP05igbC2Y1eHsmZI5MYF8hIhSK7
 
-!function AwsBraket($id, $name="Braket", $tech="")
+!procedure AwsBraket($id, $name="Braket", $tech="")
   CloudElement($id, 'aws/QuantumTechnologies/AwsBraket', $name, $tech)
-!endfunction
-!function AwsBraketCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBraketCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBraketMd>', 'Braket', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

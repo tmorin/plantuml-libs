@@ -6,10 +6,10 @@ YiMUPYr0gNJONAy9S1lY0W
 
 sprite $AzureAdFsMd [11x14/16z] XSst0O1G54BHdru2zb_NhAstEbHGPz6EnBCyIJUplAYhFz8-Hjf3kD1lUaKU9ypmu7BEnl1rpAWyEAjcnOA9HdXb43i
 
-!function AzureAdFs($id, $name="Ad Fs", $tech="")
+!procedure AzureAdFs($id, $name="Ad Fs", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureAdFs', $name, $tech)
-!endfunction
-!function AzureAdFsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAdFsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAdFsMd>', 'Ad Fs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

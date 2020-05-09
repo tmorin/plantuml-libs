@@ -6,10 +6,10 @@ R8s_5zhSyp_RluD_Lz1tfm2kJd_Thm
 
 sprite $GcpIdePluginsMd [14x14/16z] JOxL0G10248z0zn_uUjwNoOW8iKcfPUz0IUOhUV6UwCy7LKaPZ578SO4GZM0P6_eK7U5pvE_6vU4AiQhIUG5lqFgxnutMMyua_sf6m
 
-!function GcpIdePlugins($id, $name="Ide Plugins", $tech="")
+!procedure GcpIdePlugins($id, $name="Ide Plugins", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpIdePlugins', $name, $tech)
-!endfunction
-!function GcpIdePluginsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpIdePluginsCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpIdePluginsMd>', 'Ide Plugins', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

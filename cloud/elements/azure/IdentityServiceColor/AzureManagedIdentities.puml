@@ -3,10 +3,10 @@ sprite $AzureManagedIdentitiesLg [15x20/16z] JSm50e0m30F0HlR_BnCw3NghL08HTH8nlgg
 
 sprite $AzureManagedIdentitiesMd [11x14/16z] HSZ94S0038D0IxZ_cXDoyjfXPahcharpYmPoopG_qxiv2u3IwcVWvR8hVQmEGNFl1MNn7G
 
-!function AzureManagedIdentities($id, $name="Managed Identities", $tech="")
+!procedure AzureManagedIdentities($id, $name="Managed Identities", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureManagedIdentities', $name, $tech)
-!endfunction
-!function AzureManagedIdentitiesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureManagedIdentitiesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureManagedIdentitiesMd>', 'Managed Identities', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

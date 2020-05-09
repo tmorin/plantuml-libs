@@ -6,10 +6,10 @@ WSMGYSMMEPPvBqjD9R03
 
 sprite $AwsS3GlacierVaultMd [14x14/16z] FOm50W0m20Af-Vydhxsb2W1m3iP6uI5Q1SiwkBYgqQnAyIDQbV2lKp47tWgkf8nVnKvNoWhKhrOPeIkmCys7LyMHno0c
 
-!function AwsS3GlacierVault($id, $name="S3 Glacier Vault", $tech="")
+!procedure AwsS3GlacierVault($id, $name="S3 Glacier Vault", $tech="")
   CloudElement($id, 'aws/Storage/AwsS3GlacierVault', $name, $tech)
-!endfunction
-!function AwsS3GlacierVaultCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsS3GlacierVaultCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsS3GlacierVaultMd>', 'S3 Glacier Vault', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

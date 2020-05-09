@@ -3,10 +3,10 @@ sprite $MaterialsAssessmentLg [20x20/16z] ZT150iGm243Hk0FtF-rClOtdBzy6OUi9zKcSbE
 
 sprite $MaterialsAssessmentMd [14x14/16z] NOw50S0m20HB38VzfwtxHV6VVa0vWSrWF-7LB9wPPklbvRHQkoqdhVMs1CRVuc4lQu0SbXPi3OkUFTNDNFUwp_IliYyB
 
-!function MaterialsAssessment($id, $name="Assessment", $tech="")
+!procedure MaterialsAssessment($id, $name="Assessment", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssessment', $name, $tech)
-!endfunction
-!function MaterialsAssessmentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAssessmentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAssessmentMd>', 'Assessment', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

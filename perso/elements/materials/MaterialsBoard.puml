@@ -6,10 +6,10 @@ tpL7MdDSQxdMVDlRTGQti_fF1m
 
 sprite $MaterialsBoardMd [14x14/16z] POw30KKn34LZVEw_xLFTKyON5gXo6Phna79Qpe0N87PPn15iGVBHovB_N-ny7EzO9ekY95yMYL3-wR9AvcKvRbtwX6twf6pc
 
-!function MaterialsBoard($id, $name="Board", $tech="")
+!procedure MaterialsBoard($id, $name="Board", $tech="")
   PersoElement($id, 'materials/MaterialsBoard', $name, $tech)
-!endfunction
-!function MaterialsBoardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBoardCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsBoardMd>', 'Board', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

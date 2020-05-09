@@ -3,10 +3,10 @@ sprite $AwsEc2InstanceContainerLg [20x20/16z] fP350G0n408ZIFfl-DnTvhaAb5UuetXPeY
 
 sprite $AwsEc2InstanceContainerMd [14x14/16z] uy00xEmSG0ZZi881EuJ30WNiO1aMY18Mi2o2nq4q3zCKX0rejYDSXWK
 
-!function AwsEc2InstanceContainer($id, $name="Ec2 Instance Container", $tech="")
+!procedure AwsEc2InstanceContainer($id, $name="Ec2 Instance Container", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsEc2InstanceContainer', $name, $tech)
-!endfunction
-!function AwsEc2InstanceContainerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2InstanceContainerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2InstanceContainerMd>', 'Ec2 Instance Container', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

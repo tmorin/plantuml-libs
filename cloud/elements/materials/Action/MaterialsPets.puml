@@ -6,10 +6,10 @@ _bmw5zcqQJmTEvtqEl2OM1gzrL9gwoCP5gGPO4RYdIi
 
 sprite $MaterialsPetsMd [14x14/16z] POg50GDH24E3Gutzf-svloyGmGEY-QtaH-IJM_HkitxF8QUA4PbeCk1TiqlL3aWPE89X9LZjjJ29x95SPVHCp49xHP-AF6mad71Z
 
-!function MaterialsPets($id, $name="Pets", $tech="")
+!procedure MaterialsPets($id, $name="Pets", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPets', $name, $tech)
-!endfunction
-!function MaterialsPetsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPetsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPetsMd>', 'Pets', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

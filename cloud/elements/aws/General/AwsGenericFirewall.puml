@@ -6,10 +6,10 @@ jbpzZuE1b03wToiSEKZvo_sIYkgfwVzu__-4WAAfWDBDzsY3xGly
 
 sprite $AwsGenericFirewallMd [14x14/16z] NKc50SCm31F6wVy7Zx468KuZ_xgCywrK7dsxjGVTUhcsQDzjTUjzL2J00WxLrI6SU-tiPWgkknjxwcLuwSRJkPq0sU4qMyHhb1ZdkG8
 
-!function AwsGenericFirewall($id, $name="Generic Firewall", $tech="")
+!procedure AwsGenericFirewall($id, $name="Generic Firewall", $tech="")
   CloudElement($id, 'aws/General/AwsGenericFirewall', $name, $tech)
-!endfunction
-!function AwsGenericFirewallCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGenericFirewallCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGenericFirewallMd>', 'Generic Firewall', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

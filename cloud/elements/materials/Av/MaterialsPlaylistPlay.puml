@@ -3,10 +3,10 @@ sprite $MaterialsPlaylistPlayLg [20x20/16z] jSx50S0W30NG7zpPVzgw0hcrxnOFlYRiWzF3
 
 sprite $MaterialsPlaylistPlayMd [14x14/16z] bSs34S003030MFllMzlzKnnuWei-qvWuddfYipuZdcqoWd7I-oaN3Db-gg9DfWW_j
 
-!function MaterialsPlaylistPlay($id, $name="Playlist Play", $tech="")
+!procedure MaterialsPlaylistPlay($id, $name="Playlist Play", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPlaylistPlay', $name, $tech)
-!endfunction
-!function MaterialsPlaylistPlayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPlaylistPlayCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPlaylistPlayMd>', 'Playlist Play', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

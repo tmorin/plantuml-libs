@@ -6,10 +6,10 @@ H60ZEi0A
 
 sprite $AzureIntuneVpnProfilesMd [12x14/16z] RSY53KDH5CFG2qaUxJzl-vajEZAFqXI-5Z2wOPemNprrTNvuBgJOx2LIcqDcyjMiPCNgEgOaP6RKqVjGvEefsHBA5Fu
 
-!function AzureIntuneVpnProfiles($id, $name="Intune Vpn Profiles", $tech="")
+!procedure AzureIntuneVpnProfiles($id, $name="Intune Vpn Profiles", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneVpnProfiles', $name, $tech)
-!endfunction
-!function AzureIntuneVpnProfilesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIntuneVpnProfilesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIntuneVpnProfilesMd>', 'Intune Vpn Profiles', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

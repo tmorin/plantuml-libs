@@ -3,10 +3,10 @@ sprite $AwsOpsworksLayersLg [20x20/16z] OsJ108miR6WYO046DC12VJ5sLZJ0piB0X04OY0NO
 
 sprite $AwsOpsworksLayersMd [14x14/16z] XSwr0S0W40NGh_kld2gEl0hEtLpgYXUrn8NVdt1HtrEmyDs7osxVypBtmGS
 
-!function AwsOpsworksLayers($id, $name="Opsworks Layers", $tech="")
+!procedure AwsOpsworksLayers($id, $name="Opsworks Layers", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOpsworksLayers', $name, $tech)
-!endfunction
-!function AwsOpsworksLayersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsOpsworksLayersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsOpsworksLayersMd>', 'Opsworks Layers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

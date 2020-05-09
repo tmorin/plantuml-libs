@@ -3,10 +3,10 @@ sprite $MaterialsBattery60Lg [20x20/16z] pSYr0O0044MnUx_1OVzfSNU7bB63a1WDoZ5OrHu
 
 sprite $MaterialsBattery60Md [14x14/16z] Oy0261cHEKnCZCWSC9SmZvKD25XXF0v-8E2WbCV23WGicEu5
 
-!function MaterialsBattery60($id, $name="Battery60", $tech="")
+!procedure MaterialsBattery60($id, $name="Battery60", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBattery60', $name, $tech)
-!endfunction
-!function MaterialsBattery60Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBattery60Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBattery60Md>', 'Battery60', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

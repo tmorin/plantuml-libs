@@ -6,10 +6,10 @@ k8t20Xx0T9wZ6ZJg40GE-aPcvMthD157irkzyGRQqPhdxGi
 
 sprite $AzureSpatialAnchorMd [13x14/16z] HOp50G1120DP9D9_mUSo7oGI3mjcliTeoFSWelqhJLt-cIZRS-pdKa4hpnqYiet8wgdC6dX2PfxKLDT_hAvLFTS-qrSP3YeU-gn-MTAwbXq
 
-!function AzureSpatialAnchor($id, $name="Spatial Anchor", $tech="")
+!procedure AzureSpatialAnchor($id, $name="Spatial Anchor", $tech="")
   CloudElement($id, 'azure/MixedRealityServiceIcon/AzureSpatialAnchor', $name, $tech)
-!endfunction
-!function AzureSpatialAnchorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSpatialAnchorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSpatialAnchorMd>', 'Spatial Anchor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

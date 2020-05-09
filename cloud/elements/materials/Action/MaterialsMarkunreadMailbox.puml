@@ -3,10 +3,10 @@ sprite $MaterialsMarkunreadMailboxLg [20x20/16z] jSp50GL130BGa75Z-g_soxhVzXqJG7w
 
 sprite $MaterialsMarkunreadMailboxMd [14x14/16z] dSUr0O0040F0lEFPVrfSMwux04vo49oS4_jdfQeuY5V0V2D0aY43DmdKizgN-jxGyJNonwnkXgy5
 
-!function MaterialsMarkunreadMailbox($id, $name="Markunread Mailbox", $tech="")
+!procedure MaterialsMarkunreadMailbox($id, $name="Markunread Mailbox", $tech="")
   CloudElement($id, 'materials/Action/MaterialsMarkunreadMailbox', $name, $tech)
-!endfunction
-!function MaterialsMarkunreadMailboxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMarkunreadMailboxCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMarkunreadMailboxMd>', 'Markunread Mailbox', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

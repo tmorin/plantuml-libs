@@ -6,10 +6,10 @@ cZxtdlc_jlyU_FUgOzTJVxYU_lN-1G
 
 sprite $GcpCloudComposerMd [14x14/16z] LOw50GD02CHms7_Y1kht6bn4r4_A5wW-rM7CIm5OJnVYCP6S8ORucHHloCtsxRqcgOeFF19zqJDIxSYlYhaRLCyEArpssptVaoqqNV-dVW
 
-!function GcpCloudComposer($id, $name="Cloud Composer", $tech="")
+!procedure GcpCloudComposer($id, $name="Cloud Composer", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudComposer', $name, $tech)
-!endfunction
-!function GcpCloudComposerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudComposerCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudComposerMd>', 'Cloud Composer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

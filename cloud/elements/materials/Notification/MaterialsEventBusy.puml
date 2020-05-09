@@ -6,10 +6,10 @@ qrhE11FABeBnlW
 
 sprite $MaterialsEventBusyMd [14x14/16z] NSV50G0n008meExxJtkkpIy0A6n4xEY3Di5pJ-gzRNfFMzN6fMbRzkxWyxw8IxpcPEmxfS1t9WIzivIvHnouZobU4h5L5sAo0W
 
-!function MaterialsEventBusy($id, $name="Event Busy", $tech="")
+!procedure MaterialsEventBusy($id, $name="Event Busy", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsEventBusy', $name, $tech)
-!endfunction
-!function MaterialsEventBusyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsEventBusyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsEventBusyMd>', 'Event Busy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ vw_KlHOZoke0NwddQ5nZRuripXmWLjKQtyxA0jRymHK
 
 sprite $MaterialsWhatshotMd [14x14/16z] POpL0SLG34BXkYHX_scVQtl-KBmWVgb_idKy8UzA-MLNW4lZ8P9vRpFSqrqLtTYrgTnLbKOcikfJRG9lbJL_JZcZWCKcdwSpvj9CUCBIUo5EN04
 
-!function MaterialsWhatshot($id, $name="Whatshot", $tech="")
+!procedure MaterialsWhatshot($id, $name="Whatshot", $tech="")
   CloudElement($id, 'materials/Social/MaterialsWhatshot', $name, $tech)
-!endfunction
-!function MaterialsWhatshotCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWhatshotCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWhatshotMd>', 'Whatshot', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

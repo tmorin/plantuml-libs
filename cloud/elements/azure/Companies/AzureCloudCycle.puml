@@ -9,10 +9,10 @@ JSu94iCm30900KB_Vt9bt3OXftT6Hvt8uqQzqdDYaZzMP6sVZi0vI_4O8ypNOuGYw14umnLl4T0-CnK2
 jmOvMfaHkIDHj_JA1m
 }
 
-!function AzureCloudCycle($id, $name="Cloud Cycle", $tech="")
+!procedure AzureCloudCycle($id, $name="Cloud Cycle", $tech="")
   CloudElement($id, 'azure/Companies/AzureCloudCycle', $name, $tech)
-!endfunction
-!function AzureCloudCycleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudCycleCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudCycleMd>', 'Cloud Cycle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

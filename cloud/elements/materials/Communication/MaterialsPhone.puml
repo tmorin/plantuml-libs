@@ -6,10 +6,10 @@ Z2S
 
 sprite $MaterialsPhoneMd [14x14/16z] NKo34K0n5AlnkF-qtyWrfpWiI2d-8h8EL4uGJfVqg-OLNyuYX1LL7EMinBSxQgn2uz6naRfh-gxQ54uuZs713W
 
-!function MaterialsPhone($id, $name="Phone", $tech="")
+!procedure MaterialsPhone($id, $name="Phone", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsPhone', $name, $tech)
-!endfunction
-!function MaterialsPhoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhoneMd>', 'Phone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

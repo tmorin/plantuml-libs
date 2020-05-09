@@ -6,10 +6,10 @@ kLOEjKXUEkvgckFVUNhg2m
 
 sprite $MaterialsCloudDoneMd [14x14/16z] XOhL0S0W30LnXzj_MfpVzf3aYVX3MwlVBds3vkKLRDmIDg-rMb_K56skL2CTsSaCMVibLhb0qU88Yb-VEO8a0z2EoBDax4E9BmO
 
-!function MaterialsCloudDone($id, $name="Cloud Done", $tech="")
+!procedure MaterialsCloudDone($id, $name="Cloud Done", $tech="")
   CloudElement($id, 'materials/File/MaterialsCloudDone', $name, $tech)
-!endfunction
-!function MaterialsCloudDoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCloudDoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCloudDoneMd>', 'Cloud Done', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsDesktopWindowsLg [20x20/16z] rSY54SKm50CmEmpElVsd_LY60QfZuGhT0O
 
 sprite $MaterialsDesktopWindowsMd [14x14/16z] hSV70O104090Rc4nzr-kEVjrVeE7ukhaefgnOoqP9_yqDfvbUjOGb9J3a9A8bOP1E4Gr2tnC
 
-!function MaterialsDesktopWindows($id, $name="Desktop Windows", $tech="")
+!procedure MaterialsDesktopWindows($id, $name="Desktop Windows", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDesktopWindows', $name, $tech)
-!endfunction
-!function MaterialsDesktopWindowsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDesktopWindowsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDesktopWindowsMd>', 'Desktop Windows', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

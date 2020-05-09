@@ -3,10 +3,10 @@ sprite $AwsRdsSqlServerInstanceAltLg [20x20/16z] tP370O0020CX8MJ_YUrT9_3ezmH-0JC
 
 sprite $AwsRdsSqlServerInstanceAltMd [14x14/16z] lSe50S1030F0DEJVyPWKx1wApeSx6Entbte3QsCbsghPllqc-zfjh_1dvNnu1G
 
-!function AwsRdsSqlServerInstanceAlt($id, $name="Rds Sql Server Instance Alt", $tech="")
+!procedure AwsRdsSqlServerInstanceAlt($id, $name="Rds Sql Server Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsSqlServerInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsSqlServerInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsSqlServerInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsSqlServerInstanceAltMd>', 'Rds Sql Server Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

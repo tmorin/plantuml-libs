@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupOptionalComponent($id, $name="Optional Component", $tech="")
+!procedure GcpGroupOptionalComponent($id, $name="Optional Component", $tech="")
   CloudGroup($id, "GcpGroupOptionalComponent", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupOptionalComponent>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 2

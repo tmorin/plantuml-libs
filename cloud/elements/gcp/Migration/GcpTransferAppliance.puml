@@ -6,10 +6,10 @@ PmNQPWhqcHwpVm4
 
 sprite $GcpTransferApplianceMd [14x14/16z] JOw50S0W40FpdlqNRd4uz3q0n0RIlit86kGmdGjlXXONfK2CJuCCMB4oJRL_sc5wJ8irBL_Mcqb3y93l1EexFQuoieQoL_KF
 
-!function GcpTransferAppliance($id, $name="Transfer Appliance", $tech="")
+!procedure GcpTransferAppliance($id, $name="Transfer Appliance", $tech="")
   CloudElement($id, 'gcp/Migration/GcpTransferAppliance', $name, $tech)
-!endfunction
-!function GcpTransferApplianceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpTransferApplianceCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpTransferApplianceMd>', 'Transfer Appliance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

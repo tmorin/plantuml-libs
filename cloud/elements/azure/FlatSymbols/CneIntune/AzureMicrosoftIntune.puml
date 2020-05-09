@@ -9,10 +9,10 @@ JOtL0S0m44AFCqYw_xnrUvzewOCmCrMyo0yXx8MlW3pbVeLS9c_g56BmdabU6x0RdC9B0gJuCUd4NdGk
 lG4
 }
 
-!function AzureMicrosoftIntune($id, $name="Microsoft Intune", $tech="")
+!procedure AzureMicrosoftIntune($id, $name="Microsoft Intune", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureMicrosoftIntune', $name, $tech)
-!endfunction
-!function AzureMicrosoftIntuneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMicrosoftIntuneCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMicrosoftIntuneMd>', 'Microsoft Intune', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

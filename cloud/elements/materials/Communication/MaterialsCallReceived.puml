@@ -3,10 +3,10 @@ sprite $MaterialsCallReceivedLg [20x20/16z] hOwr0S0W54JnHtp_RTD5-59nvNcOXoIfkWko
 
 sprite $MaterialsCallReceivedMd [14x14/16z] ZSUr0S0W4030rmJTVrpSEhZku0dX4RPqXg7HCsXmfwvcJNO0NLJ4DUECiRfQmLK6
 
-!function MaterialsCallReceived($id, $name="Call Received", $tech="")
+!procedure MaterialsCallReceived($id, $name="Call Received", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCallReceived', $name, $tech)
-!endfunction
-!function MaterialsCallReceivedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallReceivedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallReceivedMd>', 'Call Received', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

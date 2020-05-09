@@ -6,10 +6,10 @@ q3-iB3UpBKIbopVu0m
 
 sprite $AwsTapeStorageMd [14x14/16z] bKn50aL125BAkV-5VxnSZnr0RLYZtwPnNELVKz7galHlPe2H9ysXyziMcVy6XVQ9_3NpK5dvXQ9Bklje6_O5
 
-!function AwsTapeStorage($id, $name="Tape Storage", $tech="")
+!procedure AwsTapeStorage($id, $name="Tape Storage", $tech="")
   CloudElement($id, 'aws/General/AwsTapeStorage', $name, $tech)
-!endfunction
-!function AwsTapeStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTapeStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTapeStorageMd>', 'Tape Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

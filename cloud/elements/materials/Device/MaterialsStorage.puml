@@ -3,10 +3,10 @@ sprite $MaterialsStorageLg [20x20/16z] Ow04CBAY0KO61YPU5YOkVWJWOy8kXgbtsDX12G
 
 sprite $MaterialsStorageMd [14x14/16z] Oy07M5XOs5Z1W8s5WO6TXPKV2jZ1SgnG09HZH090bQniF530Zif3LObc2gOD2Dln0G
 
-!function MaterialsStorage($id, $name="Storage", $tech="")
+!procedure MaterialsStorage($id, $name="Storage", $tech="")
   CloudElement($id, 'materials/Device/MaterialsStorage', $name, $tech)
-!endfunction
-!function MaterialsStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStorageMd>', 'Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsConfirmationNumberLg [20x20/16z] fP253G1H24E_Ex3_jET-ZV9Y3KwD2X
 
 sprite $MaterialsConfirmationNumberMd [14x14/16z] Oy07c5Y1W8qDH38nCB3p0m4d9uXaX_9OMA0yDX3DpGqYsHWWacniO2bK7gfAL5DGRK2p7Hy
 
-!function MaterialsConfirmationNumber($id, $name="Confirmation Number", $tech="")
+!procedure MaterialsConfirmationNumber($id, $name="Confirmation Number", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsConfirmationNumber', $name, $tech)
-!endfunction
-!function MaterialsConfirmationNumberCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsConfirmationNumberCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsConfirmationNumberMd>', 'Confirmation Number', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsVideoLabelLg [20x20/16z] pT2r0O1G4C3G2_hbPFzfaGw7abUcZ7n5Tu2GhE
 
 sprite $MaterialsVideoLabelMd [14x14/16z] dSwt0S0W50DH8NBUVrfd0x_bTTST9CL1WJ4CaSPZyCOu36w_ahCVbupf2yDSXqnv9fq
 
-!function MaterialsVideoLabel($id, $name="Video Label", $tech="")
+!procedure MaterialsVideoLabel($id, $name="Video Label", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideoLabel', $name, $tech)
-!endfunction
-!function MaterialsVideoLabelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVideoLabelCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVideoLabelMd>', 'Video Label', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

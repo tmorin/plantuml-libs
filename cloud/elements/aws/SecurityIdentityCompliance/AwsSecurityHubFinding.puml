@@ -6,10 +6,10 @@ K6iKGID4QzQuqZ3npAXtZC95DSDEzFgH8m
 
 sprite $AwsSecurityHubFindingMd [14x14/16z] VKu50i1025B0_V_72rpNfKN4Oq7Y5bDUdIzH3SlhZ0h8dpCk6NyoaAUiQJm2zhQqA26HRefBdh21xhBAoNbD
 
-!function AwsSecurityHubFinding($id, $name="Security Hub Finding", $tech="")
+!procedure AwsSecurityHubFinding($id, $name="Security Hub Finding", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSecurityHubFinding', $name, $tech)
-!endfunction
-!function AwsSecurityHubFindingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSecurityHubFindingCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSecurityHubFindingMd>', 'Security Hub Finding', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

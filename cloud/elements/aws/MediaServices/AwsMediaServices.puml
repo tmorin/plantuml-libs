@@ -3,10 +3,10 @@ sprite $AwsMediaServicesLg [20x20/16z] ZS_L0S0W54DHv2Nf_WlN3UVoTt1NpMSTH2N1xwObg
 
 sprite $AwsMediaServicesMd [14x14/16z] LOw50S0m409vfViltBXTz1syMFX2WVWstYrMgi5kPMJTssAIKUrXjM1ULd1RR-RRvPt0HRNCRsMG3L
 
-!function AwsMediaServices($id, $name="Media Services", $tech="")
+!procedure AwsMediaServices($id, $name="Media Services", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsMediaServices', $name, $tech)
-!endfunction
-!function AwsMediaServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsMediaServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsMediaServicesMd>', 'Media Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ _RGfh5oEzPTXR5gh259TsqAbQtSBQzj_TkC7
 
 sprite $AwsEfsStandardPrimaryBgMd [14x14/16z] LSU50SDG24NHojFiFt0XzVi5JgUyS_-ukzAFBCdnl5K8ymw1fsIQeaP7pIZpl3fAWfhdKmbNwMXpDATzIR8wdMhelhNkHry-
 
-!function AwsEfsStandardPrimaryBg($id, $name="Efs Standard Primary Bg", $tech="")
+!procedure AwsEfsStandardPrimaryBg($id, $name="Efs Standard Primary Bg", $tech="")
   CloudElement($id, 'aws/Storage/AwsEfsStandardPrimaryBg', $name, $tech)
-!endfunction
-!function AwsEfsStandardPrimaryBgCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEfsStandardPrimaryBgCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEfsStandardPrimaryBgMd>', 'Efs Standard Primary Bg', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

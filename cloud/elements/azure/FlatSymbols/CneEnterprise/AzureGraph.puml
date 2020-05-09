@@ -6,10 +6,10 @@ pmMQ83HLGkPxDG8ztce31FOZJgh1ff_bl8LiJ_ibD7wP_Di
 
 sprite $AzureGraphMd [14x14/16z] JOk30S1G34GRw_PVjzRxpC6N1nLQtibcEfz91Zltn8rlei8rSRfm0gMrJmbWzYtCrb6Jnw3ShHoff0C_c-LahHeKE70VZ2s6apWIH_N4e_x4dmq
 
-!function AzureGraph($id, $name="Graph", $tech="")
+!procedure AzureGraph($id, $name="Graph", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGraph', $name, $tech)
-!endfunction
-!function AzureGraphCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGraphCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGraphMd>', 'Graph', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

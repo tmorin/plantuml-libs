@@ -6,10 +6,10 @@ pKkPtGRADXlrwYmjkSksxVdNFl41
 
 sprite $AwsSnowmobileMd [14x14/16z] PStL0GCW30JG7tAI_GSkaJh-3lCjUXQMtkur0N2bMZ4umXmerbON4bAQGKi8b59tvjM9ad7EAQ2KPBy2kUJ-0PLbKIJbLIV-rmC
 
-!function AwsSnowmobile($id, $name="Snowmobile", $tech="")
+!procedure AwsSnowmobile($id, $name="Snowmobile", $tech="")
   CloudElement($id, 'aws/Storage/AwsSnowmobile', $name, $tech)
-!endfunction
-!function AwsSnowmobileCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSnowmobileCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSnowmobileMd>', 'Snowmobile', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

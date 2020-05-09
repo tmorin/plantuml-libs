@@ -3,10 +3,10 @@ sprite $MaterialsBorderOuterLg [20x20/16z] ZP050e0W34NtwUR-fxLRwYcrtcWOY1TOPI87V
 
 sprite $MaterialsBorderOuterMd [14x14/16z] NOw30G0m30HhxRzl5UVA-8CZCSzO0rdfMYE64DyPtxe9ET-BhHZPYZccT2zhsKpVnKwmqwqonm4
 
-!function MaterialsBorderOuter($id, $name="Border Outer", $tech="")
+!procedure MaterialsBorderOuter($id, $name="Border Outer", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderOuter', $name, $tech)
-!endfunction
-!function MaterialsBorderOuterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBorderOuterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBorderOuterMd>', 'Border Outer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

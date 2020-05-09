@@ -6,10 +6,10 @@ FWC
 
 sprite $AwsSagemakerNotebookMd [14x14/16z] PSx50S0m34FH7qbkzf-up7atiq7n8G8gEiC2zU2iHA1DfktEw5CBsZorZQv85l1qFf4vZ95wU28gEhZuVhq
 
-!function AwsSagemakerNotebook($id, $name="Sagemaker Notebook", $tech="")
+!procedure AwsSagemakerNotebook($id, $name="Sagemaker Notebook", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsSagemakerNotebook', $name, $tech)
-!endfunction
-!function AwsSagemakerNotebookCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSagemakerNotebookCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSagemakerNotebookMd>', 'Sagemaker Notebook', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

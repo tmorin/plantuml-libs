@@ -6,10 +6,10 @@ GStGqzRx7G
 
 sprite $MaterialsContactsMd [14x14/16z] LSw55G0W20JG0vzT-qzhvxSJ01dy42GQEjg2vS60pettlTTpPOZCNVr3a3ASLT1Ich1MKQ0HSQuyKyD-tVH3l_b7_pFxiwu
 
-!function MaterialsContacts($id, $name="Contacts", $tech="")
+!procedure MaterialsContacts($id, $name="Contacts", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsContacts', $name, $tech)
-!endfunction
-!function MaterialsContactsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContactsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContactsMd>', 'Contacts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

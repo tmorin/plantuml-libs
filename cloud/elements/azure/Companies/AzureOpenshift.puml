@@ -9,10 +9,10 @@ NOy54WDH34A_nQ3tFsypR7NVI5mOpGgGPNE80ufQYaY4UNPyzbXWRQMzcCE8ZhJ2sybEYOtEpoIEmWbs
 0G
 }
 
-!function AzureOpenshift($id, $name="Openshift", $tech="")
+!procedure AzureOpenshift($id, $name="Openshift", $tech="")
   CloudElement($id, 'azure/Companies/AzureOpenshift', $name, $tech)
-!endfunction
-!function AzureOpenshiftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureOpenshiftCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureOpenshiftMd>', 'Openshift', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

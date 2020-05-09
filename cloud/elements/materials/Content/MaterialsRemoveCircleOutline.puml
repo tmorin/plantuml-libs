@@ -6,10 +6,10 @@ VL254S0m22mI-HxiFsvTuxZ3D7Z4J7-3mjmD-fePdbH4auDlqmmv9S5y6WbuKWZvaDNbhIokEylfsoxb
 
 sprite $MaterialsRemoveCircleOutlineMd [14x14/16z] PKw30G0n38on_y1lzEf61rgMUARBatYxwl7SIVBvSPwfz9cSQSlHyZkverGoFvQH9cOuYIoWWEheR5ux
 
-!function MaterialsRemoveCircleOutline($id, $name="Remove Circle Outline", $tech="")
+!procedure MaterialsRemoveCircleOutline($id, $name="Remove Circle Outline", $tech="")
   CloudElement($id, 'materials/Content/MaterialsRemoveCircleOutline', $name, $tech)
-!endfunction
-!function MaterialsRemoveCircleOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveCircleOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveCircleOutlineMd>', 'Remove Circle Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

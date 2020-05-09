@@ -3,10 +3,10 @@ sprite $MaterialsViewListLg [20x20/16z] hS-53S1020NGvak9i_-qTQBrknV76VfJX1Y5MspC
 
 sprite $MaterialsViewListMd [14x14/16z] VOtL0G0X243FJc3_QQc_Av_ITPq9-XqBoYfrJIDQHBN2LfP5CSUOdM2rNUfUoeptwDvvttA_SBz-H
 
-!function MaterialsViewList($id, $name="View List", $tech="")
+!procedure MaterialsViewList($id, $name="View List", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewList', $name, $tech)
-!endfunction
-!function MaterialsViewListCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewListCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewListMd>', 'View List', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

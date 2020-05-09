@@ -3,10 +3,10 @@ sprite $AzureEventHubsLg [19x20/16z] ZP050WGX200PM___t-kpQtOj6j8bmTM4jyX9ZNi9d1O
 
 sprite $AzureEventHubsMd [13x14/16z] LOx50K0n24E9LFVVzxkKTy59PcBqbp5dGzoWJH7YNL4Hi0Bl-CXWlxaKP4Xl0Tp5kfOUBA_199hi97O
 
-!function AzureEventHubs($id, $name="Event Hubs", $tech="")
+!procedure AzureEventHubs($id, $name="Event Hubs", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureEventHubs', $name, $tech)
-!endfunction
-!function AzureEventHubsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEventHubsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEventHubsMd>', 'Event Hubs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ Q-04xd-h0G
 
 sprite $MaterialsRotateLeftMd [14x14/16z] XKg30GC13BmuxMl_QTzcUC9DYUv9aR8nQpA2PWTmWyL4XiT0Z67YEMvdDYUn935TcqL846KG5aea-AeE
 
-!function MaterialsRotateLeft($id, $name="Rotate Left", $tech="")
+!procedure MaterialsRotateLeft($id, $name="Rotate Left", $tech="")
   CloudElement($id, 'materials/Image/MaterialsRotateLeft', $name, $tech)
-!endfunction
-!function MaterialsRotateLeftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRotateLeftCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRotateLeftMd>', 'Rotate Left', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

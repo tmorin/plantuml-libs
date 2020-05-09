@@ -3,10 +3,10 @@ sprite $AzureStorageLg [24x20/16z] hSwr0S004CF01ple_TSDLs6wKfNKEhL2R_MYert1t2rMR
 
 sprite $AzureStorageMd [17x14/16z] RSpL0S0m20JGkC7-wzORzFqXTrWhadkmYp99kHSXad0lyY3PxQX0daLC9DwBL4Wo7UuYLN97HkK66YS
 
-!function AzureStorage($id, $name="Storage", $tech="")
+!procedure AzureStorage($id, $name="Storage", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureStorage', $name, $tech)
-!endfunction
-!function AzureStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureStorageMd>', 'Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

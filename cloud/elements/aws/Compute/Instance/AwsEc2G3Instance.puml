@@ -6,10 +6,10 @@ vQgF3nbyoEfpff-olmC
 
 sprite $AwsEc2G3InstanceMd [14x14/16z] NOw70SCm40A1U-s_SeYxVQhVaHGdxb8nYobzB84FG5dMWLVCRU5CBJQd9wu5szEpM-EXrfwvpQlrwVAUy9x-LlPM_GC
 
-!function AwsEc2G3Instance($id, $name="Ec2 G3 Instance", $tech="")
+!procedure AwsEc2G3Instance($id, $name="Ec2 G3 Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2G3Instance', $name, $tech)
-!endfunction
-!function AwsEc2G3InstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2G3InstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2G3InstanceMd>', 'Ec2 G3 Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

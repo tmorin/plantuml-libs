@@ -3,10 +3,10 @@ sprite $AwsLambdaLg [20x20/16z] bP054iCm40CB0l__nTMLhQ54uPrL3EjKd1GI4kwCj0KtczlU
 
 sprite $AwsLambdaMd [14x14/16z] POk55S0m48LgVBh_mdM9a9poRkrGYm58CIaMpXGo539B8GNooL1SYZaGNgNeCv4dd-YJMtO
 
-!function AwsLambda($id, $name="Lambda", $tech="")
+!procedure AwsLambda($id, $name="Lambda", $tech="")
   CloudElement($id, 'aws/Compute/AwsLambda', $name, $tech)
-!endfunction
-!function AwsLambdaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsLambdaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsLambdaMd>', 'Lambda', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

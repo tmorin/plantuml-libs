@@ -1,9 +1,9 @@
 @startuml
 sprite $MaterialsGroupSwarmserviceLg [20x20/16z] Ow0CC68AiV4mCx9pi4C11pCsCOXUIks00sPCCPWTzFK7vG
 
-!function MaterialsGroupSwarmservice($id, $name="SwarmService", $tech="")
+!procedure MaterialsGroupSwarmservice($id, $name="SwarmService", $tech="")
   PersoGroup($id, "MaterialsGroupSwarmservice", "<$MaterialsGroupSwarmserviceLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupSwarmservice>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

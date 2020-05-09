@@ -6,10 +6,10 @@ Gh3B0G
 
 sprite $MaterialsTollMd [14x14/16z] VSsr0S002031ns7_WMDL_2eS_Yc8HoYxBD4fZquWziG0gK1QY60derRGog7icbqdBrSk7nxVVwm
 
-!function MaterialsToll($id, $name="Toll", $tech="")
+!procedure MaterialsToll($id, $name="Toll", $tech="")
   CloudElement($id, 'materials/Action/MaterialsToll', $name, $tech)
-!endfunction
-!function MaterialsTollCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTollCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTollMd>', 'Toll', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

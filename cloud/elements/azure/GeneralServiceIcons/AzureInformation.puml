@@ -6,10 +6,10 @@ ieQdyLrNrM9A4v4XpNGcCP7PQS6tVm8
 
 sprite $AzureInformationMd [14x14/16z] DKu50W0X21kv-_-BJshcGW60U6I62meQsGWzOhD3sb5uaYa-gIAaHnFL_1xBWI2ABTLbdUIoz2B7N88ybWAjX6c91i2gL4ieIFVHNVy
 
-!function AzureInformation($id, $name="Information", $tech="")
+!procedure AzureInformation($id, $name="Information", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureInformation', $name, $tech)
-!endfunction
-!function AzureInformationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureInformationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureInformationMd>', 'Information', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

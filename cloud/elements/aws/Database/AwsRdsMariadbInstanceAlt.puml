@@ -3,10 +3,10 @@ sprite $AwsRdsMariadbInstanceAltLg [20x20/16z] tL350SKW32LFzv-unkdB18Mu9-ZFGxc-7
 
 sprite $AwsRdsMariadbInstanceAltMd [14x14/16z] lSU70S0020911TxzDqvl4-IiX8_GTUhgPXF9Cfcm6x8DU-gIrDerrCSFANna1G
 
-!function AwsRdsMariadbInstanceAlt($id, $name="Rds Mariadb Instance Alt", $tech="")
+!procedure AwsRdsMariadbInstanceAlt($id, $name="Rds Mariadb Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsMariadbInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsMariadbInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsMariadbInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsMariadbInstanceAltMd>', 'Rds Mariadb Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

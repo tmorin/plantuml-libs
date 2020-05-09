@@ -6,10 +6,10 @@ WHKUiTnjiHIijfzPv2pzK_i3
 
 sprite $AzureSolutionsMd [14x14/16z] ZSa74S0m30H1oVd6dx0hWQphZUfgsaOzBHzynHi0xiZXaCUdKyD1K_052_fQSJQm6UxYgw7OLkymVB4BsxXNLzMRxQkERCYVMW
 
-!function AzureSolutions($id, $name="Solutions", $tech="")
+!procedure AzureSolutions($id, $name="Solutions", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureSolutions', $name, $tech)
-!endfunction
-!function AzureSolutionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSolutionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSolutionsMd>', 'Solutions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

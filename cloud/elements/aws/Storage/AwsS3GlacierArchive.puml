@@ -3,10 +3,10 @@ sprite $AwsS3GlacierArchiveLg [20x20/16z] tT255S0W40FGiuJzDsuUpWhzk8k9bqIKk4r05J
 
 sprite $AwsS3GlacierArchiveMd [14x14/16z] hOw53GC1548Vjl_ApVa2_OB404ZF2SUuqYRLXviv71uSQciF57YzPmO7Q84Spe_p_rnqDLCC-jB53m
 
-!function AwsS3GlacierArchive($id, $name="S3 Glacier Archive", $tech="")
+!procedure AwsS3GlacierArchive($id, $name="S3 Glacier Archive", $tech="")
   CloudElement($id, 'aws/Storage/AwsS3GlacierArchive', $name, $tech)
-!endfunction
-!function AwsS3GlacierArchiveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsS3GlacierArchiveCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsS3GlacierArchiveMd>', 'S3 Glacier Archive', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

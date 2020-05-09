@@ -3,10 +3,10 @@ sprite $MaterialsInboxLg [20x20/16z] nT053WH124HHfBsH-vzsVSSjEZzMUL60wr6OH5yIwKC
 
 sprite $MaterialsInboxMd [14x14/16z] bSw53S0020H0-2hoOVzfwnxjHN7aGt7GDR3nO4k8KO-U4MiaXv-H0R80R8sIR4LQCjU8LT5rKSKbKkF1zFtPnmm
 
-!function MaterialsInbox($id, $name="Inbox", $tech="")
+!procedure MaterialsInbox($id, $name="Inbox", $tech="")
   CloudElement($id, 'materials/Content/MaterialsInbox', $name, $tech)
-!endfunction
-!function MaterialsInboxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInboxCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInboxMd>', 'Inbox', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ VVYhg6Oz
 
 sprite $AzureEventGridSubscriptionsMd [14x14/16z] NSu50e0m30F0Didq_mzcmU7csiwlqMzZpfvnoZu9Jq3AVPY4S-O5mGLXQoAO5wML9Z_R9IhJpqvP9D5hmaj39DxHso-phmq
 
-!function AzureEventGridSubscriptions($id, $name="Event Grid Subscriptions", $tech="")
+!procedure AzureEventGridSubscriptions($id, $name="Event Grid Subscriptions", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureEventGridSubscriptions', $name, $tech)
-!endfunction
-!function AzureEventGridSubscriptionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEventGridSubscriptionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEventGridSubscriptionsMd>', 'Event Grid Subscriptions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

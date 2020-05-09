@@ -3,10 +3,10 @@ sprite $MaterialsContentPasteLg [20x20/16z] rT255S0W30JGv1wk-q-BKr-W7tUXHNWlwCG0
 
 sprite $MaterialsContentPasteMd [14x14/16z] hSut0eKm201GQcZ_w_rFQq4cPz-KqE564GGFDKlLDDEEI-uHUygT9qUhYw7t3x31_CQ7ls1gtDUf3OMN4m
 
-!function MaterialsContentPaste($id, $name="Content Paste", $tech="")
+!procedure MaterialsContentPaste($id, $name="Content Paste", $tech="")
   CloudElement($id, 'materials/Content/MaterialsContentPaste', $name, $tech)
-!endfunction
-!function MaterialsContentPasteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContentPasteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContentPasteMd>', 'Content Paste', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ C2y_odpyu-sRmJUhlqm
 
 sprite $MaterialsSchoolMd [14x14/16z] XKt50G0n2CEfi_-qv_eghWdCX5FckwRK8qOwUl8UXtGd0DsQgotyBBULotQBdCP8Z61RXyx8cpaUNOd4dAAWyi4mUX-9VkmpMG4
 
-!function MaterialsSchool($id, $name="School", $tech="")
+!procedure MaterialsSchool($id, $name="School", $tech="")
   CloudElement($id, 'materials/Social/MaterialsSchool', $name, $tech)
-!endfunction
-!function MaterialsSchoolCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSchoolCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSchoolMd>', 'School', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

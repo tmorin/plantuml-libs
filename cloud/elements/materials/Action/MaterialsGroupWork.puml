@@ -6,10 +6,10 @@ DyHGYnQoT0-enQ86E02Z041SE5dFVFJ3cRUxRKhqCeEVMHqp_T44
 
 sprite $MaterialsGroupWorkMd [14x14/16z] PKu50e102CFfhe_z_xTsqytiHs2Cn96moLsDUoBbSSpIcgAjVgqrR4vn6AAsukeyPr-BQnR1tecuPdIOvRmSSAvN9aCjiAbXUvUALDBvi6cXnW-oByq
 
-!function MaterialsGroupWork($id, $name="Group Work", $tech="")
+!procedure MaterialsGroupWork($id, $name="Group Work", $tech="")
   CloudElement($id, 'materials/Action/MaterialsGroupWork', $name, $tech)
-!endfunction
-!function MaterialsGroupWorkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGroupWorkCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGroupWorkMd>', 'Group Work', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

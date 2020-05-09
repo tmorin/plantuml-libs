@@ -6,10 +6,10 @@ FvZCr7s_-dxwVZy2
 
 sprite $MaterialsCompareMd [14x14/16z] ZKw35SH041rpqN-rP-Ofoz47F1R3Uo4H9zvUl2SvvqpKYBobDFVUUIy7_MHm8XiMIEzi2GKwlp83l6NDZwnLDD5t5JtLrosxMpWu-tTz1G
 
-!function MaterialsCompare($id, $name="Compare", $tech="")
+!procedure MaterialsCompare($id, $name="Compare", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCompare', $name, $tech)
-!endfunction
-!function MaterialsCompareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCompareCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCompareMd>', 'Compare', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

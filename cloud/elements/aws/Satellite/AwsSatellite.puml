@@ -6,10 +6,10 @@ DdMs3vq
 
 sprite $AwsSatelliteMd [14x14/16z] TOs30K0n34Il26__UR-DryR2dQu73L3cmcHaYdBdY29COel2m_M8B4dNDPgSgMgMQnHg7Xx75f_8lmj7rEIW0IW7m0W
 
-!function AwsSatellite($id, $name="Satellite", $tech="")
+!procedure AwsSatellite($id, $name="Satellite", $tech="")
   CloudElement($id, 'aws/Satellite/AwsSatellite', $name, $tech)
-!endfunction
-!function AwsSatelliteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSatelliteCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSatelliteMd>', 'Satellite', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

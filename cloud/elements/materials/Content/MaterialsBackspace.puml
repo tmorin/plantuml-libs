@@ -3,10 +3,10 @@ sprite $MaterialsBackspaceLg [20x20/16z] bP050e0m2009E___MtUpMqzNDCWVFDdWYYZjTnH
 
 sprite $MaterialsBackspaceMd [14x14/16z] NOw50SGm200XxhV_j2_rSX5SnABkH7z6cITL9C9Qm0J43KXXR0yjGDQGD4n802IHds6iLwRjOYQyfflDNdm1
 
-!function MaterialsBackspace($id, $name="Backspace", $tech="")
+!procedure MaterialsBackspace($id, $name="Backspace", $tech="")
   CloudElement($id, 'materials/Content/MaterialsBackspace', $name, $tech)
-!endfunction
-!function MaterialsBackspaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBackspaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBackspaceMd>', 'Backspace', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

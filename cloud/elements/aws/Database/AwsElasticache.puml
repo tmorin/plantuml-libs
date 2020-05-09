@@ -6,10 +6,10 @@ mq0IU9YHZvritM9NQjmcBQThBQtkhttY1G
 
 sprite $AwsElasticacheMd [14x14/16z] RSq50i0W50BGrI-y_tq7wn3pcG3gJ2PrcqecjbG1lXonJSQoTHAFkAhlSfDCQd2pa1QZMfM7c4anxeG3kpBq8KW9nLDG20NeQ0K
 
-!function AwsElasticache($id, $name="Elasticache", $tech="")
+!procedure AwsElasticache($id, $name="Elasticache", $tech="")
   CloudElement($id, 'aws/Database/AwsElasticache', $name, $tech)
-!endfunction
-!function AwsElasticacheCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticacheCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticacheMd>', 'Elasticache', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ mDjM63Tsn_5OammAmgzqsvuU1WxniIdfJZpRjgT--hBE-i0_
 
 sprite $AwsElasticInferenceMd [14x14/16z] DSY70SKm30BHNtI0lV_08UrSdrRkVBLUFYfbEOyy6g57aZ1_nvK1DPmA5U0gUqb0CkDg1p4njxPipVn_jm8C_r7LLgVkkLNVFNfv
 
-!function AwsElasticInference($id, $name="Elastic Inference", $tech="")
+!procedure AwsElasticInference($id, $name="Elastic Inference", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsElasticInference', $name, $tech)
-!endfunction
-!function AwsElasticInferenceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticInferenceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticInferenceMd>', 'Elastic Inference', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

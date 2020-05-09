@@ -6,10 +6,10 @@ zxG
 
 sprite $AwsAppMeshMd [14x14/16z] XSsf0GLH5C9G1PVGVxz_cNtKYpigNPOyOLySq-BP9GDOkm8Iv5HdUieKYW-vINseH0gl-x8l
 
-!function AwsAppMesh($id, $name="App Mesh", $tech="")
+!procedure AwsAppMesh($id, $name="App Mesh", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsAppMesh', $name, $tech)
-!endfunction
-!function AwsAppMeshCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAppMeshCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAppMeshMd>', 'App Mesh', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

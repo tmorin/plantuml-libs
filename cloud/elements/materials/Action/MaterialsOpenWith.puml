@@ -6,10 +6,10 @@ umu
 
 sprite $MaterialsOpenWithMd [14x14/16z] NOx50S1G5C88TTz_slhNd9u2UW4b60QovZXIwsxRElyRYsL1vZthm8PkuFdP5ajUjcEWx8hBIYKvrEvriZBr1G
 
-!function MaterialsOpenWith($id, $name="Open With", $tech="")
+!procedure MaterialsOpenWith($id, $name="Open With", $tech="")
   CloudElement($id, 'materials/Action/MaterialsOpenWith', $name, $tech)
-!endfunction
-!function MaterialsOpenWithCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsOpenWithCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsOpenWithMd>', 'Open With', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

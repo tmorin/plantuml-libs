@@ -9,10 +9,10 @@ NSY5OKKn34DH6QK7-yzR9_ryWhuOULyVCEhmbzp5kzBdiVLVnSWgSZfi5rDXb2ohVPKaF5O9IykOmeGE
 EHxwAYko30-y6jykuiSV
 }
 
-!function AzureMonitorRunningApps($id, $name="Monitor Running Apps", $tech="")
+!procedure AzureMonitorRunningApps($id, $name="Monitor Running Apps", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMonitorRunningApps', $name, $tech)
-!endfunction
-!function AzureMonitorRunningAppsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMonitorRunningAppsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMonitorRunningAppsMd>', 'Monitor Running Apps', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

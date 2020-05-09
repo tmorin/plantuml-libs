@@ -6,10 +6,10 @@ JsCO_R6qWNneTy5c41rkd-u
 
 sprite $BrandPortainerMd [14x14/16z] LOv50a112497mRh_WNzEleqjj1-qXS0WFLKQ2AFy5GYdgeoX4kF83MApCkUQ8JCnArObPwKH6R6gUh2r-H37pDi0pcxp1W
 
-!function BrandPortainer($id, $name="Portainer", $tech="")
+!procedure BrandPortainer($id, $name="Portainer", $tech="")
   PersoElement($id, 'brand/BrandPortainer', $name, $tech)
-!endfunction
-!function BrandPortainerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandPortainerCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandPortainerMd>', 'Portainer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

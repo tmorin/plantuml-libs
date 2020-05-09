@@ -4,9 +4,9 @@ jO_L0GCm24JnE_PVkB7wTruK1xc5XVtfilDRKIWkdVehhYUf8W4xNhsXYGEOheu-X2Snt3L80EEifsm4
 Kxd40m
 }
 
-!function BrandGroupSwarm($id, $name="Swarm", $tech="")
+!procedure BrandGroupSwarm($id, $name="Swarm", $tech="")
   PersoGroup($id, "BrandGroupSwarm", "<$BrandGroupSwarmLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<BrandGroupSwarm>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

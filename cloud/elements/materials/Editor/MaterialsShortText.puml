@@ -3,10 +3,10 @@ sprite $MaterialsShortTextLg [20x20/16z] OnXSW8a52J11n5XvUU20bnKYneW24688BamlN1l
 
 sprite $MaterialsShortTextMd [14x14/16z] Ow0IO6Pd0mDsPX2FYHaAc10yL9MC3DG3
 
-!function MaterialsShortText($id, $name="Short Text", $tech="")
+!procedure MaterialsShortText($id, $name="Short Text", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsShortText', $name, $tech)
-!endfunction
-!function MaterialsShortTextCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsShortTextCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsShortTextMd>', 'Short Text', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

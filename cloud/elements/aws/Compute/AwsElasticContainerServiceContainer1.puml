@@ -3,10 +3,10 @@ sprite $AwsElasticContainerServiceContainer1Lg [20x20/16z] lS-r0S0m30J01_t-8uSvN
 
 sprite $AwsElasticContainerServiceContainer1Md [14x14/16z] XOp50G0m2CGumluhr-r5Wwibo1yKt89Pq7H4MjpwhNWgjSUkfYqIF8JfmJ8g
 
-!function AwsElasticContainerServiceContainer1($id, $name="Elastic Container Service Container1", $tech="")
+!procedure AwsElasticContainerServiceContainer1($id, $name="Elastic Container Service Container1", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticContainerServiceContainer1', $name, $tech)
-!endfunction
-!function AwsElasticContainerServiceContainer1Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticContainerServiceContainer1Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticContainerServiceContainer1Md>', 'Elastic Container Service Container1', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

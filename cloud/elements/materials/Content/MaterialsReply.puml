@@ -3,10 +3,10 @@ sprite $MaterialsReplyLg [20x20/16z] jS-r0G0X04DHt27xJtlkeJn--Qf4Z4bAfg2OcY82h28
 
 sprite $MaterialsReplyMd [14x14/16z] Oo0DC2DpsDYHEVpSh4m83X3mSZ31U6301UToix5pyNCo8anXPEPWGRQ1aOKKHm4
 
-!function MaterialsReply($id, $name="Reply", $tech="")
+!procedure MaterialsReply($id, $name="Reply", $tech="")
   CloudElement($id, 'materials/Content/MaterialsReply', $name, $tech)
-!endfunction
-!function MaterialsReplyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsReplyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsReplyMd>', 'Reply', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

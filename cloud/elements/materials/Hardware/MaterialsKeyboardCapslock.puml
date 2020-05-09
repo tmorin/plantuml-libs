@@ -3,10 +3,10 @@ sprite $MaterialsKeyboardCapslockLg [20x20/16z] lSgr0OG040J0FVy7hlzoSO_moLRm9G_2
 
 sprite $MaterialsKeyboardCapslockMd [14x14/16z] Oo0HC34XSpYvc90upCoSC2uZ9pC30pCd8qmEJc0Qo0O6J50U2nWmaUGc
 
-!function MaterialsKeyboardCapslock($id, $name="Keyboard Capslock", $tech="")
+!procedure MaterialsKeyboardCapslock($id, $name="Keyboard Capslock", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardCapslock', $name, $tech)
-!endfunction
-!function MaterialsKeyboardCapslockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardCapslockCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardCapslockMd>', 'Keyboard Capslock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsRdsLg [20x20/16z] fP253G0n30C50Rk__xvVPc5FP8NZy8Qf7L85BGRHceInA4Ov-cb
 
 sprite $AwsRdsMd [14x14/16z] VOt50K0n349F0Lxtt_UxI-CAhIlIDKlCYMqAiGFhYLDsnMi3iWkyhfXtRCkibsbtb3l3Wxqh8m
 
-!function AwsRds($id, $name="Rds", $tech="")
+!procedure AwsRds($id, $name="Rds", $tech="")
   CloudElement($id, 'aws/Database/AwsRds', $name, $tech)
-!endfunction
-!function AwsRdsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsMd>', 'Rds', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

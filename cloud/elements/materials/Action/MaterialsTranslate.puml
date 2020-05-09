@@ -6,10 +6,10 @@ WyQEffsmC52b2V64vaiFywvp9RmbocOM6I-peRb5Fh4rlDdPRXrKWZSD
 
 sprite $MaterialsTranslateMd [14x14/16z] POs50KD124CJ953TVzlskxuxt733SlCazKkf62F6I3xJrpBWXHKvoW0kjQu4yh64zNMmd_EaAfekrnmGRaeRMwcndyz7lm8B8N8_apOguiGV
 
-!function MaterialsTranslate($id, $name="Translate", $tech="")
+!procedure MaterialsTranslate($id, $name="Translate", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTranslate', $name, $tech)
-!endfunction
-!function MaterialsTranslateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTranslateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTranslateMd>', 'Translate', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

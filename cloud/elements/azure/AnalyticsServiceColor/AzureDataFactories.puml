@@ -6,10 +6,10 @@ tc_R
 
 sprite $AzureDataFactoriesMd [14x14/16z] PSU50O0m34JH9YTb_uLngFrAyWhEehm19F9JjSxYqrPj_wgdj0Wdy8agGJzAtk-HzRucwnL2cGeyOWfGFcgDEW
 
-!function AzureDataFactories($id, $name="Data Factories", $tech="")
+!procedure AzureDataFactories($id, $name="Data Factories", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureDataFactories', $name, $tech)
-!endfunction
-!function AzureDataFactoriesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataFactoriesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataFactoriesMd>', 'Data Factories', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

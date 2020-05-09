@@ -3,10 +3,10 @@ sprite $MaterialsFeaturedVideoLg [20x20/16z] bT033W1144JH7gDr_zEkxVtnIqK5NpF-a06
 
 sprite $MaterialsFeaturedVideoMd [14x14/16z] XSwr0G0X30107EBxJ_lkUXN4tPaF6-y2j17BW4AgKm7QAANYHl3ug_vOoGW0gClFDZ-_GBAXSBxih0S
 
-!function MaterialsFeaturedVideo($id, $name="Featured Video", $tech="")
+!procedure MaterialsFeaturedVideo($id, $name="Featured Video", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFeaturedVideo', $name, $tech)
-!endfunction
-!function MaterialsFeaturedVideoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFeaturedVideoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFeaturedVideoMd>', 'Featured Video', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

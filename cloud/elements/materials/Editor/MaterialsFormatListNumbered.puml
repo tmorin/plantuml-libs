@@ -3,10 +3,10 @@ sprite $MaterialsFormatListNumberedLg [20x20/16z] fOwr0S1024Lns7_XU9fpUILyWnrGCJ
 
 sprite $MaterialsFormatListNumberedMd [14x14/16z] VOs35G0W443Fh_qNpjQli-078s0bHaHWhX13N6fHJR20Q27cXKUqTn8l5mod2ooZzYK
 
-!function MaterialsFormatListNumbered($id, $name="Format List Numbered", $tech="")
+!procedure MaterialsFormatListNumbered($id, $name="Format List Numbered", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatListNumbered', $name, $tech)
-!endfunction
-!function MaterialsFormatListNumberedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatListNumberedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatListNumberedMd>', 'Format List Numbered', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

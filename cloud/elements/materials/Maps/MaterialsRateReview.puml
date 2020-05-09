@@ -6,10 +6,10 @@ xvQjPdHfI31j-LA2QKlF2kY_VW
 
 sprite $MaterialsRateReviewMd [14x14/16z] TSU30K0n34NHLoFQVzflunR9mRrGZW9GR4fhd_woIZCy7yf0sBI2RDM2rXkjYWZPEPTMjKAjbD9M7UL9akAMcnHnoUEt4G
 
-!function MaterialsRateReview($id, $name="Rate Review", $tech="")
+!procedure MaterialsRateReview($id, $name="Rate Review", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsRateReview', $name, $tech)
-!endfunction
-!function MaterialsRateReviewCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRateReviewCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRateReviewMd>', 'Rate Review', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

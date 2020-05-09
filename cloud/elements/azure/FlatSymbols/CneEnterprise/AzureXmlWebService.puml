@@ -6,10 +6,10 @@ XOLw5RFMZ1EyvjGbt1BjUtF5wcBMwYSIc_jZZAWCC3Y32sRM6wDz8-xIBZpJtnpmwpu
 
 sprite $AzureXmlWebServiceMd [14x14/16z] JSU50G0n3090g0l9_jk-IoyABYdZnp7vfs9Uln1qY7WqBzaw3YIY3Q9REdxDrAtbt6oagTcAzUP-JAsJOIhmc215ede3SiNrHBdcpIsNiMWuiLRYG-bEEm
 
-!function AzureXmlWebService($id, $name="Xml Web Service", $tech="")
+!procedure AzureXmlWebService($id, $name="Xml Web Service", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureXmlWebService', $name, $tech)
-!endfunction
-!function AzureXmlWebServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureXmlWebServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureXmlWebServiceMd>', 'Xml Web Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

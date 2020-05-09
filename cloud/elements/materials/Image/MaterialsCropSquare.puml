@@ -3,10 +3,10 @@ sprite $MaterialsCropSquareLg [20x20/16z] Ow0GiB310GjCY8yB3lYWWcnSJ8nGmCJ51XNZP8
 
 sprite $MaterialsCropSquareMd [14x14/16z] Oy0B65dPm82L4SHZPMS10tPM48-D1QA6XOrwF8GDQBRZ1G
 
-!function MaterialsCropSquare($id, $name="Crop Square", $tech="")
+!procedure MaterialsCropSquare($id, $name="Crop Square", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCropSquare', $name, $tech)
-!endfunction
-!function MaterialsCropSquareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCropSquareCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCropSquareMd>', 'Crop Square', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

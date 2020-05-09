@@ -6,10 +6,10 @@ DzAv0uSrkpDjF4mp4NvzustNfopqARqjTFwDbT1L_W4
 
 sprite $MaterialsPaletteMd [14x14/16z] POxL0G0n24DRdEh-snxdzhxG9EbF1iXNGrghyj6hPf6ilhKy7StGfwm_XZ83mNK93hHs54LqhRQrQtNTPPyhOnJSLGAz77NzIXViNPx9rhC_2m
 
-!function MaterialsPalette($id, $name="Palette", $tech="")
+!procedure MaterialsPalette($id, $name="Palette", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPalette', $name, $tech)
-!endfunction
-!function MaterialsPaletteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPaletteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPaletteMd>', 'Palette', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

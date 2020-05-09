@@ -6,10 +6,10 @@ z1KROJnMvlo7hbucXkMqSWQYv00QUxQRcSKvcxKRk7V0sPzKFV-qJUe4
 
 sprite $MaterialsVisibilityOffMd [14x14/16z] VOo50SL0348XXQkSPFzflxlqnHLxo00ZU2kBMMfjotIjqYJLkW4ensO4Jr68cZKMCtXEpXMTngM2HefUp982uDx4sCphqsbfjTRDkC48iXWlKFZW2
 
-!function MaterialsVisibilityOff($id, $name="Visibility Off", $tech="")
+!procedure MaterialsVisibilityOff($id, $name="Visibility Off", $tech="")
   CloudElement($id, 'materials/Action/MaterialsVisibilityOff', $name, $tech)
-!endfunction
-!function MaterialsVisibilityOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVisibilityOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVisibilityOffMd>', 'Visibility Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

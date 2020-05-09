@@ -6,10 +6,10 @@ t6AqRVuTBBueX2TkxetnfcQAhn3mrmm
 
 sprite $MaterialsPermScanWifiMd [14x14/16z] RSU55GH120FGaF41NlglzjnlFnhyCz9mnxOyqrSZm1wIUh-iwEowQarNtURrh7NTqs3xSakvh4q09Uuf2gvgNbDMt7NDgOwd8Gsys5g6Dn87pW
 
-!function MaterialsPermScanWifi($id, $name="Perm Scan Wifi", $tech="")
+!procedure MaterialsPermScanWifi($id, $name="Perm Scan Wifi", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermScanWifi', $name, $tech)
-!endfunction
-!function MaterialsPermScanWifiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermScanWifiCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermScanWifiMd>', 'Perm Scan Wifi', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

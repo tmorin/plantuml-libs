@@ -6,10 +6,10 @@ uknAM2ZcpczWaZUOwkGB
 
 sprite $MaterialsPermContactCalendarMd [14x14/16z] NSxL0K0X34FH1DTs_scV2t3HyrS0D3Won1b3D4Sny4GMwKSY-Q3fgjNxgjhDBGUuJt8-yaeZ6VMJv2olUh2a3VrMm5Mu5TrLFCNSdpAlCP-8fHq
 
-!function MaterialsPermContactCalendar($id, $name="Perm Contact Calendar", $tech="")
+!procedure MaterialsPermContactCalendar($id, $name="Perm Contact Calendar", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermContactCalendar', $name, $tech)
-!endfunction
-!function MaterialsPermContactCalendarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermContactCalendarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermContactCalendarMd>', 'Perm Contact Calendar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

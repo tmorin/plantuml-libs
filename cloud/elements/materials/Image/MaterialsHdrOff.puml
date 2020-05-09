@@ -3,10 +3,10 @@ sprite $MaterialsHdrOffLg [20x20/16z] jOxL0G9G24M90oymzf_MziTEkhdoAZdNDHi_Bff9B1
 
 sprite $MaterialsHdrOffMd [14x14/16z] ZOp50O00549_0UR-uredMz-Dj2DnKAY_qZEwSdWIYug6P6M2YaMnK6CPfAtf6LI5v-NgfmmxCWC
 
-!function MaterialsHdrOff($id, $name="Hdr Off", $tech="")
+!procedure MaterialsHdrOff($id, $name="Hdr Off", $tech="")
   CloudElement($id, 'materials/Image/MaterialsHdrOff', $name, $tech)
-!endfunction
-!function MaterialsHdrOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHdrOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHdrOffMd>', 'Hdr Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

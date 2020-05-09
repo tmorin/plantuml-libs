@@ -6,10 +6,10 @@ pWe
 
 sprite $MaterialsSpeakerPhoneMd [14x14/16z] dOp50OK03CMQLzr_uQyuDr9N-m6sGiw7v5zC2LJpBuLNER8_qUuTsw50sn_D1ssLFlQa2YcsYlw0tNW3
 
-!function MaterialsSpeakerPhone($id, $name="Speaker Phone", $tech="")
+!procedure MaterialsSpeakerPhone($id, $name="Speaker Phone", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsSpeakerPhone', $name, $tech)
-!endfunction
-!function MaterialsSpeakerPhoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSpeakerPhoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSpeakerPhoneMd>', 'Speaker Phone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

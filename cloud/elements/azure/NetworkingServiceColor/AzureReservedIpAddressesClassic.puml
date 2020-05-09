@@ -3,10 +3,10 @@ sprite $AzureReservedIpAddressesClassicLg [24x20/16z] tSYd5SGm40N0UxVIJ_qNRAh8Z3
 
 sprite $AzureReservedIpAddressesClassicMd [17x14/16z] jSVL0OC030JG5aXEzjyNzn_yHK-YryIeW9YbMPKPnQoIa5epzl8hOD_ASsAV6m
 
-!function AzureReservedIpAddressesClassic($id, $name="Reserved Ip Addresses Classic", $tech="")
+!procedure AzureReservedIpAddressesClassic($id, $name="Reserved Ip Addresses Classic", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureReservedIpAddressesClassic', $name, $tech)
-!endfunction
-!function AzureReservedIpAddressesClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureReservedIpAddressesClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureReservedIpAddressesClassicMd>', 'Reserved Ip Addresses Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

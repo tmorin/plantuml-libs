@@ -6,10 +6,10 @@ VP075iCm34830ld-DovjinSP_i_Qcdu2AoAcLNGasMqkLnqweSOI10xDTvsWdmBBNKumGdYzOot9jpk0
 
 sprite $AwsIotAnalyticsDataStoreMd [14x14/16z] POw50S0W30JpmluZjxWU6l-8W9mHea2J0FDJB2TcDvXSBRLCLKkaoejwsq3rjin9poGmCxFP9hK9LiPfzYp9r3k15W6gATjL_m
 
-!function AwsIotAnalyticsDataStore($id, $name="Iot Analytics Data Store", $tech="")
+!procedure AwsIotAnalyticsDataStore($id, $name="Iot Analytics Data Store", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalyticsDataStore', $name, $tech)
-!endfunction
-!function AwsIotAnalyticsDataStoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotAnalyticsDataStoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotAnalyticsDataStoreMd>', 'Iot Analytics Data Store', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

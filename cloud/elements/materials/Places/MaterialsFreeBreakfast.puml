@@ -3,10 +3,10 @@ sprite $MaterialsFreeBreakfastLg [20x20/16z] ZT350GCW343H9BZlFsszkFtZmu7xYDVHnqJ
 
 sprite $MaterialsFreeBreakfastMd [14x14/16z] PSx50G0W2010iDlzfxNR-z700ybK8nvyepMlKUmObKSa-1bfISzEW2-YeGMEGCDKqOOQhE0eLUpw3E6H0G
 
-!function MaterialsFreeBreakfast($id, $name="Free Breakfast", $tech="")
+!procedure MaterialsFreeBreakfast($id, $name="Free Breakfast", $tech="")
   CloudElement($id, 'materials/Places/MaterialsFreeBreakfast', $name, $tech)
-!endfunction
-!function MaterialsFreeBreakfastCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFreeBreakfastCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFreeBreakfastMd>', 'Free Breakfast', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

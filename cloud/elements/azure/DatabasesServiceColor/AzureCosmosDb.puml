@@ -9,10 +9,10 @@ NOj1WWD010G1PWR__-wsqoRfMwb2pFGnLlr19XOLzljURAmUuPgXFWW4O0fFra0u45YUuziSAMOlLwg2
 oUuzjZqS_ETm-WC
 }
 
-!function AzureCosmosDb($id, $name="Cosmos Db", $tech="")
+!procedure AzureCosmosDb($id, $name="Cosmos Db", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureCosmosDb', $name, $tech)
-!endfunction
-!function AzureCosmosDbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCosmosDbCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCosmosDbMd>', 'Cosmos Db', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureGenericAppLg [30x20/16z] jS-34KH144NHSJF_T9TlyUrJxBf3luvDUyIQ9v5R2f
 
 sprite $AzureGenericAppMd [21x14/16z] ZSl50G113090M8_qN--vwtoY-6-cLowyYDR0E0B2tB1VPXyeaUkWyB1CUNI__8x7DCAmJ3OG8hT17J_14S0m86WImraojoll
 
-!function AzureGenericApp($id, $name="Generic App", $tech="")
+!procedure AzureGenericApp($id, $name="Generic App", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGenericApp', $name, $tech)
-!endfunction
-!function AzureGenericAppCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGenericAppCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGenericAppMd>', 'Generic App', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

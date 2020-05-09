@@ -6,10 +6,10 @@ _USiw_ZkwJfoytutvmu
 
 sprite $AwsDeeplensMd [14x14/16z] LSV50SCm50MmmYDt_u7xanXrKphVshcgAVDPqIrz5i5zb98nYKhvrOBl5xbNDMJwNjNAs5qRRlTA4cMkFVh6ymS
 
-!function AwsDeeplens($id, $name="Deeplens", $tech="")
+!procedure AwsDeeplens($id, $name="Deeplens", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeeplens', $name, $tech)
-!endfunction
-!function AwsDeeplensCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeeplensCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeeplensMd>', 'Deeplens', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ W1nPkOmIlAl-0xxX3m
 
 sprite $MaterialsVoicemailMd [14x14/16z] dKhL0O1G20IEPlzvxN_raLVqlHYGyuk2YJEyb4ZB8pdia8kvZe35dB40uWnFuNWfaiT3QK6yWNOv227ogG2jrWu
 
-!function MaterialsVoicemail($id, $name="Voicemail", $tech="")
+!procedure MaterialsVoicemail($id, $name="Voicemail", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsVoicemail', $name, $tech)
-!endfunction
-!function MaterialsVoicemailCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVoicemailCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVoicemailMd>', 'Voicemail', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

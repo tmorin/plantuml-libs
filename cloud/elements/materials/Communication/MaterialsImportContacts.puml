@@ -3,10 +3,10 @@ sprite $MaterialsImportContactsLg [20x20/16z] pOz55W9034ERTgIIUTp_j3XiSVcRkaHU0w
 
 sprite $MaterialsImportContactsMd [14x14/16z] fSV50SC030D0cQcm_xHbU1MId57uYeK9eCkv_Ba_72QY8Z9PZrSx9G2XzrIuygs9M5HIPS8zEzCzMeXmmOoB-_zs1W
 
-!function MaterialsImportContacts($id, $name="Import Contacts", $tech="")
+!procedure MaterialsImportContacts($id, $name="Import Contacts", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsImportContacts', $name, $tech)
-!endfunction
-!function MaterialsImportContactsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsImportContactsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsImportContactsMd>', 'Import Contacts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

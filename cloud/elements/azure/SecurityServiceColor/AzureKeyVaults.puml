@@ -6,10 +6,10 @@ laRp-K8jaWKJ4bbYGvu
 
 sprite $AzureKeyVaultsMd [13x14/16z] POY5WGH048C8RFyjlvmBemHWvhYoidQDhNztqEmV5ufNq62f3KxyMusROF4jUyYEFIH9yBg06hBY7wjp17u1
 
-!function AzureKeyVaults($id, $name="Key Vaults", $tech="")
+!procedure AzureKeyVaults($id, $name="Key Vaults", $tech="")
   CloudElement($id, 'azure/SecurityServiceColor/AzureKeyVaults', $name, $tech)
-!endfunction
-!function AzureKeyVaultsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureKeyVaultsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureKeyVaultsMd>', 'Key Vaults', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

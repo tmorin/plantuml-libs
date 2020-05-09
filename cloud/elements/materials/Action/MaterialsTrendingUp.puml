@@ -3,10 +3,10 @@ sprite $MaterialsTrendingUpLg [20x20/16z] nSk53OHG50NH--oxz5_jAWvnPE8d6LmQ7P2FCV
 
 sprite $MaterialsTrendingUpMd [14x14/16z] bSV50O0m30NGkA3xJulJzXh_3-g58ZpGTdy3NOkHhtJH2uhy82Wi5E050lwG2xtmHRLE
 
-!function MaterialsTrendingUp($id, $name="Trending Up", $tech="")
+!procedure MaterialsTrendingUp($id, $name="Trending Up", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTrendingUp', $name, $tech)
-!endfunction
-!function MaterialsTrendingUpCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTrendingUpCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTrendingUpMd>', 'Trending Up', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

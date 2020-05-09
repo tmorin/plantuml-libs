@@ -6,10 +6,10 @@ R
 
 sprite $AwsElementalMedialiveMd [14x14/16z] XSsd0K110C9G0ydjl_3lLLqKJp5c2JvRMlH4kwlnK30CBY5jvLJtqbuYjTmgIklzaA2_zrah
 
-!function AwsElementalMedialive($id, $name="Elemental Medialive", $tech="")
+!procedure AwsElementalMedialive($id, $name="Elemental Medialive", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMedialive', $name, $tech)
-!endfunction
-!function AwsElementalMedialiveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalMedialiveCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalMedialiveMd>', 'Elemental Medialive', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

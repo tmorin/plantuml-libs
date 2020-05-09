@@ -6,10 +6,10 @@ ZO-50O1024Kfh_NlFwtT_Ivfe0KHkk3zHQLDesTT1LHd7NlFjF6t1glrf3JSofCgOCUKLN501vq1I0dB
 
 sprite $MaterialsCakeMd [14x14/16z] JOq54W0X30Dfk4dE-VzhSLkqibDN0To6j0LstxQ5thkDuvXvajT5qbSdT8gBBvndAET3hea62KPPdIm25522-mtXBUT6zJhLepeitau2
 
-!function MaterialsCake($id, $name="Cake", $tech="")
+!procedure MaterialsCake($id, $name="Cake", $tech="")
   CloudElement($id, 'materials/Social/MaterialsCake', $name, $tech)
-!endfunction
-!function MaterialsCakeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCakeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCakeMd>', 'Cake', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

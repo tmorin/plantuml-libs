@@ -6,10 +6,10 @@ C70nrsa2LL3Pn6jzS-_vdng2M7x4z96Yokyp-9xLEjEF-WK
 
 sprite $AwsToolkitMd [14x14/16z] NKu50W0X20CtPlp_mMTUcTJ2vdAtPr7YYJ522dCePZqnrCT9DbWghGSzW_KgLG8hCvGSj9qvii9sDcBrT6QCbk4g9AT2KVya-K_zv-pZ-W8
 
-!function AwsToolkit($id, $name="Toolkit", $tech="")
+!procedure AwsToolkit($id, $name="Toolkit", $tech="")
   CloudElement($id, 'aws/General/AwsToolkit', $name, $tech)
-!endfunction
-!function AwsToolkitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsToolkitCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsToolkitMd>', 'Toolkit', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

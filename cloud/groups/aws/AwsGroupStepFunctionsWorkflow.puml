@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupStepFunctionsWorkflowLg [20x20/16z] bP3L0GCm508h787ils_TlVVv59Z_aZoNuAde7VULDbBQso500doU6MEDHtU4Koso3RF9SD9Z3GaVUrRkQcG7kTkrZTt77twhvLdpixVd39wp-fSj
 
-!function AwsGroupStepFunctionsWorkflow($id, $name="Step Functions workflow", $tech="")
+!procedure AwsGroupStepFunctionsWorkflow($id, $name="Step Functions workflow", $tech="")
   CloudGroup($id, "AwsGroupStepFunctionsWorkflow", "<$AwsGroupStepFunctionsWorkflowLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupStepFunctionsWorkflow>> {
   StereotypeFontColor $AWS_COLOR_VIOLET
   BorderThickness 1

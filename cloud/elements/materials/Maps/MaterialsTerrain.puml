@@ -3,10 +3,10 @@ sprite $MaterialsTerrainLg [20x20/16z] lSp50G9100F0PDtJVxNuwJw1cm86rtB4cUq19wPeE
 
 sprite $MaterialsTerrainMd [14x14/16z] bOl50OC034NZBVhsdnQt8yJpHJw7Ff_yFnxloVCCAHXyUwpjpLfeRVt-q6W2gtNTDDqwKzJZ3fNNCGC
 
-!function MaterialsTerrain($id, $name="Terrain", $tech="")
+!procedure MaterialsTerrain($id, $name="Terrain", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTerrain', $name, $tech)
-!endfunction
-!function MaterialsTerrainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTerrainCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTerrainMd>', 'Terrain', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

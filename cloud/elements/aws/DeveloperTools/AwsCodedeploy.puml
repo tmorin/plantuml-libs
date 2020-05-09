@@ -6,10 +6,10 @@ EpZd17xfOru
 
 sprite $AwsCodedeployMd [14x14/16z] XOh50G11309F6KB__PxhQsSbGTAWc6Vg4kR0LnBg-7Q5B91XLyAJjyjyDDdEyUK08SW5_9I57sK4fC4A
 
-!function AwsCodedeploy($id, $name="Codedeploy", $tech="")
+!procedure AwsCodedeploy($id, $name="Codedeploy", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCodedeploy', $name, $tech)
-!endfunction
-!function AwsCodedeployCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCodedeployCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCodedeployMd>', 'Codedeploy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

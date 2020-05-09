@@ -6,10 +6,10 @@ A0eGIZXceSICpmDoADdfTFGQ3oXBVwx_u-Sv0TNaalhUbEfDcAKj305kvZORIsI-jKGvIApj7my
 
 sprite $MaterialsTimerOffMd [14x14/16z] HKs53SH030iufF_zvwqFr5eGCCc20IOlK8MpcOfwXklzgnTGVUXiiYh-ytqDMVwHFBILOjqBKtfx-M_RhtsUHSfFijLAyR5ptiO9z_nJlA5H5RORFf1x
 
-!function MaterialsTimerOff($id, $name="Timer Off", $tech="")
+!procedure MaterialsTimerOff($id, $name="Timer Off", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTimerOff', $name, $tech)
-!endfunction
-!function MaterialsTimerOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTimerOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTimerOffMd>', 'Timer Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

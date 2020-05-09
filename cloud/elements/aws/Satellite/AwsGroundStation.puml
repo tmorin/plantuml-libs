@@ -6,10 +6,10 @@ kLlZx0Q0RAlDIZ9TtTohlHTwtVq2
 
 sprite $AwsGroundStationMd [14x14/16z] PSl70SC0349HDq0Y--yR8wVdtvwAxNvMvI-EH5sCk6rxlTJStpiHE_bK0GIKsrju7E2XA1Hn8WfBODkdaZZofPRaD9hdVzq1
 
-!function AwsGroundStation($id, $name="Ground Station", $tech="")
+!procedure AwsGroundStation($id, $name="Ground Station", $tech="")
   CloudElement($id, 'aws/Satellite/AwsGroundStation', $name, $tech)
-!endfunction
-!function AwsGroundStationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGroundStationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGroundStationMd>', 'Ground Station', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

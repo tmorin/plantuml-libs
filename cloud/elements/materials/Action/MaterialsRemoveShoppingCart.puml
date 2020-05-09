@@ -6,10 +6,10 @@ RP350KKn2C3Gkkm_xPSAJtCC3hp0_7IQvKKM0LId6zoIIryq1fDvEGy3ZDLatIEbMwO3s8bRPeAD-nKD
 
 sprite $MaterialsRemoveShoppingCartMd [14x14/16z] LOw35S0034HZ5ljFM_C_1WU4BoRV2Ls0JJTCyHWnvftSLLJdEF4f7OynJYbD-pZoEKd8fhq6I26f9qXZ8--HzYUwn-mzjiTp53t-rVyb3LS
 
-!function MaterialsRemoveShoppingCart($id, $name="Remove Shopping Cart", $tech="")
+!procedure MaterialsRemoveShoppingCart($id, $name="Remove Shopping Cart", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRemoveShoppingCart', $name, $tech)
-!endfunction
-!function MaterialsRemoveShoppingCartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRemoveShoppingCartCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRemoveShoppingCartMd>', 'Remove Shopping Cart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

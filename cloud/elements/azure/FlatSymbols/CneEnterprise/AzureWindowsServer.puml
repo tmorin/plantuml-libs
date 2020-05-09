@@ -6,10 +6,10 @@ QcmnthoJtcej3LajRW
 
 sprite $AzureWindowsServerMd [11x14/16z] JSQt0GD120J0DuTdj_zo1HzfeW5NNWEzwjwQgdfkYLLVF_-TRRj2x_jvIOYvPGDaAvZWWZQYCTnEXCM0gu3P9AUdaTYYvPnZKVW1
 
-!function AzureWindowsServer($id, $name="Windows Server", $tech="")
+!procedure AzureWindowsServer($id, $name="Windows Server", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWindowsServer', $name, $tech)
-!endfunction
-!function AzureWindowsServerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWindowsServerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWindowsServerMd>', 'Windows Server', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

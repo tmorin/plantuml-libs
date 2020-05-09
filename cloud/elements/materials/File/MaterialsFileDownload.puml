@@ -3,10 +3,10 @@ sprite $MaterialsFileDownloadLg [20x20/16z] fSs52i0020HGXSEW_F-lNSyW5uysxkWTneRd
 
 sprite $MaterialsFileDownloadMd [14x14/16z] VSp50S0020D0d7hsdxRkTYyqzCGYV7JHTN7gW8zEimAgr3KZC4f-_wC8UgSsMrCyPax_1W
 
-!function MaterialsFileDownload($id, $name="File Download", $tech="")
+!procedure MaterialsFileDownload($id, $name="File Download", $tech="")
   CloudElement($id, 'materials/File/MaterialsFileDownload', $name, $tech)
-!endfunction
-!function MaterialsFileDownloadCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFileDownloadCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFileDownloadMd>', 'File Download', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

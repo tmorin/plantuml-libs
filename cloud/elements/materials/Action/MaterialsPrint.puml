@@ -6,10 +6,10 @@ uCpc-uQVnR3vhVvf0m
 
 sprite $MaterialsPrintMd [14x14/16z] NSx75GGX40DHGTknv9_jwcddnCVMhR4RKmR4tuTUXzWfffZcOfFXp_l8UJXGwvDUgkScNl-gGNnPqLU0ucgzdg1qY9zDfs-JxNu
 
-!function MaterialsPrint($id, $name="Print", $tech="")
+!procedure MaterialsPrint($id, $name="Print", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPrint', $name, $tech)
-!endfunction
-!function MaterialsPrintCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPrintCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPrintMd>', 'Print', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupReplicaPool($id, $name="Replica Pool", $tech="")
+!procedure GcpGroupReplicaPool($id, $name="Replica Pool", $tech="")
   CloudGroup($id, "GcpGroupReplicaPool", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupReplicaPool>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

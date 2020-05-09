@@ -3,10 +3,10 @@ sprite $AwsRdsOracleInstanceAltLg [20x20/16z] rT350G9G30FGDhh_nBZ30dofl6FGhuDoFW
 
 sprite $AwsRdsOracleInstanceAltMd [14x14/16z] jSS50S003CJ0GjBvLpm61RlYen-Cp3WSHsllgaowzjJji3SkfIdqA9eQ6QyznSy9_R01
 
-!function AwsRdsOracleInstanceAlt($id, $name="Rds Oracle Instance Alt", $tech="")
+!procedure AwsRdsOracleInstanceAlt($id, $name="Rds Oracle Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsOracleInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsOracleInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsOracleInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsOracleInstanceAltMd>', 'Rds Oracle Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

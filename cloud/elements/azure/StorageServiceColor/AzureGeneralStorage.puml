@@ -6,10 +6,10 @@ Jm
 
 sprite $AzureGeneralStorageMd [14x14/16z] FSi5WWCW40F0ktOjIV__NHm6NGlmaW8PHsO9ONxbYFo8IB4E369kAo7OTp6phz_89XV3OzZT8kO0jnzNSeCuxuC22hmKe9xe
 
-!function AzureGeneralStorage($id, $name="General Storage", $tech="")
+!procedure AzureGeneralStorage($id, $name="General Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureGeneralStorage', $name, $tech)
-!endfunction
-!function AzureGeneralStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGeneralStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGeneralStorageMd>', 'General Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

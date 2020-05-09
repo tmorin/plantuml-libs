@@ -3,10 +3,10 @@ sprite $AwsSiteToSiteVpnLg [20x20/16z] hOt50G9154EnQFy5iwv7UAFValw1MBccGC7d7DKQn
 
 sprite $AwsSiteToSiteVpnMd [14x14/16z] XSUt0S004CB0wX6m_xxEeRDLwVgRoGjitYU1ooE1DAV2xCebHSeZgYb-PBzIxEXIEKg_Mm4
 
-!function AwsSiteToSiteVpn($id, $name="Site To Site Vpn", $tech="")
+!procedure AwsSiteToSiteVpn($id, $name="Site To Site Vpn", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsSiteToSiteVpn', $name, $tech)
-!endfunction
-!function AwsSiteToSiteVpnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSiteToSiteVpnMd>', 'Site To Site Vpn', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

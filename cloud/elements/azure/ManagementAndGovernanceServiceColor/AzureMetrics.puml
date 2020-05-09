@@ -6,10 +6,10 @@ YUBk_2fgPig_YZi
 
 sprite $AzureMetricsMd [15x14/16z] fOf50e1024NfyFxtfLQwzat03rWa-QRv_kIXEpbMgX4QZPeFsMGBXc88434M8LXUNsJU5CGHY0SwkTWps4b4V4jr_KhxAni
 
-!function AzureMetrics($id, $name="Metrics", $tech="")
+!procedure AzureMetrics($id, $name="Metrics", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureMetrics', $name, $tech)
-!endfunction
-!function AzureMetricsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMetricsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMetricsMd>', 'Metrics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

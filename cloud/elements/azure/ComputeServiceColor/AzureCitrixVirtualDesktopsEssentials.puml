@@ -6,10 +6,10 @@ kEIrCVqgn8QYKWi-FzZFQk-x4DzmlnppLuiHtvgD_xo5FJFW8uFth0gQa4LJLAO8g759PMy5DIlx6m
 
 sprite $AzureCitrixVirtualDesktopsEssentialsMd [14x14/16z] LKu50iG0208s-__llOxPhJ1dYW1h9fafHaaLLEO8W7VxmsbUcI9URYg0eoFw0A9OhZw1i-L5wD70WnvjOMTxSb-vVk3ixtzaKkP6VGS
 
-!function AzureCitrixVirtualDesktopsEssentials($id, $name="Citrix Virtual Desktops Essentials", $tech="")
+!procedure AzureCitrixVirtualDesktopsEssentials($id, $name="Citrix Virtual Desktops Essentials", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureCitrixVirtualDesktopsEssentials', $name, $tech)
-!endfunction
-!function AzureCitrixVirtualDesktopsEssentialsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCitrixVirtualDesktopsEssentialsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCitrixVirtualDesktopsEssentialsMd>', 'Citrix Virtual Desktops Essentials', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

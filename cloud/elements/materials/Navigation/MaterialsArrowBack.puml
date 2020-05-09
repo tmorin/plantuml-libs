@@ -3,10 +3,10 @@ sprite $MaterialsArrowBackLg [20x20/16z] Ow06O6B25E9annJYOgAU43yt1momGCGOqSKmzL9
 
 sprite $MaterialsArrowBackMd [14x14/16z] Oo08c9YGEPpCo1mM90u7CeUBYnKCc27gO3o4IanJ43QWsKuG
 
-!function MaterialsArrowBack($id, $name="Arrow Back", $tech="")
+!procedure MaterialsArrowBack($id, $name="Arrow Back", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsArrowBack', $name, $tech)
-!endfunction
-!function MaterialsArrowBackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsArrowBackCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsArrowBackMd>', 'Arrow Back', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

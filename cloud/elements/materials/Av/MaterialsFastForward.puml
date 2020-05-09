@@ -3,10 +3,10 @@ sprite $MaterialsFastForwardLg [20x20/16z] lKx50G0n2AihaFsdFNVvKY_4ZCxmRhbikDHI3
 
 sprite $MaterialsFastForwardMd [14x14/16z] Oo01C488A61b0pAPsHcXF7uE9WPcVYvcA8-VXuM5dvyNg0QJXr29C0N51X81
 
-!function MaterialsFastForward($id, $name="Fast Forward", $tech="")
+!procedure MaterialsFastForward($id, $name="Fast Forward", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFastForward', $name, $tech)
-!endfunction
-!function MaterialsFastForwardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFastForwardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFastForwardMd>', 'Fast Forward', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

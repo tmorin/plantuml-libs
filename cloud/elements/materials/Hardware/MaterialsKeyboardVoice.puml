@@ -3,10 +3,10 @@ sprite $MaterialsKeyboardVoiceLg [20x20/16z] jL030aHH2CnQtV-qQtzh7dCDJ0GouxygJYV
 
 sprite $MaterialsKeyboardVoiceMd [14x14/16z] bSU53SG040EmHD71O_UVjinS2uqTv2pwV3JDYyAVps55OV1-eXdLZo5IGVIrJ2D6PfYHiAC2
 
-!function MaterialsKeyboardVoice($id, $name="Keyboard Voice", $tech="")
+!procedure MaterialsKeyboardVoice($id, $name="Keyboard Voice", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardVoice', $name, $tech)
-!endfunction
-!function MaterialsKeyboardVoiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardVoiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardVoiceMd>', 'Keyboard Voice', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

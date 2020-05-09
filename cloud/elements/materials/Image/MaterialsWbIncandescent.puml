@@ -6,10 +6,10 @@ xHGSAAq7Kh21zzXZzjsZ1G
 
 sprite $MaterialsWbIncandescentMd [14x14/16z] ROt50KKn3CE2hrplFstfC-Yae6d32tfobNAzLS1R5O3mBBm3tU-5L2ogBDKeYeDAL1PwL2Iyq-8kujODXrB2lJ1VzNAtNSaoaTKHkcD6VvW
 
-!function MaterialsWbIncandescent($id, $name="Wb Incandescent", $tech="")
+!procedure MaterialsWbIncandescent($id, $name="Wb Incandescent", $tech="")
   CloudElement($id, 'materials/Image/MaterialsWbIncandescent', $name, $tech)
-!endfunction
-!function MaterialsWbIncandescentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWbIncandescentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWbIncandescentMd>', 'Wb Incandescent', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

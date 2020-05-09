@@ -6,10 +6,10 @@ KKRavJy_fUx44Sa1K9HQazfJfBanfHw8hKJ19e7uoIC
 
 sprite $MaterialsStyleMd [14x14/16z] RSUt0G8140D1hKxlNV_LuWuYVhBHBQCVCf_BjsIvNgfNzTdKytAyjxixNH-Z953rLgGObcx4x6BeJVBgnDixMwGY2-Drp45l332K_Zq1
 
-!function MaterialsStyle($id, $name="Style", $tech="")
+!procedure MaterialsStyle($id, $name="Style", $tech="")
   CloudElement($id, 'materials/Image/MaterialsStyle', $name, $tech)
-!endfunction
-!function MaterialsStyleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStyleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStyleMd>', 'Style', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ KTErftNiZQs27U9lRCzuYjxn52l8RxjucyItdSLNx_pdRRz_yFjNlt_wG9u1
 
 sprite $MaterialsMonetizationOnMd [14x14/16z] POv50aCn24G3PQ12ykv_shf_TeoFpRcgvCz7lI9cw_4mqqOkRgytQH5MjDyemauhzzp8WhrPN1_g_d6KMzq_GINJTw1FYcX_DwZHflspR7CN
 
-!function MaterialsMonetizationOn($id, $name="Monetization On", $tech="")
+!procedure MaterialsMonetizationOn($id, $name="Monetization On", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsMonetizationOn', $name, $tech)
-!endfunction
-!function MaterialsMonetizationOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMonetizationOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMonetizationOnMd>', 'Monetization On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ NS5jboGKKDJPDydd5CLnMIVRWTxM3fVCxsU-VIS-tUtf1l_ohW
 
 sprite $MaterialsWbAutoMd [14x14/16z] XOtL0KKn24EBmwra_scVkvul9D9-GchArqKsz3dil717aW7UZCa2CEA1uZAnWS7AYQ7kBWFPc1Ihn9C2og7SqKaFznw5xjsu4PqQW6alxN_P0m
 
-!function MaterialsWbAuto($id, $name="Wb Auto", $tech="")
+!procedure MaterialsWbAuto($id, $name="Wb Auto", $tech="")
   CloudElement($id, 'materials/Image/MaterialsWbAuto', $name, $tech)
-!endfunction
-!function MaterialsWbAutoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWbAutoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWbAutoMd>', 'Wb Auto', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

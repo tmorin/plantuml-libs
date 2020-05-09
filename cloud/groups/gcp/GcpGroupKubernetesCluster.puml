@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupKubernetesCluster($id, $name="Kubernetes cluster", $tech="")
+!procedure GcpGroupKubernetesCluster($id, $name="Kubernetes cluster", $tech="")
   CloudGroup($id, "GcpGroupKubernetesCluster", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupKubernetesCluster>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

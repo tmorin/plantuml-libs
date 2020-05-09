@@ -6,10 +6,10 @@ d7FE7NG8UnbLcyS7XBfTxJKTOZ_m-e4F
 
 sprite $AwsManagedStreamingForKafkaMd [14x14/16z] RSa74a8120DH6qd0-zzN8lhxJdspEMaQcAl0OHbwnTmo0V3BQX91g6dnnK2yJ2j8mieg4MW1l13S8ag4PBthNsPhnmy
 
-!function AwsManagedStreamingForKafka($id, $name="Managed Streaming For Kafka", $tech="")
+!procedure AwsManagedStreamingForKafka($id, $name="Managed Streaming For Kafka", $tech="")
   CloudElement($id, 'aws/Analytics/AwsManagedStreamingForKafka', $name, $tech)
-!endfunction
-!function AwsManagedStreamingForKafkaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsManagedStreamingForKafkaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsManagedStreamingForKafkaMd>', 'Managed Streaming For Kafka', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

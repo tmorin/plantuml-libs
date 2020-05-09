@@ -6,10 +6,10 @@ qy-3jic3oQlPqydxEm
 
 sprite $AwsVpcFlowLogsMd [14x14/16z] NOu54i0m20J3PPd-_yT5QdIZ-Ar0E6WL1Z8JM1g-rNYOn4FWKT0xs968q6rrhJRDmS-QcRFBd32dJsMj6c_L9m
 
-!function AwsVpcFlowLogs($id, $name="Vpc Flow Logs", $tech="")
+!procedure AwsVpcFlowLogs($id, $name="Vpc Flow Logs", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcFlowLogs', $name, $tech)
-!endfunction
-!function AwsVpcFlowLogsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcFlowLogsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcFlowLogsMd>', 'Vpc Flow Logs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

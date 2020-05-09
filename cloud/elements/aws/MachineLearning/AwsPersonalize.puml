@@ -6,10 +6,10 @@ RSY53SD040H0wNCBv_uBpffnnDFUwT0VsH_PU_BSNfCrQCgN0mWPjUPQ5AeW9hSJN0Gou7usD1_dzd7M
 
 sprite $AwsPersonalizeMd [14x14/16z] LSgt5KDH40BHP7U0rt-_CiZ-oUw1s4qjkQX4TQKTmLk2NHR_YPNxn3FQmJv7IpVfgL23dpf2e8yYUP6hfuEJL6MhVhm3
 
-!function AwsPersonalize($id, $name="Personalize", $tech="")
+!procedure AwsPersonalize($id, $name="Personalize", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsPersonalize', $name, $tech)
-!endfunction
-!function AwsPersonalizeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsPersonalizeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsPersonalizeMd>', 'Personalize', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

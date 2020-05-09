@@ -6,10 +6,10 @@ sjCy8ZASXPT4kEMSem_HMplec5sKRKRl0X2CKMiG4By
 
 sprite $AzureEbooksMd [17x14/16z] bSp75SH020FGXoGczL_mhepppVz2Xcyp4G3O68uv9uoeG5Q3HEt1ZS2c0fyd-71Y4UvUFyBSgEpMa9Gfaif_r3oC8w6fpJMRQ3y
 
-!function AzureEbooks($id, $name="Ebooks", $tech="")
+!procedure AzureEbooks($id, $name="Ebooks", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureEbooks', $name, $tech)
-!endfunction
-!function AzureEbooksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEbooksCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEbooksMd>', 'Ebooks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

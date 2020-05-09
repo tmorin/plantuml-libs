@@ -6,10 +6,10 @@ fOYOx1coN1ENuC4yCwLtlwJG8MD6_g2DbI2YWP2EY8pXeddsxOZf4MVjtATj8h4NJiQ_
 
 sprite $AzureCustomerLockboxMd [13x14/16z] RKi50W8W3AIsY-7_dsktmkggjP54R_SNeE9-Tvm1_Ycj1_AUcNDSvfeN062q9U4ESl85098OOtG0akYgCY_0YgfC-mmOY_kmvdRloq3jekpM1izFvrCu0G
 
-!function AzureCustomerLockbox($id, $name="Customer Lockbox", $tech="")
+!procedure AzureCustomerLockbox($id, $name="Customer Lockbox", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureCustomerLockbox', $name, $tech)
-!endfunction
-!function AzureCustomerLockboxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCustomerLockboxCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCustomerLockboxMd>', 'Customer Lockbox', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

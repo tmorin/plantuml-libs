@@ -1,7 +1,7 @@
 @startuml
-!function AwsGroupPlain($id, $name="Plain", $tech="")
+!procedure AwsGroupPlain($id, $name="Plain", $tech="")
   CloudGroup($id, "AwsGroupPlain", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupPlain>> {
   StereotypeFontColor $AWS_COLOR_DARK_BLUE
   BorderThickness 0

@@ -9,10 +9,10 @@ JKo50SD020J2uTr_tCRbbLFQ5mjCcUwr01RXUcCSEEp6UcAys3m_65azNRTVrAitA7mYSrCeCmCBNrrA
 OjlBHAoH45e1
 }
 
-!function AzureControllers($id, $name="Controllers", $tech="")
+!procedure AzureControllers($id, $name="Controllers", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureControllers', $name, $tech)
-!endfunction
-!function AzureControllersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureControllersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureControllersMd>', 'Controllers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ AY9TTCseHwPHP_kVSEly0G
 
 sprite $AzureConditionalAccessExchangeMd [13x14/16z] XSh90SHG209GGFng_mrFzkGsxyQIlYI09BKXp2s0tWZn9u0RNE7q3LJW2goPadY6hcwdKxjsbyAAZJghmiPvc-cjn46HU_q3
 
-!function AzureConditionalAccessExchange($id, $name="Conditional Access Exchange", $tech="")
+!procedure AzureConditionalAccessExchange($id, $name="Conditional Access Exchange", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureConditionalAccessExchange', $name, $tech)
-!endfunction
-!function AzureConditionalAccessExchangeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureConditionalAccessExchangeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureConditionalAccessExchangeMd>', 'Conditional Access Exchange', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

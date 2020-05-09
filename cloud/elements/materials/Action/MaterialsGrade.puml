@@ -6,10 +6,10 @@ bOrL0WGX34EN6axkVzhr6UoBe7sLF4v5j3FlzxASjq85T44k0j7rBXQrq80MJ4NempXZKEPVOUmeNKOK
 
 sprite $MaterialsGradeMd [14x14/16z] TOk35GHH34LZVAN_QjSStAD7E03nrudyLfa_9LVnKv5vzAeURdJ_Z7emdb_kTzFvTVExStYHDMVboz18vXZqSee0g2ztoXK
 
-!function MaterialsGrade($id, $name="Grade", $tech="")
+!procedure MaterialsGrade($id, $name="Grade", $tech="")
   CloudElement($id, 'materials/Action/MaterialsGrade', $name, $tech)
-!endfunction
-!function MaterialsGradeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGradeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGradeMd>', 'Grade', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

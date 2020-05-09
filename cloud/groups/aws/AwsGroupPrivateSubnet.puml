@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupPrivateSubnetLg [20x20/16z] hOot0O1G448Rxe3z1pOd_AM-ZkWVKBUS4DrWUYLRbSiwWfXg8SO0QW50l2taOwro3TBhXRSdOEYvsuD7feVcHkFss0VqLsO
 
-!function AwsGroupPrivateSubnet($id, $name="Private Subnet", $tech="")
+!procedure AwsGroupPrivateSubnet($id, $name="Private Subnet", $tech="")
   CloudGroup($id, "AwsGroupPrivateSubnet", "<$AwsGroupPrivateSubnetLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupPrivateSubnet>> {
   StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
   BorderThickness 0

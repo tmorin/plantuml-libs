@@ -6,10 +6,10 @@ lJMO3MQ3Rm
 
 sprite $AwsServerlessApplicationRepositoryMd [14x14/16z] FSo70S0W44BH593RV-AGzkqFzTAsQ8480cITGdPawLFtdgr7RdwwIJcHbnjqLjFp8pdLXFAf9hI125u
 
-!function AwsServerlessApplicationRepository($id, $name="Serverless Application Repository", $tech="")
+!procedure AwsServerlessApplicationRepository($id, $name="Serverless Application Repository", $tech="")
   CloudElement($id, 'aws/Compute/AwsServerlessApplicationRepository', $name, $tech)
-!endfunction
-!function AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsServerlessApplicationRepositoryMd>', 'Serverless Application Repository', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

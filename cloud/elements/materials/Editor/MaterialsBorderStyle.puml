@@ -3,10 +3,10 @@ sprite $MaterialsBorderStyleLg [20x20/16z] ZOw50GCn30EbE8pxJzi-CrtGB7o6UWTxdsuvh
 
 sprite $MaterialsBorderStyleMd [14x14/16z] XOo50O103CGk5Dz_NvntILsLC3ZkOby_5gvgHI_ehlGnuQjqPbIh_fU52JCcfhla5fwGS08
 
-!function MaterialsBorderStyle($id, $name="Border Style", $tech="")
+!procedure MaterialsBorderStyle($id, $name="Border Style", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderStyle', $name, $tech)
-!endfunction
-!function MaterialsBorderStyleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBorderStyleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBorderStyleMd>', 'Border Style', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

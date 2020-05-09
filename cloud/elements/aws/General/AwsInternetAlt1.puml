@@ -6,10 +6,10 @@ k5ihodkeIebHDJWbteyh5lsG8PMVOPRRlk5Rc7j7N_Z1_m
 
 sprite $AwsInternetAlt1Md [14x14/16z] JOq70W9130BPm4Jz_uVDzPkjQQ31PEbaTPokCy9pLPCzQcdwx3q4zNST4o9oVuwkxEF57inmyaH1D0dOD6kczuFdlQ7qOF8A_HlF1-_17m
 
-!function AwsInternetAlt1($id, $name="Internet Alt1", $tech="")
+!procedure AwsInternetAlt1($id, $name="Internet Alt1", $tech="")
   CloudElement($id, 'aws/General/AwsInternetAlt1', $name, $tech)
-!endfunction
-!function AwsInternetAlt1Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsInternetAlt1Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsInternetAlt1Md>', 'Internet Alt1', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

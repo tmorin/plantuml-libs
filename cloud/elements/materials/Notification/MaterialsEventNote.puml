@@ -6,10 +6,10 @@ gS8O7p3jT0G
 
 sprite $MaterialsEventNoteMd [14x14/16z] NSa54iHG20JHcGYIR_U_xGBhUQLT3O0RmaOaYcv1XHa-vmXpUkGsrilOeYuvYrnP1XPO5SNCN6W_3-ztgigdi0Ly7WgpwFRYHEJsGjmy
 
-!function MaterialsEventNote($id, $name="Event Note", $tech="")
+!procedure MaterialsEventNote($id, $name="Event Note", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsEventNote', $name, $tech)
-!endfunction
-!function MaterialsEventNoteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsEventNoteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsEventNoteMd>', 'Event Note', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

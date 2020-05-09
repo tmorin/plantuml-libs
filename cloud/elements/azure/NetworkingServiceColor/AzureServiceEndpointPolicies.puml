@@ -6,10 +6,10 @@ hqNS9ztlLcRTj4xZdjxBnhobfUnEgrEstB6pPW0qtt6U1Fm2
 
 sprite $AzureServiceEndpointPoliciesMd [14x14/16z] DOm14W0H30CtTG0p_l_RArYWRH9GlhHP8NqSofoGGNlN55763FnaG2K4aoo4ebivjyeoEQQyAv03jzePfpfHEfLYYvjFNlLvINWr7vyAr5UDck07
 
-!function AzureServiceEndpointPolicies($id, $name="Service Endpoint Policies", $tech="")
+!procedure AzureServiceEndpointPolicies($id, $name="Service Endpoint Policies", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureServiceEndpointPolicies', $name, $tech)
-!endfunction
-!function AzureServiceEndpointPoliciesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServiceEndpointPoliciesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServiceEndpointPoliciesMd>', 'Service Endpoint Policies', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

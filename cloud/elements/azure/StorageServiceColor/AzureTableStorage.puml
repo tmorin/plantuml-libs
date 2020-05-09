@@ -9,10 +9,10 @@ JKu74WCW25CX0KB__zxYTJfP6QXPUbs9vUSmxLZo6BfiBS-zTle4VobkgW2Y2Ah8RC6T1K0vmMluKcc6
 hS6c0BomA7K_-dMRJm
 }
 
-!function AzureTableStorage($id, $name="Table Storage", $tech="")
+!procedure AzureTableStorage($id, $name="Table Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureTableStorage', $name, $tech)
-!endfunction
-!function AzureTableStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTableStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTableStorageMd>', 'Table Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

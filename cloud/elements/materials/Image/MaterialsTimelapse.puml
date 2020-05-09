@@ -6,10 +6,10 @@ QCViT6D1nutP2zS97LxOd4awiyFp8zkpWtjN1dvs-lC6
 
 sprite $MaterialsTimelapseMd [14x14/16z] PKw50GCn27no9IxxRrki-b7ivBgjnALmYeGR0_9uKaZQH4NJr2Iv-W0r6MQRQAUJHWMQzNE04jbZHSOioJmnAIpK934MKo105Mxg7sUtzGG
 
-!function MaterialsTimelapse($id, $name="Timelapse", $tech="")
+!procedure MaterialsTimelapse($id, $name="Timelapse", $tech="")
   CloudElement($id, 'materials/Image/MaterialsTimelapse', $name, $tech)
-!endfunction
-!function MaterialsTimelapseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTimelapseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTimelapseMd>', 'Timelapse', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

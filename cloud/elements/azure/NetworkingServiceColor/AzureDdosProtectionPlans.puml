@@ -6,10 +6,10 @@ daEnNMS2
 
 sprite $AzureDdosProtectionPlansMd [10x14/16z] FOq15e1014G5L4ttlsxmz7S1G8b8wOD5pLIORN3tL5SIvSNzuFazhFUkX_KUR1_6awmcuKBgZTRLSeIAlCXfFW
 
-!function AzureDdosProtectionPlans($id, $name="Ddos Protection Plans", $tech="")
+!procedure AzureDdosProtectionPlans($id, $name="Ddos Protection Plans", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureDdosProtectionPlans', $name, $tech)
-!endfunction
-!function AzureDdosProtectionPlansCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDdosProtectionPlansCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDdosProtectionPlansMd>', 'Ddos Protection Plans', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

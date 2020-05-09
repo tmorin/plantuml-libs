@@ -10,10 +10,10 @@ fP17WWGn20C52iR-_uFNlNdEKuvG9uI7pamQtp0NVXUzPisU_bQkGlbJLcVKwvp1fQzI6d2XChCDz9pJ
 UxjPQ7AT2L3oIipgQ0-bBaewOvNJIdEw0fgsx4JXhTPJM8dvFUkw51xKlyyRhbyTSIdNJuBN_QHRJfm8m0S
 }
 
-!function AzureDatabaseMigrationServices($id, $name="Database Migration Services", $tech="")
+!procedure AzureDatabaseMigrationServices($id, $name="Database Migration Services", $tech="")
   CloudElement($id, 'azure/MigrateServiceColor/AzureDatabaseMigrationServices', $name, $tech)
-!endfunction
-!function AzureDatabaseMigrationServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDatabaseMigrationServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDatabaseMigrationServicesMd>', 'Database Migration Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

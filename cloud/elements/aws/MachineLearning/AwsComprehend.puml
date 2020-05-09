@@ -6,10 +6,10 @@ LyZ_N-f1NzMl604
 
 sprite $AwsComprehendMd [14x14/16z] VOn50W813CIm9ft-_x-umsvke_DDafSGyI52qkLJgHpwNMdoK22Gcq9qmaDrgpVLzeIgwn4eiA_xwvLorZa1
 
-!function AwsComprehend($id, $name="Comprehend", $tech="")
+!procedure AwsComprehend($id, $name="Comprehend", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsComprehend', $name, $tech)
-!endfunction
-!function AwsComprehendCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsComprehendCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsComprehendMd>', 'Comprehend', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

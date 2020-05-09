@@ -6,10 +6,10 @@ _Rjcl-x_342yzep_NTopx7SN2GhKILS8G_vlssbClVr1QzP7wDslngWmUVofu4E-0G
 
 sprite $MaterialsTrackChangesMd [14x14/16z] PKw53S0m39jZXRJ_xnsMkI73iIrHPqiqrRKb3hmPtueacASUGChJqkTxde0-JISDcJ3IInRnPMKIa8HgOJ5BFiMYGBugLPrydkxCLNR7Dm
 
-!function MaterialsTrackChanges($id, $name="Track Changes", $tech="")
+!procedure MaterialsTrackChanges($id, $name="Track Changes", $tech="")
   CloudElement($id, 'materials/Action/MaterialsTrackChanges', $name, $tech)
-!endfunction
-!function MaterialsTrackChangesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTrackChangesCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTrackChangesMd>', 'Track Changes', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

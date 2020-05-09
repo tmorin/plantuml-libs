@@ -6,10 +6,10 @@ kvM_lFtBm5drscUcTAO_ihy2
 
 sprite $GcpCloudNetworkMd [14x14/16z] JKw30G102BpS_Wk_qJCT092iHS1CFDRobMgUfIFXk5amO3CmNIyarYy-coinSnETwSnKHcglwMDm9Pj5rsjL8RcgMt6MiPnLrnq
 
-!function GcpCloudNetwork($id, $name="Cloud Network", $tech="")
+!procedure GcpCloudNetwork($id, $name="Cloud Network", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudNetwork', $name, $tech)
-!endfunction
-!function GcpCloudNetworkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudNetworkCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudNetworkMd>', 'Cloud Network', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

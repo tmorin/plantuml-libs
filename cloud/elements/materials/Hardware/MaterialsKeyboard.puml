@@ -6,10 +6,10 @@ rlDxjkwC
 
 sprite $MaterialsKeyboardMd [14x14/16z] VSt50G0n203121g1_hizTvdelWY_ucuCA7LL80Hk93mIQZoMPim0uwLJ5I107A-o5exMSYyqAkvBKHpHN52AoaXBWUlqNmC
 
-!function MaterialsKeyboard($id, $name="Keyboard", $tech="")
+!procedure MaterialsKeyboard($id, $name="Keyboard", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboard', $name, $tech)
-!endfunction
-!function MaterialsKeyboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardMd>', 'Keyboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ edeMiuaTg5tfdMhT
 
 sprite $MaterialsCancelMd [14x14/16z] POw50OK0449_Y2rl_sdjGg_x-BpefwhIRq_KCrElBS5cqINzzHIoLT3Fmm9zDGjBimBFJeOgivpCA_4XloUo9qq
 
-!function MaterialsCancel($id, $name="Cancel", $tech="")
+!procedure MaterialsCancel($id, $name="Cancel", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsCancel', $name, $tech)
-!endfunction
-!function MaterialsCancelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCancelCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCancelMd>', 'Cancel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ plpY1Wd5xKk3yrHfyAsLNbgrcdRQFm
 
 sprite $AwsVpcRouterMd [14x14/16z] LOu70i1G14D5gFlVkA7J-yCU9Zo4sm1ff3ne8zrG1VEKsIcOW4TVGVOVFY6Gc62GZCeuMjbMxipTHVUn5DZJzsPxwnC
 
-!function AwsVpcRouter($id, $name="Vpc Router", $tech="")
+!procedure AwsVpcRouter($id, $name="Vpc Router", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcRouter', $name, $tech)
-!endfunction
-!function AwsVpcRouterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcRouterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcRouterMd>', 'Vpc Router', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

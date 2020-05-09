@@ -6,10 +6,10 @@ AZb33fAuIgL7qh7IlKRe5X1o_cb_KUKLTljHUeK-zagSLGehjp3jAp23i5_UxQ_VFm
 
 sprite $AzureSentinelMd [12x14/16z] 3Sp70S103091JXdtNx1tNef8YhtReCYSip6LFeRT-u4wXJ8rPUssYdfKD-FMVkwubjento75XUscdXTBJB-biIdlAIW_E2GbDMKAR3W80M_t2Jy
 
-!function AzureSentinel($id, $name="Sentinel", $tech="")
+!procedure AzureSentinel($id, $name="Sentinel", $tech="")
   CloudElement($id, 'azure/SecurityServiceColor/AzureSentinel', $name, $tech)
-!endfunction
-!function AzureSentinelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSentinelCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSentinelMd>', 'Sentinel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

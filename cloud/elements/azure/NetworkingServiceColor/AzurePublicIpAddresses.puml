@@ -3,10 +3,10 @@ sprite $AzurePublicIpAddressesLg [24x20/16z] TSs50GGX40J1PtTwyi_u7OS-hqCaq1B0xpR
 
 sprite $AzurePublicIpAddressesMd [17x14/16z] NOl70K815C8K2FjlhB-NbnCra1iA1El4XZZwR7mNHBW-R3p_6zDt-axVqu-WK3W3h5f4d06y5lJ5zFm1
 
-!function AzurePublicIpAddresses($id, $name="Public Ip Addresses", $tech="")
+!procedure AzurePublicIpAddresses($id, $name="Public Ip Addresses", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzurePublicIpAddresses', $name, $tech)
-!endfunction
-!function AzurePublicIpAddressesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzurePublicIpAddressesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzurePublicIpAddressesMd>', 'Public Ip Addresses', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsFlipLg [20x20/16z] ZL250G0X40Axzb_tE-tMIm3t854CQxy_ePGYd0FbzZbD
 
 sprite $MaterialsFlipMd [14x14/16z] TOx50S103CEaj4Vx3rncq2jecuK8DemW9SIvQRMOaibUY2ga1CZSiNN9QtVVTVvsRvMxmztzdkoUUWG
 
-!function MaterialsFlip($id, $name="Flip", $tech="")
+!procedure MaterialsFlip($id, $name="Flip", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFlip', $name, $tech)
-!endfunction
-!function MaterialsFlipCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFlipCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFlipMd>', 'Flip', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

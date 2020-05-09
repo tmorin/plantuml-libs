@@ -6,10 +6,10 @@ PoeuOvJ6J1LkaBm1lDcLgzR2QATNWEty0r37V9hAdJCpHkFiwqFTYbQyVTe_
 
 sprite $AzureLogicAppsMd [18x14/16z] NKy54WG12380___Y3TnBfbHg322-W8vaUfenSwr5SqEE1zPpqONVIy_qvxAdZkU23IoWjWA-e2kp6hxSha8Og2Ud9FWWvVj2XqgrbwHwDSphuYy-kDR_Jn4d
 
-!function AzureLogicApps($id, $name="Logic Apps", $tech="")
+!procedure AzureLogicApps($id, $name="Logic Apps", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureLogicApps', $name, $tech)
-!endfunction
-!function AzureLogicAppsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLogicAppsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLogicAppsMd>', 'Logic Apps', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

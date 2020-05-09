@@ -6,10 +6,10 @@ FGDGeFMTquXIAv5AZJ4t5TeJsWkr4o9rBPJvjwdQba95aHcXVTC9
 
 sprite $MaterialsUpdateMd [14x14/16z] ROe5eWCm3483gT3_9_U_xKZdykA1-07mt9lMKaRkrr02AVspb8c0n_de2w9NOah-iLeh4roKMmwlLLYiNySsHP-n6RqwvgJ5SNkYotJ43P28Rou
 
-!function MaterialsUpdate($id, $name="Update", $tech="")
+!procedure MaterialsUpdate($id, $name="Update", $tech="")
   CloudElement($id, 'materials/Action/MaterialsUpdate', $name, $tech)
-!endfunction
-!function MaterialsUpdateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsUpdateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsUpdateMd>', 'Update', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

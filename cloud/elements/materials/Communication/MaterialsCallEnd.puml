@@ -3,10 +3,10 @@ sprite $MaterialsCallEndLg [20x20/16z] nSw53GCn30LGis9G_lxJbdc0tXCbPleZllZwQsHVP
 
 sprite $MaterialsCallEndMd [14x14/16z] dOlL0S0W34I1E7RxJrjB9-3z96Vbd2RcRjA-twPIQwJJMk61dUx6O0T6gW5ujMZ_tAsMKbFaSyWD
 
-!function MaterialsCallEnd($id, $name="Call End", $tech="")
+!procedure MaterialsCallEnd($id, $name="Call End", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCallEnd', $name, $tech)
-!endfunction
-!function MaterialsCallEndCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallEndCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallEndMd>', 'Call End', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

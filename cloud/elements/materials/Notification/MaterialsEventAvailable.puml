@@ -6,10 +6,10 @@ ZB8gqyk-
 
 sprite $MaterialsEventAvailableMd [14x14/16z] NSV70SCm30D005Ql-syRKkc-tm6WO4GufYoJ4prrhMdMgbRD_J9bQoaUgVaANiftKU-HY07lAINBUv3dDUAWZxMyLCAg5-Bc0G
 
-!function MaterialsEventAvailable($id, $name="Event Available", $tech="")
+!procedure MaterialsEventAvailable($id, $name="Event Available", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsEventAvailable', $name, $tech)
-!endfunction
-!function MaterialsEventAvailableCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsEventAvailableCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsEventAvailableMd>', 'Event Available', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

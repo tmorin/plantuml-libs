@@ -3,10 +3,10 @@ sprite $MaterialsFormatAlignJustifyLg [20x20/16z] Oo0QCBAW04QG60iFDnBWOO4eH04CsC
 
 sprite $MaterialsFormatAlignJustifyMd [14x14/16z] Oq03J700v32oSq01EoE82mTeSXZwM5YXW8KHbKST6z
 
-!function MaterialsFormatAlignJustify($id, $name="Format Align Justify", $tech="")
+!procedure MaterialsFormatAlignJustify($id, $name="Format Align Justify", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatAlignJustify', $name, $tech)
-!endfunction
-!function MaterialsFormatAlignJustifyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatAlignJustifyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatAlignJustifyMd>', 'Format Align Justify', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

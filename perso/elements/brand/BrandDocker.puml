@@ -6,10 +6,10 @@ Kxd40m
 
 sprite $BrandDockerMd [14x14/16z] bSp50G0W30F0XchsNnZdpxrIbKyQUDaYQrHj5qNIWR1HwoW6qqmTnPOL2a5oP9BLzZ_FKUGe9gXdgFpf
 
-!function BrandDocker($id, $name="Docker", $tech="")
+!procedure BrandDocker($id, $name="Docker", $tech="")
   PersoElement($id, 'brand/BrandDocker', $name, $tech)
-!endfunction
-!function BrandDockerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandDockerCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandDockerMd>', 'Docker', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

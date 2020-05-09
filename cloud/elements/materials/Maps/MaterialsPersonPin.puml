@@ -6,10 +6,10 @@ jDPwohj_BvbwbjcACxlJsHy
 
 sprite $MaterialsPersonPinMd [14x14/16z] NSr55iL024HH70QLK_jVRQo_vhNU4V8e-rMUC934VTcfZHop8RUNGYI-Af7w2bLu2scgbbZArwIboRkv1Rx2AOdA8IShPANTAj_qXGC
 
-!function MaterialsPersonPin($id, $name="Person Pin", $tech="")
+!procedure MaterialsPersonPin($id, $name="Person Pin", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsPersonPin', $name, $tech)
-!endfunction
-!function MaterialsPersonPinCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPersonPinCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPersonPinMd>', 'Person Pin', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsEc2OptimizedInstanceLg [20x20/16z] bO_50GGX34M_qd_7A-Doug7n14nl661r9q
 
 sprite $AwsEc2OptimizedInstanceMd [14x14/16z] PSh50S100091OBd-IuvxveUuDrJhGggR-QKKG_VasjAPO3sDx2beZSt-7B5z9XaSZkVbby0Ned29PW
 
-!function AwsEc2OptimizedInstance($id, $name="Ec2 Optimized Instance", $tech="")
+!procedure AwsEc2OptimizedInstance($id, $name="Ec2 Optimized Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2OptimizedInstance', $name, $tech)
-!endfunction
-!function AwsEc2OptimizedInstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2OptimizedInstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2OptimizedInstanceMd>', 'Ec2 Optimized Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

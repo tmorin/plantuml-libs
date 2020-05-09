@@ -6,10 +6,10 @@ bDJdeNmE81O15tey4A6WvDWyvz4RYHL_d44juMorZnFx-OCT
 
 sprite $MaterialsChildFriendlyMd [14x14/16z] ROo35S1044HlhQ3_RcFdFmxR7wXqKpGEUbVZA0-Lq1eRpWfjPbQeBZkpQX3ZpDQSuLrjfvRTaXGl0XsahqBoLGMRW8jkJJAPFLLeBoO
 
-!function MaterialsChildFriendly($id, $name="Child Friendly", $tech="")
+!procedure MaterialsChildFriendly($id, $name="Child Friendly", $tech="")
   CloudElement($id, 'materials/Places/MaterialsChildFriendly', $name, $tech)
-!endfunction
-!function MaterialsChildFriendlyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsChildFriendlyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsChildFriendlyMd>', 'Child Friendly', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

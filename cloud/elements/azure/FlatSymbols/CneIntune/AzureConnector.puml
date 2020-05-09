@@ -6,10 +6,10 @@ RBgh1i4Bhw240G
 
 sprite $AzureConnectorMd [36x14/16z] rSg53SH040D0to_fxVxh3PCW9CuSBEAzLbNPSEb7wV-b7Oz8Kim8nv75meoII4x1zZvGMfJnmFR-insld9GRjQ7jVHn5RW8lzG
 
-!function AzureConnector($id, $name="Connector", $tech="")
+!procedure AzureConnector($id, $name="Connector", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureConnector', $name, $tech)
-!endfunction
-!function AzureConnectorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureConnectorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureConnectorMd>', 'Connector', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

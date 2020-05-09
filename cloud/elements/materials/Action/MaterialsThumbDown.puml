@@ -3,10 +3,10 @@ sprite $MaterialsThumbDownLg [20x20/16z] bS-53SKm54FHvp1d_scBuO-z8ki8JG_YeeHpyvD
 
 sprite $MaterialsThumbDownMd [14x14/16z] NSt50KCn30DG1Gq1xJzj-vdUpIXynGqGOW1o7wiA7Gd1kD6Wp4XyLlAiOdzMcU_Pd7ElIerRcf0puoISvIg2youGT2kk4eS_
 
-!function MaterialsThumbDown($id, $name="Thumb Down", $tech="")
+!procedure MaterialsThumbDown($id, $name="Thumb Down", $tech="")
   CloudElement($id, 'materials/Action/MaterialsThumbDown', $name, $tech)
-!endfunction
-!function MaterialsThumbDownCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsThumbDownCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsThumbDownMd>', 'Thumb Down', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

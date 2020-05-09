@@ -9,10 +9,10 @@ NKrLWaCX41i9X8VU_xQRhRS_8r6pC3Dtknz1ZL8q6FhQysjXNZg4w48lZdEwrtEgztFm_UNLczHIjNwb
 fDiV
 }
 
-!function MaterialsSettingsInputComposite($id, $name="Settings Input Composite", $tech="")
+!procedure MaterialsSettingsInputComposite($id, $name="Settings Input Composite", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputComposite', $name, $tech)
-!endfunction
-!function MaterialsSettingsInputCompositeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsInputCompositeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsInputCompositeMd>', 'Settings Input Composite', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

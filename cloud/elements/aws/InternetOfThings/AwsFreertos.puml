@@ -6,10 +6,10 @@ rf0dfLLF6Vsr7rX_u0C
 
 sprite $AwsFreertosMd [14x14/16z] LSm50W0X40B0AzZu_uCFMp5dZL1ynEBW0Sb14WIiY501hb555K1NzvG8gbUbz2bTnk3x8iPP_KKAATYYGgGI8rBDqC4V
 
-!function AwsFreertos($id, $name="Freertos", $tech="")
+!procedure AwsFreertos($id, $name="Freertos", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsFreertos', $name, $tech)
-!endfunction
-!function AwsFreertosCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsFreertosCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsFreertosMd>', 'Freertos', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

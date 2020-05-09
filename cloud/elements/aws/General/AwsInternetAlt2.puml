@@ -6,10 +6,10 @@ gcWZ1vYOCnXuzMO8ZR8aHeMK4PGsA80LJ_bCNW
 
 sprite $AwsInternetAlt2Md [14x14/16z] XKh50S8048kt-o-ComzEO_XJbBuaIyitoUruVlhZKviVkTiG8WyZXO-pgC1wjxXBre3sk4NFMyxZcZGzbjvpCYc15l6hhW
 
-!function AwsInternetAlt2($id, $name="Internet Alt2", $tech="")
+!procedure AwsInternetAlt2($id, $name="Internet Alt2", $tech="")
   CloudElement($id, 'aws/General/AwsInternetAlt2', $name, $tech)
-!endfunction
-!function AwsInternetAlt2Card($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsInternetAlt2Card($id, $funcName="", $content="")
   CloudCard($id, '<$AwsInternetAlt2Md>', 'Internet Alt2', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

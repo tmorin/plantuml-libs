@@ -6,10 +6,10 @@ VXX_8ZO-UwM0tza2
 
 sprite $MaterialsBlurOffMd [14x14/16z] VKi50aDH2C9sSV_pZlrkNYY59uZoyKwi3QxgY84gwU91waMtn6KqwJAf61doQvWO8vdi-bA5iZiYuAf5T_40RSK68ZZW1m
 
-!function MaterialsBlurOff($id, $name="Blur Off", $tech="")
+!procedure MaterialsBlurOff($id, $name="Blur Off", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBlurOff', $name, $tech)
-!endfunction
-!function MaterialsBlurOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBlurOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBlurOffMd>', 'Blur Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

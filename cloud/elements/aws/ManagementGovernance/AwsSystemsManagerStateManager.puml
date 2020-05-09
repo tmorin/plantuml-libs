@@ -6,10 +6,10 @@ xIPABi_ia7UZMkQsyNUTgijcD-UINbOccrrZrRDMFOtfqzY_
 
 sprite $AwsSystemsManagerStateManagerMd [14x14/16z] LSx50GD13C10W-JqNt6EIOlpSpHtlQAEkfg6SMyOMRrN98qPTtb8y14H2kEct1MnIj1DcQi6nYf_RdkSlP-p2MPqFo9q7qU-Koy
 
-!function AwsSystemsManagerStateManager($id, $name="Systems Manager State Manager", $tech="")
+!procedure AwsSystemsManagerStateManager($id, $name="Systems Manager State Manager", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerStateManager', $name, $tech)
-!endfunction
-!function AwsSystemsManagerStateManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSystemsManagerStateManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSystemsManagerStateManagerMd>', 'Systems Manager State Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

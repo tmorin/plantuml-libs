@@ -1,7 +1,7 @@
 @startuml
-!function AzureGroupPlainDashed($id, $name="Plain Dashed", $tech="")
+!procedure AzureGroupPlainDashed($id, $name="Plain Dashed", $tech="")
   CloudGroup($id, "AzureGroupPlainDashed", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AzureGroupPlainDashed>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

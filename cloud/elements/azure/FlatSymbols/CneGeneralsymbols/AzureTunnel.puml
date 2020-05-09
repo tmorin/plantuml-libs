@@ -6,10 +6,10 @@ lPOr0WKm24FhIhZ_RRzhzoHJEpqSmarf6B1R326RKuJTKtYgFX6OwVQ6axJB4_O1h1jkEajMmd_mnkqB
 
 sprite $AzureTunnelMd [77x14/16z] hLEr0G0n42AkPFzjtsM0Wuhg105SdPp58NCPS4u0V3yvcqDR9ZI7RqH5e6rQHNmdCA3RXZ7-lnNaPKER7-s8nZydFphCeb4wJFgcr01fD9IXrTNfd20j-Wu
 
-!function AzureTunnel($id, $name="Tunnel", $tech="")
+!procedure AzureTunnel($id, $name="Tunnel", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureTunnel', $name, $tech)
-!endfunction
-!function AzureTunnelCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTunnelCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTunnelMd>', 'Tunnel', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

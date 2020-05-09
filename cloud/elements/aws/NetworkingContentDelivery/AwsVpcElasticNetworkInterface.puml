@@ -6,10 +6,10 @@ mpj0IcrHdcCwRRhPDLX0HOeXEI21whUsRm--lVhhwRVtHm
 
 sprite $AwsVpcElasticNetworkInterfaceMd [14x14/16z] NKw50GCm26ki_vyyP8uxEKLqR9uXL0JGHYTvLfbATsGNIX0jqSL7SUwDqhkJEHLZCoMJPIUXAwSNZtiqDp0hLZt5VFZz_eziHfo5z
 
-!function AwsVpcElasticNetworkInterface($id, $name="Vpc Elastic Network Interface", $tech="")
+!procedure AwsVpcElasticNetworkInterface($id, $name="Vpc Elastic Network Interface", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcElasticNetworkInterface', $name, $tech)
-!endfunction
-!function AwsVpcElasticNetworkInterfaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcElasticNetworkInterfaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcElasticNetworkInterfaceMd>', 'Vpc Elastic Network Interface', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

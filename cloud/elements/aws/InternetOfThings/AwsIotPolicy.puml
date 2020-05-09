@@ -6,10 +6,10 @@ imY9RP818myqoMlDLTWqmbc1Ug4Tn_tjR_tX3
 
 sprite $AwsIotPolicyMd [14x14/16z] NOw50S1030AVWwJxJrptUuqpFf23mmgsraU7fQxryMbXtXQxXT2TIUomMdiiUuHeh2PLsI6ReulkgU8oK0cAvGqSYRmLUlnO
 
-!function AwsIotPolicy($id, $name="Iot Policy", $tech="")
+!procedure AwsIotPolicy($id, $name="Iot Policy", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotPolicy', $name, $tech)
-!endfunction
-!function AwsIotPolicyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotPolicyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotPolicyMd>', 'Iot Policy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

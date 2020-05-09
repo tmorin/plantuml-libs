@@ -6,10 +6,10 @@ FqWE-0aB
 
 sprite $AzureInformationProtectionMd [12x14/16z] HKo50G112495zX_vyQ_i082WR0nuR3NfugL4O5e1LCwSSthpm9asgZt-rkrSKo7FPBa5e8daFcV4S7L1HsH-fILq3Xy
 
-!function AzureInformationProtection($id, $name="Information Protection", $tech="")
+!procedure AzureInformationProtection($id, $name="Information Protection", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureInformationProtection', $name, $tech)
-!endfunction
-!function AzureInformationProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureInformationProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureInformationProtectionMd>', 'Information Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

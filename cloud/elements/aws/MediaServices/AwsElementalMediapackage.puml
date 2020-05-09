@@ -3,10 +3,10 @@ sprite $AwsElementalMediapackageLg [20x20/16z] hP0t0WD14CAA4MB__s8tpjc-KpaHM3jGw
 
 sprite $AwsElementalMediapackageMd [14x14/16z] XOsr0S1030CRwIxxBnochvvjYvRPilMjQLAyca0BELkUZhCxcgEzklO-5pD7cOjfJbfpcruwX_JPsW
 
-!function AwsElementalMediapackage($id, $name="Elemental Mediapackage", $tech="")
+!procedure AwsElementalMediapackage($id, $name="Elemental Mediapackage", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediapackage', $name, $tech)
-!endfunction
-!function AwsElementalMediapackageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalMediapackageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalMediapackageMd>', 'Elemental Mediapackage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

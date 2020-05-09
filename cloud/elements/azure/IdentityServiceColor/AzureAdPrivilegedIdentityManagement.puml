@@ -9,10 +9,10 @@ BKw55KGn36fA1Fx-0r_ekseCEUT43JaLnmiRTvE44_-xAE64Ev0mdnZ5VzQVP0BE1IutSrpLm2oHqmIO
 T6BNvdwkVm
 }
 
-!function AzureAdPrivilegedIdentityManagement($id, $name="Ad Privileged Identity Management", $tech="")
+!procedure AzureAdPrivilegedIdentityManagement($id, $name="Ad Privileged Identity Management", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAdPrivilegedIdentityManagement', $name, $tech)
-!endfunction
-!function AzureAdPrivilegedIdentityManagementCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAdPrivilegedIdentityManagementCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAdPrivilegedIdentityManagementMd>', 'Ad Privileged Identity Management', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ ZSi5ZWD034FH1KCylVzzgsXInY_qavofhigfBwt81vEeZAqn0wvfDPha_py9ZoqBe7f8sHR89XDRahUH
 
 sprite $AwsExpressWorkflowsMd [14x14/16z] NSpN0SGm20JHIpiez5_lsLvmdByd0TsrwY43hf9Imp-_7qg1VmXBQpq4MZKeWLMJsy4nSfEIhUvI4QUSDMzS
 
-!function AwsExpressWorkflows($id, $name="Express Workflows", $tech="")
+!procedure AwsExpressWorkflows($id, $name="Express Workflows", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsExpressWorkflows', $name, $tech)
-!endfunction
-!function AwsExpressWorkflowsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsExpressWorkflowsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsExpressWorkflowsMd>', 'Express Workflows', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ NSr5eWD030BGBn58Ul_p5hAfCFf61yt_tzy4Eh9tW2FPMUz4cIGheZdUq6uhh2eDsD6MtlZxTKBCpC8t
 FG4
 }
 
-!function AzureBlobStorage($id, $name="Blob Storage", $tech="")
+!procedure AzureBlobStorage($id, $name="Blob Storage", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureBlobStorage', $name, $tech)
-!endfunction
-!function AzureBlobStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBlobStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBlobStorageMd>', 'Blob Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

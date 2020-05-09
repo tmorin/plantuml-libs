@@ -9,10 +9,10 @@ JSw70GKn209GC2UO_GU-mgyllIgMzpG1b6PSMBDltycKCtXwTYZzOfRnp0JaulTA_Msuf0PfMzAzVU36
 zXplwGK
 }
 
-!function AzureHealthMonitoring($id, $name="Health Monitoring", $tech="")
+!procedure AzureHealthMonitoring($id, $name="Health Monitoring", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureHealthMonitoring', $name, $tech)
-!endfunction
-!function AzureHealthMonitoringCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureHealthMonitoringCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureHealthMonitoringMd>', 'Health Monitoring', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

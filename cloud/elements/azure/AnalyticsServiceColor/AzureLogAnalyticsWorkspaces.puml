@@ -6,10 +6,10 @@ YGH8R14cO1ZlunV6hemHlFJJuA_s0m
 
 sprite $AzureLogAnalyticsWorkspacesMd [14x14/16z] POvP0eGX288Bj57kV-2HUlo_LdVM9KeghiUHwRn6wj4aiKj3fKy6kexBMZqMzMEbBG6u5cqLWrITdYM5CrkFiwvrgHa7x4s3RKt1FGSH6ClpCkdpiVu
 
-!function AzureLogAnalyticsWorkspaces($id, $name="Log Analytics Workspaces", $tech="")
+!procedure AzureLogAnalyticsWorkspaces($id, $name="Log Analytics Workspaces", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureLogAnalyticsWorkspaces', $name, $tech)
-!endfunction
-!function AzureLogAnalyticsWorkspacesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLogAnalyticsWorkspacesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLogAnalyticsWorkspacesMd>', 'Log Analytics Workspaces', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ rRpSIlRI3W
 
 sprite $AwsBusinessApplicationsMd [14x14/16z] LSV50S0m5CDG5mp9tt_UCkgaXt-JU3MFWDfHjkPD_VfBlONqesZhaRp5MyucfUsglqAHchtBrRDbjrDLVU_GBDwD08OdO0K
 
-!function AwsBusinessApplications($id, $name="Business Applications", $tech="")
+!procedure AwsBusinessApplications($id, $name="Business Applications", $tech="")
   CloudElement($id, 'aws/BusinessApplications/AwsBusinessApplications', $name, $tech)
-!endfunction
-!function AwsBusinessApplicationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBusinessApplicationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBusinessApplicationsMd>', 'Business Applications', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

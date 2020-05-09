@@ -3,10 +3,10 @@ sprite $MaterialsGridOnLg [20x20/16z] Oy0A69bG02D8Y8CN1N001PbuMPcOM9489g0OKGGElN
 
 sprite $MaterialsGridOnMd [14x14/16z] bKw54S0m2FmZmVUVj-vUt7digUX21L0czbAySzfb15hTeUVggPgTwxE2Sktsapy-x97jgGK
 
-!function MaterialsGridOn($id, $name="Grid On", $tech="")
+!procedure MaterialsGridOn($id, $name="Grid On", $tech="")
   CloudElement($id, 'materials/Image/MaterialsGridOn', $name, $tech)
-!endfunction
-!function MaterialsGridOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGridOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGridOnMd>', 'Grid On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

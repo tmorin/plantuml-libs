@@ -3,10 +3,10 @@ sprite $MaterialsChevronLeftLg [20x20/16z] Ow0hO6HbmX1ZusN656B14EB15E832s6A4TQBi
 
 sprite $MaterialsChevronLeftMd [14x14/16z] Oo0PC29ps5cHE6nio1ns1amUGYKgbnND1j8
 
-!function MaterialsChevronLeft($id, $name="Chevron Left", $tech="")
+!procedure MaterialsChevronLeft($id, $name="Chevron Left", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsChevronLeft', $name, $tech)
-!endfunction
-!function MaterialsChevronLeftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsChevronLeftCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsChevronLeftMd>', 'Chevron Left', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

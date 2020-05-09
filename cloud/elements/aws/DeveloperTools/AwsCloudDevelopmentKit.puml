@@ -6,10 +6,10 @@ MCL9fE-lCHLh4lJbjtL7BZyRVqYJSBk0voVSti48
 
 sprite $AwsCloudDevelopmentKitMd [14x14/16z] POf50aK1209NEe3tF--Frp6sa3VsPKTmN7X6ZJTfwTl04MZzIfE2oaYBqGtjeBz8KqKlHzBhrLb006Azt0NLpeQNVF45
 
-!function AwsCloudDevelopmentKit($id, $name="Cloud Development Kit", $tech="")
+!procedure AwsCloudDevelopmentKit($id, $name="Cloud Development Kit", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsCloudDevelopmentKit', $name, $tech)
-!endfunction
-!function AwsCloudDevelopmentKitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudDevelopmentKitCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudDevelopmentKitMd>', 'Cloud Development Kit', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

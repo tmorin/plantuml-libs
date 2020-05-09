@@ -6,10 +6,10 @@ cTnpv_BCt8dQzFo_Tlkd0RJQi5TDeu2cFxH_
 
 sprite $GcpLoggingMd [14x14/16z] LKw74GH123A1z5_nCt-P2QHTDIAo_qXB6-uV_DlHYR4ff_zEMn4G0fsPjEWLcmJWqaR2OcQizk_OLKKT9Ht-umxOiVvJ654EjIIbUc_7TPcCJPlFrJy
 
-!function GcpLogging($id, $name="Logging", $tech="")
+!procedure GcpLogging($id, $name="Logging", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpLogging', $name, $tech)
-!endfunction
-!function GcpLoggingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpLoggingCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpLoggingMd>', 'Logging', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

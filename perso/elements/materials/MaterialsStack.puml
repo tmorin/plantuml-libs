@@ -6,10 +6,10 @@ GlVY2A3-qW8
 
 sprite $MaterialsStackMd [14x14/16z] XOt50S0m24MBIst_QUkkxv80Nue7Y0w3rBMiVx1sm61MHJkHarhR1PrTrVYlPYS2vQW3d9G6u8vWivA302XuxGwHsFl1nhOVUW
 
-!function MaterialsStack($id, $name="Stack", $tech="")
+!procedure MaterialsStack($id, $name="Stack", $tech="")
   PersoElement($id, 'materials/MaterialsStack', $name, $tech)
-!endfunction
-!function MaterialsStackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStackCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsStackMd>', 'Stack', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

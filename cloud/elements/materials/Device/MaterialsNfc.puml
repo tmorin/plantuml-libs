@@ -6,10 +6,10 @@ YDT0dSMqsHq
 
 sprite $MaterialsNfcMd [14x14/16z] LSc54K0X30JHs1sG_llzYkxecvKpO-dHH0gyX_B8r4qUg7sAZ6ZCwA80mgLQbw2rAjPJNQ_XgNLfVEadM0-FlCvSpcu
 
-!function MaterialsNfc($id, $name="Nfc", $tech="")
+!procedure MaterialsNfc($id, $name="Nfc", $tech="")
   CloudElement($id, 'materials/Device/MaterialsNfc', $name, $tech)
-!endfunction
-!function MaterialsNfcCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNfcCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNfcMd>', 'Nfc', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

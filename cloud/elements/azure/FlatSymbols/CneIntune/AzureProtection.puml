@@ -6,10 +6,10 @@ yjhjk4Noo0HUdYIduyjwTiNYJVm1
 
 sprite $AzureProtectionMd [13x14/16z] HSk50GCn30D0cGBo_liswjC5JH0hW-ZsnQdNQjNOJQxIhm-IUghuoU0dJ0EKteRv1XE8vyy0L7eAW6z5lHqI9-eT44LSWOUbGNu
 
-!function AzureProtection($id, $name="Protection", $tech="")
+!procedure AzureProtection($id, $name="Protection", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureProtection', $name, $tech)
-!endfunction
-!function AzureProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureProtectionMd>', 'Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

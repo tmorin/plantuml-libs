@@ -3,10 +3,10 @@ sprite $AzureFilterLg [22x20/16z] RS-v5G8n4C1GN-jJ_TVBcmXOMU7FnBLnnJHkc8A5mK9ne3
 
 sprite $AzureFilterMd [16x14/16z] LSZ50K0n0C9GwWBxh_jTQ6ulr18pLo9p8P3uCU4ipPlpvZrksZ02LQf65AcuivJTYKpkI4Ptc3EuCIVkTW
 
-!function AzureFilter($id, $name="Filter", $tech="")
+!procedure AzureFilter($id, $name="Filter", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureFilter', $name, $tech)
-!endfunction
-!function AzureFilterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFilterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFilterMd>', 'Filter', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

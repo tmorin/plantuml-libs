@@ -6,10 +6,10 @@ OyrhR_iPtBEwjVTC0N2ckzat
 
 sprite $GcpTraceMd [14x14/16z] JSx10SC010LGmBV_n0LDycu0HCGwc1e7HaneUQm20JmcWX1vEciE9qK2s0WLP6WHZGelAh75WkrMygmgbyZe2rNoWfJlTNy-gm3twFlr3m
 
-!function GcpTrace($id, $name="Trace", $tech="")
+!procedure GcpTrace($id, $name="Trace", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpTrace', $name, $tech)
-!endfunction
-!function GcpTraceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpTraceCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpTraceMd>', 'Trace', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

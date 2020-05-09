@@ -1,9 +1,9 @@
 @startuml
 sprite $MaterialsGroupDockerregistryLg [20x20/16z] hK-35GHH3BmaCz_elzfRFQyH6x_FmRodUk_KpUnrZA5tRxL7BJrRx6qlfe39mX0RUOgHDZA4f63ag_EsUZTsN9wt-TlNC
 
-!function MaterialsGroupDockerregistry($id, $name="DockerRegistry", $tech="")
+!procedure MaterialsGroupDockerregistry($id, $name="DockerRegistry", $tech="")
   PersoGroup($id, "MaterialsGroupDockerregistry", "<$MaterialsGroupDockerregistryLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupDockerregistry>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

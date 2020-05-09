@@ -3,10 +3,10 @@ sprite $MaterialsPregnantWomanLg [20x20/16z] ZK_50G0n30frP_zjxtlryanGEG1gEgbKp7Z
 
 sprite $MaterialsPregnantWomanMd [14x14/16z] PSst0S102C10ypa1-s_hZgZkAdsvCefHvsO43OpQgeho-8AAcASJ5YjIRRvBZmMx_JsdMHNQ3m
 
-!function MaterialsPregnantWoman($id, $name="Pregnant Woman", $tech="")
+!procedure MaterialsPregnantWoman($id, $name="Pregnant Woman", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPregnantWoman', $name, $tech)
-!endfunction
-!function MaterialsPregnantWomanCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPregnantWomanCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPregnantWomanMd>', 'Pregnant Woman', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

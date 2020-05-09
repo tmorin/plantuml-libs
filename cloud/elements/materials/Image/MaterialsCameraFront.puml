@@ -6,10 +6,10 @@ k6y6SVw_0G
 
 sprite $MaterialsCameraFrontMd [14x14/16z] NSc54S0m34DHAMYwTlzfovWVV6S0FNmhElQecLjPUKY8dBVd5jrvQvo1V5N5NUebc-QjoIxDHvVqb1v2AhMMKX9EfTAOqYcsBfPgRyGPCyvM
 
-!function MaterialsCameraFront($id, $name="Camera Front", $tech="")
+!procedure MaterialsCameraFront($id, $name="Camera Front", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCameraFront', $name, $tech)
-!endfunction
-!function MaterialsCameraFrontCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCameraFrontCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCameraFrontMd>', 'Camera Front', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

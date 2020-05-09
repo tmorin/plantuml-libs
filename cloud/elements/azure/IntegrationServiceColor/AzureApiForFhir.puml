@@ -6,10 +6,10 @@ dAgSXpGA63iiQLqkYW0qAkTNgr1ku5PRnm3A8nPwoxQDYL-d-iUrFHVXbyxkyG_zhNi1
 
 sprite $AzureApiForFhirMd [14x14/16z] DScB4KD1249H1C7-Euw-pDxzdX5eMu3iBg2SMDexBh5zvTBEINQ-EasxAJybyKVlHI_5Ksd-GsT2m2CvCsEkE24ZaRs29Z7GqU8uKS_XOjR4g-p2zGC
 
-!function AzureApiForFhir($id, $name="Api For Fhir", $tech="")
+!procedure AzureApiForFhir($id, $name="Api For Fhir", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureApiForFhir', $name, $tech)
-!endfunction
-!function AzureApiForFhirCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureApiForFhirCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureApiForFhirMd>', 'Api For Fhir', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

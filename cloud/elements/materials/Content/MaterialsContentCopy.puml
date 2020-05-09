@@ -3,10 +3,10 @@ sprite $MaterialsContentCopyLg [20x20/16z] lSYr0G9G50F0vBlkFoxw18UAAmy0Wo04wp91B
 
 sprite $MaterialsContentCopyMd [14x14/16z] bSUr0K0X50F018VzzuKdpNUvxi3a25LQCRuQGMSBeJVLAtMfK8KMV33_bdS3dXP7KRKJrcG2i
 
-!function MaterialsContentCopy($id, $name="Content Copy", $tech="")
+!procedure MaterialsContentCopy($id, $name="Content Copy", $tech="")
   CloudElement($id, 'materials/Content/MaterialsContentCopy', $name, $tech)
-!endfunction
-!function MaterialsContentCopyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContentCopyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContentCopyMd>', 'Content Copy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

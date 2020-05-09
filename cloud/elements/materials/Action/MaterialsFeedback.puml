@@ -3,10 +3,10 @@ sprite $MaterialsFeedbackLg [20x20/16z] ZOy50a0n142n3jp_jByxzvOQU0Jf18wgA7n0ug0a
 
 sprite $MaterialsFeedbackMd [14x14/16z] TSc34G1H5CNG-usd_gjT6ncU2Uw5SXI0OaTbKyvNXN1LZ5Vr_lzQksWhJv8KjzoaY4iUluq
 
-!function MaterialsFeedback($id, $name="Feedback", $tech="")
+!procedure MaterialsFeedback($id, $name="Feedback", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFeedback', $name, $tech)
-!endfunction
-!function MaterialsFeedbackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFeedbackCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFeedbackMd>', 'Feedback', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

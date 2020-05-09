@@ -6,10 +6,10 @@ uxZ-cfZ9rJpWhwQ0tfEb-Nfw
 
 sprite $MaterialsUsbMd [14x14/16z] TOq54a0X24Ib5aRb_iVztV6cY8toWTbbuLhv-uSWCmgdUQ6QRCPPQPNvh0oiIWrnbz1r8w1MWBxx2d1Pg7Vw-PsC
 
-!function MaterialsUsb($id, $name="Usb", $tech="")
+!procedure MaterialsUsb($id, $name="Usb", $tech="")
   CloudElement($id, 'materials/Device/MaterialsUsb', $name, $tech)
-!endfunction
-!function MaterialsUsbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsUsbCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsUsbMd>', 'Usb', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

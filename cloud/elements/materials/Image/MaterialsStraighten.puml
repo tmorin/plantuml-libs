@@ -3,10 +3,10 @@ sprite $MaterialsStraightenLg [20x20/16z] lSwr0S0m40D0oSpxRnlc9knh38-eGVa31KPdOZ
 
 sprite $MaterialsStraightenMd [14x14/16z] ZSs53S1G20HG27hN_UUjU-m_F8QCCx-P66egTdCTC4zjJRDz-7gLXbbexPVS_fSXRx3lXt4B
 
-!function MaterialsStraighten($id, $name="Straighten", $tech="")
+!procedure MaterialsStraighten($id, $name="Straighten", $tech="")
   CloudElement($id, 'materials/Image/MaterialsStraighten', $name, $tech)
-!endfunction
-!function MaterialsStraightenCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStraightenCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStraightenMd>', 'Straighten', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

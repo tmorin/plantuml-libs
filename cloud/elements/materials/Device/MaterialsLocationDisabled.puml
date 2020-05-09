@@ -6,10 +6,10 @@ X2jLkE-sPGyW79OcE7a6R5H74gaqUh-IiS_-c96n4GTQQqO0mXivumSIXty
 
 sprite $MaterialsLocationDisabledMd [14x14/16z] JSc75GKX24HHXap_1QywxW_FU0_20Fahy_jJr4pxbOq2q4hAf_MynMchajhxvBd8Jb3abWfQBr7OdqXvULvKwj6eaD6xiAIsCx5lULEzxm8
 
-!function MaterialsLocationDisabled($id, $name="Location Disabled", $tech="")
+!procedure MaterialsLocationDisabled($id, $name="Location Disabled", $tech="")
   CloudElement($id, 'materials/Device/MaterialsLocationDisabled', $name, $tech)
-!endfunction
-!function MaterialsLocationDisabledCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocationDisabledCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocationDisabledMd>', 'Location Disabled', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ VP053e1G34EP9L_J-vyMTngA_ZVVy2ETRxa3yLn4IewBQWQQI0EA7QZWOAWRb8IB8Q_XZZj3B6nrGnBP
 
 sprite $MaterialsDonutSmallMd [14x14/16z] PKu54W1125AuBlx_skjYradfA0urKED-wacavkPwfEEJZXVJyqsug3wparH7j0SLaIJXdoiznHgitPSLjm4
 
-!function MaterialsDonutSmall($id, $name="Donut Small", $tech="")
+!procedure MaterialsDonutSmall($id, $name="Donut Small", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDonutSmall', $name, $tech)
-!endfunction
-!function MaterialsDonutSmallCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDonutSmallCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDonutSmallMd>', 'Donut Small', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

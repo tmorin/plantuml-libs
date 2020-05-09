@@ -3,10 +3,10 @@ sprite $MaterialsSmartphoneLg [20x20/16z] tT2n0G0G3011083zfmK0JE0QaYuFCeWoc80EAr
 
 sprite $MaterialsSmartphoneMd [14x14/16z] Os1WO6810MOc1Z3Wv0S3JZ27aOkJ0mWukHZ1F0xwKWZRqLq6TpKBoDK
 
-!function MaterialsSmartphone($id, $name="Smartphone", $tech="")
+!procedure MaterialsSmartphone($id, $name="Smartphone", $tech="")
   PersoElement($id, 'materials/MaterialsSmartphone', $name, $tech)
-!endfunction
-!function MaterialsSmartphoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSmartphoneCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsSmartphoneMd>', 'Smartphone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsRdsMysqlInstanceAltLg [20x20/16z] rP350S0W34KZNxh_mlLBWGNwSE8fJvGx1jg
 
 sprite $AwsRdsMysqlInstanceAltMd [14x14/16z] jOZB0O1G3C9uXUZ-6oidku3fDuH5q08KZpoEpsldkY4Xr9epLTUaCv8wjOzVB2po
 
-!function AwsRdsMysqlInstanceAlt($id, $name="Rds Mysql Instance Alt", $tech="")
+!procedure AwsRdsMysqlInstanceAlt($id, $name="Rds Mysql Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsMysqlInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsMysqlInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsMysqlInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsMysqlInstanceAltMd>', 'Rds Mysql Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

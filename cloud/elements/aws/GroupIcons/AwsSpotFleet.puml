@@ -6,10 +6,10 @@ iUrk7VTSMuZqlWU7oRln2G
 
 sprite $AwsSpotFleetMd [14x14/16z] ROx70O004C8-XBZ_mlQkULq5XX_qgYH1NJke5evEOU-eJKgP6wDfWt7jc3iqhfSqrBAhWCAVm-L-9VjX0W
 
-!function AwsSpotFleet($id, $name="Spot Fleet", $tech="")
+!procedure AwsSpotFleet($id, $name="Spot Fleet", $tech="")
   CloudElement($id, 'aws/GroupIcons/AwsSpotFleet', $name, $tech)
-!endfunction
-!function AwsSpotFleetCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSpotFleetCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSpotFleetMd>', 'Spot Fleet', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

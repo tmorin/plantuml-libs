@@ -6,10 +6,10 @@ SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
 
 sprite $MaterialsQueryBuilderMd [14x14/16z] PKw54S1022j-xBzmy-w6HRvdiKKOzyJIHF2q9AXy52NbH2ACDF5OAIc26eMCJA9dubIoFlcnIuagIrbKM2w5fNuvkzSF
 
-!function MaterialsQueryBuilder($id, $name="Query Builder", $tech="")
+!procedure MaterialsQueryBuilder($id, $name="Query Builder", $tech="")
   CloudElement($id, 'materials/Action/MaterialsQueryBuilder', $name, $tech)
-!endfunction
-!function MaterialsQueryBuilderCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsQueryBuilderCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsQueryBuilderMd>', 'Query Builder', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

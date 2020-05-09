@@ -3,10 +3,10 @@ sprite $AwsIotActionLg [20x20/16z] RL030W1141hK_vzyMAF38eoiFfv0kYrFa0H0HaTyd8Fq1
 
 sprite $AwsIotActionMd [14x14/16z] LKx50K1H2ABsN_d7I-LaKFWW9oO6c8XKmh48uwu0Y7xgMiS57cjauQpoq2u1qxVEP7Df2IsTlTa0dUNs0W
 
-!function AwsIotAction($id, $name="Iot Action", $tech="")
+!procedure AwsIotAction($id, $name="Iot Action", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAction', $name, $tech)
-!endfunction
-!function AwsIotActionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotActionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotActionMd>', 'Iot Action', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ Gd-R0lwtg7cE_faqLIVX67Rj2m
 
 sprite $MaterialsShopTwoMd [14x14/16z] NStL0GD120HGP5QG7FrNUxRnzuSEtGHGUc4RtPubivZmQCnNCJssy4ntFIklIjlg1C5L6QjT5VfT4KbyAfQlMVIiPsNrz51q4ZmfOQeyNTbzF87-7G
 
-!function MaterialsShopTwo($id, $name="Shop Two", $tech="")
+!procedure MaterialsShopTwo($id, $name="Shop Two", $tech="")
   CloudElement($id, 'materials/Action/MaterialsShopTwo', $name, $tech)
-!endfunction
-!function MaterialsShopTwoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsShopTwoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsShopTwoMd>', 'Shop Two', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

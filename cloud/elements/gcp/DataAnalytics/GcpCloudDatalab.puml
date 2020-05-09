@@ -6,10 +6,10 @@ pN4C-NlRGQGmCrjqpfOM8xnt5UpOgUrZfw_TVm4
 
 sprite $GcpCloudDatalabMd [14x14/16z] HKw50G112C9s_ud_uFjAfG1Ow3E0HO--LfcxEtEEF8KFg-RXGAbWjONGA5ENYkrYzT2dfdBVOMUuanbKwQ3hkUaWJJ9SxizNRp9fFK7_r1S
 
-!function GcpCloudDatalab($id, $name="Cloud Datalab", $tech="")
+!procedure GcpCloudDatalab($id, $name="Cloud Datalab", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudDatalab', $name, $tech)
-!endfunction
-!function GcpCloudDatalabCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudDatalabCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudDatalabMd>', 'Cloud Datalab', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

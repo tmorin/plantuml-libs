@@ -3,10 +3,10 @@ sprite $MaterialsHdrWeakLg [20x20/16z] lOwr4G0W303n-B7_j7YPcaVY4lwI6XBafwUuHHQ1H
 
 sprite $MaterialsHdrWeakMd [14x14/16z] bOsr0G0n24K_3gVxRnjQIbw26zQG2A5XRgNbKGBu-nYu690aUV__9dKq8JEQdMFBlB3W
 
-!function MaterialsHdrWeak($id, $name="Hdr Weak", $tech="")
+!procedure MaterialsHdrWeak($id, $name="Hdr Weak", $tech="")
   CloudElement($id, 'materials/Image/MaterialsHdrWeak', $name, $tech)
-!endfunction
-!function MaterialsHdrWeakCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHdrWeakCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHdrWeakMd>', 'Hdr Weak', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

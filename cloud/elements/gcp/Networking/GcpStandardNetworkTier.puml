@@ -6,10 +6,10 @@ btA7gULE1Pw6uw-tjmOsvCliq5JIeUbB-mK
 
 sprite $GcpStandardNetworkTierMd [14x14/16z] JOu50W0X20Hf-F-BRwxKCUaL4VK7vOjH_L2F6VCH6DOpHB3QH9Ad03l5Uog3BsRxSz8IaoGiVkuhk779RUGxuSFEwRcKOVGdTAk-
 
-!function GcpStandardNetworkTier($id, $name="Standard Network Tier", $tech="")
+!procedure GcpStandardNetworkTier($id, $name="Standard Network Tier", $tech="")
   CloudElement($id, 'gcp/Networking/GcpStandardNetworkTier', $name, $tech)
-!endfunction
-!function GcpStandardNetworkTierCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpStandardNetworkTierCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpStandardNetworkTierMd>', 'Standard Network Tier', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

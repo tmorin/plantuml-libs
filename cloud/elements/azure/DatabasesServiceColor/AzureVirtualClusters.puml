@@ -9,10 +9,10 @@ DKa50WGX25If8Jp-_zhR9YRD8mA4azmyVzqXdjq_zwWgCA9sEI9Lhj5CU9QUwKxTxN3NsDrRFG3OIHck
 dvj4NtK
 }
 
-!function AzureVirtualClusters($id, $name="Virtual Clusters", $tech="")
+!procedure AzureVirtualClusters($id, $name="Virtual Clusters", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureVirtualClusters', $name, $tech)
-!endfunction
-!function AzureVirtualClustersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVirtualClustersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVirtualClustersMd>', 'Virtual Clusters', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ pE1mf7K2ZG_78bzWEbCoVFL1PlpFWGVCo_6HmU-iVcVwdVqV
 
 sprite $AwsEc2InstanceWithCloudwatchMd [14x14/16z] NSx7bGH10C9GXAZEF-Eru__ZZfAK_epc1nxtmoE9SgFf8O7yu1H9LHAa8qiwmygmYSuELXClNSVlTEF8YWHmbqWF-TFrzEtze-oz-Xi
 
-!function AwsEc2InstanceWithCloudwatch($id, $name="Ec2 Instance With Cloudwatch", $tech="")
+!procedure AwsEc2InstanceWithCloudwatch($id, $name="Ec2 Instance With Cloudwatch", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2InstanceWithCloudwatch', $name, $tech)
-!endfunction
-!function AwsEc2InstanceWithCloudwatchCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2InstanceWithCloudwatchCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2InstanceWithCloudwatchMd>', 'Ec2 Instance With Cloudwatch', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ guOvPff9pzdV0G
 
 sprite $AzureWhatSNewMd [14x14/16z] LKx50G0W43f0t7zZEtbTK141EMSBqK7d0NCleiUAyM6a_eKcAusZF2LJl1pGc1TScz_DUZV1LsV4pALkcTliQrq1
 
-!function AzureWhatSNew($id, $name="What S New", $tech="")
+!procedure AzureWhatSNew($id, $name="What S New", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureWhatSNew', $name, $tech)
-!endfunction
-!function AzureWhatSNewCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWhatSNewCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWhatSNewMd>', 'What S New', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

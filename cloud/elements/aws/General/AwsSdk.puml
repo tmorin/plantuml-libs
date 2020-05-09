@@ -6,10 +6,10 @@ ua-rIXG3zMHQrt9QhQxDmDuvitScdcu3pjlk7m3d3-vVPTw_UdxE7ti
 
 sprite $AwsSdkMd [14x14/16z] JOvL0WK1209H1pRkVz-NM_DZ2_fHfHiIT3118lDRYaipAgSaDjfs-fD83Bibxyolgf0uTLGMo6ULXZfcgBEkQS6XOFyK3dKWemFM5HqyNBy1
 
-!function AwsSdk($id, $name="Sdk", $tech="")
+!procedure AwsSdk($id, $name="Sdk", $tech="")
   CloudElement($id, 'aws/General/AwsSdk', $name, $tech)
-!endfunction
-!function AwsSdkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSdkCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSdkMd>', 'Sdk', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

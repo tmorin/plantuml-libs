@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupEc2InstanceContentsLg [20x20/16z] fP350G0n408ZIFfl-DnTvhaAb5UuetXPeYZHd8j2xa22nYbG0uJx4fEcZTIlMtckPVKrBck7SxzsZxGSQ3xmTf31KLQlg04
 
-!function AwsGroupEc2InstanceContents($id, $name="EC2 Instance Contents", $tech="")
+!procedure AwsGroupEc2InstanceContents($id, $name="EC2 Instance Contents", $tech="")
   CloudGroup($id, "AwsGroupEc2InstanceContents", "<$AwsGroupEc2InstanceContentsLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupEc2InstanceContents>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

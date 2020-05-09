@@ -6,10 +6,10 @@ k-weo_D5QZzNcQyol5HNqRqJ
 
 sprite $AzureSecurityBaselinesMd [12x14/16z] HSQ70KH114LHNj9_n-lRT6TmgWhikaZPbh3sbV3h_9s_CrjyPRNDB3Fe1ZhCOxO4bnwZoNOL_7UrrzAvjDwVnyurBm
 
-!function AzureSecurityBaselines($id, $name="Security Baselines", $tech="")
+!procedure AzureSecurityBaselines($id, $name="Security Baselines", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureSecurityBaselines', $name, $tech)
-!endfunction
-!function AzureSecurityBaselinesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSecurityBaselinesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSecurityBaselinesMd>', 'Security Baselines', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ HSk93GD124DHSvh-6qwoM66_BklD0C2QPRXsEgSEKjDdGk9D3nErg2UH_RFwKtO0CQoU7qbSNpV62Qmb
 
 sprite $AzureDevelopertoolsMd [13x14/16z] JKs70GGX338YmluJVyYtIw-mLecrHdRSJ5ayw6XbnLlavZGurJSHT9rJNEaWzGU5ulurSf16AF5SJqVxBjZQcLkOaV2fFvtqGMLVFnZg1G
 
-!function AzureDevelopertools($id, $name="Developertools", $tech="")
+!procedure AzureDevelopertools($id, $name="Developertools", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureDevelopertools', $name, $tech)
-!endfunction
-!function AzureDevelopertoolsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDevelopertoolsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDevelopertoolsMd>', 'Developertools', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

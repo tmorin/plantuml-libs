@@ -3,10 +3,10 @@ sprite $AwsFsxLg [20x20/16z] nOk50GD13CDAZkJz1ou_R70AWxiEWJBqH0OceAUTxw3V5FS_pLY
 
 sprite $AwsFsxMd [14x14/16z] dST70G0m3CF0dwpm1znT0hbCLvk9yISY7Zz5uQSIeRQrbIKxkJgwdxO9
 
-!function AwsFsx($id, $name="Fsx", $tech="")
+!procedure AwsFsx($id, $name="Fsx", $tech="")
   CloudElement($id, 'aws/Storage/AwsFsx', $name, $tech)
-!endfunction
-!function AwsFsxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsFsxCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsFsxMd>', 'Fsx', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupEcsContainerLg [20x20/16z] lS-r0S0m30J01_t-8uSvNS1d2plX3Tt0gOlO1kV7fV60XU5nR-PTrbrQxeo2AItDjBkmTRzD-5WF
 
-!function AwsGroupEcsContainer($id, $name="ECS Container", $tech="")
+!procedure AwsGroupEcsContainer($id, $name="ECS Container", $tech="")
   CloudGroup($id, "AwsGroupEcsContainer", "<$AwsGroupEcsContainerLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupEcsContainer>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

@@ -6,10 +6,10 @@ atwFA_egKClWsu2vPAk895O88VPn8Zg8vFm3
 
 sprite $AzureFreeServicesMd [15x14/16z] JOs50G0X30EHnlOV-5quj9RK2d1iaCG5Zv1Kp9ixT9Je3UqapXjIvz4NrkWJ_C8vgefBjUghthQymy92jTvxAqdLpzz9XstS_pRUEOpMTW
 
-!function AzureFreeServices($id, $name="Free Services", $tech="")
+!procedure AzureFreeServices($id, $name="Free Services", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureFreeServices', $name, $tech)
-!endfunction
-!function AzureFreeServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFreeServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFreeServicesMd>', 'Free Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

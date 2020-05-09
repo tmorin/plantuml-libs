@@ -6,10 +6,10 @@ ro1VjUbRbNqNOrwps3yp6S6yQbFRE
 
 sprite $AzureDatabaseGenericMd [11x14/16z] 9Oo50GD120HX3VglEE5-SArg75rLq0SAe6oBZR58lCRipiJvCqTy-GfG03XBflaNNRf4uwLGw_ePKmb9PsPty_6U7Ihw_HNg1m
 
-!function AzureDatabaseGeneric($id, $name="Database Generic", $tech="")
+!procedure AzureDatabaseGeneric($id, $name="Database Generic", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureDatabaseGeneric', $name, $tech)
-!endfunction
-!function AzureDatabaseGenericCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDatabaseGenericCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDatabaseGenericMd>', 'Database Generic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

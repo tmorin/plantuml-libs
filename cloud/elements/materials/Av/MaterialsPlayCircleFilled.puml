@@ -6,10 +6,10 @@ xOhlbFC7
 
 sprite $MaterialsPlayCircleFilledMd [14x14/16z] POw54S0m30F3ODn_sZBf-a6pmezKUw_fCghuXjJJy8lTJ5k4nX5DPwZ7AcUmxrO8cOy7BCp4BZW1fwCoP0K
 
-!function MaterialsPlayCircleFilled($id, $name="Play Circle Filled", $tech="")
+!procedure MaterialsPlayCircleFilled($id, $name="Play Circle Filled", $tech="")
   CloudElement($id, 'materials/Av/MaterialsPlayCircleFilled', $name, $tech)
-!endfunction
-!function MaterialsPlayCircleFilledCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPlayCircleFilledCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPlayCircleFilledMd>', 'Play Circle Filled', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

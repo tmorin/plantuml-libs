@@ -6,10 +6,10 @@ dWTEcf3dZiMGkUXR_W
 
 sprite $AwsConfigMd [14x14/16z] VOor0O1000EH6Eo_B-xorqNx8jQA5oKf2BafC3IWJS6NRAAzxanApAP2MTIYLkprffjOcpkHLl7F2
 
-!function AwsConfig($id, $name="Config", $tech="")
+!procedure AwsConfig($id, $name="Config", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsConfig', $name, $tech)
-!endfunction
-!function AwsConfigCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsConfigCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsConfigMd>', 'Config', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

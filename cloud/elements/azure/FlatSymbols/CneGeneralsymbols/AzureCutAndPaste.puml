@@ -6,10 +6,10 @@ cLumbvYY-785EA4cM1vw5nrOeS4mGR6WQz7mzWtsqF83
 
 sprite $AzureCutAndPasteMd [9x14/16z] 7Ka70W0X24AjHAFx_szlEPY81M05O6Km6W1EBBwCsTRp4ovknpTzrS_8At-sDx5Fy9p3hwZchaJIEDgP2Y_lYAtrngof9GL2MWy
 
-!function AzureCutAndPaste($id, $name="Cut And Paste", $tech="")
+!procedure AzureCutAndPaste($id, $name="Cut And Paste", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCutAndPaste', $name, $tech)
-!endfunction
-!function AzureCutAndPasteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCutAndPasteCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCutAndPasteMd>', 'Cut And Paste', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

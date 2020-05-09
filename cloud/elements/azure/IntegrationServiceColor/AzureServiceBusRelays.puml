@@ -6,10 +6,10 @@ fdJvWMv-LJM_wG
 
 sprite $AzureServiceBusRelaysMd [14x14/16z] PKu30W0W39p3__-RtUnTl2duHINp28FGHwOQKBVSgo9Zui-4MLT29LGUOseb8jCsJ5OpDgDY2LYm7c90Eh-x2rbuG6S
 
-!function AzureServiceBusRelays($id, $name="Service Bus Relays", $tech="")
+!procedure AzureServiceBusRelays($id, $name="Service Bus Relays", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureServiceBusRelays', $name, $tech)
-!endfunction
-!function AzureServiceBusRelaysCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServiceBusRelaysCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServiceBusRelaysMd>', 'Service Bus Relays', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsStepFunctionsLg [20x20/16z] hP0t0iH0308RCR3x___UEUVEdavPq3-WGRlc3Bxc8
 
 sprite $AwsStepFunctionsMd [14x14/16z] XOsr0S1030CRYtx_VSECLna4xOz8nutCuGD8you2Zkbf8u288k_RfBJfd5Bk3HDI-wK7
 
-!function AwsStepFunctions($id, $name="Step Functions", $tech="")
+!procedure AwsStepFunctions($id, $name="Step Functions", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsStepFunctions', $name, $tech)
-!endfunction
-!function AwsStepFunctionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsStepFunctionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsStepFunctionsMd>', 'Step Functions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

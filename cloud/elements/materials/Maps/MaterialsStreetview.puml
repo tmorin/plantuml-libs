@@ -6,10 +6,10 @@ WPxCGkwiczpbWKZ_TG8
 
 sprite $MaterialsStreetviewMd [14x14/16z] NSu70WCm10LGFftow_wd3RhRx2UBl0eCCoa05OyCRrn8dX2P6H2mvwDbbvizTFxPM-Ohbyj3jEURhOd23wwZmQ5ZnAWXbtmg6c-foOZaHMVrIU-l5
 
-!function MaterialsStreetview($id, $name="Streetview", $tech="")
+!procedure MaterialsStreetview($id, $name="Streetview", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsStreetview', $name, $tech)
-!endfunction
-!function MaterialsStreetviewCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStreetviewCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStreetviewMd>', 'Streetview', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

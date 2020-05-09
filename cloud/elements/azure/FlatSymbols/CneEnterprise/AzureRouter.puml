@@ -6,10 +6,10 @@ SYDRDYB9dK4tkWnoYDCwpaptG3_521m7bdZrgexcYlAhADfXN731xKW4v-ZG_Els3
 
 sprite $AzureRouterMd [18x14/16z] NS-50SGW3030kE-_xakz7Euaon1kakCky42UGaQ01m2Z_mQqsbqN-5nycq1zs3QnFV1sgAElxDjCIVzoI_toDgFveDlDzv-tlf31Wv6aqnB5fC0xqYy
 
-!function AzureRouter($id, $name="Router", $tech="")
+!procedure AzureRouter($id, $name="Router", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureRouter', $name, $tech)
-!endfunction
-!function AzureRouterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureRouterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureRouterMd>', 'Router', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

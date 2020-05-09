@@ -6,10 +6,10 @@ SBXErY10xDEb8i93g0qPowOpw6CCypwTAzAO5U__pP3mpUy5LNRtlwpjVW
 
 sprite $AzureActivedirectoryfederationservicesproxyMd [11x14/16z] DOo54G0X40E3dGJflzmFpFoUwx1B6mRiXqTKd7JtKEeuUwtbIR8UCTLDZvigkBZfpWxn5knFbsdPYZxiPUbzbFVNMYlUSHPdZWYo78QmUhkFH04-
 
-!function AzureActivedirectoryfederationservicesproxy($id, $name="Activedirectoryfederationservicesproxy", $tech="")
+!procedure AzureActivedirectoryfederationservicesproxy($id, $name="Activedirectoryfederationservicesproxy", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureActivedirectoryfederationservicesproxy', $name, $tech)
-!endfunction
-!function AzureActivedirectoryfederationservicesproxyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureActivedirectoryfederationservicesproxyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureActivedirectoryfederationservicesproxyMd>', 'Activedirectoryfederationservicesproxy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ mJKy
 
 sprite $MaterialsSearchMd [14x14/16z] TKs30G113Akr_xvl7cecq0aIlercf3wD8w3RTHQunpoFAOuKTE-k-FwPtp2M4UxyvUDYUALhxsuYAm
 
-!function MaterialsSearch($id, $name="Search", $tech="")
+!procedure MaterialsSearch($id, $name="Search", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSearch', $name, $tech)
-!endfunction
-!function MaterialsSearchCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSearchCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSearchMd>', 'Search', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

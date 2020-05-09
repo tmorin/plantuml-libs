@@ -3,10 +3,10 @@ sprite $AwsApiGatewayEndpointLg [20x20/16z] XP253S1030CTLFTVkFJC5bqOy8lb5wF8t7wv
 
 sprite $AwsApiGatewayEndpointMd [14x14/16z] POxN0SK020BXFFSV-VMQyAVKtE03US8fT7mUb8JYWs4tsGNlX_Ulo6XjxrThdzV2dg-ZSl1voVZJyEWNI03FotvNNm4
 
-!function AwsApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
+!procedure AwsApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
   CloudElement($id, 'aws/Mobile/AwsApiGatewayEndpoint', $name, $tech)
-!endfunction
-!function AwsApiGatewayEndpointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApiGatewayEndpointCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApiGatewayEndpointMd>', 'Api Gateway Endpoint', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

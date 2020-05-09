@@ -6,10 +6,10 @@ AzWkfqAxZBF5imI4hQ7FmaZwVOcpvV5jDHbMS0enRDM95scLcXy
 
 sprite $GcpCloudFirestoreMd [15x14/16z] ROw50S1020EH8FjFN5AtUyKZ8kYLSY5QlTjAC_e0OranaBM6rs11rM8S8SvRaT0Sl-MQ2iEQdZH33QRhZvqoke1YyZu7QnKE5NNgm2NZHwHurehFVm4
 
-!function GcpCloudFirestore($id, $name="Cloud Firestore", $tech="")
+!procedure GcpCloudFirestore($id, $name="Cloud Firestore", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudFirestore', $name, $tech)
-!endfunction
-!function GcpCloudFirestoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudFirestoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudFirestoreMd>', 'Cloud Firestore', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

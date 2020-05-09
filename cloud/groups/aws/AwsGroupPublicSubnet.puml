@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupPublicSubnetLg [20x20/16z] hSg53SD044HHmT9C__twcCN9ju-Ubdy8xhWer4pZdD8eZdEixCSWGf7Jm28LqLpUiGozm_BAssLkvhU5IDn6CpuMSPfuJwRHhP4vVoq1
 
-!function AwsGroupPublicSubnet($id, $name="Public Subnet", $tech="")
+!procedure AwsGroupPublicSubnet($id, $name="Public Subnet", $tech="")
   CloudGroup($id, "AwsGroupPublicSubnet", "<$AwsGroupPublicSubnetLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupPublicSubnet>> {
   StereotypeFontColor $AWS_COLOR_GREEN
   BorderThickness 0

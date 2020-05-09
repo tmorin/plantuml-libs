@@ -3,10 +3,10 @@ sprite $AwsElementalMediaconnectLg [20x20/16z] hP375OD050CF2aF_5JlRCcS4c-RzV5mWM
 
 sprite $AwsElementalMediaconnectMd [14x14/16z] XOsr0G11408JcFd-6twtYsvTOPc9u5lR9Duz2OTVgpQdUNKMwjqHMd83KS6-VxVTe6tBo3wJ3G
 
-!function AwsElementalMediaconnect($id, $name="Elemental Mediaconnect", $tech="")
+!procedure AwsElementalMediaconnect($id, $name="Elemental Mediaconnect", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediaconnect', $name, $tech)
-!endfunction
-!function AwsElementalMediaconnectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalMediaconnectCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalMediaconnectMd>', 'Elemental Mediaconnect', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ RSy70iCW30F03ij6yF__LgWxiJA0O_ERyGuRP8EpmTdWR50c7MymcX0q0HjjbPba9lHIw64aXZfkHPJG
 
 sprite $AwsMacieMd [14x14/16z] LOp50GG120FlLWWJ-gzttPWNnBZ80zhhzhgztjuyRuvFytxC0TkNoiYO984T6xDY8p7JbjfZceJDPyStx5HxgxtLtXK
 
-!function AwsMacie($id, $name="Macie", $tech="")
+!procedure AwsMacie($id, $name="Macie", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsMacie', $name, $tech)
-!endfunction
-!function AwsMacieCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsMacieCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsMacieMd>', 'Macie', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

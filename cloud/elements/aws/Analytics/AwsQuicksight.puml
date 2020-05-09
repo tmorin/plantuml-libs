@@ -6,10 +6,10 @@ jJT6vMEOJNIkHTcGnzGsNAZiYZy
 
 sprite $AwsQuicksightMd [14x14/16z] FSjB4iGm20FH-LcecVlVDrH4fLT-1aXER2jAMzdTSjBng0mk_8k0UKbQvKfuP5c_OiJek7LO7NK3gp8t8bTImR-V68Mh2m
 
-!function AwsQuicksight($id, $name="Quicksight", $tech="")
+!procedure AwsQuicksight($id, $name="Quicksight", $tech="")
   CloudElement($id, 'aws/Analytics/AwsQuicksight', $name, $tech)
-!endfunction
-!function AwsQuicksightCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsQuicksightCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsQuicksightMd>', 'Quicksight', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ tiePr6TLphJA1G
 
 sprite $MaterialsWallpaperMd [14x14/16z] LOw50S0m20Hnwjr_shXU57_OOKyGvPi1N8a8CLtgoQAUHTCItImf5c7FHAeM3ilp4M3iTVO_TbktM3BPsgVlodOY
 
-!function MaterialsWallpaper($id, $name="Wallpaper", $tech="")
+!procedure MaterialsWallpaper($id, $name="Wallpaper", $tech="")
   CloudElement($id, 'materials/Device/MaterialsWallpaper', $name, $tech)
-!endfunction
-!function MaterialsWallpaperCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWallpaperCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWallpaperMd>', 'Wallpaper', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

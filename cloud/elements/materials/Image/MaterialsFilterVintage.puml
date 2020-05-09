@@ -6,10 +6,10 @@ N5twgml7sdcrSEty_xRl1lzR_M_wtNu1
 
 sprite $MaterialsFilterVintageMd [14x14/16z] NKx50S1023iNTFzfwvRo0gBXc9J2Et7E-5x5lLoasd9txxdLTFoDMYCxy4ZEspEnqwvDr7P5enJmGYQwO0Aa_vjXwnK
 
-!function MaterialsFilterVintage($id, $name="Filter Vintage", $tech="")
+!procedure MaterialsFilterVintage($id, $name="Filter Vintage", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterVintage', $name, $tech)
-!endfunction
-!function MaterialsFilterVintageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFilterVintageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFilterVintageMd>', 'Filter Vintage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

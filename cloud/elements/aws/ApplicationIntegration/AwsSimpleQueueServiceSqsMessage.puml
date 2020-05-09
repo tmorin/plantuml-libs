@@ -3,10 +3,10 @@ sprite $AwsSimpleQueueServiceSqsMessageLg [20x20/16z] hL050iGm30gIk___U9sxhzue0D
 
 sprite $AwsSimpleQueueServiceSqsMessageMd [14x14/16z] ZKx50K1H229a_v5_TpvFAkbKF8qibQa8a4cg1CQ0Yw2dQyP0xHVGokGxy-pY3TkOvsPEjjPM3m
 
-!function AwsSimpleQueueServiceSqsMessage($id, $name="Simple Queue Service Sqs Message", $tech="")
+!procedure AwsSimpleQueueServiceSqsMessage($id, $name="Simple Queue Service Sqs Message", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsSimpleQueueServiceSqsMessage', $name, $tech)
-!endfunction
-!function AwsSimpleQueueServiceSqsMessageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleQueueServiceSqsMessageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleQueueServiceSqsMessageMd>', 'Simple Queue Service Sqs Message', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

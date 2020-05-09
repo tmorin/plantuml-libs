@@ -6,10 +6,10 @@ psM-xTViZm
 
 sprite $AwsGlueDataCatalogMd [14x14/16z] JSw50S0m20H0Nhl_n7MBNmmKDNUfJOg-oZvZrtLqQyv3uLPhPtcKx6UTM_2Cz6XCP5x1qgT9yPCyj_xH-TUPTS-IUWC
 
-!function AwsGlueDataCatalog($id, $name="Glue Data Catalog", $tech="")
+!procedure AwsGlueDataCatalog($id, $name="Glue Data Catalog", $tech="")
   CloudElement($id, 'aws/Analytics/AwsGlueDataCatalog', $name, $tech)
-!endfunction
-!function AwsGlueDataCatalogCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGlueDataCatalogCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGlueDataCatalogMd>', 'Glue Data Catalog', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

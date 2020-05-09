@@ -6,10 +6,10 @@ fVcFEmVFN3rpUkU-1m
 
 sprite $AwsEc2C4InstanceMd [14x14/16z] LOw50S0W40DZl__AJHqEVGy0KM8N2ZrEwKF0veCD3V704VrRfbBBWcf5hAMxeD_B2ZEgTMUgtpjpwx9FsAVlodRL1m
 
-!function AwsEc2C4Instance($id, $name="Ec2 C4 Instance", $tech="")
+!procedure AwsEc2C4Instance($id, $name="Ec2 C4 Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2C4Instance', $name, $tech)
-!endfunction
-!function AwsEc2C4InstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2C4InstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2C4InstanceMd>', 'Ec2 C4 Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

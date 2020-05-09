@@ -3,10 +3,10 @@ sprite $MaterialsStayPrimaryLandscapeLg [20x20/16z] Ow0sO6P70ymCZ5pyV1m80Gu-VYv6
 
 sprite $MaterialsStayPrimaryLandscapeMd [14x14/16z] Oy0B6E60WO69aui32hWucLZuEM5IdFmiBFmSC2qSfF1GJK6r0SLsl
 
-!function MaterialsStayPrimaryLandscape($id, $name="Stay Primary Landscape", $tech="")
+!procedure MaterialsStayPrimaryLandscape($id, $name="Stay Primary Landscape", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsStayPrimaryLandscape', $name, $tech)
-!endfunction
-!function MaterialsStayPrimaryLandscapeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStayPrimaryLandscapeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStayPrimaryLandscapeMd>', 'Stay Primary Landscape', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsNoteAddLg [20x20/16z] VP254G0X3C1mX-u_xRjK3e87hvfW7f2oTVIJwdxdu
 
 sprite $MaterialsNoteAddMd [14x14/16z] NSU50KKX241H6jlzf_tvp6l0WIloR_n8-oTtsIJeigI0pbFHBEgGsUTxL0jpgKEE0EX3KOaq3lNEtFjIIaFaJmHNRm
 
-!function MaterialsNoteAdd($id, $name="Note Add", $tech="")
+!procedure MaterialsNoteAdd($id, $name="Note Add", $tech="")
   CloudElement($id, 'materials/Action/MaterialsNoteAdd', $name, $tech)
-!endfunction
-!function MaterialsNoteAddCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNoteAddCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNoteAddMd>', 'Note Add', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

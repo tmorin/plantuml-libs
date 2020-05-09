@@ -6,10 +6,10 @@ mzIxjcSuZ-MkNH3E8e5hbputdxoZ4DZB_ppuy-hVqp_lDm
 
 sprite $AwsIotPoliceEmergencyMd [14x14/16z] NSw70K9120JHPPZVVylkcVLTZf24eOOSN5xQZYG8Mo2XMq-TZcIj3SxPQEtudCQKwSR8c78UDzdKyln5GP-_9BCxoPaYJ_ANsM_MDm
 
-!function AwsIotPoliceEmergency($id, $name="Iot Police Emergency", $tech="")
+!procedure AwsIotPoliceEmergency($id, $name="Iot Police Emergency", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotPoliceEmergency', $name, $tech)
-!endfunction
-!function AwsIotPoliceEmergencyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotPoliceEmergencyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotPoliceEmergencyMd>', 'Iot Police Emergency', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsDeleteSweepLg [20x20/16z] hSm50i9G201G6apkVri_jgxZRRyes8XKZNy27
 
 sprite $MaterialsDeleteSweepMd [14x14/16z] XSc53GD05CFGvFFn_jEMAonO-6JyYhHmuKjUlVUMBzBk2KLK09bhhMFCJBzfdLiEadZBM5NyzjnnrtpA3FSiF9pusnK
 
-!function MaterialsDeleteSweep($id, $name="Delete Sweep", $tech="")
+!procedure MaterialsDeleteSweep($id, $name="Delete Sweep", $tech="")
   CloudElement($id, 'materials/Content/MaterialsDeleteSweep', $name, $tech)
-!endfunction
-!function MaterialsDeleteSweepCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDeleteSweepCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDeleteSweepMd>', 'Delete Sweep', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

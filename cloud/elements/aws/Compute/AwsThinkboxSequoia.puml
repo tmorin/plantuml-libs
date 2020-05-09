@@ -6,10 +6,10 @@ cxN6Rkt4ozlQAgBNws6hbfo-MxFoRejzsW_y0m
 
 sprite $AwsThinkboxSequoiaMd [14x14/16z] PSUt0GCm3CJ0WW1V-qzi9UVhBbE_vAidy5gxdObCmfviVesxGYddnX1QBSZU37QvbfbkwIHZYc2ojp_zxm4
 
-!function AwsThinkboxSequoia($id, $name="Thinkbox Sequoia", $tech="")
+!procedure AwsThinkboxSequoia($id, $name="Thinkbox Sequoia", $tech="")
   CloudElement($id, 'aws/Compute/AwsThinkboxSequoia', $name, $tech)
-!endfunction
-!function AwsThinkboxSequoiaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsThinkboxSequoiaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsThinkboxSequoiaMd>', 'Thinkbox Sequoia', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

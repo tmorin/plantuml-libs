@@ -3,10 +3,10 @@ sprite $MaterialsAccessibilityLg [20x20/16z] hSZ50GGn34DHoH26_hjTne5JNj0VPqJmJsj
 
 sprite $MaterialsAccessibilityMd [14x14/16z] ZKc30S103FpuwlsdhUtWc6x6R6SepsbdHPOyC4yCFJEZQS3CS-zDumF_S6Px9_Beb5dJTJe
 
-!function MaterialsAccessibility($id, $name="Accessibility", $tech="")
+!procedure MaterialsAccessibility($id, $name="Accessibility", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAccessibility', $name, $tech)
-!endfunction
-!function MaterialsAccessibilityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAccessibilityCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAccessibilityMd>', 'Accessibility', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

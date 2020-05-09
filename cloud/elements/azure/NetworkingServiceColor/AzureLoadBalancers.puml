@@ -6,10 +6,10 @@ NAWNCFCUA7jkDluvJKQRoVZtcYxUneiFVG
 
 sprite $AzureLoadBalancersMd [14x14/16z] DSo75S0m20DHYaxxZnp8mztVbDYHKkvzw5uU527o05MOF8piuQ2XgsN4838BLrK8AUO1rPKR5AXADdyXzkiIGplpC8G85aVfn-FX0m
 
-!function AzureLoadBalancers($id, $name="Load Balancers", $tech="")
+!procedure AzureLoadBalancers($id, $name="Load Balancers", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureLoadBalancers', $name, $tech)
-!endfunction
-!function AzureLoadBalancersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLoadBalancersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLoadBalancersMd>', 'Load Balancers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

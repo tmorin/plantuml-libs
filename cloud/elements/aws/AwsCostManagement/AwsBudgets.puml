@@ -3,10 +3,10 @@ sprite $AwsBudgetsLg [20x20/16z] fOtL0OKm5CMU7El-0rTm-oDGoxNobd0XHvU1pwuC-E1qSyQ
 
 sprite $AwsBudgetsMd [14x14/16z] XSU53S0m34HHqT7-2_SK4fH-m7xvYQEZFk5Hha1wG6Hl-gSHbCOOCjc_Oscq1CUzMEAe-km2
 
-!function AwsBudgets($id, $name="Budgets", $tech="")
+!procedure AwsBudgets($id, $name="Budgets", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsBudgets', $name, $tech)
-!endfunction
-!function AwsBudgetsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBudgetsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBudgetsMd>', 'Budgets', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

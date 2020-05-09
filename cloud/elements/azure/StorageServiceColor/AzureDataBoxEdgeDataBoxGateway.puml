@@ -9,10 +9,10 @@ LT170a8X54FHb9TysF-6nQwNVeRWcRBsNY7-ceEdfOzGjfX_TdiA_UGENwZ7blti4jHGW9XmlNWn3JX3
 YNnSFxe4fhLxydmGe8z_zFb5Dm
 }
 
-!function AzureDataBoxEdgeDataBoxGateway($id, $name="Data Box Edge Data Box Gateway", $tech="")
+!procedure AzureDataBoxEdgeDataBoxGateway($id, $name="Data Box Edge Data Box Gateway", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureDataBoxEdgeDataBoxGateway', $name, $tech)
-!endfunction
-!function AzureDataBoxEdgeDataBoxGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDataBoxEdgeDataBoxGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDataBoxEdgeDataBoxGatewayMd>', 'Data Box Edge Data Box Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

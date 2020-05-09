@@ -6,10 +6,10 @@ TSu55WCX30JGmJN9_M_RC6_hxLy5OlWfn3S1BicR11Urn8UYaRcIyP0tSyCiU2Wpy3jwVEW3r4qVh8Eg
 
 sprite $MaterialsLocalDrinkMd [14x14/16z] NSc70SCW30LHVJgatFxR1YdDzb4Vs3drNzgQ9KLbRjcGHHhc-lw5Ei-8xgf0Qq1r5PZIXEBAKE8jkzBpcJwxwqwJ6lUG5YnVCg_qgDYr5m
 
-!function MaterialsLocalDrink($id, $name="Local Drink", $tech="")
+!procedure MaterialsLocalDrink($id, $name="Local Drink", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalDrink', $name, $tech)
-!endfunction
-!function MaterialsLocalDrinkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalDrinkCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalDrinkMd>', 'Local Drink', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

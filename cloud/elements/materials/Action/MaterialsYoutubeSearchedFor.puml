@@ -6,10 +6,10 @@ hePnnalUepnZb5NP0W
 
 sprite $MaterialsYoutubeSearchedForMd [14x14/16z] VOh50G8140CtMN_HVxN0kT-y8YDNG6p5kzgN4W5XsQpLeB4mbcWRmjpo4vYDeTguXSmWgoEvL19YJTcuL9KtVW
 
-!function MaterialsYoutubeSearchedFor($id, $name="Youtube Searched For", $tech="")
+!procedure MaterialsYoutubeSearchedFor($id, $name="Youtube Searched For", $tech="")
   CloudElement($id, 'materials/Action/MaterialsYoutubeSearchedFor', $name, $tech)
-!endfunction
-!function MaterialsYoutubeSearchedForCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsYoutubeSearchedForCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsYoutubeSearchedForMd>', 'Youtube Searched For', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

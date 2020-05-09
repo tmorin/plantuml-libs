@@ -6,10 +6,10 @@ RP250S0m20JJ0F-t_y9rRoyUdBOoxBIJhfFUTYLnebqrkP6RchdXLR5uK4i0yy1p686LzleMe9RWZCW2
 
 sprite $GcpCloudTranslationApiMd [14x14/16z] JSwt0G0n5CBGxm1Y_uKl1wjx5LHL6rUjweIvyiMPftcWyufUfUIrQe2cIUGmo241KmaaxiQQap10Y1YJKSgNruNqTLtlinCyH__NEm
 
-!function GcpCloudTranslationApi($id, $name="Cloud Translation Api", $tech="")
+!procedure GcpCloudTranslationApi($id, $name="Cloud Translation Api", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudTranslationApi', $name, $tech)
-!endfunction
-!function GcpCloudTranslationApiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudTranslationApiCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudTranslationApiMd>', 'Cloud Translation Api', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

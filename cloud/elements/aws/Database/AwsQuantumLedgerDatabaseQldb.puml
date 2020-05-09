@@ -6,10 +6,10 @@ yX7y
 
 sprite $AwsQuantumLedgerDatabaseQldbMd [14x14/16z] XOs50OG0548l51ww_xnsv--4wba2MHf8uhat2MRU9GIMdIMLaiUTogBiJEjEDcC78VM6WUpOtwK5
 
-!function AwsQuantumLedgerDatabaseQldb($id, $name="Quantum Ledger Database Qldb", $tech="")
+!procedure AwsQuantumLedgerDatabaseQldb($id, $name="Quantum Ledger Database Qldb", $tech="")
   CloudElement($id, 'aws/Database/AwsQuantumLedgerDatabaseQldb', $name, $tech)
-!endfunction
-!function AwsQuantumLedgerDatabaseQldbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsQuantumLedgerDatabaseQldbCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsQuantumLedgerDatabaseQldbMd>', 'Quantum Ledger Database Qldb', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

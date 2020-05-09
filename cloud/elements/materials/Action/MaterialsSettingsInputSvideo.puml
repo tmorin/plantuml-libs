@@ -9,10 +9,10 @@ HOw5aG0n30FNKiPovlglz-5m0sRW7zdYnZFTC-QVjLr_U2_0MwpZM6WROb2tm45JnKdLoAbPP_bKxE0w
 2m
 }
 
-!function MaterialsSettingsInputSvideo($id, $name="Settings Input Svideo", $tech="")
+!procedure MaterialsSettingsInputSvideo($id, $name="Settings Input Svideo", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsInputSvideo', $name, $tech)
-!endfunction
-!function MaterialsSettingsInputSvideoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsInputSvideoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsInputSvideoMd>', 'Settings Input Svideo', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

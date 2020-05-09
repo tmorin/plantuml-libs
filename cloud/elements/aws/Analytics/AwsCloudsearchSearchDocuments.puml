@@ -6,10 +6,10 @@ ws0FS5pSKzJx3m
 
 sprite $AwsCloudsearchSearchDocumentsMd [14x14/16z] TOw35G0134FRQF-DpyP_B88gUKCrOMnudWGjGFF0va9p6XDY7i1acixFQUhpinSNBa0lpzB-gVh_V3Mxjnu1
 
-!function AwsCloudsearchSearchDocuments($id, $name="Cloudsearch Search Documents", $tech="")
+!procedure AwsCloudsearchSearchDocuments($id, $name="Cloudsearch Search Documents", $tech="")
   CloudElement($id, 'aws/Analytics/AwsCloudsearchSearchDocuments', $name, $tech)
-!endfunction
-!function AwsCloudsearchSearchDocumentsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudsearchSearchDocumentsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudsearchSearchDocumentsMd>', 'Cloudsearch Search Documents', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

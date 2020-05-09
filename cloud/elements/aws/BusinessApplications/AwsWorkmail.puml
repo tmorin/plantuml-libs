@@ -6,10 +6,10 @@ skuSFoxp2W
 
 sprite $AwsWorkmailMd [14x14/16z] LSg73G0n349HjM13zj_tCDT_wfFCgqu_j8Y5jDR8Drr5HCDi52o1fZUZeXg6nKYSm97SNxhqczog16TjAT5POI8F
 
-!function AwsWorkmail($id, $name="Workmail", $tech="")
+!procedure AwsWorkmail($id, $name="Workmail", $tech="")
   CloudElement($id, 'aws/BusinessApplications/AwsWorkmail', $name, $tech)
-!endfunction
-!function AwsWorkmailCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWorkmailCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWorkmailMd>', 'Workmail', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ NVixpm7K0GUU
 
 sprite $MaterialsLockOutlineMd [14x14/16z] NSk54K0X30FGrA_il-yN7DvfcmG_4Y4C59zvkW7cume6EFeXgSoQKW_Dg5BhIb6fZujvkwWKMXVSMtRlpBbo-o-EZd5v0G
 
-!function MaterialsLockOutline($id, $name="Lock Outline", $tech="")
+!procedure MaterialsLockOutline($id, $name="Lock Outline", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLockOutline', $name, $tech)
-!endfunction
-!function MaterialsLockOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLockOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLockOutlineMd>', 'Lock Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

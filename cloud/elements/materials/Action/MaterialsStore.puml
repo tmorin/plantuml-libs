@@ -6,10 +6,10 @@ RIiO
 
 sprite $MaterialsStoreMd [14x14/16z] VSt50S0W4031XVDe_zN6ysNGVHr3uXzvoZvFMNwCI-sV0jhyrzoWB-koBDjoFHq8QwsND0ikha0sr9yALPkU-gTRemj39m
 
-!function MaterialsStore($id, $name="Store", $tech="")
+!procedure MaterialsStore($id, $name="Store", $tech="")
   CloudElement($id, 'materials/Action/MaterialsStore', $name, $tech)
-!endfunction
-!function MaterialsStoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStoreMd>', 'Store', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

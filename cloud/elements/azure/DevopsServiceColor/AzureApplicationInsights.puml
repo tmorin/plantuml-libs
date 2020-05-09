@@ -6,10 +6,10 @@ HSw70KGX20FG8564kF-yX__QirS0Z96PGJIBUcJORzx2PltDtJkyecfdfTaOmsnNbigzTznxbbAH8ajA
 
 sprite $AzureApplicationInsightsMd [9x14/16z] 9Ki50W0n2CBO5Bp_V_TgjWHiazm6RttHNk8NAZBTFTzJiRX2ugLWwc9eidFaYDcz5G1gPWflk2J7V_dPoBtEOMxdYFrv7W
 
-!function AzureApplicationInsights($id, $name="Application Insights", $tech="")
+!procedure AzureApplicationInsights($id, $name="Application Insights", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzureApplicationInsights', $name, $tech)
-!endfunction
-!function AzureApplicationInsightsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureApplicationInsightsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureApplicationInsightsMd>', 'Application Insights', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

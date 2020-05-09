@@ -6,10 +6,10 @@ qAm1fVcjQdGlrT-6tzU_PpkatxEzTz2xUjgEdTBLE_tO_Gy
 
 sprite $GcpContainerRegistryMd [14x14/16z] JKw74S102FfN4FQVE5owlSjQQ_T9Es6IqKbpfl1DI59wCjLQj21DZBbQ1bqbmafYf04DR2K3ysEdTpO1a35sNrTyclb_SFs_yq5sFZ-H_L4V
 
-!function GcpContainerRegistry($id, $name="Container Registry", $tech="")
+!procedure GcpContainerRegistry($id, $name="Container Registry", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpContainerRegistry', $name, $tech)
-!endfunction
-!function GcpContainerRegistryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpContainerRegistryCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpContainerRegistryMd>', 'Container Registry', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

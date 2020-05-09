@@ -9,10 +9,10 @@ JKq50WGW21jXWV__hW5UZAu1jUcD0N1p7mAnUM0ApKJ637ZpJA8UzLOMFlg3rS-oH6Eypf1a6oKlcRAU
 p0FSBn_Z3zNgopO
 }
 
-!function AzureUnhealthy($id, $name="Unhealthy", $tech="")
+!procedure AzureUnhealthy($id, $name="Unhealthy", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUnhealthy', $name, $tech)
-!endfunction
-!function AzureUnhealthyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUnhealthyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUnhealthyMd>', 'Unhealthy', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

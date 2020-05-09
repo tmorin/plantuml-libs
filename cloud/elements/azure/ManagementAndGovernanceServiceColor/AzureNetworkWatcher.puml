@@ -6,10 +6,10 @@ CygcdkZOq7O4RwGQnpoo1FY9OfnQWcViqyoHCzyjEyHDp-l9QBg33zhNu-vkz4NF2Y29poxzh7y9_m
 
 sprite $AzureNetworkWatcherMd [14x14/16z] JOm75WCW3489o_R-5-vJkxup2O23qeQuM2ObdO9MoCZSbR5d9WnWckxAp2caBjqg6Sp4LrbIfXfPc6e_N981n1WWw-PtQSOTRFnisjmY3sChBoluumK
 
-!function AzureNetworkWatcher($id, $name="Network Watcher", $tech="")
+!procedure AzureNetworkWatcher($id, $name="Network Watcher", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureNetworkWatcher', $name, $tech)
-!endfunction
-!function AzureNetworkWatcherCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNetworkWatcherCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNetworkWatcherMd>', 'Network Watcher', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

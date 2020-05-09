@@ -11,10 +11,10 @@ ZT473WCm24DH0mahlVzvI-ZUjUQNdgOz8_yR0qYc_wQ-DObUDua_X1B5sDeEuQUjW-WryZ46Hb1h9-pD
 Ifw3Ir6A6bbEzehIJjenA2O0ywq1NSi9hO6PoncjWP4h16WzywGXLHTTGRXey8xM5BDrxwPhDzrhROxIQPSjqRiOkku2abnQp2-ppy481LB-Vfu0pN_708u
 }
 
-!function AzureQueueGeneral($id, $name="Queue General", $tech="")
+!procedure AzureQueueGeneral($id, $name="Queue General", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureQueueGeneral', $name, $tech)
-!endfunction
-!function AzureQueueGeneralCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureQueueGeneralCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureQueueGeneralMd>', 'Queue General', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

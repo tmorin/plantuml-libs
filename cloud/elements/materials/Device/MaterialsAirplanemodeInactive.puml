@@ -6,10 +6,10 @@ hhEZCoeTsgHmG6aJ2yE55gBYQeKn-9g8OuLpNW
 
 sprite $MaterialsAirplanemodeInactiveMd [14x14/16z] RKn50i0m22EieTx-_xLptxWGbv-Z7cW6A3oOSMS7XLrCFE6kOkW4tOh1KbCbB2osHQgMCjE8sLlyOilotaIbNBFMeuhfRb7T8D-R
 
-!function MaterialsAirplanemodeInactive($id, $name="Airplanemode Inactive", $tech="")
+!procedure MaterialsAirplanemodeInactive($id, $name="Airplanemode Inactive", $tech="")
   CloudElement($id, 'materials/Device/MaterialsAirplanemodeInactive', $name, $tech)
-!endfunction
-!function MaterialsAirplanemodeInactiveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirplanemodeInactiveCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirplanemodeInactiveMd>', 'Airplanemode Inactive', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

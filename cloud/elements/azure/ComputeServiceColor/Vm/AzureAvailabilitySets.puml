@@ -6,10 +6,10 @@ RP254S0m30DDKlRVs506jQ4_Sv1cprK8ghWlDfA72fgAsYbjs8VXL0mZnC5w-R0o19lDAp1owNZ3oBOa
 
 sprite $AzureAvailabilitySetsMd [14x14/16z] LKw50S8038lp_yKuRAjxqobbdnAj2oZeAKGcKXy2gD1jqrPWgbzMgSGpM-NDuATdghFwoUIyCmBkaZupy7Eg-rm90T2taM3qoYHR07L5TaNz
 
-!function AzureAvailabilitySets($id, $name="Availability Sets", $tech="")
+!procedure AzureAvailabilitySets($id, $name="Availability Sets", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureAvailabilitySets', $name, $tech)
-!endfunction
-!function AzureAvailabilitySetsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAvailabilitySetsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAvailabilitySetsMd>', 'Availability Sets', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

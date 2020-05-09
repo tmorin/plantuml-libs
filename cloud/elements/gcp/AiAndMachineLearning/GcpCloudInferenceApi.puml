@@ -6,10 +6,10 @@ rOehBsdE_I-bPAKqLrlMAxTp_ktjxmnQw1_PSwP9PgR_Pdy7
 
 sprite $GcpCloudInferenceApiMd [14x14/16z] LOvP0aCn209D1E7-9ovjtqeMPxwagbR_ieAHqI_pK_W88bjMKBcxYXQiWMrMAqO034GiWZFyqi_2e4Ej6412TXTjS-JO_3PO_cK_j_Dg5b6QlLj_
 
-!function GcpCloudInferenceApi($id, $name="Cloud Inference Api", $tech="")
+!procedure GcpCloudInferenceApi($id, $name="Cloud Inference Api", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudInferenceApi', $name, $tech)
-!endfunction
-!function GcpCloudInferenceApiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudInferenceApiCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudInferenceApiMd>', 'Cloud Inference Api', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

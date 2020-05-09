@@ -6,10 +6,10 @@ cDk8uLZh1MWFWExD95YnNcaVGRxUzBC_
 
 sprite $MaterialsExposureMd [14x14/16z] LSx50KD124NHmU5h_ztcGVpkpYZhFubFibQSbRdVztraG4L43gYqpiGUiBXreyPNm5UpyrP3YsKqEtM4javWBd4hXP4e6_GtsNyF
 
-!function MaterialsExposure($id, $name="Exposure", $tech="")
+!procedure MaterialsExposure($id, $name="Exposure", $tech="")
   CloudElement($id, 'materials/Image/MaterialsExposure', $name, $tech)
-!endfunction
-!function MaterialsExposureCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsExposureCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsExposureMd>', 'Exposure', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

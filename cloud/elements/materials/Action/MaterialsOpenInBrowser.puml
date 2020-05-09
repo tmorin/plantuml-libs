@@ -6,10 +6,10 @@ fSm54WD124JHdeQC0SNzJnjtJ_QNFmJBajLLSg38gsAFcZVftg9TJbiSp0hE5Risyi4u1k-C8tForhIQ
 
 sprite $MaterialsOpenInBrowserMd [14x14/16z] VOq54e1G44A5WRNr_gUrE_wRtAMo90elXAQ3JR_HSBggNQlcgzWZnNxPbqjjg_D213wTfGGRKibr7IJMzGGZ
 
-!function MaterialsOpenInBrowser($id, $name="Open In Browser", $tech="")
+!procedure MaterialsOpenInBrowser($id, $name="Open In Browser", $tech="")
   CloudElement($id, 'materials/Action/MaterialsOpenInBrowser', $name, $tech)
-!endfunction
-!function MaterialsOpenInBrowserCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsOpenInBrowserCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsOpenInBrowserMd>', 'Open In Browser', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

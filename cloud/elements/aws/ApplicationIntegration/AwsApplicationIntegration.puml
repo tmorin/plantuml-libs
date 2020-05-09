@@ -6,10 +6,10 @@ RSZ9WO9G40N06VLjJVxvsX_PeOxrz-Z_OfHiQqL-Eb_Eu8MmtXgsrsF3RBqA4q7kqEyo7-NqsTnFaA33
 
 sprite $AwsApplicationIntegrationMd [14x14/16z] LSV70S0m30CnfOWysVlFcrxnG_nDUPhdUOnGRTXvteUjZTdN36ciQuNmCwDKNaDIudj52LpxEbllkJVmXdEzjrtjcvMtCIA6HyGA
 
-!function AwsApplicationIntegration($id, $name="Application Integration", $tech="")
+!procedure AwsApplicationIntegration($id, $name="Application Integration", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsApplicationIntegration', $name, $tech)
-!endfunction
-!function AwsApplicationIntegrationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApplicationIntegrationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApplicationIntegrationMd>', 'Application Integration', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsComputerLg [20x20/16z] nS-r5SD0403HXQEbv_whjPXIuGyd6xY4Szd9t2So
 
 sprite $MaterialsComputerMd [14x14/16z] bSUt0O0m30J0LtfHYVsd9QS6iAyxVD7W8HH8-e6vJ77GlXaEjemPXu5mrdWeEkE1-303
 
-!function MaterialsComputer($id, $name="Computer", $tech="")
+!procedure MaterialsComputer($id, $name="Computer", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsComputer', $name, $tech)
-!endfunction
-!function MaterialsComputerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsComputerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsComputerMd>', 'Computer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

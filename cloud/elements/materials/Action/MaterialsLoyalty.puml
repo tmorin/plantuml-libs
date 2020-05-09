@@ -6,10 +6,10 @@ mxIWhKgA1nseT20NfHFsedG4Xduo0W
 
 sprite $MaterialsLoyaltyMd [14x14/16z] NSU50S0W3011t6N_QP6lzv7an3VjT-gKTwRqdavw8rE7g2n0r0cYOasm9c-grBtOsUx4Pa2kQ07j-aq6y0OC2PnquDS4
 
-!function MaterialsLoyalty($id, $name="Loyalty", $tech="")
+!procedure MaterialsLoyalty($id, $name="Loyalty", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLoyalty', $name, $tech)
-!endfunction
-!function MaterialsLoyaltyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLoyaltyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLoyaltyMd>', 'Loyalty', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

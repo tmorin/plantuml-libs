@@ -6,10 +6,10 @@ LPs_6hVANle3
 
 sprite $AwsQuantumTechnologiesMd [14x14/16z] LSY74G0X449HxXR4_XisX_5Fue6tu2XQFq3RQQJewbJdLBl9ATbIH6TNjjXyn4TzSokxMSbBpScjgSwbuEa7lXjG0G
 
-!function AwsQuantumTechnologies($id, $name="Quantum Technologies", $tech="")
+!procedure AwsQuantumTechnologies($id, $name="Quantum Technologies", $tech="")
   CloudElement($id, 'aws/QuantumTechnologies/AwsQuantumTechnologies', $name, $tech)
-!endfunction
-!function AwsQuantumTechnologiesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsQuantumTechnologiesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsQuantumTechnologiesMd>', 'Quantum Technologies', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

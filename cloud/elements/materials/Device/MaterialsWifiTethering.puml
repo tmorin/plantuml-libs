@@ -6,10 +6,10 @@ TGdOxBDpt3wVvrtapc6K7mJCG57vw67tEhmOUb1V1QurjcR6zz4OPRz1CJP1_uZxnnODV-G1NW
 
 sprite $MaterialsWifiTetheringMd [14x14/16z] POi50a9X3887hDJxtrViUDyV2o2EWCIxxpNrcEd6r3BC9dB6tthGe8USnYYYami9o-o8aHgNCreQQxAMQKtMqe5qSTm5Ay05MfVWYV4fGOG1uvyh
 
-!function MaterialsWifiTethering($id, $name="Wifi Tethering", $tech="")
+!procedure MaterialsWifiTethering($id, $name="Wifi Tethering", $tech="")
   CloudElement($id, 'materials/Device/MaterialsWifiTethering', $name, $tech)
-!endfunction
-!function MaterialsWifiTetheringCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWifiTetheringCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWifiTetheringMd>', 'Wifi Tethering', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

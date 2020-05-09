@@ -3,10 +3,10 @@ sprite $MaterialsVerticalAlignTopLg [20x20/16z] pSYr0S0m30J0byoa_RSDCwVpbOVlM6_m
 
 sprite $MaterialsVerticalAlignTopMd [14x14/16z] Oq03Z4nGm0ZYiN100Gi3Li3CZCpXuM56uh6p8qkoiZ9GWSV8YCqL
 
-!function MaterialsVerticalAlignTop($id, $name="Vertical Align Top", $tech="")
+!procedure MaterialsVerticalAlignTop($id, $name="Vertical Align Top", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsVerticalAlignTop', $name, $tech)
-!endfunction
-!function MaterialsVerticalAlignTopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVerticalAlignTopCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVerticalAlignTopMd>', 'Vertical Align Top', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

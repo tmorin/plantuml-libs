@@ -6,10 +6,10 @@ rtvk
 
 sprite $AwsPinpointMd [14x14/16z] XOst0SGm008hSOVst_U3iolHaUS25MmF4jMa1m4oTkP1zC_uin7aO7ySJFzSz5x1zFdGr_jSu0i
 
-!function AwsPinpoint($id, $name="Pinpoint", $tech="")
+!procedure AwsPinpoint($id, $name="Pinpoint", $tech="")
   CloudElement($id, 'aws/Mobile/AwsPinpoint', $name, $tech)
-!endfunction
-!function AwsPinpointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsPinpointCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsPinpointMd>', 'Pinpoint', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

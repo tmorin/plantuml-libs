@@ -6,10 +6,10 @@ t19f8G7m-c4jAYq-r2_D0boPB6_cylRFu9TLZLsPAhao_ML_0W
 
 sprite $GcpCloudBigtableMd [14x14/16z] JSv70aGn209G4odU_yJ3_4xgMqbLhJwoyWta8pg8kO9WEnygbtSLyn1DULZj4O06F0x6u5fHVgS07cf7Hw8kZiq60rqJf4dsTphlPd_uAlgs_W4
 
-!function GcpCloudBigtable($id, $name="Cloud Bigtable", $tech="")
+!procedure GcpCloudBigtable($id, $name="Cloud Bigtable", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudBigtable', $name, $tech)
-!endfunction
-!function GcpCloudBigtableCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudBigtableCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudBigtableMd>', 'Cloud Bigtable', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ nKkUfsJAY5fTOwe7VAJ_Nwtr-HKMVIPHae_K74ykDm
 
 sprite $AzureCloudDistributionPointMd [13x14/16z] JOlP0GCW348JfGJZ_liMxVc-E25JSs14XDgcXUkqI2v6993Q1uOPqExkbyct4GvfO-jcOeO_JMBCAgPw5VkoKY9g7xrjLZt-ZFWru9aTRCAWBimd
 
-!function AzureCloudDistributionPoint($id, $name="Cloud Distribution Point", $tech="")
+!procedure AzureCloudDistributionPoint($id, $name="Cloud Distribution Point", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureCloudDistributionPoint', $name, $tech)
-!endfunction
-!function AzureCloudDistributionPointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudDistributionPointCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudDistributionPointMd>', 'Cloud Distribution Point', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

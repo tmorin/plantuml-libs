@@ -3,10 +3,10 @@ sprite $MaterialsSettingsCellLg [20x20/16z] rSgr5S0m5CNGzyti_QSrKvK-jzGHEX7o40GE
 
 sprite $MaterialsSettingsCellMd [14x14/16z] hSU50S0m24JHm-lTVzeu6-H5u0FW-szkng3_r_owAhY9BE-_xwtJpVnS9VyWiyW6mafGkrY2LJdwLW4
 
-!function MaterialsSettingsCell($id, $name="Settings Cell", $tech="")
+!procedure MaterialsSettingsCell($id, $name="Settings Cell", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsCell', $name, $tech)
-!endfunction
-!function MaterialsSettingsCellCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsCellCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsCellMd>', 'Settings Cell', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

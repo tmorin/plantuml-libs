@@ -3,10 +3,10 @@ sprite $MaterialsColorizeLg [20x20/16z] dSe53i102011EBp6_rzRYPn6k_79mgy85vBB1rH1
 
 sprite $MaterialsColorizeMd [14x14/16z] TKp50O004Bh4blsdjJjuqV83lRAiRLS1zAptr3kopqrObHLn29SaJk6LXvx2jlEh46lZ59DgJp59K_d62
 
-!function MaterialsColorize($id, $name="Colorize", $tech="")
+!procedure MaterialsColorize($id, $name="Colorize", $tech="")
   CloudElement($id, 'materials/Image/MaterialsColorize', $name, $tech)
-!endfunction
-!function MaterialsColorizeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsColorizeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsColorizeMd>', 'Colorize', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

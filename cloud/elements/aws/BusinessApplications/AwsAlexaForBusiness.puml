@@ -3,10 +3,10 @@ sprite $AwsAlexaForBusinessLg [20x20/16z] hSsv5GD1409HYw8X_u2rzuviwNjprAE_6pRJ5M
 
 sprite $AwsAlexaForBusinessMd [14x14/16z] XOfH5W0G3CE-rcoz_tq1_2fiUQa_AIJgWbOECiJG74LAB7a8EDKXgF5x9MSf0pyaLl5qWmU6z3ST
 
-!function AwsAlexaForBusiness($id, $name="Alexa For Business", $tech="")
+!procedure AwsAlexaForBusiness($id, $name="Alexa For Business", $tech="")
   CloudElement($id, 'aws/BusinessApplications/AwsAlexaForBusiness', $name, $tech)
-!endfunction
-!function AwsAlexaForBusinessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAlexaForBusinessCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAlexaForBusinessMd>', 'Alexa For Business', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

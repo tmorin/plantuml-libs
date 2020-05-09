@@ -6,10 +6,10 @@ BaV6BMBEl45p8_TtSfi8NkGbYX_o3m
 
 sprite $AzureFunctionAppsMd [15x14/16z] RSgn3GHH309H0F_hl-JpoEbEn9EGAErKT5nPb-rs4fzsjLN6w8LlR8puTgBrhuAyfRuPRMujQO6NGJnmUg9MN8l8vkh3hU_-
 
-!function AzureFunctionApps($id, $name="Function Apps", $tech="")
+!procedure AzureFunctionApps($id, $name="Function Apps", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureFunctionApps', $name, $tech)
-!endfunction
-!function AzureFunctionAppsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFunctionAppsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFunctionAppsMd>', 'Function Apps', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

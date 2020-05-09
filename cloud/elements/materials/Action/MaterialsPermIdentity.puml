@@ -6,10 +6,10 @@ bj_m1
 
 sprite $MaterialsPermIdentityMd [14x14/16z] XSor0O0030J0sCl-2-FImLNHZpy9vDiOyDEM8bJlhihlQKiTZvfv3iSYvJaRrHbrj6GVo2E2buvFAm
 
-!function MaterialsPermIdentity($id, $name="Perm Identity", $tech="")
+!procedure MaterialsPermIdentity($id, $name="Perm Identity", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermIdentity', $name, $tech)
-!endfunction
-!function MaterialsPermIdentityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermIdentityCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermIdentityMd>', 'Perm Identity', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

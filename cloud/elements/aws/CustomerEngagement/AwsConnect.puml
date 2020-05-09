@@ -6,10 +6,10 @@ RSv5WaL15CBGbe8BgVslj-Mxl0pFA01zB0a7o05oW6SQINwsKLevZwO2bPIRHTH3CsS4gf3lHPQidCtf
 
 sprite $AwsConnectMd [14x14/16z] LSp50GKn24NHByCp-gztt79t9m6I-4hAm5tIoGqWeKjYhC8XmomJs4K9fO9Mzggo9iQRMgJEGwlQXYWvkxe9P-jGhdfW3rm
 
-!function AwsConnect($id, $name="Connect", $tech="")
+!procedure AwsConnect($id, $name="Connect", $tech="")
   CloudElement($id, 'aws/CustomerEngagement/AwsConnect', $name, $tech)
-!endfunction
-!function AwsConnectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsConnectCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsConnectMd>', 'Connect', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

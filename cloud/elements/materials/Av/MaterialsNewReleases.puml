@@ -6,10 +6,10 @@ gybzFuc_T_v_s_CFVl_g_q__mme
 
 sprite $MaterialsNewReleasesMd [14x14/16z] POw30G0n34LhDzb_stjdbT67-IsNWy_kJ8goofRQqbN7u1PBrcY4mDF872trdgSx1lNCjDWzIsdFzibIziaNorVXLlyu-wu5
 
-!function MaterialsNewReleases($id, $name="New Releases", $tech="")
+!procedure MaterialsNewReleases($id, $name="New Releases", $tech="")
   CloudElement($id, 'materials/Av/MaterialsNewReleases', $name, $tech)
-!endfunction
-!function MaterialsNewReleasesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNewReleasesCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNewReleasesMd>', 'New Releases', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

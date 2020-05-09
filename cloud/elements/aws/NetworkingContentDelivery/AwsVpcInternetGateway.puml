@@ -6,10 +6,10 @@ FSDbvDrNcwcmmakUF9YycZsTlFy3
 
 sprite $AwsVpcInternetGatewayMd [14x14/16z] NOu74aGn24AZGkv_v7swlvDAct61bALSW-0NaL8qyQ6ceSfEUfxUvK5Xe1MVkQPRtKnOl1djcoN5codPjGEs2uDmGNZByPqCy3CTy0C
 
-!function AwsVpcInternetGateway($id, $name="Vpc Internet Gateway", $tech="")
+!procedure AwsVpcInternetGateway($id, $name="Vpc Internet Gateway", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcInternetGateway', $name, $tech)
-!endfunction
-!function AwsVpcInternetGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcInternetGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcInternetGatewayMd>', 'Vpc Internet Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

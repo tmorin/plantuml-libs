@@ -6,10 +6,10 @@ MLIUNQdmpCR-jTiV3ioLmruvbMHElxY_0W
 
 sprite $GcpCloudSpannerMd [14x14/16z] JKu50W8121iv__zYARqRtG0G6mWQaXpaXFuvU0NASZXAWIYRPXq6RBFRiG6zXc-0fWM_8aD9xNdhBSnQn9AzSD3tzRZFzlWz-dpz1G
 
-!function GcpCloudSpanner($id, $name="Cloud Spanner", $tech="")
+!procedure GcpCloudSpanner($id, $name="Cloud Spanner", $tech="")
   CloudElement($id, 'gcp/Databases/GcpCloudSpanner', $name, $tech)
-!endfunction
-!function GcpCloudSpannerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudSpannerCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudSpannerMd>', 'Cloud Spanner', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

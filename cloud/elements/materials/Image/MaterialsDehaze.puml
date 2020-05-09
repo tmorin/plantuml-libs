@@ -3,10 +3,10 @@ sprite $MaterialsDehazeLg [20x20/16z] lSst0O1034FHBtBUVrnQfmxkNcjBucyQ0y5m1GCm15
 
 sprite $MaterialsDehazeMd [14x14/16z] Oo0UiB330Gi30nCp732XgsJbW0DM1WP69ZXW94CbOG
 
-!function MaterialsDehaze($id, $name="Dehaze", $tech="")
+!procedure MaterialsDehaze($id, $name="Dehaze", $tech="")
   CloudElement($id, 'materials/Image/MaterialsDehaze', $name, $tech)
-!endfunction
-!function MaterialsDehazeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDehazeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDehazeMd>', 'Dehaze', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ Ud8ntCsS-iU_kkKDLKCMhAG7uqICz2Q61xWFuI5zmmS
 
 sprite $AwsAugmentedAiMd [14x14/16z] PScn3S1G30BHoi1v_u63h7GVggVRPoI47ncvvu1aU-rS4cxXQcIvdLMgwMERQ-xLNqDgMe6gSfaHqfxYOBCth2IgVdRPPny
 
-!function AwsAugmentedAi($id, $name="Augmented Ai", $tech="")
+!procedure AwsAugmentedAi($id, $name="Augmented Ai", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsAugmentedAi', $name, $tech)
-!endfunction
-!function AwsAugmentedAiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAugmentedAiCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAugmentedAiMd>', 'Augmented Ai', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

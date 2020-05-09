@@ -3,10 +3,10 @@ sprite $AwsElasticBlockStoreEbsVolumeLg [20x20/16z] rS_50O0m30NGVAFxJumxBD1tQ-Er
 
 sprite $AwsElasticBlockStoreEbsVolumeMd [14x14/16z] jST70S0W50Mm_rRzEsQ3W-QMgf8NrKHZCKVmYOi-ZEKPetMOOwo3VqquD8Ru2Ae3
 
-!function AwsElasticBlockStoreEbsVolume($id, $name="Elastic Block Store Ebs Volume", $tech="")
+!procedure AwsElasticBlockStoreEbsVolume($id, $name="Elastic Block Store Ebs Volume", $tech="")
   CloudElement($id, 'aws/Storage/AwsElasticBlockStoreEbsVolume', $name, $tech)
-!endfunction
-!function AwsElasticBlockStoreEbsVolumeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBlockStoreEbsVolumeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBlockStoreEbsVolumeMd>', 'Elastic Block Store Ebs Volume', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

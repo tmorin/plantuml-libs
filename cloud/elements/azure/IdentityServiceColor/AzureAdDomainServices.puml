@@ -6,10 +6,10 @@ auPS5VxksmaBLAxDdZO0AL9AudAODURr89CPO3pPjQt8Y7Z7BjXTpapWI27h_iDriYNeERN-
 
 sprite $AzureAdDomainServicesMd [14x14/16z] HOs70SGm20DZ8z7s7_W5tovnePsV9UBvWsx-0glkiazmiqNT3KviK74cyWdIcRw68O0eZ65BPfxr3iefF1CI9X7wGOuoO0HeW3pCe0dOUJzV0K3tvOGq4xm
 
-!function AzureAdDomainServices($id, $name="Ad Domain Services", $tech="")
+!procedure AzureAdDomainServices($id, $name="Ad Domain Services", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAdDomainServices', $name, $tech)
-!endfunction
-!function AzureAdDomainServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAdDomainServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAdDomainServicesMd>', 'Ad Domain Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

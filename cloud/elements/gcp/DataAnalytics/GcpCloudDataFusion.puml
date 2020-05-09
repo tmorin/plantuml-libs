@@ -6,10 +6,10 @@ ItVAEcTV8FgKJZbbXIosClCjZDEAdYpQTHMT-0istNac_tLoEPzih27OFDPV0G
 
 sprite $GcpCloudDataFusionMd [15x14/16z] FKy70e0W4BhD_V_5WPKqMUgPMM45b0akTdY8zliFR9C5TggH7f0z2YNQdJf_5ZHskrWX4prblUQZ4oEgS5Y4dnrAxmf2xfoDBk8UG-Xxo6jg189C8pm
 
-!function GcpCloudDataFusion($id, $name="Cloud Data Fusion", $tech="")
+!procedure GcpCloudDataFusion($id, $name="Cloud Data Fusion", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataFusion', $name, $tech)
-!endfunction
-!function GcpCloudDataFusionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudDataFusionCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudDataFusionMd>', 'Cloud Data Fusion', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

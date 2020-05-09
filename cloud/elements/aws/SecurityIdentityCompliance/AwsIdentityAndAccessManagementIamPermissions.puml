@@ -3,10 +3,10 @@ sprite $AwsIdentityAndAccessManagementIamPermissionsLg [20x20/16z] ZT2t0GGX44FHh
 
 sprite $AwsIdentityAndAccessManagementIamPermissionsMd [14x14/16z] LSwr0SC04CLGVGZilt1YzbdTwuJwEgh0bMmjrOi25Kl9ghxC9g-I6OBeLbA6oX1CnHdoToevb4NLKStp-Wy
 
-!function AwsIdentityAndAccessManagementIamPermissions($id, $name="Identity And Access Management Iam Permissions", $tech="")
+!procedure AwsIdentityAndAccessManagementIamPermissions($id, $name="Identity And Access Management Iam Permissions", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamPermissions', $name, $tech)
-!endfunction
-!function AwsIdentityAndAccessManagementIamPermissionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamPermissionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIdentityAndAccessManagementIamPermissionsMd>', 'Identity And Access Management Iam Permissions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

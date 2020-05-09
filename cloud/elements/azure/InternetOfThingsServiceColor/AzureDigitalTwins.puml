@@ -6,10 +6,10 @@ yz6idzkeONoHyfuWg1zKi1iXkm5w0Tf85pFS
 
 sprite $AzureDigitalTwinsMd [13x14/16z] JKo50GD12CEj--_Ry9vJOjCdc83EpC9cOXKCzPiUDrVVORfQMStMjWGopj_XA9ZA4XBNko2UWie-bQfjEpCCX33J3W2xx0CRRbCt00KOy5ypdZy
 
-!function AzureDigitalTwins($id, $name="Digital Twins", $tech="")
+!procedure AzureDigitalTwins($id, $name="Digital Twins", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureDigitalTwins', $name, $tech)
-!endfunction
-!function AzureDigitalTwinsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDigitalTwinsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDigitalTwinsMd>', 'Digital Twins', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

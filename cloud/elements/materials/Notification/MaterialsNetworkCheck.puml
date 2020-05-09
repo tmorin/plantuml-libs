@@ -6,10 +6,10 @@ Efxz_v04YYP9NE9KnusGweDPu6uOU8Lt
 
 sprite $MaterialsNetworkCheckMd [14x14/16z] XS7L0SDG54EnSsq_Q4FxJrk6pqYSADd5c_frsvOu0h8itLBBN4BDNa3DgZwBWipHfg1uwFlqPVJEYuoFI7oDm_pKiXH_DgVk
 
-!function MaterialsNetworkCheck($id, $name="Network Check", $tech="")
+!procedure MaterialsNetworkCheck($id, $name="Network Check", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsNetworkCheck', $name, $tech)
-!endfunction
-!function MaterialsNetworkCheckCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNetworkCheckCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNetworkCheckMd>', 'Network Check', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

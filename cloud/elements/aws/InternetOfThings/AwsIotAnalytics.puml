@@ -6,10 +6,10 @@ Q4T7W7j3UW4
 
 sprite $AwsIotAnalyticsMd [14x14/16z] XSot0SD040D1EUpY-YzOZkIdFz5Pp1PEEuSc4OvMZ7aUdOmjyVXfAVLe6QHDEFA2A4V8wnKxA_Bb5EUWG6Vd0m
 
-!function AwsIotAnalytics($id, $name="Iot Analytics", $tech="")
+!procedure AwsIotAnalytics($id, $name="Iot Analytics", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotAnalytics', $name, $tech)
-!endfunction
-!function AwsIotAnalyticsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotAnalyticsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotAnalyticsMd>', 'Iot Analytics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

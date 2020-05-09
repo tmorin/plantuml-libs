@@ -6,10 +6,10 @@ CJAckW_ShpdAslOFtuin7da3
 
 sprite $MaterialsFilterDramaMd [14x14/16z] XSct0G0X30D0v_3iFoyPokSQMnAyi2gV7prKm_64yPYDe1cfeqpgmR6lCiOq_AW_v31MyqBpWO6AAroS62wR9WEAsg84Vne
 
-!function MaterialsFilterDrama($id, $name="Filter Drama", $tech="")
+!procedure MaterialsFilterDrama($id, $name="Filter Drama", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilterDrama', $name, $tech)
-!endfunction
-!function MaterialsFilterDramaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFilterDramaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFilterDramaMd>', 'Filter Drama', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

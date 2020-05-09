@@ -6,10 +6,10 @@ jFOl
 
 sprite $MaterialsSystemUpdateMd [14x14/16z] TOw30S0m402VDVQVjesT2zu0018B4pZsrx4x0uzzC-m7Ecjh1M9fgKujMbVA5byN5vdCVUj-UhcPszfXj_u1
 
-!function MaterialsSystemUpdate($id, $name="System Update", $tech="")
+!procedure MaterialsSystemUpdate($id, $name="System Update", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsSystemUpdate', $name, $tech)
-!endfunction
-!function MaterialsSystemUpdateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSystemUpdateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSystemUpdateMd>', 'System Update', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -4,9 +4,9 @@ ZOw30GL134GdEcpKVxNVvhrbFBX2X1TuTf_vsUMBwk9FpcKXW9RvmKMknqUT7droVEJ1Hnh61opqwfIe
 GhdW33-0B-m1
 }
 
-!function MaterialsGroupLock($id, $name="Lock", $tech="")
+!procedure MaterialsGroupLock($id, $name="Lock", $tech="")
   PersoGroup($id, "MaterialsGroupLock", "<$MaterialsGroupLockLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupLock>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

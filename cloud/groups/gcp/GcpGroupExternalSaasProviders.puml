@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupExternalSaasProviders($id, $name="External SaaS Providers", $tech="")
+!procedure GcpGroupExternalSaasProviders($id, $name="External SaaS Providers", $tech="")
   CloudGroup($id, "GcpGroupExternalSaasProviders", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupExternalSaasProviders>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

@@ -6,10 +6,10 @@ AAa_cznm2DxBZTOv9xTNwvVJonvrLcreBYwJFTl7iko5yw8F
 
 sprite $AwsEventbridgeSaasPartnerEventBusResourceIconMd [14x14/16z] JOt50KK13CA2jFjl_FLPBbM07-A1YdBq5I4-9lju4B-bPum5A7IbxUdLQMT8fOOgKS-ej6s801dl6fp3-CxvBODwJ14L3uxX3G
 
-!function AwsEventbridgeSaasPartnerEventBusResourceIcon($id, $name="Eventbridge Saas Partner Event Bus Resource Icon", $tech="")
+!procedure AwsEventbridgeSaasPartnerEventBusResourceIcon($id, $name="Eventbridge Saas Partner Event Bus Resource Icon", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsEventbridgeSaasPartnerEventBusResourceIcon', $name, $tech)
-!endfunction
-!function AwsEventbridgeSaasPartnerEventBusResourceIconCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEventbridgeSaasPartnerEventBusResourceIconCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEventbridgeSaasPartnerEventBusResourceIconMd>', 'Eventbridge Saas Partner Event Bus Resource Icon', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

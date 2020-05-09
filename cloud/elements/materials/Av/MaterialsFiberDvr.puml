@@ -6,10 +6,10 @@ iIZdPprurgjlsG
 
 sprite $MaterialsFiberDvrMd [14x14/16z] LOu50aGX24Hbm7RW_gVTZiypw2WPmGyfsFonON71pCcWk_FmOGsWjLQxGQTPGzKE38NqjxK4HqNcEpEinYDtlhi4_N7fbYVawNcpp1q
 
-!function MaterialsFiberDvr($id, $name="Fiber Dvr", $tech="")
+!procedure MaterialsFiberDvr($id, $name="Fiber Dvr", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFiberDvr', $name, $tech)
-!endfunction
-!function MaterialsFiberDvrCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFiberDvrCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFiberDvrMd>', 'Fiber Dvr', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

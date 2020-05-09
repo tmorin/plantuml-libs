@@ -9,10 +9,10 @@ NOs7ZGG03C82zluhNq5Vpse9HTnT83VgrnNL9cbL9wAW0sKnSc5IZmLhGYVsZRs3Gswjjm0NJSXR4mAQ
 2G
 }
 
-!function AzureGameController($id, $name="Game Controller", $tech="")
+!procedure AzureGameController($id, $name="Game Controller", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureGameController', $name, $tech)
-!endfunction
-!function AzureGameControllerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGameControllerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGameControllerMd>', 'Game Controller', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureLogicAppsCustomConnectorLg [20x20/16z] lSx74GCn241HCipsNx05etorlV_u
 
 sprite $AzureLogicAppsCustomConnectorMd [14x14/16z] ZOo53G0n30DZzPp2_li-ex0dIapXp7JSp7y5K-91n9VV9_HvN3dwtX1jjDqbDwXZZ0fu_-JDy-qTFTsz_-OA
 
-!function AzureLogicAppsCustomConnector($id, $name="Logic Apps Custom Connector", $tech="")
+!procedure AzureLogicAppsCustomConnector($id, $name="Logic Apps Custom Connector", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureLogicAppsCustomConnector', $name, $tech)
-!endfunction
-!function AzureLogicAppsCustomConnectorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLogicAppsCustomConnectorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLogicAppsCustomConnectorMd>', 'Logic Apps Custom Connector', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

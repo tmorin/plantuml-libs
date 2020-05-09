@@ -6,10 +6,10 @@ lQalqyd-1m
 
 sprite $AzureVmWindowsMd [15x14/16z] TOq50e1020Hf-F-B9MozkQHsvOvgxWlBq2ucL6OXuZD4vDptQkuppCvrisaQojbyaM7Htm8BSlVvGOBi4ORGKFPECmDi
 
-!function AzureVmWindows($id, $name="Vm Windows", $tech="")
+!procedure AzureVmWindows($id, $name="Vm Windows", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmWindows', $name, $tech)
-!endfunction
-!function AzureVmWindowsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVmWindowsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVmWindowsMd>', 'Vm Windows', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

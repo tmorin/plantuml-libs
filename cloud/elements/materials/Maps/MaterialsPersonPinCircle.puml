@@ -6,10 +6,10 @@ bO-50SGm203ZHjFRVzgNkij5SL0NQ6FqHXEaLWbBhSbaQmlPp5u9h58MqkHfwNNzqnE0x5m6mgYB04q3
 
 sprite $MaterialsPersonPinCircleMd [14x14/16z] ROj74iH030BHX18Z1_x_satOftLV56ZmHupC4VV1VOoTrpb5W9g-bhwPbiLIPPRAAXdVCcsEQa2huIlMJkuhOCOfdHqtAQKtk_OkMiC3Rm
 
-!function MaterialsPersonPinCircle($id, $name="Person Pin Circle", $tech="")
+!procedure MaterialsPersonPinCircle($id, $name="Person Pin Circle", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsPersonPinCircle', $name, $tech)
-!endfunction
-!function MaterialsPersonPinCircleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPersonPinCircleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPersonPinCircleMd>', 'Person Pin Circle', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

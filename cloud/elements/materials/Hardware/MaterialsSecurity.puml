@@ -6,10 +6,10 @@ dT05OeH0343H612ZkVzjsynqtVVZ3nzu78ggu8KilbkMBqUbDN8ZzAgAbGPnnj9xNbrocsJBmKg61Nvl
 
 sprite $MaterialsSecurityMd [14x14/16z] RKw53S1020HUiR3_j7NlEsV9mRQ8u5fKMUg1K-kP9BodLP2yl1mHHWlgS20V80J0BYoh4tKPDeQN1_fYOZWZ-K0jhmZxXlBgNYqSGeNFSjYKswQyMyy
 
-!function MaterialsSecurity($id, $name="Security", $tech="")
+!procedure MaterialsSecurity($id, $name="Security", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsSecurity', $name, $tech)
-!endfunction
-!function MaterialsSecurityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSecurityCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSecurityMd>', 'Security', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

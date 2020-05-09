@@ -9,10 +9,10 @@ BKw74G0X25CwnltdVU2DDUsEzI07yFt_sOmLjv2ZIFs1c-xdMWjv6obCcb5ydn6iYkJLeUWsde2WQ7eq
 1i_Xl0OxcqIch0SAL7Vl8Hy
 }
 
-!function AzureCloudServices($id, $name="Cloud Services", $tech="")
+!procedure AzureCloudServices($id, $name="Cloud Services", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureCloudServices', $name, $tech)
-!endfunction
-!function AzureCloudServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudServicesMd>', 'Cloud Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

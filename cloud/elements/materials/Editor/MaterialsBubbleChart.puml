@@ -3,10 +3,10 @@ sprite $MaterialsBubbleChartLg [20x20/16z] hSn50iGW44JHrh58tV-qKHnsax-hXz0ZiRf9G
 
 sprite $MaterialsBubbleChartMd [14x14/16z] XOor0S1054A_Gtp_QUFMtUjGQMCP-WeVbwLx9PQTU1GFbTV69NOnsBqf3SBFAFy7OlsOecctr3tnfUJbp1fi
 
-!function MaterialsBubbleChart($id, $name="Bubble Chart", $tech="")
+!procedure MaterialsBubbleChart($id, $name="Bubble Chart", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBubbleChart', $name, $tech)
-!endfunction
-!function MaterialsBubbleChartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBubbleChartCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBubbleChartMd>', 'Bubble Chart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

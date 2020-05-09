@@ -10,10 +10,10 @@ NOy73WGX4CE6P0h_V_55kUtU2bX6H0IoUlR1T2L2i3seD6Mb6QKtLZnOa5bRJtpmf9xcUkXiktNkHf7E
 c7478IIxuxGxp12SRyUP8pHjvioOnJexTPpn1m
 }
 
-!function AzureHockeyappColor($id, $name="Hockeyapp Color", $tech="")
+!procedure AzureHockeyappColor($id, $name="Hockeyapp Color", $tech="")
   CloudElement($id, 'azure/Companies/AzureHockeyappColor', $name, $tech)
-!endfunction
-!function AzureHockeyappColorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureHockeyappColorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureHockeyappColorMd>', 'Hockeyapp Color', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

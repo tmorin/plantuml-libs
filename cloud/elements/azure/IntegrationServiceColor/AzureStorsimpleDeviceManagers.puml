@@ -6,10 +6,10 @@ PcOyL6xIAU7gBpLVFMF9CQvk
 
 sprite $AzureStorsimpleDeviceManagersMd [16x14/16z] TSo53S0W50JGK_OVkS52h8S-v6E5JclSCEaO8zUJCrvFxUkkfsadfubCp_7SICfozlDPulpGSOyXnoGzqGWdIaAyK19-_Tv_
 
-!function AzureStorsimpleDeviceManagers($id, $name="Storsimple Device Managers", $tech="")
+!procedure AzureStorsimpleDeviceManagers($id, $name="Storsimple Device Managers", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureStorsimpleDeviceManagers', $name, $tech)
-!endfunction
-!function AzureStorsimpleDeviceManagersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureStorsimpleDeviceManagersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureStorsimpleDeviceManagersMd>', 'Storsimple Device Managers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

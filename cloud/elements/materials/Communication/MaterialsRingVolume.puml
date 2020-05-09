@@ -6,10 +6,10 @@ jbcwgRkKBPdk1Yqa-owb6yNktsi5
 
 sprite $MaterialsRingVolumeMd [14x14/16z] VKp50GGn468ydlwhFPTrNZWE8B9KPdY3WW5LW8CUKZEztAJlqLl9uQ57Ik6lZ5Dt9cBlYM5j3dwvOpPBSzQtgdCcylGKhqaGBd07
 
-!function MaterialsRingVolume($id, $name="Ring Volume", $tech="")
+!procedure MaterialsRingVolume($id, $name="Ring Volume", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsRingVolume', $name, $tech)
-!endfunction
-!function MaterialsRingVolumeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRingVolumeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRingVolumeMd>', 'Ring Volume', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

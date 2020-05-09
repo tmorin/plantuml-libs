@@ -6,10 +6,10 @@ qgbLvgsNPzPq_WAnC7vW7_RJK583y1UhY5Kkk0imSjNYeGjRyGS
 
 sprite $AzureIotHubMd [14x14/16z] DKw54G0n24DgoVu3Fu7xUlHg6k5c3f82YLVmN3HQHEY-j8RBTHqqKbAukOcsUR_qY4lkCMUv5f127fshyGTzh_a2ZZfOPxvjlAsLRVCPSOiVUnf9kFtZ0m
 
-!function AzureIotHub($id, $name="Iot Hub", $tech="")
+!procedure AzureIotHub($id, $name="Iot Hub", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureIotHub', $name, $tech)
-!endfunction
-!function AzureIotHubCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIotHubCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIotHubMd>', 'Iot Hub', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

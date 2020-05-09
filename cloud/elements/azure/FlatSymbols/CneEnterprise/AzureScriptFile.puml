@@ -6,10 +6,10 @@ W74GOm9SPBmH9uaxbPRYJ4kUTIV_1
 
 sprite $AzureScriptFileMd [13x14/16z] HOk50G0n30A1M6t_TT_bga5oldHYXcvYDKxXnjRgtq3FUG_knwLpa91cl0OliNZSns3DOGbM78DK5ewCkmCMGJm3x3ZVW7S8lSJC-PCx
 
-!function AzureScriptFile($id, $name="Script File", $tech="")
+!procedure AzureScriptFile($id, $name="Script File", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureScriptFile', $name, $tech)
-!endfunction
-!function AzureScriptFileCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureScriptFileCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureScriptFileMd>', 'Script File', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

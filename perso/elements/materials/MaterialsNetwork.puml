@@ -3,10 +3,10 @@ sprite $MaterialsNetworkLg [20x20/16z] pKt54G0W30jUkyl-syA_353t1BMavMQPT62e3g2BJ
 
 sprite $MaterialsNetworkMd [14x14/16z] Ow0EO6HcP61WOe8oMFavMTbuUDXOEVbPKNbeAga3
 
-!function MaterialsNetwork($id, $name="Network", $tech="")
+!procedure MaterialsNetwork($id, $name="Network", $tech="")
   PersoElement($id, 'materials/MaterialsNetwork', $name, $tech)
-!endfunction
-!function MaterialsNetworkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNetworkCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsNetworkMd>', 'Network', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureSharedDashboardLg [24x20/16z] lSxL0SD030DG7qdUV-AgOURaVHoQkCv5QuijY
 
 sprite $AzureSharedDashboardMd [17x14/16z] ZOm54WH120D70_z_yKqVwzvLE8cPknDWWGWmSCifQqGUyLymz9mWo-yMAXbMYTH5h0lYO4g4X-q_G6i4liOdVW
 
-!function AzureSharedDashboard($id, $name="Shared Dashboard", $tech="")
+!procedure AzureSharedDashboard($id, $name="Shared Dashboard", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureSharedDashboard', $name, $tech)
-!endfunction
-!function AzureSharedDashboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSharedDashboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSharedDashboardMd>', 'Shared Dashboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

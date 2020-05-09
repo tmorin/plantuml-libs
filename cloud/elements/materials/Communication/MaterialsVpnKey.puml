@@ -3,10 +3,10 @@ sprite $MaterialsVpnKeyLg [20x20/16z] lSu35WKn30NGeDRR_sg_CSNXuDPCw1hgOt3IRTcAXw
 
 sprite $MaterialsVpnKeyMd [14x14/16z] bOrL0W0X24G5newv_sctwtDzIfURGCpa2RIG5NSbCsTManrdeuWazhPZRqGsUpgrTdktIEdwkM3OpLzM
 
-!function MaterialsVpnKey($id, $name="Vpn Key", $tech="")
+!procedure MaterialsVpnKey($id, $name="Vpn Key", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsVpnKey', $name, $tech)
-!endfunction
-!function MaterialsVpnKeyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVpnKeyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVpnKeyMd>', 'Vpn Key', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

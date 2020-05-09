@@ -9,10 +9,10 @@ XSn75WGX201H34ZneEV-j-qSLwFmsTNlxmlxla2a-1ZUJq2a1XOQHcWQr5wrDwtQ-WOmZLpH2NAiqAsP
 st7F1G
 }
 
-!function AzureCalendar($id, $name="Calendar", $tech="")
+!procedure AzureCalendar($id, $name="Calendar", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureCalendar', $name, $tech)
-!endfunction
-!function AzureCalendarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCalendarCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCalendarMd>', 'Calendar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

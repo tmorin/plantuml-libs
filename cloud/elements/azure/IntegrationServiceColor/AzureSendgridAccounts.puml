@@ -3,10 +3,10 @@ sprite $AzureSendgridAccountsLg [20x20/16z] lSYt0G0X300nmDdxx_lXAYQmIYsSG3Ocxa3p
 
 sprite $AzureSendgridAccountsMd [14x14/16z] ZSU10G0W14JH2c3_WVisy80xU85gxDE3vYZ64OqCx5CYXZuqql4Ezka3
 
-!function AzureSendgridAccounts($id, $name="Sendgrid Accounts", $tech="")
+!procedure AzureSendgridAccounts($id, $name="Sendgrid Accounts", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureSendgridAccounts', $name, $tech)
-!endfunction
-!function AzureSendgridAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSendgridAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSendgridAccountsMd>', 'Sendgrid Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

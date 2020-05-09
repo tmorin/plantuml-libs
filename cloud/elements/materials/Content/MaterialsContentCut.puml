@@ -6,10 +6,10 @@ BvizBx8nnrW3vXXhrTPqVtm
 
 sprite $MaterialsContentCutMd [14x14/16z] PKw50G1123BWslt7_UwtM-H3oDW3qpNnigKSYyikdjSak0uMB_bCrj4Sr48vYGqgTzORhmzvy5wxh_m_tDy_oDuq0m
 
-!function MaterialsContentCut($id, $name="Content Cut", $tech="")
+!procedure MaterialsContentCut($id, $name="Content Cut", $tech="")
   CloudElement($id, 'materials/Content/MaterialsContentCut', $name, $tech)
-!endfunction
-!function MaterialsContentCutCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContentCutCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContentCutMd>', 'Content Cut', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

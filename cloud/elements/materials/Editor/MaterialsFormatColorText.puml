@@ -3,10 +3,10 @@ sprite $MaterialsFormatColorTextLg [20x20/16z] fSu53WL120FGmY0Pl_zflyikaRKN8q9R7
 
 sprite $MaterialsFormatColorTextMd [14x14/16z] VKo50OC03Alh__Tkk4DTai238HwtYCD2cRHlAg8xAt28TUDnutNpZcZVD0YHLXtHMGc-ZJxi3m
 
-!function MaterialsFormatColorText($id, $name="Format Color Text", $tech="")
+!procedure MaterialsFormatColorText($id, $name="Format Color Text", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsFormatColorText', $name, $tech)
-!endfunction
-!function MaterialsFormatColorTextCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFormatColorTextCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFormatColorTextMd>', 'Format Color Text', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

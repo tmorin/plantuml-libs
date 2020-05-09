@@ -9,10 +9,10 @@ BKu94W0X24f4tFh_WrUQl6zPAuAgZ7KfYY3YPQcAiQHpJ6CXIih9w8Q8QKvclGsuvoMgMAqPoqYBpZaA
 11hu3m
 }
 
-!function AzureWebappwordpress($id, $name="Webappwordpress", $tech="")
+!procedure AzureWebappwordpress($id, $name="Webappwordpress", $tech="")
   CloudElement($id, 'azure/Companies/AzureWebappwordpress', $name, $tech)
-!endfunction
-!function AzureWebappwordpressCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWebappwordpressCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWebappwordpressMd>', 'Webappwordpress', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

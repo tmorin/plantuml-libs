@@ -3,10 +3,10 @@ sprite $AwsMobileClientLg [20x20/16z] tS-50G0X20LG6lx-0r_OC_Zi5chCVs6qHNufmZFM51
 
 sprite $AwsMobileClientMd [14x14/16z] hSwt0S003091917stzWvzRxkAm1Gyag57MbwoAEKEBBEOgzu5XkhvlyrkjQrobdKh4IiFgyN
 
-!function AwsMobileClient($id, $name="Mobile Client", $tech="")
+!procedure AwsMobileClient($id, $name="Mobile Client", $tech="")
   CloudElement($id, 'aws/General/AwsMobileClient', $name, $tech)
-!endfunction
-!function AwsMobileClientCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsMobileClientCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsMobileClientMd>', 'Mobile Client', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

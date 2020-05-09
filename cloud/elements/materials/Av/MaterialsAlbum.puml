@@ -6,10 +6,10 @@ ZVo0_Oh_bECD
 
 sprite $MaterialsAlbumMd [14x14/16z] POw55G0n349vSAxxRrlN_6eS6BZk-yfihC_lUTPa_9bWqaTsQVTHnj0EZpVNU0iavBsZrJAFc9cxUEFXC66OFYepE
 
-!function MaterialsAlbum($id, $name="Album", $tech="")
+!procedure MaterialsAlbum($id, $name="Album", $tech="")
   CloudElement($id, 'materials/Av/MaterialsAlbum', $name, $tech)
-!endfunction
-!function MaterialsAlbumCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAlbumCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAlbumMd>', 'Album', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

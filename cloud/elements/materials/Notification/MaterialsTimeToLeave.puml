@@ -6,10 +6,10 @@ qMdY8fur8uOhtW
 
 sprite $MaterialsTimeToLeaveMd [14x14/16z] VSc75S0m20DHEkdPVriB3U3lUW_PYwHWM1cLSUH2pc6xaZV2dkjw0BUXJeiV0X_KvJLLVasz-DBBwg2UqZGXIvMT1G
 
-!function MaterialsTimeToLeave($id, $name="Time To Leave", $tech="")
+!procedure MaterialsTimeToLeave($id, $name="Time To Leave", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsTimeToLeave', $name, $tech)
-!endfunction
-!function MaterialsTimeToLeaveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTimeToLeaveCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTimeToLeaveMd>', 'Time To Leave', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

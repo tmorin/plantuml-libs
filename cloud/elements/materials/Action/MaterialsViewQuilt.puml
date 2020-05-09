@@ -3,10 +3,10 @@ sprite $MaterialsViewQuiltLg [20x20/16z] hOp30G0n44LZ3lglTcqZxn1yYV8OxxrkZmxTQOw
 
 sprite $MaterialsViewQuiltMd [14x14/16z] ZOk30G0n34Klh9lzfptRhyn7ymv0lmU6GLAW40Tmc2npifvoEn6Fm3In3o8XB5CorIcfXmcPaHXnwFsd0m
 
-!function MaterialsViewQuilt($id, $name="View Quilt", $tech="")
+!procedure MaterialsViewQuilt($id, $name="View Quilt", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewQuilt', $name, $tech)
-!endfunction
-!function MaterialsViewQuiltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewQuiltCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewQuiltMd>', 'View Quilt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

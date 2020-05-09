@@ -10,10 +10,10 @@ sprite $AzureWindows10IotCoreServicesMd [14x14/16z] {
 FSbvdab4LtHrb3LuiClAflRu1m
 }
 
-!function AzureWindows10IotCoreServices($id, $name="Windows10 Iot Core Services", $tech="")
+!procedure AzureWindows10IotCoreServices($id, $name="Windows10 Iot Core Services", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureWindows10IotCoreServices', $name, $tech)
-!endfunction
-!function AzureWindows10IotCoreServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWindows10IotCoreServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWindows10IotCoreServicesMd>', 'Windows10 Iot Core Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ NbKjJITspf5bO3yK_UYD69cpomOoZ0T0mWyYlQuJrCe_AHbu
 
 sprite $AzureBlueprintsMd [15x14/16z] JOm70W11304FOSl__tkzpTOaoEXOFkQSgGUTfHxAUsb09bX4pf8b_Kj7K7lBj5_9YYFrP-fII1zbxtj9M6TK8mK2v74dfGy6zU7UbnyStW
 
-!function AzureBlueprints($id, $name="Blueprints", $tech="")
+!procedure AzureBlueprints($id, $name="Blueprints", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureBlueprints', $name, $tech)
-!endfunction
-!function AzureBlueprintsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBlueprintsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBlueprintsMd>', 'Blueprints', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

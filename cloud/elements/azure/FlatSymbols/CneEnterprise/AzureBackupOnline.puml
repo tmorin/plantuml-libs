@@ -6,10 +6,10 @@ dP2r0O1034L_v2Io_xguGyLhueeTxX4cUCAU4_uAz5omPbRfaXvvOdk0jEQLkhhLyuuJGBL7FWW2Mxw9
 
 sprite $AzureBackupOnlineMd [17x14/16z] TSp50GKm20FGj3Xa_tM_kxmJ6bn8imLFgqcskQtRm7YJbubayyu0ZU5JmFccPVYkRuF9-oQllVijgfRNYISpwYGsBZmx7IzarnQyshNmPt04
 
-!function AzureBackupOnline($id, $name="Backup Online", $tech="")
+!procedure AzureBackupOnline($id, $name="Backup Online", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureBackupOnline', $name, $tech)
-!endfunction
-!function AzureBackupOnlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBackupOnlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBackupOnlineMd>', 'Backup Online', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

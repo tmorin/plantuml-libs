@@ -3,10 +3,10 @@ sprite $AwsLightsailLg [20x20/16z] jO-t0SH040BVCB3zLombv-ERR2rGbuYThODUoDmIAK1J4
 
 sprite $AwsLightsailMd [14x14/16z] bOt50O1G5CEmfEo_CFhb_DpRioGHJ6z0eBKQ3xIjV8pGEn7fbpwNE53IKIP3IMu
 
-!function AwsLightsail($id, $name="Lightsail", $tech="")
+!procedure AwsLightsail($id, $name="Lightsail", $tech="")
   CloudElement($id, 'aws/Compute/AwsLightsail', $name, $tech)
-!endfunction
-!function AwsLightsailCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsLightsailCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsLightsailMd>', 'Lightsail', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

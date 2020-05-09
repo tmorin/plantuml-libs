@@ -6,10 +6,10 @@ yjwIzqJlQNXl9Nf71ON-Jnr0dl8VhC0H
 
 sprite $AzureCloudMd [23x14/16z] RSg54GDH30DHVIPB_NSRpg7VyCxYhngjugfI4byz76iqlLcVgyV3hDtwzrI63lgtDkh40X3xkbGn8YtTi65ANgSyvcTE_yxcpHLbyVPMF04
 
-!function AzureCloud($id, $name="Cloud", $tech="")
+!procedure AzureCloud($id, $name="Cloud", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureCloud', $name, $tech)
-!endfunction
-!function AzureCloudCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCloudCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCloudMd>', 'Cloud', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ kNUQi_T6gqzw7geiqZ9tiEmk9zl3ycLPxCXAsY1sTMHrk4GlzlvBcFJuI9RJtkVEceBfUYBqs9LbHBYz
 
 sprite $AzureWebAppFirewallMd [14x14/16z] DOk50G0W3CFczl_150kw2br4t8KUwYBCRsHr9l7GQp6ngvhV2JjW6szmQuI9HaPMOrU6QrRcJFLq1bDLGmRTGTH71ZEOhfmRlnDwVu9pkkYTQRhWdju2
 
-!function AzureWebAppFirewall($id, $name="Web App Firewall", $tech="")
+!procedure AzureWebAppFirewall($id, $name="Web App Firewall", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureWebAppFirewall', $name, $tech)
-!endfunction
-!function AzureWebAppFirewallCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWebAppFirewallCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWebAppFirewallMd>', 'Web App Firewall', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

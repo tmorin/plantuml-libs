@@ -6,10 +6,10 @@ MdM9gbjph9Ni9YC0IXTGSaixrvnxgnpFnncypohFL10bp_HrzXy
 
 sprite $AzureGatewayMd [14x14/16z] LOw74GCm20DTJpxq-y-RO5Bf7RNMXk996Yrf1UmDiJ8ni1RWrKQa7zV545GlIO4D4QGFpXnBe3NcyNzMa-VKf00yfzFh_S7tm__tGYOLia9j5-e7
 
-!function AzureGateway($id, $name="Gateway", $tech="")
+!procedure AzureGateway($id, $name="Gateway", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureGateway', $name, $tech)
-!endfunction
-!function AzureGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGatewayMd>', 'Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

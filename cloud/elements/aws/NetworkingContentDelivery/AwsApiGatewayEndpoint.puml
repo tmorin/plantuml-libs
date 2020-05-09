@@ -6,10 +6,10 @@ zFiR
 
 sprite $AwsApiGatewayEndpointMd [14x14/16z] RKu50e1026CZ_lza6RPUKmlh5RCKAN6GyDWJWcRzn7HOQPP53oMXQZ-TweKoTA0CI3A1TQR9oIuMYELII2NYfjJ9-3bxkTu
 
-!function AwsApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
+!procedure AwsApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsApiGatewayEndpoint', $name, $tech)
-!endfunction
-!function AwsApiGatewayEndpointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApiGatewayEndpointCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApiGatewayEndpointMd>', 'Api Gateway Endpoint', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

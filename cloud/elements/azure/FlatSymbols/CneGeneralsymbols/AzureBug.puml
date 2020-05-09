@@ -9,10 +9,10 @@ HKo50S0m328kM_l_jtE92m20mm0DmMEcwlWinsXw5wxkrdiyKfYLpf7R42Dz55apB7NCz3dzb0RblBRb
 Chm57Bm3
 }
 
-!function AzureBug($id, $name="Bug", $tech="")
+!procedure AzureBug($id, $name="Bug", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureBug', $name, $tech)
-!endfunction
-!function AzureBugCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBugCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBugMd>', 'Bug', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ RP255GGX34JZEEc_stl8hSygFnu0G7X9ChvPUJAps88ncQeQBvPJwJcB-51T454h4walc5AIcOzYgNve
 
 sprite $MaterialsAddAPhotoMd [14x14/16z] LSZ50GH03CF0e9VZ_gizHlr6eYu_MVy1se8x4dvNOAOtaZlZDgn5tpoyTLpKaoFC-uqXDiyoIzVnq25qSbk-PPlbyTBG6D3s4c6gMGzjaciitdAHRE-WyjSL
 
-!function MaterialsAddAPhoto($id, $name="Add A Photo", $tech="")
+!procedure MaterialsAddAPhoto($id, $name="Add A Photo", $tech="")
   CloudElement($id, 'materials/Image/MaterialsAddAPhoto', $name, $tech)
-!endfunction
-!function MaterialsAddAPhotoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAddAPhotoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAddAPhotoMd>', 'Add A Photo', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

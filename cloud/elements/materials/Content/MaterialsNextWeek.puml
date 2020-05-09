@@ -6,10 +6,10 @@ JfWSPrLm1
 
 sprite $MaterialsNextWeekMd [14x14/16z] PSb50e1G24NH7pGe-r-jtTuHXrV-rTRg3HNHYrrgbNwSeY4IAkk3SsdCDTvbe0yDsFHMUeF71jrkELhUMZhK-QgNTpC
 
-!function MaterialsNextWeek($id, $name="Next Week", $tech="")
+!procedure MaterialsNextWeek($id, $name="Next Week", $tech="")
   CloudElement($id, 'materials/Content/MaterialsNextWeek', $name, $tech)
-!endfunction
-!function MaterialsNextWeekCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNextWeekCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNextWeekMd>', 'Next Week', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -4,9 +4,9 @@ fOz74iGm3CDcLY2f_xzuqnFxQhZ3JUfb8YcZChBAmocyTQxlMTCjaCGjWxOMlFNaLabWSvthfDbqKRAt
 zCobLla3
 }
 
-!function AwsGroupElasticBeanstalkContainer($id, $name="Elastic Beanstalk Container", $tech="")
+!procedure AwsGroupElasticBeanstalkContainer($id, $name="Elastic Beanstalk Container", $tech="")
   CloudGroup($id, "AwsGroupElasticBeanstalkContainer", "<$AwsGroupElasticBeanstalkContainerLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupElasticBeanstalkContainer>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

@@ -3,10 +3,10 @@ sprite $MaterialsShowChartLg [20x20/16z] jK-r0G0X3CI9xx_jIuEtE4HEtEtXzr26BPWqhw4
 
 sprite $MaterialsShowChartMd [14x14/16z] dKp30K1H3Akv_xpVUETQIM1YHEkIV0zuPiYzS0kWwxEaffezIp5G-Ry047ww4zi1
 
-!function MaterialsShowChart($id, $name="Show Chart", $tech="")
+!procedure MaterialsShowChart($id, $name="Show Chart", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsShowChart', $name, $tech)
-!endfunction
-!function MaterialsShowChartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsShowChartCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsShowChartMd>', 'Show Chart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

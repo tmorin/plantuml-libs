@@ -6,10 +6,10 @@ bE_Vo6vTaKOEDdXiFU1wm1S
 
 sprite $AwsThinkboxFrostMd [14x14/16z] LSU73G0n24Kn2Tu7zb_uIdgiwlp4ahtNO4-uexvmv2vSVIR0nX0Iubv4L0Kca7ba6__eg_poDJ_rDo6RwXtgwWi
 
-!function AwsThinkboxFrost($id, $name="Thinkbox Frost", $tech="")
+!procedure AwsThinkboxFrost($id, $name="Thinkbox Frost", $tech="")
   CloudElement($id, 'aws/Compute/AwsThinkboxFrost', $name, $tech)
-!endfunction
-!function AwsThinkboxFrostCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsThinkboxFrostCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsThinkboxFrostMd>', 'Thinkbox Frost', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

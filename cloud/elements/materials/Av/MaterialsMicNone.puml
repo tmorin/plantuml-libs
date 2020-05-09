@@ -3,10 +3,10 @@ sprite $MaterialsMicNoneLg [20x20/16z] jSY53GHG2C3G8b-0_USzTzUNnieZgbpgLPrpLhQAC
 
 sprite $MaterialsMicNoneMd [14x14/16z] ZOw30K0n34J3k-o_yBVPLyIGEmheRkN0Ri4CBPOBt3682QfLcNA9GGUmn2IOoRXEtyUVLbDve0S
 
-!function MaterialsMicNone($id, $name="Mic None", $tech="")
+!procedure MaterialsMicNone($id, $name="Mic None", $tech="")
   CloudElement($id, 'materials/Av/MaterialsMicNone', $name, $tech)
-!endfunction
-!function MaterialsMicNoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMicNoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMicNoneMd>', 'Mic None', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

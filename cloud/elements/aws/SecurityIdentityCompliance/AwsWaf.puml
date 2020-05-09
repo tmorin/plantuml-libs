@@ -6,10 +6,10 @@ i-xURhndOFTRPW
 
 sprite $AwsWafMd [14x14/16z] VOst0GDH348TUS3--pgSL7ywSezm6aXpiGW4C1JvfPhnoFlrekD1nVjf61PibeL8VxOhzbjhDGoKeVlk7l45
 
-!function AwsWaf($id, $name="Waf", $tech="")
+!procedure AwsWaf($id, $name="Waf", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsWaf', $name, $tech)
-!endfunction
-!function AwsWafCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWafCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWafMd>', 'Waf', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

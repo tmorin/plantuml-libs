@@ -9,10 +9,10 @@ BKvH4W1H24ajtF_4EsQUhoemCw0J4rESOydnTOaF0CwvMHihMmjxcJsRT6x32F82vIZXvbjxlopVbhnD
 0G
 }
 
-!function BrandCeph($id, $name="Ceph", $tech="")
+!procedure BrandCeph($id, $name="Ceph", $tech="")
   PersoElement($id, 'brand/BrandCeph', $name, $tech)
-!endfunction
-!function BrandCephCard($id, $funcName="", $content="")
+!endprocedure
+!procedure BrandCephCard($id, $funcName="", $content="")
   PersoCard($id, '<$BrandCephMd>', 'Ceph', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

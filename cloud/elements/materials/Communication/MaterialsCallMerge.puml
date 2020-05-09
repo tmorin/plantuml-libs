@@ -3,10 +3,10 @@ sprite $MaterialsCallMergeLg [20x20/16z] hOsr0S0m30H5Pjf_sZ0hdVtbqy48YMYh555MQyM
 
 sprite $MaterialsCallMergeMd [14x14/16z] ZSUr0O1044N1j_Bn_jl5BO6xoOQYY5ToclAEgUzbt2IeclVnJfB-2jdxkG08vzy2
 
-!function MaterialsCallMerge($id, $name="Call Merge", $tech="")
+!procedure MaterialsCallMerge($id, $name="Call Merge", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCallMerge', $name, $tech)
-!endfunction
-!function MaterialsCallMergeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallMergeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallMergeMd>', 'Call Merge', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

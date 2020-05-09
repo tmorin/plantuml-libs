@@ -3,10 +3,10 @@ sprite $AzureDeviceLg [39x20/16z] bSfL0WKX34FH58Tq_zjzhcDXpbVbuY7Jjp7ZAz7tCE4jq_
 
 sprite $AzureDeviceMd [27x14/16z] VP3L0GCm24I98xV_lEsHdnfzyU38auDFZbmsljcLXB9IGjdoYjLgf9QeLoZ-4MiuCnfKqy6CVQoWoBA0w381JEcHHLbQpSvpzSCEzKNjFWCfkyVRpiDHOGy
 
-!function AzureDevice($id, $name="Device", $tech="")
+!procedure AzureDevice($id, $name="Device", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDevice', $name, $tech)
-!endfunction
-!function AzureDeviceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDeviceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDeviceMd>', 'Device', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

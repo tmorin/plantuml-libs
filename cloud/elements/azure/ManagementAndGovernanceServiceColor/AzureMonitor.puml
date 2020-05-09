@@ -6,10 +6,10 @@ n98warOkR1JzTQxWu3Tizco_IBbtG61XwlztrL4BtMQOl_2D9l-O3m
 
 sprite $AzureMonitorMd [14x14/16z] HOw50GDH2CNWIVSVkJdFQU0ZCxCAQ029jIlZ26z4ew88uLIhhamTMPoI4Di1LsgeuVYlO6n8yGNUrA0dglnPl2HlHDMhghxDyaHTCDNp1m
 
-!function AzureMonitor($id, $name="Monitor", $tech="")
+!procedure AzureMonitor($id, $name="Monitor", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureMonitor', $name, $tech)
-!endfunction
-!function AzureMonitorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMonitorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMonitorMd>', 'Monitor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

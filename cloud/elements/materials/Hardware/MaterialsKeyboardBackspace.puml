@@ -3,10 +3,10 @@ sprite $MaterialsKeyboardBackspaceLg [20x20/16z] Ow0RO6Hbn13Yu6R256B64EB15EBduK0
 
 sprite $MaterialsKeyboardBackspaceMd [14x14/16z] Oo0DC29psDYGEUoCI1nUDbO8O4JZ8LGYJ46pWMG
 
-!function MaterialsKeyboardBackspace($id, $name="Keyboard Backspace", $tech="")
+!procedure MaterialsKeyboardBackspace($id, $name="Keyboard Backspace", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardBackspace', $name, $tech)
-!endfunction
-!function MaterialsKeyboardBackspaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardBackspaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardBackspaceMd>', 'Keyboard Backspace', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ LSw5iS0m30DGoOBkF_67OlAEV6PSA5l4Weubn_nI5KugtzJWDa_I1eWlFjkezkxbrJYPYbF78NBMvBI6
 
 sprite $AwsIotCertificateManagerMd [14x14/16z] NOs50S0m4083t7V_ZUjjvA9lq4uKYDg3iMJy1a_o2L7kDd5VuBe6qHLjcrqdJrHbI8pkQV0tjsXsluS0f7tHLUjHGVtHbSyzTW
 
-!function AwsIotCertificateManager($id, $name="Iot Certificate Manager", $tech="")
+!procedure AwsIotCertificateManager($id, $name="Iot Certificate Manager", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotCertificateManager', $name, $tech)
-!endfunction
-!function AwsIotCertificateManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotCertificateManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotCertificateManagerMd>', 'Iot Certificate Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ mUXcHu8SRNwqZKMqSS1mRCLv5SUs7IicX-1jT_2ta-AFZNm_eGq
 
 sprite $GcpCloudServiceMeshMd [16x14/16z] LOu70WGm10J5al7_5n-kJwg-PYPgGJQSMo_k6JlgGxJfL14GyxfPzeCQgCfjfi15Q5eoVUIPlb_M3cN6slpdbzxzyjNF3fFrdVUdvrylnmRnijN60m
 
-!function GcpCloudServiceMesh($id, $name="Cloud Service Mesh", $tech="")
+!procedure GcpCloudServiceMesh($id, $name="Cloud Service Mesh", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpCloudServiceMesh', $name, $tech)
-!endfunction
-!function GcpCloudServiceMeshCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudServiceMeshCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudServiceMeshMd>', 'Cloud Service Mesh', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

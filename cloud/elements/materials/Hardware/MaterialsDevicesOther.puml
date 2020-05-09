@@ -6,10 +6,10 @@ fT154eL034NHv4Mg8nJxN-rt8KovxMVOT2MOZq34qJcIXxNnBth7hVGBhuR9zYpvQDeAU4yhVcm_aqm_
 
 sprite $MaterialsDevicesOtherMd [14x14/16z] VSst0G0X5CDG-ySB-yzBXX9rhn8kqMBdXBvs8YmmazQHV9cV7Zr4sf3_9WyGGqmFFH97s50xAFCDQQVNQE7G4FhONwe
 
-!function MaterialsDevicesOther($id, $name="Devices Other", $tech="")
+!procedure MaterialsDevicesOther($id, $name="Devices Other", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDevicesOther', $name, $tech)
-!endfunction
-!function MaterialsDevicesOtherCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDevicesOtherCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDevicesOtherMd>', 'Devices Other', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

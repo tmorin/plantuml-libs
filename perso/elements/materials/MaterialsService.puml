@@ -3,10 +3,10 @@ sprite $MaterialsServiceLg [20x20/16z] Ow0CC68AiV4mCx9pi4C11pCsCOXUIks00sPCCPWTz
 
 sprite $MaterialsServiceMd [14x14/16z] Oy0Bc1WOeG38OUPYOkE004OKEKnjR8pCh130YCQZt0PC
 
-!function MaterialsService($id, $name="Service", $tech="")
+!procedure MaterialsService($id, $name="Service", $tech="")
   PersoElement($id, 'materials/MaterialsService', $name, $tech)
-!endfunction
-!function MaterialsServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsServiceCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsServiceMd>', 'Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

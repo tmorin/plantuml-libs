@@ -6,10 +6,10 @@ kjv5bCyi9v_zE3Fin6adFW
 
 sprite $AwsApiGatewayMd [14x14/16z] LSZ10S8m5CFGKopxi_--E05egzjJlldqnTUJX3xhQ93eML8L1MpXLSrFqHQnM6ihrLX2LOx0vY-J_8KyOr6zPa9VSAhoszQ3Rm
 
-!function AwsApiGateway($id, $name="Api Gateway", $tech="")
+!procedure AwsApiGateway($id, $name="Api Gateway", $tech="")
   CloudElement($id, 'aws/Mobile/AwsApiGateway', $name, $tech)
-!endfunction
-!function AwsApiGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApiGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApiGatewayMd>', 'Api Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

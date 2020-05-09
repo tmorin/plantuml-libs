@@ -6,10 +6,10 @@ ZZh3oOYuUjGi6sgMuUVCXDVmlxjzEVXoLM4dfvbPdFvmlm8
 
 sprite $GcpAiHubMd [14x14/16z] JKw50GG12B9X_ubV_3hirimy3sw23mvpOV63sY10ebiwp9gS2eiXsn94UgNxhAEEwR1qUIVJMmMlk46dgvRQefgsp5rOsrp4yth_Fji0dqV_Nxy
 
-!function GcpAiHub($id, $name="Ai Hub", $tech="")
+!procedure GcpAiHub($id, $name="Ai Hub", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpAiHub', $name, $tech)
-!endfunction
-!function GcpAiHubCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpAiHubCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpAiHubMd>', 'Ai Hub', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

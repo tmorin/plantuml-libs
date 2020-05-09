@@ -6,10 +6,10 @@ RP070aCX24C_WGJlV-8okjlyeJxPryZkkfw2di8TcSvJkfl6ULEiMVO-oLt7aBqBk2EQiX1gGqJE1UjV
 
 sprite $GcpCloudArmorMd [14x14/16z] HSx70GCm3090sQBjFt58n_LUOcREldBwBUHNz2BIk0V5TIn0VUuCOz0c7CuwejMluY82iAvYLvU0w6hTirmYoGuJbL3VruG8HN9Vqp_XhrdXJz5_wmS
 
-!function GcpCloudArmor($id, $name="Cloud Armor", $tech="")
+!procedure GcpCloudArmor($id, $name="Cloud Armor", $tech="")
   CloudElement($id, 'gcp/Networking/GcpCloudArmor', $name, $tech)
-!endfunction
-!function GcpCloudArmorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudArmorCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudArmorMd>', 'Cloud Armor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

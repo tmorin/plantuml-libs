@@ -6,10 +6,10 @@ VL35eGKm2AE1KeFzn_q2F9TSS4de4zgBGtqZ7UnUDNLjaDu5uVxdXWdKV6ytXTY8ISO-7QsXdmtkERpM
 
 sprite $MaterialsAlarmOnMd [14x14/16z] POp50S102C0EX_qNBddLWklvue8NnqkMMeHfvNOzlIkYsfEfZh5ZeuIYnLtXH_2fqfje7rN9tUvTtPPa6GbBcudofXxFU0q-OHR3Qv2e2Za_BW
 
-!function MaterialsAlarmOn($id, $name="Alarm On", $tech="")
+!procedure MaterialsAlarmOn($id, $name="Alarm On", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAlarmOn', $name, $tech)
-!endfunction
-!function MaterialsAlarmOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAlarmOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAlarmOnMd>', 'Alarm On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

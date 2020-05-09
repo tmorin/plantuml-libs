@@ -6,10 +6,10 @@ K3wjgvdnziLRjLJvqHa
 
 sprite $MaterialsSimCardMd [14x14/16z] POw53K8134JvTKlOVrhiYhzevUJq3_iTmY1plgEV0oR6i9FkWCb6mYnaCFLXDuust3WoWsTrqSmTgsjoPgSst7Ag9d4ZNxRPcoi
 
-!function MaterialsSimCard($id, $name="Sim Card", $tech="")
+!procedure MaterialsSimCard($id, $name="Sim Card", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsSimCard', $name, $tech)
-!endfunction
-!function MaterialsSimCardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSimCardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSimCardMd>', 'Sim Card', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

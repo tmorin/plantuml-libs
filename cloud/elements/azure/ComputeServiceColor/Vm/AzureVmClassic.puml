@@ -6,10 +6,10 @@ BVeHocpgAeZOTk1tR0YlpFvT7W
 
 sprite $AzureVmClassicMd [15x14/16z] NOw50S0m20InXyB--zQZ5y456y830PXkDEmH_9d8gk1c2Zm3rapBK6HqimfPtPJZDXFDl8MvlFATI_yJRD2xZRlhez2BtgRHXm3-y7Qz
 
-!function AzureVmClassic($id, $name="Vm Classic", $tech="")
+!procedure AzureVmClassic($id, $name="Vm Classic", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmClassic', $name, $tech)
-!endfunction
-!function AzureVmClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVmClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVmClassicMd>', 'Vm Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

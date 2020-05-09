@@ -6,10 +6,10 @@ MjziuGSz-vwF1DptDuDaDlpUx1VoZmrV
 
 sprite $AwsSingleSignOnMd [14x14/16z] LSp70SDG20FG4shPVz_eas9R9nxDtsZZ1tCAGFOgXGJAg-m0e8-4WbHPmV4CIZiXBOp0LSJz0rKRStYf1iP-_KbMVoPLUUaD
 
-!function AwsSingleSignOn($id, $name="Single Sign On", $tech="")
+!procedure AwsSingleSignOn($id, $name="Single Sign On", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech)
-!endfunction
-!function AwsSingleSignOnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSingleSignOnCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSingleSignOnMd>', 'Single Sign On', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

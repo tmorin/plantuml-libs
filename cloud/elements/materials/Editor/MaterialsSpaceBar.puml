@@ -3,10 +3,10 @@ sprite $MaterialsSpaceBarLg [20x20/16z] OnXSW8aPmMPcWj1id8mm8KPEDZnYN4oCKC341HFZ
 
 sprite $MaterialsSpaceBarMd [14x14/16z] Ow0IO6Q2q4pC89AD1S9ZOGFps9d1W1tC0r8W01Iabjq
 
-!function MaterialsSpaceBar($id, $name="Space Bar", $tech="")
+!procedure MaterialsSpaceBar($id, $name="Space Bar", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsSpaceBar', $name, $tech)
-!endfunction
-!function MaterialsSpaceBarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSpaceBarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSpaceBarMd>', 'Space Bar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

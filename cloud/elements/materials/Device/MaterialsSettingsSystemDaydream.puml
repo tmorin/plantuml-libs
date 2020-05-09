@@ -3,10 +3,10 @@ sprite $MaterialsSettingsSystemDaydreamLg [20x20/16z] ZT2r0GGn34HHZSpSVxN7i6Q_y2
 
 sprite $MaterialsSettingsSystemDaydreamMd [14x14/16z] LOw54G0W2035LZZOVrextw13_O0-WD8f7fAsGHs2jRvBhVllf-M8xBOWiWZQPHdfi9cMpjn0FQmr4dhcF-6V_c_sKm4
 
-!function MaterialsSettingsSystemDaydream($id, $name="Settings System Daydream", $tech="")
+!procedure MaterialsSettingsSystemDaydream($id, $name="Settings System Daydream", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSettingsSystemDaydream', $name, $tech)
-!endfunction
-!function MaterialsSettingsSystemDaydreamCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsSystemDaydreamCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsSystemDaydreamMd>', 'Settings System Daydream', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ ci3mEEmuzUC7Nx-w_lJvwUGmVm
 
 sprite $AzureBotServicesMd [14x14/16z] LOx50KC124DV2Eo_Sf7QvnB303chqW8WcgmLAyv4BJKYRAURsdmYsX9nqcqKM255AseKNvN2RCr6cyy9l6lRSa3Jv_NdPy-lNm
 
-!function AzureBotServices($id, $name="Bot Services", $tech="")
+!procedure AzureBotServices($id, $name="Bot Services", $tech="")
   CloudElement($id, 'azure/AiAndMlServiceColor/AzureBotServices', $name, $tech)
-!endfunction
-!function AzureBotServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBotServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBotServicesMd>', 'Bot Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

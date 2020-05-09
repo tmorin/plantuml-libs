@@ -6,10 +6,10 @@ eCWMVkd21m
 
 sprite $MaterialsSubscriptionsMd [14x14/16z] NOg50G0X24K9E_UVziAMPy0FaB1jS5T83Mo2r81QqUY6QLLSV4AdXGQmjTPWK_smdsg3R3uKK5ZAaOwxcVwzAROBXfiN
 
-!function MaterialsSubscriptions($id, $name="Subscriptions", $tech="")
+!procedure MaterialsSubscriptions($id, $name="Subscriptions", $tech="")
   CloudElement($id, 'materials/Av/MaterialsSubscriptions', $name, $tech)
-!endfunction
-!function MaterialsSubscriptionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSubscriptionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSubscriptionsMd>', 'Subscriptions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

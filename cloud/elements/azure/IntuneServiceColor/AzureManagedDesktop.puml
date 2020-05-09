@@ -6,10 +6,10 @@ liH1PloG2QtfAD06SNwupFZv6N0B2v-9SM8nIc82
 
 sprite $AzureManagedDesktopMd [19x14/16z] NOy50W8n30JZ1lz_B-UtTEgJrCW__pXHb28LH9byORfrcQ0q3TKMbt06fQdiAQZOqpUBQdFbl2WnNjG6gWwaasI-1zjNpib8NfFCl8Bv9BrfFm
 
-!function AzureManagedDesktop($id, $name="Managed Desktop", $tech="")
+!procedure AzureManagedDesktop($id, $name="Managed Desktop", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureManagedDesktop', $name, $tech)
-!endfunction
-!function AzureManagedDesktopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureManagedDesktopCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureManagedDesktopMd>', 'Managed Desktop', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

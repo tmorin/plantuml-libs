@@ -6,10 +6,10 @@ RT35WGGX04JH5KhpptUatVxnuVIf4AUOblGfieNN-UatOpS0lbaqV3L1o6QnQEX_ZCqCa0RX3rNOzixN
 
 sprite $AwsDeepcomposerMd [14x14/16z] LOw50G8m30JHj_q7fX7igl6FzS4n2fBrMCZ1T198BAly2TSYdXZBn36UxCmdP0FbVqWFHzDLa50PeR9T30SVgpCpLhrs2iW_mk1_rIy
 
-!function AwsDeepcomposer($id, $name="Deepcomposer", $tech="")
+!procedure AwsDeepcomposer($id, $name="Deepcomposer", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepcomposer', $name, $tech)
-!endfunction
-!function AwsDeepcomposerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeepcomposerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeepcomposerMd>', 'Deepcomposer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

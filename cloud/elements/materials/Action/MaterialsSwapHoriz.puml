@@ -3,10 +3,10 @@ sprite $MaterialsSwapHorizLg [20x20/16z] Ow0fOC8Yniw2p6Da0W9cJbvaGLO-NY3Wu-TcnAq
 
 sprite $MaterialsSwapHorizMd [14x14/16z] Oo0TC3B3cKnCJ2nSB31nDdPs3bvs21igmWYZ48Bil1pix40H201g1ne2Dv2PaGm70G
 
-!function MaterialsSwapHoriz($id, $name="Swap Horiz", $tech="")
+!procedure MaterialsSwapHoriz($id, $name="Swap Horiz", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSwapHoriz', $name, $tech)
-!endfunction
-!function MaterialsSwapHorizCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSwapHorizCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSwapHorizMd>', 'Swap Horiz', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

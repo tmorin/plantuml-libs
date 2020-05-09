@@ -3,10 +3,10 @@ sprite $AzureCacheForRedisLg [74x20/16z] OsLbOg0EO6LZf999Z9GQH2rt34AJcAXcA1Frt3H
 
 sprite $AzureCacheForRedisMd [52x14/16z] OsDc81amCp8CEi18XXPQwq6uRNW1nY4GFm
 
-!function AzureCacheForRedis($id, $name="Cache For Redis", $tech="")
+!procedure AzureCacheForRedis($id, $name="Cache For Redis", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureCacheForRedis', $name, $tech)
-!endfunction
-!function AzureCacheForRedisCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCacheForRedisCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCacheForRedisMd>', 'Cache For Redis', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

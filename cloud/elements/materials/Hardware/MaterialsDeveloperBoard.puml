@@ -6,10 +6,10 @@ tpL7MdDSQxdMVDlRTGQti_fF1m
 
 sprite $MaterialsDeveloperBoardMd [14x14/16z] POw30KKn34LZVEw_xLFTKyON5gXo6Phna79Qpe0N87PPn15iGVBHovB_N-ny7EzO9ekY95yMYL3-wR9AvcKvRbtwX6twf6pc
 
-!function MaterialsDeveloperBoard($id, $name="Developer Board", $tech="")
+!procedure MaterialsDeveloperBoard($id, $name="Developer Board", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDeveloperBoard', $name, $tech)
-!endfunction
-!function MaterialsDeveloperBoardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDeveloperBoardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDeveloperBoardMd>', 'Developer Board', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

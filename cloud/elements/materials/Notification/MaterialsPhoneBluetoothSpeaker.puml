@@ -6,10 +6,10 @@ tWPvvg8Zj3jiUlCPcFkIt9v1S8TjPWy
 
 sprite $MaterialsPhoneBluetoothSpeakerMd [14x14/16z] NKm50W0X31gp-_-llR1r7G1DGwtCVmTqRI7P_wQCg5ln_rNQYdGbyloHBghnkAfuR9ga5Mq6Aty8-ifMGKLl-mxjKoc9QRorYu5tEkYo5m
 
-!function MaterialsPhoneBluetoothSpeaker($id, $name="Phone Bluetooth Speaker", $tech="")
+!procedure MaterialsPhoneBluetoothSpeaker($id, $name="Phone Bluetooth Speaker", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPhoneBluetoothSpeaker', $name, $tech)
-!endfunction
-!function MaterialsPhoneBluetoothSpeakerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhoneBluetoothSpeakerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhoneBluetoothSpeakerMd>', 'Phone Bluetooth Speaker', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsElementalMediatailorLg [20x20/16z] hOwt0G90008BE73_XStwgLHAykKVI0uAcu
 
 sprite $AwsElementalMediatailorMd [14x14/16z] XOt50S0W5CLgBs7_XUl8ZS1tApC4Xo2feVdnYyWDiVPfxTKSkR_MEHZcU6Fh0KY_w4sPSG4
 
-!function AwsElementalMediatailor($id, $name="Elemental Mediatailor", $tech="")
+!procedure AwsElementalMediatailor($id, $name="Elemental Mediatailor", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalMediatailor', $name, $tech)
-!endfunction
-!function AwsElementalMediatailorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalMediatailorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalMediatailorMd>', 'Elemental Mediatailor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

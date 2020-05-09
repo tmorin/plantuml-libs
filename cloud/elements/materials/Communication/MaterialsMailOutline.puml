@@ -6,10 +6,10 @@ uACx-Air
 
 sprite $MaterialsMailOutlineMd [14x14/16z] VSs53G0X44JHMPr0__tYaTE7_jZYZqOUeG1h-1ALeqeA1iaooumE-7XdAIJ84EWkGDUrQtglz2Dvc_wd0m
 
-!function MaterialsMailOutline($id, $name="Mail Outline", $tech="")
+!procedure MaterialsMailOutline($id, $name="Mail Outline", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsMailOutline', $name, $tech)
-!endfunction
-!function MaterialsMailOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMailOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMailOutlineMd>', 'Mail Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

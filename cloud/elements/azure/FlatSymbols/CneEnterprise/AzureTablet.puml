@@ -3,10 +3,10 @@ sprite $AzureTabletLg [27x20/16z] xSch5S102031_7XtiDj_lL4uR5p6pj8PIvc9FDVaGRcEoV
 
 sprite $AzureTabletMd [19x14/16z] u-911vmyd6oeW9E7Xuq15R0D9I6OXrXOM60UWdgRcvsDdHlgRG
 
-!function AzureTablet($id, $name="Tablet", $tech="")
+!procedure AzureTablet($id, $name="Tablet", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureTablet', $name, $tech)
-!endfunction
-!function AzureTabletCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTabletCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTabletMd>', 'Tablet', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

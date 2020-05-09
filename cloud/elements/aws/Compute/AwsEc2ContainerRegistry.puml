@@ -3,10 +3,10 @@ sprite $AwsEc2ContainerRegistryLg [20x20/16z] bT250SCW50JGoidVV-4sVd71UJZrD4XUYG
 
 sprite $AwsEc2ContainerRegistryMd [14x14/16z] RStL0KC12CNG2hbX_uNRvuwVB_eXz707SBjZXqmEqx8ohWcclgoIa4saSPUkYWt8945g_J2w2diDjH_Y3m
 
-!function AwsEc2ContainerRegistry($id, $name="Ec2 Container Registry", $tech="")
+!procedure AwsEc2ContainerRegistry($id, $name="Ec2 Container Registry", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2ContainerRegistry', $name, $tech)
-!endfunction
-!function AwsEc2ContainerRegistryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2ContainerRegistryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2ContainerRegistryMd>', 'Ec2 Container Registry', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

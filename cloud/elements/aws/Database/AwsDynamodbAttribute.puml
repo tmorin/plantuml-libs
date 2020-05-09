@@ -3,10 +3,10 @@ sprite $AwsDynamodbAttributeLg [20x20/16z] lT350KKn20LH0ZEt_uw_k-xUMIPuUp7ZHHjGo
 
 sprite $AwsDynamodbAttributeMd [14x14/16z] XOx50S0m3CGCf_r7RfXULS0Ceg4f2A40hrGXkGHMSI3wFot9yiH2g0hlbhZGQysKMnZOlnLUMPkzMnS
 
-!function AwsDynamodbAttribute($id, $name="Dynamodb Attribute", $tech="")
+!procedure AwsDynamodbAttribute($id, $name="Dynamodb Attribute", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbAttribute', $name, $tech)
-!endfunction
-!function AwsDynamodbAttributeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbAttributeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbAttributeMd>', 'Dynamodb Attribute', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

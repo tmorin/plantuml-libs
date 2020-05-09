@@ -6,10 +6,10 @@ lZKohhrPHBrr4tSaLNrB22bzaYfs7uNqMSRwADklN
 
 sprite $AzureAnalysisServicesMd [18x14/16z] RSg74KC13C9GR0JxRvpUytNzdNflzUf8iloAbgmqt6iBmJFkFS26rIo1j99cTMt3Y9le8N1_5WnubjmIBMayUaPhW_KXcKdvb49_fFsKCm
 
-!function AzureAnalysisServices($id, $name="Analysis Services", $tech="")
+!procedure AzureAnalysisServices($id, $name="Analysis Services", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureAnalysisServices', $name, $tech)
-!endfunction
-!function AzureAnalysisServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAnalysisServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAnalysisServicesMd>', 'Analysis Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

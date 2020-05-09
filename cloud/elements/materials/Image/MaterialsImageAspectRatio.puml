@@ -3,10 +3,10 @@ sprite $MaterialsImageAspectRatioLg [20x20/16z] fT054iGW50FGa0oQvVx7NVTw-yRGRpX4
 
 sprite $MaterialsImageAspectRatioMd [14x14/16z] VSt50S0W3030UFQVkCKTZWznU26rGWd0JGhp457hoX6cLo8MD5IgjMA8vXgLsdHXklxo0m
 
-!function MaterialsImageAspectRatio($id, $name="Image Aspect Ratio", $tech="")
+!procedure MaterialsImageAspectRatio($id, $name="Image Aspect Ratio", $tech="")
   CloudElement($id, 'materials/Image/MaterialsImageAspectRatio', $name, $tech)
-!endfunction
-!function MaterialsImageAspectRatioCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsImageAspectRatioCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsImageAspectRatioMd>', 'Image Aspect Ratio', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

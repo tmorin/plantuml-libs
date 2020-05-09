@@ -3,10 +3,10 @@ sprite $MaterialsLinearScaleLg [20x20/16z] pKt54G0W30jUkyl-syA_353t1BMavMQPT62e3
 
 sprite $MaterialsLinearScaleMd [14x14/16z] Ow0EO6HcP61WOe8oMFavMTbuUDXOEVbPKNbeAga3
 
-!function MaterialsLinearScale($id, $name="Linear Scale", $tech="")
+!procedure MaterialsLinearScale($id, $name="Linear Scale", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsLinearScale', $name, $tech)
-!endfunction
-!function MaterialsLinearScaleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLinearScaleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLinearScaleMd>', 'Linear Scale', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

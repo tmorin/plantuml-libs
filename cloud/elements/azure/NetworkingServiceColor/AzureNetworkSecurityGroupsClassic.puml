@@ -6,10 +6,10 @@ PzDKxpDEL0MG1QbZKQhOU6GYxqqN
 
 sprite $AzureNetworkSecurityGroupsClassicMd [10x14/16z] LKs53GGm46hAOTr_ttV5ewmRo7i2T682lUKewSdi3Sa-mNtvVmqmajpg1W3JMdwkl1RB-hucN6e4LlVNDkMw0mbkTGK
 
-!function AzureNetworkSecurityGroupsClassic($id, $name="Network Security Groups Classic", $tech="")
+!procedure AzureNetworkSecurityGroupsClassic($id, $name="Network Security Groups Classic", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureNetworkSecurityGroupsClassic', $name, $tech)
-!endfunction
-!function AzureNetworkSecurityGroupsClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNetworkSecurityGroupsClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNetworkSecurityGroupsClassicMd>', 'Network Security Groups Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

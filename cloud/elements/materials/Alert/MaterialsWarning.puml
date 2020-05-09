@@ -6,10 +6,10 @@ bO-35GH04CNM6gJ_Qi_svJd37_wbb2SLvuoFha9zK4b0qhth0FrEPSCTopSg3hGKPSIhAw0nAfHhspgx
 
 sprite $MaterialsWarningMd [14x14/16z] ROp50KCX40Lns4Mc_sgJxpwtf-O3QwygfOlmlVjJ5IY728WGDc4Lxz7jA38huY9SOsxItAmo42EGbtSW9Q1xOqi_ADQu2-RE7m
 
-!function MaterialsWarning($id, $name="Warning", $tech="")
+!procedure MaterialsWarning($id, $name="Warning", $tech="")
   CloudElement($id, 'materials/Alert/MaterialsWarning', $name, $tech)
-!endfunction
-!function MaterialsWarningCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWarningCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWarningMd>', 'Warning', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

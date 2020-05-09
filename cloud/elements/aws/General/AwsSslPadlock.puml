@@ -6,10 +6,10 @@ kHlAnRvGEJ_7bBjN5SfnHRahrSgPHPWfr-LhuFk1Wzshdc22LouWToeGNhE9YAjbLYf-uxtRpXyYllGV
 
 sprite $AwsSslPadlockMd [14x14/16z] DOt90GG12CAY7BFzLxnp1iXJGGish02rkMd5TjZLxZ9T5N1Ye28BlRi1Y_no5XawqubFJL6Op76S8keo8MU7RU_BzlsfEkqRfaAD1aQf0DRrsUN3vkOF
 
-!function AwsSslPadlock($id, $name="Ssl Padlock", $tech="")
+!procedure AwsSslPadlock($id, $name="Ssl Padlock", $tech="")
   CloudElement($id, 'aws/General/AwsSslPadlock', $name, $tech)
-!endfunction
-!function AwsSslPadlockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSslPadlockCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSslPadlockMd>', 'Ssl Padlock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

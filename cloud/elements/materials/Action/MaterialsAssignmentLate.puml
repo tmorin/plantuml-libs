@@ -3,10 +3,10 @@ sprite $MaterialsAssignmentLateLg [20x20/16z] hP052eL120PN-LP0ZFkVzkNVNREXZbAM5g
 
 sprite $MaterialsAssignmentLateMd [14x14/16z] ZSs53G0X341Hg9qstNzQNADyzCNgIeYkvG7elWd0PpogncogJoAecMcveEc-Lo6UwdbMCQyIgShJQtbw8hGojY8
 
-!function MaterialsAssignmentLate($id, $name="Assignment Late", $tech="")
+!procedure MaterialsAssignmentLate($id, $name="Assignment Late", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAssignmentLate', $name, $tech)
-!endfunction
-!function MaterialsAssignmentLateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAssignmentLateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAssignmentLateMd>', 'Assignment Late', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

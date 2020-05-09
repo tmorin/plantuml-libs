@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupLogicalGroupingOfServices($id, $name="Logical Grouping of Services", $tech="")
+!procedure GcpGroupLogicalGroupingOfServices($id, $name="Logical Grouping of Services", $tech="")
   CloudGroup($id, "GcpGroupLogicalGroupingOfServices", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupLogicalGroupingOfServices>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

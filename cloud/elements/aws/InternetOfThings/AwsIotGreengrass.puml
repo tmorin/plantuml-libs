@@ -6,10 +6,10 @@ yDXtzxHMYUM-xem5qKoMTrluo3Xos0j-
 
 sprite $AwsIotGreengrassMd [14x14/16z] LSc90OH034BHNJKGfl-2_TxAd2-4z1NdmnrGTKg2jUZKuiGgxuf5QLCEbERZBdJIfwnEN6hjAXxRSb3sia4o21QJKvYSUda5
 
-!function AwsIotGreengrass($id, $name="Iot Greengrass", $tech="")
+!procedure AwsIotGreengrass($id, $name="Iot Greengrass", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotGreengrass', $name, $tech)
-!endfunction
-!function AwsIotGreengrassCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotGreengrassCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotGreengrassMd>', 'Iot Greengrass', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

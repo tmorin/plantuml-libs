@@ -9,10 +9,10 @@ NKu5WWH02782mPZ_F_Tkk-mMCvlgSrhJheGwSQ5Jk2PTCjAK3Pl93e-BD7EAMmkPMDnKBSAkamPVrIgv
 x1lrFm
 }
 
-!function AzureWeb($id, $name="Web", $tech="")
+!procedure AzureWeb($id, $name="Web", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWeb', $name, $tech)
-!endfunction
-!function AzureWebCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWebCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWebMd>', 'Web', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

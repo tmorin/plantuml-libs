@@ -6,10 +6,10 @@ I3hAOhQN0H6ZVG4
 
 sprite $AzureCentralAdministrationSiteMd [11x14/16z] ROp50O0m34MnVCl-ywBjZHVNWm-rt32sepSr07rfFumqoNzgh6FNHOaxa-ZGJJtF2izpybQWRsQQD8jFckvWULYBhEq2
 
-!function AzureCentralAdministrationSite($id, $name="Central Administration Site", $tech="")
+!procedure AzureCentralAdministrationSite($id, $name="Central Administration Site", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureCentralAdministrationSite', $name, $tech)
-!endfunction
-!function AzureCentralAdministrationSiteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCentralAdministrationSiteCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCentralAdministrationSiteMd>', 'Central Administration Site', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

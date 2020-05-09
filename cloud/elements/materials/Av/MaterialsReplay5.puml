@@ -6,10 +6,10 @@ bWXRYqke5KdTLfq8JrXlnmy
 
 sprite $MaterialsReplay5Md [14x14/16z] POi54iGm3CJi3UUkxVz_MvL90ODcxOkd-r2wsqcQXbPqSuejtdDgVevqUPMY2wHYCeYPJJmT0USsFAHALKss4Ij4En7somm
 
-!function MaterialsReplay5($id, $name="Replay5", $tech="")
+!procedure MaterialsReplay5($id, $name="Replay5", $tech="")
   CloudElement($id, 'materials/Av/MaterialsReplay5', $name, $tech)
-!endfunction
-!function MaterialsReplay5Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsReplay5Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsReplay5Md>', 'Replay5', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

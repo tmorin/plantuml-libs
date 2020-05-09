@@ -6,10 +6,10 @@ NstQZegVvS7DU0C
 
 sprite $MaterialsCachedMd [14x14/16z] XKs30S1047i5nVxhrkQPIVYJ3EIrZZR0k7J6yKnpfk8OvrLfsg50svIf1KSCSRvKFhn3AmK1ErxOlwK7
 
-!function MaterialsCached($id, $name="Cached", $tech="")
+!procedure MaterialsCached($id, $name="Cached", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCached', $name, $tech)
-!endfunction
-!function MaterialsCachedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCachedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCachedMd>', 'Cached', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ kErFHrzQC7Gj-Oe_vHqflbGM4ieI7yTy-C1OXv-p6BdvsSceu2SEez8_MT_-Xmsy
 
 sprite $AwsUsersMd [14x14/16z] BSY70S0m20F1Ho0vsN_WL1yTK5nGZdX4O_0eGELDKczInrgfobf7KMaf3wbJRcZ3F-Fk29HkHzqz0pFF8Xvp9kVmiqigcrURZ_lhugFl6zL7uU5iXXi
 
-!function AwsUsers($id, $name="Users", $tech="")
+!procedure AwsUsers($id, $name="Users", $tech="")
   CloudElement($id, 'aws/General/AwsUsers', $name, $tech)
-!endfunction
-!function AwsUsersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsUsersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsUsersMd>', 'Users', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

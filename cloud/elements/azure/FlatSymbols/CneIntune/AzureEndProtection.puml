@@ -6,10 +6,10 @@ NOy50WCm20E3j9Ja_--TCDzLSS2BCFnYnOqN_jJegND4LyPgySPPaTKP5AdHK7FI-KPScs9uwwtQm17T
 
 sprite $AzureEndProtectionMd [13x14/16z] HOw50G0n20EXUBB_lEzo5LpaH5tbHGjrMT4H3U8G5K6GE2qm7HSiBOQ1vsbT0zCP7nwoEIhLQXEIP8aOKfOu23kQ5mzhhe0S2hB9MN9YGt1CRgpHh_ulkWC
 
-!function AzureEndProtection($id, $name="End Protection", $tech="")
+!procedure AzureEndProtection($id, $name="End Protection", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureEndProtection', $name, $tech)
-!endfunction
-!function AzureEndProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEndProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEndProtectionMd>', 'End Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

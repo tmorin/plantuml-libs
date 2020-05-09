@@ -6,10 +6,10 @@ oht5RVB44GaXa4z6g63ZQfNh0gX2mr3UgHmUDpL88A2MEN6XRgvm3wcVHkV5LPmls1Ztoy79zCiH7zvI
 
 sprite $AzureLicenseGroupMd [14x14/16z] FOi10W0G3087rUR__mLmmAeAFicCeKUU4tFv91BVZJedNg0zEHRKcM9dctYcTYRLMjVa0fTd1e6aH6XDgqLtAkPaQPA9UTi55Ta-9PVb3
 
-!function AzureLicenseGroup($id, $name="License Group", $tech="")
+!procedure AzureLicenseGroup($id, $name="License Group", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureLicenseGroup', $name, $tech)
-!endfunction
-!function AzureLicenseGroupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLicenseGroupCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLicenseGroupMd>', 'License Group', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

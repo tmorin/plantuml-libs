@@ -3,10 +3,10 @@ sprite $MaterialsSignalCellularOffLg [20x20/16z] ZSo35SHG503HRwF_QXUPs7Dy7yIBb3v
 
 sprite $MaterialsSignalCellularOffMd [14x14/16z] TSj50W0X20LG2pRM_MyxzFGtdqBw2nJQicEm01HhiXA2OBEKTMuNCUD5cydIdaLa2RQmE8ICCIr0AX5iwPgS3W
 
-!function MaterialsSignalCellularOff($id, $name="Signal Cellular Off", $tech="")
+!procedure MaterialsSignalCellularOff($id, $name="Signal Cellular Off", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalCellularOff', $name, $tech)
-!endfunction
-!function MaterialsSignalCellularOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSignalCellularOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSignalCellularOffMd>', 'Signal Cellular Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

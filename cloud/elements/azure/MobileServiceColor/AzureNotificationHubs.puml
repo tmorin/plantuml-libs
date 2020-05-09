@@ -3,10 +3,10 @@ sprite $AzureNotificationHubsLg [20x20/16z] RSZB0SHG2090HB3_ajUNV-BESK8FTfNrAdMr
 
 sprite $AzureNotificationHubsMd [14x14/16z] LSt50G1G209G0zX_uz_vJhQ9XH8J9-lfJGAI7sP9Vzt18VzcchsZwU2sFm-CdDdeX7KEfLtZsELpg08
 
-!function AzureNotificationHubs($id, $name="Notification Hubs", $tech="")
+!procedure AzureNotificationHubs($id, $name="Notification Hubs", $tech="")
   CloudElement($id, 'azure/MobileServiceColor/AzureNotificationHubs', $name, $tech)
-!endfunction
-!function AzureNotificationHubsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNotificationHubsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNotificationHubsMd>', 'Notification Hubs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsDynamodbTableLg [20x20/16z] TP150WGX30G7EfNy_yVhY_NK0UBM0JqV1fqCwlaC4
 
 sprite $AwsDynamodbTableMd [14x14/16z] LSx70S0m24FH0FhQV-FqfdUowGBn43rMNHf6fY-3xC4t8M0kWcfhkHJ2CZVbBojpIcx8xNbPNhq1
 
-!function AwsDynamodbTable($id, $name="Dynamodb Table", $tech="")
+!procedure AwsDynamodbTable($id, $name="Dynamodb Table", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbTable', $name, $tech)
-!endfunction
-!function AwsDynamodbTableCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbTableCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbTableMd>', 'Dynamodb Table', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

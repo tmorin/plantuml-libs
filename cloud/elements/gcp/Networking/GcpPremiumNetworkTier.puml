@@ -6,10 +6,10 @@ LIIzWPdB5PivNyY_sjuzKAzUQaTFg-hewQlt2m
 
 sprite $GcpPremiumNetworkTierMd [14x14/16z] JKu50W0X2AFP_rzyEtlcGa54r0UKLvBgWHeqi10arW2DVpUH1CeZee0KRvAYaeqcGHG5BqfD9IWO8yiySCbBQbPOiBTwdiv8UZLwk_u
 
-!function GcpPremiumNetworkTier($id, $name="Premium Network Tier", $tech="")
+!procedure GcpPremiumNetworkTier($id, $name="Premium Network Tier", $tech="")
   CloudElement($id, 'gcp/Networking/GcpPremiumNetworkTier', $name, $tech)
-!endfunction
-!function GcpPremiumNetworkTierCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpPremiumNetworkTierCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpPremiumNetworkTierMd>', 'Premium Network Tier', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

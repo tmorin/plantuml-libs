@@ -6,10 +6,10 @@ u_Zq_pC
 
 sprite $AwsElasticContainerServiceServiceMd [14x14/16z] XSu53e1044FHjfJx7naP3J5-zAqEw2F3cmgdKcw6cbQUj4LIgoX5ukcxztlIthtWACWuca8DO-86
 
-!function AwsElasticContainerServiceService($id, $name="Elastic Container Service Service", $tech="")
+!procedure AwsElasticContainerServiceService($id, $name="Elastic Container Service Service", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticContainerServiceService', $name, $tech)
-!endfunction
-!function AwsElasticContainerServiceServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticContainerServiceServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticContainerServiceServiceMd>', 'Elastic Container Service Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

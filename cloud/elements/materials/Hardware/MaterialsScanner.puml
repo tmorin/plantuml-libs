@@ -6,10 +6,10 @@ CvM-zm
 
 sprite $MaterialsScannerMd [14x14/16z] VSx50S0W30NGnd3u-qzRTtidY7U_YCu_2yQdBri8UWcuu8NcFfwehv76Jq83q1egZqLHayb8u_ABoYCPVrCbsWHf6iEoulyh1m
 
-!function MaterialsScanner($id, $name="Scanner", $tech="")
+!procedure MaterialsScanner($id, $name="Scanner", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsScanner', $name, $tech)
-!endfunction
-!function MaterialsScannerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsScannerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsScannerMd>', 'Scanner', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

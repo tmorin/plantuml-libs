@@ -6,10 +6,10 @@ t1pwhmK
 
 sprite $MaterialsChatMd [14x14/16z] TSp50S0030B0ADIx_xHrb_j5GEwS1nTXV-0yCHPS9zW2wvJhbDlD9yTdwgJOMqfEwdqwO9hQZ8rEKyY5oQyH
 
-!function MaterialsChat($id, $name="Chat", $tech="")
+!procedure MaterialsChat($id, $name="Chat", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsChat', $name, $tech)
-!endfunction
-!function MaterialsChatCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsChatCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsChatMd>', 'Chat', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

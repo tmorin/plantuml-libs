@@ -6,10 +6,10 @@ bO-35GH04CNM6gJ_Qi_svJd37_wbb2SLvuoFha9zK4b0qhth0FrEPSCTopSg3hGKPSIhAw0nAfHhspgx
 
 sprite $MaterialsReportProblemMd [14x14/16z] ROp50KCX40Lns4Mc_sgJxpwtf-O3QwygfOlmlVjJ5IY728WGDc4Lxz7jA38huY9SOsxItAmo42EGbtSW9Q1xOqi_ADQu2-RE7m
 
-!function MaterialsReportProblem($id, $name="Report Problem", $tech="")
+!procedure MaterialsReportProblem($id, $name="Report Problem", $tech="")
   CloudElement($id, 'materials/Action/MaterialsReportProblem', $name, $tech)
-!endfunction
-!function MaterialsReportProblemCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsReportProblemCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsReportProblemMd>', 'Report Problem', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ t6atshR5Qjhej9dow7nQMgDOZV3p_W
 
 sprite $MaterialsAirlineSeatFlatAngledMd [14x14/16z] XSr70WH11010jCos_xzsSphDr4a6Xv3mB_Dnm4y1UvgqTBqAca8rirFmdkY2rVDW0AHkmkANcSJ7fkmqPWs71zhtjL2cLvPtp8RlBtTmvWO
 
-!function MaterialsAirlineSeatFlatAngled($id, $name="Airline Seat Flat Angled", $tech="")
+!procedure MaterialsAirlineSeatFlatAngled($id, $name="Airline Seat Flat Angled", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatFlatAngled', $name, $tech)
-!endfunction
-!function MaterialsAirlineSeatFlatAngledCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirlineSeatFlatAngledCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirlineSeatFlatAngledMd>', 'Airline Seat Flat Angled', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

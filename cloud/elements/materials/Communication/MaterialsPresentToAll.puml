@@ -3,10 +3,10 @@ sprite $MaterialsPresentToAllLg [20x20/16z] ZT2r0SKW541HReBh_jD-wN0u7V9Kt49s4DWK
 
 sprite $MaterialsPresentToAllMd [14x14/16z] LSu53W1134BHbd6__sdNTnf-zCL0ECLE1INl2doINV8-ckAd6DKKrWecz0wJjgOc0UGHB_0wF-DE
 
-!function MaterialsPresentToAll($id, $name="Present To All", $tech="")
+!procedure MaterialsPresentToAll($id, $name="Present To All", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsPresentToAll', $name, $tech)
-!endfunction
-!function MaterialsPresentToAllCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPresentToAllCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPresentToAllMd>', 'Present To All', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

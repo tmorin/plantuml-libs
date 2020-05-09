@@ -6,10 +6,10 @@ QXBWt2ha8zyqUI1M
 
 sprite $AzureAppServiceMobileMd [10x14/16z] DKo30S1038oz_xpjMpbcLRX7JwMxctb4XPcf_a_-ao2A_jC_083yap8JoPw8M5XqJRYcxVkvap1zBNVbl-e_LVsVLksPoUh9_8Vw
 
-!function AzureAppServiceMobile($id, $name="App Service Mobile", $tech="")
+!procedure AzureAppServiceMobile($id, $name="App Service Mobile", $tech="")
   CloudElement($id, 'azure/MobileServiceColor/AzureAppServiceMobile', $name, $tech)
-!endfunction
-!function AzureAppServiceMobileCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAppServiceMobileCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAppServiceMobileMd>', 'App Service Mobile', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

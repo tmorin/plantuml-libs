@@ -9,10 +9,10 @@ TP250S0m20GZEB__kdMNQsCub9NAdaZhvKfp87EIyrKOS6grYr-D3LRNG1TXpsZJtXSPpUQDY1HQYYQS
 Ti5p5y6V7SifUqzd1
 }
 
-!function AzureConnectors($id, $name="Connectors", $tech="")
+!procedure AzureConnectors($id, $name="Connectors", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureConnectors', $name, $tech)
-!endfunction
-!function AzureConnectorsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureConnectorsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureConnectorsMd>', 'Connectors', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

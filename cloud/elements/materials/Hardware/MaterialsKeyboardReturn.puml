@@ -3,10 +3,10 @@ sprite $MaterialsKeyboardReturnLg [20x20/16z] Ow0NO6HbWZDX33PUPfWG5vJ5niC2LyRD0b
 
 sprite $MaterialsKeyboardReturnMd [14x14/16z] Oo09C29pc3aWN3OGnSp9317bO69WOEBcP8K0BXGU2qmbfYa86qW7
 
-!function MaterialsKeyboardReturn($id, $name="Keyboard Return", $tech="")
+!procedure MaterialsKeyboardReturn($id, $name="Keyboard Return", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsKeyboardReturn', $name, $tech)
-!endfunction
-!function MaterialsKeyboardReturnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKeyboardReturnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKeyboardReturnMd>', 'Keyboard Return', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

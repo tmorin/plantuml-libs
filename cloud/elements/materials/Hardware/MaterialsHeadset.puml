@@ -6,10 +6,10 @@ UJ0DMHJxZmbtUiyN
 
 sprite $MaterialsHeadsetMd [14x14/16z] VOtL0O0m34GZTTr_MuXzmgl6xa0WPW87Iwkr5RIWPNplt3GiHMv_iQCFI94QE8qaYff6QtIKWR4asdT_FJWY6Y90sTmpmIyF
 
-!function MaterialsHeadset($id, $name="Headset", $tech="")
+!procedure MaterialsHeadset($id, $name="Headset", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsHeadset', $name, $tech)
-!endfunction
-!function MaterialsHeadsetCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHeadsetCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHeadsetMd>', 'Headset', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

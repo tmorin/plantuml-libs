@@ -6,10 +6,10 @@ Wsvu5SrBCT1CDrXpalcqOetckpTcjT6Fuc8qv_3H1
 
 sprite $MaterialsNaturePeopleMd [14x14/16z] ROpL0GDH20HduIadz5zjt7Fpjye1ybRz9KPcRlMXMbxP7J2qv8qE2jTwLmDmAUwgGOskSXEhGSyGzR8Cl_qDWSqg0DiBG3TkQcjcvhFUfFg39duu0m
 
-!function MaterialsNaturePeople($id, $name="Nature People", $tech="")
+!procedure MaterialsNaturePeople($id, $name="Nature People", $tech="")
   CloudElement($id, 'materials/Image/MaterialsNaturePeople', $name, $tech)
-!endfunction
-!function MaterialsNaturePeopleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNaturePeopleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNaturePeopleMd>', 'Nature People', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

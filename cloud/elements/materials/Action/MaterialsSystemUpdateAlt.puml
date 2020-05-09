@@ -3,10 +3,10 @@ sprite $MaterialsSystemUpdateAltLg [20x20/16z] jSZ50KGX54FH17VwxtO2gt7_5tq7RsTM1
 
 sprite $MaterialsSystemUpdateAltMd [14x14/16z] XSp50S0W30NG-A_ilsznoAaF9q8P5-kKgs0phgSOwfyxbGDcGKLv5V7_ylVr_UBIThtAarVc4gOFbaT9T17AFW
 
-!function MaterialsSystemUpdateAlt($id, $name="System Update Alt", $tech="")
+!procedure MaterialsSystemUpdateAlt($id, $name="System Update Alt", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSystemUpdateAlt', $name, $tech)
-!endfunction
-!function MaterialsSystemUpdateAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSystemUpdateAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSystemUpdateAltMd>', 'System Update Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

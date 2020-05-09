@@ -6,10 +6,10 @@ F5tv1f9c_90cyx-epp4
 
 sprite $MaterialsLoopMd [14x14/16z] POnL0W1124APKDcu_tKtf-MFUl0ACZexDNMdXnX3sG4P47ucQPb_Ooa84U-I_QvWAH-cCcbo_AY2FGs39C3h1W
 
-!function MaterialsLoop($id, $name="Loop", $tech="")
+!procedure MaterialsLoop($id, $name="Loop", $tech="")
   CloudElement($id, 'materials/Av/MaterialsLoop', $name, $tech)
-!endfunction
-!function MaterialsLoopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLoopCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLoopMd>', 'Loop', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

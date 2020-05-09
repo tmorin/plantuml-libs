@@ -6,10 +6,10 @@ hOrPaWD02491mViVUNfnhCvtydh5Ki0l83zrh2Frft7UMlhfAo82hFy-xc9waT4IDbU7ChMwwS96WjKV
 
 sprite $AwsEventbridgeDefaultEventBusResourceIconMd [14x14/16z] XOt70S0W30CbdTb_P3hVvC2zwHTRZqGmzItKSiktuZRnhheC4lXKtPPkoq_bHTELBIA5UyQGWEyzDj4t0m
 
-!function AwsEventbridgeDefaultEventBusResourceIcon($id, $name="Eventbridge Default Event Bus Resource Icon", $tech="")
+!procedure AwsEventbridgeDefaultEventBusResourceIcon($id, $name="Eventbridge Default Event Bus Resource Icon", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsEventbridgeDefaultEventBusResourceIcon', $name, $tech)
-!endfunction
-!function AwsEventbridgeDefaultEventBusResourceIconCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEventbridgeDefaultEventBusResourceIconCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEventbridgeDefaultEventBusResourceIconMd>', 'Eventbridge Default Event Bus Resource Icon', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

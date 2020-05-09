@@ -6,10 +6,10 @@ NLaljy9czGS
 
 sprite $AwsDirectConnectMd [14x14/16z] XOor0GLH40A_t38B_VTxRjcR3Cs0Xdu9-z5ow3ubXAcSGogkQLB2aRKa3CVBhkuR2vGB2igNQjlj35W
 
-!function AwsDirectConnect($id, $name="Direct Connect", $tech="")
+!procedure AwsDirectConnect($id, $name="Direct Connect", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsDirectConnect', $name, $tech)
-!endfunction
-!function AwsDirectConnectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDirectConnectCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDirectConnectMd>', 'Direct Connect', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ VbFE3m
 
 sprite $MaterialsPieChartMd [14x14/16z] PKw50O0m38FvglzVYrkOroBJi48EsxcIB1wZIpuJzprptzCWToPXRvtPsQn7DiTj1Snm4bb00TNHsN-j
 
-!function MaterialsPieChart($id, $name="Pie Chart", $tech="")
+!procedure MaterialsPieChart($id, $name="Pie Chart", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsPieChart', $name, $tech)
-!endfunction
-!function MaterialsPieChartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPieChartCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPieChartMd>', 'Pie Chart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ alNkxvaFXVbkynlKhQwmxqsZRZgx_GO
 
 sprite $GcpBigqueryMd [14x14/16z] LSw70GGW20F022Im_yGV-Mu_6m0ukUK05-ejMjQyIXdHRtK0zAmgUIAoBwGq-sAC5iTSiSZLtamoPUNp5r8EnDy84x_H-StCNnpZB-i7
 
-!function GcpBigquery($id, $name="Bigquery", $tech="")
+!procedure GcpBigquery($id, $name="Bigquery", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpBigquery', $name, $tech)
-!endfunction
-!function GcpBigqueryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpBigqueryCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpBigqueryMd>', 'Bigquery', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

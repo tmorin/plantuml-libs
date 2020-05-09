@@ -6,10 +6,10 @@ JHhnRghMMdOAGWq9
 
 sprite $AzureDevicesGroupsMd [14x14/16z] TOvN0i0W24FRga22zx-kUtprVJ6JW0qeFETi3woXQkWya84sx7Rz11zM0nCbToSf9G56yzCjUMcDe5Tqv-pUplUcsJsJAAsvtR3dwW9xRAy
 
-!function AzureDevicesGroups($id, $name="Devices Groups", $tech="")
+!procedure AzureDevicesGroups($id, $name="Devices Groups", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureDevicesGroups', $name, $tech)
-!endfunction
-!function AzureDevicesGroupsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDevicesGroupsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDevicesGroupsMd>', 'Devices Groups', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

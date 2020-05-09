@@ -6,10 +6,10 @@ nmSjctryoE13Lfyp_PJz7W
 
 sprite $AwsEc2R5aInstanceMd [14x14/16z] NOw50G0X30DpJTb_v1SS3gcBf222x-W35-V79v1iEhQYe0ubyB9C9F_ltyeWyTy3_sgrJDQlPj86abUNSy8v_TpitFe5
 
-!function AwsEc2R5aInstance($id, $name="Ec2 R5a Instance", $tech="")
+!procedure AwsEc2R5aInstance($id, $name="Ec2 R5a Instance", $tech="")
   CloudElement($id, 'aws/Compute/Instance/AwsEc2R5aInstance', $name, $tech)
-!endfunction
-!function AwsEc2R5aInstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2R5aInstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2R5aInstanceMd>', 'Ec2 R5a Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

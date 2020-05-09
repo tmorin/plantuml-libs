@@ -3,10 +3,10 @@ sprite $MaterialsPictureInPictureAltLg [20x20/16z] hT2r0S0m34HHcK6q_xJ19en-vU_ku
 
 sprite $MaterialsPictureInPictureAltMd [14x14/16z] RSwr0O004C30TyFsdnPtk2vTu0dfX40PleiaSJYvY5rblqMgAcVfC0o5_yKHuKlvKhW05yeu9JtFdYO
 
-!function MaterialsPictureInPictureAlt($id, $name="Picture In Picture Alt", $tech="")
+!procedure MaterialsPictureInPictureAlt($id, $name="Picture In Picture Alt", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPictureInPictureAlt', $name, $tech)
-!endfunction
-!function MaterialsPictureInPictureAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPictureInPictureAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPictureInPictureAltMd>', 'Picture In Picture Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

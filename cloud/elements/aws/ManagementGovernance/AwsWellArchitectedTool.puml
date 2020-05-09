@@ -6,10 +6,10 @@ U2pRWE9kdPw8RN8QNMK_h55LkYwxEd3wmUa7Pm
 
 sprite $AwsWellArchitectedToolMd [14x14/16z] LSUt0S9G30N0Gj9Bx3yluEn_tNcdam_F1D3tfhlb_GbBAf37r41rz-mBgwR8elTrF_E0_JUs4xNSaBGly-U_OoQLUxkZdwK_
 
-!function AwsWellArchitectedTool($id, $name="Well Architected Tool", $tech="")
+!procedure AwsWellArchitectedTool($id, $name="Well Architected Tool", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsWellArchitectedTool', $name, $tech)
-!endfunction
-!function AwsWellArchitectedToolCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWellArchitectedToolCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWellArchitectedToolMd>', 'Well Architected Tool', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ JSw5OGGn30H0eK7h_kkD8Cd_tfd6YE-yO2AuY6YLZ8UaA6N4k9j_CRmhtyBhnFP_oQ8uVeDJ3ly9pejS
 5g-2UJ6FoAccddMZJuYZ6qxq0m
 }
 
-!function AzureSecureVirtualMachine($id, $name="Secure Virtual Machine", $tech="")
+!procedure AzureSecureVirtualMachine($id, $name="Secure Virtual Machine", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureSecureVirtualMachine', $name, $tech)
-!endfunction
-!function AzureSecureVirtualMachineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSecureVirtualMachineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSecureVirtualMachineMd>', 'Secure Virtual Machine', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

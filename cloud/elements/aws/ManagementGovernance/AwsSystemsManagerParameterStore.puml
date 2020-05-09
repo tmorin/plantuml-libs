@@ -6,10 +6,10 @@ b9d3pYBqHrYcix7WRT21SqOBOonxIhtQtaOVuHS
 
 sprite $AwsSystemsManagerParameterStoreMd [14x14/16z] FSp50S1G20DGOkm_SkctTqEIAiTsM8k4GQ-1RVrwZSoXzMXmyPfOMILlags_xTmoanMy2PdhcYGxepMJ1eqM9Q-1hYO5Re4WrU4uuGS
 
-!function AwsSystemsManagerParameterStore($id, $name="Systems Manager Parameter Store", $tech="")
+!procedure AwsSystemsManagerParameterStore($id, $name="Systems Manager Parameter Store", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
-!endfunction
-!function AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSystemsManagerParameterStoreMd>', 'Systems Manager Parameter Store', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

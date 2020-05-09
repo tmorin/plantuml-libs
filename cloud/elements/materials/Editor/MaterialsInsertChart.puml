@@ -3,10 +3,10 @@ sprite $MaterialsInsertChartLg [20x20/16z] ZT150iGm243Hk0FtF-rClOtdBzy6OUi9zKcSb
 
 sprite $MaterialsInsertChartMd [14x14/16z] NOw50S0m20HB38VzfwtxHV6VVa0vWSrWF-7LB9wPPklbvRHQkoqdhVMs1CRVuc4lQu0SbXPi3OkUFTNDNFUwp_IliYyB
 
-!function MaterialsInsertChart($id, $name="Insert Chart", $tech="")
+!procedure MaterialsInsertChart($id, $name="Insert Chart", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsInsertChart', $name, $tech)
-!endfunction
-!function MaterialsInsertChartCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInsertChartCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInsertChartMd>', 'Insert Chart', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

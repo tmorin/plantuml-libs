@@ -6,10 +6,10 @@ TSq50WCX44FH2faam_tlMxp-rzyYFkdqruuUenrwnRGXWtx1p1IiWykI405gQoDPG0HwmMa4nK6b5Aov
 
 sprite $AwsKinesisVideoStreamsMd [14x14/16z] LObN0aGn209_LC3S_xvhsTSciOneuQAFIX1uQTOEN6cc0X4Wru0oBs8op6vsMQtc5b8c2KGzZWbjxXZ39sE_A22TN3ISqUlm0m
 
-!function AwsKinesisVideoStreams($id, $name="Kinesis Video Streams", $tech="")
+!procedure AwsKinesisVideoStreams($id, $name="Kinesis Video Streams", $tech="")
   CloudElement($id, 'aws/Analytics/AwsKinesisVideoStreams', $name, $tech)
-!endfunction
-!function AwsKinesisVideoStreamsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsKinesisVideoStreamsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsKinesisVideoStreamsMd>', 'Kinesis Video Streams', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

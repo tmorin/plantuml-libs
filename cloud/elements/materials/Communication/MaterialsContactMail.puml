@@ -6,10 +6,10 @@ nkIP1eF9hZwj67AO8hhwwGy-_HLTj0C
 
 sprite $MaterialsContactMailMd [14x14/16z] LSwrWGLG449HcESZI__LxdSxsOq0FsXVUEhBaRJxh1gzzr5I45Xf1hEG3e2HP2ElLPtcQI0i9ULnoSyv_YSVHhQjksgFsVEeqUyUzRE-Vv_XnmK
 
-!function MaterialsContactMail($id, $name="Contact Mail", $tech="")
+!procedure MaterialsContactMail($id, $name="Contact Mail", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsContactMail', $name, $tech)
-!endfunction
-!function MaterialsContactMailCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsContactMailCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsContactMailMd>', 'Contact Mail', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ VL230G0n3BoWRhxxJ_ksheY97n0pNHMQgbbDUgWvML0H3PPuK-Ka2oSfBqfAQGiP-JZpQWACtFo9wSJ5
 
 sprite $MaterialsSentimentVerySatisfiedMd [14x14/16z] PKw53GD024HpJ_BxprkiZZj7VoGEk6pYuQff9W6NOrGgmPHfcf1iUNMhuzc44ZELAZfRogpwTe1Z5TKLnhrW3jaFpFNXx_iRsHyz
 
-!function MaterialsSentimentVerySatisfied($id, $name="Sentiment Very Satisfied", $tech="")
+!procedure MaterialsSentimentVerySatisfied($id, $name="Sentiment Very Satisfied", $tech="")
   CloudElement($id, 'materials/Social/MaterialsSentimentVerySatisfied', $name, $tech)
-!endfunction
-!function MaterialsSentimentVerySatisfiedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSentimentVerySatisfiedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSentimentVerySatisfiedMd>', 'Sentiment Very Satisfied', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

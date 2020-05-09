@@ -6,10 +6,10 @@ N91TsCrJAlgQJ7BUnHS
 
 sprite $AwsThinkboxKrakatoaMd [14x14/16z] RSx50O0m30NGGxwm_yH4SEfzjMHR5Fkv1YvRLBOn8zUGWgLS4s2Ujsn5v3ZAWuWyRl6yoLAYpf8J896Khu2vNcTsbnq
 
-!function AwsThinkboxKrakatoa($id, $name="Thinkbox Krakatoa", $tech="")
+!procedure AwsThinkboxKrakatoa($id, $name="Thinkbox Krakatoa", $tech="")
   CloudElement($id, 'aws/Compute/AwsThinkboxKrakatoa', $name, $tech)
-!endfunction
-!function AwsThinkboxKrakatoaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsThinkboxKrakatoaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsThinkboxKrakatoaMd>', 'Thinkbox Krakatoa', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

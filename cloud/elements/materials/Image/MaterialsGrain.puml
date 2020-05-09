@@ -6,10 +6,10 @@ vLiPRqo-O_zl3m
 
 sprite $MaterialsGrainMd [14x14/16z] XKr74eGm39DSPjBp_zVk0e9pVB8wJXSEC2bWim2vKu3Xf4cB7K0P9fzN1xBmAs59aGgEyWRkQYCz-0HLNQQ0PZrmkZy
 
-!function MaterialsGrain($id, $name="Grain", $tech="")
+!procedure MaterialsGrain($id, $name="Grain", $tech="")
   CloudElement($id, 'materials/Image/MaterialsGrain', $name, $tech)
-!endfunction
-!function MaterialsGrainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGrainCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGrainMd>', 'Grain', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

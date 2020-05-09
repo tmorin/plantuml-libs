@@ -3,10 +3,10 @@ sprite $AzureEventGridTopicsLg [20x20/16z] dT230GD14030jVhlDtdRSpO0gBQE-z1MiktRi
 
 sprite $AzureEventGridTopicsMd [14x14/16z] NOu30W0X44N7-FU_xnhL2sCGDtw8iruQTC5yVWLHDJCFESnJZyoijZ59Y2zB_2BA5clDdBkC4rZ6nhbiDc-z0m
 
-!function AzureEventGridTopics($id, $name="Event Grid Topics", $tech="")
+!procedure AzureEventGridTopics($id, $name="Event Grid Topics", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureEventGridTopics', $name, $tech)
-!endfunction
-!function AzureEventGridTopicsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEventGridTopicsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEventGridTopicsMd>', 'Event Grid Topics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ o6mc1y7MdTesl04
 
 sprite $MaterialsThumbsUpDownMd [14x14/16z] LSt50G0n30D1wJ3i_giDumJtPU1-iDpksyBAIuvo8ixOlvTKwgW7O5734A_Bj2xt2nefM02FL6ZKKRyrPHOwyXLxO_hS5dXo9
 
-!function MaterialsThumbsUpDown($id, $name="Thumbs Up Down", $tech="")
+!procedure MaterialsThumbsUpDown($id, $name="Thumbs Up Down", $tech="")
   CloudElement($id, 'materials/Action/MaterialsThumbsUpDown', $name, $tech)
-!endfunction
-!function MaterialsThumbsUpDownCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsThumbsUpDownCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsThumbsUpDownMd>', 'Thumbs Up Down', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

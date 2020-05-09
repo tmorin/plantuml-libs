@@ -9,10 +9,10 @@ JSg55S0m30DH6Mjf_ttBzCFtGlsC0T2Ih-PP4g_yYdKVTw-tb3JBuon1LboIPu4xRaPrVAhDE3n8FAcT
 nGq
 }
 
-!function AzureIntuneAppProtection($id, $name="Intune App Protection", $tech="")
+!procedure AzureIntuneAppProtection($id, $name="Intune App Protection", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureIntuneAppProtection', $name, $tech)
-!endfunction
-!function AzureIntuneAppProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIntuneAppProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIntuneAppProtectionMd>', 'Intune App Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AzureAllResourcesLg [20x20/16z] Om41PaPc98g5scBCOC28Ie410mE2P8JACA1Gj70B
 
 sprite $AzureAllResourcesMd [14x14/16z] Om42HcOM5cP648ju7YCGCC09PY104FZqeQf4DOLSjm
 
-!function AzureAllResources($id, $name="All Resources", $tech="")
+!procedure AzureAllResources($id, $name="All Resources", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureAllResources', $name, $tech)
-!endfunction
-!function AzureAllResourcesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAllResourcesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAllResourcesMd>', 'All Resources', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

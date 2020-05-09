@@ -3,10 +3,10 @@ sprite $MaterialsFolderSharedLg [20x20/16z] fT2r0S0W54NHBxZkFsrS7hJSAAT1Q2crHqwH
 
 sprite $MaterialsFolderSharedMd [14x14/16z] VSV70SGW30H09J98_LTxvxJsZ_aDxKXAEJ5Mub3jnDSWOqsJHy4IyVZMBSUxgY9fOSRCqh4v3d5CqY6Vaj3E7m
 
-!function MaterialsFolderShared($id, $name="Folder Shared", $tech="")
+!procedure MaterialsFolderShared($id, $name="Folder Shared", $tech="")
   CloudElement($id, 'materials/File/MaterialsFolderShared', $name, $tech)
-!endfunction
-!function MaterialsFolderSharedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFolderSharedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFolderSharedMd>', 'Folder Shared', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

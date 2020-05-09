@@ -3,10 +3,10 @@ sprite $AwsTimestreamLg [20x20/16z] fP054e0m40F7cask__ylxZ16eBPpNdyL9kMC8Aa4JbQj
 
 sprite $AwsTimestreamMd [14x14/16z] XOt50S0m4CD-9xdxxrjcYe97TlTF7CaMC5zhA8xK6YNZZdjj382b6gDx96EcQejcmDLkpjtSMmm
 
-!function AwsTimestream($id, $name="Timestream", $tech="")
+!procedure AwsTimestream($id, $name="Timestream", $tech="")
   CloudElement($id, 'aws/Database/AwsTimestream', $name, $tech)
-!endfunction
-!function AwsTimestreamCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsTimestreamCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsTimestreamMd>', 'Timestream', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

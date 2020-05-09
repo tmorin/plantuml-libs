@@ -3,10 +3,10 @@ sprite $AwsVmwareCloudLg [20x20/16z] jS-73GGm3CD0u4E9td_Xxoq3X33QeLbp9jMwINZsZu7
 
 sprite $AwsVmwareCloudMd [14x14/16z] bOp70G0X0CAk473_XUqEO7xKSaN0v0Xry5Rm_sPBOx0yPOWxUpgKv0Yo7iSBvpK9JhcY0G
 
-!function AwsVmwareCloud($id, $name="Vmware Cloud", $tech="")
+!procedure AwsVmwareCloud($id, $name="Vmware Cloud", $tech="")
   CloudElement($id, 'aws/Compute/AwsVmwareCloud', $name, $tech)
-!endfunction
-!function AwsVmwareCloudCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVmwareCloudCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVmwareCloudMd>', 'Vmware Cloud', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

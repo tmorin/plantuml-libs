@@ -3,10 +3,10 @@ sprite $AzureFxtedgefilerLg [20x20/16z] XS-r0S0m3031YFUVE6QcAzyeZl3hSGARnbI4HZY2
 
 sprite $AzureFxtedgefilerMd [14x14/16z] NSe50W0m2090fiB_VxpkMwf4PLYYSUk0-LkLfQDMvejPc5DRhNHN5fUQNFuaOC6Xla3Y0PYEjoe
 
-!function AzureFxtedgefiler($id, $name="Fxtedgefiler", $tech="")
+!procedure AzureFxtedgefiler($id, $name="Fxtedgefiler", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureFxtedgefiler', $name, $tech)
-!endfunction
-!function AzureFxtedgefilerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureFxtedgefilerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureFxtedgefilerMd>', 'Fxtedgefiler', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

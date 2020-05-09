@@ -6,10 +6,10 @@ XvKW9osr2AJ3E0C
 
 sprite $MaterialsStrikethroughSMd [14x14/16z] bSp50S1G309GuBlilsxTlUyI3ovGQwvOIZ9p5RCKC-Sg0fncfB66lRw8lLHBYaHVMu6XQbhDdd1r_c9BIjLZHcE5Vre
 
-!function MaterialsStrikethroughS($id, $name="Strikethrough S", $tech="")
+!procedure MaterialsStrikethroughS($id, $name="Strikethrough S", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsStrikethroughS', $name, $tech)
-!endfunction
-!function MaterialsStrikethroughSCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStrikethroughSCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStrikethroughSMd>', 'Strikethrough S', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

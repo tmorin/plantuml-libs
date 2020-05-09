@@ -6,10 +6,10 @@ lVTwlym71iE_Mbpshz0BvWVoAdu-lh0J
 
 sprite $AzureBatchAiMd [10x14/16z] 9OhB0G1G3C6KqlqdVjyRIL1oUxe0-QweMZpBz0MNEPCpIC-ChSZJ4xukQe9zLmIWMuhFG9bAdN6XymOeyI_P-glYcsq
 
-!function AzureBatchAi($id, $name="Batch Ai", $tech="")
+!procedure AzureBatchAi($id, $name="Batch Ai", $tech="")
   CloudElement($id, 'azure/AiAndMlServiceColor/AzureBatchAi', $name, $tech)
-!endfunction
-!function AzureBatchAiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBatchAiCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBatchAiMd>', 'Batch Ai', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

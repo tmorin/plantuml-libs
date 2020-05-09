@@ -6,10 +6,10 @@ hApNGbla-OUNRFQn4lhJwZwr8tKng7z5yIip
 
 sprite $MaterialsMovieFilterMd [14x14/16z] VSV50GCm30D0nHpK_jEM-urHXrk9DnZQQzo0PC2zXRNCjtRrLNtK-8XSXwc3FtbEWN-reacMhQ-60huMl-BM8FaNn_fBt3t2toMurHC
 
-!function MaterialsMovieFilter($id, $name="Movie Filter", $tech="")
+!procedure MaterialsMovieFilter($id, $name="Movie Filter", $tech="")
   CloudElement($id, 'materials/Image/MaterialsMovieFilter', $name, $tech)
-!endfunction
-!function MaterialsMovieFilterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMovieFilterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMovieFilterMd>', 'Movie Filter', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

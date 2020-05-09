@@ -6,10 +6,10 @@ ksclMzAHc74UUNXiX0YtUHhPJP9HHaEQWdyT
 
 sprite $MaterialsPictureAsPdfMd [14x14/16z] NSi50e0m20LGu8Ejk_zjPHrlIT6Ajpq3EGt5JYIip_NUlc-FTb5b1HkmfGWCWUyIuH21QExSZc3OxSfHA5A46gKvWcRiaKd6vB0NeDKF
 
-!function MaterialsPictureAsPdf($id, $name="Picture As Pdf", $tech="")
+!procedure MaterialsPictureAsPdf($id, $name="Picture As Pdf", $tech="")
   CloudElement($id, 'materials/Image/MaterialsPictureAsPdf', $name, $tech)
-!endfunction
-!function MaterialsPictureAsPdfCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPictureAsPdfCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPictureAsPdfMd>', 'Picture As Pdf', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

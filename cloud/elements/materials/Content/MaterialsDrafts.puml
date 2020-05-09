@@ -6,10 +6,10 @@ rl9anjDDlBcK4G
 
 sprite $MaterialsDraftsMd [14x14/16z] XOgr0GD024LnYBB_jEVI9Q_v2WD4k4Y4m89T4TLvdCm86cJMxcRhCfo_5CT7NzvIPZ00H-PC-J5xvqgBludqGF2B2W
 
-!function MaterialsDrafts($id, $name="Drafts", $tech="")
+!procedure MaterialsDrafts($id, $name="Drafts", $tech="")
   CloudElement($id, 'materials/Content/MaterialsDrafts', $name, $tech)
-!endfunction
-!function MaterialsDraftsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDraftsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDraftsMd>', 'Drafts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

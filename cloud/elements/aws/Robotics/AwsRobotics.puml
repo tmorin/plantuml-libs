@@ -6,10 +6,10 @@ PguEkwAH1lQkOpLEZpRxw0S
 
 sprite $AwsRoboticsMd [14x14/16z] LSw54G8m343H06bq_ts9NUMVzTNXxKThmYy0QIKHXYp6p5j1Mhnb8T6z5WiSR36p48ccN54Yv9OXRx5xlwSZjwo4-sShVWQV7S0V
 
-!function AwsRobotics($id, $name="Robotics", $tech="")
+!procedure AwsRobotics($id, $name="Robotics", $tech="")
   CloudElement($id, 'aws/Robotics/AwsRobotics', $name, $tech)
-!endfunction
-!function AwsRoboticsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRoboticsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRoboticsMd>', 'Robotics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

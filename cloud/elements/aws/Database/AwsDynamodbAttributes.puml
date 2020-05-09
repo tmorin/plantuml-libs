@@ -6,10 +6,10 @@ acqptMP_1W
 
 sprite $AwsDynamodbAttributesMd [14x14/16z] LOu50iH020CNak7-_-EhjvaLNEGTNGBvvvxf3K7PB5WR1QrnRwAg6W_RyIROnFwnOtlxI_Yj2oipiqjEoEcvMMxz1m
 
-!function AwsDynamodbAttributes($id, $name="Dynamodb Attributes", $tech="")
+!procedure AwsDynamodbAttributes($id, $name="Dynamodb Attributes", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbAttributes', $name, $tech)
-!endfunction
-!function AwsDynamodbAttributesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbAttributesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbAttributesMd>', 'Dynamodb Attributes', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

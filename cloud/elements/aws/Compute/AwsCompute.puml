@@ -6,10 +6,10 @@ ktrq
 
 sprite $AwsComputeMd [14x14/16z] NSg53G0m4CF053xf_WkNsSAJZ3SVUw7cWIY9FGjTj1RPr55VsshkibGbVRAjwYrPZ-nA8ccKkbgIkaBSUG1k1nG
 
-!function AwsCompute($id, $name="Compute", $tech="")
+!procedure AwsCompute($id, $name="Compute", $tech="")
   CloudElement($id, 'aws/Compute/AwsCompute', $name, $tech)
-!endfunction
-!function AwsComputeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsComputeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsComputeMd>', 'Compute', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

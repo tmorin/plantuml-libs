@@ -3,10 +3,10 @@ sprite $MaterialsSignalWifi0BarLg [20x20/16z] fS_50K0X3C3Gjlll_9NWJcuyN5PJpORcOW
 
 sprite $MaterialsSignalWifi0BarMd [14x14/16z] XScv4S0m4810kFvxzcz2YMm7rkbSAO1JXbW21Y3Asok0fiGNKRQT
 
-!function MaterialsSignalWifi0Bar($id, $name="Signal Wifi0 Bar", $tech="")
+!procedure MaterialsSignalWifi0Bar($id, $name="Signal Wifi0 Bar", $tech="")
   CloudElement($id, 'materials/Device/MaterialsSignalWifi0Bar', $name, $tech)
-!endfunction
-!function MaterialsSignalWifi0BarCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSignalWifi0BarCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSignalWifi0BarMd>', 'Signal Wifi0 Bar', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

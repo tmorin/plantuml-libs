@@ -3,10 +3,10 @@ sprite $AwsIotEchoLg [20x20/16z] fP250S1020CVai3-4zVTvTet74gFWuIN1HuXaj926gIr9sE
 
 sprite $AwsIotEchoMd [14x14/16z] XOw30G0n34NxbVqtFfklYD46w06s6SO0ivYA9KUBHGnmiyR_sV9KLskiFB1P17dhyc_H1BWj2WzWr7e
 
-!function AwsIotEcho($id, $name="Iot Echo", $tech="")
+!procedure AwsIotEcho($id, $name="Iot Echo", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotEcho', $name, $tech)
-!endfunction
-!function AwsIotEchoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotEchoCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotEchoMd>', 'Iot Echo', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

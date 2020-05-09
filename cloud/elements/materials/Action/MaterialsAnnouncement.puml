@@ -3,10 +3,10 @@ sprite $MaterialsAnnouncementLg [20x20/16z] hSi54iGW44HHO6PsOzsv_sdZxlRnLuNRp8TP
 
 sprite $MaterialsAnnouncementMd [14x14/16z] ZSU50G0n20J1YolGVxNlhja83CwPi6M084CvZtzOP4ohGdYNSqSnZxyVHCukgK4MXpHUwm4
 
-!function MaterialsAnnouncement($id, $name="Announcement", $tech="")
+!procedure MaterialsAnnouncement($id, $name="Announcement", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAnnouncement', $name, $tech)
-!endfunction
-!function MaterialsAnnouncementCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAnnouncementCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAnnouncementMd>', 'Announcement', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

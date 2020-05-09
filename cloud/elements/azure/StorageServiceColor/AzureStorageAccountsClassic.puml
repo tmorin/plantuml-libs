@@ -3,10 +3,10 @@ sprite $AzureStorageAccountsClassicLg [23x20/16z] bSst0G0n30B0JqZ0_WD_xMnVfuZSGn
 
 sprite $AzureStorageAccountsClassicMd [16x14/16z] PSgt0G0W30Gnujd-_GUc8gjMw19w-8DM3mrAEXGe-L3uk6AHG-WGO1SmFzZ_FNm9ftFf0m
 
-!function AzureStorageAccountsClassic($id, $name="Storage Accounts Classic", $tech="")
+!procedure AzureStorageAccountsClassic($id, $name="Storage Accounts Classic", $tech="")
   CloudElement($id, 'azure/StorageServiceColor/AzureStorageAccountsClassic', $name, $tech)
-!endfunction
-!function AzureStorageAccountsClassicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureStorageAccountsClassicCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureStorageAccountsClassicMd>', 'Storage Accounts Classic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

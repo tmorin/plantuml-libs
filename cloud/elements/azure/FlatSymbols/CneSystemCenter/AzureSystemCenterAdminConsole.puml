@@ -6,10 +6,10 @@ H8u4o_Ux4oQ30FczvVo_jU97MXApic_HKPFqmihbHoTYknHoeD5MzWO
 
 sprite $AzureSystemCenterAdminConsoleMd [19x14/16z] ZSsr0S0m30H0CUu_RvZiAbSA_jc_53PkB3UMm7t4yE5_HgZpYB82nv5sbOmZkKQADq3FFL_3tIEhmiIOnUXgYYwXxChgt4j9hBfTwYJxo7PgVOuC7kmdMG4
 
-!function AzureSystemCenterAdminConsole($id, $name="System Center Admin Console", $tech="")
+!procedure AzureSystemCenterAdminConsole($id, $name="System Center Admin Console", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneSystemCenter/AzureSystemCenterAdminConsole', $name, $tech)
-!endfunction
-!function AzureSystemCenterAdminConsoleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSystemCenterAdminConsoleCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSystemCenterAdminConsoleMd>', 'System Center Admin Console', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

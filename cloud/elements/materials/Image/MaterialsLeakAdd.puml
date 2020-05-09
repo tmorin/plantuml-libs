@@ -6,10 +6,10 @@ hMcr_mHSHYiwJu7DQBNBD70QAZWKIq2SPRmKtNBvMlBfjR3jVSOV
 
 sprite $MaterialsLeakAddMd [14x14/16z] NKs54S1037eWmdN_VUiULnW_8SQgLpDH1Pyj28k-BkL4nzcWXFHU7QTj38ItNzYnnIQk0wo_geicUltLXMlAuCLfb3ZnejcKuoSB
 
-!function MaterialsLeakAdd($id, $name="Leak Add", $tech="")
+!procedure MaterialsLeakAdd($id, $name="Leak Add", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLeakAdd', $name, $tech)
-!endfunction
-!function MaterialsLeakAddCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLeakAddCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLeakAddMd>', 'Leak Add', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

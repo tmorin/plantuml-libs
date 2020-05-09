@@ -6,10 +6,10 @@ qxpwHiVwwqQ0Q-M0eXBqPz8Gy205p
 
 sprite $MaterialsGridOffMd [14x14/16z] JOs50S0W40FpNcJ_UOl3eMy9uSKL6Wi19ILB8idO0eZImlOmk4TVKT2ffMZDNjlJ8u5KXRTdHVbJ8iZgBBbLTNGQTuTk54jw6TrQDqARtIJ50pdz
 
-!function MaterialsGridOff($id, $name="Grid Off", $tech="")
+!procedure MaterialsGridOff($id, $name="Grid Off", $tech="")
   CloudElement($id, 'materials/Image/MaterialsGridOff', $name, $tech)
-!endfunction
-!function MaterialsGridOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGridOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGridOffMd>', 'Grid Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

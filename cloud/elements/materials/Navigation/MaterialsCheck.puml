@@ -3,10 +3,10 @@ sprite $MaterialsCheckLg [20x20/16z] Ow0nOCGKOk5Wn13YOQDSY9a5KnKRBmkcHZOU5eGGGf0
 
 sprite $MaterialsCheckMd [14x14/16z] Oo07C2DpsDW8SLYOaMMOEPd173YN0raFCnlfpW4
 
-!function MaterialsCheck($id, $name="Check", $tech="")
+!procedure MaterialsCheck($id, $name="Check", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsCheck', $name, $tech)
-!endfunction
-!function MaterialsCheckCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCheckCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCheckMd>', 'Check', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

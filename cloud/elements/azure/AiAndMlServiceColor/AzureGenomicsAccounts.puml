@@ -3,10 +3,10 @@ sprite $AzureGenomicsAccountsLg [10x20/16z] LOu50W913CGsqydz_yaKXwpKnJaFHfqbr1hW
 
 sprite $AzureGenomicsAccountsMd [7x14/16z] BOo70G10306vnFuZVqrl23wMDBX2oWIPRgIwgwhlwpmDbMbprA-wU8kScbin6UaD
 
-!function AzureGenomicsAccounts($id, $name="Genomics Accounts", $tech="")
+!procedure AzureGenomicsAccounts($id, $name="Genomics Accounts", $tech="")
   CloudElement($id, 'azure/AiAndMlServiceColor/AzureGenomicsAccounts', $name, $tech)
-!endfunction
-!function AzureGenomicsAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureGenomicsAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureGenomicsAccountsMd>', 'Genomics Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

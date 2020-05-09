@@ -3,10 +3,10 @@ sprite $AzureIntegrationAccountsLg [20x20/16z] XP053W0n20HRFFt_Vy_za8bjS5RLFkW2V
 
 sprite $AzureIntegrationAccountsMd [14x14/16z] ROw50O0m3C1OLl__NzmXaxhu4-54t6cqOGDtw5pM6djQS5WQkeXVgy4jKrpH-VgQukL4h6AD2QghU6tsP08
 
-!function AzureIntegrationAccounts($id, $name="Integration Accounts", $tech="")
+!procedure AzureIntegrationAccounts($id, $name="Integration Accounts", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureIntegrationAccounts', $name, $tech)
-!endfunction
-!function AzureIntegrationAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIntegrationAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIntegrationAccountsMd>', 'Integration Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

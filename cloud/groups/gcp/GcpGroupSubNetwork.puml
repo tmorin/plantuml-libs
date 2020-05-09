@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupSubNetwork($id, $name="Sub Network", $tech="")
+!procedure GcpGroupSubNetwork($id, $name="Sub Network", $tech="")
   CloudGroup($id, "GcpGroupSubNetwork", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupSubNetwork>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

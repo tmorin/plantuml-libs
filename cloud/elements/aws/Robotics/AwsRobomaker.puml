@@ -6,10 +6,10 @@ vf_u0G
 
 sprite $AwsRobomakerMd [14x14/16z] XKx50O103CCQOVzzp-K7TM_UFpBfdJ62gm7j7WEbDrC2iiMPiMLgcHy65NpQB6uLRzreapTTgBWs2R0Gu6-86G
 
-!function AwsRobomaker($id, $name="Robomaker", $tech="")
+!procedure AwsRobomaker($id, $name="Robomaker", $tech="")
   CloudElement($id, 'aws/Robotics/AwsRobomaker', $name, $tech)
-!endfunction
-!function AwsRobomakerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRobomakerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRobomakerMd>', 'Robomaker', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

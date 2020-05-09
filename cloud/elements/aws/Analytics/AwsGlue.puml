@@ -3,10 +3,10 @@ sprite $AwsGlueLg [20x20/16z] hSut5eLG20JG7oR1_XViAtLgxw4Yxnl2L6Rilokddrsvw2yWkQ
 
 sprite $AwsGlueMd [14x14/16z] XOor0S003CDACVt_RvcsQ3EcHV0dW9zIeQ1RUDbLBNuosbGU3fKN7o__qvzmrJyZqx81
 
-!function AwsGlue($id, $name="Glue", $tech="")
+!procedure AwsGlue($id, $name="Glue", $tech="")
   CloudElement($id, 'aws/Analytics/AwsGlue', $name, $tech)
-!endfunction
-!function AwsGlueCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsGlueCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsGlueMd>', 'Glue', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

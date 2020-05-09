@@ -9,10 +9,10 @@ FOm50e1020G7zbez_lzQMuTEVip_n40cJjIMTPXghWvvHiHY-VI9TEL5t9NrqrT0jLRN66joBWnIzPOa
 jgqdNaoISN4
 }
 
-!function MaterialsVpnLock($id, $name="Vpn Lock", $tech="")
+!procedure MaterialsVpnLock($id, $name="Vpn Lock", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsVpnLock', $name, $tech)
-!endfunction
-!function MaterialsVpnLockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVpnLockCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVpnLockMd>', 'Vpn Lock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

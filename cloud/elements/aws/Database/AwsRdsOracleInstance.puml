@@ -6,10 +6,10 @@ qtNOFDzp6v7AkQLii-_RkOvjBRdd5fGuBV-PPgUYlmNkplW4
 
 sprite $AwsRdsOracleInstanceMd [14x14/16z] NOc54S103CDYodV_XSkieCxE2wU0sjXEmhL9mE9gKjfhEuC9OgjZRMyAjKEPgnqeelkoHF9q6qdaautRzCtyozZEmNwz
 
-!function AwsRdsOracleInstance($id, $name="Rds Oracle Instance", $tech="")
+!procedure AwsRdsOracleInstance($id, $name="Rds Oracle Instance", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsOracleInstance', $name, $tech)
-!endfunction
-!function AwsRdsOracleInstanceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsOracleInstanceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsOracleInstanceMd>', 'Rds Oracle Instance', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

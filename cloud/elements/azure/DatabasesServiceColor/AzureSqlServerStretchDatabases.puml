@@ -9,10 +9,10 @@ FSk70GCn20D0OOdc_GSEJv8_Lne0EyimZFgXuTYXV8ZpLON4Xpnv-ewkqMce-uO1vAtiZCflr8oGn2oV
 qeaF
 }
 
-!function AzureSqlServerStretchDatabases($id, $name="Sql Server Stretch Databases", $tech="")
+!procedure AzureSqlServerStretchDatabases($id, $name="Sql Server Stretch Databases", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlServerStretchDatabases', $name, $tech)
-!endfunction
-!function AzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSqlServerStretchDatabasesMd>', 'Sql Server Stretch Databases', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

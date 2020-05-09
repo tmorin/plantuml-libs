@@ -6,10 +6,10 @@ VOy50W0X20G1MrZ-_zphZhcpnhLeGHfWXUaWg8-Woswu-qBRLSIg43TLVAC-LVzH4PjgZnEHZYDj3J4T
 
 sprite $AzureUserMd [13x14/16z] JSt50G0X34JH20wJ_hjTmJ_wJg4lJa0M6aNxAjp_qkmlT3Xqv0uTA1rSEnBr0hu_bAOggX-_4eM5sJ5HX5aDeXcHj0z1mtTfibDg5oeku0K
 
-!function AzureUser($id, $name="User", $tech="")
+!procedure AzureUser($id, $name="User", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneGeneralsymbols/AzureUser', $name, $tech)
-!endfunction
-!function AzureUserCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserMd>', 'User', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

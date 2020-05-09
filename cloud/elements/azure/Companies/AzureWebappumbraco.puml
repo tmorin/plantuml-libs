@@ -6,10 +6,10 @@ sZc-rfciob6zNLfr5k3YoJX3EUx3R0Mmb9IOxTXJij7YKboQo8cE1zGcgdWgYnpo0m
 
 sprite $AzureWebappumbracoMd [14x14/16z] BOs95GGn2495ZlJVyPBivFG_1MO0nSIy1Mkr-8XnAqgNjurPE659jn5jcwLxNsDVrPvYEH668B7AwMe7Zc3x78LtBefAZ1jFbPHiD6yf99Nz4tpoyZ-arSuF
 
-!function AzureWebappumbraco($id, $name="Webappumbraco", $tech="")
+!procedure AzureWebappumbraco($id, $name="Webappumbraco", $tech="")
   CloudElement($id, 'azure/Companies/AzureWebappumbraco', $name, $tech)
-!endfunction
-!function AzureWebappumbracoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWebappumbracoCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWebappumbracoMd>', 'Webappumbraco', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

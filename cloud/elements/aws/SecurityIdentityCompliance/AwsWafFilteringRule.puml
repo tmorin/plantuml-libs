@@ -6,10 +6,10 @@ YyHvM2bRbfDuxOxyTkSr5cs0VhypumgOPG9n6WsA5Gr-QVLRqr2Ks3dy0G
 
 sprite $AwsWafFilteringRuleMd [14x14/16z] LOu55W1124B5mUVzRxmOMtyw14muXLi3xG3Te0wnjnuwqfsDLjKWCqGcwAe-XE2ngQq1QlH91IhlaziejUykUpbV8hfWtG_M_PVid_e2
 
-!function AwsWafFilteringRule($id, $name="Waf Filtering Rule", $tech="")
+!procedure AwsWafFilteringRule($id, $name="Waf Filtering Rule", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsWafFilteringRule', $name, $tech)
-!endfunction
-!function AwsWafFilteringRuleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWafFilteringRuleMd>', 'Waf Filtering Rule', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

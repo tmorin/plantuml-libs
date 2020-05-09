@@ -3,10 +3,10 @@ sprite $MaterialsReportLg [20x20/16z] dL1L0aGX25pYsShzJxjXnvSx9WtpkW9m1imgAnaMDr
 
 sprite $MaterialsReportMd [14x14/16z] RSwr0G1120NHTOVflzjplubuqSTyStF7RRFCPRi3ne2DCmY1cJES0Du3udwLqbqvxp8Pr7k5V2pqFiD-ru_Flaq
 
-!function MaterialsReport($id, $name="Report", $tech="")
+!procedure MaterialsReport($id, $name="Report", $tech="")
   CloudElement($id, 'materials/Content/MaterialsReport', $name, $tech)
-!endfunction
-!function MaterialsReportCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsReportCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsReportMd>', 'Report', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

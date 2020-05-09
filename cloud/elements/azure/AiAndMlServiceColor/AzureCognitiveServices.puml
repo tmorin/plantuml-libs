@@ -10,10 +10,10 @@ HL1R4eGm2DkMG9Bx7tXLw6Z_o7lwEoyeqQgzVjy3KPudvikadMK1Qeg723TUMJ6scX0DJY0PROaRdk0i
 tJ5wmgCBZ9leVC5lhcTHjWisIuDBn3rqHw2EJf1ohU-FrivUkx07k
 }
 
-!function AzureCognitiveServices($id, $name="Cognitive Services", $tech="")
+!procedure AzureCognitiveServices($id, $name="Cognitive Services", $tech="")
   CloudElement($id, 'azure/AiAndMlServiceColor/AzureCognitiveServices', $name, $tech)
-!endfunction
-!function AzureCognitiveServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCognitiveServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCognitiveServicesMd>', 'Cognitive Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ cjLaE-vh4wCQTTot_7eyD8wvGuWvpCt0-CWV
 
 sprite $AwsIotDeviceGatewayMd [14x14/16z] NSU70SCm24JHgzf_v11IxQy23xTKRDNYQ3iH58RWDCi0aIS5p5FfoVHL_pM-wFGhpubNGWXYLYYAgwsE01TRZLiF
 
-!function AwsIotDeviceGateway($id, $name="Iot Device Gateway", $tech="")
+!procedure AwsIotDeviceGateway($id, $name="Iot Device Gateway", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotDeviceGateway', $name, $tech)
-!endfunction
-!function AwsIotDeviceGatewayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotDeviceGatewayCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotDeviceGatewayMd>', 'Iot Device Gateway', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ dSbjn0Fc5VUKgmC
 
 sprite $MaterialsSettingsMd [14x14/16z] PKu54e0022DjtVzVQzUERfXKihQrBqiWdx3D4HXtTqnDm38C2p3jqxvdgPfxvdipCAY83WZXZ2Vv2dsWxuIiqWO
 
-!function MaterialsSettings($id, $name="Settings", $tech="")
+!procedure MaterialsSettings($id, $name="Settings", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettings', $name, $tech)
-!endfunction
-!function MaterialsSettingsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsMd>', 'Settings', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

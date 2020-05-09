@@ -3,10 +3,10 @@ sprite $MaterialsBluetoothLg [20x20/16z] VL253G1122ldplxJliHUhe4eLeDLZino9ZDDyce
 
 sprite $MaterialsBluetoothMd [14x14/16z] Oy02c9cHUQmyp70cCmCh9oUCoyp9pChAoia8vm81GYSp3q8VWeTGYMaAfWq8sn4kmm8
 
-!function MaterialsBluetooth($id, $name="Bluetooth", $tech="")
+!procedure MaterialsBluetooth($id, $name="Bluetooth", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBluetooth', $name, $tech)
-!endfunction
-!function MaterialsBluetoothCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBluetoothCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBluetoothMd>', 'Bluetooth', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

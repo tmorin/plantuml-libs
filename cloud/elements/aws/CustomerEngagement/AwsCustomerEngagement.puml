@@ -6,10 +6,10 @@ XS_50KGX34NHRpmX_VSxo2OmTfS7pV6nSwlH9I_XREQegU2m-iq4zXQZcWZPObhQrvzhOYU3H87LwMpV
 
 sprite $AwsCustomerEngagementMd [14x14/16z] LSsr0S0m00D11GNUVz-WwRkh7dFxsTg0ioGfJpbkvKvthZBlD4gVYYZIJNSyvIgRJZvPecwqWzFKkhKThGt0qW8k
 
-!function AwsCustomerEngagement($id, $name="Customer Engagement", $tech="")
+!procedure AwsCustomerEngagement($id, $name="Customer Engagement", $tech="")
   CloudElement($id, 'aws/CustomerEngagement/AwsCustomerEngagement', $name, $tech)
-!endfunction
-!function AwsCustomerEngagementCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCustomerEngagementCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCustomerEngagementMd>', 'Customer Engagement', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

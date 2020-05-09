@@ -6,10 +6,10 @@ kjj_0G
 
 sprite $AzureMeshApplicationsMd [14x14/16z] NKw54G01258vXVqN_YxURecTainu21AUf6QZkf8XjZRdx51x9cxTn01JjLiaDLlxM1lHCv-qA_R1l_-HEUeL
 
-!function AzureMeshApplications($id, $name="Mesh Applications", $tech="")
+!procedure AzureMeshApplications($id, $name="Mesh Applications", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureMeshApplications', $name, $tech)
-!endfunction
-!function AzureMeshApplicationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMeshApplicationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMeshApplicationsMd>', 'Mesh Applications', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

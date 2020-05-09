@@ -6,10 +6,10 @@ gpx7yLu
 
 sprite $MaterialsLaunchMd [14x14/16z] NSw54GGW44FH10t3zTykaZt_w1i3_CLqydun93LMpSTX4d4hSrf67aLM8AFI2joiG4iMTG65G7n4E5xvTJSOFuk8lpO
 
-!function MaterialsLaunch($id, $name="Launch", $tech="")
+!procedure MaterialsLaunch($id, $name="Launch", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLaunch', $name, $tech)
-!endfunction
-!function MaterialsLaunchCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLaunchCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLaunchMd>', 'Launch', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

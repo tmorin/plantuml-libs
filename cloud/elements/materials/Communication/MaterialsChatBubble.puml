@@ -3,10 +3,10 @@ sprite $MaterialsChatBubbleLg [20x20/16z] rSYn0K0040F0V018x3yj0A3IkVBmAdWHKvNMYS
 
 sprite $MaterialsChatBubbleMd [14x14/16z] Oq05pEnmmCp0mCuF1-mqvx41URoiB5302EIn8BkCYG4d
 
-!function MaterialsChatBubble($id, $name="Chat Bubble", $tech="")
+!procedure MaterialsChatBubble($id, $name="Chat Bubble", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsChatBubble', $name, $tech)
-!endfunction
-!function MaterialsChatBubbleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsChatBubbleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsChatBubbleMd>', 'Chat Bubble', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

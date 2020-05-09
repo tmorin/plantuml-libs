@@ -3,10 +3,10 @@ sprite $MaterialsUnfoldMoreLg [20x20/16z] Oo0LC39Y2d5mC688yV101H52tCpCtAY2pDpC88
 
 sprite $MaterialsUnfoldMoreMd [14x14/16z] Oo08sDYGEHmS22upEoCZEpC3PG1X2i86LDi90W
 
-!function MaterialsUnfoldMore($id, $name="Unfold More", $tech="")
+!procedure MaterialsUnfoldMore($id, $name="Unfold More", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsUnfoldMore', $name, $tech)
-!endfunction
-!function MaterialsUnfoldMoreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsUnfoldMoreCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsUnfoldMoreMd>', 'Unfold More', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

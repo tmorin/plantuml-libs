@@ -6,10 +6,10 @@ fSt50GGn241Hd7ZwhtRSBolpZoy1uEkGaKM4hoQPO-yztOtUMfOfljkQ7XOEyzMuaBI7OJPadREu6sXr
 
 sprite $MaterialsAirlineSeatLegroomNormalMd [14x14/16z] NOx50S0m30ChXHF3_jEM-Nu6mVG3874DB4crtLDDxj-fupr9oJaUK_IT_OxAEiOGExvp3Z56bh5FIBMKWdHC9qaJNvDPVgQptvi5
 
-!function MaterialsAirlineSeatLegroomNormal($id, $name="Airline Seat Legroom Normal", $tech="")
+!procedure MaterialsAirlineSeatLegroomNormal($id, $name="Airline Seat Legroom Normal", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsAirlineSeatLegroomNormal', $name, $tech)
-!endfunction
-!function MaterialsAirlineSeatLegroomNormalCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAirlineSeatLegroomNormalCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAirlineSeatLegroomNormalMd>', 'Airline Seat Legroom Normal', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ eSQYW0PC5AjjjQ1wId8ppR8QYojaokdQshlFzWR_0G
 
 sprite $AwsSimpleEmailServiceSesMd [14x14/16z] LSp70GCX34HH9qsY_twzW-F-4m-GalYJb1Ch4O3AeYU1MwP0Wb15SyW7XAqGCu0FhMg0uTPYLq0Mgwu3wcfvgd5IHIQj7ArTMdNY4m
 
-!function AwsSimpleEmailServiceSes($id, $name="Simple Email Service Ses", $tech="")
+!procedure AwsSimpleEmailServiceSes($id, $name="Simple Email Service Ses", $tech="")
   CloudElement($id, 'aws/CustomerEngagement/AwsSimpleEmailServiceSes', $name, $tech)
-!endfunction
-!function AwsSimpleEmailServiceSesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleEmailServiceSesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleEmailServiceSesMd>', 'Simple Email Service Ses', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsSwitchVideoLg [20x20/16z] hO_50G0n40BPkAV_Qi_zU6P-gm168yxVsBsdM
 
 sprite $MaterialsSwitchVideoMd [14x14/16z] XSs35K0n30NG1ZNU_jD-c_SeZlb4YobnESt4i34UhG4LKF53Lcq4d4SiOwQ6HOWySCvka-Shvm_xznyz
 
-!function MaterialsSwitchVideo($id, $name="Switch Video", $tech="")
+!procedure MaterialsSwitchVideo($id, $name="Switch Video", $tech="")
   CloudElement($id, 'materials/Image/MaterialsSwitchVideo', $name, $tech)
-!endfunction
-!function MaterialsSwitchVideoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSwitchVideoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSwitchVideoMd>', 'Switch Video', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

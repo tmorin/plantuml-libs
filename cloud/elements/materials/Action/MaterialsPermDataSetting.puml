@@ -6,10 +6,10 @@ XOaZLrBVvaLPPRlbHqTQomK
 
 sprite $MaterialsPermDataSettingMd [14x14/16z] LKt50G0X36kfuUm_xIcQNnmca623oKQqoKuwwwIpJffk91XDaWNF3ikCeREKZR4FK67AGl902IYJI_E3GafX_QDwX1i
 
-!function MaterialsPermDataSetting($id, $name="Perm Data Setting", $tech="")
+!procedure MaterialsPermDataSetting($id, $name="Perm Data Setting", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermDataSetting', $name, $tech)
-!endfunction
-!function MaterialsPermDataSettingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermDataSettingCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermDataSettingMd>', 'Perm Data Setting', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

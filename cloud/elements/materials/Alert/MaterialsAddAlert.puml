@@ -6,10 +6,10 @@ KeYsIvGDi4HKjt0Uc1YM24HW-6a7
 
 sprite $MaterialsAddAlertMd [14x14/16z] ROw55G8m34Hft5vl_sbnXr-Dt-4FPg__qXbT3oDm9kwc0devDojsC_UEMsBvEjzUwsQL4LdThGIOWRnP3LG1lUxzzvdx33uZShd_AJkdtuMS
 
-!function MaterialsAddAlert($id, $name="Add Alert", $tech="")
+!procedure MaterialsAddAlert($id, $name="Add Alert", $tech="")
   CloudElement($id, 'materials/Alert/MaterialsAddAlert', $name, $tech)
-!endfunction
-!function MaterialsAddAlertCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAddAlertCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAddAlertMd>', 'Add Alert', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

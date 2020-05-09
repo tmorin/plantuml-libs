@@ -6,10 +6,10 @@ wj82JgdsFYeiPT-oapuXsuDC7-laRezIJdFCaxr9-_8p
 
 sprite $AzureSoftwareUpdateMd [16x14/16z] VOw54GD130FDDEc_tbXX_3qqgmPqr9oMvka2MJs0E-DABlMqyzZEBpjWjtJUJ1mlljk-OVFOEAWDrSPJUq051BONgosk5WwKReWnaSAyiQR8lcS
 
-!function AzureSoftwareUpdate($id, $name="Software Update", $tech="")
+!procedure AzureSoftwareUpdate($id, $name="Software Update", $tech="")
   CloudElement($id, 'azure/IntuneServiceColor/AzureSoftwareUpdate', $name, $tech)
-!endfunction
-!function AzureSoftwareUpdateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSoftwareUpdateCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSoftwareUpdateMd>', 'Software Update', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

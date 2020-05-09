@@ -6,10 +6,10 @@ Pm0H2FDgVv8CB6sg87M_aaZVfChvJ6vWcoWVymi
 
 sprite $MaterialsPermCameraMicMd [14x14/16z] VKU55GL020AkJttkl-tl3XfyWX9lazKYh9B7K_UETC_Okm8ZCxUqZpMExs_DFe5ZN5xZgdMnNTwcnX3tvUKKe9cdroB29JzM0w0ZRlcA0m
 
-!function MaterialsPermCameraMic($id, $name="Perm Camera Mic", $tech="")
+!procedure MaterialsPermCameraMic($id, $name="Perm Camera Mic", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermCameraMic', $name, $tech)
-!endfunction
-!function MaterialsPermCameraMicCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermCameraMicCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermCameraMicMd>', 'Perm Camera Mic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ kMIcoCQQA4bTpiwou24pDPEfgBpRuKzxOltW1W
 
 sprite $AwsIotThingsGraphMd [14x14/16z] LOu53W0X40CJLbhs_m--uhd1EdWNF63Oyv5Ju9gRk-SoffkP9wPXnZ2JLY4pm6WjXp46kTUwOeHsz66LaQEE2siiYlMD4iJ8smP_s_e1
 
-!function AwsIotThingsGraph($id, $name="Iot Things Graph", $tech="")
+!procedure AwsIotThingsGraph($id, $name="Iot Things Graph", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotThingsGraph', $name, $tech)
-!endfunction
-!function AwsIotThingsGraphCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotThingsGraphCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotThingsGraphMd>', 'Iot Things Graph', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

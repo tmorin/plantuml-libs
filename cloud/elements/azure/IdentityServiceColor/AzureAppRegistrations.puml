@@ -6,10 +6,10 @@ dSr55WCn30DGI-RU_y1L8I_x-OCnlgJolcdsE5GIVjymIt7UDvwCtzbLQALYfMkw9ynS2BsoVn8Z6RE9
 
 sprite $AzureAppRegistrationsMd [13x14/16z] PKi50WGW24DYRlx_mMTTqop6K6cCsMhs_ypUJrNvwgmqaoOwc-A7HrCcCIc1f1zFPcSdVCiOWLxUzYEaU_Eu3shUuHigrBp3TdZMGks6jta-
 
-!function AzureAppRegistrations($id, $name="App Registrations", $tech="")
+!procedure AzureAppRegistrations($id, $name="App Registrations", $tech="")
   CloudElement($id, 'azure/IdentityServiceColor/AzureAppRegistrations', $name, $tech)
-!endfunction
-!function AzureAppRegistrationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAppRegistrationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAppRegistrationsMd>', 'App Registrations', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

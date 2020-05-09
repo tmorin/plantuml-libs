@@ -6,10 +6,10 @@ vTRuWkCBpW
 
 sprite $AwsCommandLineInterfaceMd [14x14/16z] LOg74GGn308d6R7-_llzWSlh814eFk4ZONGHjPOcQDcR28KgOO9rg9bRRO5ygycK7AyAyWHj5bTv0kJj2yBl8_y
 
-!function AwsCommandLineInterface($id, $name="Command Line Interface", $tech="")
+!procedure AwsCommandLineInterface($id, $name="Command Line Interface", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsCommandLineInterface', $name, $tech)
-!endfunction
-!function AwsCommandLineInterfaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCommandLineInterfaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCommandLineInterfaceMd>', 'Command Line Interface', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

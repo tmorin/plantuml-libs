@@ -6,10 +6,10 @@ Buw1SjuSUcXTNDLmF6EGpKIq9XCSJ2dBVCa9BZVXti8_t
 
 sprite $MaterialsTrainMd [14x14/16z] NOx50K0X242bmMB_QN_WpMVGqMvGr4m5ow2PnQJV4cDsPpRvBUNFysciPGc0Ae2K9NlEjURSKbQk_5XPbXf6Pg2TJ4NFTDIAWOqr-Xe6PvTW00fi1wWFsiqB
 
-!function MaterialsTrain($id, $name="Train", $tech="")
+!procedure MaterialsTrain($id, $name="Train", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsTrain', $name, $tech)
-!endfunction
-!function MaterialsTrainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTrainCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTrainMd>', 'Train', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

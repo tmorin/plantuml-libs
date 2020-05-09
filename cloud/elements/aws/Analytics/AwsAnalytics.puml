@@ -6,10 +6,10 @@ p1kembtKZGzv7_u
 
 sprite $AwsAnalyticsMd [14x14/16z] LSU73S0m30D1kP6YlF--SGVoQ7_shxHJhTaCclc8TIWcLbiS0K-IDt0hA8BqetawwceWqA2bSCvyYht7J3ewdAfejsncwMNs0G
 
-!function AwsAnalytics($id, $name="Analytics", $tech="")
+!procedure AwsAnalytics($id, $name="Analytics", $tech="")
   CloudElement($id, 'aws/Analytics/AwsAnalytics', $name, $tech)
-!endfunction
-!function AwsAnalyticsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAnalyticsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAnalyticsMd>', 'Analytics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

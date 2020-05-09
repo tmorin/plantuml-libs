@@ -6,10 +6,10 @@ SjkSb_nRssyFVderQjjJFjYU_lJ-3W
 
 sprite $GcpDebuggerMd [14x14/16z] LKw30G102BpS_Wk_pNG0G38M0Jtn6Cj7ghcMjeHZPy60PPgvM_yXqKPCp5iMCkOSx6DsPeoPZKbNSMkPB9ReBFug9B_gTfor90ZuNLS
 
-!function GcpDebugger($id, $name="Debugger", $tech="")
+!procedure GcpDebugger($id, $name="Debugger", $tech="")
   CloudElement($id, 'gcp/ManagementTools/GcpDebugger', $name, $tech)
-!endfunction
-!function GcpDebuggerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpDebuggerCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpDebuggerMd>', 'Debugger', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

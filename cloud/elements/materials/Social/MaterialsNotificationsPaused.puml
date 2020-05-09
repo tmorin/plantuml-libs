@@ -6,10 +6,10 @@ piSYJ0jIgz0ACttY2
 
 sprite $MaterialsNotificationsPausedMd [14x14/16z] ROt50SKm34FDuMZ_QJ-MstSo2EW1aSF2fV3-AK2HxPFTy_fLX913_vjXc5JOkWLPEMmYiMw1ESP0_4FgmZ-6cSsOztvtUk0D
 
-!function MaterialsNotificationsPaused($id, $name="Notifications Paused", $tech="")
+!procedure MaterialsNotificationsPaused($id, $name="Notifications Paused", $tech="")
   CloudElement($id, 'materials/Social/MaterialsNotificationsPaused', $name, $tech)
-!endfunction
-!function MaterialsNotificationsPausedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNotificationsPausedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNotificationsPausedMd>', 'Notifications Paused', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

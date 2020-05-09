@@ -6,10 +6,10 @@ q0HtjDKD
 
 sprite $GcpCloudCodeMd [14x14/16z] JOw50KD134A9P_-9oz5lxpGE07DXE5YFQ9cv5tb2SrlZGF6fuTujnEma8f7yH3FVVCQD_cvwQF6AvLUPcMeTJnSQ_Psm_frUhpBcNq937EC7
 
-!function GcpCloudCode($id, $name="Cloud Code", $tech="")
+!procedure GcpCloudCode($id, $name="Cloud Code", $tech="")
   CloudElement($id, 'gcp/DeveloperTools/GcpCloudCode', $name, $tech)
-!endfunction
-!function GcpCloudCodeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudCodeCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudCodeMd>', 'Cloud Code', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

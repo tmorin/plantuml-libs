@@ -3,10 +3,10 @@ sprite $AwsAmplifyLg [20x20/16z] jOt50GH13CCER3cJ_liznhntzJMezsAjdfHSioN5endBv7z
 
 sprite $AwsAmplifyMd [14x14/16z] bOp50G1130BF6DZjlzzp-sPU2TQBsFzd8U_Ja6YV9V5a0p_JE3ncC2owX-ARz08R
 
-!function AwsAmplify($id, $name="Amplify", $tech="")
+!procedure AwsAmplify($id, $name="Amplify", $tech="")
   CloudElement($id, 'aws/Mobile/AwsAmplify', $name, $tech)
-!endfunction
-!function AwsAmplifyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAmplifyCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAmplifyMd>', 'Amplify', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ QP7KYrOrq6CTqZ82WnanFQu
 
 sprite $MaterialsSettingsPhoneMd [14x14/16z] NKp50GD140BMTVglDZatNZW-a7WBjf6VokeZBDPrgsW1pZ4Wh1LLGgImlyM01vZzMZclb0D3h_dGZ7MOZUjQiVIcvvpuu0y
 
-!function MaterialsSettingsPhone($id, $name="Settings Phone", $tech="")
+!procedure MaterialsSettingsPhone($id, $name="Settings Phone", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsPhone', $name, $tech)
-!endfunction
-!function MaterialsSettingsPhoneCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsPhoneCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsPhoneMd>', 'Settings Phone', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

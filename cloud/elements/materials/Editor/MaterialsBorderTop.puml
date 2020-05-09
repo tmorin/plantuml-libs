@@ -3,10 +3,10 @@ sprite $MaterialsBorderTopLg [20x20/16z] ZK-30G0n3Aoz_xgFu5dasjXA3ErUqAVFjVf0SvZ
 
 sprite $MaterialsBorderTopMd [14x14/16z] XOo50G0n20C9ll_4xrA_j3XG1R_i2I9l0djw_ZUmtOZinjgUa83vT5MslBBpzdQ9dEuixSBfAZO
 
-!function MaterialsBorderTop($id, $name="Border Top", $tech="")
+!procedure MaterialsBorderTop($id, $name="Border Top", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderTop', $name, $tech)
-!endfunction
-!function MaterialsBorderTopCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBorderTopCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBorderTopMd>', 'Border Top', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

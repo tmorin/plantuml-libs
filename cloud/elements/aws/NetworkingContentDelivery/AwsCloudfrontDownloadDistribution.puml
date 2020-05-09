@@ -6,10 +6,10 @@ RL050aKn23AG-z_unHW_7-jGWH2gWQxuG9C33Dc-oM7jtvpK5R6MTGBNCj0V_SMiN3ldpdNdPFdEEUyU
 
 sprite $AwsCloudfrontDownloadDistributionMd [14x14/16z] NKw70S0m20g8_xzS8TtkBMk8Qeah18a09JXfZfc8FIOZG1Oi3h8bYa-MtMlIz_3qq9waU_RA5LN5SN-eof7Vzn-o_QVttmC
 
-!function AwsCloudfrontDownloadDistribution($id, $name="Cloudfront Download Distribution", $tech="")
+!procedure AwsCloudfrontDownloadDistribution($id, $name="Cloudfront Download Distribution", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsCloudfrontDownloadDistribution', $name, $tech)
-!endfunction
-!function AwsCloudfrontDownloadDistributionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudfrontDownloadDistributionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudfrontDownloadDistributionMd>', 'Cloudfront Download Distribution', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

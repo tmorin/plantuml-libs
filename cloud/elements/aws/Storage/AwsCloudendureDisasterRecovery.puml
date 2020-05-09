@@ -6,10 +6,10 @@ OvywwROYijiKrSsMlcpXiZT-
 
 sprite $AwsCloudendureDisasterRecoveryMd [14x14/16z] ROk70SHG24BlKW3TV-2WwOLVdq1OsiMYa_jFdYG0CtU2BytDPQtXmbmjp90nnNJOJX3bLOlsO2y9i04oEHYSefKjwgJI5oq
 
-!function AwsCloudendureDisasterRecovery($id, $name="Cloudendure Disaster Recovery", $tech="")
+!procedure AwsCloudendureDisasterRecovery($id, $name="Cloudendure Disaster Recovery", $tech="")
   CloudElement($id, 'aws/Storage/AwsCloudendureDisasterRecovery', $name, $tech)
-!endfunction
-!function AwsCloudendureDisasterRecoveryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCloudendureDisasterRecoveryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCloudendureDisasterRecoveryMd>', 'Cloudendure Disaster Recovery', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

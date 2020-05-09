@@ -6,10 +6,10 @@ jqZkP2zoZPdIKTjZWpT6_FBW5nC
 
 sprite $MaterialsLocalPlayMd [14x14/16z] VSt50K0X30FGOC79_jj-GOuyNDhYneON-SqMY7gLebTS9-_NYMgHnZ0s4K1i7Y_V8bvHtG6kwpjHQlRL97vFggnlNpcF-5K_B6uU
 
-!function MaterialsLocalPlay($id, $name="Local Play", $tech="")
+!procedure MaterialsLocalPlay($id, $name="Local Play", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalPlay', $name, $tech)
-!endfunction
-!function MaterialsLocalPlayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalPlayCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalPlayMd>', 'Local Play', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

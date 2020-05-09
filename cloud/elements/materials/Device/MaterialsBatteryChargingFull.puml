@@ -6,10 +6,10 @@ VT050WKX20HG4PkO-v_sTx8ncpxRT1BAcQ9LeFuBjmdCnZz4WaU4Wfblp9fkR6I9vaoRTZrjp3Wb7lfh
 
 sprite $MaterialsBatteryChargingFullMd [14x14/16z] PSVL0O0m50F0l5g2xpyj3hNxE_ICj3-UoqB_JTj9URFACHHRd2-MW9H7W_8sxxTYGUN69I-8L43d
 
-!function MaterialsBatteryChargingFull($id, $name="Battery Charging Full", $tech="")
+!procedure MaterialsBatteryChargingFull($id, $name="Battery Charging Full", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBatteryChargingFull', $name, $tech)
-!endfunction
-!function MaterialsBatteryChargingFullCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBatteryChargingFullCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBatteryChargingFullMd>', 'Battery Charging Full', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

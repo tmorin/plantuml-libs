@@ -6,10 +6,10 @@ u6IsLZJA1k5lDjYsXbgpxkF7-RBdVENQ7xts1ry
 
 sprite $AwsDeepLearningAmisMd [14x14/16z] LShN0KCn34BH52J0-mySbRHtltoCh8sJBtIHKO-8bGC8F96x1QBAtHZ8cf4g9Px1wAHZ0Z-TxoLBnPXIevCHDGPNwk_ShVAxrTSl
 
-!function AwsDeepLearningAmis($id, $name="Deep Learning Amis", $tech="")
+!procedure AwsDeepLearningAmis($id, $name="Deep Learning Amis", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepLearningAmis', $name, $tech)
-!endfunction
-!function AwsDeepLearningAmisCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeepLearningAmisCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeepLearningAmisMd>', 'Deep Learning Amis', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

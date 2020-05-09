@@ -3,10 +3,10 @@ sprite $AwsDynamodbGlobalSecondaryIndexLg [20x20/16z] TP375KGn20Fz4IFrN_4cdc_it1
 
 sprite $AwsDynamodbGlobalSecondaryIndexMd [14x14/16z] LOw30S1G34IRq_uRrxht4KFsTGzaADplxC2c8qNOeHNpk2TwghWZUnGmN7R6SfJz-a1jTMPtwGazlJVhhJS
 
-!function AwsDynamodbGlobalSecondaryIndex($id, $name="Dynamodb Global Secondary Index", $tech="")
+!procedure AwsDynamodbGlobalSecondaryIndex($id, $name="Dynamodb Global Secondary Index", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbGlobalSecondaryIndex', $name, $tech)
-!endfunction
-!function AwsDynamodbGlobalSecondaryIndexCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbGlobalSecondaryIndexCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbGlobalSecondaryIndexMd>', 'Dynamodb Global Secondary Index', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ IUJOL3i846oEL94sL_k7xZW-C1l6ZCvcT7zcV
 
 sprite $AwsCognitoMd [14x14/16z] LSa74eH044BHNGCDu_tlAxJvL-8LEcDtulGGwwm5ZpL5mqAmj9vF4S05M4798haMSQWS2cOqvBohrGccj5qaPPbdqOSx
 
-!function AwsCognito($id, $name="Cognito", $tech="")
+!procedure AwsCognito($id, $name="Cognito", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCognito', $name, $tech)
-!endfunction
-!function AwsCognitoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCognitoCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCognitoMd>', 'Cognito', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

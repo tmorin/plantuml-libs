@@ -6,10 +6,10 @@ U6VSkGczi0K
 
 sprite $AzureBackupLocalMd [14x14/16z] VSUt0SCm40GmPlw5_TUrbQMAw90EGBejrtD4xlS29E9UXery9nUWvBDJuXYKvfRknqXvn6FcYLSCVmIzy0S
 
-!function AzureBackupLocal($id, $name="Backup Local", $tech="")
+!procedure AzureBackupLocal($id, $name="Backup Local", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureBackupLocal', $name, $tech)
-!endfunction
-!function AzureBackupLocalCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBackupLocalCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBackupLocalMd>', 'Backup Local', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsSubdirectoryArrowLeftLg [20x20/16z] hOo35S1G5CNwZQVzfwrjvVWYnJk
 
 sprite $MaterialsSubdirectoryArrowLeftMd [14x14/16z] XOo35G0n44IJhD5_ksVpFmxB2xKU5T99yQE2Ub1WRLTWi3TRXepuz5d5eOtKCilJTvLM_ka1
 
-!function MaterialsSubdirectoryArrowLeft($id, $name="Subdirectory Arrow Left", $tech="")
+!procedure MaterialsSubdirectoryArrowLeft($id, $name="Subdirectory Arrow Left", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsSubdirectoryArrowLeft', $name, $tech)
-!endfunction
-!function MaterialsSubdirectoryArrowLeftCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSubdirectoryArrowLeftCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSubdirectoryArrowLeftMd>', 'Subdirectory Arrow Left', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ gpS9JXBxV7xavIyf61f2FO38WEZSTaEGqHLLP5_EUproVgzon8UhLd4AjelHoXO5_W
 
 sprite $GcpRecommendationsAiMd [15x14/16z] POxL0KGn20JntVuhHbxkwoOw4K14WXyXY-4fR3Nv8zybM15vrqLcX8ivMHi7WVHmssXOpN1L7qNn7a_7gcCVZ-IgIuvMJ1-jIrJ7NDfV6Q9u1fN5yU6pRm
 
-!function GcpRecommendationsAi($id, $name="Recommendations Ai", $tech="")
+!procedure GcpRecommendationsAi($id, $name="Recommendations Ai", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpRecommendationsAi', $name, $tech)
-!endfunction
-!function GcpRecommendationsAiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpRecommendationsAiCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpRecommendationsAiMd>', 'Recommendations Ai', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

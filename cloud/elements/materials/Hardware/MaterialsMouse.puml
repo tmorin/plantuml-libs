@@ -6,10 +6,10 @@ wedzoW3fStRxQLg0C7S
 
 sprite $MaterialsMouseMd [14x14/16z] POvL0W8m34D7WaFQ-vzsbWrzVvL86HmwPNDwa8_J6iwPPEPv3f0dOKp7a4WfZjC2w5i0qmZ71MnYR7FQq-b_WZm8Jd_Bt2p2pToQTEi6
 
-!function MaterialsMouse($id, $name="Mouse", $tech="")
+!procedure MaterialsMouse($id, $name="Mouse", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsMouse', $name, $tech)
-!endfunction
-!function MaterialsMouseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMouseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMouseMd>', 'Mouse', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

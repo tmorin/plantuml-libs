@@ -3,10 +3,10 @@ sprite $AzureDomainControllerLg [15x20/16z] jO-50G0X203V9FTVry0UuC-aWNM2NqSNx4mK
 
 sprite $AzureDomainControllerMd [10x14/16z] ZOgr0S0m40DDZzB-yyROvoh1WGijfH0Bcmag8huIDt-JlXIzdWI9ESBDH8bMO2ezIL-fspB6ih3a_
 
-!function AzureDomainController($id, $name="Domain Controller", $tech="")
+!procedure AzureDomainController($id, $name="Domain Controller", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureDomainController', $name, $tech)
-!endfunction
-!function AzureDomainControllerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDomainControllerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDomainControllerMd>', 'Domain Controller', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

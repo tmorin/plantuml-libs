@@ -3,10 +3,10 @@ sprite $AzureUsbLg [9x20/16z] JKw30K1120s7lF-stxZi7W3WHBYePxyyUVbLOWcXkwG8Jq3YXe
 
 sprite $AzureUsbMd [6x14/16z] 7Kp70O0m22JqflkFwvaFN2TI9QBJVN0hSQ6eCPlDk-EQC-rgfgOLXoCS4Md59RltAlpilp3O-G
 
-!function AzureUsb($id, $name="Usb", $tech="")
+!procedure AzureUsb($id, $name="Usb", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureUsb', $name, $tech)
-!endfunction
-!function AzureUsbCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUsbCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUsbMd>', 'Usb', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

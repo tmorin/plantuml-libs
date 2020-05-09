@@ -6,10 +6,10 @@ LOgyVZv1Wnpw_1KrW25--phGltsesInNs6u1
 
 sprite $MaterialsAndroidMd [14x14/16z] bSd50KGX30JGP2QuzT_jVlI-3-Bo8VXzELXQAtVI55kBISyff_nzhel25kXtzS5w-tGBNYH4DnONmpyJm3hgzmd8n64sA0S6EV2cZE_FxWS
 
-!function MaterialsAndroid($id, $name="Android", $tech="")
+!procedure MaterialsAndroid($id, $name="Android", $tech="")
   CloudElement($id, 'materials/Action/MaterialsAndroid', $name, $tech)
-!endfunction
-!function MaterialsAndroidCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAndroidCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAndroidMd>', 'Android', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

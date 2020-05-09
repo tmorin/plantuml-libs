@@ -6,10 +6,10 @@ VifMriw88sdSS2ckzZq7Ftz6r_ONwqP2OoJNAgkpTIDKPk7umRP-EM-rfax4iohzim4zRly3
 
 sprite $AzureUpdateMd [14x14/16z] DSw50S1020F0u13sdxVUUrV0JSq47wqX9mMYW0sdUhOr0p9q0IGv3EG6RZ9xpQe4joGP-Eb57lW5oVm2EMAt_uTsdutVNmOBYF9XLrsT0YhGuflPHzqLjnC
 
-!function AzureUpdate($id, $name="Update", $tech="")
+!procedure AzureUpdate($id, $name="Update", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUpdate', $name, $tech)
-!endfunction
-!function AzureUpdateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUpdateCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUpdateMd>', 'Update', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

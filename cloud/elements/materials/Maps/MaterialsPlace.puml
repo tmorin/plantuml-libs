@@ -6,10 +6,10 @@ vZbWtZDqmpbwIW8
 
 sprite $MaterialsPlaceMd [14x14/16z] ROgr0SD040JldddwhzQqKcHDicX_U2eb-HqQGBjYvhHso4gTQbRfEevldHcwDaQCWwPduaTIyWxGtKGwSABTLAXo-kft4O8zy0O
 
-!function MaterialsPlace($id, $name="Place", $tech="")
+!procedure MaterialsPlace($id, $name="Place", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsPlace', $name, $tech)
-!endfunction
-!function MaterialsPlaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPlaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPlaceMd>', 'Place', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

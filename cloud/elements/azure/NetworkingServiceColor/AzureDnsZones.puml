@@ -9,10 +9,10 @@ BOw75KGX2C0K4Ypx3tputyL2BsECYGrpF98CYHQV0Uujj3c1G0arO2shyHoRmiLwPZ_e6uZ7lqMogRQi
 Z5P_
 }
 
-!function AzureDnsZones($id, $name="Dns Zones", $tech="")
+!procedure AzureDnsZones($id, $name="Dns Zones", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureDnsZones', $name, $tech)
-!endfunction
-!function AzureDnsZonesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDnsZonesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDnsZonesMd>', 'Dns Zones', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ pvnM8oKHNBQi5QzlD9RIlksEFm
 
 sprite $AwsEc2ImageBuilderMd [14x14/16z] PSV70GD15C9G1mJJVyKUllEkJdhP-LEchqnxIw2x94POD8sGW_IIPC3bY8fg1UnI7eKAEPKj8PnaBUzmlsff9pq
 
-!function AwsEc2ImageBuilder($id, $name="Ec2 Image Builder", $tech="")
+!procedure AwsEc2ImageBuilder($id, $name="Ec2 Image Builder", $tech="")
   CloudElement($id, 'aws/Compute/AwsEc2ImageBuilder', $name, $tech)
-!endfunction
-!function AwsEc2ImageBuilderCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEc2ImageBuilderCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEc2ImageBuilderMd>', 'Ec2 Image Builder', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

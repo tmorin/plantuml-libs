@@ -3,10 +3,10 @@ sprite $AwsBlockchainLg [20x20/16z] ZT235G0W543HyBN_nDbynpUdjkcfG4W-h5djZTX7DRYP
 
 sprite $AwsBlockchainMd [14x14/16z] LSh50K0n309GedJ_XR_Kysu8AlNEFWeuoUp2Ubfn9LwftwAdQ66Tp-HtOauzVVYhYIkrbSmt1I0Ry08
 
-!function AwsBlockchain($id, $name="Blockchain", $tech="")
+!procedure AwsBlockchain($id, $name="Blockchain", $tech="")
   CloudElement($id, 'aws/Blockchain/AwsBlockchain', $name, $tech)
-!endfunction
-!function AwsBlockchainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsBlockchainCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsBlockchainMd>', 'Blockchain', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

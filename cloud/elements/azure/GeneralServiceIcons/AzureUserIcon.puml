@@ -3,10 +3,10 @@ sprite $AzureUserIconLg [15x20/16z] jSor0S1030D0axJ_nddcEjUOBOM3S1cSnQYDZOrXus_v
 
 sprite $AzureUserIconMd [10x14/16z] bSQv0O1024HHvko_P9tGqBSB_BjJeXlsnPLN_XRJXZUmiOFjdRQwKpi1ihjqVtW
 
-!function AzureUserIcon($id, $name="User Icon", $tech="")
+!procedure AzureUserIcon($id, $name="User Icon", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureUserIcon', $name, $tech)
-!endfunction
-!function AzureUserIconCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserIconCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserIconMd>', 'User Icon', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

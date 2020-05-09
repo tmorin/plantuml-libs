@@ -6,10 +6,10 @@ FatyNGl0xzrVOm
 
 sprite $AzureServerBladeMd [45x14/16z] tTAr0KLH30BGwmRxh_lrkRkTDa0L3qw5B3iD-40eJCWQbT4fAxEVTnd_IuMir0bMPymlf8Nmx1Ngoqx8E6KP98YOTdWEk3S
 
-!function AzureServerBlade($id, $name="Server Blade", $tech="")
+!procedure AzureServerBlade($id, $name="Server Blade", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureServerBlade', $name, $tech)
-!endfunction
-!function AzureServerBladeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureServerBladeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureServerBladeMd>', 'Server Blade', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

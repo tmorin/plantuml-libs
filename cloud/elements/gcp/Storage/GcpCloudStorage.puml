@@ -6,10 +6,10 @@ yBHu_mK
 
 sprite $GcpCloudStorageMd [14x14/16z] LOx50G1G24AntN_Yt-4xcG00aWdriZSU4v-jvaPxmt6wOC3oOf2-SkruNuucZPd5ixUr-ozJVXN_7P9_Ttl9kiGE-b8t
 
-!function GcpCloudStorage($id, $name="Cloud Storage", $tech="")
+!procedure GcpCloudStorage($id, $name="Cloud Storage", $tech="")
   CloudElement($id, 'gcp/Storage/GcpCloudStorage', $name, $tech)
-!endfunction
-!function GcpCloudStorageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudStorageCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudStorageMd>', 'Cloud Storage', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

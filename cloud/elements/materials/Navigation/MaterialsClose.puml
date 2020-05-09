@@ -3,10 +3,10 @@ sprite $MaterialsCloseLg [20x20/16z] Ow01O6I1iLWOuInULWY3bHSa2sEpmYbaGIY1AWWNGWZ
 
 sprite $MaterialsCloseMd [14x14/16z] Oo05i3A3I6PM28-Panb2mBbW3epBnGNb87YOAX6ceDb02W
 
-!function MaterialsClose($id, $name="Close", $tech="")
+!procedure MaterialsClose($id, $name="Close", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsClose', $name, $tech)
-!endfunction
-!function MaterialsCloseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCloseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCloseMd>', 'Close', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

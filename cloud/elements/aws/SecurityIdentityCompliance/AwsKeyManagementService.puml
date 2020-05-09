@@ -6,10 +6,10 @@ CJpYM1Dmszjn1ENkD1PyDVQBBtlX7G
 
 sprite $AwsKeyManagementServiceMd [14x14/16z] LScr0GC15CFGwikG_UVDCQbxTiwybm-R27oo5GFds-0HFjXkEs9jap6ARPosQ8PnJXc4JKvjpUnQOQqv-QrKkfLL6_lepGK
 
-!function AwsKeyManagementService($id, $name="Key Management Service", $tech="")
+!procedure AwsKeyManagementService($id, $name="Key Management Service", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsKeyManagementService', $name, $tech)
-!endfunction
-!function AwsKeyManagementServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsKeyManagementServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsKeyManagementServiceMd>', 'Key Management Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

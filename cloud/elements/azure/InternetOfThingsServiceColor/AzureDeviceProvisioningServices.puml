@@ -6,10 +6,10 @@ TLcdwiwA4hJ-fhCMoRyhwpynqLY89kBJ2aAorgkGXL0fefro1UIQXovSL8rZc8OAv7fWoofZw6adFfIb
 
 sprite $AzureDeviceProvisioningServicesMd [13x14/16z] 9OnPGWGm349V5g3r_lTLfvEVi0EJd9C1GDwXneBQhPm2TiktsTD0N-q2xNvMggiwTw6IkRREZu2afYXBpsd0GaFdAmrxMoeFl46vwEnZ-mfbRsGNxtgk7lm3
 
-!function AzureDeviceProvisioningServices($id, $name="Device Provisioning Services", $tech="")
+!procedure AzureDeviceProvisioningServices($id, $name="Device Provisioning Services", $tech="")
   CloudElement($id, 'azure/InternetOfThingsServiceColor/AzureDeviceProvisioningServices', $name, $tech)
-!endfunction
-!function AzureDeviceProvisioningServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDeviceProvisioningServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDeviceProvisioningServicesMd>', 'Device Provisioning Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

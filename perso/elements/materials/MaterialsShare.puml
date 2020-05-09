@@ -6,10 +6,10 @@ ssaBCvrm1G
 
 sprite $MaterialsShareMd [14x14/16z] RKw35S0m48sD_QUjcnmVJbzABXljNdITLQ_DzrdqWddhpJC55wBPXE4sVMyKkLMSKT0XwqqlZz-cMnhs1
 
-!function MaterialsShare($id, $name="Share", $tech="")
+!procedure MaterialsShare($id, $name="Share", $tech="")
   PersoElement($id, 'materials/MaterialsShare', $name, $tech)
-!endfunction
-!function MaterialsShareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsShareCard($id, $funcName="", $content="")
   PersoCard($id, '<$MaterialsShareMd>', 'Share', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

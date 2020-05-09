@@ -6,10 +6,10 @@ G0bYR9VLxqIdtPsKAosgiqyA7HaRxOpzwlw3Lm
 
 sprite $AwsIotDeviceManagementMd [14x14/16z] HStN0G0n20BG7mLr_u4FBetKbzfAdT1w_i5C7XMKPOCMHOd5o0WGLJDa2f5O0jFO4dLGQQd-5zNHclO8-BDnrlneF3jw_W
 
-!function AwsIotDeviceManagement($id, $name="Iot Device Management", $tech="")
+!procedure AwsIotDeviceManagement($id, $name="Iot Device Management", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotDeviceManagement', $name, $tech)
-!endfunction
-!function AwsIotDeviceManagementCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotDeviceManagementCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotDeviceManagementMd>', 'Iot Device Management', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

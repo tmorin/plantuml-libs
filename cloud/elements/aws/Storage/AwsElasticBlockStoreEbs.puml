@@ -6,10 +6,10 @@ RSXN5a8n24NH3-2Mp7_0XeNwwabbkzCvqYyuTCKjbVWXeiOow4vjCGQMH81I0csTc0LKKjsO6RKBZAqn
 
 sprite $AwsElasticBlockStoreEbsMd [14x14/16z] LSe53iHG203H63BS_y2BRjlv-XB8_BB2Gn0PYengveIRg4gwHKjBKR8-fVWeMr42LrCrTrAgK3yHfrK3Y41CJF7X3m
 
-!function AwsElasticBlockStoreEbs($id, $name="Elastic Block Store Ebs", $tech="")
+!procedure AwsElasticBlockStoreEbs($id, $name="Elastic Block Store Ebs", $tech="")
   CloudElement($id, 'aws/Storage/AwsElasticBlockStoreEbs', $name, $tech)
-!endfunction
-!function AwsElasticBlockStoreEbsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticBlockStoreEbsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticBlockStoreEbsMd>', 'Elastic Block Store Ebs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ aihFSkYqIxgWzt4sAKie-US_
 
 sprite $MaterialsFilter9Md [14x14/16z] JSx50G0m20J1mw7_XkEoqVa1W7Kdw6NuBAgJalhL3rp5XhZAXjI7p2MVjF8Js3wH_19tEM9QHHUySiTTe1qW5RuozEIVkG4
 
-!function MaterialsFilter9($id, $name="Filter9", $tech="")
+!procedure MaterialsFilter9($id, $name="Filter9", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilter9', $name, $tech)
-!endfunction
-!function MaterialsFilter9Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFilter9Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFilter9Md>', 'Filter9', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ oGu
 
 sprite $MaterialsBatteryCharging90Md [14x14/16z] RSVL0O1G30F0DWbk-q-BmzFxEwjmZmDudAYKA7xhjqvR_sy1exLcRLZdreTjv1PDVRnn2LDtaXKE
 
-!function MaterialsBatteryCharging90($id, $name="Battery Charging90", $tech="")
+!procedure MaterialsBatteryCharging90($id, $name="Battery Charging90", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBatteryCharging90', $name, $tech)
-!endfunction
-!function MaterialsBatteryCharging90Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBatteryCharging90Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBatteryCharging90Md>', 'Battery Charging90', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

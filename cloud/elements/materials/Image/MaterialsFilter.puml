@@ -6,10 +6,10 @@ IwtUlMpvITVDVm4
 
 sprite $MaterialsFilterMd [14x14/16z] XSwt0SD03CNGpqmwxJ-kfSkTNeSE05W7mIN3cwWhAGcTgzXPwiz5kefIuYUpn2z6lPYwk0fUEV1Le06G2kyC5pcV_m
 
-!function MaterialsFilter($id, $name="Filter", $tech="")
+!procedure MaterialsFilter($id, $name="Filter", $tech="")
   CloudElement($id, 'materials/Image/MaterialsFilter', $name, $tech)
-!endfunction
-!function MaterialsFilterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFilterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFilterMd>', 'Filter', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

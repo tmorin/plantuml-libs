@@ -9,10 +9,10 @@ sprite $AzureReservationsMd [14x14/16z] {
 T6PkzHy
 }
 
-!function AzureReservations($id, $name="Reservations", $tech="")
+!procedure AzureReservations($id, $name="Reservations", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureReservations', $name, $tech)
-!endfunction
-!function AzureReservationsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureReservationsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureReservationsMd>', 'Reservations', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

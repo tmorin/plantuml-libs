@@ -6,10 +6,10 @@ uDcdsPxPPIC45w8Hzjiew7VswwjsnO7dmC_IysBCvpr-tscEzkVkxm
 
 sprite $AwsLambdaLambdaFunctionMd [14x14/16z] LOxN0G9G20EJEzn_PONt9RsJ_AYgpID7Mdq9eoIuIJEDkRIk0wxXEL_pRlcPRhClOuoN4TWY1hjLkmuRPpJHSnbwy9WiQLkkyu_w2m
 
-!function AwsLambdaLambdaFunction($id, $name="Lambda Lambda Function", $tech="")
+!procedure AwsLambdaLambdaFunction($id, $name="Lambda Lambda Function", $tech="")
   CloudElement($id, 'aws/Compute/AwsLambdaLambdaFunction', $name, $tech)
-!endfunction
-!function AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsLambdaLambdaFunctionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsLambdaLambdaFunctionMd>', 'Lambda Lambda Function', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

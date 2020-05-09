@@ -6,10 +6,10 @@ Bm
 
 sprite $MaterialsRoundedCornerMd [14x14/16z] RKw54S1026liZlqNhjiBxcJf20UJl9BihDhfp77FkCxUit8syS-WUIRy9z5SoQItitIw1nbErz46
 
-!function MaterialsRoundedCorner($id, $name="Rounded Corner", $tech="")
+!procedure MaterialsRoundedCorner($id, $name="Rounded Corner", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRoundedCorner', $name, $tech)
-!endfunction
-!function MaterialsRoundedCornerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRoundedCornerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRoundedCornerMd>', 'Rounded Corner', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

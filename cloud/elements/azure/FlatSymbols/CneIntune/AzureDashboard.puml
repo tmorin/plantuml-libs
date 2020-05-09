@@ -6,10 +6,10 @@ MCfNWGuvCrpImw-4yt5GZwFj
 
 sprite $AzureDashboardMd [17x14/16z] PO-50S0m20JvuB3_l7NlHN60l87K6_ahKlX6Sb60Rh0frDsLrDXaLtXt1wAq_5HK1uaCvQU7XwJj2ijCVoe8M2ijxrvbu6OiYied9R_XPW
 
-!function AzureDashboard($id, $name="Dashboard", $tech="")
+!procedure AzureDashboard($id, $name="Dashboard", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDashboard', $name, $tech)
-!endfunction
-!function AzureDashboardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDashboardCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDashboardMd>', 'Dashboard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

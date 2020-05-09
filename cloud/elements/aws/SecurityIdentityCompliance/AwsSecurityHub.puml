@@ -6,10 +6,10 @@ ZpK
 
 sprite $AwsSecurityHubMd [14x14/16z] XKrL0a0n27eXEBp_VTVnEJiXhkA-owGWGsaqe5WDlPNJgj0LS_kRfOs1_xU98w9s0DKxk4ZvwA96igV3VfK2
 
-!function AwsSecurityHub($id, $name="Security Hub", $tech="")
+!procedure AwsSecurityHub($id, $name="Security Hub", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsSecurityHub', $name, $tech)
-!endfunction
-!function AwsSecurityHubCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSecurityHubCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSecurityHubMd>', 'Security Hub', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

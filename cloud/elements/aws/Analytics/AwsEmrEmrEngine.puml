@@ -6,10 +6,10 @@ hpCVlojZLqS
 
 sprite $AwsEmrEmrEngineMd [14x14/16z] ROx70O10408FbZdxhzYSTLuRWVP5qjMOdgiB7Ur78SiwgZYf_RnZEBgc9XZgaeRSkvnTMTW0MbH9Tli4oJ_HBYO
 
-!function AwsEmrEmrEngine($id, $name="Emr Emr Engine", $tech="")
+!procedure AwsEmrEmrEngine($id, $name="Emr Emr Engine", $tech="")
   CloudElement($id, 'aws/Analytics/AwsEmrEmrEngine', $name, $tech)
-!endfunction
-!function AwsEmrEmrEngineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsEmrEmrEngineCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsEmrEmrEngineMd>', 'Emr Emr Engine', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

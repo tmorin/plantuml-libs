@@ -6,10 +6,10 @@ fP054e1030EJd4k7_xyMTyPPEAktMA0ME8C3L_jAQzKTiZISf4lMTcwoBAueNx8Vjn0_ieDBff8yNpB6
 
 sprite $MaterialsTapAndPlayMd [14x14/16z] ZOv30aCn54Mlmch_gos-Ckq9dW50-M5XOxmsncPmZlvbJ6vM_rU0M5PfuRBesdLPDZrqMQqn3IfZosIjxCfhczx2pXgrOAk3gMFb3m
 
-!function MaterialsTapAndPlay($id, $name="Tap And Play", $tech="")
+!procedure MaterialsTapAndPlay($id, $name="Tap And Play", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsTapAndPlay', $name, $tech)
-!endfunction
-!function MaterialsTapAndPlayCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsTapAndPlayCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsTapAndPlayMd>', 'Tap And Play', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

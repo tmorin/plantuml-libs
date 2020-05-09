@@ -6,10 +6,10 @@ fvrWSYsdJcsk-fmLCrframm
 
 sprite $MaterialsBusinessCenterMd [14x14/16z] ROw5TGGn34HZCRxqt-qjypUAv-y3WFC_n4p6Rg6DORXzBSgimcQ7_X_eQdL4hnPdbewXbSbJGoB2gNnwfhQGLI4ILGcJrNkJdgpXlU5ZLW8Rat7d1m
 
-!function MaterialsBusinessCenter($id, $name="Business Center", $tech="")
+!procedure MaterialsBusinessCenter($id, $name="Business Center", $tech="")
   CloudElement($id, 'materials/Places/MaterialsBusinessCenter', $name, $tech)
-!endfunction
-!function MaterialsBusinessCenterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBusinessCenterCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBusinessCenterMd>', 'Business Center', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

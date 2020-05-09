@@ -6,10 +6,10 @@ wd7Pc3zCgnwE3NFz0Hth9AfIaZSBcLTRkBBi6yV9Ypq
 
 sprite $AwsMigrationHubMd [14x14/16z] HSu52i1034HHP2ov_u4RfeL-zArc9irjVbP7YImBaD0hGv5StnOZKaRtHk5bEjur_EufsOtanAHFHoWXd6fYG8VgR7McJ-tJpmS
 
-!function AwsMigrationHub($id, $name="Migration Hub", $tech="")
+!procedure AwsMigrationHub($id, $name="Migration Hub", $tech="")
   CloudElement($id, 'aws/MigrationTransfer/AwsMigrationHub', $name, $tech)
-!endfunction
-!function AwsMigrationHubCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsMigrationHubCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsMigrationHubMd>', 'Migration Hub', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

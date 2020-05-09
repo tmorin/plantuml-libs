@@ -6,10 +6,10 @@ od2XOjiHMcIUyuPdBxNtyjNpzsmd1zuvEBdopjKdfr_S_m8
 
 sprite $AwsVpcPeeringMd [14x14/16z] LKvP5W0X29Abv_rl7FedCvKhK04Ti1P89AM2IHuBtIY-f3iYxSBy4-oMQIAjDql8hbfqSYROp0AKO7GGZG0pULckmbM_pgxh3m
 
-!function AwsVpcPeering($id, $name="Vpc Peering", $tech="")
+!procedure AwsVpcPeering($id, $name="Vpc Peering", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcPeering', $name, $tech)
-!endfunction
-!function AwsVpcPeeringCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcPeeringCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcPeeringMd>', 'Vpc Peering', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

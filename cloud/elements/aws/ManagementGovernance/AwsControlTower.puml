@@ -6,10 +6,10 @@ uc6pikq5jnVy0W
 
 sprite $AwsControlTowerMd [14x14/16z] LSs50S0W40F0sll-yo99ZQ271k9tWbbazfS8bJYdQbJck3JsZ79HES_HsQhWIRmI8mcg0b2ElQ0G_0GnL2ti
 
-!function AwsControlTower($id, $name="Control Tower", $tech="")
+!procedure AwsControlTower($id, $name="Control Tower", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsControlTower', $name, $tech)
-!endfunction
-!function AwsControlTowerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsControlTowerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsControlTowerMd>', 'Control Tower', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

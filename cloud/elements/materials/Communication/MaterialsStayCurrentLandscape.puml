@@ -3,10 +3,10 @@ sprite $MaterialsStayCurrentLandscapeLg [20x20/16z] Ow0sO6P70ymCZ5pyV1m80Gu-VYv6
 
 sprite $MaterialsStayCurrentLandscapeMd [14x14/16z] Oy0B6E60WO69aui32hWucLZuEM5IdFmiBFmSC2qSfF1GJK6r0SLsl
 
-!function MaterialsStayCurrentLandscape($id, $name="Stay Current Landscape", $tech="")
+!procedure MaterialsStayCurrentLandscape($id, $name="Stay Current Landscape", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsStayCurrentLandscape', $name, $tech)
-!endfunction
-!function MaterialsStayCurrentLandscapeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsStayCurrentLandscapeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsStayCurrentLandscapeMd>', 'Stay Current Landscape', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

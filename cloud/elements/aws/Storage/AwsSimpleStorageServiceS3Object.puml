@@ -3,10 +3,10 @@ sprite $AwsSimpleStorageServiceS3ObjectLg [20x20/16z] VP053i003097G_d_Z-U-ouZL2m
 
 sprite $AwsSimpleStorageServiceS3ObjectMd [14x14/16z] POw50S0W40DZ-wzS5mA7l0iMb0CzHao0pctepJW_uy42mjTY3WiVizMPtQKdzFJUhDa1
 
-!function AwsSimpleStorageServiceS3Object($id, $name="Simple Storage Service S3 Object", $tech="")
+!procedure AwsSimpleStorageServiceS3Object($id, $name="Simple Storage Service S3 Object", $tech="")
   CloudElement($id, 'aws/Storage/AwsSimpleStorageServiceS3Object', $name, $tech)
-!endfunction
-!function AwsSimpleStorageServiceS3ObjectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSimpleStorageServiceS3ObjectCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSimpleStorageServiceS3ObjectMd>', 'Simple Storage Service S3 Object', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

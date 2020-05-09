@@ -6,10 +6,10 @@ Q8Mxdk8V
 
 sprite $AwsSystemsManagerMd [14x14/16z] XOst0SG0308htO7st_TpS6NJaVS2WHn8grzETviFrNqmGxwMoF3oqeuFvfDLqHdvNmou7q2SV5d55pd17G
 
-!function AwsSystemsManager($id, $name="Systems Manager", $tech="")
+!procedure AwsSystemsManager($id, $name="Systems Manager", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsSystemsManager', $name, $tech)
-!endfunction
-!function AwsSystemsManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsSystemsManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsSystemsManagerMd>', 'Systems Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

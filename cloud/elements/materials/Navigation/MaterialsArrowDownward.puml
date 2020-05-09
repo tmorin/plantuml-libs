@@ -3,10 +3,10 @@ sprite $MaterialsArrowDownwardLg [20x20/16z] jSYr5G11203HSvV-gprP759sedc_oMWOeYr
 
 sprite $MaterialsArrowDownwardMd [14x14/16z] ZSUt0S0W300mz_R_l-a1DgDDq69UfxepudTCprBkITvxglhaRLJ5axUPJ_xUQPm
 
-!function MaterialsArrowDownward($id, $name="Arrow Downward", $tech="")
+!procedure MaterialsArrowDownward($id, $name="Arrow Downward", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsArrowDownward', $name, $tech)
-!endfunction
-!function MaterialsArrowDownwardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsArrowDownwardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsArrowDownwardMd>', 'Arrow Downward', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

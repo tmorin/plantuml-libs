@@ -6,10 +6,10 @@ TozxpvNcxbcm1mBNR8A-zDQwTY0AfrtzhXK
 
 sprite $MaterialsAvTimerMd [14x14/16z] ROw50G0X5481M_VVz_2wdl4xy0F5cnL7JRjQ8c9IAPYaMYEdC_bZ5MkqeihvoMQ0h6mMoDsYFxDd8XLhshjO59bYvpx3fDjY8hui
 
-!function MaterialsAvTimer($id, $name="Av Timer", $tech="")
+!procedure MaterialsAvTimer($id, $name="Av Timer", $tech="")
   CloudElement($id, 'materials/Av/MaterialsAvTimer', $name, $tech)
-!endfunction
-!function MaterialsAvTimerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAvTimerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAvTimerMd>', 'Av Timer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

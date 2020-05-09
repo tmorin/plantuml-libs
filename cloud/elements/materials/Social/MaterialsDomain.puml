@@ -6,10 +6,10 @@ Co0Ux5-OpleoXzZFCEn2UDiN
 
 sprite $MaterialsDomainMd [14x14/16z] LOp50G012CDmtt_TSyqlq1R-86tWRPvPcO-96YS-l-gSsD7zPyx9MrbyCu-qLjZqDTpjJX8W7dQiE0gVFxNZ1tpyig9Z8pT3Ua3uim8
 
-!function MaterialsDomain($id, $name="Domain", $tech="")
+!procedure MaterialsDomain($id, $name="Domain", $tech="")
   CloudElement($id, 'materials/Social/MaterialsDomain', $name, $tech)
-!endfunction
-!function MaterialsDomainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDomainCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDomainMd>', 'Domain', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ LOnNWaKX349JmMJslz_1wzSxTYcUMTMDZmnTU6RtJo2wzTBpmaZNp8oAe5xcOU6UPdXQTfUq-p9hfQPr
 jajqXxcx_GC
 }
 
-!function AzureInventorySoftware($id, $name="Inventory Software", $tech="")
+!procedure AzureInventorySoftware($id, $name="Inventory Software", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureInventorySoftware', $name, $tech)
-!endfunction
-!function AzureInventorySoftwareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureInventorySoftwareCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureInventorySoftwareMd>', 'Inventory Software', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ LOw50SCm30J5OE-_RryDNz0df3_iwKmVSksL8Y-hC4ChNLKr1dhN9SwSaG8ZjKTS19G_nzsPQKJnv7GM
 oWnWCujmDQJajFzY8bZY1m
 }
 
-!function AzureIntuneConnectorSystemCenter($id, $name="Intune Connector System Center", $tech="")
+!procedure AzureIntuneConnectorSystemCenter($id, $name="Intune Connector System Center", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureIntuneConnectorSystemCenter', $name, $tech)
-!endfunction
-!function AzureIntuneConnectorSystemCenterCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureIntuneConnectorSystemCenterCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureIntuneConnectorSystemCenterMd>', 'Intune Connector System Center', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

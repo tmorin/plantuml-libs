@@ -6,10 +6,10 @@ I49i_iT-L3i1
 
 sprite $AzureProtocolStackMd [20x14/16z] ZSs53S1020NG9X0Est_TAhzkBuOJUH49gWbWH8POsapOZ15tXSm8iLg9GAG9RWdWH8vOQvvL6V7wmvqGIolkY2H_Yho80G
 
-!function AzureProtocolStack($id, $name="Protocol Stack", $tech="")
+!procedure AzureProtocolStack($id, $name="Protocol Stack", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureProtocolStack', $name, $tech)
-!endfunction
-!function AzureProtocolStackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureProtocolStackCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureProtocolStackMd>', 'Protocol Stack', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

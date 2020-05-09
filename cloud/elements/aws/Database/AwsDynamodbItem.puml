@@ -3,10 +3,10 @@ sprite $AwsDynamodbItemLg [20x20/16z] lT350GGn3CNGsFvI_nqlCzxcXHcQYnak6dFYGGA9a7
 
 sprite $AwsDynamodbItemMd [14x14/16z] XOx50G0X3C0goVuZdmky258NFE4HLXve8QKP1me9dtN8ye_r5yj382KEC5jVvYz2Osqzcvr_EM-z0m
 
-!function AwsDynamodbItem($id, $name="Dynamodb Item", $tech="")
+!procedure AwsDynamodbItem($id, $name="Dynamodb Item", $tech="")
   CloudElement($id, 'aws/Database/AwsDynamodbItem', $name, $tech)
-!endfunction
-!function AwsDynamodbItemCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbItemCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbItemMd>', 'Dynamodb Item', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -4,9 +4,9 @@ ZP050e0m24NX6nlXTl_JsjrFLpJGRr3kA4OHgzkADwCGJSahq6gIWRY7XaKIU9P5CqM_WIGP9fdax90y
 tpL7MdDSQxdMVDlRTGQti_fF1m
 }
 
-!function MaterialsGroupBoard($id, $name="Board", $tech="")
+!procedure MaterialsGroupBoard($id, $name="Board", $tech="")
   PersoGroup($id, "MaterialsGroupBoard", "<$MaterialsGroupBoardLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<MaterialsGroupBoard>> {
   StereotypeFontColor $FONT_COLOR
   BorderThickness 1

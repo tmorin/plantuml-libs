@@ -6,10 +6,10 @@ clTr6XbqCdQmpv5-hvH-nRIRiUyJysaVcG0eMxTvLg8cOhgVbGk7k9Ty0G
 
 sprite $MaterialsLocalLaundryServiceMd [14x14/16z] NSxL0O0m34NHw0kU_QV5eNAhfr-bBeatkUG1ZpppInW2mo_Fd83n5vY8yGWZqoaUSUjwqv7zaPsOLx57GJ9dS3pQbFMSsotF1QfOqhkVTHq
 
-!function MaterialsLocalLaundryService($id, $name="Local Laundry Service", $tech="")
+!procedure MaterialsLocalLaundryService($id, $name="Local Laundry Service", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsLocalLaundryService', $name, $tech)
-!endfunction
-!function MaterialsLocalLaundryServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocalLaundryServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocalLaundryServiceMd>', 'Local Laundry Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

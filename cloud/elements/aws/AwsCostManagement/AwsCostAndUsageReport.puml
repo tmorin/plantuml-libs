@@ -6,10 +6,10 @@ LejZH4hdrGWAGyKEvQpdKIDQIj8MURwFnjwRZSDUy0S
 
 sprite $AwsCostAndUsageReportMd [14x14/16z] LSc74K81409H4mly_WlspkmowGsTabVk7rkJ7t6JBKHMyKIuia8Q6IavQcmBUtMCTdaAIM33AjwruVKvREr-VJLwzgyNxm
 
-!function AwsCostAndUsageReport($id, $name="Cost And Usage Report", $tech="")
+!procedure AwsCostAndUsageReport($id, $name="Cost And Usage Report", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsCostAndUsageReport', $name, $tech)
-!endfunction
-!function AwsCostAndUsageReportCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCostAndUsageReportMd>', 'Cost And Usage Report', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

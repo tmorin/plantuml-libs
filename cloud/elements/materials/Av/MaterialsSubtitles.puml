@@ -3,10 +3,10 @@ sprite $MaterialsSubtitlesLg [20x20/16z] fP3L5S0W34LxS7Z8_jisH2hVt1QB9zSHFlxm979
 
 sprite $MaterialsSubtitlesMd [14x14/16z] XSUt0SCW4030pz5X_ssD9A34rnsSa6u4uD_D_woptvL3NsFam0jVIu_sIrvJ6ZYLz9h99OrjZDGc9JZv0G
 
-!function MaterialsSubtitles($id, $name="Subtitles", $tech="")
+!procedure MaterialsSubtitles($id, $name="Subtitles", $tech="")
   CloudElement($id, 'materials/Av/MaterialsSubtitles', $name, $tech)
-!endfunction
-!function MaterialsSubtitlesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSubtitlesCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSubtitlesMd>', 'Subtitles', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

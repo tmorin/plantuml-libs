@@ -9,10 +9,10 @@ PT255S0m30DHwzKwb_QVjunHCJ-Sk29ZHPF4PCiuJAE21FsrHc0i_NJgfVLz-alNx-a_FVzEFFyVr_hr
 om8
 }
 
-!function AzureExpressrouteCircuits($id, $name="Expressroute Circuits", $tech="")
+!procedure AzureExpressrouteCircuits($id, $name="Expressroute Circuits", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureExpressrouteCircuits', $name, $tech)
-!endfunction
-!function AzureExpressrouteCircuitsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureExpressrouteCircuitsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureExpressrouteCircuitsMd>', 'Expressroute Circuits', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

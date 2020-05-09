@@ -3,10 +3,10 @@ sprite $AwsElasticacheCacheNodeLg [20x20/16z] pP254GD14CEqXkk_up0z510ThiP31cU3WR
 
 sprite $AwsElasticacheCacheNodeMd [14x14/16z] jOv50K0n5CEA_YL_Xat0yh2t8Fq8Oduu9NGyEXfiZwEOIUxa0yc-4ZxMfDbijju1
 
-!function AwsElasticacheCacheNode($id, $name="Elasticache Cache Node", $tech="")
+!procedure AwsElasticacheCacheNode($id, $name="Elasticache Cache Node", $tech="")
   CloudElement($id, 'aws/Database/AwsElasticacheCacheNode', $name, $tech)
-!endfunction
-!function AwsElasticacheCacheNodeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticacheCacheNodeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticacheCacheNodeMd>', 'Elasticache Cache Node', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

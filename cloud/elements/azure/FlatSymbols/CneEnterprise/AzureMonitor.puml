@@ -3,10 +3,10 @@ sprite $AzureMonitorLg [22x20/16z] tSx50O0m343HUYD__tLnXmbujtYK3uBr5uCUNlg_in9V1
 
 sprite $AzureMonitorMd [15x14/16z] jSU50KCX30JGs4TosN_Uuh10N_GSBuV9PO3G9V-C9gegChQXUeF6kqhSv8ZukA66fRPOf8KcEQA3Pw8V
 
-!function AzureMonitor($id, $name="Monitor", $tech="")
+!procedure AzureMonitor($id, $name="Monitor", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureMonitor', $name, $tech)
-!endfunction
-!function AzureMonitorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMonitorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMonitorMd>', 'Monitor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

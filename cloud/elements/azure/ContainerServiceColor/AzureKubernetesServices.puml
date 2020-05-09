@@ -9,10 +9,10 @@ PK-30S0m4Cmfs7_WsdqRfHGbpJZL1fB7g90oXlSGzn0V8JcZktXLscf8IJpLCin9huHTUy2ujMn30wcE
 eVljhMy6
 }
 
-!function AzureKubernetesServices($id, $name="Kubernetes Services", $tech="")
+!procedure AzureKubernetesServices($id, $name="Kubernetes Services", $tech="")
   CloudElement($id, 'azure/ContainerServiceColor/AzureKubernetesServices', $name, $tech)
-!endfunction
-!function AzureKubernetesServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureKubernetesServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureKubernetesServicesMd>', 'Kubernetes Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ POy74aGX24Cb48Btl_0Q_pXjdvKE8s4z88qGAv07t9yKAFQ1HHP2W4NjlMKjiA0csRBSpeSPQwuuumBe
 NnqY94G4ql7tfx_XVW
 }
 
-!function AzureDiskSnapshots($id, $name="Disk Snapshots", $tech="")
+!procedure AzureDiskSnapshots($id, $name="Disk Snapshots", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureDiskSnapshots', $name, $tech)
-!endfunction
-!function AzureDiskSnapshotsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDiskSnapshotsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDiskSnapshotsMd>', 'Disk Snapshots', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

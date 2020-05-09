@@ -9,10 +9,10 @@ PSh70S1020D1YNpqtwzpzluqW3Ej7a7iILQEBglODqTtfn8oP0UBIcf8jksmvRKybgvt3zULeXS1BDRS
 3
 }
 
-!function AzureRecoveryServicesVaults($id, $name="Recovery Services Vaults", $tech="")
+!procedure AzureRecoveryServicesVaults($id, $name="Recovery Services Vaults", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureRecoveryServicesVaults', $name, $tech)
-!endfunction
-!function AzureRecoveryServicesVaultsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureRecoveryServicesVaultsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureRecoveryServicesVaultsMd>', 'Recovery Services Vaults', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

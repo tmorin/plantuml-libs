@@ -6,10 +6,10 @@ IbocKDzEjoe-pRBABScj1gPfhD7oDW1ijk7JPN_miGSN
 
 sprite $AwsResourceAccessManagerMd [14x14/16z] LSUt0SD040InQCsS-kzNzEGZ0vSUbdJmHJv6JEtgMALMjhTDOWUhvx2f59TjJLedPbk8Yjrp4pafnnmfahtjDqET5jYszNBispy
 
-!function AwsResourceAccessManager($id, $name="Resource Access Manager", $tech="")
+!procedure AwsResourceAccessManager($id, $name="Resource Access Manager", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsResourceAccessManager', $name, $tech)
-!endfunction
-!function AwsResourceAccessManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsResourceAccessManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsResourceAccessManagerMd>', 'Resource Access Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

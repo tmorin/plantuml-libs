@@ -6,10 +6,10 @@ RSu55e0W44NH-LCqx7-rTX-VVLM0VWEluKMnjzQ6FetRM8juMj-ikcsvRbPTnAjXptYngWGWE-tfQe6q
 
 sprite $MaterialsGTranslateMd [14x14/16z] LSh50S1G20FGO3zKsN_QkhvR17z6ik76gXfDTdkQaWFji2KN3MBdG4YofPeA373j744BtrCpDSdE_7Xo2CyQyafrSDCzURyPoo5xWcnyD1pFWpGtSyNV2W
 
-!function MaterialsGTranslate($id, $name="G Translate", $tech="")
+!procedure MaterialsGTranslate($id, $name="G Translate", $tech="")
   CloudElement($id, 'materials/Action/MaterialsGTranslate', $name, $tech)
-!endfunction
-!function MaterialsGTranslateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGTranslateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGTranslateMd>', 'G Translate', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

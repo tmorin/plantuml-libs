@@ -6,10 +6,10 @@ klptCfGzFuZvRFyTS5S_jskd0AwT_dQ_0G
 
 sprite $GcpPersistentDiskMd [14x14/16z] LOw50G0m2CEAy__3SyqKBm2I0Q537WCVfkP2cy6nhM30sYEDvZJqsqb5etkZfwZG_8oh6Je_CM9AtPAtYxyJaj_fjfJDNWJygYi
 
-!function GcpPersistentDisk($id, $name="Persistent Disk", $tech="")
+!procedure GcpPersistentDisk($id, $name="Persistent Disk", $tech="")
   CloudElement($id, 'gcp/Storage/GcpPersistentDisk', $name, $tech)
-!endfunction
-!function GcpPersistentDiskCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpPersistentDiskCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpPersistentDiskMd>', 'Persistent Disk', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

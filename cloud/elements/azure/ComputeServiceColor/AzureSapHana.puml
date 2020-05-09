@@ -10,10 +10,10 @@ TS_5WGGm34FHRuoj_WlUoJADmdadwMcsdblny3ChQHxxpjq_2BM1bOvHzutblXC78hqLu2eiZ7md6dfN
 svU3OrdpGMn4EjUu2Qdvo5nmetRRhdqHsZcpj_9Rys-4VgRnU6BDTti1
 }
 
-!function AzureSapHana($id, $name="Sap Hana", $tech="")
+!procedure AzureSapHana($id, $name="Sap Hana", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureSapHana', $name, $tech)
-!endfunction
-!function AzureSapHanaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSapHanaCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSapHanaMd>', 'Sap Hana', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

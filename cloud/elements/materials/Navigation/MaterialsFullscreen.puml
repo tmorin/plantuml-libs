@@ -3,10 +3,10 @@ sprite $MaterialsFullscreenLg [20x20/16z] Ow01O6LdPsTYO602KgmmCNOU3eWO1myxN8m3nk
 
 sprite $MaterialsFullscreenMd [14x14/16z] Oy0F61aPmGI4my79oi30oid12EPnCe7ac3WXF5OuHG0WL6AQWh01rNRy
 
-!function MaterialsFullscreen($id, $name="Fullscreen", $tech="")
+!procedure MaterialsFullscreen($id, $name="Fullscreen", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsFullscreen', $name, $tech)
-!endfunction
-!function MaterialsFullscreenCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFullscreenCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFullscreenMd>', 'Fullscreen', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

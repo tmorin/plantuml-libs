@@ -6,10 +6,10 @@ LNdK
 
 sprite $MaterialsCenterFocusWeakMd [14x14/16z] NKw30G102FnS-m_yTdQNFWB4vX2X9U46rPb7TUWmPnnhPdsi6ckcjYH2Mj097VhOdxsJxvNtm_lzHVPI0G
 
-!function MaterialsCenterFocusWeak($id, $name="Center Focus Weak", $tech="")
+!procedure MaterialsCenterFocusWeak($id, $name="Center Focus Weak", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCenterFocusWeak', $name, $tech)
-!endfunction
-!function MaterialsCenterFocusWeakCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCenterFocusWeakCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCenterFocusWeakMd>', 'Center Focus Weak', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

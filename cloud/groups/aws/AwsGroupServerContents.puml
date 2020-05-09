@@ -1,9 +1,9 @@
 @startuml
 sprite $AwsGroupServerContentsLg [20x20/16z] uoG5SB130GT2Z8s55GnOs934s3Z0gjXGnDX0ojXGnI0qONKSOC16WHsq54E40TQm8WK
 
-!function AwsGroupServerContents($id, $name="Server Contents", $tech="")
+!procedure AwsGroupServerContents($id, $name="Server Contents", $tech="")
   CloudGroup($id, "AwsGroupServerContents", "<$AwsGroupServerContentsLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupServerContents>> {
   StereotypeFontColor $AWS_COLOR_GREY
   BorderThickness 1

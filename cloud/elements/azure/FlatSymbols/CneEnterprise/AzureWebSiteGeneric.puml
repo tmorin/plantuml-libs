@@ -3,10 +3,10 @@ sprite $AzureWebSiteGenericLg [14x20/16z] bSgr0GCn0CLGoSx-Av-PgxpkWs4ImcygQH64Kj
 
 sprite $AzureWebSiteGenericMd [10x14/16z] LOs50G0W20HVt7zcEa_feXy0uptzX8GYeIgmchuBZ73InJ2ZYxXocmK
 
-!function AzureWebSiteGeneric($id, $name="Web Site Generic", $tech="")
+!procedure AzureWebSiteGeneric($id, $name="Web Site Generic", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzureWebSiteGeneric', $name, $tech)
-!endfunction
-!function AzureWebSiteGenericCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureWebSiteGenericCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureWebSiteGenericMd>', 'Web Site Generic', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

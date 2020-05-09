@@ -9,10 +9,10 @@ PP070WD114Lzez__lkb8icztcWxKBYYquaAf1UW9WngaMRnleJH4IwKILsbuokDGTpTkwKdMU7guMKi1
 iHshRiSx7TqRxW
 }
 
-!function AzureDeviceHealth($id, $name="Device Health", $tech="")
+!procedure AzureDeviceHealth($id, $name="Device Health", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDeviceHealth', $name, $tech)
-!endfunction
-!function AzureDeviceHealthCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDeviceHealthCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDeviceHealthMd>', 'Device Health', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

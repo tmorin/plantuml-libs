@@ -3,10 +3,10 @@ sprite $AwsClientLg [20x20/16z] nT2r5GD15CNGZvftt7-_fcN8zuOAPP4dOQLneWIE2HgKiPFw
 
 sprite $AwsClientMd [14x14/16z] bSwr0KGX44LH6BaF-Yzu5Gt_YM3Syc2W1L3O40BLCjHdFok32H2387G8v-3OQ6gz0-CKLsjmN_q6
 
-!function AwsClient($id, $name="Client", $tech="")
+!procedure AwsClient($id, $name="Client", $tech="")
   CloudElement($id, 'aws/General/AwsClient', $name, $tech)
-!endfunction
-!function AwsClientCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsClientCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsClientMd>', 'Client', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

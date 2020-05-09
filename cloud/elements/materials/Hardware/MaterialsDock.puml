@@ -3,10 +3,10 @@ sprite $MaterialsDockLg [20x20/16z] pT0b0i0m00J1kp3d_wyjX5LrHwvSD1GFajXKJ8yOezhD
 
 sprite $MaterialsDockMd [14x14/16z] fST70S0W04MnpzxWtsrVjm1oY-0yd00t5-PJtpEwVnQ5kBjaaTwjWVNCbefY1PYBtaNyyxXs
 
-!function MaterialsDock($id, $name="Dock", $tech="")
+!procedure MaterialsDock($id, $name="Dock", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsDock', $name, $tech)
-!endfunction
-!function MaterialsDockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDockCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDockMd>', 'Dock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $AwsFsxForLustreLg [20x20/16z] pOq50S0m40E7Twb_msEeWsTEMYs9xjRFCEIKtuou3o
 
 sprite $AwsFsxForLustreMd [14x14/16z] hST70S104CImT7lu0qwxWc3rKue0E7S1NkW_35pdUV3D279YYZm
 
-!function AwsFsxForLustre($id, $name="Fsx For Lustre", $tech="")
+!procedure AwsFsxForLustre($id, $name="Fsx For Lustre", $tech="")
   CloudElement($id, 'aws/Storage/AwsFsxForLustre', $name, $tech)
-!endfunction
-!function AwsFsxForLustreCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsFsxForLustreCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsFsxForLustreMd>', 'Fsx For Lustre', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

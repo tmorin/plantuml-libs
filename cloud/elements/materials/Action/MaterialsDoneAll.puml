@@ -3,10 +3,10 @@ sprite $MaterialsDoneAllLg [20x20/16z] jSg53G0X0C30uix-sxwxnd2ub9P3RCTEte0AwaH98
 
 sprite $MaterialsDoneAllMd [14x14/16z] bOkr0O1000DZR_iFZ4E7NHN5Vqn8fqcdXf-C0nRwQDJ3sguPLzkl3ojHZP_C
 
-!function MaterialsDoneAll($id, $name="Done All", $tech="")
+!procedure MaterialsDoneAll($id, $name="Done All", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDoneAll', $name, $tech)
-!endfunction
-!function MaterialsDoneAllCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDoneAllCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDoneAllMd>', 'Done All', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

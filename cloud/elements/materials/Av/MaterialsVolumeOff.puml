@@ -6,10 +6,10 @@ xDELUjgmDvH9DvhV5ZmSaC1kf4xNJoFyJmS
 
 sprite $MaterialsVolumeOffMd [14x14/16z] VKt50SGm00BYll-qTsqZp_33SOKNG3WtcQBWoH0E9O3mklG-Py5HaO3Q62DB1b6BjIGyR2P7Db4Cd3Cfhwb9mwjealbkFAxu0m
 
-!function MaterialsVolumeOff($id, $name="Volume Off", $tech="")
+!procedure MaterialsVolumeOff($id, $name="Volume Off", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVolumeOff', $name, $tech)
-!endfunction
-!function MaterialsVolumeOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVolumeOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVolumeOffMd>', 'Volume Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsPictureInPictureLg [20x20/16z] fT235K0n30NGlDhPVzfl6_UuZUafg0qG
 
 sprite $MaterialsPictureInPictureMd [14x14/16z] TSx50OC03030kBN0_jFYBlUB1wwGTWYKiKiIdnicu28sHJnM76sDjEkw-eX8LGNcQFU8_8XShjUldrqD
 
-!function MaterialsPictureInPicture($id, $name="Picture In Picture", $tech="")
+!procedure MaterialsPictureInPicture($id, $name="Picture In Picture", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPictureInPicture', $name, $tech)
-!endfunction
-!function MaterialsPictureInPictureCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPictureInPictureCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPictureInPictureMd>', 'Picture In Picture', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

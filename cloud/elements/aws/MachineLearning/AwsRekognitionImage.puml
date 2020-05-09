@@ -6,10 +6,10 @@ NOlBeHWm3CA4ZKdtdxXEslVLKGXuTCwIvXjLW3hHT-cPrlRrQPAkTaozKbSrZvajWIbIvKjhJ1e5cumz
 
 sprite $AwsRekognitionImageMd [14x14/16z] HOk7OKHH3C8CYDp-6yU_wrLJve3IPcxasE4QJ9mzh2vZ7NUIOOT2Uxp794QkSauHAJyvb_T3F5xzLxXw0gm5apbs2JWSG_01p7G7SU3PgSp7Fm
 
-!function AwsRekognitionImage($id, $name="Rekognition Image", $tech="")
+!procedure AwsRekognitionImage($id, $name="Rekognition Image", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsRekognitionImage', $name, $tech)
-!endfunction
-!function AwsRekognitionImageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRekognitionImageCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRekognitionImageMd>', 'Rekognition Image', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

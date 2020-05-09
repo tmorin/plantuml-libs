@@ -3,10 +3,10 @@ sprite $AwsInternetOfThingsLg [20x20/16z] XSw54O0m30LGx0lxBunJRz_bB3xLp8KpHoLuvX
 
 sprite $AwsInternetOfThingsMd [14x14/16z] RSw53S0m34JHg-ch-mzSnYHFQBR-F1ykvVp8Au9FH1LF10LS4GLGtD6EApf3tYqHZ2yyilri-j0A
 
-!function AwsInternetOfThings($id, $name="Internet Of Things", $tech="")
+!procedure AwsInternetOfThings($id, $name="Internet Of Things", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsInternetOfThings', $name, $tech)
-!endfunction
-!function AwsInternetOfThingsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsInternetOfThingsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsInternetOfThingsMd>', 'Internet Of Things', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

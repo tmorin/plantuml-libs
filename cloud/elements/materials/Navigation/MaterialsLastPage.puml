@@ -3,10 +3,10 @@ sprite $MaterialsLastPageLg [20x20/16z] Ow0NO666qkm8CGvkY20R9oDSZ14iY11322B448Bu
 
 sprite $MaterialsLastPageMd [14x14/16z] Oo05C3A2I2P628-P0yHWOu5AiW2v81wCoyc8mSDKYJ05nGOcafm5
 
-!function MaterialsLastPage($id, $name="Last Page", $tech="")
+!procedure MaterialsLastPage($id, $name="Last Page", $tech="")
   CloudElement($id, 'materials/Navigation/MaterialsLastPage', $name, $tech)
-!endfunction
-!function MaterialsLastPageCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLastPageCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLastPageMd>', 'Last Page', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

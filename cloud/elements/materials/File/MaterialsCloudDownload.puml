@@ -6,10 +6,10 @@ JOboev4lb7XujJiryEj_ay9ITW
 
 sprite $MaterialsCloudDownloadMd [14x14/16z] XOlL0KCn30FbCFhsd_RnTtj12_IFc7FKXrK7h_OD-DvEkOSyeONGME4Q7AXIXLbitfKenRjS5j3iQZTWLPxn6HZlqpl0ZBAKSoubNmJzuWG
 
-!function MaterialsCloudDownload($id, $name="Cloud Download", $tech="")
+!procedure MaterialsCloudDownload($id, $name="Cloud Download", $tech="")
   CloudElement($id, 'materials/File/MaterialsCloudDownload', $name, $tech)
-!endfunction
-!function MaterialsCloudDownloadCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCloudDownloadCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCloudDownloadMd>', 'Cloud Download', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

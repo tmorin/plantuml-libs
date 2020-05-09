@@ -6,10 +6,10 @@ wWu
 
 sprite $MaterialsBatteryUnknownMd [14x14/16z] PSsr0SD040NHvR-sgFzgnN0msOk6-XZW5uffWZxAPIzVJS3qoKNy4_wXdvQ_HA6mfP1xgOXIvSyIIAEk3G
 
-!function MaterialsBatteryUnknown($id, $name="Battery Unknown", $tech="")
+!procedure MaterialsBatteryUnknown($id, $name="Battery Unknown", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBatteryUnknown', $name, $tech)
-!endfunction
-!function MaterialsBatteryUnknownCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBatteryUnknownCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBatteryUnknownMd>', 'Battery Unknown', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

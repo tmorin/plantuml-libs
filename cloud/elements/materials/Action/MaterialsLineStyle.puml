@@ -3,10 +3,10 @@ sprite $MaterialsLineStyleLg [20x20/16z] fSl50GL120DG4kGhi_rNk-vocdT18rKOlXEKdZK
 
 sprite $MaterialsLineStyleMd [14x14/16z] VSc55O0m30JGa_1ms7zQtAM_ZIE5sO60sdxJwda39ti6Yuaqv_Sjpwqyb_Dy7cLI8gtvPdYUvW8m4BINWfGH
 
-!function MaterialsLineStyle($id, $name="Line Style", $tech="")
+!procedure MaterialsLineStyle($id, $name="Line Style", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLineStyle', $name, $tech)
-!endfunction
-!function MaterialsLineStyleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLineStyleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLineStyleMd>', 'Line Style', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

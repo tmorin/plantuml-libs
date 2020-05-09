@@ -9,10 +9,10 @@ HKo75KGX21E8tVUp_xQ7kHOhQUN20Iy_DB9zlbRR8bUhTgVQ8VGg6r9F7arJGz-xezqf5ZzOeRulMch_
 4EK5
 }
 
-!function MaterialsDirectionsBoat($id, $name="Directions Boat", $tech="")
+!procedure MaterialsDirectionsBoat($id, $name="Directions Boat", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirectionsBoat', $name, $tech)
-!endfunction
-!function MaterialsDirectionsBoatCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsBoatCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsBoatMd>', 'Directions Boat', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

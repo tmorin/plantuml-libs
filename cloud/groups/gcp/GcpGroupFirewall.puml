@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupFirewall($id, $name="Firewall", $tech="")
+!procedure GcpGroupFirewall($id, $name="Firewall", $tech="")
   CloudGroup($id, "GcpGroupFirewall", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupFirewall>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

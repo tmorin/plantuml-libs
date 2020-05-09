@@ -3,10 +3,10 @@ sprite $MaterialsVolumeDownLg [20x20/16z] hL350G0n2AjxOVzfpptyhdaYCJK66aVEuwXx63
 
 sprite $MaterialsVolumeDownMd [14x14/16z] Oo0C654ux8n870uUE8-DZPEVXv652IB1nSyFvB6nOV8GAj5DGTY0QZj1
 
-!function MaterialsVolumeDown($id, $name="Volume Down", $tech="")
+!procedure MaterialsVolumeDown($id, $name="Volume Down", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVolumeDown', $name, $tech)
-!endfunction
-!function MaterialsVolumeDownCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVolumeDownCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVolumeDownMd>', 'Volume Down', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

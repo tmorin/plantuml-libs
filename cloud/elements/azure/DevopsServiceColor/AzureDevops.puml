@@ -6,10 +6,10 @@ uyizRoc41guFApg3wOR8t9wJBW
 
 sprite $AzureDevopsMd [14x14/16z] LKx50G0n3286wVu3dqlBYmY22sduOMIytACebfivaX9PwLvIwY1slqlYIVy9xtGChN_gNgSecoOWxuJC7WC0nuEkwoLIvt2t2uC5ps47
 
-!function AzureDevops($id, $name="Devops", $tech="")
+!procedure AzureDevops($id, $name="Devops", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzureDevops', $name, $tech)
-!endfunction
-!function AzureDevopsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDevopsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDevopsMd>', 'Devops', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

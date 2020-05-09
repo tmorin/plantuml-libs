@@ -6,10 +6,10 @@ My_MixMFBG
 
 sprite $AzureSharedImageGalleriesMd [14x14/16z] JSrH0aGH34FHjabqnluN_01Su7orP1cbtCt4cKGXH11jKr2cI9Y1L4XTuNu51rx5gnORWvgpiftVMnqj_1yrN3LSNTGF
 
-!function AzureSharedImageGalleries($id, $name="Shared Image Galleries", $tech="")
+!procedure AzureSharedImageGalleries($id, $name="Shared Image Galleries", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureSharedImageGalleries', $name, $tech)
-!endfunction
-!function AzureSharedImageGalleriesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSharedImageGalleriesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSharedImageGalleriesMd>', 'Shared Image Galleries', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

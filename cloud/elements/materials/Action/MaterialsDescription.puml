@@ -3,10 +3,10 @@ sprite $MaterialsDescriptionLg [20x20/16z] TT350G0X3031u0xzLtk2M_OvE814QnCn5yEVu
 
 sprite $MaterialsDescriptionMd [14x14/16z] NSV50OH0402mSJkX_sfnMCalC24_y3rTTkxIJV3eCmLqVfTcgTU-cLNVvPxXpfwLx-gPqywVXJ1BFBkT8xyHJ3O
 
-!function MaterialsDescription($id, $name="Description", $tech="")
+!procedure MaterialsDescription($id, $name="Description", $tech="")
   CloudElement($id, 'materials/Action/MaterialsDescription', $name, $tech)
-!endfunction
-!function MaterialsDescriptionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDescriptionCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDescriptionMd>', 'Description', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

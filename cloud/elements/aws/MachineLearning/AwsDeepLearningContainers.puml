@@ -6,10 +6,10 @@ kn3UzcIZ-rtMfaZrIIUELMEdqfPjFlsoMVl6Fm
 
 sprite $AwsDeepLearningContainersMd [14x14/16z] LSZ70GCn30D19wJhls23uakhE8mtdP9RiQXo9Kph-CSVLCeZWFKFi9KGw7zk-H75RMJb9Df-GWzSLALaTJOgNQPLMqwtyWS
 
-!function AwsDeepLearningContainers($id, $name="Deep Learning Containers", $tech="")
+!procedure AwsDeepLearningContainers($id, $name="Deep Learning Containers", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsDeepLearningContainers', $name, $tech)
-!endfunction
-!function AwsDeepLearningContainersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeepLearningContainersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeepLearningContainersMd>', 'Deep Learning Containers', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

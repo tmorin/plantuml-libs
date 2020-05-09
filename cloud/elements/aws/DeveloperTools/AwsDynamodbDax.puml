@@ -6,10 +6,10 @@ ZYx8u_sQjGYhXe-SiuJKr7lifIQzeMQ_xm_ZOET16Nn34YxyvmO
 
 sprite $AwsDynamodbDaxMd [14x14/16z] JSct0O0m30J0Z_B-4mDMnLKVSCaMWQN6ThgTnLAtdOYaEziY9x6ZRRXKZm0Q812oa1spLU4pr0UnfwW1-HBh072sgSMLY4GEiPJ4O_piym8
 
-!function AwsDynamodbDax($id, $name="Dynamodb Dax", $tech="")
+!procedure AwsDynamodbDax($id, $name="Dynamodb Dax", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsDynamodbDax', $name, $tech)
-!endfunction
-!function AwsDynamodbDaxCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDynamodbDaxCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDynamodbDaxMd>', 'Dynamodb Dax', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

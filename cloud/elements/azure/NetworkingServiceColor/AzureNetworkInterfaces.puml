@@ -6,10 +6,10 @@ fDk4slXy0BJSiaQrAC-TM9o7N
 
 sprite $AzureNetworkInterfacesMd [13x14/16z] LKw30GGm37p4rVxJrcPqeBFWqrxnRGdyY9ajjQNulnBujaHy2C7BI1gklcCCsaipGIIcbR3mJgngS8rc4choetfEqkseMUM5cZn62m
 
-!function AzureNetworkInterfaces($id, $name="Network Interfaces", $tech="")
+!procedure AzureNetworkInterfaces($id, $name="Network Interfaces", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureNetworkInterfaces', $name, $tech)
-!endfunction
-!function AzureNetworkInterfacesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNetworkInterfacesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNetworkInterfacesMd>', 'Network Interfaces', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

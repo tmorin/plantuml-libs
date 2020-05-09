@@ -6,10 +6,10 @@ rmm
 
 sprite $MaterialsCenterFocusStrongMd [14x14/16z] NKw30G0W4Eoost_QxBV_o4UWj3bAqHAZ5QfJsbH7DUQCfZLJVQmQrKnjoH1a2pfHdv9lZJVRaw87xvNtm_lzHVPI0G
 
-!function MaterialsCenterFocusStrong($id, $name="Center Focus Strong", $tech="")
+!procedure MaterialsCenterFocusStrong($id, $name="Center Focus Strong", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCenterFocusStrong', $name, $tech)
-!endfunction
-!function MaterialsCenterFocusStrongCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCenterFocusStrongCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCenterFocusStrongMd>', 'Center Focus Strong', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

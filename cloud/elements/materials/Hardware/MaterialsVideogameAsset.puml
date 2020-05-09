@@ -3,10 +3,10 @@ sprite $MaterialsVideogameAssetLg [20x20/16z] lOv50i9054EJSKcR-vyMTzW1VIFV1LkG-W
 
 sprite $MaterialsVideogameAssetMd [14x14/16z] ZOt50K0n34ARGbso_xJVzPPtYGBE3lW0Xw4vwSa0LUddtYSKCaC4INkFakzfmhSsUNrkpTYwlyi_mSuA
 
-!function MaterialsVideogameAsset($id, $name="Videogame Asset", $tech="")
+!procedure MaterialsVideogameAsset($id, $name="Videogame Asset", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsVideogameAsset', $name, $tech)
-!endfunction
-!function MaterialsVideogameAssetCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVideogameAssetCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVideogameAssetMd>', 'Videogame Asset', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

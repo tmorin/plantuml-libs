@@ -6,10 +6,10 @@ KfupiyorsmN6N0DgzGnxQWg0cawqtm
 
 sprite $GcpCloudDataflowMd [14x14/16z] LSx70GCm349Hh0RxJnpaz7zxhW9mydQ0nV0sbwLNPGIbSH83Q5aHbXf9evp9XNescV_wFQdyVMLUFv2h-FszFvCPFAlVgHy
 
-!function GcpCloudDataflow($id, $name="Cloud Dataflow", $tech="")
+!procedure GcpCloudDataflow($id, $name="Cloud Dataflow", $tech="")
   CloudElement($id, 'gcp/DataAnalytics/GcpCloudDataflow', $name, $tech)
-!endfunction
-!function GcpCloudDataflowCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudDataflowCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudDataflowMd>', 'Cloud Dataflow', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ wwt5qSwjZQFsqY1w9BWu
 
 sprite $MaterialsSettingsRemoteMd [14x14/16z] TSU50GD020F0uF2w_xHr5pG7WBHwBoNWZ0nXbaYwI8ZD-FHmAKspLDoBJlE4H_Y3FCm6FvH0FjL5-bFhL2_Q-w_ctlCXYAfSmX4
 
-!function MaterialsSettingsRemote($id, $name="Settings Remote", $tech="")
+!procedure MaterialsSettingsRemote($id, $name="Settings Remote", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsRemote', $name, $tech)
-!endfunction
-!function MaterialsSettingsRemoteCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsRemoteCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsRemoteMd>', 'Settings Remote', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

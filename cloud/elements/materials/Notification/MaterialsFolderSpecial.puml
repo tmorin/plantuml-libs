@@ -6,10 +6,10 @@ XAbM
 
 sprite $MaterialsFolderSpecialMd [14x14/16z] VOkr0G0X54DF-89c_sbnwNXLzBdn4J6zomagQXhlT82F02-NZ08oN19J_suwIBtyORdqDR5S8A7Za00qzz7cUsuK
 
-!function MaterialsFolderSpecial($id, $name="Folder Special", $tech="")
+!procedure MaterialsFolderSpecial($id, $name="Folder Special", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsFolderSpecial', $name, $tech)
-!endfunction
-!function MaterialsFolderSpecialCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFolderSpecialCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFolderSpecialMd>', 'Folder Special', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

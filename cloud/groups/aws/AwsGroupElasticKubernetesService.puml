@@ -4,9 +4,9 @@ RSw54O0m40J0cPob_uhvn-qWjj6iyIFvmHmelKqOWEvcKaKiFQma1co1kucziYARt4t5sbRfCaOzmjCu
 ZjihPQMYibMxxKewJujBdbQOotvm0G
 }
 
-!function AwsGroupElasticKubernetesService($id, $name="Elastic Kubernetes Service", $tech="")
+!procedure AwsGroupElasticKubernetesService($id, $name="Elastic Kubernetes Service", $tech="")
   CloudGroup($id, "AwsGroupElasticKubernetesService", "<$AwsGroupElasticKubernetesServiceLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupElasticKubernetesService>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

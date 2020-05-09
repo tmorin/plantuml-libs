@@ -6,10 +6,10 @@ HzYAjEKzs9I8hmjNHVhjEXtvcxUEE6Oyg7jt7c-PRfkr
 
 sprite $AzureSqlDatawarehouseMd [14x14/16z] DSc74S0m20H1u0Fkls4hh-8D4P4oue6xM_N-XtAMMfkzfgcizOAnpC8gd08mXmaIEQjc9K408MBfjkH0RP98nv72f5UsIRtghst7HRU50G
 
-!function AzureSqlDatawarehouse($id, $name="Sql Datawarehouse", $tech="")
+!procedure AzureSqlDatawarehouse($id, $name="Sql Datawarehouse", $tech="")
   CloudElement($id, 'azure/DatabasesServiceColor/AzureSqlDatawarehouse', $name, $tech)
-!endfunction
-!function AzureSqlDatawarehouseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSqlDatawarehouseCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSqlDatawarehouseMd>', 'Sql Datawarehouse', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

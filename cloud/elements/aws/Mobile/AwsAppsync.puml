@@ -6,10 +6,10 @@ fCHjblOTosETxipJ7rRAL9ehnp4BRVOU6voClUClQ_m3
 
 sprite $AwsAppsyncMd [14x14/16z] JSe54a8n34LHx5dO_teheS2_rJEJdDmT75R_97-qI6enhP9Ynz1Mc03nIrcoAgGZ9Li12Hz1a62wnNLLn2pjv9vBtbknKwrcrxfo0W
 
-!function AwsAppsync($id, $name="Appsync", $tech="")
+!procedure AwsAppsync($id, $name="Appsync", $tech="")
   CloudElement($id, 'aws/Mobile/AwsAppsync', $name, $tech)
-!endfunction
-!function AwsAppsyncCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsAppsyncCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsAppsyncMd>', 'Appsync', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

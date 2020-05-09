@@ -3,10 +3,10 @@ sprite $MaterialsPowerLg [20x20/16z] bOs50G0n20EXr2txJ_lk_bV54le5Qvwk5LNKT3tdf6X
 
 sprite $MaterialsPowerMd [14x14/16z] XOo30SLG34Llz8pzf_setHCJP-YlC-m1ptCb0GWoxuKIVZhjQX_GzuhBloWy_oo_GZ1ZlHiMf5PPAs8cdFa2
 
-!function MaterialsPower($id, $name="Power", $tech="")
+!procedure MaterialsPower($id, $name="Power", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPower', $name, $tech)
-!endfunction
-!function MaterialsPowerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPowerCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPowerMd>', 'Power', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

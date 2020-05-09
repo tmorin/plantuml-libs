@@ -3,10 +3,10 @@ sprite $MaterialsAttachmentLg [20x20/16z] lSg50KCX30JGE-BxBroS2VeV4iLN-61fKOzpji
 
 sprite $MaterialsAttachmentMd [14x14/16z] dST70SC034MnP__1dt6RHI3HJNosVUJApfx6XYnk4ZE53jMSOh3ON0HCezDoaq_YbJy
 
-!function MaterialsAttachment($id, $name="Attachment", $tech="")
+!procedure MaterialsAttachment($id, $name="Attachment", $tech="")
   CloudElement($id, 'materials/File/MaterialsAttachment', $name, $tech)
-!endfunction
-!function MaterialsAttachmentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAttachmentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAttachmentMd>', 'Attachment', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsCallSplitLg [20x20/16z] nKh50SH02CJbZFwhFOidl-Zi0cEm3MngyYFo9Tn
 
 sprite $MaterialsCallSplitMd [14x14/16z] dOU53G113CEifg0JtVxJFeFeqON4tA8C0ulKRDbhZkevHrGJg5NCPcZI5CQAci59n3-JU6G4
 
-!function MaterialsCallSplit($id, $name="Call Split", $tech="")
+!procedure MaterialsCallSplit($id, $name="Call Split", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsCallSplit', $name, $tech)
-!endfunction
-!function MaterialsCallSplitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallSplitCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallSplitMd>', 'Call Split', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -3,10 +3,10 @@ sprite $MaterialsForumLg [20x20/16z] fSZ50GCn300mEypPVzgoeNIef-0der2rqLz6mTUDoUh
 
 sprite $MaterialsForumMd [14x14/16z] XST50G1140EmJfVPlzfZnlo2C-rcPffhCt-Puc7YtS-grIE5QLeuYyC8NSkaEGn4JqoPjjAdWJZh0G
 
-!function MaterialsForum($id, $name="Forum", $tech="")
+!procedure MaterialsForum($id, $name="Forum", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsForum', $name, $tech)
-!endfunction
-!function MaterialsForumCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsForumCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsForumMd>', 'Forum', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

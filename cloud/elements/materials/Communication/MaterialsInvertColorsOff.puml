@@ -6,10 +6,10 @@ d-Q1V2gSswa_u3dScc2l0-MAPTOyt4k-GT9SQnPKHmzFWR_C0G
 
 sprite $MaterialsInvertColorsOffMd [14x14/16z] RKq30WHH2CrQTF_RZZsVrHEyBAAjmh79t5fdCArQMmf6pDxGA8ReZhbX7r7ARfuw5LXQdRlnfHpRkUCOd_hmckdZCFl3Qxo7VNyHQmiaGa06jpK
 
-!function MaterialsInvertColorsOff($id, $name="Invert Colors Off", $tech="")
+!procedure MaterialsInvertColorsOff($id, $name="Invert Colors Off", $tech="")
   CloudElement($id, 'materials/Communication/MaterialsInvertColorsOff', $name, $tech)
-!endfunction
-!function MaterialsInvertColorsOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsInvertColorsOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsInvertColorsOffMd>', 'Invert Colors Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

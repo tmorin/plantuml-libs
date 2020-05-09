@@ -6,10 +6,10 @@ _jxj-mRDyDBMJJdPD_su_Gy
 
 sprite $GcpCloudNaturalLanguageApiMd [14x14/16z] LOw50GGm30BJ2B3_n4_pVjKu4N5gEVxQ01UisNhHDf8SIhwO4QD9cFGdYfgQyXx9XYrqurhyj_updrt8smKx0JAWydVwl9IjGIlxL_q
 
-!function GcpCloudNaturalLanguageApi($id, $name="Cloud Natural Language Api", $tech="")
+!procedure GcpCloudNaturalLanguageApi($id, $name="Cloud Natural Language Api", $tech="")
   CloudElement($id, 'gcp/AiAndMachineLearning/GcpCloudNaturalLanguageApi', $name, $tech)
-!endfunction
-!function GcpCloudNaturalLanguageApiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpCloudNaturalLanguageApiCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpCloudNaturalLanguageApiMd>', 'Cloud Natural Language Api', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ yhGWceFWicVGOrWPqu9fw3AsrNwhw-shs9zU
 
 sprite $AwsDeveloperToolsMd [14x14/16z] LSc54S0m3CLG5_p1wVxhbYawVAVecu6y6oDGLJwIvaEcRUAMI2iJfve9aacVgc82yY6sEgTl2IB5Lx0FdcfobUNANKlRgxr3C_RoR8g8uIrY0m
 
-!function AwsDeveloperTools($id, $name="Developer Tools", $tech="")
+!procedure AwsDeveloperTools($id, $name="Developer Tools", $tech="")
   CloudElement($id, 'aws/DeveloperTools/AwsDeveloperTools', $name, $tech)
-!endfunction
-!function AwsDeveloperToolsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsDeveloperToolsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsDeveloperToolsMd>', 'Developer Tools', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

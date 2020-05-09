@@ -6,10 +6,10 @@ rqzSy0O
 
 sprite $MaterialsLightbulbOutlineMd [14x14/16z] PSU50S0W34JH7mVstxVkVT7ZHppJvGnLPbL7Z5ntnfwQhbiRAsdoE9IjsugDTGNjnYuAAZZeo1pAoToDYwWA5wzo_cO
 
-!function MaterialsLightbulbOutline($id, $name="Lightbulb Outline", $tech="")
+!procedure MaterialsLightbulbOutline($id, $name="Lightbulb Outline", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLightbulbOutline', $name, $tech)
-!endfunction
-!function MaterialsLightbulbOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLightbulbOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLightbulbOutlineMd>', 'Lightbulb Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

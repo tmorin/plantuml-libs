@@ -6,10 +6,10 @@ VP05ciKW38I9KABR-zzsoLT_DlYVmT9-213X2LWyquKlZBBk4ZoGhUlV3cs3C5t9VQS2nNZEbjPwR92B
 
 sprite $MaterialsFaceMd [14x14/16z] POw50SD024Lnujb_ssBrTuf_-8FKNMaCFUxWq3RkOoaxJJfk0zapIXao141nNoFeSHhsi1Z808pAqeXbQlzenKx4bU9MnpAcWQxA7DUtiZyU
 
-!function MaterialsFace($id, $name="Face", $tech="")
+!procedure MaterialsFace($id, $name="Face", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFace', $name, $tech)
-!endfunction
-!function MaterialsFaceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFaceCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFaceMd>', 'Face', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

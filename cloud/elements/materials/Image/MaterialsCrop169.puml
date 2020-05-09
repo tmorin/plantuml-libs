@@ -3,10 +3,10 @@ sprite $MaterialsCrop169Lg [20x20/16z] Ow0BO6JZH09iZ20nPbvsDZXWvsK6YR5mCo9fucQXZ
 
 sprite $MaterialsCrop169Md [14x14/16z] Oo01CB500HEGmyZ91WMSZ40f3fWY3YRYUQYceDf00W
 
-!function MaterialsCrop169($id, $name="Crop169", $tech="")
+!procedure MaterialsCrop169($id, $name="Crop169", $tech="")
   CloudElement($id, 'materials/Image/MaterialsCrop169', $name, $tech)
-!endfunction
-!function MaterialsCrop169Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCrop169Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCrop169Md>', 'Crop169', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

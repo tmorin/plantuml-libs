@@ -6,10 +6,10 @@ aSHICKbaEMjaBoMhYEsiO68DiIr8BIj2_QO3GsLxbPt8nXq
 
 sprite $AzureBoardsMd [14x14/16z] JOi70i0W308TGEZ_FrmwzPoNX6E3xQYoILrlp36nFhFNfEU0qtzp1DF_xC7XpsKqu-hvlQq2y0wAXK615-8O4RKRH2Duh5E1lRsAT7ex0G
 
-!function AzureBoards($id, $name="Boards", $tech="")
+!procedure AzureBoards($id, $name="Boards", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzureBoards', $name, $tech)
-!endfunction
-!function AzureBoardsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBoardsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBoardsMd>', 'Boards', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

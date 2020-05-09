@@ -3,10 +3,10 @@ sprite $MaterialsLabelOutlineLg [20x20/16z] hK-r0G1123itOFznt_L2IKg8Edla-Y1SfoZj
 
 sprite $MaterialsLabelOutlineMd [14x14/16z] Oy0F6240mcRd00DE9X2FYOC9BCNCmGZcGJMmiY7p63cOCNW8bHYc86n0jPq
 
-!function MaterialsLabelOutline($id, $name="Label Outline", $tech="")
+!procedure MaterialsLabelOutline($id, $name="Label Outline", $tech="")
   CloudElement($id, 'materials/Action/MaterialsLabelOutline', $name, $tech)
-!endfunction
-!function MaterialsLabelOutlineCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLabelOutlineCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLabelOutlineMd>', 'Label Outline', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

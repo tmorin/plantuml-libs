@@ -6,10 +6,10 @@ xqMBNLy
 
 sprite $MaterialsNetworkWifiMd [14x14/16z] VSw35KKn303GiCR-qvQVJ_UW2E4P8Ws8wquVk1yimgydgq-b9AyySxM-w2hq--4H9ehp4UarWdEjcU5DNqKlrlwl0nSw
 
-!function MaterialsNetworkWifi($id, $name="Network Wifi", $tech="")
+!procedure MaterialsNetworkWifi($id, $name="Network Wifi", $tech="")
   CloudElement($id, 'materials/Device/MaterialsNetworkWifi', $name, $tech)
-!endfunction
-!function MaterialsNetworkWifiCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsNetworkWifiCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsNetworkWifiMd>', 'Network Wifi', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

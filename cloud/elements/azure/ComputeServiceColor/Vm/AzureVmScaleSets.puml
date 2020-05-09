@@ -6,10 +6,10 @@ til9ozXlrfX9zKcskPlbSHnYTq9rdcSXbCN3TbH_
 
 sprite $AzureVmScaleSetsMd [14x14/16z] HKi1WWCW2495-l-FB-YsKQK0S3yO02ljNaaAko2PlymaaSwqMVJVRvtv0uUAaePcx6upL5ZDBPaDdHp60-RrzLYx6e5uu3cDVmnrj5Fu0m
 
-!function AzureVmScaleSets($id, $name="Vm Scale Sets", $tech="")
+!procedure AzureVmScaleSets($id, $name="Vm Scale Sets", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/Vm/AzureVmScaleSets', $name, $tech)
-!endfunction
-!function AzureVmScaleSetsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureVmScaleSetsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureVmScaleSetsMd>', 'Vm Scale Sets', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

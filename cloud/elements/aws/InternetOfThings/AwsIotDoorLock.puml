@@ -6,10 +6,10 @@ v6ZZYssNrvNRxbbBTCUp5ccn5G-Scazlq03Jsvc1he54_ftLvqn_umO
 
 sprite $AwsIotDoorLockMd [14x14/16z] NKu70e1023eKwly_JhJjth9CQ1bACgsTaDfKGdR7JRVSPMKzwmZE525dM7mcEPE8m3C92SyaCgSt7pBxmtpVYqJ-aNrH7m
 
-!function AwsIotDoorLock($id, $name="Iot Door Lock", $tech="")
+!procedure AwsIotDoorLock($id, $name="Iot Door Lock", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotDoorLock', $name, $tech)
-!endfunction
-!function AwsIotDoorLockCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotDoorLockCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotDoorLockMd>', 'Iot Door Lock', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

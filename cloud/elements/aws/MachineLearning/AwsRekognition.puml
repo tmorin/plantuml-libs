@@ -6,10 +6,10 @@ RSun6aGX20FX9fc0zp_m-ibgzQRyLQ7hbbT_O0zEpmQHv6U3xFpN7enjYS6HYFCUNGCZ3jarvhYoZThw
 
 sprite $AwsRekognitionMd [14x14/16z] HSct0S1034BHIeJRVs0Zd7xtmBfZSrbK8MS6LOgsMsGEvAsGDE5AW18ZdVq88PzqZhi6M0aSR5gHO56PikKKDTzLFoy
 
-!function AwsRekognition($id, $name="Rekognition", $tech="")
+!procedure AwsRekognition($id, $name="Rekognition", $tech="")
   CloudElement($id, 'aws/MachineLearning/AwsRekognition', $name, $tech)
-!endfunction
-!function AwsRekognitionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRekognitionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRekognitionMd>', 'Rekognition', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

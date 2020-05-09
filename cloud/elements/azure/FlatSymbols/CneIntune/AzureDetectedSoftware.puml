@@ -6,10 +6,10 @@ BWOEKiU0twKBiDxG5G
 
 sprite $AzureDetectedSoftwareMd [16x14/16z] POs50SGm24LR-DZT_lishY_1ZT1X90Y_ZhgQ0SOB2iZplEc_nKYEDOmZs49hx7zFMv1CZQ4WLKhcYg_-UzzzRo75BWiEmWPz
 
-!function AzureDetectedSoftware($id, $name="Detected Software", $tech="")
+!procedure AzureDetectedSoftware($id, $name="Detected Software", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureDetectedSoftware', $name, $tech)
-!endfunction
-!function AzureDetectedSoftwareCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDetectedSoftwareCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDetectedSoftwareMd>', 'Detected Software', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ x28zHtQhuI8zBsGRi2MiHhYQeHFtUAyzU1b5QgZykODQVci7_-_g_vt-tVq7
 
 sprite $AwsVpcEndpointsMd [14x14/16z] LOv15aGn28CYahd_aQVFtQTLPHNpm2evHfb19qzAK4AV2lLHC9ZLtReHoPO9tQ2W-vDdyxLAw4xs6MAcXNOYzu_WfL_6fNykEz1A7dy
 
-!function AwsVpcEndpoints($id, $name="Vpc Endpoints", $tech="")
+!procedure AwsVpcEndpoints($id, $name="Vpc Endpoints", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsVpcEndpoints', $name, $tech)
-!endfunction
-!function AwsVpcEndpointsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsVpcEndpointsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsVpcEndpointsMd>', 'Vpc Endpoints', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

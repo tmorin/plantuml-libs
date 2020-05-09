@@ -6,10 +6,10 @@ Cp1oNxRm79D4R6uF
 
 sprite $MaterialsPhonePausedMd [14x14/16z] NKk50GCn2Cp5dVsdHTftd1Ft2UzX2vewnwg65HHl7tNeLr7rSusclxzCoGn9qnmcl2EdvuSQJN8gV5NJxFNuaViYMlvK-zpcy4yxt2S4
 
-!function MaterialsPhonePaused($id, $name="Phone Paused", $tech="")
+!procedure MaterialsPhonePaused($id, $name="Phone Paused", $tech="")
   CloudElement($id, 'materials/Notification/MaterialsPhonePaused', $name, $tech)
-!endfunction
-!function MaterialsPhonePausedCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhonePausedCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhonePausedMd>', 'Phone Paused', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

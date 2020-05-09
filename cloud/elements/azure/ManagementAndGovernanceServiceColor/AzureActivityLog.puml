@@ -3,10 +3,10 @@ sprite $AzureActivityLogLg [18x20/16z] rSl50S0W04DHd1_stxTks01znuY7_8M8hk8fgX0eD
 
 sprite $AzureActivityLogMd [13x14/16z] fSc54S0m3C3096Rlls_9D41r-2TYgbXDk2BnIHx4au2kjss1_U84NByyKFq7sO3N3G
 
-!function AzureActivityLog($id, $name="Activity Log", $tech="")
+!procedure AzureActivityLog($id, $name="Activity Log", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureActivityLog', $name, $tech)
-!endfunction
-!function AzureActivityLogCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureActivityLogCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureActivityLogMd>', 'Activity Log', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

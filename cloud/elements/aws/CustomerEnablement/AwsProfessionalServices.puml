@@ -6,10 +6,10 @@ TYQm0W
 
 sprite $AwsProfessionalServicesMd [14x14/16z] TKor0SC039k4_V_UXZdHOWlxWfn-aTg9nrVUhRJHsVFE2X3xZfJ8wAzT1qno7c975Qemaa0ZJ7EkndOCxKCV6
 
-!function AwsProfessionalServices($id, $name="Professional Services", $tech="")
+!procedure AwsProfessionalServices($id, $name="Professional Services", $tech="")
   CloudElement($id, 'aws/CustomerEnablement/AwsProfessionalServices', $name, $tech)
-!endfunction
-!function AwsProfessionalServicesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsProfessionalServicesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsProfessionalServicesMd>', 'Professional Services', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

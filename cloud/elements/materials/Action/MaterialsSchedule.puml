@@ -6,10 +6,10 @@ SAiHOyybTDTSg2CyhJa_r_RSWxrNNUdUqy7u0W
 
 sprite $MaterialsScheduleMd [14x14/16z] PKw54S1022j-xBzmy-w6HRvdiKKOzyJIHF2q9AXy52NbH2ACDF5OAIc26eMCJA9dubIoFlcnIuagIrbKM2w5fNuvkzSF
 
-!function MaterialsSchedule($id, $name="Schedule", $tech="")
+!procedure MaterialsSchedule($id, $name="Schedule", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSchedule', $name, $tech)
-!endfunction
-!function MaterialsScheduleCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsScheduleCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsScheduleMd>', 'Schedule', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

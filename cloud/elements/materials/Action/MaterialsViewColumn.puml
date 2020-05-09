@@ -3,10 +3,10 @@ sprite $MaterialsViewColumnLg [20x20/16z] Ow0-O65dPsT6460nDdv-VXPME04MOnqSOZZTny
 
 sprite $MaterialsViewColumnMd [14x14/16z] fKV50G0n2AjxOVzfaT-vncEkOQrABOYz-jfJxCtfmn4wfeJppqkhvq9mFZWfQvw30G
 
-!function MaterialsViewColumn($id, $name="View Column", $tech="")
+!procedure MaterialsViewColumn($id, $name="View Column", $tech="")
   CloudElement($id, 'materials/Action/MaterialsViewColumn', $name, $tech)
-!endfunction
-!function MaterialsViewColumnCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsViewColumnCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsViewColumnMd>', 'View Column', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

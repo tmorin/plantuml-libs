@@ -6,10 +6,10 @@ bNLwRPl6Ddu
 
 sprite $AwsWorklinkMd [14x14/16z] DSgn5S1G24BHIW3t7pXH-Q-x1woBcnyZ0gX21CvGYkIL8jLy2ph1mivzSjG4vYbXv3tBgx-LU9hpnAXzHOyV
 
-!function AwsWorklink($id, $name="Worklink", $tech="")
+!procedure AwsWorklink($id, $name="Worklink", $tech="")
   CloudElement($id, 'aws/EndUserComputing/AwsWorklink', $name, $tech)
-!endfunction
-!function AwsWorklinkCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsWorklinkCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsWorklinkMd>', 'Worklink', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

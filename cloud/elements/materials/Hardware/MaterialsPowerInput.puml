@@ -3,10 +3,10 @@ sprite $MaterialsPowerInputLg [20x20/16z] OnXKW9a51J23n3XuUP00BmT8Z14DmCIGIQXURY
 
 sprite $MaterialsPowerInputMd [14x14/16z] Ow0EO6PdWm9sPWO6HcOuO0Jp664Oh9A9YGs8GIgf0m
 
-!function MaterialsPowerInput($id, $name="Power Input", $tech="")
+!procedure MaterialsPowerInput($id, $name="Power Input", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsPowerInput', $name, $tech)
-!endfunction
-!function MaterialsPowerInputCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPowerInputCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPowerInputMd>', 'Power Input', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

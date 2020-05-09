@@ -6,10 +6,10 @@ d4MaCizz
 
 sprite $AwsLakeFormationMd [14x14/16z] XOtL0S0m44AhmBlzzwrB_dAkK1s9cyRp8fcdMmu1vUvaw_IhmH89zssyhaXQS--IWcTN9b9uQ90JYthQsA4wiWC
 
-!function AwsLakeFormation($id, $name="Lake Formation", $tech="")
+!procedure AwsLakeFormation($id, $name="Lake Formation", $tech="")
   CloudElement($id, 'aws/Analytics/AwsLakeFormation', $name, $tech)
-!endfunction
-!function AwsLakeFormationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsLakeFormationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsLakeFormationMd>', 'Lake Formation', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

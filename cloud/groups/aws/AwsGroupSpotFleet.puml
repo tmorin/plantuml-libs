@@ -4,9 +4,9 @@ bP35WGG020CVJ2Rqt_3vhIilFBBlHdjHrSp47YR5O2AH_st7d_MA_xSHLm3pjoThcYZzNuox7HYf-JsT
 iUrk7VTSMuZqlWU7oRln2G
 }
 
-!function AwsGroupSpotFleet($id, $name="Spot Fleet", $tech="")
+!procedure AwsGroupSpotFleet($id, $name="Spot Fleet", $tech="")
   CloudGroup($id, "AwsGroupSpotFleet", "<$AwsGroupSpotFleetLg>", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<AwsGroupSpotFleet>> {
   StereotypeFontColor $AWS_COLOR_ORANGE
   BorderThickness 1

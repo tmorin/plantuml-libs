@@ -6,10 +6,10 @@ UTnPRsxZqssd7-G2f3pzrVVu0m
 
 sprite $MaterialsControlPointDuplicateMd [14x14/16z] ROx50SG03CCKQWFxptiC9Rs2jhb2L7XXXYoLcGP4YcG8OXbO2gk3WgIbeocmAdYEuWiQ_JZGsNVxovTAV5L-3bW6U_TziZrt
 
-!function MaterialsControlPointDuplicate($id, $name="Control Point Duplicate", $tech="")
+!procedure MaterialsControlPointDuplicate($id, $name="Control Point Duplicate", $tech="")
   CloudElement($id, 'materials/Image/MaterialsControlPointDuplicate', $name, $tech)
-!endfunction
-!function MaterialsControlPointDuplicateCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsControlPointDuplicateCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsControlPointDuplicateMd>', 'Control Point Duplicate', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

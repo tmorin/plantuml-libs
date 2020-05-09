@@ -6,10 +6,10 @@ KcBkSVjgO5XgPGmDJVjZ1G
 
 sprite $MaterialsControlPointMd [14x14/16z] PKw30S1038mks7_Wkcz61zgM80Bo9IYeNi-R1DyVnvrANOdPbTOr3D3mX98X4qOQSpPFpYohGbTVdAth1
 
-!function MaterialsControlPoint($id, $name="Control Point", $tech="")
+!procedure MaterialsControlPoint($id, $name="Control Point", $tech="")
   CloudElement($id, 'materials/Image/MaterialsControlPoint', $name, $tech)
-!endfunction
-!function MaterialsControlPointCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsControlPointCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsControlPointMd>', 'Control Point', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

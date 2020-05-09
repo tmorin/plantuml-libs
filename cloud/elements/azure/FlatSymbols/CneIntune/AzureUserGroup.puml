@@ -9,10 +9,10 @@ FSs55G0W20HGKFBOVrxxUVQtQ8Mbdu7fXGCG8itK9rgef8ugo1NRmgj7-PMzQzknXaScV1pt1_FERCOI
 twdaPkvkov-WqKd3Jx_2yiCJ
 }
 
-!function AzureUserGroup($id, $name="User Group", $tech="")
+!procedure AzureUserGroup($id, $name="User Group", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureUserGroup', $name, $tech)
-!endfunction
-!function AzureUserGroupCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureUserGroupCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureUserGroupMd>', 'User Group', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -9,10 +9,10 @@ RT1N5e0W44DHXZ29-z-mZLxUxrN88Mn59-anjE1ZV9EKgfgk7hEEZk7FfXAMIm7um9mqiQIQVR-KYche
 ZjiNjGS
 }
 
-!function AzureCdnProfiles($id, $name="Cdn Profiles", $tech="")
+!procedure AzureCdnProfiles($id, $name="Cdn Profiles", $tech="")
   CloudElement($id, 'azure/NetworkingServiceColor/AzureCdnProfiles', $name, $tech)
-!endfunction
-!function AzureCdnProfilesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureCdnProfilesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureCdnProfilesMd>', 'Cdn Profiles', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

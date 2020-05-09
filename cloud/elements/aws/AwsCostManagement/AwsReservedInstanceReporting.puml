@@ -6,10 +6,10 @@ lJaprR0wjdYWGLkjaVRToYzMXxtW1W
 
 sprite $AwsReservedInstanceReportingMd [14x14/16z] LOw50GGn3CCUhJhxxtjbKZ5i5z84NwORiAo4AdIBB_LIjuH0L2kCZ8H5iI9TLinCDuiVerMr-WHgmsWCJSCARskR6G
 
-!function AwsReservedInstanceReporting($id, $name="Reserved Instance Reporting", $tech="")
+!procedure AwsReservedInstanceReporting($id, $name="Reserved Instance Reporting", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsReservedInstanceReporting', $name, $tech)
-!endfunction
-!function AwsReservedInstanceReportingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsReservedInstanceReportingCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsReservedInstanceReportingMd>', 'Reserved Instance Reporting', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

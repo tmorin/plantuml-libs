@@ -6,10 +6,10 @@ XmrvS6gwmNHmJ1juS9ByXYGtpkD-5dr_FUq8xZD_
 
 sprite $MaterialsCardGiftcardMd [14x14/16z] PST50SG040ImMOO3_sxBtFo25tDcjosIrcqfc916-V_l5Kg0f_ady-EM3eH0YgW44jCOAe0eU9vW8_CgDZMlSzFpb3OwpIetPG3uW8SH
 
-!function MaterialsCardGiftcard($id, $name="Card Giftcard", $tech="")
+!procedure MaterialsCardGiftcard($id, $name="Card Giftcard", $tech="")
   CloudElement($id, 'materials/Action/MaterialsCardGiftcard', $name, $tech)
-!endfunction
-!function MaterialsCardGiftcardCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCardGiftcardCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCardGiftcardMd>', 'Card Giftcard', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

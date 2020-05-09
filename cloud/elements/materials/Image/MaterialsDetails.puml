@@ -6,10 +6,10 @@ lp01
 
 sprite $MaterialsDetailsMd [14x14/16z] XSY53G0X30NGNszW_tqlEB7ZrOjVwfEsowfsrTf5oMrm4XgDraCnf02IcDhMFfEhEZOkXN6OuKA4fmy
 
-!function MaterialsDetails($id, $name="Details", $tech="")
+!procedure MaterialsDetails($id, $name="Details", $tech="")
   CloudElement($id, 'materials/Image/MaterialsDetails', $name, $tech)
-!endfunction
-!function MaterialsDetailsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDetailsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDetailsMd>', 'Details', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

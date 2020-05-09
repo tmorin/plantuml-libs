@@ -9,10 +9,10 @@ JKt50G0123A1o_t7lGvUA6Kx891WsuqE9on-Tms3_-z0_-wAHdVcSpkA5FsvGnYKKQUtAajBcz2v7yhg
 3JFSfCPrE9SkiW4
 }
 
-!function AzurePack($id, $name="Pack", $tech="")
+!procedure AzurePack($id, $name="Pack", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneEnterprise/AzurePack', $name, $tech)
-!endfunction
-!function AzurePackCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzurePackCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzurePackMd>', 'Pack', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

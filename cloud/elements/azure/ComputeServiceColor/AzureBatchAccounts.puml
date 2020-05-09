@@ -6,10 +6,10 @@ Q6Sor72P3rQCMM7fQlIecVy
 
 sprite $AzureBatchAccountsMd [15x14/16z] NSg55GCX50NHB_Cs_NSSt0Qz1twzpwtrKA8aUJH2bb20JoAPPNP2fygp5lcYR2CpJpj2mW-2OZiBCy_F9prBXQVv0m
 
-!function AzureBatchAccounts($id, $name="Batch Accounts", $tech="")
+!procedure AzureBatchAccounts($id, $name="Batch Accounts", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureBatchAccounts', $name, $tech)
-!endfunction
-!function AzureBatchAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureBatchAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureBatchAccountsMd>', 'Batch Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ lQ-miSjnLSjLpJUzxMTmFwlxcGP8nE89
 
 sprite $AwsRedshiftDenseStorageNodeMd [14x14/16z] LOxN0KC1208LEDr_ulIySbzMeBv0wg1fT7GQpT6AhBr4jhCfWniSnv0P0Y9qNBse4OcEpd44V2xlAdU7k_izsJtr4m
 
-!function AwsRedshiftDenseStorageNode($id, $name="Redshift Dense Storage Node", $tech="")
+!procedure AwsRedshiftDenseStorageNode($id, $name="Redshift Dense Storage Node", $tech="")
   CloudElement($id, 'aws/Analytics/AwsRedshiftDenseStorageNode', $name, $tech)
-!endfunction
-!function AwsRedshiftDenseStorageNodeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRedshiftDenseStorageNodeCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRedshiftDenseStorageNodeMd>', 'Redshift Dense Storage Node', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

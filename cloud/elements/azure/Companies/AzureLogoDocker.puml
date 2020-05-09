@@ -9,10 +9,10 @@ JOg50GGm309ZGBF_ma_Vhv8WyIAFuey1LjVEb-uriW2U3lP51oGwrvwzbqEXSiwFdSv8EZvk6CQbZdX-
 WQL_Ue4RL4uy
 }
 
-!function AzureLogoDocker($id, $name="Logo Docker", $tech="")
+!procedure AzureLogoDocker($id, $name="Logo Docker", $tech="")
   CloudElement($id, 'azure/Companies/AzureLogoDocker', $name, $tech)
-!endfunction
-!function AzureLogoDockerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureLogoDockerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureLogoDockerMd>', 'Logo Docker', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

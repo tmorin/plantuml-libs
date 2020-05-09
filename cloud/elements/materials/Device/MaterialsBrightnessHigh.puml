@@ -6,10 +6,10 @@ YTb8Bkb1i33CZ1lJW6h5DMNQpm
 
 sprite $MaterialsBrightnessHighMd [14x14/16z] NOx50GCm30CZKpZQVzeokVSp2Ce3e7n1x-zH8phP8_G-1KypQuVnd0mYiCU4qU1xEzf0GQV98fSOE_AKFhykpiW9EVs_MMvz1G
 
-!function MaterialsBrightnessHigh($id, $name="Brightness High", $tech="")
+!procedure MaterialsBrightnessHigh($id, $name="Brightness High", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBrightnessHigh', $name, $tech)
-!endfunction
-!function MaterialsBrightnessHighCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBrightnessHighCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBrightnessHighMd>', 'Brightness High', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

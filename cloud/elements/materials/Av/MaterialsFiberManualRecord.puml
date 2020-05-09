@@ -3,10 +3,10 @@ sprite $MaterialsFiberManualRecordLg [20x20/16z] Ow0SCBAmih8meeYmSlC30JSh8qA8dHy
 
 sprite $MaterialsFiberManualRecordMd [14x14/16z] Oo04c5bPcM5iHWu-Vdu-3aO8ZuCV33WWolYX0AoO5SPZnUGXL6AOWh01nNP2
 
-!function MaterialsFiberManualRecord($id, $name="Fiber Manual Record", $tech="")
+!procedure MaterialsFiberManualRecord($id, $name="Fiber Manual Record", $tech="")
   CloudElement($id, 'materials/Av/MaterialsFiberManualRecord', $name, $tech)
-!endfunction
-!function MaterialsFiberManualRecordCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFiberManualRecordCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFiberManualRecordMd>', 'Fiber Manual Record', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

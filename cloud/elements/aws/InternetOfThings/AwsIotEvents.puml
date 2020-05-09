@@ -3,10 +3,10 @@ sprite $AwsIotEventsLg [20x20/16z] jO_50GH1409FA1ho3_XSTzzJpnQaIvZiHw8TRsOQmFaTP
 
 sprite $AwsIotEventsMd [14x14/16z] bOr50W0120AtWF7_3zwkgtDJgbeunNiWMVvkQoVd7IKo-_bUmixjpB8eyBHW-RVGPWC
 
-!function AwsIotEvents($id, $name="Iot Events", $tech="")
+!procedure AwsIotEvents($id, $name="Iot Events", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotEvents', $name, $tech)
-!endfunction
-!function AwsIotEventsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotEventsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotEventsMd>', 'Iot Events', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

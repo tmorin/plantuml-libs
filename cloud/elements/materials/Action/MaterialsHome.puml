@@ -3,10 +3,10 @@ sprite $MaterialsHomeLg [20x20/16z] hSg54O0m44JHlRXl_zNYFePzYBqvF4q4rrI8wagHlA1E
 
 sprite $MaterialsHomeMd [14x14/16z] XSd50G114091Pjt9Fzfpr_uLu2znJdPuqikAmA4mKqLEHRKzqpjIPRPI6lC8I1fM5PXaaGVyes2T0Oop-Au7
 
-!function MaterialsHome($id, $name="Home", $tech="")
+!procedure MaterialsHome($id, $name="Home", $tech="")
   CloudElement($id, 'materials/Action/MaterialsHome', $name, $tech)
-!endfunction
-!function MaterialsHomeCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsHomeCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsHomeMd>', 'Home', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

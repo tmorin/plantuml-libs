@@ -6,10 +6,10 @@ r2POqBY2fwNc31lTttAC2x72iAEUkJiQkxPll04
 
 sprite $AwsKinesisDataAnalyticsMd [14x14/16z] DSjH0e0G50NH7zxSqVxt6p1L7F2KaxSd98z30bwEOL55SfHCzLajES7yEbwjUka-IHbQNnAOjrfhIuJC-LNcipTBlt5JfmwlVm
 
-!function AwsKinesisDataAnalytics($id, $name="Kinesis Data Analytics", $tech="")
+!procedure AwsKinesisDataAnalytics($id, $name="Kinesis Data Analytics", $tech="")
   CloudElement($id, 'aws/Analytics/AwsKinesisDataAnalytics', $name, $tech)
-!endfunction
-!function AwsKinesisDataAnalyticsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsKinesisDataAnalyticsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsKinesisDataAnalyticsMd>', 'Kinesis Data Analytics', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

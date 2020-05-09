@@ -3,10 +3,10 @@ sprite $MaterialsSettingsBrightnessLg [20x20/16z] ZP250SGm203HkEm_xVjNOzV6S81LK2
 
 sprite $MaterialsSettingsBrightnessMd [14x14/16z] NOw50S10308Je6xxJrit_bxY4axY9GDT-z91pPcGiTD8zIvGrzX5VLgOUxLuh7hfWdLfbPdUnIVuTD_CsG
 
-!function MaterialsSettingsBrightness($id, $name="Settings Brightness", $tech="")
+!procedure MaterialsSettingsBrightness($id, $name="Settings Brightness", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSettingsBrightness', $name, $tech)
-!endfunction
-!function MaterialsSettingsBrightnessCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSettingsBrightnessCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSettingsBrightnessMd>', 'Settings Brightness', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

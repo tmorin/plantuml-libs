@@ -3,10 +3,10 @@ sprite $AwsElementalConductorLg [20x20/16z] jSwr0G1124JHWE4F_JTyxXRTldM5-fyvyB8N
 
 sprite $AwsElementalConductorMd [14x14/16z] bOp50OHG5CHsWKcc_uPnEVyyrmvWRkmEGONmLYJXsuJOWtE2Tq6Mx8hVM_kX7MG3
 
-!function AwsElementalConductor($id, $name="Elemental Conductor", $tech="")
+!procedure AwsElementalConductor($id, $name="Elemental Conductor", $tech="")
   CloudElement($id, 'aws/MediaServices/AwsElementalConductor', $name, $tech)
-!endfunction
-!function AwsElementalConductorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElementalConductorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElementalConductorMd>', 'Elemental Conductor', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

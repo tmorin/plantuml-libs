@@ -3,10 +3,10 @@ sprite $MaterialsBorderColorLg [20x20/16z] hSYt0SCm30J01vZZxx-jsJ5LbdJbOQN9uI29p
 
 sprite $MaterialsBorderColorMd [14x14/16z] ZSUn0G0H40J0tVi7GF_TIa02amswtn43JR6Zdn9hHcBHmfbYi8RNGAt1RpNnG0ug
 
-!function MaterialsBorderColor($id, $name="Border Color", $tech="")
+!procedure MaterialsBorderColor($id, $name="Border Color", $tech="")
   CloudElement($id, 'materials/Editor/MaterialsBorderColor', $name, $tech)
-!endfunction
-!function MaterialsBorderColorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBorderColorCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBorderColorMd>', 'Border Color', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

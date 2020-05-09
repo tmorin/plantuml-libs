@@ -6,10 +6,10 @@ BDVkTUJQF2DiSsyZ55tlKd-fkju5r91hYj4Kdckxzk3QAsNuxEbLVm
 
 sprite $MaterialsMoodBadMd [14x14/16z] PKw50SCm33DKLJBu_zsPna6JGFwMWOHDWWttU3gXvgVCrBPgfF5iYnQ4fyZ9Z8GkbZqJPsMpCWFofsTKBCVjVhyTnI9ORghcQmHNga_oTlQx7W
 
-!function MaterialsMoodBad($id, $name="Mood Bad", $tech="")
+!procedure MaterialsMoodBad($id, $name="Mood Bad", $tech="")
   CloudElement($id, 'materials/Social/MaterialsMoodBad', $name, $tech)
-!endfunction
-!function MaterialsMoodBadCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsMoodBadCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsMoodBadMd>', 'Mood Bad', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

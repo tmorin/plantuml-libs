@@ -6,10 +6,10 @@ B0HCcO1Y5C0iRBaBffwnKO_-YN_w1z_xvmm
 
 sprite $MaterialsWbSunnyMd [14x14/16z] PSw50GCn34FHB-aujF-qPUuBeyrDmeTfUiy-HvaiIx2ucViOVURETLnK0zcSSHDlaNci7Y-rNHURkDDQolfOJ3D8C4y05jWWV-Rpxmm
 
-!function MaterialsWbSunny($id, $name="Wb Sunny", $tech="")
+!procedure MaterialsWbSunny($id, $name="Wb Sunny", $tech="")
   CloudElement($id, 'materials/Image/MaterialsWbSunny', $name, $tech)
-!endfunction
-!function MaterialsWbSunnyCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWbSunnyCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWbSunnyMd>', 'Wb Sunny', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

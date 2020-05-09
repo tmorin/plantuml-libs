@@ -6,10 +6,10 @@ vl7E
 
 sprite $MaterialsVideocamOffMd [14x14/16z] VKt50K0X549yTkq_xUyEkT6uWxmnVwCk4bfarPXR96Fpq6fYfIqqIEB2LbhBpXQwivK6BYixLS2ylk3-IuikHW
 
-!function MaterialsVideocamOff($id, $name="Videocam Off", $tech="")
+!procedure MaterialsVideocamOff($id, $name="Videocam Off", $tech="")
   CloudElement($id, 'materials/Av/MaterialsVideocamOff', $name, $tech)
-!endfunction
-!function MaterialsVideocamOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsVideocamOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsVideocamOffMd>', 'Videocam Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

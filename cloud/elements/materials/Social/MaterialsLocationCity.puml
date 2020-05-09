@@ -6,10 +6,10 @@ vtkibUQ05B_f
 
 sprite $MaterialsLocationCityMd [14x14/16z] RKi55aGX4BA5YSVzJxlT-tMAAWUlzKy0j3VQOwpxLG44xO4QEpNd4zboxSqvHtqX-RBsSkgohiWH8XNmAqAZnX0RhiZWIQRZcYljzShFEmC
 
-!function MaterialsLocationCity($id, $name="Location City", $tech="")
+!procedure MaterialsLocationCity($id, $name="Location City", $tech="")
   CloudElement($id, 'materials/Social/MaterialsLocationCity', $name, $tech)
-!endfunction
-!function MaterialsLocationCityCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLocationCityCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLocationCityMd>', 'Location City', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

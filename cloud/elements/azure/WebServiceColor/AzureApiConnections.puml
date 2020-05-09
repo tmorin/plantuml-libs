@@ -9,10 +9,10 @@ JP250S0m20HvO_-Dgx5hOpXKCVqJrK8nVnHF8SFQzsaTrqOPb-OqTC3tDxPK7NzIfrdsRzbwLVuDE3B4
 vppE8Tq
 }
 
-!function AzureApiConnections($id, $name="Api Connections", $tech="")
+!procedure AzureApiConnections($id, $name="Api Connections", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureApiConnections', $name, $tech)
-!endfunction
-!function AzureApiConnectionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureApiConnectionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureApiConnectionsMd>', 'Api Connections', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

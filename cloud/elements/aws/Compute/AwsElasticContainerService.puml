@@ -6,10 +6,10 @@ uGS
 
 sprite $AwsElasticContainerServiceMd [14x14/16z] ROwt0SG04C8Qa6x_XJywswek0lE07kecNNef2UNNjz9Y--iiIbqxPxnqB1tL9h-EIWDnVksYihhJudEodJS
 
-!function AwsElasticContainerService($id, $name="Elastic Container Service", $tech="")
+!procedure AwsElasticContainerService($id, $name="Elastic Container Service", $tech="")
   CloudElement($id, 'aws/Compute/AwsElasticContainerService', $name, $tech)
-!endfunction
-!function AwsElasticContainerServiceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsElasticContainerServiceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsElasticContainerServiceMd>', 'Elastic Container Service', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -6,10 +6,10 @@ Wm3zDxZ_yygH329lD09t6W1N
 
 sprite $AzureContentProtectionMd [13x14/16z] JOh50K0n24E3Lc3_URzKtoKAG6faLC67zemUsVNrrB8AISrExv310BZdEraqmaiB0vkxVdWniOM__4RqzIimnAu0FO7FxSLFy8bSNXy
 
-!function AzureContentProtection($id, $name="Content Protection", $tech="")
+!procedure AzureContentProtection($id, $name="Content Protection", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/Media/AzureContentProtection', $name, $tech)
-!endfunction
-!function AzureContentProtectionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureContentProtectionCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureContentProtectionMd>', 'Content Protection', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

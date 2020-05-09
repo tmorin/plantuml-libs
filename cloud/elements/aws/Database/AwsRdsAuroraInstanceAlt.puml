@@ -6,10 +6,10 @@ o7sBwRVO_m4
 
 sprite $AwsRdsAuroraInstanceAltMd [14x14/16z] bOl10G1110CXa_vBlilFTmU0Y8Ee0nIpCubj66C3s0izkMnoGytLjLTXbMd028bCLTr_n3CT7YPnq0S
 
-!function AwsRdsAuroraInstanceAlt($id, $name="Rds Aurora Instance Alt", $tech="")
+!procedure AwsRdsAuroraInstanceAlt($id, $name="Rds Aurora Instance Alt", $tech="")
   CloudElement($id, 'aws/Database/AwsRdsAuroraInstanceAlt', $name, $tech)
-!endfunction
-!function AwsRdsAuroraInstanceAltCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRdsAuroraInstanceAltCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRdsAuroraInstanceAltMd>', 'Rds Aurora Instance Alt', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

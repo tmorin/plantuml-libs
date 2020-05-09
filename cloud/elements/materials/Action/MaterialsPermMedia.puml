@@ -6,10 +6,10 @@ zk0maoVYtmG
 
 sprite $MaterialsPermMediaMd [14x14/16z] NSV50O1040ImMSVflrhqFBzWmF6GF3iVgzj3v5sshVGk-xRxV9v7deEtiFtVH80Gx9_nHzPdUkx9kQu4qOmtvOm0ZK8nk04
 
-!function MaterialsPermMedia($id, $name="Perm Media", $tech="")
+!procedure MaterialsPermMedia($id, $name="Perm Media", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPermMedia', $name, $tech)
-!endfunction
-!function MaterialsPermMediaCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPermMediaCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPermMediaMd>', 'Perm Media', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

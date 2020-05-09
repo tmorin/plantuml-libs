@@ -3,10 +3,10 @@ sprite $AzureNotificationHubNamespacesLg [20x20/16z] RSZB0SHG2090HB3_ajUNV-BESK8
 
 sprite $AzureNotificationHubNamespacesMd [14x14/16z] LSt50G1G209G0zX_uz_vJhQ9XH8J9-lfJGAI7sP9Vzt18VzcchsZwU2sFm-CdDdeX7KEfLtZsELpg08
 
-!function AzureNotificationHubNamespaces($id, $name="Notification Hub Namespaces", $tech="")
+!procedure AzureNotificationHubNamespaces($id, $name="Notification Hub Namespaces", $tech="")
   CloudElement($id, 'azure/WebServiceColor/AzureNotificationHubNamespaces', $name, $tech)
-!endfunction
-!function AzureNotificationHubNamespacesCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureNotificationHubNamespacesCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureNotificationHubNamespacesMd>', 'Notification Hub Namespaces', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

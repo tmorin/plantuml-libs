@@ -6,10 +6,10 @@ QrwLeOQnwpD3hXeVfMuOy4owu1CJVji
 
 sprite $MaterialsPhonelinkOffMd [14x14/16z] LSV50O0030F0fAI2xpyjhlSx_9Y-OpeiJWAoT-hKR5CuDhGDqd3KkwnXtz4GhDztr0KUEqfkOuaRAmTiwCUXtmspC-RmE7avXPSJVoi
 
-!function MaterialsPhonelinkOff($id, $name="Phonelink Off", $tech="")
+!procedure MaterialsPhonelinkOff($id, $name="Phonelink Off", $tech="")
   CloudElement($id, 'materials/Hardware/MaterialsPhonelinkOff', $name, $tech)
-!endfunction
-!function MaterialsPhonelinkOffCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPhonelinkOffCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPhonelinkOffMd>', 'Phonelink Off', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

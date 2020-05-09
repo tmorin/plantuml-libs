@@ -3,10 +3,10 @@ sprite $MaterialsBrightness1Lg [20x20/16z] VP253GH1549ldF7-gxrr8I7xub-1tmV6MiC5Z
 
 sprite $MaterialsBrightness1Md [14x14/16z] Oy00JApixAnCK0uh3pyGyB12EFnG0E8oWMN0iamGAOGaEuB7Zif3LObg2heD2DjHNOO1
 
-!function MaterialsBrightness1($id, $name="Brightness1", $tech="")
+!procedure MaterialsBrightness1($id, $name="Brightness1", $tech="")
   CloudElement($id, 'materials/Image/MaterialsBrightness1', $name, $tech)
-!endfunction
-!function MaterialsBrightness1Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBrightness1Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBrightness1Md>', 'Brightness1', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

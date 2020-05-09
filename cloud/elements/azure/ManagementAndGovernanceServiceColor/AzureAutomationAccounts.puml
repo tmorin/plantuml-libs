@@ -6,10 +6,10 @@ ph0hirZa8Gi9VcGuVNLpC15GdZBsKLeodGdJgZgNIzV1VhIZzNJxDD__TrzglOTr2-0Gz-43
 
 sprite $AzureAutomationAccountsMd [15x14/16z] HOg70KG114FJ-FjlVBYc9mz-8Vtlc3O_mgx8anzM2rLlgGWSbCEgpB3kc71mbE4eParXg4yMmVioNHvygWG__JYfx32wsSDIot1qjeXLeDl4Bru
 
-!function AzureAutomationAccounts($id, $name="Automation Accounts", $tech="")
+!procedure AzureAutomationAccounts($id, $name="Automation Accounts", $tech="")
   CloudElement($id, 'azure/ManagementAndGovernanceServiceColor/AzureAutomationAccounts', $name, $tech)
-!endfunction
-!function AzureAutomationAccountsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureAutomationAccountsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureAutomationAccountsMd>', 'Automation Accounts', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

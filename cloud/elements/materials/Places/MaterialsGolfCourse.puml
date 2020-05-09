@@ -3,10 +3,10 @@ sprite $MaterialsGolfCourseLg [20x20/16z] nO-r0S0m40FDyBZ_jc7cAbVPJvBCDtpsXrfGFb
 
 sprite $MaterialsGolfCourseMd [14x14/16z] dOkr0S0W44LFSRZzfuqrSUDLN-4CqzQvuZRUcIMwwsJtunw7u1mXu19nac0MaHFEbJZl7S-R0oC
 
-!function MaterialsGolfCourse($id, $name="Golf Course", $tech="")
+!procedure MaterialsGolfCourse($id, $name="Golf Course", $tech="")
   CloudElement($id, 'materials/Places/MaterialsGolfCourse', $name, $tech)
-!endfunction
-!function MaterialsGolfCourseCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsGolfCourseCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsGolfCourseMd>', 'Golf Course', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

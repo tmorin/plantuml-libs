@@ -6,10 +6,10 @@ UtvdUtVmxihntAcxpvq-kqy
 
 sprite $GcpPartnerInterconnectMd [14x14/16z] LOw50S1020E3i__43TJl5Gy0iKKmIDQIQtfVE0sjxYAy5GW-RkOq0rPT4UuntZ4SuYuOarQyrZUpxTibTyADVgV7eun62V1NVG
 
-!function GcpPartnerInterconnect($id, $name="Partner Interconnect", $tech="")
+!procedure GcpPartnerInterconnect($id, $name="Partner Interconnect", $tech="")
   CloudElement($id, 'gcp/Networking/GcpPartnerInterconnect', $name, $tech)
-!endfunction
-!function GcpPartnerInterconnectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure GcpPartnerInterconnectCard($id, $funcName="", $content="")
   CloudCard($id, '<$GcpPartnerInterconnectMd>', 'Partner Interconnect', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

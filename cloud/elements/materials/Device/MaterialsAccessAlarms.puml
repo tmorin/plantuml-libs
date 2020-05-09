@@ -6,10 +6,10 @@ CbMnFfcnIbKvR7M11kig0uaqnLXbMnZmsnn-BVE1YuoOfcgpVk2YqoDyAduWfE09hm
 
 sprite $MaterialsAccessAlarmsMd [14x14/16z] POo70KD1249LiEs_SBZqvB-hAc3_qC_jlD_LWKp4bBeiJfCz-cWO2rCN6oPQBOPE7z_we_BH9qOjGjUyMbvyVAnX0W7vtc4d-i1D85KyyEnEjmit
 
-!function MaterialsAccessAlarms($id, $name="Access Alarms", $tech="")
+!procedure MaterialsAccessAlarms($id, $name="Access Alarms", $tech="")
   CloudElement($id, 'materials/Device/MaterialsAccessAlarms', $name, $tech)
-!endfunction
-!function MaterialsAccessAlarmsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsAccessAlarmsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsAccessAlarmsMd>', 'Access Alarms', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

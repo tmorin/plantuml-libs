@@ -3,10 +3,10 @@ sprite $MaterialsBluetoothSearchingLg [20x20/16z] TT350S0W3010eZZiFstT6tWUSJT-07
 
 sprite $MaterialsBluetoothSearchingMd [14x14/16z] PKw54G0n28FKTVzjtwKvE2KkzZpMBzRlZP1OyllwWkXJ4lNFMqzEazxlh42K2FvOIIdKGEsypDuE
 
-!function MaterialsBluetoothSearching($id, $name="Bluetooth Searching", $tech="")
+!procedure MaterialsBluetoothSearching($id, $name="Bluetooth Searching", $tech="")
   CloudElement($id, 'materials/Device/MaterialsBluetoothSearching', $name, $tech)
-!endfunction
-!function MaterialsBluetoothSearchingCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsBluetoothSearchingCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsBluetoothSearchingMd>', 'Bluetooth Searching', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

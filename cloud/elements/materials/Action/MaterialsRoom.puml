@@ -6,10 +6,10 @@ vZbWtZDqmpbwIW8
 
 sprite $MaterialsRoomMd [14x14/16z] ROgr0SD040JldddwhzQqKcHDicX_U2eb-HqQGBjYvhHso4gTQbRfEevldHcwDaQCWwPduaTIyWxGtKGwSABTLAXo-kft4O8zy0O
 
-!function MaterialsRoom($id, $name="Room", $tech="")
+!procedure MaterialsRoom($id, $name="Room", $tech="")
   CloudElement($id, 'materials/Action/MaterialsRoom', $name, $tech)
-!endfunction
-!function MaterialsRoomCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRoomCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRoomMd>', 'Room', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

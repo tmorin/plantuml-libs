@@ -3,10 +3,10 @@ sprite $MaterialsPaymentLg [20x20/16z] fT054e0W441HXsQ_SV_JsjtAcuRjB8csRiNgzab1b
 
 sprite $MaterialsPaymentMd [14x14/16z] VSsr0S0m0CJ03yUy_xHcfkjK2JldyqRF2Npl7RsVhUUC7bSgSyL8n5nTY2vN9wAph_RGtdSC
 
-!function MaterialsPayment($id, $name="Payment", $tech="")
+!procedure MaterialsPayment($id, $name="Payment", $tech="")
   CloudElement($id, 'materials/Action/MaterialsPayment', $name, $tech)
-!endfunction
-!function MaterialsPaymentCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsPaymentCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsPaymentMd>', 'Payment', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

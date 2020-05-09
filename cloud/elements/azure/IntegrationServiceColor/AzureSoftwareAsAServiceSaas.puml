@@ -6,10 +6,10 @@ NdqBr8DTuIYgVz0pSsHIdWz3uHe6j2U8yJplROn8pmY-BCO8v1W_Ou-l-R9vtWu
 
 sprite $AzureSoftwareAsAServiceSaasMd [14x14/16z] HOq55iH024DnyhZ_WHVPjdyKIsXW2pUcWpqQkxzOBDh1VQ_u10c4A_dsk5tLxzwdgtjdCo-fkwjlrMKSFD4yzgPJ5Jgwrkk9ek1LNvHoqGy
 
-!function AzureSoftwareAsAServiceSaas($id, $name="Software As A Service Saas", $tech="")
+!procedure AzureSoftwareAsAServiceSaas($id, $name="Software As A Service Saas", $tech="")
   CloudElement($id, 'azure/IntegrationServiceColor/AzureSoftwareAsAServiceSaas', $name, $tech)
-!endfunction
-!function AzureSoftwareAsAServiceSaasCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureSoftwareAsAServiceSaasCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureSoftwareAsAServiceSaasMd>', 'Software As A Service Saas', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

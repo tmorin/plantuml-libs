@@ -3,10 +3,10 @@ sprite $MaterialsCallToActionLg [20x20/16z] lT0r0e0m343HVEgQ-vyMsN2O-hPALFx2dY14
 
 sprite $MaterialsCallToActionMd [14x14/16z] dSwb0S104031PpZilzj47TWVjsvBLfkffI4RR4E3yLvY_ZhDd35sCNkqUynj-Ipx
 
-!function MaterialsCallToAction($id, $name="Call To Action", $tech="")
+!procedure MaterialsCallToAction($id, $name="Call To Action", $tech="")
   CloudElement($id, 'materials/Av/MaterialsCallToAction', $name, $tech)
-!endfunction
-!function MaterialsCallToActionCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCallToActionCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCallToActionMd>', 'Call To Action', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

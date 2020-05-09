@@ -3,10 +3,10 @@ sprite $MaterialsExposureNeg1Lg [20x20/16z] Ow0bO6HcGHTXu-9dHnDZOcFcOCVKp8vFZ8K3
 
 sprite $MaterialsExposureNeg1Md [14x14/16z] Oo0PCBAoCo9uBAoSZCYI760UCoihAmis7WpWuO5raEGY
 
-!function MaterialsExposureNeg1($id, $name="Exposure Neg1", $tech="")
+!procedure MaterialsExposureNeg1($id, $name="Exposure Neg1", $tech="")
   CloudElement($id, 'materials/Image/MaterialsExposureNeg1', $name, $tech)
-!endfunction
-!function MaterialsExposureNeg1Card($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsExposureNeg1Card($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsExposureNeg1Md>', 'Exposure Neg1', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

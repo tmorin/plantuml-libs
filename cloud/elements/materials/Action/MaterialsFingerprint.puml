@@ -6,10 +6,10 @@ h7HTtJQuQWpH5STZbeT4Jqwu7B2U437H5xR-Sm4
 
 sprite $MaterialsFingerprintMd [14x14/16z] POs50G0X3CJw2Vkl_8RJeBMxIE0BCsXXYco1li65jjqRmHP9hU4N5H3AkrlDwGX_GBVlVWq28_C
 
-!function MaterialsFingerprint($id, $name="Fingerprint", $tech="")
+!procedure MaterialsFingerprint($id, $name="Fingerprint", $tech="")
   CloudElement($id, 'materials/Action/MaterialsFingerprint', $name, $tech)
-!endfunction
-!function MaterialsFingerprintCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsFingerprintCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsFingerprintMd>', 'Fingerprint', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

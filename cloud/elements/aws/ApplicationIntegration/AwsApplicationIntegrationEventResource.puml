@@ -6,10 +6,10 @@ E81VEBtZ_WS
 
 sprite $AwsApplicationIntegrationEventResourceMd [14x14/16z] NKw50O0m35kC_qzcMcHQYrn9cBxQMFsrt1_iJ2DJUsVigpAalpwPUwC_AwDxqWTMXfandqaKYssL0WZyr7_Elgvl
 
-!function AwsApplicationIntegrationEventResource($id, $name="Application Integration Event Resource", $tech="")
+!procedure AwsApplicationIntegrationEventResource($id, $name="Application Integration Event Resource", $tech="")
   CloudElement($id, 'aws/ApplicationIntegration/AwsApplicationIntegrationEventResource', $name, $tech)
-!endfunction
-!function AwsApplicationIntegrationEventResourceCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsApplicationIntegrationEventResourceCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsApplicationIntegrationEventResourceMd>', 'Application Integration Event Resource', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

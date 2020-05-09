@@ -6,10 +6,10 @@ sLIaHzeYFaZfdqp25odXEklBVawT6jD5T5QOg48j
 
 sprite $AzureEducationMd [18x14/16z] NOm70W9120D9k_y_sQseDri39BLXmbfS_Gow1cNAP5n2QqhqishU1Ys6Y0lQjNWLSODMqTG95-LH40Ml0X9pu0JXhao7n_rRsGJ6gr87tOBgGgyeBl41
 
-!function AzureEducation($id, $name="Education", $tech="")
+!procedure AzureEducation($id, $name="Education", $tech="")
   CloudElement($id, 'azure/OtherCategoryServiceIcon/AzureEducation', $name, $tech)
-!endfunction
-!function AzureEducationCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureEducationCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureEducationMd>', 'Education', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

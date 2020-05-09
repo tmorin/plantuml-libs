@@ -3,10 +3,10 @@ sprite $AwsManagedBlockchainLg [20x20/16z] RS-50SGW50FGan_PV-6w84a5UBYEi8i2Ag02A
 
 sprite $AwsManagedBlockchainMd [14x14/16z] LSg73G0n24FHAs1x_udJW_nJdmHxkD58es4gUqSOtuoj-5SnbHlHHzJPdtw8BeavqPkgP9HHnWO
 
-!function AwsManagedBlockchain($id, $name="Managed Blockchain", $tech="")
+!procedure AwsManagedBlockchain($id, $name="Managed Blockchain", $tech="")
   CloudElement($id, 'aws/Blockchain/AwsManagedBlockchain', $name, $tech)
-!endfunction
-!function AwsManagedBlockchainCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsManagedBlockchainCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsManagedBlockchainMd>', 'Managed Blockchain', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

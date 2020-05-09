@@ -9,10 +9,10 @@ HOs54SGm30HZYx__Wdylk07hOApZMDiZCiFDza8Q0Z3mmzObUsRwylEYkkkQfbJsDvYaYwUPramUblDx
 y7Ml0LMHVm
 }
 
-!function AzureDisks($id, $name="Disks", $tech="")
+!procedure AzureDisks($id, $name="Disks", $tech="")
   CloudElement($id, 'azure/ComputeServiceColor/AzureDisks', $name, $tech)
-!endfunction
-!function AzureDisksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDisksCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDisksMd>', 'Disks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

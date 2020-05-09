@@ -6,10 +6,10 @@ Rh_LYhZVrEH53m
 
 sprite $MaterialsKitchenMd [14x14/16z] ROw53O1034N9jwRx3umxl9Ew32zGErWiXoA0UB4YP97ARkbcTLPwisgkcwdyrjN3yjrQ_iDoi19_Dxip0G
 
-!function MaterialsKitchen($id, $name="Kitchen", $tech="")
+!procedure MaterialsKitchen($id, $name="Kitchen", $tech="")
   CloudElement($id, 'materials/Places/MaterialsKitchen', $name, $tech)
-!endfunction
-!function MaterialsKitchenCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsKitchenCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsKitchenMd>', 'Kitchen', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

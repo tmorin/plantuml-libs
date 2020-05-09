@@ -6,10 +6,10 @@ pF1ik_7bBCY6l8I_HW
 
 sprite $MaterialsLibraryAddMd [14x14/16z] NOw50S0W30IZE6J_ROlM3eq__47d5pmiCRCS--K128UbLAVbIQmseLotrVy8H6d7N3T5yxRCv5LdFNeixbPhmpKiO5bWjvGM21tsZwuV5m
 
-!function MaterialsLibraryAdd($id, $name="Library Add", $tech="")
+!procedure MaterialsLibraryAdd($id, $name="Library Add", $tech="")
   CloudElement($id, 'materials/Av/MaterialsLibraryAdd', $name, $tech)
-!endfunction
-!function MaterialsLibraryAddCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLibraryAddCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLibraryAddMd>', 'Library Add', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

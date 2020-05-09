@@ -3,10 +3,10 @@ sprite $MaterialsWebAssetLg [20x20/16z] nSYr0G0X301080ak-q_xWjE-Nddi7g09b0ff4d9Y
 
 sprite $MaterialsWebAssetMd [14x14/16z] fSUr0S0m00Cmbnl-_zgWrx0seUb-w8uvjIDznidtoLwPzeF-dOcRH1pkbsuq1G
 
-!function MaterialsWebAsset($id, $name="Web Asset", $tech="")
+!procedure MaterialsWebAsset($id, $name="Web Asset", $tech="")
   CloudElement($id, 'materials/Av/MaterialsWebAsset', $name, $tech)
-!endfunction
-!function MaterialsWebAssetCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsWebAssetCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsWebAssetMd>', 'Web Asset', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

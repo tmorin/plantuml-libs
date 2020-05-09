@@ -6,10 +6,10 @@ foZSs-CV
 
 sprite $AzureTagsMd [12x14/16z] DSU73G0W3CJ01zBt7vWKnMfdL4z4BfPASfeicjsbcSafYffdjraEjylDT3WucSuCBpbcd3K1u7QpfxcJt1b-
 
-!function AzureTags($id, $name="Tags", $tech="")
+!procedure AzureTags($id, $name="Tags", $tech="")
   CloudElement($id, 'azure/GeneralServiceIcons/AzureTags', $name, $tech)
-!endfunction
-!function AzureTagsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureTagsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureTagsMd>', 'Tags', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

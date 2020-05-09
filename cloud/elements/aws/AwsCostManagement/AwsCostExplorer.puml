@@ -6,10 +6,10 @@ kETO0G
 
 sprite $AwsCostExplorerMd [14x14/16z] VScv5SDG50BHv350_mNRsgNe3z4zT9st9IKxGgbXV2iQAxkiJKFf7WCoEHKOITpA1iUNYfNFPpGwJnjluIxx0m
 
-!function AwsCostExplorer($id, $name="Cost Explorer", $tech="")
+!procedure AwsCostExplorer($id, $name="Cost Explorer", $tech="")
   CloudElement($id, 'aws/AwsCostManagement/AwsCostExplorer', $name, $tech)
-!endfunction
-!function AwsCostExplorerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCostExplorerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCostExplorerMd>', 'Cost Explorer', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

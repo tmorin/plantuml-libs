@@ -6,10 +6,10 @@ ZP030i0m301h1l__xJghkgsA4p6FCW_KBW9-09lGb4kYzKsfgCqk0otzAlDImobBKjXLPeLCfuozJQii
 
 sprite $MaterialsCasinoMd [14x14/16z] NOw50SGW54Dn3zb_shjw6nxoNSo2THTsDoekwcOwrDZ97YlSPire2bbCdBk5NWOmIiTXaV1-_zNIpBMBJj3fkfdo1m
 
-!function MaterialsCasino($id, $name="Casino", $tech="")
+!procedure MaterialsCasino($id, $name="Casino", $tech="")
   CloudElement($id, 'materials/Places/MaterialsCasino', $name, $tech)
-!endfunction
-!function MaterialsCasinoCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsCasinoCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsCasinoMd>', 'Casino', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

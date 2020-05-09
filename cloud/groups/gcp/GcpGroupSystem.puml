@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupSystem($id, $name="System", $tech="")
+!procedure GcpGroupSystem($id, $name="System", $tech="")
   CloudGroup($id, "GcpGroupSystem", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupSystem>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

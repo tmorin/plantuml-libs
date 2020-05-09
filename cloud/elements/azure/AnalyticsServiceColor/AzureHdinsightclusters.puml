@@ -9,10 +9,10 @@ sprite $AzureHdinsightclustersMd [14x14/16z] {
 T-PtVW
 }
 
-!function AzureHdinsightclusters($id, $name="Hdinsightclusters", $tech="")
+!procedure AzureHdinsightclusters($id, $name="Hdinsightclusters", $tech="")
   CloudElement($id, 'azure/AnalyticsServiceColor/AzureHdinsightclusters', $name, $tech)
-!endfunction
-!function AzureHdinsightclustersCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureHdinsightclustersCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureHdinsightclustersMd>', 'Hdinsightclusters', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

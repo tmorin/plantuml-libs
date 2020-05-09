@@ -3,10 +3,10 @@ sprite $MaterialsSubjectLg [20x20/16z] Ow0-OE5WXmCE5gnYE04J2n9WWeYnylB00IyhH8mH1
 
 sprite $MaterialsSubjectMd [14x14/16z] Oy0F6A40p67XW08Mc1H2afaD2fX1F2PcA612vo5KieDL8an0s03dGkG80W
 
-!function MaterialsSubject($id, $name="Subject", $tech="")
+!procedure MaterialsSubject($id, $name="Subject", $tech="")
   CloudElement($id, 'materials/Action/MaterialsSubject', $name, $tech)
-!endfunction
-!function MaterialsSubjectCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsSubjectCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsSubjectMd>', 'Subject', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

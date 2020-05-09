@@ -6,10 +6,10 @@ I-Gky4du0BAtOXUOmOchOXxLk2LurVW1
 
 sprite $AzureMobileInventoryMd [13x14/16z] TSU50GL0209GbGCyzz_tTuV9ArcoAiwbsTrxT84x8xBlED__C5zG-SJIgPXN4AUJnXM532ayrcAnxGhEj5Z1JYAmK4HcfH3deYNPTGG
 
-!function AzureMobileInventory($id, $name="Mobile Inventory", $tech="")
+!procedure AzureMobileInventory($id, $name="Mobile Inventory", $tech="")
   CloudElement($id, 'azure/FlatSymbols/CneIntune/AzureMobileInventory', $name, $tech)
-!endfunction
-!function AzureMobileInventoryCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureMobileInventoryCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureMobileInventoryMd>', 'Mobile Inventory', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

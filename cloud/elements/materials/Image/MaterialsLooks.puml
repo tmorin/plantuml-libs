@@ -6,10 +6,10 @@ lOg54GD13CHs3utzjnldiOFNeJN2PxGfgZBRQxZJPItntBmZyt7yETpQfRI1VSvED3tbhgTRkgVr2dQf
 
 sprite $MaterialsLooksMd [14x14/16z] dOc70GDH24Ab-CNz1qxF07VF2jGrQFF_ApadqKTqY1TCVn9mTeTufn7NW9TACHZN2mz2DGxUwdLQTPCd
 
-!function MaterialsLooks($id, $name="Looks", $tech="")
+!procedure MaterialsLooks($id, $name="Looks", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLooks', $name, $tech)
-!endfunction
-!function MaterialsLooksCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLooksCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLooksMd>', 'Looks', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

@@ -167,7 +167,7 @@ generateElementSprite() {
   fi
 }
 
-generateElementFunctions() {
+generateElementProcedures() {
   local iconPath=$1
   local elSrc=$2
   local elName=$(basename ${elSrc%.*})
@@ -175,16 +175,16 @@ generateElementFunctions() {
 
   local icon=$(sed -r 's:([^/]*/){2}::' <<< ${iconPath%.*})
   cat <<EOF >> ${elSrc}
-!function ${elName}(\$id, \$name="${hName}", \$tech="")
+!procedure ${elName}(\$id, \$name="${hName}", \$tech="")
   ${libName^}Element(\$id, '${icon}', \$name, \$tech)
-!endfunction
+!endprocedure
 EOF
 
   local sptName="${elName}Md"
   cat <<EOF >> ${elSrc}
-!function ${elName}Card(\$id, \$funcName="", \$content="")
+!procedure ${elName}Card(\$id, \$funcName="", \$content="")
   ${libName^}Card(\$id, '<\$${sptName}>', '${hName}', \$funcName, \$content)
-!endfunction
+!endprocedure
 EOF
 }
 
@@ -353,7 +353,7 @@ generateElement() {
   generateElementSprite ${iconPath} ${tmpSptMd} ${mdSize}
   cat ${tmpSptMd} >> ${elSrc}
 
-  generateElementFunctions ${iconPath} ${elSrc}
+  generateElementProcedures ${iconPath} ${elSrc}
   generateElementSnippets ${elSrc} ${pkgStlFile}
   generateElementDocumentation ${iconPath} ${elSrc}
 
@@ -409,9 +409,9 @@ generateGroups() {
         spriteValue='<$'${grpName}'Lg>'
       fi
       cat <<EOF >> ${grpSrc}
-!function ${grpName}(\$id, \$name="${Label}", \$tech="")
+!procedure ${grpName}(\$id, \$name="${Label}", \$tech="")
   ${libName^}Group(\$id, "${grpName}", "${spriteValue}", \$name, \$tech)
-!endfunction
+!endprocedure
 EOF
       cat <<EOF >> ${grpSrc}
 skinparam Rectangle<<${grpName}>> {

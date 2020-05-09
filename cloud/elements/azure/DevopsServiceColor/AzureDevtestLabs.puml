@@ -6,10 +6,10 @@ PSr70W0X24DHL229zp_mCBtzbJuBTZII8hez2agQKtwJQwCdTkvKiTM-1KXTDaSHf5kgCCkJa02ecMOy
 
 sprite $AzureDevtestLabsMd [14x14/16z] JKs53S0m34l9aFyFNb5Q6ErOKccphMeriZEzsx8sEKMpXkJJPGrurQBaRB6RP1zGefmpZu6PrF-Tem4avYLvAKllm2YFVctGugwudd2MRN11iz-lWIKZFW
 
-!function AzureDevtestLabs($id, $name="Devtest Labs", $tech="")
+!procedure AzureDevtestLabs($id, $name="Devtest Labs", $tech="")
   CloudElement($id, 'azure/DevopsServiceColor/AzureDevtestLabs', $name, $tech)
-!endfunction
-!function AzureDevtestLabsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AzureDevtestLabsCard($id, $funcName="", $content="")
   CloudCard($id, '<$AzureDevtestLabsMd>', 'Devtest Labs', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

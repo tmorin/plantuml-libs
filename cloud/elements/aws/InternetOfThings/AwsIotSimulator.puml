@@ -6,10 +6,10 @@ PSu73WCW28LXu0rw_nFNeXscVwPVL8WfISGTJKhvIvWZ-6lEn8gepzrIm1BfX3Qb6Q2Rx4plcqOiKvjU
 
 sprite $AwsIotSimulatorMd [14x14/16z] HSs70KCX54BHXrpC_Xi7JVbOZtKQW-ONBFsva0tBLnspoUBG7kULQ5moLJTrfwZYxAaI9WrcJQCh__vWRyVpKy8Z8FmLsC-U8RaFlW4
 
-!function AwsIotSimulator($id, $name="Iot Simulator", $tech="")
+!procedure AwsIotSimulator($id, $name="Iot Simulator", $tech="")
   CloudElement($id, 'aws/InternetOfThings/AwsIotSimulator', $name, $tech)
-!endfunction
-!function AwsIotSimulatorCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsIotSimulatorCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsIotSimulatorMd>', 'Iot Simulator', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

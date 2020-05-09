@@ -1,7 +1,7 @@
 @startuml
-!function GcpGroupExternalDataSources($id, $name="External Data Sources", $tech="")
+!procedure GcpGroupExternalDataSources($id, $name="External Data Sources", $tech="")
   CloudGroup($id, "GcpGroupExternalDataSources", "", $name, $tech)
-!endfunction
+!endprocedure
 skinparam Rectangle<<GcpGroupExternalDataSources>> {
   StereotypeFontColor $GCP_GROUP_FONT_COLOR
   BorderThickness 0

@@ -6,10 +6,10 @@ Jg_p1
 
 sprite $MaterialsDirectionsMd [14x14/16z] RKs35G0n5AlnkV-qPrHvZCq28RI4EJH4bKD3g51u29MSREHmEybOQon8k5YqfRYajodP4zUBtFlQZJQaVR_fHrhi
 
-!function MaterialsDirections($id, $name="Directions", $tech="")
+!procedure MaterialsDirections($id, $name="Directions", $tech="")
   CloudElement($id, 'materials/Maps/MaterialsDirections', $name, $tech)
-!endfunction
-!function MaterialsDirectionsCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsDirectionsCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsDirectionsMd>', 'Directions', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

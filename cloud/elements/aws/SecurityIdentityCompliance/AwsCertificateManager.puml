@@ -6,10 +6,10 @@ PgKaCNBQjrd5EuQLVzRm0G
 
 sprite $AwsCertificateManagerMd [14x14/16z] HSpL0G0n30BGBuZS_liUf4RrLL8xETdOxigOa661Au3bCrAtLbDVWAYYfHMwiChgVLVMb7sA99XBz0spK_ewqvHI-lh66cxz
 
-!function AwsCertificateManager($id, $name="Certificate Manager", $tech="")
+!procedure AwsCertificateManager($id, $name="Certificate Manager", $tech="")
   CloudElement($id, 'aws/SecurityIdentityCompliance/AwsCertificateManager', $name, $tech)
-!endfunction
-!function AwsCertificateManagerCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsCertificateManagerCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsCertificateManagerMd>', 'Certificate Manager', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

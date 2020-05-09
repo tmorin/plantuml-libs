@@ -6,10 +6,10 @@ lmtBM6N-SI57N3kIw-A1P84WMJmTuzSjmyoRzny
 
 sprite $AwsRoute53RouteTableMd [14x14/16z] JSt70GC024BHo8VzLmwc-YmSmGSne5tXHFKG6oJDtUMG0wVSjJUHD6AcBz5CbmsI-2Sc1w7KhTC-x_RrQ_V14m
 
-!function AwsRoute53RouteTable($id, $name="Route53 Route Table", $tech="")
+!procedure AwsRoute53RouteTable($id, $name="Route53 Route Table", $tech="")
   CloudElement($id, 'aws/NetworkingContentDelivery/AwsRoute53RouteTable', $name, $tech)
-!endfunction
-!function AwsRoute53RouteTableCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsRoute53RouteTableCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsRoute53RouteTableMd>', 'Route53 Route Table', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

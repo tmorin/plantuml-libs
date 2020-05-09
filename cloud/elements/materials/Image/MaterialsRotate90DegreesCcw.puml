@@ -6,10 +6,10 @@ uL0LsetXAwc0zvAOLC7X-QT6xo3FL1fFTwF-zbkjrV8xt
 
 sprite $MaterialsRotate90DegreesCcwMd [14x14/16z] PKs54S0m2CIXjl-wlRWRy0Pb8KnBP6hukvHwHqzeM65B80kWMMukYpmEJWs1vbOCw9OqJYpsf2AGXgMswfohP_eqMfwmU63hp8tXM3y
 
-!function MaterialsRotate90DegreesCcw($id, $name="Rotate90 Degrees Ccw", $tech="")
+!procedure MaterialsRotate90DegreesCcw($id, $name="Rotate90 Degrees Ccw", $tech="")
   CloudElement($id, 'materials/Image/MaterialsRotate90DegreesCcw', $name, $tech)
-!endfunction
-!function MaterialsRotate90DegreesCcwCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsRotate90DegreesCcwCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsRotate90DegreesCcwMd>', 'Rotate90 Degrees Ccw', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

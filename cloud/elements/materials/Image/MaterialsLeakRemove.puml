@@ -6,10 +6,10 @@ cDEimPgHk6nwLsbo1Yo3dM0CFIfKGmeWgzWIPyC0uVbu0m
 
 sprite $MaterialsLeakRemoveMd [14x14/16z] PKu54i0m25i2HqF__-3LfiMT73kXyQ8W7BfIYasldjSaxTe9i-I8Xc79Dcpgkv0SRPV4DG2rOSTrgRJT-wTeLRpk2k6CDxITJW
 
-!function MaterialsLeakRemove($id, $name="Leak Remove", $tech="")
+!procedure MaterialsLeakRemove($id, $name="Leak Remove", $tech="")
   CloudElement($id, 'materials/Image/MaterialsLeakRemove', $name, $tech)
-!endfunction
-!function MaterialsLeakRemoveCard($id, $funcName="", $content="")
+!endprocedure
+!procedure MaterialsLeakRemoveCard($id, $funcName="", $content="")
   CloudCard($id, '<$MaterialsLeakRemoveMd>', 'Leak Remove', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml

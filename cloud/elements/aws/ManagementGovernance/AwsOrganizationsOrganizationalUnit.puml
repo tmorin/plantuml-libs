@@ -6,10 +6,10 @@ ob-_RxDwcsdpmW
 
 sprite $AwsOrganizationsOrganizationalUnitMd [14x14/16z] LStN0GCm20DH97FUV-I8TCxrVL6hNg7w9iZjThxvZ4JOd9TyAZ1ltRu7haR2DYwr85TLlcv6UCBIwBogn9xUgrez
 
-!function AwsOrganizationsOrganizationalUnit($id, $name="Organizations Organizational Unit", $tech="")
+!procedure AwsOrganizationsOrganizationalUnit($id, $name="Organizations Organizational Unit", $tech="")
   CloudElement($id, 'aws/ManagementGovernance/AwsOrganizationsOrganizationalUnit', $name, $tech)
-!endfunction
-!function AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")
+!endprocedure
+!procedure AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")
   CloudCard($id, '<$AwsOrganizationsOrganizationalUnitMd>', 'Organizations Organizational Unit', $funcName, $content)
-!endfunction
+!endprocedure
 @enduml
