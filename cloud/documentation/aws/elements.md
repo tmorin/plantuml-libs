@@ -70,6 +70,7 @@
 | ![AwsCostExplorer](AwsCostManagement/AwsCostExplorer.element.png) | [AwsCostExplorer](AwsCostManagement/AwsCostExplorer.md)<br>`elements/aws/AwsCostManagement/AwsCostExplorer` |
 | ![AwsCostManagement](AwsCostManagement/AwsCostManagement.element.png) | [AwsCostManagement](AwsCostManagement/AwsCostManagement.md)<br>`elements/aws/AwsCostManagement/AwsCostManagement` |
 | ![AwsReservedInstanceReporting](AwsCostManagement/AwsReservedInstanceReporting.element.png) | [AwsReservedInstanceReporting](AwsCostManagement/AwsReservedInstanceReporting.md)<br>`elements/aws/AwsCostManagement/AwsReservedInstanceReporting` |
+| ![AwsSavingsPlans](AwsCostManagement/AwsSavingsPlans.element.png) | [AwsSavingsPlans](AwsCostManagement/AwsSavingsPlans.md)<br>`elements/aws/AwsCostManagement/AwsSavingsPlans` |
 ## elements/aws/Blockchain
 | | Name |
 | :-: | --- |
@@ -122,6 +123,7 @@
 | :-: | --- |
 | ![AwsApplicationAutoScaling](Compute/AwsApplicationAutoScaling.element.png) | [AwsApplicationAutoScaling](Compute/AwsApplicationAutoScaling.md)<br>`elements/aws/Compute/AwsApplicationAutoScaling` |
 | ![AwsBatch](Compute/AwsBatch.element.png) | [AwsBatch](Compute/AwsBatch.md)<br>`elements/aws/Compute/AwsBatch` |
+| ![AwsBottlerocket](Compute/AwsBottlerocket.element.png) | [AwsBottlerocket](Compute/AwsBottlerocket.md)<br>`elements/aws/Compute/AwsBottlerocket` |
 | ![AwsCompute](Compute/AwsCompute.element.png) | [AwsCompute](Compute/AwsCompute.md)<br>`elements/aws/Compute/AwsCompute` |
 | ![AwsComputeOptimizer](Compute/AwsComputeOptimizer.element.png) | [AwsComputeOptimizer](Compute/AwsComputeOptimizer.md)<br>`elements/aws/Compute/AwsComputeOptimizer` |
 | ![AwsEc2Ami](Compute/AwsEc2Ami.element.png) | [AwsEc2Ami](Compute/AwsEc2Ami.md)<br>`elements/aws/Compute/AwsEc2Ami` |
@@ -149,6 +151,7 @@
 | ![AwsLightsail](Compute/AwsLightsail.element.png) | [AwsLightsail](Compute/AwsLightsail.md)<br>`elements/aws/Compute/AwsLightsail` |
 | ![AwsLocalZones](Compute/AwsLocalZones.element.png) | [AwsLocalZones](Compute/AwsLocalZones.md)<br>`elements/aws/Compute/AwsLocalZones` |
 | ![AwsOutposts](Compute/AwsOutposts.element.png) | [AwsOutposts](Compute/AwsOutposts.md)<br>`elements/aws/Compute/AwsOutposts` |
+| ![AwsParallelCluster](Compute/AwsParallelCluster.element.png) | [AwsParallelCluster](Compute/AwsParallelCluster.md)<br>`elements/aws/Compute/AwsParallelCluster` |
 | ![AwsServerlessApplicationRepository](Compute/AwsServerlessApplicationRepository.element.png) | [AwsServerlessApplicationRepository](Compute/AwsServerlessApplicationRepository.md)<br>`elements/aws/Compute/AwsServerlessApplicationRepository` |
 | ![AwsThinkboxDeadline](Compute/AwsThinkboxDeadline.element.png) | [AwsThinkboxDeadline](Compute/AwsThinkboxDeadline.md)<br>`elements/aws/Compute/AwsThinkboxDeadline` |
 | ![AwsThinkboxDraft](Compute/AwsThinkboxDraft.element.png) | [AwsThinkboxDraft](Compute/AwsThinkboxDraft.md)<br>`elements/aws/Compute/AwsThinkboxDraft` |
@@ -254,6 +257,7 @@
 | :-: | --- |
 | ![AwsClient](General/AwsClient.element.png) | [AwsClient](General/AwsClient.md)<br>`elements/aws/General/AwsClient` |
 | ![AwsDisk](General/AwsDisk.element.png) | [AwsDisk](General/AwsDisk.md)<br>`elements/aws/General/AwsDisk` |
+| ![AwsEmail](General/AwsEmail.element.png) | [AwsEmail](General/AwsEmail.md)<br>`elements/aws/General/AwsEmail` |
 | ![AwsForums](General/AwsForums.element.png) | [AwsForums](General/AwsForums.md)<br>`elements/aws/General/AwsForums` |
 | ![AwsGeneral](General/AwsGeneral.element.png) | [AwsGeneral](General/AwsGeneral.md)<br>`elements/aws/General/AwsGeneral` |
 | ![AwsGenericDatabase](General/AwsGenericDatabase.element.png) | [AwsGenericDatabase](General/AwsGenericDatabase.md)<br>`elements/aws/General/AwsGenericDatabase` |
@@ -318,6 +322,7 @@
 | ![AwsIotDesiredState](InternetOfThings/AwsIotDesiredState.element.png) | [AwsIotDesiredState](InternetOfThings/AwsIotDesiredState.md)<br>`elements/aws/InternetOfThings/AwsIotDesiredState` |
 | ![AwsIotDeviceDefender](InternetOfThings/AwsIotDeviceDefender.element.png) | [AwsIotDeviceDefender](InternetOfThings/AwsIotDeviceDefender.md)<br>`elements/aws/InternetOfThings/AwsIotDeviceDefender` |
 | ![AwsIotDeviceGateway](InternetOfThings/AwsIotDeviceGateway.element.png) | [AwsIotDeviceGateway](InternetOfThings/AwsIotDeviceGateway.md)<br>`elements/aws/InternetOfThings/AwsIotDeviceGateway` |
+| ![AwsIotDeviceJobsResource](InternetOfThings/AwsIotDeviceJobsResource.element.png) | [AwsIotDeviceJobsResource](InternetOfThings/AwsIotDeviceJobsResource.md)<br>`elements/aws/InternetOfThings/AwsIotDeviceJobsResource` |
 | ![AwsIotDeviceManagement](InternetOfThings/AwsIotDeviceManagement.element.png) | [AwsIotDeviceManagement](InternetOfThings/AwsIotDeviceManagement.md)<br>`elements/aws/InternetOfThings/AwsIotDeviceManagement` |
 | ![AwsIotDoorLock](InternetOfThings/AwsIotDoorLock.element.png) | [AwsIotDoorLock](InternetOfThings/AwsIotDoorLock.md)<br>`elements/aws/InternetOfThings/AwsIotDoorLock` |
 | ![AwsIotEcho](InternetOfThings/AwsIotEcho.element.png) | [AwsIotEcho](InternetOfThings/AwsIotEcho.md)<br>`elements/aws/InternetOfThings/AwsIotEcho` |
@@ -357,6 +362,7 @@
 | :-: | --- |
 | ![AwsApacheMxnet](MachineLearning/AwsApacheMxnet.element.png) | [AwsApacheMxnet](MachineLearning/AwsApacheMxnet.md)<br>`elements/aws/MachineLearning/AwsApacheMxnet` |
 | ![AwsAugmentedAi](MachineLearning/AwsAugmentedAi.element.png) | [AwsAugmentedAi](MachineLearning/AwsAugmentedAi.md)<br>`elements/aws/MachineLearning/AwsAugmentedAi` |
+| ![AwsCodeguru](MachineLearning/AwsCodeguru.element.png) | [AwsCodeguru](MachineLearning/AwsCodeguru.md)<br>`elements/aws/MachineLearning/AwsCodeguru` |
 | ![AwsComprehend](MachineLearning/AwsComprehend.element.png) | [AwsComprehend](MachineLearning/AwsComprehend.md)<br>`elements/aws/MachineLearning/AwsComprehend` |
 | ![AwsDeepcomposer](MachineLearning/AwsDeepcomposer.element.png) | [AwsDeepcomposer](MachineLearning/AwsDeepcomposer.md)<br>`elements/aws/MachineLearning/AwsDeepcomposer` |
 | ![AwsDeepcomposerPrimaryBg](MachineLearning/AwsDeepcomposerPrimaryBg.element.png) | [AwsDeepcomposerPrimaryBg](MachineLearning/AwsDeepcomposerPrimaryBg.md)<br>`elements/aws/MachineLearning/AwsDeepcomposerPrimaryBg` |
@@ -387,6 +393,7 @@
 ## elements/aws/ManagementGovernance
 | | Name |
 | :-: | --- |
+| ![AwsAppConfig](ManagementGovernance/AwsAppConfig.element.png) | [AwsAppConfig](ManagementGovernance/AwsAppConfig.md)<br>`elements/aws/ManagementGovernance/AwsAppConfig` |
 | ![AwsAutoScaling](ManagementGovernance/AwsAutoScaling.element.png) | [AwsAutoScaling](ManagementGovernance/AwsAutoScaling.md)<br>`elements/aws/ManagementGovernance/AwsAutoScaling` |
 | ![AwsCloudformationChangeSet](ManagementGovernance/AwsCloudformationChangeSet.element.png) | [AwsCloudformationChangeSet](ManagementGovernance/AwsCloudformationChangeSet.md)<br>`elements/aws/ManagementGovernance/AwsCloudformationChangeSet` |
 | ![AwsCloudformation](ManagementGovernance/AwsCloudformation.element.png) | [AwsCloudformation](ManagementGovernance/AwsCloudformation.md)<br>`elements/aws/ManagementGovernance/AwsCloudformation` |
@@ -398,7 +405,6 @@
 | ![AwsCloudwatchEventEventBased](ManagementGovernance/AwsCloudwatchEventEventBased.element.png) | [AwsCloudwatchEventEventBased](ManagementGovernance/AwsCloudwatchEventEventBased.md)<br>`elements/aws/ManagementGovernance/AwsCloudwatchEventEventBased` |
 | ![AwsCloudwatchEventTimeBased](ManagementGovernance/AwsCloudwatchEventTimeBased.element.png) | [AwsCloudwatchEventTimeBased](ManagementGovernance/AwsCloudwatchEventTimeBased.md)<br>`elements/aws/ManagementGovernance/AwsCloudwatchEventTimeBased` |
 | ![AwsCloudwatchRule](ManagementGovernance/AwsCloudwatchRule.element.png) | [AwsCloudwatchRule](ManagementGovernance/AwsCloudwatchRule.md)<br>`elements/aws/ManagementGovernance/AwsCloudwatchRule` |
-| ![AwsCodeguru](ManagementGovernance/AwsCodeguru.element.png) | [AwsCodeguru](ManagementGovernance/AwsCodeguru.md)<br>`elements/aws/ManagementGovernance/AwsCodeguru` |
 | ![AwsCommandLineInterface](ManagementGovernance/AwsCommandLineInterface.element.png) | [AwsCommandLineInterface](ManagementGovernance/AwsCommandLineInterface.md)<br>`elements/aws/ManagementGovernance/AwsCommandLineInterface` |
 | ![AwsConfig](ManagementGovernance/AwsConfig.element.png) | [AwsConfig](ManagementGovernance/AwsConfig.md)<br>`elements/aws/ManagementGovernance/AwsConfig` |
 | ![AwsControlTower](ManagementGovernance/AwsControlTower.element.png) | [AwsControlTower](ManagementGovernance/AwsControlTower.md)<br>`elements/aws/ManagementGovernance/AwsControlTower` |
@@ -466,7 +472,10 @@
 | ![AwsSnowballEdge](MigrationTransfer/AwsSnowballEdge.element.png) | [AwsSnowballEdge](MigrationTransfer/AwsSnowballEdge.md)<br>`elements/aws/MigrationTransfer/AwsSnowballEdge` |
 | ![AwsSnowball](MigrationTransfer/AwsSnowball.element.png) | [AwsSnowball](MigrationTransfer/AwsSnowball.md)<br>`elements/aws/MigrationTransfer/AwsSnowball` |
 | ![AwsSnowmobile](MigrationTransfer/AwsSnowmobile.element.png) | [AwsSnowmobile](MigrationTransfer/AwsSnowmobile.md)<br>`elements/aws/MigrationTransfer/AwsSnowmobile` |
-| ![AwsTransferForSftp](MigrationTransfer/AwsTransferForSftp.element.png) | [AwsTransferForSftp](MigrationTransfer/AwsTransferForSftp.md)<br>`elements/aws/MigrationTransfer/AwsTransferForSftp` |
+| ![AwsTransferFamily](MigrationTransfer/AwsTransferFamily.element.png) | [AwsTransferFamily](MigrationTransfer/AwsTransferFamily.md)<br>`elements/aws/MigrationTransfer/AwsTransferFamily` |
+| ![AwsTransferForFtpResourceIcon](MigrationTransfer/AwsTransferForFtpResourceIcon.element.png) | [AwsTransferForFtpResourceIcon](MigrationTransfer/AwsTransferForFtpResourceIcon.md)<br>`elements/aws/MigrationTransfer/AwsTransferForFtpResourceIcon` |
+| ![AwsTransferForFtpsResourceIcon](MigrationTransfer/AwsTransferForFtpsResourceIcon.element.png) | [AwsTransferForFtpsResourceIcon](MigrationTransfer/AwsTransferForFtpsResourceIcon.md)<br>`elements/aws/MigrationTransfer/AwsTransferForFtpsResourceIcon` |
+| ![AwsTransferForSftpResourceIcon](MigrationTransfer/AwsTransferForSftpResourceIcon.element.png) | [AwsTransferForSftpResourceIcon](MigrationTransfer/AwsTransferForSftpResourceIcon.md)<br>`elements/aws/MigrationTransfer/AwsTransferForSftpResourceIcon` |
 ## elements/aws/Mobile
 | | Name |
 | :-: | --- |
@@ -549,6 +558,7 @@
 | ![AwsDirectoryService](SecurityIdentityCompliance/AwsDirectoryService.element.png) | [AwsDirectoryService](SecurityIdentityCompliance/AwsDirectoryService.md)<br>`elements/aws/SecurityIdentityCompliance/AwsDirectoryService` |
 | ![AwsFirewallManager](SecurityIdentityCompliance/AwsFirewallManager.element.png) | [AwsFirewallManager](SecurityIdentityCompliance/AwsFirewallManager.md)<br>`elements/aws/SecurityIdentityCompliance/AwsFirewallManager` |
 | ![AwsGuardduty](SecurityIdentityCompliance/AwsGuardduty.element.png) | [AwsGuardduty](SecurityIdentityCompliance/AwsGuardduty.md)<br>`elements/aws/SecurityIdentityCompliance/AwsGuardduty` |
+| ![AwsIdentityAndAccessManagementIamAccessAnalyzer](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAccessAnalyzer.element.png) | [AwsIdentityAndAccessManagementIamAccessAnalyzer](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAccessAnalyzer.md)<br>`elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAccessAnalyzer` |
 | ![AwsIdentityAndAccessManagementIamAddOn](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAddOn.element.png) | [AwsIdentityAndAccessManagementIamAddOn](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAddOn.md)<br>`elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAddOn` |
 | ![AwsIdentityAndAccessManagementIamDataEncryptionKey](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey.element.png) | [AwsIdentityAndAccessManagementIamDataEncryptionKey](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey.md)<br>`elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamDataEncryptionKey` |
 | ![AwsIdentityAndAccessManagementIam](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam.element.png) | [AwsIdentityAndAccessManagementIam](SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam.md)<br>`elements/aws/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam` |
@@ -593,6 +603,7 @@
 | ![AwsFsx](Storage/AwsFsx.element.png) | [AwsFsx](Storage/AwsFsx.md)<br>`elements/aws/Storage/AwsFsx` |
 | ![AwsFsxForLustre](Storage/AwsFsxForLustre.element.png) | [AwsFsxForLustre](Storage/AwsFsxForLustre.md)<br>`elements/aws/Storage/AwsFsxForLustre` |
 | ![AwsFsxForWindowsFileServer](Storage/AwsFsxForWindowsFileServer.element.png) | [AwsFsxForWindowsFileServer](Storage/AwsFsxForWindowsFileServer.md)<br>`elements/aws/Storage/AwsFsxForWindowsFileServer` |
+| ![AwsGeneralAccessPointsDarkBg](Storage/AwsGeneralAccessPointsDarkBg.element.png) | [AwsGeneralAccessPointsDarkBg](Storage/AwsGeneralAccessPointsDarkBg.md)<br>`elements/aws/Storage/AwsGeneralAccessPointsDarkBg` |
 | ![AwsMultipleVolumesResourceIcon](Storage/AwsMultipleVolumesResourceIcon.element.png) | [AwsMultipleVolumesResourceIcon](Storage/AwsMultipleVolumesResourceIcon.md)<br>`elements/aws/Storage/AwsMultipleVolumesResourceIcon` |
 | ![AwsS3GlacierArchive](Storage/AwsS3GlacierArchive.element.png) | [AwsS3GlacierArchive](Storage/AwsS3GlacierArchive.md)<br>`elements/aws/Storage/AwsS3GlacierArchive` |
 | ![AwsS3Glacier](Storage/AwsS3Glacier.element.png) | [AwsS3Glacier](Storage/AwsS3Glacier.md)<br>`elements/aws/Storage/AwsS3Glacier` |
@@ -608,5 +619,9 @@
 | ![AwsStorage](Storage/AwsStorage.element.png) | [AwsStorage](Storage/AwsStorage.md)<br>`elements/aws/Storage/AwsStorage` |
 | ![AwsStorageGatewayCachedVolume](Storage/AwsStorageGatewayCachedVolume.element.png) | [AwsStorageGatewayCachedVolume](Storage/AwsStorageGatewayCachedVolume.md)<br>`elements/aws/Storage/AwsStorageGatewayCachedVolume` |
 | ![AwsStorageGateway](Storage/AwsStorageGateway.element.png) | [AwsStorageGateway](Storage/AwsStorageGateway.md)<br>`elements/aws/Storage/AwsStorageGateway` |
+| ![AwsStorageGatewayFileGateway](Storage/AwsStorageGatewayFileGateway.element.png) | [AwsStorageGatewayFileGateway](Storage/AwsStorageGatewayFileGateway.md)<br>`elements/aws/Storage/AwsStorageGatewayFileGateway` |
 | ![AwsStorageGatewayNonCachedVolume](Storage/AwsStorageGatewayNonCachedVolume.element.png) | [AwsStorageGatewayNonCachedVolume](Storage/AwsStorageGatewayNonCachedVolume.md)<br>`elements/aws/Storage/AwsStorageGatewayNonCachedVolume` |
+| ![AwsStorageGatewayTapeGateway](Storage/AwsStorageGatewayTapeGateway.element.png) | [AwsStorageGatewayTapeGateway](Storage/AwsStorageGatewayTapeGateway.md)<br>`elements/aws/Storage/AwsStorageGatewayTapeGateway` |
 | ![AwsStorageGatewayVirtualTapeLibrary](Storage/AwsStorageGatewayVirtualTapeLibrary.element.png) | [AwsStorageGatewayVirtualTapeLibrary](Storage/AwsStorageGatewayVirtualTapeLibrary.md)<br>`elements/aws/Storage/AwsStorageGatewayVirtualTapeLibrary` |
+| ![AwsStorageGatewayVolumeGateway](Storage/AwsStorageGatewayVolumeGateway.element.png) | [AwsStorageGatewayVolumeGateway](Storage/AwsStorageGatewayVolumeGateway.md)<br>`elements/aws/Storage/AwsStorageGatewayVolumeGateway` |
+| ![AwsVpcAccessPointsDarkBg](Storage/AwsVpcAccessPointsDarkBg.element.png) | [AwsVpcAccessPointsDarkBg](Storage/AwsVpcAccessPointsDarkBg.md)<br>`elements/aws/Storage/AwsVpcAccessPointsDarkBg` |

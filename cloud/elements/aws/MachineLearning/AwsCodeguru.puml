@@ -1,0 +1,15 @@
+@startuml
+sprite $AwsCodeguruLg [20x20/16z] {
+RSW5ieL034JHAj9fOV_xnJ9yVNSq9txJL_c0-O1vaHnT5cbC_3QsK0MYlUp6ejH5Vvj12sBPNYQ1Q815scDzI_TpoTP-eqi4gPBlzWS9oqPxR11A12yRx9OQ
+MJQekc8oDdchsfJ1PK4LSZSsQ6SQM_hsoN82
+}
+
+sprite $AwsCodeguruMd [14x14/16z] LSot0GD124HH6SQf_u85aztFtYuGkwab3vLIML60M6q4ER0hW-jHPMARWUnV4l1-xTLISA3gU5TS7Vdz8ZbTcgzoh1Bdgkhs1m
+
+!procedure AwsCodeguru($id, $name="Codeguru", $tech="")
+  CloudElement($id, 'aws/MachineLearning/AwsCodeguru', $name, $tech)
+!endprocedure
+!procedure AwsCodeguruCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsCodeguruMd>', 'Codeguru', $funcName, $content)
+!endprocedure
+@enduml

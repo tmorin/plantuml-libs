@@ -1,0 +1,15 @@
+@startuml
+sprite $AwsAppConfigLg [20x20/16z] {
+hSsr0SGm50FGmb-u_y07uJuoFrFVYAWy8DJIaBuH0DV0NAZvkjE2bw46eA_beEN03UBXOMpGzkiy3GbS8rxgWJA1B-CYQ9pS_ms-2DSOf7iy0iabNGHJrRTT
+YPk-bGy
+}
+
+sprite $AwsAppConfigMd [14x14/16z] XOst0G10208halll-_bhpyO4L4T4vmy23VXTa3X6xecc6FYTv9BDUxEvIy-GadDr9gaGkfPxWbwUarIgPG8
+
+!procedure AwsAppConfig($id, $name="App Config", $tech="")
+  CloudElement($id, 'aws/ManagementGovernance/AwsAppConfig', $name, $tech)
+!endprocedure
+!procedure AwsAppConfigCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsAppConfigMd>', 'App Config', $funcName, $content)
+!endprocedure
+@enduml

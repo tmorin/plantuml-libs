@@ -1,0 +1,15 @@
+@startuml
+sprite $AwsParallelClusterLg [20x20/16z] {
+NSw54SGm30J0cJzo_nM_vB0kCQqnyOpI6PupdYPfcY4e7oCPJJC89M-39NL799-z8Xr24hPrETVijiTIElWrdMRUwwoAlNgeaeC9bnNwkDO0nBR2CwPxNRmU
+DCozORtmV4xRYK_MYTCc_W4
+}
+
+sprite $AwsParallelClusterMd [14x14/16z] LKk30G1137i4tN_XCtDe8ri7N74oaPi9n6Q5G5uCeCJss-MfhULPj8rV4WipssHjAy9YQm_MW5QBGOdQZqeNug8P
+
+!procedure AwsParallelCluster($id, $name="Parallel Cluster", $tech="")
+  CloudElement($id, 'aws/Compute/AwsParallelCluster', $name, $tech)
+!endprocedure
+!procedure AwsParallelClusterCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsParallelClusterMd>', 'Parallel Cluster', $funcName, $content)
+!endprocedure
+@enduml

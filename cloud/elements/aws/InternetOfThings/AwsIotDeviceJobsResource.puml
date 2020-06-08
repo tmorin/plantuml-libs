@@ -1,0 +1,15 @@
+@startuml
+sprite $AwsIotDeviceJobsResourceLg [20x20/16z] {
+PT3LOSHG34HHZORIVyEXDIpSpoFxqGpsQivK7pKuZKzJV9WK7ARyPR3vyc5uD0FmDDdM_BUd7L-jD8FdFUYwyRDjHQpY9sEWP9dRKDB3RFLa40U1RnjxGvlT
+srYi23tlWTHWoYSRh5lkN7OePdM-sbryZ9_3h_m
+}
+
+sprite $AwsIotDeviceJobsResourceMd [14x14/16z] LOu50W90408N6Fp_a_N2cijjHXmy2-C53syhMhZRT094jCiYC8jyCjrQstfTRLAkfGPI7GkGgO_blzYK1EPQIXjzbILckU6h-ma
+
+!procedure AwsIotDeviceJobsResource($id, $name="Iot Device Jobs Resource", $tech="")
+  CloudElement($id, 'aws/InternetOfThings/AwsIotDeviceJobsResource', $name, $tech)
+!endprocedure
+!procedure AwsIotDeviceJobsResourceCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsIotDeviceJobsResourceMd>', 'Iot Device Jobs Resource', $funcName, $content)
+!endprocedure
+@enduml

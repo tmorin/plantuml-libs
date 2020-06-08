@@ -11,12 +11,12 @@ setConstants
 
 downloadPlantUML
 
-awsIconsUrl="https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_SVG_20200131.abfc4fb34450d2294f8c65d2dcc9ea1602b6a449.zip"
+awsIconsUrl="https://d1.awsstatic.com/webteam/architecture-icons/AWS-Architecture-Icons_SVG_20200430.974b253cb3059403544585500365fb828d305321.zip"
 azureIconsUrl="https://download.microsoft.com/download/1/7/1/171DA19A-5477-4F50-B354-4ABAF28502A6/Microsoft_Cloud_AI_Azure_Service_Icon_Set_2019_09_11.zip"
 gcpIconsUrl="https://cloud.google.com/icons/files/gcp-icons.zip"
 materialsIconsUrl="https://github.com/google/material-design-icons/releases/download/3.0.1/material-design-icons-3.0.1.zip"
 
-downloadIcons aws ${awsIconsUrl} "AWS-Architecture-Icons_SVG_20200131/SVG Light"
+downloadIcons aws ${awsIconsUrl} "AWS-Architecture-Icons_SVG_20200430/SVG Light"
 generateIcons aws -pps='s/-on-aws//i;s/-light-bg//i;' -pns='s/amazon//ig;s/aws//ig;'
 generateElements aws
 generateGroups aws

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../"
+
+' loads the library
+!include ../../../library.puml
+
+' loads the style
+include('styles/aws')
+
+' loads the AwsAppConfig element
+include('elements/aws/ManagementGovernance/AwsAppConfig')
+AwsAppConfig('element', 'App Config', 'an optional tech field')
+@enduml

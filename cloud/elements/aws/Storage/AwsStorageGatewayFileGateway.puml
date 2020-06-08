@@ -1,0 +1,12 @@
+@startuml
+sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lSYt0KCn34F1HmBG_Xix_YZLzfK7bCU7Yyrht0NLFjPXL_5spK7_lghYfI-dyTBrjPqD7Xjl9mxAUkqVNVhWW0ew5-89
+
+sprite $AwsStorageGatewayFileGatewayMd [14x14/16z] bOo35G1134IJGVybh_5u-34ZQ4jcHaSpGZsaOaByhZBxcrMbPO9iTQ_OjEESrKIlbMx5I6-o0W
+
+!procedure AwsStorageGatewayFileGateway($id, $name="Storage Gateway File Gateway", $tech="")
+  CloudElement($id, 'aws/Storage/AwsStorageGatewayFileGateway', $name, $tech)
+!endprocedure
+!procedure AwsStorageGatewayFileGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStorageGatewayFileGatewayMd>', 'Storage Gateway File Gateway', $funcName, $content)
+!endprocedure
+@enduml

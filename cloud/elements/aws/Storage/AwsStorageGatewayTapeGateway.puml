@@ -1,0 +1,15 @@
+@startuml
+sprite $AwsStorageGatewayTapeGatewayLg [20x20/16z] {
+hS_NWSGm409GO03VzL_m1cV_hxBUA09qrsJYIAv5WFAfpYsSlH-SYRysFunEChZRT4Gbl6n2aD_-D9P8Ky4-RBnELBA7HIYtSNdQ6J_DWmp0-ruLJDA1SzXs
+WmWjJQhLa0YWEv9B2Tj7kYp_V_rqmXi
+}
+
+sprite $AwsStorageGatewayTapeGatewayMd [14x14/16z] ZOn50iGm5483FARtFt4zgx56FpfCeNWSA-ZuH8xl01TyXcnv8fCmMuni9HT290XDD4OSVqG1L9r8I1BbTJQ9TbdQQWC
+
+!procedure AwsStorageGatewayTapeGateway($id, $name="Storage Gateway Tape Gateway", $tech="")
+  CloudElement($id, 'aws/Storage/AwsStorageGatewayTapeGateway', $name, $tech)
+!endprocedure
+!procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")
+  CloudCard($id, '<$AwsStorageGatewayTapeGatewayMd>', 'Storage Gateway Tape Gateway', $funcName, $content)
+!endprocedure
+@enduml
