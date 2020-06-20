@@ -1,18 +1,18 @@
 @startuml
-!includeurl https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
 '!include eventstorming-macros.puml
 '!include eventstorming-constants.puml
 '!include eventstorming-styles.puml
 
 legend()
 
-person(person)
-system(system)
-facade_command(facade_command, facade command)
-command(command)
-aggregate(aggregate)
-domain_event(domain_event, domain event)
-process(process)
+person("person")
+system("system")
+facade_command("facade_command", "facade command")
+command("command")
+aggregate("aggregate")
+domain_event("domain_event", "domain event")
+process("process")
 
 person --> facade_command : invokes
 system --> facade_command : invokes
