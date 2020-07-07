@@ -18,14 +18,14 @@ A npm package [@tmorin/plantuml-libs](https://www.npmjs.com/package/@tmorin/plan
 Its purpose is to provide locally the libraries as well as the command-line utility: `gdiag`.
 The command-line utility managed it-self the download of the PlantUML jar.
 
-Install the package:
+Install the package globally:
 ```shell script
-npm i @tmorin/plantuml-libs
+npm i -g @tmorin/plantuml-libs
 ```
 
 Show the `gdiag` help output:
 ```shell script
-gdiag.js --help
+gdiag --help
 ```
 
 ```text
