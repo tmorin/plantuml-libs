@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.1](https://github.com/tmorin/plantuml-libs/compare/v1.0.0...v1.0.1) (2020-07-08)
+
+
+### Bug Fixes
+
+* gdiag should not failed when plantuml.jar fails ([652bdf9](https://github.com/tmorin/plantuml-libs/commit/652bdf9e42c4a50adc85dae020d5e9157e498a43))
+
 ## 1.0.0 (2020-06-22)
 
 
