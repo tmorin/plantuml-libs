@@ -11,6 +11,7 @@ GREP "parse directory \[test\]"
 GREP "process source \[wd1/src1.puml\]"
 GREP "process source \[wd1/src2.puml\]"
 GREP "process source \[wd2/src1.puml\]"
+GREP "warn: Command failed: java -jar .gdiag/plantuml.jar test/wd2/empty.puml"
 
 RUNS stat test/wd1/src1-diag1.png
 RUNS stat test/wd1/src2-diag1.png

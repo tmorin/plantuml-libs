@@ -68,7 +68,7 @@ const javaCmd = argv.j;
 async function plantuml(file) {
     await exec(`${javaCmd} -jar ${techDir}/plantuml.jar ${file}`, {
         stdio: process.stdout
-    });
+    }).catch(error => log.warn(error.message));
 }
 
 async function download(url, destination) {
