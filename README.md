@@ -29,7 +29,7 @@ gdiag --help
 ```
 
 ```text
-diag
+gdiag
 
 Render PlantUML diagrams discovered (*.{puml,plantuml}) in the working
 directory.
