@@ -4,7 +4,7 @@
 [![builds.sr.ht status](https://builds.sr.ht/~tmorin/plantuml-libs/commits/main.yml.svg)](https://builds.sr.ht/~tmorin/plantuml-libs/commits/main.yml?)
 [![npm version](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs.svg)](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs)
 
-Tested with [PlantUML compiled Jar (Version 1.2020.14)](https://plantuml.com/download).
+Tested with [PlantUML compiled Jar (Version 1.2020.15.jar)](https://plantuml.com/download).
 
 Set of libraries for [PlantUML](http://plantuml.com).
 
