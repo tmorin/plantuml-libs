@@ -19,23 +19,23 @@
     "access": "public"
   },
   "scripts": {
-    "release": "npm test && standard-version",
-    "release:publish": "git push --tags && git push --all && npm publish --tag latest",
-    "alpha": "npm test && standard-version --skip.changelog --skip.tag --prerelease alpha",
-    "alpha:publish": "git push --tags && git push --all && npm publish --tag canary",
+    "alpha": "npm run build && standard-version --skip.changelog --skip.tag --prerelease alpha",
+    "alpha:publish": "git push --all && npm publish --tag canary",
+    "release": "npm run build && standard-version",
+    "release:publish": "git push --tags && git push --all",
     "test": "test/test.sh"
   },
   "bin": {
     "gdiag": "bin/gdiag.js"
   },
   "devDependencies": {
-    "standard-version": "^8.0.2"
+    "standard-version": "^9.0.0"
   },
   "dependencies": {
     "glob": "^7.1.6",
-    "moment": "^2.27.0",
-    "node-fetch": "^2.6.0",
+    "moment": "^2.28.0",
+    "node-fetch": "^2.6.1",
     "winston": "^3.3.3",
-    "yargs": "^15.4.1"
+    "yargs": "^16.0.3"
   }
 }
