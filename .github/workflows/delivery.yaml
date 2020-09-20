@@ -1,8 +1,10 @@
 name: Delivery
 
 on:
-  release:
-    types: [ created ]
+  push:
+    tags:
+      - 'v*.*.*'
+      - '!v*.*.*-*'
 
 jobs:
   build:
