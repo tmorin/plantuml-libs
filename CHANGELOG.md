@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/tmorin/plantuml-libs/compare/v1.0.2...v1.1.0) (2020-10-06)
+
+
+### Features
+
+* **eventstorming:** add the message type result ([4dafe16](https://github.com/tmorin/plantuml-libs/commit/4dafe16b2beadf18023788aad04f31a2d817ec8e))
+
+
+### Bug Fixes
+
+* **eventstorming:** result element where missing ([adf652c](https://github.com/tmorin/plantuml-libs/commit/adf652c5f0b283d7e089f7fc1309bec3f8c765b3))
+
 ### [1.0.2](https://github.com/tmorin/plantuml-libs/compare/v1.0.1...v1.0.2) (2020-07-28)
 
 
