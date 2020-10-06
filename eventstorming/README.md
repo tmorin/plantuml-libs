@@ -97,7 +97,7 @@ The `read_model`, `query`, `result` and `user_interface`:
 !include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
 read_model(read_model, a read model)
 query(query, a query)
-query(result, a result)
+result(result, a result)
 user_interface(user_interface, a user interface)
 @enduml
 ```
