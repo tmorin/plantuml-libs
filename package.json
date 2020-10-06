@@ -19,9 +19,9 @@
     "access": "public"
   },
   "scripts": {
-    "alpha": "npm run build && standard-version --skip.changelog --skip.tag --prerelease alpha",
+    "alpha": "standard-version --skip.changelog --skip.tag --prerelease alpha",
     "alpha:publish": "git push --all && npm publish --tag canary",
-    "release": "npm run build && standard-version",
+    "release": "standard-version",
     "release:publish": "git push --tags && git push --all",
     "test": "test/test.sh"
   },
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "glob": "^7.1.6",
-    "moment": "^2.28.0",
+    "moment": "^2.29.0",
     "node-fetch": "^2.6.1",
     "winston": "^3.3.3",
     "yargs": "^16.0.3"

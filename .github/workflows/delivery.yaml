@@ -17,8 +17,6 @@ jobs:
           node-version: '12.x'
           registry-url: 'https://registry.npmjs.org'
           scope: '@tmorin'
-      - name: udpate apt
-        run: sudo apt-get update
       - name: install dependencies
         run: npm ci --no-progress
       - name: test package
