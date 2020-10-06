@@ -90,8 +90,8 @@ async function download(url, destination) {
 }
 
 async function downloadPlantUML() {
-    // https://sourceforge.net/projects/plantuml/files/1.2020.14
-    const url = `https://sourceforge.net/projects/plantuml/files/1.2020.14/plantuml.1.2020.14.jar/download`;
+    // https://sourceforge.net/projects/plantuml/files
+    const url = `https://sourceforge.net/projects/plantuml/files/1.2020.18/plantuml.1.2020.18.jar/download`;
     const destination = `${techDir}/plantuml.jar`;
     await download(url, destination);
 }
