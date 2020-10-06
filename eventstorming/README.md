@@ -33,6 +33,27 @@ command -> event : produces
 
 ![override of constants](http://plantuml.com/plantuml/png/lLBBJiCm4BptAvPJMud4WCIb1wHG0aBAGseH1owL6syR2pyYFrBbxp596b69So_sUcTdnvxr78Ic35oD86bbj0Mg65HQMKULixCRhYhX6NeZe7QkiIj233t5H-vgl_SMJQXrg5nSQKcSr8OhqeZ0zL94WkyjaTGwD0JRK6MTDfAhu-Kf6gJZ9d2kf3YzS12TmszZq2qQmnc2FlIM_F61uO4hXDUo-DXjtx_INL5kyYI3Xxj_i6r0ChX_l8JMPLPkpZn5ssw2rsMU9yNBMF7y1WrNtnEQVgOJEs0T2g5FuShJvAph15vhLeFOO5le8yD_MOpxBIGmXijPprhqQyWhwAFbcGBHqv215JH6Cr-X_G40)
 
+## Quick list
+
+- `aggregate`
+- `command`
+- `comment`
+- `domain_event`
+- `event`
+- `facade_command`
+- `integration_event`
+- `person`
+- `policy`
+- `process`
+- `query`
+- `read_model`
+- `result`
+- `saga`
+- `service`
+- `system`
+- `timer`
+- `user_interface`
+
 ## Elements
 
 The `person` and `system`:
@@ -70,17 +91,18 @@ integration_event(integration_event, an integration event)
 
 ![aggregate and events](http://plantuml.com/plantuml/png/POxD2eCm3CVlFaLtKvZjVIypeeOQQ5D9q-trL-eKnouXl_z7o8ru3cN18i6igbj-E2VmjfvqBLF9A7DYHLOxf-Wq9Y5sMm3M4iCOQCekGbOKXw-Qofea4ljV6Y44kzL21zuBUb3ip-rkWCr9GzUQVPlDQjlGBIa2yNDthr13PkSZIlLXBw2KZloVqYvVr6_r0m00)
 
-The `read_model`, `query` and `user_interface`:
+The `read_model`, `query`, `result` and `user_interface`:
 ```plantuml
 @startuml
 !include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
 read_model(read_model, a read model)
 query(query, a query)
+query(result, a result)
 user_interface(user_interface, a user interface)
 @enduml
 ```
 
-![projections](http://plantuml.com/plantuml/png/LOvB3iCW34Jtd8Bk4ga9-rucSi1DaCodnZJgxGjPjCh6cZSpbkRcewNgi3BfNIINXp4CnxnvsUjQ2x9DKJ3AR5Cm4XBxQ391b1fe8hyM4w08ii5tQnL977pShZG1qPpRWs84juJaa8Q_l6lGdVH9etfLvCzmtXwTObHzo-BR5dw2nU6AlTST_NF6Bm00)
+![projections](http://www.plantuml.com/plantuml/png/LOv1RiGW34Ntd8BkGEg4VLTpav47t0J9cDIOLhrzvKJgA1luxzcMVHyAehEHUwkSQHRqc-e-Fb8I-5dMgjjype6IEokoBhctfArBvRGJi8tUg3v7QZ0K9U4tiWxjqYglLxe1qRBRBa4eZzOBKdZ5Tm_Uo1yKtTT4-Gt7QwKZH2Su9cauF_DdYiwEV5HMb4_86AveZMRyludkZbncepy0)
 
 The `policy`, `process`, `saga`, `service` and `timer`:
 ```plantuml

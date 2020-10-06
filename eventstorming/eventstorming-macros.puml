@@ -13,6 +13,9 @@
 !define command(eId, eLabel) entity(file, eId, Command, eLabel)
 !define command(eId) entity(file, eId, Command)
 
+!define result(eId, eLabel) entity(file, eId, Result, eLabel)
+!define result(eId) entity(file, eId, Result)
+
 !define aggregate(eId, eLabel) entity(file, eId, Aggregate, eLabel)
 !define aggregate(eId) entity(file, eId, Aggregate)
 

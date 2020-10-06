@@ -9,7 +9,7 @@ legend right
 |<$EVENT_COLOR_BG>| event |<$QUERY_COLOR_BG>| query |
 |<$DOMAIN_EVENT_COLOR_BG>| domain event |<$SERVICE_COLOR_BG>| service |
 |<$INTEGRATION_EVENT_COLOR_BG>| integration event |<$COMMENT_COLOR_BG>| comment |
-|<$READ_MODEL_COLOR_BG>| read model |
+|<$READ_MODEL_COLOR_BG>| read model |<$RESULT_COLOR_BG>| result |
 endlegend
 !endprocedure
 
@@ -33,6 +33,10 @@ skinparam file<<FacadeCommand>> {
 skinparam file<<Command>> {
     BorderColor $COMMAND_COLOR_BORDER
     BackgroundColor $COMMAND_COLOR_BG
+}
+skinparam file<<RESULT>> {
+    BorderColor $RESULT_COLOR_BORDER
+    BackgroundColor $RESULT_COLOR_BG
 }
 skinparam file<<Aggregate>> {
     BorderColor $AGGREGATE_COLOR_BORDER
