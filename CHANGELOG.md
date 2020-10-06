@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.1.1](https://github.com/tmorin/plantuml-libs/compare/v1.1.0...v1.1.1) (2020-10-06)
+
+
+### Bug Fixes
+
+* **gdiag:** download plantuml.1.2020.18.jar ([c42cbfe](https://github.com/tmorin/plantuml-libs/commit/c42cbfee6bf68df6853673ade3c83a04593c9a23))
+
 ## [1.1.0](https://github.com/tmorin/plantuml-libs/compare/v1.0.2...v1.1.0) (2020-10-06)
 
 
