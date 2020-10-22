@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTDeviceJobsResourceMd [14x14/16z] HKx50G8138l3_WkZ9_crKI1_45-ubCGy-RiCab0V0g0uYPdkl7wUd4feq-43EdivBawjTbnDeTJ_I_rnF7oBrUAucDQybrdgh_I4W3S
+sprite $IoTDeviceJobsResourceLg [20x20/16z] {
+NP054i0m20GFFVB_1zVBCDasjX05e0r-lFAZ-Blm4SNkmen_B_WWLhbYvea00iqlpvbyu-qSSW5e-BQlPMKnfjDoXJXpE2E2lEHmPPum2hsTBAG1H6GxP6ZP
+NIdQMK7JuNCFOGMKjE4WcgjCqQxHx3TjAh_OH02S
+}
+!procedure IoTDeviceJobsResource($id, $name="Io T Device Jobs Resource", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTDeviceJobsResource', $name, $tech)
+!endprocedure
+!procedure IoTDeviceJobsResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTDeviceJobsResourceMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTDeviceJobsResourceGroup($id, $name='Io T Device Jobs Resource', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTDeviceJobsResourceLg>', $name, $tech)
+!endprocedure
+@enduml

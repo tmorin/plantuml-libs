@@ -1,0 +1,16 @@
+@startuml
+sprite $CardTravelMd [14x14/16z] PSh50GHH309Glak4_gjT6PTtYG1UclqqRBodr7nPKn-ShGsE7W5reOaOnHMm0ab04XJxNHMR-hhKrHQ_vNVHDzHdSz9yOPn0o8U0koy
+sprite $CardTravelLg [20x20/16z] {
+ZSk54GGn30D0cS8UzL_jC-Djq8Il98vSy21vid2d71xXWueROyD1fU5iyCa0u5nZCiT1Sev51u81lSxgAJnT4ee33RddxdxbciUDjtFknTTS4RsHyYrdV640
+lDLsKvjZipq
+}
+!procedure CardTravel($id, $name="Card Travel", $tech="")
+  IconElement($id, 'material-4.0/Action/CardTravel', $name, $tech)
+!endprocedure
+!procedure CardTravelCard($id, $funcName="", $content="")
+  IconCard($id, '<$CardTravelMd>', '', $funcName, $content)
+!endprocedure
+!procedure CardTravelGroup($id, $name='Card Travel', $tech='')
+  IconGroup($id, 'IconGroup', '<$CardTravelLg>', $name, $tech)
+!endprocedure
+@enduml

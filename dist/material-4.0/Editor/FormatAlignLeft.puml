@@ -1,0 +1,13 @@
+@startuml
+sprite $FormatAlignLeftMd [14x14/16z] RSs35S1G30NGXvhxJrlZwnx5GOpLXu3NvR4QiQUt3czwqPselmt3e2HB9fyh8mgyXDzPLu-QYEq
+sprite $FormatAlignLeftLg [20x20/16z] ZT235K0X503GREm_xMVsFQvdS8m8BX8koFicV4MyRn2LC2pV888W4dLQx56KdsFE5XnxtxYtxXVVAfCUyraWYc3_1kD7VuF9hGxT
+!procedure FormatAlignLeft($id, $name="Format Align Left", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatAlignLeft', $name, $tech)
+!endprocedure
+!procedure FormatAlignLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatAlignLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatAlignLeftGroup($id, $name='Format Align Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatAlignLeftLg>', $name, $tech)
+!endprocedure
+@enduml

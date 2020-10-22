@@ -1,0 +1,13 @@
+@startuml
+sprite $DriveFileMoveOutlineMd [14x14/16z] VOl50G0W24MnWzf_MbkFFfCVyCFNMekz4-b0yiIEYSfmSI04m776_RW2dodh6EEUWhAAlPDnHTFnmgp4qoFAfUHvY00yFZpyw
+sprite $DriveFileMoveOutlineLg [20x20/16z] fP150WCX300NXqZp_zUsNLoE33vudYiy0W26MHafpDB92cH7y98WGs9Vv_9wfUesDnn_zE62i5fSlYZBuGm2Yi2-DsLLXhOwXFDUbQjwb6oO6eC1-kUA7m
+!procedure DriveFileMoveOutline($id, $name="Drive File Move Outline", $tech="")
+  IconElement($id, 'material-4.0/File/DriveFileMoveOutline', $name, $tech)
+!endprocedure
+!procedure DriveFileMoveOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$DriveFileMoveOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure DriveFileMoveOutlineGroup($id, $name='Drive File Move Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$DriveFileMoveOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

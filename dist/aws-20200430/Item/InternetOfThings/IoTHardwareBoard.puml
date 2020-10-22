@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTHardwareBoardMd [14x14/16z] LOw50GGm30B30Ud-4x_hLU8oTqYOD-mDpnk3zKpo_To_X1eMaC2D3cJ6IfD8gvuvFTt4KISp8vDux_hU_MrJLjX0IlAUuF2P_hyPy-AxzHK
+sprite $IoTHardwareBoardLg [20x20/16z] {
+XP3N0OH024HdYElrN_21cI-VRY83JcX6J3oz_Y6oqAX_2Ab9favlSby7cb5azX_7NSrHvClB2Yn7s1aYmXha8hA4kda4mri6IM9RTQWjovQ9mm97NAX9YTH_
+OFJJHOIabwm4qhAiS8Ld-mOqy9HiflcgzwnvzlOrWtDMzZNJEVi_
+}
+!procedure IoTHardwareBoard($id, $name="Io T Hardware Board", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTHardwareBoard', $name, $tech)
+!endprocedure
+!procedure IoTHardwareBoardCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTHardwareBoardMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTHardwareBoardGroup($id, $name='Io T Hardware Board', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTHardwareBoardLg>', $name, $tech)
+!endprocedure
+@enduml

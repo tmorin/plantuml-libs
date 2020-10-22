@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsWorksPermissionsMd [14x14/16z] XSZ70S0m349HmA3zDqvtE-MxFk6EDj5JwTfT8S0CzUj7hIfsgjepr3LfW7BBWYg4_8cROAEB0E_pAAQkwDoIlmIS
+sprite $AwsOpsWorksPermissionsLg [20x20/16z] bSa53e1044FHZdRkVs4SrcByMFEADrLC6JFf8vK0GkkD1vs8bh1TRvguIlrlHiWHQ9yKZp9vL8z6uAbjTm1AwhC_enfdSz9cGoOMYrXDTRLnU-LNFGRjmj4E
+!procedure AwsOpsWorksPermissions($id, $name="Aws Ops Works Permissions", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOpsWorksPermissions', $name, $tech)
+!endprocedure
+!procedure AwsOpsWorksPermissionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOpsWorksPermissionsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOpsWorksPermissionsGroup($id, $name='Aws Ops Works Permissions', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsOpsWorksPermissionsLg>', $name, $tech)
+!endprocedure
+@enduml

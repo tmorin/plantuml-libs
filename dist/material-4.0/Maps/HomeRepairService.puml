@@ -1,0 +1,16 @@
+@startuml
+sprite $HomeRepairServiceMd [14x14/16z] XSk54KH120DG63ONrlklzkoxln4qyW3b2zDK4vcg_2ZGQSR-WehaFiiYPPdAxyRGM-k1lnlSb5zgZjzdoV_GjzddFAU9ovqF
+sprite $HomeRepairServiceLg [20x20/16z] {
+fSq35iL030NGEAUZj__L5j_cBIUalrdPCJfZx0q-nmH9guGS0sw1OkvM4EQoXGQkZ3NekE7FO-pO2Tx7j4pJzbeLfTsB92DshuWKshrslQLXfvLNE-vZMikL
+glIF1G
+}
+!procedure HomeRepairService($id, $name="Home Repair Service", $tech="")
+  IconElement($id, 'material-4.0/Maps/HomeRepairService', $name, $tech)
+!endprocedure
+!procedure HomeRepairServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$HomeRepairServiceMd>', '', $funcName, $content)
+!endprocedure
+!procedure HomeRepairServiceGroup($id, $name='Home Repair Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$HomeRepairServiceLg>', $name, $tech)
+!endprocedure
+@enduml

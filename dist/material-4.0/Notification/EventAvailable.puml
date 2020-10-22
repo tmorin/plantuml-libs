@@ -1,0 +1,16 @@
+@startuml
+sprite $EventAvailableMd [14x14/16z] NSt50O1G30FGL77OVrk-sxjL0q0KWGeYEcy9xfD2mL_3WFPAOtKMgNfHlBswl5OYkCusioSKVTEFvQvK_Br5I0-bQMACnGy
+sprite $EventAvailableLg [20x20/16z] {
+ZT054i0m24HHOEYmrRt_QUjkoHz_ySYKcSofoHvhcQkuYODjO2nQmcSgUAcO35V3PF5YO5tjrPkTRc1tSt-OCywcEX7aR6KtpxgOjXqXLniHSh9ulOkhhQaJ
+htym8m9hWPao6m
+}
+!procedure EventAvailable($id, $name="Event Available", $tech="")
+  IconElement($id, 'material-4.0/Notification/EventAvailable', $name, $tech)
+!endprocedure
+!procedure EventAvailableCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventAvailableMd>', '', $funcName, $content)
+!endprocedure
+!procedure EventAvailableGroup($id, $name='Event Available', $tech='')
+  IconGroup($id, 'IconGroup', '<$EventAvailableLg>', $name, $tech)
+!endprocedure
+@enduml

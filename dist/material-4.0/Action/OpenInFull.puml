@@ -1,0 +1,13 @@
+@startuml
+sprite $OpenInFullMd [14x14/16z] RSc54S0m30H1oSpVVxNXcC-u8zh5IahP606eWKscf2ODGr5LwElcDdbJeGD9n6Ae2P5g2ZrPNJ7jEW4
+sprite $OpenInFullLg [20x20/16z] bSq53W0W34FHuaxlVrkoUBCOVz673F-rRfF52gqEALrlMDucrpKJcaXgWzCMDKUIKit-LcV2L4BZMKPwZrpG6icR_3soYENURF3V0m
+!procedure OpenInFull($id, $name="Open In Full", $tech="")
+  IconElement($id, 'material-4.0/Action/OpenInFull', $name, $tech)
+!endprocedure
+!procedure OpenInFullCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenInFullMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenInFullGroup($id, $name='Open In Full', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenInFullLg>', $name, $tech)
+!endprocedure
+@enduml

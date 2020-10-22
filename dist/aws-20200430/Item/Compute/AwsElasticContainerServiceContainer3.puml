@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticContainerServiceContainer3Md [14x14/16z] VOq50iGW40CtoS3_VtnNztPWtUe3-O30MJ0acZHOKohK0F4SDLMfhL7edUnHM2Cv9DXAvWii5yxNwuC_
+sprite $AwsElasticContainerServiceContainer3Lg [20x20/16z] fP350G1130ApGEY_utDtcKzSumzbHz2vmIGNsPtA1W4QSrfzzAbqoRhp9Ke3LhLCsKekVI7QLApp072T1qjAO_JjTpwwBVOl-4KD
+!procedure AwsElasticContainerServiceContainer3($id, $name="Aws Elastic Container Service Container3", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsElasticContainerServiceContainer3', $name, $tech)
+!endprocedure
+!procedure AwsElasticContainerServiceContainer3Card($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticContainerServiceContainer3Md>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsElasticContainerServiceContainer3Group($id, $name='Aws Elastic Container Service Container3', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticContainerServiceContainer3Lg>', $name, $tech)
+!endprocedure
+@enduml

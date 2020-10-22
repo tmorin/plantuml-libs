@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceLogAnalyticsWorkspaces element
+include('azure-v2/Item/Analytics/ServiceLogAnalyticsWorkspaces')
+ServiceLogAnalyticsWorkspacesGroup('service_log_analytics_workspaces', 'Service Log Analytics Workspaces', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SystemUpdateMd [14x14/16z] POw54G1120E1p71E-g_stNzFyOW8V0Eoei6DqDKoneXbqpOhlW_mj6fzMkLXmNjtNB54faTcIl_Mv_GLsb-P8AsYqwfw1W
+sprite $SystemUpdateLg [20x20/16z] dP054e1030DhECtz_xMuExTZdNf2FJB3D9E6XNJE-PghBtA-v20w85XpTv7PEUSUcrC1HFUvCdIK-roVB4_xgkhfqrdR1Fp2WyTSTk4fYKu8zRG
+!procedure SystemUpdate($id, $name="System Update", $tech="")
+  IconElement($id, 'material-4.0/Notification/SystemUpdate', $name, $tech)
+!endprocedure
+!procedure SystemUpdateCard($id, $funcName="", $content="")
+  IconCard($id, '<$SystemUpdateMd>', '', $funcName, $content)
+!endprocedure
+!procedure SystemUpdateGroup($id, $name='System Update', $tech='')
+  IconGroup($id, 'IconGroup', '<$SystemUpdateLg>', $name, $tech)
+!endprocedure
+@enduml

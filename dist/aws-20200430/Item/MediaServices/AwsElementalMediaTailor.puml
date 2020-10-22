@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElementalMediaTailorMd [14x14/16z] XOst0G0n4C8Q9Bp_mfzZPJKNWJ45txw8VVj4EIQHWEbnQnWDlQV0FOdKvnER5Au4rLzYnvGL
+sprite $AwsElementalMediaTailorLg [20x20/16z] {
+hSx5bG9044NHGtzxv1_m-61hxgwyU8UMLv7oafd1ksUfWX8HbJygqPTGySSzeIMdvizc5sfltFJ8rYcxprvwJQwzt6UroM1jklyxAfNT_wOo2Rw_no1D6XYF
+DjxX4m
+}
+!procedure AwsElementalMediaTailor($id, $name="Aws Elemental Media Tailor", $tech="")
+  IconElement($id, 'aws-20200430/Item/MediaServices/AwsElementalMediaTailor', $name, $tech)
+!endprocedure
+!procedure AwsElementalMediaTailorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalMediaTailorMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalMediaTailorGroup($id, $name='Aws Elemental Media Tailor', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElementalMediaTailorLg>', $name, $tech)
+!endprocedure
+@enduml

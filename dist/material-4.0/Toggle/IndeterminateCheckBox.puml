@@ -1,0 +1,13 @@
+@startuml
+sprite $IndeterminateCheckBoxMd [14x14/16z] Oq03JCnGm0JYyCC1aCk2uB4mC30Zyp3bs5c1W1s3HxmfQBO3kInGm8JkPW
+sprite $IndeterminateCheckBoxLg [20x20/16z] Oo0Ui7AmSq00aC424U970QmWCGvKCGwG63iMCGxAn7YPe80NIOmH8iJ8Iu9vbBaPCmmmmugLX406
+!procedure IndeterminateCheckBox($id, $name="Indeterminate Check Box", $tech="")
+  IconElement($id, 'material-4.0/Toggle/IndeterminateCheckBox', $name, $tech)
+!endprocedure
+!procedure IndeterminateCheckBoxCard($id, $funcName="", $content="")
+  IconCard($id, '<$IndeterminateCheckBoxMd>', '', $funcName, $content)
+!endprocedure
+!procedure IndeterminateCheckBoxGroup($id, $name='Indeterminate Check Box', $tech='')
+  IconGroup($id, 'IconGroup', '<$IndeterminateCheckBoxLg>', $name, $tech)
+!endprocedure
+@enduml

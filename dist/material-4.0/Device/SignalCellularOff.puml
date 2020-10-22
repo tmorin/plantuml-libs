@@ -1,0 +1,13 @@
+@startuml
+sprite $SignalCellularOffMd [14x14/16z] JSo15G0H30FG503OVzlBku807uedyg8uJcOXJykvreNfmFIYe1OZiOHMq8xuB95BXUUPjAlQp-uKIX5zjWY8sx4zuOaOV
+sprite $SignalCellularOffLg [20x20/16z] ZSx50GGX44JHKLpoZtQbSEVVU5WV6psaeTkoXemtAJFoHgr85EuI80YMyFaBB66o1fFTrcCqh3ooT0g8cUEfY32SIlZIE6h2Vs-2Y9HH5gFSogE9whEnVry
+!procedure SignalCellularOff($id, $name="Signal Cellular Off", $tech="")
+  IconElement($id, 'material-4.0/Device/SignalCellularOff', $name, $tech)
+!endprocedure
+!procedure SignalCellularOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignalCellularOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignalCellularOffGroup($id, $name='Signal Cellular Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignalCellularOffLg>', $name, $tech)
+!endprocedure
+@enduml

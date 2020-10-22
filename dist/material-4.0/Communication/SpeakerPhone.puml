@@ -1,0 +1,16 @@
+@startuml
+sprite $SpeakerPhoneMd [14x14/16z] TSd50GGn30D0nUo5gFzgZndc9S2PPHfkV7BREFrwC70IlDv3TtBNWQjgaIxSoGdkZ7FIxYqSy7WqE_tn-jc_hztRxqtt4yMN8m
+sprite $SpeakerPhoneLg [20x20/16z] {
+jSi33aL150FGNWuptVzglytedRZ0XQWA7abE7ioyHxx8KUiWbryYuxeCSj4kOIgipTaCzl3kv5fanuC-5D3Hy8UqVj043u8dWGVP88AMBzb1tJOR5c7ZANEU
+E1vvX8VZkpq
+}
+!procedure SpeakerPhone($id, $name="Speaker Phone", $tech="")
+  IconElement($id, 'material-4.0/Communication/SpeakerPhone', $name, $tech)
+!endprocedure
+!procedure SpeakerPhoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpeakerPhoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpeakerPhoneGroup($id, $name='Speaker Phone', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpeakerPhoneLg>', $name, $tech)
+!endprocedure
+@enduml

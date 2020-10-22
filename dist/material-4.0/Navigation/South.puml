@@ -1,0 +1,13 @@
+@startuml
+sprite $SouthMd [14x14/16z] hSSr0G0W000mtAL_MjpXPD_00nVhbFeypVAOhcEUI4ay1xtMUjQIcpCxiee
+sprite $SouthLg [20x20/16z] rSYr0S100090Y1jX_sdZBj__bOUGB7kV5DKb-Nu5zwjThbUvse_jbEfHkYEEx5nAUvqvsUl8Lqsw3YyaGaO
+!procedure South($id, $name="South", $tech="")
+  IconElement($id, 'material-4.0/Navigation/South', $name, $tech)
+!endprocedure
+!procedure SouthCard($id, $funcName="", $content="")
+  IconCard($id, '<$SouthMd>', '', $funcName, $content)
+!endprocedure
+!procedure SouthGroup($id, $name='South', $tech='')
+  IconGroup($id, 'IconGroup', '<$SouthLg>', $name, $tech)
+!endprocedure
+@enduml

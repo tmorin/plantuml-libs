@@ -1,0 +1,13 @@
+@startuml
+sprite $AttachFileMd [14x14/16z] ZKwr0GC12CIT_SUDlvJ1dOCtYHESP1ihPpOCsaU2pS9DScHMN9P7flblPactJARZo61G4Zn-MVcx9CVxgTYu8NN--2S
+sprite $AttachFileLg [20x20/16z] pT3L0SKm34DHAOpM_jC-XheJz8RFP_290QSufHszJOjX6eyK505OzKOGku57m-WF2-PiZgVf4jPtKexEoAM1T30glivg-BVcwx3kFc559jl04PUaGVWOVt87
+!procedure AttachFile($id, $name="Attach File", $tech="")
+  IconElement($id, 'material-4.0/Editor/AttachFile', $name, $tech)
+!endprocedure
+!procedure AttachFileCard($id, $funcName="", $content="")
+  IconCard($id, '<$AttachFileMd>', '', $funcName, $content)
+!endprocedure
+!procedure AttachFileGroup($id, $name='Attach File', $tech='')
+  IconGroup($id, 'IconGroup', '<$AttachFileLg>', $name, $tech)
+!endprocedure
+@enduml

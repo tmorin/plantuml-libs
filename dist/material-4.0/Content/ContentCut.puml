@@ -1,0 +1,16 @@
+@startuml
+sprite $ContentCutMd [14x14/16z] POt50SLG3CFqeU0yyFxJbhcw9IOUg8Y5tmzKsxgSSa1fwV9oY5MRhd0m4wLOt-LO2VTV3cJhMCWEhUVHifxl1N6SiHxm_tDd1
+sprite $ContentCutLg [20x20/16z] {
+XL074iCm399FPCVY_x-j5zrjIBoqmNu0UBTuaE5wh6kz1kUP-U4lDd0sMmYPO2yscIpLt21aQa2mmYtNRI01KpLwu7L4vjFVXsJEV3R2QqrDhg5QEJvw1EUb
+3O5GvDFCQEcopSKcetWmD5AlYNUj1ezaLxW1
+}
+!procedure ContentCut($id, $name="Content Cut", $tech="")
+  IconElement($id, 'material-4.0/Content/ContentCut', $name, $tech)
+!endprocedure
+!procedure ContentCutCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContentCutMd>', '', $funcName, $content)
+!endprocedure
+!procedure ContentCutGroup($id, $name='Content Cut', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContentCutLg>', $name, $tech)
+!endprocedure
+@enduml

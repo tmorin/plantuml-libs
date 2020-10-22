@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the FormatAlignLeft element
+include('material-4.0/Editor/FormatAlignLeft')
+FormatAlignLeft('format_align_left', 'Format Align Left', 'an optional tech field')
+@enduml

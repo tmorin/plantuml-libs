@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonFSxForWfsMd [14x14/16z] LSVN0SD03CFGD8d4tVxxXagryOK7s9CcJkH4JfmDU7FHwbPk627H9OrM6RUhxpNIihhzkDsZX06tedSmUH_53d-Eza5F
+sprite $AmazonFSxForWfsLg [20x20/16z] {
+RSY54KG130BHRuH0-g_tt8yTstcwrCzuJm4LK04LK07zf0-q1HG1wgLNiz4IcgMd7Mo29gxpDZVA0BVzqCrgB0j4OST-CvTDNAXzhElMLxibMPV8rjMU-gnx
+0ax02JW19-0P
+}
+!procedure AmazonFSxForWfs($id, $name="Amazon F Sx For Wfs", $tech="")
+  IconElement($id, 'aws-20200911/Service/Storage/AmazonFSxForWfs', $name, $tech)
+!endprocedure
+!procedure AmazonFSxForWfsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonFSxForWfsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonFSxForWfsGroup($id, $name='Amazon F Sx For Wfs', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonFSxForWfsLg>', $name, $tech)
+!endprocedure
+@enduml

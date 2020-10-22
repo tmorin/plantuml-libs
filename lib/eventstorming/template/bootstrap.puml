@@ -1,0 +1,13 @@
+@startuml
+
+!include style.puml
+
+!procedure EsEntity($type, $stereotype, $id, $label="")
+  !if ($label)
+    $type "$label" as $id <<$stereotype>>
+  !else
+    $type $id <<$stereotype>>
+  !endif
+!endprocedure
+
+@enduml

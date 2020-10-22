@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBlobBlockMd [14x14/16z] JSo50GCn243H6Bh_mFtqZ1SFChknkvcTHiOhrReZQj2zSBPQmkS0BmryBuSfHCcCogmjZ5UrTW_K2ywiRQ-ENjqF
+sprite $ServiceBlobBlockLg [20x20/16z] {
+ZSvL0WGX203GbSRx7tYfh-atgLA_hnOSBMG_Oj9zf2HNUtOaGC931W6AMc5O2HXZptTodjc8RlRCa_6gFM02cdegJ86vzYREVCTdcyIUJZthR-pXQKzZJwoe
+phTcFi8OwEXtvGy
+}
+!procedure ServiceBlobBlock($id, $name="Service Blob Block", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceBlobBlock', $name, $tech)
+!endprocedure
+!procedure ServiceBlobBlockCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBlobBlockMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceBlobBlockGroup($id, $name='Service Blob Block', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBlobBlockLg>', $name, $tech)
+!endprocedure
+@enduml

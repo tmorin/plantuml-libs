@@ -1,0 +1,16 @@
+@startuml
+sprite $DataUsageMd [14x14/16z] PKt50S0W3CGTRlzfMrppoZbvZZiX7E_00b82jeF0inug50ZD4i2Br1EYY06Z3653jA3f9CaLksyIfwmk-BBW8STwIe2ZlTl5w0HvxWS
+sprite $DataUsageLg [20x20/16z] {
+VP250SKm24Hfa6gu_QVz0dMxQXuElOZ_zrvDLr4AQjUiI1puCy1vGG0c8x89W6IW0qOX0sg4Tu5MsFs_5IEj6b7_JQJRviXHWJV6WDopQ-ovHfdyt4k9EtlM
+H8g9jzb6PTOnPjjsa7BPxSg3nAusiIZJYxu
+}
+!procedure DataUsage($id, $name="Data Usage", $tech="")
+  IconElement($id, 'material-4.0/Device/DataUsage', $name, $tech)
+!endprocedure
+!procedure DataUsageCard($id, $funcName="", $content="")
+  IconCard($id, '<$DataUsageMd>', '', $funcName, $content)
+!endprocedure
+!procedure DataUsageGroup($id, $name='Data Usage', $tech='')
+  IconGroup($id, 'IconGroup', '<$DataUsageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SportsKabaddiMd [14x14/16z] {
+LSd50GGm30F13Te1H_rNUupp4l1ITkFBD7bhANdx7ekki0HGQ_GYdJZ0rAOf55Mmxgkt8lN096FAczIWtnkvQyQ0TAOAL34sc4fKg8TsS1LqRoAhU8DLe2nO
+bJzN
+}
+sprite $SportsKabaddiLg [20x20/16z] {
+XSk7SG0X30NHBzsH1Tj_jvPpjfVyPj27V5PzBQ3yPtRRjxz1IBvsCxtcW2l8nYLbLgpJrO2pG9bljicICasUYSH65E2Ql51mocNQK3jI05FbG55kGoPjE2PP
+YnOSGba7bfGrmZOcoLc3zcoNPYwfCEtLN9MQn75_julnHFfWHcWcfVLNKs0oPRShy_jr-zu3
+}
+!procedure SportsKabaddi($id, $name="Sports Kabaddi", $tech="")
+  IconElement($id, 'material-4.0/Social/SportsKabaddi', $name, $tech)
+!endprocedure
+!procedure SportsKabaddiCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsKabaddiMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsKabaddiGroup($id, $name='Sports Kabaddi', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsKabaddiLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $PhoneInTalkMd [14x14/16z] NOs50KCX34GF_KPo-s_Rul8WRZXmtlwLQG4fWFBfaUQYI8wCaWufGahroqsHqJ7FXgAZG5qkfXSBbZVc3NY-UAXgMrMOyMY4hnmQ6DU2oGy
+sprite $PhoneInTalkLg [20x20/16z] {
+ZOi54iH03CEIB4FE___jkGn3LN4rbdp6Igc9tvpqT0L4HG5KlJiJ2Nd2RNC9XB4oXszB0wbiVv6oRaF7sbHmFR4DAzKME8TfZ-SMLAWXx__7Zwxtzki8yYPW
+bLQJwIaZc9k3v6lf6Aj2lN9jmCiHg-kmo1DBfPfyvWy
+}
+!procedure PhoneInTalk($id, $name="Phone In Talk", $tech="")
+  IconElement($id, 'material-4.0/Notification/PhoneInTalk', $name, $tech)
+!endprocedure
+!procedure PhoneInTalkCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhoneInTalkMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhoneInTalkGroup($id, $name='Phone In Talk', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhoneInTalkLg>', $name, $tech)
+!endprocedure
+@enduml

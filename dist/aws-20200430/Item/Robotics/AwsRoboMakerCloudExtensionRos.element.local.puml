@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsRoboMakerCloudExtensionRos element
+include('aws-20200430/Item/Robotics/AwsRoboMakerCloudExtensionRos')
+AwsRoboMakerCloudExtensionRos('aws_robo_maker_cloud_extension_ros', 'Aws Robo Maker Cloud Extension Ros', 'an optional tech field')
+@enduml

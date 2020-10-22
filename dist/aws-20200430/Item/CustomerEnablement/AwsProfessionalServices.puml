@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsProfessionalServicesMd [14x14/16z] NOhL0KDH24D_W5ZtdxVFxLo1Y5SItqHwo5cu4Y3hEzJ8rfoAQyPJkRhAfsXAH3ch6YR6J6CHcYmKVzDnM9W1cxrLjS96QrLPyVg-_04
+sprite $AwsProfessionalServicesLg [20x20/16z] {
+VOy7je0W40EVRXOXu_sl-ukzZzA6qFm1t8nhkrW6fVAg34KSdOoDsb5gcYa3nrmxvexx9Jw0kkoxunsnihNs5mvlDYh0IEdB4YNBr4c5fUaWB2P2c8mfLfFr
+HgC39XVw9sgMdDvt95IpzmNWfgRomYy
+}
+!procedure AwsProfessionalServices($id, $name="Aws Professional Services", $tech="")
+  IconElement($id, 'aws-20200430/Item/CustomerEnablement/AwsProfessionalServices', $name, $tech)
+!endprocedure
+!procedure AwsProfessionalServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsProfessionalServicesMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+!procedure AwsProfessionalServicesGroup($id, $name='Aws Professional Services', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsProfessionalServicesLg>', $name, $tech)
+!endprocedure
+@enduml

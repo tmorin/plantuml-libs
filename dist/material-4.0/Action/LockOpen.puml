@@ -1,0 +1,16 @@
+@startuml
+sprite $LockOpenMd [14x14/16z] NOk50G0X30E3GtN_QT-LGnl1JgWru2QQgiLx4WA8xscF9Rs6KaejtUinTDSTyNwqEavLzfi7aFCsyJL5z_XEGIJSqzcx9obre_0nPRt8c5W1
+sprite $LockOpenLg [20x20/16z] {
+TS_50S0m34DH6SlL_jEM6VxnnI7igUAHTsJdDmhsPTdpXbqlWFJTXPG509HKFCkBMNXCUSMqO_bIhbPpdbjZlHkEsEmc05Jk1i19VrfDrZzpZ_CKXptlVRxF
+W_N_Fs3ddE6d4G
+}
+!procedure LockOpen($id, $name="Lock Open", $tech="")
+  IconElement($id, 'material-4.0/Action/LockOpen', $name, $tech)
+!endprocedure
+!procedure LockOpenCard($id, $funcName="", $content="")
+  IconCard($id, '<$LockOpenMd>', '', $funcName, $content)
+!endprocedure
+!procedure LockOpenGroup($id, $name='Lock Open', $tech='')
+  IconGroup($id, 'IconGroup', '<$LockOpenLg>', $name, $tech)
+!endprocedure
+@enduml

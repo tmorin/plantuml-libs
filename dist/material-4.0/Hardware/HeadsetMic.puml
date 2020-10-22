@@ -1,0 +1,16 @@
+@startuml
+sprite $HeadsetMicMd [14x14/16z] LOo55GCn34F3UJtJ_jlMM53W6zLCyvpPKXs5IB17mj3r1_OKGB_Yu5oPrbpSKhmiwsdccR1CdLCiWnZM5z_Y-2ks_S3GulFIB8K8IBsogzA9Dm
+sprite $HeadsetMicLg [20x20/16z] {
+XOw53GDH3CK-S-Fzf-qnaqLMyAaPROmwuYezrUvA6LfA3V9QAXGzxbVAN0fRkn0c4LatjFoc-yJjScBy4zczSuIfjajcYCkudiyfIvfg8bCt3ZRNOB8usANs
+QV5OCpTNb2sb-Z5moMMeRSGKGqZuVOsHhFQOaS4w
+}
+!procedure HeadsetMic($id, $name="Headset Mic", $tech="")
+  IconElement($id, 'material-4.0/Hardware/HeadsetMic', $name, $tech)
+!endprocedure
+!procedure HeadsetMicCard($id, $funcName="", $content="")
+  IconCard($id, '<$HeadsetMicMd>', '', $funcName, $content)
+!endprocedure
+!procedure HeadsetMicGroup($id, $name='Headset Mic', $tech='')
+  IconGroup($id, 'IconGroup', '<$HeadsetMicLg>', $name, $tech)
+!endprocedure
+@enduml

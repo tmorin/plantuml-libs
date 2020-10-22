@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsLexMd [14x14/16z] VSa53aC13CDGGHEttVtlEsMCty8dxsUJxd0IjsDiUCZ6SBe9ucP2ZDe5tYIpAc-KF5MQcqPjJKUfQUIvAGM7dG4
+sprite $AwsLexLg [20x20/16z] {
+fSZ70GG120B02uA2_TUxENztdkDtY8tEGv9W9l9oHUPqV9o8nm7JczN7HSePWGNNgs1ENqIfmYlzo6e6mi9-sInF5MdumEm8_ANRMK3vUXcO646V99b_-Ab9
+lpK2
+}
+!procedure AwsLex($id, $name="Aws Lex", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsLex', $name, $tech)
+!endprocedure
+!procedure AwsLexCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsLexMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsLexGroup($id, $name='Aws Lex', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsLexLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200911 bootstrap
+include('aws-20200911/bootstrap')
+' loads the IoTThingbulbLight element
+include('aws-20200911/Resource/LoT/IoTThingbulbLight')
+IoTThingbulbLightCard('io_t_thingbulb_light', 'Io T Thingbulb Light', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

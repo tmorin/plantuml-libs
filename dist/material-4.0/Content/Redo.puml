@@ -1,0 +1,13 @@
+@startuml
+sprite $RedoMd [14x14/16z] fOc50S0m2C3gYlp_xR0Brg21z4BjBSleIHZ4miaRHJRVLkgI0yY7PrAE6TqGiv9LykYzj_IN3m
+sprite $RedoLg [20x20/16z] nOl50S0m3CJ276l_QKjsPuX-1t9dyJ6bu5vArYPDNjOJCzeDOAy5p89s4zhh-IgWNKUYKvfr2P9L1UigtQhAtxdWhSkAnGFS
+!procedure Redo($id, $name="Redo", $tech="")
+  IconElement($id, 'material-4.0/Content/Redo', $name, $tech)
+!endprocedure
+!procedure RedoCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedoMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedoGroup($id, $name='Redo', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedoLg>', $name, $tech)
+!endprocedure
+@enduml

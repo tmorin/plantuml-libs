@@ -1,0 +1,16 @@
+@startuml
+sprite $Replay5Md [14x14/16z] POw30G0n40JtOc__tRu_ck0Ct0W69CjW50vM95dj7wlKWRwd2WpLPseDb80JSsh1dIzVLZf_T_fpl6DKLwQYUGUSqZ3Y8R0rXhwCCOAT0m
+sprite $Replay5Lg [20x20/16z] {
+bKxL0KGn32fDtTX_sxldRlmbgBf3mE6LU7X5jgEABD4SVetCUljiG635eSCo7xT4oledNOFG3nUwP9Jk0jCKXV_bW-v-SVWv_crmMReID_mqIzVPvHNggN9o
+H0Or8RCu4LVwXWcUFVncCQpt5keRVW
+}
+!procedure Replay5($id, $name="Replay5", $tech="")
+  IconElement($id, 'material-4.0/Av/Replay5', $name, $tech)
+!endprocedure
+!procedure Replay5Card($id, $funcName="", $content="")
+  IconCard($id, '<$Replay5Md>', '', $funcName, $content)
+!endprocedure
+!procedure Replay5Group($id, $name='Replay5', $tech='')
+  IconGroup($id, 'IconGroup', '<$Replay5Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $NatMd [14x14/16z] RKs50GD123l7OVzfstV7DKaFoShrqe84NTSryDxMxKxR59LIdd9t2fOAGHoInwrBQFEbJ9VzXJ9BkJ0Clh1dbPO-vGy
+sprite $NatLg [20x20/16z] {
+XP350KCn34CRHldjFssPF-cKc0Id3OImh0cQ-wl5EY4jHgEH5qKl_9A8_lcayg0TN7dSVRW1yVR8DvfWrxTd193C1KmIr6kjU_lKx5PRxjuvwe9ZeUK39yA_
+OlrvYsL2NcRbbvaUuW8
+}
+!procedure Nat($id, $name="Nat", $tech="")
+  IconElement($id, 'material-4.0/Communication/Nat', $name, $tech)
+!endprocedure
+!procedure NatCard($id, $funcName="", $content="")
+  IconCard($id, '<$NatMd>', '', $funcName, $content)
+!endprocedure
+!procedure NatGroup($id, $name='Nat', $tech='')
+  IconGroup($id, 'IconGroup', '<$NatLg>', $name, $tech)
+!endprocedure
+@enduml

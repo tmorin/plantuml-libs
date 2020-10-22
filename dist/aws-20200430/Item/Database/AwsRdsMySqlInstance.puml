@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsMySqlInstanceMd [14x14/16z] dOp5OGDG3CNi1_hTV-66uHoPCPGhRIbXle2XMPnsXyuvnJH7jqhhoaOURdUxLoTRVNq9KdXLOEVlLLMh-M66LqieDz8hlW
+sprite $AwsRdsMySqlInstanceLg [20x20/16z] {
+XP05WaKX30EhINZtF_2M_Uw33rwddg2hx8cYp7pIr65nwadcAvGs9OZ4sObiT6Tdeayka4YbQtmnJkjcezEhh1LJRxU9q-tkkrwo6muEg7kdTZClthkZmptw
+k7Ekub1wSESZ7lQoCekFUwC1nC-zI-Y67lTQLgL9TV_cNPUSTq671lWV
+}
+!procedure AwsRdsMySqlInstance($id, $name="Aws Rds My Sql Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsMySqlInstance', $name, $tech)
+!endprocedure
+!procedure AwsRdsMySqlInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsMySqlInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsMySqlInstanceGroup($id, $name='Aws Rds My Sql Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsMySqlInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

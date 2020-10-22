@@ -1,0 +1,16 @@
+@startuml
+sprite $SlowMotionVideoMd [14x14/16z] PKs50S0m2CjIviB_rwxk3iGmBRb5RfEQJM_orYiqAnV_yVEjA47ZMnNWlW2ZgsilLmbzvrNxCtI9kILcxuADAI45waLUATsH7t47qx8
+sprite $SlowMotionVideoLg [20x20/16z] {
+VL253SH03FDXCV7-sxvIwrN60qC87qy1yWb8epDd-fXso6WZC1gz_27qhbCd1IPhUrJwPXyPgfgav1YRMwoBAQrvoCNCz2PNS1d2o6aprnCs0sYi1o-xl54D
+bSFt7C6qyAYM9bVoVgiP2Qq9Qiwwps0TD8Dwc1NtMUrFYU_Z-G4
+}
+!procedure SlowMotionVideo($id, $name="Slow Motion Video", $tech="")
+  IconElement($id, 'material-4.0/Av/SlowMotionVideo', $name, $tech)
+!endprocedure
+!procedure SlowMotionVideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlowMotionVideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlowMotionVideoGroup($id, $name='Slow Motion Video', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlowMotionVideoLg>', $name, $tech)
+!endprocedure
+@enduml

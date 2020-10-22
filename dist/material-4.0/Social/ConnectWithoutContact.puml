@@ -1,0 +1,16 @@
+@startuml
+sprite $ConnectWithoutContactMd [14x14/16z] LOp50GH030B9UfJ-gptN-Q7uHqn_L6UXZuzSKxZ5kU_YP507hSjT1Uce0rrtDTVkEn7LyIBs-BbgqfgGd_GOrEMj6dsVZezCCl3XP1h-kG8
+sprite $ConnectWithoutContactLg [20x20/16z] {
+RSo50OGm40J0FSMIRF_T_kCw43l3DtCyETdZeISBu8eBAIsGJ4YCqnupqsI5L_xtXN9M_-6MWbNmhy3-OMXUOYCA5GCfspWr4-M0dfFX8kbW0LHmY4ba2dHi
+YeTATlVsfSvm8MmEUxG6sLehWYif_0lSZ1ynYp_1bny
+}
+!procedure ConnectWithoutContact($id, $name="Connect Without Contact", $tech="")
+  IconElement($id, 'material-4.0/Social/ConnectWithoutContact', $name, $tech)
+!endprocedure
+!procedure ConnectWithoutContactCard($id, $funcName="", $content="")
+  IconCard($id, '<$ConnectWithoutContactMd>', '', $funcName, $content)
+!endprocedure
+!procedure ConnectWithoutContactGroup($id, $name='Connect Without Contact', $tech='')
+  IconGroup($id, 'IconGroup', '<$ConnectWithoutContactLg>', $name, $tech)
+!endprocedure
+@enduml

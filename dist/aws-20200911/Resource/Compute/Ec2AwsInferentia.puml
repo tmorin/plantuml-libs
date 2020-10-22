@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2AwsInferentiaMd [14x14/16z] NOw5OSGm54E5sN_aokdnCtuM089ZpqqLE-g_aGSpsO8we2KKNHxNFc0YOrW9uMDPnp9cCHfx_9kvudfqdtk2NXC-f_yg-rRz1m
+sprite $Ec2AwsInferentiaLg [20x20/16z] {
+TP270O1020C9CR3_niPU__GR7M83-tOoJL7djYEXiM-xMzUDXaLKnOqI7Soor4vQjeH4XHyhKXGiwROiOoKjwyPcnm29e6L73gLb2TjTEKGa_5Et77G2CZdE
+yLTBy5tpdkE6S_pCu6zM_pFzc_qC
+}
+!procedure Ec2AwsInferentia($id, $name="Ec2 Aws Inferentia", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2AwsInferentia', $name, $tech)
+!endprocedure
+!procedure Ec2AwsInferentiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2AwsInferentiaMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2AwsInferentiaGroup($id, $name='Ec2 Aws Inferentia', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2AwsInferentiaLg>', $name, $tech)
+!endprocedure
+@enduml

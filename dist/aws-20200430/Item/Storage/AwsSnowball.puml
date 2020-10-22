@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSnowballMd [14x14/16z] bSSt0S0m00EmnvC_u3OJGFIf3qnm03r7UaGcv-3CLNjY4kjEQNDdQyWUgGMQCpUb3tu
+sprite $AwsSnowballLg [20x20/16z] fT350SH050BG5U1B_mM7kDxonbtgfJweHHmiimZy8K0ke7acIO46aQm9KLqq5zZwalCy7lkGPIwEyth2OnyqESwhL9Xotu-CXQlxdMVxdIiE7l_WfG4
+!procedure AwsSnowball($id, $name="Aws Snowball", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsSnowball', $name, $tech)
+!endprocedure
+!procedure AwsSnowballCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSnowballMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsSnowballGroup($id, $name='Aws Snowball', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSnowballLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceInternetAnalyzerProfilesMd [14x14/16z] JSc55S0m30DHe-Jilt1LpW_Uiqb0mXu9aFb44AZaDVI2TBCK3Ogx7YKl4SYSDev2HzKJi-R2BgpWhCkaa-QEU-PMRWyFjzXBwusyXb_U3W
+sprite $ServiceInternetAnalyzerProfilesLg [20x20/16z] {
+LS_N0KCn24DH9D6o_yB1h_j-7bVi2R0zK1AnaMTLfUD3aQl8UCqF4Z9vYV8gyjg8g2E7iYgrI2SbrshKEkvHxxvOEmAHVL3FZd8ggZNsLE7kOuhVY-aUtJBr
+xwwJZ4xOODyMPb6yXhtosG7R8cS3Du80Sji83WtmWnGv377VjoB-
+}
+!procedure ServiceInternetAnalyzerProfiles($id, $name="Service Internet Analyzer Profiles", $tech="")
+  IconElement($id, 'azure-v2/Item/Other/ServiceInternetAnalyzerProfiles', $name, $tech)
+!endprocedure
+!procedure ServiceInternetAnalyzerProfilesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceInternetAnalyzerProfilesMd>', 'Other', $funcName, $content)
+!endprocedure
+!procedure ServiceInternetAnalyzerProfilesGroup($id, $name='Service Internet Analyzer Profiles', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceInternetAnalyzerProfilesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceQuickstartCenterMd [14x14/16z] HOu70aCX24CB9ldg_GzSLlkTF6O-_uLzzHBFvSzsw5mRMC1YXSmCC8yRDaW0yNjqeX8oCwiZOwBJZK-G5HYLeA8L4G5ieaWwr38aHOdBYu3wHzCN
+sprite $ServiceQuickstartCenterLg [20x20/16z] {
+PSvN0eGW30HGaYaAzp_mahNhVBxKzWdzbgHV5bp7yAjfwMFmtWHoufhtfXbWOTm9nJib251eaJi59LK3ee7OoFPcmDMs4QSmznUom6RH_QIMCbmaQIqY3mh9
+gqZAEeZLfI9pjxGgILlOss0NjPGLcu6s6RLZ5WuZSdl-VEu7
+}
+!procedure ServiceQuickstartCenter($id, $name="Service Quickstart Center", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceQuickstartCenter', $name, $tech)
+!endprocedure
+!procedure ServiceQuickstartCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceQuickstartCenterMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceQuickstartCenterGroup($id, $name='Service Quickstart Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceQuickstartCenterLg>', $name, $tech)
+!endprocedure
+@enduml

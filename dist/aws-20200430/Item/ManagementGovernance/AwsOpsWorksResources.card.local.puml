@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsOpsWorksResources element
+include('aws-20200430/Item/ManagementGovernance/AwsOpsWorksResources')
+AwsOpsWorksResourcesCard('aws_ops_works_resources', 'Aws Ops Works Resources', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $PestControlRodentMd [14x14/16z] POp50S1G2CM-EsJ_QUlUdE2P-U73ywlqwxQvT3qVfzAxFx_ULyaUdoIJ8EQo2Mrug0t6DY90Lc1FrzsZRPy71FN7crdHupCkR5ZpPWO
+sprite $PestControlRodentLg [20x20/16z] {
+bO-50SGW301f2z72xJ_jk_iV6a_ANuYrHzKC-9DowPHRQWBahQf1HlfqgnjZBWzKT7zxoArkruO38clMKqco2A3xYrERJdQWzjlgpfvb0FJRCH23st5Me1_h
+42UTSA89r9DIkNAPO5RResfB-Paj
+}
+!procedure PestControlRodent($id, $name="Pest Control Rodent", $tech="")
+  IconElement($id, 'material-4.0/Maps/PestControlRodent', $name, $tech)
+!endprocedure
+!procedure PestControlRodentCard($id, $funcName="", $content="")
+  IconCard($id, '<$PestControlRodentMd>', '', $funcName, $content)
+!endprocedure
+!procedure PestControlRodentGroup($id, $name='Pest Control Rodent', $tech='')
+  IconGroup($id, 'IconGroup', '<$PestControlRodentLg>', $name, $tech)
+!endprocedure
+@enduml

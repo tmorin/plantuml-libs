@@ -1,0 +1,16 @@
+@startuml
+sprite $SentimentVeryDissatisfiedMd [14x14/16z] POq73a0X24Fhre9m_zl-D37pFsKl_EXqPti1qzQo90IZo9GuQijQ6z1gpGwG20VyoeDFz0x9SYXwA3BA-jACjfJjhVaksWB6KDy8lkjSYwb0TBlNEdvy
+sprite $SentimentVeryDissatisfiedLg [20x20/16z] {
+VP05hWP128FniDb0xt_Q9ypyBerzmIbzaPZ9Gu2p0Q2Jho5jL4PaeNM738X50QmWzy18qTEUS5ATY58W_wcBU7eCOAgUyjpjYc9Ao7_MYLZcHlvVOpjsqyHq
+JMNtlL7M3g83m2IhBxUS_mCS9_dkwhPZtPVMpVktDbhK65fOwPuroIrEF7arKZEbB_e5
+}
+!procedure SentimentVeryDissatisfied($id, $name="Sentiment Very Dissatisfied", $tech="")
+  IconElement($id, 'material-4.0/Social/SentimentVeryDissatisfied', $name, $tech)
+!endprocedure
+!procedure SentimentVeryDissatisfiedCard($id, $funcName="", $content="")
+  IconCard($id, '<$SentimentVeryDissatisfiedMd>', '', $funcName, $content)
+!endprocedure
+!procedure SentimentVeryDissatisfiedGroup($id, $name='Sentiment Very Dissatisfied', $tech='')
+  IconGroup($id, 'IconGroup', '<$SentimentVeryDissatisfiedLg>', $name, $tech)
+!endprocedure
+@enduml

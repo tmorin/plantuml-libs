@@ -1,0 +1,16 @@
+@startuml
+sprite $EngineeringMd [14x14/16z] TSg54K9130JGZN0k_NVBXiaOyDz954yiGurlt2QCOv_jg4kFidbfeEmUbTPQwWjIbu4wPue-7H-b6NJDXY2gmbRd1vk7cxiYs4q3L6yw8F5a-F46
+sprite $EngineeringLg [20x20/16z] {
+dSvLWaCn20NGYmI8il_TJgc_p-c9A-0tuf_f5DomhOo6miFI1WEMqtEZz3ot4W0TnGhKjPFbC2nNVzoJi182afacA6r4Zz402bKyQ1Q5xBtrayeU0iYXRRYI
+TTxtICrD2O0JK7JcmrGyUNuuK2Y_4GhdDqQX-F0W_CSV
+}
+!procedure Engineering($id, $name="Engineering", $tech="")
+  IconElement($id, 'material-4.0/Social/Engineering', $name, $tech)
+!endprocedure
+!procedure EngineeringCard($id, $funcName="", $content="")
+  IconCard($id, '<$EngineeringMd>', '', $funcName, $content)
+!endprocedure
+!procedure EngineeringGroup($id, $name='Engineering', $tech='')
+  IconGroup($id, 'IconGroup', '<$EngineeringLg>', $name, $tech)
+!endprocedure
+@enduml

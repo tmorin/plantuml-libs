@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTDeviceDefenderMd [14x14/16z] ROs50G8n40InrVxx1TvradFBbOv_nYRjsGS9YfWYrcHAJr42DfmxOKbOEZ72Z70iUuvWxQBmy_b0cPakPAND3Jy
+sprite $AwsIoTDeviceDefenderLg [20x20/16z] {
+bP250SCm30GBZzf_tp9pBp6VPEY_p3oFfRjvauG4aZvRa1CoiN0skGkYpLqepnxJCU1fq1FoNjnhrjaJu4ere7C-L6j8MAkNM0FbZkxz4qgFSyqbtpuzUQml
+Do5CYGPxOS8ri69ErccsHERDM_t35W
+}
+!procedure AwsIoTDeviceDefender($id, $name="Aws Io T Device Defender", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/AwsIoTDeviceDefender', $name, $tech)
+!endprocedure
+!procedure AwsIoTDeviceDefenderCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTDeviceDefenderMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTDeviceDefenderGroup($id, $name='Aws Io T Device Defender', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIoTDeviceDefenderLg>', $name, $tech)
+!endprocedure
+@enduml

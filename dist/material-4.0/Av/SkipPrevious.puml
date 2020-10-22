@@ -1,0 +1,13 @@
+@startuml
+sprite $SkipPreviousMd [14x14/16z] Oo05iB22I4Oc28-31qWmyN90UTmC3Any_0WUDpy_JXu36vI7C0ND1b8
+sprite $SkipPreviousLg [20x20/16z] Ow05OCGYniS5bUD0oF9pWobcNdu6D34EVdu-L7LCFFn0W2B63X8XB0Qq0AANa1qWmCA7x1QOcpaPaVn6Km
+!procedure SkipPrevious($id, $name="Skip Previous", $tech="")
+  IconElement($id, 'material-4.0/Av/SkipPrevious', $name, $tech)
+!endprocedure
+!procedure SkipPreviousCard($id, $funcName="", $content="")
+  IconCard($id, '<$SkipPreviousMd>', '', $funcName, $content)
+!endprocedure
+!procedure SkipPreviousGroup($id, $name='Skip Previous', $tech='')
+  IconGroup($id, 'IconGroup', '<$SkipPreviousLg>', $name, $tech)
+!endprocedure
+@enduml

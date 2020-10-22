@@ -1,0 +1,13 @@
+@startuml
+sprite $VideoLabelMd [14x14/16z] Oq05p2nmmCp0miy71_mix3m8PJmSA3nsSdbi_9nSKC39pyxEZmJOMP1vBAWkGmK
+sprite $VideoLabelLg [20x20/16z] fT235G0n303Ge5Rsd_PiupyM8Jn5rgrO0YooKP348zE4qGkHE5Yn1tVk-j_rtTyQEQpazcxh-Eve1y1kW-6f6W
+!procedure VideoLabel($id, $name="Video Label", $tech="")
+  IconElement($id, 'material-4.0/Av/VideoLabel', $name, $tech)
+!endprocedure
+!procedure VideoLabelCard($id, $funcName="", $content="")
+  IconCard($id, '<$VideoLabelMd>', '', $funcName, $content)
+!endprocedure
+!procedure VideoLabelGroup($id, $name='Video Label', $tech='')
+  IconGroup($id, 'IconGroup', '<$VideoLabelLg>', $name, $tech)
+!endprocedure
+@enduml

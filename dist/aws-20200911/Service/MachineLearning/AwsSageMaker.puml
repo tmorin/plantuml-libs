@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSageMakerMd [14x14/16z] 5Sq16aGH40BWRwb9i_U_xwk07tYDcaaSD64L3aXC67cEI1rAqL83pGyvRVUSm5RjNY7t3uJ8DCanxeqsbtX6ZtZHCjTnXlar6kRUO_KFNqYv2hlYjQkwTFW1
+sprite $AwsSageMakerLg [20x20/16z] {
+HSg75GGX30FHmtAGsFxxFNlZaF-3TtMLarxxK1T-F3QeWaKORjGKAsXMOJ5uMi5J4Ggi71oZLtcRhLNJ7h8AJsELuxGj1CsfN233BZFVdZIwUGYNOTDH6I9-
+STcUepMaAblac0258HWi5Ccs8uk-q_3B3BKTRGMHcKhXjYwnoi4Q6Zlcfn9PSEgp9tLZqoVJs8sV_W4
+}
+!procedure AwsSageMaker($id, $name="Aws Sage Maker", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AwsSageMaker', $name, $tech)
+!endprocedure
+!procedure AwsSageMakerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSageMakerMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsSageMakerGroup($id, $name='Aws Sage Maker', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AwsSageMakerLg>', $name, $tech)
+!endprocedure
+@enduml

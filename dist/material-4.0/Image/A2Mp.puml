@@ -1,0 +1,16 @@
+@startuml
+sprite $A2MpMd [14x14/16z] NOs54S0m30DzvlB-qpQC7pH9i85KmHHydHXoV1wXApuCGF5vdJn5fNQZtIDwL7gdCzjdxAN6pFImKgc9Ex-C-b6gwVF9gr66TtT0hY1i1
+sprite $A2MpLg [20x20/16z] {
+ZT050i0W30F0eWtQ_xzsxafcsKs1skF000_1KEnCSeeR3LDDG9eAHkEfUgsfReR9QiBDdDwUtSmgxwxtHUyEnbBOUn-bUCzrDP0XJHB94OGNqr6bqKJjPYPB
+mqdSJ4cTxijb-qOE8WLImlRTsnmSvcfQCL9hUW
+}
+!procedure A2Mp($id, $name="A2 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A2Mp', $name, $tech)
+!endprocedure
+!procedure A2MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A2MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A2MpGroup($id, $name='A2 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A2MpLg>', $name, $tech)
+!endprocedure
+@enduml

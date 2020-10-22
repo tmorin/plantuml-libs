@@ -1,0 +1,13 @@
+@startuml
+sprite $DomainVerificationMd [14x14/16z] VSc53G0W44FHuaxtdnQ7E1zzENppyUG655yAq5o342BrKCLC2jGZ0KLxvOfcm9N8z7Y2qBXYyDw7iJa4drFAQHoFRnq
+sprite $DomainVerificationLg [20x20/16z] fT033W0n443HshZ_QMitdf-DtjO8bhHcPMKZ4Qz4DNMRQbFZERURYWIjo6F4YSlAXtsKfwb82ubhBekXqcK52ssJnGessaRHYZRxxrPJznl0oW
+!procedure DomainVerification($id, $name="Domain Verification", $tech="")
+  IconElement($id, 'material-4.0/Communication/DomainVerification', $name, $tech)
+!endprocedure
+!procedure DomainVerificationCard($id, $funcName="", $content="")
+  IconCard($id, '<$DomainVerificationMd>', '', $funcName, $content)
+!endprocedure
+!procedure DomainVerificationGroup($id, $name='Domain Verification', $tech='')
+  IconGroup($id, 'IconGroup', '<$DomainVerificationLg>', $name, $tech)
+!endprocedure
+@enduml

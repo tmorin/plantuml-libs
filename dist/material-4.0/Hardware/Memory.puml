@@ -1,0 +1,16 @@
+@startuml
+sprite $MemoryMd [14x14/16z] PSu53a0X201GQhE8-v_sT-9RAGqpHcIueTLgU7qq3dfyo0KtuhJtU61HBHY-zM8Dr34KesBw7PLLjUwLQKhU07XkntHPjW8
+sprite $MemoryLg [20x20/16z] {
+bL250GGn36hg1ko_xRl_6TLuWZk6KCtL-AchCbDzTvgW014pF7HJk4FZeGE-Vx4AvwkKSmteLgXAE5zdrBFkLiYCT4KXd4NIR4dt7RjGuwkNFptFXovEKEHZ
+jaKENbmTmma
+}
+!procedure Memory($id, $name="Memory", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Memory', $name, $tech)
+!endprocedure
+!procedure MemoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$MemoryMd>', '', $funcName, $content)
+!endprocedure
+!procedure MemoryGroup($id, $name='Memory', $tech='')
+  IconGroup($id, 'IconGroup', '<$MemoryLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MicNoneMd [14x14/16z] RSb50aGn20FGX7gXtF-sCz_zhI9u4rKvcxQcPxCOxT9Iii-FTVgoeNAfBiazYgzd6I0v2bRLM_EA7Ss8K-ku4C67Fm
+sprite $MicNoneLg [20x20/16z] dT0t5WGX40FHmaFp6jt_jakote_2dwduj9oVQ4hpWQfAKRstBb1_il32E6IpqnI26jqkvaIjfOXVBAkGp195rpEs4JOPtA2RBOtx0YRPKmLt-CLgvT-T
+!procedure MicNone($id, $name="Mic None", $tech="")
+  IconElement($id, 'material-4.0/Av/MicNone', $name, $tech)
+!endprocedure
+!procedure MicNoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicNoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicNoneGroup($id, $name='Mic None', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicNoneLg>', $name, $tech)
+!endprocedure
+@enduml

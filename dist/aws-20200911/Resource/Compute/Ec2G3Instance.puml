@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2G3InstanceMd [14x14/16z] NKw50G0m20B4_rzUTre4089rrQ-lb2Ei78ddgYcpFdCc2Nbb5kYQIGp29i9Ga5cpmCXCgsPxKgYJBykdyAg_pbxN1G
+sprite $Ec2G3InstanceLg [20x20/16z] {
+bL350S1022Fe_XltbBhbWMke0rDCg9Ad6313O8ZH5hv1r05YJXkuIHbsZDMHsCTGfqMB0VqKZy2eCnLehV7S8KfSnTmnOaKQxtQO6iHms57Np1t7MtxzSUJW
+pDKJfqVk5m
+}
+!procedure Ec2G3Instance($id, $name="Ec2 G3 Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2G3Instance', $name, $tech)
+!endprocedure
+!procedure Ec2G3InstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2G3InstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2G3InstanceGroup($id, $name='Ec2 G3 Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2G3InstanceLg>', $name, $tech)
+!endprocedure
+@enduml

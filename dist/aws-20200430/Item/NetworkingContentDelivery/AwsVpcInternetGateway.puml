@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcInternetGatewayMd [14x14/16z] LKw54GCn31FcVl-96ogPsS8afOrmg3NfTYVZLZLMHtkoXhh4evE6KSN836OfSCeP2D0iiVzP_CqS5JbPK4tnGu2FrF_l1vb87MH_g5y
+sprite $AwsVpcInternetGatewayLg [20x20/16z] {
+RL050iD024C2sVzVl0EcBQbUx4G6we2h_C39Z4ZIFrJIviUOCc1y4y5n5QKui2ApkmwJZ8FkgCx-1l80U5IdA2kEKfIe8DMpAr7DwB9qn9KBRDoMLLuvgj3-
+EUEicHoEzU-pjw3D4PpVNCvWFQlzJBUpVm8
+}
+!procedure AwsVpcInternetGateway($id, $name="Aws Vpc Internet Gateway", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcInternetGateway', $name, $tech)
+!endprocedure
+!procedure AwsVpcInternetGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcInternetGatewayMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcInternetGatewayGroup($id, $name='Aws Vpc Internet Gateway', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcInternetGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

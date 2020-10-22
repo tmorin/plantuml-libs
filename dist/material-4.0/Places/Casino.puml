@@ -1,0 +1,16 @@
+@startuml
+sprite $CasinoMd [14x14/16z] POs50KGX3CMAwoFxRtlwFL0tk-737_y9s7c70JM09k8dQYQGDS8dMXDWhayj0gG4FAC0WeywRPdR5bLWLH7lryt7Fv_WmWi
+sprite $CasinoLg [20x20/16z] {
+ZT055e0W40JGDRR8-z_MDtRhc7mQ-XysjJbg_KJr48RPqGocjKgJK4oDmAPsBJdCgTqisTmlRORaFFjccIZ_i6lVv5FPq_DQi6PUrioxyGfe-jZJ6HpFYkb_
+1W
+}
+!procedure Casino($id, $name="Casino", $tech="")
+  IconElement($id, 'material-4.0/Places/Casino', $name, $tech)
+!endprocedure
+!procedure CasinoCard($id, $funcName="", $content="")
+  IconCard($id, '<$CasinoMd>', '', $funcName, $content)
+!endprocedure
+!procedure CasinoGroup($id, $name='Casino', $tech='')
+  IconGroup($id, 'IconGroup', '<$CasinoLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ArticleMd [14x14/16z] NOq30a0n34EBV6FtF-tClh5Ao21QaHIuJWmn8X2fSygHzERepRJQiKVEEThs5dsvhqLAp2c4SJ3k9AW86G8
+sprite $ArticleLg [20x20/16z] ZP234K0n44G_O_HVRMo_qSrvzphdHn058FfyIbRyDeVg7B8vQ08UY3baKbU0vvo0uOJ8kKpEyVjnt7oPgwXkG5Bl2uBwdqNEzVjw3tglREeK3G
+!procedure Article($id, $name="Article", $tech="")
+  IconElement($id, 'material-4.0/Action/Article', $name, $tech)
+!endprocedure
+!procedure ArticleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArticleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArticleGroup($id, $name='Article', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArticleLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $DriveFileRenameOutlineMd [14x14/16z] ZST50e0m34JHgMiozpyjRXkWlv8y31IBkP78ze1IpGLN66w40JZQ5Q6MQW7FiY1poGEszR1yTSdYgna
+sprite $DriveFileRenameOutlineLg [20x20/16z] hSi53aGn54BHkl3Iil_LZdvtk_4JK0yLivaIoA9dHCg4wjJ0h0kh6H6KcvC_I6Ld5PWRIWA8_rgaSJ_A_9Q-biWVWRrv0Jxa1D--tpkz0G
+!procedure DriveFileRenameOutline($id, $name="Drive File Rename Outline", $tech="")
+  IconElement($id, 'material-4.0/File/DriveFileRenameOutline', $name, $tech)
+!endprocedure
+!procedure DriveFileRenameOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$DriveFileRenameOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure DriveFileRenameOutlineGroup($id, $name='Drive File Rename Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$DriveFileRenameOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

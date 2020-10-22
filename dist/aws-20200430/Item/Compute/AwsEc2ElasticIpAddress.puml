@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEc2ElasticIpAddressMd [14x14/16z] Oo0RC38p8ZXCB4084GKIB43Coim41Amig3mKbJ1JA0K
+sprite $AwsEc2ElasticIpAddressLg [20x20/16z] nKx50O0m32Hdx3ynxlJVkEU6VbHaVKg851u9iRdKOUwCslhXIgB7QjQ-kwxsZnjBVve1
+!procedure AwsEc2ElasticIpAddress($id, $name="Aws Ec2 Elastic Ip Address", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsEc2ElasticIpAddress', $name, $tech)
+!endprocedure
+!procedure AwsEc2ElasticIpAddressCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2ElasticIpAddressMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsEc2ElasticIpAddressGroup($id, $name='Aws Ec2 Elastic Ip Address', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2ElasticIpAddressLg>', $name, $tech)
+!endprocedure
+@enduml

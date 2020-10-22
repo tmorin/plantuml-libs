@@ -1,0 +1,13 @@
+@startuml
+sprite $MinimizeMd [14x14/16z] OnZCW9sV3mZusI4y9bOM861bmb06
+sprite $MinimizeLg [20x20/16z] Oo0DZ08cE428ySC18roCdGCAs4ao7W
+!procedure Minimize($id, $name="Minimize", $tech="")
+  IconElement($id, 'material-4.0/Action/Minimize', $name, $tech)
+!endprocedure
+!procedure MinimizeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MinimizeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MinimizeGroup($id, $name='Minimize', $tech='')
+  IconGroup($id, 'IconGroup', '<$MinimizeLg>', $name, $tech)
+!endprocedure
+@enduml

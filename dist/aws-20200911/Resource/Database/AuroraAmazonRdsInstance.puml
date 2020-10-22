@@ -1,0 +1,16 @@
+@startuml
+sprite $AuroraAmazonRdsInstanceMd [14x14/16z] LSx50GGW30J0i9h-6pxNUK5yw0yE2-A1A0m1vucsjhjjsesi0u0aS6IJ53a3GhAsIIQHbgOKU3RMsfo70iUVtoR-vig_dEsQvKDCbQ-hDPGmLm
+sprite $AuroraAmazonRdsInstanceLg [20x20/16z] {
+LP25WI0n30Cbexpx_TVxyN4cF643TFk34q0-kdW2V8YB8rpeX1ataJ38ZfjAAREogsjydOswkqwLVMpqhYDja_c1Hgrpqc66BzPngfNZW6bckkZ2KnKdmPuW
+BMUTiXGkn9lkNl_C1O244Q6GEcRTDo4ijtjdDFDUhc1ka5_hmcXvhrDAol4_iVBPBXz3VCTqF6Rl202qBmYGk_G_
+}
+!procedure AuroraAmazonRdsInstance($id, $name="Aurora Amazon Rds Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AuroraAmazonRdsInstance', $name, $tech)
+!endprocedure
+!procedure AuroraAmazonRdsInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuroraAmazonRdsInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AuroraAmazonRdsInstanceGroup($id, $name='Aurora Amazon Rds Instance', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AuroraAmazonRdsInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

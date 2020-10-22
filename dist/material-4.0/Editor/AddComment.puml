@@ -1,0 +1,13 @@
+@startuml
+sprite $AddCommentMd [14x14/16z] LShL0GH120DGPf24kvN-grqttbz4gXWU8JBCZ-5AuIN5crnRKxzJKfLPdsy2dlJOaX8aGEIUNYn9NAeL
+sprite $AddCommentLg [20x20/16z] dO-50GCn30EbC6V_QTjdvWkQRHmYz0hHgafTKGZeka7FEgNsEY7kTSKwHpfdowpB6CYphkQSoURwKAF5-rcd3kP0hAMRionqu0nShrlZ3dHm6a_v0m
+!procedure AddComment($id, $name="Add Comment", $tech="")
+  IconElement($id, 'material-4.0/Editor/AddComment', $name, $tech)
+!endprocedure
+!procedure AddCommentCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddCommentMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddCommentGroup($id, $name='Add Comment', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddCommentLg>', $name, $tech)
+!endprocedure
+@enduml

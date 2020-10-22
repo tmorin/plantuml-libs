@@ -1,0 +1,16 @@
+@startuml
+sprite $HighlightAltMd [14x14/16z] NKw54O0m44iUgCl-st9rbxS8hYLu8FKfYMTyZ7aYNKavXahmn9655-0pieU0c94PkJCyVUufmHjRadCgAKUcDlMa8qkAbzKPSQqV
+sprite $HighlightAltLg [20x20/16z] {
+ZP3L0OK030ClAL2y-q_xt9NxgpTXEwte6pA97hNdL5dLiwvaoNLAoX32HW4MHyo5Uz2N7rBLSo1wtNFg6xxGFSzs7tB95-utei_-VEF-IzQ1_gBZdfkjQyx2
+9ckkuSq33nMlNebWEti
+}
+!procedure HighlightAlt($id, $name="Highlight Alt", $tech="")
+  IconElement($id, 'material-4.0/Action/HighlightAlt', $name, $tech)
+!endprocedure
+!procedure HighlightAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$HighlightAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure HighlightAltGroup($id, $name='Highlight Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$HighlightAltLg>', $name, $tech)
+!endprocedure
+@enduml

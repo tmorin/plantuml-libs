@@ -1,0 +1,13 @@
+@startuml
+sprite $LeaderboardMd [14x14/16z] XSc53K1H2CLGu3utzf_skskZ9wLx0iYkg1h_5Kj1s5HKxIX9qMyALhNiCYVzFnZ3OeomCQ1pFG
+sprite $LeaderboardLg [20x20/16z] Oo0DC76mitCmeOgnyWC1AweO2qYC1OiOAmunXEcCS364wSmunLYOU7buU5bGnPZ1gcabnan07SmVaB1YX8GOiG
+!procedure Leaderboard($id, $name="Leaderboard", $tech="")
+  IconElement($id, 'material-4.0/Action/Leaderboard', $name, $tech)
+!endprocedure
+!procedure LeaderboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$LeaderboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure LeaderboardGroup($id, $name='Leaderboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$LeaderboardLg>', $name, $tech)
+!endprocedure
+@enduml

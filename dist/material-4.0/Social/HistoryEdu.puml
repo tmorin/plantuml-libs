@@ -1,0 +1,16 @@
+@startuml
+sprite $HistoryEduMd [14x14/16z] VSVL0SCm50D0cUr7sd_QCZV9_HsEbJJKz283Co9eSyt52YXx5Ky0uZ889vJvCKnQUEJ7K69YsMCv-ygrfVi6h_nhLERhyf8hRJXq1W
+sprite $HistoryEduLg [20x20/16z] {
+fSt50G0X30311DTi_zMUs__s1OD4_XTxE-jnt_ewRGpkoaO9PZU8eghYoVir8wecpCkMs-yTk2qy-DV4DPhwYVdRzYPRrJPyJVCaIW3TxIxZH7pxMCw3cajE
+yXftJX-psq8WltFVgvVvTbUz_6i5
+}
+!procedure HistoryEdu($id, $name="History Edu", $tech="")
+  IconElement($id, 'material-4.0/Social/HistoryEdu', $name, $tech)
+!endprocedure
+!procedure HistoryEduCard($id, $funcName="", $content="")
+  IconCard($id, '<$HistoryEduMd>', '', $funcName, $content)
+!endprocedure
+!procedure HistoryEduGroup($id, $name='History Edu', $tech='')
+  IconGroup($id, 'IconGroup', '<$HistoryEduLg>', $name, $tech)
+!endprocedure
+@enduml

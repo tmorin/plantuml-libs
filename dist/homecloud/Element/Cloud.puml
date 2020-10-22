@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudMd [14x14/16z] XSZL0SCm30JGCzkYst_QDloPFB7mfQjsN9B7Mk49k-ow3xMz2yzlOWLMP9oKbjXmIwOiU1IQuj4ZXy_3ciAEDEsY5M_-
+sprite $CloudLg [20x20/16z] {
+fSgr0SLG34MnuyVek_-qdp5jL8lpGXsZ1durFJI-XcOoIrE35slgF7ILTv8RJxwvMvebmZls15MLhoAfivrV5eQg1WVRjJWOwaeSNv0Nuyk6AidrRm1Mne-U
+EEKA
+}
+!procedure Cloud($id, $name="Cloud", $tech="")
+  IconElement($id, 'homecloud/Element/Cloud', $name, $tech)
+!endprocedure
+!procedure CloudCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure CloudGroup($id, $name='Cloud', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudLg>', $name, $tech)
+!endprocedure
+@enduml

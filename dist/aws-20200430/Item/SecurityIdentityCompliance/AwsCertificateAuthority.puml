@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCertificateAuthorityMd [14x14/16z] POs50GCn30E5tN_a-faKF5y0kWMjiyUTh9krD62AJ3JBI09OF02k52-5Wsh_rDEryEBEUyL95esN-zBorq84Md29nCNX3m
+sprite $AwsCertificateAuthorityLg [20x20/16z] {
+RSq70eH024FH408Pxt_XNTng-VRd5Dn4zobJ7QTQiavvpfhcgwOnOI-am9u-rZEZ3YRFtVet4w3P_zOiBeOFfjm8zR_5oa2k-DbWsnquMWB9esK3fPFvMHwD
+AsBxMdFAd2lstSJ-QpOf4pSz
+}
+!procedure AwsCertificateAuthority($id, $name="Aws Certificate Authority", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsCertificateAuthority', $name, $tech)
+!endprocedure
+!procedure AwsCertificateAuthorityCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCertificateAuthorityMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsCertificateAuthorityGroup($id, $name='Aws Certificate Authority', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCertificateAuthorityLg>', $name, $tech)
+!endprocedure
+@enduml

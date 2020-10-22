@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSecurityCenterMd [14x14/16z] HOk94G0n20A5ADf_nKVko-PT1o82IsOXDc2gfQGLbBghsWCwrke4qi-oUSeIrCUAhqrd094zDcupDaP0yzW8VXmj8mStDJSL3tNawRXx89_t0W
+sprite $ServiceSecurityCenterLg [20x20/16z] {
+LT054i1024FH9GJ2_IzSNVrZcLTlwnaSrexCIRfjO8XKAWDclv2v8b-5z9t3xrm9tIH_bakxXNdIuZH41NWOmUHf2GDWo6xsMd-jQTbjdwpDYj-2Ih2tRxKl
+gaPYw-N4M3ycE-N-jqAFA3frf4hiD7Fwc3S
+}
+!procedure ServiceSecurityCenter($id, $name="Service Security Center", $tech="")
+  IconElement($id, 'azure-v2/Item/Security/ServiceSecurityCenter', $name, $tech)
+!endprocedure
+!procedure ServiceSecurityCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSecurityCenterMd>', 'Security', $funcName, $content)
+!endprocedure
+!procedure ServiceSecurityCenterGroup($id, $name='Service Security Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSecurityCenterLg>', $name, $tech)
+!endprocedure
+@enduml

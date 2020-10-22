@@ -1,0 +1,16 @@
+@startuml
+sprite $ControlPointDuplicateMd [14x14/16z] ROs50GCn3CGKHllsdxRCVILcueYG4ZTw8sv9Ne6X5BKYL0sA8ZOWHwAATR87i0fzAryKTVeU97r7rYclJgiAxosLURqm8nIDrtLtRpo9EV776G
+sprite $ControlPointDuplicateLg [20x20/16z] {
+bP1N0iCW34FD9W5RzxzjBRft-puyfGIGlqcrrIGdyWmC83CBwJ06z9povib75IDuS2q94rKYfZ2mhz6Z8dPaaHMae7ZCwAhScR1RCp75yCGmr63A0jUP-SpM
+p9PNxxmTwUaVJsUPYD9uvXL866X2ep9OJp5tGnTIPl2W89fVljNl7
+}
+!procedure ControlPointDuplicate($id, $name="Control Point Duplicate", $tech="")
+  IconElement($id, 'material-4.0/Image/ControlPointDuplicate', $name, $tech)
+!endprocedure
+!procedure ControlPointDuplicateCard($id, $funcName="", $content="")
+  IconCard($id, '<$ControlPointDuplicateMd>', '', $funcName, $content)
+!endprocedure
+!procedure ControlPointDuplicateGroup($id, $name='Control Point Duplicate', $tech='')
+  IconGroup($id, 'IconGroup', '<$ControlPointDuplicateLg>', $name, $tech)
+!endprocedure
+@enduml

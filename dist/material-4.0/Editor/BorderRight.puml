@@ -1,0 +1,16 @@
+@startuml
+sprite $BorderRightMd [14x14/16z] ROs50SGm30FFq8Qp_xRFq80P9KOHmr3baGIyqIn6QzATYpmxQq1AdquCKFrq6abw79es7SEb3oWZWzShkpWkgezamYXt
+sprite $BorderRightLg [20x20/16z] {
+ZP254K0n34AXxjr_sk-kVMTSFA0PwGYdOEsg1bmbgqCfiBCQe00a8GGe8QfTOYCa1iHSv-eKp7c9hJi6ZDbZPvQO6RSPf3IfjzYP-uxtM-utxp71CKOnnEoB
+1tUlcka1
+}
+!procedure BorderRight($id, $name="Border Right", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderRight', $name, $tech)
+!endprocedure
+!procedure BorderRightCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderRightMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderRightGroup($id, $name='Border Right', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderRightLg>', $name, $tech)
+!endprocedure
+@enduml

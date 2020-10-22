@@ -1,0 +1,13 @@
+@startuml
+sprite $A6KMd [14x14/16z] NSt50K0X30FGG0rd_sc_Qz-j6ZYHBd4lvcCh-QqO85SDuLQpjKbxLQED3BjcbJYNf-eYhMIzDX_i4bmw8byYd1K
+sprite $A6KLg [20x20/16z] fP253G1120GvHKxelzlFk_l42BuBpmc4D83a-vIk26sErZbgStYGe-DSmHXhHHMQSn6yhGKOP96pdBIquJ97K7SvWJBDJZTOsnlSvdxzlFTWxrMRUae3
+!procedure A6K($id, $name="A6 K", $tech="")
+  IconElement($id, 'material-4.0/Av/A6K', $name, $tech)
+!endprocedure
+!procedure A6KCard($id, $funcName="", $content="")
+  IconCard($id, '<$A6KMd>', '', $funcName, $content)
+!endprocedure
+!procedure A6KGroup($id, $name='A6 K', $tech='')
+  IconGroup($id, 'IconGroup', '<$A6KLg>', $name, $tech)
+!endprocedure
+@enduml

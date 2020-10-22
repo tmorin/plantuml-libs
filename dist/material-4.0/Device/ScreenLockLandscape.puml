@@ -1,0 +1,13 @@
+@startuml
+sprite $ScreenLockLandscapeMd [14x14/16z] VSsr0G0n4CJ00pDj_zK-CrZPHA9UB4TC2hGjG1sQYZWdeWtEeHBD8ggRVCh-L07AgGpaJKtOXc1PAlnwg7KztE-zHW
+sprite $ScreenLockLandscapeLg [20x20/16z] hSet0iD024HHDiU1-z_MOne7ITs-RZx8QHKRNpQgH3DJ7tvIplXkKIXdeVZTwXZrluqGnr_B2cZ-RTse_xRsrDfl2vdagu4sWVobmId1DJdj1G
+!procedure ScreenLockLandscape($id, $name="Screen Lock Landscape", $tech="")
+  IconElement($id, 'material-4.0/Device/ScreenLockLandscape', $name, $tech)
+!endprocedure
+!procedure ScreenLockLandscapeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScreenLockLandscapeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScreenLockLandscapeGroup($id, $name='Screen Lock Landscape', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScreenLockLandscapeLg>', $name, $tech)
+!endprocedure
+@enduml

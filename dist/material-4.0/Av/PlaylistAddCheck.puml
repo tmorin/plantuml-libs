@@ -1,0 +1,13 @@
+@startuml
+sprite $PlaylistAddCheckMd [14x14/16z] ZScr0S0m40D0lPcz_xHcwfAh1FXFsu4m63ym3CG6J24Fl1zuY3Qv6ACZGwsOjYYb16AGlMnXb8qKFbG
+sprite $PlaylistAddCheckLg [20x20/16z] lOm53iH0009XtVV_hxshUoEr2J4CNw3hI9Wy6KDi2T7YX6tlz8_41D71d01gfHknDqMkRjegj5jsrjHZghvhBMdCqbfRSx8cQ72RFm
+!procedure PlaylistAddCheck($id, $name="Playlist Add Check", $tech="")
+  IconElement($id, 'material-4.0/Av/PlaylistAddCheck', $name, $tech)
+!endprocedure
+!procedure PlaylistAddCheckCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlaylistAddCheckMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlaylistAddCheckGroup($id, $name='Playlist Add Check', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlaylistAddCheckLg>', $name, $tech)
+!endprocedure
+@enduml

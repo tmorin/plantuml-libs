@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSageMakerGroundTruthMd [14x14/16z] XOp50GGn54BNU7oo_TSx5hc64zus2BQN-1ciT8MB-5kFA479uGb1_b_IJsYAdngz6e94w2-slb-vkef_ahhewPNiS08
+sprite $AwsSageMakerGroundTruthLg [20x20/16z] {
+bT07YWLG24DHy9b4u-n_k_DxxuVGBjBqZsQ_6ytUpjUOpErubH3y8wU1grP5oX4vfrGXfU2gr2cjGjeCZhEyfoXYF8IsZeq52F1adEuwDPrhPPdHFaLpp-cp
+j6AjK5yr9TSMKhveG0BQrufRzU9NlzW
+}
+!procedure AwsSageMakerGroundTruth($id, $name="Aws Sage Maker Ground Truth", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsSageMakerGroundTruth', $name, $tech)
+!endprocedure
+!procedure AwsSageMakerGroundTruthCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSageMakerGroundTruthMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsSageMakerGroundTruthGroup($id, $name='Aws Sage Maker Ground Truth', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSageMakerGroundTruthLg>', $name, $tech)
+!endprocedure
+@enduml

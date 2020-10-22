@@ -1,0 +1,13 @@
+@startuml
+sprite $RuleMd [14x14/16z] ZOp50SGm30HNQBRwh_Omz0cC6F4CiJq5Hm5Qp1d6aMVvpLMDOT_93X_p3ca4Y7uWz34AbYyEYKdxPfGsi4B-rKlU
+sprite $RuleLg [20x20/16z] hT034WGn50JGZfs-_sstTco_GfmFV4XQB8bCzJzf0Txzjnm0mvP4fijidahl_9_uNw9RV-PmWVU0ZW9JcKwHQXMZAino-Ky3_iQSDMjU9bEeq9OsqhfjmIi_
+!procedure Rule($id, $name="Rule", $tech="")
+  IconElement($id, 'material-4.0/Action/Rule', $name, $tech)
+!endprocedure
+!procedure RuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$RuleMd>', '', $funcName, $content)
+!endprocedure
+!procedure RuleGroup($id, $name='Rule', $tech='')
+  IconGroup($id, 'IconGroup', '<$RuleLg>', $name, $tech)
+!endprocedure
+@enduml

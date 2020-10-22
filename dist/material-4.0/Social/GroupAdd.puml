@@ -1,0 +1,16 @@
+@startuml
+sprite $GroupAddMd [14x14/16z] ZS770G8n44MnPq_SvDz_jMJE8F7RWC7NfeFZ0Eo4ASbAnapvu9B6he4UTaPCSWAXmV3mmHXW1x7qKECg7YwzZ4CyP5Tt5z7yxGu
+sprite $GroupAddLg [20x20/16z] {
+jSo5OKGX44NHYpkl_suptnl87fmHVYNF4IWpWd41aoHjWdI-gZpGPI9RvVkhCjv92NfV6gFWXbGfQe1E7V3EbiSugWB6UViyFVtotDBk4JyI4AfZw5RePqlm
+UYoATFzj6TidHPkJUu6jV_O7
+}
+!procedure GroupAdd($id, $name="Group Add", $tech="")
+  IconElement($id, 'material-4.0/Social/GroupAdd', $name, $tech)
+!endprocedure
+!procedure GroupAddCard($id, $funcName="", $content="")
+  IconCard($id, '<$GroupAddMd>', '', $funcName, $content)
+!endprocedure
+!procedure GroupAddGroup($id, $name='Group Add', $tech='')
+  IconGroup($id, 'IconGroup', '<$GroupAddLg>', $name, $tech)
+!endprocedure
+@enduml

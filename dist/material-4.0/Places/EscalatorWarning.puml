@@ -1,0 +1,16 @@
+@startuml
+sprite $EscalatorWarningMd [14x14/16z] NOrP0W0X249ft_F-jnsdlVZogG0UYUGECbJEezFdOox_gv8_QM8feAQVr4yy6JrliPfGw_ylAv6pu-5l80_377woF_rskMxGWtJv-rJ90ey-
+sprite $EscalatorWarningLg [20x20/16z] {
+TOq55WGn24FhNdB_s-w6SKk5l8-P3zbW7sYYtra0y2Yio8zUvzqDEG4mh5g_iWAgi44GpWmicV0Nri-zcMGs13D491vrqs4qcgRCqmlBHPagA3FHbmVJATFU
+MFwpTR67-fLzrzaOOw1nZ1_w0G
+}
+!procedure EscalatorWarning($id, $name="Escalator Warning", $tech="")
+  IconElement($id, 'material-4.0/Places/EscalatorWarning', $name, $tech)
+!endprocedure
+!procedure EscalatorWarningCard($id, $funcName="", $content="")
+  IconCard($id, '<$EscalatorWarningMd>', '', $funcName, $content)
+!endprocedure
+!procedure EscalatorWarningGroup($id, $name='Escalator Warning', $tech='')
+  IconGroup($id, 'IconGroup', '<$EscalatorWarningLg>', $name, $tech)
+!endprocedure
+@enduml

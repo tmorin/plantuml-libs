@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDeepLenseMd [14x14/16z] FSt70SCW40LHMzhqeVz-DSGvyKXRiwGWBKqYbVBrD1yKiUc1SidjTIzupwOQAdEpc6fgPH6e42NBSC4fhrgJ0SnyfphecULBS2H2D3Nv0G
+sprite $AwsDeepLenseLg [20x20/16z] {
+NSW5ZW1140B0f0NetV-_zuIHaugNDYxuDlgxllaPytql8miTxLmtg27K9USOYfcDTTpNAEIvnyUQJDnxzedgSqvLHaH2aizP956Kq_SekiciSJx69AHUfts5
+qM3VwnjAwkfxpf9mx_LEZz0Ovpx_ujjxq_S_Fm4
+}
+!procedure AwsDeepLense($id, $name="Aws Deep Lense", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AwsDeepLense', $name, $tech)
+!endprocedure
+!procedure AwsDeepLenseCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDeepLenseMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsDeepLenseGroup($id, $name='Aws Deep Lense', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AwsDeepLenseLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TransferWithinAStationMd [14x14/16z] LKw50S0m3A9kPFn_xTpgCGJ7SlYjeZ9bxKjyIMySXyGtiq6flrcccgdU57bHH2aFKAA3ot27RBMeWgR1GuSTB7097ljQof7bMYplsWfWtRFCFNFxJU7slW4
+sprite $TransferWithinAStationLg [20x20/16z] {
+TOw5WGGn30F3P53_rIue3uSAUepXg-AQRsm1umFhRxdZ5UNfB-MQ0Y_bAbnkc1zOGQaty_eOLmOWnO7s7vVbBfUwFVIE3WX_wNyKk1CsZPV86be6KaYWs6kY
+X76nq3Nbb1ceY6IiruWYB93bDUPqPJFCpOgf2Ypk5fjHas_C-_hN2G
+}
+!procedure TransferWithinAStation($id, $name="Transfer Within A Station", $tech="")
+  IconElement($id, 'material-4.0/Maps/TransferWithinAStation', $name, $tech)
+!endprocedure
+!procedure TransferWithinAStationCard($id, $funcName="", $content="")
+  IconCard($id, '<$TransferWithinAStationMd>', '', $funcName, $content)
+!endprocedure
+!procedure TransferWithinAStationGroup($id, $name='Transfer Within A Station', $tech='')
+  IconGroup($id, 'IconGroup', '<$TransferWithinAStationLg>', $name, $tech)
+!endprocedure
+@enduml

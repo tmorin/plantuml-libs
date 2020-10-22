@@ -1,0 +1,16 @@
+@startuml
+sprite $SdkMd [14x14/16z] HSS5WWL130BHOZh0sFslk_BrjIJ5WyINM_EoEZ1T0AfX1bo1pr7iQ9q6hxa3lcSzIfdMrRjmoAlODQETHvcj-zuD6zI81581h7tD_7syp74CNn8Flm
+sprite $SdkLg [20x20/16z] {
+XT255GCX40JGWVKv-gytRuaxpiV1Zp0onmivpUYFeeoU5DIhpAhvqh8b0AHgLylQYZaH565Y1Aijft35FcXHPsuJ6DC1oyCWDtDaLSAV3H5ujkwtFvZGseno
+iRxNwEsgNopLPlj5ayU-C-tXHUwNrlqFslOVt8CNMVxtJv_32G
+}
+!procedure Sdk($id, $name="Sdk", $tech="")
+  IconElement($id, 'aws-20200430/Item/General/Sdk', $name, $tech)
+!endprocedure
+!procedure SdkCard($id, $funcName="", $content="")
+  IconCard($id, '<$SdkMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure SdkGroup($id, $name='Sdk', $tech='')
+  IconGroup($id, 'IconGroup', '<$SdkLg>', $name, $tech)
+!endprocedure
+@enduml

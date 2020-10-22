@@ -1,0 +1,16 @@
+@startuml
+sprite $DinnerDiningMd [14x14/16z] TSt50S0W341Ht4dstxR5_Q7_5BBXNB0UB4ON5UE_lwWF1hpIFvhBcl-jjE7vVPK844GkPQN09C_nMDa_g6daNo9sEMKboEO3
+sprite $DinnerDiningLg [20x20/16z] {
+dOz50aGX241jQUv_secVwcRYcJI4hoa8W90cNLBKoZRx6HkA2yiBbdRw5VOKTpQ_wcB49KnGvUtzNvT9ZSkaAxxHJbtNNirtZddO1-2OpMuSDrrUsDBv16sE
+3JeSTEZXUvu
+}
+!procedure DinnerDining($id, $name="Dinner Dining", $tech="")
+  IconElement($id, 'material-4.0/Maps/DinnerDining', $name, $tech)
+!endprocedure
+!procedure DinnerDiningCard($id, $funcName="", $content="")
+  IconCard($id, '<$DinnerDiningMd>', '', $funcName, $content)
+!endprocedure
+!procedure DinnerDiningGroup($id, $name='Dinner Dining', $tech='')
+  IconGroup($id, 'IconGroup', '<$DinnerDiningLg>', $name, $tech)
+!endprocedure
+@enduml

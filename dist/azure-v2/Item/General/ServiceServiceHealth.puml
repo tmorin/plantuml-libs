@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceServiceHealthMd [14x14/16z] HSg50G0n3090Y47t7_XThX8bgpk0x4uWekU8h9aYvf8zXpggdwZBSDJLFDDKuKWZA3in6KHBvmQFN1bsWMGBOSaYWBApRIjmwgM_06fvYNYbX_Yz-Gu
+sprite $ServiceServiceHealthLg [20x20/16z] {
+RO-50GD120HnDlqtdENTvkNc395lLCrqDTDD8gl2Jg5H1jFOHDHh9NAJr4DFBAivT5UxzOfpZSoYIV97T5tJx5InTdLtnkDIY7VmW4ki5G0bAcasLNHZBbIw
+fCvcQWBjIskSkd3UN4BAuD4ezGQXo4BHBPUbvjAvU2vj98wB9u7VRwguuLFv4xD3_m
+}
+!procedure ServiceServiceHealth($id, $name="Service Service Health", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceServiceHealth', $name, $tech)
+!endprocedure
+!procedure ServiceServiceHealthCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceServiceHealthMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceServiceHealthGroup($id, $name='Service Service Health', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceServiceHealthLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsShieldMd [14x14/16z] TOtL0S1G30Ah1ydRVzwwo_r4WNmJSUa5yZRGJm3RHCXnJaKkjocVDsqkQHklev0iTsQ9WnvawKpNfljd1
+sprite $AwsShieldLg [20x20/16z] {
+bT25OGKW303HIkuYx3zlvRiBpiEPzyBgMUSm1LWdrAAOui52yHkigBqXlUX9F1erGq_3YUK3iozjDFVcrbP6mjxatpgcHjV6KdCnbVKLlPyOXQ4iglRMKMA5
+VVAI1g65ElsgxhzotWk_
+}
+!procedure AwsShield($id, $name="Aws Shield", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsShield', $name, $tech)
+!endprocedure
+!procedure AwsShieldCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsShieldMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsShieldGroup($id, $name='Aws Shield', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsShieldLg>', $name, $tech)
+!endprocedure
+@enduml

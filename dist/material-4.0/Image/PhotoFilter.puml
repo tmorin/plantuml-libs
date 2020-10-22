@@ -1,0 +1,16 @@
+@startuml
+sprite $PhotoFilterMd [14x14/16z] PSh50K0X30FGu5_R_QV5dNUBO2DrqW8pHLA8b3GXaTyZHbB_rvErKEcRaoMo0EcQU4vmCOoKdKaoLImHez6PaTW4
+sprite $PhotoFilterLg [20x20/16z] {
+ZSi55WGX40DHF5dfb_kVTZJhMgDyclH_ZI09zXjrkMFAnKQrifTmia6tNPtsVrwjXP3lROm5kSdL8jPtFlMhZP1YcIpYrN0rl9prd0tZnPmDRungkRZSTkjw
+gASD2Jfmep-R0G
+}
+!procedure PhotoFilter($id, $name="Photo Filter", $tech="")
+  IconElement($id, 'material-4.0/Image/PhotoFilter', $name, $tech)
+!endprocedure
+!procedure PhotoFilterCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhotoFilterMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhotoFilterGroup($id, $name='Photo Filter', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhotoFilterLg>', $name, $tech)
+!endprocedure
+@enduml

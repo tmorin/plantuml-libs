@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsOracleInstanceMd [14x14/16z] dOk70K9H308JuF3jlx1T1_YNNaYXBw1DP-TFsI9f5siWvfQdfqUmpyO5m_IlaoCw7rmf_KsjdVERq6ektEhLDgKlmXC_
+sprite $AwsRdsOracleInstanceLg [20x20/16z] {
+XP05WWCn30CDYgJs_my-Pu_AE-49E-K7b4Oy03cYEtx8Ou4zNeZC6jMAEfohj5Ga9hMvdRh4BafLeh1TsyM62RMWsYuoZ_CdJwgCY-C6QY1kdTTU3DswwwhC
+MjSRbuO6-Cx5WU_s2jtG_TvQ9EjqxyLSYxxV6mrqsBXzywxXr4tGwO7v1G
+}
+!procedure AwsRdsOracleInstance($id, $name="Aws Rds Oracle Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsOracleInstance', $name, $tech)
+!endprocedure
+!procedure AwsRdsOracleInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsOracleInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsOracleInstanceGroup($id, $name='Aws Rds Oracle Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsOracleInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

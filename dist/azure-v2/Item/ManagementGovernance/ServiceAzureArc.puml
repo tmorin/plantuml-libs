@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureArcMd [14x14/16z] VOg50GKW24I90sl_UHNudS-02_g3Y86l6vCdIiIIzDxQj520AkOSQpLLSmT2pJMxMn8g9R9vLMkw2AxDCQBfqItLgocPgNaVe40D4aEO2ixvmW4
+sprite $ServiceAzureArcLg [20x20/16z] {
+fOx7WSKm20LDJlttku9rzl7FYJSIOViD8BW2mXXLPTXDiudeWFECGuGjOqdZMX9bHdZclsDH9kPiAjDMw372b_FEAd9tqfEOJrUrpoD-z0e0a5pp6jSbJ6Lt
+OH6vZvz_AuPNnSpRUu4ylLM3xGZwUXCOrJNZNktcgh_y0G
+}
+!procedure ServiceAzureArc($id, $name="Service Azure Arc", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAzureArc', $name, $tech)
+!endprocedure
+!procedure ServiceAzureArcCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureArcMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureArcGroup($id, $name='Service Azure Arc', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureArcLg>', $name, $tech)
+!endprocedure
+@enduml

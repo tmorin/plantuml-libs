@@ -1,0 +1,16 @@
+@startuml
+sprite $RecordVoiceOverMd [14x14/16z] TSU53GD14CLGBy_H_FwxpP8eoJs1PTvOM5tnaowxUYrKHU2HL9455GZg33zG1Sv-2IzHcQvQWiZbT276G8zNI9TBUbhVFjfEkgRDwKBU4Zy-
+sprite $RecordVoiceOverLg [20x20/16z] {
+bS-5WGCn40D0BHoPr7-tV_em9sDcBxvWU12SSM_YEExqqeghTHIk41yaX-zjGR912gKWI8FAhb4wq1aOzFjzTjmNb82p8hLVelOQQe_ltl-F3h6SbpcFrong
+ilAWvYdUXHSB8CPh1d5UdEzVBvRLy8i_
+}
+!procedure RecordVoiceOver($id, $name="Record Voice Over", $tech="")
+  IconElement($id, 'material-4.0/Action/RecordVoiceOver', $name, $tech)
+!endprocedure
+!procedure RecordVoiceOverCard($id, $funcName="", $content="")
+  IconCard($id, '<$RecordVoiceOverMd>', '', $funcName, $content)
+!endprocedure
+!procedure RecordVoiceOverGroup($id, $name='Record Voice Over', $tech='')
+  IconGroup($id, 'IconGroup', '<$RecordVoiceOverLg>', $name, $tech)
+!endprocedure
+@enduml

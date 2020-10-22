@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsWorkDocs element
+include('aws-20200430/Item/EndUserComputing/AwsWorkDocs')
+AwsWorkDocsCard('aws_work_docs', 'Aws Work Docs', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

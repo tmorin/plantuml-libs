@@ -1,0 +1,13 @@
+@startuml
+sprite $HeightMd [14x14/16z] Oo08kBcHE5py_5m87XCN5nEo952A31uZ5nSZBXiOUBWPa9KoOdCX
+sprite $HeightLg [20x20/16z] Oo0LC35X2l7nCM88yVFpeQdavkNdv-L2rypB2oG6hHWN5ZSpW_p6Z1a6J8J3YZ
+!procedure Height($id, $name="Height", $tech="")
+  IconElement($id, 'material-4.0/Editor/Height', $name, $tech)
+!endprocedure
+!procedure HeightCard($id, $funcName="", $content="")
+  IconCard($id, '<$HeightMd>', '', $funcName, $content)
+!endprocedure
+!procedure HeightGroup($id, $name='Height', $tech='')
+  IconGroup($id, 'IconGroup', '<$HeightLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $KitchenMd [14x14/16z] NOk54SGm30GVH1DH_zM6p5wZ3ZuRO6P-O_1CQiH4XARlnE3FAsMIdupfI5MxoQFqM9YPQa_-ElSmvWbidkvhJ8PqW_fEu1NuR5m
+sprite $KitchenLg [20x20/16z] {
+dT1L0eKm34JHaCdWaFsl5khFzNwUUkL5i1OAzNvLdsrsXXaC6Nsk9jZA8b-QqIcnxifqrljvuz0FOsWOB_jTkXWKq1YkzZEtjj_5-BS9kWThNOn6NlxWrLy9
+BlCWBpe1
+}
+!procedure Kitchen($id, $name="Kitchen", $tech="")
+  IconElement($id, 'material-4.0/Places/Kitchen', $name, $tech)
+!endprocedure
+!procedure KitchenCard($id, $funcName="", $content="")
+  IconCard($id, '<$KitchenMd>', '', $funcName, $content)
+!endprocedure
+!procedure KitchenGroup($id, $name='Kitchen', $tech='')
+  IconGroup($id, 'IconGroup', '<$KitchenLg>', $name, $tech)
+!endprocedure
+@enduml

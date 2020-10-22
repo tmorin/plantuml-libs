@@ -1,0 +1,16 @@
+@startuml
+sprite $AddModeratorMd [14x14/16z] VSgr0S0W04JHZplilss2Df7NdJ0enQ5JQqapsDA6OllG3lsVr6jAFacWh5xI-HuSieuewfs4ZItQ7dLFFhSSw5HkPZudhH1Mm0K
+sprite $AddModeratorLg [20x20/16z] {
+ZP3L0KKn2CKEr7t_QQzNd-OpEAWGOO5CpcQoxCg5usfaA8qWBsNAX3cTdPtjUREpVxXFC_GWKYhwTAANCS24a_GeTTHSMNs8EyFfSPGl9q3LjIcGhKMhXWY-
+51_4a2bRl_v1tro3-0nTJzq1
+}
+!procedure AddModerator($id, $name="Add Moderator", $tech="")
+  IconElement($id, 'material-4.0/Social/AddModerator', $name, $tech)
+!endprocedure
+!procedure AddModeratorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddModeratorMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddModeratorGroup($id, $name='Add Moderator', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddModeratorLg>', $name, $tech)
+!endprocedure
+@enduml

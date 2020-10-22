@@ -1,0 +1,16 @@
+@startuml
+sprite $SubtitlesOffMd [14x14/16z] LSw54S0W00F0u0xxRziK9-WVYYT2tvBDmQNOmuLCbjQJVpMBV3GvLLjp__2hMDYV0hRyQuMBfEzhGMcbD5d-jUGyK_zLGAVy9qRoYcxl9mK-
+sprite $SubtitlesOffLg [20x20/16z] {
+ZSm50e0W343HZMxkVrj7sietznHWDQFl5h86jDwD59d8X3BlSQ2neDXD5jjnjnrtst6tYMctSgk8E4SZXCaLGKZJRARBCFwJjK38qzol9dF1ClAyLr1m053U
+pIBXDGpPFA26npO
+}
+!procedure SubtitlesOff($id, $name="Subtitles Off", $tech="")
+  IconElement($id, 'material-4.0/Action/SubtitlesOff', $name, $tech)
+!endprocedure
+!procedure SubtitlesOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$SubtitlesOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure SubtitlesOffGroup($id, $name='Subtitles Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$SubtitlesOffLg>', $name, $tech)
+!endprocedure
+@enduml

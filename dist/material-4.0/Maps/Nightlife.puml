@@ -1,0 +1,16 @@
+@startuml
+sprite $NightlifeMd [14x14/16z] VOV50SH030DdoG63-g_s67uHYmkqtleJZTOUBZrOMgqKO3LQSwShTi3pzEhqX-5Hal5zB9ty7pLXJ_tVajwlxV8-fUBr_8o5dODht04
+sprite $NightlifeLg [20x20/16z] {
+hSZL0KGn24JHYHim_LVxtFAzUwCS_BkXLw81VRiZa4WrCpLsG4ac08q1Ms9kjpxsoPcMMWOZDbES9UurV0sDfBhPd989io6nxq-8zffd0L18Vgq2ZfE5tVnk
+SfDmosEGpBVLqVlmSBKd_DeA
+}
+!procedure Nightlife($id, $name="Nightlife", $tech="")
+  IconElement($id, 'material-4.0/Maps/Nightlife', $name, $tech)
+!endprocedure
+!procedure NightlifeCard($id, $funcName="", $content="")
+  IconCard($id, '<$NightlifeMd>', '', $funcName, $content)
+!endprocedure
+!procedure NightlifeGroup($id, $name='Nightlife', $tech='')
+  IconGroup($id, 'IconGroup', '<$NightlifeLg>', $name, $tech)
+!endprocedure
+@enduml

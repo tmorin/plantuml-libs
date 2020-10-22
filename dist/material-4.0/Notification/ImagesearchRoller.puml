@@ -1,0 +1,13 @@
+@startuml
+sprite $ImagesearchRollerMd [14x14/16z] dSsr0S102010UCVtdpRkPQx2WQzckhAnn4CiThna9lhCIcOYOfQsPYEjO2VxM3vIH0Jm3BSIxKxoCbf_PDXQtpxE
+sprite $ImagesearchRollerLg [20x20/16z] lSn50e0W40LGIeMXxdzQkcFhMqr-TCEUXjQPxI3sL89SPq-ibXcpp_RxX1b8a5928BywMprMWGpYISNcg0md2FTPP-KMowtcP9w13Px_PuGIGd6kFG
+!procedure ImagesearchRoller($id, $name="Imagesearch Roller", $tech="")
+  IconElement($id, 'material-4.0/Notification/ImagesearchRoller', $name, $tech)
+!endprocedure
+!procedure ImagesearchRollerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ImagesearchRollerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ImagesearchRollerGroup($id, $name='Imagesearch Roller', $tech='')
+  IconGroup($id, 'IconGroup', '<$ImagesearchRollerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the MilitaryTech element
+include('material-4.0/Social/MilitaryTech')
+MilitaryTech('military_tech', 'Military Tech', 'an optional tech field')
+@enduml

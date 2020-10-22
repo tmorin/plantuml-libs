@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalAirportMd [14x14/16z] ZSpL0KDH20DGSbqesN_Q-dCzFpYoevHvPNQpIcGSSgzyK__9qVZN8A9i4MQ8ZVhUm_05NduUiv-ePCLG1Kr9Wsoy
+sprite $LocalAirportLg [20x20/16z] {
+dOw50SH020G39q24wR_QT_VFdE8xVAAK9vU2FlegrAVIdMzjde4zPCticChL8y49bvEh9nUoxpqw0naE7WdCE-cDsSjPI_6Pjckcz_fKtcX-w-jvcdcbaH59
+k_L9sTz5XhTi0G
+}
+!procedure LocalAirport($id, $name="Local Airport", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalAirport', $name, $tech)
+!endprocedure
+!procedure LocalAirportCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalAirportMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalAirportGroup($id, $name='Local Airport', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalAirportLg>', $name, $tech)
+!endprocedure
+@enduml

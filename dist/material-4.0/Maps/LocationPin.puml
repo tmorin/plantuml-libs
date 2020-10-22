@@ -1,0 +1,16 @@
+@startuml
+sprite $LocationPinMd [14x14/16z] RSkr0GL1409Grdtflzel8z7TYqO03w6lrO8lXp_7raanzNLvOZoyyepa00QfqSkRy-M161GTNYIb9l9_ot3TSfwLd6iDBxu
+sprite $LocationPinLg [20x20/16z] {
+VO-54SKW04E3Ezb_sg_DNPLN9O9WWVNUdfJ63sslUcuu23Eb3ICj_Og_UfJM_eFuTQGDSdw_a-pIEaaBs7qka-pUVwqipP7NpLH95PSDJdCzYCUUJ2smOsXl
+Em8PS6OCNB0MAzu
+}
+!procedure LocationPin($id, $name="Location Pin", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocationPin', $name, $tech)
+!endprocedure
+!procedure LocationPinCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocationPinMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocationPinGroup($id, $name='Location Pin', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocationPinLg>', $name, $tech)
+!endprocedure
+@enduml

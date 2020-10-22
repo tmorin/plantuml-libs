@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleEmailServiceEmailMd [14x14/16z] LKs50KHH208LU3_sN_SwxGJy2sVuxPBuq_IzwxbB3pjUKu_6fn3NwygZAhRkZOAM6f012w-EMxBnrVLY5LVVkvgyYAUapG110jxKcntx4RR6drm1
+sprite $SimpleEmailServiceEmailLg [20x20/16z] {
+ZSX5eiL04090XXRe97F_utvtVRKit2mjBNmIazd29ovFVRvbTPVe5v8NNED9n3FcUH5I1l6AHpY0ThvL7W476u0QJteMu8Z10niFPE3fZ4Sw5WxZuyNeE3Jn
+uUeW8i2ZtgvduSaQlPoDDnuuE2vyK1vod_87EZT1nYSaVd8F
+}
+!procedure SimpleEmailServiceEmail($id, $name="Simple Email Service Email", $tech="")
+  IconElement($id, 'aws-20200911/Resource/CustomerEngagement/SimpleEmailServiceEmail', $name, $tech)
+!endprocedure
+!procedure SimpleEmailServiceEmailCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleEmailServiceEmailMd>', 'CustomerEngagement', $funcName, $content)
+!endprocedure
+!procedure SimpleEmailServiceEmailGroup($id, $name='Simple Email Service Email', $tech='')
+  IconGroup($id, 'CustomerEngagementFamily', '<$SimpleEmailServiceEmailLg>', $name, $tech)
+!endprocedure
+@enduml

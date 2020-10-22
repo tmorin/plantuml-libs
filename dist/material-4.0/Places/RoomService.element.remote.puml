@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the RoomService element
+include('material-4.0/Places/RoomService')
+RoomService('room_service', 'Room Service', 'an optional tech field')
+@enduml

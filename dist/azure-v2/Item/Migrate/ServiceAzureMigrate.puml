@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureMigrateMd [14x14/16z] XOr70aD1248jWFxS_y1XKjRpDbOWxcJblssG4hw3Uq0pxPVqm4xCAi8_df0-xfG75Eiyp3EKL2c6Zy_Aj2U_xekWkYH06fpWh4F6XJS
+sprite $ServiceAzureMigrateLg [20x20/16z] {
+jSp7WGGm24DHG2Au_uONUTES9_mRpmRxM1v0FCp1pApguXyXRzNTl-W2E4heLq0POx5x89AeC7sSpWYMFjtTUtBczmyIe3PwXBNfKz5YXpd3Q-NEoh0Tpkc0
+YBgFzUfpQ9wznEeakteAjWK2_2xirRu
+}
+!procedure ServiceAzureMigrate($id, $name="Service Azure Migrate", $tech="")
+  IconElement($id, 'azure-v2/Item/Migrate/ServiceAzureMigrate', $name, $tech)
+!endprocedure
+!procedure ServiceAzureMigrateCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureMigrateMd>', 'Migrate', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureMigrateGroup($id, $name='Service Azure Migrate', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureMigrateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FontDownloadMd [14x14/16z] LSsr0G0n4CJ0DVku_sgVKTb4mh-kJntGUD9BlN_aWByQjSvNMIG_agIQv5P7IkYN7EBEy5FSOglnhl-zcrvPnxyL
+sprite $FontDownloadLg [20x20/16z] {
+RT350S0W5C3GuFAH_QUjUydnuJ1CkrTwfTPVjGLT_-Hko_bd5UhN0eIlAUVKnp8YoDliCWdxihfkvgbFYsXZDF5f6WKA_J0XxRFbDajRhM5lI_buNxhjbHlz
+rUXFXyq
+}
+!procedure FontDownload($id, $name="Font Download", $tech="")
+  IconElement($id, 'material-4.0/Content/FontDownload', $name, $tech)
+!endprocedure
+!procedure FontDownloadCard($id, $funcName="", $content="")
+  IconCard($id, '<$FontDownloadMd>', '', $funcName, $content)
+!endprocedure
+!procedure FontDownloadGroup($id, $name='Font Download', $tech='')
+  IconGroup($id, 'IconGroup', '<$FontDownloadLg>', $name, $tech)
+!endprocedure
+@enduml

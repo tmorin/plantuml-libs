@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobMd [14x14/16z] FKs50S0W31iHeFl_Nnpgcdn3A5lyjcGJeFDg44HAu8_LPNW8ykfIQEuKUrSuToox2udKsu6Z7-ams79-3DKK7qgK4jIt6IXeZD9cfrq36Niv7Ijr
+sprite $AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg [20x20/16z] {
+LOz5WaH124D3eQ7c_jSTvzFzDhW4VyZvHe0bMBymCDJZHetN-JSc9tjoZE8l5Nno0iWtW3ovRlyTFjuxgrc_ewdRv-FPzf4Pxf7azWdC8zmWlJBixpzR8MR9
+syrAiydTn25mWFoO79FiY4kcFRa3k-vj47_LeG3D-wwEg28lOtMap0f9l2FZV04
+}
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob($id, $name="Aws Database Migration Service Database Migration Workflow Job", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob', $name, $tech)
+!endprocedure
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobGroup($id, $name='Aws Database Migration Service Database Migration Workflow Job', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobLg>', $name, $tech)
+!endprocedure
+@enduml

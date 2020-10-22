@@ -1,0 +1,16 @@
+@startuml
+sprite $AirlineSeatLegroomReducedMd [14x14/16z] TOh50KKn3CE2nJJUVzhF-C0tIwB_iOgflf-j1k3l9Pyxn8pwVNZLcXgF5uyqmblLYlPuF3CNDGXz5sZo-z2_JysODhi2
+sprite $AirlineSeatLegroomReducedLg [20x20/16z] {
+ZP350G1130B9kjD_j-UkarySy1iJn8S-zhb0tTWZkvoVSkssxsUklnESx7CpSStLDPUNkogikVbBpGGNOqofRzUOY2ok1qYikylJBwq_iIAg1vgqE679rkmv
+jpwueWR71F_f
+}
+!procedure AirlineSeatLegroomReduced($id, $name="Airline Seat Legroom Reduced", $tech="")
+  IconElement($id, 'material-4.0/Notification/AirlineSeatLegroomReduced', $name, $tech)
+!endprocedure
+!procedure AirlineSeatLegroomReducedCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirlineSeatLegroomReducedMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirlineSeatLegroomReducedGroup($id, $name='Airline Seat Legroom Reduced', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirlineSeatLegroomReducedLg>', $name, $tech)
+!endprocedure
+@enduml

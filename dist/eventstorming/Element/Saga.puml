@@ -1,0 +1,12 @@
+@startuml
+skinparam file<<Saga>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #c9bbe5
+}
+!procedure Saga($id, $label="")
+  EsEntity('file', 'Saga', $id, $label)
+!endprocedure
+@enduml

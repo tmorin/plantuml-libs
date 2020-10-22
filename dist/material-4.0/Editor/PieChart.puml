@@ -1,0 +1,16 @@
+@startuml
+sprite $PieChartMd [14x14/16z] PKs50S0m29i4vil_rzRT2yIMQU66EwcvI1NopWr565imTuI7VAUCuEj_NLL4qNRYkhiody75WpN1jpNTBpnmPvcM1G
+sprite $PieChartLg [20x20/16z] {
+VT253SH044DH3nsVtN-tKPZtAwANPJIA_jjcRyfTVDj2IQatYJcJD9iqed5hjDvUsffUlN5lx0-XlIc0d0q-XWkxd7knXvtFyhuuiwEljbQzzCZ5glLMlIQG
+YrpK0G
+}
+!procedure PieChart($id, $name="Pie Chart", $tech="")
+  IconElement($id, 'material-4.0/Editor/PieChart', $name, $tech)
+!endprocedure
+!procedure PieChartCard($id, $funcName="", $content="")
+  IconCard($id, '<$PieChartMd>', '', $funcName, $content)
+!endprocedure
+!procedure PieChartGroup($id, $name='Pie Chart', $tech='')
+  IconGroup($id, 'IconGroup', '<$PieChartLg>', $name, $tech)
+!endprocedure
+@enduml

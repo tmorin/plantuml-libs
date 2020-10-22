@@ -1,0 +1,16 @@
+@startuml
+sprite $SupervisedUserCircleMd [14x14/16z] PKm50eH0468x1_x_Mbilt1mIhnNQ62rSeEbOxGPyODo_B6vCEAG8pm3RnIbP7l8R6ZlYQ2QQD85k3jwozv5zQw57sUlSbjz48c_8xz8EPJDrdM0pZsaZuhLM
+sprite $SupervisedUserCircleLg [20x20/16z] {
+VP07TiGm24I72EsojZN__hTDz4XltrQZW_vXP0vz9ie0gq9lfA7nU1FnYHQ6WVEaMR5b1TobEqrjcO6GWYlYWhMB04XfSfDk7J41N6LEwGJoJUPbi6dPW2D3
+mnnL1rsDbrvOL-mZSDSoztrgCwcksKzlie53cyJPicbIJPf5PIsSdsP5Lna_P_eFpm
+}
+!procedure SupervisedUserCircle($id, $name="Supervised User Circle", $tech="")
+  IconElement($id, 'material-4.0/Action/SupervisedUserCircle', $name, $tech)
+!endprocedure
+!procedure SupervisedUserCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$SupervisedUserCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure SupervisedUserCircleGroup($id, $name='Supervised User Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$SupervisedUserCircleLg>', $name, $tech)
+!endprocedure
+@enduml

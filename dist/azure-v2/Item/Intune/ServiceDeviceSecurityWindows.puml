@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDeviceSecurityWindowsMd [14x14/16z] LSc53S1034FHSDpz1-unFP6_hEhk4QvCbLfq9grYoFHMFcBMt8bUSsDKs-6LSjKEuqOgSo1i8OelrBIhHVuKgKsznCxNQoe
+sprite $ServiceDeviceSecurityWindowsLg [20x20/16z] {
+PSo53S0m34HHSxh_n6QLlkZq0f29cZ4yGqeJnWKY5ZErI7auTqXsZl5OIb6qTijjjznsqtNRGDQcJTPH6KiH4n4pOGMSxuoU0MhyS-GP05gOnkGkhL3vBYpI
+txr8YgOn59LDrrYOYIjQUpuM1m
+}
+!procedure ServiceDeviceSecurityWindows($id, $name="Service Device Security Windows", $tech="")
+  IconElement($id, 'azure-v2/Item/Intune/ServiceDeviceSecurityWindows', $name, $tech)
+!endprocedure
+!procedure ServiceDeviceSecurityWindowsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDeviceSecurityWindowsMd>', 'Intune', $funcName, $content)
+!endprocedure
+!procedure ServiceDeviceSecurityWindowsGroup($id, $name='Service Device Security Windows', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDeviceSecurityWindowsLg>', $name, $tech)
+!endprocedure
+@enduml

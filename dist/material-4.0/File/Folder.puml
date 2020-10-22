@@ -1,0 +1,13 @@
+@startuml
+sprite $FolderMd [14x14/16z] Oy07MBY0W0d6u-470bvs3Y1W0l7WW8SsF1OkE631wqm
+sprite $FolderLg [20x20/16z] Ow08i75pSN5nioCBCVD303i38mY0nLZveO0F3FYv4688m895Z7LmYJ6ZYp53mm01kDae2r4
+!procedure Folder($id, $name="Folder", $tech="")
+  IconElement($id, 'material-4.0/File/Folder', $name, $tech)
+!endprocedure
+!procedure FolderCard($id, $funcName="", $content="")
+  IconCard($id, '<$FolderMd>', '', $funcName, $content)
+!endprocedure
+!procedure FolderGroup($id, $name='Folder', $tech='')
+  IconGroup($id, 'IconGroup', '<$FolderLg>', $name, $tech)
+!endprocedure
+@enduml

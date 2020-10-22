@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDevTestLabsMd [14x14/16z] BOw50GCX54FHoD7zvssGXtvF2NK2QENHG78ye_BGZp5mBPo_yfDoprhoP0E8YrK7pCayGpuM4SjfOTducRPgHkyEonIVWF6jfVSlpIlWQT5tUDhw9Qb_
+sprite $ServiceDevTestLabsLg [20x20/16z] {
+VSvNWeKW38NXz9F0x7-zGy3sT3_xhmBq0ukgC7rfO76Xb-68zql1pUyIU9qF5L_MKP1esR0eYUM6QEWxKSyZt7stjAUXMpPdgwiXiLiv2NQigByHbLcfU-A6
+RhdirR35WZ57hglGmslEEOBffJbR-Pi4yqXz6ceSbS_Vzbhj7m
+}
+!procedure ServiceDevTestLabs($id, $name="Service Dev Test Labs", $tech="")
+  IconElement($id, 'azure-v2/Item/DevOps/ServiceDevTestLabs', $name, $tech)
+!endprocedure
+!procedure ServiceDevTestLabsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDevTestLabsMd>', 'DevOps', $funcName, $content)
+!endprocedure
+!procedure ServiceDevTestLabsGroup($id, $name='Service Dev Test Labs', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDevTestLabsLg>', $name, $tech)
+!endprocedure
+@enduml

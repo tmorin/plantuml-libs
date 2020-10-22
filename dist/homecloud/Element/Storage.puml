@@ -1,0 +1,13 @@
+@startuml
+sprite $StorageMd [14x14/16z] VSsr0S0020J0Z-FiFstSxIeS_25cMH4G7UNA0IBYnTGhghBO0CwoJrwpw-JzIhIN3vVlFmO
+sprite $StorageLg [20x20/16z] Ow04C7DpSNCX0Mvc1WPMVdPcVcJ02X9ZOq8L0-b50M2zc013tU2p0pCCA04
+!procedure Storage($id, $name="Storage", $tech="")
+  IconElement($id, 'homecloud/Element/Storage', $name, $tech)
+!endprocedure
+!procedure StorageCard($id, $funcName="", $content="")
+  IconCard($id, '<$StorageMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure StorageGroup($id, $name='Storage', $tech='')
+  IconGroup($id, 'IconGroup', '<$StorageLg>', $name, $tech)
+!endprocedure
+@enduml

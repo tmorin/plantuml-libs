@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDetectiveMd [14x14/16z] XKt50O0m4CDYr_tdnUL7ppMfdXZarp6HsjrWaJZhELomIwucaVVZwzAaTjErOpKI1gxEHan7HnTnmRxsGsd6iUjNDW
+sprite $AwsDetectiveLg [20x20/16z] {
+hOv54W9140GZcCfM_lzUrktAvcXxrGku0dlu58JYwccikqDzpHgO6nfvk1A92P6NMcTQngKsirJTkcGXUIZmE9n6bTonih4NCqK3Z01sRTvjrahvTthN2OAF
+OWfGIMr4cCOK2sBpxOCYojBhFtu
+}
+!procedure AwsDetective($id, $name="Aws Detective", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsDetective', $name, $tech)
+!endprocedure
+!procedure AwsDetectiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDetectiveMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsDetectiveGroup($id, $name='Aws Detective', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsDetectiveLg>', $name, $tech)
+!endprocedure
+@enduml

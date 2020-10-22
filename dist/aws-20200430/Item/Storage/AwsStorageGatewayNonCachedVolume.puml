@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsStorageGatewayNonCachedVolumeMd [14x14/16z] nSS50S0030F13_cNFFQmAmQjdmbIzA21X4_-ITf5R-hTD7UZTGPVHvm
+sprite $AwsStorageGatewayNonCachedVolumeLg [20x20/16z] vT253G0n5CFGZyx-4nz3EqCjYfuuPbvJRaVDIFHbQKEviFdHR2w1v9DnBduZgtKkTIMNNT_7kUBvVWS
+!procedure AwsStorageGatewayNonCachedVolume($id, $name="Aws Storage Gateway Non Cached Volume", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsStorageGatewayNonCachedVolume', $name, $tech)
+!endprocedure
+!procedure AwsStorageGatewayNonCachedVolumeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsStorageGatewayNonCachedVolumeMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsStorageGatewayNonCachedVolumeGroup($id, $name='Aws Storage Gateway Non Cached Volume', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsStorageGatewayNonCachedVolumeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $DirectionsBusMd [14x14/16z] NOo55G0n24FhIE2n_xJdsby5agIP9Z23jACOST7t2ZQOY8RXg3WTy5d9htAM3VQZqhZGCwLuX9Sh1NclCevPYuksLpcGIyc8d7PgsUzIqymA
+sprite $DirectionsBusLg [20x20/16z] {
+bSu54WCX343HO6j4xd_Q6aJgxHzZ7XPuMohrKaak5MM6LKb24tTX5PPzs279aaCDBEd_6bh-dkT6VK0djppExf3Toh03YbeJfd6NM1gCBe9q2IyAip01gjMj
+Z4NPAlpH6G
+}
+!procedure DirectionsBus($id, $name="Directions Bus", $tech="")
+  IconElement($id, 'material-4.0/Maps/DirectionsBus', $name, $tech)
+!endprocedure
+!procedure DirectionsBusCard($id, $funcName="", $content="")
+  IconCard($id, '<$DirectionsBusMd>', '', $funcName, $content)
+!endprocedure
+!procedure DirectionsBusGroup($id, $name='Directions Bus', $tech='')
+  IconGroup($id, 'IconGroup', '<$DirectionsBusLg>', $name, $tech)
+!endprocedure
+@enduml

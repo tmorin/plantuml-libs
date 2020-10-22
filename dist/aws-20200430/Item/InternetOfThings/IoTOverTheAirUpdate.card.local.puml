@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the IoTOverTheAirUpdate element
+include('aws-20200430/Item/InternetOfThings/IoTOverTheAirUpdate')
+IoTOverTheAirUpdateCard('io_t_over_the_air_update', 'Io T Over The Air Update', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

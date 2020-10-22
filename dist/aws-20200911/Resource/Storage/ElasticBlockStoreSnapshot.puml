@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticBlockStoreSnapshotMd [14x14/16z] BOw94G0X20CLDdZzLtnC8BxBVrgHhREY0BqbMNMNL5LI6Ax85cag-OddK8H0b8tP2Uem3MM78Rvm0ZOktQsoqmonX382pp91v4po0m
+sprite $ElasticBlockStoreSnapshotLg [20x20/16z] {
+JOu73iH020DfXhty_y4NLbXar13W8XUrHkM35vgANTa3yvTuOdSWBYHgLeMrYq2-XAyMXMWxL38wytFbS13M10xF0KCsi00Zxd2jWY7M0gs22RZJPCqyFxOk
+6UoKiOnokQtIrtbOPz-TbqxO72UngLujggOgmny
+}
+!procedure ElasticBlockStoreSnapshot($id, $name="Elastic Block Store Snapshot", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/ElasticBlockStoreSnapshot', $name, $tech)
+!endprocedure
+!procedure ElasticBlockStoreSnapshotCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticBlockStoreSnapshotMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure ElasticBlockStoreSnapshotGroup($id, $name='Elastic Block Store Snapshot', $tech='')
+  IconGroup($id, 'StorageFamily', '<$ElasticBlockStoreSnapshotLg>', $name, $tech)
+!endprocedure
+@enduml

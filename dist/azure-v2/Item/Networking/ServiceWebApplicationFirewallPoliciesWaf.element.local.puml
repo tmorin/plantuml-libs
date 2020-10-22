@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceWebApplicationFirewallPoliciesWaf element
+include('azure-v2/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf')
+ServiceWebApplicationFirewallPoliciesWaf('service_web_application_firewall_policies_waf', 'Service Web Application Firewall Policies Waf', 'an optional tech field')
+@enduml

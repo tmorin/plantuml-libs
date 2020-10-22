@@ -1,0 +1,16 @@
+@startuml
+sprite $QueuePlayNextMd [14x14/16z] LSs50K0X20JG0mFxzf_sT-Yp0y3A-O-3v_ZGMyEdfVkKqdMoyoHQgyfx2Zo4_sSfE9Y_JsQ0wmBhegfoJcseurc873ImGLIC1vCw50Vn1xZZiDe1
+sprite $QueuePlayNextLg [20x20/16z] {
+ZSw55S0W30JGItZ5uVRVjjHTVXM8uIzr_i0ffFAaYZA8qPMHG5LwZ4GmShkzKZ3onxrZd4cHZCdizpgEkaCz6N85ZQtdUce1h7lMeabqmvx3ZXQwjbTBa_Fu
+P4YXXojDvQZEUwDr5bsteDxvTYlIk7La7Exr
+}
+!procedure QueuePlayNext($id, $name="Queue Play Next", $tech="")
+  IconElement($id, 'material-4.0/Av/QueuePlayNext', $name, $tech)
+!endprocedure
+!procedure QueuePlayNextCard($id, $funcName="", $content="")
+  IconCard($id, '<$QueuePlayNextMd>', '', $funcName, $content)
+!endprocedure
+!procedure QueuePlayNextGroup($id, $name='Queue Play Next', $tech='')
+  IconGroup($id, 'IconGroup', '<$QueuePlayNextLg>', $name, $tech)
+!endprocedure
+@enduml

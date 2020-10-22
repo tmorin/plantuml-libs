@@ -1,0 +1,16 @@
+@startuml
+sprite $MopedMd [14x14/16z] ZKh50G0n3ABkPFzfwz-JA8OVfVJzCGMWI3qibpYlvNR3Pj2oM1JPePgnxc69pbqcZKoK29XQ2vtNESU6IKctdwm7fN3VQmq
+sprite $MopedLg [20x20/16z] {
+jO_55GHH2C3WkwV_QjSOlU_ab8SZpn7M75us9X1_CRfiv5gR5SovXLnAARjRB8BrYdZ6BwJBOgPM7ZXYdQXwjb92g9G6UOjjj4mTttODWrGf8KPfI29OzsIf
+sTfCylRJPd_d3G
+}
+!procedure Moped($id, $name="Moped", $tech="")
+  IconElement($id, 'material-4.0/Maps/Moped', $name, $tech)
+!endprocedure
+!procedure MopedCard($id, $funcName="", $content="")
+  IconCard($id, '<$MopedMd>', '', $funcName, $content)
+!endprocedure
+!procedure MopedGroup($id, $name='Moped', $tech='')
+  IconGroup($id, 'IconGroup', '<$MopedLg>', $name, $tech)
+!endprocedure
+@enduml

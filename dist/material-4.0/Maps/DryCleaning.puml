@@ -1,0 +1,16 @@
+@startuml
+sprite $DryCleaningMd [14x14/16z] PKpL0KGX3EE0UjFkF-svltp5nn4pStvKXDj7EUPt5VxXAxfZFVX6sPnMsBUWJOYPnFeQpyw-8_jsDRbkekJvYvl2ZRrLdPuga8aO1rm
+sprite $DryCleaningLg [20x20/16z] {
+VSxLOSKm50JHpOgCclwhpICpdJ_X7Js9KKSzzDhBD2rPEuMeyASTGwiZC-eWjD25NSS0VGz3r2IDq5fo2sFwNM8iqGwsOnc9luoIcAH2qPih6zM_Z9YPvEWr
+Rk9D7PEfS7_lUKzfebil
+}
+!procedure DryCleaning($id, $name="Dry Cleaning", $tech="")
+  IconElement($id, 'material-4.0/Maps/DryCleaning', $name, $tech)
+!endprocedure
+!procedure DryCleaningCard($id, $funcName="", $content="")
+  IconCard($id, '<$DryCleaningMd>', '', $funcName, $content)
+!endprocedure
+!procedure DryCleaningGroup($id, $name='Dry Cleaning', $tech='')
+  IconGroup($id, 'IconGroup', '<$DryCleaningLg>', $name, $tech)
+!endprocedure
+@enduml

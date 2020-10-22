@@ -1,0 +1,16 @@
+@startuml
+sprite $PinDropMd [14x14/16z] PSkr0GGn00D1cTdRVxKFnp2XG6-fjQXTvQTgvQ5MyDkE8GsI5X52WErfM1Yj2Zz56pDX6kq219rIEfkuM5ipDaOFNm
+sprite $PinDropLg [20x20/16z] {
+VOy54iGm201fIbps_wyzlpArR1G7cU1K5zcJ0V9ErVZGn8ZyY3ktvbpVEGxm8W66wJhaJvrkkWBK2XJJUNxel1THSvlE8Kk7BWTMMEM8zpjHlNglx-FLnjZe
+Ep_lTtv7dW
+}
+!procedure PinDrop($id, $name="Pin Drop", $tech="")
+  IconElement($id, 'material-4.0/Maps/PinDrop', $name, $tech)
+!endprocedure
+!procedure PinDropCard($id, $funcName="", $content="")
+  IconCard($id, '<$PinDropMd>', '', $funcName, $content)
+!endprocedure
+!procedure PinDropGroup($id, $name='Pin Drop', $tech='')
+  IconGroup($id, 'IconGroup', '<$PinDropLg>', $name, $tech)
+!endprocedure
+@enduml

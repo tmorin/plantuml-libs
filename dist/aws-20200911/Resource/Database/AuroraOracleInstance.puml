@@ -1,0 +1,16 @@
+@startuml
+sprite $AuroraOracleInstanceMd [14x14/16z] LSd90S9034DHZUKl3_qNp0v9tacBp9_bgV97JU52BxraQ7gQaCHWafxzsbvD9IqjqzrORyJU_hLROFDhKxNujvsSFry-OF3uBTXZcPUMkqiF
+sprite $AuroraOracleInstanceLg [20x20/16z] {
+LP275KGX20I19Inw_TTxFpyTyuXHH64BK169mOtXeaDbun2WWFwC4qT5Ero3o2CX2XwFawhIAce6UJjcHM1aUIMVE0rL4rV5qKA8mtrOaQpKnTdm8p1wTJu3
+GFviTNIol7TtDRkRtUoUcqins7uNdsvgiSSnI4PZ-IkqNdzbuk-VDlmwmyy9Uz2ZhtgOFm
+}
+!procedure AuroraOracleInstance($id, $name="Aurora Oracle Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AuroraOracleInstance', $name, $tech)
+!endprocedure
+!procedure AuroraOracleInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuroraOracleInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AuroraOracleInstanceGroup($id, $name='Aurora Oracle Instance', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AuroraOracleInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

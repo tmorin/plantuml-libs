@@ -1,0 +1,16 @@
+@startuml
+sprite $ApiMd [14x14/16z] PKu52a1H35A1t-BzJ_kxnbltn4aaFgBDBrcIHK_MnKvtnUhGwJJNM7SDB0GT2_CCEMRDG3-JPhrIFvma9rQBhABU
+sprite $ApiLg [20x20/16z] {
+VO-53G0n3CIYCdl_QPyPUiLOGUaffHUAaDu8uWq55eKhqmtlQVhYfKLx4JyzksUagisz4ZS4avSnaoThzRGY3Ng7EpFmS7HhhDlG16dwQ2dTUt7JSnb5LRod
+gkUupzaaiQL_m2HFvIGzZG
+}
+!procedure Api($id, $name="Api", $tech="")
+  IconElement($id, 'material-4.0/Action/Api', $name, $tech)
+!endprocedure
+!procedure ApiCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApiMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApiGroup($id, $name='Api', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApiLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBraketMd [14x14/16z] HSe72W0X44DHs9Jl_K-yDZ3MDmJeJH9udhf8xMv9trnH2vKoO_aeW_LqQg10LwCTHzRJFFQtDHpiH5rAvLKiB7asvvoPSGDN3_m
+sprite $AwsBraketLg [20x20/16z] {
+TSg7KSKm54JHyKRHVyF8poBphwFER7VvbdVzYJvsz8j_ag5FevuY91doXTr-oSUYo_54wEoCz4d8RitVM1faRAsnGOW-vZ7Z4kaVEvG6tU-xYyYN1Lc5dK9v
+B3KDaGJRiJUcP2LAlPiTcVs-wxI-rTDFUhrx1m
+}
+!procedure AwsBraket($id, $name="Aws Braket", $tech="")
+  IconElement($id, 'aws-20200911/Service/QuantumTechnologies/AwsBraket', $name, $tech)
+!endprocedure
+!procedure AwsBraketCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBraketMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+!procedure AwsBraketGroup($id, $name='Aws Braket', $tech='')
+  IconGroup($id, 'QuantumTechnologiesFamily', '<$AwsBraketLg>', $name, $tech)
+!endprocedure
+@enduml

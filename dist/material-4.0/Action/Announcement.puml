@@ -1,0 +1,13 @@
+@startuml
+sprite $AnnouncementMd [14x14/16z] TSsr0S1G30DHXIo5zvys39zytQiESJPz6J2jNzCZir1TvskQGerZA39GU1WeKg8QO1Q2EhZj
+sprite $AnnouncementLg [20x20/16z] hSp50K0n309GwjxiF-rtT-ax9W0ESRN2srEcbTmS5Mse-IRb_iPvsLjA-rlEpxhExMupkTtB5D3TBDWCxQqvRIc7hse
+!procedure Announcement($id, $name="Announcement", $tech="")
+  IconElement($id, 'material-4.0/Action/Announcement', $name, $tech)
+!endprocedure
+!procedure AnnouncementCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnnouncementMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnnouncementGroup($id, $name='Announcement', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnnouncementLg>', $name, $tech)
+!endprocedure
+@enduml

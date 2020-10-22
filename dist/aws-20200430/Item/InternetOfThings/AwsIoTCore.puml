@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTCoreMd [14x14/16z] XSVL0SC034F1WctfQVzzomp9_HtVafTundcaSJ_U4DIwT0GCj2uBzBvCNoPAuvQuTAgwQt9PEBMQk_IkU26pvWW
+sprite $AwsIoTCoreLg [20x20/16z] {
+bP07hWCm24Ebn63Z-n_uoxzxjsWbJnw2-MriFp1Mpnr5iRUkjQwshOswe444bXfd9JfFoGDSd541ihiEogGa3PiU77LCGIHRFEg45i1k0ZmtvnTl8Y-RSJVG
+OD2PQgszWgvXhzNtTn2f9-UQ7-SF
+}
+!procedure AwsIoTCore($id, $name="Aws Io T Core", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/AwsIoTCore', $name, $tech)
+!endprocedure
+!procedure AwsIoTCoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTCoreMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTCoreGroup($id, $name='Aws Io T Core', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIoTCoreLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceReservationsMd [14x14/16z] {
+BOo70S0m2CF49lt_tsOg4x0DwcvUtSP2FDmiQiGkz6jGGJiXiXJ2GDhf5i0DGOTKSAj5MVXvaqN4g_fKUPLO2fHtSr3TAMiejpw1ClQrYxgz3lSSoSMoAfJ5
+1
+}
+sprite $ServiceReservationsLg [20x20/16z] {
+JT250KGX30FGMfBszX_uu3lEmx4xH5NODtX4aSXueQgog1xbHVfD-T6g7lXfmrKbOfKSRC8W7tDEhlRG_BQLMX7e9PVjW4b8TjavvWqAfw7hR8XQvkUDiCK_
+PYN6PH3l1-F4Hg2VDs8FrwJbm1vrCodCsH4lOchLqRqjpfE6RYTUzmrTj9gS5abrbp_R92Y9r-__0G
+}
+!procedure ServiceReservations($id, $name="Service Reservations", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceReservations', $name, $tech)
+!endprocedure
+!procedure ServiceReservationsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceReservationsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceReservationsGroup($id, $name='Service Reservations', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceReservationsLg>', $name, $tech)
+!endprocedure
+@enduml

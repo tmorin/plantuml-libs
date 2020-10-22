@@ -1,0 +1,16 @@
+@startuml
+sprite $AutoStoriesMd [14x14/16z] LOc55G1H3CBuBXNsd_PSKyq33m5V9Euxbx9VPTn-vuPWac6MneEW-_Hw6WvhzPDzJV0OJF5QA7ZDG-gzMclKAKPp5MMB2HkbxZj6_5W1
+sprite $AutoStoriesLg [20x20/16z] {
+fOs54GH1409Pbn7oZ_RT_U-wh6i4y9NGdsTg9uaffN0meM9FLUvmoViH3QKXyWmozxF6-6LMLixcSyV0qwpZSLRs8_JRMG3mSEUnYfEgXvc9Y1tcUf0OUiAU
+EEKaBU17jW
+}
+!procedure AutoStories($id, $name="Auto Stories", $tech="")
+  IconElement($id, 'material-4.0/Image/AutoStories', $name, $tech)
+!endprocedure
+!procedure AutoStoriesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutoStoriesMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutoStoriesGroup($id, $name='Auto Stories', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutoStoriesLg>', $name, $tech)
+!endprocedure
+@enduml

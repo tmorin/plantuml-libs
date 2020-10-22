@@ -1,0 +1,16 @@
+@startuml
+sprite $MarkEmailReadMd [14x14/16z] VSd50G11349HCgwX_sxNNVxj0VvojQnL1pJbcZQWHzCurapiuySaaGoIs2PHdJ5EkOeiPJp5hg8A0DdaHpZQLLAYPHoNCWNF4KT-nAq1
+sprite $MarkEmailReadLg [20x20/16z] {
+fSz5WiGW00NHmfr__zEETLnMKmdsMC6_YlLK19mkEGXATOUQ5C0h4kT7PY3-Mf0A56bP_-npxyPm-AdDf6R0DEbeKenITiO4kviqB9yEzY5d3vR_oCvnC4Uo
+kAbmU1jEtVyHn5R_WYXzw5Yy4rZU-WO
+}
+!procedure MarkEmailRead($id, $name="Mark Email Read", $tech="")
+  IconElement($id, 'material-4.0/Communication/MarkEmailRead', $name, $tech)
+!endprocedure
+!procedure MarkEmailReadCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarkEmailReadMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarkEmailReadGroup($id, $name='Mark Email Read', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarkEmailReadLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BorderBottomMd [14x14/16z] NOo50SG020EF15vg-szRzyEL9s6CX750zlJ-_Jo7v8LxuF-7THO69C01-l5NbVxyzAwuDe5yV7dYuSGGbJiLF9a
+sprite $BorderBottomLg [20x20/16z] {
+ZSy34W0n30NG7qnJz_wtNPjlK4RuJJp1AyoMNSytekPHAspQzOW18J23161Qxdeq7kOxtyRBKiQhvfSQFUVG8wzuu8Pg3Zalk-kTuS6bnaqlJpqJxorp77Zq
+r9jVcLVyrW4
+}
+!procedure BorderBottom($id, $name="Border Bottom", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderBottom', $name, $tech)
+!endprocedure
+!procedure BorderBottomCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderBottomMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderBottomGroup($id, $name='Border Bottom', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderBottomLg>', $name, $tech)
+!endprocedure
+@enduml

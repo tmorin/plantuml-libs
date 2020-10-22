@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSqlDatabaseMd [14x14/16z] ROor0GDH34DDCjt---PpbTS9YKX41oAq66Ao5BEOHuG9yr29tKHELLztPlTNLmsk2YGilNef7mnzLAe1KA-jea8Z8zzBvRzFGXy9ch1Ye3Fv0G
+sprite $ServiceSqlDatabaseLg [20x20/16z] {
+TP254GCX401pBlJVR_3tVMK7pdxVmE1aa1Quzn0pYqXzqznBWAJUK4AalasJ4G2nlJWLkYkP6MuUaLcMQpAZlShXIawEVQuQ9keXXsCsauh3uLISDOqCZtWX
+n6BA1f77FdOXaa1ncQxNOMmPnxvHIdZUQpxggyYvv2A_EOHbImit9B5eGvYQ-WC
+}
+!procedure ServiceSqlDatabase($id, $name="Service Sql Database", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceSqlDatabase', $name, $tech)
+!endprocedure
+!procedure ServiceSqlDatabaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSqlDatabaseMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceSqlDatabaseGroup($id, $name='Service Sql Database', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSqlDatabaseLg>', $name, $tech)
+!endprocedure
+@enduml

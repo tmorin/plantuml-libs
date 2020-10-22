@@ -1,0 +1,13 @@
+@startuml
+sprite $FitScreenMd [14x14/16z] VOs30K0X500lk_QVzjlewbdqq2c9sOgKDEJiM70vWrV2B0ZbcV1jmRFWEj7P-TXok_2utcC4
+sprite $FitScreenLg [20x20/16z] fT2r0GGX443HZplJVxLtwvxn8dIC8JwNo2QMx04Z8erDcpO6d3WEszPKWpiisuKS5BikcyxYuzt0tuzQFcl-xWrVhZCedY5_
+!procedure FitScreen($id, $name="Fit Screen", $tech="")
+  IconElement($id, 'material-4.0/Action/FitScreen', $name, $tech)
+!endprocedure
+!procedure FitScreenCard($id, $funcName="", $content="")
+  IconCard($id, '<$FitScreenMd>', '', $funcName, $content)
+!endprocedure
+!procedure FitScreenGroup($id, $name='Fit Screen', $tech='')
+  IconGroup($id, 'IconGroup', '<$FitScreenLg>', $name, $tech)
+!endprocedure
+@enduml

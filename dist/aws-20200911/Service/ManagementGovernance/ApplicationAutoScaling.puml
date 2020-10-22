@@ -1,0 +1,16 @@
+@startuml
+sprite $ApplicationAutoScalingMd [14x14/16z] 9Sm50aGX203H3PhxdrTXd9_FoYd8fuICh4WaO34tWWNDWcfOfgBv57-tLBM_8t4pKL-nSi_CkQ9ho-0mj7D9tMlLUe9pGxJ12m
+sprite $ApplicationAutoScalingLg [20x20/16z] {
+RSy5jiGW44JH4rghUl_h_S9Guoz-Ou1Tg_eFNn12-PF1348UYhL2I656Anva9LwCQ7Et0cJJDHMibSp2pIgkgXWtv1NvP8xwss_Jkx2_cbdSTegWfZcoRkBW
+23EXvc2kbPGT77TI9jmxsKOb-y1V
+}
+!procedure ApplicationAutoScaling($id, $name="Application Auto Scaling", $tech="")
+  IconElement($id, 'aws-20200911/Service/ManagementGovernance/ApplicationAutoScaling', $name, $tech)
+!endprocedure
+!procedure ApplicationAutoScalingCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplicationAutoScalingMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ApplicationAutoScalingGroup($id, $name='Application Auto Scaling', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$ApplicationAutoScalingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceVirtualNetworkGatewaysMd [14x14/16z] RKw53GGn36jCwVuJV-c5vw99obYG5pWU73jwXE4e1S_QSbb_TiiV31OMvDe5aGJMfJfriMeHuR15ZtSOIjxsOeNupiBBqatEzabspvdCsQdn0m
+sprite $ServiceVirtualNetworkGatewaysLg [20x20/16z] {
+VSv70aGX20DG8Gbu_nCF_EwqhFGfPUmnIC9OuYoZFmdQyq2N1Ey7kwml-nDFihC8qiFix76tYpyM3vDR1zSs00d0iH-QR1Eu5JRRPcgrOIqyhN3_nzkuToGS
+XqcsVqPTSPgeKAN_NgR8yWpoj8ZCf24pT5fMPYZcdAKsNW
+}
+!procedure ServiceVirtualNetworkGateways($id, $name="Service Virtual Network Gateways", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceVirtualNetworkGateways', $name, $tech)
+!endprocedure
+!procedure ServiceVirtualNetworkGatewaysCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVirtualNetworkGatewaysMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceVirtualNetworkGatewaysGroup($id, $name='Service Virtual Network Gateways', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVirtualNetworkGatewaysLg>', $name, $tech)
+!endprocedure
+@enduml

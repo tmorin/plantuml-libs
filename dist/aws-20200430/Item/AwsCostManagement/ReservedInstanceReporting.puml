@@ -1,0 +1,13 @@
+@startuml
+sprite $ReservedInstanceReportingMd [14x14/16z] VOp50S0030Ah1sN_VUjkV1AqUq4kFyecY1bU76edghnuUBR8J0X2QRNK8YOsHsT7Y2oiEg_Oj2sUsMpBS-mN0m
+sprite $ReservedInstanceReportingLg [20x20/16z] hL053i0m24o3tV7__yvz8xQsk0Cxl8p8XmKkuhXQrTH9LzKpoXfo3cvsH48X825Gx67k2LCrpD9g2vbBBa29mbRatdlKivmpcnQx5JVuyKO
+!procedure ReservedInstanceReporting($id, $name="Reserved Instance Reporting", $tech="")
+  IconElement($id, 'aws-20200430/Item/AwsCostManagement/ReservedInstanceReporting', $name, $tech)
+!endprocedure
+!procedure ReservedInstanceReportingCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReservedInstanceReportingMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+!procedure ReservedInstanceReportingGroup($id, $name='Reserved Instance Reporting', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReservedInstanceReportingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageServiceGlacierMd [14x14/16z] DSw50SCm34JHV-Hq_uNBUMQK02Ljp8Utn4vNqE6seckDtz8hCBaVKGpZRGOgc81iOOQQ3tNNGoJyVD-vV9rEeFAHFLPWVFIzsdUCRPqUSMSjsV02
+sprite $SimpleStorageServiceGlacierLg [20x20/16z] {
+JP07cWKX388D4N3s_WTUku-fylsfPIa0H7a2TKGiGgvnw9J7lshvLNfupjyyLdzJj5Y7A5FiNkqlvFGIwrXIEz4gn949oui_Otmrtk7JXzKPSnny-uVCrhZe
+fvIuiruoTgKxI3JYcwVafLBa9A67jO-kgvdj2VvofPAmJJAz_wkiBeQ8jhjukr-j_0C
+}
+!procedure SimpleStorageServiceGlacier($id, $name="Simple Storage Service Glacier", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageServiceGlacier', $name, $tech)
+!endprocedure
+!procedure SimpleStorageServiceGlacierCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageServiceGlacierMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageServiceGlacierGroup($id, $name='Simple Storage Service Glacier', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageServiceGlacierLg>', $name, $tech)
+!endprocedure
+@enduml

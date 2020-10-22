@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudDirectoryMd [14x14/16z] XSc53S1034FHaY7UVzyo2VCFdv8cSSyFi5-r-958uP53xlSZY_Kf-Ct41Nnax2ru9LketDHUfMa3
+sprite $AwsCloudDirectoryLg [20x20/16z] {
+bP250KCX30KhoPEo_xxzxiRXX-TNHncg1K8sG0l5b6mfEM-Cx3iPy_QScFUcc_tDFY-T2ZDPj7PXnzOfGXjdPLDvwHo89YyTy644Fy1Y7PlKLRDZq0rDSnc3
+ELPr_04
+}
+!procedure AwsCloudDirectory($id, $name="Aws Cloud Directory", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsCloudDirectory', $name, $tech)
+!endprocedure
+!procedure AwsCloudDirectoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudDirectoryMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudDirectoryGroup($id, $name='Aws Cloud Directory', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCloudDirectoryLg>', $name, $tech)
+!endprocedure
+@enduml

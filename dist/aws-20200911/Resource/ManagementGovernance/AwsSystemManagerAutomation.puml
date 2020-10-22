@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemManagerAutomationMd [14x14/16z] NOwt5KC138HGE9sUlV-ypl7JKG5tKafUT6otexaZkw1i0MsW2d13cBGq6GvYYmsOq_I6caWWfsZTRVgkGIks-bmGIsqGapMI4yUXSAWVpdwlhm
+sprite $AwsSystemManagerAutomationLg [20x20/16z] {
+RL050eGm36lg7V__xp4vF32h9xJ0E-WEjCo6Yy4TcKGPSF-RCif01Aj8NoQwO1ez-guHsiyODbHVeU89aa8tfH6LpYhkbY1k-wOZNNBR2DcOhnrKUfTfOnMS
+dNdavXOscjh89UoNAXcfrISRZGlMPz7eSnI-Ptvp-zPWQHLNhRurVMl_0m
+}
+!procedure AwsSystemManagerAutomation($id, $name="Aws System Manager Automation", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsSystemManagerAutomation', $name, $tech)
+!endprocedure
+!procedure AwsSystemManagerAutomationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemManagerAutomationMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemManagerAutomationGroup($id, $name='Aws System Manager Automation', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsSystemManagerAutomationLg>', $name, $tech)
+!endprocedure
+@enduml

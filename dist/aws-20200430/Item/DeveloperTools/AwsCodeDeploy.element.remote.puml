@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsCodeDeploy element
+include('aws-20200430/Item/DeveloperTools/AwsCodeDeploy')
+AwsCodeDeploy('aws_code_deploy', 'Aws Code Deploy', 'an optional tech field')
+@enduml

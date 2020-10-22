@@ -1,0 +1,16 @@
+@startuml
+sprite $ToysMd [14x14/16z] JOw50S0m20G3rELl_sqBzOlYtmhhsqU8dxKZ-qAGCO_BSZ8smtxP2qgZVCroBo0X-XvHl-NoYsGHSoiwfL4-loVa2qHx4NlxWEvdzPUq0m
+sprite $ToysLg [20x20/16z] {
+NSq53WGn34DHDyFG-FwtNO_gfJpnLm2mGBNqR2Lj94iBkfKnmkmOSstTju2j52nyR6wDPCuS5iT5xNRhcdbWKSbKIMP4cWPd3w1pkFDxQdMRrR8vRlv6MM6n
+7rkWKNQOKRRQ96ghOvAveWh0NW
+}
+!procedure Toys($id, $name="Toys", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Toys', $name, $tech)
+!endprocedure
+!procedure ToysCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToysMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToysGroup($id, $name='Toys', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToysLg>', $name, $tech)
+!endprocedure
+@enduml

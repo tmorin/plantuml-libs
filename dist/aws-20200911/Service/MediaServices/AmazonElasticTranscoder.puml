@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElasticTranscoderMd [14x14/16z] LSk74O0m30F0kwXv_uaH7PJwYPt4LoHLZqy9qCd2wCJ1Yaei7XfhhkfJLeorOC-mGIVaIbfYGlhtnrIMZhvJPmmwkP0py-C6
+sprite $AmazonElasticTranscoderLg [20x20/16z] {
+PSg9ZGHH30BHNi3W_2DUwxVdBjrFbSblrPHVN7lNjHG0nujBJa6rcAbPSKGixdRlVDbD7kFHJfkT4o3AOzrMbIeHUP7tHqg54K1GpiU88HsJGsly4wjZlSnL
+JT143HuhY6GCyXAFRUc0-ssPpA7fm6hdjBRuiX_y1m
+}
+!procedure AmazonElasticTranscoder($id, $name="Amazon Elastic Transcoder", $tech="")
+  IconElement($id, 'aws-20200911/Service/MediaServices/AmazonElasticTranscoder', $name, $tech)
+!endprocedure
+!procedure AmazonElasticTranscoderCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticTranscoderMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticTranscoderGroup($id, $name='Amazon Elastic Transcoder', $tech='')
+  IconGroup($id, 'MediaServicesFamily', '<$AmazonElasticTranscoderLg>', $name, $tech)
+!endprocedure
+@enduml

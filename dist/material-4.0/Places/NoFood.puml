@@ -1,0 +1,16 @@
+@startuml
+sprite $NoFoodMd [14x14/16z] DSg54G0W30J1Z-3MVxLu3jq1M4xs9k6hnADnTcAg2VmPnyqzXYS5k8o0UiNmv_WaEVjd9wtbT5a1Ei5ljhgFMz-VAUotduuDhJ-HJOxXHL350W
+sprite $NoFoodLg [20x20/16z] {
+PT254S0W44JHHM9mqd-tmMu6-V4N1tFEZ-raIL7pyXxcI9_P5anCfCh4v62OrN8m_8mOjI05WndLovAMNiHXkH1hQSAlld_q37pXrR8hRxZtULiF3RmmbVlj
+0LxO4gqelffOtBxJmPh-tTvHUrwF-Y9udOfm92WuDOR_1m
+}
+!procedure NoFood($id, $name="No Food", $tech="")
+  IconElement($id, 'material-4.0/Places/NoFood', $name, $tech)
+!endprocedure
+!procedure NoFoodCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoFoodMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoFoodGroup($id, $name='No Food', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoFoodLg>', $name, $tech)
+!endprocedure
+@enduml

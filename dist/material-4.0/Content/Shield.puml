@@ -1,0 +1,13 @@
+@startuml
+sprite $ShieldMd [14x14/16z] VSk30K0n30JGgvtRVzflew-Ci3061rl8Oh7mZOlcvm8FjXyP7impGjk3XadSepX7IhWGXPazfXQcajNWOEtwZW
+sprite $ShieldLg [20x20/16z] ZT235K0X043HREm_xMVsExuv48CGD47k7AyKIVybKHIYVKgJZxYlug-9saIULviuil4Ph3Rs6guDWpTRalseFaI4zxjCBlu3gqzeLdEGOzMi45BEvTyR_FqD
+!procedure Shield($id, $name="Shield", $tech="")
+  IconElement($id, 'material-4.0/Content/Shield', $name, $tech)
+!endprocedure
+!procedure ShieldCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShieldMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShieldGroup($id, $name='Shield', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShieldLg>', $name, $tech)
+!endprocedure
+@enduml

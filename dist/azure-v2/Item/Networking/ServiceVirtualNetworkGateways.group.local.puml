@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceVirtualNetworkGateways element
+include('azure-v2/Item/Networking/ServiceVirtualNetworkGateways')
+ServiceVirtualNetworkGatewaysGroup('service_virtual_network_gateways', 'Service Virtual Network Gateways', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

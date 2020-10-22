@@ -1,0 +1,16 @@
+@startuml
+sprite $LayersMd [14x14/16z] RSs50S1020F0r3tPVzk--xqBW87ZG7PB5uBva_7Di7RAuGxZLV32kcJ4o0sR3BEudvncSfuOVwxcHwgnwpor8rh81TaqOU07
+sprite $LayersLg [20x20/16z] {
+bT253G0n30D0bq5HlF-spumzKJ64DyRWpAbQ74Ns8lOAHmKhAvp94jGhL-gdw3nm68Jzkt2DPvTgWSfHNIgtGxOqrMU5qyiyP7EgRgWWByMG2NPuh7vNz12g
+pYaM_LvOhaE8EFCEhJe
+}
+!procedure Layers($id, $name="Layers", $tech="")
+  IconElement($id, 'material-4.0/Maps/Layers', $name, $tech)
+!endprocedure
+!procedure LayersCard($id, $funcName="", $content="")
+  IconCard($id, '<$LayersMd>', '', $funcName, $content)
+!endprocedure
+!procedure LayersGroup($id, $name='Layers', $tech='')
+  IconGroup($id, 'IconGroup', '<$LayersLg>', $name, $tech)
+!endprocedure
+@enduml

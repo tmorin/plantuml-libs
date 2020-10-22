@@ -1,0 +1,13 @@
+@startuml
+sprite $AddMd [14x14/16z] Oo0861cHUPoSo3mkBknoZ9nSdBoyG88HaqVO53JR2G8
+sprite $AddLg [20x20/16z] Ow0LuER65EFbfPeODnylBoy_Fv3WuyOcHXjx4NwZ5G
+!procedure Add($id, $name="Add", $tech="")
+  IconElement($id, 'material-4.0/Content/Add', $name, $tech)
+!endprocedure
+!procedure AddCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddGroup($id, $name='Add', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddLg>', $name, $tech)
+!endprocedure
+@enduml

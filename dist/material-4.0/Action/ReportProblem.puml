@@ -1,0 +1,16 @@
+@startuml
+sprite $ReportProblemMd [14x14/16z] RSsr0GDH3C3Gpsnh_scJOrRtAfcFlBzgZ0iYn5C2SY0ZGjxW84RKhMgBQ0i2e0eibm6K0em92Q1MW6IiSgJMXalMtFe3
+sprite $ReportProblemLg [20x20/16z] {
+bOw50GGX4CHmX_HVxUkvC-XwHAz2sBaKoAqlGjou381U-mf0NhaS0BY5IpPm3kgI0r0A20kEqOSQVGd0EO2qv1Xb5Xn37cN9eTJ0Ct00jF6Lmu2beX0-hEI3
+5q_r1W
+}
+!procedure ReportProblem($id, $name="Report Problem", $tech="")
+  IconElement($id, 'material-4.0/Action/ReportProblem', $name, $tech)
+!endprocedure
+!procedure ReportProblemCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReportProblemMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReportProblemGroup($id, $name='Report Problem', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReportProblemLg>', $name, $tech)
+!endprocedure
+@enduml

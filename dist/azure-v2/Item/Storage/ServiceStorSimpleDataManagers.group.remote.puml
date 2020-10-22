@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorSimpleDataManagers element
+include('azure-v2/Item/Storage/ServiceStorSimpleDataManagers')
+ServiceStorSimpleDataManagersGroup('service_stor_simple_data_managers', 'Service Stor Simple Data Managers', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

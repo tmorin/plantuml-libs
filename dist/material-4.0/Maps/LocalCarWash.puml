@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalCarWashMd [14x14/16z] RSVL0O0m303Hgrja_sbn-E9LaWD291utS9dAMkZaCXPpiWO_bgo3h2lg8XnObSCgNCe4WlLwwHOWkVd5F4DswXcLkuQS9UEiv9-hHig7D3n1g95BhB03
+sprite $LocalCarWashLg [20x20/16z] {
+LSy53WKX30JGmILBv_wd_K8bsOSxnL_wbriXF0FO6nWFNACWand21bDva2aPXmKkfIWX1xZ5iFma6zA5JZlT1O7TVhSGjlumiwTiqj33dI_tyE2PmalcuTIv
+WkvxgiyDRF_TqBb92etGzxtulZdcDQRDTHw4Ou6KX90AW2y
+}
+!procedure LocalCarWash($id, $name="Local Car Wash", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalCarWash', $name, $tech)
+!endprocedure
+!procedure LocalCarWashCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalCarWashMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalCarWashGroup($id, $name='Local Car Wash', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalCarWashLg>', $name, $tech)
+!endprocedure
+@enduml

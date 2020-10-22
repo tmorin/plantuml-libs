@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceVirtualNetworksClassicMd [14x14/16z] bSV70G0W24DHQkB-2zlrphV0aqh8zISEg6ie9sFXDDcedX8X6KBExmZpXvdBpTTsUF27cLGQ
+sprite $ServiceVirtualNetworksClassicLg [20x20/16z] jOnP3iGW34FZn6ptl_2mMV0zRTt28yzIx9FueP8h9b7pKTmlrenPIabEbRQGP5TmmfnkOA3BqhsnH3-qQ7ckOkzT9xEJDWTbJu9Kt9tKJX2JkDVWy65-
+!procedure ServiceVirtualNetworksClassic($id, $name="Service Virtual Networks Classic", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceVirtualNetworksClassic', $name, $tech)
+!endprocedure
+!procedure ServiceVirtualNetworksClassicCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVirtualNetworksClassicMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceVirtualNetworksClassicGroup($id, $name='Service Virtual Networks Classic', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVirtualNetworksClassicLg>', $name, $tech)
+!endprocedure
+@enduml

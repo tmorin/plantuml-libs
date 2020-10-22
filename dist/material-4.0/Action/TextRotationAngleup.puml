@@ -1,0 +1,16 @@
+@startuml
+sprite $TextRotationAngleupMd [14x14/16z] VOh50SDG5CFy6HxjFsqRvaGtMy8dAHwNA9TzbHR8-XfuGHDghiv5DtQ0KtFZYkQ78PIc1Kd3O2m4O1yuce5s771uv0y
+sprite $TextRotationAngleupLg [20x20/16z] {
+fSs54GCn44DHhPdLVxNX7FFzuMUD5_VIUaRIMDmKIuba78yjHS9xBEXZX5Gs1fZkxq1TgM44YLHVKsJxllU6p3_5xfQb-n7wMdolHmGZ_QflYVASJ4zz6kTx
+0W
+}
+!procedure TextRotationAngleup($id, $name="Text Rotation Angleup", $tech="")
+  IconElement($id, 'material-4.0/Action/TextRotationAngleup', $name, $tech)
+!endprocedure
+!procedure TextRotationAngleupCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextRotationAngleupMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextRotationAngleupGroup($id, $name='Text Rotation Angleup', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextRotationAngleupLg>', $name, $tech)
+!endprocedure
+@enduml

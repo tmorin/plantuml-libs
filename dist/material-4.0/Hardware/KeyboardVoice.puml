@@ -1,0 +1,13 @@
+@startuml
+sprite $KeyboardVoiceMd [14x14/16z] bSsr0S0m00D1cTdQVzemSwxxwd51oarOqgwLoFIZ17gY8981PSni4IDina1L1xYgvdUgDMt-CMB3Urne0G
+sprite $KeyboardVoiceLg [20x20/16z] fSw30S0m40NGMAVzfwrj_3PweNeP7OBU4edG1eCq2MjBhSMrnOtzMeUbNnTKmT4AZ-_ZF9gLg7ICkbbj5wUbiLbTYxYzsCH6ZDg4Q0CdvfowIWq
+!procedure KeyboardVoice($id, $name="Keyboard Voice", $tech="")
+  IconElement($id, 'material-4.0/Hardware/KeyboardVoice', $name, $tech)
+!endprocedure
+!procedure KeyboardVoiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeyboardVoiceMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeyboardVoiceGroup($id, $name='Keyboard Voice', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeyboardVoiceLg>', $name, $tech)
+!endprocedure
+@enduml

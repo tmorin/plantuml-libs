@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSecurityHubMd [14x14/16z] HOs75SGm24Fl4ffW_tbTX5_yNMaII11t73fCRCo2v2P4liWiTMrX17bDHD-E4lukF70YMJXsL11Hxa1KfNgr2b0Rg6B1g4qo6NLyenjE
+sprite $AwsSecurityHubLg [20x20/16z] {
+RSq53W0n24JHf5XdkFzz5zRjnryBO6yUHGH-aFXey42r4xaXpTHnMIaP8W74QI4EcXCcXjqaPBg8p-5oM8WEgOP9x5P1JSGKrMLcggxWYbdYQgF_3TVPc9bz
+0rf5twYAqYKorKWLsooR2UbjWSD8ffi5ImzhHS_oiiRsxh9TTimVN
+}
+!procedure AwsSecurityHub($id, $name="Aws Security Hub", $tech="")
+  IconElement($id, 'aws-20200911/Service/SecurityIdentityCompliance/AwsSecurityHub', $name, $tech)
+!endprocedure
+!procedure AwsSecurityHubCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSecurityHubMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsSecurityHubGroup($id, $name='Aws Security Hub', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsSecurityHubLg>', $name, $tech)
+!endprocedure
+@enduml

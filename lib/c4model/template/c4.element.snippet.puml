@@ -1,0 +1,31 @@
+@startuml
+{{ if (it.snippet.location === 'remote') { }}
+' configures the library
+!global $LIB_BASE_LOCATION="{{= it.config.remoteUrl }}/{{= it.config.libDir }}"
+
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+{{ } }}
+
+{{ if (it.snippet.location === 'local') { }}
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="{{= it.relativeRepoLibDir }}"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+{{ } }}
+
+{{ if (it.hasBootstrap) { }}
+' loads the {{= it.config.pkgName }} bootstrap
+include('{{= it.config.pkgName }}/bootstrap')
+{{ } }}
+
+' loads the {{= it.entry.element.name }} element
+include('{{= it.entry.element.urn }}')
+
+{{ if (it.entry.c4.procedure === 'C4Element') { }}
+{{= it.entry.element.name }}('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.description }}')
+{{ } else { }}
+{{= it.entry.element.name }}('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.description }}', '{{= it.text.technical }}')
+{{ } }}
+@enduml

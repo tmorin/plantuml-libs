@@ -1,0 +1,13 @@
+@startuml
+sprite $DevicesMd [14x14/16z] VSV50KGn24NH5m_UVxKptvUS25nakgYSL9K0rNrRUm8sS2czZmwRTt6OnrT2Q6aLMoY7itgyAfy_FyeGPaBY3m
+sprite $DevicesLg [20x20/16z] fS-30G0n30NGNplPVzgpZLUxmIysnQMa0CKR1Z1D9GOOw6Pk98mnsYYOnLpapcQksPUtSssrdHC7StWpbmkNt2c-7UPCl936_os2Tp2fRJr-g04
+!procedure Devices($id, $name="Devices", $tech="")
+  IconElement($id, 'material-4.0/Device/Devices', $name, $tech)
+!endprocedure
+!procedure DevicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$DevicesMd>', '', $funcName, $content)
+!endprocedure
+!procedure DevicesGroup($id, $name='Devices', $tech='')
+  IconGroup($id, 'IconGroup', '<$DevicesLg>', $name, $tech)
+!endprocedure
+@enduml

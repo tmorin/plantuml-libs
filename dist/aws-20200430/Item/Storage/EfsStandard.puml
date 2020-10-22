@@ -1,0 +1,16 @@
+@startuml
+sprite $EfsStandardMd [14x14/16z] VSU50S8030H0v3NxxuixRI_wtMPrFeBaMkvLWE2073LjJIEwpZt5PHrUKqZGF2gzIaaHqxjHh_LAeZHz2jqFC_rt1W
+sprite $EfsStandardLg [20x20/16z] {
+bP350SGm40CJUwG5zr_lCTyhUYw8wX3wVvJAtqaGpgxgV3sODAXI4C_36BEQVNV7hljbMi6qf2a_PWujUpcQoiSiJ8UNV9tHJn5XWz5Bn0GRNNDpzJj5uadm
+bIsr58llBFHDzmiIuEzP9_glfxiEuWm
+}
+!procedure EfsStandard($id, $name="Efs Standard", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/EfsStandard', $name, $tech)
+!endprocedure
+!procedure EfsStandardCard($id, $funcName="", $content="")
+  IconCard($id, '<$EfsStandardMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure EfsStandardGroup($id, $name='Efs Standard', $tech='')
+  IconGroup($id, 'IconGroup', '<$EfsStandardLg>', $name, $tech)
+!endprocedure
+@enduml

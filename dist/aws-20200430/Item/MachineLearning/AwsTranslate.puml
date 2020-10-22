@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTranslateMd [14x14/16z] VOg50SGm30F_MrkGx3zlcIanIRfoVVRGgr0YB2oQgjaQkIg9sbMEbJDg9U0QCKdHXaHeKW31DgaPRKa5LWLoeiigCPJBv-i1
+sprite $AwsTranslateLg [20x20/16z] {
+fOstLGD044IVkB6x_TUBXrEk7uwTroX8Q0DTBMprvXbwhpPhF5mYLzkarkBqIICsbFIyHrHC3lwqZaWfkppdJqjdAkyaVuj1xD86oxzdVM96mDLs3bRk0_kl
+ZO7AYdorDOUUThwrNqI3dw3p6Xy
+}
+!procedure AwsTranslate($id, $name="Aws Translate", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsTranslate', $name, $tech)
+!endprocedure
+!procedure AwsTranslateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTranslateMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsTranslateGroup($id, $name='Aws Translate', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsTranslateLg>', $name, $tech)
+!endprocedure
+@enduml

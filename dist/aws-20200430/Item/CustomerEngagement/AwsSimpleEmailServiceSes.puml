@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSimpleEmailServiceSesMd [14x14/16z] POtL0OLG34EVqEZ-y-9ySQxMahnehtC50Wdt2iZiFwXdXKTjV5QBOCX5vb54YHtbYOQSAoeTpLxI6Tb34F3bu8K09ys9J5cvwKbUR
+sprite $AwsSimpleEmailServiceSesLg [20x20/16z] {
+bSi7ZiKW54FHATZFnkn_kxyGqjHpwKUYFokpkuW0TT6uKRROd9Cyycdum3GR_0IxPIDnu9SsVp6eJAD2WuGPSJCuNCKuxGSaVawZqjt9ptRy5UAgrgeSA7t6
+09epxAiKqEUiNAt8MhPG3XbhqYfPyr5l
+}
+!procedure AwsSimpleEmailServiceSes($id, $name="Aws Simple Email Service Ses", $tech="")
+  IconElement($id, 'aws-20200430/Item/CustomerEngagement/AwsSimpleEmailServiceSes', $name, $tech)
+!endprocedure
+!procedure AwsSimpleEmailServiceSesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSimpleEmailServiceSesMd>', 'CustomerEngagement', $funcName, $content)
+!endprocedure
+!procedure AwsSimpleEmailServiceSesGroup($id, $name='Aws Simple Email Service Ses', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSimpleEmailServiceSesLg>', $name, $tech)
+!endprocedure
+@enduml

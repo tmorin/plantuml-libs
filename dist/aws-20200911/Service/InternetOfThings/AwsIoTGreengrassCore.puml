@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTGreengrassCoreMd [14x14/16z] JSp50KH120FG0vA4tt-_Ywnbz8qWYHDiMdzUD2DuIeVebZnPYkaEefeCYCneDKlUO93Lx1x02VlE4g6HXK0WE2e6FfMUggUGcLJdQROxg-47UW4
+sprite $AwsIoTGreengrassCoreLg [20x20/16z] {
+VSZBSK0n24FHJ408uVxxZPuzR7FzvSZrnfSk_cFMjULCungorRuJQrDPi5L4T5l7neYSRY6H7yw7pIYrp47Z6AqogbB0CwCBYlpusjF-9I6kWIDxi5MuTe0i
+iTa_cA3M813APgXjZb5p_1v6otZ_WoYoCat6OxJA08vkv-7SMsiFbzOML_y
+}
+!procedure AwsIoTGreengrassCore($id, $name="Aws Io T Greengrass Core", $tech="")
+  IconElement($id, 'aws-20200911/Service/InternetOfThings/AwsIoTGreengrassCore', $name, $tech)
+!endprocedure
+!procedure AwsIoTGreengrassCoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTGreengrassCoreMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTGreengrassCoreGroup($id, $name='Aws Io T Greengrass Core', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTGreengrassCoreLg>', $name, $tech)
+!endprocedure
+@enduml

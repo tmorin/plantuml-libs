@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTShadowMd [14x14/16z] JSc70GCm309148-S_HTERsUhwmwmFXhFpdlWqNYB7gg7KHuZjSTZUr7IqnJs9AbxqANQWvkmxTdd3L7U7wJqAtB3EF4qjM6jNNcBtTIpErvgyKSt
+sprite $IoTShadowLg [20x20/16z] {
+NSl5OGK120JG0KOs_JUSloxlW8DDausNiicuy12kaS6DEdBankvwoinIMDNhnslig6xj591IV4dtWX7C3E11sIOy9Em8-bkgaX1a6r4upYziCmyiYXAv1JK3
+WFev0oq0rTG3km27NAT7O0ouEWD0MeDPwwmpAJ0XAfE-xsJhllE85z46cX-DVm
+}
+!procedure IoTShadow($id, $name="Io T Shadow", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTShadow', $name, $tech)
+!endprocedure
+!procedure IoTShadowCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTShadowMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTShadowGroup($id, $name='Io T Shadow', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTShadowLg>', $name, $tech)
+!endprocedure
+@enduml

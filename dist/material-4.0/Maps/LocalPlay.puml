@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalPlayMd [14x14/16z] VOs54O1040E3M-Qt_suvtDdNiqH_bFrEAPaThr7Jhj40W_FSqwkfM2kefz8KJM4zDSwT505pfo5rq2NmrU7c_iS8
+sprite $LocalPlayLg [20x20/16z] {
+fP2r0KCn30NFp7hxJnlc_CxNY94jykYVP23eXm3feOxnKDBR5zEVpy1UFjUb4O877yEGkWEOKeKhLPhmyAbVbIvfN1NNzFIDgzRSSqQcDVBttBAaLTw-7zBX
+RRy_69ajpW
+}
+!procedure LocalPlay($id, $name="Local Play", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalPlay', $name, $tech)
+!endprocedure
+!procedure LocalPlayCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalPlayMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalPlayGroup($id, $name='Local Play', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalPlayLg>', $name, $tech)
+!endprocedure
+@enduml

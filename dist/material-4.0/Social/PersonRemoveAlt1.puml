@@ -1,0 +1,13 @@
+@startuml
+sprite $PersonRemoveAlt1Md [14x14/16z] XSVL0S0m24LHYFlRVzgu_BKd0fT-IE_u1O1qow8JftIFmYIbv96kP4sY08OkPXw_YIbvHPCgc1AFIjZSA1UMgEbR0m
+sprite $PersonRemoveAlt1Lg [20x20/16z] fSkr0G0n30D0EypQVzh7aEjSAQ1ZAYH7acu0iimoNdBPy4eYgtW5aRatQeeev9Go_w5lA7eS54dye9ysneXQnuPNyJmYZwdfFzBOb3-psF6_osb3fsu
+!procedure PersonRemoveAlt1($id, $name="Person Remove Alt1", $tech="")
+  IconElement($id, 'material-4.0/Social/PersonRemoveAlt1', $name, $tech)
+!endprocedure
+!procedure PersonRemoveAlt1Card($id, $funcName="", $content="")
+  IconCard($id, '<$PersonRemoveAlt1Md>', '', $funcName, $content)
+!endprocedure
+!procedure PersonRemoveAlt1Group($id, $name='Person Remove Alt1', $tech='')
+  IconGroup($id, 'IconGroup', '<$PersonRemoveAlt1Lg>', $name, $tech)
+!endprocedure
+@enduml

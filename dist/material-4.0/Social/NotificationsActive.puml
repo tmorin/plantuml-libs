@@ -1,0 +1,16 @@
+@startuml
+sprite $NotificationsActiveMd [14x14/16z] PSg55S0m24NH5pSEx3zjtNkZmEShG4hhiyhcKSLRXkMEqHRBxQ29qxLI9nMa9Dka8k0fUrMNxwAUrQQygh5NWpEeUWwTzw7MuBtZC3hypG
+sprite $NotificationsActiveLg [20x20/16z] {
+bSy54WCn34DHfU5nRDt_jbMPOL_u3mORrAxDJ5ihvrGOIHiBKZ0Vq_4oWuo1J3-spWRZaQ6nGznrEsi8LyeSM9TccDofUK5SMg1unX6l81zRkhM4YpSjtzhj
+Rto98vRx4kqnSPDhpNZIoOvdEUERFG
+}
+!procedure NotificationsActive($id, $name="Notifications Active", $tech="")
+  IconElement($id, 'material-4.0/Social/NotificationsActive', $name, $tech)
+!endprocedure
+!procedure NotificationsActiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$NotificationsActiveMd>', '', $funcName, $content)
+!endprocedure
+!procedure NotificationsActiveGroup($id, $name='Notifications Active', $tech='')
+  IconGroup($id, 'IconGroup', '<$NotificationsActiveLg>', $name, $tech)
+!endprocedure
+@enduml

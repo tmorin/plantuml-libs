@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDeepLearningContainersMd [14x14/16z] XOnL0eKm40EVa4cwtF-yEErdPrrhWjr6BW5FtHQBTkXL1-8_4jSCT03ec9hu93whUAs3DQuJvVJXUGesP_7KSMhA3W
+sprite $AwsDeepLearningContainersLg [20x20/16z] {
+fSq5ZWH130D0QTgKzF_VUxUGPV6KE63tQN5-9X2KwXS1j4M-HdMerqe7UPt9I6CP56OMI3OFmwBsVMZgYWe2vbwXEvBbvTlCkySMwvx7NJCBUY1pMAWU1SrL
+-aMWHCxLg2GpEUaV
+}
+!procedure AwsDeepLearningContainers($id, $name="Aws Deep Learning Containers", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsDeepLearningContainers', $name, $tech)
+!endprocedure
+!procedure AwsDeepLearningContainersCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDeepLearningContainersMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsDeepLearningContainersGroup($id, $name='Aws Deep Learning Containers', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsDeepLearningContainersLg>', $name, $tech)
+!endprocedure
+@enduml

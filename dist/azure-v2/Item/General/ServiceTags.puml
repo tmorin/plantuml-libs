@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceTagsMd [14x14/16z] HSc54G0X34JHnMBqt-_5Xlleco0ZCvM1QeXTaVMWTnC_A1qw3GlGfXyHY1rC7il1sW7sY3U08rmTUBia58YX5wX8HGj52xpsgFS3
+sprite $ServiceTagsLg [20x20/16z] {
+LSzL0a91241Hkjp_Vdq1EjpFCmdyGcOHMA6OkSiYgwfFrecMTGLUj2WhEP9Egj0h6_E7xAAGuDurP0vkUBtOzEJkYaFU5gzTb3Ur2WAGN_JFdZSe3fhfR55R
+J4qBTMGm5zsVpAQDJGUg87HV
+}
+!procedure ServiceTags($id, $name="Service Tags", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceTags', $name, $tech)
+!endprocedure
+!procedure ServiceTagsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceTagsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceTagsGroup($id, $name='Service Tags', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceTagsLg>', $name, $tech)
+!endprocedure
+@enduml

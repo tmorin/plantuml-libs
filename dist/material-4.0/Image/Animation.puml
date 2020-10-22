@@ -1,0 +1,16 @@
+@startuml
+sprite $AnimationMd [14x14/16z] RKfL0e1G29lmcjZzJslx9xd2JyaARnyfzDff3z5accnvkyfKNPJkLoppUjDg04BMr3CHle3b8JFbp5E0g3unwSa2mBjmRZLkWfwGqqZ5NSPM_N5kDs8fVke
+sprite $AnimationLg [20x20/16z] {
+VP050WCW202nOyBz_xKBN9VI3VB_fPpUB0t0shDfichkodoOEgmUBwvxv00r629g3rCNYPCXdNHDDCek6ZDvIrPtcKYlf3s4Ygbdc2vpljIaCIwouWc9sebo
+G5jfxFaAEJ6z1DxUuvfCPXIfoX1_Ndw2BNiivkNJK4zyhAyjryNyE1FjuvnP_hyJ
+}
+!procedure Animation($id, $name="Animation", $tech="")
+  IconElement($id, 'material-4.0/Image/Animation', $name, $tech)
+!endprocedure
+!procedure AnimationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnimationMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnimationGroup($id, $name='Animation', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnimationLg>', $name, $tech)
+!endprocedure
+@enduml

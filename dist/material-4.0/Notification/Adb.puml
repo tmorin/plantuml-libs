@@ -1,0 +1,16 @@
+@startuml
+sprite $AdbMd [14x14/16z] LSrL0iKW34JHmNMQ_Q-sXOGdlUZv2W07xJov80IK16l8QXmaqPA9SpbDAfm8TJjLgRNiO-B5Qssgl9pyIpQU1aBBfWohRbHyyZbxx1u
+sprite $AdbLg [20x20/16z] {
+TO-50SKW30LnZUm_RPsNhrVb8ER-qVpzzStS89zgJPw6CwPUp1ULzI531L4vpV49A744qHavjIv7AatqV5b6Li3BnHHZIiVh-44d0lx4_dTaZcmoW86BkUAG
+y2qK0v-Sung-dxDrxzxm8S3i
+}
+!procedure Adb($id, $name="Adb", $tech="")
+  IconElement($id, 'material-4.0/Notification/Adb', $name, $tech)
+!endprocedure
+!procedure AdbCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdbMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdbGroup($id, $name='Adb', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdbLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200911 bootstrap
+include('aws-20200911/bootstrap')
+' loads the Ec2ElasticIpAddress element
+include('aws-20200911/Resource/Compute/Ec2ElasticIpAddress')
+Ec2ElasticIpAddressCard('ec_2_elastic_ip_address', 'Ec2 Elastic Ip Address', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

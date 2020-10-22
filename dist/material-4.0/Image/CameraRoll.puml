@@ -1,0 +1,16 @@
+@startuml
+sprite $CameraRollMd [14x14/16z] XSh50GGn0090DYuG-g_st7L-281SouQhRBjVu_3HYbi86q3Vy9mOd6OlEgSrFPUaj-UVfEJCNdL9rLqSvtJ4CTc08f8Q-60F
+sprite $CameraRollLg [20x20/16z] {
+jSw53SH044DHB-EC-w_s-CB9Yl9aqHSPByPQQx3M-BAAFYbVIi34yIzDBN0YqaN4Jqs5V4yPfXR0XaRuHQk94eMfpcrsOyk1tNM6FFWtMJUjRyq1LlyjOcB3
+byEL9m
+}
+!procedure CameraRoll($id, $name="Camera Roll", $tech="")
+  IconElement($id, 'material-4.0/Image/CameraRoll', $name, $tech)
+!endprocedure
+!procedure CameraRollCard($id, $funcName="", $content="")
+  IconCard($id, '<$CameraRollMd>', '', $funcName, $content)
+!endprocedure
+!procedure CameraRollGroup($id, $name='Camera Roll', $tech='')
+  IconGroup($id, 'IconGroup', '<$CameraRollLg>', $name, $tech)
+!endprocedure
+@enduml

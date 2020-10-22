@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceLogAnalyticsWorkspacesMd [14x14/16z] BOk50O0m30GJtih-0qFjgdcf3JH17PgMp3lDmVOT7oyUkey59ytWJ6Mw5P24t6jfF8wbS2zN4kdTf6ibuOdGLVkrMPinXZdFdMP-zkuaYP1mfXy
+sprite $ServiceLogAnalyticsWorkspacesLg [20x20/16z] {
+PS-5iKKX40HHLgPdoJ_WBrUUTb5syFLIPgpt8glgNKj8qFca1ls7ycNLaK1nsKLamxKmG0UlmdrQeYZRNqRrQP7rdnLDb5TxEXjGcMZoCETj5XRJZABQXlBi
+EGUnxdLpPiNryyfM_rV77x8DIe1wVdJ6FlRsgysNxN-RlRTkYq9IwlMyNm
+}
+!procedure ServiceLogAnalyticsWorkspaces($id, $name="Service Log Analytics Workspaces", $tech="")
+  IconElement($id, 'azure-v2/Item/Analytics/ServiceLogAnalyticsWorkspaces', $name, $tech)
+!endprocedure
+!procedure ServiceLogAnalyticsWorkspacesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceLogAnalyticsWorkspacesMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure ServiceLogAnalyticsWorkspacesGroup($id, $name='Service Log Analytics Workspaces', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceLogAnalyticsWorkspacesLg>', $name, $tech)
+!endprocedure
+@enduml

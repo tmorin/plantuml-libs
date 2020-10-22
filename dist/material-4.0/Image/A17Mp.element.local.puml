@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the A17Mp element
+include('material-4.0/Image/A17Mp')
+A17Mp('a_17_mp', 'A17 Mp', 'an optional tech field')
+@enduml

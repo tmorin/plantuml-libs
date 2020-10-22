@@ -1,0 +1,13 @@
+@startuml
+sprite $CropOriginalMd [14x14/16z] bSwr0SC040J1HrlqT_rNA-PCcqssyifYpnQGM2Dd1cGFyLsUftomeX_gE1IwNQgY8ggBZ2ZC5RZEPAoboQi9
+sprite $CropOriginalLg [20x20/16z] jP050e0m24KtGkn__zFQtVbqHOExZeOMTbWehGWpj9Q541eGXBNCG6w0MbdubqpzN1QGKuGpcIBcfjvHHkWW6cjcQk3HJZmHrOky8DoRmNnMjUWg9G
+!procedure CropOriginal($id, $name="Crop Original", $tech="")
+  IconElement($id, 'material-4.0/Image/CropOriginal', $name, $tech)
+!endprocedure
+!procedure CropOriginalCard($id, $funcName="", $content="")
+  IconCard($id, '<$CropOriginalMd>', '', $funcName, $content)
+!endprocedure
+!procedure CropOriginalGroup($id, $name='Crop Original', $tech='')
+  IconGroup($id, 'IconGroup', '<$CropOriginalLg>', $name, $tech)
+!endprocedure
+@enduml

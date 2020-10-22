@@ -1,0 +1,16 @@
+@startuml
+sprite $AddBusinessMd [14x14/16z] VSc53SD040NHVxoy_NSRiotA29y6_sBJFPD3Yy_eaDYPbWqrxzgcyMXkcezeKmbgpRcix7MZ3y0MEhFkCg9Sg6nE3QHR7KqzRE2939_QTdu
+sprite $AddBusinessLg [20x20/16z] {
+fSzd0iCW28RXAD3n4SlzRrjn-wVppNwozFWdKcWB6gk9BJKBJBEZThKbheRLRjNIQYWKRIrDcmMtSDe989dw3dryalStYpw4U9NDV4UcRfmjL0iKieKvDt-t
+dv72Kx-ji8UVxTNllJUAUVS4
+}
+!procedure AddBusiness($id, $name="Add Business", $tech="")
+  IconElement($id, 'material-4.0/Maps/AddBusiness', $name, $tech)
+!endprocedure
+!procedure AddBusinessCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddBusinessMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddBusinessGroup($id, $name='Add Business', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddBusinessLg>', $name, $tech)
+!endprocedure
+@enduml

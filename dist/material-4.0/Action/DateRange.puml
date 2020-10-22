@@ -1,0 +1,16 @@
+@startuml
+sprite $DateRangeMd [14x14/16z] XSU50G0n20J18sv0_zM-ksu41jT2nb2E4o9B6H8UQNNBdkG0fyuwErmtIP2CzvGWaoYR44ocMLZwbOOb7KILvwGIplK
+sprite $DateRangeLg [20x20/16z] {
+fP254S0m3CJ2nkllFssPuQWAA-pmHSrBc-lXO4khs0mPEftfO3IhXWjjSdnrF6zzSGmXNY7PN0exQNSH5Dn3GpoxjhhujlU_ezTrhTILqXPNSA6iaJpMrHpU
+6G
+}
+!procedure DateRange($id, $name="Date Range", $tech="")
+  IconElement($id, 'material-4.0/Action/DateRange', $name, $tech)
+!endprocedure
+!procedure DateRangeCard($id, $funcName="", $content="")
+  IconCard($id, '<$DateRangeMd>', '', $funcName, $content)
+!endprocedure
+!procedure DateRangeGroup($id, $name='Date Range', $tech='')
+  IconGroup($id, 'IconGroup', '<$DateRangeLg>', $name, $tech)
+!endprocedure
+@enduml

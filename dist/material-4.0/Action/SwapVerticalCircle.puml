@@ -1,0 +1,16 @@
+@startuml
+sprite $SwapVerticalCircleMd [14x14/16z] PSpH0G0G20JG0m3iForKVJdWGVZYIcl52SgY54LkIhzMWY5wkkes3BdiTt6vvxjqreLbrNKpe-tqqZyr854L56AcAoM1ucllrUFB0G
+sprite $SwapVerticalCircleLg [20x20/16z] {
+VP255SH024JXhNl_tHvwdanqFmxSACGOFW3MVKYh8hWY4TKEZiJ7g49ahm93sPBmId-PlbrXPKPkgqJ8rHm91REkyyeOdMriyXkTDTmBYZ69jKJLOs5RlGon
+BAq1Lg_HR_9Uq1m7P9uERJRLb0g_EuZVkzeLVtTwemS
+}
+!procedure SwapVerticalCircle($id, $name="Swap Vertical Circle", $tech="")
+  IconElement($id, 'material-4.0/Action/SwapVerticalCircle', $name, $tech)
+!endprocedure
+!procedure SwapVerticalCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwapVerticalCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwapVerticalCircleGroup($id, $name='Swap Vertical Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwapVerticalCircleLg>', $name, $tech)
+!endprocedure
+@enduml

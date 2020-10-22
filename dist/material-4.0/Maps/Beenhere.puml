@@ -1,0 +1,16 @@
+@startuml
+sprite $BeenhereMd [14x14/16z] JOq54WH120CppjqA___jZc1TsWL9W3hwPbG0XOqoJsxLRm-5svlgj7bxHCwjj2cDMMwfvUgTKsFdQtleB7GiyiMJAqCOSX2o73u
+sprite $BeenhereLg [20x20/16z] {
+ZSy5ZaKX04FHuWxxt-saJplVRumS782naW6pSqdJql8DBFrYyzawyc52Q8S9zMDlMYtCaoxBy9FKv5vYCwJRY30aCOxw4akBZQLc-fAw0TEVP9ovOsTtaB8i
+agL35Ztt1m
+}
+!procedure Beenhere($id, $name="Beenhere", $tech="")
+  IconElement($id, 'material-4.0/Maps/Beenhere', $name, $tech)
+!endprocedure
+!procedure BeenhereCard($id, $funcName="", $content="")
+  IconCard($id, '<$BeenhereMd>', '', $funcName, $content)
+!endprocedure
+!procedure BeenhereGroup($id, $name='Beenhere', $tech='')
+  IconGroup($id, 'IconGroup', '<$BeenhereLg>', $name, $tech)
+!endprocedure
+@enduml

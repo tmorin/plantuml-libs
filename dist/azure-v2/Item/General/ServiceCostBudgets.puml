@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCostBudgetsMd [14x14/16z] DKo74GH125A2rt_7Z-uy6vGmr08Ze1wwEAOUaKCR7lnPPyEZ8HejBR9ZZtSOysdPTL1InFPHkaA2QvJeoV0nW_gkCuHJ-oKSWioZ9hZPGzCMT_i1
+sprite $ServiceCostBudgetsLg [20x20/16z] {
+NOu90aGX2493XER-9svXTluIl4eTBrMDVu74FwFT-CBSlYHo-aNBvhvyqgO8i_Xg0WScbLJOSFPt3vlNr40V1qcT4Tr5gyAO6seSbhkgoxe7U2se3SDEV7VH
+Yz7OlAebfSVc3sycRvrRPGwqdNefP-74r27FNpFTOSSC71ILx2PR6IS2-ueuQG4
+}
+!procedure ServiceCostBudgets($id, $name="Service Cost Budgets", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCostBudgets', $name, $tech)
+!endprocedure
+!procedure ServiceCostBudgetsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCostBudgetsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCostBudgetsGroup($id, $name='Service Cost Budgets', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCostBudgetsLg>', $name, $tech)
+!endprocedure
+@enduml

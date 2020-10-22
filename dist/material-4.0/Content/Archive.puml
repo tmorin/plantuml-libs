@@ -1,0 +1,16 @@
+@startuml
+sprite $ArchiveMd [14x14/16z] NOm55W0m249vhll-frttNwe0VXZli5vegtH5ETqcAKvIdVAquMrMyVwgFE1t9L6HlU9fFiV7UR__J3eLePPyGlWe
+sprite $ArchiveLg [20x20/16z] {
+bSw53GG124HH75RflzgJTPSVcxpOm8kicDA1l5ORQwmZpgQQQfF_5hag_kO75gSM8h6sDXL0ibrOGz15pMnPutzXdPDrED1a7NQq_bVND_zqRGeTXiUGHqSF
+-m8
+}
+!procedure Archive($id, $name="Archive", $tech="")
+  IconElement($id, 'material-4.0/Content/Archive', $name, $tech)
+!endprocedure
+!procedure ArchiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArchiveMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArchiveGroup($id, $name='Archive', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArchiveLg>', $name, $tech)
+!endprocedure
+@enduml

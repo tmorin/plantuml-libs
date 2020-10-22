@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonAppStreamMd [14x14/16z] HSl7OK9H34HH6oP9zDylpFk4kpiAERb9cX-gmPqutQiWFN0WJ-dAi7TsStrNAuhqLqZ4UMlD3Uc1iuTH45Obk06Inw6qa-hYpgkghied
+sprite $AmazonAppStreamLg [20x20/16z] {
+PSi93WCn24DH2MYmoVtlMqU4hd_s9mzksQqJCRsHxC-1Dhg5JsPjQKdCtxPIrZZcrpwNBg_1JokU4s0lsoeYNEU37xOCI2o_XcCxlOg8bHmJQbC8cB2jiU2L
+GWUm1n6abZ6cqgB8D3ksPoaJ-bWdKcrN1odxnoS
+}
+!procedure AmazonAppStream($id, $name="Amazon App Stream", $tech="")
+  IconElement($id, 'aws-20200911/Service/EndUserComputing/AmazonAppStream', $name, $tech)
+!endprocedure
+!procedure AmazonAppStreamCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonAppStreamMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AmazonAppStreamGroup($id, $name='Amazon App Stream', $tech='')
+  IconGroup($id, 'EndUserComputingFamily', '<$AmazonAppStreamLg>', $name, $tech)
+!endprocedure
+@enduml

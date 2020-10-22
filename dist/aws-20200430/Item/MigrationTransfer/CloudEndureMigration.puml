@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudEndureMigrationMd [14x14/16z] bKo54O1G538fzz_N-tbjl0uWBoR0So4igEz6AIUKOc3PxBEiGaphE5A-HM27WKj8o415o53AIfTVbt7i_BKR
+sprite $CloudEndureMigrationLg [20x20/16z] {
+lK-r0SG047ev0_QVD-vfNaF5AS0teLC76NbebKMwORTb45M6MdkH0g5ukYqznopaeQdbuzFCWeqyN4GLCfvtAdo-HDn2wJsrvPjRblKKGw_Vjc1s1KYFKQCy
+LDPrtIsMPCC7TE1LQ04
+}
+!procedure CloudEndureMigration($id, $name="Cloud Endure Migration", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/CloudEndureMigration', $name, $tech)
+!endprocedure
+!procedure CloudEndureMigrationCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudEndureMigrationMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure CloudEndureMigrationGroup($id, $name='Cloud Endure Migration', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudEndureMigrationLg>', $name, $tech)
+!endprocedure
+@enduml

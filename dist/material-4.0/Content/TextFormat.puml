@@ -1,0 +1,13 @@
+@startuml
+sprite $TextFormatMd [14x14/16z] XSUr0S0m300mKzZm_xLbcXfjWgcSltF_fBHUtYcpFf7eFUJUq5frNC5E0DJn725jaCvu-2RywWN-hG
+sprite $TextFormatLg [20x20/16z] hSZ50G0n30F1CClglzfZXbysw54zIkb5XZHFoq1-a6O8V5YadlXkA4fLtCXH0A6xMcMTOhcGPPwVJ7knPER7fDd-gu8jgJ_MlH4
+!procedure TextFormat($id, $name="Text Format", $tech="")
+  IconElement($id, 'material-4.0/Content/TextFormat', $name, $tech)
+!endprocedure
+!procedure TextFormatCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextFormatMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextFormatGroup($id, $name='Text Format', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextFormatLg>', $name, $tech)
+!endprocedure
+@enduml

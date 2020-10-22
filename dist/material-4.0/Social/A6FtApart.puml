@@ -1,0 +1,16 @@
+@startuml
+sprite $A6FtApartMd [14x14/16z] PSZ50S0W50FGuF1r_sdhtdU9u2DBViJmyOZGmXr5HCeLP6fq1I8sUydMswPR1hgBgkZ2Eu0Qi0brprfYA_quOQDA8Xnev8oAdna
+sprite $A6FtApartLg [20x20/16z] {
+TSm50e0m20NG3oom-FU_hTtwZ8t43xFNhP3bUMl9zdcpOR3pzhkl1XdrTajSfEjDSieJ1NG-KnPCJ74GmyoOHJUIEISbU1FphBEflgaD7JCt7CoFgoWWCnnq
+w3L7RLbmi6YrKBJ3DSTKMjnoo1cgWE7N2
+}
+!procedure A6FtApart($id, $name="A6 Ft Apart", $tech="")
+  IconElement($id, 'material-4.0/Social/A6FtApart', $name, $tech)
+!endprocedure
+!procedure A6FtApartCard($id, $funcName="", $content="")
+  IconCard($id, '<$A6FtApartMd>', '', $funcName, $content)
+!endprocedure
+!procedure A6FtApartGroup($id, $name='A6 Ft Apart', $tech='')
+  IconGroup($id, 'IconGroup', '<$A6FtApartLg>', $name, $tech)
+!endprocedure
+@enduml

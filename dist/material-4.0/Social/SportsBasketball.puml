@@ -1,0 +1,16 @@
+@startuml
+sprite $SportsBasketballMd [14x14/16z] PKq50W0X29iApFR_hxtketF3Jq8MoU5eyXXcO-IzMohLPRBMqi2r8vgiTyMjbwwijs8AyLwW9g_kS_b5kHbkThtO8KKMmqzc
+sprite $SportsBasketballLg [20x20/16z] {
+VP055e1020K_MpPp_zlwx7PqYmRz4AV_ZDLE27XjsaWEammyRRAAJKQrEaRbJPOLP_UQedgHrIhKaymXs2np1V2f2A1HDybRDS1KKWZ1P46QZn3qBdlwhZbq
+pQ66PoqX7JKd9NlqLhIIZnbaRLZpcDLpfaz6
+}
+!procedure SportsBasketball($id, $name="Sports Basketball", $tech="")
+  IconElement($id, 'material-4.0/Social/SportsBasketball', $name, $tech)
+!endprocedure
+!procedure SportsBasketballCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsBasketballMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsBasketballGroup($id, $name='Sports Basketball', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsBasketballLg>', $name, $tech)
+!endprocedure
+@enduml

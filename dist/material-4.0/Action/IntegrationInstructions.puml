@@ -1,0 +1,16 @@
+@startuml
+sprite $IntegrationInstructionsMd [14x14/16z] LOp50OKm44HNlm2RwRzRul9kerHnfuwO_bFwgqaHo3mFCbaQ9aQaXyfPQ8H4pu8TS0xeKbHKRSfgdY-7agM4ihHE5YSl
+sprite $IntegrationInstructionsLg [20x20/16z] {
+fP350GGn30CTb9oF-g_s-9Pv9pnXsvyGR8fBRZs5XCjV6MJ-AdrexTkMjwD6yEsmuBZcW6yPE5gIad7WQ5dwoixXwxAXTy9tBsPtrEyTTzzSngxyOWN-0B_g
+64y
+}
+!procedure IntegrationInstructions($id, $name="Integration Instructions", $tech="")
+  IconElement($id, 'material-4.0/Action/IntegrationInstructions', $name, $tech)
+!endprocedure
+!procedure IntegrationInstructionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$IntegrationInstructionsMd>', '', $funcName, $content)
+!endprocedure
+!procedure IntegrationInstructionsGroup($id, $name='Integration Instructions', $tech='')
+  IconGroup($id, 'IconGroup', '<$IntegrationInstructionsLg>', $name, $tech)
+!endprocedure
+@enduml

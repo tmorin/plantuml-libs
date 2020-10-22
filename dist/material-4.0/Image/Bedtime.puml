@@ -1,0 +1,16 @@
+@startuml
+sprite $BedtimeMd [14x14/16z] POor0G0X0CHmX-m_xRiWwKx5Wexf5n5IB_2lCFGgdYg-gfogoLuH7fMWMnfkYjNVpNyLEt6MKod9Y8KT
+sprite $BedtimeLg [20x20/16z] {
+VT3L0S0W34LHtCdRVzgw95Jkvy5HFrcd9UZKqIKv0f0aOSs9XOGrmorXotBhktb65djvE66DjBHneiLPk94kJFmkPpqOVkUpAayHJtHq2ZdsLxH9qiEVUgj-
+cW4
+}
+!procedure Bedtime($id, $name="Bedtime", $tech="")
+  IconElement($id, 'material-4.0/Image/Bedtime', $name, $tech)
+!endprocedure
+!procedure BedtimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$BedtimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure BedtimeGroup($id, $name='Bedtime', $tech='')
+  IconGroup($id, 'IconGroup', '<$BedtimeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTHouseMd [14x14/16z] NSu50WCn24JH4FwazxzniNPbLX_4rZjC2ef0lhEJB_SiqnAklnITOEi4WgS5R718OVgGbTQMENvQMZXcv2gvEnLfJjPUxtm1
+sprite $IoTHouseLg [20x20/16z] {
+TL074WGX338GYFV_3v-vkfLTPGPJ6NV884WmSdmHHQUKPiL7yWxlg0-zGzoKzT9GXMPNhdUsnXbHR8qha7O7Tqo7s5nnwI5_kcauLnmaFSO73qbepIW0WmaK
+B7noDIUc2fzSUcbPXeTRCz-pkECNiK-yPrRPYwhqdha3Dd3SUN3qwjxJ8vu
+}
+!procedure IoTHouse($id, $name="Io T House", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTHouse', $name, $tech)
+!endprocedure
+!procedure IoTHouseCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTHouseMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTHouseGroup($id, $name='Io T House', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTHouseLg>', $name, $tech)
+!endprocedure
+@enduml

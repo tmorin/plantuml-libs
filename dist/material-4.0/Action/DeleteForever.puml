@@ -1,0 +1,16 @@
+@startuml
+sprite $DeleteForeverMd [14x14/16z] PSU50S0W34JHmntsdxR5zI79nuioHj4GvrBc7AcbZSwChWKPV1OaAfqgtKebwPrSfGXHgppWLr6bsAgOykqbKoNHC9unF7u
+sprite $DeleteForeverLg [20x20/16z] {
+bOw50GD0309vjmJsdxRktdkDW_-8lRKURnnzJMe7v-fddqiy8FdP5r9AUSVk2JYZ2rzzFEmR7rK36Pfuw-k84UFM9-sSw0-r7e7ezxw2EL54tEPDQRg4Z_hi
+x39SYAqVQ17_i0K
+}
+!procedure DeleteForever($id, $name="Delete Forever", $tech="")
+  IconElement($id, 'material-4.0/Action/DeleteForever', $name, $tech)
+!endprocedure
+!procedure DeleteForeverCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeleteForeverMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeleteForeverGroup($id, $name='Delete Forever', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeleteForeverLg>', $name, $tech)
+!endprocedure
+@enduml

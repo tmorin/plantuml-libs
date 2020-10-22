@@ -1,0 +1,13 @@
+@startuml
+sprite $MaximizeMd [14x14/16z] Oq05Z2nmmCZ0mCpF1mNyp0o35m
+sprite $MaximizeLg [20x20/16z] Oo0Qi72mSy00aCa24kFWHm4S8356PYOamCp8G08O1G
+!procedure Maximize($id, $name="Maximize", $tech="")
+  IconElement($id, 'material-4.0/Action/Maximize', $name, $tech)
+!endprocedure
+!procedure MaximizeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MaximizeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MaximizeGroup($id, $name='Maximize', $tech='')
+  IconGroup($id, 'IconGroup', '<$MaximizeLg>', $name, $tech)
+!endprocedure
+@enduml

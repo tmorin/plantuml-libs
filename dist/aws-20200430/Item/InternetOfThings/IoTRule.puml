@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTRuleMd [14x14/16z] ZSVN5KCn309GGE0SxxzmtB_VLGM08u1Z3UEMWIXOaaQs60SJ4e-DXptfnAPMTZLXyS_sM2U96lqIXY-fmY65JHw4uGy
+sprite $IoTRuleLg [20x20/16z] {
+jSn50aGX30FGa4ewzp_mTmFMypRrOaDtOhU5MsPeZmhPqoDo2orXYKj8HO2_pnvQeoB4wz_dAIRk65H5LE6Bafl4xfVl__pxinJSX3xNIO_CSEQdXyiVUsfd
+RCB3bE4UASC7pTs8qme
+}
+!procedure IoTRule($id, $name="Io T Rule", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTRule', $name, $tech)
+!endprocedure
+!procedure IoTRuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTRuleMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTRuleGroup($id, $name='Io T Rule', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTRuleLg>', $name, $tech)
+!endprocedure
+@enduml

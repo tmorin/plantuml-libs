@@ -1,0 +1,16 @@
+@startuml
+sprite $StairsMd [14x14/16z] NOs35K1H34DJVAFxJ_liUrG4M60fS5oi4LPDmt_kZmaWQVl0TzpIxzdmcMdPTZh-klq7xMPr-w1tsSHkZgQwFVlvbsrf1wjeWh7W0G
+sprite $StairsLg [20x20/16z] {
+ZP250KGX3CLQtD_-qvxBnmaUl7IETjPzi4wz5IhqqpbyAS_AFPszhE02LwrJf0qgbv9ae7RYjRDrpjVhl6S1LAumKUj0CgNQ6VNzpU_DvV_3_xhoe79j3FfO
+QJhd3W
+}
+!procedure Stairs($id, $name="Stairs", $tech="")
+  IconElement($id, 'material-4.0/Places/Stairs', $name, $tech)
+!endprocedure
+!procedure StairsCard($id, $funcName="", $content="")
+  IconCard($id, '<$StairsMd>', '', $funcName, $content)
+!endprocedure
+!procedure StairsGroup($id, $name='Stairs', $tech='')
+  IconGroup($id, 'IconGroup', '<$StairsLg>', $name, $tech)
+!endprocedure
+@enduml

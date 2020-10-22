@@ -1,0 +1,16 @@
+@startuml
+sprite $LocationSearchingMd [14x14/16z] PKw50S0m3AAkqF-ldVlY7h2HztXGQtTSXZJAaP0UyEJUuL5SkqR-k2G3rnUpaL7tx-mz2TH-NAdR1Ea0HnuBTVrUpG_P6_KC
+sprite $LocationSearchingLg [20x20/16z] {
+VP254GL124DtiLEI_glzUcuPOnwUCakad9Hv9DK0gplIyQTsfP8SGpL6finLoVX7mPmgko-QOVilux1E7lahz6_PMcZV-Q2kJ8cKAtRgzRiTfQFFoDbDDuC-
+ewppO71mLHy8FNdGxPrnmEkZfsVltm
+}
+!procedure LocationSearching($id, $name="Location Searching", $tech="")
+  IconElement($id, 'material-4.0/Device/LocationSearching', $name, $tech)
+!endprocedure
+!procedure LocationSearchingCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocationSearchingMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocationSearchingGroup($id, $name='Location Searching', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocationSearchingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCounterMd [14x14/16z] LOq50i0m20EX8GdR__yxrsjnoo-1Bpb_KRlebjpU3IEWJBhA4aT190rOLebxfyTesUGPOOj4N9q5_xSy5xhjIV_h-9BnOmK
+sprite $ServiceCounterLg [20x20/16z] {
+ZP250SGm24KZNw3x3toHStzj38VoBxKzKplp6S573evZRXl3mK5QajE3DAGo28v0I988NMGOiUzaLHeocaZqjcJkSWl9uf3L9GjszZ0b9R1bXdIrGxsBnnqF
+xJxljPRtidTzlElttLpUpQ-yuGG
+}
+!procedure ServiceCounter($id, $name="Service Counter", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCounter', $name, $tech)
+!endprocedure
+!procedure ServiceCounterCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCounterMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCounterGroup($id, $name='Service Counter', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCounterLg>', $name, $tech)
+!endprocedure
+@enduml

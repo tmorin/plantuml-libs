@@ -1,0 +1,16 @@
+@startuml
+sprite $RingVolumeMd [14x14/16z] PSQ70GGX20NHOR-ObVwxlHptAJ1mLYfyzFwCOmjQ0-q3g27CK5HkYhXIWJCV-seuLsd5SCb7h4IB2EVAhr7NTIMkqZMMpItkjATXnjEpFYu
+sprite $RingVolumeLg [20x20/16z] {
+ZOs50KGn24Efm0cI_RVzxlggmK9tr7gCkJ_4yZ-FiKKmFBMFQdibHwKX67bi2V3OBKjCw42YM-fN0mZzbYaYtcfJjJRk_S1YmEJ602pt3p3wbbvmz4zPnqBG
+ygSHHOkGZDEcYRsgXLQKIgzf
+}
+!procedure RingVolume($id, $name="Ring Volume", $tech="")
+  IconElement($id, 'material-4.0/Communication/RingVolume', $name, $tech)
+!endprocedure
+!procedure RingVolumeCard($id, $funcName="", $content="")
+  IconCard($id, '<$RingVolumeMd>', '', $funcName, $content)
+!endprocedure
+!procedure RingVolumeGroup($id, $name='Ring Volume', $tech='')
+  IconGroup($id, 'IconGroup', '<$RingVolumeLg>', $name, $tech)
+!endprocedure
+@enduml

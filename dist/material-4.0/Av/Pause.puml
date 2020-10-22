@@ -1,0 +1,13 @@
+@startuml
+sprite $PauseMd [14x14/16z] Oo00c1WP61Y111Ymy_CmCF3miwFmEAZDGzZ02BCTFm
+sprite $PauseLg [20x20/16z] Ow05uE7XPM5WOE7buK68yVFpip8mi08fHhWO7qoC3wiw6eXHxXOUNZwGt_XuUMWIT
+!procedure Pause($id, $name="Pause", $tech="")
+  IconElement($id, 'material-4.0/Av/Pause', $name, $tech)
+!endprocedure
+!procedure PauseCard($id, $funcName="", $content="")
+  IconCard($id, '<$PauseMd>', '', $funcName, $content)
+!endprocedure
+!procedure PauseGroup($id, $name='Pause', $tech='')
+  IconGroup($id, 'IconGroup', '<$PauseLg>', $name, $tech)
+!endprocedure
+@enduml

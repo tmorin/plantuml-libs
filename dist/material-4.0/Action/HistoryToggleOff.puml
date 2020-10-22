@@ -1,0 +1,16 @@
+@startuml
+sprite $HistoryToggleOffMd [14x14/16z] PKw54S1032Ays_t-svQwnJtWHzQyRtR4aPMIkELfxDKHPOmoESjGpLOKr2fJ6k1vPlH75cROidqISSPjaiIMXYswFwJjUsAX91resBtlXXyj
+sprite $HistoryToggleOffLg [20x20/16z] {
+XP250KGn24DJTxB_jATyjteV3cw6-wqD8Qsbs8LuZrg0KhylHMpGqUYLTGV0sj_ppzJ965Y-KjUioYzaNhDCjxALbQsomg9iiKLbcMrPCKEDiIgpXFdh-uoT
+veomhKsXHyr0hl1XtolQfvvknni
+}
+!procedure HistoryToggleOff($id, $name="History Toggle Off", $tech="")
+  IconElement($id, 'material-4.0/Action/HistoryToggleOff', $name, $tech)
+!endprocedure
+!procedure HistoryToggleOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$HistoryToggleOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure HistoryToggleOffGroup($id, $name='History Toggle Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$HistoryToggleOffLg>', $name, $tech)
+!endprocedure
+@enduml

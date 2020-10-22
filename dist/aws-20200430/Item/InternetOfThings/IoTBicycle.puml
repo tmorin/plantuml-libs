@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTBicycleMd [14x14/16z] NOw50GKW44Bn17J_XN_O-ephm0i7pT0208M1sAma8BPLihMiN2d7i5ZiKircMGWgG-unAa8acuL8GEfraCZ-diqUlW
+sprite $IoTBicycleLg [20x20/16z] {
+TL050WGm2390jlz_-9pNnL9ixH_W6TdRONUuia2YKcvNr1kkLlFSKSSIUkS4Cy-QY6RXXyk-iuQBo1qJF5l4yLsBskCBRm-MEQN8nVOhnd0khRCtvSCvM84a
+5Xb9Od8qPyOCjbCBERM40Z8J-bFfrvgZs3y_3YNyxErx1j-p-Z_JRrm
+}
+!procedure IoTBicycle($id, $name="Io T Bicycle", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTBicycle', $name, $tech)
+!endprocedure
+!procedure IoTBicycleCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTBicycleMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTBicycleGroup($id, $name='Io T Bicycle', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTBicycleLg>', $name, $tech)
+!endprocedure
+@enduml

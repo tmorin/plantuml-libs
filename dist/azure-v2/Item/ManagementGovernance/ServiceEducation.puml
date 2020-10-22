@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceEducationMd [14x14/16z] PSi50a9120HGck7V_y0EQ-lRfEHGbGzc7_y2yX5RDffxuyYc6LwC-nXa5aErh2CZRES01WsuaCqr02_MJhGO2IdJT5qkAp5RAhbJ9vK_Dm
+sprite $ServiceEducationLg [20x20/16z] {
+bT250SCW443HSw7xxrkSklpuYmF_XeYFn1vATq8UBQCZrcLf5-_5s1Y3wAHooRcdeZwAS1aNA2ABhRIgCBOla_2ZyzMSuLNh_Pd2qqef6LNgLWMNxPHV6CAJ
+sHgIs9G42yNgA-jhxeO6gONmjYi
+}
+!procedure ServiceEducation($id, $name="Service Education", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceEducation', $name, $tech)
+!endprocedure
+!procedure ServiceEducationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceEducationMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceEducationGroup($id, $name='Service Education', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceEducationLg>', $name, $tech)
+!endprocedure
+@enduml

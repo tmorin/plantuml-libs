@@ -1,0 +1,16 @@
+@startuml
+sprite $LocationDisabledMd [14x14/16z] JSu5aWGn34FHhugtsVRzJzkW7LBXIqmu4RmYOD_Vg51LzMenTKX4fhLKkIkVN_M8VXWbnb7YpwmZB5EtK0McIi1suAvuW387ZEp0tFhPFgLCs0-1yNlr1G
+sprite $LocationDisabledLg [20x20/16z] {
+TP053aGX34G7QOFF_K-xGcZ_wekHHnr6ZFXYJk0Y0GYoLWwkCWiIDyLjOO5gIZeuhMXOBDWevucix2xF8x2Zc1pSWKA5IsK6ubnCS9cuPZI7ocBkv5gaKgo7
+Is4uimXWwT5cDkbp0ccnIuhIkIuPAZSj52QJ-rOI0EI_D_s-_Hq
+}
+!procedure LocationDisabled($id, $name="Location Disabled", $tech="")
+  IconElement($id, 'material-4.0/Device/LocationDisabled', $name, $tech)
+!endprocedure
+!procedure LocationDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocationDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocationDisabledGroup($id, $name='Location Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocationDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsFirewallManagerMd [14x14/16z] XOor0SKW04I_v3Jxpni1UbvtsWsYw2nX8D6X8S8wPyaXmDD_TSeSye5_IlI1DOnVF8QoOb7oV67KJF584qQcM75tt
+sprite $AwsFirewallManagerLg [20x20/16z] {
+bSj9TWD130BGbow14Dp_ldbLdS7shlz68tucJlnEfMQFNwHOQf3q7x0KHq3x5ZBUkS4-7LosLtahUJk9wNNDxk_bLCrSrQlojmkKGJMn9cJEZfr1H7mnb8-f
+VOOak7mBcZASWTg_I1Zx5hy0Ie3VgI1_IlpKDm
+}
+!procedure AwsFirewallManager($id, $name="Aws Firewall Manager", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsFirewallManager', $name, $tech)
+!endprocedure
+!procedure AwsFirewallManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsFirewallManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsFirewallManagerGroup($id, $name='Aws Firewall Manager', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsFirewallManagerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsIdentityAndAccessManagementIamPermissions element
+include('aws-20200430/Item/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamPermissions')
+AwsIdentityAndAccessManagementIamPermissionsGroup('aws_identity_and_access_management_iam_permissions', 'Aws Identity And Access Management Iam Permissions', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

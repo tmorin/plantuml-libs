@@ -1,0 +1,16 @@
+@startuml
+sprite $NetworkCheckMd [14x14/16z] XSQr0GH134MnDqosV__L7aEuYiI5L5lBl9MjXpbc0QPqUYrxkYPPbe4KEPaoZq_PYiAZ3oRlSOxpKWTDipM-JF-JfSBVd5ow0m
+sprite $NetworkCheckLg [20x20/16z] {
+hSYrGG1G54Mny-IxtFsdnPqIKeQ_itZoBTg-aavMTrxrgnTjzA764z_IdJNSNRcaxN2auJphSflIWRm5YDhzNg3S10nYIwjgPeBnekf9MMf3bJUfKqcfJ2Nl
+mc59Ri5N8LtZko5jVb_d1nl3-0UF
+}
+!procedure NetworkCheck($id, $name="Network Check", $tech="")
+  IconElement($id, 'material-4.0/Notification/NetworkCheck', $name, $tech)
+!endprocedure
+!procedure NetworkCheckCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetworkCheckMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetworkCheckGroup($id, $name='Network Check', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetworkCheckLg>', $name, $tech)
+!endprocedure
+@enduml

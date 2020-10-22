@@ -1,0 +1,16 @@
+@startuml
+sprite $FlipToBackMd [14x14/16z] PSs53S1034DH9t6Pzf-sxJ5zWVL4nf105GODscrTxP8zK937JfnqyCCR9bucNgjw_JFAe0h-uvKVlAhqkNrdv4GVXZu
+sprite $FlipToBackLg [20x20/16z] {
+bOy74iCm20Jlm0xk_F-t6Gb8hpjjPrN1NwZ233g1OoNwXEE0ESKlKGWHKBi1POcWCJdfKwMmoGMJPkCqL7kWDVgfpdPxRFRXBEOXvc2pR4UVOsfpQ6lMpiOS
+JVBi80MIqQzSusHJnoRY7yu
+}
+!procedure FlipToBack($id, $name="Flip To Back", $tech="")
+  IconElement($id, 'material-4.0/Action/FlipToBack', $name, $tech)
+!endprocedure
+!procedure FlipToBackCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlipToBackMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlipToBackGroup($id, $name='Flip To Back', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlipToBackLg>', $name, $tech)
+!endprocedure
+@enduml

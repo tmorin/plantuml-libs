@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eventstorming bootstrap
+include('eventstorming/bootstrap')
+' loads the Comment element
+include('eventstorming/Element/Comment')
+Comment('comment', 'Comment')
+note as note
+A comment is used to provide additional information.
+end note
+@enduml

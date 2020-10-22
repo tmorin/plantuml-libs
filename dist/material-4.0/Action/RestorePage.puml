@@ -1,0 +1,16 @@
+@startuml
+sprite $RestorePageMd [14x14/16z] NSU50GCn3CNGCFze_sdROrB0VkPJ64lAXnfR-INAfRP-QTFi8GGlsgekKw24NMsc1jCVGe9sgTkSNJ-5SXQNrWv5ZIq5y-aF
+sprite $RestorePageLg [20x20/16z] {
+VT2r0SH034JHMUPL_zMQxT7X3ryYm8zSEFAAebmbMXKYZKXJg6tMDcKhtZOaOojlLczB3aMae2YBvpxPACl6jiq61ksglrWfktadoXfyQnvTctG7-8rex9z5
+RP4_lNFuqGe
+}
+!procedure RestorePage($id, $name="Restore Page", $tech="")
+  IconElement($id, 'material-4.0/Action/RestorePage', $name, $tech)
+!endprocedure
+!procedure RestorePageCard($id, $funcName="", $content="")
+  IconCard($id, '<$RestorePageMd>', '', $funcName, $content)
+!endprocedure
+!procedure RestorePageGroup($id, $name='Restore Page', $tech='')
+  IconGroup($id, 'IconGroup', '<$RestorePageLg>', $name, $tech)
+!endprocedure
+@enduml

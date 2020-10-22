@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsWorkLinkMd [14x14/16z] VOwr0G0W30GhtlRV5vUEG-AIByI0suBj6DUAf6l5XIm4boNEVApCRN7tBFt6V6rpBSCTuYv04igN1W
+sprite $AwsWorkLinkLg [20x20/16z] {
+bP350SH024Kly8t-wrrtYRna38ViO1x70pMkE0_GuWarNcIQYoiHFsHCOeUSp8kighkQW1yoLquqsVYGLKPuvhZA7DvbPvyFcG5USbGUiao6Z9qNMHpmMhUm
+t9znfRKuhtME
+}
+!procedure AwsWorkLink($id, $name="Aws Work Link", $tech="")
+  IconElement($id, 'aws-20200430/Item/EndUserComputing/AwsWorkLink', $name, $tech)
+!endprocedure
+!procedure AwsWorkLinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWorkLinkMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AwsWorkLinkGroup($id, $name='Aws Work Link', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsWorkLinkLg>', $name, $tech)
+!endprocedure
+@enduml

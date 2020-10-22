@@ -1,0 +1,16 @@
+@startuml
+sprite $LinkedCameraMd [14x14/16z] RSU5OKGX40HGO5q-qt-roRclpXk_ItDTmumiO-qJoQq1bAJc68rhcR1ULSo5AhyeXli8e2zQ2UHwg85-I6blqhiWSmeUmjwuIe_kFYv7ntlz0m
+sprite $LinkedCameraLg [20x20/16z] {
+XSs50S0m24JHYnC1zf-sxlhhhn7yvTpTIFcWL4kfOTGPZG7fM286jP6AYkXKHc4Zmq2lUmLaqc1X_cn4RHWPKxAhHGn57GkB9IIH13hQV0_cO8moxykxoJoB
+88Uv7ZoEzdemDl0UXe-c4grDeaSxDfYLCud5WE6KnMCz
+}
+!procedure LinkedCamera($id, $name="Linked Camera", $tech="")
+  IconElement($id, 'material-4.0/Image/LinkedCamera', $name, $tech)
+!endprocedure
+!procedure LinkedCameraCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinkedCameraMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinkedCameraGroup($id, $name='Linked Camera', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinkedCameraLg>', $name, $tech)
+!endprocedure
+@enduml

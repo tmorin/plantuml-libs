@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonCodestarMd [14x14/16z] LOh70GCm4C9Ihc3m_lE6Sxf-897hW0F_ffStejPhTLJbFKTJo0GRI6lPbLEMJqXePMUkQQKEL_ReMLMbHLQjMVJNxAgcbpRkzZ5koo31OTQ1X_qt7m
+sprite $AmazonCodestarLg [20x20/16z] {
+PSw5ZM1140DHtMykJ_xftaBFSWdzH0Rcexu1_BM_o2AqMLzSQX_lUce-BSsCDBTWvfef2ggOi7n5WT9yU2jzhASbH4FYILlup4WQaopQqwb_jSRZL4I5Ww-T
+g8epJjC5Q_cQ46hpM9CoqHIAEZRNpid7FJ5pvveqNZZH1SoSHTpswXkUnTstixZyPN_m1G
+}
+!procedure AmazonCodestar($id, $name="Amazon Codestar", $tech="")
+  IconElement($id, 'aws-20200911/Service/DeveloperTools/AmazonCodestar', $name, $tech)
+!endprocedure
+!procedure AmazonCodestarCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonCodestarMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AmazonCodestarGroup($id, $name='Amazon Codestar', $tech='')
+  IconGroup($id, 'DeveloperToolsFamily', '<$AmazonCodestarLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $FileCopyMd [14x14/16z] VOm53e1030Jdl6Z__rkoHMDCT9Ky0ik8PL_5LaDj3L9ASAdYeXEgTecnzu_AnVkhAjNBfSJkLI-NSgcrVXMC7_Kq2o63KU4
+sprite $FileCopyLg [20x20/16z] bSg54S0m0CD0XpdUVzeoStNy9m1o2LCYSybCPXYT7t9UBcQmjfh9fI-9nJGg-oepLkDGL4mdWsO-sOoh9GWOkiM6QXVzOak_30fdmxNLZrzOgKfCIJKd0BG
+!procedure FileCopy($id, $name="File Copy", $tech="")
+  IconElement($id, 'material-4.0/Content/FileCopy', $name, $tech)
+!endprocedure
+!procedure FileCopyCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileCopyMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileCopyGroup($id, $name='File Copy', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileCopyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CenterFocusStrongMd [14x14/16z] NOq50WKX448PnHzRtF-sQzSpfm0RZZJ0I9S2FVA0ZqyC-Q3oi4PaZIos7T8Hcmq9Aa94rYXtdjAPErULrM5rZo630HOOWvKN
+sprite $CenterFocusStrongLg [20x20/16z] {
+ZL050WCn21joMid_VpjIvdgfu7ewZcbTLYTZP5A5m4fk8JUHM-5gGavC_MhLUnx5adxKYRiCtPgP9RuET0iJYoIa8T2Usd4C-3-TzAVOhE7FDPvx-TMpY-Pi
+AexrsmwUTqNLKPm1
+}
+!procedure CenterFocusStrong($id, $name="Center Focus Strong", $tech="")
+  IconElement($id, 'material-4.0/Image/CenterFocusStrong', $name, $tech)
+!endprocedure
+!procedure CenterFocusStrongCard($id, $funcName="", $content="")
+  IconCard($id, '<$CenterFocusStrongMd>', '', $funcName, $content)
+!endprocedure
+!procedure CenterFocusStrongGroup($id, $name='Center Focus Strong', $tech='')
+  IconGroup($id, 'IconGroup', '<$CenterFocusStrongLg>', $name, $tech)
+!endprocedure
+@enduml

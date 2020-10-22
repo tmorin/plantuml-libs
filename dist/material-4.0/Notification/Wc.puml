@@ -1,0 +1,16 @@
+@startuml
+sprite $WcMd [14x14/16z] NSq50WGX20NGRojv_zkkjJNsKm4yMvK49Ab7x0repaUf1qp6ZQ8Y4Vd-9FVvbTq-gc4kvQCobx6KpINob8LJeIDtf_mHqYgwcXpres5rQYxFzW8
+sprite $WcLg [20x20/16z] {
+TO-53GGX0C1m3NJ_RV_HyqPAYeilb1asQYSDiJc2Nir1QIxWLfEvscPNiznDQpKEsSa0fFyWKDSbYOOI2WYNfjjLb5lBG-UziYkScxHmsknf5sOwPl-Z2c5D
+0clLkRNrLJQVMxYsCjSrVUvLrfhkfWz-
+}
+!procedure Wc($id, $name="Wc", $tech="")
+  IconElement($id, 'material-4.0/Notification/Wc', $name, $tech)
+!endprocedure
+!procedure WcCard($id, $funcName="", $content="")
+  IconCard($id, '<$WcMd>', '', $funcName, $content)
+!endprocedure
+!procedure WcGroup($id, $name='Wc', $tech='')
+  IconGroup($id, 'IconGroup', '<$WcLg>', $name, $tech)
+!endprocedure
+@enduml

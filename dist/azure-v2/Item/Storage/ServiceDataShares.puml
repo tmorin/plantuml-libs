@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDataSharesMd [14x14/16z] NOd5OGH04CDa3oprNszoJFeOn2-wyApEAmOYP4TtfqEoOk--g5fBPEYSVUKiAU6zGX-hYazdmtujoZUtrdN9ydh8Hc7BMLqLWCmt_m
+sprite $ServiceDataSharesLg [20x20/16z] {
+bT35WGGW40J0DZp_V0_ELdXjlsOA1n-5v6ilVqVy7JwKf9GaFXX7kr9flRUw2uC6TZ-AjUFq4I3ojZN7wBsFiUQn2CT-iyOnujqilDeiBdYtwa9SQ-NRK7XR
+IdWPg3oRGM-3wlZLPW1EXEtEplDVuSuN
+}
+!procedure ServiceDataShares($id, $name="Service Data Shares", $tech="")
+  IconElement($id, 'azure-v2/Item/Storage/ServiceDataShares', $name, $tech)
+!endprocedure
+!procedure ServiceDataSharesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDataSharesMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure ServiceDataSharesGroup($id, $name='Service Data Shares', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDataSharesLg>', $name, $tech)
+!endprocedure
+@enduml

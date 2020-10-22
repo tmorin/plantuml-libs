@@ -1,0 +1,16 @@
+@startuml
+sprite $LoyaltyMd [14x14/16z] LSU50G0X30J1UyKY_LUBwoB9uEnd9gAtYybehfCDT95KT95qz7OvAyvMlge1k02RPo6XvFL7fGTW2WPjmI0lPCh2AW4
+sprite $LoyaltyLg [20x20/16z] {
+VSw50O0m34JHE4xsdnOxt3x-WBRqchZvb9sfJrGVvjbwSqDBduuhUZPI9QfsErNV3GXxek5MlM_KkdNCUg9sNYWJwNHlAzQ4U38bO2-m8ZE8LkmM3D21LmAo
+WyxOWou8kcPAFuq
+}
+!procedure Loyalty($id, $name="Loyalty", $tech="")
+  IconElement($id, 'material-4.0/Action/Loyalty', $name, $tech)
+!endprocedure
+!procedure LoyaltyCard($id, $funcName="", $content="")
+  IconCard($id, '<$LoyaltyMd>', '', $funcName, $content)
+!endprocedure
+!procedure LoyaltyGroup($id, $name='Loyalty', $tech='')
+  IconGroup($id, 'IconGroup', '<$LoyaltyLg>', $name, $tech)
+!endprocedure
+@enduml

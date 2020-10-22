@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageVpcAccessPointsMd [14x14/16z] JSs74GCm20D0rEpiFt62BarNNpOmZOHvXuwLi52s1-ALjzGTL2A0U_oM4q9uAtufUalKX565x9L3SpNMqCCjIyik6hhVti5zOFxunXC
+sprite $SimpleStorageVpcAccessPointsLg [20x20/16z] {
+VOw5WGL124CJ26Is_uBllgtB6yM36H87iktMnXtjJY3AdRDh9EQlSwxxlbC1qiwdQXvydEHUVPN3JKcvyIbX086jpp9eU_55KqfKmJ7xw9ys6Htuyb5FHf5U
+rHDG0N1Y9YrcGHPMM59b4JiY5GSNUWmJ9oUU-0S
+}
+!procedure SimpleStorageVpcAccessPoints($id, $name="Simple Storage Vpc Access Points", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageVpcAccessPoints', $name, $tech)
+!endprocedure
+!procedure SimpleStorageVpcAccessPointsCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageVpcAccessPointsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageVpcAccessPointsGroup($id, $name='Simple Storage Vpc Access Points', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageVpcAccessPointsLg>', $name, $tech)
+!endprocedure
+@enduml

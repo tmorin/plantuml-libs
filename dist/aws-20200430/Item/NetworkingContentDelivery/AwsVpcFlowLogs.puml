@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcFlowLogsMd [14x14/16z] LOw50O0m40ERV0Bilp1rkygxf09bYwbZ4Q3TZ2V00lZK2F7ArfleTXLI62MW69O0og06dtHRT-RTvPvGftDEtvkfHkwjCm
+sprite $AwsVpcFlowLogsLg [20x20/16z] {
+RP370KCn24D54VhPV-4OEpsy2xtYO94PXWz2AhAaUBbAZeshS101sm0KcY9uLQFBmDgz0ARv0kL0zvItBwjOqJuNJ5sU7Wjh7sJHzHb19ZtRhCW45xaXyzRg
+u9jgfnclNVZQPTfvk6tumVYh-QVJx-y
+}
+!procedure AwsVpcFlowLogs($id, $name="Aws Vpc Flow Logs", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcFlowLogs', $name, $tech)
+!endprocedure
+!procedure AwsVpcFlowLogsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcFlowLogsMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcFlowLogsGroup($id, $name='Aws Vpc Flow Logs', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcFlowLogsLg>', $name, $tech)
+!endprocedure
+@enduml

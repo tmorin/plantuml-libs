@@ -1,0 +1,13 @@
+@startuml
+sprite $RepeatOneMd [14x14/16z] RSk55GH120FGX9VXFFHVxQtx_b4CzwZvZHxbCGoNgzpV72EnByjjgWMUYT0qbi3dXPryWKaC5D1Z7EZ9Of0Q8xhi_jHKQrQCiCpTwm
+sprite $RepeatOneLg [20x20/16z] ZT050i0m20D0O2w1_xzsdhbbsgjNFgDoJMrNWnDhC15O4B6Pqt3gIqlpuTKCj5aPEAp5R2XLa4iAdsiPfG4aguTNKknDVVdRp13Rccc-6MeXGYwnvizHNjC3
+!procedure RepeatOne($id, $name="Repeat One", $tech="")
+  IconElement($id, 'material-4.0/Av/RepeatOne', $name, $tech)
+!endprocedure
+!procedure RepeatOneCard($id, $funcName="", $content="")
+  IconCard($id, '<$RepeatOneMd>', '', $funcName, $content)
+!endprocedure
+!procedure RepeatOneGroup($id, $name='Repeat One', $tech='')
+  IconGroup($id, 'IconGroup', '<$RepeatOneLg>', $name, $tech)
+!endprocedure
+@enduml

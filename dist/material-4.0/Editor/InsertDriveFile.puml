@@ -1,0 +1,13 @@
+@startuml
+sprite $InsertDriveFileMd [14x14/16z] hSUr0S102030TnpsdpRkTQwxzD5qON2COo6EZs7UUenIDhZcmYRx3lpVkkd6MlgO0G
+sprite $InsertDriveFileLg [20x20/16z] rT2r0G0X40NHVuf3_zMUukmMm8Gl731jnzTUqHbYefZ-nSg8bJceYBKLh0mYd8rv8OK8fhQOdiFEsixgQMm3qmq
+!procedure InsertDriveFile($id, $name="Insert Drive File", $tech="")
+  IconElement($id, 'material-4.0/Editor/InsertDriveFile', $name, $tech)
+!endprocedure
+!procedure InsertDriveFileCard($id, $funcName="", $content="")
+  IconCard($id, '<$InsertDriveFileMd>', '', $funcName, $content)
+!endprocedure
+!procedure InsertDriveFileGroup($id, $name='Insert Drive File', $tech='')
+  IconGroup($id, 'IconGroup', '<$InsertDriveFileLg>', $name, $tech)
+!endprocedure
+@enduml

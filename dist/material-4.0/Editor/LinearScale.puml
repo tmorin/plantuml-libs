@@ -1,0 +1,13 @@
+@startuml
+sprite $LinearScaleMd [14x14/16z] hOgr0K112CLohi3-qtwjhYVLa-13g15AWLW3BDEnpDPGcqTR45hwpTG2Fjm
+sprite $LinearScaleLg [20x20/16z] pOs50ODG44FJuf9x-q-BEmpmppLHMl9RuvhMsE1CAg6KCjD8oe6m0Um0ydN6FcETgI7Etw3vuaXBHW
+!procedure LinearScale($id, $name="Linear Scale", $tech="")
+  IconElement($id, 'material-4.0/Editor/LinearScale', $name, $tech)
+!endprocedure
+!procedure LinearScaleCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinearScaleMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinearScaleGroup($id, $name='Linear Scale', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinearScaleLg>', $name, $tech)
+!endprocedure
+@enduml

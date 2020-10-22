@@ -1,0 +1,13 @@
+@startuml
+sprite $BorderOuterMd [14x14/16z] NSs35G0m40FGsjX_sfhvZySG88vUvBHaqQf4bhGhQz-AiLjP9YMpKC4cV844IAVYeEHN0G
+sprite $BorderOuterLg [20x20/16z] ZT230KGn40JGdOqv_LTx_FQB3NdCnX0d8TflN-HA_FO5MftOVr-aVWlWc-kghxLzd_UxlgzL7-YbLl44BljaiZlZxYxxEmTQw02MuUGFzd_rs1i
+!procedure BorderOuter($id, $name="Border Outer", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderOuter', $name, $tech)
+!endprocedure
+!procedure BorderOuterCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderOuterMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderOuterGroup($id, $name='Border Outer', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderOuterLg>', $name, $tech)
+!endprocedure
+@enduml

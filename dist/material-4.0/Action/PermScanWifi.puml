@@ -1,0 +1,16 @@
+@startuml
+sprite $PermScanWifiMd [14x14/16z] PSo50G0X20NGhy0LjV-qr-sp9T2gH1K7dY9NCJ50kbsdSTlrUEGmx8SMtzFsP2-WxHJPTW8Wrqkm6OxNW8EcMIfEnVSEbvfHyH01MWi
+sprite $PermScanWifiLg [20x20/16z] {
+bSo54GCX443HZplqNssSGM9tRsHzEKLgwvpLOZHyRY_PFTeYj8KNcFhAfNmbnSG-jxPdaTms6KHTzwe0zFfFSMVddkKfZ9wdIxsNe1FbLju6HJ2eyNymzvPX
+vSV_8INO2S4lLm
+}
+!procedure PermScanWifi($id, $name="Perm Scan Wifi", $tech="")
+  IconElement($id, 'material-4.0/Action/PermScanWifi', $name, $tech)
+!endprocedure
+!procedure PermScanWifiCard($id, $funcName="", $content="")
+  IconCard($id, '<$PermScanWifiMd>', '', $funcName, $content)
+!endprocedure
+!procedure PermScanWifiGroup($id, $name='Perm Scan Wifi', $tech='')
+  IconGroup($id, 'IconGroup', '<$PermScanWifiLg>', $name, $tech)
+!endprocedure
+@enduml

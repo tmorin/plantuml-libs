@@ -1,0 +1,16 @@
+@startuml
+sprite $NetworkingAndContentDeliveryMd [14x14/16z] NOw30GGm34Lp2F_-yzP-HGow-GaFv4SaY00GvGWHHuIhHO6xfMvQH8qXQaIrPyAqbgg1HqpOrD7hN0hMwqfDHOPLC1qJwlH0-wHkjlW_IsS
+sprite $NetworkingAndContentDeliveryLg [20x20/16z] {
+RP25OGCm30HBqjF-ypQScCvyPdqT-LwuAKqOtpVdaN1mpsPOfq8faqipAcPqA5yf3Wxj6sf-N2lEDQi_JWLq0pMiirX_VqNDT_1AONHTgclk-SskiZowczNm
+DyStaY46c63TtCRNYGi
+}
+!procedure NetworkingAndContentDelivery($id, $name="Networking And Content Delivery", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/NetworkingAndContentDelivery', $name, $tech)
+!endprocedure
+!procedure NetworkingAndContentDeliveryCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetworkingAndContentDeliveryMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure NetworkingAndContentDeliveryGroup($id, $name='Networking And Content Delivery', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetworkingAndContentDeliveryLg>', $name, $tech)
+!endprocedure
+@enduml

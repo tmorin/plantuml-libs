@@ -1,0 +1,13 @@
+@startuml
+sprite $SwapVertMd [14x14/16z] RKx50O103AlWaCl-q-9msb_ZKf-cpnGiFYE9oEe8YvyC4Bd--65eV-hnkt_3gF43EKRImjGU5-y
+sprite $SwapVertLg [20x20/16z] bK_50S1034fTEVQVjgxduHV1H8VANNNix5LFil-l6XWQD69jQMrYksh-kTTihEThh7-xWwOniZS00Mixa1pSrhqug4M75G
+!procedure SwapVert($id, $name="Swap Vert", $tech="")
+  IconElement($id, 'material-4.0/Action/SwapVert', $name, $tech)
+!endprocedure
+!procedure SwapVertCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwapVertMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwapVertGroup($id, $name='Swap Vert', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwapVertLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $PersonPinCircleMd [14x14/16z] ROl50GGn4CCSnedwh_OOblGoweIhSrRtDKPhsCTsfZJfxsf1hR3Som5cm7jgvfuBU_ygKOhKj_FlfTUR0b3qPSBK3__UVKb95zm1
+sprite $PersonPinCircleLg [20x20/16z] {
+VS-50GCX44JHmPtVVxNHyyZ3dTKVrdjxcMa0xJZhWPW0fvMPaAG4msYHWBWsYmRC62VGjEXi-c7VYCx5STYNrkLEqi8otV8bgrM34aA1gerZuRGhl1GjraYs
+A8uHutMM8UkgDUdA6Frp1m
+}
+!procedure PersonPinCircle($id, $name="Person Pin Circle", $tech="")
+  IconElement($id, 'material-4.0/Maps/PersonPinCircle', $name, $tech)
+!endprocedure
+!procedure PersonPinCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$PersonPinCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure PersonPinCircleGroup($id, $name='Person Pin Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$PersonPinCircleLg>', $name, $tech)
+!endprocedure
+@enduml

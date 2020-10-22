@@ -1,0 +1,13 @@
+@startuml
+sprite $UnarchiveMd [14x14/16z] NOo54S0m30DzgXk6_QSDynyAwUNZnjU4Cb8Lf5KrYM4GIyfnmJKhX30KLm64fJo8u6TJL2M6gY7ytkrFR0KgaWUWXmm
+sprite $UnarchiveLg [20x20/16z] bSxL0KCn241HAaY5Plzf-opkkPyd0h0GlNneYHN9fNpIm-Z7zpEFmyGaoVcqOj8seiBOVcBDaaLl16SOcPBS0Uv2clo7rwraF_r-jRyVfePmeh3OM13csm
+!procedure Unarchive($id, $name="Unarchive", $tech="")
+  IconElement($id, 'material-4.0/Content/Unarchive', $name, $tech)
+!endprocedure
+!procedure UnarchiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnarchiveMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnarchiveGroup($id, $name='Unarchive', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnarchiveLg>', $name, $tech)
+!endprocedure
+@enduml

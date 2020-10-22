@@ -1,0 +1,16 @@
+@startuml
+sprite $SubscriptMd [14x14/16z] VSor0GCn44JHBoQlf_zgZodIYnQ7EJy2nE6lTXZy1nUdKkIuPIbzFlLPqStwqqI5e4W8PqZRrdBfbu5G7RWQMmsyQWbCh
+sprite $SubscriptLg [20x20/16z] {
+fSwr0GGm5CDGXVbx_scF6QgyHgNDhZpJDPc787dmKk2fg4DNuTLKZ9gy2LgcmBig5JuqgV8kQYq5_cnyVt6jvVkgNJzxSbg1iwvyJbQdzU4uS-USIvWfyS7r
+FZmRZW
+}
+!procedure Subscript($id, $name="Subscript", $tech="")
+  IconElement($id, 'material-4.0/Editor/Subscript', $name, $tech)
+!endprocedure
+!procedure SubscriptCard($id, $funcName="", $content="")
+  IconCard($id, '<$SubscriptMd>', '', $funcName, $content)
+!endprocedure
+!procedure SubscriptGroup($id, $name='Subscript', $tech='')
+  IconGroup($id, 'IconGroup', '<$SubscriptLg>', $name, $tech)
+!endprocedure
+@enduml

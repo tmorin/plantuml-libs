@@ -1,0 +1,16 @@
+@startuml
+sprite $PendingActionsMd [14x14/16z] LSv50iGW44HHdAAjxd_RcNZoqRVhjDTxkgeL4QXr1nYSsuLDXiP_RTecHL4HBT1TA-tDZt9wjCBdBL2Dur9mBUecxF91ssHzv4a6j_6QUo1DimsVVW
+sprite $PendingActionsLg [20x20/16z] {
+TT25ZGHH30HHVwOTL_xPtdaOI_pKefOjv-HUWoQdSYsDCMYbvfKALWXOPR6Epw0AsJCsamHMafE5qVyRGUYxxJ6ULklJhBEvfZhYnTo4_Y2ThK5FC9rD5oCk
+vbQR_6ytiGOm8lZ5KanH8jRwM5uFIRgI5LAqeRYOl7pq1m
+}
+!procedure PendingActions($id, $name="Pending Actions", $tech="")
+  IconElement($id, 'material-4.0/Action/PendingActions', $name, $tech)
+!endprocedure
+!procedure PendingActionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$PendingActionsMd>', '', $funcName, $content)
+!endprocedure
+!procedure PendingActionsGroup($id, $name='Pending Actions', $tech='')
+  IconGroup($id, 'IconGroup', '<$PendingActionsLg>', $name, $tech)
+!endprocedure
+@enduml

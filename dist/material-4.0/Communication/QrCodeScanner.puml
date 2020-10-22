@@ -1,0 +1,19 @@
+@startuml
+sprite $QrCodeScannerMd [14x14/16z] {
+LKu5WWH020Az4IVq_x-zxR9Ry4kp3c-UfoPGIsw0kLO1Htlt6BsF3a3Vo8Z4TWAmqeauAiEDHeHH2huoklaZiSwIpKpYSKNoJ97F3u5KnBb__pE2r2vWzGjP
+B_pI1G
+}
+sprite $QrCodeScannerLg [20x20/16z] {
+RP050iCm24K_uPD5uVwtNPbBNnl30MU8cH4FQ3G1B2BsKxQFXm6CHdtAb2rb5cpRznRPnz5ujzErQejIejMrDOZ4BoWfAxWu7dY3fapH_3DRoZuhACbnQ1uF
+v26327vzCGU-SYWGh8ySprfaidT5GjSrisOPjNVI-UpDTm6SDlat0seBEvlLwKpFk08
+}
+!procedure QrCodeScanner($id, $name="Qr Code Scanner", $tech="")
+  IconElement($id, 'material-4.0/Communication/QrCodeScanner', $name, $tech)
+!endprocedure
+!procedure QrCodeScannerCard($id, $funcName="", $content="")
+  IconCard($id, '<$QrCodeScannerMd>', '', $funcName, $content)
+!endprocedure
+!procedure QrCodeScannerGroup($id, $name='Qr Code Scanner', $tech='')
+  IconGroup($id, 'IconGroup', '<$QrCodeScannerLg>', $name, $tech)
+!endprocedure
+@enduml

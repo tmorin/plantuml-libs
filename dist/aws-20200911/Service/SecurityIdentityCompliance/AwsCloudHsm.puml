@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudHsmMd [14x14/16z] HSUr0G113CJ0mFRIzL_lCoZI-4vdvBit4_USDGycd8ZAtAfHJmlqAGA3njp2BTogoHn1jjRIn4BL8QyLp03LE7MMH7to_YDFN_fyw-SE
+sprite $AwsCloudHsmLg [20x20/16z] {
+JSy53WGn34DHgRP3dVjVTo53-SA-Sbx5dRldquirXnTMPGb4jwpnPvkHsUjDULffHJd9IDsMG0RSXB7ELj95ALux53BkHMgSbtB1DFO2cJ0NtQCVk_kydPAH
+yFx1tdKmAgkSeFgPFzi64dJGa6t_gZF246rDbov3srJ3PHFVymRMi8bV
+}
+!procedure AwsCloudHsm($id, $name="Aws Cloud Hsm", $tech="")
+  IconElement($id, 'aws-20200911/Service/SecurityIdentityCompliance/AwsCloudHsm', $name, $tech)
+!endprocedure
+!procedure AwsCloudHsmCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudHsmMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudHsmGroup($id, $name='Aws Cloud Hsm', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsCloudHsmLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ElectricalServicesMd [14x14/16z] VOxL0S0W34IBsy7RVzgwVH7tt3AbA1NpPg7ahd_RyuQsYV8aPhGKTlUVgiXdinV9pWiKPO-ROoIWctStWpBsXT2oiNEK6m
+sprite $ElectricalServicesLg [20x20/16z] {
+fSw53S1020LGfES7V_zfwzvuNupWz4zejPRXcSjOX6UIcSMDFXheGLEgg8zKmgppemjTHRQzLvlI8hf3MBPuVKEZ0r17N7Bio5ag5XhprgW6n8B5cjY8qfRJ
+xWDTsBuvqbeRqryJ
+}
+!procedure ElectricalServices($id, $name="Electrical Services", $tech="")
+  IconElement($id, 'material-4.0/Maps/ElectricalServices', $name, $tech)
+!endprocedure
+!procedure ElectricalServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElectricalServicesMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElectricalServicesGroup($id, $name='Electrical Services', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElectricalServicesLg>', $name, $tech)
+!endprocedure
+@enduml

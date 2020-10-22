@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDigitalTwinsMd [14x14/16z] NSc70GH12090383zL_pkVJus3W8e5SZ0bMWbk6TJBU-lxJErBRjwRyNgH4bI-L5sSpLZislLdTlFgYEgJudksXkuYx9dI2PoRmHdn2ig0AdnMZmuhcXM00y
+sprite $ServiceDigitalTwinsLg [20x20/16z] {
+LP37WGKW20Nr9Uo_ueMlc-OuPDQ5YVRw1zJmhznAi93ysCrKTU5sbN7BKiqdhoROIgwBe6f69i-5Z9toNbVTH4hoNnS1QemVPucTEA3gd3DP3MwrgkASCsvs
+nCU5QziYYTNGripkyB3lvMwqSFlnvNdp39aWEirD5tec-nVTDqpY8yPxLtLgqYR2dqTpHcgcVm4
+}
+!procedure ServiceDigitalTwins($id, $name="Service Digital Twins", $tech="")
+  IconElement($id, 'azure-v2/Item/InternetOfThings/ServiceDigitalTwins', $name, $tech)
+!endprocedure
+!procedure ServiceDigitalTwinsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDigitalTwinsMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure ServiceDigitalTwinsGroup($id, $name='Service Digital Twins', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDigitalTwinsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CallMd [14x14/16z] NOs53S1030E3vSRxJri6wqyKC4Y3Xz42bF86_pOj8ELZnaWfSRxuQRGPwbZ3z8lD0IX_lWjEuekQYsj5tQLX1m
+sprite $CallLg [20x20/16z] {
+ZOt50GKm24E1kcR_QRzh_HsZT8muxssZETnG0qt_Q-QkkMRlhWNw9mD5kfFQIiGLbbhyAzWiPcurgOyNYLP_2wgYMiwuyPsM35JSyNz7w3HYN-wQQx-CSqp7
+N04
+}
+!procedure Call($id, $name="Call", $tech="")
+  IconElement($id, 'material-4.0/Communication/Call', $name, $tech)
+!endprocedure
+!procedure CallCard($id, $funcName="", $content="")
+  IconCard($id, '<$CallMd>', '', $funcName, $content)
+!endprocedure
+!procedure CallGroup($id, $name='Call', $tech='')
+  IconGroup($id, 'IconGroup', '<$CallLg>', $name, $tech)
+!endprocedure
+@enduml

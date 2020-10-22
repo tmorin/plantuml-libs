@@ -1,0 +1,16 @@
+@startuml
+sprite $AccessTimeMd [14x14/16z] PKw34G0m3AoD_QTjVAgZX_jM6ckDgCcuerPy93c1ld0wZLrCMiRq9cpHH2zEebKigqkpkg9aaxdoRZp9BCxvW2oiu3azmzHBmSUSpRrd-Xq3
+sprite $AccessTimeLg [20x20/16z] {
+VP054aCX44DXXNvDxd_R3aurO-6n7lv8pEG5n0qaYIqEfE2zfRJTX3Paf5UNo0eZYf6OCuYIljKeF6haLXvtc2pSAE7RoZPAxk0hIxJ9hbiw6xboSE-vkKUL
+PNUZpz9fy9eL0UcmpnoCQ94EMa_9Dt3FDx3bLkotMgLc6lxe2G
+}
+!procedure AccessTime($id, $name="Access Time", $tech="")
+  IconElement($id, 'material-4.0/Device/AccessTime', $name, $tech)
+!endprocedure
+!procedure AccessTimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AccessTimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AccessTimeGroup($id, $name='Access Time', $tech='')
+  IconGroup($id, 'IconGroup', '<$AccessTimeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+
+skinparam {{= it.entry.eventstorming.entity }}<<{{= it.entry.element.name }}>> {
+    StereotypeFontSize {{= it.entry.eventstorming.stFontSize || '$FONT_SIZE_SM' }}
+    shadowing false
+    FontColor {{= it.entry.eventstorming.fgColor || '$FONT_COLOR' }}
+    BorderColor {{= it.entry.eventstorming.fgColor || '$FONT_COLOR' }}
+    BackgroundColor {{= it.entry.eventstorming.bgColor || 'none' }}
+}
+
+!procedure {{= it.entry.element.name }}($id, $label="")
+  EsEntity('{{= it.entry.eventstorming.entity }}', '{{= it.entry.element.name }}', $id, $label)
+!endprocedure
+
+@enduml

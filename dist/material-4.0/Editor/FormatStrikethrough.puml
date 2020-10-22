@@ -1,0 +1,13 @@
+@startuml
+sprite $FormatStrikethroughMd [14x14/16z] XSh50S0W50FG97ND_jFYS6mVyXMVU3P48ZT29ixsGg7HVVUSIVyn-NMMmfJBHCf_NpuEOPYSjmO9lo8
+sprite $FormatStrikethroughLg [20x20/16z] jOw30G0n301h1ljF-xPvHGpnaf06Gkz37i3Ubn20c0a0qxG-CJVscKzRgyKXdcSqszYSQd8dx4c7dFsLNG9Y43zH0W
+!procedure FormatStrikethrough($id, $name="Format Strikethrough", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatStrikethrough', $name, $tech)
+!endprocedure
+!procedure FormatStrikethroughCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatStrikethroughMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatStrikethroughGroup($id, $name='Format Strikethrough', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatStrikethroughLg>', $name, $tech)
+!endprocedure
+@enduml

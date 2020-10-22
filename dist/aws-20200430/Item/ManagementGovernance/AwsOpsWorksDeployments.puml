@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsWorksDeploymentsMd [14x14/16z] dKor0S0038e2_pzSjwaM5y0MSxUBPVxQ7F3p0tVallHSUrihvXhrj4NcFDJSvvUOPacLdMgByWW
+sprite $AwsOpsWorksDeploymentsLg [20x20/16z] jOXH5W0H3CJAQplpzlu7NW3u5cWQwOGW5sPtKttVWBD4cZ5kAU-voyHzdnbCUTFCagebKK7UCZ0tR9BzmouPtUK7
+!procedure AwsOpsWorksDeployments($id, $name="Aws Ops Works Deployments", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOpsWorksDeployments', $name, $tech)
+!endprocedure
+!procedure AwsOpsWorksDeploymentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOpsWorksDeploymentsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOpsWorksDeploymentsGroup($id, $name='Aws Ops Works Deployments', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsOpsWorksDeploymentsLg>', $name, $tech)
+!endprocedure
+@enduml

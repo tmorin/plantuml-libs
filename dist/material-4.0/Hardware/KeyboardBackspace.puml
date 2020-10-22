@@ -1,0 +1,13 @@
+@startuml
+sprite $KeyboardBackspaceMd [14x14/16z] Oo09C38ZytXua3ZSlCWSVcvEBZ1WGkMXQSFaCh8ma0m
+sprite $KeyboardBackspaceLg [20x20/16z] Ow0ROE9cHXTYvELd9Ip4X5M8dnSE-DZ0OdneOX11LBru17cn2V8mCz0N
+!procedure KeyboardBackspace($id, $name="Keyboard Backspace", $tech="")
+  IconElement($id, 'material-4.0/Hardware/KeyboardBackspace', $name, $tech)
+!endprocedure
+!procedure KeyboardBackspaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeyboardBackspaceMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeyboardBackspaceGroup($id, $name='Keyboard Backspace', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeyboardBackspaceLg>', $name, $tech)
+!endprocedure
+@enduml

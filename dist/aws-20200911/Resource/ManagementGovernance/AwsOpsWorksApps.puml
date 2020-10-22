@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsWorksAppsMd [14x14/16z] hSwr0S0W40NGtBVzDuvZFQ-2y_Ba_e0_t7yU7IMC7mIhCnnsqTAtwJTV5jUylIu
+sprite $AwsOpsWorksAppsLg [20x20/16z] pSst0O1G24NH-ycm_y3MPajFHtp82J9PUoDI7DJtNd0GWlc18HC7LxbvbV7_tjJ1BEHeiG4
+!procedure AwsOpsWorksApps($id, $name="Aws Ops Works Apps", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsOpsWorksApps', $name, $tech)
+!endprocedure
+!procedure AwsOpsWorksAppsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOpsWorksAppsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOpsWorksAppsGroup($id, $name='Aws Ops Works Apps', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksAppsLg>', $name, $tech)
+!endprocedure
+@enduml

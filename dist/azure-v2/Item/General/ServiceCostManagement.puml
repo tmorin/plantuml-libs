@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCostManagementMd [14x14/16z] 7Oo10G101083-VqdVdK0023Q14oDIOWaENFEfP8kjO3mgBB9BKyOFQq8xab6SpLSmOhWnPPZBp6NPFNvYjIIdgxYo0U0Vlj6hY7u306JHja7
+sprite $ServiceCostManagementLg [20x20/16z] {
+TOv15iGW349D0EpzJpmLwtCrVnCIuEduJst6fNdeSofVJbH-4PZnDUrxSzgbQ7uthJQstUYEY_C02vOSkZ3VCLLDUNffK7DXL3KSBMW64rNOjszQwKTZL88i
+2DjVdzacgvfHdJ_FIsBhkEIZvhDZWS_BbDVWs9IVWsjy50uv_G
+}
+!procedure ServiceCostManagement($id, $name="Service Cost Management", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCostManagement', $name, $tech)
+!endprocedure
+!procedure ServiceCostManagementCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCostManagementMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCostManagementGroup($id, $name='Service Cost Management', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCostManagementLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceGlobeSuccessMd [14x14/16z] JSpB0KGX24DHI2AX_uf7cD-xAuyA4S6wAOYOZgzEaZyC5P6mNHQAH41T7fJ04NbGNYNR69YxjDfRAg_ItMw3710yHqd5116Wk1ZZVzxVp2S-V04
+sprite $ServiceGlobeSuccessLg [20x20/16z] {
+PSe95WD1209H0T6v_ucZwUofMVi_uWIIyHMeJ0aHU55MrsI6z23tqaQCR-e-QDTZY1fQ5JnFOepNCT4p3NDCLwiUz6493tM_ZDSCERIMCCPGYqEBPAu5U_3a
+ICMz7BohIICUM2jbm7n88fGf1Aru92S9ocQyWd8IuoV-4Q0KyRFQ7iiR
+}
+!procedure ServiceGlobeSuccess($id, $name="Service Globe Success", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceGlobeSuccess', $name, $tech)
+!endprocedure
+!procedure ServiceGlobeSuccessCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceGlobeSuccessMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceGlobeSuccessGroup($id, $name='Service Globe Success', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceGlobeSuccessLg>', $name, $tech)
+!endprocedure
+@enduml

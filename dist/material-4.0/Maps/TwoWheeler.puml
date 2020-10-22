@@ -1,0 +1,16 @@
+@startuml
+sprite $TwoWheelerMd [14x14/16z] XSk53GD144FHlmo-7VVVRLWH9ayqOFDFoealsODKFh_Kl8xWaWfrxx0IZ71SlbFipepbXzCiBrUUQzkRwfZfp66nJbfHNtL8SXJ8l6L-kW4
+sprite $TwoWheelerLg [20x20/16z] {
+jSr50a8n34NHLzVqxd-tVCEdSEgIHF-HbrdvlbkKRQrwCsYJlctg9cnhgAM1bRJjsGNVEMLjV3OUwi16K8J7fVd9WcW45KwnaEKv2ZaMcwcEj4ssl38v0L5r
+_xSiWM5EFlWjO66G58SrhujlDg9-xGO
+}
+!procedure TwoWheeler($id, $name="Two Wheeler", $tech="")
+  IconElement($id, 'material-4.0/Maps/TwoWheeler', $name, $tech)
+!endprocedure
+!procedure TwoWheelerCard($id, $funcName="", $content="")
+  IconCard($id, '<$TwoWheelerMd>', '', $funcName, $content)
+!endprocedure
+!procedure TwoWheelerGroup($id, $name='Two Wheeler', $tech='')
+  IconGroup($id, 'IconGroup', '<$TwoWheelerLg>', $name, $tech)
+!endprocedure
+@enduml

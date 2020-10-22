@@ -1,0 +1,119 @@
+# Service Storage Azure Files
+
+```text
+azure-v2/Item/General/ServiceStorageAzureFiles
+```
+
+```text
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+```
+
+|icon|card|element|group|
+|---|---|---|---|
+|![](ServiceStorageAzureFiles.png)|![](ServiceStorageAzureFiles.card.png)|![](ServiceStorageAzureFiles.element.png)|![](ServiceStorageAzureFiles.group.png)|
+
+
+
+## card
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFilesCard('service_storage_azure_files', 'Service Storage Azure Files', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFilesCard('service_storage_azure_files', 'Service Storage Azure Files', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFiles('service_storage_azure_files', 'Service Storage Azure Files', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFiles('service_storage_azure_files', 'Service Storage Azure Files', 'an optional tech field')
+@enduml
+```
+
+
+## group
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFilesGroup('service_storage_azure_files', 'Service Storage Azure Files', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorageAzureFiles element
+include('azure-v2/Item/General/ServiceStorageAzureFiles')
+ServiceStorageAzureFilesGroup('service_storage_azure_files', 'Service Storage Azure Files', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml
+```
+

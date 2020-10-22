@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureAdDomainServicesMd [14x14/16z] JSw50KKX20LGuTQF_UTz7RR7Wd6KnfWAEA5fF2ZIxXURBXPs9Qxp1m0-MONUYdTYeEkK4WhOVEgNxQFUAMtwdF-WkUllAvU0du-k3AhElW8
+sprite $ServiceAzureAdDomainServicesLg [20x20/16z] {
+VSu50e0m30D0chIT_F_117S2iviElx4dmN4dOmJkv95X5wFBCcuako14b9Nq4obHfd0X4v3qp1sD2W3Pf8d9e1mMD8cThRaxwBJTelHQOhuLjbX4QJrjUJ7D
+P35RnV8QgN2ndlkpkQphXsbf9Xcr9ctO4L15I4O
+}
+!procedure ServiceAzureAdDomainServices($id, $name="Service Azure Ad Domain Services", $tech="")
+  IconElement($id, 'azure-v2/Item/Identity/ServiceAzureAdDomainServices', $name, $tech)
+!endprocedure
+!procedure ServiceAzureAdDomainServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureAdDomainServicesMd>', 'Identity', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureAdDomainServicesGroup($id, $name='Service Azure Ad Domain Services', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureAdDomainServicesLg>', $name, $tech)
+!endprocedure
+@enduml

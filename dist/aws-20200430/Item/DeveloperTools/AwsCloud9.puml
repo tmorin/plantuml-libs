@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsCloud9Md [14x14/16z] XOot0SGm008hWU3sd_VVsUvq7R4huAkIZvJjNXfFQfsQY0mpTVP2DCeqkohOK74qRTdMSKoJ9dbU3xhW3m
+sprite $AwsCloud9Lg [20x20/16z] jOx70G11208_8WhRVxsNy_jcendzW-sFgrXwUG5cw9xhf3qwo9iJyvzDWkD80-n4zb3icSxqubyUONCQMjvQSYpilhBTSzhoxBwE9BaSPlJUK3ovXFj4Vp01
+!procedure AwsCloud9($id, $name="Aws Cloud9", $tech="")
+  IconElement($id, 'aws-20200430/Item/DeveloperTools/AwsCloud9', $name, $tech)
+!endprocedure
+!procedure AwsCloud9Card($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloud9Md>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsCloud9Group($id, $name='Aws Cloud9', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCloud9Lg>', $name, $tech)
+!endprocedure
+@enduml

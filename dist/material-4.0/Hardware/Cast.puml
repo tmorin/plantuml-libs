@@ -1,0 +1,16 @@
+@startuml
+sprite $CastMd [14x14/16z] LSt50SKm30DGcSA9zf_sGxdlPXJUp2y6vxhGoyHb52-FAaEULUBAprbmN5KCm-XdfOK5J6UbIYrZhqgcj6f4vpzTNDJWiF0ml7q1
+sprite $CastLg [20x20/16z] {
+ZT1LWiCm40DGIQQPaEv_sjrowtpbcHbmbKPCXi339mVbPD57OLfoO38iRWsJiF3rdPUZdFjaUszp7rZYSCvzbU3YvRHs8TBZTrxVl0kxETsbUqDp_rcxDwGB
+l0AwOLZoFIKsext_W152DBG1nOYRWgl-0G
+}
+!procedure Cast($id, $name="Cast", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Cast', $name, $tech)
+!endprocedure
+!procedure CastCard($id, $funcName="", $content="")
+  IconCard($id, '<$CastMd>', '', $funcName, $content)
+!endprocedure
+!procedure CastGroup($id, $name='Cast', $tech='')
+  IconGroup($id, 'IconGroup', '<$CastLg>', $name, $tech)
+!endprocedure
+@enduml

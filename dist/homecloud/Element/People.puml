@@ -1,0 +1,16 @@
+@startuml
+sprite $PeopleMd [14x14/16z] XObN5W913CESiDu-e_kVbkP_KAgUzOVA2ZktwcPF0jX0qXkwuLP2j_HmHHP_rCj7TpxSjSCk4yu2l1AkZwtgK9z7ltW1
+sprite $PeopleLg [20x20/16z] {
+jOw50SCm30JV7uu5-szRcHTepY06VC6bBm6-UYsNkmiW8Rgp6Kvw2pNUC0p9GhpeKDmFu30NOiA4814BiZdZRsoFbdxvACFqsTeY7G6Bk48iBcZVQd4Fdmx4
+JcGDY3_p0m
+}
+!procedure People($id, $name="People", $tech="")
+  IconElement($id, 'homecloud/Element/People', $name, $tech)
+!endprocedure
+!procedure PeopleCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeopleMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure PeopleGroup($id, $name='People', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeopleLg>', $name, $tech)
+!endprocedure
+@enduml

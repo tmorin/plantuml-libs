@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceWebSlotsMd [14x14/16z] VSi53WL1309GYatc_WV-kXBT5sq174ZW9k54EpdEoSzHjNdlfe8qnpbxUs-bytp9EgxGwFBlSgirNKgOZCI5DDHV2ievM7W3
+sprite $ServiceWebSlotsLg [20x20/16z] {
+XSq50a0X309Gjm76_U_xknFxMUal_a2mCvW7U487fs0dS8bl56GCApzGMkPs81V3WZ2FiCMYLaLkEKBorLeJIYk1Y-LVivFPADB9XZfOVhNftomRpQLaqoDf
+ocZ6Z24SszY9msQ0no1I3m
+}
+!procedure ServiceWebSlots($id, $name="Service Web Slots", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceWebSlots', $name, $tech)
+!endprocedure
+!procedure ServiceWebSlotsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceWebSlotsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceWebSlotsGroup($id, $name='Service Web Slots', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceWebSlotsLg>', $name, $tech)
+!endprocedure
+@enduml

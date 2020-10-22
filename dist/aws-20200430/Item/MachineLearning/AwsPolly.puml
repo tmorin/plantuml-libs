@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsPollyMd [14x14/16z] VSa74W813CD0IcBPuV_lfNUuqzGTpNV96oJr4z6aEc-YUGeyacuRTSDOLndPDFYCjC_Lll3j8HyIClS45FF83ing9m
+sprite $AwsPollyLg [20x20/16z] {
+fO-5ZGCm34MbYpzc_tcFogsWy89ckv_10IQtkd4owrQ9jE1oSwiJ1hiNODc_Qj8N7I4cb82JZY8uelOcJqe1o2zKJptHlrGpwykdb2D7Dd2b4m1EMplJ2vlu
+lH8yJet56sNibkm3ko_m0m
+}
+!procedure AwsPolly($id, $name="Aws Polly", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsPolly', $name, $tech)
+!endprocedure
+!procedure AwsPollyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsPollyMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsPollyGroup($id, $name='Aws Polly', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsPollyLg>', $name, $tech)
+!endprocedure
+@enduml

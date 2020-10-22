@@ -1,0 +1,13 @@
+@startuml
+sprite $KingBedMd [14x14/16z] VSU50O0m34JHEnnY-q-BExIladpaiLXnZJRSOtdDKjA3Wn2zBAK3AKBsEiSGfnxGg_HT4cu-Cmy1e2LMfM96x8Yi2G
+sprite $KingBedLg [20x20/16z] hSW54WKX30FGu90EvFwd_IwhOykh5_Dvwp_cth-cvwLtR-yVzUozFxliz9U6ZAJ4Pny9GD16098sqhKVekZ3XwSYdYpY9n7ptG4
+!procedure KingBed($id, $name="King Bed", $tech="")
+  IconElement($id, 'material-4.0/Social/KingBed', $name, $tech)
+!endprocedure
+!procedure KingBedCard($id, $funcName="", $content="")
+  IconCard($id, '<$KingBedMd>', '', $funcName, $content)
+!endprocedure
+!procedure KingBedGroup($id, $name='King Bed', $tech='')
+  IconGroup($id, 'IconGroup', '<$KingBedLg>', $name, $tech)
+!endprocedure
+@enduml

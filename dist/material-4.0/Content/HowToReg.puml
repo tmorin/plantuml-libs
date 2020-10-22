@@ -1,0 +1,16 @@
+@startuml
+sprite $HowToRegMd [14x14/16z] XKo54O0m44lzZSl-q-BGy_f7iLhTsWH2ilzeEv7_o4-aFyf1IvZhdkjTLIJ6zV5wbJHepJUe90D2obrXPjuXWiKw
+sprite $HowToRegLg [20x20/16z] {
+fS-r0K0X30JGmpst_xJVNIfU1t7qCoaxt3bE4cuQPnONcek02yM5nrNYfE4k2el63stE_Pp5J5Kgp6mMqcrVuHWW5Y7DN_wyeGAPgUmhHiwgGZwtTYLFYWTo
+HBSH
+}
+!procedure HowToReg($id, $name="How To Reg", $tech="")
+  IconElement($id, 'material-4.0/Content/HowToReg', $name, $tech)
+!endprocedure
+!procedure HowToRegCard($id, $funcName="", $content="")
+  IconCard($id, '<$HowToRegMd>', '', $funcName, $content)
+!endprocedure
+!procedure HowToRegGroup($id, $name='How To Reg', $tech='')
+  IconGroup($id, 'IconGroup', '<$HowToRegLg>', $name, $tech)
+!endprocedure
+@enduml

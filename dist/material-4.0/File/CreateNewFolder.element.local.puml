@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the CreateNewFolder element
+include('material-4.0/File/CreateNewFolder')
+CreateNewFolder('create_new_folder', 'Create New Folder', 'an optional tech field')
+@enduml

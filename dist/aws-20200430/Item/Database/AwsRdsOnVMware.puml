@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsOnVMwareMd [14x14/16z] NOw50SG020DVIWx8_lFM7NVIB_BTExH4rh3Mn5f4sqHbeAnj4WX2oPhAIuPZxILhbhcDTWa1Qnfgbs9cR_zCzZpXTNBfWJXHhTGlcW
+sprite $AwsRdsOnVMwareLg [20x20/16z] {
+ZL07bWKX27kh4E9axd_UjRlbjrZfaEjpIF--WiLKHOQ6pXBhhsqcqxGIDQPKBHWwITpXNhyxCS24GA93MwKm1et2Z9MNcnb0vbrywcY55eZC-bl1fGe0hCJf
+lxu4406iAW1K0Sjm7mcLlwXBuOf2-gm1rZkY2RkmrAjx0_IFiNf_Zcy
+}
+!procedure AwsRdsOnVMware($id, $name="Aws Rds On V Mware", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsOnVMware', $name, $tech)
+!endprocedure
+!procedure AwsRdsOnVMwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsOnVMwareMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsOnVMwareGroup($id, $name='Aws Rds On V Mware', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsOnVMwareLg>', $name, $tech)
+!endprocedure
+@enduml

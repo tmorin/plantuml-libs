@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCodeMd [14x14/16z] LSt70K8X54JH3qo2_Wjsp7f8bzKRlwxrQvnVscT_73d-2FG4gY1BYrg0PTXk45veEORIhIPI4FffCBkt6FVPxBpprE3wDQu_Dm
+sprite $ServiceCodeLg [20x20/16z] {
+ZP35GGLH54DdYDr7_mKJuBkVJMoNxLFshrjsQDqYvlkMq8-wkSLWV4q87hseVtFe17KMZbqITsbdm4cD_gh4rB-9eAbrHlGqfgxTJ9h9ZaoJg2c6gMNaBz3h
+bx6oPlxyNtU37_towB_j0Jy
+}
+!procedure ServiceCode($id, $name="Service Code", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCode', $name, $tech)
+!endprocedure
+!procedure ServiceCodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCodeMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCodeGroup($id, $name='Service Code', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCodeLg>', $name, $tech)
+!endprocedure
+@enduml

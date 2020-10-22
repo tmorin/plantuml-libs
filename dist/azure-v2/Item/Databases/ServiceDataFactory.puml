@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDataFactoryMd [14x14/16z] POhL0KC14C9EuUJjlsxTcpz8r2BJvO5Q0gy5H4JoiMQxUlQrvihNkhXmiNokMDVXeupTx0CFTuT_goL6OjNlItCqrdonEzEFyY09LZTl-1a
+sprite $ServiceDataFactoryLg [20x20/16z] {
+bSq50W8n30J0D9uk___kkU1mMvyQlKrRyq2iPgPoXoAY7c5oXnPbimVypj2NmAvOczk3jM0YjNjh0I6flBE9m5Auit00LhYtBL-jQhA-jSqQMJVYwaIv6otM
+geXYD_T4UG3XVR9y_kEMOXaHDIUts0W
+}
+!procedure ServiceDataFactory($id, $name="Service Data Factory", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceDataFactory', $name, $tech)
+!endprocedure
+!procedure ServiceDataFactoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDataFactoryMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceDataFactoryGroup($id, $name='Service Data Factory', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDataFactoryLg>', $name, $tech)
+!endprocedure
+@enduml

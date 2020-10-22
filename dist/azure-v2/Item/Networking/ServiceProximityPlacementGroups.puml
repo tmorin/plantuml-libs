@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceProximityPlacementGroupsMd [14x14/16z] LKw30S1038ov_xnrtuWEgeRmB5GbDHsPiGgC9SO4X7XrheUkZADAEBBapVhEgjyikvVCpPdD_CtCxCxixzde3OKhCDdKTsU8ycTNS08
+sprite $ServiceProximityPlacementGroupsLg [20x20/16z] {
+ZP254GCX403FxVd-smqsSLjyyGC04hWX14FnWsFgnapngb3CXXdBhv2ecGaymjqnu61i76ndxcv2F5lSBjfv64dcsUBgib998ZFzwevMEjQruxhEQwsBgkiw
+KnrtpFRgEiCD_dQV__68sBkul8lVkpXV
+}
+!procedure ServiceProximityPlacementGroups($id, $name="Service Proximity Placement Groups", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceProximityPlacementGroups', $name, $tech)
+!endprocedure
+!procedure ServiceProximityPlacementGroupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceProximityPlacementGroupsMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceProximityPlacementGroupsGroup($id, $name='Service Proximity Placement Groups', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceProximityPlacementGroupsLg>', $name, $tech)
+!endprocedure
+@enduml

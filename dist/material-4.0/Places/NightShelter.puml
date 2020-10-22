@@ -1,0 +1,16 @@
+@startuml
+sprite $NightShelterMd [14x14/16z] RSV50S0m30D0MmhZ_jEMkRdVoO3g8wWLLrnVk2EnR-ALkwcdtjkojC_veEAkqOhW78EtbkToN-HpXsqm1yZ73
+sprite $NightShelterLg [20x20/16z] {
+bSw50O0W04HHwcYu_QUrk_tsKm7nDwrFP4aSAB0hR4Lb3cMr4BY4YHmtkT7Yrk9isPAiUqj8CGWftSOoj1m6AXipmGsMDoO1exNP6JY4ZKrpzfTulpvuvwUS
+X_XU2m
+}
+!procedure NightShelter($id, $name="Night Shelter", $tech="")
+  IconElement($id, 'material-4.0/Places/NightShelter', $name, $tech)
+!endprocedure
+!procedure NightShelterCard($id, $funcName="", $content="")
+  IconCard($id, '<$NightShelterMd>', '', $funcName, $content)
+!endprocedure
+!procedure NightShelterGroup($id, $name='Night Shelter', $tech='')
+  IconGroup($id, 'IconGroup', '<$NightShelterLg>', $name, $tech)
+!endprocedure
+@enduml

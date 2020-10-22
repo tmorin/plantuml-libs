@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceUserSubscriptionsMd [14x14/16z] HOq50W11208DqFl_Yu_jsRJ014YwRPmYJgJIApfhS8epw1EX1PzAjneZncWIxheoz4OLmybC8APWAgKmh5fwf2waMLyqRj-b5CL31Zy
+sprite $ServiceUserSubscriptionsLg [20x20/16z] {
+VOw50SCm30GV1Db_ubfncIxe4-8AHRn2sM-IaOEUdSUyIcvJ5G-dkfB_7TQn5y-rS9yK0Jw6z75q6P2qbHmRoRHEDPljnMqvD8LL5Pp5mx4G63Lelkc1j-Ni
+h96Zw1xLcTNhYXcXw6So34I-kNFQyKnD7kWNHE02
+}
+!procedure ServiceUserSubscriptions($id, $name="Service User Subscriptions", $tech="")
+  IconElement($id, 'azure-v2/Item/AzureStack/ServiceUserSubscriptions', $name, $tech)
+!endprocedure
+!procedure ServiceUserSubscriptionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceUserSubscriptionsMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+!procedure ServiceUserSubscriptionsGroup($id, $name='Service User Subscriptions', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceUserSubscriptionsLg>', $name, $tech)
+!endprocedure
+@enduml

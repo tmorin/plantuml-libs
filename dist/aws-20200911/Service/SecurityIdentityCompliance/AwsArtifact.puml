@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsArtifactMd [14x14/16z] LSUt0SK020FH7nGGx3-l4vMlkfUxskoys4cRLyh5JWiGHTxgKj7wcRh5546W-AXDsSngIgnUZRfWwr9g9kmI7IcP6JE0pJoQsBJxrjRTg_tb2G
+sprite $AwsArtifactLg [20x20/16z] {
+HSe93iC020D1DHYCJV__tkQWokeUhRR-H_9Fqej-p1TfqRwa4q1WrIUQaJohexHsqed0Xpfnlp0XAZwbu_acQuWCLXnEwFuW4mMWJeWrcrdb2nJzMYBNrEE1
+XYdI3ZLqMzMtZwfAX7cQPiQXwQuYsy77faDV8J63zDeegeuy62UjUQQwmqNhiSrFQoillj-BFm
+}
+!procedure AwsArtifact($id, $name="Aws Artifact", $tech="")
+  IconElement($id, 'aws-20200911/Service/SecurityIdentityCompliance/AwsArtifact', $name, $tech)
+!endprocedure
+!procedure AwsArtifactCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsArtifactMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsArtifactGroup($id, $name='Aws Artifact', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsArtifactLg>', $name, $tech)
+!endprocedure
+@enduml

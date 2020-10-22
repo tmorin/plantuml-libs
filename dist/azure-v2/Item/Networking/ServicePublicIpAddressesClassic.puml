@@ -1,0 +1,13 @@
+@startuml
+sprite $ServicePublicIpAddressesClassicMd [14x14/16z] JSk54S0W40J0S9Q1_lkDOek-0M0754dk9BGMTscfrUnSdUJi4dd7R_pTwb4f-lOV0Nr_qJuNJs5snExekXi
+sprite $ServicePublicIpAddressesClassicLg [20x20/16z] ZSu50WGX20LGVi2ezx_lTau_Eo7E0kVW6gF_6gCyZGc_RklRNlElTjlBQIxfd3ELSzhS4_sOcNhlEO9cm8hm-nwW56W1t__yqrAhkRXcMsMvveoL_28m5skk
+!procedure ServicePublicIpAddressesClassic($id, $name="Service Public Ip Addresses Classic", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServicePublicIpAddressesClassic', $name, $tech)
+!endprocedure
+!procedure ServicePublicIpAddressesClassicCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServicePublicIpAddressesClassicMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServicePublicIpAddressesClassicGroup($id, $name='Service Public Ip Addresses Classic', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServicePublicIpAddressesClassicLg>', $name, $tech)
+!endprocedure
+@enduml

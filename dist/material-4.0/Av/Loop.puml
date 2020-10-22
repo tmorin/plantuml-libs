@@ -1,0 +1,16 @@
+@startuml
+sprite $LoopMd [14x14/16z] LKw50S0m28FEiVn_xQpkM8J-nJGiLXuIX-uzLKX4oftt4oRnFpii3yG_h5VEBfao_ISzPtPaW12__PGrKyG5xUg7maStDZlDtmC
+sprite $LoopLg [20x20/16z] {
+VS-35S1044NHqHg__svZunqbTqr_HNvGnWiXUxaGTqob2qg7M47TGIUiJ1IGDeARba-V1R9OW6qh3E5n3KRQZ0_Btsjb6PmcUyZ-23zIdNvrtwKYAwDTtiOP
+KuslRmiZPxhtGfpehm4
+}
+!procedure Loop($id, $name="Loop", $tech="")
+  IconElement($id, 'material-4.0/Av/Loop', $name, $tech)
+!endprocedure
+!procedure LoopCard($id, $funcName="", $content="")
+  IconCard($id, '<$LoopMd>', '', $funcName, $content)
+!endprocedure
+!procedure LoopGroup($id, $name='Loop', $tech='')
+  IconGroup($id, 'IconGroup', '<$LoopLg>', $name, $tech)
+!endprocedure
+@enduml

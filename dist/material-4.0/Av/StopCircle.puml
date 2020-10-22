@@ -1,0 +1,16 @@
+@startuml
+sprite $StopCircleMd [14x14/16z] PSsr0S102030TnpsdpRkkGed_LGIeNea51iwapjj4SuBZsXRYzE2jwRUcNupVas-hhm-lBzl6gjoIpyp
+sprite $StopCircleLg [20x20/16z] {
+VP053W0X30IlAQx__-tX3XDhwhlV0oG4fmG8vmDMG4kHc4auh2a_a9FWnfnDuoBEg4IiYfYBWSfRL6oCJ_Wv5pUIDKTEkTFiuSRvb_Ld1xisidj0Lg-SWAUd
+Apy
+}
+!procedure StopCircle($id, $name="Stop Circle", $tech="")
+  IconElement($id, 'material-4.0/Av/StopCircle', $name, $tech)
+!endprocedure
+!procedure StopCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$StopCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure StopCircleGroup($id, $name='Stop Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$StopCircleLg>', $name, $tech)
+!endprocedure
+@enduml

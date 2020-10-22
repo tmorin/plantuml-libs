@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonAugmentedAiA2IMd [14x14/16z] BSg73GH13090wTSaN__zFXVOECA-epjiKdo-5OU36PPL-2F0ex8QOsYSjWccpQ2ljJcQpepQLp3PCaIrwWJ5uD5YTKvRsvM8B9ZgshqynAUhtZof7ZOF_m
+sprite $AmazonAugmentedAiA2ILg [20x20/16z] {
+PSe9ZWDH20DHpJS6cxx_VGUKFIdjJwLxTIitlziTlNXdtT6BLXpoy7vwuny55A35DMT49kaycOj3dMa5m-B1Mjk5ioT24gYnDag8cHcgSxSJ1fqKL1XQmpp5
+83XVQgsHbGrtfCrOMuG618cd90rTMLV7mJ6Hcgv1mMIxKFR3BbMqtSoXjUiQD692sa-R_6pjhYzV-y5_
+}
+!procedure AmazonAugmentedAiA2I($id, $name="Amazon Augmented Ai A2 I", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AmazonAugmentedAiA2I', $name, $tech)
+!endprocedure
+!procedure AmazonAugmentedAiA2ICard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonAugmentedAiA2IMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AmazonAugmentedAiA2IGroup($id, $name='Amazon Augmented Ai A2 I', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AmazonAugmentedAiA2ILg>', $name, $tech)
+!endprocedure
+@enduml

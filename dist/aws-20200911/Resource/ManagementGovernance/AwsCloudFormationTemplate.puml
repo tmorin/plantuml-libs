@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudFormationTemplateMd [14x14/16z] JSn50GH140F0yFXNV0nRhyQ0RVecm5Fyf0wmlU691U9stbOLS5Y39DuT8ZpfTPaTIk9hvvoZTVbSYhzBHwUNlsPk-xda0lAJCdra0FiZt04
+sprite $AwsCloudFormationTemplateLg [20x20/16z] {
+ZP150aLH248j1E_-z_kxyvsX2PXPFE5se1T5wigSQcMFN6ipgzvg1bX6HFgjjZ18aLJTQWNuVVVx3ttx4Nxa_gE474c3MmtTiUc79jz_TDlvnVr7yEr7I_z_
+O54Fd6hlsUy1
+}
+!procedure AwsCloudFormationTemplate($id, $name="Aws Cloud Formation Template", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsCloudFormationTemplate', $name, $tech)
+!endprocedure
+!procedure AwsCloudFormationTemplateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudFormationTemplateMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudFormationTemplateGroup($id, $name='Aws Cloud Formation Template', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationTemplateLg>', $name, $tech)
+!endprocedure
+@enduml

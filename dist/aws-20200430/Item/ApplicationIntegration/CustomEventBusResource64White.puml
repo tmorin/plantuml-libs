@@ -1,0 +1,13 @@
+@startuml
+sprite $CustomEventBusResource64WhiteMd [14x14/16z] OnW6
+sprite $CustomEventBusResource64WhiteLg [20x20/16z] OnXKO1G
+!procedure CustomEventBusResource64White($id, $name="Custom Event Bus Resource64 White", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/CustomEventBusResource64White', $name, $tech)
+!endprocedure
+!procedure CustomEventBusResource64WhiteCard($id, $funcName="", $content="")
+  IconCard($id, '<$CustomEventBusResource64WhiteMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure CustomEventBusResource64WhiteGroup($id, $name='Custom Event Bus Resource64 White', $tech='')
+  IconGroup($id, 'IconGroup', '<$CustomEventBusResource64WhiteLg>', $name, $tech)
+!endprocedure
+@enduml

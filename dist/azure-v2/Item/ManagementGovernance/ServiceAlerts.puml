@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceAlertsMd [14x14/16z] PSU75GCX30HHPQd_XkzWSFOG_bibCn0ZTz0YTpX_YdoiKeMetaSLeaaLreByM1CnhA7CwKrrhRfdsIudxS3dLFdh1W
+sprite $ServiceAlertsLg [20x20/16z] ZSi53i1024HHRA3tFt53lUi_Dda4Metlv5tcPm2kPRT1I72PNkP2xBN9Q_7OkIBjBEtC59NXCMMh38QnRP5jndQjjBFmk1R4uYuFcT5J_WgLgJDLFLIt0m
+!procedure ServiceAlerts($id, $name="Service Alerts", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAlerts', $name, $tech)
+!endprocedure
+!procedure ServiceAlertsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAlertsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceAlertsGroup($id, $name='Service Alerts', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAlertsLg>', $name, $tech)
+!endprocedure
+@enduml

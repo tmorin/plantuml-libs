@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTThingBankMd [14x14/16z] LOu50WGW3CCcwVZ_Zw_Zl6W85X7vIcnoD7ATlD2qGnjJU0Kic3Irg4ADCeVJKHLzhkiY3a6rbf9WWboQByqwjEV4qvLmL7PXVCNm_xF_Npy
+sprite $IoTThingBankLg [20x20/16z] {
+TP05SW0n3CIqyHhk_nzkdIc3WjQ0WKNeytcZo6EVf7ZZU7Ao-_KQ7wvgVw5ZdSqNR53Dtgxkii1JUrlLUU1abvoWdCW19A0p9eNIca3L8aPEGPInyGGuSUtR
+9WrLkgujbDSfnjVbglqRTN7Tf5WnmILczQrPJxtnwBrcTDxGMwVHjiDlLmTNVfrL_3zJqAvxiRm
+}
+!procedure IoTThingBank($id, $name="Io T Thing Bank", $tech="")
+  IconElement($id, 'aws-20200911/Resource/LoT/IoTThingBank', $name, $tech)
+!endprocedure
+!procedure IoTThingBankCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTThingBankMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTThingBankGroup($id, $name='Io T Thing Bank', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTThingBankLg>', $name, $tech)
+!endprocedure
+@enduml

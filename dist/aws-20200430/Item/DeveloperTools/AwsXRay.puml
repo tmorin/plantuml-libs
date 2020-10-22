@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsXRayMd [14x14/16z] ROxL0SK020EVj2I4_VTjgDjz7OuUb3a20hd5bP32yHA5N62mEW3irYMCoY2ZfMksIe8e6K8n9gW5O1Y1xGHxBXrj5w5wV-rW0W
+sprite $AwsXRayLg [20x20/16z] {
+bT350GCW00F03n4Izb-txjx3NVAVxZpqH5HwtmLPOzvEBRpQES3RQTqNDhbo0ZRTopZDBDb4WD93VQV8ViAS6kTjKcf1RQQmZEO0GckXq9Z7ljQeH9PEhvV9
+s0bktbB2Es1pLT0ccbirwNxzhE-s
+}
+!procedure AwsXRay($id, $name="Aws X Ray", $tech="")
+  IconElement($id, 'aws-20200430/Item/DeveloperTools/AwsXRay', $name, $tech)
+!endprocedure
+!procedure AwsXRayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsXRayMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsXRayGroup($id, $name='Aws X Ray', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsXRayLg>', $name, $tech)
+!endprocedure
+@enduml

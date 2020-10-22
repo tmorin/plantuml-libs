@@ -1,0 +1,18 @@
+@startuml
+sprite $ContainerMd [14x14/16z] bOx50S0020Elhe7zfwrRdiMTu5JL3rNK6T8bMNUYxUWsQL7N2IKHfCviJYHozjwlIV_WtnsPqme
+sprite $ContainerLg [20x20/16z] lP350GG120D3SYvC_zMUk-vh1-U3Q2XUl11LyqANMLOIv-9gYSr2CrhfZfgP5kVU72gGWlcrDmC58fYDsVkyIojms_bwcy-MMk1FFv3dBrX3sGC
+!procedure GroupSwarmContainer($id, $name='Group Swarm Container', $tech='')
+  IconGroup($id, 'GroupSwarmContainer', '<$ContainerLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupSwarmContainer>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

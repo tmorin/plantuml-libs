@@ -1,0 +1,16 @@
+@startuml
+sprite $Filter6Md [14x14/16z] TSd50GDH549H-2vF-gysdl6vkmC0OltMyWiqbM-UoM3XlH6GLYTVAkvAIAtorfWW5dMVUIDfTgSujVpaYUy2zIM8cxypZo-1_9qeBhyc0PHMVxtq1
+sprite $Filter6Lg [20x20/16z] {
+XT254SGm34HHmqrM0Mdxx_QCOVZ3psoN2_jSQU2-gPWIqiFCK4pT5XY23SwonKNLqXH9Hgcsi1go8Tks0NRpb42u66d-P9Qt_xRfPgs7IDpEsDwnsKBTice_
+DRLQGhZyZdE1y-wZP2WuSv-scOUo_04
+}
+!procedure Filter6($id, $name="Filter6", $tech="")
+  IconElement($id, 'material-4.0/Image/Filter6', $name, $tech)
+!endprocedure
+!procedure Filter6Card($id, $funcName="", $content="")
+  IconCard($id, '<$Filter6Md>', '', $funcName, $content)
+!endprocedure
+!procedure Filter6Group($id, $name='Filter6', $tech='')
+  IconGroup($id, 'IconGroup', '<$Filter6Lg>', $name, $tech)
+!endprocedure
+@enduml

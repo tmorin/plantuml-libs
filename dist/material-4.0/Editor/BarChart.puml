@@ -1,0 +1,13 @@
+@startuml
+sprite $BarChartMd [14x14/16z] XKwr0G1123itRFzftoKTTCI3Up7YnuoVoAUQ3RvaX9ojyyiDlsdfKjxVkBwRu-ExErCyssDo5ku
+sprite $BarChartLg [20x20/16z] jSgr5S0m5CNGPuPF-s-RDinMUOymA2_irnRCmeujlfZ2njZwCtF1hooW6lzXNIkyY4VMZW5D
+!procedure BarChart($id, $name="Bar Chart", $tech="")
+  IconElement($id, 'material-4.0/Editor/BarChart', $name, $tech)
+!endprocedure
+!procedure BarChartCard($id, $funcName="", $content="")
+  IconCard($id, '<$BarChartMd>', '', $funcName, $content)
+!endprocedure
+!procedure BarChartGroup($id, $name='Bar Chart', $tech='')
+  IconGroup($id, 'IconGroup', '<$BarChartLg>', $name, $tech)
+!endprocedure
+@enduml

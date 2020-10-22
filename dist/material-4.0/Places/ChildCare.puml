@@ -1,0 +1,16 @@
+@startuml
+sprite $ChildCareMd [14x14/16z] PSsr0SK024NHYyJpOFzflzBbL3WyMOJ1EFhZc4HAI8clKrCyWQk3tMmd-c8jSBdBeDPFDhuPTtkMLEbz0zVDLj_oDHySV3vWPrVrQGpBD9xU
+sprite $ChildCareLg [20x20/16z] {
+bP055iGm24Gdv14dS__JheHsNNyRmm7_4JHd3NUIoaMzIiKuKenfq6ItCYOi4csph2voOLsEW_sqYw_EiVOY23J062257UBMhG2rUIHnsOxBCCw-CUc95DqN
+OgTTkL3qhSH6XHffkcfPX4drIfGpm8cJNKMqSyPFCxZEwZ-E
+}
+!procedure ChildCare($id, $name="Child Care", $tech="")
+  IconElement($id, 'material-4.0/Places/ChildCare', $name, $tech)
+!endprocedure
+!procedure ChildCareCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChildCareMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChildCareGroup($id, $name='Child Care', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChildCareLg>', $name, $tech)
+!endprocedure
+@enduml

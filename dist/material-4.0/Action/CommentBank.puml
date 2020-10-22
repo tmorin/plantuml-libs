@@ -1,0 +1,13 @@
+@startuml
+sprite $CommentBankMd [14x14/16z] TShL0S1G24FHMpSW-qzRz_OTlaZ2KsqRDwl1j8cGdLz15dxxI7_PVJdCjtq7-tvzqowQjW1lkQb8cW
+sprite $CommentBankLg [20x20/16z] dSg54S0m3CNG7sPx_sdBp8sEtmcNIRDBzaIyYpeqVCXiBKabpS4Y07bXglhJfozvBcwrjU-cZqQSC9Y7M4Dl7Hqp0RMr
+!procedure CommentBank($id, $name="Comment Bank", $tech="")
+  IconElement($id, 'material-4.0/Action/CommentBank', $name, $tech)
+!endprocedure
+!procedure CommentBankCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommentBankMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommentBankGroup($id, $name='Comment Bank', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommentBankLg>', $name, $tech)
+!endprocedure
+@enduml

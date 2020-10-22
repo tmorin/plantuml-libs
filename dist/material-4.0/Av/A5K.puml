@@ -1,0 +1,13 @@
+@startuml
+sprite $A5KMd [14x14/16z] NSt50G1120F08Ej2_zMUA_D30uVbmdjXZwtKjr90N3LKMokfc-nLupmBqZtBKkfRgVHQuhNvK9VWqi5wOJWh
+sprite $A5KLg [20x20/16z] fP253G1120Gvmyxwx_RpxZunWk_2Sm8J3n3xFbLNX3R7wnotEJh8yN4k8c8fL9Nd78At9OE0Bd96OyrjEEUI49HDZfs7l9bLHAdj3MbpltxUUx3tgaqzfG4
+!procedure A5K($id, $name="A5 K", $tech="")
+  IconElement($id, 'material-4.0/Av/A5K', $name, $tech)
+!endprocedure
+!procedure A5KCard($id, $funcName="", $content="")
+  IconCard($id, '<$A5KMd>', '', $funcName, $content)
+!endprocedure
+!procedure A5KGroup($id, $name='A5 K', $tech='')
+  IconGroup($id, 'IconGroup', '<$A5KLg>', $name, $tech)
+!endprocedure
+@enduml

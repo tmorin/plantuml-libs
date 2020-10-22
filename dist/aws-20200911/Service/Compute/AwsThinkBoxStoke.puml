@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsThinkBoxStokeMd [14x14/16z] LSe94WD124BHYO3q_KyS9UlyNb-LjlkT9D_eH8Qh5aXeEIYnctneT5WGAHIYTnYT8sPIf5SJGIfg0D9Ue-NLVLKxUWrxMwIRd9u
+sprite $AwsThinkBoxStokeLg [20x20/16z] {
+RSu70eH024FHWH32_K-yiMnJl_rXa-kVwFI0Ua2z0zwJztrLS2VkLApiJW_UfWo14j4hkTimgZ20K1Lb6zjgdsOIqUjj8IYxqqkKR3D4LsF61-9jnMFrKczp
+HO3mvBHEOly_-C3TZ8X8AMEP3dEC9QsmEDiHI6YqDp_fx84Uxti1
+}
+!procedure AwsThinkBoxStoke($id, $name="Aws Think Box Stoke", $tech="")
+  IconElement($id, 'aws-20200911/Service/Compute/AwsThinkBoxStoke', $name, $tech)
+!endprocedure
+!procedure AwsThinkBoxStokeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsThinkBoxStokeMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsThinkBoxStokeGroup($id, $name='Aws Think Box Stoke', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsThinkBoxStokeLg>', $name, $tech)
+!endprocedure
+@enduml

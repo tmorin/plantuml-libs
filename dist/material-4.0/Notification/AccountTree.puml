@@ -1,0 +1,13 @@
+@startuml
+sprite $AccountTreeMd [14x14/16z] LOs50G0G44M_vjJ-q-fyN1T-H8C1h5iWv9mb89i9Co9hwKOXfN0ZxXoVaJBQm16qqX8JSbzaL-V0vV14Sb_OyHSnAQN0JmK
+sprite $AccountTreeLg [20x20/16z] ZP250O1024K_ThF_jbvtFRsY0QDCnow-HLvdTPs0bIM7bEqiMRsC24SeatmVSonxB-RhJNs_3qTBHlCaFiBxWYO9F4MPzstBV2sEXnMXBEmjP4zauQn6-G4
+!procedure AccountTree($id, $name="Account Tree", $tech="")
+  IconElement($id, 'material-4.0/Notification/AccountTree', $name, $tech)
+!endprocedure
+!procedure AccountTreeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AccountTreeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AccountTreeGroup($id, $name='Account Tree', $tech='')
+  IconGroup($id, 'IconGroup', '<$AccountTreeLg>', $name, $tech)
+!endprocedure
+@enduml

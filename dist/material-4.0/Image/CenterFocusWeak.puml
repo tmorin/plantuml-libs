@@ -1,0 +1,16 @@
+@startuml
+sprite $CenterFocusWeakMd [14x14/16z] NKs50GGX34iWl9nr_sqFTsiRmxQSH82IIuqzvW4VlzZgGLsFQYVLZf5scXsHp4oHaQPShbrbdebPNK9rMHFMzDWg461GRDRr0W
+sprite $CenterFocusWeakLg [20x20/16z] {
+ZL050iGW35i5w5dp_zyUMSzrsO3KPTcE5YESn4XAXOaW6sIDBE1gGYQcVhNgFOzYb1zrubwwgCmohmJIfeb5BaZqZjDJEuxEnFwcwyywMMDpvRSQVg_nr8jK
+BzzxTj6QJSKHttRmlAksRCSP
+}
+!procedure CenterFocusWeak($id, $name="Center Focus Weak", $tech="")
+  IconElement($id, 'material-4.0/Image/CenterFocusWeak', $name, $tech)
+!endprocedure
+!procedure CenterFocusWeakCard($id, $funcName="", $content="")
+  IconCard($id, '<$CenterFocusWeakMd>', '', $funcName, $content)
+!endprocedure
+!procedure CenterFocusWeakGroup($id, $name='Center Focus Weak', $tech='')
+  IconGroup($id, 'IconGroup', '<$CenterFocusWeakLg>', $name, $tech)
+!endprocedure
+@enduml

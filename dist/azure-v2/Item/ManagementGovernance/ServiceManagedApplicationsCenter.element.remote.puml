@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceManagedApplicationsCenter element
+include('azure-v2/Item/ManagementGovernance/ServiceManagedApplicationsCenter')
+ServiceManagedApplicationsCenter('service_managed_applications_center', 'Service Managed Applications Center', 'an optional tech field')
+@enduml

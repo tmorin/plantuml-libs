@@ -1,0 +1,16 @@
+@startuml
+sprite $TrafficMd [14x14/16z] PSt50GHH309GmdUb_sfNnkNTek25pZj7B8n3FuE6donDSafvcNKDOAelC_DJhMdwOzFEpL_Vx3TVPjmtkM_2NfjOhUdOEFz3l7m1
+sprite $TrafficLg [20x20/16z] {
+bT054WGW20LGJB3lVzlzCZZRzUmE-aiM1ibqvPVnP6ICjKQC4_aGMxWWNqjLKSUueAXqfDtQ8uaCDvqeo5hBrhU0hwNgkhVsTJBQOit89DOJ6p9XEqKMoBNS
+tBZUURZpt8f621YgxkKVFF_LNou
+}
+!procedure Traffic($id, $name="Traffic", $tech="")
+  IconElement($id, 'material-4.0/Maps/Traffic', $name, $tech)
+!endprocedure
+!procedure TrafficCard($id, $funcName="", $content="")
+  IconCard($id, '<$TrafficMd>', '', $funcName, $content)
+!endprocedure
+!procedure TrafficGroup($id, $name='Traffic', $tech='')
+  IconGroup($id, 'IconGroup', '<$TrafficLg>', $name, $tech)
+!endprocedure
+@enduml

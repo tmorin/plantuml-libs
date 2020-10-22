@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2HmiInstanceMd [14x14/16z] LOw50G1H28LuYlkFV9tyi0C8sI0SJDbjpMbuCP0PBcP2oOL555BxrT1xYr7BPhVssuSLtUT1q7yN_XF-q_-R_RTU0G
+sprite $Ec2HmiInstanceLg [20x20/16z] {
+bP050e1G24D7RDp_n7QtJt_HW16RjeLCQDacI2kRjicjjA7w045XWnX07cLzIDlBh8zMUrbLBnM8S0Ra2Sqvr4b8B-UKOv9bCWPPOlQDj2v0FkNOotxrSPp1
+ULPFCptElWK
+}
+!procedure Ec2HmiInstance($id, $name="Ec2 Hmi Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2HmiInstance', $name, $tech)
+!endprocedure
+!procedure Ec2HmiInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2HmiInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2HmiInstanceGroup($id, $name='Ec2 Hmi Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2HmiInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

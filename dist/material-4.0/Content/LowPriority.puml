@@ -1,0 +1,16 @@
+@startuml
+sprite $LowPriorityMd [14x14/16z] ZSE53GD034MnTqn9_lxJba7SMZ8_f9plSmAAIS5Hw43MBZcJxs0V-FBEtOc80pQvgwsr2bs5niUIQR7is08eCoPZpJLuAFpX2W
+sprite $LowPriorityLg [20x20/16z] {
+jSwr0GH1243HFwuC_LUxxl7Tot3u0vkxICSFMGpF8geE6VBC1UsE3r73XzFCphYD0Q-1NT1DM7E9dKrnaImm1FYiJ5eDEV9IL9jenBMwQFjZeQjglMySIWFC
+XfCp_COC
+}
+!procedure LowPriority($id, $name="Low Priority", $tech="")
+  IconElement($id, 'material-4.0/Content/LowPriority', $name, $tech)
+!endprocedure
+!procedure LowPriorityCard($id, $funcName="", $content="")
+  IconCard($id, '<$LowPriorityMd>', '', $funcName, $content)
+!endprocedure
+!procedure LowPriorityGroup($id, $name='Low Priority', $tech='')
+  IconGroup($id, 'IconGroup', '<$LowPriorityLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsConfigMd [14x14/16z] HSs72S1020LGYB-esN_UN8KycjrQSl5qasLd10a2c6cN84S6ERlT2XfwCBFivWE5ToztZuz9dmmICTtCAGgXodufMw38olTTpoj8U6PBTnAggXLlrIlxqsa
+sprite $AwsConfigLg [20x20/16z] {
+NSe7aWGX34FHMaiEClU_x-9cg0c_8w-afxhb95rzuy-vwh5sa7E3i1XhDGCXKe5axFcO4owW-ES-Ljt7o0JuDfiH2xFJsz8idVasPuo9tF3OyftWRgIvhi55
+MRg7bOubgmS2nXckNWnLYe4i3uojLRxBWeE9bBHUTMz9GCVwf012BxkwMjt7tZZoji6t_WC
+}
+!procedure AwsConfig($id, $name="Aws Config", $tech="")
+  IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsConfig', $name, $tech)
+!endprocedure
+!procedure AwsConfigCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsConfigMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsConfigGroup($id, $name='Aws Config', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsConfigLg>', $name, $tech)
+!endprocedure
+@enduml

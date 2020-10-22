@@ -1,0 +1,16 @@
+@startuml
+sprite $NewReleasesMd [14x14/16z] POt50G0W30DnhUm_BPR-EBIMk8_CfN2s8B0UEBo_w0Dnk9zQxtsYUD-SxntHQ95uH6EyAA2J6PrGASLKq6gDXmZtw42HMgMuZmq
+sprite $NewReleasesLg [20x20/16z] {
+TT253G0X30NG6bxozv_stEN5eKw_E0kHPBw-PQ1M8DD9iT7jGOhZu4NcjuX5xrY4-Ssm4BcawyURtz-SY1hkRsZdczdvneuRl_Ge1GlzdkLxPgqT1wz2AyF6
+w5I0re1ylwaIwVscToC
+}
+!procedure NewReleases($id, $name="New Releases", $tech="")
+  IconElement($id, 'material-4.0/Av/NewReleases', $name, $tech)
+!endprocedure
+!procedure NewReleasesCard($id, $funcName="", $content="")
+  IconCard($id, '<$NewReleasesMd>', '', $funcName, $content)
+!endprocedure
+!procedure NewReleasesGroup($id, $name='New Releases', $tech='')
+  IconGroup($id, 'IconGroup', '<$NewReleasesLg>', $name, $tech)
+!endprocedure
+@enduml

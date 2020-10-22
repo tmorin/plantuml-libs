@@ -1,0 +1,13 @@
+@startuml
+sprite $PaymentsMd [14x14/16z] VSZL0S0W34NHXplilsqXzjcBdk0drxgKh_An76luk9zwVl90UPhrAGADLDvmbuUdTBIDMH1ZeA9xGggbtkvrCb3dcAyncyDF7m
+sprite $PaymentsLg [20x20/16z] fSp50G0n24JH8UxqN-rwXBtc7n-2dKnQYdGJiIZVflYfLNwg8FrP8kZsccVrMBlVM6aLLreQwyl2pwfHdgKzJKCL5X4k8xjayEp92E6nn3AwpEUqb2rsEW4
+!procedure Payments($id, $name="Payments", $tech="")
+  IconElement($id, 'material-4.0/Navigation/Payments', $name, $tech)
+!endprocedure
+!procedure PaymentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$PaymentsMd>', '', $funcName, $content)
+!endprocedure
+!procedure PaymentsGroup($id, $name='Payments', $tech='')
+  IconGroup($id, 'IconGroup', '<$PaymentsLg>', $name, $tech)
+!endprocedure
+@enduml

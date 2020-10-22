@@ -1,0 +1,16 @@
+@startuml
+sprite $EcoMd [14x14/16z] XOt50G0W30DnX-m_BTJ-75fBt1-VIY_shGj4bo0T258B5Y1nL05CpdYE1j3eO3cceISGLQ9u_AJWU3E8fc5X6osu7my
+sprite $EcoLg [20x20/16z] {
+hSx50GKX30JGmPtflzelsQnVUIU8On7hOuaukTGcVyeHyOqgGHKUmZj4fwCe1dycDaa-MM9DO_KVqYtfCiwbOvo8P3GK7ShydkMuH4MFAQ622_SEmSHQiyC2
+Nm
+}
+!procedure Eco($id, $name="Eco", $tech="")
+  IconElement($id, 'material-4.0/Action/Eco', $name, $tech)
+!endprocedure
+!procedure EcoCard($id, $funcName="", $content="")
+  IconCard($id, '<$EcoMd>', '', $funcName, $content)
+!endprocedure
+!procedure EcoGroup($id, $name='Eco', $tech='')
+  IconGroup($id, 'IconGroup', '<$EcoLg>', $name, $tech)
+!endprocedure
+@enduml

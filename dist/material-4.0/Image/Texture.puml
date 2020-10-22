@@ -1,0 +1,16 @@
+@startuml
+sprite $TextureMd [14x14/16z] NSor0GCn04FHfukXCUm_RPX_9_J7KL12Rc9tneosGhaBwcxkZ45xYdUItCKpcONoJCo1n5sC2Nv5s_LvMyXgCczY7mYfePpySG4
+sprite $TextureLg [20x20/16z] {
+ZT250SCW50HGt6N_QP7xRTmkoiDXtwEy6c_Xx2n8aAwP3ohLZ8AlQfhB3AH0WRgA8o7t5EvQQNiYLHtctL710gqv4H9EjBOIHq8hhax44kPL84EjKgLsU5id
+S6oQVKy7
+}
+!procedure Texture($id, $name="Texture", $tech="")
+  IconElement($id, 'material-4.0/Image/Texture', $name, $tech)
+!endprocedure
+!procedure TextureCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextureMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextureGroup($id, $name='Texture', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextureLg>', $name, $tech)
+!endprocedure
+@enduml

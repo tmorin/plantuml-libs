@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceTableMd [14x14/16z] LSc53GHG20HHoBB2xx_VStt9nAP_5Nxr-QNzSUJSE4yZ0KE0Sq_imbGDgZdI34NgtbZT4A1xJ4YPz3t60_hvp3sRtNl98Nvr_Ra2
+sprite $ServiceTableLg [20x20/16z] {
+ZP1NbWCn20G7TO3P-nzumJdRzT6lb0NRhyHw9A3z4J7_7adwrLmzOZ07toH1OosO_I3TqGeg-aT61zmQ8jJpWDkEIWjAaR0bETNapAs8pG9QPr-UzZ5dY-ku
+Zowtr7Mkt7C4KExGA6TkhyoSoDfprA_wygf_sml-0G
+}
+!procedure ServiceTable($id, $name="Service Table", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceTable', $name, $tech)
+!endprocedure
+!procedure ServiceTableCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceTableMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceTableGroup($id, $name='Service Table', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceTableLg>', $name, $tech)
+!endprocedure
+@enduml

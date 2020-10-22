@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eventstorming bootstrap
+include('eventstorming/bootstrap')
+' loads the Saga element
+include('eventstorming/Element/Saga')
+Saga('saga', 'Saga')
+note as note
+A saga is a long-lived business transaction.
+end note
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $DuoMd [14x14/16z] PSh50GCn40D06OyM-kysCTFy13YuvwCafl1eHND8oUcKqXISz_nAIgHg0HYhPthJqtdwFn_0Q-UHnY9DAOwG-9VeSJZy
+sprite $DuoLg [20x20/16z] {
+VSvL0iDG24HHD0wp_zNM9gctz_Cy0VcJHpBRGQV2KHEzyLJU2FYm-hGHdrP0ZzCqZGkgQGQWv5gkij62negMxnRSX9RBxQsBI3_FsCzdl3HTpVgPMldFiyMD
+dh5TZdI-lQzHTw1wXikVpW
+}
+!procedure Duo($id, $name="Duo", $tech="")
+  IconElement($id, 'material-4.0/Communication/Duo', $name, $tech)
+!endprocedure
+!procedure DuoCard($id, $funcName="", $content="")
+  IconCard($id, '<$DuoMd>', '', $funcName, $content)
+!endprocedure
+!procedure DuoGroup($id, $name='Duo', $tech='')
+  IconGroup($id, 'IconGroup', '<$DuoLg>', $name, $tech)
+!endprocedure
+@enduml

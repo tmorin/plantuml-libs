@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureFirewallManagerMd [14x14/16z] LSk50G8m30J0Znlxpqi5lMei5b_2Gu7S8jPL1dJtb7jDFmgOwQhgNa-iw5OgbVdKkZACHONvpgbigdcS_u9B_wDbrN6nxOZm8gR2-61TmRyd
+sprite $ServiceAzureFirewallManagerLg [20x20/16z] {
+RSg55G9134NH-5Ys_tQ9uF1MvvuFVqAaPvXFsFWkyFAJpJdNFj5507vsjCnih1rvcf_YqxK5Z5ZLQ18orEwiEMUyJJYktcLpcWfpO7GtYn6tYPosjRGj7rMh
+1bDP1iz8_bd7FyOHl69jepT3qJA4TynbqpiAmKyrkW4
+}
+!procedure ServiceAzureFirewallManager($id, $name="Service Azure Firewall Manager", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceAzureFirewallManager', $name, $tech)
+!endprocedure
+!procedure ServiceAzureFirewallManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureFirewallManagerMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureFirewallManagerGroup($id, $name='Service Azure Firewall Manager', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureFirewallManagerLg>', $name, $tech)
+!endprocedure
+@enduml

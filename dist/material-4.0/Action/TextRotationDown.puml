@@ -1,0 +1,13 @@
+@startuml
+sprite $TextRotationDownMd [14x14/16z] ZSn50eHG30FGvBkrlVzfPt3O86zL3Hunyz8vTKoNZXGfxjY1AbBzta4yklcZwwF7_MzO2rWaYtxF08eLN0HyyWS
+sprite $TextRotationDownLg [20x20/16z] fOsr0G1140BXt7RflzlFthER4CKcfNmrCu0_sfZnerLfbPS6cgGU7XfiihkFSDTy0c6fFNDfoIflMd9fvST7bry78Cs8reWBBcaHJu9xm9jmatOv
+!procedure TextRotationDown($id, $name="Text Rotation Down", $tech="")
+  IconElement($id, 'material-4.0/Action/TextRotationDown', $name, $tech)
+!endprocedure
+!procedure TextRotationDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextRotationDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextRotationDownGroup($id, $name='Text Rotation Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextRotationDownLg>', $name, $tech)
+!endprocedure
+@enduml

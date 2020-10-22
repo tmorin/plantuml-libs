@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceAzureMapsAccounts element
+include('azure-v2/Item/IoT/ServiceAzureMapsAccounts')
+ServiceAzureMapsAccounts('service_azure_maps_accounts', 'Service Azure Maps Accounts', 'an optional tech field')
+@enduml

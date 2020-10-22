@@ -1,0 +1,13 @@
+@startuml
+sprite $GridViewMd [14x14/16z] NOx50G0n40BXX4-i_shZFj5rSF5bo78N8tWVf79_sVA4anpegmLOoGBL2jRcp79dYyeyJxbvMrzmBTE5gyiruPhEfOmuIG
+sprite $GridViewLg [20x20/16z] ZP1N0iCW34ChTSZkqlrFcmJuPJqsthvjymZ51L1snQFyXIkaAr7-v0UH1fpWe_s5MJQWF3dxI-bZmbyf7QCOOEMogw3trx7jnDZDhrkRUZ6wlThc1
+!procedure GridView($id, $name="Grid View", $tech="")
+  IconElement($id, 'material-4.0/File/GridView', $name, $tech)
+!endprocedure
+!procedure GridViewCard($id, $funcName="", $content="")
+  IconCard($id, '<$GridViewMd>', '', $funcName, $content)
+!endprocedure
+!procedure GridViewGroup($id, $name='Grid View', $tech='')
+  IconGroup($id, 'IconGroup', '<$GridViewLg>', $name, $tech)
+!endprocedure
+@enduml

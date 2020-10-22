@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsWavelengthMd [14x14/16z] PSk54GDH30FHcRDshVuR3dFUHrF_hUxh3yhGMoOh66-HSf3Z7XG9XEKsPIQNBNklSVlJ2t4k5diL8Khlc2Jq2Q4lUzj_pW
+sprite $AwsWavelengthLg [20x20/16z] {
+bOtL0G9144EvYT9_mVZ9Vl9MnvBk95t9_Yn9IrfJ0YL1FDFaLszkXuXuzxomVMYX6YI0chrD1OSS8k4tnrXXArl5djDWW1cmo3TdqoHagUW7ip016ZL_DaWm
+uC35Rcoqa2QbUYJ7J1ImEscu4HlTAq62TCsvTVeVJm
+}
+!procedure AwsWavelength($id, $name="Aws Wavelength", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsWavelength', $name, $tech)
+!endprocedure
+!procedure AwsWavelengthCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWavelengthMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsWavelengthGroup($id, $name='Aws Wavelength', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsWavelengthLg>', $name, $tech)
+!endprocedure
+@enduml

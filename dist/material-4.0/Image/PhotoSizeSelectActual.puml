@@ -1,0 +1,13 @@
+@startuml
+sprite $PhotoSizeSelectActualMd [14x14/16z] ROs50S0W30G_ZslsdxRkvI1kU4DpGLXzOCCp2luP-N5KhwXMJIX7r8KPaBP7NXOegnUMcYvi9holmzWBWpSp
+sprite $PhotoSizeSelectActualLg [20x20/16z] jSxL0SKW44JHMKdGOVklzhcx7ln-WLTfocUIGXWN28qh-iVMwbaZ8uQ2fyrbX0DsqXBW2Ilfq2eEwhwnhmPxNn_t_YBZCb5W-OBYLKi
+!procedure PhotoSizeSelectActual($id, $name="Photo Size Select Actual", $tech="")
+  IconElement($id, 'material-4.0/Image/PhotoSizeSelectActual', $name, $tech)
+!endprocedure
+!procedure PhotoSizeSelectActualCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhotoSizeSelectActualMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhotoSizeSelectActualGroup($id, $name='Photo Size Select Actual', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhotoSizeSelectActualLg>', $name, $tech)
+!endprocedure
+@enduml

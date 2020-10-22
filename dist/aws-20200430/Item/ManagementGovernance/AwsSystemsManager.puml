@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemsManagerMd [14x14/16z] XKxL0KCX3AoTqVttVJYVn3rNBYJIEp5BEJbIJQYUT6Uw-x1Le2gZ5zU4w9kHQlA3CCxyZJfN9oS1vYy709GBnWS
+sprite $AwsSystemsManagerLg [20x20/16z] {
+fL350OGm47piM4Z__TuU3b_Y6OiidyiWcISKP0H-OCZiiO1nER6fXp5FIFjYqQ6a_sm75eUuOviORXbrwMOmRAMkF0KoMTqFq6w1sNXmkoBfwWxTi5JwBLlU
+9IpsRVJ-XqO-bny
+}
+!procedure AwsSystemsManager($id, $name="Aws Systems Manager", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsSystemsManager', $name, $tech)
+!endprocedure
+!procedure AwsSystemsManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemsManagerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemsManagerGroup($id, $name='Aws Systems Manager', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSystemsManagerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ArrowLeftMd [14x14/16z] Ow0Ci30XS_YP4HnMVamUWWlc8RZC53a2
+sprite $ArrowLeftLg [20x20/16z] OnXmmCo18SJ8nuqknCJBpuKfX2d61n73r8iXoCzDs2tq1m
+!procedure ArrowLeft($id, $name="Arrow Left", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ArrowLeft', $name, $tech)
+!endprocedure
+!procedure ArrowLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowLeftGroup($id, $name='Arrow Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowLeftLg>', $name, $tech)
+!endprocedure
+@enduml

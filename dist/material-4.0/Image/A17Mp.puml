@@ -1,0 +1,16 @@
+@startuml
+sprite $A17MpMd [14x14/16z] NOs54S0m30DxfdAq_xHX_g19EZQ8AvG2T6B8W2g4Ra1oz38SdpaIu6U0lXQv2tyibSvBrE9rbPg8i1FZKjFh4YTau5Ip7-eigMpkCPGA7Hi1
+sprite $A17MpLg [20x20/16z] {
+ZT3L0SKW44JHHNVGst-rppLVcIW7nywdo6zvlfIVn5_AtGHRMZHf0hgRmmhMYS7AsmGGEcmJH-ks_imQvCYVQOAFZpdBgsfZrUhxRR9aqUXMJFZBOW_ZReIl
+fOSDC-iV2-n7kxa-Sym6IwpscVTu1k-pajmVj-vqDbS
+}
+!procedure A17Mp($id, $name="A17 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A17Mp', $name, $tech)
+!endprocedure
+!procedure A17MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A17MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A17MpGroup($id, $name='A17 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A17MpLg>', $name, $tech)
+!endprocedure
+@enduml

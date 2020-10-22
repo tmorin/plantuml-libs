@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAmazonSimpleStorageS3ReplicationTimeControlMd [14x14/16z] FOg54SDG5CFq3B_N_GSE9peo29YHXXktSL9VPO7EjZ9dSwqvK88yFyr55XFgD6bSA0KiKBwsEjSt6MAKtrzahBJXd72KA9V5MMD7K2wQHcwuaHqFi0C
+sprite $AwsAmazonSimpleStorageS3ReplicationTimeControlLg [20x20/16z] {
+RP05OaKX40FNaj3xNxW1Aj_cARDOYC_qW2A9_ZFYT6LcDLX7vSemrME0l4wT537TFP3QKbt-_f4gkup5hhocPzcnGWFgmf6hcAqF6KP-1bkRnl7qgxYrcQLn
+KxVGZ4D2m1VE1EaQxivwhHs2QGrCgonlQ9QrWXZSbXabYvdDYHDXquMTRtIY_PzNscy5nhyaG5A8Hyfa7Bu1
+}
+!procedure AwsAmazonSimpleStorageS3ReplicationTimeControl($id, $name="Aws Amazon Simple Storage S3 Replication Time Control", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/AwsAmazonSimpleStorageS3ReplicationTimeControl', $name, $tech)
+!endprocedure
+!procedure AwsAmazonSimpleStorageS3ReplicationTimeControlCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAmazonSimpleStorageS3ReplicationTimeControlMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsAmazonSimpleStorageS3ReplicationTimeControlGroup($id, $name='Aws Amazon Simple Storage S3 Replication Time Control', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AwsAmazonSimpleStorageS3ReplicationTimeControlLg>', $name, $tech)
+!endprocedure
+@enduml

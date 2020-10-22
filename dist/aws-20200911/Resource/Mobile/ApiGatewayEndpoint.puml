@@ -1,0 +1,16 @@
+@startuml
+sprite $ApiGatewayEndpointMd [14x14/16z] PKw50GH024BWmlq7lln-kmMBN1OPbwefqVKaJK60eROxYhvyIwh2PcC5wd9sOI5s1gwmq4GZ6-Z_x7DoNucTnRw2AkREEbNlTm7Bj4zaE_b6FG4
+sprite $ApiGatewayEndpointLg [20x20/16z] {
+TT05aWKX303H9bR9pFtlk-X-x_A7mqnsF8hAMGKFOfTnA47fwS9DUJTeTxM5dhJo79Q-KAgJiWmjeKGJ3uuHJgfycXmpLTkcB_PxxVSp2haUTxc44Y8xsZBh
+b043Mxs-RQ7HCphz-AjVVmgYCs7s1m
+}
+!procedure ApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Mobile/ApiGatewayEndpoint', $name, $tech)
+!endprocedure
+!procedure ApiGatewayEndpointCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApiGatewayEndpointMd>', 'Mobile', $funcName, $content)
+!endprocedure
+!procedure ApiGatewayEndpointGroup($id, $name='Api Gateway Endpoint', $tech='')
+  IconGroup($id, 'MobileFamily', '<$ApiGatewayEndpointLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $NetworkLockedMd [14x14/16z] LSV50SDG50Emvy_i_QTjmt5qaxrW8bP9ODEmQTWqB986l5d8BTrXSzdA7Veqw_GMUN2LP4OxeUspMvvZ1llu0m
+sprite $NetworkLockedLg [20x20/16z] {
+XSk53G11449Hrdtelzfprnz_0VnduesKb2lfndodgwc1c6-hqIwhqMwh6ioLqltOe6iDfnKZYaErssfi08Na3ojMM9OivR1YHkQOXXOkbSrYoNCbR7ReqPGR
+idYg1m
+}
+!procedure NetworkLocked($id, $name="Network Locked", $tech="")
+  IconElement($id, 'material-4.0/Notification/NetworkLocked', $name, $tech)
+!endprocedure
+!procedure NetworkLockedCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetworkLockedMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetworkLockedGroup($id, $name='Network Locked', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetworkLockedLg>', $name, $tech)
+!endprocedure
+@enduml

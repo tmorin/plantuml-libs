@@ -1,0 +1,16 @@
+@startuml
+sprite $PedalBikeMd [14x14/16z] XSd70G8n30J0jIt9GM7xhvOCJsw-Wslk7JzjHU0ZAj3vpjv7nHYv6z22N9F5XsWUhTUfiOhcpj6Y-3ZTsac3PAhc0goCUrC0uTcFKVU1Xt5SyCyT
+sprite $PedalBikeLg [20x20/16z] {
+hSwrOGGm44JHBxuLJV_TUioG-fuWMUGfveh47v8MFsHBJ6M-55cYQV0bZQq7S0zcDMPtoffpNgseGCXEkVeqwPhPtmeLjdJpr70BQjsQYgv7LtLJJJZwKDCi
+J7tcZLQTXvqp58ccZMtrb4ATARiPorSMG8lPq-VkCoh_yW8
+}
+!procedure PedalBike($id, $name="Pedal Bike", $tech="")
+  IconElement($id, 'material-4.0/Maps/PedalBike', $name, $tech)
+!endprocedure
+!procedure PedalBikeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PedalBikeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PedalBikeGroup($id, $name='Pedal Bike', $tech='')
+  IconGroup($id, 'IconGroup', '<$PedalBikeLg>', $name, $tech)
+!endprocedure
+@enduml

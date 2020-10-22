@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsDatabaseMigrationService element
+include('aws-20200430/Item/MigrationTransfer/AwsDatabaseMigrationService')
+AwsDatabaseMigrationService('aws_database_migration_service', 'Aws Database Migration Service', 'an optional tech field')
+@enduml

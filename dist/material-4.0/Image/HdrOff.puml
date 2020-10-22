@@ -1,0 +1,13 @@
+@startuml
+sprite $HdrOffMd [14x14/16z] bOsr0KLH24DnkBx_j5-QvteQD0ciqTLKqzLOOkxPQJWMyfeHG7efnTLoQVARQcGR3hcs_yt9jVOG3fgTuqLkLLZp1G
+sprite $HdrOffLg [20x20/16z] hSv50iD030D0BHlgwF-_RM1FPOYEOyId6N9lZUDSh1soOjM29jftau1onGjXTEue35fTqPD5MUIm7WQk22ENF6VDLwF0D3FF6wr1XgnOCSedVyf_g0zmu66k
+!procedure HdrOff($id, $name="Hdr Off", $tech="")
+  IconElement($id, 'material-4.0/Image/HdrOff', $name, $tech)
+!endprocedure
+!procedure HdrOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$HdrOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure HdrOffGroup($id, $name='Hdr Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$HdrOffLg>', $name, $tech)
+!endprocedure
+@enduml

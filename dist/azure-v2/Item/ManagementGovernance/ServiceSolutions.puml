@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSolutionsMd [14x14/16z] 9Sc74KGX24LHv2NP_WjUvdkCTwWFj53FeIMpdet5D-mDMuMk1VimRACMmzDk1vH8TbH8EedOl86kQykwQoQdI09UmgcoBUwfpvqRpVZL_2RQyqeMOVFL7m
+sprite $ServiceSolutionsLg [20x20/16z] {
+LS_NWGCX34NHaVG2RFy5Bz7stCz3rFDJPZpl8glghKMH5F9Bu2tVkqOLTOzJftpkwHY6mh20Qbkk7MbLoRXcPYGK71Q96ea3a9csAs5BnGWsruDXMHWqBE5c
+GQqXXjagkyrwQuedzpwtdNadhmGnspESixADxw3pn3hxOxqFQxrtNeF-1k9bMP9OibNN_W4
+}
+!procedure ServiceSolutions($id, $name="Service Solutions", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceSolutions', $name, $tech)
+!endprocedure
+!procedure ServiceSolutionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSolutionsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceSolutionsGroup($id, $name='Service Solutions', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSolutionsLg>', $name, $tech)
+!endprocedure
+@enduml

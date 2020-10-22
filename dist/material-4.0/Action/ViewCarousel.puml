@@ -1,0 +1,13 @@
+@startuml
+sprite $ViewCarouselMd [14x14/16z] dSsr0S105CDGXpzx_sd3TU1Ufqfu8RPJ76OPaxiSPGQ24jo5CDhBkLorq76u3hZr9xpO
+sprite $ViewCarouselLg [20x20/16z] pS-r0S0050BH3yID_QUDInz_vNKNLw6kPZMsWA1N34mvSTVAAxMTauZKxexMsUc_6YGUZTBwntR5UC8
+!procedure ViewCarousel($id, $name="View Carousel", $tech="")
+  IconElement($id, 'material-4.0/Action/ViewCarousel', $name, $tech)
+!endprocedure
+!procedure ViewCarouselCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViewCarouselMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViewCarouselGroup($id, $name='View Carousel', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViewCarouselLg>', $name, $tech)
+!endprocedure
+@enduml

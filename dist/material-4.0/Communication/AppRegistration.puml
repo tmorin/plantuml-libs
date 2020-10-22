@@ -1,0 +1,13 @@
+@startuml
+sprite $AppRegistrationMd [14x14/16z] XKtL0G0X50AxtNzQMp_lNYVWKqmq384ZpIxK86gL8wrTqFJ-xYW88UvVg7vUGYRUBi4MVIybJFNOA0QpkNznDOyTrk5NEW
+sprite $AppRegistrationLg [20x20/16z] fKq30i103ClPxVzVEzl8Tcg4Vt0fkSNM8JAdQOldixNtIGUWxJel0iAnMSqS57aZ5zxSZZXZZMQKLXthKHS_ZLQpp4a0QwyFq-WFQW
+!procedure AppRegistration($id, $name="App Registration", $tech="")
+  IconElement($id, 'material-4.0/Communication/AppRegistration', $name, $tech)
+!endprocedure
+!procedure AppRegistrationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppRegistrationMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppRegistrationGroup($id, $name='App Registration', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppRegistrationLg>', $name, $tech)
+!endprocedure
+@enduml

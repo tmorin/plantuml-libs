@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceContainerServicesDeprecatedMd [14x14/16z] {
+DKs50S0m36eyiF__NJMkC8QZNG9bCgO44PRiqDKbW9x6t1s9187ObrMksMdpicUox31VOPwXLcZYIBymfKmByxnHBXePPf5kUXawGBG_zkh7NX_Jy27tfQZE
+SBv-
+}
+sprite $ServiceContainerServicesDeprecatedLg [20x20/16z] {
+XP05SiHG34DZblJlVzy6o-qgy6RCzlQ7FC8ls6EoeJezTbJw7IQA7904OPUD53ZpqgQrs5vhBNHSfdHBiqpt7KSJWEoA1j6L3Q1Jky2cH68Wxk3v6-30HKey
+utX6WBmn7GrXAeRSOLuJPXRTlYExx9fPQzA2KZzN27pVusyRVzaNxQLhtqkHwRRPXLrl
+}
+!procedure ServiceContainerServicesDeprecated($id, $name="Service Container Services Deprecated", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceContainerServicesDeprecated', $name, $tech)
+!endprocedure
+!procedure ServiceContainerServicesDeprecatedCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceContainerServicesDeprecatedMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceContainerServicesDeprecatedGroup($id, $name='Service Container Services Deprecated', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceContainerServicesDeprecatedLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CalculateMd [14x14/16z] NOtL0SKm24NHABB_j9NaQSyVN8C7n2_eFlB3TKhUk9cd071QBJC8FVc-l5KB8hkkbpCkKjOrU_eOhzna6gOwNZbbcypzbREPuNxd7kj0yeBWmGa
+sprite $CalculateLg [20x20/16z] {
+ZP250G0X203XLS9Y_sc_kyy-6_XF49OP5ZyfEn069qSdW-DrHLAQdVGj4MLZ0DqSEU-IAK3Qt8HJ2aStixdCLnV1h21YKnTNSNnIxDdM9G8jjN6DgzkR8vfL
+KT7zlVLmnoK6rrWDwYyT
+}
+!procedure Calculate($id, $name="Calculate", $tech="")
+  IconElement($id, 'material-4.0/Content/Calculate', $name, $tech)
+!endprocedure
+!procedure CalculateCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalculateMd>', '', $funcName, $content)
+!endprocedure
+!procedure CalculateGroup($id, $name='Calculate', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalculateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SatelliteMd [14x14/16z] LOo50S1020E_HgpxhrlNUmMIj3z3JRKpJJMqLhcPQwzixySvgrZ2oAioo1frLe4JJLV5YWJah3I1egugkuzFfYtbhXwsQgo7iVrP0G
+sprite $SatelliteLg [20x20/16z] {
+RSx50SD030LHa-XF-cytdDWBStmBqZ9jxNfHgIdMfmdnIKBarxw16WDKsHZAgcEtYn4UxhxNQKG0PHxy33cIRcbvcZkWFFooos4LxXbviJ8h8PTEWuWCBzhz
+AbESzzu1qcbS-rXaaxziQ9dr
+}
+!procedure Satellite($id, $name="Satellite", $tech="")
+  IconElement($id, 'aws-20200430/Item/Satellite/Satellite', $name, $tech)
+!endprocedure
+!procedure SatelliteCard($id, $funcName="", $content="")
+  IconCard($id, '<$SatelliteMd>', 'Satellite', $funcName, $content)
+!endprocedure
+!procedure SatelliteGroup($id, $name='Satellite', $tech='')
+  IconGroup($id, 'IconGroup', '<$SatelliteLg>', $name, $tech)
+!endprocedure
+@enduml

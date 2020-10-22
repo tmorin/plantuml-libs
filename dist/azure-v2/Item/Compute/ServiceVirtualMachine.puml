@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceVirtualMachineMd [14x14/16z] JSk50GGn20J0OnVBzr_m4y-SuFwo6IBy22SzUepY467F-fS6K3rxMan0zcnK0O5crmRp4VBtQjfvtVR8hsCuleDcF0LOpl3w0m
+sprite $ServiceVirtualMachineLg [20x20/16z] {
+VSe50iH024FH0aagzxzlPSYw_2fl03yolQP_FHtFdPXHzByD6H795wlAJ7Xn6SqN5TY3BUEqWgr3NAWUrcvM5TIJxT8MczlEn-YUXZaSvrdm_-HmMaslGUIR
+9SugdYIoHfdFw7hn
+}
+!procedure ServiceVirtualMachine($id, $name="Service Virtual Machine", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceVirtualMachine', $name, $tech)
+!endprocedure
+!procedure ServiceVirtualMachineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVirtualMachineMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceVirtualMachineGroup($id, $name='Service Virtual Machine', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVirtualMachineLg>', $name, $tech)
+!endprocedure
+@enduml

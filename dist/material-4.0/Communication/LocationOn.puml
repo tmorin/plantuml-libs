@@ -1,0 +1,16 @@
+@startuml
+sprite $LocationOnMd [14x14/16z] PSor0G0W30J0nntsdnQ9L5mLVNnCRYqPRSQwXhJrbdTGUJLN1_gQHhe25EbmhsAyro1vaSoTvSw2fTSagBvUhB9o9q80VWS
+sprite $LocationOnLg [20x20/16z] {
+VO_50GHH2CNWkzD_jUF8QexXOV075u9xCvqEkhM17hmeNEmciij4j4evAudTEIpS4pgxSSJWu0WEc_EQqtavd_EoN4U2NjXPDH2ytgpKMrKr_8b-eHy7UAKG
+5NYdT_W04Vwn0m
+}
+!procedure LocationOn($id, $name="Location On", $tech="")
+  IconElement($id, 'material-4.0/Communication/LocationOn', $name, $tech)
+!endprocedure
+!procedure LocationOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocationOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocationOnGroup($id, $name='Location On', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocationOnLg>', $name, $tech)
+!endprocedure
+@enduml

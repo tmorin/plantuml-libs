@@ -1,0 +1,16 @@
+@startuml
+sprite $S3GlacierVaultMd [14x14/16z] hKu50G1121kp_f7_BCBZpW3GffPY4pDgo9wiipI0bcAQrDxsPN4shKp2dKJcPV4o_Y_By21ZLmRxelOQ-W
+sprite $S3GlacierVaultLg [20x20/16z] {
+rP070iHG14Ir6VR-5rwaNY4l-Kr71cj4UrEvY28BpDxj56drvcGRMPuo-iY0SKIio7yHY0JH1sfbYaLjzjDkJ8WCS4-LCyIPew6zPFYWZ9VickWrqtkgPjVi
+p-d_0G
+}
+!procedure S3GlacierVault($id, $name="S3 Glacier Vault", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/S3GlacierVault', $name, $tech)
+!endprocedure
+!procedure S3GlacierVaultCard($id, $funcName="", $content="")
+  IconCard($id, '<$S3GlacierVaultMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure S3GlacierVaultGroup($id, $name='S3 Glacier Vault', $tech='')
+  IconGroup($id, 'StorageFamily', '<$S3GlacierVaultLg>', $name, $tech)
+!endprocedure
+@enduml

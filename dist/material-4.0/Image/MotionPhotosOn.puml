@@ -1,0 +1,16 @@
+@startuml
+sprite $MotionPhotosOnMd [14x14/16z] PKs50S0W30iErV-ldVlgck0lGuNINfQErXexxGlVKhInvO2OrjRpigf0yWA02D2sTkjN4q3gisDQktfSPeyF5935dM4d9ATQbu1TCgjonazc
+sprite $MotionPhotosOnLg [20x20/16z] {
+VL055WKX23J0PyxS_xIRnizLki4yF2_YFaoPnqEqGtVP6qaQOYDyjoNMBWMo6wM5MPMmgw3Q7XclL3bfmTssuGgFTsFeoICFdr37CFbAbf-sbSimSmtQHu_B
+esiMlRCiwBzc5aBxuA1qhu0jgfut6AOZFRBVwlEctZoy7G
+}
+!procedure MotionPhotosOn($id, $name="Motion Photos On", $tech="")
+  IconElement($id, 'material-4.0/Image/MotionPhotosOn', $name, $tech)
+!endprocedure
+!procedure MotionPhotosOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$MotionPhotosOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure MotionPhotosOnGroup($id, $name='Motion Photos On', $tech='')
+  IconGroup($id, 'IconGroup', '<$MotionPhotosOnLg>', $name, $tech)
+!endprocedure
+@enduml

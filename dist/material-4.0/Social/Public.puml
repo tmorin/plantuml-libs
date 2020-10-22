@@ -1,0 +1,16 @@
+@startuml
+sprite $PublicMd [14x14/16z] NShL0KH134BHEs_78_HVxRgVhmI0VwTbjYeFItVxwnab5r1rDGiSglSglGBi3Jx3e03T8Nf9fVRZiysHaZ-MLGScvQogmCw2wsfnixNi_K2ry5tXtmK
+sprite $PublicLg [20x20/16z] {
+VP054iH020HddKiTpFzV6s4hBbtUEFWWvPnE8eXnnYHW9RjncrQrcfR9BeEvK1q24itBXKx4GgLWnbRdg2rBKCb_pkZ84ipCbGCGWhl2lBW2eSsmh2vHrZco
+ri8KmC_TEWEor3HVyHSBfUzi2L7frgoFohG2TCcy_q35dUN3hxZ-wlxJToO
+}
+!procedure Public($id, $name="Public", $tech="")
+  IconElement($id, 'material-4.0/Social/Public', $name, $tech)
+!endprocedure
+!procedure PublicCard($id, $funcName="", $content="")
+  IconCard($id, '<$PublicMd>', '', $funcName, $content)
+!endprocedure
+!procedure PublicGroup($id, $name='Public', $tech='')
+  IconGroup($id, 'IconGroup', '<$PublicLg>', $name, $tech)
+!endprocedure
+@enduml

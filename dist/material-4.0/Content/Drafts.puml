@@ -1,0 +1,16 @@
+@startuml
+sprite $DraftsMd [14x14/16z] ZSUr0GGW00F0u4xsdnQ7xkMwmw8K7X5g3JXiJKAaQZ78N3G6NR84SiAHyXYzm20yrrWDO2hFo1Z9i-MFwVXeVDC1
+sprite $DraftsLg [20x20/16z] {
+fSw54GGX44JHnfsVVxJdxhVRPTHZJ1_Yv_3tOXkzq-mDPMQK8kIpX4an-uSfp72WIh_qk4xT3pyrNCPuAN3gF7KJ3iOCbyaNWsOF1t5h42Cy6lnf_dMTUpGd
+ARPwanQrAbi
+}
+!procedure Drafts($id, $name="Drafts", $tech="")
+  IconElement($id, 'material-4.0/Content/Drafts', $name, $tech)
+!endprocedure
+!procedure DraftsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DraftsMd>', '', $funcName, $content)
+!endprocedure
+!procedure DraftsGroup($id, $name='Drafts', $tech='')
+  IconGroup($id, 'IconGroup', '<$DraftsLg>', $name, $tech)
+!endprocedure
+@enduml

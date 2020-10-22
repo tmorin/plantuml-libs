@@ -1,0 +1,13 @@
+@startuml
+sprite $FormatItalicMd [14x14/16z] bSp50S0m2010D1xOVzgwlThcFZZmXKefLS-AVP7WBYlYLKKNk5b_5EfwvSZjiHXzmTV355D463C3
+sprite $FormatItalicLg [20x20/16z] jSit0eGW48LXSeR__gVTLHkOgVKhNp0lIBrTgiWQ3tjcPSAQmmWEab4AKqTsKNIMmEbiq7GKmCiavy4gKMGyv7coM5IHsOVvoXy
+!procedure FormatItalic($id, $name="Format Italic", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatItalic', $name, $tech)
+!endprocedure
+!procedure FormatItalicCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatItalicMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatItalicGroup($id, $name='Format Italic', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatItalicLg>', $name, $tech)
+!endprocedure
+@enduml

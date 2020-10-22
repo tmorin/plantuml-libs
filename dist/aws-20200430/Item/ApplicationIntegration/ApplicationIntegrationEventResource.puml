@@ -1,0 +1,16 @@
+@startuml
+sprite $ApplicationIntegrationEventResourceMd [14x14/16z] NOx50GC13CCKKFRVk3scfzdgnAW037Gr600Ug7cYhCmBnLJP9p81SqSfGBYZ420FX0LCN2tTTmkH6P_rpxFtwpy
+sprite $ApplicationIntegrationEventResourceLg [20x20/16z] {
+TT250KKX509GRW3kl_2FrsbxRDkI2VwhnXnSaMMCp2Yl5a08nbGTp9Fbmpp4Wr6aycHILhKFjcv77io5AOpOhDQRj7RpQZoixObYOBSOawaF1hgxQHmDJP9n
+DZpyWHx_wlrFd_x-2m
+}
+!procedure ApplicationIntegrationEventResource($id, $name="Application Integration Event Resource", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/ApplicationIntegrationEventResource', $name, $tech)
+!endprocedure
+!procedure ApplicationIntegrationEventResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplicationIntegrationEventResourceMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure ApplicationIntegrationEventResourceGroup($id, $name='Application Integration Event Resource', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApplicationIntegrationEventResourceLg>', $name, $tech)
+!endprocedure
+@enduml

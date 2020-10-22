@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSnowmobileMd [14x14/16z] XOp50O0m34MnRs7_UN7fhI-krI4YbRUW4zDtnJGXlB1rLa8gHVAg35815jwRM202gfFhsvhdMIXRLt5XoTLZ1m
+sprite $AwsSnowmobileLg [20x20/16z] {
+hS-53GD134HHAVR0sVtN6pecKV95kqyqhZyaajvBKXOmhCGSFye5ZHuVxPnDjYJBrT18WnBy5B0nceX-Lmr2gzaQtcQ2ercH4Ka-8cOh2fcmz7OjMsgiZUtc
+dZVVtpOgATVllG
+}
+!procedure AwsSnowmobile($id, $name="Aws Snowmobile", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/AwsSnowmobile', $name, $tech)
+!endprocedure
+!procedure AwsSnowmobileCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSnowmobileMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsSnowmobileGroup($id, $name='Aws Snowmobile', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSnowmobileLg>', $name, $tech)
+!endprocedure
+@enduml

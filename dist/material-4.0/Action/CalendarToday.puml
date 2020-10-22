@@ -1,0 +1,13 @@
+@startuml
+sprite $CalendarTodayMd [14x14/16z] fOp50S0W302lRf7zjoqEVowkm1ciXSEFBH12A5vll22zab3fMv1GwKdXqB4wPwfZ_2ac1HDOhyRA3m
+sprite $CalendarTodayLg [20x20/16z] rSk30S0m4030sDX_syR-0NhX2oM4e6J_UN_-c0n1gYB_Q4hHU4ZZ_CnnAEVCmfLSkXRylpaZrI1Dpc4VDnwZb2IRbFe
+!procedure CalendarToday($id, $name="Calendar Today", $tech="")
+  IconElement($id, 'material-4.0/Action/CalendarToday', $name, $tech)
+!endprocedure
+!procedure CalendarTodayCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalendarTodayMd>', '', $funcName, $content)
+!endprocedure
+!procedure CalendarTodayGroup($id, $name='Calendar Today', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalendarTodayLg>', $name, $tech)
+!endprocedure
+@enduml

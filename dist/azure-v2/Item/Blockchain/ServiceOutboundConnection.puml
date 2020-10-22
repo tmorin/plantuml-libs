@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceOutboundConnectionMd [14x14/16z] HOa55W1H20BHBnZtl-zsZ3aFd5Y4uSE3ZWSB7Zofys5TfZEX9YxB55LpcOKgrTEdaLJLOJC4beEPfvK3RiTGtG4x0hhxOgvZw_p8E22fm8yzyh43
+sprite $ServiceOutboundConnectionLg [20x20/16z] {
+VT250O0m44DHJfBA_ljInUNZ3-_obuWyoE5w5KFBv235bcraZYt7D2SsIK4s8xl4b0-BWM18EM-cOApOQ9eOM8yZOzvCZOwR0TPl3iDY-nP2-e-nMGgszEjq
+Uq-AtZwYtkTGgQbpx83rMkSjz97JcinDk-wUFwczjm
+}
+!procedure ServiceOutboundConnection($id, $name="Service Outbound Connection", $tech="")
+  IconElement($id, 'azure-v2/Item/Blockchain/ServiceOutboundConnection', $name, $tech)
+!endprocedure
+!procedure ServiceOutboundConnectionCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceOutboundConnectionMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+!procedure ServiceOutboundConnectionGroup($id, $name='Service Outbound Connection', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceOutboundConnectionLg>', $name, $tech)
+!endprocedure
+@enduml

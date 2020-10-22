@@ -1,0 +1,16 @@
+@startuml
+sprite $NightsStayMd [14x14/16z] PSl50S1G2C3GxmxPVzgwDxU7c5--fHiL_1Do8G3ZKbkabyOYmYbhlD1FbH5Cf-o8G5xEkp-5Am1fOMgjM5dGpjyeemNpQmO
+sprite $NightsStayLg [20x20/16z] {
+VOw50S0m20JHnc7_QUjk7xyW3pzYkW6CpUMAnDph3VceU4sqYUc5HNyocrbtCU6pyfdfmWpFBGWuZp30IIGuzpcP3kx6m6tQjzIvM9YDHrmpVRNIfhySPf_b
+n3Rl67Ck4MGc9kVcDf6vuE5IL1b-D
+}
+!procedure NightsStay($id, $name="Nights Stay", $tech="")
+  IconElement($id, 'material-4.0/Social/NightsStay', $name, $tech)
+!endprocedure
+!procedure NightsStayCard($id, $funcName="", $content="")
+  IconCard($id, '<$NightsStayMd>', '', $funcName, $content)
+!endprocedure
+!procedure NightsStayGroup($id, $name='Nights Stay', $tech='')
+  IconGroup($id, 'IconGroup', '<$NightsStayLg>', $name, $tech)
+!endprocedure
+@enduml

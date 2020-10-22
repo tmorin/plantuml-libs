@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2Md [14x14/16z] FSq53W0n20J015Zv_uklI6whKvN42m3z14-gx12Qe3SJx7b5HXIJJrRqhMZPGFRTbKgZHAtkf4RkzmDYtolRsfzQ7NZebnvqcfm-
+sprite $AmazonEc2Lg [20x20/16z] {
+RSs55SD030JH9rprNt54CO_v-m2PNx8C7uZk_AuR5Y4y9UAVU8_c73cmYzzCcOcOBCtNZApInB808fp-lz0MeMA7-HWOpcFi8cCIQG64aGE77NiahK6v8hkC
+2tY7gYpIOePFRHthtn3Plk6meqyxy0S
+}
+!procedure AmazonEc2($id, $name="Amazon Ec2", $tech="")
+  IconElement($id, 'aws-20200911/Service/Compute/AmazonEc2', $name, $tech)
+!endprocedure
+!procedure AmazonEc2Card($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2Md>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2Group($id, $name='Amazon Ec2', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceConditionalAccessMd [14x14/16z] HSc72KHH449H9-fi_mNlI_0loOE0MP5KcM7bqLhgyBtNx1MfXAUwAxEMhxXciU_7pgfiFfL7H1t5i6onE0cOjBwCaXn03KzJs74qAmAF7rRz-pM-8d3w0m
+sprite $ServiceConditionalAccessLg [20x20/16z] {
+LSo50GGX34HHuiFrN_1DilvNUSWw4tEJzKaz8bpliOXQeOgFgSXG9b3P5P3PQ3lVRQCfUaMuU_HgZFLHwK5E_hqiaizjjlaN7i67VyTvj3GrvXzJHakQjW5e
+ctKej4cEcNiRKXQpZV8f2ZnkIZnb0nFiAyZwu8U8DLH3DyR-xI1zqCCl-WC
+}
+!procedure ServiceConditionalAccess($id, $name="Service Conditional Access", $tech="")
+  IconElement($id, 'azure-v2/Item/Security/ServiceConditionalAccess', $name, $tech)
+!endprocedure
+!procedure ServiceConditionalAccessCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceConditionalAccessMd>', 'Security', $funcName, $content)
+!endprocedure
+!procedure ServiceConditionalAccessGroup($id, $name='Service Conditional Access', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceConditionalAccessLg>', $name, $tech)
+!endprocedure
+@enduml

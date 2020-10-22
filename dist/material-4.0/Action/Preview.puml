@@ -1,0 +1,16 @@
+@startuml
+sprite $PreviewMd [14x14/16z] NSh50K0X30FGDBXs_sc_2_1k4Ine7Zo3Veve_sIFr4avaFrAWC_P0qyg6eAMEpMliPIelbsRj1v2R_8y9PUI1Ky2H80hKVj3YICwUt57cEq
+sprite $PreviewLg [20x20/16z] {
+ZP053iH030ClKCNLDft_l_QOUSH1svl_cLGwKyfJYGUcGqsFDHrgHTzngWc_tVRxMahvMCkccuwxMa155BXTQuCEY6RSvcRMw2LMvhjx2oDYiDp_i1b0TgdL
+IP_xWxuqFsE9FcNmcDMfz1yx
+}
+!procedure Preview($id, $name="Preview", $tech="")
+  IconElement($id, 'material-4.0/Action/Preview', $name, $tech)
+!endprocedure
+!procedure PreviewCard($id, $funcName="", $content="")
+  IconCard($id, '<$PreviewMd>', '', $funcName, $content)
+!endprocedure
+!procedure PreviewGroup($id, $name='Preview', $tech='')
+  IconGroup($id, 'IconGroup', '<$PreviewLg>', $name, $tech)
+!endprocedure
+@enduml

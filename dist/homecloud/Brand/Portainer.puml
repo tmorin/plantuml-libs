@@ -1,0 +1,16 @@
+@startuml
+sprite $PortainerMd [14x14/16z] HOx50G0W30Efo_xxuj1xLPEq0xK2M0bkYIB89BnxH69ImRi5OEJtE0y9gbELwiZTwNUI7aol0pDNgouYKlzbJAns6Jcx2odT80C
+sprite $PortainerLg [20x20/16z] {
+PSs55SKm34DH6MJQVz_Fu9o-ycq0lnINh1ndGgTH5mX3mVVZdPD9CfCUOMi3WuTWpnK6k4t8CCFLz6f1-67vJ0xpwPcnmsmw8zMu39NHnIHMbjqzq_edxNVZ
+Uu-FSO-RjmKMUarNbs8dD8ZWqnq
+}
+!procedure Portainer($id, $name="Portainer", $tech="")
+  IconElement($id, 'homecloud/Brand/Portainer', $name, $tech)
+!endprocedure
+!procedure PortainerCard($id, $funcName="", $content="")
+  IconCard($id, '<$PortainerMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure PortainerGroup($id, $name='Portainer', $tech='')
+  IconGroup($id, 'IconGroup', '<$PortainerLg>', $name, $tech)
+!endprocedure
+@enduml

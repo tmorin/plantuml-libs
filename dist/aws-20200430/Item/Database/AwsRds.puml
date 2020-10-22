@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsMd [14x14/16z] NOq50W8m30EnsFh__p8fUjDQClwexq-19m1NIAviPKMBI79ET-I7zF0Pu30aZ70Do3kAjUTcHC9kaKHAsWUZ9W7M7DdPFLVhwlUN9m
+sprite $AwsRdsLg [20x20/16z] {
+ZL05hWKm24i-HGgx_td_zBbrGeD3_ewg9ru6EwfEQ-eWhEqLVrZKYAo914z8Dz5KZPDkbQTOX0bjAulmViqSx7VLK3QAHxXqebiNZGZt05jiNS8evZxouIJC
+8Bm3zAtQlNHmqbSzFyv6GRtQmQjT_Ov_
+}
+!procedure AwsRds($id, $name="Aws Rds", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRds', $name, $tech)
+!endprocedure
+!procedure AwsRdsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsGroup($id, $name='Aws Rds', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsLg>', $name, $tech)
+!endprocedure
+@enduml

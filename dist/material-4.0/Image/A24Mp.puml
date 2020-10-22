@@ -1,0 +1,16 @@
+@startuml
+sprite $A24MpMd [14x14/16z] NOs54S1G24Dx9D3lsN_RkhvJY4q_32Us7RfPJwWHhPJKXEqQoKeApyTLRHu5aulRrTshbDfn9NfePjekYYG60uVcAN7GGjYqwF8HJU9lVJrviXqV5W
+sprite $A24MpLg [20x20/16z] {
+ZT250KCX30HGd0ZXzj-sITtR-yh3IV-dq_JGwMudmaDw605A9DWCLO32fdzpITiIMZyR8HecS-jtDhBtjIWmviNIQ0QHKlQrdOunDW2MwnmMIsEiCQQTpJ_5
+BqZgtccUhKZMCEIRrQEf5-Hg6VlORjbrZiM04Sm_Rf_E8CwAw7nOvFHt3W
+}
+!procedure A24Mp($id, $name="A24 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A24Mp', $name, $tech)
+!endprocedure
+!procedure A24MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A24MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A24MpGroup($id, $name='A24 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A24MpLg>', $name, $tech)
+!endprocedure
+@enduml

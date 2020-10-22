@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceReservedIpAddressesClassicMd [14x14/16z] PSk50O0m30H0Y7na_ttHUgyQ8o8kY4uHqKA4Cw45qYE4XJyIDj69R544lbqYXmUyH43Pwnn6IfDZSWC
+sprite $ServiceReservedIpAddressesClassicLg [20x20/16z] ZSx50SKm30FGDh78--_xcR7lQDIoqJhUoTrvr6qvN1ynnvhgaMBGUcPM4SzOi_3gUqqcP87MjSPkqHsgczTQ8ZgcaciD4a4Hq6ctFlpubA_0L_XKMpzOFjW3
+!procedure ServiceReservedIpAddressesClassic($id, $name="Service Reserved Ip Addresses Classic", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceReservedIpAddressesClassic', $name, $tech)
+!endprocedure
+!procedure ServiceReservedIpAddressesClassicCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceReservedIpAddressesClassicMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceReservedIpAddressesClassicGroup($id, $name='Service Reserved Ip Addresses Classic', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceReservedIpAddressesClassicLg>', $name, $tech)
+!endprocedure
+@enduml

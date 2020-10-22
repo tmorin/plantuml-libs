@@ -1,0 +1,16 @@
+@startuml
+sprite $A3MpMd [14x14/16z] POq55aGX201vC6Bh_K-xyJj6wP87QXlw3-R1B-HdEbP_1X6RFugcDU8LTGzjxqmGPoIjDS0wRcijfCH0VTg_vds6uRz1djT5sL1vy0K
+sprite $A3MpLg [20x20/16z] {
+ZP050aGX24InO4pkVzhTtrrZZSy4-gu00QGJEkD7f3k5dc6m6SY3GSzai6mjjOL1furd5ld4n7kg1nP3mFQDAioSjJ9Bcnd8aILD50Wg4xF9v9wfMPaRMEuc
+QM56sx2lrEMD4bKhjCRbtNCErbmD5O6-wmy
+}
+!procedure A3Mp($id, $name="A3 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A3Mp', $name, $tech)
+!endprocedure
+!procedure A3MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A3MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A3MpGroup($id, $name='A3 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A3MpLg>', $name, $tech)
+!endprocedure
+@enduml

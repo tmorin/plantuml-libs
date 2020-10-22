@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsMariaDbInstanceMd [14x14/16z] bOx50SDG34DZmVlTV-5ou1epMw5ygIrXkn2KI6zfIIbTXDMkz3qfpqWQRHnxOwjx5gImPs3diMVTzsxsy6ZOKQTlyWi
+sprite $AwsRdsMariaDbInstanceLg [20x20/16z] {
+XP1L0iCm34CZ6QJk_WTUu6UyruRCDkGN1CTu8UM1-Ks8kRWEAnmN0am6f9I6JRkfxegp18l5AdTakrgvP3iUY0b1ZlbFsHlNemojIUUZp8MfI3tARaM0TNkG
+mQb9-absJZ_vAYDIpxwixkPVtyjTrNxs7P4Pmyx7ciSa3JqClJrft04
+}
+!procedure AwsRdsMariaDbInstance($id, $name="Aws Rds Maria Db Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsMariaDbInstance', $name, $tech)
+!endprocedure
+!procedure AwsRdsMariaDbInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsMariaDbInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsMariaDbInstanceGroup($id, $name='Aws Rds Maria Db Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsMariaDbInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

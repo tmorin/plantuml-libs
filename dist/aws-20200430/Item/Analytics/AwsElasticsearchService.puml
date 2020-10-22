@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElasticsearchServiceMd [14x14/16z] XOq54W8n34MnR-N-zwL9PaUmVMtSrZba3ZUM3AhzYDnHE4qmDnr5sQuoqP8fRdD4e5VWYV8m1SvEwc5qM95bRIBtyUT--t_o0W
+sprite $AwsElasticsearchServiceLg [20x20/16z] {
+bT0tTaC1449H1y8CUF_RTLAMgl_AUwZ8uTg-cCdjuoWOUhnNMici0UAwCeQgCU591D8XAVbYMCEmHzmz6sFHmfIRcrbcK_l1HaarTqRnb_P3TmORqiU8Ebi7
+_f9siVB9O886Xe9mif7Mcf6otDj9_Izf3lG3
+}
+!procedure AwsElasticsearchService($id, $name="Aws Elasticsearch Service", $tech="")
+  IconElement($id, 'aws-20200430/Item/Analytics/AwsElasticsearchService', $name, $tech)
+!endprocedure
+!procedure AwsElasticsearchServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticsearchServiceMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsElasticsearchServiceGroup($id, $name='Aws Elasticsearch Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticsearchServiceLg>', $name, $tech)
+!endprocedure
+@enduml

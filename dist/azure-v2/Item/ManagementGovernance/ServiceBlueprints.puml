@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBlueprintsMd [14x14/16z] LSS50W11249HKM3Y_lVTpZ-Xhu-EY01YRyoH0FQ7Y3w69HMrXLDLjQl68O8VASgF282xUk-MKaLlahV8_ShbvZSYMMVS56zz_3I_AiOA
+sprite $ServiceBlueprintsLg [20x20/16z] {
+RSY50GGn24HHO2JIVx_dQzdxKLv4LgmbkM9fZfRd8jJ66E8fVCrwXOBUkNO3-3LXDrRUJ4ZUh0A-6YiZiLWMidxcthhVFvhr_fYKPVlxWT-nlg-bz_MrAAyn
+8a4SIIzRQdtePkEVJQu6CPy
+}
+!procedure ServiceBlueprints($id, $name="Service Blueprints", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceBlueprints', $name, $tech)
+!endprocedure
+!procedure ServiceBlueprintsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBlueprintsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceBlueprintsGroup($id, $name='Service Blueprints', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBlueprintsLg>', $name, $tech)
+!endprocedure
+@enduml

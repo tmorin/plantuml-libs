@@ -1,0 +1,16 @@
+@startuml
+sprite $StandardStorageClassMd [14x14/16z] HSl70GCn24HH1p5f--_NWDFNwGcmhOrJw-yHgiuvnQPJfHdZsHoXNzKe0QsYL98ICgu3dfKGnpZt6hbbX-MFqW9MAGsBhIkNWAf6TpMpXwlcjF0B
+sprite $StandardStorageClassLg [20x20/16z] {
+PSi7JeL130DX8Ctstl--9Fk7-aRzauOTiDKJfnTxrGlXTlF2MbaKkigmn3MvSuFRcAWmDv_c1Z2MALJbJ1bib5GkYXz9qdCDRMIu1TtNU4r4sFlRe3flc0IB
+mXh46vpxdgYrSc8jwrnK1Tbwsc2WMc79mJDO_bIydOlxQcrm8zSMV-id
+}
+!procedure StandardStorageClass($id, $name="Standard Storage Class", $tech="")
+  IconElement($id, 'aws-20200911/Service/Storage/StandardStorageClass', $name, $tech)
+!endprocedure
+!procedure StandardStorageClassCard($id, $funcName="", $content="")
+  IconCard($id, '<$StandardStorageClassMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure StandardStorageClassGroup($id, $name='Standard Storage Class', $tech='')
+  IconGroup($id, 'StorageFamily', '<$StandardStorageClassLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $MotionPhotosOffMd [14x14/16z] {
+PKt7bSKm22JRGW-c_sxN2gVzd9XCFsTPbRhVVAdIFP4B2LxYSEOU7zBkHnfmWH7DeGZ-8EVdBG_WuK9uNVJ1W-PWRCWvlp5mRFYvrc0pHsY_TFOnt4VZGfjL
+qpJft_q1
+}
+sprite $MotionPhotosOffLg [20x20/16z] {
+VP09RWKn24F9JYO9llzjQn6wj__DRlaD4lA2KckM3p9FDH3J515KEewsFWrMn7am95uxKAB8C2spLQN0N9_Or0S0_uiAiUDw1wboZ561oa8qboYoI4KJX0UJ
+Xdep0nbiHXOkNDzqovtHWDjCTuOevGb7tIB9M6_Ri1QR_MwYmfeucs5G3Tn1qmExgkiAPwQ9_6sd9RRv9sy
+}
+!procedure MotionPhotosOff($id, $name="Motion Photos Off", $tech="")
+  IconElement($id, 'material-4.0/Image/MotionPhotosOff', $name, $tech)
+!endprocedure
+!procedure MotionPhotosOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$MotionPhotosOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure MotionPhotosOffGroup($id, $name='Motion Photos Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$MotionPhotosOffLg>', $name, $tech)
+!endprocedure
+@enduml

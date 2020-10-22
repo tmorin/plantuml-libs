@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceInfrastructureBackupMd [14x14/16z] JOi53WCn4CIIPUZr_y_jP4jdeMMPM0seq0B4vX7XNukyhcSp7sKqO48ypRFxKR2D9XxTNSB2nsoGJMjC3qnCtmQ4HJwctXaLt-PTLNwpH1FrRsjVctXGpBHU
+sprite $ServiceInfrastructureBackupLg [20x20/16z] {
+dS_50G8m44JHrOb1_-qIbol_-A9BnBAZbUYEbwa3eGROHlMKlwraQhmjV9fb4zLzDhJW9Z8tAcBAjHHC-DWvQohJOcx5RZnitWSNadNMPoQyRURQOdxCJTNw
+ZROebWX73aoyBPHSAzjQyGyBsqepC97OgWtKXla1
+}
+!procedure ServiceInfrastructureBackup($id, $name="Service Infrastructure Backup", $tech="")
+  IconElement($id, 'azure-v2/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech)
+!endprocedure
+!procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceInfrastructureBackupMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+!procedure ServiceInfrastructureBackupGroup($id, $name='Service Infrastructure Backup', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceInfrastructureBackupLg>', $name, $tech)
+!endprocedure
+@enduml

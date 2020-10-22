@@ -1,0 +1,19 @@
+@startuml
+sprite $DynamoDbItemsMd [14x14/16z] {
+NOs50SGm30CRooUvtN_VP-mbPYhkI7H3uP8q8nzjq7R3tapV-rPL9ULTZUOEJ9nHfu44xwIVSybjLCKt6eaUsxd_yRGcoJtABH9zQrolplFr09uX1s7fJYrL
+IUiA
+}
+sprite $DynamoDbItemsLg [20x20/16z] {
+RO-7bSD020N9V73__Hx2UscVHvaqY4HbOPRdLLL8NbZwVHRm4WKjcgba1IRelrXJnXsBX4nCsfS4qgFXtiAHRrJd5Z4NIsEfY4Bk1g9rvW7ZxV7MvUNqsmk7
+hbTDvmmWr7kAMlbeOOPnvi2CWpic-9XPYsLWdoYFL_Zobi88TomtLiGFXYavEtCj-sy5ODwPFl05
+}
+!procedure DynamoDbItems($id, $name="Dynamo Db Items", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/DynamoDbItems', $name, $tech)
+!endprocedure
+!procedure DynamoDbItemsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DynamoDbItemsMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure DynamoDbItemsGroup($id, $name='Dynamo Db Items', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$DynamoDbItemsLg>', $name, $tech)
+!endprocedure
+@enduml

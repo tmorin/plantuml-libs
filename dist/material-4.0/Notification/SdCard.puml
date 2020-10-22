@@ -1,0 +1,13 @@
+@startuml
+sprite $SdCardMd [14x14/16z] jSar0e0m50FGUh-5tF-q-0HptnH9VnC1e3r5jccgxiz3pwErURT1Ofh8ynbVjgfrn0qjVHm
+sprite $SdCardLg [20x20/16z] rSkp0G1150JGMUkZ_shFLdul7E233nDtY98kuY7AWLqhNkjXvK4e4Tgsw9R58Hg__l2jUl3ZB1wpY9aB6uSNFG
+!procedure SdCard($id, $name="Sd Card", $tech="")
+  IconElement($id, 'material-4.0/Notification/SdCard', $name, $tech)
+!endprocedure
+!procedure SdCardCard($id, $funcName="", $content="")
+  IconCard($id, '<$SdCardMd>', '', $funcName, $content)
+!endprocedure
+!procedure SdCardGroup($id, $name='Sd Card', $tech='')
+  IconGroup($id, 'IconGroup', '<$SdCardLg>', $name, $tech)
+!endprocedure
+@enduml

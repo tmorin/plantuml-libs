@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the CustomEventBusResource64White element
+include('aws-20200430/Item/ApplicationIntegration/CustomEventBusResource64White')
+CustomEventBusResource64White('custom_event_bus_resource_64_white', 'Custom Event Bus Resource64 White', 'an optional tech field')
+@enduml

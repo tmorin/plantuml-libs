@@ -1,0 +1,13 @@
+@startuml
+sprite $Crop169Md [14x14/16z] Oo01i79oW04dAv33pC_33GOy_CmC32nyC4LyBCJpq4rXO8FPm4QAkm
+sprite $Crop169Lg [20x20/16z] Ow0BOEJXHmBSZ20nTdvkBZZWvcU7Y34XD37nS-0Iuo12Z5ZpSBc52SNDF8nGdo01MeGK
+!procedure Crop169($id, $name="Crop169", $tech="")
+  IconElement($id, 'material-4.0/Image/Crop169', $name, $tech)
+!endprocedure
+!procedure Crop169Card($id, $funcName="", $content="")
+  IconCard($id, '<$Crop169Md>', '', $funcName, $content)
+!endprocedure
+!procedure Crop169Group($id, $name='Crop169', $tech='')
+  IconGroup($id, 'IconGroup', '<$Crop169Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $HorizontalSplitMd [14x14/16z] Oy0BcE00o67cv-C70I353EGomW58ZWSEc85Ix6nGmCu8vB720P37mWy7BEWyPWIF6TLsl
+sprite $HorizontalSplitLg [20x20/16z] hSi35W1130FGCOlxdtPjO_vZcqGKvmWNoBK_pqWJP2zEcE33n0VJ_WAlXFOdrOey-UssPp__iES8S0BaH74r
+!procedure HorizontalSplit($id, $name="Horizontal Split", $tech="")
+  IconElement($id, 'material-4.0/Action/HorizontalSplit', $name, $tech)
+!endprocedure
+!procedure HorizontalSplitCard($id, $funcName="", $content="")
+  IconCard($id, '<$HorizontalSplitMd>', '', $funcName, $content)
+!endprocedure
+!procedure HorizontalSplitGroup($id, $name='Horizontal Split', $tech='')
+  IconGroup($id, 'IconGroup', '<$HorizontalSplitLg>', $name, $tech)
+!endprocedure
+@enduml

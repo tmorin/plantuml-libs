@@ -1,0 +1,16 @@
+@startuml
+sprite $EmojiTransportationMd [14x14/16z] PKw30KDH3BmO_s7_QMitTWv_9AegpuJQC_gL1G_AUwmU1NvchSg0k5mTvONXPUxDZwm8WCKbWu17pp6wBnbFagozjnTmFIRxHkEwDuctC5DCWA60t508lkaC
+sprite $EmojiTransportationLg [20x20/16z] {
+bSr75WCW203HiLVW_hVDapINoL-E0lmZz74aBabAhMLsBddHDtLmIOkXLmkrbh60gnNfOnI0c7YfdTVyd6kkyPhO6vWjvPpJgjyM5ovFl1rLYciQlRKASsyx
+fXPlAh1oEacOrLiCC4tjK2jG-wk9y-Qpf-6APKZPR-IA2otmgmS
+}
+!procedure EmojiTransportation($id, $name="Emoji Transportation", $tech="")
+  IconElement($id, 'material-4.0/Social/EmojiTransportation', $name, $tech)
+!endprocedure
+!procedure EmojiTransportationCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmojiTransportationMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmojiTransportationGroup($id, $name='Emoji Transportation', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmojiTransportationLg>', $name, $tech)
+!endprocedure
+@enduml

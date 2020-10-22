@@ -1,0 +1,13 @@
+@startuml
+sprite $FormatListNumberedRtlMd [14x14/16z] VSt50S0020J11Ivk_LSRTviN3d_C5oW3ggwTTB8Iy1M84mk3l9nLuRKVcQkoo-JvGnH--a2ZquSedJy3
+sprite $FormatListNumberedRtlLg [20x20/16z] Ow0Uu6O7aInyl330nyB0peqfniADgPUPdJWxk7XOCStZPSOGu-B4gfSuExWnxM3cuy0XXgcN8W
+!procedure FormatListNumberedRtl($id, $name="Format List Numbered Rtl", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatListNumberedRtl', $name, $tech)
+!endprocedure
+!procedure FormatListNumberedRtlCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatListNumberedRtlMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatListNumberedRtlGroup($id, $name='Format List Numbered Rtl', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatListNumberedRtlLg>', $name, $tech)
+!endprocedure
+@enduml

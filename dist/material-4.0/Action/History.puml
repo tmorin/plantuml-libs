@@ -1,0 +1,16 @@
+@startuml
+sprite $HistoryMd [14x14/16z] RKw50GD128Dpp_xRDhHzVzo9l90BRe_z1B3YBuceAfgHBT6LH085dbcUh0m6lPcf_omFUe2rKTGoqTc5LEjlKjMoxGh7ZW_sS6Aj5GyqmSkJFW
+sprite $HistoryLg [20x20/16z] {
+bOu54WGn20JZ7kR_lpsWvgnyUpMDXeV4sblvCsd1aFvLHR1hBlrYHwe4i6nWqsraVTVeihdAcFQ1vyfrrv6_RYBf4c4XnOzhzfbGZagRIQTfkCcc7tJMgXGk
+rJPdA5I1kv31dJjs81bO9ULsV1X96yxWcRRrNi8pNW
+}
+!procedure History($id, $name="History", $tech="")
+  IconElement($id, 'material-4.0/Action/History', $name, $tech)
+!endprocedure
+!procedure HistoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$HistoryMd>', '', $funcName, $content)
+!endprocedure
+!procedure HistoryGroup($id, $name='History', $tech='')
+  IconGroup($id, 'IconGroup', '<$HistoryLg>', $name, $tech)
+!endprocedure
+@enduml

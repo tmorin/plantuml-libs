@@ -1,0 +1,16 @@
+@startuml
+sprite $NetworkWifiMd [14x14/16z] VSV50SD04CNGlmn3_LURcDdMIG_VkTo8MdBJDzDUQrTh3b4vm8VW4LWZcKjYGvAS4SYs200TCN33nWq3ZnXu11oU-WC
+sprite $NetworkWifiLg [20x20/16z] {
+fSi53WCm34FHGihW-zzsRiOH3RueUf7TtyLSUwyvFi3NZLkxUgK2h2gylTG551u3IyvQv2nbOP26Ssb06_mImaAPU3GALd34jqYEQ4dHag8bHKEAsvAY9SLD
+iaZwiWi
+}
+!procedure NetworkWifi($id, $name="Network Wifi", $tech="")
+  IconElement($id, 'material-4.0/Device/NetworkWifi', $name, $tech)
+!endprocedure
+!procedure NetworkWifiCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetworkWifiMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetworkWifiGroup($id, $name='Network Wifi', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetworkWifiLg>', $name, $tech)
+!endprocedure
+@enduml

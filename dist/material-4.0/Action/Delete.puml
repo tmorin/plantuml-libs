@@ -1,0 +1,13 @@
+@startuml
+sprite $DeleteMd [14x14/16z] hSUd0G0W30J0ftVOVrf8aR6SErW-10_bnZXa32UhhP9MPSXhafKXwX5LLxuiwp9KY2J0U
+sprite $DeleteLg [20x20/16z] pSg53S0W04JHmntsdnQNM2tQX_-0RwXMIbCSsjcOgcYTNYtKPvTIM8qmndXL3u8bRVziSJVS_lChUMnKwKvHV54
+!procedure Delete($id, $name="Delete", $tech="")
+  IconElement($id, 'material-4.0/Action/Delete', $name, $tech)
+!endprocedure
+!procedure DeleteCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeleteMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeleteGroup($id, $name='Delete', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeleteLg>', $name, $tech)
+!endprocedure
+@enduml

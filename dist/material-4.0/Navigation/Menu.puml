@@ -1,0 +1,13 @@
+@startuml
+sprite $MenuMd [14x14/16z] Oo0UC75oG04d4v37mmq5FCmOAhdWW0cDXmQOUU206Sq6uW4
+sprite $MenuLg [20x20/16z] Ow0BOET70HmWCLPkBYJ0pKgAUMnyl4Y0Zmsh6940briuiBYPWH45q22a
+!procedure Menu($id, $name="Menu", $tech="")
+  IconElement($id, 'material-4.0/Navigation/Menu', $name, $tech)
+!endprocedure
+!procedure MenuCard($id, $funcName="", $content="")
+  IconCard($id, '<$MenuMd>', '', $funcName, $content)
+!endprocedure
+!procedure MenuGroup($id, $name='Menu', $tech='')
+  IconGroup($id, 'IconGroup', '<$MenuLg>', $name, $tech)
+!endprocedure
+@enduml

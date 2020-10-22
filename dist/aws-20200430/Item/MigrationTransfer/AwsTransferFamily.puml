@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTransferFamilyMd [14x14/16z] ZSc53SC030J0qcFtdxSG5WJC9_T261i84qqfV-KloQG5TT3hJsBweMz8rAIqP3cfRJBhDQn91iT83-CB
+sprite $AwsTransferFamilyLg [20x20/16z] {
+hSq74iGW34FH6T37bhd_VRVtlecSK1wjLahAzsI5xgd5f9_N0PUH-_31akslxGmpwsHZMy7MMvnCP6R8Yj3PnlP8PzBCnVOlRUlEAblCUojlltkh3sPrj0-Y
+pl4fzKis
+}
+!procedure AwsTransferFamily($id, $name="Aws Transfer Family", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/AwsTransferFamily', $name, $tech)
+!endprocedure
+!procedure AwsTransferFamilyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTransferFamilyMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsTransferFamilyGroup($id, $name='Aws Transfer Family', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsTransferFamilyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $AlarmOnMd [14x14/16z] {
+POq53WCm24L_1GZ1xd_RmHhTNeiRVj4x-khevN7OZ4_uwefHXcec-LHl2HgfCyRV0DJRxDeJ1ArnRe8lGe2ym2cS2ExoTp05bsTDeA5wrulmTXkpbU1nBC8E
+_lW
+}
+sprite $AlarmOnLg [20x20/16z] {
+VP050aCX34DnXzp_jcl9Pxxb2uyW5VDB_WDCHI04L8BjQDRbMhCJx5QjYU8wjhehc6hsv87ghGqLowU-3pl1AyI29JM6O91sRMidVZOTJYaYFb9Ad6Hu4xnQ
+ylF8nvDvaK6zn7jbgDYMoOndCUHV67iitbru1xST78Uo7g7im2mnbiKEd3CBefNUsXg2Ctzq0m
+}
+!procedure AlarmOn($id, $name="Alarm On", $tech="")
+  IconElement($id, 'material-4.0/Action/AlarmOn', $name, $tech)
+!endprocedure
+!procedure AlarmOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlarmOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlarmOnGroup($id, $name='Alarm On', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlarmOnLg>', $name, $tech)
+!endprocedure
+@enduml

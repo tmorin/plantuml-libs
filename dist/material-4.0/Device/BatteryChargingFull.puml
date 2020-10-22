@@ -1,0 +1,13 @@
+@startuml
+sprite $BatteryChargingFullMd [14x14/16z] POlL0KKn5CBgVNA0_QUzBfNy8N4pmImyePXavKxG1ffaRVgNDgKcyU_yZq-owF0agEJMgzPuelGylu3XwoPM
+sprite $BatteryChargingFullLg [20x20/16z] ZT250SGW30NG26xPVzhJElghF1mOXBNcfmMHS1SRYaW9za8aMsZ1GcsPQzDOMGQgJ0EQTBVqUMEvMoa4lfg3I6hpjHcfBLUs1Myd-Wj3Dsy
+!procedure BatteryChargingFull($id, $name="Battery Charging Full", $tech="")
+  IconElement($id, 'material-4.0/Device/BatteryChargingFull', $name, $tech)
+!endprocedure
+!procedure BatteryChargingFullCard($id, $funcName="", $content="")
+  IconCard($id, '<$BatteryChargingFullMd>', '', $funcName, $content)
+!endprocedure
+!procedure BatteryChargingFullGroup($id, $name='Battery Charging Full', $tech='')
+  IconGroup($id, 'IconGroup', '<$BatteryChargingFullLg>', $name, $tech)
+!endprocedure
+@enduml

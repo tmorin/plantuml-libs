@@ -1,0 +1,16 @@
+@startuml
+sprite $AssignmentIndMd [14x14/16z] LSt50G0W30J1uCxrNoskYyuhD5AALbmAcxCLadUWPIrQZH8dIIJQ4uL8Kt8-waeJwIiuXwlWN9WII7oCJH1TXaQcgK_FepwzKQuwlYe
+sprite $AssignmentIndLg [20x20/16z] {
+ZP07biCW34H57sH0zp_jRX8wgTy6vdqwr56AJg98f8a3GfJhaXW0MvKyCAQsxkvGSocrnTs5myrndiWVZk-9ftkNqZsbtGaRmtAumN05LckBiZYcYk9vPaLT
+Zd75w8OfrJdPSEsj0Xe1Zdxd7m
+}
+!procedure AssignmentInd($id, $name="Assignment Ind", $tech="")
+  IconElement($id, 'material-4.0/Action/AssignmentInd', $name, $tech)
+!endprocedure
+!procedure AssignmentIndCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssignmentIndMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssignmentIndGroup($id, $name='Assignment Ind', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssignmentIndLg>', $name, $tech)
+!endprocedure
+@enduml

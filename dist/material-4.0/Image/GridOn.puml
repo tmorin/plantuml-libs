@@ -1,0 +1,13 @@
+@startuml
+sprite $GridOnMd [14x14/16z] ZOq30WHH34Ep-dxj_K-x7hDcega4e7sD854UnKAmTqBYeKUJsZintpN77Dpm9X4KM4kBo_CCWKuiQ2el
+sprite $GridOnLg [20x20/16z] Oy0Ac5XH01D8Y8yV1V011LdvELXOE908LWO65X31IeZ0r0iHGmKurGsG7In4se4PLk0mPK64A0imJB42
+!procedure GridOn($id, $name="Grid On", $tech="")
+  IconElement($id, 'material-4.0/Image/GridOn', $name, $tech)
+!endprocedure
+!procedure GridOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$GridOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure GridOnGroup($id, $name='Grid On', $tech='')
+  IconGroup($id, 'IconGroup', '<$GridOnLg>', $name, $tech)
+!endprocedure
+@enduml

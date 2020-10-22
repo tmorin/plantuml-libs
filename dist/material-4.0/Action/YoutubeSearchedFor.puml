@@ -1,0 +1,16 @@
+@startuml
+sprite $YoutubeSearchedForMd [14x14/16z] VOp50SDG34Db-0pUVzespCcx2N67bNPHh5lQH6F8AgKJ03MQHEb10UeoFJIhWot6c6IYqSl0kXpofgjKBuYcs1caEyc0B_u
+sprite $YoutubeSearchedForLg [20x20/16z] {
+fOt50GGn548XxlHVxRhBw3ib7yCwR8Zk_SAg4-FrogxiR1poprk-VimOVDXKhu_mCD8fmLoCfyULItzvlx7TJeZF4VRhoQhZ0O4GN3xPYITE9vfNVpqQvoqG
+rGq-IN-E_3uMxE88
+}
+!procedure YoutubeSearchedFor($id, $name="Youtube Searched For", $tech="")
+  IconElement($id, 'material-4.0/Action/YoutubeSearchedFor', $name, $tech)
+!endprocedure
+!procedure YoutubeSearchedForCard($id, $funcName="", $content="")
+  IconCard($id, '<$YoutubeSearchedForMd>', '', $funcName, $content)
+!endprocedure
+!procedure YoutubeSearchedForGroup($id, $name='Youtube Searched For', $tech='')
+  IconGroup($id, 'IconGroup', '<$YoutubeSearchedForLg>', $name, $tech)
+!endprocedure
+@enduml

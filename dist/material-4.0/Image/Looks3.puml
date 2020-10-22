@@ -1,0 +1,13 @@
+@startuml
+sprite $Looks3Md [14x14/16z] TOs30S0m44N_kUx-qzOCNd8M4bWkU0_cXotKDr90DcEWTe_EsZ2ulD7Si_-Y-7IEBhKj5vfU1-i58s45
+sprite $Looks3Lg [20x20/16z] ZP034aH134J73Ev_sjrl3Lyf5NUBUMpmuS07kwVunPOCxrnOStwD217fpeKpalZEWGzEX5Tk1SkSaHAAd93Gc2rlbB_0-EURqF2Wy6gUFm
+!procedure Looks3($id, $name="Looks3", $tech="")
+  IconElement($id, 'material-4.0/Image/Looks3', $name, $tech)
+!endprocedure
+!procedure Looks3Card($id, $funcName="", $content="")
+  IconCard($id, '<$Looks3Md>', '', $funcName, $content)
+!endprocedure
+!procedure Looks3Group($id, $name='Looks3', $tech='')
+  IconGroup($id, 'IconGroup', '<$Looks3Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamAwsStsMd [14x14/16z] VSt50SC020LGlh7_nctSatV2gG-Gk18IsP87IWBQNkPY1yLM721kjugc67lDP2LU9Za0BbVM3vf6f-zQe3xy0G
+sprite $AwsIdentityAndAccessManagementIamAwsStsLg [20x20/16z] {
+fP250O1024K_pVuJYztzz8e6_85sG38Yt6CcHRMpnOmMhQcdhcIShLKebA23BBZrfuoiFwoLkPjvAnGGWznRcGqo5gvVGrjXvulqdY47Yj2xMkeWNjLyrDlH
+3FxG
+}
+!procedure AwsIdentityAndAccessManagementIamAwsSts($id, $name="Aws Identity And Access Management Iam Aws Sts", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAwsSts', $name, $tech)
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamAwsStsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIdentityAndAccessManagementIamAwsStsMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamAwsStsGroup($id, $name='Aws Identity And Access Management Iam Aws Sts', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIdentityAndAccessManagementIamAwsStsLg>', $name, $tech)
+!endprocedure
+@enduml

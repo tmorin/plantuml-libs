@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudSearchMd [14x14/16z] VSVL0KDH04AnAWUu-yzRrsVvIxT5u6-2n7XEXKWyXpLQluhS5ju3EAbzrPo2NuqTLUw7PVKhId-CJbq1
+sprite $AwsCloudSearchLg [20x20/16z] {
+bK-rWS1037iuaI_xhnlcBYfjONr2d_6-2M0UrpGc1k_7vax0q7div40iPEYa8VbV74BWl1My2QBTiyDOoimtmRkVu4PI_fClGyOs6r4N28d_6DokMu_a0X_7
+MkVEH-6z6nJg3IBlqsBn0HC
+}
+!procedure AwsCloudSearch($id, $name="Aws Cloud Search", $tech="")
+  IconElement($id, 'aws-20200430/Item/Analytics/AwsCloudSearch', $name, $tech)
+!endprocedure
+!procedure AwsCloudSearchCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudSearchMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsCloudSearchGroup($id, $name='Aws Cloud Search', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCloudSearchLg>', $name, $tech)
+!endprocedure
+@enduml

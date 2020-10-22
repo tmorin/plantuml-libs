@@ -1,0 +1,13 @@
+@startuml
+sprite $AccessibilityMd [14x14/16z] ROl50K0X34FHectsd_QxO3d5dbeefoOOm3IHw34M8bmhYy0gfRrp3B1pNjzx0UgFrIPDMyvj8ceI4_6VilTPpTe1
+sprite $AccessibilityLg [20x20/16z] jOl50SG020Hnk8lGVxLnrrVcjpBm1FEfiamxTl_C_qcjgesCDC1C0zXtaJkYxoGylEnZwU4XC1FB1JxipCuTuhaZEdRU__pT9GLGWdjQ
+!procedure Accessibility($id, $name="Accessibility", $tech="")
+  IconElement($id, 'material-4.0/Action/Accessibility', $name, $tech)
+!endprocedure
+!procedure AccessibilityCard($id, $funcName="", $content="")
+  IconCard($id, '<$AccessibilityMd>', '', $funcName, $content)
+!endprocedure
+!procedure AccessibilityGroup($id, $name='Accessibility', $tech='')
+  IconGroup($id, 'IconGroup', '<$AccessibilityLg>', $name, $tech)
+!endprocedure
+@enduml

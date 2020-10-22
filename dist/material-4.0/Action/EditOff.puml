@@ -1,0 +1,16 @@
+@startuml
+sprite $EditOffMd [14x14/16z] NKw50O0m3CkaEEJ_RwcXqre4lrNoh_QCXtzOsVKLUbfcqlxEes4-whm0sMqnWUYMjY3NJEiyYQOjaaNZHRBRB4bcooonL4oszyVXTvq
+sprite $EditOffLg [20x20/16z] {
+ZSW72WH130D1JSG-EEl_hzquGUHjKbFuNjdRCvv-R9ESyM0AJipamFmVQBcGx10qHYfqGB2IaHDcEHuC6dQPDpQ7P7nGSr9GQA2Iv__6_X8WQ8CKRT2D4Hbt
+rQnZb6_wt0a
+}
+!procedure EditOff($id, $name="Edit Off", $tech="")
+  IconElement($id, 'material-4.0/Action/EditOff', $name, $tech)
+!endprocedure
+!procedure EditOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$EditOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure EditOffGroup($id, $name='Edit Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$EditOffLg>', $name, $tech)
+!endprocedure
+@enduml

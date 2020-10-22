@@ -1,0 +1,16 @@
+@startuml
+sprite $VoicemailMd [14x14/16z] dKf54WCn35CSZPnf3Vz_RRbxNJ2ASBo6h_d-S_c0LKOxi3goB6u0swm9tAFViPJo7UxIwnLPhwVo5gF93geTggs4g_K4
+sprite $VoicemailLg [20x20/16z] {
+lOxL0S0W34GlQ91m-q-BVdM1FYGk-8LaD9MZYHfxsahZQ5iLG3gj3LPaAh3_0XGcd3yFmw4JmdRLOQnNKOfGhzh8VfLwV2ziGs-JSEpASDQWYh7bIjRy_aOJ
+IEM7-bPrpdldtY_uXmK
+}
+!procedure Voicemail($id, $name="Voicemail", $tech="")
+  IconElement($id, 'material-4.0/Communication/Voicemail', $name, $tech)
+!endprocedure
+!procedure VoicemailCard($id, $funcName="", $content="")
+  IconCard($id, '<$VoicemailMd>', '', $funcName, $content)
+!endprocedure
+!procedure VoicemailGroup($id, $name='Voicemail', $tech='')
+  IconGroup($id, 'IconGroup', '<$VoicemailLg>', $name, $tech)
+!endprocedure
+@enduml

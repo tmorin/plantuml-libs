@@ -1,0 +1,16 @@
+@startuml
+sprite $EventBridgeSaasPartnerEventMd [14x14/16z] HSA7JG1140GmpstIzzymA85buFaJMMy0zxGf0Qyal0lJr5sf86q_lkK5TlQtthnhgzk2C3kpRGlLtjtZ3Ta8kW3THWumiU5VW1y
+sprite $EventBridgeSaasPartnerEventLg [20x20/16z] {
+TS67OHWX400m7LU0tt_VzBXRya_uR0hbHGOzrF5YDZcSvTKfiB3JFq4bd0rr4kly4YA1FAcV99_YrNsQUYurEu2pvjvPX-wazt32Z3Y0piKjtUeI_BFkp9wR
+yaw02Vfv6c8ISJT4i1OW2qMGrwiwx6Is5oUPHdYnKCttVW8
+}
+!procedure EventBridgeSaasPartnerEvent($id, $name="Event Bridge Saas Partner Event", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/EventBridgeSaasPartnerEvent', $name, $tech)
+!endprocedure
+!procedure EventBridgeSaasPartnerEventCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventBridgeSaasPartnerEventMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure EventBridgeSaasPartnerEventGroup($id, $name='Event Bridge Saas Partner Event', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$EventBridgeSaasPartnerEventLg>', $name, $tech)
+!endprocedure
+@enduml

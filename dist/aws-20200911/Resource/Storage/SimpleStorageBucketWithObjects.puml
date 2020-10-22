@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageBucketWithObjectsMd [14x14/16z] DST7OGGm00InsMQ7F-5Srq-0aZRcnLjYfmleyBEWk_eblO79QTAeXe6OWGg6hxEP6Ugp0-xkdqWSaqL7u6ZJM0geUVA9tvit0mrFNUDauqtEatXw
+sprite $SimpleStorageBucketWithObjectsLg [20x20/16z] {
+LL0BRWKW20CihSdkVz_HCBUz-jT-3B78gihuGpKVkfOX8HyRalT4_0VeEzL_7_cksM8tW6wgsIRFL0Tm7mLiTRYgiqjxBSwuKL_ho_Givo3oICCHzWxCQrAs
+gDjcbxTmMWKkyLm7qBbPt2J443dyUJuTnYmwgJY2dgZe3oZdiKmsXjAIrbIvArcPMrZohpuBVTOjqzmVV0C
+}
+!procedure SimpleStorageBucketWithObjects($id, $name="Simple Storage Bucket With Objects", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageBucketWithObjects', $name, $tech)
+!endprocedure
+!procedure SimpleStorageBucketWithObjectsCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageBucketWithObjectsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageBucketWithObjectsGroup($id, $name='Simple Storage Bucket With Objects', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageBucketWithObjectsLg>', $name, $tech)
+!endprocedure
+@enduml

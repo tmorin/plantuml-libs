@@ -1,0 +1,13 @@
+@startuml
+sprite $FreeBreakfastMd [14x14/16z] PSV50S0m4CJ0DTk7_LSRvenUmaTCkvpN8p_HurhMnz5udcbzN0T-ruxBs7HTDPp2qc6uRNoibqhUb8IF6G
+sprite $FreeBreakfastLg [20x20/16z] ZT350SGW54NHXplqN-re4bpkyco-u3oXbRvJcltCfYhQ6fL9j0RUcz3PSf6s9WH5QmIOciaKSCMoQTp9U9514Vr5Cf2_P6ztjjslb1Ouxmq
+!procedure FreeBreakfast($id, $name="Free Breakfast", $tech="")
+  IconElement($id, 'material-4.0/Places/FreeBreakfast', $name, $tech)
+!endprocedure
+!procedure FreeBreakfastCard($id, $funcName="", $content="")
+  IconCard($id, '<$FreeBreakfastMd>', '', $funcName, $content)
+!endprocedure
+!procedure FreeBreakfastGroup($id, $name='Free Breakfast', $tech='')
+  IconGroup($id, 'IconGroup', '<$FreeBreakfastLg>', $name, $tech)
+!endprocedure
+@enduml

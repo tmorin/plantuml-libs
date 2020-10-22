@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTAlexaEnabledDeviceMd [14x14/16z] POu70a8n348XWTRxdrXIj_zrPeFI6uAkGCvjgW0mTfxMM9Pa0JMMMuUnM38doyTg2K6ggtLgGVdLnRcM7XRaVTiDLB-c8xIuAiGCY-2twZi
+sprite $IoTAlexaEnabledDeviceLg [20x20/16z] {
+TP070e0m20D9KaZz_uVTMq-xs10Hl14JTDtm93NY1XsixIfjok8gaolJXOki6PIWpaCcHpdJGiSkCwh5XDLoawcsH32yoTh4dhBmB-Fk6wOlEN8MjMnvhMKw
+Q1dNcalgQLvwe_imzBpsDW4YzkHXFcVrETElsOy
+}
+!procedure IoTAlexaEnabledDevice($id, $name="Io T Alexa Enabled Device", $tech="")
+  IconElement($id, 'aws-20200911/Resource/LoT/IoTAlexaEnabledDevice', $name, $tech)
+!endprocedure
+!procedure IoTAlexaEnabledDeviceCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTAlexaEnabledDeviceMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTAlexaEnabledDeviceGroup($id, $name='Io T Alexa Enabled Device', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTAlexaEnabledDeviceLg>', $name, $tech)
+!endprocedure
+@enduml

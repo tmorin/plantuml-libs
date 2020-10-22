@@ -1,0 +1,16 @@
+@startuml
+sprite $VerifiedMd [14x14/16z] POs50GGX40E3UxR_RZ-ydGqwi887YJapVIKi4oj0UDeNUjdthW1P-4XsPk4TI0ccJYTRw4KYypkomKbs9Bn9XstyhOC8FBgBp5AOyU05
+sprite $VerifiedLg [20x20/16z] {
+VP054i0m20IFHYOqqFl_Q-jkExuu-4HA04AHirEoLhBW878bhA9HuuvfCxdC2saftF6jFEmgmrPdXmeTQG3gt7fMIvUwE8KkMQiJ8qqGjxwspN3PnuTz5qlT
+xZvs3gqVnjjm_q7y_nL40n1KyCa
+}
+!procedure Verified($id, $name="Verified", $tech="")
+  IconElement($id, 'material-4.0/Action/Verified', $name, $tech)
+!endprocedure
+!procedure VerifiedCard($id, $funcName="", $content="")
+  IconCard($id, '<$VerifiedMd>', '', $funcName, $content)
+!endprocedure
+!procedure VerifiedGroup($id, $name='Verified', $tech='')
+  IconGroup($id, 'IconGroup', '<$VerifiedLg>', $name, $tech)
+!endprocedure
+@enduml

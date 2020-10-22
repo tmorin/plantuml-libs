@@ -1,0 +1,16 @@
+@startuml
+sprite $PendingMd [14x14/16z] PSq35W11203GnJZT_xHhXF-KcuAr0_JrIRfSkagUDCadNItLH2b9SfPK17qszAIzeZ-uxvSq44UQWXq
+sprite $PendingLg [20x20/16z] {
+VP1L0e0m34DN-S2ItF-skCE2xjLRAehCk05hg4bex419RMBiI1Ujq7Xbi9arkgcP6UyCSnFpT-A0HAmPK-gB2tE0brxAAuDiOtFiiCLYc6C_QxnxUVTCUy-M
+xntaSrTixBtJYaO
+}
+!procedure Pending($id, $name="Pending", $tech="")
+  IconElement($id, 'material-4.0/Action/Pending', $name, $tech)
+!endprocedure
+!procedure PendingCard($id, $funcName="", $content="")
+  IconCard($id, '<$PendingMd>', '', $funcName, $content)
+!endprocedure
+!procedure PendingGroup($id, $name='Pending', $tech='')
+  IconGroup($id, 'IconGroup', '<$PendingLg>', $name, $tech)
+!endprocedure
+@enduml

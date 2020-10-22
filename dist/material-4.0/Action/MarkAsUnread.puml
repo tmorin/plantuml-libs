@@ -1,0 +1,16 @@
+@startuml
+sprite $MarkAsUnreadMd [14x14/16z] PSc50G0X30J1It3llrgSrqK7y8jSuFjUGf_Bkb_6KpP3oP9IIafZ5NNfM7O1Y3OfqwzzJqCvQxPzbZXLolmUigPhD0KkJo4T-I6MEyAx1W
+sprite $MarkAsUnreadLg [20x20/16z] {
+ZSY5WKGX34NHwCTv_NUxWHttY-RGXuGVHHlcyIZ8PxqA4zcug08bP6LjEAqSJkOxi_X8cC4IRfg13kkpdcLK-Cb8sfAPoC-6uQGzH2ekXgN48LTRzGASZAU7
+NGiBf2UBnWkhTwRREEMKT_4Q_TmV
+}
+!procedure MarkAsUnread($id, $name="Mark As Unread", $tech="")
+  IconElement($id, 'material-4.0/Action/MarkAsUnread', $name, $tech)
+!endprocedure
+!procedure MarkAsUnreadCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarkAsUnreadMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarkAsUnreadGroup($id, $name='Mark As Unread', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarkAsUnreadLg>', $name, $tech)
+!endprocedure
+@enduml

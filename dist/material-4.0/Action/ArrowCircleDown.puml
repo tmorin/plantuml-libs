@@ -1,0 +1,16 @@
+@startuml
+sprite $ArrowCircleDownMd [14x14/16z] PKu30W0X43nVBV__scot6XpRUe08xfA0ml-79oTonUyI6ySq9FSTKdr22uxXeQzcF-KCLJ5d6ClCUI2pd6TXwGfGrRylFDKPCkEpE_O
+sprite $ArrowCircleDownLg [20x20/16z] {
+VP054WCX34KRdHN8l_zjEpXLd1VFuyzWLNu1T0G0n44JII0VxaT6I4SAU7ivq205P5eWgla1gzhQD8zoHQugkLzHrO-T7U0IePXIKQ1gh8FT070tDcmf0OcQ
+xOgHqeYnSg6QcE7uaNE94jQG1NGKN7fWLdgWMw-mUhM6gCg_dZy1
+}
+!procedure ArrowCircleDown($id, $name="Arrow Circle Down", $tech="")
+  IconElement($id, 'material-4.0/Action/ArrowCircleDown', $name, $tech)
+!endprocedure
+!procedure ArrowCircleDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowCircleDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowCircleDownGroup($id, $name='Arrow Circle Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowCircleDownLg>', $name, $tech)
+!endprocedure
+@enduml

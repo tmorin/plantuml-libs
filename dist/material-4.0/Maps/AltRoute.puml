@@ -1,0 +1,16 @@
+@startuml
+sprite $AltRouteMd [14x14/16z] ZOo30KCn500lThB_jEstTS_aYBO0rZ24rZpuriPchbu8N_9GOOQG7IDEWcYAaU8WvVMhJrKm8zkcW1ZvM7dF1Ny
+sprite $AltRouteLg [20x20/16z] {
+hOvL0e0m34CJtDhS_xIui-sBDwq7CVZvWDvjdyuFPsPIktnQoR8jQz1C0pJBEt1pKZsuD1l4isDRRgyPBh8rJ7MNgrpQBGst_5jHfG6Fsh8iDo4t1ic89xcK
+uuqxFfZzwoiAf9W
+}
+!procedure AltRoute($id, $name="Alt Route", $tech="")
+  IconElement($id, 'material-4.0/Maps/AltRoute', $name, $tech)
+!endprocedure
+!procedure AltRouteCard($id, $funcName="", $content="")
+  IconCard($id, '<$AltRouteMd>', '', $funcName, $content)
+!endprocedure
+!procedure AltRouteGroup($id, $name='Alt Route', $tech='')
+  IconGroup($id, 'IconGroup', '<$AltRouteLg>', $name, $tech)
+!endprocedure
+@enduml

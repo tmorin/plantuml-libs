@@ -1,0 +1,16 @@
+@startuml
+sprite $DoNotDisturbOffMd [14x14/16z] LOp50SGm40DbMZAe_seFmfcV42-o0DL7z_9NYOR9Fxw5rBGkMKWvP0M2_AT7E4YTcbJ9iIanAjgcWXkQ5mEeczYkAW0_fEBF9GqRDSQ8cYbua3E-
+sprite $DoNotDisturbOffLg [20x20/16z] {
+VP1L0WCn24GdrdZc_gTTOQ7Uli-7Wp-460ECNW1V5WzcSH0Q2svKbkPMveVa9JqFcSrDAI_aStavdRH_bCzp2GldHySaJSv1FlX9CW9Hd1-7X3ghVPG7cI7O
+z6MxFEIrYrkcP2MFayXdgSHbQh6OT6M9ASUUvVcdASZhEhwo0m
+}
+!procedure DoNotDisturbOff($id, $name="Do Not Disturb Off", $tech="")
+  IconElement($id, 'material-4.0/Notification/DoNotDisturbOff', $name, $tech)
+!endprocedure
+!procedure DoNotDisturbOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoNotDisturbOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoNotDisturbOffGroup($id, $name='Do Not Disturb Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoNotDisturbOffLg>', $name, $tech)
+!endprocedure
+@enduml

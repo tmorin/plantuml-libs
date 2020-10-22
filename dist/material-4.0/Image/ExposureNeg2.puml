@@ -1,0 +1,13 @@
+@startuml
+sprite $ExposureNeg2Md [14x14/16z] ZKsr0G0n28m7P_zftoKbS5fTYbnPSbMp_ZMbXFQrbjCu6n0H79vjBaqf_STh8KV0RsG0uDSYjmC
+sprite $ExposureNeg2Lg [20x20/16z] jSct0OH040J1EIrt9_ze_m7db0jbTkCxhafFMoAhi63Mw6241fEKdc6miMouU9MBUjmwtTug8pQ52PjyfaY9CIQ7IQNoaZ4p3xpl3m
+!procedure ExposureNeg2($id, $name="Exposure Neg2", $tech="")
+  IconElement($id, 'material-4.0/Image/ExposureNeg2', $name, $tech)
+!endprocedure
+!procedure ExposureNeg2Card($id, $funcName="", $content="")
+  IconCard($id, '<$ExposureNeg2Md>', '', $funcName, $content)
+!endprocedure
+!procedure ExposureNeg2Group($id, $name='Exposure Neg2', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExposureNeg2Lg>', $name, $tech)
+!endprocedure
+@enduml

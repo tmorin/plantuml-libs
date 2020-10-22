@@ -1,0 +1,16 @@
+@startuml
+sprite $TransformMd [14x14/16z] TKw50OG028H_bORzfxKxwEO007zm47gUKprbnAx0B3HdOgbePhMam3PPaql6tpt4zMgPcQlwt4KI5afdEX25mK7_33obloaP
+sprite $TransformLg [20x20/16z] {
+VSs50SGW50FGu4xsd_QaNknL-OgPxD4GcGnDJ5fcBT1WmelXJqBadyL6fHX_CVVxn5hxtiW-bhYgMyTSQc8DrhXBlriTFNmms8dDjaFWIUXCA_4Mo2BGy1ap
+Nm
+}
+!procedure Transform($id, $name="Transform", $tech="")
+  IconElement($id, 'material-4.0/Image/Transform', $name, $tech)
+!endprocedure
+!procedure TransformCard($id, $funcName="", $content="")
+  IconCard($id, '<$TransformMd>', '', $funcName, $content)
+!endprocedure
+!procedure TransformGroup($id, $name='Transform', $tech='')
+  IconGroup($id, 'IconGroup', '<$TransformLg>', $name, $tech)
+!endprocedure
+@enduml

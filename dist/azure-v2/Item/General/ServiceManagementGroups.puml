@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceManagementGroupsMd [14x14/16z] JSu54i1020F0sANJ_p-uBcV0PWofndLSmVvbjZgdCr4pSlPbERCyQd_5WFE8wpcjV1G1ogEXsD6uPOWKVEixIQiNQkRDGe0thc47
+sprite $ServiceManagementGroupsLg [20x20/16z] {
+RT250SCW40NGV3lQ_GUEUt1uE4C_W7YtcT9fgd2WA-PfTChoFilbVQRbxCss3-Oqjd_ZosHP3tEqU7opzbljrswMndNFkWmICO0I3aE82CgITcEHCJrRyLox
+fBtQxHaMApr8PUhxBz__4px_FA-P
+}
+!procedure ServiceManagementGroups($id, $name="Service Management Groups", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceManagementGroups', $name, $tech)
+!endprocedure
+!procedure ServiceManagementGroupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceManagementGroupsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceManagementGroupsGroup($id, $name='Service Management Groups', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceManagementGroupsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsEc2Rescue element
+include('aws-20200430/Item/Compute/AwsEc2Rescue')
+AwsEc2Rescue('aws_ec_2_rescue', 'Aws Ec2 Rescue', 'an optional tech field')
+@enduml

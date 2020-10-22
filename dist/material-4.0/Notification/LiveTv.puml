@@ -1,0 +1,16 @@
+@startuml
+sprite $LiveTvMd [14x14/16z] PSUr0GD140Im-ODbwBzQCrkPy8ScCEbLEGx13QcALPce4gZzfOa3Bo6tcTp7jtdd_bpRUv4JxmtWiTf4cwvsyOXyYO4lPm
+sprite $LiveTvLg [20x20/16z] {
+TSu35W0n30JGgPatzp_jciMlcM1AFyCh9spIthzA16B1NmsXuXRPYD2Kl2bbQtadr9e1Fs7VYzXOy_prx4M6xbuWnJLxaPlIxnNJlgss-oysSVlyidKVDbD3
+s110kOR2o0e
+}
+!procedure LiveTv($id, $name="Live Tv", $tech="")
+  IconElement($id, 'material-4.0/Notification/LiveTv', $name, $tech)
+!endprocedure
+!procedure LiveTvCard($id, $funcName="", $content="")
+  IconCard($id, '<$LiveTvMd>', '', $funcName, $content)
+!endprocedure
+!procedure LiveTvGroup($id, $name='Live Tv', $tech='')
+  IconGroup($id, 'IconGroup', '<$LiveTvLg>', $name, $tech)
+!endprocedure
+@enduml

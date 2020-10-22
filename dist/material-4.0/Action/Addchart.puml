@@ -1,0 +1,16 @@
+@startuml
+sprite $AddchartMd [14x14/16z] NOw55S1024F3kJso_xOjrFjFyU17I2a985FC89K5ajHyIM5CalEsth5QlSwj9dt0C4iqzew28hSLzoTvvegjXONJEZ4hK4yOJ4nEJWxuiG4
+sprite $AddchartLg [20x20/16z] {
+ZT170iKW24NH1r5W8kn_jQd8x-MEo4bJyRFMSkYcPaRO6oCfplZUB1hl0Sr7nF2scrwFF9XDgtVBH9viNhPMHYxpaMb4OV01Me25oXJkqEjkFVTip9Vbb6jc
+0ZDe7-PpZJYZTbcFXtgTLQRMyNyR
+}
+!procedure Addchart($id, $name="Addchart", $tech="")
+  IconElement($id, 'material-4.0/Action/Addchart', $name, $tech)
+!endprocedure
+!procedure AddchartCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddchartMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddchartGroup($id, $name='Addchart', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddchartLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FingerprintMd [14x14/16z] PST10aGH3C1GQ9FU_yG3LlC3xMl_TLpHhwQid5U8wt9GuBf9BOo4VIN6OfBckaPRLHWQbMv96hDcr1EOoXPXiifs4y5eBpgqRpy
+sprite $FingerprintLg [20x20/16z] {
+TSl5eG0m309GeYqa-w_xtUKT4VpFgxiSN_GCx-LCVqHEjyWC2_gNS4LglqHtqpp3hVRYbOZU8MSB4fwrC3ABC1j1ZIS6NTmbzuA4uLaDvi8T53RnGb62PeJ9
+ucisfZW4s2cRZyoPfvD8_yWOJucm9-QyPie-ljZ2LU5LbYrqR1bf-72VZsXDuDCqj8Nl38Z4_nu1
+}
+!procedure Fingerprint($id, $name="Fingerprint", $tech="")
+  IconElement($id, 'material-4.0/Action/Fingerprint', $name, $tech)
+!endprocedure
+!procedure FingerprintCard($id, $funcName="", $content="")
+  IconCard($id, '<$FingerprintMd>', '', $funcName, $content)
+!endprocedure
+!procedure FingerprintGroup($id, $name='Fingerprint', $tech='')
+  IconGroup($id, 'IconGroup', '<$FingerprintLg>', $name, $tech)
+!endprocedure
+@enduml

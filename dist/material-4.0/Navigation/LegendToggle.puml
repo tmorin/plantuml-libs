@@ -1,0 +1,13 @@
+@startuml
+sprite $LegendToggleMd [14x14/16z] bSB75SCW042nJ--m_xJqQs9RJtoYQmHCO1Af-LoLRvOf5WcXLSqYM2I7zjwvrJ3vahVYMSJ54bfjKss1ISXByDS
+sprite $LegendToggleLg [20x20/16z] jSgr0S1G409Gllkn_xHnbovvpGdW7oufZBJ7GcTIB03BWbaWanD65UTaaDWCe0h9eZ3BSQq7tAZ3gW-MV-P1niJ541SXEhnAqZQINdvVwm4
+!procedure LegendToggle($id, $name="Legend Toggle", $tech="")
+  IconElement($id, 'material-4.0/Navigation/LegendToggle', $name, $tech)
+!endprocedure
+!procedure LegendToggleCard($id, $funcName="", $content="")
+  IconCard($id, '<$LegendToggleMd>', '', $funcName, $content)
+!endprocedure
+!procedure LegendToggleGroup($id, $name='Legend Toggle', $tech='')
+  IconGroup($id, 'IconGroup', '<$LegendToggleLg>', $name, $tech)
+!endprocedure
+@enduml

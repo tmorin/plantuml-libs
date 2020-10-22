@@ -1,0 +1,16 @@
+@startuml
+sprite $KeyboardMd [14x14/16z] VOt50SCm40HNhEF-kmt7x3cSr-AMzESf57y8q60LVJQ70kQD-XoTcXkWCNWIJHxnD7iQyRFVfX6kJpn2toRF5CZJzWd8Vt3B0m
+sprite $KeyboardLg [20x20/16z] {
+hSwr0G0X44JHmM6r_shFFRuV82yQ_5vNUQHzeUoVCb3ScMtOSRYNpM9YS8hh4KuJCRBZEArK2LBASjHyMie2pfcN8vtsxZHjVQdfqmXRjDcvMRVEpHZwQk3t
+PW
+}
+!procedure Keyboard($id, $name="Keyboard", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Keyboard', $name, $tech)
+!endprocedure
+!procedure KeyboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeyboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeyboardGroup($id, $name='Keyboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeyboardLg>', $name, $tech)
+!endprocedure
+@enduml

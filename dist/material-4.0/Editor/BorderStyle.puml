@@ -1,0 +1,13 @@
+@startuml
+sprite $BorderStyleMd [14x14/16z] VOm30W01409hwwp_l_PipPguuHsEHTUkT1gh5WUdgl6v4izL7j-LVhwCZ1KRvRaQr0Oec17q671b
+sprite $BorderStyleLg [20x20/16z] ZSy53i0m30D0EujcYzh__tRCU89Y2B-bvPMSwBaU63tLZ1rE_mARcxkeljpHURaRN6FRcplzYgNplfVxdjNVzRi8CBOvo3wY56ZQzHeJJaZBxhSE
+!procedure BorderStyle($id, $name="Border Style", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderStyle', $name, $tech)
+!endprocedure
+!procedure BorderStyleCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderStyleMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderStyleGroup($id, $name='Border Style', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderStyleLg>', $name, $tech)
+!endprocedure
+@enduml

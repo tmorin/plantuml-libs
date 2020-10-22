@@ -1,0 +1,19 @@
+@startuml
+sprite $AccessAlarmsMd [14x14/16z] {
+NKtL0KGn3AfI9_jlU-JwlXfN2A-Cuh5CZt6VZBMGpudQh4gEGTOr_CHQI34qotwwXmuWtsgI9LNrAmeTjYbGsDcYWixZ_v6ufA1dNB1irPEm9x34SoMlSvOE
+Nla1
+}
+sprite $AccessAlarmsLg [20x20/16z] {
+VSq5OaGX30JGYU0ozpzj9L3lxljA58yeBWEkHaT8R0WosCLAQqNHEUGzj5XrC0mjNE_1aOri1l56MXvd0xS1he1jAaAF5Ri0SFPR5j-8eP_2n7HZNuT2_OeP
+ouaP08pjNp5dnhlAeIYn3yA9eAjW4RUWu2giE6O48pHnoUIgATN5AVXKDadkZ1_CNV74Am
+}
+!procedure AccessAlarms($id, $name="Access Alarms", $tech="")
+  IconElement($id, 'material-4.0/Device/AccessAlarms', $name, $tech)
+!endprocedure
+!procedure AccessAlarmsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AccessAlarmsMd>', '', $funcName, $content)
+!endprocedure
+!procedure AccessAlarmsGroup($id, $name='Access Alarms', $tech='')
+  IconGroup($id, 'IconGroup', '<$AccessAlarmsLg>', $name, $tech)
+!endprocedure
+@enduml

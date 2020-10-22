@@ -1,0 +1,16 @@
+@startuml
+sprite $RoofingMd [14x14/16z] XSsr0S1G20JG8uxU_jF6hVlugq0p8Z2PNBTKH0Qx4nqTCDQfWNeivN1YmHdBGP4BtwMP-dkW6Z-v_pIxpsZ51W
+sprite $RoofingLg [20x20/16z] {
+fSu50eGW50HGcjzp_zDkTw-EKezC_wQK9weHDKsb6shOfGhiIdq75U4tDk1blntmCn4ixzli5sFeZWveu4D78EaIEMBELxeRbTvQVtWrOHUwjuandYrdpEzx
+kufeJ-kp1G
+}
+!procedure Roofing($id, $name="Roofing", $tech="")
+  IconElement($id, 'material-4.0/Places/Roofing', $name, $tech)
+!endprocedure
+!procedure RoofingCard($id, $funcName="", $content="")
+  IconCard($id, '<$RoofingMd>', '', $funcName, $content)
+!endprocedure
+!procedure RoofingGroup($id, $name='Roofing', $tech='')
+  IconGroup($id, 'IconGroup', '<$RoofingLg>', $name, $tech)
+!endprocedure
+@enduml

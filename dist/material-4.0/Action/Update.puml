@@ -1,0 +1,16 @@
+@startuml
+sprite $UpdateMd [14x14/16z] ROk50GGm30AXhid-stvvjwi6mHz2m9DcxbRHaePbXIosN5CtAbbT4oqV9OUzBGBHUQO2WESaJNKTNOUA8oz6apaM8DRGpRrLtviG76xcGyDjJeduvG8
+sprite $UpdateLg [20x20/16z] {
+bSXN0iKW24JH0KLYdVslzXLIVtCI5IvUqfmr1ZbBcVoP1cmRWWokMafTRCwZZMEGIXxZHWTW2kIp2SV_MOx2isNwsRmKJ__5cOvskDkO2a1N-I_6UAIn2emM
+2pj27efEYRdIS31M15cqCot1BYrsKxNEbN2Iob053sBk9dZd2m
+}
+!procedure Update($id, $name="Update", $tech="")
+  IconElement($id, 'material-4.0/Action/Update', $name, $tech)
+!endprocedure
+!procedure UpdateCard($id, $funcName="", $content="")
+  IconCard($id, '<$UpdateMd>', '', $funcName, $content)
+!endprocedure
+!procedure UpdateGroup($id, $name='Update', $tech='')
+  IconGroup($id, 'IconGroup', '<$UpdateLg>', $name, $tech)
+!endprocedure
+@enduml

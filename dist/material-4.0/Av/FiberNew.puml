@@ -1,0 +1,16 @@
+@startuml
+sprite $FiberNewMd [14x14/16z] VSsr0GH120LGnlZeNV_TxYJhyY8S-j9jqudYlubhvaZLhXe_zPcL3cu628p8k5TKmnWyCzTaxMAjSNpTl7p_iW
+sprite $FiberNewLg [20x20/16z] {
+fP17WaCX34C57lGDkDp_j9FUU_9sxfRm4vpZZ4a0abS8qAvpxL5E8xihwJqoTPS3ineQlSx5Qd2RWye4rMNAhB7fYweeXhQucEpxeYHXuEAre61_8qDZSsDI
+sREz_z_VTKxkUV0JAm
+}
+!procedure FiberNew($id, $name="Fiber New", $tech="")
+  IconElement($id, 'material-4.0/Av/FiberNew', $name, $tech)
+!endprocedure
+!procedure FiberNewCard($id, $funcName="", $content="")
+  IconCard($id, '<$FiberNewMd>', '', $funcName, $content)
+!endprocedure
+!procedure FiberNewGroup($id, $name='Fiber New', $tech='')
+  IconGroup($id, 'IconGroup', '<$FiberNewLg>', $name, $tech)
+!endprocedure
+@enduml

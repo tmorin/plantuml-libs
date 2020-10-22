@@ -1,0 +1,16 @@
+@startuml
+sprite $WorkOffMd [14x14/16z] LSU50GGm24FHuFNiF-sv_Wey_5S1cNjFUIYEsN4_yP0ikbQUMSs0ITAIznQmxbFzLpJ_wi6l7lmLDVQFQ0eCVd80_ihoA7uokG8
+sprite $WorkOffLg [20x20/16z] {
+RSY50GGX44FHmA5hwR_RGxFwqNdupA1alNFUJh9CvJfO4-Q2ZicvI8_PKZ2MqJ70c44i67YGF0wkXHmvSEG0pmTwm57uCg5CA1D6sGM3x8go2wPYdWyiMNxW
+BrvRcF4gR_Zg3m
+}
+!procedure WorkOff($id, $name="Work Off", $tech="")
+  IconElement($id, 'material-4.0/Action/WorkOff', $name, $tech)
+!endprocedure
+!procedure WorkOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$WorkOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure WorkOffGroup($id, $name='Work Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$WorkOffLg>', $name, $tech)
+!endprocedure
+@enduml

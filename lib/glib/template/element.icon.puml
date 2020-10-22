@@ -1,0 +1,17 @@
+@startuml
+{{ for (const sprite of it.sprites) { }}
+{{= sprite }}
+{{ } }}
+
+!procedure {{= it.entry.element.name }}($id, $name="{{= it.entry.element.label }}", $tech="")
+  IconElement($id, '{{= it.entry.element.urn }}', $name, $tech)
+!endprocedure
+
+!procedure {{= it.entry.element.name }}Card($id, $funcName="", $content="")
+  IconCard($id, '<${{= it.entry.element.name }}Md>', '{{= it.entry.element.family }}', $funcName, $content)
+!endprocedure
+
+!procedure {{= it.entry.element.name }}Group($id, $name='{{= it.entry.element.label }}', $tech='')
+  IconGroup($id, '{{= it.entry.element.iconGroupStereotype || 'IconGroup' }}', '<${{= it.entry.element.name }}Lg>', $name, $tech)
+!endprocedure
+@enduml

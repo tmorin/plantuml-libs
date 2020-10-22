@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the InternetAlt1 element
+include('aws-20200430/Item/General/InternetAlt1')
+InternetAlt1('internet_alt_1', 'Internet Alt1', 'an optional tech field')
+@enduml

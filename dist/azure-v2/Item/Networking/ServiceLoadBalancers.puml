@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceLoadBalancersMd [14x14/16z] HKo50SD028IUPV-92z5NJciNRDIxQFC31bx8c7HuWuJpB0Jje1knLJQ8bde-QrrSH27YuB2RysbQTEJuzJowIlVN3MPobHSySC2txEl_0m
+sprite $ServiceLoadBalancersLg [20x20/16z] {
+NSw50KGX30DGIgJiF_4HpibN7jAETwRck58qwpBQDzAYp8i0oFgIiX6qlyZU4NK-FsGKdA_gD26tP-rhepPY4qWKnO9oAkKcm9fgpUB-jy7En6kTKucZrExl
+UMxL22Ppp7n2oK4C_FGNN7kwk48VN4ppA_J5xFKldKAdueqVUW
+}
+!procedure ServiceLoadBalancers($id, $name="Service Load Balancers", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceLoadBalancers', $name, $tech)
+!endprocedure
+!procedure ServiceLoadBalancersCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceLoadBalancersMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceLoadBalancersGroup($id, $name='Service Load Balancers', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceLoadBalancersLg>', $name, $tech)
+!endprocedure
+@enduml

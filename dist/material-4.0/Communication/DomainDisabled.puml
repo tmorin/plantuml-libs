@@ -1,0 +1,16 @@
+@startuml
+sprite $DomainDisabledMd [14x14/16z] LSa53W0n44BHQM3gBVS_xRf-OY_Oh-864fUYu9Bkiml66Hu9qDohPYDbWKwYZ4rjUsaMoLEZRCpkkrBfVhwRklQc_D3mtA3W0lh-pNr3OZ03ZnnHj4-nsGe
+sprite $DomainDisabledLg [20x20/16z] {
+RSq74aCX24LHfDYL_Uys4blAVzFFS0Tu6EA_PKNW568Crx1tXAfZxgBemE2AmgSPGb72kMdQQTYUcELWbyKUnP2dCRmlvsHQRxemTU1hrN3QRWlabSlvqNoR
+-ROzmzrwDzgYI4rftl4nntPPTtjpT0Y0CSIpq4V-EsnFM0bU
+}
+!procedure DomainDisabled($id, $name="Domain Disabled", $tech="")
+  IconElement($id, 'material-4.0/Communication/DomainDisabled', $name, $tech)
+!endprocedure
+!procedure DomainDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$DomainDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure DomainDisabledGroup($id, $name='Domain Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$DomainDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

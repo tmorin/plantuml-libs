@@ -1,0 +1,16 @@
+@startuml
+sprite $ZoomOutMapMd [14x14/16z] ZKs53G1124DA8Ch-s_wvnHxNbXvHHKrGvT9aHkqY4sMMQRMpteNreGMeYWcH6FqGr4lqqj5Hu2z3PVVDpW1g1u0Vl0y
+sprite $ZoomOutMapLg [20x20/16z] {
+hP254i0W34CBixQ7_F_VZd3OoNp1NeENRclcZTc2B2USGHnZ5CgIX0pOOdHKv8h7qVLrhdX22XEMacGFn-iAshI4lykqErOfuV0M3DBUh02Oxknl1KeEMguC
+o9HStTKE
+}
+!procedure ZoomOutMap($id, $name="Zoom Out Map", $tech="")
+  IconElement($id, 'material-4.0/Maps/ZoomOutMap', $name, $tech)
+!endprocedure
+!procedure ZoomOutMapCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZoomOutMapMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZoomOutMapGroup($id, $name='Zoom Out Map', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZoomOutMapLg>', $name, $tech)
+!endprocedure
+@enduml

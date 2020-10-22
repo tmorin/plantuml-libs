@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceElasticJobAgents element
+include('azure-v2/Item/Databases/ServiceElasticJobAgents')
+ServiceElasticJobAgentsGroup('service_elastic_job_agents', 'Service Elastic Job Agents', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

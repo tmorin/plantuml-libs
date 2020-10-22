@@ -1,0 +1,13 @@
+@startuml
+sprite $FilterAltMd [14x14/16z] ZSUt0O0m30J0TqwIVlzfoT01lkxmAOr-66bVvYLZLtceECaUmSKRQGwtH2Oy0Xdcvdfp-BC2
+sprite $FilterAltLg [20x20/16z] jSor0GGW50FGu0xxJujhU_AwBmc-m-s5ezFfeZ7ui_AOQ5ohI4_ZsisskrBXvjhAua5gPI1usVdspvrmZkC72W
+!procedure FilterAlt($id, $name="Filter Alt", $tech="")
+  IconElement($id, 'material-4.0/Action/FilterAlt', $name, $tech)
+!endprocedure
+!procedure FilterAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilterAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilterAltGroup($id, $name='Filter Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilterAltLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceIoTEdgeMd [14x14/16z] JSe50W9120LGck_zBoobks-2fA9UZ6cPjwlKXrKgksOUBaJHjBOdH4PaLJenMwZ6HA1-H4wespPyZ2L-LHeD5c5YEk8kzAUP-gg0hRu
+sprite $ServiceIoTEdgeLg [20x20/16z] {
+POu54WH120EH1Ex_Bxv2rdiirOp9OW1SvOuvoASq3hYayW3NNJpHCOm2ZbgiLJIkejurbQbEtJOoijPibvKIkT3LER7y9fmH_0qPUIJrZwC8NYvjFjqtnroh
+SgAcyi80sCjv1FtbKF_wkD_f_W
+}
+!procedure ServiceIoTEdge($id, $name="Service Io T Edge", $tech="")
+  IconElement($id, 'azure-v2/Item/Preview/ServiceIoTEdge', $name, $tech)
+!endprocedure
+!procedure ServiceIoTEdgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceIoTEdgeMd>', 'Preview', $funcName, $content)
+!endprocedure
+!procedure ServiceIoTEdgeGroup($id, $name='Service Io T Edge', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceIoTEdgeLg>', $name, $tech)
+!endprocedure
+@enduml

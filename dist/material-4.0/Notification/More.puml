@@ -1,0 +1,13 @@
+@startuml
+sprite $MoreMd [14x14/16z] NOs50G0X203FRjX_sk_qb2vcZBinMp3qPa3L5u9-CFADsYR5QdOQ_HdbEvewYTzeki2dTx25_iRmOmK
+sprite $MoreLg [20x20/16z] bP250O0m30I_xltzfyNTEQZ54_p1UkSNdEX5aJio0CC3WAXdMUIHioSvUUP-LRBqpz7JmZ90Cq6IJ8lCBxA3RxzEEKwrFDOCUvQTPt0nAucFj
+!procedure More($id, $name="More", $tech="")
+  IconElement($id, 'material-4.0/Notification/More', $name, $tech)
+!endprocedure
+!procedure MoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoreGroup($id, $name='More', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoreLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsThinkBoxSequoiaMd [14x14/16z] LSs74SCm34FHkn2VqFuJXs2ARQW-LTlz3U07lPIMAq2iiz6QK8nE9b9g159Ls7qENGNJv4Y2eLPTlGilekmojaT9VdSIR5OF-0q
+sprite $AwsThinkBoxSequoiaLg [20x20/16z] {
+RSe73WD134BHiJ7W-vyutcnD-KBj2KzwnCb_q7_GHyga3po40bJSSRUgVRSbdGQSgk3RcY4jPN9HKMCzLWsY2apNQImuW31GvR5kbh4uBVWoEcXI35qM0iOC
+CBYR4ytap0ZjrfjqbPbbxpOPAG7orjZU9kszVkIZN_d_Um4
+}
+!procedure AwsThinkBoxSequoia($id, $name="Aws Think Box Sequoia", $tech="")
+  IconElement($id, 'aws-20200911/Service/Compute/AwsThinkBoxSequoia', $name, $tech)
+!endprocedure
+!procedure AwsThinkBoxSequoiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsThinkBoxSequoiaMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsThinkBoxSequoiaGroup($id, $name='Aws Think Box Sequoia', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsThinkBoxSequoiaLg>', $name, $tech)
+!endprocedure
+@enduml

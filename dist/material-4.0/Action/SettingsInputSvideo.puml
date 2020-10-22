@@ -1,0 +1,19 @@
+@startuml
+sprite $SettingsInputSvideoMd [14x14/16z] {
+BSI70SCm24JHZmeeCURsdzRzNU7MtJkVMPLPDRajXLr22vZg_AK_NHCgmBVD8OfHPZpCr2FH3-0dqYDP0s0iTXzbc77FQb1E9UHE5BXQ7p1wamFhULoBcqkP
+AkSp8WQt4m
+}
+sprite $SettingsInputSvideoLg [20x20/16z] {
+PP3L0GCm24GFuWbm-s_RKfVtWoiUYAhWYswyOXqlQf1dpaD6VIOn-aCBthLAL-XnFmfrtZA32WnU6O3IaLQcozfxIPQdQSGdGeDmeowzEtGN78fomhZklaN3
+fAQlUtqiwZrzMVj9ri82G6jfzaodtNTHikRorFik4Y4mLq0zrmZ9EfgyjZCs9EFl1vaPv9vpV_mgK-y_7NZm__iB
+}
+!procedure SettingsInputSvideo($id, $name="Settings Input Svideo", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsInputSvideo', $name, $tech)
+!endprocedure
+!procedure SettingsInputSvideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsInputSvideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsInputSvideoGroup($id, $name='Settings Input Svideo', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsInputSvideoLg>', $name, $tech)
+!endprocedure
+@enduml

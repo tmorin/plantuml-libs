@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcNetworkAccessControlListMd [14x14/16z] NOvH0iGm10KV3EtzBxoMlqwI0A0_0I4TsHantng55aeIo3JOQYr7cSBL5epbppEVYEGjkggfbrohf5ehCB-O6t5TtA-BGAvXRBxJHzncwB20C0q_
+sprite $VpcNetworkAccessControlListLg [20x20/16z] {
+RL250GGn38erjl_0J-Mzd0ADqW6BC7s2FHVyBLjlmjvsf54lcsliKqKVA5iMa-aMr1ObTpo8Y40Mtxm4_mFKyOB7IHoQ-EUEQ8QM6YAXe8PxFZ2Ebc6kgE0M
+ERKTQuuMyDgnbAW1qfaDYqZorGi3fvVJivt1Jy-NsIuxkEpgljFRxXy
+}
+!procedure VpcNetworkAccessControlList($id, $name="Vpc Network Access Control List", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcNetworkAccessControlList', $name, $tech)
+!endprocedure
+!procedure VpcNetworkAccessControlListCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcNetworkAccessControlListMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure VpcNetworkAccessControlListGroup($id, $name='Vpc Network Access Control List', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$VpcNetworkAccessControlListLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElementalMediaStoreMd [14x14/16z] POx50KK12CCE98Nz5_xoN7B1QUT5Fsgzv9LKjZsGQbcgW47fPPQHiLqhQGFhBCPadurqA0wHTU_0lDoz-08
+sprite $AwsElementalMediaStoreLg [20x20/16z] {
+hS_T4GGn20BWYu2G_Wk-VsTJm7xZgmgvWvIJtyCt9yum5xEnw6iDeW2bIxC9a5j5gp3RjAhjBfcpA--G3cDa4DwKmMDNZKXUl7RXzqZxt6r0qHA5ph3xZG_w
+xDQiccuNANTu0G
+}
+!procedure AwsElementalMediaStore($id, $name="Aws Elemental Media Store", $tech="")
+  IconElement($id, 'aws-20200430/Item/MediaServices/AwsElementalMediaStore', $name, $tech)
+!endprocedure
+!procedure AwsElementalMediaStoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalMediaStoreMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalMediaStoreGroup($id, $name='Aws Elemental Media Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElementalMediaStoreLg>', $name, $tech)
+!endprocedure
+@enduml

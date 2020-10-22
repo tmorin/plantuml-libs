@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTServoMd [14x14/16z] VSsr0G0n3CLGVUF-4n-4oYZuAdF9C_AhnkKf_h9GPuHORDUlQObFU3dV0qkcRfiI9YIMl2fXALiiAhtEy4ZdqWi
+sprite $IoTServoLg [20x20/16z] {
+fSZL0O1G34FHf9Qo_y2uyybzseCVcMfFHnO9hg5wlPKHWJqgWMZpcu4zPuYxWJHYjzNDLjyjisQKFbPItGpXyycCkt4EUxlPqDsycri7KEBDKWMIFTzho30T
+rPuCFve
+}
+!procedure IoTServo($id, $name="Io T Servo", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTServo', $name, $tech)
+!endprocedure
+!procedure IoTServoCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTServoMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTServoGroup($id, $name='Io T Servo', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTServoLg>', $name, $tech)
+!endprocedure
+@enduml

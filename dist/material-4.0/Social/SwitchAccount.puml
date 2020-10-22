@@ -1,0 +1,16 @@
+@startuml
+sprite $SwitchAccountMd [14x14/16z] NOp50K0n24Ef6oJxJ_jT-svHcV6gQcQgULU5P2iWLIIxJLMHS2XBcIoFYfj2Ylegwi2ZZhC8srLHESXslWpT6D1TIQvbezQmgPvIt4Z-QCCEM6Hc1G
+sprite $SwitchAccountLg [20x20/16z] {
+TSm50e0W341Hr4qbT__JqXtVv17i663jpYIfPJ9IIE0Nl-ZXIiRzBsO3WcWFy-bac0s2cT6Kfvz68oCrJQQba6em1InqysQQbNWrMGsh6L5I16dYfrhS0jww
+hdJ03rW25hiDTLqPSLXto04
+}
+!procedure SwitchAccount($id, $name="Switch Account", $tech="")
+  IconElement($id, 'material-4.0/Social/SwitchAccount', $name, $tech)
+!endprocedure
+!procedure SwitchAccountCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwitchAccountMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwitchAccountGroup($id, $name='Switch Account', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwitchAccountLg>', $name, $tech)
+!endprocedure
+@enduml

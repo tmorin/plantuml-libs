@@ -1,0 +1,16 @@
+@startuml
+sprite $PoolMd [14x14/16z] NOk50G0n20DJDo3xJ_kkFLo2cU3U34zMe56kMsF7e3cS53RV4qwyShlUT2jbr-wuwz_ljP9ZdB6TQt2jUz-R2_jpBbjae6m1CILr3nCWR1w1k5VyMG4
+sprite $PoolLg [20x20/16z] {
+bSm5WWCn20NG7sp8ml3lVzfrjxOl7WGtYD3dKmx7cvCi0TRZUU3LKSCHECd6EsdE4f8R7nxhHhGIdnmaH_1Pyidebyf9i-GT_Y6xKn1L0SdU0i3vZG5M-hWw
+ryekWpwktyN9TjapMxnvndE_gI7PJJvV7P1OM94AM3vV1TTw
+}
+!procedure Pool($id, $name="Pool", $tech="")
+  IconElement($id, 'material-4.0/Places/Pool', $name, $tech)
+!endprocedure
+!procedure PoolCard($id, $funcName="", $content="")
+  IconCard($id, '<$PoolMd>', '', $funcName, $content)
+!endprocedure
+!procedure PoolGroup($id, $name='Pool', $tech='')
+  IconGroup($id, 'IconGroup', '<$PoolLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CancelPresentationMd [14x14/16z] LOs50KGX34DJ-Ofa_sbFS1xK3Jlc0uCpvypoC_sA6CIxH58-ulMFbCT1xH4Eyi0MhPqdPTIq_1wD2mVJW0ux_2ZuOTZv0W
+sprite $CancelPresentationLg [20x20/16z] {
+ZP054iKm24HtgK9dsFkVzhjKaxmsXWDQiMdUC1cOsf4qEJlxqT5bfXaRff-Cp_NSC7zbp00YkR5RvAxO-YBq56rbBlbE5lBO-hvpBBiSvBUMwRfchdZMV3O3
+TFEE3gtS0G
+}
+!procedure CancelPresentation($id, $name="Cancel Presentation", $tech="")
+  IconElement($id, 'material-4.0/Communication/CancelPresentation', $name, $tech)
+!endprocedure
+!procedure CancelPresentationCard($id, $funcName="", $content="")
+  IconCard($id, '<$CancelPresentationMd>', '', $funcName, $content)
+!endprocedure
+!procedure CancelPresentationGroup($id, $name='Cancel Presentation', $tech='')
+  IconGroup($id, 'IconGroup', '<$CancelPresentationLg>', $name, $tech)
+!endprocedure
+@enduml

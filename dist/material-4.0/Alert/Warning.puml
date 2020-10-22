@@ -1,0 +1,16 @@
+@startuml
+sprite $WarningMd [14x14/16z] RSsr0GDH3C3Gpsnh_scJOrRtAfcFlBzgZ0iYn5C2SY0ZGjxW84RKhMgBQ0i2e0eibm6K0em92Q1MW6IiSgJMXalMtFe3
+sprite $WarningLg [20x20/16z] {
+bOw50GGX4CHmX_HVxUkvC-XwHAz2sBaKoAqlGjou381U-mf0NhaS0BY5IpPm3kgI0r0A20kEqOSQVGd0EO2qv1Xb5Xn37cN9eTJ0Ct00jF6Lmu2beX0-hEI3
+5q_r1W
+}
+!procedure Warning($id, $name="Warning", $tech="")
+  IconElement($id, 'material-4.0/Alert/Warning', $name, $tech)
+!endprocedure
+!procedure WarningCard($id, $funcName="", $content="")
+  IconCard($id, '<$WarningMd>', '', $funcName, $content)
+!endprocedure
+!procedure WarningGroup($id, $name='Warning', $tech='')
+  IconGroup($id, 'IconGroup', '<$WarningLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SubwayMd [14x14/16z] NKk50GGX32ikJI_xR_le6zHYylzYKq1RNA3pl3v08QtLsemi8agTZdE0jK8LjH8BOQPmaKwa1vMOGaYn79IBo1WRFL52aFXiD2Dioecw0MQOiyllUm4
+sprite $SubwayLg [20x20/16z] {
+bSo50OGm44JHMOi1cVwhHS_zFfeNmTl4VCtaAZ7or1WdQhofxbHuLrv9EjcBguXQsVu5S9A1Kq7Izq_NSaex6OSPJzd_fhMsjTgkvn7cM7C3hpPCcqtjnZ9a
+Cq6-6WkiLaVXZTNe95EzshMJIJmaUDK2
+}
+!procedure Subway($id, $name="Subway", $tech="")
+  IconElement($id, 'material-4.0/Maps/Subway', $name, $tech)
+!endprocedure
+!procedure SubwayCard($id, $funcName="", $content="")
+  IconCard($id, '<$SubwayMd>', '', $funcName, $content)
+!endprocedure
+!procedure SubwayGroup($id, $name='Subway', $tech='')
+  IconGroup($id, 'IconGroup', '<$SubwayLg>', $name, $tech)
+!endprocedure
+@enduml

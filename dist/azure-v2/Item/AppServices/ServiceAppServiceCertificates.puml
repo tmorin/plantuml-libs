@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAppServiceCertificatesMd [14x14/16z] JSk30S1030NGvAlSVzuQxnZnJyIFwc-F-YwmzsWFkxyQUZ-7lMOdh4Rt4SLq2jnXhudoEpSCId1pXcaIU867TUvwP1mcl56Zlg0s
+sprite $ServiceAppServiceCertificatesLg [20x20/16z] {
+TStLeSK0309G4gIw_xfFhbRFPmI0Ea9Vi7Wa4qUycrLll6QeZPlV4Cq2q7m2QCksWCrlCjWP6lNj60QJZ51yUiqag_3oc4NImCrCpXWFW_ZbPkPfDZSQbMLP
+Y9tAUZ6RD0jxtL1XwnS
+}
+!procedure ServiceAppServiceCertificates($id, $name="Service App Service Certificates", $tech="")
+  IconElement($id, 'azure-v2/Item/AppServices/ServiceAppServiceCertificates', $name, $tech)
+!endprocedure
+!procedure ServiceAppServiceCertificatesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAppServiceCertificatesMd>', 'AppServices', $funcName, $content)
+!endprocedure
+!procedure ServiceAppServiceCertificatesGroup($id, $name='Service App Service Certificates', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAppServiceCertificatesLg>', $name, $tech)
+!endprocedure
+@enduml

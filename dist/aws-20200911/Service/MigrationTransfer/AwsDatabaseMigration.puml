@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDatabaseMigrationMd [14x14/16z] 7SdR5SCm3CFGDj6Bzlxx1YB-xi5ilHN9j5VB95CKqHtlqYfU39GrKzP1wMSTdQXkD8YogmgDrLcL9MZnshf86h8k9f5bolm
+sprite $AwsDatabaseMigrationLg [20x20/16z] {
+LS-54OL0303HcNX2__KYsQ-BF-okNYN5K_yPs20zkBRgfchEarYRnPqPs9jWKekOygxcDbWznzB25aNStKHUjcWLxf6wuy56dd-L2uES1qTDxqmP-MpAPx72
+GZt2rNljM2l-aRzcuztU-h83ZIxc_Z7gRMqL0W_mJoy
+}
+!procedure AwsDatabaseMigration($id, $name="Aws Database Migration", $tech="")
+  IconElement($id, 'aws-20200911/Service/MigrationTransfer/AwsDatabaseMigration', $name, $tech)
+!endprocedure
+!procedure AwsDatabaseMigrationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDatabaseMigrationMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsDatabaseMigrationGroup($id, $name='Aws Database Migration', $tech='')
+  IconGroup($id, 'MigrationTransferFamily', '<$AwsDatabaseMigrationLg>', $name, $tech)
+!endprocedure
+@enduml

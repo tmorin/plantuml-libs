@@ -1,0 +1,16 @@
+@startuml
+sprite $AssignmentTurnedInMd [14x14/16z] NSs50S0W30J0Hujd_sqRN1uz52t6O4HgvKfnIiiAuZXNUwQc5GseCOsPrDhpIAowLohYE1b5gHWY2mHQ8bjHzVmWjoIOUaJYoGy
+sprite $AssignmentTurnedInLg [20x20/16z] {
+ZT350O0m44JHZSzYqt-rUFIKZpyyaZD6nfHKgGKWATULcW3_4T-S-xRXCNpxn_5jyLXYgHXOMhPYXSGNAsJtnev2nQ8vCXLJSVYes7DVfchKXwQ_kLZeBVnZ
+bV2NyD1i5m
+}
+!procedure AssignmentTurnedIn($id, $name="Assignment Turned In", $tech="")
+  IconElement($id, 'material-4.0/Action/AssignmentTurnedIn', $name, $tech)
+!endprocedure
+!procedure AssignmentTurnedInCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssignmentTurnedInMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssignmentTurnedInGroup($id, $name='Assignment Turned In', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssignmentTurnedInLg>', $name, $tech)
+!endprocedure
+@enduml

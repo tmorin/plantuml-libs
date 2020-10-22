@@ -1,0 +1,13 @@
+@startuml
+sprite $ToggleOnMd [14x14/16z] Oo0RiF7m0W4V7oyRYCCF1doixFn0BW-4nyB0mCw3oeEhv6LbumThvEM307RoNG8
+sprite $ToggleOnLg [20x20/16z] lOwr0G1120JF5TZ-gtttlvZ9a1MZXRiuDubn8MbRPLpK8iZBoigr2il8iCQ4QzKt8uJnpkAh_MOmyjv5lbqMhFCxIsSjPW
+!procedure ToggleOn($id, $name="Toggle On", $tech="")
+  IconElement($id, 'material-4.0/Toggle/ToggleOn', $name, $tech)
+!endprocedure
+!procedure ToggleOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToggleOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToggleOnGroup($id, $name='Toggle On', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToggleOnLg>', $name, $tech)
+!endprocedure
+@enduml

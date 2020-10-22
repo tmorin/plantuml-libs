@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonPinpointMd [14x14/16z] LSV9WG9G20JH6QKN8FzyxUzkrUdroO-a_k5qZm1G2AU748D2DAOXrGKw2anKYNT9T474MtvgwSmGxLspAI7itbtHaic9afaKHAT9Rxrv0m
+sprite $AmazonPinpointLg [20x20/16z] {
+HSi93aGX30BGINVm_lUTrgyHznV4ITravYNW8JyZQXWRoP5oxKH53hAHgG6WqappioQWYruA2so3iYHG8QBs_LqU5C2x9fMdP_I0fFygsgyPF6W-elKioNIC
+eTPOYsOAOdHiHGle3cm5rbfKbYOGaj3wR9MIRkQW9a-lCKWYXiOsCins4TUsTsOxTkZaMUl3Fm
+}
+!procedure AmazonPinpoint($id, $name="Amazon Pinpoint", $tech="")
+  IconElement($id, 'aws-20200911/Service/Mobile/AmazonPinpoint', $name, $tech)
+!endprocedure
+!procedure AmazonPinpointCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonPinpointMd>', 'Mobile', $funcName, $content)
+!endprocedure
+!procedure AmazonPinpointGroup($id, $name='Amazon Pinpoint', $tech='')
+  IconGroup($id, 'MobileFamily', '<$AmazonPinpointLg>', $name, $tech)
+!endprocedure
+@enduml

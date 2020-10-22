@@ -1,0 +1,13 @@
+@startuml
+sprite $MarginMd [14x14/16z] VSsr0O105C3GxpZiFor-BkbU5SWItuDZ_plarWv_-wUDnv4t9mOYOAUHL6bqciYC9gU_ll8xYWyXxG8
+sprite $MarginLg [20x20/16z] fP055aGX24KV34Tizh_QgTzTrvO6fn6llaUz_FwyJV2_FpNX7cd-l36OGD_vlVH_lrkjxQtJym9Ll3n6Vpt37vb3pd16jF6tOVlaJqs8MqXCDtgmxDLfFW
+!procedure Margin($id, $name="Margin", $tech="")
+  IconElement($id, 'material-4.0/Editor/Margin', $name, $tech)
+!endprocedure
+!procedure MarginCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarginMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarginGroup($id, $name='Margin', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarginLg>', $name, $tech)
+!endprocedure
+@enduml

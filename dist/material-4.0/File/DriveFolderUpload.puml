@@ -1,0 +1,13 @@
+@startuml
+sprite $DriveFolderUploadMd [14x14/16z] VOpN0G0X24Evs9Mo_xPd__HPWIJqmjTQ2qx5rj4yGA-uz6dhA1D977BVho2hycQzZAk2Td2g3xNYMrNebfIsZpcNIMRk2UtYwSKF
+sprite $DriveFolderUploadLg [20x20/16z] fP3L0KCX300V3j7zfwrXARySVdYUAp8201QhWdQiJFeF_1o1WJH-NNg-E3UsfUMyY3-SOrLsndNLfLc7cJc3NVU5UTyHZJlNXV2zgW-37eGUWoy8lSdF5My
+!procedure DriveFolderUpload($id, $name="Drive Folder Upload", $tech="")
+  IconElement($id, 'material-4.0/File/DriveFolderUpload', $name, $tech)
+!endprocedure
+!procedure DriveFolderUploadCard($id, $funcName="", $content="")
+  IconCard($id, '<$DriveFolderUploadMd>', '', $funcName, $content)
+!endprocedure
+!procedure DriveFolderUploadGroup($id, $name='Drive Folder Upload', $tech='')
+  IconGroup($id, 'IconGroup', '<$DriveFolderUploadLg>', $name, $tech)
+!endprocedure
+@enduml

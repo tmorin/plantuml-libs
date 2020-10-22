@@ -1,0 +1,16 @@
+@startuml
+sprite $PermCameraMicMd [14x14/16z] VSS50W9134FHTDnp_ziI7DRUIFknvmLFPfcIpHIL7nKOb10eGtKvUf_0xFrPrPWphJwB5jOAZg-Q7l3pKOqI8wK15iIUF_xT
+sprite $PermCameraMicLg [20x20/16z] {
+fOq55iGm20Kd3gzGxd_QjVgpjH-RJ0I-IvCnf5rKZrSwQyJDOesP2r3NxJolKA4jDC6qK7kuFybz8VV3KMA0HE5m5G_LSDhXZ6oFEME72uMSGI_Lh4EtM5s9
+9JclK80gGnuzfMMjV9mx
+}
+!procedure PermCameraMic($id, $name="Perm Camera Mic", $tech="")
+  IconElement($id, 'material-4.0/Action/PermCameraMic', $name, $tech)
+!endprocedure
+!procedure PermCameraMicCard($id, $funcName="", $content="")
+  IconCard($id, '<$PermCameraMicMd>', '', $funcName, $content)
+!endprocedure
+!procedure PermCameraMicGroup($id, $name='Perm Camera Mic', $tech='')
+  IconGroup($id, 'IconGroup', '<$PermCameraMicLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CoronavirusMd [14x14/16z] ROt50KH124EP2mxflzhTx_v6iOG-CAEDmMl4OuuOd41E3wrXJMm11THD4Qi0F2FIONP4iKPhfy-TcqfkAdU7k_k6Jz6RFm
+sprite $CoronavirusLg [20x20/16z] {
+VL053W0n22F7933I_l-rvswTu2f_o5dkwCZkB2STl-RZfsbJqIGPO4cCgr8TZJCQNBVW6CNb7ld8a6WIt48xSMv-D9cgPpfOCqjXheGp7RfSc5RT5XlZtM9V
+QcozuDQB6e8p0gR7RDa9J-9CBpluszMsqpyC
+}
+!procedure Coronavirus($id, $name="Coronavirus", $tech="")
+  IconElement($id, 'material-4.0/Social/Coronavirus', $name, $tech)
+!endprocedure
+!procedure CoronavirusCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoronavirusMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoronavirusGroup($id, $name='Coronavirus', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoronavirusLg>', $name, $tech)
+!endprocedure
+@enduml

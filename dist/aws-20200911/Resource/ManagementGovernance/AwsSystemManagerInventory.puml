@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemManagerInventoryMd [14x14/16z] JSl50S0m30D0rw9q_u7Ba7iPfBe0zLbyM9v5wQgEwa3ZIPldqW18ubY5n3OFEMyQ6RdwPq2MrFrkuxJEl_Fx_78QwxNv9XkKd8UbA_rGxm
+sprite $AwsSystemManagerInventoryLg [20x20/16z] {
+VOm7aaKX20IHC0Fk_U-x-FEBRUwgLcxmAjyQhHmZIxzci4mQAuwNGeMyYCBp8yWFw4JdKFz1TQgbJFumXQefwHazdsq_LId9lpMtpkX6sxf8H0KgVXnMovw_
+BQpRtcMCJrlesIqdNewOn6hHZikbb2EStZFWzNGWFX12rOwsJ1Mr7Ih_
+}
+!procedure AwsSystemManagerInventory($id, $name="Aws System Manager Inventory", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsSystemManagerInventory', $name, $tech)
+!endprocedure
+!procedure AwsSystemManagerInventoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemManagerInventoryMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemManagerInventoryGroup($id, $name='Aws System Manager Inventory', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsSystemManagerInventoryLg>', $name, $tech)
+!endprocedure
+@enduml

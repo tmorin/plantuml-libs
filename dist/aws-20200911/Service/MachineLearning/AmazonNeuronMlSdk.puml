@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonNeuronMlSdkMd [14x14/16z] BSU92SG0509H-9UQzD_lAflXciU4T4x6vyWKPewXpDqxspG6x2RQr8FZJWzsWSUgSRN72EYgllkawYx-fSMGSmFoCM_9NRhtjVDI52QPLXY4Fm
+sprite $AmazonNeuronMlSdkLg [20x20/16z] {
+JSi53i0024FHZ28jk_zv9qn_YBqKtjLLdkcpQUp1nyT6bK0-gAc0gaV7w4X5CCndUHf2dMOfkftMvwoLE0eAETPqmkYWeJ2xFknyd0iKn-Jj3i3SzJC2omBK
+prRQ4h7O6Db7I3aaECDuj9uOXxQKXxwsofqyH1fRBwMZMfyzQHfxL7UdtVZf3W
+}
+!procedure AmazonNeuronMlSdk($id, $name="Amazon Neuron Ml Sdk", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AmazonNeuronMlSdk', $name, $tech)
+!endprocedure
+!procedure AmazonNeuronMlSdkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonNeuronMlSdkMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AmazonNeuronMlSdkGroup($id, $name='Amazon Neuron Ml Sdk', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AmazonNeuronMlSdkLg>', $name, $tech)
+!endprocedure
+@enduml

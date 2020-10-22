@@ -1,0 +1,16 @@
+@startuml
+sprite $MuseumMd [14x14/16z] PSU55G0X30JHnI7ojlzgp_q-aWpmrnekKKcDHrHkwhe7uK42OBmOK8pMoBgC0a0ew7qRUyKGubKZYQHnbWros5RPUV0CYDl15Myp
+sprite $MuseumLg [20x20/16z] {
+VOu50W0X20HPk_V_hxtkSEnH0Ua1l9HfpJnKv4Iu6bsvKFIXF0_yQbJcXQpcVtmm_RTFPqKm_yq8PC2yKqkTYKmYfUoxqsdzSXu8TvSbXv1VRfjEnyPbsXnC
+uOLYy5EpVG3vOWG
+}
+!procedure Museum($id, $name="Museum", $tech="")
+  IconElement($id, 'material-4.0/Maps/Museum', $name, $tech)
+!endprocedure
+!procedure MuseumCard($id, $funcName="", $content="")
+  IconCard($id, '<$MuseumMd>', '', $funcName, $content)
+!endprocedure
+!procedure MuseumGroup($id, $name='Museum', $tech='')
+  IconGroup($id, 'IconGroup', '<$MuseumLg>', $name, $tech)
+!endprocedure
+@enduml

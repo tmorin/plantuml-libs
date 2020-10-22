@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceResourceGroupListMd [14x14/16z] PSs70GCX20LGX5yq-mySI-gT_Qb0H4giEI5XoO9Cs3Sr40LMaNMK7wMxC2TxvnI1BMz5H97OFrkR2dhNQqTwM6De_fgiFhQoL9a9r9nfPtnR_IAU
+sprite $ServiceResourceGroupListLg [20x20/16z] {
+VOy7ic0X20I12VZkV-45z-SqLNPX6ub9Lg5oHYsHwuea2iEwvJfsjwXkavvo7Molyph_uIGH7EAMwmgJ0WTJibxEzjUpx7DCdtsz-yLPqhZJqYvVLva5-VzP
+wxOMI-xZ66AVZHl8ui3SoOlhvrZdUNhtVNJFVvU8fMTglpXw___-BYDqa5aPxoaTnfSKlgdu1m
+}
+!procedure ServiceResourceGroupList($id, $name="Service Resource Group List", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceResourceGroupList', $name, $tech)
+!endprocedure
+!procedure ServiceResourceGroupListCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceResourceGroupListMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceResourceGroupListGroup($id, $name='Service Resource Group List', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceResourceGroupListLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SmokingRoomsMd [14x14/16z] VSh50SCm44JHBsPj_zKcPhRVPM66PpQpK-ImxTKJ8ekOiE9O-AACRMOBIus-i2ifitCXZ9qyAj4v3rLcDOrDfMTgm9S_
+sprite $SmokingRoomsLg [20x20/16z] {
+hOw30KKn34KRLi7-qtxRUAUCRta7qBsFSjmxEUNA5eTIh5-dzEt5bxuvjlq2htnpMs-9LpDdQrYcNGcPPjamRpLAOaYv8JdqrgUWk6qppc33HjiM5z2-bjrE
+E1bDBakp1W
+}
+!procedure SmokingRooms($id, $name="Smoking Rooms", $tech="")
+  IconElement($id, 'material-4.0/Places/SmokingRooms', $name, $tech)
+!endprocedure
+!procedure SmokingRoomsCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmokingRoomsMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmokingRoomsGroup($id, $name='Smoking Rooms', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmokingRoomsLg>', $name, $tech)
+!endprocedure
+@enduml

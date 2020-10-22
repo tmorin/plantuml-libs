@@ -1,0 +1,16 @@
+@startuml
+sprite $NatureMd [14x14/16z] POg50G0X30DJtDb_sXTS3caZk97EgI5y_eXKXSa5NrNCbHgcfdXHeOfKCrcLGKN_mg938J1Cx4oaaY5yNwt51k7W1G
+sprite $NatureLg [20x20/16z] {
+VSx50SH034FH0JaSkVzgbnKj_-CRiCk_MgzlCZ6JIokkRdaFjZKViOgGHvDiicsonKRPRDjbWssHrVsmNXH4Ot7zTfE3vQOaQdbhtz_Wqn08a8W875VUTjQz
+M_2zzyu
+}
+!procedure Nature($id, $name="Nature", $tech="")
+  IconElement($id, 'material-4.0/Image/Nature', $name, $tech)
+!endprocedure
+!procedure NatureCard($id, $funcName="", $content="")
+  IconCard($id, '<$NatureMd>', '', $funcName, $content)
+!endprocedure
+!procedure NatureGroup($id, $name='Nature', $tech='')
+  IconGroup($id, 'IconGroup', '<$NatureLg>', $name, $tech)
+!endprocedure
+@enduml

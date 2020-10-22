@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceEventHubClustersMd [14x14/16z] LSp70SH03CD00fJxB_c2yyvBaU0FENHd3bD_DdAWUPFfpt3ih2HxqfuWrLhR9cFXYe14pSvj34wF7aXBBWo2pS4TMNm1
+sprite $ServiceEventHubClustersLg [20x20/16z] {
+ZT250GCn34DHwSjEzv-uu3BV2pDeAr_fXbezLdILSAtepXMzmIA19Dpxt24dpMsjGpp3atCY6Hi89qabaaEAaTYpCuMHPoyatIgkQtiQpEwukStgxjdKJLcF
+s14zuNx6JIgZwlTFtXq
+}
+!procedure ServiceEventHubClusters($id, $name="Service Event Hub Clusters", $tech="")
+  IconElement($id, 'azure-v2/Item/Analytics/ServiceEventHubClusters', $name, $tech)
+!endprocedure
+!procedure ServiceEventHubClustersCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceEventHubClustersMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure ServiceEventHubClustersGroup($id, $name='Service Event Hub Clusters', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceEventHubClustersLg>', $name, $tech)
+!endprocedure
+@enduml

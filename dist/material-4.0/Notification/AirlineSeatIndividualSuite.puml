@@ -1,0 +1,13 @@
+@startuml
+sprite $AirlineSeatIndividualSuiteMd [14x14/16z] dSV50O1040ImmTQb_sfnAE3o2mQHJP4BLvu84jBjqhU5Wxlr7N601VywJlMCgUkJHHXq
+sprite $AirlineSeatIndividualSuiteLg [20x20/16z] lSZ50GCn34JHCOEe_sgJPJxx6_Kmek00Fv-rwGTl1MJJ9RRMtMGvpr_FjkDiRVx5mynvAt5wrPtclLLaxXvojHxdabxjrQSXlCA8_W
+!procedure AirlineSeatIndividualSuite($id, $name="Airline Seat Individual Suite", $tech="")
+  IconElement($id, 'material-4.0/Notification/AirlineSeatIndividualSuite', $name, $tech)
+!endprocedure
+!procedure AirlineSeatIndividualSuiteCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirlineSeatIndividualSuiteMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirlineSeatIndividualSuiteGroup($id, $name='Airline Seat Individual Suite', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirlineSeatIndividualSuiteLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ChildFriendlyMd [14x14/16z] ROt50KCn34CLJepxJzj-vdUpHVYYSBbSrPrlbu_ZQjDb0HYQfoiBiqIWYFQnCbq8lZDVwDj1c97jwakvBMeeDb_PguvedMJTCWh8EW_S-GC
+sprite $ChildFriendlyLg [20x20/16z] {
+VSs50O0m30J0hmT8y_jFYxiTsYZ-HVy8UR8BpnYPNsACBp5zYJ5CloBf72i04caEapIAoGDmFhFgT4qwJPXLdkGbbddYy2WKBCgprLD3mqc9LfTOO86dAGre
+rtcEbbec22LJSUnj0AUa1QnyMdvZTFWm
+}
+!procedure ChildFriendly($id, $name="Child Friendly", $tech="")
+  IconElement($id, 'material-4.0/Places/ChildFriendly', $name, $tech)
+!endprocedure
+!procedure ChildFriendlyCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChildFriendlyMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChildFriendlyGroup($id, $name='Child Friendly', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChildFriendlyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsApiGatewayMd [14x14/16z] PKx50G0n27iHO_zvpxN5dMIYlin1XXF1Hq9iGGlGdg59UujnPR9vPs6nwiq8VIPvJSvNMES7dj_fm_oHJRG2
+sprite $AwsApiGatewayLg [20x20/16z] {
+bT250SGW50FGa-Jh_lFMNI5L7avK9NUVCUhzstKZ_4jshUJFMScmmTJw_z6w4jtCgHcp-MJGz8rfFu7kZL201nEe74nJ8tMsmnmFQu7bk6RfVZ2QaHWDXCKK
+Lvy_psVrdXO
+}
+!procedure AwsApiGateway($id, $name="Aws Api Gateway", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsApiGateway', $name, $tech)
+!endprocedure
+!procedure AwsApiGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsApiGatewayMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsApiGatewayGroup($id, $name='Aws Api Gateway', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsApiGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

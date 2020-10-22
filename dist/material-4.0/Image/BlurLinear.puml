@@ -1,0 +1,16 @@
+@startuml
+sprite $BlurLinearMd [14x14/16z] LSt50G0X30J0ZUFqN-sv3X_Y-2Dz421pNAO0OCB7A99HYSwaAtXxbnBiYBjMqZSo1O4_MygxvNT1HlzS9zEB4VvM
+sprite $BlurLinearLg [20x20/16z] {
+ZP35WKLH24EJYp-Z_sfdlhkT7Kw2dz6Cl12f-rps7RdFSN1S4Hw77I3kOBT92xQ2s3bPos0GBZVj77XYRHdhm1oWdDksOsu9Z7FkMhsX5bvltF_IjxzO0Bps
+F6iRVEF1irS_ymy
+}
+!procedure BlurLinear($id, $name="Blur Linear", $tech="")
+  IconElement($id, 'material-4.0/Image/BlurLinear', $name, $tech)
+!endprocedure
+!procedure BlurLinearCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlurLinearMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlurLinearGroup($id, $name='Blur Linear', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlurLinearLg>', $name, $tech)
+!endprocedure
+@enduml

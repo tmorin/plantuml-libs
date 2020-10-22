@@ -1,0 +1,13 @@
+@startuml
+sprite $TagMd [14x14/16z] XOsr0S1024M97GxxJnitgdiLyWKwp0H0yxCr1_1sVnQEreANyqiHwPuHN9LrAqewKzgLqkQYhEqTDW
+sprite $TagLg [20x20/16z] Ow0OCFCmGma4OELdXH88m0BaWWY4HbOM3duE5Z312jNEnOy4k72emxG3KunoEn1knca7PXXG3
+!procedure Tag($id, $name="Tag", $tech="")
+  IconElement($id, 'material-4.0/Content/Tag', $name, $tech)
+!endprocedure
+!procedure TagCard($id, $funcName="", $content="")
+  IconCard($id, '<$TagMd>', '', $funcName, $content)
+!endprocedure
+!procedure TagGroup($id, $name='Tag', $tech='')
+  IconGroup($id, 'IconGroup', '<$TagLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDeepComposerMd [14x14/16z] FSn70i8m34JHXJL5yltlomX8VkfpypTj9BjVQ8LAUPtIAhD2dg9MEm-ff8aar96_AY0YSQ8vteC8_bOEEN1toJCOqTLssJSAEwqkGHBRwixqvjnHc3hv0m
+sprite $AwsDeepComposerLg [20x20/16z] {
+RS-7TSKm34FHymKsmFll6v9AJvxxTPFglRp5nFgfQzttf_AQuwjZELQeBVVf4xd68Jy-Y3M2ZKHY4ErKssHk9sfDRKg3cnshgdFD75aqYqp7Qqqlbn8mTrWW
+QzyTAdg8h7SpoREtdUSrjOM9oBNUz8p90ITvxRacKkpUxGdO14FdN7iaRZl7jTKRj_-CRm
+}
+!procedure AwsDeepComposer($id, $name="Aws Deep Composer", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AwsDeepComposer', $name, $tech)
+!endprocedure
+!procedure AwsDeepComposerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDeepComposerMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsDeepComposerGroup($id, $name='Aws Deep Composer', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AwsDeepComposerLg>', $name, $tech)
+!endprocedure
+@enduml

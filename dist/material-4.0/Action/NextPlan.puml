@@ -1,0 +1,16 @@
+@startuml
+sprite $NextPlanMd [14x14/16z] POt50S0m30F3YL7xJrlctiyMXH-PH2WV1s63pkC-2oxA9jdeNLnMKM5LuIDso7eD1L33M2-2BuUBEkZTybhuhozcLkKIVim
+sprite $NextPlanLg [20x20/16z] {
+VP050e0W40Gz6cFt_x-LjXsJ8Iwc7xGn-Y8aW8ajo506R41tnHDL2ivkAzi3BuJisl4kh2JINrAwJ6eVqxFf97MD4Ci4tIJfROg3AljNrPqcjuKPRwnjsO0N
+jhTSdZb3dhMPPm_ClLS8ykpf3pi
+}
+!procedure NextPlan($id, $name="Next Plan", $tech="")
+  IconElement($id, 'material-4.0/Action/NextPlan', $name, $tech)
+!endprocedure
+!procedure NextPlanCard($id, $funcName="", $content="")
+  IconCard($id, '<$NextPlanMd>', '', $funcName, $content)
+!endprocedure
+!procedure NextPlanGroup($id, $name='Next Plan', $tech='')
+  IconGroup($id, 'IconGroup', '<$NextPlanLg>', $name, $tech)
+!endprocedure
+@enduml

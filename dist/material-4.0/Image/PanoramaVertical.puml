@@ -1,0 +1,16 @@
+@startuml
+sprite $PanoramaVerticalMd [14x14/16z] NOs50S0W30I_2aJtdxQkVn0t4CNDDypB7iqv7-IyHttq7uEOTZq53gpikXWEjEwwAaNK-MwP0to1hnU_A21M
+sprite $PanoramaVerticalLg [20x20/16z] {
+XP350GGX40InnQ7pZ_OKr_gCArd37b5usDzdqA3_FW4hdX_2WgTYkDp6Oz9eZMgapWmw-oH4xYopxy4p16luxfjhvndhNHpej3DykIWcXTSVEF35hqpAUneu
+MVC6
+}
+!procedure PanoramaVertical($id, $name="Panorama Vertical", $tech="")
+  IconElement($id, 'material-4.0/Image/PanoramaVertical', $name, $tech)
+!endprocedure
+!procedure PanoramaVerticalCard($id, $funcName="", $content="")
+  IconCard($id, '<$PanoramaVerticalMd>', '', $funcName, $content)
+!endprocedure
+!procedure PanoramaVerticalGroup($id, $name='Panorama Vertical', $tech='')
+  IconGroup($id, 'IconGroup', '<$PanoramaVerticalLg>', $name, $tech)
+!endprocedure
+@enduml

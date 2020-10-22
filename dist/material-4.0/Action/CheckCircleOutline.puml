@@ -1,0 +1,16 @@
+@startuml
+sprite $CheckCircleOutlineMd [14x14/16z] PKrL0e0W31tD-lwtTTINIkqb_BvA8bJlG4vZn746o-jAjiRgUu1IlGPr5DtpUaaVPGqDXW1edvxwKgs92T23MPwJWZs6lFZNa8rUU--lFSIioXL-tmS
+sprite $CheckCircleOutlineLg [20x20/16z] {
+VP054WDH24E_05qZkVzjEopK9MFCmzF-Q8YC5z0Na2IMVaSJzCLiSM8M4b8pCZ9XHmJLGPpj2xMLT2YN2E1tnBqvplBbZdoqXICsYFeu4KQiaMJqaLN5ejTu
+N195R-rG5ieTUOiLgbiwOdP_kRa9eNKDOaF2y40rF4YKNl7LgzGKcUsFhW
+}
+!procedure CheckCircleOutline($id, $name="Check Circle Outline", $tech="")
+  IconElement($id, 'material-4.0/Action/CheckCircleOutline', $name, $tech)
+!endprocedure
+!procedure CheckCircleOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$CheckCircleOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure CheckCircleOutlineGroup($id, $name='Check Circle Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$CheckCircleOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

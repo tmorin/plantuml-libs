@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceNetworkWatcherMd [14x14/16z] HSk50S0m20H0Nf3z9oxrYs9nGdLMEswiEYFSmQJjhBgYfA5bNbFOYBIy4JDplqfx0-w1Tb-_243bh4Q0aW2hSlD1xEtk3POK885Oq6Z_SPjH_7G5hmC
+sprite $ServiceNetworkWatcherLg [20x20/16z] {
+POq5OeH040HRPyd_7vpaa3CArceCBvGO7oZzntfNiwsk-PcNz6giS6KP9zlCf9FfkZ8RnNJeQix4HLYWWSAdszecgJsTx4fDQhhIEDcLI3wsW6SjVIGxbSVx
+N96GA7SyNUNkh5YIot5rj5C8q9ckjIjGsDF_nHWdqJ4SBxB5jl2XYazuLw23R_u
+}
+!procedure ServiceNetworkWatcher($id, $name="Service Network Watcher", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceNetworkWatcher', $name, $tech)
+!endprocedure
+!procedure ServiceNetworkWatcherCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceNetworkWatcherMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceNetworkWatcherGroup($id, $name='Service Network Watcher', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceNetworkWatcherLg>', $name, $tech)
+!endprocedure
+@enduml

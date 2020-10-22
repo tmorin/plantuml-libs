@@ -1,0 +1,16 @@
+@startuml
+sprite $MoreTimeMd [14x14/16z] TSk35GH040JHMcEKVxHdupyt-AClBkhIHbgQ4YIDlLg9amwgaBbrtHDLxZ-TK3Strg4gCFUjOsbXBs0QG9if6f1ySQRAMNORVRecBj9Kqm5yEW8
+sprite $MoreTimeLg [20x20/16z] {
+XOu55WGX3CM2ZfP__zEEyRekmGEqvJybyOOMd5YdUU1qCvqmwy2epOx58X2RvXo8TDSE5qm5KkBXxwWABFDZZcQuyrgInWVNoIft5pGzkEbStCM-KBKciYed
+rW8duVW-A_PK_M7VUgRPPLMBuB9DfGmcEvHJJ2TZu96OS-8NEm
+}
+!procedure MoreTime($id, $name="More Time", $tech="")
+  IconElement($id, 'material-4.0/Communication/MoreTime', $name, $tech)
+!endprocedure
+!procedure MoreTimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoreTimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoreTimeGroup($id, $name='More Time', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoreTimeLg>', $name, $tech)
+!endprocedure
+@enduml

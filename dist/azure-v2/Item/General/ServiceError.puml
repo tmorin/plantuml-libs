@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceErrorMd [14x14/16z] JSu55e1020HGEhp_WHryRlpj108DSFfPGZ1zD3zpo1Bvms5avI-KwgPro-eQ6B9d-6NqusBrZ0xF891XxaORLiwqw9_fJmr7Bm
+sprite $ServiceErrorLg [20x20/16z] {
+RS-50SCm34JH24_TV-6Q-OTVoFvQn2ByRP6egJ8jn8QIBayvS20fHbJ5i2IPsB7c2La3UywEEBEuGpno_6RvcRHdMyqjcN-4nSpm2ybZZaumSt2RN8qjbMXD
+iibXdanfC_PKUtUYQdxr3m
+}
+!procedure ServiceError($id, $name="Service Error", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceError', $name, $tech)
+!endprocedure
+!procedure ServiceErrorCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceErrorMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceErrorGroup($id, $name='Service Error', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceErrorLg>', $name, $tech)
+!endprocedure
+@enduml

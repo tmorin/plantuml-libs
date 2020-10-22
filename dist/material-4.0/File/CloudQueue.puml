@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudQueueMd [14x14/16z] XSZ50O0m30NGNszy_sbnkS6B1t-wICSbcHE59UoooJvKzyxNDqS5o3DE4fBspoMfHC6ZXF9xTS-XyyBHaKXk5LzM
+sprite $CloudQueueLg [20x20/16z] {
+fSp70G0X20J0DGigst-rb_FtvaC6__cYaZsUAZSLDsMFpiLEmS6LCnVcCw6vOse3gywM0mv2MVB2WbicAHY69-ULcOeF6-puK2e3tiRmjEIU3uK5qVYcwoJh
+WqJyCWC
+}
+!procedure CloudQueue($id, $name="Cloud Queue", $tech="")
+  IconElement($id, 'material-4.0/File/CloudQueue', $name, $tech)
+!endprocedure
+!procedure CloudQueueCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudQueueMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudQueueGroup($id, $name='Cloud Queue', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudQueueLg>', $name, $tech)
+!endprocedure
+@enduml

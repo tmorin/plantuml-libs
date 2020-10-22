@@ -1,0 +1,16 @@
+@startuml
+sprite $FormatColorTextMd [14x14/16z] ROe30W0n30HhHFl_rvvzdI9Pk04nFeI7-LiLit8hRKqk4H2MUwg6Kj2kekbo3v4GrdRQLUVrb-v-f7onT0KNyb4p
+sprite $FormatColorTextLg [20x20/16z] {
+bOxL0SD034DxO0ne_sdBeFYhUOTcNKxIt5hrAQ3Ljm9hSGr4eXzzZZ7XHz--Fm_pp0bCzYNIx7wnk1rFziRYee_H0yhYnbCGINpyEVQWZRVQFgXXeKdXdYee
+oD--6m
+}
+!procedure FormatColorText($id, $name="Format Color Text", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatColorText', $name, $tech)
+!endprocedure
+!procedure FormatColorTextCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatColorTextMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatColorTextGroup($id, $name='Format Color Text', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatColorTextLg>', $name, $tech)
+!endprocedure
+@enduml

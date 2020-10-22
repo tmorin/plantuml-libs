@@ -1,0 +1,13 @@
+@startuml
+sprite $VibrationMd [14x14/16z] POs50S0W30GVX-Z-qzQz1t73ZvGNqX5KjmMlUzHvrTnNdNdiqU0CQd96qiZx7NL_H_pivDUMzuMLjbzlsCaR-343
+sprite $VibrationLg [20x20/16z] fP235KDH44IpUCRqtssIR_CUpHgVEuXt_eVpCleAEiheGoB-GGcTWvYGMXdnC_x2GtfV-ad_ywYR-vnw1Blm1RpnRStOsEK7oNHdeQtREkhuWwrVtU4B
+!procedure Vibration($id, $name="Vibration", $tech="")
+  IconElement($id, 'material-4.0/Notification/Vibration', $name, $tech)
+!endprocedure
+!procedure VibrationCard($id, $funcName="", $content="")
+  IconCard($id, '<$VibrationMd>', '', $funcName, $content)
+!endprocedure
+!procedure VibrationGroup($id, $name='Vibration', $tech='')
+  IconGroup($id, 'IconGroup', '<$VibrationLg>', $name, $tech)
+!endprocedure
+@enduml

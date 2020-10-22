@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageServiceIntelligentTieringMd [14x14/16z] DOq53W0n409PfBt_l_YsDZ4i0K19jeW54ucKuou67ZPgnbp8iyjKYqObjKCJhYLNrq9f7vsaAMT-1McPDwUV6-lmEGwso-kqbADzhh4SIkkSOE47
+sprite $SimpleStorageServiceIntelligentTieringLg [20x20/16z] {
+JT273SGm509GVW6Yst_W4qfzAUusCaxLtOLNKpSsekGjd6harBNu6gVFZLShVHGjRb2M1609z6nC0yDi822c4CpsBKJzpdsLV_dEOGrWfk7w74eVF6U_zb3w
+EFZOmddIguvidqGlptp2dDQ3Cyn7dNSY5axTf8XOMmel4kzK7PcUxmy
+}
+!procedure SimpleStorageServiceIntelligentTiering($id, $name="Simple Storage Service Intelligent Tiering", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageServiceIntelligentTiering', $name, $tech)
+!endprocedure
+!procedure SimpleStorageServiceIntelligentTieringCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageServiceIntelligentTieringMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageServiceIntelligentTieringGroup($id, $name='Simple Storage Service Intelligent Tiering', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageServiceIntelligentTieringLg>', $name, $tech)
+!endprocedure
+@enduml

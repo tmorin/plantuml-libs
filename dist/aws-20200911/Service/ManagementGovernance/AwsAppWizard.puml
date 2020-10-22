@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAppWizardMd [14x14/16z] NSe7ZW9034FHNKXSClU_BuxeVDKdsqdtIFf5QYN9gEugSWQ04A2esQm6gnNPpTdhAa6y17NNuHKMU1SAld8idIo56MywTv0ksb4mabjHcdl-rGq
+sprite $AwsAppWizardLg [20x20/16z] {
+RSm55iCm30FGjneYAVU_xwmnLCLy0-dWcUNm1Fd8InucJkg8x2DYN5J7obOrSvvOM9800gp8cES08CVJw5weweUH2wHcD39VVPSKPx_tFKqWCmvKrEU-h83U
+-nmJ4Y9jBr9V5cdSB-8ps7iFUSfxqSQnp7HxHJCyRaDmoBDQHTeSlN9YVDWVNW4
+}
+!procedure AwsAppWizard($id, $name="Aws App Wizard", $tech="")
+  IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsAppWizard', $name, $tech)
+!endprocedure
+!procedure AwsAppWizardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppWizardMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsAppWizardGroup($id, $name='Aws App Wizard', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsAppWizardLg>', $name, $tech)
+!endprocedure
+@enduml

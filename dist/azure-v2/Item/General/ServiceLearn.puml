@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceLearnMd [14x14/16z] PSS50iGW34JHT3D2xt_WjU9y97aH9Fub8WxfYOyiUKZFUIGcNanM2KY2UcGAbghA4nVfBz-btD_Cds1Bb1Z_aizITULLrmy
+sprite $ServiceLearnLg [20x20/16z] {
+ZSY50SCm34JHM3fmzX-u3JDzerxJ1MkfHjDNACx1euMn59XCQ-2zvPLvQMCACI6aDrQK2I0svb1qnZ1NIo4XvMhLjAZ-MMrfOsjVJUreqTQ-jg_sr5T0CifG
+CvUTJTDg4TZO7m
+}
+!procedure ServiceLearn($id, $name="Service Learn", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceLearn', $name, $tech)
+!endprocedure
+!procedure ServiceLearnCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceLearnMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceLearnGroup($id, $name='Service Learn', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceLearnLg>', $name, $tech)
+!endprocedure
+@enduml

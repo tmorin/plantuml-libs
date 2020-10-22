@@ -1,0 +1,16 @@
+@startuml
+sprite $HearingMd [14x14/16z] NSd50SH03C106PR1_LTx34dcAG72WMoZpDMLfpwPk-GPzbnXPOFG5c2RbML7uZbzopQBQBY0Xen6xSBBoXxALmvfONnLfJxlt-XGViMZj12-qfh6nHq
+sprite $HearingLg [20x20/16z] {
+TS_50GH1409067VoZ_PaNUlR2bxuZ1_hBB7Ya44O-ibO97aaZHHYK-FSfWQlIlp4fTCfeecmsGDLPgvPgi1AYl0AypfI2K5I1PFT-lBIjt0Aw8DmEM0stmrA
+ECboQ5gQzXnaLyQHBm3BFhvh8W2UkvNc9ywDqGyP79akoUF2EUB55m
+}
+!procedure Hearing($id, $name="Hearing", $tech="")
+  IconElement($id, 'material-4.0/Av/Hearing', $name, $tech)
+!endprocedure
+!procedure HearingCard($id, $funcName="", $content="")
+  IconCard($id, '<$HearingMd>', '', $funcName, $content)
+!endprocedure
+!procedure HearingGroup($id, $name='Hearing', $tech='')
+  IconGroup($id, 'IconGroup', '<$HearingLg>', $name, $tech)
+!endprocedure
+@enduml

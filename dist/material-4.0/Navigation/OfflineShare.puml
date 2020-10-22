@@ -1,0 +1,16 @@
+@startuml
+sprite $OfflineShareMd [14x14/16z] NSo50S0W30J0FExilstvKByAH8Ly88XoKsNU8NvuxrsjZ6fqdMVIg2L60JkgAqAPARKhiix9K-DvHRyjiopZh66gi2E14igpaHE5ICdmVW
+sprite $OfflineShareLg [20x20/16z] {
+dT350S0m20NG7tVOVzewL4zznmJ7mUuCbEbyy121HRsyPHzMyfO7F0Tik65JMT_CwosRPrmaRlStxwXIUiGv0_VLu-TRhnkkbpTHz0rbhFfeLjykv2sdl4ZP
+VXmlG5c1tGm
+}
+!procedure OfflineShare($id, $name="Offline Share", $tech="")
+  IconElement($id, 'material-4.0/Navigation/OfflineShare', $name, $tech)
+!endprocedure
+!procedure OfflineShareCard($id, $funcName="", $content="")
+  IconCard($id, '<$OfflineShareMd>', '', $funcName, $content)
+!endprocedure
+!procedure OfflineShareGroup($id, $name='Offline Share', $tech='')
+  IconGroup($id, 'IconGroup', '<$OfflineShareLg>', $name, $tech)
+!endprocedure
+@enduml

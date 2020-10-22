@@ -1,0 +1,13 @@
+@startuml
+sprite $ViewSidebarMd [14x14/16z] Oy07EBZ0W9k9XPk3WO677m9OsFXva7ZCtEm87Yi34oEcIWGFMIKpiafcBdPKbMYsumC
+sprite $ViewSidebarLg [20x20/16z] Ow04C7DpmG0tCmEOO63bHm1M1X11Z1WNDwPU4C1KDxZim1e6b
+!procedure ViewSidebar($id, $name="View Sidebar", $tech="")
+  IconElement($id, 'material-4.0/Action/ViewSidebar', $name, $tech)
+!endprocedure
+!procedure ViewSidebarCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViewSidebarMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViewSidebarGroup($id, $name='View Sidebar', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViewSidebarLg>', $name, $tech)
+!endprocedure
+@enduml

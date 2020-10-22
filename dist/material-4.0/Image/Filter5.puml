@@ -1,0 +1,16 @@
+@startuml
+sprite $Filter5Md [14x14/16z] JSc53G0n5CFGf0mVzf_s66hXam74UjVo0PhAdMSoM0180jBgvA7kheJKAgV61F6fk-HVCNVxbSgggb8UUU9Pe1w2kFcPUJm4yfaeBa-J04ghJuTs
+sprite $Filter5Lg [20x20/16z] {
+TT054e0m34JHL1CasVkV5eVQyCTVlNJcw-Wgesw-JC7onWlyPKebXlUMoKwRLTKyaHm6kKrn6v_6ZsbPM-On-y40SwrvxmI-DUUfil-rMLX2EQEyezWABTbj
+KKtjxa2cynrz7alrKP8lN52dpyocKtO
+}
+!procedure Filter5($id, $name="Filter5", $tech="")
+  IconElement($id, 'material-4.0/Image/Filter5', $name, $tech)
+!endprocedure
+!procedure Filter5Card($id, $funcName="", $content="")
+  IconCard($id, '<$Filter5Md>', '', $funcName, $content)
+!endprocedure
+!procedure Filter5Group($id, $name='Filter5', $tech='')
+  IconGroup($id, 'IconGroup', '<$Filter5Lg>', $name, $tech)
+!endprocedure
+@enduml

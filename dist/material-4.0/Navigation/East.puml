@@ -1,0 +1,13 @@
+@startuml
+sprite $EastMd [14x14/16z] Oo0PSBCXyzZuKRYi_An0aeCB0ZXvWRAeF3XWWN4mJU5X8yr5
+sprite $EastLg [20x20/16z] jOsr0S0m0CFiClV_QyiOPOr6ezBXnj2gkHTeuk90iJwJnJH-cFSaDQCB2H_HL4L9MMibOGK
+!procedure East($id, $name="East", $tech="")
+  IconElement($id, 'material-4.0/Navigation/East', $name, $tech)
+!endprocedure
+!procedure EastCard($id, $funcName="", $content="")
+  IconCard($id, '<$EastMd>', '', $funcName, $content)
+!endprocedure
+!procedure EastGroup($id, $name='East', $tech='')
+  IconGroup($id, 'IconGroup', '<$EastLg>', $name, $tech)
+!endprocedure
+@enduml

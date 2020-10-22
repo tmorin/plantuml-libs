@@ -1,0 +1,13 @@
+@startuml
+sprite $FastRewindMd [14x14/16z] bOs54G0n20Glhd3zT_lpRcDiWXjiEB_gLQr62k36m4ecCwAmhrsJPAdaBrefQsVI8qBGQyjz8S300W
+sprite $FastRewindLg [20x20/16z] lOxL0S0W30LnXzj_shhtFuV6dn8acUrnyVAOnkQBbDCLOFNfokbRlwlF3qxVzWMRuVQnuGhmgmt0RuPff--lvIGVcfEIOGO
+!procedure FastRewind($id, $name="Fast Rewind", $tech="")
+  IconElement($id, 'material-4.0/Av/FastRewind', $name, $tech)
+!endprocedure
+!procedure FastRewindCard($id, $funcName="", $content="")
+  IconCard($id, '<$FastRewindMd>', '', $funcName, $content)
+!endprocedure
+!procedure FastRewindGroup($id, $name='Fast Rewind', $tech='')
+  IconGroup($id, 'IconGroup', '<$FastRewindLg>', $name, $tech)
+!endprocedure
+@enduml

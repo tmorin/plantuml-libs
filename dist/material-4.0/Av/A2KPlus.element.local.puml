@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the A2KPlus element
+include('material-4.0/Av/A2KPlus')
+A2KPlus('a_2_k_plus', 'A2 K Plus', 'an optional tech field')
+@enduml

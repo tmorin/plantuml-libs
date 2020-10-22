@@ -1,0 +1,16 @@
+@startuml
+sprite $HotTubMd [14x14/16z] ROg50GDH24FVTuNiFstTUsYCeqh4S4UrW-BgDn9SYJMAtytQ87gQuyvcX9dAZKN98e5RSEbHhWtcsUkSzVBiol0qHd9Uh3_PLbNVkr_UXcgspMwdybrd
+sprite $HotTubLg [20x20/16z] {
+bKm55aCX34kBmsZkVzizPAu_Q6CuZ1GGqdMIClwiQBnoZOp0oP3e7pdF0ZFPd9OudanLNXjzc3S3s3PLEByI1C5DHj19LWZsE1B60JDoRWy4iZNsGjO-VWoJ
+Ks666H95hvmkBbFVSj-oCR8wCrV7Rt1gV80f00qFKBp56G
+}
+!procedure HotTub($id, $name="Hot Tub", $tech="")
+  IconElement($id, 'material-4.0/Places/HotTub', $name, $tech)
+!endprocedure
+!procedure HotTubCard($id, $funcName="", $content="")
+  IconCard($id, '<$HotTubMd>', '', $funcName, $content)
+!endprocedure
+!procedure HotTubGroup($id, $name='Hot Tub', $tech='')
+  IconGroup($id, 'IconGroup', '<$HotTubLg>', $name, $tech)
+!endprocedure
+@enduml

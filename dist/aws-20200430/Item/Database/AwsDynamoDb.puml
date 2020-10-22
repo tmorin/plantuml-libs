@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDynamoDbMd [14x14/16z] POw55SGm34CFAd2y_xoXSglWVoQLfpB7jPCfqLiaq0CG8bSQeOJNsE8WayYLg60mjpfP76LhJ2Re8oQ8Mgd0OO_O6bINJsT3vQq6
+sprite $AwsDynamoDbLg [20x20/16z] {
+bSZ50SGm34JHXG61-sytJDTyerwzgRktywGGbw9kRZCoov2YJuDx2GxoCXAKFPgkswhoxsh_rAT1IiCZM4SDXNCm0zKdKj9oya5DL7U0Z8T9DFzDtGOw0lR_
+OPGjEVqm8vOd0zbrOOgaN0lTU5JlcW4
+}
+!procedure AwsDynamoDb($id, $name="Aws Dynamo Db", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsDynamoDb', $name, $tech)
+!endprocedure
+!procedure AwsDynamoDbCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDynamoDbMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsDynamoDbGroup($id, $name='Aws Dynamo Db', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsDynamoDbLg>', $name, $tech)
+!endprocedure
+@enduml

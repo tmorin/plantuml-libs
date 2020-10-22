@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceInfrastructureBackup element
+include('azure-v2/Item/AzureStack/ServiceInfrastructureBackup')
+ServiceInfrastructureBackupCard('service_infrastructure_backup', 'Service Infrastructure Backup', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SimpleNotificationServiceTopicMd [14x14/16z] NOo50G0W3CD6IyV_5-EUe3DxW6lZa08cGH9F7SKadtLA4OpDVX14i6e_-cVJvh7P3rHYbUmN_aexKxu-UoW
+sprite $SimpleNotificationServiceTopicLg [20x20/16z] ZOw54GKm24EJG7N_VRzh_Hs76mvXBGsLocZ8DiXfs5TpGnKakyjN2Kn8qh-YeS58RtDEXhlo7nKUIWe_oic8AFsfUvz8_IWVtXZ-af3DyezAn25N
+!procedure SimpleNotificationServiceTopic($id, $name="Simple Notification Service Topic", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/SimpleNotificationServiceTopic', $name, $tech)
+!endprocedure
+!procedure SimpleNotificationServiceTopicCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleNotificationServiceTopicMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure SimpleNotificationServiceTopicGroup($id, $name='Simple Notification Service Topic', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$SimpleNotificationServiceTopicLg>', $name, $tech)
+!endprocedure
+@enduml

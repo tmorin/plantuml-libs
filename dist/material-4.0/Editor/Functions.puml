@@ -1,0 +1,13 @@
+@startuml
+sprite $FunctionsMd [14x14/16z] Oy0FMBcvW82R5S9ZumS33WOObvU9aOcH0SxbHjRAmi_3Y8F7oiy3955COK2r0Srs_
+sprite $FunctionsLg [20x20/16z] fP053e1G3CLmXzx_jFZt5rqNRUQLbNdvcOF3Ktit0llsH1KOO2qwzh0LibEPxS6cN9tL1YLdX5tgGh5l3_8szGCh5m
+!procedure Functions($id, $name="Functions", $tech="")
+  IconElement($id, 'material-4.0/Editor/Functions', $name, $tech)
+!endprocedure
+!procedure FunctionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$FunctionsMd>', '', $funcName, $content)
+!endprocedure
+!procedure FunctionsGroup($id, $name='Functions', $tech='')
+  IconGroup($id, 'IconGroup', '<$FunctionsLg>', $name, $tech)
+!endprocedure
+@enduml

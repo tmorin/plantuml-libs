@@ -1,0 +1,16 @@
+@startuml
+sprite $FitnessCenterMd [14x14/16z] NKs54S0m48hSFrJPVzfwOvpYOK2AC1IoRn9_5Y-24gGaAym5hvGCuQO57oKQYYPWabWOf2qsFzkU2dF670QS
+sprite $FitnessCenterLg [20x20/16z] {
+TT150iCm34HHgJ0AsRh_QGshLlHtUJ5J6HFRRo4eslLlee-kO0OcX4WltPtan-6qo6rFl2nUYmAkVeWpu5SREuG_rS9LVyNJYw7lfYUEUkougqD1uXwINbGs
+0G
+}
+!procedure FitnessCenter($id, $name="Fitness Center", $tech="")
+  IconElement($id, 'material-4.0/Places/FitnessCenter', $name, $tech)
+!endprocedure
+!procedure FitnessCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$FitnessCenterMd>', '', $funcName, $content)
+!endprocedure
+!procedure FitnessCenterGroup($id, $name='Fitness Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$FitnessCenterLg>', $name, $tech)
+!endprocedure
+@enduml

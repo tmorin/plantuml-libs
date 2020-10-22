@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsWorkSpacesMd [14x14/16z] LSZ14G9G30BH6HE0VFllLpYwjxTkQaptnxiJQ36dmcAmkvAYJR2vaDwHcBMrdmf0_a8RFI_uE7ALg2UQOrMvqS9-xRW3dVqDadJdg6mNHdLH_W
+sprite $AwsWorkSpacesLg [20x20/16z] {
+RSq7OiGW44FHC5KQt_--GP2U_UxF57pKjr9yWQIKlv2glOINZo6yLZ0ihihC4279VQbjdfOHIQ33KpOCHBrLdyrjRPjZMRwQ22k_vfMPNHwUmBM1HRhsofP1
+DcJsjkZA_hHvCeTq4BaWKupWR2jB0C_SoZiwDdyR1x6yICWUgN2QG-6d7UNfsAVoesEV-Adl
+}
+!procedure AwsWorkSpaces($id, $name="Aws Work Spaces", $tech="")
+  IconElement($id, 'aws-20200911/Service/EndUserComputing/AwsWorkSpaces', $name, $tech)
+!endprocedure
+!procedure AwsWorkSpacesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWorkSpacesMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AwsWorkSpacesGroup($id, $name='Aws Work Spaces', $tech='')
+  IconGroup($id, 'EndUserComputingFamily', '<$AwsWorkSpacesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $BorderColorMd [14x14/16z] ROp50S0W34Lnujb_shgNT_iQXaIg3zNTwvray7ugSItb5dubSHLm9K-1Jn7uAKBfzI4MwavPFoxaesO
+sprite $BorderColorLg [20x20/16z] ZSk53S1G30DHfyot_xGbOJwV-CbMhRwBQEGAqIuuFGvT3woEkAptkn4-30bsXHGSOngQIDjFfj1U2kqzrh8noAIHeB7P7W
+!procedure BorderColor($id, $name="Border Color", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderColor', $name, $tech)
+!endprocedure
+!procedure BorderColorCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderColorMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderColorGroup($id, $name='Border Color', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderColorLg>', $name, $tech)
+!endprocedure
+@enduml

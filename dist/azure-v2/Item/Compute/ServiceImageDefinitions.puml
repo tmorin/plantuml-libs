@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceImageDefinitionsMd [14x14/16z] NSm50a8n30FGLPBA_GzCSFYPladpapZdN0IrI00ftHStZxS4Cy-7o7GbaXy97vd9aj-5a09aGz9je6PcDmMbPgUdxQdf8lJnWIfDKCt8U2PTkW4
+sprite $ServiceImageDefinitionsLg [20x20/16z] {
+PSm74iCm449HBQoQxt_WiAIv_CJjZOOMY7DD1OXpPMHUAWFxmyYkCfdf5rlM6xIEF1l3WMS3JFcp8LEa5w-MTmkGUXqzlbPhW8smZGHiVQZ5CaMVcdEjVMoF
+AAqFVRjXSqkVUwzZWJRJNbFd9zhNDEKDH6lPFpQddqs1UOvbBm
+}
+!procedure ServiceImageDefinitions($id, $name="Service Image Definitions", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceImageDefinitions', $name, $tech)
+!endprocedure
+!procedure ServiceImageDefinitionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceImageDefinitionsMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceImageDefinitionsGroup($id, $name='Service Image Definitions', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceImageDefinitionsLg>', $name, $tech)
+!endprocedure
+@enduml

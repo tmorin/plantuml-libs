@@ -1,0 +1,16 @@
+@startuml
+sprite $PsychologyMd [14x14/16z] RSc53GH14CJ0dcLs_j4-mv659UiYy-wF2dJxe4DPp3S2pSiNqak5OlX4VI-AciMtucGMfK7GimnCtkijA7fdQG9Ht_fEFeHWEdK7
+sprite $PsychologyLg [20x20/16z] {
+bSYr0SGm0CNGRsPh_saFmrNor4aFcP2YqqcS0FruC_2x-_JVPG8mjAeCRoKN8MWnw38zoq5PLW2SPwf0rOy3cfIyB6Jzf0daA9CgU2tu2WMeMaqMtLmVHRkq
+lA2ZVFFvd3vPFV86
+}
+!procedure Psychology($id, $name="Psychology", $tech="")
+  IconElement($id, 'material-4.0/Social/Psychology', $name, $tech)
+!endprocedure
+!procedure PsychologyCard($id, $funcName="", $content="")
+  IconCard($id, '<$PsychologyMd>', '', $funcName, $content)
+!endprocedure
+!procedure PsychologyGroup($id, $name='Psychology', $tech='')
+  IconGroup($id, 'IconGroup', '<$PsychologyLg>', $name, $tech)
+!endprocedure
+@enduml

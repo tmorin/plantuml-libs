@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceMeshApplicationsMd [14x14/16z] LOs50G0X30DhIVQV-0Nde6xs4q3O8iWZ0WaR97AedzOMX7ywAWFkY4GOIJF7No1BqeoaYiJiPDk3kUM-C81cfLMbLXbKMUC5
+sprite $ServiceMeshApplicationsLg [20x20/16z] {
+TP230G0n34M3Z_qdFXjrNvpOHtN5OsIZyy6QOZyO9E6fDeyh15Lp65qenTb_KZnz7Nh4bWGhYnsrtEYirc9G87fnemOjBJwz-9BCWgrDhsPc8nBKwIz5v9Bm
+9Iv_ydlMyMW15tA5jcRqO7woX93RUmG
+}
+!procedure ServiceMeshApplications($id, $name="Service Mesh Applications", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceMeshApplications', $name, $tech)
+!endprocedure
+!procedure ServiceMeshApplicationsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceMeshApplicationsMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceMeshApplicationsGroup($id, $name='Service Mesh Applications', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceMeshApplicationsLg>', $name, $tech)
+!endprocedure
+@enduml

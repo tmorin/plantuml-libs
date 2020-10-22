@@ -1,0 +1,16 @@
+@startuml
+sprite $EmrEmrEngineMapRM7Md [14x14/16z] VOs70SGW30EHhGBx3_ozVv93WBl7FxYS5vMfjyV4zoIW18FJO20_YdgfHVCough2nLkAgLnrGKJHBDnoDe3hE7S9a3NhiiPEtzV4zdNK4MS
+sprite $EmrEmrEngineMapRM7Lg [20x20/16z] {
+fP35WKCn34H7F7B_1Uzdl6oIPxPO-0XHcIPk1BlfJptcGq-wgiZZQI2xCD5iGtN2w8Jiyb6DLYlFIwnKSFqJMU90vesgOqGmpJqeoN0hKqPwHbKbPRewQlCd
+wW6PnZJvYc6WYakJxDnoRxJk3HZJXgWbvnrhJWX-vGy
+}
+!procedure EmrEmrEngineMapRM7($id, $name="Emr Emr Engine Map R M7", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Analytics/EmrEmrEngineMapRM7', $name, $tech)
+!endprocedure
+!procedure EmrEmrEngineMapRM7Card($id, $funcName="", $content="")
+  IconCard($id, '<$EmrEmrEngineMapRM7Md>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure EmrEmrEngineMapRM7Group($id, $name='Emr Emr Engine Map R M7', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$EmrEmrEngineMapRM7Lg>', $name, $tech)
+!endprocedure
+@enduml

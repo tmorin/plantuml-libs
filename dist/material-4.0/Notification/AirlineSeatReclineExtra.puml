@@ -1,0 +1,16 @@
+@startuml
+sprite $AirlineSeatReclineExtraMd [14x14/16z] NSp50GD120LG68DWl_zguwllWaCtx4A7YQIJDOxSLayvAZCWHlllnGDm57-hNW8COlf9ALZh_zLGmyVlbLGNLL7OTzkGRvrBVu_c6nCpNRq
+sprite $AirlineSeatReclineExtraLg [20x20/16z] {
+ZOtL0KLH3CAEUyd-qpvtlVbC2xWl-EJVb35VNGJU7WVrzUsG3g_9uXRhoNfw1fGVfQtC4HljvZfHi9hGpHNI0ZiqnuUHse3uF38oC6jhvIQN0XU6lxX6JAOJ
+sAKYe1JYWUGhNF9PdCakIPUuB-r0RU4GYcupUm
+}
+!procedure AirlineSeatReclineExtra($id, $name="Airline Seat Recline Extra", $tech="")
+  IconElement($id, 'material-4.0/Notification/AirlineSeatReclineExtra', $name, $tech)
+!endprocedure
+!procedure AirlineSeatReclineExtraCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirlineSeatReclineExtraMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirlineSeatReclineExtraGroup($id, $name='Airline Seat Recline Extra', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirlineSeatReclineExtraLg>', $name, $tech)
+!endprocedure
+@enduml

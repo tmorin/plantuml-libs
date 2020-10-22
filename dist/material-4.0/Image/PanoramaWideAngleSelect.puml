@@ -1,0 +1,13 @@
+@startuml
+sprite $PanoramaWideAngleSelectMd [14x14/16z] VOs34G0n50Nt4Al_RZEAiQEF1wxyKXjhZPO_8595W6cR0TSs1xvjVjn6vPWoDepjLp8
+sprite $PanoramaWideAngleSelectLg [20x20/16z] fT0r0iGW54NHYyjCalslDjeWh-EKy9qrriLKwgsau2oFT7GImBz_-mDcxzzs0-uOEF3ZcuSmlWNrfd9L3pMBd5dlXlKnVpV8qLlMN
+!procedure PanoramaWideAngleSelect($id, $name="Panorama Wide Angle Select", $tech="")
+  IconElement($id, 'material-4.0/Image/PanoramaWideAngleSelect', $name, $tech)
+!endprocedure
+!procedure PanoramaWideAngleSelectCard($id, $funcName="", $content="")
+  IconCard($id, '<$PanoramaWideAngleSelectMd>', '', $funcName, $content)
+!endprocedure
+!procedure PanoramaWideAngleSelectGroup($id, $name='Panorama Wide Angle Select', $tech='')
+  IconGroup($id, 'IconGroup', '<$PanoramaWideAngleSelectLg>', $name, $tech)
+!endprocedure
+@enduml

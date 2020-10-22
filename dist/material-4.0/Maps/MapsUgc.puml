@@ -1,0 +1,16 @@
+@startuml
+sprite $MapsUgcMd [14x14/16z] POs50S0m20JZEEm_RTrxKUm__QWaGlK8A3Re4HnXMp-gwzsEqXX7KPTABwMlxpVYhRCVdVsbWl5qq6TGmsYmAhUqK6fwC0C
+sprite $MapsUgcLg [20x20/16z] {
+VP1L0eK02C16s0htF-qBk_Sv6bumTpi8gID_3BMioYDdmXQLEqQ9nDuDOtcT8rsN8_NVpMcgSo9WUNHfyuHE55J6SeVYnjtKtiwWlTcbppqXWEO11oWFMQFY
+twPlOZJphsJeIWMisFrKkF05
+}
+!procedure MapsUgc($id, $name="Maps Ugc", $tech="")
+  IconElement($id, 'material-4.0/Maps/MapsUgc', $name, $tech)
+!endprocedure
+!procedure MapsUgcCard($id, $funcName="", $content="")
+  IconCard($id, '<$MapsUgcMd>', '', $funcName, $content)
+!endprocedure
+!procedure MapsUgcGroup($id, $name='Maps Ugc', $tech='')
+  IconGroup($id, 'IconGroup', '<$MapsUgcLg>', $name, $tech)
+!endprocedure
+@enduml

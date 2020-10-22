@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2P2InstanceMd [14x14/16z] NOx70GC13C84Xlr7JgutlLm1G6W1iL5d9kxUvA2WbeDME6SNemH6CYHYWXiYCkmT7jPE2HBUBZyg7uUN-oVPA_KV
+sprite $Ec2P2InstanceLg [20x20/16z] {
+bP054i1020FP7e7__xX3tMNF5H8ROUeMt2sMRa8YcRhfMSQ6h0-QmZQ4cfaVz-fBzdlKRrbxCAKIcOptaBTEghqb1kfaQ1U3SCpPnS3hiErZ5B2BiHA_T1mz
+kFBgsjChxti
+}
+!procedure Ec2P2Instance($id, $name="Ec2 P2 Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2P2Instance', $name, $tech)
+!endprocedure
+!procedure Ec2P2InstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2P2InstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2P2InstanceGroup($id, $name='Ec2 P2 Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2P2InstanceLg>', $name, $tech)
+!endprocedure
+@enduml

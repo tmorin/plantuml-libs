@@ -1,0 +1,16 @@
+@startuml
+sprite $AddToHomeScreenMd [14x14/16z] NOw30G0W54Ipw_QVDll5xoCLgJgKD1G6jbi6CTK5toqk-sE79QKKBQLRD4HWM1s7HBVbeZoM1sL-PLBFcczd2hKdZEaD-5zPDxVg0W
+sprite $AddToHomeScreenLg [20x20/16z] {
+RT254G0n24JHZS0vst-rvyQ4F_xYmLb-IdWQ-5OVuzVuc0N6APUZN3YXwRKgHzuM7YK_htQamHdIGgEtl516PmSf9cVPTeBqtZIu7r9WDgLyLbwB_w2n-4-H
+ort6tWO
+}
+!procedure AddToHomeScreen($id, $name="Add To Home Screen", $tech="")
+  IconElement($id, 'material-4.0/Device/AddToHomeScreen', $name, $tech)
+!endprocedure
+!procedure AddToHomeScreenCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddToHomeScreenMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddToHomeScreenGroup($id, $name='Add To Home Screen', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddToHomeScreenLg>', $name, $tech)
+!endprocedure
+@enduml

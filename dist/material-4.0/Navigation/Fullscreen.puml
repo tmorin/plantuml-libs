@@ -1,0 +1,13 @@
+@startuml
+sprite $FullscreenMd [14x14/16z] Oy0F69aO8GG8CF7nSpCmSFFpCK5uB20v5WYFaPiHGZ4HC16XaX7L53GRm5mc9WY17m
+sprite $FullscreenLg [20x20/16z] Ow01uEBbvMDXO63Xu-NbWednyaF5W0ou694i5XPC5c60gPSaUp7TZEat6W
+!procedure Fullscreen($id, $name="Fullscreen", $tech="")
+  IconElement($id, 'material-4.0/Navigation/Fullscreen', $name, $tech)
+!endprocedure
+!procedure FullscreenCard($id, $funcName="", $content="")
+  IconCard($id, '<$FullscreenMd>', '', $funcName, $content)
+!endprocedure
+!procedure FullscreenGroup($id, $name='Fullscreen', $tech='')
+  IconGroup($id, 'IconGroup', '<$FullscreenLg>', $name, $tech)
+!endprocedure
+@enduml

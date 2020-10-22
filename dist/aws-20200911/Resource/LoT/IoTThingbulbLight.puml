@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTThingbulbLightMd [14x14/16z] LSw50G0X34FH7vgK_IS-L_nXBQ2hm8vEPskj0-NorggrmR0Bt59C1L8usiysRBpFmXZQb4CZLHcty9pcaURKHzsdZkXEV4G79Nqqu9_r2W
+sprite $IoTThingbulbLightLg [20x20/16z] {
+TL270GD12Be2UljF7D3qvFbYmpgCgUSb6Z6uW4KfTomS7cPI0gjT2MFl4bbEe6e1ys7DEFOnWQHz9sP7KCLpAsWUpSlPbSsZHd8aUZxxA7M7UMkGpGiLG4A1
+j2yVfdCT1gAKAgU0a88baZLBwntZQ-OHmlYOsGMZ9TvkGBvkKBV2OGGbi2vl-dlx6m
+}
+!procedure IoTThingbulbLight($id, $name="Io T Thingbulb Light", $tech="")
+  IconElement($id, 'aws-20200911/Resource/LoT/IoTThingbulbLight', $name, $tech)
+!endprocedure
+!procedure IoTThingbulbLightCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTThingbulbLightMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTThingbulbLightGroup($id, $name='Io T Thingbulb Light', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTThingbulbLightLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AdjustMd [14x14/16z] PKw30G0n3Cox3VVVzcipEi2sRcJ6goHe-7raFYTwnk_KcDuMavZQ3O08S20UEU8t8Yr47wyPnKcgapDBLy2g_hxXgSv8X6xOrWy
+sprite $AdjustLg [20x20/16z] {
+VL350S103Ah4Fe7zfwsahkSN1PgVqObq5qCR84b4kvjwCCCiajbl9jAMbv6BiSNoMDnPwK4zAXjzlf0LRLOHYGgFsPHSqe8J9AbK9vTEHdcplUKUFTot7dSi
+odXYna9P25sZC7TOZBC6gf64dBJYNQkg9DB_QJu2
+}
+!procedure Adjust($id, $name="Adjust", $tech="")
+  IconElement($id, 'material-4.0/Image/Adjust', $name, $tech)
+!endprocedure
+!procedure AdjustCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdjustMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdjustGroup($id, $name='Adjust', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdjustLg>', $name, $tech)
+!endprocedure
+@enduml

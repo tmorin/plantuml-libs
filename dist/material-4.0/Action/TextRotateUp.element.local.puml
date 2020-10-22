@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the TextRotateUp element
+include('material-4.0/Action/TextRotateUp')
+TextRotateUp('text_rotate_up', 'Text Rotate Up', 'an optional tech field')
+@enduml

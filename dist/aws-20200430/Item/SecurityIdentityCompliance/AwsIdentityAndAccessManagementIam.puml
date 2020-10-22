@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIdentityAndAccessManagementIamMd [14x14/16z] bOf70G0m309VuI3-_NORQ2QhFme14l8YaKl91fj1S3k7jMgrPHzMgDRo68l6wSjsCeaFCw_S7pK1
+sprite $AwsIdentityAndAccessManagementIamLg [20x20/16z] jO-t0SHG2CMAZm3X_UUzdC-jLH9Uc0FmWyU8u4Nmc8tWDbTypepgy6V6R6ZIzdF6WeLPbizPc5H8c-_PG2uXdDUigsfzUoH0FcRxcV-x7S0P
+!procedure AwsIdentityAndAccessManagementIam($id, $name="Aws Identity And Access Management Iam", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIam', $name, $tech)
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIdentityAndAccessManagementIamMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsIdentityAndAccessManagementIamGroup($id, $name='Aws Identity And Access Management Iam', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIdentityAndAccessManagementIamLg>', $name, $tech)
+!endprocedure
+@enduml

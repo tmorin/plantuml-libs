@@ -1,0 +1,16 @@
+@startuml
+sprite $PersonAddMd [14x14/16z] XSp50OGm54NH6_Uy_gkTmM459vulVFCrcViXgR4g2R8M1epjrH8b3TXEEOg6PzKB3pbYK-kzU3P1cwFhq25kkVNWUV47
+sprite $PersonAddLg [20x20/16z] {
+hSpNbSKW30JGaKm6CVrtkqSu-tVVjKbA-0d9BSidP2Jj38hwNkdg4UlqxA0RHwnnpxY-6dkRR3qYq0MFAPS2HAD5B7BCkztpe244nI4MG8lHMRd3l9qp9szJ
+u9HF2YVjIV0FVm
+}
+!procedure PersonAdd($id, $name="Person Add", $tech="")
+  IconElement($id, 'material-4.0/Social/PersonAdd', $name, $tech)
+!endprocedure
+!procedure PersonAddCard($id, $funcName="", $content="")
+  IconCard($id, '<$PersonAddMd>', '', $funcName, $content)
+!endprocedure
+!procedure PersonAddGroup($id, $name='Person Add', $tech='')
+  IconGroup($id, 'IconGroup', '<$PersonAddLg>', $name, $tech)
+!endprocedure
+@enduml

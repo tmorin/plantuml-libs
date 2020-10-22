@@ -1,0 +1,16 @@
+@startuml
+sprite $ExtensionMd [14x14/16z] PStL0S0m20JGYnjm-qzRzxwV1CSg9jm2cN5mBfFTUQmQ3x96mfF_HI7R4VLjLU5fFLHvYiZz_9UmRwd5xfqTA4UKLJCGL1k-PW
+sprite $ExtensionLg [20x20/16z] {
+TOy54e1020196_Z_Rst1MhtQ6GeE2E794CuF9H4nFfmkpY3fR9ei5fPZuYii6Q-mPFfmzepDGaXZ3Pvajnu5toUogD0xvR0Ct_KrK2LxCS-wXrF0yU7wvKBf
+Q0tgpeuwsAMgxkLrAV373
+}
+!procedure Extension($id, $name="Extension", $tech="")
+  IconElement($id, 'material-4.0/Action/Extension', $name, $tech)
+!endprocedure
+!procedure ExtensionCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExtensionMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExtensionGroup($id, $name='Extension', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExtensionLg>', $name, $tech)
+!endprocedure
+@enduml

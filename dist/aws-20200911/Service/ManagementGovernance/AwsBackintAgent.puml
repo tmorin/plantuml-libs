@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBackintAgentMd [14x14/16z] 9SU5ZGDG30MmWuVv--_RABNGNJbUlVQwEmBWxRGTipKIppQWL2cPBK5J_exwrvJ_waxg172G7TyKv7_epfCiY0IRzoOEDchxJW3DTpEhcztrx3u
+sprite $AwsBackintAgentLg [20x20/16z] {
+RSg7ZKKX34HHhVEC--ztZGLA_rto4TZgbITy81u-NxkbJhd8It7U8OjS97HM8RKc7cIvkdiLDA-np2FSjM3npDCboC7tZz2olo86POsT6kDmDp1qZOOcQEec
+HGkiDTckQU5AJLIpmwfWiyyAnTYKFYy_Kx803F5uIKHA46k3KqDrQMtnXck_s1_u3m
+}
+!procedure AwsBackintAgent($id, $name="Aws Backint Agent", $tech="")
+  IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsBackintAgent', $name, $tech)
+!endprocedure
+!procedure AwsBackintAgentCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBackintAgentMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsBackintAgentGroup($id, $name='Aws Backint Agent', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsBackintAgentLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsOrganizationsMd [14x14/16z] XOl70G813CDeaPpilo-TF3c_t3H7QkWDkNQk6mN8fXXTZ2fcq-3ykC8guHsufQlQcsyeg27lKTBGulpL0m
+sprite $AwsOrganizationsLg [20x20/16z] {
+hKpLeKDH37f2W8JzvwrU_ssFHB3vmkcgla2219qW_oZHZqyo4Y1rnaBcWc6akGGAm0MQJDMZxASjcNpMNg08B04gGejM_t2CL_bVCc5LO2CbOy7QbUf-5FU2
+4M2sCf-TEm
+}
+!procedure AwsOrganizations($id, $name="Aws Organizations", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOrganizations', $name, $tech)
+!endprocedure
+!procedure AwsOrganizationsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOrganizationsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOrganizationsGroup($id, $name='Aws Organizations', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsOrganizationsLg>', $name, $tech)
+!endprocedure
+@enduml

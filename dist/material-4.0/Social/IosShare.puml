@@ -1,0 +1,16 @@
+@startuml
+sprite $IosShareMd [14x14/16z] JSsr0S103CNGxx1v_sb3X-fU9VmHOKJkD25pa0wHesa_m8nZ_y4P2_CIUNso2n06BlkaNALTCcjT9_rLNLLM3lQN_8dE6W4F
+sprite $IosShareLg [20x20/16z] {
+bP250GCX40HnX-s_s-p5tctmmK-TKSf6PI2lLu4iL-fHUYz3BwHHlREQiDuRDUYyjryL02Hn2K3udI_h-diToi-n4aTGVqvl7TG3vzp6aSqTv7fTYabWytkp
+nmpt2yg4LkG5
+}
+!procedure IosShare($id, $name="Ios Share", $tech="")
+  IconElement($id, 'material-4.0/Social/IosShare', $name, $tech)
+!endprocedure
+!procedure IosShareCard($id, $funcName="", $content="")
+  IconCard($id, '<$IosShareMd>', '', $funcName, $content)
+!endprocedure
+!procedure IosShareGroup($id, $name='Ios Share', $tech='')
+  IconGroup($id, 'IconGroup', '<$IosShareLg>', $name, $tech)
+!endprocedure
+@enduml

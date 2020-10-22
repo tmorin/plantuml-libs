@@ -1,0 +1,16 @@
+@startuml
+sprite $EmojiPeopleMd [14x14/16z] POp50S0m30CTHblxJrjky7v2MeY1AAUcc3IWVyb5UT-gkgBMefkk0AJ90fG4tRFQVykj6ZNdKNa_AFQUkyhEPTev0G
+sprite $EmojiPeopleLg [20x20/16z] {
+XSu53e0m30NGpYtDl_zfWIssIiA7sPkIdrHEdMwRY4GLg9ULFPh0f2kCH8bPRCv0Joa5UGjZPqaT1rbWFtHGMYiRfNMgcCQeH6loZbgjXM0jHcrjhsl_UsCH
+xx1v0G
+}
+!procedure EmojiPeople($id, $name="Emoji People", $tech="")
+  IconElement($id, 'material-4.0/Social/EmojiPeople', $name, $tech)
+!endprocedure
+!procedure EmojiPeopleCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmojiPeopleMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmojiPeopleGroup($id, $name='Emoji People', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmojiPeopleLg>', $name, $tech)
+!endprocedure
+@enduml

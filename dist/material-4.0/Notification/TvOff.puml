@@ -1,0 +1,16 @@
+@startuml
+sprite $TvOffMd [14x14/16z] JSU50SH024JHmG9dG__T7l7y5NYOJDPltNG1ee2ALS9rdKHLOEoKRpURfELFcT0r-ML-ePtO-guQrgqXwzB1MoiFNVoMDxT-x5I7XHznmIDL_04
+sprite $TvOffLg [20x20/16z] {
+TSi52W0n34JHgNjp_zjkXO6rVYmy9ZYM0aO-OLSY0DNyeAOuaJ2nEbT9y3BGjYxIsyf3ZtDW7B0JqLh2VcTXMiJ6kmKGxplYouWt8xwCIBiXxOxRajAi3dIY
+LPTx0xs6YRT2beXFkU2t2m
+}
+!procedure TvOff($id, $name="Tv Off", $tech="")
+  IconElement($id, 'material-4.0/Notification/TvOff', $name, $tech)
+!endprocedure
+!procedure TvOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$TvOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure TvOffGroup($id, $name='Tv Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$TvOffLg>', $name, $tech)
+!endprocedure
+@enduml

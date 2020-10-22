@@ -1,0 +1,13 @@
+@startuml
+sprite $ViewModuleMd [14x14/16z] ZKk55KCn28mdoEFsdxRzxePpuXx31z-t3w7_6AW69Y0kdtHVEdsvrLXRJgtrHZ8h2cfcrpv0UFQrnVSz_W
+sprite $ViewModuleLg [20x20/16z] hKo30G0n3ApTtFxJlcrKmOcLFoudqfQ6OZei032-AROjResP0ynUOq99nQSYEimZmxYns9kyUyo3ODnGXZp6EL-KygS6
+!procedure ViewModule($id, $name="View Module", $tech="")
+  IconElement($id, 'material-4.0/Action/ViewModule', $name, $tech)
+!endprocedure
+!procedure ViewModuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViewModuleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViewModuleGroup($id, $name='View Module', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViewModuleLg>', $name, $tech)
+!endprocedure
+@enduml

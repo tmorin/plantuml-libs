@@ -1,0 +1,13 @@
+@startuml
+sprite $NotesMd [14x14/16z] Oo0UC75oG04d4v37mmq5FCmOAhdWW0cDXmQOUS204za6JZO6qW
+sprite $NotesLg [20x20/16z] Ow0BOET70HmWCLPkBYJ0pKgAUMnyl4Y0Zmsh60c0bHlJ6Hn8peK3HXYWLKW1
+!procedure Notes($id, $name="Notes", $tech="")
+  IconElement($id, 'material-4.0/Editor/Notes', $name, $tech)
+!endprocedure
+!procedure NotesCard($id, $funcName="", $content="")
+  IconCard($id, '<$NotesMd>', '', $funcName, $content)
+!endprocedure
+!procedure NotesGroup($id, $name='Notes', $tech='')
+  IconGroup($id, 'IconGroup', '<$NotesLg>', $name, $tech)
+!endprocedure
+@enduml

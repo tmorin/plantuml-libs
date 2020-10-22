@@ -1,0 +1,13 @@
+@startuml
+sprite $ClassMd [14x14/16z] fSS53i0m30J12oUsJ_t_QyiCegve1xSYIPkAazHIrcvCPbMW7cf0-vBKUaYc-wr4csF4hG4
+sprite $ClassLg [20x20/16z] Oy01c5bPMA606Ih4ney4s21YNFn0TIoy434kc1Y8H1TZn2B6GBGO8veODpyhBnyhkZem670npB22XoaSCECATm
+!procedure Class($id, $name="Class", $tech="")
+  IconElement($id, 'material-4.0/Action/Class', $name, $tech)
+!endprocedure
+!procedure ClassCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClassMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClassGroup($id, $name='Class', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClassLg>', $name, $tech)
+!endprocedure
+@enduml

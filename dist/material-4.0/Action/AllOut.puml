@@ -1,0 +1,16 @@
+@startuml
+sprite $AllOutMd [14x14/16z] VKnL0eH057erFUpzRxig_jYl0v1FY-vRivQtrgPrO7Z5jhdDgfeGJcYl94oXJMKRVjfYRvcQuAB-Yst9XBJcc0CvKoOZn4DqDlcq1G
+sprite $AllOutLg [20x20/16z] {
+fSsr0KH120JGMJTW-g_sREKi_4GFnxM8jSOfNskUgXIut4SDBywQ896ZAnkghbsNM5zWHy8CnpeHk4ietEhohsnROvmQj-hfDjqwfyypU3I6byJWrcf5Py-f
+qboKLMD54ZEjY5orh9hM5T66Qt47
+}
+!procedure AllOut($id, $name="All Out", $tech="")
+  IconElement($id, 'material-4.0/Action/AllOut', $name, $tech)
+!endprocedure
+!procedure AllOutCard($id, $funcName="", $content="")
+  IconCard($id, '<$AllOutMd>', '', $funcName, $content)
+!endprocedure
+!procedure AllOutGroup($id, $name='All Out', $tech='')
+  IconGroup($id, 'IconGroup', '<$AllOutLg>', $name, $tech)
+!endprocedure
+@enduml

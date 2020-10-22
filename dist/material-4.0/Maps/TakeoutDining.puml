@@ -1,0 +1,13 @@
+@startuml
+sprite $TakeoutDiningMd [14x14/16z] XSUt0S0W30J09qT9-qzBXjA-xl13fvoJncIDPXbO6mj4UI96Qwb3gIEpQTa1oK9xPQ_ivRsyb_RIdYjvA0xVEW
+sprite $TakeoutDiningLg [20x20/16z] fSx50GGn243Hk2BzLxixXjppZoy2uRonrzh3ImH-sl43w0dv2rE7zmwnHWpnHUkb2wjBVcomuMb3qqLO6sBTJEyriofMpOfOCSjYsIo9nQN5SDWV
+!procedure TakeoutDining($id, $name="Takeout Dining", $tech="")
+  IconElement($id, 'material-4.0/Maps/TakeoutDining', $name, $tech)
+!endprocedure
+!procedure TakeoutDiningCard($id, $funcName="", $content="")
+  IconCard($id, '<$TakeoutDiningMd>', '', $funcName, $content)
+!endprocedure
+!procedure TakeoutDiningGroup($id, $name='Takeout Dining', $tech='')
+  IconGroup($id, 'IconGroup', '<$TakeoutDiningLg>', $name, $tech)
+!endprocedure
+@enduml

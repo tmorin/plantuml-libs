@@ -1,0 +1,16 @@
+@startuml
+sprite $StyleMd [14x14/16z] RSS53W9050FHRl-wzVwdnHfYCB5v-5iclgLsT1FyG--QrUjvQrlbwbCsZpK1H4QJ8p0oUQs6f6Wnh8CGHwVLWSOkBEbsuXqNOzM4dvu
+sprite $StyleLg [20x20/16z] {
+bSt5eKKX54FHZJlflzglN9xRcXqDdmirSi7cASbVhEXFOojTYsMndRMdpA7llMbOehOLRJ1JXyulxw5eSm3DWzDM02jd8rtdALdMTi95of0pyamT0hJVNYMl
+peY0ATP8nkhNRzvIbScQsNB6Mh0yymq
+}
+!procedure Style($id, $name="Style", $tech="")
+  IconElement($id, 'material-4.0/Image/Style', $name, $tech)
+!endprocedure
+!procedure StyleCard($id, $funcName="", $content="")
+  IconCard($id, '<$StyleMd>', '', $funcName, $content)
+!endprocedure
+!procedure StyleGroup($id, $name='Style', $tech='')
+  IconGroup($id, 'IconGroup', '<$StyleLg>', $name, $tech)
+!endprocedure
+@enduml

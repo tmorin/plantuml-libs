@@ -1,0 +1,16 @@
+@startuml
+sprite $RvHookupMd [14x14/16z] ROx50S0m24M16ix-svR8CI-AVpY35spOpRpkRRqYhBc23ys7bb7XRhrdZ49UhpwskY5mNS3JuaxCpYw5ncfZsDPNbRBCMVScvur4jBNa2mT-
+sprite $RvHookupLg [20x20/16z] {
+XT250S0W30J0u9xVVzkIkdEu2mqfUigQ3gvaWNRgZ5Yvyqw2MjZRSQlflQiYn5a8VktpEDaMHzP6DnHj30gjR4yLkUTRdt7MESUelP01aN7uwqiuOojzkhQ6
+e84cf6zca3mY7TOzs-FpZ9MkRnC
+}
+!procedure RvHookup($id, $name="Rv Hookup", $tech="")
+  IconElement($id, 'material-4.0/Places/RvHookup', $name, $tech)
+!endprocedure
+!procedure RvHookupCard($id, $funcName="", $content="")
+  IconCard($id, '<$RvHookupMd>', '', $funcName, $content)
+!endprocedure
+!procedure RvHookupGroup($id, $name='Rv Hookup', $tech='')
+  IconGroup($id, 'IconGroup', '<$RvHookupLg>', $name, $tech)
+!endprocedure
+@enduml

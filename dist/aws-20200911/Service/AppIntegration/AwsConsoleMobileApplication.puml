@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsConsoleMobileApplicationMd [14x14/16z] FSo5aKH124NH5Pv0vv_l85Lplvwsx7n9oY_brWP41AmQE8X_XbnrOjkZlbboObGcHOHM8g0GOtMdaswzUbM5x5PT1WdyPxutPWUsZhcThjO7
+sprite $AwsConsoleMobileApplicationLg [20x20/16z] {
+RSY7ZGH0349HoMd0xh_U3MOktrU2nmqVdNVy1_dH_P29VBDuOLDLijAJVd2whrb6U8G1Q66NrxkyrclPpIPzJPtgy28-BIC2vJ3dDQ1UmS6E35c-LYJJNvrh
+CzE3QhoYWvXMLLfhcdCiDYCvCx8WtlcQaB5voeJDhMN26sKNl-m9
+}
+!procedure AwsConsoleMobileApplication($id, $name="Aws Console Mobile Application", $tech="")
+  IconElement($id, 'aws-20200911/Service/AppIntegration/AwsConsoleMobileApplication', $name, $tech)
+!endprocedure
+!procedure AwsConsoleMobileApplicationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsConsoleMobileApplicationMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+!procedure AwsConsoleMobileApplicationGroup($id, $name='Aws Console Mobile Application', $tech='')
+  IconGroup($id, 'AppIntegrationFamily', '<$AwsConsoleMobileApplicationLg>', $name, $tech)
+!endprocedure
+@enduml

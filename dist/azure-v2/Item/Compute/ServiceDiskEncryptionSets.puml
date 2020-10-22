@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDiskEncryptionSetsMd [14x14/16z] PSV50GC130InCQ-l_tx37Ft49_zRr5K02NNirT5SpI5TEv0GsalL1GRaIEgk922wUtfsDXpgjfB636Bcqfer4h38JAy5uoalIvxCmTtJqY8iIVSp
+sprite $ServiceDiskEncryptionSetsLg [20x20/16z] {
+NT25WI0n34DHISQa_uBFpYt_uJSSIH7me8Kn714Zf1bcbWblZnJnDuQz3JKHBrjZTdTLd_9dUz6vf_kyQZ4C6lkWsn_tQgMdkIpNkDVsNBYKkGRJOlLMcHw0
+mcRbKLDcLvoWcS2Sdjtkqo89rOT5TtKGOU3Q5d5l0kQQLVNoNdW8YDXe7kvING5xxtTyPlxJaCqnyQTHRoM-GGPDsDd8Vm
+}
+!procedure ServiceDiskEncryptionSets($id, $name="Service Disk Encryption Sets", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceDiskEncryptionSets', $name, $tech)
+!endprocedure
+!procedure ServiceDiskEncryptionSetsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDiskEncryptionSetsMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceDiskEncryptionSetsGroup($id, $name='Service Disk Encryption Sets', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDiskEncryptionSetsLg>', $name, $tech)
+!endprocedure
+@enduml

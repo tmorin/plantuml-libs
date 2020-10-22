@@ -1,0 +1,13 @@
+@startuml
+sprite $MailMd [14x14/16z] VSt50G0X30J0nItIVxNdBim7ukZnhMwQ1uXr8mHmD3J_oKG1I3EYQaHMdYCLRwqNdQDbh5RLBTfjdJkwHu_hFIC
+sprite $MailLg [20x20/16z] fO_L0KKX3CKExcJ_QP_BjJ-2rbij4UkEACbnm4c1LFbH4q7oH8NvrioW-DG5A5A1x_lKlUrk3FVs_-YW6SaqsEeWHTZeDgpghcTJR7L3YrhY3W
+!procedure Mail($id, $name="Mail", $tech="")
+  IconElement($id, 'homecloud/Element/Mail', $name, $tech)
+!endprocedure
+!procedure MailCard($id, $funcName="", $content="")
+  IconCard($id, '<$MailMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure MailGroup($id, $name='Mail', $tech='')
+  IconGroup($id, 'IconGroup', '<$MailLg>', $name, $tech)
+!endprocedure
+@enduml

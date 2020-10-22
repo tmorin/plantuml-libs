@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceServerFarmMd [14x14/16z] {
+LOe50i0m20DhG9Aj_VzlvteLYBHc1oNjDFDmzqjvX7gVurJcmMdIhVvDO1gzur8EIl9wI3jeRNlbLXORbfFvAQY8jgdz0630iky4I88jDTjEK9CaImV5Wmol
+QGK
+}
+sprite $ServiceServerFarmLg [20x20/16z] {
+RT350GGX44HHf8M6sVpJtIh6vHyVJihbAASPg1wLpKfLjPbgFQr5P-rYrcNyqF2BHImihckFJZFiDz1zF_tOppbl2PESDrFpcOb8BVbwXeWgxvrF4p5dAXbc
+qqYjDtSfXoaeHZWmmvXOGz4GJAQfam8ODT6OG_0v4J1Cd3ba4BlmfrcIEPDdbFG7
+}
+!procedure ServiceServerFarm($id, $name="Service Server Farm", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceServerFarm', $name, $tech)
+!endprocedure
+!procedure ServiceServerFarmCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceServerFarmMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceServerFarmGroup($id, $name='Service Server Farm', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceServerFarmLg>', $name, $tech)
+!endprocedure
+@enduml

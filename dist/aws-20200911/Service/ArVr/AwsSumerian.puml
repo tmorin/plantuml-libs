@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSumerianMd [14x14/16z] DSq74WCn24FH50GIllzz8wqdtzEU6tAypOmUtfqeTMiAd5sHG6L5GETUVOQCG8Sl8q5mn3pgPHSNL8JypRdQccDrMSTi1sJqCO-01X_PkQ3zwsRz
+sprite $AwsSumerianLg [20x20/16z] {
+RSe5ic0X34JH6j992_lVxppzVl5J-4flFFCVw1TlfpxD9W_4wWDZExQm5ZpGefZ4BTP8NJY6fCFGe3CJzO8kSncJIFRyAryMLhD4ia0yjjiXZXZLOu5YDSRc
+QniMEKrI-33HUsPhxd_xi5v9Pa81jhLFPCqUgj0-snUcWGQ5FBPpgAg4ucCFdflZnqvyycClVkf_
+}
+!procedure AwsSumerian($id, $name="Aws Sumerian", $tech="")
+  IconElement($id, 'aws-20200911/Service/ArVr/AwsSumerian', $name, $tech)
+!endprocedure
+!procedure AwsSumerianCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSumerianMd>', 'ArVr', $funcName, $content)
+!endprocedure
+!procedure AwsSumerianGroup($id, $name='Aws Sumerian', $tech='')
+  IconGroup($id, 'ArVrFamily', '<$AwsSumerianLg>', $name, $tech)
+!endprocedure
+@enduml

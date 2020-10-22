@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIoTAnalyticsPipelineMd [14x14/16z] ZSt70K0X30BGW07sd_ZtUlDTDBscKUBx4vdk7ZrCgWi2Xhk5wWPwQyFsVQFD7XsTXxtpsh89gV-5chO2
+sprite $AwsIoTAnalyticsPipelineLg [20x20/16z] hS_50GGX40H0Q8Fy8pxNTQaFEbRELe7wTs9FMdbhIQTqszZnpUrPkjr586HBollkbX0nXE-xfxhzxbRZYj3xhiKtxrx6UXwRxMmN
+!procedure AwsIoTAnalyticsPipeline($id, $name="Aws Io T Analytics Pipeline", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/AwsIoTAnalyticsPipeline', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsPipelineCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsPipelineMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsPipelineGroup($id, $name='Aws Io T Analytics Pipeline', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIoTAnalyticsPipelineLg>', $name, $tech)
+!endprocedure
+@enduml

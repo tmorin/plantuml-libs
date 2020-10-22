@@ -1,0 +1,19 @@
+@startuml
+sprite $PortableWifiOffMd [14x14/16z] {
+NOh5WGDG24JVTs47-gzsat29e6DyLwlqAzsMR8jjOzouIUM5EKln0tI_AbinQdImKqA56ULUq5X_nmjQGoJ3dVrYcHnSBvX1Zx8E76SFI9aNpOTDaehF6lpK
+0m
+}
+sprite $PortableWifiOffLg [20x20/16z] {
+ZK-5SWKm24k5Uid__-qkOwwFCmwY-6DAhHblimhIT9BqaUAKd0Nd3clJwUNj-CfgP1pJrRlJTqMX9zq6-s76FEH0uz3DBnebb0uhhYi41mwlX38tXiGh3Tp9
+XTo4iRxUC4MVZ5jm4uOYTGoMy32UXFoiUJso6APY9HtFZ1wUaRLbqQDofLSWZb5OHxTOf9dnTVBAU7YU
+}
+!procedure PortableWifiOff($id, $name="Portable Wifi Off", $tech="")
+  IconElement($id, 'material-4.0/Communication/PortableWifiOff', $name, $tech)
+!endprocedure
+!procedure PortableWifiOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$PortableWifiOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure PortableWifiOffGroup($id, $name='Portable Wifi Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$PortableWifiOffLg>', $name, $tech)
+!endprocedure
+@enduml

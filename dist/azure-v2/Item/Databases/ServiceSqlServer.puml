@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceSqlServerMd [14x14/16z] {
+DSu7ZiH024HH4wifzlxdNH2Qh-I7EuceRIhV96BNJmaWL9OFTfMDkfjL9Fiqts-beuA_Y42Uoc6qoByLwJ7bJ6I57HGmau_T98lzt5865rpI4eVAID-tcVi-
+MkRwVm
+}
+sprite $ServiceSqlServerLg [20x20/16z] {
+TP250GGW30DfazJOVzvtbyCFx_g3tNWn3e0uuNPVuoHrWhnB-4bcLLVAxIgL3Rk1s7vrUwQxghjdvkxstDaFDzNJvz9tLyseb5GPJsSgAA7Wmqsel8OCFSyh
+Yf5KiCVjkXUibh4IBCYURqdLx8aJifkxaN9zk0mi117lwn3ovUgxwPH2F5_jkCVFp6YsZW
+}
+!procedure ServiceSqlServer($id, $name="Service Sql Server", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceSqlServer', $name, $tech)
+!endprocedure
+!procedure ServiceSqlServerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSqlServerMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceSqlServerGroup($id, $name='Service Sql Server', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSqlServerLg>', $name, $tech)
+!endprocedure
+@enduml

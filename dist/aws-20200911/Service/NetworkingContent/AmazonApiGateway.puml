@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonApiGatewayMd [14x14/16z] PSc5RGG03CNGGZwc-w_ROxRmoJdcIv9oxg5wb71qT4kGHm6m6rGZ3JDNAUP5FJ_ywghLGAF0td8bH-fP-3Cid9HTYcf58aTjuDRZdBNRSnyw
+sprite $AmazonApiGatewayLg [20x20/16z] {
+RSk73GGn449HoGOpCFttUnilV-Kdy5dTQSj_qE_e4sCxDUbDEEKTavWJs0sOgAtDm0Yn3HdpC2FH4Bc6xDlysjNRZl4ob_so6XJu-kOqwil4mEPXhkxDkX0x
+UBDE3QsbeStBtcogYvq4YePtQmCyZ0Jgi5tdsctDIYxRofNtNlJ2ldh71m
+}
+!procedure AmazonApiGateway($id, $name="Amazon Api Gateway", $tech="")
+  IconElement($id, 'aws-20200911/Service/NetworkingContent/AmazonApiGateway', $name, $tech)
+!endprocedure
+!procedure AmazonApiGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonApiGatewayMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+!procedure AmazonApiGatewayGroup($id, $name='Amazon Api Gateway', $tech='')
+  IconGroup($id, 'NetworkingContentFamily', '<$AmazonApiGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

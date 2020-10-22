@@ -1,0 +1,18 @@
+@startuml
+sprite $ServerContentsMd [14x14/16z] TOw30G0W403ZQ_zzit7X3RwWGZSS91mr2n3I7HObXkLppCyOuZScp0B3oZ_SiNtwljbE1
+sprite $ServerContentsLg [20x20/16z] dP375GG1248FYWhzzxixEUT_yfc1hyY1EQCmT5XeoY5O3GpCkK0uu85LdpfMVH7cRX4t-n2L3RNEzJVMkIxMjrmVRFkaLT_AWxrNh_W3
+!procedure GroupServerContents($id, $name='Group Server Contents', $tech='')
+  IconGroup($id, 'GroupServerContents', '<$ServerContentsLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupServerContents>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

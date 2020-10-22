@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsWellArchitectedToolMd [14x14/16z] XSkr0S1G40BG0ZWX-yyR-r8chpe1Voj5xQKfSM-9myZA7a5aW8JM4u8RenoaK3MsOYP5nWZIZUps85BUEhFzxm8
+sprite $AwsWellArchitectedToolLg [20x20/16z] {
+bP255GGm24CVJOBkF--v-_rwSVelPfw-CY8Ulx33x_-4IA9klyeqanQLMPS_iCUN2E3o6I2CWZjqun0CYnbPNlue-V9fhRhQxX1T5ziYgnqYoBgah9xzLbLt
+EGlPjnHs-8SUN9YP_fyj
+}
+!procedure AwsWellArchitectedTool($id, $name="Aws Well Architected Tool", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsWellArchitectedTool', $name, $tech)
+!endprocedure
+!procedure AwsWellArchitectedToolCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWellArchitectedToolMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsWellArchitectedToolGroup($id, $name='Aws Well Architected Tool', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsWellArchitectedToolLg>', $name, $tech)
+!endprocedure
+@enduml

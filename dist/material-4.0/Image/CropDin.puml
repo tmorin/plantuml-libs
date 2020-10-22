@@ -1,0 +1,13 @@
+@startuml
+sprite $CropDinMd [14x14/16z] Oq03J2nGm0JYyFFpWG4_Fv3BmWTJnCT23nuJq7AezM37i48Snig4xcO
+sprite $CropDinLg [20x20/16z] pT0b0W0124HHd6dS_xJhxd5V_0MXxno9ISB6L3lUDvJ9mWfzon9QoDZmytQzix5Cs0fNFpZ_okcx5W
+!procedure CropDin($id, $name="Crop Din", $tech="")
+  IconElement($id, 'material-4.0/Image/CropDin', $name, $tech)
+!endprocedure
+!procedure CropDinCard($id, $funcName="", $content="")
+  IconCard($id, '<$CropDinMd>', '', $funcName, $content)
+!endprocedure
+!procedure CropDinGroup($id, $name='Crop Din', $tech='')
+  IconGroup($id, 'IconGroup', '<$CropDinLg>', $name, $tech)
+!endprocedure
+@enduml

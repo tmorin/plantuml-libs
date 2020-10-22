@@ -1,0 +1,16 @@
+@startuml
+sprite $DoneOutlineMd [14x14/16z] TSU30G1H30FGVBFD_jEUZJ8FVnND1PNrH5EhRKTL10R0RuWp2lC6F__0l0EPpd87a2QQ1Jl3Z8CCmCaTZne1
+sprite $DoneOutlineLg [20x20/16z] {
+dSx50KD124LH65TU_zKctztlyem0VSjKlIKj4BqXY9SrQi1GGbgJfe326_8etIWnuyEMk2K0PalY17f9b17R5HhkgQiWhBwVqCmFkxZ5YMRqQsenOwRvpqAx
+cEccFm
+}
+!procedure DoneOutline($id, $name="Done Outline", $tech="")
+  IconElement($id, 'material-4.0/Action/DoneOutline', $name, $tech)
+!endprocedure
+!procedure DoneOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoneOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoneOutlineGroup($id, $name='Done Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoneOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

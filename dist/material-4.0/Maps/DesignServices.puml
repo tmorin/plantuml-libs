@@ -1,0 +1,16 @@
+@startuml
+sprite $DesignServicesMd [14x14/16z] NKw30G0n34pjtlxRVl0kemFzb_FwsHk0oD_GrwDK3dm3l6Ifh3MtRuDu9HIQm5OSfviJp8jKanKjwTgPY7Uo2pDxbKDdgfJXDElAZ22-ei6zf_yw
+sprite $DesignServicesLg [20x20/16z] {
+bSq72iKm30FGB5o7AD7zR_lnA67pAvPvMAXyI9MHbxING8fVaoSHrENOo4IX5hLFRPtP64J51i5JEsTq7wALIYzwCx5EMZJ5yJZXaar7v58KPqNW9TQocPW4
+eczT74OIHLyl6e_gvElhoMbDChHNor1zruOO_PqV
+}
+!procedure DesignServices($id, $name="Design Services", $tech="")
+  IconElement($id, 'material-4.0/Maps/DesignServices', $name, $tech)
+!endprocedure
+!procedure DesignServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$DesignServicesMd>', '', $funcName, $content)
+!endprocedure
+!procedure DesignServicesGroup($id, $name='Design Services', $tech='')
+  IconGroup($id, 'IconGroup', '<$DesignServicesLg>', $name, $tech)
+!endprocedure
+@enduml

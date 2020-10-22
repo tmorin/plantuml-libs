@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsKinesisDataAnalyticsMd [14x14/16z] VKp50KDH3Aha0Ud-0pVotU24_Xx1u0euTvAWV6wAn0XKmmc899HA39aAfL96mqOrenShQmMdnjViMqh1zVCUVm
+sprite $AwsKinesisDataAnalyticsLg [20x20/16z] {
+fO_70SGm20GVsW5Mz5_lvO3zzIYIOLyZzuwJggbMzL5Psbu-AZjbGpr-_RLK6pA1YAXF3QKh02HzgpbHjgioqqCNF0bYn1P-Vc7KABepMHgz18I4zEzPrdfN
+dhCjFVd6nclprh6lSGS
+}
+!procedure AwsKinesisDataAnalytics($id, $name="Aws Kinesis Data Analytics", $tech="")
+  IconElement($id, 'aws-20200430/Item/Analytics/AwsKinesisDataAnalytics', $name, $tech)
+!endprocedure
+!procedure AwsKinesisDataAnalyticsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsKinesisDataAnalyticsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsKinesisDataAnalyticsGroup($id, $name='Aws Kinesis Data Analytics', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsKinesisDataAnalyticsLg>', $name, $tech)
+!endprocedure
+@enduml

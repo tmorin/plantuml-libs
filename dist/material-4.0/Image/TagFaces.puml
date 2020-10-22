@@ -1,0 +1,16 @@
+@startuml
+sprite $TagFacesMd [14x14/16z] PKx50S0m23oaXku_RJsluCvX8hK8ap-nzctpjYyfUXpLyOmrypqbpArtor01H3uHOeK-FSKMR_RJaxd1AgAETrAREBlpkV9_e5lA_k-shhSPo3pJ5HDT
+sprite $TagFacesLg [20x20/16z] {
+VP05ZWCn34M_AHgA__rlknkxLIgQ9p0ZNb1tnIzo9F_9G_35alCOuvXCG-FaG378TagMKXYpoWy6pCfZ63oMbXDIDKOAPc9fnohNfKt1iJHd0AArewmnthvD
+-ResFbHjpy1ayQ1cz2xwb4iGF7hdL23EC_RES6QWYAIZyVq3n_uLzwysvcvuuGy
+}
+!procedure TagFaces($id, $name="Tag Faces", $tech="")
+  IconElement($id, 'material-4.0/Image/TagFaces', $name, $tech)
+!endprocedure
+!procedure TagFacesCard($id, $funcName="", $content="")
+  IconCard($id, '<$TagFacesMd>', '', $funcName, $content)
+!endprocedure
+!procedure TagFacesGroup($id, $name='Tag Faces', $tech='')
+  IconGroup($id, 'IconGroup', '<$TagFacesLg>', $name, $tech)
+!endprocedure
+@enduml

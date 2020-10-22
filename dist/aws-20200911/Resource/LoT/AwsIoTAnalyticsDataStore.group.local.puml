@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200911 bootstrap
+include('aws-20200911/bootstrap')
+' loads the AwsIoTAnalyticsDataStore element
+include('aws-20200911/Resource/LoT/AwsIoTAnalyticsDataStore')
+AwsIoTAnalyticsDataStoreGroup('aws_io_t_analytics_data_store', 'Aws Io T Analytics Data Store', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

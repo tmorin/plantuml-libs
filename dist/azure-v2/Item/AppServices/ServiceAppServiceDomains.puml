@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAppServiceDomainsMd [14x14/16z] LSU50GH124FH2P-CqN-zvxVoq4XnK8CyeAhX_k5HlSeaBubhp2lVS4-PY21UJM8hlY5atDEl-goEh-XNn9NQpHC
+sprite $ServiceAppServiceDomainsLg [20x20/16z] {
+ZSw5WKGn20HGO0PY_VTxaLlx_k8AyfJQbY9g-LN3SolubblsjDahBNF_De6nHODluMHl58BJN1bf442jwyFQyBvMmZhs6NpiKLsTwFgex7lqhRuNcwtWSSwn
+1H7TaYD_
+}
+!procedure ServiceAppServiceDomains($id, $name="Service App Service Domains", $tech="")
+  IconElement($id, 'azure-v2/Item/AppServices/ServiceAppServiceDomains', $name, $tech)
+!endprocedure
+!procedure ServiceAppServiceDomainsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAppServiceDomainsMd>', 'AppServices', $funcName, $content)
+!endprocedure
+!procedure ServiceAppServiceDomainsGroup($id, $name='Service App Service Domains', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAppServiceDomainsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MusicNoteMd [14x14/16z] ROl50G0W08JiLlRVrfSjlml43wsDN0a8ApNmAs6bd46YnSQMfBLj9bc1cJnxSW1gUXcyMEYrx7G
+sprite $MusicNoteLg [20x20/16z] fSi53i0W40LHt67kVzfQb7hBRFHbl_YS3yljZ3NPMpinABNijta78oQLt5k0IjeJxAoUM3knl9djJDNzsv9qmOZFpG
+!procedure MusicNote($id, $name="Music Note", $tech="")
+  IconElement($id, 'material-4.0/Image/MusicNote', $name, $tech)
+!endprocedure
+!procedure MusicNoteCard($id, $funcName="", $content="")
+  IconCard($id, '<$MusicNoteMd>', '', $funcName, $content)
+!endprocedure
+!procedure MusicNoteGroup($id, $name='Music Note', $tech='')
+  IconGroup($id, 'IconGroup', '<$MusicNoteLg>', $name, $tech)
+!endprocedure
+@enduml

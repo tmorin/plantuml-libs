@@ -1,0 +1,13 @@
+@startuml
+sprite $DeviceThermostatMd [14x14/16z] PSc53G0X5C1GN4l-_jEU2zBeIzMQgTNyghJoYv3f57iHKYzgfoRIFYGvYjtg9gTu5Ku5zH4-TEq
+sprite $DeviceThermostatLg [20x20/16z] VS-r0SKm5CNGHudPT_zfFqECAaydscKsK09IHoUynz6QXqRurXn4UlEGSs9-DERHIXaDw4pnIg-MtvOl9FWaUwFwfjAilUsa0HsriHdJfZi
+!procedure DeviceThermostat($id, $name="Device Thermostat", $tech="")
+  IconElement($id, 'material-4.0/Device/DeviceThermostat', $name, $tech)
+!endprocedure
+!procedure DeviceThermostatCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeviceThermostatMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeviceThermostatGroup($id, $name='Device Thermostat', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeviceThermostatLg>', $name, $tech)
+!endprocedure
+@enduml

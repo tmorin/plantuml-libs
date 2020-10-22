@@ -1,0 +1,16 @@
+@startuml
+sprite $SaaSEventBusResource64SquidMd [14x14/16z] ROv94aGn248Ve7Po_mjtMTb-LoeZ496W0407cpHlH1K2K4EcQWfQsFS8-5qPq7YnZA2qt9dbgTwLl6kPK0NBn9fMeXw5vRdFQIyNGDY8hsPwBWB-
+sprite $SaaSEventBusResource64SquidLg [20x19/16z] {
+RP070WGX20C9YYJk__zxQxi-zi5kDy1THPpUn7MSt0vHLbk6Vr79QeSskg5qJyK8DZFGovKxVbKGiojc7Mt9hhESGAfMqS6NCuCqwkb6bwyxSmI7_t2RlowE
+Y-L0Hog62oMSsEz0O-zisEyuHCpc_x_y_xz___m
+}
+!procedure SaaSEventBusResource64Squid($id, $name="Saa S Event Bus Resource64 Squid", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/SaaSEventBusResource64Squid', $name, $tech)
+!endprocedure
+!procedure SaaSEventBusResource64SquidCard($id, $funcName="", $content="")
+  IconCard($id, '<$SaaSEventBusResource64SquidMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure SaaSEventBusResource64SquidGroup($id, $name='Saa S Event Bus Resource64 Squid', $tech='')
+  IconGroup($id, 'IconGroup', '<$SaaSEventBusResource64SquidLg>', $name, $tech)
+!endprocedure
+@enduml

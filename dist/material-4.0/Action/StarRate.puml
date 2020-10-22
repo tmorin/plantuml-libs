@@ -1,0 +1,16 @@
+@startuml
+sprite $StarRateMd [14x14/16z] RKk50G0X2BIbsN_QxtxFWAimG8nFrlkJ2J-3RaSqvPoQUrldmiGFI5fTs0aSjRQI5Wx0qmhglRiUf5ZPleEbzKy7Us06
+sprite $StarRateLg [20x20/16z] {
+bS_L0SCW543H9BZU_QUjuV1Ld8E-wzyavMdUdPRIGGAUtGoOtIA4CRF1Uny0VWFxjISmfN2NdNgGxiUVM2JEJwjYQWcYc9_epX0YvCaaVA9r88SvLBdL3VDF
+wOMVxZi6Hte3
+}
+!procedure StarRate($id, $name="Star Rate", $tech="")
+  IconElement($id, 'material-4.0/Action/StarRate', $name, $tech)
+!endprocedure
+!procedure StarRateCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarRateMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarRateGroup($id, $name='Star Rate', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarRateLg>', $name, $tech)
+!endprocedure
+@enduml

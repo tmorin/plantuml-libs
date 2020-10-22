@@ -1,0 +1,16 @@
+@startuml
+sprite $ScreenLockPortraitMd [14x14/16z] TOw30G0n34M36ldxJtisNX63Y3GiACsmOS5ujWJMRRgGnRAdK3qjbX243okM6a-h0lN74l7-hBi9z0N8UpFI62RYlFK8
+sprite $ScreenLockPortraitLg [20x20/16z] {
+XT054W0X241HnExxdtPxxVXJpfiGW3jCmP-8AV6Rp-O6vfC5f4yOiirUZ7Kcj1QjQOAwiW0iU1zORIfUAGWxaxV9sWY_8jD9qsxuhFRjDhx1sEJWfe3q2-7k
+1
+}
+!procedure ScreenLockPortrait($id, $name="Screen Lock Portrait", $tech="")
+  IconElement($id, 'material-4.0/Device/ScreenLockPortrait', $name, $tech)
+!endprocedure
+!procedure ScreenLockPortraitCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScreenLockPortraitMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScreenLockPortraitGroup($id, $name='Screen Lock Portrait', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScreenLockPortraitLg>', $name, $tech)
+!endprocedure
+@enduml

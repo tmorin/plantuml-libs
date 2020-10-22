@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServicePowerUp element
+include('azure-v2/Item/General/ServicePowerUp')
+ServicePowerUp('service_power_up', 'Service Power Up', 'an optional tech field')
+@enduml

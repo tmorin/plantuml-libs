@@ -1,0 +1,16 @@
+@startuml
+sprite $AddLocationMd [14x14/16z] PSc53GGn0CJ03NFSVxKFnp12otenkVTazXZyZ2qhn0XrNOpgN1sOjPhvQMjfG0WmfByCjK9Uo_8thLRfNqcx3bq72rQd4AItBm
+sprite $AddLocationLg [20x20/16z] {
+VSzL0eHG241HGAPuSVU_scbiFPyqSiBSRHKfl9LvrFaR96a7t86c6RlnPiRRDME57aMrHATah1Bo5TIJklcyMyQCt8j9Alo5Z8RvpUdn2praHZlvnUfZbwKx
+t6Mj5DbGbJCl
+}
+!procedure AddLocation($id, $name="Add Location", $tech="")
+  IconElement($id, 'material-4.0/Maps/AddLocation', $name, $tech)
+!endprocedure
+!procedure AddLocationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddLocationMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddLocationGroup($id, $name='Add Location', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddLocationLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $DeckMd [14x14/16z] RKu53e0022I7U1ly_xTsIpT7FnHnnO9ko9vuzKpbHsEXhIrkfe2Q-J6SUGJ3RCPnDaFE6OuCS-ODS2O3RKJMsPgfirkoebgoufep1KCYP7RwmZi1
+sprite $DeckLg [20x20/16z] {
+VSy55iGW30JGG86WoVrFYzlgrERzjWZyYn0Vf8ZK6pckiRSyYNlYimbvnyoFufRzAJgqrY9HVpW39odj-jL4nDimjhLpk2rolzDj5CSMWWyQY43NmgwPxTkg
+jbetAHcR8Sjd6B8GrL9ghRxjtpNh_tRhtqaDe2KejThN5
+}
+!procedure Deck($id, $name="Deck", $tech="")
+  IconElement($id, 'material-4.0/Social/Deck', $name, $tech)
+!endprocedure
+!procedure DeckCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeckMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeckGroup($id, $name='Deck', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeckLg>', $name, $tech)
+!endprocedure
+@enduml

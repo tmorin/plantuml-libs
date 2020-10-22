@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsApiGatewayEndpointMd [14x14/16z] ROxL0KDH34BXHEx-4xVFdRy4rOHSe1KT1aSlHs4aJA_7AAd6V6QuF5yk8jE9vakavyjgAFdxAccxWalAsG1zQtylkwx-0m
+sprite $AwsApiGatewayEndpointLg [20x20/16z] {
+VL050iGW32kfxlx_u0lCjHD21AcCWeAbaBsyObJvJkMACXOGfBG3RHAnkbfE7KtPw5oeKiweQ4721KKACdESDIbeYBkiNCUX86SxP-ImSgQgdzmz-xn72Ovd
+WV1relNC66TUB_8RTwksTY58MWSsUd3lrNjFxxt_0m
+}
+!procedure AwsApiGatewayEndpoint($id, $name="Aws Api Gateway Endpoint", $tech="")
+  IconElement($id, 'aws-20200430/Item/Mobile/AwsApiGatewayEndpoint', $name, $tech)
+!endprocedure
+!procedure AwsApiGatewayEndpointCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsApiGatewayEndpointMd>', 'Mobile', $funcName, $content)
+!endprocedure
+!procedure AwsApiGatewayEndpointGroup($id, $name='Aws Api Gateway Endpoint', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsApiGatewayEndpointLg>', $name, $tech)
+!endprocedure
+@enduml

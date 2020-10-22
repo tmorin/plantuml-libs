@@ -1,0 +1,18 @@
+@startuml
+sprite $ServiceVirtualNetworksMd [14x14/16z] bKm50G0m21jE_y9N2C2LAIRBxRxc7mJTZ-90VQ1X1iIX1XL4c1xvXjx0BDqcTtgmGN_CcAmD
+sprite $ServiceVirtualNetworksLg [20x20/16z] jOz50i0W40EpXlp_mqLIlTMc4fX5yGjwI9AAZ9IITkLiUKaoYbG7sLI0K7fJeg7GC8YRD9cRHrI7ru3cD9PoLrYqRuw3kWFQv0vx32hRQxiYvhp7SHcvv7CM
+!procedure GroupNetwork($id, $name='Group Network', $tech='')
+  IconGroup($id, 'GroupNetwork', '<$ServiceVirtualNetworksLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupNetwork>> {
+  StereotypeFontColor $AZURE_BLUE
+  BorderThickness 1
+  BorderColor $AZURE_BLUE
+  BorderStyle dotted
+  FontStyle none
+  FontColor $AZURE_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

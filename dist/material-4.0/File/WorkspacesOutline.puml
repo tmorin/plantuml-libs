@@ -1,0 +1,16 @@
+@startuml
+sprite $WorkspacesOutlineMd [14x14/16z] RKp50S0m42Bkn_xRzjDupWN0munPbaIciLXgJTit9u2C3LMaOfhtGo-OsHmRtMWr8jRP4j9iHYXcD2YhCDjg7m
+sprite $WorkspacesOutlineLg [20x20/16z] {
+bO_50KCn34CLuyTe_sdBuEJKlfFP4lv4CcGgEKdwK6hiPhstMZC64BInbi12HUNaklAOtXxa8PYGiI9jZcGdTncZutM-HCRb9QD6_fBxZHfFrSvM8yJBVeqW
+cO8I_SmL
+}
+!procedure WorkspacesOutline($id, $name="Workspaces Outline", $tech="")
+  IconElement($id, 'material-4.0/File/WorkspacesOutline', $name, $tech)
+!endprocedure
+!procedure WorkspacesOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$WorkspacesOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure WorkspacesOutlineGroup($id, $name='Workspaces Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$WorkspacesOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

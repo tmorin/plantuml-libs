@@ -1,0 +1,16 @@
+@startuml
+sprite $DoNotTouchMd [14x14/16z] LSg53S0m34JHQqDcxpzj6N_mISPHdN4sxpk8-g4W63cxjBQfv40BDb75HNk4ccDgVWkU0ngng_7ikT5IDesCp9r-J5BcmMdWIvpnIRf8RcOQC_wj
+sprite $DoNotTouchLg [20x20/16z] {
+VO-55SCm30M50PFstxQ_ORwWxmbfXUc6H29RFJjUdMeKXPuPeoV-YsoHAUaKLo2jME1EZj1D2e8Mjyg1v1YtHleQjw21IFQhWyIxBixG8G2wupqvQL6708Yq
+jiJr0HQvhJ8Sf8_RUYjOanxaHlgM7MsO_p4PcHxv0G
+}
+!procedure DoNotTouch($id, $name="Do Not Touch", $tech="")
+  IconElement($id, 'material-4.0/Places/DoNotTouch', $name, $tech)
+!endprocedure
+!procedure DoNotTouchCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoNotTouchMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoNotTouchGroup($id, $name='Do Not Touch', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoNotTouchLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTCertificateManagerMd [14x14/16z] NKs50S0W32FM_NynCZUiqJO_U7venwSGOBGFp066-mdjCkGmXPd6jZ2wDg9I5IukGInprsVEt7s_p5_VFfOzXsjQt3DLKhwcXMlF6
+sprite $IoTCertificateManagerLg [20x20/16z] {
+PKy3iWHH46i4i_S_yCV3Zb9A1OsOo0OwumgPtRHE9Or9u6_KjLbv4I9Y--2AHKixwvbdkgCE2ChGy1gm6KqG1lgYbKYQ75gfHhVh3wiRpdD7hcEWynPX4yO2
+TRwhaKifJk3G7mx4LKDK1PvQvajh6m_jmmX-RbhM-6XT-Gi
+}
+!procedure IoTCertificateManager($id, $name="Io T Certificate Manager", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTCertificateManager', $name, $tech)
+!endprocedure
+!procedure IoTCertificateManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTCertificateManagerMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTCertificateManagerGroup($id, $name='Io T Certificate Manager', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTCertificateManagerLg>', $name, $tech)
+!endprocedure
+@enduml

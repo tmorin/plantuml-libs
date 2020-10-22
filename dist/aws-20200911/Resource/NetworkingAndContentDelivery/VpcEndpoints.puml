@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcEndpointsMd [14x14/16z] HSx50GCm30J1bG-Kz5zm6EPbYm56YVZ8-XolUQePUqY1XBuGCujR9pMBWbQ3BoAobFYQy_Z9prz_lrUbX-opacMsSZeiEBWF8GOQZdr8UVB_ifVVrNS
+sprite $VpcEndpointsLg [20x20/16z] {
+RL05WiH02CC9_V-33pdVJJkI34wVO16ct-308dvaUuv8FFOfHV6OZixbPrL42hW3IbHZoMsLK8qGHPACKmGHD66EL3JtvgrdDfaZYGJ4mzoCmUtIMXi9E3mY
+_AalJTvfv-l6JVFJj-KclcN3DiVLOcd5N7rSBJmcPGQOLflLLszSOHRxgZJOO9RZA3k3imoPKtAj3knOV1gzc_q7
+}
+!procedure VpcEndpoints($id, $name="Vpc Endpoints", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcEndpoints', $name, $tech)
+!endprocedure
+!procedure VpcEndpointsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcEndpointsMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure VpcEndpointsGroup($id, $name='Vpc Endpoints', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$VpcEndpointsLg>', $name, $tech)
+!endprocedure
+@enduml

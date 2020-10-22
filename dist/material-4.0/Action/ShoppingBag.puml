@@ -1,0 +1,13 @@
+@startuml
+sprite $ShoppingBagMd [14x14/16z] fSc53S0m50FHCEVV_jEMkUASo4zM_rnhxe8cHlInOrrLukQCLAX2NbN81aocx3g-GqT3yhrjTQS-pG
+sprite $ShoppingBagLg [20x20/16z] nOl50GKX34IpWaEc_sg_udRTTuYCq8RZldlfOe2lLcD8YT180ef8eTIlm03uDqBiMu0jns6ovlAmbURZA1e2uiXQvd5DrfgaFvV8NBJW3G
+!procedure ShoppingBag($id, $name="Shopping Bag", $tech="")
+  IconElement($id, 'material-4.0/Action/ShoppingBag', $name, $tech)
+!endprocedure
+!procedure ShoppingBagCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShoppingBagMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShoppingBagGroup($id, $name='Shopping Bag', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShoppingBagLg>', $name, $tech)
+!endprocedure
+@enduml

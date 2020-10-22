@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCacheMd [14x14/16z] JOx50K0n24CXKjr_tk_ITqCYcU09uYIJb9Qfr5gKrzYRU5BQESqvBkOwDGl8Tp9SZNocUjx4VwAyJ5Wd1CrnZFyDBBMrMYp9kDj5u21Z1m
+sprite $ServiceCacheLg [20x20/16z] {
+TT055iGm30FHM993U__xhkjNXYd_Sif7jdOIa998mbOn17WKl5vA0cezgegzDBNfX4LWdMsrtvmZc_EmmBNkgsqqQhuTTh8kgDOgsCbSxddboQex0Rgk9ieV
+XeS9Hjsj53oC9eyp7EkFZCMOLa1lhRTMSxp2k8vX52ioT_u
+}
+!procedure ServiceCache($id, $name="Service Cache", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCache', $name, $tech)
+!endprocedure
+!procedure ServiceCacheCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCacheMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCacheGroup($id, $name='Service Cache', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCacheLg>', $name, $tech)
+!endprocedure
+@enduml

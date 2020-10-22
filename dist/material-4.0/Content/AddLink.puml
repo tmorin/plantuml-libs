@@ -1,0 +1,16 @@
+@startuml
+sprite $AddLinkMd [14x14/16z] dSkr0S1030D0sNh6_QSDGnMynYZyvchjrlPQtJnqHugGKmCK1yO9uSi-fMYhBfzMLQ1sIaoZRsrAbDvxna6RuYHHS6i4
+sprite $AddLinkLg [20x20/16z] {
+lSu55WCn20JGYOS8tF-sdJfldrVsnnLmbaZF_gwgKOn6MW5gjbgjZHFsspX1i0bdMG2oPNQwIJahNFezotCX7D_k3HUZ1iJUL5kFxrmIlxefFcUak3KcFBd_
+ZaJmfGi
+}
+!procedure AddLink($id, $name="Add Link", $tech="")
+  IconElement($id, 'material-4.0/Content/AddLink', $name, $tech)
+!endprocedure
+!procedure AddLinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddLinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddLinkGroup($id, $name='Add Link', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddLinkLg>', $name, $tech)
+!endprocedure
+@enduml

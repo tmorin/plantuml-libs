@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEc2R4InstanceMd [14x14/16z] PKw50S0m28l1_n_FjSMT0135JOIDc4fjaZO1Us_jJHiguYAM43rPZXujc7kF4LHH4moFh9FsdXsJt7MwCdwmUP4z8FkZNW4
+sprite $AwsEc2R4InstanceLg [20x20/16z] {
+RL250G11258GRl-9l_lbmivOW0nUtm4X7CNzsr2oDQwlDYz6tg0YKCvu85q0lpeYGc-T8kYnwe1LNjymTp-u51ov--tv82gbtFCTEXjbyra3bSeqNZKkh3Mw
+NhgUkzcQ7JIxwdVQxNu6
+}
+!procedure AwsEc2R4Instance($id, $name="Aws Ec2 R4 Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2R4Instance', $name, $tech)
+!endprocedure
+!procedure AwsEc2R4InstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2R4InstanceMd>', 'Compute/Instance', $funcName, $content)
+!endprocedure
+!procedure AwsEc2R4InstanceGroup($id, $name='Aws Ec2 R4 Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2R4InstanceLg>', $name, $tech)
+!endprocedure
+@enduml

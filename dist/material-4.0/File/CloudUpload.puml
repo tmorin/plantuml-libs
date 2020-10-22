@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudUploadMd [14x14/16z] XSnL0iGW40FGu4xkVzlDREslVJWZ-99QIpYvIPaEnkknDpaWdHA2jWXKAXA0O56dZJq2iTk5PWAJPXpzZhxRRpuoVEsNY3S_
+sprite $CloudUploadLg [20x20/16z] {
+fSl50GCn34JHRsQh_se34uRRFgE8utpfhNZULPFAIxUxnfrJrzxNEoFD98JhFRcQ9X6YfYCKPNO025jPbdB5Et0-AxZUaY3Tlsl_vgp_wVEFpvph_Yt4RPyw
+u4f_qnA7d04
+}
+!procedure CloudUpload($id, $name="Cloud Upload", $tech="")
+  IconElement($id, 'material-4.0/File/CloudUpload', $name, $tech)
+!endprocedure
+!procedure CloudUploadCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudUploadMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudUploadGroup($id, $name='Cloud Upload', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudUploadLg>', $name, $tech)
+!endprocedure
+@enduml

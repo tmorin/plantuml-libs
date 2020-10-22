@@ -1,0 +1,16 @@
+@startuml
+sprite $MotionPhotosPausedMd [14x14/16z] PKs50S0W30iErV-ldVlgck0lGuNINfQErXexxGlVKhInvO0SOqRqlAmgeBKgG0He0sJhcgpLisDwNcQF3nIGnPrX9oIdMfU0NJAhSiPFPW
+sprite $MotionPhotosPausedLg [20x20/16z] {
+VP3L0S0m24GF0gbp-qzRTti_kEA7PAOtLysHA0KhMYTOvRdi66drLMnNBPEhqxgCbSGGRAW3hbDcEPSQW98Yizd5b3whnUGhvg02HZ_dPTgRxxqMqTrdJAOV
+k_YoYmJriRCn73CUD2nOi2lTfnyODgJa-glxJnD-6
+}
+!procedure MotionPhotosPaused($id, $name="Motion Photos Paused", $tech="")
+  IconElement($id, 'material-4.0/Image/MotionPhotosPaused', $name, $tech)
+!endprocedure
+!procedure MotionPhotosPausedCard($id, $funcName="", $content="")
+  IconCard($id, '<$MotionPhotosPausedMd>', '', $funcName, $content)
+!endprocedure
+!procedure MotionPhotosPausedGroup($id, $name='Motion Photos Paused', $tech='')
+  IconGroup($id, 'IconGroup', '<$MotionPhotosPausedLg>', $name, $tech)
+!endprocedure
+@enduml

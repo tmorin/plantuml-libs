@@ -1,0 +1,13 @@
+@startuml
+sprite $GolfCourseMd [14x14/16z] dOa53W0n0CAO6ml_V-svNtIDGOi_oJzVKtNF9yNhyTLOy81fv5cmUGCRrvEKkYGJPTTKsDaIuF1X1W
+sprite $GolfCourseLg [20x20/16z] hSwr0S0m34JHCvDW_sd3J5L--GmItZCFbYNSJPN3tGQD3nQkHjUtIUF337kpz63vTtDdY7amfZ9m4RVS4Lzrp46MtLtJASc0JrWopWVly5KF
+!procedure GolfCourse($id, $name="Golf Course", $tech="")
+  IconElement($id, 'material-4.0/Places/GolfCourse', $name, $tech)
+!endprocedure
+!procedure GolfCourseCard($id, $funcName="", $content="")
+  IconCard($id, '<$GolfCourseMd>', '', $funcName, $content)
+!endprocedure
+!procedure GolfCourseGroup($id, $name='Golf Course', $tech='')
+  IconGroup($id, 'IconGroup', '<$GolfCourseLg>', $name, $tech)
+!endprocedure
+@enduml

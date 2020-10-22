@@ -1,0 +1,16 @@
+@startuml
+sprite $StackMd [14x14/16z] ROg50G0X24M1IvFzfxLRdm4_uC3t3K8ooxgJuO2X95ukl57fgZH412T44WyyKOIHcXR9Ma9Rcy5zIZDk_yylL68JEeXmm0C
+sprite $StackLg [20x20/16z] {
+bP254S1040BVVOx-kqtUuxBZfm1xWlDJIH99jiTWnUnA7WK_AoAXaKGhASA0LBsE7V8yf-_l2Tx_1iP5BULkqoSIQj7bRzb7lkoc69lzsYQbFucSXtnaPoub
+-7C8vXoMP7zP
+}
+!procedure Stack($id, $name="Stack", $tech="")
+  IconElement($id, 'homecloud/Element/Stack', $name, $tech)
+!endprocedure
+!procedure StackCard($id, $funcName="", $content="")
+  IconCard($id, '<$StackMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure StackGroup($id, $name='Stack', $tech='')
+  IconGroup($id, 'IconGroup', '<$StackLg>', $name, $tech)
+!endprocedure
+@enduml

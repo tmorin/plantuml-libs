@@ -1,0 +1,16 @@
+@startuml
+sprite $WbIncandescentMd [14x14/16z] TOs30K1134EBCvhzf_qsth5AQ8P5c0ugqFwYTeqA9ieME2ouwUkXSOsY8aYWi4RJHsOtcmFR7RK3NJV5IYGocUOvyZeTFtNumx7G1TuaHW
+sprite $WbIncandescentLg [20x20/16z] {
+dSlL0GH120FG0EC3c_whFNU_VPyHl9TzJY-uqxZJLcNY-ym5Dvm7_lYyUPi9WYSECOEI6JnRa4cLKlMw2sWjWhtEauuBNKvNmPN5uMdNm1MIUy-0pLCycN2I
+E4-xGpJ68LJSYC2Jtl795W
+}
+!procedure WbIncandescent($id, $name="Wb Incandescent", $tech="")
+  IconElement($id, 'material-4.0/Image/WbIncandescent', $name, $tech)
+!endprocedure
+!procedure WbIncandescentCard($id, $funcName="", $content="")
+  IconCard($id, '<$WbIncandescentMd>', '', $funcName, $content)
+!endprocedure
+!procedure WbIncandescentGroup($id, $name='Wb Incandescent', $tech='')
+  IconGroup($id, 'IconGroup', '<$WbIncandescentLg>', $name, $tech)
+!endprocedure
+@enduml

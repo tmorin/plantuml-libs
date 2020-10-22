@@ -1,0 +1,16 @@
+@startuml
+sprite $FormatColorFillMd [14x14/16z] NSc54SKW0C3Gu0xxJ_kbnNFwBe3CWgrKTfhsSC2cAXOWzYjR44hAcX-9qfu2OZ7W4uC1KPjwA4i0KXPSQJFJaDiiN_e2
+sprite $FormatColorFillLg [20x20/16z] {
+ZSw53K0X54FHuaxtd_QxApVsSb2CwOHRZeseU4F56fYkkpGyqvMmudfGJeFTqJ675CSgvM8YSyr3YWjweFZJpf4ygNQS28Lqs76QtVI75PTnVUEUC9U6dOQN
+JBFr
+}
+!procedure FormatColorFill($id, $name="Format Color Fill", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatColorFill', $name, $tech)
+!endprocedure
+!procedure FormatColorFillCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatColorFillMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatColorFillGroup($id, $name='Format Color Fill', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatColorFillLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BabyChangingStationMd [14x14/16z] ROl50SKm34DZAvpOsd_QZ-NsdOJXGzAmapaE3bQENJmDQIN9uWP7deQ_KJAb3gq_1r8BHtLDY_j-UwR-dQ1K8FyxwJHpTooT_lXsDYKyymO
+sprite $BabyChangingStationLg [20x20/16z] {
+XSx50KHH24FHyEmRSFklTjprBD7efEZDZDjh3UYljOKmlIfwjUHINqgT0-_jiRv2BC2g6qkOPQtNvzKoqYUDBBV0f4QIjb0k2IO8IS51sMYNkMDj0To2yL1J
+QyraJRVQo73t28_nMClCY61SVhWUtEPUbDwR_je3
+}
+!procedure BabyChangingStation($id, $name="Baby Changing Station", $tech="")
+  IconElement($id, 'material-4.0/Places/BabyChangingStation', $name, $tech)
+!endprocedure
+!procedure BabyChangingStationCard($id, $funcName="", $content="")
+  IconCard($id, '<$BabyChangingStationMd>', '', $funcName, $content)
+!endprocedure
+!procedure BabyChangingStationGroup($id, $name='Baby Changing Station', $tech='')
+  IconGroup($id, 'IconGroup', '<$BabyChangingStationLg>', $name, $tech)
+!endprocedure
+@enduml

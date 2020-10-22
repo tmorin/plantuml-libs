@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElastiCacheForMemcachedMd [14x14/16z] NOo50SCm30JrQ7V_WSkKd1ZdG9k7F5tBzSnU7RhcHe9DrP6dUG0haTFdWpmgv8EHhfR4aEskwdgR5pLBCnEcZJ9FueZnfn9d-9aXJp1dRW
+sprite $AwsElastiCacheForMemcachedLg [20x20/16z] {
+TSW7OWGn20D06I69TVx_t_WslTpGmJzAVrHsdt6gJzth3gmuIkpaNWqaGYvY1hm29OWesBMwrx8XAYaQvKmoSK6if2WCSUDy_5BxR6iLjIlt3sRQEToXLyMq
+6BmBvUFQmws-08UxhxszM5M1NeWTf4Wk73MG7p25TsjBtIbpBxohGBf72k_MdCAZPk53ZzKjJ-CRwY2UUmK
+}
+!procedure AwsElastiCacheForMemcached($id, $name="Aws Elasti Cache For Memcached", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsElastiCacheForMemcached', $name, $tech)
+!endprocedure
+!procedure AwsElastiCacheForMemcachedCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElastiCacheForMemcachedMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsElastiCacheForMemcachedGroup($id, $name='Aws Elasti Cache For Memcached', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElastiCacheForMemcachedLg>', $name, $tech)
+!endprocedure
+@enduml

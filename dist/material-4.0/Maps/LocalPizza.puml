@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalPizzaMd [14x14/16z] RSl50SGm00InCREt_seFmud-uYRKtclWnmtz30UOgK3NnpH0awFge_9XDRk-B5zPAaNA_1WD6D_ranIZ4giX3JP12knwvy0v7hm1
+sprite $LocalPizzaLg [20x20/16z] {
+bSu30i0m343H54Fvxt_QsTwhcSWzPQmrIZQiptIoDyiTpyAFTtK2fnsZfALZ8NL3OcIbvybAL6RWPA0XLf6Hbb7Debu2PyZMzlsQOWdbrAyYbKXDb0qBpe6L
+hK0do8wXOsJFBUck52WvgclvgmK
+}
+!procedure LocalPizza($id, $name="Local Pizza", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalPizza', $name, $tech)
+!endprocedure
+!procedure LocalPizzaCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalPizzaMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalPizzaGroup($id, $name='Local Pizza', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalPizzaLg>', $name, $tech)
+!endprocedure
+@enduml

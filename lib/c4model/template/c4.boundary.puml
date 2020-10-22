@@ -1,0 +1,7 @@
+@startuml
+
+!procedure {{= it.entry.element.name }}($id, $name, $tech="")
+    C4Boundary('{{= it.entry.element.label }}', $id, $name, $tech)
+!endprocedure
+
+@enduml

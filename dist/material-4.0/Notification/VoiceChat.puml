@@ -1,0 +1,13 @@
+@startuml
+sprite $VoiceChatMd [14x14/16z] TSsr0S0m40J1C_v9UkY_MZF3PXCjxlLwr0CQHpgh24KyR1KnLLgvgC9LxKsMkCgAgdhugliXpGTIs016NEhmsmW
+sprite $VoiceChatLg [20x20/16z] dSYr0GKX50J0nU7Bs_whFSU9RiB1adOTVPQm8qSw3bnpqfzM1tWoI3c5awC1XzCQQhZ3VDRFvnXGpxk3ZUGtNsTzTZpX5zT5g0hNHOnSmbix
+!procedure VoiceChat($id, $name="Voice Chat", $tech="")
+  IconElement($id, 'material-4.0/Notification/VoiceChat', $name, $tech)
+!endprocedure
+!procedure VoiceChatCard($id, $funcName="", $content="")
+  IconCard($id, '<$VoiceChatMd>', '', $funcName, $content)
+!endprocedure
+!procedure VoiceChatGroup($id, $name='Voice Chat', $tech='')
+  IconGroup($id, 'IconGroup', '<$VoiceChatLg>', $name, $tech)
+!endprocedure
+@enduml

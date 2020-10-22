@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceKeyVaultsMd [14x14/16z] BKw74S10248f-u-Sbukz2m36aaEK79FFp2NHS9um04sGktpEIC2VaBMmf2GkQZ0aps-pwzR9Gflpd9HSfcPPMfTf0RhVBniek35RKf6LLkeey04
+sprite $ServiceKeyVaultsLg [20x20/16z] {
+PT094WHH10FGYE3-DvwYwDbI6w_N7smeYRYSw4jDMI5NLigMecXEenihR0bmDvZSa8CQSfBULqe0aw0_cNrlKwSD9Ie0M-nd4JrWS480VlzfF0BtFe17y7aV
+zccRAGJLclQ-4fZyijbLNrRgBVAZltnA8CpRhfVhJugdl_-UNm
+}
+!procedure ServiceKeyVaults($id, $name="Service Key Vaults", $tech="")
+  IconElement($id, 'azure-v2/Item/Security/ServiceKeyVaults', $name, $tech)
+!endprocedure
+!procedure ServiceKeyVaultsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceKeyVaultsMd>', 'Security', $funcName, $content)
+!endprocedure
+!procedure ServiceKeyVaultsGroup($id, $name='Service Key Vaults', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceKeyVaultsLg>', $name, $tech)
+!endprocedure
+@enduml

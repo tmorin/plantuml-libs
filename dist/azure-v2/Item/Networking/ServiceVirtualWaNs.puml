@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceVirtualWaNsMd [14x14/16z] JSsr0S0020H0o1lxBnotgt1grvI4kYtwPQs3hnJ0sJioK7rEThFB1dK2tJPa9xPW99J7df01DR9srgIhQ9EKu-Ly8O8Ix-_dP8xEsPmuhCT2NfqD
+sprite $ServiceVirtualWaNsLg [20x20/16z] {
+NSp50SK020DGY7R_XRzhtmr9vcrtvmGWyR-bxuJvab--d_2RFXj1hwm-LVlguu1uveJF7sJECeO_H1jGZDoqpGqSldTDxalJqR2HqoFEqKYfPjqwYNFdDfZP
+HmWK-6Zbt36k7RkgCKzI296XvsqToLBD-SYD4tU-raVJmvWVIqdSURW2
+}
+!procedure ServiceVirtualWaNs($id, $name="Service Virtual Wa Ns", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceVirtualWaNs', $name, $tech)
+!endprocedure
+!procedure ServiceVirtualWaNsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVirtualWaNsMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceVirtualWaNsGroup($id, $name='Service Virtual Wa Ns', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVirtualWaNsLg>', $name, $tech)
+!endprocedure
+@enduml

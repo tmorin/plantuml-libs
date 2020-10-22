@@ -1,0 +1,16 @@
+@startuml
+sprite $StarsMd [14x14/16z] POq50i0W30FRUGNo_z-EpENGMY8_Uekm_WWC87O54KSuC3_iDqiPrXvF5XCkGXp92AaYMi38WSgeKeOgeU4QLA5CQVbQO5ztCdYc3_9Z1G
+sprite $StarsLg [20x20/16z] {
+VL054iCm38ihTnVM_rzRY3BUgYEVm1Gk07Uy4HOx3xHe3yeFHkYuKnocnXCYJQxr9cd4er8sjNXoZr9YEvSWAvQHi0MLX2QaC958kZWM-Gh5WIeEhDhcFaE-
+EKFZQa2j25KBQESSnpxvtFDnsmF-_GF__5MFzltJ2-m
+}
+!procedure Stars($id, $name="Stars", $tech="")
+  IconElement($id, 'material-4.0/Action/Stars', $name, $tech)
+!endprocedure
+!procedure StarsCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarsMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarsGroup($id, $name='Stars', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarsLg>', $name, $tech)
+!endprocedure
+@enduml

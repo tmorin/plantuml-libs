@@ -1,0 +1,16 @@
+@startuml
+sprite $SamlTokenMd [14x14/16z] DSZN0KDH2CDGqsoI_VTz3Qx-ZZ2vI2eNxHOUMXWWEG_CNYrIx-6WcWM4NfHK1ApD6qaplN2Km5yxFm0i-qk15n-HReFXOCd1LWSt
+sprite $SamlTokenLg [20x20/16z] {
+HSg75S0W24NHJps2-y-ROe74UdteJzpClqbDblw9VrkHvl_E12kpHHv9oxf2MF2ogbGv7EvTIOx9m35RD4q2oqwbahPgKCfVWNE4oo7RLSX_uKio2Jmq1R5f
+hGgAIF_iqDvz3WdRL6XZ51NsrjZKg2Xgd5gNGa5_Bm
+}
+!procedure SamlToken($id, $name="Saml Token", $tech="")
+  IconElement($id, 'aws-20200911/Resource/GeneralIcons/SamlToken', $name, $tech)
+!endprocedure
+!procedure SamlTokenCard($id, $funcName="", $content="")
+  IconCard($id, '<$SamlTokenMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure SamlTokenGroup($id, $name='Saml Token', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$SamlTokenLg>', $name, $tech)
+!endprocedure
+@enduml

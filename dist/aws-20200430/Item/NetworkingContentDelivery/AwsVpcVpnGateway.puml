@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcVpnGatewayMd [14x14/16z] NOw5ZGLG3CFyqhX__urF5HmL0a83fDe0Dvhtejni8FSB6AWMuXt87QO3_Sny2bCVsRJPyBnMTkcrpa-RHaOIEfYxLLqYi86Rx7-olzHV
+sprite $AwsVpcVpnGatewayLg [20x20/16z] {
+RL05WaGX5CA7WFU_y8PipWm_fGmKYtjpuG-OM7B27ygP_aoC8hhfcrJgKhtrwFFDgsm3tZT5e5qUODnEhE1RPVgxwC_aER5ppcVQt4ARPjeAxSk9c6H0NOuk
+nuJbp9LoI50k2vboPBb9Lw0ZIzOH47PlYomMv3zdK2Wlp-hrcRuw-tS
+}
+!procedure AwsVpcVpnGateway($id, $name="Aws Vpc Vpn Gateway", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcVpnGateway', $name, $tech)
+!endprocedure
+!procedure AwsVpcVpnGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcVpnGatewayMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcVpnGatewayGroup($id, $name='Aws Vpc Vpn Gateway', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcVpnGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $QuantumTechnologiesMd [14x14/16z] LOs54GGn30Cz4Rd_XXyE0XiqINKoE1bLx0d_KTBnxzpHBpJrrbe2gRTcoYiY7BnHA82SAfRitQ6dm-OEJL0dNm
+sprite $QuantumTechnologiesLg [20x20/16z] {
+RP350GDH20Mpy2pz5noN_JB7mRbiEKPUIXxWyN3EW1RdmH6SyYogVCups601pibTkr4HVyvXTuB6KFjr_rfLdhKc_owl6TsbUHTQoyu-t-7lOHxpnXzGF24y
+NKqyt8Ox
+}
+!procedure QuantumTechnologies($id, $name="Quantum Technologies", $tech="")
+  IconElement($id, 'aws-20200430/Item/QuantumTechnologies/QuantumTechnologies', $name, $tech)
+!endprocedure
+!procedure QuantumTechnologiesCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuantumTechnologiesMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+!procedure QuantumTechnologiesGroup($id, $name='Quantum Technologies', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuantumTechnologiesLg>', $name, $tech)
+!endprocedure
+@enduml

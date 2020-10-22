@@ -1,0 +1,13 @@
+@startuml
+sprite $HorizontalRuleMd [14x14/16z] Ow09OEE20ZOq7aq
+sprite $HorizontalRuleLg [20x20/16z] OnYQW8EF5mxuE25YdAXYGnC
+!procedure HorizontalRule($id, $name="Horizontal Rule", $tech="")
+  IconElement($id, 'material-4.0/Editor/HorizontalRule', $name, $tech)
+!endprocedure
+!procedure HorizontalRuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$HorizontalRuleMd>', '', $funcName, $content)
+!endprocedure
+!procedure HorizontalRuleGroup($id, $name='Horizontal Rule', $tech='')
+  IconGroup($id, 'IconGroup', '<$HorizontalRuleLg>', $name, $tech)
+!endprocedure
+@enduml

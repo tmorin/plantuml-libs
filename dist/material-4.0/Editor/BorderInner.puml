@@ -1,0 +1,16 @@
+@startuml
+sprite $BorderInnerMd [14x14/16z] NOq54a0X20MNc7YCtF-ulzDLklXZGPWxku5iEgJOJ7AYuYGQg08wZpcGu9XpLQbxq-LpXD-T3kHlo_z2ZllwIB0apVqm_5a1
+sprite $BorderInnerLg [20x20/16z] {
+ZP254G1120CttBlHVxNlxZkMmGc_2Pd88j9qKJsPIvxHDAIJwf5147MD0fYM60mnM6APsnOppvOTB34DEoQMs4BIr0FkzK2Jq9FwFkRfK-zvnzCjvvkNcAcF
+BUh1WujNl-a
+}
+!procedure BorderInner($id, $name="Border Inner", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderInner', $name, $tech)
+!endprocedure
+!procedure BorderInnerCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderInnerMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderInnerGroup($id, $name='Border Inner', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderInnerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsFSxForWindowsFileServerMd [14x14/16z] hSUn0K0030118F_9_li2KCDrb--PtWa2bzS-8Ha3zwN1W57BB067WMM_c04
+sprite $AwsFSxForWindowsFileServerLg [20x20/16z] pKW50OG037pXj7zVt1h0Tfvt7K41xcqgNAXXvFRO8C-Z09BUDpaXYe4HkssfRL24kMtn3DAA__-_ckFQD3DcV-uc
+!procedure AwsFSxForWindowsFileServer($id, $name="Aws F Sx For Windows File Server", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsFSxForWindowsFileServer', $name, $tech)
+!endprocedure
+!procedure AwsFSxForWindowsFileServerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsFSxForWindowsFileServerMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsFSxForWindowsFileServerGroup($id, $name='Aws F Sx For Windows File Server', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsFSxForWindowsFileServerLg>', $name, $tech)
+!endprocedure
+@enduml

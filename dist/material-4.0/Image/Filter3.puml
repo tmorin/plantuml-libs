@@ -1,0 +1,16 @@
+@startuml
+sprite $Filter3Md [14x14/16z] JSUr0G0n40CmEmm7-q_x354d0B7UMZv2Kxbv9eC5W0GWhKuUQ-xZMAroZips3yd6ij3bNwhT_XMLyimJJu5w3EBc9_Du3Bm5ehWy9W6KLX_7TW
+sprite $Filter3Lg [20x20/16z] {
+NT1N0iGW28JXYGrs3SpzJvlUv7_yx68lVSDHuxV_OKRHE-bCXndUX2bvW-_MtQm1qCseZv7fd4VPxKWUqyiccNqAbiaVWc7wnRKfGQCPoRXVKz6Cny8x3fjf
+RtvQCJS_sr2GA8Wbziz7QJkmyvlXA0tjiW8
+}
+!procedure Filter3($id, $name="Filter3", $tech="")
+  IconElement($id, 'material-4.0/Image/Filter3', $name, $tech)
+!endprocedure
+!procedure Filter3Card($id, $funcName="", $content="")
+  IconCard($id, '<$Filter3Md>', '', $funcName, $content)
+!endprocedure
+!procedure Filter3Group($id, $name='Filter3', $tech='')
+  IconGroup($id, 'IconGroup', '<$Filter3Lg>', $name, $tech)
+!endprocedure
+@enduml

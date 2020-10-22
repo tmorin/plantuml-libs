@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTextractMd [14x14/16z] BSa95W8W54BHa_17zx_Vm7gELzkLIpM24wt7T6MDS00oIbAXzqDMhG5c4K_BGqz2slYG0VoL1_t-sBrx6pWn7PQQYAgcTCrErvBvch5-7jTV
+sprite $AwsTextractLg [20x20/16z] {
+RSy5OiCm44JHQcVPzxzlDO92acz-9YbFiNDM7x0s_lAoe-joOsqiWm8G9Mwh4B00iNQXV7b8o3pq8RMir07G9hQBOAwgTgrZg9a93ARRscMO3SSKMj8WG3hV
+_xMoBrHE2HnZ9e18L79ycS_2KFNgwbJDQq-gsqpXj6Tf-IxgrthlEIlQrRhH3lxoDm
+}
+!procedure AwsTextract($id, $name="Aws Textract", $tech="")
+  IconElement($id, 'aws-20200911/Service/MachineLearning/AwsTextract', $name, $tech)
+!endprocedure
+!procedure AwsTextractCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTextractMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsTextractGroup($id, $name='Aws Textract', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AwsTextractLg>', $name, $tech)
+!endprocedure
+@enduml

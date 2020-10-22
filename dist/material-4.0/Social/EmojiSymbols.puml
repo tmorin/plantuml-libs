@@ -1,0 +1,19 @@
+@startuml
+sprite $EmojiSymbolsMd [14x14/16z] {
+NOs50GGW203F82pOVzllFAMBNzhP-mYK7GsgNxdPgGLQd0X1Xd6Zp5sHJ8SRlhb50ZTwlwbdeE5GEbW3pedRNBEyHPPJAyspShkw8nkM8WLwpiogzm-CqwIq
+JcdySG4
+}
+sprite $EmojiSymbolsLg [20x20/16z] {
+XO-7hi0W30DDqfOP_FzVss7UdgSLNI9nu4Tit_ORpVTak2aKceCikji47iQnxeuO3oQN83A3Z6auvWWvmGOWyUQ3wm2CvCGdfu3ZtNbQfVPkHcYVdis-_63G
+RXLqxEno4PskTtrdcDn1Djy1DobHoH5FsRlQMLKXLQUll-KW0zkjC5UYJNBB7TODy0oHrFGF5m
+}
+!procedure EmojiSymbols($id, $name="Emoji Symbols", $tech="")
+  IconElement($id, 'material-4.0/Social/EmojiSymbols', $name, $tech)
+!endprocedure
+!procedure EmojiSymbolsCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmojiSymbolsMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmojiSymbolsGroup($id, $name='Emoji Symbols', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmojiSymbolsLg>', $name, $tech)
+!endprocedure
+@enduml

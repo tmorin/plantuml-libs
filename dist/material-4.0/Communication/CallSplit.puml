@@ -1,0 +1,13 @@
+@startuml
+sprite $CallSplitMd [14x14/16z] dOUr0S104CFK-F5W_sb3LPgW3cnnInbJe3dARYDj3yjnc8MWX1qcIWelY8D3JupnpqhXaHK
+sprite $CallSplitLg [20x20/16z] lOf50e10548Pcy_4_KzhjplhRKWyevQ93d3iJJrrbb8g1rFsnjPEazFQAIbn6hMiB653sVIdOlwvyMB8coci3CyBCLoxy4D7uWqw
+!procedure CallSplit($id, $name="Call Split", $tech="")
+  IconElement($id, 'material-4.0/Communication/CallSplit', $name, $tech)
+!endprocedure
+!procedure CallSplitCard($id, $funcName="", $content="")
+  IconCard($id, '<$CallSplitMd>', '', $funcName, $content)
+!endprocedure
+!procedure CallSplitGroup($id, $name='Call Split', $tech='')
+  IconGroup($id, 'IconGroup', '<$CallSplitLg>', $name, $tech)
+!endprocedure
+@enduml

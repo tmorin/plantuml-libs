@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureAdB2CMd [14x14/16z] PSlN0K8n34DHjoT1zXyO9JRz_XqNEsNPzASer0SAo87N5dEmHJAsSWV8RkwnmowryPTuHMPuQztrwNkDgqYuAUrHqhhPpa60sc_ihTBN0m
+sprite $ServiceAzureAdB2CLg [20x20/16z] {
+VT35OSL030JGQ4XUzrzmp13uStmBWg-FgVf547yHRRofAEV4YnQBws7KPl6Rv4xtXLY9xZM-Y2IKP46jL2i0gssArLQuB6OLM6-B2sBLPPxcuQrVrcaPyuIZ
+CAeKI-a4PzE4sd2cZBxNaaJRut7Df-wjPnENGNkMrNm3
+}
+!procedure ServiceAzureAdB2C($id, $name="Service Azure Ad B2 C", $tech="")
+  IconElement($id, 'azure-v2/Item/Identity/ServiceAzureAdB2C', $name, $tech)
+!endprocedure
+!procedure ServiceAzureAdB2CCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureAdB2CMd>', 'Identity', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureAdB2CGroup($id, $name='Service Azure Ad B2 C', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureAdB2CLg>', $name, $tech)
+!endprocedure
+@enduml

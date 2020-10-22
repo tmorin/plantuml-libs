@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDirectConnectMd [14x14/16z] 9Sb1aWDG20BHcKH0yFxtpRVitQlsgoz9Fdfv8ehsCevWF-zDKWuaO1NI_5HxcM3y_NnWrxq6G05-YiGdqkv9nf0GlsOoBF7RfncwBMLr9OjJakCF
+sprite $AwsDirectConnectLg [20x20/16z] {
+RSk73GH124DHQKXZqt-_Povl-8ey6RpQdqfzxAi_4-6Bn9Hc5b-aa6bQMUnt73HCPbPu6yk9cbcjpwwioB0PnygN6GYtDP-QFmrEmiOI6o_hI7PwX148Wqo5
+UsQKr7pBMjQ085mdrEv1mZBIWtZMWxsTOFdFcktcQcr-J1XKdVcpqLUtnfyTyG4
+}
+!procedure AwsDirectConnect($id, $name="Aws Direct Connect", $tech="")
+  IconElement($id, 'aws-20200911/Service/NetworkingContent/AwsDirectConnect', $name, $tech)
+!endprocedure
+!procedure AwsDirectConnectCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDirectConnectMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+!procedure AwsDirectConnectGroup($id, $name='Aws Direct Connect', $tech='')
+  IconGroup($id, 'NetworkingContentFamily', '<$AwsDirectConnectLg>', $name, $tech)
+!endprocedure
+@enduml

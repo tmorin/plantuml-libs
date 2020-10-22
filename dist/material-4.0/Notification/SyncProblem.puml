@@ -1,0 +1,16 @@
+@startuml
+sprite $SyncProblemMd [14x14/16z] XSn7WeL024NHKu1PgVsljkEVUqVmaXSgYFCym36JdBDWxx1lsS-6qGld4LazgCPvOjRdMnPqCMP5ZE0lQNiwzqFq3lMtdVC0-ta6KLxu1W
+sprite $SyncProblemLg [20x20/16z] {
+fL274O0m42AzX_strJTS5X1D-mxu3UzjJwEFxcKghESWYqoTCy1xiyqRrTvzRLGEnJako5PiDoJcpxRWWCnuKeDiBmBBiNtjnv3jvZeOJgvwv8fogl9uROIA
+RVNQdNcInMRsa_tM8AieokJxw2D9YTzu
+}
+!procedure SyncProblem($id, $name="Sync Problem", $tech="")
+  IconElement($id, 'material-4.0/Notification/SyncProblem', $name, $tech)
+!endprocedure
+!procedure SyncProblemCard($id, $funcName="", $content="")
+  IconCard($id, '<$SyncProblemMd>', '', $funcName, $content)
+!endprocedure
+!procedure SyncProblemGroup($id, $name='Sync Problem', $tech='')
+  IconGroup($id, 'IconGroup', '<$SyncProblemLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BrightnessLowMd [14x14/16z] NKw50S0m2AFkoV_NpbV3dSX3niWW3UWlz2M3H2h-pZBPOcnaVhDuk_HacktTQDHYmFXcaJ1h9cPCcd4bCcyVnlTyVtzX0WFeG7q2
+sprite $BrightnessLowLg [20x20/16z] {
+PP1L0aGX30C9w-aBkVzfr_7vd7fJ1KWhaB2gmpu6UGjIVYCoRZz73x2xEETyZidzA-xLGMRw4nR-4y_LdR_J8Tke3lx8tUcNEDOAomp-rBZBRTgP9-1CJyuk
+PRnj_K456dyr_tGcT_K2
+}
+!procedure BrightnessLow($id, $name="Brightness Low", $tech="")
+  IconElement($id, 'material-4.0/Device/BrightnessLow', $name, $tech)
+!endprocedure
+!procedure BrightnessLowCard($id, $funcName="", $content="")
+  IconCard($id, '<$BrightnessLowMd>', '', $funcName, $content)
+!endprocedure
+!procedure BrightnessLowGroup($id, $name='Brightness Low', $tech='')
+  IconGroup($id, 'IconGroup', '<$BrightnessLowLg>', $name, $tech)
+!endprocedure
+@enduml

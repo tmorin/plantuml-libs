@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSsdMd [14x14/16z] JSY50G0X3CNGr3xG_GS-bw2lvlNcMEY1WYpvdMfN0hxFoK8ZsP5cv63Cm58P4DFcscMLjclPMWw-7yENx-BELwmURrtwb_k9giYgt5NxkPCSx0dO
+sprite $ServiceSsdLg [20x20/16z] {
+RP07SWH120C9ajZn_nzimBvylN6w05LXt_5NLl6LaLd20rPs6PJ_8xP2y6wjTK7Hnx6TAcpBCNLHSWkjQnNJxAMmgEhV0CbSL-skse0fjAQkj3pQ27JLe9E6
+TPvRj0wEm-srVtWGFCfdTDZF6pzAy1qa9Cr3wl-lNKcHJUGW5Joc-WwRs1t5WzdOBm
+}
+!procedure ServiceSsd($id, $name="Service Ssd", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceSsd', $name, $tech)
+!endprocedure
+!procedure ServiceSsdCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSsdMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceSsdGroup($id, $name='Service Ssd', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSsdLg>', $name, $tech)
+!endprocedure
+@enduml

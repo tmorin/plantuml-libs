@@ -1,0 +1,13 @@
+@startuml
+sprite $FormatTextdirectionRToLMd [14x14/16z] RKw50GCX33mSeljFsxux6Zl1QnKH5Qjhajsz6iKrQrC6gJXxGVSCLHrdXcIGItQTp94myfQGX13dit2usxB7telp2fipVAy_
+sprite $FormatTextdirectionRToLLg [20x20/16z] ZS_50SKm30DGXJdQVzhFq3RuZcPZJ9aNVGWbVWXy1JveJt-egyyOD0tciT29YTJ609NR6E9MJBGn7M0yP9271KpD_oJBHmsVpaliKnZHq04jWPKx
+!procedure FormatTextdirectionRToL($id, $name="Format Textdirection R To L", $tech="")
+  IconElement($id, 'material-4.0/Editor/FormatTextdirectionRToL', $name, $tech)
+!endprocedure
+!procedure FormatTextdirectionRToLCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormatTextdirectionRToLMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormatTextdirectionRToLGroup($id, $name='Format Textdirection R To L', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormatTextdirectionRToLLg>', $name, $tech)
+!endprocedure
+@enduml

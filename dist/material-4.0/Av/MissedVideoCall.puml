@@ -1,0 +1,16 @@
+@startuml
+sprite $MissedVideoCallMd [14x14/16z] bStL0S0W30HG7AAt_xJe0ktxYrxuBlPjz55lLV1O6ELKhGbChEDK7Yky270h8shr5BU2O-p2ngiUlrzY7-DajF3B0W
+sprite $MissedVideoCallLg [20x20/16z] {
+jO_10G0H30H90B3zLml0wvutW069-05vk4QZR92xfU4S7Yo26yuYHX-xw0V9OZe74je2cI8YZcFkgaYFmN5PwQEE2mLQJFNkxbM77EnNB1e566t6B6cdTX3_
+q
+}
+!procedure MissedVideoCall($id, $name="Missed Video Call", $tech="")
+  IconElement($id, 'material-4.0/Av/MissedVideoCall', $name, $tech)
+!endprocedure
+!procedure MissedVideoCallCard($id, $funcName="", $content="")
+  IconCard($id, '<$MissedVideoCallMd>', '', $funcName, $content)
+!endprocedure
+!procedure MissedVideoCallGroup($id, $name='Missed Video Call', $tech='')
+  IconGroup($id, 'IconGroup', '<$MissedVideoCallLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CameraAltMd [14x14/16z] VSs54S0020D0I1svx3zjtUrFqSW3OWIPb6R9KPgL8i5TB5KBj7lLghksMmKd7UzLen77vbXgmxqw4ahRbV9d
+sprite $CameraAltLg [20x20/16z] {
+fP053i0m24L_Mo01AlS_xTotnlQs6WxeatWYtKJK5WWRucPjfPgvp5xjGG9ukvQwNNYNUGIYtsI6g1hXLrbConuliWATNuho9NlvfdZFaUOSTgl50X1kjSoK
+SjRyxcsRmOaBVZ42
+}
+!procedure CameraAlt($id, $name="Camera Alt", $tech="")
+  IconElement($id, 'material-4.0/Image/CameraAlt', $name, $tech)
+!endprocedure
+!procedure CameraAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CameraAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CameraAltGroup($id, $name='Camera Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CameraAltLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceMonitorMd [14x14/16z] PSwxOS0038HGfEDaxxzm_bteNWUGg_R2JpqJhpyu9xiP3rBnqQTOxYRhZklSrkq2z8sQsQ5FTLF3mFC2f9Ki_AHtxFpfDfM_B73-uVwVmTgw09y
+sprite $ServiceMonitorLg [20x20/16z] {
+TP07RWGm20HPTi2Myl__HYufrzmzTEAEDCxp_2DLzP_AFGgeqTP5DL7ioImTD2IwJ2ED3PaAkl4wGeE8R6JHJZT2T8P76EkueT4WgG1Y3y_PKL24LrwkgfMa
+gCMqBFjhEjVBVunv7L3BN-R_IeiLLvdwOuF8Tln7xXLm_2EhZbllF_JR12vYeTV-VUZpDm
+}
+!procedure ServiceMonitor($id, $name="Service Monitor", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceMonitor', $name, $tech)
+!endprocedure
+!procedure ServiceMonitorCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceMonitorMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceMonitorGroup($id, $name='Service Monitor', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceMonitorLg>', $name, $tech)
+!endprocedure
+@enduml

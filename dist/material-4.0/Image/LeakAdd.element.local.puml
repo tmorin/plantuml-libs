@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the LeakAdd element
+include('material-4.0/Image/LeakAdd')
+LeakAdd('leak_add', 'Leak Add', 'an optional tech field')
+@enduml

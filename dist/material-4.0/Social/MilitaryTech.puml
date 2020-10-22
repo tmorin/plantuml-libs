@@ -1,0 +1,13 @@
+@startuml
+sprite $MilitaryTechMd [14x14/16z] bSSv5e0m30DHPKziw-d-jwLXfsAg-VXaj4KxHBKc_jTIxreuQcirN8rnVPdaB8UIIvvmrAMEIwLSkje
+sprite $MilitaryTechLg [20x20/16z] lOx50S0W34LnX-o_RN7dseV6Fth2EHSYNfEB080nyIAhZv3_VKWLdrf4KwUresZ367HWxUPWKiLkaYtj0aJ2sf14fyThCOw-iFcO8yInBQzSRpu
+!procedure MilitaryTech($id, $name="Military Tech", $tech="")
+  IconElement($id, 'material-4.0/Social/MilitaryTech', $name, $tech)
+!endprocedure
+!procedure MilitaryTechCard($id, $funcName="", $content="")
+  IconCard($id, '<$MilitaryTechMd>', '', $funcName, $content)
+!endprocedure
+!procedure MilitaryTechGroup($id, $name='Military Tech', $tech='')
+  IconGroup($id, 'IconGroup', '<$MilitaryTechLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ToggleOffMd [14x14/16z] Oo0RiF7oyV420GyRYCFFpiR73mP0BWyx0mCBXCU3oWEfP6FbXQjaOEU305usybq2
+sprite $ToggleOffLg [20x20/16z] lOxJ0KGn44L7CMx_rUu--pid68D68GUxntSSDB-u0dfCE0YJYz6ctmvVvzbQqilXj6yVexvgAQ3TPhnswPvMM4HNX6aGVm
+!procedure ToggleOff($id, $name="Toggle Off", $tech="")
+  IconElement($id, 'material-4.0/Toggle/ToggleOff', $name, $tech)
+!endprocedure
+!procedure ToggleOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToggleOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToggleOffGroup($id, $name='Toggle Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToggleOffLg>', $name, $tech)
+!endprocedure
+@enduml

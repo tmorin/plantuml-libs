@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcMd [14x14/16z] XOgt0S0m3CCMYSNw_zuKrot1HWBj1mEgCsnGOnJy289z2JrGTjj7HYJwqcE2RIm3OAZGLoUxMp0YtJPY7n_S
+sprite $AwsVpcLg [20x20/16z] {
+bT350GDG30BG2eG4zf-txjvt-nBrVvBuKPV6zqW9VVitLKcCgfk_y4wQGYxVSAvJFFwCUAx3ednmUYDsM3x0n8b9ZNYEWNg7S0RqqTIEoF7rpjaZEetohG95
+Ahv5h44_aFhBmhxR0W
+}
+!procedure AwsVpc($id, $name="Aws Vpc", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpc', $name, $tech)
+!endprocedure
+!procedure AwsVpcCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcGroup($id, $name='Aws Vpc', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsDeepLearningAmIsMd [14x14/16z] XOsr0SC030G3kXFils_GQktldkS2QLLh_vb1HYn3qFeJfO3uKUDfeVZRYA2NVQW8i2lehkp3UcNtPCuvtW
+sprite $AwsDeepLearningAmIsLg [20x20/16z] fP05ZiKW48QJ_agv_tbtdpknVZZZin-cpCjnXQLEe1oFFm7UGqelUXoacixxptGaoY1y-nf6jimY3dhzam6dj4w3Yx-5xIC6YNKkwvoljMtbMFJW2Fy
+!procedure AwsDeepLearningAmIs($id, $name="Aws Deep Learning Am Is", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsDeepLearningAmIs', $name, $tech)
+!endprocedure
+!procedure AwsDeepLearningAmIsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDeepLearningAmIsMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsDeepLearningAmIsGroup($id, $name='Aws Deep Learning Am Is', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsDeepLearningAmIsLg>', $name, $tech)
+!endprocedure
+@enduml

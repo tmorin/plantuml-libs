@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceWorkbooksMd [14x14/16z] JSc73KCn30DHTLBUV-1yL-IX7awaGctHj5ax_2iF5AP2X85T6ppC7AZyt8UKJp3c8ye-EGiS03zOBtXqXXN7Ntbsip_xOVGslefwnLAHuW6J7m
+sprite $ServiceWorkbooksLg [20x20/16z] {
+PO-50O0W402_o_tdLJ69CpduWeRsyAL4k4FnL1ICF-3dGRG1D0QKyDbHRZax86ld_EByNh4QuSxKOFVBKTJf41huE60_7M63tBjOquQvnnERqN75IiJYU7LS
+MtKgdtFPSpaP7Ttprd3EhtEzApU2kPbJ7G
+}
+!procedure ServiceWorkbooks($id, $name="Service Workbooks", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceWorkbooks', $name, $tech)
+!endprocedure
+!procedure ServiceWorkbooksCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceWorkbooksMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceWorkbooksGroup($id, $name='Service Workbooks', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceWorkbooksLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCacheRedisMd [14x14/16z] PKu50W0X21CtoV__zxmkkbdxajnEEiakXpCbe9C0gbPbPas_EilAq44EZICZE6NDgd8jHAvULSqhroKtxUkJFJlUlhCMQnOND12GzgC5
+sprite $ServiceCacheRedisLg [20x20/16z] {
+fP170WCX30CNDwtC__yRMdfFH1lF1V3sLugegfGpzTFStLJEv04L4KLS46gIp8fhwc5eiCF9XPkfcSU5Sn4r5V4BHo0Y07Qtst2rRUn7PnJTMqRHNIziFZ-N
+o_wDbPDh_ArJa4b2hnlMKxQdEG
+}
+!procedure ServiceCacheRedis($id, $name="Service Cache Redis", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceCacheRedis', $name, $tech)
+!endprocedure
+!procedure ServiceCacheRedisCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCacheRedisMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceCacheRedisGroup($id, $name='Service Cache Redis', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCacheRedisLg>', $name, $tech)
+!endprocedure
+@enduml

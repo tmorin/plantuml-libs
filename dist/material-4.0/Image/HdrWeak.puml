@@ -1,0 +1,13 @@
+@startuml
+sprite $HdrWeakMd [14x14/16z] bSst0O0m34JHxvnz-s-BAi2bNwKiheLQF2P6e6fE9HXI8of2aKiolWxCocV6b3fH0RBSTsKf_JvKpuK7
+sprite $HdrWeakLg [20x20/16z] lOx50S0W3023ExV_j7NldqFY8cCnkLFThbkhLk6WbavQLDq0jqYQNinC42ciQ4cOhQfrqMo4LTz8w9ylegN-QkyPPf-H2DikRjl5GycT_DwvGFKoXXa
+!procedure HdrWeak($id, $name="Hdr Weak", $tech="")
+  IconElement($id, 'material-4.0/Image/HdrWeak', $name, $tech)
+!endprocedure
+!procedure HdrWeakCard($id, $funcName="", $content="")
+  IconCard($id, '<$HdrWeakMd>', '', $funcName, $content)
+!endprocedure
+!procedure HdrWeakGroup($id, $name='Hdr Weak', $tech='')
+  IconGroup($id, 'IconGroup', '<$HdrWeakLg>', $name, $tech)
+!endprocedure
+@enduml

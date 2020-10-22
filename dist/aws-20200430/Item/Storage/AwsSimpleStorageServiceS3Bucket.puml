@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSimpleStorageServiceS3BucketMd [14x14/16z] LSsrOGH10CLGVPfr_msRZb-cI83x9mRmQajEPtJnu0FNMUAaEmU6qr-H1XFG0YvKWBUGGGm0sVag3dUhS9y5wACODnf0Qqds0l2y0py
+sprite $AwsSimpleStorageServiceS3BucketLg [20x20/16z] {
+LT25SGH134JHB-hsvX_mmKB9zmg6Hy0fgxkhWaT9ckuUoKe-GaeUKHv0mmytp37_x-aeQBK_z67_kPnGSyMjwZEk0qASAg_NviESZgFvoFEAuheGumdoBu1D
+BzgIdJ35If-bTBFkLpMm54-aPM0J_5cOnpvIxpK_yxbxEdApJwgwAuFJ6m
+}
+!procedure AwsSimpleStorageServiceS3Bucket($id, $name="Aws Simple Storage Service S3 Bucket", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsSimpleStorageServiceS3Bucket', $name, $tech)
+!endprocedure
+!procedure AwsSimpleStorageServiceS3BucketCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSimpleStorageServiceS3BucketMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsSimpleStorageServiceS3BucketGroup($id, $name='Aws Simple Storage Service S3 Bucket', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSimpleStorageServiceS3BucketLg>', $name, $tech)
+!endprocedure
+@enduml

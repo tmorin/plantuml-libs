@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalPhoneMd [14x14/16z] NOp50G0X40DnX-c_sdDPo2kk5bXdX80-gV67Ue3xmqeMBnujJrkHoX3FjxVXA2eptclJ0N7jwm3xhxKznOGT
+sprite $LocalPhoneLg [20x20/16z] {
+ZKw54GCn3FkOVQsh_QSjqsEYO_4q378FNN2EEze6HtDE7zmYJ0yk5eK5N6Z11OfMPt1UFmpOYci5Nf6C9qcXz3ilkCUfva-vS2eidhO45jopxMdqvLFre6aO
+Dm
+}
+!procedure LocalPhone($id, $name="Local Phone", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalPhone', $name, $tech)
+!endprocedure
+!procedure LocalPhoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalPhoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalPhoneGroup($id, $name='Local Phone', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalPhoneLg>', $name, $tech)
+!endprocedure
+@enduml

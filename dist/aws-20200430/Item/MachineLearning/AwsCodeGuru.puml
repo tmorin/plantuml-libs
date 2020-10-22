@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCodeGuruMd [14x14/16z] XOgt5G10248B7ohil-_bKFhDWah8lmRXevqp42ElY4XF7ACx1kwycW_hTKuNKXTyQU1c_gyqIrLq
+sprite $AwsCodeGuruLg [20x20/16z] {
+hSq53WHH30BGfCQ7tl--EswnjLUDedy0T4EgWTPq3qZ5H0cTQ4MMKQTszCY6jtPZn8ZAcCxG9YihQkhfqS690EYwA6-mlVG8sI8EdOcHsRf2JA0RMeHHT-4U
+UYBrgHS
+}
+!procedure AwsCodeGuru($id, $name="Aws Code Guru", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsCodeGuru', $name, $tech)
+!endprocedure
+!procedure AwsCodeGuruCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCodeGuruMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsCodeGuruGroup($id, $name='Aws Code Guru', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCodeGuruLg>', $name, $tech)
+!endprocedure
+@enduml

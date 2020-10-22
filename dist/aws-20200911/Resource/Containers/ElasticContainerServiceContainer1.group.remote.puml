@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200911 bootstrap
+include('aws-20200911/bootstrap')
+' loads the ElasticContainerServiceContainer1 element
+include('aws-20200911/Resource/Containers/ElasticContainerServiceContainer1')
+ElasticContainerServiceContainer1Group('elastic_container_service_container_1', 'Elastic Container Service Container1', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

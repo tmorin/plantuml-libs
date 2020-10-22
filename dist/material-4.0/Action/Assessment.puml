@@ -1,0 +1,13 @@
+@startuml
+sprite $AssessmentMd [14x14/16z] NStL0K0n24FHr1NOVzhdcbizNu3ouShliAUDyLK4mlwMycfQJg_S96LhNqtS2hCKsL-QGDFXuvK7jG8
+sprite $AssessmentLg [20x20/16z] bP250O1024Mlam_xJsjt-_IA1lKTdsAQYCcD8jdXUrdQor8lY-CTc6MhdJ7lCdRb94EtwMiPqr6ckoT-olgQYGNOnTkHhcPmdbKl-aeB
+!procedure Assessment($id, $name="Assessment", $tech="")
+  IconElement($id, 'material-4.0/Action/Assessment', $name, $tech)
+!endprocedure
+!procedure AssessmentCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssessmentMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssessmentGroup($id, $name='Assessment', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssessmentLg>', $name, $tech)
+!endprocedure
+@enduml

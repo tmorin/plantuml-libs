@@ -1,0 +1,13 @@
+@startuml
+sprite $LogoutMd [14x14/16z] NOw35K0n34LhO_zfFnlUm-31AC8B36sljHTCC_57c4hYKzpndtnxg7CdEV7Fn5soJ83qDM6oefdW1W
+sprite $LogoutLg [20x20/16z] bP035W1134F7nlrFk-Qm_Szb4W96c0FzAV5yGT-Qp8godUzgbgH4VcecD6hPLpMYz-9L4ocUv1nQDLhj1bhz2DKF6ohDjRTn1djM-imApGe
+!procedure Logout($id, $name="Logout", $tech="")
+  IconElement($id, 'material-4.0/Action/Logout', $name, $tech)
+!endprocedure
+!procedure LogoutCard($id, $funcName="", $content="")
+  IconCard($id, '<$LogoutMd>', '', $funcName, $content)
+!endprocedure
+!procedure LogoutGroup($id, $name='Logout', $tech='')
+  IconGroup($id, 'IconGroup', '<$LogoutLg>', $name, $tech)
+!endprocedure
+@enduml

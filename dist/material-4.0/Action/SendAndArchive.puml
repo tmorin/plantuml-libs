@@ -1,0 +1,16 @@
+@startuml
+sprite $SendAndArchiveMd [14x14/16z] LKu55WKW29l4mvZk_gVzdNGp_5FxoxZyDvEOlvcqgpspfISDTmDWsQcZkmJGedYQzS3kcBeJN1sivvLZwwRFRFM3qdpqLi05H0Fx0vbfSv5weOXULJrn1G
+sprite $SendAndArchiveLg [20x20/16z] {
+ZP050a8n34Cpz-R-joN37V9rhrxyAnzUMMAFhuoSwPMHgxWN9hNmoiXnIUpgi2jTlVTumY6t9M96oKwPVQgB7Zu6Xqf_YzLn-nInQmqTNvdYEVsDBICYoN7r
+MnbTiKa8TRDJguDwHOVjTzbLPosrw1xqhoCENEKl0Wu
+}
+!procedure SendAndArchive($id, $name="Send And Archive", $tech="")
+  IconElement($id, 'material-4.0/Action/SendAndArchive', $name, $tech)
+!endprocedure
+!procedure SendAndArchiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$SendAndArchiveMd>', '', $funcName, $content)
+!endprocedure
+!procedure SendAndArchiveGroup($id, $name='Send And Archive', $tech='')
+  IconGroup($id, 'IconGroup', '<$SendAndArchiveLg>', $name, $tech)
+!endprocedure
+@enduml

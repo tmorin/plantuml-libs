@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSnowmobileMd [14x14/16z] POs50KGX34DFcZHb_ts_uFAWRd6IycyuILLVy5VLaBapbL1yWSHtrdEI82D7hmDOZWJx6s7mV8LA3y4ea993qtMFJkuykG4
+sprite $AwsSnowmobileLg [20x20/16z] {
+bP053WHH24EJeSBl_UyxkkxxOWHlnvzavI4pBAbpcp9eYxn92ICRnarNiYNtw9JqYHwXZsGBt52ncqTEGdOWcATHqUrEU3tThfgggAacdcP34w1jY3xbpEHG
+ryZhdrzhU-t1rQi_MG
+}
+!procedure AwsSnowmobile($id, $name="Aws Snowmobile", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsSnowmobile', $name, $tech)
+!endprocedure
+!procedure AwsSnowmobileCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSnowmobileMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsSnowmobileGroup($id, $name='Aws Snowmobile', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSnowmobileLg>', $name, $tech)
+!endprocedure
+@enduml

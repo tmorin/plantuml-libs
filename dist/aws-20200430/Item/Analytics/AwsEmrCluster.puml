@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEmrClusterMd [14x14/16z] LKx90SH02484oVPVyDv9Plp9ZT_PmdLbXDV7LERpLZSuEiZ7j29b06bOjgKHxSIo2wXq0OTPdu_xToabqlyK6Ft-huQz_LfsFVVg5m
+sprite $AwsEmrClusterLg [20x20/16z] {
+XL3L0KLH2485ETxzzttToQT1uOOYYMV4a2jVPWQwNsOhmgkVHvvbQ6C1gUwkMeKouDPY3JFB4m1Q783KjDGsaFBMJaXaL6LQjYBjyIhohC0006q9uCViwLVd
+MGDnrt00mPCNNRo0Fa1yzFmXsyyEBbtzxnGbNTZt
+}
+!procedure AwsEmrCluster($id, $name="Aws Emr Cluster", $tech="")
+  IconElement($id, 'aws-20200430/Item/Analytics/AwsEmrCluster', $name, $tech)
+!endprocedure
+!procedure AwsEmrClusterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEmrClusterMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsEmrClusterGroup($id, $name='Aws Emr Cluster', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEmrClusterLg>', $name, $tech)
+!endprocedure
+@enduml

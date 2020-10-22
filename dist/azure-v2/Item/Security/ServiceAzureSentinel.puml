@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureSentinelMd [14x14/16z] HOg50G1020B1td_XxxWF9G3GOc34XE93fCkGr8n3wbQcQaTL20SIjPHIpSQt5SL95sxbQO2b3mLcLQhEdm2i3eP9R170aL_iikEZkcS7
+sprite $ServiceAzureSentinelLg [20x20/16z] {
+LSs70SGm24DHX41m-ozynka__SN5pi0Wx9Cp8kXs1O0gIIK2s9HPfMaqSz1Rxzelow0pSePUbex9ynvNGquVl8r0v3e0rca260uF0hgC5DSRvsKRggJUrb8L
+R1MzaiCrBxdDUwggdjnssKzfPxf9TeKwgM0FQfE67ep-pPRV6Bpe3m
+}
+!procedure ServiceAzureSentinel($id, $name="Service Azure Sentinel", $tech="")
+  IconElement($id, 'azure-v2/Item/Security/ServiceAzureSentinel', $name, $tech)
+!endprocedure
+!procedure ServiceAzureSentinelCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureSentinelMd>', 'Security', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureSentinelGroup($id, $name='Service Azure Sentinel', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureSentinelLg>', $name, $tech)
+!endprocedure
+@enduml

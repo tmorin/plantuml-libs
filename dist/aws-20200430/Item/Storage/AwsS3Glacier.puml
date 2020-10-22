@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsS3GlacierMd [14x14/16z] ROu50WDG249NW7Z_-owCzVjfuszoxaOisZUlK1P0FiANZeK3ibcMb4b87HFJQU6iHzlWD7R1j0EdIvG5FQppM2Qfa5PQ-Yyt
+sprite $AwsS3GlacierLg [20x20/16z] {
+bOu53iGm30JLPi7s_V-znO1Et0cQDxzGLVrUM0H0Uha0EIvCH2yaQY3KwrC39Kj4O_TPQTquhJucK5dLVDTwZCPz2L2IVxwg8FUj9zPK4DBuiWT1gBfFxq_S
+6sFwVaywjmPFCOeR4Cf1Y01iAt9IzTpN-i89
+}
+!procedure AwsS3Glacier($id, $name="Aws S3 Glacier", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsS3Glacier', $name, $tech)
+!endprocedure
+!procedure AwsS3GlacierCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsS3GlacierMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsS3GlacierGroup($id, $name='Aws S3 Glacier', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsS3GlacierLg>', $name, $tech)
+!endprocedure
+@enduml

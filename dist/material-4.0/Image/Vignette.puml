@@ -1,0 +1,13 @@
+@startuml
+sprite $VignetteMd [14x14/16z] NOs50G0W40BjLlQVrkuplu2yCBvXHE12w7OxOtnxjG8yxHCrLWg1J4ABr8hK7_sTS5s5Ea0rXrGTN7TutGaN6qvU2W
+sprite $VignetteLg [20x20/16z] ZP054iH020IHjRlO_ryR3-lIPHG-0wEGTH6M0DSjOKMIK8hqv6R3Y6pc86VWnKXEWQ3Vt1y2_a_EX3bJpfLdunjAVj5oDlXvqeH8UWfrnDfA7W2x18PH3W
+!procedure Vignette($id, $name="Vignette", $tech="")
+  IconElement($id, 'material-4.0/Image/Vignette', $name, $tech)
+!endprocedure
+!procedure VignetteCard($id, $funcName="", $content="")
+  IconCard($id, '<$VignetteMd>', '', $funcName, $content)
+!endprocedure
+!procedure VignetteGroup($id, $name='Vignette', $tech='')
+  IconGroup($id, 'IconGroup', '<$VignetteLg>', $name, $tech)
+!endprocedure
+@enduml

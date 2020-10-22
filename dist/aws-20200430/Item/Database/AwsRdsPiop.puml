@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsPiopMd [14x14/16z] lOe50SC030GNk8j_nIk3WWQVMZmBsz-h_8h5Dd6o69eMTfRMD9DSoQXOaoqA0jWB
+sprite $AwsRdsPiopLg [20x20/16z] vP350S0020FH2_ilNFdKD-ZzS1BNF91FsOFIs8lvGww8Sd3wpA66B52SENpFjUeowzRxRE_xtfxEb_Sh
+!procedure AwsRdsPiop($id, $name="Aws Rds Piop", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsPiop', $name, $tech)
+!endprocedure
+!procedure AwsRdsPiopCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsPiopMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsPiopGroup($id, $name='Aws Rds Piop', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsPiopLg>', $name, $tech)
+!endprocedure
+@enduml

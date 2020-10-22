@@ -1,0 +1,16 @@
+@startuml
+sprite $MyLocationMd [14x14/16z] RSw54KGX34NHomI7b_HVxRhlFsCGvoOR7zRYPOH73Ewa35cwPmHce04apwo8IVQ4RIV7HSPt_luzAzUj4kQ6d44J84a69d6JPhZ7J8UNtVfkpW
+sprite $MyLocationLg [20x20/16z] {
+XP254KD120NnRmUl_supNDntV77eYWYzaVbgsAgCdyo6oNgtaXXX5WCfrwn4q2IGbyoj5Pjno_MSXeD82oWb6fY9ZkXoe0i3rlqBIeQ9aQ9IFhbBRTrg_JR3
+dcVGrZ5svwxPBZjNoyPlE_ToXwlwqUMlFzYUF-DLpdz_-lpx4m
+}
+!procedure MyLocation($id, $name="My Location", $tech="")
+  IconElement($id, 'material-4.0/Maps/MyLocation', $name, $tech)
+!endprocedure
+!procedure MyLocationCard($id, $funcName="", $content="")
+  IconCard($id, '<$MyLocationMd>', '', $funcName, $content)
+!endprocedure
+!procedure MyLocationGroup($id, $name='My Location', $tech='')
+  IconGroup($id, 'IconGroup', '<$MyLocationLg>', $name, $tech)
+!endprocedure
+@enduml

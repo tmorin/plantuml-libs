@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceAzureSynapseAnalyticsMd [14x14/16z] {
+HKu70W0X24eXalh_Vw_RxYrjKvzLixURSgmnblACGsjYzpKKhRpsJ031wR2p0JZ7qb4Lb13dJkNESZ2PRtRT8YF-h8jdvki0kYAS6eN0UGK-noZn1EHjhnrB
+LhGFQUKL7
+}
+sprite $ServiceAzureSynapseAnalyticsLg [20x20/16z] {
+NS-7WSKW30DGsv9hzj_t273jAmLuTBdHc5Jv5sDDkVqHHKzdJvdAZUKp1R7g3BihFS_mBC2pAkOPtm92VRKWw5njso8hsSlA1UIH5Q_NA1xXj8EiEowJ0Eol
+AQ3hHxDVEr4wxSFiNVQ_APRnxDjnX81J9HfYkU_AiojgodOPLooxgNV3w33Hw8uj6oswiZfmw2goabU-
+}
+!procedure ServiceAzureSynapseAnalytics($id, $name="Service Azure Synapse Analytics", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceAzureSynapseAnalytics', $name, $tech)
+!endprocedure
+!procedure ServiceAzureSynapseAnalyticsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureSynapseAnalyticsMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureSynapseAnalyticsGroup($id, $name='Service Azure Synapse Analytics', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureSynapseAnalyticsLg>', $name, $tech)
+!endprocedure
+@enduml

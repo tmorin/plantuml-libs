@@ -1,0 +1,18 @@
+@startuml
+sprite $AutoScalingMd [14x14/16z] TKs30S1042kY_HUk-JWpIKlyRURvsv7FaHtfI9T8zqe24a1osLsNVHIopnwd8Ii
+sprite $AutoScalingLg [20x20/16z] VP350SGm40DDWluRFWmdydoMqIkIv-GyjNPpidVwZ0nOSvyasy2YRcwQD3U708nActK0KFBTQ_EC-Nxvjlo3_DFC6m
+!procedure GroupAutoScaling($id, $name='Group Auto Scaling', $tech='')
+  IconGroup($id, 'GroupAutoScaling', '<$AutoScalingLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupAutoScaling>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

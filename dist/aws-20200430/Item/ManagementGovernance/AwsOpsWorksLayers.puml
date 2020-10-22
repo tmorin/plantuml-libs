@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsWorksLayersMd [14x14/16z] OsP50ioiJ8nmmCJAmiW01umiA3nMLYO4ZuaLrHG6F03TFeGCcdrejYEx3Dq-
+sprite $AwsOpsWorksLayersLg [20x20/16z] OsJ108mix6WYO046DC12VJ4EDZJ0mSB0X04OY0NOz6AnWov-mnQcsC8U
+!procedure AwsOpsWorksLayers($id, $name="Aws Ops Works Layers", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOpsWorksLayers', $name, $tech)
+!endprocedure
+!procedure AwsOpsWorksLayersCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOpsWorksLayersMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOpsWorksLayersGroup($id, $name='Aws Ops Works Layers', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsOpsWorksLayersLg>', $name, $tech)
+!endprocedure
+@enduml

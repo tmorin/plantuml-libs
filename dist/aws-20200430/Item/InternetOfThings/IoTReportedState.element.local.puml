@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the IoTReportedState element
+include('aws-20200430/Item/InternetOfThings/IoTReportedState')
+IoTReportedState('io_t_reported_state', 'Io T Reported State', 'an optional tech field')
+@enduml

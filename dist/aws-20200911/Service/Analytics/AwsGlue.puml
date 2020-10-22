@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsGlueMd [14x14/16z] BSc92KHH2CLG6DVSrt-_Wtx3UWXJRrLrEgue-oX0wTaC9T4U7dMIMRZzJkg0J4xA9e0J4StmBJCquYtTMglXlDDmMorFVm
+sprite $AwsGlueLg [20x20/16z] {
+RSvNWaCX34FH1sv8x7-zCmc8zFjvA3PsurIty8KV9gICUIM4t3WoUya65t9SMGaXDwQbjIhPmjOi8lhwKaQtZ3kE5uFXVbABP2mZqmdWsBvZP_ifWqTIE0-6
+GuOfH7WzRU7CRlQqWqvI9bIoRvm_y1y
+}
+!procedure AwsGlue($id, $name="Aws Glue", $tech="")
+  IconElement($id, 'aws-20200911/Service/Analytics/AwsGlue', $name, $tech)
+!endprocedure
+!procedure AwsGlueCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsGlueMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsGlueGroup($id, $name='Aws Glue', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsGlueLg>', $name, $tech)
+!endprocedure
+@enduml

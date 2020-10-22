@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDisksMd [14x14/16z] NSnN0eCX20DWXYJG-n-u6FlKxn_AjELYZqTaHhnx0Rnmp4urmPacfwomsDtxmGw6Ih0_s3dC3rnhs8krGUJhmyhTgK1XRKI88WysfHbtIvOAwVRd2m
+sprite $ServiceDisksLg [20x20/16z] {
+bOw54SH030F_pBx-2tuf34FPy8uLw_U90OItmuXvH6P6kCewuyLFM58-e6nHrNCsNHl7eEW0L3K6HsISIH08swmyRKzRTtGZiy8TnF8mQLjXDUOALvWkOn8t
+rdv1k7AjReTZUdqnzFDuXnMXSEUNynUwBF4wSTdAY9exnam5mOD1jlS_
+}
+!procedure ServiceDisks($id, $name="Service Disks", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceDisks', $name, $tech)
+!endprocedure
+!procedure ServiceDisksCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDisksMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceDisksGroup($id, $name='Service Disks', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDisksLg>', $name, $tech)
+!endprocedure
+@enduml

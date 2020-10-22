@@ -1,0 +1,13 @@
+@startuml
+sprite $ContentPasteMd [14x14/16z] hSUr0S105CFGxsEqzzysJ7rU9Td6YzuERGxLgZ7REa6PQufPOJrYQ3MC-ndS2jUTVZobazP3dmTssDS2
+sprite $ContentPasteLg [20x20/16z] rT254GCm30D0irtK_jC6o-q2_R1EHw6R08AUnDqIbmlIt6L5XaNrTj9GY01mFWFpLZGaM70ZlBCQjyiDooEZXp_9ycSlp6_izWU6DqQJ-hFdIhzr
+!procedure ContentPaste($id, $name="Content Paste", $tech="")
+  IconElement($id, 'material-4.0/Content/ContentPaste', $name, $tech)
+!endprocedure
+!procedure ContentPasteCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContentPasteMd>', '', $funcName, $content)
+!endprocedure
+!procedure ContentPasteGroup($id, $name='Content Paste', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContentPasteLg>', $name, $tech)
+!endprocedure
+@enduml

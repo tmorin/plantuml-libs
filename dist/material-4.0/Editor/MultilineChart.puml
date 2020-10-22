@@ -1,0 +1,16 @@
+@startuml
+sprite $MultilineChartMd [14x14/16z] dOV50SKm5CCKvdZ_QJyMRYKziCmPPbVVDJN2Ho8a5MzTLdLAu1nOC4EP7-ahNNufHRctqlaG5GZgE5b8Ye3_MFbSZ3pX3G
+sprite $MultilineChartLg [20x20/16z] {
+jObLWaCn30FbC5htl-r6Msw_toIc4IuWbB7MA46xtNedwKwo0HXkHpbdqaoBsoe73gseYygJuybewfrkBqLM895C3zKvDsjmBvmlXR3fJ9WqYA5GCWD5xQP4
+B50YPxxmGp1Sp1y
+}
+!procedure MultilineChart($id, $name="Multiline Chart", $tech="")
+  IconElement($id, 'material-4.0/Editor/MultilineChart', $name, $tech)
+!endprocedure
+!procedure MultilineChartCard($id, $funcName="", $content="")
+  IconCard($id, '<$MultilineChartMd>', '', $funcName, $content)
+!endprocedure
+!procedure MultilineChartGroup($id, $name='Multiline Chart', $tech='')
+  IconGroup($id, 'IconGroup', '<$MultilineChartLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HealingMd [14x14/16z] NSc54SD04CLGcHV-tVPVhI4SQ_2DkBScG2my81UeQdbWn3Ah7fJ1qEigO6WhBVo41awgXxjNyYZBlr9LcNTCZtFL04jOBoXN1gqyA8Pcsk1Y3ZpElGC
+sprite $HealingLg [20x20/16z] {
+TT073iKW30FG24CtyVrl-sMi_cZLdJmsyPNM_4KhIdPz1xEznEjW5t6XAU8WEacZIPZy8xXvh3U8Y8sxwBvD8sBXracWoFrkvCHT59syaDakibSpkk_GEeju
+NUfe1Ec8X2YZrtcoUGPb3E55X895QvsdoBX8c8kCg3Fzo0y
+}
+!procedure Healing($id, $name="Healing", $tech="")
+  IconElement($id, 'material-4.0/Image/Healing', $name, $tech)
+!endprocedure
+!procedure HealingCard($id, $funcName="", $content="")
+  IconCard($id, '<$HealingMd>', '', $funcName, $content)
+!endprocedure
+!procedure HealingGroup($id, $name='Healing', $tech='')
+  IconGroup($id, 'IconGroup', '<$HealingLg>', $name, $tech)
+!endprocedure
+@enduml

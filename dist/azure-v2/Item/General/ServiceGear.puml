@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceGearMd [14x14/16z] HOs50SD030DDf_r7hg59xj4asU1W7nsv7LLHq5Tjn9-DelCRvTN2W4xwl7Zj9HA40ug9h7CHKcsdMOfeqAb80YGs8ZknxeTBRX-Hz_u
+sprite $ServiceGearLg [20x20/16z] {
+VP055a914CD6sdB_6xCZk0I-vUMjsGqFjtS2yQuSmdEOfqYIUUfSHO8DG8uCFhEZOef9xUxSyUmyQv0ebrwNUN_KlQEwHKBbaaqD8zow6Soxs_7EJMH6ZrTm
+vaLMPWEvqr4t5tecsgL4rYS1AP_FHNik3vmN-fzplW8
+}
+!procedure ServiceGear($id, $name="Service Gear", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceGear', $name, $tech)
+!endprocedure
+!procedure ServiceGearCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceGearMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceGearGroup($id, $name='Service Gear', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceGearLg>', $name, $tech)
+!endprocedure
+@enduml

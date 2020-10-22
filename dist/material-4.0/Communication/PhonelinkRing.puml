@@ -1,0 +1,13 @@
+@startuml
+sprite $PhonelinkRingMd [14x14/16z] TSx50S0m30F0n0o5_QSjCoXuBwk0BA6o9FirAriddjB9gf-7wbMkfpGeB_Ahf8HTXUMY-_HtixqrBnW1
+sprite $PhonelinkRingLg [20x20/16z] dP254OK034EJoXUi-q-BkyCxwzKJ03A00MOnaB7FUKpucFkPDzXlohsBZDjS_b_bpDM2gzm_HTYDdAi7DpUAFpOvvVNF5nvilM8-fd9YIEh0aAe
+!procedure PhonelinkRing($id, $name="Phonelink Ring", $tech="")
+  IconElement($id, 'material-4.0/Communication/PhonelinkRing', $name, $tech)
+!endprocedure
+!procedure PhonelinkRingCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhonelinkRingMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhonelinkRingGroup($id, $name='Phonelink Ring', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhonelinkRingLg>', $name, $tech)
+!endprocedure
+@enduml

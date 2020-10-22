@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2RescueMd [14x14/16z] NOw50K112491thd_nh_px1Ov3raUjH7iTZWbAP3DLVQCTZLNXXDYZYoTXiraoy0WxKscx3SvNPa-_Bx_aVrHhm
+sprite $Ec2RescueLg [20x20/16z] {
+RP050iGm20I7JLd-_-FBKPTfOpW0ki54pXiMLF0dnjWkHgQfpA9nj0nLGLaNsU8mEBmSic6YOlvOkwm2DwXQbb6LPIR_IqLAEHAYPGx8yItxzDrobEUFlEVL
+HoqiRWETDK_aMsyVCy3gMqZHbqxW9YTkj9cS1F03
+}
+!procedure Ec2Rescue($id, $name="Ec2 Rescue", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2Rescue', $name, $tech)
+!endprocedure
+!procedure Ec2RescueCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2RescueMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2RescueGroup($id, $name='Ec2 Rescue', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2RescueLg>', $name, $tech)
+!endprocedure
+@enduml

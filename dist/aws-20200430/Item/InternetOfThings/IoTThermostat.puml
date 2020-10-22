@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTThermostatMd [14x14/16z] NKu50a9H35e0zp-oeFvyEM9HLTFJFbCL88e-cW3EB33Ze5fh5MjbrSsGNPk_MsELCKmqe88Sy4A582sDSeygGVcZrS1hqk7elcdqckmvzGS
+sprite $IoTThermostatLg [20x20/16z] {
+RP07Oa0X24CV0OB__WVkqEwwbPa4024YzlKr1aTLcFcqLAzUdl7RrNLCLgO-jxUn4r3RBI0RD2l1im8_XboZ7TU58ADyuhoa9s0I66bPXDKMJ85Moq7Kf8DZ
+8vnJSRFjt5sgWTovkuT17e5F3pfn8rkqVs5MbUOdPb1tVtAxQ73JwgxfJVjN
+}
+!procedure IoTThermostat($id, $name="Io T Thermostat", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTThermostat', $name, $tech)
+!endprocedure
+!procedure IoTThermostatCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTThermostatMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTThermostatGroup($id, $name='Io T Thermostat', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTThermostatLg>', $name, $tech)
+!endprocedure
+@enduml

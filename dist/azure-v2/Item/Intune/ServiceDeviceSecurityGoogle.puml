@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDeviceSecurityGoogleMd [14x14/16z] HSm73W0X24HHdSBU_yPBI_nfFXK0TRWd8vLPH4aDExIodpmOxJc-bSEzj9NtF7UZ8WnkkUTBeMEl1PuEo47h9heLLpy
+sprite $ServiceDeviceSecurityGoogleLg [20x20/16z] {
+NSo74GGn24DHaC3NVyTduSJid_m8fXWHj9wZ37u0cA8oBsUiicBP8uMoBkDP7ZhsHB5RoM-SMqbcpM8PEEhHoYj33fctp4F6dfbhaJEiP8N4YwPY6l7sAdxs
+bBDdA_IEjMl-0G
+}
+!procedure ServiceDeviceSecurityGoogle($id, $name="Service Device Security Google", $tech="")
+  IconElement($id, 'azure-v2/Item/Intune/ServiceDeviceSecurityGoogle', $name, $tech)
+!endprocedure
+!procedure ServiceDeviceSecurityGoogleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDeviceSecurityGoogleMd>', 'Intune', $funcName, $content)
+!endprocedure
+!procedure ServiceDeviceSecurityGoogleGroup($id, $name='Service Device Security Google', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDeviceSecurityGoogleLg>', $name, $tech)
+!endprocedure
+@enduml

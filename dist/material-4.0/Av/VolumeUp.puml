@@ -1,0 +1,16 @@
+@startuml
+sprite $VolumeUpMd [14x14/16z] XSt50SC020NGZxGnPFzfuwxlX8DF0gknq824BvrC0hm2mDP41ZKiGO3cOEYadZCnYqmobgJfv7IbtZwmEnP2JOqTmbK7
+sprite $VolumeUpLg [20x20/16z] {
+bP050WGX24Mnst__sowntMFxQEZuSEwP14geZpHiyXFBtoE0pupbxhImsH_3flzOIzrWlJI99bInmWP5P5PCmigD3VPRFh0NsqynbCDoIPhB3VAPDESRPBs1
+7LvwqDoFNlqU9m
+}
+!procedure VolumeUp($id, $name="Volume Up", $tech="")
+  IconElement($id, 'material-4.0/Av/VolumeUp', $name, $tech)
+!endprocedure
+!procedure VolumeUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolumeUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolumeUpGroup($id, $name='Volume Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolumeUpLg>', $name, $tech)
+!endprocedure
+@enduml

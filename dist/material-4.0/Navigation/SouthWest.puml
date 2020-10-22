@@ -1,0 +1,13 @@
+@startuml
+sprite $SouthWestMd [14x14/16z] ZKe35e0051koTl_JPZtMvuHVLVfDKhv9jNzsV0Wq2TKTqyJDkLcpEHTB6egtbsbAVvjR4L-r
+sprite $SouthWestLg [20x20/16z] hSi52i104CNGgMlwxt_QkgzW6_n1B5sLIvrgb_eOrSVGlyZ07S6XrHnQpQ7L7B9HwkmN4cjJ_R8U74lP0W
+!procedure SouthWest($id, $name="South West", $tech="")
+  IconElement($id, 'material-4.0/Navigation/SouthWest', $name, $tech)
+!endprocedure
+!procedure SouthWestCard($id, $funcName="", $content="")
+  IconCard($id, '<$SouthWestMd>', '', $funcName, $content)
+!endprocedure
+!procedure SouthWestGroup($id, $name='South West', $tech='')
+  IconGroup($id, 'IconGroup', '<$SouthWestLg>', $name, $tech)
+!endprocedure
+@enduml

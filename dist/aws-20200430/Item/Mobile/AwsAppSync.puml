@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAppSyncMd [14x14/16z] XOsr0SHG5CCE4kF-yuQX_Ahqq1aXKhSRb7XNKELgqhdMJFDMUQ-e6d2fi_AVc79MsfoS3HyLaZRa6q4mDvQS4Ii
+sprite $AwsAppSyncLg [20x20/16z] {
+hP053eH0300JwjF___TmZnu3Q_MM3wZCkabCpTJFefIWcpfRIJMPW4ekehOOvQf53LghcSwsCihILbaQT7XuqvQRh741STXauoLKTFoZROytb0U4aSP2gj4D
+D5eS9ACqDJdXQYFrDeF_-G4
+}
+!procedure AwsAppSync($id, $name="Aws App Sync", $tech="")
+  IconElement($id, 'aws-20200430/Item/Mobile/AwsAppSync', $name, $tech)
+!endprocedure
+!procedure AwsAppSyncCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppSyncMd>', 'Mobile', $funcName, $content)
+!endprocedure
+!procedure AwsAppSyncGroup($id, $name='Aws App Sync', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsAppSyncLg>', $name, $tech)
+!endprocedure
+@enduml

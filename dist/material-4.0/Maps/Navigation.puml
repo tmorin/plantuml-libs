@@ -1,0 +1,13 @@
+@startuml
+sprite $NavigationMd [14x14/16z] ROw54S0m30F3ODB-qvQv8RF_v0OdX6VM-oFnPe-i0FdE1E0hYLXEl1XhrY_6cfc_6EifDuC1EHWzBhRl71yETVwhTmO
+sprite $NavigationLg [20x20/16z] bOtL0SKW4C1mX-m_xPDwZo_IOcTHguGmnrgRGXQCZ2L88gG736a049O6qAJXZtt6CXjP6FuCVSSY1q4OtXR7XJjZ1IZErVznX0mZcUsIGHzMV-cqLmjy0G
+!procedure Navigation($id, $name="Navigation", $tech="")
+  IconElement($id, 'material-4.0/Maps/Navigation', $name, $tech)
+!endprocedure
+!procedure NavigationCard($id, $funcName="", $content="")
+  IconCard($id, '<$NavigationMd>', '', $funcName, $content)
+!endprocedure
+!procedure NavigationGroup($id, $name='Navigation', $tech='')
+  IconGroup($id, 'IconGroup', '<$NavigationLg>', $name, $tech)
+!endprocedure
+@enduml

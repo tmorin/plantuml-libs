@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTDeviceGatewayMd [14x14/16z] NSst0SH058JGMPRvwh_YyrOl8o8dJ1w6UtHuc1AQhjoifaXats3G5Pt3rgndjTjlkQllQZtcKxYLH_4zKChxJabi7iQSN04
+sprite $IoTDeviceGatewayLg [20x20/16z] {
+TT050aCX20PW-0Es-rzuk7vb-zd6HG0EBTprCTrVo7OZbAd8QNBHRHJfIOcH6mETeT_QDJVfrOBb2HWByscqgm2RVwQgBlV6F0XeQyoqkRNsB2vfipPHjJb3
+0oC5lKonlVEodjRhlPDwh1bkSCpvUY_Q4O7w_wl2gqLy38oBy
+}
+!procedure IoTDeviceGateway($id, $name="Io T Device Gateway", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTDeviceGateway', $name, $tech)
+!endprocedure
+!procedure IoTDeviceGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTDeviceGatewayMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTDeviceGatewayGroup($id, $name='Io T Device Gateway', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTDeviceGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

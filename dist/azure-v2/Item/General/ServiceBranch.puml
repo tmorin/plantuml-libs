@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBranchMd [14x14/16z] JSo50G0W20H09Vvn_u7jpfD8OoYWwGuZxOFPfG4YW9qqYX3ir86XIN8gYmh26HqXWYdpw1RfHtZlua7DsHOw2qHO1XR9Wet1WJkmqG
+sprite $ServiceBranchLg [20x20/16z] {
+NSs70KGX309Gqo3kl_1XhiklFWlh7IzVLomhxR84aJUTv4NfIU4l8Im8r9V8CVADoPCnfTHkGsCWS326nimpeiWizDj4hbsDq4lIicHbdCtBYjrYcTxedfAI
+eLmTaY5523Tro22QO32epqi6DuhxbuHxzzwmNpFXHTF-eGS
+}
+!procedure ServiceBranch($id, $name="Service Branch", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceBranch', $name, $tech)
+!endprocedure
+!procedure ServiceBranchCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBranchMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceBranchGroup($id, $name='Service Branch', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBranchLg>', $name, $tech)
+!endprocedure
+@enduml

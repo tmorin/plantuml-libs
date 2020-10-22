@@ -1,0 +1,16 @@
+@startuml
+sprite $DockerMd [14x14/16z] bOn50W0X30EXbeRz_tyNlpENIgGyegXtzq3hboo1ZVHIOUFLT_8pGMen9h83ebjhalteSbrzDlRShLKSeUMD7m
+sprite $DockerLg [20x20/16z] {
+jSvL6e0m30FWrTQazpym_N1v9Z3xf-ElQEZ7ek89cHEhgHqaLUHg3jbN5TUK3i-4DIaESmrWoX1dTh3-oTI-tfmarhzBsNOB22OwJNwy5c7Ptcawq2t8ufH3
+LbLp7Nzb0G
+}
+!procedure Docker($id, $name="Docker", $tech="")
+  IconElement($id, 'homecloud/Brand/Docker', $name, $tech)
+!endprocedure
+!procedure DockerCard($id, $funcName="", $content="")
+  IconCard($id, '<$DockerMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure DockerGroup($id, $name='Docker', $tech='')
+  IconGroup($id, 'IconGroup', '<$DockerLg>', $name, $tech)
+!endprocedure
+@enduml

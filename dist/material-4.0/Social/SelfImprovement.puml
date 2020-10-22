@@ -1,0 +1,16 @@
+@startuml
+sprite $SelfImprovementMd [14x14/16z] XOl50SH030ENmQJ-gpq8S-PZYzmhjMv40C9TvedyAXJGMIRxAqt_Fvgr1EHc5d-rd0agGZd_ozxGQsVOkAoKY8cgU-OB
+sprite $SelfImprovementLg [20x20/16z] {
+hOu55WGX34E7scFIBhd_QTVTxQFrJF-WzriNUUESzxvNjH8Xrwv1ZajdAwwfTfvL75kd73k1zFM1hq_8NXbaKxneWhqYCV7abhHcSjJBhgfvfhl8sRYb3Zv5
+MXGIW4m_iW8
+}
+!procedure SelfImprovement($id, $name="Self Improvement", $tech="")
+  IconElement($id, 'material-4.0/Social/SelfImprovement', $name, $tech)
+!endprocedure
+!procedure SelfImprovementCard($id, $funcName="", $content="")
+  IconCard($id, '<$SelfImprovementMd>', '', $funcName, $content)
+!endprocedure
+!procedure SelfImprovementGroup($id, $name='Self Improvement', $tech='')
+  IconGroup($id, 'IconGroup', '<$SelfImprovementLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the LocalPlay element
+include('material-4.0/Maps/LocalPlay')
+LocalPlay('local_play', 'Local Play', 'an optional tech field')
+@enduml

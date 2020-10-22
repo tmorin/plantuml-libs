@@ -1,0 +1,16 @@
+@startuml
+sprite $ExploreMd [14x14/16z] PKs54G0n24klALLW_sdV_NC6KVmGQ-yr7a_r3VNvgAqlzrk2UjmbIu1ith5yYG9r7zkd42PVliqf06rlfMiGtQe8e9a-1zlp0TZ6QCGFCm
+sprite $ExploreLg [20x20/16z] {
+VP074WCX24M_oameit3_sqPiwNcxDZhW3uselGWAUtGkBaT47WjlMnHFJ67n8r2EgwICZwH18pXboqmgq38HyaoyeYCh8aN2C4MDXBQimWmyPSjNqAb-gl5v
+LfwYQzMYQ18BNZNVD3PUFdkZpndG-woSo-TC_t07
+}
+!procedure Explore($id, $name="Explore", $tech="")
+  IconElement($id, 'material-4.0/Action/Explore', $name, $tech)
+!endprocedure
+!procedure ExploreCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExploreMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExploreGroup($id, $name='Explore', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExploreLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRekognitionImageMd [14x14/16z] HSl70GH13091GBHcyq_ulAadHa-bCFfm4i_g9Ko612dEsfP9HmHlkskCI8KKF47DY9wvDFFkhgguhsvzeE-V04lofYCgjbCygAzB4XVfg0WAaSHMVtS
+sprite $AwsRekognitionImageLg [20x20/16z] {
+NOi7SaL13CBaDIp-kV-1Cw-cQ9W6Y8jEPh8Nl-XrByKFotiBUjvh9Uhsc3Lr5gndtK41TZEhR4jYcpGLPCQoFMBeVIHrXBQCHP08HsU8ZikytPxjhxjhdswC
+BI4pL73p2GKsMNLg-k0SJ7Mm0CVXOatL00huqq1v5cdGqM-TiY26FggOYnu1HpKYiRop2s3gg619wdhUq_pZ6m
+}
+!procedure AwsRekognitionImage($id, $name="Aws Rekognition Image", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsRekognitionImage', $name, $tech)
+!endprocedure
+!procedure AwsRekognitionImageCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRekognitionImageMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsRekognitionImageGroup($id, $name='Aws Rekognition Image', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRekognitionImageLg>', $name, $tech)
+!endprocedure
+@enduml

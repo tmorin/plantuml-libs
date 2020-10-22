@@ -1,0 +1,16 @@
+@startuml
+sprite $FaceMd [14x14/16z] POo50O0m30I_xkt-s_893bUz67wuqbfnXvIbb5FQfPw2hEebrOsqzZwPx3nK4Zij8arWyg6r2kDOQb6hJB5Gh4n1dLPbCYMwQeoyL5ZSncWUFpO
+sprite $FaceLg [20x20/16z] {
+VP075i9024IfCGtc_hTLth9s_Ua_imNe3sgcBuBNn8rOcIQMQ5AdmXD3SgMMlLrmkHN0GJJbMYxxfvqZM9i0TkxbpNM3r0eN8XBgcyFAET62PTxAQSrgONrR
+KUaCUY9oxCKVoh7sddKgHNBNbjwfX3rw4Alx6aXxwXMANFcpft-u0W
+}
+!procedure Face($id, $name="Face", $tech="")
+  IconElement($id, 'material-4.0/Action/Face', $name, $tech)
+!endprocedure
+!procedure FaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$FaceMd>', '', $funcName, $content)
+!endprocedure
+!procedure FaceGroup($id, $name='Face', $tech='')
+  IconGroup($id, 'IconGroup', '<$FaceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $EmailMd [14x14/16z] XSS53i1020J0FJTW___QAcdyEj71JbxJhGo8qPa0sgBm8h4f8EoXaIrqoZrQZZ4RVUISfC_zBizFniu9
+sprite $EmailLg [20x20/16z] fOz50aGX3CM2E-_-fnsNRpi2jNHLbeXrHmIS3ZW8IlKlQb80hqYSRpC3yUc2LA18d_fnpxqRmn6cFkv9Cs2Qj7LIZDBV_LbtrxSHMztG8alS0G
+!procedure Email($id, $name="Email", $tech="")
+  IconElement($id, 'material-4.0/Communication/Email', $name, $tech)
+!endprocedure
+!procedure EmailCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmailMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmailGroup($id, $name='Email', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmailLg>', $name, $tech)
+!endprocedure
+@enduml

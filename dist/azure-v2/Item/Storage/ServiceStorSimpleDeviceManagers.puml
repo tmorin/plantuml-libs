@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceStorSimpleDeviceManagersMd [14x14/16z] FSc70KGX20DGm132tt_WE-jJklrvaXns1AiATwWYUKQm5hfPKdMacrHprAen2u3In9aoKrjt2u1w8lWrIQdwavi5SeFRuH6pFmOGziGOy_O3
+sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] {
+NT055WGX30FGIjgmzx_mPXpu8-JXO2ztsqHanbBhsPGA-nJPhUh-AhDvQxj4yHCc3ivmpiuD33s4Xt5XNX7IutO79BB6W_pfNz9lNVPF2e32XPP3XQgo5Kwm
+i_AQfKdbSfD4lH3htOZRoYDYhpfcYAqk0RZ97m
+}
+!procedure ServiceStorSimpleDeviceManagers($id, $name="Service Stor Simple Device Managers", $tech="")
+  IconElement($id, 'azure-v2/Item/Storage/ServiceStorSimpleDeviceManagers', $name, $tech)
+!endprocedure
+!procedure ServiceStorSimpleDeviceManagersCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceStorSimpleDeviceManagersMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure ServiceStorSimpleDeviceManagersGroup($id, $name='Service Stor Simple Device Managers', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceStorSimpleDeviceManagersLg>', $name, $tech)
+!endprocedure
+@enduml

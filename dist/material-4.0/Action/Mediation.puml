@@ -1,0 +1,16 @@
+@startuml
+sprite $MediationMd [14x14/16z] JKu30W1146hjwV-lFQFbA00fub-LJ7ysIVDVbhWwTHZLZiVZV7fpM1dEyf4DSZPRhHkpPElC_EZ_fB28WgY7JwkHMQJLzGu
+sprite $MediationLg [20x20/16z] {
+XT25OSKm34NHPmx9T_zjgtuE7pE3f12rrM3IMi8rhHISfLLVwE3ggZClLfEHjHKnkH3qL5lqZ2B95ZtCqAF2uq83irp6TJCm1yjHNv2q0Ecpzj6bS736G-pz
+zovfNaeqoitR2gwdsxzIWpbe8qQj_G4
+}
+!procedure Mediation($id, $name="Mediation", $tech="")
+  IconElement($id, 'material-4.0/Action/Mediation', $name, $tech)
+!endprocedure
+!procedure MediationCard($id, $funcName="", $content="")
+  IconCard($id, '<$MediationMd>', '', $funcName, $content)
+!endprocedure
+!procedure MediationGroup($id, $name='Mediation', $tech='')
+  IconGroup($id, 'IconGroup', '<$MediationLg>', $name, $tech)
+!endprocedure
+@enduml

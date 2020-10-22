@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the IoTPoliceEmergency element
+include('aws-20200430/Item/InternetOfThings/IoTPoliceEmergency')
+IoTPoliceEmergencyGroup('io_t_police_emergency', 'Io T Police Emergency', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsComputeOptimizerMd [14x14/16z] BOa70WH12CAk28Zx__ykKp8rng4t2WvtS8r5Skj4VYBmHtJ6w2JtFtL61GfmSTbVvHBPjGo6G3JBCLO-9E6qn3oaIkud4Koqodv2vy_KRPE-sNR5uGK
+sprite $AwsComputeOptimizerLg [20x20/16z] {
+DSu73WGn24DHJGm6m_tlkodBLzHU6hhb5AUnQUplkZXM0J0jzR2E-STSX9dhO9MAvYowpE2vktQ4NfBZMGb8a6wKcvw1iIXd8hNmR9cMycDRAF-6egETGWhG
+CqMA7uqLyqS2SgVBySRkgeuGcwG9AwNitcQj3BUg2aZgZKMiC9hldcrikKKbT_biurbrqrXNZOmDZlu
+}
+!procedure AwsComputeOptimizer($id, $name="Aws Compute Optimizer", $tech="")
+  IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsComputeOptimizer', $name, $tech)
+!endprocedure
+!procedure AwsComputeOptimizerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsComputeOptimizerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsComputeOptimizerGroup($id, $name='Aws Compute Optimizer', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsComputeOptimizerLg>', $name, $tech)
+!endprocedure
+@enduml

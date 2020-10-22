@@ -1,0 +1,16 @@
+@startuml
+sprite $ArrowDropDownCircleMd [14x14/16z] POs50S0W40E3E-o_ROlB7_gMW21S24wWuqh3hM25iYnaByMVNgoF0bHDrgY6DQYHBmltg9mEhtj5-XYz1E43
+sprite $ArrowDropDownCircleLg [20x20/16z] {
+VP3L0K0X54BjLlRVzgKTv_CcG0vm8NXNe2RX9XfQIkAfl2IUIsZuYZIrjVYk6tIOfvRwMdn4u4796_MsUVxWdWs71v5h28G4v1h7X_UDcld7h6NMdEZiJSmP
+Y36hPEYSwO4B
+}
+!procedure ArrowDropDownCircle($id, $name="Arrow Drop Down Circle", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ArrowDropDownCircle', $name, $tech)
+!endprocedure
+!procedure ArrowDropDownCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowDropDownCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowDropDownCircleGroup($id, $name='Arrow Drop Down Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowDropDownCircleLg>', $name, $tech)
+!endprocedure
+@enduml

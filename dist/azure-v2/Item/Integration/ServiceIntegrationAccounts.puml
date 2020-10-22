@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceIntegrationAccountsMd [14x14/16z] ROe50WGX30F914dv_t_F_NQGDfBAYwBsMsqIXEx4YUnsvq11avxgSXbJJrMVId2vpoPZi4AVt5IMgppZcx9rkyIrivAiwzs0Nz3E
+sprite $ServiceIntegrationAccountsLg [20x20/16z] {
+ZT350SGW54LHddmi_TSxBl5mbmSdxGMjGr9RrVsmx7dvPKf0-iNsCaWSiKHYRNWQW9bPfPeAOsRkKrQKp9cfrg0NymIReBWm2L0OaA3_6IfJjMhnrseBbLxj
+LZycHWWEan5yMzQyU5hlc_-3r-4E
+}
+!procedure ServiceIntegrationAccounts($id, $name="Service Integration Accounts", $tech="")
+  IconElement($id, 'azure-v2/Item/Integration/ServiceIntegrationAccounts', $name, $tech)
+!endprocedure
+!procedure ServiceIntegrationAccountsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceIntegrationAccountsMd>', 'Integration', $funcName, $content)
+!endprocedure
+!procedure ServiceIntegrationAccountsGroup($id, $name='Service Integration Accounts', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceIntegrationAccountsLg>', $name, $tech)
+!endprocedure
+@enduml

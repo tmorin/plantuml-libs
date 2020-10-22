@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTPoliceEmergencyMd [14x14/16z] LSu7WWD02090GF7_JpwsNPBPNXM0AAOAYyRZrD5QMBN90gTmrP0kjADH9aSSnb3dp0ZlCukDQ6hVr5dftSpC--Q9K7qYxEYA7Vra5Zkptwp_
+sprite $IoTPoliceEmergencyLg [20x20/16z] {
+RP050iH020FHmFzVV93kULFTmP6LpQNApqibq0Z5_1n5TZQgC9-C2y7y9GDXkdp8KyIgb-dM8EkoooyxggBp-67y0ffcgOZnWubYcL3BeA9UBgUl_SnHoHp7
+pyaO2nFAm5ZM64mvM8EzQAKlANttp7F1FtiUlUR8ZnsOdHtSxUf-ftUxVm
+}
+!procedure IoTPoliceEmergency($id, $name="Io T Police Emergency", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTPoliceEmergency', $name, $tech)
+!endprocedure
+!procedure IoTPoliceEmergencyCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTPoliceEmergencyMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTPoliceEmergencyGroup($id, $name='Io T Police Emergency', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTPoliceEmergencyLg>', $name, $tech)
+!endprocedure
+@enduml

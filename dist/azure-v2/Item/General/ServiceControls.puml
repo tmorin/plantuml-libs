@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceControlsMd [14x14/16z] XSUr0G1130InzHox_twV6PN9y29hLIgEFXVs1HabpKi53MKUs90KvyN4ptAwhfJZmEPHaeZnC8jHqte
+sprite $ServiceControlsLg [20x20/16z] bSm55WGX201G6fxtl-_kTDcjdm10JtQUuCaHjfzd5eSj9qIAWlcanRSV4D5bstlvCV5botkhLT7BH3GpRPdcPaMpgbbcH8GFiyM8cJCJQTeV
+!procedure ServiceControls($id, $name="Service Controls", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceControls', $name, $tech)
+!endprocedure
+!procedure ServiceControlsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceControlsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceControlsGroup($id, $name='Service Controls', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceControlsLg>', $name, $tech)
+!endprocedure
+@enduml

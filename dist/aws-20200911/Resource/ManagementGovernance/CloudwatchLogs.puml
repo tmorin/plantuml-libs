@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudwatchLogsMd [14x14/16z] VOs50KCX44Dpbh3_nCLgtnwS6nvmiPFumM3Xw5Xc6hBNQqGHWL3L2dSTJgAhgl4TfArYP4PLcnVaw8fj3UwgKrqwQyBAO0DSyW8
+sprite $CloudwatchLogsLg [20x20/16z] {
+fSi54a81203HfM6y_tdjRlsFc5mMa3voBcnFJNZ2iaBOYmWFWIxt66TBAZDBwBJkrB6hi6sKQ6ksP4-tWF8IaEcjmnCoIZaH5GEPGwk7RAmwns8b8FjAiN5t
+g_5HphIwEZfqX2i2T8rAxqro50vw8Fnk0m
+}
+!procedure CloudwatchLogs($id, $name="Cloudwatch Logs", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/CloudwatchLogs', $name, $tech)
+!endprocedure
+!procedure CloudwatchLogsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudwatchLogsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure CloudwatchLogsGroup($id, $name='Cloudwatch Logs', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$CloudwatchLogsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $RestoreMd [14x14/16z] RKw50GD128Dpp_xRDhHzVzo9l90BRe_z1B3YBuceAfgHBT6LH085dbcUh0m6lPcf_omFUe2rKTGoqTc5LEjlKjMoxGh7ZW_sS6Aj5GyqmSkJFW
+sprite $RestoreLg [20x20/16z] {
+bOu54WGn20JZ7kR_lpsWvgnyUpMDXeV4sblvCsd1aFvLHR1hBlrYHwe4i6nWqsraVTVeihdAcFQ1vyfrrv6_RYBf4c4XnOzhzfbGZagRIQTfkCcc7tJMgXGk
+rJPdA5I1kv31dJjs81bO9ULsV1X96yxWcRRrNi8pNW
+}
+!procedure Restore($id, $name="Restore", $tech="")
+  IconElement($id, 'material-4.0/Action/Restore', $name, $tech)
+!endprocedure
+!procedure RestoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$RestoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure RestoreGroup($id, $name='Restore', $tech='')
+  IconGroup($id, 'IconGroup', '<$RestoreLg>', $name, $tech)
+!endprocedure
+@enduml

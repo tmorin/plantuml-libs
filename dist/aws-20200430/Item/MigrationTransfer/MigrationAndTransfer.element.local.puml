@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the MigrationAndTransfer element
+include('aws-20200430/Item/MigrationTransfer/MigrationAndTransfer')
+MigrationAndTransfer('migration_and_transfer', 'Migration And Transfer', 'an optional tech field')
+@enduml

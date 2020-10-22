@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTDesiredStateMd [14x14/16z] JKo70GCm248G_V_ZOZSZSOCwHY5AG8Md5FAYxKOAwGQE6BnxoKPQiOBhdQNfddSsoH9zU_H_rfPiqcjlmiEijxryNXdxQT7wmeKInIWiF
+sprite $IoTDesiredStateLg [20x20/16z] {
+NSi54aD120DGYD7xdxXKlsGj-sQeAhBL0ZvNRO8r7uPKeMvXYU-YIKOV8_0kuNvoitqGUOEM3fiXcOUwJ-PjKicohOzbJSFsa9mvB42qnOVPpNbP3jE39P-j
+oreMqfu6Ul9UB3cx1hCxKnutHXnkct4-0HEA2zAofC-iP58Ryjsh0g1PRB3L058R4Mg1QZUry0G
+}
+!procedure IoTDesiredState($id, $name="Io T Desired State", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTDesiredState', $name, $tech)
+!endprocedure
+!procedure IoTDesiredStateCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTDesiredStateMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTDesiredStateGroup($id, $name='Io T Desired State', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTDesiredStateLg>', $name, $tech)
+!endprocedure
+@enduml

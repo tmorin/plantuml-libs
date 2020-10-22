@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTButtonMd [14x14/16z] BOm70aCn248xL4RkVzzYyr-c2aYyOD7or5knmJ0rgJn3AMKtK-5wY25izNHs5KXxQ17TrVzADgVdLco4_bub-QH0z1buqRHuZeQMX6QguA1iwHPRBZy
+sprite $AwsIoTButtonLg [20x20/16z] {
+TSu5aWCn34JHgfLQkFS_RoJtk23mW_ECESNDsG_xu7qsED40Mfd07jC_10rrboVMAck_xevcQul2LELiKbKXaIU8YT70jMQwhpociUO2f3pMhdLA7SBQ18Mo
+fRMEI7_Q2tEj_NUnXetrc9ZlTbaEETPTRcVRCREzQhCYpeT6A0Bj4ry
+}
+!procedure AwsIoTButton($id, $name="Aws Io T Button", $tech="")
+  IconElement($id, 'aws-20200911/Service/InternetOfThings/AwsIoTButton', $name, $tech)
+!endprocedure
+!procedure AwsIoTButtonCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTButtonMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTButtonGroup($id, $name='Aws Io T Button', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTButtonLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElasticInferenceMd [14x14/16z] XKsr0G8m04EY_VzVfB8XsUBZ3-euXmIXvStaQF3UIKp9IZGPJ5kgke8INo8c2qtMubcfGDmwMKc2T_eyjicOtdSy0G
+sprite $AwsElasticInferenceLg [20x20/16z] {
+fKvN0a8n2FEL119w__Ew5Vr-tOMiFZ-iRVsN4Y10JyLOtk5T6AYoL6ojg656CwdEvBV42bg0T-9TOpJCyYerFpKbORXzW5zkIYlSxS2aAoIi96goM1j0OAt9
+33G2uWK_2K5cyAYSMbkFhJuzRW
+}
+!procedure AwsElasticInference($id, $name="Aws Elastic Inference", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsElasticInference', $name, $tech)
+!endprocedure
+!procedure AwsElasticInferenceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticInferenceMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsElasticInferenceGroup($id, $name='Aws Elastic Inference', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticInferenceLg>', $name, $tech)
+!endprocedure
+@enduml

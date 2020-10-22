@@ -1,0 +1,13 @@
+@startuml
+sprite $HomeFilledMd [14x14/16z] ZSV50S0m0090eExxJrktUEvty21_qJJfJRtiwZlTSkh-kTi_wxshfVfR2PGPKraIO5aAbWq
+sprite $HomeFilledLg [20x20/16z] bOk54G1130BFDGdzL_lk_Zl60Al-Oksf2e0_L1aTUTiOmW2PfVAOMVo83N7iohOh_pik7RplKX_YHPVUV_7KdNy-nUJwOBlWrNTQ
+!procedure HomeFilled($id, $name="Home Filled", $tech="")
+  IconElement($id, 'material-4.0/Action/HomeFilled', $name, $tech)
+!endprocedure
+!procedure HomeFilledCard($id, $funcName="", $content="")
+  IconCard($id, '<$HomeFilledMd>', '', $funcName, $content)
+!endprocedure
+!procedure HomeFilledGroup($id, $name='Home Filled', $tech='')
+  IconGroup($id, 'IconGroup', '<$HomeFilledLg>', $name, $tech)
+!endprocedure
+@enduml

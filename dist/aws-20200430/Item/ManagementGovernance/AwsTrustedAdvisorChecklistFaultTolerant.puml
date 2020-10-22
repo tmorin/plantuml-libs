@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistFaultTolerantMd [14x14/16z] BOs50S1020EZTF-9Qy-zOecQfAdnKJ5ycJ-AQzhgHW6jZKhy8rlB9JNUI095TZkP_urE9zrQLu_V-Zf09dr9x1BBm5GtI61XTAB-Z1y
+sprite $AwsTrustedAdvisorChecklistFaultTolerantLg [20x20/16z] {
+ZSnNeWGW24FHG1BK_I_urR5Cd_Edm0Mtm3zrJwtcdm0cVkNwCzMHeiYzvn5GsJx-CDDvzdJVOqTaPjpsMbLzteiyUhGikiRHetz0fPgtKm-q1A2cVmuhbGr0
+Q6832oKScf14T6mi80N8M8P9YUH8J5xY6m
+}
+!procedure AwsTrustedAdvisorChecklistFaultTolerant($id, $name="Aws Trusted Advisor Checklist Fault Tolerant", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant', $name, $tech)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistFaultTolerantCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTrustedAdvisorChecklistFaultTolerantMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistFaultTolerantGroup($id, $name='Aws Trusted Advisor Checklist Fault Tolerant', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsTrustedAdvisorChecklistFaultTolerantLg>', $name, $tech)
+!endprocedure
+@enduml

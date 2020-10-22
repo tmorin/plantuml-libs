@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSingleSignOnMd [14x14/16z] XSgr0O1050DGxCTk_tbng-1raVmGuFO46_IPu3GJsWEPcF8HaNWgADWJJS0WpwiW0xcO9JfFBbHUg7nQ
+sprite $AwsSingleSignOnLg [20x20/16z] {
+bSst0KG120BGGW65_UUzdA_whpFYWnB_4kKV3R7tQnMACmr-hlaY4XW_tEUxSUFHucrA00xfczjCZH5YV2IGXS1wz1Q0C6ltzFfXPhUbLVlB4cN2FrWM_Iqi
+jFze_2S-u0m
+}
+!procedure AwsSingleSignOn($id, $name="Aws Single Sign On", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech)
+!endprocedure
+!procedure AwsSingleSignOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSingleSignOnMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsSingleSignOnGroup($id, $name='Aws Single Sign On', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSingleSignOnLg>', $name, $tech)
+!endprocedure
+@enduml

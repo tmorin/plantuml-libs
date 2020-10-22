@@ -1,0 +1,16 @@
+@startuml
+sprite $TramMd [14x14/16z] VOm50iH020FN5PB_l_Qkxksi0adCZTQxI5ihwogyMueW85NYF04dOCVA8VaGV8IRgu-7AWFAfI939EVAA9dpccayqHiOpLo97_J3TUKF
+sprite $TramLg [20x20/16z] {
+VP250S0W3C1OSSt_ryxTWWUl-gApAztXX1LH5y9DY4yPSlA7DkoOpMLsykOgFinuwkxUUkrm_-kCdJ7jSEpihW1DfDrTsPeL2v0dHJX_hkISmQkTI5f24mvd
+xRhUgIy6
+}
+!procedure Tram($id, $name="Tram", $tech="")
+  IconElement($id, 'material-4.0/Maps/Tram', $name, $tech)
+!endprocedure
+!procedure TramCard($id, $funcName="", $content="")
+  IconCard($id, '<$TramMd>', '', $funcName, $content)
+!endprocedure
+!procedure TramGroup($id, $name='Tram', $tech='')
+  IconGroup($id, 'IconGroup', '<$TramLg>', $name, $tech)
+!endprocedure
+@enduml

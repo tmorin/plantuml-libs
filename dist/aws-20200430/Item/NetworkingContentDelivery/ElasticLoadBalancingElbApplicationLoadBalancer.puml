@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticLoadBalancingElbApplicationLoadBalancerMd [14x14/16z] BOU7WSG03C9a6v7il_3NemECVnW0qh-U1eXSjOTX2mwCq7N1x4PO2qpQ3521Y-O0XNq3UHSiFFVC_0JKkQVLzicuNlzVpoNoWG7I1TY_0sEr3l0D
+sprite $ElasticLoadBalancingElbApplicationLoadBalancerLg [20x20/16z] {
+RP1N0eHG20C1GvAz_uLNi7mvriphn0B9bX0lSDTyg_rOAkCcnKjnUkh4cBHJZKTa1YRFfCvnrtpZqe6UfAwJLkmORO-3RJUFxIt5KabcnIBlX-Q9kS7hqhZs
+dkiq0tzjZEhV3DUiqGfg5W_th07UX-Y-ZqA40smJ96Yi22Z9WwhI-M4ATmrkxlHHgy-QVjN-3m
+}
+!procedure ElasticLoadBalancingElbApplicationLoadBalancer($id, $name="Elastic Load Balancing Elb Application Load Balancer", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/ElasticLoadBalancingElbApplicationLoadBalancer', $name, $tech)
+!endprocedure
+!procedure ElasticLoadBalancingElbApplicationLoadBalancerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticLoadBalancingElbApplicationLoadBalancerMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure ElasticLoadBalancingElbApplicationLoadBalancerGroup($id, $name='Elastic Load Balancing Elb Application Load Balancer', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElasticLoadBalancingElbApplicationLoadBalancerLg>', $name, $tech)
+!endprocedure
+@enduml

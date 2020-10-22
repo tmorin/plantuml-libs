@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcPeeringConnectionMd [14x14/16z] LKw70GD12988Njn_uOXf_zYxOIIPyG4FfL4Rb0BFHgWca2uAPmTtx20Pc4d19idcuqmCDUcev1tZJ15sgm0mxrjsEIJumkTwx_NlPmD_je2_XhqN
+sprite $VpcPeeringConnectionLg [20x20/16z] {
+RL255OGm38qBr_tdlVye3ctS4zeUYp1T7qTLPbMSPbkWgCArs6RoXjl6WCxjCwfNHyIgDZnmpI8H89kwoMHhgQblOPvAMo1naS7ZfLqCRbGigRyqNeGacYr_
+cWBRI4tVydF0DdEr4mzpX2Dtwo5gfZ9xdBEudxFmFimvytktxnkyR_Lzqw_R_m4
+}
+!procedure VpcPeeringConnection($id, $name="Vpc Peering Connection", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcPeeringConnection', $name, $tech)
+!endprocedure
+!procedure VpcPeeringConnectionCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcPeeringConnectionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure VpcPeeringConnectionGroup($id, $name='Vpc Peering Connection', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$VpcPeeringConnectionLg>', $name, $tech)
+!endprocedure
+@enduml

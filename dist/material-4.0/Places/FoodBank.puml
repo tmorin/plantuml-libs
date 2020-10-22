@@ -1,0 +1,13 @@
+@startuml
+sprite $FoodBankMd [14x14/16z] RSV50GCn40Gmixqu_LUR7BD-2XzYl2IPfICDaxQ5iA0jBcAwbM5b0l0wpwdaO-2XzPmCz7Eca7EpRQbiKdZu0m
+sprite $FoodBankLg [20x20/16z] bSYr0GD1402neyM7wRzQCxCLglohzwTIa8SAWBYTDdCmjqi95t8g0zPrFQOTBu4X8yI0l3tHyd2zLdkyB38_7cF2zVdYyMGcxE5MW8VZ_iJDJyob_6uB
+!procedure FoodBank($id, $name="Food Bank", $tech="")
+  IconElement($id, 'material-4.0/Places/FoodBank', $name, $tech)
+!endprocedure
+!procedure FoodBankCard($id, $funcName="", $content="")
+  IconCard($id, '<$FoodBankMd>', '', $funcName, $content)
+!endprocedure
+!procedure FoodBankGroup($id, $name='Food Bank', $tech='')
+  IconGroup($id, 'IconGroup', '<$FoodBankLg>', $name, $tech)
+!endprocedure
+@enduml

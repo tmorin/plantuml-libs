@@ -1,0 +1,13 @@
+@startuml
+sprite $VerticalAlignBottomMd [14x14/16z] Oy02c9YGULnSvF4uEH5iHZOU7ZP6E9UTdvy3IIKxEmDMmCdF1mRyO9EOMLd0W9KPNHq
+sprite $VerticalAlignBottomLg [20x20/16z] pSor0S1030D0FREz_xHXvdH_dK72NzRYf9HQTaeIIOMTo9s8qpBYA2My4793hFsJfTHuvoVE6tpN0W
+!procedure VerticalAlignBottom($id, $name="Vertical Align Bottom", $tech="")
+  IconElement($id, 'material-4.0/Editor/VerticalAlignBottom', $name, $tech)
+!endprocedure
+!procedure VerticalAlignBottomCard($id, $funcName="", $content="")
+  IconCard($id, '<$VerticalAlignBottomMd>', '', $funcName, $content)
+!endprocedure
+!procedure VerticalAlignBottomGroup($id, $name='Vertical Align Bottom', $tech='')
+  IconGroup($id, 'IconGroup', '<$VerticalAlignBottomLg>', $name, $tech)
+!endprocedure
+@enduml

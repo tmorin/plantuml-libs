@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsIoTAnalyticsPipelineMd [14x14/16z] ZSsr0KCX50NGgs7_YVFTEau3pp6DZR5poeIZJTAn_YEKqCykj4S0H3xHveguswDzoshVyhs0QGi
+sprite $AwsIoTAnalyticsPipelineLg [20x20/16z] lSw35G1130JGYTD_nMUR_s4HuWUK4IbeIVKYTa3J8xoI2ZZNVmOY5c6suQ-yWSDPTFpNklGtpAXWc57jKcjtMTiPg6e6rUDj1G
+!procedure AwsIoTAnalyticsPipeline($id, $name="Aws Io T Analytics Pipeline", $tech="")
+  IconElement($id, 'aws-20200911/Resource/LoT/AwsIoTAnalyticsPipeline', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsPipelineCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsPipelineMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsPipelineGroup($id, $name='Aws Io T Analytics Pipeline', $tech='')
+  IconGroup($id, 'LoTFamily', '<$AwsIoTAnalyticsPipelineLg>', $name, $tech)
+!endprocedure
+@enduml

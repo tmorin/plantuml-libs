@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsWafMd [14x14/16z] VKsr0SGm47l8YRB_lERQwiIvWeu0nOiP78JaCQ4_Nsqcvb-3OaLBWUfdOZ98eYbo9uqol9EXZ46qY3a1BUzSEbQkw
+sprite $AwsWafLg [20x20/16z] {
+fL270GGn2Bg2ABZ_lD_V392UM07lZQpN8L9UGv10821n6QdCTYLgR0dd2RTMFif0N6mNVYQ5cpTvlmpn2-JdhS1P3OvDQAQIOrFqQuLUvjSvFJeOBgmU5jMy
+42OrDh3QxYB6HWdnvNOFaQL1fVV64m
+}
+!procedure AwsWaf($id, $name="Aws Waf", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsWaf', $name, $tech)
+!endprocedure
+!procedure AwsWafCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWafMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsWafGroup($id, $name='Aws Waf', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsWafLg>', $name, $tech)
+!endprocedure
+@enduml

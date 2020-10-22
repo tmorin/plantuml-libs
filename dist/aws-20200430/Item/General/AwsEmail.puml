@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsEmailMd [14x14/16z] ZOt50G0n2C22i__2v_eZBMxCyVGus1p8TcG3xuAGC3PiSo0XufGylbT4-UPUdQfdvxr5pos_2tDM
+sprite $AwsEmailLg [20x20/16z] hO_50K0n24DJJIZxp_lTvTPNnG7z2JSmuuqwOFFPIymuoBGmwGWH6nGuwmGKhIhLwMmw98j0j8IRpj9yPjqbLlCfq_chOUzUuFxg-JLRVqO
+!procedure AwsEmail($id, $name="Aws Email", $tech="")
+  IconElement($id, 'aws-20200430/Item/General/AwsEmail', $name, $tech)
+!endprocedure
+!procedure AwsEmailCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEmailMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure AwsEmailGroup($id, $name='Aws Email', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEmailLg>', $name, $tech)
+!endprocedure
+@enduml

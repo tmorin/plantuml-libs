@@ -1,0 +1,13 @@
+@startuml
+sprite $ViewDayMd [14x14/16z] Oq05JCnm0EJnyCC12mC3ApiR5B0p0bMom02wIk9vgAQWse2kafc56QgGXH7DqG
+sprite $ViewDayLg [20x20/16z] Oo0MC76mSy01aCq256FbHmKSG34MVZw4093DZij05bOK01P2CuyTcnqKYc7QWUaMHbnEvkT31ZZTXnbMH0C
+!procedure ViewDay($id, $name="View Day", $tech="")
+  IconElement($id, 'material-4.0/Action/ViewDay', $name, $tech)
+!endprocedure
+!procedure ViewDayCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViewDayMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViewDayGroup($id, $name='View Day', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViewDayLg>', $name, $tech)
+!endprocedure
+@enduml

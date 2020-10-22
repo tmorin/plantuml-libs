@@ -1,0 +1,16 @@
+@startuml
+sprite $TabUnselectedMd [14x14/16z] LOv50W0X202fNLl__rexXvmJm0k102CACzVLOa3tVwaXCFYxgTzrKyEGkw5K64N1HibhICS8VtVCANWGCwwxEeoCpmWPslfI
+sprite $TabUnselectedLg [20x20/16z] {
+ZT054eKm40FG9ClGZ7NlVzelkDDNTq6h29I2pgG7HM0QjS99vQWI8YGme9petpTQ-vG-zT61qNo6YGlA7ZjzwgeF5wOpLc5ETrcLvSuh2lX7ZJN-QzZ-mLf3
+TDDVmMCjqEeB
+}
+!procedure TabUnselected($id, $name="Tab Unselected", $tech="")
+  IconElement($id, 'material-4.0/Action/TabUnselected', $name, $tech)
+!endprocedure
+!procedure TabUnselectedCard($id, $funcName="", $content="")
+  IconCard($id, '<$TabUnselectedMd>', '', $funcName, $content)
+!endprocedure
+!procedure TabUnselectedGroup($id, $name='Tab Unselected', $tech='')
+  IconGroup($id, 'IconGroup', '<$TabUnselectedLg>', $name, $tech)
+!endprocedure
+@enduml

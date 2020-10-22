@@ -1,0 +1,16 @@
+@startuml
+sprite $SystemsManagerOpsCenterMd [14x14/16z] HSUvOG9040GmpNxNVyTE32WJTj_jcA2gJAaPE8HQg82SQPOQBhAyYPqjjSSLTaWVwoF3p6VNk2AXtmjsRETkwmezjzElv7paulZr-Wy
+sprite $SystemsManagerOpsCenterLg [20x20/16z] {
+NOfPOWKn2CDaGZ3pxd_VBam-qYghXG6qtO-TeEJWb8ngu-Ds0F9ywwX924Zpak8GZGgE6gqEg0LOG2NW1Qm2MW8wgGqG1XvR8Bk0vJPW1jNrEhZ9VQwB2e3M
+fTOpQVMR0CBrokm0ULHwqanNjB8-wI1UoIgxTiGdfyB5wJJ_v68NVr6v-0O
+}
+!procedure SystemsManagerOpsCenter($id, $name="Systems Manager Ops Center", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/SystemsManagerOpsCenter', $name, $tech)
+!endprocedure
+!procedure SystemsManagerOpsCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$SystemsManagerOpsCenterMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure SystemsManagerOpsCenterGroup($id, $name='Systems Manager Ops Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$SystemsManagerOpsCenterLg>', $name, $tech)
+!endprocedure
+@enduml

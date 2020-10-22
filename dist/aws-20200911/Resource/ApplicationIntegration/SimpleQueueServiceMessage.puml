@@ -1,0 +1,13 @@
+@startuml
+sprite $SimpleQueueServiceMessageMd [14x14/16z] ZOx50GDG24CVaT_z9wwxSmAYg8siuy2gDfwHHeAAPaWOmnBB885W_SRiCtQv-D_bDJsNPYCUM-y
+sprite $SimpleQueueServiceMessageLg [20x20/16z] tP230G0n300lglRVzsqiqAiR1qGda0CcQYcbQJQFQRZbvMzQHJdP_sQnHr8efvukZWNix-zfstEClvwAgTrxFm8
+!procedure SimpleQueueServiceMessage($id, $name="Simple Queue Service Message", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/SimpleQueueServiceMessage', $name, $tech)
+!endprocedure
+!procedure SimpleQueueServiceMessageCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleQueueServiceMessageMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure SimpleQueueServiceMessageGroup($id, $name='Simple Queue Service Message', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$SimpleQueueServiceMessageLg>', $name, $tech)
+!endprocedure
+@enduml

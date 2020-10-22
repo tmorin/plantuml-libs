@@ -1,0 +1,16 @@
+@startuml
+sprite $SettingsPowerMd [14x14/16z] ROk50G0X30E3Ezr_ss_UxT16y4FArz-XLhqswa2f61N4o-Q9vrGQEA4LJhoBdjmEZ_JCcuMzJf8aQ_N2HfWYC-34cEjlETbZcguKD_bR
+sprite $SettingsPowerLg [20x20/16z] {
+dSxL0GCW30JG2-wt_xGrYjGbN_2YU1V6F5gjTo3TPAFS1BL1MfeKc7fTOhYIOXdp2gMRenbcwReboZ1XtAsKYwMnGf-_vuGUI_He02BrE8-sFoppoAf6Bu04
+DeM9XQoLB8DwLwerMVmHaYrYXCsoJ36WDNZs7KS
+}
+!procedure SettingsPower($id, $name="Settings Power", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsPower', $name, $tech)
+!endprocedure
+!procedure SettingsPowerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsPowerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsPowerGroup($id, $name='Settings Power', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsPowerLg>', $name, $tech)
+!endprocedure
+@enduml

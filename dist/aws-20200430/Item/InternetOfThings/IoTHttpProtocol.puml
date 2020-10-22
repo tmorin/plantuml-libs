@@ -1,0 +1,13 @@
+@startuml
+sprite $IoTHttpProtocolMd [14x14/16z] hST70S003CF0s5R2dt7t0b3fTSMd3NhQh7hIF-fJsYjvbuQZPfUHityfiPnDI6uVPOh6d0qh
+sprite $IoTHttpProtocolLg [20x20/16z] rL250GD122DsTF-5tts3vXI7LCalgAewRrr6AVL1P7zrzf_eS8FOTUXneNNendfnNLSi1YG5eVNG9LHfrLhPTKM0jSOcEwViczDVTkwXMnVE
+!procedure IoTHttpProtocol($id, $name="Io T Http Protocol", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTHttpProtocol', $name, $tech)
+!endprocedure
+!procedure IoTHttpProtocolCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTHttpProtocolMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTHttpProtocolGroup($id, $name='Io T Http Protocol', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTHttpProtocolLg>', $name, $tech)
+!endprocedure
+@enduml

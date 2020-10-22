@@ -1,0 +1,16 @@
+@startuml
+sprite $ApartmentMd [14x14/16z] POa54iGm3CJYCuHt___QetAhWArHUg2ctxiP-0MxQQswc0B4teo6Q3qsgsnpDhRwEbcbVGqARysf-1d1FrYQJBfpojx2roRsHPO_NVa
+sprite $ApartmentLg [20x20/16z] {
+bOq74iCW30HHcUZYell_RoDtcsdnqcuMaDeR12i1kPnnHo-dHCjiE9sOEBzF1rvS3k0KP8mt9xBLYvkRapbpEUOvFvlBBB7EIkZ_Leg-HoLixixXp2lxkjdc
+WcOaLMkh5DVVShU_Za0XWYBWxMz-
+}
+!procedure Apartment($id, $name="Apartment", $tech="")
+  IconElement($id, 'material-4.0/Places/Apartment', $name, $tech)
+!endprocedure
+!procedure ApartmentCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApartmentMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApartmentGroup($id, $name='Apartment', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApartmentLg>', $name, $tech)
+!endprocedure
+@enduml

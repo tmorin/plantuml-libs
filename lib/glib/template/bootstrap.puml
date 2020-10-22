@@ -1,0 +1,28 @@
+@startuml
+
+' by default the inclusion mode is remote
+!if (%not(%variable_exists("$INCLUSION_MODE")))
+    !global $INCLUSION_MODE="remote"
+!endif
+
+!if ($INCLUSION_MODE == "remote")
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="{{= it.config.remoteUrl }}/{{= it.config.libDir }}"
+    !endif
+    !include $LIB_BASE_LOCATION/constants.puml
+    !include $LIB_BASE_LOCATION/style.puml
+    !include $LIB_BASE_LOCATION/functions.puml
+!else
+    !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
+        !global $LIB_BASE_LOCATION="."
+    !endif
+    !include constants.puml
+    !include style.puml
+    !include functions.puml
+!endif
+
+'!include $LIB_BASE_LOCATION/constants.puml
+'!include $LIB_BASE_LOCATION/style.puml
+'!include $LIB_BASE_LOCATION/functions.puml
+
+@enduml

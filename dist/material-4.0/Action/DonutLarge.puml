@@ -1,0 +1,16 @@
+@startuml
+sprite $DonutLargeMd [14x14/16z] POs53GH130EpsibJBBd_Ql-OHnGmn8F-Ws9TldQcNMrPnFYNQromMap8J2zMz_IKOoMvR0ybrhALSsdeQyF4xsYVe40P3mO
+sprite $DonutLargeLg [20x20/16z] {
+VP050e0m201Pfxl_lzRkEbtH83-OyLTdWOeDhMbPxoBRO981VXC1rOlukWjLWoWp0PZT8mHPyP2ciwFAJg4f4RF5s0pjdC78WTRo9hlxEh1lEPwrvAtci8im
+bzvS0VpR33PKUingaaxLA_bc
+}
+!procedure DonutLarge($id, $name="Donut Large", $tech="")
+  IconElement($id, 'material-4.0/Action/DonutLarge', $name, $tech)
+!endprocedure
+!procedure DonutLargeCard($id, $funcName="", $content="")
+  IconCard($id, '<$DonutLargeMd>', '', $funcName, $content)
+!endprocedure
+!procedure DonutLargeGroup($id, $name='Donut Large', $tech='')
+  IconGroup($id, 'IconGroup', '<$DonutLargeLg>', $name, $tech)
+!endprocedure
+@enduml

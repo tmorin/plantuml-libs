@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDeepRacerMd [14x14/16z] bKs53S0m3DCKO___T_n0msYl7McRf7zdm07rzi6qgq3U5Mka1zyEYiUrlWuIXXe_7H53ulGZkFrDEt81
+sprite $AwsDeepRacerLg [20x20/16z] {
+lSs5ZSDG40HGUM78_TTxaEGh7VW95oSFyJy2b7DefXharOkp9jRalgFTrQStLV4glXhyd2wZMKJVtb0Ycl7ot4ulxfw6gJgzmRhHFUpwt6uFDDsxg3wvS2B6
+5fI7_08
+}
+!procedure AwsDeepRacer($id, $name="Aws Deep Racer", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsDeepRacer', $name, $tech)
+!endprocedure
+!procedure AwsDeepRacerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDeepRacerMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsDeepRacerGroup($id, $name='Aws Deep Racer', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsDeepRacerLg>', $name, $tech)
+!endprocedure
+@enduml

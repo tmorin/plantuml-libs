@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsThinkboxStoke element
+include('aws-20200430/Item/Compute/AwsThinkboxStoke')
+AwsThinkboxStoke('aws_thinkbox_stoke', 'Aws Thinkbox Stoke', 'an optional tech field')
+@enduml

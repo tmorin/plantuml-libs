@@ -1,0 +1,19 @@
+@startuml
+sprite $TimerOffMd [14x14/16z] {
+JScrWGGn00GmhPdTVxNFS8e6G6cj-DFMQhwK89GnokD1F-ff_PmzO9n72EhDCE_M1dqXtgUV9n9k81q-Aaxw-kZxyTo8Kp6El27VXBQV0EeTfOox7r_Yt7l6
+lhoAl0C
+}
+sprite $TimerOffLg [20x20/16z] {
+RSx70SGW34JH8MUc_svNAvpjT-EJXCLOON2JAJ9kN8enEUmYX8qvHxidpm8qgkPwqPWaXk80NyutiqGf7d2J5ggI5HX37wgQB6lyN-yGRHsC3FgcBWB3-iD2
+uvzZMirXnRDvHXmnqaCOTXonqsppfNFuXALVuivqZXn27ZhyBasA6TCrmdcl8mry-m4
+}
+!procedure TimerOff($id, $name="Timer Off", $tech="")
+  IconElement($id, 'material-4.0/Image/TimerOff', $name, $tech)
+!endprocedure
+!procedure TimerOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$TimerOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure TimerOffGroup($id, $name='Timer Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$TimerOffLg>', $name, $tech)
+!endprocedure
+@enduml

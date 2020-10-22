@@ -1,0 +1,16 @@
+@startuml
+sprite $AutoDeleteMd [14x14/16z] LSV50GGW402nmM6r_shFDRy0SwxAqt3Fp71vhEwzRlRWGJFkwdEM3-rlPgT-5h8j-tkr7NQyTXWACPvRT2_OujmdCBL5XrfBpmNLZAUHOMc5bp9N1wu
+sprite $AutoDeleteLg [20x20/16z] {
+ZSh70SGW34JH8KTv-kzsXPFmRPy3y16KymgR59DGbPYUxccgpSMOLBGvX3dcCcR58_7H_smpbUIicV9jBSOqsVUMKGRGcQqre0hW3h4MhuP6zxQWZMxzF28l
+2V2J1MDTD5aueKhp77XKDYWd37Xr7gqECcEJXUG8-FBUOVa1
+}
+!procedure AutoDelete($id, $name="Auto Delete", $tech="")
+  IconElement($id, 'material-4.0/Alert/AutoDelete', $name, $tech)
+!endprocedure
+!procedure AutoDeleteCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutoDeleteMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutoDeleteGroup($id, $name='Auto Delete', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutoDeleteLg>', $name, $tech)
+!endprocedure
+@enduml

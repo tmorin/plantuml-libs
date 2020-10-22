@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAppServicePlansMd [14x14/16z] LOs54KCn34CB5eJsNxVXwtz71a40917lrm2GRUsDIhMrXhN5umSwbv9nb2wr5dxsRpE_vDmbiMzx7CJOnhBNiVdo_TzIK5JQ-1qTK296nmy
+sprite $ServiceAppServicePlansLg [20x20/16z] {
+RSp50O1034HHaXr1-oyNTtZ77waY3r7j8igUoXcpK1lYQ95gsc7Mr-NUF2mQdArGNX6tVtMp4l9ighNVtblTBMgME9kyaeWIU-D2ixbZRT36cxoQ3uoz-GRn
+RRLoQQuVyDEuDDLt3HAMtTmu8mc0yamBPZK1
+}
+!procedure ServiceAppServicePlans($id, $name="Service App Service Plans", $tech="")
+  IconElement($id, 'azure-v2/Item/AppServices/ServiceAppServicePlans', $name, $tech)
+!endprocedure
+!procedure ServiceAppServicePlansCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAppServicePlansMd>', 'AppServices', $funcName, $content)
+!endprocedure
+!procedure ServiceAppServicePlansGroup($id, $name='Service App Service Plans', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAppServicePlansLg>', $name, $tech)
+!endprocedure
+@enduml

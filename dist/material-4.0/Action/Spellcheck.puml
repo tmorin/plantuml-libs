@@ -1,0 +1,16 @@
+@startuml
+sprite $SpellcheckMd [14x14/16z] POo50G0n20EHjnhil-tNzQf04ZWWcYlnKt5Bu56vzxF39SZIgrUDrGSY68ztndWNFomSCv9Q6LY_sBa07hoGOb5mKYOLBwaOfO6J7m
+sprite $SpellcheckLg [20x20/16z] {
+bO-50O0W54JfXjj_MhibJwdtcmn9wHzYWFWo3TWlIzw2lf60P51lvXQd65-8hiaq-Bj2YZ6ULUYME22kBErLGbWsZgrX2RaxcAq2snjQ7EYEY5X7O99mkNez
+XlIGfzSb5XUueJVSq0Tkw2skIKKp
+}
+!procedure Spellcheck($id, $name="Spellcheck", $tech="")
+  IconElement($id, 'material-4.0/Action/Spellcheck', $name, $tech)
+!endprocedure
+!procedure SpellcheckCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpellcheckMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpellcheckGroup($id, $name='Spellcheck', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpellcheckLg>', $name, $tech)
+!endprocedure
+@enduml

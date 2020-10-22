@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the IoTHttp2Protocol element
+include('aws-20200430/Item/InternetOfThings/IoTHttp2Protocol')
+IoTHttp2Protocol('io_t_http_2_protocol', 'Io T Http2 Protocol', 'an optional tech field')
+@enduml

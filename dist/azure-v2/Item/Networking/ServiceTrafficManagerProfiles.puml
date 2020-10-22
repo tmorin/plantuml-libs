@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceTrafficManagerProfilesMd [14x14/16z] {
+BSc73KCX34LHjrVu-mySWtAfHuw8dbV7Q_xz0Mwu74oEk0j0aEpeacroIBaZXP6kxCvIXRoIZtUZKu9qpa7ltKdeiWFVtW0bVrRXavIHRygOYtYKWOSbDlBY
+1m
+}
+sprite $ServiceTrafficManagerProfilesLg [20x20/16z] {
+HSg7aKKX34DHX1Ny-szupKjx9yXpO5rXts5zeTx-aUATY8zAT_KWw2q_bOcB2jkv6nGsJM5jaxVIBDen5i2U4fkaqpsu61RJ6TCnZYcrzZ5H6TEK5A1EBljD
+tUT7GRVriNFComRz_kkzwbbxg_MR2hWsrLhmJ-SEmLbri6wSUd0k3zsOxaujFdImS_Biq8FoqqL_
+}
+!procedure ServiceTrafficManagerProfiles($id, $name="Service Traffic Manager Profiles", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceTrafficManagerProfiles', $name, $tech)
+!endprocedure
+!procedure ServiceTrafficManagerProfilesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceTrafficManagerProfilesMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceTrafficManagerProfilesGroup($id, $name='Service Traffic Manager Profiles', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceTrafficManagerProfilesLg>', $name, $tech)
+!endprocedure
+@enduml

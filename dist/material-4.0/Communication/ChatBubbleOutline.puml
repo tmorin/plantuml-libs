@@ -1,0 +1,13 @@
+@startuml
+sprite $ChatBubbleOutlineMd [14x14/16z] dSVL0ODG50MmqyBJQ_jFYxj3_e8rBnCFI7Q-ux8qSnYuTXu3_t6kMsHgC2a3R3aE2a0I5XnErG
+sprite $ChatBubbleOutlineLg [20x20/16z] pSg53O0m54NHzwLk-q-BEyI8zTHlYaziBjJmd6gxgGoOvlNoppS3wBoTpFmqtJVb50-vwTnyRHS9SsiUTCBI79vCm5yZ
+!procedure ChatBubbleOutline($id, $name="Chat Bubble Outline", $tech="")
+  IconElement($id, 'material-4.0/Communication/ChatBubbleOutline', $name, $tech)
+!endprocedure
+!procedure ChatBubbleOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChatBubbleOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChatBubbleOutlineGroup($id, $name='Chat Bubble Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChatBubbleOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

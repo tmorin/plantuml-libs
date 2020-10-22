@@ -1,0 +1,16 @@
+@startuml
+sprite $CardGiftcardMd [14x14/16z] POh50SGm40DbzgBwh_OOa_a8SKAYjP1NMB797VFks_OKKj9t0pnLwKxLTE3s6AoL0oCUIHQm1FEPNjoJfyU3cxabvWlwyQcCV11KeFGF1VzS0G
+sprite $CardGiftcardLg [20x20/16z] {
+ZO_30G1134N72dx_tQxDTuXf7d71pM8b0WYX5t6BgKO5UY5ho88DOnHsYZGSQ7qeW1ir0H6aDnYXdpyCjWfh8NPqPp5dUH-hnVJKkeyjhB4IuaeeK-p4OonP
+jsBJKypZX1-UAxciv1BCRpe
+}
+!procedure CardGiftcard($id, $name="Card Giftcard", $tech="")
+  IconElement($id, 'material-4.0/Action/CardGiftcard', $name, $tech)
+!endprocedure
+!procedure CardGiftcardCard($id, $funcName="", $content="")
+  IconCard($id, '<$CardGiftcardMd>', '', $funcName, $content)
+!endprocedure
+!procedure CardGiftcardGroup($id, $name='Card Giftcard', $tech='')
+  IconGroup($id, 'IconGroup', '<$CardGiftcardLg>', $name, $tech)
+!endprocedure
+@enduml

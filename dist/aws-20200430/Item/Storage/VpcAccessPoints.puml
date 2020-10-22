@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcAccessPointsMd [14x14/16z] HSs50G0W20J0Bzr_OxlhL02hIRYDZcHpGPax6KrvhYwGRmnBp2qdf70K3qNKqcZ8u1Az4vyIDgITSbFonlviuglMhSE33W
+sprite $VpcAccessPointsLg [20x20/16z] {
+VOk50S0m40AH9zr_uhhRnI-0RrH9wIHOAQt7ffhsUEFMMyvEGEdYxBexTcfrScgjQ5k7Sma1G9oSom6JSvTppGWtnonVSH1Y8G90gg00fw0DhB6jDZb7E67P
+CgxG9cva14-9FmO
+}
+!procedure VpcAccessPoints($id, $name="Vpc Access Points", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/VpcAccessPoints', $name, $tech)
+!endprocedure
+!procedure VpcAccessPointsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcAccessPointsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure VpcAccessPointsGroup($id, $name='Vpc Access Points', $tech='')
+  IconGroup($id, 'IconGroup', '<$VpcAccessPointsLg>', $name, $tech)
+!endprocedure
+@enduml

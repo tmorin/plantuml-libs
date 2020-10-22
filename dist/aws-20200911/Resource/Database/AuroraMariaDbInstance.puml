@@ -1,0 +1,16 @@
+@startuml
+sprite $AuroraMariaDbInstanceMd [14x14/16z] LOw50GCW30J3A-m_S5qFYSlG7pWim3i02fkSMJC2PUKqpUrsMzQY1UaHC-S92Ebj9TBcspgnzYUpmFB7seb_OloBsQvPFeYfyhMrXXBc2W
+sprite $AuroraMariaDbInstanceLg [20x20/16z] {
+LT350GD134DHoJBkflzsm-H_VCC3KFQN222ENXqE7iJg3ch91K06bfHeKyMCXsSe8pF77kPLqNM7heVfRcsaGcOUIbFoOS1kc_NCLFBFx72ICV_cPqYU5_kt
+zkxosOP7sywPdZcN5Ko6rfhdHeizhwExVVJtLne-Rsdmpv-E_7c60D3U4I1nxmO
+}
+!procedure AuroraMariaDbInstance($id, $name="Aurora Maria Db Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AuroraMariaDbInstance', $name, $tech)
+!endprocedure
+!procedure AuroraMariaDbInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuroraMariaDbInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AuroraMariaDbInstanceGroup($id, $name='Aurora Maria Db Instance', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AuroraMariaDbInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

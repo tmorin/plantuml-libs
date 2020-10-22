@@ -1,0 +1,16 @@
+@startuml
+sprite $GroupWorkMd [14x14/16z] PKq53i0m468-LWB__-rIY_LS0OiSB8N7Q9Wcd8sloxqzwxWVd3q9K1ts53jpg8i9BzMEzTok0ApXmP4SUEeOZ9nOuSeEd9_qdLZa1m
+sprite $GroupWorkLg [20x20/16z] {
+VP250SKm24GZ5qzW_sahntVfQsCuk0iY4Dy4leeUhEeV8fmI8l4kuhDt7YRqjChEPVhJlTBfl55P7pSDpWLUrbc4aWailKU4VW2JpTAPkaoJHGlH6DqlgsPf
+io91rR9Q9dTMCS-TDO_SzA3bgM8juoFhvmpmEIkf_dAcd-m
+}
+!procedure GroupWork($id, $name="Group Work", $tech="")
+  IconElement($id, 'material-4.0/Action/GroupWork', $name, $tech)
+!endprocedure
+!procedure GroupWorkCard($id, $funcName="", $content="")
+  IconCard($id, '<$GroupWorkMd>', '', $funcName, $content)
+!endprocedure
+!procedure GroupWorkGroup($id, $name='Group Work', $tech='')
+  IconGroup($id, 'IconGroup', '<$GroupWorkLg>', $name, $tech)
+!endprocedure
+@enduml

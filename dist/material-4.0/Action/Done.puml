@@ -1,0 +1,13 @@
+@startuml
+sprite $DoneMd [14x14/16z] Oo03CB8ZytXu2N6us91bsFXPmHmubvUNaG71vI7TFG
+sprite $DoneLg [20x20/16z] Ow0nOCGKOkTdnXJYOSGKmgiAKuY37LCL3pyxN0XP4CDuHXv-RhWgX2122278oKZ3y08
+!procedure Done($id, $name="Done", $tech="")
+  IconElement($id, 'material-4.0/Action/Done', $name, $tech)
+!endprocedure
+!procedure DoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoneGroup($id, $name='Done', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoneLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceApiManagementServices element
+include('azure-v2/Item/AppServices/ServiceApiManagementServices')
+ServiceApiManagementServices('service_api_management_services', 'Service Api Management Services', 'an optional tech field')
+@enduml

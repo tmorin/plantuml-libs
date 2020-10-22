@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceApplicationGatewaysMd [14x14/16z] HSo50K0X409GH87RV-6VTZqly8ucDUn1cmUfRD9oofn87t5UDYPIoKe8lyVGw632Hu3PZVQeCLOUoU7ipvvwyL609nxMK7sOd9YSk04
+sprite $ServiceApplicationGatewaysLg [20x20/16z] {
+PSv50W0X34FHIffqxd_WSUUluA5svpOK6GELAdv4wOVENYFziujaJphn94y94kCc2KLA6zu7ivfWYXlk565509RxpD7YjfA1SZEgiT_c1gM3uQ7hC70OKCyZ
+Kg_MMhi-iuyz7zgnqyohJxhHSTA3py47ETtq86vQ
+}
+!procedure ServiceApplicationGateways($id, $name="Service Application Gateways", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceApplicationGateways', $name, $tech)
+!endprocedure
+!procedure ServiceApplicationGatewaysCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceApplicationGatewaysMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceApplicationGatewaysGroup($id, $name='Service Application Gateways', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceApplicationGatewaysLg>', $name, $tech)
+!endprocedure
+@enduml

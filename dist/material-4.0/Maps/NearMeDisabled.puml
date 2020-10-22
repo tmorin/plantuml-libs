@@ -1,0 +1,16 @@
+@startuml
+sprite $NearMeDisabledMd [14x14/16z] LOs30K0X502pw_QVzZDUFKkSgAR5ZtnLu0jrB3Fq5UBVKb06lXQP6ZIbgT-Moeio_c_KyQtgxGgmmWXbXPhst_sfwRdRvgHybJYv0G
+sprite $NearMeDisabledLg [20x20/16z] {
+ZOw50GGX30GJtBV_QbzmNczEcIXzX1s_EOD82odgnqx99a9InJMfV47zMvaUJymSav288e32pQW0eCim2YjDgZuzJCcU1iBcAYCTg5Gp-PIz_20_rIdhUAxB
+BqHTpY7o9WDKJNURaxP-3DDLxW
+}
+!procedure NearMeDisabled($id, $name="Near Me Disabled", $tech="")
+  IconElement($id, 'material-4.0/Maps/NearMeDisabled', $name, $tech)
+!endprocedure
+!procedure NearMeDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$NearMeDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure NearMeDisabledGroup($id, $name='Near Me Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$NearMeDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

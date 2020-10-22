@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsWorkDocsMd [14x14/16z] VOh50S8000EnAFlFYrDlxnMvBaao5hu0_yyx21fQAekJptVfqs07b6_wV4aas_oRJjjPoxSbjPDFA_-eXpm1
+sprite $AwsWorkDocsLg [20x20/16z] fP1N0iCm24CxX8JD_U_R9Dx-wNg95nloVn1s0CuoU3hWOnPQEhQGZB7ACXKuXAkCnusxR-JeGiWF3ABqu28paIBcUEvnFLRPkQUFPNDlqhaxbXcCIVp32m
+!procedure AwsWorkDocs($id, $name="Aws Work Docs", $tech="")
+  IconElement($id, 'aws-20200430/Item/EndUserComputing/AwsWorkDocs', $name, $tech)
+!endprocedure
+!procedure AwsWorkDocsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsWorkDocsMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AwsWorkDocsGroup($id, $name='Aws Work Docs', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsWorkDocsLg>', $name, $tech)
+!endprocedure
+@enduml

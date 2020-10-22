@@ -1,0 +1,12 @@
+@startuml
+skinparam file<<Comment>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor none
+}
+!procedure Comment($id, $label="")
+  EsEntity('file', 'Comment', $id, $label)
+!endprocedure
+@enduml

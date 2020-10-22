@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTransferForFtpsResourceMd [14x14/16z] RSV50SDG50Cm-ndwk__0PKoYct3C9_x4xAso3SnPM0KwL0RC640eHQRT-sh9PLNT5W0hQFKUe-ApM_aQDPhHQzD9cdbiMP0fPm0GNrS
+sprite $AwsTransferForFtpsResourceLg [20x20/16z] {
+XS_5WKL144BHImdqlFpp7NVxBILd1pVFwWVvv0Sjymrp9yW1AavIm3eu5emHTToWu0QO1QZHb49URKvYbrkkS-RPt43LAKvh_685p6Mnr_P-6EldFvyDUyCt
+OyDdUukk3rFA7i_EXrNexkoRTSwscPb5H_5h41KbYMbjyUjv
+}
+!procedure AwsTransferForFtpsResource($id, $name="Aws Transfer For Ftps Resource", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/AwsTransferForFtpsResource', $name, $tech)
+!endprocedure
+!procedure AwsTransferForFtpsResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTransferForFtpsResourceMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsTransferForFtpsResourceGroup($id, $name='Aws Transfer For Ftps Resource', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsTransferForFtpsResourceLg>', $name, $tech)
+!endprocedure
+@enduml

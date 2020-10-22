@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTOverTheAirUpdateMd [14x14/16z] PKq50W8131fb_F_3ocnldJ17mLVDEFeqzs03ssLJiXcdDblKE-A64ymcvThiTZt9D303FJcZOT2AvfFqT45dJo7jDlzo0m
+sprite $IoTOverTheAirUpdateLg [20x20/16z] {
+bSr5WWG124FHZuMQkVzzsw1rLs-999nZnezegPDF9GCathntbP4iEUDGDQDvguJV7Ei2L1CQZW6aSCrnbzGEeCW2K88TVtEO8TXZDxQc0oAs0R0sh9KC5raJ
+wa6MJse4hEC_iHAVCYGb9rq1
+}
+!procedure IoTOverTheAirUpdate($id, $name="Io T Over The Air Update", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTOverTheAirUpdate', $name, $tech)
+!endprocedure
+!procedure IoTOverTheAirUpdateCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTOverTheAirUpdateMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTOverTheAirUpdateGroup($id, $name='Io T Over The Air Update', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTOverTheAirUpdateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SmsMd [14x14/16z] XSUr0S0m40Im2_jv_sd3J5OdNBMwQm6DdMPNMqfMRqikucdTBZlkqgHB5M099mq-3G
+sprite $SmsLg [20x20/16z] hSsr0GHH409GlllGVxLtwvwil704S4cx7TsFX3lI3HqFtFkPXCeOMOEiiuP8fHZHDhzLs1gbVjExPuypOS4mYr0h3BE88vVmr1y
+!procedure Sms($id, $name="Sms", $tech="")
+  IconElement($id, 'material-4.0/Notification/Sms', $name, $tech)
+!endprocedure
+!procedure SmsCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmsMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmsGroup($id, $name='Sms', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmsLg>', $name, $tech)
+!endprocedure
+@enduml

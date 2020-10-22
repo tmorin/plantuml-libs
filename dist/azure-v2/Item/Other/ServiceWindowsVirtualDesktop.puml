@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceWindowsVirtualDesktopMd [14x14/16z] NOv50iH020G97RQH__ztaLjgj4O04NcCxhH75Z0QOkMDMkBjPpX9Pa2C9ueg2gFobpLIeTuFWUpUXhPMJUWOp_Pvg76lQg0eedWI-6J_LjOee3By0G
+sprite $ServiceWindowsVirtualDesktopLg [20x20/16z] {
+RT07aWKX20HGQK3I_SyxITdzgIjHZvwWOuS0q9vRM4JuLQ7c4U6cQ6ABMWdZfgnEBiGVfTk568CqkZH9ga9fmBerYU-rWTZlnipQLCwGUr3IDC9Z8Sj2I6CN
+soemB9LaxTaVOvgLKv_t3LZJZc7z7vCrXT8wX_dVMGo_pljzBp_lx_Szdm
+}
+!procedure ServiceWindowsVirtualDesktop($id, $name="Service Windows Virtual Desktop", $tech="")
+  IconElement($id, 'azure-v2/Item/Other/ServiceWindowsVirtualDesktop', $name, $tech)
+!endprocedure
+!procedure ServiceWindowsVirtualDesktopCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceWindowsVirtualDesktopMd>', 'Other', $funcName, $content)
+!endprocedure
+!procedure ServiceWindowsVirtualDesktopGroup($id, $name='Service Windows Virtual Desktop', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceWindowsVirtualDesktopLg>', $name, $tech)
+!endprocedure
+@enduml

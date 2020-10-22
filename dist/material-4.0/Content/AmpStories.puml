@@ -1,0 +1,13 @@
+@startuml
+sprite $AmpStoriesMd [14x14/16z] dSUn0G0G00Em0W3-lnPW1Tc20sqh0rHKaP2gI1G5U1mB9FB_CR_cwwenJBJ3GG4
+sprite $AmpStoriesLg [20x20/16z] pSYr0S0m00CmssN-_zeoPGrh55nnw4y3tu6Mct1ji_0xBirnhNbjRiS2tw4WBffkGWWR
+!procedure AmpStories($id, $name="Amp Stories", $tech="")
+  IconElement($id, 'material-4.0/Content/AmpStories', $name, $tech)
+!endprocedure
+!procedure AmpStoriesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmpStoriesMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmpStoriesGroup($id, $name='Amp Stories', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmpStoriesLg>', $name, $tech)
+!endprocedure
+@enduml

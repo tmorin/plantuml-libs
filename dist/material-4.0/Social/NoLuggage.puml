@@ -1,0 +1,16 @@
+@startuml
+sprite $NoLuggageMd [14x14/16z] LKo53S0m32j3oFz_kx8q5sDoVuHncaZRaurNOfGzHJH7lMbDQqoeJW6OdvF76BaJmgg1elfu9ezUXlgqNdKqozLggqFrMnCMdbKBYessfi0bnaBPWllZ0m
+sprite $NoLuggageLg [20x20/16z] {
+TO-50S0m20I9Ex__jWtKxTlOuVGl4wREbruJfjBEYbxp81hvyEi2bHMwGG_m_Ddla1Mg-kuv9BrhoFt6aCd1b9Drj2RXLA-i6Wb_CDh2nuqb3R_xXI2UzfOl
+Xkl4D6G8PbnXnQ4JPhIKirHfY3lqHWVtP8gXJoq
+}
+!procedure NoLuggage($id, $name="No Luggage", $tech="")
+  IconElement($id, 'material-4.0/Social/NoLuggage', $name, $tech)
+!endprocedure
+!procedure NoLuggageCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoLuggageMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoLuggageGroup($id, $name='No Luggage', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoLuggageLg>', $name, $tech)
+!endprocedure
+@enduml

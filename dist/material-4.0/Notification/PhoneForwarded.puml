@@ -1,0 +1,16 @@
+@startuml
+sprite $PhoneForwardedMd [14x14/16z] NSq50e0m30F0p7tv_syXmxcvjCNDG9ota9nq88VsjJEkqxH0vyx1JCthJLyR2oHdpO7cbHEzuiLIVvmzZvuLXNEUPpie7gVGLg6RSGu_6m
+sprite $PhoneForwardedLg [20x20/16z] {
+ZOs54G1120CXVowJ_gjzTyy9cSNaKngc2E-3NI3J63nxQM-Qd38PLuRUM8vAYxL7Xi64jNSQMCcAumu96z8u6x38HO7kmhIokS268qImq1KQzksev13Noiey
+8eRTp4YUsJ1jBFHo5AmFaD_g
+}
+!procedure PhoneForwarded($id, $name="Phone Forwarded", $tech="")
+  IconElement($id, 'material-4.0/Notification/PhoneForwarded', $name, $tech)
+!endprocedure
+!procedure PhoneForwardedCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhoneForwardedMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhoneForwardedGroup($id, $name='Phone Forwarded', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhoneForwardedLg>', $name, $tech)
+!endprocedure
+@enduml

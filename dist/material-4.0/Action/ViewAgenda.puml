@@ -1,0 +1,13 @@
+@startuml
+sprite $ViewAgendaMd [14x14/16z] Oq05J2pCC03ayV330JCAZmK_ZvcD5GOOK7d4cu9kEnCB732W0G
+sprite $ViewAgendaLg [20x20/16z] Oo0MCB9pi7CW03iZK8oL7nMmOn7Ze52C1KsC3UGO9bG0SI266APUwhiFCmmWOOK2c1Y81W
+!procedure ViewAgenda($id, $name="View Agenda", $tech="")
+  IconElement($id, 'material-4.0/Action/ViewAgenda', $name, $tech)
+!endprocedure
+!procedure ViewAgendaCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViewAgendaMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViewAgendaGroup($id, $name='View Agenda', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViewAgendaLg>', $name, $tech)
+!endprocedure
+@enduml

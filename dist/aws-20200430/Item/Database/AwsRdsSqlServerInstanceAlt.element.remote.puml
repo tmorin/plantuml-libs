@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsRdsSqlServerInstanceAlt element
+include('aws-20200430/Item/Database/AwsRdsSqlServerInstanceAlt')
+AwsRdsSqlServerInstanceAlt('aws_rds_sql_server_instance_alt', 'Aws Rds Sql Server Instance Alt', 'an optional tech field')
+@enduml

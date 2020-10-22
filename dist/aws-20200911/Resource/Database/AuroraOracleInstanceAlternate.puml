@@ -1,0 +1,13 @@
+@startuml
+sprite $AuroraOracleInstanceAlternateMd [14x14/16z] hSwt0SHG3CDGYa7w-ozyqR7twz01p87WaDeC8mPVBYXnF4wxkvKetPwLh7mB10fLXLyTdYgE3iFxzHi
+sprite $AuroraOracleInstanceAlternateLg [20x20/16z] rP255KGn20InbQJ_Wi_z6lWJ0URnR2EoFeWplVp1weXTyK7jQ9_ln0ts-NETtMetpwUX6TnTI4h9ITWtPmhiJGtf-ruYis8o9wlcvZuvWFl9gjVVJC_yP7y2
+!procedure AuroraOracleInstanceAlternate($id, $name="Aurora Oracle Instance Alternate", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AuroraOracleInstanceAlternate', $name, $tech)
+!endprocedure
+!procedure AuroraOracleInstanceAlternateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuroraOracleInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AuroraOracleInstanceAlternateGroup($id, $name='Aurora Oracle Instance Alternate', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AuroraOracleInstanceAlternateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $Route53RouteTableMd [14x14/16z] JOU7TKC12CG-XmJxRnpIREjTBG7nXEMW3IT6IFA4wWIqcnF7cFqWh3F-iaYI2dKXKjMdhaHxvyNslP-_UsvDTvsIAAHIHQx0rPdJnVBaW-SB
+sprite $Route53RouteTableLg [20x20/16z] {
+ROy5Ti1G3CCSsH_lV-2jC6gdpv3eHPW7OeyvnnXp7EknR3ohW1A5G6Z08DXMMbD2yuGXg9IWOLSOi5jlhVThwf-7ZLf_q5Hhd5pkew_on7PGoi8AXmDZKD94
+zF8ANLxd3zweZmTTDSU3MInyH122Ks7zyjggN8vHFhrsA-vwLnbYZYdXYAtvelGF7m
+}
+!procedure Route53RouteTable($id, $name="Route53 Route Table", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/Route53RouteTable', $name, $tech)
+!endprocedure
+!procedure Route53RouteTableCard($id, $funcName="", $content="")
+  IconCard($id, '<$Route53RouteTableMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure Route53RouteTableGroup($id, $name='Route53 Route Table', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$Route53RouteTableLg>', $name, $tech)
+!endprocedure
+@enduml

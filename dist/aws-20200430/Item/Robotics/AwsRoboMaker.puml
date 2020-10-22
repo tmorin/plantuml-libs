@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRoboMakerMd [14x14/16z] XKl50O103CDYPVzvSNjnzKQg5IRzVWJqt0mrNu-W3qSok_NcxCJoyMNqP4qUityubqVkIuDYPrkdaTg2glzO0G
+sprite $AwsRoboMakerLg [20x20/16z] {
+bSu53eK030FGPDxs_kVzWaEK5vsFRqbyckxXNSLFyGRLNU014pdiklTaJRarJsKzcTqPu6uIFX8rPxAzIo2XBXsDWN8m4cTZ6DSStRTasLv6U6qv3qYanF3S
+gcuzlJ37yKpjXZiT-CON
+}
+!procedure AwsRoboMaker($id, $name="Aws Robo Maker", $tech="")
+  IconElement($id, 'aws-20200430/Item/Robotics/AwsRoboMaker', $name, $tech)
+!endprocedure
+!procedure AwsRoboMakerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRoboMakerMd>', 'Robotics', $funcName, $content)
+!endprocedure
+!procedure AwsRoboMakerGroup($id, $name='Aws Robo Maker', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRoboMakerLg>', $name, $tech)
+!endprocedure
+@enduml

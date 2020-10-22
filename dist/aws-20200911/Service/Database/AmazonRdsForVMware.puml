@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonRdsForVMwareMd [14x14/16z] LSb15W91309HrK07ClS_hqrsrkw_ihNrPiVRYb02LYXPLdrNxYROHxgQPd_u9NavndInw98qUT-yusZS00x8YD2O1TRLm_8SMeBqJ1AJeytRyySV
+sprite $AmazonRdsForVMwareLg [20x20/16z] {
+TSi9RaKn24FHtyH0ZDd_UeiYNkTUZJw2pEJJcVwnhyonWCt63buJNZ67zl8n2p2Jzs6ibJs189DiL5klDtCiRcVN9hZEShF5GIcXn-IMrnIRRTxc-v3NwXmk
+0pQD76EHnzt30UnhPG5AihtC_R6NAnMcqnlp6o6ryNIRoPAggeqmT9PjfUzbPdrYFjNWLtq7
+}
+!procedure AmazonRdsForVMware($id, $name="Amazon Rds For V Mware", $tech="")
+  IconElement($id, 'aws-20200911/Service/Database/AmazonRdsForVMware', $name, $tech)
+!endprocedure
+!procedure AmazonRdsForVMwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonRdsForVMwareMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonRdsForVMwareGroup($id, $name='Amazon Rds For V Mware', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonRdsForVMwareLg>', $name, $tech)
+!endprocedure
+@enduml

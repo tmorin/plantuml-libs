@@ -1,0 +1,19 @@
+@startuml
+sprite $ServiceAzureMediaServiceMd [14x14/16z] {
+5Sx10S1010H0SB2a_tR3_028o7jM9zFYwFdcwz8BF29pOq39dhkRQ0wgjk9FU5aLr3sKZnYm0PI5HSrGaLiN4Li8Bq3NHUaNfUb5pqCZWSaDtFqHwqRJbH5n
+hsdrd18wR5ceTvKV
+}
+sprite $ServiceAzureMediaServiceLg [20x20/16z] {
+HT19OWGW24HHPR2ajEz_tG0cwRzypewNhXqRDhw98KW6JFy9vrQVoz0_0k8q7zAAvkfybvBK96yocO9FMSXGfBZCIkCaclcRz18FiWJxdrJJK1GYyiJI0i1c
+MgLcPHiBmT17RO7bO5hNbhEMUffRMrKN6qhomBecw92TU6-gfcG-nz2sUmAhcoCpydtAOSIMqMamgGijQEn_FjpUz0C
+}
+!procedure ServiceAzureMediaService($id, $name="Service Azure Media Service", $tech="")
+  IconElement($id, 'azure-v2/Item/Web/ServiceAzureMediaService', $name, $tech)
+!endprocedure
+!procedure ServiceAzureMediaServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureMediaServiceMd>', 'Web', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureMediaServiceGroup($id, $name='Service Azure Media Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureMediaServiceLg>', $name, $tech)
+!endprocedure
+@enduml

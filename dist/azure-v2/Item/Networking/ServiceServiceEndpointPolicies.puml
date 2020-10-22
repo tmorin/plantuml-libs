@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceServiceEndpointPoliciesMd [14x14/16z] JSwr0S1040F1Un2v_txDjDb4KXLubwNlqgrb6TNvbFHgmfGcDQkgTGw0S_0M3kEM993o9TkW_PD-2Xa7XuRFBjs_b5FKfUDMLJ-sdhdQ
+sprite $ServiceServiceEndpointPoliciesLg [20x20/16z] {
+ZS-50SKW34LH6di9---BmtUvzLE3rBhenCHNwh7SKfEE3BiLEKjxK-s7kOEwmLWDmWQJr1h6Oi30O_rt9CBADpDLSD_VdZF080OptCnz6DnnivQElVzhkWpj
+F5vj5SjkquL7J6CSYsrqivo3qeXrrLY6L
+}
+!procedure ServiceServiceEndpointPolicies($id, $name="Service Service Endpoint Policies", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceServiceEndpointPolicies', $name, $tech)
+!endprocedure
+!procedure ServiceServiceEndpointPoliciesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceServiceEndpointPoliciesMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceServiceEndpointPoliciesGroup($id, $name='Service Service Endpoint Policies', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceServiceEndpointPoliciesLg>', $name, $tech)
+!endprocedure
+@enduml

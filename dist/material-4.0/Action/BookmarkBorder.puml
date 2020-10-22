@@ -1,0 +1,13 @@
+@startuml
+sprite $BookmarkBorderMd [14x14/16z] jOV50S0m4CCCPTn_sd93_-Z05ahOFF2rTTykzlKHRQeGv3IIlotxSkrlam5Fhu48aNC2
+sprite $BookmarkBorderLg [20x20/16z] rOe53W0X30HfTt7x_slFDKwSgKzg1X0NVDZmmSdjKd-8jwjDBrfzt0IRngX_XzmtCbvNjZi1QHllN_EoJ_7jSPHx4ve1LW
+!procedure BookmarkBorder($id, $name="Bookmark Border", $tech="")
+  IconElement($id, 'material-4.0/Action/BookmarkBorder', $name, $tech)
+!endprocedure
+!procedure BookmarkBorderCard($id, $funcName="", $content="")
+  IconCard($id, '<$BookmarkBorderMd>', '', $funcName, $content)
+!endprocedure
+!procedure BookmarkBorderGroup($id, $name='Bookmark Border', $tech='')
+  IconGroup($id, 'IconGroup', '<$BookmarkBorderLg>', $name, $tech)
+!endprocedure
+@enduml

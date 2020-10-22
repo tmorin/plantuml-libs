@@ -1,0 +1,16 @@
+@startuml
+sprite $ErrorOutlineMd [14x14/16z] PKu30W0W3Cnk-_zhizrq8DyIBWJ7H-BGQLsUdW2h7mDRnx0anfOKHMavSZn1pKo7aKavCb_BZBM1mM87IrMWNS5DTQNACvtv6Btu7MS
+sprite $ErrorOutlineLg [20x20/16z] {
+VP055WGX34FnXwRtl-rkoRXbb5-l-P0BmPs0pP2_aEs6F6JabF8G-0K5aSY_949eCN-SqmZ13C_q6eEUMJyOXemVJFTyP5cSLeX7bYJihBMTCPPYx5uZfRt6
+kPV8A0kuIyzQ1InZ8hG2eUuWHjr1EEnAzbtjyY5uyw4V
+}
+!procedure ErrorOutline($id, $name="Error Outline", $tech="")
+  IconElement($id, 'material-4.0/Alert/ErrorOutline', $name, $tech)
+!endprocedure
+!procedure ErrorOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ErrorOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure ErrorOutlineGroup($id, $name='Error Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$ErrorOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $PhoneCallbackMd [14x14/16z] NSj50eL030FGp5Invlwd_OB3srI35z6ELViFvB9suTjKhIKordkHqj83guaZK9DiQMC3t4EmcaVSTFupqh1HZXXOrVVhmZ_5pgOY1QScWfSl
+sprite $PhoneCallbackLg [20x20/16z] {
+ZOm55e1020M1xVptlwqyktKs6O9-8o54jmHinYT0uTbLlpaXJbfL0uquA4xZJP50YSI5swX66j25kEcibOWc-W2vvCK9wlWOQyskqDCPRZ0NQJ1AYKvubHRm
+90sAsoeRogWGTpCJS7BZjB4mq15n8GhzPW
+}
+!procedure PhoneCallback($id, $name="Phone Callback", $tech="")
+  IconElement($id, 'material-4.0/Notification/PhoneCallback', $name, $tech)
+!endprocedure
+!procedure PhoneCallbackCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhoneCallbackMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhoneCallbackGroup($id, $name='Phone Callback', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhoneCallbackLg>', $name, $tech)
+!endprocedure
+@enduml

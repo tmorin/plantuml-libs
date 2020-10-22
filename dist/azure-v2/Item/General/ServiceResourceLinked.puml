@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceResourceLinkedMd [14x14/16z] JSm50WGG50HGJBd_XVN6o2T-sO6DyWqJ_a7QV42j21zSoUfDC4kjBIrcHwrfhsUodNu4TYkaDcuLqLHVM54tbnSUatlp-F3uC04
+sprite $ServiceResourceLinkedLg [20x20/16z] {
+NSw54GH144BHQm4s_uXlt7u9Ks_rDtFuxyaIQOybnNofbWyXGU8YB-C3vxii45OMYnJDGXAi_eHAD7CpgfGMgLQw-po2ROcSHp6o4qcDihyFu_yqFuAoGaH6
+3YgXlOvY56hIK6pt3PeeKfCcVfeqiu9VUVsBY_u
+}
+!procedure ServiceResourceLinked($id, $name="Service Resource Linked", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceResourceLinked', $name, $tech)
+!endprocedure
+!procedure ServiceResourceLinkedCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceResourceLinkedMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceResourceLinkedGroup($id, $name='Service Resource Linked', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceResourceLinkedLg>', $name, $tech)
+!endprocedure
+@enduml

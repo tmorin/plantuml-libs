@@ -1,0 +1,16 @@
+@startuml
+sprite $AirplanemodeInactiveMd [14x14/16z] LSs55SCm30HGGJY2_RVjwJMcCtuZhP7ghkjJNDN59yshgT5AZIVPqIG6kYiX_2I2tNoOgZ_OmIUDI1a7FF4KQ_lK1Vo7RsnjZPiTXwc6q9eV
+sprite $AirplanemodeInactiveLg [20x20/16z] {
+VSy5aiKm30DGGt3gMlU_xOwrdqd5lA3bLzpl_zhvCS1kjZ7hqu1s7nT4Btj1Zdj1IxYyejVeHponfE6m1re04KilD1ALMNYE4Wi0kHSnWL2HZbZEizH6Az15
+j1Qc9NSsBdcrVX3lOHrnnVlUGn-n8_TET0dqgobhTHFTAX_p1m
+}
+!procedure AirplanemodeInactive($id, $name="Airplanemode Inactive", $tech="")
+  IconElement($id, 'material-4.0/Device/AirplanemodeInactive', $name, $tech)
+!endprocedure
+!procedure AirplanemodeInactiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirplanemodeInactiveMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirplanemodeInactiveGroup($id, $name='Airplanemode Inactive', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirplanemodeInactiveLg>', $name, $tech)
+!endprocedure
+@enduml

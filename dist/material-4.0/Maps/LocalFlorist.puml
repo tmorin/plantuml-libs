@@ -1,0 +1,16 @@
+@startuml
+sprite $LocalFloristMd [14x14/16z] POs50SGm3CGkZBRsd_OPMoLcqeESzQL0qOlAW_gC9bwACrz336dm6kriQJEUqG1tdb4eCGyOEPOW9MXXpj0XIJ9OqW9xdQOybEuqs1kQdgIvzqWwSGK
+sprite $LocalFloristLg [20x20/16z] {
+VP35TS0m50HNPF6V_giDw9a3Sr_KWNDwas7JWn0CB0HT37Qw3X90Qm3nLBBCDk1ILqoIZA83Dy5B7gQx-usO9f2qupamlokzGgq0jNhvfSwCBFLLBW-smys2
+SbQqew4pWB1gWYsj2i2K9a2vpqq9O9oTnx5tE9takVJl1sCC-eTF
+}
+!procedure LocalFlorist($id, $name="Local Florist", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalFlorist', $name, $tech)
+!endprocedure
+!procedure LocalFloristCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalFloristMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalFloristGroup($id, $name='Local Florist', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalFloristLg>', $name, $tech)
+!endprocedure
+@enduml

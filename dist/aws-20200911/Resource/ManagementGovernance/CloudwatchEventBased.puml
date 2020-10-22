@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudwatchEventBasedMd [14x14/16z] JSg75GH1209GbE3qt_3bStUY_m7-YxOMDTtJAmE-520hP2OBQEPTpl2JzQSCkfDsuwEMATzKzLBTf6_M-ZR5e7AEV8xrkcXhb-i9
+sprite $CloudwatchEventBasedLg [20x20/16z] {
+XO-50GGX30HZi1lwB_YHj_F19rZa7tKpawrA4ecDSyx0rg5tngFJhRDKKq_PW0vZwwoxEYU_FrMuftRLY1OoAKM4mw77GoB2Vux3UQkrsSvL4UmT7XrEpgOP
+msbzKj1xdHy5LD7vvA54Xwl7HCNtcBm
+}
+!procedure CloudwatchEventBased($id, $name="Cloudwatch Event Based", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/CloudwatchEventBased', $name, $tech)
+!endprocedure
+!procedure CloudwatchEventBasedCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudwatchEventBasedMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure CloudwatchEventBasedGroup($id, $name='Cloudwatch Event Based', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$CloudwatchEventBasedLg>', $name, $tech)
+!endprocedure
+@enduml

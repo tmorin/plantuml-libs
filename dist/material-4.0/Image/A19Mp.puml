@@ -1,0 +1,16 @@
+@startuml
+sprite $A19MpMd [14x14/16z] NSs54GL120FG7KXow-c_skzwRmodd4I-n3tnnorDcxJOR3ooWPtY8uEzu9QVR5UB_JLPGVb0VVO0v8RosMEjs0WvxpqjSslQE7ylWPSe9rS
+sprite $A19MpLg [20x20/16z] {
+ZT050aCX30FG5clGtF-s-yvyorSUZloV25koln1suaFYQY07q5bjUP5OpSYkKYWM_6dW4bqCySKg_AD9OKpwQDOPOsfpZcu9AQyV6wT1l3XXaIYW7UQArjMe
+q_ncTIcKovHZQzVwDKVBP0VxyZdi-GpEimBCjXiB_PqR
+}
+!procedure A19Mp($id, $name="A19 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A19Mp', $name, $tech)
+!endprocedure
+!procedure A19MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A19MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A19MpGroup($id, $name='A19 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A19MpLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsShieldAwsShieldAdvancedMd [14x14/16z] JKi55aH12490tBVtl-_lch4ex8ycxkUqEZfkZUMZTnmw6iNi3RK2xAK3iG_K9zABNYtwvFYRsP2LGcee6s0q5NV-2e2OcOHoOuSHzPi4nwFRXGAm0W
+sprite $AwsShieldAwsShieldAdvancedLg [20x20/16z] {
+bOg7KK0n3CLan-KvV_zzETFX6YXT4HyOl_2QKV2Dq2HuJpjlv5wz5NkLiLmZf9xQlqwMeUISXhpafmiu0lJBzN-S_QsRqc_NIesjaqV34TKagNLLZ6ydZrkc
+3MquDrBdUZxzvZQtrdGNIGYM6j_37aMFySRHI9gCIhumT-U35m
+}
+!procedure AwsShieldAwsShieldAdvanced($id, $name="Aws Shield Aws Shield Advanced", $tech="")
+  IconElement($id, 'aws-20200911/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAdvanced', $name, $tech)
+!endprocedure
+!procedure AwsShieldAwsShieldAdvancedCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsShieldAwsShieldAdvancedMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsShieldAwsShieldAdvancedGroup($id, $name='Aws Shield Aws Shield Advanced', $tech='')
+  IconGroup($id, 'SecurityIdentityAndComplianceFamily', '<$AwsShieldAwsShieldAdvancedLg>', $name, $tech)
+!endprocedure
+@enduml

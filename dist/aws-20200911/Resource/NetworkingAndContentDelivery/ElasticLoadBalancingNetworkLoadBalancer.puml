@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticLoadBalancingNetworkLoadBalancerMd [14x14/16z] LOw50SL034992V1b_tdhTkyaBjYWH9nqcbo_tR2m8s_VRaoC95Jsv7ySf2XPwgdK4Dj2oDW6zLW1HRypnox3X77wkDdEDfIrQGi
+sprite $ElasticLoadBalancingNetworkLoadBalancerLg [20x20/16z] {
+VL054W112BBHdVl_Tw-xcB85Q0MBC9t1aJFYA5jR4evcQydhQASlKxKL124vJV8wnP0OGLCQiLxeAW3CUOgeYXRCEK98YWJMW6PZmkmkun2FjMbOpQimObhS
+QdwgySlkyKFN7_dEvU2i6-StRNSFuiMhFq_ltWy
+}
+!procedure ElasticLoadBalancingNetworkLoadBalancer($id, $name="Elastic Load Balancing Network Load Balancer", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingNetworkLoadBalancer', $name, $tech)
+!endprocedure
+!procedure ElasticLoadBalancingNetworkLoadBalancerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticLoadBalancingNetworkLoadBalancerMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure ElasticLoadBalancingNetworkLoadBalancerGroup($id, $name='Elastic Load Balancing Network Load Balancer', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$ElasticLoadBalancingNetworkLoadBalancerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceVersionsMd [14x14/16z] NSdL0KDH309GSWL8zj-tVMxd2w4k7N3wjBIwJO3YQVb8dJY3SfwgoV912gVc9QhknfYBkm7jtNZuV3FmyWS
+sprite $ServiceVersionsLg [20x20/16z] ZSu50eGW441HQlB-zxM3YOrlFnKeQSrK3s8JxDRLHFKmcJkieUdujn4YlM5lkn7R-c5cHDsCxNV4hVJjOYR1pOGHJ9kfU8lVuRwO3jwsnh-6fiFSW7MtQYih
+!procedure ServiceVersions($id, $name="Service Versions", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceVersions', $name, $tech)
+!endprocedure
+!procedure ServiceVersionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVersionsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceVersionsGroup($id, $name='Service Versions', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVersionsLg>', $name, $tech)
+!endprocedure
+@enduml

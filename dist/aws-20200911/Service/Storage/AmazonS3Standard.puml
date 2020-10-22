@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonS3StandardMd [14x14/16z] HOm55aD120Cho4_s_lVjG6rM8mz9rz2Bu6_CDvT6ofqRL21bdh7hoMrtuMTLqB2lieFWhPHcKiKzV-epp7PnKALHfrfyihcEZGqjE4Wsh4B-X5u
+sprite $AmazonS3StandardLg [20x20/16z] {
+HT07beKm34FHcTYI2_lVxtT4E7dqIqzD-HLlTV7QJNgl8tm2XJ8Oo21XnfHrM7UNujhMO__EznLOjZTpINgukyq4U4vZvVl4GbSHzTb-zLeU1J_MdZrOD5j_
+g6igb_Er1t6iVFmrybZQ9bdWQHLwM-h84P4HiD3LZp083K6fHwZrTEmSNf4TlFe3
+}
+!procedure AmazonS3Standard($id, $name="Amazon S3 Standard", $tech="")
+  IconElement($id, 'aws-20200911/Service/Storage/AmazonS3Standard', $name, $tech)
+!endprocedure
+!procedure AmazonS3StandardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonS3StandardMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonS3StandardGroup($id, $name='Amazon S3 Standard', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonS3StandardLg>', $name, $tech)
+!endprocedure
+@enduml

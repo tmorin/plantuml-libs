@@ -1,0 +1,16 @@
+@startuml
+sprite $FilterTiltShiftMd [14x14/16z] PKu50e0W4DEfDEp_lvNkvcvr7UErRrpr8sW1Iv4_7-vqtVWIZ2WGC8AjYNLZOj_Os4EyoLZ3k_mQqbRafdA9vb0DQG33hoLpRrnduXy
+sprite $FilterTiltShiftLg [20x20/16z] {
+VL050iGW36itA4x-_zkxp3r8NUK38-yH6Zk60JtghcfeKIJ-YQugCHE2L1SllsVnisU4xJf39EbjyZPJqjRP1E9SPYuGmPO6cWF-C1e7kUbaU8l5N2E4lOP4
+-5ilse_zzMKGyRCdgUuxg44aLfRPTmNk2b7lE_t03m
+}
+!procedure FilterTiltShift($id, $name="Filter Tilt Shift", $tech="")
+  IconElement($id, 'material-4.0/Image/FilterTiltShift', $name, $tech)
+!endprocedure
+!procedure FilterTiltShiftCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilterTiltShiftMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilterTiltShiftGroup($id, $name='Filter Tilt Shift', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilterTiltShiftLg>', $name, $tech)
+!endprocedure
+@enduml

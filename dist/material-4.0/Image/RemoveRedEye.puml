@@ -1,0 +1,16 @@
+@startuml
+sprite $RemoveRedEyeMd [14x14/16z] XOq30W0X44K7MV_-jrqRlHgBUeYrilckOgIwEKX0O0v06eFH18fniGf08X1bTFGQqUXvIcdgZBSjzmiZQgrIZm4
+sprite $RemoveRedEyeLg [20x20/16z] {
+hP150a8124G7-9ttlwsatSfgU3JuWx48Nu9ntTNMyOG71uw7HBFgcG5suMXIDO6wBgAJeivA6AjMWqrhRBDUwCDRtQ4RjbMjXawrrPZwdd8S2jekXkR7EmDI
+jycJ7tnl1m
+}
+!procedure RemoveRedEye($id, $name="Remove Red Eye", $tech="")
+  IconElement($id, 'material-4.0/Image/RemoveRedEye', $name, $tech)
+!endprocedure
+!procedure RemoveRedEyeCard($id, $funcName="", $content="")
+  IconCard($id, '<$RemoveRedEyeMd>', '', $funcName, $content)
+!endprocedure
+!procedure RemoveRedEyeGroup($id, $name='Remove Red Eye', $tech='')
+  IconGroup($id, 'IconGroup', '<$RemoveRedEyeLg>', $name, $tech)
+!endprocedure
+@enduml

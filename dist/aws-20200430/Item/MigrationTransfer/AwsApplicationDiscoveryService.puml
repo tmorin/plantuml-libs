@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsApplicationDiscoveryServiceMd [14x14/16z] VSlL0O1G34FHhzoIxZymmPsdFPL-BliK0-KDYiHAc5bxdrImrXJlAX6e5bbXhXTHv1WlogpDi4oIvGxxTuq
+sprite $AwsApplicationDiscoveryServiceLg [20x20/16z] {
+fSz9bWCX4CJGRZkb88lxdzUpCVlIO_MPZzC5i7VfKhJ6PXM8f7fHa4IHPOXLPQH_zYmETYCyTJCbxy7sb9H9vLfpuIWVvHfPbiYZShBGp6xx8HC_fjq7Zvz1
+iyu3NX_pCNEkEm
+}
+!procedure AwsApplicationDiscoveryService($id, $name="Aws Application Discovery Service", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/AwsApplicationDiscoveryService', $name, $tech)
+!endprocedure
+!procedure AwsApplicationDiscoveryServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsApplicationDiscoveryServiceMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsApplicationDiscoveryServiceGroup($id, $name='Aws Application Discovery Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsApplicationDiscoveryServiceLg>', $name, $tech)
+!endprocedure
+@enduml

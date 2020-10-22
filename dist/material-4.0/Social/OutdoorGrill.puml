@@ -1,0 +1,16 @@
+@startuml
+sprite $OutdoorGrillMd [14x14/16z] POt50S1G349hSTj_shh_Tua2NSCq0OptD0epFqS4mE7irtO3zg7Fsib-7-MOf3kElWs-dOxVo7WirnRq_1pAcTtYYBHGjnBNNMLRy1YtpSq2
+sprite $OutdoorGrillLg [20x20/16z] {
+TOu55iGW30NZw3RtF-tMmwiDFjY7JuYGWQ_ECXTgLuUTEpUvobIaShywof2Xm41KLPQo4DUx1t4z3vVZiU5en3kLmK2drKnwoT8yPoyNPUlQ95SEXJxXaIa2
+Ljz95FVLUrreNYq2zkNcId7_uU6OpeaWV303
+}
+!procedure OutdoorGrill($id, $name="Outdoor Grill", $tech="")
+  IconElement($id, 'material-4.0/Social/OutdoorGrill', $name, $tech)
+!endprocedure
+!procedure OutdoorGrillCard($id, $funcName="", $content="")
+  IconCard($id, '<$OutdoorGrillMd>', '', $funcName, $content)
+!endprocedure
+!procedure OutdoorGrillGroup($id, $name='Outdoor Grill', $tech='')
+  IconGroup($id, 'IconGroup', '<$OutdoorGrillLg>', $name, $tech)
+!endprocedure
+@enduml

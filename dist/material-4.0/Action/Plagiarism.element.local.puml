@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the Plagiarism element
+include('material-4.0/Action/Plagiarism')
+Plagiarism('plagiarism', 'Plagiarism', 'an optional tech field')
+@enduml

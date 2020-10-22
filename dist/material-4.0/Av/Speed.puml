@@ -1,0 +1,16 @@
+@startuml
+sprite $SpeedMd [14x14/16z] XKp50S102ECSBVjlMyw-BIv9uCVIO1xvBCEDwE6xr0Lei-Qz52kz093C1Hr10wmZKEeQb4Zh4-s1wWOWDCbJVtAQ8z8Adwge8ZeJuTDU
+sprite $SpeedLg [20x20/16z] {
+fSrH4i0G30JGbQG0zlwtxG3J_xuMm0R_QKWfA3wiScg28v1HdTCOS7WMX-Mn7SMAhLJO3CtSsTOfw0M0Oy7W4kc1IZUUXfdGE0_3U6LyLW8femfjxFbL_8m6
+21C6CmnftgxTuNAzxbTV7aCe-Ie1_xm
+}
+!procedure Speed($id, $name="Speed", $tech="")
+  IconElement($id, 'material-4.0/Av/Speed', $name, $tech)
+!endprocedure
+!procedure SpeedCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpeedMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpeedGroup($id, $name='Speed', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpeedLg>', $name, $tech)
+!endprocedure
+@enduml

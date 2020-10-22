@@ -1,0 +1,13 @@
+@startuml
+sprite $SlideshowMd [14x14/16z] TSwr0S1030D0OnEGzfysZ0_NcIq5Yulj0Oa3kOK1kI1QaO_wZOZeHjFRsTzfn8N7Cnc7D2ci
+sprite $SlideshowLg [20x20/16z] ZP3L0S0m44BZ5sV_QUlUsFiy1TWusf8z8Als4bxejMQXn8M2NMi4mIx4NhDRZHTgdWers48DaG_LtD2FjvQoPiN50LUmfGp-MUsbCMO
+!procedure Slideshow($id, $name="Slideshow", $tech="")
+  IconElement($id, 'material-4.0/Image/Slideshow', $name, $tech)
+!endprocedure
+!procedure SlideshowCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlideshowMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlideshowGroup($id, $name='Slideshow', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlideshowLg>', $name, $tech)
+!endprocedure
+@enduml

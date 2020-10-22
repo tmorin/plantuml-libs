@@ -1,0 +1,16 @@
+@startuml
+sprite $CustomerEnablementMd [14x14/16z] NSt50GDH24LH8ZoZ_tgZu_VhML7d7cYWlmUFAimMligCcCaYWu8N6IODBr90IvkwTm4POb7KSYkB9bmcNAO_iVMiSsy
+sprite $CustomerEnablementLg [20x20/16z] {
+RS_L0O00549HunNW_klQhTS-NzZyrhvQ27oKxMmK9L7xetQR4_VdQLAQfNGpmOCCXmwRdmQw4rOwBMhmAXygxZQVCxojxry6kEJ0pT8T4jnJjossR37ekTdz
+jXdy-xTxcsKzYiMwLxFzD04
+}
+!procedure CustomerEnablement($id, $name="Customer Enablement", $tech="")
+  IconElement($id, 'aws-20200430/Item/CustomerEnablement/CustomerEnablement', $name, $tech)
+!endprocedure
+!procedure CustomerEnablementCard($id, $funcName="", $content="")
+  IconCard($id, '<$CustomerEnablementMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+!procedure CustomerEnablementGroup($id, $name='Customer Enablement', $tech='')
+  IconGroup($id, 'IconGroup', '<$CustomerEnablementLg>', $name, $tech)
+!endprocedure
+@enduml

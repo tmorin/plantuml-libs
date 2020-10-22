@@ -1,0 +1,13 @@
+@startuml
+sprite $SignalCellularConnectedNoInternet4BarMd [14x14/16z] TKw35G1H3Fj6bVsdFHjvR4FtYtGzcbuFoEKmgiTHKLquPQX93-PoLLokYkNATXwelgm1wpLlIIeBB2TnTum
+sprite $SignalCellularConnectedNoInternet4BarLg [20x20/16z] dSor0S0m40J1avcl_sxDj9zfmtbGRbqTg7KTQJFIPgHX64lG4d_PAgSIP5MklqJRYBOHRIFQHX-hGDOMQ56gqqQzj_2l_dRjnLO
+!procedure SignalCellularConnectedNoInternet4Bar($id, $name="Signal Cellular Connected No Internet4 Bar", $tech="")
+  IconElement($id, 'material-4.0/Device/SignalCellularConnectedNoInternet4Bar', $name, $tech)
+!endprocedure
+!procedure SignalCellularConnectedNoInternet4BarCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignalCellularConnectedNoInternet4BarMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignalCellularConnectedNoInternet4BarGroup($id, $name='Signal Cellular Connected No Internet4 Bar', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignalCellularConnectedNoInternet4BarLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $CropMd [14x14/16z] bOu30W1130ERdfNy_xLdUsTHmmmfRCFfjW34T7ZFOAMIK8fKFSHyYWrYgGiIA35PyJW1qv1Q712LZj61cB7ZTi5v-Gu
+sprite $CropLg [20x20/16z] nP434W0n303FtkJ_hptRxWxQM5Q9urWBu9xE0HGh42eojzR9MAVf46lw5mHxisNAc7fBNaQBAeZppjQ6AnG
+!procedure Crop($id, $name="Crop", $tech="")
+  IconElement($id, 'material-4.0/Image/Crop', $name, $tech)
+!endprocedure
+!procedure CropCard($id, $funcName="", $content="")
+  IconCard($id, '<$CropMd>', '', $funcName, $content)
+!endprocedure
+!procedure CropGroup($id, $name='Crop', $tech='')
+  IconGroup($id, 'IconGroup', '<$CropLg>', $name, $tech)
+!endprocedure
+@enduml

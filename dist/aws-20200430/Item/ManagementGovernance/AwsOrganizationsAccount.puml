@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsOrganizationsAccountMd [14x14/16z] HKs50G9136li7lPVc63zr3LJm9e5ZvAjWXgtgjsxJfVtB3c9lmM-RNrtWo-9tGpVtuy6FxkejXMbYk47wU7lg3Yai3JZwp9c0TQz
+sprite $AwsOrganizationsAccountLg [20x20/16z] {
+VSm55iH020FGO26z_uNtqRNw7ny4RsOui5OhiDC9k1mRmTcJsAYStVivxzVFi16IMgfjkpQOpucl_5qjwLZfzqL6SsvPtnRoUIg02hn9Swk502jMJcEdqWa4
+Qt2zBuOvVngmnk6FysTTsCYkBWLsZ4lXnWi
+}
+!procedure AwsOrganizationsAccount($id, $name="Aws Organizations Account", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOrganizationsAccount', $name, $tech)
+!endprocedure
+!procedure AwsOrganizationsAccountCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOrganizationsAccountMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOrganizationsAccountGroup($id, $name='Aws Organizations Account', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsOrganizationsAccountLg>', $name, $tech)
+!endprocedure
+@enduml

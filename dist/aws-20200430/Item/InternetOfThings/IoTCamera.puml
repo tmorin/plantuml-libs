@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTCameraMd [14x14/16z] NOw50S1020EH17x_YPjIxxtYiJyu6OD2Vzqoi5yUBZTa8HQPbJuMHLKbnoeu2ntwZ6MjpRmiTBLZB3Ap5yywMeHxn4pGTS976G7xim4
+sprite $IoTCameraLg [20x20/16z] {
+TP07aWGn2CG8ZRYw_pzuySQ9FT4gEO3THPwHSxk-o3jHbSZsDsANbuLjmZBLmzASUWvfZPOO_o1NHnZfeq1r5MkFQa6EjpuA-g-n08qNHOLLCrZE6Yp6OcdP
+zMQk5oDVdbvx37Ewd-kzziX24JbxP8ZAyTGuHQt0-BgexQ875xswxkbr7W
+}
+!procedure IoTCamera($id, $name="Io T Camera", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTCamera', $name, $tech)
+!endprocedure
+!procedure IoTCameraCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTCameraMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTCameraGroup($id, $name='Io T Camera', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTCameraLg>', $name, $tech)
+!endprocedure
+@enduml

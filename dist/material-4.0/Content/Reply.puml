@@ -1,0 +1,13 @@
+@startuml
+sprite $ReplyMd [14x14/16z] bSU50S0m30D1ASpPVzeoSpzW7_vbjuXvWr2BLpDYxSjorfYQMM8gjN1aoW1DzQFeXZyGcpZhkXO
+sprite $ReplyLg [20x20/16z] jO-34GHH44G7t-hyexrRkxHuvK63la7rDE9cZoEfECwu0b6FLpqjy7uqJkqoQrXmvqF0R8V9nmoWyY4Bkmg_-ipvKhte5WoTONh47m
+!procedure Reply($id, $name="Reply", $tech="")
+  IconElement($id, 'material-4.0/Content/Reply', $name, $tech)
+!endprocedure
+!procedure ReplyCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReplyMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReplyGroup($id, $name='Reply', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReplyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $PictureInPictureMd [14x14/16z] VSs30G0n30NGNolOVzgpqLSZ2UwSFpXubOFwH9YPkLDUJqcO6PJMKz69-Jw5Cbb_7hgdVAyE5_mcEDoD
+sprite $PictureInPictureLg [20x20/16z] ZT253S10049He7P--qzRTt_n7sBWBpNce16OyacYicMX3MsMii68KqEpQp4F8ior7NRXqkvtBWxyrZQ_ctdSKJiqMNSVe30dmbyT
+!procedure PictureInPicture($id, $name="Picture In Picture", $tech="")
+  IconElement($id, 'material-4.0/Action/PictureInPicture', $name, $tech)
+!endprocedure
+!procedure PictureInPictureCard($id, $funcName="", $content="")
+  IconCard($id, '<$PictureInPictureMd>', '', $funcName, $content)
+!endprocedure
+!procedure PictureInPictureGroup($id, $name='Picture In Picture', $tech='')
+  IconGroup($id, 'IconGroup', '<$PictureInPictureLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $FolderSharedMd [14x14/16z] VSo35G1140FGh3NelzgpiVznaA37rudT9z89fvHojikqetsIK2vJWRjCckcSE7fVZYd1m0W_EtqzUFIC
+sprite $FolderSharedLg [20x20/16z] fP3L0G0X242nM_UVrav-VNSM3V25TDPQfsuHImC5fD5b8arY9zaZE_1R5dHeXxXz2T28P0400f8bmqp2CkyyajbM6d6FZFPgwICBlX6wZ2K4cpCuE0bV5
+!procedure FolderShared($id, $name="Folder Shared", $tech="")
+  IconElement($id, 'material-4.0/File/FolderShared', $name, $tech)
+!endprocedure
+!procedure FolderSharedCard($id, $funcName="", $content="")
+  IconCard($id, '<$FolderSharedMd>', '', $funcName, $content)
+!endprocedure
+!procedure FolderSharedGroup($id, $name='Folder Shared', $tech='')
+  IconGroup($id, 'IconGroup', '<$FolderSharedLg>', $name, $tech)
+!endprocedure
+@enduml

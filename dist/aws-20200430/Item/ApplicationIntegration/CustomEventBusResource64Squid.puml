@@ -1,0 +1,16 @@
+@startuml
+sprite $CustomEventBusResource64SquidMd [14x14/16z] JOk50GCm20GFUxB_mXL8vQAy00wPxsV8m8n8xgWgxI2prvvBO6WQBcoVeLmbb-raVTh9s44vklw6igYV4o3538Exzxa3bALckBHOdW
+sprite $CustomEventBusResource64SquidLg [20x20/16z] {
+NSpN0KH124BHQvXHjl-2z-LqFXLWOGwC0RXny0Bc1CevTO0PH7Fpp8nCPnS6gEQY15X0olUjVTELW67Y8CFOL7B8mek5Yql5hrH51nVNSefWZllqio4M9cDd
+owdPZ7cU_3Yb8p-AnscsaVqk6ejInN4wXUFgVfwGqJx5WoUXQZx6Bxdy0G
+}
+!procedure CustomEventBusResource64Squid($id, $name="Custom Event Bus Resource64 Squid", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/CustomEventBusResource64Squid', $name, $tech)
+!endprocedure
+!procedure CustomEventBusResource64SquidCard($id, $funcName="", $content="")
+  IconCard($id, '<$CustomEventBusResource64SquidMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure CustomEventBusResource64SquidGroup($id, $name='Custom Event Bus Resource64 Squid', $tech='')
+  IconGroup($id, 'IconGroup', '<$CustomEventBusResource64SquidLg>', $name, $tech)
+!endprocedure
+@enduml

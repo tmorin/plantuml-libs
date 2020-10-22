@@ -1,0 +1,16 @@
+@startuml
+sprite $SecurityMd [14x14/16z] TOs54GGn548XdXNelzkBpOxUYtu3B6B4HtxiEs5Hv1vblsK4oPMWF4WZ4l0_8XbUIpEAytt3o7ZQo0CE7s7GJlJq6L4hQY8coHQx4pRniT-8ZtGAFm
+sprite $SecurityLg [20x20/16z] {
+fT350SGm30LHVJaCclwhtO32rvtZCzlE9FkaDg9xgVSGGE-dL2DCbJPah7PgO2Xc8citQyaniYxD_x1YaYa88lACXjXpILRJR5R8T2xQcXysX-rrjzLqQOhJ
+5CYoXZHDUSAzsigS5tdCdA2nPpu4Wp_W-_SB
+}
+!procedure Security($id, $name="Security", $tech="")
+  IconElement($id, 'homecloud/Element/Security', $name, $tech)
+!endprocedure
+!procedure SecurityCard($id, $funcName="", $content="")
+  IconCard($id, '<$SecurityMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure SecurityGroup($id, $name='Security', $tech='')
+  IconGroup($id, 'IconGroup', '<$SecurityLg>', $name, $tech)
+!endprocedure
+@enduml

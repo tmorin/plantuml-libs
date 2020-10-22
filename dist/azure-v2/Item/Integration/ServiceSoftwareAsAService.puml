@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSoftwareAsAServiceMd [14x14/16z] POx70SD03CFKIMN_WSFqsCOruAMp9-xsmoD-6GDClSFbCyXd55wCl8T02Q33I10X87DIf51jxNAVHKarRhklMcfearsb6_4UM8M_pqIaNRa3
+sprite $ServiceSoftwareAsAServiceLg [20x20/16z] {
+bS-5aGGn34HH2zkQ_0C-mItpB-fwWrw_HjcTgCDDhebJlFH2v9XSJoHDW-VdSay0ptExJ4H5B8Vn8jcLCmkpzIInCQbcgrYqyTd2ICjYdlLeMxmZWrOUbQwb
+RKH2rEPrR4OSS3Dp7B4jQL9NLhVU5tCrw8tHj5xs1m
+}
+!procedure ServiceSoftwareAsAService($id, $name="Service Software As A Service", $tech="")
+  IconElement($id, 'azure-v2/Item/Integration/ServiceSoftwareAsAService', $name, $tech)
+!endprocedure
+!procedure ServiceSoftwareAsAServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSoftwareAsAServiceMd>', 'Integration', $funcName, $content)
+!endprocedure
+!procedure ServiceSoftwareAsAServiceGroup($id, $name='Service Software As A Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSoftwareAsAServiceLg>', $name, $tech)
+!endprocedure
+@enduml

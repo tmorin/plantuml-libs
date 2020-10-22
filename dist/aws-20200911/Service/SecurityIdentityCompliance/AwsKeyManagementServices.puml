@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsKeyManagementServicesMd [14x14/16z] DSV7OGCm30ImnDOrQlzzJJNyaCM7jFUkIWY-Lf4cta9_HITPAnW2qTQCG94zrWh2m731dclioN3cB9WD6EbDWTQoLyYifRUylDt-
+sprite $AwsKeyManagementServicesLg [20x20/16z] {
+RSe9ZWGX34DHgUEGsDp_laCepzw_LfvCr-sgYczGFCbcb8uaid-ef8xLAumsb9A5dpj200W-UQSLoQWrrRMzShUG2ud4Q-oKE4Hnxh0nY1M9QFOyMzf8FKRn
+sjQUNRqwij1eSYnJwEggMXqyTYA4WhjsXv3SsCHeds_RoTbCxfhxWHy
+}
+!procedure AwsKeyManagementServices($id, $name="Aws Key Management Services", $tech="")
+  IconElement($id, 'aws-20200911/Service/SecurityIdentityCompliance/AwsKeyManagementServices', $name, $tech)
+!endprocedure
+!procedure AwsKeyManagementServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsKeyManagementServicesMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsKeyManagementServicesGroup($id, $name='Aws Key Management Services', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsKeyManagementServicesLg>', $name, $tech)
+!endprocedure
+@enduml

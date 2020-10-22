@@ -1,0 +1,13 @@
+@startuml
+sprite $SubtitlesMd [14x14/16z] XSc54SKW303GSCID_QVzKZkd3-AmW_v0W5oFV9lwxFi_5GCNm1X7oLMzghBgkDd4YTWsxNyBKHNfuFZTCFBF8mDXvmi
+sprite $SubtitlesLg [20x20/16z] Ow08i75p8GCse10pFnfWPc1WHHTZfO4OZ001E9U3XOK3IB220925Ioz22LW7gb4iG1Q4mFGRHXXmir4MeW
+!procedure Subtitles($id, $name="Subtitles", $tech="")
+  IconElement($id, 'material-4.0/Av/Subtitles', $name, $tech)
+!endprocedure
+!procedure SubtitlesCard($id, $funcName="", $content="")
+  IconCard($id, '<$SubtitlesMd>', '', $funcName, $content)
+!endprocedure
+!procedure SubtitlesGroup($id, $name='Subtitles', $tech='')
+  IconGroup($id, 'IconGroup', '<$SubtitlesLg>', $name, $tech)
+!endprocedure
+@enduml

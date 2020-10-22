@@ -1,0 +1,16 @@
+@startuml
+sprite $CarRepairMd [14x14/16z] ROf10aGH34Er2G3kVzeFjPjvq2Q9-m7Su0dciCaq5VNy6atLu3UXNg6ZpaqTLkdIvcpIJSs7gK45bDQK89SWH-KnnfpxopU3IgsY4FT8oVrX0G
+sprite $CarRepairLg [20x20/16z] {
+bSo50OGm30NGrFKd-q-BrCw51xKONQ5YQgAwnL9o_k1okfLLDIyhvbOwkrkhTOszDKCMp1XdodB8LFX3x6Cl90-t6DxSZ7wvHLG0jMs8r2J6GGG7JdHp6_KZ
+PYrzimC
+}
+!procedure CarRepair($id, $name="Car Repair", $tech="")
+  IconElement($id, 'material-4.0/Maps/CarRepair', $name, $tech)
+!endprocedure
+!procedure CarRepairCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarRepairMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarRepairGroup($id, $name='Car Repair', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarRepairLg>', $name, $tech)
+!endprocedure
+@enduml

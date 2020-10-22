@@ -1,0 +1,13 @@
+@startuml
+sprite $CampaignMd [14x14/16z] ZSt50GGX3030E4xwh_PqtUS3SNY4TVmXWteSqos1sFUdjLJt9FzyzQ-KKKhSHjgykMU1F-h4FG7h62ql4Fo8mgKt
+sprite $CampaignLg [20x20/16z] hOz50iGW34K_xkJ-fvsfuUpQXyOJV8SKYyfIG8TmWAR8cuOvIiUjImfhZSrqk5GVGGz1-Q9JHHTL1cBASgkROqkDd4kDHagjbwOxtQ-U0tjq8MndAoY1T_m1
+!procedure Campaign($id, $name="Campaign", $tech="")
+  IconElement($id, 'material-4.0/Navigation/Campaign', $name, $tech)
+!endprocedure
+!procedure CampaignCard($id, $funcName="", $content="")
+  IconCard($id, '<$CampaignMd>', '', $funcName, $content)
+!endprocedure
+!procedure CampaignGroup($id, $name='Campaign', $tech='')
+  IconGroup($id, 'IconGroup', '<$CampaignLg>', $name, $tech)
+!endprocedure
+@enduml

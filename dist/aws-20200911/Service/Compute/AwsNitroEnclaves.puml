@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsNitroEnclavesMd [14x14/16z] HSe73WHH20BGHAJS_yIBsuPV7z6DFY7vu5W0l3rKHHBTopq9yaqFrK_8DkQsoIcOH-8kkAvo0lmemv1_ANy9su2sS_4lXwTv0G
+sprite $AwsNitroEnclavesLg [20x20/16z] {
+VSY50S0m24JHzf1Z_ua3rFL7USpyb6NihdWbQom2G0MaFgbbdeF2lQuoNynKtLMDcn7WaWE-6gKUjJIlOZERVBV4a1hddC35eYp4TDQBqMPBE2pIQ83JvMp1
+oQAC9pC9jl4magjnDKY7DaR7It7gpmO
+}
+!procedure AwsNitroEnclaves($id, $name="Aws Nitro Enclaves", $tech="")
+  IconElement($id, 'aws-20200911/Service/Compute/AwsNitroEnclaves', $name, $tech)
+!endprocedure
+!procedure AwsNitroEnclavesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsNitroEnclavesMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsNitroEnclavesGroup($id, $name='Aws Nitro Enclaves', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsNitroEnclavesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ReplayMd [14x14/16z] POw30S10302Jjs__QMlt7Z5aG-M1LdqOZOULWUwlMCScufsguZ2NkRoMLirPsKXr_KlThPhN_oWmk6F08XrPTX9ZaEvbd5FvCmC
+sprite $ReplayLg [20x20/16z] {
+bOs54KCn3CN2w4RxJrl-ZD6Hpu_K6KblNeNDAzEsBf3iDhy6rIoVJUl4GsysF7MvehzJTZDlYRz3JysQCbJfwPT_Hy0DFq_u7GOPViBGauP49gc1YWHZWtmN
+1Y9VefgZVOnUgpvU
+}
+!procedure Replay($id, $name="Replay", $tech="")
+  IconElement($id, 'material-4.0/Av/Replay', $name, $tech)
+!endprocedure
+!procedure ReplayCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReplayMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReplayGroup($id, $name='Replay', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReplayLg>', $name, $tech)
+!endprocedure
+@enduml

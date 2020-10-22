@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsStepFunctionsMd [14x14/16z] XKsr0S1046eE-_ttZRlIuUqF8OyCEmjLqC9980azCHJGI94Jmy2qCh5WUqaEt0Nfzh1WS7xH0m
+sprite $AwsStepFunctionsLg [20x20/16z] hL2r0GH027k90VlF--xINJeqqWjGP7rqMYVqPnTuwqn9sk_rSbxXNavIzDnwe4Hq9tPkco90ZY69-EZ5CLvlBqIKFpdaUMhXJKl-QlxlxPR10Xm1
+!procedure AwsStepFunctions($id, $name="Aws Step Functions", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/AwsStepFunctions', $name, $tech)
+!endprocedure
+!procedure AwsStepFunctionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsStepFunctionsMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure AwsStepFunctionsGroup($id, $name='Aws Step Functions', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsStepFunctionsLg>', $name, $tech)
+!endprocedure
+@enduml

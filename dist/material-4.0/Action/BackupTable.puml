@@ -1,0 +1,16 @@
+@startuml
+sprite $BackupTableMd [14x14/16z] POg55SH024GtWhnW_NTxo7d-2eoiNz06tKlP1PY0SokOZl16gV2bJbjBNLLKDQYK2P5hlb6GELNphjH5mqK28TN1J0dZIfNiS2O0LoiAQnpNBmy
+sprite $BackupTableLg [20x20/16z] {
+VOu50iGW30IHf2sw___j1OUpgJ9HzHN34negO-6ROpmqqYAQ8x0QU76wv6qkG5BeTBuuBixVJ-DEq-qCTsch7SXO7QOh_HwOrcywBSwA-vT7YDxxX23lt5mf
+MDnZNQqMpHM81_GCXuriFlAug2-y
+}
+!procedure BackupTable($id, $name="Backup Table", $tech="")
+  IconElement($id, 'material-4.0/Action/BackupTable', $name, $tech)
+!endprocedure
+!procedure BackupTableCard($id, $funcName="", $content="")
+  IconCard($id, '<$BackupTableMd>', '', $funcName, $content)
+!endprocedure
+!procedure BackupTableGroup($id, $name='Backup Table', $tech='')
+  IconGroup($id, 'IconGroup', '<$BackupTableLg>', $name, $tech)
+!endprocedure
+@enduml

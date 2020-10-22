@@ -1,0 +1,16 @@
+@startuml
+sprite $ApplicationIntegrationMd [14x14/16z] LSs50GGn20H0NbXB__MUwyG5gBTVNtvL61chPK5LnvH8EhsSnh9fMXpxoKOSdc_1udXJB_lhfon3rqz5iFUtc1kbj-gxhVeFbr-zpG
+sprite $ApplicationIntegrationLg [20x20/16z] {
+RSy50eGm44FHjNGIzlxtfVZOnn_MljhUgOseaBsdQGdT9cdVEHipODlVfdcg7-T3Gzv05ID8o1bC0c20i-qIb3aRsvF3ylSM6OfjvCoFsSzjoy_Dz-Tc5Y8s
+AxswLW
+}
+!procedure ApplicationIntegration($id, $name="Application Integration", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/ApplicationIntegration', $name, $tech)
+!endprocedure
+!procedure ApplicationIntegrationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplicationIntegrationMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure ApplicationIntegrationGroup($id, $name='Application Integration', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApplicationIntegrationLg>', $name, $tech)
+!endprocedure
+@enduml

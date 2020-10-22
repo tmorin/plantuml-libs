@@ -1,0 +1,16 @@
+@startuml
+sprite $CardMembershipMd [14x14/16z] PSt50S0m20LGuXxstxPO_TtG3szvNJB0wYcBr1TL2KpYAjytL5KVF0c-KZNnCgaQfOeoR5F8Pi6DOcFHrrpSGRZMNKLQAH5-3W
+sprite $CardMembershipLg [20x20/16z] {
+fSt50S0m2010e1xTVzguowjN3GfBT3NEYtn8wOvomKk_PrFtwWlWzA_gyiVhLqomXeYnNep9pduUUzxYOJw6KdSaWWiIuHFFZ_-lKxnniji-nMw0kuyXrlUQ
+1G
+}
+!procedure CardMembership($id, $name="Card Membership", $tech="")
+  IconElement($id, 'material-4.0/Action/CardMembership', $name, $tech)
+!endprocedure
+!procedure CardMembershipCard($id, $funcName="", $content="")
+  IconCard($id, '<$CardMembershipMd>', '', $funcName, $content)
+!endprocedure
+!procedure CardMembershipGroup($id, $name='Card Membership', $tech='')
+  IconGroup($id, 'IconGroup', '<$CardMembershipLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElasticFileSystemEfsFileSystemMd [14x14/16z] FSo70G9130CmnoM-P_zzwQ0114M0Gy0UdXowERExLR6AqIddJ7j6fuNRnN00SiOcdlYYPJIOpPl6NfxyERL-uZNnetQ2lrx8u4StC9YV2t3yFny
+sprite $AwsElasticFileSystemEfsFileSystemLg [20x20/16z] {
+LShL0GDG24FH2mJh_llMxPqV905tDx3xu3Eqimbv7uBQ6RTDqxglB1TjU0yZVCtMqH03sJOL-UXbrA1LzE0p8z1z-7EqWPd1QxWoxkEVjR9vYigNIgXgOJuP
+Uea7XYfzvLrRvrJ-Yung-Q5J7SaXEfis3Zs3aaDS5fhJBAGuw0BMEkG5S9tY1W
+}
+!procedure AwsElasticFileSystemEfsFileSystem($id, $name="Aws Elastic File System Efs File System", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsElasticFileSystemEfsFileSystem', $name, $tech)
+!endprocedure
+!procedure AwsElasticFileSystemEfsFileSystemCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticFileSystemEfsFileSystemMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsElasticFileSystemEfsFileSystemGroup($id, $name='Aws Elastic File System Efs File System', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticFileSystemEfsFileSystemLg>', $name, $tech)
+!endprocedure
+@enduml

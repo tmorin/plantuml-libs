@@ -1,0 +1,19 @@
+@startuml
+sprite $GridOffMd [14x14/16z] {
+JKs30KHH3Cj_Hh7_jbUSQYOF_eKM3XExyK3HYIDZoEc7RQdZEPOwkdUa2-sx4z9PM8ML0Fljzai3WxCJcQL5HqgYuiXnQU_6eCvhdK4JS8teVdVYHB3VbE3z
+aqBF2m
+}
+sprite $GridOffLg [20x20/16z] {
+ZOq50eKW40KVRU_zJolT_1YbjWOBZ05K2mSECjYeuKb1iT4cPTeKe8WsY7Yhs-M2sn3RBZ9WgkzrR5KKwwHiH37sfoXs555rL56jAwBg64Ho5DNUAdBmXrfI
+K4bLSA8D4uU11G
+}
+!procedure GridOff($id, $name="Grid Off", $tech="")
+  IconElement($id, 'material-4.0/Image/GridOff', $name, $tech)
+!endprocedure
+!procedure GridOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$GridOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure GridOffGroup($id, $name='Grid Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$GridOffLg>', $name, $tech)
+!endprocedure
+@enduml

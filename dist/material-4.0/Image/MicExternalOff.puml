@@ -1,0 +1,16 @@
+@startuml
+sprite $MicExternalOffMd [14x14/16z] LSg53G0n5CFGb2dzsN_QOxJmISO_Zq8FrsVPPHL6a5bvKr11WIBQs8IoqLb0FTIqaV5IaLJXBcLfRBmKfHmsLkuAKeAfkB8BDC3AFfzhxXFXPfuCG3IFVoi
+sprite $MicExternalOffLg [20x20/16z] {
+TT255SCm00DHoT3KyAhzjwt2VE4VDbvYZjCsfh02ebIyroGDanLlZT4x9NSbE7PZyhuw45ImOIJKW7dbilG5pbOb3HSRD64k1_jeHXuiMNxTUB1ewvnHTRPW
+QmZhYwRuawhNwukcklG5rPkHYt7zhMvSAogfAu47v3fCnW_MOWxJbeLux0y
+}
+!procedure MicExternalOff($id, $name="Mic External Off", $tech="")
+  IconElement($id, 'material-4.0/Image/MicExternalOff', $name, $tech)
+!endprocedure
+!procedure MicExternalOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicExternalOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicExternalOffGroup($id, $name='Mic External Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicExternalOffLg>', $name, $tech)
+!endprocedure
+@enduml

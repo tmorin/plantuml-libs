@@ -1,0 +1,16 @@
+@startuml
+sprite $ExitToAppMd [14x14/16z] NSwr0G0W30H0tE7tdnRtw-8X7oOcrW8WTK0DHI9J4ZEoOaQajHlm4J5NMTJmHAb6V-VSukQMxm93cj2VaQAJDNWL
+sprite $ExitToAppLg [20x20/16z] {
+ZP250SGm24KZIFplF-rTtUsrCHpCTpXecD10emWxk9S5a5iWX5wcS6R1ZR8mo7pZZSm7s-y0JR8Lrq2BJ5eTQ03FCiKgE_loPOxhMfvg9kicB25SpU0ygrxq
+bJy
+}
+!procedure ExitToApp($id, $name="Exit To App", $tech="")
+  IconElement($id, 'material-4.0/Action/ExitToApp', $name, $tech)
+!endprocedure
+!procedure ExitToAppCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExitToAppMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExitToAppGroup($id, $name='Exit To App', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExitToAppLg>', $name, $tech)
+!endprocedure
+@enduml

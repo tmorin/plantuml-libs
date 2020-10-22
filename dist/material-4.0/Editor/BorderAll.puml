@@ -1,0 +1,13 @@
+@startuml
+sprite $BorderAllMd [14x14/16z] VKw30S103AmHxZzjyNRit5JGzj6w_lPFL4JKcEtBv2i1V4RQsNtxJ05kvXj0yooV7DuilyzReBd0_08
+sprite $BorderAllLg [20x20/16z] hP230G0n301hHVjl-xPnTUEesxWKqqXChlbBiY0rVr6SgI5kTjVz9J7DGTJivey_Qf3kEFhxFsuKfuVQj9Duq8DjhsvJ0G
+!procedure BorderAll($id, $name="Border All", $tech="")
+  IconElement($id, 'material-4.0/Editor/BorderAll', $name, $tech)
+!endprocedure
+!procedure BorderAllCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderAllMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderAllGroup($id, $name='Border All', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderAllLg>', $name, $tech)
+!endprocedure
+@enduml

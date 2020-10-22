@@ -1,0 +1,13 @@
+@startuml
+sprite $ChevronLeftMd [14x14/16z] Oo0LC38ZytYvaJWylCWoF0oeF7nSRZGRI0C
+sprite $ChevronLeftLg [20x20/16z] Ow0lu6B14EBcPySKuY12Y0TJ8oDKZB0W0rQLt5W5MUaOG
+!procedure ChevronLeft($id, $name="Chevron Left", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ChevronLeft', $name, $tech)
+!endprocedure
+!procedure ChevronLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChevronLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChevronLeftGroup($id, $name='Chevron Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChevronLeftLg>', $name, $tech)
+!endprocedure
+@enduml

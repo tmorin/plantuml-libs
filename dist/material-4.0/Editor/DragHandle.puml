@@ -1,0 +1,13 @@
+@startuml
+sprite $DragHandleMd [14x14/16z] Ow0IuE3b0GDU3X2FXGqAM31v77oyOC37GIsx0G
+sprite $DragHandleLg [20x20/16z] OnXSW9M3dGC2W0nMY1WNFnBWWeWnCY41HfWO8xeOfbvCEmON
+!procedure DragHandle($id, $name="Drag Handle", $tech="")
+  IconElement($id, 'material-4.0/Editor/DragHandle', $name, $tech)
+!endprocedure
+!procedure DragHandleCard($id, $funcName="", $content="")
+  IconCard($id, '<$DragHandleMd>', '', $funcName, $content)
+!endprocedure
+!procedure DragHandleGroup($id, $name='Drag Handle', $tech='')
+  IconGroup($id, 'IconGroup', '<$DragHandleLg>', $name, $tech)
+!endprocedure
+@enduml

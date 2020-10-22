@@ -1,0 +1,16 @@
+@startuml
+sprite $BeachAccessMd [14x14/16z] ROo30GH134KpHl3wh_Riss4-vM3babzpKS377NHVRGJCAwW6tcHPkY9T0Feee3bmLwJGErYM1t9Hoz7lq5cIfDDkQ63NhtDJqxmNzBZ_Z_K0xtK6
+sprite $BeachAccessLg [20x20/16z] {
+bSrLeaCX38JXGOFF_bTx7BdQzd_y80a-J3aHfrQnXLT9e-To3AbTwZgnPT5mbQJSPFFr9GA17dSbPfurWxvEKuGtTe9ZrBTvz8GLgTCmMhI3967Eii3I8pDs
+EvV9TJ5DF9UTjAAPwoTwmPmn-9wQzBeT
+}
+!procedure BeachAccess($id, $name="Beach Access", $tech="")
+  IconElement($id, 'material-4.0/Places/BeachAccess', $name, $tech)
+!endprocedure
+!procedure BeachAccessCard($id, $funcName="", $content="")
+  IconCard($id, '<$BeachAccessMd>', '', $funcName, $content)
+!endprocedure
+!procedure BeachAccessGroup($id, $name='Beach Access', $tech='')
+  IconGroup($id, 'IconGroup', '<$BeachAccessLg>', $name, $tech)
+!endprocedure
+@enduml

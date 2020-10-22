@@ -1,0 +1,13 @@
+@startuml
+sprite $SwitchVideoMd [14x14/16z] XSt50G1120F0h3lflzfprtdXu9DMCumA5m4Mg5lcsvYbHkR2nWgq2EUyGUKzgupRvF5AQDSFIY_memS
+sprite $SwitchVideoLg [20x20/16z] hOx50G0X4CI2E_JVxRdBYw3hGszaBdcZ1420QMS4mTny5TzMNsWZ9Ow-q5QVbREFr4OMdmKvmUYy-GICrRVQnVMSCPuVBMVDSVJ9SY82WjuC
+!procedure SwitchVideo($id, $name="Switch Video", $tech="")
+  IconElement($id, 'material-4.0/Image/SwitchVideo', $name, $tech)
+!endprocedure
+!procedure SwitchVideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwitchVideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwitchVideoGroup($id, $name='Switch Video', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwitchVideoLg>', $name, $tech)
+!endprocedure
+@enduml

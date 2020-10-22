@@ -1,0 +1,19 @@
+@startuml
+sprite $ReduceCapacityMd [14x14/16z] {
+NOo55SC024GFJU4X-s_RrENZYZ-q59dtS19xuLsAZLj51yCCVD1PMBL5TrYN0JdbqprUawzFYWzSnQyyahiv0pTeLW3P8Tmmltctns9L4cNLRLLkxrLldl7B
+5G
+}
+sprite $ReduceCapacityLg [20x20/16z] {
+TSn50iCm44DH3GN7rlrlMqEvpLjy1OqBPc-P5d9vot2Gnri6AyLUkJnlhQJtrCLRLW1jcIsTPmyW4M4jdLXu29xM5Lz4prC5RrmboHHrF6oaeHGOkJsU9Rb2
+fB_BnxEeANqbQ-31TAxQuybUoR80Io7hZcxb839tHQCn07CLVzq
+}
+!procedure ReduceCapacity($id, $name="Reduce Capacity", $tech="")
+  IconElement($id, 'material-4.0/Social/ReduceCapacity', $name, $tech)
+!endprocedure
+!procedure ReduceCapacityCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReduceCapacityMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReduceCapacityGroup($id, $name='Reduce Capacity', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReduceCapacityLg>', $name, $tech)
+!endprocedure
+@enduml

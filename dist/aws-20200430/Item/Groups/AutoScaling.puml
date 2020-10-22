@@ -1,0 +1,13 @@
+@startuml
+sprite $AutoScalingMd [14x14/16z] TKs30S1042kY_HUk-JWpIKlyRURvsv7FaHtfI9T8zqe24a1osLsNVHIopnwd8Ii
+sprite $AutoScalingLg [20x20/16z] VP350SGm40DDWluRFWmdydoMqIkIv-GyjNPpidVwZ0nOSvyasy2YRcwQD3U708nActK0KFBTQ_EC-Nxvjlo3_DFC6m
+!procedure AutoScaling($id, $name="Auto Scaling", $tech="")
+  IconElement($id, 'aws-20200430/Item/Groups/AutoScaling', $name, $tech)
+!endprocedure
+!procedure AutoScalingCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutoScalingMd>', 'Groups', $funcName, $content)
+!endprocedure
+!procedure AutoScalingGroup($id, $name='Auto Scaling', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutoScalingLg>', $name, $tech)
+!endprocedure
+@enduml

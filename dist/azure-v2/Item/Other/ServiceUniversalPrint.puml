@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceUniversalPrintMd [14x14/16z] NSh70GHH209G4-Bll-75pJFlHh0LLMbV2PH_0iXcnoiK6obQ8obm2JUEmZ0sTCmY8KNCwezpvWm_QOuGB-r1NH4BDF5-9bTwyMKt3m
+sprite $ServiceUniversalPrintLg [20x20/16z] {
+VT250OD044JHzLdIVx-SJDmU_l6JVrJrlNXCzfAo9bGyfRfnkOa2AimdFbLNcSsLLYei3LVRvZQQhKCtWsVrWaO6TJO1zN1hzGp7qi_9aWtr80Qs3AUizQ-z
+cnlDjgZcqQ5ik0YfFNaUL9Al1W
+}
+!procedure ServiceUniversalPrint($id, $name="Service Universal Print", $tech="")
+  IconElement($id, 'azure-v2/Item/Other/ServiceUniversalPrint', $name, $tech)
+!endprocedure
+!procedure ServiceUniversalPrintCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceUniversalPrintMd>', 'Other', $funcName, $content)
+!endprocedure
+!procedure ServiceUniversalPrintGroup($id, $name='Service Universal Print', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceUniversalPrintLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTThingsGraphMd [14x14/16z] JSW94aH110FGAWJHzx_lIC_sxG_9LjGDycdTdWXKNqsxUrQ8d8AxWPMh6PZh7rwzgipaX5bqhmeH2JD813A3I4eZ0U3LgLWqkJmpKqYEnBFS4YHnldm1
+sprite $AwsIoTThingsGraphLg [20x20/16z] {
+PSy7bi0W30FH5qbkSF_xhcFOFka_3QhBp-9K_t5iD0Q_pU56qGUlcU2oe0R7beCFLNLnjT2W1weics-scHvxpAD26bnh6G1MHm1nBBtcmq4IEkPU8Xc9rsei
+JGftL13tUuqCoMNRlUhO3hbdepChnpgcAHcMP-gxQJlCeLervNvnbJ5xVzk3i_-skRnzsp_y
+}
+!procedure AwsIoTThingsGraph($id, $name="Aws Io T Things Graph", $tech="")
+  IconElement($id, 'aws-20200911/Service/InternetOfThings/AwsIoTThingsGraph', $name, $tech)
+!endprocedure
+!procedure AwsIoTThingsGraphCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTThingsGraphMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTThingsGraphGroup($id, $name='Aws Io T Things Graph', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTThingsGraphLg>', $name, $tech)
+!endprocedure
+@enduml

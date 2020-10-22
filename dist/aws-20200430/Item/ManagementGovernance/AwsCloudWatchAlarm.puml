@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudWatchAlarmMd [14x14/16z] RSd50SG0449H1kk_uzLuycyFiELmHpITNO2qIpXyamXRQWea_MqclWBDX2Boao9bbsVyg95CMfe2QUNMQWFw4Dy
+sprite $AwsCloudWatchAlarmLg [20x20/16z] {
+fK_50S0W38pdzf-uk7rx47Uwm6PCDmJkaDkNnPQyAvkPktgO8x2XqFBV8Uxokj8igrCAPcsQfXQ9YDb3dSXrIItekarVl-3sRVxBL-PQ48NgvYLFCYAPDnTY
+ym8xENFHRZX_
+}
+!procedure AwsCloudWatchAlarm($id, $name="Aws Cloud Watch Alarm", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsCloudWatchAlarm', $name, $tech)
+!endprocedure
+!procedure AwsCloudWatchAlarmCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudWatchAlarmMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudWatchAlarmGroup($id, $name='Aws Cloud Watch Alarm', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCloudWatchAlarmLg>', $name, $tech)
+!endprocedure
+@enduml

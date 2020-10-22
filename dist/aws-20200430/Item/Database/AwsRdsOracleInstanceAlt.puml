@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsRdsOracleInstanceAltMd [14x14/16z] jOi50SC04CIUais_uJ8eQ9xXHd3ZA6DaF4XALMNI5J3DRpOV_mMvDIqC1gzkQpHUlfb6V9WL
+sprite $AwsRdsOracleInstanceAltLg [20x20/16z] rT370SCm34DH4a08xB-mctH9MI2VjiexgfsFt55z9AUAh5thNfFBhUh6HNJXiG1-6JEwXfdRJ7Y8iG6FTHiJ39MHQHctLNTTzVNTqxTzzgUcJr9-lVq9
+!procedure AwsRdsOracleInstanceAlt($id, $name="Aws Rds Oracle Instance Alt", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsOracleInstanceAlt', $name, $tech)
+!endprocedure
+!procedure AwsRdsOracleInstanceAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsOracleInstanceAltMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsOracleInstanceAltGroup($id, $name='Aws Rds Oracle Instance Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsOracleInstanceAltLg>', $name, $tech)
+!endprocedure
+@enduml

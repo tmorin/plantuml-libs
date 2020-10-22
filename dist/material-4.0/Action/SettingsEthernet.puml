@@ -1,0 +1,13 @@
+@startuml
+sprite $SettingsEthernetMd [14x14/16z] bKsr0G0n428vhzX_sdSjpntGaPGzIXvDyEmOMrJg5gz2wAZfFWjE-NUmzz8Eb7cX_1awiW8
+sprite $SettingsEthernetLg [20x20/16z] jKx50S0W3CIAm-s_RN5z4_SSUK2KzMW4H8FNW4EtaeJhNGTPl42Wuqg0o2SYvfMq7LdffBeapX6PyhJLQkcCz-bmgT6KnxdRi_l7ZQMIcPZDsE032YKFw0S
+!procedure SettingsEthernet($id, $name="Settings Ethernet", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsEthernet', $name, $tech)
+!endprocedure
+!procedure SettingsEthernetCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsEthernetMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsEthernetGroup($id, $name='Settings Ethernet', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsEthernetLg>', $name, $tech)
+!endprocedure
+@enduml

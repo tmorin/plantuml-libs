@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsSimpleQueueServiceSqsMd [14x14/16z] XOrL0WLH249VZ0VK_QztklwkdL03IO6knZZJvB7XdN05qDgE1H5M16Zhf4c4mDlIZKJB-tjaLxSvwP0DTOabrqWM
+sprite $AwsSimpleQueueServiceSqsLg [20x20/16z] bL3L0SL037eIu6J_UUlUq_p5iD1TyJdm8kLl8neb6Y-ZlG6E4HWtIEoN7jEpGj0qm3QQF_K3VjESM8ZCaJO_WN_IMMgM-arm9BMaDQUzfJD8PrMl4G
+!procedure AwsSimpleQueueServiceSqs($id, $name="Aws Simple Queue Service Sqs", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/AwsSimpleQueueServiceSqs', $name, $tech)
+!endprocedure
+!procedure AwsSimpleQueueServiceSqsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSimpleQueueServiceSqsMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure AwsSimpleQueueServiceSqsGroup($id, $name='Aws Simple Queue Service Sqs', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSimpleQueueServiceSqsLg>', $name, $tech)
+!endprocedure
+@enduml

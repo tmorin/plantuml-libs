@@ -1,0 +1,16 @@
+@startuml
+sprite $AppBlockingMd [14x14/16z] POw35S1G34M3xsZ_QMlt7WOF0C2rB5I65VJOS5mdYWFQfrvRgytsc-_BHlUKhKUw9kLcSasYZVN-Z6xvcW0R_nFkz6-pT-iP
+sprite $AppBlockingLg [20x20/16z] {
+ZP054aHX28BvIxU4-vzs-tL-uvGD-91xq67giIuNwddiv_ZBKD7dYFG5jrkVwwkrfbckK6APvdY7AoQvfdSuwoH7aq6JN0evRfpkgvHKfZcaLjFUp-8VnKbV
+-ZvVyHIv_Fbv_m8
+}
+!procedure AppBlocking($id, $name="App Blocking", $tech="")
+  IconElement($id, 'material-4.0/Action/AppBlocking', $name, $tech)
+!endprocedure
+!procedure AppBlockingCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppBlockingMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppBlockingGroup($id, $name='App Blocking', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppBlockingLg>', $name, $tech)
+!endprocedure
+@enduml

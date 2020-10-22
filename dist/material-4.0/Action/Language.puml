@@ -1,0 +1,16 @@
+@startuml
+sprite $LanguageMd [14x14/16z] PKu55e1G2CFdpn6x_sdjbcucFqhThASZ0Hb1Oazyy9GMqzSnrifILZkAT1hfpiKjJIi2oAhLlXbe3FTO75vNqlF3yN2_YHCPp93aHpC
+sprite $LanguageLg [20x20/16z] {
+VP053aCX68FBeonFeD_zRxlCZQpHNolwWshNZqPP0v2rl7P268EGnwx1ApPhWrkp98lIfH4joVLyPQihkxspretrqWiV61U2oqgdsIVwPNcHJ9CwbmiEgU5P
+Rt9RfnnpBUMYaoxrbsQPtBqP_30SGX-4U9RLFDCvpW
+}
+!procedure Language($id, $name="Language", $tech="")
+  IconElement($id, 'material-4.0/Action/Language', $name, $tech)
+!endprocedure
+!procedure LanguageCard($id, $funcName="", $content="")
+  IconCard($id, '<$LanguageMd>', '', $funcName, $content)
+!endprocedure
+!procedure LanguageGroup($id, $name='Language', $tech='')
+  IconGroup($id, 'IconGroup', '<$LanguageLg>', $name, $tech)
+!endprocedure
+@enduml

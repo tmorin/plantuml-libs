@@ -1,0 +1,16 @@
+@startuml
+sprite $BusinessCenterMd [14x14/16z] POg54S0m30DbXnF3_jEMkN_m9y0VYf7k86PonQo0PgmKKtDLNrG0yGivajcHkfiBaIng09LI4f0M4H3NO--sAAxfOaby9yOIum7Zmmm
+sprite $BusinessCenterLg [20x20/16z] {
+bOu74iCm20HLuC1D_F-tET9xufssixQaApk1EvxI76HwI1Ae5I7Nq5grKqDjBKjTuu6rbgBnX7vlOzoQd0oSUBAUQoSoq_gSnj-e1i0QDnsbP_FJX7a-ZV9i
+5W_OxR_azf--pClevYSeJ7zp
+}
+!procedure BusinessCenter($id, $name="Business Center", $tech="")
+  IconElement($id, 'material-4.0/Places/BusinessCenter', $name, $tech)
+!endprocedure
+!procedure BusinessCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$BusinessCenterMd>', '', $funcName, $content)
+!endprocedure
+!procedure BusinessCenterGroup($id, $name='Business Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$BusinessCenterLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SupervisorAccountMd [14x14/16z] XOh50OD054HdtVVrNss2mmc-Zkchp1CFqiqIJ8MPT-QXgJEFl0jIfEp4XcXrbElG5LflQM4BmKK0wi4o4-YIiTPknrgZj_e3
+sprite $SupervisorAccountLg [20x20/16z] {
+jSl50GGn20NGZyG3zD_jZijzvqKnV87QR8It7X4D01CklkHyBRbSkRda9dIvnvKJ3vSZTsCiQXZZGiHuqMxxaAWUfHOB8rIFnLG06gkA7WS1qf6pE2H0tMnw
+nh2TA_xj1m
+}
+!procedure SupervisorAccount($id, $name="Supervisor Account", $tech="")
+  IconElement($id, 'material-4.0/Action/SupervisorAccount', $name, $tech)
+!endprocedure
+!procedure SupervisorAccountCard($id, $funcName="", $content="")
+  IconCard($id, '<$SupervisorAccountMd>', '', $funcName, $content)
+!endprocedure
+!procedure SupervisorAccountGroup($id, $name='Supervisor Account', $tech='')
+  IconGroup($id, 'IconGroup', '<$SupervisorAccountLg>', $name, $tech)
+!endprocedure
+@enduml

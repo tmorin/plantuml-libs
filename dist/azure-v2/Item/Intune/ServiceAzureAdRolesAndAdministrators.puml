@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureAdRolesAndAdministratorsMd [14x14/16z] JOp50G1120CXHlyLdylEBre7ierwQAzAEMK_oZbvmymXvbMS0_yl6N-HMGKJVGIu_YmSjCv7TaH0lDxjI7GuDo4elsfCYjKVv-SE
+sprite $ServiceAzureAdRolesAndAdministratorsLg [20x20/16z] {
+VSx50S0m34DH2-nq_uNBJB-OTrAiWOXhe7H7vPGUDCQJrPeFmcRvRr5jhdmoBfOu6LojQvSjb3L7OADrcT8aPqME6S6qo4LLenL2gud1cXCpRKigXzficLMJ
+JHzwtLkjBCeUFvEjB4vcGUt0r6YC04zXNZ8
+}
+!procedure ServiceAzureAdRolesAndAdministrators($id, $name="Service Azure Ad Roles And Administrators", $tech="")
+  IconElement($id, 'azure-v2/Item/Intune/ServiceAzureAdRolesAndAdministrators', $name, $tech)
+!endprocedure
+!procedure ServiceAzureAdRolesAndAdministratorsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureAdRolesAndAdministratorsMd>', 'Intune', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureAdRolesAndAdministratorsGroup($id, $name='Service Azure Ad Roles And Administrators', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureAdRolesAndAdministratorsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $BrandingWatermarkMd [14x14/16z] ZSsr0S0W40NGSudkFsrSW8hNdNwe4Ny8P2s8bvLRMLb7bOVuxgwmgQdkX0MlAfxqvRGAiBoKeRO3
+sprite $BrandingWatermarkLg [20x20/16z] Oo0MCB5pe01s9WP6FduqmCV8n8y1cEWhnWi6F7p8OemGFx0JASP1I1qp4mWm0jLX2mC6PWuqm4nqC0C
+!procedure BrandingWatermark($id, $name="Branding Watermark", $tech="")
+  IconElement($id, 'material-4.0/Av/BrandingWatermark', $name, $tech)
+!endprocedure
+!procedure BrandingWatermarkCard($id, $funcName="", $content="")
+  IconCard($id, '<$BrandingWatermarkMd>', '', $funcName, $content)
+!endprocedure
+!procedure BrandingWatermarkGroup($id, $name='Branding Watermark', $tech='')
+  IconGroup($id, 'IconGroup', '<$BrandingWatermarkLg>', $name, $tech)
+!endprocedure
+@enduml

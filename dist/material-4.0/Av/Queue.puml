@@ -1,0 +1,16 @@
+@startuml
+sprite $QueueMd [14x14/16z] NSp50O1G30FGkg3xJulpxTqg2One-TWz-VvP00plAVYTLhLs4jkD49YtzPqo12FUs_YvxQcrvVPFO6uN3xwcILKkId2nRNti3gCJ
+sprite $QueueLg [20x20/16z] {
+VSu50iGW34JHmQ6IkVzfLv5afR_-sWBuMqmptsddIZfIbnxWkfsk3OkCtL26fMNLsbvgHgYbJHDMlFFgEpdE7Vbn_Z_UrRnI3cr2LNnQGfqWt074XwsSmwF4
+6jCezbKALQvZqj_zwmu
+}
+!procedure Queue($id, $name="Queue", $tech="")
+  IconElement($id, 'material-4.0/Av/Queue', $name, $tech)
+!endprocedure
+!procedure QueueCard($id, $funcName="", $content="")
+  IconCard($id, '<$QueueMd>', '', $funcName, $content)
+!endprocedure
+!procedure QueueGroup($id, $name='Queue', $tech='')
+  IconGroup($id, 'IconGroup', '<$QueueLg>', $name, $tech)
+!endprocedure
+@enduml

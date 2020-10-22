@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceCubesMd [14x14/16z] NOs50S0m40A3Tl-9wtxHDnWRb3Wky8wW3LzHBAMuegJzHMSdwJIx3ZODxbiOjcwin7BZ_N7Mi6kqFLUqztGIQ5SOQrZj3jXTjsS1
+sprite $ServiceCubesLg [20x20/16z] {
+XS-54KGX40DGDaB_9L-uxxvZcOU5jawronJg8YIF2aw3ZKgpUMyUgjuFPhdtBskB-V2i7HDhwmPGDfbKMxSevjGAIxUbjv8cawKfMQ2jqJPcHth_cqEJ9JrO
+uRBAr6EIHoyeILY-KMlxf1y
+}
+!procedure ServiceCubes($id, $name="Service Cubes", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceCubes', $name, $tech)
+!endprocedure
+!procedure ServiceCubesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceCubesMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceCubesGroup($id, $name='Service Cubes', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceCubesLg>', $name, $tech)
+!endprocedure
+@enduml

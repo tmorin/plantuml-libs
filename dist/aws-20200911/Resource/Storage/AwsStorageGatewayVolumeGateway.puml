@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsStorageGatewayVolumeGatewayMd [14x14/16z] LSgr0GCn00D0ePtz5yupNIS0G2V6ARMKPWykTjMUV5xyJkQTqgOvamS1ZfpfrzMyKlVhbOILpfHl6fOypgGvLbCuKBO8B
+sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] {
+ZSw54G0n20NH1FZBzT_mkVkECIzQfgfPEUGaaFWgbjWqaCjcHLaAhcOtvZTMxMWkGBAT2RU-oDYiYUcqScU0W3oOndPMgHvzPcoMotT-catt-VH6U9_sxwR6
+Wl5is7GFGaBbK3Mhuz01
+}
+!procedure AwsStorageGatewayVolumeGateway($id, $name="Aws Storage Gateway Volume Gateway", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech)
+!endprocedure
+!procedure AwsStorageGatewayVolumeGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsStorageGatewayVolumeGatewayMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsStorageGatewayVolumeGatewayGroup($id, $name='Aws Storage Gateway Volume Gateway', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AwsStorageGatewayVolumeGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElasticBlockStoreEbsSnapshotMd [14x14/16z] HOmB4W0X248Bd-xzRxmCDTFhgmBB5ARMeJwNlcxLuLRGCmstegI2dMBox26swJ0noZVjhYB1XxOaAUVMDwzwpycy5MXlDUiWJ19_
+sprite $AwsElasticBlockStoreEbsSnapshotLg [20x20/16z] {
+PS-54GGn20NGB5z8-Y_uX87JDnB5LWcMM6-HAFbnUPB5vre351z4l4EtsZlu8YHR0bwnJ34UgEHas-jbzoLE2l40vK6NSCXEstfikqHMqehAAUBdHjjutAtt
+tHESEdFfwCtbNU-Jga3_Es5suVMRfPlfLWRJ8kKUjmL8JE0T
+}
+!procedure AwsElasticBlockStoreEbsSnapshot($id, $name="Aws Elastic Block Store Ebs Snapshot", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsElasticBlockStoreEbsSnapshot', $name, $tech)
+!endprocedure
+!procedure AwsElasticBlockStoreEbsSnapshotCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticBlockStoreEbsSnapshotMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsElasticBlockStoreEbsSnapshotGroup($id, $name='Aws Elastic Block Store Ebs Snapshot', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticBlockStoreEbsSnapshotLg>', $name, $tech)
+!endprocedure
+@enduml

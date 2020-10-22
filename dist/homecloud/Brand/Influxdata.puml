@@ -1,0 +1,19 @@
+@startuml
+sprite $InfluxdataMd [14x14/16z] {
+HOe50aGX24Gd1E7V_y2BRZq39d2my2UVhlmQUtCvgkE8shVhQ8t84GnFPq77eJb_Z5z1Jd1kJMu7hq8H6P8icsvDBWnhgHFWuwF4IWnHEuJem8NEgbxuO-7m
+0W
+}
+sprite $InfluxdataLg [20x20/16z] {
+NOy55WGn24DRFDp_m8kiCzeFIHvdwzxpNmIu_696192Xz44PXvIaUEWYIMyvLzEHz47rDU5BAVMhQPki8uiU03PPpmHR7ntIg5vCurGT1KkZJJbZo4baEexI
+RrZzLSD4k2J3F3h9Y5iehCoiQ6RntFIQNWOsIGUrzYwg9AUTOqBSRIiILXbaYxRO6lik_YdIwCN_wwrx
+}
+!procedure Influxdata($id, $name="Influxdata", $tech="")
+  IconElement($id, 'homecloud/Brand/Influxdata', $name, $tech)
+!endprocedure
+!procedure InfluxdataCard($id, $funcName="", $content="")
+  IconCard($id, '<$InfluxdataMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure InfluxdataGroup($id, $name='Influxdata', $tech='')
+  IconGroup($id, 'IconGroup', '<$InfluxdataLg>', $name, $tech)
+!endprocedure
+@enduml

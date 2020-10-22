@@ -1,0 +1,19 @@
+@startuml
+sprite $CameraMd [14x14/16z] {
+POx70O0m24Kn8AI__QUrUmetVfVbjFIMz7i2o4vv7vkCD7bU8m8l02PIc5OtzOYulWxraKoQI6EYrrkXN-0bSTsAFHe3A3iUs2KfCDDWMeWyRsJ0_sMfzsgo
+t0a
+}
+sprite $CameraLg [20x20/16z] {
+VS-5WSGm30LHIUQ0V__TdkQOTYVyGhOzgTHQVe3FBQd7z2z2TDcfNT-f-8dLnluDNICa7NPZjsDJswSKkT72DaTD6xDde_4rPQL6dev5UTRU_ab3r30QHjVx
+dsCH5hLYJATrciEMx91s4aUQaPldzZMpctloAJUgM6Elmoi2Rfrl_znkHBwY8nFwghHMx4al
+}
+!procedure Camera($id, $name="Camera", $tech="")
+  IconElement($id, 'material-4.0/Image/Camera', $name, $tech)
+!endprocedure
+!procedure CameraCard($id, $funcName="", $content="")
+  IconCard($id, '<$CameraMd>', '', $funcName, $content)
+!endprocedure
+!procedure CameraGroup($id, $name='Camera', $tech='')
+  IconGroup($id, 'IconGroup', '<$CameraLg>', $name, $tech)
+!endprocedure
+@enduml

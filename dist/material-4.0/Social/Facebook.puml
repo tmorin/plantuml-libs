@@ -1,0 +1,16 @@
+@startuml
+sprite $FacebookMd [14x14/16z] PKs55G0X5C9ktNzQ0wyFateVFwYGKb072Oq85wdU5LAzz1cBhUbj5UXScSsJPTYs7h88C9dtBI5KObApnwJc1FQkWSiZ8Oo7IHe_3
+sprite $FacebookLg [20x20/16z] {
+VP075i8m34FbGN7t_M-B4hsmGPtvtiOVHMQy0AlZfFQoEqeIwOY1xeIFeCbhSSFA-1vU7QsW5luKABbDm7JTMo6YKAuBN3yjOpwO8b9CsLX3JB4BkXR5giPU
+3gjx3PJoZM9rx_dE3hlFTcTvty5WXv1srTcXNTsf0O4_kW4
+}
+!procedure Facebook($id, $name="Facebook", $tech="")
+  IconElement($id, 'material-4.0/Social/Facebook', $name, $tech)
+!endprocedure
+!procedure FacebookCard($id, $funcName="", $content="")
+  IconCard($id, '<$FacebookMd>', '', $funcName, $content)
+!endprocedure
+!procedure FacebookGroup($id, $name='Facebook', $tech='')
+  IconGroup($id, 'IconGroup', '<$FacebookLg>', $name, $tech)
+!endprocedure
+@enduml

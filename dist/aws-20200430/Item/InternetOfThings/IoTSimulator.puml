@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTSimulatorMd [14x14/16z] HSr10a8X30FHbcJA_MziLEllYiS0L4QuQmTNipmk7Vlu8uvcD8q29t6PBeTa0u_FPqcdYRIE6fkCJNByaVOFvqrKgvH7IFWHllSlUHzy0G
+sprite $IoTSimulatorLg [20x20/16z] {
+NOy5WWKW24G59hp_YLTqYp_sarnN0UIQWWav9kez-PyT1A2O-MkRQcS1Uq4FXNdCPE1OMTVIrQwqchtOnPVO6smRNPDcYdAfMR_Z6fj7lg7kXwiA98XpCLyj
+_AU_5g5-Q_Hic1d2VqPfYtim9IiM9aEMnSa4wOCPLPO7Im05n7jz0G
+}
+!procedure IoTSimulator($id, $name="Io T Simulator", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTSimulator', $name, $tech)
+!endprocedure
+!procedure IoTSimulatorCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTSimulatorMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTSimulatorGroup($id, $name='Io T Simulator', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTSimulatorLg>', $name, $tech)
+!endprocedure
+@enduml

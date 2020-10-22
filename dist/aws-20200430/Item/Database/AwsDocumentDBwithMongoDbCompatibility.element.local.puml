@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsDocumentDBwithMongoDbCompatibility element
+include('aws-20200430/Item/Database/AwsDocumentDBwithMongoDbCompatibility')
+AwsDocumentDBwithMongoDbCompatibility('aws_document_d_bwith_mongo_db_compatibility', 'Aws Document D Bwith Mongo Db Compatibility', 'an optional tech field')
+@enduml

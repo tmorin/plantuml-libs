@@ -1,0 +1,18 @@
+@startuml
+sprite $RegistryMd [14x14/16z] VKq30W112Cnr_lzhprvapa1L20_3DG9Feq-3JtrCFO1yEdHZryFsIzjtgsrTSdaUVr2IomzxJHO
+sprite $RegistryLg [20x20/16z] hKz30WD03Dnc5Ktc_w-jhZLYe_qT5c0TY8v43s2SOqhc8AkJx4NE1x6-zvIzrc5TUSivDjoskAcOcQXvVtVUlTvxEpwOjme-wl8RBh_LQF-64m
+!procedure GroupDockerRegistry($id, $name='Group Docker Registry', $tech='')
+  IconGroup($id, 'GroupDockerRegistry', '<$RegistryLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupDockerRegistry>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

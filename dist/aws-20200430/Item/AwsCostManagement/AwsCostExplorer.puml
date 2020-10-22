@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCostExplorerMd [14x14/16z] VOo35KC134MBFEw_x_T1UMFcBrOLEzYBcaK8Z7fM34R83X7wgVAidW94yxhZ4nkyVWR05dfMfH7mhE0HPkOSwi1KThgpXRop0W
+sprite $AwsCostExplorerLg [20x20/16z] {
+bOvLbaH124FFD152xt-zuoM_xvRYoGDcFpFBfqnxVXvfET5ZJf06FBVFnTg-uQyFgeYhjlph-_3kDoJ6CfdZ4rus42dMqeL6bGc2onUc8P1kP84UGjI4jy_g
+d_krVSpRUeiihiG1XP80Wajq-vzkEYjpaSa3lW
+}
+!procedure AwsCostExplorer($id, $name="Aws Cost Explorer", $tech="")
+  IconElement($id, 'aws-20200430/Item/AwsCostManagement/AwsCostExplorer', $name, $tech)
+!endprocedure
+!procedure AwsCostExplorerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCostExplorerMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+!procedure AwsCostExplorerGroup($id, $name='Aws Cost Explorer', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCostExplorerLg>', $name, $tech)
+!endprocedure
+@enduml

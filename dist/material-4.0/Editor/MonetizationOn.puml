@@ -1,0 +1,16 @@
+@startuml
+sprite $MonetizationOnMd [14x14/16z] POs54S0m54A9UzX_srAtw0VU7VWjLtelxX25B5dt50tek_HaDJcZaNwBefCZLJPa69icoRufkGvzKtMdVDX8Jxsb8ikv6kgZCATJ2AvZL8_VMW
+sprite $MonetizationOnLg [20x20/16z] {
+VL050i8m34oe-_z_InHdjxMzkC05GepXJO5r7yAg-515qkmK5zt1LU83CFbL9N9SGoATRH9UYNM8OqJnhAnZjmIBN6vDaq0uOYnIsJ968P58Em-gR6I4i4Kd
+iOO6MMAjHXPliI_lfK6QCmkjthCm2TtuDjkG2jyxY9-xsXKlT_g9Em
+}
+!procedure MonetizationOn($id, $name="Monetization On", $tech="")
+  IconElement($id, 'material-4.0/Editor/MonetizationOn', $name, $tech)
+!endprocedure
+!procedure MonetizationOnCard($id, $funcName="", $content="")
+  IconCard($id, '<$MonetizationOnMd>', '', $funcName, $content)
+!endprocedure
+!procedure MonetizationOnGroup($id, $name='Monetization On', $tech='')
+  IconGroup($id, 'IconGroup', '<$MonetizationOnLg>', $name, $tech)
+!endprocedure
+@enduml

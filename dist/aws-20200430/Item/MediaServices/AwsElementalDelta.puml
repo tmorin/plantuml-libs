@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElementalDeltaMd [14x14/16z] bOsr0S0m4CIQaoxxBnocAY3xcOONkaWttx2IDPRPL76hQGrPewf1tIPRmUu1HBAEROJxlNPMlvW
+sprite $AwsElementalDeltaLg [20x20/16z] jSZ53O1054NHXAVqNp3kUyxel_s17uwKWJk9oD6ORE-2LxEw4EchGIArmT5gITwstDjem6Dl8Zcq0qdr4DlOjjE70EbRAZNzIFgN6G
+!procedure AwsElementalDelta($id, $name="Aws Elemental Delta", $tech="")
+  IconElement($id, 'aws-20200430/Item/MediaServices/AwsElementalDelta', $name, $tech)
+!endprocedure
+!procedure AwsElementalDeltaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalDeltaMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalDeltaGroup($id, $name='Aws Elemental Delta', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElementalDeltaLg>', $name, $tech)
+!endprocedure
+@enduml

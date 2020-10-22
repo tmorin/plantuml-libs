@@ -1,0 +1,16 @@
+@startuml
+sprite $RotateLeftMd [14x14/16z] XSr50W0X20NGRpVS_xGJjYlVYWQDmCRwFU5YLvQu4Ccsue4S44lD77qL0r0TLWfLY4UM-cH5RbpvH4BZMIck7rfNAuUR5m
+sprite $RotateLeftLg [20x20/16z] {
+fK-30GH138pMcFwhVVECsA0bu3YErJOA5NGl_w6CEwI_c7OqAwYVGF94WjkyyAaKv7jbUKnzpGomnp4tDeJNPTzzZ3mVYz27_ktLL_9t1sN_CiBlrJxVsZMZ
+yjzh8a3clzyYSn0w3rS
+}
+!procedure RotateLeft($id, $name="Rotate Left", $tech="")
+  IconElement($id, 'material-4.0/Image/RotateLeft', $name, $tech)
+!endprocedure
+!procedure RotateLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$RotateLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure RotateLeftGroup($id, $name='Rotate Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$RotateLeftLg>', $name, $tech)
+!endprocedure
+@enduml

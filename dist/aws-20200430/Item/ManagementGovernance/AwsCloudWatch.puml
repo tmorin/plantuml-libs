@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudWatchMd [14x14/16z] XKor0S0m32jPzF-_PPh2iJ2TPV878C8FWXBXniAXMtN2WrGLX1CTjopWSeBWGLoTZe7bgpse1I-uBCsr0G
+sprite $AwsCloudWatchLg [20x20/16z] {
+fS_L0SKW30NG9xa6--zRzy_Y73JjVOfp9nQALrAD3P2ShAQcLvLtycIJvf-TF7TalEsizFbEih8TmNGWHSHegn6J0HaRylGxGwthxrCOcG__UFjuP4rdxqd_
+fxMqbsa
+}
+!procedure AwsCloudWatch($id, $name="Aws Cloud Watch", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsCloudWatch', $name, $tech)
+!endprocedure
+!procedure AwsCloudWatchCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudWatchMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudWatchGroup($id, $name='Aws Cloud Watch', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsCloudWatchLg>', $name, $tech)
+!endprocedure
+@enduml

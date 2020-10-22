@@ -1,0 +1,13 @@
+@startuml
+sprite $BlockchainResourceMd [14x14/16z] Ow0EO482O1upCn33UKmm7ffAwW
+sprite $BlockchainResourceLg [20x20/16z] pOs50KGn5C98wFuhdtoN1VfS8LE9AaiCIqmeqWfsAKdGwi0of7gPzPYTlwhxxvjZAla2
+!procedure BlockchainResource($id, $name="Blockchain Resource", $tech="")
+  IconElement($id, 'aws-20200430/Item/Blockchain/BlockchainResource', $name, $tech)
+!endprocedure
+!procedure BlockchainResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlockchainResourceMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+!procedure BlockchainResourceGroup($id, $name='Blockchain Resource', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlockchainResourceLg>', $name, $tech)
+!endprocedure
+@enduml

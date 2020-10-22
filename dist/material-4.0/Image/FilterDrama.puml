@@ -1,0 +1,16 @@
+@startuml
+sprite $FilterDramaMd [14x14/16z] XOl50K9144EplgFflrluUeGtBi4_fjby-X8KOHGSL8-Zk1zP6Qd7aXsGhAYv0HYj71kCFFLkR4Sz4j3eYfUPbRxtblr5EL747Zf-yG4
+sprite $FilterDramaLg [20x20/16z] {
+fSt50S0W50FGu4xsdxQ6d_igo3Vy9rqCLcBd-V5O8hCMGcS6TC8nZfZ59_0Hn1Uj1Q_CP6rYxl6W04Vt3MbLzYr1gVZqAY4ZxMZlthL7lqQ7o4Y5KocIrGWi
+8j11LvxY6x5n4pH-kG4
+}
+!procedure FilterDrama($id, $name="Filter Drama", $tech="")
+  IconElement($id, 'material-4.0/Image/FilterDrama', $name, $tech)
+!endprocedure
+!procedure FilterDramaCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilterDramaMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilterDramaGroup($id, $name='Filter Drama', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilterDramaLg>', $name, $tech)
+!endprocedure
+@enduml

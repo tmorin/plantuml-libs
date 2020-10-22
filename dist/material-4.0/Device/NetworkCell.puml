@@ -1,0 +1,13 @@
+@startuml
+sprite $NetworkCellMd [14x14/16z] TSc53S004CF0BwEJ_QSjCrXuSloMNr5pGUN-SjJqbvCLd21A3bXHS63HXaKb1ypwQY-fR2Vbz6keZNiZ
+sprite $NetworkCellLg [20x20/16z] dSYt0SCm40J15zn1TlklLZJPunXnmecxPhSItSjE_DOJxx6S-4JB9wZHqmaxOIViX9sm4tOYNIvKvtbFalFwuX5NDW
+!procedure NetworkCell($id, $name="Network Cell", $tech="")
+  IconElement($id, 'material-4.0/Device/NetworkCell', $name, $tech)
+!endprocedure
+!procedure NetworkCellCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetworkCellMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetworkCellGroup($id, $name='Network Cell', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetworkCellLg>', $name, $tech)
+!endprocedure
+@enduml

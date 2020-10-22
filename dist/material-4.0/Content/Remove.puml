@@ -1,0 +1,13 @@
+@startuml
+sprite $RemoveMd [14x14/16z] Ow09OEJa0WDEHZGUJG
+sprite $RemoveLg [20x20/16z] OnYYW9kF5mhukB6A3L4
+!procedure Remove($id, $name="Remove", $tech="")
+  IconElement($id, 'material-4.0/Content/Remove', $name, $tech)
+!endprocedure
+!procedure RemoveCard($id, $funcName="", $content="")
+  IconCard($id, '<$RemoveMd>', '', $funcName, $content)
+!endprocedure
+!procedure RemoveGroup($id, $name='Remove', $tech='')
+  IconGroup($id, 'IconGroup', '<$RemoveLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageServiceGlacierDeepArchiveMd [14x14/16z] 5Oo70G0n20AL4d__YHykFNhCp98ICGKs2L1M2czAoNFFGg6E-QaMk5KzmStGjfOBdNU_X2ahtxT3Jcbw_g7UDWkzv8NtiE-nUPdVvsXlPsJmZhYhKm4DmCuF
+sprite $SimpleStorageServiceGlacierDeepArchiveLg [20x20/16z] {
+JOvL5aGX34Ch97dC_XSyzA3teownYKU4soN03M9EKCttT58LizbBgcgAzmwh1a94Aq2H6BKsJ6GhCcPgoNLeFaATZrdptxpBigxpaMacs43-F8K-pEbB-rWr
+f5s2-zF5Ozv6MGoMtUCE2Jxj5aFrBa3zcsB8iAY9c7OA48m4pORX-z6F_GC
+}
+!procedure SimpleStorageServiceGlacierDeepArchive($id, $name="Simple Storage Service Glacier Deep Archive", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageServiceGlacierDeepArchive', $name, $tech)
+!endprocedure
+!procedure SimpleStorageServiceGlacierDeepArchiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageServiceGlacierDeepArchiveMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageServiceGlacierDeepArchiveGroup($id, $name='Simple Storage Service Glacier Deep Archive', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageServiceGlacierDeepArchiveLg>', $name, $tech)
+!endprocedure
+@enduml

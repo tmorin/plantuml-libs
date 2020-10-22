@@ -1,0 +1,13 @@
+@startuml
+sprite $MobileClientMd [14x14/16z] jSS70S0m30F1UEZ5dt4p8VGpx1ipG31EQjhPkhAn_AJ833tLcDKVuig2-JtLx2d4J37N3m
+sprite $MobileClientLg [20x20/16z] nT0d4iH034HHvNJ_--xQaz5GFwJwrKZGYBvCOFDqDtTBtwr0d481ysZcyUwyZkRMd2ttiHj2WtdRVT-myBghZ2RhQ4mD7osyFLeyO5Dh59e_
+!procedure MobileClient($id, $name="Mobile Client", $tech="")
+  IconElement($id, 'aws-20200911/Resource/GeneralIcons/MobileClient', $name, $tech)
+!endprocedure
+!procedure MobileClientCard($id, $funcName="", $content="")
+  IconCard($id, '<$MobileClientMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure MobileClientGroup($id, $name='Mobile Client', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$MobileClientLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AutoFixOffMd [14x14/16z] JSt50G0X40J1nXtoZ_O4dr-jiYCGub9A4C9IoI2h1t3Y3vqYX200VZfX28x9vZ5XWj2Q4-BWuuNu3s-SHnq_0u3l0DLrvmK
+sprite $AutoFixOffLg [20x20/16z] {
+XT050WGG40NGqMtkVzlL_hRsDFeVdD6-LG9DCkj6rOEfogPLWHsiLT8HO2Xo3srCoTOND8d8rWMmF0KmAXrJH0hC3VKhDNodmlwLmhad45tKcn3JeOv-OwED
+TNqTtglHn_
+}
+!procedure AutoFixOff($id, $name="Auto Fix Off", $tech="")
+  IconElement($id, 'material-4.0/Image/AutoFixOff', $name, $tech)
+!endprocedure
+!procedure AutoFixOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutoFixOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutoFixOffGroup($id, $name='Auto Fix Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutoFixOffLg>', $name, $tech)
+!endprocedure
+@enduml

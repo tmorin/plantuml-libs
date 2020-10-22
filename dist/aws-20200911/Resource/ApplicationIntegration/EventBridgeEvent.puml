@@ -1,0 +1,16 @@
+@startuml
+sprite $EventBridgeEventMd [14x14/16z] HSZ7WGGm20Gm3GRSVyKNDkefe7n4LesdMzeS0NK8TSEqtDrrWhGzpwoW5gxUrErSv7gPOOyzE6rsXsgo4VJnr6rbFKri-0hm2m
+sprite $EventBridgeEventLg [20x20/16z] {
+TSvLeW0W20J0GH3n_WT-tJ6_nAutuRSkb0yLxAQE3tt8PXOVfi32IM_2UaBSXfh2p9pR8e6Sj0_SXGyte8Rg4w0RcBGhwTDg-7fSkPXwMu_WpRfhHLxoTe0E
+-yxSH7Jww0bh0RAm2VBoeOQJTFimIM-43mjL_EyH
+}
+!procedure EventBridgeEvent($id, $name="Event Bridge Event", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/EventBridgeEvent', $name, $tech)
+!endprocedure
+!procedure EventBridgeEventCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventBridgeEventMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure EventBridgeEventGroup($id, $name='Event Bridge Event', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$EventBridgeEventLg>', $name, $tech)
+!endprocedure
+@enduml

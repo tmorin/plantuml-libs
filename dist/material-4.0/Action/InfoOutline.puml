@@ -1,0 +1,16 @@
+@startuml
+sprite $InfoOutlineMd [14x14/16z] PKw50G0X2Foo3fJzjtsxaxguZlM16MzD832612K9J_gUuEBxIKoSYwbyiONKIEqKiOw1Kl4nN3EWPeIM0JlBK41Jrpe-pHbvJz_f-0S
+sprite $InfoOutlineLg [20x20/16z] {
+VP055WGX34CB51xMvFwdNSkwPGRxhsv_bDtp2qWT98cUxgY0qLlhGHIJd6owDL8muNB9-Un1NDmxw_c8a6K_7mZvoJzmCU_sfCvivdArjKpE_c0H3oPVCVag
+nnCBVDHIsN_LR4ueZLNGJN8mUgqz27-Q5Lzd9HNtOdzq1
+}
+!procedure InfoOutline($id, $name="Info Outline", $tech="")
+  IconElement($id, 'material-4.0/Action/InfoOutline', $name, $tech)
+!endprocedure
+!procedure InfoOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$InfoOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure InfoOutlineGroup($id, $name='Info Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$InfoOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSharedImageGalleriesMd [14x14/16z] LSU50G0W20116cF_UUqy0nu0oFEG21eEJr6OqYYrmNSfYvvIGkIdY4LFOSjPI6hCBEOnCgXjxiRU2REC6LuIN_gX2W
+sprite $ServiceSharedImageGalleriesLg [20x20/16z] {
+RSt50S0m34FH6YG5zf-tpEqx_iJsi4aSVDWvTKWxKkk7iZMhhUxQtXmwbAC5Jy-MUBTqzyX7GxYP9rxD8rxD_vhDzTPidOrORzGc7zRL903Ef2Auf_YaZDI2
+OUv1pUQ6egU2kRqXsUfJemVVOW8
+}
+!procedure ServiceSharedImageGalleries($id, $name="Service Shared Image Galleries", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceSharedImageGalleries', $name, $tech)
+!endprocedure
+!procedure ServiceSharedImageGalleriesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSharedImageGalleriesMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceSharedImageGalleriesGroup($id, $name='Service Shared Image Galleries', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSharedImageGalleriesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+{{ for (const sprite of it.sprites) { }}
+{{= sprite }}
+{{ } }}
+
+!procedure {{= it.entry.element.name }}($id, $name='{{= it.entry.element.label }}', $tech='')
+  IconGroup($id, '{{= it.entry.element.name }}', '<${{= it.entry.group.iconName }}Lg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<{{= it.entry.element.name }}>> {
+  StereotypeFontColor {{= it.entry.group.frontColor || 'black' }}
+  BorderThickness {{= it.entry.group.borderThick || 1 }}
+  BorderColor {{= it.entry.group.borderColor || 'black' }}
+  BorderStyle {{= it.entry.group.borderStyle || 'black' }}
+  FontStyle none
+  FontColor {{= it.entry.group.frontColor || 'black' }}
+  FontSize $FONT_SIZE_MD
+  BackgroundColor {{= it.entry.group.backgroundColor || 'none' }}
+  shadowing false
+}
+@enduml

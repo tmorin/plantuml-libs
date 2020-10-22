@@ -1,0 +1,13 @@
+@startuml
+sprite $SettingsCellMd [14x14/16z] bKt50S0W40iEf_jFM_TVppK1a7sJZ4tQtlMzwvfBoNfsl4OUh-wp-ztv81hUN-njx-AWiLZ0qIA49HnYQOnaQpK3
+sprite $SettingsCellLg [20x20/16z] fT230G0n30NGNplPVzgpZLSRQ3aUM4nexAE3FXPJ7sTj6Zepvhw4JZpeIqVp_lVzFvTYX_Ze3-Rtbh6lOA9IZAb9KU6Io0OXm6Gnzqds889ZYLOD
+!procedure SettingsCell($id, $name="Settings Cell", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsCell', $name, $tech)
+!endprocedure
+!procedure SettingsCellCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsCellMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsCellGroup($id, $name='Settings Cell', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsCellLg>', $name, $tech)
+!endprocedure
+@enduml

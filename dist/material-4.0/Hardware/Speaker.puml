@@ -1,0 +1,16 @@
+@startuml
+sprite $SpeakerMd [14x14/16z] NSV50GGn40CmXz7Z_gizN4hq4tPrJdBE-ekNr9eaVum0xwbMFMRsM0JYjUn9dy-v8Gr_pbUfXdCTAQ6VqqnfwZyqqenisBq1
+sprite $SpeakerLg [20x20/16z] {
+VP254S0m30DrLsD1sN_QCjE7Fsny8ReYkugo4rZfnW7D9jUTdGD-T_RYQCQhMxcvsgo-EihK2W_N5eEJ3ZklWvGHmSaHCRa0VzUrHH7hUOTZDRKLh-zBrJo_
+Bq-n-elfdG4
+}
+!procedure Speaker($id, $name="Speaker", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Speaker', $name, $tech)
+!endprocedure
+!procedure SpeakerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpeakerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpeakerGroup($id, $name='Speaker', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpeakerLg>', $name, $tech)
+!endprocedure
+@enduml

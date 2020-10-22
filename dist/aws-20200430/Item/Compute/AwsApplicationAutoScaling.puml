@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsApplicationAutoScalingMd [14x14/16z] XKor0G0n42eEst_XTvU42ayNu4KOy2cYgo1AMGqLwT9MDZHdtAPUF_rysMJLLLBfOWG
+sprite $AwsApplicationAutoScalingLg [20x20/16z] hKy52W1120ITSF__uIEkkwIThZ-EtBuYDa-HykhNfBRH0fppp78QuHhVOi1eYK9GirzQuUbNvj25lkfSqlhZJUVDjetVf-i
+!procedure AwsApplicationAutoScaling($id, $name="Aws Application Auto Scaling", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsApplicationAutoScaling', $name, $tech)
+!endprocedure
+!procedure AwsApplicationAutoScalingCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsApplicationAutoScalingMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsApplicationAutoScalingGroup($id, $name='Aws Application Auto Scaling', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsApplicationAutoScalingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2AmiResourceMd [14x14/16z] FOk75KLH2CA4oDr_urzu9SSkZ9O7ZQAN2F-Y88DZdqOCPcOR00wSHdy2D-hRtJJeDfF6GhSx-fFIwEPb-SNQABRLS3JYHVC5
+sprite $Ec2AmiResourceLg [20x20/16z] {
+bOq50WH02087Ll7_Bxxkljcq0F0T0Cu3XX5tE8TzYuZSJ7TFkdFuqFjSW3Qi0lAGwuVSEkPqpksOoqNayC31js-fOsuifQIAv5U-V-PcsIcxOw_Pvq8z-X9p
+XmFE0mBG7S0M
+}
+!procedure Ec2AmiResource($id, $name="Ec2 Ami Resource", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2AmiResource', $name, $tech)
+!endprocedure
+!procedure Ec2AmiResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2AmiResourceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2AmiResourceGroup($id, $name='Ec2 Ami Resource', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2AmiResourceLg>', $name, $tech)
+!endprocedure
+@enduml

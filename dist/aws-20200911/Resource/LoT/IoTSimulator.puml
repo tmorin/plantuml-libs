@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTSimulatorMd [14x14/16z] HSst0SC03CJ0Z-J-6zlAwAu2_Z4XdbIfBqifaKyudCse1pbGTqOu647JhO3-vR_I4VWNslHVKk4VFN_vUNWt3Hwr_fHwwbUJtJoYxH3_VW
+sprite $IoTSimulatorLg [20x20/16z] {
+NOy70e0m20E14CB_NonkxNLV5zY9XziVBqtvM-LqgAyYBOOCVxNSkufivotH5im65DOybVnmuZWxJuuoRwh9SLPxfscXWF9O4jFLT2woA3-l7Mk01q0gxI3v
+4dO3rI3yCwcA8BykfHRxvvX019PpoLRbxrm5gjRtI4c_SnO7Th81
+}
+!procedure IoTSimulator($id, $name="Io T Simulator", $tech="")
+  IconElement($id, 'aws-20200911/Resource/LoT/IoTSimulator', $name, $tech)
+!endprocedure
+!procedure IoTSimulatorCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTSimulatorMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTSimulatorGroup($id, $name='Io T Simulator', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTSimulatorLg>', $name, $tech)
+!endprocedure
+@enduml

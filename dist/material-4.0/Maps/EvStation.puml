@@ -1,0 +1,16 @@
+@startuml
+sprite $EvStationMd [14x14/16z] NOt50S1G24EHAfRzfwthVpU8KOjko7rCs4YT-RWCEpBcVKq5cTBEonJG68EFIsc2QkH-UV9srKX-QhC0dSjrcMsNtLVXg-teV2v8jqFKCpMi
+sprite $EvStationLg [20x20/16z] {
+bSwr0G0X44JHmNLt-g_st2_Yuoy20yMSbX6VbBWNhPZJwc4Lik9bsbUpNF2oL5Rh8lqoHLsDpj6SbdRhAfU9WObiCBbU5fQzaSomb_MCI3PFUzlwjNLxMOdy
+MPU_aOUvdpMoOIlabFEo0anA66W6
+}
+!procedure EvStation($id, $name="Ev Station", $tech="")
+  IconElement($id, 'material-4.0/Maps/EvStation', $name, $tech)
+!endprocedure
+!procedure EvStationCard($id, $funcName="", $content="")
+  IconCard($id, '<$EvStationMd>', '', $funcName, $content)
+!endprocedure
+!procedure EvStationGroup($id, $name='Ev Station', $tech='')
+  IconGroup($id, 'IconGroup', '<$EvStationLg>', $name, $tech)
+!endprocedure
+@enduml

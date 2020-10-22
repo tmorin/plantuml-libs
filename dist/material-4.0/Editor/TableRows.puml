@@ -1,0 +1,13 @@
+@startuml
+sprite $TableRowsMd [14x14/16z] Oq05dBmyCC39mC333mSyw3n69C30mCe61wpuzR6oix630902gcH0CWI_FYwuotYvq1mD
+sprite $TableRowsLg [20x20/16z] fT2r0G0W30J0ZrNO_jlIudeT4iK8MOC0ImqxlzCOAb4nHWryr1tUZMgCQV2Le3zrXpiToG
+!procedure TableRows($id, $name="Table Rows", $tech="")
+  IconElement($id, 'material-4.0/Editor/TableRows', $name, $tech)
+!endprocedure
+!procedure TableRowsCard($id, $funcName="", $content="")
+  IconCard($id, '<$TableRowsMd>', '', $funcName, $content)
+!endprocedure
+!procedure TableRowsGroup($id, $name='Table Rows', $tech='')
+  IconGroup($id, 'IconGroup', '<$TableRowsLg>', $name, $tech)
+!endprocedure
+@enduml

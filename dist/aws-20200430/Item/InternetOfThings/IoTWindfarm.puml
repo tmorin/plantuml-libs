@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTWindfarmMd [14x14/16z] NKw50S0m348A-__YkSSz0135LOIDr3IhL5iIUQEn1c2DZMouP8uiQo4yUp6EdfJHoKSlHw_loQ52lNiRXgUtFIdFxyDUWn-oB-e5
+sprite $IoTWindfarmLg [20x20/16z] {
+RP250GH120CJlF-AVuK_p-aE3gPaNEJw74e4pHX8jCpBAp9ZVDms2j6MYSI2hcYfZSS1oJfOSh1AkVXfeFtYxyVaP1K2XaA6B7Cx4zGKnb3vzalbO1thfSt0
+Q6QIkcFF6Y4etJNW9wCzUXuCpvvzCx_lO7mbx6jNtplzslqF
+}
+!procedure IoTWindfarm($id, $name="Io T Windfarm", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTWindfarm', $name, $tech)
+!endprocedure
+!procedure IoTWindfarmCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTWindfarmMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTWindfarmGroup($id, $name='Io T Windfarm', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTWindfarmLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceImageMd [14x14/16z] VSV10G0H40F0FKcMwxzW0BpCR-m1jq_kX0Q71BDl5g9PgpUG-hoZHv7qHcBi1AhYJCMwzASaZ7K84u8z5
+sprite $ServiceImageLg [20x20/16z] hSj75WCm20DHC1Bs_KySMlegPPR_IVBdrFYQhJIOFPiJiLztmm9DCkFaQTAPJp1Gtoss6XaBI8PjPnJ2fB6kBcpZZIACdRrFqo304tdBe349sHWXeghoNHS
+!procedure ServiceImage($id, $name="Service Image", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceImage', $name, $tech)
+!endprocedure
+!procedure ServiceImageCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceImageMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceImageGroup($id, $name='Service Image', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceImageLg>', $name, $tech)
+!endprocedure
+@enduml

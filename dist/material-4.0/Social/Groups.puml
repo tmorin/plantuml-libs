@@ -1,0 +1,16 @@
+@startuml
+sprite $GroupsMd [14x14/16z] bSF54GCm50DHsP_aCQZ_QiDmJTxiua-P-A94FCJicD94dm4i5MmjGsa2njQ2ZDPeyCb-T7CwfqiZzL3ZDjrOl6NEmi-k
+sprite $GroupsLg [20x20/16z] {
+lOn50W9H34FJxzhS_xO4XpNCl4qbWXCflWk-IHJfVLO36aK3h4Qz8hdUlaM6s-MIwhxr-RsXhQnCB2Mg8oyLw4gmxXJU5PDIgEZWWs4IzU84dpWcXUldl6Tl
+4QUPgVF5RSUVkG
+}
+!procedure Groups($id, $name="Groups", $tech="")
+  IconElement($id, 'material-4.0/Social/Groups', $name, $tech)
+!endprocedure
+!procedure GroupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GroupsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GroupsGroup($id, $name='Groups', $tech='')
+  IconGroup($id, 'IconGroup', '<$GroupsLg>', $name, $tech)
+!endprocedure
+@enduml

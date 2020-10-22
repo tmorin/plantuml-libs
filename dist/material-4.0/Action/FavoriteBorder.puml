@@ -1,0 +1,16 @@
+@startuml
+sprite $FavoriteBorderMd [14x14/16z] RSV50G8m402mLAWWlVsdnHtoYs-v9bBDO4P4xx5Yegzi4r7brTbtb8A-lu_xni7TOM1DLtD1YGuz2gWn656vAZ565DoxLlQIipzE
+sprite $FavoriteBorderLg [20x20/16z] {
+bOu53aCn34DTnittl-tgZz64VGLBhv1W0vzBLCQI_QKg5vyGlifwgH53uQA4E5YMSfnO138e9nqGcSzFpwyoero28SbvTkiwTNzelmaSPypNJGQ8yhvMAoVj
+bbqjModL02C7t9GoLCvvFZGKCkEVBBN73m
+}
+!procedure FavoriteBorder($id, $name="Favorite Border", $tech="")
+  IconElement($id, 'material-4.0/Action/FavoriteBorder', $name, $tech)
+!endprocedure
+!procedure FavoriteBorderCard($id, $funcName="", $content="")
+  IconCard($id, '<$FavoriteBorderMd>', '', $funcName, $content)
+!endprocedure
+!procedure FavoriteBorderGroup($id, $name='Favorite Border', $tech='')
+  IconGroup($id, 'IconGroup', '<$FavoriteBorderLg>', $name, $tech)
+!endprocedure
+@enduml

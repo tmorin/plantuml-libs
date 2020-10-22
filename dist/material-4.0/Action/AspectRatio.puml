@@ -1,0 +1,16 @@
+@startuml
+sprite $AspectRatioMd [14x14/16z] LSsr0G0W44FH7ExiFosklyghWZykJXmYfrCMEe2m2gOf9B-aTQ2i-AF8ngOXq4IaeH5N-P7F4KlduRp7sDx1fLX9ZhyA
+sprite $AspectRatioLg [20x20/16z] {
+ZT253GL154BH1xCoJl_LVbtt6pyXXZsDlL_Lqr2rgO8Au9n342bl96XZ_T-Af7OqFrhlkTdLCi9iPJQC1eoKosXpfMwCljTsrqeVyoipVXfsu100mej77vZp
+cvmzxGq
+}
+!procedure AspectRatio($id, $name="Aspect Ratio", $tech="")
+  IconElement($id, 'material-4.0/Action/AspectRatio', $name, $tech)
+!endprocedure
+!procedure AspectRatioCard($id, $funcName="", $content="")
+  IconCard($id, '<$AspectRatioMd>', '', $funcName, $content)
+!endprocedure
+!procedure AspectRatioGroup($id, $name='Aspect Ratio', $tech='')
+  IconGroup($id, 'IconGroup', '<$AspectRatioLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureHcpCacheMd [14x14/16z] DSdH5KDH10NH0o3z5vmBR__D6Zpi4Q4u4ezTS7Rb95aS0ZpouuniuOixodceNw59LdFPP-PLFsSY0Wa1OgOo58E5cbpflKKBVm
+sprite $ServiceAzureHcpCacheLg [20x20/16z] {
+RS-73GGn24HHO1Zmzb_m1PobVShV4PdKJEMYvkwmAp7_0aUB77RqN5GAOfNMDohRYIfYtcxfocWbE0NM6KpErUOKYiny_gffGNeyXO3Xn-0KjD5CYpbaH6AU
+zReO97sfLh3Eucp3qLxEwYPV
+}
+!procedure ServiceAzureHcpCache($id, $name="Service Azure Hcp Cache", $tech="")
+  IconElement($id, 'azure-v2/Item/Storage/ServiceAzureHcpCache', $name, $tech)
+!endprocedure
+!procedure ServiceAzureHcpCacheCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureHcpCacheMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureHcpCacheGroup($id, $name='Service Azure Hcp Cache', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureHcpCacheLg>', $name, $tech)
+!endprocedure
+@enduml

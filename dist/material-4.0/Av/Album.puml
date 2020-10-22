@@ -1,0 +1,16 @@
+@startuml
+sprite $AlbumMd [14x14/16z] PKs54GGm24lTuDX_sfUwu9hW4PDAIQOtIQgaqQpM_ZA7mBzawueLeBWkISJ3EGGHkhjS8r0lAmfvJnNbOhZO0Pk9iiKZNm
+sprite $AlbumLg [20x20/16z] {
+VP252G0n54DFKhVzfwrxeS72uskUYtxWNy3BhOio_Eq8YMJPLWitgS3NpipaTfwz84HamnFBPKYEvC9qHAvwiaITY5ecH2t4p8O_UwSTjSnCjm3rblDc-vw_
+uSm0UrQMlsUc5mK
+}
+!procedure Album($id, $name="Album", $tech="")
+  IconElement($id, 'material-4.0/Av/Album', $name, $tech)
+!endprocedure
+!procedure AlbumCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlbumMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlbumGroup($id, $name='Album', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlbumLg>', $name, $tech)
+!endprocedure
+@enduml

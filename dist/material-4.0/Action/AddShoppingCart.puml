@@ -1,0 +1,19 @@
+@startuml
+sprite $AddShoppingCartMd [14x14/16z] {
+NKp50GGn22H4qUc_sbjXNnTbbDurHlqpp_sA5kA3rZtJ1wrsOnEM2E611mqmwUsC_PfTY9bsVaLG4SKgTEA8o0SQ3lTxZO8I2MG6lsYyfZNBcUX47TdAQVVV
+JEX_NG
+}
+sprite $AddShoppingCartLg [20x20/16z] {
+TSq55WGX30FGuDhc_hVTXwx_6HnI7DRY2i5X4C5XIVtSCpupmhLArkPWei6WWi0f835W6AE120mCTu9XFtbvNnip3yGu2dPiTrhfS5JAn8h324LLHPl5CP8_
+2NFAIyIMU0aEv-pY33QlRSvD4u-jasbdz6TT-dcVp3YysxaU_pm
+}
+!procedure AddShoppingCart($id, $name="Add Shopping Cart", $tech="")
+  IconElement($id, 'material-4.0/Action/AddShoppingCart', $name, $tech)
+!endprocedure
+!procedure AddShoppingCartCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddShoppingCartMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddShoppingCartGroup($id, $name='Add Shopping Cart', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddShoppingCartLg>', $name, $tech)
+!endprocedure
+@enduml

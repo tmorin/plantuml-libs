@@ -1,0 +1,16 @@
+@startuml
+sprite $PhonelinkSetupMd [14x14/16z] NOw30G0W54Ipw_QVDll5xoCLgJgKD1G6jbi6CTK5tosX-cFz_PZsc0WakomDpd1Rz5Wc0Sbrw-toJbZJ6_2_icvkrGK
+sprite $PhonelinkSetupLg [20x20/16z] {
+RT254OKm54JHVOAJRF_LVYMUEyOSulYbAK7gOCwJiNG-91D3lDI-gV5APfg-iZb3PyTva-VbbHd9uoBlPXmtuARNjdDDDfdRxt4lxLaMHkdF1rSC5a_HNvPi
+_WOJcxufrFxz7-WD
+}
+!procedure PhonelinkSetup($id, $name="Phonelink Setup", $tech="")
+  IconElement($id, 'material-4.0/Communication/PhonelinkSetup', $name, $tech)
+!endprocedure
+!procedure PhonelinkSetupCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhonelinkSetupMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhonelinkSetupGroup($id, $name='Phonelink Setup', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhonelinkSetupLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $VideoSettingsMd [14x14/16z] VSr50aGX30FGuD8okVzj1sVttwuQV315HLG6BIOoToKFZ4bnQPgLv5NbLR4v0C6zoWTWLGKsjbzqeneAcr8Yym17RnXtEZ9LADXSlqiEr_Zv1m
+sprite $VideoSettingsLg [20x20/16z] {
+fS-r0GH130D0oNlBeFwx_MCCVqApyO-fl4oWtWPD2IJ17P9iYSs8GpnZgV8JYnh-KoUf43Cwt69Bknc0Pw_Nk6AfSLdKfDBSxHQJr8TKbnYnIQfBOkBr4k8M
+S_2rRB2aszABqxK3b_sM3sS0VW
+}
+!procedure VideoSettings($id, $name="Video Settings", $tech="")
+  IconElement($id, 'material-4.0/Av/VideoSettings', $name, $tech)
+!endprocedure
+!procedure VideoSettingsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VideoSettingsMd>', '', $funcName, $content)
+!endprocedure
+!procedure VideoSettingsGroup($id, $name='Video Settings', $tech='')
+  IconGroup($id, 'IconGroup', '<$VideoSettingsLg>', $name, $tech)
+!endprocedure
+@enduml

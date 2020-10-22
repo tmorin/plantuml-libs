@@ -1,0 +1,16 @@
+@startuml
+sprite $ServicePrivateLinkServiceMd [14x14/16z] bOS70S1030BXGkBVSVj3mRFH2uQTpZrjy6wfLmJgtgL2bMRTMTD9sh4OKr86zrbQuKhOPr_lD7h13m
+sprite $ServicePrivateLinkServiceLg [20x20/16z] {
+jSwtWGGX30NGRyNrN_6D9TfqGFP5mXUFFsZbcTnDYy-elzuqYqeRRTGC6P7oYLvbPmGPHwOFhWcWqadh79Wbcq3L9CGSvW0waMq47MO33xfnceSEp85qp4q7
+xfkD3zu_
+}
+!procedure ServicePrivateLinkService($id, $name="Service Private Link Service", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServicePrivateLinkService', $name, $tech)
+!endprocedure
+!procedure ServicePrivateLinkServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServicePrivateLinkServiceMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServicePrivateLinkServiceGroup($id, $name='Service Private Link Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServicePrivateLinkServiceLg>', $name, $tech)
+!endprocedure
+@enduml

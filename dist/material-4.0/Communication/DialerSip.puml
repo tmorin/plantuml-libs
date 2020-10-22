@@ -1,0 +1,16 @@
+@startuml
+sprite $DialerSipMd [14x14/16z] NSt50GD130D06PP1_LUR7DEypCQ7kG9cehucv83q6FEqBPkAKb8f0iWa3Ibv42mQ2sw1WeTUdvaohxVbI9qLXNFgqHrS-NMgROykOeQFFm
+sprite $DialerSipLg [20x20/16z] {
+ZOw54SH0203HFmj3_zq-SPUDtgBm6KefQtnJ5Q5Kk7V90mIqH5LRpOiZmAv9qSvIxxHtKSmr5MquzkjTLDGcFqumOkv6i2UVL5_SmOdilvD3Spv9za5ILi95
+YaSvcGTh6pPlvZrvqxEu7rtVpNgNZfjgoWIV-GC
+}
+!procedure DialerSip($id, $name="Dialer Sip", $tech="")
+  IconElement($id, 'material-4.0/Communication/DialerSip', $name, $tech)
+!endprocedure
+!procedure DialerSipCard($id, $funcName="", $content="")
+  IconCard($id, '<$DialerSipMd>', '', $funcName, $content)
+!endprocedure
+!procedure DialerSipGroup($id, $name='Dialer Sip', $tech='')
+  IconGroup($id, 'IconGroup', '<$DialerSipLg>', $name, $tech)
+!endprocedure
+@enduml

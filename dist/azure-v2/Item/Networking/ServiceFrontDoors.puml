@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceFrontDoorsMd [14x14/16z] PSkt0GDH309GPO7tt_T-hlmg5935iyBaqgXAVqDrLVKPBUUGrRKhlKJi8x2oHqIZ55ERp6c6n69w9f3WdSWk_4XV4tzqqUpUKvV95R7ZvIh_1W
+sprite $ServiceFrontDoorsLg [20x20/16z] {
+VSw54GD134DHaoId_uAJ7FFzePstP7l9FSAF50KIwNkYE8GDdKjOA43f3_hdoxqn52ZbI9eYgefYkINw3ysC_1lKOb0zHBSOhF-XfnYRILThy3EqsB1khz6q
+CvhZP1tZqDiiBRXjnT_IvZOBErkwFVS3
+}
+!procedure ServiceFrontDoors($id, $name="Service Front Doors", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceFrontDoors', $name, $tech)
+!endprocedure
+!procedure ServiceFrontDoorsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceFrontDoorsMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceFrontDoorsGroup($id, $name='Service Front Doors', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceFrontDoorsLg>', $name, $tech)
+!endprocedure
+@enduml

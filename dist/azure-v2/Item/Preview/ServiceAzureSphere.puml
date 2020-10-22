@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureSphereMd [14x14/16z] BOc74O00309J8Uw_i72Qojz7HFP6RAUYQKppKUrkjqv92FuIZkvCzpW406SlKAQ_W0RbdEKu9FUZ9Hi0fwq8P5KQ3LcYujtC7IKo2yyz6bI6gq6YdLu
+sprite $ServiceAzureSphereLg [20x20/16z] {
+RT050iD024HHcC5w_mkNXNhpuo--yWo4VASuwQVG7A9kr1Tv1u5tYxllPZxXTTL7saIVYEUExftiZEGmb15XXspMVKIisJPci2lBJ_E8F9OPBui-Cc5svD8U
+pBTaa4EH-vSGnY1dsw2gWgYQ9rS5f459houpgtFEUAbwtRRorxWgFSudEKVk
+}
+!procedure ServiceAzureSphere($id, $name="Service Azure Sphere", $tech="")
+  IconElement($id, 'azure-v2/Item/Preview/ServiceAzureSphere', $name, $tech)
+!endprocedure
+!procedure ServiceAzureSphereCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureSphereMd>', 'Preview', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureSphereGroup($id, $name='Service Azure Sphere', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureSphereLg>', $name, $tech)
+!endprocedure
+@enduml

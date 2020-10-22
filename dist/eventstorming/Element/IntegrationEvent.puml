@@ -1,0 +1,12 @@
+@startuml
+skinparam file<<IntegrationEvent>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffdeaf
+}
+!procedure IntegrationEvent($id, $label="")
+  EsEntity('file', 'IntegrationEvent', $id, $label)
+!endprocedure
+@enduml

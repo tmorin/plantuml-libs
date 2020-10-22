@@ -1,0 +1,16 @@
+@startuml
+sprite $ThumbUpOffAltMd [14x14/16z] VSh50GGm4090ugka_sxFNUQ7u9i-dqBRV0faF2rB3MUgI8NjY1X0ih2ZB5aUG137T2B7bBTKU7p6-NaqYVEMBYh2TKmYw7uKYlyE
+sprite $ThumbUpOffAltLg [20x20/16z] {
+fSg55SCm301HIMQy_QSjCpSvyt-Mp-apEU8JJVepKH-8cSWFX4MydB8SHUVkNSXfDzpE0fYI3tyFsOs9cfb6mgqTohX7qpdaqIBnoVhK6zCzURASJ2RdR6-k
+bTrMJmLPsHO
+}
+!procedure ThumbUpOffAlt($id, $name="Thumb Up Off Alt", $tech="")
+  IconElement($id, 'material-4.0/Action/ThumbUpOffAlt', $name, $tech)
+!endprocedure
+!procedure ThumbUpOffAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThumbUpOffAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThumbUpOffAltGroup($id, $name='Thumb Up Off Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThumbUpOffAltLg>', $name, $tech)
+!endprocedure
+@enduml

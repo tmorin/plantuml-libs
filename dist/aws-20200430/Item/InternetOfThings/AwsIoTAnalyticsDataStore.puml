@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTAnalyticsDataStoreMd [14x14/16z] LOw50K1H20Bb4FVV-7VUIvkgadl3gXq24eJTwZcycXoMtSb-7nRu29vMfEEzhDv8vxIGfIVJOdyvhV56zpoPm9E9tqnY97me-wbU0G
+sprite $AwsIoTAnalyticsDataStoreLg [20x20/16z] {
+PP274SH020CVWSIv_uR_4exhl6P8lmMyWzy59B6Z54gbrL_BBQEX75fi9wOcIPNhJqF7ndiv3_f-BySUjikmtC6bp7cK8wW94LUDub53xngwubIkYU601zMk
+V1xiXD_ocS7UDU2yQhntXKIzALyx_Ux-3m
+}
+!procedure AwsIoTAnalyticsDataStore($id, $name="Aws Io T Analytics Data Store", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/AwsIoTAnalyticsDataStore', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsDataStoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsDataStoreMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsDataStoreGroup($id, $name='Aws Io T Analytics Data Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIoTAnalyticsDataStoreLg>', $name, $tech)
+!endprocedure
+@enduml

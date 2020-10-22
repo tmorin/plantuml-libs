@@ -1,0 +1,16 @@
+@startuml
+sprite $DriveEtaMd [14x14/16z] VSk50OGm30NGQXJe_jlUJywDLusLS-86BXcCRGGy4IcLH5fWdwr3cpk2lXuwnbRb1LpNY6XeH8hFMsT6pWBiCLTzb3IibZCN
+sprite $DriveEtaLg [20x20/16z] {
+fSp5WKD130DG3QEj_glTJOR2f_zk1WaN-NOuB2Ab3aLalz5YiLoFfUEGWa4ZZgGhskhHw76J-IAFToPJELJalNE872BytlMi73GBy-y-wlvJxZ-rPh4wTwvb
+7BavNF8F
+}
+!procedure DriveEta($id, $name="Drive Eta", $tech="")
+  IconElement($id, 'material-4.0/Notification/DriveEta', $name, $tech)
+!endprocedure
+!procedure DriveEtaCard($id, $funcName="", $content="")
+  IconCard($id, '<$DriveEtaMd>', '', $funcName, $content)
+!endprocedure
+!procedure DriveEtaGroup($id, $name='Drive Eta', $tech='')
+  IconGroup($id, 'IconGroup', '<$DriveEtaLg>', $name, $tech)
+!endprocedure
+@enduml

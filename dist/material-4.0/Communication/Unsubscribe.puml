@@ -1,0 +1,16 @@
+@startuml
+sprite $UnsubscribeMd [14x14/16z] VShL0SLG309G8hKROVzfdxlq_4G07zJjIiy77qwdjmsU36i7Z9jgXCdAq-KaLpdjl5zdFVBIl0YT78_CWfm1oUxgy9gsm9qqkU71nefTHm
+sprite $UnsubscribeLg [20x20/16z] {
+fSy53aGX34NHXxPezx_R-LX8OsCtVj3Yym8JxuZz8b65OInK3rGI7aRY4DgG5c2NiNJ2eu-0-Z6PEaMk3HroxLQuaRPgO01b3Q5ByygYdHUFhQvlizHzy6iG
+uwmR8KefHHnKOveCdU4SyLyl
+}
+!procedure Unsubscribe($id, $name="Unsubscribe", $tech="")
+  IconElement($id, 'material-4.0/Communication/Unsubscribe', $name, $tech)
+!endprocedure
+!procedure UnsubscribeCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnsubscribeMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnsubscribeGroup($id, $name='Unsubscribe', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnsubscribeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTAlexaVoiceServiceMd [14x14/16z] JKq75aGn4371vlutNdwNgZm3VG1gPW1Ce91y5xcgA6oim1SpIwaoK9w4guUrAuXxCdvOarV3rPAFTK_m_crT_bLOrZ7zzMwF9GUvXJy
+sprite $IoTAlexaVoiceServiceLg [20x20/16z] {
+RL054WD13CecIDl__xUsSieO4mKY2WTKH4Z7cXIbE445T5P0TWRq6ao0pbrDZ0HQCrQD30immpbgpU6AByZKg07pkPjQhx5OlVPZzxNZhjRk-f5AxRKmeZcT
+UytAPXe7Rtw-7ghejPL1hGpkihhBz2xx3m
+}
+!procedure IoTAlexaVoiceService($id, $name="Io T Alexa Voice Service", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTAlexaVoiceService', $name, $tech)
+!endprocedure
+!procedure IoTAlexaVoiceServiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTAlexaVoiceServiceMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTAlexaVoiceServiceGroup($id, $name='Io T Alexa Voice Service', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTAlexaVoiceServiceLg>', $name, $tech)
+!endprocedure
+@enduml

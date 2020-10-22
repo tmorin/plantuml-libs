@@ -1,0 +1,16 @@
+@startuml
+sprite $RoundedCornerMd [14x14/16z] RSS50W9134FHdoOudRd_QN5dNpLyax4gYG3Ij3Tpp1a-R8V0pSC8o9-fjijfKu1vi23DGuSVETBURjqS0mfHrUtmxGm
+sprite $RoundedCornerLg [20x20/16z] {
+ZT230S1050FG_9pgx3zjRR-pWTzSPiWyOfQov379PAOCjGOLCR2-S0RsNAPgxLjbybEnwtHAonahAiCPftbHFCoxzZNnxHqhowvteRBBdK5R-leQkTIsFsWQ
+fAcs_LLAI-st3W
+}
+!procedure RoundedCorner($id, $name="Rounded Corner", $tech="")
+  IconElement($id, 'material-4.0/Action/RoundedCorner', $name, $tech)
+!endprocedure
+!procedure RoundedCornerCard($id, $funcName="", $content="")
+  IconCard($id, '<$RoundedCornerMd>', '', $funcName, $content)
+!endprocedure
+!procedure RoundedCornerGroup($id, $name='Rounded Corner', $tech='')
+  IconGroup($id, 'IconGroup', '<$RoundedCornerLg>', $name, $tech)
+!endprocedure
+@enduml

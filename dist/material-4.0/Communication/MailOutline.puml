@@ -1,0 +1,16 @@
+@startuml
+sprite $MailOutlineMd [14x14/16z] VSVL0S0W34NHXqji_srRz9EB90UlOYUcFwOU0RPQsxp6lxHx_FckloHdQq2pd6K8daJ8Omj82RZwEqf7wHTptJ43aMuHhpu
+sprite $MailOutlineLg [20x20/16z] {
+fS_50SL024NHEm99nbx_rNvtbxF4uIzUQpcfrO6a6mbCtI3iW0tPDZPK0ZkXw10pavmDbomVOjjyYx5jw-qOWpoaaU4o1ii2jp5u7SllwWvx7_s6rtAXEdzP
+0m
+}
+!procedure MailOutline($id, $name="Mail Outline", $tech="")
+  IconElement($id, 'material-4.0/Communication/MailOutline', $name, $tech)
+!endprocedure
+!procedure MailOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$MailOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure MailOutlineGroup($id, $name='Mail Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$MailOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

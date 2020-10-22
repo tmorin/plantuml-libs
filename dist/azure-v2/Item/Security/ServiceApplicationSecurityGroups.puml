@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceApplicationSecurityGroupsMd [14x14/16z] HSg72GHH203HCGlRVx-dNfeV7mY8v-G22ur1XGx5AciqLzafhhSwG0IoJub6wbyI9TH78geYA-QkwZqbW7VtyypbRDbN7ev_t73mpuph1G
+sprite $ServiceApplicationSecurityGroupsLg [20x20/16z] {
+LT25WSGm34HHuOoort-_Pv03F_p2bauzNEMJUKIuoKbL7GH0-DXVb4bYHsHEjCAxict4YM0RPAHpuRcEMDyo3yYNUG8kMbzZVMrkmiUwJKbQvqMgZAAAPFKw
+brdDVd-_jJLPvTYzXbrZczAXJf2Jieag3s8HcXgZhdxbgzVO_mC
+}
+!procedure ServiceApplicationSecurityGroups($id, $name="Service Application Security Groups", $tech="")
+  IconElement($id, 'azure-v2/Item/Security/ServiceApplicationSecurityGroups', $name, $tech)
+!endprocedure
+!procedure ServiceApplicationSecurityGroupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceApplicationSecurityGroupsMd>', 'Security', $funcName, $content)
+!endprocedure
+!procedure ServiceApplicationSecurityGroupsGroup($id, $name='Service Application Security Groups', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceApplicationSecurityGroupsLg>', $name, $tech)
+!endprocedure
+@enduml

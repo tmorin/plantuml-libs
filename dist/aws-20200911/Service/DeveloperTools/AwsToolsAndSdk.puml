@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsToolsAndSdkMd [14x14/16z] 9SU50GGW30J1byW9_RUBBfACn1jkEXJng5Dd5Fd4BAaIctB_wMxXLpmgH5LqRjbD_Al-G95Nw4QZH8-cSiSdf5nbPc_vJA0J8eTtY81sJvQiqtXyq08
+sprite $AwsToolsAndSdkLg [20x20/16z] {
+LSY75K8n34FH7DmbxpylelDVgY-0-TJlyCEUhxqG-buD4sOnysSeWJYbRnltWMht5ihO9mbaolEKa61vz7Y4Txdbsv9zWepJY9mPKhRjwHvUZCJNOaFxQojh
+OnMi_mtbPbvWlenZJI92_xP-6STzTdhrYbx6RKjb1K2uBsJURWcAXBjyAIJlLlWEN_lYJ-y
+}
+!procedure AwsToolsAndSdk($id, $name="Aws Tools And Sdk", $tech="")
+  IconElement($id, 'aws-20200911/Service/DeveloperTools/AwsToolsAndSdk', $name, $tech)
+!endprocedure
+!procedure AwsToolsAndSdkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsToolsAndSdkMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsToolsAndSdkGroup($id, $name='Aws Tools And Sdk', $tech='')
+  IconGroup($id, 'DeveloperToolsFamily', '<$AwsToolsAndSdkLg>', $name, $tech)
+!endprocedure
+@enduml

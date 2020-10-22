@@ -1,0 +1,119 @@
+# Ec2 Image Builder
+
+```text
+aws-20200430/Item/Compute/Ec2ImageBuilder
+```
+
+```text
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+```
+
+|icon|card|element|group|
+|---|---|---|---|
+|![](Ec2ImageBuilder.png)|![](Ec2ImageBuilder.card.png)|![](Ec2ImageBuilder.element.png)|![](Ec2ImageBuilder.group.png)|
+
+
+
+## card
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilderCard('ec_2_image_builder', 'Ec2 Image Builder', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilderCard('ec_2_image_builder', 'Ec2 Image Builder', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml
+```
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilder('ec_2_image_builder', 'Ec2 Image Builder', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilder('ec_2_image_builder', 'Ec2 Image Builder', 'an optional tech field')
+@enduml
+```
+
+
+## group
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilderGroup('ec_2_image_builder', 'Ec2 Image Builder', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the Ec2ImageBuilder element
+include('aws-20200430/Item/Compute/Ec2ImageBuilder')
+Ec2ImageBuilderGroup('ec_2_image_builder', 'Ec2 Image Builder', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml
+```
+

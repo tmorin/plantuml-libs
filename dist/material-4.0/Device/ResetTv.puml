@@ -1,0 +1,16 @@
+@startuml
+sprite $ResetTvMd [14x14/16z] POu54aCn24HtMJe_dllVjWEfzqLmmJVo5uBlzMBxDV1Yb6EPnrzkQN5qaqIaTUtaMTSRICphM5HskQv9CsD-yrBCYveG0etPvA8H0MCjueyx
+sprite $ResetTvLg [20x20/16z] {
+bSq54W8n30NGdxhd_hSbJBrZy5ORnQ-K3nUlG8qVZHH7qchH55Wf3hZu8qQnVssX5IiLquXHuPOwCsFwsjjZC5n10kTUMzwzGXqnZrEFjIfAALLkqLZ1zv-l
+dlReR8zP75JmGMw5ltm
+}
+!procedure ResetTv($id, $name="Reset Tv", $tech="")
+  IconElement($id, 'material-4.0/Device/ResetTv', $name, $tech)
+!endprocedure
+!procedure ResetTvCard($id, $funcName="", $content="")
+  IconCard($id, '<$ResetTvMd>', '', $funcName, $content)
+!endprocedure
+!procedure ResetTvGroup($id, $name='Reset Tv', $tech='')
+  IconGroup($id, 'IconGroup', '<$ResetTvLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $NoMeetingRoomMd [14x14/16z] LSV50S1G508muDMD_QUjVyijQ6Y0keZuHaywR6_hmhiwHjvTPWkty5FnU4Txq17_PEyGguqZb7SRiPVT9SlwOteIVWNVikyUX3oW8k42
+sprite $NoMeetingRoomLg [20x20/16z] {
+ZT170eH030D14ILiOFx_svtapQcFTMpycmk3H54B8ak4KkaqSpNSCZBr3ZoY0qSOZgI2zcWPrnVBA7ys0jEphHFnR3czM4M-M2Bc9pDbR0rZ62nG5QfXwpYB
+ojLN6OMNpF6s2m
+}
+!procedure NoMeetingRoom($id, $name="No Meeting Room", $tech="")
+  IconElement($id, 'material-4.0/Places/NoMeetingRoom', $name, $tech)
+!endprocedure
+!procedure NoMeetingRoomCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoMeetingRoomMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoMeetingRoomGroup($id, $name='No Meeting Room', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoMeetingRoomLg>', $name, $tech)
+!endprocedure
+@enduml

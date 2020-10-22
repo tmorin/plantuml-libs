@@ -1,0 +1,13 @@
+@startuml
+sprite $SwitchLeftMd [14x14/16z] bOor0S103CJa9cJQVzemVsLrXzJeePTBc8FhALGLBATTM2-xIctLrTJtYt4Y0mn2YGK
+sprite $SwitchLeftLg [20x20/16z] jS-54K0X30FGod7o9Tr_Mboo00uFhTn9xhroKYIH16NwerdyTWZli8wJFfcsqF3AieKMR3WR-Up2QMWqaVvoSDWXYkrEAW
+!procedure SwitchLeft($id, $name="Switch Left", $tech="")
+  IconElement($id, 'material-4.0/Navigation/SwitchLeft', $name, $tech)
+!endprocedure
+!procedure SwitchLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwitchLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwitchLeftGroup($id, $name='Switch Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwitchLeftLg>', $name, $tech)
+!endprocedure
+@enduml

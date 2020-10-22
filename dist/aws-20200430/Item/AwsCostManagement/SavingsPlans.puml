@@ -1,0 +1,16 @@
+@startuml
+sprite $SavingsPlansMd [14x14/16z] ROt50K8134EnwFxx0j_rtTfOHjfiMF9ocvJ8-O9YM-DPMc_WNMamCyNhVu-YMUDFCbr1FXI5kJvlTRug5PzmNlJWD38Z_l5oDNPk-04
+sprite $SavingsPlansLg [20x20/16z] {
+VT254SD034JHYRKWRVglDyon_OVVySrEkVGZOydpfGGbGXy4vHRnbC3jfbiHSoSnEa2iIj2v6VhY1O2o7nDnyLukYHhSg7axHIAJf-52dgeXnvnR6FEeaeD6
+-MOzxFJ2H6xDlV1siY8bBrEyG4Swywoh0qQOTsbG0dx_okxy_-diTGO
+}
+!procedure SavingsPlans($id, $name="Savings Plans", $tech="")
+  IconElement($id, 'aws-20200430/Item/AwsCostManagement/SavingsPlans', $name, $tech)
+!endprocedure
+!procedure SavingsPlansCard($id, $funcName="", $content="")
+  IconCard($id, '<$SavingsPlansMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+!procedure SavingsPlansGroup($id, $name='Savings Plans', $tech='')
+  IconGroup($id, 'IconGroup', '<$SavingsPlansLg>', $name, $tech)
+!endprocedure
+@enduml

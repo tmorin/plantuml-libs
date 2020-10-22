@@ -1,0 +1,16 @@
+@startuml
+sprite $DesktopAccessDisabledMd [14x14/16z] LKt50GCn37F8N6l_QSi7qKzC6spqnu7eXZ7uXrN2g77aKYGNveqHOzpOcywB7VHWjBvJgOo8J2kCvc0IKpN0QaxvZGaWSYpFognn_VuIJYy
+sprite $DesktopAccessDisabledLg [20x20/16z] {
+RP253KKn30ETbD7xJ_kmKlhXnAUWyGTLQFJ1y88-HGPtEZo7o5vMgKeEnKQwNPjpb_bsIRYarMMu9SqbcBGwa-PCxcv9sui7VKvQTQFUjDBlojG65ON6L1ai
+0EG2g6HzZXSin7UoEx-_6VZWbIPNMW9dbORhYXC
+}
+!procedure DesktopAccessDisabled($id, $name="Desktop Access Disabled", $tech="")
+  IconElement($id, 'material-4.0/Communication/DesktopAccessDisabled', $name, $tech)
+!endprocedure
+!procedure DesktopAccessDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$DesktopAccessDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure DesktopAccessDisabledGroup($id, $name='Desktop Access Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$DesktopAccessDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsCloudFormationTemplate element
+include('aws-20200430/Item/ManagementGovernance/AwsCloudFormationTemplate')
+AwsCloudFormationTemplate('aws_cloud_formation_template', 'Aws Cloud Formation Template', 'an optional tech field')
+@enduml

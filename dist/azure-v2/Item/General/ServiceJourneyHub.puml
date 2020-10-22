@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceJourneyHubMd [14x14/16z] TKw30GGm34npIlSV-6sKqG6K6kThgswPWUIH2PTU0rYm0OdLVSgOiEsNx3BvaU57DaHopiZcN38N_cGpldhHtkBiLDLQftDzwWW
+sprite $ServiceJourneyHubLg [20x20/16z] {
+bS-54SHG20HGT27zDtnVuDoocK5UdDw6PuXb72GZFCZStQfwH3W_6O0FHgAgKjiwysguiq0C0rxCdopA_8JfpBQgmypilI4ZqSRtXc6uizoMJrPrsFfl77ai
+6vM8XPdtLrQz
+}
+!procedure ServiceJourneyHub($id, $name="Service Journey Hub", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceJourneyHub', $name, $tech)
+!endprocedure
+!procedure ServiceJourneyHubCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceJourneyHubMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceJourneyHubGroup($id, $name='Service Journey Hub', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceJourneyHubLg>', $name, $tech)
+!endprocedure
+@enduml

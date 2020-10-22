@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistCostMd [14x14/16z] HSVB0OC034Cn9_5pWVq7BdzqKu7PZGvGzEvtpiPbJvwfPleQBMjtpLccWpd7j5JyyBL2OiFPPvOQGukzkAe4aa0TaipPt-WMvEZ5Ryzd9Fq1
+sprite $AwsTrustedAdvisorChecklistCostLg [20x20/16z] {
+NS_L0S0W54FHy2o1xZzltIz_1uSzDHpPa4YjiVCo0UxOyiVSXrduEcvZJ8uKMOy91lpt0Xb_Y-pjVvvFZY1Pxi_Uuwb9Yh_pH5dfjAoEa5EJuK2Z3OE5QVzk
+zMFl4GiuqGRtb3emjQ8VDHpe0tZQCKR3fvx-9q0F_Le
+}
+!procedure AwsTrustedAdvisorChecklistCost($id, $name="Aws Trusted Advisor Checklist Cost", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTrustedAdvisorChecklistCostMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistCostGroup($id, $name='Aws Trusted Advisor Checklist Cost', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistCostLg>', $name, $tech)
+!endprocedure
+@enduml

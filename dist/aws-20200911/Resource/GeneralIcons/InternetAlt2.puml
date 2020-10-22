@@ -1,0 +1,16 @@
+@startuml
+sprite $InternetAlt2Md [14x14/16z] XOXN0WCm24AVGIIv_u6xnr-hRFvSQNsBuycxz02Az6ZFsSwzEdZ3gZf2GUSC8uXcWLnOiEA-Dxotq5J6FUsTTWgMgYJk_7bN
+sprite $InternetAlt2Lg [20x20/16z] {
+jOnP4W9124FJAmdMtF-w0kw_wgHNNhqApiXKP7wWhGvqsOU5YjPukXgej0kf1yiPjukhFY9WnypUXk6MrWxayX3K4NzXCjxLsO8n6JZtphSh3jYoTk_oYXdD
+L5xr5GCF3szvbKfpJzUSGn8RCgrzN3_b2W
+}
+!procedure InternetAlt2($id, $name="Internet Alt2", $tech="")
+  IconElement($id, 'aws-20200911/Resource/GeneralIcons/InternetAlt2', $name, $tech)
+!endprocedure
+!procedure InternetAlt2Card($id, $funcName="", $content="")
+  IconCard($id, '<$InternetAlt2Md>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure InternetAlt2Group($id, $name='Internet Alt2', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$InternetAlt2Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AuroraPiopsMd [14x14/16z] jOx50S103CDoCNN_XSiuG1NKpmNTe13Sf8MwWVwoxe5UEIonF4M7SN2bj4gmmMtItzGB
+sprite $AuroraPiopsLg [20x20/16z] rP253GL1449X3BBzz_jTJYgujpeln02OiI49e9Tth08NiUKfqZZWkAuB4Wm4aLz7QthKblJBULgTygJupGdTenB2gTnqnUVXKzIvKu1nxFuE
+!procedure AuroraPiops($id, $name="Aurora Piops", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/AuroraPiops', $name, $tech)
+!endprocedure
+!procedure AuroraPiopsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuroraPiopsMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AuroraPiopsGroup($id, $name='Aurora Piops', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AuroraPiopsLg>', $name, $tech)
+!endprocedure
+@enduml

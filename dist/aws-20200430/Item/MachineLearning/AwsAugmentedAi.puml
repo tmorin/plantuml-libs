@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAugmentedAiMd [14x14/16z] PSod0S0m30H0eg_PVzuqc_cGwlSaM-dY4I6i9jJh8lrrGYccudT7mo5J-5jbOadXpXEDjGiHgsoOVktb6GJgXsOgTHDjeLlqSWyF
+sprite $AwsAugmentedAiLg [20x20/16z] {
+bSh5aGDH40FGAd-fMv1_l0k6cRFVJP2lTA5Wd9iFJSmSvMD9oKonpPDBxz9C16nUi0qC9Luy6s4mM8EJT2P_PXsedaBnsMVtM9-9Q4t5-laBjOi55HyzVwnK
+k6RIOPxbWKDLJ4mzkzA97doeSvWNRetLmfCFmrHJeRa9bcGeD_F5-SOl
+}
+!procedure AwsAugmentedAi($id, $name="Aws Augmented Ai", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsAugmentedAi', $name, $tech)
+!endprocedure
+!procedure AwsAugmentedAiCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAugmentedAiMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsAugmentedAiGroup($id, $name='Aws Augmented Ai', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsAugmentedAiLg>', $name, $tech)
+!endprocedure
+@enduml

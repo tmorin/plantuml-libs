@@ -1,0 +1,16 @@
+@startuml
+sprite $OndemandVideoMd [14x14/16z] POq35W0X4417Rn7lVzhiVeq5Eom31l4kaLJMyfhPPjuIVR96nlyq8-szMMllqlbGdxD8X4XPsvTzFfJ8XW49tnozoO4CIWBX8W8
+sprite $OndemandVideoLg [20x20/16z] {
+bOw50SDG448v8X1b_sdhxdrVpy6lKBv3HArvO2rcg8ONcXf2nhX35v_6mX5VVCxQF-OvoT8z-pBU-vJCxLDjzpINTQT5p_goBWVc7Vjt3Q7ZPyynB1pfZhuE
+Dz2oPU8ljW
+}
+!procedure OndemandVideo($id, $name="Ondemand Video", $tech="")
+  IconElement($id, 'material-4.0/Notification/OndemandVideo', $name, $tech)
+!endprocedure
+!procedure OndemandVideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$OndemandVideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure OndemandVideoGroup($id, $name='Ondemand Video', $tech='')
+  IconGroup($id, 'IconGroup', '<$OndemandVideoLg>', $name, $tech)
+!endprocedure
+@enduml

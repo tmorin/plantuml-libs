@@ -1,0 +1,16 @@
+@startuml
+sprite $PanoramaPhotosphereMd [14x14/16z] PSrL0iGm20JGQHEyG-v_sdNVzuM3FxF8dBWBsXZ6k2SjQgRIrzGMCzmZkHJQSyFD9gtcU0d_pfG3TzjilLuvAhCEBWEGBUgkqechl7zFt4cH9VXp1W
+sprite $PanoramaPhotosphereLg [20x20/16z] {
+ZP1Lme0m3CQcq5bp_zF-WZlaiVPbCm_u4FokO8K1iKifA2Lw7mlgvnBLcG5N6OjMaTmKj2MXsVzI1gsfxxe-LI0FKocOzNH2hSCVf70Ezx5stlqtMQjso1XS
+Q2M9fDA0R6Td1T0ig9tVPgVLIfX58V__GKPNVPiOI7Ql4ACt3_m2
+}
+!procedure PanoramaPhotosphere($id, $name="Panorama Photosphere", $tech="")
+  IconElement($id, 'material-4.0/Image/PanoramaPhotosphere', $name, $tech)
+!endprocedure
+!procedure PanoramaPhotosphereCard($id, $funcName="", $content="")
+  IconCard($id, '<$PanoramaPhotosphereMd>', '', $funcName, $content)
+!endprocedure
+!procedure PanoramaPhotosphereGroup($id, $name='Panorama Photosphere', $tech='')
+  IconGroup($id, 'IconGroup', '<$PanoramaPhotosphereLg>', $name, $tech)
+!endprocedure
+@enduml

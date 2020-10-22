@@ -1,0 +1,16 @@
+@startuml
+sprite $PlagiarismMd [14x14/16z] NSd50G1124DH6BT0_zMkxzY_lOIsNBj2_5JqgagQbFXYLoP6x99QK3-rS4_b5TXIwYgiqNO96t9TYfWuTrt9ztcqAm2Ejau
+sprite $PlagiarismLg [20x20/16z] {
+TT2r0KGn0CDGXpdUVzg3Zq6LhnGsANEa6xAySg_5Kx8_iBE2S61lBpO6HzjPTTuvfiVUuclLIbC6Kn2GjRC4nu0mM60QZ19Q8FQM5PH0xeoiJ8YTNVoOPPFj
+dXufRFe2
+}
+!procedure Plagiarism($id, $name="Plagiarism", $tech="")
+  IconElement($id, 'material-4.0/Action/Plagiarism', $name, $tech)
+!endprocedure
+!procedure PlagiarismCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlagiarismMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlagiarismGroup($id, $name='Plagiarism', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlagiarismLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SensorDoorMd [14x14/16z] Oq03B3nGm0BYSV530HSvF3PM51uBa4U1cHoy48VnSg2x6G
+sprite $SensorDoorLg [20x20/16z] Oy01c5dXW1agnCQF1DWWObp8Obmq5kFbnH3ZOM3amoy64-J5PWSznH11YWXKJ
+!procedure SensorDoor($id, $name="Sensor Door", $tech="")
+  IconElement($id, 'material-4.0/Home/SensorDoor', $name, $tech)
+!endprocedure
+!procedure SensorDoorCard($id, $funcName="", $content="")
+  IconCard($id, '<$SensorDoorMd>', '', $funcName, $content)
+!endprocedure
+!procedure SensorDoorGroup($id, $name='Sensor Door', $tech='')
+  IconGroup($id, 'IconGroup', '<$SensorDoorLg>', $name, $tech)
+!endprocedure
+@enduml

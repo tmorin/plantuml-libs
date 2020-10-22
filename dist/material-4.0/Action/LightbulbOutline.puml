@@ -1,0 +1,16 @@
+@startuml
+sprite $LightbulbOutlineMd [14x14/16z] PSc50S0W3031nptPVzgwzo3EZyczPtCECb8QSeojhRctu-JMulUZ5VieI5np4ZPHFNYDxCg0KJW4xLq31viMXfFptd4f8eM_6G
+sprite $LightbulbOutlineLg [20x20/16z] {
+XOt50GG12CHmrjD_jUUkUGKT-O55s4jd1fWVkmvJrGH-Q-bsBe9DhxscpbBKjJUZPr7cQszTtstPv6sloRCa_Phh3xaIuCSM8NUA54bA7aYMQLh8nvvpmkKV
+bX5fpxq1e9zx6fcXyfqz
+}
+!procedure LightbulbOutline($id, $name="Lightbulb Outline", $tech="")
+  IconElement($id, 'material-4.0/Action/LightbulbOutline', $name, $tech)
+!endprocedure
+!procedure LightbulbOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$LightbulbOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure LightbulbOutlineGroup($id, $name='Lightbulb Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$LightbulbOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

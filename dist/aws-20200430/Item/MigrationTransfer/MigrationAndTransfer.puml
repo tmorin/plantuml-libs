@@ -1,0 +1,16 @@
+@startuml
+sprite $MigrationAndTransferMd [14x14/16z] LOs50G0n20Dv8-Iw_xplrgjYIVHCoyiKaGqu3YqZ5epBO9OZ0fKAxaZLaAwebR2Fr1d9A76U4TPSdlMgL4gtoZcaq-5svt6VycMAdWq
+sprite $MigrationAndTransferLg [20x20/16z] {
+VO_5WSLG3CH-m9xHklz-Dyo9Rj93_nvfBep9d50pDFvEV3SoTMrf51nRIJNO4DcQvotksVOHGs1mOjldh447htIjPpCT4CuylEk-Xxutv_z9oMKE8hZD1g_p
+biUc4uwntVWzyGy
+}
+!procedure MigrationAndTransfer($id, $name="Migration And Transfer", $tech="")
+  IconElement($id, 'aws-20200430/Item/MigrationTransfer/MigrationAndTransfer', $name, $tech)
+!endprocedure
+!procedure MigrationAndTransferCard($id, $funcName="", $content="")
+  IconCard($id, '<$MigrationAndTransferMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure MigrationAndTransferGroup($id, $name='Migration And Transfer', $tech='')
+  IconGroup($id, 'IconGroup', '<$MigrationAndTransferLg>', $name, $tech)
+!endprocedure
+@enduml

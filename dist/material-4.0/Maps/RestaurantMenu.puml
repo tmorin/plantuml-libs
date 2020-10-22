@@ -1,0 +1,16 @@
+@startuml
+sprite $RestaurantMenuMd [14x14/16z] TKu30W0n3ClCDl__xUtiiGhmiwoPdxB6ZVH0O9spJh81dYETNtAUodDnpjHYITLKbUPMjcGhBOxLHDgPg37QZeu1zhJeIEQq78xct-An9W
+sprite $RestaurantMenuLg [20x20/16z] {
+dT053WCn44DHXpc-_sshILqK5BvezJQClmevm8h3IVmaMUshSU3aDYqFO53OUBBPXLVKi7rMibMcJEl16GvPDn5cJCuriyWmOsYMqj3nPfEb29y8gC_eXj4h
+Yfwn7H8sw85mhmHytmK
+}
+!procedure RestaurantMenu($id, $name="Restaurant Menu", $tech="")
+  IconElement($id, 'material-4.0/Maps/RestaurantMenu', $name, $tech)
+!endprocedure
+!procedure RestaurantMenuCard($id, $funcName="", $content="")
+  IconCard($id, '<$RestaurantMenuMd>', '', $funcName, $content)
+!endprocedure
+!procedure RestaurantMenuGroup($id, $name='Restaurant Menu', $tech='')
+  IconGroup($id, 'IconGroup', '<$RestaurantMenuLg>', $name, $tech)
+!endprocedure
+@enduml

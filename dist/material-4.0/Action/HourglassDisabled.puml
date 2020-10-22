@@ -1,0 +1,16 @@
+@startuml
+sprite $HourglassDisabledMd [14x14/16z] LSw50S0W40F0uCxlFoskQP73yKKOw9nwT1SPvhJMAbjCeYSq3Ous6rp6C34NMvo4neiewSoP35pQCFSkPQMrYelhPNvnHKXK
+sprite $HourglassDisabledLg [20x20/16z] {
+RT253S1040F1VGf-plrN6yPJLZoooFmLW7AKIzafMWkcgx3FgbhocFTT5TmOs1l42nzp62R3OPYKS3Xkv31dFXMj-2sfhaj7Ky2XMO3mHGtWKIDxRrJDsrDv
+r8Ewg-fEozkT-p9K-xazmW8
+}
+!procedure HourglassDisabled($id, $name="Hourglass Disabled", $tech="")
+  IconElement($id, 'material-4.0/Action/HourglassDisabled', $name, $tech)
+!endprocedure
+!procedure HourglassDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$HourglassDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure HourglassDisabledGroup($id, $name='Hourglass Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$HourglassDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

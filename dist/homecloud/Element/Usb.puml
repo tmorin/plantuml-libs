@@ -1,0 +1,16 @@
+@startuml
+sprite $UsbMd [14x14/16z] POm50i1G24ADfSNzJxlklPygG1lCzC3zKRH0UnLCPjS_YcsKoiqhW8wst7kInQhC8sYeDhEjOQ_44qYNAtNBl8Xu5Bh4tXL7CFsP0G
+sprite $UsbLg [20x20/16z] {
+VSw50SCm40D0cLdQVzfom_6PyHypEUF8InvxbX8jTembhTazTC0OCDOkLuiKG29B0p-Koh8tkMVKFl-XoU5FxHkt2Okkduw5IJcHhyvWPmmi9dj12ZZekm1B
+tWL7CMBc2G
+}
+!procedure Usb($id, $name="Usb", $tech="")
+  IconElement($id, 'homecloud/Element/Usb', $name, $tech)
+!endprocedure
+!procedure UsbCard($id, $funcName="", $content="")
+  IconCard($id, '<$UsbMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure UsbGroup($id, $name='Usb', $tech='')
+  IconGroup($id, 'IconGroup', '<$UsbLg>', $name, $tech)
+!endprocedure
+@enduml

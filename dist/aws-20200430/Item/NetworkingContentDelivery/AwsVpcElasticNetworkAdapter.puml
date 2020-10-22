@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcElasticNetworkAdapterMd [14x14/16z] NOw5OGKW44CXnluRzqA_F_Gywm7N9oVt0OWvSQCwuY2kOAmdHiP2h2GKu5frmyJarP9ZajVomPxCi-7QstDbhtQ9MD09Tthfz5zbtwh_
+sprite $AwsVpcElasticNetworkAdapterLg [20x20/16z] {
+TP055WGn24FJO9cz_u7tCQx_UQG5S89uC7vyQX9MneQb5negQqM1YjOyt70WjkPUhboG3Q6raMcCyF3X2QzLOsT2P08PcpQO26iDugfLAIUkMhHcO9k812hG
+caq3b5YozGylTDLT2L00uZ7p-sx73T0t-BxL0LzkYatw0m
+}
+!procedure AwsVpcElasticNetworkAdapter($id, $name="Aws Vpc Elastic Network Adapter", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcElasticNetworkAdapter', $name, $tech)
+!endprocedure
+!procedure AwsVpcElasticNetworkAdapterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcElasticNetworkAdapterMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcElasticNetworkAdapterGroup($id, $name='Aws Vpc Elastic Network Adapter', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcElasticNetworkAdapterLg>', $name, $tech)
+!endprocedure
+@enduml

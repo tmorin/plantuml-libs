@@ -1,0 +1,16 @@
+@startuml
+sprite $ParallelClusterMd [14x14/16z] NOo55SDG30CB0ky_SQ_Xv3uAdWSw9_olHBwAg4VHQzOkIZRAW6fAMS7Wn5XVqGoAJfJOqYnLkYFPvsHL5FVPHjpey_y3
+sprite $ParallelClusterLg [20x20/16z] {
+dP054W8130C7aZIv_pyOQGztTgIkUONjV4D9lY_T5fGRByL5Hz-bhs4GTLi9I-soo3LHH0a72HraEwicG8wCdMxl1Plfn1w6YGknfdFt4NYGwi1Gd2W0qxSN
+CY8kVraNfNABoPlAlrwx1m
+}
+!procedure ParallelCluster($id, $name="Parallel Cluster", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/ParallelCluster', $name, $tech)
+!endprocedure
+!procedure ParallelClusterCard($id, $funcName="", $content="")
+  IconCard($id, '<$ParallelClusterMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ParallelClusterGroup($id, $name='Parallel Cluster', $tech='')
+  IconGroup($id, 'IconGroup', '<$ParallelClusterLg>', $name, $tech)
+!endprocedure
+@enduml

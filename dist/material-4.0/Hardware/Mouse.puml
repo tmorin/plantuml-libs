@@ -1,0 +1,16 @@
+@startuml
+sprite $MouseMd [14x14/16z] PSn50e1G20HGsdRkVzfVuCgt8eSc5L7w70Z7KSq9k0FdQWpPmV8EY03oLbILMLLbThuNpv1o_hkZcann5AFfokQYXS_Pd4n58cGL7G
+sprite $MouseLg [20x20/16z] {
+bT053aGX38JXjayOcj2v_sbNWQxB7_zmfAVoc7cOHRKRsacQaTmdRHp6TLXBQxVJkd6xMhsrskUX0505KB39sn1j5hYQyoR_p-gjuVRElNuNZQHs-mUzxUQl
+UhjaYmSPliXTQgRIEm8
+}
+!procedure Mouse($id, $name="Mouse", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Mouse', $name, $tech)
+!endprocedure
+!procedure MouseCard($id, $funcName="", $content="")
+  IconCard($id, '<$MouseMd>', '', $funcName, $content)
+!endprocedure
+!procedure MouseGroup($id, $name='Mouse', $tech='')
+  IconGroup($id, 'IconGroup', '<$MouseLg>', $name, $tech)
+!endprocedure
+@enduml

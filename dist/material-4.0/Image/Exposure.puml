@@ -1,0 +1,16 @@
+@startuml
+sprite $ExposureMd [14x14/16z] NSa55a9H201HqXRslri7zUUyl0SvPVxF1hq6lRkgwLOnUhW_WA3_37mLJM0JkFWgy7x56pdWVZsiHe32P6HTqxkgJM06PIGuzW4
+sprite $ExposureLg [20x20/16z] {
+ZT050eGW04HHkc7kVrfYs0xrsyz6NCy67sxvO3RXBRiil4f2MEQ1EYDvjIsWoRbP6CJ3q6Qafp7Ikv7UZHJqct4NxiL8SMwgVXXtj4Cq-l7DNh1gUIyjISMq
+LeRsSmpUnufqiG4
+}
+!procedure Exposure($id, $name="Exposure", $tech="")
+  IconElement($id, 'material-4.0/Image/Exposure', $name, $tech)
+!endprocedure
+!procedure ExposureCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExposureMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExposureGroup($id, $name='Exposure', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExposureLg>', $name, $tech)
+!endprocedure
+@enduml

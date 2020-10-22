@@ -1,0 +1,53 @@
+# Query
+
+```text
+eventstorming/Element/Query
+```
+
+```text
+include('eventstorming/Element/Query')
+```
+
+|element|
+|---|
+|![](Query.element.local.png)|
+
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eventstorming bootstrap
+include('eventstorming/bootstrap')
+' loads the Query element
+include('eventstorming/Element/Query')
+Query('query', 'Query')
+note as note
+A query is a wish to get a point of view of the state of the system.
+end note
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eventstorming bootstrap
+include('eventstorming/bootstrap')
+' loads the Query element
+include('eventstorming/Element/Query')
+Query('query', 'Query')
+note as note
+A query is a wish to get a point of view of the state of the system.
+end note
+@enduml
+```
+

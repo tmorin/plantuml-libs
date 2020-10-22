@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcRouterMd [14x14/16z] LOw30S0m44K_s-o_SCqNd84DPKCuQMMhFOn9u1Y4fZqYW0a1TRyRDev0zX0tQmiwiPtHZjYlDL_McwdyknmJa6oVUasVvsFwjLboRVRRUWK
+sprite $AwsVpcRouterLg [20x20/16z] {
+RP05aWCm30CtiMHryl__7YJbTWVCo66KL8CdAccfaxgxEXCac6aECQ2r13Wdom2sZsoWmaOwCWMPREmZPnZXrKT6zLulI6Gls2NBjYwnSzcgzSttNDlNscyp
+xhj8zrselEQbxhULNTVRxZ_mMblaww--__JRxty1
+}
+!procedure AwsVpcRouter($id, $name="Aws Vpc Router", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcRouter', $name, $tech)
+!endprocedure
+!procedure AwsVpcRouterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcRouterMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcRouterGroup($id, $name='Aws Vpc Router', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcRouterLg>', $name, $tech)
+!endprocedure
+@enduml

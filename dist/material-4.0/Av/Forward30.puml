@@ -1,0 +1,16 @@
+@startuml
+sprite $Forward30Md [14x14/16z] POk35GHH54Fpy8tqN-rYZ7iKOaLmGPfS7VjXmo1PDvEOZ6FhZ0uvXgL3HNVNCcAA6UPBrn1pogZbxvowG5-Fz7zMi98v9pDsn5tmvWi
+sprite $Forward30Lg [20x20/16z] {
+bL150WGn32ALs4pB_r-xxhuS8nW-GVp5aFaycupxGOkLlBiiApdlPsNIHURTsSB-g54Fv7AduAme3MXodIK5cggB0KMkCuHQ3SZPex91qpGTdNgomXLLHLIm
+ibn4JXz1lp6uQgswtbaq7c3txNMpBlWFMm
+}
+!procedure Forward30($id, $name="Forward30", $tech="")
+  IconElement($id, 'material-4.0/Av/Forward30', $name, $tech)
+!endprocedure
+!procedure Forward30Card($id, $funcName="", $content="")
+  IconCard($id, '<$Forward30Md>', '', $funcName, $content)
+!endprocedure
+!procedure Forward30Group($id, $name='Forward30', $tech='')
+  IconGroup($id, 'IconGroup', '<$Forward30Lg>', $name, $tech)
+!endprocedure
+@enduml

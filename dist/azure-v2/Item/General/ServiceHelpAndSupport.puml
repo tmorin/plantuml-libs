@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceHelpAndSupportMd [14x14/16z] DOo50S0m48JklVjFN694tv2K7HxLfaqLKOxlmDAhIOnEMD2HiIDle5ed6eAXVZK3FZV2qcbXnzc-JAv5Oh1beiOBNiigHKxF56Se9k_b2qLzZt7z
+sprite $ServiceHelpAndSupportLg [20x20/16z] {
+POy5ei1G2CCUq1RkV-4lF9bbdbaO4sHLqiQDO8ERH3BS0zAHLk4WuIOT5xxVhHWRBXpSoga9F6qxVPsfIGNRhPX6NdMSyNyEnKWUvI0xq6shF-DcXjjm41Ks
+N2IN3Fr1DtJDFIHMk7TmTXkuZlUsN4Vhj2V-vr0FPECN
+}
+!procedure ServiceHelpAndSupport($id, $name="Service Help And Support", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceHelpAndSupport', $name, $tech)
+!endprocedure
+!procedure ServiceHelpAndSupportCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceHelpAndSupportMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceHelpAndSupportGroup($id, $name='Service Help And Support', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceHelpAndSupportLg>', $name, $tech)
+!endprocedure
+@enduml

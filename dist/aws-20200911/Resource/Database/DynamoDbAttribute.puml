@@ -1,0 +1,16 @@
+@startuml
+sprite $DynamoDbAttributeMd [14x14/16z] VKvP3aGn26f5qFkVUEX4VrzNsHA2p2J0jnveeHj0o42Xb8uNhE3SgXfasdSGuTnT3Qtobirg6EcF92FYUTOvI8E-D0MGsopejQtl3m
+sprite $DynamoDbAttributeLg [20x20/16z] {
+bP1N0iCm24D164knxt_V4hhRhxniZNWOuWHmHnCmR8brh3hLR8GCP5gGi4Qb-HeGwuoNnfddItxbskVyr9WoYsFmeokZU3W-Sml8EJ2bHCzqmIMHAYL5DUvY
+qreZhswWpkmkwYn1rdojuwszv_AVkzxLEuUjPf6lFJKySCS3km4
+}
+!procedure DynamoDbAttribute($id, $name="Dynamo Db Attribute", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/DynamoDbAttribute', $name, $tech)
+!endprocedure
+!procedure DynamoDbAttributeCard($id, $funcName="", $content="")
+  IconCard($id, '<$DynamoDbAttributeMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure DynamoDbAttributeGroup($id, $name='Dynamo Db Attribute', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$DynamoDbAttributeLg>', $name, $tech)
+!endprocedure
+@enduml

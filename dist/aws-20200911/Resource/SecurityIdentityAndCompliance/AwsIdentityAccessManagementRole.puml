@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIdentityAccessManagementRoleMd [14x14/16z] bKw50GCm2AD4aF__dU-0uaxYZY1B-KjwouBvJIRFOQNn7fllXDDlom0fkEf438Asr3t4Q5e4PHUF_hSJUG7g2G
+sprite $AwsIdentityAccessManagementRoleLg [20x20/16z] {
+jKs50S0W3AFKahB_tvth0SE9jf-6gBl91tAaUp0VL3YG6Tgiz89gXFPkeFJg1vRZV5Y9yf1Driwn8jW_NbkjxRrqpGt3UbgkKA38ugOVM7Nc4IOEEBG1FOf8
+Dqk6krA52F0giSpOtbsb_JiM
+}
+!procedure AwsIdentityAccessManagementRole($id, $name="Aws Identity Access Management Role", $tech="")
+  IconElement($id, 'aws-20200911/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementRole', $name, $tech)
+!endprocedure
+!procedure AwsIdentityAccessManagementRoleCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIdentityAccessManagementRoleMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsIdentityAccessManagementRoleGroup($id, $name='Aws Identity Access Management Role', $tech='')
+  IconGroup($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementRoleLg>', $name, $tech)
+!endprocedure
+@enduml

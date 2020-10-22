@@ -1,0 +1,13 @@
+@startuml
+sprite $TuneMd [14x14/16z] ROr50a0X24I7uQV5_KzhwygdTE68wB1iu38IW5ggxsscbKcXrfeI7TUImwTpfhV_V-SueyirE3j5C245pWlt1VqifNM1-6TjTUD00G
+sprite $TuneLg [20x20/16z] dOs50O0m30GVgyNsdnPtXuDQxF238cJOuoqVRqwbGwcDjOUROhgBxNj7ib0S7Ba5Z2mEyw1HvQvYnzxHKS8x713PETH1REVOnvRU0yxXAmq
+!procedure Tune($id, $name="Tune", $tech="")
+  IconElement($id, 'material-4.0/Image/Tune', $name, $tech)
+!endprocedure
+!procedure TuneCard($id, $funcName="", $content="")
+  IconCard($id, '<$TuneMd>', '', $funcName, $content)
+!endprocedure
+!procedure TuneGroup($id, $name='Tune', $tech='')
+  IconGroup($id, 'IconGroup', '<$TuneLg>', $name, $tech)
+!endprocedure
+@enduml

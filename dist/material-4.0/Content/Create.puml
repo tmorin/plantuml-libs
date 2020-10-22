@@ -1,0 +1,13 @@
+@startuml
+sprite $CreateMd [14x14/16z] Oy01c90vtFmiS3OZ8oS_FroMYu-9anlEuUVdOqBYy7EHo666S10y18U1aOK5bri1
+sprite $CreateLg [20x20/16z] jSk52S1040NHjRZy_gkDe2jOv0P_CFIgNWfDs3CAa74KlR1F8okcIFSecO2nqjIA-aeqPhgj4jauzlIg4m
+!procedure Create($id, $name="Create", $tech="")
+  IconElement($id, 'material-4.0/Content/Create', $name, $tech)
+!endprocedure
+!procedure CreateCard($id, $funcName="", $content="")
+  IconCard($id, '<$CreateMd>', '', $funcName, $content)
+!endprocedure
+!procedure CreateGroup($id, $name='Create', $tech='')
+  IconGroup($id, 'IconGroup', '<$CreateLg>', $name, $tech)
+!endprocedure
+@enduml

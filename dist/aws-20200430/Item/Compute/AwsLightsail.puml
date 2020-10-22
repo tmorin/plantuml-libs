@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsLightsailMd [14x14/16z] bOr50i0m20HhC-J_7wwINEgSM2-_BW0Rc0WW4HP7KnMTWY1J1YBLQOnErc1hoIZUxySLkm
+sprite $AwsLightsailLg [20x20/16z] jK-52S0038D5_xzuo5pm5c-yGnSxZnT1ahSNbCh2AIjL5al5Pl-YhIaL-ykIRIGi_VpX-9rQ2hba1C-CWdkNHsVmPzl4hG
+!procedure AwsLightsail($id, $name="Aws Lightsail", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsLightsail', $name, $tech)
+!endprocedure
+!procedure AwsLightsailCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsLightsailMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsLightsailGroup($id, $name='Aws Lightsail', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsLightsailLg>', $name, $tech)
+!endprocedure
+@enduml

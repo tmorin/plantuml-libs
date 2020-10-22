@@ -1,0 +1,16 @@
+@startuml
+sprite $TranslateMd [14x14/16z] POo30GD03023TxJ_jkshl9ZmHnfmo2fYeKDNXtjxqcFKC-Qv0HSlKv7E4vj78t2N6XdGegn2j0OLAReAHwX9EWNFgxbFuHuD3bsGYjzAqdGCNpm
+sprite $TranslateLg [20x20/16z] {
+TO-55S1034BFFM7_RKlTV_Lu4J2_s6HVMaIyLlH61aOZVQrsMD3ruxP2kxuSgh6NQPwlmg8B7TPOD7F5eLDdMHZd-eI1n6_3E2l7Sh00_2vL2BUoFFApIurj
+nOXox2bnUNB8UyYokoXG4LeWVX-X416zMGzBc-U0asqy5zrJ4yVg3oO
+}
+!procedure Translate($id, $name="Translate", $tech="")
+  IconElement($id, 'material-4.0/Action/Translate', $name, $tech)
+!endprocedure
+!procedure TranslateCard($id, $funcName="", $content="")
+  IconCard($id, '<$TranslateMd>', '', $funcName, $content)
+!endprocedure
+!procedure TranslateGroup($id, $name='Translate', $tech='')
+  IconGroup($id, 'IconGroup', '<$TranslateLg>', $name, $tech)
+!endprocedure
+@enduml

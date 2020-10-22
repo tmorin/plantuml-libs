@@ -1,0 +1,16 @@
+@startuml
+sprite $AndroidMd [14x14/16z] bSZ30S1G303G69_xJrlZshuuy8FOEKtsZfL8bQZYyOnvYFjuJvqbzpthL80-NVPBV7ROjuTmk7jizi7msGe
+sprite $AndroidLg [20x20/16z] {
+hSlL0SCm34NHQmnAR_zfIuRIRuvHnFL2OIgXlT4JNV98inw4b7CAd2k3dQu7FurXrJJwTdtOHjTXBM6dj03nyIMrNCAa2DlZNxS-MDkqwOSH_V7uyshlOqN2
+7wvs1m
+}
+!procedure Android($id, $name="Android", $tech="")
+  IconElement($id, 'material-4.0/Action/Android', $name, $tech)
+!endprocedure
+!procedure AndroidCard($id, $funcName="", $content="")
+  IconCard($id, '<$AndroidMd>', '', $funcName, $content)
+!endprocedure
+!procedure AndroidGroup($id, $name='Android', $tech='')
+  IconGroup($id, 'IconGroup', '<$AndroidLg>', $name, $tech)
+!endprocedure
+@enduml

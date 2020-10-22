@@ -1,0 +1,16 @@
+@startuml
+sprite $SportsBarMd [14x14/16z] RSd50GCn44DHipse_gjDbldVdXHUTPEQTmnq0cG5OzfZz3uZ8uL8fcYx15DECmc-OA2idBFeY_g7F9zQ7A_VWf3AN0wl_W
+sprite $SportsBarLg [20x20/16z] {
+ZOw50S0W40Dn3zb_shehL-LUnJlQg8jH81czFIW91fj9OaisbMxyACUq5f9-obQoS76UPim21x0vFIXEO9cZ2UEvCSk3C8PXMNXpIgvEx4wjJZxbVJg0Rd5r
+THL9tch5XWyJFgn9RVG
+}
+!procedure SportsBar($id, $name="Sports Bar", $tech="")
+  IconElement($id, 'material-4.0/Places/SportsBar', $name, $tech)
+!endprocedure
+!procedure SportsBarCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsBarMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsBarGroup($id, $name='Sports Bar', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsBarLg>', $name, $tech)
+!endprocedure
+@enduml

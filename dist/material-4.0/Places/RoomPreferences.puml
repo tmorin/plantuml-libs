@@ -1,0 +1,16 @@
+@startuml
+sprite $RoomPreferencesMd [14x14/16z] NOf50eLG4CCwWexT_xHVWIVPjGbcvCizkBwudTJMUHItnPJT4hAxZFKlxgNGahiqYenq_gyDiMCFt2iF70b8_KgB2YFGeXy02SR46m
+sprite $RoomPreferencesLg [20x20/16z] {
+bKzL0aCX3CEzpVrlk-pvwzSMF0BK_O7IQcFFJqwmGSUOxUGMBeZnJUuiDtxdKdfo9Q2UvviZPRFBfTA0LkBD5RU0tYdUN7G5hA8XFxb0BuL0neUDoynAJ899
+hfsLrRK0MPLSQhKHzHi1lBEuwx3u
+}
+!procedure RoomPreferences($id, $name="Room Preferences", $tech="")
+  IconElement($id, 'material-4.0/Places/RoomPreferences', $name, $tech)
+!endprocedure
+!procedure RoomPreferencesCard($id, $funcName="", $content="")
+  IconCard($id, '<$RoomPreferencesMd>', '', $funcName, $content)
+!endprocedure
+!procedure RoomPreferencesGroup($id, $name='Room Preferences', $tech='')
+  IconGroup($id, 'IconGroup', '<$RoomPreferencesLg>', $name, $tech)
+!endprocedure
+@enduml

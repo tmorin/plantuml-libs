@@ -1,0 +1,19 @@
+@startuml
+sprite $SportsSoccerMd [14x14/16z] {
+POp50SKm34DV4nSCiVQVzcDlDOCa7cPH5NOleP9AyLzw4C5e1qoJKpgPck3AbDctEbI61Wn55gm36LXp56GGEUUt1PWsLxTy-q88_P2I0p_LuyXx0SkrqdZO
+6m
+}
+sprite $SportsSoccerLg [20x20/16z] {
+VP054aGX34DnEWmazx_jfh1k-G8ywk6FKYdf1KG39LYyemokHV-GhwYGDKGWXaOU6B4tW7iGsztOPUk-kkhipXPdChB9qTBaskQkgK84NDapZ3mf9CYP1ukp
+6YgRi-PRPvaM8gUpoHXikq1H1wrtur16d5ggsDQGgvsQCJXIpaaB46-zqOu7FSE14AnL2ENVh5ovb1p-w08
+}
+!procedure SportsSoccer($id, $name="Sports Soccer", $tech="")
+  IconElement($id, 'material-4.0/Social/SportsSoccer', $name, $tech)
+!endprocedure
+!procedure SportsSoccerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsSoccerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsSoccerGroup($id, $name='Sports Soccer', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsSoccerLg>', $name, $tech)
+!endprocedure
+@enduml

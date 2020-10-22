@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBudgetsMd [14x14/16z] XSUt0G8n44JHH6FxBnWvuBBxChilBu6h2wz5U8fN5Tj1kXiWeSot1D1AETX91knyFZ85wgWOZkSTMmHtq5Jcc_tdlmy
+sprite $AwsBudgetsLg [20x20/16z] {
+bT055e0m30FGnvOqRRZ_VN5_Hj3z-UfNVF_imHhYHedA9SYRqSk7_9ZZPbxCwcBweiNGpHDpQG3CJlMjjzb235PPqUZLPc7PvI8Lcr5ZDDbgCOg75GGIGkdi
+2zaHjd3s7LIPjJmQk9awiOTTtoDo_SW4
+}
+!procedure AwsBudgets($id, $name="Aws Budgets", $tech="")
+  IconElement($id, 'aws-20200430/Item/AwsCostManagement/AwsBudgets', $name, $tech)
+!endprocedure
+!procedure AwsBudgetsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBudgetsMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+!procedure AwsBudgetsGroup($id, $name='Aws Budgets', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsBudgetsLg>', $name, $tech)
+!endprocedure
+@enduml

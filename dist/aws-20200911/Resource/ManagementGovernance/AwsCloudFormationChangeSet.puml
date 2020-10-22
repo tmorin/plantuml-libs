@@ -1,0 +1,19 @@
+@startuml
+sprite $AwsCloudFormationChangeSetMd [14x14/16z] {
+DKk50S0m20j4wFv_U9qq5OYXBVye829xWnq2Jbnj3AdDbaPPNkF7amM0riFI-A77y-oUEfw7JSAvD5aFwovi5FGoFUpqug08omyRchamytZnvMfIdCtQaktd
+Bzm
+}
+sprite $AwsCloudFormationChangeSetLg [20x20/16z] {
+VP05bk1024GBhIAxzp_ll9Pn-KaR3e3v9x0OaJgGV7hBy8uXkKxLCmDO6sQGlMMTK4h_AyYuTgqQWz66d6ldrOb5LaTzpR7aLvPjDsrScL8jcCjI96_UDiNA
+sugPBHlZ1802Yfv_vF3yAfEF-WZ2_Cgw8FEO09zydG5zvstmtvMzvdKWu4VsI4D9NFIPgSSd37W1
+}
+!procedure AwsCloudFormationChangeSet($id, $name="Aws Cloud Formation Change Set", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech)
+!endprocedure
+!procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudFormationChangeSetMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudFormationChangeSetGroup($id, $name='Aws Cloud Formation Change Set', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationChangeSetLg>', $name, $tech)
+!endprocedure
+@enduml

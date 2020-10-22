@@ -1,0 +1,16 @@
+@startuml
+sprite $NoBackpackMd [14x14/16z] LSc53O1G5CNGYyFJ_QVbkpLwKgpj01D0d6Kln8dShwJ3dyXK9ZLIKMML9LRnXpCI7vSdOlxYbQBSipr5bPZbRzAbKh8TQm4
+sprite $NoBackpackLg [20x20/16z] {
+TS-55OGm00FGrFMQ_QV5QSu8rFwhuZ4X6C3izH4J04i6893sjC84CzXhxMIwvdKcU5vf5xxUCPvOoJonJXFAE9VBpfc3GsPW6XECCMotXU3ZFXFGl2i9qBmx
+6Q5CqqmZ4yg-CKhqO1TcV37ucnK
+}
+!procedure NoBackpack($id, $name="No Backpack", $tech="")
+  IconElement($id, 'material-4.0/Places/NoBackpack', $name, $tech)
+!endprocedure
+!procedure NoBackpackCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoBackpackMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoBackpackGroup($id, $name='No Backpack', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoBackpackLg>', $name, $tech)
+!endprocedure
+@enduml

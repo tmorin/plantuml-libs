@@ -1,0 +1,16 @@
+@startuml
+sprite $TouchAppMd [14x14/16z] RSsr0KDH34FHnsPx_scJpwpgdahfOwsSNTm33gaCYBhBHg3sNOn1N7Rb5fJJiHgShWg7goQtfOLmrdP9iQwdAskwqARu0m
+sprite $TouchAppLg [20x20/16z] {
+bS-r0GKX50NHYplJVxNVTL-qat5mdIoMT10tWUN_h5D3PlujeyMT2k77FBan8r4_KHeZuN-jFgpflyvqpffaZ96imKh6Vl_YKtWR-MK3rdvPVA-xmwiWWzl9
+u98CrllW2W
+}
+!procedure TouchApp($id, $name="Touch App", $tech="")
+  IconElement($id, 'material-4.0/Action/TouchApp', $name, $tech)
+!endprocedure
+!procedure TouchAppCard($id, $funcName="", $content="")
+  IconCard($id, '<$TouchAppMd>', '', $funcName, $content)
+!endprocedure
+!procedure TouchAppGroup($id, $name='Touch App', $tech='')
+  IconGroup($id, 'IconGroup', '<$TouchAppLg>', $name, $tech)
+!endprocedure
+@enduml

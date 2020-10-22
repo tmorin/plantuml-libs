@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsPrivateLinkMd [14x14/16z] bOn50e0m40EnZJJ_VoyEFNSkAv4sXjHtWuJV8t0YuBN15ZyP0eiguquP0gZSNgAs0eYds2zjX0C
+sprite $AwsPrivateLinkLg [20x20/16z] {
+jO_7WKLH248t20ZJVxlpSrw_SwDPSmnjVtIYlZGBcjWFNxZfWdnpcuj39SxJ4-h698E7voYO0Is4yuWa_-H9aCvUTUYEnI7SuAehOGAGP0-RAoObyOBV9hkS
+2pc24m
+}
+!procedure AwsPrivateLink($id, $name="Aws Private Link", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsPrivateLink', $name, $tech)
+!endprocedure
+!procedure AwsPrivateLinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsPrivateLinkMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsPrivateLinkGroup($id, $name='Aws Private Link', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsPrivateLinkLg>', $name, $tech)
+!endprocedure
+@enduml

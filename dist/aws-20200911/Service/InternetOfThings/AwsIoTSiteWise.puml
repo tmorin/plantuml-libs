@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTSiteWiseMd [14x14/16z] LSt70GHH20BGWmh2xx_U3MmSRiyeQHC-emiZVQXmcc4qvAHhoIgoCcwRmsaq8bORS1UUcggTOLNhERbc5KHbpzRCvjFnEtbrmY3wvnq
+sprite $AwsIoTSiteWiseLg [20x20/16z] {
+RSzB4iGW28JXYe3IpVtlEzIGpif_PNs-qQKw4ow82q88V0XXH0fbvcv23kqWF338FxADicGZcROYbXt8UDmEp73CjimYoBr1TtlDbp-pxkbXRv-jZXsnqsTp
+Mp59wy2JQEC4RzCtYszwVcDzIAYwO5smBlW3
+}
+!procedure AwsIoTSiteWise($id, $name="Aws Io T Site Wise", $tech="")
+  IconElement($id, 'aws-20200911/Service/InternetOfThings/AwsIoTSiteWise', $name, $tech)
+!endprocedure
+!procedure AwsIoTSiteWiseCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTSiteWiseMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTSiteWiseGroup($id, $name='Aws Io T Site Wise', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTSiteWiseLg>', $name, $tech)
+!endprocedure
+@enduml

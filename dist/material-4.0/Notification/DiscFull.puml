@@ -1,0 +1,13 @@
+@startuml
+sprite $DiscFullMd [14x14/16z] XSt50KCX40JGmHtwxpQp-Uxl0kjuftnARWbi7rGLX6OW2bm18dzTCjereB8BXf6tTHS5KEAdIQUndDDZsQBTwGAfa7dzqmy
+sprite $DiscFullLg [20x20/16z] fP2r0S0W44M3ExV_jC6TZbTnNx3l5SILbdIHk8U49KEIq4XYDXXq78eJYvg5WIWQpeDYsR95esLTF1z7MZNJjGmfNLgxYA7x6VDTF2gv-SxJyqIzCRd-mJi1
+!procedure DiscFull($id, $name="Disc Full", $tech="")
+  IconElement($id, 'material-4.0/Notification/DiscFull', $name, $tech)
+!endprocedure
+!procedure DiscFullCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiscFullMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiscFullGroup($id, $name='Disc Full', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiscFullLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcNatGatewayMd [14x14/16z] PKu7aaKn2880ckpz3xoZywP-UnSCAH4-SaToUvCgB6LydEBXH04R_PGxQLE12EJWm8fG8KkysTFzvzpEkxOoKwD5YurgiizUGLpFLTmFcDRt_HSPm3cz0_y
+sprite $VpcNatGatewayLg [20x20/16z] {
+PL1LGWKm34lgxRZ_TP5jm9FynIR11KM8Hp1g8_vbcqCOOrVovb-X_QIA9N-TjcrHfjNT1OS24JXQ1O3DqG8c0TZHs601L5nD4oXA0RA2f2VfAr6ojPwewgcQ
+74dXZpPsk_PXAEux75SJ0_kyPUNLiFb-Suz7Tloz6LQo7AhAyxUxWRvk05Y_RONtJT-t_m8
+}
+!procedure VpcNatGateway($id, $name="Vpc Nat Gateway", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcNatGateway', $name, $tech)
+!endprocedure
+!procedure VpcNatGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcNatGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure VpcNatGatewayGroup($id, $name='Vpc Nat Gateway', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$VpcNatGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MonitorMd [14x14/16z] fSUr4S1040ImdUVZ_girSsfbmaUvBE7mGp1W3OTcFrPngClKXJVY2kJ1iU6HiUYnwTYaiaducW4
+sprite $MonitorLg [20x20/16z] pSZ50OH044JHF-vJ-KUxljW9RhpsvZIVDr9sWDE1XQ1exC941V3ljWhlCzpevzLhgp-jTdcWQQVnPgZwgHX-j5XUfFoJkE89
+!procedure Monitor($id, $name="Monitor", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Monitor', $name, $tech)
+!endprocedure
+!procedure MonitorCard($id, $funcName="", $content="")
+  IconCard($id, '<$MonitorMd>', '', $funcName, $content)
+!endprocedure
+!procedure MonitorGroup($id, $name='Monitor', $tech='')
+  IconGroup($id, 'IconGroup', '<$MonitorLg>', $name, $tech)
+!endprocedure
+@enduml

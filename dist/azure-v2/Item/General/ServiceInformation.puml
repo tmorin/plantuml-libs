@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceInformationMd [14x14/16z] NSY7OGGm24DHqGJUV-4Wv_fp_G28uWfSbfIq6yK71xAQBCJUD7HpjwVUH0kJzp7TKuZH-rCZt5hzLGMsolBiup2V_MXq4ijvP4AXhgemh3y
+sprite $ServiceInformationLg [20x20/16z] {
+NP074iGW4CFihUJ_3xwoc2jHcaPf00Hfb0gQl_YjzAmXdITDKUKzdSZebtPmIyKhMWy1n3Q3o-RX8PYoYZXcaauofQRhIY3MLlyqCjKiQmtJXhR8UoioxYq0
+g__M1E1wHHysOEArDY_nIVFwjId3WHvPLQ4bVG8
+}
+!procedure ServiceInformation($id, $name="Service Information", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceInformation', $name, $tech)
+!endprocedure
+!procedure ServiceInformationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceInformationMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceInformationGroup($id, $name='Service Information', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceInformationLg>', $name, $tech)
+!endprocedure
+@enduml

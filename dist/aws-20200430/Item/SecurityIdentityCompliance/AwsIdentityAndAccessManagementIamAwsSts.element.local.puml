@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsIdentityAndAccessManagementIamAwsSts element
+include('aws-20200430/Item/SecurityIdentityCompliance/AwsIdentityAndAccessManagementIamAwsSts')
+AwsIdentityAndAccessManagementIamAwsSts('aws_identity_and_access_management_iam_aws_sts', 'Aws Identity And Access Management Iam Aws Sts', 'an optional tech field')
+@enduml

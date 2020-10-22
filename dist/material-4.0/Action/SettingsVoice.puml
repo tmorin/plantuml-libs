@@ -1,0 +1,16 @@
+@startuml
+sprite $SettingsVoiceMd [14x14/16z] ZSd50S0m243H7rTW_sdhTknBS0ufyIfcXSSm6tyclqzpApidDBEAE7QZKZ9rS1rx25qSrrXLg-FHEnyvy_0uX-UYeRMW02i
+sprite $SettingsVoiceLg [20x20/16z] {
+jSY35GKm04MnMxjl_sc_RUOux5dBfIALYmfQ2Pp9wqj_l9Bsbyh-UiUjpp7Q_e8SeVU0Ks2lhtB5gN5WkbfAJTrm8WvfH2wC0QzSAJnbMg0KGZCSM6Nc9Cco
+jWG
+}
+!procedure SettingsVoice($id, $name="Settings Voice", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsVoice', $name, $tech)
+!endprocedure
+!procedure SettingsVoiceCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsVoiceMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsVoiceGroup($id, $name='Settings Voice', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsVoiceLg>', $name, $tech)
+!endprocedure
+@enduml

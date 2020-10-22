@@ -1,0 +1,16 @@
+@startuml
+sprite $FlareMd [14x14/16z] XOx50KHH20C3p-T2_zMkxtUP4vf47tBM0ZZfSX6e_8vhcEHHzSLz3FFF6I0YXWRaVuU0pwivkEb89LU1QhxDiapz1
+sprite $FlareLg [20x20/16z] {
+fP2r0KD134Eb3yUozvys30TTyXepuissOK7wpSUtZrrE0Me5IfTR_BoBqmk-1304taGFvIw-LvLa5T5l15IJj6qs-snRQz-SO8oyYMMNqEr2U-rSkvr9G7h8
+_t-r_luA
+}
+!procedure Flare($id, $name="Flare", $tech="")
+  IconElement($id, 'material-4.0/Image/Flare', $name, $tech)
+!endprocedure
+!procedure FlareCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlareMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlareGroup($id, $name='Flare', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlareLg>', $name, $tech)
+!endprocedure
+@enduml

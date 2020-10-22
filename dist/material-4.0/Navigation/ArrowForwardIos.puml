@@ -1,0 +1,13 @@
+@startuml
+sprite $ArrowForwardIosMd [14x14/16z] Oy0074n871P-NcGkEpyl8ogN2H-N3udB1kOXL1BaODhEoSo05G
+sprite $ArrowForwardIosLg [20x20/16z] Oy096365cFavCCHu-FdPqSMO-EWeo87kRbwu648PkKAyU8KGOO0PC2mG8JJD38G
+!procedure ArrowForwardIos($id, $name="Arrow Forward Ios", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ArrowForwardIos', $name, $tech)
+!endprocedure
+!procedure ArrowForwardIosCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowForwardIosMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowForwardIosGroup($id, $name='Arrow Forward Ios', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowForwardIosLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SecurityMd [14x14/16z] JOs54S0m30CTPcl_RGt5BuekvAH4BsK3AvDJ6ICnSAgAZAPl65aLgmX_zS-2PWnc9A84CCo9fkX0iNDyqarfjeSAsvZgsZOoT3TivQGD71CtEPCZ
+sprite $SecurityLg [20x20/16z] {
+ZT150iGW04FH1EejoVrFEvPn_yk7Wqiadk8eZGzQPbksvtAHRhMtZaVqsfrej9SAq6cCPSnfYfM_R7exhu84PLdA6ODrgf14x-5erOdPgE9OkxCcd9fkrdkC
+KHUZHAJ1CMxk8vVLg2qhxsPkze3xogBRxxtx-pq
+}
+!procedure Security($id, $name="Security", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Security', $name, $tech)
+!endprocedure
+!procedure SecurityCard($id, $funcName="", $content="")
+  IconCard($id, '<$SecurityMd>', '', $funcName, $content)
+!endprocedure
+!procedure SecurityGroup($id, $name='Security', $tech='')
+  IconGroup($id, 'IconGroup', '<$SecurityLg>', $name, $tech)
+!endprocedure
+@enduml

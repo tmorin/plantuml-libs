@@ -1,0 +1,31 @@
+@startuml
+
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="{{= it.relativeRepoLibDir }}"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the {{= it.config.pkgName }} bootstrap
+include('{{= it.config.pkgName }}/bootstrap')
+
+C4Legend()
+Title("System Context diagram for Big Bank pic")
+
+include('c4model/Element/Person')
+include('c4model/Boundary/EnterpriseBoundary')
+include('c4model/Element/System')
+include('c4model/Element/ExternalSystem')
+
+Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
+EnterpriseBoundary("enterprise", "Big Bank pic") {
+    System("ibs", "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+    ExternalSystem("mbs", "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+    ExternalSystem("ems", "E-Mail System", "The internal Microsoft Exchange e-email system.")
+}
+
+pbc --> ibs : C4Relationship("Views account balance, and makes payments using")
+ibs -> ems : C4Relationship("Sends e-mails using")
+ibs --> mbs: C4Relationship("Gets account information from, and makes payments using")
+ems -up-> pbc: C4Relationship("Sends e-email to")
+@enduml

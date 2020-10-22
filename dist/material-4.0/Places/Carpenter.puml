@@ -1,0 +1,13 @@
+@startuml
+sprite $CarpenterMd [14x14/16z] NSc53G0n3C30SZZPVzfdh8KdfpdaBo8-jFYonO_uf_vOTuNSXFtPSoKuYJwI99vleUkEX_hWRGK
+sprite $CarpenterLg [20x20/16z] TSwr0G0X50JHnPtjlzgJ2FjC-AB1BMzEOjS7SKT3dbW4r5r0Hm6JWAe9Q2bWbB3-uYthTXvW5aFzo99c7cVT2SWi_QSD-qw0KRZt0W
+!procedure Carpenter($id, $name="Carpenter", $tech="")
+  IconElement($id, 'material-4.0/Places/Carpenter', $name, $tech)
+!endprocedure
+!procedure CarpenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarpenterMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarpenterGroup($id, $name='Carpenter', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarpenterLg>', $name, $tech)
+!endprocedure
+@enduml

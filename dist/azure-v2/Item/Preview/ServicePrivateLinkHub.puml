@@ -1,0 +1,19 @@
+@startuml
+sprite $ServicePrivateLinkHubMd [14x14/16z] {
+BKw70GGX30BIp_ttVSjZfMY2ZVYwlo0kLAlsrBaprnXWivBe-M9BDp-S4TpTDjUmcyuTt66sDWjGvk9Z2da8zjZExR3yi150ZzZvKLOxRWcVEdltjdV8SH6J
+EKdymNfTuWS
+}
+sprite $ServicePrivateLinkHubLg [20x20/16z] {
+LO-7aGGm20E5o7R__JxyvNNGp3g29n8d1J_GwhGJ7qJxTCvGmHFMFQKJvnQVDzrx58lslSd9Su_ZXPzTryvzmjs89NjSETGucAxpMcTm-N_SDkpfSWn5dVmu
+Tw6gEwXFvv1GDNS2_dOGCTiQ-773E59TuUiwiD0ZHY5QmTnQNsYTv7_svCBiDi4YrXs4HBSBNZ2wiZee-22QbVeqVm
+}
+!procedure ServicePrivateLinkHub($id, $name="Service Private Link Hub", $tech="")
+  IconElement($id, 'azure-v2/Item/Preview/ServicePrivateLinkHub', $name, $tech)
+!endprocedure
+!procedure ServicePrivateLinkHubCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServicePrivateLinkHubMd>', 'Preview', $funcName, $content)
+!endprocedure
+!procedure ServicePrivateLinkHubGroup($id, $name='Service Private Link Hub', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServicePrivateLinkHubLg>', $name, $tech)
+!endprocedure
+@enduml

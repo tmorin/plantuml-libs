@@ -1,0 +1,13 @@
+@startuml
+sprite $InputMd [14x14/16z] NSt50S1G20FGV5TW_sdhbhuJ3fYF3uze-h1O9XwpKbQSnwQcCujzqyJIFtidypbvNd4uC_x0tn5IlAG0jW8
+sprite $InputLg [20x20/16z] ZT350KCn30DGIow4jV-qnS_yBk4Ox2e-5sXeMcYW8fm3HnIffyqyltlXFuVz1H71__F4uPxrQkFmjjK_gNAzrtZmTeYHUP3BRixW18AurGFpiE1srHi
+!procedure Input($id, $name="Input", $tech="")
+  IconElement($id, 'material-4.0/Action/Input', $name, $tech)
+!endprocedure
+!procedure InputCard($id, $funcName="", $content="")
+  IconCard($id, '<$InputMd>', '', $funcName, $content)
+!endprocedure
+!procedure InputGroup($id, $name='Input', $tech='')
+  IconGroup($id, 'IconGroup', '<$InputLg>', $name, $tech)
+!endprocedure
+@enduml

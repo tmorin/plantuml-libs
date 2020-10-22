@@ -1,0 +1,16 @@
+@startuml
+sprite $SecurityHubFindingMd [14x14/16z] POw50GCn3CGSdzJklt7x357GV3NHcjg9_97LaEXtiHUBM4sPpIAB5RXPFAnERfRYQbcTPZdBw83qw5g3Ynd78BiOau_KYny
+sprite $SecurityHubFindingLg [20x20/16z] {
+ZSe7ZaH120DHOmFct__2g-wTd4lvgV2Xv0D4kTgtodO6WstXL5kHFgOYsh4f1kb6IrCudM7CkWaCws8-MVzePZzP1kFHsDt4jjWcv92QZGx7_WOmQEn3iuoD
+CB06n41JHyi0rxhI499W8L6D7SULMNIdrtRIh1IW4jxq1m
+}
+!procedure SecurityHubFinding($id, $name="Security Hub Finding", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/SecurityHubFinding', $name, $tech)
+!endprocedure
+!procedure SecurityHubFindingCard($id, $funcName="", $content="")
+  IconCard($id, '<$SecurityHubFindingMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure SecurityHubFindingGroup($id, $name='Security Hub Finding', $tech='')
+  IconGroup($id, 'IconGroup', '<$SecurityHubFindingLg>', $name, $tech)
+!endprocedure
+@enduml

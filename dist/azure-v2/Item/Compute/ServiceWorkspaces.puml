@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceWorkspacesMd [14x14/16z] LSc50S0W30J006_iFt1T3-BZg-6hsu2qXIL3gWAtsBUmMd7Rq8JfIFOMiKDx31sRP9-g642a9vFUZnl7jfapcJlkTzsmJQDUupjKw_Mt0W
+sprite $ServiceWorkspacesLg [20x20/16z] {
+ZOs5WSL020MH9wJ_Xcyvjo-Jh0qMJvBLlwccTR1VjrVOL5V1x2nQ95zTHPIP4VZV0LXdRAsszVWr3nmVng_xxBQEU0r8Amw4t17jhP2vKkzkNfq0UTqW4pEY
+NiVk35tRwPhnLhrot2UlZgE2lk1h4k8xcT7e-4sYywzSzPSN
+}
+!procedure ServiceWorkspaces($id, $name="Service Workspaces", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceWorkspaces', $name, $tech)
+!endprocedure
+!procedure ServiceWorkspacesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceWorkspacesMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceWorkspacesGroup($id, $name='Service Workspaces', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceWorkspacesLg>', $name, $tech)
+!endprocedure
+@enduml

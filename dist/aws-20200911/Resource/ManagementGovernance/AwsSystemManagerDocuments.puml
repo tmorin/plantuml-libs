@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemManagerDocumentsMd [14x14/16z] FOw50O0m40CRHVRV5wTNVSz0R6jyg5cN-hSSTrcZpx8AQizdsI3QVB4uI3QziV3rJUiYV-m-mtyC91_h2JopxWTifdN1zEx2NvxpW742
+sprite $AwsSystemManagerDocumentsLg [20x20/16z] {
+RSq54WH124FHO0aZzp_lrexRBt_T003_5uvB7ANkvitI99BAgsLxaQpmqu8swjzK5tFXNmzr-TSmWpMwBlzg68XHclFoxv-vKOSfMFyY-J0oYvVPhTJrnh-w
+c3Nit_4lFcRvDhEKFmnmfHxsrx7ND1877W7u0G
+}
+!procedure AwsSystemManagerDocuments($id, $name="Aws System Manager Documents", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsSystemManagerDocuments', $name, $tech)
+!endprocedure
+!procedure AwsSystemManagerDocumentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemManagerDocumentsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemManagerDocumentsGroup($id, $name='Aws System Manager Documents', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsSystemManagerDocumentsLg>', $name, $tech)
+!endprocedure
+@enduml

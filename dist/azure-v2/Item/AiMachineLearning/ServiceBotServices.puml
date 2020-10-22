@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBotServicesMd [14x14/16z] FKs54S0m4897il_6lSZrNG60cgGLZhYnKvycuKvi03a0DJE8qV9s7gwzvxdSIyMGXjodpkxcxvfz0-pxg8lZ6H7WeXpExGv_-jYBBLwniumhLA9py04
+sprite $ServiceBotServicesLg [20x20/16z] {
+LT25WGKX30JGP8phl-9Z0zzcbOTJDo29-avJjlMjJB9jlzcNj7mQmCk3hSLFZwK7ETIOd5B7qqqIPPI3Ol2PNYWiGga2BswhYFOs5ReQO_Qr9fxtjtstYw6C
+dR2tgRYcLzKD5WjnmQ8aF9RWx0EJtgI_sPKtJeRUXs2CC4E3p4gS_URNP3_d_0y
+}
+!procedure ServiceBotServices($id, $name="Service Bot Services", $tech="")
+  IconElement($id, 'azure-v2/Item/AiMachineLearning/ServiceBotServices', $name, $tech)
+!endprocedure
+!procedure ServiceBotServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBotServicesMd>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+!procedure ServiceBotServicesGroup($id, $name='Service Bot Services', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBotServicesLg>', $name, $tech)
+!endprocedure
+@enduml

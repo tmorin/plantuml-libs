@@ -1,0 +1,16 @@
+@startuml
+sprite $ApprovalMd [14x14/16z] PSc53S0m44DHXvF3_QSjSx_8JyQ_Ab9lUEz-KPTLzHGDOD2fO3aRhh9Pmbtlrw57UHLpAZcNnBn9IbqgiedyY5PrbItj-3G3
+sprite $ApprovalLg [20x20/16z] {
+VSg50S0W34JHmpMv_RUjkxmAy0b-6EyDhX974MUH4gDSewe1ZEefMMQCCkqfjcMkuMGyBXTddZ7HuwgG6NUzuym57tpEVbmS5f4dSMcLuy1aN5YtXXtRrfGh
+FUPEVfeB9mxl1W
+}
+!procedure Approval($id, $name="Approval", $tech="")
+  IconElement($id, 'material-4.0/File/Approval', $name, $tech)
+!endprocedure
+!procedure ApprovalCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApprovalMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApprovalGroup($id, $name='Approval', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApprovalLg>', $name, $tech)
+!endprocedure
+@enduml

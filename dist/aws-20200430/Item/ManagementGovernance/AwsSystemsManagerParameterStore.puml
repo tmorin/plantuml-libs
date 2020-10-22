@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemsManagerParameterStoreMd [14x14/16z] HSl90S10209013JzTnptdfy2G4x4P260o7d4fwayhzeqBZdOWZal8QqaxYLRaBYpx2kLyQw2FQvIdzcAVQdH-4WhESrBqCI2miOsf_43
+sprite $AwsSystemsManagerParameterStoreLg [20x20/16z] {
+NP07hiKm3CEaMBBz_lqF_E7kbbW4imCWjBDmePO7zHLPfwtBkcGDrY_FfRw9e-LD-Txkko4JY1pM-3MlnCNq-DKod980ohoQ7DDSQbvjCiRbzzfLfF9iNBIY
+AxEgESsTbRqiX84Y4oSEr9-cTHp0Wdupx_g3f0CKaCIDIqC_6pKuy0y
+}
+!procedure AwsSystemsManagerParameterStore($id, $name="Aws Systems Manager Parameter Store", $tech="")
+  IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
+!endprocedure
+!procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemsManagerParameterStoreMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemsManagerParameterStoreGroup($id, $name='Aws Systems Manager Parameter Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSystemsManagerParameterStoreLg>', $name, $tech)
+!endprocedure
+@enduml

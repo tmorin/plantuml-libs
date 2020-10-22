@@ -1,0 +1,16 @@
+@startuml
+sprite $AdminPanelSettingsMd [14x14/16z] ROh50S0W00E3E-o_ROlhlIA76qAMh6Coh6MR2hvqdXewD_PgJhBP98H09kG7mNgNcymNJzgcujhS8XEnDEZVDDfeL2W31CV91m
+sprite $AdminPanelSettingsLg [20x20/16z] {
+bP350KCn34FbC6l_RTiaBkD_DxCb7CJRfuH9WwmEDspXfWVHLE2Dhhd4E-HDxajVf3AIDKytca14SrQx19Ni-dhZ9ABGoopTXgsGoP41Yp9pnd3KqXcna3dj
+CV9SRd7xiSAT-qR25Gb-sfCT3d02
+}
+!procedure AdminPanelSettings($id, $name="Admin Panel Settings", $tech="")
+  IconElement($id, 'material-4.0/Action/AdminPanelSettings', $name, $tech)
+!endprocedure
+!procedure AdminPanelSettingsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdminPanelSettingsMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdminPanelSettingsGroup($id, $name='Admin Panel Settings', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdminPanelSettingsLg>', $name, $tech)
+!endprocedure
+@enduml

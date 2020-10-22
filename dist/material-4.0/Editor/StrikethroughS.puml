@@ -1,0 +1,16 @@
+@startuml
+sprite $StrikethroughSMd [14x14/16z] bStL0GCm20JGIz0AtFxJrjtxld3mWiZ0cJP9EsVLAiLvohg0wUEqusaonvHzmgvgxkrJp12C5HK7aojWGS5HScTrVHvf-CyM
+sprite $StrikethroughSLg [20x20/16z] {
+jSt50GGn30D0EOnM_zKkKtw74qRXJIv4BtYodIkFXqxDQTctZuVR5QFCmrvQ1szn2p4E0RwMadCkYrfBtN8I1mahWJ56HDAw8JXaDYpwCpUGIuPVxzqAILsg
+mKDeofuDHYBubna
+}
+!procedure StrikethroughS($id, $name="Strikethrough S", $tech="")
+  IconElement($id, 'material-4.0/Editor/StrikethroughS', $name, $tech)
+!endprocedure
+!procedure StrikethroughSCard($id, $funcName="", $content="")
+  IconCard($id, '<$StrikethroughSMd>', '', $funcName, $content)
+!endprocedure
+!procedure StrikethroughSGroup($id, $name='Strikethrough S', $tech='')
+  IconGroup($id, 'IconGroup', '<$StrikethroughSLg>', $name, $tech)
+!endprocedure
+@enduml

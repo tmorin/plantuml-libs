@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonInteractiveVideoMd [14x14/16z] BSg73S0W34HHATUy_yJ1vLEV88alIPcMAyF-zDWYABtjCIdpFNpKI2w-Uqox0ke542sIiaz55q7lpwheaz_CI91DS5L60kTLMxRJyGS
+sprite $AmazonInteractiveVideoLg [20x20/16z] {
+PSq9aW0X24FHCW4-zp_nYCNiwTMd043zIDxm7zT-yXfObBpu96tLDSN3PyVu6ZxVXYNG5A_DayUlUUMr1haQfm9IPwnnEJ24hDGQzbXAghMZgIsvlcgxkC_C
+UCF6NaBgbW9OGs-6YLEmvz8v5Ww0hSLJw-AbDpGqFsoPB_kF7m
+}
+!procedure AmazonInteractiveVideo($id, $name="Amazon Interactive Video", $tech="")
+  IconElement($id, 'aws-20200911/Service/MediaServices/AmazonInteractiveVideo', $name, $tech)
+!endprocedure
+!procedure AmazonInteractiveVideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonInteractiveVideoMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AmazonInteractiveVideoGroup($id, $name='Amazon Interactive Video', $tech='')
+  IconGroup($id, 'MediaServicesFamily', '<$AmazonInteractiveVideoLg>', $name, $tech)
+!endprocedure
+@enduml

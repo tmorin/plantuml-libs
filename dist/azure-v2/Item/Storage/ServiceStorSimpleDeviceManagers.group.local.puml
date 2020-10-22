@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceStorSimpleDeviceManagers element
+include('azure-v2/Item/Storage/ServiceStorSimpleDeviceManagers')
+ServiceStorSimpleDeviceManagersGroup('service_stor_simple_device_managers', 'Service Stor Simple Device Managers', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

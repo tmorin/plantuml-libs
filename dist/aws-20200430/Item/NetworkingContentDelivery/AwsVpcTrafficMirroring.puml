@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsVpcTrafficMirroringMd [14x14/16z] NKw50SC028j1k_yVNkQ2Eq79KpBkn0rhixmdf0YHJL4zpzQEAXme8pf4F6nNiHXmHj6wYHbDvkAqrSBPHCGZ8pKEZgCDzMYCPJRjRRZtxozC_4FsY_eA
+sprite $AwsVpcTrafficMirroringLg [20x20/16z] {
+RP054WCW30JtBaAO_l-_7QOkYnCFDwAwA-15JMT4zXHtzBhMY8F789rrVy04x5dIMWCnGDNv7qFaqkqzO2sFI9q_XcYOX6KLkA2Z4cc2Fd-HYAns31hT_io4
+ksFlYNPRwSgQ7LsX1RS_9InbHOEVUc7eO8JtkiMeRJHGXI_RHo_snVSQZAssIpQUHmzkt1x_UlM_f_zwVmK
+}
+!procedure AwsVpcTrafficMirroring($id, $name="Aws Vpc Traffic Mirroring", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcTrafficMirroring', $name, $tech)
+!endprocedure
+!procedure AwsVpcTrafficMirroringCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsVpcTrafficMirroringMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsVpcTrafficMirroringGroup($id, $name='Aws Vpc Traffic Mirroring', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsVpcTrafficMirroringLg>', $name, $tech)
+!endprocedure
+@enduml

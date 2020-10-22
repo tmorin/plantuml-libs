@@ -1,0 +1,16 @@
+@startuml
+sprite $BluetoothConnectedMd [14x14/16z] TOx50G1120DP5oJzLtlkCX-SX3ue-Lerf3tbJCridsR4rYhSKQhkC-cKW4HDhbLVAfeACwJBbrhXjyDTOQSX_phR6G4
+sprite $BluetoothConnectedLg [20x20/16z] {
+VT350S0W30LGtCFVVzi6gRVanWDYOXL6letAsmhozQX3UmTSNmP4DWh8yiJ4ICJVlRWXKKGwGDc6G2Eh1X5SmquWrQqsYsY57EfugEVVXbRVQjJOy8XMyT5B
+O6BpAF8m7UTiyhs31xM_FplzZmq
+}
+!procedure BluetoothConnected($id, $name="Bluetooth Connected", $tech="")
+  IconElement($id, 'material-4.0/Device/BluetoothConnected', $name, $tech)
+!endprocedure
+!procedure BluetoothConnectedCard($id, $funcName="", $content="")
+  IconCard($id, '<$BluetoothConnectedMd>', '', $funcName, $content)
+!endprocedure
+!procedure BluetoothConnectedGroup($id, $name='Bluetooth Connected', $tech='')
+  IconGroup($id, 'IconGroup', '<$BluetoothConnectedLg>', $name, $tech)
+!endprocedure
+@enduml

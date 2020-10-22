@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsElasticBlockStoreEbsMd [14x14/16z] VKq30WG143ficFx_txKrPjMhD5Xo-eY-iylWD5L3DffFGr1GvavEjEkgjevAk7GMUv5NFdlXNNZ0uNQwduk3T
+sprite $AwsElasticBlockStoreEbsLg [20x20/16z] dP053iK024CJfF2u_ts_ksvxCOAtB6VcBPvqNLFoF2V36kO0jFcbs04b5KIBA-sgalVZbRAKqceUSw8AwJatC9jp1vvoT1plHWFVV_PtRUyUl7krd3q
+!procedure AwsElasticBlockStoreEbs($id, $name="Aws Elastic Block Store Ebs", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsElasticBlockStoreEbs', $name, $tech)
+!endprocedure
+!procedure AwsElasticBlockStoreEbsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticBlockStoreEbsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsElasticBlockStoreEbsGroup($id, $name='Aws Elastic Block Store Ebs', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElasticBlockStoreEbsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $StoreMd [14x14/16z] VSl50G0m20F0r1tsdxOklzuFak3BvJHbDouRmsB75V8MnaMybNuelXIWtwK1v2YLPYjYHfVy62luDA_YGs0DFpERkYXX7BuQ
+sprite $StoreLg [20x20/16z] {
+fOy54aGX34E_8Wb3xd_RdShwE0z_MBkjKGacO0q7VO1mntM-k8vmGnyCLxi-cRkvKr-SvigtA-RQjslcBea0g6cTxepF1p4wXzh_7DpjWZbyvuQFSvKmF7rO
+jy83
+}
+!procedure Store($id, $name="Store", $tech="")
+  IconElement($id, 'material-4.0/Action/Store', $name, $tech)
+!endprocedure
+!procedure StoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$StoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure StoreGroup($id, $name='Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$StoreLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsAppstream20Md [14x14/16z] VOc50S102CHgSFBxprjt2nhm0otCUmPoOVx4SjLigwwsphKZWUHk8G6RcLc8bDEh4Wh2gtOeYl0AQ0l-PG
+sprite $AwsAppstream20Lg [20x20/16z] fSu52i0m50HHwBVTpVtFMzS4x-0F6_qhFUuy3uE1Lt0TqQWpXbxuiWinM2FQnpBMCkfjc42mehrC-m0JUDcA58B6bmacHjlmCS4H-zBBX2d45LslAhM6rByM
+!procedure AwsAppstream20($id, $name="Aws Appstream20", $tech="")
+  IconElement($id, 'aws-20200430/Item/EndUserComputing/AwsAppstream20', $name, $tech)
+!endprocedure
+!procedure AwsAppstream20Card($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppstream20Md>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AwsAppstream20Group($id, $name='Aws Appstream20', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsAppstream20Lg>', $name, $tech)
+!endprocedure
+@enduml

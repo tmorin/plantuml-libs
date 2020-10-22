@@ -1,0 +1,13 @@
+@startuml
+sprite $InsertChartMd [14x14/16z] NStL0K0n24FHr1NOVzhdcbizNu3ouShliAUDyLK4mlwMycfQJg_S96LhNqtS2hCKsL-QGDFXuvK7jG8
+sprite $InsertChartLg [20x20/16z] bP250O1024Mlam_xJsjt-_IA1lKTdsAQYCcD8jdXUrdQor8lY-CTc6MhdJ7lCdRb94EtwMiPqr6ckoT-olgQYGNOnTkHhcPmdbKl-aeB
+!procedure InsertChart($id, $name="Insert Chart", $tech="")
+  IconElement($id, 'material-4.0/Editor/InsertChart', $name, $tech)
+!endprocedure
+!procedure InsertChartCard($id, $funcName="", $content="")
+  IconCard($id, '<$InsertChartMd>', '', $funcName, $content)
+!endprocedure
+!procedure InsertChartGroup($id, $name='Insert Chart', $tech='')
+  IconGroup($id, 'IconGroup', '<$InsertChartLg>', $name, $tech)
+!endprocedure
+@enduml

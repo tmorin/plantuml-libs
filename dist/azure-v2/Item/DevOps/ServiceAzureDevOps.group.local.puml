@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the azure-v2 bootstrap
+include('azure-v2/bootstrap')
+' loads the ServiceAzureDevOps element
+include('azure-v2/Item/DevOps/ServiceAzureDevOps')
+ServiceAzureDevOpsGroup('service_azure_dev_ops', 'Service Azure Dev Ops', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

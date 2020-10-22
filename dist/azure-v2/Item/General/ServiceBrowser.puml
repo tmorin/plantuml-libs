@@ -1,0 +1,13 @@
+@startuml
+sprite $ServiceBrowserMd [14x14/16z] dSUr0S0m30H0om-6_VSDWzBckekeZoW07uWvhOkdnoGkd6uPbU7t_CPmXff5-LW1
+sprite $ServiceBrowserLg [20x20/16z] lSud0W9144JHpkd-1sOKi9FLFbTV5Tn2wY5hPlpBLF5ouXzgkxNWVz6QHSz8h2V4skDNccXFIAnB9ZpzR3q6m1xCV
+!procedure ServiceBrowser($id, $name="Service Browser", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceBrowser', $name, $tech)
+!endprocedure
+!procedure ServiceBrowserCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBrowserMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceBrowserGroup($id, $name='Service Browser', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBrowserLg>', $name, $tech)
+!endprocedure
+@enduml

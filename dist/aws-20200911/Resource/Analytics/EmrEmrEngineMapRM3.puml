@@ -1,0 +1,16 @@
+@startuml
+sprite $EmrEmrEngineMapRM3Md [14x14/16z] VOo50SHG348_IO1s_uMFdlkBw_e4aJljZOzgRE6o1DffR4g24Q_hEuUZoOj32pspqo8zqS11ZQQGC2EXSBnJ5m6AMwz5oGa12Wdh7oS
+sprite $EmrEmrEngineMapRM3Lg [20x20/16z] {
+fOu5OeKn28C9K4Xw_mFljstFzQlWOcy1ntBjZ469SP4Nh8iygAl8_mmZrROWAgnL5amQzZ1YjamUdNKogzou-G1i-nZMZ-vpZi6Ap44KHw7T5v4rkhiQYpgy
+ZtxmJCDobikRCv0GIMq1LmloHSE2JmUisah_PS65XdtB3m
+}
+!procedure EmrEmrEngineMapRM3($id, $name="Emr Emr Engine Map R M3", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Analytics/EmrEmrEngineMapRM3', $name, $tech)
+!endprocedure
+!procedure EmrEmrEngineMapRM3Card($id, $funcName="", $content="")
+  IconCard($id, '<$EmrEmrEngineMapRM3Md>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure EmrEmrEngineMapRM3Group($id, $name='Emr Emr Engine Map R M3', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$EmrEmrEngineMapRM3Lg>', $name, $tech)
+!endprocedure
+@enduml

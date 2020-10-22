@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSystemManagerMaintenanceWindowsMd [14x14/16z] LOx50GLG3C921Tx-2t_NdAe0TsgtU34wCqV3dOqRsbbWWjPUaG5PgUwAB7Hwcnbw-sW7mwnaPf-TxBftpqjuNZvKxWuFbN-7V_V_PF-fhm
+sprite $AwsSystemManagerMaintenanceWindowsLg [20x20/16z] {
+NP273GGn2C0SEjb_u4Uwv9lLJOU33FooTjLUV8XOLL2r8gwgtCxWEokEOj08PNXav9XEz-on6GohqIsO8IDxCQgS5eXW95uBsOKbu0waKLka89nnYU01zN7Q
+rSiUTsk7Mtjd37V6sQKNmxgxt9tDpiwVsop2FhUDp7v-q7dK_w_-V_gBg0g75m
+}
+!procedure AwsSystemManagerMaintenanceWindows($id, $name="Aws System Manager Maintenance Windows", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsSystemManagerMaintenanceWindows', $name, $tech)
+!endprocedure
+!procedure AwsSystemManagerMaintenanceWindowsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSystemManagerMaintenanceWindowsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsSystemManagerMaintenanceWindowsGroup($id, $name='Aws System Manager Maintenance Windows', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsSystemManagerMaintenanceWindowsLg>', $name, $tech)
+!endprocedure
+@enduml

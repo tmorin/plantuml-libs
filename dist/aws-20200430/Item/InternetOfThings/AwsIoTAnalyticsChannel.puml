@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTAnalyticsChannelMd [14x14/16z] POv70W1H14E95tF_4q_ltmgfiGx4CmBT1wAv3vmFLyOafShjJCLwJAYtix3AtjpEI_IwrCCqVhb43WbF-jZiste1
+sprite $AwsIoTAnalyticsChannelLg [20x20/16z] {
+VL1L0aH12C81OVR-1zwkbtwg99uZ5rOZC-kTYTLEh6Gkm6qB68jbgcQjbamw7XYf8RwNLG0Tyc8vxsLd0AKOGFThfPfgQH90-RSJXmLWU87r92fyQU2j4JjS
+Updrh9riuAA3WwuEEuNw7te3
+}
+!procedure AwsIoTAnalyticsChannel($id, $name="Aws Io T Analytics Channel", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/AwsIoTAnalyticsChannel', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsChannelCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsChannelMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsChannelGroup($id, $name='Aws Io T Analytics Channel', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsIoTAnalyticsChannelLg>', $name, $tech)
+!endprocedure
+@enduml

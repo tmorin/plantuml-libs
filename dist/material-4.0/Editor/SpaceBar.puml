@@ -1,0 +1,13 @@
+@startuml
+sprite $SpaceBarMd [14x14/16z] Ow0Iu623q6mS89A70ohA0oAvUTZOWO2DXniinii31hmSrB8R
+sprite $SpaceBarLg [20x20/16z] OnXSW9K3mUPWXT1S_8nmCNvkc1W3GemB9iRC10NC234am0MpWvq32jY1TWmk
+!procedure SpaceBar($id, $name="Space Bar", $tech="")
+  IconElement($id, 'material-4.0/Editor/SpaceBar', $name, $tech)
+!endprocedure
+!procedure SpaceBarCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpaceBarMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpaceBarGroup($id, $name='Space Bar', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpaceBarLg>', $name, $tech)
+!endprocedure
+@enduml

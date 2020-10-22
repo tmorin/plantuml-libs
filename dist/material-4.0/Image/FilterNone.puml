@@ -1,0 +1,13 @@
+@startuml
+sprite $FilterNoneMd [14x14/16z] hST50K0n50EmTeol_jL-1WFBBG1ylfLuX3R7JP5qvd0R9NV-otaicWBTYVCOXamdapy6tXoHD1wT05B9ZsCx
+sprite $FilterNoneLg [20x20/16z] nT2r5S1030HHFTEXjFrNQpYct1F-SEXhQwFGXJORZA5qJZbimPXg2jic5qbh-ZNetjHdQc7wD-E5UN1DeXqiBB4N5MrGDBR1DQFq5T2XZIcqTNto
+!procedure FilterNone($id, $name="Filter None", $tech="")
+  IconElement($id, 'material-4.0/Image/FilterNone', $name, $tech)
+!endprocedure
+!procedure FilterNoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilterNoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilterNoneGroup($id, $name='Filter None', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilterNoneLg>', $name, $tech)
+!endprocedure
+@enduml

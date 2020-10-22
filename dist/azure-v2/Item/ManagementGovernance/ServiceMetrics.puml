@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceMetricsMd [14x14/16z] HSc50S1030B018XKzb-ttlVFWOs5oWbZbqzXYUUFl4FoJPULLwKN2CbD82vGTv32rXRPT5giYVqHOfC7xiwXgw3HxuvAlyGzNzMlRKXl1yXOGDChx0G
+sprite $ServiceMetricsLg [20x20/16z] {
+bSv5WWGm20H06klO_z-x6niz3QTGmUGZeF8Lvb-eB8dFibBo5WAtZfUSvzTDRh0KNsM1fzKQ7sKMPZDLX-zReA4pTmz3RVCMZV1Lp4937uGWvzCSchKuMZ-c
+Lbl0cDWcnX3zjttxDfWjWsRSEi_4iXZDVZCu4pOjfwtxHCC5IHClL649_04
+}
+!procedure ServiceMetrics($id, $name="Service Metrics", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceMetrics', $name, $tech)
+!endprocedure
+!procedure ServiceMetricsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceMetricsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceMetricsGroup($id, $name='Service Metrics', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceMetricsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEc2T3InstanceCopyMd [14x14/16z] PKw50O102Bp2_JUszOjk3e0edYASn5Jgb6mcO5-jgsb3HRp44g8_ozrZhDmzXi3fwkhnpavNkhBx2Y6jL-OFDb-o9sGZwWC
+sprite $AwsEc2T3InstanceCopyLg [20x20/16z] {
+RP250SGm30DFCkq_yMEvlN3C1h28RLieqsJyjnzPtJNRbZ-jG3jHu6nnG9rsNF_2KEU_WkWHoBPiGDFnrtDDk7hHM_ove7FnT_XJQukn_4NMASOFiSMuv_AK
+yrDjznuyz-gvf_VUlm4
+}
+!procedure AwsEc2T3InstanceCopy($id, $name="Aws Ec2 T3 Instance Copy", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2T3InstanceCopy', $name, $tech)
+!endprocedure
+!procedure AwsEc2T3InstanceCopyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2T3InstanceCopyMd>', 'Compute/Instance', $funcName, $content)
+!endprocedure
+!procedure AwsEc2T3InstanceCopyGroup($id, $name='Aws Ec2 T3 Instance Copy', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2T3InstanceCopyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleNotificationServiceEmailNotificationMd [14x14/16z] NOk50G0n20CXrlqdVjTUS2cuwm7XU3khefmCLkBIGTF4zYPowq1hU3kvBm5j8e-4xV2Xfsww17STOVuZ-W44s0Ikj08
+sprite $SimpleNotificationServiceEmailNotificationLg [20x20/16z] {
+ROo5jKHH20CdGU_st-ztMNaJ3WuWyqoUFU817L7B0rxGUcVsMplY9DDKLUINV8psD9GhAofIhDryahOZ8jEVlLlFTCzEpwTjtqpa4u66jllUIO50Towav8cK
+0eFlN4Zz-eyWfRnpWPgowywr53mHrxrXx0SdZAK7npi
+}
+!procedure SimpleNotificationServiceEmailNotification($id, $name="Simple Notification Service Email Notification", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/SimpleNotificationServiceEmailNotification', $name, $tech)
+!endprocedure
+!procedure SimpleNotificationServiceEmailNotificationCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleNotificationServiceEmailNotificationMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure SimpleNotificationServiceEmailNotificationGroup($id, $name='Simple Notification Service Email Notification', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$SimpleNotificationServiceEmailNotificationLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBatchAccountsMd [14x14/16z] LSe73W11249H8oFWtF--s-jFVO7Y7IA2fFR8iKaUPz96AOyW5CB6AIV6HwEOxZhhVJjBOBzS0lTPTKd7ULvY8k4-bVkJSyR5TjkCNoi
+sprite $ServiceBatchAccountsLg [20x20/16z] {
+PS-rOGGm40LHxNuGkFz-VQB35qus9SKtKQRaJqluHS9imLQVMZDMguWZMJLZi8cNMz8v6yh5bc4yMhUksX1c11lZKWTj14VLHjMUASRhGvALWIWlYItVaexA
+LtFTQOotPax-R9ZStvjoqcutZkLljWjrStaJnpy
+}
+!procedure ServiceBatchAccounts($id, $name="Service Batch Accounts", $tech="")
+  IconElement($id, 'azure-v2/Item/Containers/ServiceBatchAccounts', $name, $tech)
+!endprocedure
+!procedure ServiceBatchAccountsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBatchAccountsMd>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure ServiceBatchAccountsGroup($id, $name='Service Batch Accounts', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBatchAccountsLg>', $name, $tech)
+!endprocedure
+@enduml

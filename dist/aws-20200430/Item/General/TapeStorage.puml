@@ -1,0 +1,16 @@
+@startuml
+sprite $TapeStorageMd [14x14/16z] bKrL0a0X3681K-z_tzVvwJe14s9XRyhE4g368a9fOAOIKCYj9wiGFIIPZ_2ZyzHzoUCIRDIGHh7uPvYG5G
+sprite $TapeStorageLg [20x20/16z] {
+lKw55KD124CFoEl-ypOdCtpSYNn3NXKtYYe_GIEpeIAAoPpUfRMd0YA8PgTQRCJ264QKUB0ubeiMKHntCOpNvAsvPTsQMILtVUdRpJox_B7utuT9rFt1nppG
+FtJZLnVBmwn6qelv4_e3
+}
+!procedure TapeStorage($id, $name="Tape Storage", $tech="")
+  IconElement($id, 'aws-20200430/Item/General/TapeStorage', $name, $tech)
+!endprocedure
+!procedure TapeStorageCard($id, $funcName="", $content="")
+  IconCard($id, '<$TapeStorageMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure TapeStorageGroup($id, $name='Tape Storage', $tech='')
+  IconGroup($id, 'IconGroup', '<$TapeStorageLg>', $name, $tech)
+!endprocedure
+@enduml

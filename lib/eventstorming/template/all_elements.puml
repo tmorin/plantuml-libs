@@ -1,0 +1,17 @@
+@startuml
+
+' configures the library
+!global $INCLUSION_MODE='local'
+!global $LIB_BASE_LOCATION='{{= it.relativeRepoLibDir }}'
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the {{= it.config.pkgName }} bootstrap
+include('{{= it.config.pkgName }}/bootstrap')
+
+{{ for (entry of it.inventory.element) { }}include('{{= entry.element.urn }}')
+{{ } }}
+{{ for (entry of it.inventory.element) { }}{{= entry.element.name }}('{{= entry.element.name }}')
+{{ } }}
+
+@enduml

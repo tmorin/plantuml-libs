@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceRecentMd [14x14/16z] BKs50GCX4Cl5lljFN1nE8m3KsYrnJXefzQvd9n980CTOSOSONpV0mYpKvC2b7IDjgOUGnLcvlnL7laYeiv4NSpqwgV2Eiz2VLjZDGKqhqis3q8cFqny
+sprite $ServiceRecentLg [20x20/16z] {
+NOu55WGn24CR99ctzp_mGcqb8w6_sDY2ksDyopnQNnHECIEfz8FoYRy8L9TuMZTPC0Ix3AOgxn-mMRsPGAYJDoj1xfc_R33oZB_3CrWCy_h5Deo8F2n4tomo
+xkgqrG_1SRH2-N1PvUpKygXif4RH0_5uktXo-f3JJJg9lb715CFTst3RU6GhLluR
+}
+!procedure ServiceRecent($id, $name="Service Recent", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceRecent', $name, $tech)
+!endprocedure
+!procedure ServiceRecentCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceRecentMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceRecentGroup($id, $name='Service Recent', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceRecentLg>', $name, $tech)
+!endprocedure
+@enduml

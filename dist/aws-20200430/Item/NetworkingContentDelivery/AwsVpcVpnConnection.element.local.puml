@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsVpcVpnConnection element
+include('aws-20200430/Item/NetworkingContentDelivery/AwsVpcVpnConnection')
+AwsVpcVpnConnection('aws_vpc_vpn_connection', 'Aws Vpc Vpn Connection', 'an optional tech field')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $A11MpMd [14x14/16z] NSs5aGKm24LH1bw8v_PVxUvtEsCuziFZmQy9BvTKi7nEdo2p04f3_PO9g9LyPsFGdvDD9QbgzvwaECguzqfhEl8ahhtSb9CBzFlTN0zkF_u1
+sprite $A11MpLg [20x20/16z] {
+ZT050i0W509GrbYV-vzstStIPul_gTZq8STNEP4EgGQZf4HdHYP97AoH581a6VnYL1z3ah9lIuWItC7KcCIupP6QkgdT-B75Y08vv561QcRBVHO6KxPPCLe0
+u5VBP6ExcDOvefCIbVfFRmzdq2F7WnflzlGx7G
+}
+!procedure A11Mp($id, $name="A11 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A11Mp', $name, $tech)
+!endprocedure
+!procedure A11MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A11MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A11MpGroup($id, $name='A11 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A11MpLg>', $name, $tech)
+!endprocedure
+@enduml

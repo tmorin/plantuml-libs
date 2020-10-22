@@ -1,0 +1,16 @@
+@startuml
+sprite $EventBridgeCustomEventBusMd [14x14/16z] RSpB5SDG24F1Am7YdVJVR_uxUmeOhYp4ZymKoz_ghR408yy4hu24RLL01L03f7GUfN4tG6SNjLX19mDWUPsaWTyrvvY_r8duqt3l1G
+sprite $EventBridgeCustomEventBusLg [20x20/16z] {
+bSpLeKGn24NHVP00cVxh7RVxysJ5W_0_Le3pOQ01Rpuce4G77zRlz1B0OwkhmEQH6fDGvUxRq3F75ZO0qO3lX9lsnn7agRUG6IDkf2e_1UfEihXHfu_nD0xO
+ZXZnuFYqV6mr3-e5KkwgnLCacAnltR-DvMxZcpSOHnA_kG
+}
+!procedure EventBridgeCustomEventBus($id, $name="Event Bridge Custom Event Bus", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/EventBridgeCustomEventBus', $name, $tech)
+!endprocedure
+!procedure EventBridgeCustomEventBusCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventBridgeCustomEventBusMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure EventBridgeCustomEventBusGroup($id, $name='Event Bridge Custom Event Bus', $tech='')
+  IconGroup($id, 'ApplicationIntegrationFamily', '<$EventBridgeCustomEventBusLg>', $name, $tech)
+!endprocedure
+@enduml

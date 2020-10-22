@@ -1,0 +1,16 @@
+@startuml
+sprite $BadgeMd [14x14/16z] POv50W1H249_boBtF-rqprkPWFkJWNntEeO-kbAmLzK0vap0wZBd0i05FJhIO4TNlR76SNIZB5S3UwSfr7idfLI-LOwkG0zGFe5d
+sprite $BadgeLg [20x20/16z] {
+VT250S0W40H1td2u_hkDksnyuhYVs8nlf1YJgqLuZtYr0AApCGibC2EHC4z25LEJpLLoph2K4fPiial_bYW1sJawcSsRrjh9UkmZXHWFAwfQK8ZbC9g-y_QE
+Fa__tyBzIftdqRmqqKi3
+}
+!procedure Badge($id, $name="Badge", $tech="")
+  IconElement($id, 'material-4.0/Maps/Badge', $name, $tech)
+!endprocedure
+!procedure BadgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$BadgeMd>', '', $funcName, $content)
+!endprocedure
+!procedure BadgeGroup($id, $name='Badge', $tech='')
+  IconGroup($id, 'IconGroup', '<$BadgeLg>', $name, $tech)
+!endprocedure
+@enduml

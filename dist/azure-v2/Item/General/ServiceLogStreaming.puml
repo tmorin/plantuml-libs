@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceLogStreamingMd [14x14/16z] NOk50SKm24JXhFjF_8NKNvIJXdk7hD-4HOC5PiUSoSC-lJmfYRnFJKLWzaaKWULjZTsRoQktJzcIttLEmqpQTc9M8mUi-W8
+sprite $ServiceLogStreamingLg [20x20/16z] {
+bS_L0G9H34JHJ4Rel-9rmM7lvtcQcgBkOiqr-ovX8bWuA_UyBRwhzSQysdsNJSoKfJi3wOa87-PIooIXEtDB5C7TRbdsYOHFOoknY9mMP--qlDXzV6FhFZwO
+WvTvvsqZ
+}
+!procedure ServiceLogStreaming($id, $name="Service Log Streaming", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceLogStreaming', $name, $tech)
+!endprocedure
+!procedure ServiceLogStreamingCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceLogStreamingMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceLogStreamingGroup($id, $name='Service Log Streaming', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceLogStreamingLg>', $name, $tech)
+!endprocedure
+@enduml

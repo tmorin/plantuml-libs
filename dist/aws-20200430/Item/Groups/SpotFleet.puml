@@ -1,0 +1,16 @@
+@startuml
+sprite $SpotFleetMd [14x14/16z] ROx50GH13CCUiQpfl-5ZM0fpl9xaKwv8PGRrbOLgoJiZ2l3QffAKyZmrcZOupycHPwRpdgG9wptvlc2u-l3_Va5_r7S
+sprite $SpotFleetLg [20x20/16z] {
+XP05ZWLG30AJHu6v_uNNklPz8dNbXvPh2kKnFrNnESvVXwfMxCXL-N7cH_bnuIX4qjGi4HbcMh4LnG6EHXKnfN1CPc16-03hq_golgrLDJgmjJj3xPW92eix
+aa8KmzMgKNbmsuCVFE3rJzy1
+}
+!procedure SpotFleet($id, $name="Spot Fleet", $tech="")
+  IconElement($id, 'aws-20200430/Item/Groups/SpotFleet', $name, $tech)
+!endprocedure
+!procedure SpotFleetCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpotFleetMd>', 'Groups', $funcName, $content)
+!endprocedure
+!procedure SpotFleetGroup($id, $name='Spot Fleet', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpotFleetLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElementalMediaLiveMd [14x14/16z] XOsr0SGm40I3nVuRVZ2pHpgc3gItHDe6bZFviAM8GsJuztycGotz5plrwW-fiLE1md2gCOdfJXZCxc1V-G8
+sprite $AwsElementalMediaLiveLg [20x20/16z] {
+hT253G8m40NGf5_PVs6kkCRWrLtw3r8VPHB75BbtgkX4tRkqN8gibwuhCLL3dJvSLzCkmDHcBxpxCmiFTQ-8J1z8thjaxBMmRfr88JVOyS80crI0UnKdSgQu
+TqtaMjpbbp_uoH4
+}
+!procedure AwsElementalMediaLive($id, $name="Aws Elemental Media Live", $tech="")
+  IconElement($id, 'aws-20200430/Item/MediaServices/AwsElementalMediaLive', $name, $tech)
+!endprocedure
+!procedure AwsElementalMediaLiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalMediaLiveMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalMediaLiveGroup($id, $name='Aws Elemental Media Live', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsElementalMediaLiveLg>', $name, $tech)
+!endprocedure
+@enduml

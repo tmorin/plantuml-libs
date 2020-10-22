@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceSearchMd [14x14/16z] JKk50G0W20CthF__jOCPi989666cia4Ij708vg-RWYARBcj7plBhcEnxlhT34PkimPm8y92ID93KLQf97eedCXCV7G
+sprite $ServiceSearchLg [20x20/16z] {
+TT250SCW50HG_bba_tthIEsYF9msKY2g5xhSWvLaYx8voKBLxSiCjEer53hIStJv-MlE2U7dF5cdC_yR9zNBhFOrNl-kyxOCPDz9RNakfnHrElR4aXCEElWw
+XLhfBVYcqdceVGJveYi
+}
+!procedure ServiceSearch($id, $name="Service Search", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceSearch', $name, $tech)
+!endprocedure
+!procedure ServiceSearchCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceSearchMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceSearchGroup($id, $name='Service Search', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceSearchLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEc2ContainerRegistryImageMd [14x14/16z] ROs50G0n20C38R__o5_tQt73JYoa28DNP15BHD9XBKf2XBn6OjAUVhP99yaT0hxaj2rg5yZj7gr51HQDdHy
+sprite $AwsEc2ContainerRegistryImageLg [20x20/16z] {
+VT050i9044FHaIHm_nCpmMlxww--SLhlCgdndsgiOnFMbaUZkBT6i7TMAcKqVsPa3O5VIwNlrm0_fbO5Xeosva3Ajxc-brU-CMzbcMX3k5JklzbOEpFYRUTZ
+THpJqnu
+}
+!procedure AwsEc2ContainerRegistryImage($id, $name="Aws Ec2 Container Registry Image", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsEc2ContainerRegistryImage', $name, $tech)
+!endprocedure
+!procedure AwsEc2ContainerRegistryImageCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2ContainerRegistryImageMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsEc2ContainerRegistryImageGroup($id, $name='Aws Ec2 Container Registry Image', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2ContainerRegistryImageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $WheelchairPickupMd [14x14/16z] PKi30W0X40pBDF__xPdLQXH-BrPz8KP_YqflO-iQqiaGi5gr7IYlo5PqQnxCJfGwOccArcs7DOuSHGoq1LUqRdCTcuPaM1KEcnRNWFNEONeB
+sprite $WheelchairPickupLg [20x20/16z] {
+TKu55a0X24C1MtR_q_xkcBruatxWnBseZlha1C3Bc15VMS_-GNa3qAQmdah232MFzC75ErVTpHTdYbpaHzPJDqOHtNeaJRQ4u36ZRKvBP9r8LUNulaLQTUxI
+m2kNgIxN0hytTIE61IqeatVDjaaJ0oRgWAZCktZwnmW
+}
+!procedure WheelchairPickup($id, $name="Wheelchair Pickup", $tech="")
+  IconElement($id, 'material-4.0/Places/WheelchairPickup', $name, $tech)
+!endprocedure
+!procedure WheelchairPickupCard($id, $funcName="", $content="")
+  IconCard($id, '<$WheelchairPickupMd>', '', $funcName, $content)
+!endprocedure
+!procedure WheelchairPickupGroup($id, $name='Wheelchair Pickup', $tech='')
+  IconGroup($id, 'IconGroup', '<$WheelchairPickupLg>', $name, $tech)
+!endprocedure
+@enduml

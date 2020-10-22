@@ -1,0 +1,13 @@
+@startuml
+sprite $LocalShippingMd [14x14/16z] VOg50KGn34Af6otxJtlwtLuyW0TCgN_AzugQwBjh9B-vL1YsJaExQXgAKHjIK0FLkmWgmD7JOHu8BM0Tzxm1
+sprite $LocalShippingLg [20x20/16z] fSw53KKn34DHXyfDzf_sCpuGzOgi8p9MqlQjquCeVfE7yP_nWMNJXssohGdCUMUeOsFXxi4SsqxDcVs-tuj1TGApaiXhyUDX7y7uMv3M1D-rrXK
+!procedure LocalShipping($id, $name="Local Shipping", $tech="")
+  IconElement($id, 'material-4.0/Maps/LocalShipping', $name, $tech)
+!endprocedure
+!procedure LocalShippingCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalShippingMd>', '', $funcName, $content)
+!endprocedure
+!procedure LocalShippingGroup($id, $name='Local Shipping', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalShippingLg>', $name, $tech)
+!endprocedure
+@enduml

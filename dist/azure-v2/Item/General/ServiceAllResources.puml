@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAllResourcesMd [14x14/16z] NOmB0aCX2CD4eCNxNtZPVtlrbwZGKcT9cS0IoPQhBCNBLBnZXjgljo8xMHjORsDX9g-VTlnRaonM0fSk7dvffXg8j_N3va2Qqmt49X7FjTSD
+sprite $ServiceAllResourcesLg [20x20/16z] {
+ZOv55aGX30I9vz__mjDDnhqMzI2-tg90HEXv8vJ0BU3Oxv1bzHHB_JTsFyzrCajchv8rNXh0r64NllTU49QqqgMliNoA5U7Urrl4WDxP17NSg53IixSvoJ6l
+ypBl4kjph7SCX1UC6CpOmP_NqKTfaxTxJm
+}
+!procedure ServiceAllResources($id, $name="Service All Resources", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceAllResources', $name, $tech)
+!endprocedure
+!procedure ServiceAllResourcesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAllResourcesMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceAllResourcesGroup($id, $name='Service All Resources', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAllResourcesLg>', $name, $tech)
+!endprocedure
+@enduml

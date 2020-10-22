@@ -1,0 +1,13 @@
+@startuml
+sprite $AttachmentMd [14x14/16z] dSR70GCn40EnkIXIsj1_jOuLs7Y1lvrH-LPpWxDz3adZAaCOPKGkxeIygILRQe6JOxsbW2thrRdCr-qtyPCd
+sprite $AttachmentLg [20x20/16z] lStN0OGn209WrFJ6_jF-FSa4Tz-h0lWNqKdmiiQjAYwEB36yOc73fLCXAJy4YGOO4wJpPGXqTzH3MTHkQeFo_g5n2RYq-zj_6r5niy5MyalmqJBuCMpomK-S
+!procedure Attachment($id, $name="Attachment", $tech="")
+  IconElement($id, 'material-4.0/File/Attachment', $name, $tech)
+!endprocedure
+!procedure AttachmentCard($id, $funcName="", $content="")
+  IconCard($id, '<$AttachmentMd>', '', $funcName, $content)
+!endprocedure
+!procedure AttachmentGroup($id, $name='Attachment', $tech='')
+  IconGroup($id, 'IconGroup', '<$AttachmentLg>', $name, $tech)
+!endprocedure
+@enduml

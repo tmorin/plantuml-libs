@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsIq element
+include('aws-20200430/Item/CustomerEnablement/AwsIq')
+AwsIq('aws_iq', 'Aws Iq', 'an optional tech field')
+@enduml

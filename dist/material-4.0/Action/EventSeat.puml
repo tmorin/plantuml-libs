@@ -1,0 +1,13 @@
+@startuml
+sprite $EventSeatMd [14x14/16z] PSsr0GD144DH3Hp3zj-j1qtt8lr8U20nr7KCStJTNdVNvNN1CNVPmdLJr4tt1ImBvjNClW0M3i8m-oXxrhgOjOjWAFzP4PJnvmK
+sprite $EventSeatLg [20x20/16z] fSY53GH13CNG7yuEzb_jCJCyaMLyXICtWd56O-uCmWdF0_x_IIrqVbIg0BQfuzkL0TexSz_Pb-89oyY3ICDEcHVAwOs3YzT0EsYNx-3qB1q7deRFhG4
+!procedure EventSeat($id, $name="Event Seat", $tech="")
+  IconElement($id, 'material-4.0/Action/EventSeat', $name, $tech)
+!endprocedure
+!procedure EventSeatCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventSeatMd>', '', $funcName, $content)
+!endprocedure
+!procedure EventSeatGroup($id, $name='Event Seat', $tech='')
+  IconGroup($id, 'IconGroup', '<$EventSeatLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MobileOffMd [14x14/16z] JSx50GD134DH6PRNSl_T9dBmd-OD0yXr2cYCgoVQK_U9YrN5TYtM2UKSUP__elYJt-U_KDU_TDKLNuduoKIfMQg7nfx8NOnDdzx270y
+sprite $MobileOffLg [20x20/16z] {
+PT054WCn241H0jJBSl_JLl39_l4N3_p32hARLbS3VW2tlSsk-WGg4oX4Glg5XrbW96dmBcmJJHmckNpOaNiE4p3SpN0tGtuFIyHfYNqkMklHA5eLJjFN-K-l
+iXoH8Z_s2m
+}
+!procedure MobileOff($id, $name="Mobile Off", $tech="")
+  IconElement($id, 'material-4.0/Device/MobileOff', $name, $tech)
+!endprocedure
+!procedure MobileOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$MobileOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure MobileOffGroup($id, $name='Mobile Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$MobileOffLg>', $name, $tech)
+!endprocedure
+@enduml

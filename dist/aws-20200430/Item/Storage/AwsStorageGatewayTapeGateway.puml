@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsStorageGatewayTapeGatewayMd [14x14/16z] PKrL0i9G38l2xdzYbiaNJzl6e6v5s7AvZ_M-DNUxDs-Nk_l79FBjNBilKuKCv-wAn9txkip1vxgnTP7rT6g23p4spvz8_OsNtFOuqk87
+sprite $AwsStorageGatewayTapeGatewayLg [20x20/16z] {
+fSu5eWKn24FH6mh9pFuN_5sVIxsd0a0xITpYktIc06eo-YRuBkClwr_J2Qjdxiq_qzXU_BLEIsL_stUI-fY_JG77AQQ_hOSPgA1ycui0J1DTi6xSe8ZyYQ5u
+ikZvDZuYB55xxDI7CIwWKr9lL06md6nxd4Iy0W
+}
+!procedure AwsStorageGatewayTapeGateway($id, $name="Aws Storage Gateway Tape Gateway", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/AwsStorageGatewayTapeGateway', $name, $tech)
+!endprocedure
+!procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsStorageGatewayTapeGatewayMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsStorageGatewayTapeGatewayGroup($id, $name='Aws Storage Gateway Tape Gateway', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsStorageGatewayTapeGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

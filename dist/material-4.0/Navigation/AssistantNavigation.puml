@@ -1,0 +1,16 @@
+@startuml
+sprite $AssistantNavigationMd [14x14/16z] NOw50G0W40AnM_UVrkwp_G0qc9GC4n5I9OZ-q6cYMYHj1D3JlE_9OEDtP33PzaX8RAViBmEO_c8z0vXdI2bmxtaxVuMZhdzdh-i2
+sprite $AssistantNavigationLg [20x20/16z] {
+PP250SKW30KlLF2m_xHVN_qg41U4XM1SMAkFuNLbP_OXVDwSnec_wp8kp83rSQ43KVTQZ-YsnSowDCptaAxQ5cHDa7GDORl0VbLi0IYALOqPC_vLcdhf5jtZ
+lzM82X-_Ri_P5hx4vmvWkUnAM6pVdRPeYCVktm
+}
+!procedure AssistantNavigation($id, $name="Assistant Navigation", $tech="")
+  IconElement($id, 'material-4.0/Navigation/AssistantNavigation', $name, $tech)
+!endprocedure
+!procedure AssistantNavigationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssistantNavigationMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssistantNavigationGroup($id, $name='Assistant Navigation', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssistantNavigationLg>', $name, $tech)
+!endprocedure
+@enduml

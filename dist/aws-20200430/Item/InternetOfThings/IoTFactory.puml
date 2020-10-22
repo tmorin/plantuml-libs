@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTFactoryMd [14x14/16z] NSs54KH120JHAPZcBl-4Lx_twYj3tpp3Ni26TGsO24aPmbCOnvz3umgeKx-gKd38cIdv4DZKgLeTIgzoIXopGJCVwLi7
+sprite $IoTFactoryLg [20x20/16z] {
+TP07WWLH10I7LjZxNtZxvrmpByaSlwXGod_KNHIZBgZMn5NKBroiV3pey5RJkQHl-LUMZRSGQlKGMYoJ3TM8isgcBMlvKOYia29xeijs2MAMNJzQa5TPTN9A
+prbsyGqTcOS2KRSSiyomWsXTQe5BRo1akngqHHjgnTIbDva8cNDlfXjpst_Cwdscl_W7
+}
+!procedure IoTFactory($id, $name="Io T Factory", $tech="")
+  IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTFactory', $name, $tech)
+!endprocedure
+!procedure IoTFactoryCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTFactoryMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IoTFactoryGroup($id, $name='Io T Factory', $tech='')
+  IconGroup($id, 'IconGroup', '<$IoTFactoryLg>', $name, $tech)
+!endprocedure
+@enduml

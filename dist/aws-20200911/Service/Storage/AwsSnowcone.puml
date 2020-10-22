@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSnowconeMd [14x14/16z] LSe73i0m34BH3aYCS__x5gVxQ_4a9CMiL_fHFzOcuRffeDgncvd4oHqHALRbKe8CtyWficM4sgNhTmbj1Yh6o2kvIt8by_K1
+sprite $AwsSnowconeLg [20x20/16z] {
+RSu5aWGW34JHMjBfsFtlky76F_xAYCvljeiV63ymNjjuZBfhF9POISzbEKaf2tMYjwKE7LWD_A4nCs1Gx8HYsq05iQRWc9eOno2543z6BGUybC0n4Fl7U9Yg
+usJ7KePSwwk7LvPR-8qMROsLjyZewbLEzGFh1_u3
+}
+!procedure AwsSnowcone($id, $name="Aws Snowcone", $tech="")
+  IconElement($id, 'aws-20200911/Service/Storage/AwsSnowcone', $name, $tech)
+!endprocedure
+!procedure AwsSnowconeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSnowconeMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsSnowconeGroup($id, $name='Aws Snowcone', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AwsSnowconeLg>', $name, $tech)
+!endprocedure
+@enduml

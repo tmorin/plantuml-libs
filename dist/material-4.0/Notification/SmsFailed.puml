@@ -1,0 +1,13 @@
+@startuml
+sprite $SmsFailedMd [14x14/16z] TSl50S1G309GQa1z_sdh-kNT4W1_71u4XlanN5VNVQ-c-LxsSqKxydkDOwRPoP8jLy1eV3J8MW4
+sprite $SmsFailedLg [20x20/16z] dSl50S0m30D0XTdUVzeoStDF0Iv9ioFxY7Y7963um3ndIfqpARzbAHsomRUljM_V0ttCY1E6p4EiC6GUHoQWLWi
+!procedure SmsFailed($id, $name="Sms Failed", $tech="")
+  IconElement($id, 'material-4.0/Notification/SmsFailed', $name, $tech)
+!endprocedure
+!procedure SmsFailedCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmsFailedMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmsFailedGroup($id, $name='Sms Failed', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmsFailedLg>', $name, $tech)
+!endprocedure
+@enduml

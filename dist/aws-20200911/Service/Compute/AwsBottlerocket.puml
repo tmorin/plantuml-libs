@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBottlerocketMd [14x14/16z] LSU53SH044KnQJwyxR_XWt0iDD134bvbO-yzSlIVZZsv5l2s1LWp4l-jLNd6AkTQpp6sQTjVxGBiOuRDsikz-ry
+sprite $AwsBottlerocketLg [20x20/16z] {
+RSZN0SCW50D0K47iFt5SNjplyx8O5rxa8_EHgGnnP0ebfh9A60FAzTn0elbwGrceRkw9MC78Vbi2Qer0tPBJr18abUDa3S3q_nP2pwBZTaO2No-PJ3WpaYnN
+kCZkEFVkMJd_aggwskizymS
+}
+!procedure AwsBottlerocket($id, $name="Aws Bottlerocket", $tech="")
+  IconElement($id, 'aws-20200911/Service/Compute/AwsBottlerocket', $name, $tech)
+!endprocedure
+!procedure AwsBottlerocketCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBottlerocketMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsBottlerocketGroup($id, $name='Aws Bottlerocket', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsBottlerocketLg>', $name, $tech)
+!endprocedure
+@enduml

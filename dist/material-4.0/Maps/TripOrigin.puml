@@ -1,0 +1,16 @@
+@startuml
+sprite $TripOriginMd [14x14/16z] PKs54S0m4Aht1OxzfwrhygxGLD9xflTNuph4xuPcFDjXIzUmtoFF1-xJb9sTASlEXRE3_42n2sKu4ymWUSs-7GSGGrF92W
+sprite $TripOriginLg [20x20/16z] {
+VL050eGm32FC_V-_lUQAMs1RNJ9zm5XhJWR4FWGjOZDPiIZw6cl70Me4eugTPrkO_q-F8WKAAaOA4fRNoaK2EOJux7GeRVJ1DXG3dcttt4kFh3sEimJEiisS
+3M0pjyDXjwvBspi7zifLZ_Zaz8eV
+}
+!procedure TripOrigin($id, $name="Trip Origin", $tech="")
+  IconElement($id, 'material-4.0/Maps/TripOrigin', $name, $tech)
+!endprocedure
+!procedure TripOriginCard($id, $funcName="", $content="")
+  IconCard($id, '<$TripOriginMd>', '', $funcName, $content)
+!endprocedure
+!procedure TripOriginGroup($id, $name='Trip Origin', $tech='')
+  IconGroup($id, 'IconGroup', '<$TripOriginLg>', $name, $tech)
+!endprocedure
+@enduml

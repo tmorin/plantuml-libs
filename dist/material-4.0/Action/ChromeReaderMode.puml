@@ -1,0 +1,13 @@
+@startuml
+sprite $ChromeReaderModeMd [14x14/16z] VSpL0SCm30HGcItUVzespCdx4zp1Xu0que5Wg3x1GVSwJmOZQSkKU-jvcmeYbNqQYihBBTLQaxGsJs7gxDddSUGPKbwL16T_
+sprite $ChromeReaderModeLg [20x20/16z] fS-35G0n303GgDR-qvvj_8SoWZ_4RmXWsSf8ynQm0ROGbH52nwpkMhIwornQJY_la1k2kt-vsFK_QQZDlzpO_2FTOdFN7rE3iPa3ytvUOBl1y5GD
+!procedure ChromeReaderMode($id, $name="Chrome Reader Mode", $tech="")
+  IconElement($id, 'material-4.0/Action/ChromeReaderMode', $name, $tech)
+!endprocedure
+!procedure ChromeReaderModeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChromeReaderModeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChromeReaderModeGroup($id, $name='Chrome Reader Mode', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChromeReaderModeLg>', $name, $tech)
+!endprocedure
+@enduml

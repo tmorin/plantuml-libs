@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureCloudShellMd [14x14/16z] VSct0SH04090pku2_TVxBoz5Dn462-EZO7uKzD4V1IHr6O0KtYbp0lBClSISKK6bWepTADeFvMbgO_CKxT3ZKB7m1m
+sprite $ServiceAzureCloudShellLg [20x20/16z] {
+fSs30S0m40NGuFYp_xorZLVc67v8Mp44sL2AkvWqCThA8MGIbGLkO-9UCDCk1hCoSFC-LfmnXBJTEyGSG85hIsBV2rDldXx5fgujCRZQW9jOpssaKmm-iamy
+i3uAS9oaJAsSmbCr
+}
+!procedure ServiceAzureCloudShell($id, $name="Service Azure Cloud Shell", $tech="")
+  IconElement($id, 'azure-v2/Item/Preview/ServiceAzureCloudShell', $name, $tech)
+!endprocedure
+!procedure ServiceAzureCloudShellCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureCloudShellMd>', 'Preview', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureCloudShellGroup($id, $name='Service Azure Cloud Shell', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureCloudShellLg>', $name, $tech)
+!endprocedure
+@enduml

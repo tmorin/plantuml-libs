@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudEndureDisasterRecoveryMd [14x14/16z] RKx50S102Fl4OFzzwzx3dTIVkXz9v3inRLxP4dMehEDjBIv7Ezmgp1Pi4mgMadifLnb1Ybb69MKRpFaTVFxN6rgDQ0O
+sprite $CloudEndureDisasterRecoveryLg [20x20/16z] {
+fOu54aCn449dVc03tF--bKXrfF8Yw-A_YUIy-02Yykogn63kkIdcAj3GittK49QRij8mP97gRMIcmrFew77Jg9pvS35EPxOlLU7HjwyZOwW4HnZpJ10C2pBs
+DXaVrqW_S31-XNud_fep
+}
+!procedure CloudEndureDisasterRecovery($id, $name="Cloud Endure Disaster Recovery", $tech="")
+  IconElement($id, 'aws-20200430/Item/Storage/CloudEndureDisasterRecovery', $name, $tech)
+!endprocedure
+!procedure CloudEndureDisasterRecoveryCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudEndureDisasterRecoveryMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure CloudEndureDisasterRecoveryGroup($id, $name='Cloud Endure Disaster Recovery', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudEndureDisasterRecoveryLg>', $name, $tech)
+!endprocedure
+@enduml

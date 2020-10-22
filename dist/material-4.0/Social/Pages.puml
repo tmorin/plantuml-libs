@@ -1,0 +1,16 @@
+@startuml
+sprite $PagesMd [14x14/16z] NOvN0i0m248rKFpC_MzRJ7TVffluCG1c4XXjJAEjRvjyB4R0_m9ASsB554OhbXBQWfH_ovdLLjrT1EZgyapuJRT9jZBInfST
+sprite $PagesLg [20x20/16z] {
+ZL254O103ADsvApiFoqExwxL9ClyCAm0Y83peOzfkmVpSzjbGsh3PLlFXpys_smutwnNFMKFjasURXBYdaVy96Qcn_OyAxPgRjf34onoOH7s1kOwjxe6gLQF
+QMuS
+}
+!procedure Pages($id, $name="Pages", $tech="")
+  IconElement($id, 'material-4.0/Social/Pages', $name, $tech)
+!endprocedure
+!procedure PagesCard($id, $funcName="", $content="")
+  IconCard($id, '<$PagesMd>', '', $funcName, $content)
+!endprocedure
+!procedure PagesGroup($id, $name='Pages', $tech='')
+  IconGroup($id, 'IconGroup', '<$PagesLg>', $name, $tech)
+!endprocedure
+@enduml

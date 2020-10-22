@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsInspectorAgentMd [14x14/16z] HSU50G0n20J1Kz9_nU-o4HWSoSARcwH-SV1y9rYNqFK3IRqwQ7B9MgpzoWEkNd8gJzqOH-EogLPFwM3YfLnaZtBi7boHE7S7Nve6VnHs
+sprite $AwsInspectorAgentLg [20x20/16z] {
+TSk7aGG0249HH0Ms_uRFo_bFVWFufvAlBNoscRes_K4onXVnWMrO1J2BlDrJccfmu6cz44LpeomgvHURcOKp4y8KSUqXZi6Sg77DzZ86yEZt7LqXBNhBPRna
+hW0z6k6-6ODDztIQoU2bIL7ILZyAxzXHaosd0I_ULBOQbJaKlfSzx1zeGJyDcyLVFG4
+}
+!procedure AwsInspectorAgent($id, $name="Aws Inspector Agent", $tech="")
+  IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsInspectorAgent', $name, $tech)
+!endprocedure
+!procedure AwsInspectorAgentCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsInspectorAgentMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsInspectorAgentGroup($id, $name='Aws Inspector Agent', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsInspectorAgentLg>', $name, $tech)
+!endprocedure
+@enduml

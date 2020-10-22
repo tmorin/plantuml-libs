@@ -1,0 +1,13 @@
+@startuml
+sprite $ElasticContainerServiceContainer2Md [14x14/16z] VOo50S1030Bv77J_ZUjk5rVzqKw8O3DY4w2LQaJL08_QULHOD9QSr-hONB_0-YNi1DK9_J4
+sprite $ElasticContainerServiceContainer2Lg [20x20/16z] hSsr0G0n30D0WM7_ZPynRKwT4PEn1bI1A-ouGaafCo6lXAILQyt1LE-K35yrDrRjMJLrLxr-QAt1iJBMcjPQWMjEN5DYrqyJaoq
+!procedure ElasticContainerServiceContainer2($id, $name="Elastic Container Service Container2", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Containers/ElasticContainerServiceContainer2', $name, $tech)
+!endprocedure
+!procedure ElasticContainerServiceContainer2Card($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticContainerServiceContainer2Md>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure ElasticContainerServiceContainer2Group($id, $name='Elastic Container Service Container2', $tech='')
+  IconGroup($id, 'ContainersFamily', '<$ElasticContainerServiceContainer2Lg>', $name, $tech)
+!endprocedure
+@enduml

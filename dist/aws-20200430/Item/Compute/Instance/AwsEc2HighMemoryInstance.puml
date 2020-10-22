@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEc2HighMemoryInstanceMd [14x14/16z] NKw50O0m38kL_qyckCJcQm68OYKKp6IgB2PWTxyGRMY84nmXkbVPpWI9h4OC9_sceR2hkAowqf2ewlyl_mesJzY_phvThm
+sprite $AwsEc2HighMemoryInstanceLg [20x20/16z] {
+RP250S1020C32M7_YUlUl_OD1onaWDTsK0b3tBSDbLrzRTgiYBXX0Ia77eILoQ-C2THRLW3TWVtRZpPNEmgE5fhYQfSqQ7QKjSfWvYvBPyawP9Tl0QHuvRWv
+Slnh6TKywkq_W_6inZFzptu6
+}
+!procedure AwsEc2HighMemoryInstance($id, $name="Aws Ec2 High Memory Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2HighMemoryInstance', $name, $tech)
+!endprocedure
+!procedure AwsEc2HighMemoryInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2HighMemoryInstanceMd>', 'Compute/Instance', $funcName, $content)
+!endprocedure
+!procedure AwsEc2HighMemoryInstanceGroup($id, $name='Aws Ec2 High Memory Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2HighMemoryInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

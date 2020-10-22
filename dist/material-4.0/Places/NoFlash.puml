@@ -1,0 +1,16 @@
+@startuml
+sprite $NoFlashMd [14x14/16z] LSk53S1034FH75CIxxzjNMujVFgo_1QoNAlU9A9VQc18vAKg9rFYnzboMsXXZPRsfE2Qs7cWQjbvQMHd3ULKxK1dFQLnjiHw2bgRusGtDKwr8SjdCSW6
+sprite $NoFlashLg [20x20/16z] {
+XSvL0WCX303Hu9Pbxd_RDb3N-KhU2iZ_OafEfDP7cyopAUN9R7DFo5wUK3dsC0nZiD6Jrdi-s5yIoGS9QkGdLf48T1_D4higSLtaPisF_QRSh4dH_URzFLS1
+mt0t6K1PLxfPI32bGhcRIiWkmCPj73bKk67W8LNgmdJFYHRvs0a
+}
+!procedure NoFlash($id, $name="No Flash", $tech="")
+  IconElement($id, 'material-4.0/Places/NoFlash', $name, $tech)
+!endprocedure
+!procedure NoFlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoFlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoFlashGroup($id, $name='No Flash', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoFlashLg>', $name, $tech)
+!endprocedure
+@enduml

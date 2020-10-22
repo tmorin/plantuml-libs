@@ -1,0 +1,13 @@
+@startuml
+sprite $PhotoAlbumMd [14x14/16z] TSc53G1H3CFGVCQq-qzxp63Xa_78a-npVbRh8JQTgeioa4yLeFofvdogwjQfdWzLhmvranXOmCZsA1JX-ZotF1wD
+sprite $PhotoAlbumLg [20x20/16z] ZP250SGW303ZUMdA_jFMNO333m-ym2gwm8koTC1czql3EedP_LOtrbU73mwg7LxSFscqUbstStLnSUsGqK-k6GyTJzvT8D3uKOpTEJ8DCFhplU-n0jODXXTw
+!procedure PhotoAlbum($id, $name="Photo Album", $tech="")
+  IconElement($id, 'material-4.0/Image/PhotoAlbum', $name, $tech)
+!endprocedure
+!procedure PhotoAlbumCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhotoAlbumMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhotoAlbumGroup($id, $name='Photo Album', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhotoAlbumLg>', $name, $tech)
+!endprocedure
+@enduml

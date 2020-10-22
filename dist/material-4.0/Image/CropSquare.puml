@@ -1,0 +1,13 @@
+@startuml
+sprite $CropSquareMd [14x14/16z] Oy0BcBXvk860Xvi9nEFYvU3a029UBX2FcmEYXeCRpECaZuSm1TC6PcueOCRlIW
+sprite $CropSquareLg [20x20/16z] nS-b0G0n0CNG7rLkzv_scC4SHZuNtGlhnu8Tp9P50_g2w1B5ZwQfGmi_cH-DaIZ-_0qN_51mw5ur
+!procedure CropSquare($id, $name="Crop Square", $tech="")
+  IconElement($id, 'material-4.0/Image/CropSquare', $name, $tech)
+!endprocedure
+!procedure CropSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$CropSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure CropSquareGroup($id, $name='Crop Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$CropSquareLg>', $name, $tech)
+!endprocedure
+@enduml

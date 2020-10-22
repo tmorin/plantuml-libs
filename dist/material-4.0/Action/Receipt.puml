@@ -1,0 +1,13 @@
+@startuml
+sprite $ReceiptMd [14x14/16z] POs50S0W30GVelZ-qzQz1t73coWcAggBYG2F2mRe4pd20dpG6lLI5qhRQqLqGSgWVzJhHlzkUL_uNe_YOggsc8WtCm
+sprite $ReceiptLg [20x20/16z] VP250SGW34Nn7tp_QKygEBmMYoTi2MUSCr4s_fS1FfXimhLvu2-Zt447MImKMU8bOIfs1Be07UCbAHvaAZB1Rn4NHTOnvzZKig-vOoi3GfrL0ErcElC5
+!procedure Receipt($id, $name="Receipt", $tech="")
+  IconElement($id, 'material-4.0/Action/Receipt', $name, $tech)
+!endprocedure
+!procedure ReceiptCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReceiptMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReceiptGroup($id, $name='Receipt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReceiptLg>', $name, $tech)
+!endprocedure
+@enduml

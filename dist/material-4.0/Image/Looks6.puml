@@ -1,0 +1,13 @@
+@startuml
+sprite $Looks6Md [14x14/16z] NOs50O0m40FpZhF_j6Zzgcy91bWI_0PduGcrHWh8yym4UwE_9hvlJSInDv68Db64D2h0N6i97Tt1cc0Ct
+sprite $Looks6Lg [20x20/16z] ZP250G0X2031mdR_QR_JFljiO1wfIL-G5gTAF-JkzD_ftL7QYI64UBbhNS1zzkyqA4qkTs5lCiUOB1s2oLsCe7D7b3kF01ZADyViZXTTZq4UAmdph
+!procedure Looks6($id, $name="Looks6", $tech="")
+  IconElement($id, 'material-4.0/Image/Looks6', $name, $tech)
+!endprocedure
+!procedure Looks6Card($id, $funcName="", $content="")
+  IconCard($id, '<$Looks6Md>', '', $funcName, $content)
+!endprocedure
+!procedure Looks6Group($id, $name='Looks6', $tech='')
+  IconGroup($id, 'IconGroup', '<$Looks6Lg>', $name, $tech)
+!endprocedure
+@enduml

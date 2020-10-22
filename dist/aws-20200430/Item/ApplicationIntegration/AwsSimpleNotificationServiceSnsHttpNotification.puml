@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSimpleNotificationServiceSnsHttpNotificationMd [14x14/16z] PSk30S0m40NGp-o_SUs-y8HKk2GSk5H8kXjMKzZHijb8M29HnX8jwpJyGTnU4Rt9jl_mcUC6oxBye1a
+sprite $AwsSimpleNotificationServiceSnsHttpNotificationLg [20x20/16z] {
+NSs50GGW20NGd-Z-2r-dpmu0S8Z3JBRnnmDeuKyAO7dz4BSmXUaaTOG6Ngk0OmbMXTpWpXG9YK2ItSwFTeTnNSU9NrkcAaTLecfODH8EKe938e7FnjT6SZKS
+rSbdgvmr8eT-DEcrYMqSR0i7sU6ZoTPp4_E-xVFkjU4L
+}
+!procedure AwsSimpleNotificationServiceSnsHttpNotification($id, $name="Aws Simple Notification Service Sns Http Notification", $tech="")
+  IconElement($id, 'aws-20200430/Item/ApplicationIntegration/AwsSimpleNotificationServiceSnsHttpNotification', $name, $tech)
+!endprocedure
+!procedure AwsSimpleNotificationServiceSnsHttpNotificationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSimpleNotificationServiceSnsHttpNotificationMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+!procedure AwsSimpleNotificationServiceSnsHttpNotificationGroup($id, $name='Aws Simple Notification Service Sns Http Notification', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSimpleNotificationServiceSnsHttpNotificationLg>', $name, $tech)
+!endprocedure
+@enduml

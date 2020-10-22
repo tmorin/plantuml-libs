@@ -1,0 +1,13 @@
+@startuml
+sprite $WebAssetMd [14x14/16z] fSUr0G0X00F0l2ja_sbnwF3h3aNt6rmc6vCDsFa6tCqa0ZapFhVpq0pt_pd_ZI8D
+sprite $WebAssetLg [20x20/16z] Ow0Ci7DpmG4tErY8ZHy5i874E535EC1Q-P7r0iN0wfWGPZFHJumTgnWpGemPB8RfDx21g6506G
+!procedure WebAsset($id, $name="Web Asset", $tech="")
+  IconElement($id, 'material-4.0/Av/WebAsset', $name, $tech)
+!endprocedure
+!procedure WebAssetCard($id, $funcName="", $content="")
+  IconCard($id, '<$WebAssetMd>', '', $funcName, $content)
+!endprocedure
+!procedure WebAssetGroup($id, $name='Web Asset', $tech='')
+  IconGroup($id, 'IconGroup', '<$WebAssetLg>', $name, $tech)
+!endprocedure
+@enduml

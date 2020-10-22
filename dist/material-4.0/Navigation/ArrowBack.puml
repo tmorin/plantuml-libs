@@ -1,0 +1,13 @@
+@startuml
+sprite $ArrowBackMd [14x14/16z] Oo08c5cGEVpio1mEd39yd5mWm0RYiI1u42wGHW0MX2a8Sn2oB8HT2
+sprite $ArrowBackLg [20x20/16z] Ow06O67146BcvyKGukDd8KA87viGCwOGFoyKy752NO4g1XFa0-h5r4sa80jsGLuSOK0v
+!procedure ArrowBack($id, $name="Arrow Back", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ArrowBack', $name, $tech)
+!endprocedure
+!procedure ArrowBackCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowBackMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowBackGroup($id, $name='Arrow Back', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowBackLg>', $name, $tech)
+!endprocedure
+@enduml

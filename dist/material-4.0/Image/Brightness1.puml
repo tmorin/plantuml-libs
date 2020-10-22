@@ -1,0 +1,13 @@
+@startuml
+sprite $Brightness1Md [14x14/16z] Oy00p9pSt9pCK0udFnXmmZW8BWi_7B10f12IF0WU3pgF2qabgYaeDc3Q3bJCnSF3nOBfOW
+sprite $Brightness1Lg [20x20/16z] VP053W1120EFh1ly_xNdXcGdZhPT9ZZl7Ij0HjeP6TwIHxf1zvJenrK4_DV6kPw9aOyQyjeuHF3IUT7BchThUjVyOMlXcX6qDwypy38hpA0pdR01
+!procedure Brightness1($id, $name="Brightness1", $tech="")
+  IconElement($id, 'material-4.0/Image/Brightness1', $name, $tech)
+!endprocedure
+!procedure Brightness1Card($id, $funcName="", $content="")
+  IconCard($id, '<$Brightness1Md>', '', $funcName, $content)
+!endprocedure
+!procedure Brightness1Group($id, $name='Brightness1', $tech='')
+  IconGroup($id, 'IconGroup', '<$Brightness1Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ScannerMd [14x14/16z] bSVL0S8030JGYs6n_QS5wb-r5ptSu67OoBlgezYOTxuO8_eFFxET0CeUr7yKqFOEzt-FgQWCHA3w9-cL07ZvP-Gl7Fe1
+sprite $ScannerLg [20x20/16z] {
+hSg54K8n403HkDzj_zt2TyaulFXEpF_bRAScqEChszY16imhfm5Qt2kx8Z2IFNujlaTee7ujGtSYG5bQvdArKkYvB78zchNBRUMsMq447J8MihN4GpABqcwo
+-Sq7
+}
+!procedure Scanner($id, $name="Scanner", $tech="")
+  IconElement($id, 'material-4.0/Hardware/Scanner', $name, $tech)
+!endprocedure
+!procedure ScannerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScannerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScannerGroup($id, $name='Scanner', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScannerLg>', $name, $tech)
+!endprocedure
+@enduml

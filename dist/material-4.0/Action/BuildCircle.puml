@@ -1,0 +1,16 @@
+@startuml
+sprite $BuildCircleMd [14x14/16z] PKq50W111EIsY___zhOxCGNF4Yu49thZk2ut6gBHolmRyAML1I93Y1sCJFW15cui7Nj4KBLh2fAbTSsbEDXyLzmAN4s9z35w2S_w0G
+sprite $BuildCircleLg [20x20/16z] {
+VP053WGW3C2suFx_tnwZvzOOANFvW_FUlGZDSsr6rhlosy1qDxMUGAf5zJfmGyrbUnQHXCpcveuggufq0cs84rLtOBrNz5PDZ8Bpk9MER3XohM96CirSK1bh
+CCjT9cRX4-mnzNCt_ta3_twhcVNpfd-u
+}
+!procedure BuildCircle($id, $name="Build Circle", $tech="")
+  IconElement($id, 'material-4.0/Action/BuildCircle', $name, $tech)
+!endprocedure
+!procedure BuildCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuildCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuildCircleGroup($id, $name='Build Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuildCircleLg>', $name, $tech)
+!endprocedure
+@enduml

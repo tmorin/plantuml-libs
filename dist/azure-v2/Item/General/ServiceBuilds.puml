@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceBuildsMd [14x14/16z] XSd70S0W20LGElpz5uvTRtbAfy63Xh-9DTBudb1n9_9yXfSejwyw9tKsQx-rp2ooFbCqFhH6imbrLs-D0ONoR1-0U_WH-W4
+sprite $ServiceBuildsLg [20x20/16z] {
+dShNOGH120DGG1Am_JTiPdsHptiJYFRa2Dk2i8qb_wq7P2VnrOtgxk9QhAjb2sfQc_igftwy9n0MX0TfJnGCeeTaJq3SUqxOuR4vc3SztY1O1y7Kl1g2-c1C
+Br0znBoEoYddNIE3kV4F
+}
+!procedure ServiceBuilds($id, $name="Service Builds", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceBuilds', $name, $tech)
+!endprocedure
+!procedure ServiceBuildsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceBuildsMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceBuildsGroup($id, $name='Service Builds', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceBuildsLg>', $name, $tech)
+!endprocedure
+@enduml

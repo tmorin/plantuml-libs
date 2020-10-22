@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the IoTBicycle element
+include('aws-20200430/Item/InternetOfThings/IoTBicycle')
+IoTBicycle('io_t_bicycle', 'Io T Bicycle', 'an optional tech field')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $InvertColorsOffMd [14x14/16z] RSs50G8n50FGrFrd_ssf0YUflYfUOYrsT0Tf5fHuI993Gz-NUDZeqDNKG6XzLvFqGoN1q7MchSabBxqZhN7hbG88kG3T99DLF5PyJWwsVt7D1m
+sprite $InvertColorsOffLg [20x20/16z] {
+bSy50a8n30FGkQ-v_srfYZlawzwqxj_qVjloHi0DHcJIb1lq2ycDwGLerv5JqT5ki4AdUp3bF1cR8pjD_D6AZbh4cu4TdXjbuddl0RvFE8xM46nLudddX4eJ
+uaWKcnPj7F5QdMW3zvW4CbKsZtIERnkochTb7kFLN-O
+}
+!procedure InvertColorsOff($id, $name="Invert Colors Off", $tech="")
+  IconElement($id, 'material-4.0/Communication/InvertColorsOff', $name, $tech)
+!endprocedure
+!procedure InvertColorsOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$InvertColorsOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure InvertColorsOffGroup($id, $name='Invert Colors Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$InvertColorsOffLg>', $name, $tech)
+!endprocedure
+@enduml

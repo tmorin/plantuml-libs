@@ -1,0 +1,13 @@
+@startuml
+sprite $ScreenShareMd [14x14/16z] VOs54G0X30GFTz9_jUz_ax4in0qMiPC8J27pZyPKKGzkCWe0yX_LE7Dcv_NtjwKBwQZwGXsZap5WS08
+sprite $ScreenShareLg [20x20/16z] fSwr0GGn3031FJEh_sgVmPHvCh4uudBgEK3BH8ETSxRB5Iylvfzh4JVr-GkmGyxmvFfSmAM8bpxdcaWDqkVcNyoSCt2LCPKlP2Ebd3gla0Dt
+!procedure ScreenShare($id, $name="Screen Share", $tech="")
+  IconElement($id, 'material-4.0/Communication/ScreenShare', $name, $tech)
+!endprocedure
+!procedure ScreenShareCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScreenShareMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScreenShareGroup($id, $name='Screen Share', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScreenShareLg>', $name, $tech)
+!endprocedure
+@enduml

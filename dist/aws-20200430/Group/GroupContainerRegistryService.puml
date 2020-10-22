@@ -1,0 +1,21 @@
+@startuml
+sprite $AwsEc2ContainerRegistryMd [14x14/16z] RSs70GCn24FH5Bx4_WkdYEIw-xCDzB6vMyes1FX3fS-20iWlFqFyWQadxQ_o6J5lcJi9pqy-isGqrSeyLS6uw3yoBjeR
+sprite $AwsEc2ContainerRegistryLg [20x20/16z] {
+VP254SH030DdtWAd_uPVOOwErpfoVyXFKBpP09HEY1MN2bxMq-8GYfnPmbCT-FFCeELMesBqmXQ2wCWK2woTBVsPzPrbX9lL6yFKipA2xUL2PLKQM3n-n5a3
+FdyuKfzb-IMbx_e3
+}
+!procedure GroupContainerRegistryService($id, $name='Group Container Registry Service', $tech='')
+  IconGroup($id, 'GroupContainerRegistryService', '<$AwsEc2ContainerRegistryLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupContainerRegistryService>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

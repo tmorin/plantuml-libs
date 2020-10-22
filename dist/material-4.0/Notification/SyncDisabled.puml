@@ -1,0 +1,16 @@
+@startuml
+sprite $SyncDisabledMd [14x14/16z] VOm50iH020DdtP3_l_RSh-si0aau8fJhfi-LhfMrC45yS2LvurAftAfgrg5WzLgjWLzAndfKmVgpQagEbr8QF0AYjH1krN21vUrMf3axv6I53qBWXpC
+sprite $SyncDisabledLg [20x20/16z] {
+fS_50GCX50JGhsl8zDzjyDWbCYl0m-c_MFbKoXUkAsWZnquAhnNWf9whu2RD4i_9iM2R4DOuHMxe9mL8jnrsL2pp3FjSZ-di3SPrju7BTYWDN7CL5vtUq27h
+W05E3PL6EAEQv88p1vfjY1FNtKNBTAEtE7sH6m
+}
+!procedure SyncDisabled($id, $name="Sync Disabled", $tech="")
+  IconElement($id, 'material-4.0/Notification/SyncDisabled', $name, $tech)
+!endprocedure
+!procedure SyncDisabledCard($id, $funcName="", $content="")
+  IconCard($id, '<$SyncDisabledMd>', '', $funcName, $content)
+!endprocedure
+!procedure SyncDisabledGroup($id, $name='Sync Disabled', $tech='')
+  IconGroup($id, 'IconGroup', '<$SyncDisabledLg>', $name, $tech)
+!endprocedure
+@enduml

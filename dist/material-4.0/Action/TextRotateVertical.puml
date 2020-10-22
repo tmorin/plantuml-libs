@@ -1,0 +1,13 @@
+@startuml
+sprite $TextRotateVerticalMd [14x14/16z] ZSX50eHG203GtpJS_xGpjcuC-f4U8qEUvwRYPPeE5msJYxJoEDGiWHxYC8-wAfTeEGlF6j5Bcxzz5WQcIxJqAVu
+sprite $TextRotateVerticalLg [20x20/16z] fSp50KGX34NH26wl_sf7lmMMtEM9q6OXhDOxVNDT5oieimaIPB8yQ6HhZ4G9R2n2IH6CTNnhJtCeCSK2zx3sUyN78dFlp5xfc_g_DQ0nsMGCiV95Gtkz0G
+!procedure TextRotateVertical($id, $name="Text Rotate Vertical", $tech="")
+  IconElement($id, 'material-4.0/Action/TextRotateVertical', $name, $tech)
+!endprocedure
+!procedure TextRotateVerticalCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextRotateVerticalMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextRotateVerticalGroup($id, $name='Text Rotate Vertical', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextRotateVerticalLg>', $name, $tech)
+!endprocedure
+@enduml

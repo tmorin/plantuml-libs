@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200911 bootstrap
+include('aws-20200911/bootstrap')
+' loads the AwsLakeFormation element
+include('aws-20200911/Service/Analytics/AwsLakeFormation')
+AwsLakeFormationGroup('aws_lake_formation', 'Aws Lake Formation', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

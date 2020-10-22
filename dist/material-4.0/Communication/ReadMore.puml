@@ -1,0 +1,13 @@
+@startuml
+sprite $ReadMoreMd [14x14/16z] fOor0S0m30JV3ABzfmrp6LybFM60695DrMZxadcNOWW1gBsnQK1khNo_8xa6_Mk5yPSP
+sprite $ReadMoreLg [20x20/16z] Ow0lO88069UL3IZ43m6iC34WYv431DWvc61Y86a4OE7ZvUNb0-e1QkVa0p9Pi8aXzBB1TUApWnt5BPXkfWi
+!procedure ReadMore($id, $name="Read More", $tech="")
+  IconElement($id, 'material-4.0/Communication/ReadMore', $name, $tech)
+!endprocedure
+!procedure ReadMoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReadMoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReadMoreGroup($id, $name='Read More', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReadMoreLg>', $name, $tech)
+!endprocedure
+@enduml

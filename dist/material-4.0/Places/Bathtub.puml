@@ -1,0 +1,16 @@
+@startuml
+sprite $BathtubMd [14x14/16z] VSU50GGn30D1XS6W_gjzXkC9s8j3KIJyed3gn9DwH1HqVKPmnkViWgTKi2XX_LNf97jjLIm3oX-zhicV2M2OljZ0nXq
+sprite $BathtubLg [20x20/16z] {
+hSZ50KGn549HYBqu_LSxxYx_hk3WNIxmbaoQxaf2KpULm_DzkpWceNQmBgKj6ivMfNYO9qCAk3LQvgrLQV3Al1kIkjlcrHo1g9lYykPlpME3urAwnpR6YuZ7
+hG4
+}
+!procedure Bathtub($id, $name="Bathtub", $tech="")
+  IconElement($id, 'material-4.0/Places/Bathtub', $name, $tech)
+!endprocedure
+!procedure BathtubCard($id, $funcName="", $content="")
+  IconCard($id, '<$BathtubMd>', '', $funcName, $content)
+!endprocedure
+!procedure BathtubGroup($id, $name='Bathtub', $tech='')
+  IconGroup($id, 'IconGroup', '<$BathtubLg>', $name, $tech)
+!endprocedure
+@enduml

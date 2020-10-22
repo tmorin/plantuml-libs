@@ -1,0 +1,16 @@
+@startuml
+sprite $StarOutlineMd [14x14/16z] RKm50e102FEIXl-_rcwbOzlmOpdVDwRRajpJjI4HRbDLKS_PvrONJfJbMcBZWkPPLM6dBP2cXw9MaQgxQWdhtQ9iM-VvdBZlo7kxsmG
+sprite $StarOutlineLg [20x20/16z] {
+bK_50GGX30mEiUc_shjrVIrEP8I-ZbhVCTLNA07f6MCpVeG2Ia4umLjdSIToL-vjeUg0yiX4XKM1jXGMy86AV71gdE-e5-w8CLy3yKAB1RdX4ie8oJt5g-m6
+XWWOxOmnl10L1vynw-lTxJHsqCL07yOV
+}
+!procedure StarOutline($id, $name="Star Outline", $tech="")
+  IconElement($id, 'material-4.0/Toggle/StarOutline', $name, $tech)
+!endprocedure
+!procedure StarOutlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarOutlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarOutlineGroup($id, $name='Star Outline', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarOutlineLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceApplicationInsightsMd [14x14/16z] HOs53G0W3C3cyl_3p1AA5YPGM4QamOAUXUEQfnVf8np2PYB1RLecDKFNhCtME5pDr2loFelwkWu3mYBTNU30AEhh8162RtfsUl8
+sprite $ServiceApplicationInsightsLg [20x20/16z] {
+PT054eKm34NHDdcM_I_uky8TnWxrzMetUg-_6fBGFxAHUOJlK4wU3TzK4_cUClKo1Lqq6uXUgoMjnitKoNwRKDLLq8zP3QBbjot51atOqNlVcv4YRrRh5MFf
+_eNVUpY-5_zSkPr7lNxot6IyVkFSu_6nGAoJeOz6e0wsg-fza2i
+}
+!procedure ServiceApplicationInsights($id, $name="Service Application Insights", $tech="")
+  IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceApplicationInsights', $name, $tech)
+!endprocedure
+!procedure ServiceApplicationInsightsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceApplicationInsightsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ServiceApplicationInsightsGroup($id, $name='Service Application Insights', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceApplicationInsightsLg>', $name, $tech)
+!endprocedure
+@enduml

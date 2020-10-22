@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceAzureDataExplorerClustersMd [14x14/16z] FSc70GD120D1aVd-6_RYT96HFBfxfZAITPg_f2jlyBSK8DuBmMigX3wCS39avJ2vLO3acBMLmDjWpLCH80HdjoGlL_BdFcM7A1Dyglw0wIuP-AmN
+sprite $ServiceAzureDataExplorerClustersLg [20x20/16z] {
+NSn7WiKW30DGLuMv_uL7kFoc1U2No2B6U2SgHekVk8W3U1Wanq9PHBMyhB78rmOfxk4yhnLMKNj_MQERtIysfeNigT-xA6phF3EBO5ldyU1IkkZKIGTD4Zbr
+d3-e5I5KY2IQg96IPFTnoXZFu56_UjbIfWaJPKEri11gbwneC4HDfO-D_WC
+}
+!procedure ServiceAzureDataExplorerClusters($id, $name="Service Azure Data Explorer Clusters", $tech="")
+  IconElement($id, 'azure-v2/Item/Databases/ServiceAzureDataExplorerClusters', $name, $tech)
+!endprocedure
+!procedure ServiceAzureDataExplorerClustersCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceAzureDataExplorerClustersMd>', 'Databases', $funcName, $content)
+!endprocedure
+!procedure ServiceAzureDataExplorerClustersGroup($id, $name='Service Azure Data Explorer Clusters', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceAzureDataExplorerClustersLg>', $name, $tech)
+!endprocedure
+@enduml

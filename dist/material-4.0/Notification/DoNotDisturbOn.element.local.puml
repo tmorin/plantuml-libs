@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the material-4.0 bootstrap
+include('material-4.0/bootstrap')
+' loads the DoNotDisturbOn element
+include('material-4.0/Notification/DoNotDisturbOn')
+DoNotDisturbOn('do_not_disturb_on', 'Do Not Disturb On', 'an optional tech field')
+@enduml

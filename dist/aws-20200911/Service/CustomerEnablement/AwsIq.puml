@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIqMd [14x14/16z] DSe73W1120B0b0K5xl_lFRF5FecsTlGE-_gf5hUtXB0871a4gQbH6bNeMQE4QcjnjQGHcq21Mt0ATbXMp8OeMzYVxLuaiPKUdz2NJ2M7txuVVm
+sprite $AwsIqLg [20x20/16z] {
+RSi7hY1120DHQJ0qbFl-vzsTz7Cf-aa6vgsV-0EvciS_RHJwOSwan5JsV9Z6Q28prhpMqQfAwBZ-1lBGiTGpg4yqhlGsMQPZpcpapZQXF9hRl9IjJ6L9yvZQ
+TWM6YlSBrahEbSLbEH65V3Qwp06z-wYhcCjQYzAwRJ6pxUt_uYTWzlQfstosJtpwjD_u3m
+}
+!procedure AwsIq($id, $name="Aws Iq", $tech="")
+  IconElement($id, 'aws-20200911/Service/CustomerEnablement/AwsIq', $name, $tech)
+!endprocedure
+!procedure AwsIqCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIqMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+!procedure AwsIqGroup($id, $name='Aws Iq', $tech='')
+  IconGroup($id, 'CustomerEnablementFamily', '<$AwsIqLg>', $name, $tech)
+!endprocedure
+@enduml

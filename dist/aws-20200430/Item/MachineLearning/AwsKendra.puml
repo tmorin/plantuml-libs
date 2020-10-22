@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsKendraMd [14x14/16z] TOxL0S1G309h77df_lFMNIvVCI0Vb9XgPka0eucOLvgxRkyewoLh5vx0NZilfx1tHg2oNGPARrrc7qBA6R7IiRHRZbXE_na1
+sprite $AwsKendraLg [20x20/16z] {
+bSr7bW8m30JH6L2rqltFItHwhE0lovPKFuWjHy8O31kHZ8Xs94BnRdRykywMIn5hzYsZD5le0M74QkaF6UYpoMI2tBCu8X5rt4ZmTZHRTLLBWEZtiCMB0LSR
+DyHBk1n6FEawsYdhUtS
+}
+!procedure AwsKendra($id, $name="Aws Kendra", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsKendra', $name, $tech)
+!endprocedure
+!procedure AwsKendraCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsKendraMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsKendraGroup($id, $name='Aws Kendra', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsKendraLg>', $name, $tech)
+!endprocedure
+@enduml

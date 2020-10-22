@@ -1,0 +1,13 @@
+@startuml
+sprite $A3KMd [14x14/16z] NSsr0G1120J0HSw5_gjzLoR2WSDouJsn1mFwPWg8ouRgQ2LrawDNkLIag_VFkagl9TwJDtKVt7UmNXZE2W
+sprite $A3KLg [20x20/16z] dT054e1030F0eas2_V-rk3jax6RFsjhx972CSSG3LPiadM5hwCnF3EUcD6LLUYKiXYYseZ2QLdSpxwnRBgQDxUyU_-1YFsi-pk0uguxUfW4
+!procedure A3K($id, $name="A3 K", $tech="")
+  IconElement($id, 'material-4.0/Av/A3K', $name, $tech)
+!endprocedure
+!procedure A3KCard($id, $funcName="", $content="")
+  IconCard($id, '<$A3KMd>', '', $funcName, $content)
+!endprocedure
+!procedure A3KGroup($id, $name='A3 K', $tech='')
+  IconGroup($id, 'IconGroup', '<$A3KLg>', $name, $tech)
+!endprocedure
+@enduml

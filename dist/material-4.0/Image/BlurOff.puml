@@ -1,0 +1,16 @@
+@startuml
+sprite $BlurOffMd [14x14/16z] POw34KKn403tb9cu_se_dh716RpH_rsm0FbVMQoPAEwPjfeZWIWBAkqNpLtouX6p4P5n5fmwWzLIpThghxReNhjqNf16TcjZDr4HiHdNpSnuy0K
+sprite $BlurOffLg [20x20/16z] {
+bT25iSKm34JHknEjGtBKVxKV7ZESGOEGxwX14qT3S6UfW4Z8O9vX9ykueswMunrh1TU4gmonZJWGG2DpBJDL9vF6ZhGBdmE98n5rodcCfTSkvp5Ms4nR_EUq
+EKNVjpJFE26hV7NNKVhuyqfMtErAoy3dVW4
+}
+!procedure BlurOff($id, $name="Blur Off", $tech="")
+  IconElement($id, 'material-4.0/Image/BlurOff', $name, $tech)
+!endprocedure
+!procedure BlurOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlurOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlurOffGroup($id, $name='Blur Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlurOffLg>', $name, $tech)
+!endprocedure
+@enduml

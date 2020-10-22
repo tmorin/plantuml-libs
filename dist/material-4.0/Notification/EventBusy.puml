@@ -1,0 +1,16 @@
+@startuml
+sprite $EventBusyMd [14x14/16z] LSp50SKm30DGcJu4zv-s3SEx6IG0eYXKK94BKWH7PU2yCA1xqZgveKq9GnfJuA_Ra-Hmt3uno9uSzBUdtS8v3PbHHjF6od1x0G
+sprite $EventBusyLg [20x20/16z] {
+ZT1L0WCn28HXY34hTEv_snBgtdyrtqj4PgL8fl6zn4sobHTfe1iYSw8bTJxKf-7HCCtU6BYjQzpPTh6x5PGx6_7q-cYxI-TuDDtzOF9eCkZwQ46skpwQcsWy
+5xEtQsbQpcaZtfv18Wpd345_TmG
+}
+!procedure EventBusy($id, $name="Event Busy", $tech="")
+  IconElement($id, 'material-4.0/Notification/EventBusy', $name, $tech)
+!endprocedure
+!procedure EventBusyCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventBusyMd>', '', $funcName, $content)
+!endprocedure
+!procedure EventBusyGroup($id, $name='Event Busy', $tech='')
+  IconGroup($id, 'IconGroup', '<$EventBusyLg>', $name, $tech)
+!endprocedure
+@enduml

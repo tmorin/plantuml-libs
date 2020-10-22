@@ -1,0 +1,16 @@
+@startuml
+sprite $MasksMd [14x14/16z] bOU50GCn4CCKvdZ_QJ-qGAi3M_oEoGwi1PSDrDf3b_Qh5PfjwYbrxRBDDTKngdQ1N8ekfMGmRJmRpR2rZ2l5y70fEVvZ0G
+sprite $MasksLg [20x20/16z] {
+lSZNeSD024N1AyI20ilflzeNd5s0FP-ZhqZA9Dysbwn8IIjHfnT_okiCLccW03gpWH13yiiTbcd7vLmobe2QC0l2C4cTpeDdwqymcfiUXFuTF8zTLp6vcQ47
+Y-gkCBrR5dtABm
+}
+!procedure Masks($id, $name="Masks", $tech="")
+  IconElement($id, 'material-4.0/Social/Masks', $name, $tech)
+!endprocedure
+!procedure MasksCard($id, $funcName="", $content="")
+  IconCard($id, '<$MasksMd>', '', $funcName, $content)
+!endprocedure
+!procedure MasksGroup($id, $name='Masks', $tech='')
+  IconGroup($id, 'IconGroup', '<$MasksLg>', $name, $tech)
+!endprocedure
+@enduml

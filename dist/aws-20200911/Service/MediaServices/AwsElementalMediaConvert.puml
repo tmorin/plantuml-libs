@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElementalMediaConvertMd [14x14/16z] LSi95aCX24FHqvBmtF-A6-aVutWLW3vYcnSPLddu_tAmpVAtBTaVZLJotg85IwwIw2XKAxD7HavYekoMtEMjwHGqerZ5P9JyzG8_
+sprite $AwsElementalMediaConvertLg [20x20/16z] {
+VSo5TS0m34NHd8_g_Wite3AyeA-XP_cKp_eBTl73JziCQ76jOSniDoYjtKPUoy4695mUlcrCWMaDy3vqEiaW8cJKlkp4beMDy8IrEOqsY_InQGOjJa3jtcQz
+28a3ZVHOuFCXaHgxRghEIDCglMmpgJwzMu1qcqzzs8Vyj-uL
+}
+!procedure AwsElementalMediaConvert($id, $name="Aws Elemental Media Convert", $tech="")
+  IconElement($id, 'aws-20200911/Service/MediaServices/AwsElementalMediaConvert', $name, $tech)
+!endprocedure
+!procedure AwsElementalMediaConvertCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalMediaConvertMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalMediaConvertGroup($id, $name='Aws Elemental Media Convert', $tech='')
+  IconGroup($id, 'MediaServicesFamily', '<$AwsElementalMediaConvertLg>', $name, $tech)
+!endprocedure
+@enduml

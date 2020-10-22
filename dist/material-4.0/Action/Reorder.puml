@@ -1,0 +1,13 @@
+@startuml
+sprite $ReorderMd [14x14/16z] Oy0BcE00o67cv-C70I353EGomW58ZWSEc85IR730YCvZveKfv4Kr1Sq6LDln0W
+sprite $ReorderLg [20x20/16z] hS-35G0n303Gci7-qvvjz3_74SKvmWLoRSmpqWJPYnCc-33nmRInm2kXZKcr8dSnsSOEUWzsFFtZC5PS3G
+!procedure Reorder($id, $name="Reorder", $tech="")
+  IconElement($id, 'material-4.0/Action/Reorder', $name, $tech)
+!endprocedure
+!procedure ReorderCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReorderMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReorderGroup($id, $name='Reorder', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReorderLg>', $name, $tech)
+!endprocedure
+@enduml

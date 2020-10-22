@@ -1,0 +1,16 @@
+@startuml
+sprite $VisibilityMd [14x14/16z] XOq30W0X44K7MV_-jrqRlHgBUeYrilckOgIwEKX0O0v06eFH18fniGf08X1bTFGQqUXvIcdgZBSjzmiZQgrIZm4
+sprite $VisibilityLg [20x20/16z] {
+hP150a8124G7-9ttlwsatSfgU3JuWx48Nu9ntTNMyOG71uw7HBFgcG5suMXIDO6wBgAJeivA6AjMWqrhRBDUwCDRtQ4RjbMjXawrrPZwdd8S2jekXkR7EmDI
+jycJ7tnl1m
+}
+!procedure Visibility($id, $name="Visibility", $tech="")
+  IconElement($id, 'material-4.0/Action/Visibility', $name, $tech)
+!endprocedure
+!procedure VisibilityCard($id, $funcName="", $content="")
+  IconCard($id, '<$VisibilityMd>', '', $funcName, $content)
+!endprocedure
+!procedure VisibilityGroup($id, $name='Visibility', $tech='')
+  IconGroup($id, 'IconGroup', '<$VisibilityLg>', $name, $tech)
+!endprocedure
+@enduml

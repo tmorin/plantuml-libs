@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the GenericDatabase element
+include('aws-20200430/Item/General/GenericDatabase')
+GenericDatabaseGroup('generic_database', 'Generic Database', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceNetworkSecurityGroupsMd [14x14/16z] VSct0S10349HbANz5_PneVNl7a3KqZspJ8LmgifDuP5k_B8wO4vuLMLIpehzgAbcNC8WzcHBGCxxiDAU6KBnUF18lAHIm3u
+sprite $ServiceNetworkSecurityGroupsLg [20x20/16z] {
+fSgt5GD130DH6W3aNVy5QvrigWd_6zk5kbjX7mMeAk697f4IaXgC21-65Z5YQMWtneOJQwQ2_rhzPLoMarAz6sQfxs33UgUzCuR5bq7Jd8kkOtIR-6aQDCk-
+HikOTa8V8pOSl8STEcNVWjA-YYg6xHu
+}
+!procedure ServiceNetworkSecurityGroups($id, $name="Service Network Security Groups", $tech="")
+  IconElement($id, 'azure-v2/Item/Networking/ServiceNetworkSecurityGroups', $name, $tech)
+!endprocedure
+!procedure ServiceNetworkSecurityGroupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceNetworkSecurityGroupsMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure ServiceNetworkSecurityGroupsGroup($id, $name='Service Network Security Groups', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceNetworkSecurityGroupsLg>', $name, $tech)
+!endprocedure
+@enduml

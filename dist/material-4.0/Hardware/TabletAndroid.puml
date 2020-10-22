@@ -1,0 +1,13 @@
+@startuml
+sprite $TabletAndroidMd [14x14/16z] nSwr0O100C30u4xsdnRdPOA_BbrWzZC1ZUl71jgLpzeMABUFLpNgFewxsf1Vdm
+sprite $TabletAndroidLg [20x20/16z] pT2r0SD044JHEUQR_gkrnPY9N_YJ1G2sSb8jMfehkcsUtlc1y_HzmyBO1FODdsZdTrPoeiQsj6p1sZ0tpLOA8Sq_XUE20_07
+!procedure TabletAndroid($id, $name="Tablet Android", $tech="")
+  IconElement($id, 'material-4.0/Hardware/TabletAndroid', $name, $tech)
+!endprocedure
+!procedure TabletAndroidCard($id, $funcName="", $content="")
+  IconCard($id, '<$TabletAndroidMd>', '', $funcName, $content)
+!endprocedure
+!procedure TabletAndroidGroup($id, $name='Tablet Android', $tech='')
+  IconGroup($id, 'IconGroup', '<$TabletAndroidLg>', $name, $tech)
+!endprocedure
+@enduml

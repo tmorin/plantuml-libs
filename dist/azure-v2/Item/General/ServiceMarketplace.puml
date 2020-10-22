@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceMarketplaceMd [14x14/16z] DOk50S1020CXGlVVk7cxLo8L98jT5z46xj0gP9z_Gs1s9mj-CzapDZBb8xz9tx2APwAcLzkPc8dL2vz9UoYTQOY5roJFmjd7kvXT8Is0PBu_
+sprite $ServiceMarketplaceLg [20x20/16z] {
+NT273G0X34DHxDZPV-IZIhbyzKTdt4W0urVC9l_8uHHLBG5QWsocQW0CJWFVGSoIPNJBOt76vMOcG6tBQ-AOiPfmpbUnJTEeOYykupHbT8CoWoSLctcLnKeo
+zz-vMF1-2sSnauGf7m
+}
+!procedure ServiceMarketplace($id, $name="Service Marketplace", $tech="")
+  IconElement($id, 'azure-v2/Item/General/ServiceMarketplace', $name, $tech)
+!endprocedure
+!procedure ServiceMarketplaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceMarketplaceMd>', 'General', $funcName, $content)
+!endprocedure
+!procedure ServiceMarketplaceGroup($id, $name='Service Marketplace', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceMarketplaceLg>', $name, $tech)
+!endprocedure
+@enduml

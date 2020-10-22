@@ -1,0 +1,13 @@
+@startuml
+sprite $ShowChartMd [14x14/16z] dKp50S0m48gSLzX_shhaVMv0oHZ9i7JeCnnPLxyNWPMwnBqe73RFxuSBuraKSkgrvoKbOpi
+sprite $ShowChartLg [20x20/16z] jKt50S0W40kkTzb_shhtZKCKWuUnVwog-KAPzGj5jeSbhsTWDpT49i1HxuR29anMwPuGh53f7yO6h63uG82B5sIqupUimU0n0m
+!procedure ShowChart($id, $name="Show Chart", $tech="")
+  IconElement($id, 'material-4.0/Editor/ShowChart', $name, $tech)
+!endprocedure
+!procedure ShowChartCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShowChartMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShowChartGroup($id, $name='Show Chart', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShowChartLg>', $name, $tech)
+!endprocedure
+@enduml

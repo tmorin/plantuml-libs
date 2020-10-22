@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonKinesisMd [14x14/16z] PSa74WD120D11v00_V-_NgtptLJicdQr8zc_j0RrvlGKylrdXa22Aml4OaJaw-KzVXLRNIEIi2tvCLchRab5pAhR6h6DBJUxanu
+sprite $AmazonKinesisLg [20x20/16z] {
+RSr90i0W24FH1K58kFzzwz2v_JkV2bpbKVJuW_n1iISFveMQwAwyKYz1QnnTfYw0HrplF0IqvkWPbgLvXiy0F_v6FvWPy37SZ8-_p2nLYuB7iOFCAgamDqV_
+nb7r25benCF6zrO7NPRrUjVrwB8NrWzk
+}
+!procedure AmazonKinesis($id, $name="Amazon Kinesis", $tech="")
+  IconElement($id, 'aws-20200911/Service/Analytics/AmazonKinesis', $name, $tech)
+!endprocedure
+!procedure AmazonKinesisCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonKinesisMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AmazonKinesisGroup($id, $name='Amazon Kinesis', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AmazonKinesisLg>', $name, $tech)
+!endprocedure
+@enduml

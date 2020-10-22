@@ -1,0 +1,13 @@
+@startuml
+sprite $SportsCricketMd [14x14/16z] RSU50SGm3CLGXJb__saFowq2zkEvqAi1RFxzaYgOeGOuIHsQz6EL0dWjz1R0pH_Nd6xC79YDtMc8SXpAyYS6Bhq1
+sprite $SportsCricketLg [20x20/16z] ZSi55i0W009G5dPm_zEkUnRsVu9gUj5_IPEK-rM9_HovPljfo1tLPc8l72Ws6_R2YOwaNY_sWKAFm0CbzhnGjAB53ts73wxKVr1sS7753pFyKJ2cKE2N7fdC
+!procedure SportsCricket($id, $name="Sports Cricket", $tech="")
+  IconElement($id, 'material-4.0/Social/SportsCricket', $name, $tech)
+!endprocedure
+!procedure SportsCricketCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsCricketMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsCricketGroup($id, $name='Sports Cricket', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsCricketLg>', $name, $tech)
+!endprocedure
+@enduml

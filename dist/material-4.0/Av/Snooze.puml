@@ -1,0 +1,19 @@
+@startuml
+sprite $SnoozeMd [14x14/16z] {
+POt5OKKX4007XzN-g_tFRid0kl6Nqn_TpwEBUPkgixaLE3eYpeaOTe2UYvkLZHix77-K0JKhO-Tv7Ne0Mu3eqBAmSZJAEnWBZLIMSpFokvw3XvKof-JYewcx
+Dlvn0G
+}
+sprite $SnoozeLg [20x20/16z] {
+VP05WW0X24K95Sn__zikixWTRq9AYlv2VmZKKL8ew2dmn62ntar2dFoODbmcNfdYs8znDWLw4IaTHzka1mdnbZZWb4QKA6xkSM3Si3WTWKSY20KLDIg9R4Wg
+WK4_cbJOXyspRqNBvkEesEPXjNGnraUDTR8NXn6hYZ9PYCbwamoBBhnml5O_kO6B7GIdqHUq5A5_U04
+}
+!procedure Snooze($id, $name="Snooze", $tech="")
+  IconElement($id, 'material-4.0/Av/Snooze', $name, $tech)
+!endprocedure
+!procedure SnoozeCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnoozeMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnoozeGroup($id, $name='Snooze', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnoozeLg>', $name, $tech)
+!endprocedure
+@enduml

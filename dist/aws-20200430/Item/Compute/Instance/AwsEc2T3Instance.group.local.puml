@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsEc2T3Instance element
+include('aws-20200430/Item/Compute/Instance/AwsEc2T3Instance')
+AwsEc2T3InstanceGroup('aws_ec_2_t_3_instance', 'Aws Ec2 T3 Instance', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

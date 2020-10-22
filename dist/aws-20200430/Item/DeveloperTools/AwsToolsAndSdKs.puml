@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsToolsAndSdKsMd [14x14/16z] PKw30S0031k3vlzxPwzsKt_A8dTCGCcUU0q9PqquLC2uNzEG7An1q9QLG8xsdfcM9HrPOQ7icU2GyN7K84KU01AFe_TupvFwqmm
+sprite $AwsToolsAndSdKsLg [20x20/16z] {
+XT05WWCn30F0kzQsP2l_Vs-N6RIO2QUU8fsfkmyYc47Q4YsgmgYrMtYgIxfF0oW_KETH4lvJKqSd3J3IZPD5LmyDhrYi8S8z0crhNQbxxumcKiQj5TpCKOkb
+KQtSgucMcjRideriwvex52sw6ANT6No_aDxEwZq_
+}
+!procedure AwsToolsAndSdKs($id, $name="Aws Tools And Sd Ks", $tech="")
+  IconElement($id, 'aws-20200430/Item/DeveloperTools/AwsToolsAndSdKs', $name, $tech)
+!endprocedure
+!procedure AwsToolsAndSdKsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsToolsAndSdKsMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsToolsAndSdKsGroup($id, $name='Aws Tools And Sd Ks', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsToolsAndSdKsLg>', $name, $tech)
+!endprocedure
+@enduml

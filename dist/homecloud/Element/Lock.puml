@@ -1,0 +1,16 @@
+@startuml
+sprite $LockMd [14x14/16z] RSc53GCn50JHjRNc3_rNcnpp29y6So7dWBregXPtIGEQx382j0t92baiBQY-LMVrNNtN61Sfe9T7dc_hGzGjuj4V
+sprite $LockLg [20x20/16z] {
+ZO-55KKn24DJjmFPVzhlygnogpZWYxKuu8KKZos1cf8oR7MY1Z0g6vLbVZw9TgkBpoTkT2wn-11yON8VLUI6-DRLhQxETAedNGFQKHU0iE97bNdThQu_1rpu
+uT3X3W
+}
+!procedure Lock($id, $name="Lock", $tech="")
+  IconElement($id, 'homecloud/Element/Lock', $name, $tech)
+!endprocedure
+!procedure LockCard($id, $funcName="", $content="")
+  IconCard($id, '<$LockMd>', 'Element', $funcName, $content)
+!endprocedure
+!procedure LockGroup($id, $name='Lock', $tech='')
+  IconGroup($id, 'IconGroup', '<$LockLg>', $name, $tech)
+!endprocedure
+@enduml

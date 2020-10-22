@@ -1,0 +1,16 @@
+@startuml
+sprite $DoNotDisturbAltMd [14x14/16z] PSq54WGW20NG3OIHlFzfZQ-Jjay5FayZTLUwwAN2LXtG_ErDG2g0It9zLjrenJWv0sqzEtJmaINJ2_oabEADNn7A2P1wggSoQosWaKKOVPus0G
+sprite $DoNotDisturbAltLg [20x20/16z] {
+VP054iH020H95ZPE__-r9-kdKqOrFl97i-hy0gRL0NoT6WhEjKPRBpnK13574JASd9hTu4hjAzRG5bcUaLyTYLoUfgqDfQvPHB41YQ6DRUnbjQRULfLxyuw6
+qevyIqV6McvkAE3vPQLUROvAbZhdOia37RoYUzKLL8FyqHq
+}
+!procedure DoNotDisturbAlt($id, $name="Do Not Disturb Alt", $tech="")
+  IconElement($id, 'material-4.0/Notification/DoNotDisturbAlt', $name, $tech)
+!endprocedure
+!procedure DoNotDisturbAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoNotDisturbAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoNotDisturbAltGroup($id, $name='Do Not Disturb Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoNotDisturbAltLg>', $name, $tech)
+!endprocedure
+@enduml

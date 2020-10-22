@@ -1,0 +1,19 @@
+@startuml
+sprite $DynamoDbAmazonDynamoDbAcceleratorMd [14x14/16z] {
+JSc50KGX30FGj15a_u5FlZweuwUw2oUDE1d23uE_y9SzsLNDPNp9ofTut8YV6fc_6u46HZDe9-hj2cQgsDqOhUNUXH8bcum5mEbk5cVm4vF4s3Yqx5gDb_gb
+3m
+}
+sprite $DynamoDbAmazonDynamoDbAcceleratorLg [20x20/16z] {
+TSk5eMKX34NH7I4vS6VwR_Vpt1SQuwSiRPtSnT88znXQjwnDvyfltrZShRZcZjcNsPx_hhbiibhgIjAlEN4pkYfUSxv67iKMVRu13K90dE4hiGd7C4ndtiUq
+RhpdmLqREqwKWESMkHdJIsofRfs5AISNPLo4Pd2HIvKHIVqVt4MrL2pnpcJyyWS
+}
+!procedure DynamoDbAmazonDynamoDbAccelerator($id, $name="Dynamo Db Amazon Dynamo Db Accelerator", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/DynamoDbAmazonDynamoDbAccelerator', $name, $tech)
+!endprocedure
+!procedure DynamoDbAmazonDynamoDbAcceleratorCard($id, $funcName="", $content="")
+  IconCard($id, '<$DynamoDbAmazonDynamoDbAcceleratorMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure DynamoDbAmazonDynamoDbAcceleratorGroup($id, $name='Dynamo Db Amazon Dynamo Db Accelerator', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$DynamoDbAmazonDynamoDbAcceleratorLg>', $name, $tech)
+!endprocedure
+@enduml

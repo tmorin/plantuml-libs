@@ -1,0 +1,16 @@
+@startuml
+sprite $PersonSearchMd [14x14/16z] XSgr0SD050DGcJzh_srZzbsLrmdmnwGoV85al6dZRdpIieVwhb8vepKc3OTXTKFQLBA7kSW0PwZlARWRh9Io9p4pdo4kND5OzzJv0G
+sprite $PersonSearchLg [20x20/16z] {
+fT053iGm30J0TSEu___joUbHGDWH1enux8hPOsOwoO99ePf_TgeytJMgEDrvlUeN9g6p6XpuncBmPQo1PolV12OrRQHtWMM42bGEshJS3HaE0PKMyMxSSMWm
+L6dyAraLCnQHcR4fNR0ImT4B
+}
+!procedure PersonSearch($id, $name="Person Search", $tech="")
+  IconElement($id, 'material-4.0/Communication/PersonSearch', $name, $tech)
+!endprocedure
+!procedure PersonSearchCard($id, $funcName="", $content="")
+  IconCard($id, '<$PersonSearchMd>', '', $funcName, $content)
+!endprocedure
+!procedure PersonSearchGroup($id, $name='Person Search', $tech='')
+  IconGroup($id, 'IconGroup', '<$PersonSearchLg>', $name, $tech)
+!endprocedure
+@enduml

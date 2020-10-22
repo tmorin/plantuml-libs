@@ -1,0 +1,16 @@
+@startuml
+sprite $TimeToLeaveMd [14x14/16z] VSk50OGm30NGQXJe_jlUJywDLusLS-86BXcCRGGy4IcLH5fWdwr3cpk2lXuwnbRb1LpNY6XeH8hFMsT6pWBiCLTzb3IibZCN
+sprite $TimeToLeaveLg [20x20/16z] {
+fSp5WKD130DG3QEj_glTJOR2f_zk1WaN-NOuB2Ab3aLalz5YiLoFfUEGWa4ZZgGhskhHw76J-IAFToPJELJalNE872BytlMi73GBy-y-wlvJxZ-rPh4wTwvb
+7BavNF8F
+}
+!procedure TimeToLeave($id, $name="Time To Leave", $tech="")
+  IconElement($id, 'material-4.0/Notification/TimeToLeave', $name, $tech)
+!endprocedure
+!procedure TimeToLeaveCard($id, $funcName="", $content="")
+  IconCard($id, '<$TimeToLeaveMd>', '', $funcName, $content)
+!endprocedure
+!procedure TimeToLeaveGroup($id, $name='Time To Leave', $tech='')
+  IconGroup($id, 'IconGroup', '<$TimeToLeaveLg>', $name, $tech)
+!endprocedure
+@enduml

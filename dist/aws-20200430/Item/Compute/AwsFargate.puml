@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsFargateMd [14x14/16z] ROo54SK034Bl4Xva_uM_rjku0FDWoM46d6KUTTAQBAz8vly3nXdmzwFW7r7Vdq7TWeNNdQWNKLT9LIoYV6RncvTzdxEKgxq1
+sprite $AwsFargateLg [20x20/16z] {
+hOu5baGX30JVJnjx_mjlmhW-cyQBGjQNfEihp0iHe4UgKXhh_YvWixg_a_5WteZCBEalj2xI5jHBH2SrQ8bXL-t5nA28pWnUvrYzd7htRAhGErMyVKy0P0Au
+YKRLKGVQkoKUrLuF2Khh1_a7
+}
+!procedure AwsFargate($id, $name="Aws Fargate", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/AwsFargate', $name, $tech)
+!endprocedure
+!procedure AwsFargateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsFargateMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsFargateGroup($id, $name='Aws Fargate', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsFargateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $Ec2C5NInstanceMd [14x14/16z] NOx50GC13CCColuZjyUaNy0WoVA2h8q9BPbzu60PFQE36IkS4v51JR9EMCKL3QRQ9xFElJvjmTlba_1EVpTxj_u3
+sprite $Ec2C5NInstanceLg [20x20/16z] {
+bP250SD024Nnl__6FTTQNdA60rMuRGCpYh4rt1dSjkQ6M40Ee1wq4Aufs2cpxBlBE4T3bd6l900kTkB6hfp5qNEuf8UGcxKSJKQMZMSE2HCrDROz1nyv5k9H
+7-SCxbbzc-av-nS
+}
+!procedure Ec2C5NInstance($id, $name="Ec2 C5 N Instance", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Compute/Ec2C5NInstance', $name, $tech)
+!endprocedure
+!procedure Ec2C5NInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$Ec2C5NInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure Ec2C5NInstanceGroup($id, $name='Ec2 C5 N Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$Ec2C5NInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $NoPhotographyMd [14x14/16z] LSq50WGX509GxFRV_xOBEutvJ7mIYZhca5LaOufpPBU2IJ4Dd95zI5CI4VQbkYkGBhd1NNyfP2Fd8VO-aMlzPQkKHJRzTwK0SF58IEAJ4F43
+sprite $NoPhotographyLg [20x20/16z] {
+RT095eCm24NHNqE47WdiVxSjuApF-Je7RtsUD9d4fWkpzEqoTGPcp-ODxO_abUeG80uBjmZeiHNGibXPBuih0SZ5p2NmUxQMRyTqiW7sn76o_42-c3TelVra
+2X0jyPrMbaZvWunMLfdLTtO2cbzYH2GiMwmkpn5MmnCdu0S
+}
+!procedure NoPhotography($id, $name="No Photography", $tech="")
+  IconElement($id, 'material-4.0/Places/NoPhotography', $name, $tech)
+!endprocedure
+!procedure NoPhotographyCard($id, $funcName="", $content="")
+  IconCard($id, '<$NoPhotographyMd>', '', $funcName, $content)
+!endprocedure
+!procedure NoPhotographyGroup($id, $name='No Photography', $tech='')
+  IconGroup($id, 'IconGroup', '<$NoPhotographyLg>', $name, $tech)
+!endprocedure
+@enduml

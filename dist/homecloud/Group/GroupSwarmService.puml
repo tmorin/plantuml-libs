@@ -1,0 +1,18 @@
+@startuml
+sprite $ServiceMd [14x14/16z] Oy0765aO69aW0CXZvsVYvOS05bGvTC3AoyZ11G5Co3nk9d9jm0i
+sprite $ServiceLg [20x20/16z] Ow08C39ZYd7pip7oyS807nisCOZUuMS7vG
+!procedure GroupSwarmService($id, $name='Group Swarm Service', $tech='')
+  IconGroup($id, 'GroupSwarmService', '<$ServiceLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupSwarmService>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

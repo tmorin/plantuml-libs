@@ -1,0 +1,19 @@
+@startuml
+sprite $SagemakerModelMd [14x14/16z] {
+9Ol70ODG34Dbgq7s7pXyU2TLF0m13JuK9J9VOmr4E3wkkKtEZyTjpM5ZXA3LTTFpePOnsGnfQG5nXSrOhDaoL_aUcnsAkzdpjVoOti5nJKpf4WuqatRnCPhv
+YZy
+}
+sprite $SagemakerModelLg [20x20/16z] {
+JS_50GD044BHFmgR_lkDsriTRl0Ih-lVM9doy5KUqax6nSigW1bYMikJAwL7DaVXTtRi4xrHbqOyjAOowMDlu0QaTDFjtWL28aqVzMd93W1bYb3rChDBxynv
+PC0p0znLVcVhwEaj0qvqxDObUtsUVHPepqGnNGDnaeUTeLxT_EuMQkli3BQEU5fFkxeHUvgNqWGMbfAliVjn-1VnF2yt
+}
+!procedure SagemakerModel($id, $name="Sagemaker Model", $tech="")
+  IconElement($id, 'aws-20200911/Resource/MachineLearning/SagemakerModel', $name, $tech)
+!endprocedure
+!procedure SagemakerModelCard($id, $funcName="", $content="")
+  IconCard($id, '<$SagemakerModelMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure SagemakerModelGroup($id, $name='Sagemaker Model', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$SagemakerModelLg>', $name, $tech)
+!endprocedure
+@enduml

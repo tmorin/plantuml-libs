@@ -1,0 +1,16 @@
+@startuml
+sprite $ElastiCacheElastiCacheForMemcachedMd [14x14/16z] LSU5GKHH34JHoCYN_ljbWDNx92Vr5QnN1ec3ZdY0w4CyLzgJEfhWI7Rsa4EvgreAENkQoSTkVcfxfbSqSDiwTWxPDwfB6-KBaomWNvY8gHemJ6qbTptgcN__
+sprite $ElastiCacheElastiCacheForMemcachedLg [20x20/16z] {
+TSW5GW0m34FHL9DsSF_hCjpVj1z_oVeXuQT_EEwB48FAV7a2woYoEShTrDml2vXaj19LI7Lq2R5WMkj5Mn8R8J2QuMQUx23ajubRU57RUct1uOmqzybuQSaK
+07S0BuF7RCTs5b3HU_UuxQWc-z7ieNDAiuRB1ZNTAepXtUbECRiFFcomW6BibmOpu9ulhRRpwYryyk9LZdyz0G
+}
+!procedure ElastiCacheElastiCacheForMemcached($id, $name="Elasti Cache Elasti Cache For Memcached", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Database/ElastiCacheElastiCacheForMemcached', $name, $tech)
+!endprocedure
+!procedure ElastiCacheElastiCacheForMemcachedCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElastiCacheElastiCacheForMemcachedMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure ElastiCacheElastiCacheForMemcachedGroup($id, $name='Elasti Cache Elasti Cache For Memcached', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$ElastiCacheElastiCacheForMemcachedLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FlipMd [14x14/16z] TOv50e1G24GVC7RT_xHswsV7DEj9xESITOtmvHdwmQigEgiTrCF2WN7_Mjs_iFjNUleBxb-d-yVLxbixhknQzbWz0G
+sprite $FlipLg [20x20/16z] {
+TP350KGn44A1sBTa-gzstTcyuoY09nACtl51MTgIqGVI0fPxAIui60CjgBWLbyXAlEuo0UArra8Vz-wVbi-QOh4QbsorAxvR_zJQTDT_k1RNp8StwkvDZvfd
+u5bDC_Nipm
+}
+!procedure Flip($id, $name="Flip", $tech="")
+  IconElement($id, 'material-4.0/Image/Flip', $name, $tech)
+!endprocedure
+!procedure FlipCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlipMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlipGroup($id, $name='Flip', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlipLg>', $name, $tech)
+!endprocedure
+@enduml

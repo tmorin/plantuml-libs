@@ -1,0 +1,16 @@
+@startuml
+sprite $VisibilityOffMd [14x14/16z] LOu55W8n44DJVHqZzxyj6vnV7G_-QN-M1J3NwYyp7KcoDeJJCFeXJPdKkzjb7epB66LzTtraTLEoB9Wox6P85SAV1TOEn2uAnuknzcWLVnAjuPyx
+sprite $VisibilityOffLg [20x20/16z] {
+ZT070iCW20LGHjoYzxzj_TAzQPF0Sqj_X_8BoQpxeoetJ0kvpnMMhnmN7iCCdCxM9dgkuMqYGzJfQM2wO0JbbGPZGHw91oQd0enaA2wMV11idCSAcgftYBui
+oeZXn-v-GI7AmBO91UQqFVmQMcnpkqE_0_LZFWLGNr7eVPm
+}
+!procedure VisibilityOff($id, $name="Visibility Off", $tech="")
+  IconElement($id, 'material-4.0/Action/VisibilityOff', $name, $tech)
+!endprocedure
+!procedure VisibilityOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$VisibilityOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure VisibilityOffGroup($id, $name='Visibility Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$VisibilityOffLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $KeyboardArrowDownMd [14x14/16z] Ow0MOEO6aTpC41uZBmy30myl8qoMbuU75qanBvG3LSn8cTK
+sprite $KeyboardArrowDownLg [20x20/16z] OnXiW8KTGhEp8CIu-Dd1GlnS23567g0WK8Y7aG5L426448GB8G0F3wRTZ8m3xdq
+!procedure KeyboardArrowDown($id, $name="Keyboard Arrow Down", $tech="")
+  IconElement($id, 'material-4.0/Hardware/KeyboardArrowDown', $name, $tech)
+!endprocedure
+!procedure KeyboardArrowDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeyboardArrowDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeyboardArrowDownGroup($id, $name='Keyboard Arrow Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeyboardArrowDownLg>', $name, $tech)
+!endprocedure
+@enduml

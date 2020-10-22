@@ -1,0 +1,16 @@
+@startuml
+sprite $LinkOffMd [14x14/16z] NKsr0SD031GyYVVVDeeRmtN7y0Q-cDZBSttINKrNHgmcgsQxD7XLKrymsfqCsoz69vGObbz99Wm5_YTXPzOS9RWUH-q-4Ul94E637m
+sprite $LinkOffLg [20x20/16z] {
+bO-50SCm30HZPl_-srPKvazC9pv-Ld1FoAC_--LFq9EkJA07QMT11RCnT3ddib08EOpRd1FKHaJaZQ1VT4lqDBONmQJCOg_L1vpMA9HU8A6Y7Xiaxy7Xqikr
+Mr_-63C_mtZyeHC
+}
+!procedure LinkOff($id, $name="Link Off", $tech="")
+  IconElement($id, 'material-4.0/Content/LinkOff', $name, $tech)
+!endprocedure
+!procedure LinkOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinkOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinkOffGroup($id, $name='Link Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinkOffLg>', $name, $tech)
+!endprocedure
+@enduml

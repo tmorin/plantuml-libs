@@ -1,0 +1,13 @@
+@startuml
+sprite $HdrStrongMd [14x14/16z] bOt50G0X3C22Ezr_sdDzDb0trBWKxMwz1v9i1EWY1ISxqyI95RkNzk8lYlGf5Nz61e87yhdblP0i2bO
+sprite $HdrStrongLg [20x20/16z] lSxL0KCX30NGYplPVzlYzjztS4tmBU5J3chC9KEXgN5bobEPg3BIO810LcVYS3Gay7fPaaQaYOyzS-wLkL7tsnr3x1Y5l7BnTyuXvwZnOlY77m
+!procedure HdrStrong($id, $name="Hdr Strong", $tech="")
+  IconElement($id, 'material-4.0/Image/HdrStrong', $name, $tech)
+!endprocedure
+!procedure HdrStrongCard($id, $funcName="", $content="")
+  IconCard($id, '<$HdrStrongMd>', '', $funcName, $content)
+!endprocedure
+!procedure HdrStrongGroup($id, $name='Hdr Strong', $tech='')
+  IconGroup($id, 'IconGroup', '<$HdrStrongLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,6 +1,6 @@
 {
   "name": "@tmorin/plantuml-libs",
-  "version": "1.1.2",
+  "version": "2.0.0-alpha.2",
   "description": "Set of libraries for [PlantUML](http://plantuml.com).",
   "license": "MIT",
   "homepage": "https://github.com/tmorin/plantuml-libs#readme",
@@ -26,15 +26,24 @@
     "test": "test/test.sh"
   },
   "bin": {
-    "gdiag": "bin/gdiag.js"
+    "gdiag": "bin/gdiag.js",
+    "glib": "bin/glib.js"
   },
   "devDependencies": {
     "standard-version": "^9.0.0"
   },
   "dependencies": {
+    "csv-parse": "^4.12.0",
+    "dot": "^1.1.3",
+    "extract-zip": "^2.0.1",
     "glob": "^7.1.6",
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+    "lodash.snakecase": "^4.1.1",
     "moment": "^2.29.1",
     "node-fetch": "^2.6.1",
+    "rimraf": "^3.0.2",
+    "sharp": "^0.26.2",
     "winston": "^3.3.3",
     "yargs": "^16.1.0"
   }

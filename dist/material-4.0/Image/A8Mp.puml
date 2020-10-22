@@ -1,0 +1,16 @@
+@startuml
+sprite $A8MpMd [14x14/16z] NOs54S0m30DzvlB-qpQC7pH9i85KmHHydHXoV1wLApuCGF6vYJr5fNQHs8XUqxjrEiUAiPSQCzFBIgKcxlmowaUffiydRnhatHsGAmWR0G
+sprite $A8MpLg [20x20/16z] {
+ZT250K0H00JGawVjF-tlJitJq1wCetCanzBfcUefcD7SrCoESMguqJWFAuUocPjCQtytoRlfY7onP8qxdf5fhGqrMykoceE2H0qmS9MBoI3YQ5NifYQB0C9c
+efPfNihR6ScFRwlPR-VU_s3_goavW_RG0m
+}
+!procedure A8Mp($id, $name="A8 Mp", $tech="")
+  IconElement($id, 'material-4.0/Image/A8Mp', $name, $tech)
+!endprocedure
+!procedure A8MpCard($id, $funcName="", $content="")
+  IconCard($id, '<$A8MpMd>', '', $funcName, $content)
+!endprocedure
+!procedure A8MpGroup($id, $name='A8 Mp', $tech='')
+  IconGroup($id, 'IconGroup', '<$A8MpLg>', $name, $tech)
+!endprocedure
+@enduml

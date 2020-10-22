@@ -1,0 +1,16 @@
+@startuml
+sprite $TheaterComedyMd [14x14/16z] RSr50e0m30J0r1jZ__zQe7RhtA9B5p5Dks8CTYeNgFgfh47OrqairUqPcuQXvr8XH6u6ULW1fB_gWcPSJKQ0OPmmBOgM67LN2JyFj6LrZdJp0G
+sprite $TheaterComedyLg [20x20/16z] {
+bSZLGGH03431h2Thh_zk8N3kDvyZtwhQz5VJUBx5GJdVV72Bq27fzPK1nIwlj87pIwF_gzbocP152WSprbAK7Vps1ZOZurJyQW0JPZwKtp1OofAYBSh_7Imv
+oT12J8jnlh3PfXEQd5LmypoU6nX1heHSehpn0m
+}
+!procedure TheaterComedy($id, $name="Theater Comedy", $tech="")
+  IconElement($id, 'material-4.0/Maps/TheaterComedy', $name, $tech)
+!endprocedure
+!procedure TheaterComedyCard($id, $funcName="", $content="")
+  IconCard($id, '<$TheaterComedyMd>', '', $funcName, $content)
+!endprocedure
+!procedure TheaterComedyGroup($id, $name='Theater Comedy', $tech='')
+  IconGroup($id, 'IconGroup', '<$TheaterComedyLg>', $name, $tech)
+!endprocedure
+@enduml

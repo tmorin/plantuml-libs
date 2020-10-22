@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceVmImagesClassicMd [14x14/16z] LSU70GGm2090G4tTVzyd-NvMygFS4PbnE4UHGLmAfYG_bMShIPwGNI0B5htwafyY1RKsfq2L502p4GmLlM0diFtfDBIzaeQhragyvPYh1vvKref-7m
+sprite $ServiceVmImagesClassicLg [20x20/16z] {
+ROw5bS0m3CNymKvX_ts3nwUIdXgAVw34WIP7MUNCz67eV1Gaum0IeH9oDH3p9MCsnq1ESmbS2gyqcdsQOv9brrtBtNnQrlsqpwRTshF64QCXfpdRNHoctJ1F
+eJG2e92Nmn9YGtcsuZSaKTMkpJquMd5extixVjAUvtV3DLhzI6fhlUHNOjR6CUa
+}
+!procedure ServiceVmImagesClassic($id, $name="Service Vm Images Classic", $tech="")
+  IconElement($id, 'azure-v2/Item/Compute/ServiceVmImagesClassic', $name, $tech)
+!endprocedure
+!procedure ServiceVmImagesClassicCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceVmImagesClassicMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ServiceVmImagesClassicGroup($id, $name='Service Vm Images Classic', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceVmImagesClassicLg>', $name, $tech)
+!endprocedure
+@enduml

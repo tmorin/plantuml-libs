@@ -1,0 +1,21 @@
+@startuml
+sprite $BoardMd [14x14/16z] NOxL0SLG24Eluf3zftqkRSyV4caNrfVdOAWtaCTKzFdHU4vxeoWm2VwO5W5iDJZxwrP5R9t1psc8hC9wJD_Fn3ny-jVbco1nJZytkt87
+sprite $BoardLg [20x20/16z] {
+ZP055WGX34Ehuv3xttPVwBfdb5-l_ArOvkMiUPa6CZne9ajCQXSvTh902e_2Hx2hqY-5GT5HVqaMWtcnDjiTYqmLvYlMUk--7OSBqAFoHOGhOuizvhl5ljHu
+xUMrPzFti_dB3WXVTlMlJW
+}
+!procedure GroupBoard($id, $name='Group Board', $tech='')
+  IconGroup($id, 'GroupBoard', '<$BoardLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupBoard>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

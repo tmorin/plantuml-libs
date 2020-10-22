@@ -1,0 +1,16 @@
+@startuml
+sprite $PartyModeMd [14x14/16z] VOo54S1G24C3DVJ-_jFMtTuPnF20OuJdipRBCf9cDH1b9vPFc6N_1Eg-VwHZJRQl6sUKzvwxGVQl8-gstixurRPJuuy1
+sprite $PartyModeLg [20x20/16z] {
+fT053e0m44JHgTlA_K-BEpJ6Ysr-e8O-5oRkbhmkF3QnrQehgRN5-IzzS43OHfPj27jh5Z3rrYfCp2dTcZMiYxCnba-obRE9oNEBuBtjsDZhUf9IZWRrTfPY
+0DlqR0lcSz_ttROtEBM8NqO
+}
+!procedure PartyMode($id, $name="Party Mode", $tech="")
+  IconElement($id, 'material-4.0/Social/PartyMode', $name, $tech)
+!endprocedure
+!procedure PartyModeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PartyModeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PartyModeGroup($id, $name='Party Mode', $tech='')
+  IconGroup($id, 'IconGroup', '<$PartyModeLg>', $name, $tech)
+!endprocedure
+@enduml

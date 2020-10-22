@@ -1,0 +1,13 @@
+@startuml
+sprite $WeekendMd [14x14/16z] VSg54SCm341HqHdK9d__QSDqv6SGofYQRanbLxYKlKekkU-zCvMWTtPxZCA_CRFTzgSMfb8FPQ9KFghpuQBsK1bP0G
+sprite $WeekendLg [20x20/16z] hSZ50GGX343H66xzLxioYjxuQ1xiZqAALodWQQvKkTDyRVuqMvlzYtYs5OaNm58ovnFERqRw_UGr-LtqDxRkol9jJZ-vs-fM1YPr6TZT5m
+!procedure Weekend($id, $name="Weekend", $tech="")
+  IconElement($id, 'material-4.0/Content/Weekend', $name, $tech)
+!endprocedure
+!procedure WeekendCard($id, $funcName="", $content="")
+  IconCard($id, '<$WeekendMd>', '', $funcName, $content)
+!endprocedure
+!procedure WeekendGroup($id, $name='Weekend', $tech='')
+  IconGroup($id, 'IconGroup', '<$WeekendLg>', $name, $tech)
+!endprocedure
+@enduml

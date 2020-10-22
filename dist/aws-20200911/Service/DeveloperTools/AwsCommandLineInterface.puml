@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCommandLineInterfaceMd [14x14/16z] BSk54G1124FHCopP_kizx8y-c03HUOTitT9AgfAeMfxDlzAdawG8XSzKF59KQwxuHH8I-pCHRr7fHBR252tJp01Ln3c75Rh5yWS
+sprite $AwsCommandLineInterfaceLg [20x20/16z] {
+RS-54SGm34JHcOXNxh_Ua_deXr_81X0xN_stNSoc2GllYAUHLbvPHTDucrzxHExBJracE97OaSSqv_FRikY6L4RrRjanfnwhpRoMG53ivyYo_zmGl2syNgy0
+JCjwjqruiplrS0f4FQ4ouW2K1MKjMszzRkpMvQHLEtZr1G
+}
+!procedure AwsCommandLineInterface($id, $name="Aws Command Line Interface", $tech="")
+  IconElement($id, 'aws-20200911/Service/DeveloperTools/AwsCommandLineInterface', $name, $tech)
+!endprocedure
+!procedure AwsCommandLineInterfaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCommandLineInterfaceMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsCommandLineInterfaceGroup($id, $name='Aws Command Line Interface', $tech='')
+  IconGroup($id, 'DeveloperToolsFamily', '<$AwsCommandLineInterfaceLg>', $name, $tech)
+!endprocedure
+@enduml

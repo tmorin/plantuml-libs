@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRdsAwsRdsInstanceAltMd [14x14/16z] fOx50GD130EzaKPE_mqVu_jcmGmEkN1gr4NujM9v0O4w2mqTawgnt8qr4raww_nduUg2btTOgOiFrdlh6G
+sprite $AwsRdsAwsRdsInstanceAltLg [20x20/16z] {
+lP15WWC020C94Dd_FtZhtdE76vx0USF8rXlh5FYMJ6h_GAbtHwEcJZdbc3BNGyfodt8h7l4vloIEkGUuxvkjtPfvlc5BOl2Io_0OUiv9Qy_aEOS2KFCo--2d
+kKzFyytx0m
+}
+!procedure AwsRdsAwsRdsInstanceAlt($id, $name="Aws Rds Aws Rds Instance Alt", $tech="")
+  IconElement($id, 'aws-20200430/Item/Database/AwsRdsAwsRdsInstanceAlt', $name, $tech)
+!endprocedure
+!procedure AwsRdsAwsRdsInstanceAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRdsAwsRdsInstanceAltMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AwsRdsAwsRdsInstanceAltGroup($id, $name='Aws Rds Aws Rds Instance Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsRdsAwsRdsInstanceAltLg>', $name, $tech)
+!endprocedure
+@enduml

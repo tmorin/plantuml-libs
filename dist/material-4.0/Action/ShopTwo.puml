@@ -1,0 +1,16 @@
+@startuml
+sprite $ShopTwoMd [14x14/16z] NOq55WGn24DJwWRtl-q-P6r-5KjWb34Qtf2SBH5Igf9m9aW3ba3Bf2zxL4VIbmPhD8v52KMZxX4gVoEUelH-887LK7epHaFdMejIYtgVw_32anS
+sprite $ShopTwoLg [20x20/16z] {
+RO-50S0m20GXRl3xJrjtUl6B0PsmMw0N0IlbvHfAoOAFsxjhBMC08W8iCzbU5RpOtC2ANevBsCyfvzCvbDs1oTNJvSiHYpaNrTmjzZs1TNYvz12AIgjxmaoB
+Qo6UX1Z89bltmz4S-sC6
+}
+!procedure ShopTwo($id, $name="Shop Two", $tech="")
+  IconElement($id, 'material-4.0/Action/ShopTwo', $name, $tech)
+!endprocedure
+!procedure ShopTwoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShopTwoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShopTwoGroup($id, $name='Shop Two', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShopTwoLg>', $name, $tech)
+!endprocedure
+@enduml

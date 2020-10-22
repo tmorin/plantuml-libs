@@ -1,0 +1,16 @@
+@startuml
+sprite $SimpleStorageServiceStandardMd [14x14/16z] DSw55SCm34NHzodf_WkNV7BDA05AsfWVRucThg2BHulkrJ_fNPZIdoY10Sn03HEGpSnd1r1tlqJ2eSlWFgkUxl1_DOxpfCi_-FXJ-cJz0G
+sprite $SimpleStorageServiceStandardLg [20x20/16z] {
+JP07ZiL024DDiVsrzp_m2er0USaqEk0HcHd0aTJ2V1PonrgNF7SrlfH7vlp6qSWeMko1iYG0JI2hXqgWE0443FaEzjoVBFvUNCqUtZgi0invE3v9wH_NUkcV
+HiO2ZjHbEeft7DrhlboWC8vBADwiw0jYQx1NUxFF5Vm3
+}
+!procedure SimpleStorageServiceStandard($id, $name="Simple Storage Service Standard", $tech="")
+  IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageServiceStandard', $name, $tech)
+!endprocedure
+!procedure SimpleStorageServiceStandardCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimpleStorageServiceStandardMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure SimpleStorageServiceStandardGroup($id, $name='Simple Storage Service Standard', $tech='')
+  IconGroup($id, 'StorageFamily', '<$SimpleStorageServiceStandardLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MovieMd [14x14/16z] hSSt5e102431_zmSWFkVrgmbrKutU69dwuH661Mc5MP1CYhND3QDNUAuzvkh5liluZa
+sprite $MovieLg [20x20/16z] pSYr0SCm04N19sRz_RTD4x9ByvN7Bh4vR0jG4-JQ73YfGPzGPKbIW239unMnAj0_rtsO8_YkwEld_ZtjtFeS45lzqoAxl
+!procedure Movie($id, $name="Movie", $tech="")
+  IconElement($id, 'material-4.0/Av/Movie', $name, $tech)
+!endprocedure
+!procedure MovieCard($id, $funcName="", $content="")
+  IconCard($id, '<$MovieMd>', '', $funcName, $content)
+!endprocedure
+!procedure MovieGroup($id, $name='Movie', $tech='')
+  IconGroup($id, 'IconGroup', '<$MovieLg>', $name, $tech)
+!endprocedure
+@enduml

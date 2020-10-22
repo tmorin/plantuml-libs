@@ -1,0 +1,16 @@
+@startuml
+sprite $PermPhoneMsgMd [14x14/16z] NOq50iGm40BPkFF_trxysavq3V116zMlmGZ82d1WPaHPKIzA8_Mj8JEEpbBg6BGKoFnDIe8e71Jzq9OT6YP4jgPsjLxDYStJw29QuyCF
+sprite $PermPhoneMsgLg [20x20/16z] {
+ZShHkaHG34FXD5H1vVtVzdIVcO5zvR_B-eBN634xW9XBp2DAg1XC7_FP23jkpLNy-QFA_6n8ATcrkINWK8pkJZJKZg89DtERvhYpr83U8BN8sMbd7AK9J9Nf
+UgQsL3FZP8jqjXFdL0ayqMCcNli3
+}
+!procedure PermPhoneMsg($id, $name="Perm Phone Msg", $tech="")
+  IconElement($id, 'material-4.0/Action/PermPhoneMsg', $name, $tech)
+!endprocedure
+!procedure PermPhoneMsgCard($id, $funcName="", $content="")
+  IconCard($id, '<$PermPhoneMsgMd>', '', $funcName, $content)
+!endprocedure
+!procedure PermPhoneMsgGroup($id, $name='Perm Phone Msg', $tech='')
+  IconGroup($id, 'IconGroup', '<$PermPhoneMsgLg>', $name, $tech)
+!endprocedure
+@enduml

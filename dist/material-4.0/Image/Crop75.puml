@@ -1,0 +1,13 @@
+@startuml
+sprite $Crop75Md [14x14/16z] dSUd0S1030D0wGjnq_xJfhCm7pjqqUlZ19RsUcojQuLF_QVrqJM6wg4Wkau
+sprite $Crop75Lg [20x20/16z] Ow0FO6H20enW8IO-VYJ0nmGIu-3dPEU00dPEVdQG63i_4y8S9duEY3h2OjZqOje14MF6S0kcc-a3
+!procedure Crop75($id, $name="Crop75", $tech="")
+  IconElement($id, 'material-4.0/Image/Crop75', $name, $tech)
+!endprocedure
+!procedure Crop75Card($id, $funcName="", $content="")
+  IconCard($id, '<$Crop75Md>', '', $funcName, $content)
+!endprocedure
+!procedure Crop75Group($id, $name='Crop75', $tech='')
+  IconGroup($id, 'IconGroup', '<$Crop75Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CompareMd [14x14/16z] XKu35WHH3Ak-aVkVTZ7svB4DwG_sD4DCFKZDv7_W3oxe-9qsN7zHDoBTNVPovSvkyKK5rp1TcRHpXRL16Nt2x-gmgVtF0N9Ojb_z1G
+sprite $CompareLg [20x20/16z] {
+fT150aCn20JGYL3YS__RjdpNLMS5BnuiSHwt59vQIPgq4pwffZWJvoo5cANL4BoFJ6QwcBF6CvtcdUpFUQqH8PpD5KB6oI8g4LaFzW5i7faMKsOuL9enh_F6
+BxIrblJs1-U_ahS_NUB3Ndy1
+}
+!procedure Compare($id, $name="Compare", $tech="")
+  IconElement($id, 'material-4.0/Image/Compare', $name, $tech)
+!endprocedure
+!procedure CompareCard($id, $funcName="", $content="")
+  IconCard($id, '<$CompareMd>', '', $funcName, $content)
+!endprocedure
+!procedure CompareGroup($id, $name='Compare', $tech='')
+  IconGroup($id, 'IconGroup', '<$CompareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsComprehendMd [14x14/16z] VOs30GD144MZ-Kh_zPwjjpjMZjYR061XgNGUVrmYTk-d9UgHbngWJhnqadzZYcInOuWanLNbwHuw-LHMNCmpBG
+sprite $AwsComprehendLg [20x20/16z] {
+fOtL4SD030LdeaUA-w_NpB_Uupt1_ni2IUJXaEv6FIHxsVAGD14HTNVnEjXtfqYQNNnp2p58z9cxqF8mc5USpJbtvkOqvyYa3zUsvzEGZdfGl01L7OsZ3UVt
+o_z5Oqxzo0G
+}
+!procedure AwsComprehend($id, $name="Aws Comprehend", $tech="")
+  IconElement($id, 'aws-20200430/Item/MachineLearning/AwsComprehend', $name, $tech)
+!endprocedure
+!procedure AwsComprehendCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsComprehendMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsComprehendGroup($id, $name='Aws Comprehend', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsComprehendLg>', $name, $tech)
+!endprocedure
+@enduml

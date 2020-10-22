@@ -1,0 +1,13 @@
+@startuml
+sprite $CommentMd [14x14/16z] LSU54GCn302mS6AwxhzjJKywLFbQV5kbyE_6DffBJOhXc6fWhW_LSxIsMXI3sbGzCI4diPkkdnt0zZYvDClN7m
+sprite $CommentLg [20x20/16z] VSx50G0X30J0v1Id_sfnjtb65vQkjtFvaj8TXG2l7hpx6a9MQ_-N_BL6Y_EkA1PpM6llymRFky_tB6h0jPfgW1MGLEiGNvkAKstB0W
+!procedure Comment($id, $name="Comment", $tech="")
+  IconElement($id, 'material-4.0/Communication/Comment', $name, $tech)
+!endprocedure
+!procedure CommentCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommentMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommentGroup($id, $name='Comment', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommentLg>', $name, $tech)
+!endprocedure
+@enduml

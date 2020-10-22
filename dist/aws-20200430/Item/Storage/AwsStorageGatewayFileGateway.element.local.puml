@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsStorageGatewayFileGateway element
+include('aws-20200430/Item/Storage/AwsStorageGatewayFileGateway')
+AwsStorageGatewayFileGateway('aws_storage_gateway_file_gateway', 'Aws Storage Gateway File Gateway', 'an optional tech field')
+@enduml

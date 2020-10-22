@@ -1,0 +1,16 @@
+@startuml
+sprite $AddToQueueMd [14x14/16z] POq55W0H440dtoRkVrhTFjC5AomT1d6su-JwHzj_bUY-HuJqVOGjKXVHqVc-yznrrSWW4M5Mvk9qByqbmu24Lugkw4029O9m4
+sprite $AddToQueueLg [20x20/16z] {
+bOw50S0m20JXuyh-qzRTUr7ywIjmVeS3SPK3bI615HOK1m74ZpsOnzTjVAMChp_vDdagHP6OrDPdPC3i-d5VotSpjZvhDpv7MqPVBHqvzwV_LG6vyTCpXiUw
+ZPODyCvt6_IB5W
+}
+!procedure AddToQueue($id, $name="Add To Queue", $tech="")
+  IconElement($id, 'material-4.0/Av/AddToQueue', $name, $tech)
+!endprocedure
+!procedure AddToQueueCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddToQueueMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddToQueueGroup($id, $name='Add To Queue', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddToQueueLg>', $name, $tech)
+!endprocedure
+@enduml

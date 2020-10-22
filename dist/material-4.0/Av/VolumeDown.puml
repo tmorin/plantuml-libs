@@ -1,0 +1,13 @@
+@startuml
+sprite $VolumeDownMd [14x14/16z] Oo0Cc1YHE8oyp4WolFpCZ51nRcvUVducJbQ813y8C77neFAWAdduG3msD5FWN3vc5DkP23eG
+sprite $VolumeDownLg [20x20/16z] hP150W0X54BjLkv_skd6tVYMFm4n1isbaAdaaRYqr9IuSC5705baVzKgLjOQv5ahPot1Tckygnu_qlV7IZYqV8f9437tC_ZF3
+!procedure VolumeDown($id, $name="Volume Down", $tech="")
+  IconElement($id, 'material-4.0/Av/VolumeDown', $name, $tech)
+!endprocedure
+!procedure VolumeDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolumeDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolumeDownGroup($id, $name='Volume Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolumeDownLg>', $name, $tech)
+!endprocedure
+@enduml

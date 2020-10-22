@@ -1,0 +1,13 @@
+@startuml
+sprite $HouseSidingMd [14x14/16z] XOk30K0n34Hh1RV_jD_cAtCmlmZlVoj4OfV1ALA2kca8AYp3LZyEW3FM6WU4OVHOy7Cjk86WRfwO1XZpX5PgBMsURBM7vvqU
+sprite $HouseSidingLg [20x20/16z] fSl50GH14090nXtoZ_RSPRK-hM0jQ_79aUvZvNNYyIg8rb81JqbAtcSfFbPP3_csAcAueGhEgZHmCtHT6Wmz39ZxjRQB-fBuwFxzTJtqnnzXBi37NoaVtGv7
+!procedure HouseSiding($id, $name="House Siding", $tech="")
+  IconElement($id, 'material-4.0/Places/HouseSiding', $name, $tech)
+!endprocedure
+!procedure HouseSidingCard($id, $funcName="", $content="")
+  IconCard($id, '<$HouseSidingMd>', '', $funcName, $content)
+!endprocedure
+!procedure HouseSidingGroup($id, $name='House Siding', $tech='')
+  IconGroup($id, 'IconGroup', '<$HouseSidingLg>', $name, $tech)
+!endprocedure
+@enduml

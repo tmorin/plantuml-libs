@@ -1,0 +1,13 @@
+@startuml
+sprite $ExpandMoreMd [14x14/16z] Ow0MOEO6aTpC41uZBmy30myl8qoMbuU75qanBvG3LSn8cTK
+sprite $ExpandMoreLg [20x20/16z] OnXiW8KTGhEp8CIu-Dd1GlnS23567g0WK8Y7aG5L426448GB8G0F3wRTZ8m3xdq
+!procedure ExpandMore($id, $name="Expand More", $tech="")
+  IconElement($id, 'material-4.0/Navigation/ExpandMore', $name, $tech)
+!endprocedure
+!procedure ExpandMoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExpandMoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExpandMoreGroup($id, $name='Expand More', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExpandMoreLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20200430 bootstrap
+include('aws-20200430/bootstrap')
+' loads the AwsSageMaker element
+include('aws-20200430/Item/MachineLearning/AwsSageMaker')
+AwsSageMaker('aws_sage_maker', 'Aws Sage Maker', 'an optional tech field')
+@enduml

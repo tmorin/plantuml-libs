@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSiteToSiteVpnMd [14x14/16z] XSc55GD120JGs1ZRVxsnSyV_etQYpH4favXmlAL4LASNAOaOdh317c7nM-cb1ZHDiYSnTj2hz8-wY0y
+sprite $AwsSiteToSiteVpnLg [20x20/16z] {
+bOk54SCm5CKA7nvq_tLBuUJ8CkjaZM9VNJVFAghYA9rjCtQ6gVernUGQtNFcdjvrsdMpV6PLFGFMZ3l9gj_QkJBp6-7eb47tmKc_zz6z_3qEVn7z9_zkfcUe
+3SzeY0y
+}
+!procedure AwsSiteToSiteVpn($id, $name="Aws Site To Site Vpn", $tech="")
+  IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsSiteToSiteVpn', $name, $tech)
+!endprocedure
+!procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSiteToSiteVpnMd>', 'NetworkingContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsSiteToSiteVpnGroup($id, $name='Aws Site To Site Vpn', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsSiteToSiteVpnLg>', $name, $tech)
+!endprocedure
+@enduml

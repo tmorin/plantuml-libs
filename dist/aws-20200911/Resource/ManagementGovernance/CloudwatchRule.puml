@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudwatchRuleMd [14x14/16z] JSi74WCn20H14MR1__-mlNTENQeWO0B8OuQoHWPJr6iK9ZMjwZYcIN9d5nFJa3KtxL-NQhmx5XFkzh6DjHfbxzmstKLQ2L1MVBkW6LTI3zUuCgztdW
+sprite $CloudwatchRuleLg [20x20/16z] {
+RT074WGX20H068K1x_x_tOtKvgwiPC5ARl1ZC5rnK478Wb7865ZVJirCul66VovlcbpWY7CXnDoToTC0nlRc9wk-vgVgUmA5G8ggrej6jhLla8nUZmPPttnz
+otEDICLelVjNt-PMQA--VU-BytuwOkiHiTzFLmRLh0Xc75Bbmmm
+}
+!procedure CloudwatchRule($id, $name="Cloudwatch Rule", $tech="")
+  IconElement($id, 'aws-20200911/Resource/ManagementGovernance/CloudwatchRule', $name, $tech)
+!endprocedure
+!procedure CloudwatchRuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudwatchRuleMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure CloudwatchRuleGroup($id, $name='Cloudwatch Rule', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$CloudwatchRuleLg>', $name, $tech)
+!endprocedure
+@enduml

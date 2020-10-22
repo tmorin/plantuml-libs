@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceConsortiumMd [14x14/16z] FSxL0O1G20LGtWt2_VUrzVpHn6d9Pbo-IEkBbFBmZpfdqzC6g6fhBgoGB489a8GjDyuMYtdop1LbvTGPJX64CriB5YIH49wr9ilnGhhcZy9PpVZnVVC
+sprite $ServiceConsortiumLg [20x20/16z] {
+RT250KGX30FGIf8MzX_uohdbAm_77ebq-uedlZ504l5353zC8hJNXrMhzkutCQZLUodD_IgO9CSgSX8M2HwB928E7ZbKSfjEu1Z5SzUkaR4Ys3McMSJ3Yjs5
+OqiAZt3ecCmXDPa9p4CM_ReOjv59Xitz28c4Ekqj55NznzQd1QHk-lSvC-zq0G
+}
+!procedure ServiceConsortium($id, $name="Service Consortium", $tech="")
+  IconElement($id, 'azure-v2/Item/Blockchain/ServiceConsortium', $name, $tech)
+!endprocedure
+!procedure ServiceConsortiumCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceConsortiumMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+!procedure ServiceConsortiumGroup($id, $name='Service Consortium', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceConsortiumLg>', $name, $tech)
+!endprocedure
+@enduml

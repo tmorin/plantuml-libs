@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceDataBoxEdgeMd [14x14/16z] XSa54WGX34JHT4Vt_WV6eNpdeRyYN-Zk-Y8dsw6H2ySVKRavHCtzp2ff1chK5eG0NWS1yDGlJ44zbI1rudWfVtK
+sprite $ServiceDataBoxEdgeLg [20x20/16z] {
+hOu53iL024GNHkZU_y1rZNxf2x67JNk3011F8zjbFbIjM9UZQoVlPeV7td0vSta4IQwRpHOam7dsH0bcPDANAo3NmFT18jfIgliSzhc-gwvSbZEXeUyiVq7m
+HcwXSo7Qrqm
+}
+!procedure ServiceDataBoxEdge($id, $name="Service Data Box Edge", $tech="")
+  IconElement($id, 'azure-v2/Item/Migrate/ServiceDataBoxEdge', $name, $tech)
+!endprocedure
+!procedure ServiceDataBoxEdgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceDataBoxEdgeMd>', 'Migrate', $funcName, $content)
+!endprocedure
+!procedure ServiceDataBoxEdgeGroup($id, $name='Service Data Box Edge', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceDataBoxEdgeLg>', $name, $tech)
+!endprocedure
+@enduml

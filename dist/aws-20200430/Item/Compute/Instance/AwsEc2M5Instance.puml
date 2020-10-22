@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsEc2M5InstanceMd [14x14/16z] PKw30S1033p-_XlNRkmS055SH5Y8QRf8XWdOQsjjsb29WrWXkh9iFKEqrXv3Z0nNOBXcSQIkcKeGfFIxylrWyo3xW-oDUWO
+sprite $AwsEc2M5InstanceLg [20x20/16z] {
+RP250SH020G7MVZ-6twB9ypvuG2u4Vl6WfmYOzd-fAhK-vO02kmW19vbdB1AzxZ_XOEkVuAeDbYcErXNB7eTl3paYzxYhvJjALlyBNzAPM1jfnY2Z93ECHQC
+9SQKovJpLDlGWw5NSq-dtdy
+}
+!procedure AwsEc2M5Instance($id, $name="Aws Ec2 M5 Instance", $tech="")
+  IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2M5Instance', $name, $tech)
+!endprocedure
+!procedure AwsEc2M5InstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsEc2M5InstanceMd>', 'Compute/Instance', $funcName, $content)
+!endprocedure
+!procedure AwsEc2M5InstanceGroup($id, $name='Aws Ec2 M5 Instance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwsEc2M5InstanceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $DeveloperModeMd [14x14/16z] POv50e0m30ItNYpv_szXSi6c6bz9fGT5aCm3IrZPpOx3p7DOzdoKQfLg9J5IfpIz28eFdk6LfxuiWXXa0brQbNuJc7vSCFsdJ6KWUj3b1
+sprite $DeveloperModeLg [20x20/16z] {
+RP250OGm4C3ESDj_sbT2DVLSNRuOgC1uFOou8xaTjtVSSPh_iFF0RLlUWvY-zHIIyEjI4RikJ-eU11A5p7f4GvBC5F6JCn8nV-kPMPqxypRxaBsj_mV97RWf
+_rCmlp7vyWO
+}
+!procedure DeveloperMode($id, $name="Developer Mode", $tech="")
+  IconElement($id, 'material-4.0/Device/DeveloperMode', $name, $tech)
+!endprocedure
+!procedure DeveloperModeCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeveloperModeMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeveloperModeGroup($id, $name='Developer Mode', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeveloperModeLg>', $name, $tech)
+!endprocedure
+@enduml

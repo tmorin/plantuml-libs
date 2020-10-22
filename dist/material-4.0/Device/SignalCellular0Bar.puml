@@ -1,0 +1,13 @@
+@startuml
+sprite $SignalCellular0BarMd [14x14/16z] TSUr0G1130Em7AFZ_QTzPb0d-UMloRWaiP_9Mivbse0pJY8kcNTatf5ZYLPcOLvc2N4IwZIFZfLMkHi1
+sprite $SignalCellular0BarLg [20x20/16z] dSYr0SCm5431BsPf_saJupDMllBag-WU5OPx5YTKvwZYzwEgsFqe9OwZk5Dn57SfZk8eRgso1ZTLzzQjR5mkZOlbt8sIDty
+!procedure SignalCellular0Bar($id, $name="Signal Cellular0 Bar", $tech="")
+  IconElement($id, 'material-4.0/Device/SignalCellular0Bar', $name, $tech)
+!endprocedure
+!procedure SignalCellular0BarCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignalCellular0BarMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignalCellular0BarGroup($id, $name='Signal Cellular0 Bar', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignalCellular0BarLg>', $name, $tech)
+!endprocedure
+@enduml

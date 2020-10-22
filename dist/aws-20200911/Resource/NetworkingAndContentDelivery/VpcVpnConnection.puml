@@ -1,0 +1,16 @@
+@startuml
+sprite $VpcVpnConnectionMd [14x14/16z] JSc55GCn30JHsHN5wR_VmF4O_nF_b2dED1dZKstGyCzD0PHQy5fzz1vG7JDAW7jrLQqsG9Qqdqs1kasSeaSFPV6G1DxL3lzsRL8T6Ru
+sprite $VpcVpnConnectionLg [20x20/16z] {
+PSzPbWCn24DH92XRk7l_wms7fERd-VxPzaXxH4aPTrfkXZkgNym3jZBqJS3MbvbW400Hv1f5_DUiqTKb_r0OMSkw09RtpGrfdMYq3j9Ijr8_Sm447GGKFvlz
+aVGwnjLcU3xDC-DfDgQzR1jl0z_M7SOrzMikjn_w4Qtw
+}
+!procedure VpcVpnConnection($id, $name="Vpc Vpn Connection", $tech="")
+  IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcVpnConnection', $name, $tech)
+!endprocedure
+!procedure VpcVpnConnectionCard($id, $funcName="", $content="")
+  IconCard($id, '<$VpcVpnConnectionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure VpcVpnConnectionGroup($id, $name='Vpc Vpn Connection', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$VpcVpnConnectionLg>', $name, $tech)
+!endprocedure
+@enduml

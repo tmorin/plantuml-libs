@@ -1,0 +1,16 @@
+@startuml
+sprite $SettingsOverscanMd [14x14/16z] LOq50a0n249Pfth_q_wEyPOMW0dn8o2Q7eYSjyKopuQKpdlMEshjYiePtTnHhlU_v3Cg554dgR03koEa-902c1q
+sprite $SettingsOverscanLg [20x20/16z] {
+ZT030WKX50NGfp7k_bVxCSnria6jP1WzWn3l2Emic5ZbHy-S9uXWfCEwdkNmzjco6FsDTz_jdMTCDplxXXvl7_gpRm2zVKEqbktUxzPmb_3EB3-iUfOZ9FK7
+f6D0gTKN
+}
+!procedure SettingsOverscan($id, $name="Settings Overscan", $tech="")
+  IconElement($id, 'material-4.0/Action/SettingsOverscan', $name, $tech)
+!endprocedure
+!procedure SettingsOverscanCard($id, $funcName="", $content="")
+  IconCard($id, '<$SettingsOverscanMd>', '', $funcName, $content)
+!endprocedure
+!procedure SettingsOverscanGroup($id, $name='Settings Overscan', $tech='')
+  IconGroup($id, 'IconGroup', '<$SettingsOverscanLg>', $name, $tech)
+!endprocedure
+@enduml

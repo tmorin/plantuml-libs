@@ -1,0 +1,16 @@
+@startuml
+sprite $ServiceActiveDirectoryConnectHealthMd [14x14/16z] LOt70K0n24AZ89Zz1_wzlflInW4mFe2_GtYE92Gy1oavZoEuN_Pn1dPqdX6vusxt972SlLss4iX8j8jW7S58LQ9KvqJIrjIuHeoQDJxiSoi
+sprite $ServiceActiveDirectoryConnectHealthLg [20x20/16z] {
+VT1N0aGX24FH1oH1zx_X2TFx_JnsZxz5V52YFgZ8V2TGhnY5eiHuiiAOyPaSMzrtpA5YJxXJLIKatJ067DfP6Rv-Nk9olTPMPiMp6JiI5LRRjX0YB_SznbON
+AvEw7foHr8ZGjgbcWsA3tYxlVs2PlC7JBuYPyaLUlYiyWg4J
+}
+!procedure ServiceActiveDirectoryConnectHealth($id, $name="Service Active Directory Connect Health", $tech="")
+  IconElement($id, 'azure-v2/Item/Identity/ServiceActiveDirectoryConnectHealth', $name, $tech)
+!endprocedure
+!procedure ServiceActiveDirectoryConnectHealthCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServiceActiveDirectoryConnectHealthMd>', 'Identity', $funcName, $content)
+!endprocedure
+!procedure ServiceActiveDirectoryConnectHealthGroup($id, $name='Service Active Directory Connect Health', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServiceActiveDirectoryConnectHealthLg>', $name, $tech)
+!endprocedure
+@enduml

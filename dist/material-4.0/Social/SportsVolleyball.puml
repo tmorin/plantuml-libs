@@ -1,0 +1,19 @@
+@startuml
+sprite $SportsVolleyballMd [14x14/16z] {
+POgr0GH14CCqi0pklzl7x9GOUM0pSyRVUwfKQNpJwg5g-nTJxPsWN2MCTte_ZpC7RDLKvljey4xDmiotL64gg5AITu9R7DrA3NFWFNJ-Hx0UFYKD_eoxP_BW
+1G
+}
+sprite $SportsVolleyballLg [20x20/16z] {
+VP07Si102CGMS7T0__zjviwa5qqN7Vr3IF7D5ExaOLApQ6Kug52hqW9k31vfXLO8-Gsa3NV0p9DfITY7gtPUcxHHaWBQmKl8JfVMnwLP0PT9QdTsvwTVG9aK
+zntogxUf75s0SYco-jAjWDEqR7trt8hRPsKkKa_9jIUmgkKkhJbCBVhWcgP_rLYiQ-WVNW4
+}
+!procedure SportsVolleyball($id, $name="Sports Volleyball", $tech="")
+  IconElement($id, 'material-4.0/Social/SportsVolleyball', $name, $tech)
+!endprocedure
+!procedure SportsVolleyballCard($id, $funcName="", $content="")
+  IconCard($id, '<$SportsVolleyballMd>', '', $funcName, $content)
+!endprocedure
+!procedure SportsVolleyballGroup($id, $name='Sports Volleyball', $tech='')
+  IconGroup($id, 'IconGroup', '<$SportsVolleyballLg>', $name, $tech)
+!endprocedure
+@enduml
