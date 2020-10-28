@@ -19,7 +19,7 @@ include('aws-20200430/Group/GroupStepFunctionsWorkflow')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/feat/generate-all-libraries/public"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/master/generate-all-libraries/public"
 ' loads the library
 !include $LIB_BASE_LOCATION/bootstrap.puml
 ' loads the aws-20200430 style
