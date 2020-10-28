@@ -10,7 +10,7 @@ elements/aws/Compute/Instance/AwsEc2M5aInstance
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library
@@ -47,7 +47,7 @@ AwsEc2M5aInstance('element', 'Ec2 M5a Instance', 'an optional tech field')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library

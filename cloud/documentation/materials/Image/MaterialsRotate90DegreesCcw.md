@@ -10,7 +10,7 @@ elements/materials/Image/MaterialsRotate90DegreesCcw
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library
@@ -47,7 +47,7 @@ MaterialsRotate90DegreesCcw('element', 'Rotate90 Degrees Ccw', 'an optional tech
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library

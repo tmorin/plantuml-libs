@@ -10,7 +10,7 @@ elements/aws/Analytics/AwsElasticsearchService
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library
@@ -47,7 +47,7 @@ AwsElasticsearchService('element', 'Elasticsearch Service', 'an optional tech fi
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 
 ' loads the library

@@ -7,7 +7,7 @@
 
 ' by default the branch is master
 !if (%not(%variable_exists("$LIB_BRANCH")))
-    !global $LIB_BRANCH="master"
+    !global $LIB_BRANCH="v1.x"
 !endif
 
 !if ($INCLUSION_MODE == "remote")

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 export LIB_NAME="perso"
-export LIB_BRANCH="master"
+export LIB_BRANCH="v1.x"
 
 . lib.sh
 

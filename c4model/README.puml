@@ -1,5 +1,5 @@
 @startuml(id=person)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -7,7 +7,7 @@ Person("p1", "A person", "An optional description.")
 @enduml
 
 @startuml(id=external_person)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -15,7 +15,7 @@ ExternalPerson("ep1", "An external person", "An optional description.")
 @enduml
 
 @startuml(id=system)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -23,7 +23,7 @@ System("s1", "A system", "An optional description.")
 @enduml
 
 @startuml(id=external_system)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -31,7 +31,7 @@ ExternalSystem("es1", "An external system", "An optional description.")
 @enduml
 
 @startuml(id=container)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -39,7 +39,7 @@ Container("c1", "A container", "An optional description.", "optional technology"
 @enduml
 
 @startuml(id=database)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -47,7 +47,7 @@ Database("d1", "A database", "An optional description.", "optional technology")
 @enduml
 
 @startuml(id=component)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -55,7 +55,7 @@ Component("c1", "A component", "An optional description.", "optional technology"
 @enduml
 
 @startuml(id=boundary)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -72,7 +72,7 @@ Enterprise("e1", "An enterprise") {
 @enduml
 
 @startuml(id=relationship)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -82,7 +82,7 @@ p1 -> s1 : Relationship("an optional name", "optional technology")
 @enduml
 
 @startuml(id=title)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml
@@ -90,7 +90,7 @@ title("the title of the diagram", "an optional subtitle", "an optional version",
 @enduml
 
 @startuml(id=legend)
-!global $C4_LIB_BRANCH="master"
+!global $C4_LIB_BRANCH="v1.x"
 !global $C4_LIB_BASE_URL="https://raw.githubusercontent.com/tmorin/plantuml-libs/"+$C4_LIB_BRANCH+"/c4model"
 !includeurl $C4_LIB_BASE_URL/c4-all.puml
 ' !include c4-all.puml

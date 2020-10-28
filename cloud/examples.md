@@ -3,7 +3,7 @@
 ![chef automate architecture on aws](examples/aws-chef_automate_architecture_on_aws.png)
 ```plantuml
 @startuml
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 !includeurl $LIB_BASE_LOCATION/library.puml
 
@@ -42,7 +42,7 @@ instance3 -up-> instance1
 ![git to s3 webhooks](examples/aws-git_to_s3_webhooks.png)
 ```plantuml
 @startuml
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 !includeurl $LIB_BASE_LOCATION/library.puml
 
@@ -88,7 +88,7 @@ lambda1 -up-> git_server
 @startuml
 ' https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/ai/training-python-models
 
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 !includeurl $LIB_BASE_LOCATION/library.puml
 
@@ -125,7 +125,7 @@ cr -up-> mlc
 @startuml
 ' https://docs.google.com/presentation/d/1vjm5YdmOH5LrubFhHf1vlqW2O9Z2UqdWA8biN3e8K5U/edit#slide=id.g19bd855f64_0_292
 
-!global $LIB_BRANCH="master"
+!global $LIB_BRANCH="v1.x"
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/" + $LIB_BRANCH + "/cloud"
 !includeurl $LIB_BASE_LOCATION/library.puml
 

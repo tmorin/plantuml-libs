@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-libBranch=${LIB_BRANCH:="master"}
+libBranch=${LIB_BRANCH:="v1.x"}
 tmpDir=${TMP_DIR:="tmp"}
 libName=${LIB_NAME:=""}
 smSize=10
