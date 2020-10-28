@@ -5,7 +5,9 @@
 
 Tested with [PlantUML compiled Jar (Version 1.2020.9)](https://plantuml.com/download).
 
-The version 1 of the library is available in the v1.x branch.
+This is the **version 2** of the library.
+
+The **version 1** of the library is available in the **v1.x branch**.
 
 ## Presentation
 
