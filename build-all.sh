@@ -1,9 +1,9 @@
 #rm -Rf build
 set -ex
-npm run build:aws-20200430 -- $@
-npm run build:aws-20200911 -- $@
-npm run build:azure-v2 -- $@
-npm run build:c4model -- $@
-npm run build:eventstorming -- $@
-npm run build:homecloud -- $@
-npm run build:material-4.0 -- $@
+node bin/glib.js --pn aws-20200430 $@
+node bin/glib.js --pn aws-20200911 $@
+node bin/glib.js --pn azure-v2 $@
+node bin/glib.js --pn c4model $@
+node bin/glib.js --pn eventstorming $@
+node bin/glib.js --pn homecloud $@
+node bin/glib.js --pn material-4.0 $@
