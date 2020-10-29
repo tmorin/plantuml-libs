@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.0](https://github.com/tmorin/plantuml-libs/compare/v1.1.2...v2.0.0) (2020-10-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* full refactoring
+
+### Features
+
+* rewrite the binaries and the PlantUML library ([e5b889c](https://github.com/tmorin/plantuml-libs/commit/e5b889c0f7a1794ef5f1ccaface5c69062593cf9))
+
+
+### Bug Fixes
+
+* **aws-20200430:** fix branch name ([289c006](https://github.com/tmorin/plantuml-libs/commit/289c00609805dd6010f070112f74eac239e9aada))
+
 ### [1.1.2](https://github.com/tmorin/plantuml-libs/compare/v1.1.1...v1.1.2) (2020-10-16)
 
 
