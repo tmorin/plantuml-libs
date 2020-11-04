@@ -12,14 +12,16 @@ The **version 1** of the library is available in the **v1.x branch**.
 ## Presentation
 
 This repository hosts a [PlantUML] lib which provides several `packages`.
-Each package focus to a particular technology/approach (Amazon Web Services (AWS), C4 Model or even EventStorming and more).
+Each package focus on a particular technology/approach: Amazon Web Services (AWS), Azure, C4 Model or even EventStorming and more.
 
 The repository hosts also two command lines utilities.
 The first one (`glib`) helps to generate packages, the second one (`gdiag`) helps to use the packages within external projects in order to bootstrap a local and generate diagrams.
 
 ## PlantUML library
 
-The resources can be browsed, from GitHub, with Markdown pages directly in the [dist](dist/README.md) directory.
+The resources can be browsed, from GitHub, with Markdown pages directly in the [dist](dist) directory.
+
+Ready? [Show me the doc!](dist/README.md).
 
 The available packages:
 
