@@ -1,4 +1,4 @@
-# PlantUML Libs
+# PlantUML library
 
 ## Packages
 
