@@ -7,7 +7,7 @@ Library implementing elements highly inspired by [EventStorming](https://www.eve
 To include every thing:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 @enduml
 ```
 
@@ -15,8 +15,8 @@ To override constants (font size, colors):
 ```plantuml
 @startuml
 ' load the macros and constants
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-macros.puml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-constants.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-macros.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-constants.puml
 ' user override of the constants
 !define FONT_SIZE_NORMAL 20
 !define FONT_SIZE_SMALL 15
@@ -24,7 +24,7 @@ To override constants (font size, colors):
 !define COMMAND_COLOR_BG pink
 !define EVENT_COLOR_BG yellow
 ' load the styles
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-styles.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-styles.puml
 command(command, A command)
 event(event, An event)
 command -> event : produces
@@ -59,7 +59,7 @@ command -> event : produces
 The `person` and `system`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 person(person, a person)
 system(system, a system)
 @enduml
@@ -70,7 +70,7 @@ system(system, a system)
 The `facade_command` and `command`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 facade_command(facade_command, a facade command)
 command(command, a command)
 @enduml
@@ -81,7 +81,7 @@ command(command, a command)
 The `aggregate`, `event`, `domain_event` and `integration_event`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 aggregate(aggregate, an aggregate)
 event(event, an event)
 domain_event(domain_event, a domain event)
@@ -94,7 +94,7 @@ integration_event(integration_event, an integration event)
 The `read_model`, `query`, `result` and `user_interface`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 read_model(read_model, a read model)
 query(query, a query)
 result(result, a result)
@@ -107,7 +107,7 @@ user_interface(user_interface, a user interface)
 The `policy`, `process`, `saga`, `service` and `timer`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 policy(policy, a policy)
 process(process, a process)
 saga(saga, a saga)
@@ -121,7 +121,7 @@ timer(timer, a timer)
 The `comment`:
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 comment(comment)
 @enduml
 ```
@@ -132,7 +132,7 @@ comment(comment)
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 
 system(system)
 command(command1, command)
@@ -163,7 +163,7 @@ person -l-> user_interface : used by
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 
 person(person)
 system(system)
@@ -194,7 +194,7 @@ timer -u-> process : ends
 
 ```plantuml
 @startuml
-!include https://raw.githubusercontent.com/tmorin/plantuml-libs/master/eventstorming/eventstorming-all.puml
+!include https://raw.githubusercontent.com/tmorin/plantuml-libs/v1.x/eventstorming/eventstorming-all.puml
 
 legend()
 

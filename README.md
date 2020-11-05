@@ -1,6 +1,6 @@
 # plantuml-libs
 
-[![Integration](https://github.com/tmorin/plantuml-libs/workflows/Integration/badge.svg?branch=master)](https://github.com/tmorin/plantuml-libs/actions?query=workflow%3AIntegration+branch%3Amaster)
+[![Integration](https://github.com/tmorin/plantuml-libs/workflows/Integration/badge.svg?branch=v1.x)](https://github.com/tmorin/plantuml-libs/actions?query=workflow%3AIntegration+branch%3Av1.x)
 [![npm version](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs.svg)](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs)
 
 Tested with [PlantUML compiled Jar (Version 1.2020.18.jar)](https://plantuml.com/download).
