@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.2](https://github.com/tmorin/plantuml-libs/compare/v2.0.1...v2.0.2) (2020-11-05)
+
+
+### Bug Fixes
+
+* for the JVM, turning off the optimization compiler ([a951cda](https://github.com/tmorin/plantuml-libs/commit/a951cdac1b70768b75c2842a30e40663993ded76))
+* packages cannot be used remotely ([ae2bc45](https://github.com/tmorin/plantuml-libs/commit/ae2bc45f49146dae06c019a604a6901e377f8bdf))
+
 ### [2.0.1](https://github.com/tmorin/plantuml-libs/compare/v2.0.0...v2.0.1) (2020-10-31)
 
 
