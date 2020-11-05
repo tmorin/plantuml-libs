@@ -1,6 +1,6 @@
 @startuml
 
-!include style.puml
+include('aws-20200430/style')
 
 !procedure EsEntity($type, $stereotype, $id, $label="")
   !if ($label)
