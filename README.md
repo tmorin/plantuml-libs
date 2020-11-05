@@ -17,6 +17,10 @@ Each package focus on a particular technology/approach: Amazon Web Services (AWS
 The repository hosts also two command lines utilities.
 The first one (`glib`) helps to generate packages, the second one (`gdiag`) helps to use the packages within external projects in order to bootstrap a local and generate diagrams.
 
+## Contributing
+
+Thanks for your interest in contributing! There are many ways to contribute to this project. Get started [here](.github/CONTRIBUTING.md).
+
 ## PlantUML library
 
 The resources can be browsed, from GitHub, with Markdown pages directly in the [dist](dist) directory.
