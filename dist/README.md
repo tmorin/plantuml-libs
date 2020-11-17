@@ -22,7 +22,7 @@ Include remotely the library:
 !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
 
 ' loads the library
-!include $LIB_BASE_LOCATION/library.puml
+!include $LIB_BASE_LOCATION/bootstrap.puml
 @enduml
 ```
 
@@ -34,7 +34,7 @@ Include locally the library:
 !global $LIB_BASE_LOCATION="<the relative path to the /public directory>"
 
 ' loads the library
-!include $LIB_BASE_LOCATION/library.puml
+!include $LIB_BASE_LOCATION/bootstrap.puml
 @enduml
 ```
 
