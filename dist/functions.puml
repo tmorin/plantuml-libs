@@ -49,15 +49,15 @@
 ' Element
 
 !procedure IconElement($id, $icon, $name="", $tech="")
-card $id <<IconElement>> [
-  <img:getIcon($icon)>
-  !if ($name)
-    $name
+  !local $H="<img:" + getIcon($icon)+ ">"
+'  <img:getIcon($icon)>
+  !if ($label)
+    !$H=$H + "\n" + $name
   !endif
   !if ($tech)
-    <size:$FONT_SIZE_SM>[$tech]</size>
+    !$H=$H + "\n" + "<size:"+ $FONT_SIZE_SM + ">[" + $tech + "]</size>"
   !endif
-]
+  card $id <<IconElement>> as "$H"
 !endprocedure
 
 ' Card
@@ -70,30 +70,28 @@ card $id <<IconElement>> [
   !if ($sprite)
     !$S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
   !endif
-  Rectangle $id <<IconCard>> [
-    !if ($techName) && ($funcName)
-      !$ST="<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>"
-      !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
-      !$H=$T + "\l" + $S + $ST
-      !$V=$V + $H
-    !elseif ($techName)
-      !$ST="<color:" + $FONT_COLOR + ">" + $techName + "</color>"
-      !$H=$S + $ST
-      !$V=$V + $H
-    !elseif ($funcName)
-      !$T=$S + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
-      !$H=$T
-      !$V=$V + $H
-    !endif
-    !if ($H) && ($content)
-      !$F="\l----\l<size:" + $FONT_SIZE_SM + ">" + $content + "</size>"
-      !$V=$V + $F
-    !elseif ($content)
-      !$F="\l<size:" + $FONT_SIZE_SM + " + $content + "</size>"
-      !$V=$V + $F
-    !endif
-    $V
-  ]
+  !if ($techName) && ($funcName)
+    !$ST="<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>"
+    !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
+    !$H=$T + "\l" + $S + $ST
+    !$V=$V + $H
+  !elseif ($techName)
+    !$ST="<color:" + $FONT_COLOR + ">" + $techName + "</color>"
+    !$H=$S + $ST
+    !$V=$V + $H
+  !elseif ($funcName)
+    !$T=$S + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
+    !$H=$T
+    !$V=$V + $H
+  !endif
+  !if ($H) && ($content)
+    !$F="\l----\l<size:" + $FONT_SIZE_SM + ">" + $content + "</size>"
+    !$V=$V + $F
+  !elseif ($content)
+    !$F="\l<size:" + $FONT_SIZE_SM + " + $content + "</size>"
+    !$V=$V + $F
+  !endif
+  Rectangle $id <<IconCard>> as "$V"
 !endprocedure
 
 ' Group
