@@ -8,7 +8,7 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * documentation was wrong about boostrap snippets ([c45ac3f](https://github.com/tmorin/plantuml-libs/commit/c45ac3f4cfdec27a917bb7384933a6e7200dc747))
-* some creole feature are no more supported with recend plantuml versions ([4ebfa71](https://github.com/tmorin/plantuml-libs/commit/4ebfa71d0ae6e8383bbd3085b5649caa4d932e94))
+* some creole features are no more supported with recent plantuml versions ([4ebfa71](https://github.com/tmorin/plantuml-libs/commit/4ebfa71d0ae6e8383bbd3085b5649caa4d932e94))
 * some examples fail with recent plantuml versions ([0d84c9c](https://github.com/tmorin/plantuml-libs/commit/0d84c9cb41f65b34a33f57156d1325450dec6e1c))
 
 ### [2.0.2](https://github.com/tmorin/plantuml-libs/compare/v2.0.1...v2.0.2) (2020-11-05)
