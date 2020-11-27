@@ -3,7 +3,7 @@
 [![Integration](https://github.com/tmorin/plantuml-libs/workflows/Integration/badge.svg?branch=master)](https://github.com/tmorin/plantuml-libs/actions?query=workflow%3AIntegration+branch%3Amaster)
 [![npm version](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs.svg)](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs)
 
-Tested with [PlantUML compiled Jar (Version 1.2020.9)](https://plantuml.com/download).
+Tested with [PlantUML compiled Jar (Version 1.2020.20)](https://plantuml.com/download).
 
 This is the **version 2** of the library.
 
