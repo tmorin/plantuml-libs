@@ -31,5 +31,5 @@ lambda1 -down-> bucket_ssh
 lambda1 -down-> kms
 lambda1 -down-> bucket_output
 lambda1 -up-> git_server
-lambda1 -left[hidden]- lambda0
+lambda1 -[hidden]- lambda0
 @enduml
