@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/tmorin/plantuml-libs/compare/v2.0.5...v2.1.0) (2020-11-28)
+
+
+### Features
+
+* add new element for the homecloud package ([c9feec1](https://github.com/tmorin/plantuml-libs/commit/c9feec1a4a53021451998b6d1b4ff8069f400adb))
+
 ### [2.0.5](https://github.com/tmorin/plantuml-libs/compare/v2.0.4...v2.0.5) (2020-11-28)
 
 
