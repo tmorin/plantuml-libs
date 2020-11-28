@@ -1,6 +1,10 @@
 @startuml
 
-!include style.puml
+!if ($INCLUSION_MODE == "remote")
+  !include $LIB_BASE_LOCATION/{{= it.config.pkgDir }}/style.puml
+!else
+  !include style.puml
+!endif
 
 !procedure EsEntity($type, $stereotype, $id, $label="")
   !if ($label)

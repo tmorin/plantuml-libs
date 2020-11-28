@@ -1,3 +1,7 @@
 @startuml
-!include style.puml
+!if ($INCLUSION_MODE == "remote")
+  !include $LIB_BASE_LOCATION/dist/aws-20200911/style.puml
+!else
+  !include style.puml
+!endif
 @enduml
