@@ -1,6 +1,6 @@
 @startuml
 !if ($INCLUSION_MODE == "remote")
-  !include $LIB_BASE_LOCATION/{{= it.config.pkgDir }}/style.puml
+  !include $LIB_BASE_LOCATION/{{= it.config.pkgName }}/style.puml
 !else
   !include style.puml
 !endif
