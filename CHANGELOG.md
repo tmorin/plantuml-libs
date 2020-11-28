@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.4](https://github.com/tmorin/plantuml-libs/compare/v2.0.3...v2.0.4) (2020-11-28)
+
+
+### Bug Fixes
+
+* remote load doesn't work ([d82dd0e](https://github.com/tmorin/plantuml-libs/commit/d82dd0e01725882cefa43e231063bf8241197586))
+
 ### [2.0.3](https://github.com/tmorin/plantuml-libs/compare/v2.0.2...v2.0.3) (2020-11-27)
 
 
