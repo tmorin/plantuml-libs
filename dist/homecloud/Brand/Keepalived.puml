@@ -1,0 +1,13 @@
+@startuml
+sprite $KeepalivedMd [14x11/16z] VSRL0KCn34DHXJbt_sqRV_RHCKZw4iQQMSfpZQY8wHsJ9jrdQzbt5WIfG9KyB9gB6tPozJpCd9YijDXDgfkLTJXx5bS_
+sprite $KeepalivedLg [20x16/16z] bK-50S0W3ACurFw_Tkw-87M9-GCuAhwAKEeiI2I2ldCb7S3MygWbutK2ywnvL4KBKNf38jZUxbJRTN2zptMAxUILxwhsQiR5BgUTgpzp-uCM
+!procedure Keepalived($id, $name="Keepalived", $tech="")
+  IconElement($id, 'homecloud/Brand/Keepalived', $name, $tech)
+!endprocedure
+!procedure KeepalivedCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeepalivedMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure KeepalivedGroup($id, $name='Keepalived', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeepalivedLg>', $name, $tech)
+!endprocedure
+@enduml

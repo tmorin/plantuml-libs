@@ -1,6 +1,15 @@
 # homecloud
 
 
+## Presentation
+This package is used to document the project [homecloud](https://github.com/tmorin/homecloud-ansible).
+
+It implements elements based on :
+
+- [Material Design Icons](https://github.com/google/material-design-icons)
+- [Font Awesome](https://fontawesome.com)
+
+
 
 
 ## Bootstrap
@@ -31,8 +40,8 @@ include('homecloud/style')
 The package provides 3 modules.
 
 
-- [Element](element.md) with 21 elements
-- [Brand](brand.md) with 7 elements
+- [Element](element.md) with 22 elements
+- [Brand](brand.md) with 9 elements
 - [Group](group.md) with 9 elements
 
 # Examples

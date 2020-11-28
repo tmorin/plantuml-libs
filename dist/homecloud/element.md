@@ -1,6 +1,6 @@
 # Element
 
-The module Element contains 21 entries.
+The module Element contains 22 entries.
 
 - [Element](#family-element)
 
@@ -14,6 +14,7 @@ The module Element contains 21 entries.
 |![Cloud](../homecloud/Element/Cloud.element.png)|[homecloud/Element/Cloud](../homecloud/Element/Cloud.md)
 |![Container](../homecloud/Element/Container.element.png)|[homecloud/Element/Container](../homecloud/Element/Container.md)
 |![Dns](../homecloud/Element/Dns.element.png)|[homecloud/Element/Dns](../homecloud/Element/Dns.md)
+|![Home](../homecloud/Element/Home.element.png)|[homecloud/Element/Home](../homecloud/Element/Home.md)
 |![Laptop](../homecloud/Element/Laptop.element.png)|[homecloud/Element/Laptop](../homecloud/Element/Laptop.md)
 |![Lock](../homecloud/Element/Lock.element.png)|[homecloud/Element/Lock](../homecloud/Element/Lock.md)
 |![Mail](../homecloud/Element/Mail.element.png)|[homecloud/Element/Mail](../homecloud/Element/Mail.md)

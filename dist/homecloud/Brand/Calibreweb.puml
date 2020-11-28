@@ -1,0 +1,16 @@
+@startuml
+sprite $CalibrewebMd [14x14/16z] ZKT50WD12CjWQq3-_zjowrmgyU0RbaKee16sy7HNyNbOsMriC_VA1Q0EjffftlZdkUzFxVruFdVaBUVfFI_pIR8oaw6AWVcQb8aTBm
+sprite $CalibrewebLg [20x20/16z] {
+hP050WGW20JjnDt___RWkdjiQTnl-9IIFx_a8Z0a9RrGByMHcBsFHKLwRGCCP8_98BmpglsDc5FA4N2NVygTl_Z7l_IMtX8IKe4qGOhedttEkRYxY6XjhUrw
+4llONweUxx41
+}
+!procedure Calibreweb($id, $name="Calibreweb", $tech="")
+  IconElement($id, 'homecloud/Brand/Calibreweb', $name, $tech)
+!endprocedure
+!procedure CalibrewebCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalibrewebMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure CalibrewebGroup($id, $name='Calibreweb', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalibrewebLg>', $name, $tech)
+!endprocedure
+@enduml
