@@ -40,7 +40,7 @@ include('homecloud/style')
 The package provides 3 modules.
 
 
-- [Element](element.md) with 22 elements
+- [Element](element.md) with 23 elements
 - [Brand](brand.md) with 9 elements
 - [Group](group.md) with 9 elements
 
