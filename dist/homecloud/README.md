@@ -41,7 +41,7 @@ The package provides 4 modules.
 
 
 - [Brand](Brand.md) with 13 elements
-- [Container](Container.md) with 4 elements
+- [Container](Container.md) with 5 elements
 - [Hardware](Hardware.md) with 6 elements
 - [Network](Network.md) with 4 elements
 
