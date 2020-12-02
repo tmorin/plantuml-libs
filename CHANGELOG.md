@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/tmorin/plantuml-libs/compare/v2.1.0...v2.2.0) (2020-12-02)
+
+
+### Features
+
+* adapt the Relationship style ([6fbe1e9](https://github.com/tmorin/plantuml-libs/commit/6fbe1e9aacf79585edfa29f8d682902ea3ff5333))
+* **c4model:** adapt the elements' font size ([9959ba7](https://github.com/tmorin/plantuml-libs/commit/9959ba738db71cf09f52617b165fc96b39faec09))
+* **fontawesome-5.15:** add the package ([1a1bc17](https://github.com/tmorin/plantuml-libs/commit/1a1bc17eb69ad9217ad44938165a10281e524c47))
+* **homecloud:** add the backup element ([7dc7641](https://github.com/tmorin/plantuml-libs/commit/7dc7641b660a17d87843b8d60d9e9019b79d4808))
+* **homecloud:** refactor elements, remove groups, add new brands ([67a7331](https://github.com/tmorin/plantuml-libs/commit/67a73311e1aab58a5e2a3fe73c9d1e6578ee973e))
+
+
+### Bug Fixes
+
+* **homecloud:** adapt homecloud example ([a66c85b](https://github.com/tmorin/plantuml-libs/commit/a66c85bccc67aa0ad01c273b8305609ab04460f3))
+
 ## [2.1.0](https://github.com/tmorin/plantuml-libs/compare/v2.0.5...v2.1.0) (2020-11-28)
 
 
