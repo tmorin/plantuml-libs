@@ -38,11 +38,11 @@
 
 !procedure Relationship($label, $tech="")
   !if ($label != '' && $tech != '')
-    $label\n<size:$FONT_SIZE_SM>[$tech]</size>
+    $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
   !elseif ($label != '')
     $label
   !else
-    <size:$FONT_SIZE_SM>[$tech]</size>
+    <color:$FONT_COLOR_LIGHT>[$tech]</color>
   !endif
 !endprocedure
 
@@ -50,12 +50,11 @@
 
 !procedure IconElement($id, $icon, $name="", $tech="")
   !local $H="<img:" + getIcon($icon)+ ">"
-'  <img:getIcon($icon)>
   !if ($label)
     !$H=$H + "\n" + $name
   !endif
   !if ($tech)
-    !$H=$H + "\n" + "<size:"+ $FONT_SIZE_SM + ">[" + $tech + "]</size>"
+    !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
   !endif
   card $id <<IconElement>> as "$H"
 !endprocedure
@@ -103,11 +102,11 @@
   !endif
 
   !if ($name) && ($tech)
-    !$value=$value + $name + "\n<size:" + $FONT_SIZE_SM + ">[" + $tech + "]</size>"
+    !$value=$value + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
   !elseif ($name)
     !$value=$value + $name
   !elseif ($tech)
-    !$value=$value + "<size:" + $FONT_SIZE_SM>[" + $tech + "]</size>"
+    !$value=$value + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
   !endif
 
   !if ($value)
