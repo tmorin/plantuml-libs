@@ -39,6 +39,6 @@ api -left-> db : C4Relationship("Reads from and writes to", "JDBC")
 api -right-> mbs : C4Relationship("Makes API calls to", "XML/HTTPS")
 api -up-> ems : C4Relationship("Sends e-mail using", "SMTP")
 ems -left-> pbc : C4Relationship("Sends e-mail to")
-ma -right[hidden]-> ems
+ma -[hidden]right-> ems
 
 @enduml

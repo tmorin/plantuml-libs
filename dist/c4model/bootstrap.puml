@@ -10,38 +10,36 @@
 
 !procedure C4Boundary($type, $id, $name, $tech="")
   !if ($tech)
-    rectangle $id <<Boundary>> as "<b><size:$FONT_SIZE_MD>$name</size></b>\n<size:$FONT_SIZE_SM>[$type: $tech]</size>"
+    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type: $tech]</size>"
   !else
-    rectangle $id <<Boundary>> as "<b><size:$FONT_SIZE_MD>$name</size></b>\n<size:$FONT_SIZE_SM>[$type]</size>"
+    rectangle $id <<Boundary>> as "<b>$name</b>\n<size:$FONT_SIZE_XS>[$type]</size>"
   !endif
 !endprocedure
 
 !procedure C4Element($shape, $stereotype, $type, $id, $name, $desc="", $tech="")
-  $shape $id <<$stereotype>> [
-    <b><size:$FONT_SIZE_MD>$name</size></b>
-    !if ($type)
-      !if ($tech)
-        <size:$FONT_SIZE_SM>[$type: $tech]</size>
-      !else
-        <size:$FONT_SIZE_SM>[$type]</size>
-      !endif
+  !local $V="<b>" + $name + "</b>"
+  !if ($type)
+    !if ($tech)
+      !$V=$V + "\n" + "<size:" + $FONT_SIZE_XS + ">[" + $type + ": " + $tech + "]</size>"
+    !else
+      !$V=$V + "\n" + "<size:" + $FONT_SIZE_XS + ">[" + $type + "]</size>"
     !endif
-    !if ($desc)
-
-      $desc
-    !endif
-  ]
+  !endif
+  !if ($desc)
+    !$V=$V + "\n\n" + $desc
+  !endif
+  $shape $id <<$stereotype>> as "$V"
 !endprocedure
 
 ' Relationship
 
 !procedure C4Relationship($desc="", $tech="")
     !if ($desc) && ($tech)
-        <b><size:$FONT_SIZE_SM>$desc</size></b>\n<size:$FONT_SIZE_SM>[$tech]</size>
+        <b>$desc</b>\n<size:$FONT_SIZE_XS>[$tech]</size>
     !elseif ($desc)
-        <b><size:$FONT_SIZE_SM>$desc</size></b>
+        <b>$desc</b>
     !else
-        <size:$FONT_SIZE_SM>[$tech]</size>
+        <size:$FONT_SIZE_XS>[$tech]</size>
     !endif
 !endprocedure
 
