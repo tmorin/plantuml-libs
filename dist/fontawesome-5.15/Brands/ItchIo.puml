@@ -1,0 +1,19 @@
+@startuml
+sprite $ItchIoMd [14x14/16z] {
+LSV50KGn20JGGNuIBFJVxN9PU-Y0zeTCk1-6x1_MVxBTxyawDwoDdaohyFAe3RPEFH6ctWNnPe1cK1SI2I1xukb9PzAQ1RrGLx2xXO82V1PvZnHrGFjZOx28
+gWWJy08
+}
+sprite $ItchIoLg [20x20/16z] {
+ROq5WY0W24Kn20Ev_stt6plzb2xw4njZp0TSGQh53vGaVb7dxrmV4MjTyIt8MN5NTXTPpkgJRSr4IUTKU2BJ3Lb9H0NTtZsEMT2Pg4OCeiIL6MQU76yDSYA0
+g6mz2DJmK_ARKm8jdhqvA61o39_SWfUQYLZRQy_T2K_Zm70dSdbniRWiBU9f5-8RdK1YREfzzDwnjIRwaty
+}
+!procedure ItchIo($id, $name="Itch Io", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/ItchIo', $name, $tech)
+!endprocedure
+!procedure ItchIoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ItchIoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ItchIoGroup($id, $name='Itch Io', $tech='')
+  IconGroup($id, 'IconGroup', '<$ItchIoLg>', $name, $tech)
+!endprocedure
+@enduml

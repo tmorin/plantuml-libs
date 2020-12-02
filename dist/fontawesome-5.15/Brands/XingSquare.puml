@@ -1,0 +1,16 @@
+@startuml
+sprite $XingSquareMd [14x16/16z] RS-50GCX50FGu9xiFsrxxWztFc0EG1OrM-giRyuCpSXv4w8M6La3XbhGW155-yXKM6qYSa3R1WDE7bKRIdtRkTbksGnZzRBzcal9zuZ-
+sprite $XingSquareLg [20x23/16z] {
+TSx5WKKX04FHYyD3qd-ru_AniuzmO79P9AesHQjLT46B0b6pOR13FvenILA2bte7JTtWzA-1Ks0wLY4sy7hXCDr3cp_a2d7-OBuhNzJQfVZxP7ciLOQinR2O
+haLDiUbY56qoFYuy9-y
+}
+!procedure XingSquare($id, $name="Xing Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/XingSquare', $name, $tech)
+!endprocedure
+!procedure XingSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$XingSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure XingSquareGroup($id, $name='Xing Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$XingSquareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HockeyPuckMd [14x14/16z] PSk50S0m20J0_xW1-qzRzruKmn-Tu_7BNMsXetXqUwZsqkoX0EcQS-ZB0KW2JB9cUosbTh6lLsOmT3t_2IiVOeoU-9e1
+sprite $HockeyPuckLg [20x20/16z] {
+bT3LOGKW30NGYyUp_xJjS-EBWxlWG6bZ4JEjqN0tDFB5fGFLyeSMputcpcTkEjhtr92A3fH1QdvXIgC08_LQl9Lfj-d6S_JM-bXiUK1pmqMtBW2DB5wtCwgl
+p-hpehU24_y
+}
+!procedure HockeyPuck($id, $name="Hockey Puck", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HockeyPuck', $name, $tech)
+!endprocedure
+!procedure HockeyPuckCard($id, $funcName="", $content="")
+  IconCard($id, '<$HockeyPuckMd>', '', $funcName, $content)
+!endprocedure
+!procedure HockeyPuckGroup($id, $name='Hockey Puck', $tech='')
+  IconGroup($id, 'IconGroup', '<$HockeyPuckLg>', $name, $tech)
+!endprocedure
+@enduml

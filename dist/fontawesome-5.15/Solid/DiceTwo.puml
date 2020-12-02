@@ -1,0 +1,13 @@
+@startuml
+sprite $DiceTwoMd [14x16/16z] Os1WX0C61bO-VZv-C00oMA5Cc00wO6P6uv4BI3SPrMMehaRr4G
+sprite $DiceTwoLg [20x23/16z] nS-t0O1030D0VSwl_RUb1jarrpeAbZm-4Xf5kHIRdgNT5L6N8aZZRPk_wlb8KA18NyAakFGSYfLrFY7Mjn9WUG
+!procedure DiceTwo($id, $name="Dice Two", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/DiceTwo', $name, $tech)
+!endprocedure
+!procedure DiceTwoCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiceTwoMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiceTwoGroup($id, $name='Dice Two', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiceTwoLg>', $name, $tech)
+!endprocedure
+@enduml

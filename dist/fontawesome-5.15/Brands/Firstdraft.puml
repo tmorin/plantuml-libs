@@ -1,0 +1,19 @@
+@startuml
+sprite $FirstdraftMd [14x18/16z] {
+fSx70KGX20JG4SoCsd-tQzfq_kz6PZnLulI952BoZS8mVgDOWBzerwgRCAEnPAISCmlwYNfEAOcx4U54vbRI61rXtSo8HMOKC75f3UQr6LLbSZCA9Wg4dAQ-
+Vta1
+}
+sprite $FirstdraftLg [20x27/16z] {
+pT250OD0343H27QQ_RSj4ImJzE4VF_a7evjFMy2aHdnAhUacjTwGABTgpyjj7MBwVYZIjeahuBwDYphatNOPPd-t2IurLdIy6qbWGzfGTc85GTirBZE8jwBx
+nsK3qdyRvn_10xML-A1oc1BZedeUgny
+}
+!procedure Firstdraft($id, $name="Firstdraft", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Firstdraft', $name, $tech)
+!endprocedure
+!procedure FirstdraftCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirstdraftMd>', '', $funcName, $content)
+!endprocedure
+!procedure FirstdraftGroup($id, $name='Firstdraft', $tech='')
+  IconGroup($id, 'IconGroup', '<$FirstdraftLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $VolleyballBallMd [14x14/16z] {
+9OxL0SL0408vMpcR_gjzaipNAY2fQe3LheTi5NQTzTziA0OMLDM4BBgSnbP2xwS4ZCM0vj37Sxgs6J0gH43lW4koFjBQ1DEyqOfAyKjgyUVYVL5gdszRr5nt
+zJRCxGdJWJlJz38MtFXllW
+}
+sprite $VolleyballBallLg [20x20/16z] {
+FOw54GGn30DbEqpglzkFvYUtXraZ_kGnPuBX8pA25q_zsKnclRWm6K-HWKcoE2dfKjEHI6vCRWC6LLeSM-c5R4exReiLdMJJqIgFXQgHzRP3fi6GubP3BdLe
+g-783TWW3nRPktMfYekLYZwggvcKZPdmK5g3Rv9djbBg22nrrlknbSS4n2VLshYk2KG_50ENL9Ixii7StV37bC6pUkiPZoOftGmVbbhlzItu0m
+}
+!procedure VolleyballBall($id, $name="Volleyball Ball", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VolleyballBall', $name, $tech)
+!endprocedure
+!procedure VolleyballBallCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolleyballBallMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolleyballBallGroup($id, $name='Volleyball Ball', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolleyballBallLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $LaptopCodeMd [14x11/16z] JSS70iGW2031vJYmo_z_cvuu5bWyNWubp6tdDkjU0rH4eHyriT1VEEEi_GgpF4LMBTmbmddFYbS1zPsPx_xCiQkgTUncYqNV
+sprite $LaptopCodeLg [20x16/16z] VOw55KGn3CDKvdh_QO_XimlH2qFMIXb06xrz1WF6WC5yVG3kTU7leyeOrPMlAa9KlVRjQ_SpzhkSxJmq_uwf0HXZ7p80Rp9CpPSyX3Sz7F-g7uKV_rrt
+!procedure LaptopCode($id, $name="Laptop Code", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LaptopCode', $name, $tech)
+!endprocedure
+!procedure LaptopCodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaptopCodeMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaptopCodeGroup($id, $name='Laptop Code', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaptopCodeLg>', $name, $tech)
+!endprocedure
+@enduml

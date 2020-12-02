@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the CreativeCommonsPdAlt element
+include('fontawesome-5.15/Brands/CreativeCommonsPdAlt')
+CreativeCommonsPdAlt('creative_commons_pd_alt', 'Creative Commons Pd Alt', 'an optional tech field')
+@enduml

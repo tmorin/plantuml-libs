@@ -1,0 +1,16 @@
+@startuml
+sprite $ThemecoMd [14x16/16z] VS-r0KKn241HedZOVzglp-rqjq7WgveMc6I93qw_eFWR2D0y5jxYaP8PQJ2DRw5YOsogz2iKgXtDyLlYeIv6wF6eRhTN05mlErsz_UWD
+sprite $ThemecoLg [20x23/16z] {
+fT0rWiGm40NHbjKi-FS_xSACsQ5VM67HIdkhT54x_aIXtPBucaOhms78Vv61YyuKU32yuomnAWk6iArD0k8CKud9WG-rnb5TJ80KV0ZxwDMNoGa9V7W3ki6p
+CnlUcV9CJ2LnuP-ntB7BXLOwztU74W2cqbKDAxJw1G
+}
+!procedure Themeco($id, $name="Themeco", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Themeco', $name, $tech)
+!endprocedure
+!procedure ThemecoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThemecoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThemecoGroup($id, $name='Themeco', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThemecoLg>', $name, $tech)
+!endprocedure
+@enduml

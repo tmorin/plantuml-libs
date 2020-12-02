@@ -1,0 +1,16 @@
+@startuml
+sprite $BeerMd [14x16/16z] ZO_50G0n2C0gd5Eo_xJdxgb0FeZpCsuWOG263iQAtnlG120ot045y-0DV83DdFjjVczbGlSTDEnwotwMwzJ7ZJe
+sprite $BeerLg [20x23/16z] {
+jT350GGW0CJ0nPtqN-svkmQV9xfHB2SbRU8izwBrrehTM1ym-zwdNUykG3BignlpUml6J-QvEMd0bSs_cslGpssijx3UV8HiOTECsXpiDqOq4cUbj_xKnPEy
+xhO4
+}
+!procedure Beer($id, $name="Beer", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Beer', $name, $tech)
+!endprocedure
+!procedure BeerCard($id, $funcName="", $content="")
+  IconCard($id, '<$BeerMd>', '', $funcName, $content)
+!endprocedure
+!procedure BeerGroup($id, $name='Beer', $tech='')
+  IconGroup($id, 'IconGroup', '<$BeerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ClipboardMd [14x18/16z] nSk50S0m2031k0A__xHrsw0NnTnkG7EtJ6x4_LTiGoXiZoOGJYOeOv_Q5QTiKUw7U4QtdoC1IVbc21zz1G
+sprite $ClipboardLg [20x27/16z] xSs54KCn30DGXT7M_jEMFbCcw3lI6J7nIeh3GUL7nfwdXaHQJ4B-Q6o0i7wpH-OifZMHAigL2YbaWjjAPleMORSQKAOQOfhaiDLsHhL_JUg1KXilihaK2zu
+!procedure Clipboard($id, $name="Clipboard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Clipboard', $name, $tech)
+!endprocedure
+!procedure ClipboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClipboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClipboardGroup($id, $name='Clipboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClipboardLg>', $name, $tech)
+!endprocedure
+@enduml

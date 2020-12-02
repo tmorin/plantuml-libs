@@ -1,0 +1,47 @@
+# Fonticons Fi
+
+```text
+fontawesome-5.15/Brands/FonticonsFi
+```
+
+```text
+include('fontawesome-5.15/Brands/FonticonsFi')
+```
+
+|icon|element|
+|---|---|
+|![](FonticonsFi.png)|![](FonticonsFi.element.png)|
+
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the FonticonsFi element
+include('fontawesome-5.15/Brands/FonticonsFi')
+FonticonsFi('fonticons_fi', 'Fonticons Fi', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the FonticonsFi element
+include('fontawesome-5.15/Brands/FonticonsFi')
+FonticonsFi('fonticons_fi', 'Fonticons Fi', 'an optional tech field')
+@enduml
+```
+

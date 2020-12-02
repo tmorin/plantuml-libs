@@ -1,0 +1,13 @@
+@startuml
+sprite $TagsMd [14x11/16z] HSg54G0X00F1lE5m_NVxE3UwaoHQzk5JZMpoe6coScqrdHHVpfcTUVautHcp4Mwy5kELWzHuq7ZGM94wVW
+sprite $TagsLg [20x16/16z] LSg54SL0009HuidPzb_jrpDsb3VS_ClBIbxr2mohNRfmX4KBXlNdMASXE6uVn4kAvEnM52YhuxR0BiDTcLsgQ5JHgA9HHQUAkmALtW
+!procedure Tags($id, $name="Tags", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tags', $name, $tech)
+!endprocedure
+!procedure TagsCard($id, $funcName="", $content="")
+  IconCard($id, '<$TagsMd>', '', $funcName, $content)
+!endprocedure
+!procedure TagsGroup($id, $name='Tags', $tech='')
+  IconGroup($id, 'IconGroup', '<$TagsLg>', $name, $tech)
+!endprocedure
+@enduml

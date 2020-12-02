@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the Wallet element
+include('fontawesome-5.15/Solid/Wallet')
+Wallet('wallet', 'Wallet', 'an optional tech field')
+@enduml

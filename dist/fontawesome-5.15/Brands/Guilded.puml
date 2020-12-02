@@ -1,0 +1,16 @@
+@startuml
+sprite $GuildedMd [14x16/16z] XSpLOGCm04D1cKdsst_QDWnVkG5Ety87cVE2pOUzm7FTpDKwPBrKQ6fUlieHhCnTr8IYSVQ19IKuKGhx7dJOAHg6hYOtItS3OEefsqM__0C
+sprite $GuildedLg [20x23/16z] {
+hS-50SCW443HZplilsqvKdTxKUo4DsbpGxTnezJRkLnkvrAQhvRBcUhYd8jSSX8Kb3b1pRaETfme9B55zLCf44wVZMVRuI2MafiKeG39t3MJahc0MAiQLf-L
+nOofUx_I6CH58PO3syVIBIUwhCeq5rojZZ_O0G
+}
+!procedure Guilded($id, $name="Guilded", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Guilded', $name, $tech)
+!endprocedure
+!procedure GuildedCard($id, $funcName="", $content="")
+  IconCard($id, '<$GuildedMd>', '', $funcName, $content)
+!endprocedure
+!procedure GuildedGroup($id, $name='Guilded', $tech='')
+  IconGroup($id, 'IconGroup', '<$GuildedLg>', $name, $tech)
+!endprocedure
+@enduml

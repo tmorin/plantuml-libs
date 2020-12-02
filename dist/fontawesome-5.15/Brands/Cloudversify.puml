@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudversifyMd [14x12/16z] RS77OGCm302n4viwkV-qYTlF1lX5J7beq9HHLQV1yHNXDKNt1hnKydI1bJBKYKvJi7j2CoTFZLxGrcs602S1oRMHi5t6WynpHkPGFhGxN_u1
+sprite $CloudversifyLg [20x17/16z] {
+bOvL0WGX34DRdCha_hVTiFux3yr3vJPzswg_g4KqSB0JCNNeId5SUqp7elE-OQeL64869LaSsWMpfKo6q364qv7iQgCRXXsfoFfzK5i5L0g0P7fREc6gTBMz
+zMGu67fVZ4MalpzmFfoeKimIMF9cM21sm4ULFvgdTxd30m
+}
+!procedure Cloudversify($id, $name="Cloudversify", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Cloudversify', $name, $tech)
+!endprocedure
+!procedure CloudversifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudversifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudversifyGroup($id, $name='Cloudversify', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudversifyLg>', $name, $tech)
+!endprocedure
+@enduml

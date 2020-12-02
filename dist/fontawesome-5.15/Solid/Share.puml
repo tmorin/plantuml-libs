@@ -1,0 +1,16 @@
+@startuml
+sprite $ShareMd [14x14/16z] JOY50G113C8uzxB_jEz2gW4FsKDOHSIHxVjz93aSWD0MRvRtbS9KwNVKsdagpiG1xhWPXzaXfyNZ60TEQi11uuAGw5LLTW
+sprite $ShareLg [20x20/16z] {
+XOu35WH134JJHb3tF-rYxFcDr8lfcSBkv1EeF_jWyUm34as4N5jd39Injs9B8_AJPuNToGKf9nUJZ4AvLHjK9HhR-d6NQUnaHz-qdW6wx6nX40pmv6lYHf5M
+tmf3Jpwd22UdRvxU-G8
+}
+!procedure Share($id, $name="Share", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Share', $name, $tech)
+!endprocedure
+!procedure ShareCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShareMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShareGroup($id, $name='Share', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HouseUserMd [14x12/16z] DOi75aGX2CJ6tk7-jzs1vSSQNmH9L_LmQoRvANcYdL950rgpSoxR1uOBuDgVFuPTJ3jMb9RAw7qAGxSAqi8UKaf8GhD_yiY_BFeX6Jy
+sprite $HouseUserLg [20x18/16z] {
+NSm7ZWCm24JHSQ_0_K-xcmJthpPwbi784ZlSUHQHW4XK9WNv5P987vHaHCkox8PLUSsqtspEwM2BHBeCW37TUQMBOYDzTO1LeGmq-LKopn_3k7tYovh19rCF
+OmEDjbMCyZQAexvjDopS5e5_
+}
+!procedure HouseUser($id, $name="House User", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HouseUser', $name, $tech)
+!endprocedure
+!procedure HouseUserCard($id, $funcName="", $content="")
+  IconCard($id, '<$HouseUserMd>', '', $funcName, $content)
+!endprocedure
+!procedure HouseUserGroup($id, $name='House User', $tech='')
+  IconGroup($id, 'IconGroup', '<$HouseUserLg>', $name, $tech)
+!endprocedure
+@enduml

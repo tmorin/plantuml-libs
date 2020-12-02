@@ -1,0 +1,16 @@
+@startuml
+sprite $AdMd [14x14/16z] VSU50SGm34DH6HlM_jCUC_G5x8yteY-m-6BoIwddlpTU1Z39wNQfD2qC82ubfZRGtS_He88cBfUgISReveMxF9xIyEO8
+sprite $AdLg [20x20/16z] {
+bSY34GH05C3GhFNHVxLd-pBAF7uizl5G3-9FJV-d6RCTHk8wMu9-c44_aH18xbP2l5XZPDGpWOj5UgORqVlPX7t925BFLgbZHAG1Pnl5t5VMtRGY_dlhcKQe
+ZnL-RGi
+}
+!procedure Ad($id, $name="Ad", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Ad', $name, $tech)
+!endprocedure
+!procedure AdCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdGroup($id, $name='Ad', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $WifiMd [14x11/16z] HSg55SGm30JHiIYej_rNUn3y1Y4_mpDzS8XDXorWh58lLNF_wh5hSmwsgNE2NBktXFezQntws0aj1hOe-HlWVeHJIC7Xgf9N5eSl
+sprite $WifiLg [20x16/16z] {
+XOs50SCm30JD3FjlMmlBoHl4EYEorhmfr3xNchq6oUIvLJDZ3sHMhwNKlY0RJ3bc9CixqpXXELzwPQJJOfi_Ncp0QF6ulbbUAGW1Hu2qKXeW8kNSt9cylASp
+d6H7F55SAvWFpGEupSdiXHu
+}
+!procedure Wifi($id, $name="Wifi", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Wifi', $name, $tech)
+!endprocedure
+!procedure WifiCard($id, $funcName="", $content="")
+  IconCard($id, '<$WifiMd>', '', $funcName, $content)
+!endprocedure
+!procedure WifiGroup($id, $name='Wifi', $tech='')
+  IconGroup($id, 'IconGroup', '<$WifiLg>', $name, $tech)
+!endprocedure
+@enduml

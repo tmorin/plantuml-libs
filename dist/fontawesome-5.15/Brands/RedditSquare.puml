@@ -1,0 +1,19 @@
+@startuml
+sprite $RedditSquareMd [14x16/16z] {
+ROy54aGX3CM2JYdI-zzszxiHg6Jq5Tm9Y0rR67zCR8PgIVsGKKnTEqtFRNI9KVeOYmNdM71XDRA2PbOhI8Cco68Dl7CUcYq88QN04QJbb7Ap3qlg9V3oJPuN
+_G
+}
+sprite $RedditSquareLg [20x23/16z] {
+VSs30KKn04FHMxlPVzflF9-QuO39PIFHj5DqQRIfrhMISewOkTwJXl7hfraxTHKtktgqnhZOzSrmM3uiGKyTC0xWrRs30xHdbrGWVdw7-jjhUcclZpxTDyH3
+2DQ6044Vqs5Ypj7WzLVUkLKhSuofSxDe9-FZXkV87G
+}
+!procedure RedditSquare($id, $name="Reddit Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/RedditSquare', $name, $tech)
+!endprocedure
+!procedure RedditSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedditSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedditSquareGroup($id, $name='Reddit Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedditSquareLg>', $name, $tech)
+!endprocedure
+@enduml

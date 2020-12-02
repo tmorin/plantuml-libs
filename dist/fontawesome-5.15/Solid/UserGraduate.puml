@@ -1,0 +1,16 @@
+@startuml
+sprite $UserGraduateMd [14x16/16z] TOc55KDH5C9uxh3_jkrtpzKS0EDJarho1iXT6-ovYIUB4MlQ3L0Bk4RuMxrPNQp-RNHOpf75WgrajNXY2ZF-P1O3CoJbl_pFC4KJAStdBz_aY_m
+sprite $UserGraduateLg [20x23/16z] {
+ZT3L0S0W54FHuFPAzf-sxdu_3mw6b8j2IhGAOzebuPf4fo6yL1BhKMhnfYgJDeb60QO2SJE7la23ibaUBD51JkQeaJOBopoxcHvC6B5DZ1XotW386stPB98C
+NZCnB_-HutZ8U82Cg9jnpsLxKICD9NXoHhrya1KksApluxM6_x1ekL87
+}
+!procedure UserGraduate($id, $name="User Graduate", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserGraduate', $name, $tech)
+!endprocedure
+!procedure UserGraduateCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserGraduateMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserGraduateGroup($id, $name='User Graduate', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserGraduateLg>', $name, $tech)
+!endprocedure
+@enduml

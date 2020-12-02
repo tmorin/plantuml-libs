@@ -1,0 +1,19 @@
+@startuml
+sprite $FileExcelMd [14x18/16z] {
+LSo50GGW30F0ua6p_xGlE44FQU8AH8Gr00Y5xKyc-GTqXJWoKXYs4XBRL63Fb6XjJErIQepILPioVUqAHA9T-Z-9ikL9U_GiO8XqKwfMqQVcIY6BTIkDFv_4
+Bm
+}
+sprite $FileExcelLg [20x27/16z] {
+VS-5WKGX30JG2AxzTtkJCyZQVEMXIVlEO4BwTibcwAlDKliVmXBz902ceRSWoz0RoGJukIg0UTjVZicJ8HgHqF_jfFwPA5wiSXcMgbRcucDMjGJhk4pHxdlo
+RLJ-_uuH2XtaJV6ps1lsNBiwY_XWIRsCvrvso76PZ1c9yknyxEI3ZUQ2fVj-Ik4dhFG5
+}
+!procedure FileExcel($id, $name="File Excel", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/FileExcel', $name, $tech)
+!endprocedure
+!procedure FileExcelCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileExcelMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileExcelGroup($id, $name='File Excel', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileExcelLg>', $name, $tech)
+!endprocedure
+@enduml

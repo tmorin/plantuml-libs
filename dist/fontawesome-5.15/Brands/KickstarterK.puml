@@ -1,0 +1,19 @@
+@startuml
+sprite $KickstarterKMd [14x18/16z] {
+JOw5eGKn20GddXEE_glzml9aelX2HHIWcJy3gBTRutRtfr0iNl-dSyRRTFTuCZOjdeMSSL_84lNRcdnREwraf6Ko6_BUSgQMeXc7B5ACvQGLytie0hQxLKgl
+1At3Bm
+}
+sprite $KickstarterKLg [20x27/16z] {
+RP47aiCW4C14x-p_NtiDs4k2DKqZcyuppghQfMcAzAMsYGmFKNuP1Z3ZpprT_eX0NTgHHOQuTPej1IURWRP-MjAnwQJ6QMDkcLQR4hbQvMh3tArnDqaFJVnh
+k_TIsubTMpRpn8AAbqFKnb7fUdzGFc84QCjRsFV8wuF4AT8iVzY-7WwiGJ6MPxu1
+}
+!procedure KickstarterK($id, $name="Kickstarter K", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/KickstarterK', $name, $tech)
+!endprocedure
+!procedure KickstarterKCard($id, $funcName="", $content="")
+  IconCard($id, '<$KickstarterKMd>', '', $funcName, $content)
+!endprocedure
+!procedure KickstarterKGroup($id, $name='Kickstarter K', $tech='')
+  IconGroup($id, 'IconGroup', '<$KickstarterKLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $GitAltMd [14x16/16z] PSw54G0X30H0z3N3zL_jImIzqOMOM-E9VDC9L8OZKgKdN2up6K1m_2l04IAJm3fkbpwgTlXGFp-LKXk3HpSq1e6oWbbHhrxo0W
+sprite $GitAltLg [20x23/16z] {
+VSo53SH034JHMMQx_sulbaONpXS_0xwg-KPTjLwewbOxYWjk6jRJOS8G8aYg4PW7x3mhIYIfUF0doKenWsX4qmG_3FLW7KZsfXnCWhEz34EQgXW1HF5k0nAn
+09Nqnm5CqeuYf2EIZaWwLacdOiHNFm
+}
+!procedure GitAlt($id, $name="Git Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GitAlt', $name, $tech)
+!endprocedure
+!procedure GitAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitAltGroup($id, $name='Git Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitAltLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FilePowerpointMd [14x18/16z] HSg54G1124FHh1kG_gizl-MFlaac_pe0QkkzDw7TvCHTPn5sLuAmRSq-QPyQdpuXNUcZ44F0bJoQt-NT5jjaTI6pkSIOuLeLhW1iJODh9wJaycUyx8qJ
+sprite $FilePowerpointLg [20x27/16z] {
+XSY5aGH020H0rft9Fzk7Fvqww_AkUBQ3c0NI_80zfXlhda2LYsnnFFboL4y-YSU2hgLeSUXkxXTVpgHYyheS6RSBASOO-1QCLheD702PRqbI3BufSZ3vTkb0
+vtCQ-NJD7eHlYkDRBzTFUpdpy_Oa1xhmeeUN7F87
+}
+!procedure FilePowerpoint($id, $name="File Powerpoint", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/FilePowerpoint', $name, $tech)
+!endprocedure
+!procedure FilePowerpointCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilePowerpointMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilePowerpointGroup($id, $name='File Powerpoint', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilePowerpointLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $CreativeCommonsNcMd [14x14/16z] {
+BKw55KCn42Ak1_jlsvBtesS8W3I3Z9NXrSJPsWprboptWV5Fnql6XjDCSUObHGBkvXgIPYe0kcv3wg5R0LHd_g-YeuZJ8oahn4CHo3HBcjfJRexZ2HKqf-cf
+ZyzPhIDU0kGLL6ox_W4
+}
+sprite $CreativeCommonsNcLg [20x21/16z] {
+JOy7RY1H2CNUxntV_xOhn6mIJ_qK2-IaVWou8-k7OGGhAIWFMwsKDWrh4VgJ7j3TPGm_rYb_Gr5UB3dpoMbSBNWZkHEsApRLCB3vEDDsw0_aiW6QFhn6Kfu6
+zuiU27KQByGUyxgWFHTdNQ1ue3PfOS0sOk9it0ibBuCzCPVq2xV6MZLDTgpwuiEHT6EvqYDasQjlTBdsO2Lcs_3MwDETMH_rW7Ex_f1gxoqh-0S
+}
+!procedure CreativeCommonsNc($id, $name="Creative Commons Nc", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CreativeCommonsNc', $name, $tech)
+!endprocedure
+!procedure CreativeCommonsNcCard($id, $funcName="", $content="")
+  IconCard($id, '<$CreativeCommonsNcMd>', '', $funcName, $content)
+!endprocedure
+!procedure CreativeCommonsNcGroup($id, $name='Creative Commons Nc', $tech='')
+  IconGroup($id, 'IconGroup', '<$CreativeCommonsNcLg>', $name, $tech)
+!endprocedure
+@enduml

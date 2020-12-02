@@ -1,0 +1,19 @@
+@startuml
+sprite $PagelinesMd [14x18/16z] {
+HSo50G0X30F0uDAKx3_jknnE1QSm2tvLgl-hIUj_5Ka9jn10hN2UW4aZBOQvLA-NHftdKO2a0tLm7E9mry4YGcur0hDTFOOE0upLVAQaav7NWQ9V0c9hdTKa
+PbnOy6F7ArJ_7vCpuRC3
+}
+sprite $PagelinesLg [20x27/16z] {
+NSw75SGm20JHLOwm_NTxF2xpdSUs9BoKNH1rxeJWaX9Yebcn6KtnNvFZ72RXBVVHCmufG6wZ9I0fpRGuCMdQUoWBRCllYhL6rqJyAe1vlhvAr-3wvPjwShcM
+oRccbpoEo1q9c0AJVArE2sJP6Aft0FAALSUXEsZlmMrxwlxtdmEJvxdpw11F6sz99r3770LuknVHPWubY_wdL3Tl-ajAtef_jIP43m
+}
+!procedure Pagelines($id, $name="Pagelines", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Pagelines', $name, $tech)
+!endprocedure
+!procedure PagelinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$PagelinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure PagelinesGroup($id, $name='Pagelines', $tech='')
+  IconGroup($id, 'IconGroup', '<$PagelinesLg>', $name, $tech)
+!endprocedure
+@enduml

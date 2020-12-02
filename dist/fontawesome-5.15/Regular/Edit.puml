@@ -1,0 +1,16 @@
+@startuml
+sprite $EditMd [14x12/16z] DSo55G0X30FGu4Mp_xPNUHVq8yrDKrl5UCB--3JidHUTBB1qrdtkOZOCLcHkc1pfBRYwOyEacsv8eSoStof-LrIF6-t67NBHLw4b8aF7FbxyJrLz
+sprite $EditLg [20x18/16z] {
+NSo50O0m34JH14trxpyjJktGleZq2GGP4hakjH3_B18mCGBaDpWD4EvnVBDhtmaxaL084p58IcX9DgBAP_hIVjDdsdJzrj9d4_wZQZFRGsA-s8OjZgIAAxO0
+zwxfiwTxtPRv-cYnaj97QeBTvZ9DWjvs0W
+}
+!procedure Edit($id, $name="Edit", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Edit', $name, $tech)
+!endprocedure
+!procedure EditCard($id, $funcName="", $content="")
+  IconCard($id, '<$EditMd>', '', $funcName, $content)
+!endprocedure
+!procedure EditGroup($id, $name='Edit', $tech='')
+  IconGroup($id, 'IconGroup', '<$EditLg>', $name, $tech)
+!endprocedure
+@enduml

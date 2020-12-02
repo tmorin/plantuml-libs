@@ -1,0 +1,19 @@
+@startuml
+sprite $ToolsMd [14x14/16z] {
+9Sk50G0n20J1Y_4Ast-rSMMGsxr8Qa5aoU6T-k3H5fxi89LtiZtpIYMK7AuARwg1bDkDJGAXjGpBgxikVCtuljeEeCnBEm1R3wQs_zpO3FSzRPj_lIdIuNig
+Xwy6
+}
+sprite $ToolsLg [20x20/16z] {
+HSq50i0W30F0u5QQ__zsT9q4FmnfPtYoACKcISb-K-T9iPdOR0MWVeHCYoRiZu9VOOtM1wCXmFej-xD0L99olpTBEYJsTQl2PUWPy2n3MKOQdSAD0M6-doEp
+7jog3Iszn8FgR_t4vUReH3dcwEJM-M9wA03ZmRwrgzE7oexbz64LEltO41VdHq1d1Iu
+}
+!procedure Tools($id, $name="Tools", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tools', $name, $tech)
+!endprocedure
+!procedure ToolsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToolsMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToolsGroup($id, $name='Tools', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToolsLg>', $name, $tech)
+!endprocedure
+@enduml

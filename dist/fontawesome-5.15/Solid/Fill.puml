@@ -1,0 +1,16 @@
+@startuml
+sprite $FillMd [14x14/16z] JOm54i0m40Afomd__srB9aOKsBaZSWCU6gJ3-M1ByYXsSRx9Ewk5gzXhA-p-7rc5frLxFeeMUpIGlquiADluaicc1yd9OBTX91kcscggRUO3
+sprite $FillLg [20x20/16z] {
+NSq50eGm34JHK9UaS__RxWvEFlweI5nDM4MNgmaG6_1WC2B9eG8MrI4ioAR0kB2VqxPdP0Dh5vvaoO1wuZWeS4sLQsGXSQEHXV7RI4yPG0AMcggQyQuaMN0b
+Rk7ft_34fgCBFN6w9w8dLctDA5S_
+}
+!procedure Fill($id, $name="Fill", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Fill', $name, $tech)
+!endprocedure
+!procedure FillCard($id, $funcName="", $content="")
+  IconCard($id, '<$FillMd>', '', $funcName, $content)
+!endprocedure
+!procedure FillGroup($id, $name='Fill', $tech='')
+  IconGroup($id, 'IconGroup', '<$FillLg>', $name, $tech)
+!endprocedure
+@enduml

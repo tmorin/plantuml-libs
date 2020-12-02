@@ -1,0 +1,13 @@
+@startuml
+sprite $HandLizardMd [14x12/16z] LSp50G0n4090Jk92_zN6TLwhn846HU3qb-uHrU_9WAMUQ1I_bCAm-W31nGEIDR6JQFuUlO8qAqpkwamC8U2I0G
+sprite $HandLizardLg [20x18/16z] ZSw35G0n303GOutzfwtj_nZd6c2y07rELZwN4rMEkzpxGmzGcqHN1KdhBLEttq93z5fOUi1jhC-8n-I8h16J2qFrau_ralf9x-CnMNzOvnnoc0EKMDU01W
+!procedure HandLizard($id, $name="Hand Lizard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandLizard', $name, $tech)
+!endprocedure
+!procedure HandLizardCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandLizardMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandLizardGroup($id, $name='Hand Lizard', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandLizardLg>', $name, $tech)
+!endprocedure
+@enduml

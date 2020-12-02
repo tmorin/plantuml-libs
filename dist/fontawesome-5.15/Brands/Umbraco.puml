@@ -1,0 +1,19 @@
+@startuml
+sprite $UmbracoMd [14x14/16z] {
+FOw50S0m3CDSvkZ_QyUhYc5B2jt0HjIDwpmCVnkB3_DN6fkfowYFOnR81hxUrj1rkAmdjjp20FTQMjocBxVL1ND2KyWvAaD9bpboYhc3ENdZvzRc5mzs6JTv
+mYfEqWa
+}
+sprite $UmbracoLg [20x20/16z] {
+ROu55iCW44G7MDpkVzikqtZoszZO0yIbsbg95WUkperiDYdCao6RTCEjuhpJ3L3dWmJ7Uv-aeEcaIVhgCNOjwrqgPxTQGrorfZThzdqU8dzfgolxNiMQZxnn
+XYOZRZkcSyu2mW4KVOpeL3OkJRPWnxpHeCXD6XOKBycc4Z5v3qMS69zAIGAG7m
+}
+!procedure Umbraco($id, $name="Umbraco", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Umbraco', $name, $tech)
+!endprocedure
+!procedure UmbracoCard($id, $funcName="", $content="")
+  IconCard($id, '<$UmbracoMd>', '', $funcName, $content)
+!endprocedure
+!procedure UmbracoGroup($id, $name='Umbraco', $tech='')
+  IconGroup($id, 'IconGroup', '<$UmbracoLg>', $name, $tech)
+!endprocedure
+@enduml

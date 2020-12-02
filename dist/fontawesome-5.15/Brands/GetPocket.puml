@@ -1,0 +1,16 @@
+@startuml
+sprite $GetPocketMd [14x16/16z] VSor0GH1509G2CQ5_giTkLktbtq1dF40KLMBggXliMWeyJTaC8-1oB_HWcKCvbVq6maxXwJV-1kKZ2RlDHaaRH9-XN-P6Bn-FF53uvmXRZe
+sprite $GetPocketLg [20x23/16z] {
+bP350O104CG2vzv_jRWxUSswy9LQ7AXnvOGfPtBvGpwNoNcIHKsk1DXX85HpfXsT6kQ2sMbcLqw3qp7W1oFuiZedRUT17i8a1N6UdYOHG1xthm6zzqbwr3PB
+pc_riyTLBDJQUUzqnIzQ
+}
+!procedure GetPocket($id, $name="Get Pocket", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GetPocket', $name, $tech)
+!endprocedure
+!procedure GetPocketCard($id, $funcName="", $content="")
+  IconCard($id, '<$GetPocketMd>', '', $funcName, $content)
+!endprocedure
+!procedure GetPocketGroup($id, $name='Get Pocket', $tech='')
+  IconGroup($id, 'IconGroup', '<$GetPocketLg>', $name, $tech)
+!endprocedure
+@enduml

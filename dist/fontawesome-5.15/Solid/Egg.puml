@@ -1,0 +1,16 @@
+@startuml
+sprite $EggMd [14x18/16z] NStL0SCm40DGXHEJzf_M36hVr_4XEptfTZGNYz3IFR1oA0oxfonn29kqIdFdud5J78RYyHI6Ibl_dAFuVZ_0IWlOt4WCYZSmypU01
+sprite $EggLg [20x27/16z] {
+ZT5L0eGm34NHr3rl_wiT7395p-U5EirK0i2H98y9Ev42LaTqs9arAJvQMrk24EPa8B6QMiQVE2ODd7wCw7YYrhT21ZrM0ISsdrjivrPmrl0DyxcLgtNzkPch
+iv4x_IOVI3vJEAMHgLXbJJiJnrpZ-f83
+}
+!procedure Egg($id, $name="Egg", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Egg', $name, $tech)
+!endprocedure
+!procedure EggCard($id, $funcName="", $content="")
+  IconCard($id, '<$EggMd>', '', $funcName, $content)
+!endprocedure
+!procedure EggGroup($id, $name='Egg', $tech='')
+  IconGroup($id, 'IconGroup', '<$EggLg>', $name, $tech)
+!endprocedure
+@enduml

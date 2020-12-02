@@ -1,0 +1,16 @@
+@startuml
+sprite $OctopusDeployMd [14x14/16z] NOs50SH040BPSwV_Rf-F9tEw1X1nabm96pP8CTqMTUvq2C-Je2Zp9BsY-EnS1Z5kbQzcu4c6InHhabDXMrMnYnmsbzyirC81wq5HghfcXVW1
+sprite $OctopusDeployLg [20x20/16z] {
+RP255S0m44BZoXtxJrjBlIN-OppCK8AIoDQSSk2G-1CfkKlTpXelzO4yx_8Rom-MDbOVBE_iUouzc1jM-FZtwoNlhFmmt1ZCZx_sHQHO2n8WrLTIWX0r1BHe
+XOmch4QyxgR3zehJrPmNx0nhm1Zlxrd7RGowfpm3
+}
+!procedure OctopusDeploy($id, $name="Octopus Deploy", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/OctopusDeploy', $name, $tech)
+!endprocedure
+!procedure OctopusDeployCard($id, $funcName="", $content="")
+  IconCard($id, '<$OctopusDeployMd>', '', $funcName, $content)
+!endprocedure
+!procedure OctopusDeployGroup($id, $name='Octopus Deploy', $tech='')
+  IconGroup($id, 'IconGroup', '<$OctopusDeployLg>', $name, $tech)
+!endprocedure
+@enduml

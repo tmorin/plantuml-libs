@@ -1,0 +1,16 @@
+@startuml
+sprite $StarAndCrescentMd [14x14/16z] BSs50S0W30J026w__xQDzD53YQXU07TGH0xmPY-91oocJ3s6cAarloCEVdOMkIKwiLLCtJJXkRzeETYwwMenUS1rpTVEeM4S9k7ue-RDJF8qbP-opFdM1m
+sprite $StarAndCrescentLg [20x20/16z] {
+LO-50GCn2029E-o_ROjyvDgt2mgCAmE9S2RObBzWDUjMGqnsSEYiEfkJA0fk7DTQNrGhEooRyeHV0znXH1p8gKF4MCJWqgQd6PEEWwGgIku4HPA7BU7EMBG0
+CZ-Bk4WpnaLU4z3BT56gEWkSyD94-bTMObfmjqos0RR7jeauMmJX1m
+}
+!procedure StarAndCrescent($id, $name="Star And Crescent", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StarAndCrescent', $name, $tech)
+!endprocedure
+!procedure StarAndCrescentCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarAndCrescentMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarAndCrescentGroup($id, $name='Star And Crescent', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarAndCrescentLg>', $name, $tech)
+!endprocedure
+@enduml

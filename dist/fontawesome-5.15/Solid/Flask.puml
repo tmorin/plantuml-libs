@@ -1,0 +1,16 @@
+@startuml
+sprite $FlaskMd [14x16/16z] XSc54SKW50NHYyLX-w_s2yvO5Ztp94LoKRcdw2aoOFwdI93FkqoHATfvf8SzmuANFDY_RYuPeulxXm2al0ao4LhHd4mrjEa2bmQI-m8
+sprite $FlaskLg [20x23/16z] {
+lSz5biCm44NHRn0SkrHl_wljJaG1pND7Wa8zPAQapfWkTT71pHpAgI50bYuuzDEtEDvE3Lk1MDSn3VKolwg3NYY0xtFThEeQ2qV0xig086btFfGM_oahi3YC
+nStAdOL55a71-62d_W4
+}
+!procedure Flask($id, $name="Flask", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Flask', $name, $tech)
+!endprocedure
+!procedure FlaskCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlaskMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlaskGroup($id, $name='Flask', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlaskLg>', $name, $tech)
+!endprocedure
+@enduml

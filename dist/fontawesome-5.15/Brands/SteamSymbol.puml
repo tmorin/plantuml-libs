@@ -1,0 +1,16 @@
+@startuml
+sprite $SteamSymbolMd [14x16/16z] TOu30aGn34JhPXhC_K-xviShOgGJyey-tBs_ZKa0V9iXHeC_ZHP2Kk9f6QVJ4FbPHHS8HqWjWtSYPhfBq_jNRqcy8qPvJZMIm7WlvBhcIc_g0ifktprN
+sprite $SteamSymbolLg [20x23/16z] {
+dT150e0W00LHbEOZS__JsktEMJuQywUkxz-IWHOUL55A0_bccHXKNC5Vqr00caEdMQ80aZYjV2r0TS3WA3lr3SW-HLUnsQucbeOY20PgS4diDSrpM2jbc-VC
+4bin0UhCtPfhnFEgURTbtPb7u4CrzoJlGhElVwjL9rri_ZG1
+}
+!procedure SteamSymbol($id, $name="Steam Symbol", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/SteamSymbol', $name, $tech)
+!endprocedure
+!procedure SteamSymbolCard($id, $funcName="", $content="")
+  IconCard($id, '<$SteamSymbolMd>', '', $funcName, $content)
+!endprocedure
+!procedure SteamSymbolGroup($id, $name='Steam Symbol', $tech='')
+  IconGroup($id, 'IconGroup', '<$SteamSymbolLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PiedPiperMd [14x15/16z] {
+JKw50GH02BfEbVstVVYsMz8VhV7ofT0CQxHv6McUAAhxeQk0akJFwOl1Obv7oKOaHiCgamxSb3qjouaUM9okpso1DvHfiZ0PcdXUsRXQrhriAwREjjVty4ox
+GdrsfvlvpWn_g4KF
+}
+sprite $PiedPiperLg [20x21/16z] {
+VKy7bWKn24glHkv_srN7RF-VQGm2puJVoBjyyfJq7HUw2vKOOAg5uQvqi5lERG78tW1AZnjeqLZa5QwqAfkuphK3DHmr92660o2AMNewFz84GFBbBb4ogK0m
+XP24jpnALIjQl-qHD7ZKFDON6RQlzsLDT7MPL6n2fBRZ6n4zk_QE7Hzf8DypxN2NhCuAyyWnvi7QxOZo9-3X3OwKSmfly04
+}
+!procedure PiedPiper($id, $name="Pied Piper", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/PiedPiper', $name, $tech)
+!endprocedure
+!procedure PiedPiperCard($id, $funcName="", $content="")
+  IconCard($id, '<$PiedPiperMd>', '', $funcName, $content)
+!endprocedure
+!procedure PiedPiperGroup($id, $name='Pied Piper', $tech='')
+  IconGroup($id, 'IconGroup', '<$PiedPiperLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $PaletteMd [14x14/16z] NOg50G0X30E3Ezr_sm_sTaWR0U2Ra1umC7Nil6u88KwDtuzQxfAZZA6RL72LEJ9dwKEDyQURz9PRzTQQF-MYGCAM3XEtLC1RPcnqeR8ON
+sprite $PaletteLg [20x20/16z] {
+PSo54KGn20JGZIji_ztUyJsJDu83uyfKKaTsk1NbHJDEWwOsclPf3K1eAe1Agbs5n3DBS4fnGMdEJ53UipjBasGVD7VMbPjvFDvqP2v4MH6uI8DimfFM_EUN
+ku2BV1xV4lSU6Y_gyAYyUBoIqWWMkGjdmEK7
+}
+!procedure Palette($id, $name="Palette", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Palette', $name, $tech)
+!endprocedure
+!procedure PaletteCard($id, $funcName="", $content="")
+  IconCard($id, '<$PaletteMd>', '', $funcName, $content)
+!endprocedure
+!procedure PaletteGroup($id, $name='Palette', $tech='')
+  IconGroup($id, 'IconGroup', '<$PaletteLg>', $name, $tech)
+!endprocedure
+@enduml

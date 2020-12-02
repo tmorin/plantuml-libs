@@ -1,0 +1,19 @@
+@startuml
+sprite $GlobeMd [14x14/16z] {
+LKw5OKKn22JO4-JstxQatt7dY8XjHIvbsgJm4xWCzf-qD00kE9sDq4dWDy1gnijKZNcYY5JFiOTat7lcmj1jOtwpo3Alp3gqCaILb-fO7lryc7aXUtwN_Pqc
+tSXkcsGJ-yfYamd_
+}
+sprite $GlobeLg [20x21/16z] {
+XT1NOi0W30DG6OSDrlrlMplk_EhBaB832DAWrofgmRU-CCc3CGMfN3vArmhjGL2ZOTFTY0f0BZd564eZgT3bKPMl7dcWVVGXwZjV7tWCAKL482bBOS3Yw-8o
+vMT_ol_dBiuRDA-JvdXml5m9W6HcgNElNPwzt6w8a399DcN8t42yTi4Of9CcEGc6k3i_eGYoOkPoAau1KfteyORHyCTJl-i7
+}
+!procedure Globe($id, $name="Globe", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Globe', $name, $tech)
+!endprocedure
+!procedure GlobeCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlobeMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlobeGroup($id, $name='Globe', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlobeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $MarsStrokeVMd [14x25/16z] {
+ROw50GCn3CGSvcZ_RLi_auBc4yNDOUMWGBuQf-b1SR9HBvccJXXbiomeziiItw0UJKIjemaenMZLOAF_pQvlAUfh4e6a1Ha83SeXI6MuG-uunpfWWZzZvs3z
+1TOsfg1PJTDRcwlNT3QQA5dzpBJhzZ5wUVC3
+}
+sprite $MarsStrokeVLg [20x35/16z] {
+VT450iCW30NGu4xkVzfAGXSo-rljuG0hfWyB7254HaKBDMaik5B5RCotbEXWYxjDonYtpU758gxaBvR-cytrbbRi_t71Sps_ISULyMZ2BLb8eqVaCND3Ie10
+VNKQqf8EQ4J0uQ-0QcAMkg4Rl5A_xSO_g_faEFOXC-zP3AgeggN8Q8Ic0PxXB37cmNijtUe1YoPEdFXvI2RrYsTF1bIiXNyv0G
+}
+!procedure MarsStrokeV($id, $name="Mars Stroke V", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MarsStrokeV', $name, $tech)
+!endprocedure
+!procedure MarsStrokeVCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarsStrokeVMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarsStrokeVGroup($id, $name='Mars Stroke V', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarsStrokeVLg>', $name, $tech)
+!endprocedure
+@enduml

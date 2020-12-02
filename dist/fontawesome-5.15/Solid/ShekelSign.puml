@@ -1,0 +1,16 @@
+@startuml
+sprite $ShekelSignMd [14x16/16z] dOzL0W0X24J7RkV-jrti_tqc3L03J1GQ-w0OmBFpO177KqCCYMm8Gue0nazDAMXI6z8iQVp-IYFJbIo4mhwa74B8P5hIegbEBwSBBIb0zflg0m
+sprite $ShekelSignLg [20x23/16z] {
+pP150e0W50M7RhZ_QUrMzixg_Gu-i673wyNMCRXsaYKGsvsg86owr8abyyZp242LIUhJjw0MUVXyBG4nbOVJbwQUl_BXKp9FtyIId0-Vcj6BlVjEgdZxDDip
+3h82Owr4s1r5Xn4
+}
+!procedure ShekelSign($id, $name="Shekel Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ShekelSign', $name, $tech)
+!endprocedure
+!procedure ShekelSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShekelSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShekelSignGroup($id, $name='Shekel Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShekelSignLg>', $name, $tech)
+!endprocedure
+@enduml

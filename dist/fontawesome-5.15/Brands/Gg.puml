@@ -1,0 +1,13 @@
+@startuml
+sprite $GgMd [14x14/16z] XSbN4e0W40FGq7ku_stDClYhiErDyFDI1a9viIS2Txq823k1zUB8hOP99HPc8vSxSIp0cBvIP811myXw8QxLDCQ1s80iVBy7
+sprite $GgLg [20x20/16z] fOz73W0n20EtKRR__xKfcBHpV1Z9W2snJEjIPzFv_spKRiIq9PByKaUKWvaOmYIfMGnn1MjKlxeK5aJ4YHmFFHZr4OoebMEFaG-p8MEHsczYR4DsJYi2
+!procedure Gg($id, $name="Gg", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Gg', $name, $tech)
+!endprocedure
+!procedure GgCard($id, $funcName="", $content="")
+  IconCard($id, '<$GgMd>', '', $funcName, $content)
+!endprocedure
+!procedure GgGroup($id, $name='Gg', $tech='')
+  IconGroup($id, 'IconGroup', '<$GgLg>', $name, $tech)
+!endprocedure
+@enduml

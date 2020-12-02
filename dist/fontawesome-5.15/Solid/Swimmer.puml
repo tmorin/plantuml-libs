@@ -1,0 +1,16 @@
+@startuml
+sprite $SwimmerMd [14x11/16z] VOl50SLG3CFycAFzforUFbPXi9weLe-Srkh5AG91dPCc3-O7p91xa6BrXOFXT3D6IcCbdITMpckLFAaHseHnAXkStyxT8QStTW
+sprite $SwimmerLg [20x16/16z] {
+fOrL0W0X24GLi7Nc_hVTxizz1isuFqXZazMfGCl1psuZsMORC3kxlphE5UxWx5jJsOVSRDlNlN4btNL0OdvpzSmfHl0-Z16td8z0z1A08Ci_fy4F07e8_Vcx
+7qm
+}
+!procedure Swimmer($id, $name="Swimmer", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Swimmer', $name, $tech)
+!endprocedure
+!procedure SwimmerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwimmerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwimmerGroup($id, $name='Swimmer', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwimmerLg>', $name, $tech)
+!endprocedure
+@enduml

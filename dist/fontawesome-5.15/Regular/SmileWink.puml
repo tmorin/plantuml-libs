@@ -1,0 +1,19 @@
+@startuml
+sprite $SmileWinkMd [14x14/16z] {
+FSV70K8n34J1vo07WNVxhvRCdzi0PHtfh090jtFEbEEJB01i3wOI-BNQXLgWLD1sKfoq-qcMDM5rMYC8Qt09E-aJO0JBDk5RH7gYNDxqOojOhiIhbC8h0rxL
+ZbZw1Ee-ih82Jm
+}
+sprite $SmileWinkLg [20x21/16z] {
+LP055WGn34Af9Qbo_zlke-j_FCe0aMmUyYnF-E2RbnFlODxaSci-oLCXok4gh-mWcsPjzfyfP47k7FWXED79Z5ysws40QOQcn6o0SP1LJsPLB0QoHALNNNAW
+cbAA_QDOnZ-7LwGRBYsWULAS3YCz1MSuUqXu9JbbZIbVKd01PL3X2Zn_Qt5AJYa92ftyD64RBdNn58WatqP4buyVPNNoiXf-oDMilMiU
+}
+!procedure SmileWink($id, $name="Smile Wink", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/SmileWink', $name, $tech)
+!endprocedure
+!procedure SmileWinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmileWinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmileWinkGroup($id, $name='Smile Wink', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmileWinkLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ShippingFastMd [14x11/16z] DOo50S0m20G_ZXH-_sdhELmn-1853ygFzXRcxfPa7XKewo78hbdGHMGPoGg98cjDuOtCcHFJpVaptfyRWVhNi2SybHbsA95HTxW
+sprite $ShippingFastLg [20x16/16z] {
+NOs53O1G5CIAy_NsdnOxlB6cUGApBcOkz81fsbTht4gfndNodEdsCaV7N0wEEGXxR5vZmh6ynjJGa4JJUEoY7jD5_de3w4-pjn1aR1KK8AXALRQxDT3Snhnl
+p7oC80NUjW8
+}
+!procedure ShippingFast($id, $name="Shipping Fast", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ShippingFast', $name, $tech)
+!endprocedure
+!procedure ShippingFastCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShippingFastMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShippingFastGroup($id, $name='Shipping Fast', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShippingFastLg>', $name, $tech)
+!endprocedure
+@enduml

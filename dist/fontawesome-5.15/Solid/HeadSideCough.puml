@@ -1,0 +1,16 @@
+@startuml
+sprite $HeadSideCoughMd [14x11/16z] FSp50GGW44FHZplflzeLx9r6WwsIHcInGqjUNTNX_jsgHfRAwvgJnh_hkW94_xg8IJjcr6g92VAUGt4qYfPX28dTrUG1Mxy
+sprite $HeadSideCoughLg [20x16/16z] {
+POq54WGn20Gx8RBA_F-rfnGds-MZm3ma-MeazL0mKpkKZ92cb7YvnBAjm4pImLLJlNOroO_a18R_1dV09bM1omiC_tenWBvPxtjgxQr1QjyFV6dU0HisKYi4
+GtS
+}
+!procedure HeadSideCough($id, $name="Head Side Cough", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HeadSideCough', $name, $tech)
+!endprocedure
+!procedure HeadSideCoughCard($id, $funcName="", $content="")
+  IconCard($id, '<$HeadSideCoughMd>', '', $funcName, $content)
+!endprocedure
+!procedure HeadSideCoughGroup($id, $name='Head Side Cough', $tech='')
+  IconGroup($id, 'IconGroup', '<$HeadSideCoughLg>', $name, $tech)
+!endprocedure
+@enduml

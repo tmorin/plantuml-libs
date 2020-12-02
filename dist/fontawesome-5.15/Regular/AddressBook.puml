@@ -1,0 +1,16 @@
+@startuml
+sprite $AddressBookMd [14x16/16z] PO_50K0n34AJxmhxJrltlbiKk5YvXDzvHSwFuXgPYnehZHL2zV2frK7oA9jTrMy6IhNZVt_iOVCKq8DK_GJ0NywmgP7fY_Qk-qGM
+sprite $AddressBookLg [20x23/16z] {
+RP254S0m203nEko_RJt-PxaFhXurAu17Yq64K06kCL-Ee6GPk3MEvNUi-BaR-fuk_-Dr5XV7Ms_vwkMCt6CQnC5sEVtg7NzVCMhw4WCWuvFhbwOtOVSu9FUO
+uyCnkJr--4fP-NPhSfHxf4lzVTjRxJQ-dubcPBlS4IqAjDV69u0J
+}
+!procedure AddressBook($id, $name="Address Book", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/AddressBook', $name, $tech)
+!endprocedure
+!procedure AddressBookCard($id, $funcName="", $content="")
+  IconCard($id, '<$AddressBookMd>', '', $funcName, $content)
+!endprocedure
+!procedure AddressBookGroup($id, $name='Address Book', $tech='')
+  IconGroup($id, 'IconGroup', '<$AddressBookLg>', $name, $tech)
+!endprocedure
+@enduml

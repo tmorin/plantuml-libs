@@ -1,0 +1,17 @@
+@startuml
+sprite $FirstOrderMd [14x16/16z] LOy75i0W24ExIv8NlFzjkwj-9nk6YpbY7bx67HBsyHPMKBQ8zN82mHl435f8Eo6VydbAbdE3ZX3p54ungG3eScC2lTHxXjLawIlCfyo_UjzPttK_qG4
+sprite $FirstOrderLg [20x23/16z] {
+LT575iDG24FHnFO798hslzhqUeVlQ0IdboDpF_tPI3FY_2tdI0-DU_exhGnlTQiiyhYNdR0i7iJAff7RoTCWNuefw832odADC37JFHrDrI92SMXQDwNPAGTZ
+sD3Je3bnQ-dwuHL0qDdlqh2yxwXVau_TmdnsSJnsXUz8GjsRm4yDKWwwiDHrBpKwyjPgfPAklXdB4eohmXecct9PjaNkz-CPEesmwdYVS2SjTKCZjf-hMfVX
+Vj4lJu-qqxypulEXAm
+}
+!procedure FirstOrder($id, $name="First Order", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/FirstOrder', $name, $tech)
+!endprocedure
+!procedure FirstOrderCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirstOrderMd>', '', $funcName, $content)
+!endprocedure
+!procedure FirstOrderGroup($id, $name='First Order', $tech='')
+  IconGroup($id, 'IconGroup', '<$FirstOrderLg>', $name, $tech)
+!endprocedure
+@enduml

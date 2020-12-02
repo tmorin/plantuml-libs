@@ -1,0 +1,13 @@
+@startuml
+sprite $FolderMd [14x14/16z] Oq01Z4mW0EFnyOC0EvJ73m4Sh6n0mCnFPy32YW1ipAYk1W
+sprite $FolderLg [20x20/16z] rSZ50O0020LGslRlFwtTVVNHq4UIPWEbLObHlNbYLXlBW0chUXgEine_LE0aupXo-ge5
+!procedure Folder($id, $name="Folder", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Folder', $name, $tech)
+!endprocedure
+!procedure FolderCard($id, $funcName="", $content="")
+  IconCard($id, '<$FolderMd>', '', $funcName, $content)
+!endprocedure
+!procedure FolderGroup($id, $name='Folder', $tech='')
+  IconGroup($id, 'IconGroup', '<$FolderLg>', $name, $tech)
+!endprocedure
+@enduml

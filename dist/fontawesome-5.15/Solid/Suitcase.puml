@@ -1,0 +1,13 @@
+@startuml
+sprite $SuitcaseMd [14x14/16z] hOt50S0m30F3CMl_QSiqGCzuBwMDGNFIpEcWE3QYdJPW8WhUtZRg0FS-mMLMG0OEY82FpSFwtnRVX2YjvBQptxm2
+sprite $SuitcaseLg [20x20/16z] rSY50SCm34JHazd2_RSjDpn0lb4FLnLLUMt9VoAFR_gtz1pucOL_W18bZmuYpASzH_I8IV7B8U7r-U6rwVCwiRYZsT4aitImi3nZcHWo4qvw
+!procedure Suitcase($id, $name="Suitcase", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Suitcase', $name, $tech)
+!endprocedure
+!procedure SuitcaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SuitcaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SuitcaseGroup($id, $name='Suitcase', $tech='')
+  IconGroup($id, 'IconGroup', '<$SuitcaseLg>', $name, $tech)
+!endprocedure
+@enduml

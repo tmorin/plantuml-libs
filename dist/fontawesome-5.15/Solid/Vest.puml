@@ -1,0 +1,16 @@
+@startuml
+sprite $VestMd [14x16/16z] NOm50WGX30EpBf3c_x-zXfuFEZMWgo_0aWyI9QJlCXxtVV1bce5PRpk1isoJtD_psJ25N3hxZkcMsVRnb6Zk-X2Zlg2K5XpI9jeuDSctAolgYZ8n_gRqR-iF
+sprite $VestLg [20x23/16z] {
+XOu54aCn20M9Ezp_jlsayLJUsCwY0929ee0daWauYfwWDpOGHtQtH7HNJCWv65mTAIPDctDCOT-N7n0u-XorOLt1pBCU85P0mH_Nb3RANxlnb-vaa7fVw2vt
+y81qnWdwwv9j3ctkEq5r9qLvTx5YLoLK6VIo3rNySVU_GtSxym8
+}
+!procedure Vest($id, $name="Vest", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Vest', $name, $tech)
+!endprocedure
+!procedure VestCard($id, $funcName="", $content="")
+  IconCard($id, '<$VestMd>', '', $funcName, $content)
+!endprocedure
+!procedure VestGroup($id, $name='Vest', $tech='')
+  IconGroup($id, 'IconGroup', '<$VestLg>', $name, $tech)
+!endprocedure
+@enduml

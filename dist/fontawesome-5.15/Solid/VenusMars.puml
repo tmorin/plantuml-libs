@@ -1,0 +1,16 @@
+@startuml
+sprite $VenusMarsMd [14x12/16z] FSh7OSKW50319IC1R_klrlvvpWEvPg0MXdAhCuM6QqolUZj6xs726zW7Q3QSm1r0iRCZKrm9RZDLjr5En6lbspinrceyDIi_K-ryFMVcfrZu-WS
+sprite $VenusMarsLg [20x18/16z] {
+ROrL0aCX3C1QN9lxttOh_4nUy52H7mhmw-9neStPWaZiSzIutMKEMOs3nT9XrxeXr5sQGHA1fIAo6F8c6DLTyKV2rC_6T9TkEmj-5fQxVl-NEDEV6wfgWHgB
+XdxIqWGpcBemFCjf1jP51s15BW6YdngZoaKZP9KlF8VrxUQ3q_IRwzBuLYy
+}
+!procedure VenusMars($id, $name="Venus Mars", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VenusMars', $name, $tech)
+!endprocedure
+!procedure VenusMarsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VenusMarsMd>', '', $funcName, $content)
+!endprocedure
+!procedure VenusMarsGroup($id, $name='Venus Mars', $tech='')
+  IconGroup($id, 'IconGroup', '<$VenusMarsLg>', $name, $tech)
+!endprocedure
+@enduml

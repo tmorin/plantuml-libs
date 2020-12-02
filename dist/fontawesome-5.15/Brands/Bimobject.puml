@@ -1,0 +1,16 @@
+@startuml
+sprite $BimobjectMd [14x16/16z] VOw30K0n34IlTcx_QR-DlY86r0LK2ZU4bNsilLfGnNkVPBEWCE5sAuiKOBVEdrINsBCknhhrx7BV6ke2HW
+sprite $BimobjectLg [20x23/16z] {
+fT230GH1343HFsQI_gizsxVxnWOlnFOag3qH-uS-xv3mJtj44Esz3xdjSuM3VDDtqMxwYkmKoBVxxSi9wNFVSPzstuSFtWFrt1TmYOFhbupMRPHSwh3LvBbh
+-lp4yS8M
+}
+!procedure Bimobject($id, $name="Bimobject", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Bimobject', $name, $tech)
+!endprocedure
+!procedure BimobjectCard($id, $funcName="", $content="")
+  IconCard($id, '<$BimobjectMd>', '', $funcName, $content)
+!endprocedure
+!procedure BimobjectGroup($id, $name='Bimobject', $tech='')
+  IconGroup($id, 'IconGroup', '<$BimobjectLg>', $name, $tech)
+!endprocedure
+@enduml

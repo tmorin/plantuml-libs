@@ -1,0 +1,16 @@
+@startuml
+sprite $CommentMd [14x14/16z] ZSf50WH120F0u3FToFzVksx7hHCamGrRX0kUvCpkMegxSrusGTPy9ENyEETl_VjarCydYEzZy7ojUp7GamenKyADC7vS0G
+sprite $CommentLg [20x20/16z] {
+ZSl50GGn0090uahelzfpNSqy4UmneRJUM_RV90-zC3qZH_tevXxf7syXjT2Gj1AwLghMAAqDhVIcbUorOb6qa00p5ay0YtF4JPD4FWDcYviiZGIu46DmUAeb
+64ou0W
+}
+!procedure Comment($id, $name="Comment", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Comment', $name, $tech)
+!endprocedure
+!procedure CommentCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommentMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommentGroup($id, $name='Comment', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommentLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $CaretSquareRightMd [14x16/16z] Oq017Fn8W8EVXvq32jXvW7maTH0UCpES1wOOaNZi_BnCo7Byl8oeF5mg-HYHRM22s81cEwhBK5sDwYC
+sprite $CaretSquareRightLg [20x23/16z] XSe52i1044FHhFlE_M_RGQePw2VO8p1ojNqg648rNQcFIXVDurKmB5xcCl-2DCCKsHJP5Dd4isMGPP1ba6LypGMG0RysnwifkmbL4VEd2Ai3
+!procedure CaretSquareRight($id, $name="Caret Square Right", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/CaretSquareRight', $name, $tech)
+!endprocedure
+!procedure CaretSquareRightCard($id, $funcName="", $content="")
+  IconCard($id, '<$CaretSquareRightMd>', '', $funcName, $content)
+!endprocedure
+!procedure CaretSquareRightGroup($id, $name='Caret Square Right', $tech='')
+  IconGroup($id, 'IconGroup', '<$CaretSquareRightLg>', $name, $tech)
+!endprocedure
+@enduml

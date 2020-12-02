@@ -1,0 +1,16 @@
+@startuml
+sprite $GlobeAsiaMd [14x14/16z] HSU55G1120FHhCk3fFzkZ_E_0WCWJITj9fogj4StiLsnK_oKr36u4Pe2ivJEIZnpQUEKTIB76SLrYMeZKJysSgPg8dNfIEXQyqbwDsKqVJhmPySfBoTzPG07
+sprite $GlobeAsiaLg [20x21/16z] {
+NSu54WCn30D0XScn_l_RrXDextROA1YNXv8gnU4gapHQJz5FKafEUP8QOO9I0huIJR9RamqcSmdmZHtBMBM1HdeiZKjKLhngdOpOEgyToKq-QiuZ2l_a64LG
+-2Mg_8cHd1aXMd7og32LR9M7X9HWDu9RnQrbPGSWV53_3aODA-tW9HvRt5N9-EDJpibZ-G
+}
+!procedure GlobeAsia($id, $name="Globe Asia", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GlobeAsia', $name, $tech)
+!endprocedure
+!procedure GlobeAsiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlobeAsiaMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlobeAsiaGroup($id, $name='Globe Asia', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlobeAsiaLg>', $name, $tech)
+!endprocedure
+@enduml

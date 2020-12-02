@@ -1,0 +1,19 @@
+@startuml
+sprite $QuestionCircleMd [14x14/16z] {
+9Os50SD030Fl8MJI_jisJiqe0TFqIcm-ULHkgHZTX8vEAsio7qrsv0sHsBivL2LZwbJnxWUfWQSSO3mAkFJlN3Q-Bhkxdu-gGWkm9XkwT_Ioj7erc1MJCS6q
+WPdoypHrqtAcLDS0VW
+}
+sprite $QuestionCircleLg [20x20/16z] {
+FP270GGX20IHGr1vsVwxDVzUTCZG5cjphvheBswugezce9imImd4zr2XerI11Hd8ysIjsGmqzFbkouixfZeJrNbazEdiG9lFRuL5CjXaNzVb0bvnql2zZdxJ
+XKXH77oG0Jj4K1yJ838TLY6RAP3lZ-bhM0yYXoH4kkas_5Pl5NNzjpkXhq8fJeVHcPR7xrPyAsBVy-qXWAOYkgRZjw8Is0gxP5EnMatkQG
+}
+!procedure QuestionCircle($id, $name="Question Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/QuestionCircle', $name, $tech)
+!endprocedure
+!procedure QuestionCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuestionCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuestionCircleGroup($id, $name='Question Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuestionCircleLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $MegaportMd [14x14/16z] {
+9Om74W0X20FNTdRo_zyUZ6i5aW2f7sSaWcfIgvArAEIK4lT7DpavnMqv2bKeyPbHBDPcnF1LfgWUWsDqFHRa0bCoar5FOZUkPlTggcGjhp9DQQeLhwm3xRxi
+-n7aUStkBC0F
+}
+sprite $MegaportLg [20x21/16z] {
+RT250OGm00J1ZGAnwx_RvzvjyCM3XThNQMo1fsrASqXhVyHu5gt8TPEnjEI3S3OhG9XwDKl4Gx8EpxrNUiQyP2DGAZJPRQs3A6KsFRbbQVjixKyh_gH4qai5
+OWAoRCetiIS8Hw3uuRlymbqpqDK8_f6mkxNR60oYtmVZrWBZRC4d8QpklzchNtOeOQ7hQKRkyhsE2Y-nr5eYDnS
+}
+!procedure Megaport($id, $name="Megaport", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Megaport', $name, $tech)
+!endprocedure
+!procedure MegaportCard($id, $funcName="", $content="")
+  IconCard($id, '<$MegaportMd>', '', $funcName, $content)
+!endprocedure
+!procedure MegaportGroup($id, $name='Megaport', $tech='')
+  IconGroup($id, 'IconGroup', '<$MegaportLg>', $name, $tech)
+!endprocedure
+@enduml

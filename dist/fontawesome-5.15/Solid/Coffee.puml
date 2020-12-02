@@ -1,0 +1,13 @@
+@startuml
+sprite $CoffeeMd [14x11/16z] JSt50G0X3031nHtwh_O4drSyeAsP153QfauMH2udyzXszMGPlQago6s8IW1kDYITiZ_1-5Q7hw-rTtvmtl82
+sprite $CoffeeLg [20x16/16z] XSwr0G1H20FGXEOSzf_s_Bkz4WrkZE2pcvgdg-1cAPMiHgwsPJL0p8Orjpl-uR9eL76PP_DcEBF-N8a4A2y29Dsns14TYsyo1U02
+!procedure Coffee($id, $name="Coffee", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Coffee', $name, $tech)
+!endprocedure
+!procedure CoffeeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoffeeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoffeeGroup($id, $name='Coffee', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoffeeLg>', $name, $tech)
+!endprocedure
+@enduml

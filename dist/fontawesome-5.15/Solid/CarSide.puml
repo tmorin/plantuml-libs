@@ -1,0 +1,16 @@
+@startuml
+sprite $CarSideMd [14x11/16z] NSc50SGW343HJwH6PFzfpxKFuZ3ypdYAVbYvitP9P-_7zKX8XTa2QrTaPznIJUrVsIVfyIaMErkutqiQLhCCz5dGpNYNAm
+sprite $CarSideLg [20x16/16z] {
+bSi53iD034JH2ISBy-z_syhhSaNzeYU3eYdJgzravJcTULOUioFOchIOGrbdpPbMsAI1FetPDEd4IumC9dF0fynF5tzqNP-okQGBmqFMb9hq9ftnSUgbPE13
+lzq
+}
+!procedure CarSide($id, $name="Car Side", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CarSide', $name, $tech)
+!endprocedure
+!procedure CarSideCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarSideMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarSideGroup($id, $name='Car Side', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarSideLg>', $name, $tech)
+!endprocedure
+@enduml

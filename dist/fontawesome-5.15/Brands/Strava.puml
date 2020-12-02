@@ -1,0 +1,16 @@
+@startuml
+sprite $StravaMd [14x18/16z] HSt50S0m3CNG7-Pe_stBjQxFeAlcPGMQh0664J2SO9ZWGgE-J_negq7NrO8i3mH96PQa-c3CEIYqNd9fFUhAROho_wQm_Q9A7ywVBkId4nVRwIzVP3YlhGC
+sprite $StravaLg [20x27/16z] {
+PT055WGX009GkvNxttOVEurCgjyqHs8rMyhSgjn2qheAA7G028KH2cEoC8KUs603i0PVziEouxky64LxmV1dv0_iruoLqF4ltbkm2q3zpv1YZ5IjrHXZQgrv
+EONoNf5TdCbzpuA2B-etREl32FSJ8nH6g8oGJ98np9P59edMC3y
+}
+!procedure Strava($id, $name="Strava", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Strava', $name, $tech)
+!endprocedure
+!procedure StravaCard($id, $funcName="", $content="")
+  IconCard($id, '<$StravaMd>', '', $funcName, $content)
+!endprocedure
+!procedure StravaGroup($id, $name='Strava', $tech='')
+  IconGroup($id, 'IconGroup', '<$StravaLg>', $name, $tech)
+!endprocedure
+@enduml

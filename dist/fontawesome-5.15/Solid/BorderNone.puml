@@ -1,0 +1,16 @@
+@startuml
+sprite $BorderNoneMd [14x16/16z] jOm50G1030970Av_stSDC3SWFiE25MPkdXMf8tR5lKElvjz-v5R9reIvnMSL
+sprite $BorderNoneLg [20x23/16z] {
+ROvN0eGW34G7IAFE_M-xPjK_dvNKXmzY67G4Mk_bEWXyEBcmoEAaDdBWy69Yyi18gMJ7vgbIKQK1BHyfk0BjYYL514d6SbwIyv1iyet56pkaXI2fuGM9Xjw1
+-uXId_Q1pWKbMpaCBAulvxa3lWTahrhcDlJhyC5OZaJMh4XYTNA_VlRw7KuaHWgInOr7BR_lZxf0mb3D2imRn2NzvkqdzV7xYgatD5UKx5MhsOiFVW
+}
+!procedure BorderNone($id, $name="Border None", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BorderNone', $name, $tech)
+!endprocedure
+!procedure BorderNoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$BorderNoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure BorderNoneGroup($id, $name='Border None', $tech='')
+  IconGroup($id, 'IconGroup', '<$BorderNoneLg>', $name, $tech)
+!endprocedure
+@enduml

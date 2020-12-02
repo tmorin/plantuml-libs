@@ -1,0 +1,16 @@
+@startuml
+sprite $UmbrellaBeachMd [14x11/16z] JSg50GGn24JHYHlm-w_sNFP5K3rKipfFriiYgi79wL4Cw0lmiVNGPWE8HjLJwYVmpj5RhtDEU1VrkLIMlwiT-alCTr9ghMNGdp6BYwKx
+sprite $UmbrellaBeachLg [20x16/16z] {
+NSo50GGX34JHmJs__sfFrnzEH3-kJ98hrUkG3M8mM4wR1kG0toC6VLLWEEEh9VkbXcQ4niy8TFsuw8sV7Y5eu_C0g0cg3ZxKHIwmpgzle-Wxe5tvDtTfc7QJ
+f8U0wQbITN1VSekuNILZP_zjIJoPz0O
+}
+!procedure UmbrellaBeach($id, $name="Umbrella Beach", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UmbrellaBeach', $name, $tech)
+!endprocedure
+!procedure UmbrellaBeachCard($id, $funcName="", $content="")
+  IconCard($id, '<$UmbrellaBeachMd>', '', $funcName, $content)
+!endprocedure
+!procedure UmbrellaBeachGroup($id, $name='Umbrella Beach', $tech='')
+  IconGroup($id, 'IconGroup', '<$UmbrellaBeachLg>', $name, $tech)
+!endprocedure
+@enduml

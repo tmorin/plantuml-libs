@@ -1,0 +1,16 @@
+@startuml
+sprite $TreeMd [14x18/16z] FOx50G0n20GXP_7jlziBEhz1buIo9rDG5Z12-4WgJoXThSFvn1xJtIuIchLUbHgJpv4NoKqqK-Ggv-JBaYfiMf1Ws5hGvXQ0BLZM6oYKT0yPBM_-
+sprite $TreeLg [20x27/16z] {
+PP453aKn20HVtRltF-rNBEt4o4I0tOU8sE4vw40zL0D4MWKKeog8BAf0IAGo355M4hh7Px4jk-UFc-owx12bii5Gx77sceW3Vxljlrl3LhFy_vW1GzCtbAgN
+s6iABX9kLfr_06mQ9Ut1AnMtWNcuTbOa3_hRRN9l
+}
+!procedure Tree($id, $name="Tree", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tree', $name, $tech)
+!endprocedure
+!procedure TreeCard($id, $funcName="", $content="")
+  IconCard($id, '<$TreeMd>', '', $funcName, $content)
+!endprocedure
+!procedure TreeGroup($id, $name='Tree', $tech='')
+  IconGroup($id, 'IconGroup', '<$TreeLg>', $name, $tech)
+!endprocedure
+@enduml

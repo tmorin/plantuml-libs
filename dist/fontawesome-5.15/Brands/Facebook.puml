@@ -1,0 +1,16 @@
+@startuml
+sprite $FacebookMd [14x14/16z] HOw50G0W40AnM_RVrhVF_0Q0pbqe5el4HL7Jg9nqsHfwHPg1QgmdpKAPHlg-B8KodyfZLLw2WcIUNdGGfjLcVc-dBjZowxg2xi-QsdJTLZz2VL78SSeS
+sprite $FacebookLg [20x20/16z] {
+NSy50W0X20J01Rl__rgJoxrqJB33BgOKBE4EnoO9bvhsfAeVrVLQo0954t6UNm9ahSgOIVFFtyF2MiMMrKjEp09MVdLyBCYlJsU3QW1NorbcMvMZKjqMjnsI
+3PtTPWnFqMT3pSyUNWuFXB-vQzt7CcRqRK-DKEMnp3WXNuyLXoTa5A2rj0O
+}
+!procedure Facebook($id, $name="Facebook", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Facebook', $name, $tech)
+!endprocedure
+!procedure FacebookCard($id, $funcName="", $content="")
+  IconCard($id, '<$FacebookMd>', '', $funcName, $content)
+!endprocedure
+!procedure FacebookGroup($id, $name='Facebook', $tech='')
+  IconGroup($id, 'IconGroup', '<$FacebookLg>', $name, $tech)
+!endprocedure
+@enduml

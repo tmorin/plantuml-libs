@@ -1,0 +1,19 @@
+@startuml
+sprite $LaravelMd [14x14/16z] {
+FKc50KHH2C80_ulzvpszCiWWKuxlF8-1pwZ8TXMkRJ2HifY6Zbs0Ri096PHLyVmTKlWwvyh8R_SqnTw9TeyIC2wY7NOJopsRR6H5uxXgA8T9cCboEiln6UDP
+yP4l
+}
+sprite $LaravelLg [20x20/16z] {
+LO-50SCm3C1aY6dq_xNZhQt22jbWFSa1oJQY7JPE9m2_VMHC2lGQbweCm2PuBccapiuAYAi2Sga6BTukimFlUZdxkbBoLAA7SmOD1pVhxRp_pYQgj3HRloxE
+AM1p_HxMebhXvIx2nvtB0RHBYe-Zcs_YD5-7JyIi_x9Au7iKgUA5Tm3htVNYIynwEUzaG-f9jd90vsJyUG
+}
+!procedure Laravel($id, $name="Laravel", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Laravel', $name, $tech)
+!endprocedure
+!procedure LaravelCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaravelMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaravelGroup($id, $name='Laravel', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaravelLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $WalkingMd [14x22/16z] {
+HO_L0KKX3CKExcJ_QP-KA_aYr7MOi9qkt0A2RYeClSJaTEFVhD0sq4-iSvZEvAPA0KZ3R4iHijR_RS6SBKu1bisoHmLihssRX1Rr9_qpx-bT6SZtnisA_5Mr
+lVe9kWdT-dQJNyWoblGNEsT0q2qgVulBwz2hz0K
+}
+sprite $WalkingLg [20x32/16z] {
+XP075e0W34FBtkN-ftMaLkGju-hxqj10IsNEGhlol9HtnZVZVwQzEsG6-f6XNIvtdgFwHMAVZzJFW41l4A1NQ4yeXx9sT_9Tc3HLzcBt8aDrEKga8AidLzWu
+8cUlHqpjznm2M2MFhp2BEbv5uVi3mQaYWg4jJAQb6CbWwhHOkoB9da6HGqvtmw6im5y6SO-RDhNNCI22_gmhGb1V_Y28nN2Re8eXArB3Y5uWKSKU9m
+}
+!procedure Walking($id, $name="Walking", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Walking', $name, $tech)
+!endprocedure
+!procedure WalkingCard($id, $funcName="", $content="")
+  IconCard($id, '<$WalkingMd>', '', $funcName, $content)
+!endprocedure
+!procedure WalkingGroup($id, $name='Walking', $tech='')
+  IconGroup($id, 'IconGroup', '<$WalkingLg>', $name, $tech)
+!endprocedure
+@enduml

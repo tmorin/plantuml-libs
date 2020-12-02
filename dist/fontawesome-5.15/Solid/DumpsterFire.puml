@@ -1,0 +1,16 @@
+@startuml
+sprite $DumpsterFireMd [14x11/16z] 9KY50G112EAA2uFzf_rKkd9KzWy3s78ggAJKaThxRLws1hXQNsop1rj5C_S7rPKHHT-T9RgqUhwDOUZJXFZR0N04UzlUOg4EjipSwZjwGIU-6tC0Dm
+sprite $DumpsterFireLg [20x16/16z] {
+RSc5OKGX00JHnUtOwR_RV8lVmmSfXDzBoa2QK2kC16If0t7VpT7GfHUy4dTRAZ2bRNh6PrjXvbnr234Syzmq8QL-f8qlf0ROD9d7YZ0sX_ZLScSfuytGu1Ot
+HMgfOhKxEPYiGmKLRcanT9Wi9MuzmyXvGb7WP1pxyobfxw1mJAaiUnMzzG4
+}
+!procedure DumpsterFire($id, $name="Dumpster Fire", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/DumpsterFire', $name, $tech)
+!endprocedure
+!procedure DumpsterFireCard($id, $funcName="", $content="")
+  IconCard($id, '<$DumpsterFireMd>', '', $funcName, $content)
+!endprocedure
+!procedure DumpsterFireGroup($id, $name='Dumpster Fire', $tech='')
+  IconGroup($id, 'IconGroup', '<$DumpsterFireLg>', $name, $tech)
+!endprocedure
+@enduml

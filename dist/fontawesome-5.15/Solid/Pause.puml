@@ -1,0 +1,13 @@
+@startuml
+sprite $PauseMd [14x16/16z] Os040WOW0DES_430mS300QA1711WO83GWvV7mGS4G5T3QHG
+sprite $PauseLg [20x23/16z] xScr0S0W00J0nntsdnQ79jxdgXUS8Desl6NPeoO-3HmGCzeqQM3dxzk_AS3C66U8563xvb9K11LjIJASAG
+!procedure Pause($id, $name="Pause", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Pause', $name, $tech)
+!endprocedure
+!procedure PauseCard($id, $funcName="", $content="")
+  IconCard($id, '<$PauseMd>', '', $funcName, $content)
+!endprocedure
+!procedure PauseGroup($id, $name='Pause', $tech='')
+  IconGroup($id, 'IconGroup', '<$PauseLg>', $name, $tech)
+!endprocedure
+@enduml

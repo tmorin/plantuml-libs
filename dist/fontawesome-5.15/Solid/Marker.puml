@@ -1,0 +1,16 @@
+@startuml
+sprite $MarkerMd [14x14/16z] JKor0G0m34hTm__Nreq9fuc4P1dmKnY0Cu2o13jCT271Eax18tDc2UYpUo8P-ubEt15n-iuCBjPteGd_7n3_WWRFYgugbYuQ
+sprite $MarkerLg [20x20/16z] {
+PSu53i0W44JHnPsv_sdhAqb__BN04DVGYSh6Ia8TG6-uIqeRNrDeU44XQapZiMe9aPwIKyetFFYdGaL9znOXsJjkj7_XGw4YipnJCBkumPI4WkwIwfzeFh8Y
+cMxPrP5jhfvPk1C
+}
+!procedure Marker($id, $name="Marker", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Marker', $name, $tech)
+!endprocedure
+!procedure MarkerCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarkerMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarkerGroup($id, $name='Marker', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarkerLg>', $name, $tech)
+!endprocedure
+@enduml

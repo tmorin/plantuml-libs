@@ -1,0 +1,20 @@
+@startuml
+sprite $MailchimpMd [14x16/16z] {
+NOo5OG0n24K_JfJzj-rTKd-uui3uGJDSeWbUF42pgkOf33fwtzNVDOVliPuP0vIG9zkhXGAk67MN0aYoP-HGM2gaPpxlc8cU2QLQhyqWqiP8vb4fOIeIuEXL
+oU7AJmL4lPi0zTUZFMLwMuQ3ZLsx2_xn0G
+}
+sprite $MailchimpLg [20x23/16z] {
+TSvLOi0m283XFmAXHBZ_RJVQkNnlEFolsTM1mYTpQJvidoCywbJ08wttL0CviJCtIILJTiPGFn52SW4BNv6Sf1T8FCur2y0ib9EnTgsO069mnIi1wAQGXHgf
+5gd8c1tK-bnFdtPQRQvmJUaZzrKe5Ve5GxkrS-UIp05Ze6r76AewJF16cVt-hxKflL3H0StdSyE6YjvzGC_SXDegwE8sCdcHB1eFo-HsyuZEkpxZveKlggZs
+mdzU
+}
+!procedure Mailchimp($id, $name="Mailchimp", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Mailchimp', $name, $tech)
+!endprocedure
+!procedure MailchimpCard($id, $funcName="", $content="")
+  IconCard($id, '<$MailchimpMd>', '', $funcName, $content)
+!endprocedure
+!procedure MailchimpGroup($id, $name='Mailchimp', $tech='')
+  IconGroup($id, 'IconGroup', '<$MailchimpLg>', $name, $tech)
+!endprocedure
+@enduml

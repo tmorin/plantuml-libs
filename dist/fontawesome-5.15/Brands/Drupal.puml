@@ -1,0 +1,19 @@
+@startuml
+sprite $DrupalMd [14x16/16z] {
+RSt50S0W30NG7rmY-qzRz_8k4CT0ShXvOuy3LLkqlUp4Dhg5R0TU5zWbRQLJ1_IET8kg2zrCKoUmzUr-8GH2jhgUAPNWjWifLEaiaTOqcqbNbe1DOgvvhHpe
+-Cu
+}
+sprite $DrupalLg [20x23/16z] {
+VT250O0W441HkgxstrRIrcy_6_MNUP8czx0ixA_YK6fuKbraLlGYb3sS1dAgT8fogJ-JheQLdDog7v_k5jh7zdYtD2qPxM1yDbHBurGjSDkneIxLhEfPsrQc
+hd1POdRLzFYO-fiwK8bPd37hHvYuBbBNiSB0MYe8XP9QsI92EUTeBqFlGlH6VRS1
+}
+!procedure Drupal($id, $name="Drupal", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Drupal', $name, $tech)
+!endprocedure
+!procedure DrupalCard($id, $funcName="", $content="")
+  IconCard($id, '<$DrupalMd>', '', $funcName, $content)
+!endprocedure
+!procedure DrupalGroup($id, $name='Drupal', $tech='')
+  IconGroup($id, 'IconGroup', '<$DrupalLg>', $name, $tech)
+!endprocedure
+@enduml

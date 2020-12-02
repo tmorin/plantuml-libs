@@ -1,0 +1,16 @@
+@startuml
+sprite $SortNumericDownMd [14x16/16z] NOo50S0W30IJ6ixjFsqTrxnANVg-ARsVvVtX8w53EYCTd6b0kI5HbOPCpgQYZPpPIfVXE3098FwQEG3sMpmoR6B0l9M9S7_UouUSohWk
+sprite $SortNumericDownLg [20x23/16z] {
+RP073WCn20JZNl7-_xV1WXJGpHMlnftN8w7Fh36DqIK0Kzq24AsBO88RbyYFOxQCyywlnmgd69Tn6NOS7QOQfpXNHtDx10AJZHkua7442knJpWtOkGHnSR8x
+4Eu9kiHOf5tVMk44wQIWPz5xJ6wJ7cQ3bvHYb5zTTfHhPX4cUju
+}
+!procedure SortNumericDown($id, $name="Sort Numeric Down", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SortNumericDown', $name, $tech)
+!endprocedure
+!procedure SortNumericDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$SortNumericDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure SortNumericDownGroup($id, $name='Sort Numeric Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$SortNumericDownLg>', $name, $tech)
+!endprocedure
+@enduml

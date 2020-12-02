@@ -1,0 +1,16 @@
+@startuml
+sprite $PrayMd [14x18/16z] POx50S1G2CNuxcJ_QUlUt90diXEX6pam2gHh0iXoKa2jNFXu3bbrrTYu-YGs2w_qmmyAh5FcP5Yn2g10DOUgcK4-ai29sNk5Tuts7jCzkfpIk4RbnF-c6G
+sprite $PrayLg [20x27/16z] {
+TOy54aCn20NZ2l_T_xQDTg2oOydYveqb0Dae4WPibMDCabGEY_elJ_SZemcTYXpXOp0QssUPcqzNJiU6krjupkY0JTzpdkaw3en96of2qUTiWgJSNITLt44u
+NJB0Njw9yGlfda7uFhJStWBB-9PEoF_b8SOOICaAILuEYkTiBEdBUId9BVS2
+}
+!procedure Pray($id, $name="Pray", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Pray', $name, $tech)
+!endprocedure
+!procedure PrayCard($id, $funcName="", $content="")
+  IconCard($id, '<$PrayMd>', '', $funcName, $content)
+!endprocedure
+!procedure PrayGroup($id, $name='Pray', $tech='')
+  IconGroup($id, 'IconGroup', '<$PrayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $VrCardboardMd [14x11/16z] NSO53aGX00FHuj0suVwdtVrk4tc3LvrZ398RVNxpauho827kf1KNFrZBQTuHu3wM5858oSIhFm
+sprite $VrCardboardLg [20x16/16z] bT230SH004JHVnThflzgOpjlRN3cTq1fUKCk_K6M7MeHHFiQhLtjEE-utqB_lxmJG-mj_U0tJIojBaIqehxgabzdyo6SQG
+!procedure VrCardboard($id, $name="Vr Cardboard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VrCardboard', $name, $tech)
+!endprocedure
+!procedure VrCardboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$VrCardboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure VrCardboardGroup($id, $name='Vr Cardboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$VrCardboardLg>', $name, $tech)
+!endprocedure
+@enduml

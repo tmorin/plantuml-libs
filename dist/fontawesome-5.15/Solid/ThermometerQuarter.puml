@@ -1,0 +1,20 @@
+@startuml
+sprite $ThermometerQuarterMd [14x28/16z] {
+jOvL5WCm2C2eExd_RGTlBhzBDL11ZBpXLBdImLdY560EXU6s8Oc40r4awZLOePX1Tyk_hVt1keHmimGj7CssLizHEwnhha0psyLlj0Dvc4M5PD8oNES5Qb4d
+snvc0QUrRzFqF7cW9vTQO5RNM6io8Nbzd34sr-gpSgMA4zg6tQDjBm
+}
+sprite $ThermometerQuarterLg [20x40/16z] {
+vPA73SGm24N1lNl_RSzyN9GPxgVXHoWIa8ZJc4iZqbCK8j1VbERL-JFWr3i-LfaSgY6oJGmWjwocfQIIEGKqzpFpo-AN6VwNnTxzbnatp_inZCHVLYyBmjAP
+43ysdKweKD51DimcuBqd730b9zaiOb1PkidBqH42PPOmPDlakZziWAtOXjhRBMTq701EjHonDqLHGgZd0JkiyERXwzWRh1epbasNg6eNfMYbJ289kCfdnSVj
+Bz0HHyIrJNu
+}
+!procedure ThermometerQuarter($id, $name="Thermometer Quarter", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ThermometerQuarter', $name, $tech)
+!endprocedure
+!procedure ThermometerQuarterCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThermometerQuarterMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThermometerQuarterGroup($id, $name='Thermometer Quarter', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThermometerQuarterLg>', $name, $tech)
+!endprocedure
+@enduml

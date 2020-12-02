@@ -1,0 +1,19 @@
+@startuml
+sprite $SearchPlusMd [14x14/16z] {
+JOpL0G0n24DJ0UhPVzlZlEyl2iYaqm9Emk25dK86fuHOI7KrEGEwGhW2G0h02dJAgUwXAErKKHjdZKOzLRcQOJ81xHnAH6C7S7vtjKcE14SNdJx8VCeWfWc9
+f_p8Bh7BTW
+}
+sprite $SearchPlusLg [20x20/16z] {
+POz7WWCW30D5sqsCZVx_snYYz3d1k2Ff5kIoZYV5A6Q1b3EJt3EL8Mbf_lPxhCmyggTgW5b1JJcKzWSKicMc4eEheDJjz058XsdiVhHFvv1R39JMoT4gdAjy
+pUWx5sVMgi3qYX8ddioK0qaFfU546MREZPUxd1J-TlBmO_xWoZpKrghwI8gdnAyqV4itt
+}
+!procedure SearchPlus($id, $name="Search Plus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SearchPlus', $name, $tech)
+!endprocedure
+!procedure SearchPlusCard($id, $funcName="", $content="")
+  IconCard($id, '<$SearchPlusMd>', '', $funcName, $content)
+!endprocedure
+!procedure SearchPlusGroup($id, $name='Search Plus', $tech='')
+  IconGroup($id, 'IconGroup', '<$SearchPlusLg>', $name, $tech)
+!endprocedure
+@enduml

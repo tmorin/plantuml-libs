@@ -1,0 +1,16 @@
+@startuml
+sprite $MapMarkedMd [14x12/16z] ROx50S0m24NZXks_RR5ZNnJ_HJcYx19KDelIQc9mzSWUpwodFpmisCrgMnooDgjmM3Z7ktDYMal6a4bfJRj_BUXb0Plr-ckXPusblmy
+sprite $MapMarkedLg [20x18/16z] {
+XS_50S0m40D1dPdLVxLXndqbOyQSpcJME6OuPOzMPsjocdQRQ5TpkwdLnbDacAnZKt6c38oViP0CianJcMiHdaC1WRk99BA8-Ds2JMX4T4SpTA8ixTaO0sz6
+_fjJzM2PR440Q5ycQr4Z-_tLmTZfhmS
+}
+!procedure MapMarked($id, $name="Map Marked", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MapMarked', $name, $tech)
+!endprocedure
+!procedure MapMarkedCard($id, $funcName="", $content="")
+  IconCard($id, '<$MapMarkedMd>', '', $funcName, $content)
+!endprocedure
+!procedure MapMarkedGroup($id, $name='Map Marked', $tech='')
+  IconGroup($id, 'IconGroup', '<$MapMarkedLg>', $name, $tech)
+!endprocedure
+@enduml

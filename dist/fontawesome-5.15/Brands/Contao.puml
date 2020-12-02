@@ -1,0 +1,16 @@
+@startuml
+sprite $ContaoMd [14x14/16z] LOs50G0X30EXZcR_QT_rq5hYGUd2m-PyeeOnVVyS6GOYfvGx1f45e5jISVEFFEy3DtKNc7SqxD0-c1DbYm90DquLVRUxv3h0soFLhcHBDnKiyaJ2Am
+sprite $ContaoLg [20x20/16z] {
+PT350KCX40JGmPtflzjals7lXgm2fr2Bmk1hhPxqcAZ6luABDhXOkRCGcQmQK2R8dRxIN16XT8f-LKYSd7TVRE32VjK6VxN5HOAed3NCHNgDyItYAB9HW27f
+heJzg-U-X5w-GSIlQnXlSRas4p6BxBwKh32eN2nm-W4
+}
+!procedure Contao($id, $name="Contao", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Contao', $name, $tech)
+!endprocedure
+!procedure ContaoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContaoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ContaoGroup($id, $name='Contao', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContaoLg>', $name, $tech)
+!endprocedure
+@enduml

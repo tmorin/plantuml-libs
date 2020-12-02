@@ -1,0 +1,16 @@
+@startuml
+sprite $UserTimesMd [14x11/16z] DSZ50G0m3CD0bpdUVzfoz3i1A6I6bhcBgdxKLEsem3GVz_CROk-j06oA1a0aFK8h8TJg34kJo9-tC5PK3Jjg_MYewj42
+sprite $UserTimesLg [20x16/16z] {
+TOt50SKm34CTbmtI_jD-A5FUKIW_r4bNEQFW3rn4uuoTDImQAffs8frUky6-Pru_1luOvcC3RBbrqkNAcYiJuEFem5JMFKtkP5b-ZISccU4PNBM5kZQUfN7H
+lW
+}
+!procedure UserTimes($id, $name="User Times", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserTimes', $name, $tech)
+!endprocedure
+!procedure UserTimesCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserTimesMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserTimesGroup($id, $name='User Times', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserTimesLg>', $name, $tech)
+!endprocedure
+@enduml

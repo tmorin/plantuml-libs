@@ -1,0 +1,16 @@
+@startuml
+sprite $TextWidthMd [14x16/16z] NOm50i0m30APabdv_szNjwic0R1qmCbvb6wd2IDlwIPDuWbWbtR_d0HALJcaenQdF6Uhd2lLGopmcuylRbcgJ3SUTJnZbPIUe4mf4JwO-04
+sprite $TextWidthLg [20x23/16z] {
+ZSy55iGm24LHYFlV_sudPEf-QvnNfmiXddXyruGCTHvGgECAPE8-z6YS9b6a2UCCYRdDxfkgG67Q2XZSjYKCONCZkJAOFlxbIZDkSRflRQf1OWQQDNOm3a3i
+wIJMSoiiCSoY9Fc3_JiAZsDRcoIX32qiqxKV
+}
+!procedure TextWidth($id, $name="Text Width", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/TextWidth', $name, $tech)
+!endprocedure
+!procedure TextWidthCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextWidthMd>', '', $funcName, $content)
+!endprocedure
+!procedure TextWidthGroup($id, $name='Text Width', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextWidthLg>', $name, $tech)
+!endprocedure
+@enduml

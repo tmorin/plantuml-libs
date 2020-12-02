@@ -1,0 +1,16 @@
+@startuml
+sprite $PenAltMd [14x14/16z] JSp50G0X44FHZplflzfr8RSt4iuO1q7A5uZLqAHfJoIfcww35tfHj-qWP0rJpssJXpPF77GEu8PqWNR3NwWBJ5f0Ni5SmTtDfn7viWC
+sprite $PenAltLg [20x20/16z] {
+PSe53e0m50JHhNlt_hSbG3L_uY-3gyIcCLFUVCIDgf4MaMzTBoADwX_MIQKlR8CIAYUwIPaSw07ebz8hBsg7DniMiIkC5j5FofAIf239I4APv1OPUI5AGlsa
+MHozqgF2MMtPJvaz
+}
+!procedure PenAlt($id, $name="Pen Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PenAlt', $name, $tech)
+!endprocedure
+!procedure PenAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$PenAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure PenAltGroup($id, $name='Pen Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$PenAltLg>', $name, $tech)
+!endprocedure
+@enduml

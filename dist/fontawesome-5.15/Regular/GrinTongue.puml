@@ -1,0 +1,19 @@
+@startuml
+sprite $GrinTongueMd [14x14/16z] {
+DOo50GDH34BVzqWlx3zj_U820CskgiiQ7vjId1EbzLtYTtLjJWNmNxlKw0teKAwWoS7Ktra7RCAmnb9jRdjlSgQjEPSjJ193zJOjAan1pZ57VeMMB1VCDEqV
+DnkXxmBThyVZyWwy
+}
+sprite $GrinTongueLg [20x21/16z] {
+LP25WGKn20LVt9d-kxqBtsStXeCkeIu3soteJJiurb_2U62tMje2oovAnavFxOHoOnt6LnH8YeEfBpfB0wA-EMIZIs5rTxnnAnFoFTtO8qU0yBQhopKk-y5b
+KRyONcHhEVwJQlTu7dVnvDogH_V2EMLRMMG58uNEbavNhYf8qzlQB6slfH065dq875lUAnjBkeG5j6i6-rrPlbA3NVL5BBMLbyqV
+}
+!procedure GrinTongue($id, $name="Grin Tongue", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/GrinTongue', $name, $tech)
+!endprocedure
+!procedure GrinTongueCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinTongueMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinTongueGroup($id, $name='Grin Tongue', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinTongueLg>', $name, $tech)
+!endprocedure
+@enduml

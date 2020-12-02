@@ -1,0 +1,16 @@
+@startuml
+sprite $LeanpubMd [14x12/16z] LOo50GGm2CHI5mww_xJl6bmXrLQWj9g0wNAP-Kq7oHKHKZIgoExdmG2bul6ivgtAJUV90gl3NzM6rQV7ZMSrrhx_rmspMs7g9LVRDTSPE_73Nm5N
+sprite $LeanpubLg [20x18/16z] {
+ZSZ5OKKn34HHcIsQwR_RA9pyrRj67NdUKW-_hHsFqDLAEfZX0H9X6iGGsTG2k9dXY3HUQHT1LfcaYaYeT8laTrPcBZCS_-ocxFnZNhOf5ywVecoowQjr3lzh
+MTQu4gLLaE4s2d606wZIB07IPohhENDC9NMEiPtqUxfyDERdsy-HXxq1
+}
+!procedure Leanpub($id, $name="Leanpub", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Leanpub', $name, $tech)
+!endprocedure
+!procedure LeanpubCard($id, $funcName="", $content="")
+  IconCard($id, '<$LeanpubMd>', '', $funcName, $content)
+!endprocedure
+!procedure LeanpubGroup($id, $name='Leanpub', $tech='')
+  IconGroup($id, 'IconGroup', '<$LeanpubLg>', $name, $tech)
+!endprocedure
+@enduml

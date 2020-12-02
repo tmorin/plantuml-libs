@@ -1,0 +1,16 @@
+@startuml
+sprite $PerbyteMd [14x16/16z] LO-50G0W20JVRjr_MhiuamQ0Nm1kpSLont7XpWACOL_MGkGI84lsIogb2DallgM4BeLf0-VeruwRKEbwJjJ9ChaLEhSwxOnsJITg
+sprite $PerbyteLg [20x23/16z] {
+RP254S0m3CJU3lF-qvR9RdIWgnh638f940XSWnN4GiL14LB1ZxgtRGQ_GjiQZOq0tkNlrhUF1jvLLHkgTGVUPQy6PgPTnX3k9f3DEMTa4sUvkS-Ynkacpt93
+n8TRXOPA2hgbI2K7GSdxiybcCMK5
+}
+!procedure Perbyte($id, $name="Perbyte", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Perbyte', $name, $tech)
+!endprocedure
+!procedure PerbyteCard($id, $funcName="", $content="")
+  IconCard($id, '<$PerbyteMd>', '', $funcName, $content)
+!endprocedure
+!procedure PerbyteGroup($id, $name='Perbyte', $tech='')
+  IconGroup($id, 'IconGroup', '<$PerbyteLg>', $name, $tech)
+!endprocedure
+@enduml

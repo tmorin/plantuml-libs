@@ -1,0 +1,16 @@
+@startuml
+sprite $MagnetMd [14x14/16z] FSp50G0m20D0g7lstxQftWUdzjQJK61IGNrL6TTOrUx_MLcP9RCgix91xTmn-tVbVr5M3KyKSLXEgsGisLLyNKNRFxT2QM0fAflwb8DPsGG
+sprite $MagnetLg [20x20/16z] {
+bOv50aCn24GXBiZzRzkIgQ_wNtHmBW4121OF9cpx2Dmki1dKlxOLx0xRtA4cSK0F-1n3AvZq2BlMLr7j8GHl2Ll3Vq-ybecAWvPV9TM1CKt_8UQNRzCwtUJR
+1CRBOf48qX2x6wGp0S0flGmt
+}
+!procedure Magnet($id, $name="Magnet", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Magnet', $name, $tech)
+!endprocedure
+!procedure MagnetCard($id, $funcName="", $content="")
+  IconCard($id, '<$MagnetMd>', '', $funcName, $content)
+!endprocedure
+!procedure MagnetGroup($id, $name='Magnet', $tech='')
+  IconGroup($id, 'IconGroup', '<$MagnetLg>', $name, $tech)
+!endprocedure
+@enduml

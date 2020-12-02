@@ -1,0 +1,19 @@
+@startuml
+sprite $SwiftMd [14x16/16z] {
+LKy50WGW3CBkxV-_FV0QNJU0y0A8Tim9CpiTtN_GxQLCAIIco2flznha81DEhTKznbTmHwGLiD_cdRMKDyLatjY8fMR5wirRKNfkMGE9FSQMQl-RtQsDS6tz
+Vz43
+}
+sprite $SwiftLg [20x23/16z] {
+RP050i0W200f4yJ_ltRTypQB1XZ2gJn8j8Xo_n0XzXzYzzryF-ksxuycnxb9NFT8T3iLrosJFQAxM5vVZd27RvY5VPN5HqfWH6i0t6zqwmW0_IkyPDNscBJA
+wCpAnKmJmegUGhYHVb1f5t1EQq3VfPf2IBeFmhJ_AF8JEK7mjwZ9bYe-O1Wp0m
+}
+!procedure Swift($id, $name="Swift", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Swift', $name, $tech)
+!endprocedure
+!procedure SwiftCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwiftMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwiftGroup($id, $name='Swift', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwiftLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ReacteuropeMd [14x12/16z] BKs74SD034Aq_-o_S6IVrIi04jGI9bQUsEpqxHJUz31wcyOpyTdMAx66DhN-ExTH96F7T3WprXgOamvFRmQ0ZAvyVDgu3QIde-74tmwvErMzvHy
+sprite $ReacteuropeLg [20x18/16z] {
+HSy50WCW30F0DAco__ztT8fpQ76JJvS1x1x7ErdlN6e2RMzJRZkpRH9_KwJMz3bxZKTwq93ViwVoaUwtoUChB6-zhmndgHnLj4lk8Xak84AuHwgpd0ht2AA4
+wBKGtUNIjKn22Xbf5X9K0ZFQLJ13kKwyVyF9E1rH9sFu_pD6DlQFZMjMjTFmjrbjMqFyuqKJQbg7MTl7s9Es1wkryoS
+}
+!procedure Reacteurope($id, $name="Reacteurope", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Reacteurope', $name, $tech)
+!endprocedure
+!procedure ReacteuropeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReacteuropeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReacteuropeGroup($id, $name='Reacteurope', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReacteuropeLg>', $name, $tech)
+!endprocedure
+@enduml

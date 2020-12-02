@@ -1,0 +1,16 @@
+@startuml
+sprite $PlaneSlashMd [14x11/16z] 7Sc70KCX24NHQ_bMuEs_ROX7wRPXAzCpvQLB3PuQCKANfqskqk29orGoim5RNblewPWKlMHstrHPmJPRjq0PXH8w37dbhqiVLC-SLfx-Rlm
+sprite $PlaneSlashLg [20x16/16z] {
+HP3LeK1H2CDwtCd-qpwvHlvmsd6Yf0LP7mShqe3jkJ2XAmDLJeCL3InygQ9id0ECBxUdmkOYATozbHtLkJ2m4QG851K-zfrZA1uyrm1Z1Kt0x9fTM98wIHLs
+l8LSpqveIeVZ4iFzSrZGTEFQEipxH_VW4gKBzqhnZ5y
+}
+!procedure PlaneSlash($id, $name="Plane Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PlaneSlash', $name, $tech)
+!endprocedure
+!procedure PlaneSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlaneSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlaneSlashGroup($id, $name='Plane Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlaneSlashLg>', $name, $tech)
+!endprocedure
+@enduml

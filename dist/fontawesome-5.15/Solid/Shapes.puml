@@ -1,0 +1,16 @@
+@startuml
+sprite $ShapesMd [14x14/16z] NSUr0G0n300nXzct_xJF67MIsy3BmqD-rm5t9x9fSZBABiYXSD1fheuMn5gtiOLTa8wg3Wx3yEMKbreEZLqM3YO2HKJPhG
+sprite $ShapesLg [20x20/16z] {
+VP25SGHG24JvRaZ_rIPdoEaRsy5PY1pfyC8GuVmSoYmYwpcsv4gDeI8tCCRm7ejhkZpWfA74eaoDLJ7uTaG2I8Vf3W-0GSBO8B9jI2EyGiFMLI2LgE9Op270
+Np4JstkRYk8ncFOvMWpgOTubk33_0G
+}
+!procedure Shapes($id, $name="Shapes", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Shapes', $name, $tech)
+!endprocedure
+!procedure ShapesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShapesMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShapesGroup($id, $name='Shapes', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShapesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $TeethOpenMd [14x11/16z] LOo50K0X24InHGvl_sb_vwCpJpxCiXSeFYlsaYDOaTea8oZPfDUzAYgL3GfJsnIABd_Y1z5Z4pWsn_xb_Bb_8R9RWYVpRApyq5O
+sprite $TeethOpenLg [20x16/16z] RP250S0m20G_xi_-qzQzN3muAFAX_B-MprFcI7Sh92GnG2c0sHuBovNRtt4HeLWuMeDQOImTh32GWx8iNfS0c0zGqVGqVrfSBR-jZhkshGwj1rglPW
+!procedure TeethOpen($id, $name="Teeth Open", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/TeethOpen', $name, $tech)
+!endprocedure
+!procedure TeethOpenCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeethOpenMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeethOpenGroup($id, $name='Teeth Open', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeethOpenLg>', $name, $tech)
+!endprocedure
+@enduml

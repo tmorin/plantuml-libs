@@ -1,0 +1,16 @@
+@startuml
+sprite $BoxOpenMd [14x11/16z] POm30WHH243h8-F-frrpvcN2MeXm0t4j6DrTAP9rIwRt7TgFu9Othynwtt6OnBwgbmbD06sZstgGbTwh3wTA_YeapNkQHWWF1jt-tRa2
+sprite $BoxOpenLg [20x16/16z] {
+fSYr0G9G30JGYtzDzjyMTwXupGc-yLgZXmcpMFInoa6xBdg_barHLyot5dajRkRNcjfM7ItAf4jh2Z1RJucgaEp6381oXPBMaP76IZgUzGP_VllrsZZY67ax
+SWJZIex_SGj-EW
+}
+!procedure BoxOpen($id, $name="Box Open", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BoxOpen', $name, $tech)
+!endprocedure
+!procedure BoxOpenCard($id, $funcName="", $content="")
+  IconCard($id, '<$BoxOpenMd>', '', $funcName, $content)
+!endprocedure
+!procedure BoxOpenGroup($id, $name='Box Open', $tech='')
+  IconGroup($id, 'IconGroup', '<$BoxOpenLg>', $name, $tech)
+!endprocedure
+@enduml

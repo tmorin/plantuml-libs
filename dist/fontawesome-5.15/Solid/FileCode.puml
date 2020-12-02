@@ -1,0 +1,16 @@
+@startuml
+sprite $FileCodeMd [14x18/16z] TKs35KLH0EhQjV-q7y_iC5CpJ2i0j37b4_lH8rFPc8iXnfMLy8UUG1wPYvlUHUInwaO53TC4BRgyLODV6PBgn2Hd6ngnd74aI7tV3-_Vc_e5
+sprite $FileCodeLg [20x27/16z] {
+bSw53SH034JH2TdBl_zgZs4LY_B4nXdyPBM-I19phUAn1XvhuB467clWpBNSsnD_HHzCSdhZiju8J9cpLPL9TcXQyF8lIPKagrBvbnnsPKpAt_WEG-fW-Xmz
+j5IADgYBZbyADPDJ9UFBjh6gCJPZqhHovZBEkZSkomH-1m
+}
+!procedure FileCode($id, $name="File Code", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FileCode', $name, $tech)
+!endprocedure
+!procedure FileCodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileCodeMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileCodeGroup($id, $name='File Code', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileCodeLg>', $name, $tech)
+!endprocedure
+@enduml

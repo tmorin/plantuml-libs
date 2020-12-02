@@ -1,0 +1,16 @@
+@startuml
+sprite $SitemapMd [14x11/16z] NOo30GHG34DJVsV_RSzyDN553da4JvHNzAzwuMivxeYPIH_t00pklNbt4-WEGTNL-O1b23HI8P5-_TOmoONYbV-ghf-k7_AQNW
+sprite $SitemapLg [20x16/16z] {
+dOw55GH1349P7-65_hkzSExsH-FW09KGDqZcFr-tg-CE4dZd6wWRE02psbQI2DzRqspVT9Xoc33PDum3aY7nQvCAQrWKeSMQGfGPKFmK33epOFEptVXky-ZZ
+Via2qEOE
+}
+!procedure Sitemap($id, $name="Sitemap", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Sitemap', $name, $tech)
+!endprocedure
+!procedure SitemapCard($id, $funcName="", $content="")
+  IconCard($id, '<$SitemapMd>', '', $funcName, $content)
+!endprocedure
+!procedure SitemapGroup($id, $name='Sitemap', $tech='')
+  IconGroup($id, 'IconGroup', '<$SitemapLg>', $name, $tech)
+!endprocedure
+@enduml

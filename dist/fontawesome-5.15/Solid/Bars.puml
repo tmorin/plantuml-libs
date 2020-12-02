@@ -1,0 +1,13 @@
+@startuml
+sprite $BarsMd [14x16/16z] Oq01J2Y07mz0LJbuJG4
+sprite $BarsLg [20x23/16z] fSx70O0m30GmDphuzj-MVtfYJI0QP7l6CEZzCWy5Y6O4EGTodsTUpj4ebWmxCX_6WYug2MKQz0C
+!procedure Bars($id, $name="Bars", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bars', $name, $tech)
+!endprocedure
+!procedure BarsCard($id, $funcName="", $content="")
+  IconCard($id, '<$BarsMd>', '', $funcName, $content)
+!endprocedure
+!procedure BarsGroup($id, $name='Bars', $tech='')
+  IconGroup($id, 'IconGroup', '<$BarsLg>', $name, $tech)
+!endprocedure
+@enduml

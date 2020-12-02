@@ -1,0 +1,19 @@
+@startuml
+sprite $FingerprintMd [14x14/16z] {
+DKk5GGH03CjPvQJPVri2_DSR0U35zrW6A2QPPicQUXOJO-VgoONG0p-RDRB0wfAirPAZeI9VVnHuJh_NdqVrTiygux6o4wurz07K5rSVnq3ZV9xY9ZlGtn2R
+yMO1YlPaYOt-zuddHCCt5Z_t3m
+}
+sprite $FingerprintLg [20x20/16z] {
+PSjNek0m24DHsP2uGUx-Tpkfqzxv0qcwr1x0CLsVCe2C1EBzrYJtefCjQ3gLP1PvP0pNzZmdGzBWagM2oKYr9fLdMZsg1fiJqZw6gv55Kb8MNfBJrA0f6b59
+BQPvqifr1iiOuf3R5GQMtB_24ga3hUldnUZdhto_kZTferLc8QvVK7LgR6VrdGT5fu5jx9LnLmzTh9zlTvenDRfUxL37Axl-iQWg-aSXzKDs_VOB
+}
+!procedure Fingerprint($id, $name="Fingerprint", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Fingerprint', $name, $tech)
+!endprocedure
+!procedure FingerprintCard($id, $funcName="", $content="")
+  IconCard($id, '<$FingerprintMd>', '', $funcName, $content)
+!endprocedure
+!procedure FingerprintGroup($id, $name='Fingerprint', $tech='')
+  IconGroup($id, 'IconGroup', '<$FingerprintLg>', $name, $tech)
+!endprocedure
+@enduml

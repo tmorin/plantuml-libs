@@ -1,0 +1,19 @@
+@startuml
+sprite $UnchartedMd [14x16/16z] {
+PSs50GCn20NGZyGWL_QVDbPlNrm0_19UapTirAAkHQMj9SLDSIIfsU9wdKgsti85KBRAx0wvEjFEuhNQpcHx1XDeho9xzeh3sglmueOdedNQyr52tJGA3h9O
+ZF0WlGl-JG
+}
+sprite $UnchartedLg [20x23/16z] {
+VP25WGGX40Hx15_e_BDzM7-xmWiVV4QouyQoOkAia7Ewa0MBACw8IHeS4ITXEaSY6zuKXamoooMqgZVDhFtQB8ZCiyqCA6GtGAS8IBJbe8rckXocyxJSjC8E
+mKdKeqtnV4vJNBWTRQPVIhYT7SFR_UIdWrnE7ZMgB6VRQ-t6aTapMLzxqo1vVVj2woiyxpT_uWi
+}
+!procedure Uncharted($id, $name="Uncharted", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Uncharted', $name, $tech)
+!endprocedure
+!procedure UnchartedCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnchartedMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnchartedGroup($id, $name='Uncharted', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnchartedLg>', $name, $tech)
+!endprocedure
+@enduml

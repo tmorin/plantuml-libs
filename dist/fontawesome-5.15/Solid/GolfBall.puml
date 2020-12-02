@@ -1,0 +1,16 @@
+@startuml
+sprite $GolfBallMd [14x17/16z] JSs53G0X50FGuffs_sbFiHU1xm12fyJcyIeQCe2i9S7hOAiEcJfq3KNQXMHLepYAdVHLRHwexoSQ_hLtUSTna0w0guF5opbdhVD_WCIlBs88aiDYnVzp0m
+sprite $GolfBallLg [20x25/16z] {
+VSs5WS1020J0JNAARV_TVfptEHS0XqsSEvyh7flozbusfYWuT7vH0HH-5IlW_4OoMSgIQGH_KAQmUsMIZJJvSjdGo5f8CpvC60L2oc1IYzYNkZALnfqlcBpv
+1hto0lPUEdU2tUfaKfoMgQA7VUduHp6zcAsuBUB1NVW4qk9l-ZJ9_ijTm-q3
+}
+!procedure GolfBall($id, $name="Golf Ball", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GolfBall', $name, $tech)
+!endprocedure
+!procedure GolfBallCard($id, $funcName="", $content="")
+  IconCard($id, '<$GolfBallMd>', '', $funcName, $content)
+!endprocedure
+!procedure GolfBallGroup($id, $name='Golf Ball', $tech='')
+  IconGroup($id, 'IconGroup', '<$GolfBallLg>', $name, $tech)
+!endprocedure
+@enduml

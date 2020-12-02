@@ -1,0 +1,16 @@
+@startuml
+sprite $ObjectUngroupMd [14x12/16z] LOc55G0X5CEAEzb_stCXN_DASNx75OoaoatLZd_CBnQiBRoM9hGlQs0dUuqnw15S3vBBESPwc7O2qCe0kuiPJ4xwRfPehDaxJori
+sprite $ObjectUngroupLg [20x18/16z] {
+RSm50e0W44HHkc7kVritRFtsMy7yDAS_t-jAyWHcFree-mnNrOd5SRDerERD4e5DwV5VyZ5au67wCPxMwRPCUkpd9jl2lLJPw6cTyu5o0rai14E5jURABXAJ
+QG7S71Ed-OwhLSGolLIjD42NTfb9jZNpqmO
+}
+!procedure ObjectUngroup($id, $name="Object Ungroup", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ObjectUngroup', $name, $tech)
+!endprocedure
+!procedure ObjectUngroupCard($id, $funcName="", $content="")
+  IconCard($id, '<$ObjectUngroupMd>', '', $funcName, $content)
+!endprocedure
+!procedure ObjectUngroupGroup($id, $name='Object Ungroup', $tech='')
+  IconGroup($id, 'IconGroup', '<$ObjectUngroupLg>', $name, $tech)
+!endprocedure
+@enduml

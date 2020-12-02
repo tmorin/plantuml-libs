@@ -1,0 +1,16 @@
+@startuml
+sprite $IdCardMd [14x12/16z] LSm50WGX20LGPapw_hVTZzlFbl3yeViFCulKLZWXQfdPEM_QA9bhMfKIjKnRUrd2k1GlTAZ-RevF7NFKGJ3o9HJizU0ulCIcFmy
+sprite $IdCardLg [20x18/16z] {
+VSw50GD120J0SuVjlzgN_NX8vbp16OPyAJ0aGpNWbpKvp7wOeEfSv1XY35TKPKxdHFIe87_ipMCiFWIVGSCvlb323IUlzrggBPLZUuqvnxgYKiIBsMZW7wtZ
+ItA67G
+}
+!procedure IdCard($id, $name="Id Card", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/IdCard', $name, $tech)
+!endprocedure
+!procedure IdCardCard($id, $funcName="", $content="")
+  IconCard($id, '<$IdCardMd>', '', $funcName, $content)
+!endprocedure
+!procedure IdCardGroup($id, $name='Id Card', $tech='')
+  IconGroup($id, 'IconGroup', '<$IdCardLg>', $name, $tech)
+!endprocedure
+@enduml

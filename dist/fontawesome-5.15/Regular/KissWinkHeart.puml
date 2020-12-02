@@ -1,0 +1,19 @@
+@startuml
+sprite $KissWinkHeartMd [14x14/16z] {
+9Ks50S0m3AAwHld_srNY2jWoB48xhhIaYmIzxARJwXjcGKd3anAEnJsv3Hfx22e_G58HoecoyShSAi5nEUQ94haUmcbT9Kytes3DrYhNtOr2IiSyRT-eIHAx
+pJM73c7i6QhiSVRQW1y
+}
+sprite $KissWinkHeartLg [20x20/16z] {
+JOy7aWCn20I5ScJ-_ziZdUtUgAQOWcIqTT-xiwGFxI4uETII_qP4kJ-WXUAQWW7eVmF_n7Gm9NfM-J2nfB3bhv09afj16rKxZfXymKtYksYDlkBshUj9_W8d
+eMglFmLRdBEcPrPiHenEzyKqSwCbPuT3QpYkBefklZJxeaMW93zW5itqHSgxweHZUtTnKryBYgNYZKfKTwqGXhKTE2kTQUER7VkUrMFKFm
+}
+!procedure KissWinkHeart($id, $name="Kiss Wink Heart", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/KissWinkHeart', $name, $tech)
+!endprocedure
+!procedure KissWinkHeartCard($id, $funcName="", $content="")
+  IconCard($id, '<$KissWinkHeartMd>', '', $funcName, $content)
+!endprocedure
+!procedure KissWinkHeartGroup($id, $name='Kiss Wink Heart', $tech='')
+  IconGroup($id, 'IconGroup', '<$KissWinkHeartLg>', $name, $tech)
+!endprocedure
+@enduml

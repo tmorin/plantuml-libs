@@ -1,0 +1,16 @@
+@startuml
+sprite $FantasyFlightGamesMd [14x14/16z] HSV50K0X30Mm1rIGolxJVfVSWejemQUDHNzcvj4leuVHasX0yQjNn6lDetAc5Oz1PgpBYyQgH5YkXIofvW1M200oAm3ccQl1P7xbQkQNeyl-0Aoux
+sprite $FantasyFlightGamesLg [20x20/16z] {
+PSm5aaCn30DGXJc-_srNyRRr1us6dW7Vb8ndSgtfHR9hVfBSqHqQyuQawO6mY4RZVr_Ho8qPuFP1s-BBcFiIOb4AZUtIuGvoRJa_PNQ7uk1vdN1m-23I0D8Y
+GT4XzAfKI8gR2ACFxWYNHCbG5bj9DpGoD38qCZJw0m
+}
+!procedure FantasyFlightGames($id, $name="Fantasy Flight Games", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/FantasyFlightGames', $name, $tech)
+!endprocedure
+!procedure FantasyFlightGamesCard($id, $funcName="", $content="")
+  IconCard($id, '<$FantasyFlightGamesMd>', '', $funcName, $content)
+!endprocedure
+!procedure FantasyFlightGamesGroup($id, $name='Fantasy Flight Games', $tech='')
+  IconGroup($id, 'IconGroup', '<$FantasyFlightGamesLg>', $name, $tech)
+!endprocedure
+@enduml

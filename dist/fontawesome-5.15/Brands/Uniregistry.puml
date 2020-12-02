@@ -1,0 +1,19 @@
+@startuml
+sprite $UniregistryMd [14x18/16z] {
+HSu50W8X441HOBgu_t6brCt_De3MUdlRYjwVJeun7iVPu2iO0n775U3U2FuYuYVarInujP95VbgfgdJ5AysChyHCpLqFkhkBX8TiwGg2Z0WLiOoCqRGogohN
+TGzWSoxLd78N4IlBni5TukqF
+}
+sprite $UniregistryLg [20x27/16z] {
+ZP250O0m30IfUxF_jkI3EuTU-jNX1iNeJJNyBcV0sg8iz2xdm9hJau8j8Xg0NaUV59pM4i6M4yNSzhGMrDEMIt0FjhM8Hd3A_QY9fb9AzN0G2nC36jOQB7dV
+MskzoCowYbWLGVAQ2Gc_aUFK6G8TaCCOEUMS4uDFbh5LfHrvEUlIgj2o7RRbDsIgB7v3QVWp8m
+}
+!procedure Uniregistry($id, $name="Uniregistry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Uniregistry', $name, $tech)
+!endprocedure
+!procedure UniregistryCard($id, $funcName="", $content="")
+  IconCard($id, '<$UniregistryMd>', '', $funcName, $content)
+!endprocedure
+!procedure UniregistryGroup($id, $name='Uniregistry', $tech='')
+  IconGroup($id, 'IconGroup', '<$UniregistryLg>', $name, $tech)
+!endprocedure
+@enduml

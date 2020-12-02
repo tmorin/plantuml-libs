@@ -1,0 +1,16 @@
+@startuml
+sprite $BabyCarriageMd [14x14/16z] NSc53G0n08NGN_Uo_xRd-g84kKdGnMQeTrLMNXlZ_MGrp1fsSYfhHMeAXxs2wg6rDjRYnQbnQv8hTrdz7iLGOueaIn3L4INDul6gqBKAKAK5
+sprite $BabyCarriageLg [20x20/16z] {
+NT25aS0m34JHZHGs_FwhFTW9lq63K1eAYpuga7hP0AgU4fjrY6dA3InaiwF0Tba7El287c3Dc0xpw3k_ZHU_-8wloHs_fOk_b6Eqfpm6UV0sed6usooK7Oxs
+s-OXQL8b8tEeX5RtroCQ8OTCsfca5VgnW14wJN-MtbV9fieUadu1
+}
+!procedure BabyCarriage($id, $name="Baby Carriage", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BabyCarriage', $name, $tech)
+!endprocedure
+!procedure BabyCarriageCard($id, $funcName="", $content="")
+  IconCard($id, '<$BabyCarriageMd>', '', $funcName, $content)
+!endprocedure
+!procedure BabyCarriageGroup($id, $name='Baby Carriage', $tech='')
+  IconGroup($id, 'IconGroup', '<$BabyCarriageLg>', $name, $tech)
+!endprocedure
+@enduml

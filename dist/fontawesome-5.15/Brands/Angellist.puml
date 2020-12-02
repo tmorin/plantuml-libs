@@ -1,0 +1,20 @@
+@startuml
+sprite $AngellistMd [14x16/16z] {
+BOt5WGGW54CV3ldMVxMh4xy562M0T_chfmtNOmBSDvqMtGV0Y9zvR2H_YFdawue_N8qAOW7GLL5frG5QU6t6LdHWECez9tO1rMeLLUCAZi_ihoxemVEvCXtm
+3JlzPLwOsO0mxIrQ7e2H6csTV7pUiy8Nm3S
+}
+sprite $AngellistLg [20x23/16z] {
+FP1LWiKm201fN82v_sqt3TitFxZAIqFbabULu67vb4DooE5Bb7BrROakmSdoTIefYQzucmmUMIxzYA2H4asOOYg_8LryLt9Yo8U-LMxIIV9HQPqe_HYRYxFa
+duLZAUKwzCZV1AN4SKov-3WwlkViedRJ5YIPR639ykZMNIMpsEcUT62-3h7eP1gFKcau_bxwVuYQxUJ4QfqSOZWqrPkciPvxxLtwgNtqUtE6-egd-gi4IK7N
+1ekie4n3Pv7W3m
+}
+!procedure Angellist($id, $name="Angellist", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Angellist', $name, $tech)
+!endprocedure
+!procedure AngellistCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngellistMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngellistGroup($id, $name='Angellist', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngellistLg>', $name, $tech)
+!endprocedure
+@enduml

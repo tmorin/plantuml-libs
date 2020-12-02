@@ -1,0 +1,16 @@
+@startuml
+sprite $GoodreadsMd [14x16/16z] JO-50K0X24InplRsd_Q7_KmQHDJ7kj78na73U7FXfXW0Bat9P3BBbBBzRnk757imffJSRQE-uvYD1rpa8YMU2fMikYsByTuSnvRJiEok_nSYVPJvl
+sprite $GoodreadsLg [20x23/16z] {
+RP054eLG24MHni3zh_Q7-UfCN8O66A7H811xXptMbhTr6u68d6v5ka9a6Y6_hWMM8ndazGcTEXLvUFNXqkTNVk4ZlRJmsNH8bZCIZaGfVVi2Q3hPrUyYNMIk
+vcxBDLzVtmphqU6K2m5V5ZiclGGXKhpFQjcizmcGDY2C-08
+}
+!procedure Goodreads($id, $name="Goodreads", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Goodreads', $name, $tech)
+!endprocedure
+!procedure GoodreadsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoodreadsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoodreadsGroup($id, $name='Goodreads', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoodreadsLg>', $name, $tech)
+!endprocedure
+@enduml

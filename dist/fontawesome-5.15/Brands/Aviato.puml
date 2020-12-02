@@ -1,0 +1,13 @@
+@startuml
+sprite $AviatoMd [14x11/16z] bKk50O1028Ghs_t7bH5ycelw7qH3nRPeygJjcPGhaK9ayxnCLnFCkmjKZnFZcGHg8Ju
+sprite $AviatoLg [20x16/16z] jSutaW804CH0hPlPEzp_NulFIA6hb8llYtUGcVT0NM96kD5VUaRnj-5KYlyb5OALj-kGgTcjT1XM84HeLXD3syLTTlReSj9qTGOF8SQrQXVw6FgD6m
+!procedure Aviato($id, $name="Aviato", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Aviato', $name, $tech)
+!endprocedure
+!procedure AviatoCard($id, $funcName="", $content="")
+  IconCard($id, '<$AviatoMd>', '', $funcName, $content)
+!endprocedure
+!procedure AviatoGroup($id, $name='Aviato', $tech='')
+  IconGroup($id, 'IconGroup', '<$AviatoLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $BahaiMd [14x14/16z] {
+BSg54G0n24JH7rVO_hkz37ClWXBcvPSpR8TKeg-MN2NxuIcIlUlgy1m50yPS9blJv7iErpEXUupBaJeKrsr0atPEApQeUkpg6GpNZjItgQGCKsuwa1FFKiqo
+Vdj3Z-e3
+}
+sprite $BahaiLg [20x20/16z] {
+NSy3WW1134JHQZl__gTTPB1umrQWnnxwBsBwPGn95R8KPfERdAm5GzNeSXbO1cS1KPV3Q-dMU6NFbzlOi6siSs3rceFXB8MGkPoy_LE359jvo2JL0tWJ2zWU
+KGbeKKe3B5vT7O1PhYZxQluAZ5tfvXtaS36xGezHekx9fLHdryLWBbZwnJYAnjOlaAJ2qI-xwajVSfy
+}
+!procedure Bahai($id, $name="Bahai", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bahai', $name, $tech)
+!endprocedure
+!procedure BahaiCard($id, $funcName="", $content="")
+  IconCard($id, '<$BahaiMd>', '', $funcName, $content)
+!endprocedure
+!procedure BahaiGroup($id, $name='Bahai', $tech='')
+  IconGroup($id, 'IconGroup', '<$BahaiLg>', $name, $tech)
+!endprocedure
+@enduml

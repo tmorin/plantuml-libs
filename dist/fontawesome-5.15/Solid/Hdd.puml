@@ -1,0 +1,13 @@
+@startuml
+sprite $HddMd [14x12/16z] LS450S0m00InAtFVlzen9e3p1ySkwX80EtMP1heU3LVoezYGFxo-fYx5TAfkFSyyrFLHiHUpvMy5
+sprite $HddLg [20x18/16z] bSA55SDG30D0VGQvrlxJbfcIt3jiq8nNrd5HzQJX9BgUHHnDlI0GgjuqL1fV6CEd2DE7eGKZsYvslIYOHDOBfqJNDrxxUEZd2IiT
+!procedure Hdd($id, $name="Hdd", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hdd', $name, $tech)
+!endprocedure
+!procedure HddCard($id, $funcName="", $content="")
+  IconCard($id, '<$HddMd>', '', $funcName, $content)
+!endprocedure
+!procedure HddGroup($id, $name='Hdd', $tech='')
+  IconGroup($id, 'IconGroup', '<$HddLg>', $name, $tech)
+!endprocedure
+@enduml

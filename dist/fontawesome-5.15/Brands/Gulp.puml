@@ -1,0 +1,20 @@
+@startuml
+sprite $GulpMd [14x28/16z] {
+LP05OiGm30JDjcZt_x-jBYwa4noJeFnHOxmix2N-5lMNLFQNJPIaJJ7tSD1ar-s13-w860S8lu1ZWN-qwN-2sfLd1SbyK9hAWPFOf9Sw5XsWAA4PqMAfYVXS
+EqtdsMljbCojdXsYifVfpDG89ghaoBcK6-2f0d_1q-p7eYJT_8FvxP4Z407KnuGFLXxEFzlNzDgw9jUg1WdxnFu2
+}
+sprite $GulpLg [20x40/16z] {
+RT47ZWCX44JH8ZMvw_wtNK9B7g5zzkJq4NXu7NWLLZpoVwSQ7iAEX-V0InZnQdJuSOTENAdseSfhZbu2q9L6nzfLhK3lhVwqDYem-6X0vwC0bOyC53xIZcUF
+ejpEEW2HpK-fN4RYue6WRl0wLzG1GOIpSkT6fTxnkS6IUncvPQOKEfP0zKDc7g8rr5Am-1x332MKcD6Y-7DEIcOiHIJ9Y2rZgQpjyzrqvyfeq9jy1cAc9GEH
+N-fkozUqMVtgEAJrgMSgPcy1Xr-xjIsrZGvJQQpkMtFgJAAnkgVGmOIds0gD0iRfTnGc3HuzOli3
+}
+!procedure Gulp($id, $name="Gulp", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Gulp', $name, $tech)
+!endprocedure
+!procedure GulpCard($id, $funcName="", $content="")
+  IconCard($id, '<$GulpMd>', '', $funcName, $content)
+!endprocedure
+!procedure GulpGroup($id, $name='Gulp', $tech='')
+  IconGroup($id, 'IconGroup', '<$GulpLg>', $name, $tech)
+!endprocedure
+@enduml

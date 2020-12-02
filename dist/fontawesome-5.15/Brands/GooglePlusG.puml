@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglePlusGMd [14x11/16z] RSf70e900CNGJA_oxtzQcBPHUTk47pRNR3c2XikmE7MBTGp6K6J1CDTUQ88aATEbEfkBMGb_TUVKOFmEObZRPuw7gxrwtZm
+sprite $GooglePlusGLg [20x16/16z] {
+XL250SH023l7oVxJlhkqESKXvI_gfs9e8AIzgXXNl2W9iDbNq4kcXBn6pLdAGhuLo3XdqtE2z0XlPHdIrbKdEACNFJzoZMsZ4L1BRPcjFceOxFBelPUn71ZV
+FQ-lsRH_Sx278m
+}
+!procedure GooglePlusG($id, $name="Google Plus G", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GooglePlusG', $name, $tech)
+!endprocedure
+!procedure GooglePlusGCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglePlusGMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglePlusGGroup($id, $name='Google Plus G', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglePlusGLg>', $name, $tech)
+!endprocedure
+@enduml

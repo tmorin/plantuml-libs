@@ -1,0 +1,13 @@
+@startuml
+sprite $ScrewdriverMd [14x14/16z] JSe54WGX44DHtE7V_xIxOz2TihnAp8djH566ST21lk60ORSYu3S2BHuusgv-Z10E5YmDi2_gW_9D0DHz71h6PWNp1m
+sprite $ScrewdriverLg [20x20/16z] PSx50KKX44DHt27zL_lrMS9T7cJ6I6aufGfCHZ_ngJqfu9VdXzyIFIrVgaHsVcWGkOcMibFYPzPaeRfMDP6eurFP2NCd32PTlnsKpPtIjwBqhGeTDvF86m
+!procedure Screwdriver($id, $name="Screwdriver", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Screwdriver', $name, $tech)
+!endprocedure
+!procedure ScrewdriverCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScrewdriverMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScrewdriverGroup($id, $name='Screwdriver', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScrewdriverLg>', $name, $tech)
+!endprocedure
+@enduml

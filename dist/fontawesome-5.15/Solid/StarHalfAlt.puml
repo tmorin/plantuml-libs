@@ -1,0 +1,16 @@
+@startuml
+sprite $StarHalfAltMd [14x13/16z] HOs53G11408vrrtwx_PvdoWm2RZOXfz2rZzjZdSCiPBHUmp0saOHrFYUl0bI2htk9qbpTVlPjW8GxfIP8295L9dlQ-4LtY2QGkyqZZkD28H1fGC
+sprite $StarHalfAltLg [20x19/16z] {
+NP350KKX3C2AEzb_sY_OannJhomCM7dX8RvTWwxUQIsz4nlTz7kYCX5GWQI73Raq1afreDViE6Wn8TK6j9lxenfPnuTJbIGYyRYZHC9nGqtATfegYmhG_xMj
+xvKP-56Xpvi6rKhO3vjxbmmb4MGGPuwO0kJp9oS3MyU_lW
+}
+!procedure StarHalfAlt($id, $name="Star Half Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StarHalfAlt', $name, $tech)
+!endprocedure
+!procedure StarHalfAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarHalfAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarHalfAltGroup($id, $name='Star Half Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarHalfAltLg>', $name, $tech)
+!endprocedure
+@enduml

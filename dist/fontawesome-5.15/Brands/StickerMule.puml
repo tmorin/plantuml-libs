@@ -1,0 +1,16 @@
+@startuml
+sprite $StickerMuleMd [14x12/16z] HKo30G1027opklsdVHiTrLrU8Fg2ZB6i9QufH04WAEExotZ-80p_Wtcc2T5M9eQPg6BLHbdDfQmlrVrjLEBwmWvGLXik5BQb0m
+sprite $StickerMuleLg [20x18/16z] {
+NOw54GL12CM0TO7NVxLVEKuobiaAq0EfHUwb6J1lXHVmQDdmWxdklNeHpXjELTpf3VP8wpVdXZ5zkBTCHzln6HrjK5bgge3ycxan2PJ-QEmjOHlLBONDInEt
+4IzQjBfHtD3fUDBzc7LuUWC
+}
+!procedure StickerMule($id, $name="Sticker Mule", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/StickerMule', $name, $tech)
+!endprocedure
+!procedure StickerMuleCard($id, $funcName="", $content="")
+  IconCard($id, '<$StickerMuleMd>', '', $funcName, $content)
+!endprocedure
+!procedure StickerMuleGroup($id, $name='Sticker Mule', $tech='')
+  IconGroup($id, 'IconGroup', '<$StickerMuleLg>', $name, $tech)
+!endprocedure
+@enduml

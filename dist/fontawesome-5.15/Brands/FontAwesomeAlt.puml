@@ -1,0 +1,16 @@
+@startuml
+sprite $FontAwesomeAltMd [14x16/16z] TS-35K0n30NGLoFQVzflunuL8U0EGDMBQiblWazc7YbZvUURsFNM9FSMOrblrHPok_7Fdrx-DC3bxBUQTEqGudcR9miBd-m-zNsZ4G
+sprite $FontAwesomeAltLg [20x23/16z] {
+dOk54G0X30J3uyJwx_RTdKMpSmSNc5ZoZX81zKJMt6LtpIwLe9DRMmONbCpHTRSzEgjeVF1TrZQpQrH4Ev0qhcuXdDrLhgfRl7MPAPdL5LYvTu3Xv2PMXzPQ
+v-mAIz8J4LmuOE6A5W
+}
+!procedure FontAwesomeAlt($id, $name="Font Awesome Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/FontAwesomeAlt', $name, $tech)
+!endprocedure
+!procedure FontAwesomeAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$FontAwesomeAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure FontAwesomeAltGroup($id, $name='Font Awesome Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$FontAwesomeAltLg>', $name, $tech)
+!endprocedure
+@enduml

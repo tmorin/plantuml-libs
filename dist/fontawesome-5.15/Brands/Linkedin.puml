@@ -1,0 +1,16 @@
+@startuml
+sprite $LinkedinMd [14x16/16z] ZSU53S0m00EmbBdv_zenH1FDGiC8T9AJt4tkeGgcomogR6YOmsok91l6FekUiVFx74Q1dHNcMUG4VYrn6iEFhcam0Yi
+sprite $LinkedinLg [20x23/16z] {
+ZOl50GGn30CLHblzTtkCNiYyXDWWDaDG6eJRjD3C580iP1nfS1DLfKnvEGzFSKWLGD17vk0eU99_izWJu7yofpS9_Sx2LVljJBQpzIzhgTHIsbqMvIPYe-cp
+mM632m
+}
+!procedure Linkedin($id, $name="Linkedin", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Linkedin', $name, $tech)
+!endprocedure
+!procedure LinkedinCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinkedinMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinkedinGroup($id, $name='Linkedin', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinkedinLg>', $name, $tech)
+!endprocedure
+@enduml

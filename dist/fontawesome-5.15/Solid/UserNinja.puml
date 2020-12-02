@@ -1,0 +1,16 @@
+@startuml
+sprite $UserNinjaMd [14x16/16z] ZOrL0e0m34FdlkR-jwKPpXTlMakCuZhGdI6pU84YAwpyAMYCx4ItpjcELqtskGR2Jk9kbHKsaSRWYwqpyespMXe0KGDzfgqW8O1K_AQyWWq
+sprite $UserNinjaLg [20x23/16z] {
+fOv50WGX3C1mX_p_jMlj-74pIgf6o1D6CaegrjZ1Zwwki497QUBiueGN6O0P_8UuAE8YK7tuu9iMEyvKdJ7QuQAKfjEOQNR2TQpAtz93r8vFyMAilV-vkgRJ
+vBMA_Nq1aVehUuZq-cigmd8U9K-KjI_U-OF9W-x6Kxq1
+}
+!procedure UserNinja($id, $name="User Ninja", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserNinja', $name, $tech)
+!endprocedure
+!procedure UserNinjaCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserNinjaMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserNinjaGroup($id, $name='User Ninja', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserNinjaLg>', $name, $tech)
+!endprocedure
+@enduml

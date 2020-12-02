@@ -1,0 +1,19 @@
+@startuml
+sprite $MastodonMd [14x16/16z] {
+PSV5WGGm34Mn7tJ8VlrNkp0CkaaNAUcchHD_pcf_6JmCPV3U8tfto0PPgPIa33OuckJCr67yRrCA-xbQBpFxsyATzRTkX3b_t8BIU39bOArppXf5qeQkXnom
+hCzswpY0Lttv1G
+}
+sprite $MastodonLg [20x23/16z] {
+bSi5WiKm28JX2H1FoFrlkrFMxSbV_mhufsIbTTQAfZSPvpFlwQ9zlhLeFLvMtEDtHN8kAA2-1J3QZdicmPGtL7vAuLZ2E0rnKvfT1cnk93yByeHf63-zjlDc
+aj_cs9jvChxMwYVoyZxy8qFoxx8CmBnswbXxxpKRXPN31D_Rj9c-cphHP-_32zvBdHfbV4cibAouqGi
+}
+!procedure Mastodon($id, $name="Mastodon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Mastodon', $name, $tech)
+!endprocedure
+!procedure MastodonCard($id, $funcName="", $content="")
+  IconCard($id, '<$MastodonMd>', '', $funcName, $content)
+!endprocedure
+!procedure MastodonGroup($id, $name='Mastodon', $tech='')
+  IconGroup($id, 'IconGroup', '<$MastodonLg>', $name, $tech)
+!endprocedure
+@enduml

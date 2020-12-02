@@ -1,0 +1,16 @@
+@startuml
+sprite $UserAltSlashMd [14x11/16z] DSV50G0X00InmPtjlzeJ9B_q0XIf6Zv9tNpvoizDRPQVQNTRqgTp-QbfRoocAxA4COUZgF1n-aM2XeMifMA70adRiBJv0W
+sprite $UserAltSlashLg [20x16/16z] {
+LSy55W0X20HGi9Ev_ssNXsnzkwNlG2fDO2OwDaIx6IQJuG5K5XXXEYgmuGgv9BWrkl7yxNFjTv_B_kvFM42dBzOoVazqWUZj1PZifpO0EnXFKAhZMC4-LKa9
+d2JxrD3pU3KBQjkIipV2xXS
+}
+!procedure UserAltSlash($id, $name="User Alt Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserAltSlash', $name, $tech)
+!endprocedure
+!procedure UserAltSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserAltSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserAltSlashGroup($id, $name='User Alt Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserAltSlashLg>', $name, $tech)
+!endprocedure
+@enduml

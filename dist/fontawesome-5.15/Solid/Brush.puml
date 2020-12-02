@@ -1,0 +1,13 @@
+@startuml
+sprite $BrushMd [14x18/16z] lST50K0n342nCRVFlzhFQ62vHVZeJ6P_-Wy_Wu_gskW287qKiqi0mLmoiRnBk8I_PmSqiri1
+sprite $BrushLg [20x27/16z] tSY54GHH20FGVBU1z5_j-Qr11Vj68el6f2MyiUQ0GnnqA0qPD1gkftO0CQNO-L5VFU2dyYFZe59BDTy2vFnbQcranD7aIyTPLwtuUG8
+!procedure Brush($id, $name="Brush", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Brush', $name, $tech)
+!endprocedure
+!procedure BrushCard($id, $funcName="", $content="")
+  IconCard($id, '<$BrushMd>', '', $funcName, $content)
+!endprocedure
+!procedure BrushGroup($id, $name='Brush', $tech='')
+  IconGroup($id, 'IconGroup', '<$BrushLg>', $name, $tech)
+!endprocedure
+@enduml

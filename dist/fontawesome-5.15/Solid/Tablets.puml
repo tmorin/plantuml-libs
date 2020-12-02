@@ -1,0 +1,13 @@
+@startuml
+sprite $TabletsMd [14x11/16z] HOi50i0W30Ex3QTD_l_RuHpQY2mSY706hoJtQFZQY3ayeFLHlghLYRAFSEou_fZ_R4mcNc5Emi3tRZjg7PL9OYV97U_m0m
+sprite $TabletsLg [20x16/16z] VT2r0GGn34HH9MQO_giz52xzy9bDhZI1cIWqyAtwMOCn-LcCqsn3q9lWTv-zH_gkPHpKyAjH0cDAu19LHbfYwtld_ovP8-xI_5hDdQ7PNPv_w0q
+!procedure Tablets($id, $name="Tablets", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tablets', $name, $tech)
+!endprocedure
+!procedure TabletsCard($id, $funcName="", $content="")
+  IconCard($id, '<$TabletsMd>', '', $funcName, $content)
+!endprocedure
+!procedure TabletsGroup($id, $name='Tablets', $tech='')
+  IconGroup($id, 'IconGroup', '<$TabletsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SunMd [14x14/16z] {
+JOw30GGn44Ntml7llzhmz88ndeFuyuSXVJGj7P3ClZq219ElVySADBMM27rRFP81wvFT3Tome8RO-RIjuxCdYQTOLX7Bfmibbbnl5mQiDTbv2u--L6rtd_LU
+WNoK2zcL4m
+}
+sprite $SunLg [20x20/16z] {
+NO-50SGm30Dbns7G_jj-wAdNXcKGthI29qOgFeZ9af4PWDfLZ6AU4_Dr7BKCBiPP6ZQ5P190z-QJtYEs6X19XurdHkUaefuxQwH4RhoHrQ6jz6jUPE6ab7rN
+V-_IhgQ16xFTmQvRZZ2ZKTzr6U5pDkHFBvMhceYrdUpZxKE_DbfIM-NLvNuJwasGxk63cp8yAUcpVG4
+}
+!procedure Sun($id, $name="Sun", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Sun', $name, $tech)
+!endprocedure
+!procedure SunCard($id, $funcName="", $content="")
+  IconCard($id, '<$SunMd>', '', $funcName, $content)
+!endprocedure
+!procedure SunGroup($id, $name='Sun', $tech='')
+  IconGroup($id, 'IconGroup', '<$SunLg>', $name, $tech)
+!endprocedure
+@enduml

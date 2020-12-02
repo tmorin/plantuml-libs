@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrochipMd [14x14/16z] LKor0G0n42AUy_sdVLSg7CXneM53lTK0ncYFQbsrFuhbtpHxCv7UlxkStsPA4KzpglrVQBwxCKLUHVHl0ialLO4L
+sprite $MicrochipLg [20x20/16z] {
+RT253GGm20NG2Wuvzf_st6ZuqRuQCEwn_4R6Av1_MI_3VzkFGqPGZ7LxMhL87p2hhTs-9wdrd5zOJukKxkvOXyqrcbeCWwkfO_VUf5tF0SquteF8M0Br7F9g
+w-jdEkH7z5ZV
+}
+!procedure Microchip($id, $name="Microchip", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Microchip', $name, $tech)
+!endprocedure
+!procedure MicrochipCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrochipMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrochipGroup($id, $name='Microchip', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrochipLg>', $name, $tech)
+!endprocedure
+@enduml

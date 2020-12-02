@@ -1,0 +1,19 @@
+@startuml
+sprite $CompassMd [14x14/16z] {
+DOu73aGX24J7ZYJoxd_R5JUVr66gf68dubXHNWTVos4yuF-lCRN2zMvseq8oPHrCiKbg0b5anBfCp7uf3M8crJir4Liwm7gfSAcmoqZXnkxhAwmQgVtQNz8U
+m-81gUvSxMdz0G
+}
+sprite $CompassLg [20x21/16z] {
+JP253GGn30GTPa__tRuSUDs84lEk62uF1Pt5oP-os6XzGRzWbfpA08rY16M6c-sGRDQYVQP04D_eyiXTAaCQ-1DmPTbx4PLwHbK5QybqY1QAR8A81t0M6wIe
+37kk6mjCaKvyCI_sfMIM60gaE-DEzh0lhi2w1XHQjMPOMGvE2QuofLZaS6HDXdn2wey9UklYHCCPCK1xhMt1z7A9WyrCyi77dDEh-G4
+}
+!procedure Compass($id, $name="Compass", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Compass', $name, $tech)
+!endprocedure
+!procedure CompassCard($id, $funcName="", $content="")
+  IconCard($id, '<$CompassMd>', '', $funcName, $content)
+!endprocedure
+!procedure CompassGroup($id, $name='Compass', $tech='')
+  IconGroup($id, 'IconGroup', '<$CompassLg>', $name, $tech)
+!endprocedure
+@enduml

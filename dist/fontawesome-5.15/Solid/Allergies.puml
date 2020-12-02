@@ -1,0 +1,16 @@
+@startuml
+sprite $AllergiesMd [14x16/16z] ROk50GGX40E3E-c_sjV36NGZ-94p6Zc1H7e4KlpsDXapJQBoCicsVrCdLbqvyHdixsFRfps877E6ADrX0DJe602E3GcWLmFU
+sprite $AllergiesLg [20x23/16z] {
+XSnL0aKX2411RfSo-r_jwyxpfQCGbzgiJJpKBaDC334kDz_aoHgMgnMQexMizt-FrhpRR7wpv8_rZrRePiQUhRbRkfHeb_5e7gkC6pNlTv2qCrpsNSurzGKA
+xil6OdFYQFE-Eoei4GDq2oGO8sB1N2oLTKCRXofeDuQ96iSwZwrnQlBG66yuHUm1
+}
+!procedure Allergies($id, $name="Allergies", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Allergies', $name, $tech)
+!endprocedure
+!procedure AllergiesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AllergiesMd>', '', $funcName, $content)
+!endprocedure
+!procedure AllergiesGroup($id, $name='Allergies', $tech='')
+  IconGroup($id, 'IconGroup', '<$AllergiesLg>', $name, $tech)
+!endprocedure
+@enduml

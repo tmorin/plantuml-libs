@@ -1,0 +1,16 @@
+@startuml
+sprite $ChevronCircleUpMd [14x14/16z] FOw50S10309vTxB_jYsft2jn077oPcKumvmL9BQzC2AwXzIztx0KZfvAUH8GjfoFI0NkfGjQSI_j82gyODfPPaV2arfUziFWOI-QBUxNymvQRdsQnhm
+sprite $ChevronCircleUpLg [20x20/16z] {
+NSo53G0W34JHmntsdnRt7oEFjkXHPPqpac17RPgPfIAT8flqr92cjq20TKkg-T1xZ0DodYHgqqPk5ntKRf6p2urRLDyJJTrrWmQ6b5JxaAHIoqAtDPh-0c1-
+Km29BtdK-4EHeiN2DKKn8dhkHuKJuTeOnJ4g
+}
+!procedure ChevronCircleUp($id, $name="Chevron Circle Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ChevronCircleUp', $name, $tech)
+!endprocedure
+!procedure ChevronCircleUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChevronCircleUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChevronCircleUpGroup($id, $name='Chevron Circle Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChevronCircleUpLg>', $name, $tech)
+!endprocedure
+@enduml

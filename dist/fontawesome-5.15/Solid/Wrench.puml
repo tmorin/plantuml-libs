@@ -1,0 +1,16 @@
+@startuml
+sprite $WrenchMd [14x14/16z] LOo54SKm04A9E-m_xPV6hkyKnIHGjDWqgHmHfp1JLIa0ZaTLwwcfkXwuFYP-2musTnAFyt14U2KSumfqd-MmUPB35m
+sprite $WrenchLg [20x20/16z] {
+ZSk55GGW009Gx9Rzfxqkz0hxFyGplazsI39F2KBnJ1wIyMYPEpcUSdcLVZT__vf9wRNWJYIzMyfEqsx483HFipcXRgmrKBg__oQt4yRCSo4meos4perW6-j2
+E08
+}
+!procedure Wrench($id, $name="Wrench", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Wrench', $name, $tech)
+!endprocedure
+!procedure WrenchCard($id, $funcName="", $content="")
+  IconCard($id, '<$WrenchMd>', '', $funcName, $content)
+!endprocedure
+!procedure WrenchGroup($id, $name='Wrench', $tech='')
+  IconGroup($id, 'IconGroup', '<$WrenchLg>', $name, $tech)
+!endprocedure
+@enduml

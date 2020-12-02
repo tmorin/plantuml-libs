@@ -1,0 +1,13 @@
+@startuml
+sprite $WindowsMd [14x16/16z] Oy06c5ZOEBXu-40KDmS7FnBWuYIPnma4N6oiN9mmmC79nWeaG81SCr5TXkfgLAy
+sprite $WindowsLg [20x23/16z] lT2r0G0X301024vi_sdVNJkkmOcOVnPypDiAGYf8eWCBBkHXuLWtwzGVzhJ17i_88M_Sme3Ro4J5aSggHNv8SjjRMbiT7lOMon79kdTaNJ0FUW
+!procedure Windows($id, $name="Windows", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Windows', $name, $tech)
+!endprocedure
+!procedure WindowsCard($id, $funcName="", $content="")
+  IconCard($id, '<$WindowsMd>', '', $funcName, $content)
+!endprocedure
+!procedure WindowsGroup($id, $name='Windows', $tech='')
+  IconGroup($id, 'IconGroup', '<$WindowsLg>', $name, $tech)
+!endprocedure
+@enduml

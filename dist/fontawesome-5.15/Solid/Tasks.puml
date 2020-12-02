@@ -1,0 +1,16 @@
+@startuml
+sprite $TasksMd [14x14/16z] TSkr0GGm40CmXtFe_QTzPb0l0AFYgSH0lT7jMOGtpYWOAbUrLxnP3NUZRhRfvXT93WXlXWxyCqs0Dc-2hCytRGDjZYkyEG8
+sprite $TasksLg [20x20/16z] {
+ZSx50GH124JHJxjN_j6kkywxuV15BZmn8skPhtTvZgBbgNhGT4oHrhpfL7aEx0umFecHLq4oYtU-rIZbvxj3KeAYksNZcCBybVE61JP9FRxyR56IUxunawJ0
+yo_MLG6NqrKEO6on1m
+}
+!procedure Tasks($id, $name="Tasks", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tasks', $name, $tech)
+!endprocedure
+!procedure TasksCard($id, $funcName="", $content="")
+  IconCard($id, '<$TasksMd>', '', $funcName, $content)
+!endprocedure
+!procedure TasksGroup($id, $name='Tasks', $tech='')
+  IconGroup($id, 'IconGroup', '<$TasksLg>', $name, $tech)
+!endprocedure
+@enduml

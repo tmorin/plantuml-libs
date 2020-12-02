@@ -1,0 +1,19 @@
+@startuml
+sprite $PizzaSliceMd [14x14/16z] {
+DOl50GH10C8OTz9_jIShUQ6IEfmHzR00HdXShiFWV9cqHatLSDa6KEF1yRhD1JEQ9GKJCj0BP6NO1o1jPkW0z4LhK3ORhChEqDaQO73QVUDn0CyYoG2h9Lt0
+o44lNm
+}
+sprite $PizzaSliceLg [20x20/16z] {
+LSm5bWGn24LHuaPu-z_jp3_jjog6sRzqkRlPZux4IFQnUOXgRodNwSYqfxndp_yxmBA70U3DQW3Z4JiWdhE2LQ4Ku7fHCd0Lgx1DBoArP_U4enWw_L7eF7gb
+LcsMUBgXmWlJAWzkEI0j9HQueriAg1t273TruDfw8KO6LyLJjsRMW7kHktisMI1nHh67vwJLadsvHms__W
+}
+!procedure PizzaSlice($id, $name="Pizza Slice", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PizzaSlice', $name, $tech)
+!endprocedure
+!procedure PizzaSliceCard($id, $funcName="", $content="")
+  IconCard($id, '<$PizzaSliceMd>', '', $funcName, $content)
+!endprocedure
+!procedure PizzaSliceGroup($id, $name='Pizza Slice', $tech='')
+  IconGroup($id, 'IconGroup', '<$PizzaSliceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SquareRootAltMd [14x12/16z] HOs50G0X3CGEzsR_QTybK3TTL6vqCPdr8El46OVp4i5VJif9Qaov8E-1eabJ8w-rm08akGb1Xxl0ooz8zwrvpgQrhlNKmtWv9wb0r4zlhxS3
+sprite $SquareRootAltLg [20x18/16z] {
+PO-50G0X202nszj_sk_KCscG6yDDVtIHXqTNPvq6aZkmjyu1MluaQ39G8JqjRAWpdTiUsGyRvKvdoVjXnydsLX4FfTFOgTBET06eIklzJMSwiK1-9g3hGzLF
+fRlYztnL1ThZ66N3wUqekR9WvK-6hWQTAkthjW8
+}
+!procedure SquareRootAlt($id, $name="Square Root Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SquareRootAlt', $name, $tech)
+!endprocedure
+!procedure SquareRootAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$SquareRootAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure SquareRootAltGroup($id, $name='Square Root Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$SquareRootAltLg>', $name, $tech)
+!endprocedure
+@enduml

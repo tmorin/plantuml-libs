@@ -1,0 +1,19 @@
+@startuml
+sprite $JediOrderMd [14x16/16z] {
+NSy54iGm28NXFqetjBpxttQdBWdsCGhVbvwjbbsbhgivGKh7O3eb8xiwv0nTdhihygeSykv3QfH2auOlhc0LeHLoQ0tMQLgLtVEggKgHohAK55Bb9nczOz80
+XjHRwpkWUinpUBtFI7l_0m
+}
+sprite $JediOrderLg [20x23/16z] {
+bOu5aaGn24I9E-_-jzs2Z9IiJNyDjCa7YE7v5w9SvEf7NxHqPoU_PsNxgE62wEzCjVsXl6UL9H8pJ3ibTzgGGgb0UiuAaCkmZnddv3vGngbSOiwNfdKpzkML
+RBLWpREPq2pHPWCcSw2GHM8jmQgeqXlSsPhn6bABHqdkQ4jYZ5CyVaeeQ0woRh57bpHwb8oBHBhjWlGcKR4EXkR3NjscoaMQYke17L5U2AcsLfFyZ2y
+}
+!procedure JediOrder($id, $name="Jedi Order", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/JediOrder', $name, $tech)
+!endprocedure
+!procedure JediOrderCard($id, $funcName="", $content="")
+  IconCard($id, '<$JediOrderMd>', '', $funcName, $content)
+!endprocedure
+!procedure JediOrderGroup($id, $name='Jedi Order', $tech='')
+  IconGroup($id, 'IconGroup', '<$JediOrderLg>', $name, $tech)
+!endprocedure
+@enduml

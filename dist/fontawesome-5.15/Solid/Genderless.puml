@@ -1,0 +1,19 @@
+@startuml
+sprite $GenderlessMd [14x25/16z] {
+hOw50S0W30Hnb_stxQN811mQV_KCxM9mnqXZmeX_eCrDnQhYBrNYHNdk93cPZoDKLhdyo73BSdDsucPPTlMoDpR8piigr0M2_zp4noiPtdFkQxpXNJGjqieo
+CePWGah1g6Ty
+}
+sprite $GenderlessLg [20x35/16z] {
+pO-50SKW34I3E-m_xHUYtQ2lIlGEteTFfUHW8scUoyeSSUC8qsFRFeOT_bMB3fk-7doxVoqu5_2t0tuZNE8zXDkHHS3jkH90cF_ZJMYi7g9eB7EiQgo8-EUy
+BNjLJEjM7oeB0OFL0tWSDjJlOjzU6Yuwna-Dh22gkA-08UHQSuJtyGK
+}
+!procedure Genderless($id, $name="Genderless", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Genderless', $name, $tech)
+!endprocedure
+!procedure GenderlessCard($id, $funcName="", $content="")
+  IconCard($id, '<$GenderlessMd>', '', $funcName, $content)
+!endprocedure
+!procedure GenderlessGroup($id, $name='Genderless', $tech='')
+  IconGroup($id, 'IconGroup', '<$GenderlessLg>', $name, $tech)
+!endprocedure
+@enduml

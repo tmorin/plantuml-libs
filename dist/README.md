@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 7 packages.
+The library provides 8 packages.
 
 
 - [aws-20200430](aws-20200430/README.md)
@@ -10,6 +10,7 @@ The library provides 7 packages.
 - [azure-v2](azure-v2/README.md)
 - [c4model](c4model/README.md)
 - [eventstorming](eventstorming/README.md)
+- [fontawesome-5.15](fontawesome-5.15/README.md)
 - [homecloud](homecloud/README.md)
 - [material-4.0](material-4.0/README.md)
 

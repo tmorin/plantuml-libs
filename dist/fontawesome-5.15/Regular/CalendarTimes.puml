@@ -1,0 +1,16 @@
+@startuml
+sprite $CalendarTimesMd [14x16/16z] POw50S0W40DJBvhzfyMTGzu508dsuo2F-lyS-BbWH-L7h8eFVxHmdlbbI_4ygQfrsS1LBJpaWoMsrkqzAz7Itr_uDEUjFG
+sprite $CalendarTimesLg [20x23/16z] {
+ZS-50O0W503HJuCAj_-qTlVPpmBfgobgE1f8CbU3dgsI8MrC0wu_Q0-rDae2brovMkPtLXzoWsavP1OpNlgytfagz1XfTYO9V8Imjm47EfWqKClH8dt-O3s5
+1E7utp1yCr_75_HcX-pJtBnrkso0pALQDrVg
+}
+!procedure CalendarTimes($id, $name="Calendar Times", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/CalendarTimes', $name, $tech)
+!endprocedure
+!procedure CalendarTimesCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalendarTimesMd>', '', $funcName, $content)
+!endprocedure
+!procedure CalendarTimesGroup($id, $name='Calendar Times', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalendarTimesLg>', $name, $tech)
+!endprocedure
+@enduml

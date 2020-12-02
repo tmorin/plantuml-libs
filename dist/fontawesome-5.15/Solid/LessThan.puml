@@ -1,0 +1,16 @@
+@startuml
+sprite $LessThanMd [14x18/16z] ZSs53G0n20NGN_Uo_xHdIDBelHWEVWbZUOtZ8ABESPhqMa_eygBF271bSzm3e77xBdpXBextUJk2TU8ySpT8hjE-ILxFV8Bnrm6J5mMEcCFf1W
+sprite $LessThanLg [20x27/16z] {
+hP370SGW40ENdDd-gxrp4l5fptDiG19zYF9gCJeninoDoNpY2GXR-AR2kCeWNaRwRhAzJE1kpFLuwYRTEK8t4SaWQkXPeJHrnfF03ozeI1Ktk-T3iw57iSi2
+w0jiHgvjqN4_GlagQ44vHM_u0m
+}
+!procedure LessThan($id, $name="Less Than", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LessThan', $name, $tech)
+!endprocedure
+!procedure LessThanCard($id, $funcName="", $content="")
+  IconCard($id, '<$LessThanMd>', '', $funcName, $content)
+!endprocedure
+!procedure LessThanGroup($id, $name='Less Than', $tech='')
+  IconGroup($id, 'IconGroup', '<$LessThanLg>', $name, $tech)
+!endprocedure
+@enduml

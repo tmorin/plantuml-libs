@@ -1,0 +1,19 @@
+@startuml
+sprite $Page4Md [14x14/16z] {
+7Sx70KCn20DGkKCesd_RVD3jsJG0utdanKHb9yd0vYsmih3SDruM7h3bn6pyziIsbrh85PzKei3puy3ssv33hBzJyCsMA9DSck43Isxeaxc-06Fl1LHrLxAF
+QPOAmDI8WRa0_04
+}
+sprite $Page4Lg [20x21/16z] {
+HT050iGW34JH2QwP-zzsIP7zzLS7bgIkAm_1Aq-kL2HVT4ki04SDiBnkAe0eQIZdgc5tr5nQM1lk_6SXz85BoRjbiwV9e9kQJBFIIc7Rf59frdCUF8L8C-58
+rweeztK-79hIkKrhFDUvn6CjBD99PizdCK_MmexKwae0AIMNvbr9iiFgRZjtRe-1kZDKVrCFI_ep3eTJwCSYyC_59BZz
+}
+!procedure Page4($id, $name="Page4", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Page4', $name, $tech)
+!endprocedure
+!procedure Page4Card($id, $funcName="", $content="")
+  IconCard($id, '<$Page4Md>', '', $funcName, $content)
+!endprocedure
+!procedure Page4Group($id, $name='Page4', $tech='')
+  IconGroup($id, 'IconGroup', '<$Page4Lg>', $name, $tech)
+!endprocedure
+@enduml

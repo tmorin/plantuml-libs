@@ -1,0 +1,16 @@
+@startuml
+sprite $StoreAltSlashMd [14x11/16z] HSV70SD030InkPn8Rl_LEbl23tP2VuMkcv6otvtHENTpBmnvhwMqbfaEDTJ15gm0ihtg-pNdRMbzfhNNiTIazTx7eBWQyxiEwVWJ
+sprite $StoreAltSlashLg [20x16/16z] {
+NSx50SKm3C1GEUNMiVQVzZFsXNNAbbFvQu3kIKBidgp0uidG5yRoJqzN8jMgyd6OH0jOTM_n0bG1azfvlr20bZfzNih3hkkvCUlHtYs8eCqCtNgtXt8d3ZK0
+FrwVYjy6C9KTqfVahlNj2W
+}
+!procedure StoreAltSlash($id, $name="Store Alt Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StoreAltSlash', $name, $tech)
+!endprocedure
+!procedure StoreAltSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$StoreAltSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure StoreAltSlashGroup($id, $name='Store Alt Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$StoreAltSlashLg>', $name, $tech)
+!endprocedure
+@enduml

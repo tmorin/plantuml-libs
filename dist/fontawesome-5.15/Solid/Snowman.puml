@@ -1,0 +1,16 @@
+@startuml
+sprite $SnowmanMd [14x14/16z] BSf50i10349HHYkHV__JrgPlbG1w6KJLhv79rAiqxNcSxcfLVKyDx62NMGT60vWreNG3CW4VUbHmWw5FISAXhM_d-tnzkPQqVqW6qFKAblfzay-fvG3m8ka6
+sprite $SnowmanLg [20x20/16z] {
+JS-54KCX44NHX-jo--ystvXmHc5Thp2XUvtyuc9EXqvPirBq2L6QP1k5BaKlETbo6f0gD7c6dDcw_XBq0K4Uip60vZEF63fFTbqSh7XTN38WLs16RHcm1Vo_
+L80nWQJDSocDyv86Mz77s3COUhd5PHeNqsV1DlKPi5Lz8cnUM-MJzPSN5qjw_
+}
+!procedure Snowman($id, $name="Snowman", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Snowman', $name, $tech)
+!endprocedure
+!procedure SnowmanCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnowmanMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnowmanGroup($id, $name='Snowman', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnowmanLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $EraserMd [14x14/16z] HSq15W0H20HGA01p_zlkLhtN01z8bj9pYWpqm0I40M50690CmIx7MITEJlagpiEMdvGd0spV2z82I3InP21WZB61sSSGHkGArKf_QgqV
+sprite $EraserLg [20x20/16z] {
+VSy55WCX30JGMLz86kv_sahaJNrMW8_ZRrRjqnjjOmnD9159H1AHH2GHdUmmeiIe5GlHaW3YKKGyOK740tUp1PdTHqMPE5zyLA0jGJ6gK5JbiPhUI-s1h_6x
+INz4HBne-98R
+}
+!procedure Eraser($id, $name="Eraser", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Eraser', $name, $tech)
+!endprocedure
+!procedure EraserCard($id, $funcName="", $content="")
+  IconCard($id, '<$EraserMd>', '', $funcName, $content)
+!endprocedure
+!procedure EraserGroup($id, $name='Eraser', $tech='')
+  IconGroup($id, 'IconGroup', '<$EraserLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $RProjectMd [14x12/16z] LSf50WLG249HNfTwzx_Qttb62aXgsoFYTDqK1y8iYAe2x5foocLI3amLxiwyFQxxTrQmpR77LsISqw6_bhww9im61_QGL0yt5lVrNUemic5wo6vPpRtepnK
+sprite $RProjectLg [20x18/16z] {
+ROu50iCm30CLS1gmhV__TWkCTst8964Ji-GKy4OiRQZsAize7dpI8oQD2pSr9ra0h2AxTZw8ikAQeGhKFcarLIRR8JWFHMUdJpMxdweaTNKgTgnYJlBBPkhK
+ZJHTQUqoJQtOnej6L98ZFc8gGm2KvT_9rUEoZLRZYun3AZxxefA69xwy2DTngAtBF7gh-CSD
+}
+!procedure RProject($id, $name="R Project", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/RProject', $name, $tech)
+!endprocedure
+!procedure RProjectCard($id, $funcName="", $content="")
+  IconCard($id, '<$RProjectMd>', '', $funcName, $content)
+!endprocedure
+!procedure RProjectGroup($id, $name='R Project', $tech='')
+  IconGroup($id, 'IconGroup', '<$RProjectLg>', $name, $tech)
+!endprocedure
+@enduml

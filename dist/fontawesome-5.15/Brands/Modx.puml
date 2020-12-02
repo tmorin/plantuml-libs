@@ -1,0 +1,16 @@
+@startuml
+sprite $ModxMd [14x16/16z] LSxL0K8n40NHFC_gxRzR1eU9dhyT_-tpJwfzh4uM1vBiqgCLKNjodmCz2bUEZrHpHPkaJfjs8ZZdjEmERMZD5dbfHw5xoODEFG9eVSAkXuum9wOezDD4Vzq
+sprite $ModxLg [20x23/16z] {
+RSu5SWKW48FXuBwv_sah4Dfd_nZpOOkFHVTkdV7D6jazuBiQOHijerCj72DddRBuPxHw5Wqo7HsaETcjDsR8_Z7WqMosdB8_vZfjr9HI7JRxaiQKsznd2rdE
+mKdLfknn6CeYRyMkJQhUAIjKbYWBl1N4TIpMigi5WAlRNWghuZs7Ztq3
+}
+!procedure Modx($id, $name="Modx", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Modx', $name, $tech)
+!endprocedure
+!procedure ModxCard($id, $funcName="", $content="")
+  IconCard($id, '<$ModxMd>', '', $funcName, $content)
+!endprocedure
+!procedure ModxGroup($id, $name='Modx', $tech='')
+  IconGroup($id, 'IconGroup', '<$ModxLg>', $name, $tech)
+!endprocedure
+@enduml

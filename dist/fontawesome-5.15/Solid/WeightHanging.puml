@@ -1,0 +1,16 @@
+@startuml
+sprite $WeightHangingMd [14x14/16z] TOk35K0n5CLgzsN_QR-D75sgcGhTg0qBGjXTn6dArlX2IRJWPjVPCVDfPxw6qsLbykcw2fsJQmN-Mb64V-HcHW
+sprite $WeightHangingLg [20x20/16z] {
+PSo50SGW0CLGt27xJtjQ_w-AnVpv0TsPAxVucFOwLw5yddoT6tHZ9kroqdQMZz3ibhI3nMPjMmCtlvs5c_JltxHlZhkfEN2IWoGvQ9A3gJbm1P46egBMGeme
+azE_0G
+}
+!procedure WeightHanging($id, $name="Weight Hanging", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/WeightHanging', $name, $tech)
+!endprocedure
+!procedure WeightHangingCard($id, $funcName="", $content="")
+  IconCard($id, '<$WeightHangingMd>', '', $funcName, $content)
+!endprocedure
+!procedure WeightHangingGroup($id, $name='Weight Hanging', $tech='')
+  IconGroup($id, 'IconGroup', '<$WeightHangingLg>', $name, $tech)
+!endprocedure
+@enduml

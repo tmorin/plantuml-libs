@@ -1,0 +1,16 @@
+@startuml
+sprite $CutMd [14x16/16z] NOv50e1054AdRENT_xHsCQn-KC7HI_qvnAvB0y2n9i42EQDheLpRlOIJgNOvbjFbsC_bH3ht7EhDcPMB9tYwD_FMmR01
+sprite $CutLg [20x23/16z] {
+XSg5TS0m40JHjPYd_se3EaCuOul-E_rOA3KTdwa2J2-hZ5bTPZUD1i2OKCA4U1DXZoGeahgH5dWrI0-fmPf0rhX8nyIQDxrXdSlq9kE77hJ9zeZp7IlByWFh
+GO-r-eCTPWUIwesm3fLtUn2cbFVrnW6z044tbiYkIpTsfNqSic9hIT8HazU_lG8
+}
+!procedure Cut($id, $name="Cut", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Cut', $name, $tech)
+!endprocedure
+!procedure CutCard($id, $funcName="", $content="")
+  IconCard($id, '<$CutMd>', '', $funcName, $content)
+!endprocedure
+!procedure CutGroup($id, $name='Cut', $tech='')
+  IconGroup($id, 'IconGroup', '<$CutLg>', $name, $tech)
+!endprocedure
+@enduml

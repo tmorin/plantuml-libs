@@ -1,0 +1,16 @@
+@startuml
+sprite $JournalWhillsMd [14x16/16z] ROy50WGX24MnbVhtF-tkT3-J1XeuyO4N1ftEncXWjDshvqdAVPDoaY8fxvv5YClkoTHA8yOknX3vMXVV-FMNQIE2WNIHnitpFj4V
+sprite $JournalWhillsLg [20x23/16z] {
+jT35WGGW343H60xv_LUxBgF7UJSaAZQviIovitWgamc72pjW96tmhoZqfEf5vB91pRJn7ptDAcKlzSAVAhkBfzd_lvonXlY9YrYQHFh-kEP24LCJErnQuTwJ
+LzX0LVkZ0HMsNDAa9fJBVyxtnl8IRDtS4Mstj_qT
+}
+!procedure JournalWhills($id, $name="Journal Whills", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/JournalWhills', $name, $tech)
+!endprocedure
+!procedure JournalWhillsCard($id, $funcName="", $content="")
+  IconCard($id, '<$JournalWhillsMd>', '', $funcName, $content)
+!endprocedure
+!procedure JournalWhillsGroup($id, $name='Journal Whills', $tech='')
+  IconGroup($id, 'IconGroup', '<$JournalWhillsLg>', $name, $tech)
+!endprocedure
+@enduml

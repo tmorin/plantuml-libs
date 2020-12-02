@@ -1,0 +1,16 @@
+@startuml
+sprite $StopCircleMd [14x14/16z] NSV50GH024MnDsx0xx_RTSqjGDuXoIftIt6Eon9NfiPLySZafSo3ELkDCgyQMLq1KrS7ZkjyDlGt_so5gTBi71iapMhEquf43ijmjLM1x3fZR5rprrsAaO0B
+sprite $StopCircleLg [20x20/16z] {
+RP050WCW24KD9gN--zzsu3gU_MpAeGrprr7BasQuemzx0HRtraWsTdyeYIQf2gHimAKyOQpORhdgHGuRLlHapM1nRjkLmU4c3dOMag5_kW5nj4z7q7zEGTzx
+ERP_EWTLx7WaM-Bn-9vlKsXvm_DjTODVIZ6peLU8ccEralG5s20Q3inKIPMDm-RoeXAhCjr7Lm
+}
+!procedure StopCircle($id, $name="Stop Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/StopCircle', $name, $tech)
+!endprocedure
+!procedure StopCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$StopCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure StopCircleGroup($id, $name='Stop Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$StopCircleLg>', $name, $tech)
+!endprocedure
+@enduml

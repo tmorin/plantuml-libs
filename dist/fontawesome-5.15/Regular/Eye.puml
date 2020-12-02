@@ -1,0 +1,16 @@
+@startuml
+sprite $EyeMd [14x12/16z] NSl50GH040B1NdV8FzjphH5US1DBZZmr-HohSXMsMiWbDgz0q0Ac5-pDtBUQx0vdkC3orOJgha3tLIDURoaof4xI1AP7lhe6DtdfQYLUOk3gtmK
+sprite $EyeLg [20x18/16z] {
+bKz70iCm20jas4pz_xUbr5t7o0EnORi57kgkO_zQ3WUG2S2FPPg075Habs9jKXYNi5JUo61LIPOhWEHdacuEBGFH0D1KS26fYA4HAm7yR-DCXHSPQCns7rN8
+Q0LwazdZHKrwcLqrVQmfpaGC9kBBWN8qQ2PU4FvkJCUOCch1MtW
+}
+!procedure Eye($id, $name="Eye", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Eye', $name, $tech)
+!endprocedure
+!procedure EyeCard($id, $funcName="", $content="")
+  IconCard($id, '<$EyeMd>', '', $funcName, $content)
+!endprocedure
+!procedure EyeGroup($id, $name='Eye', $tech='')
+  IconGroup($id, 'IconGroup', '<$EyeLg>', $name, $tech)
+!endprocedure
+@enduml

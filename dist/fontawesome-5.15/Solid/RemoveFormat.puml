@@ -1,0 +1,16 @@
+@startuml
+sprite $RemoveFormatMd [14x11/16z] JSU50GH124FHZ1lm-w_sNFQXiQtSsqSQdCLNKmcYDsEs-KXAXouZIJthOU9i_LJe-ajsYRbeiVGnoUfuVeK3HyfEqqERytLFt04
+sprite $RemoveFormatLg [20x16/16z] {
+LSw50KCn24NH6xV2st_QslSJLnWMWN039i-_xajRRuGfTTSTqFJLUblIRArBV6MN4Wnv0Cpu2KkgmJMvwz9BAZmKbnoUud7luPSK3mcgj0ANu0EIoJE7tvso
+9TNOcIJVavhXs7CPF_cOG0ZXICh61m
+}
+!procedure RemoveFormat($id, $name="Remove Format", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/RemoveFormat', $name, $tech)
+!endprocedure
+!procedure RemoveFormatCard($id, $funcName="", $content="")
+  IconCard($id, '<$RemoveFormatMd>', '', $funcName, $content)
+!endprocedure
+!procedure RemoveFormatGroup($id, $name='Remove Format', $tech='')
+  IconGroup($id, 'IconGroup', '<$RemoveFormatLg>', $name, $tech)
+!endprocedure
+@enduml

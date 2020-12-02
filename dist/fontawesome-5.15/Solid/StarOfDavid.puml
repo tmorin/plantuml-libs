@@ -1,0 +1,16 @@
+@startuml
+sprite $StarOfDavidMd [14x15/16z] LOy75WCW24FfBZwJV__RDdRxdMoenT4-rfS1uokSwUQyVYt9E3kVXWWAa7rbs8UgWpoureHBXGlCgYkg9uffj-rnHjbp2cUtScD3FhttilUvp_
+sprite $StarOfDavidLg [20x22/16z] {
+PSo75KCX241HvDi5t_xRXdZIS-rIvE7QPFbXu4c-D4ANJxgP0_JnogMKFA5LMBc4jFbZyC-XTMX9DLKOzrKCTqoEoNOyIIPSSYYXdY137Zei2GkcF0nEcqee
+ScH2axPPXijXs0BTq3kCN4g-dmqM_7F-JD6GEjG28scG1yUCdUHJ8LJvji3aXvghFDm
+}
+!procedure StarOfDavid($id, $name="Star Of David", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StarOfDavid', $name, $tech)
+!endprocedure
+!procedure StarOfDavidCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarOfDavidMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarOfDavidGroup($id, $name='Star Of David', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarOfDavidLg>', $name, $tech)
+!endprocedure
+@enduml

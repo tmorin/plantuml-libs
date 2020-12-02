@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudUploadAltMd [14x11/16z] JOe50a0X34Bv7UAu_sdjUiP68B5V1mQV9BSrSIj3iXGeiJXCufBybd_PXhi85CdTIyOB7qjNcGTKmQtATjFamdO_dGCH
+sprite $CloudUploadAltLg [20x16/16z] {
+TOs50S0W4CGETzX_sYekQR6yuOHmCJenA9q-T9-LCazsyUvzXp0anrSHyijOkmKAq52Tpwf8H_-P0WGWULYayMzj0Ll7bpEF_pCtJl-79yJNMjHhhQI03eEn
+52-auttV
+}
+!procedure CloudUploadAlt($id, $name="Cloud Upload Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CloudUploadAlt', $name, $tech)
+!endprocedure
+!procedure CloudUploadAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudUploadAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudUploadAltGroup($id, $name='Cloud Upload Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudUploadAltLg>', $name, $tech)
+!endprocedure
+@enduml

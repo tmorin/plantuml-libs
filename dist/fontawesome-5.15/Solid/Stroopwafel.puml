@@ -1,0 +1,20 @@
+@startuml
+sprite $StroopwafelMd [14x14/16z] {
+9Sst0K0n20DH6PmjqFxJ_lYwgmv02prouEMXN_-2PEix61qzY2P7BanPYAtLiMfhMrkY6YWKHKfgDkYsb_bR7Kk685oFhOeTnVA4Kh5RMIo-g3Fr7km_E7hC
+7Uw7amj0bp8pf8MNRJte06u
+}
+sprite $StroopwafelLg [20x20/16z] {
+DSy75WCX24NHZz5X4EJjVxSvANFjNVHXdWsTb-dXpTzP-ac0JN_R-4sTdOcjETWL_PbqjXIaTBYaOidwCmnUmnR-cJjoo3jiZ2uRjhrW9Hz3DroQq13DjdgD
+M-4AMwcYWANHX9GSa_FHK-FWtyTD2xhPewTTof3BoufAFbuAS4q-ue9zkKqxgMdtAfWwb9GiatFBliEBa6xo5vQAAIcwgZ1VWphPhey0g6y6ryyw_DLBUgme
+kcBgwmq
+}
+!procedure Stroopwafel($id, $name="Stroopwafel", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Stroopwafel', $name, $tech)
+!endprocedure
+!procedure StroopwafelCard($id, $funcName="", $content="")
+  IconCard($id, '<$StroopwafelMd>', '', $funcName, $content)
+!endprocedure
+!procedure StroopwafelGroup($id, $name='Stroopwafel', $tech='')
+  IconGroup($id, 'IconGroup', '<$StroopwafelLg>', $name, $tech)
+!endprocedure
+@enduml

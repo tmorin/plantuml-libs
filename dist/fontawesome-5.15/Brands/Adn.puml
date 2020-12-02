@@ -1,0 +1,16 @@
+@startuml
+sprite $AdnMd [14x14/16z] JOs55S10348vry3-s_Qb_azZ022qRRPxW9Ef4nOFz5BHpieSPpMU0TFrdZcLCS-1C-NVulcJM5ghWLTGfqYj8d-qTBAeqQcFYF9t1yeNE74OQIC2E
+sprite $AdnLg [20x21/16z] {
+PP055e1020LXE-7-fpK_vjZp96c7KvUDaPakyjG3AIRTOM33eRpeaxZdclh6awjuBGaldKnDfexN81QH2kEruLb9r5cqHRRjXcWGtEXz17weoYbkf4Vqu84f
+kEttlUDI5BIqHnNzuVad6n6DjnBtMuBuSylzLiCH2B0ZqGCNKuhspme
+}
+!procedure Adn($id, $name="Adn", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Adn', $name, $tech)
+!endprocedure
+!procedure AdnCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdnMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdnGroup($id, $name='Adn', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdnLg>', $name, $tech)
+!endprocedure
+@enduml

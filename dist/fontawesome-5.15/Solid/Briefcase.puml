@@ -1,0 +1,13 @@
+@startuml
+sprite $BriefcaseMd [14x14/16z] ZSUr0G9H40JGTJkP_giz-H54y5Q77b6PbKoB77YSHajWdzdGpslXZNPFx1wAl-aY8kkU3pYHdEjxjLhYb_ChY7tW6m
+sprite $BriefcaseLg [20x20/16z] fSA55SD050Cm7-Etzv-spDn4JtWdpZdsHy2Pequcphmq-uw9E73UHQd0EJJHU-zGHEe6nQHdr8_i1Rmm3onXfzWyq576JjMTaNQcrZCz6RwFFcxqqJnUs08
+!procedure Briefcase($id, $name="Briefcase", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Briefcase', $name, $tech)
+!endprocedure
+!procedure BriefcaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$BriefcaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure BriefcaseGroup($id, $name='Briefcase', $tech='')
+  IconGroup($id, 'IconGroup', '<$BriefcaseLg>', $name, $tech)
+!endprocedure
+@enduml

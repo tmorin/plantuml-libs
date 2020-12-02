@@ -1,0 +1,19 @@
+@startuml
+sprite $HeadSideVirusMd [14x14/16z] {
+FOc70GGn2CES0fUAzz_spJUbIW0Zc8H3j9JajjzavXq5eJXEMMkH0nGDuYYdxMhoUSckqW5qr4Kk5HfW9IZiy3P7QvECWwQR_UYY0vLC5n_x4VLlOIRvsKNo
+0W
+}
+sprite $HeadSideVirusLg [20x20/16z] {
+POw50GGn2C12tTb_sw-zvxH8093OT35guEAwlkZsXFGB1yYjgZSt1A9EIjV4qBAy2RRUIG3hAKifd0OG8EZ2SsIa3DYnHSnFuuNRK-hT5SaYUTlzSGYGhayR
+PxxmthLZfj5d3JHrQvSI36HT5D73SfElvJ_sml_76j-n4gBdAtPKlx78uG4
+}
+!procedure HeadSideVirus($id, $name="Head Side Virus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HeadSideVirus', $name, $tech)
+!endprocedure
+!procedure HeadSideVirusCard($id, $funcName="", $content="")
+  IconCard($id, '<$HeadSideVirusMd>', '', $funcName, $content)
+!endprocedure
+!procedure HeadSideVirusGroup($id, $name='Head Side Virus', $tech='')
+  IconGroup($id, 'IconGroup', '<$HeadSideVirusLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SlashMd [14x11/16z] LOgv0G0n08Bo_mdxRtijPwN2cK7fdAYP7qKpRlhVthOBBskcGxCzcPwLcsnVgl5-7m
+sprite $SlashLg [20x16/16z] RO-r0S1024LpxhpzjqsDTS3NzV9dvo7LtjA6wP03JhB7AhpY-0Uwuq_OxjY4wqBbYpG73KFrA5G9InqOOQYmb4Fcjtu
+!procedure Slash($id, $name="Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Slash', $name, $tech)
+!endprocedure
+!procedure SlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlashGroup($id, $name='Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlashLg>', $name, $tech)
+!endprocedure
+@enduml

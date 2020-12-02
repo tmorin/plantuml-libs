@@ -1,0 +1,19 @@
+@startuml
+sprite $ToothMd [14x16/16z] {
+TOw50SH020G7Y9_rt-spxvRa35WZwcWpB6tK8Fh8xx0bpnv5HJusdIfEl_9Hn7iLxAzYX_bLpU2loi7avguGvDT44BsfIey5bjHNjOaW-gPgla6Q9C7K5CJW
+0W
+}
+sprite $ToothLg [20x23/16z] {
+ZSw5aGCm44DHcNdLVxUtewDmyeQ-sK2SvCvmTTD6y2WKRnKj8TAfw-zacFmpVxeRxsn-vYpUcOLtCkus3Y3ncWK0crScNEUL2bTv9S5bvSd5514kAZDG_fv0
+q3OjAkHuBhYjaFNxsj2FfV--LduNbQQ8MlpD1Tay0P1k2P9DHxy
+}
+!procedure Tooth($id, $name="Tooth", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tooth', $name, $tech)
+!endprocedure
+!procedure ToothCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToothMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToothGroup($id, $name='Tooth', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToothLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HanukiahMd [14x11/16z] JOg50KGn24DJI_ZA_jFMJru58fWKhgaaaZdtJycwabX8oORgnFkEOygje-lIcDwLkhg7allnQvgR_t4WivJyFBaKPW1nD9_ne_FuvW4Q
+sprite $HanukiahLg [20x16/16z] {
+TOi53aKn3CDMU31eS__R_l7dM61PIbWxZgr4WJivJo5AaKmh938bfXJPpdAQdATquPZgTm1C8NAZmXK2ffZ3sHgjMLV7x_RvhGrAVRNrAH3njHXkVoz-XxNs
+NVwd6TQzYeqsowmrF
+}
+!procedure Hanukiah($id, $name="Hanukiah", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hanukiah', $name, $tech)
+!endprocedure
+!procedure HanukiahCard($id, $funcName="", $content="")
+  IconCard($id, '<$HanukiahMd>', '', $funcName, $content)
+!endprocedure
+!procedure HanukiahGroup($id, $name='Hanukiah', $tech='')
+  IconGroup($id, 'IconGroup', '<$HanukiahLg>', $name, $tech)
+!endprocedure
+@enduml

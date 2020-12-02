@@ -1,0 +1,13 @@
+@startuml
+sprite $WarehouseMd [14x11/16z] PSd50S1020H0pd7whpRkcTSABF9mnmoRmh7X2j0qBjRZm_NWQslZKBTcRWktjfwbzLtPlZYSNrlqzljc
+sprite $WarehouseLg [20x16/16z] hSl50KGn24LHu7k4rt-rOt7RpLabmAL0RjLRgB8R_9YT0ZuTCdSoaJoAXZxYCV1Oq0g2dINZFLonXyO0ddKr0zKj_QSDgZQM-VC6
+!procedure Warehouse($id, $name="Warehouse", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Warehouse', $name, $tech)
+!endprocedure
+!procedure WarehouseCard($id, $funcName="", $content="")
+  IconCard($id, '<$WarehouseMd>', '', $funcName, $content)
+!endprocedure
+!procedure WarehouseGroup($id, $name='Warehouse', $tech='')
+  IconGroup($id, 'IconGroup', '<$WarehouseLg>', $name, $tech)
+!endprocedure
+@enduml

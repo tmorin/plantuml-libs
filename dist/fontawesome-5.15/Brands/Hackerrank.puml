@@ -1,0 +1,16 @@
+@startuml
+sprite $HackerrankMd [14x14/16z] HKo54S1028Dtp_xR5hjhNecH86_WL7Aa1SXOREZ0Ws8n5NNniV7or9ikXX9DCuyVqjHfsxIFLNMVSg7zJm_PDCkbc5gxWCb3xaoyRJmFDvEWkjmfq879-la
+sprite $HackerrankLg [20x20/16z] {
+NP250S0W30GVTtx_QMjfg5oLGo8GR9up6xmmUV9W9YpYvCq8zxPESjbg08Jh3qdbT40_VmeYbGPpxHgeP9R_3aFv5ZBXdhTyrecRHbqenVyTZC7FoNaKfp7g
+AuR6Boj6FtDMFAhK13VL9JlEhHQ0gIhFsGp1h_tT_JketLjsz6Ls
+}
+!procedure Hackerrank($id, $name="Hackerrank", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Hackerrank', $name, $tech)
+!endprocedure
+!procedure HackerrankCard($id, $funcName="", $content="")
+  IconCard($id, '<$HackerrankMd>', '', $funcName, $content)
+!endprocedure
+!procedure HackerrankGroup($id, $name='Hackerrank', $tech='')
+  IconGroup($id, 'IconGroup', '<$HackerrankLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SlackHashMd [14x16/16z] {
+ROvL0WCm24Fh2kJ-jrrW_TjU5K_wGz7pVgsaL85QgXiGtWe3MhZx410jBA4pc4mv8BQxXcMlO45oAwLbmV9cT1l34zAMWfomlfZt3A-C3jHNe4mHRvOeATp5
+3UUuZ5y-
+}
+sprite $SlackHashLg [20x23/16z] {
+VSq5UWKX34NX4toCx7-tlLy9hzv_b2Z_wiFufhgVlAI4DFTf92CE6R2fmclzSwwczFYxWNGrvNRxCZEI_CDT3B3-gfXxSqJcMMdw9iIN6aCQ6EqvYseFvDB0
+yNZVcmqOCOTegaaLoo2QfeUHaJnsOCOGMWIUaPA23JbNw8h_0ydFqqSqwJyXUtFX6pKblckPVxq1
+}
+!procedure SlackHash($id, $name="Slack Hash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/SlackHash', $name, $tech)
+!endprocedure
+!procedure SlackHashCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlackHashMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlackHashGroup($id, $name='Slack Hash', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlackHashLg>', $name, $tech)
+!endprocedure
+@enduml

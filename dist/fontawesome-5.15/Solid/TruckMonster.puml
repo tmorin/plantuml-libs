@@ -1,0 +1,16 @@
+@startuml
+sprite $TruckMonsterMd [14x11/16z] HOY50GGn3CFSDdGKxJ_jCmGCqcD60qkVcTGwUppvMil9uHnhoU0_5lJPmCkIch6IbnKpciwrNZPrjLyjzTE6KKfilSnrid7fOJkdP0UdI_woEm
+sprite $TruckMonsterLg [20x16/16z] {
+VSt5WKDH34DHoP_XwVPVxKoOaxCoMsSxm6Oz0WAh7e5LOTAPRHai3J38aXg1im1XatWZ0mbdvyXXxQgw5RX6ONBVMk-9UwGAG4eFKG_B0lrZr5YaXVOx-hZx
+yOUgJ_hIG_GF
+}
+!procedure TruckMonster($id, $name="Truck Monster", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/TruckMonster', $name, $tech)
+!endprocedure
+!procedure TruckMonsterCard($id, $funcName="", $content="")
+  IconCard($id, '<$TruckMonsterMd>', '', $funcName, $content)
+!endprocedure
+!procedure TruckMonsterGroup($id, $name='Truck Monster', $tech='')
+  IconGroup($id, 'IconGroup', '<$TruckMonsterLg>', $name, $tech)
+!endprocedure
+@enduml

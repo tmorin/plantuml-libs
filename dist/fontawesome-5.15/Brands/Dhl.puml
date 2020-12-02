@@ -1,0 +1,13 @@
+@startuml
+sprite $DhlMd [14x11/16z] dS470S0W300meF_xTxjfQ7BMa0M1a1ZEUTSx8xjYw3v2CVeXAIETfGy
+sprite $DhlLg [20x16/16z] nSX50G0n302mCWtgN-sXYEKPE4VTNK4CJJdeFzyvM_REzZNVC9FgCNnMjEUkq6T4t48ec1tD_Gquv0O
+!procedure Dhl($id, $name="Dhl", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Dhl', $name, $tech)
+!endprocedure
+!procedure DhlCard($id, $funcName="", $content="")
+  IconCard($id, '<$DhlMd>', '', $funcName, $content)
+!endprocedure
+!procedure DhlGroup($id, $name='Dhl', $tech='')
+  IconGroup($id, 'IconGroup', '<$DhlLg>', $name, $tech)
+!endprocedure
+@enduml

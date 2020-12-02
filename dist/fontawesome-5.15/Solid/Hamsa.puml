@@ -1,0 +1,16 @@
+@startuml
+sprite $HamsaMd [14x14/16z] bKk50G0X23p2LjX_syTOuC-0Am32MCvG7FG2Tz79cwWlCfVcvI_p6TSkI_vG0TkpCzSzRRE1RjXqQGz9DDFk4Z12RDN22RBfmM8Sb4twTZu
+sprite $HamsaLg [20x20/16z] {
+jSnL0i9030JGMVVC_KzRIOh39wzTY-4IAHvFOd7eP86l0IQGtMAJug0IEIqcPFXRJE8aH-9JxE5dhAwvU6W-T1wEPw69o0cPIgeU6OaCQDT3pmat1xnEAG1i
+J02Yy51n6jJeqgC1Jy57I3LUAXv2dPHHFTGE
+}
+!procedure Hamsa($id, $name="Hamsa", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hamsa', $name, $tech)
+!endprocedure
+!procedure HamsaCard($id, $funcName="", $content="")
+  IconCard($id, '<$HamsaMd>', '', $funcName, $content)
+!endprocedure
+!procedure HamsaGroup($id, $name='Hamsa', $tech='')
+  IconGroup($id, 'IconGroup', '<$HamsaLg>', $name, $tech)
+!endprocedure
+@enduml

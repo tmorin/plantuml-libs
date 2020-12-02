@@ -1,0 +1,19 @@
+@startuml
+sprite $RubleSignMd [14x18/16z] {
+LSq53WHH309Gldkv_ssNZ3NxebM042y1bqMZoIwGpLU_gr5hMohpLIN89ETLPKWYprzbljd85QEggamLh4QtG3S3IZcABQNa07XLQWBe1d2CfCcn1dZwvKht
+AcOV_G
+}
+sprite $RubleSignLg [20x27/16z] {
+XP054W0X2005xFp_Rm-uxfroLjey0xI2cojZeoUyEi4lxY8NLvptFbJDXyL5emIHuUnCbPoBYv9ySPfySOdVzUoWypkV7EamhjHvgCgq8HGphZIykG9ShEsv
+jIGhPI-pA256wL_Z0h6xrailRfzFQVwbnulBUjipW8ZcZma
+}
+!procedure RubleSign($id, $name="Ruble Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/RubleSign', $name, $tech)
+!endprocedure
+!procedure RubleSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$RubleSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure RubleSignGroup($id, $name='Ruble Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$RubleSignLg>', $name, $tech)
+!endprocedure
+@enduml

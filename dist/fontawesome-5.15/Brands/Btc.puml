@@ -1,0 +1,19 @@
+@startuml
+sprite $BtcMd [14x18/16z] {
+NOy50WGX54BjzdF_soupE5kO3qpdN46AQ4uIrNkQSkhe3IDwak6HCQwTlFgytC9qteDVm2GDcUsRuWQooDR65OcWavS_Atten7Q8qg4FRP8FzAgFUOBZn4VJ
+JJDDzopdHpdz_K_q0W
+}
+sprite $BtcLg [20x27/16z] {
+fT570iGW241Hi2i8zx_jM2TrbxzyYHrwh0HErS7iYsLgYGfNLKu1krMz5fkHo1KJ0ABflx8nrbCtmJ5bD-YLZlPguSLIDtCsZ9qoR5CY7XieiEr8YjacHCHJ
+AvxNc1DgFDjQk5pDTwEN__fkoZOpI8CdqhLkNUlsWTV40bs54m9OrwhABgb6Wv_VyWS
+}
+!procedure Btc($id, $name="Btc", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Btc', $name, $tech)
+!endprocedure
+!procedure BtcCard($id, $funcName="", $content="")
+  IconCard($id, '<$BtcMd>', '', $funcName, $content)
+!endprocedure
+!procedure BtcGroup($id, $name='Btc', $tech='')
+  IconGroup($id, 'IconGroup', '<$BtcLg>', $name, $tech)
+!endprocedure
+@enduml

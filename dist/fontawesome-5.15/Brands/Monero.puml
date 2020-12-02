@@ -1,0 +1,16 @@
+@startuml
+sprite $MoneroMd [14x14/16z] FSU53GD130J0FJ98iRV_RlE78nm0HNyHFokOUdB9CSD7e1atmPhKiID29mqoer3c76Jc6-S4gX38NZfW_9Qz5mHDcIYzbJuaESdeAC970OmRmLGzCiChW3y
+sprite $MoneroLg [20x21/16z] {
+PSy76eGW34JXeIy6C_U_xIPyTfxzjm6yK4MjqGAksiwP_awCKmxDavBoMJ4AEzybnCxnK1KAElcBj-LgcvBR_Sc2PjTsqc5ua1kd7PZni10TinrlYtj0Bi0e
+fss8D0I4ULeNgMQEuZyfiZLORXno_CMAhTR6esxdQPslHdnH4xmWDus8eoo7L3oAfTPoFlC7
+}
+!procedure Monero($id, $name="Monero", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Monero', $name, $tech)
+!endprocedure
+!procedure MoneroCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoneroMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoneroGroup($id, $name='Monero', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoneroLg>', $name, $tech)
+!endprocedure
+@enduml

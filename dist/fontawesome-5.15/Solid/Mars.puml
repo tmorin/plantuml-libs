@@ -1,0 +1,19 @@
+@startuml
+sprite $MarsMd [14x18/16z] {
+ZOw50GCX40HnvwR_RlD8t7xGyrMdo2BjRWNWPbXPbl713aD2KRe0jCEmHwI122mZGTJA2xDV9u_7mOY16vOM_BJyWzMemufWbeBgN8Qov35fUkjhqDCm5jge
+Zrm
+}
+sprite $MarsLg [20x27/16z] {
+hOu53e0m40Ilxkt_NmlKFSh4DdCAlq7a1vyT3H6OqRiJhMzKpL4X1IsAClCPxbFLggJQsaHNCaRl_A18D0m0yHXmcoJjNvcIIw6MRGfbIOH_mpStpfeGp7A3
+VKaClo108WO4myys_SoXe495G8EvP2o54S859_0BBm
+}
+!procedure Mars($id, $name="Mars", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Mars', $name, $tech)
+!endprocedure
+!procedure MarsCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarsMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarsGroup($id, $name='Mars', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarsLg>', $name, $tech)
+!endprocedure
+@enduml

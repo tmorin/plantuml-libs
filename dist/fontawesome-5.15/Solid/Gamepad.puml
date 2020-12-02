@@ -1,0 +1,13 @@
+@startuml
+sprite $GamepadMd [14x11/16z] VOgr0KGn34FbC3ZM_jjUg3dwhn7YYQ0sBX61x3meer95Jq0pDe6q6Knd6Eoohn6pIMJbLEgKX3Hc9P9i2YO2NFdW1G
+sprite $GamepadLg [20x16/16z] dOx50GCn30JDAEY_svZfbrkZHYZ-aLmQm6RY9SgseC2FWh3bzdw1R39RA1-j5xCbg22lfTGp4aeSNooRciOpTsKMTFN8BTFEMPBtQSpIPwwJNh_l-W4
+!procedure Gamepad($id, $name="Gamepad", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Gamepad', $name, $tech)
+!endprocedure
+!procedure GamepadCard($id, $funcName="", $content="")
+  IconCard($id, '<$GamepadMd>', '', $funcName, $content)
+!endprocedure
+!procedure GamepadGroup($id, $name='Gamepad', $tech='')
+  IconGroup($id, 'IconGroup', '<$GamepadLg>', $name, $tech)
+!endprocedure
+@enduml

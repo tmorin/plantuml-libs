@@ -1,0 +1,16 @@
+@startuml
+sprite $InstagramSquareMd [14x16/16z] NK-34G1133mdhzt-k_qv8pQCiGECKGBCaBKseuU8v0ka4aYng2Uah1puYNpfyRdGytCYxgD7yKIOsMNFJM-ld5DoqTo0cCxj-sNxrVj7Fm
+sprite $InstagramSquareLg [20x23/16z] {
+TSq56aGX20JW4R2LkVzjr-_rrcy7W1z2gHyoEhzK_k75J1UpwyiCiBI9KEV6v0gO8UsRhOxtJaTfOG_591k0qBjtRC43Suta7k4SzrrKBY4_xpHnqSX7R9Aj
+M7t-SsZl8Zp_JGnoA63pkdEqRTaEMRX963nq5EuCGLHM3qWyZPBJailW7rxvfS3I1yClBm
+}
+!procedure InstagramSquare($id, $name="Instagram Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/InstagramSquare', $name, $tech)
+!endprocedure
+!procedure InstagramSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$InstagramSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure InstagramSquareGroup($id, $name='Instagram Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$InstagramSquareLg>', $name, $tech)
+!endprocedure
+@enduml

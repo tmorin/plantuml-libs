@@ -1,0 +1,19 @@
+@startuml
+sprite $DeploydogMd [14x14/16z] {
+LSn50a0X20JGiHL6kFzfV-TRA8s_c5xGgQeYnqCPSU_lJqXW2rj0tPxcqFxF44aJoAH1M-2iFfetRhqQV63ACFGjQzjhBdbxxBYISag8EMMGsdTZVuIfj4SD
+-5a1
+}
+sprite $DeploydogLg [20x20/16z] {
+ZOm5ZaGn34Fpqr3Hzx_jAjrXVW9B9leLQmyeLVHx1WnA3_X2eIJcLXwD52UlGRQ7-S4JB-aTPdBs0edGJDaUC-06bC2GTl848_zAWn5VUoehUvtZ_DUGoB5I
+JXvfLMjC724rqZDw89PZdXWdXPBu0uL-vGy
+}
+!procedure Deploydog($id, $name="Deploydog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Deploydog', $name, $tech)
+!endprocedure
+!procedure DeploydogCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeploydogMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeploydogGroup($id, $name='Deploydog', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeploydogLg>', $name, $tech)
+!endprocedure
+@enduml

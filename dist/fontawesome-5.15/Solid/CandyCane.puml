@@ -1,0 +1,16 @@
+@startuml
+sprite $CandyCaneMd [14x14/16z] FOx50KKn20I92pBzL_lbIUQ2ioiNMJMWoyrWA6Xwgxd8fi_GsQhmLBd8S4LUMkmQJrvs0ElAqyBpmgwVtGp2vhNarq3BBw_BPu2rwmIYBURZ8W3DyZ0YgXo-
+sprite $CandyCaneLg [20x20/16z] {
+NSrPOiCm201HjADrxd_RehOXYT-VWB75fG6iAX-KhPWPV1HXoeQsfhW5LbUP59ybuA3ZtZizJGhco9T86uzPsXGPw_DeOWvLN6CjpFP9tbXNuQIlZ66tqREJ
+5EFVAWVGssdmxFz_qpEOaXQSAY-ONTRDtE1QDtEHUoVVAYeFFm
+}
+!procedure CandyCane($id, $name="Candy Cane", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CandyCane', $name, $tech)
+!endprocedure
+!procedure CandyCaneCard($id, $funcName="", $content="")
+  IconCard($id, '<$CandyCaneMd>', '', $funcName, $content)
+!endprocedure
+!procedure CandyCaneGroup($id, $name='Candy Cane', $tech='')
+  IconGroup($id, 'IconGroup', '<$CandyCaneLg>', $name, $tech)
+!endprocedure
+@enduml

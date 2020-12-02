@@ -1,0 +1,19 @@
+@startuml
+sprite $FortAwesomeAltMd [14x14/16z] {
+7Oc54G0m2CHI0UhiFsqjQEw1M9VxwfbFzKyFJ_hzfhRbAn9_ic2w3wuyw-iTlRjeLbMJ6rupCYJo3R-DG4lfsQn6WaYkVVR19OItMv6MWEdfMI3sI7GNGir0
+QfhSDJVXezrzM00E
+}
+sprite $FortAwesomeAltLg [20x20/16z] {
+HSo55O0m34NHNs-isNzRI8jS92SFmPO7Yr1F-6Js1xsrUM2D-ofFsgXEZXan-o50YMa9uBVLFZtCyzgw3zOOiQGHly-Mj8qOTg-LzwyI4lOjsfJTm1ceZDte
+jEGLwFOqSbO5HWPA1nQhZ-wjJ7meJo_9ExQSdxe09eJXtX1a06bLtDITOtQDUztnQTqIGZ5AfsNHZ2EHoN8tiObVQfDeDXmN
+}
+!procedure FortAwesomeAlt($id, $name="Fort Awesome Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/FortAwesomeAlt', $name, $tech)
+!endprocedure
+!procedure FortAwesomeAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$FortAwesomeAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure FortAwesomeAltGroup($id, $name='Fort Awesome Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$FortAwesomeAltLg>', $name, $tech)
+!endprocedure
+@enduml

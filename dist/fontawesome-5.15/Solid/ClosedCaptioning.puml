@@ -1,0 +1,16 @@
+@startuml
+sprite $ClosedCaptioningMd [14x14/16z] VSk50SCm30H0WHdq-q_RXZaveuXEM0x8SD1nrLFgi1JR61HYyfsPPOp4mH1ucM8_N5umInGqL79Uvr2qegXcV79-5vHE_W
+sprite $ClosedCaptioningLg [20x20/16z] {
+bSv50WGn24HHOa1DQEh-fnrtxxUBVkHFrV74I_35XYk4jkv9eZUDy_jZ36p79e-gU8RHfKNY58ZpMPTRyBQ7MwAAvUm9gR6eysYU6_skmSNwEFo5SHpfRvCl
+KFJPa7_j
+}
+!procedure ClosedCaptioning($id, $name="Closed Captioning", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ClosedCaptioning', $name, $tech)
+!endprocedure
+!procedure ClosedCaptioningCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClosedCaptioningMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClosedCaptioningGroup($id, $name='Closed Captioning', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClosedCaptioningLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GravMd [14x14/16z] {
+BKxL0KGn24k5Sdr8zj_sQlmH1r1dPgHtd9jaVgIN_JX9QwwUTScuJynxEkxprU1CZjoFOKZRrltyAhH3oSjqWKHPRv8Y1Y536KOQ1N5KsjSRBpaBQhACyt1l
+g-QNUKF7UaFtp3y
+}
+sprite $GravLg [20x20/16z] {
+HSq50eGm40F0REgQ___sgC0DsbLiJBNr4WqVLZs6DCiR3LgIqsEw6zeoHtPHMa7gQ2nZCciOK7MCqDHBaZBuXcX5AasQbdIGaJxiaw-doWEz0N5lQti-BCAH
+phhEWBNAAe0-3LqgTPVv7i0kJKyfhGcHim5DovGyxnTUrm3ApW93Lm9ihZ6ekZeUVgMAhaaiRex-LH67bRSeuSzyBYLv73y
+}
+!procedure Grav($id, $name="Grav", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Grav', $name, $tech)
+!endprocedure
+!procedure GravCard($id, $funcName="", $content="")
+  IconCard($id, '<$GravMd>', '', $funcName, $content)
+!endprocedure
+!procedure GravGroup($id, $name='Grav', $tech='')
+  IconGroup($id, 'IconGroup', '<$GravLg>', $name, $tech)
+!endprocedure
+@enduml

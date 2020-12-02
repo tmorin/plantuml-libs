@@ -1,0 +1,13 @@
+@startuml
+sprite $SquareFullMd [14x14/16z] uny6
+sprite $SquareFullLg [20x20/16z] unzKO1G
+!procedure SquareFull($id, $name="Square Full", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SquareFull', $name, $tech)
+!endprocedure
+!procedure SquareFullCard($id, $funcName="", $content="")
+  IconCard($id, '<$SquareFullMd>', '', $funcName, $content)
+!endprocedure
+!procedure SquareFullGroup($id, $name='Square Full', $tech='')
+  IconGroup($id, 'IconGroup', '<$SquareFullLg>', $name, $tech)
+!endprocedure
+@enduml

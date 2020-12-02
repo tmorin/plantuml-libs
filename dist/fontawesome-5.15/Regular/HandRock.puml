@@ -1,0 +1,16 @@
+@startuml
+sprite $HandRockMd [14x14/16z] HOo50K1124B1wvBzf_qTxr85S63CXOQRsEjIxHadGLEZQibNojqTezXnpIwjwKY16SbCAzl2GpWgZhzImqVKLFcg9kPlodEGrE-gY9SyyMJUNTVDdM3n1jW1
+sprite $HandRockLg [20x20/16z] {
+TT234S1054NHhpLU_zN6nXrbJjRqbnZxMfoO71Hn54GNChG4g4DF7K1XibZXgNHYH8ge5Ta3c2pF5YPZxkXmQR9v6MLY9Mv09OMZC-wh-PTHKheqhyTNMCP5
+bBiPCbLKkLg14MMqotgAjbtN7PQsGmHqFdROFpEyw9mOolkn3fDyL9G-6m4
+}
+!procedure HandRock($id, $name="Hand Rock", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/HandRock', $name, $tech)
+!endprocedure
+!procedure HandRockCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandRockMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandRockGroup($id, $name='Hand Rock', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandRockLg>', $name, $tech)
+!endprocedure
+@enduml

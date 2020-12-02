@@ -1,0 +1,19 @@
+@startuml
+sprite $AcquisitionsIncorporatedMd [14x18/16z] {
+VOnL0i0m24DJBp9o_zFEvM-l2YHf_8YKLLISL14PECbqV7H6_gfbsdoBojJZhTIHsV1aTC2UdC5y19KxWrGZvImQcp3wO09IMw8Y58DMaTrCzogRxkz5sFdy
+LccCqOMKuqKXFz86
+}
+sprite $AcquisitionsIncorporatedLg [20x27/16z] {
+bOy5ZaKn3CHIfgI-_srt7vFeMnIva1atUJ7awxf8quK9OAfZQ9A33b5UL0XlPz1UAj4wxka6Ff8VAg3Yi8Thovt-sEp0BNyEkSXB-AMIlvmIjuprL16qX52C
+wQvU1sSSZyKoeAU4dbNBad1vfwJ5j0bJNG0Nvp8NaJfQwrqM5thxdw-6WIlShyxpTGMkp-jKKpM0ESrioQAy62BsTYf_
+}
+!procedure AcquisitionsIncorporated($id, $name="Acquisitions Incorporated", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/AcquisitionsIncorporated', $name, $tech)
+!endprocedure
+!procedure AcquisitionsIncorporatedCard($id, $funcName="", $content="")
+  IconCard($id, '<$AcquisitionsIncorporatedMd>', '', $funcName, $content)
+!endprocedure
+!procedure AcquisitionsIncorporatedGroup($id, $name='Acquisitions Incorporated', $tech='')
+  IconGroup($id, 'IconGroup', '<$AcquisitionsIncorporatedLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $OperaMd [14x14/16z] {
+9Ot50S0m30CLvjp-spQkzHDBIkjoHeioDBXLvTmc1IDFZXkw1b2aHo-a2qS6qoVGdHL-L6V9MNEMdKrd5Sw16twseDT7Xu-OR1_D5xDjRTYbpfdaJtFlKQpz
+0G
+}
+sprite $OperaLg [20x21/16z] {
+VP3N0SD024Evthdzjur50kJBprscYa1UVE_bFJ8fQT-7tMjlwITLAElvQfkvkJJnDl0sa2XHVncLijIAz6MYLLYM2R84Ckw5b8C1hgLQii1az5Sjc3Ra6xTa
+6keVQT9jS_cgHvCjDLBH9NNafl-Q6-G9Cr1OpBPcPSalkGtVCjG5UJTPqed-_G4
+}
+!procedure Opera($id, $name="Opera", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Opera', $name, $tech)
+!endprocedure
+!procedure OperaCard($id, $funcName="", $content="")
+  IconCard($id, '<$OperaMd>', '', $funcName, $content)
+!endprocedure
+!procedure OperaGroup($id, $name='Opera', $tech='')
+  IconGroup($id, 'IconGroup', '<$OperaLg>', $name, $tech)
+!endprocedure
+@enduml

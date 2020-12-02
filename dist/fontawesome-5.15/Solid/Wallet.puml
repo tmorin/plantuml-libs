@@ -1,0 +1,13 @@
+@startuml
+sprite $WalletMd [14x14/16z] dS750S0W000ntE7sdxPkdng9yS5lWXMfSQWISZeechDkf-ZGOkEKHEOYywXoqQGs9pa2
+sprite $WalletLg [20x20/16z] hS6v0O0m30D0yMDRHFjlIvU_p1qcDcEm2Dg6KCyWVTw86v9XQm0Qf4kZf7LewgKDhjwvKSkv1e4dF2eUjc7Y1m
+!procedure Wallet($id, $name="Wallet", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Wallet', $name, $tech)
+!endprocedure
+!procedure WalletCard($id, $funcName="", $content="")
+  IconCard($id, '<$WalletMd>', '', $funcName, $content)
+!endprocedure
+!procedure WalletGroup($id, $name='Wallet', $tech='')
+  IconGroup($id, 'IconGroup', '<$WalletLg>', $name, $tech)
+!endprocedure
+@enduml

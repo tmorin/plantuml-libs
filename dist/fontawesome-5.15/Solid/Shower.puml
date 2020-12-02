@@ -1,0 +1,16 @@
+@startuml
+sprite $ShowerMd [14x14/16z] JSg52S1G40JHFR_ezjzjYFz17mmG5VZoZPj3RopaIkxS-pn8G_1iERK1TMFGhEwMftJdefLPbx2kKf4PkAG2Ft7gwiIWmA0Bu8eXjr47
+sprite $ShowerLg [20x20/16z] {
+ZSo5RGKm34NH5p25lF-sLQ2VwOgF0IzBfLK9ToG-wubDug7iFahprJ0DqwgF29YVqhJX2a0F2MRk3A3Tqh6wY8D2OjHjiearAvDj2tqUgg95CMn3SqRDgQ4I
+_etM1mqrOzk9cOJ3lIcH0lS6cNHlbV5aCJpPDQi9l_G7
+}
+!procedure Shower($id, $name="Shower", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Shower', $name, $tech)
+!endprocedure
+!procedure ShowerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShowerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShowerGroup($id, $name='Shower', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShowerLg>', $name, $tech)
+!endprocedure
+@enduml

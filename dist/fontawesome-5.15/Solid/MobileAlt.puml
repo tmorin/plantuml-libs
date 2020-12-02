@@ -1,0 +1,13 @@
+@startuml
+sprite $MobileAltMd [14x22/16z] pSS50G0n34FHPCpnh_OO7UmDsj_qqQNeBa4RWmj_PQOjxkL0OdzMkw5dd7BIgm3bhGOqxQfslP-1h4Vc2W
+sprite $MobileAltLg [20x32/16z] O-3aHmES224400lnmNW89ZC38nmmC4F46500tSH6nJ3Z0n5PV32A0E1cPEH65sDYO632BuQf5riQmfRM
+!procedure MobileAlt($id, $name="Mobile Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MobileAlt', $name, $tech)
+!endprocedure
+!procedure MobileAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$MobileAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure MobileAltGroup($id, $name='Mobile Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$MobileAltLg>', $name, $tech)
+!endprocedure
+@enduml

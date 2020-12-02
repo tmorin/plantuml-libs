@@ -1,0 +1,16 @@
+@startuml
+sprite $GiftsMd [14x11/16z] POpL0G0n24DhkEq_xNc_xbM191sDTRIFLHUwAxyhxxEtlbgh6vBowQLFPIl1qY37NK5K9UPrtHNkwm5OLQQewbCHCq---2lnJe4xuWG
+sprite $GiftsLg [20x16/16z] {
+XOw3eGL030I3ZrDs-g_ssPnZl6P_SltPBL6BmQguyVbYp_8Rt-H8k_6TN8f6fMNHBxxsGo_zg3g_9z-qXYSYdNRonJWs4C1ngbmt3nzyXKGT7kdeD8yTVdpY
+RTxt6ISnCMzyQmi
+}
+!procedure Gifts($id, $name="Gifts", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Gifts', $name, $tech)
+!endprocedure
+!procedure GiftsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GiftsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GiftsGroup($id, $name='Gifts', $tech='')
+  IconGroup($id, 'IconGroup', '<$GiftsLg>', $name, $tech)
+!endprocedure
+@enduml

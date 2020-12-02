@@ -1,0 +1,16 @@
+@startuml
+sprite $UndoMd [14x14/16z] LOo50GGm20CfTRtzj_t2-rM1912q7pWpYGXemvbgrOQUSpiSlHLBnHWihyRqUb5mabMPbHmn5EHB-AiIMxuCwhrZyA9oWWbMLatpcQmBvzp2o1DsDVq3
+sprite $UndoLg [20x20/16z] {
+ZOi54WGm20E1kkR_lxqQvxQrp9O0XOWav5AI5rfC9nc7nCTPJFg-xN9zncX4J9pH33V9jE42T5wkZXdUjWAHS4ZRoHnKLsYJ0PStnH_dPla90wH_d7_JBO1z
+hROdnGq8AwKgPsgekb84a9qnFWFeehzNj44S-pOzq0ssCQLWQNC1
+}
+!procedure Undo($id, $name="Undo", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Undo', $name, $tech)
+!endprocedure
+!procedure UndoCard($id, $funcName="", $content="")
+  IconCard($id, '<$UndoMd>', '', $funcName, $content)
+!endprocedure
+!procedure UndoGroup($id, $name='Undo', $tech='')
+  IconGroup($id, 'IconGroup', '<$UndoLg>', $name, $tech)
+!endprocedure
+@enduml

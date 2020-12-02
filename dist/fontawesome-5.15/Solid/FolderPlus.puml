@@ -1,0 +1,13 @@
+@startuml
+sprite $FolderPlusMd [14x14/16z] RSf50W1H209GMrV3_KyxNJ_UIW5gi1oURy4Xxm-NyjWf9ih_ttzJ9cpHVktoKu49yqyeDJO
+sprite $FolderPlusLg [20x20/16z] ZSp50S1G309GlgKE-qzRTt-t2E0ddnUZW4sj2NTBBHYT7pbeGusOT4KjmlLC-9jTE2rY240un1jCd7R86fxaNT_tJdMjHQMBmjbPmbyT
+!procedure FolderPlus($id, $name="Folder Plus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FolderPlus', $name, $tech)
+!endprocedure
+!procedure FolderPlusCard($id, $funcName="", $content="")
+  IconCard($id, '<$FolderPlusMd>', '', $funcName, $content)
+!endprocedure
+!procedure FolderPlusGroup($id, $name='Folder Plus', $tech='')
+  IconGroup($id, 'IconGroup', '<$FolderPlusLg>', $name, $tech)
+!endprocedure
+@enduml

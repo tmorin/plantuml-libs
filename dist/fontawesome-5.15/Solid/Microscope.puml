@@ -1,0 +1,16 @@
+@startuml
+sprite $MicroscopeMd [14x14/16z] LOw50S0m20IHkFt-snPIloZ-P7GWqOq268-LOFoinL4-bgKtVcDfOF1jsLjGlrsctxgingssVTmotPPa9zd7gtbRaMGWbbRBniGYuSS1
+sprite $MicroscopeLg [20x20/16z] {
+ZOu50iGm20I1QdJ-_zeJmhbE6yDsnIbGvP4T83s43CV-ZkbhRAEipx4TgFOOcrA3RlUnQRYgJxeUN9xgH3ivpfk_JFFJCfH9d0GImHmXAKD4LNsBEUbqB0Jh
+Q9szCn3H35biJsaFKkb0qiOBddcY7W4
+}
+!procedure Microscope($id, $name="Microscope", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Microscope', $name, $tech)
+!endprocedure
+!procedure MicroscopeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicroscopeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicroscopeGroup($id, $name='Microscope', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicroscopeLg>', $name, $tech)
+!endprocedure
+@enduml

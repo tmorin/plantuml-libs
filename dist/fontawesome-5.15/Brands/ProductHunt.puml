@@ -1,0 +1,16 @@
+@startuml
+sprite $ProductHuntMd [14x14/16z] 7Og74S0m4C9mx_p-suOWD-dU0FAcE1LcXJa9uieCCx8cF6TVvVMt0z4adQwhipKCrukd4gwKK4BGrUVwvHqNmuogV9CE9cIRgG3o3KF5JrE_aMGV
+sprite $ProductHuntLg [20x20/16z] {
+POw50S0m20GVuiJsdxO6zQlcK1nmabfB95omJAEOHPWtmvbwiKkURpe1edsOYEAO6zdIiWtRvQ1aBiyn_FRUy6AkR6z1F0xLN1gzUvIZUNtrqyN5734xdJjJ
+l6PSUFwv3cqhB9TB08tvec73lzHWxBZ-o68eb8Sb9ToGpwKa3sK5
+}
+!procedure ProductHunt($id, $name="Product Hunt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/ProductHunt', $name, $tech)
+!endprocedure
+!procedure ProductHuntCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProductHuntMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProductHuntGroup($id, $name='Product Hunt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProductHuntLg>', $name, $tech)
+!endprocedure
+@enduml

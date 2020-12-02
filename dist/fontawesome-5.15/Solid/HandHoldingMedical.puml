@@ -1,0 +1,16 @@
+@startuml
+sprite $HandHoldingMedicalMd [14x12/16z] NOp50S1G24FvDPpiFstTtmbYjA5mkk0geEJy51jsVZq7aeVZ-VLMTteSQcyZiD5Jdy5Iso1pcm37Zgi6m8IRN9VoUdJRMW
+sprite $HandHoldingMedicalLg [20x18/16z] {
+XOw50K0X24HF1MpPVzhVdS-a3pDMLItEk9lFEHbyuexUfZDrTvdLrypkh8klOCTQ7ZnipMskmnbRQx6uOl2BotLWgPOQ07XTOPWuF2cLMIuJERXHQT2Lw4E8
+Kn1weLXSVG6u-39Xf0S
+}
+!procedure HandHoldingMedical($id, $name="Hand Holding Medical", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandHoldingMedical', $name, $tech)
+!endprocedure
+!procedure HandHoldingMedicalCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandHoldingMedicalMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandHoldingMedicalGroup($id, $name='Hand Holding Medical', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandHoldingMedicalLg>', $name, $tech)
+!endprocedure
+@enduml

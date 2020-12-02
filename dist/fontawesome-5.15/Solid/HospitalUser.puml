@@ -1,0 +1,16 @@
+@startuml
+sprite $HospitalUserMd [14x11/16z] HOk54S103CFyZ8dstxPNLXYi1f3rC9YByWmR3ncwGWeIi0rMS3mAxFHvoeVOiY5cvNo7ZM-MXezJj_153pddU7-6MJYfu6VPy5CN9tu
+sprite $HospitalUserLg [20x16/16z] {
+ROu53WGn30EpMBR__zkJ5VbuogC68YR5Z7UOlAkDNFiYDukCt6CdETuZzI-ZAr3JcQZQgnoH2nla85UZQlrpxx7cRms4SMpZSIsCWNKzNQ-d0ou5KUpJRZ5n
+9vySrRVw
+}
+!procedure HospitalUser($id, $name="Hospital User", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HospitalUser', $name, $tech)
+!endprocedure
+!procedure HospitalUserCard($id, $funcName="", $content="")
+  IconCard($id, '<$HospitalUserMd>', '', $funcName, $content)
+!endprocedure
+!procedure HospitalUserGroup($id, $name='Hospital User', $tech='')
+  IconGroup($id, 'IconGroup', '<$HospitalUserLg>', $name, $tech)
+!endprocedure
+@enduml

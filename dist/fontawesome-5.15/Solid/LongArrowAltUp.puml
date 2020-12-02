@@ -1,0 +1,13 @@
+@startuml
+sprite $LongArrowAltUpMd [14x28/16z] tSsr0O0050FHhy79_jFY3XDmtQjEFZA_84XSGHONxDn1OiVEx7XcNh7dKizcVgdFW9eiwQoKBVk1T5R8deUxl1i1
+sprite $LongArrowAltUpLg [20x40/16z] xSYr0GGX00J0nHtwh_R_58t8pYOSp19YA9UI6IjdNJbpvSoLiwcSkThKgIC1svy2Q4WnveZ94s1PIiG-Z52A4zkFvBZjVGTb5X9p_W
+!procedure LongArrowAltUp($id, $name="Long Arrow Alt Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LongArrowAltUp', $name, $tech)
+!endprocedure
+!procedure LongArrowAltUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$LongArrowAltUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure LongArrowAltUpGroup($id, $name='Long Arrow Alt Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$LongArrowAltUpLg>', $name, $tech)
+!endprocedure
+@enduml

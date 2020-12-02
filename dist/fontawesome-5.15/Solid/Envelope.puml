@@ -1,0 +1,13 @@
+@startuml
+sprite $EnvelopeMd [14x14/16z] XSor0SD040J0vp_U_gkrnH1feiDDBxayfC23uuMVorcBNdUrGmljZHG64BsjrwCU6LHOwy39UXDyQVqsQdhv0m
+sprite $EnvelopeLg [20x20/16z] bOw50S0m20G_hi3-qzRTUr7yyH4Tqu6egfp8SW6TNGNbw4hm27kNwnm5XbTFLSDKDbWcHJWP2V33onPfKw6x-MMu5zZ2MlYZAEUg_AISNKdv8mvVQG4
+!procedure Envelope($id, $name="Envelope", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Envelope', $name, $tech)
+!endprocedure
+!procedure EnvelopeCard($id, $funcName="", $content="")
+  IconCard($id, '<$EnvelopeMd>', '', $funcName, $content)
+!endprocedure
+!procedure EnvelopeGroup($id, $name='Envelope', $tech='')
+  IconGroup($id, 'IconGroup', '<$EnvelopeLg>', $name, $tech)
+!endprocedure
+@enduml

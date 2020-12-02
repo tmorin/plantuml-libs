@@ -1,0 +1,16 @@
+@startuml
+sprite $TwitterMd [14x14/16z] RSU50KCn24NH5yLX_sdhtdyYSF7K6ju6KqDZliMkglJjfUrIMLURBrFck8LXMxq8jDu8ZTurW1RFK5p88xBZQjrhNbVss-u35ts9kV74WJC
+sprite $TwitterLg [20x20/16z] {
+XStL0S0m20HGh1h2xJzjtVNzeKS_M8KcGgig05UfHC9eLcFMi0Bbl8-5cm18ElGCYs4bOU2rLPXb8Yu29qwakFHQMcutSw8uJeG6vfVJGNLPcpJOLRIG5ejc
+QzLnRbcRiSYsRLKfHuGtHYSiJ3zw
+}
+!procedure Twitter($id, $name="Twitter", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Twitter', $name, $tech)
+!endprocedure
+!procedure TwitterCard($id, $funcName="", $content="")
+  IconCard($id, '<$TwitterMd>', '', $funcName, $content)
+!endprocedure
+!procedure TwitterGroup($id, $name='Twitter', $tech='')
+  IconGroup($id, 'IconGroup', '<$TwitterLg>', $name, $tech)
+!endprocedure
+@enduml

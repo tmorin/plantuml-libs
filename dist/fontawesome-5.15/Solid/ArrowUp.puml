@@ -1,0 +1,13 @@
+@startuml
+sprite $ArrowUpMd [14x16/16z] bSU50S0m4090uXxsdxRktbSE5vNI5cJQekEAWJFoC6c4LwJo7Ni4Q58ZT7IC68L81uLPGro5lvArIfoh1G
+sprite $ArrowUpLg [20x23/16z] lSe34i0m04JHhMBS_xH5x77ZlFbO3KewujQodZ9c2fWf3DfJA0CPuxUbkJgLjV8CPI3erq0yik-w0FMPHo8z1GFzmarPWcml2c3RKHhyjpRyRgArdP0DY_4
+!procedure ArrowUp($id, $name="Arrow Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ArrowUp', $name, $tech)
+!endprocedure
+!procedure ArrowUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowUpGroup($id, $name='Arrow Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowUpLg>', $name, $tech)
+!endprocedure
+@enduml

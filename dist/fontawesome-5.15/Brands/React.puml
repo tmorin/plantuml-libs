@@ -1,0 +1,19 @@
+@startuml
+sprite $ReactMd [14x14/16z] {
+HKs50SH020jwWTh-q_xNYsi2m8O1EWAdi4f1bXoD4jgJ8GFd8L2jYAkRScuksGausKtHs2ELZfXathIEznJu9EjcUuVEIdQeMrMM0p5puLWuyUGRq2f7V7op
+81A770-w1pqxSG7WH_C7
+}
+sprite $ReactLg [20x20/16z] {
+TP05ei0m24EfboHizx_jB_jkzJuS-sSqOfwhRAA-CutggYrsNNX3DHyzeXrLlPiY3waSnf8a7sTVOqK-t_K2l0J41KPDqWdjoNogGnbwHZzOjOcbam-8T2et
+tJTCo3IaT10mthURcCxKDQs3lS1j0irsDAjW-98z-I2udmnhkCT5td8eIJAcop7rDMUaOKIU_AetfV6b1yRLoLA5vdXd5HXvJtYnVyOB
+}
+!procedure React($id, $name="React", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/React', $name, $tech)
+!endprocedure
+!procedure ReactCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReactMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReactGroup($id, $name='React', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReactLg>', $name, $tech)
+!endprocedure
+@enduml

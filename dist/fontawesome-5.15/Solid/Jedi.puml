@@ -1,0 +1,16 @@
+@startuml
+sprite $JediMd [14x12/16z] 9Ok55GCn3CKKvcZ_RTkyC_i3x0av__S2kWrg_ewa4sg1vOr5pRHALLE-UkYLjzDKAxtHr57qKkxDuLcOdZ2qnsk7_rNIFR7wlh0rh-TO067gYy4NiPtTuhj-
+sprite $JediLg [20x18/16z] {
+BOxN0G0X24C1FRja_ssFgEyZz291if3yXLYMIq49_OwWXjA2VOMHuTJLNwxTm4sq0U2MoboAe4lrC2F2raCw0YsRfjpSXs2h5P0aVOY1L5wumsE-KTG5efh6
+J7exIc5oYKmW6iVP9xeOjGruv_0saUnXnTQ9GftFyfaIZTuq8tBAt_qar-O8lmfkSZectYJHZiVWuCFgS1_LRlG3
+}
+!procedure Jedi($id, $name="Jedi", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Jedi', $name, $tech)
+!endprocedure
+!procedure JediCard($id, $funcName="", $content="")
+  IconCard($id, '<$JediMd>', '', $funcName, $content)
+!endprocedure
+!procedure JediGroup($id, $name='Jedi', $tech='')
+  IconGroup($id, 'IconGroup', '<$JediLg>', $name, $tech)
+!endprocedure
+@enduml

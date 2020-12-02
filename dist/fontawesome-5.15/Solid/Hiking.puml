@@ -1,0 +1,19 @@
+@startuml
+sprite $HikingMd [14x18/16z] {
+FOt50KCX04E3Es__RVknvXRNGMLOFHWWw8_6F5xgMP8pjq6NAoVdW6I18lcG09TOr4qgJDEucD2qdB9OdKI_twmTo3W5OBrzRA50USncrKKFyvH5_M6P8NrZ
+XtMApBZCBjdCn_PytxqV
+}
+sprite $HikingLg [20x27/16z] {
+NT476e8m44JXzBvvzp-jIe9B6QNzx3Sqeqb0CCzqe3x9JM2-vWJeBmiJSLe-fAqTR-_Tq_v4XqnczTWEuwy38A_frUTAT1pn5awi45ct5TYPOqBTTOLRphgz
+QQ1nTczCAdb0g0CngrNCaGg_jRNRcfe-36BlPgsYMXH5jSBOM2yRK5Udg5aWhOyqrIBWNrRs_QfftSi4uguGjN0-LYCSP_eN
+}
+!procedure Hiking($id, $name="Hiking", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hiking', $name, $tech)
+!endprocedure
+!procedure HikingCard($id, $funcName="", $content="")
+  IconCard($id, '<$HikingMd>', '', $funcName, $content)
+!endprocedure
+!procedure HikingGroup($id, $name='Hiking', $tech='')
+  IconGroup($id, 'IconGroup', '<$HikingLg>', $name, $tech)
+!endprocedure
+@enduml

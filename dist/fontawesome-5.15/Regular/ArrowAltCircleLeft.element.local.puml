@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the ArrowAltCircleLeft element
+include('fontawesome-5.15/Regular/ArrowAltCircleLeft')
+ArrowAltCircleLeft('arrow_alt_circle_left', 'Arrow Alt Circle Left', 'an optional tech field')
+@enduml

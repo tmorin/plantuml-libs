@@ -1,0 +1,16 @@
+@startuml
+sprite $BaconMd [14x12/16z] HKo53S1027ntkFstBPQK2EV9hpxWvI1TSAzlkGFCTW4oTh74vPtTUk8knMQDZHLp5oIMEUr1o0sBGRCUa9VchakKalmAWpqMxey_
+sprite $BaconLg [20x18/16z] {
+LO_50K1H283Kryd-q_vERcBB5qra-M65ZVXLSJSpQNXL1aPGrodVgYo-it7Fcf3aCFDkBb1ax2RhVSHaQjrC_2t81hXN1S0sdnwpHvIZ_JAkiT6aSXzshD-Z
+mbjs6DjtyZpLg6fv_fvNiyB6yFB1xoR9dp32Nwm
+}
+!procedure Bacon($id, $name="Bacon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bacon', $name, $tech)
+!endprocedure
+!procedure BaconCard($id, $funcName="", $content="")
+  IconCard($id, '<$BaconMd>', '', $funcName, $content)
+!endprocedure
+!procedure BaconGroup($id, $name='Bacon', $tech='')
+  IconGroup($id, 'IconGroup', '<$BaconLg>', $name, $tech)
+!endprocedure
+@enduml

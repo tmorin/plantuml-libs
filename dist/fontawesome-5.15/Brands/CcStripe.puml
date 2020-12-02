@@ -1,0 +1,16 @@
+@startuml
+sprite $CcStripeMd [14x12/16z] TSQ50KGn30BGIgGMs7_QS_to8Z09adWy3Xv0l4eiN-W3mG1Nzch5j4gJ2gZeb55ivAeH8ge-fCWG8y6xPNpLKps-qDAVAm
+sprite $CcStripeLg [20x18/16z] {
+fOo35KDH342ZXtZ_RMltyD-Oy0VB7sOVfFBixFsDnSACK4ttxh2p2Ou9ar240QOXhKilbZJuPjw1p8BdN-kS55vwov1fQ_j0tkVRSqy0LY3jxehgpEfgcdKh
+tx3imzIo7mJ-S08
+}
+!procedure CcStripe($id, $name="Cc Stripe", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CcStripe', $name, $tech)
+!endprocedure
+!procedure CcStripeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CcStripeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CcStripeGroup($id, $name='Cc Stripe', $tech='')
+  IconGroup($id, 'IconGroup', '<$CcStripeLg>', $name, $tech)
+!endprocedure
+@enduml

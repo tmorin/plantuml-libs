@@ -1,0 +1,16 @@
+@startuml
+sprite $FireMd [14x18/16z] LS_50G0W30F0uaxsdnRN_0wfK0-7fnkFTC41w2FT1F4fooM1aKuHE5bWFOwzW1kAP6OvFwZY51_oc6AvA_NdJGedKQ-YCUA9qwy4XGlNgfstSqSxg_T65G
+sprite $FireLg [20x27/16z] {
+PT053i0W30NGuiw__ssN8abN_fI7GoS1qv1A0PmY3o0eQm3gdopmD0pWJ2SjOgFNxJW2pRmOThdutL2qx1X4bAxnTZBO-7jIo4usJhbe4wxHE9RwCJ5adNjO
+iN0CiT86cM55CyovFoLttBIA9pc-vcXeQhnx5ITtBmyhQUAuTgNQGwoyl9xTBdq
+}
+!procedure Fire($id, $name="Fire", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Fire', $name, $tech)
+!endprocedure
+!procedure FireCard($id, $funcName="", $content="")
+  IconCard($id, '<$FireMd>', '', $funcName, $content)
+!endprocedure
+!procedure FireGroup($id, $name='Fire', $tech='')
+  IconGroup($id, 'IconGroup', '<$FireLg>', $name, $tech)
+!endprocedure
+@enduml

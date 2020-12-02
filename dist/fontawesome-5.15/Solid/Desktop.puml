@@ -1,0 +1,13 @@
+@startuml
+sprite $DesktopMd [14x12/16z] dSor0G0n243HkCFVVzfpRVCQ7AG_5B9vL2YJrVzBy-7MKJx4nU1TWUoseTtMK-xGSpI7pg5jwGe
+sprite $DesktopLg [20x18/16z] rSY50O0m40F0Qa8r-s-BEmjmxr_rCkWJVRZmq2IO6_-7NoqtLLzQ04aGRTe1S6BDodQfJySXzjOrcGQEdmxBRmG
+!procedure Desktop($id, $name="Desktop", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Desktop', $name, $tech)
+!endprocedure
+!procedure DesktopCard($id, $funcName="", $content="")
+  IconCard($id, '<$DesktopMd>', '', $funcName, $content)
+!endprocedure
+!procedure DesktopGroup($id, $name='Desktop', $tech='')
+  IconGroup($id, 'IconGroup', '<$DesktopLg>', $name, $tech)
+!endprocedure
+@enduml

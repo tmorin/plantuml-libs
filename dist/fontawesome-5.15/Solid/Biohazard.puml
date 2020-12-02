@@ -1,0 +1,19 @@
+@startuml
+sprite $BiohazardMd [14x12/16z] {
+9SU50G1H209GZDyg-qzx-Km071LtiOENqZSv6mKFOHfWLVA6ITOvnHe2ApuY-2WzqmSJA0vVMoN4IhtK0Whan24tTk3HQ8kSJiEhUv2dTVmMvzFudJ30SmEu
+0G
+}
+sprite $BiohazardLg [20x18/16z] {
+HSY54S0m30D06SAEjV-svUiV270PYfiCV3o_jilN9k5ZhL6G2wz5gynaKyR_XG0GYVyRv7OH3tBYvYlvMmv8usDlFZg2COFa0YPvZpeBLEmiW7ERA4e0oW7D
+iomgEXKAO2VGcCd-z4jZXVDKKDdns3JZoPKfU1YjyTIL1dmqcSbK_3oPfflf-5H64q1giE5q
+}
+!procedure Biohazard($id, $name="Biohazard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Biohazard', $name, $tech)
+!endprocedure
+!procedure BiohazardCard($id, $funcName="", $content="")
+  IconCard($id, '<$BiohazardMd>', '', $funcName, $content)
+!endprocedure
+!procedure BiohazardGroup($id, $name='Biohazard', $tech='')
+  IconGroup($id, 'IconGroup', '<$BiohazardLg>', $name, $tech)
+!endprocedure
+@enduml

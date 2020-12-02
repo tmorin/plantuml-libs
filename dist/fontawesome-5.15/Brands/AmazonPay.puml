@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonPayMd [14x11/16z] NSm5OGHG342nL_X5_tgtOug0yEDaSCeSDP2LTiagImTfiZ9Bkm3PREyeDW0P5LIH5W1xP8whXVBWrTXiXVl9INV0QdSd3U7RFm
+sprite $AmazonPayLg [20x16/16z] {
+ZOk5eKKX3CM2rU7kF-rtrnUqH_YDzdAz2-4LZCnitfa6q4-db4OkDqAVj09ptFRgsQezQHl2t4WXt7ZkkkzcALjOrtZMzfG6Q_R6I5uqNfcrU6QyQuk-f0th
+V6Hg6JDZjNV9fmgW-rIOgdgTagRjnQrpNQTi0erRkGS
+}
+!procedure AmazonPay($id, $name="Amazon Pay", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/AmazonPay', $name, $tech)
+!endprocedure
+!procedure AmazonPayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonPayMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmazonPayGroup($id, $name='Amazon Pay', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmazonPayLg>', $name, $tech)
+!endprocedure
+@enduml

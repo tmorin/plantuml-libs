@@ -1,0 +1,16 @@
+@startuml
+sprite $WonSignMd [14x12/16z] NSJ50KD1549HleuyXjj_jT5LSX1bI5f-dTTt1-mIKnMg3AuYqsQPbmhsrPXNLjPLj8iVn-uqhfixSp-abefs9gTU3YZ9iEbb2qsQM1yZXtJHzUy9
+sprite $WonSignLg [20x18/16z] {
+TS-30GKm34NHLpEv-q_xRPpQZNufFivDt1RFxV0cLJpet51FJN3QgOOaQS8yDGcYUdTMFzVugLamEZ-CiV5BvUmnBbMC5KzXC2SZ9AV6o0_k3k_5GzHWP2n6
+8m-6Of2KMOqbBTgYw29WcoOrjX5rjO5ytW-ccm4UBh4oTLDXt_PNtSIvohajQqRzSGG
+}
+!procedure WonSign($id, $name="Won Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/WonSign', $name, $tech)
+!endprocedure
+!procedure WonSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$WonSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure WonSignGroup($id, $name='Won Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$WonSignLg>', $name, $tech)
+!endprocedure
+@enduml

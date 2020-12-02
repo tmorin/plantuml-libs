@@ -1,0 +1,20 @@
+@startuml
+sprite $EmpireMd [14x14/16z] {
+5Kx50S1020jIv8pzjotaWqO0a7hZ8mmaxbDvBsM6LOi1pjeAzVY0N826SmPO4Gl2SDiNNl5ULEBalGIfXW9ttqVWrvFCj2zvPUjNzEUeVAEYqYgVkmAv0V5W
+qbt90CMuzwvPmlVb36XUU2VYRdy
+}
+sprite $EmpireLg [20x21/16z] {
+HP090iGW20FZ7LJC_t-xqhsczxGL28BKEZdOMqRmLeEJu-xzAmkvjN8okR5-r9Ii08b7Y-sgVDLAG8alxCg2qZdgLN35MdLmO5W7mYt7SzEiSXBO2sbxXfs4
+lWQNa5pRfRDr2joDxb7R5KJDAT8tBYkKfoWTpcEGes1SkGwv3jBHsfARLB7TdhhJthsC7NLxPqSGxg6nvauR_paYivXyoYE1g_AAUPyGJDhrCPgXGiOmkvIf
+pOzwfs4STsy9Vt9jhNw_UG4
+}
+!procedure Empire($id, $name="Empire", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Empire', $name, $tech)
+!endprocedure
+!procedure EmpireCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmpireMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmpireGroup($id, $name='Empire', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmpireLg>', $name, $tech)
+!endprocedure
+@enduml

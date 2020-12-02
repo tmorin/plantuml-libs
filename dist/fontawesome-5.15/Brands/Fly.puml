@@ -1,0 +1,19 @@
+@startuml
+sprite $FlyMd [14x18/16z] {
+JOt50G0n3CDKvdh_QO-X-YKc88mvr9ldf4ZUQuQUW2XLWfGO3heKpsiGAqQIEw-9RTZ_CWs6v6-dRv2bV5wL6i5CzVFohdDFEAzf-ZrVLRnIoTnqvTag3sP8
+ZGyxEmk6bHYMmslQHPBkiHq
+}
+sprite $FlyLg [20x27/16z] {
+XO-5aG102CJst4d_rRuSxven9hYUATi0R6UzaZQS1OSTvLHWgS2A4w_CW0KLeAfpAm_GTTsHrl8oAEw8oaIfUUmkIrQb0H3SKQJTVt3DBo6zzGOhKWIexWWg
+14aB6EwsTCRz33ZkkkejyotbkXXekeJp-g_sSkNTCKFg5lHAXPvPbQHt6jQP57saOr3rcG5D-YfT_Kih-ag5_4K5W_tL0KTVA6PlJpm2
+}
+!procedure Fly($id, $name="Fly", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Fly', $name, $tech)
+!endprocedure
+!procedure FlyCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlyMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlyGroup($id, $name='Fly', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlyLg>', $name, $tech)
+!endprocedure
+@enduml

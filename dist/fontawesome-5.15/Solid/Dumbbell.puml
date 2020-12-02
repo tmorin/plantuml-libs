@@ -1,0 +1,13 @@
+@startuml
+sprite $DumbbellMd [14x11/16z] HKq55aCn24iTUylzRplAv5U1682sEz3pkJKE5H1AbkEbrIb5E2VZXpdNfXzQxqOn7jwkLcBPUfun2fEPtQERj6ztb3D3VWce_2u36FV16m
+sprite $DumbbellLg [20x16/16z] ZL1L0a0X27FVnkv_sXTIFmOc3LkP2_xvQcpskPFa9yW7SMAORQ2nYM0s4nSsg80I8aMGPUB2jifDzbtDlC2svc35rGi
+!procedure Dumbbell($id, $name="Dumbbell", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Dumbbell', $name, $tech)
+!endprocedure
+!procedure DumbbellCard($id, $funcName="", $content="")
+  IconCard($id, '<$DumbbellMd>', '', $funcName, $content)
+!endprocedure
+!procedure DumbbellGroup($id, $name='Dumbbell', $tech='')
+  IconGroup($id, 'IconGroup', '<$DumbbellLg>', $name, $tech)
+!endprocedure
+@enduml

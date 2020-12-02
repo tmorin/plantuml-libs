@@ -1,0 +1,16 @@
+@startuml
+sprite $BezierCurveMd [14x11/16z] FKk50GD120k7lXpilsrJUvm81C2AK2wWEXUkcOjG7pFJUVBBvXbReuYTbReJq36eVXRZAdmYRmxnnVav1DhTdtVjRlEPhq5vk77eyqbMVdrHAIy
+sprite $BezierCurveLg [20x16/16z] {
+ZOq50iKm24EXRFMI-vzsmgVVBTKNZAQORzyOJrYXYiMv0KrMJZYKU9M3AqmntcupMoZJA-7CuvX8aENi9nb2oVgp3hxCvQ4-lI2GAw2GIS_NLTGU3fv_WmP5
+Cxu1JhdbyAVtlXynpxaJTW
+}
+!procedure BezierCurve($id, $name="Bezier Curve", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BezierCurve', $name, $tech)
+!endprocedure
+!procedure BezierCurveCard($id, $funcName="", $content="")
+  IconCard($id, '<$BezierCurveMd>', '', $funcName, $content)
+!endprocedure
+!procedure BezierCurveGroup($id, $name='Bezier Curve', $tech='')
+  IconGroup($id, 'IconGroup', '<$BezierCurveLg>', $name, $tech)
+!endprocedure
+@enduml

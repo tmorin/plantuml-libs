@@ -1,0 +1,19 @@
+@startuml
+sprite $KissBeamMd [14x14/16z] {
+9Oo75G8m20Kl7V25l_-s6Znw1PhTp6kDnvJYd4YjAgBnS6rE1eygkzHwEbWEqXNuyj5Z1QOyTDeFEakvws_zNvBp-BnWajgRtG5aM0rhPdgd_hypxRfDtyko
+2kX-KnaT-08
+}
+sprite $KissBeamLg [20x21/16z] {
+JT25aGKW34NHHt3BxR_R7RBspoWIrPFQTl3Ja_xqI_2Hf60NJc-rR_2Y9pidAzY2AYbTvaSMoBB9qeV1rWIJxHcVNevBSOPqdVdYhfiQ2uhQLZgcKpI73239
+JCf9MKelEEv2DeMuCuLsfu8JJOP2YRxXh-FcywVhEI3hgHwz9oUdmVcCZR5qsEd5HEp4BPR0hP8bgHmywqaRVFM-78xfHzc4K_N1IclLfF05
+}
+!procedure KissBeam($id, $name="Kiss Beam", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/KissBeam', $name, $tech)
+!endprocedure
+!procedure KissBeamCard($id, $funcName="", $content="")
+  IconCard($id, '<$KissBeamMd>', '', $funcName, $content)
+!endprocedure
+!procedure KissBeamGroup($id, $name='Kiss Beam', $tech='')
+  IconGroup($id, 'IconGroup', '<$KissBeamLg>', $name, $tech)
+!endprocedure
+@enduml

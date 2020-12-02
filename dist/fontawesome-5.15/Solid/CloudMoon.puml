@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudMoonMd [14x12/16z] HOp50S0W0CHmX-m_ROkJtwcOo0f673B4ApJWhh9FIMjqZ9Hx49spXA4S4vifqUksL333gd1a_-6Y-YmTiJx34baDyGC
+sprite $CloudMoonLg [20x18/16z] {
+POx50O1030GZm7cs_sfnE9jV9hPKaL1WGYqR0DD9OUcK681C7HudldVfSgvtvNAXrgn2eMJ0-5FkliGi-HzSSP4C6nl2Cndn8H6mw0CjLjspuX8gaK-PbD1Y
+LmBgt1UwTzlm5JMprYz97dK
+}
+!procedure CloudMoon($id, $name="Cloud Moon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CloudMoon', $name, $tech)
+!endprocedure
+!procedure CloudMoonCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudMoonMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudMoonGroup($id, $name='Cloud Moon', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudMoonLg>', $name, $tech)
+!endprocedure
+@enduml

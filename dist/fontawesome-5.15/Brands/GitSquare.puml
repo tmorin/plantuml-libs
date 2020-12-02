@@ -1,0 +1,16 @@
+@startuml
+sprite $GitSquareMd [14x16/16z] XO_L0SLG24FXEfhzfttkqfuVN4B43uWM4ZSI2xia6-Bc9b9ojii2gRL9MOKlEuf81UleE3DBKx3TeiRTdARGl7IEJkOElopjetSyYSHlthz-LtG4
+sprite $GitSquareLg [20x23/16z] {
+bOo55GCn5CFy8KpxRziUCoaiFmSda0yx758x4DfdKZwe3FdxdNJnxylSSY6cv5DYg1-KXH1SW2IQN8LfyLzY_gUr3J05-JlYPkR__Yr9_sZjcAoF_pgI1-da
+2B39kTJ2VtKKX9QWRKrLC4bfMqh-c-_KS7GUQdSeplW1
+}
+!procedure GitSquare($id, $name="Git Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GitSquare', $name, $tech)
+!endprocedure
+!procedure GitSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitSquareGroup($id, $name='Git Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitSquareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $YoastMd [14x16/16z] {
+HSU70GGX20NH0TEXj_x-gzqSnW2FjrhvAXh7_pkA5Ag9-dF3p5pJMkkGmw4ge0VaOndA404i4zV2hIPlQezSyPS_eak3LqKgdroJKzs0gdOfHx6g9UMSInvu
+oPh9wnbWsRZR
+}
+sprite $YoastLg [20x23/16z] {
+XOs55KGX4CG6Tz9_j_Vst7_m03jwmNklDznckpUNeLqs_OOR48FaHeynfMW4c6h3jQex1OhKshIqCPAv2LvoqvmMjWJeTjhp-Yb85TB3kKsHMoptSEfCHQXw
+E3kx1k7XB8LgGI-k09HNvytvLwS1NM-kGxmxTmkPkhdQRndfxjHc3Rx3yFaAKcoXmdAXNQaooYewu0G
+}
+!procedure Yoast($id, $name="Yoast", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Yoast', $name, $tech)
+!endprocedure
+!procedure YoastCard($id, $funcName="", $content="")
+  IconCard($id, '<$YoastMd>', '', $funcName, $content)
+!endprocedure
+!procedure YoastGroup($id, $name='Yoast', $tech='')
+  IconGroup($id, 'IconGroup', '<$YoastLg>', $name, $tech)
+!endprocedure
+@enduml

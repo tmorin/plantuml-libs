@@ -1,0 +1,16 @@
+@startuml
+sprite $LockMd [14x16/16z] jOV50S0m4CF2d6Z_QSjCl-h0bXWm1OeHCvu9Fuc65a83FLgSKaCSBPC_GyhP0WS2lnDEqWC
+sprite $LockLg [20x23/16z] {
+rOnL5iGW40HnP_h-jzsHTVzD9K2zaNPAw1lOpRiR1GQbQodZogNe2RBOzN56PH_IcopPQgoawO5htMeBc6RRxFzQO5i-U4Pgd9o9m92YjYFXXOK3ibzBCwpN
+qWa
+}
+!procedure Lock($id, $name="Lock", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Lock', $name, $tech)
+!endprocedure
+!procedure LockCard($id, $funcName="", $content="")
+  IconCard($id, '<$LockMd>', '', $funcName, $content)
+!endprocedure
+!procedure LockGroup($id, $name='Lock', $tech='')
+  IconGroup($id, 'IconGroup', '<$LockLg>', $name, $tech)
+!endprocedure
+@enduml

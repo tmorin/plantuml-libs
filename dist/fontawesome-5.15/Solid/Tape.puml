@@ -1,0 +1,13 @@
+@startuml
+sprite $TapeMd [14x11/16z] HOk50O0m30H3tM__QO7wLVCY8ifQ9OidyHFNL1YaCGHeFW2kJnLC2Wvodw1ui9NIfqOpETdbHIZErTLxAeCY0rMu_BFnFo7ynty
+sprite $TapeLg [20x16/16z] TP255GCX40LnPzD_jxd_S1jy5cTtX4j4oOb9wLz5dsf8GSDHNUumC48OjAwu32M996Gg3c7n1RB0uhSxrvvdd7SvxsmO1ukasjG_gBQw0fzWVm
+!procedure Tape($id, $name="Tape", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tape', $name, $tech)
+!endprocedure
+!procedure TapeCard($id, $funcName="", $content="")
+  IconCard($id, '<$TapeMd>', '', $funcName, $content)
+!endprocedure
+!procedure TapeGroup($id, $name='Tape', $tech='')
+  IconGroup($id, 'IconGroup', '<$TapeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TripadvisorMd [14x12/16z] VKhL0KD120kS7vBzf-tptw8ntAMAhwebcRkSS9WpYaXDklLogcc0nqxgTeZaNDUBoJ9u1NIorylbL5BEL-WR5PjSvpFJzE59tayWqmPwn_a4_-e
+sprite $TripadvisorLg [20x18/16z] {
+bSTN0iGW28JXGMmGPEv_sksRyfW_KR_1lRJFsLMmLopvAQsyj_cqvEfQYhP5shGna-ywNhMFKujncIqwOColuhtUkrNQLvr4YIZ8Y8yKcTpWl5osNtuM1UOY
+IUPN36S881l9lwhqbuDy_ryD06fhkM8BgBzKSII2kpq1
+}
+!procedure Tripadvisor($id, $name="Tripadvisor", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Tripadvisor', $name, $tech)
+!endprocedure
+!procedure TripadvisorCard($id, $funcName="", $content="")
+  IconCard($id, '<$TripadvisorMd>', '', $funcName, $content)
+!endprocedure
+!procedure TripadvisorGroup($id, $name='Tripadvisor', $tech='')
+  IconGroup($id, 'IconGroup', '<$TripadvisorLg>', $name, $tech)
+!endprocedure
+@enduml

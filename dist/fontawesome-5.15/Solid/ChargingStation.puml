@@ -1,0 +1,16 @@
+@startuml
+sprite $ChargingStationMd [14x12/16z] HSV70GGn24MnXyVPmE-_sir1DrrwEM35h2h6UgtEMQiMrsixurHrpD8X95MjHjU19QqgUP5o6kVmsDoFXRFtOo-dYFKVgcTXxQKo5ONmbnWOaD9Bv-aE
+sprite $ChargingStationLg [20x18/16z] {
+NSm50iKW30FGub0azx_jpygVPighY1-mh2HdWcuYkjFon9d0Oog-IHfOEUL5yxJImpfiY3XiysCgAatvtvfPnH5Q4IROld9Q3JpDFGj6QNpRK6Hxd6XYbZZ9
+J6g5snQ6pIoEDpvcozfyHA5PtndlKStolCsX-q7pCPznR09R9UVqmDoIYE2HACp7_Dz-
+}
+!procedure ChargingStation($id, $name="Charging Station", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ChargingStation', $name, $tech)
+!endprocedure
+!procedure ChargingStationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChargingStationMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChargingStationGroup($id, $name='Charging Station', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChargingStationLg>', $name, $tech)
+!endprocedure
+@enduml

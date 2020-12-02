@@ -1,0 +1,16 @@
+@startuml
+sprite $MdbMd [14x12/16z] dS6B5SCm3090_BSa7ko_RKTeaZiy5ea8K1VRrSfT1LtFROrocL2lkyKWJJQLnsOoPgvemON9xFZe1m
+sprite $MdbLg [20x18/16z] {
+lSZ70GGX3CNGR-84s-g_snsWXzLDJt-epoADBfkZxXscv5R5rO1R2l3FKXVnsRmPYl3uZExRcl78WGO4fEgnY9PEFiJBPxVJFwkVHUEPM0KkoI5hgsh5cjIg
+ILh_btu
+}
+!procedure Mdb($id, $name="Mdb", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Mdb', $name, $tech)
+!endprocedure
+!procedure MdbCard($id, $funcName="", $content="")
+  IconCard($id, '<$MdbMd>', '', $funcName, $content)
+!endprocedure
+!procedure MdbGroup($id, $name='Mdb', $tech='')
+  IconGroup($id, 'IconGroup', '<$MdbLg>', $name, $tech)
+!endprocedure
+@enduml

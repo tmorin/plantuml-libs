@@ -1,0 +1,16 @@
+@startuml
+sprite $VuejsMd [14x16/16z] XSZLOGDG34FH-vYb_QTjm_2LOpPV0Y64-tPPfu-ye5l7CpaMEqUxH2V6P7blB-Q0e1Hz4PC2K3VTxkpAnNL8r-TD5gsXpDqQC1OFKV6IFFMrEc_dyA4KVle7
+sprite $VuejsLg [20x23/16z] {
+hSu5ZaLH20FG0jUj-z_jy1Xt-oU1Dbxya9cf-i6fQVH11WFaC3Jbidp80NHofxIFe55HIPgHp30M06S2croBlDg2oyn-mL3zBki0awv3_OAn-P57q2a8tjIF
+5URtG3WWPmFBxr5XGiqHpsA1NAkU9HR4-fS6eMnuHTa61QzLik2ji_1EJhY5Em
+}
+!procedure Vuejs($id, $name="Vuejs", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Vuejs', $name, $tech)
+!endprocedure
+!procedure VuejsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VuejsMd>', '', $funcName, $content)
+!endprocedure
+!procedure VuejsGroup($id, $name='Vuejs', $tech='')
+  IconGroup($id, 'IconGroup', '<$VuejsLg>', $name, $tech)
+!endprocedure
+@enduml

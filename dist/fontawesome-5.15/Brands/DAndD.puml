@@ -1,0 +1,16 @@
+@startuml
+sprite $DAndDMd [14x12/16z] DOd70GDG58BulJxTVzhqU1A0vNx5RycNxlB7SVQ9zATZgKEgDKFrbWxrtfWmzzpzjZC0YZths_2Z2jE3dDER6gnmh7P9ikPrlmu9IjYUxweAq7hcRGSy0G
+sprite $DAndDLg [20x18/16z] {
+JOx50GD020JXt63wxpP7V3uukt8f4vRAFncESVvRQan9JlcreXoYX_g_rzSUtKdoHxVfUq_vPu5Z9TBMMWq30vlWvtQEWu-OMU-CGTDzikPOhsUTsLlVetxi
+b0takjh9zf792uwafCvH2U8KLYGjchMKyRerlVk-3QSbkkW0ThbRgmBBcB702wr4IeZhZCoov15wRp-fzsUckdoeo0C
+}
+!procedure DAndD($id, $name="D And D", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/DAndD', $name, $tech)
+!endprocedure
+!procedure DAndDCard($id, $funcName="", $content="")
+  IconCard($id, '<$DAndDMd>', '', $funcName, $content)
+!endprocedure
+!procedure DAndDGroup($id, $name='D And D', $tech='')
+  IconGroup($id, 'IconGroup', '<$DAndDLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SleighMd [14x11/16z] JOY50G0X30E3GotxR_ikLxtKbl4HvFoiaUpOAHu3TRSeXv5rjqD7oK8_efVT8Ay9TYPDL88BjG59yfwr2LHcaIKxQz_gUVx86m
+sprite $SleighLg [20x16/16z] {
+ROw50S0m20IXSMN_RHltY-8F21UUWcMNBo6XWvWloh3cYaG-FSNdcuyM7vdY-j8FXu-y-01T-hGMZVHhFaiRiVI8cq_NnajcJ2xU57oO-CfGLZL82J1VGw2q
+LkaasXi2H3e831xy
+}
+!procedure Sleigh($id, $name="Sleigh", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Sleigh', $name, $tech)
+!endprocedure
+!procedure SleighCard($id, $funcName="", $content="")
+  IconCard($id, '<$SleighMd>', '', $funcName, $content)
+!endprocedure
+!procedure SleighGroup($id, $name='Sleigh', $tech='')
+  IconGroup($id, 'IconGroup', '<$SleighLg>', $name, $tech)
+!endprocedure
+@enduml

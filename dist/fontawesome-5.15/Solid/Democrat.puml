@@ -1,0 +1,16 @@
+@startuml
+sprite $DemocratMd [14x11/16z] FOo50OHG34FplPxzfpq5NbqXnoOU5jdn4AG-XV93YAheQIXMCRukMMDgEsnnLZNF0j32mYtCniA7UVQ7ivwtN-fVEJVQPDxL1CQtUWC
+sprite $DemocratLg [20x16/16z] {
+NSs50G0n20F0rDv9zf_slNfr0U0E7myCZ2G6gxGFLqct1IrFVPVEFVrrwCTls0pahKc7H7kI9p45qNkjMEKzUMyUkrBIxf-5KOP753D3-2ivdpba5F_YXanL
+U-Tmj-4khss-Phq
+}
+!procedure Democrat($id, $name="Democrat", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Democrat', $name, $tech)
+!endprocedure
+!procedure DemocratCard($id, $funcName="", $content="")
+  IconCard($id, '<$DemocratMd>', '', $funcName, $content)
+!endprocedure
+!procedure DemocratGroup($id, $name='Democrat', $tech='')
+  IconGroup($id, 'IconGroup', '<$DemocratLg>', $name, $tech)
+!endprocedure
+@enduml

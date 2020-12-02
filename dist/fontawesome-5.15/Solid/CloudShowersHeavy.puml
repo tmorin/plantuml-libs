@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudShowersHeavyMd [14x14/16z] VSV50KCn342n5sfY-jv_sZAJReA-PKRjgt8YUIIMmb7Pyce0FM-qelbavX_RSxojkDF2gxQO7Q5FLkisQh0KRzrnmtObcCTtj3L79b66mG4
+sprite $CloudShowersHeavyLg [20x20/16z] {
+TSk30G0n343HNxlPVzgpySg8YMyYHNCLPTQDApMmChBgCaaiWbofRVJACd5TRgh5oOjfxroH3_sTgl6Tyxoc4s3yAgoFuOSF42qgQKnQGoKHAvOeYbgNaDIW
+PRHudEWbDEBmqpzNw6a9gUMSxceEeHbiXPYXUDGKmWW
+}
+!procedure CloudShowersHeavy($id, $name="Cloud Showers Heavy", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CloudShowersHeavy', $name, $tech)
+!endprocedure
+!procedure CloudShowersHeavyCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudShowersHeavyMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudShowersHeavyGroup($id, $name='Cloud Showers Heavy', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudShowersHeavyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BaseballBallMd [14x14/16z] HOw54G0W30EBQvFzj-NmH-iH4PEwQiz69W5S8Cv8v24PoV1b6yt1WkZRKkNqXxQCG69QPINwUL-hNkjd_YvTMJBlXEfepPyUpLJsB9dOee0MAo83
+sprite $BaseballBallLg [20x21/16z] {
+RT255OGm54JHYSkNwRzQ75OVVW-MO2zKyIrj0K_DUEJzndJ8fHb7dM_9Bh51NcIe2N6mX9UbHC4WVRvCbCnEKjjDGqWUjqpuPQ6zNgmyyl2ynX-3_Dp7rtq3
+lAtkTzk-azl4zbkwqngVkf0fTERuiXmvWL2WB_EGu_zv0S9yaKPSPRcaugrOQYttFIi
+}
+!procedure BaseballBall($id, $name="Baseball Ball", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BaseballBall', $name, $tech)
+!endprocedure
+!procedure BaseballBallCard($id, $funcName="", $content="")
+  IconCard($id, '<$BaseballBallMd>', '', $funcName, $content)
+!endprocedure
+!procedure BaseballBallGroup($id, $name='Baseball Ball', $tech='')
+  IconGroup($id, 'IconGroup', '<$BaseballBallLg>', $name, $tech)
+!endprocedure
+@enduml

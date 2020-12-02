@@ -1,0 +1,16 @@
+@startuml
+sprite $GavelMd [14x14/16z] JSp50G0X34JHsSLr-gyMjtzxa0IZBr7YP4ZrWkx5PU3a_tLzoaudZCHK7f1q_JVsIP_eyG_C6pyGKuFio3zcx4bSNK251wW
+sprite $GavelLg [20x20/16z] {
+PSw54KKX34HHt67xh_RBamsICUPWLt4Y0jSamAwK0C0Sfu1y4b24t2tBITq4hN_GH3_8aMS3hRza6iszr97TcCYsrFuPKSYz4NabX3k9n5YjBx8tDQranacg
+ByGm8S63lW
+}
+!procedure Gavel($id, $name="Gavel", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Gavel', $name, $tech)
+!endprocedure
+!procedure GavelCard($id, $funcName="", $content="")
+  IconCard($id, '<$GavelMd>', '', $funcName, $content)
+!endprocedure
+!procedure GavelGroup($id, $name='Gavel', $tech='')
+  IconGroup($id, 'IconGroup', '<$GavelLg>', $name, $tech)
+!endprocedure
+@enduml

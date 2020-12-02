@@ -1,0 +1,13 @@
+@startuml
+sprite $DAndDBeyondMd [14x11/16z] bKt50O0m38IuxZykBjyshdVBd10p_Psb-tgD4GzZOm1ah2pd3F6kj50r0q5J5ZKTfze1
+sprite $DAndDBeyondLg [20x16/16z] jKnL0W9H47hJnUhzJsltjpiTmDhBY7ulcPNbtxVegQxlcwXvq9FK6V1IpshhosFQfxisaiFbmi26h7NiwKAiLflAKiHK4nCnBxf8ohNIfVtRpW
+!procedure DAndDBeyond($id, $name="D And D Beyond", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/DAndDBeyond', $name, $tech)
+!endprocedure
+!procedure DAndDBeyondCard($id, $funcName="", $content="")
+  IconCard($id, '<$DAndDBeyondMd>', '', $funcName, $content)
+!endprocedure
+!procedure DAndDBeyondGroup($id, $name='D And D Beyond', $tech='')
+  IconGroup($id, 'IconGroup', '<$DAndDBeyondLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $ThermometerHalfMd [14x28/16z] {
+bOy5WWCW3C2AKop__-qXP_CjQ5fK9hv1ZtB8REgM01GTeCiQE17JmOhOSO8HmZJ8o_nzInzOJ7yM0-XVBaExP-xFudKkS2n0bjJ1wpGxm4r97avVOSpembSc
+9R19wTQ6-rlP8JiuZorngOtHJS691xfgu_pJ3mvH5YOrQDdEwHS
+}
+sprite $ThermometerHalfLg [20x40/16z] {
+pPA74iCm24Ezz_Z_lot8fkwwtQKs2Nv4a3jGB9t698seZY81G7z52G2IDmDElUDX5-D3DKhPnW6GewYjLjp9I0CFTi9ygdWAmt-oqBk_PyPDkH-McFaNB7oC
+rNkMP4BwiEdMX8egQv0Dimcuxma7JCbnDSiUo7YwPKfqMA2isOPgWYHznmOOUHjwxpIVySK1GBhbYBqf2oLOlHw8GoUFHwvZRx1gMcFPrX9Ls7efgrDM91YW
+ZQ0uX8oWH3h2rpQv
+}
+!procedure ThermometerHalf($id, $name="Thermometer Half", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ThermometerHalf', $name, $tech)
+!endprocedure
+!procedure ThermometerHalfCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThermometerHalfMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThermometerHalfGroup($id, $name='Thermometer Half', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThermometerHalfLg>', $name, $tech)
+!endprocedure
+@enduml

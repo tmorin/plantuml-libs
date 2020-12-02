@@ -1,0 +1,16 @@
+@startuml
+sprite $SyringeMd [14x14/16z] JSg55G0X30FGGXND_jEU2q7_I-bEYapUw8d0ZwEFya3Kw0yYTxo3QQ0Un--6AoxAgJ5u7innDk8uSyzrIF_0M1hABswjyEvYJ4-wqv8T
+sprite $SyringeLg [20x20/16z] {
+PSrN0a0H34JHqRlP_sfVByZzSv1WI06wMupbTc3aY9uyC99km4JMurcid-Xm8lqulpATMDLlZLnG8V33ctGhy2-6RsEsF7EmzokFmhlqRmoe4o6UXpOHCiyc
+GfA4S5F6K1Al4EbTY7P-PR5M7KGx
+}
+!procedure Syringe($id, $name="Syringe", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Syringe', $name, $tech)
+!endprocedure
+!procedure SyringeCard($id, $funcName="", $content="")
+  IconCard($id, '<$SyringeMd>', '', $funcName, $content)
+!endprocedure
+!procedure SyringeGroup($id, $name='Syringe', $tech='')
+  IconGroup($id, 'IconGroup', '<$SyringeLg>', $name, $tech)
+!endprocedure
+@enduml

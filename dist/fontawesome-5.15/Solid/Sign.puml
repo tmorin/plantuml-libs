@@ -1,0 +1,13 @@
+@startuml
+sprite $SignMd [14x14/16z] ZSu35W0X403GZE7zJxis-qyrDawhsTYWODrAJoegbrKrJelDQMR7NzP567-fzNVkgnxgp9ql-_hr
+sprite $SignLg [20x20/16z] nT150e0W40LGtC3ql_zfxTQL-POmdHB1qXx3Toz41l16mGdp07n3-thLMGzscpYDRuQ5_FocCGEVtUNcMu7kNXe
+!procedure Sign($id, $name="Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Sign', $name, $tech)
+!endprocedure
+!procedure SignCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignGroup($id, $name='Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignLg>', $name, $tech)
+!endprocedure
+@enduml

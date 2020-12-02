@@ -1,0 +1,16 @@
+@startuml
+sprite $RoadMd [14x12/16z] LOY50SCm30GlCUFllsqbbq_m05mnNduSkZIcr722f5BjNHZDJCfU0TSsquUz1PIZfykmPDJgVv9SLixRDKx_7ORhi6whGZFHkcxZWfV-yG
+sprite $RoadLg [20x18/16z] {
+bOvNbWKX448nPzt_RgSByN_UxLOhSi0lj3cczz_Ly8ZdOqwxCyImh3LsL0gMR8TbRvGQQpblUpjBxf2rxkkjLXWEpPzgjVN2SYICfDLIveqoub1j30bEUfE7
+yC8Z0k3t3Jac2qwrKnkXWtBZZ7_o1m
+}
+!procedure Road($id, $name="Road", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Road', $name, $tech)
+!endprocedure
+!procedure RoadCard($id, $funcName="", $content="")
+  IconCard($id, '<$RoadMd>', '', $funcName, $content)
+!endprocedure
+!procedure RoadGroup($id, $name='Road', $tech='')
+  IconGroup($id, 'IconGroup', '<$RoadLg>', $name, $tech)
+!endprocedure
+@enduml

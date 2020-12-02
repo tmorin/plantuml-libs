@@ -1,0 +1,16 @@
+@startuml
+sprite $UtensilSpoonMd [14x14/16z] LOpL0SCW00LnXzj_sZO9VdzFHKSNe9cX8Y-fYq3d4v9JwKl9nh4pNJJr2Zk4VeK3edPMplSiEZe2HGmQKELM_QgZ4rei_W
+sprite $UtensilSpoonLg [20x20/16z] {
+PSu53WKX38HXtEN-fttIx33Ty4Vvi1fcyzXxLQiehYrDOjgeWFm-3LZR33P94xPe3TPf0LOEzNkIvQvJqpzKPPNQwDc-tlU6sO7VJcuAHKrBA5CmVp4wUQng
+aHyuEV6YBm
+}
+!procedure UtensilSpoon($id, $name="Utensil Spoon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UtensilSpoon', $name, $tech)
+!endprocedure
+!procedure UtensilSpoonCard($id, $funcName="", $content="")
+  IconCard($id, '<$UtensilSpoonMd>', '', $funcName, $content)
+!endprocedure
+!procedure UtensilSpoonGroup($id, $name='Utensil Spoon', $tech='')
+  IconGroup($id, 'IconGroup', '<$UtensilSpoonLg>', $name, $tech)
+!endprocedure
+@enduml

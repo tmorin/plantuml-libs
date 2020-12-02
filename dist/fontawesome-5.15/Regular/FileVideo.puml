@@ -1,0 +1,19 @@
+@startuml
+sprite $FileVideoMd [14x18/16z] {
+PSrL0aGX34FHF0z5il_T3jgn-tUGrhGY0EM7v9DK6cLeKLUgT1r8Ubn6KvcwDHh2KSjDNcewQZkm8qjXLws01SbbAfkhzg72gQqBJnupjnPgV_lIUQsAgkM5
+5m
+}
+sprite $FileVideoLg [20x27/16z] {
+bSpL0GGn24LHudan-kzsoJZhSpyF4lbQCoHLLgLfCaEPeUue5cdD2_I9shmT4xMHxGBwrbc1hcplCFjYaWkIhwkfyCNCJ1j6bqOWKx7Ru2LGuxPRNwrKFctm
+tekDDuR8B_z0wRI0321ReXXsKzsoLbITH-MNidb1q0C
+}
+!procedure FileVideo($id, $name="File Video", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/FileVideo', $name, $tech)
+!endprocedure
+!procedure FileVideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileVideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileVideoGroup($id, $name='File Video', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileVideoLg>', $name, $tech)
+!endprocedure
+@enduml

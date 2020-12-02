@@ -1,0 +1,20 @@
+@startuml
+sprite $RaspberryPiMd [14x18/16z] {
+BSA5bSH0342nRyUSWVwhFLmzFUrczTVhyK9uiWp8i4IDB4m9enLyxH2aGCjrxdtLIe6k796f6Y22NU1RFA7ppLZBVQAnEGRLe7jyf81i8AM7fUWwXcwwyvuf
+bLfxPTiYhu8SPvaqb846j929d_1jH08vPy9xTGAWan3pyE4p3i0t
+}
+sprite $RaspberryPiLg [20x25/16z] {
+HSK90c0n18FX7trTqBh_RSVi7qdG7Pbn38PdfYz5xZJGB-oBJy5MYYM8T284fDCR2kFhFSXdO0vx0xh7pR4LE1F83v1NzGIOJbFVPbxDpVOHQBlsgQMwoazD
+Q2lXBDhQI4v0hdBg3X7BEem4z6hUxyltt2n2Kc5N1UrTcjTRhD1dD7UQfUINIWWjWYREY8iy1Qng09R8lMBbmWZtEyMoEkTurNif85brVSUIEdolZ6Rbu1TY
+WZsbMGBxmEhWcxOdu0Fa3fYrnpYby2NDxZQlvtvhwKw59gTgqcRLvYyB5z0u2l_Dwv4Vl_q
+}
+!procedure RaspberryPi($id, $name="Raspberry Pi", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/RaspberryPi', $name, $tech)
+!endprocedure
+!procedure RaspberryPiCard($id, $funcName="", $content="")
+  IconCard($id, '<$RaspberryPiMd>', '', $funcName, $content)
+!endprocedure
+!procedure RaspberryPiGroup($id, $name='Raspberry Pi', $tech='')
+  IconGroup($id, 'IconGroup', '<$RaspberryPiLg>', $name, $tech)
+!endprocedure
+@enduml

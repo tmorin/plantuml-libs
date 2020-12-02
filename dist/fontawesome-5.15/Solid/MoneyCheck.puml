@@ -1,0 +1,13 @@
+@startuml
+sprite $MoneyCheckMd [14x11/16z] TShL0O0m30JGkaLk_sqv-C5V9LhRHVMRow3MXXzc3aWVrCr2uAA9ggnbCENCbZ0bMNfiTc7XUxXh_Q9j
+sprite $MoneyCheckLg [20x16/16z] XSor5K1H30BG0EqxiF-qtrrl4q_XffmRvm5u0p_8lsNfUCCgPY0ihxNtPl-_XVbkpkVCaxyFBSw9qmetrGC
+!procedure MoneyCheck($id, $name="Money Check", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MoneyCheck', $name, $tech)
+!endprocedure
+!procedure MoneyCheckCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoneyCheckMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoneyCheckGroup($id, $name='Money Check', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoneyCheckLg>', $name, $tech)
+!endprocedure
+@enduml

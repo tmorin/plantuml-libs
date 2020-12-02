@@ -1,0 +1,16 @@
+@startuml
+sprite $LungsMd [14x11/16z] NOd50S0W54E3ovVilssnKnyImw6Fg_yKr68VmJHYCSdUUoDbXSobPhAa0Cf5grpedH8GzvW7EMe3MktaTD8uWR7aiRRApVgzOz7NrZu
+sprite $LungsLg [20x16/16z] {
+XOw50GCX5CLmX-o_RVkukkQKV3LNUZTlZF7N5MQG2vDoKGcOSXD8Mza58AVlid9r_sR8ErZFod7GskN7NT9OqPYu4FNIhTdTkHqTazx1DIlbWZAIGZE1yY1f
+dKlZYtjco0qEAfiW5ovAk_JipCRbBdK2
+}
+!procedure Lungs($id, $name="Lungs", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Lungs', $name, $tech)
+!endprocedure
+!procedure LungsCard($id, $funcName="", $content="")
+  IconCard($id, '<$LungsMd>', '', $funcName, $content)
+!endprocedure
+!procedure LungsGroup($id, $name='Lungs', $tech='')
+  IconGroup($id, 'IconGroup', '<$LungsLg>', $name, $tech)
+!endprocedure
+@enduml

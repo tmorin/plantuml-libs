@@ -1,0 +1,19 @@
+@startuml
+sprite $UserInjuredMd [14x16/16z] {
+PSVN0KGX24HH1NR4nFHVxKlujzS0fpp99BMSZ0n3M4eRQe5h2a1h058yfKPYf2HUX9J34J5U_0NNwJuZUYrgZRBujMKs43_6nq60krIf_l8LV-2gaqTBSd9y
+ltNA8Fq6
+}
+sprite $UserInjuredLg [20x23/16z] {
+VT25eMKX30JG9BY4wR_RVJZxRQvoS6WcA53e3LS0AXJuMgT4Hf4FIOpH4ONFXxTnZyZuR2iuINzPkEQsSTkaTEAs6RgnjKlTjDNx_uH9vjSONkGRkvP2p0gq
+rDLGG2J5JXCIvO3sBb4fuMFmr2w6Dao9cTUAK30CZhptGXENbN4GOb-3c3uI3z5bkVUpCiOpPHhO8L3g9Fy
+}
+!procedure UserInjured($id, $name="User Injured", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserInjured', $name, $tech)
+!endprocedure
+!procedure UserInjuredCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserInjuredMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserInjuredGroup($id, $name='User Injured', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserInjuredLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BalanceScaleRightMd [14x11/16z] 9Os50S0m20GlWKhG_QUjuleFriTMhVoYre_utumuMK-RvmHMf12ftWQpvn5um1GmOzHyEskXqxrF2pJCEViHyI0EIfcRWhlKuFo-HTAFhgg6_CdZYViD
+sprite $BalanceScaleRightLg [20x16/16z] {
+HOo73S0m3CEKWMQR_tzREEaWZ6L9b5Ij9XKe-kd00iZw2BaQJljUSSse2sUMz4s7tDTTqFsLA8KaWPIRLVyDGc0em7Q7KvEy2DkzejUY5EddrxSGpCy2VEx6
+fWa-jwvfDei4l_i5r8zxd4TGW637ZQI5uVnkwNmmgInOHJS
+}
+!procedure BalanceScaleRight($id, $name="Balance Scale Right", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BalanceScaleRight', $name, $tech)
+!endprocedure
+!procedure BalanceScaleRightCard($id, $funcName="", $content="")
+  IconCard($id, '<$BalanceScaleRightMd>', '', $funcName, $content)
+!endprocedure
+!procedure BalanceScaleRightGroup($id, $name='Balance Scale Right', $tech='')
+  IconGroup($id, 'IconGroup', '<$BalanceScaleRightLg>', $name, $tech)
+!endprocedure
+@enduml

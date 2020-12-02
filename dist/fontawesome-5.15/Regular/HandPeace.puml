@@ -1,0 +1,19 @@
+@startuml
+sprite $HandPeaceMd [14x16/16z] {
+HSc74SCm3CNGhowHjB7_jeaxhhw3ZZfq7QNfDUDEFcJiB4gX7M9gZqFrq1QQl6-GCuUmd9IOYaC6D3dgXzBcZXfD8wMkdWQQTDrDCbEV4kjLX2RbHc8gxN6h
+qgJE6lFV29AanLtN3m
+}
+sprite $HandPeaceLg [20x23/16z] {
+LT75eGKX40NHI-FILFxHVe6djJmpk6vXGDShCqaBO3nfWCV8JXdiKeUD5vQ24wzjSd3wbq5KPU8VDcaozfSL_Anpnleu6ZPP-M6mUujIPqZEEiijWAJ4DhLZ
+IvqvMTAYo9YIJpL21Dr_B4WXIAO4CiU3taLGn-s3pd-BhCyAPwalwpH5ldzqybttdO6TqzMtvVj7PUUKRsa-Nc3nMJmM-bjcb7u1
+}
+!procedure HandPeace($id, $name="Hand Peace", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/HandPeace', $name, $tech)
+!endprocedure
+!procedure HandPeaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandPeaceMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandPeaceGroup($id, $name='Hand Peace', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandPeaceLg>', $name, $tech)
+!endprocedure
+@enduml

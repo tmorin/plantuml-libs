@@ -1,0 +1,13 @@
+@startuml
+sprite $ChevronUpMd [14x16/16z] bSV50O0m40J0NTpflrg8d3sJ-GqwaJ7tpP3thPNKIlQzL0BKIgHdYVISIwGp24Eq-m4
+sprite $ChevronUpLg [20x23/16z] lSYn5K1050311G3qNoq0wrt-9nmYrLLIxRBKQTtfKggkTBNTbIxehtGzgL8sTpc7gvnTDhcWMqR82dxAZ0WR
+!procedure ChevronUp($id, $name="Chevron Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ChevronUp', $name, $tech)
+!endprocedure
+!procedure ChevronUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChevronUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChevronUpGroup($id, $name='Chevron Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChevronUpLg>', $name, $tech)
+!endprocedure
+@enduml

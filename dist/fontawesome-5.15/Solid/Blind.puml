@@ -1,0 +1,19 @@
+@startuml
+sprite $BlindMd [14x18/16z] {
+JKu55e0W5AFX5xl_RQLKcjLZpYlOVIC2tV-mzUB-GLOl0E0JouXrn8Fccs7-8198XVn87QDTo1l2H98dSe7IzYfqykHFCwLnfvLiCCNas_pKm8RPpTCm096W
+grPn19jCcf22J9Vkth4z
+}
+sprite $BlindLg [20x27/16z] {
+PP7LeSGm3C3iOcBI_jC-k2itdp8h8kBGvVu6eFJEPe3ndPVoUAFRy6GzOdqYWFKz0gPhCm0lwj8ogI8RnCcW6NY7Vc6pGMd0ShBbmuQ2yS5aWjG7a_L8j1fy
+yxBqVKcLdOc6xh30lukiTZckRwrYgtO8spQUub1gjTllwwS7rCn-XSQ_Ym2NE1mizdMroCAniC_IFijf7Lx6a4rI0z__ecdcyEbzY5R_1G
+}
+!procedure Blind($id, $name="Blind", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Blind', $name, $tech)
+!endprocedure
+!procedure BlindCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlindMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlindGroup($id, $name='Blind', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlindLg>', $name, $tech)
+!endprocedure
+@enduml

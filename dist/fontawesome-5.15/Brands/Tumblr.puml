@@ -1,0 +1,16 @@
+@startuml
+sprite $TumblrMd [14x22/16z] fO_50GKn44A9U-Y_sjNOvUk-q_W03Zp9Z4vQCyKroqkc2q-ACKPV5pe5yKqMbYn3I7r7Kae1G5nPmeriKyyomGkld6aUkfO3ouxktY_2cNMnLRUxDZCSyGu
+sprite $TumblrLg [20x32/16z] {
+pT6r0SKm34LHoSnl_sd3PEW-tl8aPjhIMBFqp6_cAekzCNgplOdI6IUqfZAEWf1BoxY49aqExpKxC5PI7Lk6F_Qobhiz_wU5XrrNg8YalbxtA2z3v6O6p-mr
+uLsYmO_7pRZ1O3Bbei3NmvkuS4bk6Ja3
+}
+!procedure Tumblr($id, $name="Tumblr", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Tumblr', $name, $tech)
+!endprocedure
+!procedure TumblrCard($id, $funcName="", $content="")
+  IconCard($id, '<$TumblrMd>', '', $funcName, $content)
+!endprocedure
+!procedure TumblrGroup($id, $name='Tumblr', $tech='')
+  IconGroup($id, 'IconGroup', '<$TumblrLg>', $name, $tech)
+!endprocedure
+@enduml

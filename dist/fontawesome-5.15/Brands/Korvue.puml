@@ -1,0 +1,16 @@
+@startuml
+sprite $KorvueMd [14x16/16z] LOs50S0W30GV9xx_jdNX86vOQEPcXnogUlom25UrGsaSCD2Yxkg9kWB9dgXMOCQ9f9npgd57kUmSKqzd0SORTG4WouNiH-JC6iRC7Yi-_b53-e4D
+sprite $KorvueLg [20x23/16z] {
+ROg53GGm4CEkpCt-stxkkU129Cjo8vILx2JZ8CpJTTmPFWJsdUFpfnKou7NwlvjD_uobS_mi_fr9Gjg_e-GB-3BZcuQpitDn9Wk9QpU2_dLrGtyp_rr7ql5l
+DnEPdDVUkVWUJ-V5fmqhDnu
+}
+!procedure Korvue($id, $name="Korvue", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Korvue', $name, $tech)
+!endprocedure
+!procedure KorvueCard($id, $funcName="", $content="")
+  IconCard($id, '<$KorvueMd>', '', $funcName, $content)
+!endprocedure
+!procedure KorvueGroup($id, $name='Korvue', $tech='')
+  IconGroup($id, 'IconGroup', '<$KorvueLg>', $name, $tech)
+!endprocedure
+@enduml

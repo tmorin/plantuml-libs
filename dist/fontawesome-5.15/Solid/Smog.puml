@@ -1,0 +1,13 @@
+@startuml
+sprite $SmogMd [14x11/16z] LSY50S0m20J0ZmVVVzgw7WvcX5G97m3suq8quF51ySFVmvDyhWQKMaiJbreJBYaV7IFyOTltGyrRDTtPm0e
+sprite $SmogLg [20x16/16z] TSt50GD130D0BRFKVxV9CS_BR21Jp71DQXwBhicW9W46GDOPkqO0zH3qDAYdh8U1hhi0vA4_IXDEVoVc3wwIrS7WIyet2Q3ktZTJZd0vBQO4cY1fH-07
+!procedure Smog($id, $name="Smog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Smog', $name, $tech)
+!endprocedure
+!procedure SmogCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmogMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmogGroup($id, $name='Smog', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmogLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PumpSoapMd [14x18/16z] {
+NO-50GCm20G_xldzjorIloWE01h94sE4CUZi-2tngZWfr5J5AbAgfHO0vSejNw4cA9jFr9pfU53bYoDIDwUb-OCNwuWK8h1KwIx9KWx0Z1auvDJKNk9gNCYY
+P0NueVzBdT_pF
+}
+sprite $PumpSoapLg [20x27/16z] {
+NP472iGm40FTkwt___OGi2ikGnEJsDuIo0QfZ4Py83FbdCmbY9FTYKVfJb9kfvmcW4iN3xcTUG0jV1bKiGsZM24FOWJlGHJlGGolGqow392x0BBfYjspGGvT
+jIFfmNheJ2_-fS7KLG47k1WodUBsIXMFAl2bN91TSdyWd0e-37TY-bdHh0zn0gaNOaQg7m
+}
+!procedure PumpSoap($id, $name="Pump Soap", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PumpSoap', $name, $tech)
+!endprocedure
+!procedure PumpSoapCard($id, $funcName="", $content="")
+  IconCard($id, '<$PumpSoapMd>', '', $funcName, $content)
+!endprocedure
+!procedure PumpSoapGroup($id, $name='Pump Soap', $tech='')
+  IconGroup($id, 'IconGroup', '<$PumpSoapLg>', $name, $tech)
+!endprocedure
+@enduml

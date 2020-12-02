@@ -1,0 +1,13 @@
+@startuml
+sprite $VideoMd [14x12/16z] TSh50G0n30F13NFSVxN73FEo9McxCiowR0mO9pjBb9FDSk7QxQl_dOst3zTbNtSDog1NYhSH
+sprite $VideoLg [20x18/16z] hSZ50G0X40ImmPtjlzfpTo7Fu24R9j4EHqiI0BDcTHeGYMXpbhQKflsPmgVsfw7o_i32vWGQIchh9Whlr
+!procedure Video($id, $name="Video", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Video', $name, $tech)
+!endprocedure
+!procedure VideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$VideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure VideoGroup($id, $name='Video', $tech='')
+  IconGroup($id, 'IconGroup', '<$VideoLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $DochubMd [14x17/16z] dSp50S0m30H1AMRIzL-j6VxPu9YmiipKEx9nAyMOj4LOKcFKOV2fyufLRslaKz9F6R1_L01pDS_hZoPcjW8KGaz4CB9TDqT7aiFOtW
+sprite $DochubLg [20x25/16z] {
+lSd50G0X34JHu0xzTxl1zRp_b7b98mEzQHRumxovpIKzp74XXEJWKyPi-QZvUb-Mp6usOhYcpNPZ6YExwJpfRke7qmzpk2BPZENbOJKMwYeVbTC-bMYsFGMN
+6JWj2DWjMWwb3m
+}
+!procedure Dochub($id, $name="Dochub", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Dochub', $name, $tech)
+!endprocedure
+!procedure DochubCard($id, $funcName="", $content="")
+  IconCard($id, '<$DochubMd>', '', $funcName, $content)
+!endprocedure
+!procedure DochubGroup($id, $name='Dochub', $tech='')
+  IconGroup($id, 'IconGroup', '<$DochubLg>', $name, $tech)
+!endprocedure
+@enduml

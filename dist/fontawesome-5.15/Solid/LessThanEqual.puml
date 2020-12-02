@@ -1,0 +1,16 @@
+@startuml
+sprite $LessThanEqualMd [14x16/16z] VStL0SD030DG7Td7sd_QDip9-pCA6wSM2oELp4ixTGxwqfva1-ZKPbM30ISHixZEB72wyxUVfxoDYnPd4ZLkX1yEcnhb3m
+sprite $LessThanEqualLg [20x23/16z] {
+ZSw54GDH20HGkEzA_zN6iVWRtq4Ml2CXUB4J3JTI5rr5O6dGGz4HDj2FqAx7DGbRHnBSTKug0gkSpNnmXjKiHqdp8BQg30SUTfqn3TVP3yko36yPKmZlONY1
+YrvC-jExNJXUm1a
+}
+!procedure LessThanEqual($id, $name="Less Than Equal", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LessThanEqual', $name, $tech)
+!endprocedure
+!procedure LessThanEqualCard($id, $funcName="", $content="")
+  IconCard($id, '<$LessThanEqualMd>', '', $funcName, $content)
+!endprocedure
+!procedure LessThanEqualGroup($id, $name='Less Than Equal', $tech='')
+  IconGroup($id, 'IconGroup', '<$LessThanEqualLg>', $name, $tech)
+!endprocedure
+@enduml

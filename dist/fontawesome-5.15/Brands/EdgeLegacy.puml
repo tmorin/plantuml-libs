@@ -1,0 +1,16 @@
+@startuml
+sprite $EdgeLegacyMd [14x14/16z] LOs54GD020INTx_-kytmyHs5Cy3wFkVCnANgCisF9kdukGsILacO6mPfTLe0kgHGAkF4cA87CaHzA53_hguTdoIx2v4FIJhPiDYJd-DE7-bUDkNuTIbBscvy
+sprite $EdgeLegacyLg [20x20/16z] {
+RSk53KGn30JHTHYz_NTxSJuTFV58WysbrdlB3ZUfF3KvavkygOUHGQDd56jhdDcBIDgvsKbcX8Z5qtYWg4Ucm3Hh1MWUaGsoe5Zh40THKZUQYINnThVsfmro
+v5j9LyCNUyDNIwlf6QLu654kewHKcbv7vEDgo7yQmZoBLi7DvrfB3hky
+}
+!procedure EdgeLegacy($id, $name="Edge Legacy", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/EdgeLegacy', $name, $tech)
+!endprocedure
+!procedure EdgeLegacyCard($id, $funcName="", $content="")
+  IconCard($id, '<$EdgeLegacyMd>', '', $funcName, $content)
+!endprocedure
+!procedure EdgeLegacyGroup($id, $name='Edge Legacy', $tech='')
+  IconGroup($id, 'IconGroup', '<$EdgeLegacyLg>', $name, $tech)
+!endprocedure
+@enduml

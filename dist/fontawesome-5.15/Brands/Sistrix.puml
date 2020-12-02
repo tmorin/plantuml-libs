@@ -1,0 +1,16 @@
+@startuml
+sprite $SistrixMd [14x16/16z] NKw30K1123tdsd_QRvxJGvfM4tU3And1lK7eaTJe-vUDzq_uce-olLlhN3xsh5wPmLtQWTws5-tChjyqRoy4doCQkkbJu4MED78QTtgRWcyA_ovG-gqL
+sprite $SistrixLg [20x23/16z] {
+ZKy55iKW36F5QRlS_xJVyE-P0B57pGSSFkNaDYhY0VMJOcYmv1AGEfLHweO4eUuSkAk4ytXi2knIN8sdpcPgDRsj6kGTzp6RCGT8gDUsaADH5Zf4hgHLv3a8
+ihE-043if5VS8TOjfB4X1hgjdPpuHFh_oJUS8VCELm
+}
+!procedure Sistrix($id, $name="Sistrix", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Sistrix', $name, $tech)
+!endprocedure
+!procedure SistrixCard($id, $funcName="", $content="")
+  IconCard($id, '<$SistrixMd>', '', $funcName, $content)
+!endprocedure
+!procedure SistrixGroup($id, $name='Sistrix', $tech='')
+  IconGroup($id, 'IconGroup', '<$SistrixLg>', $name, $tech)
+!endprocedure
+@enduml

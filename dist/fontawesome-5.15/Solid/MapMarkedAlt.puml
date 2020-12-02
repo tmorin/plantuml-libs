@@ -1,0 +1,16 @@
+@startuml
+sprite $MapMarkedAltMd [14x12/16z] ROx50S0W34LnYFxzforwx4FY4XO3YnukqT4Qx5a97lSxaLuOPk2bwN1enY9r76otQS6lfRKmrQhFQYW5rPvLiVYr98SclYtEdEu-hRIbJG
+sprite $MapMarkedAltLg [20x18/16z] {
+XP250GGn2C2WhcJ_QT_rDFNKaIU-G_VoI-11_7KJp6v5_vPDf-DlOOGgKY1zdGCBmU1-YzuM-sgkyg2BtBjr04MVphlEcogP6qKANwVQOAZchoknYI4r_Rf0
+KXU9_uvQM3auTydD7zV1Yju3cCV3MVNIy_VN9SJ7w0e
+}
+!procedure MapMarkedAlt($id, $name="Map Marked Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MapMarkedAlt', $name, $tech)
+!endprocedure
+!procedure MapMarkedAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$MapMarkedAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure MapMarkedAltGroup($id, $name='Map Marked Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$MapMarkedAltLg>', $name, $tech)
+!endprocedure
+@enduml

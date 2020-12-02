@@ -1,0 +1,13 @@
+@startuml
+sprite $PenMd [14x14/16z] PSg54S10449HuXxwhpPwjyhecm_g1d8MO2FFjgBT-R2MlTaUokrbN_6mwnIaGvymk79Qm04LebE06m
+sprite $PenLg [20x20/16z] VS_50S0W50FGr8llFotkbkE3RsX2b3ZHa-hnLowomkCyfKTUZAhhy2YQNW6VcWA-BLaydvwKF0OgXRIZ_Qyz_PcUSj7m2-0ZGOo42O4BHl-x8HW
+!procedure Pen($id, $name="Pen", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Pen', $name, $tech)
+!endprocedure
+!procedure PenCard($id, $funcName="", $content="")
+  IconCard($id, '<$PenMd>', '', $funcName, $content)
+!endprocedure
+!procedure PenGroup($id, $name='Pen', $tech='')
+  IconGroup($id, 'IconGroup', '<$PenLg>', $name, $tech)
+!endprocedure
+@enduml

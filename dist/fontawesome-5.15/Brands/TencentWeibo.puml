@@ -1,0 +1,19 @@
+@startuml
+sprite $TencentWeiboMd [14x18/16z] {
+TSc53KCn34NH6_QFQVzjgp8VqGEWcPk5LivcIe6wim4jEvojAA02z0QOKAA2P0eCfmMKo0neNkxDpWsYetRi2ij0nep2MKoWnE3C542CtliAvSm7srq7PoqA
+JzDuSMnURE65oj_l1
+}
+sprite $TencentWeiboLg [20x27/16z] {
+ZOu54WGn20GXBi3y_xTNiEVUPKbZGqvQ22RJ1Lw0xgt0kAYacCaVUM6VdQ9SokqiXwkRxBuCwzYGoH6BIdms87wr-jIoOm4G0yblYyQ8ktXXNLo4bbW_YIQO
+gC0fCTjyQIKspNr4xXudRTBoHy0c4OoA1mrkLTLBrxvK2nfnPiu3VY3OnaTcx1Yy9EBMUsMwK53ecG5-SLlf1PLNP-lLOVxNP_lLxV5iJW
+}
+!procedure TencentWeibo($id, $name="Tencent Weibo", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/TencentWeibo', $name, $tech)
+!endprocedure
+!procedure TencentWeiboCard($id, $funcName="", $content="")
+  IconCard($id, '<$TencentWeiboMd>', '', $funcName, $content)
+!endprocedure
+!procedure TencentWeiboGroup($id, $name='Tencent Weibo', $tech='')
+  IconGroup($id, 'IconGroup', '<$TencentWeiboLg>', $name, $tech)
+!endprocedure
+@enduml

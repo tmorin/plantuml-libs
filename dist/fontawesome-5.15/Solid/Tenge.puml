@@ -1,0 +1,13 @@
+@startuml
+sprite $TengeMd [14x18/16z] hSUr0S104CJ0PphO_girCqMUI797Ld4mpW4V29cJT1Jn8PTICWCqHZAZ0iGfrakdYt-V2y5EqGC
+sprite $TengeLg [20x27/16z] rSYr0SDG50D0lS-i_QTD38qPArzvsA3qYk9QuqMrhHJ82hRuiEBuGao3p4uQ1OmKoIQOqHkdFdfrSL1A2Gxy0G
+!procedure Tenge($id, $name="Tenge", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tenge', $name, $tech)
+!endprocedure
+!procedure TengeCard($id, $funcName="", $content="")
+  IconCard($id, '<$TengeMd>', '', $funcName, $content)
+!endprocedure
+!procedure TengeGroup($id, $name='Tenge', $tech='')
+  IconGroup($id, 'IconGroup', '<$TengeLg>', $name, $tech)
+!endprocedure
+@enduml

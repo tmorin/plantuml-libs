@@ -1,0 +1,19 @@
+@startuml
+sprite $BullseyeMd [14x14/16z] {
+7Kq54WGn3ABUtYJm_zyUMKOY681sWepRK9YKCYMkEYI_BP0s3ZKnxXtrxjJ5bV6mzQGsR9bfYQWqPVyq6Vgk2GpzwYfbpX4MaDI1pJBbb5iDyptNK1rBPerD
+jwDEHL0-2lqccQzx_GC
+}
+sprite $BullseyeLg [20x21/16z] {
+JP075WH114GBdGFtl-rYq_o9LKzB2AZjgwgd4txqQucEhydfgEQxf2Kkj0iHj-DkZLmUDNz9t1JmD1i0zxM70Crimwq354iQGXVr1-Bwtap6Pii5uEyEr3oo
+pTaWjGLdU85ucKlACXbOqiiuVo7pixySJJ69UkOxfZUBQSxsQM4EZS9oFyD6MQ4HLK1rp4P0gaXWcv6G9rR-BC5c5QapqWe2slRZC3wK_N4Q7d1jhNvZNW
+}
+!procedure Bullseye($id, $name="Bullseye", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bullseye', $name, $tech)
+!endprocedure
+!procedure BullseyeCard($id, $funcName="", $content="")
+  IconCard($id, '<$BullseyeMd>', '', $funcName, $content)
+!endprocedure
+!procedure BullseyeGroup($id, $name='Bullseye', $tech='')
+  IconGroup($id, 'IconGroup', '<$BullseyeLg>', $name, $tech)
+!endprocedure
+@enduml

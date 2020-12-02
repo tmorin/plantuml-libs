@@ -1,0 +1,13 @@
+@startuml
+sprite $MixMd [14x16/16z] TSV50KCn30Mm5sPx_sdRps7TX8xeC3CHyOupL9C1NvUkaN7DF92xfMuwsRhJDSjiws3l8BD79HIs_W
+sprite $MixLg [20x23/16z] fSc30KKn5C3GNBmQ-q_xRIFrAHzc3vf_biNQ3Gt0Rwm3jlyTTrOWtPg2ZC-ClddVchTcjxRjXUdsb6l3QpKkxQOoP-8sTtvj3G
+!procedure Mix($id, $name="Mix", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Mix', $name, $tech)
+!endprocedure
+!procedure MixCard($id, $funcName="", $content="")
+  IconCard($id, '<$MixMd>', '', $funcName, $content)
+!endprocedure
+!procedure MixGroup($id, $name='Mix', $tech='')
+  IconGroup($id, 'IconGroup', '<$MixLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FileSignatureMd [14x12/16z] FSt50S0m20LGj55W_sqR_xU7nipN3M5cgqN7fyIg25HfASnSGC8MficgV0yzGk201puOyXmXRMAgGchg0rED2okgm9BxtEkssEyBcle1
+sprite $FileSignatureLg [20x18/16z] {
+PT150e0m34JH9911AdF_q-8fzfUlNfvbooPHcBBepsh3PaQosjl4uTZD4SRHjpRhoO7F8BrEV5KLd6N2YvpSKBv4XBtei598MgF3EjjSIz1kMHH3jXgqsQo0
+z2AEJi8cCCyS0OU5jThQ-g3ubnK
+}
+!procedure FileSignature($id, $name="File Signature", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FileSignature', $name, $tech)
+!endprocedure
+!procedure FileSignatureCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileSignatureMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileSignatureGroup($id, $name='File Signature', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileSignatureLg>', $name, $tech)
+!endprocedure
+@enduml

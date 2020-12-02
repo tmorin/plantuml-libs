@@ -1,0 +1,13 @@
+@startuml
+sprite $GripLinesMd [14x14/16z] Oo0JSA00VXJ0Z09GzQ6gv4O1vBe5
+sprite $GripLinesLg [20x20/16z] OnWWmCs30RZuiG1EBWp0GRGTlEXMy99e1_q1
+!procedure GripLines($id, $name="Grip Lines", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GripLines', $name, $tech)
+!endprocedure
+!procedure GripLinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$GripLinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure GripLinesGroup($id, $name='Grip Lines', $tech='')
+  IconGroup($id, 'IconGroup', '<$GripLinesLg>', $name, $tech)
+!endprocedure
+@enduml

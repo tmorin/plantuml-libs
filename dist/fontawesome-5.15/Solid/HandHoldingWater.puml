@@ -1,0 +1,16 @@
+@startuml
+sprite $HandHoldingWaterMd [14x12/16z] HSd50S0W04MnZpjl_sdhXLoZcmEhfK7LpmCx0nUdNuUcBGGjHflht9nC6obFeAOaEqWyMYaDl5Y6bIQVeii9
+sprite $HandHoldingWaterLg [20x18/16z] {
+dSgr0G9104JHl-ux_LSBd4l8oqOurCPRa29FPahJy93rKzwtXUN6QnMuSLfvxef-6azvZCmVN1khRW7RAf1q2E2dL6lJOWRltRfFfqDEEUScDODU2hoxoBlh
+ZiKN
+}
+!procedure HandHoldingWater($id, $name="Hand Holding Water", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandHoldingWater', $name, $tech)
+!endprocedure
+!procedure HandHoldingWaterCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandHoldingWaterMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandHoldingWaterGroup($id, $name='Hand Holding Water', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandHoldingWaterLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,15 @@
+@startuml
+sprite $A500PxMd [14x16/16z] {
+9OpNWKKX24J9A8FU_hjT7tj-21E8Q06e0fH-T5Xakl5SuEYdBVdNHCnTyyHeLhshKsoqBzcKKUEia8F6QwFX97DjmnmAEPjRckZ9LbAX-5r7TnPRN8ldtCk_
+Oi3aAX5VpIzKypezx9hkgYM9gUmAzm241d_QjhVy0G
+}
+!procedure A500Px($id, $name="A500 Px", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/A500Px', $name, $tech)
+!endprocedure
+!procedure A500PxCard($id, $funcName="", $content="")
+  IconCard($id, '<$A500PxMd>', '', $funcName, $content)
+!endprocedure
+!procedure A500PxGroup($id, $name='A500 Px', $tech='')
+  IconGroup($id, 'IconGroup', '<$A500PxLg>', $name, $tech)
+!endprocedure
+@enduml

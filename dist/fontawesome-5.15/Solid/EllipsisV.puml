@@ -1,0 +1,19 @@
+@startuml
+sprite $EllipsisVMd [14x37/16z] {
+VP253G0W30IB1OVzfyKbw4Nh_OSCvPn2WrYViAG4sFbA2RLlw5po0vocPaINA0-w7ZX8y1vnoCWQIAWmuvnXC4087Y2k54TzhDnmTP3ELnAcH-Ruclw-jZsm
+vK2FwWdU9LI8D4OI-BDshblM2-lrzRCbegkYHUtgnEBIuM04
+}
+sprite $EllipsisVLg [20x53/16z] {
+hPG55aCX40CNTxZ_QIlqM_fIxpmV73R8Wd7E213wkD33RbGT2rN9mbIBN5GS1-9KgXzTdwFT0DnS4rruv3mwVtKQdPOhvQYAJ3Hsk-5W9mkcBYU3gx4nvsZb
+N-XOUwzH7rI0mzvVQe8juwRRqRMfp00CkR-0AqmYwqVdu-lo_U4v-7aNTBhUIzA2A2LVOl3T-FlQiM65rWkhArP_h4xVhN6M3vOZaZUMIvxVXT0Wv-G_E0C
+}
+!procedure EllipsisV($id, $name="Ellipsis V", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/EllipsisV', $name, $tech)
+!endprocedure
+!procedure EllipsisVCard($id, $funcName="", $content="")
+  IconCard($id, '<$EllipsisVMd>', '', $funcName, $content)
+!endprocedure
+!procedure EllipsisVGroup($id, $name='Ellipsis V', $tech='')
+  IconGroup($id, 'IconGroup', '<$EllipsisVLg>', $name, $tech)
+!endprocedure
+@enduml

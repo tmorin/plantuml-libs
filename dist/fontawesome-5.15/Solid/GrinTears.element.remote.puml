@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the GrinTears element
+include('fontawesome-5.15/Solid/GrinTears')
+GrinTears('grin_tears', 'Grin Tears', 'an optional tech field')
+@enduml

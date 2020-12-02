@@ -1,0 +1,16 @@
+@startuml
+sprite $DeviantartMd [14x22/16z] JSc53KKn34DHFoZJ_jD-2CctU1HOz_ddQgpdI4cRWdMun9XWlQm1rWEyxvCK3P9gNwgfAhzqv06BbGzhiShXjjprkYN1WYNAh0dM6_e2
+sprite $DeviantartLg [20x32/16z] {
+PT052aL134FHZFjq_wlz-beAkVWXME3hyijJ4hR9beHjiMNHXdMLfd2HgOFe1hOAiWEsmhRngNugmon3gqhBA5orwAxKMlscCzzlHXQ5RR15OHjiYSGTVOPb
+562fLP0Ti5Ms3ROCtni
+}
+!procedure Deviantart($id, $name="Deviantart", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Deviantart', $name, $tech)
+!endprocedure
+!procedure DeviantartCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeviantartMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeviantartGroup($id, $name='Deviantart', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeviantartLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SpiderMd [14x12/16z] DSV70GCm202nexWRs7_QzEWd80R0ke2AbD4xNeZCu8vHrTScExdCRjKnsm4MSQfUZL1e9-iZZsEr_zkbEItdEpDrHPSS-fwia4PB69KTAUCpH81qyCFFLPu
+sprite $SpiderLg [20x18/16z] {
+HOw54GGn3CGKPc__tVvxZXJQKHp0sHESSNX86bVeol34T8LuRSOSM0h4CH916p9BWwg6IGeUcdBPIfnMzATM8tffrCc1uMuIafT0bMoPd7Ma1X3ArCig0OWc
+-vp94dbfhC-ieSrHPwbVhlz5KzUXggVBvQR6LWh13CoL1OvYYD1KuFepP7Lmbu3Kko_nSnUVAugV2rRX1m
+}
+!procedure Spider($id, $name="Spider", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Spider', $name, $tech)
+!endprocedure
+!procedure SpiderCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpiderMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpiderGroup($id, $name='Spider', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpiderLg>', $name, $tech)
+!endprocedure
+@enduml

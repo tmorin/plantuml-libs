@@ -1,0 +1,13 @@
+@startuml
+sprite $TrailerMd [14x11/16z] LOo50K0X24InXJjb_sb_vwDJVgWzT16VVZEtgh913PrjhngLYhtohSAsod5NRgNIeUmp1aSPpFUhcbXKKpqHCOxDtuJs5Yi
+sprite $TrailerLg [20x16/16z] XOy54W1H24BLtoNtF-rsvnkdB82Uu3DZIt6c3JrScNfohh6d3Eorz-JQinYnnzw2ddj9MDBGbVd9sCjSK3XZGnMc8AAOGsyyJvH0T8fN4L7fZ5HKeHzw
+!procedure Trailer($id, $name="Trailer", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Trailer', $name, $tech)
+!endprocedure
+!procedure TrailerCard($id, $funcName="", $content="")
+  IconCard($id, '<$TrailerMd>', '', $funcName, $content)
+!endprocedure
+!procedure TrailerGroup($id, $name='Trailer', $tech='')
+  IconGroup($id, 'IconGroup', '<$TrailerLg>', $name, $tech)
+!endprocedure
+@enduml

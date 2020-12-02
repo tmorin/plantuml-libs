@@ -1,0 +1,16 @@
+@startuml
+sprite $BacteriumMd [14x14/16z] DSk55SH0409GrdMW_sxlSKd-wXWUPxJO-312Dy7clh8xu3QzmXLz2k2kwajCJxJ2Owmxn4c96aXOL4MLIiq0MgYZImtcgP1wWXtFw-ALhaGcl3eB2Xu_
+sprite $BacteriumLg [20x20/16z] {
+JT013W0H30J01Q1q___RkwQ9T000yBJo9rO4YNU8Si2OaZ3fEbpcEQJJFNpTPN1X5WEnyoYCfkslLbjPwGf-rqSltGOmo4UboK9N9MKfVye5qqYhLLkKfSFO
+_HkGr3TtGjkrapnmVfChf8xt9U7wJu__yVJtyc3op38cegOPY3u
+}
+!procedure Bacterium($id, $name="Bacterium", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bacterium', $name, $tech)
+!endprocedure
+!procedure BacteriumCard($id, $funcName="", $content="")
+  IconCard($id, '<$BacteriumMd>', '', $funcName, $content)
+!endprocedure
+!procedure BacteriumGroup($id, $name='Bacterium', $tech='')
+  IconGroup($id, 'IconGroup', '<$BacteriumLg>', $name, $tech)
+!endprocedure
+@enduml

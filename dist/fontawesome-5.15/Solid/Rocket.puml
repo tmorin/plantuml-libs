@@ -1,0 +1,16 @@
+@startuml
+sprite $RocketMd [14x14/16z] JSsr0G0m3CH0Xzc__xHXKdULQ2KJHbi1MniSof2nnWC8P07XiIec0Gkxm1zOCFX2ZLLPA99w2gj0Cmlm4scTbdPTHNsoD6e
+sprite $RocketLg [20x20/16z] {
+POy50W0X20HNF5lP_x_skXbxBC2Bs9IafiTCWmVzESGBlKznlvQv0i29Y5Uk9A3ivmgLofqCLB8Zy4MfMuVEFpuOLUqnTT2V6W8uxwKygZdiU9eKhDi8rcro
+vB-3kEFim9l31UEAu8FeOnO
+}
+!procedure Rocket($id, $name="Rocket", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Rocket', $name, $tech)
+!endprocedure
+!procedure RocketCard($id, $funcName="", $content="")
+  IconCard($id, '<$RocketMd>', '', $funcName, $content)
+!endprocedure
+!procedure RocketGroup($id, $name='Rocket', $tech='')
+  IconGroup($id, 'IconGroup', '<$RocketLg>', $name, $tech)
+!endprocedure
+@enduml

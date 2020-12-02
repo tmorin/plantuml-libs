@@ -1,0 +1,13 @@
+@startuml
+sprite $HSquareMd [14x16/16z] Os1WX0C61Wv-Fdu8038u-F439YOe2GOC330IGlC1ZO3pe02JXwaIGgBPW1-WkXhLHm
+sprite $HSquareLg [20x23/16z] dSs54KCn30DGXJdQVzhsC_Cxyfa4x0aVDXmITm9VA36nas8PUngYgpDWtlUGQoEkUwApwerMFTMI7t8LiEiPYCf60In7fR9J2r-eWJiUscve7Fa3
+!procedure HSquare($id, $name="H Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HSquare', $name, $tech)
+!endprocedure
+!procedure HSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$HSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure HSquareGroup($id, $name='H Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$HSquareLg>', $name, $tech)
+!endprocedure
+@enduml

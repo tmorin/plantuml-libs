@@ -1,0 +1,19 @@
+@startuml
+sprite $HandsWashMd [14x12/16z] {
+DSV50GCm302nY-EWQVzfozLFW5jiPMtU9A_xxhmrMMuMPh0t6bOLPoXI9LfLIyTLc8lNT6NbxDgXrrxraX6f4Ci_CxFR43d_dKQx-cwwXy8gcw_5jGaqKx5w
+U-q9
+}
+sprite $HandsWashLg [20x18/16z] {
+LS_L0GGn20JG8MmWFlrtUt2-xok28hdQ4G16mrjXMwSKeD7nvdJskG4eFjQ908vwuQj4q74Q1u3Q13gwPT2Cs0fSv8JjFNbujal9C7AZBeQkectcOrlwUbDf
+cpo2btoxb67t5deMdPno-3DU-zJFrTpTikgkpdyBW4ZPxpXl4QS8RbZtUkZyL9mzL8H1-iMqrzg6LDP4wPzn7C03
+}
+!procedure HandsWash($id, $name="Hands Wash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandsWash', $name, $tech)
+!endprocedure
+!procedure HandsWashCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandsWashMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandsWashGroup($id, $name='Hands Wash', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandsWashLg>', $name, $tech)
+!endprocedure
+@enduml

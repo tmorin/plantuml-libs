@@ -1,0 +1,16 @@
+@startuml
+sprite $AvianexMd [14x14/16z] JSd55KGn54CnXq_W-VPVxJ1yRIMbFhwAr8q_bWgOBtMS5XzvGjFXnUs0SrglNyF0aOg1lc2jarG0wW6N55CDI0QSWwb1YATzO3QMk1WoFpifb_fH9Dq1
+sprite $AvianexLg [20x20/16z] {
+TOw5OKKX40G7TxR_QYF7IxuFUhwy9_HvJtSGzCI08UsbEpOigRXxvy1BglXzypNYxnEjw-NFbDzdEUAEd0w1VkNZyCVdc38Ik5CxSRztMWf0DLy_YYC-hWX3
+9Y9VbKkAcCn8a-6AHSAMF4F6o39druAjUvOqGSyKc4-k2RWs-hXH-C0t
+}
+!procedure Avianex($id, $name="Avianex", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Avianex', $name, $tech)
+!endprocedure
+!procedure AvianexCard($id, $funcName="", $content="")
+  IconCard($id, '<$AvianexMd>', '', $funcName, $content)
+!endprocedure
+!procedure AvianexGroup($id, $name='Avianex', $tech='')
+  IconGroup($id, 'IconGroup', '<$AvianexLg>', $name, $tech)
+!endprocedure
+@enduml

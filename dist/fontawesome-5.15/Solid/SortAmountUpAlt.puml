@@ -1,0 +1,16 @@
+@startuml
+sprite $SortAmountUpAltMd [14x14/16z] ROrL0W0X44AnM-v_shNdQvyv1O3JyqI7ZQeUAAmxC9aqY2tjg9Fi6fUGMADsCKIxGisqviWaaRR6AeakqhbmDugrp6L_ErqyoDm6i7exR0O
+sprite $SortAmountUpAltLg [20x20/16z] {
+bSs30G0n00F0r6xsd_Pj_zKCBeca0QYSSZTE8gi434c7YITP16ICIKrRbhs4hSg1mOQKaLKhoDmBqsvWGP_Hgxiz6Nj-jxTwtbDvLFG-O-3s6GFr9yFlCdBA
+SSrO0JhxRKPC7XTQ
+}
+!procedure SortAmountUpAlt($id, $name="Sort Amount Up Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SortAmountUpAlt', $name, $tech)
+!endprocedure
+!procedure SortAmountUpAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$SortAmountUpAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure SortAmountUpAltGroup($id, $name='Sort Amount Up Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$SortAmountUpAltLg>', $name, $tech)
+!endprocedure
+@enduml

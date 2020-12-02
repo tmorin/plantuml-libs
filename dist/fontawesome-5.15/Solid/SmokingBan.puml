@@ -1,0 +1,19 @@
+@startuml
+sprite $SmokingBanMd [14x14/16z] {
+BOw50GCm20G_tc2t_xHrt7b9Am7gw4CZe3wwFabncwOsBEq0ayn6Btfoxpjj9zV4eCjmgGybvB1-IJUV5sAHtSZXvvqnexmPbSifjZvas2HECVufJAqV24ru
+IE-KD8jV8dK3YC_22m
+}
+sprite $SmokingBanLg [20x20/16z] {
+DS-53GGn30LHUyFqf_zkJuvo8tv1M-Hj2RIgsxycNgSyMi3kjOu3Z4iJbCqicHL1ZuC0OPfklg6O2-bY5iTT76kGCnSzxMCLocAR1SQBViyDqQruO2srv6AB
+3ILnBd8alewWPXuM-ww9dW5Tt8TliXRRQwqjMmdCdnWrZjWjWrA3R0Tz3mlHDgkm_M7cpJb0zQete5dK0QqnbXv5vV3Q-L7esD8QJtu
+}
+!procedure SmokingBan($id, $name="Smoking Ban", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SmokingBan', $name, $tech)
+!endprocedure
+!procedure SmokingBanCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmokingBanMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmokingBanGroup($id, $name='Smoking Ban', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmokingBanLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GgCircleMd [14x14/16z] {
+DOu55W0X24J7LlB-jrtmkT-W0q0z5d37PVk5Qnhi3wkHbj9TGmZIK1owoant8GBNA1TphIJQfsMDES5MjsLjfkLKDBGQXfA7YKvOeUp6ELWzXHLKyv-HQyfR
+vIqwmjPLGli
+}
+sprite $GgCircleLg [20x20/16z] {
+LSu76eGm24JXIIn02jp_jil7kEtPVpK9gdwFEUtk-DH7F5a3Epq--KcAlnBH_T-y0LPtAX6tyXQTOmDRdlVURfBwXQN4oqWHcYUYJj8b2K8SPG_aAymq2-B8
+WnHQSoIahnEhLjsS2DiWUODoWPR7h5i1ciTV6zdnXzvHkB-qIK1JfxWGgAUQoGds0W
+}
+!procedure GgCircle($id, $name="Gg Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GgCircle', $name, $tech)
+!endprocedure
+!procedure GgCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$GgCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure GgCircleGroup($id, $name='Gg Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$GgCircleLg>', $name, $tech)
+!endprocedure
+@enduml

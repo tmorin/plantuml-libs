@@ -1,0 +1,16 @@
+@startuml
+sprite $DiagnosesMd [14x11/16z] LOU50KGn24EH0bzet_xJdciySiU0a0yQvj_hxxFZjFSKYyemrVlpuZnXkejeDvmtCzTKNTG6tNknL5GbuJZgljnzH4PcZDlY3rS
+sprite $DiagnosesLg [20x16/16z] {
+RSZN0O1020HHC5m0tUs_MpbpUdypiYjaaQV4a9xF6VpvAaDzlWuaEddIbFHrXXI6wrQjuCmmQzrMhvcSP6B8cb8i8nZQsbXxHBPjMyRwEYygfIr14ItUoIOJ
+W3FBHeDejzAjm0QRFVXZ0G
+}
+!procedure Diagnoses($id, $name="Diagnoses", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Diagnoses', $name, $tech)
+!endprocedure
+!procedure DiagnosesCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiagnosesMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiagnosesGroup($id, $name='Diagnoses', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiagnosesLg>', $name, $tech)
+!endprocedure
+@enduml

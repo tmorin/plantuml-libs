@@ -1,0 +1,19 @@
+@startuml
+sprite $PhoneVolumeMd [14x18/16z] {
+JSlL0K0n34BHMqkzxB_jSpb_2S2dTS3D4O1WJX6wf09HhZLCk-w66pajDuyheT1gK3gEXMjkM9fDAzV4lPjgSF0nA4YPMwj8zbmEZkopLFbq3H_zSnNj-dDv
+7S9prkEgp-NMlqgK2hSD
+}
+sprite $PhoneVolumeLg [20x27/16z] {
+PSo53GGn30313HmdsVwxVLbF1oCmcvl3327pipaJPblXdIN6Y6HINIFB7YnEa8RXWCnkJkwmQpXOfRemEiMtYSMIt6Z6MkYmnk5AC_ksmBGpEp7Qh1v7RvdG
+fRZkQeAtxC9cQThuIHGFXkwS71RKbPDIUVI2kd7r-1UQTcusjQPQEAc-LKwwuVfqrJ0oVsbeM3XPD3JEZkSUgMihNEMnSFO2
+}
+!procedure PhoneVolume($id, $name="Phone Volume", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PhoneVolume', $name, $tech)
+!endprocedure
+!procedure PhoneVolumeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhoneVolumeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhoneVolumeGroup($id, $name='Phone Volume', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhoneVolumeLg>', $name, $tech)
+!endprocedure
+@enduml

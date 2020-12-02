@@ -1,0 +1,13 @@
+@startuml
+sprite $SortDownMd [14x22/16z] pSUf0G0X30J0pSRcwR_QEtvmMCODtaLT2EP1nNU2e1z1wP7Ic5bTAVKZW0YkVW
+sprite $SortDownLg [20x32/16z] xSYn0K1050N11OZkzryjlCXjJ6R2uGk_eGEmLQk7LXjakeNTjvDq9Lr9LzALT2LJJXSi2syu0G
+!procedure SortDown($id, $name="Sort Down", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SortDown', $name, $tech)
+!endprocedure
+!procedure SortDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$SortDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure SortDownGroup($id, $name='Sort Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$SortDownLg>', $name, $tech)
+!endprocedure
+@enduml

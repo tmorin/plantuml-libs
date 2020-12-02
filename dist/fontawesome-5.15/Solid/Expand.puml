@@ -1,0 +1,13 @@
+@startuml
+sprite $ExpandMd [14x16/16z] dO-r0S00409XWEVsdpPkjBdcNP1jxHpE0Dc30CCR7LWNtYCzGEQD9lf9R-aBVRq_wwzRqGe
+sprite $ExpandLg [20x23/16z] lT2r0S1020NGV-wm_xOXxbBbTISeBlZKY-YfrCkEHnh2y1OTxfgrrc1W1VLt5Jljuvt4XkYEpNdy8DU8dLJpLN_VPwCGWaTF1T77Nk_qU4V6znm6Vg1neGC
+!procedure Expand($id, $name="Expand", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Expand', $name, $tech)
+!endprocedure
+!procedure ExpandCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExpandMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExpandGroup($id, $name='Expand', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExpandLg>', $name, $tech)
+!endprocedure
+@enduml

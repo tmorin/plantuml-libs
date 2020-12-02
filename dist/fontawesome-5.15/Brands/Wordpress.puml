@@ -1,0 +1,20 @@
+@startuml
+sprite $WordpressMd [14x14/16z] {
+FOvN0aH110JRQ2Pp_zkkjwc-IWQWaMP6nOFGnbhJs9x0Hhxf5JRwpLkamiGK6aUmArBwQ59T5Isusnvb1vwXkw9RjY5v-tNEhDRfE6iTe-V0N04VCQYS0Jb9
+pFCSj4N9NEYkG8MDzqxvF-hkHYbz0G
+}
+sprite $WordpressLg [20x20/16z] {
+FOq7baCX30E5Y_WLtV-sQxn9H9_dCUXuCciwVd56mTg2za6PVYvLtiDdV50qQJeOBQP-IM2ElPBKMLk-ghSHdW1UQG9NxqxBFFgr1cRlHmPJXknMLZlnHYRh
+74iwWRjaLx3Oqp81IdaKOqXUyajksL-L6wyE35rdbJzFw8xmFBPypqU6UHmY1xZBuPGcHgp72HXz_tbgbtFP7022SGyiIO7fTA2XmrKXV3R2rXcTtVyNYoGp
+FkGF
+}
+!procedure Wordpress($id, $name="Wordpress", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Wordpress', $name, $tech)
+!endprocedure
+!procedure WordpressCard($id, $funcName="", $content="")
+  IconCard($id, '<$WordpressMd>', '', $funcName, $content)
+!endprocedure
+!procedure WordpressGroup($id, $name='Wordpress', $tech='')
+  IconGroup($id, 'IconGroup', '<$WordpressLg>', $name, $tech)
+!endprocedure
+@enduml

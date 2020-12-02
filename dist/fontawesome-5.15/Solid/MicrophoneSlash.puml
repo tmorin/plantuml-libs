@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrophoneSlashMd [14x11/16z] DOpL0KCn54A96u7zfwtTllE7SW5eTiUNOIR8Llh98dL_oFYHZX_rRtzeAqH3bTLlg3EHQUvGrGLOFWYwsT5ydriIoDSjXCHFSFG6
+sprite $MicrophoneSlashLg [20x16/16z] {
+PP050aGX20M1RmVl_hTT0zqQUsno5vfa89FHeMuq2ODaZilgAmPAXmXKMGvqSOeESnUk-7Ds1PGr7YDCVhjxDSKwV5lkhdiGHbs02aU7fZpg042kUw2UHsEV
+Cjc1zgn7HVgmAljHXKs5s7kCzYbpxnX8poy
+}
+!procedure MicrophoneSlash($id, $name="Microphone Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MicrophoneSlash', $name, $tech)
+!endprocedure
+!procedure MicrophoneSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrophoneSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrophoneSlashGroup($id, $name='Microphone Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrophoneSlashLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CartPlusMd [14x12/16z] HKs50GCn42AUK_RVjdq_Lr1Zz4SQ87mbWNdatO-eG2DpbDA2N419KbhP_zG1-76pZik20oOZCo8LE61M7uUKewiFmJYwTV4Rpqjbu4lLnvD-
+sprite $CartPlusLg [20x18/16z] {
+NSy50e0W50FGqStkVrkPhOzkFiNXWnBnuRnh74rwEveA8F4mUGBWZzwu5Xi0GvaDSKxrCfQ-EXMuZdZrYaxc29Sh5uCbVkxh44TAxfG2CNmBW7HcOwqnTZ4u
+54LoYZX4FYeEbImnoUImzxlbrxFwoA-7C0jUlGq
+}
+!procedure CartPlus($id, $name="Cart Plus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CartPlus', $name, $tech)
+!endprocedure
+!procedure CartPlusCard($id, $funcName="", $content="")
+  IconCard($id, '<$CartPlusMd>', '', $funcName, $content)
+!endprocedure
+!procedure CartPlusGroup($id, $name='Cart Plus', $tech='')
+  IconGroup($id, 'IconGroup', '<$CartPlusLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $UnlockAltMd [14x16/16z] POk50S0W30HnXzz_snAf7veNima36C482KpcmGEhb0LucWgzf5MQEWOz0vqdUIhgFJ4wMMlvNx1PkWl-BE_NFNLg_wSx-QUyXWC
+sprite $UnlockAltLg [20x23/16z] {
+ZOw55G0X5CEAEzr_sdDNWlK5-vYGeP352-mOpbHzKmEh59NZnJ0jc753ZkDU6eAPtH3hzBeSN9XT9jESofRoPrBUoulRkJinrLN3ZaFYZS0FYh7rwZHWhqu1
+kj6PgqjIvSyQxYh9V5Sz
+}
+!procedure UnlockAlt($id, $name="Unlock Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UnlockAlt', $name, $tech)
+!endprocedure
+!procedure UnlockAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnlockAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnlockAltGroup($id, $name='Unlock Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnlockAltLg>', $name, $tech)
+!endprocedure
+@enduml

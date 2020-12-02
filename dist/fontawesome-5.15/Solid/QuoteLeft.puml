@@ -1,0 +1,16 @@
+@startuml
+sprite $QuoteLeftMd [14x14/16z] ZOS54WGn3CESPQZZ___st1xpAg0H4DCSC5tpp1mSiJ3xSPSqEMWFVbmxOAqEAGE6eh-qrmXf_L0Yj-gqrUXTTuO3bUrrA6SFfWEYEau
+sprite $QuoteLeftLg [20x20/16z] {
+bSi73WGn24DHXqmBPRZ_RTT2g6v_AbW_2bwRotoYo6L-yAua3ZgI5D3irebjJxfZCadMFc0yQm1qSRfmt9c1Kiy2ujLkpe_uq6o8e9k83BOIirhPioqWUjxP
+j5lxj_cd5dqlG7lQL3DJOy9O76fByC83
+}
+!procedure QuoteLeft($id, $name="Quote Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/QuoteLeft', $name, $tech)
+!endprocedure
+!procedure QuoteLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuoteLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuoteLeftGroup($id, $name='Quote Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuoteLeftLg>', $name, $tech)
+!endprocedure
+@enduml

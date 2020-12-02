@@ -1,0 +1,16 @@
+@startuml
+sprite $HandshakeMd [14x11/16z] PSct0KGn309G9snbzf_sf_BkDHBGVdMJBgRZUUViGJZ9x7EIcmYAFK-HjGifNKayYQ0l8UJRSlDpW6J6IdvqH6wq7doaDEpsKXDj_su
+sprite $HandshakeLg [20x16/16z] {
+bO-5OGKm20K3ZSkx_QVjT_UBuX1UOtOu5meaNuXoTB2TAhlOKNSAiKoaFw09P8lzmtGuw6M2eqwaaAvr8hkdGvcBZZc1OeChtO5knGNaAntBWZBI23OvKSAG
+3WEDWwQrwn4RerB2Rsm
+}
+!procedure Handshake($id, $name="Handshake", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Handshake', $name, $tech)
+!endprocedure
+!procedure HandshakeCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandshakeMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandshakeGroup($id, $name='Handshake', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandshakeLg>', $name, $tech)
+!endprocedure
+@enduml

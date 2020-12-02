@@ -1,0 +1,16 @@
+@startuml
+sprite $MugHotMd [14x14/16z] LOc55SKm30CLZdd_QJyMt3FU4qeCnCI94vml6z5x2jb0VbcTt_v1pBI_pKmTaLbnmSrJGE1aCk99SfqLAG2mx136XpS
+sprite $MugHotLg [20x20/16z] {
+PSo5WKGX5CNGYplflzhLiGVvoa6aIfIdwxDCbsExJtERf7OiJE3TeXYiD0MMCS-G1jwWSvBS-x3sKwt_pq_5IrpbqnOGBMt5pJXDZNtPO1sM6bIkbhjeU5dO
+mKkQnhf-YsQPrrzXlAG_w1i
+}
+!procedure MugHot($id, $name="Mug Hot", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MugHot', $name, $tech)
+!endprocedure
+!procedure MugHotCard($id, $funcName="", $content="")
+  IconCard($id, '<$MugHotMd>', '', $funcName, $content)
+!endprocedure
+!procedure MugHotGroup($id, $name='Mug Hot', $tech='')
+  IconGroup($id, 'IconGroup', '<$MugHotLg>', $name, $tech)
+!endprocedure
+@enduml

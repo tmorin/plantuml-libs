@@ -1,0 +1,20 @@
+@startuml
+sprite $OdnoklassnikiMd [14x22/16z] {
+RO-5WKGX34G7Tz9_jnUxzVa2Bnu0dLG3-8T_Z7B6ABO4D8yPH5t_MIWJJQNof4gqXHPH0y9bh7KJtG2WaAj2CzZB7iaEFJDt-uV9fH9OSV1Dvpfx7vkjqKDT
+Gjewx5uzmYGf-5T_hlTZsreScyt4wFiriAfLMknHt05_
+}
+sprite $OdnoklassnikiLg [20x32/16z] {
+PP25ZGLG20JtkRFzTtk1m3-R61aqm2ZhaMyLVBFeh33fyiDDC3P_i4rL3QNdt4MZ6cMIDSeIXHfq65tJka4RV7B4-Q_BtjjWDE_5qRDWwA4dahm5AAgynKAA
+aD5XPmLwgCiRwgfo-ZNJuqzlsccbs97pBGoIhyNDxP4SYuhiqVlOGcNbnp-yZBH_gsrpglNuZ0edrIxwwvh2n3Svy9D1O_vN8JzA9EH7iHI635M18Y5pg90P
+I6BAgExGH4nvPGE-
+}
+!procedure Odnoklassniki($id, $name="Odnoklassniki", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Odnoklassniki', $name, $tech)
+!endprocedure
+!procedure OdnoklassnikiCard($id, $funcName="", $content="")
+  IconCard($id, '<$OdnoklassnikiMd>', '', $funcName, $content)
+!endprocedure
+!procedure OdnoklassnikiGroup($id, $name='Odnoklassniki', $tech='')
+  IconGroup($id, 'IconGroup', '<$OdnoklassnikiLg>', $name, $tech)
+!endprocedure
+@enduml

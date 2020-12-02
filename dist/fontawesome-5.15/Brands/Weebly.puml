@@ -1,0 +1,19 @@
+@startuml
+sprite $WeeblyMd [14x14/16z] {
+NOtL0SLG24FFTQ6G_QTzmcTnJNX98KFwTdcTqi6aAHzFw2nvJ9CEGm6cpPG4kZ3Li30DxeJg5AtXHYzjq5agwMm3tA1gmgD2qm0iagyy0L13sbFA5PJHe8xA
+Mxu
+}
+sprite $WeeblyLg [20x20/16z] {
+bOz7Si0W5CL4Tm5q_zjcFkFiasTJXIZyDQcF2fGnCj16JvIjFWpLnbHNNivh-UXzkvzli3D5lU0n1bMtcL0AD7sWEXy7N4uWRHlSNZM69TIGKu3C2crLKg9F
+wCxmRkY9gvCRlFRmTWfnFL5dpS2qdS51muE6xwaFcjPlUIKj0pKN9_6evLpEHmSdwLLdAakz-Krf9LXjcV_a1m
+}
+!procedure Weebly($id, $name="Weebly", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Weebly', $name, $tech)
+!endprocedure
+!procedure WeeblyCard($id, $funcName="", $content="")
+  IconCard($id, '<$WeeblyMd>', '', $funcName, $content)
+!endprocedure
+!procedure WeeblyGroup($id, $name='Weebly', $tech='')
+  IconGroup($id, 'IconGroup', '<$WeeblyLg>', $name, $tech)
+!endprocedure
+@enduml

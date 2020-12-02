@@ -1,0 +1,16 @@
+@startuml
+sprite $AudioDescriptionMd [14x14/16z] VSj50iHG309Glcl2_KyxK_VsxH809yOUG7aWl98ah2dr-Of8zB0e70rpUazdnwF1eG-ND-CL41232KZJLPXZTYxpcm-xw73o1m
+sprite $AudioDescriptionLg [20x20/16z] {
+bOp50GCm4CESet2y_xHbvkff47v4IdsWfC4d6lzWcUmK8QfvNGH0a88TSWuTIAIYBqKvNQ61Ji5WWPslQl1JvfVhxhpxjI6eXsW2O-u21N2-JYjajrxCe_8V
+-dDKKppY-9Kj
+}
+!procedure AudioDescription($id, $name="Audio Description", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AudioDescription', $name, $tech)
+!endprocedure
+!procedure AudioDescriptionCard($id, $funcName="", $content="")
+  IconCard($id, '<$AudioDescriptionMd>', '', $funcName, $content)
+!endprocedure
+!procedure AudioDescriptionGroup($id, $name='Audio Description', $tech='')
+  IconGroup($id, 'IconGroup', '<$AudioDescriptionLg>', $name, $tech)
+!endprocedure
+@enduml

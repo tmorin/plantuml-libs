@@ -1,0 +1,16 @@
+@startuml
+sprite $CircleMd [14x14/16z] LOu54e10202vBc3__rl7rhsWGqJYT42p70nyBKF3RYXb5yayIXn4EL6JkKTE8XMNXscirshmj-orXYlfDW8zgxsX8D4rdXtPTul6Qcso6plLmDk-vWO
+sprite $CircleLg [20x20/16z] {
+RP170WGX20G18xfQ_t_jvibJDpBTyiLowzspoeer_lYIJJ1AC8jrCiEIgl937Jv9WoGhXQ4YZIehlz0OiiUOMYXoe14RuPZBr8uTSn6_opdnF5iozPZhH6Ng
+FXK-lpb-R2iYElSVEe_VeTKYwmpxhHZGSeovmsFvJElaozphr5ZSo_Bf2m
+}
+!procedure Circle($id, $name="Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Circle', $name, $tech)
+!endprocedure
+!procedure CircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$CircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure CircleGroup($id, $name='Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$CircleLg>', $name, $tech)
+!endprocedure
+@enduml

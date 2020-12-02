@@ -1,0 +1,16 @@
+@startuml
+sprite $OpenidMd [14x16/16z] TOt50G0n3CFAt6Z_QOyPz0dQLbyOUnaywJ9bui_aOo47j_HHQDFKQIdfIhNBPuAUAPlEfTh1dYxwDatVzPfGwFwI5peWxaYtCMZrmGW
+sprite $OpenidLg [20x23/16z] {
+dP15WWKX34GZZPEy-zzss8onwuyJhIfvFNpeRHfWbqcJ_D1cVcnkVpi6PsKdvYDwFBQ0gCTsDgmOyW3JHHDCV0FJWVhJumbWBsX_-ghNUKpOZGLIRzk6SjiA
+X5us6P3biaa3efVyfvNr0CZsNvIdpQRoTdm1
+}
+!procedure Openid($id, $name="Openid", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Openid', $name, $tech)
+!endprocedure
+!procedure OpenidCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenidMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenidGroup($id, $name='Openid', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenidLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SmokingMd [14x11/16z] JSh50SHG40BGxpO3z5_jRZnvDoHSfdU6n_Ak-AIc2dz7OzLyew-kDmr-KqmnfrfgRPkSSYpKnjrf-tE7xLTie0b717IaFm
+sprite $SmokingLg [20x16/16z] RSxL0KKX3C1Gt6dsd_RfDIIV1sdL8z226WFDnWGxMiK7S8CvlYXwG0ysayRNWMhfe-dTEYAwNpQclmsI4Aww_hqzIfzYup_Zw7Wps70lyKZ-zWO
+!procedure Smoking($id, $name="Smoking", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Smoking', $name, $tech)
+!endprocedure
+!procedure SmokingCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmokingMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmokingGroup($id, $name='Smoking', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmokingLg>', $name, $tech)
+!endprocedure
+@enduml

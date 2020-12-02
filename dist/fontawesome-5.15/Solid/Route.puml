@@ -1,0 +1,16 @@
+@startuml
+sprite $RouteMd [14x14/16z] ROpL0KCn30CLU12mRlzfo_xhcL792LnADcPdKLbQP5NiC_XxryU4bGL0LBKxTjEYbreaOrpckweIraLllF4hN8ls_Z8cdi3KbqczYJhc1opjVlEZFm4
+sprite $RouteLg [20x20/16z] {
+LSy50WCW241Hx8H__zjkBFNPBN8A4tQMoyObELIO7POSEXPaOlS-QjHxNp1SaLE1-xhGnW28yfEDusGCNYkegdNlLpKRGJ8q2SUrJ6z_GIdM5gG0Dfvw4V4Z
+2QeqFfOeApJyNDdce3VS_lzoeq71j_rCp3_1a3u-fdz2EbiwV-R1ZLYEcHdb0G
+}
+!procedure Route($id, $name="Route", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Route', $name, $tech)
+!endprocedure
+!procedure RouteCard($id, $funcName="", $content="")
+  IconCard($id, '<$RouteMd>', '', $funcName, $content)
+!endprocedure
+!procedure RouteGroup($id, $name='Route', $tech='')
+  IconGroup($id, 'IconGroup', '<$RouteLg>', $name, $tech)
+!endprocedure
+@enduml

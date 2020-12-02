@@ -1,0 +1,16 @@
+@startuml
+sprite $PencilRulerMd [14x14/16z] DSm50WCn4090eXMuyl_VbZs9JrO0-eEC9XyTovTo-ysWQs4EXOxajSnEwniM77uQnesxVDvW0RZHHs5VQ8SRsWDvhyaxJUQqVmLLvxgVRaKYqK-BC2tW3m
+sprite $PencilRulerLg [20x20/16z] {
+PSo5WGGX04FHu4xwx_OkiED_b8S0YApuPGSp5b4_oasIPTCmpiWoLTxasGnSHf7DDU59MZjP5fR6dVidBcn0kv4m6WWFKX6hTgDcjXbx4Ovk5Co7qc-bknEd
+-T0meJqtaiQJDLt7wrCdESf1C6t_JjT_fDect4WeGkybUHnL4Vu
+}
+!procedure PencilRuler($id, $name="Pencil Ruler", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PencilRuler', $name, $tech)
+!endprocedure
+!procedure PencilRulerCard($id, $funcName="", $content="")
+  IconCard($id, '<$PencilRulerMd>', '', $funcName, $content)
+!endprocedure
+!procedure PencilRulerGroup($id, $name='Pencil Ruler', $tech='')
+  IconGroup($id, 'IconGroup', '<$PencilRulerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HourglassMd [14x18/16z] LKv50W0W29lT-l_Nse6xmR9Gv4olA2d5ERaIaDxb0Vik1R2R4z1nSXB700_ZS0mBRbm6YzgfSLwH5C2y1l6e4OH_cQ2hsHRkdFAX0G
+sprite $HourglassLg [20x27/16z] {
+RP750GLH309dVP_tN-rt3Smn7kX3gCFGJMYLO9ifCPOXnzW9HuojCCSD4yI12M3HCZX_OpjFqk_IDqT_DUvyUNxJ5hwSG-gop7Dxr_77ZFzZaN-TBbO_fxFn
+O_5MAab3nnK
+}
+!procedure Hourglass($id, $name="Hourglass", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hourglass', $name, $tech)
+!endprocedure
+!procedure HourglassCard($id, $funcName="", $content="")
+  IconCard($id, '<$HourglassMd>', '', $funcName, $content)
+!endprocedure
+!procedure HourglassGroup($id, $name='Hourglass', $tech='')
+  IconGroup($id, 'IconGroup', '<$HourglassLg>', $name, $tech)
+!endprocedure
+@enduml

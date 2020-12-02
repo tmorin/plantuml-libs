@@ -1,0 +1,19 @@
+@startuml
+sprite $ExclamationMd [14x37/16z] {
+VT074iGW30D0qJly_xTtpaIGhgbBjGsaiIS1q6D6VqjregkhqAY6cofLxofK4MKgYqvr8ZuhYW8LH9xo8lSi9xAK5Pbd6R1GbYcxzX-3vnZlvvPjsnmiRh-V
+9nZ7JEHl_B4krUkUNmg0MfDNKaZVFp2Gw2p86i0F
+}
+sprite $ExclamationLg [20x53/16z] {
+dT853WKX30JGGf4LvFwt_IcIJ7_M9_vMcPQ8bWfPIC9LXSM2jY3cjNanfyqTlU_Ch3OhPhIPKoj8fHbbj4odbj1Ij_tEzcuRsjPjHLjFxBXxYcYnMq0BtVoT
+-MuEpNLZD3utYsRFpHIi_jmeOQKZd2Tb7YGwOkX3R8WnM1JUnz1u2fOQW03FTdBJji5fySICCDht_-PXGc3yRmohYyiRjSNJ7MUS1y-YqgG4TOLKQYrfjF83
+}
+!procedure Exclamation($id, $name="Exclamation", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Exclamation', $name, $tech)
+!endprocedure
+!procedure ExclamationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExclamationMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExclamationGroup($id, $name='Exclamation', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExclamationLg>', $name, $tech)
+!endprocedure
+@enduml

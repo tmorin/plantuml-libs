@@ -1,0 +1,16 @@
+@startuml
+sprite $HandshakeAltSlashMd [14x11/16z] JS650GH124MnFsx0wx_QSzd4bYuwLjPCSwyiAUM0VW2lfJ1qSERcRMiGQV7XkH1byDMIqHgmptPOcin-jgHauBbXIIzhhQdiT5sSk0C
+sprite $HandshakeAltSlashLg [20x16/16z] {
+NSi5bi0m24NHJzh6uUr_jtDencyK6rxqdnEt9BFt73QXDNYA4pGT3J8Lf9xTKNK7KGD600G1KxRVreiVkwZ3riDlJyPk9VYbgpZSMlooJ3DB0o1ovtkhPcaI
+8JEL3T1qUPPCnphpjhBqPR0wLUemJV_SWUk_ukC3
+}
+!procedure HandshakeAltSlash($id, $name="Handshake Alt Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandshakeAltSlash', $name, $tech)
+!endprocedure
+!procedure HandshakeAltSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandshakeAltSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandshakeAltSlashGroup($id, $name='Handshake Alt Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandshakeAltSlashLg>', $name, $tech)
+!endprocedure
+@enduml

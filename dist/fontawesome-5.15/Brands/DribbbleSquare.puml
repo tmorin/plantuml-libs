@@ -1,0 +1,19 @@
+@startuml
+sprite $DribbbleSquareMd [14x16/16z] {
+LOy50e0m30DdwJpv_syP3ZUjjyxv1-UAkDPYVueEI3sq2A1TGix88koqh2UDQV6mOd32soHsAG1MO-qzKTfLp37M7FR4u8YDQLVlMO0fsR2g7Ti3YYztTTpL
+_vtzk_vFj04
+}
+sprite $DribbbleSquareLg [20x23/16z] {
+TSw50SGm241H9ALH_lxJdhkyk8ByeBLzs6NmfV5V3oynu6cQM6-XjhWRqePCO3_rLwaTGZbtnjKMdDW-jL1spj8cERkBTUZEsH8xyUexILfoCdNE1Sl5JpGv
+MGPaaT2QgrttiC7IijYsnt_i1GsWArZZoYMkUQvmRfPiUJtpv2utBH6kmQjL8rhoLpQ-L2dneSWlHm
+}
+!procedure DribbbleSquare($id, $name="Dribbble Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/DribbbleSquare', $name, $tech)
+!endprocedure
+!procedure DribbbleSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$DribbbleSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure DribbbleSquareGroup($id, $name='Dribbble Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$DribbbleSquareLg>', $name, $tech)
+!endprocedure
+@enduml

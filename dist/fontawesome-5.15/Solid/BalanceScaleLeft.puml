@@ -1,0 +1,16 @@
+@startuml
+sprite $BalanceScaleLeftMd [14x11/16z] 9Ko54S0m428kB-o_RSdrNG0ywvbZvSLlHfdrDzOLcY-s5srNLm-qyAEjLS0SjWihAasRrImu5tPzm6tHpDaICuIiAQbZeaQ_BlweO6PotsZzgKq1ebo-1dm
+sprite $BalanceScaleLeftLg [20x16/16z] {
+FSp93GGX5CHGzw9c_yu_sn6WuPsh35lIn9CZSxogGwqSnIdoUx4zgJjzt7tSJ5KTLHEq_pb7UK7XCIKVW6irzA9vNJRW7gkXSmPhM7T3gTvmsqv3hp0qz3IK
+ub9EG-7h4VsZxKP5-NCtujABY-aqS0e7G1ew4eHB03y
+}
+!procedure BalanceScaleLeft($id, $name="Balance Scale Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BalanceScaleLeft', $name, $tech)
+!endprocedure
+!procedure BalanceScaleLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$BalanceScaleLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure BalanceScaleLeftGroup($id, $name='Balance Scale Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$BalanceScaleLeftLg>', $name, $tech)
+!endprocedure
+@enduml

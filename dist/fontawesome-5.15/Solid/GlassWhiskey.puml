@@ -1,0 +1,16 @@
+@startuml
+sprite $GlassWhiskeyMd [14x14/16z] FSV50GGn34Mn7-Qy_gjT75itjTvSh-VYxe6zzWCWoXmWMmBxq6o9CHcsIcriXHzrSZdWOfgugz1nMwgu8OM3oP92VaJf3G
+sprite $GlassWhiskeyLg [20x20/16z] {
+RSw5bSGm5CNGPsQh_seN1lrFSXkGTAFEYypLNknkRCPWo5Yqnd8wU2W5l0u1KeIWGmRl8PitjdERgaDdIjE69rtgCByMLAc2bQK4LdWCMLvo6sFfpy9uN1IC
+f7-v7vBk_G8
+}
+!procedure GlassWhiskey($id, $name="Glass Whiskey", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GlassWhiskey', $name, $tech)
+!endprocedure
+!procedure GlassWhiskeyCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlassWhiskeyMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlassWhiskeyGroup($id, $name='Glass Whiskey', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlassWhiskeyLg>', $name, $tech)
+!endprocedure
+@enduml

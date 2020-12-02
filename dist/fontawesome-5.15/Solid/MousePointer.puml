@@ -1,0 +1,16 @@
+@startuml
+sprite $MousePointerMd [14x22/16z] LSy50W0H50HGtSpzJwlhpmPF0mnxGISHz1CXBf-WjWXnIGH914bKvDQc025sikznL_piaFEuoP4m0DAMPBpStSVVT_bUsda-sGNEJjBekz5XzZG
+sprite $MousePointerLg [20x32/16z] {
+XT054iCm44FHzPRCklzjExB3AloXp8kvThThG7CrHH23654DzOGGf2bYHpKKCQ8QKGrPZQY6D4qHYcg8D47ygSGKOqoFwvvo5ZzQAs2lWtNt-MktVZCh0--h
+aUnnV0CIQ_ikbUDP71Rv6OBDV5YrKuKRtyzsHrda3G
+}
+!procedure MousePointer($id, $name="Mouse Pointer", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MousePointer', $name, $tech)
+!endprocedure
+!procedure MousePointerCard($id, $funcName="", $content="")
+  IconCard($id, '<$MousePointerMd>', '', $funcName, $content)
+!endprocedure
+!procedure MousePointerGroup($id, $name='Mouse Pointer', $tech='')
+  IconGroup($id, 'IconGroup', '<$MousePointerLg>', $name, $tech)
+!endprocedure
+@enduml

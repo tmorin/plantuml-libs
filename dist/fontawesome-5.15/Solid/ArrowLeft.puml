@@ -1,0 +1,13 @@
+@startuml
+sprite $ArrowLeftMd [14x16/16z] Oy04Z5piI3nkVdvcP0uNCeSJcSE1pE5XPe40PXv-P83AGrM9C0NJ1eJjc2v3k1eJ
+sprite $ArrowLeftLg [20x23/16z] fOx50GKX34HdSK__rNxNnU4Tap6qa2mxMOf7TY9o-OdKq4cEd1BFLLQgBynIHg82AZy5F8wMyIy7eFF1U2frwMYsZXRPqIFZG9Ch
+!procedure ArrowLeft($id, $name="Arrow Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ArrowLeft', $name, $tech)
+!endprocedure
+!procedure ArrowLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowLeftGroup($id, $name='Arrow Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowLeftLg>', $name, $tech)
+!endprocedure
+@enduml

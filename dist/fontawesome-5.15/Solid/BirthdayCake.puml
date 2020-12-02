@@ -1,0 +1,16 @@
+@startuml
+sprite $BirthdayCakeMd [14x16/16z] VOhL0SKW34KFxcJ_QP-qs1VHQs3YNgW2RIoKl1T2X3WMHFPUcH9HSubor22x-W6gKQudfL9tojJnXZWYuzpg2m
+sprite $BirthdayCakeLg [20x23/16z] {
+hOt5WGH03CCqJ4dSVxN7pB1w6W5s0ie2w9qxXWQmLI270v2b3LrgSAGCa5mTgYB3rE6EqXBGAf1wuKuABHWFtKXtsjtUlDDCoi_QUDJIrzgK-bVTD8xaQvba
+QuMq1qVlMFenjaEIpjsARvEY0akM8Bicq0Kx6ebYbe4U4uRVzlhTr-otVH-wCDS
+}
+!procedure BirthdayCake($id, $name="Birthday Cake", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BirthdayCake', $name, $tech)
+!endprocedure
+!procedure BirthdayCakeCard($id, $funcName="", $content="")
+  IconCard($id, '<$BirthdayCakeMd>', '', $funcName, $content)
+!endprocedure
+!procedure BirthdayCakeGroup($id, $name='Birthday Cake', $tech='')
+  IconGroup($id, 'IconGroup', '<$BirthdayCakeLg>', $name, $tech)
+!endprocedure
+@enduml

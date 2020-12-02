@@ -1,0 +1,16 @@
+@startuml
+sprite $SignInAltMd [14x14/16z] ROm50aH124APBfNxdtRtTxz95S0ttllrayN1axGmLvK3hhLEcwj2JbEWi_NUb6lPkBAMdIVfMbLCLKmfzhL0uvPPa7EsfQfJuMTrdgimtoabZpj_
+sprite $SignInAltLg [20x20/16z] {
+bOo50SCm30HbPl_-spQ2Cb_GJ_GNFl0xjjPg8cCW7ky6PfWsWSClUwqDr8l6IUV8JQohng8EvCPiCCcqEzApnlLdhJvhGxiBLpgfHewPbZ9Dc99YtozCqoHL
+8HJJR9vff1Jv2INd7EXdJW
+}
+!procedure SignInAlt($id, $name="Sign In Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SignInAlt', $name, $tech)
+!endprocedure
+!procedure SignInAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignInAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignInAltGroup($id, $name='Sign In Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignInAltLg>', $name, $tech)
+!endprocedure
+@enduml

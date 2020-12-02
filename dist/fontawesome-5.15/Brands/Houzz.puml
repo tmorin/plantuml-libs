@@ -1,0 +1,13 @@
+@startuml
+sprite $HouzzMd [14x16/16z] XOg30K1134EJixl_jD_cExG1IEnuaNfIxKD9jDpLGCjUxsga3fL1xVXV5QsDkxA0svLxLC5BQsFJZjE30nYOPWy
+sprite $HouzzLg [20x23/16z] lS-r0S0W501HtE7lFsq4jovovUiERQ9QQyD7ut2bNxPW19aivZJ3eyM2bRHPoslUh4LVi62lmcZnnFvWBXiHiVZEH0oZJIS
+!procedure Houzz($id, $name="Houzz", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Houzz', $name, $tech)
+!endprocedure
+!procedure HouzzCard($id, $funcName="", $content="")
+  IconCard($id, '<$HouzzMd>', '', $funcName, $content)
+!endprocedure
+!procedure HouzzGroup($id, $name='Houzz', $tech='')
+  IconGroup($id, 'IconGroup', '<$HouzzLg>', $name, $tech)
+!endprocedure
+@enduml

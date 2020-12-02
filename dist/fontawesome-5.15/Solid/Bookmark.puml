@@ -1,0 +1,13 @@
+@startuml
+sprite $BookmarkMd [14x18/16z] u-970XpyGnXm87c5cvc1WOKNmkPbPG03TZv-VZvs1XXWvEG7
+sprite $BookmarkLg [20x27/16z] xS6r0O1040J0lNUzxRzQtCc9c0bySPKlcM_AJ_sQTPqt6Z29l4Y2XHHkgi71DawwmqrG9Zn96G4
+!procedure Bookmark($id, $name="Bookmark", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bookmark', $name, $tech)
+!endprocedure
+!procedure BookmarkCard($id, $funcName="", $content="")
+  IconCard($id, '<$BookmarkMd>', '', $funcName, $content)
+!endprocedure
+!procedure BookmarkGroup($id, $name='Bookmark', $tech='')
+  IconGroup($id, 'IconGroup', '<$BookmarkLg>', $name, $tech)
+!endprocedure
+@enduml

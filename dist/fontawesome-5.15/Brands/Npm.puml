@@ -1,0 +1,16 @@
+@startuml
+sprite $NpmMd [14x12/16z] bSk52GDG5CNG-rp__klMyTg1uC57z8e8PtgkxVRL6OWrn0igieFokfQeY5dgB90NT-PENnyxSzsl051cu5yN
+sprite $NpmLg [20x18/16z] {
+lSg50GGX30J01N9OPFklzbmg-1yaYZzehVNUTjVNZnYcga7TqVLW71aPLR7_BaXflvm5sgeXH_O5OuZdhsVfwjctXuItnt065SdYIBd_b5qPD6SjSiCXrre5
+FxC1
+}
+!procedure Npm($id, $name="Npm", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Npm', $name, $tech)
+!endprocedure
+!procedure NpmCard($id, $funcName="", $content="")
+  IconCard($id, '<$NpmMd>', '', $funcName, $content)
+!endprocedure
+!procedure NpmGroup($id, $name='Npm', $tech='')
+  IconGroup($id, 'IconGroup', '<$NpmLg>', $name, $tech)
+!endprocedure
+@enduml

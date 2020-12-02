@@ -1,0 +1,19 @@
+@startuml
+sprite $AmazonMd [14x16/16z] {
+PKq3WWLG46hytFrFk_Z6c8KlyNcuujOaBt9hDvSesQzTf0A7utOgjGxlNP2xtpkv79tRdvC59UUbCtBdV50CagUu5J01ifV2LIjj173dxT2vUxX7NyqCW8zz
+pXw6kyWj_m8
+}
+sprite $AmazonLg [20x23/16z] {
+TP074aGH342bwjp_jByZTcPrBptk_o0VOo1B8FLd9CFAYomCzu-uNHSQjN9TqJ8WGSi6rfZQnl2DQndU6f6pPVU7TdzmlVDF3EnlBlMwrUZrn4-SHX_yejPR
+SJ0eDoe8zLLZVCxW-VQCJcCMAdvl98Nai3Q5LM9XBs-hSb0H3QKtSQyTXFP5Lki6HPN1_Hyd
+}
+!procedure Amazon($id, $name="Amazon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Amazon', $name, $tech)
+!endprocedure
+!procedure AmazonCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmazonGroup($id, $name='Amazon', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmazonLg>', $name, $tech)
+!endprocedure
+@enduml

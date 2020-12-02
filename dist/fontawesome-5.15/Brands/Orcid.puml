@@ -1,0 +1,19 @@
+@startuml
+sprite $OrcidMd [14x14/16z] {
+DOw50G0X4CDmfzb_sXSaw7cDCQxgemUpg2ow_Ot1sARSbuOIcx7I6hMK1YG1NgwscDWbGU6_EnnBa2heMlAJsPVbKmuLyfyz6QqBP8qJb_3Bl5AEqFZPC_yo
+Nm
+}
+sprite $OrcidLg [20x20/16z] {
+LOm5aWKX50Fp1BVxttP_nbXw9AIh0YuqrTPA57neNG_bjM5jfhrgZcqfzPT9jXi2L2xwscGeeyLLpCmpovJ4oBgYjfhLsBo-pddGoDOELuI_qzNBdTl82rFy
+xoeuStrSWhi9LmCeZBP6ARoRKq3cEkZuuOUQ2c9Zgqv593_xcR0HpwKaVzeV
+}
+!procedure Orcid($id, $name="Orcid", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Orcid', $name, $tech)
+!endprocedure
+!procedure OrcidCard($id, $funcName="", $content="")
+  IconCard($id, '<$OrcidMd>', '', $funcName, $content)
+!endprocedure
+!procedure OrcidGroup($id, $name='Orcid', $tech='')
+  IconGroup($id, 'IconGroup', '<$OrcidLg>', $name, $tech)
+!endprocedure
+@enduml

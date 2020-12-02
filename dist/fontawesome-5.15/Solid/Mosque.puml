@@ -1,0 +1,16 @@
+@startuml
+sprite $MosqueMd [14x11/16z] BSW10W0H24JHMG1LS__RRl20Nx6CRTLzEoNkRv4xHIPGZ641VJGKNWBI87nYh9XyygxKhegeIZDtZyj8wGnrSTkLL95PEtSvP5Ug_04
+sprite $MosqueLg [20x16/16z] {
+TOo75GCX3CK-vRgnzfyspKvFT0NGaz5nA2bxYSqAQoh3GWAkAsq0erstVY5x88PAhTU17PBzsk7FAae0oNdYVrtHWjzXoQxKA_aFTqIMVmEyv7KxoTCjMjvS
+Qr1KeFLq887Y1mOcUtDs1W
+}
+!procedure Mosque($id, $name="Mosque", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Mosque', $name, $tech)
+!endprocedure
+!procedure MosqueCard($id, $funcName="", $content="")
+  IconCard($id, '<$MosqueMd>', '', $funcName, $content)
+!endprocedure
+!procedure MosqueGroup($id, $name='Mosque', $tech='')
+  IconGroup($id, 'IconGroup', '<$MosqueLg>', $name, $tech)
+!endprocedure
+@enduml

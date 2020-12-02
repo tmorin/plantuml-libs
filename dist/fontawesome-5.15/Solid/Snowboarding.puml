@@ -1,0 +1,19 @@
+@startuml
+sprite $SnowboardingMd [14x14/16z] {
+FOt50S0m54A9-t_xJrjlkE6wKGbI1F-mGf4IX8SvOoJNsaEU5DD_n7Lkv9TLe6LZFAm1KMvmvzAY6kbk96SmbAcIZCjmzsMwc4y3Qr6Txy2LXJ6ruUjYvHYs
+40Vq4m
+}
+sprite $SnowboardingLg [20x20/16z] {
+LOu5baGX3C2AQvlxdtO5USFaAwdA9j7Mjw1U3XNYtyS1_JflpFy4XIfF8hE8xnybRW1Ob9VCeZvgSXZkghBFQJxrxTOriCTjcMstz5dHR7T2ZcUD8S7GvI14
+GAiJKVeTQ8omEa2HHHp0o4uaGPI3B_glOyMSV0XLzvnlOZVGwfr_hSi3CC8Lj_Makry
+}
+!procedure Snowboarding($id, $name="Snowboarding", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Snowboarding', $name, $tech)
+!endprocedure
+!procedure SnowboardingCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnowboardingMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnowboardingGroup($id, $name='Snowboarding', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnowboardingLg>', $name, $tech)
+!endprocedure
+@enduml

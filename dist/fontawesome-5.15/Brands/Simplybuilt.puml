@@ -1,0 +1,16 @@
+@startuml
+sprite $SimplybuiltMd [14x14/16z] XSo35K0n30NGCgZU_jD-c_SWZZbnWosp3G2FHS0YXnY3ubSZdu4QGXqhCSO2OVd3fwh5UTDNV8eKTy6Sz
+sprite $SimplybuiltLg [20x20/16z] {
+ZOv5WWKm34AfUtl_sqviljjRXHZWHr8ZgWbNMOLrc0YXY1ZQot04whL7RE7SzemllTs7gRwjDnsGpTrlxIKGjDai3lS2Y7wE94_IazhHpPHzywWXJh68eN_9
+zxKNIdx4uqV-
+}
+!procedure Simplybuilt($id, $name="Simplybuilt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Simplybuilt', $name, $tech)
+!endprocedure
+!procedure SimplybuiltCard($id, $funcName="", $content="")
+  IconCard($id, '<$SimplybuiltMd>', '', $funcName, $content)
+!endprocedure
+!procedure SimplybuiltGroup($id, $name='Simplybuilt', $tech='')
+  IconGroup($id, 'IconGroup', '<$SimplybuiltLg>', $name, $tech)
+!endprocedure
+@enduml

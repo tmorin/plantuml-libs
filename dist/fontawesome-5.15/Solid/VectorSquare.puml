@@ -1,0 +1,16 @@
+@startuml
+sprite $VectorSquareMd [14x14/16z] LSg50SDG20JGECxjlssvUjuN52D4HGoW0Z7fUOgEp2XOW6GP1xD0oRhGbL11C2N5hl_LSQ_kcuRSNyNck30k5Zke32cgwl00El0M2TBzEFQBsGC
+sprite $VectorSquareLg [20x20/16z] {
+lT0t5WGX30DGay41tV-sw-UXcD3lxwJ6GU2KBdd3COAAEZ4SQ-9c2DmSW71Ge3EEGg4X6DnE50hW91aa9pfoyKYaOBg9-8Sk6xGLEahpc3RW7ZlhvxOm-lrN
+RS49usOfmkrNWQEYIufo_W
+}
+!procedure VectorSquare($id, $name="Vector Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VectorSquare', $name, $tech)
+!endprocedure
+!procedure VectorSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$VectorSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure VectorSquareGroup($id, $name='Vector Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$VectorSquareLg>', $name, $tech)
+!endprocedure
+@enduml

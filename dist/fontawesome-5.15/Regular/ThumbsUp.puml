@@ -1,0 +1,16 @@
+@startuml
+sprite $ThumbsUpMd [14x14/16z] JOt50S0m30FLS4pQVzeotSyMuKJ8WPSGy_SeN3BJSvaVZ_kO-rzfcZ1bAYimvdG7oTYFWyIoNnCNZSll6iJlKljVFc5Dx5hABFj3IHybPut3R2Kh3mgm0G
+sprite $ThumbsUpLg [20x20/16z] {
+PSx5WGKX54JHmXkz-MSxVCOQgELvgjzKoDgJwEF4YjN0lCdGfO9xsqC-BJAipC3RFtBWfSJC25B8EJ-Tf6br1fnOoQyjUTdmUgqfo_hsPzGoypPtzJNiQPQk
+SzRIFZRUVPaqBQiHtNkTQBu3_N7668KrCu0Mwtgz3mYVfTvx8zbK-zJYDVC5
+}
+!procedure ThumbsUp($id, $name="Thumbs Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/ThumbsUp', $name, $tech)
+!endprocedure
+!procedure ThumbsUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThumbsUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThumbsUpGroup($id, $name='Thumbs Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThumbsUpLg>', $name, $tech)
+!endprocedure
+@enduml

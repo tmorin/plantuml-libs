@@ -1,0 +1,16 @@
+@startuml
+sprite $CcMastercardMd [14x12/16z] LKo50GGn329o6kd-spxjUro063rUrkDcFSqppAzrSa3C1DYut02SEriIDxSLkFv-GIYxg0flI_XGYrlrM9fPcLd5rdFBe5Sa9Q_khfd5TkBF7W
+sprite $CcMastercardLg [20x18/16z] {
+RO-5aSKm30KLip3zTtj-rlaFPISHh9a-O0Fk_eistaF4ZHSkH8_QZeN_rQHDQQqYvqAZK-C32ZTo6b5Ex70DLTsn7bVXUhexhy4nggVlLG-gzOBSffIpeCHn
+qSuu8rQ70SRB4DckKNCFTVC8SybNYgorc9S8Jrrm7qpHY-GlZJxu0m
+}
+!procedure CcMastercard($id, $name="Cc Mastercard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CcMastercard', $name, $tech)
+!endprocedure
+!procedure CcMastercardCard($id, $funcName="", $content="")
+  IconCard($id, '<$CcMastercardMd>', '', $funcName, $content)
+!endprocedure
+!procedure CcMastercardGroup($id, $name='Cc Mastercard', $tech='')
+  IconGroup($id, 'IconGroup', '<$CcMastercardLg>', $name, $tech)
+!endprocedure
+@enduml

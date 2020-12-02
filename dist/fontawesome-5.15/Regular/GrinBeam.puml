@@ -1,0 +1,19 @@
+@startuml
+sprite $GrinBeamMd [14x14/16z] {
+DSY75S0W30FHeuDVaFRVDlsetq2QMzepmLMrOuoGsuDufykTeG0-PZjbBPWgQ3bORTKSBPZM89Eko3IhytV9GPsjrkjYsgRugQ6ONfJ3FYhJcNQHbBZGuQ9M
+QrCF8AyjxyZ02G
+}
+sprite $GrinBeamLg [20x21/16z] {
+LP054WGm30A9rDlm_z_UfESx7WMGI5r1ncw23-tm4lrTr4FkLajRP3WI2sx3HITPyjRX-Bb26dHmueVEXK4gT8qxb3SEFTY14novTq9HEKb7NP2js8xHeIbA
+e0gOm039vLlx9skAVu9NP6jkgcQr8-zTnOilJduV_GgFLyqXGPFE3UZ8wZBWQMjpIQfmGPP2do6SYejlXY6Hp6tsFZ97nGjVlEo27zHhBU-P1m
+}
+!procedure GrinBeam($id, $name="Grin Beam", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/GrinBeam', $name, $tech)
+!endprocedure
+!procedure GrinBeamCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinBeamMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinBeamGroup($id, $name='Grin Beam', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinBeamLg>', $name, $tech)
+!endprocedure
+@enduml

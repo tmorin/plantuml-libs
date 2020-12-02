@@ -1,0 +1,16 @@
+@startuml
+sprite $SpaMd [14x12/16z] PSp50GGn30J1CRCx_sWFbg4-OcdHYau9edPcmj2VDLBanql6GWzkG7UnCmVGxEYs_vFCJxV_CQJ_1oWLba-UWvFa9elXz6TY6wD5lNm1
+sprite $SpaLg [20x18/16z] {
+VSw54G1130B0vDpflziVtfqnigVobvGV581u8mC0zcgPLY-a06EMoJcMk5ZYBTO1w4bD1ulLrB0bI0MQ-C5Xh9YbTKbBBtL3rPNWtORUhgM9RBNpzktd3fVu
+vOlZa45Yj6nKZEmn8PUI0-KZ4m
+}
+!procedure Spa($id, $name="Spa", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Spa', $name, $tech)
+!endprocedure
+!procedure SpaCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpaMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpaGroup($id, $name='Spa', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpaLg>', $name, $tech)
+!endprocedure
+@enduml

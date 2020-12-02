@@ -1,0 +1,19 @@
+@startuml
+sprite $GitkrakenMd [14x12/16z] {
+7Oo50GCn30CLe_IK_RUjqpCZOBBOEvSCGpMklPyJiPoeFH2C9Jc-VLYc9jVwLv-1cWfngW9QqeBDbyknI2hXFKySeIhIS3_FWqKPGansZrC2IAc7IuM3jOPs
+03y
+}
+sprite $GitkrakenLg [20x17/16z] {
+HSr7eYKW24JHQu82x7R_k_s-V6R4ulBToNEALkB52dIkX7mr-sxCysHG4-GosA_U_piDMwbihFFca2vvW9qtWJpb0lHg9U1UpptwgpS0UOKdCEBVJSW9f4Sg
+9bYxrzKCUiYjB84wrsuGbXsN115LMM3X0j92XBbxuBcAgvLvRfDyfzRkF9iPvbCoCrNdRMLKQ2iDVhgDOOENFm
+}
+!procedure Gitkraken($id, $name="Gitkraken", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Gitkraken', $name, $tech)
+!endprocedure
+!procedure GitkrakenCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitkrakenMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitkrakenGroup($id, $name='Gitkraken', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitkrakenLg>', $name, $tech)
+!endprocedure
+@enduml

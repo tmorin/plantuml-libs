@@ -1,0 +1,16 @@
+@startuml
+sprite $PlusSquareMd [14x16/16z] VSwr0G1H20DGgbEIx3_jkNpbTJYMcPIOvEFq6Fs8ixuhSayZe1cDveG4kerv5Cxb5_Bh-MVvrvRP0G
+sprite $PlusSquareLg [20x23/16z] {
+bT030WCn40NGYJFgl_zfwtQj5nkq8dIUQQHOO81R7sdoweuqaOQ-KCgdBmzz6KZpUMNekpIlkva3hxpzpZ3yoQ-l2hC2oYpbybssxnVdVHI_PThw5zC9musn
+q2dNcKnh7W
+}
+!procedure PlusSquare($id, $name="Plus Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/PlusSquare', $name, $tech)
+!endprocedure
+!procedure PlusSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlusSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlusSquareGroup($id, $name='Plus Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlusSquareLg>', $name, $tech)
+!endprocedure
+@enduml

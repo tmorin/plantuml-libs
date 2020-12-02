@@ -1,0 +1,19 @@
+@startuml
+sprite $MoonMd [14x14/16z] {
+JKo30G0n44kDG_QVzetwGW1XaEOMSArA7rLveyOE58uBP5OWijr0vNY7tw71ShmwRtIdHLRKdiR9V7wk5ofsHQ9pZXvGcKuOkYhRxNtgqnMLadBtXyt6Ouq0
+x
+}
+sprite $MoonLg [20x20/16z] {
+LP050e0W34Nf7BpxdzPYjX8_LkPwR1PWPlC-1HWYu6x42hCSj_p1XEwMEBt6Vcw1-QYSdZln4pylQhmvnmhiQGza4RF2LVE6wxhB3zEA_ElLs0cnRyLQLcC4
+nJB5t22ZYuJJ_0IA0bonyYUGjPcfWPwK2MsnGWlEMfVadKsQm3oNVZaqV1DcBmlP0G
+}
+!procedure Moon($id, $name="Moon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Moon', $name, $tech)
+!endprocedure
+!procedure MoonCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoonMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoonGroup($id, $name='Moon', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoonLg>', $name, $tech)
+!endprocedure
+@enduml

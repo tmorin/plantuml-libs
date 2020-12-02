@@ -1,0 +1,19 @@
+@startuml
+sprite $DeafMd [14x14/16z] {
+JKs50GGn3Afxo_xRFkJFg2P1t8kmpwUgiCgNtYABxLaK23tDm29XyMdeHb-Rt-KRefnG4oOcNrcSc3cTJfL0YhpIbLFaDQzYq_DOM6ZGAmzYMv4NeYgSe0cb
+mWy
+}
+sprite $DeafLg [20x20/16z] {
+PO-50SCm30HbPjt-qnODRVA9wSHoLL9tHH7w7Iq_brklqKWugF2H1gDCrA2dc1M2cIX3-5mgJ6ILA4dfJZfrbHeI05GyQcPebKPnIf0L74bISLBmSXA-blcS
+OSM-bDhNEAWRGNaTPg1seJbGUQ7hs9rqHKRn_u76DyPq6piGmcHkV90KhKwcdW
+}
+!procedure Deaf($id, $name="Deaf", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Deaf', $name, $tech)
+!endprocedure
+!procedure DeafCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeafMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeafGroup($id, $name='Deaf', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeafLg>', $name, $tech)
+!endprocedure
+@enduml

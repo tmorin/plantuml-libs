@@ -1,0 +1,16 @@
+@startuml
+sprite $EyeSlashMd [14x11/16z] JS750SGm402nCNkv_seFyeeKXvUH1aVr3XwMVScLj0QqTciY2yqEVfbrcqt4cTcWXRK6EOdBLBG69w3NvGYhTXz0ZppdZ572OwcvW4VdHU8B
+sprite $EyeSlashLg [20x16/16z] {
+POu50iGW40DJoEAG_x-sikVNu8FDRBYbQ8GRD2q2TKchsmk6gGosaa---A9D3GWvW5F5IJPapO2g15I7L0MuP3352nAO4sUseO98mDVE62-f3SwUTwDVNNpU
+HRbWEZkNiWmud7GLbtg6fspDfT6bNjJQajPBwZykTKkR1m
+}
+!procedure EyeSlash($id, $name="Eye Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/EyeSlash', $name, $tech)
+!endprocedure
+!procedure EyeSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$EyeSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure EyeSlashGroup($id, $name='Eye Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$EyeSlashLg>', $name, $tech)
+!endprocedure
+@enduml

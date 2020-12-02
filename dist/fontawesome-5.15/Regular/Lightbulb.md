@@ -1,0 +1,47 @@
+# Lightbulb
+
+```text
+fontawesome-5.15/Regular/Lightbulb
+```
+
+```text
+include('fontawesome-5.15/Regular/Lightbulb')
+```
+
+|icon|element|
+|---|---|
+|![](Lightbulb.png)|![](Lightbulb.element.png)|
+
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the Lightbulb element
+include('fontawesome-5.15/Regular/Lightbulb')
+Lightbulb('lightbulb', 'Lightbulb', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the Lightbulb element
+include('fontawesome-5.15/Regular/Lightbulb')
+Lightbulb('lightbulb', 'Lightbulb', 'an optional tech field')
+@enduml
+```
+

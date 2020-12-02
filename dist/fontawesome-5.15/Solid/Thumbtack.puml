@@ -1,0 +1,16 @@
+@startuml
+sprite $ThumbtackMd [14x18/16z] TOs50G0X54AnM_QVzZgDP_u2P3v4YFf62IZV6gIEvzyhWOqhijYvTVmPbMTgG_6ax6EEDrN3yeCgtoZoItLX8stf_JqjDIbmSaPo5YbMWPSSpdS5
+sprite $ThumbtackLg [20x27/16z] {
+jSu53iGm34JHQPZd_gTTTEKiOvye-Y73yOe1mdLpxpTxbOO1OAn-qwrTS6Bq45Ps7aHuRHOYp9-Af2r8ibrRC_Ef-MJcbQ1_AbjlM-QjCMvRT_6iaosSbnQY
+aXbganP9VzsMqN4Z1Qps
+}
+!procedure Thumbtack($id, $name="Thumbtack", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Thumbtack', $name, $tech)
+!endprocedure
+!procedure ThumbtackCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThumbtackMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThumbtackGroup($id, $name='Thumbtack', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThumbtackLg>', $name, $tech)
+!endprocedure
+@enduml

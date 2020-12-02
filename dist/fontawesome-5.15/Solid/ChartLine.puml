@@ -1,0 +1,16 @@
+@startuml
+sprite $ChartLineMd [14x14/16z] LSt50G1120F0mBf0-g_sNEU5Wn-LRyPv1I762DgPY9ECUwPbIzELgN40_SYcEYTxPqiUE6MMlT41kQ_q_lzmPfu_-9Do-i3F2W
+sprite $ChartLineLg [20x20/16z] {
+ZSwr0SGm50JH_MoGjFrNUype2LyqsDWqwvkHYLiUuQ5FLZosF9dsHylcH_G7Iv81IBjRyfYZ7w2TJSbUv3ZG36rvDAmq10_DzpyHu8ZpsxC5tkmUMP2N-5uV
+VCygNoh7nlO
+}
+!procedure ChartLine($id, $name="Chart Line", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ChartLine', $name, $tech)
+!endprocedure
+!procedure ChartLineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChartLineMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChartLineGroup($id, $name='Chart Line', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChartLineLg>', $name, $tech)
+!endprocedure
+@enduml

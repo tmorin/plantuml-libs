@@ -1,0 +1,20 @@
+@startuml
+sprite $AwardMd [14x18/16z] {
+9Ou54W0X3CGMvv3c_xyze1d9r2ifJCpeUdmurawG01iJi20TZwEueAl2rYK2wKHTZtcY3CsZ0R73z6X3pa2zGNzB6p1AcK3sNSvwg_qPw-44hIltb7iCNr4m
+TaanfMfCLIxHbHQ7ULiEO-_ZukVsbCAsk_czz0C
+}
+sprite $AwardLg [20x27/16z] {
+PL07aiCm21IeD_J_tvuMpAMHs6Qsq896FqVad1PUaULexEX8DSJGh50y7y706Z9fENVL5yYGJGBB2suAjEzt1GjMtgfPOQ_3X3Svbc0EORzZKRqCNNGiGmVc
+RQTX4suJkWnUwo_QkGBQPFsHpYcQvDzznMOeltUvHBhe5hiV0Tep1QxfTYqKybfmNaUdozs7CTzbbrPUmaaqFTsxOjBjdVk3POniuL_1HNsUDjhmAo3fVTJd
+klnSj0IFCUoxx6X_
+}
+!procedure Award($id, $name="Award", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Award', $name, $tech)
+!endprocedure
+!procedure AwardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwardMd>', '', $funcName, $content)
+!endprocedure
+!procedure AwardGroup($id, $name='Award', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwardLg>', $name, $tech)
+!endprocedure
+@enduml

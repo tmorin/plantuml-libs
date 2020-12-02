@@ -1,0 +1,16 @@
+@startuml
+sprite $ChromecastMd [14x14/16z] LSUr0GH030CmnyV1_QTzHdN2FsbyQSJ9-XgHb1VOEGSVTWI_iuhvdN2cotl76jpV6wSsShtMXDLdFATPtCQIdU6r-YGx1lgQS-3V5G
+sprite $ChromecastLg [20x20/16z] {
+ZSk50KGX30FGr738_jEUk_w7rh2LrnS6vQi9OnQL6vL6DIOygHHj_fR3nMFEHlMt7CcLNcSbBRQdd8GSt_QOSx8h2lFZR3GknQGyv83WE9pqCBlYy1ZO8NQW
+ZUga60lcGkB9WAGaI8v8q9oE55lj0G
+}
+!procedure Chromecast($id, $name="Chromecast", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Chromecast', $name, $tech)
+!endprocedure
+!procedure ChromecastCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChromecastMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChromecastGroup($id, $name='Chromecast', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChromecastLg>', $name, $tech)
+!endprocedure
+@enduml

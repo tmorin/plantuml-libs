@@ -1,0 +1,16 @@
+@startuml
+sprite $CcVisaMd [14x12/16z] VSV50ODG502mRyzj_sdhNY2tM6KzP6aTKIbHS_Iaotpe11fOrFnIwBhCXgt5bs7B9JJMd71PUdb8H9RN4OctvFRb3
+sprite $CcVisaLg [20x18/16z] {
+hSQt0OD040J0VTwTt_whnSIGIHCDFbY-BFwYFfgpimuR5WSsfJblWP0MyDupsR3vWFGTo8LDxQlpCO-MsaY5ZZuR7uh1qNrCBFIEuArsK2td31TIWdzMsru6
+Fbm
+}
+!procedure CcVisa($id, $name="Cc Visa", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CcVisa', $name, $tech)
+!endprocedure
+!procedure CcVisaCard($id, $funcName="", $content="")
+  IconCard($id, '<$CcVisaMd>', '', $funcName, $content)
+!endprocedure
+!procedure CcVisaGroup($id, $name='Cc Visa', $tech='')
+  IconGroup($id, 'IconGroup', '<$CcVisaLg>', $name, $tech)
+!endprocedure
+@enduml

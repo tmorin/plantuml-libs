@@ -1,0 +1,16 @@
+@startuml
+sprite $AsteriskMd [14x14/16z] RKwr0G0n4EBYplxJVZpLqvmYc13IhEPEzdJoRW9NgzsJBjIPPDADDep6pzL1NLopvkQEJffJqQiFF4WAiP7LDVefPqDZ0AR3M1dH-hehWz-SP-e
+sprite $AsteriskLg [20x20/16z] {
+ZP055WCX44C7TtB_s_PbiNgRrVm1HcGg0K6UL83yXgNZz67B1XGzM1GHK-540vVBVAi4e8dkuDUGkV4l8tRKHqKw7vJKJbq7ORObrmQhTX5RiLKCYIdyxnte
+eB8UzQ4grcBQ5LQA2zoiMGBZ8fxvHs-ZBkPHZpCOzh0_PXe1l_vl
+}
+!procedure Asterisk($id, $name="Asterisk", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Asterisk', $name, $tech)
+!endprocedure
+!procedure AsteriskCard($id, $funcName="", $content="")
+  IconCard($id, '<$AsteriskMd>', '', $funcName, $content)
+!endprocedure
+!procedure AsteriskGroup($id, $name='Asterisk', $tech='')
+  IconGroup($id, 'IconGroup', '<$AsteriskLg>', $name, $tech)
+!endprocedure
+@enduml

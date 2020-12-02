@@ -1,0 +1,16 @@
+@startuml
+sprite $VideoSlashMd [14x11/16z] JSf50G1140F1BFEqVxV7KB_0RFefhDPxwqMdO9oyqWhUQvmfD4Y9kBztcJr5g8hxEzs98JVfJs85DPwqAqf0S7sEtKmAYwoF6si3
+sprite $VideoSlashLg [20x16/16z] {
+NP255S0m24Glxjp-s_P1FR-DuT2MnywY93ZZaRbE2XLXVQI53m326YgCyiggxcvu-779d5q0IbIr8auk6Lc0jClO7VpSP5p1YcgyPKO6CldAZAQrRJ9E3wjb
+0FLfJQTHBI7WJg1t9E72Zb_j
+}
+!procedure VideoSlash($id, $name="Video Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VideoSlash', $name, $tech)
+!endprocedure
+!procedure VideoSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$VideoSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure VideoSlashGroup($id, $name='Video Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$VideoSlashLg>', $name, $tech)
+!endprocedure
+@enduml

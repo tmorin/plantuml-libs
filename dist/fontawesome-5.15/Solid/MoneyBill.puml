@@ -1,0 +1,13 @@
+@startuml
+sprite $MoneyBillMd [14x11/16z] LSdL0K0X20LGFfI6k_-shyEZD2qqtDpDR2-XaCGj1HYrDwPxgj4uA97WDOW6NlBUfFV4lAVUsncunO1dlD9fiG4
+sprite $MoneyBillLg [20x16/16z] TP350O1G3CLmX-m_BVxzDPUwLWPrn6Elm87dKLUsOIFmcTEJ6bYh2RRFDTVr_3atN_BqtaYO7jza-rIjcA5tKJkhsyGF91S
+!procedure MoneyBill($id, $name="Money Bill", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MoneyBill', $name, $tech)
+!endprocedure
+!procedure MoneyBillCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoneyBillMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoneyBillGroup($id, $name='Money Bill', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoneyBillLg>', $name, $tech)
+!endprocedure
+@enduml

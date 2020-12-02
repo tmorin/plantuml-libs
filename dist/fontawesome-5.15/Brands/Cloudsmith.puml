@@ -1,0 +1,19 @@
+@startuml
+sprite $CloudsmithMd [14x22/16z] {
+LOs55GH124Cpxj1_j_UuiFP7iGHEFNBA5SIZgYTujDKO3AB-4KRv4tLzTLO6Eo2EBVQTlG9HE95WJ3OrpYj9Z8HHV6ilECE2W8kOazrZZGWdoKiBIut382W1
+aKz4embdVerIJS0F
+}
+sprite $CloudsmithLg [20x31/16z] {
+RP454e103CJENVx_MhGJD6EGjdkcRlZQUpRgZkjp8p_KF2atrwVWK5xCVJhY2Yxzz3MS_yOrCJfUQj-qIQqD-QybF8UwaocB6foqu29R63Y3cw2_VKD1lau4
+HXhxFegikogYiCwPyoEL4fx5S8ROd_SOTDukCA7CTHSuE-6dhocepmjYc3Pa_pkH2s7VyGe
+}
+!procedure Cloudsmith($id, $name="Cloudsmith", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Cloudsmith', $name, $tech)
+!endprocedure
+!procedure CloudsmithCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudsmithMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudsmithGroup($id, $name='Cloudsmith', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudsmithLg>', $name, $tech)
+!endprocedure
+@enduml

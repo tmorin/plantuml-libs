@@ -1,0 +1,16 @@
+@startuml
+sprite $CarrotMd [14x14/16z] JOp50G0n40BPk4B_rPvBveVYPJJy6EUYd6YB7EezNdxZJ3QbgrnqK133ANAufDrlOZsLnzVJSscyLRv4LkhIZ3Z9rF0juORIz7WH8tvs
+sprite $CarrotLg [20x20/16z] {
+RP054e103CHwxhV__orRt89dKapkb29l7E3UBWFvnwMtyq2jrH-N9iHWf80Syt42c85I3rj5fGHncYlMsasE-_EitK9tA4xEV0oVsOcxieD-PEatosMht2qh
+KcYyd0mMLNAGYmZIZDmPDEyVsMdUB
+}
+!procedure Carrot($id, $name="Carrot", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Carrot', $name, $tech)
+!endprocedure
+!procedure CarrotCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarrotMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarrotGroup($id, $name='Carrot', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarrotLg>', $name, $tech)
+!endprocedure
+@enduml

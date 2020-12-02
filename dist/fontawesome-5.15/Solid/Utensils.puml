@@ -1,0 +1,19 @@
+@startuml
+sprite $UtensilsMd [14x17/16z] {
+LSo5TSKm44JH4PEzh_zkSoQVnLSBay9OI4gRE3Jc8aiNSDDOYwg9HtJseec71cVJwmE4ZzOD5XwXXaSwHbKAovqfalgFDB5kg5P-gLd5Sdctwal3QfRJfzLV
+MjRyoUnm_G4
+}
+sprite $UtensilsLg [20x25/16z] {
+LSy55iGW40JHndtw_hTTP7XXA_vZu3dGw3qxTbdO8yLqnZ0FYxoGp1nsC0NIJWfSjMqva06mt7KE9ziIq8x9DB9Cot2y3K_MQHNviqYsjAof26yPNSyARnvL
+pwpScq3IKxX-2KRKWC4zk5cwjZyTiQllSnaFwbUknSUAMZvcEQjgvR7s_pttMdkig_LZdhEXDew5ptHsEYGnsopViJpVApy
+}
+!procedure Utensils($id, $name="Utensils", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Utensils', $name, $tech)
+!endprocedure
+!procedure UtensilsCard($id, $funcName="", $content="")
+  IconCard($id, '<$UtensilsMd>', '', $funcName, $content)
+!endprocedure
+!procedure UtensilsGroup($id, $name='Utensils', $tech='')
+  IconGroup($id, 'IconGroup', '<$UtensilsLg>', $name, $tech)
+!endprocedure
+@enduml

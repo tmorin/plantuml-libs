@@ -1,0 +1,16 @@
+@startuml
+sprite $CarAltMd [14x15/16z] PSk50S0m4090uWxxJrltNlGDVsQ5NTQcc3rWNr1rxHBjrZtaWAYCJLe-XUBOIK4iEfGkvgLtitrOcZQz3BrqIja7l-oqJSfXOwbahCN1MBpD
+sprite $CarAltLg [20x21/16z] {
+fSa73iCm30D0UYQn1l__sqA6q5si7eP44Z-LkXNSLV4aDQlclFE6JKczjlWGEYb8GlQuAs_k2q1nMhqpUa5Llj4gfFDk1o47JjwT674Ae4mAbBWo3sVoOmgf
+_A2J7-OWAQsd9YH7T1VkhkYAc7NSTJCf-CCD
+}
+!procedure CarAlt($id, $name="Car Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CarAlt', $name, $tech)
+!endprocedure
+!procedure CarAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarAltGroup($id, $name='Car Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarAltLg>', $name, $tech)
+!endprocedure
+@enduml

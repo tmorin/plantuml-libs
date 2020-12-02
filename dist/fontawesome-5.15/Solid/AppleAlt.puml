@@ -1,0 +1,16 @@
+@startuml
+sprite $AppleAltMd [14x16/16z] PSU50K9130JH8K5ET_kl5eTlSv8yFbqb_gKz5nNxogSJv2rU0t9ujemwFPAG_ocALvMvrWh7vWPjhNPPwy9OC23rWnA8RfKYzu07
+sprite $AppleAltLg [20x23/16z] {
+ZSZ50GD140CmB_Eu_sgJOoOzXONEGeCTBIGrTYB9Xhr2qcClIt5OA6Sr1jfPXLvWfqMjax3ZXphmq3mI5NdYAq-oyAJo6n6UrCAJ77dY3KyKAWyoO7cW0KJk
+UFJYgJecjUQL3jAYHkSF
+}
+!procedure AppleAlt($id, $name="Apple Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AppleAlt', $name, $tech)
+!endprocedure
+!procedure AppleAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppleAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppleAltGroup($id, $name='Apple Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppleAltLg>', $name, $tech)
+!endprocedure
+@enduml

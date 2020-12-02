@@ -1,0 +1,16 @@
+@startuml
+sprite $DogMd [14x12/16z] ROg55SGm34C3PdZQVzjZR7_05em7L4JZ3Q7BTNvK0tlrlgcDAtKToI92v4dNek5EwHut4azzgafDywa2VltrdNqhXrv_Hbx_2m
+sprite $DogLg [20x18/16z] {
+ZSk35GHH50FGVECX_LUxzexkSO1ji-AFKQpZcvATCljtveEa0x6ylpUAh7o6ofk2B9Hq5_Aan0WWyqbhk2GtnVaY2NU3RmDtSo4RovcMA_lA15ToCDDtriZ-
+B1ikpW
+}
+!procedure Dog($id, $name="Dog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Dog', $name, $tech)
+!endprocedure
+!procedure DogCard($id, $funcName="", $content="")
+  IconCard($id, '<$DogMd>', '', $funcName, $content)
+!endprocedure
+!procedure DogGroup($id, $name='Dog', $tech='')
+  IconGroup($id, 'IconGroup', '<$DogLg>', $name, $tech)
+!endprocedure
+@enduml

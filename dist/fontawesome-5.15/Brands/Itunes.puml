@@ -1,0 +1,19 @@
+@startuml
+sprite $ItunesMd [14x16/16z] {
+7Ow5bKKX30NvPryCkTD_jniO92xZycl68mwSjUuV8-xlcUu7GYpR0FjRY6C2xThw1B7wtNfcWD7lgoha70SArCyb1oQSPzsxWng97BBMCEfljmPOrG5O1a9U
+WfCc541vCu5uMoFnjcv-VUzhzHy
+}
+sprite $ItunesLg [20x23/16z] {
+ROu7OWKX24ILfTgu_st3n9-UjstsgK3x5xA8620AerAMxyo8TPCqmMSniIgJx2mUB3f5WcCTOTHZTFB5XZob-rLxsYova9-95lpgvuo_9mihqxjNekgZ1kSy
+LYuuYVkKMvdNMUtXtqvhdt-wG5Il88cqSbAprnYd6bbl2wt7vnYIr0Z3JsoB1EGvTbw4x_UGv6K_K7iYQzUOCwHx5l7S3IxCukSUQum0Fi-tWlKRtFxd3G
+}
+!procedure Itunes($id, $name="Itunes", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Itunes', $name, $tech)
+!endprocedure
+!procedure ItunesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ItunesMd>', '', $funcName, $content)
+!endprocedure
+!procedure ItunesGroup($id, $name='Itunes', $tech='')
+  IconGroup($id, 'IconGroup', '<$ItunesLg>', $name, $tech)
+!endprocedure
+@enduml

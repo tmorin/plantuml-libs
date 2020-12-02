@@ -1,0 +1,16 @@
+@startuml
+sprite $MarkdownMd [14x11/16z] NSU50GDH309Glak4_QTjp-r5mKkNXywFqcXfKhDp4T0JEYVsb133y8AsHemXiJEXS97cCeDM-JNjf6eJBty
+sprite $MarkdownLg [20x16/16z] {
+TT050W0H50JGqUtV_xQRcjdqDEp2nHIEG4iABVvK99-Ut_XH0Xnb3lFyoce82j23iLlPRJb259FkkJLfF5q-4sHIUCQJpz35YFnZcUj7oWBokvPCfuGDxSvW
+bmi
+}
+!procedure Markdown($id, $name="Markdown", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Markdown', $name, $tech)
+!endprocedure
+!procedure MarkdownCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarkdownMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarkdownGroup($id, $name='Markdown', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarkdownLg>', $name, $tech)
+!endprocedure
+@enduml

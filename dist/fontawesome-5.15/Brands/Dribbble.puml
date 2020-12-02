@@ -1,0 +1,19 @@
+@startuml
+sprite $DribbbleMd [14x14/16z] {
+7SZN0KCn24MnOyB3XOlPVzeqVGgmhCoIytUw8tPfyAKS5S1gmqw2jp5EYLDydNpkHb4vF9PQ1g7RfJo-qznUdS7NKwsJrRN0whhMxrBONH22ipoN9dmBlmDh
+yPFxFh-LmiohdRzGTyq1V
+}
+sprite $DribbbleLg [20x20/16z] {
+JOw5bGGm24G7uWam_NTx3yxsHt11eUkPtIduGo_fxpbv1DyCnkC488lHVbmFS6hguaodyW9e6G1wq0MuKJqsHtv7kQ6SA3ncf7ueYmA8ZXtarUhIBys39Ay7
+YjYFxvur6Z1vzjcpnRM7GWz9hvfp7SbAbPf1xbdApVwD-tk6S07lUo6t34VjizcHR0fQvaXuYcIm8mpLW8f2U2s-zURSMahGKabaa-4UZ8KF-hvtTtpp1G
+}
+!procedure Dribbble($id, $name="Dribbble", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Dribbble', $name, $tech)
+!endprocedure
+!procedure DribbbleCard($id, $funcName="", $content="")
+  IconCard($id, '<$DribbbleMd>', '', $funcName, $content)
+!endprocedure
+!procedure DribbbleGroup($id, $name='Dribbble', $tech='')
+  IconGroup($id, 'IconGroup', '<$DribbbleLg>', $name, $tech)
+!endprocedure
+@enduml

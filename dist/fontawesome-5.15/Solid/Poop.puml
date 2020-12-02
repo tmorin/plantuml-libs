@@ -1,0 +1,16 @@
+@startuml
+sprite $PoopMd [14x14/16z] VSl50G113090rZtqN-tPIduthmXWac6X1gCkZgoOR4n2TeUN4Kv-fgRPzC8f0RRmw4X2vNtJPPZOTHFF7vrKvGO
+sprite $PoopLg [20x20/16z] {
+PS_50G0n30D1XpdglzfZbFSvGSjTHBL2MM0OCWSWaHK0LTwCTGL_YnDNmp-tlythcO1FxhfjljHFykLZepW-UPrkR4MaizLzTifhcruoL75g6z3DgYsRGZAp
+h
+}
+!procedure Poop($id, $name="Poop", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Poop', $name, $tech)
+!endprocedure
+!procedure PoopCard($id, $funcName="", $content="")
+  IconCard($id, '<$PoopMd>', '', $funcName, $content)
+!endprocedure
+!procedure PoopGroup($id, $name='Poop', $tech='')
+  IconGroup($id, 'IconGroup', '<$PoopLg>', $name, $tech)
+!endprocedure
+@enduml

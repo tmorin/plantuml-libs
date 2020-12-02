@@ -1,0 +1,16 @@
+@startuml
+sprite $HotdogMd [14x14/16z] HSx50G1120H1rdqw_sZFXL_XTaOKpGRqInrI0lI38Jwq43LlH7fO38jFMseCdtLLPWuCDxagDPIZSg0T5NbT5KLBKDADOFDe2tfWK2SFJd4jk73-EYr3F64x
+sprite $HotdogLg [20x20/16z] {
+NSu7ZiKW30RXdwPduetd_gVTvXHIAP_G22cV7cn5rS5E6W2r1i1dePR4_gOPn8DybB9ZAqrr2rnIFocA0VvekVw7KVj5zFP77sRyKSdyrpyHQpu9tp8l0vBs
+MkkIJvAk_4fv-vEA9CVLB9PJ4eJ3WmIyIJDfB2GPc5GcVj4F
+}
+!procedure Hotdog($id, $name="Hotdog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Hotdog', $name, $tech)
+!endprocedure
+!procedure HotdogCard($id, $funcName="", $content="")
+  IconCard($id, '<$HotdogMd>', '', $funcName, $content)
+!endprocedure
+!procedure HotdogGroup($id, $name='Hotdog', $tech='')
+  IconGroup($id, 'IconGroup', '<$HotdogLg>', $name, $tech)
+!endprocedure
+@enduml

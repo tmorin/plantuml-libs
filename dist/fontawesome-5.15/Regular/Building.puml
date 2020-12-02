@@ -1,0 +1,16 @@
+@startuml
+sprite $BuildingMd [14x16/16z] VOw50S0m40Bv6d7sdxRkTj5taBMJ0IKwkX4cZPR3YbkiKZ0TlbcL0LQzPV8dax-PXX6RCcsqC4T7onPbqgBCJQgTDAjskZ
+sprite $BuildingLg [20x23/16z] {
+ZSw55S0W40FGS8V3Q_QVjkwU5lie0aznG3vR72mP4PM-z94yMS0kQR88BTK1lXRPpC-dK1SBS1mEI0U3CS1KhsPy4423Dwizd7Sruxm0ujrkBwGd61KylUNv
+3Yt50gvasMoNlVcciMUBf5yjJHP8jvXMPjSdasbe2uloPpe
+}
+!procedure Building($id, $name="Building", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Building', $name, $tech)
+!endprocedure
+!procedure BuildingCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuildingMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuildingGroup($id, $name='Building', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuildingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $UserMd [14x16/16z] ZSor0K0n40BG2qqSzf_sksjUTm8sG9OoR0Pgm6LCcgHvuZpnDfq-xos6H2ROdOja3Y6JqHcgDXL91qdDmcde0G
+sprite $UserLg [20x23/16z] {
+fStL0GGX34LHak3s-gzs7UTlx_WPH7rp1SXMJL76fpJPZu3OoQ0dpU8mtomDYnSBpTmmqungewBEZKMDT7vBRjJKsaL8f3tfAnmhK8BpiG0rl5LZhRBYYgsY
+0evSEItXZsxhSJxf2G
+}
+!procedure User($id, $name="User", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/User', $name, $tech)
+!endprocedure
+!procedure UserCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserGroup($id, $name='User', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserLg>', $name, $tech)
+!endprocedure
+@enduml

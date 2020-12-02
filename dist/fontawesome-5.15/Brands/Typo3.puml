@@ -1,0 +1,16 @@
+@startuml
+sprite $Typo3Md [14x16/16z] PSjL0W8m30FGp7sv_sqXfVlYJMjuWh-vDs3odX7H3Zc0mw_LxLPDxzPz0vhUFYa5KKzgzDP1RYIQX72OWVEACGCQbmeJBasBa4vpBNgJ6J_9vrm-HvK_7m
+sprite $Typo3Lg [20x23/16z] {
+VSw54GD1243Hl-vB_zN62F7S6sDm_WiEN6sjvi2LBsDl3rbkfiFtQx208gg6BLVRGRHS5nN1Yoh3Yi3KC5ZVS-6YodFORPs8bkkW3VvUqnYcBkwMQu0R7I29
+2M2MvIQO8gPZt1QpwtUZXE-D6KnyVlDKBFMPh7pmsNFe3
+}
+!procedure Typo3($id, $name="Typo3", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Typo3', $name, $tech)
+!endprocedure
+!procedure Typo3Card($id, $funcName="", $content="")
+  IconCard($id, '<$Typo3Md>', '', $funcName, $content)
+!endprocedure
+!procedure Typo3Group($id, $name='Typo3', $tech='')
+  IconGroup($id, 'IconGroup', '<$Typo3Lg>', $name, $tech)
+!endprocedure
+@enduml

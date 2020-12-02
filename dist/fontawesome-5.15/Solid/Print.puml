@@ -1,0 +1,16 @@
+@startuml
+sprite $PrintMd [14x14/16z] LOw50G0W3CEAE_l_Mbo3pWjE6mD04ALEUnXQp6CwINVBTOlPIEfOW6wMyjUAFJs7GQ8FPLuhPVeptTCbk6z25v6SRxWujHmaAW
+sprite $PrintLg [20x20/16z] {
+TSzL0aKX24LHx8Gp_z6-i6wwFvS9aSEfGAs49oP8yAtoHzkDgHV_veUfRbxuC9hfOR7jwwbkZjk-PTMsduYR-VOTt2eClf6GmwDKiI_F2lwnuFeNaRfckyoH
+hlk6ILejkzJCo9bO4tq1
+}
+!procedure Print($id, $name="Print", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Print', $name, $tech)
+!endprocedure
+!procedure PrintCard($id, $funcName="", $content="")
+  IconCard($id, '<$PrintMd>', '', $funcName, $content)
+!endprocedure
+!procedure PrintGroup($id, $name='Print', $tech='')
+  IconGroup($id, 'IconGroup', '<$PrintLg>', $name, $tech)
+!endprocedure
+@enduml

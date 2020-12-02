@@ -1,0 +1,19 @@
+@startuml
+sprite $CodeBranchMd [14x18/16z] {
+PSx50S1024JHYQx2xx_QkEVTS3g3h5Db4Su8XhmLWrcGKvsq15lF27Wh6JbZ6h16LzHGj8ZxjdQDrd0DzjhAJMVKj8aegQN6wa1jjcXXDGrQTJ3er0FbYWo7
+-FjQ_zfmxjxC
+}
+sprite $CodeBranchLg [20x27/16z] {
+XP473aL114LDx-n_jvydCYRjtrVda4k0YaJKmIiSOc7oRD2dxHaIBU6QM7gB07miaLzPV3Qn6h0TIfN8RAbFgVeTZ39_fUA2BcW2IyBGv2NXfWKaVtyz97Pm
+hNB6PMeeTfv1tEhZ6HV4u9awRhWin9Gx4bLZOnoqtesPTe7BSFPQqcTlxHyx-Q7E1pPrcfxv-Pban3Pdlu_9BFtPc-u58pom8uqN_G
+}
+!procedure CodeBranch($id, $name="Code Branch", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CodeBranch', $name, $tech)
+!endprocedure
+!procedure CodeBranchCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeBranchMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeBranchGroup($id, $name='Code Branch', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeBranchLg>', $name, $tech)
+!endprocedure
+@enduml

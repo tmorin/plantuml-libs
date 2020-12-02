@@ -1,0 +1,13 @@
+@startuml
+sprite $PrescriptionBottleAltMd [14x18/16z] POv50a0X44AnM-z_sX-spbjD0hbif5bHCXSBoM7iH85jCW58j4jvwq9xc1rcvuG0f0YjKwYurdaj0QqZ-MiTuvcwtydYwZnU
+sprite $PrescriptionBottleAltLg [20x27/16z] hT053W0n24JHGUfs_zjkPDtjnveNAL3Rfjm-bBSKINYL02GRWcshz1UhETV9lhsgC0CWPXsjO8XEhGNl6P3Wmwi9d4ZuvIvcRG8WBia37G
+!procedure PrescriptionBottleAlt($id, $name="Prescription Bottle Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PrescriptionBottleAlt', $name, $tech)
+!endprocedure
+!procedure PrescriptionBottleAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$PrescriptionBottleAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure PrescriptionBottleAltGroup($id, $name='Prescription Bottle Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$PrescriptionBottleAltLg>', $name, $tech)
+!endprocedure
+@enduml

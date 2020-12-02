@@ -1,0 +1,16 @@
+@startuml
+sprite $WixMd [14x11/16z] VKUr0GH146BSLlglzZK_73o0_ad4d-8bT1oJdeti3jyZomgh5jcCTwSDx3he7DJLpvirm5hmIrw-q0KcG40adrOyu0q
+sprite $WixLg [20x16/16z] {
+hOw5OKGn3CKKvcZ_QTkZ4RwP_NYOLe7I0s7baSO0nbY7g9rg735PwSOgxSxBtE4MkjLADA-PZRS72omNSEPjECo_sWI69hQNw7ktMQ5ue3k9vcYZ6mcxyZ5n
+nHyM7gP_
+}
+!procedure Wix($id, $name="Wix", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Wix', $name, $tech)
+!endprocedure
+!procedure WixCard($id, $funcName="", $content="")
+  IconCard($id, '<$WixMd>', '', $funcName, $content)
+!endprocedure
+!procedure WixGroup($id, $name='Wix', $tech='')
+  IconGroup($id, 'IconGroup', '<$WixLg>', $name, $tech)
+!endprocedure
+@enduml

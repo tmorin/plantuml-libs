@@ -1,0 +1,16 @@
+@startuml
+sprite $IndentMd [14x16/16z] Os140Wny_4Y03vN7m01M0WLi3CY0dmj8m7G3AIva7eWB1wWyL9Mefg3QW68xNdUY-WW
+sprite $IndentLg [20x23/16z] {
+ZSs35G0n40JG6Cl-gpsR-S-B6VEWr9kiRSI76_VOuUypbVaqyWPr6HOzcOP9M2OiD0vv7DgDqL6vT0nmFFCRDup83hEi6nb7jzvvP082JW1hjAP9oZTH6yLq
+4yo37W
+}
+!procedure Indent($id, $name="Indent", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Indent', $name, $tech)
+!endprocedure
+!procedure IndentCard($id, $funcName="", $content="")
+  IconCard($id, '<$IndentMd>', '', $funcName, $content)
+!endprocedure
+!procedure IndentGroup($id, $name='Indent', $tech='')
+  IconGroup($id, 'IconGroup', '<$IndentLg>', $name, $tech)
+!endprocedure
+@enduml

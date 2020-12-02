@@ -1,0 +1,13 @@
+@startuml
+sprite $AlignCenterMd [14x16/16z] Om02HZ1WW00-VZ3Wm-GX04GJWWLJ1bMCoaDLYG0qj0y16
+sprite $AlignCenterLg [20x23/16z] bS-r0GKX403HFHpM-g_sknx-mia6EaB9ByM_6-b7UJTiDEC-36n0hg0saB3yOI4uAj1ZxCVH-CYZtuW57me6s11YnUiY7oeE6gu
+!procedure AlignCenter($id, $name="Align Center", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AlignCenter', $name, $tech)
+!endprocedure
+!procedure AlignCenterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlignCenterMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlignCenterGroup($id, $name='Align Center', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlignCenterLg>', $name, $tech)
+!endprocedure
+@enduml

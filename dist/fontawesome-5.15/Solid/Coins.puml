@@ -1,0 +1,19 @@
+@startuml
+sprite $CoinsMd [14x14/16z] {
+FOs50S0m20I9uBR_jlLU5Fi7WA7L5vLyHhi_wencVf6TqHaZgmgkVNw9cHO0UhN4rxNJT_y8eCKNr9IkjTWYN77DJT0fj3UIjWA0VcOnpmZNMI2wdZFgJbDH
+ovOpsjetIN1o
+}
+sprite $CoinsLg [20x20/16z] {
+RT150aGX30FG12tMtF-s0_pDsDiXLLoXzkMIVFP2N5LlF6EZwzt2aVtzAkAHRCorrkmr8k8TYL2606ORSyvXcJ1ja-sjei7aZKFl6jBjxDr2xgwYTnbJwWZx
+uU6Dm9W5Ne2GSiwHO5qu91zMKah5XkGuJEyAhc3JTVYinBLA8CD6S3_ZaBH6CxC-rlyr9LmyQ_ApTKjul
+}
+!procedure Coins($id, $name="Coins", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Coins', $name, $tech)
+!endprocedure
+!procedure CoinsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoinsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoinsGroup($id, $name='Coins', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoinsLg>', $name, $tech)
+!endprocedure
+@enduml

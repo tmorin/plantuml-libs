@@ -1,0 +1,16 @@
+@startuml
+sprite $HorseMd [14x12/16z] JOw50S0W4CIAEzb_s-8GzFs-HGHAMeQYaVW-7HiPQWLTM2I3FmQv5LJtMaNcPTdLpIeJGNRBKKLhlAp-NajKxBMQfcP9Iil_VW
+sprite $HorseLg [20x18/16z] {
+RT254O0m44JHYtks_sxXbim4-_Z38_VImDcyKmKhDugKt72pHkk35ZARM8a93RkSTJLnhvZHFR3mzaxKycFkRl4owPk6Q5QilYcKDdGhLncOHdTEJFil6tUw
+shvENjTv0EvbPdAVbc_3bjOs40u
+}
+!procedure Horse($id, $name="Horse", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Horse', $name, $tech)
+!endprocedure
+!procedure HorseCard($id, $funcName="", $content="")
+  IconCard($id, '<$HorseMd>', '', $funcName, $content)
+!endprocedure
+!procedure HorseGroup($id, $name='Horse', $tech='')
+  IconGroup($id, 'IconGroup', '<$HorseLg>', $name, $tech)
+!endprocedure
+@enduml

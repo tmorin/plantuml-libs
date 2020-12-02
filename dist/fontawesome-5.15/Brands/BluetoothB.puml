@@ -1,0 +1,19 @@
+@startuml
+sprite $BluetoothBMd [14x22/16z] {
+LT050i0W0090kvN__tR2ckNPQfHHpIST-IUadn3r5wIqm9-CGZa7Cc1poows9ND77DSu7aeMLClcTn8m7xZvQUZMqq-e7NbfJB_GJ8DpOjcWx5BRPAauxZce
+HJpwRhT-OThlNFprFG
+}
+sprite $BluetoothBLg [20x32/16z] {
+PT053iGm34HHXpbp_zjkR7bB_gheDKoQpsHoiEY0P0s8rh23DMnl3KkHWbel1vrGHbMZWvFH0unYL84XumJ5t00ANIWsPSg5VMCEe2anQaFXWTFH4osHMyVQ
+coQuOWd8BzhyAIgjkD7JmQGa3mSCsJrUf6zG3de-1HFHFkQd7iWFVbGsjuGqiJcL7WOcOq9FiqJB4crBz7YJ7m
+}
+!procedure BluetoothB($id, $name="Bluetooth B", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/BluetoothB', $name, $tech)
+!endprocedure
+!procedure BluetoothBCard($id, $funcName="", $content="")
+  IconCard($id, '<$BluetoothBMd>', '', $funcName, $content)
+!endprocedure
+!procedure BluetoothBGroup($id, $name='Bluetooth B', $tech='')
+  IconGroup($id, 'IconGroup', '<$BluetoothBLg>', $name, $tech)
+!endprocedure
+@enduml

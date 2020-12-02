@@ -1,0 +1,13 @@
+@startuml
+sprite $UnsplashMd [14x16/16z] bSV50S0m0090wWxxRrktUEvts1KRt7gHwkyDsWpkTLmMTeYODmqspRpHfiMcrSPUXqrtZyk6obByh
+sprite $UnsplashLg [20x23/16z] lSYr0S0m30LHcTdQVzh0Ry8ChxkZJIw6JhGqaXZYMozoxN2WCG5qJUfbHQ0paa4J68RdpqhLaPv_OrVGYXO
+!procedure Unsplash($id, $name="Unsplash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Unsplash', $name, $tech)
+!endprocedure
+!procedure UnsplashCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnsplashMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnsplashGroup($id, $name='Unsplash', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnsplashLg>', $name, $tech)
+!endprocedure
+@enduml

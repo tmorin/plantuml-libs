@@ -1,0 +1,16 @@
+@startuml
+sprite $FedexMd [14x11/16z] ZKs50S0m22kaWlF_jPCFYciohaKKVpfW-bBx1D5Ap4d4xH7XzdLxpjaS7hbhhWcm3DZSzlqjODxplG
+sprite $FedexLg [20x16/16z] {
+jKz55WCn21sSDo7y-z-saLNtBUxo_0-8w1hTy1lf5BDZOXWJhn33oPHebQFhhPcEkUejKiqSmr4l4AkENLX97yJJ8rwamabLT4LhTTHqwweGYL0r_pxco9y_
+-G4
+}
+!procedure Fedex($id, $name="Fedex", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Fedex', $name, $tech)
+!endprocedure
+!procedure FedexCard($id, $funcName="", $content="")
+  IconCard($id, '<$FedexMd>', '', $funcName, $content)
+!endprocedure
+!procedure FedexGroup($id, $name='Fedex', $tech='')
+  IconGroup($id, 'IconGroup', '<$FedexLg>', $name, $tech)
+!endprocedure
+@enduml

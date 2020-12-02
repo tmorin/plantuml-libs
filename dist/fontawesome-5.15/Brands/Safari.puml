@@ -1,0 +1,19 @@
+@startuml
+sprite $SafariMd [14x14/16z] {
+BSwteKKn34Cntnna4VjF--DZnTDXZB6-YTG-_lOWrFeRKohTKzQnFWgapF4Ac5jnHi4rJjCaECU6e7dwABf5czSpqRfqzZlGhhrKWP9bh94ftVpQracQVA3d
+fA_bvtq3
+}
+sprite $SafariLg [20x20/16z] {
+HStLGG1134NHZEnOvFRVBGHMpj-BofywZ-eUHLxrSDjFzGA2OmH4Uqk-C6S5aCKAQjpSyI9om9xQxi3ACRyhqSKmeanYlJyN6VhXdpUH1cafnm369MA0Abin
+1zQcJI3JFYIRCHQtEOW9OmubPUWLWbKMjy15DdYtkt8CfaW9F0Y0m0oJNnsmXHeh8Agava3M0CjIAYkulygdzBNtx7Vw0G
+}
+!procedure Safari($id, $name="Safari", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Safari', $name, $tech)
+!endprocedure
+!procedure SafariCard($id, $funcName="", $content="")
+  IconCard($id, '<$SafariMd>', '', $funcName, $content)
+!endprocedure
+!procedure SafariGroup($id, $name='Safari', $tech='')
+  IconGroup($id, 'IconGroup', '<$SafariLg>', $name, $tech)
+!endprocedure
+@enduml

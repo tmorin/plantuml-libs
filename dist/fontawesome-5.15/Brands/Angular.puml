@@ -1,0 +1,19 @@
+@startuml
+sprite $AngularMd [14x16/16z] {
+POm54aGX34DJmndkVzibtJ_AGwe97hIkLHL4oZp9B8B8hBKCKJAePYZEVm23qRDffHYZ2lNO6-icWdt5YA3T1jRzFC9lUr8UGeqKchLJEgjUJWFBZmgY_vdW
+m-OqlFm
+}
+sprite $AngularLg [20x23/16z] {
+VOxLOKL120NF2klIVxLNaEJvVE4CVk1pSdZ4fRul6ZahKDl6gl6krBMPN3SpYujRSS4YxpMemD1zvxGM0D9bO7BGGT52so2CXinX0vhCX_iEAnIWiWZAMadY
+15vOwk_b38Z7VRpmQ69mgteC-HXlUPwl77ElyvthMObTQYtKFN0HUS_e0GnDgum8msMslGmVyVKoSdWXUFpY1
+}
+!procedure Angular($id, $name="Angular", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Angular', $name, $tech)
+!endprocedure
+!procedure AngularCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngularMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngularGroup($id, $name='Angular', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngularLg>', $name, $tech)
+!endprocedure
+@enduml

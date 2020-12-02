@@ -1,0 +1,16 @@
+@startuml
+sprite $StripeMd [14x11/16z] XKp50GD023lSsN_RUj-7Iv9pDQ3VWEnmr0wULqpvncJskavMX4lA5FNc-7H7o7HLjQk0Ce6ElTZy5-LpioS
+sprite $StripeLg [20x16/16z] {
+hOv7WW9G24Fv7KB9_KyxenlxJj-AcaH-GdlgrhKzVj_kDNdw77kFkOR8MX8LoZIc1rWSLdNfnsHVR9O8AIy3EsZNcLWW9Avl1YFeIh44mHMfv_YHRUl8t2ZR
+qioNt04-XlwUVm
+}
+!procedure Stripe($id, $name="Stripe", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Stripe', $name, $tech)
+!endprocedure
+!procedure StripeCard($id, $funcName="", $content="")
+  IconCard($id, '<$StripeMd>', '', $funcName, $content)
+!endprocedure
+!procedure StripeGroup($id, $name='Stripe', $tech='')
+  IconGroup($id, 'IconGroup', '<$StripeLg>', $name, $tech)
+!endprocedure
+@enduml

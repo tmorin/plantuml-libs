@@ -1,0 +1,16 @@
+@startuml
+sprite $LaptopHouseMd [14x11/16z] DSx50S1020H0u1JT_gkDPtuuT54q6lGne1H2DmuydaWIBxsZkpB5mxDV4IlGITQ-N9isa3fXRbxt-YjSyQnWMbSKyu-8cKMpzJRhVQ7ZLIS
+sprite $LaptopHouseLg [20x16/16z] {
+TSg54KCX50NH-nL_st-t6JH-y1tKE9m-122e53r5gWIQjioaOIyiXvh3gCP-gYfKktOm8wiwRmFgPQlKzNyw6IvfexblV8ENj9gQlorX6BTxRTegUJPjcxRQ
+1cCn3P4bFW
+}
+!procedure LaptopHouse($id, $name="Laptop House", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LaptopHouse', $name, $tech)
+!endprocedure
+!procedure LaptopHouseCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaptopHouseMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaptopHouseGroup($id, $name='Laptop House', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaptopHouseLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SlidersHMd [14x14/16z] LSk50G0X509Gx9RzfxqEUUOlN4AwNtjfutufocMobdgytvoopGEjtzhWQ9q2BpSZpF7wuth4a5b3V524i-R3G-Ts
+sprite $SlidersHLg [20x20/16z] {
+ZSRLOKLH30Cmdt0kUVzfsyTC-X8-a6KUvrSVr4nEfoTVMDQZZLnFPem3EAddNwZYfT4r09XVMPDfhlpD9Yfw9acwwC2j4N6UE-uCGP0sRcryil85psYouYeD
+WCpJm3V_
+}
+!procedure SlidersH($id, $name="Sliders H", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SlidersH', $name, $tech)
+!endprocedure
+!procedure SlidersHCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlidersHMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlidersHGroup($id, $name='Sliders H', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlidersHLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $LiraSignMd [14x18/16z] {
+JOs54S1020InEC_rtssOznrZiIDY4LfyY4qT43ukjs45oPdr6wZu8scrl4rOEUq-F9UkB-gcddqLnzWCVqwbfFvhpv_ufERrAATf0ZpBdlgesmqKgcPoEG2j
+rWYZQUNc-bZCJ8KgFm
+}
+sprite $LiraSignLg [20x27/16z] {
+VP055iGW34I118VC_K-xWhochCopzhSmOhxB4j79Ae3mYrbcpQ8DkGbaimP0C3IPpmsNsc3NUy_16StgIBCyfES-VCSbedsXFVYVXxGSoDuyU7dwbCBsK0N4
+tZUmVLwg6G4e1ylZMRFnczWR8m6GZMPHvc-B9GfvRiXdNyX4cXMx_ClwfKPdjgnxovg_UW8
+}
+!procedure LiraSign($id, $name="Lira Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LiraSign', $name, $tech)
+!endprocedure
+!procedure LiraSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$LiraSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure LiraSignGroup($id, $name='Lira Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$LiraSignLg>', $name, $tech)
+!endprocedure
+@enduml

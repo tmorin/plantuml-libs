@@ -1,0 +1,16 @@
+@startuml
+sprite $CalendarAltMd [14x16/16z] POu30W0X44L_TdF_qouoNXW301763qR4-czfmT91NXKB1eRosT_g_9P1pgnSc6Abtqh5ik0CxBiSzeWTTRQabNjDYCOsJDmNjIy
+sprite $CalendarAltLg [20x23/16z] {
+ZT230S0m40NGOnNy_QUjxHSRr0l8F9GAr3GBWCnz3Gr4DGBU5r80GPIfn8LdN2JyPdBWw0aTwDJ7maH36YfpNuD41M2IKP5DVH7W4d05cgMlIe4yHUMOIhBd
+CwhOaCMe76Bnjbz0diuT_i_szvF3_GuUpotCTwm44Yw2n6jN1m
+}
+!procedure CalendarAlt($id, $name="Calendar Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/CalendarAlt', $name, $tech)
+!endprocedure
+!procedure CalendarAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalendarAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CalendarAltGroup($id, $name='Calendar Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalendarAltLg>', $name, $tech)
+!endprocedure
+@enduml

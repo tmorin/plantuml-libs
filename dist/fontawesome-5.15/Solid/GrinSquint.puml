@@ -1,0 +1,19 @@
+@startuml
+sprite $GrinSquintMd [14x14/16z] {
+HSw50S0W40F0a1Q7PFzfwtAu_WC8USmvIi1fbI-AvyAVX2pB3r5sITT1jgiF338XNxSgczrPV1cw7WrVz0sInR36k9uFQv4BBjacejrNScrdT23-gPnOXZGg
+0Um
+}
+sprite $GrinSquintLg [20x21/16z] {
+ZP07aiKm349nhr7kVziLwo7ZwV-b8To8G49TvkmMyD6Uzn_hCgCxmZ98ilUcS2_D4WbnI8i5MazQB2IoKLSKty4Q4gjvJWkiAh3liwen7PASQxzCyJDCN6Fj
+OyxHQynUZkwlZe_27maqiwne7WydqsdSIHJL19kzJwD88E4AjQEsKTHTSH5BhKLp_W
+}
+!procedure GrinSquint($id, $name="Grin Squint", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GrinSquint', $name, $tech)
+!endprocedure
+!procedure GrinSquintCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinSquintMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinSquintGroup($id, $name='Grin Squint', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinSquintLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $BityMd [14x14/16z] {
+FKw50SH020ld0km_xXE-BUu4GBj97QIbwPjkkYxuqvIiJjh1YHB-CDjHarNGlqn3gtF16ZEkszwsMDarhFJ1TZ7DfJ5frvwSn-HSDGcDj5ApNlLKG0wJ5qP9
+N3y
+}
+sprite $BityLg [20x21/16z] {
+TOu7bWGX24Gn1v2w_srtQPWyypjOxwi06LMWvoXEfnj58BFtmT0QQe2pfxImFCcWEnM5taYFkED6buTZZihgHuQv7UxO54Fdqxbfha6QPRWJjdFkiahDkMpK
+o-aWawp_IF4HbSd99KLHFOWu5ZbdTfqUbyJSIDHGtB6NW9rPBlrkYleBWu8EkITSHPlQ6gInBxSI_U8F
+}
+!procedure Bity($id, $name="Bity", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Bity', $name, $tech)
+!endprocedure
+!procedure BityCard($id, $funcName="", $content="")
+  IconCard($id, '<$BityMd>', '', $funcName, $content)
+!endprocedure
+!procedure BityGroup($id, $name='Bity', $tech='')
+  IconGroup($id, 'IconGroup', '<$BityLg>', $name, $tech)
+!endprocedure
+@enduml

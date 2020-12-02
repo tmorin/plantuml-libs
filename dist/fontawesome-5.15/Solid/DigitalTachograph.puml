@@ -1,0 +1,13 @@
+@startuml
+sprite $DigitalTachographMd [14x11/16z] VSc50SGW3010d7Zsd_Q_xkr1F7mGSnk-ZaoSEq0dNxGmgEiaI8IyJYgZxGO3vYcxkGrypXRJA2ubdFm1
+sprite $DigitalTachographLg [20x16/16z] ZSo50SD02010sWWE-qyRTx_tH-2htmbO7aGENsT_60euDs14kS587Tnr8UT-xFvy7B6hfHww8M5dw2i3TkVXefcM9mO_EFZ1Loq
+!procedure DigitalTachograph($id, $name="Digital Tachograph", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/DigitalTachograph', $name, $tech)
+!endprocedure
+!procedure DigitalTachographCard($id, $funcName="", $content="")
+  IconCard($id, '<$DigitalTachographMd>', '', $funcName, $content)
+!endprocedure
+!procedure DigitalTachographGroup($id, $name='Digital Tachograph', $tech='')
+  IconGroup($id, 'IconGroup', '<$DigitalTachographLg>', $name, $tech)
+!endprocedure
+@enduml

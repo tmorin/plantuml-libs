@@ -1,0 +1,19 @@
+@startuml
+sprite $TintMd [14x20/16z] {
+NSx50K0X3C3GujxiF-rt9RU7LlOS17dAq1uO1Uoj152-M-1ELOxwWS1Ltc3FS-TPLtdgyW54_MemLTrFyfvMCF6vrw29h-TsT1MwatZDPlfv7jJAni9HDN9a
+qz3iP6i5
+}
+sprite $TintLg [20x29/16z] {
+PO-5aKL120JdhJlvPtktIl7fyiO671oHmm-Lg49Yw1yZNPmkIjUdwq85MWJLzXfvczne1bqCPtjKCIccBGdiT4swnj6OyA8ndTkOKBIhGxkfkcdA5oJLsE2b
+AZEwp5ty6XORFVf-tEVsCkzTnG3cjG6P9ktsPU19OZK9uyK8k7nX_ZXg-33v0m
+}
+!procedure Tint($id, $name="Tint", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Tint', $name, $tech)
+!endprocedure
+!procedure TintCard($id, $funcName="", $content="")
+  IconCard($id, '<$TintMd>', '', $funcName, $content)
+!endprocedure
+!procedure TintGroup($id, $name='Tint', $tech='')
+  IconGroup($id, 'IconGroup', '<$TintLg>', $name, $tech)
+!endprocedure
+@enduml

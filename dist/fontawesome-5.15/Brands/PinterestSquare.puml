@@ -1,0 +1,19 @@
+@startuml
+sprite $PinterestSquareMd [14x16/16z] {
+PSk5GKGn403HYNsYE_rNYyFPYwv1-WVTCDJlf_jYPCZT7nTjZ4hxgJ1LEqEr51j7AQfqOMjEghb9KbFvcJiqNRofEYSbTahXjqw5VFnHitlx9rt-wXfb6Q5X
+XmJf1tm
+}
+sprite $PinterestSquareLg [20x23/16z] {
+TP235GGm44Hd6MVwh_Pi_8SryGEfxOE2mIyQ_x9xkcVRVDBbrhm_6m3UvsmAt7jDt5K7rbLB95dFxYr8Nb1C1Z191kmw4t9Ek6nQeAy-sPSsTkyyQF2h6lTL
+WdePlPxBUDoCWF9rQzHkU7r9m0s0JZunT8xswk465ZzOiDUCTlKDFgdmp0p99uvV704
+}
+!procedure PinterestSquare($id, $name="Pinterest Square", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/PinterestSquare', $name, $tech)
+!endprocedure
+!procedure PinterestSquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$PinterestSquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure PinterestSquareGroup($id, $name='Pinterest Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$PinterestSquareLg>', $name, $tech)
+!endprocedure
+@enduml

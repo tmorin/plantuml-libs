@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the EnvelopeOpen element
+include('fontawesome-5.15/Solid/EnvelopeOpen')
+EnvelopeOpen('envelope_open', 'Envelope Open', 'an optional tech field')
+@enduml

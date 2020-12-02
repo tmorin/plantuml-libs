@@ -1,0 +1,19 @@
+@startuml
+sprite $PrescriptionMd [14x18/16z] {
+DOy50i0W30E7E_d_RqSgcS3L6o8LFjK5TOSIJCEefPm749NI-oSWA_LQwy8DIgfkUQnwAk-1UGrOX78BgtJ1TzqamGgSK9b1V10_qmI3LCpHKWQxEsR9SOpt
+19QoWMpRzFq
+}
+sprite $PrescriptionLg [20x27/16z] {
+RSu75W8X40DGwHtkVrlDC0OiUItlxm9v_8br6dDihdSgTPqCGpkfnwBSsLxDqln-38tcf7WqMit8N6l-UIFzMhxsZGcf-e0nyeO5bark3YCB716jxrNwftxS
+fgZ_rz6D7a903934HD2uXV_z496Kx_4SVQFNAjZvA4XGzagkyZTF
+}
+!procedure Prescription($id, $name="Prescription", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Prescription', $name, $tech)
+!endprocedure
+!procedure PrescriptionCard($id, $funcName="", $content="")
+  IconCard($id, '<$PrescriptionMd>', '', $funcName, $content)
+!endprocedure
+!procedure PrescriptionGroup($id, $name='Prescription', $tech='')
+  IconGroup($id, 'IconGroup', '<$PrescriptionLg>', $name, $tech)
+!endprocedure
+@enduml

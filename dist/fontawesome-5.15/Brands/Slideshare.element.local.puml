@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the Slideshare element
+include('fontawesome-5.15/Brands/Slideshare')
+Slideshare('slideshare', 'Slideshare', 'an optional tech field')
+@enduml

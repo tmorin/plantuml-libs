@@ -1,0 +1,19 @@
+@startuml
+sprite $ViadeoMd [14x16/16z] {
+DSk54KCn30DG6SAW_RVjATV_WYOyxhfDjrG5U_wZT5_amHSUyYhoEde4x-O26ddOV6uoqTbDdJ5FHR13QkgU5qzhAu0xyOp22d10R1aRi1UaT6S2bQvesg3U
+SmmeySO0l-npBdOyrY-v4_83
+}
+sprite $ViadeoLg [20x23/16z] {
+JOy55WCX4CK-xkJ-fwtmXcwpIjweBj7PZzSFN-oxmoFhzz-bHVqBhF9j0rqFsKzWC_GV230jBfJUMrA5DQ1ypUJBK5cj0rvAi6kA9IhxnGaBqAnWytdE96d-
+b8QtbTZkkXbyFl6KgzoA-mHCudLXkyKtVH6koqlpdERZHhE8JhxbjdVmhPUOvcfNiVsN1OOfjwrXuaZVl7_6Bp1Y7gd2q2LjE5JzaThQetWPRm
+}
+!procedure Viadeo($id, $name="Viadeo", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Viadeo', $name, $tech)
+!endprocedure
+!procedure ViadeoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViadeoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViadeoGroup($id, $name='Viadeo', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViadeoLg>', $name, $tech)
+!endprocedure
+@enduml

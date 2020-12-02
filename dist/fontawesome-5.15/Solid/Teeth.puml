@@ -1,0 +1,13 @@
+@startuml
+sprite $TeethMd [14x11/16z] NKg54GCn35F8VD7-spO7VJAAvkPLUpq8UKZHMrOp5ac3BuXW1enKwC8wp21aIeLaIfGa6IDzU0pBuT-a8nsHi89pdxv7-2Zz0G
+sprite $TeethLg [20x16/16z] RSw50S0W30J0nntstxR5tJaaWKb7CPakl6dUPp6o-KX19G8O0v2yoKP0OhEy8Dcm6x9Hq4W9h0Nv5w3POeYvpyNxtltVEsvEQUQSDyzY7WHpqmS
+!procedure Teeth($id, $name="Teeth", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Teeth', $name, $tech)
+!endprocedure
+!procedure TeethCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeethMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeethGroup($id, $name='Teeth', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeethLg>', $name, $tech)
+!endprocedure
+@enduml

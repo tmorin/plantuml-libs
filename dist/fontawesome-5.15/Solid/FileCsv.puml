@@ -1,0 +1,16 @@
+@startuml
+sprite $FileCsvMd [14x18/16z] dOor0SHG34C_cctjF-qnbidhX8KdtRMrXe-2_2d8du9-rAHDz5Qwx-00CIIwx1I-gxLgpkhn_9WAxxPuwbtj4Jd8Mg-xogaw4sGuJLq1
+sprite $FileCsvLg [20x27/16z] {
+lSl5aGD144JH72okzDzQiJHqtltDBwARlmnP0nvnRq71rIXNU-BLA5TxuC6iyjdE79-uo_GT_w2IO8gND2NU580Ki3YIMD-s8AXGEg8XRvi6CZ5amXvpC-Om
+z30jgBS9bgIEe08Bt_KCQK2VFvhVgfdFLpV_AxkIt04
+}
+!procedure FileCsv($id, $name="File Csv", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FileCsv', $name, $tech)
+!endprocedure
+!procedure FileCsvCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileCsvMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileCsvGroup($id, $name='File Csv', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileCsvLg>', $name, $tech)
+!endprocedure
+@enduml

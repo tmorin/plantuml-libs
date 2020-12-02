@@ -1,0 +1,16 @@
+@startuml
+sprite $ShareAltMd [14x16/16z] RO-30G0X543FhDx-qsRNjx4aUE7DpWELgt0GdOtAEnMXyb7g-U5tUdbneCvG4-gtPU9rbUsKRiEmlLmsNbq-CW
+sprite $ShareAltLg [20x23/16z] {
+ROu54iCm30HFPlR_NrjGeruyaqrCEoBSINElAeUg-ykyox1_b3DCcGzkKVbvkMv6wZO2f8pPVLpVGXgP87fQlrYIO-4z78nrgGfYOHdaFu3GPGjSaRAfq53d
+Qc_XAsDhMLpVHcLyMYOJfGoRb8xZWvI7EC_nILBLSE3R6Wbu0m
+}
+!procedure ShareAlt($id, $name="Share Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ShareAlt', $name, $tech)
+!endprocedure
+!procedure ShareAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShareAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShareAltGroup($id, $name='Share Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShareAltLg>', $name, $tech)
+!endprocedure
+@enduml

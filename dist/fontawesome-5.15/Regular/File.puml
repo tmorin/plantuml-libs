@@ -1,0 +1,13 @@
+@startuml
+sprite $FileMd [14x18/16z] jST50S0040EmZe_hN-qO1Io_62y2W3c9o1IihJHiX4EilTSXEDqpCTQvaOTZw5QvxHQVvUyBClhXKbp_q0K
+sprite $FileLg [20x27/16z] xSk54O1044FHSvV-koMBXsk1F_uo2VDTqmhLIKKnRBb8kPue5jIH0tH1DcS6y6FAT01_hG5qihF73DcPzSZLmwXys6-jK7sEEfUINZ2h3G
+!procedure File($id, $name="File", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/File', $name, $tech)
+!endprocedure
+!procedure FileCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileGroup($id, $name='File', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileLg>', $name, $tech)
+!endprocedure
+@enduml

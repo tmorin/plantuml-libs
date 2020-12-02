@@ -1,0 +1,16 @@
+@startuml
+sprite $StarOfLifeMd [14x15/16z] VOw35G0n40L_x4p_rPxrT1EiePq0IG-FPUnhMJMQFIrRsIJa13a2imuUPf8o5yLemvz6r4wQLrusAj-wo5wGphxGwUwSvnhHkdSNfx-jLm
+sprite $StarOfLifeLg [20x21/16z] {
+fP074WCX24M_lUlzRnjHc27JKlRjskW0Pct0V2tBpMgPRHbktuk18Ta-oZvSfyUCLnOd7RsjG-UDQ0XZlJ42DacB4YwcYgGQCAw9hBahiNKfgbNHL4JEsdWZ
+nZcxlxtT3fgbBY2zWJgnYCNe6PWIyMYcJADvC2y
+}
+!procedure StarOfLife($id, $name="Star Of Life", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StarOfLife', $name, $tech)
+!endprocedure
+!procedure StarOfLifeCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarOfLifeMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarOfLifeGroup($id, $name='Star Of Life', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarOfLifeLg>', $name, $tech)
+!endprocedure
+@enduml

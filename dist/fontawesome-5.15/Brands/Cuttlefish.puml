@@ -1,0 +1,16 @@
+@startuml
+sprite $CuttlefishMd [14x16/16z] PSsr0GDH40FHqHe-BVHVhHdl9jAB1A2st5SJzrgzEWEZFZMrBwRwSool2iZxTWFpCzGz0n1FBTxjbNehxrm2hVFxE-VASb3_UGVcbmtelm3h7k7Tu0e
+sprite $CuttlefishLg [20x23/16z] {
+RSz50e1G20JG-TtC_KzhOUjRqc0Jcd0rYeModPUiHNne1l1y4WSZV1W6A7ooWAMIx5neP0AGzWwz8Oe1q3JceHm0w8QEk_kXprZ1vR-tSXEXmhQTAc1LQ87h
+jPPY7llan0UzjFD1rg2Ldqex7Y6zt-GhCZnsDdTP0otWpbXdeMO
+}
+!procedure Cuttlefish($id, $name="Cuttlefish", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Cuttlefish', $name, $tech)
+!endprocedure
+!procedure CuttlefishCard($id, $funcName="", $content="")
+  IconCard($id, '<$CuttlefishMd>', '', $funcName, $content)
+!endprocedure
+!procedure CuttlefishGroup($id, $name='Cuttlefish', $tech='')
+  IconGroup($id, 'IconGroup', '<$CuttlefishLg>', $name, $tech)
+!endprocedure
+@enduml

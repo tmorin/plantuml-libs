@@ -1,0 +1,13 @@
+@startuml
+sprite $FlipboardMd [14x16/16z] TSwr0G0X0CNGKnp-_jFYBgzBbti0c0ehbQMuCdMgbnBTYYDQw-LCjoAeneAI6WVzxprm
+sprite $FlipboardLg [20x23/16z] Oy02EB40Vie07niSiB93nNYHh6JaWwf34cE2wSMZZf6JYvCBeGwX3rsCZx0O8z2RN6XwcT3z0TD7G1q_mYpA0HiMW2tU
+!procedure Flipboard($id, $name="Flipboard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Flipboard', $name, $tech)
+!endprocedure
+!procedure FlipboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlipboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlipboardGroup($id, $name='Flipboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlipboardLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PoundSignMd [14x22/16z] {
+VOs50KCn24I9UzX_ssArRo-AtO4GKeuEbBIGQH8ND0O5aJzpK3rHr2d8z6Q-O6gBGItj9l8KTN3gLf7PMsSx6bEi5vVcdEsaSX-bdBwHsuZ_KMrqhTO9V2Ry
+0N-y
+}
+sprite $PoundSignLg [20x32/16z] {
+fOz50WGX30Gdk2R__-rkZxlMgIaWqfn3gxCAcPbBD9CACb06csL69zDSiO8otI7vaCTd4OOreagkgrRXkZmYW7PSyyfHNuzegEc4nscbh3S5ksx_xxh7rvc9
+riu8IrqvXxno5dcOHP7wGnwvodkgy59W5jhGxF43
+}
+!procedure PoundSign($id, $name="Pound Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PoundSign', $name, $tech)
+!endprocedure
+!procedure PoundSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$PoundSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure PoundSignGroup($id, $name='Pound Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$PoundSignLg>', $name, $tech)
+!endprocedure
+@enduml

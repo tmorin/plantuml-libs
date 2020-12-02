@@ -1,0 +1,16 @@
+@startuml
+sprite $CalendarCheckMd [14x16/16z] ROw30S0m50MlTj_-qnQnBlW6815-Egdp_we4OqJkZAvFwFAOcbpzvZlz1fERmddtZ2uqqqNZDpyZClr6JRxr2m
+sprite $CalendarCheckLg [20x23/16z] {
+dT3LWGKX40NHI_SC3fL_jBlFtGzUdsYZCOCs78eE6jYXLMsPUuTrSrY4PXwKkBDExWm-CyC3CSKRQUKNkT-bA1jtIQeS9J-ap56MV6vJuQH92jS9kdIRDl4-
+GGjt2URh3spMxzC_
+}
+!procedure CalendarCheck($id, $name="Calendar Check", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CalendarCheck', $name, $tech)
+!endprocedure
+!procedure CalendarCheckCard($id, $funcName="", $content="")
+  IconCard($id, '<$CalendarCheckMd>', '', $funcName, $content)
+!endprocedure
+!procedure CalendarCheckGroup($id, $name='Calendar Check', $tech='')
+  IconGroup($id, 'IconGroup', '<$CalendarCheckLg>', $name, $tech)
+!endprocedure
+@enduml

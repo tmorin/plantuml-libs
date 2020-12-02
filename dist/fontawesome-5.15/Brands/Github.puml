@@ -1,0 +1,19 @@
+@startuml
+sprite $GithubMd [14x14/16z] {
+HOw50SCm40DbPcl_RVlG96Ty5e3Ozpcx1oYLVoeGAgyRLynEvZnxdoMIKG89HhWSv7O3c5ep7ilQpSTgOdnrXrTAxyn0waUA6bSvOcKA4OMZHecv635Pp6fU
+FgHFr0i_
+}
+sprite $GithubLg [20x21/16z] {
+TP053WD1201PT-R_l-r1Kc_dT2T1nGXjwyLgGUw4hZZQxp8htD7Ygl16lLI2CnISkI5BNj0bzbvA6yc2japCtJ57iQZsT1bOWCeJZpF_wXhE_dH_OcbF5G4z
+d4MFueIgm6XAwN1Uub9eQEp7mol6lFusAyRdDjJ-mm76tMaI8qnt7diymiYx-UTK-SSD
+}
+!procedure Github($id, $name="Github", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Github', $name, $tech)
+!endprocedure
+!procedure GithubCard($id, $funcName="", $content="")
+  IconCard($id, '<$GithubMd>', '', $funcName, $content)
+!endprocedure
+!procedure GithubGroup($id, $name='Github', $tech='')
+  IconGroup($id, 'IconGroup', '<$GithubLg>', $name, $tech)
+!endprocedure
+@enduml

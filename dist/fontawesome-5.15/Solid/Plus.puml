@@ -1,0 +1,13 @@
+@startuml
+sprite $PlusMd [14x16/16z] Oy04BFpyB0WU1py_1uayLWvs3dOUVduU8CN1oey7eAearpw4gp41
+sprite $PlusLg [20x23/16z] lP150a0X20NjbdV_q_xkTCKeDJiG7zWOpKKf02JFJcD0CJfNSYb3Z6vfBUuGscJLOI9X8CwzOj_jVkSgnHdjd18Vz
+!procedure Plus($id, $name="Plus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Plus', $name, $tech)
+!endprocedure
+!procedure PlusCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlusMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlusGroup($id, $name='Plus', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlusLg>', $name, $tech)
+!endprocedure
+@enduml

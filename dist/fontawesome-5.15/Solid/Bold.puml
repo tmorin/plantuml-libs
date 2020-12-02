@@ -1,0 +1,19 @@
+@startuml
+sprite $BoldMd [14x18/16z] {
+HOt50GD020Jtt6_whpOUc1-iAVxGcyhbm-r1QXXRoll2sNi3NTA29Ad0yKi7ebq9RlXSQyvvOUXp_IX-OSwQSXx0yCu5nwy1s1Kkx3IlBL0RpbJr_YQ5_2C5
+IKy
+}
+sprite $BoldLg [20x27/16z] {
+XP054iCm40EbS6Bw_szxKK4kxv1c3GSmPXWD8TXwqgXh5cArCml0KXNhYG8H794sC5XrqGxtUBouysBwVO_1zlIVSLspuTsrwTtfiTpE8TZk8ykj49BP_Nbp
+_zsYjo0zXrJR-ltTUndQApE6TmNMNfHjGC3145-v
+}
+!procedure Bold($id, $name="Bold", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bold', $name, $tech)
+!endprocedure
+!procedure BoldCard($id, $funcName="", $content="")
+  IconCard($id, '<$BoldMd>', '', $funcName, $content)
+!endprocedure
+!procedure BoldGroup($id, $name='Bold', $tech='')
+  IconGroup($id, 'IconGroup', '<$BoldLg>', $name, $tech)
+!endprocedure
+@enduml

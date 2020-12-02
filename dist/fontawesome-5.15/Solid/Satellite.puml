@@ -1,0 +1,19 @@
+@startuml
+sprite $SatelliteMd [14x14/16z] {
+HOm50WGn20EdxkJ_lxsoPrC5ad29HmrAuQ7BBB1tyAAfSiwMl4pgVZaHM4fiBmhEjAUmG1rhDZbrMzIN0bjvVQf8E0PJbxcKZuLF-67ftAAe-nJgBOWZU1_-
+xC732m
+}
+sprite $SatelliteLg [20x20/16z] {
+PSu53i1G20FGVdTw_zDE89asjZtu02oP0uyOKJ7DzA0qEBIKRuARd3oZdO6C0DoYfgjPBHc91-ml8nij8o2ItSXESY55bsXPyyGcMhrcdJYfkMQvmUuUM02W
+Sk524UQJnEF27ibKA44tY_KXNYUd8KlH8raNi5WnpU0TD6LwdIaEhvmuWH_cwti7
+}
+!procedure Satellite($id, $name="Satellite", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Satellite', $name, $tech)
+!endprocedure
+!procedure SatelliteCard($id, $funcName="", $content="")
+  IconCard($id, '<$SatelliteMd>', '', $funcName, $content)
+!endprocedure
+!procedure SatelliteGroup($id, $name='Satellite', $tech='')
+  IconGroup($id, 'IconGroup', '<$SatelliteLg>', $name, $tech)
+!endprocedure
+@enduml

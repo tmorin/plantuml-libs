@@ -1,0 +1,13 @@
+@startuml
+sprite $TrelloMd [14x16/16z] bSVL0SKW50FGr8ib-q-Bmy_Jdgi15kIf2pYfYQSKl0yIwnON05JPEGRKMxP_dBpsPLavK_Ks1GtslgtUEbaeetW2omGa
+sprite $TrelloLg [20x23/16z] nSYr0SGm44JHMJ5F_zKAaWDpvYVSZoCkRbX4xlXvsiBlP-wgH0I1Z3AfoYbYqQJ5ahxDlDUAcLpxRL_FMpfepPafyrhZJlNSiT1kG-78
+!procedure Trello($id, $name="Trello", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Trello', $name, $tech)
+!endprocedure
+!procedure TrelloCard($id, $funcName="", $content="")
+  IconCard($id, '<$TrelloMd>', '', $funcName, $content)
+!endprocedure
+!procedure TrelloGroup($id, $name='Trello', $tech='')
+  IconGroup($id, 'IconGroup', '<$TrelloLg>', $name, $tech)
+!endprocedure
+@enduml

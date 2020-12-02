@@ -1,0 +1,16 @@
+@startuml
+sprite $BullhornMd [14x12/16z] LOs50S0W4CGETxB_j7KDl9iUCZXTkCx4-LOtseGGiPETqP9Hn0DS0u7-YmQ_ph0l6CUMW9KQnEF2s0SgvFTwX6dsCFRTTBekLW
+sprite $BullhornLg [20x18/16z] {
+PP350S0m3CJYC5hxJrlcwcM6CnyyzHjAe9zGvHEJCA0lCHjBtYXLWU2NcFAWMXCOvlPpa6qlZeDXTWACV-n6xHMhTx3N86jCfV50e_7h5ElMi7eVYqA9-ny5
+wAiXgtN7L8uDHooo4Cs66_jLyhnFIZn58vkR6G
+}
+!procedure Bullhorn($id, $name="Bullhorn", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bullhorn', $name, $tech)
+!endprocedure
+!procedure BullhornCard($id, $funcName="", $content="")
+  IconCard($id, '<$BullhornMd>', '', $funcName, $content)
+!endprocedure
+!procedure BullhornGroup($id, $name='Bullhorn', $tech='')
+  IconGroup($id, 'IconGroup', '<$BullhornLg>', $name, $tech)
+!endprocedure
+@enduml

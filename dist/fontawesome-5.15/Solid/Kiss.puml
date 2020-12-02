@@ -1,0 +1,16 @@
+@startuml
+sprite $KissMd [14x14/16z] JSY5WKL124FHZ2ka_sxtXVrsHmy0qhXcToQeweoy2VpKCVmhpuB5zPob4Jevy51JpaFUmK_tyYUlCnuFMTbwrlH_BJqPBLIb3WJD0YelSxUL0Vm1
+sprite $KissLg [20x21/16z] {
+XT25WKGX30JGmPtflzixdFNt5K-2HjXK_sKdiBd2hlhLAGktgj6eofjfUnK-Kf21Jn9srw7hsDcrZrUvVIAR0BHT9IodFI_emf-ygtnMp8xqx12HsGNFoUvG
+bTYTRgwDm5f1F_wgF4LmUdGfD29nonAJdhtPuYADjMRD-GC
+}
+!procedure Kiss($id, $name="Kiss", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Kiss', $name, $tech)
+!endprocedure
+!procedure KissCard($id, $funcName="", $content="")
+  IconCard($id, '<$KissMd>', '', $funcName, $content)
+!endprocedure
+!procedure KissGroup($id, $name='Kiss', $tech='')
+  IconGroup($id, 'IconGroup', '<$KissLg>', $name, $tech)
+!endprocedure
+@enduml

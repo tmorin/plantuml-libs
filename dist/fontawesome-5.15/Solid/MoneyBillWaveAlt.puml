@@ -1,0 +1,13 @@
+@startuml
+sprite $MoneyBillWaveAltMd [14x11/16z] RSd50GCn40F0HREj_gjDZdbU0jgmkYkfC8kbEZ3fm1Xuo0cdH1JFPaHsjdZx408-3Cnw2IPYpXwZAst-
+sprite $MoneyBillWaveAltLg [20x16/16z] dP235S1044HpM9xwhpQsa_-qnbHRpDPrA37d7CK1EMki9qtbDsACx4AnsnAtCUvYV1zRUizs_2OfUMki8t3Zu-ZE15fe
+!procedure MoneyBillWaveAlt($id, $name="Money Bill Wave Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MoneyBillWaveAlt', $name, $tech)
+!endprocedure
+!procedure MoneyBillWaveAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoneyBillWaveAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoneyBillWaveAltGroup($id, $name='Money Bill Wave Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoneyBillWaveAltLg>', $name, $tech)
+!endprocedure
+@enduml

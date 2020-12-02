@@ -1,0 +1,16 @@
+@startuml
+sprite $SuseMd [14x11/16z] VSp50SKm30DGEMnGil-q7ugdzfsCmhkiGSPGpO3OEj2Ry6ocgXkxphqBgz5jrANYWIHmwrPxHXfReBi9RWbFlW
+sprite $SuseLg [20x16/16z] {
+bO_50GDG2CNu3Zna_sdhxWsU6_GlvU5kOf7XM4kv7mto1kLAjF8Mg33nlMA6zdIMk4fNJ7WJRfOPkqeHbL5ogK1hPgCQHWTS62qA-suVKGzk94znkcUuM_ls
+rUzi0G
+}
+!procedure Suse($id, $name="Suse", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Suse', $name, $tech)
+!endprocedure
+!procedure SuseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SuseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SuseGroup($id, $name='Suse', $tech='')
+  IconGroup($id, 'IconGroup', '<$SuseLg>', $name, $tech)
+!endprocedure
+@enduml

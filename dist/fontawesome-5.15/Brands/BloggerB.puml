@@ -1,0 +1,16 @@
+@startuml
+sprite $BloggerBMd [14x16/16z] XO_50GDH24GXYjD_jnbM_otlChZGm7J2aWNYjJdH1szuqYU5-eAwMq8-HEEWv0qLU6TkLFeFuU3SvBGnRerhmCVHNb2EfP-9TQxkgXG-7pcC7m
+sprite $BloggerBLg [20x23/16z] {
+bSt50KCX40JGmItiz5zjlhk_2wpZd78nTOB6n0ad4OF0bOoEuKP0AtD3503fVwLLsR40vWzqNtPJBYgjbHkkA0KU9Hu9Fwc3zPG71d7OTypLUfpz9Hu4VRm7
+E6w90M0hLuf6ppZd1qxZGWC
+}
+!procedure BloggerB($id, $name="Blogger B", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/BloggerB', $name, $tech)
+!endprocedure
+!procedure BloggerBCard($id, $funcName="", $content="")
+  IconCard($id, '<$BloggerBMd>', '', $funcName, $content)
+!endprocedure
+!procedure BloggerBGroup($id, $name='Blogger B', $tech='')
+  IconGroup($id, 'IconGroup', '<$BloggerBLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $JogetMd [14x14/16z] {
+JOtLGGH034HdFPx-ksK5k7jVaH40XMp31OSHqclj7FCk7PUwLxhBfKLrGIFtQsAHFZAjeSowdzGp5UYgmYNCCdrCeSczHduJRmrbecb2PxKRMRnXx4rU-mBk
+sj5eB_V8RchIzlW3
+}
+sprite $JogetLg [20x21/16z] {
+RP050WGX202nzG3d_xyzzJfcrw913jLOU0lof4rmNrj_2ACpqhbqPZwYX4Uv4vIoZsdoneKaSH3a7JSPr7KfNUqU89DXIHouFCnTKMc0xyHHszexjBH5swXX
+JJqMl2kWosXOQsPL2jFPs1YzjLPBoOD_E6zCTpT6vyueCUnCXHJkmlpeUEhQxNWzAhOPjyPPr2D9JdeCw1Y6eczZoyh1gxmHIwtbONC5
+}
+!procedure Joget($id, $name="Joget", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Joget', $name, $tech)
+!endprocedure
+!procedure JogetCard($id, $funcName="", $content="")
+  IconCard($id, '<$JogetMd>', '', $funcName, $content)
+!endprocedure
+!procedure JogetGroup($id, $name='Joget', $tech='')
+  IconGroup($id, 'IconGroup', '<$JogetLg>', $name, $tech)
+!endprocedure
+@enduml

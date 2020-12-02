@@ -1,0 +1,19 @@
+@startuml
+sprite $XboxMd [14x14/16z] {
+9Ok55S0W50DJt6__RPi7X_w8JDbmsgT76eTPxlIDuYj8SGQ53aEcmf87zkTf0EK0KVAyRNfgDdPG0WvRck2nuobhSCk1FOygbwdPKmxmo2deMSyqORtX95so
+vrq_IJy
+}
+sprite $XboxLg [20x20/16z] {
+JOq50iKm24DJ-uNg_M_xeSlaJV04XrIrTwqHBwcjRInD80566Jspy6gr01BxoXxyY3VPym2qpSJ7ZZpneDVyvs60JA_A6KNVKGfkwVQhLbdqfbYfbi_JCXeG
+x5hLxcb-DarVYXle9kABEUngiuSCNO1chBStKGG8N2Cb1806h-8XpSzjn4KGAgwAbv15jMPMVm
+}
+!procedure Xbox($id, $name="Xbox", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Xbox', $name, $tech)
+!endprocedure
+!procedure XboxCard($id, $funcName="", $content="")
+  IconCard($id, '<$XboxMd>', '', $funcName, $content)
+!endprocedure
+!procedure XboxGroup($id, $name='Xbox', $tech='')
+  IconGroup($id, 'IconGroup', '<$XboxLg>', $name, $tech)
+!endprocedure
+@enduml

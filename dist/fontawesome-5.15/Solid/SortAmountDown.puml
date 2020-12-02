@@ -1,0 +1,16 @@
+@startuml
+sprite $SortAmountDownMd [14x14/16z] LOw50S0W30GFY5RtdxQkXyOVGa333wXJG3-VKEU460xwmtevB8sTUbXtdLrMbTQQ5FvrR-Rk59jxAJ7qWm57UUF2nhsNfjrrXxAHozoFL7PM
+sprite $SortAmountDownLg [20x20/16z] {
+dSy54iGW4031mHt-_zeJv5oIT3cmEmKVsH80bLFkKeuGMW5CkmFVpsHSaX_ldlqwKtdIyDPmu-ofeU1GeqG6_z2e_KIRrAerOZHyFwkjCppG_IZmn5sEqcZe
+nwuO3SVzK8r_9CLtPm
+}
+!procedure SortAmountDown($id, $name="Sort Amount Down", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SortAmountDown', $name, $tech)
+!endprocedure
+!procedure SortAmountDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$SortAmountDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure SortAmountDownGroup($id, $name='Sort Amount Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$SortAmountDownLg>', $name, $tech)
+!endprocedure
+@enduml

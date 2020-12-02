@@ -1,0 +1,19 @@
+@startuml
+sprite $SpeakapMd [14x16/16z] {
+NKo50GCm24jTWV-_HUPBbHZ-aSPblZF5K5a2t6me_bbZ6LU1QqC6C4G8pQI9oQv9Np7rHtOVZrMBattE3lBsY9pXsXQExfdj6aY05sHCQnwrxMW3_0qSECPp
+eXfZ6eUOoOhVI7uf
+}
+sprite $SpeakapLg [20x23/16z] {
+TP05aWDH24Jx2pO2zp_j2h2Qv9KqXGDUizLCDtuX7eaBcdd7D_TCr_BASKz9vvrncXZxZ8WBW6Pqu1Fwj0N3Io6NKhL4AM76DrkZy_RfxPCZnHU0gUNJezHj
+0v3oPIovLZSLAiVX4To-LRiefb3lT_VE-zVX38mq3jva7dqRLZIFZsaOnR3uGT5ClRxNdFXcB6AcDV2STm
+}
+!procedure Speakap($id, $name="Speakap", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Speakap', $name, $tech)
+!endprocedure
+!procedure SpeakapCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpeakapMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpeakapGroup($id, $name='Speakap', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpeakapLg>', $name, $tech)
+!endprocedure
+@enduml

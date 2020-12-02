@@ -1,0 +1,16 @@
+@startuml
+sprite $MicroblogMd [14x16/16z] NSm55WGW203HiLlkVzjzmFQt9VWNnxvtZuXgyjI0Bc-TPEUSTYG_SlRFAt9oWfIFoBMl0C6IZcu5YZsqvOszHyso_MwHhMVq55S1RMOEfeorHhFNMrg9Nmy
+sprite $MicroblogLg [20x23/16z] {
+TP050e0m201XtVl_Qmt2zdH50_o2FkMSF9uIKoOpiX5Hc1SyYTAy4JQHLxyX5mUerw3sxGo6zWXPzxttaG7gw7r_PNAD82Hovd2PA-SwEyb4M2K9dUATHH_v
+D5WBI6RFzVKmPDkEHxVKnxlVH2N4gsZWOtxKhM92AYLvq_OC3p3JK1zO2v-i
+}
+!procedure Microblog($id, $name="Microblog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Microblog', $name, $tech)
+!endprocedure
+!procedure MicroblogCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicroblogMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicroblogGroup($id, $name='Microblog', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicroblogLg>', $name, $tech)
+!endprocedure
+@enduml

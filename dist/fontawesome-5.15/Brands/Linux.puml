@@ -1,0 +1,19 @@
+@startuml
+sprite $LinuxMd [14x16/16z] {
+FKw50S0m26kfe_z_kp33dPIauI7be-eHiRwiiItzcxJdb3zhirJHBvkBweps3Xh1kZsPSDeL9rr_PaWZHmw_s_TBtS-sEh9M5ooyx8u4m0RGDRIfvPsELijA
+km-TOsYrL12XdFKB
+}
+sprite $LinuxLg [20x23/16z] {
+LSw53GDH201G_3lilsq3wRa_5Fx7Y725pp4Z3tuJUjbu6yyUOh4-rjhevljjD1MrnSUuvoFEssmn2-sGbnq30h1tyGYghXxp8ha-XuVzRVk_3nzth2_pksBk
+V-BQTfdCVnjVT9cDishQNFmdzl2Hf81k_r8xAWGiMHA5MFaAKhFtg2vbJ5n6MXEeZAKCskaZLjOh0ue8vH9clMS1_bT8hXoJVFy
+}
+!procedure Linux($id, $name="Linux", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Linux', $name, $tech)
+!endprocedure
+!procedure LinuxCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinuxMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinuxGroup($id, $name='Linux', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinuxLg>', $name, $tech)
+!endprocedure
+@enduml

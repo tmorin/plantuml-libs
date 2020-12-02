@@ -1,0 +1,19 @@
+@startuml
+sprite $ChromeMd [14x14/16z] {
+FSZN0KCX3CNG2zXqqFxJ9g-VFqbIA7EjMODEjhbiFoBnAJARi5ljlO-kFHCZfAHWNXpSO-Cu2pOi6GShN3nTLRciq6662NiVsMMk3BHwvceME4Gv9-j0bgvi
+ViKfjcbZjIZf3m
+}
+sprite $ChromeLg [20x21/16z] {
+LS-54GCn30J0ayoawx_Q96-QpmxQOZmaDllfIN2bmSdo-TJ1o_pySiQtC0lvpy5bRVpfEULIQckZe33fRBE9g1XD4Xtoi2gO9PLaHa2TzOZSJE4uUU6HuJab
+y1BTUSgh8FEdhLrjxELZwmbYCoEVJe-o3f7zQQtiIHL0vqaTUpD0nafSbURMYVEYwEOfYiqt3Xs_duWNLKtXv7m1
+}
+!procedure Chrome($id, $name="Chrome", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Chrome', $name, $tech)
+!endprocedure
+!procedure ChromeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChromeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChromeGroup($id, $name='Chrome', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChromeLg>', $name, $tech)
+!endprocedure
+@enduml

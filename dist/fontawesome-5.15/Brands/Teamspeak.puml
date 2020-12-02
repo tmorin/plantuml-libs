@@ -1,0 +1,16 @@
+@startuml
+sprite $TeamspeakMd [14x14/16z] JSt50GHH20FGODyX_LUxBlDkQ014rZbL7K-Id16ZofvL7i7Jf01nyB46OiUtqiHAmTVkJFpAHHwjevUAB8EliaapR78PIPFdZdWel9aqN8nzBVXDjZxhMTm1
+sprite $TeamspeakLg [20x20/16z] {
+PO_L0S0m20M9Axpzjosatju7Sb78S7b06OakiW2pjQan7Af2YblRAv2N2fYU3e9WhJPBbqJHw6txJRKTJUY9iotSwSKSrDM_Q5Yln_HoR0uO_k54dGSWOOtO
+YxgPaKXCUggMD4PIAfJaBJOwYQLaYwtgUVgHvQUyy5S5HdcF6ZjGduVg59ujaB81
+}
+!procedure Teamspeak($id, $name="Teamspeak", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Teamspeak', $name, $tech)
+!endprocedure
+!procedure TeamspeakCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeamspeakMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeamspeakGroup($id, $name='Teamspeak', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeamspeakLg>', $name, $tech)
+!endprocedure
+@enduml

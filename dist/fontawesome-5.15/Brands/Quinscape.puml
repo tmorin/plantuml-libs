@@ -1,0 +1,16 @@
+@startuml
+sprite $QuinscapeMd [14x14/16z] BOp50G0m20DJTzX_MwptYmB8YvHJuKnsJZ9n-4CPsPFW8WIjCHzpUswcs6-oH8LnoDH4KCcQ3KgPlUobgfjlYvfL7bMNmpvUjOKVQBhICbMWv7bFdqmD0W
+sprite $QuinscapeLg [20x20/16z] {
+NO-5iGGm50A9U-Y_sY_4vcx7zoaGDjRMIZIusCfDETPFNgPRweehpUG70q3c5-crjU2iBseCN0G8EqYNFvJMno9LSObCotayc9ESEPCMwD7fKGZRo1cgG_-N
+LarZPSPw9chx2r99zdzNf3HakWPkocbEGxDm51N2jqdsKlzLDpUI2z73vH81_08
+}
+!procedure Quinscape($id, $name="Quinscape", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Quinscape', $name, $tech)
+!endprocedure
+!procedure QuinscapeCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuinscapeMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuinscapeGroup($id, $name='Quinscape', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuinscapeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BusMd [14x14/16z] VSfL0W9H34FHFBVIk__LuWupvwjDeZZSkV2L5JjFKysnTGDfOheRT5Ywwx3tTGv1uKAJqfoNt9cLgzukNmtt8f8_bogmSYsbmv22KtMMBjK9
+sprite $BusLg [20x20/16z] {
+ZP25WKKX30JtESIs_sulvBxxu1CSmBIB1PEmlaqOTDuIHohX0mqmqaHFY9E2oMYuCZaL5RWXbocpFBY1_EBqsKbMVgFce5OWpEr4r3BZ0-MEII_ZgVsx6SVP
+xLZ-dHvnTdxOSFfYlyd6_-n5horFVpgZs6hBP8tBB-GQp_0V
+}
+!procedure Bus($id, $name="Bus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Bus', $name, $tech)
+!endprocedure
+!procedure BusCard($id, $funcName="", $content="")
+  IconCard($id, '<$BusMd>', '', $funcName, $content)
+!endprocedure
+!procedure BusGroup($id, $name='Bus', $tech='')
+  IconGroup($id, 'IconGroup', '<$BusLg>', $name, $tech)
+!endprocedure
+@enduml

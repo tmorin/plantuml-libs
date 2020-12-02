@@ -1,0 +1,16 @@
+@startuml
+sprite $HatWizardMd [14x14/16z] LOo55S102CMWvmBPVzkwvHJ8-t8JPv27PQ3tNnlqns8ZtHEtZrYmQ7wBnauyYuHtdfH9KJQMlOYxentANWqiIWDyJysvHYabvwpIUwsrxTV-y6C5
+sprite $HatWizardLg [20x20/16z] {
+PSu55iGm24LHYFlR_swdZ7DwA_5yn0bTnTF64AySo6ucBU2uemCp_1GDVpH1aUoFJXZQsV8J0ImZ_kOwR-rNFT0shfO6stvOqeiUTXATm3UbqCIa0wJNtE8q
+5IaMp1IJNzs2UPUZCOOGHAzVl5XcRyQQjrxXRdEp7W
+}
+!procedure HatWizard($id, $name="Hat Wizard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HatWizard', $name, $tech)
+!endprocedure
+!procedure HatWizardCard($id, $funcName="", $content="")
+  IconCard($id, '<$HatWizardMd>', '', $funcName, $content)
+!endprocedure
+!procedure HatWizardGroup($id, $name='Hat Wizard', $tech='')
+  IconGroup($id, 'IconGroup', '<$HatWizardLg>', $name, $tech)
+!endprocedure
+@enduml

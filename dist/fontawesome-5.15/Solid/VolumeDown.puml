@@ -1,0 +1,16 @@
+@startuml
+sprite $VolumeDownMd [14x18/16z] XOl50G114C9Ozw7_QizTyqE2VtnLXq3QGrYIzTv5heah1ZaSKwFVaeLcEoI8759cF7XI47DAPTvMyYaXZUaODGuetEa1
+sprite $VolumeDownLg [20x27/16z] {
+hSt50KKX34JHmPtflzglpztkya0IF9CnCtAacXFrb1gRK6lQVGiSMcLJOzu179icqzH49kt480hpr138cUNPFv58T-0kl0Uq_nPR6-PRc-BKu1kRei8qQt6_
+Dm
+}
+!procedure VolumeDown($id, $name="Volume Down", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VolumeDown', $name, $tech)
+!endprocedure
+!procedure VolumeDownCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolumeDownMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolumeDownGroup($id, $name='Volume Down', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolumeDownLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AndroidMd [14x12/16z] ZSh50S0m30D0XS6W_QSjqxCNC08HXokf6OTIZj3hL9sr7KLs7Ypl2tnaH6VJFPLE2vqSjbSwoERyqFxLyDiA
+sprite $AndroidLg [20x18/16z] hSs55GCn30DGXJdQVzk-7ZF_CDZ6TLPZe1qQCc4GLRTnLhYOKdJ2UdHKPQzFOpdXyESuyu_M90l_kes1oMH4xguG_jF_L7rV9Fm_MgubRZ0RyB4V
+!procedure Android($id, $name="Android", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Android', $name, $tech)
+!endprocedure
+!procedure AndroidCard($id, $funcName="", $content="")
+  IconCard($id, '<$AndroidMd>', '', $funcName, $content)
+!endprocedure
+!procedure AndroidGroup($id, $name='Android', $tech='')
+  IconGroup($id, 'IconGroup', '<$AndroidLg>', $name, $tech)
+!endprocedure
+@enduml

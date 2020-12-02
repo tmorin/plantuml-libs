@@ -1,0 +1,19 @@
+@startuml
+sprite $FlagCheckeredMd [14x14/16z] {
+LOu30WGW401pBUV_hprpmXe1lNn8cBMzZEhSILjzd6GdPzyi88o3bV5uNXg74AbpJwm99tb51d38CT5rwd3vrFN7EwG3hlWmJjxInjG4Ojmp7xHns-XXVTX_
+rXK
+}
+sprite $FlagCheckeredLg [20x20/16z] {
+ZSwr0GDH40DHVSRTwRzQCzr5dl0bKjoie6CJQ2TRm2nZjAHdgUVCEnibvRR1jS7Q1EEPEJTRKeCQoerx30-RJtli9SdkjlBg8RMYTRV6tMvrQU2jrEbyBCK1
+MTeypR8Qj3IBj7OzRVZEaZqjJHZXkVlyuiwZjQ6KZTqCLgzrECzMlDdMizpNtZrBpurJ_rgddkaA
+}
+!procedure FlagCheckered($id, $name="Flag Checkered", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FlagCheckered', $name, $tech)
+!endprocedure
+!procedure FlagCheckeredCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlagCheckeredMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlagCheckeredGroup($id, $name='Flag Checkered', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlagCheckeredLg>', $name, $tech)
+!endprocedure
+@enduml

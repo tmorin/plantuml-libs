@@ -1,0 +1,16 @@
+@startuml
+sprite $ThMd [14x14/16z] RSt50S0W341Ht27xJnkhop-y5i-bP1E5L79UdEkmfh202rEGNycVevHpCa68JE5igZkWcmwUjumnkgj2uz_06HU3Dpw6SBwW_Br-4lY8Eo
+sprite $ThLg [20x20/16z] {
+dT350GCX54NHXplqtstu4lUvcpEAuKMrxo8AaP29lAW6fcEm-cm-FpDtt_47LMuQEZ6CtG4Ac9XpBXwnC848B-Su_cpw64AqS3SuwtS6Z5KMLU___UyCxf_b
+LciBI4GK4bvq0W
+}
+!procedure Th($id, $name="Th", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Th', $name, $tech)
+!endprocedure
+!procedure ThCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThGroup($id, $name='Th', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThLg>', $name, $tech)
+!endprocedure
+@enduml

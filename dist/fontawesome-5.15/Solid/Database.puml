@@ -1,0 +1,16 @@
+@startuml
+sprite $DatabaseMd [14x16/16z] jO-r0G1120JFSUY_shVa9F-9S7PJ0R5uC86IC1Qsv0Isf9P1QkwcD4eD6QsMd4jjG-B37twxiglU7Tq
+sprite $DatabaseLg [20x23/16z] {
+dSwr0GD13031FMQf_sxzZD5xiqCDu7CRebFIQt9CPT5R8z7qLTN_a_3USX2xN3PQX140wsFAEKLlWIZpKVBMC6NinBzz8vyjwRqNiENsqSY6vi3uLEfKJjw0
+w_F9mbeneSX5CiPdJNbl9NoxxrGFAwLDWDxAWk47
+}
+!procedure Database($id, $name="Database", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Database', $name, $tech)
+!endprocedure
+!procedure DatabaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatabaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure DatabaseGroup($id, $name='Database', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatabaseLg>', $name, $tech)
+!endprocedure
+@enduml

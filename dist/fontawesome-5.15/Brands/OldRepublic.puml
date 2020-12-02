@@ -1,0 +1,20 @@
+@startuml
+sprite $OldRepublicMd [14x14/16z] {
+9Op50K0n34AfGQIo_xPV-au91g0et5q57prLNuantcSahyeW51JGsllHMz85yVkYkusvK1r0xf6cE8bHu2SLyjYdLfHzt9rZvwojb9cR4VIpIc-Ovrtn76-T
+R6k-euNlUpBF7240IekPeJ1yDF_f01u
+}
+sprite $OldRepublicLg [20x21/16z] {
+JT05WXWn20NG7uRWWVlVjZlITb_S1G_9yoDruHyv9zoZZk53LO87vxdUhZOcF1RBy5qU5SM7ZPj0aUiiWBRS1nHB8MPf0vTTp-H857Uk70ATZLiViYYJd0Iu
+xYwRqjqkxdDtwjCrwNASZyuCGm2Q6QrTmHKsix6VlhIXBf5nRuOiqFdf2ffEr7GHbB2YfvTcp2NH8x2DQoQLYYcIAzB8RKb5YHMmZd7rPBZt7DbD06WSCTCz
+azZ3kD5fsUgkUrTVl_uvu_S_Fwvx7kFr1m
+}
+!procedure OldRepublic($id, $name="Old Republic", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/OldRepublic', $name, $tech)
+!endprocedure
+!procedure OldRepublicCard($id, $funcName="", $content="")
+  IconCard($id, '<$OldRepublicMd>', '', $funcName, $content)
+!endprocedure
+!procedure OldRepublicGroup($id, $name='Old Republic', $tech='')
+  IconGroup($id, 'IconGroup', '<$OldRepublicLg>', $name, $tech)
+!endprocedure
+@enduml

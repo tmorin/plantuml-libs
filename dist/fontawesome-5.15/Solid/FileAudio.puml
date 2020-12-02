@@ -1,0 +1,16 @@
+@startuml
+sprite $FileAudioMd [14x18/16z] ZOpL0G0n34AfUzb_slFgrxrg4g3oHQG0WBsYNwghd2k6NYbhh6rLC3VyGTQbUIoPe7YJ74mHrvtkIW6cGcMuLb78hueM9iC7n9vICaHb9xwZHkLEFG4
+sprite $FileAudioLg [20x27/16z] {
+hSi5ZWKn30JHch13VV_Rhl9fIB1K8kkfFVN9w6C3qD6QCdTRU3FbcosysSAZOQEl3bPvfKDMdkcVwhxga4r94Re-9Pg6ElWND5k3WLFv30D0xv0db8Cr1RmS
+wMd-QPwWZVoq4Xpq1ZR0z6hwzPiKOUY3OTq5aYubtBpQjA6VP7VANm
+}
+!procedure FileAudio($id, $name="File Audio", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FileAudio', $name, $tech)
+!endprocedure
+!procedure FileAudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$FileAudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure FileAudioGroup($id, $name='File Audio', $tech='')
+  IconGroup($id, 'IconGroup', '<$FileAudioLg>', $name, $tech)
+!endprocedure
+@enduml

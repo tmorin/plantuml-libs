@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the fontawesome-5.15 bootstrap
+include('fontawesome-5.15/bootstrap')
+' loads the SuitcaseRolling element
+include('fontawesome-5.15/Solid/SuitcaseRolling')
+SuitcaseRolling('suitcase_rolling', 'Suitcase Rolling', 'an optional tech field')
+@enduml

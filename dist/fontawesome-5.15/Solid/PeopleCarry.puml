@@ -1,0 +1,16 @@
+@startuml
+sprite $PeopleCarryMd [14x11/16z] DSU50GCn34DHnT26__xR7Z-ZL1YwTKootT-qpwGeyfDAdA4od9CFchIXdhFhENBsu3OMNbXg-zGrCILLvQG_gQoLeWkrvbY1wsJadFpiIvOS
+sprite $PeopleCarryLg [20x16/16z] {
+HOw50OH030JtWaEoqt-r_pXp4XSfxD39fqymwUJJe-hDU_LsVZklePaC5JQbI6P9FP2DavP0VwG1Wm4y04VY1aLnSYgRL3YIcmnJqeARPf_CQcRHKPpVBdcK
+QhZdltiD2gQUJJSR_KHCB47g9ec5oVJ2kZ7gSQMKNzvXrHy
+}
+!procedure PeopleCarry($id, $name="People Carry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PeopleCarry', $name, $tech)
+!endprocedure
+!procedure PeopleCarryCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeopleCarryMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeopleCarryGroup($id, $name='People Carry', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeopleCarryLg>', $name, $tech)
+!endprocedure
+@enduml

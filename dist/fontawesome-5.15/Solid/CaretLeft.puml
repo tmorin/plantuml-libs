@@ -1,0 +1,13 @@
+@startuml
+sprite $CaretLeftMd [14x37/16z] lSc54S0m5CDGbxdUVzeow0-GwF2TbBMg02RFFsRR03GPcWrDVWNu1ZGRcWpLfeg5KWagK86wIQbONl4gK84YbrygsbB9sm4
+sprite $CaretLeftLg [20x53/16z] vT8r0e0m40LHt67kVrga93j83RzyyUncFqgpp5L2BR14WlD2E294M0W88KIwrv4u2uGGGkYmXc0LqJhUp9CZx5o_dw2-Lp0Jr7yMzBh5cPcWzOlsrOUp0G
+!procedure CaretLeft($id, $name="Caret Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CaretLeft', $name, $tech)
+!endprocedure
+!procedure CaretLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$CaretLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure CaretLeftGroup($id, $name='Caret Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$CaretLeftLg>', $name, $tech)
+!endprocedure
+@enduml

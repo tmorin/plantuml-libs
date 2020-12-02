@@ -1,0 +1,16 @@
+@startuml
+sprite $CubeMd [14x14/16z] LSZ50G114091HjQ5_ACzrtvH093OoP4KUvedzue1kH_Zk4Oac-F82ldJqSmgQV1NrVhi9C0hR9L70aZdl0J9v13lXxOz8xOEN_lmuBbN
+sprite $CubeLg [20x20/16z] {
+bSz50eGm04FHrBtS_xOpIV4TVmMlZfNDeoUBAnFRncOBPeclaz2wk7WW24QsW2j3t-vFWsEhKFbFnvdMgHOEuM57W_UmUMxFQjEvgRwSzoiFANh7qnm-cEkw
+zCrSvKcsdMPjrQKCu0zja-AWt5AA5Ppw56ajf_m
+}
+!procedure Cube($id, $name="Cube", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Cube', $name, $tech)
+!endprocedure
+!procedure CubeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CubeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CubeGroup($id, $name='Cube', $tech='')
+  IconGroup($id, 'IconGroup', '<$CubeLg>', $name, $tech)
+!endprocedure
+@enduml

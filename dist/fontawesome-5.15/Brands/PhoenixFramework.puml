@@ -1,0 +1,16 @@
+@startuml
+sprite $PhoenixFrameworkMd [14x11/16z] JOl50S00308XNit-szRbViY1AdZnPUsHRwpkdZBkP7t4oXnzJxg7iZ7TTK_ioIP2mWqxCKENgjXbsMCDQcNkKDyJXnuK7wG6_WYnim4
+sprite $PhoenixFrameworkLg [20x16/16z] {
+TSk5aGH024HHHd78FziRELlhybU_0LvNYTMeFbZpYCpeKFvXMRHm2lr3pZqVWWLAkqR7mf74ClWOdWo62_OAhMmRcSfPzw_XMBJdsG1z8Uf0kjYI0MZ5N3ax
+qi4XOqMsAbarZss5pHMULiX3URpmUhyWB2pmSLy
+}
+!procedure PhoenixFramework($id, $name="Phoenix Framework", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/PhoenixFramework', $name, $tech)
+!endprocedure
+!procedure PhoenixFrameworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhoenixFrameworkMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhoenixFrameworkGroup($id, $name='Phoenix Framework', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhoenixFrameworkLg>', $name, $tech)
+!endprocedure
+@enduml

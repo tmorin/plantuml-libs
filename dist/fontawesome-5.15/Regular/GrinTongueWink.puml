@@ -1,0 +1,20 @@
+@startuml
+sprite $GrinTongueWinkMd [14x14/16z] {
+BSt50GD130D0BPlLVxN9qRpC1j0agr8QRfEqSunSJs9lLRXnod0xseMTREY0-ibPIcsHrdphqStQRMB1TSMULuPRTnSiKZ5bpR5aGaXYi2vSA1CQV8uv7DS7
+B8elOFhz7VUkDnZvtTECIEq0_W
+}
+sprite $GrinTongueWinkLg [20x21/16z] {
+HP054WGX30G72RA4zFz_UmLdNHQNqI6r5H3UatxqpIN6DvWtU6_M5qJLeGHUFja7xCpQJFteK9GdpySlZmyDbYRaJmWVk9mQ3EMvgkGhMSQC1weYDarXW-nJ
+02brgRPJLpEcE37zvarSslnMw8njqgqpgVUQ3zQJCjoB5nzsKcUEUpZRF6nHbOAInfqxpcP3UkvRpf8FIJBI9F9RX1thn0PE51tI0lef0_zTLayqm9lq9rlh
+zgrv0G
+}
+!procedure GrinTongueWink($id, $name="Grin Tongue Wink", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/GrinTongueWink', $name, $tech)
+!endprocedure
+!procedure GrinTongueWinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinTongueWinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinTongueWinkGroup($id, $name='Grin Tongue Wink', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinTongueWinkLg>', $name, $tech)
+!endprocedure
+@enduml

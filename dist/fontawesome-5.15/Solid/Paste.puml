@@ -1,0 +1,16 @@
+@startuml
+sprite $PasteMd [14x16/16z] LStL0KKn3CFGEeyXrlxRNYggUBvIL1xms9-ZnBpVcFyXzbxlusu2cspwA2BKf3yczOz3bZbk79EIFqtS5364xQRMh8GSAj8njEbeLLPu0m
+sprite $PasteLg [20x23/16z] {
+fSg54GKX303H71eWqd-rvnA-ouw_MLX2rG9NgPJIb5cfb99XJTSSi2vvOoc8DLjlLDUSiGIsbGXGU4vSQ8SLO5rpGTjkrPYsUvknDp-a65DlnIqPCtrXvVqN
+4R74tc3jBqD3E04
+}
+!procedure Paste($id, $name="Paste", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Paste', $name, $tech)
+!endprocedure
+!procedure PasteCard($id, $funcName="", $content="")
+  IconCard($id, '<$PasteMd>', '', $funcName, $content)
+!endprocedure
+!procedure PasteGroup($id, $name='Paste', $tech='')
+  IconGroup($id, 'IconGroup', '<$PasteLg>', $name, $tech)
+!endprocedure
+@enduml

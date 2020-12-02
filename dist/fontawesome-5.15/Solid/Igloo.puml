@@ -1,0 +1,16 @@
+@startuml
+sprite $IglooMd [14x12/16z] LOk55GGn20NPB2GlsFHVxRaEBbz4nYxSzY5t5ZVybkTjCEZ69w1ow51JrTFEeRAnX3jXh68cCTSzaTMQMztFS2FDRWAWXzvQ8Ey9AxYJypD5jMjNbKQLonzN
+sprite $IglooLg [20x18/16z] {
+ZSw50SGW343HA0xPVzjBmxd_-ciBmCUuz3bHvKw67L6tST5aEsf-oa75BjQFSmsxXBelG2A84gaV12BWtsksQqNyUPb9s9nXRDPjMsSYQjlMjWfbJZ-5cRy6
+86ZcTI04X-wDH1QnZkFvCfjtMy6VLbjhNSdFVcNfVidmfXC
+}
+!procedure Igloo($id, $name="Igloo", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Igloo', $name, $tech)
+!endprocedure
+!procedure IglooCard($id, $funcName="", $content="")
+  IconCard($id, '<$IglooMd>', '', $funcName, $content)
+!endprocedure
+!procedure IglooGroup($id, $name='Igloo', $tech='')
+  IconGroup($id, 'IconGroup', '<$IglooLg>', $name, $tech)
+!endprocedure
+@enduml

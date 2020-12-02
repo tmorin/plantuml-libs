@@ -1,0 +1,13 @@
+@startuml
+sprite $AngleUpMd [14x22/16z] jSUt0O0m40D02Ihd_QSb-EC0SDtXGsJACUUPijQkHUgHIdhVbGnYrmBkjhNw4sb7VRFR6l6x6m
+sprite $AngleUpLg [20x32/16z] rSot0GCn3C10D1B9IljFQt_6Xmc4yXYOkTO-b6FKbowKH4cKH4cK8WwK4YwKBfGGQ_i5Y4Nj91RGcmIjCsL_
+!procedure AngleUp($id, $name="Angle Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AngleUp', $name, $tech)
+!endprocedure
+!procedure AngleUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngleUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngleUpGroup($id, $name='Angle Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngleUpLg>', $name, $tech)
+!endprocedure
+@enduml

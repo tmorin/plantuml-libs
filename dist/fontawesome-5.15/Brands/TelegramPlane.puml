@@ -1,0 +1,16 @@
+@startuml
+sprite $TelegramPlaneMd [14x16/16z] ZSj50W9G24LH-Drt_xiLCIV6cP1F_fFdVhIn7JZUQfdG5yFwr0-iDA26kZ159v0cPgfkZ5fy5Oa7iyGbN1VNS4NSe5npKLnFefCZRsgJhou
+sprite $TelegramPlaneLg [20x23/16z] {
+fSw5KG0m44JHZNj-_zqoCMmSNbplz6V6w1TV6VhEfW4_zaA3EQ7eSda2BGn8Mapi03Eu0RZpxLRbzuanQR2DeC3IDJYAKRepkTJNcPCAHpnPhQ5oMJsDQnfT
+dgVf2JnPJsIwmXBqv6dNmOyGVazjf-itauF-vmC
+}
+!procedure TelegramPlane($id, $name="Telegram Plane", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/TelegramPlane', $name, $tech)
+!endprocedure
+!procedure TelegramPlaneCard($id, $funcName="", $content="")
+  IconCard($id, '<$TelegramPlaneMd>', '', $funcName, $content)
+!endprocedure
+!procedure TelegramPlaneGroup($id, $name='Telegram Plane', $tech='')
+  IconGroup($id, 'IconGroup', '<$TelegramPlaneLg>', $name, $tech)
+!endprocedure
+@enduml

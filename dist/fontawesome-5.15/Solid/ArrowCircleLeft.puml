@@ -1,0 +1,16 @@
+@startuml
+sprite $ArrowCircleLeftMd [14x14/16z] HKu50WCn329otcR__-q2dL2D0G3yhiQJ4AwNy1Y3mM_nE5oLDDu3Ay2kvhqK76jq50DaHiR3yNBykBis_Iiok_mFZrHeaA31wzj2EZZDi98GjexdGPjl
+sprite $ArrowCircleLeftLg [20x20/16z] {
+HSv15aGH34JH0a2e_U-sEqxotPa7WYkskTQe0PyuQORNmkSaJ-eSNXeZBmbXK-q0J4l0ujKHlpJyoT0yJReyBPKrbUZbfOVnR7Bem_6be4tldd-iHqIsw3oj
+qcAdov4UcwKD38y-SmF2iPWEbU0ls_Zq2ofjViJd2jqFDJmXzp5QjjKF
+}
+!procedure ArrowCircleLeft($id, $name="Arrow Circle Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ArrowCircleLeft', $name, $tech)
+!endprocedure
+!procedure ArrowCircleLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowCircleLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowCircleLeftGroup($id, $name='Arrow Circle Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowCircleLeftLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $QuidditchMd [14x11/16z] JKk54G0X30kkRVRVzkzngCNml2BtDftf04zrwymbiPbnMcypbyjKahxI3_G3giyJ9VbX1BpxqGzeKSY0E401v9_ofyhqE7m
+sprite $QuidditchLg [20x16/16z] {
+NOrL0i0m24DJz-R-fvqmPkMF5yDwTfGLXScne4nMyoEcaUaRYl17pdyzWuLiviquZyvlBfnlDfFzGObomRq-HptderMMwxXOaMQjKry4R6SxlLxHD93j1jWf
+HFgDQ41JL877TzfcB-54qcU07G
+}
+!procedure Quidditch($id, $name="Quidditch", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Quidditch', $name, $tech)
+!endprocedure
+!procedure QuidditchCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuidditchMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuidditchGroup($id, $name='Quidditch', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuidditchLg>', $name, $tech)
+!endprocedure
+@enduml

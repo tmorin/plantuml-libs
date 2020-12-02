@@ -1,0 +1,16 @@
+@startuml
+sprite $HatCowboyMd [14x11/16z] POsr0S0m40DDpxJ_j65NkUPHKlinP4uPUzAwq6_ezV0TuPtWQbThyavo3Uu3p2FSS5ZCAcT29BQgsLRMPjrf-lOwldGWmgS_0G
+sprite $HatCowboyLg [20x16/16z] {
+bOu35WD034JN22RtFsszgDl_60pSNqH8IeAuxyGkoFvcDxR7DdPjxNZiUEqmThYwbs4t38jqunGgYG8GgY6nTQzcsd8C9s9kvybF8R3rYR0DN2lwlbRTZowX
+iGBABRXt704
+}
+!procedure HatCowboy($id, $name="Hat Cowboy", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HatCowboy', $name, $tech)
+!endprocedure
+!procedure HatCowboyCard($id, $funcName="", $content="")
+  IconCard($id, '<$HatCowboyMd>', '', $funcName, $content)
+!endprocedure
+!procedure HatCowboyGroup($id, $name='Hat Cowboy', $tech='')
+  IconGroup($id, 'IconGroup', '<$HatCowboyLg>', $name, $tech)
+!endprocedure
+@enduml

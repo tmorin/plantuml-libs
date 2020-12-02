@@ -1,0 +1,16 @@
+@startuml
+sprite $HipsMd [14x11/16z] PSU50KD120DGSiOX-Um_RTtxqCYNUPandgaWelfAcMDCU2xPtALAj_19FtIK8Dq3eg5S1MGu5zAmAY5kHXxMIPEhndOza1lezVbp1W
+sprite $HipsLg [20x16/16z] {
+bOq50WGW40BPifN_l_Qw-yRS0ln8zVsTwcsEUN-tTPSh5W8rG68_ek727KlBGjvzXlZkhknggzLfR1hiZMQ-r-kzZhBsLYnS6GyvqSP-oUq-keOhAa-vMKvc
+kxk50kPcXPQJG589d2d44z7nDri
+}
+!procedure Hips($id, $name="Hips", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Hips', $name, $tech)
+!endprocedure
+!procedure HipsCard($id, $funcName="", $content="")
+  IconCard($id, '<$HipsMd>', '', $funcName, $content)
+!endprocedure
+!procedure HipsGroup($id, $name='Hips', $tech='')
+  IconGroup($id, 'IconGroup', '<$HipsLg>', $name, $tech)
+!endprocedure
+@enduml

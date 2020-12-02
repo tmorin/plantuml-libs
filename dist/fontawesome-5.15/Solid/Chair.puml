@@ -1,0 +1,16 @@
+@startuml
+sprite $ChairMd [14x16/16z] XSU50SL020JH1UB9xVHVxNVNEO4dALU0DQKZ3FCCFd7rG1M3rwEOwgYQE6ayQ_ol8O_AuQICk5nfnBSOpKFU7hK5XEAGJXle4kX5zWN7RGy
+sprite $ChairLg [20x23/16z] {
+hSg70KGX20FG0EAlalstFRpU-xF7eBCvc69I75GUbNrKoCQc5dbmtrmu5JP8qFAAJacrNIRv9qZ6mBwdGluXQvcjptgA9DLp5S1hBaTIKxNpfN3Ui8Kt9jwA
+UptCf8lkIUqH9j9mvEI8tYkNsVkzoX0S6UdO
+}
+!procedure Chair($id, $name="Chair", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Chair', $name, $tech)
+!endprocedure
+!procedure ChairCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChairMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChairGroup($id, $name='Chair', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChairLg>', $name, $tech)
+!endprocedure
+@enduml

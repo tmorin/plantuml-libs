@@ -1,0 +1,16 @@
+@startuml
+sprite $ToggleOffMd [14x12/16z] PSd50S0W0CNGuCxVVzjYjpuy0DOVbdtlUfh1J6KVnzgoXYboiDe0hwpA5dViKudDoqFHR6nf_usH5G6djakagwKYrTHs8Uj97COkXfyF
+sprite $ToggleOffLg [20x18/16z] {
+ZOp50GH12C367T9_jmVd-zkCOWdtYMtkDwl5u1JX3wsMgg2pZmFQsrHeOIWd1gDx5E96aoAMSWRYSc523oyIP7iQ2YMy4ToVCUerLp36EvLVinqHIA_SuhXL
+6KqGDyQ5cxCWqGkSjHLqhiDBa3P_xFoszp6cCKRtp6qU
+}
+!procedure ToggleOff($id, $name="Toggle Off", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ToggleOff', $name, $tech)
+!endprocedure
+!procedure ToggleOffCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToggleOffMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToggleOffGroup($id, $name='Toggle Off', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToggleOffLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $FistRaisedMd [14x18/16z] {
+JSnL0aGX049HGCUnsVzgNzVzEnZO4cW7Y3kooww_AyPaSTsax8Pjp5zfaxQnF6BEZFL_tcnGsEB-ItAcZo8faYY7-XYUVIQGrNU3eSn7-lajoqUp7nV7gHhz
+DeNq8W3ejmg-oi0A
+}
+sprite $FistRaisedLg [20x27/16z] {
+hOm50iCm24K_qa4QuVwddT2vsulo41oW4I4umSBWYD3y7KkOqcNnocqfMTpX4ihhlqvXPhIzYfov4oTNUr9tlqPvqOZaeiKFhhfxwxu5KBSI5ym4W2xTO4nr
+N3f5YIiSTcg9f4DEgXxgsj7LAPANau7vKXNiwEUg8gaNPH-u3G
+}
+!procedure FistRaised($id, $name="Fist Raised", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/FistRaised', $name, $tech)
+!endprocedure
+!procedure FistRaisedCard($id, $funcName="", $content="")
+  IconCard($id, '<$FistRaisedMd>', '', $funcName, $content)
+!endprocedure
+!procedure FistRaisedGroup($id, $name='Fist Raised', $tech='')
+  IconGroup($id, 'IconGroup', '<$FistRaisedLg>', $name, $tech)
+!endprocedure
+@enduml

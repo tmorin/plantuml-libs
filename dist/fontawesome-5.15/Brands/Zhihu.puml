@@ -1,0 +1,16 @@
+@startuml
+sprite $ZhihuMd [14x11/16z] VKV50GCm4E8KIFUVj_uE3Yw8-dTcR_F1aGQxnvpQwadYdJNHH-nSB6qDlFrvbTgizAwq0BQ-Zixt6GUkU04
+sprite $ZhihuLg [20x16/16z] {
+fSb7La0X30NGbru8xd-vvk38yR-GZYy4_n0fqpKJ2NU2LlNC6OkUqYuR0Jdp8UY-OfIW58X08nDYazflHnnqDiZofl_jigj_DWguYdgxHKrOKKVBPGHORwUN
+s7JItv07ozwTy4W9Fle5
+}
+!procedure Zhihu($id, $name="Zhihu", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Zhihu', $name, $tech)
+!endprocedure
+!procedure ZhihuCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZhihuMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZhihuGroup($id, $name='Zhihu', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZhihuLg>', $name, $tech)
+!endprocedure
+@enduml

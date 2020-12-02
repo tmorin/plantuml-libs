@@ -1,0 +1,13 @@
+@startuml
+sprite $AlignLeftMd [14x16/16z] Os2400OmuEE703uq7cu0rWzL2LEEoaDL2GCqj8yH2J
+sprite $AlignLeftLg [20x23/16z] bS-r0GKX403HFHpM-g_sknx-mia66bB-AE7Lz0Sr6hwQTLy6zY1NK1j8MFwm41mLQB4_JEjZy9knu5F127j2h7XTv4F5GSCL
+!procedure AlignLeft($id, $name="Align Left", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AlignLeft', $name, $tech)
+!endprocedure
+!procedure AlignLeftCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlignLeftMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlignLeftGroup($id, $name='Align Left', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlignLeftLg>', $name, $tech)
+!endprocedure
+@enduml

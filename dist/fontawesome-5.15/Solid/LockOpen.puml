@@ -1,0 +1,13 @@
+@startuml
+sprite $LockOpenMd [14x12/16z] dST70O1044MnlxtFyw-M3WB8BRfL3kRlU4Y-q-zbckInTqLoHiY7r1d9op1UGodncPB-hdoBntO
+sprite $LockOpenLg [20x18/16z] pSk53G0W00D1tA7xJulh1ZH-wPDhEWAUtq83-jHb3a2eJuXD74YrCpNVfcTLdzlCZFnhV1hbSwwsd7LBU2Q8IHxlRCi_CTFCffiyRLO
+!procedure LockOpen($id, $name="Lock Open", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/LockOpen', $name, $tech)
+!endprocedure
+!procedure LockOpenCard($id, $funcName="", $content="")
+  IconCard($id, '<$LockOpenMd>', '', $funcName, $content)
+!endprocedure
+!procedure LockOpenGroup($id, $name='Lock Open', $tech='')
+  IconGroup($id, 'IconGroup', '<$LockOpenLg>', $name, $tech)
+!endprocedure
+@enduml

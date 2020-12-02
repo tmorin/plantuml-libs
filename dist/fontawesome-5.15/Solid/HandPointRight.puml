@@ -1,0 +1,16 @@
+@startuml
+sprite $HandPointRightMd [14x14/16z] ROw50S0m20JZ3ko_RHlNY-BFNd2-6eXY628HoUBzVOv-_8_vdq0BCTKtnUIdPV-wQQdVIh5RuhU23zKAxCSw9Hp-bfvIj97ivWC
+sprite $HandPointRightLg [20x20/16z] {
+bO-50GCn200XWaRsd_RTwlsBuW2t8GdFgjnxULAbFe4FAfbL1YiO8m2rlj0MyYG9zGTc1xD7dSr73z69cV3KdLKUTV965rUTrbSTYXzr5HOU-gDL5-OvaEgi
+gW4UI4GPuHuZ
+}
+!procedure HandPointRight($id, $name="Hand Point Right", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandPointRight', $name, $tech)
+!endprocedure
+!procedure HandPointRightCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandPointRightMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandPointRightGroup($id, $name='Hand Point Right', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandPointRightLg>', $name, $tech)
+!endprocedure
+@enduml

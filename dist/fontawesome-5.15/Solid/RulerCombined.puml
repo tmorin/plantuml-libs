@@ -1,0 +1,13 @@
+@startuml
+sprite $RulerCombinedMd [14x14/16z] TOs50SCm3C0MHbl_NxiojqhCn4ZwRO1AF4NTsrC4-HH9SkUvuZyxkpD7TBk7EcV6xurrOs0BNiGJyn9GLIkjayVWm6LE3
+sprite $RulerCombinedLg [20x20/16z] ZKx50KKX3AlW5BB_j5-VUuxn2W16A-07tNBcFUyuTHVPQwwoxB8j9NxKrvhi-eZsNypasRz8GSa7OUz90_-fYi90S80as40jkP52j-ydmFf0hN18uO1ARm
+!procedure RulerCombined($id, $name="Ruler Combined", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/RulerCombined', $name, $tech)
+!endprocedure
+!procedure RulerCombinedCard($id, $funcName="", $content="")
+  IconCard($id, '<$RulerCombinedMd>', '', $funcName, $content)
+!endprocedure
+!procedure RulerCombinedGroup($id, $name='Ruler Combined', $tech='')
+  IconGroup($id, 'IconGroup', '<$RulerCombinedLg>', $name, $tech)
+!endprocedure
+@enduml

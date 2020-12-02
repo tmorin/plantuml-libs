@@ -1,0 +1,16 @@
+@startuml
+sprite $RedoAltMd [14x14/16z] HSU55G0n20JHZOU7RF_T7kSJWG-WIWH3E-f82Q-qB0UKDDdAiohaHDPE9GRErgcWNIYHS7AVE5qAJlq55NzAjbzTwHLP7TSVf8onW-kYyIe6heQIjWg00m
+sprite $RedoAltLg [20x20/16z] {
+RP074WD0102vNld_RoC6gJjzTQ2allQU3I58Yus9a7OHLVa5rSFJr1cjpMl9a3GAIZEtH6LhZ5VTCwr-A9vTUe7HhP-K3dTO5TpC3RxuvwHsVZjPwNufNRb_
+oocoH8OjG969qqkA_cEDiOXZYNmvECdt7sJVqrAtPSpPVTG3
+}
+!procedure RedoAlt($id, $name="Redo Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/RedoAlt', $name, $tech)
+!endprocedure
+!procedure RedoAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedoAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedoAltGroup($id, $name='Redo Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedoAltLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SadCryMd [14x14/16z] {
+BOg50GD120Jd_20Fst-rUKNNWB8ZCtRXhYxvMfuQ3_5NDKrMEl3HAXKgG2saoSeH3XPHbtAMpe11g-DY79qvQGT3CZIwD9lAahAgNsytrV2TFusIgaskUeS7
+5EuqN3HjZ9qFWMgH2g_02G
+}
+sprite $SadCryLg [20x21/16z] {
+JSW50YKW24NHfs0BT_-hdVXzQFHVwISXxoZw6C53plUp1jpHspYGhlyikQQ7kg59Ai7Inm1JNMpzc1mjgFeLU39Lrt59ihrDdGsk9EYI4qaj0AKCoRiUrKq9
+5DdKosXI05K7azzeAeIKG7ly0YZ_VnM2fKEj02vIWpMXRam0LeYIM9cSWsl0KY4sMz85J3AJIa9MIILWwA51cluh1tBFkG9krOiV7cxNZ-gzjoez_0K
+}
+!procedure SadCry($id, $name="Sad Cry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/SadCry', $name, $tech)
+!endprocedure
+!procedure SadCryCard($id, $funcName="", $content="")
+  IconCard($id, '<$SadCryMd>', '', $funcName, $content)
+!endprocedure
+!procedure SadCryGroup($id, $name='Sad Cry', $tech='')
+  IconGroup($id, 'IconGroup', '<$SadCryLg>', $name, $tech)
+!endprocedure
+@enduml

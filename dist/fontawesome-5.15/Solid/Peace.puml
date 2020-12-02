@@ -1,0 +1,19 @@
+@startuml
+sprite $PeaceMd [14x14/16z] {
+BKq73W0n2BAxJGxu_syTEJfLXfcrym7VRPQOL84h2-bsi1zfsw6Y1rQxKzUo2jNMYqPLwKOAzLRlKrOTyOogrFw8PIGLdGDknUTTYYDTEjDmIRk1VJ7IBSj2
+58b-GU9bXWC
+}
+sprite $PeaceLg [20x21/16z] {
+JP055e0m3CKwz_R-joNRmu9zCgziN1uAipXvASiEMX_fZxbjF2eeCMUpcdPZGZb2e-Ny5MGGt-WWnsK-T1-2cl8vwMPHUVxEcw6NV0w6mJWnFguQzDEDrJMz
+Rfpb3eNO3FHkkyTCqqKh2ocwaMVcIuRblLcYpoQuBOUxzzBkDIVEu-ZdSEhl8Z37VXGLKCXXBzFBJHotoVB3fvpJq-S2
+}
+!procedure Peace($id, $name="Peace", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Peace', $name, $tech)
+!endprocedure
+!procedure PeaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeaceMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeaceGroup($id, $name='Peace', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeaceLg>', $name, $tech)
+!endprocedure
+@enduml

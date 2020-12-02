@@ -1,0 +1,16 @@
+@startuml
+sprite $TachometerAltMd [14x12/16z] LSU50SH024HHIDQNuVTVxRa-TCpic0ADm-uQi3TGNu6pztcF1-62z7aAdwWbhED-XdWebPlW8NtpC1t2BKZRI0EQsI17nk0czqvk-X6ICbCtuVRd2W
+sprite $TachometerAltLg [20x18/16z] {
+TSp5WS1034DH3Jin_FwhNMPuDuEaVmtp2B_cbqtm9jwtXsTcFBClgrAhPM_B2Ux0vQ5J3bChA2a1Zd8hIGMmDyzQvonWyo7Ucd4-70KyApxqpeUh1-136yXk
+04iNL9DQmgq9K0w4dWJWHUHxWvczbP-J_51Dy_vXwI-F
+}
+!procedure TachometerAlt($id, $name="Tachometer Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/TachometerAlt', $name, $tech)
+!endprocedure
+!procedure TachometerAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$TachometerAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure TachometerAltGroup($id, $name='Tachometer Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$TachometerAltLg>', $name, $tech)
+!endprocedure
+@enduml

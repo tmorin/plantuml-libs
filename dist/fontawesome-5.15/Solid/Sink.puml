@@ -1,0 +1,16 @@
+@startuml
+sprite $SinkMd [14x14/16z] LOp50S1G24Dnwjb_slgtTu8OlSWEh5G8782KRmKxidmRY1VhlXTMq-zxZZo0U3u5eAnwpC_dC6KCh4l7AXuDVbOgPcjx3YPffjC5
+sprite $SinkLg [20x20/16z] {
+ZSq50iGW34HHN9EP-zzs0-lUNtz5tAq6Qd5FDQxg8mLIYXB-mHAPN27ZW-Nr6Q7XrIuTja5WNYm8m6O6NP_vSbEprRpRXgaYe8foto2YWn_ge_TXrxwDVRFv
+tZssFuKlZS_MNgtOV3oJE2lq1qMpFKu
+}
+!procedure Sink($id, $name="Sink", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Sink', $name, $tech)
+!endprocedure
+!procedure SinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$SinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure SinkGroup($id, $name='Sink', $tech='')
+  IconGroup($id, 'IconGroup', '<$SinkLg>', $name, $tech)
+!endprocedure
+@enduml

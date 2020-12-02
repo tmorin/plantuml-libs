@@ -1,0 +1,19 @@
+@startuml
+sprite $ThemeisleMd [14x14/16z] {
+9Sm54aGn20FGOFMI-zzswVutZ631O_Cc1pxIDycDpnuZHwps5jwvbmDeLPVbeEYov4woemXBhsrJA8B53pd5n2-BlraNFpLDJYm-RNB5eS3d6gfCXNFRtrw2
+yVBDpS81IBlJFI8CvGS
+}
+sprite $ThemeisleLg [20x20/16z] {
+JO-74SGm20H5LDRrt-s3FdcTRnOCvOkOBupoG0UI_OZQy8d4Vv71va1ZjYsVY0wcJhrTsxtllH3CSd6EsyP1S3wT19CyZ9sQVZEq2NYAtRw_mmf7hiSkeb8c
+aaDtNY4HqWeW5L84YwAoPZ2ZrxTWz8LSfxMu2YsygOHqrbsyxcWyf8JIOx4TOa3ycIvVMvIOktbSUyfT5m4PEpbL_GqU7PKiZemkwi9Uy_XgBm
+}
+!procedure Themeisle($id, $name="Themeisle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Themeisle', $name, $tech)
+!endprocedure
+!procedure ThemeisleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThemeisleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThemeisleGroup($id, $name='Themeisle', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThemeisleLg>', $name, $tech)
+!endprocedure
+@enduml

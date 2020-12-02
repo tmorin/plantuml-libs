@@ -1,0 +1,16 @@
+@startuml
+sprite $StoreSlashMd [14x11/16z] HOk50GD120Jdt83jlzfu_WUNjHFwCM7eff1gNDF1Lh9hJ5EMzsymw3EznJErcM5CeCae1pZlH0vVIh1ZxRLdEehtf0-UXnOi_QXTvGa
+sprite $StoreSlashLg [20x16/16z] {
+NT054iKW30RX3SK9-Uz_skVQRR5l66EigjyoiFNV1coTi0Fq4oRwf9ul3haTyMk38iLXhcy5UaI38IbsQH4T81b0awQ1fGTfSI-7FB6K7kOyIguu_6Ds3wP2
+BrD8zwdHzRPFao8j-pDjIrj-UfauyC4L
+}
+!procedure StoreSlash($id, $name="Store Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StoreSlash', $name, $tech)
+!endprocedure
+!procedure StoreSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$StoreSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure StoreSlashGroup($id, $name='Store Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$StoreSlashLg>', $name, $tech)
+!endprocedure
+@enduml

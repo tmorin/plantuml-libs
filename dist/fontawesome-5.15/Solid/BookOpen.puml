@@ -1,0 +1,13 @@
+@startuml
+sprite $BookOpenMd [14x12/16z] u-NZvMPdOc1WPkS6Cld1W9MT7mbmSDAEnm6q5CBZu-5cPs1WO6JXOcFdP6PaG0S
+sprite $BookOpenLg [20x18/16z] rSZ50SH02010V1Nelzgxs2TMGEOvy63ww5KHDYYr3--v6mgW8ozKyiRqq-Vt6uZ4rkP-ivaGme4gSoDuzmS
+!procedure BookOpen($id, $name="Book Open", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/BookOpen', $name, $tech)
+!endprocedure
+!procedure BookOpenCard($id, $funcName="", $content="")
+  IconCard($id, '<$BookOpenMd>', '', $funcName, $content)
+!endprocedure
+!procedure BookOpenGroup($id, $name='Book Open', $tech='')
+  IconGroup($id, 'IconGroup', '<$BookOpenLg>', $name, $tech)
+!endprocedure
+@enduml

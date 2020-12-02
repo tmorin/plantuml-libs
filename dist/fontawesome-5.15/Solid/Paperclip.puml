@@ -1,0 +1,19 @@
+@startuml
+sprite $PaperclipMd [14x16/16z] {
+HS_10SGG00NHlqa0cFwxNO2vFG2jRA6O3KVF75XvyeQJVj1X8PGeGzaWVk0cSaF5I-OW6hqN2HlnVgC-y2Hy8SO6GJzcGHaZ6rp3EowhHh_GqOlqElPVY8z6
+Vm
+}
+sprite $PaperclipLg [20x23/16z] {
+LT11aaKH50JH0i0dzx_R3kBr3N9MPrYwoXD-KNUTKtc9EO7uK9OQz9kI9BTO7pMWP2Tfcr7k3AS2mwXqm2KWFHGszKtLA0BjeRYf1qa5g8V2fa9N04gx26A3
+5Xvgck0oLByf7n9C9PWBnaV7DE6ZBftfvGUqVx9ldAAHF32YznKZAGCiW24h7O2cArS6lnfa_G4
+}
+!procedure Paperclip($id, $name="Paperclip", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Paperclip', $name, $tech)
+!endprocedure
+!procedure PaperclipCard($id, $funcName="", $content="")
+  IconCard($id, '<$PaperclipMd>', '', $funcName, $content)
+!endprocedure
+!procedure PaperclipGroup($id, $name='Paperclip', $tech='')
+  IconGroup($id, 'IconGroup', '<$PaperclipLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ConciergeBellMd [14x14/16z] PSVL0SCm30L0LMJsst_QScAwlwFJWvd78b36jCFfJohUcdrZ-8llSCT5YHDkbRnZO4rvO7CR70jRqE85
+sprite $ConciergeBellLg [20x20/16z] bSYr0GGn00InCREt_sgV6GuKYdryER6yAJg9l37vgqATqgYU1zTrqonNNa_JSMRrQXXEcjuKmEc3XQmF4Pe-L4ZrGyGOFXWpzMNeXn0_9Sz6Hm
+!procedure ConciergeBell($id, $name="Concierge Bell", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ConciergeBell', $name, $tech)
+!endprocedure
+!procedure ConciergeBellCard($id, $funcName="", $content="")
+  IconCard($id, '<$ConciergeBellMd>', '', $funcName, $content)
+!endprocedure
+!procedure ConciergeBellGroup($id, $name='Concierge Bell', $tech='')
+  IconGroup($id, 'IconGroup', '<$ConciergeBellLg>', $name, $tech)
+!endprocedure
+@enduml

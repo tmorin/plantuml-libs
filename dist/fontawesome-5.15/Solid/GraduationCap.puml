@@ -1,0 +1,16 @@
+@startuml
+sprite $GraduationCapMd [14x11/16z] PSjL0WKX20LGHALZ_wjzdJFdXxnmjaJNinjRgs_AzW3l7xwptdqP3SSbqHroUuHPw4PxayLjmiJxq_qT0QZtEtYRTiuXvcw2S7G5
+sprite $GraduationCapLg [20x16/16z] {
+bOq30WH030FhTVF_rvxjcsMLq5-mzypkV4b839mO8Rk4beaxPj744waLJtqKGwBdgQCVz6XDKXDlQpKNKpha5dMiQY9M5_eXDmRTECz3BfCJ5tAVKa0xBenz
+pW0ZRpDtpEPqWFdoVc8B
+}
+!procedure GraduationCap($id, $name="Graduation Cap", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GraduationCap', $name, $tech)
+!endprocedure
+!procedure GraduationCapCard($id, $funcName="", $content="")
+  IconCard($id, '<$GraduationCapMd>', '', $funcName, $content)
+!endprocedure
+!procedure GraduationCapGroup($id, $name='Graduation Cap', $tech='')
+  IconGroup($id, 'IconGroup', '<$GraduationCapLg>', $name, $tech)
+!endprocedure
+@enduml

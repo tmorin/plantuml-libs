@@ -1,0 +1,19 @@
+@startuml
+sprite $StaylinkedMd [14x16/16z] {
+HSt10G0H34JH002__svt0NEQ9uYCg5gLdDWEbnuUCnGT5qE5Q7i8aq3Im61JlevsA5B0xpDlWisGR8Geqkc3-CdHR09K6JHzqesDMaJ_TFgVP1dHZTxc9uV_
+M4vKxMQM3m
+}
+sprite $StaylinkedLg [20x23/16z] {
+LT055e0m30FGp5UakVzjUUsA1VzODgoadHpufIZvHtIkp9V4hhSlveEa5hGNgtrgHzVouFIJP6-M6hZRCJLQggC0zeJcyS4jCFKN9QfehbCTjGDPqZHi9His
+04rvEfBTiGDM-4pZXybG5qQdXhGxTl-FMfK4m37tFOrtn57R3-pVoT9pJS-JIS-HNWhSyC-8h_yYBrq
+}
+!procedure Staylinked($id, $name="Staylinked", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Staylinked', $name, $tech)
+!endprocedure
+!procedure StaylinkedCard($id, $funcName="", $content="")
+  IconCard($id, '<$StaylinkedMd>', '', $funcName, $content)
+!endprocedure
+!procedure StaylinkedGroup($id, $name='Staylinked', $tech='')
+  IconGroup($id, 'IconGroup', '<$StaylinkedLg>', $name, $tech)
+!endprocedure
+@enduml

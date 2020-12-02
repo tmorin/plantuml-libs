@@ -1,0 +1,16 @@
+@startuml
+sprite $PeopleArrowsMd [14x12/16z] LOgr0S0m30H5CKk__xJ6AbSzd0A3BWu81-fh3SuaTkBXOyhXhYTRU2G0RanR2U0K7LMaTRtL6Yxb0ngwHVk-lXLK0xP7fB8LtStf4h_ckx6Zl5OnQ04
+sprite $PeopleArrowsLg [20x18/16z] {
+ZT350GCn40J14RCw_soznr-Nc45-qlLgBA_GWQ9R1eRI1Afk1LXo6GYw-Nqj2jdfvNAmBEQKltdMY5fWeau1J3lpwVqvoqqUKtN9pARnTR6hMRoTAVBATtse
+ixlPPvLT5dJrQx-XPbt-VbkG2SfOdz82ccxrwfl_zRbiUT0jdF_o0m
+}
+!procedure PeopleArrows($id, $name="People Arrows", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PeopleArrows', $name, $tech)
+!endprocedure
+!procedure PeopleArrowsCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeopleArrowsMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeopleArrowsGroup($id, $name='People Arrows', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeopleArrowsLg>', $name, $tech)
+!endprocedure
+@enduml

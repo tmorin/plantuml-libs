@@ -1,0 +1,16 @@
+@startuml
+sprite $ArrowAltCircleRightMd [14x14/16z] DOw50S0W40E3E-o_RL_IGzy38Cuhh0nZF6C5DVOZDo9wPDlrfuMkTxrodNCYrDnYJIXgAiEjgerappc36MUnIz6xPJUd3Go8z_sejaWnbqABsAUfp0y
+sprite $ArrowAltCircleRightLg [20x20/16z] {
+LSu53W0X34JHmRNj_M-xYpRy67bOCREfjbQYmSrMsPMZGJHsIjf0AszaW7flzRN8UenW5h99QWVzkChU_U5WRkl8pj0OyZNBmyPTYI44VqXIrBasYTTP3X5G
+pioUrY81XkMfuyy_n1OZHqhTdadpliy9cl6vbEIn-W
+}
+!procedure ArrowAltCircleRight($id, $name="Arrow Alt Circle Right", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ArrowAltCircleRight', $name, $tech)
+!endprocedure
+!procedure ArrowAltCircleRightCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArrowAltCircleRightMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArrowAltCircleRightGroup($id, $name='Arrow Alt Circle Right', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArrowAltCircleRightLg>', $name, $tech)
+!endprocedure
+@enduml

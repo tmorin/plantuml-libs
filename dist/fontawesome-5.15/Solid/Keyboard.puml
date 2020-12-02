@@ -1,0 +1,16 @@
+@startuml
+sprite $KeyboardMd [14x12/16z] LSdN0S0W20HG95OulFsdjVoPftJDZpJv04V6vxLPHdPoVA4erJwedVCSqm0_XOU9fLRK1BmtJ4IST6zDNAxaCaXlqQuU3GGV9feqNNeQ-Ti
+sprite $KeyboardLg [20x18/16z] {
+ZSv50WGW20NGRuiIzx_jc9lfPoVWJxM_IFPMoooPh9Gx6oA840JWYDeGRA384glbT6UBi2cRiSxPfe0aK4EKCJjxtab6wqXpTY_gU3-7DPkAw-n3yAEDcSid
+buRZviAasWvLOdj7SwLAL8yn8mhuqmC
+}
+!procedure Keyboard($id, $name="Keyboard", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Keyboard', $name, $tech)
+!endprocedure
+!procedure KeyboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeyboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeyboardGroup($id, $name='Keyboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeyboardLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CameraMd [14x14/16z] LOq30W0X44Mp1l_-frt6LsEP1rToBi5q2bH1Npw4Y8_iWrLiz83QoegFoJLqV0NOzIg7LwToHcVdsX8TeRCkdDTTsB0t
+sprite $CameraLg [20x20/16z] {
+VSg50KGX30FGe2sQ_QSz-Quyf8fNKYSHky25myI7u0iN-LyXyqOvK4GgJvg5jV2T1zRr_y1pfsRQQ2ZSkBZ5ZHDEVE0cEawCSjCm5T5qxZASgaNbKVN6XCPt
+ZJV5vNAIIx9uy0K
+}
+!procedure Camera($id, $name="Camera", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Camera', $name, $tech)
+!endprocedure
+!procedure CameraCard($id, $funcName="", $content="")
+  IconCard($id, '<$CameraMd>', '', $funcName, $content)
+!endprocedure
+!procedure CameraGroup($id, $name='Camera', $tech='')
+  IconGroup($id, 'IconGroup', '<$CameraLg>', $name, $tech)
+!endprocedure
+@enduml

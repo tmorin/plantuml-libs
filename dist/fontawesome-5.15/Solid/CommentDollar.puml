@@ -1,0 +1,16 @@
+@startuml
+sprite $CommentDollarMd [14x14/16z] JOm50WGW409nq_R_lpsv7cCJS17F3CKBRNFlrGsadJUZG3kJ5lndcGmTICRNMhdIyoKXxVmOXisutpfbdBaON0xHbzb-zH3plRsxu8gdGTsjuAA2Fnu
+sprite $CommentDollarLg [20x20/16z] {
+ZOxLOGHH30FdCU_sNsro81_J_9WjyGwNsfXpr8ZXwhQBLJWHrdx3T41GaOjM7MYhu-Ov6sXQ0THCYexQkhvO3CHcMXPd06nXixWgKVEXVHy2INesSrVpdgPR
+lBuKSFeuvzMfZeqCS1HP-hIg1wY7LmL2oZa5plIM73_m3m
+}
+!procedure CommentDollar($id, $name="Comment Dollar", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CommentDollar', $name, $tech)
+!endprocedure
+!procedure CommentDollarCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommentDollarMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommentDollarGroup($id, $name='Comment Dollar', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommentDollarLg>', $name, $tech)
+!endprocedure
+@enduml

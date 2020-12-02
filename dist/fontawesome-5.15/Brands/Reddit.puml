@@ -1,0 +1,19 @@
+@startuml
+sprite $RedditMd [14x14/16z] {
+DOw50KD124DpxcJ_RGkK_qxn0CXRb5FXB3edcN4PI4R-H_QfWpVIvF1SieiPT_RZhrh5orD-f5eLj-3c96ujZ8I1HhxZdKjDDcbKCsVlmweIil33jEKG8o6q
+gVs6pVa1
+}
+sprite $RedditLg [20x20/16z] {
+HOu75WGX24DZx-pzRxl4XyEVeWaLbzZcMgC6VCJvCyPpoy-Hv9P3CpxH-ymQFre-FqzbukbfvmKbj6UrTkoQ6PsbHoYfbytYfJyrtbwPIoxhEe0jmA37sesm
+c-e5YCfMEIaYX5kVxeoxoqAe2iBc1kp0imIb2kzDAyGMjFMsZNVOcwJZrgP5GhTwQN12xcEqREeF
+}
+!procedure Reddit($id, $name="Reddit", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Reddit', $name, $tech)
+!endprocedure
+!procedure RedditCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedditMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedditGroup($id, $name='Reddit', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedditLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $ExpeditedsslMd [14x14/16z] {
+HSxNWGKW24JHCS6W2FrtkxZfNUFv0q0NhQJZDMdkVeqBQ9CdEGRJYrAmxhSp3uTQvgopHwQ9daofurA7l2czlNf6ATXn7404rPyyIkbKUrAMOejmQqVl3UDm
+jCKTtnqAW4NpYBiVFbCF05y
+}
+sprite $ExpeditedsslLg [20x21/16z] {
+HSi54aGX30FG83NwQUv_sZMOsJSUmLUp27SFx_YwaUk7_SEHfgj8fceAlcRE9DUSGJvpAO2USvCJVM0KAMjYX3wa8ya7IfOiH1Z9CVbXZMIuX6wINVaHA98I
+fYHBdLLSSvEqL2DzzDQ0rZg4z10ZBG2euMEG4NgpITh9F4nFDaWvcMNeSxwvpxSqFFHavYTpb-wQCO1BjYoWfMJjgnx93g2d1A-KdFZgoyLpxoVKSk2IS3Cr
+3mN-XgZgmF46
+}
+!procedure Expeditedssl($id, $name="Expeditedssl", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Expeditedssl', $name, $tech)
+!endprocedure
+!procedure ExpeditedsslCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExpeditedsslMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExpeditedsslGroup($id, $name='Expeditedssl', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExpeditedsslLg>', $name, $tech)
+!endprocedure
+@enduml

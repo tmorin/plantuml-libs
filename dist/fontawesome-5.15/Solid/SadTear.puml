@@ -1,0 +1,16 @@
+@startuml
+sprite $SadTearMd [14x14/16z] ROo50GH120Epxj1_ju-ytyqga0H0QFkStGEKJ6nGqOBVL3JwL1IrE7R96N88bRb1IjFrnRmRtx6IZ3n6f1dZf3GqfH47JJb9p1550iXL5P3IaKA9VHET4G4y
+sprite $SadTearLg [20x21/16z] {
+VT250GCn30D0XTdQVzlMptnX1YWJc_prPB19WnF9QwSTt8Y7SiAZe7iDdZdOmek6mXilyyv9Y-ow5fMg0BghHUHgdLVyuBV1csJaEgC3aHasSrAq380HgMbv
+apEPZDetjPnU3q3dyBPkEuczVO8uADEuwHOBl_JsY0CROWphd1y
+}
+!procedure SadTear($id, $name="Sad Tear", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SadTear', $name, $tech)
+!endprocedure
+!procedure SadTearCard($id, $funcName="", $content="")
+  IconCard($id, '<$SadTearMd>', '', $funcName, $content)
+!endprocedure
+!procedure SadTearGroup($id, $name='Sad Tear', $tech='')
+  IconGroup($id, 'IconGroup', '<$SadTearLg>', $name, $tech)
+!endprocedure
+@enduml

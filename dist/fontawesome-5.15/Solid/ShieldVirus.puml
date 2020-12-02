@@ -1,0 +1,19 @@
+@startuml
+sprite $ShieldVirusMd [14x14/16z] {
+HKs50G8n4ClL_VRVbgJ0-ySBmCfotpKGajJjl4udpVt2e-yCqfVtme_xa5XYi9HaIfgMWKRGMQimxMM6ylRJ26Dc9nWJPDUQW1tlfwP3DL6iEcDg7xe6aHJ3
+dxxaXli57m
+}
+sprite $ShieldVirusLg [20x20/16z] {
+LSw5WSKW403HGQCm_LTxidnzKM2DfHpEFVEM-csu6alUfoyZWi_dQhZiT1_gwwzi4LF6JCMhJD-d9LhHrgB6vo1gNx78MRsFp560UWwTYQ4R8G67Nl7M3lIB
+NIEYHhs8M_KoSEkWDcWbgIT0qtbehl6nm6k2lhkgX3nz6Ocb-ZGBJ-szzLQ6wfNuietHUFW5
+}
+!procedure ShieldVirus($id, $name="Shield Virus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ShieldVirus', $name, $tech)
+!endprocedure
+!procedure ShieldVirusCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShieldVirusMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShieldVirusGroup($id, $name='Shield Virus', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShieldVirusLg>', $name, $tech)
+!endprocedure
+@enduml

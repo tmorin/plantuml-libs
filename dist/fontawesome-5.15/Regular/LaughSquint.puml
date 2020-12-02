@@ -1,0 +1,19 @@
+@startuml
+sprite $LaughSquintMd [14x14/16z] {
+7Ss53K0n24NHIvMIbBV_j5yuCHp0_6PUDtv3YhqZDIiv5DTYPxIQiNRK9DQTCEucZm8oZIl3bPjTY-vCvSB0pB0lK-0gfmAwoYJ3TLX_id4rvfTQ7rRV-TBq
+CJmhWNQkbD605m
+}
+sprite $LaughSquintLg [20x21/16z] {
+LP05aWKn24GRYIVq_M-xnLZjVpCn7918NK76ReAFTdWH_HNg8NUhfIqo78a5jptQIPQCTTZnKKc33axnL-JIk318aTYQ4faq77gafp7tTWMhdAI_idh9b2G5
+FxuujypnO7hB531_C031Z27yi8mN7C3Ymn4qZfuwvqE514qwDr22IGC69u3D9P0wHjCKXTv3E1KNlXc6H79ki_UPSrGy-9Du5_n3lTRoslm1
+}
+!procedure LaughSquint($id, $name="Laugh Squint", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/LaughSquint', $name, $tech)
+!endprocedure
+!procedure LaughSquintCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaughSquintMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaughSquintGroup($id, $name='Laugh Squint', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaughSquintLg>', $name, $tech)
+!endprocedure
+@enduml

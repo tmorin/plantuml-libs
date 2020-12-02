@@ -1,0 +1,16 @@
+@startuml
+sprite $GreaterThanMd [14x18/16z] VOt50S0m30CLPdl_QKjAcbTxhpCAFtWfTbTTLQjRbJuqpofqrZsmzetrYAnTPIrpRZDha21lPJ9TqzxIOc4BLR818FHaS3EOF8dqXS4d9m
+sprite $GreaterThanLg [20x27/16z] {
+hP350GGX40HnXyu_slC-zBTRpneVSGKJrAO093sxZ3VPZ0u_YkskW5H79tq5QLvIky7s9MplWFYt9dVh1T69hecEe-nvUSqpmnHtcBlj9pztjE4woNktBz3a
+uIy9sBwgk-aOhyIDF04
+}
+!procedure GreaterThan($id, $name="Greater Than", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GreaterThan', $name, $tech)
+!endprocedure
+!procedure GreaterThanCard($id, $funcName="", $content="")
+  IconCard($id, '<$GreaterThanMd>', '', $funcName, $content)
+!endprocedure
+!procedure GreaterThanGroup($id, $name='Greater Than', $tech='')
+  IconGroup($id, 'IconGroup', '<$GreaterThanLg>', $name, $tech)
+!endprocedure
+@enduml

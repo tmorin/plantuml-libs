@@ -1,0 +1,16 @@
+@startuml
+sprite $SkatingMd [14x16/16z] JSc54G0n00B1YoSlq7-txx9ZtC2dk_EnpIwSxc_nJbQ1g-JTu1IeUoo1s_eFP7qHYbsVQ4xrpNDLwmkmWJMFFPuggf63n2wly_dL6XSWjG0iMZtO
+sprite $SkatingLg [20x23/16z] {
+NS-5eGGX34NHuCxjlzel6tOaRmGuk9XKTZ0KWMKi0LjC1gJ_CenlPdN1dxuxHJG5OAjLEV7Uk_oXAO-uZIKfXwnDzpOFZ3TbYHOBtM81ykUkvIOzQuPkICAn
+bMKftTP9QIkf7LJvM1EdM6TKpCt9_6pTMFw_ZAtMEaZcodh2Nm
+}
+!procedure Skating($id, $name="Skating", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Skating', $name, $tech)
+!endprocedure
+!procedure SkatingCard($id, $funcName="", $content="")
+  IconCard($id, '<$SkatingMd>', '', $funcName, $content)
+!endprocedure
+!procedure SkatingGroup($id, $name='Skating', $tech='')
+  IconGroup($id, 'IconGroup', '<$SkatingLg>', $name, $tech)
+!endprocedure
+@enduml

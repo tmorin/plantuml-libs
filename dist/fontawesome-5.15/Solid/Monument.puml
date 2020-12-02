@@ -1,0 +1,16 @@
+@startuml
+sprite $MonumentMd [14x18/16z] NSo50S0W40H1tFdhlze4juqEncgI4cy_7S2YADWCQ9ckrEMwSbVeegxOm8TIFn-zFAM5S21UfG7HtrKMYDubG5OvZ7HLc39DbAcKoRAdb8yYhdu
+sprite $MonumentLg [20x27/16z] {
+ZSzL0iCm38FXDiow_sc7jjNnzFWLad-J1Io_FQq3zPM892Bf4HrqQ-UPDgSMQLujqO9QeIMrHik7gxnSPj2QsW96lcm2GsXVykyAJCiGAmpn5slEUzyPmWo6
+C8CXvMZHCbv2oXosAS4lI-Lb4Nzkl58_0m
+}
+!procedure Monument($id, $name="Monument", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Monument', $name, $tech)
+!endprocedure
+!procedure MonumentCard($id, $funcName="", $content="")
+  IconCard($id, '<$MonumentMd>', '', $funcName, $content)
+!endprocedure
+!procedure MonumentGroup($id, $name='Monument', $tech='')
+  IconGroup($id, 'IconGroup', '<$MonumentLg>', $name, $tech)
+!endprocedure
+@enduml

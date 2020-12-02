@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglePlayMd [14x14/16z] HKx70O102FC2DZ1a_sdjUln8ZtBuy5qgiTZtXHJ6fNyAL8t_fmIrsVTTRzcCzrCQGcNlLsYKnkSZShFmHqc4v6yAaLhRst39yBNJbkbVHg3zgmy
+sprite $GooglePlayLg [20x20/16z] {
+NSzL0aKX409G9cvPx7-rhmFby-WKwWx772StdB7O0wrVDjiJnzWdUo8wMwfzaCNLFiZpOuhfkzWJMzfWSp7ky46ogIMyBnOs7kKizhTu5kuM05pfSumBdGQn
+iC7gW5WuUm9guVs0n9w5fs7AbLW4Tm
+}
+!procedure GooglePlay($id, $name="Google Play", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/GooglePlay', $name, $tech)
+!endprocedure
+!procedure GooglePlayCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglePlayMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglePlayGroup($id, $name='Google Play', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglePlayLg>', $name, $tech)
+!endprocedure
+@enduml

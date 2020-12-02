@@ -1,0 +1,16 @@
+@startuml
+sprite $MailBulkMd [14x12/16z] NSor0O0030H096w__xHunLNHNmoVMYxwxvpuGdTdQ9gPxW5o8PSzF054mruKrvzZy701Qh07BhQ-qKsAOOkd6q290hao4M_tvCb-91xoTYS
+sprite $MailBulkLg [20x18/16z] {
+bOvN5eD0203fnAttlssGA6z_CzOTAe3l0uMad-xwtqrxu78BMN-4TabtyJu1-8nXF7eVErXzxar4YFc0vOmeMLKnCJ8Rw3x1VXT7ahGtZMjJpZPtaLElDaGn
+IgCmN66WAD66n1FPGRTiIl1GsOURfHgyV04
+}
+!procedure MailBulk($id, $name="Mail Bulk", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MailBulk', $name, $tech)
+!endprocedure
+!procedure MailBulkCard($id, $funcName="", $content="")
+  IconCard($id, '<$MailBulkMd>', '', $funcName, $content)
+!endprocedure
+!procedure MailBulkGroup($id, $name='Mail Bulk', $tech='')
+  IconGroup($id, 'IconGroup', '<$MailBulkLg>', $name, $tech)
+!endprocedure
+@enduml

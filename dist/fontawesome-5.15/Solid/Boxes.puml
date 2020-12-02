@@ -1,0 +1,16 @@
+@startuml
+sprite $BoxesMd [14x12/16z] RStN0O1G24FH1Bi2sNzQUzVpwlq2W4bMp0UpjTnljVejTYlYROY2uRHmb358vJw1bMRkQwtlQgtLetAzQUiJ4m
+sprite $BoxesLg [20x18/16z] {
+bO-50SGm30CLPcd_QP-nt0kQRTm9qW265F4XldNvN-TibzAVJgHcEkcmxg-6xoy2rZ36lE_FbrH091lGo0HF3adnTuwW1z6aXwxVT2Rg0SMNt-FxuQLxSLBN
+WFhwyWe
+}
+!procedure Boxes($id, $name="Boxes", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Boxes', $name, $tech)
+!endprocedure
+!procedure BoxesCard($id, $funcName="", $content="")
+  IconCard($id, '<$BoxesMd>', '', $funcName, $content)
+!endprocedure
+!procedure BoxesGroup($id, $name='Boxes', $tech='')
+  IconGroup($id, 'IconGroup', '<$BoxesLg>', $name, $tech)
+!endprocedure
+@enduml

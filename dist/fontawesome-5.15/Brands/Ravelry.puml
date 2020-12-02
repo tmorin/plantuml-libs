@@ -1,0 +1,16 @@
+@startuml
+sprite $RavelryMd [14x14/16z] JOw50S0W40E3syl-spPr3dqFI9fgqYCkud9Y8u1aynkbcVnZeGWVMohAbmOP21XyfprMFsDoMHFrxgDtxBR6s6CvpNq2WlW_dOpRcE4HsjRg2UG
+sprite $RavelryLg [20x20/16z] {
+PS-54KCX0C3Gu0xxJrj3-yaPzt1wGbjd94SYrFOjsqNc9rrb9zkEgboqAu1gZnoalYNub5tj2-Ku6uIW_CRIBaF8Vh_nopxIizjCc-Pkq-gsULSMw-qHN7ka
+W7nz0yGVUdfXIRNCLAW_2P8pfRLYz0O
+}
+!procedure Ravelry($id, $name="Ravelry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Ravelry', $name, $tech)
+!endprocedure
+!procedure RavelryCard($id, $funcName="", $content="")
+  IconCard($id, '<$RavelryMd>', '', $funcName, $content)
+!endprocedure
+!procedure RavelryGroup($id, $name='Ravelry', $tech='')
+  IconGroup($id, 'IconGroup', '<$RavelryLg>', $name, $tech)
+!endprocedure
+@enduml

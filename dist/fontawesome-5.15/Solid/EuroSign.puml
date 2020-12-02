@@ -1,0 +1,19 @@
+@startuml
+sprite $EuroSignMd [14x22/16z] {
+LOw50OH030JZSDv_jxzvVD2vA9s8HpWV_zvNKlAVspg8b95_lTIMcHcfSjR7LG1Oq60A2pForWlx69DKV5o1AGftb36TzBcW0qp_T87PXk_0oW4vLp6wi2pK
+MqlgXhxCLowAnwgGd7amZsGj8stGXQWAVVa1
+}
+sprite $EuroSignLg [20x32/16z] {
+XP854iKm20M9KMgF-v-sHYeqNxQ-AODCw3_XzSd31CKyfjF4Na-wgXXw4Ks9tinEJSA5fHogs7fv9iJnaolZY4HygWWh81piPbO7b8dqHUkiucmTI64Zqmxg
+QbDTjhG-B-o6J6sEr3hiiIbtDiYyKonNJJoGGshzRJLQd6Gz43V1lYOTEcOPavE6k71Zf4eSRaaNSTyRm3pozptaMG4
+}
+!procedure EuroSign($id, $name="Euro Sign", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/EuroSign', $name, $tech)
+!endprocedure
+!procedure EuroSignCard($id, $funcName="", $content="")
+  IconCard($id, '<$EuroSignMd>', '', $funcName, $content)
+!endprocedure
+!procedure EuroSignGroup($id, $name='Euro Sign', $tech='')
+  IconGroup($id, 'IconGroup', '<$EuroSignLg>', $name, $tech)
+!endprocedure
+@enduml

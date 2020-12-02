@@ -1,0 +1,16 @@
+@startuml
+sprite $GemMd [14x12/16z] JOo50G0X30DJmo7xR_ikLrTKPkUE5MOOgVsegkvPsyCwgYLxwY4IlXEYuPbDUSqw0urstHaBWD6kdwDZHwOFiiV0YPL4Hb7SfQzfXfTQy4FljGq
+sprite $GemLg [20x18/16z] {
+PSU5WKKX34JH0H8SRl_TxjErVw8ZHHXg7Bew91qwc3Qda618CbWgNAeck6n0qUAovJ2l9ETHjA4UN5uVBgkrc5bKiaTIFFQ0hSAZQK4E-LZQt893aLHPQbow
+9asdZaSkoHYwpQt1OMgke5lOsJYu4VLACqnOOPX-k6SeblLR39iOzKyV-f2INby
+}
+!procedure Gem($id, $name="Gem", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Gem', $name, $tech)
+!endprocedure
+!procedure GemCard($id, $funcName="", $content="")
+  IconCard($id, '<$GemMd>', '', $funcName, $content)
+!endprocedure
+!procedure GemGroup($id, $name='Gem', $tech='')
+  IconGroup($id, 'IconGroup', '<$GemLg>', $name, $tech)
+!endprocedure
+@enduml

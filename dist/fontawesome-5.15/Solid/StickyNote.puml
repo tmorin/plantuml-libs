@@ -1,0 +1,13 @@
+@startuml
+sprite $StickyNoteMd [14x16/16z] lSxB0S0W20FGX1w1PFzf-szr0jz9-OCJjEMNt5v8f_-pCHX_XYtN-CazvQnuhvQR5G3umEq
+sprite $StickyNoteLg [20x23/16z] vSW50G0X5C3GuGxzqvwx963eV_3EXcVHj9wpKicfAsMKdhjRMPwxpMFYPPcN9V6qKYP2sJE35lmq0W
+!procedure StickyNote($id, $name="Sticky Note", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StickyNote', $name, $tech)
+!endprocedure
+!procedure StickyNoteCard($id, $funcName="", $content="")
+  IconCard($id, '<$StickyNoteMd>', '', $funcName, $content)
+!endprocedure
+!procedure StickyNoteGroup($id, $name='Sticky Note', $tech='')
+  IconGroup($id, 'IconGroup', '<$StickyNoteLg>', $name, $tech)
+!endprocedure
+@enduml

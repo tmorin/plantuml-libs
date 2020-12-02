@@ -1,0 +1,16 @@
+@startuml
+sprite $NewspaperMd [14x12/16z] LSa50WKW20FGpLPWtF-ql_Cf3RJ-KST9lUND0KdW5Yt33XNQNPebPQU8qylUhTudXiVk4VCnOQtTw-TcvhEvZzlanXVqjFmXb1_4doi
+sprite $NewspaperLg [20x18/16z] {
+ZSs30GH130NGEEFVVxLdSzzoGjfCsdZMQfjO2qUdp_MVdbIWTP3aGP1bf5rZWIFfXrU_nHQJGiJCv5xN-u3KDLUznhGVDCxHHrvZ77v06XxwSKSxnqYFY0yl
+FjOTX_F9vTFmYPNwAccZFG
+}
+!procedure Newspaper($id, $name="Newspaper", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Newspaper', $name, $tech)
+!endprocedure
+!procedure NewspaperCard($id, $funcName="", $content="")
+  IconCard($id, '<$NewspaperMd>', '', $funcName, $content)
+!endprocedure
+!procedure NewspaperGroup($id, $name='Newspaper', $tech='')
+  IconGroup($id, 'IconGroup', '<$NewspaperLg>', $name, $tech)
+!endprocedure
+@enduml

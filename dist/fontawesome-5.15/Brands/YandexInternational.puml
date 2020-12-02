@@ -1,0 +1,16 @@
+@startuml
+sprite $YandexInternationalMd [14x22/16z] hOt50GCn40F7p5R_rUQO_Z4i2hXFKiFKxjbFLuIckZTEiX0qxGK4fk8DXAAs0wTv2EcaqvMs42wZVWF1IZQfS9wcqkMlBaet4CpK0uIY1mZX0G9Uuzlnnsu1
+sprite $YandexInternationalLg [20x32/16z] {
+rOw73KCn20NvnRtS_ji62LcGR91pBuUUV5EXomyBaYxNvLSFR3qsc55jkYJW2UfhArMCLzNpVqNLwfhWgZBFw-j6FbMQLxw0PAedwD1DzQJ9qWVLf2ooJVLS
+8wedugLgaS24kk2MG45HFtA3aiNmYAO6aglETZN6Jlzyzm4
+}
+!procedure YandexInternational($id, $name="Yandex International", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/YandexInternational', $name, $tech)
+!endprocedure
+!procedure YandexInternationalCard($id, $funcName="", $content="")
+  IconCard($id, '<$YandexInternationalMd>', '', $funcName, $content)
+!endprocedure
+!procedure YandexInternationalGroup($id, $name='Yandex International', $tech='')
+  IconGroup($id, 'IconGroup', '<$YandexInternationalLg>', $name, $tech)
+!endprocedure
+@enduml

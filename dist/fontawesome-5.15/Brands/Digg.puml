@@ -1,0 +1,16 @@
+@startuml
+sprite $DiggMd [14x14/16z] VSh50GHH20FGxq22zD_j-ivjtWL9sgtvT5qa-Dl7SCurvXpzsQaiWgXoVQwfu1CqB7Ub69zCmc9LHV8f8wnOPZZdR8rOocflWiYDttLCzpALTkC1
+sprite $DiggLg [20x20/16z] {
+fOv30aH134GRqI2f-v_ssrZrMyIer0Pn9hhK78IurQhPiS3CWKAKUM2sZ1624mPyJX4SS-tFYmKy-LpxviM-rEfI-zN5Olt1XnywKbIAYC87Qq1QoCA2ACow
+rtPzXxawCjlKG0y
+}
+!procedure Digg($id, $name="Digg", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Digg', $name, $tech)
+!endprocedure
+!procedure DiggCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiggMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiggGroup($id, $name='Digg', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiggLg>', $name, $tech)
+!endprocedure
+@enduml

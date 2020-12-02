@@ -1,0 +1,16 @@
+@startuml
+sprite $ListAltMd [14x14/16z] PSs53S102010Nd7OVzkcRXV3cOGNwXOFcX-1vgAgucl6C2UiQEzvs2hMp0hBc7EExOO04fHIWND5df6humhULwoAuif-lrz9xGzb0G
+sprite $ListAltLg [20x20/16z] {
+XSpLOSDG50JH5JsujFrNczWMy_cVmONUZhGBdXXlYFAe0bRHVZMjyoS1KZ2PPf4oGst4IIwanvS7H_cYBO0MD2Fdg0gFlEl3wqWuIa0z_WGmwVfHS6JELyuJ
+xKHtH6kB2_y
+}
+!procedure ListAlt($id, $name="List Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ListAlt', $name, $tech)
+!endprocedure
+!procedure ListAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$ListAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure ListAltGroup($id, $name='List Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ListAltLg>', $name, $tech)
+!endprocedure
+@enduml

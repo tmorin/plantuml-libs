@@ -1,0 +1,16 @@
+@startuml
+sprite $FeatherMd [14x14/16z] JSc53GD14CNGVyli_hkDPYVqX9PrFHquLQvWTf2fkFKBynzM4QZzKmDQF9Wg7QfjLWjIe4MkAIdwEQizihmneapYbf_1Y3b7EOR-l
+sprite $FeatherLg [20x20/16z] {
+RT350S0W44JHmNMp_LSRdoZ_-71mPRAeIiAZCEbUjs19MITblOj_qdOll1kGhEHqonTQNQtk1A45mEvaI9Atov9sSBm7IQKtkrcvQTztAmTkFxLe-247zUGe
+f3Ln9rcX97DJjI56Rt6r4hxrFs41
+}
+!procedure Feather($id, $name="Feather", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Feather', $name, $tech)
+!endprocedure
+!procedure FeatherCard($id, $funcName="", $content="")
+  IconCard($id, '<$FeatherMd>', '', $funcName, $content)
+!endprocedure
+!procedure FeatherGroup($id, $name='Feather', $tech='')
+  IconGroup($id, 'IconGroup', '<$FeatherLg>', $name, $tech)
+!endprocedure
+@enduml

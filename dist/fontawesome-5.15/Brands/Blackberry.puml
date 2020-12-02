@@ -1,0 +1,16 @@
+@startuml
+sprite $BlackberryMd [14x14/16z] VSh50GD1243HF-xGVxU1ItptZQ3SI7slpDWhOPge3bIrO-eOFGJxY7Esc284_xejsEBnPDFsQkh9Kbsud1FuUjXdHqoeDL5iAsEg9I7rNd1TPV8I-Ei1
+sprite $BlackberryLg [20x20/16z] {
+hSz5OW0n20NG7qCYSF_RbexFglesM1JVbdE-muxTV2RG7dR30w7lOPCiSijOUqWf0I2Y5f52X1WPuILxi6Pc8w5-XWpo8Eg18Lk1maGLoqF5sCDEHBW07362
+zguPByN3E0iLRG0zUliL3RpcrDS76rwchINu3ny
+}
+!procedure Blackberry($id, $name="Blackberry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Blackberry', $name, $tech)
+!endprocedure
+!procedure BlackberryCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlackberryMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlackberryGroup($id, $name='Blackberry', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlackberryLg>', $name, $tech)
+!endprocedure
+@enduml

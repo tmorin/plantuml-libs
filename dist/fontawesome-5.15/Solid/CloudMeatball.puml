@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudMeatballMd [14x14/16z] VSxL0S0W30JG8uB3xJzjtRxwS4q0c-GGou9TuQOq5cp2vCK166zLKFcH-6DoKqppFkcQnZ1hmxMD4aG1voO34lQXSpFX-xDoheX8ceVdfYbsQV9CUWK
+sprite $CloudMeatballLg [20x20/16z] {
+PS-50SGm30D0XSc9zj_stowtLmY3y9SdEJpkAjKAQKZ19d2pzDTW2k_SkVGIjIijFaX4uaUO_1ZarpehPqqgZIGW2qt6i0pmepl4uzeX5nziuNIXPCsTzDTe
+D6w8w6I2NpJYDAaUCQx84KAkGUPptdIQlhaSd_kbX4saMW5tBauvUtu
+}
+!procedure CloudMeatball($id, $name="Cloud Meatball", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CloudMeatball', $name, $tech)
+!endprocedure
+!procedure CloudMeatballCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudMeatballMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudMeatballGroup($id, $name='Cloud Meatball', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudMeatballLg>', $name, $tech)
+!endprocedure
+@enduml

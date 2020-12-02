@@ -1,0 +1,16 @@
+@startuml
+sprite $PersonBoothMd [14x12/16z] FKt50S1028DJFFjlMo-yuWkR5aO2K850JzJZGJJuHCqUj2ku1yk3piirJ_b5MG2F3ocDJllNQFujIApvBs17Jep8h7qXEr4dFbzXVUsEHjT97G
+sprite $PersonBoothLg [20x18/16z] {
+JT1H0eKG48NXOmQ0EVlVxOLR-UlfAm0xuN36LHLsNuO7_BHnJCantsrehrMo7IklGGEEfTUSnec1Xd3FnmQf1VhQhga0Sjkk0-Eo4Ssimjbb1kSSeBpDGKT3
+l8qPuTxph9FYf_NBV6FIVGSsdoBBD3El_qBIh5bqMpdsRzheyAR2zfWp-m4
+}
+!procedure PersonBooth($id, $name="Person Booth", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PersonBooth', $name, $tech)
+!endprocedure
+!procedure PersonBoothCard($id, $funcName="", $content="")
+  IconCard($id, '<$PersonBoothMd>', '', $funcName, $content)
+!endprocedure
+!procedure PersonBoothGroup($id, $name='Person Booth', $tech='')
+  IconGroup($id, 'IconGroup', '<$PersonBoothLg>', $name, $tech)
+!endprocedure
+@enduml

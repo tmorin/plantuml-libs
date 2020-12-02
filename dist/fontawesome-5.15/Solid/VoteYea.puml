@@ -1,0 +1,13 @@
+@startuml
+sprite $VoteYeaMd [14x11/16z] JSl50G0m20D0g7lsdxPkzq53H4elD0XiSanojgdSgI1GF5DaI-vzcZ7CYUL8eLF4kMXi9lSy6sEqwTW3A1TWtCSq
+sprite $VoteYeaLg [20x16/16z] RSu50e0W44JHiPET-v-MRlZsKm6ubXnI7uK-uPUCLRsfqMvyZJrYQVcB2L_i5zRktmE1YZbS5BCjmT8I7VoKHPXp3v-xA4gCAdomOQt2ncd_XB0CmG
+!procedure VoteYea($id, $name="Vote Yea", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/VoteYea', $name, $tech)
+!endprocedure
+!procedure VoteYeaCard($id, $funcName="", $content="")
+  IconCard($id, '<$VoteYeaMd>', '', $funcName, $content)
+!endprocedure
+!procedure VoteYeaGroup($id, $name='Vote Yea', $tech='')
+  IconGroup($id, 'IconGroup', '<$VoteYeaLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GitlabMd [14x14/16z] {
+FSh5eK1124FHEmgCfVzglpmx6oG1ozoSFxDoIJj1adDfQj2rk8I2EgMhceuEtTsjczdV4cK65Fqnw4Fgi2HbgdIaWakJjBMpQLCaOog0SYPRoTMuJFFLTkRH
+8thYamkNNm
+}
+sprite $GitlabLg [20x20/16z] {
+TOu75eGW30L3xypzJwiIdjjtbCxa8o9EdXWhol3FlTXrSEJdNaClPlfJdKHLuL4nG5ELfrnXcgN2k5LWoRbT1A_4DK_YwivHelesaRIeOaIa43hu7RuZ8rIU
+ISGj33VqN6KhPa2_XghlsqSLYYmY12cG9363RDp4U31kUJUcTJElVtbFKgwvH7d7vQJUFqu
+}
+!procedure Gitlab($id, $name="Gitlab", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Gitlab', $name, $tech)
+!endprocedure
+!procedure GitlabCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitlabMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitlabGroup($id, $name='Gitlab', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitlabLg>', $name, $tech)
+!endprocedure
+@enduml

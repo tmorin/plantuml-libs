@@ -1,0 +1,16 @@
+@startuml
+sprite $HotjarMd [14x16/16z] JSk50O1030F0jBnRzj-MuDnh3T9wChmYkQhZPgGKN9odXbFcfTvZjmqeV5LKVcRYPQppvgL6_ZGiSkfmwOfGLwuaYzS8HTDiAWKnBWUyiq9IDq2s23783W
+sprite $HotjarLg [20x23/16z] {
+NP25eS0W34GFr_Jsd_OB3g_5uWd-iPASmaCccHqk3FyHZmFriL7r8slOo_SLvYtxXhldGMgYo0iDgCgR02Lyo2XyaIFy5sRbt1ZNTNTmUSreaLg1qiF-7nK8
+BKHgigYBPDLbQNJlTzyLmtoEM5ZL742OiqZeg53Ba1bi54v-0G
+}
+!procedure Hotjar($id, $name="Hotjar", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Hotjar', $name, $tech)
+!endprocedure
+!procedure HotjarCard($id, $funcName="", $content="")
+  IconCard($id, '<$HotjarMd>', '', $funcName, $content)
+!endprocedure
+!procedure HotjarGroup($id, $name='Hotjar', $tech='')
+  IconGroup($id, 'IconGroup', '<$HotjarLg>', $name, $tech)
+!endprocedure
+@enduml

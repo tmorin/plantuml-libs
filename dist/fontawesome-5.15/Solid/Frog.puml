@@ -1,0 +1,16 @@
+@startuml
+sprite $FrogMd [14x12/16z] LSV50SH054CnPnX-_FglTXbravuQBdf9ZRcTTPSti0BYziw7rVZQXw6NF01t3PWDocOSKl2mkdN3KrF4PsxbEAEMTZxOwGY7_bm1
+sprite $FrogLg [20x18/16z] {
+VSx50S0m30D0kMXeelsdBJFT9s34FqrTTV_YgCH1QYNBbaTcuPpKHZ8rc3IyS0366q1vqw7YA6lL92vSgY0PKcgDwJODdYxp4gG9cMgCCdVIPS641r7wxSy0
+ert-aW1mAWGyAn7pQFLTb10BTxmO
+}
+!procedure Frog($id, $name="Frog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Frog', $name, $tech)
+!endprocedure
+!procedure FrogCard($id, $funcName="", $content="")
+  IconCard($id, '<$FrogMd>', '', $funcName, $content)
+!endprocedure
+!procedure FrogGroup($id, $name='Frog', $tech='')
+  IconGroup($id, 'IconGroup', '<$FrogLg>', $name, $tech)
+!endprocedure
+@enduml

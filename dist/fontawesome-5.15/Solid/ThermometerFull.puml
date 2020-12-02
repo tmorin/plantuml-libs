@@ -1,0 +1,20 @@
+@startuml
+sprite $ThermometerFullMd [14x28/16z] {
+nP3L0GCW50CVxjp-spRKPO0UUYHVc8WJLhORbIlZAWbeTMixfbfCsI_mPdvJamAj98DIOSQ_M7XP_ixItNHMAmjYa_aDGL8YtFO1Mw-7E10zSQMKNzlXrLnG
+0o8drV9HdtEG42oYGciJAEUdDpUo7LnHCAlNzG8
+}
+sprite $ThermometerFullLg [20x40/16z] {
+xP97OWGX3C1Cx_3_tmQBJ3lc7cspvVLGHJ5vhirCyf3MOGQvo0Yu_Xd9nk372MZIh8Zj6g3yZhh4CRpHaUmrWFTBKmqPfcZ6CD7hrz_SlsjVbwyJCezR_fnG
+bNeEif-puJilY9oIrwSvxG4RzbVPXK4B5ADjFErIL_dZ9cxg40D1MNDc717NQ2LnR-g2J6imapYEtHEe3QuGLyqOSGmQs0Dbr7f6Ag9KOa11cfUPKIvCeg__
+cXy
+}
+!procedure ThermometerFull($id, $name="Thermometer Full", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ThermometerFull', $name, $tech)
+!endprocedure
+!procedure ThermometerFullCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThermometerFullMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThermometerFullGroup($id, $name='Thermometer Full', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThermometerFullLg>', $name, $tech)
+!endprocedure
+@enduml

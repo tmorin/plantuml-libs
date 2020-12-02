@@ -1,0 +1,16 @@
+@startuml
+sprite $DragonMd [14x11/16z] DSM70GD13091BcUs_sxjJoC1kcNpr_I86yuYITL3QSEVLO4J4gSjTeVp_yAHKkWrBt25dVJNiLqCh2Y5YmP_Mv_DdnHp7MiV0sVyv-Fq0m
+sprite $DragonLg [20x16/16z] {
+RS-5OGGW50FGu9xilssBdJ_S-RYQjemNHLl0G-nhLnKj03UOW3XqTC3FjbaO7TnJ4Zqa6KGgU1qqb2ocCKeC_SvrXyrsJNReNzspNPGeNxGKB6Q2rvP-H4Ay
+gbemsP1oRMDGKxSXD-gDfpvqZpy
+}
+!procedure Dragon($id, $name="Dragon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Dragon', $name, $tech)
+!endprocedure
+!procedure DragonCard($id, $funcName="", $content="")
+  IconCard($id, '<$DragonMd>', '', $funcName, $content)
+!endprocedure
+!procedure DragonGroup($id, $name='Dragon', $tech='')
+  IconGroup($id, 'IconGroup', '<$DragonLg>', $name, $tech)
+!endprocedure
+@enduml

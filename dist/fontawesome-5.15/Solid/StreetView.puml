@@ -1,0 +1,16 @@
+@startuml
+sprite $StreetViewMd [14x14/16z] VOwr0GD030EVpA3zfmrJbMlCbiOT0dHyC22_bG0nVafTdtnNUDFFui-g_gdElP97khJENM-bxn7jF6zLJR8ssDSBmJjuRP6pRZCTKmkeQhJjSGK
+sprite $StreetViewLg [20x20/16z] {
+hT350GGn243HkCFllzeTz-joV0bgzYYGpJCIW7zQNImzBHx_7ZX6U5FqFZsnmAVWsApzo_fczH9hxTY-kMEq3hOibZpQvY6T82KT-wQgT2l4umRRiH8TCKja
+O7jrI4ABjtFLjAnhVOLWV0Taj5hRKA2jlMqiNHHqz1Bi31C
+}
+!procedure StreetView($id, $name="Street View", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/StreetView', $name, $tech)
+!endprocedure
+!procedure StreetViewCard($id, $funcName="", $content="")
+  IconCard($id, '<$StreetViewMd>', '', $funcName, $content)
+!endprocedure
+!procedure StreetViewGroup($id, $name='Street View', $tech='')
+  IconGroup($id, 'IconGroup', '<$StreetViewLg>', $name, $tech)
+!endprocedure
+@enduml

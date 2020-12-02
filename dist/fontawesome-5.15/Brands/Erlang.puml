@@ -1,0 +1,16 @@
+@startuml
+sprite $ErlangMd [14x11/16z] LOo30KDH300lU4RsdxRknyNanYe0jIcGLoZG8WQW7u-QsMUnSc5-gZw_nAUQyMFo-V8czmW3TByB6D-dKeg2Rn4EH9u
+sprite $ErlangLg [20x16/16z] {
+ROy50iGm20Hh4C_y_xLdMywdaWtEyWVp_LIhZiqDPFCvoqFiW9G1v8Ui4MObv-BAOFnqs6a_jeqguJa59MoTDxfiXNVMivcOUG2k9IQWcyz8FcHwz8KauvPB
+tjJEpBx6Snc-k08
+}
+!procedure Erlang($id, $name="Erlang", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Erlang', $name, $tech)
+!endprocedure
+!procedure ErlangCard($id, $funcName="", $content="")
+  IconCard($id, '<$ErlangMd>', '', $funcName, $content)
+!endprocedure
+!procedure ErlangGroup($id, $name='Erlang', $tech='')
+  IconGroup($id, 'IconGroup', '<$ErlangLg>', $name, $tech)
+!endprocedure
+@enduml

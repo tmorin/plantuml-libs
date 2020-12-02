@@ -1,0 +1,16 @@
+@startuml
+sprite $ExpandAltMd [14x16/16z] TK_50G0X3AFvu6J_QSyFRr-rcAab8ct8BCnrShogJYZTXFkJRSXmFovSWsceWB5jcF2BEkI68KiRhedb6jf4DvfLWfm
+sprite $ExpandAltLg [20x23/16z] {
+XSu53aGX54FHuWxxN-tCzqVG6p-H5hkCE_Ag9b7kKEV8gD2RAbSjvTU84hCbDyG1BSdyJSreGu81OCs9U46pQF5b7Is-bU9QGhbA38tT0urvDFPYQvdL9lIP
+mAu_
+}
+!procedure ExpandAlt($id, $name="Expand Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ExpandAlt', $name, $tech)
+!endprocedure
+!procedure ExpandAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExpandAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExpandAltGroup($id, $name='Expand Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExpandAltLg>', $name, $tech)
+!endprocedure
+@enduml

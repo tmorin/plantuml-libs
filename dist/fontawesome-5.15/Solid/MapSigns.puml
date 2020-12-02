@@ -1,0 +1,13 @@
+@startuml
+sprite $MapSignsMd [14x14/16z] TOo30G1130JFYBR_Qj_6n0obrLeLas_55R49OFOQck72hUhBtKhBRgMqDSOcB088it2uFKdtAbHXPYAU2UjrAkw2uB_YhHe1
+sprite $MapSignsLg [20x20/16z] ZSg55GGX54FHVCCX_LUxxZeNVmTSEAcuokDaakEaAp3uOkfxu_ZG4lfxWjYPwkN4ZPOYkF4uy4hcE16WyaL5uwk6-Q7fV6_GsfuvVWdIDZRTyiz8mSKU
+!procedure MapSigns($id, $name="Map Signs", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MapSigns', $name, $tech)
+!endprocedure
+!procedure MapSignsCard($id, $funcName="", $content="")
+  IconCard($id, '<$MapSignsMd>', '', $funcName, $content)
+!endprocedure
+!procedure MapSignsGroup($id, $name='Map Signs', $tech='')
+  IconGroup($id, 'IconGroup', '<$MapSignsLg>', $name, $tech)
+!endprocedure
+@enduml

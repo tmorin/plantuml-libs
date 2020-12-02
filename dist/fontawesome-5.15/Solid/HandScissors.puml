@@ -1,0 +1,16 @@
+@startuml
+sprite $HandScissorsMd [14x14/16z] TOg30GGm34MBcFjFUpPUaNoCoJYUG0NDqvoNJxgxTAygEakjlX5mBgFVzTgmr-QRgluFCZ59tDGuu_sgE5_Li3TrpifbNzK4sFCqZm
+sprite $HandScissorsLg [20x20/16z] {
+VOy50WKX20KVQqlT_xG_jdliiG2t96dnf0R_eMN0Zr9eSICzehbR7cNn6Hjx6H-YBBwdO2HKsqc0GFJho-QoseYgls8tBie8isnkIL3juiJzujgDG-XNLpR5
+E5tMdcbnrBXpomCU-08
+}
+!procedure HandScissors($id, $name="Hand Scissors", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HandScissors', $name, $tech)
+!endprocedure
+!procedure HandScissorsCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandScissorsMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandScissorsGroup($id, $name='Hand Scissors', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandScissorsLg>', $name, $tech)
+!endprocedure
+@enduml

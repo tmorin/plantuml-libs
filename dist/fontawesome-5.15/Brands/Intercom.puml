@@ -1,0 +1,16 @@
+@startuml
+sprite $IntercomMd [14x16/16z] RO_55GH124Hd7tg0gloptN7jtuh3DFrcZjj1S0M4yuCZSzUtKpgYXTva2GKHc9-Q9JqahP6jCtSRSTZ0cPvNrVgG42lEb0lc1o4h0MwW6tjNEBe6_3dH7m
+sprite $IntercomLg [20x23/16z] {
+fP053W0X40EBE_l_rvxZH6zYpHHTxD1kGi7HWg6L_5M9jA5eguwK4KX8SemetkfAhrCbNTYDSp-SnUgyw1r_7vERUpzH_o4rnVhJErNorTuEpANN90lsngm0
+9gGK3D2vxl1QIgbCgCEQIMPr2a9FSEmu0G
+}
+!procedure Intercom($id, $name="Intercom", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Intercom', $name, $tech)
+!endprocedure
+!procedure IntercomCard($id, $funcName="", $content="")
+  IconCard($id, '<$IntercomMd>', '', $funcName, $content)
+!endprocedure
+!procedure IntercomGroup($id, $name='Intercom', $tech='')
+  IconGroup($id, 'IconGroup', '<$IntercomLg>', $name, $tech)
+!endprocedure
+@enduml

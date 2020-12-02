@@ -1,0 +1,16 @@
+@startuml
+sprite $TruckPickupMd [14x11/16z] JOU50KHH2CFot83kF-sv_21jU59Rgtn9UZ3-rbcgFsjmbA6OcolizKhLXUPNynsHgkoefOZD54Kbgw85EQG3HuhCGqVdGHyFkGC
+sprite $TruckPickupLg [20x16/16z] {
+POs50S0m20I_xjp-qrPZD1V1UGMQ6tasRbQVvMNzvHfrnkHpadeOqdOrS7-QiUxRRWJizJQ92ZLKD4R2hPWq0ScnL_BzaYDfVyjxTcu67eRilCcTOt3EG-ET
+2m
+}
+!procedure TruckPickup($id, $name="Truck Pickup", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/TruckPickup', $name, $tech)
+!endprocedure
+!procedure TruckPickupCard($id, $funcName="", $content="")
+  IconCard($id, '<$TruckPickupMd>', '', $funcName, $content)
+!endprocedure
+!procedure TruckPickupGroup($id, $name='Truck Pickup', $tech='')
+  IconGroup($id, 'IconGroup', '<$TruckPickupLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $ICursorMd [14x28/16z] {
+hP2r0S0m30GLjFZtdpRCQNsD604ujqHDySH1wHD_niA-Qo5bf8LnDPXE34Yw422gMgrj6xhtgzLVo_wjrcpDj3tprrEhR7PTUtr2Lgsm13PIkG1_nkkxkNz-
+NBUT0G
+}
+sprite $ICursorLg [20x40/16z] {
+pT050iCW50FGu5R8_Kyx-Rzpzxqg3k7QA0uhlWufKJKBk8b7Gk8rdIScOwrFVLjCpbgeGf6mJtes72ZQxRGk_gJkzbvYYX9TZIb0UUvn4E65EfDBxf9eBkdg
+dly_FyqA-n95mCpOq3YhtXgWZS43VLHUamgFT0_4GJNMJ_KGkbXV0W
+}
+!procedure ICursor($id, $name="I Cursor", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ICursor', $name, $tech)
+!endprocedure
+!procedure ICursorCard($id, $funcName="", $content="")
+  IconCard($id, '<$ICursorMd>', '', $funcName, $content)
+!endprocedure
+!procedure ICursorGroup($id, $name='I Cursor', $tech='')
+  IconGroup($id, 'IconGroup', '<$ICursorLg>', $name, $tech)
+!endprocedure
+@enduml

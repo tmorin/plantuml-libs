@@ -1,0 +1,19 @@
+@startuml
+sprite $SmileBeamMd [14x14/16z] {
+FSU7KKKn34N1O_4K6UlsNosPlnCNE7LtRnq07caoP-K_cGD0AyWTuAyc7Tk6sZUsDRJtO-D3QHFZVC5mRV3Yql0aG3Wb2TUx-oZOAJNFbTOf6VvLpk4h0RYs
+tMj_0jPtjMF09m
+}
+sprite $SmileBeamLg [20x21/16z] {
+LT35WGKW30JGYU2GwR_RtV3ztP0eajGLPEmcU6k7L_JNfHvojrhQ8iEHBBZj-Jh9ahaEnrSMqg234ryw5mQfq7M_jinnwC4EdCZunXEAoaawwe9inNQC3kK_
+WIfW0WCaW-_ThxnJ_0hU9bl5LJeoNtOimIwFXXMDesVZJdBdQcg-ctHkm2R_BGSUOsqkoIvCa5UXZoMSYiitmv0azpPx7xb7nPClNhlWYtgjHV7m1m
+}
+!procedure SmileBeam($id, $name="Smile Beam", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/SmileBeam', $name, $tech)
+!endprocedure
+!procedure SmileBeamCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmileBeamMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmileBeamGroup($id, $name='Smile Beam', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmileBeamLg>', $name, $tech)
+!endprocedure
+@enduml

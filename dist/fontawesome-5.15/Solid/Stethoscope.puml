@@ -1,0 +1,16 @@
+@startuml
+sprite $StethoscopeMd [14x14/16z] HOw55GGX30Ndi1KWqt-tzzRZdX-QoTevI6SYJUULNIxkRBpPEjkNLRlVP3aoCv3TORSDP_xbQO7Ld5OFMZco0hdRCqz6yUX0DnrkMe5seyiwzc4ahdIe_GT_
+sprite $StethoscopeLg [20x20/16z] {
+TSu5haGn34DHbpbt_wlzq3uDZqNMAIHvc7b9WzcSJW2Iv0p8DvkxndQtM_FVhOxyQXsep-POqUp5ZCOqsh6uTyf079ZVDk1_vqbNX1Kbtw7fCbLWBM2wcwcm
+qvtk9bTX1EbcExVXShVQmPzM8DrsM-6YUUWC7wqliElZs_1p_HPVfwsHT_y5
+}
+!procedure Stethoscope($id, $name="Stethoscope", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Stethoscope', $name, $tech)
+!endprocedure
+!procedure StethoscopeCard($id, $funcName="", $content="")
+  IconCard($id, '<$StethoscopeMd>', '', $funcName, $content)
+!endprocedure
+!procedure StethoscopeGroup($id, $name='Stethoscope', $tech='')
+  IconGroup($id, 'IconGroup', '<$StethoscopeLg>', $name, $tech)
+!endprocedure
+@enduml

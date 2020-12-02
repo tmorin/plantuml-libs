@@ -1,0 +1,19 @@
+@startuml
+sprite $CheckCircleMd [14x14/16z] {
+9Ou70i0W20CZrWta_xzjOy_93W3RIT8VN1RpdA0N6SwcfqOQRD7muu6jo8rLOsV-XkKN2HuKav4LWv-rQTUG5QYPry1APvMfleNpyL0_t521fHl4fhHPy8on
+AKFq87D8vWi
+}
+sprite $CheckCircleLg [20x20/16z] {
+HP053aGn24G7gM-P-zzsmxU-67d1SQ5rhZMgu4Cd7yPh2xcRgNeFXhsguKO6cLB9We_6BS1a1mw37SfzH1qGXZGsu0ohcFH9-xB89QZiYmfqUnG0vqZN6PPg
+udQ33jlS_SxAz5RP0GrcriMYvsn0zwiiTniS6NQyQGsGE1jcnkyQT5waYrkHs2PdTQ-B_ALAf0Slek4WtiPeZfi_
+}
+!procedure CheckCircle($id, $name="Check Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/CheckCircle', $name, $tech)
+!endprocedure
+!procedure CheckCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$CheckCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure CheckCircleGroup($id, $name='Check Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$CheckCircleLg>', $name, $tech)
+!endprocedure
+@enduml

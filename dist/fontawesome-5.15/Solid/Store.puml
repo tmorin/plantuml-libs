@@ -1,0 +1,13 @@
+@startuml
+sprite $StoreMd [14x12/16z] NOw30KD144JdZCNqNstohNTO0uqN3H1U22eVL7zQxdm7RIZdf7RpYfo1kDvDiuc3QOib8SQmFbaifHzGL-j2Fxly0G
+sprite $StoreLg [20x17/16z] bOlL0S0W30KFTxB_j7NdguVc2KHvaG3QMsjgYAr18mEcZ5eL6McZrDrwbRMnLieQSHZl5IvwyD6Xl3UWlUM1zHgSL1vKSM3VMjcrvXuSkJT_DDNbZMO6
+!procedure Store($id, $name="Store", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Store', $name, $tech)
+!endprocedure
+!procedure StoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$StoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure StoreGroup($id, $name='Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$StoreLg>', $name, $tech)
+!endprocedure
+@enduml

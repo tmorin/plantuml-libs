@@ -1,0 +1,19 @@
+@startuml
+sprite $HollyBerryMd [14x16/16z] {
+HOm52W0n30GhNBsP___sKXyWMO4r0oVYp2L2VCxrVhj477LQJi0OaDEbVIxs21y9WUYdwK0CUlfm5IX-dE4oYkkGTQi1BTayNn_NA3EDUaJdhOonRpWTzyDz
+Nf8p4vV4_m
+}
+sprite $HollyBerryLg [20x23/16z] {
+LP455WGX3CMAExd_QLVQqOnyNd2GWynEyiO3sxrT-3ilRngKbwWpImXIvgqh44Koa4ytq8uTwFSw88Wau5vFgk4ViSRtOlHzuDB4HqPofwXZ0o42QrJhXPAy
+fJMT_AcokHVJr2tBeiel51y1XXFfPbRB4lPHF9JrC3cgnhHLcSiHnVQ6ufrb_Zlhi-NlHebE-yOoTEpHNrVZHvCl
+}
+!procedure HollyBerry($id, $name="Holly Berry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/HollyBerry', $name, $tech)
+!endprocedure
+!procedure HollyBerryCard($id, $funcName="", $content="")
+  IconCard($id, '<$HollyBerryMd>', '', $funcName, $content)
+!endprocedure
+!procedure HollyBerryGroup($id, $name='Holly Berry', $tech='')
+  IconGroup($id, 'IconGroup', '<$HollyBerryLg>', $name, $tech)
+!endprocedure
+@enduml

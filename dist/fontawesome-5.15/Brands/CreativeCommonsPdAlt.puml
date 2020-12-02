@@ -1,0 +1,19 @@
+@startuml
+sprite $CreativeCommonsPdAltMd [14x14/16z] {
+DKxN0KGn229TlQ3xRtilZJ-b0aX2Tsh6GWkNreJHzo7O6DyvNC-npXo-dEUakI3JJ3a_NSo6mZpPCr7NbSEwZkyguOBo0yPIzjWf5zCav1qzoca_npZBHgs3
+-m2ohjMsLly1
+}
+sprite $CreativeCommonsPdAltLg [20x21/16z] {
+LP25aKGn3CLUcAt-kxrn_YrfqAn4JgZBm7QBUjECXn7qa0xCabFfXfKd1VDLxb1zbz7q9aDI77HzKTWQ7FsmoEOBKcijXjPgyEa5KMhCOurZ5YKtlNwA388O
+Fipn7EliIjHUDsStLuioARd31jATzUN62kvxZSDzUqpn2iwE1NspoQ4plrEDTGj3Rohc2y9cPrtYn9ASCE7qMlk67Ty_jBZigYz2hhMyUlu
+}
+!procedure CreativeCommonsPdAlt($id, $name="Creative Commons Pd Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CreativeCommonsPdAlt', $name, $tech)
+!endprocedure
+!procedure CreativeCommonsPdAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CreativeCommonsPdAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CreativeCommonsPdAltGroup($id, $name='Creative Commons Pd Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CreativeCommonsPdAltLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $GrinSquintTearsMd [14x14/16z] {
+5Of50GH0481Ozw5_sfCd0kGTwad71opZx327mhNnFvg-lCp_6Sfix7-XEGkSPW3qkqhYF0-fTQ06GpVR0-b9zt_EHRfULgm5fPJGWXDg8OMti2CT_mPWMr5B
+kwClhV1ybASn4l05
+}
+sprite $GrinSquintTearsLg [20x20/16z] {
+BP073iH02CGcBDkB___R4-YSJhMYnDhQUxPFMjoIaSKVgy2HLE7sOkRZVf5z6HfPBUcxG9D1ZP3VY9tTBOOE1VqfAKN6LR8vsoNZVPskvBuzJD7dY_9NZDjn
+DSR6v7tV30s6dBankuzSq21Z4u-U7JQ4LgStPYmTwHuE6_zM6Bjf0BZAt-sBxgZoAEjIM-z4vSnVDJcX25j_R1DI409ZD_UsuOJd1OesoUiAodbD-hpFsLrA
+VW
+}
+!procedure GrinSquintTears($id, $name="Grin Squint Tears", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/GrinSquintTears', $name, $tech)
+!endprocedure
+!procedure GrinSquintTearsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinSquintTearsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinSquintTearsGroup($id, $name='Grin Squint Tears', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinSquintTearsLg>', $name, $tech)
+!endprocedure
+@enduml

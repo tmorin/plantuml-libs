@@ -1,0 +1,16 @@
+@startuml
+sprite $StarMd [14x12/16z] JSc54G0X4C10t27zL_k2BvevyTEWn9OWx310C_sNIwDh9Md7nGhFveJeEUDNw78FsUXgByKa_xAGb4gW-optn-HlzW8
+sprite $StarLg [20x18/16z] {
+VP250SKW50E3Ezb_sY_rOeSV3yL9BcYnf6jT8Qlemhh0ydVb2fJQXSoD79oM0hwmeQh03WNTAWD0TwgLvhxSYSF2XTl5qwNRvTV3l2VlVv0aWmJ4tohin2IF
+sPZ-pHS
+}
+!procedure Star($id, $name="Star", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Star', $name, $tech)
+!endprocedure
+!procedure StarCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarGroup($id, $name='Star', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarLg>', $name, $tech)
+!endprocedure
+@enduml

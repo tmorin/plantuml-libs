@@ -1,0 +1,16 @@
+@startuml
+sprite $Css3Md [14x14/16z] FSU50S0m30F13tEq_xJb-eo2NClFuTOsdYYpmOMNBvfNYA_Gr4XJff3NNYyfOhpaAIs_AMh3rl9SNDS0NKRAupeLSjDhPCV5bQLPFCRU4m
+sprite $Css3Lg [20x20/16z] {
+VSs5OKCX04LHtE7klssn9lbwS7tYbYb7lky5ZiPUviZqFUj-D53YI4BjWuvV8K6-YOWt4MxSIpy0VOreScJeRxXPiNuaJTz5WghtIrCWz4cbgru9angTxNk5
+gJMcCZ_NiR7LeCKcVGLQrEB0H2lU_G4
+}
+!procedure Css3($id, $name="Css3", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Css3', $name, $tech)
+!endprocedure
+!procedure Css3Card($id, $funcName="", $content="")
+  IconCard($id, '<$Css3Md>', '', $funcName, $content)
+!endprocedure
+!procedure Css3Group($id, $name='Css3', $tech='')
+  IconGroup($id, 'IconGroup', '<$Css3Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SalesforceMd [14x11/16z] JOs50KGX5CDmRxF_jEVo0yyjX5ZpGuKt1PWBvLT6lB4yGkJ2J4Qojsp3qMZZnUe2R7DaRDRcpuffYHVAxviRA2byQVthtm4
+sprite $SalesforceLg [20x16/16z] {
+RT150e1G20HGREOJS__JsgsFt8Bygf3fhRIgZHoCirnx9tKbivutGPPQ17p9MfHlHS1anDoAavcSsq10Xs5Gw3nHUYEJ3g0Kr-9mDmIT1uzZwvnlAWtlOZkc
+WN6LIQlbe5nqLIqtGwHtt-V8pGG
+}
+!procedure Salesforce($id, $name="Salesforce", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Salesforce', $name, $tech)
+!endprocedure
+!procedure SalesforceCard($id, $funcName="", $content="")
+  IconCard($id, '<$SalesforceMd>', '', $funcName, $content)
+!endprocedure
+!procedure SalesforceGroup($id, $name='Salesforce', $tech='')
+  IconGroup($id, 'IconGroup', '<$SalesforceLg>', $name, $tech)
+!endprocedure
+@enduml

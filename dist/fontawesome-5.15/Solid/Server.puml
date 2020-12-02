@@ -1,0 +1,13 @@
+@startuml
+sprite $ServerMd [14x14/16z] JSd50SCm50MmDiadqzj_MZFfAb4PjEAOBX6B4Iks6484ouNKTB1Ai0Jl0pOdQl3XuZ_w1gfUBAd2faI2ezNxNTu2
+sprite $ServerLg [20x20/16z] RT235GGm303Ge4Qo_xI7nmQ_DY0nJj3Kk7f5hGORgbgdozZ_sS46UY3-8zGvFDR8dZpmO5DhykN-dnXSQjLfH2L0qU2OrYgtJhNwymUMjBtsuz-eaFW2
+!procedure Server($id, $name="Server", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Server', $name, $tech)
+!endprocedure
+!procedure ServerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ServerGroup($id, $name='Server', $tech='')
+  IconGroup($id, 'IconGroup', '<$ServerLg>', $name, $tech)
+!endprocedure
+@enduml

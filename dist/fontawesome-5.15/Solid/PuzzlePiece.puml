@@ -1,0 +1,16 @@
+@startuml
+sprite $PuzzlePieceMd [14x12/16z] JOY50S0m3CDSvlZ_RxTo5PG1H3BYO4c3Iwl_KkfVEOPCzcL_uq6zrl2QQ5zTJvtVoJyEoFyNAkjl2QgH6R2AFzh_g-0d58dGAKVRxGC
+sprite $PuzzlePieceLg [20x18/16z] {
+ZOq5iaGn3CDSfZI-_sa_U9bNxvKqemd-oSw5EpR9-eLhfE4nphWGe1bAOnjoxcR6FyoSd7AyeJrnvOdBJzksTz7LvtGArpecYRTi_65gqoANP0IYoW2K6kGM
+i1I4gxa9JWLoVHgj0dMjsLkG-mK
+}
+!procedure PuzzlePiece($id, $name="Puzzle Piece", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PuzzlePiece', $name, $tech)
+!endprocedure
+!procedure PuzzlePieceCard($id, $funcName="", $content="")
+  IconCard($id, '<$PuzzlePieceMd>', '', $funcName, $content)
+!endprocedure
+!procedure PuzzlePieceGroup($id, $name='Puzzle Piece', $tech='')
+  IconGroup($id, 'IconGroup', '<$PuzzlePieceLg>', $name, $tech)
+!endprocedure
+@enduml

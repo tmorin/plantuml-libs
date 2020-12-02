@@ -1,0 +1,19 @@
+@startuml
+sprite $AtMd [14x14/16z] {
+7Ow50S0m20G_xjp-snPwKVmbvMN0xVfP_5WDu_2QLARHFOsbr5hArN3ZQX3ioZ9gWRFTaW4fmdeClR0EKnbAmg1kRtgX7yQ9QZ28odhePOvKHo-XovX9KfzI
+c1Vi-KdwYHvlXF41
+}
+sprite $AtLg [20x20/16z] {
+FP075iGW20MnIvFxttQ1vONKFy4n2bdz43ET0LzriYfPXLOaPPPuueTm_0tl3xkZ2T16zz3OR0EuQxdHEuW4kvf66q9_LZNSD8y_8UmIjmVDx91fp18MXmAW
+XcmC627D2AqOkz-PHlUeiUIY5jqsu_lOUJdCgLNhDmWqiYHD2uO5LIzCPhgvoFO2LhLwpjoZtbhVOglW2DtJbDvlnAtrwYcIT5x4Colz
+}
+!procedure At($id, $name="At", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/At', $name, $tech)
+!endprocedure
+!procedure AtCard($id, $funcName="", $content="")
+  IconCard($id, '<$AtMd>', '', $funcName, $content)
+!endprocedure
+!procedure AtGroup($id, $name='At', $tech='')
+  IconGroup($id, 'IconGroup', '<$AtLg>', $name, $tech)
+!endprocedure
+@enduml

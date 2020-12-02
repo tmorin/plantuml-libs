@@ -1,0 +1,16 @@
+@startuml
+sprite $GasPumpMd [14x14/16z] LOw50K0X24JF1XLk_sb_vpFeo9q7WYf0TTe69uHnUmCRRi3q-B64_hCeTEszSxEYKPm7cuNqMBJwiLoP8jjbJNYBdphJp5HF2YevLUL0At81ByubLW
+sprite $GasPumpLg [20x20/16z] {
+PS_50S0m40D1cTdglzj4OTZd60-cyIW1i525Lnw1MTRPeyhQwEQAiWfboOW3tuQkxN-RjytJYCwHorhTFnDskz8-kFco33LUnfa1yzut9ilN8YODtfRGw7vM
+_uRCcjbXtPM1qMWkFoeU9aG3FgiuVitl85W
+}
+!procedure GasPump($id, $name="Gas Pump", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GasPump', $name, $tech)
+!endprocedure
+!procedure GasPumpCard($id, $funcName="", $content="")
+  IconCard($id, '<$GasPumpMd>', '', $funcName, $content)
+!endprocedure
+!procedure GasPumpGroup($id, $name='Gas Pump', $tech='')
+  IconGroup($id, 'IconGroup', '<$GasPumpLg>', $name, $tech)
+!endprocedure
+@enduml

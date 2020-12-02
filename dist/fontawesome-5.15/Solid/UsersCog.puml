@@ -1,0 +1,16 @@
+@startuml
+sprite $UsersCogMd [14x11/16z] HOo50S0m20Hnuh__jlNcSAKRCzfqeB_P5CD9t3jdzBjIFSlQcIUwEgQoH2fnsC82vWIyjD2nM561Q03yh0pLN75Y4oU3IEveZY5yVlMIML9KY0u
+sprite $UsersCogLg [20x16/16z] {
+TOu50WGn20E1kYN__-sLdjlirh14_gCTwFeUczpC-oi2IH8FwHPR9AJmK5zZoIDhnZJphJUUUJ2pnQNcakfROye4IR0aOEVkKrRnpLCnJewQ0cbYP7IrG2S_
+OeC8mqFGUUyL5Q7peY5oZo7SlJYLyFmQn_CTtRZHAnS
+}
+!procedure UsersCog($id, $name="Users Cog", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UsersCog', $name, $tech)
+!endprocedure
+!procedure UsersCogCard($id, $funcName="", $content="")
+  IconCard($id, '<$UsersCogMd>', '', $funcName, $content)
+!endprocedure
+!procedure UsersCogGroup($id, $name='Users Cog', $tech='')
+  IconGroup($id, 'IconGroup', '<$UsersCogLg>', $name, $tech)
+!endprocedure
+@enduml

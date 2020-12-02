@@ -1,0 +1,16 @@
+@startuml
+sprite $PlayCircleMd [14x14/16z] JOx50S0W40GNT-Y_sWGMdTVDEG0PQoTfaD184aDoMrG9sIibJSriyp25QYiDy2osPP0Cjx6wEzKebKIJaKrETyrk7HIGjMtqiwokHqttuiQRFm
+sprite $PlayCircleLg [20x20/16z] {
+LOw54GH120G7rZt_Q5yuMEgwbCO60fS-Hik42_UZDBFfE3kuSlwId_vrYm2vbQXVMS6s4AUTf68Eo7eWTdVG0tMOympjxQAurswJecHtnNwmkRGiD23pXSSn
+2a2ouKpxvMp6dx1SJSO3LTtV1Gx5sbg9Mdq1
+}
+!procedure PlayCircle($id, $name="Play Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/PlayCircle', $name, $tech)
+!endprocedure
+!procedure PlayCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlayCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlayCircleGroup($id, $name='Play Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlayCircleLg>', $name, $tech)
+!endprocedure
+@enduml

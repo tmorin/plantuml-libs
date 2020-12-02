@@ -1,0 +1,16 @@
+@startuml
+sprite $BandcampMd [14x14/16z] FOw54KGn20NvSON-kpqsmzn6yISYQQcpYpocFVQ7SIpG98b8S29DmQmfnX3vyByYfJxXX_Rlh6ON8sFSpN4kLYzkGjHJ7Q0jXHWDeTNjsndp0m
+sprite $BandcampLg [20x20/16z] {
+NSu50WCn24HH86vm_zksPDPVTN-KDYbzZ9QPBjBjqCwQxARXJZUFOc-BYRfzr6lQ0j-I2zAWBVh_sA-TtTYB1-xrc6ODJT0cMiTHMxQj-AyAErbeKSoZwP_1
+8chsKOXOtsdY0a-AAuJrc2K4N1L52zqurjPA9FW1
+}
+!procedure Bandcamp($id, $name="Bandcamp", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Bandcamp', $name, $tech)
+!endprocedure
+!procedure BandcampCard($id, $funcName="", $content="")
+  IconCard($id, '<$BandcampMd>', '', $funcName, $content)
+!endprocedure
+!procedure BandcampGroup($id, $name='Bandcamp', $tech='')
+  IconGroup($id, 'IconGroup', '<$BandcampLg>', $name, $tech)
+!endprocedure
+@enduml

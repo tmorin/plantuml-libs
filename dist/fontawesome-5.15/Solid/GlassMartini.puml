@@ -1,0 +1,13 @@
+@startuml
+sprite $GlassMartiniMd [14x14/16z] VSc53S0m0CJ0BpUy_xHX9WjFLklamogSGAQmSCmdqvrCcO53g8WuAu1ln2gT5rVt5N4htmV
+sprite $GlassMartiniLg [20x20/16z] lSh55O0m00JHnPtjlreS9d9dulzbSjRWlANDhLQRaq08X1w4G0Y4G8Wwkr5IOrV_Mw4sjNvTLllOMdwjVbfqjWC
+!procedure GlassMartini($id, $name="Glass Martini", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GlassMartini', $name, $tech)
+!endprocedure
+!procedure GlassMartiniCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlassMartiniMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlassMartiniGroup($id, $name='Glass Martini', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlassMartiniLg>', $name, $tech)
+!endprocedure
+@enduml

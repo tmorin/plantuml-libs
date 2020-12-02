@@ -1,0 +1,16 @@
+@startuml
+sprite $YahooMd [14x14/16z] HOs30S1G34J3ukljFssDc7VoYSvB_bqCbh-huAfwL4TmgESaHJlp0Y7PZj5qL9qkSbPMAGdp-JAeWuZPv9G5Q07JrHb7DK7vY4ngyxjhn_YJXFWx2__g7G
+sprite $YahooLg [20x20/16z] {
+XKy50iGm20jrx_z_Uu5psvWMYE6ywXZ3lxVytdj-hh6Ntrl2rXBuMgeI17ubiLS1nqzZhvD81W_-Hk6CFEbhtAKogX9r7HZnqE4aaOmnXrWlAgCHnQTRxXZH
+k2DPsNenchbRpsbh8LdlDL61ZDTSvMOrUBoATBoL4OMFNkwzugmk
+}
+!procedure Yahoo($id, $name="Yahoo", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Yahoo', $name, $tech)
+!endprocedure
+!procedure YahooCard($id, $funcName="", $content="")
+  IconCard($id, '<$YahooMd>', '', $funcName, $content)
+!endprocedure
+!procedure YahooGroup($id, $name='Yahoo', $tech='')
+  IconGroup($id, 'IconGroup', '<$YahooLg>', $name, $tech)
+!endprocedure
+@enduml

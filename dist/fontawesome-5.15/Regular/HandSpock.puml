@@ -1,0 +1,19 @@
+@startuml
+sprite $HandSpockMd [14x14/16z] {
+BSR7WGGm24MnPy0Py_klTkFe9A0zATZR-1LQcY5DVbYALRMdZj4gAqAoNgy8jRcHsCC46dR9nsr3S7_EEYGtPwemcc5eAhS2VhbScpNWrnIfnST9wDhyqmH2
+DzmziXe__EbNENm3
+}
+sprite $HandSpockLg [20x20/16z] {
+LS_50KGn24NH2r-8mUk_sd4zcoZ6dKqf-3ULfOF8wWOFfcJNE5IbmSEHAgnoQRTI1h3hPcTA1QL7vg7358IqsBIxwdwtC-v7TSx2L73SzuBKoPZiwk1Ax97G
+oQ3f15lQM8qGr6qdjoafSCCS_97kCSBaOzD0YLVn4Gggd6tPp-WReThuiYg3zdUvFN8JqivRKt1tIk7sq5J6-rALD_e9yRPqbzq1hW
+}
+!procedure HandSpock($id, $name="Hand Spock", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/HandSpock', $name, $tech)
+!endprocedure
+!procedure HandSpockCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandSpockMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandSpockGroup($id, $name='Hand Spock', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandSpockLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SignLanguageMd [14x16/16z] {
+HSm73iH024DHI4_0zlrlkplTgeylOMNdyT1jB9IAWVCJKu_TrqY0Bh1ebo28Al8laIghqb-DzKka45LlV5yf32gTwcE6FmcWNHupQEuoyzMALhpB_orxEulQ
+rtmAVW
+}
+sprite $SignLanguageLg [20x23/16z] {
+RSu5ZWGn34JHwWwRwlwtNGLs-8c_4jiuCYe7tWogaFMjTTASp7YgmqWbuqAMXEbUhq99XL6mx5TkP5Sgbck_SawxtNsiLvkTIwABnblBDAMD4nrB2o4f-tS0
+TqftaZQZ2YSCll3vlq7uAeG5LzN9UFG41Dzb0FwZuVdtsVJ7kyQOtXgkgxaPZuJjkIS6ZdREhUVH7m
+}
+!procedure SignLanguage($id, $name="Sign Language", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/SignLanguage', $name, $tech)
+!endprocedure
+!procedure SignLanguageCard($id, $funcName="", $content="")
+  IconCard($id, '<$SignLanguageMd>', '', $funcName, $content)
+!endprocedure
+!procedure SignLanguageGroup($id, $name='Sign Language', $tech='')
+  IconGroup($id, 'IconGroup', '<$SignLanguageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $BlackTieMd [14x16/16z] ROs50S0W3C22E_t_shcFGDtK0Xkh9pzgBYNNCye0-Ie627BHeTzHWN977lmTAL0otka0tEF0yqI4A3Vn4VHBgGrG6pC
+sprite $BlackTieLg [20x23/16z] TOz50WGX40E3E_p_jRlZ4dhgMAs1G18OdzI3ftFO24_NzQhCUxW0K8qs1c2wvu58gkjz7U_3-We_4zwZQdNwvJ8sn1myoiD-Tv5Zp47YhaYI8hm01Fu
+!procedure BlackTie($id, $name="Black Tie", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/BlackTie', $name, $tech)
+!endprocedure
+!procedure BlackTieCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlackTieMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlackTieGroup($id, $name='Black Tie', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlackTieLg>', $name, $tech)
+!endprocedure
+@enduml

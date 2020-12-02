@@ -1,0 +1,19 @@
+@startuml
+sprite $GlobeAfricaMd [14x14/16z] {
+JKt50G0n3AAk8VjFMpajdmW6mAGk8jbWmrCNAZNiO-yz0aKZqcOoW7rQNbHhsG4iUg5noKoxTgu_edkOUBlqk12NYEkIiANBLJ8lfxrwBS8bjf3BSP-jltPR
+X9HY0Km
+}
+sprite $GlobeAfricaLg [20x21/16z] {
+JP054i0W30I3E_V_rrOYj3l6B75wSNdiXraS7Se2iwj9hsRqnqPMOKE8v1-RtbeIjODK0GBvnggJKZ5856OkHRekH2jseZCwb57wdecuZLBURXGyLHYLc8c1
+GnGN9lvEORcaWwg0XwOrzsYlutB1dKR-wRnro6bEdjj_Hq2Xzjt23S3QJKzAL3ip_V0fvsGnDm
+}
+!procedure GlobeAfrica($id, $name="Globe Africa", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GlobeAfrica', $name, $tech)
+!endprocedure
+!procedure GlobeAfricaCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlobeAfricaMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlobeAfricaGroup($id, $name='Globe Africa', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlobeAfricaLg>', $name, $tech)
+!endprocedure
+@enduml

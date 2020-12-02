@@ -1,0 +1,19 @@
+@startuml
+sprite $Css3AltMd [14x18/16z] {
+LSc50GGX34JHmItazz_jwTg3U7nmRkmnhOtRdpEDhh_5c5XjBRs7wBG1h192DQ1sF7uEjJOeZHr2q5k4LC1ixsrA43FaTyNrxiAxIsgsgWeU8ZHz3RQ2WyzI
+rxkQj3ajgTevPBt5Pk-s1XrYrDSB
+}
+sprite $Css3AltLg [20x27/16z] {
+VP05WaGn24D3dUhzRxkG7RVtjS711-87pZjhlsjZlcjzs6i_O4VjvWkvOt5DpvbuO9rJgeLgqww9Kh7ON2vvNGgDNQJi3HLnHKrnCNZJ4Ou44RYB17V63TEs
+Y3UksWXW9HV4aynrd2reRCsEohTxG7q4MECTi75e6pmDMX1A5j2ZqNj5N8YMlGADcJIBP6NMp0c9huaaTlcC9GfZFofRXOFclg_2VKpA59uH_EGF
+}
+!procedure Css3Alt($id, $name="Css3 Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Css3Alt', $name, $tech)
+!endprocedure
+!procedure Css3AltCard($id, $funcName="", $content="")
+  IconCard($id, '<$Css3AltMd>', '', $funcName, $content)
+!endprocedure
+!procedure Css3AltGroup($id, $name='Css3 Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$Css3AltLg>', $name, $tech)
+!endprocedure
+@enduml

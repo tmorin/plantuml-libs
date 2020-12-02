@@ -1,0 +1,19 @@
+@startuml
+sprite $DungeonMd [14x14/16z] {
+LKt50GH12CDXDFrtUxh6YpWHkGnWIz3dP7a3bYv_0mM60vd06qe7RC8Mfj9SwfrOg5B6Mq2IHYaPljUbPvK705NbBmfwltiZ-QiPtZ_GViW1L3NxERcgCaiF
+bFbqVX09l-S3m0i
+}
+sprite $DungeonLg [20x20/16z] {
+TOq5OW0X30GtS4Pi___Rfg4kSpg3OQD9veDFReMpKDY5ZPBp8lVxUKzK8Hazk-FDOcZPP56hvSRmMZQUHsgfIOMRUU8w0H6WljLF8sd00LyoUmbNiXWZOMic
+3XRk4McOh3Oe4gtDUzjcuQ6VhPL5VgvbyqUBp2zdu5NzppFSVP_nLDlw_nb3SL-YaEqa7H-qlW
+}
+!procedure Dungeon($id, $name="Dungeon", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Dungeon', $name, $tech)
+!endprocedure
+!procedure DungeonCard($id, $funcName="", $content="")
+  IconCard($id, '<$DungeonMd>', '', $funcName, $content)
+!endprocedure
+!procedure DungeonGroup($id, $name='Dungeon', $tech='')
+  IconGroup($id, 'IconGroup', '<$DungeonLg>', $name, $tech)
+!endprocedure
+@enduml

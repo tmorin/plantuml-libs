@@ -1,0 +1,16 @@
+@startuml
+sprite $UserPlusMd [14x11/16z] DSZ50G0X0CJ0uCxsN-q9ajy4A5BcblKLh_gl1ZW3j5y5h3pWFqnBhAe9i2aQwFyaj192hGwdGDJ9KotpgW7erW76LGLu0G
+sprite $UserPlusLg [20x16/16z] {
+TSvL0e0m30FGhlWakVzfSPY_pshaf8vqAYa5JyYAbZURri0Rv6Bgsiovsbsu53_cnT4jTrKjOA-tV4WKvym6k7Lrm6RUUnhu2_hyjKniJpwc83Tc-hMLYVMf
+7G
+}
+!procedure UserPlus($id, $name="User Plus", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/UserPlus', $name, $tech)
+!endprocedure
+!procedure UserPlusCard($id, $funcName="", $content="")
+  IconCard($id, '<$UserPlusMd>', '', $funcName, $content)
+!endprocedure
+!procedure UserPlusGroup($id, $name='User Plus', $tech='')
+  IconGroup($id, 'IconGroup', '<$UserPlusLg>', $name, $tech)
+!endprocedure
+@enduml

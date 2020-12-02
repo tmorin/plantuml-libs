@@ -1,0 +1,19 @@
+@startuml
+sprite $HourglassMd [14x18/16z] {
+LOw50S0W40FXfJZPVzfAweU-1pyQIiea7LzekDY_ZdHR5I9ejpL721ro6evyN8r6d12cj_tHSJIWYJw0T7ScJYDZM8pBfAaOCV2TyQYoko25Y7uQ_Dchh44I
+4s_L5ScSM472Zmq
+}
+sprite $HourglassLg [20x27/16z] {
+ZT65aGGX54NHX_k_-KUxHXN3-fnkt84dTHYj7sr23H1roU0yP5qgvfpHT1dC7JtiBWM2ZWH9yj1rJ9QJr3wQjW95RxnXuOnSPqja9xaAnCS8R0pZcaMDRK_s
+MxyCbYMvSkRpd7KZUtlgryragBjRqp4nzzDvVxmNPrHTEbC_tVDFxp5Wzik4nW-CR-Oh
+}
+!procedure Hourglass($id, $name="Hourglass", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/Hourglass', $name, $tech)
+!endprocedure
+!procedure HourglassCard($id, $funcName="", $content="")
+  IconCard($id, '<$HourglassMd>', '', $funcName, $content)
+!endprocedure
+!procedure HourglassGroup($id, $name='Hourglass', $tech='')
+  IconGroup($id, 'IconGroup', '<$HourglassLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $KhandaMd [14x14/16z] {
+FOw5OGGm30CLHklsdxPzle0Pz2HT5tr8QZ2VKYgkkk2Kt3GScZQ-sXIpH9-ta3e1MnxpLj80i0R6HuSdKnj25RZ0QE_7hi_uFNS3aPGkPvYvS9QKMvxsBlMp
+tDvpZz2FuxVy1m
+}
+sprite $KhandaLg [20x20/16z] {
+NSo50GCW44FHG77x-s_RrENXdEXbTFq94xu_Iv8gbdttia5LMDYGEatUsK4JEtH5g4emlCt4IPke1N50Lw68hKxIX7OUVqriZSVVmakHqw1ofCF3HOsxh0oS
+1KmzFel21aR3XYgMjB0I3hPJWv8FjgJ4NTsplRfB1UiRri2IP9qUl54L9qKFKNdRMSdNbyZM6e6ZBoaaYF6Y7s5FlLm1
+}
+!procedure Khanda($id, $name="Khanda", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Khanda', $name, $tech)
+!endprocedure
+!procedure KhandaCard($id, $funcName="", $content="")
+  IconCard($id, '<$KhandaMd>', '', $funcName, $content)
+!endprocedure
+!procedure KhandaGroup($id, $name='Khanda', $tech='')
+  IconGroup($id, 'IconGroup', '<$KhandaLg>', $name, $tech)
+!endprocedure
+@enduml

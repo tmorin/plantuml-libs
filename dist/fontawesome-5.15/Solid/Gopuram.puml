@@ -1,0 +1,19 @@
+@startuml
+sprite $GopuramMd [14x14/16z] {
+LSZ5eKGn3CLGFyfrOb3_rNuO7ksEpCuSkRoLCliJ3KtpqAERd2pe83Qp7ORdoXF6JPew_dNP5IpHXJkrU-E3cAm1fsuwZ9iMQAAJ78suJG0NmBfeATzAC__I
+lEaN
+}
+sprite $GopuramLg [20x20/16z] {
+VSs50GKX30FGO3saDFjF--NSWpyCGEn0gO0Ad7cCITHcLAKrPLXiovi9QKPEVHff8EdBtoHnnlAtp2YKI79Op1N2JoO0V2DRQap28esi7b2o_xj_gljtgrak
+HtCwpVQ6sSfaiTDAwjGqTjMeONvvZis_FPk4C9pC711EHhypcyrjfby
+}
+!procedure Gopuram($id, $name="Gopuram", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Gopuram', $name, $tech)
+!endprocedure
+!procedure GopuramCard($id, $funcName="", $content="")
+  IconCard($id, '<$GopuramMd>', '', $funcName, $content)
+!endprocedure
+!procedure GopuramGroup($id, $name='Gopuram', $tech='')
+  IconGroup($id, 'IconGroup', '<$GopuramLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AmbulanceMd [14x11/16z] JSU50GH124FHZ1lm-w_sNFQXCTuywO6lyacH30ZB4fockg6kI88fgKFMz0Iu3Z1xZmvmWhV6rJIs5l0-MbjxI-kyJlBm_3rt
+sprite $AmbulanceLg [20x16/16z] POw54G0W30EJ4rpsdnPtWlIlhkAMGbSyTVb2Dpny2hE5RBvEiiTCSwxMglNJKNw-whnh2SB6UqRV08ks47-nVbetdXHKWJej51uKm4x4GL2rGk4Yw5f-KWO
+!procedure Ambulance($id, $name="Ambulance", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Ambulance', $name, $tech)
+!endprocedure
+!procedure AmbulanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmbulanceMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmbulanceGroup($id, $name='Ambulance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmbulanceLg>', $name, $tech)
+!endprocedure
+@enduml

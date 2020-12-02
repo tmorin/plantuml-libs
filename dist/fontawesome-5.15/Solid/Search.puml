@@ -1,0 +1,16 @@
+@startuml
+sprite $SearchMd [14x14/16z] JOt50K1H2CDuxdJ_RP6lEH6iHEK0u1d821jECoagezG5L3MLRDq1rbsWNmUCObR8cNPf-ywoWh5SajzFOAZ4uztOBNe1s8cKob3M4nLAgyaENM-oAlrr2W
+sprite $SearchLg [20x20/16z] {
+TSz5Wi0W40NHZq-mklzfent6txBGrYdM0RD6BQvYcdjJPnaMAz2Zzx5TEtM9m8Tk1KYshSjKspWWoGIOrus0rsj2-ATDYD_Fshrci_SIK7JBGDQb0JL8OMDz
+oms0ERbrzyI6wLz6JlqkMTrstdm8tkwnQ5RKxrZrC_Qg0m
+}
+!procedure Search($id, $name="Search", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Search', $name, $tech)
+!endprocedure
+!procedure SearchCard($id, $funcName="", $content="")
+  IconCard($id, '<$SearchMd>', '', $funcName, $content)
+!endprocedure
+!procedure SearchGroup($id, $name='Search', $tech='')
+  IconGroup($id, 'IconGroup', '<$SearchLg>', $name, $tech)
+!endprocedure
+@enduml

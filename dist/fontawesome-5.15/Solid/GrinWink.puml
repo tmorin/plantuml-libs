@@ -1,0 +1,16 @@
+@startuml
+sprite $GrinWinkMd [14x14/16z] ROq75WCX24H7x8hC_M-R1-d9VgKt0AdhEJeId68Ch7h05mtTtf691oSKoUafD6gMHaRVs5JbuWLcOKvu9gdKMWJ6EOm3GIS5bTn5f2o_3WyT3nmPQgPJ0Dm
+sprite $GrinWinkLg [20x21/16z] {
+fT3LOSKm50DGcVbg_stx54v-UymC49U7_SpYS2cB5AjdfrVFmI8a69-Izbfy2_2D7mFg-eYsxroKbzZvqoaDMAI7H-79Kj7boDduJxfnzhcstblDFf9ibMJ5
+9UaXJfqH1sza1p197X-NZJH_VeBrMhkf4Y1ky38z3l7edHaFFkMSpZb_
+}
+!procedure GrinWink($id, $name="Grin Wink", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/GrinWink', $name, $tech)
+!endprocedure
+!procedure GrinWinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrinWinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrinWinkGroup($id, $name='Grin Wink', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrinWinkLg>', $name, $tech)
+!endprocedure
+@enduml

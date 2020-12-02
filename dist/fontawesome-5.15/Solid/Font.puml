@@ -1,0 +1,19 @@
+@startuml
+sprite $FontMd [14x16/16z] {
+HO_L0K0n20EfExV_j4yhzuMJo8SnSiYGTs8KT7S3G5XPHPMw1Y5dcACHd8FuPuqkqcbVug2drC7DPm3pvG1zWF4a7jAhB84NAM3bmK8H1SPSG1LTcQ9Yffil
+k04
+}
+sprite $FontLg [20x23/16z] {
+VO-54SD040DZU0RrtsrE8pDjOje__7qGKmfN1SEVNQCh9pK3P3ow97UiE7IWsrKFpZ66iTFkCcjD0EAU2gQnTzkSD-SruxoweZ6Od1SrmcW6W3x81HnmSdKt
+sazbMYv6xkj-QM_dr_tQljEW_Hp3gfFpZRlC4ACgxroTysJ9rOSQNlW3
+}
+!procedure Font($id, $name="Font", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Font', $name, $tech)
+!endprocedure
+!procedure FontCard($id, $funcName="", $content="")
+  IconCard($id, '<$FontMd>', '', $funcName, $content)
+!endprocedure
+!procedure FontGroup($id, $name='Font', $tech='')
+  IconGroup($id, 'IconGroup', '<$FontLg>', $name, $tech)
+!endprocedure
+@enduml

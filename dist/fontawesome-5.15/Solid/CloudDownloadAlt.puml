@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudDownloadAltMd [14x11/16z] FOk50G0W40An-zb_MblFV08JxGm-YMHHT_1Sr5fte9B5onBcuERhbqHH9nVsnAhRl8o6tkhM783CHU7kxOUYPJ_SE2WV7WO3
+sprite $CloudDownloadAltLg [20x16/16z] {
+TOu50e1020GNMudz_s_5pXlpXaI9LYEqVQY1AyCzYpkPVNZbZLq6IHEnrSNLJRVqtHaVZbeTCoTWuaPKmQI5078ii1LuXQJo8_EKf-BUpqLEfR1TdYegOF2j
+HMncIfL8ihtpcym
+}
+!procedure CloudDownloadAlt($id, $name="Cloud Download Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CloudDownloadAlt', $name, $tech)
+!endprocedure
+!procedure CloudDownloadAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudDownloadAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudDownloadAltGroup($id, $name='Cloud Download Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudDownloadAltLg>', $name, $tech)
+!endprocedure
+@enduml

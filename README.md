@@ -34,6 +34,7 @@ The available packages:
 - [azure-v2](dist/azure-v2/README.md)
 - [c4model](dist/c4model/README.md)
 - [eventstorming](dist/eventstorming/README.md)
+- [fontawesome-5.15](dist/fontawesome-5.15/README.md)
 - [homecloud](dist/homecloud/README.md)
 - [material-4.0](dist/material-4.0/README.md)
 

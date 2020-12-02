@@ -1,0 +1,16 @@
+@startuml
+sprite $ShieldAltMd [14x14/16z] HSg53G0n509Gwkqtzf_sN8Zn201IDz970auCvvcPWRQkMaUGclq2prqfyGc9QhyAr_ersBf_KkOqNnKgaEAHibxtIvE2CtAeJ5h2o_XmdTTLTW
+sprite $ShieldAltLg [20x20/16z] {
+PP054iGm2029U_R_lxrXZlgsiOMe_0cDNRrSk3n16ScChnjW3u1LDBdpPrcGAXbZdOk4SdDAXfXVBaA8tpplNwwndQodcmmDt5s0eelUNGElsJVdeMkRRcv0
+4EkOgz3i4RQv0il9UNOTDTZ1b2svCMM41J2SF2Xh9J5-
+}
+!procedure ShieldAlt($id, $name="Shield Alt", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ShieldAlt', $name, $tech)
+!endprocedure
+!procedure ShieldAltCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShieldAltMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShieldAltGroup($id, $name='Shield Alt', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShieldAltLg>', $name, $tech)
+!endprocedure
+@enduml

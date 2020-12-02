@@ -1,0 +1,16 @@
+@startuml
+sprite $WeixinMd [14x12/16z] LOi50aGX44AnS-3-fztugSyS0iX6Mi59ry4uXgpfgJ1KBiiawsDaTmUx_U-CT9ICLNqeelqdSMXEDJWQkmx-Km2S7GCz3i8nHjp47BF7pXS
+sprite $WeixinLg [20x18/16z] {
+TSZ5WGH140InR1Wg2l-jFLX6FQKlLekCVUXk9cVMRiMDwsnD60DI6npd2s3Re1Od_7p5bUtcSOpxKLjmOf9nTYHLKFyvdNzvm3gXxp3L0i03CY4ATgaL4C7D
+tutQLjkCcodrfZ-3AzFDmfattVKZAMVJizRKfpxw1G
+}
+!procedure Weixin($id, $name="Weixin", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Weixin', $name, $tech)
+!endprocedure
+!procedure WeixinCard($id, $funcName="", $content="")
+  IconCard($id, '<$WeixinMd>', '', $funcName, $content)
+!endprocedure
+!procedure WeixinGroup($id, $name='Weixin', $tech='')
+  IconGroup($id, 'IconGroup', '<$WeixinLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ThinkPeaksMd [14x12/16z] JSp50KC1309G8WrGst_RolTtYe8_lGE7SlliJAdtvYOzw7F5i6PjI0Se9pgHwzXYF01H-6dhsIWZ_jqwZS0gxxXQKtV_a2y
+sprite $ThinkPeaksLg [20x18/16z] {
+PKz50aGX2BNecFlVTdwNh1HUbcC6b6aYfnMPycTLezTexvqo4jbhrQD5jXZFdICpwOZ72hrbBJ6K7ZcwBJ_m7dNrMrUyi0u5MRHzURPi3gTJNoxBq_XC8Om6
+Asn4bNOapsw_lYhZi-6GLQszWvPfpjYVulEkvQBr1m
+}
+!procedure ThinkPeaks($id, $name="Think Peaks", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/ThinkPeaks', $name, $tech)
+!endprocedure
+!procedure ThinkPeaksCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThinkPeaksMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThinkPeaksGroup($id, $name='Think Peaks', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThinkPeaksLg>', $name, $tech)
+!endprocedure
+@enduml

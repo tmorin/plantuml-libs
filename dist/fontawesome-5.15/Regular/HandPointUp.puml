@@ -1,0 +1,19 @@
+@startuml
+sprite $HandPointUpMd [14x16/16z] {
+LSc50S0W30NHNy4JRlzfw_hG0sqoHDqYfJ7VrLm3-LEY_WeyJr8sJ9f2DWW5wwR3O9sY8KY733xfSDIy_rxCznSRZfY9nruq38DgryxfxFme3ZdpgNILmS6q
+0W
+}
+sprite $HandPointUpLg [20x23/16z] {
+ZOu5WiGm3CGSHbl_V-tTKd5HRKWEZDmeXYOvqBXoa1wAR-ZU9UQju7zoHilnvBYYxVgIoxKphsCQqu0kJW7cag0qo0rhVH-ZC8me4khc8a2G0m4cLjtUHTGh
+QDovHXV91dbLthWbx3jPbrmDM-xKfUp1z8QjEH8B1lNaXXJERhvm61IvCrXH9_y
+}
+!procedure HandPointUp($id, $name="Hand Point Up", $tech="")
+  IconElement($id, 'fontawesome-5.15/Regular/HandPointUp', $name, $tech)
+!endprocedure
+!procedure HandPointUpCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandPointUpMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandPointUpGroup($id, $name='Hand Point Up', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandPointUpLg>', $name, $tech)
+!endprocedure
+@enduml

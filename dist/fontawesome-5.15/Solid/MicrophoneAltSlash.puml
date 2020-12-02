@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrophoneAltSlashMd [14x11/16z] BSV70SGm30InLKuKf_zgBvZ63xOaDUZw6rYIupSzBUuTPeyf7M3DTzA0FUgAD5Ldj1ixKzcm7QiKQN5YwbXNu-PeCfFofKNSBKl7lm
+sprite $MicrophoneAltSlashLg [20x16/16z] {
+NO-54GGn2029N1os_sx_93Bp6yMXgfU72bKcYiNxAN2Kha4HCJ1K5XcwDmZUooOQ2gWEERWEVtwpXEbmbcNYdLo6HYUKNQNV-W737LqWtNU3JfJ5C7VV2JXb
+0dRTsZ27cag54Twcxif7Q_vhghcfIbarvpdKr1at9ZTUwmy
+}
+!procedure MicrophoneAltSlash($id, $name="Microphone Alt Slash", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/MicrophoneAltSlash', $name, $tech)
+!endprocedure
+!procedure MicrophoneAltSlashCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrophoneAltSlashMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrophoneAltSlashGroup($id, $name='Microphone Alt Slash', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrophoneAltSlashLg>', $name, $tech)
+!endprocedure
+@enduml

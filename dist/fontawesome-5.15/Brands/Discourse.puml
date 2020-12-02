@@ -1,0 +1,16 @@
+@startuml
+sprite $DiscourseMd [14x16/16z] NSx50KCn30FGC4VQVzg2rNvwDxFTasyBM2rOa479tu16OG2vi_TvamZj4tYR_eHjgryZdu1UaQUvHVTEHTf2miVqlq3LgH6A0WV2w6ilJju
+sprite $DiscourseLg [20x23/16z] {
+TOy55eGm30MJklV-j-Nz18VEBZQDqX9sAUVa-6RIcC98XtLYb6v5-Va0qku1jNRDPwA6boOfJcpHp4eAIu0f6gveeTHnenE4L1ouomMaNUuvcBzSn5ZQ_QJY
+KwOxbSDdbDivof39T4Nh3P594oJ2lSenRbfelkZySONfvQfE6YuSqveD
+}
+!procedure Discourse($id, $name="Discourse", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Discourse', $name, $tech)
+!endprocedure
+!procedure DiscourseCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiscourseMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiscourseGroup($id, $name='Discourse', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiscourseLg>', $name, $tech)
+!endprocedure
+@enduml

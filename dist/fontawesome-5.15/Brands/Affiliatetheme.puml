@@ -1,0 +1,16 @@
+@startuml
+sprite $AffiliatethemeMd [14x14/16z] POor0GD14CGMZadzLslsex91kQ5w49cnYmfhQoMW7HBmd_05b9_G2JJDNp60AeNu4d5IJQK1lRrRfecDzFlvYHUQtwNLN7vOS9KtJm
+sprite $AffiliatethemeLg [20x20/16z] {
+bSxL0G9030FGddkp_xPSYZkypsha7xxcnr814EvB5LjyceAwsr80TRaryRYQ4wZTBkfWQTrSSpgL3xpqSzKlD9Q2L1GnKO7KLdMMiBfTwJna5mRCKb0M2Krn
+g_C2xaoXi1wcJDNpKBp96MllhGHvxm
+}
+!procedure Affiliatetheme($id, $name="Affiliatetheme", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Affiliatetheme', $name, $tech)
+!endprocedure
+!procedure AffiliatethemeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AffiliatethemeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AffiliatethemeGroup($id, $name='Affiliatetheme', $tech='')
+  IconGroup($id, 'IconGroup', '<$AffiliatethemeLg>', $name, $tech)
+!endprocedure
+@enduml

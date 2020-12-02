@@ -1,0 +1,16 @@
+@startuml
+sprite $CcAmexMd [14x12/16z] VSf50aGX30FGMT64TCZzJ_lTxI5LkMrSVPAKwaeam08WncIin_QqadPEnNX8Mm4Yo18HTafArP7yWVzTm--a1m
+sprite $CcAmexLg [20x18/16z] {
+dOq53W9134LNwtB_s_AR4CFPDrEtvGMMJr3_I7Xu-H3p8y9Jv31IbbE4Y9bFFSnTJSsCpDH78S1djAa0Di3ctPLOb1vOTbSuuumMbT52UWfF3abNB0AdYjha
+PDQPCecUh3IvpgnAcCg4mBrEiJrnB2-u0G
+}
+!procedure CcAmex($id, $name="Cc Amex", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/CcAmex', $name, $tech)
+!endprocedure
+!procedure CcAmexCard($id, $funcName="", $content="")
+  IconCard($id, '<$CcAmexMd>', '', $funcName, $content)
+!endprocedure
+!procedure CcAmexGroup($id, $name='Cc Amex', $tech='')
+  IconGroup($id, 'IconGroup', '<$CcAmexLg>', $name, $tech)
+!endprocedure
+@enduml

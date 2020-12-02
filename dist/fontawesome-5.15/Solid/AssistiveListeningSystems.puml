@@ -1,0 +1,19 @@
+@startuml
+sprite $AssistiveListeningSystemsMd [14x14/16z] {
+FOo55KCX40INCvpjlzi4UN_Giy5Zi2LyP39mI56BeDqmkAde5C0u12YiYGqO4uKZ5KebXDdOsOKHH5hg_se7GzTnNfTXu_irzfqlBHK1rZmTkhtRjOFYEX9Y
+K7V4SIeCR7u
+}
+sprite $AssistiveListeningSystemsLg [20x20/16z] {
+NP05egWm3C02p2ttF-sNiQU1MRtbYs9x-4LH2xzuklQlL-cZfOkabPVgPYMInYtgEd8gInFL-SO-kgRtfG7kPI8lnyEmqQoGdCGTZk0YsNUfTEkpZEZzk22P
+QJvK0plW0ExF5LqNzyL_Ojx7FMqShcNwVqpN_GfweiqRg1uHGIEROUOGDPq8uKWAqGnNw4vUDF5inyyO9ppKzJNulm
+}
+!procedure AssistiveListeningSystems($id, $name="Assistive Listening Systems", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/AssistiveListeningSystems', $name, $tech)
+!endprocedure
+!procedure AssistiveListeningSystemsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssistiveListeningSystemsMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssistiveListeningSystemsGroup($id, $name='Assistive Listening Systems', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssistiveListeningSystemsLg>', $name, $tech)
+!endprocedure
+@enduml

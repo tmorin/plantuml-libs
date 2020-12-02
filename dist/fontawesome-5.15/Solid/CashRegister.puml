@@ -1,0 +1,16 @@
+@startuml
+sprite $CashRegisterMd [14x14/16z] RSV50G9H34NH-Hw__LUBiu8JVL8LcK5UJrAwzbx-IQIfMTKhJJ43itDz4TzlYZkO-QErEw588BYn4rqigu5ij00Z74juDDbA9jtuAn_g6woFCGu_xW
+sprite $CashRegisterLg [20x20/16z] {
+TS-30KKn343HrCxTVzgFPvxQZJGsGHQTFbFIFcTbaeZxdCxOzvLfE2ruMHaZ2RN_zkWtTvhmfPGEDPU54wDST74GfUCiGm9L2ce2P3i87hMHPYgup4se_4Ih
+E4ytquxSv-0Lw-YI-AdS3LwDFZdjy3A97EW2NXx9Nm
+}
+!procedure CashRegister($id, $name="Cash Register", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/CashRegister', $name, $tech)
+!endprocedure
+!procedure CashRegisterCard($id, $funcName="", $content="")
+  IconCard($id, '<$CashRegisterMd>', '', $funcName, $content)
+!endprocedure
+!procedure CashRegisterGroup($id, $name='Cash Register', $tech='')
+  IconGroup($id, 'IconGroup', '<$CashRegisterLg>', $name, $tech)
+!endprocedure
+@enduml

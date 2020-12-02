@@ -1,0 +1,16 @@
+@startuml
+sprite $ExclamationCircleMd [14x14/16z] HKu54iGm4A9ntVp_jxV2pD76CG1fYc8NEEPpxCyEvn6Ib6QRDKNd4pG1jgrDdFG5toQU_YWfE36luSlTFWFBrbvsCA_nFeGYr5QJTiAYLS-tMyqV
+sprite $ExclamationCircleLg [20x20/16z] {
+LO_50GDG24FpNO7zfwqYxJi59_YGnpvdzGGdRr6MPPi4N28Ll9DP6uY-WXAWknhGlsfQcrJFSHhYVIQhlT61gNAUo2rxqdBJhyao8UUO6jrT9KlMRE-x8VBD
+SNS0YVytNxoeyWjdl2aKgPln9KtMfe4WrRdMg1ez0G
+}
+!procedure ExclamationCircle($id, $name="Exclamation Circle", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/ExclamationCircle', $name, $tech)
+!endprocedure
+!procedure ExclamationCircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExclamationCircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExclamationCircleGroup($id, $name='Exclamation Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExclamationCircleLg>', $name, $tech)
+!endprocedure
+@enduml

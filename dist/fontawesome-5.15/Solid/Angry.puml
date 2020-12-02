@@ -1,0 +1,16 @@
+@startuml
+sprite $AngryMd [14x14/16z] NOg5OGL1449PT-Y_st2Nxszb1W4GsZvdzu2BJDsmN48lAXhVYj5YoznZU9HOfHQpH2iYIHb7_moNpj0lfCpCUTwbRhdJd6bPHPH7mQy2bWyiJ1oRF2Dw_GC
+sprite $AngryLg [20x21/16z] {
+TT250SCm30J0DxD-_srREKmN1ekWJ6porvF1BWrEahUNTd0d7ie9puB66hnoi8Kt3OKFNeCbLsTCQJwGhFDl1qIou1ofGcCq877NZTTBHEL1jikdhMAfTRij
+cLF6N-Jap7pPaOKLPIq2VGynH8FOnn34GPd6NRTO-RQ-YJYn8SQm_VC3
+}
+!procedure Angry($id, $name="Angry", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Angry', $name, $tech)
+!endprocedure
+!procedure AngryCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngryMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngryGroup($id, $name='Angry', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngryLg>', $name, $tech)
+!endprocedure
+@enduml

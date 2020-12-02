@@ -1,0 +1,13 @@
+@startuml
+sprite $StreamMd [14x14/16z] NSqn0i0G0CNG003kVzikRNtUbYaffq-sJE5P8bAswhWv_t4EkmJkA1FJBtA8mbvthO0NXWS
+sprite $StreamLg [20x20/16z] ZT2r0O1000J11Twr_su9tsMos_2OyA4Z8FVKl8NOIW9uMgmzuzGffaO0ctlpfc9eEIuzFI3bZhp_nNhdAyv_JFq
+!procedure Stream($id, $name="Stream", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Stream', $name, $tech)
+!endprocedure
+!procedure StreamCard($id, $funcName="", $content="")
+  IconCard($id, '<$StreamMd>', '', $funcName, $content)
+!endprocedure
+!procedure StreamGroup($id, $name='Stream', $tech='')
+  IconGroup($id, 'IconGroup', '<$StreamLg>', $name, $tech)
+!endprocedure
+@enduml

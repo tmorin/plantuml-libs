@@ -1,0 +1,19 @@
+@startuml
+sprite $WpbeginnerMd [14x14/16z] {
+JSk50GCm20H0d3ZxRzjF_Q8O0Njc2BrmM-VihdHvlIK2g_g5lkg7HrLue4SHnQpglPjRtjQEQvrwSKDnUlR4_E7OXMVqSUiowa-W1kSrgQG8jpB6Jn2e4eWn
+qGC
+}
+sprite $WpbeginnerLg [20x20/16z] {
+TOu54aD124EpyXN9_M_RCgdBMo63uozpDtVRnuidIE5txyuNrc-Nd8FlP0DEVh2Z9Mcm3QqrpF8vEijtglLGSVdI6ATTSVbQbd4-SSt8CSyaFJK3YuQDrlk8
+aWCmYlIGED3uITH-7pXmt6LGRBWtF9wYM0uxfiGfyOCB
+}
+!procedure Wpbeginner($id, $name="Wpbeginner", $tech="")
+  IconElement($id, 'fontawesome-5.15/Brands/Wpbeginner', $name, $tech)
+!endprocedure
+!procedure WpbeginnerCard($id, $funcName="", $content="")
+  IconCard($id, '<$WpbeginnerMd>', '', $funcName, $content)
+!endprocedure
+!procedure WpbeginnerGroup($id, $name='Wpbeginner', $tech='')
+  IconGroup($id, 'IconGroup', '<$WpbeginnerLg>', $name, $tech)
+!endprocedure
+@enduml

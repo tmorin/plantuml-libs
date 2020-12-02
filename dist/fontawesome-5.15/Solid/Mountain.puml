@@ -1,0 +1,13 @@
+@startuml
+sprite $MountainMd [14x11/16z] JOg35G0n0CKEjRB_jBNoyFbql7yE4jGEByxohkIgJUihwktJo94YhmLI_vfgQDWQVZRYUS99iVqE9d5J
+sprite $MountainLg [20x16/16z] PSl50GGn08NG7_VGVxKhu_BEe5tlUigGTUS0d6uQETDq5Hd63A9ETk8bpxJNiqf6zNB7Vv2PSDncGaeifj6YSb7r5xW9_tDmCunKU2ZolFZ1o-Yyz2y
+!procedure Mountain($id, $name="Mountain", $tech="")
+  IconElement($id, 'fontawesome-5.15/Solid/Mountain', $name, $tech)
+!endprocedure
+!procedure MountainCard($id, $funcName="", $content="")
+  IconCard($id, '<$MountainMd>', '', $funcName, $content)
+!endprocedure
+!procedure MountainGroup($id, $name='Mountain', $tech='')
+  IconGroup($id, 'IconGroup', '<$MountainLg>', $name, $tech)
+!endprocedure
+@enduml
