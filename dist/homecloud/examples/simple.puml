@@ -11,35 +11,36 @@ include('homecloud/bootstrap')
 
 Title("Overview of the homecloud infrastructure")
 
-include('homecloud/Element/Cloud')
-include('homecloud/Element/Dns')
-include('homecloud/Element/Router')
-include('homecloud/Element/Share')
-include('homecloud/Brand/Docker')
+include('homecloud/Network/Internet')
+include('homecloud/Network/Router')
+include('homecloud/Brand/Samba')
+include('homecloud/Brand/DockerSwarm')
 include('homecloud/Brand/Syncthing')
-include('homecloud/Group/GroupNetwork')
+include('homecloud/Network/LocalNetwork')
+include('homecloud/Hardware/Hdd')
 
-left to right direction
+'left to right direction
 
-Cloud('internet', 'Internet')
-Dns('dns', 'DNS')
-GroupNetwork('home', 'Home Network') {
+Internet('internet', 'Internet')
+LocalNetworkGroup('home', 'Home Network') {
   Router('router', 'Router', 'Gateway')
-  Docker('swarm', 'Docker Swarm', 'Containers Orchestration')
+  DockerSwarm('swarm', 'Docker Swarm', 'Containers Orchestration')
   Syncthing('syncthing', 'Syncthing', 'P2P synchronization')
-  Share('disk', 'Personal Data', 'USB Disk')
+  Hdd('disk', 'Personal Data', 'USB Disk')
+  Samba('samba', 'Samba', 'SMF/CIFS server')
   note as N1
-  Syncthing runs on the server which is connected to the USB disk.
+  all components run
+  on the same server
   end note
-  N1 .u. syncthing
+  N1 .right. syncthing
+  N1 .left. samba
   N1 . disk
 }
 
 syncthing --> disk : Relationship('Reads/Writes to', 'USB')
-syncthing <-u-> internet : Relationship('Synchronizes data with', 'BEP')
-internet ~> dns : Relationship('Resolves the IP from')
-internet --> router : Relationship('Accesses to', 'HTTP(S)')
-router --> swarm : Relationship('Routes to', 'HTTP(S)')
-dns ~~> router : Relationship('Points to')
-swarm -l-> disk : Relationship('Reads/Writes to', 'CIFS')
+samba --> disk : Relationship('Reads/Writes to', 'USB')
+internet -down-> router : Relationship('Accesses to', 'HTTP(S)')
+router -left-> swarm : Relationship('Routes to', 'HTTP(S)')
+syncthing <-up-> internet : Relationship('Synchronizes data with', 'BEP')
+swarm --> samba : Relationship('Reads/Writes to', 'CIFS')
 @enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $LocalNetworkMd [14x11/16z] HOk50KGX34DpIOj3zz_sllFg4XoqEEXu6CEips_gv9xsv-z0Qbqwkpdd6cETSRHK7IPI6bNKF3GPI4TPyiYs6b2NfqWUpdbDj72BWmgKizeV
+sprite $LocalNetworkLg [20x16/16z] ZL053W0X31i9qPNq_wyzmHsAp5KyG0z81KQqEYDYRdHZh0QLIWiWimh0FpAp2dLqwhd8_XaihNXaLdFsmfOk2akQrArdrxen5cbBXNq1
+!procedure LocalNetwork($id, $name="Local Network", $tech="")
+  IconElement($id, 'homecloud/Network/LocalNetwork', $name, $tech)
+!endprocedure
+!procedure LocalNetworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$LocalNetworkMd>', 'Network', $funcName, $content)
+!endprocedure
+!procedure LocalNetworkGroup($id, $name='Local Network', $tech='')
+  IconGroup($id, 'IconGroup', '<$LocalNetworkLg>', $name, $tech)
+!endprocedure
+@enduml

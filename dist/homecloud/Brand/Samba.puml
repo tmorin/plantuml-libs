@@ -1,0 +1,13 @@
+@startuml
+sprite $SambaMd [14x14/16z] NSp50G0m20D0g7ltdxQkt0z90FaX45E-5CzaYiOkl4q6ZZPv8ISE8Zyu-rf063tvFXsgJQWNrMzVopy9L1U72W
+sprite $SambaLg [20x20/16z] TP0v0iGm20F7Ludu_sjtarIsWUcuaO1s0KidRWtp2xMc8dVDlZbrZXjVhd4G-e3hXboBUDV8_cF9TUKElVJgYqPheQ_PgQps8Fxtpfwip7d-
+!procedure Samba($id, $name="Samba", $tech="")
+  IconElement($id, 'homecloud/Brand/Samba', $name, $tech)
+!endprocedure
+!procedure SambaCard($id, $funcName="", $content="")
+  IconCard($id, '<$SambaMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure SambaGroup($id, $name='Samba', $tech='')
+  IconGroup($id, 'IconGroup', '<$SambaLg>', $name, $tech)
+!endprocedure
+@enduml

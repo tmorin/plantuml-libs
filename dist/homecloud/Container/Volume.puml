@@ -1,0 +1,13 @@
+@startuml
+sprite $VolumeMd [14x14/16z] bSc35S1G30NGw1lPVzhQxZrwW1satjogzjpS0Z4v3RR7nKB7wgWuMF2VPky-qJsn6mGxBG
+sprite $VolumeLg [20x20/16z] lSYr0S1030Gm-nbz-qyRPgwYKlIH2d6WDrSmaasYcbw065O39XGQ12niVmDV9f3b5e9FnpySLQ2wFI_8E8diZYnzrG8
+!procedure Volume($id, $name="Volume", $tech="")
+  IconElement($id, 'homecloud/Container/Volume', $name, $tech)
+!endprocedure
+!procedure VolumeCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolumeMd>', 'Container', $funcName, $content)
+!endprocedure
+!procedure VolumeGroup($id, $name='Volume', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolumeLg>', $name, $tech)
+!endprocedure
+@enduml

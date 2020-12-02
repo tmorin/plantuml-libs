@@ -1,0 +1,16 @@
+@startuml
+sprite $InternetMd [14x14/16z] XSZL0SCm30JGCzkYst_QDloPFB7mfQjsN9B7Mk49k-ow3xMz2yzlOWLMP9oKbjXmIwOiU1IQuj4ZXy_3ciAEDEsY5M_-
+sprite $InternetLg [20x20/16z] {
+fSgr0SLG34MnuyVek_-qdp5jL8lpGXsZ1durFJI-XcOoIrE35slgF7ILTv8RJxwvMvebmZls15MLhoAfivrV5eQg1WVRjJWOwaeSNv0Nuyk6AidrRm1Mne-U
+EEKA
+}
+!procedure Internet($id, $name="Internet", $tech="")
+  IconElement($id, 'homecloud/Network/Internet', $name, $tech)
+!endprocedure
+!procedure InternetCard($id, $funcName="", $content="")
+  IconCard($id, '<$InternetMd>', 'Network', $funcName, $content)
+!endprocedure
+!procedure InternetGroup($id, $name='Internet', $tech='')
+  IconGroup($id, 'IconGroup', '<$InternetLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ContainerMd [14x14/16z] bOx50S0020Elhe7zfwrRdiMTu5JL3rNK6T8bMNUYxUWsQL7N2IKHfCviJYHozjwlIV_WtnsPqme
+sprite $ContainerLg [20x20/16z] lP350GG120D3SYvC_zMUk-vh1-U3Q2XUl11LyqANMLOIv-9gYSr2CrhfZfgP5kVU72gGWlcrDmC58fYDsVkyIojms_bwcy-MMk1FFv3dBrX3sGC
+!procedure Container($id, $name="Container", $tech="")
+  IconElement($id, 'homecloud/Container/Container', $name, $tech)
+!endprocedure
+!procedure ContainerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContainerMd>', 'Container', $funcName, $content)
+!endprocedure
+!procedure ContainerGroup($id, $name='Container', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContainerLg>', $name, $tech)
+!endprocedure
+@enduml

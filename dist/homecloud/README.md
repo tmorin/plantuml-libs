@@ -37,12 +37,13 @@ include('homecloud/style')
 
 # Modules
 
-The package provides 3 modules.
+The package provides 4 modules.
 
 
-- [Element](element.md) with 23 elements
-- [Brand](brand.md) with 9 elements
-- [Group](group.md) with 9 elements
+- [Brand](Brand.md) with 13 elements
+- [Container](Container.md) with 4 elements
+- [Hardware](Hardware.md) with 6 elements
+- [Network](Network.md) with 4 elements
 
 # Examples
 

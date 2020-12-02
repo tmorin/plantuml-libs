@@ -1,0 +1,19 @@
+@startuml
+sprite $BackupMd [14x14/16z] {
+5Os50S1020DJUuVRVzkIUy69f7jHd5Soazmxs9U3pR9fvArx0krhRyBHmbEcd4QgkRKpvM5zU3w6EXKrL9pfAFJILT_GoaCFY0Eq7Eykk-OQPVBIdLZTGs-P
+-x1xNvaLc1QGtJ8_
+}
+sprite $BackupLg [20x20/16z] {
+JP07WWKX24E3Wrt8_M-xJhRzPt_O8KfRUyzc43ABFynVMydeJoa-WldyAZf48_dAmaiwYYdAC61Hyf27Og0mF1KFrPvf_Vehuu6QWaLVxwQXdL6vWCQnMM0C
+22RWd9_EVjoa0uUkwr5h-rt-tYihhEcUcswCnd-oCO2fVgpCbUfsmF9L1HTT_gZt-GUANfvWhkRUDdck4ZQI8Zl-CUzpTWV45m
+}
+!procedure Backup($id, $name="Backup", $tech="")
+  IconElement($id, 'homecloud/Brand/Backup', $name, $tech)
+!endprocedure
+!procedure BackupCard($id, $funcName="", $content="")
+  IconCard($id, '<$BackupMd>', 'Brand', $funcName, $content)
+!endprocedure
+!procedure BackupGroup($id, $name='Backup', $tech='')
+  IconGroup($id, 'IconGroup', '<$BackupLg>', $name, $tech)
+!endprocedure
+@enduml
