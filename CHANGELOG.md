@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/tmorin/plantuml-libs/compare/v2.2.0...v2.3.0) (2020-12-05)
+
+
+### Features
+
+* **homecloud:** change brand/dnas, add container/service, adapt container/volume ([f8bca30](https://github.com/tmorin/plantuml-libs/commit/f8bca302d64d79a06485747000d267adec455325))
+
+
+### Bug Fixes
+
+* **documentation:** rephrase part of the library documentation ([3b7e6e6](https://github.com/tmorin/plantuml-libs/commit/3b7e6e61ec31e1e18bc623875242e972e71e6c5f))
+
 ## [2.2.0](https://github.com/tmorin/plantuml-libs/compare/v2.1.0...v2.2.0) (2020-12-02)
 
 
