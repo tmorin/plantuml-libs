@@ -15,7 +15,7 @@ This repository hosts a [PlantUML] lib which provides several `packages`.
 Each package focus on a particular technology/approach: Amazon Web Services (AWS), Azure, C4 Model or even EventStorming and more.
 
 The repository hosts also two command lines utilities.
-The first one (`glib`) helps to generate packages, the second one (`gdiag`) helps to use the packages within external projects in order to bootstrap a local and generate diagrams.
+The first one (`glib`) helps to generate packages, the second one (`gdiag`) helps to use the packages from external projects in order.
 
 ## Contributing
 
@@ -42,7 +42,7 @@ The available packages:
 
 ## Usage
 
-The library can directly be used remotely hitting the GitHub repository.
+The library can be directly used remotely hitting the GitHub repository.
 
 However, the performances are not good enough for intensive usage.
 In this case, the library should be installed locally and use directly from the file system.
@@ -51,11 +51,10 @@ To help the local installation, an NPM package is available.
 
 ## Usage of the NPM package
 
-A npm package [@tmorin/plantuml-libs](https://www.npmjs.com/package/@tmorin/plantuml-libs) is available.
-Its purpose is to provide locally the libraries as well as the command-line utility: `gdiag`.
-The command-line utility managed it-self the download of the PlantUML jar.
+The NPM package [@tmorin/plantuml-libs](https://www.npmjs.com/package/@tmorin/plantuml-libs) provides the CLI commands as well as the packages
+The CLI commands managed them-self the download of the PlantUML jar.
 
-Install the package globally:
+Install the NPM package globally:
 ```shell script
 npm i -g @tmorin/plantuml-libs
 ```

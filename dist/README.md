@@ -41,22 +41,25 @@ Include locally the library:
 
 ## include vs !include
 
-When documenting large projects, it often a good practice to define the components in separate `.puml` files which are then included in others containing the diagrams to render.
-So that, the definition of the components can be re-used over the diagram.
-Moreover, the diagrams which include them are automatically updated.
+When documenting large projects, it's often a good practice to define the components in separate `.puml` files which will be then included in other `.puml` files containing the diagrams to render.
+So that, the component definitions can be re-used among the diagrams.
 
-However, be careful about relative and absolute paths with `!include` vs `include()`.
-According to where you are (separate files vs diagram files), the _relative paths_ won't be resolve from the _current directory_.
+However, be careful about relative and absolute paths with the usage of `!include` (the native PlantUML directive) vs `include()` (a custom procedure provided in this library).
+According to where you are (i.e. reference files vs diagram files), the _relative paths_ won't be resolved from the _current directory_.
 
 Given the following file tree, the following snippets should help you to configure files properly.
 
 - project/
-- project/reference/c4.puml
-- project/reference/aws.puml
-- project/src/guidebook/component/c4.puml
-- project/src/guidebook/component/aws.puml
+  - ref/
+    - c4.puml
+    - aws.puml
+  - src/
+    - guidebook/
+      - component/
+        - c4.puml
+        - aws.puml
 
-### project/reference/c4.puml
+### project/ref/c4.puml
 ```plantuml
 !global $INCLUSION_MODE="local"
 !global $LIB_BASE_LOCATION="../node_modules/@tmorin/plantuml-libs/dist"
@@ -66,7 +69,7 @@ include('c4model/bootstrap')
 ' .....
 ```
 
-### project/reference/aws.puml
+### project/ref/aws.puml
 ```plantuml
 !global $INCLUSION_MODE="local"
 !global $LIB_BASE_LOCATION="../node_modules/@tmorin/plantuml-libs/dist"
@@ -79,7 +82,7 @@ include('aws-20200911/bootstrap')
 ### project/src/guidebook/component/c4.puml
 ```plantuml
 @startuml level1-system
-!include ../../../references/c4.puml
+!include ../../../ref/c4.puml
 !global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION + "/"
 !global $LIB_BASE_LOCATION="../../" + $LIB_BASE_LOCATION
 ' description of the diagram below
@@ -90,7 +93,7 @@ include('aws-20200911/bootstrap')
 ### project/src/guidebook/component/aws.puml
 ```plantuml
 @startuml infrastructure-production
-!include ../../../references/aws.puml
+!include ../../../ref/aws.puml
 !global $IMAGE_BASE_PATH="../../" + $LIB_BASE_LOCATION + "/"
 !global $LIB_BASE_LOCATION="../../" + $LIB_BASE_LOCATION
 ' description of the diagram below
