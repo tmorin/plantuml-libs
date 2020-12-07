@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.4.0](https://github.com/tmorin/plantuml-libs/compare/v2.3.0...v2.4.0) (2020-12-07)
+
+
+### Features
+
+* integrate the Nord Theme ([ffdfa60](https://github.com/tmorin/plantuml-libs/commit/ffdfa60613ce3d775c43bede80aaf3b5abf1e57e))
+
+
+### Bug Fixes
+
+* the title's colors are hardcoded ... very bad ([7e9a6d5](https://github.com/tmorin/plantuml-libs/commit/7e9a6d5afb3d9df306000249e50a43f2340687f4))
+
 ## [2.3.0](https://github.com/tmorin/plantuml-libs/compare/v2.2.0...v2.3.0) (2020-12-05)
 
 
