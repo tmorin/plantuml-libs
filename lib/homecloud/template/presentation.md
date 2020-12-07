@@ -4,3 +4,5 @@ It implements elements based on :
 
 - [Material Design Icons](https://github.com/google/material-design-icons)
 - [Font Awesome](https://fontawesome.com)
+
+Provide the colors and palettes of [Nord Theme](https://www.nordtheme.com).

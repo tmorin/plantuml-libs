@@ -9,7 +9,7 @@
 ' loads the {{= it.config.pkgName }} bootstrap
 include('{{= it.config.pkgName }}/bootstrap')
 
-Title("Overview of the homecloud infrastructure")
+Title("Overview of infrastructure", "The homecloud project", "1.0.0")
 
 include('homecloud/Network/Internet')
 include('homecloud/Network/Router')
@@ -18,8 +18,6 @@ include('homecloud/Brand/DockerSwarm')
 include('homecloud/Brand/Syncthing')
 include('homecloud/Network/LocalNetwork')
 include('homecloud/Hardware/Hdd')
-
-'left to right direction
 
 Internet('internet', 'Internet')
 LocalNetworkGroup('home', 'Home Network') {
