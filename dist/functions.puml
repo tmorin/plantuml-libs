@@ -14,11 +14,11 @@
   !endif
   !$s=$s_d + $s_v
   left header
-  <color:black><size:16>$title</size></color>
+  <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
   !if ($subtitle)
-    <color:black><size:14>$subtitle</size></color>
+    <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
   !endif
-  <color:grey><size:12>$s</size></color>
+  <color:$FONT_COLOR_LIGHT><size:$FONT_SIZE_XS>$s</size></color>
   end header
 !endprocedure
 
