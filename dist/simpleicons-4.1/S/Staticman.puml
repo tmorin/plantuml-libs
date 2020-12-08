@@ -1,0 +1,16 @@
+@startuml
+sprite $StaticmanMd [14x14/16z] RSU50GGn24JHmIOU-g_st6z_11wEK_r0pnmlHEuw-5HXcDUdwbXpD5ooomkQaMZqghQs0h9RPkNCpJRcPRcibmY900HofU5LNP-260ux0m
+sprite $StaticmanLg [20x20/16z] {
+dSe5ZiKm40DG9qDXt_-sgt8htl-2Ona_I1wABvaawxUrHOlbK-kj1xmdFBna4PKYUCIiYxMjTwOZMeqoCZR9jjl21AOXg4MiTS0d3PjA8Rl3efApkrluM7Ek
+rMeZsPAsoUKYGvq70RAf0SX0uMOalCMMTNn9csVsbbtnVty
+}
+!procedure Staticman($id, $name="Staticman", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Staticman', $name, $tech)
+!endprocedure
+!procedure StaticmanCard($id, $funcName="", $content="")
+  IconCard($id, '<$StaticmanMd>', '', $funcName, $content)
+!endprocedure
+!procedure StaticmanGroup($id, $name='Staticman', $tech='')
+  IconGroup($id, 'IconGroup', '<$StaticmanLg>', $name, $tech)
+!endprocedure
+@enduml

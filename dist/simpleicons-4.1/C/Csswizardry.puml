@@ -1,0 +1,16 @@
+@startuml
+sprite $CsswizardryMd [14x14/16z] nKk50GD123k7ODb_slPbYCU9y9keUsJDCK2ROpElKmCj1ZZzBE9HhIvEjAMl2wk1BYFe8rPm7n7w7m
+sprite $CsswizardryLg [20x20/16z] {
+rSYr0GCm40D0lTb-qFxJXfdRN2FWi-1luf--w-l7t-sGhkevYJGogY0DSWgGKfuLbGrJ2vJ8hX8aI_QIWj7CqKZZKOVK6MJU9qzc4K0POvU7FSE2lgIwxdBC
+HKDc5gTBLLHoR04
+}
+!procedure Csswizardry($id, $name="Csswizardry", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Csswizardry', $name, $tech)
+!endprocedure
+!procedure CsswizardryCard($id, $funcName="", $content="")
+  IconCard($id, '<$CsswizardryMd>', '', $funcName, $content)
+!endprocedure
+!procedure CsswizardryGroup($id, $name='Csswizardry', $tech='')
+  IconGroup($id, 'IconGroup', '<$CsswizardryLg>', $name, $tech)
+!endprocedure
+@enduml

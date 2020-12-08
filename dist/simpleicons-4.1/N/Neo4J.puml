@@ -1,0 +1,19 @@
+@startuml
+sprite $Neo4JMd [14x14/16z] {
+9SwtbGLH40BH_YEV02h_RFVqphKeZ_gPhA7CQaTWpuMlhf-GMGAVTGvlWm1S8tk3Gxj4LxuwXHUWZbqBHY1AikeHUyQm5s_zRYnR6SglgeQ1R75M4u1rrBy1
+fFTdqYVR7m
+}
+sprite $Neo4JLg [20x20/16z] {
+NT05aW0n24HHuWdMzx_jKh3-ohh--11r0qmlk_jjbAhPOGFugoq4VJBPN5RLfe098hl7cXIkYaI2H0a-g0qevnQKH-k0Du8wYhOdiFklYK9txfzhnO1h-FEC
+k1PRaD4ywA1z4L4hYaOVr2U0-qpLaNTc2XpRWhZpWO_w1wO8RdS1cz9uI6QPoa5opHzG9XBtHZ_g9tJwhLs73Fho0G
+}
+!procedure Neo4J($id, $name="Neo4 J", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Neo4J', $name, $tech)
+!endprocedure
+!procedure Neo4JCard($id, $funcName="", $content="")
+  IconCard($id, '<$Neo4JMd>', '', $funcName, $content)
+!endprocedure
+!procedure Neo4JGroup($id, $name='Neo4 J', $tech='')
+  IconGroup($id, 'IconGroup', '<$Neo4JLg>', $name, $tech)
+!endprocedure
+@enduml

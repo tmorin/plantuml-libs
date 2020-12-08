@@ -1,0 +1,16 @@
+@startuml
+sprite $AccusoftMd [14x14/16z] XKr50iGW38GuEl__xTRBQPjJnjFNMOd83n80RH4tM1ujbmtQ2NIpzGtA2JQQ9Z1vpyomuBqfo57wneEqLQ_DadZf6D4BtQDPYwQ_zmC
+sprite $AccusoftLg [20x20/16z] {
+fSx7WKKX241Hp9BxxtQ4-SdrkyjZ07XUnxttlAsPdzQDmwDvuqxilrI0mgn-QMif6YZbvo53zuY-53DdudwJ3IW0cBYIbFSIuGvoI4OS4akkhBK8BfeBp_oE
+WJc7b1jYWwmjLZUt1NTjhWhF-WC
+}
+!procedure Accusoft($id, $name="Accusoft", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Accusoft', $name, $tech)
+!endprocedure
+!procedure AccusoftCard($id, $funcName="", $content="")
+  IconCard($id, '<$AccusoftMd>', '', $funcName, $content)
+!endprocedure
+!procedure AccusoftGroup($id, $name='Accusoft', $tech='')
+  IconGroup($id, 'IconGroup', '<$AccusoftLg>', $name, $tech)
+!endprocedure
+@enduml

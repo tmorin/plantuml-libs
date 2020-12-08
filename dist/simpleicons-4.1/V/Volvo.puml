@@ -1,0 +1,19 @@
+@startuml
+sprite $VolvoMd [14x14/16z] {
+LKu50WH12DBTwO3___OOhx5RC-yCzCLjba6i9GLkpqHnTHJ5iuEt1MuYazbUoAoAKiwIb0etsKVlVHvDOSgLFqP49GkdMvr_MvekN1Qu08_h9z3r70tnsNl4
+gwPtSxaF
+}
+sprite $VolvoLg [20x20/16z] {
+RP055e0m34CxUDDAxdzRmiFbeqkzGcR5ZcO7J4Wsx5ZPjGP-UsjzDr6Z53a9IJaekSsPXabs9WDgKuDJEaM79G1PRZ3iYhoY1mleYkc61PonXNsKNhJNtcgD
+lVdHgJNUMgg3XAdnPXXH0_o_nhUNlvw_i-LjBNxim84cyjpLBZrswbUzb8T7-62AbGK
+}
+!procedure Volvo($id, $name="Volvo", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Volvo', $name, $tech)
+!endprocedure
+!procedure VolvoCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolvoMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolvoGroup($id, $name='Volvo', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolvoLg>', $name, $tech)
+!endprocedure
+@enduml

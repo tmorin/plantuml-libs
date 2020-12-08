@@ -1,0 +1,16 @@
+@startuml
+sprite $XingMd [14x14/16z] FSw50S0m20116lVVVziIlRY2N1wIF0cy3iuPxGrK7RvE_qGAM541VU2WoAA7KXdcVQOjoj8OThrL9aAmaFUzqiiwD_AuVRZTS9VTgLnv7Vu
+sprite $XingLg [20x20/16z] {
+NOz50WD120J7rwd_lpRM95ccBZWqwKuni982rU2QSZimFbukMQaEd1-lNMRxftO0NUNJtG4SIJJWp2aRKEwhbxG2QpoNaRRRh3SBtMXLIuMVEoHNb0ke8LSx
+zZuNPql9Vq6Hg4L4pIB-TXUrpusdRtm2
+}
+!procedure Xing($id, $name="Xing", $tech="")
+  IconElement($id, 'simpleicons-4.1/X/Xing', $name, $tech)
+!endprocedure
+!procedure XingCard($id, $funcName="", $content="")
+  IconCard($id, '<$XingMd>', '', $funcName, $content)
+!endprocedure
+!procedure XingGroup($id, $name='Xing', $tech='')
+  IconGroup($id, 'IconGroup', '<$XingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TwilioMd [14x14/16z] LOw55O1034FJS__xRyl3eUwDP9M3gabIN30dh2XPXE8aLo2gBeBsJ85bK3H8YQ520UUWriDFffIQMKlIPCzYDQj7zf_yN_bzSCTtkxzBaGFPdknaPJ-z3sW3
+sprite $TwilioLg [20x20/16z] {
+RP07hWCn20KV0YkuplrF-mjAJsRNZGwIv9ChqtMbBQxiTXLbMOmn3v1tKRf9vaa9lS49NOa3JND3o3EaI5V0jh9sm6jJGglB1SW4Bd8OC4q1H6sooOOXAJAk
+cmQdP8yS9Vlc-pt7jPPur3BNUytBllJsPGQliw94tsTQM1lxd3sQrVCN
+}
+!procedure Twilio($id, $name="Twilio", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Twilio', $name, $tech)
+!endprocedure
+!procedure TwilioCard($id, $funcName="", $content="")
+  IconCard($id, '<$TwilioMd>', '', $funcName, $content)
+!endprocedure
+!procedure TwilioGroup($id, $name='Twilio', $tech='')
+  IconGroup($id, 'IconGroup', '<$TwilioLg>', $name, $tech)
+!endprocedure
+@enduml

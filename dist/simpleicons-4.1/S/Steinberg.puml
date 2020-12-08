@@ -1,0 +1,16 @@
+@startuml
+sprite $SteinbergMd [14x14/16z] LOx50SLG3CFqgEng_sa_eoxXs51M7wo56-CqsnOTK8Pft6YvbQifF2YnQ7_cq5tCewXP875xLdhsrP-ghNusvyVctvT_XNzr67wTtIXpD4i1hW
+sprite $SteinbergLg [20x20/16z] {
+RP370S0W30DDm7Iu_QTDxyazNIN9ZCti52ixMezQqxqKeUUW6dA7U9IE5LlMebL8Sf90fLIotCXK0no_Z5dMGRd6OdNhO89mr0ez3H9euAzJq9s3TstHyToD
+PjkzVXHx_C3AmQub_sZ-yxPca1yPB0JWaTM2g-nKbGEZgK5BQcHX0W
+}
+!procedure Steinberg($id, $name="Steinberg", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Steinberg', $name, $tech)
+!endprocedure
+!procedure SteinbergCard($id, $funcName="", $content="")
+  IconCard($id, '<$SteinbergMd>', '', $funcName, $content)
+!endprocedure
+!procedure SteinbergGroup($id, $name='Steinberg', $tech='')
+  IconGroup($id, 'IconGroup', '<$SteinbergLg>', $name, $tech)
+!endprocedure
+@enduml

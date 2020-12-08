@@ -1,0 +1,13 @@
+@startuml
+sprite $EpsonMd [14x14/16z] hS450S0m40ImFXoiv5_kJ3GPJqWqoiWFI9ZMDp_Ez9vJy28qLthvIgnHHdter7ZY1m
+sprite $EpsonLg [20x20/16z] pKs70GGn2EBEY4hQ_jD-_nrYhu23X0np6YmRhY3iHik86Acia5Uzyi3C88MIrDXnhTmSGVSvP3Vxq6jMLJiZGe3rg7ZrcSvDHZC0blxdS1maJm
+!procedure Epson($id, $name="Epson", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Epson', $name, $tech)
+!endprocedure
+!procedure EpsonCard($id, $funcName="", $content="")
+  IconCard($id, '<$EpsonMd>', '', $funcName, $content)
+!endprocedure
+!procedure EpsonGroup($id, $name='Epson', $tech='')
+  IconGroup($id, 'IconGroup', '<$EpsonLg>', $name, $tech)
+!endprocedure
+@enduml

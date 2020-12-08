@@ -1,0 +1,16 @@
+@startuml
+sprite $ZulipMd [14x14/16z] LOw50GCn30CLCZnb_srhAbtGBA3f3hJ1M4zQpxB8sXyMr29Ap7nPj4L5dmFJFb992hNxIaEGxehmZv6HofoOSwWN-8IBYSYif_zFBsLb64si-f86u0K
+sprite $ZulipLg [20x20/16z] {
+RP1L0iOm28Enp5lkVzfVbixtFK5mv8VFsPXT6bYoKI1ao1F3IJgBZhm1cKjcLZzrAPehaoDWOdLDJC9aC66NYabKMaSMfHCrn2aTX1XBZbgSioPMcXW2GG_p
+Sbp9v4LVRdlvmSkltdzA55Fv2HDqTRy
+}
+!procedure Zulip($id, $name="Zulip", $tech="")
+  IconElement($id, 'simpleicons-4.1/Z/Zulip', $name, $tech)
+!endprocedure
+!procedure ZulipCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZulipMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZulipGroup($id, $name='Zulip', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZulipLg>', $name, $tech)
+!endprocedure
+@enduml

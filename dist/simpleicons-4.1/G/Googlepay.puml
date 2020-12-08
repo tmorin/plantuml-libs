@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglepayMd [14x14/16z] dSUt0SCm30J0VsGmx3-kiwMUrnqEHIy7FFZPQdEmj4K81c87EYD7MQxIrugMvMqvLe8AHh28cnXEFG4
+sprite $GooglepayLg [20x20/16z] {
+nS7NOSCm3431HmYLTVzf4xSl3M3VyHsD6_ErXu1uA1_db9U0To_ZRHHYAhZX8yfTo0hwEO7DaUBPmpNN13s6HyDJnvL3rjxZ3307JvjKfqcM0qq0yujKxYGQ
+l_8F
+}
+!procedure Googlepay($id, $name="Googlepay", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlepay', $name, $tech)
+!endprocedure
+!procedure GooglepayCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglepayMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglepayGroup($id, $name='Googlepay', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglepayLg>', $name, $tech)
+!endprocedure
+@enduml

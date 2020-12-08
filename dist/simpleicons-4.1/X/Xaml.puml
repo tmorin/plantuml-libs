@@ -1,0 +1,16 @@
+@startuml
+sprite $XamlMd [14x14/16z] POw50SC03CDaAzl_7m_B3NCC-AS7NuhQfCzVzYq7Z42r_fpz9m4TnN_BjDgPJDC1u_mpb-myURvo_W3g_B_VaP7-AC0R
+sprite $XamlLg [20x20/16z] {
+RP050W8X44L_ulrlB66xRmEc0nCsaxOPmWFLSHOtuq5X-Tm63b6SBPJiYSoyHFDca_ionKBPDuwnRdHaXDlDce_HijnkB2ncFRQn2yIO5ozID9BSvHk4_T5r
+wzwnEh7oJms48HtbrOij-xVdCbUpNU_WUbVNEmLVRF4E
+}
+!procedure Xaml($id, $name="Xaml", $tech="")
+  IconElement($id, 'simpleicons-4.1/X/Xaml', $name, $tech)
+!endprocedure
+!procedure XamlCard($id, $funcName="", $content="")
+  IconCard($id, '<$XamlMd>', '', $funcName, $content)
+!endprocedure
+!procedure XamlGroup($id, $name='Xaml', $tech='')
+  IconGroup($id, 'IconGroup', '<$XamlLg>', $name, $tech)
+!endprocedure
+@enduml

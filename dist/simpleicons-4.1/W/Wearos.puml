@@ -1,0 +1,16 @@
+@startuml
+sprite $WearosMd [14x14/16z] POg5SSHG30N5Pc__tUP3ZdT6y40-y53HDfrGE6HhqrYvWDZRFDKMiBTUfks0dMq2GgB9DTiqbI8Ejr_SbYMD0sg1HGO9bzrSEkK5iK9DLU06AHFtDY4__04
+sprite $WearosLg [20x20/16z] {
+bSuvTW0X30DGUHc6NVU_RR3VOz8clr0bXF57vQqAQAs296yLaaimo8RKoC6Zo3wfMPjaMcYynOUi36udjW1Qt0mZoXEnKVDb0Rpmq2Sd8WS0NIGxvlshugYn
+fIKhrby4sxaLwRXwtbrpudBcLgJYYaEcV7V_5aNZBtncdjLpy99QDLFm7py
+}
+!procedure Wearos($id, $name="Wearos", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Wearos', $name, $tech)
+!endprocedure
+!procedure WearosCard($id, $funcName="", $content="")
+  IconCard($id, '<$WearosMd>', '', $funcName, $content)
+!endprocedure
+!procedure WearosGroup($id, $name='Wearos', $tech='')
+  IconGroup($id, 'IconGroup', '<$WearosLg>', $name, $tech)
+!endprocedure
+@enduml

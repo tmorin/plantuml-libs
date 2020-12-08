@@ -1,0 +1,16 @@
+@startuml
+sprite $MediafireMd [14x14/16z] bSd70SDG309GVbTd_stZia3yBXA0hxQvBbpQ6ArjNg81Ywo8wo_gFCcR3upYMcDUWpG0ILo4PEbsEYvjEc_LyHhgTXh-zmC
+sprite $MediafireLg [20x20/16z] {
+jStL0SKm20NGYyK3-qzRuUa2FGdyO7WEgIdZ7y-uBSMDM8H1CYFL75dXUxQwukNkBF4nLSUTRNaatuK0Mk6rgcZp2Az8FGAfvKbZm3msRj8Z-PnvE95aPvhu
+uhgpjH7-YPdW0IS
+}
+!procedure Mediafire($id, $name="Mediafire", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mediafire', $name, $tech)
+!endprocedure
+!procedure MediafireCard($id, $funcName="", $content="")
+  IconCard($id, '<$MediafireMd>', '', $funcName, $content)
+!endprocedure
+!procedure MediafireGroup($id, $name='Mediafire', $tech='')
+  IconGroup($id, 'IconGroup', '<$MediafireLg>', $name, $tech)
+!endprocedure
+@enduml

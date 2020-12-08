@@ -1,0 +1,16 @@
+@startuml
+sprite $PreziMd [14x14/16z] LOu54W0X30CBqmZ___05ngwBrbErsWpkLM5B2FA-XlCZ1SJC3_OvDgWbnM0txLOBYc635aZmv2FdWQRrCl4oOyqkSyASNZ5_ogviXIVw0m
+sprite $PreziLg [20x20/16z] {
+TP25WGGn24KJu4k6xR_UOyvjutauQyR6HNFMmLvlOmVwZJLYlxC750LK28yt9XVIcE6ShRKYyahQVKxRpAvOLEz1catDtgr50hACI7WWmBewRnIo5PQLdMIn
+ILWoo9wlHE0OHxOEV41P97-ptxOewacCzrpYBPUwGM_g8sUzvXnnArjtRJBd4xzxKDQtNl6zLyzxEdGD6RhUo0i
+}
+!procedure Prezi($id, $name="Prezi", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Prezi', $name, $tech)
+!endprocedure
+!procedure PreziCard($id, $funcName="", $content="")
+  IconCard($id, '<$PreziMd>', '', $funcName, $content)
+!endprocedure
+!procedure PreziGroup($id, $name='Prezi', $tech='')
+  IconGroup($id, 'IconGroup', '<$PreziLg>', $name, $tech)
+!endprocedure
+@enduml

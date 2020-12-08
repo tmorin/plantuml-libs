@@ -1,0 +1,16 @@
+@startuml
+sprite $TedMd [14x14/16z] dKor0S10429-plxJniklpWr0q-IsNKIF_UueClmEInPrKMAZcwJ3EDh2DPdKQHNClyg6hbq
+sprite $TedLg [20x20/16z] {
+nOw30K0n34IlHd3xJ_kD4VgA65X4FnYzZbFKTeYMm1ENIwXTHix5M6EbfXYJicMb81eJ2cbgGraErSFXovVFVDu-8kgLzzKA9Ror_uo4q6P4cdrSknnhHQnY
+1m
+}
+!procedure Ted($id, $name="Ted", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Ted', $name, $tech)
+!endprocedure
+!procedure TedCard($id, $funcName="", $content="")
+  IconCard($id, '<$TedMd>', '', $funcName, $content)
+!endprocedure
+!procedure TedGroup($id, $name='Ted', $tech='')
+  IconGroup($id, 'IconGroup', '<$TedLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SkillshareMd [14x14/16z] {
+JOvNOiL0308dQ5SGMxx_SLDUvvSse5XyoH70JW5K6jG6aC1DSlVTa79HQnawb4Mk-JVMrGJcF3gYnmGyZRAFSuZOiw4zL_XsOOFNAih9l-4_6r9gWmJW1lg3
+393p9__xlm
+}
+sprite $SkillshareLg [20x20/16z] {
+PP07jji020H7D9i5Fz__j2cIaj_cLJgx02xb0KT8mKrE-rdhgJlrb75ZwYlLVA8Rl7ItzBMX2urTgGbS2JRd0ekqJY0ceIk3tDVRvK3r1ju6krATVQvNme3D
+IWyVnqhxW0LgLOQFFzGppjf1livbsIdjmcOGqtKkY_Tk4b93J9nzHyO1NP91A8X_pyiyTGkxKgX-UF3idruzkQZRq_Zm58xisPtEQ-0t
+}
+!procedure Skillshare($id, $name="Skillshare", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Skillshare', $name, $tech)
+!endprocedure
+!procedure SkillshareCard($id, $funcName="", $content="")
+  IconCard($id, '<$SkillshareMd>', '', $funcName, $content)
+!endprocedure
+!procedure SkillshareGroup($id, $name='Skillshare', $tech='')
+  IconGroup($id, 'IconGroup', '<$SkillshareLg>', $name, $tech)
+!endprocedure
+@enduml

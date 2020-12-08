@@ -1,0 +1,16 @@
+@startuml
+sprite $LumenMd [14x14/16z] JKx50KDH2ECPH2hxJrlzneruH7GvbztZTzD86TlNYwhIt3XbYRLpC98U_syWvQhjw_AQLj-uEHSgZYioZwVVdyz7FrvQ5-NANDUlhX-s9My
+sprite $LumenLg [20x20/16z] {
+XOq5aaGX34GXdbhItF-qwpFKzrVUsdxe3aINWMnlE6SP6H1B6qF80ITQMkS0ZAp6qX93oGj1ItEbG7dNM1hb75SV_F0HA6kq_GXj7sBeRKkfravYH80t4jNy
+Pj16ZC94jWsMhanRZTKyTAj9kAhiD1KFtdKpxHtx0W
+}
+!procedure Lumen($id, $name="Lumen", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Lumen', $name, $tech)
+!endprocedure
+!procedure LumenCard($id, $funcName="", $content="")
+  IconCard($id, '<$LumenMd>', '', $funcName, $content)
+!endprocedure
+!procedure LumenGroup($id, $name='Lumen', $tech='')
+  IconGroup($id, 'IconGroup', '<$LumenLg>', $name, $tech)
+!endprocedure
+@enduml

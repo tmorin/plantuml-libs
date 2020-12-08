@@ -1,0 +1,16 @@
+@startuml
+sprite $QualtricsMd [14x14/16z] ZSl70GCn30D1A0U2slwxjKkuUIBeit3NyFMIkkFWyk9YwK2PFEg5fWGfs8faLXALvChXM7bfXyC8_mzxOxRoPLJu5uwYRc-TqB8--m4
+sprite $QualtricsLg [20x20/16z] {
+hS-7ZGCm28NX1x5nvzz_soFIZH2R-gcY7x-8CCdZ-wnsgvumfSr9YB81z0dUoFvWbnr0TZcNOGdFPG1I1wxA7asDf4m7GfwvcLgSBFC7wsl1itoJiaLXCx9T
+Ehk1juB3ySGcZwXz7vO-iCfgJUi0pwK9fDlbgYp6v_-YCBLQF48_Vdy
+}
+!procedure Qualtrics($id, $name="Qualtrics", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Qualtrics', $name, $tech)
+!endprocedure
+!procedure QualtricsCard($id, $funcName="", $content="")
+  IconCard($id, '<$QualtricsMd>', '', $funcName, $content)
+!endprocedure
+!procedure QualtricsGroup($id, $name='Qualtrics', $tech='')
+  IconGroup($id, 'IconGroup', '<$QualtricsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $FossaMd [14x14/16z] {
+FKt50GCn029k4FQVjZtdXoEC6dCAMEu0GZ_GIfBhmP1fUZSwdAoQrEghdGJD0scFSP54pYbAxIIj3MvvInd8hKykSHny8EQbklOcpNK-97HxBYlWGl6UydLn
+Nqhz8MW7o_YOyjtv0m
+}
+sprite $FossaLg [20x20/16z] {
+JSw54GD020H0dZVy-kysGvpnnOw8nOa6Cn4v8DGr9SRWEOaeFiPoBSDCxYxKeDVW1S8JVWBn8jg5SA3a1ix703TLIz55NojXOiID-QQLCDiA6DpUTaN2KMu9
+nsuPBBhJmmlmW9ssANAj1w4APDeWdbUotDtChL3MSSRs4XO044DvS6-loRJQRYV_HgGHG4W2Hl-M7e4OVvOTEVEFY1EAa7-YMV3SVz0Mnj-X1m
+}
+!procedure Fossa($id, $name="Fossa", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fossa', $name, $tech)
+!endprocedure
+!procedure FossaCard($id, $funcName="", $content="")
+  IconCard($id, '<$FossaMd>', '', $funcName, $content)
+!endprocedure
+!procedure FossaGroup($id, $name='Fossa', $tech='')
+  IconGroup($id, 'IconGroup', '<$FossaLg>', $name, $tech)
+!endprocedure
+@enduml

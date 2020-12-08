@@ -1,0 +1,16 @@
+@startuml
+sprite $UnityMd [14x14/16z] JKw50S0m2ADkbFp_xS8yk2CNojY0ta5I45iS8UhkXSN4e685rmtDpVGwXfZ6HaCC19amG1seNDmyMgGhOkTyE-rS-MnPruLuNQZtTHj-FSg9_FliIZJjSW
+sprite $UnityLg [20x20/16z] {
+NP053i0m30FBtFZ_lvtBqawuQy2BkcWR2eXJ3-jJ-xa48W3YLGweqMQwkeJlFJkZbUwWDKC5eAX1Hg7sI-NJR-Zv4O6qmjGnFq0yLJ6JYAuPIUfE80ISH8gb
+MkOvCtlrW9FQx5qxifgKjQFTU2zBKajM_JBR_MzIlA7kA13zRe2MNCQOSyddLa4zRCWDn3wrpr-vxGC
+}
+!procedure Unity($id, $name="Unity", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Unity', $name, $tech)
+!endprocedure
+!procedure UnityCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnityMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnityGroup($id, $name='Unity', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnityLg>', $name, $tech)
+!endprocedure
+@enduml

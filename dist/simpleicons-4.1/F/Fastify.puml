@@ -1,0 +1,16 @@
+@startuml
+sprite $FastifyMd [14x14/16z] ZSZ50GGn30D0XStglzl3_MVCneq1jFMURPjfb0RrVGIBPEfg08mgx_iCCoobluyT39a8qlBzoDCdK8pUacIb0MCq89Wot_DZ9gNXqMNWmWi
+sprite $FastifyLg [20x20/16z] {
+hOv70aD124APNXpb_hUDfYVh_rPM05UH4vpwwbejRLdEGsmZwCet9WNE8ktPZup7bJUFouvKLmj9e-H9BgM8trUq7lj3Qj-7kce2bf3cLrnjs02Ipq9yb-Lt
+CPzg1L3ZzjLy1Gc7d8kFC7nmHirua-AtuPkYvCGVkMTSn0q
+}
+!procedure Fastify($id, $name="Fastify", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fastify', $name, $tech)
+!endprocedure
+!procedure FastifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$FastifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure FastifyGroup($id, $name='Fastify', $tech='')
+  IconGroup($id, 'IconGroup', '<$FastifyLg>', $name, $tech)
+!endprocedure
+@enduml

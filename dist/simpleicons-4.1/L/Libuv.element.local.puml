@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the Libuv element
+include('simpleicons-4.1/L/Libuv')
+Libuv('libuv', 'Libuv', 'an optional tech field')
+@enduml

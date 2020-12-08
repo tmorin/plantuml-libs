@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobepremiereproMd [14x14/16z] PSUr0S104CJ0VJxklripMv6cv7AL9U4HuwkYEcvrhzwHyo65S0iw51oP6QT61jCf1MxLTNe_TFPJUecUwGm
+sprite $AdobepremiereproLg [20x20/16z] {
+bP250SGm200XD8xiF-sxH5-kZU5mq350Ieu6dCACR6NaFOsoQcgClOmPlENB1HjPlTmO8YkrCcS5bGCsyLZLeQGsdkQ8W9gXYtVXRjVBUhkIRx8Q6ndY_LZr
+-wTiCLCf4xcU0G
+}
+!procedure Adobepremierepro($id, $name="Adobepremierepro", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Adobepremierepro', $name, $tech)
+!endprocedure
+!procedure AdobepremiereproCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobepremiereproMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobepremiereproGroup($id, $name='Adobepremierepro', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobepremiereproLg>', $name, $tech)
+!endprocedure
+@enduml

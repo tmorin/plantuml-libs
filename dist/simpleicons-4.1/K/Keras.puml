@@ -1,0 +1,13 @@
+@startuml
+sprite $KerasMd [14x14/16z] XKs35G1H3Fj6bVsdFVEfTW97x0XtanKezUwIecIyNSruknpexK8PqPukAahv_6sJ-MMWP7zsHrO
+sprite $KerasLg [20x20/16z] jK-r0G0X40lkPFzfaURbg74uYV36gBRkAvZsnZBAEZq2HImWKiJy2edOhX8n3OH_h03HeuXOP5UwIuwLyEIfBn-nhbKxl1MJU6DC
+!procedure Keras($id, $name="Keras", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Keras', $name, $tech)
+!endprocedure
+!procedure KerasCard($id, $funcName="", $content="")
+  IconCard($id, '<$KerasMd>', '', $funcName, $content)
+!endprocedure
+!procedure KerasGroup($id, $name='Keras', $tech='')
+  IconGroup($id, 'IconGroup', '<$KerasLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PeugeotMd [14x14/16z] {
+JOo50GCn30ClpD7-szPz3be8k2vRXUBve_L78ys2yu4uTAWB6sPk1meruWol0pLSxUUeuNjW7-FHcUhHwVe1vu7WG1edIFgYQLCnc8_SrdI4eUsWBSc37rB5
+Qsi1nVxy0m
+}
+sprite $PeugeotLg [20x20/16z] {
+JOu50e0m24K_CLqmkFzjTM4ySyG332Xx34wG41PSOrB0Xs2XOQimcpkFHW9IjfXqlWLdTc_2vZk6skvx_9fkOoWLcWC-l0rzEiiNATe5yFYHW5m1z_x5Ag36
+MD3kpzmwOIEluy33Epk_8VqhDsjn__VAgf2nWlFNsW1GjcrC-MurciaXOK0_ZSR-JMxTL-pmtiFu0W
+}
+!procedure Peugeot($id, $name="Peugeot", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Peugeot', $name, $tech)
+!endprocedure
+!procedure PeugeotCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeugeotMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeugeotGroup($id, $name='Peugeot', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeugeotLg>', $name, $tech)
+!endprocedure
+@enduml

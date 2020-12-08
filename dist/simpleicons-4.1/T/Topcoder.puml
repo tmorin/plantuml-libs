@@ -1,0 +1,13 @@
+@startuml
+sprite $TopcoderMd [14x14/16z] fKk55SDG2EHzmxdzfstZ0oGu9_GX6gkq-vdO8aSRZLXMX7aM0Z1KHQCcYTeh-D97OlP6Zt_Gs_W3
+sprite $TopcoderLg [20x20/16z] nOw30GGm34L_6IVxJtlc17r531obRr6U3J_ig3lsuvnvSwIf-pPJWgYpAZDxPbRwFVrsesm0G_9ktxzRA0aF6ddbBOaZPE9DstuhmlZVe2rgECKL
+!procedure Topcoder($id, $name="Topcoder", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Topcoder', $name, $tech)
+!endprocedure
+!procedure TopcoderCard($id, $funcName="", $content="")
+  IconCard($id, '<$TopcoderMd>', '', $funcName, $content)
+!endprocedure
+!procedure TopcoderGroup($id, $name='Topcoder', $tech='')
+  IconGroup($id, 'IconGroup', '<$TopcoderLg>', $name, $tech)
+!endprocedure
+@enduml

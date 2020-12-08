@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogleplayMd [14x14/16z] JKvL0aH129ekHUv_sjrN4_mfgPAgTnF6tCkwG6HeN1UHmEw_wpsPlkivfI1_5n4pIVNlfIaRsJtUmr16t2a8io73okophDtlPIMwYPRTWJy
+sprite $GoogleplayLg [20x20/16z] {
+PT05WWCX30NG2T4Hykz_sjrsF1JduVHK2PfAIBWiNAqdJ79kWq45wMy3TiGcrQ0AO6t58BeF5OCQiF7iz3A8zJP_N5u6eNclvyUIoVVQRaiEi66__Maf_YrC
+tdSn09tBdJ-KLj-coA3oDbEihVwBowh3dmRfyCyHqq_u1m
+}
+!procedure Googleplay($id, $name="Googleplay", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googleplay', $name, $tech)
+!endprocedure
+!procedure GoogleplayCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleplayMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleplayGroup($id, $name='Googleplay', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleplayLg>', $name, $tech)
+!endprocedure
+@enduml

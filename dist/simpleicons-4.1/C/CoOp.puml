@@ -1,0 +1,20 @@
+@startuml
+sprite $CoOpMd [14x14/16z] {
+9Ot50G1120EpRi3qN-qfH5_P0L0gG6I74_IE7wZGLLcRgi64fjnqAEhC8ARJ1hQ2rXw9az9vR4dgQwJNPfMc0-GSW2KuPJCNkneTcYh7A6fCc1hiTs4n3k-r
+GtMegQopgemyJzL_Rtlj1W
+}
+sprite $CoOpLg [20x20/16z] {
+JOy7WiGW30D5SmkO___sbFKrfp0QkjZzr4RRHGQBejFQAGhmbwOSiXO7g-MzdKw1UQzpaGcyVxe5jBMwtnp0OgPpqZDWJ6ZESKaPdYHEoNWOksZjzW1lhkKn
+pTrM8osIJh2Qa7gHVTIIck605oqS_lVcRyoN6BCH0b0kRVpGkD6eCxFn-7zcgRkLqt9dBIueh-kB2mx_Fcbskhv9kxNk9_F4m4EtRlBch3v61puEi-EloXLz
+0G
+}
+!procedure CoOp($id, $name="Co Op", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/CoOp', $name, $tech)
+!endprocedure
+!procedure CoOpCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoOpMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoOpGroup($id, $name='Co Op', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoOpLg>', $name, $tech)
+!endprocedure
+@enduml

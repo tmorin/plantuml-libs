@@ -1,0 +1,20 @@
+@startuml
+sprite $IcqMd [14x14/16z] {
+7SsteK0n2CLGEUCBFFQVzWUhEvM04xvyN_6IoTLcD9vQgmtUeKrBaSOg6H7xredRIaDc0yQNaGUqNUjSfwTdELDL9LhO-Tli-DDt_UlG_Md8LcssQ2iFTj6d
+TtJOrUm0q6BYSk-yPgJH6i0l
+}
+sprite $IcqLg [20x20/16z] {
+HSx50IGn34JHRsg3eFAFTi53xoOM_rdcBE7Jil5M8hHhdcUhy_OaFTE0xRpDWAq5FF4PRTbvj06pLg5sprIK9eCfXGwftOR9Mpf3CVuFkG4iXV99Br3L_Rm_
+75DMsrXvP-Uso0PJAIagjOV-oGf3TjQqhDIRqwaz5__vxbENXRicmB8sRceH1xj_-u9ffWFc59Slptgx0pXPc3xjt1G-xzkJwNpO1YpovEAZQu-Zsi_aPtXu
+Wu-_
+}
+!procedure Icq($id, $name="Icq", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Icq', $name, $tech)
+!endprocedure
+!procedure IcqCard($id, $funcName="", $content="")
+  IconCard($id, '<$IcqMd>', '', $funcName, $content)
+!endprocedure
+!procedure IcqGroup($id, $name='Icq', $tech='')
+  IconGroup($id, 'IconGroup', '<$IcqLg>', $name, $tech)
+!endprocedure
+@enduml

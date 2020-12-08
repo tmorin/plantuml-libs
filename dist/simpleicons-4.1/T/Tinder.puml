@@ -1,0 +1,16 @@
+@startuml
+sprite $TinderMd [14x14/16z] TSp50G113090rZMX_shFNUON0QnwnaKJSvaAApRMGCYq3Me3IRLhXbKvMOe2DxAKS-S0ouC7_Dza0IFSD4oShaCtc9aiP4_pC08
+sprite $TinderLg [20x20/16z] {
+PP350KKX3C0UxcJ_QR_Yv9Xwdq4gyZc9LLtESISwoEAi1SAQenzH-Q27ijWdyALq9Il1ySSsbvYalp8iL7MbjM9LD-V_GnVQYfuZxtQktNdDbMLryTvll4kF
+p3G_A4ogK4BxoXi
+}
+!procedure Tinder($id, $name="Tinder", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Tinder', $name, $tech)
+!endprocedure
+!procedure TinderCard($id, $funcName="", $content="")
+  IconCard($id, '<$TinderMd>', '', $funcName, $content)
+!endprocedure
+!procedure TinderGroup($id, $name='Tinder', $tech='')
+  IconGroup($id, 'IconGroup', '<$TinderLg>', $name, $tech)
+!endprocedure
+@enduml

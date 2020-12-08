@@ -1,0 +1,13 @@
+@startuml
+sprite $BitwardenMd [14x14/16z] RSh50GD130J1PPOw_sZjOwxV05SLj6yKWM8s1ROagCj70Yv9RudlrDVdC8rPc19gFGjnnbRhX9L6Ow9ow7rzLU4W_Wy
+sprite $BitwardenLg [20x20/16z] lSZ50S0m34DHXT7M_jEMEVV-e1_78iVISYGz4b8NAtYK5xYjjjO2oilMRqB-p-fj0NKtjQTr6ELUFamSCi_2PiqYy2ukjfoLxee1JEOxYL6Eht8inVHXJPW1
+!procedure Bitwarden($id, $name="Bitwarden", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Bitwarden', $name, $tech)
+!endprocedure
+!procedure BitwardenCard($id, $funcName="", $content="")
+  IconCard($id, '<$BitwardenMd>', '', $funcName, $content)
+!endprocedure
+!procedure BitwardenGroup($id, $name='Bitwarden', $tech='')
+  IconGroup($id, 'IconGroup', '<$BitwardenLg>', $name, $tech)
+!endprocedure
+@enduml

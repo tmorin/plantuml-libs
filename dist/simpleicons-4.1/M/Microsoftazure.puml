@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrosoftazureMd [14x14/16z] ROl50KDH3CFy61FjFssP-tKoweZmQMg9RpDssNeG9gLJ7svYmV7xDKCfmBYvZUlgI9TJXIvrO4dZyPX04TVgoeAjd7DGJBNlHnvIgRst2rLVd04
+sprite $MicrosoftazureLg [20x20/16z] {
+bSu5WWGX34JHmXhByEz_sssNzNcu9dfRq1SvEwUdEbpBkdETx7WvNOA1c-1sqGyeCi3hq83WcJNj8b1LOHQrCHXnlGocrGHqIHtOm_ZN-cIVhFcaVBw8WrcH
+rZ5fbM0MD6QcNM7Mv6TESZwat8phbO-fL3FhgwA5yyxfTny
+}
+!procedure Microsoftazure($id, $name="Microsoftazure", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftazure', $name, $tech)
+!endprocedure
+!procedure MicrosoftazureCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftazureMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftazureGroup($id, $name='Microsoftazure', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftazureLg>', $name, $tech)
+!endprocedure
+@enduml

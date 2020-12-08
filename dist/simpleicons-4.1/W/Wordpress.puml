@@ -1,0 +1,20 @@
+@startuml
+sprite $WordpressMd [14x14/16z] {
+9SY50SKm20JGIt0Yj_-qNzg70umgcs9L0p--x3U7jVrxukKqz4aVdcdOlEEG0I45oHFkJA1e6CoQuzu1umAsraHJ4Voz5jgWB4HH9T5bkCTiiaCqQo6v9ZPh
+z1nUmWquino_sGn0U0n_C_id9e0l
+}
+sprite $WordpressLg [20x20/16z] {
+HL270GGX20jYGy7il-tZVOkL3a52TyocscPinGVDVMWfEjpxHpMZ_QtphNB13yPKQajLBi4zWsJ33l9Cp9DFUtGk-UK6KhfHSkYdsLoal2K0dNjQBPtiAMsU
+2WXDNQMyW_idk2EqOF4Km6vsb2WIJT79aR6BhEWRrUU0H0RteTTa0sE5umQBLNW6PxZtxGsLdBDWa6EXkMWBGJmPCvXL7aBCfQU0coEAsuUOmOr4PyJyiSQj
+KjJuPnBIbaVuQlA8Bm
+}
+!procedure Wordpress($id, $name="Wordpress", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Wordpress', $name, $tech)
+!endprocedure
+!procedure WordpressCard($id, $funcName="", $content="")
+  IconCard($id, '<$WordpressMd>', '', $funcName, $content)
+!endprocedure
+!procedure WordpressGroup($id, $name='Wordpress', $tech='')
+  IconGroup($id, 'IconGroup', '<$WordpressLg>', $name, $tech)
+!endprocedure
+@enduml

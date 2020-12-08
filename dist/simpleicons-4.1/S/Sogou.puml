@@ -1,0 +1,20 @@
+@startuml
+sprite $SogouMd [14x14/16z] {
+7Ko54S1032BlyVstBTUu081Ol7DUc81syWrWl3pyd1oiO7Arb17TNRv6ZdYehdkj6a_9uMC3c1Xn1Bk8jFapXVK6zyVj3NayZEocN2fvyHwbe4zp3etgj3b2
+i9Byt-O1kDeQiXVrGPFZ4RwTomS
+}
+sprite $SogouLg [20x20/16z] {
+FP274KGX20MVaIZqt-qTe_FNl6O0O7Yu48c73pnMXD7UP1dhAKxfjzSb-Qc5ZrLohBzgM_suqcoeeGTZH3w2mD4YEkm_qhrPJnfwR5VWPDwpsrg0cX10jUt8
+UniTtjL4sV3gOqSve957QU_bb85UUcfP0_WS0_mUDMi_O9evwbuNPglD63dL5Qj6-SupHnj9G9iaAZo14NNEBldHruk5tqvhW9w6ebiU4z6GvR6-7QJkIfsr
+0_W1
+}
+!procedure Sogou($id, $name="Sogou", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sogou', $name, $tech)
+!endprocedure
+!procedure SogouCard($id, $funcName="", $content="")
+  IconCard($id, '<$SogouMd>', '', $funcName, $content)
+!endprocedure
+!procedure SogouGroup($id, $name='Sogou', $tech='')
+  IconGroup($id, 'IconGroup', '<$SogouLg>', $name, $tech)
+!endprocedure
+@enduml

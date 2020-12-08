@@ -1,0 +1,16 @@
+@startuml
+sprite $CheckmarxMd [14x14/16z] HSo50O0m34JHm-4IylVV5gUltiXaVjcvQ4OWVGj82BsIWbNghiS2URsYHdK13DUhsESTph_hjN29JlTB1XPrstI_53dSRS1wcKjitiuP42v-DQXtlTph
+sprite $CheckmarxLg [20x20/16z] {
+PP054iH020Hd5-B8_tzxDMjd7UyYMAcMNuIYIkGtEupg6qrY2qOyFKEPC1FzZJTrk0j0wKgCCTsTTbBjJ1xI72iTA7UI3Sr9KZhlhkWELmxkWkcA9Oa3A7Ku
+j0bDMDdtuLZcud_do05IAiZTNGWwfUVm9fy5qvx_kuhwjzDG0FMqMDXPWHS
+}
+!procedure Checkmarx($id, $name="Checkmarx", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Checkmarx', $name, $tech)
+!endprocedure
+!procedure CheckmarxCard($id, $funcName="", $content="")
+  IconCard($id, '<$CheckmarxMd>', '', $funcName, $content)
+!endprocedure
+!procedure CheckmarxGroup($id, $name='Checkmarx', $tech='')
+  IconGroup($id, 'IconGroup', '<$CheckmarxLg>', $name, $tech)
+!endprocedure
+@enduml

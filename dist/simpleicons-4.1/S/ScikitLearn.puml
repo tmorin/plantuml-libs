@@ -1,0 +1,16 @@
+@startuml
+sprite $ScikitLearnMd [14x14/16z] bST70GCW5C1GDlmP_sgxAu1tIigjfRR_NHr0VsTyj79KQeECW5u0Nvm89-lxiDWgH_RP2KYOcfmrPrygTPdfBbUU
+sprite $ScikitLearnLg [20x20/16z] {
+jS-r0GH1243HKLpwh_PkNGhO3z4ZednNcz3VqYsNj3u8SazlcdasBjFBi1JHC2WzbzpCDzjl8mDyjt6OGpA5kQdH67spe0G50G06SjmDauM4UTc10rRroXdB
+-2nxjVUwFGQzVDCV
+}
+!procedure ScikitLearn($id, $name="Scikit Learn", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/ScikitLearn', $name, $tech)
+!endprocedure
+!procedure ScikitLearnCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScikitLearnMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScikitLearnGroup($id, $name='Scikit Learn', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScikitLearnLg>', $name, $tech)
+!endprocedure
+@enduml

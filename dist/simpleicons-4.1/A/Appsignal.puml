@@ -1,0 +1,19 @@
+@startuml
+sprite $AppsignalMd [14x14/16z] {
+PSwt5KGn449HPD4VXgF-grtlzqNS3E2_KZ_GxV6MU_DjB1te2UIup2g6rWBM4Q9dGUm6j2tWgh89p5rHhkfEHNhS5GI9gOj4kjmEcCmbEs_PQhTRjRLQ2tux
+0m
+}
+sprite $AppsignalLg [20x20/16z] {
+bSe5SaGn30DG6JPsKFU_RProE_XVq1hXANVyryaX-2FepiHliZkGvxCO_NI5qm6ZGsiKdZn7urPaf-mQnyZwxpLG-jv74Um1w66WDDA05tl3VH8b6FZEgf0Y
+mT_PcetdCER-o09GDbY4rMWtcnqO6v_M1FAGSp6rI9tW7emMQsr-ssi5BZNtLt4tnGDl
+}
+!procedure Appsignal($id, $name="Appsignal", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Appsignal', $name, $tech)
+!endprocedure
+!procedure AppsignalCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppsignalMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppsignalGroup($id, $name='Appsignal', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppsignalLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $McafeeMd [14x14/16z] ZOx55S1024JN5PZ-kmtoadF-AZvRUEHaT9Ao1TJTk70Bu34822juhTNPmZEigKNQQNoMyiVQOMsrZW0yjGT3hMeF93I4G2Ya_w0HDVyy
+sprite $McafeeLg [20x20/16z] {
+jT2r0GCn341HcKcm_xG1GR2-Npwpnn9i2RpKZYnu68qIbWUPYV1IBPD5pBHTodv8cCKgRoFnw6KCZ-CUOGTw6q3TkoNuDEzAoq69vVtUhFBtthpYRIbFaeze
+sfAE8JW-lXTLkejN4IjuTm
+}
+!procedure Mcafee($id, $name="Mcafee", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mcafee', $name, $tech)
+!endprocedure
+!procedure McafeeCard($id, $funcName="", $content="")
+  IconCard($id, '<$McafeeMd>', '', $funcName, $content)
+!endprocedure
+!procedure McafeeGroup($id, $name='Mcafee', $tech='')
+  IconGroup($id, 'IconGroup', '<$McafeeLg>', $name, $tech)
+!endprocedure
+@enduml

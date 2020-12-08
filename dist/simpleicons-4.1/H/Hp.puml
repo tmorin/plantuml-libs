@@ -1,0 +1,19 @@
+@startuml
+sprite $HpMd [14x14/16z] {
+9Sx50G1120J1OTsWyu_sj7uuagsZ1KpJex9rWAYILIYPJzKCGXq8Zp1WAjjn5Pi3oFKPxERg3gxJ4ZQM7EWM6aUd9XxMjxmbr-3mPZEob88ntN6czWd2hF78
+vRykrS2r_iyUDfg53vDq0m
+}
+sprite $HpLg [20x20/16z] {
+NT07WWGX24JHGcNQoB__RLVTFA-Z6T2Mvp8jjf7rnTVk2xRf-bIXwSMd-jr5KUUtCpkmb8Dlhh7kMEaJOlJUOnb7Kf8QLMPAEDjGfgZjPqobw6ok5acSzWbW
+0M6YoQcg97K2RjirTdjEPMvVqLooc2gyzC22QKRJSzfXcj3XsUsiWKcc0lXOumbQeoktsWAcPUUw0Lv-Qt0iitWh35NEyVpKz0RqKzFBl5gArTrqV
+}
+!procedure Hp($id, $name="Hp", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Hp', $name, $tech)
+!endprocedure
+!procedure HpCard($id, $funcName="", $content="")
+  IconCard($id, '<$HpMd>', '', $funcName, $content)
+!endprocedure
+!procedure HpGroup($id, $name='Hp', $tech='')
+  IconGroup($id, 'IconGroup', '<$HpLg>', $name, $tech)
+!endprocedure
+@enduml

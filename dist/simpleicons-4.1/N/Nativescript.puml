@@ -1,0 +1,16 @@
+@startuml
+sprite $NativescriptMd [14x14/16z] LSw53GGm5CFG558Ll_UVzXWjV4BtmwUJVm26LHr0Bvi3bXfWDNX8_KzQBqLMjH9MZeSSIRPA09PPajHuYVud_DAk7GZNpVaxQxbzVAmh
+sprite $NativescriptLg [20x20/16z] {
+RP054e0m30IlTgJ-_zSYAGxLdKsgdlrL2ChR2VgtXBLNEhQHeb1McW1mP01JFmYGdNXpo3_Er9Sp1l1AGLKsAoK0r6W-dDSDqkRAiTRtvW1hhlrqhxeA7ExO
+EVsuBZV7rHt1ussDNXHgSApZ3zubI7gh282Ft1A01G
+}
+!procedure Nativescript($id, $name="Nativescript", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nativescript', $name, $tech)
+!endprocedure
+!procedure NativescriptCard($id, $funcName="", $content="")
+  IconCard($id, '<$NativescriptMd>', '', $funcName, $content)
+!endprocedure
+!procedure NativescriptGroup($id, $name='Nativescript', $tech='')
+  IconGroup($id, 'IconGroup', '<$NativescriptLg>', $name, $tech)
+!endprocedure
+@enduml

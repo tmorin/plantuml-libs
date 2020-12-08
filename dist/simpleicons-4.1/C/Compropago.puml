@@ -1,0 +1,16 @@
+@startuml
+sprite $CompropagoMd [14x14/16z] PSU50G0n20H1YFlst-sx1hsHkTIiQ_M0fsi2qW5ifiLA576C5TKaryQEjABX2_L6SZIuODT83YS6JcW-xM25G8sTx7Q8pq3KiM8lOtKzAdCj
+sprite $CompropagoLg [20x20/16z] {
+bSZL0S0m24LH8Avl_sqBgVUlDygXVqdqUlkepvcVc2mDMfEB4Dp0glD9dlKgp1d8IkwaJBb9mJX8Xb41OWHu4Pyqk61sdS9D4W5zdyJ1BflwawOZmASFgMNf
+wKbcI2pLA1v4VM0rv29YruqgY_gYfJv66q8K-jS6
+}
+!procedure Compropago($id, $name="Compropago", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Compropago', $name, $tech)
+!endprocedure
+!procedure CompropagoCard($id, $funcName="", $content="")
+  IconCard($id, '<$CompropagoMd>', '', $funcName, $content)
+!endprocedure
+!procedure CompropagoGroup($id, $name='Compropago', $tech='')
+  IconGroup($id, 'IconGroup', '<$CompropagoLg>', $name, $tech)
+!endprocedure
+@enduml

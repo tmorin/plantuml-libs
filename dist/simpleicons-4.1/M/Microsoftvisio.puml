@@ -1,0 +1,19 @@
+@startuml
+sprite $MicrosoftvisioMd [14x14/16z] {
+HOw54G1120F3SOwa_sv_tdS49y69HYW-bjdwYcc0ppDJBIErG79gBPaaaph3p3Bcu6vq4m114zP1nqcGEZKOwvvnef7j_0idinXPOQlrv8rYnTfJH5h8kLK_
+Owh-M-lk0oS7
+}
+sprite $MicrosoftvisioLg [20x20/16z] {
+PSy50iGW34JH13Q4RcJkVzgwzzTV3MYl0OrUTQ1_IEI5VNdnYGeXMb2towwgYFd0n84-9pZxSQIvUm8f0n3LeUwyVc6zdr1oOAND1dAmh7HQbkRq1zBaD3IM
+ai3mXvvcwsmXfAY7eP2lHcwb5bqj4vjrv58i0H5UPeiwnxJKWzQYqncdyxotPBggcMQPbUvnCrEchGa
+}
+!procedure Microsoftvisio($id, $name="Microsoftvisio", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftvisio', $name, $tech)
+!endprocedure
+!procedure MicrosoftvisioCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftvisioMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftvisioGroup($id, $name='Microsoftvisio', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftvisioLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CashappMd [14x14/16z] LKw30G0m3ClizVzhPzPkGgP3MOnaardUscxJYAC26z58m3LdUyV1jzBk9GRHyfDg1hkJzZD1xAUCQm5tCK0-Uqwl_H-PC6d7oQ02
+sprite $CashappLg [20x20/16z] {
+RP050i0W203FRlt_QzV9fdH3I4EyH2hILXZV5sunsxmBzJ8rmn7Gpo05gDWV9IeORnNfrLyj8VKLby5LqRvRK2RBwJNmsIbhpADUysMX_cLBAEijn6UBhHf1
+58DhbhD0TNTG_RlLtqqXrFxeLeDY1W
+}
+!procedure Cashapp($id, $name="Cashapp", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cashapp', $name, $tech)
+!endprocedure
+!procedure CashappCard($id, $funcName="", $content="")
+  IconCard($id, '<$CashappMd>', '', $funcName, $content)
+!endprocedure
+!procedure CashappGroup($id, $name='Cashapp', $tech='')
+  IconGroup($id, 'IconGroup', '<$CashappLg>', $name, $tech)
+!endprocedure
+@enduml

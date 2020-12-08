@@ -1,0 +1,16 @@
+@startuml
+sprite $VagrantMd [14x14/16z] JSg50GCn30D0XJdQVzlABlq5Z8TS2H8NsIaTOjcYqJ1Hvg4Ke7XiLcvWAnp4vgk-s8186OCI0Kn-J4ZcHuRPT1kkqJMuS6a27aCVkRXMX7a1
+sprite $VagrantLg [20x20/16z] {
+HSy54a0X409Gh9-ktF-q9evlqbhG2ca9aemigR2x7IPtixiuMK0NCeUVouLE5rukDxgRK_ZMpUm0fwS8Uf20jCSuRnm-u5jn7e16Ugy4TB5mU1vE4SFkemIS
+MgVeP6VB86kI4iIVFGzHCoL8f4GScVlNXtlAgAsjpVz_W3G
+}
+!procedure Vagrant($id, $name="Vagrant", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Vagrant', $name, $tech)
+!endprocedure
+!procedure VagrantCard($id, $funcName="", $content="")
+  IconCard($id, '<$VagrantMd>', '', $funcName, $content)
+!endprocedure
+!procedure VagrantGroup($id, $name='Vagrant', $tech='')
+  IconGroup($id, 'IconGroup', '<$VagrantLg>', $name, $tech)
+!endprocedure
+@enduml

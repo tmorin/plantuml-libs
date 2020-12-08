@@ -1,0 +1,19 @@
+@startuml
+sprite $EventstoreMd [14x14/16z] {
+HOt5WKL120IPPsD0vP_jqlkjJaYB5SSJaDrU3Dz0d9flZrneRTPkkAodjcdFoiUaYDXSmTHIKP4C6FPYmqg-oRKjdxzj12X5CSlFMlDgjIIu-dPcxbeu9N70
+9J7Hf9wzrVW7
+}
+sprite $EventstoreLg [20x20/16z] {
+NP3L0GGX30LnYxp-kxqDkTNvOuW79tOO8uQBcBkQM-bILQ0JXbOtcPWXxg3PL55egr7SoKWX9W7cyTNcjYGZbCP2mMaYj21naTpDqc85ieM72y91WrVxKyoD
+jqlRCQ_nSNqkbST2Lh38iqbIccl6INV5n82WXsIjUBIKKhqN7bYq7xHT2yRq1v4h9_EEMm8kzvaRAK2j-Eb_
+}
+!procedure Eventstore($id, $name="Eventstore", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Eventstore', $name, $tech)
+!endprocedure
+!procedure EventstoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$EventstoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure EventstoreGroup($id, $name='Eventstore', $tech='')
+  IconGroup($id, 'IconGroup', '<$EventstoreLg>', $name, $tech)
+!endprocedure
+@enduml

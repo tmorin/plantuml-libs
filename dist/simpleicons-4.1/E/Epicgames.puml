@@ -1,0 +1,19 @@
+@startuml
+sprite $EpicgamesMd [14x14/16z] {
+FKk50GGn2AiBa6J_QV_FMoosgUyn7oW0a8WJoSkgROnMGWUooNxWkVn4dbThemsAjrQmwtgqkffsktEK1qI6YnTYXBdV27tssVhgk9odKG0EhPia7kzObbAg
+cvmJj9gkboSmytdz0G
+}
+sprite $EpicgamesLg [20x20/16z] {
+PSq50iKW30DGLZgMQkv_sk_-WpziWJ_1-3SRozXk4OZs3kJDmDeKKyG4CgMVrYsXQovDgQT5IUnNA_JJv50LNAp9fsNDwNazjzVJsE9CkTYMJvkOLtl-UnWx
+BACl0nF5kxtJvDDWZJgmO8Sz_zM5OJhdigNrE1UMcT7X7izpFy4GhSVhpqx76DiAicpVKMIiRToZndPlcbxb6JcQaCVY3
+}
+!procedure Epicgames($id, $name="Epicgames", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Epicgames', $name, $tech)
+!endprocedure
+!procedure EpicgamesCard($id, $funcName="", $content="")
+  IconCard($id, '<$EpicgamesMd>', '', $funcName, $content)
+!endprocedure
+!procedure EpicgamesGroup($id, $name='Epicgames', $tech='')
+  IconGroup($id, 'IconGroup', '<$EpicgamesLg>', $name, $tech)
+!endprocedure
+@enduml

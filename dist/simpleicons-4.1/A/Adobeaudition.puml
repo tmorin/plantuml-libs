@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobeauditionMd [14x14/16z] ZSor0S1020LGv1pRVzguLtaL-YqUIZoD-BBXZwv2knldJA4S8sslRAWAqMYB1OQc67tj7Cl89D3pskboxgm5kSH_8tUzT9m1
+sprite $AdobeauditionLg [20x20/16z] {
+fP05ZWLX28DB6Gtpj_S_xHgHVMvVZE1j3PynE7IUK_gIyYiikP-d1f0wowsneEnrjPVL3VF0QWLbi0T-4naoKuxit0fEWJ8f1pkN88cvSzrNMAH1QCQoedCR
+ZjyNKHK8TaxjZ7uZIVw8kkPfSAyJTk8R
+}
+!procedure Adobeaudition($id, $name="Adobeaudition", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Adobeaudition', $name, $tech)
+!endprocedure
+!procedure AdobeauditionCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobeauditionMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobeauditionGroup($id, $name='Adobeaudition', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobeauditionLg>', $name, $tech)
+!endprocedure
+@enduml

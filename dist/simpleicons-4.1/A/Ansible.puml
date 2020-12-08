@@ -1,0 +1,16 @@
+@startuml
+sprite $AnsibleMd [14x14/16z] LSx50G0X30H0dFZsN-svpWlYAMN6WNFQzC0X-fRfUFJ4HsQs8vjngDcn8UnaqC36pXIZ1YvMgWx6PSnejLsLKNoVRW1nm8uYjYtyttvTTdqscGmmsezU0G
+sprite $AnsibleLg [20x20/16z] {
+RP053iH030C3NTwS___Qeeyx8ckaeEpu01ak94sGI5GL7zH_TKfFpEqPaenWDE6aK92kbXaJo9AwigHJpRrIAulfYWIAuPCmjGZfdwxBBDBJybdh2QXg4kyP
+ywmQUjsKnd5_zgl8Z-AfvsqFV93kVl3_gzkV4aqzTj6Joi46
+}
+!procedure Ansible($id, $name="Ansible", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Ansible', $name, $tech)
+!endprocedure
+!procedure AnsibleCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnsibleMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnsibleGroup($id, $name='Ansible', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnsibleLg>', $name, $tech)
+!endprocedure
+@enduml

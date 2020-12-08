@@ -1,0 +1,16 @@
+@startuml
+sprite $TeradataMd [14x14/16z] POq50aCn3499Vjsu_srNEjzUDGQ0LHwQOHCNkRXF12oIqvqYeguT6SPKLKb5C8Nb4QMiqN4YW6-c_KVww5g6jlGfxMu4ICyzAypNjQCC8F6WG7ZPqxCuW1i
+sprite $TeradataLg [20x20/16z] {
+ZSnL6iGW34NXYrQ8x7-tao-4vdLEbH-1rPP6go4QT8n7q6q3el3x8-cbweTjg2KLq6XWaLi3dkTrew8QwwpAUs5QgqDyyAQnR59Eq-mVoxqDQIljFJP9zXSe
+hT8-fqythh1wJCSUdgtropQziCevoC2em9kiXw-2gCnbp6jM7_u
+}
+!procedure Teradata($id, $name="Teradata", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Teradata', $name, $tech)
+!endprocedure
+!procedure TeradataCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeradataMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeradataGroup($id, $name='Teradata', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeradataLg>', $name, $tech)
+!endprocedure
+@enduml

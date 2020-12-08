@@ -1,0 +1,16 @@
+@startuml
+sprite $MarkdownMd [14x14/16z] VOs30KKn54DJEzb_sizddVPQUC273LPRABNn4xPVR0mJiYhuZIoCGL71-DMIIxOCm58YYeR9AkZIiaNK0Uwluu4t
+sprite $MarkdownLg [20x20/16z] {
+fOx50S0W54E3Ezb_sheNJZpqUp20L3zG_qIsIMcvIYhhDtCZ2tWM2Rjy8G-VX8W6kqzTUGlYurC1sYy-YuLu-EXpNFCqu8-yjN608QkqtAYRWBffAUnHMJym
+gZyOOGO
+}
+!procedure Markdown($id, $name="Markdown", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Markdown', $name, $tech)
+!endprocedure
+!procedure MarkdownCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarkdownMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarkdownGroup($id, $name='Markdown', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarkdownLg>', $name, $tech)
+!endprocedure
+@enduml

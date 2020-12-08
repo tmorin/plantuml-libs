@@ -1,0 +1,16 @@
+@startuml
+sprite $SparkfunMd [14x14/16z] JSx50K0X30FG2cxPVzelU6uFQlH76ZpJYWKCtOfazsy6AkBeyimLd_jdQ_qJa0yAb8B-rpMJw5AJI-L7L_LkRTTPiwHqwJhn1G
+sprite $SparkfunLg [20x20/16z] {
+PSZL0KKX50EmubpXTFzfd-2Ipw0Af7Y5HVoTMqydyiPA_Kuib9ypy2VUT7FUp5vKxhB0cqyCCi-aWCZC8KiKhwpCfuHa7IRTRdXmdZqluBXSuoIzqM0-iSYc
+4uFZB8xps6c7rHS
+}
+!procedure Sparkfun($id, $name="Sparkfun", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sparkfun', $name, $tech)
+!endprocedure
+!procedure SparkfunCard($id, $funcName="", $content="")
+  IconCard($id, '<$SparkfunMd>', '', $funcName, $content)
+!endprocedure
+!procedure SparkfunGroup($id, $name='Sparkfun', $tech='')
+  IconGroup($id, 'IconGroup', '<$SparkfunLg>', $name, $tech)
+!endprocedure
+@enduml

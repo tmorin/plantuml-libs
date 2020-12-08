@@ -1,0 +1,19 @@
+@startuml
+sprite $RedisMd [14x14/16z] {
+RSU50GH120F017RHa_whVVU_GOC3gg-NP2wat8BlkmDps-so5JgcErLe6LKAfW5M3aAo9-XjaAZBPYpNFqi1wn10CnMZRgig1RDSBk-02goTk91iZzj_HpVY
+tna
+}
+sprite $RedisLg [20x20/16z] {
+bL1L0aCX3AlW5Uv_suNvzlU2XrJf8hWt-UUAxquVw7BlmfNBIYiFhk-zZObavlQAis5Z5MbZAZ5SwdIWyxcbtTqk7tWsYoaGCvYduCXNBFYk5c2uU-PIk5qP
+6Pt0X2dB3AluFi5ak1t5NNrth3EMdZ0HvrajtME2gUwjr4TOdKCU32Jd-IofUZHw0N5y36Z-McLMwI9k
+}
+!procedure Redis($id, $name="Redis", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Redis', $name, $tech)
+!endprocedure
+!procedure RedisCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedisMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedisGroup($id, $name='Redis', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedisLg>', $name, $tech)
+!endprocedure
+@enduml

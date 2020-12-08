@@ -1,0 +1,19 @@
+@startuml
+sprite $BadgrMd [14x14/16z] {
+FOu55W8m241fbkx-jvLu-XTqG82g84PGb1OUJ9sCeQK0YeR2lYLob1MHYLayqarCnC-x0t68RlVN35dJVStX3BB2iLcPRIude9jMZe_04Vpid13Co5jh_AQV
+zwxyDzDdfTVQtbj-0G
+}
+sprite $BadgrLg [20x20/16z] {
+NP25OK0X30NZWkw_RO7Kxmjm3uU2p8524Nx1Re1k_6F8ZJuJXCByEvVGAgIQValK82H701BLQ3Fms2D8Zn54kl5T6OyBOP8SQuO1HcFmR4BMrzg7uGZIpVRY
+t8_hLuhDR8rxYmmNe3PVc4ZfggPCTqsTvHHGh9tPqX1eF6TruDjZEj1y3f_4iQzbsN7FnYLhXHxqwmxagg5_xohsj7zt2fa4lq79O2W-
+}
+!procedure Badgr($id, $name="Badgr", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Badgr', $name, $tech)
+!endprocedure
+!procedure BadgrCard($id, $funcName="", $content="")
+  IconCard($id, '<$BadgrMd>', '', $funcName, $content)
+!endprocedure
+!procedure BadgrGroup($id, $name='Badgr', $tech='')
+  IconGroup($id, 'IconGroup', '<$BadgrLg>', $name, $tech)
+!endprocedure
+@enduml

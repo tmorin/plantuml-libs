@@ -1,0 +1,16 @@
+@startuml
+sprite $ApachekafkaMd [14x14/16z] RKxL0KGX30jM3Tr_stE_nnUD0t3tmElb6dnVxfOOrXzd49tEnsa1uSLmzrKnkVDsp6hOYe7NLOhP7Y5L338Vf_eZvTqGRE_shlresTWr7zyp
+sprite $ApachekafkaLg [20x20/16z] {
+PP17WW9G24FpUuFa_gUTiIlwTdGIN4YqfOv0rXuQ27GcR4UWQ5Pk8FU25rEoZ4PoV4mRa7nZCRqRFIEfNrhpywv974kSD3mmzMgoCdszshY0meah8QUGmz6e
+BgkBExyQZyI-vDCDByRZbyhozVD9rv-3jagn1myMa5gENXb-FPs8D6hXpJy
+}
+!procedure Apachekafka($id, $name="Apachekafka", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apachekafka', $name, $tech)
+!endprocedure
+!procedure ApachekafkaCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApachekafkaMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApachekafkaGroup($id, $name='Apachekafka', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApachekafkaLg>', $name, $tech)
+!endprocedure
+@enduml

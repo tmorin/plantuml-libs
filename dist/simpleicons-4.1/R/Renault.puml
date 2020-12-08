@@ -1,0 +1,16 @@
+@startuml
+sprite $RenaultMd [14x14/16z] LOs54KKn3CDSvch_QJ_a7keeOD2F36jd7NIOknzB10P46HDQXQd3XVU0EHTqgS5oSlQIxFdQYkGMj4FvJZaQQeDvj5lvsQw-9tGT-0NRwySN
+sprite $RenaultLg [20x20/16z] {
+RP254KKX30JlkSBsN-sN30ux5fUJiG6yR2hO0HwE8ZHvm3tuMOaBu0Ik55giynzZKU0rppAlYgMtT0FiHTaghRbm3sL5uVG0R6d8CvMnq3mDUySxGc5PbWh3
+pULlvrFzfYj8m5LfzJYejDA1THugcExmWl45
+}
+!procedure Renault($id, $name="Renault", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Renault', $name, $tech)
+!endprocedure
+!procedure RenaultCard($id, $funcName="", $content="")
+  IconCard($id, '<$RenaultMd>', '', $funcName, $content)
+!endprocedure
+!procedure RenaultGroup($id, $name='Renault', $tech='')
+  IconGroup($id, 'IconGroup', '<$RenaultLg>', $name, $tech)
+!endprocedure
+@enduml

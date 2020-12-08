@@ -1,0 +1,19 @@
+@startuml
+sprite $MicrosoftacademicMd [14x14/16z] {
+FSp5WG1H309GliVflzgLiNUAWbl7fk8n1CviTpCPHjAkPZE4_oQ0mpgyAA0anQ-kqCJ-ftvrssd7IVjlFOga2Ab1xhxCyieKiejNkLSAFG906sAUQQKRjt7C
+NHi-StVW5m
+}
+sprite $MicrosoftacademicLg [20x20/16z] {
+LP073iKm2CNI4JQy-z_s9_njJQpMY8mFnnXNWSSlvnWt8BzAYiu2G5-b00SMTRvRlfIZqLSgbbAyw0-l18JVgbVVEwrKRnUhrMaOvSlL-fDcruC2JHvd8kRS
+OtAsq-oCtzAoXsdctU2zmtlvEfoKjxQPW1fWWmILphPtB4dxO6RnrGnnv9AcxtjFidIhP2JxpukoMRYcqDkqlSbCw1Z_dFFUwW4
+}
+!procedure Microsoftacademic($id, $name="Microsoftacademic", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftacademic', $name, $tech)
+!endprocedure
+!procedure MicrosoftacademicCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftacademicMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftacademicGroup($id, $name='Microsoftacademic', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftacademicLg>', $name, $tech)
+!endprocedure
+@enduml

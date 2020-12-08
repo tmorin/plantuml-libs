@@ -1,0 +1,16 @@
+@startuml
+sprite $SqliteMd [14x14/16z] FST90e0W30F0YhiDoVzVAskPspmG6pd4v9f0wSWHC6l7dEiJRGuPqBF6Jzpcw71T5li-lXO3d6cDtriJqzCJkwrBvrrTHq_Oh2i
+sprite $SqliteLg [20x20/16z] {
+PSZLeSDG340nXsCy-q_xi6qkw5FxMH_aNQ1otZnI0PF8fqgB99VsB8WWsakZ55IQS-Sks9ih9HHYQIwLA-6Kvhn28QIz6tLowqvJCtTfppnkGlfBDzR-qD1D
+XhklHQRRvCNYS-lxjjrVpjUrbkSUd_i6
+}
+!procedure Sqlite($id, $name="Sqlite", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sqlite', $name, $tech)
+!endprocedure
+!procedure SqliteCard($id, $funcName="", $content="")
+  IconCard($id, '<$SqliteMd>', '', $funcName, $content)
+!endprocedure
+!procedure SqliteGroup($id, $name='Sqlite', $tech='')
+  IconGroup($id, 'IconGroup', '<$SqliteLg>', $name, $tech)
+!endprocedure
+@enduml

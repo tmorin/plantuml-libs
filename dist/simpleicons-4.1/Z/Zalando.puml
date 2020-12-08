@@ -1,0 +1,13 @@
+@startuml
+sprite $ZalandoMd [14x14/16z] TOs35K0n54Dhzztzf_qsSXY71aYsQa4M5geNDfE5XvbneDmOzSOeDuR_P-LtfRpUyqgpcOao4Qb1gnKZ
+sprite $ZalandoLg [20x20/16z] ZP3L0S0m449xSMV_QUiUVP-d01FO2PAc2wwEMjJihbcFasIkQi93L4SD7npbDGJAQuXig-MJoB256jXOpPP-Z6W9BFTMpg2SrPFfLhanG322NfK5
+!procedure Zalando($id, $name="Zalando", $tech="")
+  IconElement($id, 'simpleicons-4.1/Z/Zalando', $name, $tech)
+!endprocedure
+!procedure ZalandoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZalandoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZalandoGroup($id, $name='Zalando', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZalandoLg>', $name, $tech)
+!endprocedure
+@enduml

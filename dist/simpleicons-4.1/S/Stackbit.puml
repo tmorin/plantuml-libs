@@ -1,0 +1,19 @@
+@startuml
+sprite $StackbitMd [14x14/16z] {
+POu3WWKW442hiUz_siKtNXXZNI1UJo02x_gsOae_5qDAZndyYRKi0xXdXeydE9wU2uNSgQ1p8wUxwSJLwZ7wYoFMdqxKNWOwdYD7YzRM4d07BjlhZ-F_q-Cy
+DqjSt_m2
+}
+sprite $StackbitLg [20x20/16z] {
+VT350KD120JGOLs0wR_RX1_NTrj1SIC97tBvkDcaljpAeEMqkGGtpRsXL5JtVWqpJacBr8nEAy1Ot4a63rCa4hXNQSQhoE6w1WgVQ1uHaDBacmZ8oYThD8-A
+pMyV9asFgYl9ujaGKTiQ7Knop7Z1Z21KPvTqp1iPhfCCUaLfA34Hhb94fCsT_-ygb2BuumG
+}
+!procedure Stackbit($id, $name="Stackbit", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stackbit', $name, $tech)
+!endprocedure
+!procedure StackbitCard($id, $funcName="", $content="")
+  IconCard($id, '<$StackbitMd>', '', $funcName, $content)
+!endprocedure
+!procedure StackbitGroup($id, $name='Stackbit', $tech='')
+  IconGroup($id, 'IconGroup', '<$StackbitLg>', $name, $tech)
+!endprocedure
+@enduml

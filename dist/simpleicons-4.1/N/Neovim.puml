@@ -1,0 +1,16 @@
+@startuml
+sprite $NeovimMd [14x14/16z] FOe94e0W4CFszhR__wrT5HJI2HCHEIybyoGuW7C2GTe9dAzHFUi6Lbe_kjk6RZyBYMwdMR8j7wOBSDSmaswFQSomJPCLkFPJr4rfR-jSJrgtAVs5DzSY7W
+sprite $NeovimLg [20x20/16z] {
+LSl75SGm24NHB-8acVwx7HCMCewwXuTxD7uBERGLCnQRsYuVyeXuZuNbTz7ljj2niAINNRVjDHPycyexgXuJBEPbNHyc48-gJuDDpOUnL2tddYn9-ycvH-Zw
+zx2r4_rXwFhriAc_PJfMzUMN0526f46hveN2t9lQqQFUHhjei0tMz0S
+}
+!procedure Neovim($id, $name="Neovim", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Neovim', $name, $tech)
+!endprocedure
+!procedure NeovimCard($id, $funcName="", $content="")
+  IconCard($id, '<$NeovimMd>', '', $funcName, $content)
+!endprocedure
+!procedure NeovimGroup($id, $name='Neovim', $tech='')
+  IconGroup($id, 'IconGroup', '<$NeovimLg>', $name, $tech)
+!endprocedure
+@enduml

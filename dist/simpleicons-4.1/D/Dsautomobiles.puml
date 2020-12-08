@@ -1,0 +1,16 @@
+@startuml
+sprite $DsautomobilesMd [14x14/16z] JST50G1130ImMIxNlzjZo2z36PT23KEzNHjKzgNF8yJ0iJGfK2ttDCnouPvv7ydtWWimeb-REB3NVJo0G_MZ1JT9mglvBrN6BzpmcGM73G
+sprite $DsautomobilesLg [20x20/16z] {
+PS_L0S0W40FGm-4i-qzRz-OhF3maR_H8NqOXeOUR8jVDCD99MHRQpBdkLBNIOJ0PQn-sq6bWQ8oA4Huc2ngiFutDSmK6tUQYaQX0qstIzsl1uJGfvoVG3vF7
+az4s6u-lDMn83wBgi4Yln0PBRw9i4huadNvKViJfIzJ2sMO
+}
+!procedure Dsautomobiles($id, $name="Dsautomobiles", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Dsautomobiles', $name, $tech)
+!endprocedure
+!procedure DsautomobilesCard($id, $funcName="", $content="")
+  IconCard($id, '<$DsautomobilesMd>', '', $funcName, $content)
+!endprocedure
+!procedure DsautomobilesGroup($id, $name='Dsautomobiles', $tech='')
+  IconGroup($id, 'IconGroup', '<$DsautomobilesLg>', $name, $tech)
+!endprocedure
+@enduml

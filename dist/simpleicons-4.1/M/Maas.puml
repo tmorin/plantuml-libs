@@ -1,0 +1,16 @@
+@startuml
+sprite $MaasMd [14x14/16z] LSu53iH020NGOLESmFrlkp_rld65jSXdvxI0UtRDEE6vyVAUD3VKd2PinSQmnOnXLSTPOOPLwYuntLUcgEUgR7VU31P6nI-sHzWXmkyR_PiPqFw14QP_
+sprite $MaasLg [20x20/16z] {
+RT150iKW30HGt67kVzhgD5-QjqEYvk0xg7j3SO1cv5N1bt9TPP1S-eW_qVG1BE_8Bs1O75OC51S0Hgu73kswiUOn0SoxrKOTeWkG7hkK6b5SlMWzAxF9MaHH
+TtK9Fpib6zi4Pejtepi
+}
+!procedure Maas($id, $name="Maas", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Maas', $name, $tech)
+!endprocedure
+!procedure MaasCard($id, $funcName="", $content="")
+  IconCard($id, '<$MaasMd>', '', $funcName, $content)
+!endprocedure
+!procedure MaasGroup($id, $name='Maas', $tech='')
+  IconGroup($id, 'IconGroup', '<$MaasLg>', $name, $tech)
+!endprocedure
+@enduml

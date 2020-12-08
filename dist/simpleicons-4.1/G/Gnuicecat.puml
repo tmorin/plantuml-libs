@@ -1,0 +1,20 @@
+@startuml
+sprite $GnuicecatMd [14x14/16z] {
+3Og70S0m2CEKnQRv_zj6R6nOkXP3L2OFaNN6EX5xJiwNMT5voqjFtjZnrNqq_YdCU_NTIJWmtdjdRsoT3Ts0RSv-1lmEEFAoMfvLOGigcJsm1ZcuMfGp3iJa
+cBcr3x00XaTwFhuDZnDTdhw07m
+}
+sprite $GnuicecatLg [20x20/16z] {
+BOu56WGX28KnG9hxttRXc_qdz8K108jbxmM0IkV2nsPUurrvI9-rXFPLGiPhnO-mknocwcpfKI4iXMj7LOYNkMVram87gnXWTQS-48YBe94gFzwrEi0cC71r
+HkdPqdt3yAekm7s1xId8DCziD9dqH_TJKMyyL02wBor6b8rtnyENdbF9kdzF6OCpLglYzgWzjsqg9IrrVaO0h4HkF0SCDpV0EdwLsOlNt2ZrY_of2gU9IDJv
+-iVSyXcMfJ3yMIYHoSvoOVW1
+}
+!procedure Gnuicecat($id, $name="Gnuicecat", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gnuicecat', $name, $tech)
+!endprocedure
+!procedure GnuicecatCard($id, $funcName="", $content="")
+  IconCard($id, '<$GnuicecatMd>', '', $funcName, $content)
+!endprocedure
+!procedure GnuicecatGroup($id, $name='Gnuicecat', $tech='')
+  IconGroup($id, 'IconGroup', '<$GnuicecatLg>', $name, $tech)
+!endprocedure
+@enduml

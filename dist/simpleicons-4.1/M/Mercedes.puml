@@ -1,0 +1,19 @@
+@startuml
+sprite $MercedesMd [14x14/16z] {
+BSa96aGn10FWg6vukFzjXtxpTuq0f7v5hokXh91npf1OrUnWu0h0iQ5U0MQewCC5vVjGv4fN546ltFtipDt3bqwMq-aoBFqSJyFmpzGcoZJLgx7mjv9eEUDX
+x_aEOIAMs6X3lCW0y0C
+}
+sprite $MercedesLg [20x20/16z] {
+JP07WiGW24MnCtxXt_-swmQclCH61xaqqFOvsuWcIJSU1VJGUegKkzrThyEcfcZA1KSkyr_OHeZ4N48uvFX-xiMzF9VjXOnKxNiPTYHzCeO0UBsJPqfv-Mk5
+Xv4UnIs6RF1XXWmQZZHZkAlV76MJMBKkaBiAGAxZcgqtTPi-O3wAV2Z3hTJE8JyCZkyCWadzpkgIimg64RgcWZv-8iD8GsRx0m
+}
+!procedure Mercedes($id, $name="Mercedes", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mercedes', $name, $tech)
+!endprocedure
+!procedure MercedesCard($id, $funcName="", $content="")
+  IconCard($id, '<$MercedesMd>', '', $funcName, $content)
+!endprocedure
+!procedure MercedesGroup($id, $name='Mercedes', $tech='')
+  IconGroup($id, 'IconGroup', '<$MercedesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $EljuevesMd [14x14/16z] {
+PSk50SKm20JGuo0UOFzflslxeXXULF5ZT7nmPE1DifFFR-dIig7bt6llbH5vCtbx0psRMVK5YbASf1XsVSvXZHgmZXkhACO6RRYH8RZhYZkTXRHHySG-vp2S
+N04
+}
+sprite $EljuevesLg [20x20/16z] {
+TSl5eKLH24FH3PVZalwh_V9SrmGD3znuSpYlafRnnEkMZkVStZ4gJuOQO6xc0AbcGcfcLPfJlRMsfD4bhIdLMFfl8xQaVHeWpInrN3kxcSLG1ICbOopZ03Vg
+Tavi1w5aQZ0B9yU0h6Bga1idFi2wqnBa2YVZuAe7dCHqEAcDgpoB6nvZS1TZ_giyyKXXVFSB
+}
+!procedure Eljueves($id, $name="Eljueves", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Eljueves', $name, $tech)
+!endprocedure
+!procedure EljuevesCard($id, $funcName="", $content="")
+  IconCard($id, '<$EljuevesMd>', '', $funcName, $content)
+!endprocedure
+!procedure EljuevesGroup($id, $name='Eljueves', $tech='')
+  IconGroup($id, 'IconGroup', '<$EljuevesLg>', $name, $tech)
+!endprocedure
+@enduml

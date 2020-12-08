@@ -1,0 +1,16 @@
+@startuml
+sprite $MicroDotBlogMd [14x14/16z] JSg50S0W40J1mvtjlzguCCYhP2gNQdM8F99a4v-iTc-LApWktjzDe3idEJTWSYWwL5v12XpczPcKp3YNwZog3lsCrWG-KPBlt8OkFjTM4bqBrvrs
+sprite $MicroDotBlogLg [20x20/16z] {
+NOu5WWCn30Db2DF_NtlNEdPf5ZDI00zq7cScE7c5suNCK3yV37wguQEGX5pZFxAA7Rbg_Ca9YEBlpcob9Y3Lqkr0ry7m8_XoI-tiDdAysRpWBeCPsVFxsQnh
+AT-6rhki7RXlUuCyVB4OW7pBxAVQtpL3wtpeFH_Xn0jY4I7aimM_w2p0Fm
+}
+!procedure MicroDotBlog($id, $name="Micro Dot Blog", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/MicroDotBlog', $name, $tech)
+!endprocedure
+!procedure MicroDotBlogCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicroDotBlogMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicroDotBlogGroup($id, $name='Micro Dot Blog', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicroDotBlogLg>', $name, $tech)
+!endprocedure
+@enduml

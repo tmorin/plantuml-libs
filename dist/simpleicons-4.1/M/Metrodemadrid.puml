@@ -1,0 +1,16 @@
+@startuml
+sprite $MetrodemadridMd [14x14/16z] XOs53G1H34A_6qtPVzfprnUf0kONQmz3L8rhxq0qmar38H4Zo69CKqef0a2e4SDKIskeutJyj3UNAO7nblvD3m
+sprite $MetrodemadridLg [20x20/16z] {
+jK_50GH131gN6FrNUxVkt-4J3-068J37UyStJ6Z-qieA406QzqwSg-9ScIOSrpC3J4X535CsFP1vIBLqRa8aouEvHrnAQqsuyjIplDv2MOHrk_taEBNOzEfB
+yzlR8Fm1
+}
+!procedure Metrodemadrid($id, $name="Metrodemadrid", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Metrodemadrid', $name, $tech)
+!endprocedure
+!procedure MetrodemadridCard($id, $funcName="", $content="")
+  IconCard($id, '<$MetrodemadridMd>', '', $funcName, $content)
+!endprocedure
+!procedure MetrodemadridGroup($id, $name='Metrodemadrid', $tech='')
+  IconGroup($id, 'IconGroup', '<$MetrodemadridLg>', $name, $tech)
+!endprocedure
+@enduml

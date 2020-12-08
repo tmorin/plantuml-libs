@@ -1,0 +1,16 @@
+@startuml
+sprite $YoutubestudioMd [14x14/16z] LOw30G0W44Klkx__j9ald46T24Gw920DXPiW7HfE1aC-uyBnuaEFEOs18jajOhrMqc_DJDL_PFLt-IUqwMfELy7ycqq248PI0G
+sprite $YoutubestudioLg [20x20/16z] {
+VP034aGn40LVZD7zJxluPhgKwemnq-n7myp0qT_H7iB9DvleFb5p2FdtrbdDZmmMko3ExbIPywJGvdA8CZcFkgH607Lny7tAnAFRSykM-zJZQPQdcKEwxmRN
+EVi-g-OpTtUxrVYcyt05Cry
+}
+!procedure Youtubestudio($id, $name="Youtubestudio", $tech="")
+  IconElement($id, 'simpleicons-4.1/Y/Youtubestudio', $name, $tech)
+!endprocedure
+!procedure YoutubestudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$YoutubestudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure YoutubestudioGroup($id, $name='Youtubestudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$YoutubestudioLg>', $name, $tech)
+!endprocedure
+@enduml

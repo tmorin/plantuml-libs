@@ -1,0 +1,20 @@
+@startuml
+sprite $FurrynetworkMd [14x14/16z] {
+5Ol50GGm40A9hCMc_sfF-E3IvjhqVDSaJKYfZs8trIDa9Sau3KewMBuM5BV5s2HCFOvrpl31_qMsnfNK_9dXJJCEkrzia4Fj0AjAat85m6jIlhVLCmk6vet5
+cPAwo-zIStXdPRuRJTAu_55__GK
+}
+sprite $FurrynetworkLg [20x20/16z] {
+DO-54KGn20LVt83jlzkRvCzj50T92rXzhkt4pBga0p7gcEl0Bazbu4MFQj2blfughVMFwGg88WrewYVTg0oqhyxii5HXltUb2SDWIvkuaSx9PsU38dN2Zz8p
+ICrQwoeHUrvtpygI9ZGvQqXfzGbUSa2NSVsk9s0jEDB1ZgJ1OzQHTFrsblWuIRertDiNoZTGNamuMPTYJpVTqbZu-BIzA6-tAYM7E7EqLjiYLfEaRF3drAn7
+6i73knu_
+}
+!procedure Furrynetwork($id, $name="Furrynetwork", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Furrynetwork', $name, $tech)
+!endprocedure
+!procedure FurrynetworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$FurrynetworkMd>', '', $funcName, $content)
+!endprocedure
+!procedure FurrynetworkGroup($id, $name='Furrynetwork', $tech='')
+  IconGroup($id, 'IconGroup', '<$FurrynetworkLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ActigraphMd [14x14/16z] HKs74G0X27lXSiI-_xHlxmgaVNF5jFxTnVKRZGob1D8eJXI8jKP0tI98hJh-sydhh5PxNKufFs9HBPUAs1Dnix4ck-j1xdJAyN8d4bCyPWq
+sprite $ActigraphLg [20x20/16z] {
+NOy75WCX24InHDhAtF-qgRwm-grqe4K36YMfEvdn_ugP2BCvu2eiebPwVx2g1G24cOpUQL4dC2lj661qe82UkWlmGzK1HDzr0dV8hdFKUWJNK2ADka_RrvNO
+DyoDaXByUHZb5XhrPsgf6ol8Hkfq_OTc9rVTFYy
+}
+!procedure Actigraph($id, $name="Actigraph", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Actigraph', $name, $tech)
+!endprocedure
+!procedure ActigraphCard($id, $funcName="", $content="")
+  IconCard($id, '<$ActigraphMd>', '', $funcName, $content)
+!endprocedure
+!procedure ActigraphGroup($id, $name='Actigraph', $tech='')
+  IconGroup($id, 'IconGroup', '<$ActigraphLg>', $name, $tech)
+!endprocedure
+@enduml

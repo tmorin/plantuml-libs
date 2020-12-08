@@ -1,0 +1,13 @@
+@startuml
+sprite $GeneralmotorsMd [14x14/16z] bOd70KKX3CCUa5xtd_RNB81EjjGt56jBcV-V4FhZX_wFDNFpuMb21d1acg3IXdc156fg_sS70H7cEVtmlk4D
+sprite $GeneralmotorsLg [20x20/16z] lSgr4KDH44FHnylQ_girmuVOlgFeZF8d0IUYMZNBo56-LeqwIaVVciDlfbjhoeewrwpRt-feL5VRMCY8peNxnaPlqMws-JcnfS8WNrkBxhlrjV8f_zKL
+!procedure Generalmotors($id, $name="Generalmotors", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Generalmotors', $name, $tech)
+!endprocedure
+!procedure GeneralmotorsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GeneralmotorsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GeneralmotorsGroup($id, $name='Generalmotors', $tech='')
+  IconGroup($id, 'IconGroup', '<$GeneralmotorsLg>', $name, $tech)
+!endprocedure
+@enduml

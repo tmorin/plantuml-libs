@@ -1,0 +1,13 @@
+@startuml
+sprite $LogstashMd [14x14/16z] ZSUr0S0m00CmXpd-_zeoUQisvKco6PoEqSk6Z5uMVoyWUE-HnpbBSYBsxspw3kWoqxu3Ghkt0W
+sprite $LogstashLg [20x20/16z] hSg53S0m50DHXpdPVzeo-ujxugTpOQmrYxl3kYDRie8rjdLa2uB5tqrfjVIsC7hlmyFwfwq5QCUcT2S3ec2gi44NDgZ81kXG-sqp
+!procedure Logstash($id, $name="Logstash", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Logstash', $name, $tech)
+!endprocedure
+!procedure LogstashCard($id, $funcName="", $content="")
+  IconCard($id, '<$LogstashMd>', '', $funcName, $content)
+!endprocedure
+!procedure LogstashGroup($id, $name='Logstash', $tech='')
+  IconGroup($id, 'IconGroup', '<$LogstashLg>', $name, $tech)
+!endprocedure
+@enduml

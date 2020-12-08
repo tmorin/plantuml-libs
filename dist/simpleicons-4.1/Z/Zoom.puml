@@ -1,0 +1,13 @@
+@startuml
+sprite $ZoomMd [14x14/16z] hKs50O104F82-Dv_M_Ltk6vuIaIj_T64Q5HYj3ZPaek3Oqsx7RY2tbgJ_PUDOM5Pm_u1
+sprite $ZoomLg [20x20/16z] pSZBOODG30J0NJtz9Q3_QXFRLJ37mOkuk-BdA7YCOiYSHs24JwTlxqnIDb1FyJgeJNRYda-XloUV2wJZkkyieH6nKn48nvgP2xxKI8A2WnVv1m
+!procedure Zoom($id, $name="Zoom", $tech="")
+  IconElement($id, 'simpleicons-4.1/Z/Zoom', $name, $tech)
+!endprocedure
+!procedure ZoomCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZoomMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZoomGroup($id, $name='Zoom', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZoomLg>', $name, $tech)
+!endprocedure
+@enduml

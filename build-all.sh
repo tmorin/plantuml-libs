@@ -8,3 +8,4 @@ node bin/glib.js --pn eventstorming $@
 node bin/glib.js --pn fontawesome-5.15 $@
 node bin/glib.js --pn homecloud $@
 node bin/glib.js --pn material-4.0 $@
+node bin/glib.js --pn simpleicons-4.1 $@

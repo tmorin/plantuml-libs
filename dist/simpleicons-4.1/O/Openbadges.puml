@@ -1,0 +1,19 @@
+@startuml
+sprite $OpenbadgesMd [14x14/16z] {
+DKw50GGn27kW0abwtN_RFyMT_4uAheNuFMG5K6LtCZMCOqhpZ9asg94z1GERokhCAX0uwC6ZdraxC_efbLzFtGkrUruPVLBmpdrb2ulMDMrm-PJEU5YodT7p
+FHdOyq46HUuJsKiX-Xty0G
+}
+sprite $OpenbadgesLg [20x20/16z] {
+LP150aLH24Bn-i9c_wlzdMTc2tXo3ja7VX4dEIRuSawh-yuvyMBhEI3jgEZQ0CXAci26Bhqf9nOiMh3FRE6uvLexu6bIDA0UkO4bB1xjn_2Lytkk5Teyuflp
+D2HTK2dVlfbQqEfkVdBSeSbPSERPxraVFwfth2IVTxj9WnXBiLLru7JwIrtGWNieAyO5vxrBQs9o0VXshPEzuyKnlKE7S_vxcZ6sy8TMALvS0G
+}
+!procedure Openbadges($id, $name="Openbadges", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Openbadges', $name, $tech)
+!endprocedure
+!procedure OpenbadgesCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenbadgesMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenbadgesGroup($id, $name='Openbadges', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenbadgesLg>', $name, $tech)
+!endprocedure
+@enduml

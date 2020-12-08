@@ -1,0 +1,16 @@
+@startuml
+sprite $KiaMd [14x14/16z] bKrL0eOX36BeiFN-j_tpgqVN2TWHkjxYV9SMiaWQWt90BKavIgXlSy5NHycs1go_kpciP9KMqMkHbAHCVuyE57kZn0V3Zhm
+sprite $KiaLg [20x20/16z] {
+lOx70KCn24FbXatVVzkGdYpmtuMEX6jearWA5gRH7gt5l1gUJ94575RQM1kRq2eRod33Z9sLE4Ra1EpiLRrKG0taBi3oHo-yGnKgsrlr7hSh36OzLqkgsz8e
+WS6Tg7C37U5_BwroUdkkQI67PiCrt
+}
+!procedure Kia($id, $name="Kia", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Kia', $name, $tech)
+!endprocedure
+!procedure KiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$KiaMd>', '', $funcName, $content)
+!endprocedure
+!procedure KiaGroup($id, $name='Kia', $tech='')
+  IconGroup($id, 'IconGroup', '<$KiaLg>', $name, $tech)
+!endprocedure
+@enduml

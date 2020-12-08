@@ -1,0 +1,19 @@
+@startuml
+sprite $DenoMd [14x14/16z] {
+7Ks50G112EAlGs7_RL_FJW2-JRbJvqD8frx77fiXcVbraWFRN4QF8AfO7idJN2iQxbgQoSD8xmdsCUl0m9CbaM5tp5NGepCgPGDLr3glFK0HMPATkWzc01Xy
+kyPiuYP8zmuWu0S
+}
+sprite $DenoLg [20x20/16z] {
+FT09ZiCW58FXq1IKWEt__hST-eJ6MVdOkNRk1HY1xkka6r04xeSUSB8jWUSGiQnbE-Azhk-8OGdDO6Bw9Mk1DWSlC6w9OYX6nD0b8zReVGX72fE8l9-s9siB
+96DGnYvVEnyJnm7pkKvUWB8y6zjtltgP8S5pQcwx0tX2g8pVB07JvS9G6wr9sjq99BnbfyC31ifKTON_XwJwd3FzMUjJk-D96pEMvcXL_0C
+}
+!procedure Deno($id, $name="Deno", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Deno', $name, $tech)
+!endprocedure
+!procedure DenoCard($id, $funcName="", $content="")
+  IconCard($id, '<$DenoMd>', '', $funcName, $content)
+!endprocedure
+!procedure DenoGroup($id, $name='Deno', $tech='')
+  IconGroup($id, 'IconGroup', '<$DenoLg>', $name, $tech)
+!endprocedure
+@enduml

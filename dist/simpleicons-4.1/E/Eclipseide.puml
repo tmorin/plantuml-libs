@@ -1,0 +1,16 @@
+@startuml
+sprite $EclipseideMd [14x14/16z] LSwr0S0030D11yoq_xHXl4wL7c1Io-uk7M337hqh11WveYy8bjwFCTmhQvTPR8n8U3CI4RtjwsM47-5Hbsp-F_pU_sMxYKHDQOzU0G
+sprite $EclipseideLg [20x20/16z] {
+RT050GD130J078VZNstxp6DW0IPTY6F11JOeBB7G1eiaGXuxX9aenWK2r17eSTN0WYLkFBcJnrqtJJddiicpP3g47vJBcE35KAxuC4mxqmsJQIuFNrtQkxEb
+sj_RtXzyVpL3eVtJ2hlSHn-8lIIO_G4
+}
+!procedure Eclipseide($id, $name="Eclipseide", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Eclipseide', $name, $tech)
+!endprocedure
+!procedure EclipseideCard($id, $funcName="", $content="")
+  IconCard($id, '<$EclipseideMd>', '', $funcName, $content)
+!endprocedure
+!procedure EclipseideGroup($id, $name='Eclipseide', $tech='')
+  IconGroup($id, 'IconGroup', '<$EclipseideLg>', $name, $tech)
+!endprocedure
+@enduml

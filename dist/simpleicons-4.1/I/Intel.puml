@@ -1,0 +1,16 @@
+@startuml
+sprite $IntelMd [14x14/16z] XSt55K9H30JGcRWS-YyN-B9_TnKFJiGYCvpuKtSbI6_v9tm7H4Sjn3ac4eKrhPwUdEdWWjtMdPkL_npcQkuUCCK4Nfb0p5P4rdxMxdVLC-N4mGy
+sprite $IntelLg [20x20/16z] {
+hOzLGe0n2839qVllVrknzLc_9Gtm3w1OB8U-DEAcminoAj-rP09VwF16ARq5lmSmU2A9uQkgtfHbm6D6pbN1Tv-aFAiJvjQHFYtbvQlp0k3ItfYc3Z-bSdch
+fZQMbbiwcwM2410AyDO2LLW1OFhND6vxHyt1TmLRtMTrYy-TxfddkMtuDQr5HfWW_9qN
+}
+!procedure Intel($id, $name="Intel", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Intel', $name, $tech)
+!endprocedure
+!procedure IntelCard($id, $funcName="", $content="")
+  IconCard($id, '<$IntelMd>', '', $funcName, $content)
+!endprocedure
+!procedure IntelGroup($id, $name='Intel', $tech='')
+  IconGroup($id, 'IconGroup', '<$IntelLg>', $name, $tech)
+!endprocedure
+@enduml

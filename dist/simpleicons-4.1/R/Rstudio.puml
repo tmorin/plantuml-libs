@@ -1,0 +1,16 @@
+@startuml
+sprite $RstudioMd [14x14/16z] LOu74W9H24F14QHp_zlwOQrl6ZK906elYd2WkhgYiw7-GA1d4o8IiyLhQB7tifrayonZEoRIx_l3sRyTPrEzB-FExTFAEBofsx_x9dit0qfCdWdz1
+sprite $RstudioLg [20x20/16z] {
+TP150iKW30LBSGbp_zD-2LbKPnMNj_tm3QFxpOW3GwA52WUAXZ9SWZvo8MvTPxNTUn_KP3WMDKBnSnLYiGHYXUqGIm55BDQStzFaWDRbo2s6hoXoY7KlnntD
+xM5IdBfntJn5192fDp_yTf3bNPZoegdYOXEG5fswNm
+}
+!procedure Rstudio($id, $name="Rstudio", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Rstudio', $name, $tech)
+!endprocedure
+!procedure RstudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$RstudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure RstudioGroup($id, $name='Rstudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$RstudioLg>', $name, $tech)
+!endprocedure
+@enduml

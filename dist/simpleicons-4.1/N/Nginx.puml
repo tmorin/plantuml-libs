@@ -1,0 +1,16 @@
+@startuml
+sprite $NginxMd [14x14/16z] LOxL0GD0348vTzX_s-PIVrzH04PSqafu4hgC7hofbCDgzHB7xUVH3fFgoBP14-Eu7OhEkslewFnsjFRR7HLuvogKChfrvd3cTHlNuT_zasm4RppsYbuy
+sprite $NginxLg [20x20/16z] {
+RP055iGW30L_19VS_xPBlStRmGSF3k8mcv7mWh8jCh_KjcfZfCj8ivkksowkzg4nKbbjvAssgM7LvN00yhO4-3Wqxy2WxbsD4E-Q2KBrRX2OdDjsklEsmST5
+dRQDE6xrtxyjjBiO-5Zvc1R61sbDSF83
+}
+!procedure Nginx($id, $name="Nginx", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nginx', $name, $tech)
+!endprocedure
+!procedure NginxCard($id, $funcName="", $content="")
+  IconCard($id, '<$NginxMd>', '', $funcName, $content)
+!endprocedure
+!procedure NginxGroup($id, $name='Nginx', $tech='')
+  IconGroup($id, 'IconGroup', '<$NginxLg>', $name, $tech)
+!endprocedure
+@enduml

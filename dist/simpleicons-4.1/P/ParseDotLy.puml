@@ -1,0 +1,19 @@
+@startuml
+sprite $ParseDotLyMd [14x14/16z] {
+FKo54S102CEXclstBI_Nl1AZ0GECVYIG_-0dSCOU52zwA-tKXEtf7iEzfy94hOcVCJmyAbH5Hej8_vf4113UdwnH4PanYYJdr1XJTvou7V0RbunAPNuUxeVe
+0m
+}
+sprite $ParseDotLyLg [20x20/16z] {
+LOx50KKn20GX8Gvi_zL-UHAP6uCjFJIWqmaFOF3f13_aKBauu2KVKsg0ZNrou64ir_6mNhFehNJj1dkTXIaD3xP5mKEYHRjLkwjQHQhGk9F8lmg0Apn61JH6
+Xpgatcib0xay6NEvdYgBi5wl2ydziuRMGhrNY3WR0Eb0ZmvOPleXGolhVx_gc0cPIDn_9Lz3Nm
+}
+!procedure ParseDotLy($id, $name="Parse Dot Ly", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/ParseDotLy', $name, $tech)
+!endprocedure
+!procedure ParseDotLyCard($id, $funcName="", $content="")
+  IconCard($id, '<$ParseDotLyMd>', '', $funcName, $content)
+!endprocedure
+!procedure ParseDotLyGroup($id, $name='Parse Dot Ly', $tech='')
+  IconGroup($id, 'IconGroup', '<$ParseDotLyLg>', $name, $tech)
+!endprocedure
+@enduml

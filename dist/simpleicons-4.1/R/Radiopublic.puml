@@ -1,0 +1,16 @@
+@startuml
+sprite $RadiopublicMd [14x14/16z] JSc53KGn3C3GKBcDzv_s6Bw5JyvCdfay0puoTuLLlS7Qm8OYfich0n5TePdqzzC26XOVAMYBbyARWAcqgpeSA34AQEMba_0Nx0NHd_9m4-NTaMUwoTLhRNS
+sprite $RadiopublicLg [20x20/16z] {
+TT15WW112C10Ug1Tyl_NZhE-ETOni1PFJTxm_hEWAPUimAZ9RC1gOt7MWIHd1Rm1H2dvjhL6NswrNDOt4SbkoMH04pKnjxD-MQwVfYhbilJ5QddCL99RUKt4
+va_J3hZLq2vBkBKoMNmrxxBunTRi4teeZrrpaWR9mEAkozlNBsusOBPiswPs
+}
+!procedure Radiopublic($id, $name="Radiopublic", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Radiopublic', $name, $tech)
+!endprocedure
+!procedure RadiopublicCard($id, $funcName="", $content="")
+  IconCard($id, '<$RadiopublicMd>', '', $funcName, $content)
+!endprocedure
+!procedure RadiopublicGroup($id, $name='Radiopublic', $tech='')
+  IconGroup($id, 'IconGroup', '<$RadiopublicLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MetrodelaciudaddemexicoMd [14x14/16z] lSU50G0X40F1l2ji_zNYLW5p6ZgpYS6jlJe-sDMzVDXrjRysuWI7O5tpm3urUG
+sprite $MetrodelaciudaddemexicoLg [20x20/16z] tKs50O0m34iDb_-_PIuzWS2iiTVX4i3F7ksp3eMEi3tCRi8C2yD5bG5M0I1nNqDDIELusK1tp98m25g3lky9d96HC0dGFblhpEd-C_i
+!procedure Metrodelaciudaddemexico($id, $name="Metrodelaciudaddemexico", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Metrodelaciudaddemexico', $name, $tech)
+!endprocedure
+!procedure MetrodelaciudaddemexicoCard($id, $funcName="", $content="")
+  IconCard($id, '<$MetrodelaciudaddemexicoMd>', '', $funcName, $content)
+!endprocedure
+!procedure MetrodelaciudaddemexicoGroup($id, $name='Metrodelaciudaddemexico', $tech='')
+  IconGroup($id, 'IconGroup', '<$MetrodelaciudaddemexicoLg>', $name, $tech)
+!endprocedure
+@enduml

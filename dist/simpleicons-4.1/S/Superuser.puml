@@ -1,0 +1,16 @@
+@startuml
+sprite $SuperuserMd [14x14/16z] JKo50G0X40AxsN_QxxVrI5zL8kuNmFqx0_e-p8sQS2-h_2BUYADDH59reZBCfZcFAhzoO5DPAAYvXKR7SivERAZA4gHJUP4wiZJSXKu
+sprite $SuperuserLg [20x20/16z] {
+ZT030aGX543HXwox_zMEpPyxENMOiwlq1LLEuMYZLvKw5brlvkVXC6at2sUJ1FPg0UAh-I8zcTgxzUdEYosYBUhhMccGRdOD5POzcnPO_cmLiicJsQIytvcu
+nSA3-ViVdF-qj3h0hmRJP1whV2JP0m
+}
+!procedure Superuser($id, $name="Superuser", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Superuser', $name, $tech)
+!endprocedure
+!procedure SuperuserCard($id, $funcName="", $content="")
+  IconCard($id, '<$SuperuserMd>', '', $funcName, $content)
+!endprocedure
+!procedure SuperuserGroup($id, $name='Superuser', $tech='')
+  IconGroup($id, 'IconGroup', '<$SuperuserLg>', $name, $tech)
+!endprocedure
+@enduml

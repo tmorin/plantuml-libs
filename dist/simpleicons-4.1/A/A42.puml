@@ -1,0 +1,16 @@
+@startuml
+sprite $A42Md [14x14/16z] RSU50GD120NHlwum_LSRzznRWT614ExlAfkbuBERNGEgaiSEjoXIY1huFQugvFKEpmAVQ-qMeIbpDnFKJBaoPZJhstIrMNgRFlGXwCWP
+sprite $A42Lg [20x20/16z] {
+bP3L0GDG309vxhdzfwsxzpwZWFx3UUybV-HO2dDPLbhMggrrB1bKAJDy1svAobDgm4r9-qi3x58wKi6YkokLVKdpQKe2w0UQ4f2bm0LJ1fA2FTMyaGx4WuG4
+rXRSN7VtVjN0lEwfjgPxbTM_R04
+}
+!procedure A42($id, $name="A42", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/A42', $name, $tech)
+!endprocedure
+!procedure A42Card($id, $funcName="", $content="")
+  IconCard($id, '<$A42Md>', '', $funcName, $content)
+!endprocedure
+!procedure A42Group($id, $name='A42', $tech='')
+  IconGroup($id, 'IconGroup', '<$A42Lg>', $name, $tech)
+!endprocedure
+@enduml

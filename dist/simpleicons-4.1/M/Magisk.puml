@@ -1,0 +1,19 @@
+@startuml
+sprite $MagiskMd [14x14/16z] {
+JOm7WWKX24DXHgK4X_lVTi7zxLc194IapqAiHwbXoxdtIkEk1908hRkh6IhkeZ7FR6E9BEmpCwHTboNyLAbytwnf7JbYeAY7EqNgMmsfb2vD4UPL7B2zDhsu
+352c3ohqm_sQ_04
+}
+sprite $MagiskLg [20x20/16z] {
+PSzL0aGX20LGyKaBT_-hdUuvdpJZWgev8vExQ3nGO-NUiT3q35b0f5i5uO-WWDikCR5co3ssUclAtfAwUptgD4qvajLIxtKaIBVfFiqJSX_e0VHadW32nqrk
+TQCvoLrttcE63fgN64N3xlEecXXLOEeYkiOENip8EHFCQntZYYqHIuIZqtZSJUNKRjrYrwgxeo1LWfhZpS1LzsVVKglKnnUY7JH-kOm_wrrs1W
+}
+!procedure Magisk($id, $name="Magisk", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Magisk', $name, $tech)
+!endprocedure
+!procedure MagiskCard($id, $funcName="", $content="")
+  IconCard($id, '<$MagiskMd>', '', $funcName, $content)
+!endprocedure
+!procedure MagiskGroup($id, $name='Magisk', $tech='')
+  IconGroup($id, 'IconGroup', '<$MagiskLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $KlmMd [14x14/16z] bSX70i9G20JGeHePuh__RKtVMVBeuARCQtLENDAniTeOTb5a1HO6T_Dbfaf6LrirmC77M115W3sFMZupbpxriruv1AAgfhA0ueit
+sprite $KlmLg [20x20/16z] {
+jOxLWGKn24K94qDl_ztkkFplEn5Sw5UCGLyA5P7rUxaqPvgjdpu-iQPZQ3DvbOg5MvYyYxlkzCFYjJDJsH9MXLS7Spf7B8g5Q070RVqoF9Ziy2L4rc_5o-NJ
+0CoHBd0spDuRT0B3u4hhgfAHFbmuZ3Nfd_a3
+}
+!procedure Klm($id, $name="Klm", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Klm', $name, $tech)
+!endprocedure
+!procedure KlmCard($id, $funcName="", $content="")
+  IconCard($id, '<$KlmMd>', '', $funcName, $content)
+!endprocedure
+!procedure KlmGroup($id, $name='Klm', $tech='')
+  IconGroup($id, 'IconGroup', '<$KlmLg>', $name, $tech)
+!endprocedure
+@enduml

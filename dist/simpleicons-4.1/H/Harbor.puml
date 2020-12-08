@@ -1,0 +1,19 @@
+@startuml
+sprite $HarborMd [14x14/16z] {
+9KxB5S0W2DE-Wa65xBzjWN8Z_p7cff_Zj3doX04HU4WoGemVf8oTptphCN0oHYBoR7sDyDG1giiooOyav_eiisMixxRNWYobXdRiZag1IN-1QbYxlsp8TlEh
+_SW_WYw8Vd8SBXceqHy
+}
+sprite $HarborLg [20x20/16z] {
+DP270GGX20JFW4hS_hjzz7KkIcQ_f2aG2Q3jkv01RkRvfcjQ05CjNoK6rZLvlzuQnzW8Nf_940xwr95HXVDLFOCwl02SfWneXLSf9042A0lOj45h6ZOIkrgP
+OrKQSxHMkqTOoRX0Z4AifiA1i3l3dgUb8VddIk1krGKEx7M6sDkqG_wpw5fl5mQTcIjFlROzyzcjB5djcAgVMWkMDuyJvNZ2RFXfzOSSoTNqaQkd8OJAj_a1
+}
+!procedure Harbor($id, $name="Harbor", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Harbor', $name, $tech)
+!endprocedure
+!procedure HarborCard($id, $funcName="", $content="")
+  IconCard($id, '<$HarborMd>', '', $funcName, $content)
+!endprocedure
+!procedure HarborGroup($id, $name='Harbor', $tech='')
+  IconGroup($id, 'IconGroup', '<$HarborLg>', $name, $tech)
+!endprocedure
+@enduml

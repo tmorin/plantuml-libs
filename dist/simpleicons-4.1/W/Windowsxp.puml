@@ -1,0 +1,19 @@
+@startuml
+sprite $WindowsxpMd [14x14/16z] {
+DOo50G0W20J_xOJzfxKzEW7uNBF5WrLKyg-2BfeB01rGTfMIIjCAogvyspx0rXXATxgnj35dptkCS5SOIiaEzQouNaAi5d9M_FP2B7V-BmfW2QR__v7tEl6X
+FVa4
+}
+sprite $WindowsxpLg [20x20/16z] {
+TP074WCX24K_wB8AbllVDfZ5zBnfp1iw7CfdhK9uXQMQbVIggCyxnuixPhX3i5W5zLA3RRPQj9kxTZdbo3yzTLoXx1uCbDdDt7FqQ0JaJ4maIf5VrbZjlMj2
+skF1ESA4R6CC4uAKlOaASKxPjzENJOPPM-t6uuZ8zxmPiCOcyBpHrFgq_OZgZWXEyTA_p-c45r8nKs5yi7Dk
+}
+!procedure Windowsxp($id, $name="Windowsxp", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Windowsxp', $name, $tech)
+!endprocedure
+!procedure WindowsxpCard($id, $funcName="", $content="")
+  IconCard($id, '<$WindowsxpMd>', '', $funcName, $content)
+!endprocedure
+!procedure WindowsxpGroup($id, $name='Windowsxp', $tech='')
+  IconGroup($id, 'IconGroup', '<$WindowsxpLg>', $name, $tech)
+!endprocedure
+@enduml

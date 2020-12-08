@@ -1,0 +1,13 @@
+@startuml
+sprite $NetflixMd [14x14/16z] TSUr0O1000F0u1RPVrgamV-w0y2aXK8SZlMFyR4qZusyZxvsACswZ-DzQXu37-klUKPD7zi
+sprite $NetflixLg [20x20/16z] ZSZ50GGn30GmXzdJVxK7on3IK_JZ0HH15e2dd_suSZ2LYvL3xOnvNwfS2Uy3LmupnvKBvNqsLSvKZceNAwSh9_XsdBCcihdmSby
+!procedure Netflix($id, $name="Netflix", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Netflix', $name, $tech)
+!endprocedure
+!procedure NetflixCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetflixMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetflixGroup($id, $name='Netflix', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetflixLg>', $name, $tech)
+!endprocedure
+@enduml

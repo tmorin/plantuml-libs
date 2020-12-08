@@ -1,0 +1,16 @@
+@startuml
+sprite $PaloaltosoftwareMd [14x14/16z] JSg53G0n049HwWxxRtjNI_gZZu1PbWfkTaZ3FjZSg36soOr0XZgP9_Itg8r3ja0Tjk7Yn2wQfYUlDvvnhpNEQm22f0QWqkFFim8V
+sprite $PaloaltosoftwareLg [20x20/16z] {
+PSm53aGn20JG-TwYzx_j4WXTcnWy19L3tVN0Lqvpj_EF0gzlgXGswHWQU3P5JVjzxvoRlKLRzBnJ_JoISiLbfzpK82vgF7rHOPJwHRKfJ4qBJsnDZHj8lYJH
+_qFUaNLWYu36ySp-ZArm0WXCIaoA3AEWHB81u0K
+}
+!procedure Paloaltosoftware($id, $name="Paloaltosoftware", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Paloaltosoftware', $name, $tech)
+!endprocedure
+!procedure PaloaltosoftwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$PaloaltosoftwareMd>', '', $funcName, $content)
+!endprocedure
+!procedure PaloaltosoftwareGroup($id, $name='Paloaltosoftware', $tech='')
+  IconGroup($id, 'IconGroup', '<$PaloaltosoftwareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $ObsstudioMd [14x14/16z] {
+BSV1WODG34F1PoFCb-c_tzKccTj0sUgMNSHu2j0Er9ow-F3WPNvZ-uZp45NegD3RqFkgt8IyWhipmYPgLKHVHFc8k8VGyGBrYjYkCVrSX0UO5Q4TY3xUzMdW
+3m
+}
+sprite $ObsstudioLg [20x20/16z] {
+HL050aKX21k8A6zm_-F-D6RG2G3joMcgDl9fMEYaguWwio_LJDF5Miw_Yj2E3GRGUWf2i27fO1eahmv6IG8emmLz-9UK_E9OG-3nAwbZ6c1pU8Hewaerwklp
+hIcrTSZwKzNRRlV5Q8xDjbtR8xdPSNfvkEmPf-VVR804PStM0GH5R9x8sBl2tTLk8-aAh9qkY0Uh6FxF-GO
+}
+!procedure Obsstudio($id, $name="Obsstudio", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Obsstudio', $name, $tech)
+!endprocedure
+!procedure ObsstudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$ObsstudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure ObsstudioGroup($id, $name='Obsstudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$ObsstudioLg>', $name, $tech)
+!endprocedure
+@enduml

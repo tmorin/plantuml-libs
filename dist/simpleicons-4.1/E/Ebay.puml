@@ -1,0 +1,16 @@
+@startuml
+sprite $EbayMd [14x14/16z] dSUv0G8n0CH0lzhrtt-taC1Tx8caS8_ypqgnoGduZl5MxAATcfihYp1MQSqzoI1L8Ak55wLmwmC
+sprite $EbayLg [20x20/16z] {
+lSwr0GD134JHMMc42-w_Mpipf_S4ySTL1hujmIiHLsmr0k8K0Q3TLd7QEpajzmAyAXdx46FJhSvoB6RGyoYmTsaicz7eOiP9pUx7swDkX7d6e4PWH938-Lqw
+-IV_0dS
+}
+!procedure Ebay($id, $name="Ebay", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Ebay', $name, $tech)
+!endprocedure
+!procedure EbayCard($id, $funcName="", $content="")
+  IconCard($id, '<$EbayMd>', '', $funcName, $content)
+!endprocedure
+!procedure EbayGroup($id, $name='Ebay', $tech='')
+  IconGroup($id, 'IconGroup', '<$EbayLg>', $name, $tech)
+!endprocedure
+@enduml

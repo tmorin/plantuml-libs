@@ -1,0 +1,16 @@
+@startuml
+sprite $SlackMd [14x14/16z] ROx55S0m34ELPovf_sc3r_w06G0ewKugDaPcaeP3CUjOOXF5jgnnuokp-1mhWjINNsHM1X26IF6fshAcCuLyTMSkFh9iFkVYKSEoe3PfmBQIXR_DsaCHFYjj
+sprite $SlackLg [20x20/16z] {
+VP050WCX30GtWjFB_t_R97MT4zZ1GT3DJCH_7NU6HrN_ZOUR7clrtteuESpQcmE9KBkxFfOpf-BYP0wo6v9ZwUI_kyir9jiJ1vClfE66QaqOu2gWLXNYZY0N
+boZCORsDJNgwF4TvcPvMEBdbtSSKX6ieSovdC89qSJuyoB5-jaFUN9xZ_vtoZZHiSyOp
+}
+!procedure Slack($id, $name="Slack", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Slack', $name, $tech)
+!endprocedure
+!procedure SlackCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlackMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlackGroup($id, $name='Slack', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlackLg>', $name, $tech)
+!endprocedure
+@enduml

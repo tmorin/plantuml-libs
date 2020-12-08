@@ -1,0 +1,16 @@
+@startuml
+sprite $DraugiemDotLvMd [14x14/16z] RSg30GD1443HlyQe_sfZvzvYo4tcqoYyJ3NLrxYlEHTFAY5MoVTrrx3eC0Qal3NC2YHFRJ3SNHCqLqktNo5xzttTNUtQcuHdhffO0u-GjTLrS97At7lrme4p
+sprite $DraugiemDotLvLg [20x20/16z] {
+XP25WGGm20GtIWJO_hjzUFUR-CJ16mK_gJz4xIQrVN5R3_Lg-U8ekkohcskSEUNBSRnAlnmehPTtP-acKEQfI0fLqtK4vwRfzQPJh-c4GDyLoyFPHN9zY3TW
+y8RTgGQ5p1TqRZylFLUG0q5hFbl9mxI4MnznwSeJBSbPa5GnMaTWJlezHxCPG5BRLdDttRFYWr83FE09
+}
+!procedure DraugiemDotLv($id, $name="Draugiem Dot Lv", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/DraugiemDotLv', $name, $tech)
+!endprocedure
+!procedure DraugiemDotLvCard($id, $funcName="", $content="")
+  IconCard($id, '<$DraugiemDotLvMd>', '', $funcName, $content)
+!endprocedure
+!procedure DraugiemDotLvGroup($id, $name='Draugiem Dot Lv', $tech='')
+  IconGroup($id, 'IconGroup', '<$DraugiemDotLvLg>', $name, $tech)
+!endprocedure
+@enduml

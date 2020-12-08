@@ -1,0 +1,19 @@
+@startuml
+sprite $ReplDotItMd [14x14/16z] {
+9Ox50S0m24KXRGG9R_zfgvo0ho9gK67RLPxfnNic_K4wX2TuFAVZVStMd4dfZiMdi9LCSqAEtAUEPFccISBMLgmY_qjEoi26lam9pC2NYuWwmvTHdMZQn-6e
+Tcn1Ma1_c-7hA_SURssROywtmWq
+}
+sprite $ReplDotItLg [20x20/16z] {
+HP270GGX20HHmQpJVxV_U6alEcJahpI0tUjW9BbbozcedMKtgjmQ1UgBzbmE-mMJGTUOKhG9UOB9M6GRU-OeaXaPLe3SdYoITm9qz0jfxrcaAs2vmFmZW2pg
+NwtD_wKv6n8CiBKXXOVvT_Z_L1FT9pPiADrP6gU67RVMEgUX8Yv7nR0-8Gtl9bWV9TgU8IfKXPLJZ25rq6i7UigkkVaMixLogxmxtTNQFctTwAJlLQDg4DSF
+}
+!procedure ReplDotIt($id, $name="Repl Dot It", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/ReplDotIt', $name, $tech)
+!endprocedure
+!procedure ReplDotItCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReplDotItMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReplDotItGroup($id, $name='Repl Dot It', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReplDotItLg>', $name, $tech)
+!endprocedure
+@enduml

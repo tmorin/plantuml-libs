@@ -1,0 +1,16 @@
+@startuml
+sprite $LastDotFmMd [14x14/16z] ZKs70S0m228xAeR_h-sweEu9-2sbCxaBi3EzKhbCWQMzHEcTg_cJQtl6G9KDAGQ-3Zob-v7hbAURMayCfRWYIyZN5kjaSg5ilWpuBJS
+sprite $LastDotFmLg [20x20/16z] {
+hS-5OGGW343H814iV_zj2xK9xk5EvEEAHbZxwLg45gazUMOHKPvi9pck8vbIDalji22hY1Yqcjnk7mf3diqeoUhbzi7b2V8MoAN_SmrKT2LWFsUlpPHBDmVo
+_QrN0vFB8U6u3K8sEKtziBibZqkPy9ps4v0LkUhjUPUF-m8
+}
+!procedure LastDotFm($id, $name="Last Dot Fm", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/LastDotFm', $name, $tech)
+!endprocedure
+!procedure LastDotFmCard($id, $funcName="", $content="")
+  IconCard($id, '<$LastDotFmMd>', '', $funcName, $content)
+!endprocedure
+!procedure LastDotFmGroup($id, $name='Last Dot Fm', $tech='')
+  IconGroup($id, 'IconGroup', '<$LastDotFmLg>', $name, $tech)
+!endprocedure
+@enduml

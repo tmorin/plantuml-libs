@@ -1,0 +1,16 @@
+@startuml
+sprite $PhilipshueMd [14x14/16z] hOU50GDH349V4lYw_xor1Ng6moEeD0Ga8KUhtdCGarxLWt0Av2sjpslPoLwxCZ-lCtgVk5lyaD-8v3ZU
+sprite $PhilipshueLg [20x20/16z] {
+pSx5eKD1243H2pFei_wh_H9F0P63x-2hY3nT2cxPWOI2EKH5QPZ8gjeAcNY2bG0v9HNSsKnKDluCPSZ_iAF-97_AMIQi-RzTbE5hv19eTvHTlnbJ_uUCEOGt
+-0K
+}
+!procedure Philipshue($id, $name="Philipshue", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Philipshue', $name, $tech)
+!endprocedure
+!procedure PhilipshueCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhilipshueMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhilipshueGroup($id, $name='Philipshue', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhilipshueLg>', $name, $tech)
+!endprocedure
+@enduml

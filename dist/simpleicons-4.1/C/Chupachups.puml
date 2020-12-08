@@ -1,0 +1,20 @@
+@startuml
+sprite $ChupachupsMd [14x14/16z] {
+9Kw50GGn2ACqMEZV_kD-1NSY8XaM0Kyvf3K78BFq9N89LCc2syknGtNBXbl0ToerSwtLtyV1WD9zPWueObytbeQPximyHtUJlmxXlX6PlUYfMbaO4ltHTUwJ
+kjKzNS47HWMuxa5Y18aT_W4
+}
+sprite $ChupachupsLg [20x20/16z] {
+JP1PWWKX20D1P4dGxllVTfotvqihhYKdWQeWCnCXhmGYdFG8v0kDHwlwQCS3AKi-APxA0pM_R1P2m3Zb3mzuXIG6TaQaqxBC-x1babSrYBsx9PWkoIBMsdtL
+NZoCLCcqC9rjeaELyp1aSQbww1JzPp6zPVAkHkCcIvmn2-AhI1PNLpxkcAkwsDphggGT1iGOAdReDZqZXtkWJAIQzxLN611l1vwHQGy7NrSwT7nTYIGVJcS4
+Kzvn7Z99-cFw1m
+}
+!procedure Chupachups($id, $name="Chupachups", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Chupachups', $name, $tech)
+!endprocedure
+!procedure ChupachupsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChupachupsMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChupachupsGroup($id, $name='Chupachups', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChupachupsLg>', $name, $tech)
+!endprocedure
+@enduml

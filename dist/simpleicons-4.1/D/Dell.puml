@@ -1,0 +1,16 @@
+@startuml
+sprite $DellMd [14x14/16z] LOw50GGm20E34-Z-wxxhLN01X0op80KtSkCc9JPlVmvUJ8A33wkChnKTMYsQ4d2LKQ6VOItQiG_hB8-nCA5P8YLPsJx_NRY_4_wd_szsGtjsfnN05G
+sprite $DellLg [20x20/16z] {
+RP05WiKW34JZsAHx_zjkljUc0ZpYLDA5xghUiPJUSg2PY3N0twYdVszpl12Olc8KLCyN-i1oMjyGt-2Se9CGev6vb8yJAv4HjUagc311Cr_45ToWh8lj3p5x
+Vp793zjwtoRn9iNA5sEPh7BE4Jd3yCrXzRhMlisxMkvgllOMzH-N6LndzPkf7cTQ7Z6HYHclAFy
+}
+!procedure Dell($id, $name="Dell", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Dell', $name, $tech)
+!endprocedure
+!procedure DellCard($id, $funcName="", $content="")
+  IconCard($id, '<$DellMd>', '', $funcName, $content)
+!endprocedure
+!procedure DellGroup($id, $name='Dell', $tech='')
+  IconGroup($id, 'IconGroup', '<$DellLg>', $name, $tech)
+!endprocedure
+@enduml

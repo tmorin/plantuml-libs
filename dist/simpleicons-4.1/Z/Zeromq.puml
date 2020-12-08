@@ -1,0 +1,16 @@
+@startuml
+sprite $ZeromqMd [14x14/16z] JOg50S0m3CCy3kV_QqkZScm9M3Z7al0LEE9ExRkMem-gtWlcLX60eQzv1neoDGrtOC-cwwqnj6Ez2UxaDm4YhUSxD8Da2h76a5NxVy3pNYDWlNYXLXaj02e
+sprite $ZeromqLg [20x20/16z] {
+LP094eKW34ERxvGTUl_RVjeXECRzDOcAR3tTZdesI-BIGJQgMN5KxAj2jCPOP8_wPIg0NmzKfK-lXdVaqubmNHIAfBx8uyrlS566nwA0g0W6I-cIommN2PPd
+J_7v9-KxNWJtg7ypWu8UzRa6wjZIcAimUjUW2DcdDXMpEaYcIgWKWRQvGLC4-GC
+}
+!procedure Zeromq($id, $name="Zeromq", $tech="")
+  IconElement($id, 'simpleicons-4.1/Z/Zeromq', $name, $tech)
+!endprocedure
+!procedure ZeromqCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZeromqMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZeromqGroup($id, $name='Zeromq', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZeromqLg>', $name, $tech)
+!endprocedure
+@enduml

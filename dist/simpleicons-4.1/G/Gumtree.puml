@@ -1,0 +1,16 @@
+@startuml
+sprite $GumtreeMd [14x14/16z] JSt50S0W50FGu4xsdxR5uTs-1arW4p39mXXPnAmyDQ3ePrKAcbn74MVNCGBGenYbWGeKc1Xw9MSXMWNDEAj0FG8euGhNlOd2C0UDBLKySdchb37y
+sprite $GumtreeLg [20x20/16z] {
+ZKz5WWD03CguHFZ_QtVRyMCv4GLee6AWqeC-U_rfLQ2drDv5jue2kDrBK3zcWhJN638PWzrcA9DbW6bzoVVB73CQ7PInw1NnzWBKZrvwU-971du3zINM_3Jb
+AzPHms2HnMwwOiYK383c6pWG2JZE5xTjqz8BRmY_z4ZjVFi7
+}
+!procedure Gumtree($id, $name="Gumtree", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gumtree', $name, $tech)
+!endprocedure
+!procedure GumtreeCard($id, $funcName="", $content="")
+  IconCard($id, '<$GumtreeMd>', '', $funcName, $content)
+!endprocedure
+!procedure GumtreeGroup($id, $name='Gumtree', $tech='')
+  IconGroup($id, 'IconGroup', '<$GumtreeLg>', $name, $tech)
+!endprocedure
+@enduml

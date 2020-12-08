@@ -1,0 +1,16 @@
+@startuml
+sprite $ContactlesspaymentMd [14x14/16z] XOs50G0n2CJWGct_WTzTq-9ct_Z86W3I8ACVCQGzkSCGQVHB3P6naL9BAQH0IrIpPvbyxcnX51aiMunWzDOBf-k_z
+sprite $ContactlesspaymentLg [20x20/16z] {
+jO-50G0X20053epz1txR2VvC6j8Fc3lWhayJyoyfiRKuKoErNxgKKoMQlI7qLtOqr2XHn2YmbLvprpK5HKsEBfUeoOhrFBRhpDZ-2NeVoguHhNyqXYTmU-ba
+GzSKfsTp6U-4SD-p_S87
+}
+!procedure Contactlesspayment($id, $name="Contactlesspayment", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Contactlesspayment', $name, $tech)
+!endprocedure
+!procedure ContactlesspaymentCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContactlesspaymentMd>', '', $funcName, $content)
+!endprocedure
+!procedure ContactlesspaymentGroup($id, $name='Contactlesspayment', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContactlesspaymentLg>', $name, $tech)
+!endprocedure
+@enduml

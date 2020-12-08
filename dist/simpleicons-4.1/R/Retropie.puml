@@ -1,0 +1,16 @@
+@startuml
+sprite $RetropieMd [14x14/16z] HOp50K0n34A1V9Tc_sdhycue2g_V9mOC_ZuSIi4zJ8NBVJN1pRWKfQd8eiWgHEY-HAcs06p7VcobJQk5NQXFjh7_ec2q3AkeDsDVPQ6A1
+sprite $RetropieLg [20x20/16z] {
+ROq70i0W20D3KA3J_x-sUzTpNrIm4wL4Thne5cVnKXnAAKCd7xVGo-VjWWDlEOw13ogYNvSgBWlVZeHIHKYv3U3c6Qkz5QBjd3cb_QJ4dgbvubw9wN2M2IJk
+9Hy5DU-hv4pA2dE-Gb0rBOtGqv6VtRiqRgWhPpG3
+}
+!procedure Retropie($id, $name="Retropie", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Retropie', $name, $tech)
+!endprocedure
+!procedure RetropieCard($id, $funcName="", $content="")
+  IconCard($id, '<$RetropieMd>', '', $funcName, $content)
+!endprocedure
+!procedure RetropieGroup($id, $name='Retropie', $tech='')
+  IconGroup($id, 'IconGroup', '<$RetropieLg>', $name, $tech)
+!endprocedure
+@enduml

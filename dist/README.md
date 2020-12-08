@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 8 packages.
+The library provides 9 packages.
 
 
 - [aws-20200430](aws-20200430/README.md)
@@ -13,6 +13,7 @@ The library provides 8 packages.
 - [fontawesome-5.15](fontawesome-5.15/README.md)
 - [homecloud](homecloud/README.md)
 - [material-4.0](material-4.0/README.md)
+- [simpleicons-4.1](simpleicons-4.1/README.md)
 
 ## Include the library
 

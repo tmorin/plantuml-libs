@@ -1,0 +1,19 @@
+@startuml
+sprite $HtmlacademyMd [14x14/16z] {
+BKo50GGX34jJFsF_RHzvj56jEyD9ZxmBsaLYBh8QMWP8XW1M6tcIwGTbJ7KgaGizquHKoBrG1oUQbjevjalUmtKZgQft33i8qpD6hqxc9QlA85S2y3imLvmF
+KhVoRi5_wNth7du
+}
+sprite $HtmlacademyLg [20x20/16z] {
+LP250KGX241D6jr_snEzNxQF9cKRAeJG6Y2B3iifPNVXXMhTq3sOjlGQLHzMc4lSxM4WhJ6yMHD8Ht0nn6EsteoucMdT0EEgOflPOOIutDbc2iSM6LW1hXWW
+a9UUJNlowy3KOCwfo_XY1CJpooeoKA3wpy_wEZhZ7EkHUkWb71GYEkUWVoiyD4BfoZKAzQYbg4DwHjYGStx8SQ2tsGy
+}
+!procedure Htmlacademy($id, $name="Htmlacademy", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Htmlacademy', $name, $tech)
+!endprocedure
+!procedure HtmlacademyCard($id, $funcName="", $content="")
+  IconCard($id, '<$HtmlacademyMd>', '', $funcName, $content)
+!endprocedure
+!procedure HtmlacademyGroup($id, $name='Htmlacademy', $tech='')
+  IconGroup($id, 'IconGroup', '<$HtmlacademyLg>', $name, $tech)
+!endprocedure
+@enduml

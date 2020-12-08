@@ -1,0 +1,19 @@
+@startuml
+sprite $IdealMd [14x14/16z] {
+BSwt0GH1349HUHYh_gizko_x4U2hgb0k8gXFP1O8anyR928Olyh-sauNARLzvjqz73bwEhsM3XO2JMCbeygeGlM--_QzGQz6z5_YKtng1no_UXRCPzWS0_bT
+H_qyp_pFLBxU
+}
+sprite $IdealLg [20x20/16z] {
+TT030WH020NG7uVL_K-xDjxOy8VcfeIpTj4lcWlEJEr4HKJL-voAE-wjTpU2RSUDrTKIMlRikt5Q3B0hUEMUKJDhSNUYg1BMBhGcnhJ1a-MymCAbfPDDtrZ0
+gcJYOTpSPP1Y0sm2oSeTfonZdFjcR6WzB5g4gAANliuJs6zzoTsVVSyx4xsktRUtUU_WSVugOzXom5H5zFvNOmY0VYh7BJl_wJz7
+}
+!procedure Ideal($id, $name="Ideal", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Ideal', $name, $tech)
+!endprocedure
+!procedure IdealCard($id, $funcName="", $content="")
+  IconCard($id, '<$IdealMd>', '', $funcName, $content)
+!endprocedure
+!procedure IdealGroup($id, $name='Ideal', $tech='')
+  IconGroup($id, 'IconGroup', '<$IdealLg>', $name, $tech)
+!endprocedure
+@enduml

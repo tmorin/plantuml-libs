@@ -1,0 +1,16 @@
+@startuml
+sprite $StatamicMd [14x14/16z] VKs35GHH4CiVw-trN-tP6ZF1Ns6vP3bcjURhj8p2yrZq693khWLi8Ndir2C2QyON496d3j3U-DITBgdLTdAwFADujnx_pENEG4U65_Q_SW
+sprite $StatamicLg [20x20/16z] {
+fP150iGm24NvL884Ul_RJcnyMLQVXqFt32S_9Iy9rnU3EeYyIXre9NQt6g8nIAJjdS4Ery7qKWaVJ0yVUOW40Or5Or9CgUTbFQaBAouo66sQL_1WvifTRkYv
+--YtPd2cQIPFDdV1eH6shLtCVtOkZd4RNhT99_y_k6SF
+}
+!procedure Statamic($id, $name="Statamic", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Statamic', $name, $tech)
+!endprocedure
+!procedure StatamicCard($id, $funcName="", $content="")
+  IconCard($id, '<$StatamicMd>', '', $funcName, $content)
+!endprocedure
+!procedure StatamicGroup($id, $name='Statamic', $tech='')
+  IconGroup($id, 'IconGroup', '<$StatamicLg>', $name, $tech)
+!endprocedure
+@enduml

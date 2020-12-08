@@ -1,0 +1,16 @@
+@startuml
+sprite $HomeadvisorMd [14x14/16z] PSV50G0n30Cmboc9zz_s6AkVi78nXE1mIgtMbiuKoLpbCo77itwDiEuj45t3jMPaTkZSj92Y3rXtQi1h7QjigaQQ5Lmw4rv6VizvJ1O
+sprite $HomeadvisorLg [20x20/16z] {
+bSg53S0m44DHvw0GklstRSfCJnPz6JDNOCVr25i-nLJcDy-GDLelhCdOKTZ5O2JMkEdfbcJRw6CcDTl4w4BeNrDiVH4g0DucBOiGuBQjvz5xRm7erRPHOqGz
+pYKumWubKnoHLJWHnYyT
+}
+!procedure Homeadvisor($id, $name="Homeadvisor", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Homeadvisor', $name, $tech)
+!endprocedure
+!procedure HomeadvisorCard($id, $funcName="", $content="")
+  IconCard($id, '<$HomeadvisorMd>', '', $funcName, $content)
+!endprocedure
+!procedure HomeadvisorGroup($id, $name='Homeadvisor', $tech='')
+  IconGroup($id, 'IconGroup', '<$HomeadvisorLg>', $name, $tech)
+!endprocedure
+@enduml

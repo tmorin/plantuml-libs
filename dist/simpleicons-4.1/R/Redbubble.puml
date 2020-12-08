@@ -1,0 +1,16 @@
+@startuml
+sprite $RedbubbleMd [14x14/16z] LOw50GCm20H33OVzjorIlIZ-vm3dm72AUwmLzuhSyyFzS7ojW3g4d8wecLHMrPBK5MbhFTRAjLmxuMsXZ6NJ1SaGfRhyJRZyJ_ygAwC1gcgZ5lq4
+sprite $RedbubbleLg [20x20/16z] {
+RP255O0m30KhiMhstvOc3uT3_zKJ5hdfJijX1xlk3DoLw0rvgrrcr1SOsdYx4RqxCJTLPfPf7SsbiEZJtfQhkMo9tIKRVFOhxa1taWTtmGVkO_Fkw3uMXxks
+ho5a32OIEpcshYzw_3dRRmtUKdvhkXEnZYKgHeyR
+}
+!procedure Redbubble($id, $name="Redbubble", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Redbubble', $name, $tech)
+!endprocedure
+!procedure RedbubbleCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedbubbleMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedbubbleGroup($id, $name='Redbubble', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedbubbleLg>', $name, $tech)
+!endprocedure
+@enduml

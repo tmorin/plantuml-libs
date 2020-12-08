@@ -1,0 +1,16 @@
+@startuml
+sprite $TalendMd [14x14/16z] JSc54S1G0CBG07NTVzgw_9pn3bk0EgvaNz8bEoS9l7S4vkkmqjJdTLcPrxKdI-n4pNe4bQwlNjPrugwjQQRHZup5drpkYh_Ob1HdEm
+sprite $TalendLg [20x20/16z] {
+PSh70OD044FHhz6ioT1_jGvark-ca9bikc1dfrWDvfHcrUJjTpmZs4YWlNLmvoB0ui4EuMmQLssxBCkS48tETbw-HcYMnhdoQrc1oj_l5EdrE9jJCmgNjZKN
+2PkQJ4MogYfSJAMWe1Ab13M9tGS
+}
+!procedure Talend($id, $name="Talend", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Talend', $name, $tech)
+!endprocedure
+!procedure TalendCard($id, $funcName="", $content="")
+  IconCard($id, '<$TalendMd>', '', $funcName, $content)
+!endprocedure
+!procedure TalendGroup($id, $name='Talend', $tech='')
+  IconGroup($id, 'IconGroup', '<$TalendLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $AngellistMd [14x14/16z] {
+BOtN0SD024DrT17R-u-RQtyFr00CXW7HENbUPHCgQbye8ImjpZN1IqlFfIM_6Zm79d-iUqL_2J7wlYZsXEcnsjFWaZdcrICZ7W6snf3VL62rrvZqUVNPOmw8
+TDozx2PjqHy
+}
+sprite $AngellistLg [20x20/16z] {
+HSq53WGm24JHZzI0flS_xNgpBueERvQ-1F3CmO-LfW0jSlvxH0TIs-97KgnWB5RdMeCoqjdArOCvhMW9bwPIQv63lxNydCOMBeiwQwvPn_cHFUCeY7hUN2sa
+qXN1Ygzsd7QgJgccy3OgIaZFC6wlZ9cCC-7UIheHjJT0JpwgXuqT4-3czcsnkoNGYvz80VfdohNsC96MPVnvrAxemiSJ
+}
+!procedure Angellist($id, $name="Angellist", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Angellist', $name, $tech)
+!endprocedure
+!procedure AngellistCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngellistMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngellistGroup($id, $name='Angellist', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngellistLg>', $name, $tech)
+!endprocedure
+@enduml

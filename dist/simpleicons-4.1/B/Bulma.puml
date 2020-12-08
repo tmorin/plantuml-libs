@@ -1,0 +1,13 @@
+@startuml
+sprite $BulmaMd [14x14/16z] LSx50G0W30D0t27xJujRypkeiH4BpsvuGX4VW2At1YuvLiAKN4Xyoap4tUQ80XRvra-UD-tRZc8crcyKtw7xem4
+sprite $BulmaLg [20x20/16z] VT350GCX54NHZpkl_sgJSPoxF3XqnoCyTOcCo0O28Xy8PMQX1WCmOCANUeZbZ_Im7GozgP7832k974Rq635WH97tc1Jrw8PVU2OLB9CAnZBf3m
+!procedure Bulma($id, $name="Bulma", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Bulma', $name, $tech)
+!endprocedure
+!procedure BulmaCard($id, $funcName="", $content="")
+  IconCard($id, '<$BulmaMd>', '', $funcName, $content)
+!endprocedure
+!procedure BulmaGroup($id, $name='Bulma', $tech='')
+  IconGroup($id, 'IconGroup', '<$BulmaLg>', $name, $tech)
+!endprocedure
+@enduml

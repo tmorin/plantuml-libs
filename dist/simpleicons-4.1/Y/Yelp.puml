@@ -1,0 +1,16 @@
+@startuml
+sprite $YelpMd [14x14/16z] JOx50O0030DJmGkt_xIutQkQHB8P9ZqOK7hfODP7iVow12aclzi1KvrIrhgitmSGKh1CAOrJ5-VJtywFOMYerkv9ZxhhRwS5qtG7SeukwlPhwacs0G
+sprite $YelpLg [20x20/16z] {
+POy50eGm30Itxkd_VykcECmTDes2v4agNjI_GrFNtiu8NSURI3U0NxQi38CBnq1L_LcLup2ap5aURJgTbXM_ychGUuIJIPAwnCDiLtTfoPsbYAOuyoZF00sy
+5ABKu5GuwLfZOVHg0YjCw1udPUeiLz-ZDvsksC-YOPAreZXy7Bp3XSsZus83
+}
+!procedure Yelp($id, $name="Yelp", $tech="")
+  IconElement($id, 'simpleicons-4.1/Y/Yelp', $name, $tech)
+!endprocedure
+!procedure YelpCard($id, $funcName="", $content="")
+  IconCard($id, '<$YelpMd>', '', $funcName, $content)
+!endprocedure
+!procedure YelpGroup($id, $name='Yelp', $tech='')
+  IconGroup($id, 'IconGroup', '<$YelpLg>', $name, $tech)
+!endprocedure
+@enduml

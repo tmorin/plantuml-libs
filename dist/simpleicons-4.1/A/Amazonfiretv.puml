@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonfiretvMd [14x14/16z] bSYr0GDG409Gpe1_--yRbpPv3OAVSIg-QrNPMGKpaHvAOzzBIqLrdmOhjpko2noKC16PU4hV6ytAR9BrE7LspmJ-SGK
+sprite $AmazonfiretvLg [20x20/16z] {
+jSx50GCm20NGZqC2tN_Rkf_R5rV0ZuaeuKitXUAERyVJnCGgP0PKYG1o62xFfUcHMCjAQU-5j33iYCHvz73hZR8qB6D213Wtr_bKNQ6h3B8T7lXopqmDBxOJ
+PnGxRwUaPHht1zapVMxBM0WFhEvA-8yJ
+}
+!procedure Amazonfiretv($id, $name="Amazonfiretv", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Amazonfiretv', $name, $tech)
+!endprocedure
+!procedure AmazonfiretvCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonfiretvMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmazonfiretvGroup($id, $name='Amazonfiretv', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmazonfiretvLg>', $name, $tech)
+!endprocedure
+@enduml

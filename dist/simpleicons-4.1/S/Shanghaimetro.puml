@@ -1,0 +1,19 @@
+@startuml
+sprite $ShanghaimetroMd [14x14/16z] {
+LOt9WGCm2CI64DyOzT_jBlv5BqwDP8l7CltJaaSsoHf4Ssy1JIjPUYpI86H3wgvWlZtTkVhcXjPB0VlZJd4WdZaYRjU-QZS9_xeaCwaiFmcVIZzkvgViKYjb
+KarXCo16lVu1
+}
+sprite $ShanghaimetroLg [20x20/16z] {
+LP050iGm20INXhZm_z_UXgjEbQ6o0IHqE-a19t5SRiHJ5I_NyakvrSeQWkRrbo7osWIED1OHVL3XXdBAVb60ee3K0E7hIfU1n2wg3K5c8AF7xZHMLY4nxYhf
+j8kYGUcSkVR9tWmaiuxsxzTMkHz0dOAZjhdJ2WGEFJnBh7sjR-OXlhOgZx9upc34Wo_h-0p6Pk_JBaNY_CxKaSWCQxOeNlu
+}
+!procedure Shanghaimetro($id, $name="Shanghaimetro", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Shanghaimetro', $name, $tech)
+!endprocedure
+!procedure ShanghaimetroCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShanghaimetroMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShanghaimetroGroup($id, $name='Shanghaimetro', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShanghaimetroLg>', $name, $tech)
+!endprocedure
+@enduml

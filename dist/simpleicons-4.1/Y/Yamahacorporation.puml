@@ -1,0 +1,20 @@
+@startuml
+sprite $YamahacorporationMd [14x14/16z] {
+DKw54GH124jMWlPVxxCtyxWJW5cwLvN4aDfu3jK2nXBmcAY4RFupzYg3-OxORf2B9nIPgJYi0spFxlI9NWQlxd9C9Z8wgiQGDVEvZjbP6VBi1Qo8iUn55S5x
+nvG-PEA7wILlheRUB7u
+}
+sprite $YamahacorporationLg [20x20/16z] {
+HP090WKX143HM1Aw_ss_-jkRQRC3pLZbAgAhre0Fd3cvcPdy4TdMtgKtr6rlKLs7p1kch3VUxnZJuIraY5GO3q1V4E0Pe8cLhGidTXVoQ9-KDU6PGrQAv1Ao
+fuEe05eeUPMJX25mo8b5ldBrxtIpN1bO75dOExDA7v9ltpmFZiv1CyDBjJnoKkUenDX2g0sIxC2GbOOdyf7rWQY9WujkbkQSLFoR0JT7bFCp68KFKlQVgV4O
+R7Uc7r0yCiC5x_C5
+}
+!procedure Yamahacorporation($id, $name="Yamahacorporation", $tech="")
+  IconElement($id, 'simpleicons-4.1/Y/Yamahacorporation', $name, $tech)
+!endprocedure
+!procedure YamahacorporationCard($id, $funcName="", $content="")
+  IconCard($id, '<$YamahacorporationMd>', '', $funcName, $content)
+!endprocedure
+!procedure YamahacorporationGroup($id, $name='Yamahacorporation', $tech='')
+  IconGroup($id, 'IconGroup', '<$YamahacorporationLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $MixMd [14x14/16z] VSUr0G0X002nmntsd_RTXNHfVTxKCmNSkGpsjLml2uXwpaAvpRUqJBUc0SaoZ66n3lQbosBMbuq
+sprite $MixLg [20x20/16z] fSg53SDG4C1GVomTx3zjAISAWyLFzejfQpgs0dL4bY3hHPDQPMHMe8nCCwGv-_qZewlsCCHT-9KpOHIHGXGM7RONe-wFHnxR1m
+!procedure Mix($id, $name="Mix", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mix', $name, $tech)
+!endprocedure
+!procedure MixCard($id, $funcName="", $content="")
+  IconCard($id, '<$MixMd>', '', $funcName, $content)
+!endprocedure
+!procedure MixGroup($id, $name='Mix', $tech='')
+  IconGroup($id, 'IconGroup', '<$MixLg>', $name, $tech)
+!endprocedure
+@enduml

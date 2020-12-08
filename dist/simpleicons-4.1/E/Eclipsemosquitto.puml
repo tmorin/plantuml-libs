@@ -1,0 +1,16 @@
+@startuml
+sprite $EclipsemosquittoMd [14x14/16z] TKvL0WKW2CDYeTx_kAyxWDNNYFSfvSKrhNODRIaiwffEfZFLzuWOkokLISgrJf7f18HSAq-2So9qcfF0I1d37h3IavmbUeyuEM2Uwsez5yw8ydpeJF_d2
+sprite $EclipsemosquittoLg [20x20/16z] {
+hOz5eaKX240Hf17tlzhNTKS_Zqa3V1kQ1uakrrYRuGNlDK0Zf5-UioK2kj5gyCDhb65J1JRgThXWMx4nJ5aJbxG0NAw5gLnCOL9Ov4v59HQq9gLeSCwzPtAe
+9FNTZnPcujFlcc_qz38hdpsk-QvrTGkOku5iRGplHjzoxOqlbsp79el4-HeK9cR0m2IuWWXNA15UZ07_mHa
+}
+!procedure Eclipsemosquitto($id, $name="Eclipsemosquitto", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Eclipsemosquitto', $name, $tech)
+!endprocedure
+!procedure EclipsemosquittoCard($id, $funcName="", $content="")
+  IconCard($id, '<$EclipsemosquittoMd>', '', $funcName, $content)
+!endprocedure
+!procedure EclipsemosquittoGroup($id, $name='Eclipsemosquitto', $tech='')
+  IconGroup($id, 'IconGroup', '<$EclipsemosquittoLg>', $name, $tech)
+!endprocedure
+@enduml

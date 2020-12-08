@@ -1,0 +1,47 @@
+# Pyup
+
+```text
+simpleicons-4.1/P/Pyup
+```
+
+```text
+include('simpleicons-4.1/P/Pyup')
+```
+
+|icon|element|
+|---|---|
+|![](Pyup.png)|![](Pyup.element.png)|
+
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the Pyup element
+include('simpleicons-4.1/P/Pyup')
+Pyup('pyup', 'Pyup', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the Pyup element
+include('simpleicons-4.1/P/Pyup')
+Pyup('pyup', 'Pyup', 'an optional tech field')
+@enduml
+```
+

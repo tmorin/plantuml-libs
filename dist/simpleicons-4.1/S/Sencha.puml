@@ -1,0 +1,16 @@
+@startuml
+sprite $SenchaMd [14x14/16z] JSt50G113090rZtqN-svm6-Y05g3P7L1vTGMEUCBPwHuaPVzfNQBorsZw-7zoC-dYJlniZc8bxoThA9k0fJptmu
+sprite $SenchaLg [20x20/16z] {
+PSs54SKW401H3dVwh_PhaaLs_Cs9-YGrgptTJwiZxHJ6g7ACZL5MD7ryYteo-x6_cdtkKq_2lQUg-GioIF4o3J8eYJ_JytYRLQGZSoI5Us1z_b9wnYXtlPCE
+Vte3
+}
+!procedure Sencha($id, $name="Sencha", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sencha', $name, $tech)
+!endprocedure
+!procedure SenchaCard($id, $funcName="", $content="")
+  IconCard($id, '<$SenchaMd>', '', $funcName, $content)
+!endprocedure
+!procedure SenchaGroup($id, $name='Sencha', $tech='')
+  IconGroup($id, 'IconGroup', '<$SenchaLg>', $name, $tech)
+!endprocedure
+@enduml

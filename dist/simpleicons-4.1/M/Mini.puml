@@ -1,0 +1,13 @@
+@startuml
+sprite $MiniMd [14x14/16z] bKp50G0n3Ae4oVu3dqk_SGDQqNfVPf6wTedAO-fv31YG3G6sS7oFpcl31UQDvAS2Q54TenLj1m
+sprite $MiniLg [20x20/16z] lSx55GGm20JG8S7xBtZVi6xN_BW23bgg2syaohr2C7oKSsxbfCO-6-2TJgusX7jfbHpPoVmL6T7XFXC1YMP3vcqf1r8lkyNGFxayRDMDWou
+!procedure Mini($id, $name="Mini", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mini', $name, $tech)
+!endprocedure
+!procedure MiniCard($id, $funcName="", $content="")
+  IconCard($id, '<$MiniMd>', '', $funcName, $content)
+!endprocedure
+!procedure MiniGroup($id, $name='Mini', $tech='')
+  IconGroup($id, 'IconGroup', '<$MiniLg>', $name, $tech)
+!endprocedure
+@enduml

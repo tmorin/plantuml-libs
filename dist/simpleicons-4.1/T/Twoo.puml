@@ -1,0 +1,16 @@
+@startuml
+sprite $TwooMd [14x14/16z] ZKt50K0X5C9ks7_Q7yRTrmcu5vDRSO0hhLYKeK-y-oFj5nh59bQgIX7kRpsYz7UXVwr34lMDkOzL2_-zytyS5hOSXcnnBoy
+sprite $TwooLg [20x20/16z] {
+hOz70eGm24L_4h1GXllVTi3ktgT9w0NVquZxBdK-f2KIJRbhIMl38h7XlTakAUB4vhn-lxoc2g4XzKZ861biPGUQLf8CW3CuPGP8DsC3fhJjkHhYPHpiUSV9
+RAV4ws6rrdsN16ZhU-O5HUDxDshudZy
+}
+!procedure Twoo($id, $name="Twoo", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Twoo', $name, $tech)
+!endprocedure
+!procedure TwooCard($id, $funcName="", $content="")
+  IconCard($id, '<$TwooMd>', '', $funcName, $content)
+!endprocedure
+!procedure TwooGroup($id, $name='Twoo', $tech='')
+  IconGroup($id, 'IconGroup', '<$TwooLg>', $name, $tech)
+!endprocedure
+@enduml

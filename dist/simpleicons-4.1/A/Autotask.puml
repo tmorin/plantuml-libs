@@ -1,0 +1,16 @@
+@startuml
+sprite $AutotaskMd [14x14/16z] ZOo53O1040JttN_wxvPiZ3ZCkVB9EVSjbgJj9gP8QjnMS2ieAVROCLt5ZGrZGXaxILvhiR6hSfSEtA4KrBbH5HoIF_TGS6ZyuW4
+sprite $AutotaskLg [20x20/16z] {
+jOxL4GCW40KNT-Y_snmwa_zaqVCt_eHNMhl-vQeQ8SzlZySNcNZv9UsEpu82MZ4gtT9Pg41ZNyy0OVZRCS-xArjxG2ZJvwrarzIJGcjO_Ll1r96dsIEeDYOE
+PM2EgsgsdMG4rtOOCnQ6gwc647TnictyZ0y
+}
+!procedure Autotask($id, $name="Autotask", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Autotask', $name, $tech)
+!endprocedure
+!procedure AutotaskCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutotaskMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutotaskGroup($id, $name='Autotask', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutotaskLg>', $name, $tech)
+!endprocedure
+@enduml

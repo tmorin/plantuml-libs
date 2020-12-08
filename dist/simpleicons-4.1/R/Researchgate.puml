@@ -1,0 +1,16 @@
+@startuml
+sprite $ResearchgateMd [14x14/16z] FKq54e0m3CksUilr_w_58QTnV92ODdzc1Xe_2veorStT-MICqgajIzjXSGchpwxsWANYP0lWVkTkhmeV2wiSFsExmd_o3puhg_Lbr0H8oqqij-Jhq2zs
+sprite $ResearchgateLg [20x20/16z] {
+PP250S0m20GVYDllFstTU_6BWoSsajM25uv1yiVbYX-bGBs3geWkdCvtMctaw7qmo-QWmu341D7CBWZ348S0WH4BTMtoQDtZSf7h8ymhdYvZu-4QxUcIggt7
+FTreZStZvRAcwx3xFAdqNmV78L-7p0hytv9E8rBPrhVR5eQDKjkIrfLQs7LpCm
+}
+!procedure Researchgate($id, $name="Researchgate", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Researchgate', $name, $tech)
+!endprocedure
+!procedure ResearchgateCard($id, $funcName="", $content="")
+  IconCard($id, '<$ResearchgateMd>', '', $funcName, $content)
+!endprocedure
+!procedure ResearchgateGroup($id, $name='Researchgate', $tech='')
+  IconGroup($id, 'IconGroup', '<$ResearchgateLg>', $name, $tech)
+!endprocedure
+@enduml

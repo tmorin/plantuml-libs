@@ -1,0 +1,16 @@
+@startuml
+sprite $RetroarchMd [14x14/16z] bSV50KH1309Gnes4_glT_NwV5mLRQW5AlRwAIlKk7ayKeuP9FXJP95Ecn7myYwQFBOJbShDZhO33yWZ49yIPSSWpOiCV
+sprite $RetroarchLg [20x20/16z] {
+jSb7WaCn309GvEzUuFwt7PT9toPl8m7u2M-OpED9fGFSQDXYYeYvgkVSLVCC2L86HMhYV91bKWhxcmgeaEIrC3HDpNDF-jIz3qDF6Bm7N6b3R1CrMd7O71Km
+1V72OLq9MrGtREPlAovl-Bu_
+}
+!procedure Retroarch($id, $name="Retroarch", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Retroarch', $name, $tech)
+!endprocedure
+!procedure RetroarchCard($id, $funcName="", $content="")
+  IconCard($id, '<$RetroarchMd>', '', $funcName, $content)
+!endprocedure
+!procedure RetroarchGroup($id, $name='Retroarch', $tech='')
+  IconGroup($id, 'IconGroup', '<$RetroarchLg>', $name, $tech)
+!endprocedure
+@enduml

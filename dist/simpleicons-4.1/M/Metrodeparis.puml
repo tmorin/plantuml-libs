@@ -1,0 +1,19 @@
+@startuml
+sprite $MetrodeparisMd [14x14/16z] {
+9OvNWaKn248nOhgy_Uzsp9tpPw40jhN6MDg6eckpDMv5NReS7wwEBVVrXkMkbXlp5q3y9lPQhEa2joRcQ5ZtHjoxq3HhEf4tpfiswuOKQcBgl8b4VPwvH0uK
+WouhQ-A3BmYXGxF_PeNDb78QW3y
+}
+sprite $MetrodeparisLg [20x20/16z] {
+NT3NWKKX20HGp0h8zD_joiLzQRxacA6JejZAh1jIwAOPbETanQwN9kGEgs1U6lJAS2pjK2uX9Hzif2P46zMfmeZ44hm4s6q1Fj5CoSrd2jn8HTdDZ8cMRJSs
+dcuya1C68vuMbeoNfMknL_ny9eczfc7PKCAKWVOOzKwFDLHHFSRqX75yfronAAUmb6cYtc-_Ccyne2sawgj7TMF_zDIL3J1fSUuV
+}
+!procedure Metrodeparis($id, $name="Metrodeparis", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Metrodeparis', $name, $tech)
+!endprocedure
+!procedure MetrodeparisCard($id, $funcName="", $content="")
+  IconCard($id, '<$MetrodeparisMd>', '', $funcName, $content)
+!endprocedure
+!procedure MetrodeparisGroup($id, $name='Metrodeparis', $tech='')
+  IconGroup($id, 'IconGroup', '<$MetrodeparisLg>', $name, $tech)
+!endprocedure
+@enduml

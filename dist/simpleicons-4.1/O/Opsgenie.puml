@@ -1,0 +1,16 @@
+@startuml
+sprite $OpsgenieMd [14x14/16z] LSw50G8n44JHVt6V_hjbS7XntSMghF4oPOkdf8S2xulVg_dlZ26RF5orjNDwQnU4SgG8KJg5sENnkew73coF-z5TG3nwYh_HqpiPdvx4MrWhWDq
+sprite $OpsgenieLg [20x20/16z] {
+VP253GGW40Hnb_whnVOtl4_iCd0g3hOVl7Z2muKdPVe3UrsYAzVLJlwxvzpF7dzdSJNgt5esiJeQ966RjdPHg5NL2j7UdAQGifmWYuLk60EgwUUZ0FSyoVkr
+0bMaeUJCn3NMUaANeXbF
+}
+!procedure Opsgenie($id, $name="Opsgenie", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Opsgenie', $name, $tech)
+!endprocedure
+!procedure OpsgenieCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpsgenieMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpsgenieGroup($id, $name='Opsgenie', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpsgenieLg>', $name, $tech)
+!endprocedure
+@enduml

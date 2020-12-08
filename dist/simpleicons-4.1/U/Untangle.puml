@@ -1,0 +1,16 @@
+@startuml
+sprite $UntangleMd [14x14/16z] TSY50SD02030LrpsdxRUUF0Zjw4xHUw2F6rz3SX2Yn2aGzfF14WWvKU1AG2TWzzIQFO2GDEN76jYop5zCj7B6Q-A37kD-mYD3SOJ
+sprite $UntangleLg [20x20/16z] {
+hSZ5WKKX50Km7d1TJl_LZhj-opBuJl6TuKHHts-kXdD_Ebg6EVJJAJCcxK_dGZbjmJvqsBQTizRmjqlVpBLiRKRNyrNiBRs9T66FUBxSXu4EhgLRDfxq6WaP
+ZZK4KrIOW30WfP7QAFF8n6sPshSwxW4
+}
+!procedure Untangle($id, $name="Untangle", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Untangle', $name, $tech)
+!endprocedure
+!procedure UntangleCard($id, $funcName="", $content="")
+  IconCard($id, '<$UntangleMd>', '', $funcName, $content)
+!endprocedure
+!procedure UntangleGroup($id, $name='Untangle', $tech='')
+  IconGroup($id, 'IconGroup', '<$UntangleLg>', $name, $tech)
+!endprocedure
+@enduml

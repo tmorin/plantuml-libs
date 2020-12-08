@@ -1,0 +1,13 @@
+@startuml
+sprite $RtlMd [14x14/16z] hSE73G0n30B0oDZmdVsd_PuDSjAr8N2B-09LDViWZuEpNSNviEITsWmaka0RuW8
+sprite $RtlLg [20x20/16z] pKW70G0W2FExSVktbHZ2VllyK4SXBt3BG5MTOvyH4JQ6Px0pCsjRCxt2p0pqQvQ024XLG9K4BhHzVWy
+!procedure Rtl($id, $name="Rtl", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Rtl', $name, $tech)
+!endprocedure
+!procedure RtlCard($id, $funcName="", $content="")
+  IconCard($id, '<$RtlMd>', '', $funcName, $content)
+!endprocedure
+!procedure RtlGroup($id, $name='Rtl', $tech='')
+  IconGroup($id, 'IconGroup', '<$RtlLg>', $name, $tech)
+!endprocedure
+@enduml

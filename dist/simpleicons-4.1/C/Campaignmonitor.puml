@@ -1,0 +1,13 @@
+@startuml
+sprite $CampaignmonitorMd [14x14/16z] VSb50e1030F0TQdb_w_5APnsBcsIiD3BzsS2kWyuIJh_n7WSSpMyA19Sp-g_jGudZU5eueT4-2KK5dO
+sprite $CampaignmonitorLg [20x20/16z] fSgr0SH040D07PDywh_QP_1kwea75_GAfmvfHPo4gQTTy5EsFaRufAw_8-CXKKO3-fR162bhXYAdXIbhrtp8Okcok0hbz25v99V5WGlk
+!procedure Campaignmonitor($id, $name="Campaignmonitor", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Campaignmonitor', $name, $tech)
+!endprocedure
+!procedure CampaignmonitorCard($id, $funcName="", $content="")
+  IconCard($id, '<$CampaignmonitorMd>', '', $funcName, $content)
+!endprocedure
+!procedure CampaignmonitorGroup($id, $name='Campaignmonitor', $tech='')
+  IconGroup($id, 'IconGroup', '<$CampaignmonitorLg>', $name, $tech)
+!endprocedure
+@enduml

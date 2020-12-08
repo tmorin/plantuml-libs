@@ -1,0 +1,13 @@
+@startuml
+sprite $PeertubeMd [14x14/16z] TKw30K0X5FpCTVjFcsqy7QuNv6hhXNhx361tdu4_NKPlmteSmXkoM4L0BrcRR0g6dHJOoHdlJ3i
+sprite $PeertubeLg [20x20/16z] TL254G0X3CCTil-qxxqlxjKaGWG4AORXaTHe2q1pimr8Sh9Hw6XBQiwzpDnMxNK3Fm2F-3nvLUVV6o00iuruaAqwneDwJ5ZiX3cEc7dGNeFAWpWFFfmVBIS
+!procedure Peertube($id, $name="Peertube", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Peertube', $name, $tech)
+!endprocedure
+!procedure PeertubeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeertubeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeertubeGroup($id, $name='Peertube', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeertubeLg>', $name, $tech)
+!endprocedure
+@enduml

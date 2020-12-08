@@ -1,0 +1,20 @@
+@startuml
+sprite $OpslevelMd [14x14/16z] {
+BSS70a8n20FGC0e9hVS_hlh7OmP_eRKKUFKss_q6swhIjZla34ZC9E0buyfSD1Mo7TRdjC4RqKp07KWId2h-VsVLn6TWPu0vzf-CKH1WQ8A9bIP0bWkwx0Ho
+_v-2YwGPIJbk8UNz_
+}
+sprite $OpslevelLg [20x20/16z] {
+JSu5eaGX243H2w9Iljd_QdzC7pk1Xzbxz-IRxbwhj_AbBWMzcWyfxpNBItdHQXrLG_krATwUojv8xWwzlmj8PosyX2X1HWXer9zKa1Y8tczZLGOWeOYckm8Y
+WBgdCkpAtOkxrJilutOpuBI0z07ivbLfwdaCnabNowffizer32pK-syZfh4I7dkGYv6-CMVquDwviJChFFrCW7ayFMh0wfEr1MHNdcTQCj3eEJkK8NoCpC7J
+Bm
+}
+!procedure Opslevel($id, $name="Opslevel", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Opslevel', $name, $tech)
+!endprocedure
+!procedure OpslevelCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpslevelMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpslevelGroup($id, $name='Opslevel', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpslevelLg>', $name, $tech)
+!endprocedure
+@enduml

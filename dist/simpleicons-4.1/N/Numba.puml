@@ -1,0 +1,16 @@
+@startuml
+sprite $NumbaMd [14x14/16z] HOo50G0X3CGEjqBsd_PTKbSTHAEjfXlNmLQv2p-1vfwHGNTAOnvU2RBoWZFwmgeJxB0i1GuiQc0wIBr6EMDwFSJ9ocznFR5tvXCqVGpINsHp-la6Em
+sprite $NumbaLg [20x20/16z] {
+NSv50WD124JHQhT0tV-s8SIOUSlV0d1vaRDp8oY7tj8_JRfJ_sc54fCq8DKvYwT6Cu0ybQP_hcdroUvOIeTyrAKC3PiVkop_nVzpgo3Bwvhh8cSae2ef6L6d
+VNn9QTBC5c8LkfD2w_spUZJijt9DIRaIhhOstBHJxYdL-Eu9
+}
+!procedure Numba($id, $name="Numba", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Numba', $name, $tech)
+!endprocedure
+!procedure NumbaCard($id, $funcName="", $content="")
+  IconCard($id, '<$NumbaMd>', '', $funcName, $content)
+!endprocedure
+!procedure NumbaGroup($id, $name='Numba', $tech='')
+  IconGroup($id, 'IconGroup', '<$NumbaLg>', $name, $tech)
+!endprocedure
+@enduml

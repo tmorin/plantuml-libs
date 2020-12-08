@@ -1,0 +1,13 @@
+@startuml
+sprite $CodeforcesMd [14x14/16z] bSV50GH14CD0Dmo3yu_sc651BnM-4pDvgfBrgKxso-HIz2cI-PTyZFfK9hbB2OriIEGqDq3S1J1Nl7K4
+sprite $CodeforcesLg [20x20/16z] lT253K0n24NHkWFxJ_lTNNkZxuGOx5xSE6Vut0nLcRcvsjpSxDH2bLdSKTsnSQKKNrWYfBImPkOox7vW6SDwMcUT6d-bcdcn4W
+!procedure Codeforces($id, $name="Codeforces", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Codeforces', $name, $tech)
+!endprocedure
+!procedure CodeforcesCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeforcesMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeforcesGroup($id, $name='Codeforces', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeforcesLg>', $name, $tech)
+!endprocedure
+@enduml

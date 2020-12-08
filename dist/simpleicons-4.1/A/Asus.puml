@@ -1,0 +1,13 @@
+@startuml
+sprite $AsusMd [14x14/16z] hS450S0m40Im5PuE_DkTYIRV6wiYA--t8pDZG6BmXOZMX9fsW4EVjQlgtiweYk-97m
+sprite $AsusLg [20x20/16z] pSQ70S0W24JHir4Fi_-qgKlaA_3mgzheROpH-yrFW3ATf4V7ZBYLKoWPuRPgO4NUchLbxAcM-rWmBdDk9aRnBh9OGMPbQq0VTy_f-FIZBW
+!procedure Asus($id, $name="Asus", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Asus', $name, $tech)
+!endprocedure
+!procedure AsusCard($id, $funcName="", $content="")
+  IconCard($id, '<$AsusMd>', '', $funcName, $content)
+!endprocedure
+!procedure AsusGroup($id, $name='Asus', $tech='')
+  IconGroup($id, 'IconGroup', '<$AsusLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $FacebookliveMd [14x14/16z] dSn50S0m3030KfZygntFG2-VSDlK9yss2AyWmYXpiFhb27DBLIMlbEPNfIOYLvLGoohhqUUulxomRJe1
+sprite $FacebookliveLg [20x20/16z] nSt50GKm20DGgZZPVzhlEa7V3GqTitWr6lorBO1qOloR4x9XI8iorG8GtU42XgkQRWTGayQZLsQsSWTklCVZLkwdTR-ro97ndq5jjj5e27_H8LS
+!procedure Facebooklive($id, $name="Facebooklive", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Facebooklive', $name, $tech)
+!endprocedure
+!procedure FacebookliveCard($id, $funcName="", $content="")
+  IconCard($id, '<$FacebookliveMd>', '', $funcName, $content)
+!endprocedure
+!procedure FacebookliveGroup($id, $name='Facebooklive', $tech='')
+  IconGroup($id, 'IconGroup', '<$FacebookliveLg>', $name, $tech)
+!endprocedure
+@enduml

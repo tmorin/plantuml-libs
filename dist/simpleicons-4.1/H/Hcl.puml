@@ -1,0 +1,13 @@
+@startuml
+sprite $HclMd [14x14/16z] hOf50K0X04CdkFPF-uKClCiKro0W7JTtAZFtb5DSnkgUBQ-ON5SAF4UA8C_z0Yy
+sprite $HclLg [20x20/16z] pOl50SH054Bv1XEb_sfNKaNGqyFBLSr0iNvTQYGRk7qlNjPkjLOU5c1ljVaOtzMQziqgCj4FAirloT-zN5y
+!procedure Hcl($id, $name="Hcl", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Hcl', $name, $tech)
+!endprocedure
+!procedure HclCard($id, $funcName="", $content="")
+  IconCard($id, '<$HclMd>', '', $funcName, $content)
+!endprocedure
+!procedure HclGroup($id, $name='Hcl', $tech='')
+  IconGroup($id, 'IconGroup', '<$HclLg>', $name, $tech)
+!endprocedure
+@enduml

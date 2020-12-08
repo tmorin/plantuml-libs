@@ -1,0 +1,16 @@
+@startuml
+sprite $OpensuseMd [14x14/16z] bOo50GCX300XRZJxJzlt0RYuZYrGL1aGhvnNlnYIzqT6_3g-MNcukaPdz5ANwMREEOV6zQFASyxhyLK1wnMtEG
+sprite $OpensuseLg [20x20/16z] {
+lOp50G8m34L_FPxzjuLmAWlqnHMFQ9Cj8bpEuZDGJCiBfOx6UMFCHFBV8ZQjoTrs8d8TVAPdXjSpDTcWew8yKe1JhX0-CXpVAR2zeyWaKaDhLOoVnzncsl6S
+3m
+}
+!procedure Opensuse($id, $name="Opensuse", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Opensuse', $name, $tech)
+!endprocedure
+!procedure OpensuseCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpensuseMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpensuseGroup($id, $name='Opensuse', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpensuseLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CodeigniterMd [14x14/16z] JOw55G0n24DJLzxVVzfpAUv45yMcXR8jYJFydqp-p1lCPGnC8LzPXp4PHZcI0EHp689yvTfgG5NiHt8EPUWAZU5Qb3IeKYJhedRzxEs1a2wVmmNyj3i
+sprite $CodeigniterLg [20x20/16z] {
+PO-50S904C3EQg_xRqkeIw2MFvM3AF9Xg5-N-lW9wpszLBIF6pjCNzNZLGkQYvpQ6uPh8NxPNKRL4LbvcQzYMP0hmpOiL1ClFBU9Z8mjHwVzLDSEXCGnW8iQ
+Rk7c0Wi361d4c1WAOjzmxbKERD-6m6l9Osah-ml7e-pewDipR7t-
+}
+!procedure Codeigniter($id, $name="Codeigniter", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Codeigniter', $name, $tech)
+!endprocedure
+!procedure CodeigniterCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeigniterMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeigniterGroup($id, $name='Codeigniter', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeigniterLg>', $name, $tech)
+!endprocedure
+@enduml

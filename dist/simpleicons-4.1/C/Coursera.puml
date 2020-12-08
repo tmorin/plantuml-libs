@@ -1,0 +1,16 @@
+@startuml
+sprite $CourseraMd [14x14/16z] bSt50KD124NH5q56oEs_sdmlOCuAHmiiuojzCasA2PIItNn1UJU3Z1yDzZ4LBdtXp7mVkhFoX5RXHJ-laCvkx0EM-NnOi04
+sprite $CourseraLg [20x20/16z] {
+jO_50KHH20FpN67whtRTz_pdX9Fe2C9la1UmqZF8KcdSwEey8m2RRg5SWsL01cPGYh9R42Si84bIWnqa9N3mQoqOLDrhLqPG6B1hby9ZbpqDQFu8Sdr9o8-W
+IIeBsEMgsV6L_xqTmHa
+}
+!procedure Coursera($id, $name="Coursera", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Coursera', $name, $tech)
+!endprocedure
+!procedure CourseraCard($id, $funcName="", $content="")
+  IconCard($id, '<$CourseraMd>', '', $funcName, $content)
+!endprocedure
+!procedure CourseraGroup($id, $name='Coursera', $tech='')
+  IconGroup($id, 'IconGroup', '<$CourseraLg>', $name, $tech)
+!endprocedure
+@enduml

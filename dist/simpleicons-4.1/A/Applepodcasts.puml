@@ -1,0 +1,19 @@
+@startuml
+sprite $ApplepodcastsMd [14x14/16z] {
+JKw5OKGn2CsFuR3_jWLwXZjFeaYjtVQoJDHLhCOXPhpPpfOT9KJIqyDNWCsHkEOSqZqhG6vcXYIU6J7K90X4dhnwEsEcyQIXoloeZc6zLfl0Op9ulAYkjFTV
+dBZnEu7Z3m
+}
+sprite $ApplepodcastsLg [20x20/16z] {
+NT250G8n30NGUZn__ssvuF3gBgpueqqDVwm39MbV12YCekEOk-xfk4HbCWqkuj3XU8ZXEQVmtD29XysOWWHeLxta33xGiGBBVA7upcrOhH6OuxjFsd38gozM
+40CUmDQOG5aM8xaFyvbyWA8B8hkrevepy70sweo3d8ANC_EQnpuO7wBKkeZz_reFF2HUMDurTVpntZedlYJtTWC
+}
+!procedure Applepodcasts($id, $name="Applepodcasts", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Applepodcasts', $name, $tech)
+!endprocedure
+!procedure ApplepodcastsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplepodcastsMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApplepodcastsGroup($id, $name='Applepodcasts', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApplepodcastsLg>', $name, $tech)
+!endprocedure
+@enduml

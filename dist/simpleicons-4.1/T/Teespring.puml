@@ -1,0 +1,19 @@
+@startuml
+sprite $TeespringMd [14x14/16z] {
+DOp50GD130Eb1RFJVxSvdfyG65O3hBt4-nJP2ac2gxEKZ8e1OBall7Yqf4_ZhN8EIbNTCPC01yG-TJ7ZKNZ89MPhlCext7g_QeY7XhoAdHw_ByCozI8-Tlbz
+SW
+}
+sprite $TeespringLg [20x20/16z] {
+LOw75KGX20Gn0GgB_NTxUZ-FQT-Oe4LMAsjfO1OTWUtgG5qBezOcYbZHerkqBC6qwSCy9AyGWKEH2_n8AQSr5-4MzNGdCWr83YRLowdjkSd4nENwEDunpb4k
+r-d2v0pZSMfdCBrTnIva3URRPJ0Ru4elR8O9wnmlnrn4UnFGMyBDrD_daaF4FDwEclaG3g4FXVjvx66PUiOV
+}
+!procedure Teespring($id, $name="Teespring", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Teespring', $name, $tech)
+!endprocedure
+!procedure TeespringCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeespringMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeespringGroup($id, $name='Teespring', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeespringLg>', $name, $tech)
+!endprocedure
+@enduml

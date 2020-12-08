@@ -1,0 +1,16 @@
+@startuml
+sprite $RazerMd [14x14/16z] JOtL0KLH3C8eX9xz9tukDryLH5-6ulTaoIolnO1SvhNHJGJI5hDBJP5fcIISnL9gDMo-HhT9ybucU_mlJhTXFgkJjD6Vx5osMLtmSxi3
+sprite $RazerLg [20x20/16z] {
+PSlBbGLH249Hb0EtLkSVS4_Ul_PC0NtPnB6-E8Lv5koLJ1A_Di28FVPh0zr80KaxCvfmpiOQOkcw29kU-68TibeNQc_ToRa0IG3HC0lkCIDfcn7fSja6FVdW
+9CJlbpdLbzsSTcszpTB6TlNcc3O1lOrNSbbz6-VerwQwARhv6qdw1m
+}
+!procedure Razer($id, $name="Razer", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Razer', $name, $tech)
+!endprocedure
+!procedure RazerCard($id, $funcName="", $content="")
+  IconCard($id, '<$RazerMd>', '', $funcName, $content)
+!endprocedure
+!procedure RazerGroup($id, $name='Razer', $tech='')
+  IconGroup($id, 'IconGroup', '<$RazerLg>', $name, $tech)
+!endprocedure
+@enduml

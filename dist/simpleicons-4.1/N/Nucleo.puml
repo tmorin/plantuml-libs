@@ -1,0 +1,20 @@
+@startuml
+sprite $NucleoMd [14x14/16z] {
+DOu5aiD030HxjmIMHkV___QI60g4GqTOZODFMIWMfc9t6siCOCTvTPK1AILWBS7He0DaBazTgDm5wnJCW08WtkrSUEqKQw7mvbBHgr9sWI-INml-vnjOkfBr
+ecJiqQYll_LCV
+}
+sprite $NucleoLg [20x20/16z] {
+HL1Hcg0X2AhKAasy_sqt_NTcUE931UfUcGgZzi06dNBr6l5nbzIc-sQoAxMnm6qOLdB2v9OONLnxKN4xHTvcx8yT0teH44MDEyGyJHGZZJGFl95WlArHfZXl
+a1LCTqfplirOZMlgGK-AU2BdLaB0lrfukN1RkLYtM6OjC-WlOxSHqhuk1s_pAxXlWrVd3UROtpBhpzioew0wkKXNvpwApk-l-eRsnh7IX_qQoS7z-TCZTEse
+kwPI47FO-0S
+}
+!procedure Nucleo($id, $name="Nucleo", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nucleo', $name, $tech)
+!endprocedure
+!procedure NucleoCard($id, $funcName="", $content="")
+  IconCard($id, '<$NucleoMd>', '', $funcName, $content)
+!endprocedure
+!procedure NucleoGroup($id, $name='Nucleo', $tech='')
+  IconGroup($id, 'IconGroup', '<$NucleoLg>', $name, $tech)
+!endprocedure
+@enduml

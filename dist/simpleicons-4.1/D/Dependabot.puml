@@ -1,0 +1,16 @@
+@startuml
+sprite $DependabotMd [14x14/16z] FOu50aCn24E3VAbGxd_R8TjUlKY2GBRx5dnvFHY4HCqBK-0Q5T3Q4TlPDdJju_x4w_rNPzu3K8m8P3lY9RoO-YKG8BR8x3hgkYSLh6W3F_MZI2Z27MZ4h0CV
+sprite $DependabotLg [20x20/16z] {
+TP054WGX30GdmVt_hrr9tN3UgpGIWI5vNMJ12rflL_L5nR6C6McaBiAbSTgenC6bXOiYsZ8Qx3DwxoNaqMsfDwUG2mZKTfW3iMs1Jkv7dYv2SrVaxX7f0gG6
+e2J0qrLiwfyOFjyphJnejekraHdPg4tJ_xtYKYxQX3a3_qy
+}
+!procedure Dependabot($id, $name="Dependabot", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Dependabot', $name, $tech)
+!endprocedure
+!procedure DependabotCard($id, $funcName="", $content="")
+  IconCard($id, '<$DependabotMd>', '', $funcName, $content)
+!endprocedure
+!procedure DependabotGroup($id, $name='Dependabot', $tech='')
+  IconGroup($id, 'IconGroup', '<$DependabotLg>', $name, $tech)
+!endprocedure
+@enduml

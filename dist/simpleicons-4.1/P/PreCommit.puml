@@ -1,0 +1,16 @@
+@startuml
+sprite $PreCommitMd [14x14/16z] LSo53S1030F0PmpilstbL4yMNi0EwNDsjnBd63CUg1eN5e5HoZ1sR5AQ7Wo0fYA-gmuoPPygNlc_hAi7BNq-fGkBXaN38j6F3m
+sprite $PreCommitLg [20x20/16z] {
+TT1L0WGX20PW9i0Yxd_QBTpVJPzcFYKfps6gTjBROH_3-ODgxzNudJH2g_CYkzCTZTzU9JelKk5JTEAHWOrEsKapt39Nl_zJpPmwUZoiQg5-_ne-hT6sRH9t
+wuxOxluiZHeZ9WbwOGEjCVuCWZ602FotA-mKhu0hrnK
+}
+!procedure PreCommit($id, $name="Pre Commit", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/PreCommit', $name, $tech)
+!endprocedure
+!procedure PreCommitCard($id, $funcName="", $content="")
+  IconCard($id, '<$PreCommitMd>', '', $funcName, $content)
+!endprocedure
+!procedure PreCommitGroup($id, $name='Pre Commit', $tech='')
+  IconGroup($id, 'IconGroup', '<$PreCommitLg>', $name, $tech)
+!endprocedure
+@enduml

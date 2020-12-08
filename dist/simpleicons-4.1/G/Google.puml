@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogleMd [14x14/16z] HSw50GCn241HuixVVzj2prvSGKIwubOKamwNwWlWpB4XYpGxwM9AiavXo0lmr-42Hyn2LLdtwk3EVRFKMkti-oL3UoDajLjNzE7HQVUckQz8QDkFFPSV
+sprite $GoogleLg [20x20/16z] {
+RP250S0W30GJtDb_stwG-bKv9490nRueXXOwRzVSKgxV22JOkIAdWa_LCAoR_5fc_EQg28G4LPZkZ7sAFYxGr-aPoo-CkBcrz4N-SUNQcofeQzsAmGeu6Rvo
+aMpDCsSlDV6ihLbOdZrphnw0_ErLLk-Uzi2qCR4sRFTpqG4
+}
+!procedure Google($id, $name="Google", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Google', $name, $tech)
+!endprocedure
+!procedure GoogleCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleGroup($id, $name='Google', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleLg>', $name, $tech)
+!endprocedure
+@enduml

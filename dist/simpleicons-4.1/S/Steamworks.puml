@@ -1,0 +1,13 @@
+@startuml
+sprite $SteamworksMd [14x14/16z] hKS50S0m30kTxz_kSPk2XeDQ2E0wNe3vTEB9f1ujaEo8Br256m
+sprite $SteamworksLg [20x20/16z] pKo30G1136k3D_QVziqDhaQIADh0tzhiQpV_Rin8joqf0M9kXhqC2j1srLGWiESjchctgnHcAm
+!procedure Steamworks($id, $name="Steamworks", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Steamworks', $name, $tech)
+!endprocedure
+!procedure SteamworksCard($id, $funcName="", $content="")
+  IconCard($id, '<$SteamworksMd>', '', $funcName, $content)
+!endprocedure
+!procedure SteamworksGroup($id, $name='Steamworks', $tech='')
+  IconGroup($id, 'IconGroup', '<$SteamworksLg>', $name, $tech)
+!endprocedure
+@enduml

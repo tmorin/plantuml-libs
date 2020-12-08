@@ -1,0 +1,16 @@
+@startuml
+sprite $YammerMd [14x14/16z] LKw30G0n3BowyVxJlbb61vmhgpSyQmZJcsY25M0IJUB8G2SWtC9zor9tuz3aXO95fJUB6Ab6p9A0j6KEsJDSsVRiazpsoTZkpZBSc8ZuLVYhlyuOU5FRtnK
+sprite $YammerLg [20x20/16z] {
+XP3L0SKm30CTvjp-qpueS-_FR4bMV2VAWGZvb786Vqo9f2O_z8WQKgA6HXQq_4X5Z89MeLSm_wb49qEKXd7WNAhqx7E3hdsH3D2YLIAX0qcK0uAQNf-sLnWk
+hZch6AZhB4x1SAFHnXlZD_jVpZyFmjHUszc3irTldWx9Dahv0W
+}
+!procedure Yammer($id, $name="Yammer", $tech="")
+  IconElement($id, 'simpleicons-4.1/Y/Yammer', $name, $tech)
+!endprocedure
+!procedure YammerCard($id, $funcName="", $content="")
+  IconCard($id, '<$YammerMd>', '', $funcName, $content)
+!endprocedure
+!procedure YammerGroup($id, $name='Yammer', $tech='')
+  IconGroup($id, 'IconGroup', '<$YammerLg>', $name, $tech)
+!endprocedure
+@enduml

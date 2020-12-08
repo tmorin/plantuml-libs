@@ -1,0 +1,13 @@
+@startuml
+sprite $StubhubMd [14x14/16z] dKv50eGm3AotqVd_QtTnk25npuGl55CkjVK-MDJSuRYImObKI5XPe00DxcDMWk0adnfZAcv7q2yFOexFuVm1
+sprite $StubhubLg [20x20/16z] lSur0iK020FGEf90xd_QslHrxKF734yQJzCqB-jcoxAUsoF1QlrLKcVoUlfq7WaIdSOopup4bgsKckRm3HPkvmUvL965OB0xW9HCtrQaVIPPtXBVaNqS7d
+!procedure Stubhub($id, $name="Stubhub", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stubhub', $name, $tech)
+!endprocedure
+!procedure StubhubCard($id, $funcName="", $content="")
+  IconCard($id, '<$StubhubMd>', '', $funcName, $content)
+!endprocedure
+!procedure StubhubGroup($id, $name='Stubhub', $tech='')
+  IconGroup($id, 'IconGroup', '<$StubhubLg>', $name, $tech)
+!endprocedure
+@enduml

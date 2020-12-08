@@ -1,0 +1,16 @@
+@startuml
+sprite $InvisionMd [14x14/16z] TOx50G1130BN9KR_rPwxp2iAu8hXXLndwjfrHvUTXCGnjr1NeUWrkLxSUf4ISaHVEtCTlYB5NR8wHaXjMPRSig57nfF_e3G2
+sprite $InvisionLg [20x20/16z] {
+fSr50aCX30JGmPBo8tF_qzQTJULj8CvLy2l9XK7uRc9muSkmYhY9cW-zrRm0sm1QnMDle0KxX1FrSRQJ5Kv3uvL2wQYaFcORZ3iCiiFoUgN0hM0oAsm4pphA
+g0Xoe2YlDaktouT_IYxa
+}
+!procedure Invision($id, $name="Invision", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Invision', $name, $tech)
+!endprocedure
+!procedure InvisionCard($id, $funcName="", $content="")
+  IconCard($id, '<$InvisionMd>', '', $funcName, $content)
+!endprocedure
+!procedure InvisionGroup($id, $name='Invision', $tech='')
+  IconGroup($id, 'IconGroup', '<$InvisionLg>', $name, $tech)
+!endprocedure
+@enduml

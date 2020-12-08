@@ -1,0 +1,19 @@
+@startuml
+sprite $VirbMd [14x14/16z] {
+HKo50GGX32lr1BdzftqNj54HiRLCVYklatyam7VI8SDKOuY62iFPnRqDPyUix6fQDoFcwged2Z1iJdHyD0yIy7haZk8S1wbTJ1IxKNF90sc0hYlNVg1tYowV
+wuloyG4V9wwbTm
+}
+sprite $VirbLg [20x20/16z] {
+NSu5WWKW20HGoeQP-vzsztVPFWFaMcodoq-9Kqs_IK6ooG_kDFajqJztSrowHzUvfukkFKrGOeXr72Ywim03r65N2wqPSCCWBIWtaxql9hb0xxXPUraXHZxk
+dPlLochpt6mCj60VY9rzhPkHfK4oTPwvnyswOmQRO_HviZtZdkj_Pti7_CSi27tRBRewwyDk-QaXvMsSco5Q-sBRBhQsazNb7m
+}
+!procedure Virb($id, $name="Virb", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Virb', $name, $tech)
+!endprocedure
+!procedure VirbCard($id, $funcName="", $content="")
+  IconCard($id, '<$VirbMd>', '', $funcName, $content)
+!endprocedure
+!procedure VirbGroup($id, $name='Virb', $tech='')
+  IconGroup($id, 'IconGroup', '<$VirbLg>', $name, $tech)
+!endprocedure
+@enduml

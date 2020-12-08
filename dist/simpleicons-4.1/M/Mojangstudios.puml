@@ -1,0 +1,16 @@
+@startuml
+sprite $MojangstudiosMd [14x14/16z] JOo50GKX34E3GtN_QR_SOGzjcoGFlnZcBsP-KTlpK2cbARVNal0ZefAzLHAJ2l1RoMD0VwitBUUtqgTIUglYBs-5s0PHVsQSIqw_azd9BonU1KLy0G
+sprite $MojangstudiosLg [20x20/16z] {
+PSx50G0n30D1ESpglzfZ2Enp0hP8uPpekbZkgIGkUVKVvwF6HeUN7AvIqYa-r3Jk12x7pbpEoSdXxRDm_wiW-RLtN5K8hna-9RZ5gErhqlvTNuFbtsimUKI3
+AsMCqUB8UbXnnfedrqZFfIehQSmI1DW1
+}
+!procedure Mojangstudios($id, $name="Mojangstudios", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mojangstudios', $name, $tech)
+!endprocedure
+!procedure MojangstudiosCard($id, $funcName="", $content="")
+  IconCard($id, '<$MojangstudiosMd>', '', $funcName, $content)
+!endprocedure
+!procedure MojangstudiosGroup($id, $name='Mojangstudios', $tech='')
+  IconGroup($id, 'IconGroup', '<$MojangstudiosLg>', $name, $tech)
+!endprocedure
+@enduml

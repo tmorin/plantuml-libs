@@ -1,0 +1,16 @@
+@startuml
+sprite $DisrootMd [14x14/16z] XSh55O1040FGhFkc_suPULpXNqOIV0cbzLO3J3zKE-Ke7rakpJm3AQB8sgfsEiIK0b2vxGhI7VAyKDPD-HQuJLvEk4YUcV1UlGNyUG
+sprite $DisrootLg [20x20/16z] {
+hSl75GD120DGJOI9whzRF_36i_rF10c_IKLKQiObfBNfUZXlO_8qf4cg0I2v5azBkH9gpI7uiUdytYDCyHj2cUHYX-jsh41GpfxXehMtBOC2SxP7G9Wxmftj
+aWShBcbRsxDubJbom6sGMn9UIfM8F_W
+}
+!procedure Disroot($id, $name="Disroot", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Disroot', $name, $tech)
+!endprocedure
+!procedure DisrootCard($id, $funcName="", $content="")
+  IconCard($id, '<$DisrootMd>', '', $funcName, $content)
+!endprocedure
+!procedure DisrootGroup($id, $name='Disroot', $tech='')
+  IconGroup($id, 'IconGroup', '<$DisrootLg>', $name, $tech)
+!endprocedure
+@enduml

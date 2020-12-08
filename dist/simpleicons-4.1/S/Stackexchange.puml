@@ -1,0 +1,16 @@
+@startuml
+sprite $StackexchangeMd [14x14/16z] RSh50GD13C10BRFTVxN9CO--iaaF4LVqaB4Xfqtsk3pwPYH2qqFXUVR3rvaNppDZanuI44kUKgs1dP74oKPcVm
+sprite $StackexchangeLg [20x20/16z] {
+ZSzL0a9120NGEzt3_bTh5w6-yqa3D68gBWQFTS05ufQ_13ENt2LMkUAiNXtRbvXldMdNUIcd3pbTRza7vytrQO_hpJ4n4RUw-M7DQ-_I_wBmMC5Lh7UJQDG8
+fjA0r9U3b3pkpW
+}
+!procedure Stackexchange($id, $name="Stackexchange", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stackexchange', $name, $tech)
+!endprocedure
+!procedure StackexchangeCard($id, $funcName="", $content="")
+  IconCard($id, '<$StackexchangeMd>', '', $funcName, $content)
+!endprocedure
+!procedure StackexchangeGroup($id, $name='Stackexchange', $tech='')
+  IconGroup($id, 'IconGroup', '<$StackexchangeLg>', $name, $tech)
+!endprocedure
+@enduml

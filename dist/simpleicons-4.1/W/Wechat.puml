@@ -1,0 +1,16 @@
+@startuml
+sprite $WechatMd [14x14/16z] LSU50G0n24FHr3La_sdFzLVW0V0f1To5EcQBrrvqr0zHCqcbgUtI9Pjkrv4DaitXmZcyxME8KIDfXBffIdPS1FRPTKPu1pYUoZZoSqV3NKWX9lnR0G
+sprite $WechatLg [20x20/16z] {
+PP056aGX20OHM-A__sct-1vROuyDFIdCNEWRRgtobndY06pNDENWOb2m1T3dEZMWXtkEg0565N2-dFSD-3XGQ-4I5P6pseVpBOudfwGxbkiB0X6WjoXhhd0A
+d1t5YVRB6P0G3OX-ENkuJeNf89aPcbmebB1SJw4FsjnhpCFqHybrNzm1
+}
+!procedure Wechat($id, $name="Wechat", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Wechat', $name, $tech)
+!endprocedure
+!procedure WechatCard($id, $funcName="", $content="")
+  IconCard($id, '<$WechatMd>', '', $funcName, $content)
+!endprocedure
+!procedure WechatGroup($id, $name='Wechat', $tech='')
+  IconGroup($id, 'IconGroup', '<$WechatLg>', $name, $tech)
+!endprocedure
+@enduml

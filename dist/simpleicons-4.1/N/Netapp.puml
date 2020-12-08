@@ -1,0 +1,13 @@
+@startuml
+sprite $NetappMd [14x14/16z] OqC1F2Y0dpJ0nylBX-2nCJ2m8NZi30piA3msL1v1VRn0m0UKO-K3iHXG
+sprite $NetappLg [20x20/16z] Oy82MB40_e45F20tyA2ASJ400HUg63T8Z9lkOeJT0Wr6Pf0OCvJ3W0K
+!procedure Netapp($id, $name="Netapp", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Netapp', $name, $tech)
+!endprocedure
+!procedure NetappCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetappMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetappGroup($id, $name='Netapp', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetappLg>', $name, $tech)
+!endprocedure
+@enduml

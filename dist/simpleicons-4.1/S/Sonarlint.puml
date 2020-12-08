@@ -1,0 +1,19 @@
+@startuml
+sprite $SonarlintMd [14x14/16z] {
+LOx50GKm34AfqqROVzhl-gAS02X7OITq2cuC9STWQW1bY7Z0cpmFyP95YGz99ygj7ejn-h4gJZMphiEvifktM8Do0XNbrW13WG_1VuUl-z9u9UjzFPBTA4mf
+MG1S0G
+}
+sprite $SonarlintLg [20x20/16z] {
+RT05WeKX20JWKU27LM3kVzjztP_TWHFPP9-GMt1ZHLRcEJTS1HawWA7d6iwSzLWXUUuKOquypAHX5mKlX3N8m9kWaOetojKrfWCQG3Ym3DMTOzDdqyzBd3cI
+jNtDxX3I3lOCNwoqYUCFy00Emz3iNsVykiltdNDylgrevydCjp_u-LU___His6gobmsS_GC
+}
+!procedure Sonarlint($id, $name="Sonarlint", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sonarlint', $name, $tech)
+!endprocedure
+!procedure SonarlintCard($id, $funcName="", $content="")
+  IconCard($id, '<$SonarlintMd>', '', $funcName, $content)
+!endprocedure
+!procedure SonarlintGroup($id, $name='Sonarlint', $tech='')
+  IconGroup($id, 'IconGroup', '<$SonarlintLg>', $name, $tech)
+!endprocedure
+@enduml

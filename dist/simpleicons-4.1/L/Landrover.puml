@@ -1,0 +1,16 @@
+@startuml
+sprite $LandroverMd [14x14/16z] bKq53SHG57jG-fb_lOSpi7AmzGIWR16VsOYmCm23Yfk8p-6skLLY56EgChMwafDpRSKUqFH78pRCdQvP6lK1T3yymHi
+sprite $LandroverLg [20x20/16z] {
+jOz7eWC124An8YQPkVzfVw_PprlP1Lo3HMROdxoqcZSarMUzb-dnCUl1RSDep1iJwbutDmf3W5tdx35tCe5cE53Cf7UN6G3VS7ZKdPHgfNMOsEYwxKsywyRx
+7MYE29G5lQBJqoZ0Ukbkdqgzj-rBi-PNyxEtQtW5
+}
+!procedure Landrover($id, $name="Landrover", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Landrover', $name, $tech)
+!endprocedure
+!procedure LandroverCard($id, $funcName="", $content="")
+  IconCard($id, '<$LandroverMd>', '', $funcName, $content)
+!endprocedure
+!procedure LandroverGroup($id, $name='Landrover', $tech='')
+  IconGroup($id, 'IconGroup', '<$LandroverLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MooMd [14x14/16z] JKs50SGW3CGTRlzf_ziIGvESkM_jxNG586gtUb_I57YFmjsfpjL3JTiy-lxyqI-OjnsEVhinhltj-k9Nfm7bXWOAxoaDYKyBMEcj_W
+sprite $MooLg [20x20/16z] {
+PK-54S0m28mx_FxJLiF5weLNrG_Bi6ex7E3sMGFQDeg8pxMCp0iYc7bMu5x9F8ti_vTdwyRVZnisWrG6iCA8HXLJb6CRHmCl6JEqpBHG2aO24PnYMKdWH_uC
+txz8J1neC3W-DYOot2X2e5ePD4OlX80MUgOR
+}
+!procedure Moo($id, $name="Moo", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Moo', $name, $tech)
+!endprocedure
+!procedure MooCard($id, $funcName="", $content="")
+  IconCard($id, '<$MooMd>', '', $funcName, $content)
+!endprocedure
+!procedure MooGroup($id, $name='Moo', $tech='')
+  IconGroup($id, 'IconGroup', '<$MooLg>', $name, $tech)
+!endprocedure
+@enduml

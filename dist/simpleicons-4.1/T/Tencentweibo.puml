@@ -1,0 +1,16 @@
+@startuml
+sprite $TencentweiboMd [14x14/16z] JSV50GGn302n2SSGk_zgZs7r4u2TlIqQBprtBIE4bvW09GR0TEh9oN804LQcCrxRXcKAyxKwnFi0sm3qg80UNdpkyB02G0lAc0rUjd9XYmkVN5ZZvmu
+sprite $TencentweiboLg [20x20/16z] {
+PShL0KGn20NHYGiyRl_LhlkUdmGOhjBMOTiZ6Y_PvMlkKESf-Jt8MuE7fSgTAJ-oM92NDSXQtFHhvf8wk7Cpb2aXNPjzf4TNgBgOO0StHJqT4Te9PDorR55I
+JZ3Kk7jzcpOFIQkCKkgM9HwMSjT5J5x28DTM4ozLdLzJYLyM_77dpx7vOuDlPm
+}
+!procedure Tencentweibo($id, $name="Tencentweibo", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Tencentweibo', $name, $tech)
+!endprocedure
+!procedure TencentweiboCard($id, $funcName="", $content="")
+  IconCard($id, '<$TencentweiboMd>', '', $funcName, $content)
+!endprocedure
+!procedure TencentweiboGroup($id, $name='Tencentweibo', $tech='')
+  IconGroup($id, 'IconGroup', '<$TencentweiboLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FlathubMd [14x14/16z] RKs50GGn3AAnyxB_jb_9-yKLS2Egxxg4UvHiBAHFB1SoSb_7MA2qGmcrSR_vmAe50Zqf8bZ8DdAIxNPlIMVN08-MjbsCtDV0pXgGxQmD8xRh682JJno_yW
+sprite $FlathubLg [20x20/16z] {
+bO-54GGX40JN5oV_R1zzApsVwcaC7bxeZdz8eaZG7xGaj2zLakp0Dv0xqOap3qV3x2PTpPpL3O_3-uyQc3RZQXjYx7F82frGHgsjzpLCIXzio3owpM2YoS3x
+cwNBTB6I6I2l900sGnAjONgPA4SSNfkdnbHgytNgd7iwHxB4zxmA3wuN
+}
+!procedure Flathub($id, $name="Flathub", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Flathub', $name, $tech)
+!endprocedure
+!procedure FlathubCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlathubMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlathubGroup($id, $name='Flathub', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlathubLg>', $name, $tech)
+!endprocedure
+@enduml

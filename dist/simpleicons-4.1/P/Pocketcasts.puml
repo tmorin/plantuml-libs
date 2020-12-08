@@ -1,0 +1,19 @@
+@startuml
+sprite $PocketcastsMd [14x14/16z] {
+DKvN0iKm20BjIXpS_xHlj0r_oWGuT6CIF-nIZf7I3d1N6KXO_SwXX6T4EbAKpCj9ApTTIeHltPi7idems58pR6XT3sxb_fvrfnYVwxeR8kwZxMct-zhNidK0
+l4hAYm2-
+}
+sprite $PocketcastsLg [20x20/16z] {
+RP05WWGW30E3bo3v_sjNE7e--E35YqHTHiAbJ7UhN6NIxgsKrhTahXXnY3mobTDapiby5XICAG8KQ-L7RmPf9t17X82uYRHLf8xyKctEzf8PNPGQI9XU64XK
+BQbWLPmNpj0MYlJblbDzhxE-xf33hxV8AVVDczNL3FwtiToLRp6uohvYLOkhVsBgXCBr4YpX39y
+}
+!procedure Pocketcasts($id, $name="Pocketcasts", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Pocketcasts', $name, $tech)
+!endprocedure
+!procedure PocketcastsCard($id, $funcName="", $content="")
+  IconCard($id, '<$PocketcastsMd>', '', $funcName, $content)
+!endprocedure
+!procedure PocketcastsGroup($id, $name='Pocketcasts', $tech='')
+  IconGroup($id, 'IconGroup', '<$PocketcastsLg>', $name, $tech)
+!endprocedure
+@enduml

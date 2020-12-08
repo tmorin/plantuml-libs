@@ -1,0 +1,19 @@
+@startuml
+sprite $FiatMd [14x14/16z] {
+LOu50WGX30CBrD3y_xUNyzr1wv4RjTPIfJOU0ko4RS07oAmEEx5cMQUT8KRB73AFVAs6GWjR3Rf7eiqjG2ej72WjPZwjAB2nlfRByRyLjEQynGRrY51LuUPr
+vm4
+}
+sprite $FiatLg [20x20/16z] {
+ZSi5YaKn44JHIjkBz_vtEx6nxnSfE53uC1kH6D5O1TaS7rbnCn-9-QuadZRMayJk9RehiEoYtWEgAtuj8ZlzCnqMNUxiyckO3Ainv65ZYyUmpTksMJuM6SkA
+H2_754ZJ4hZNOJpCbicnjan_Z1vP6zRFD_urWXa1R1IC0HMe1dpQ5m
+}
+!procedure Fiat($id, $name="Fiat", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fiat', $name, $tech)
+!endprocedure
+!procedure FiatCard($id, $funcName="", $content="")
+  IconCard($id, '<$FiatMd>', '', $funcName, $content)
+!endprocedure
+!procedure FiatGroup($id, $name='Fiat', $tech='')
+  IconGroup($id, 'IconGroup', '<$FiatLg>', $name, $tech)
+!endprocedure
+@enduml

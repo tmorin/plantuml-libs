@@ -1,0 +1,19 @@
+@startuml
+sprite $DatacampMd [14x14/16z] {
+BOq53W1120ExhYp__-qDoKq4RIkbVXnEJ_IvNtgu8ykYiRMVGtTOwVhSCHcNRFlQOAg8zl9Z9wR2myEdgT3aXNofOlxSDC8qIwfaAD8UkV5pL17QdDDXyh-Y
+-GV8E_gTzLFkBGe-
+}
+sprite $DatacampLg [20x20/16z] {
+LT250KCn20JGEuWR-szRIFrzYGl0CVLZxen4l6YPTgsYS29b7FkQLR1V7QkrL-tegoowTdtrwYrEOlMYPGjorpPkAzrckHCujnUb-JTUVOjZnhpuxILtxKGR
+CIJTbn2CHHs-p3LeWOlv5RbQI0YC0pCqMoW8wJaijpmnJzSsfw16kOLait04uB8_0uvjsyUkU99FIfhWGyTTflYJrafuUG
+}
+!procedure Datacamp($id, $name="Datacamp", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Datacamp', $name, $tech)
+!endprocedure
+!procedure DatacampCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatacampMd>', '', $funcName, $content)
+!endprocedure
+!procedure DatacampGroup($id, $name='Datacamp', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatacampLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $CeleryMd [14x14/16z] bKx50G0X3Cif6jX_MboVrBtnAxbYISxA2-3-RCqaRldVq3KJ9UYpFqpn9zb-PV-mVwz4omvq8HK1
+sprite $CeleryLg [20x20/16z] nL350S0m28mxiF-qzJQURo-Amr4F6EZmUOBp8MBbBTa1BdN8EiqUYAmxX4GG3VSvb37pPEzrzASkznm9WX5-ELlc86RTpLMYEH2mK-aT
+!procedure Celery($id, $name="Celery", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Celery', $name, $tech)
+!endprocedure
+!procedure CeleryCard($id, $funcName="", $content="")
+  IconCard($id, '<$CeleryMd>', '', $funcName, $content)
+!endprocedure
+!procedure CeleryGroup($id, $name='Celery', $tech='')
+  IconGroup($id, 'IconGroup', '<$CeleryLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $JamesonMd [14x14/16z] TOn50W0X3CHQtFF_rwu3fysbcf4BssXE9cRGlImIUBCc2yckIGTbYr9eOKyHmfyedUhqwRnLoH3TwumWuPeUiJ2S5khhUQYDCKD2X_pcdm
+sprite $JamesonLg [20x20/16z] {
+NO_L0G0n2CMgr9lzfpqtxds6OEQ8BuEPlFacD3OM5BCDIC5g4SZX9tPeefcfCFzC08bECJyXYsPcG1UlMG62Q1RtWKap2zJ_m0wuHxJ7KtaNupNHTtfqntl3
+ntTZZjRlI-HzY-XitZN_UQl8KR7V_u-eYwL3pyzjAm
+}
+!procedure Jameson($id, $name="Jameson", $tech="")
+  IconElement($id, 'simpleicons-4.1/J/Jameson', $name, $tech)
+!endprocedure
+!procedure JamesonCard($id, $funcName="", $content="")
+  IconCard($id, '<$JamesonMd>', '', $funcName, $content)
+!endprocedure
+!procedure JamesonGroup($id, $name='Jameson', $tech='')
+  IconGroup($id, 'IconGroup', '<$JamesonLg>', $name, $tech)
+!endprocedure
+@enduml

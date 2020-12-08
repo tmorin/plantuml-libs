@@ -1,0 +1,16 @@
+@startuml
+sprite $TerraformMd [14x14/16z] JSq50W0X20J0izlz_szliTjHWLxTTnjGp2l0wmKhIZqREHVq8KvJU59SHSXWum_ZgPwMFfKAG6KZCYWfHpbF0OLLhc2sz2iolQBpq0y
+sprite $TerraformLg [20x20/16z] {
+PSg53S0m44FHDfoJOky_RVYA5lhfayaSdv7Y_ZRqRuGt3xBBOX6Z8jW6ikiGaWLgP39v9iOcg25XMkzDtWTHRQWh3yEqu_G2jMoMMUGWG09bo3OYnnIIKvd6
+hjhSHjYNyM-ct7Q7UTjFRxjrMmC
+}
+!procedure Terraform($id, $name="Terraform", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Terraform', $name, $tech)
+!endprocedure
+!procedure TerraformCard($id, $funcName="", $content="")
+  IconCard($id, '<$TerraformMd>', '', $funcName, $content)
+!endprocedure
+!procedure TerraformGroup($id, $name='Terraform', $tech='')
+  IconGroup($id, 'IconGroup', '<$TerraformLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GoldenlineMd [14x14/16z] {
+FOe50aH124BnJuTo_zikRhq99G0KlNdnmMOg5Ykf2bkgwpbp0HOzME5-oOvDnZ6GhiKEnS4yeTbxXEQkIsAL2fZPCuExOFCy4FiKe54CV31duWN9r7Rldkzo
+2L_nBpxoLfHSNm
+}
+sprite $GoldenlineLg [20x20/16z] {
+NP27WKGX20K1ioAl_svFq4ixFm1ZbWv2JaQbNn9Vr-aN7VulGEFME1GRv3fLHESevWdrE8jKX0Q0JDHEM6Od0qoz8Eeuw19tCGB5kpjRmaNApq6vr6MHIjAz
+8rqiswCrPhgmI74pVFN-RMi7PlAJ0ViTMFVA4U4iYVCdSXekrdvlnhoELIS_Dm6eBjLHvQdoJjFfbp5hbW_7qNclD-uB
+}
+!procedure Goldenline($id, $name="Goldenline", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Goldenline', $name, $tech)
+!endprocedure
+!procedure GoldenlineCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoldenlineMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoldenlineGroup($id, $name='Goldenline', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoldenlineLg>', $name, $tech)
+!endprocedure
+@enduml

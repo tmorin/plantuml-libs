@@ -1,0 +1,19 @@
+@startuml
+sprite $GooglestreetviewMd [14x14/16z] {
+DSo50SGW30NGN1kduU-_xU7-Y32BCFEJ0FgJhRNCr3u4HLa2FITGBk65YYKOTpRqhQ-2fG1TNTwnn-qa5Yu4BBpfLmFVl9CMkE7AoIkFQW3VrOyCLusUWIkZ
+Fm
+}
+sprite $GooglestreetviewLg [20x20/16z] {
+NSo55SCm30HGiTdQVzkQ6hesYTuNu1MWvZCHY9c8Pr3wiWnz5NtyG_KTSs-gPPSdjLUoCAq5_oS7zHG7zckkvo2Uq9wxsHjBuEO-fiyOpqDMLmaBcy1rX86Z
+Mj10S1EcCCmKuIBGl6k6YyAzSJuYxRPptaDzsgJcuJatgVlBTD7RO2v-32SzBG7y
+}
+!procedure Googlestreetview($id, $name="Googlestreetview", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlestreetview', $name, $tech)
+!endprocedure
+!procedure GooglestreetviewCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglestreetviewMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglestreetviewGroup($id, $name='Googlestreetview', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglestreetviewLg>', $name, $tech)
+!endprocedure
+@enduml

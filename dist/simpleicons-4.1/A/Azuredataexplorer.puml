@@ -1,0 +1,16 @@
+@startuml
+sprite $AzuredataexplorerMd [14x14/16z] 7Si10a0020J10ofm__-jDi2qYiTztAS_tbloZ78nbX8mHiqivstdWxHt2IfQ-7bgIU6rIQbOmwbXmryZgS1FAXnTTx86-Ir2ww1lGVRAfmJPqqtXs7u
+sprite $AzuredataexplorerLg [20x20/16z] {
+HSv70WGX24HHp8uDrlrlEs1r-3kUSVp0h2xSzGccvSB6IOHu1VLsL8ZgX9s5Tf04C-nDaruLQ4a1a-P6n6EfRHhlDAZ6sUj0lp6d7Jy8WYLYgq4QmsuYn4CO
+X_9gWIGWA2cM1Dw46gH94l_fbIpPAKktveX83gMOnlEGf8Uc4t5zn8PZK26nQUeaQP5O-WC
+}
+!procedure Azuredataexplorer($id, $name="Azuredataexplorer", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Azuredataexplorer', $name, $tech)
+!endprocedure
+!procedure AzuredataexplorerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AzuredataexplorerMd>', '', $funcName, $content)
+!endprocedure
+!procedure AzuredataexplorerGroup($id, $name='Azuredataexplorer', $tech='')
+  IconGroup($id, 'IconGroup', '<$AzuredataexplorerLg>', $name, $tech)
+!endprocedure
+@enduml

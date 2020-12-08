@@ -1,0 +1,16 @@
+@startuml
+sprite $StackshareMd [14x14/16z] ZOrL0i0m349hK6_kVzfvzZDzFr50_b13wDeNRtl5CGoRGQIb8OU08Yalxqp5qwcOAJle90Fe-dcw54Gc7VEIK72NVa-V0G
+sprite $StackshareLg [20x20/16z] {
+dP350GHH24EnhrZ_tUvmMVTtH9FaVtWyL0J9RYfxi_ZWwya923kD_58AwDbniMIXisuqF9O6Tw_IG25DXNLPSTIZt97phWO2LxNQPTpNkyKUjpykU6cXBP8t
+ckcY-SPRvtZCGDzazPbz0W
+}
+!procedure Stackshare($id, $name="Stackshare", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stackshare', $name, $tech)
+!endprocedure
+!procedure StackshareCard($id, $funcName="", $content="")
+  IconCard($id, '<$StackshareMd>', '', $funcName, $content)
+!endprocedure
+!procedure StackshareGroup($id, $name='Stackshare', $tech='')
+  IconGroup($id, 'IconGroup', '<$StackshareLg>', $name, $tech)
+!endprocedure
+@enduml

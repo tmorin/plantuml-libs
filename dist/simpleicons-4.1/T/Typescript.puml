@@ -1,0 +1,13 @@
+@startuml
+sprite $TypescriptMd [14x14/16z] jKg50SCm30l7hF-ltSfmG8qYV5Eppp6WZJOsQghJSYksKSy6It94BIimK_NB0wBMtKiAoThAxbL3ZBpST_q1
+sprite $TypescriptLg [20x20/16z] rOg55G903CL-vRIs_xIummBaj7cfFsModE1LMxZ7rGqYW6Wxm1ZtCaZEFLPPlhZJVuFttTox6e3OXojNKBovZ7Ewtrp3CeMzEMC0lUwOd--qq_kR8m
+!procedure Typescript($id, $name="Typescript", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Typescript', $name, $tech)
+!endprocedure
+!procedure TypescriptCard($id, $funcName="", $content="")
+  IconCard($id, '<$TypescriptMd>', '', $funcName, $content)
+!endprocedure
+!procedure TypescriptGroup($id, $name='Typescript', $tech='')
+  IconGroup($id, 'IconGroup', '<$TypescriptLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PalantirMd [14x14/16z] {
+NOu53aGX34HRBFn2-kv_sqNN9b8T4P7i37YM1OFUmTRmO2gYnZE6GDilZI1QE8HCaL29UuhKlzjONTvwil4nKB6pT3C_BqbBXruqpG6Uf9egZ55JsybQqlMh
+nRsizWK
+}
+sprite $PalantirLg [20x20/16z] {
+RL15ea0X4B9ZHBd_QL-PFzXC1wWNeV532seXSI2jb90jfvGRARkhcDSnPNRQnZ8d2fiTRMRcp6YKtZORtq23wVm0-l-S4cBdqB-9f9qfIyRlLktzVNVjFmGI
+xdKSo73GXGWcuVzriILgxGKGhtKiankbxyiayzSNGRAcL4aYZR-qI-rR9qwh3HE0CEMv0G
+}
+!procedure Palantir($id, $name="Palantir", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Palantir', $name, $tech)
+!endprocedure
+!procedure PalantirCard($id, $funcName="", $content="")
+  IconCard($id, '<$PalantirMd>', '', $funcName, $content)
+!endprocedure
+!procedure PalantirGroup($id, $name='Palantir', $tech='')
+  IconGroup($id, 'IconGroup', '<$PalantirLg>', $name, $tech)
+!endprocedure
+@enduml

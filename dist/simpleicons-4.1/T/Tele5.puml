@@ -1,0 +1,16 @@
+@startuml
+sprite $Tele5Md [14x14/16z] JOs50G0n20Efuh3_jE_IgsA9YbBamtHpoYywpX8XA_vHcN57RkRZxOmA1wg2JzH4b1Kzt6tAbSmEKF7sZ8XMNdzJX9ulU5IRF852XbQuGos07GuQChRZtG4
+sprite $Tele5Lg [20x20/16z] {
+NOy54WGW30E3QzF___Poph3uOgtjRdtuIJGR79SZ5-zpBcv7qjlbWBRAxSBytxKjBAx5dpET205mSJYHqXXzbCFbvVFCOwUoDP0sELAjjPInwJywHEhcR-XY
+07NvZpL73g6P7rHLe9_Amkkzi0-NyNBuInP09aRW--JK7AK4l0WACik81m
+}
+!procedure Tele5($id, $name="Tele5", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Tele5', $name, $tech)
+!endprocedure
+!procedure Tele5Card($id, $funcName="", $content="")
+  IconCard($id, '<$Tele5Md>', '', $funcName, $content)
+!endprocedure
+!procedure Tele5Group($id, $name='Tele5', $tech='')
+  IconGroup($id, 'IconGroup', '<$Tele5Lg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $Cloud66Md [14x14/16z] {
+BOo50KGn24Ef8IMG_QSz_G_NamIQR80fNcm-j3GTjpmYmw5iBqiBzp2WAZzS874BUbJLx6FwuNTj-RCVDRLxQP5eKiS97yT8y-9H33qbtKCsiPPzJBb5P3T1
+TlMMB-FtBQSyh7lNBta3
+}
+sprite $Cloud66Lg [20x20/16z] {
+LOe5bW0W20KnGUhV_xOhRWyzZpOIeUe9m5K3EQYFEfv2lZc8prsHW9Uj_L0YH8CX8gPgB0STE09VMBQlrkqR32IV62uioIkO5PQNo0X4tgmbOrpcLwjUmpvn
+htPxWKVm3C3tmWz6anD2Izw5edTH14rv9oTmhpvfAur1fpwsb6CiKbAq0GXHSw0FwpFgTSCR4NM7ZpO3sjk2TogwuGShzP3yKaA_32sZW_unH7xC1m
+}
+!procedure Cloud66($id, $name="Cloud66", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cloud66', $name, $tech)
+!endprocedure
+!procedure Cloud66Card($id, $funcName="", $content="")
+  IconCard($id, '<$Cloud66Md>', '', $funcName, $content)
+!endprocedure
+!procedure Cloud66Group($id, $name='Cloud66', $tech='')
+  IconGroup($id, 'IconGroup', '<$Cloud66Lg>', $name, $tech)
+!endprocedure
+@enduml

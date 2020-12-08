@@ -1,0 +1,16 @@
+@startuml
+sprite $NdrMd [14x14/16z] dKrL0WKW29iAIdF_sxwktqVdXgl8n5F-xMY0P6_6s9lGZZoPvTnMqaqkoRCaeH4UrnsFbCvceUnhjwwxKrCdNxiguuRR0aYO2UDkLz4VTXwlwW8
+sprite $NdrLg [20x20/16z] {
+dL05OW0W24HCGBZ__tR6kZUb6-WyBVJ-9QqVR2lktxRqSrnAYx3KAwH3fp6rsSJTbNakDWWG6gW6CMWERuO6WFks9PfHGob3491nRRfiNXNDJJ3ZsGP0oPK3
+rsRBPYkLt4Y0PHi2AzXQdahiqHGHdZcKIYWp4MTfd9T0L_lRJIk_rXu
+}
+!procedure Ndr($id, $name="Ndr", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Ndr', $name, $tech)
+!endprocedure
+!procedure NdrCard($id, $funcName="", $content="")
+  IconCard($id, '<$NdrMd>', '', $funcName, $content)
+!endprocedure
+!procedure NdrGroup($id, $name='Ndr', $tech='')
+  IconGroup($id, 'IconGroup', '<$NdrLg>', $name, $tech)
+!endprocedure
+@enduml

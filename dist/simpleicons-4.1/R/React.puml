@@ -1,0 +1,16 @@
+@startuml
+sprite $ReactMd [14x14/16z] PKw30GD149mrelwxpRrrN0q0H3hW6PWMbHVpz4oPEQXV1BSfKmDNCKodp5_-pdoF3yYAQYEo7e4e8Pf-F-e0zSZyoA9yc_IICyjJOL9_xUeq0NPdu7b4f-GF
+sprite $ReactLg [20x20/16z] {
+NL050iGW3AiCg8JT_tzxCDzmgabe374hyoxcGiTOmXiJSVDOJXkAMAgcIS5XqfW7eECAFMm-3WPaN7xOA9W5jNPXZZDtDUyzitUtLQTX2OUtdCuqnsmD59Bq
+XIDuyHGgA3eh8oX-lt7qoG0FMr9WirsvcNVkriEE7eQ3dgw-OS74yi6C4_E36p-uVJGujTAlLhH4sDJK7feIy-l-0m
+}
+!procedure React($id, $name="React", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/React', $name, $tech)
+!endprocedure
+!procedure ReactCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReactMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReactGroup($id, $name='React', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReactLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MoscowmetroMd [14x14/16z] JSV50GCW542n1z-nxZzjtN8BuBlSQpiFRKrjJUTg0BDuoWdO0cbDO1aw76R40X_uKlhbJj25JwNEdASUaqeYUeya2lhfFFNTWIWUsWv-Ll7LLlwd-F5tRW
+sprite $MoscowmetroLg [20x20/16z] {
+bOv55WCn34DDOT3zRzjWisqr4_fwjaLJeRSIOsazq1Kdr1H2gaXyKONRDzVhWHboAmHvcp3wodP9dPOcecIpg8vcifm0KyHL9IG67Kv1gvW357QOeMFyerZ6
+nZgtX52AHsRILJR2sm2YlXIZq6V2DFQdbkQkFJuKkwxJGoyAyEUcjzZZbVo5ma-8uaCV
+}
+!procedure Moscowmetro($id, $name="Moscowmetro", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Moscowmetro', $name, $tech)
+!endprocedure
+!procedure MoscowmetroCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoscowmetroMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoscowmetroGroup($id, $name='Moscowmetro', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoscowmetroLg>', $name, $tech)
+!endprocedure
+@enduml

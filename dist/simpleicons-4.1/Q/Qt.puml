@@ -1,0 +1,16 @@
+@startuml
+sprite $QtMd [14x14/16z] NSV50SKm50EmF0pR-q_x6Thgfd9XfceVCNWn-ludB7LlVsSBcDbAuBdfP8kbYq_BdeFn1JBf3RBU7QO2LWVVO9DFamUZs46vk0C
+sprite $QtLg [20x20/16z] {
+ZOl5OKLH24G7VzUW_sgJxsvdWOpWPoJy0UAiH-QgrtGL7LKvyYf1Gp1s-rfYsGyjWxUpHh4RneiXVfAIjjqCEdUlcjzfHRORodUQeS-Eg85jNieAGFPzM5rO
+wTX7ClVZcktdI-gH5FW38VYPVm
+}
+!procedure Qt($id, $name="Qt", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Qt', $name, $tech)
+!endprocedure
+!procedure QtCard($id, $funcName="", $content="")
+  IconCard($id, '<$QtMd>', '', $funcName, $content)
+!endprocedure
+!procedure QtGroup($id, $name='Qt', $tech='')
+  IconGroup($id, 'IconGroup', '<$QtLg>', $name, $tech)
+!endprocedure
+@enduml

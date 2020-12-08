@@ -1,0 +1,16 @@
+@startuml
+sprite $WebglMd [14x14/16z] bKtJ0K0n36oCQlzfd_7Tc7TbIOWGdXApPRZnrRVP5F4eG8uqcvYxcfYgbrcFcEaQbid79GCWCZ8H5pfGt1wKds5DTW
+sprite $WebglLg [20x20/16z] {
+lKw30SLG38nnVTX_scykqDWvEedOij9LlXN3NWFTAEDd9NklSdfa8a-_zsmvD9LCIBeZx5QBZEgi2XZ2lFrUio77qIZtuNaWRhNXHPcUNYRTbQZxZtoXKARN
+PpjkiqStqlWFSpundqTN
+}
+!procedure Webgl($id, $name="Webgl", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Webgl', $name, $tech)
+!endprocedure
+!procedure WebglCard($id, $funcName="", $content="")
+  IconCard($id, '<$WebglMd>', '', $funcName, $content)
+!endprocedure
+!procedure WebglGroup($id, $name='Webgl', $tech='')
+  IconGroup($id, 'IconGroup', '<$WebglLg>', $name, $tech)
+!endprocedure
+@enduml

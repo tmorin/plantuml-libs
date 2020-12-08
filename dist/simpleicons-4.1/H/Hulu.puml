@@ -1,0 +1,13 @@
+@startuml
+sprite $HuluMd [14x14/16z] Os3Xv-TdOe024dbSGC392k7102SI3wG1mkDcP-S6KYnmKvYem-C3yG
+sprite $HuluLg [20x20/16z] pSW33i10503HDJxlVzhQRLnDD7d65EsAPjT3PhlsXaXTMFnYc-A5iJsRfjKG08SfY-N-yjvYV_575aIbjnO
+!procedure Hulu($id, $name="Hulu", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Hulu', $name, $tech)
+!endprocedure
+!procedure HuluCard($id, $funcName="", $content="")
+  IconCard($id, '<$HuluMd>', '', $funcName, $content)
+!endprocedure
+!procedure HuluGroup($id, $name='Hulu', $tech='')
+  IconGroup($id, 'IconGroup', '<$HuluLg>', $name, $tech)
+!endprocedure
+@enduml

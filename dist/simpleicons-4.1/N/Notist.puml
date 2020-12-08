@@ -1,0 +1,16 @@
+@startuml
+sprite $NotistMd [14x14/16z] VOlL0KCn30ClJ4gz_xODVRypW_Z0XJOKILtTGvbcLhijEYITfgqqtgqJzmUS7qzPESAyBsCL1xR8k9L_ZdmV_IvZwYolmEGaLS1tZS8dVm
+sprite $NotistLg [20x20/16z] {
+fOw50OGm302lBWdD_jl-jm4Mu2fnuHDvY6g5q4Mb0QHY6w6kesndl7tJ7Dc-R4vlxlFQGo5SMmwWU7X2E0qhCBnHXjDaHK3NqsLivGAmTmCFlhwL81vDeOWz
+5SaE8YRlKi5krBKEqDqb0LKLoMog_FN2Dtu
+}
+!procedure Notist($id, $name="Notist", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Notist', $name, $tech)
+!endprocedure
+!procedure NotistCard($id, $funcName="", $content="")
+  IconCard($id, '<$NotistMd>', '', $funcName, $content)
+!endprocedure
+!procedure NotistGroup($id, $name='Notist', $tech='')
+  IconGroup($id, 'IconGroup', '<$NotistLg>', $name, $tech)
+!endprocedure
+@enduml

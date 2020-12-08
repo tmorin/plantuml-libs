@@ -1,0 +1,16 @@
+@startuml
+sprite $InstructablesMd [14x14/16z] FOo54GCm30EbDrsw_xvbvm-5afLKMJ_iSXLQ4kEhi7pLh_JNX30ureJ8dsGG7tJUqlVyLqqm43liZfhGTi8nhChZVFmpquFvP2y
+sprite $InstructablesLg [20x20/16z] {
+PT25WSD030J09Ptyr7-vdyGCQnxv47D2bOKZd6t4PwC7KyFYMIE0mir46UTeBV4W0myiW8OexFDHPej251UY08gs1Md630CgomxuDsRxBknXUtdwi7sIPOcK
+g5JsebAEEoQEP6gZfmcdM1GoSZPs2_rR1mZw_ZQhsmUwHcdVWnS
+}
+!procedure Instructables($id, $name="Instructables", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Instructables', $name, $tech)
+!endprocedure
+!procedure InstructablesCard($id, $funcName="", $content="")
+  IconCard($id, '<$InstructablesMd>', '', $funcName, $content)
+!endprocedure
+!procedure InstructablesGroup($id, $name='Instructables', $tech='')
+  IconGroup($id, 'IconGroup', '<$InstructablesLg>', $name, $tech)
+!endprocedure
+@enduml

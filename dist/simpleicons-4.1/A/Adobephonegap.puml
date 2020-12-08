@@ -1,0 +1,19 @@
+@startuml
+sprite $AdobephonegapMd [14x14/16z] {
+JOa54WGn20Gd4CF__zlZKhQDTWq0fbL_Sg6vSkiX6E2gg7JL24HvXDfr0XGcMqK4Xm4PX-YEQzXjbmwJF9jj_BN3buTmsrfjCzBCnOPiO2znox2mtBIyyv6L
+tTLqZdLtreFnq78zY_03
+}
+sprite $AdobephonegapLg [20x20/16z] {
+RSW50WGW24HHmAIS-zzsTRk-oQCJCmLkPQTR8lmmp1lfIaiyAbTB81SYt6E_bQR6N2ii8-72BDa9W2_3y4aZX8ZceCnQLhVfIgpbs2GtekJIdZRk9jlsgtLR
+_sDDRrPATz_MjbKbkvgqbncxCqNjqs9RtrQC8rDJeRejZecB9p8pr583RLjBBdNM0108ZpdK0Q6T7rkuTRSMuVQanNHYeVwGQFI87Mcp2JFH1G
+}
+!procedure Adobephonegap($id, $name="Adobephonegap", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Adobephonegap', $name, $tech)
+!endprocedure
+!procedure AdobephonegapCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobephonegapMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobephonegapGroup($id, $name='Adobephonegap', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobephonegapLg>', $name, $tech)
+!endprocedure
+@enduml

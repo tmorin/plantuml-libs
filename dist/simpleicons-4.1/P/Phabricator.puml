@@ -1,0 +1,16 @@
+@startuml
+sprite $PhabricatorMd [14x14/16z] POs50KCn20LVNA3S_jFM_L-2c-waf0zbZFhsFTpZLEv1PTtCubOkrw2qbZKfsaJA6rPMKC0qQ9qX8svHfpRwBRf-5GEl2kfzo_tUfFvS-Bt-fDuwZrm
+sprite $PhabricatorLg [20x20/16z] {
+bP054iGm30EbJaDDdVt_Qu-PRmVDblGNpgttbgqhAI028kbCOIJlI8DoIVNpKAUSkopLUIwI3vsvG9Rc0J592Qe09hKW1b5b80DXPLPFGPPN6CTSeij1kkIm
+sg2li1ndppS2HlBnXbGFlxIS5yj1VVZPdVf2soSF9AUsdBtwdIq
+}
+!procedure Phabricator($id, $name="Phabricator", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Phabricator', $name, $tech)
+!endprocedure
+!procedure PhabricatorCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhabricatorMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhabricatorGroup($id, $name='Phabricator', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhabricatorLg>', $name, $tech)
+!endprocedure
+@enduml

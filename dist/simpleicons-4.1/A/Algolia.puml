@@ -1,0 +1,16 @@
+@startuml
+sprite $AlgoliaMd [14x14/16z] POo30KLH243hChV_j1_FE9bvnTOGiORLjwhxdDHxuxqQ0sl3ljy2vvmurgh_sjW4rn-L_hy3Of_zq6sc89cECrSOQeEUEy5a-I9klVu5
+sprite $AlgoliaLg [20x20/16z] {
+bSwt0GGn20J0bGTEOlllzXEPCz5FXeTVoY_ZqhlpfG5faCTmggWu3u7r4f7KkRKc2AcanxGXTPf8IDmGdOne3Vkt2q8oG_mqAeoaEHd3NhT7GjpleQmbbKk1
+aEI8ECzuGbQh0Sh32m34Ym_3jFC_flP9XHy
+}
+!procedure Algolia($id, $name="Algolia", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Algolia', $name, $tech)
+!endprocedure
+!procedure AlgoliaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlgoliaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlgoliaGroup($id, $name='Algolia', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlgoliaLg>', $name, $tech)
+!endprocedure
+@enduml

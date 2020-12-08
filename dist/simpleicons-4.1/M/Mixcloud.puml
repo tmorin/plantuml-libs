@@ -1,0 +1,16 @@
+@startuml
+sprite $MixcloudMd [14x14/16z] XS654S9G40N0T_BbREY_MY2UiMGNBuW9fr5PXbrF1eLZ8UCpyPS2TAbKLm1UFCq7OMNXFj8K6qwR6UKhon4pmNqZ41ku8Jpv0G
+sprite $MixcloudLg [20x20/16z] {
+jSz5WWCm20LGYEB__gUTgVkoVN4Fz0l3CttGeuqG2IZTBUnxSzOpw4IAYQWD4WFWV5h486u37PWyh9tc2hlL23EvlrvUCsMNtYzkYrBL5ogPRhZ4R2EhxAQo
+Osbo4uyB5suwQd-8a-dB_W4
+}
+!procedure Mixcloud($id, $name="Mixcloud", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mixcloud', $name, $tech)
+!endprocedure
+!procedure MixcloudCard($id, $funcName="", $content="")
+  IconCard($id, '<$MixcloudMd>', '', $funcName, $content)
+!endprocedure
+!procedure MixcloudGroup($id, $name='Mixcloud', $tech='')
+  IconGroup($id, 'IconGroup', '<$MixcloudLg>', $name, $tech)
+!endprocedure
+@enduml

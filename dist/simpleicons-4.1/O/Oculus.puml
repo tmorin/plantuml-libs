@@ -1,0 +1,13 @@
+@startuml
+sprite $OculusMd [14x14/16z] VSsr0G0X4011t67xh_RTXKdWNFGfRMPg_kl2fcYH6YSDrBYeaA19iP0Dxj6zCt5gMjukJ9GvhtUC
+sprite $OculusLg [20x20/16z] fS-53GKn201GvCi9il-q9wJUU5yS1vPX0jbFr1ALNrI8TuJWE7rmeWTD_FMB35F2RrSCOoZ84uA2FPbxvns7pBSWpJV7RrR8hvwGmB8R
+!procedure Oculus($id, $name="Oculus", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Oculus', $name, $tech)
+!endprocedure
+!procedure OculusCard($id, $funcName="", $content="")
+  IconCard($id, '<$OculusMd>', '', $funcName, $content)
+!endprocedure
+!procedure OculusGroup($id, $name='Oculus', $tech='')
+  IconGroup($id, 'IconGroup', '<$OculusLg>', $name, $tech)
+!endprocedure
+@enduml

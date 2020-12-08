@@ -1,0 +1,16 @@
+@startuml
+sprite $NbbMd [14x14/16z] dS875S0m44EndxtiAt-s3OReYKVfofcKoGdaTHHBFiUL-2nxXGV5GmfTv-jaZpbzOf_GbXk9d3Aff9jdFm
+sprite $NbbLg [20x20/16z] {
+nKs74SGm2BDzUVo0olxJfYqHUfN6HpBdVFo9hp-ph8xU98uY_wrUOyWifSffGB6XOzYWIkmm6VTZEQHs2UtdzfcbDpkTxXQL_aUqZv4xj47-cioKS7FS_6kk
+DPxq-eTo0G
+}
+!procedure Nbb($id, $name="Nbb", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nbb', $name, $tech)
+!endprocedure
+!procedure NbbCard($id, $funcName="", $content="")
+  IconCard($id, '<$NbbMd>', '', $funcName, $content)
+!endprocedure
+!procedure NbbGroup($id, $name='Nbb', $tech='')
+  IconGroup($id, 'IconGroup', '<$NbbLg>', $name, $tech)
+!endprocedure
+@enduml

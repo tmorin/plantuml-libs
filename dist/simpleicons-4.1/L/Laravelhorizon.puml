@@ -1,0 +1,16 @@
+@startuml
+sprite $LaravelhorizonMd [14x14/16z] JSs53GHH24NH1rcoNxdzLpjk9uOZMULGJPj8c1Cojav0SSaBX6eIEln8Ww9BeO3BJJjdCdyJ_jfO0WbGjjRWaHCOV9MQdxvRyDWVnoVPM1amolvq1G
+sprite $LaravelhorizonLg [20x20/16z] {
+PT05aiL0201H224orlU_xRBrYR_o7Xy9LadL97aZTS-q0QEMKWUmdMap5L7RVj4y9isIvfZgKXj4EYCqpIrE6tWqkpU30bLrBRjbqqgFR9smPck4FWYvxHJf
+hYs-3g3pLVZo-fdPT9e_q_8FJkV7V5BmVl_Jf5vwXE8g__u
+}
+!procedure Laravelhorizon($id, $name="Laravelhorizon", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Laravelhorizon', $name, $tech)
+!endprocedure
+!procedure LaravelhorizonCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaravelhorizonMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaravelhorizonGroup($id, $name='Laravelhorizon', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaravelhorizonLg>', $name, $tech)
+!endprocedure
+@enduml

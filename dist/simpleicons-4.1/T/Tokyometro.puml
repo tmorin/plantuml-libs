@@ -1,0 +1,16 @@
+@startuml
+sprite $TokyometroMd [14x14/16z] VSJL0SDG34DHcG9k_Ex-qvQ_SmIw4HNwynHmfTxYWXEcrocTwp6yfQpVNCbRIRQMISL0ItqSd-SSyC2CSAXZw6I6R4Q-CrxTvSCkMUWlJ7TU
+sprite $TokyometroLg [20x20/16z] {
+fOzL0iGW44EBE-_-jzqCwzzDDGRCTGSk_7FHkVRk_YtujlOA7DIdL0uPmEw35THQZBx5WImwo9af8tCGNxLYt_Z9oVz-9p2EdSif3AW8TgJvV8BHkQ0hrgwh
+ATXXkLJCYJ0dH8iLZRR5NKMeJlgsMIizEusb0LqUpv74V-14x-01
+}
+!procedure Tokyometro($id, $name="Tokyometro", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Tokyometro', $name, $tech)
+!endprocedure
+!procedure TokyometroCard($id, $funcName="", $content="")
+  IconCard($id, '<$TokyometroMd>', '', $funcName, $content)
+!endprocedure
+!procedure TokyometroGroup($id, $name='Tokyometro', $tech='')
+  IconGroup($id, 'IconGroup', '<$TokyometroLg>', $name, $tech)
+!endprocedure
+@enduml

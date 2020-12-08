@@ -1,0 +1,16 @@
+@startuml
+sprite $UdacityMd [14x14/16z] VOl50KCn34DbQDoOil-qPOR_Ja9WbprnWhmQ715-TbPpPHdixBo8UWgkBWPu6RqvtdOZNdzIT786opq3y01IkJKC9oAjlGQo-MnrhM20hOr98mKN9AfoNFKH
+sprite $UdacityLg [20x20/16z] {
+lSk94GGX24JHLl50WSu_sfrx9eFzTL6l6koDe6USfHuaW3mPSTfr4sdGfLzst6NGd1suJTaJThU4rvO1kys1FrdZPtgRiBos_B8Kyx72lXJNSmDW2yaYkU5C
+gMcV58y2KYvi4K7ICZ3DCvuflM4lvN1vXYFXAXjDXnfdnfTC3zTFDW
+}
+!procedure Udacity($id, $name="Udacity", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Udacity', $name, $tech)
+!endprocedure
+!procedure UdacityCard($id, $funcName="", $content="")
+  IconCard($id, '<$UdacityMd>', '', $funcName, $content)
+!endprocedure
+!procedure UdacityGroup($id, $name='Udacity', $tech='')
+  IconGroup($id, 'IconGroup', '<$UdacityLg>', $name, $tech)
+!endprocedure
+@enduml

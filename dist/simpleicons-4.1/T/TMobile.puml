@@ -1,0 +1,16 @@
+@startuml
+sprite $TMobileMd [14x14/16z] RKm35aHH5EhY6Ur_juDlT9IzShYJ8GnMV5M6aehyLQ4rB0fV5dlOLEY8rJPb5LziwWkBPNifyRiZvQU4x3Sb5dnfUh3RoujAPDfucFnYXY_z
+sprite $TMobileLg [20x20/16z] {
+VSs50KCX30JGv0SduVRVjcYzFVnXB0smo1MeLpAWNJIjUYgzfr2t0PbeMEb3HfDXoWzZmxH03wFGxNAGPnEuRihFnkfw9_HivEQHPvjXCTLohAZg_0EmOmR0
+BTCt-tAEs3idnrpFrt__MWNgkocWBo2keASuUPXXn-Ro1W
+}
+!procedure TMobile($id, $name="T Mobile", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/TMobile', $name, $tech)
+!endprocedure
+!procedure TMobileCard($id, $funcName="", $content="")
+  IconCard($id, '<$TMobileMd>', '', $funcName, $content)
+!endprocedure
+!procedure TMobileGroup($id, $name='T Mobile', $tech='')
+  IconGroup($id, 'IconGroup', '<$TMobileLg>', $name, $tech)
+!endprocedure
+@enduml

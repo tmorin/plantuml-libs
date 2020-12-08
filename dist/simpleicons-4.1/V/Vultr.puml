@@ -1,0 +1,16 @@
+@startuml
+sprite $VultrMd [14x14/16z] POd50S0m3CGKvdZ_RUiowNEWKajDGDBCJ6KOwA9fPQL2NhFbiKQ0hZ5Ca2tm6XxgEZCKAO2TwtIOR53IkZedRPtfN6vTWvDykvKXdHildZyB
+sprite $VultrLg [20x20/16z] {
+VSy50WCX34JHZslX_gUjC2lrjuAJ9EMKKWu0PlMJfJpK163BufWIWQ3knKmP5anNlzIzSsuSnaq9G5cz37c_1ipOEq-duxtri5-ZGPk5fMgk0pOQ5ZCqcNWI
+DJSSJvecAq_s92rFb6GtF56IdXTUMRyggwXN9dl-k04
+}
+!procedure Vultr($id, $name="Vultr", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Vultr', $name, $tech)
+!endprocedure
+!procedure VultrCard($id, $funcName="", $content="")
+  IconCard($id, '<$VultrMd>', '', $funcName, $content)
+!endprocedure
+!procedure VultrGroup($id, $name='Vultr', $tech='')
+  IconGroup($id, 'IconGroup', '<$VultrLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GatsbyMd [14x14/16z] {
+HOxL0GGn24I1Mqc2lFwxlQpF7uoAQ8Si62eJAtXh3kjaLi9-s_QpcEV0rG6w9Wfs740KZH1U16o_xopFzJZJL3guSPqfNc3tsOqs2B73syInerqrDpdQxsLE
+C8y3sWgo7QF_
+}
+sprite $GatsbyLg [20x20/16z] {
+NP05bWKX3C2A59sI-zzsHv2tFqy9TRa9ZKaFCj6BYUbK1KRH4BKEA4jL9o6f5rTV6HIofC6DHScWqeqYbKbsXZamdzWOe51ay8y6JNRSYIs_aj6fKpQvYToe
+hiWhvoG9unRvf9iK6fY_nPBU6zelYkp899NBVRlTiagoyExstQ1ywU8Avp1MjDFAc6hTTCoRBfms0slgtkSV
+}
+!procedure Gatsby($id, $name="Gatsby", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gatsby', $name, $tech)
+!endprocedure
+!procedure GatsbyCard($id, $funcName="", $content="")
+  IconCard($id, '<$GatsbyMd>', '', $funcName, $content)
+!endprocedure
+!procedure GatsbyGroup($id, $name='Gatsby', $tech='')
+  IconGroup($id, 'IconGroup', '<$GatsbyLg>', $name, $tech)
+!endprocedure
+@enduml

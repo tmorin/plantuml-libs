@@ -1,0 +1,16 @@
+@startuml
+sprite $SprintMd [14x14/16z] JKt50SDG2Fs6s_xJrXl2YUTZyXotuprlU3BIwDkaHniUnThxWYW11N-qGYr1vW-Q9NdzmbD3ilmNNMPLrmn6wVe3IBlw9sflpTF_U08
+sprite $SprintLg [20x20/16z] {
+PSv50WGX34JHu8LC_lrlEwiMw5g-g5cMVP97-68TbjE9lUPb7yo_4hLRQaE9Tk1KOLZPhZM9bkbReoPbiEpTMNrLIFByM7OvHK1wR4vQ1rQyhKmq0ONtFYrO
+oPx4CHol-tyBj8aLznvjI_lrj4kI3h6OuY5_
+}
+!procedure Sprint($id, $name="Sprint", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sprint', $name, $tech)
+!endprocedure
+!procedure SprintCard($id, $funcName="", $content="")
+  IconCard($id, '<$SprintMd>', '', $funcName, $content)
+!endprocedure
+!procedure SprintGroup($id, $name='Sprint', $tech='')
+  IconGroup($id, 'IconGroup', '<$SprintLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AsanaMd [14x14/16z] DOs50S0m40A9Ex__jYsHYxu1H3DhU0IQCRnesi-yWQCYkXikHGkNf2ZX4Mez8kxzz1wz36IzqGIVqecSN1xhrcQd-W6DCC3bxANfStRu
+sprite $AsanaLg [20x20/16z] {
+VSy53WGX30NGZtMiwR__QLSAGLRcHT0QggoaPYp4I9FrYcx348pE0hhC9j_VHJOHmqvtO18ElmfO9964BXJ9eMspb03aOYJLaqSbQGL6fm48IfVPI1-G5zdR
+EBXOxkn7xAdrzi9BJMGn9lK9-ZJghSTKH-_R9m
+}
+!procedure Asana($id, $name="Asana", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Asana', $name, $tech)
+!endprocedure
+!procedure AsanaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AsanaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AsanaGroup($id, $name='Asana', $tech='')
+  IconGroup($id, 'IconGroup', '<$AsanaLg>', $name, $tech)
+!endprocedure
+@enduml

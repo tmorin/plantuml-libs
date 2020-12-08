@@ -1,0 +1,19 @@
+@startuml
+sprite $SentryMd [14x14/16z] {
+HKrL0a0n2CBfUkBzJ_iw-ADneG_yK59_jbfR7oaEiBniKb3u446F16yNIJ7G23sK0sEiYTannsLLi0gJX1tK8YinEffZpVDW5dN0oweuKct8zK9t3ylXbCgb
+PgOYQWfHx
+}
+sprite $SentryLg [20x20/16z] {
+NSu5WaCn24NH6_inuEr_jvEfjoUkm4CQ8_EZh5tubaoon9UkLjNvb6F3Zio7gG95axVa6e-Jjxor4ZcCfpPWQDqYyU2opD00T-w6fZopL6aQS1GPzRIa1JiA
+HrKqBbrqbLS-ELJO8kiMgp1NesXJTR7Yde_KxuTkT6MurC8IP7LsK5KWMIZseSdKscgC7MV7tSqxbvr9PTYktAHxIzpy0G
+}
+!procedure Sentry($id, $name="Sentry", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sentry', $name, $tech)
+!endprocedure
+!procedure SentryCard($id, $funcName="", $content="")
+  IconCard($id, '<$SentryMd>', '', $funcName, $content)
+!endprocedure
+!procedure SentryGroup($id, $name='Sentry', $tech='')
+  IconGroup($id, 'IconGroup', '<$SentryLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $FarfetchMd [14x14/16z] Om02TdumO6800KPkP1uFFnyF281vJFpyd0mmWCdZOMLZOu7nm8071u-7ZOsD5TKKIdW
+sprite $FarfetchLg [20x20/16z] Om03Ldueu6M00tQu6AOGFn-A41y88DJn0aLO69b0W15PZ0dAnYU6q8iYniyB0joC236uImYByO7qyZ3YjGFXbe4L0m
+!procedure Farfetch($id, $name="Farfetch", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Farfetch', $name, $tech)
+!endprocedure
+!procedure FarfetchCard($id, $funcName="", $content="")
+  IconCard($id, '<$FarfetchMd>', '', $funcName, $content)
+!endprocedure
+!procedure FarfetchGroup($id, $name='Farfetch', $tech='')
+  IconGroup($id, 'IconGroup', '<$FarfetchLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $BunqMd [14x14/16z] dKn50W0W388Lrl_VwwvUNGU0J-Ep3OKvWag4v1mZEsFKuEwj56CmHsyQYHG3Rg7pYk3JBW
+sprite $BunqLg [20x20/16z] nKt7WG9139F3EDv1_zqYzik-mJbA-978pSmz14fJI2WOp7PgDGEPkgnagnyygIhEAXkL37BDCWlD8O9hoFyqFtIJ09oz0UPfHWvewCL22__7fzpD55-G5m
+!procedure Bunq($id, $name="Bunq", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Bunq', $name, $tech)
+!endprocedure
+!procedure BunqCard($id, $funcName="", $content="")
+  IconCard($id, '<$BunqMd>', '', $funcName, $content)
+!endprocedure
+!procedure BunqGroup($id, $name='Bunq', $tech='')
+  IconGroup($id, 'IconGroup', '<$BunqLg>', $name, $tech)
+!endprocedure
+@enduml

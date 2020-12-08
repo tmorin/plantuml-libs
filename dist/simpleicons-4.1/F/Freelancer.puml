@@ -1,0 +1,16 @@
+@startuml
+sprite $FreelancerMd [14x14/16z] ZKgr0S10489tP_zfurxb5CEdk5rZdRCaNF5WAQCbnpPQQodtj2LSbbINmLvPjKaH9rqiULnK6hnP7-OYHkLs43RdOXP_QWO
+sprite $FreelancerLg [20x20/16z] {
+dSp5WGKm409GuiaO_LUx-ztztKO0doi5ExMDCUQe2K1MwGd9J4bVhIIHDKNco5rchHbROjno8Jbna7RBtQdZA3jfmesAanmKt-OppeekRXXshZedhemW5wwK
+c26urkaTDuGBj-9-LIRk9Fpc7m
+}
+!procedure Freelancer($id, $name="Freelancer", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Freelancer', $name, $tech)
+!endprocedure
+!procedure FreelancerCard($id, $funcName="", $content="")
+  IconCard($id, '<$FreelancerMd>', '', $funcName, $content)
+!endprocedure
+!procedure FreelancerGroup($id, $name='Freelancer', $tech='')
+  IconGroup($id, 'IconGroup', '<$FreelancerLg>', $name, $tech)
+!endprocedure
+@enduml

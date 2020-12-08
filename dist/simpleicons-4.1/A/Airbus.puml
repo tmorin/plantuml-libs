@@ -1,0 +1,13 @@
+@startuml
+sprite $AirbusMd [14x14/16z] hKg30S103CoX2lOVjvhXmrCiAJ0WGIGevVYepCgBcMTUVzNxpwCH_4E4OSMIUW
+sprite $AirbusLg [20x20/16z] pKS70G8n4EkyB8f_j_3lejbfbsDkjLKAjxCv9ikKl-kz7oNCN4-lSsZw0IAbeA5JDSZ2HCbOyQBPBiSV
+!procedure Airbus($id, $name="Airbus", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Airbus', $name, $tech)
+!endprocedure
+!procedure AirbusCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirbusMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirbusGroup($id, $name='Airbus', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirbusLg>', $name, $tech)
+!endprocedure
+@enduml

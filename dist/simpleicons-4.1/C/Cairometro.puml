@@ -1,0 +1,19 @@
+@startuml
+sprite $CairometroMd [14x14/16z] {
+DSu54aGn20DGg0PRxd_R_RMqa7cZq4fJRNJ2JC04V_r1pL0hp9G_cQBNrgRQ5WGYwDEP6Y0E8d4JaCsI-IlbbrccB7tyiDIWUQCWulXw_-1Fdbd7h9c-P1uW
+GhZnkmoo-aRaz1y
+}
+sprite $CairometroLg [20x20/16z] {
+NP1PceCX20HR-5MGHkz_ss6o9-LMN_a67epCWHyiq_16LCK9qF_jdXWhGdlNAE4jbd9f5-cwM9yeohfTTbskit7TMtX4ZxMYcsRSciUmvGEO7hwM0yDIU7Og
+eBaFXOvampxdi3NMiz7eptOopwFPC4gU5oaq0CxzRZiSXR8ywcAKK5_DsjuoVnfKyMx28gGaiapUis9hZrcziQJX5tkdFm
+}
+!procedure Cairometro($id, $name="Cairometro", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cairometro', $name, $tech)
+!endprocedure
+!procedure CairometroCard($id, $funcName="", $content="")
+  IconCard($id, '<$CairometroMd>', '', $funcName, $content)
+!endprocedure
+!procedure CairometroGroup($id, $name='Cairometro', $tech='')
+  IconGroup($id, 'IconGroup', '<$CairometroLg>', $name, $tech)
+!endprocedure
+@enduml

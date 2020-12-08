@@ -1,0 +1,20 @@
+@startuml
+sprite $UbisoftMd [14x14/16z] {
+5OZ70S103CAutWpilsqSVK026dNFfHT-Za-hROiLw5Tzx9Nlge9-uds-gO6mUksjnKDHj-kqpS61TtI7mZkaW_NUZfqPuOiLoMJzRUDUMaqRHQxWNFJifZom
+27IhOeo2wOvKURSw8kMdRDhS9Uy7
+}
+sprite $UbisoftLg [20x20/16z] {
+DP37WMWn20E54qum_LVxm_FktCX8akIG4P7WfeSjY7DEm2elLOFTlbhVP9Da9UXgxiCazI-v3ZuJ89T9ZJ0bcOJNEYvHfO5hNt1PRLMTCEca0KFVy6sTAGqQ
+R6qUVf0g3csm3hjFIAfABhBTgAmdXwOIEyDnfqbgG5NDcMpwopcarEb9CYfRqW2N5iKNR1tkNCan_IzRJQZldMMoItqZjyXwDwaSXlIIyRbIHlwaf7O_KsyI
+JRzOsm6vsxF-Bm
+}
+!procedure Ubisoft($id, $name="Ubisoft", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Ubisoft', $name, $tech)
+!endprocedure
+!procedure UbisoftCard($id, $funcName="", $content="")
+  IconCard($id, '<$UbisoftMd>', '', $funcName, $content)
+!endprocedure
+!procedure UbisoftGroup($id, $name='Ubisoft', $tech='')
+  IconGroup($id, 'IconGroup', '<$UbisoftLg>', $name, $tech)
+!endprocedure
+@enduml

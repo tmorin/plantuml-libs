@@ -1,0 +1,19 @@
+@startuml
+sprite $RubygemsMd [14x14/16z] {
+DOw50G0n20E1l1VPVzjFxQfuXC0p7JBHjrvk7SOr_F2wHMxFImPdkhQ471Svn18jxAp1PK4BFYq7hJIDRgJDJ36QBE-PV5YVrczmmibfc1CuiVRqhUpZPc1Y
+laJ_
+}
+sprite $RubygemsLg [20x20/16z] {
+RT150iKm20HGubOwzpzj3VawA_BYaAJim5xfFQ5VX1xUg39MIXFSJFE6lJm5OxkB42TWqw7Ysa1zOeg83amQYo_AzKcva9TOWwQxEG7jZtNVst_t4dMZDnCS
+z6Q2dTJypNqyT0qfn0KqqiZVf0VyqGFlLKvBUcM9Sczq45tBvGG
+}
+!procedure Rubygems($id, $name="Rubygems", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Rubygems', $name, $tech)
+!endprocedure
+!procedure RubygemsCard($id, $funcName="", $content="")
+  IconCard($id, '<$RubygemsMd>', '', $funcName, $content)
+!endprocedure
+!procedure RubygemsGroup($id, $name='Rubygems', $tech='')
+  IconGroup($id, 'IconGroup', '<$RubygemsLg>', $name, $tech)
+!endprocedure
+@enduml

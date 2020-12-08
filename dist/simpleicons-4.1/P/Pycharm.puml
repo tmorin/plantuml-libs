@@ -1,0 +1,16 @@
+@startuml
+sprite $PycharmMd [14x14/16z] bSx50GD030F1Op9i_zM6cJDVWyGzLtN0n02f8KQXXn0chDneMS9Y6QnID9UMWTDczXuvMBa27bDF0tHC0AkvEN_GMNVMfTWIMSOhMm
+sprite $PycharmLg [20x20/16z] {
+jOkrOKGn44H7h2Lj_zL-fim-Uj6W_vV1nAohCkfaMwHOwUuK00JQiomSeOhGjKVTi-hU8HNaAyTE9K4Jx96jD8_GHvOwBRQXB9QEhEvbHCmHVPKMsl6e8Hpw
+oV2VC2odXPpa6RQDgluoCm
+}
+!procedure Pycharm($id, $name="Pycharm", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Pycharm', $name, $tech)
+!endprocedure
+!procedure PycharmCard($id, $funcName="", $content="")
+  IconCard($id, '<$PycharmMd>', '', $funcName, $content)
+!endprocedure
+!procedure PycharmGroup($id, $name='Pycharm', $tech='')
+  IconGroup($id, 'IconGroup', '<$PycharmLg>', $name, $tech)
+!endprocedure
+@enduml

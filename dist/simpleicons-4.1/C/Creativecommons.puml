@@ -1,0 +1,19 @@
+@startuml
+sprite $CreativecommonsMd [14x14/16z] {
+LKw50GCm24k5ul3_jNF5dG33EjspRU16r2L4Kat0e1OyIFf0dyapdLt0N4yjJS6f5AfKIFf67SnaJ50_irMCXTqfu4e-5GgftokfzlVXzbq_t_-HtMdSeawv
+Wxu2
+}
+sprite $CreativecommonsLg [20x20/16z] {
+RP07baGX20HRX6S2-lwttH_TD6NE9JYeYym3SbKyc9FX7cGORZevj015EzbnqXYAX-hdP5M6O2DEmt8gVb0PXHm0YboRphhJI0DQqXKZJnVbp10Obtfhx1QA
+4faEJ9wg4GKdpezpzzdglNDes7dsUgCdlPQPd7A-SRl8BvTFpgBC-kTlG6FkdHexC1mcWDWW-xkwO-g6bw8poPXwMty1
+}
+!procedure Creativecommons($id, $name="Creativecommons", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Creativecommons', $name, $tech)
+!endprocedure
+!procedure CreativecommonsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CreativecommonsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CreativecommonsGroup($id, $name='Creativecommons', $tech='')
+  IconGroup($id, 'IconGroup', '<$CreativecommonsLg>', $name, $tech)
+!endprocedure
+@enduml

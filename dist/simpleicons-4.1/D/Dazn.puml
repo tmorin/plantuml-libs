@@ -1,0 +1,19 @@
+@startuml
+sprite $DaznMd [14x14/16z] {
+JKq5WWD132AU4MR__zgxUXjNw8XmluMxdn3SHUuc3C1d0N5px13qN8b50NZlialNojUEzDfpGiW9JOC977FUkmWLKxrr8R1vMPvg21r0D_AmdYXn9N9mFDbZ
+33FtUEu-8ZpyaUiV
+}
+sprite $DaznLg [20x20/16z] {
+RP250KCn24HZQEJstxPGj_kQXpETvKDiC1tqeQ7WKRuq81GVTMln4Kb6u6IOQzVI3rhwtHbrz29poIiMrC9bcQrRx4Z6Z5gn5chwkIO3hCXkxSH90KIErY9v
+hTT7m5TMRp3lO3GjOZUG-RWZu7sEre-NYaMdFdifUbffE3FPVOw1UBUj1wyvpZ4Fl-PupM7cNglLRgyvFZJ-xlIVBW
+}
+!procedure Dazn($id, $name="Dazn", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Dazn', $name, $tech)
+!endprocedure
+!procedure DaznCard($id, $funcName="", $content="")
+  IconCard($id, '<$DaznMd>', '', $funcName, $content)
+!endprocedure
+!procedure DaznGroup($id, $name='Dazn', $tech='')
+  IconGroup($id, 'IconGroup', '<$DaznLg>', $name, $tech)
+!endprocedure
+@enduml

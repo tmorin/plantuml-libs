@@ -1,0 +1,16 @@
+@startuml
+sprite $CmakeMd [14x14/16z] JSc50O0W04HHkwxsdzPM-3IlkLkdfefBzPZ2iRmKiY8ZGw4W_EbwPVp9gyEF2FX51GYL2zifs2We5oxtHIjyuNOULoQKYVaZbWC
+sprite $CmakeLg [20x20/16z] {
+POu54WGX30HlZNZc_x-zmbO7xseWlnahlq-SFeWWRt5nY7yq28u7MgCoM-wieBA7k6HdlZmrQ3x4gi4SyDkdDMmOudmjLBKkWt7TSwPKktGj09T4PpvVis90
+AeQuh05L19jNhzLu4DZhFeKzqBvsvy28gNaLMH9NmaHH8d72hDIv_04
+}
+!procedure Cmake($id, $name="Cmake", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cmake', $name, $tech)
+!endprocedure
+!procedure CmakeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CmakeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CmakeGroup($id, $name='Cmake', $tech='')
+  IconGroup($id, 'IconGroup', '<$CmakeLg>', $name, $tech)
+!endprocedure
+@enduml

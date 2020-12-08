@@ -1,0 +1,19 @@
+@startuml
+sprite $WhitesourceMd [14x14/16z] {
+HKw7WSGm318eJQxxR_lmrqXigm8HgFsFGWZdUcNhLETqDAVlCygTJdHtuTgJP9O3PpHImV1IGllfLMTNr-hrpWQeQGn5JYl8-6UnmYYoL5zygQ_b-_mvSsBW
+CS43XNy
+}
+sprite $WhitesourceLg [20x20/16z] {
+RL070e0W23matDB_Nzj0srsvs7VOm6KUA8m1gOUj2JhYV4Fycip8qg_PkTnlWjBsKxqdY5UhITqNu04_olHC9Gf085Ohqss0st_goTS0hnbQjQbhRPTDWBgP
+27Bb5e5N3P1YFQxX-IWdnIebce399QjAF2PKPXt5_pJur-fVKu0ajysGXUov0W
+}
+!procedure Whitesource($id, $name="Whitesource", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Whitesource', $name, $tech)
+!endprocedure
+!procedure WhitesourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$WhitesourceMd>', '', $funcName, $content)
+!endprocedure
+!procedure WhitesourceGroup($id, $name='Whitesource', $tech='')
+  IconGroup($id, 'IconGroup', '<$WhitesourceLg>', $name, $tech)
+!endprocedure
+@enduml

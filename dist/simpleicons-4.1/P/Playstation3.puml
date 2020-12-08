@@ -1,0 +1,13 @@
+@startuml
+sprite $Playstation3Md [14x14/16z] hS470SD034Mnvp_Q3FvyOn0dSKII2ZVAidMLMupjDvBW7aRIot83wkA83m
+sprite $Playstation3Lg [20x20/16z] pOq50S0W44M_pUcVTsW77fmRDk9e601pM6aHtNXhyetLetnT5qEbzRReB6TaiuOj1qbC8Hhs-Qo-VEZa25lkEDiDRCGF
+!procedure Playstation3($id, $name="Playstation3", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Playstation3', $name, $tech)
+!endprocedure
+!procedure Playstation3Card($id, $funcName="", $content="")
+  IconCard($id, '<$Playstation3Md>', '', $funcName, $content)
+!endprocedure
+!procedure Playstation3Group($id, $name='Playstation3', $tech='')
+  IconGroup($id, 'IconGroup', '<$Playstation3Lg>', $name, $tech)
+!endprocedure
+@enduml

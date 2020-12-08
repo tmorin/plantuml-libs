@@ -1,0 +1,19 @@
+@startuml
+sprite $BabelMd [14x14/16z] {
+HOp50G0X40E3mrhwh_PSvXV5GLfEDxU6anQCsMUiKrGTd4SZzEmrT6P0sN3XWcolg1Gb1JVAaAuiboZi01RpfSGlqI-HsL2_ZsLbkMGyAvTPSPExbeIFdF6p
+0m
+}
+sprite $BabelLg [20x20/16z] {
+NOo54SL058JUkI_zL_irJlGOPkrFQ09z6DbsqW2qn2oxQdp8tliYmbzLKcVQ1x-xKhmDlaDkCjtFVTu9_PMY7OFVB2xMeRupAGzGi8C2uaixb1EeXj1OVdUP
+xl_vShjR_AQZoBjAz5ybgktCRnO6IdRDV5rpUBjakMZsOYUPfLwAkoZVLMAmEpaVoK7mJ_C6
+}
+!procedure Babel($id, $name="Babel", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Babel', $name, $tech)
+!endprocedure
+!procedure BabelCard($id, $funcName="", $content="")
+  IconCard($id, '<$BabelMd>', '', $funcName, $content)
+!endprocedure
+!procedure BabelGroup($id, $name='Babel', $tech='')
+  IconGroup($id, 'IconGroup', '<$BabelLg>', $name, $tech)
+!endprocedure
+@enduml

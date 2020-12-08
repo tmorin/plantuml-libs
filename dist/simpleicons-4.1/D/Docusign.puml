@@ -1,0 +1,13 @@
+@startuml
+sprite $DocusignMd [14x14/16z] RSt50S0W341HtCdVVzgwbtUAHmqOyqW2X3kB49-zEzCsGRBwI2j0lPeDchuVY3nVMAi6sejvKIyp
+sprite $DocusignLg [20x20/16z] bSwr0GH130D0cP8bzL_jmp73P6RZ9V_1cbQo6bQiaUrrRjxN50jH2dzA2KmaivC5C-dxPF-VOir8mrO4hkW17l03UEWB
+!procedure Docusign($id, $name="Docusign", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Docusign', $name, $tech)
+!endprocedure
+!procedure DocusignCard($id, $funcName="", $content="")
+  IconCard($id, '<$DocusignMd>', '', $funcName, $content)
+!endprocedure
+!procedure DocusignGroup($id, $name='Docusign', $tech='')
+  IconGroup($id, 'IconGroup', '<$DocusignLg>', $name, $tech)
+!endprocedure
+@enduml

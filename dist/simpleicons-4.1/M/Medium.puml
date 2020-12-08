@@ -1,0 +1,16 @@
+@startuml
+sprite $MediumMd [14x14/16z] bSsr0KCn34NHPsRT_QTDFlS-bLXiwDvFM26CAmrAK1Mu56aI5Rcqh3BAswl37UcNKLJNCxdKbwpBs_KXLWOrvSc6Fm
+sprite $MediumLg [20x20/16z] {
+hSf55WKX30NHQYn8mjl_Qh_hl0k_1vtVicv-lqGtMq-B1FL-wP2tdat0fPsXwvKVODBYrqg2hVxxRzc0xgt_MHmSDiUlDHaSwl_c1-tFwX6gnAzrA5gtUK3o
+fuN7uxOzmhVExme
+}
+!procedure Medium($id, $name="Medium", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Medium', $name, $tech)
+!endprocedure
+!procedure MediumCard($id, $funcName="", $content="")
+  IconCard($id, '<$MediumMd>', '', $funcName, $content)
+!endprocedure
+!procedure MediumGroup($id, $name='Medium', $tech='')
+  IconGroup($id, 'IconGroup', '<$MediumLg>', $name, $tech)
+!endprocedure
+@enduml

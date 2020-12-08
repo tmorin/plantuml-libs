@@ -1,0 +1,19 @@
+@startuml
+sprite $HumblebundleMd [14x14/16z] {
+7Os54S0W4C1ItBF_jZq8l1lVqWaiCtnPFH_VDiBmJ4sac-AgOwOwWPbXcvas87vm7ENM7z_n4db4RUCjkMGtoGrKe3bVXYmmhMGFd7wNlEFEOu3e_dXx2r3j
+G74d-04
+}
+sprite $HumblebundleLg [20x20/16z] {
+HOu73WGn20FPz6h__xSN8wJpremi1hDlywNOooRyQ-cALVqU8lyHr_iju1Ngaxnup_V-oIq6ebebyTWYkvXFIYIJfHCg77jgPvda9pQQF1AdGQgW10F27gcC
+z3_h9FQcV95OuhjaDXcTNJKI93ThnsALB96p0x52tcJ16aSercj34ogyR5iAT-0zCnJ8RbUkrpBegkeenyRHRy3GSZy
+}
+!procedure Humblebundle($id, $name="Humblebundle", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Humblebundle', $name, $tech)
+!endprocedure
+!procedure HumblebundleCard($id, $funcName="", $content="")
+  IconCard($id, '<$HumblebundleMd>', '', $funcName, $content)
+!endprocedure
+!procedure HumblebundleGroup($id, $name='Humblebundle', $tech='')
+  IconGroup($id, 'IconGroup', '<$HumblebundleLg>', $name, $tech)
+!endprocedure
+@enduml

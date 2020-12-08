@@ -1,0 +1,16 @@
+@startuml
+sprite $DeliverooMd [14x14/16z] FSpN0G9124NHDpbp--zM6TqzFsJaOkxAGBb5cnRVgdXIWNHd1hq1KMx3cc11phC3HrVZsegfZetXfZQkdDMWQ-ACiw2g7VxyPPvlrIM5qhVXelw-Zsr8-W
+sprite $DeliverooLg [20x20/16z] {
+JP055iGm24GZG3pS_xPReDEtKyt7IQzo8KhbwgC2Lgfmgl-ihgEw4XawEHZ7mJyxs9keYhqdAcmxSRFtG8bXf-xl1kOUoxq5p2jUDJ5OFGgHJy1zwQTRqvWH
+iUNeDUTJqWwagspb6YttYPY7psWv-eIYbKBw2TDc7nN253pMKUZcRw4aOpiRG5X-NzTt_0C
+}
+!procedure Deliveroo($id, $name="Deliveroo", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Deliveroo', $name, $tech)
+!endprocedure
+!procedure DeliverooCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeliverooMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeliverooGroup($id, $name='Deliveroo', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeliverooLg>', $name, $tech)
+!endprocedure
+@enduml

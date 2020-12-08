@@ -1,0 +1,16 @@
+@startuml
+sprite $LivestreamMd [14x14/16z] LSk50G0X20LG-afb_stFZcy-1JZ2J8HJRt9FuUv2yv8lNutp5YerNqAMZi_RONmc0dFAQfrIDJxltC95N1I6GD_tVR8CLZ0wx6GuyWC
+sprite $LivestreamLg [20x20/16z] {
+ZOw50KCX30LnXxV_jWqEzVlAHTcVM6kCrbASpaSG9KTzI97HyOSq6DYM4NYLQRXC9vwWhaH31qVlokmOwXvmVPzPB6gHPsTYRQLhTaNlXXgHn34wd4wjRTHm
+Unz9UObFAIIXQjvOve17WBr8OzYVF
+}
+!procedure Livestream($id, $name="Livestream", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Livestream', $name, $tech)
+!endprocedure
+!procedure LivestreamCard($id, $funcName="", $content="")
+  IconCard($id, '<$LivestreamMd>', '', $funcName, $content)
+!endprocedure
+!procedure LivestreamGroup($id, $name='Livestream', $tech='')
+  IconGroup($id, 'IconGroup', '<$LivestreamLg>', $name, $tech)
+!endprocedure
+@enduml

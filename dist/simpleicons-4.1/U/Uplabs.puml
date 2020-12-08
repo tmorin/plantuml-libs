@@ -1,0 +1,16 @@
+@startuml
+sprite $UplabsMd [14x14/16z] XOr5WWCn4CIgOSos_l_QtV0nKQDEfI_OQvaif3EbGhGpO3jBgcHZNOFniP0TxdPx6ovju8gDDxfLrjqPwjoVb9SQkbbaSMKPe_dTT2FoXj-ZV_4F
+sprite $UplabsLg [20x20/16z] {
+hOp5OKKn30JNp9h-kusLv4C1RqxIaXvchIAfhA6yHnfsLXBqgtKiLCouMFpMs2LF62_jk9Qai3cVN657IOFBy0FFcMiJWvEK3aiLcbHW0RRjlgwn_IzZuinm
+DHl6ttwkjIRfQgHOQzObb5hYloOvfPdZwtR-jV2F7k87
+}
+!procedure Uplabs($id, $name="Uplabs", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Uplabs', $name, $tech)
+!endprocedure
+!procedure UplabsCard($id, $funcName="", $content="")
+  IconCard($id, '<$UplabsMd>', '', $funcName, $content)
+!endprocedure
+!procedure UplabsGroup($id, $name='Uplabs', $tech='')
+  IconGroup($id, 'IconGroup', '<$UplabsLg>', $name, $tech)
+!endprocedure
+@enduml

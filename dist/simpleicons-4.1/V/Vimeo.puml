@@ -1,0 +1,19 @@
+@startuml
+sprite $VimeoMd [14x14/16z] {
+HOq50aH124APJkN-jrtS-c_25W2r9uY-fcpQLYDttHkAaGOKKlOmAFZOiqr_Gr8nUfhC09BCb75o0vFqsBrbaJqwH8-UGnu4cMyyuurzLJuCYeeVXoVZ8Ntj
+2m
+}
+sprite $VimeoLg [20x20/16z] {
+VO-50SCW44K_xh3_jkrPlNa9S2uWV83WKYaYkvWSc51QInmrpfbip8V8GDmg81rcHHKQu9U8MnvEZckARSqYReyxB4xljGoFCAqqbabkFpAQDa4beO28F04G
+jZGZd1IKQX72u7PyLoZb60D6CDDoC9njvM5OyWvumL7Bxl66hotXYXi
+}
+!procedure Vimeo($id, $name="Vimeo", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Vimeo', $name, $tech)
+!endprocedure
+!procedure VimeoCard($id, $funcName="", $content="")
+  IconCard($id, '<$VimeoMd>', '', $funcName, $content)
+!endprocedure
+!procedure VimeoGroup($id, $name='Vimeo', $tech='')
+  IconGroup($id, 'IconGroup', '<$VimeoLg>', $name, $tech)
+!endprocedure
+@enduml

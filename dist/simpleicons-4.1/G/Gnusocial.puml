@@ -1,0 +1,16 @@
+@startuml
+sprite $GnusocialMd [14x14/16z] HOo30G1H3CLUlvtzfpqZDJly-0dC1UimukdIX9dEvAgycV-gh9IKtyeIZFHLXPxhM_d0TFPMGpvRUPx3pAbn46FZeqco0tb8-cZKBtUrXIlP0G
+sprite $GnusocialLg [20x20/16z] {
+NSx50KGX54FHu9xqN-t8L-3kta5prLP5QRiry5nhnzIFmHv6tmyBV6tOaaF8nKwcYAEaoH9SJ6unmWn97cEw3vwIs3MReuOFOTf7OuReWBwy4GUxFIUh8teO
+2xJvBsAD8NMTbeks2c1oFnkKr7isc6e_mfgNw3QYsaecjVp85m
+}
+!procedure Gnusocial($id, $name="Gnusocial", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gnusocial', $name, $tech)
+!endprocedure
+!procedure GnusocialCard($id, $funcName="", $content="")
+  IconCard($id, '<$GnusocialMd>', '', $funcName, $content)
+!endprocedure
+!procedure GnusocialGroup($id, $name='Gnusocial', $tech='')
+  IconGroup($id, 'IconGroup', '<$GnusocialLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ActivisionMd [14x14/16z] hKW50S1027pSwHztX1YSlr-E0CBj-V6kGZqhAlE6c2bDRy_Ed4La9hmdP8Jtotq
+sprite $ActivisionLg [20x20/16z] pOt70SKm24F11aMKuFsd_UMK5QBohazU55KHWqF5WH__8LMhw-QQgjvhYwmv897Hlp5OKUoPBaDVELwS9ivz06PT0UCEbcVI-SZabVa2
+!procedure Activision($id, $name="Activision", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Activision', $name, $tech)
+!endprocedure
+!procedure ActivisionCard($id, $funcName="", $content="")
+  IconCard($id, '<$ActivisionMd>', '', $funcName, $content)
+!endprocedure
+!procedure ActivisionGroup($id, $name='Activision', $tech='')
+  IconGroup($id, 'IconGroup', '<$ActivisionLg>', $name, $tech)
+!endprocedure
+@enduml

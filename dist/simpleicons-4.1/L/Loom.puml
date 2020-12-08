@@ -1,0 +1,20 @@
+@startuml
+sprite $LoomMd [14x14/16z] {
+HOw55GCn34D_G2yaf_jls_RGp1QGFQI-CWSrLwXkHo8dKf_h8yZjPujxoVfrbvs9w0AiNcQHgxmBrQBtVwDk9q8axmhw5ObHATkgrc_5Dlz61DbMRZyjtGLz
+6loiP_y1i2vavKK6SiJP-G8
+}
+sprite $LoomLg [20x20/16z] {
+HL05eiKW30is0hNxt_R_yYRPi7g2H3FVazkjuSLmuxXeFbvJ3vwpC1vZyPN79QhXvHVb3g2govmqwq0RaPdLj2AnOi1ywGGaHDZJI2zkKAA7hAKX6MlSX0Ye
+6RB3_esqUU7oAgVpKjKSTWv0zRP9yGpPfsdijEawTSmjXvDGSaV7L1ZDUGPV8Y7ujp5g6pVPggTf-FXnMtEA7oBk_TOWLEMwINnQ_QwC_caQnZ5eCV2XqjoD
+5GT_
+}
+!procedure Loom($id, $name="Loom", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Loom', $name, $tech)
+!endprocedure
+!procedure LoomCard($id, $funcName="", $content="")
+  IconCard($id, '<$LoomMd>', '', $funcName, $content)
+!endprocedure
+!procedure LoomGroup($id, $name='Loom', $tech='')
+  IconGroup($id, 'IconGroup', '<$LoomLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TiktokMd [14x14/16z] JSk50G0X30D0t2hPVzlFEq4Fsd1dGQ_pbSTTaBWBFk8dfnDlLHQrqXHg0HwfmAH1h5V3e6n-j1oDn_ytU2XtfaoWbmMKS2OQcElhudHek-y7
+sprite $TiktokLg [20x20/16z] {
+RT350GGX343H62xflziTBApzKTu50IkgDhIHMVzZ6lwOkZ-cMV377lsoVerzb65LKbj6kQkcQGWaFAZgKzosAlfj90zqpmJ9pCV719wknUUtmQS5isnB4xzt
+ITsE0Aaz6CIF3yFEwoc2vI_TE7VjMMpy0W
+}
+!procedure Tiktok($id, $name="Tiktok", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Tiktok', $name, $tech)
+!endprocedure
+!procedure TiktokCard($id, $funcName="", $content="")
+  IconCard($id, '<$TiktokMd>', '', $funcName, $content)
+!endprocedure
+!procedure TiktokGroup($id, $name='Tiktok', $tech='')
+  IconGroup($id, 'IconGroup', '<$TiktokLg>', $name, $tech)
+!endprocedure
+@enduml

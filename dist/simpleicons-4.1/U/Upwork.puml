@@ -1,0 +1,16 @@
+@startuml
+sprite $UpworkMd [14x14/16z] RSU5OKKn3CLG-L4usd_QzZCVu-LDNDTDpx2x0H4m2nnMecc-9TTcQUPRcYPeMY6RT8MgfiD1i-_PchkEbJcdje1r2nOJsyhDuSPJdi5J13_y0m
+sprite $UpworkLg [20x20/16z] {
+bP054eGm40HNWUZy_xStvswDf2ks8Z_Yhlnhc5oPC_XVCFGw1oJ_Ax1moDPhtinraO8zvJg7IA1jdIUkSwEXKYlwSMv1dvoEWvALKb1uSjhXoAIbSctX8LJN
+d2WyiwUhD1mPPawVbQScwbuRLTJ3EHYcIr2lNCkxeQB98mtRowRzoGu
+}
+!procedure Upwork($id, $name="Upwork", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Upwork', $name, $tech)
+!endprocedure
+!procedure UpworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$UpworkMd>', '', $funcName, $content)
+!endprocedure
+!procedure UpworkGroup($id, $name='Upwork', $tech='')
+  IconGroup($id, 'IconGroup', '<$UpworkLg>', $name, $tech)
+!endprocedure
+@enduml

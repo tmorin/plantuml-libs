@@ -1,0 +1,16 @@
+@startuml
+sprite $ReverbnationMd [14x14/16z] JKo50G0m25gtyl-rwx834DEC4PzvzsybVui4vDiiOESGOWYH01hTceXhSQZpcjai3HeB7HsUsrCivQYAYBZAehc9M4Ib5aJrhG4
+sprite $ReverbnationLg [20x20/16z] {
+POw53KKX40HnX-c_sg_lWcqC9hUYHDwfIy7VhDOBwJ5kArpc0kMqTkXQ9dZdd7S98BdVn-RAeMQLIZlAlmJN9nbIhiLFDSlWvqhF9PP7Th8aB4tMWH06z6dz
+ZpADQSxFA9t8mbgGbw-oP8vI-cju0m
+}
+!procedure Reverbnation($id, $name="Reverbnation", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Reverbnation', $name, $tech)
+!endprocedure
+!procedure ReverbnationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReverbnationMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReverbnationGroup($id, $name='Reverbnation', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReverbnationLg>', $name, $tech)
+!endprocedure
+@enduml

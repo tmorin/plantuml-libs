@@ -1,0 +1,13 @@
+@startuml
+sprite $CommonworkflowlanguageMd [14x14/16z] TSsr0SKm00DHcTdQVzgFISolk-hm8qf2O-XRM3eqWGOTHuj6vjX2CQ19b6XaZJXceEv37NVmr-4D
+sprite $CommonworkflowlanguageLg [20x20/16z] XS_50GKX30JGo2uEqt-rtpNO71_4w9E4I2QS4NlAl2KAW99DGfKE8shtamUxfEgv-rK6tTYQDWJgiPqTIeQtvj2EdjIG7zph7vKzIe_VQwy
+!procedure Commonworkflowlanguage($id, $name="Commonworkflowlanguage", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Commonworkflowlanguage', $name, $tech)
+!endprocedure
+!procedure CommonworkflowlanguageCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommonworkflowlanguageMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommonworkflowlanguageGroup($id, $name='Commonworkflowlanguage', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommonworkflowlanguageLg>', $name, $tech)
+!endprocedure
+@enduml

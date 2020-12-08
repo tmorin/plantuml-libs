@@ -1,0 +1,19 @@
+@startuml
+sprite $PaypalMd [14x14/16z] {
+DSt50S1024JHMLVu_LSRpyDFI9LFrQNpcVUrOEMoWHeK7BAKWD7luK7AGBDGmKB81hDvde03xEop6G_hnOWBwBstll0aXrqnjtK_1yPU-W3LYpwjjqRKBy7I
+xmG
+}
+sprite $PaypalLg [20x20/16z] {
+LP150W9G24JdTmBtlwqE5huDdG2Q_RW5JlHfXRCi81daC3vgUyLM0f256eEJlhdgkrsdhrCR-m3ZstfwT2kmkGARDEMCAe9qcJV7EaPwivEAHKOHwwK7pwrF
+rqrZ-Vhtd3LR6RxqlcnSnkXzikFEWFgUxmPt-WkCj6iZvvmI7EzMx23mUffD1CxPAq_U6sbxcHRyCVrLaGS
+}
+!procedure Paypal($id, $name="Paypal", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Paypal', $name, $tech)
+!endprocedure
+!procedure PaypalCard($id, $funcName="", $content="")
+  IconCard($id, '<$PaypalMd>', '', $funcName, $content)
+!endprocedure
+!procedure PaypalGroup($id, $name='Paypal', $tech='')
+  IconGroup($id, 'IconGroup', '<$PaypalLg>', $name, $tech)
+!endprocedure
+@enduml

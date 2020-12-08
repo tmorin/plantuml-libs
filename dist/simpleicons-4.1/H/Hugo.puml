@@ -1,0 +1,19 @@
+@startuml
+sprite $HugoMd [14x14/16z] {
+FSr50e1G24NH-xjukF_Lsdf6D9o6j-wTHz6CQQbm2alvgQr8iy7eq0TTmGnymNAmeYkp4EpEhfwsa_vChUdf_Nj_Pb_MLRyFJO4aIvooB79gFaDSgZp2S6zS
+3W
+}
+sprite $HugoLg [20x20/16z] {
+bP3L0GGm24C3r6d3_jEUkz_x2YuuaCdkiHAkI8jLErckhhIY2Q0zvYbJHxWUfSqO2eWkPib502bP2ccedGgDCC0Y5B8SamstFZJA9zzeRJpuZZpul7T_q-yl
+N_TvvvFfK8jfo5a0oHc9OG3IZ2wdTtYu7MKXw_5NA-ECxApQo2AumJpOpfuj
+}
+!procedure Hugo($id, $name="Hugo", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Hugo', $name, $tech)
+!endprocedure
+!procedure HugoCard($id, $funcName="", $content="")
+  IconCard($id, '<$HugoMd>', '', $funcName, $content)
+!endprocedure
+!procedure HugoGroup($id, $name='Hugo', $tech='')
+  IconGroup($id, 'IconGroup', '<$HugoLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $GrouponMd [14x14/16z] JOs50KCX34GFXqZPVzj6AlyXyHnGpWsem1YlcmohJBE_aDpGd66hVoi6w52tWF4ZIqT5L5KoSlD10BAQUUhXXh7CEUJQ_5LugayNUWH6tJQjkvhx1W
+sprite $GrouponLg [20x20/16z] {
+PP050eL024Hdk-7-f_qns3xTeW4_mj2D6R2HrYvR2KRL2_KjeZ3aFTGK9GcJiQJWHw5Kl9884lkF4VOOLoZpW8idZ00WY8eQTfhiJW3eSBNhWA-jjShdsEia
+aR8yhF_g06TTYWzfxsqVJdxFeBq7qznhfXaxBlMVM7eoeoy
+}
+!procedure Groupon($id, $name="Groupon", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Groupon', $name, $tech)
+!endprocedure
+!procedure GrouponCard($id, $funcName="", $content="")
+  IconCard($id, '<$GrouponMd>', '', $funcName, $content)
+!endprocedure
+!procedure GrouponGroup($id, $name='Groupon', $tech='')
+  IconGroup($id, 'IconGroup', '<$GrouponLg>', $name, $tech)
+!endprocedure
+@enduml

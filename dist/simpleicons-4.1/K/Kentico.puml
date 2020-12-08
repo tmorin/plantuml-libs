@@ -1,0 +1,16 @@
+@startuml
+sprite $KenticoMd [14x14/16z] XSp50SH020NGFuxJVxNhBicxuEGkfRmBpOKCoGi14xpMsv10CefVSkUJAOieBXF8X0tKSnLXNPJM_MSjQopSIYr126htONA9VE7vmn4
+sprite $KenticoLg [20x20/16z] {
+hL150WGn24iTc0B__-sEwsKjLHpY_u3GKvV15vcAUW5vZxBh4jAaiu2wwomXjyJZRNueSpRLM0v5gvMiXl6KKlfI0K3g4Naym59bQAsHZlcKY8x26fEfXkm7
+Xh69CLz6qjCCPUuvuV3aCkbfxA3x6GrF4apKFyGB
+}
+!procedure Kentico($id, $name="Kentico", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Kentico', $name, $tech)
+!endprocedure
+!procedure KenticoCard($id, $funcName="", $content="")
+  IconCard($id, '<$KenticoMd>', '', $funcName, $content)
+!endprocedure
+!procedure KenticoGroup($id, $name='Kentico', $tech='')
+  IconGroup($id, 'IconGroup', '<$KenticoLg>', $name, $tech)
+!endprocedure
+@enduml

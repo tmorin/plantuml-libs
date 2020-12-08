@@ -1,0 +1,19 @@
+@startuml
+sprite $UblockoriginMd [14x14/16z] {
+JSxL0K0X34FHL71ezj_skLpq_1M0U2Uxo_vLyxnZPtR3u2_hV-ckFbXh6gU2kLAzws1e2vP6t--ogowMD2LFwrp8av6z5MlaX1Q-5K3MWtLECozCnLazKF6a
+OoYEDW
+}
+sprite $UblockoriginLg [20x20/16z] {
+TOe50iGW30GtQ8Bb_xyzvEhjOBj3CA5GLMiWdB3SL1lR9Prdbgn_iZ1x77ttu7HtwTlveiMBS_bmZL9F21vfkYZ3vPvwZzIT78xco7G-zeUa9rPrjfS8w_iJ
+o94bGrH60LdjI6GjaUl83kX_5me125SNC92p4YpuK8mDNvQf7WV4hIicN30vsot_
+}
+!procedure Ublockorigin($id, $name="Ublockorigin", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Ublockorigin', $name, $tech)
+!endprocedure
+!procedure UblockoriginCard($id, $funcName="", $content="")
+  IconCard($id, '<$UblockoriginMd>', '', $funcName, $content)
+!endprocedure
+!procedure UblockoriginGroup($id, $name='Ublockorigin', $tech='')
+  IconGroup($id, 'IconGroup', '<$UblockoriginLg>', $name, $tech)
+!endprocedure
+@enduml

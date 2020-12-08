@@ -1,0 +1,19 @@
+@startuml
+sprite $BeijingsubwayMd [14x14/16z] {
+HOq5WaGn24E3VIUv_ssNxjXhSGFir3-NOKYAzzrI0LPYOOZMXfCApynoQxacGmsqq3aQV28E5JBr0Bo0cXxW4sqQAArEzrtNeVvjWUiuIVSSt1xvkfxVwskR
+-dwuHXPsjDI70_W3
+}
+sprite $BeijingsubwayLg [20x20/16z] {
+NP250GCn24KX7Y9__srRfFhkOZZGaom8TgQWR0IdXgYhmUYjpmkCb-XM9YKj4wO2x4G1Jw2HR5ncKQPCeeN3K4L2K2bVDFLKsMYz7qoY9XLw9jnasJOfdWXN
+YnMSVnal61UGjrsFPe3ZEMfj6rBAmlojfL0wAB9ncAOpB0zhRulfnG2Q7xjujqMit4WdlVUfjSpmgGV1QVI2gsXH4cDy
+}
+!procedure Beijingsubway($id, $name="Beijingsubway", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Beijingsubway', $name, $tech)
+!endprocedure
+!procedure BeijingsubwayCard($id, $funcName="", $content="")
+  IconCard($id, '<$BeijingsubwayMd>', '', $funcName, $content)
+!endprocedure
+!procedure BeijingsubwayGroup($id, $name='Beijingsubway', $tech='')
+  IconGroup($id, 'IconGroup', '<$BeijingsubwayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $QiitaMd [14x14/16z] dOm50G0n24M_RK3_mASDzd358SuoIE9ZHriFtg3rTHIxl3q4j9musDZrT2o7MoiD-d_nU167t
+sprite $QiitaLg [20x20/16z] nOo30S003C1Iu_z_vn-Mclo4QcG0TWaVFU7LY4lWNzi4oAiM9xV4k-Pzq9GKaM8jikzoaPAaum5L1ROYxnxQi5cLDKP8Y6GIbGDgb_4WLrJbBqu
+!procedure Qiita($id, $name="Qiita", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Qiita', $name, $tech)
+!endprocedure
+!procedure QiitaCard($id, $funcName="", $content="")
+  IconCard($id, '<$QiitaMd>', '', $funcName, $content)
+!endprocedure
+!procedure QiitaGroup($id, $name='Qiita', $tech='')
+  IconGroup($id, 'IconGroup', '<$QiitaLg>', $name, $tech)
+!endprocedure
+@enduml

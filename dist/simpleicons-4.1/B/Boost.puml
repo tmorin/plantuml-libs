@@ -1,0 +1,16 @@
+@startuml
+sprite $BoostMd [14x14/16z] NOw50S0W30G_kBF_j2rkXyOVB-ooRBIAqxGevfoJDv9QJDlSqO0fbnycD-KImmon-vgPs4n1o8aZ3vWi-T2kvoOdXXPXVAp92-BQ4Xv-
+sprite $BoostLg [20x20/16z] {
+bSp50S0m40D1cTdglzemS_Ov1_YHKU9ajkReZJWWkseELgwcCgTgT6eWJMkuPWQYXbkj0AgI2LiK7NM53OPSEHGNp893uwOVlabmYs4WSCr3itQ4KbTqhYhq
+2UFpE1WErvIDkGpd-wHniJYS4WetjG
+}
+!procedure Boost($id, $name="Boost", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Boost', $name, $tech)
+!endprocedure
+!procedure BoostCard($id, $funcName="", $content="")
+  IconCard($id, '<$BoostMd>', '', $funcName, $content)
+!endprocedure
+!procedure BoostGroup($id, $name='Boost', $tech='')
+  IconGroup($id, 'IconGroup', '<$BoostLg>', $name, $tech)
+!endprocedure
+@enduml

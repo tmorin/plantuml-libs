@@ -1,0 +1,16 @@
+@startuml
+sprite $HotelsDotComMd [14x14/16z] ZKw50GCn2BmuqeJzj-sx6-uS49fP0k1P77msC-gAkLaaaIvZa6ZdL7d8P9DffB9c0ttBQlsrpKqgSlE1mKFcKvzH1wpp1N1awj1HAVW3
+sprite $HotelsDotComLg [20x20/16z] {
+hL350O0m34mj7hh_jBZpvUedDPYXlVT8i22nrcK0wpFoIcLrd4UYMBXvcXlwF2lCAYj7KCHfLSDF3irudRdj748JfPKxVLAG29_SWc7uS0j-uy9qnfCZQCnu
+tldpZY-7VilgxglrV6z2vUKX3Q2Wxt-QSkNZnxFsgB2XOe89
+}
+!procedure HotelsDotCom($id, $name="Hotels Dot Com", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/HotelsDotCom', $name, $tech)
+!endprocedure
+!procedure HotelsDotComCard($id, $funcName="", $content="")
+  IconCard($id, '<$HotelsDotComMd>', '', $funcName, $content)
+!endprocedure
+!procedure HotelsDotComGroup($id, $name='Hotels Dot Com', $tech='')
+  IconGroup($id, 'IconGroup', '<$HotelsDotComLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $WhatsappMd [14x14/16z] {
+HKsr0G113EBS4jX_sdUXmm4CsHXBC-10fhUKggcSH0qNwa476t9uQ11_rxjrTAsRDPy5wVMo3eQXY11EvXt0L3iFkf5NWpeOsrA-EmcTmHtnlklAa5mSfGmo
+0slMM8-sLHpO0G
+}
+sprite $WhatsappLg [20x20/16z] {
+JOw50GGX30INm26nxR_QbxpEAHF50r4o7YIzuyrmffjvCYwWMEJgbR-IkzIa2zw8FQKCUiENPhnmZ1sYrpSpe_6Ph7-vYuCS0EkDegS-Ke5W23vufDTenHTZ
+EHZNdwjQI72tfbk0vb7TIvgH0GmUyk19EtpWm6QldGkPkXew3Lif-271ZgIYVMqFJe2q7JoN038EdmhLsSXqJrAhjsgbB8km9IZk
+}
+!procedure Whatsapp($id, $name="Whatsapp", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Whatsapp', $name, $tech)
+!endprocedure
+!procedure WhatsappCard($id, $funcName="", $content="")
+  IconCard($id, '<$WhatsappMd>', '', $funcName, $content)
+!endprocedure
+!procedure WhatsappGroup($id, $name='Whatsapp', $tech='')
+  IconGroup($id, 'IconGroup', '<$WhatsappLg>', $name, $tech)
+!endprocedure
+@enduml

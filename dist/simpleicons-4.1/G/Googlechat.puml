@@ -1,0 +1,19 @@
+@startuml
+sprite $GooglechatMd [14x14/16z] {
+FSc53GGn34JHMJB7qt-t5v3k1RyCG9fJAvQxkDMDQKQQvKpWKb8bKzOBAUPNtsUISsXDzQ_yIsLViymbx3MR9SLwKyoaEN096NCmI1g084T4atrXSXw2xV6S
+eVXRaxyhRYm_
+}
+sprite $GooglechatLg [20x20/16z] {
+NP05TW0n24G7s2nnxd_RCgzK_qg22nBfKNH1eJEAgQMo4zyS0v5DORaldbkGTDxCt1-ZjGEYDoEanxdN9RDSXRMqlIsQc4wdqD0y3zrTzyGuceBZPJevD3qz
+98M1Hfsk8UddqrZaCvzRkDWmMKmEKNPiJvQz4SIglzlqiJV8-fdZp7c2D9JoXu6Yto0LMOZFdmsGWbw2_ph7VvQX-
+}
+!procedure Googlechat($id, $name="Googlechat", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlechat', $name, $tech)
+!endprocedure
+!procedure GooglechatCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglechatMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglechatGroup($id, $name='Googlechat', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglechatLg>', $name, $tech)
+!endprocedure
+@enduml

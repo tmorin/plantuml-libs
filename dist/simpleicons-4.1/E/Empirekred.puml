@@ -1,0 +1,16 @@
+@startuml
+sprite $EmpirekredMd [14x14/16z] FStL0KCn34DHlQ2frlxJbW8tUBvioLlMW_yhf24eKAuKByNarLpO0WPfeajpmbXhB0KBiXd9_ClHwbUpp8mampqv0VJSypj-FVv35EnapJcrjjuF
+sprite $EmpirekredLg [20x20/16z] {
+NS_50G0X34JHIHPFOFglTjtVZO_dmf-2slZJXEGmuyhCkQlRG7IG6Ugy6MIi2SPFOxdIqpBGlXTXOoHzkDzD5DizOKAwzg9rHIGd-7ZTMu5ANVkhCK9ysbip
+PzlRkZje8kaASHwNTNVhQnAiAb-gO1V7LKR2vVfzd_2GVNyJV2GouKyLbmK
+}
+!procedure Empirekred($id, $name="Empirekred", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Empirekred', $name, $tech)
+!endprocedure
+!procedure EmpirekredCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmpirekredMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmpirekredGroup($id, $name='Empirekred', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmpirekredLg>', $name, $tech)
+!endprocedure
+@enduml

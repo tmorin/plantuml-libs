@@ -1,0 +1,16 @@
+@startuml
+sprite $FSecureMd [14x14/16z] JSg50S0W30J0Bqxizv-sReT4SvqMt8MEkjpvLJV-nHskE88Y1S2IcbXkqrqI5fnoLx68S1tvM77U_5XGtZfsYIxIfnjEHO83hqbIyHB-XsZrYXi
+sprite $FSecureLg [20x20/16z] {
+PS_5WGGm2010OZYX_sfF8glpn2cbeVZC9Kn6BL3hO8lC6wHU8MP-c9BV8h_ngevmKpNVWtgcAoCS3JMqY91bMeKNjKKg2HCHZfCfbKdZN3I3sugszzrzTR_5
+31P-ZJNO8gSm4rkcmD6TF081QhkXkuRWZQvP-XOhjfw7Z-0AVGHRXUiN
+}
+!procedure FSecure($id, $name="F Secure", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/FSecure', $name, $tech)
+!endprocedure
+!procedure FSecureCard($id, $funcName="", $content="")
+  IconCard($id, '<$FSecureMd>', '', $funcName, $content)
+!endprocedure
+!procedure FSecureGroup($id, $name='F Secure', $tech='')
+  IconGroup($id, 'IconGroup', '<$FSecureLg>', $name, $tech)
+!endprocedure
+@enduml

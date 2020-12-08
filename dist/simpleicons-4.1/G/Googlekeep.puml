@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglekeepMd [14x14/16z] JKm55WKW2CDMs9xtF-qFkrcAY8VchF0oLcPoBZ4FuEcVhzLfgUt_Qfuewq1beZ9GmaH8uxD1DfEv25MZMmWrfGhPo5gpYqgCvI0ZGDl8iVTPyWK
+sprite $GooglekeepLg [20x20/16z] {
+PSe55i0m20JH2D1kXBt_QUlUgOJtGrXBpUiuLcyfN8axpE0k5sNMk9wnC9_Msc_I-pPJzm4zN7NiPsctrNBiFQmTPemdHTenE4w3dzT6kuUpaHPJYaQ4g-ZS
+ylWqYAh0qykoIiPxZxx4jmqXnc0lOyDIuzFGkUHOxGgh8UpD
+}
+!procedure Googlekeep($id, $name="Googlekeep", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlekeep', $name, $tech)
+!endprocedure
+!procedure GooglekeepCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglekeepMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglekeepGroup($id, $name='Googlekeep', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglekeepLg>', $name, $tech)
+!endprocedure
+@enduml

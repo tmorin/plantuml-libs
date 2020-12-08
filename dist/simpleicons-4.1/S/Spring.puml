@@ -1,0 +1,19 @@
+@startuml
+sprite $SpringMd [14x14/16z] {
+FOl50G0X40EpZjD_jQV0lA80vVcHIG7e-Drm9xAvQI9vR5C8ygUr9dbFZwwCbz-LerydoxZ0vkJVP0FixoYQ0-nbDetI4WEKcItQB2PgUTYxwlF7yCAfZT62
+0Dm
+}
+sprite $SpringLg [20x20/16z] {
+JP35WKKn20094aNwxtOtzb_cE3Zm3_Ku3092cB1UPm94KvLuQAKSzU4eI1mlHY0uz4rg2I3TBDCnMaumoSiCGLXyhZu2qnew7fLav_6ZQbhB6Nwg2oodFyTQ
+xbsq3NNFI_7GQ3EbgYljK2A9wCFTslcHpP6LStWJOcOf6kLCYuzoZx5hb9_jkysMd63o1m
+}
+!procedure Spring($id, $name="Spring", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spring', $name, $tech)
+!endprocedure
+!procedure SpringCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpringMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpringGroup($id, $name='Spring', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpringLg>', $name, $tech)
+!endprocedure
+@enduml

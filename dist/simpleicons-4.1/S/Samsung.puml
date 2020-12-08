@@ -1,0 +1,13 @@
+@startuml
+sprite $SamsungMd [14x14/16z] hKe30G1H53jE_Vj-HtYUhfAwpzk3puWeIAObCOPe1BdlwzwrynNL0G
+sprite $SamsungLg [20x20/16z] pO_L0SKW54CBt1Yo_xXFEWNHx_DSBgAn5we6ny0x56lJQye19rUinB6rDfZV8TiwH8sVsNy1M-6tj_D-0G
+!procedure Samsung($id, $name="Samsung", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Samsung', $name, $tech)
+!endprocedure
+!procedure SamsungCard($id, $funcName="", $content="")
+  IconCard($id, '<$SamsungMd>', '', $funcName, $content)
+!endprocedure
+!procedure SamsungGroup($id, $name='Samsung', $tech='')
+  IconGroup($id, 'IconGroup', '<$SamsungLg>', $name, $tech)
+!endprocedure
+@enduml

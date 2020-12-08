@@ -1,0 +1,19 @@
+@startuml
+sprite $FastlyMd [14x14/16z] {
+FOl50G11309PpohzTtlaR3uH1ZY9JFZ9PFxtHR6Uk_AbFXsUjGwzcuUa24Jf0wPdb16Zb3397T06mfOw_8MS45ngUXM88WdH5DOOgoA3-o_g0t6_HyHDNUIg
+41S
+}
+sprite $FastlyLg [20x20/16z] {
+HOy73WGn3099ZzFy_z-UZ0xjR8qhuCzstn1VR868L8_xgGaV_JWv7S9Sg1zBWIyu-7_FkVmP07Bylf60D5uaCqfJKYqDtM8Vec4an7w3RNw0SGgeO3D6Lzl-
+4ZQcIO1aBTGUQmj8UToN2arbRg758cTlZZwVSvz4Yv0S50KrESXRePq1KUswNwiWFm
+}
+!procedure Fastly($id, $name="Fastly", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fastly', $name, $tech)
+!endprocedure
+!procedure FastlyCard($id, $funcName="", $content="")
+  IconCard($id, '<$FastlyMd>', '', $funcName, $content)
+!endprocedure
+!procedure FastlyGroup($id, $name='Fastly', $tech='')
+  IconGroup($id, 'IconGroup', '<$FastlyLg>', $name, $tech)
+!endprocedure
+@enduml

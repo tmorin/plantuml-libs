@@ -1,0 +1,16 @@
+@startuml
+sprite $OcamlMd [14x14/16z] VSx50GGW34JHu3Razr_jEXptdI3Unhn6b3i_JkCFTL7t-MLBtGeebmdsiMWM-_bPik10ZDzlNDybg-IMdAEASd-xGP_dd3bWTvVatvbtr1C
+sprite $OcamlLg [20x20/16z] {
+fSv50aGX201GL1hZ_hUTtxsRPoSKr0S4OdzW66yw_j0RnfZRXGdapf3RDA_YqQSn0K2PcarpcaQSHjZaEbg6h77kJH01rc_X2iU2gAphL93xaKrOBfQettES
+0XYE6-6fA-ssL-hKaTwUBglEnmQpKY5rjoA44pQ33py
+}
+!procedure Ocaml($id, $name="Ocaml", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Ocaml', $name, $tech)
+!endprocedure
+!procedure OcamlCard($id, $funcName="", $content="")
+  IconCard($id, '<$OcamlMd>', '', $funcName, $content)
+!endprocedure
+!procedure OcamlGroup($id, $name='Ocaml', $tech='')
+  IconGroup($id, 'IconGroup', '<$OcamlLg>', $name, $tech)
+!endprocedure
+@enduml

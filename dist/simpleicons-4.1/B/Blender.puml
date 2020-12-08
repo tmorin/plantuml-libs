@@ -1,0 +1,16 @@
+@startuml
+sprite $BlenderMd [14x14/16z] LSt50GH020J1MJUWyu_sNEk5euTKzAFi_9DbfxsdRcemTMUyd7IVoYtOjGpydXPdfMsriQG1b0cHdRunetIm7C3MuAZsDB4rf1nOxvlNpnBSTJsbllV8qhyh
+sprite $BlenderLg [20x20/16z] {
+TOu50WKW2CKGi9NT_xI_EsRddZn8yetA5vNnjMkRRLzl9r7l2szdUXi1ushIpGlh-cakfKnWbDA3k7zQWd1HkvZIzNV0PS9E3cUHRywh0Z1biizX8LYNaIK3
+se1zLgIq0K-RkEexT4crcZIOrvWEJ1NH0RXTupI0280kLwwRtBVkU5yHUxYyeMOg_pW2
+}
+!procedure Blender($id, $name="Blender", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Blender', $name, $tech)
+!endprocedure
+!procedure BlenderCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlenderMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlenderGroup($id, $name='Blender', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlenderLg>', $name, $tech)
+!endprocedure
+@enduml

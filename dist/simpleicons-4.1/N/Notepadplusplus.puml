@@ -1,0 +1,16 @@
+@startuml
+sprite $NotepadplusplusMd [14x14/16z] RKw30KDH33m43_lFMxi_TWvtOWflKWLqBr1Ak7phHphJD380vRLY3XM1l0sx577rOSZNNOBAdYD7pUkD6ckjsNlkEQgfKhIjQlDshZhVE3fZy8sgopYYCm
+sprite $NotepadplusplusLg [20x20/16z] {
+VKu30aHH26no3_S_xXhVantz0QOTMB5BfGLWjYmuID95_Hq-VCyWFFF8rrgDXu9waJs2n3EATxCGbSFijUZpWwc7UE2pd7wTegyVXFFXi369MBmlF9ogY1RL
+GzxzMQrgcZIB2ZDMDM-LhRMiqTjehNi6W1GMDuZ0o_XzK9Kotz-3Fk3W2arQmP95YjRmYb3QG0HqZJi
+}
+!procedure Notepadplusplus($id, $name="Notepadplusplus", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Notepadplusplus', $name, $tech)
+!endprocedure
+!procedure NotepadplusplusCard($id, $funcName="", $content="")
+  IconCard($id, '<$NotepadplusplusMd>', '', $funcName, $content)
+!endprocedure
+!procedure NotepadplusplusGroup($id, $name='Notepadplusplus', $tech='')
+  IconGroup($id, 'IconGroup', '<$NotepadplusplusLg>', $name, $tech)
+!endprocedure
+@enduml

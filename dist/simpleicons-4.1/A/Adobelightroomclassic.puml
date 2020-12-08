@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobelightroomclassicMd [14x14/16z] ZOgr0SD040GVZw7_QcqnP9faqVC1v1F9DsxFW6CtDghioKQNDjNsf8Muxi-vf9fof2QosAXWdi6jTbdtLYG_8vFjWkiV
+sprite $AdobelightroomclassicLg [20x20/16z] {
+fT23WGKm40JGYHR1RF_TtdtRBpR6YYihBrxtiSIj4MzJZHDoj-LfpoK9xTHdviO2KJlr5Q0v_BzswgiO8U15NqbnjyzEQo4Yi_xthGorJJSh_esM_-kp03N-
+SP6C_xXln2_6lJzDsSS5p_W3
+}
+!procedure Adobelightroomclassic($id, $name="Adobelightroomclassic", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Adobelightroomclassic', $name, $tech)
+!endprocedure
+!procedure AdobelightroomclassicCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobelightroomclassicMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobelightroomclassicGroup($id, $name='Adobelightroomclassic', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobelightroomclassicLg>', $name, $tech)
+!endprocedure
+@enduml

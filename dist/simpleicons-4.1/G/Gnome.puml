@@ -1,0 +1,19 @@
+@startuml
+sprite $GnomeMd [14x14/16z] {
+DSY50O0020J0fyDW_sbjZmONeJLbHl18tT9dPrnOLZUEKTnq9H9pnajicvd-BfrRVLVUH-8JCvk0lulsSMmxFhhFDe4VPTktCXEk99Rx7rOLqTsEIzOLKTa9
+d
+}
+sprite $GnomeLg [20x20/16z] {
+JT370GGX34DHoIR3MFrNktaM_l6HmIV2Og5AORWpkYxqqnWjQV2IsarE3KotI-CcYvmp2AICVwk1fQ_LRHkjXDvTt5ZqRHqMNugqoRuq3KSVAi1PbvJWuvnf
+yROXENOf53FKSEP3kkd8Y1qJIRY1fFdNMaszjDPgRtNKpsolNjPSdj-_SD-cpLPgxIEFqcOdy0G
+}
+!procedure Gnome($id, $name="Gnome", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gnome', $name, $tech)
+!endprocedure
+!procedure GnomeCard($id, $funcName="", $content="")
+  IconCard($id, '<$GnomeMd>', '', $funcName, $content)
+!endprocedure
+!procedure GnomeGroup($id, $name='Gnome', $tech='')
+  IconGroup($id, 'IconGroup', '<$GnomeLg>', $name, $tech)
+!endprocedure
+@enduml

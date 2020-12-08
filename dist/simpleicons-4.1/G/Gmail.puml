@@ -1,0 +1,16 @@
+@startuml
+sprite $GmailMd [14x14/16z] NOlL0K9H5CDw3JkI_QS5dak-ghfGow5B9VjcUYRmMimB80olKdKimFM6CU0j0vyEp7UVdOfPqUOsxWuxdDswrWxNgYxy
+sprite $GmailLg [20x20/16z] {
+dSk55SKW04FHuCxRVzhlhcrnxacqSAHadi4a3zqzakjCOAOxnSbbD7FfrIjK6Fv8Va1hHqigG97owKf7orAOq1lC8EMBoPuQpKgttF4vITApoNkzcRJ1qfBS
+pDazcyjU2ySU
+}
+!procedure Gmail($id, $name="Gmail", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gmail', $name, $tech)
+!endprocedure
+!procedure GmailCard($id, $funcName="", $content="")
+  IconCard($id, '<$GmailMd>', '', $funcName, $content)
+!endprocedure
+!procedure GmailGroup($id, $name='Gmail', $tech='')
+  IconGroup($id, 'IconGroup', '<$GmailLg>', $name, $tech)
+!endprocedure
+@enduml

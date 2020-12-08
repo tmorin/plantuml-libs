@@ -1,0 +1,13 @@
+@startuml
+sprite $KasperskyMd [14x14/16z] jKa50G0X47kPqBym3W6Ga-bpOGXJTInGD894mA1A_xuP9kzF0W
+sprite $KasperskyLg [20x20/16z] pKU70SCm3483iFJ_lssIAym6roCI3-EBxEU5LKlR6ezy9BMFkQsLXkfQEuT0rYC11KGXmC3b-0C
+!procedure Kaspersky($id, $name="Kaspersky", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Kaspersky', $name, $tech)
+!endprocedure
+!procedure KasperskyCard($id, $funcName="", $content="")
+  IconCard($id, '<$KasperskyMd>', '', $funcName, $content)
+!endprocedure
+!procedure KasperskyGroup($id, $name='Kaspersky', $tech='')
+  IconGroup($id, 'IconGroup', '<$KasperskyLg>', $name, $tech)
+!endprocedure
+@enduml

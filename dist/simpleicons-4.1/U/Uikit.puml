@@ -1,0 +1,16 @@
+@startuml
+sprite $UikitMd [14x14/16z] ZSt50S0W343H1FU__xJLb7FV1U9oqGvDFcvQP65DhiuaMm6wEhKm371jLeiZozL5_1UrnGXxI-f0Swu1uzgN5e_rNjVAfQWOFxfxFYS
+sprite $UikitLg [20x20/16z] {
+XP350G112CI0TMFwh_RSDS_Wq8nlW3ewmX43uUIa3Afv4ZvQLoDJq6fFvMGQ1hBGaQYZJ2J75fB7H8gf7bSeemi9Y0-kFhZowlvhaMJPEs5pqCY32ilEB1cJ
+TKwntsOhDlOVXEdwwLixCdMDJ2TCtP_K0m
+}
+!procedure Uikit($id, $name="Uikit", $tech="")
+  IconElement($id, 'simpleicons-4.1/U/Uikit', $name, $tech)
+!endprocedure
+!procedure UikitCard($id, $funcName="", $content="")
+  IconCard($id, '<$UikitMd>', '', $funcName, $content)
+!endprocedure
+!procedure UikitGroup($id, $name='Uikit', $tech='')
+  IconGroup($id, 'IconGroup', '<$UikitLg>', $name, $tech)
+!endprocedure
+@enduml

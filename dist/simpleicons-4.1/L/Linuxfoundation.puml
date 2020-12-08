@@ -1,0 +1,13 @@
+@startuml
+sprite $LinuxfoundationMd [14x14/16z] uySFUA00mc600Y2NYOa9YSVAoWBdWLLIp8FRpil21EJ00HiJFmOF
+sprite $LinuxfoundationLg [20x20/16z] nT0d5iG030DHMu9kzp_jRdf3wVbmdf3ggfnCYOg1Clj9g4oqRTgGJKDZsoB2TTCQ-LMZzfh4N5rG3edQ24WUQdy
+!procedure Linuxfoundation($id, $name="Linuxfoundation", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Linuxfoundation', $name, $tech)
+!endprocedure
+!procedure LinuxfoundationCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinuxfoundationMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinuxfoundationGroup($id, $name='Linuxfoundation', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinuxfoundationLg>', $name, $tech)
+!endprocedure
+@enduml

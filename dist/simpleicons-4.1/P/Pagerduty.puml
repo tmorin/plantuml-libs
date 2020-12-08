@@ -1,0 +1,13 @@
+@startuml
+sprite $PagerdutyMd [14x14/16z] TOs30K0n34IlPdBxJ_jjl3OMqBaICTCflGlPjyW1SC9qHeXiQ-HduzaljSAwHidxM4ctHWiQC1DpoZa5WmzoisUmNJWZznED
+sprite $PagerdutyLg [20x20/16z] jOu53W0X30HRtFl_rvxZ4B-9hsK1C531makhUQoQCyPQVuj5Iwyj4v4g6djj_GLRZISA6stVnHmZNJIjb3BkaiByENmZu2aznA0XmmL_-39RX9BO2T-_NxKJ
+!procedure Pagerduty($id, $name="Pagerduty", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Pagerduty', $name, $tech)
+!endprocedure
+!procedure PagerdutyCard($id, $funcName="", $content="")
+  IconCard($id, '<$PagerdutyMd>', '', $funcName, $content)
+!endprocedure
+!procedure PagerdutyGroup($id, $name='Pagerduty', $tech='')
+  IconGroup($id, 'IconGroup', '<$PagerdutyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AmdMd [14x14/16z] hSf55K01200mt1_zstxfmCw34sn832BE45szQZjTKYowLULXMPBHD8IYz4_YPeOJBm
+sprite $AmdLg [20x20/16z] pKs50GGn20j7Mnpsd_RzTpXS4zn9w09UHaJC0CivPqjV27sPX3bHT8z7AhAgpLxvOEDCr-lGvUXd9kQlcId7yOMZ-lxDSOuFoqL_ZYqCmeta2G
+!procedure Amd($id, $name="Amd", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Amd', $name, $tech)
+!endprocedure
+!procedure AmdCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmdMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmdGroup($id, $name='Amd', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmdLg>', $name, $tech)
+!endprocedure
+@enduml

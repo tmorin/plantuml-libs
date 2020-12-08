@@ -1,0 +1,19 @@
+@startuml
+sprite $SmartthingsMd [14x14/16z] {
+FOo50S0m20If43J_-szRx-4gI_8b5rdqIe3BgTmJkEEAAoygukuwEOjq8sko2J_xDfZX8AU7QePv-2JPIGNEOVEXndX-Nxavu5RaDRMsrtc2VRNBcbWNvO-A
+oEeD4ksho04
+}
+sprite $SmartthingsLg [20x20/16z] {
+RT35WK0X34NHZqIGvFRVxS2u7IIoVC_pMF8fxRdAu9jHxch35V5UwsC3hg7wqJt96uaGtbJUwPpA6mDo1gIqX9W92r9L0uP1d3QvWpCKxLtHWGyIjWxH9fdY
+em_TNE4R6J24vS6drTUvV9Vf8Xx95LocRSDkQXoB8mHpS4CsO0b4JnqmD7i0rGOmktDudy0uMGK_HFa_qwFQ2evOLk_y0W
+}
+!procedure Smartthings($id, $name="Smartthings", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Smartthings', $name, $tech)
+!endprocedure
+!procedure SmartthingsCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmartthingsMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmartthingsGroup($id, $name='Smartthings', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmartthingsLg>', $name, $tech)
+!endprocedure
+@enduml

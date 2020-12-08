@@ -1,0 +1,16 @@
+@startuml
+sprite $DartMd [14x14/16z] HSg53G0n40D1Xm-L_gjz2AvmPEChKq4jcCLM0rARQDs8c5n_96jz9X_4SIdT0Dhilyuw1RgwhEP3ymn8cgIXm9DHYV1nhh416EGl9U05
+sprite $DartLg [20x20/16z] {
+LSe54WGX44FHe87T7lh-fnt1-QLv5TGi9PaW7bi-2-4aB74frsL-4wdwOtvB_-BxIxBEEcOrt300nfPYmECPgAyT6AvIxK3LQWTsctWQqeHfw-dZjFa4ebgS
+Y1V_vaIySM4Gaa1zscunOHJ5z5-rZbUhVFO
+}
+!procedure Dart($id, $name="Dart", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Dart', $name, $tech)
+!endprocedure
+!procedure DartCard($id, $funcName="", $content="")
+  IconCard($id, '<$DartMd>', '', $funcName, $content)
+!endprocedure
+!procedure DartGroup($id, $name='Dart', $tech='')
+  IconGroup($id, 'IconGroup', '<$DartLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AmazonprimeMd [14x14/16z] hOO70S0m20I1N_uLjqaqyFDgMNsQ-2WwzUD4aC4XgwPhMJy
+sprite $AmazonprimeLg [20x20/16z] pST70S1G30BGRC2_uNAhXVyoYSTbLdegAxmcsnyfWdVayY2Sync8knbjx_JUHivqTrZ5BolUzG4
+!procedure Amazonprime($id, $name="Amazonprime", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Amazonprime', $name, $tech)
+!endprocedure
+!procedure AmazonprimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonprimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmazonprimeGroup($id, $name='Amazonprime', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmazonprimeLg>', $name, $tech)
+!endprocedure
+@enduml

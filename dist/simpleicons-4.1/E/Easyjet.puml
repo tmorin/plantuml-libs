@@ -1,0 +1,13 @@
+@startuml
+sprite $EasyjetMd [14x14/16z] hS470G0n20F0iadmh_T7DN1tLadR4MDdVs0a1cmEqTC02tAbYfp_YXS
+sprite $EasyjetLg [20x20/16z] pOp5OGD134KrOax_rSPijx0VRmykgYFyV6R0H-wcCtw8ohf3sYfbmg6ZArShhJRYZtAzsjTbp8n4MON3mHJOZkYF3vVK3G
+!procedure Easyjet($id, $name="Easyjet", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Easyjet', $name, $tech)
+!endprocedure
+!procedure EasyjetCard($id, $funcName="", $content="")
+  IconCard($id, '<$EasyjetMd>', '', $funcName, $content)
+!endprocedure
+!procedure EasyjetGroup($id, $name='Easyjet', $tech='')
+  IconGroup($id, 'IconGroup', '<$EasyjetLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $ApacheairflowMd [14x14/16z] {
+5SZ1GG1G2CMm0fy-LFTVL_MOdDIO1l1B-MCMQ8--0Yxq4UWCl3D504_s_qh8bQx2s7jlz_jR89q0VzfzjpYWgtM1AIQz686YuZt-3-2Q750tw02RBh1j05gJ
+-_u5
+}
+sprite $ApacheairflowLg [20x20/16z] {
+JOu7WWKG34HJoGJtl-x-OPlkaRmqHDGJdVAQOwDKnA8mzR70zkXt6R2BMfhhWtcC5vF530_QXZa-HmZXIYOjwxxx_T6rNBobA8z910ADOKrDnGUTNJrcOROp
+2YQALFV0ENLLOqhEmPFMEGWtJQWqdcMYvkZQB1B5NsqZj5qCj6HmWT2zweh5ZT_QwhDRhcjM8ZTikxSEUVblaId_u5iDunkc04IyJ5Gm4s8GlMOn2glt-G8
+}
+!procedure Apacheairflow($id, $name="Apacheairflow", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apacheairflow', $name, $tech)
+!endprocedure
+!procedure ApacheairflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApacheairflowMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApacheairflowGroup($id, $name='Apacheairflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApacheairflowLg>', $name, $tech)
+!endprocedure
+@enduml

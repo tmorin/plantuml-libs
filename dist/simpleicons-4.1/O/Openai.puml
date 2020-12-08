@@ -1,0 +1,20 @@
+@startuml
+sprite $OpenaiMd [14x14/16z] {
+BSp7eGLH209GkC68C_rN--CxImK0d8bJSYD-PHFrIXS_Oi3gmpEEq9CSmmqiKN5o-vRdt3xEcqiHmQLd1Kzj1qA62XLC0VYfIzNJYn6XbPVJVITTFqDvl58B
+OR1XZhXyDaytCO4V9hq5Tk9Zz_n_lW4
+}
+sprite $OpenaiLg [20x20/16z] {
+JP1PbW0X20C3A2s8vFwt7Nls-gp76hmuQwrgDnFyi9ZkoUMkFyev0Kooc-khSdO0LWmLSIOWMkIutMKG0SRjsUVCDcq7lFa0kS5MQRF0E5iNs-AW0dfTxRrJ
+eKacShrEp-rwJW2Z2vNN3Ki197SvZ4uQlFQNiz66hAmpWFZgLRrkdHNav_2xfCokYzedhBaqpqIOKgMVbHlozDlhHwszZkZa023GOc2GfG2IyvfWlRjwuaKM
+-_0xBiStwXxCnvCB_vb5rbSZFW
+}
+!procedure Openai($id, $name="Openai", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Openai', $name, $tech)
+!endprocedure
+!procedure OpenaiCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenaiMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenaiGroup($id, $name='Openai', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenaiLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $Windows95Md [14x14/16z] {
+NKw54GLG2C9-fUw_xU_aaYC1CBv0yirOpFWjiVfSQ-VoAo7HCTTMopfCL-DO9o0JAraqhjBGPTXJRj9UjdfwYQfV9OM7z0R9LJh6Yr1ssxkAfreZyOPbn_V1
+nVZ31G
+}
+sprite $Windows95Lg [20x20/16z] {
+TOv5ebX120IPmUrn_zk69D-bba1t0Sizy0tyFhk7lyyGZV5pyk9bTnTLa_iw95NrgCwPQTh9GKJUKHJ3ZQSdu9o3p1wPjVOIiDaXewXRb09G7w19Gk2DbhSP
+fm7Oh5H8qpn3ewVeFWNtN77jQ0RONTV81eKyCzPmreppN5Z79hti0EySnm4MyegkVvz13C4_jbB4Lj4q2P-HdZLyuUG3tpWCl_07
+}
+!procedure Windows95($id, $name="Windows95", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Windows95', $name, $tech)
+!endprocedure
+!procedure Windows95Card($id, $funcName="", $content="")
+  IconCard($id, '<$Windows95Md>', '', $funcName, $content)
+!endprocedure
+!procedure Windows95Group($id, $name='Windows95', $tech='')
+  IconGroup($id, 'IconGroup', '<$Windows95Lg>', $name, $tech)
+!endprocedure
+@enduml

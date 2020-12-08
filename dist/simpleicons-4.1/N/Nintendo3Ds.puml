@@ -1,0 +1,16 @@
+@startuml
+sprite $Nintendo3DsMd [14x14/16z] TOu5WW9024NfsbNlVri1kzua_GcU2EoBbh7cd1O7y5zMN2ofhDxIbehA5PKAzzxDF7_T7yXKZO31IK_YsqHC7J5nBKT3Nq4R0uIrLjgwOpfQCrtj3
+sprite $Nintendo3DsLg [20x20/16z] {
+VT250SKm20JG0wB4zf-sSj_rLUD0CBonQeetuload2Wd71hxrXqE_jetEUz_7ptwnheQZpwzunafflWifTYRjnVUVEAJ0rOKiL645443scgeYufMg-eusXNb
+sYV7WQo1uZuFahdsS9ztFOCiirJ6HbFvh6brQkHaEm
+}
+!procedure Nintendo3Ds($id, $name="Nintendo3 Ds", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nintendo3Ds', $name, $tech)
+!endprocedure
+!procedure Nintendo3DsCard($id, $funcName="", $content="")
+  IconCard($id, '<$Nintendo3DsMd>', '', $funcName, $content)
+!endprocedure
+!procedure Nintendo3DsGroup($id, $name='Nintendo3 Ds', $tech='')
+  IconGroup($id, 'IconGroup', '<$Nintendo3DsLg>', $name, $tech)
+!endprocedure
+@enduml

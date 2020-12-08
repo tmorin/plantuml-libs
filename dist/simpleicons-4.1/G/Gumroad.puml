@@ -1,0 +1,16 @@
+@startuml
+sprite $GumroadMd [14x14/16z] JSlN0SGm20DGTzDl_salYIll3oG1woODnUG0u1wsr2Etu8mhbI6DgvWEbhzhRn77jROmBgISEwQL9LOLwFCQAiHxhPr0Y4jW8FiTcXu
+sprite $GumroadLg [20x20/16z] {
+XStL0S0m20JG2DgGil-qTTVtYTm15jiLgraPkROdKSIzw96fOLjZE4f2OPiTVCnYNgLrbimtiioq9S09gETvParOPSU_6T1nfiv4OgRpxD3BeSPjDeWfWbKE
+nzay3zliu7NctiWH5qyaVa6X1m
+}
+!procedure Gumroad($id, $name="Gumroad", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gumroad', $name, $tech)
+!endprocedure
+!procedure GumroadCard($id, $funcName="", $content="")
+  IconCard($id, '<$GumroadMd>', '', $funcName, $content)
+!endprocedure
+!procedure GumroadGroup($id, $name='Gumroad', $tech='')
+  IconGroup($id, 'IconGroup', '<$GumroadLg>', $name, $tech)
+!endprocedure
+@enduml

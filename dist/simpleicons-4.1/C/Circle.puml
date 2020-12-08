@@ -1,0 +1,16 @@
+@startuml
+sprite $CircleMd [14x14/16z] LOw50SHG2CKeH_8g-yzxRiqNNAew3enPwWxXIRX741_WGIMeC-Om5r7U1JfeFL42JZqPMS_MEVFnU1We9XvnHYMzS0GLaVDc3zgiQ-oxUWC
+sprite $CircleLg [20x20/16z] {
+RP1L0WCm24EnbeJP_MyxshcyFvn46YVS6WT3xepAJdGwQzvJe0OseSXR2h9c8_RifPC-A3KCbKbOdWDJgfJ33o5Dr36XPSo07LGs7MFaS4VW-K4mu323bJof
+5ThgU-KouB-vzFetksxmymQP0rgFNmxx5vOYZxKx_U11BVE9EAUoa4MBWt2kKvTuUI30xJvUNl7nr_pnjB71QZXiXrS
+}
+!procedure Circle($id, $name="Circle", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Circle', $name, $tech)
+!endprocedure
+!procedure CircleCard($id, $funcName="", $content="")
+  IconCard($id, '<$CircleMd>', '', $funcName, $content)
+!endprocedure
+!procedure CircleGroup($id, $name='Circle', $tech='')
+  IconGroup($id, 'IconGroup', '<$CircleLg>', $name, $tech)
+!endprocedure
+@enduml

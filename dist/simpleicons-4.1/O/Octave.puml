@@ -1,0 +1,19 @@
+@startuml
+sprite $OctaveMd [14x14/16z] {
+DOg75G0X24C1mzdD_jiUp_8ja2AI9jdRoB8fP7Cl3He2v2U1PPYWiU-A8a5ocqMtD6I9JLqEmFwlqlpKffWb-5FDh75SOJFQasqBHuq_BKvNCOZlnY1NDEoJ
+ZNToVgO_
+}
+sprite $OctaveLg [20x20/16z] {
+POu50aGX20KVgQi8zx_jwdRCJuV4vbARN1c69pIFYiXiBtTK5mBP6CeujAqSTxgRdigekk21WmrWtMdoTARM2DvMXD9J2dS34n7KyO8wtRyV3ltUYJ-Tjd_7
+ux-MGjNSU_lCMo8ygoRXXUS9PDLu6P-1ZTNEv5VdUoFVCfq9K0EsFbWUEyTS1kglfUfEc2cUI8_CrOK8Lm
+}
+!procedure Octave($id, $name="Octave", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Octave', $name, $tech)
+!endprocedure
+!procedure OctaveCard($id, $funcName="", $content="")
+  IconCard($id, '<$OctaveMd>', '', $funcName, $content)
+!endprocedure
+!procedure OctaveGroup($id, $name='Octave', $tech='')
+  IconGroup($id, 'IconGroup', '<$OctaveLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $RubyonrailsMd [14x14/16z] dSX50W8n30NGDfuGkVzfSPXzt-RBEWUCrz2fqFtfQ9C0c_Pw7k0zAAdnj2Dc1dJibfbawU6RZ4L4LNGTUW
+sprite $RubyonrailsLg [20x20/16z] {
+nSt50KCn201G8hZjlsqvLHReVvS4XoSTtEitSwqw7U5ZONJnHVfAxkmYsFCvi62iHT9j89KtIjpcsvxLpQ3g6cGnENRiGI1Tfyh3ycAqkJa12gCW2vcmykV-
+v_CFBm
+}
+!procedure Rubyonrails($id, $name="Rubyonrails", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Rubyonrails', $name, $tech)
+!endprocedure
+!procedure RubyonrailsCard($id, $funcName="", $content="")
+  IconCard($id, '<$RubyonrailsMd>', '', $funcName, $content)
+!endprocedure
+!procedure RubyonrailsGroup($id, $name='Rubyonrails', $tech='')
+  IconGroup($id, 'IconGroup', '<$RubyonrailsLg>', $name, $tech)
+!endprocedure
+@enduml

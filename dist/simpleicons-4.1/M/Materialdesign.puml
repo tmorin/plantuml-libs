@@ -1,0 +1,19 @@
+@startuml
+sprite $MaterialdesignMd [14x14/16z] {
+FOw55KCn3CJk75Dn_t6hLv997mAIkqoljg0scJvRz7fM5YIYdalgJLucU3SMU52R9YYy6Nf_7AH5yb6PIDlelBFSzVu04jfRuilGQiDruyCkxLRlL-T_CuX-
+4-WB
+}
+sprite $MaterialdesignLg [20x20/16z] {
+RP25WSGm30J5MZlKVxTlMSzt4rXbOgQ58gLI4agV688hEM3Kv66i6z43hPw8ZABYML9z7adVv36T08tvusOO94F2yxkPrwUG1WzkjOfG0Yr7XdOmMcvkn-Wr
+WtySUVPezCinT1NWThmTHVHJ3Xco-mtcKPaI3cXKxH5UMMjME_fGZgEFvh0LkA8OOyS5Al1zLcm7tfzf8uwvW0iL7m
+}
+!procedure Materialdesign($id, $name="Materialdesign", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Materialdesign', $name, $tech)
+!endprocedure
+!procedure MaterialdesignCard($id, $funcName="", $content="")
+  IconCard($id, '<$MaterialdesignMd>', '', $funcName, $content)
+!endprocedure
+!procedure MaterialdesignGroup($id, $name='Materialdesign', $tech='')
+  IconGroup($id, 'IconGroup', '<$MaterialdesignLg>', $name, $tech)
+!endprocedure
+@enduml

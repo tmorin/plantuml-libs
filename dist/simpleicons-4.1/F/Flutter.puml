@@ -1,0 +1,13 @@
+@startuml
+sprite $FlutterMd [14x14/16z] RKx50K0X2BLRsN_Qtq6UW9VcdWO0rJpZrt45T2oF4N84zO2Bbckf1pcSo9NGJZ3CGEBeuG3ve41U1kVi
+sprite $FlutterLg [20x20/16z] fSy35i0m403HHStxdxPkxCpp3nT4tNut8IWDZmr9DEPJ_VNjShNsmeP_ZWNXmOVQX-QR7XmL-dCIFxGIk1vFnI47Jm
+!procedure Flutter($id, $name="Flutter", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Flutter', $name, $tech)
+!endprocedure
+!procedure FlutterCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlutterMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlutterGroup($id, $name='Flutter', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlutterLg>', $name, $tech)
+!endprocedure
+@enduml

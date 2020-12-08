@@ -1,0 +1,13 @@
+@startuml
+sprite $LibreofficeMd [14x14/16z] jSU30S1030NGOupzjwqrGCF_G7fRQmXuMW6kPIj6UMcZNzf8yzR6Zvg-LVaNJLNHhRPN5W
+sprite $LibreofficeLg [20x20/16z] rSg54OC04031jmHuxRzQtA41RdpdwEV4KyJMILQL0FyCrzGuDeCjLOwxmNZwPfVpRYCYt0rCduRnUnZeYzad32-DHb8HkHTH0WC
+!procedure Libreoffice($id, $name="Libreoffice", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Libreoffice', $name, $tech)
+!endprocedure
+!procedure LibreofficeCard($id, $funcName="", $content="")
+  IconCard($id, '<$LibreofficeMd>', '', $funcName, $content)
+!endprocedure
+!procedure LibreofficeGroup($id, $name='Libreoffice', $tech='')
+  IconGroup($id, 'IconGroup', '<$LibreofficeLg>', $name, $tech)
+!endprocedure
+@enduml

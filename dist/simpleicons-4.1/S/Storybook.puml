@@ -1,0 +1,16 @@
+@startuml
+sprite $StorybookMd [14x14/16z] JOt50S10408dvxhqNstS-E4kwqB36hxUR2JTRDRI9LLSsSa2b9DbAHCAoyUybNAm9Pt9fUbXiW3fO4IfX55X7Yn8YVXZ0vwaFzxB-Nwp6mqehVK-ffaA6m
+sprite $StorybookLg [20x20/16z] {
+RSy53iGm34JHdxHXm_rlkx9AIoCQlQ1X-XqXkMP8ycOfkMLIriTqhJ1EqpcMHR7xR4j0bdUR4DdipGgKcK4EOnrMlUVjtJfGrSnFcr5s80z_j_FXTXgngg9h
+0-JDTb3FC4xhXzMLep_MWGJ8ctabTFffpICo-ZH_x2sdrJz6QQsFCPT8JBSIBm
+}
+!procedure Storybook($id, $name="Storybook", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Storybook', $name, $tech)
+!endprocedure
+!procedure StorybookCard($id, $funcName="", $content="")
+  IconCard($id, '<$StorybookMd>', '', $funcName, $content)
+!endprocedure
+!procedure StorybookGroup($id, $name='Storybook', $tech='')
+  IconGroup($id, 'IconGroup', '<$StorybookLg>', $name, $tech)
+!endprocedure
+@enduml

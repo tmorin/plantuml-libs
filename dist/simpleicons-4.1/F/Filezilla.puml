@@ -1,0 +1,16 @@
+@startuml
+sprite $FilezillaMd [14x14/16z] POm54WD030B9kP7-_xSDTU5qXvrSFdF-QATaPYL-Z3DWmUtHLV33J1XhHfPCuf6YRg7oi2Evg6F5N87C0aPV7bFC0j1dsQB3a0qmobJSwJ8Pwr3Hzme
+sprite $FilezillaLg [20x20/16z] {
+POu7OiKm24E5Cp7h_hUjYze_N-8bnAXlehxntjDZVHvyQU-N39BjQ6s0KBix06pNkT1w-0pWYsYRbvP1ikZR0Hb4Zgp95ayEpkU2mytC3s1FQWgqVIwfpxLE
+I32qFsRPCPuIPuc1dL9Mp6YVRw8riH3fAdSH4n6EqZvYvbFLMUyR3zUyKrFDDExVg_iF
+}
+!procedure Filezilla($id, $name="Filezilla", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Filezilla', $name, $tech)
+!endprocedure
+!procedure FilezillaCard($id, $funcName="", $content="")
+  IconCard($id, '<$FilezillaMd>', '', $funcName, $content)
+!endprocedure
+!procedure FilezillaGroup($id, $name='Filezilla', $tech='')
+  IconGroup($id, 'IconGroup', '<$FilezillaLg>', $name, $tech)
+!endprocedure
+@enduml

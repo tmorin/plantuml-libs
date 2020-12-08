@@ -1,0 +1,16 @@
+@startuml
+sprite $MxlinuxMd [14x14/16z] POo30S10303lxMJ_QMltOeudJN_8viTUTEhYOpn6ZgxPNPlM5YjwqWttksmzuImQk4BevngaZEdR2rOScA7ISrd9YtPzuuE_26u6
+sprite $MxlinuxLg [20x20/16z] {
+bSr50aG1209Gp9_A_KyxtJrlgy1QwuEQ-jd2Vons_2-xvW9Q95kD5ssm9bsQLwK89kg-KM2oy4vFGF3EB8C04s-i0dZYDjmAmCfXSLbnx7aPO3nA7EM0yz28
+E-DXyq7pbMO_u2Bw15i
+}
+!procedure Mxlinux($id, $name="Mxlinux", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mxlinux', $name, $tech)
+!endprocedure
+!procedure MxlinuxCard($id, $funcName="", $content="")
+  IconCard($id, '<$MxlinuxMd>', '', $funcName, $content)
+!endprocedure
+!procedure MxlinuxGroup($id, $name='Mxlinux', $tech='')
+  IconGroup($id, 'IconGroup', '<$MxlinuxLg>', $name, $tech)
+!endprocedure
+@enduml

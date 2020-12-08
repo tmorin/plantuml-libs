@@ -1,0 +1,16 @@
+@startuml
+sprite $ShenzhenmetroMd [14x14/16z] LOx50S1020I92pBzLnizvSSwgEnC4xkSA7Z-ZDDXtRvlWMKrmj_F0nCP0p03OfJdLRxJvtdlu3mvHFAdchzE-QMeygNq3GxBrxwzxM3DCZZoTs0t
+sprite $ShenzhenmetroLg [20x20/16z] {
+PP055eGm30L_1KabS__RxklYC52B9q0BCZm4nwGA1UXtMTjaf4kMWDc1Tiag41S3IjbafG0cnSx0OtG6FKfAsxsrJPSrIDjhqoHjX95fu4lGYU7BuXJTAB2k
+3rbOxhxV75lQ_AabHF_Kl1fWMx-K_qCErDSC6DjhLa3J9GiT2b1kCXMeFm
+}
+!procedure Shenzhenmetro($id, $name="Shenzhenmetro", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Shenzhenmetro', $name, $tech)
+!endprocedure
+!procedure ShenzhenmetroCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShenzhenmetroMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShenzhenmetroGroup($id, $name='Shenzhenmetro', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShenzhenmetroLg>', $name, $tech)
+!endprocedure
+@enduml

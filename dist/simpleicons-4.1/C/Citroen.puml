@@ -1,0 +1,16 @@
+@startuml
+sprite $CitroenMd [14x14/16z] ROs50G9H34ElUQd0ttzUtBcw9jkUn4VDGg_6g-FLCiZutaOh5r3tN-Mn13mkcoq-BcyN7PzSYeiBZ15fW7PLZ_kGsV6uYwlzo1a
+sprite $CitroenLg [20x20/16z] {
+bOq5eWCW34ERy83sotR_qyxTXnEDRuTy1ur_k85oKM6keLz0xhempYq2ZHF8mFnXqpbYHSnbHKFK4RCsURtBo5Tv4Pr6NEPjRyC9p6ETo2FM8ixF-y4Mx9ti
+kLrZC78ovxHTffCZK_cpmLnWHMXR8AHcXUB3iGO
+}
+!procedure Citroen($id, $name="Citroen", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Citroen', $name, $tech)
+!endprocedure
+!procedure CitroenCard($id, $funcName="", $content="")
+  IconCard($id, '<$CitroenMd>', '', $funcName, $content)
+!endprocedure
+!procedure CitroenGroup($id, $name='Citroen', $tech='')
+  IconGroup($id, 'IconGroup', '<$CitroenLg>', $name, $tech)
+!endprocedure
+@enduml

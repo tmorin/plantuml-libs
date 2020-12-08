@@ -1,0 +1,16 @@
+@startuml
+sprite $MariadbMd [14x14/16z] ZOt50S1G24E_A_3sdxOknnRNnFsKMDuwAFFj9kDj2iIxzWtKdsKUmFMLZ4FILiQCgQdQ3W-ITohReolv98xkIrO
+sprite $MariadbLg [20x20/16z] {
+hO-r0S1030EVsRxzfmrpdUkCaiolkFHfs2egdru73UzM0lMVLmhbysm0yTL90eYx6w6nqQy_HJd8Psjm8bljrjSR8bI_zdGbE-TZo5Ip8KgnHuPs_ChPdb-3
+-O4P
+}
+!procedure Mariadb($id, $name="Mariadb", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mariadb', $name, $tech)
+!endprocedure
+!procedure MariadbCard($id, $funcName="", $content="")
+  IconCard($id, '<$MariadbMd>', '', $funcName, $content)
+!endprocedure
+!procedure MariadbGroup($id, $name='Mariadb', $tech='')
+  IconGroup($id, 'IconGroup', '<$MariadbLg>', $name, $tech)
+!endprocedure
+@enduml

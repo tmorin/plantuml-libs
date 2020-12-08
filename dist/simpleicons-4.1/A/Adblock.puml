@@ -1,0 +1,16 @@
+@startuml
+sprite $AdblockMd [14x14/16z] JOw50KCn24InkEs_RJdwxQ8F9v9rGal8bVstjr_PFO1kDW8ZJ5aYFiACMHInq8PBrxm8nRJmvMGdflmGDBua-4LXKCK7tT6Y0Ax95heLeWilpmy
+sprite $AdblockLg [20x20/16z] {
+VT254S0W50FGVDpPVzeQ3dTDbOU39pht6DJOONQXu0eE2bOmxolgqag34-UrvVT9NdsM2fQnY5SRyN-cPBS0mXEXeIRxmXdYRe_cqyoms2mEIrH8b3LhEnrH
+-AYTWIOGzzl1HE_JeFrCTonq0m
+}
+!procedure Adblock($id, $name="Adblock", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Adblock', $name, $tech)
+!endprocedure
+!procedure AdblockCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdblockMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdblockGroup($id, $name='Adblock', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdblockLg>', $name, $tech)
+!endprocedure
+@enduml

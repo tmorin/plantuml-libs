@@ -1,0 +1,20 @@
+@startuml
+sprite $WolframlanguageMd [14x14/16z] {
+9Sl5WGG038LG8Zysrd-rg-yCOBijprq3g4TsOdeKM1q-MO8hzW5jjGBELqGJ4g2HCGOrW9sZtpkgWND63IB7EMdY6V7VtUkTNj9ZUoBdtW6GB_lTJCklEww0
+kWJYynI_VEv7E_0D
+}
+sprite $WolframlanguageLg [20x20/16z] {
+HT055iGm203H0G8nQEz_sythse-xSDYk4Sryr3O-FBE7glLCvssKqr8ulCQxAmMTmtGfI4umBu48vfu6I3ax7NJ2QjxUcqib40FyqqV6xA2BOtmkqfSRB8LZ
+pgUmDCMVkhZqAO1MKtRh0JA2jjlJPvRIapUTGon7ZCN823SLq99OrrL1ZsFdM7iryjHkus5t5pCynRoKjt7f-sqmjl3GAzz_S8plh_czQ_p_D4p4-dqvNn8h
+gtBvUvSN
+}
+!procedure Wolframlanguage($id, $name="Wolframlanguage", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Wolframlanguage', $name, $tech)
+!endprocedure
+!procedure WolframlanguageCard($id, $funcName="", $content="")
+  IconCard($id, '<$WolframlanguageMd>', '', $funcName, $content)
+!endprocedure
+!procedure WolframlanguageGroup($id, $name='Wolframlanguage', $tech='')
+  IconGroup($id, 'IconGroup', '<$WolframlanguageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $IpfsMd [14x14/16z] HOu30W0X44L_utZ_sox32sFWWUs1yKEcH6hq6VBBP0fuCqoimNEDzCMYPb91T7i30NajK1cZ4AO5z0uSo_stVZb_ziBBaf80DNejCfkRIOGuOSAb_alV
+sprite $IpfsLg [20x20/16z] {
+NL254G0n20iyHIh7_jE-U-gH6dQG-WeblC3cjjRfOKXTjb7SBgT4kQObokRXK7f7Wc6HXXSi0senHhaO6SCDgWpFjfyujNGYfOq3jmpLGsBTV4SeSmZmvg2P
+YX-7re0_5t5nP2x7lDPZ58VNzkLQ1N5LUZYookV3wU1edRx_AkBwg-TFU__ywV7MTZCB
+}
+!procedure Ipfs($id, $name="Ipfs", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Ipfs', $name, $tech)
+!endprocedure
+!procedure IpfsCard($id, $funcName="", $content="")
+  IconCard($id, '<$IpfsMd>', '', $funcName, $content)
+!endprocedure
+!procedure IpfsGroup($id, $name='Ipfs', $tech='')
+  IconGroup($id, 'IconGroup', '<$IpfsLg>', $name, $tech)
+!endprocedure
+@enduml

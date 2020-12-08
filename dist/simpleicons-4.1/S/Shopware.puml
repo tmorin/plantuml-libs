@@ -1,0 +1,16 @@
+@startuml
+sprite $ShopwareMd [14x14/16z] 7Oq70i0W3099tVl_lorm7N9g4Y36CpD0obM-ToUU5CMM0i6pmPEjEqQtU0LVBScsASbzFlwMMZsXVWUaAfagZRhViHQON8Plp2JpTBDBsALscEYRZVl7-0C
+sprite $ShopwareLg [20x20/16z] {
+JP255S0m20NZ3km_ROtFArVDHP3maBU0KmAennmrg6wBzbfR5mwioF4TlQzSFpK-0VRvLF3enl1HMYl9tFWFvfdKrLSbKLWZj2yY2N1xy_6EWj8sloDR2CeW
+MQBqOCHUDWxP2Kvh0wlyTeXnMl8IS3TPoVSKnBhe4Qjgnsu
+}
+!procedure Shopware($id, $name="Shopware", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Shopware', $name, $tech)
+!endprocedure
+!procedure ShopwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShopwareMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShopwareGroup($id, $name='Shopware', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShopwareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $KhanacademyMd [14x14/16z] {
+HOw50GCn3CGkpD7-szOklSAear4ltAOFUMES8YCju5vW9sry3C574awNEaQ3TRWvNywYGr33g0g-IgQ08YKQ34bxIng-ykrkxW9j0pta53gGF_PpFdQZd2VP
+9_Otz0i
+}
+sprite $KhanacademyLg [20x20/16z] {
+RL25WKKX32jGtFRVzdALxtb2IBqau7M1nVH4AFjVEpKyf2nUufbLIVE-O2RuLETkgtIKd4WKZKTFXEp1qhBdAKJbFhJ5F10y9q8xerFMC9R-Ta82qGuOfGCf
+Ac5D9Sdi56tBH6VBbDlgTWB68A3ZojBdW6Sjy1hIiyvsMc9EJHpgpnryx-htJbrjzxPebpy
+}
+!procedure Khanacademy($id, $name="Khanacademy", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Khanacademy', $name, $tech)
+!endprocedure
+!procedure KhanacademyCard($id, $funcName="", $content="")
+  IconCard($id, '<$KhanacademyMd>', '', $funcName, $content)
+!endprocedure
+!procedure KhanacademyGroup($id, $name='Khanacademy', $tech='')
+  IconGroup($id, 'IconGroup', '<$KhanacademyLg>', $name, $tech)
+!endprocedure
+@enduml

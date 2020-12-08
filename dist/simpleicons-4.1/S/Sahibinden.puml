@@ -1,0 +1,16 @@
+@startuml
+sprite $SahibindenMd [14x14/16z] XOs35K0n5CLIkzr_scypHmyNxO-QSzqMnu1Vbe2CKHBdpMC7SSZpLYGelnk34QpAEDu3PlNf40tks63hhVsB7W
+sprite $SahibindenLg [20x20/16z] {
+hP3L0KCn200FYGlxJrlt_hwB1oUEOE-VZvLKHDFw-1hSaOzFXJn60Nl_WLszLK_lFmDlAxwO0eZbyPL8SmN8ySt80lDbwjQlPuN-iWIfOpQ5Tw3EW_ePs4L4
+VVptu0ZE
+}
+!procedure Sahibinden($id, $name="Sahibinden", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sahibinden', $name, $tech)
+!endprocedure
+!procedure SahibindenCard($id, $funcName="", $content="")
+  IconCard($id, '<$SahibindenMd>', '', $funcName, $content)
+!endprocedure
+!procedure SahibindenGroup($id, $name='Sahibinden', $tech='')
+  IconGroup($id, 'IconGroup', '<$SahibindenLg>', $name, $tech)
+!endprocedure
+@enduml

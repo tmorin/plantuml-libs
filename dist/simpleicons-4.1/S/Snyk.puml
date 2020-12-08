@@ -1,0 +1,16 @@
+@startuml
+sprite $SnykMd [14x14/16z] JOw50S0W30HJZUVtdxPUuD3uqmLlH2lJXrxMffyn2r_8_1WSkqQa-9EhQUw5Ilqi0FLROLxbGwnQfi1MzytnMRwOBV5Q3DttNG92Jr3J3S6_c01oeORv-vu
+sprite $SnykLg [20x20/16z] {
+LT390SGm24DHPpC8sQZ_QcUVXFpZuuJQfuxsogsLx6FmGWljS-5osGxhhmpxAVI3GngZ6t_gWi4HL41-sk1BNbKBVOlBd0CInjrcI365QlfKZHYMsNFoiaHl
+cSqmBvl4sy1YwRv4D5wsfpfxjqF8_7-yXbEaHAnb66fEoLfjVydSsxqbuXpq2G
+}
+!procedure Snyk($id, $name="Snyk", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Snyk', $name, $tech)
+!endprocedure
+!procedure SnykCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnykMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnykGroup($id, $name='Snyk', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnykLg>', $name, $tech)
+!endprocedure
+@enduml

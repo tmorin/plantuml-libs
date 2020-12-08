@@ -1,0 +1,19 @@
+@startuml
+sprite $ExercismMd [14x14/16z] {
+LOw54K0n34A1rDjBzz_sk_JbB0OmLE54DI3K_dIzei-0cp0rN4ydj-7sTBPtKum45A4PlAEa2jPKqDlUSQyTxjsfOc80vE5KKIbsgbmEvEMmkeSwtcJjkTgX
+W0q
+}
+sprite $ExercismLg [20x20/16z] {
+fP050iCm24K_SMJb_hSTwTobyJmS8FUAywWjhHUt2sjSGgkwvWlBwXL3FD0LT87OagvPMcmJsxaHYGwAhoY3pCczWJj90yOWxcW-9WjZejZJD1XFMyGuijNs
+68C6OQIxk9s57t8fvLr-pthmj5VXwBQdWPwDFG
+}
+!procedure Exercism($id, $name="Exercism", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Exercism', $name, $tech)
+!endprocedure
+!procedure ExercismCard($id, $funcName="", $content="")
+  IconCard($id, '<$ExercismMd>', '', $funcName, $content)
+!endprocedure
+!procedure ExercismGroup($id, $name='Exercism', $tech='')
+  IconGroup($id, 'IconGroup', '<$ExercismLg>', $name, $tech)
+!endprocedure
+@enduml

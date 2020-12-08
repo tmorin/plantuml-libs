@@ -1,0 +1,16 @@
+@startuml
+sprite $MysqlMd [14x14/16z] ZOo30GDG30NVnR_xxrlR5rD_u8vkcBdTAb1mgnByOUYnDuu_mi3RL-FBCtjGpzIapzAXoihOk7TDLsgFfq0Ow1ix
+sprite $MysqlLg [20x20/16z] {
+hOw5SKD144ErWiFv_RURc6dOVeVBmc-ec1y-otvtaf3VVGMORpxzd-2Lzk-WyKbSGDLr05WeI6lWVmEQdMrE3UBVmJKQtTU_6vadNx9xR_FVEyU0pZxvyE0H
+eEt1teQ0gbIqLMF0SpjBTrrN2b_o1m
+}
+!procedure Mysql($id, $name="Mysql", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mysql', $name, $tech)
+!endprocedure
+!procedure MysqlCard($id, $funcName="", $content="")
+  IconCard($id, '<$MysqlMd>', '', $funcName, $content)
+!endprocedure
+!procedure MysqlGroup($id, $name='Mysql', $tech='')
+  IconGroup($id, 'IconGroup', '<$MysqlLg>', $name, $tech)
+!endprocedure
+@enduml

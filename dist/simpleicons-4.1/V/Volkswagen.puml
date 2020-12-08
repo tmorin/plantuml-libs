@@ -1,0 +1,20 @@
+@startuml
+sprite $VolkswagenMd [14x14/16z] {
+3Os70G0X20DFRBm4sN_RbruJQATy3A_J09PgmYmjQ4jy1uxpsYF3hZt3qgeCmZt0oYCEzAeEHp4iEwmD_LeCF422-D0sRf-PirThakFIdDB7zfEDU-6-LTfZ
+PstO2orWvJQmdGi0Sprn0tu
+}
+sprite $VolkswagenLg [20x20/16z] {
+FP054iGm30CLXqdw_s_FxcHkIrk53ITldT5QFzePZtgrMobjwzON3KtraEOoNbImQ81neKIOgqUkBRfzLd6uu6m2t66BIMAiLLNzTibKkPSJphdtm9ayQxGk
+-zPK0s0QzROIopcrmbcop5unb85yRxmrKJaxZ3iwQ05RXdRFGdGqpY6BRfYRJ4XQ7YID9V-vzTm1z6_WbDp7JT_P4bLY0LgSxTMW7pXxeFmBqyr2pFgBW4hE
+gEaaA_18RL_oxfOG_
+}
+!procedure Volkswagen($id, $name="Volkswagen", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Volkswagen', $name, $tech)
+!endprocedure
+!procedure VolkswagenCard($id, $funcName="", $content="")
+  IconCard($id, '<$VolkswagenMd>', '', $funcName, $content)
+!endprocedure
+!procedure VolkswagenGroup($id, $name='Volkswagen', $tech='')
+  IconGroup($id, 'IconGroup', '<$VolkswagenLg>', $name, $tech)
+!endprocedure
+@enduml

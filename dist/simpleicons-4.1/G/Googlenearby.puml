@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglenearbyMd [14x14/16z] NSs54S0m34DHfSn__srxuTWwV4R5xB2h9ZpmX8vjYwoG8YkkEtEFEE5A97O0KZVgRagJLvqqLzm7_psn8xBW1m
+sprite $GooglenearbyLg [20x20/16z] {
+NP054W0X30CBWL58_l_QCwJqS7QgiJ5IargsC7ANY83GHQhZPrMBNXYGMNqj7R4QO8KY3gjCmkg02GEDlCEzRIJrRFKzzSNYYxQbn7Aoyh3XYpxGvuk43Jsn
+JKYU1MBLx8ruRnfM3alK86hbaEvuMBhL3G
+}
+!procedure Googlenearby($id, $name="Googlenearby", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlenearby', $name, $tech)
+!endprocedure
+!procedure GooglenearbyCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglenearbyMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglenearbyGroup($id, $name='Googlenearby', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglenearbyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ClickupMd [14x14/16z] XOr50i0m20GXxll_ttQXSkrK4dJ4I0TPFWOmvK4No58FmWOslnCPH308Nayi7KnhcdSnTN5QaX_oqzapbrHWAAK3gAB9rVEuWS83vp0WMgdUrQGN
+sprite $ClickupLg [20x20/16z] {
+fS_75GCn20JGKKAPwRzR6vwyuUn_98EZaHrlePCpl4EJNoi2bxZeThf2MNbeEQ52qnkDm5IQ2WXDyokkdgmUCvsQuTBc-DrxhOiju6znvElw4M7AvhLNkGiG
+elgbCOJedsY4dU_sffFhNtE5J9eyLiObZqtgA07c0m
+}
+!procedure Clickup($id, $name="Clickup", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Clickup', $name, $tech)
+!endprocedure
+!procedure ClickupCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClickupMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClickupGroup($id, $name='Clickup', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClickupLg>', $name, $tech)
+!endprocedure
+@enduml

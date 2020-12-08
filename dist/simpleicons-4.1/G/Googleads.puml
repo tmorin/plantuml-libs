@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogleadsMd [14x14/16z] FOm10W0G20C70FZ_RpNeW6eRI1WZGcbhDIty4j8hJ60rBGwrD9Rb56xDk8Xx4QMmOb0u4PDtG1fyO-8zCCy3dERfhGYSe3Fg4FeHIUT4EnaauwB1mKI73G
+sprite $GoogleadsLg [20x20/16z] {
+RSxLeS0W04FHu4xsd_O9gRVd2-T2J9uZ6zpOIbQBcqQI_NRGSuaVQzFYaCBWKh1pp8dYpW-cxrmQ993CaHAKkuxuHfuzIPSy9G76JYw-73sfKApbtZCf6JXw
+ACFkdv6L4XKbjrJrx9zgpQacviaH00c3C-E_q43soIy
+}
+!procedure Googleads($id, $name="Googleads", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googleads', $name, $tech)
+!endprocedure
+!procedure GoogleadsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleadsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleadsGroup($id, $name='Googleads', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleadsLg>', $name, $tech)
+!endprocedure
+@enduml

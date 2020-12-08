@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglepodcastsMd [14x14/16z] PKx50GCn39Fv4Tf_sb1x73G9i5Sfl_-JCS4TnB-i9eWWrPrGosioDGA4qTBAMC4omr_FOhPd5lQRd4SPy_mo5k0_cHkT2lfJUAj_VQRq-mS
+sprite $GooglepodcastsLg [20x20/16z] {
+bP250S0m20GXRi3-svQwsrTpE339YJWuI9a_e4i_A6Lt39nWKE8mioeDi5Q49dK9KpRKg1SirA5EQtQ8NUhQbaNIp3n4qaTKIUj6yCg66ieqTkfvOXexd6jO
+_8vrZmnBnQc_ozaMvRpy_jqf4k7ytm4
+}
+!procedure Googlepodcasts($id, $name="Googlepodcasts", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Googlepodcasts', $name, $tech)
+!endprocedure
+!procedure GooglepodcastsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglepodcastsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglepodcastsGroup($id, $name='Googlepodcasts', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglepodcastsLg>', $name, $tech)
+!endprocedure
+@enduml

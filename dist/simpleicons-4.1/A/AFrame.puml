@@ -1,0 +1,16 @@
+@startuml
+sprite $AFrameMd [14x14/16z] HOo50G0n20C3rT3zvtsfvQh00IOC2EzqHQMKggYRKo81gRNEiw7FkaIfjMnz4eCV8xPear-LKjjijptiLnEnOS8B
+sprite $AFrameLg [20x20/16z] {
+NOw54SH030DrRFf9_zK-HI7lCUnO8DMZ8j7S6n8wfoBXjGQU30Di97K1woaNQq3tabN07xB8VzQxkcThTxapHlHRLG6o77Hgd7BVWcpzKZjH0tcTHjst34ny
+tbQoV0yS5KZof7f97m
+}
+!procedure AFrame($id, $name="A Frame", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/AFrame', $name, $tech)
+!endprocedure
+!procedure AFrameCard($id, $funcName="", $content="")
+  IconCard($id, '<$AFrameMd>', '', $funcName, $content)
+!endprocedure
+!procedure AFrameGroup($id, $name='A Frame', $tech='')
+  IconGroup($id, 'IconGroup', '<$AFrameLg>', $name, $tech)
+!endprocedure
+@enduml

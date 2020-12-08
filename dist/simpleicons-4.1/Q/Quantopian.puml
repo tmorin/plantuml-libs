@@ -1,0 +1,13 @@
+@startuml
+sprite $QuantopianMd [14x14/16z] PSUr0S0m30315nYa_GTE4_DrPsn2Zi4xisszjJwd7RgEMOLgOn8GCePd6dDeojZmJ8v5nfJj0m
+sprite $QuantopianLg [20x20/16z] dH230GGnBAhR_STz_w5Mx4G9P4-2K6wZ2ELBgpQnLZAR3be7SxEXPm3sUBMHen_fsz1BaGiwA1rqFakANCnCqHGsODxPDxVLRXfYobwK9m
+!procedure Quantopian($id, $name="Quantopian", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Quantopian', $name, $tech)
+!endprocedure
+!procedure QuantopianCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuantopianMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuantopianGroup($id, $name='Quantopian', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuantopianLg>', $name, $tech)
+!endprocedure
+@enduml

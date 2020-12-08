@@ -1,0 +1,20 @@
+@startuml
+sprite $RaspberrypiMd [14x14/16z] {
+9Og70SD020CFUCItnFjFwqf7EhpSGXLs7-32K05oG6O-XcC27hIEeruGh6kRpUe6e1pxxae1Z5yo9h46U6Q1EZI9KDlXSxNO3-fp_1UClsO0WzOX6nqUdjsr
+dlzzruvOytl0Kfa6S04
+}
+sprite $RaspberrypiLg [20x20/16z] {
+JSy7bW0H44NHLm6_D6t_kvrZyfMpWgmmNArNc6SbG9Q3gGyv5bzpqI6CAioX1zTTRp4hql22AmJCSmfGy2MVLcUjL-r9-2B5qo5dJl4bXOxC-XxCX4lZMMti
+rLCbSSLy5p0VeFOCRfkZ0Rq0xrbWBjI1VHnoM3bO-NhpNbMzlSidG5lrdBT1xAEsEjSAj0meuOznLM0pmMMuu8foweos9_uNh-QUKgqvaX-c7U1BnZ-kMNA-
+V
+}
+!procedure Raspberrypi($id, $name="Raspberrypi", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Raspberrypi', $name, $tech)
+!endprocedure
+!procedure RaspberrypiCard($id, $funcName="", $content="")
+  IconCard($id, '<$RaspberrypiMd>', '', $funcName, $content)
+!endprocedure
+!procedure RaspberrypiGroup($id, $name='Raspberrypi', $tech='')
+  IconGroup($id, 'IconGroup', '<$RaspberrypiLg>', $name, $tech)
+!endprocedure
+@enduml

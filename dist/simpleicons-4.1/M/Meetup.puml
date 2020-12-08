@@ -1,0 +1,19 @@
+@startuml
+sprite $MeetupMd [14x14/16z] {
+HSU50GH134BHJyPjwR_QStbH00bwXh_sJLdrd36QU8hXbwbddZvhZtLSAcGxm_DEL8etKQ8qEvIREotNlBrJbENCB3tiAr3rwFP9pPU0wey6eEcdMNXHNtsq
+DFdAukKE
+}
+sprite $MeetupLg [20x20/16z] {
+LSy54a8n30JGZTHbxtzRI0U-l95g3C4KG1w21usxEWKlOkePDpUKjLUhlLntELN-NE6IUMcIpjKaTv-pZB4uxLGl91snWvDHI5392OZ0J4acf5xJUMm9pIfZ
+BsQD5EXKxrZaKXUn7Q6bebjYt6KH8oimQzgd6XrVWyiBDvdWczlYJlirnIG73cdysqCGHFsQp779YwlEtMGsNDIig0B5yPHn-G
+}
+!procedure Meetup($id, $name="Meetup", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Meetup', $name, $tech)
+!endprocedure
+!procedure MeetupCard($id, $funcName="", $content="")
+  IconCard($id, '<$MeetupMd>', '', $funcName, $content)
+!endprocedure
+!procedure MeetupGroup($id, $name='Meetup', $tech='')
+  IconGroup($id, 'IconGroup', '<$MeetupLg>', $name, $tech)
+!endprocedure
+@enduml

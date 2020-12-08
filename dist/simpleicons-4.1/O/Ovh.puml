@@ -1,0 +1,16 @@
+@startuml
+sprite $OvhMd [14x14/16z] XOW53WD13CGcUBpv_syRK2lkpO9butKiB4Lb018HDsLxphGhpO3pZ11OoWNIMCKdZJLcTxuzqsyBtdsrEUWeR7SrWDP0MEYBV_i
+sprite $OvhLg [20x20/16z] {
+hS_L0GGW30FGuDfc_ssFd0_0-q5hk2pWfRgPUOQi1Od6O-l7J6J5qIdwLjXUZuaob6jpaMp0vE49VIpIjG-Pqb7uDOs70PlY_Afef6n-R8JbbCwFX10w9VN9
+_pwEYH2tc_cEx_dS8cvx
+}
+!procedure Ovh($id, $name="Ovh", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Ovh', $name, $tech)
+!endprocedure
+!procedure OvhCard($id, $funcName="", $content="")
+  IconCard($id, '<$OvhMd>', '', $funcName, $content)
+!endprocedure
+!procedure OvhGroup($id, $name='Ovh', $tech='')
+  IconGroup($id, 'IconGroup', '<$OvhLg>', $name, $tech)
+!endprocedure
+@enduml

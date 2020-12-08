@@ -1,0 +1,19 @@
+@startuml
+sprite $CrowdinMd [14x14/16z] {
+HOo70GGm20Anf6lOVzlt-wMg001fysHcxE5Lz7F9csUl3akIoxGmNTLFbH6vPnUMI5fDHGIegYivi6PbjB7G6RWBXMfT9Z851NdWKw5uLopbbhHFrP1qTHGh
+cI8x32_qy3Ry4NTyU
+}
+sprite $CrowdinLg [20x20/16z] {
+NOu5Wi0m20INUB3-_xS7z7og6HH56_kogCZTer4f2YLgxbOoauuzYQimiyW6ncjknWjgeuo462UI-2wefpgW4n-xSqHwPJ6wXHaeNaUaeHecdndEAst5Uu2V
+qwY6h4tOCILU2x_fYy1AACmuMxodNpCwjcl3ch_Sp7u7rzkFEsZ-671sgTh5APUHxvvpru8OOlmpAALqWEZtRbjC5_v3Vv8-
+}
+!procedure Crowdin($id, $name="Crowdin", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Crowdin', $name, $tech)
+!endprocedure
+!procedure CrowdinCard($id, $funcName="", $content="")
+  IconCard($id, '<$CrowdinMd>', '', $funcName, $content)
+!endprocedure
+!procedure CrowdinGroup($id, $name='Crowdin', $tech='')
+  IconGroup($id, 'IconGroup', '<$CrowdinLg>', $name, $tech)
+!endprocedure
+@enduml

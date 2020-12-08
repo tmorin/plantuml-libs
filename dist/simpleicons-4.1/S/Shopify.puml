@@ -1,0 +1,19 @@
+@startuml
+sprite $ShopifyMd [14x14/16z] {
+DSV50GH130In6YRRdN-q1mlw2Q2DUHgltljQ-KdfOvbyrYix98Nh05cIstyE5Ac3oHKPcXPpAK8gvA71qRL6NVB4lZPe9ZdbscPuv4QxPgnGJzMlENsv95sB
+3AJIfxdjNlW2
+}
+sprite $ShopifyLg [20x20/16z] {
+JOq75WGX24CHRB0Azx_jnlRUP8hcKq9RMSlFbUcheiLSvOlOMBdrKRvjjMXp3zSgZvdDW1n_so1rXtziR5Qt7SDZWiqTte1KKhAOZc9Uh0CHD3UBdMqHJEQ_
+EAoj29XTsEpCC1OBDZncQ1DS1k_EpKOYpd4kvJ9dOjoReR5UXaMvhLXevSx52ZN5Mc7kyLYZjapieSkKKfBIT9kxhzDHOa5X_AnA8le3
+}
+!procedure Shopify($id, $name="Shopify", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Shopify', $name, $tech)
+!endprocedure
+!procedure ShopifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShopifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShopifyGroup($id, $name='Shopify', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShopifyLg>', $name, $tech)
+!endprocedure
+@enduml

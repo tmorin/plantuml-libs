@@ -1,0 +1,16 @@
+@startuml
+sprite $ReasonstudiosMd [14x14/16z] JOw55S0W30LnXzj_sw8lFJJ-rSHtw44TR6LIxVhh3EHr5QDIXpRTja7NyxeL4LnZ72DqiLm7iGP_YsSHnCfz3zx6q4eNO9vvQL4s9Lpy67v_FW
+sprite $ReasonstudiosLg [20x20/16z] {
+VT3L0GGX30JGs0fw_NTxP5Yt-GeF3o4QVor9wH3BRcNO1QkGP5ruhZwC0HgOIAnucMqze1f5Byf8o5XzcdF1-ZMfBU3KJ5SHFxfWdIqqjNertTzuiIwhsSNI
+oxfmiVNDksKMgoXqjUgdSu26Be5llTAFdY9JhTFQYZy
+}
+!procedure Reasonstudios($id, $name="Reasonstudios", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Reasonstudios', $name, $tech)
+!endprocedure
+!procedure ReasonstudiosCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReasonstudiosMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReasonstudiosGroup($id, $name='Reasonstudios', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReasonstudiosLg>', $name, $tech)
+!endprocedure
+@enduml

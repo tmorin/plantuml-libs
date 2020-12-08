@@ -1,0 +1,16 @@
+@startuml
+sprite $AbbrobotstudioMd [14x14/16z] NSc5WGCm243HZmN8NSl-qzRz9RXOBk4fijjHp0N8G6eViEp5JS_S3iLL_ey1L72ZgmoqkR6PeqA31kJC-6so0lcVpMsY5RY65-3DZMm5Y7QGsCQDLdUdyECC
+sprite $AbbrobotstudioLg [20x20/16z] {
+NL050iD02CFFn_zVkwrGJ_NG9038ZF02cV4pKkfeRHJ0_rshHAotVoFrrXr0QvyH3QYxnr2PTWivnIzEpHXQ__ZUnPEkxImPRGLETFU1syX-aTfcMaoCOvRz
+qRQ_5IyyTkjPDs9uNQi6iPXdEPMIn4ZM1yye6vWyrobJ9fz_bQAztaoWrdlR7dfOgsPwHTxu0G
+}
+!procedure Abbrobotstudio($id, $name="Abbrobotstudio", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Abbrobotstudio', $name, $tech)
+!endprocedure
+!procedure AbbrobotstudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$AbbrobotstudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure AbbrobotstudioGroup($id, $name='Abbrobotstudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$AbbrobotstudioLg>', $name, $tech)
+!endprocedure
+@enduml

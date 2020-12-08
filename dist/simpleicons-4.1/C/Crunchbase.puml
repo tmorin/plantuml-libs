@@ -1,0 +1,16 @@
+@startuml
+sprite $CrunchbaseMd [14x14/16z] ZSU52SLG5C1GUDTz_sc_rj0sMCvSwxcFwohC_HIu2K1_C4Xsf0J_YcMwC4Vagroy79T0pRVIc7JzudbzXRq1
+sprite $CrunchbaseLg [20x20/16z] {
+lSorWGH020LGnl7VVxLtgycwlmG7vnpd4azJnPanxlPaSc8qcOAZGOrgJYgL9lQC335ibjYbEronrJk0oiSzXNURrQ75iJUfKTl-QxHmP4i1DsN3ZsJaMMly
+0m
+}
+!procedure Crunchbase($id, $name="Crunchbase", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Crunchbase', $name, $tech)
+!endprocedure
+!procedure CrunchbaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$CrunchbaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure CrunchbaseGroup($id, $name='Crunchbase', $tech='')
+  IconGroup($id, 'IconGroup', '<$CrunchbaseLg>', $name, $tech)
+!endprocedure
+@enduml

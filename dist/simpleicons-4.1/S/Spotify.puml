@@ -1,0 +1,19 @@
+@startuml
+sprite $SpotifyMd [14x14/16z] {
+LSvL0WGW20HGiH1ZvlwtNN3xVIcTaXWla-GQUA5vfl6Z9GEnrzetAsJt0c_90npaMiTjJOBZ-LvBgNguw8xElQnBvRM7gXqO6BDqc6c9jSF0ftK8-T_-lSm_
+GNJ7g3Zw0G
+}
+sprite $SpotifyLg [20x20/16z] {
+VP25WSKm243nfaYp_xP7SlRzjJ4Se26VFmJ33vA_ij8VqJ5l6C-YBMIT3oX4TXGVPZOyhnqJj-8Nj6ZnyXmwF3BQcBk6cZ-LNPcrpbICMKkWYEs7fD6F7oEM
+TlP34D3d8oV9IholoaJ4vj-kFdyIU_i2nIvwrVnBsRbo8yjpRm2Zpy-3ETxEj47rQe4hmk8B
+}
+!procedure Spotify($id, $name="Spotify", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spotify', $name, $tech)
+!endprocedure
+!procedure SpotifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpotifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpotifyGroup($id, $name='Spotify', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpotifyLg>', $name, $tech)
+!endprocedure
+@enduml

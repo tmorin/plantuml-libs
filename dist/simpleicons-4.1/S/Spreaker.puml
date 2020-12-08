@@ -1,0 +1,16 @@
+@startuml
+sprite $SpreakerMd [14x14/16z] LOs35G0n341hHVjlUoyu_JPMSkP97n3CbA9w2req3gs-H2YQZYYSxmqMueYuYRDjHsLltbhj79tl65jNMto6Nh1AhQgNtdk1NvIdcGi
+sprite $SpreakerLg [20x20/16z] {
+PP250OKm34HJzzx-qtwD03sqBnvI-PNfgR0FvXRAamsWyc-femGYwW2QndnFO-3xjgWArdG6iy0M3SOjT6Jr3GkYNPcweMnnbtwAqqZFo1wjmj5B-IRv1Gzc
+AQ-UFL7xXagkO3lenwu6AXrmduoYzFO6
+}
+!procedure Spreaker($id, $name="Spreaker", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spreaker', $name, $tech)
+!endprocedure
+!procedure SpreakerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpreakerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpreakerGroup($id, $name='Spreaker', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpreakerLg>', $name, $tech)
+!endprocedure
+@enduml

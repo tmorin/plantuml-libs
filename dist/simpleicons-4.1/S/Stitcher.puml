@@ -1,0 +1,13 @@
+@startuml
+sprite $StitcherMd [14x14/16z] Oo0JiC00CpCJ2mi_372oSV4Z00Sc3rKbiYciBEIw1G
+sprite $StitcherLg [20x20/16z] OnWWm884M1bPcPY1D3yoO6TdumPIw69S58jXse7Y5YOs9cPM5fQ12XS
+!procedure Stitcher($id, $name="Stitcher", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stitcher', $name, $tech)
+!endprocedure
+!procedure StitcherCard($id, $funcName="", $content="")
+  IconCard($id, '<$StitcherMd>', '', $funcName, $content)
+!endprocedure
+!procedure StitcherGroup($id, $name='Stitcher', $tech='')
+  IconGroup($id, 'IconGroup', '<$StitcherLg>', $name, $tech)
+!endprocedure
+@enduml

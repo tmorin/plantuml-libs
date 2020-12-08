@@ -1,0 +1,16 @@
+@startuml
+sprite $MegaMd [14x14/16z] LOw50S0W30GFTxB_jiLgXyOVL995KWnStrPte9myE59_hQvcGP116ELnl9um3Bn8NHO-W3l5DaEszbX6KX9ZTsRSNUBu_IRet_Ijx3L0nL5Tem8k
+sprite $MegaLg [20x20/16z] {
+RP050aGX20N1Rkv_svNQdf-EzGGkSP8n8nXvkTlPLACtcgil6JDzaM7k-pd4sCz6_jkngggHHyZC1L3uMm0umJ07HPIuhGu3b081nP6wl907vNUNQ28EIZRN
+7Cr9vePa2PubI9QvlZCl_7UstnhyhTLlJHtCOrynCWBp
+}
+!procedure Mega($id, $name="Mega", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Mega', $name, $tech)
+!endprocedure
+!procedure MegaCard($id, $funcName="", $content="")
+  IconCard($id, '<$MegaMd>', '', $funcName, $content)
+!endprocedure
+!procedure MegaGroup($id, $name='Mega', $tech='')
+  IconGroup($id, 'IconGroup', '<$MegaLg>', $name, $tech)
+!endprocedure
+@enduml

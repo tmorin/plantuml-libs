@@ -1,0 +1,16 @@
+@startuml
+sprite $StrapiMd [14x14/16z] BOi15e0m249H1Rl_YKFVVcrJ000XHNEKM3ZfGsk8daQ80TIKwETBNuKOUjX6QWgw0c3TRG_TM2Aj-6NW2FMx_73g6WhASmYcuCcwY6F5tk0no27muAUuuGS
+sprite $StrapiLg [20x20/16z] {
+LOy73WGn20DDD_d_WqzXkJPgqJWq3D6kfTOqO95gazHeXgnA9W1ZYHJz6kzKGBVEI65J0LGRbioCftf76M1P2G1bewX7hYCLHLoSFkuMT0g6e6CSHF6BvyI5
+BzO-IHWMBKwLLFbJBibGcPVVi3ho3YlRpM4dDEP6AfOA374S7_SC8mL_Jad33qoGZZ-49mJB2m
+}
+!procedure Strapi($id, $name="Strapi", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Strapi', $name, $tech)
+!endprocedure
+!procedure StrapiCard($id, $funcName="", $content="")
+  IconCard($id, '<$StrapiMd>', '', $funcName, $content)
+!endprocedure
+!procedure StrapiGroup($id, $name='Strapi', $tech='')
+  IconGroup($id, 'IconGroup', '<$StrapiLg>', $name, $tech)
+!endprocedure
+@enduml

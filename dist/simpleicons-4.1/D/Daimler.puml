@@ -1,0 +1,13 @@
+@startuml
+sprite $DaimlerMd [14x14/16z] jS414G0m4CAm7ItubpmLdxm3eh4ICw2LLSjy1pu
+sprite $DaimlerLg [20x20/16z] pS610O0m3CEmnaw1_VymRqoQosacGvY4H62mVbdUlbIUz0jqtwr-Q-lB7ZH48808SIxt0m
+!procedure Daimler($id, $name="Daimler", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Daimler', $name, $tech)
+!endprocedure
+!procedure DaimlerCard($id, $funcName="", $content="")
+  IconCard($id, '<$DaimlerMd>', '', $funcName, $content)
+!endprocedure
+!procedure DaimlerGroup($id, $name='Daimler', $tech='')
+  IconGroup($id, 'IconGroup', '<$DaimlerLg>', $name, $tech)
+!endprocedure
+@enduml

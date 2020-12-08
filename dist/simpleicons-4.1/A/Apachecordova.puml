@@ -1,0 +1,19 @@
+@startuml
+sprite $ApachecordovaMd [14x14/16z] {
+JSo50G0X30J1mptRVxVlCZWHAN9BsbLkTNy4M0jiNq5vKENdzAfCBSpfv8m2JRU6GPTpUyIhis0g9IbbJJgOGfH2a57jtoLDQELG6yIs1utTlfilYvpOfSnI
+h3E6qVi8SLPj
+}
+sprite $ApachecordovaLg [20x20/16z] {
+NOu70i9G24C3_Dd5_MyhGUrwsfq5G7O_EHI97hTtXcJn6oj8ymUDpaYhAcj8HAlxhkZpgw-zLm3nQOBv1IU5ZnbxGI6dBRZW25etWLeQ3RA5xxkzJWIZGq8q
+FJZVDIWNyfr1izeKnbu6LfnKshPusN7I8rxcwYzMTBPGJ8ujJXCrr3ijP61daZ8LpPE6R1ITOy3c2AOXJeeF
+}
+!procedure Apachecordova($id, $name="Apachecordova", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apachecordova', $name, $tech)
+!endprocedure
+!procedure ApachecordovaCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApachecordovaMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApachecordovaGroup($id, $name='Apachecordova', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApachecordovaLg>', $name, $tech)
+!endprocedure
+@enduml

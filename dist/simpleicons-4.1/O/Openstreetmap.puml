@@ -1,0 +1,20 @@
+@startuml
+sprite $OpenstreetmapMd [14x14/16z] {
+HOlLeGKm24E355A3_QTzSlLyHNEbfiKUDdOYxutjYmBa5fjzcCG_IV6zTCd3oT-eZouysQo-_kboxkdn_iKf1Pi2oGLdi9knrg81-3CbDbG7ON-cQRStUw7-
+JSpgSplmPoPSV2OTM4Ly-GK
+}
+sprite $OpenstreetmapLg [20x20/16z] {
+HOw50KCn24GFZyB-sxRVByf3pRiGgSFsSBMU3R2OBkI1oAuiaGDWgyeezHGSeZL0d5LzK2ekqJOWiWR5mACOeDvRmuoNoIQfgedbB-Ej_cS3uulJxUtFMlXw
+MH_ghKrtRB-HfAXNnb6aBgWP8AbDrbVjlS9Zvk6YnaURpV2vPeYTmqVzrOdbY91k3ohdNZbbP2hiHkJx6Aeg6NKgU1--EO_vSI5uSCpgQpQvM3pZCjFnMZpe
+qmy
+}
+!procedure Openstreetmap($id, $name="Openstreetmap", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Openstreetmap', $name, $tech)
+!endprocedure
+!procedure OpenstreetmapCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenstreetmapMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenstreetmapGroup($id, $name='Openstreetmap', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenstreetmapLg>', $name, $tech)
+!endprocedure
+@enduml

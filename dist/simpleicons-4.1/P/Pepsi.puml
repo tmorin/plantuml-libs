@@ -1,0 +1,19 @@
+@startuml
+sprite $PepsiMd [14x14/16z] {
+BSp70O1024JH3ni7TUc_MlCx4GTCgkvLCcuzce7LQ61TV4Os5FoENAx6fsVkezdN-CgSyg-n8pFBt_dJYAZsnjqcICt6ohLrXpgrxziilCAj1pzre4NZLgFp
+y1ctwS05
+}
+sprite $PepsiLg [20x20/16z] {
+RT170iGW241Ha681zFwt7PcUydTviSEEp1iJSNCZU2VkIeYavlAc5WplU3R8kYDyYxMHv9zahIMGI_poROvXy4itMKZJ7vL8gvtfIsXhruiJVcsiJ26-XYyo
+mFZCfNXH0VBN7jXcocm8e2FFKfuoknROcGxhDlFxip0RaYpF_v_GSx5cy9Tro7h8HzZRxPk-GnqUuKCHiWS
+}
+!procedure Pepsi($id, $name="Pepsi", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Pepsi', $name, $tech)
+!endprocedure
+!procedure PepsiCard($id, $funcName="", $content="")
+  IconCard($id, '<$PepsiMd>', '', $funcName, $content)
+!endprocedure
+!procedure PepsiGroup($id, $name='Pepsi', $tech='')
+  IconGroup($id, 'IconGroup', '<$PepsiLg>', $name, $tech)
+!endprocedure
+@enduml

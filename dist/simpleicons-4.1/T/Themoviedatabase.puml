@@ -1,0 +1,16 @@
+@startuml
+sprite $ThemoviedatabaseMd [14x14/16z] JOk50GCn24LnYB7_jkrPv4NvqZBy8v8pYH2HwDgfsG1426wQtvDtAnPpOkVHrqJ6JZudDH2ZETMhrQU7GILshpNnRdEwGPX9VR6KQ_BnOM0C1ty
+sprite $ThemoviedatabaseLg [20x20/16z] {
+PSe5haL120JH1iQ1s_jVxNSPyYf-KklGpvNpO3ltkjfqa1EbIIKx03CJ00AW_vX4HbzeypAect76ANRK7izLFxN0B9yCqOKsRfjJONFgPVhinsRulYqmzuoe
+XhMddsACr9dbG-iA7Lt-hJH-JDfVFLF80Kl-zpIG2ctsdm1ZuALt
+}
+!procedure Themoviedatabase($id, $name="Themoviedatabase", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Themoviedatabase', $name, $tech)
+!endprocedure
+!procedure ThemoviedatabaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThemoviedatabaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThemoviedatabaseGroup($id, $name='Themoviedatabase', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThemoviedatabaseLg>', $name, $tech)
+!endprocedure
+@enduml

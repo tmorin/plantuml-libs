@@ -1,0 +1,47 @@
+# Smart
+
+```text
+simpleicons-4.1/S/Smart
+```
+
+```text
+include('simpleicons-4.1/S/Smart')
+```
+
+|icon|element|
+|---|---|
+|![](Smart.png)|![](Smart.element.png)|
+
+
+
+## element
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the Smart element
+include('simpleicons-4.1/S/Smart')
+Smart('smart', 'Smart', 'an optional tech field')
+@enduml
+```
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the Smart element
+include('simpleicons-4.1/S/Smart')
+Smart('smart', 'Smart', 'an optional tech field')
+@enduml
+```
+

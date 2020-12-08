@@ -1,0 +1,19 @@
+@startuml
+sprite $MicrosoftedgeMd [14x14/16z] {
+FOs50S0W30GFz_p-qzRBGTp0DJsC091CBnLSrgPHUqcvh3TCFfRUIsplwBorHOP-beEuemGyo-x-cHhqUynTgYTbY2b0DuqajG0-FzV3VSwayiotTs7cnhSO
+UYyEE04
+}
+sprite $MicrosoftedgeLg [20x20/16z] {
+JOy30i0m40Jt5EF_hosZQQFpua5o7rI7WTLfQu7m4Vf1uMNQL8ROuykbRMD2Y4OlafPH0OsbrMJaLc28ewDX6kSKcG7A_QJGCK5RPRSjZ31F0Fy1bRx3onl9
+TLJ-K-tJH6ec0FBhD7jI31EnjwfyLRsA-lRwulF27YtE4KocAU37jSRQldJ5X5mWSZ4euUK6
+}
+!procedure Microsoftedge($id, $name="Microsoftedge", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftedge', $name, $tech)
+!endprocedure
+!procedure MicrosoftedgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftedgeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftedgeGroup($id, $name='Microsoftedge', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftedgeLg>', $name, $tech)
+!endprocedure
+@enduml

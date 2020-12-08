@@ -1,0 +1,16 @@
+@startuml
+sprite $FluentdMd [14x14/16z] ROtL0KDH24DptO3iFstxtCyVn6B4XTx3vIBPRXV5xvVEfsN0nHAH1cTKZ6OPphYXEG1fFzQqhDUsr3YJBxNRg0jZcvZ9TOoM7Rxu0m
+sprite $FluentdLg [20x20/16z] {
+TS_50S0W30LG8hZjFsszEF_u80O0OWpHR2b7Csg-4dYm9tfXsRNrCRqOvJDH6Ws2LVxYZVNNn1YkDv-xfAI4mDXIuES8RkcVuseX_5O_rkNf9rDtLF_YbI0C
+1C0l9LthTBmWUesr4169gC8k9m
+}
+!procedure Fluentd($id, $name="Fluentd", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fluentd', $name, $tech)
+!endprocedure
+!procedure FluentdCard($id, $funcName="", $content="")
+  IconCard($id, '<$FluentdMd>', '', $funcName, $content)
+!endprocedure
+!procedure FluentdGroup($id, $name='Fluentd', $tech='')
+  IconGroup($id, 'IconGroup', '<$FluentdLg>', $name, $tech)
+!endprocedure
+@enduml

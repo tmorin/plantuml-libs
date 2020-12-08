@@ -1,0 +1,16 @@
+@startuml
+sprite $ApacheantMd [14x14/16z] bOor0G0n24MZkEm_xRdKUHLyAwjqQ_yp8l5x83FZUoGK1UvARxFNMcQhhOvH5VkaoRtK8-H7ozpYs1cpNuoZK1RO0G
+sprite $ApacheantLg [20x20/16z] {
+jOrLWWOn28E1AZBD_M-xbVtzURugbj1zvFwJAWFvArK1w4U65PCX7rq3Y_RUvGrMSmtYav4kKbfPOQxCijBJhSuZBILUBed82dLuQqMrMSm4cIC2Y-l2_DIP
+QxstJMzrxbQs9x_iwHx-
+}
+!procedure Apacheant($id, $name="Apacheant", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apacheant', $name, $tech)
+!endprocedure
+!procedure ApacheantCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApacheantMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApacheantGroup($id, $name='Apacheant', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApacheantLg>', $name, $tech)
+!endprocedure
+@enduml

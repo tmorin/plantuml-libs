@@ -1,0 +1,13 @@
+@startuml
+sprite $CraftcmsMd [14x14/16z] uqS6VFma0cuERWI7bOcLaGV6uMH2LiV6WgABWOsL5OdBnivBs2hS3kK
+sprite $CraftcmsLg [20x20/16z] lOyt0eH054APdE7-jzroLMfztO-0d2tdw2Mu-dWytn41s3Vv43TNvxNNuKPBSACTGvph7YSYHhH7nbxgqdTmqrhv1m
+!procedure Craftcms($id, $name="Craftcms", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Craftcms', $name, $tech)
+!endprocedure
+!procedure CraftcmsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CraftcmsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CraftcmsGroup($id, $name='Craftcms', $tech='')
+  IconGroup($id, 'IconGroup', '<$CraftcmsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GodotengineMd [14x14/16z] {
+JSg5OGGm30D0XsFK_jjMVRw0KKHwfaXcbuS1h0LCeIOR3vjfbE95Q-5N95-1Ae3biAD5UWmzS2Bgdeeu60wemtaL6FjgWGD-UfkLxpgNgzkhx-2E0ihz46cE
+5sz2VHtLkphJFm
+}
+sprite $GodotengineLg [20x20/16z] {
+PSW7WWH1141HKwCqYlxtl-rsslnaSfh5F3ervOljsD7PJRu4j7j3_lmzGawRnmY-v0WN_ZF-gvr_D1Uu9fTKXv9OnAoZhoEzPh3EdmMLJ2MBiFjNjhAPayvb
+TVooeAEXlXPvw-R5b_9DPOjQkjFpqA1P8PwWlip1RRb2oZXwPNX3UsI1YeZnYydfxSMZ_IsFrr0xw7Z9wGC
+}
+!procedure Godotengine($id, $name="Godotengine", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Godotengine', $name, $tech)
+!endprocedure
+!procedure GodotengineCard($id, $funcName="", $content="")
+  IconCard($id, '<$GodotengineMd>', '', $funcName, $content)
+!endprocedure
+!procedure GodotengineGroup($id, $name='Godotengine', $tech='')
+  IconGroup($id, 'IconGroup', '<$GodotengineLg>', $name, $tech)
+!endprocedure
+@enduml

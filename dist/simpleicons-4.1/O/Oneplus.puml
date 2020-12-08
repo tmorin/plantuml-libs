@@ -1,0 +1,16 @@
+@startuml
+sprite $OneplusMd [14x14/16z] LKs50G0X27oR4lVVzkqEuEhR2t9zdavoNOeVgfPQCG1W_2A80f2_cHngaR0-4KS7XIVUEiUjYpIPABVkxO1czoO8-11ylOvhLywguXy
+sprite $OneplusLg [20x20/16z] {
+dSu53iCm58DXkzp8c-z_si6Jkv9mV_WJ1USiL3VZLX4jWagF1PqakxRKq3izXMCMWPlXProcanMvbVNTPfIz8iKmBB6snBuOi_Y7jQEn_j2ceo4TZU0MM6Rh
+MEnKsHi
+}
+!procedure Oneplus($id, $name="Oneplus", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Oneplus', $name, $tech)
+!endprocedure
+!procedure OneplusCard($id, $funcName="", $content="")
+  IconCard($id, '<$OneplusMd>', '', $funcName, $content)
+!endprocedure
+!procedure OneplusGroup($id, $name='Oneplus', $tech='')
+  IconGroup($id, 'IconGroup', '<$OneplusLg>', $name, $tech)
+!endprocedure
+@enduml

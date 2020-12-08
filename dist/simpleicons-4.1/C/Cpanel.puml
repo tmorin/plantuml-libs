@@ -1,0 +1,13 @@
+@startuml
+sprite $CpanelMd [14x14/16z] hOO50S0m30GRPlzontFGnrkR90u_QaHbULg9bfTVoPxHdXvJuqLkWc8kiBRe1
+sprite $CpanelLg [20x20/16z] pKVN0KD12B9UKN3_SVD-iy7HaRTWwNy_pBG6gMxoISmbm2b6uP9dvYJPVLSi00TtU1qiz6HNNzCz3KGMqBVCFLH48ot4t3A_-n9-
+!procedure Cpanel($id, $name="Cpanel", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cpanel', $name, $tech)
+!endprocedure
+!procedure CpanelCard($id, $funcName="", $content="")
+  IconCard($id, '<$CpanelMd>', '', $funcName, $content)
+!endprocedure
+!procedure CpanelGroup($id, $name='Cpanel', $tech='')
+  IconGroup($id, 'IconGroup', '<$CpanelLg>', $name, $tech)
+!endprocedure
+@enduml

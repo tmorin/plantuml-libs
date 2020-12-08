@@ -1,0 +1,16 @@
+@startuml
+sprite $JustgivingMd [14x14/16z] HOx50S0m30CLvdZ_RQkeT2-V6N3DH7SWQPlOdfLa3usLfigSLa6ChC0Ul4O10l6K0J9Co1pbnIFFVdofU5PK1bKNLcjBJRh-aFNPByJLoURg6Lu
+sprite $JustgivingLg [20x20/16z] {
+PP250SGm3CJ2PDf_seUhoof60KFuaSaSoi6fR0vNLyDEDBuLzkPwLGMhIBRHQcs9Hp3W8-Syvk5M08t0X6jGtQvKhB8RyxPAjdVyBUkzTKNHTWk2GIF6brlA
+bRpaMsr74kCLxobdVFPKMjY9TSbFhBej-W8
+}
+!procedure Justgiving($id, $name="Justgiving", $tech="")
+  IconElement($id, 'simpleicons-4.1/J/Justgiving', $name, $tech)
+!endprocedure
+!procedure JustgivingCard($id, $funcName="", $content="")
+  IconCard($id, '<$JustgivingMd>', '', $funcName, $content)
+!endprocedure
+!procedure JustgivingGroup($id, $name='Justgiving', $tech='')
+  IconGroup($id, 'IconGroup', '<$JustgivingLg>', $name, $tech)
+!endprocedure
+@enduml

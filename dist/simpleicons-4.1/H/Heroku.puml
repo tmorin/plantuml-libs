@@ -1,0 +1,16 @@
+@startuml
+sprite $HerokuMd [14x14/16z] POw50GGn20I1HUBflzgNSva8BZcpiFpuYQmbw20i1qa7aNLUBKmbwfLEYvrFInnqM7_ARhK0-PJLMj3T4hjQ67Z5-j-wRnQrblgZb9_WBm
+sprite $HerokuLg [20x20/16z] {
+TT055iGm20HGcEXReDp_jalgEjNyU7xIa5BS8q124nOjnATGKHO14OE9rWy4ec7Lwx3kEKmNQzw2O8wxzNZVBHU-6uTSJBgQQJfPzoKJpgOrFZylX-LCo_hg
+OKkkLlBJckSNArzzspQl77Fm-8NWSgQqd6akPjCfDbNw0m
+}
+!procedure Heroku($id, $name="Heroku", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Heroku', $name, $tech)
+!endprocedure
+!procedure HerokuCard($id, $funcName="", $content="")
+  IconCard($id, '<$HerokuMd>', '', $funcName, $content)
+!endprocedure
+!procedure HerokuGroup($id, $name='Heroku', $tech='')
+  IconGroup($id, 'IconGroup', '<$HerokuLg>', $name, $tech)
+!endprocedure
+@enduml

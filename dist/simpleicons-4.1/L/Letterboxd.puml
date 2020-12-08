@@ -1,0 +1,16 @@
+@startuml
+sprite $LetterboxdMd [14x14/16z] RSxL0GCm20HGY0lbzj-s5-holX9SH2V2LA7g25wPgO2PHQJAT1WBUcGLjAH53WDaCX3iuuV_lqjUzyh9AVFantq33NYwRoT7FPVXZX_IOSoFS_GL
+sprite $LetterboxdLg [20x20/16z] {
+TP250GGX40CJUDpwh_Oqy3wd3BA20rk6A1R2rUcQauhZXRXKFtXAwyulZQ6JT2XjRdZ8DIeUaST46ofHbii_NFlXn7_NI_tQ6y6N64NENBcKgfn90hpsM7Sv
+tjXpsUg1U6tC8lxigQ3BxH3P4ISx
+}
+!procedure Letterboxd($id, $name="Letterboxd", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Letterboxd', $name, $tech)
+!endprocedure
+!procedure LetterboxdCard($id, $funcName="", $content="")
+  IconCard($id, '<$LetterboxdMd>', '', $funcName, $content)
+!endprocedure
+!procedure LetterboxdGroup($id, $name='Letterboxd', $tech='')
+  IconGroup($id, 'IconGroup', '<$LetterboxdLg>', $name, $tech)
+!endprocedure
+@enduml

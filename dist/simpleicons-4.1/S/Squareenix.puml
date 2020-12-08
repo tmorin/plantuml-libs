@@ -1,0 +1,13 @@
+@startuml
+sprite $SquareenixMd [14x14/16z] ROp50S0W54C93j_sdxRkvTsYJUr2t5-Lb3VIfk1ELkK_ofTIQZfLMazehE2z3txqWfVgRQTkwaJnLZC
+sprite $SquareenixLg [20x20/16z] fT233K1H5C3GPrtjF-stZSOdRaYooQjNnc6HwOtKilUcRPTPMk0sAKkBqWLtvaeRnDcM_JSfC5RWw5LwR3K
+!procedure Squareenix($id, $name="Squareenix", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Squareenix', $name, $tech)
+!endprocedure
+!procedure SquareenixCard($id, $funcName="", $content="")
+  IconCard($id, '<$SquareenixMd>', '', $funcName, $content)
+!endprocedure
+!procedure SquareenixGroup($id, $name='Squareenix', $tech='')
+  IconGroup($id, 'IconGroup', '<$SquareenixLg>', $name, $tech)
+!endprocedure
+@enduml

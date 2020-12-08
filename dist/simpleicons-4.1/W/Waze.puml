@@ -1,0 +1,19 @@
+@startuml
+sprite $WazeMd [14x14/16z] {
+FKs55GDH3E9RNFRVjcUlSGNSiiMC9rvP5kuXusaewPeloNMVvJkyYcle1-jW422A6O04TWtCn7RWEnqnI04xb-_hp6C1AookeMhASxCdG34azD3TayOrWNId
+U_L7wtNMacPyoF_m0m
+}
+sprite $WazeLg [20x20/16z] {
+TO_LeHWW34Kl3j7zjotQv-SZhhZ4qdjD0Py8kHED6l51LHSYDgV_KVA-xL3KymrPmcESOFKRkWLXIXbJb1cFDKnX3KYhCxi0VVUDQTLTtAQR-hAg0LtnmOqD
+daPV0cCiKrFsXZLqf7JcoJ2Z_MGMDItdCjFtTqfRUeUO97nGVG0XihDg3fFkPWsRRExJqwKQBkpEfTQcxld5OkzdzwZuYty
+}
+!procedure Waze($id, $name="Waze", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/Waze', $name, $tech)
+!endprocedure
+!procedure WazeCard($id, $funcName="", $content="")
+  IconCard($id, '<$WazeMd>', '', $funcName, $content)
+!endprocedure
+!procedure WazeGroup($id, $name='Waze', $tech='')
+  IconGroup($id, 'IconGroup', '<$WazeLg>', $name, $tech)
+!endprocedure
+@enduml

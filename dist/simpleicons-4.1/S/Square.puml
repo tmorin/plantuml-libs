@@ -1,0 +1,13 @@
+@startuml
+sprite $SquareMd [14x14/16z] u-D70Xpyo827dv-F0mhumD8CKC21bSV5oykDuF7oy_Couk1nyu5LuZSJrNPKbt7o8d6O
+sprite $SquareLg [20x20/16z] ZO-30K0n34Hht1NxJ_jjzfLnKkeDK--u1rqUByGDB7f8iI4NPHG7uhVE4Q0xwwOqVD2XKSUl6ktzuQZR1WuRgC_a1vsphfmrnOaU
+!procedure Square($id, $name="Square", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Square', $name, $tech)
+!endprocedure
+!procedure SquareCard($id, $funcName="", $content="")
+  IconCard($id, '<$SquareMd>', '', $funcName, $content)
+!endprocedure
+!procedure SquareGroup($id, $name='Square', $tech='')
+  IconGroup($id, 'IconGroup', '<$SquareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AndroidMd [14x14/16z] bSd50S0m0090uXxsdxRktdiX-C4Q38n5HtYfZD7I2_GY1t4eYPC4gC3AGML09cqQ7aigSlqOk5N53Xwq
+sprite $AndroidLg [20x20/16z] hSp55KKX40FGu708a_wh_V9SjboS4SoN4mufhwUdmyRHOrKgGiev1RHoH8rQqFQAG1twMXk6BaPOskg63hbApBQ-BLEg-Bzw67jXbyolSQtMIzORnninsHS
+!procedure Android($id, $name="Android", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Android', $name, $tech)
+!endprocedure
+!procedure AndroidCard($id, $funcName="", $content="")
+  IconCard($id, '<$AndroidMd>', '', $funcName, $content)
+!endprocedure
+!procedure AndroidGroup($id, $name='Android', $tech='')
+  IconGroup($id, 'IconGroup', '<$AndroidLg>', $name, $tech)
+!endprocedure
+@enduml

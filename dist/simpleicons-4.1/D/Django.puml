@@ -1,0 +1,16 @@
+@startuml
+sprite $DjangoMd [14x14/16z] JOp50S0W00E3Ezb_sXQ7-qKnyCp8jBYgq2tbcb96eg6ypqqPrvLbPpLbPPHnlnXMSJw5VHKqQQz29Eju6GekbP8TAWqEXbIlI4-Kam1-
+sprite $DjangoLg [20x20/16z] {
+XSy50eGW503HJpTp_zDksEtOpmAPAv0aGXPvjmHbRr6CytO6PTHWQxRmQ_Sz3wkDtpCTUWnzQ_57HgHiBO_7e-MZ9QX7yq0okcxdeIg_EgDDuzE5iIWPaenf
+7rCCJaiRRPi5mfvCWwPFX9Tz9ZNtFtu1
+}
+!procedure Django($id, $name="Django", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/Django', $name, $tech)
+!endprocedure
+!procedure DjangoCard($id, $funcName="", $content="")
+  IconCard($id, '<$DjangoMd>', '', $funcName, $content)
+!endprocedure
+!procedure DjangoGroup($id, $name='Django', $tech='')
+  IconGroup($id, 'IconGroup', '<$DjangoLg>', $name, $tech)
+!endprocedure
+@enduml

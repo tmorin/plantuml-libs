@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrosoftonedriveMd [14x14/16z] XOl50GDH24JPBuEJ_hiDQzVauJBqZycow4L2sFsWa-rrDk9d2eC6kZjJS3V3dDqY1iwlgLMjW-DCmGT9WZBSTTB9w5V9m0OpsZwRQClBe5zy0G
+sprite $MicrosoftonedriveLg [20x20/16z] {
+fOz70iGm20DnjodY_xzTDZtdp8qgYUWxfO-QtXs56QpJJGKNeZHz7OtKbYjjD1zR9nk4WVsi6mKAYTTvkiHrOTSOuZZB0XRevDYPXrO8-2QHCKVRXDbjbFt1
+04zANLssKP5OhGvCO6KwQ31LLkTdfYpUA76CJ0_CC8xuDptJ9tu
+}
+!procedure Microsoftonedrive($id, $name="Microsoftonedrive", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftonedrive', $name, $tech)
+!endprocedure
+!procedure MicrosoftonedriveCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftonedriveMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftonedriveGroup($id, $name='Microsoftonedrive', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftonedriveLg>', $name, $tech)
+!endprocedure
+@enduml

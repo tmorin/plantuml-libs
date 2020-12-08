@@ -1,0 +1,16 @@
+@startuml
+sprite $SteemitMd [14x14/16z] JOl50G0X0CE2Ezr_sdCXlqeWJDqamBGdA4DO0_CDcW6UtXhNbExaESboht4oovdSaygeyqzv6Y_59xK6JkKEJW5JPEym6oP8FGSVcnedeGuTLG1s
+sprite $SteemitLg [20x20/16z] {
+LOu54i0m20I96-7-_zlEKTzg5XMHEF6WHPoahxFcgk33PbvCNsMHMLD_hj1zpdiRiCBhj0IHq3Oqt8vX4XNzSflAIOO8fyf3HxjNU2XOQdJoag2vqeNNPQZ8
+091VLz7vDen7XNKcBBJ7DIokEQ0VPScJeIt7827L1VFAM1N0LkLQAud3XBdfHnPo
+}
+!procedure Steemit($id, $name="Steemit", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Steemit', $name, $tech)
+!endprocedure
+!procedure SteemitCard($id, $funcName="", $content="")
+  IconCard($id, '<$SteemitMd>', '', $funcName, $content)
+!endprocedure
+!procedure SteemitGroup($id, $name='Steemit', $tech='')
+  IconGroup($id, 'IconGroup', '<$SteemitLg>', $name, $tech)
+!endprocedure
+@enduml

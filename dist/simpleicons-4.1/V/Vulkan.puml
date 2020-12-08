@@ -1,0 +1,13 @@
+@startuml
+sprite $VulkanMd [14x14/16z] dKp50G0n34eg0IhxZtik_-8lR1dk_-wpIyXsOp1oU32RctkKsXKKWutTBBKg4g02zz4TwzW1
+sprite $VulkanLg [20x20/16z] pSA7bKCX30J05Q1Lv7x_rPvpgi2UD_WXjEpEy8cNuzYXwdGVWhk_ZHZB81es03cNAj0ZISlbP8LNYGpPpOZ8Q6LqhiPPw8nGqyMWSJW-2Rxe1
+!procedure Vulkan($id, $name="Vulkan", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Vulkan', $name, $tech)
+!endprocedure
+!procedure VulkanCard($id, $funcName="", $content="")
+  IconCard($id, '<$VulkanMd>', '', $funcName, $content)
+!endprocedure
+!procedure VulkanGroup($id, $name='Vulkan', $tech='')
+  IconGroup($id, 'IconGroup', '<$VulkanLg>', $name, $tech)
+!endprocedure
+@enduml

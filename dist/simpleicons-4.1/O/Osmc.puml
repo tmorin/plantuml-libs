@@ -1,0 +1,16 @@
+@startuml
+sprite $OsmcMd [14x14/16z] LSw7ZS0m20NGXnqY0yh-urwlgl0xKPrxPrV0FHb4patS3T2tcX0GpEgaBdQH9uD-rdgQw8swPgx2zxVZu_jKRkj3-PqIIPuQ0Z3hV_l_PLYdP_eil08
+sprite $OsmcLg [20x20/16z] {
+RT3LeGGX44JHQcEGwjtyenst9_Vpu63DHhPmZvR3S1RavAe-aN5IpRX7ivwak5Csm6Ad1pCmM00vjtO1WfB4QYmRbLmDB6tQxRjYVBdPrCCt6pLBP1sRELrt
+C_jyp7RJV2pWfzrh0x1pxNN6Il3pZFTTj6x6CXYhEUw2yj_RW4PvIDZ--Qi_V_gCGafd9diHR2q
+}
+!procedure Osmc($id, $name="Osmc", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Osmc', $name, $tech)
+!endprocedure
+!procedure OsmcCard($id, $funcName="", $content="")
+  IconCard($id, '<$OsmcMd>', '', $funcName, $content)
+!endprocedure
+!procedure OsmcGroup($id, $name='Osmc', $tech='')
+  IconGroup($id, 'IconGroup', '<$OsmcLg>', $name, $tech)
+!endprocedure
+@enduml

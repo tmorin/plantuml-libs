@@ -1,0 +1,16 @@
+@startuml
+sprite $PocketMd [14x14/16z] VOt50G0W30E3Ezr_MjnU75fBGeg7PEabqXyT-Xrqxay2F947vfHhOGk6u0m1rpwZb_mCo8KHnla8yVXRzEbt73AEPea5avAFJmK
+sprite $PocketLg [20x20/16z] {
+jOv74aCX34FbX0wsxt_Q50zAOV_VIgWC7dCTpBIMdcI_W9wc1okrRTaD4kOKY6sp03B2Gjn14uCMgGXAF9GchHU3pGRKBVDaSp9MkIS_oE3a-8uchI1DEZC1
+9BMfEbiI_28lg9y
+}
+!procedure Pocket($id, $name="Pocket", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Pocket', $name, $tech)
+!endprocedure
+!procedure PocketCard($id, $funcName="", $content="")
+  IconCard($id, '<$PocketMd>', '', $funcName, $content)
+!endprocedure
+!procedure PocketGroup($id, $name='Pocket', $tech='')
+  IconGroup($id, 'IconGroup', '<$PocketLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FiteMd [14x14/16z] dKS50GGm4E8EvaB_j2yLXeDNX9H9Kacfdzsdn_7ST_HVbN6n3lPjj7kx4-xXyNiBwK9JNWqC1Fy29RpY2m
+sprite $FiteLg [20x20/16z] {
+nOw50KGn24C3TI7PVzkZjyH_5Lpm6LvAyQGyQUNHICRYlHHv3lERMzryQ9MXKxfkLWHrrbXgc1hvEBT9iVUa2fZ-q5xFDu6Y0rUOIzKDoYX61hesQYZKKSf_
+7SldJocfViKF
+}
+!procedure Fite($id, $name="Fite", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fite', $name, $tech)
+!endprocedure
+!procedure FiteCard($id, $funcName="", $content="")
+  IconCard($id, '<$FiteMd>', '', $funcName, $content)
+!endprocedure
+!procedure FiteGroup($id, $name='Fite', $tech='')
+  IconGroup($id, 'IconGroup', '<$FiteLg>', $name, $tech)
+!endprocedure
+@enduml

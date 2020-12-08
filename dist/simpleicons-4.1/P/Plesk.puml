@@ -1,0 +1,13 @@
+@startuml
+sprite $PleskMd [14x14/16z] dON50GCm4CFEc7J_WSlqZa6QyuGlczCYLC4bopDDTiEDN40bheckR4N3eG4Jq8pQ-Glc83S
+sprite $PleskLg [20x20/16z] lSZ5bGG124NHnyVhJFxfZhVtkYuEPx4twy5L1THFMrJ5J_lvXNid-xr6CnMMsG4s6Xqz1xb1VGGGRQkH6MORkKt6E4Ds1bMZL9RB-241V_lF5ZCZ7faaplO5
+!procedure Plesk($id, $name="Plesk", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Plesk', $name, $tech)
+!endprocedure
+!procedure PleskCard($id, $funcName="", $content="")
+  IconCard($id, '<$PleskMd>', '', $funcName, $content)
+!endprocedure
+!procedure PleskGroup($id, $name='Plesk', $tech='')
+  IconGroup($id, 'IconGroup', '<$PleskLg>', $name, $tech)
+!endprocedure
+@enduml

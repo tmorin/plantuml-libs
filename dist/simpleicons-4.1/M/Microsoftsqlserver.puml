@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrosoftsqlserverMd [14x14/16z] FSo54KGn20HGO0Kort-zPp_9Zg4l8aKWJgfbneti5lAqjc2UW_Hgb_XyeprD9Uj_kKmPzQp68sq3gqNiBZdmr0EIU97bnsi1iueFmJPSE4Y0ujRZ0m
+sprite $MicrosoftsqlserverLg [20x20/16z] {
+NSn5WiHG24LHu0dyoFwNszvLIUxm8F5L6Q6CM_WoFsnfkd6t6d6MbJTi2jLjNxWtBfMIsrkJs-OsARmGDhVJmGhupxIDExH6h7pzCzcjpDSx3cQN6E-uhK6L
+BuQzdSsh5KQbVHBybwhO3bA9pZ-RWMP2B3d-sbOWiUqJ-J9wOt9ODE8Lns1LTLpAaYtK2pu1
+}
+!procedure Microsoftsqlserver($id, $name="Microsoftsqlserver", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftsqlserver', $name, $tech)
+!endprocedure
+!procedure MicrosoftsqlserverCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftsqlserverMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftsqlserverGroup($id, $name='Microsoftsqlserver', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftsqlserverLg>', $name, $tech)
+!endprocedure
+@enduml

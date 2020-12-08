@@ -1,0 +1,16 @@
+@startuml
+sprite $BehanceMd [14x14/16z] VSsreKKn081GuXxsd_RBa_QUZWeUr3ybyk5BXR5MmnCeBWWbXx-2v21kNK7lqSWvCJkyhGrNSlT-TGFR-bUZDM_ELUFTCDhtKFoJ_wK0X5e2Jtu1
+sprite $BehanceLg [20x20/16z] {
+fS_5WGGm241HY1ly_hlToDfztYc2oWVI5LN-mTdSksobrLPK03C3YeXEMsi6WHEHOSYcuHHvbs3dIvlXuyIjdFF0uqx5fs7ASy8AAqXODB3U-poFaxbJ9lPT
+l4DSFFxzLc57p3D-Z3132CaWL4ntrPdl4iwf5nmR2v8_LdU1Mz6IX4lb2IdAPxu
+}
+!procedure Behance($id, $name="Behance", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Behance', $name, $tech)
+!endprocedure
+!procedure BehanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$BehanceMd>', '', $funcName, $content)
+!endprocedure
+!procedure BehanceGroup($id, $name='Behance', $tech='')
+  IconGroup($id, 'IconGroup', '<$BehanceLg>', $name, $tech)
+!endprocedure
+@enduml

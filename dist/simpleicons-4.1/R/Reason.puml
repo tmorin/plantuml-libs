@@ -1,0 +1,13 @@
+@startuml
+sprite $ReasonMd [14x14/16z] lSV10GGn1010I0AW_sftDyzhuEOtym-nZzJesJk_2HoYGbQfEvo095QTZmB3Rg8ZTmAEChZJ-vkjCQvDX34_NW
+sprite $ReasonLg [20x20/16z] tOtL0SGm34FbicFQVzjJ0r-tGL_G9DMNK7tKif8FzyZXPKyNa2r7JfgVU5B4oUnZpN2bG5LN3jUzGKD0xfLZT9QBH4GD8AOutfoHfHUrhrcCJgDky79Rld_y
+!procedure Reason($id, $name="Reason", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Reason', $name, $tech)
+!endprocedure
+!procedure ReasonCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReasonMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReasonGroup($id, $name='Reason', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReasonLg>', $name, $tech)
+!endprocedure
+@enduml

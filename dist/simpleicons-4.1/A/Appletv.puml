@@ -1,0 +1,16 @@
+@startuml
+sprite $AppletvMd [14x14/16z] bSY75OH0203H8QcxmAF_QYyNS7uotE42meyii5JvhBbpop7dDZJdfL-Jws9TxsjZ-NwapPk_LlQvgVUbqa5CeEvk40SIml-U
+sprite $AppletvLg [20x20/16z] {
+lSY5WKCX403HmM6r_shluaa5Vz1zN5INnrr-JHVGOl3KqiSQUys2f2qPm9B8pDkPZDjH1Mpd8uCQZH657lLfyZHySeodUNlQqJldCtbQz-4LYuSDQkuAbWTg
+jxDi0TidJEjSqZy
+}
+!procedure Appletv($id, $name="Appletv", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Appletv', $name, $tech)
+!endprocedure
+!procedure AppletvCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppletvMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppletvGroup($id, $name='Appletv', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppletvLg>', $name, $tech)
+!endprocedure
+@enduml

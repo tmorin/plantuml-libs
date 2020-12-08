@@ -1,0 +1,13 @@
+@startuml
+sprite $NextdoorMd [14x14/16z] VSu35W0X543HbrtxN-tOw1w4Jn1AS3B1eFN-2YtvrgBONujgvuSgRPCLq_qKsksbTTplKGi8HmJwhxDktSo7YG-6Xn4
+sprite $NextdoorLg [20x20/16z] lT350KGX30JGmJMP_gjT5-pytn7YU306AsFjzfX44cmfTdWhP0rAQXpVlhhRtyZohXo40mb0gLmqprrJRbnCld1GV5hxiW1NlINfyj4bVMywC3Yx0m
+!procedure Nextdoor($id, $name="Nextdoor", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nextdoor', $name, $tech)
+!endprocedure
+!procedure NextdoorCard($id, $funcName="", $content="")
+  IconCard($id, '<$NextdoorMd>', '', $funcName, $content)
+!endprocedure
+!procedure NextdoorGroup($id, $name='Nextdoor', $tech='')
+  IconGroup($id, 'IconGroup', '<$NextdoorLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GogDotComMd [14x14/16z] {
+NOl50SDG34Db1ltzrorTckIPGO8BWSSKgP8fcW7NvEpinuTbre5Pirs9Dl6JNUTKRPM9zX8GHFCxLHa-H1LSdEFa1CbmwqGCTdgwJ9CHfpdLFqccU9f-4CUL
+y1jl
+}
+sprite $GogDotComLg [20x20/16z] {
+PT1HbiKG44NH0swH8ZN_sRQEzRvi082SBfQuT6w2L4g6_CiJ1YDMZF9kvQiYMC9SAwKbDxGGp8PS4rmksjVdxv2tS8_sH3_pYgbDrBl8Liyy6trDFgSgK3Uh
+VDgk5WoorAWxIrcjgPmpvbDZpT28Dzx9kGjr9jnSrklf4zHLcFzzuvmxOdbP-sdjQNkU__xWP3bj6N5JujBRBVy1
+}
+!procedure GogDotCom($id, $name="Gog Dot Com", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/GogDotCom', $name, $tech)
+!endprocedure
+!procedure GogDotComCard($id, $funcName="", $content="")
+  IconCard($id, '<$GogDotComMd>', '', $funcName, $content)
+!endprocedure
+!procedure GogDotComGroup($id, $name='Gog Dot Com', $tech='')
+  IconGroup($id, 'IconGroup', '<$GogDotComLg>', $name, $tech)
+!endprocedure
+@enduml

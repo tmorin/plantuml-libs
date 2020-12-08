@@ -1,0 +1,13 @@
+@startuml
+sprite $Playstation2Md [14x14/16z] hKi50G0m3CBwLxw_0VCXg0HNd7KkIJOix2iNCs1BUlBlgSG4
+sprite $Playstation2Lg [20x20/16z] pSW94S0m3CH0HPVofzmHYwn_ypWpOLFCDHlS0vZlfFDMCv2Z_PpXSJy
+!procedure Playstation2($id, $name="Playstation2", $tech="")
+  IconElement($id, 'simpleicons-4.1/P/Playstation2', $name, $tech)
+!endprocedure
+!procedure Playstation2Card($id, $funcName="", $content="")
+  IconCard($id, '<$Playstation2Md>', '', $funcName, $content)
+!endprocedure
+!procedure Playstation2Group($id, $name='Playstation2', $tech='')
+  IconGroup($id, 'IconGroup', '<$Playstation2Lg>', $name, $tech)
+!endprocedure
+@enduml

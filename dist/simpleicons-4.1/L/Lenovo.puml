@@ -1,0 +1,13 @@
+@startuml
+sprite $LenovoMd [14x14/16z] dSgr0S0m40F0q8CKqFxJXicjhxwcafaDWmqNqw8Vf81C990K0uCZF3qYfA9QeQcq0G
+sprite $LenovoLg [20x20/16z] nOut4WH120FF0SB__xUdoJUVhb8dsDSbvFSJXXmVHFQ1JgTscfxPORR35gOcW8a3Qiq-dTyFLY81_JWiE6IQvjcHMXLhFlk4oFb227r4loxn1m
+!procedure Lenovo($id, $name="Lenovo", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Lenovo', $name, $tech)
+!endprocedure
+!procedure LenovoCard($id, $funcName="", $content="")
+  IconCard($id, '<$LenovoMd>', '', $funcName, $content)
+!endprocedure
+!procedure LenovoGroup($id, $name='Lenovo', $tech='')
+  IconGroup($id, 'IconGroup', '<$LenovoLg>', $name, $tech)
+!endprocedure
+@enduml

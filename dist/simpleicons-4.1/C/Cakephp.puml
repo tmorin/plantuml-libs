@@ -1,0 +1,16 @@
+@startuml
+sprite $CakephpMd [14x14/16z] ROu50aGX20KfMtdtF-tkxnuxOA0Pdg0LLeiJfjD5B0CRemYk37pXjqKiTw2AbUxmDVccavPj4cWhyq9pJAjBM6zrrVfcdvubPjageo_-
+sprite $CakephpLg [20x20/16z] {
+hT230KD1303GvEpiFsqHrEv_PmC-vsAkhH-qcgCxT8JO9rsOFSAYEuKsKGQfync0Bd1_GYn3-e5XS5gcN2fVbo4OMhrmVnaZwRXiFshdShQIKnpqwDnO-RXw
+_WFzenel_Wg-jWS
+}
+!procedure Cakephp($id, $name="Cakephp", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cakephp', $name, $tech)
+!endprocedure
+!procedure CakephpCard($id, $funcName="", $content="")
+  IconCard($id, '<$CakephpMd>', '', $funcName, $content)
+!endprocedure
+!procedure CakephpGroup($id, $name='Cakephp', $tech='')
+  IconGroup($id, 'IconGroup', '<$CakephpLg>', $name, $tech)
+!endprocedure
+@enduml

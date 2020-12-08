@@ -1,0 +1,19 @@
+@startuml
+sprite $GitpodMd [14x14/16z] {
+DKu5WiH026COn_B_trxQs-9EXAGEXCe_jGittFOc2pL4UcBJ7jfHBAmwObnma5nMTY_TaK0wpPCPpDphZ7go2xXpGRyiSkxBB4er4O7gp4xo-FOu_9YDI5vK
+pNzer74s_0CgmsoymHy
+}
+sprite $GitpodLg [20x20/16z] {
+LSzL0iGW38JX0PAM29dxdtQbil8_VcXmfaNMXj_Q_ZBEXc_ROgecrtQBv7LiAwOSnvoqXXxHqOpq1b7F0Ko-ci08LrXcWnIFIY0hO56zU_0eBCZ3cfJF9DTq
+SjPfWonxLVJMlqQwSmtWpo8JqDvEwxT9K6w3lIrOD1pcj8OHpE3v-S2GTKohvjinyJectjSr-aZMtd3KPp76SD8wFWrdnClnbvWfhfu
+}
+!procedure Gitpod($id, $name="Gitpod", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gitpod', $name, $tech)
+!endprocedure
+!procedure GitpodCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitpodMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitpodGroup($id, $name='Gitpod', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitpodLg>', $name, $tech)
+!endprocedure
+@enduml

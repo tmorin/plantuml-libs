@@ -1,0 +1,19 @@
+@startuml
+sprite $BasecampMd [14x14/16z] {
+DSc70SGW243Hhn8YaRB_jiUrftJQqEVOuaUZgcn06rvsYMPCMdpB28TbDMcBMShfQ9g3dLHWiKYZZzUvTdbwdo1ih58iXRPZFS6Vrjnz-vhXS5VS8gAdV03J
+ifehFsCEQ2y
+}
+sprite $BasecampLg [20x20/16z] {
+TSzLOW0n20JGGS8IO-v_sifAlUylmN5HZmmJV6NHHuRYaq-Uwi3Z85UuUHRxnrUrkyFcbHaimqsB3eXk-lsXGEC48fauoLu2J3gAMyyC13i0PmTv88i9gREj
+B0fBWxNPnzqZwVsGJPDDBfmQEv3iWFQXE5ajqKt1usvePCCNpWA2JC5D3Z80j69bCpDllQulG7FpjlldxUteesUuuX-l
+}
+!procedure Basecamp($id, $name="Basecamp", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Basecamp', $name, $tech)
+!endprocedure
+!procedure BasecampCard($id, $funcName="", $content="")
+  IconCard($id, '<$BasecampMd>', '', $funcName, $content)
+!endprocedure
+!procedure BasecampGroup($id, $name='Basecamp', $tech='')
+  IconGroup($id, 'IconGroup', '<$BasecampLg>', $name, $tech)
+!endprocedure
+@enduml

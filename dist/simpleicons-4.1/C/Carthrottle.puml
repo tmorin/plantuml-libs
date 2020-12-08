@@ -1,0 +1,16 @@
+@startuml
+sprite $CarthrottleMd [14x14/16z] VKx50G0n20FgclstlVJyLTo9RAYsscAYiHLM02dGc0D6x81J1XA1MYOGCpFVE4JzACn_vgZDZ-lIL30GPcf05sQUmPIq9lbIhRKiSS6G3Hq
+sprite $CarthrottleLg [20x20/16z] {
+fOr55iGm34CLJaoz_sqdTeQtLU4_oOGROYOYxbqS6SMjshKrwkKgcFklfRcfeFsN5A38B1y3g0-r6LcIZONiGssIGzJ_Tf19hZzPKllF90MKBLpC428hM1uz
+pvuCu6Z8tjuY4-JJKEtTHwYEXd4sCHCtbFsdZBxXzeOU
+}
+!procedure Carthrottle($id, $name="Carthrottle", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Carthrottle', $name, $tech)
+!endprocedure
+!procedure CarthrottleCard($id, $funcName="", $content="")
+  IconCard($id, '<$CarthrottleMd>', '', $funcName, $content)
+!endprocedure
+!procedure CarthrottleGroup($id, $name='Carthrottle', $tech='')
+  IconGroup($id, 'IconGroup', '<$CarthrottleLg>', $name, $tech)
+!endprocedure
+@enduml

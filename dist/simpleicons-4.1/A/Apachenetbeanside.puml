@@ -1,0 +1,16 @@
+@startuml
+sprite $ApachenetbeansideMd [14x14/16z] NOs50S1020FvO_-PQnTgk2ProBga8Yl1pUDqJe_KPyPBd4sN1ozz_IN4vo5E9GF8a6FCbJIDbzOx
+sprite $ApachenetbeansideLg [20x20/16z] {
+XT25bKKX54FHv6JwhtdMVJZVS3QEMi2sqHxSp8T8jhGKLmiqoh4Bq1jMKatJkn8H23As2QYWMjtCdxeXqqzbMK7nQRBrox8itG3csn3hplQuytfRqXk-_i3m
+_g_U_-dGPCe_
+}
+!procedure Apachenetbeanside($id, $name="Apachenetbeanside", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apachenetbeanside', $name, $tech)
+!endprocedure
+!procedure ApachenetbeansideCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApachenetbeansideMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApachenetbeansideGroup($id, $name='Apachenetbeanside', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApachenetbeansideLg>', $name, $tech)
+!endprocedure
+@enduml

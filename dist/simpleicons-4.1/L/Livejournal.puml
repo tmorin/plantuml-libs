@@ -1,0 +1,16 @@
+@startuml
+sprite $LivejournalMd [14x14/16z] HOo53GD030DTvQDdt_xRjb7fXCP7cfvpZTIBND0dzYvft1G6M1AKzvPJlQjuovOp_d9D-oqRu6LSCWx0D2N3N71kIXuYwZIXk16cIOitPaX_EVK-h-DLpqy
+sprite $LivejournalLg [20x20/16z] {
+NSy53aH120JH7cECfUz_smtaUyLVj81cj9QgZDuoZZf9oJBMx3M5D2TjWv4sDoCv4p39Q01mWdVYTDE45mgQYCC3BQSoy46fmld1BOCFL3SRYponR4PzyiHg
+Z2m-0hEHyqTIS-M1cnIiM4dAIDqX90lGUFPRqidndF9YzOkQWKZif9bmbcKRJKU1zmS
+}
+!procedure Livejournal($id, $name="Livejournal", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Livejournal', $name, $tech)
+!endprocedure
+!procedure LivejournalCard($id, $funcName="", $content="")
+  IconCard($id, '<$LivejournalMd>', '', $funcName, $content)
+!endprocedure
+!procedure LivejournalGroup($id, $name='Livejournal', $tech='')
+  IconGroup($id, 'IconGroup', '<$LivejournalLg>', $name, $tech)
+!endprocedure
+@enduml

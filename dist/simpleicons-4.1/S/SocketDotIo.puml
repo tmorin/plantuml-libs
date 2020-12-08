@@ -1,0 +1,19 @@
+@startuml
+sprite $SocketDotIoMd [14x14/16z] {
+DKq73aKn2C8k8qdf_M_xFoRFFG48gZ8f1lwonJN6eWuGHnCjwnrG2vQni3Gkkvd-ObMlpdDQDqTlJb-hEsmQAjINyoNwqYX1ZunYXjNNPWZ3VUn65sV4f1i3
+rvLk-Vm7
+}
+sprite $SocketDotIoLg [20x20/16z] {
+RP073iKW28OrIilc_gVj4dsJBF8by8zoJTCmOLOBRIK7B9GGsS8W4ORqiNK9JBINDViD6xoXTaCewh8GtY_4QqHFKeMUdm6kyywiFekASlfP1-oCut33bpN6
+QHptccpUzeXjtgP6DPjHLV8roNsONeRddb-7vmPFmeKmu4y7_xfAQpuwrN1O5nN48rnWY9y
+}
+!procedure SocketDotIo($id, $name="Socket Dot Io", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/SocketDotIo', $name, $tech)
+!endprocedure
+!procedure SocketDotIoCard($id, $funcName="", $content="")
+  IconCard($id, '<$SocketDotIoMd>', '', $funcName, $content)
+!endprocedure
+!procedure SocketDotIoGroup($id, $name='Socket Dot Io', $tech='')
+  IconGroup($id, 'IconGroup', '<$SocketDotIoLg>', $name, $tech)
+!endprocedure
+@enduml

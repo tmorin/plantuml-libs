@@ -1,0 +1,16 @@
+@startuml
+sprite $ElloMd [14x14/16z] JOw54S0030AZzSB-svQh_qayOEOpJsOtqU09MfFcIzkChuBppyG_sx_uTpQSjxbJx8cpFnVKgvcSPgZCxbI1EDMndKVzEJiBuPEkjycL7W
+sprite $ElloLg [20x20/16z] {
+TT055iGW30JGa25lWyxzJxjrR_yJd8YCKBWga9LLhfgjMyuJbycFl6t2U6DIAczgu9FnAVEfyKD_cSAvScnlNRbItsCWSXOnvpBdtA1UgolQd3Di_KXr_TRk
+RI7zlLUJUE_f95XkPCiMP38
+}
+!procedure Ello($id, $name="Ello", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Ello', $name, $tech)
+!endprocedure
+!procedure ElloCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElloMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElloGroup($id, $name='Ello', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElloLg>', $name, $tech)
+!endprocedure
+@enduml

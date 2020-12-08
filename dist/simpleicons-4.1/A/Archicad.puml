@@ -1,0 +1,16 @@
+@startuml
+sprite $ArchicadMd [14x14/16z] TOo30G1H34FJRpRxJtisNari6Ey4En9h3NlXbHDbBGBL0Pb-cR3958HryfPzVT0ukKwBXTGdOpW-mxBkHTBGQFRAXiw44wfSgXpmomW
+sprite $ArchicadLg [20x20/16z] {
+ZSv50eKm303Hr8rcxd_QBpXPyJPG7xbntZinV0ZUpBG9seDSahBIQxA0rk2BCewf2ijwLu8agyonx0Pj_OcmkFF4NDScyup883yTZN88isyhnTPFXbnSpI8D
+7ktWepdfIchZoBYmTjkv8HP4iKAGLxu
+}
+!procedure Archicad($id, $name="Archicad", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Archicad', $name, $tech)
+!endprocedure
+!procedure ArchicadCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArchicadMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArchicadGroup($id, $name='Archicad', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArchicadLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $QiMd [14x14/16z] LOt50G0W30EBEzb_MbplLOdGWiFiaKafWbgB1H3eBCaYABSScH621E-RWYL2bD1zqp3F9X3d9gZZkoceiDe2WCWvBQJjwik_vMypSwi
+sprite $QiLg [20x20/16z] {
+ZSy50iGW30J0uAaa-__NLl3psmemE4s9GAbyDfkOaujX8bPSIJHb0N0fktLUHpm9s8wX0h5KJ2iv1LCr-6812DrYCLzgnK8nezYkGczJIoKhm7NSHZLMWOqL
+xEvXDKvmXusRhyktyYHrfrSZ-TFMDsQbsGa
+}
+!procedure Qi($id, $name="Qi", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Qi', $name, $tech)
+!endprocedure
+!procedure QiCard($id, $funcName="", $content="")
+  IconCard($id, '<$QiMd>', '', $funcName, $content)
+!endprocedure
+!procedure QiGroup($id, $name='Qi', $tech='')
+  IconGroup($id, 'IconGroup', '<$QiLg>', $name, $tech)
+!endprocedure
+@enduml

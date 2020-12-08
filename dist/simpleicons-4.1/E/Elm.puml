@@ -1,0 +1,16 @@
+@startuml
+sprite $ElmMd [14x14/16z] JOq53aGX34HNW7fx_zjkAliDU1b9PaFaHwTmjYKiKHGLKVoC_6m4eFqUUJp2WRUMr6MsD6nDkfOLIlbJMJOjCLivTBI4zX17J3uL6D4-jHZv0m
+sprite $ElmLg [20x20/16z] {
+NOu53i0m30DLHxI5_l_QSUl9HUU2PjdlsX2V0lnJlbIwG97x7y9mBnk3SEnTVHq72D-M0PUQV1WPjoKGFjLa0SHKBEYI6zhZ5Mn498rqU28QkH0X5YBS5Y8y
+0G
+}
+!procedure Elm($id, $name="Elm", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Elm', $name, $tech)
+!endprocedure
+!procedure ElmCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElmMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElmGroup($id, $name='Elm', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElmLg>', $name, $tech)
+!endprocedure
+@enduml

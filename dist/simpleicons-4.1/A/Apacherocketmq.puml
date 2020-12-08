@@ -1,0 +1,16 @@
+@startuml
+sprite $ApacherocketmqMd [14x14/16z] HKs50GCn2CIrsN_SliK5E8DtzG_Eucu-NJFrRZG1KbTNV9DhDbG2KasJwARXFgckH7BFPXSfwRQw-xSHzZOLRURPKNU3RUuPvjeuGyQOnPA-wm8
+sprite $ApacherocketmqLg [20x20/16z] {
+NP250KKX201f3C3zf_tv-kopWGsg8dZ0LVnquPOFrUAZsqrH2e0atPRDRpsl2p7qssZWwIG80SnIBbkxTzOrncNpDFou3ZPF5qo2h21nkcHr4WVEquL6Oo-N
+k3e4e9L-d6VQ6o2YI-jgMvIchio8oAMpwEV6eCvY9jo_VJYmAeC7L8lWYVlHVGC
+}
+!procedure Apacherocketmq($id, $name="Apacherocketmq", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apacherocketmq', $name, $tech)
+!endprocedure
+!procedure ApacherocketmqCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApacherocketmqMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApacherocketmqGroup($id, $name='Apacherocketmq', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApacherocketmqLg>', $name, $tech)
+!endprocedure
+@enduml

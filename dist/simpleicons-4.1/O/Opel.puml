@@ -1,0 +1,19 @@
+@startuml
+sprite $OpelMd [14x14/16z] {
+NKs54G0X30FgTko_xRlch8ss3Hsnjmk3pVXwEHLHayzdftjixuZJqrUMr041OArHRbxXaNFw9ZHGQjtdp9KixgBhtEf4S8CrVBN4s1RYMdZMvLnVQJ6JrVR7
+0W
+}
+sprite $OpelLg [20x20/16z] {
+VH250S0WQ67G_F_jSDrADtH_R-XlXeGI3yUJ2OrAIeKCTnFh6Z0gRr5wPEWIcVnKPhGqX-6v6uKcOiR2ouk48e7L491OtIstIX9pzj8gP7DNfd1RZMWfKNh9
+bLP9eYBIkSVICTbv5a_hpFlwlUBdRiiDSahvV8C8M6wLxZSTVay-0G
+}
+!procedure Opel($id, $name="Opel", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Opel', $name, $tech)
+!endprocedure
+!procedure OpelCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpelMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpelGroup($id, $name='Opel', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpelLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BugattiMd [14x14/16z] LOs5OGGW4C22Ezb_sdfV0kV66-b915-OU6gjNNjhovuJ4BtXMnze9nNDCJONT1-Kx-WSFNjVE-GHaaP8-hV507otrFPpeRRfy8KLSlec_nXuvnC
+sprite $BugattiLg [20x20/16z] {
+ZOv50iGm30F3TiZw_szNsN9FdOiWOBkFw1qHATuvl9c9dTaaHaEM1A2uHGTqQQ76w1-T7-YKL9dQtYNyEwKqu--DpEqpUGtssptE8xP9-j-REGwWnPHItVuB
+ATxcqeJmt8KBs1hZRrqsjEthnuo8DvQTlYZ1VUO7
+}
+!procedure Bugatti($id, $name="Bugatti", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Bugatti', $name, $tech)
+!endprocedure
+!procedure BugattiCard($id, $funcName="", $content="")
+  IconCard($id, '<$BugattiMd>', '', $funcName, $content)
+!endprocedure
+!procedure BugattiGroup($id, $name='Bugatti', $tech='')
+  IconGroup($id, 'IconGroup', '<$BugattiLg>', $name, $tech)
+!endprocedure
+@enduml

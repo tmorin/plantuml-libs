@@ -1,0 +1,16 @@
+@startuml
+sprite $StripeMd [14x14/16z] JStL0S0m24LH9AxxRrjUgDqlJfI8qlO2eVvNtdVoR6MDTJ0qJ8MUAawj8YvPVYqxTJWJUQ51uvna67Snj5MY9jDyVZZLloP3alkokG0N
+sprite $StripeLg [20x20/16z] {
+JP350SH030ENqOxwh_P85stcEMQ7BmCtbWA9I-wwtPQIgpXu8ApSOnfWWTWl8NuRZ_vqQ46e5jRJSKq3vh6FzQhaW2YIUJh83eVKZJtPClxjJrwPtRpzzABJ
+2soEpIsZd9ZiupWuq-A0iAmzwhGBy5MPzGO
+}
+!procedure Stripe($id, $name="Stripe", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Stripe', $name, $tech)
+!endprocedure
+!procedure StripeCard($id, $funcName="", $content="")
+  IconCard($id, '<$StripeMd>', '', $funcName, $content)
+!endprocedure
+!procedure StripeGroup($id, $name='Stripe', $tech='')
+  IconGroup($id, 'IconGroup', '<$StripeLg>', $name, $tech)
+!endprocedure
+@enduml

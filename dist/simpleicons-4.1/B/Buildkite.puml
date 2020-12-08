@@ -1,0 +1,16 @@
+@startuml
+sprite $BuildkiteMd [14x14/16z] VOfL0iGm24G7tQro_zkMJEKpBm8Zc60AaYdzYmmTUuKu0-szoZl98RseTAbF_VxzcGdLTbO3COrQ3GSL86xz3RM0K7NXus-OSm4
+sprite $BuildkiteLg [20x20/16z] {
+fSr70W0H50DGlPFxttQYJTlAIXx-5mSn-ZbxFukKTgahS7THLl6c0Z0iJatLZZADnKyqk4s7zZCL6x0-J_EXZIiZxtTb2DznlHhlib5r6TSRxP0j3xSDvSRR
+abYvBMlniNRB7HcCECq5
+}
+!procedure Buildkite($id, $name="Buildkite", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Buildkite', $name, $tech)
+!endprocedure
+!procedure BuildkiteCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuildkiteMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuildkiteGroup($id, $name='Buildkite', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuildkiteLg>', $name, $tech)
+!endprocedure
+@enduml

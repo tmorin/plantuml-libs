@@ -1,0 +1,19 @@
+@startuml
+sprite $SketchMd [14x14/16z] {
+RStL0KDH20FGN1SWsN_QklUTBnm0VMsplJgkYlF62u3aeajEUKApSDE5EGtEKRUR-Qw3dPeZpDrYJDaCBTqiHKBMSq_v-e7tJ1LNBKAAQBWRrspWQKWJRtlZ
+m1a
+}
+sprite $SketchLg [20x20/16z] {
+VSv50iGm241HfaqJWltxdtRSxUrmv6XfNQVPrDuMkMf3pIFSTBHRge2216exfvOCy89oY3nFUpaM7AKHvI9T2RVWBCm3bSpKTGi_YsqTMItJnp9rdkbSrDCJ
+wDmDeAqDV72b0QTlEepYh1Iwd0nIEPk9oiN4yloVOtBZwHnvXjpj8X8oSYSFYoTKhFAi1KIJLwreygvt-US
+}
+!procedure Sketch($id, $name="Sketch", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Sketch', $name, $tech)
+!endprocedure
+!procedure SketchCard($id, $funcName="", $content="")
+  IconCard($id, '<$SketchMd>', '', $funcName, $content)
+!endprocedure
+!procedure SketchGroup($id, $name='Sketch', $tech='')
+  IconGroup($id, 'IconGroup', '<$SketchLg>', $name, $tech)
+!endprocedure
+@enduml

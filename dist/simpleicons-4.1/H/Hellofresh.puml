@@ -1,0 +1,20 @@
+@startuml
+sprite $HellofreshMd [14x14/16z] {
+BOe50e1G24DHFnsx_sdjHxFHpI7U7Kmlcte1oEDLfWSp3TYYVH20kNO1NEDUeNS4K4XHSGsnn01kPXKHLMYWh38pp0q1j8MAf0g3yOWYcknP1E0rrW07vU1d
+5jrmlxjjz74mhs-_
+}
+sprite $HellofreshLg [20x20/16z] {
+LP25SKGn4CK-BDFhlzliv5XcUL37FoTfTgVHURovnNBG8TTRQKHMOsbvc3EG1M1s02RtgiGaWB1aB5F7uPWM098kOm7W8e1AnvFIrNBTtW5sKOxzSMu7UW2x
+WzM7cjKqrc4NbxfbMiNqYiGY7SZfIWvJmB1GfQjHgWG9S6D9DHEbAd5Yr0aiPdu5Trpg3ZaUBbsSFNC6UJnSzZuUrDRAmZVvY4Ksm8FMJr4huBVeSbxNzSd-
+1m
+}
+!procedure Hellofresh($id, $name="Hellofresh", $tech="")
+  IconElement($id, 'simpleicons-4.1/H/Hellofresh', $name, $tech)
+!endprocedure
+!procedure HellofreshCard($id, $funcName="", $content="")
+  IconCard($id, '<$HellofreshMd>', '', $funcName, $content)
+!endprocedure
+!procedure HellofreshGroup($id, $name='Hellofresh', $tech='')
+  IconGroup($id, 'IconGroup', '<$HellofreshLg>', $name, $tech)
+!endprocedure
+@enduml

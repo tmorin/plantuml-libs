@@ -1,0 +1,19 @@
+@startuml
+sprite $QuasarMd [14x14/16z] {
+FOu5iaH120E3x1IZVV_JVjadNOAJw9y9Go-Bqxw9jMwTOTMzDtLEqXK7E0vRPT-bHVMDIH6IUQM2Zn9I4vUSgVYlFeIg_Dba1wpsVLBQLF--3dNouDQ6zx91
+jzxqfHsMNiRZ-XS
+}
+sprite $QuasarLg [20x20/16z] {
+RL050WGW21DRyl-_lN5Tiu5DeDom0zZtnxjj_TXirTUJYOu7Ti5Y2BGHqSvLYn7h4QE8HTIH9Zf70p3AlTAXSaKx6QY8w-K5OkjGlURGLU6Ql5jILWXsI2ay
+zoHNak-s8caZQflddPi1J4KDsmiW6rRukHU5b2hUKpIjUZB37GCsewpDaIZ3XBrbRRXA9PRCqm-Hl9fOb_tqTFtfytJ8pllZ0W
+}
+!procedure Quasar($id, $name="Quasar", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Quasar', $name, $tech)
+!endprocedure
+!procedure QuasarCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuasarMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuasarGroup($id, $name='Quasar', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuasarLg>', $name, $tech)
+!endprocedure
+@enduml

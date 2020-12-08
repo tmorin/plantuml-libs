@@ -1,0 +1,19 @@
+@startuml
+sprite $ScalewayMd [14x14/16z] {
+DSxL0S0W54FHO9LdsN_Q5hte-OBKoEYHbe7oKj-UaZTmXs6Mb0LFA9gP5IJAbD2z01PB0UGCNUe7GevaI8zoEPelP7DELM56CRSsX49B64tXvlYRl491hofd
+7Jy
+}
+sprite $ScalewayLg [20x20/16z] {
+VSz7SWKn203HHZamm_rlQugHi_rxHRs5133iixiJJVlI520L7-fJtsOBoCqkuIJ-JeFIR0lIl1mFgU2cyhof0iciX86wN0CGjNficqEqhNrOWwpjb_dqseIc
+-PT5unYvFjPLxsDnRmAVlNLU5esxK_S42QEP3U4a6iOoqzwYEiqAdamxdJUZFAyZLmVU
+}
+!procedure Scaleway($id, $name="Scaleway", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Scaleway', $name, $tech)
+!endprocedure
+!procedure ScalewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScalewayMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScalewayGroup($id, $name='Scaleway', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScalewayLg>', $name, $tech)
+!endprocedure
+@enduml

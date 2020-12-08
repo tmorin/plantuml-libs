@@ -1,0 +1,16 @@
+@startuml
+sprite $LgMd [14x14/16z] bKt50S102CivplxRrli_N1DiI2dufIyDkMQdLwXQfc0HgWgPcuLZCOZgF3VdwTErK0zpmdIP8dQYA9qGjPx-CkpB0G
+sprite $LgLg [20x20/16z] {
+lKw7OSGm21JDjk04-syRbEyBcDwvSGkHcFnMH0DPmRivniC68giAD7Wts84pC1rTF8QKzCWIizvCJ-HyrDBew5gLh-Kzbxnh7ELUDJDXFNUgzkvL-qV29my6
+bhClp8q5xRwmDB6gqBYR_W
+}
+!procedure Lg($id, $name="Lg", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Lg', $name, $tech)
+!endprocedure
+!procedure LgCard($id, $funcName="", $content="")
+  IconCard($id, '<$LgMd>', '', $funcName, $content)
+!endprocedure
+!procedure LgGroup($id, $name='Lg', $tech='')
+  IconGroup($id, 'IconGroup', '<$LgLg>', $name, $tech)
+!endprocedure
+@enduml

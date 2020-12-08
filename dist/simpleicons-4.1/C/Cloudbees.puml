@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudbeesMd [14x14/16z] DOw53S1G24I_6-cz_QUj4OXoFWnW9B_taRIhVx1pxbXyBrnGze-UKevFQ8qE_hKD76ciMR-_pjdH0VRt_hu-bfZnlRxEvPyehmN5eftBuVZNGA2I_Ah1AUa1
+sprite $CloudbeesLg [20x20/16z] {
+RO-5WG0n2C2WhcJ_QL_EBVLGm_d9Gf037-pbfe7rQRcNmm7TYuQ6kOlp_sE7TBgvn0laqn4_d6NlzUhQ-BTMwyM9Te3Ue9RHQf25K5lF5UfOeYex1Mep-vTN
+LzJxR9T_xkyc6DTz_wCtR7SPsl8WpDqvWwpg1vJh8ymb0IS7bONfvKBiPYEho2y
+}
+!procedure Cloudbees($id, $name="Cloudbees", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Cloudbees', $name, $tech)
+!endprocedure
+!procedure CloudbeesCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudbeesMd>', '', $funcName, $content)
+!endprocedure
+!procedure CloudbeesGroup($id, $name='Cloudbees', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudbeesLg>', $name, $tech)
+!endprocedure
+@enduml

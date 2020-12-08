@@ -1,0 +1,13 @@
+@startuml
+sprite $SpdxMd [14x14/16z] XSc53S0m30LHnmtJtt_QC0bxmgV3JtasyOaUsNa4zJIk9jII6I00JJfwxoLrCMaeds9CiJyDw8nPTdZKI_8LYmUIUBuA
+sprite $SpdxLg [20x20/16z] jSYt0GCX40J0-uV3m_PVhVnYOqqu-8DWbHBF2Yb8p-An76yg6UTOurohfTQgCix16_TYhUhl7E0Y9kvLnpaSL_2clA7SnxLRzcjMZdCotHC
+!procedure Spdx($id, $name="Spdx", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spdx', $name, $tech)
+!endprocedure
+!procedure SpdxCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpdxMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpdxGroup($id, $name='Spdx', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpdxLg>', $name, $tech)
+!endprocedure
+@enduml

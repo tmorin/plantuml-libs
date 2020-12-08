@@ -1,0 +1,19 @@
+@startuml
+sprite $RunkeeperMd [14x14/16z] {
+JOs54G0X30GFY2Av_hlzoUWlnCq5FpBmOyQRa5EL0ysxmHVEYsOM3S2YTAHyRKOvEdUukeKAs3s3kjQuDJ0V5nWizbZmOL7tYzdNRY08hxvsyiXaOZ41fx9u
+q5uL0vwEPhalu0C
+}
+sprite $RunkeeperLg [20x20/16z] {
+PP25OSGm34LZ9bbl_srhx54uWayvFJz7pR-rN8lPNyQPMpI27w_OklPwgm6rJW25RayneOg42Kxxvu73f9n1Lv03r0YN1FMVjKmhfDtUkzQ1yGFFcijXqfmP
+jQWI1NMZLdHechMwv4rOsvQCI78YBIqXAO7VTD8tfTEWQxMRfr2FWQ0o1QO10t4fKmDPviJyenLXm02SY982ugVcwFwZT6un_m4
+}
+!procedure Runkeeper($id, $name="Runkeeper", $tech="")
+  IconElement($id, 'simpleicons-4.1/R/Runkeeper', $name, $tech)
+!endprocedure
+!procedure RunkeeperCard($id, $funcName="", $content="")
+  IconCard($id, '<$RunkeeperMd>', '', $funcName, $content)
+!endprocedure
+!procedure RunkeeperGroup($id, $name='Runkeeper', $tech='')
+  IconGroup($id, 'IconGroup', '<$RunkeeperLg>', $name, $tech)
+!endprocedure
+@enduml

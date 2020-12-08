@@ -1,0 +1,19 @@
+@startuml
+sprite $BuefyMd [14x14/16z] {
+9Oo50G0n20DJD-3sd_QrIbHIFW77Q7hNY0Dzi5umgHMouhcgJ2qYoH_K3at6KNkkXjCLd86d1vsX0W7-Twf1qOGVJaAIOI_uIgIDVoYOKl8VbI-nOBwem-ZE
+P_zOmBga6m
+}
+sprite $BuefyLg [20x20/16z] {
+HOu54e0m30IlZgJP__-MgGq7jOkjXkBj0EPOr5Pw0VnnUjfMmwk1AJeMZfLay4WFb64LgCeEbtIFknHUkbIP6I-UfPXdqGKUjUxA5Vf8e8UoMKg3Lw43OsND
+F4j12N0VVjDHcIdX0OuvHZ1WZS4wj4P82wakA_Y2KFwBuxcstok7OkES4GDspBNmZuYn6E0xJGvkeuv-hCYKzwVEmWy
+}
+!procedure Buefy($id, $name="Buefy", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Buefy', $name, $tech)
+!endprocedure
+!procedure BuefyCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuefyMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuefyGroup($id, $name='Buefy', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuefyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $LatexMd [14x14/16z] PSx50S1G20DG-6ua-qzRzxuRZhpfCmXr-3lgXEKh0irOHMBnkaHO8aPFzEJLO209Obqtrj8gog81QsqjBLostfUeo2vreWKvH2Jz__Ot0m
+sprite $LatexLg [20x20/16z] {
+dO-r0KKn30CTHalxJ_iOqtouyeoIh_5cDCPgZuEBcT1YNqu1LNIt3-sEn689jvXIWzcTgeBi8fLTQ_9Mrj4EaYKHhCuvi-q3Dm3kQ_lUjHDae_MhZx3NVthA
+TkLeHAzwZwwu7CggcfERiBwNtl4ScfSH9_yn0m
+}
+!procedure Latex($id, $name="Latex", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Latex', $name, $tech)
+!endprocedure
+!procedure LatexCard($id, $funcName="", $content="")
+  IconCard($id, '<$LatexMd>', '', $funcName, $content)
+!endprocedure
+!procedure LatexGroup($id, $name='Latex', $tech='')
+  IconGroup($id, 'IconGroup', '<$LatexLg>', $name, $tech)
+!endprocedure
+@enduml

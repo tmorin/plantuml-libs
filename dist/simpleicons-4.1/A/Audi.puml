@@ -1,0 +1,13 @@
+@startuml
+sprite $AudiMd [14x14/16z] dKor0G11329k-y_xBlt51S2YiRh85UoAIfcM6UcHS0PbuWf2VLkSMuPqSmzVo5z5NB5gEm
+sprite $AudiLg [20x20/16z] nOxL0KD120Jd3DYp_hkDUmfuyuUiS1J9hALgbhDPJSqieIxNx1vZXFSfLy_XKBPWJeXTm0KGrgaHbMu1p8zTG_VTlzPqpOYV39BvPnUtn56S0G
+!procedure Audi($id, $name="Audi", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Audi', $name, $tech)
+!endprocedure
+!procedure AudiCard($id, $funcName="", $content="")
+  IconCard($id, '<$AudiMd>', '', $funcName, $content)
+!endprocedure
+!procedure AudiGroup($id, $name='Audi', $tech='')
+  IconGroup($id, 'IconGroup', '<$AudiLg>', $name, $tech)
+!endprocedure
+@enduml

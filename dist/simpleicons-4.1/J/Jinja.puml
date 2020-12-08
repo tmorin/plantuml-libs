@@ -1,0 +1,20 @@
+@startuml
+sprite $JinjaMd [14x14/16z] {
+HKc50GGn24lbA1ROVzftGQBup_RuoZ4lRvBc7idgRefblwRQTG1ZfvzMRH40AyYePAK_k-MAWHruZCPKbKFZVdHMaKbXTYHmGgYnqbeT49yflaBwCi389gKU
+c83cLMgxj2s0kSOQO-WwQm5t
+}
+sprite $JinjaLg [20x20/16z] {
+NKw7WI0X25mLoJ3zT_kwVvcScUSFZHt-jxIaVCtFR2vY3G3H7MxkaLdTk1HSZTyaToTlr4Sy8JG_3ctewUXZOEAtI6ee_ppHwzQu4sagJ5OqFs7CfjTBZTUp
+1CtUcnJkMEAdlHMRMZe9gY3lUMg2B6GReHlLTttj9WEdFwq6rRptTpw2OVOq2vXkRUrQTou6H65Izx-XSIJUUusQPuvxETZEdDkHZnz3arW6Z17y7_OnhnSQ
+DCSD_m4
+}
+!procedure Jinja($id, $name="Jinja", $tech="")
+  IconElement($id, 'simpleicons-4.1/J/Jinja', $name, $tech)
+!endprocedure
+!procedure JinjaCard($id, $funcName="", $content="")
+  IconCard($id, '<$JinjaMd>', '', $funcName, $content)
+!endprocedure
+!procedure JinjaGroup($id, $name='Jinja', $tech='')
+  IconGroup($id, 'IconGroup', '<$JinjaLg>', $name, $tech)
+!endprocedure
+@enduml

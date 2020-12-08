@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrosoftofficeMd [14x14/16z] ZOx50G11309Pzz1_j-Ukyua7q6CRsLhr632PP4wrwhv87EW7CK47Kf990V0P9fAkxs-L-LtPXvcE35WhA3YfTLRlqMNdhCTMbc3wf0C
+sprite $MicrosoftofficeLg [20x20/16z] {
+pP250GGX3C1gkEq_BTxN1IvuyCA6GflKcXs18ccxLeDSmtjLAom-Dx-Lg-sujSzNdFLTv7rTpYo7UPeiSxITtQxCmnd-7Jx71VXs48e04g5x_srHlcEm-OxL
+XJMcKU2DAIqvFli6
+}
+!procedure Microsoftoffice($id, $name="Microsoftoffice", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Microsoftoffice', $name, $tech)
+!endprocedure
+!procedure MicrosoftofficeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftofficeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftofficeGroup($id, $name='Microsoftoffice', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftofficeLg>', $name, $tech)
+!endprocedure
+@enduml

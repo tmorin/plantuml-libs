@@ -1,0 +1,20 @@
+@startuml
+sprite $IconfinderMd [14x14/16z] {
+BOl50G1120FnDI3zTtiwhoZTQ9rTIZ-htMhzvYInHP-lgNkhaPYtCUY_Xv5dtec7lu_4iCQHX74R40VJI96qPsPCtBF0eZZJXXJMGebgJH7bUp79JQfJw2MM
+vhRPETrdeMhU8O_JGE_1H1S
+}
+sprite $IconfinderLg [20x20/16z] {
+JSxL0Iqm20FGKAG6PFzfdrm_dsZm89jLt88VupAJT-3BkXomQlkMc8BXPiLtKLa2zTX9jZvAaXnuaDdCnv_5YJSjBa2q7sDYDluNknK-UO2ujU9c0C65cvmZ
+IMvOCmTk2qaFyXm75haGr2R3oGayQe7HC-zQyeY0KUm1vCaZHvpCEOjqSToiY-cm8iboUFol9U03q0W5B86Rv1buypGvd1xDxKDaQ5pcPWS0MMHNLlE_9NWG
+szbavxP7vIy
+}
+!procedure Iconfinder($id, $name="Iconfinder", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Iconfinder', $name, $tech)
+!endprocedure
+!procedure IconfinderCard($id, $funcName="", $content="")
+  IconCard($id, '<$IconfinderMd>', '', $funcName, $content)
+!endprocedure
+!procedure IconfinderGroup($id, $name='Iconfinder', $tech='')
+  IconGroup($id, 'IconGroup', '<$IconfinderLg>', $name, $tech)
+!endprocedure
+@enduml

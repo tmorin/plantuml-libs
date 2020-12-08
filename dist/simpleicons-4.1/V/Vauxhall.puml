@@ -1,0 +1,19 @@
+@startuml
+sprite $VauxhallMd [14x14/16z] {
+DStL0GCm24NH5o4AtFsdhVTyuKZbu1VOHIz6h9sG9XLZIBqD1zF9RRCNamvPC-AkSV5HakNNPzyGInltqzI0AYtmtJI-sOLabGriTGZ-RiBQN3jyPVry_qsO
+92FpdxoK5U2hI7e2
+}
+sprite $VauxhallLg [20x20/16z] {
+JP050WGW2C2m0t3__-t9zUpPoAKek1z0Yxofnb4Dv-sj9cUKlenWlfNckx_LDizBbeec2MwT5MYYxjFCjHGlrnfuWcMdp5x1VKg9XSStf_VkmF4K2xVR6hcK
+3NYzcnVuiLaaji0I2GSlryFjS1hEjOhCS9vU6npGtZV1b6ondd_Kesvgw3xyOIdNMqdxiorYW1LP1B_039ZshuBwCh-O1gbk1zyjIV
+}
+!procedure Vauxhall($id, $name="Vauxhall", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Vauxhall', $name, $tech)
+!endprocedure
+!procedure VauxhallCard($id, $funcName="", $content="")
+  IconCard($id, '<$VauxhallMd>', '', $funcName, $content)
+!endprocedure
+!procedure VauxhallGroup($id, $name='Vauxhall', $tech='')
+  IconGroup($id, 'IconGroup', '<$VauxhallLg>', $name, $tech)
+!endprocedure
+@enduml

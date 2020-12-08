@@ -1,0 +1,16 @@
+@startuml
+sprite $AtlassianMd [14x14/16z] JSc30G0m30J0fFRlFstj-6Y-bEWzBeNVPW3tjW1yc73mR0UD3BZ8I0uNBU1na0iGmqRH2Lbjz6LUDs8saWjd3KGB6m
+sprite $AtlassianLg [20x20/16z] {
+NSw54SGm30LHGHYq_LTx69F-yCupo3EDC4apyDnsE5BI2oB12M0Vsmha6pSAp0qRMu9ssKA2EzSS_tOK5h2T_nPM69mx_OqU0ClzG2yCbhL1TNxRD9xeijIV
+DHWyJYeqditI8F_T9cBbwJS
+}
+!procedure Atlassian($id, $name="Atlassian", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Atlassian', $name, $tech)
+!endprocedure
+!procedure AtlassianCard($id, $funcName="", $content="")
+  IconCard($id, '<$AtlassianMd>', '', $funcName, $content)
+!endprocedure
+!procedure AtlassianGroup($id, $name='Atlassian', $tech='')
+  IconGroup($id, 'IconGroup', '<$AtlassianLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $EnvatoMd [14x14/16z] JStL0S0W30JGmvtRVzeMX_SL3oP7iegLoC96pKICXBw7GEAG0HbXE5Me695s9dqDWfkCJFhDQjn95Qxmo53-PhP_lgr6hJGBT6Ctsnx-
+sprite $EnvatoLg [20x20/16z] {
+PT253K0n549HwlxOVzhlKZdn6sBWOoeFJQFZX0SnNVAynMx5Hr5u6E7BN1C5LVXnPseQZhy0e5QWT2r1MsPeTZ9SO8OVMyniAYsDjh2J419PXPq0wpbnK8QT
+zvZCGS112pi55zl5glk7BqdXfMnkb1eDBZi
+}
+!procedure Envato($id, $name="Envato", $tech="")
+  IconElement($id, 'simpleicons-4.1/E/Envato', $name, $tech)
+!endprocedure
+!procedure EnvatoCard($id, $funcName="", $content="")
+  IconCard($id, '<$EnvatoMd>', '', $funcName, $content)
+!endprocedure
+!procedure EnvatoGroup($id, $name='Envato', $tech='')
+  IconGroup($id, 'IconGroup', '<$EnvatoLg>', $name, $tech)
+!endprocedure
+@enduml

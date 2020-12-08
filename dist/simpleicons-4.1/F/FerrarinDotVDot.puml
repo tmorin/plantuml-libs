@@ -1,0 +1,13 @@
+@startuml
+sprite $FerrarinDotVDotMd [14x14/16z] hKe50S0m32jJ_ElzjsaeXsYbv1QVFfUveZ8xnziG4TQH7g7GuMOw2M9wJsYbVW
+sprite $FerrarinDotVDotLg [20x20/16z] pOD70KCn34FbRIk3Fzps_17a3JnELtmmutWlw-kp8xRxRPlvJotAbFaEFQRCG8saeGq-RWLjFCuF
+!procedure FerrarinDotVDot($id, $name="Ferrarin Dot V Dot", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/FerrarinDotVDot', $name, $tech)
+!endprocedure
+!procedure FerrarinDotVDotCard($id, $funcName="", $content="")
+  IconCard($id, '<$FerrarinDotVDotMd>', '', $funcName, $content)
+!endprocedure
+!procedure FerrarinDotVDotGroup($id, $name='Ferrarin Dot V Dot', $tech='')
+  IconGroup($id, 'IconGroup', '<$FerrarinDotVDotLg>', $name, $tech)
+!endprocedure
+@enduml

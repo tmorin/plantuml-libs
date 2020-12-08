@@ -1,0 +1,16 @@
+@startuml
+sprite $DevDotToMd [14x14/16z] VSVL0SCm30HGiyMt_xHju2VyX9S-b1DSUI2MGM2XjKiZOfjO2D7ei3vfJpoQenNVKctK1ADY5MnWHZYkoadwy0S
+sprite $DevDotToLg [20x20/16z] {
+hOg54GGW30JnUAx_QjzTHbc8xLpPJFm0VyYyjdnHey-KFfG4J5SNLHlFvLW3_UuQ5iqLqERDxxcJMuKHRNRSSpbe2e1HrjtLLctMOU2YkA7YS6473F-87vJD
+704
+}
+!procedure DevDotTo($id, $name="Dev Dot To", $tech="")
+  IconElement($id, 'simpleicons-4.1/D/DevDotTo', $name, $tech)
+!endprocedure
+!procedure DevDotToCard($id, $funcName="", $content="")
+  IconCard($id, '<$DevDotToMd>', '', $funcName, $content)
+!endprocedure
+!procedure DevDotToGroup($id, $name='Dev Dot To', $tech='')
+  IconGroup($id, 'IconGroup', '<$DevDotToLg>', $name, $tech)
+!endprocedure
+@enduml

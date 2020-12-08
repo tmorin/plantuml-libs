@@ -1,0 +1,16 @@
+@startuml
+sprite $GimpMd [14x14/16z] TOg50GCn24MH2Cx-szQzzoBm1OwXTu5-_eJk8lhyU-2bjR8lIZDC9FlCcgorj7sTHNM02eXDFAjWWkbQYdfMGWZxsZ7fPYJExjGvj1NEaDKbl8WhE4KtmpSd
+sprite $GimpLg [20x20/16z] {
+dSe5TW0X34NHu4J__dVR4wXxUqTv2VtV-2HPljlhIOiuawZFgGTm6hoVK9e0jqqttRkFfJXgQpJKpInC32dcR6rwh2hXgqOs1pOjtPMKTT5P5DL1HR8BqTrR
+bDGSOQiBKkkTY1nNp02ibDhRpgEgh5e569Io8MJqZS2cgqdWkkcgIynTkTCRfTP2Nte
+}
+!procedure Gimp($id, $name="Gimp", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gimp', $name, $tech)
+!endprocedure
+!procedure GimpCard($id, $funcName="", $content="")
+  IconCard($id, '<$GimpMd>', '', $funcName, $content)
+!endprocedure
+!procedure GimpGroup($id, $name='Gimp', $tech='')
+  IconGroup($id, 'IconGroup', '<$GimpLg>', $name, $tech)
+!endprocedure
+@enduml

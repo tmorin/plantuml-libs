@@ -1,0 +1,16 @@
+@startuml
+sprite $OctopusdeployMd [14x14/16z] POw50G0X30EBEzb_sXTS3gs7FXn-B1L4BbRYnKgeXDzGw8ZFiiEItHensOsuTN5tJuEE8UMGWPYG8x8AIMjaql0i9LPaIfBmnDolJQdlYfe-NW
+sprite $OctopusdeployLg [20x20/16z] {
+PSw55GCX403HnPtflziyB6V_15sHAR8KBOVABDN8KJYwbXDvAJkoSsDbyDo5JoZ4xnxX6ulzrgYoP2vPbi0bdNlVMCTTlhOkLSKChG0kGNUDMcoj9QWoMZKZ
+cUvu6JGKDTgiIamjQkmPcXxbPtwbPV9pjDt9z0C
+}
+!procedure Octopusdeploy($id, $name="Octopusdeploy", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Octopusdeploy', $name, $tech)
+!endprocedure
+!procedure OctopusdeployCard($id, $funcName="", $content="")
+  IconCard($id, '<$OctopusdeployMd>', '', $funcName, $content)
+!endprocedure
+!procedure OctopusdeployGroup($id, $name='Octopusdeploy', $tech='')
+  IconGroup($id, 'IconGroup', '<$OctopusdeployLg>', $name, $tech)
+!endprocedure
+@enduml

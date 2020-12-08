@@ -1,0 +1,20 @@
+@startuml
+sprite $IheartradioMd [14x14/16z] {
+BKc50GGn329IXRJxR_jo5q61fNEbSxW0c5XrRnLbG2koUlzX0x8srRkuAm6Ggk-8n7UCzvhVIyFVwW17XdUcsNoRT7-o-7voSyq-vvJ3ckOIbnJR0KzpZmot
+Ph3eqRuwCps-BYFpwx_e-
+}
+sprite $IheartradioLg [20x20/16z] {
+HSu14aGH20RW7wZKg_lVTeEP3V050B1hH11bfquu8RvoAPBTSZaqWimIaZ-Z66TRS8X5xv4P2dxcuWPO3dnjn7JZM2lOVDwpM9xetvVTz8KJ9I4Kq4WkUAWH
+1724RdgOTsrRIV_GRVhVTBfosui-Pw7waeLEWiJOMAIjIShtVqijgnb_-ad_wZOMhamgMRN3vhRQ2ahDeUQDjPvRHwTy1zH7RoExOzGAK-jeL0dbMA-ZrTfe
+ZjhQd0tu0G
+}
+!procedure Iheartradio($id, $name="Iheartradio", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Iheartradio', $name, $tech)
+!endprocedure
+!procedure IheartradioCard($id, $funcName="", $content="")
+  IconCard($id, '<$IheartradioMd>', '', $funcName, $content)
+!endprocedure
+!procedure IheartradioGroup($id, $name='Iheartradio', $tech='')
+  IconGroup($id, 'IconGroup', '<$IheartradioLg>', $name, $tech)
+!endprocedure
+@enduml

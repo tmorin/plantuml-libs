@@ -1,0 +1,13 @@
+@startuml
+sprite $ValveMd [14x14/16z] dSMt0G0n349Hv_pH_jDUhDpwIO0xv3UmMEAdsReb9hGvXZrDNhDP4PZuJ2qz_2_yumxT
+sprite $ValveLg [20x20/16z] nSw55GH120FGSvpqt-qb-xQ7-UCAZqEUQazMJLKuRQdfQbMrgktEXIrgK9rWPJEVUIQi465m0x2VWBsuYDKq0nIDGA6ju0EfwtEPBbPH7gftCiJP8Ny
+!procedure Valve($id, $name="Valve", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Valve', $name, $tech)
+!endprocedure
+!procedure ValveCard($id, $funcName="", $content="")
+  IconCard($id, '<$ValveMd>', '', $funcName, $content)
+!endprocedure
+!procedure ValveGroup($id, $name='Valve', $tech='')
+  IconGroup($id, 'IconGroup', '<$ValveLg>', $name, $tech)
+!endprocedure
+@enduml

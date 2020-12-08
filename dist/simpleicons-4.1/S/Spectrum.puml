@@ -1,0 +1,13 @@
+@startuml
+sprite $SpectrumMd [14x14/16z] LSV50G0X00Emuaxtd_O49x-mIHeDkoZ71dkD_XhjDKhKOn4GGiTPXPyRSsXYN-hJVRLFi4DtBxMa5m
+sprite $SpectrumLg [20x20/16z] ZSy54e0m34JH25Bl_K-BPmU7F_wggLlP2LdL2itUe7ArMbhOBWVR8snNTsD5hrO3KRdWyazMLuuRbpZi44Fki3NZ0lDaELY2AQp0k292VyqPkH4
+!procedure Spectrum($id, $name="Spectrum", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spectrum', $name, $tech)
+!endprocedure
+!procedure SpectrumCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpectrumMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpectrumGroup($id, $name='Spectrum', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpectrumLg>', $name, $tech)
+!endprocedure
+@enduml

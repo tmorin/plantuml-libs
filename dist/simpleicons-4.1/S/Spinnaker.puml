@@ -1,0 +1,16 @@
+@startuml
+sprite $SpinnakerMd [14x14/16z] JOp50G0X0CDmX-m_xRcqlrhCBrV5c33KDRG2_vau8Bx6DY2zBYsWlFIEk0h_igpJ33NDNhXwclNCueAPhyB7laO93sm7
+sprite $SpinnakerLg [20x20/16z] {
+VS-53GD020NGdXlmzv-sBaXIuW-_-DWrK3hHAbfinV1KW6qbjGDGCZOs05XR_B2igHrvM56KrvDGbNM6jqe2sDwy-G5wHreVwd-ed3VnTq5zawoaZdtIAbz9
+anzTuokbB1PQFQlFRm
+}
+!procedure Spinnaker($id, $name="Spinnaker", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Spinnaker', $name, $tech)
+!endprocedure
+!procedure SpinnakerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpinnakerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpinnakerGroup($id, $name='Spinnaker', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpinnakerLg>', $name, $tech)
+!endprocedure
+@enduml

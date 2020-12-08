@@ -1,0 +1,16 @@
+@startuml
+sprite $FirstMd [14x14/16z] VKw74KDH219Kv6N_WUFzA-cnTub_13mbVUgguAhE2MHsCNjJEqLRQMzgKIAmyIHFvpeLaUHCQKYA9GoQq1d9DmvYHuBZ7J5VOCH_kWC
+sprite $FirstLg [20x20/16z] {
+jSY7OKD120DGIS3Hxky_Rdesi1yTl1ZLZdyo_enOYj2Nd_dzz1p0d78BCR__o4uarBjNh6cIg75LyfYCjtXQugv2dP1G4M8a_Ba8AXCZqcYYvYuocMACEIEe
+qHIp3-ICWzZl5_80jlUucSybnu1m2JZxFC_MU1i0C_mY0AtX3Ju1
+}
+!procedure First($id, $name="First", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/First', $name, $tech)
+!endprocedure
+!procedure FirstCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirstMd>', '', $funcName, $content)
+!endprocedure
+!procedure FirstGroup($id, $name='First', $tech='')
+  IconGroup($id, 'IconGroup', '<$FirstLg>', $name, $tech)
+!endprocedure
+@enduml

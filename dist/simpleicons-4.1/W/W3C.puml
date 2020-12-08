@@ -1,0 +1,16 @@
+@startuml
+sprite $W3CMd [14x14/16z] ZS470GCn34Mnz-rCZuO_sr8uYS-cT61dNDRscBJKiwxdYGxU7675CeXSltFNUiC5CtypsvajGFiH3Ie3uS7QwvvozuiCCsuQAvpF_W
+sprite $W3CLg [20x20/16z] {
+hOs5eKCn200F0d5W_sc_jftWNO8R3wCA9e2vcmi8t0sne6LbbKfKdnd22XYbBHVp-ZbLngx6EOnKZY1oSvBL9LrgmGGOwrYSRIMMDN00zRpRubvWbWg0Q9J_
+NWDQEV_iKbOr4TfVXGOZX1wSBJyL1xjW7MnWcJLevuRnGLp_jF0qtm
+}
+!procedure W3C($id, $name="W3 C", $tech="")
+  IconElement($id, 'simpleicons-4.1/W/W3C', $name, $tech)
+!endprocedure
+!procedure W3CCard($id, $funcName="", $content="")
+  IconCard($id, '<$W3CMd>', '', $funcName, $content)
+!endprocedure
+!procedure W3CGroup($id, $name='W3 C', $tech='')
+  IconGroup($id, 'IconGroup', '<$W3CLg>', $name, $tech)
+!endprocedure
+@enduml

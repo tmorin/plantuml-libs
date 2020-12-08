@@ -1,0 +1,13 @@
+@startuml
+sprite $VirustotalMd [14x14/16z] POw50S0m408Xxkm_RTrxqNTgRwqVj5QbSIBHgT1iC0fmIjW9mchcophDouBTpSigftKP_owNiLfqggJXUgBQIvbxCGC
+sprite $VirustotalLg [20x20/16z] TT350SKW44LHx6j6-gysYhn1xlBWR9E8YTX6dv-g4CIgpdrLalEroAUToC7Lmctkan4ipqJBCwCnM0u6Q4qI6D3w32IqRwPiixTD_s3sLyHdmYO_wG
+!procedure Virustotal($id, $name="Virustotal", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Virustotal', $name, $tech)
+!endprocedure
+!procedure VirustotalCard($id, $funcName="", $content="")
+  IconCard($id, '<$VirustotalMd>', '', $funcName, $content)
+!endprocedure
+!procedure VirustotalGroup($id, $name='Virustotal', $tech='')
+  IconGroup($id, 'IconGroup', '<$VirustotalLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $KyoceraMd [14x14/16z] PKu30W114Agr-_zhpxxbA61VHSigH-AqPxJUUvThgMlcYbHZ1BZyQzRW5TSimjNE9LEW4k02iMRA0R-iDgvPf29UBE6by5B_EJkM7Lis0m
+sprite $KyoceraLg [20x20/16z] {
+VT350O1044FH3CvQ-k-M3Ex_-D0DzZhEbHf7mzD4XzLpRV8MioeNDGmLp90Mgwbwon5AHhSYWYM6nGBSH6uC9Wlc9bgC4Ic9P1qsOnX4RktDhiy6fBZOunjV
+_tBzv-LiB3pETcpGB1l4nrQ_cpvGDW4
+}
+!procedure Kyocera($id, $name="Kyocera", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Kyocera', $name, $tech)
+!endprocedure
+!procedure KyoceraCard($id, $funcName="", $content="")
+  IconCard($id, '<$KyoceraMd>', '', $funcName, $content)
+!endprocedure
+!procedure KyoceraGroup($id, $name='Kyocera', $tech='')
+  IconGroup($id, 'IconGroup', '<$KyoceraLg>', $name, $tech)
+!endprocedure
+@enduml

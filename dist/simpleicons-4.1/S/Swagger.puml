@@ -1,0 +1,16 @@
+@startuml
+sprite $SwaggerMd [14x14/16z] LOsr0SG03CHaXcJ_TPzHbU40PCPLVKO0SaD0OXCaXnUJp2Aje2siJb07m554kz05K8sCecUucSUfx7tpp_QdtF-KHuEy6_xR8TS1V1C0xRtH2bm1
+sprite $SwaggerLg [20x20/16z] {
+RP050iGW30GJN9Rs_x-5oFbjbOc7Zk90JJ6cYX79bJ5BP8vb8ZjgIEHAQ8OcqrCy-ycLSH0RbhyJFYMmtbdptbN26VCSLlFCwxncQKMObyl2oaZIqUM5uyNd
+XSXquhc5d4FZYNDSJrPAwCw-OkM5LeGzQbnQOqrXdxryzjoqPvlDH_FPYFhF3lxlwdEdhuZSiHPwiImR
+}
+!procedure Swagger($id, $name="Swagger", $tech="")
+  IconElement($id, 'simpleicons-4.1/S/Swagger', $name, $tech)
+!endprocedure
+!procedure SwaggerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwaggerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwaggerGroup($id, $name='Swagger', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwaggerLg>', $name, $tech)
+!endprocedure
+@enduml

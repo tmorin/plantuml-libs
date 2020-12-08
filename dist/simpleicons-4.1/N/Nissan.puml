@@ -1,0 +1,16 @@
+@startuml
+sprite $NissanMd [14x14/16z] PSs50G0n3090KWhbzr_utQykIR2IhS91MGYRYckPdS8Yn8PPnZ0E7cZ4XTNP6JDierbIfqUBD9Ph4gYrBuFrolAgyAk-KAOfmiyC
+sprite $NissanLg [20x20/16z] {
+RP350GGn30CbKx3_TW-Nu_cO4N-e7uWRuX4kDq_RKEp4Y5yPFyhcyY57mURKpRKv5U0UEle8pEEs0iF_lQ56c18242pXvjQhH2ja2tOlxbrTIZSfpKfhvZu1
+WZG5JKb004rchBjCORPpVjlz1zclyf_cl04
+}
+!procedure Nissan($id, $name="Nissan", $tech="")
+  IconElement($id, 'simpleicons-4.1/N/Nissan', $name, $tech)
+!endprocedure
+!procedure NissanCard($id, $funcName="", $content="")
+  IconCard($id, '<$NissanMd>', '', $funcName, $content)
+!endprocedure
+!procedure NissanGroup($id, $name='Nissan', $tech='')
+  IconGroup($id, 'IconGroup', '<$NissanLg>', $name, $tech)
+!endprocedure
+@enduml

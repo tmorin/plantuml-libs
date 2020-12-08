@@ -1,0 +1,19 @@
+@startuml
+sprite $QgisMd [14x14/16z] {
+DOw50S0W40E3ExV_jiLww7iaspWqgqNYaLPa6pN6UioT5hJm4zpDU1K5fbdvwvZ9W26jZ2mDUDR8HfEDargssKVwX2OPjng4c5A7QgLq9zcTFgfPGUAlivjw
+6YuxvfoC6kC3
+}
+sprite $QgisLg [20x20/16z] {
+HO-54G0n20GFuaRwx_PplEqOB3RWaEP-c0aFnLvdHTneVmqPUfGCRsWvLtCfI9L1yn7nkC1h5GykrQ_XOxAHBlqkSwCtCscD9SxPwrZCW33_dQqLlC-9Vd40
+0Zc3awxZqAQCEOFQRlizBEcasuBkMFcjSHgwDgL0r7mygF0BIW2Haab2s-zG6CzzolTLoRG-rXz7go4bhgIS5m
+}
+!procedure Qgis($id, $name="Qgis", $tech="")
+  IconElement($id, 'simpleicons-4.1/Q/Qgis', $name, $tech)
+!endprocedure
+!procedure QgisCard($id, $funcName="", $content="")
+  IconCard($id, '<$QgisMd>', '', $funcName, $content)
+!endprocedure
+!procedure QgisGroup($id, $name='Qgis', $tech='')
+  IconGroup($id, 'IconGroup', '<$QgisLg>', $name, $tech)
+!endprocedure
+@enduml

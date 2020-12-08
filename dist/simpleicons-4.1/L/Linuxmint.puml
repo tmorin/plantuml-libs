@@ -1,0 +1,19 @@
+@startuml
+sprite $LinuxmintMd [14x14/16z] {
+FSc54O1044FHx67hwRzQ75x6_iHKpVIo3Q0VLPqg8Ed1Hyfcd1UsMQdJCBWid27db5UjH0Hwawlciof1bUThv5_pGcVxNS9LU9jc0j43umJaMQCPTlBcMH3Z
+ot6J1mu
+}
+sprite $LinuxmintLg [20x20/16z] {
+VSu50iGW34JHGI9OSl_RBh9kh_xR0hmG7vGZ9br4hpY7sVnDfzE6jAVAC9ll8Fua0N9QJu5h1WslG9wDVGH4O1x9_DO4OWITHxitdlSwZ_BIgilk_vl6zL-V
+hTxRMgSDlpT3Ubhm-ZTq9oG-8iXdWxWHRiXsGtKVjIsr-uH5p9yqR954ovL4V741
+}
+!procedure Linuxmint($id, $name="Linuxmint", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Linuxmint', $name, $tech)
+!endprocedure
+!procedure LinuxmintCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinuxmintMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinuxmintGroup($id, $name='Linuxmint', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinuxmintLg>', $name, $tech)
+!endprocedure
+@enduml

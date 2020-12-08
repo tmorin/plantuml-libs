@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4.1 bootstrap
+include('simpleicons-4.1/bootstrap')
+' loads the ProtocolsDotIo element
+include('simpleicons-4.1/P/ProtocolsDotIo')
+ProtocolsDotIo('protocols_dot_io', 'Protocols Dot Io', 'an optional tech field')
+@enduml

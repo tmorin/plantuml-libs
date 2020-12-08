@@ -1,0 +1,16 @@
+@startuml
+sprite $LlvmMd [14x14/16z] ZOd5WGHG24Dn-4RwhtPtx3Rwq2Jq6reY5lfG6pKRNIIPp8si1fegj2ugOWFGE5oE9LgdqIQoDfJ8p1fx7Qoa6wm3SBhZgdEMFfACSYQcXvJBq0l-0G
+sprite $LlvmLg [20x20/16z] {
+hOv5WaGX34GhYkH3xd_R8PjfMRKzD5xu8TpysKMHgQAnXrAPTLaUtvZdtXtWEHf1o-Sz3uin7RsZVAAUXU8AKB3btioQnK1FH_3CS0AjLSu68mwhpo7SoZb4
+ndakAfy9TEMexDtSRkhPvyuqt122pLCdDzSmRosCH6--vZu6un5LW9W8x_47
+}
+!procedure Llvm($id, $name="Llvm", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Llvm', $name, $tech)
+!endprocedure
+!procedure LlvmCard($id, $funcName="", $content="")
+  IconCard($id, '<$LlvmMd>', '', $funcName, $content)
+!endprocedure
+!procedure LlvmGroup($id, $name='Llvm', $tech='')
+  IconGroup($id, 'IconGroup', '<$LlvmLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CaterpillarMd [14x14/16z] VSdL5SCm341HOOzHR_zf6_pEjSNoGSslh6US2hRAPYINrKY37ODgp22JXYjBpX_Ip-bdxwHhjvhtD8FMHlNkzwsJ4xYdejhcCiSISxLugCcN0m
+sprite $CaterpillarLg [20x20/16z] {
+fP375GDH20FXvmJJVxT-EDlNdIDHabn3_mjhkvyYalUnceu519wa0oFpP3QeiZ1sxWVMW9wYTXXuZl4YiU5UafED6hKQDL6L1jqOZxbdRM3ZiBztwxQssaPR
+r1u_Uk-EzrKUjT3YQJnawNCNl2qUhEeKsSTFNlW3Lh5oZq3J1rMvn0q
+}
+!procedure Caterpillar($id, $name="Caterpillar", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Caterpillar', $name, $tech)
+!endprocedure
+!procedure CaterpillarCard($id, $funcName="", $content="")
+  IconCard($id, '<$CaterpillarMd>', '', $funcName, $content)
+!endprocedure
+!procedure CaterpillarGroup($id, $name='Caterpillar', $tech='')
+  IconGroup($id, 'IconGroup', '<$CaterpillarLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CounterStrikeMd [14x14/16z] JOs55G0W44Bjkjf_MhiJ-0zL7vfPlH64dNLEJ-6b3qxUJ9M7eitfyIxnKwz5iqZgzylWKmN47sN5ABfXAVqJl2M-gtB00SL3Xc4xS5Cq
+sprite $CounterStrikeLg [20x20/16z] {
+ROu50i0W54Bj5kv_sdLORDRxXRWa2o5QhPbEO0dE-U2KUbZchUYDb0-x04gHVwbzqvfszGGvPDsmSh9XRZfPNR2_yEyNHWQGQc3Ed4vQ0L8uGZR8qP-6e3fx
+LuFMe66w8YrpjxNGcWxvCMv_bifrs1ZV8Ji
+}
+!procedure CounterStrike($id, $name="Counter Strike", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/CounterStrike', $name, $tech)
+!endprocedure
+!procedure CounterStrikeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CounterStrikeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CounterStrikeGroup($id, $name='Counter Strike', $tech='')
+  IconGroup($id, 'IconGroup', '<$CounterStrikeLg>', $name, $tech)
+!endprocedure
+@enduml

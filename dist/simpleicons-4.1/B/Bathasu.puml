@@ -1,0 +1,19 @@
+@startuml
+sprite $BathasuMd [14x14/16z] {
+JOs50GCX303X7utT_jisr0_YLf9BW5RUJFwY1RRwExXXNchxLHIa3P9z8gTxnW9IIWrw43Qotazj6CdQfvXgWe_M2BSMieYcqaZqhY9Di84hn9xBeGcxjk0G
+lUouyiGGbL7BuG4
+}
+sprite $BathasuLg [20x20/16z] {
+JP250GGn20G3nB7-k_tbVSxdbWZjnR3C36b_q8u4_KynKeNyfRmAz_mlLQXDSyzVxO2Qk0EVRtSphoouub8fCaouK_g-0QabnR4mIr-Zyu7SvI8ThhYySMSi
+3hb-yucplO9ul6TmctWnaOQyYaDj5XAiFkAomqKjGsDmFjao2Td3YeBAbJn4Qqgfd0lvQsNlMlVrD-0RQNuvrI8dx6t6ozYe7Ink1VLzpX9gRnu
+}
+!procedure Bathasu($id, $name="Bathasu", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Bathasu', $name, $tech)
+!endprocedure
+!procedure BathasuCard($id, $funcName="", $content="")
+  IconCard($id, '<$BathasuMd>', '', $funcName, $content)
+!endprocedure
+!procedure BathasuGroup($id, $name='Bathasu', $tech='')
+  IconGroup($id, 'IconGroup', '<$BathasuLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $LabviewMd [14x14/16z] XKh50S0m2CGXll-qTNirw1dCIhw4HhSFwwM_d7gqaT_aAFmaCKxy2aIqNG0MKL9J5XL4TLP75J0LPc96nErl5tvg1G
+sprite $LabviewLg [20x20/16z] {
+fKtLWGKm28C4gBVxRtjytdF3DP7VXNepqhdBzGphd5FqQhRRFYikPdjXv2akV-SvZTTudLUyOq1U2mGgf9apA-I4T7UJOjLWB8YSPKqMXuQhbZ2gEegJKOH1
+Q461EqWOH8MWPuBy8dy
+}
+!procedure Labview($id, $name="Labview", $tech="")
+  IconElement($id, 'simpleicons-4.1/L/Labview', $name, $tech)
+!endprocedure
+!procedure LabviewCard($id, $funcName="", $content="")
+  IconCard($id, '<$LabviewMd>', '', $funcName, $content)
+!endprocedure
+!procedure LabviewGroup($id, $name='Labview', $tech='')
+  IconGroup($id, 'IconGroup', '<$LabviewLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FossilscmMd [14x14/16z] JKw50G0X28IZRFUVzZkacwE3fCrA7wMnP3xRB5-cSqwdlpawBtju8mRXFm63nE6UKScvcEdNbV8aV0quavw1N1cgXHmErwJaL0KXDvOY72PdPmS
+sprite $FossilscmLg [20x20/16z] {
+PP3L0SDG24LnURh_jFKs8RrVS73W9Soz5q4HzJ_6QwwziB2vnzWJBcoFrIkJ_P11bSqriI9CPe8ghdiWFLmRbpeZy7mjVi1GJMSWFJ7DdYEbIPc0CYJuw-Bt
+1VWClUrlljY3-QVgcp-QQN-XTnenKFO8VUGxVv8qBCXdLqizrkdso5R2Twyx
+}
+!procedure Fossilscm($id, $name="Fossilscm", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fossilscm', $name, $tech)
+!endprocedure
+!procedure FossilscmCard($id, $funcName="", $content="")
+  IconCard($id, '<$FossilscmMd>', '', $funcName, $content)
+!endprocedure
+!procedure FossilscmGroup($id, $name='Fossilscm', $tech='')
+  IconGroup($id, 'IconGroup', '<$FossilscmLg>', $name, $tech)
+!endprocedure
+@enduml

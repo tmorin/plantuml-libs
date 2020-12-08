@@ -1,0 +1,16 @@
+@startuml
+sprite $KomootMd [14x14/16z] HSc75G0X20JHLU0oRF_Tdjbld0UGRZPtGc719Wn8niLmnwv8RDpRS_KRQ9-lJL0uXm_tZM-MI3_q6fb5BdazBZbOH1RFW79G53RBKANh8xyh0VW1
+sprite $KomootLg [20x20/16z] {
+NT055eKm34JHf3rJ3zd_Qh-4GHz-ySglF9tDB0pBcO7K_5OBgXSGC_mLPAwtBNLdPix0xLPKo-RHe1NvLNW7Dohwctb4IpA6f8TrWJkayzwWkCJIZkEY4p6D
+TA9f1kb4nF054Jc0nMzLsOFTnvGfXlrWGEFm2m
+}
+!procedure Komoot($id, $name="Komoot", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Komoot', $name, $tech)
+!endprocedure
+!procedure KomootCard($id, $funcName="", $content="")
+  IconCard($id, '<$KomootMd>', '', $funcName, $content)
+!endprocedure
+!procedure KomootGroup($id, $name='Komoot', $tech='')
+  IconGroup($id, 'IconGroup', '<$KomootLg>', $name, $tech)
+!endprocedure
+@enduml

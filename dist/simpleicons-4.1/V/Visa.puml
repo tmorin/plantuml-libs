@@ -1,0 +1,16 @@
+@startuml
+sprite $VisaMd [14x14/16z] dOn50G0n40DJMWR_QWyiDFWRN6fEO8o1kRw7vDaXIcc3UYrL4nEj0K_6xXf1iE9qmoX5aFbdJU17OArllbpg1G
+sprite $VisaLg [20x20/16z] {
+nOc50SDG24GVV1Uu_QTjaoc2dFBHkDkBPlPgu15ZPcNSTgRjLAV6meecUQhwq2ZELHhSqzIQIjSjr5ogCFC6KqOD-OcM0veqEUdDbxgKEl1qnbubClgypVS5
+pC7i8SDVwNmqVm
+}
+!procedure Visa($id, $name="Visa", $tech="")
+  IconElement($id, 'simpleicons-4.1/V/Visa', $name, $tech)
+!endprocedure
+!procedure VisaCard($id, $funcName="", $content="")
+  IconCard($id, '<$VisaMd>', '', $funcName, $content)
+!endprocedure
+!procedure VisaGroup($id, $name='Visa', $tech='')
+  IconGroup($id, 'IconGroup', '<$VisaLg>', $name, $tech)
+!endprocedure
+@enduml

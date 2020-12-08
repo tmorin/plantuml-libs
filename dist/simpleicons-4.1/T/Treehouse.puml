@@ -1,0 +1,19 @@
+@startuml
+sprite $TreehouseMd [14x14/16z] {
+FOw55S0W50CFTxB_jiLU3_qUm6H9dKUSlsLyroPWIs3eKA4jrqxA9SB-vNKY3cZFKlD0UbR19JprMjagUbcxhSqWgxLbzMrbhjTZbs-MBQTPWAjcU1vXpiZc
+0m
+}
+sprite $TreehouseLg [20x20/16z] {
+NO-5WG0n2C12tTb_sXUkfwcd1W18Mlf7uO4h-d6IfnhfKd7emH3mBK5fszWnjrGRUb40En1isMej0JXMqHu2HEpOvLRC8_9mHW_8u-x-CIJ4aIyt8Mga3sZN
+kPoMYkZoP7ERGbJjPJtS489kVCmsJaVQAWEksS6cHdCOeUjc12xYj7oIy43oMdaRVW4
+}
+!procedure Treehouse($id, $name="Treehouse", $tech="")
+  IconElement($id, 'simpleicons-4.1/T/Treehouse', $name, $tech)
+!endprocedure
+!procedure TreehouseCard($id, $funcName="", $content="")
+  IconCard($id, '<$TreehouseMd>', '', $funcName, $content)
+!endprocedure
+!procedure TreehouseGroup($id, $name='Treehouse', $tech='')
+  IconGroup($id, 'IconGroup', '<$TreehouseLg>', $name, $tech)
+!endprocedure
+@enduml

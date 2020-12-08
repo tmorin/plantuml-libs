@@ -1,0 +1,19 @@
+@startuml
+sprite $GitlabMd [14x14/16z] {
+HOg50K1124AvLBZQVzhVyMm1Q8OBQsSVl2yVHylkuJo2UpcEQEMyiaM74SalOmP3dzJGmH1dxgF23sjnb64fA6O_ZK51dgC20PvV5LerIycEmG1KIhLAh3Y9
+MhqlHJpOMeQVbEwv0m
+}
+sprite $GitlabLg [20x20/16z] {
+NSi7WiGW28NXNqL57vZxttOpsJwVbGRiu4Ti7ZhyEC6BxTFuqd8RD_Uv-BAcFtzPIRvaDS5z5S9uM51azEam5eyrm9qb-TBnTVEZvHBdEkwUckvJ-VfUDVGr
+S9iEVMlqLjCm5IZgMDQctXXPYeoda8EM4HqNoy4tMlISpMAXQGBP49u6b2sBeLermhGBZn5IZf7QCVdMT5swJpH-5RzkNlZ7pZ7UbSgt3m
+}
+!procedure Gitlab($id, $name="Gitlab", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Gitlab', $name, $tech)
+!endprocedure
+!procedure GitlabCard($id, $funcName="", $content="")
+  IconCard($id, '<$GitlabMd>', '', $funcName, $content)
+!endprocedure
+!procedure GitlabGroup($id, $name='Gitlab', $tech='')
+  IconGroup($id, 'IconGroup', '<$GitlabLg>', $name, $tech)
+!endprocedure
+@enduml

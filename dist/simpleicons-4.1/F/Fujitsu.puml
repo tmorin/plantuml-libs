@@ -1,0 +1,16 @@
+@startuml
+sprite $FujitsuMd [14x14/16z] RKw50GD12CiTye9a_sdhtiUTu92coZlPcYnz97i9viv7UnrN6m7uvWCtKcxLqJrlcP5r7UbRDoFivjkc16SwW34tDdE2LCmq39dNpOta_ebfufZE
+sprite $FujitsuLg [20x20/16z] {
+dKy54iGW46CDP_F_rzQDyRjwevFm-y6Maj849GU0RX-eO4JH0iJNwELuYqDkJEhrOTX9KkN0V64qF50UW9UthwEq3TZWHgyEQ6ThU_FWPqr5FPGwmDuFQ0Tx
+LCkE67pG0J5dxCVOTW1vXwJHiLTsHH-e8XdzCvwa7zEFfXVLb8p27ySA
+}
+!procedure Fujitsu($id, $name="Fujitsu", $tech="")
+  IconElement($id, 'simpleicons-4.1/F/Fujitsu', $name, $tech)
+!endprocedure
+!procedure FujitsuCard($id, $funcName="", $content="")
+  IconCard($id, '<$FujitsuMd>', '', $funcName, $content)
+!endprocedure
+!procedure FujitsuGroup($id, $name='Fujitsu', $tech='')
+  IconGroup($id, 'IconGroup', '<$FujitsuLg>', $name, $tech)
+!endprocedure
+@enduml

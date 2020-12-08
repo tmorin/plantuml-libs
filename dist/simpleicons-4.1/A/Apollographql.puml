@@ -1,0 +1,19 @@
+@startuml
+sprite $ApollographqlMd [14x14/16z] {
+HSw7OG0X3C30Cu_f2VjFcrvk0OcOCvydvmneEuF8rKEqvLlSPMuO0qyn4_NU2f61TVP6p8AujTx0BcXtjjknCZYlP-mNOirKJgMU8iTS_gpoNxVQznaYTmDb
+h0-Zu1q
+}
+sprite $ApollographqlLg [20x20/16z] {
+PL1NOa0X21Dv31MQ-v-s0-pE3tiaunryqeLPF0wF2uamdiGM8JVbAT_Lenzs1OqlF00FbkpKd6MMZt7k2WDiN6IqFK3S5BdTFH7e2N7fZnmYMELoSAsU2I9a
+-PIT4vo75xJhFRi1fE7qRDsOU77J9_4nPBj-qLxlzM9e_Kopk9IHeERs3Khvgm75-gTL-azDgJNzdj0TcR6rjxm1
+}
+!procedure Apollographql($id, $name="Apollographql", $tech="")
+  IconElement($id, 'simpleicons-4.1/A/Apollographql', $name, $tech)
+!endprocedure
+!procedure ApollographqlCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApollographqlMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApollographqlGroup($id, $name='Apollographql', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApollographqlLg>', $name, $tech)
+!endprocedure
+@enduml

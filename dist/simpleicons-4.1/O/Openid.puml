@@ -1,0 +1,16 @@
+@startuml
+sprite $OpenidMd [14x14/16z] TOo30G0n34LhDs__QSz6cK-rB9E3EfSdNL0c_Y0N2ZcuPOv2gvJfZIbKcbkS2JgKBUTodP0zM_GDAQ5Ua2zqlw45Tq2SsfS9GQ_J2
+sprite $OpenidLg [20x20/16z] {
+dP25iGCm242Z48Et_xHVwkLwrWHtI8_NLqtX5JqjsZPUeys-j9McpJ2LLkwMOV27ji1dQpqbSJXQ3E-omTaom7g-rSiRE82LHuysZ-D0V-kRcuBNE0lmoJQZ
+xHXeiELgi5jvtwrC1rjW9JrVrGtCS9QSItbglm
+}
+!procedure Openid($id, $name="Openid", $tech="")
+  IconElement($id, 'simpleicons-4.1/O/Openid', $name, $tech)
+!endprocedure
+!procedure OpenidCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenidMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenidGroup($id, $name='Openid', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenidLg>', $name, $tech)
+!endprocedure
+@enduml

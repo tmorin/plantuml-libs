@@ -1,0 +1,13 @@
+@startuml
+sprite $InstapaperMd [14x14/16z] Os1WO6JZu-VdOsDaW09kVduU1ZZWvEVdHE5neSbHpYDi0y9bt30s2z3HG6Up09a
+sprite $InstapaperLg [20x20/16z] Om015Wu-VY3Wus1XW0DcDXwG60yRCmCIO0E9iJ6W05QusAWO_h1YPkC5YV4YXoatFnHmWxa
+!procedure Instapaper($id, $name="Instapaper", $tech="")
+  IconElement($id, 'simpleicons-4.1/I/Instapaper', $name, $tech)
+!endprocedure
+!procedure InstapaperCard($id, $funcName="", $content="")
+  IconCard($id, '<$InstapaperMd>', '', $funcName, $content)
+!endprocedure
+!procedure InstapaperGroup($id, $name='Instapaper', $tech='')
+  IconGroup($id, 'IconGroup', '<$InstapaperLg>', $name, $tech)
+!endprocedure
+@enduml

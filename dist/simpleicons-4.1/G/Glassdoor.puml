@@ -1,0 +1,13 @@
+@startuml
+sprite $GlassdoorMd [14x14/16z] hSp50K0n309GybrX_sdhDa3VYIZmg7WHV6AYBnH6BHO1kSfXsuRAH9jLvS-voY5QSlNfPwGVmQwCuS83
+sprite $GlassdoorLg [20x20/16z] nSk53GD034DH7uEZPFzfouSBz8kVR03DjZe-SJVvK51JZgJxdmdS26D7RDrMsFnjD8t_jAWcj_d6SjbeMC0tzsjzkt2aOqVRuk_P5tK7u0a
+!procedure Glassdoor($id, $name="Glassdoor", $tech="")
+  IconElement($id, 'simpleicons-4.1/G/Glassdoor', $name, $tech)
+!endprocedure
+!procedure GlassdoorCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlassdoorMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlassdoorGroup($id, $name='Glassdoor', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlassdoorLg>', $name, $tech)
+!endprocedure
+@enduml

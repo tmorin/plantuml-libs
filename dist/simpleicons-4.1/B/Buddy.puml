@@ -1,0 +1,16 @@
+@startuml
+sprite $BuddyMd [14x14/16z] LSwr0G0m30D1EypQVzimNVULH8tAGDOqYO0cIchOOV5CBkF8dD0uELEDAaBUQgHyAh6zbSZXLd2OzIyG-sUzaV4-cxVNwGe
+sprite $BuddyLg [20x20/16z] {
+RT053WCn44DHXpcv_saBLcTT-gBHMmY0-NOUTG-eE9useuHliHx0N5ddQbS7-41HAw2DmyOs71YJmtJ9RBcNdGh3IJFSttOAyhSjZouJNIRwiXsxzc9xLkFl
+sG1NzzST_DwL5QVkLEMriirt
+}
+!procedure Buddy($id, $name="Buddy", $tech="")
+  IconElement($id, 'simpleicons-4.1/B/Buddy', $name, $tech)
+!endprocedure
+!procedure BuddyCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuddyMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuddyGroup($id, $name='Buddy', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuddyLg>', $name, $tech)
+!endprocedure
+@enduml

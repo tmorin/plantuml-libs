@@ -1,0 +1,19 @@
+@startuml
+sprite $JusteatMd [14x14/16z] {
+JOe5WWGn20Gx4uSCzV_V7hTU4MXHKWpsPEj11yBnXvWyER-2A2gT9tSmj8FZVeZBCmHiBMF9m9TZErLDPLCrl-6XL5MffkJdfIvCkbCvLogedPXFLOBHuIw7
+8kamQeG_sdy
+}
+sprite $JusteatLg [20x20/16z] {
+HOy50iGW30GfBcdc_x-zBbTPV8Y6lug3vm8zl6e0jS9uqMJBOTtaMBoouu-CJsVSJ5QVij3WCtAO8UGAhDFCWVseOT_h76sfZW9uH6eNCpnlnbmoh68gBOFR
+K0l-jsiXfBkvfjWbd-HjrswcmqaVgt1SpRZs0lLcRKTD7oj0EawmglyYbXsA62RhB9PyzuDQ7NWIEqnikdc_sBh83m
+}
+!procedure Justeat($id, $name="Justeat", $tech="")
+  IconElement($id, 'simpleicons-4.1/J/Justeat', $name, $tech)
+!endprocedure
+!procedure JusteatCard($id, $funcName="", $content="")
+  IconCard($id, '<$JusteatMd>', '', $funcName, $content)
+!endprocedure
+!procedure JusteatGroup($id, $name='Justeat', $tech='')
+  IconGroup($id, 'IconGroup', '<$JusteatLg>', $name, $tech)
+!endprocedure
+@enduml

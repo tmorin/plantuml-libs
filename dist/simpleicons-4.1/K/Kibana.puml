@@ -1,0 +1,16 @@
+@startuml
+sprite $KibanaMd [14x14/16z] LKx50G0n38AwT_zfpuNc5nnslXU0_nj6FmVv0kHBaAz2laRv1ctXzpdssVXy0UsrsYCkVnsk8bxFRCT7kdVDCcrQx
+sprite $KibanaLg [20x20/16z] {
+PT050aGH04NHgvlzhtOw-4yx6gIrXmHSBQebn2fYpOWDozMcHomWbX4hY7N8yRHXdtNURJh2lkVJ0cvkPx_NsFwvjlbOWRQE6-K1vKkh6m3lZg_vF33e3zgv
+MuOx
+}
+!procedure Kibana($id, $name="Kibana", $tech="")
+  IconElement($id, 'simpleicons-4.1/K/Kibana', $name, $tech)
+!endprocedure
+!procedure KibanaCard($id, $funcName="", $content="")
+  IconCard($id, '<$KibanaMd>', '', $funcName, $content)
+!endprocedure
+!procedure KibanaGroup($id, $name='Kibana', $tech='')
+  IconGroup($id, 'IconGroup', '<$KibanaLg>', $name, $tech)
+!endprocedure
+@enduml

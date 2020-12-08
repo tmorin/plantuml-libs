@@ -1,0 +1,16 @@
+@startuml
+sprite $CodioMd [14x14/16z] PSu50WH01010RAV___RKzMmd86WnhmGEEukEeEfbSwlC5xyCc2nEJjlEnjKzKKYwAQiAvc_rlebwncBBB_yHVgA_CXi8WTOYK0y
+sprite $CodioLg [20x20/16z] {
+hT2r0S0W40NGZpliFsqCbpAlGqwHoP1Ib0G3ejD3qtQHVxs2Gi5yQZn_ewXD4qUXJCf2ME-Y8T0nnvOxn_1W9jV8TmB5JtUExZLIr5XwMNe-pVRWwmxMNQqx
+DHGJvXn3SGC
+}
+!procedure Codio($id, $name="Codio", $tech="")
+  IconElement($id, 'simpleicons-4.1/C/Codio', $name, $tech)
+!endprocedure
+!procedure CodioCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodioMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodioGroup($id, $name='Codio', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodioLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ManMd [14x14/16z] ZOpL0SDG24MHPy1jsN_QkFqb1rTwXHzfzuM-Tmg6CCj0MOeAeGr19TkBlUJeTD77gCnAkgXG3KF-ePcA_26wBTyjt7p0Z3up0m
+sprite $ManLg [20x20/16z] {
+jSXLWaCX44JHuY5LqCB-LpiJj-_ae7tn6uqI6vuA8snEos31LGtlkEWUzPfIU52Uut5DptX0Q-7DQSwiU5Epkk73cbCS806fW2gLCcbltu7J8yHss_8nCZAz
+vydmy9qZQfsj38xPgiW1gX9VzWy
+}
+!procedure Man($id, $name="Man", $tech="")
+  IconElement($id, 'simpleicons-4.1/M/Man', $name, $tech)
+!endprocedure
+!procedure ManCard($id, $funcName="", $content="")
+  IconCard($id, '<$ManMd>', '', $funcName, $content)
+!endprocedure
+!procedure ManGroup($id, $name='Man', $tech='')
+  IconGroup($id, 'IconGroup', '<$ManLg>', $name, $tech)
+!endprocedure
+@enduml
