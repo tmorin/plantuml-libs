@@ -37,6 +37,7 @@ The available packages:
 - [fontawesome-5.15](dist/fontawesome-5.15/README.md)
 - [homecloud](dist/homecloud/README.md)
 - [material-4.0](dist/material-4.0/README.md)
+- [simpleicons-4.1](dist/simpleicons-4.1/README.md)
 
 [PlantUML]: https://plantuml.com
 
