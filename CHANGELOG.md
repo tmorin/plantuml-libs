@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.5.0](https://github.com/tmorin/plantuml-libs/compare/v2.4.0...v2.5.0) (2021-01-23)
+
+
+### Features
+
+* **simpleicons-4:** upgrade to simpleicons-4.7.0 ([c018707](https://github.com/tmorin/plantuml-libs/commit/c018707cecef9705da151bbfece4559f66ba6706))
+* **simpleicons-4.1:** add the package ([c0d8fc7](https://github.com/tmorin/plantuml-libs/commit/c0d8fc7164af187b08e18cc035b5fe62eb204873))
+
 ## [2.4.0](https://github.com/tmorin/plantuml-libs/compare/v2.3.0...v2.4.0) (2020-12-07)
 
 
