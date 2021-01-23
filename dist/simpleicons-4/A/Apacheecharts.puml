@@ -1,0 +1,16 @@
+@startuml
+sprite $ApacheechartsMd [14x14/16z] FOw55G0W24G1k_UVLgddD-a3m7QKXi2aRTPE74ddaw1nP4QAGw9us02XywzgWa3YvqEWUBEe1YuVf5OTMJAzCFGuQvFqIa1vdKK-VNkEA_kJi4uULKNq0m
+sprite $ApacheechartsLg [20x20/16z] {
+RP030WGn301hHVz_xI4uxYmxHP0UL107Qd8wXgFkQia7wr-fh5t_SCrD9di2_HiVEoYBAsNRGjsOdCpFuNc-PWf0Dt-xyvsJWX9Gg4ABVAzqTrDczHX2nLmz
+imxfW2gRoS64cBqsWT7Qn3ZelmV_lRhkgPBxUUPrUjRX7G
+}
+!procedure Apacheecharts($id, $name="Apacheecharts", $tech="")
+  IconElement($id, 'simpleicons-4/A/Apacheecharts', $name, $tech)
+!endprocedure
+!procedure ApacheechartsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApacheechartsMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApacheechartsGroup($id, $name='Apacheecharts', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApacheechartsLg>', $name, $tech)
+!endprocedure
+@enduml

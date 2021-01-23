@@ -1,0 +1,19 @@
+@startuml
+sprite $MastercomfigMd [14x14/16z] {
+LKo5OGGm2EGYEEt-stxaDSef4IncezUQoUyPCm5rjxwH9KOnC6Ck588wASJw62etmqeqoCT5pGW_QCL4BsB1Nodb4NkI_bUrbZg6PckLOsHVTSfB73xMQnte
+jjYOM7cFS2P2F
+}
+sprite $MastercomfigLg [20x20/16z] {
+LSn70aCX24NHfw9q_lvt6zAJEpmKTClBUUClojIz_aYA1_xZMXWScV4UJMfQcKBKlXvc8LYNVa-wge6qpvz45uRJ_2uE06MOuPCO03u8-TeEZ2a7hbyxWPCc
+qFYQAAJIGRNUD9BWTJLulCqSgweknOXOwAR7W5uXN0nOkQgN3N1o7AAhSOgPJ80lekGDAYSy8Y_2ZhE1gPKcOb4wyRBMesPwMj1s0m
+}
+!procedure Mastercomfig($id, $name="Mastercomfig", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mastercomfig', $name, $tech)
+!endprocedure
+!procedure MastercomfigCard($id, $funcName="", $content="")
+  IconCard($id, '<$MastercomfigMd>', '', $funcName, $content)
+!endprocedure
+!procedure MastercomfigGroup($id, $name='Mastercomfig', $tech='')
+  IconGroup($id, 'IconGroup', '<$MastercomfigLg>', $name, $tech)
+!endprocedure
+@enduml

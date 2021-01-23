@@ -1,0 +1,16 @@
+@startuml
+sprite $BbciplayerMd [14x14/16z] JKw30G0m3ElivlzhPwiAL030ajQQ6VpET0HAG5YPrDvRSaZqBOiiHi_bFCOqYknl0FA4C1Ifb_7BvkJEDilE7EBrag_wTVOoHtir
+sprite $BbciplayerLg [20x20/16z] {
+ZP253GGW40HnX-c_sbS8yhgnovolL9Mxl9WQBBvXf9Kre8P6bdjTaQPHb3YaArMVK1MQwSqk-E0UKGQxx92FE86RE_hE07wmsbcSxEoTJ1QQ5HjJjTyocHat
+pxsM_jki2qmF5g_-yZI8HLS
+}
+!procedure Bbciplayer($id, $name="Bbciplayer", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bbciplayer', $name, $tech)
+!endprocedure
+!procedure BbciplayerCard($id, $funcName="", $content="")
+  IconCard($id, '<$BbciplayerMd>', '', $funcName, $content)
+!endprocedure
+!procedure BbciplayerGroup($id, $name='Bbciplayer', $tech='')
+  IconGroup($id, 'IconGroup', '<$BbciplayerLg>', $name, $tech)
+!endprocedure
+@enduml

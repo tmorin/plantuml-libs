@@ -1,0 +1,16 @@
+@startuml
+sprite $DigiKeyelectronicsMd [14x14/16z] NOw50O0m30GVX-Z-srAtgyPVlV82w9QTm4TaxapnkH0WVm0y8Re1u6YyjNHByOW0qHRFBDQQIR7B5wrddZ1DNvIngGMKxzZi1m
+sprite $DigiKeyelectronicsLg [20x20/16z] {
+PP254O1030IJTq__tN9pE2nZxCV7iWVL2NYx7duEPBZUnvW61g5KV0aggQeuE6EwHBCeG0SJb6xnpKyZVFTUG3YxDJc9fx9vgcGNwtJPRkvSU-MwNu_VBFm9
+nqpkc5b5MIh9lTlh1fqt48eRABhVJLkV1wCNBsG3
+}
+!procedure DigiKeyelectronics($id, $name="Digi Keyelectronics", $tech="")
+  IconElement($id, 'simpleicons-4/D/DigiKeyelectronics', $name, $tech)
+!endprocedure
+!procedure DigiKeyelectronicsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DigiKeyelectronicsMd>', '', $funcName, $content)
+!endprocedure
+!procedure DigiKeyelectronicsGroup($id, $name='Digi Keyelectronics', $tech='')
+  IconGroup($id, 'IconGroup', '<$DigiKeyelectronicsLg>', $name, $tech)
+!endprocedure
+@enduml

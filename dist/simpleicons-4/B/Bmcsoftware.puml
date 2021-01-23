@@ -1,0 +1,16 @@
+@startuml
+sprite $BmcsoftwareMd [14x14/16z] RKwr0S0m33E5GVz_s_1KBoOHaGUgqgs0XiHlwppU_cmUJ9pGDfhx7AJ2rggJn-LiH0v3LwwGTQ2Trw1akRoXOkkasq66m-4TT_URJ6wCKHy
+sprite $BmcsoftwareLg [20x20/16z] {
+PP350SCm301bPj_-qpOCIkyZHX7nmF2Ys7mp6kKBz08zQ5yLtw7Qjw-9I9pCTFiSSsjcodjKPOGzs9XNlQdGjem4xcavc3bqIF9W4a2pyYRolMPRhyG1vIui
+vumCuTvbniykRjFERFTtMz0_Q53K3te-Xtn-AfggoaGM
+}
+!procedure Bmcsoftware($id, $name="Bmcsoftware", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bmcsoftware', $name, $tech)
+!endprocedure
+!procedure BmcsoftwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$BmcsoftwareMd>', '', $funcName, $content)
+!endprocedure
+!procedure BmcsoftwareGroup($id, $name='Bmcsoftware', $tech='')
+  IconGroup($id, 'IconGroup', '<$BmcsoftwareLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $EaMd [14x14/16z] bS770SD030InkPn8Rl_LElil0TpHttBYO-WbiZN-4aCEjBNstZbhnOBbSZlfE4U5TZn1LvdI8QI8q2BdgZc-4Y-jSzaJ
+sprite $EaLg [20x20/16z] {
+lSV50GGm3CJ03QEj_giznWOoBqc7pFqmLQ9U6Zoqu4ilAJya3QZwbm4FzwXkvkuMjQcJ8Mbj7hewImcA5DEcXH3kcvB13ieLI_5cCpJSd2O7_0uBYZ4KIERc
+3rRqq1Wwu0e
+}
+!procedure Ea($id, $name="Ea", $tech="")
+  IconElement($id, 'simpleicons-4/E/Ea', $name, $tech)
+!endprocedure
+!procedure EaCard($id, $funcName="", $content="")
+  IconCard($id, '<$EaMd>', '', $funcName, $content)
+!endprocedure
+!procedure EaGroup($id, $name='Ea', $tech='')
+  IconGroup($id, 'IconGroup', '<$EaLg>', $name, $tech)
+!endprocedure
+@enduml

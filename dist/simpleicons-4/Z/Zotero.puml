@@ -1,0 +1,16 @@
+@startuml
+sprite $ZoteroMd [14x14/16z] HSxL0O0m34NHuFPa_sr9W_H2vNmr4J4iaB0EKIsNisl9wxJ2OYPZZOC9PQGvDhdIepp1BWiDfH-l4ln5DP6f7QOh6cE-hZUkVR9_q9ZFQwxB3G
+sprite $ZoteroLg [20x20/16z] {
+VP055iGW34HnJSBzRxkJLrBMVmNu-3Z5nqxCrADtDpuD4U6PWvbGvWA2ZqfG4IeCRsHH3Qusz9E1RcckTKpXfUnA_-DqLtvrG0RZ9o-EP2kuUhbfCuyZsigS
+ARucczDD64npmkTyBEeQThmTuMt8eCr5l26eQ5afbfLbElN8bgcHnaXMVm
+}
+!procedure Zotero($id, $name="Zotero", $tech="")
+  IconElement($id, 'simpleicons-4/Z/Zotero', $name, $tech)
+!endprocedure
+!procedure ZoteroCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZoteroMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZoteroGroup($id, $name='Zotero', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZoteroLg>', $name, $tech)
+!endprocedure
+@enduml

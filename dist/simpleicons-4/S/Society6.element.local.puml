@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the Society6 element
+include('simpleicons-4/S/Society6')
+Society6('society_6', 'Society6', 'an optional tech field')
+@enduml

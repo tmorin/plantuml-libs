@@ -1,0 +1,16 @@
+@startuml
+sprite $StylusMd [14x14/16z] ZKs54SCm48kV1Bxklsv30-GPfUEBh7oBZ3Dedc7jYZMA5N4433GsI3E7WlcZlAKnVSevEfSrvtwimWmqKZTSBthLEWTlyz9zaJy
+sprite $StylusLg [20x20/16z] {
+hO_LeGCm24KXE3TX_ssVQ-MhFL4Sw6ciQvMN_Whfn4oodRvWyT6bmbLBQBqTql193JOVgtHql2UHpIW_Q1qv3cF9wBOHzFP6ZkzadOK0OcoqsX6rH4-UB1GO
+eMOM8Mx8KeitXNf4PhLNjRfdxiNqZNc8R8VIBo9l-XrwV_J7UGK
+}
+!procedure Stylus($id, $name="Stylus", $tech="")
+  IconElement($id, 'simpleicons-4/S/Stylus', $name, $tech)
+!endprocedure
+!procedure StylusCard($id, $funcName="", $content="")
+  IconCard($id, '<$StylusMd>', '', $funcName, $content)
+!endprocedure
+!procedure StylusGroup($id, $name='Stylus', $tech='')
+  IconGroup($id, 'IconGroup', '<$StylusLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $MattermostMd [14x14/16z] {
+BOp50GGn08I8U-Y_sjFbDmfXkZCrywDuQc0LFZeK1z3CdCfm_t8BrQ0PulqgJjS8NQqmpayrDVCp2r-t0LDTF4IFsX-rxEFgJ43UtXYAwjdtUVZAB_Sh8FIj
+kmVW3G
+}
+sprite $MattermostLg [20x20/16z] {
+LP073iGm20GnDfSAy__VNa2fesR15Wivw1lXNMGQScDER2goFBCPvcCYFuReV8wYzfsSSGoxWUL8lHuB9fkpIB9JCmrlG3aN3duLDI1wXiKrCrPmhLTYjNK8
+FHlWSLIU1P7Mqx58qePAid1PBjAwvcnlSj5si2sLVYbrJuKEadMewbYk3yryk0x3m_pSzCJjQRFLmLThalm1
+}
+!procedure Mattermost($id, $name="Mattermost", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mattermost', $name, $tech)
+!endprocedure
+!procedure MattermostCard($id, $funcName="", $content="")
+  IconCard($id, '<$MattermostMd>', '', $funcName, $content)
+!endprocedure
+!procedure MattermostGroup($id, $name='Mattermost', $tech='')
+  IconGroup($id, 'IconGroup', '<$MattermostLg>', $name, $tech)
+!endprocedure
+@enduml

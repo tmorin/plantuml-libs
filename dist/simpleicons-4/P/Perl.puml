@@ -1,0 +1,19 @@
+@startuml
+sprite $PerlMd [14x14/16z] {
+JKx50K0X2BK8oVsd_HroutMv3bjPZc5vgj3o0Tluc8daXizZm1YfKi_F2GGpZVLuHfJed9ceK2ffZIR7D_a81Y_Hvl6nmEaRp7H-UiPqWtcakDoLZQ21SVt7
+F3jt
+}
+sprite $PerlLg [20x20/16z] {
+PSp5OG0m241H88hllsrZzNzy2Bne8FoD9lsp8lpFciW_wwBrjw0qTl-5vAqFSvluHJKwMSqqjVAevGGVov9dNAGmc86SgyQEsqOIxCrjZZctIK3D1f6x8hfD
+7LhMPvMFSG9b_zmptdOEvVqhsU0jrgIvRQZ0JPo6jBqcYl1Qqh5xwe3lg69T5VXLwwF2wmC
+}
+!procedure Perl($id, $name="Perl", $tech="")
+  IconElement($id, 'simpleicons-4/P/Perl', $name, $tech)
+!endprocedure
+!procedure PerlCard($id, $funcName="", $content="")
+  IconCard($id, '<$PerlMd>', '', $funcName, $content)
+!endprocedure
+!procedure PerlGroup($id, $name='Perl', $tech='')
+  IconGroup($id, 'IconGroup', '<$PerlLg>', $name, $tech)
+!endprocedure
+@enduml

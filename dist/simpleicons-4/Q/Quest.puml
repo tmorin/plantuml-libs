@@ -1,0 +1,13 @@
+@startuml
+sprite $QuestMd [14x14/16z] hKc50S0m20DY_V_X-Jue4gqjasH-ZUxgi433iz1LTcTPrrxIl0ffBglQCYS
+sprite $QuestLg [20x20/16z] pOg54SC04CFy97-k-yzRfX6Y8uDq8i3E_o6aTVKHdwOKFClOcWBdklmosgkPIsqlGGkojZQtZ-vC7v03T9HHCVVMmUX4t
+!procedure Quest($id, $name="Quest", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Quest', $name, $tech)
+!endprocedure
+!procedure QuestCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuestMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuestGroup($id, $name='Quest', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuestLg>', $name, $tech)
+!endprocedure
+@enduml

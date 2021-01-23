@@ -1,0 +1,16 @@
+@startuml
+sprite $EvernoteMd [14x14/16z] DSc54S0m30J1ZzcYxx_Qi6vmvm0SmnYhLxnLCJ9qrnTKurkx9Rv-RTJbkQYOph-WesjYHA1CPlT3YMVeBrGZ9xfykdV5iSgYuKyTdIjbqfmbLODMWGi
+sprite $EvernoteLg [20x20/16z] {
+NSxL0G0n20FGrCj1oVxJdllxH8DDA49IKWounRhLjEJq54qxTsuDXuaglBIpnAdVDGi0YdIfUjSy8KGROpWV6Rdofo0MleXijP3uqfkp0i7uiTKWFFWhO1pS
+M7dD8UhnBZMzQq1glG08eUxDHpHc69dmcDW2b1RmC4-ePCTBenkf-6ZEqR1Q
+}
+!procedure Evernote($id, $name="Evernote", $tech="")
+  IconElement($id, 'simpleicons-4/E/Evernote', $name, $tech)
+!endprocedure
+!procedure EvernoteCard($id, $funcName="", $content="")
+  IconCard($id, '<$EvernoteMd>', '', $funcName, $content)
+!endprocedure
+!procedure EvernoteGroup($id, $name='Evernote', $tech='')
+  IconGroup($id, 'IconGroup', '<$EvernoteLg>', $name, $tech)
+!endprocedure
+@enduml

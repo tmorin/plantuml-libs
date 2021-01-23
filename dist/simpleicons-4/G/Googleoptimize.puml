@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogleoptimizeMd [14x14/16z] XSp50GCn30H0CmhwxpQYqElME0ObpMNFCc7e_WbCzGB0HvfCeWNI4R4daTwZVgFoAwwolVPILHf1JPejijsZbjRyA0CFsxm
+sprite $GoogleoptimizeLg [20x20/16z] {
+hT1L4eD044NHSMdT_seZpQiAyfkB7tpIqVHV3RPErc5yCeBHoHZMx6oeZ3ddKDWv2gjjxxxesyY9mxvNs_PemJpM4XlDz30hSGF5lUIm6lyMxvXR3akTk2VK
+OUW_fbVBYe4xLyKfO_yD
+}
+!procedure Googleoptimize($id, $name="Googleoptimize", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googleoptimize', $name, $tech)
+!endprocedure
+!procedure GoogleoptimizeCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleoptimizeMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleoptimizeGroup($id, $name='Googleoptimize', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleoptimizeLg>', $name, $tech)
+!endprocedure
+@enduml

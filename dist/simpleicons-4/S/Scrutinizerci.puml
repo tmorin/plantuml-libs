@@ -1,0 +1,16 @@
+@startuml
+sprite $ScrutinizerciMd [14x14/16z] JSt50G1120J1NdSc_spFfLuuCFGm27eDqlWIHpEfbLsEG6wzyTgpFkVO5RTdKu-rftwzQGDS6OUzQ8w7Cya3CPTTEtlkzvxOzGeqqsq6s
+sprite $ScrutinizerciLg [20x20/16z] {
+PT055iGm203HeN6__sqNrddzpwUI0D2EKm4PlfNxQqkGuDEy89LZjbbhP05QjoByIxctdd52o3cNMcjHEGagLtz413lNiqZnRGegJHSJHb9MUaRTsXfUrzPT
+4PcV9dcifQFzxUMQnmaWFjaHgVZK1Kex-rTMGJq
+}
+!procedure Scrutinizerci($id, $name="Scrutinizerci", $tech="")
+  IconElement($id, 'simpleicons-4/S/Scrutinizerci', $name, $tech)
+!endprocedure
+!procedure ScrutinizerciCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScrutinizerciMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScrutinizerciGroup($id, $name='Scrutinizerci', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScrutinizerciLg>', $name, $tech)
+!endprocedure
+@enduml

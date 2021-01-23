@@ -1,0 +1,16 @@
+@startuml
+sprite $AudibleMd [14x14/16z] XScr0KH120N0XyCAst-rvnB-IGTNn5tmOPbPlUqT0bQJFFdBsU57K0OYgEe9U8yz6HAx86CRK1q0INGH0CZQmci9FhmxyCUCItS
+sprite $AudibleLg [20x20/16z] {
+jOvN0W8m24E1q5sQ-zzMtFglhvCT-G4AwBUZxvD4VxlBR5153vugTzppWhj99TkzC0lgN44kHp2TjmvUe6Bji651McpS0bQhMj04cpiuqkLz7APN1oFRTvuY
+YUqgVdZNWybfD-_amajWXaKQMULDjjcRK-KBHFR-4nS
+}
+!procedure Audible($id, $name="Audible", $tech="")
+  IconElement($id, 'simpleicons-4/A/Audible', $name, $tech)
+!endprocedure
+!procedure AudibleCard($id, $funcName="", $content="")
+  IconCard($id, '<$AudibleMd>', '', $funcName, $content)
+!endprocedure
+!procedure AudibleGroup($id, $name='Audible', $tech='')
+  IconGroup($id, 'IconGroup', '<$AudibleLg>', $name, $tech)
+!endprocedure
+@enduml

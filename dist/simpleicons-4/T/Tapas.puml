@@ -1,0 +1,16 @@
+@startuml
+sprite $TapasMd [14x14/16z] JSw50G0n20J1YplRVxVlCd652JGzsDMGKdJNocfdPsLVsQhSgXIYyGZo5SvrNtIb0MrnMehj_A7aj0zocLtnOS9KjR7lvvXowQHSlHxnJC6T90MddwY_i04
+sprite $TapasLg [20x20/16z] {
+RSm50iKW201GR0dX_hVzrb-_pQ98hEC85zAiam0NDd285GbBF6EOsIOblsCLxT36aAO9xK8SG0p9RYfqR0UKtkt11UqF4Xju7Ad7PWFPeQowJecqn3tGiGq8
+NR8kzTXkuv9nr6k1L4omvjJ5d0lsBbTG8rmXnk3XAVaPS-jpA-RsTTZ912-ViVW3
+}
+!procedure Tapas($id, $name="Tapas", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tapas', $name, $tech)
+!endprocedure
+!procedure TapasCard($id, $funcName="", $content="")
+  IconCard($id, '<$TapasMd>', '', $funcName, $content)
+!endprocedure
+!procedure TapasGroup($id, $name='Tapas', $tech='')
+  IconGroup($id, 'IconGroup', '<$TapasLg>', $name, $tech)
+!endprocedure
+@enduml

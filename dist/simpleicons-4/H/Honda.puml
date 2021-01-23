@@ -1,0 +1,19 @@
+@startuml
+sprite $HondaMd [14x14/16z] {
+LSu54iGm30D0AMne_F_VdgOTkWsZ3R2DAQCHO9zplURiS9j126FQMcHzgoAZQvYGKKGqhGnojF8Et8JanRlAKjShjPf4r7M_5Q3j1gyO8yhHp1ViksbOU_iu
+3m4-DfoW4jkYr8X_Fm
+}
+sprite $HondaLg [20x20/16z] {
+TT15WaCX383XFm95milzRpiqOwj-EoJA9Q8_HFYXPbxCbFepHd_zwMC8EuRl5pzw-0ZT4vxWntvWpkPm7duy1_ouGgHHB0FqcC3EJkcvGUfkvQBCN7MdC38e
+aVCTwtMNZSip1sXqXvuPhkgHsU6ssw7bTKvU3TfQesAURjQVJ8SnOeDbBgwPQR1RXA6Lf_8g5k8ztCvMBjt7F3hGvdYxYnhNR1JvtwdmmHS
+}
+!procedure Honda($id, $name="Honda", $tech="")
+  IconElement($id, 'simpleicons-4/H/Honda', $name, $tech)
+!endprocedure
+!procedure HondaCard($id, $funcName="", $content="")
+  IconCard($id, '<$HondaMd>', '', $funcName, $content)
+!endprocedure
+!procedure HondaGroup($id, $name='Honda', $tech='')
+  IconGroup($id, 'IconGroup', '<$HondaLg>', $name, $tech)
+!endprocedure
+@enduml

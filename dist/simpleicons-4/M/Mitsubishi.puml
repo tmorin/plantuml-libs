@@ -1,0 +1,16 @@
+@startuml
+sprite $MitsubishiMd [14x14/16z] NOm50aH124ALwL3lVzjbwzURL07v0CY5KgwLsQLe4Uqeu16EP_LKFbDKLLhxF2osc_VEQwkW1qa8qcL-7_aq6UvXIeFnCq5Oi0Hv0G
+sprite $MitsubishiLg [20x20/16z] {
+PSw50GCX50FGu4xstxQ4AkMTuEH3n1XShCMbDVppfB-saHsdo2MT0OFBE6BSf3Zyobmo3cRew1qIxvhx4Uea9ISMOljSc3FLzZrPk5axAKK7kIKWSVCeZT8D
+O3gbWVAg8t2BfTPQQiAMgeOQN1u
+}
+!procedure Mitsubishi($id, $name="Mitsubishi", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mitsubishi', $name, $tech)
+!endprocedure
+!procedure MitsubishiCard($id, $funcName="", $content="")
+  IconCard($id, '<$MitsubishiMd>', '', $funcName, $content)
+!endprocedure
+!procedure MitsubishiGroup($id, $name='Mitsubishi', $tech='')
+  IconGroup($id, 'IconGroup', '<$MitsubishiLg>', $name, $tech)
+!endprocedure
+@enduml

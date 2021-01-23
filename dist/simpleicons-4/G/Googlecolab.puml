@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglecolabMd [14x14/16z] VOs50SGm30DD3IUt_xJF33MZ9FkY-epUONWCw2wbinQLS-mEMJK6HJJJm4ICAUV8QxUuNswgbNP36UUuxC8mFUQPuOrzNuu
+sprite $GooglecolabLg [20x20/16z] {
+hK_50SCm33I3SFzjUt8vxuWPqltGIMJNbEeMuNv2x0VgV6hEQMrnLtDUy4tTXJ82D4fT0-wgPP3wGBR519Jjq0sLe1mslN9PtBun-yIklVtq6dQKDR1wrXAh
+nYP-tS9wRd76WFVDutDpZ63z_4OztGyF
+}
+!procedure Googlecolab($id, $name="Googlecolab", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlecolab', $name, $tech)
+!endprocedure
+!procedure GooglecolabCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglecolabMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglecolabGroup($id, $name='Googlecolab', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglecolabLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $YoutubeMd [14x14/16z] ROw50O102031flUVrjRF-w03EY32pKAYTgD263bSM7R_j7Zc8y0jjo2piimCAoSifDzq9ImtApa
+sprite $YoutubeLg [20x20/16z] bT230GGn4030c8l-gtsUuuaDiKAgZHHVsgGCW1k0d8mWBXWk9Ix1Lg87tj7U9wL_RerA21b7VUNQyemIS2dLtgRjzWL4soVOugzMl04
+!procedure Youtube($id, $name="Youtube", $tech="")
+  IconElement($id, 'simpleicons-4/Y/Youtube', $name, $tech)
+!endprocedure
+!procedure YoutubeCard($id, $funcName="", $content="")
+  IconCard($id, '<$YoutubeMd>', '', $funcName, $content)
+!endprocedure
+!procedure YoutubeGroup($id, $name='Youtube', $tech='')
+  IconGroup($id, 'IconGroup', '<$YoutubeLg>', $name, $tech)
+!endprocedure
+@enduml

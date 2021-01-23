@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the BrandDotAi element
+include('simpleicons-4/B/BrandDotAi')
+BrandDotAi('brand_dot_ai', 'Brand Dot Ai', 'an optional tech field')
+@enduml

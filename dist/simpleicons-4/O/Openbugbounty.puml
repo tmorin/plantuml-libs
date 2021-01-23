@@ -1,0 +1,16 @@
+@startuml
+sprite $OpenbugbountyMd [14x14/16z] JOo70G0X30AnTzb_sd-xdZK9W8Pi9x0A39o4gkIi12DiJX6JIAkKLgiIXOtjWwnix0fvLljxAnT3dDKcF2bGvPc9IgtZhX8DBjMlpmy
+sprite $OpenbugbountyLg [20x20/16z] {
+RSx50GGm449HuZgX_shND_vll1COgKAMQUALbjcCX9SBPtCK3Tz4MkwcoGZr2Rr8blJE3rEPtogcVbXcynTpcmNskgMBAVVATvlo5qkdPLBQ-ZcG2IR5YIoP
+iQOAHM4hqQ3t1
+}
+!procedure Openbugbounty($id, $name="Openbugbounty", $tech="")
+  IconElement($id, 'simpleicons-4/O/Openbugbounty', $name, $tech)
+!endprocedure
+!procedure OpenbugbountyCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenbugbountyMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenbugbountyGroup($id, $name='Openbugbounty', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenbugbountyLg>', $name, $tech)
+!endprocedure
+@enduml

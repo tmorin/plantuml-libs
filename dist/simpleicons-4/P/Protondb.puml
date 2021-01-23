@@ -1,0 +1,16 @@
+@startuml
+sprite $ProtondbMd [14x14/16z] PKw50GD12AlWNCZ-qzRr7tT2ScgUva7jIQRtCtEKMS4VoGIfGiOyCaqnazGXKQxYW8jwqO9BS3n25gF_idfC1X2FoRyhVn_stzdsGhQXTGK
+sprite $ProtondbLg [20x20/16z] {
+RP074eGm30F15ydf_lzlpuHU16axuoORQljngfU-7IS2aSmI60uOrIf8LDEuCnRVH7mht9awKrATwS6GE9Cp4hROoZ1JIkz5A87LIGwvGQDvQ2IQF-stb8zY
+d2QQU6WFxOkL4KkFvHQRHWt8lSQYY8ZHIyJPNpvx_fhjxK6CRw_GFZtzLlm3
+}
+!procedure Protondb($id, $name="Protondb", $tech="")
+  IconElement($id, 'simpleicons-4/P/Protondb', $name, $tech)
+!endprocedure
+!procedure ProtondbCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProtondbMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProtondbGroup($id, $name='Protondb', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProtondbLg>', $name, $tech)
+!endprocedure
+@enduml

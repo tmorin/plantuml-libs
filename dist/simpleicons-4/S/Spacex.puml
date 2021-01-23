@@ -1,0 +1,13 @@
+@startuml
+sprite $SpacexMd [14x14/16z] fOf50S0m40IFsR_TScCWyrc4NOZmSoYcJyXcyBIl9-lnTTUSJFnJ5K86R782
+sprite $SpacexLg [20x20/16z] pOp50SCm3035Pcl_QTim_GCdHlW2H8XuR8YfC8tPqiUOJTQLN9i0vHe8Df1AJYqXdE3UBosBNgXsFVPgIp3-aqCFSGtFyWS
+!procedure Spacex($id, $name="Spacex", $tech="")
+  IconElement($id, 'simpleicons-4/S/Spacex', $name, $tech)
+!endprocedure
+!procedure SpacexCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpacexMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpacexGroup($id, $name='Spacex', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpacexLg>', $name, $tech)
+!endprocedure
+@enduml

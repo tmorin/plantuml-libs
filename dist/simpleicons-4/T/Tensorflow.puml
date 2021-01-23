@@ -1,0 +1,16 @@
+@startuml
+sprite $TensorflowMd [14x14/16z] LOu30i0m40ItFZIP_x-svWHdQAClcNNGIHjaajskDmwx1Tx8AxT5RMSeXOpzfo-Od0X24ttNIfkQO6et_RQOfCUgs6C5tlMdTNMvY9zbP6Aw6SpEfLS
+sprite $TensorflowLg [20x20/16z] {
+fT1L0aCX34JHmINapVvtsmRgBlVpu63c6rjZzxWeYjc89x1PD2DxMEAAycZSgWDYCZaPgGbYT3P3Dyn4bwbC4vspbmdIC1l5uMZgWJASsyl9k1N0u6nM1jwR
+2ikjYSlfpaxmfuNrfm5NvL9ELzi1
+}
+!procedure Tensorflow($id, $name="Tensorflow", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tensorflow', $name, $tech)
+!endprocedure
+!procedure TensorflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$TensorflowMd>', '', $funcName, $content)
+!endprocedure
+!procedure TensorflowGroup($id, $name='Tensorflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$TensorflowLg>', $name, $tech)
+!endprocedure
+@enduml

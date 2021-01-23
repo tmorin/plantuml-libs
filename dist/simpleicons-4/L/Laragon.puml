@@ -1,0 +1,16 @@
+@startuml
+sprite $LaragonMd [14x14/16z] HOk73SH040Avd8_-ktsq-xP7WIGWGjvS4KvgasI33PDELYYBTEvCE7mJcIHpMrA_lac9UmmFssJYUF1hd2Qs7AOaFOiYvpcYT5Gx0GNNquAHQusX5haV
+sprite $LaragonLg [20x20/16z] {
+LOq55e1020N_Xa7V_xO-i4UtXiB5ec4RlhIsUJYrrqmIYqHlsIWUjaj9l3WD0EiUNpoamUE7PjEwa5xACcKhfxUJA_U3wtdO_dgvOmFRTHE_PWU3ykAc_ios
+laR9kDYhMEBBs2Xc5cU-bcAWkM0jrohTEu3ERRpE9vA6vZaE_AZIlVUMUylN0G
+}
+!procedure Laragon($id, $name="Laragon", $tech="")
+  IconElement($id, 'simpleicons-4/L/Laragon', $name, $tech)
+!endprocedure
+!procedure LaragonCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaragonMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaragonGroup($id, $name='Laragon', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaragonLg>', $name, $tech)
+!endprocedure
+@enduml

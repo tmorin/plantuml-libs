@@ -1,0 +1,16 @@
+@startuml
+sprite $AllocineMd [14x14/16z] DOs50G0n2CJg2cJ_QL_gnSavbqTrhaDq_nc83m9fPG9cG3azGA6jh0BzisDb6SnxGLOMe4K0_sVUo1aW76XTg7m5VzI1Db230oqi_GDD8B_4N9bNov_zaIy
+sprite $AllocineLg [20x20/16z] {
+NT053WGX40NHFxWrTV_JhW8h5KLVqf9SAb5I0h9MeRJyj-SCPd9n0ash0M0y6rfrJbEhmglQ0BVs4i-Ir21i5rw_-_a5Jo0e3w1gPM1N-eK7TDLVk3xtWhts
+DfnXN8h0BnpaU9Os35Zky0rFJlqBtcCONp0MN-Eo0w_FKozH1xRkTBe3
+}
+!procedure Allocine($id, $name="Allocine", $tech="")
+  IconElement($id, 'simpleicons-4/A/Allocine', $name, $tech)
+!endprocedure
+!procedure AllocineCard($id, $funcName="", $content="")
+  IconCard($id, '<$AllocineMd>', '', $funcName, $content)
+!endprocedure
+!procedure AllocineGroup($id, $name='Allocine', $tech='')
+  IconGroup($id, 'IconGroup', '<$AllocineLg>', $name, $tech)
+!endprocedure
+@enduml

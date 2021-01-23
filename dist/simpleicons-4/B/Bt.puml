@@ -1,0 +1,19 @@
+@startuml
+sprite $BtMd [14x14/16z] {
+LOw50SD024KVf8S5qlsdhIlkV91gNykx162DguZw68YryY1jeqPvaOvsi9d9JHSHhjJqRiSvqLv2JXTHm2Fh76A_P_V9OtzcsgyhR2U8-FyWrl9Cf0smSOKd
+Ca2pRvGAN04
+}
+sprite $BtLg [20x20/16z] {
+RP07OaGX20KVwwT40Uz_srXJT-nZ1uFIqatLF5l1WIEhCclDuAEi6-qUZUvH3t1vfYnyrPKC3yClB2YJG2pou2NCKa39Ne5N7uZEMe7QFdGwetGgxeK03UNf
+qhi0xXXmRXUrLz1rPo-yttKQzuwXoMEwsjPRPBu5U6P5oUtDcz_yxMqCtiVgPqoJSI5kaHcDz_fF
+}
+!procedure Bt($id, $name="Bt", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bt', $name, $tech)
+!endprocedure
+!procedure BtCard($id, $funcName="", $content="")
+  IconCard($id, '<$BtMd>', '', $funcName, $content)
+!endprocedure
+!procedure BtGroup($id, $name='Bt', $tech='')
+  IconGroup($id, 'IconGroup', '<$BtLg>', $name, $tech)
+!endprocedure
+@enduml

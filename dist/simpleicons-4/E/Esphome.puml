@@ -1,0 +1,16 @@
+@startuml
+sprite $EsphomeMd [14x14/16z] NOw50G9130GZ5t_flrkMnvdJ-D8_B2AA9SgmegUcfti2eRGNHIHEBsA9tItTd65LjSCupZCkgs3bUPu5ApnXBLWEQsRm4FCrootAdrZzJoVMZx8VRW
+sprite $EsphomeLg [20x20/16z] {
+bP250GCW30Hno0VA_jkM3tNluOV7_KFDiOLBvSrfKQbQ1HNIDDeo5HK0hDZGWQklREVkG0ZnlAx8Rb5AgUf8dhEBEH7GKIqEdcxHw7oVfD3LXQshLCDjryhU
+EnOm1wYOSvvSt7XwitUbwz3U-we8zao6nK0gMaDy6QiVEG8
+}
+!procedure Esphome($id, $name="Esphome", $tech="")
+  IconElement($id, 'simpleicons-4/E/Esphome', $name, $tech)
+!endprocedure
+!procedure EsphomeCard($id, $funcName="", $content="")
+  IconCard($id, '<$EsphomeMd>', '', $funcName, $content)
+!endprocedure
+!procedure EsphomeGroup($id, $name='Esphome', $tech='')
+  IconGroup($id, 'IconGroup', '<$EsphomeLg>', $name, $tech)
+!endprocedure
+@enduml

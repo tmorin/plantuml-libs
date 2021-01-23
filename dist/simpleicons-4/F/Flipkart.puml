@@ -1,0 +1,16 @@
+@startuml
+sprite $FlipkartMd [14x14/16z] LOo50S0W40CFTzX_sdg1Tqi2CQV7Se1jY-1odPQ9RKphOcjpwp6iNrLGvcO9YzUXVLkFMeEkhqfBLgDSdvh-fitDaX-shtTJtCVA2G
+sprite $FlipkartLg [20x20/16z] {
+XO-54GGn30FNuSJm_LVxp7Gxf35A87qyqJWXOpxH1I1DNNTqPaZ5zGKlbBPxet-lzOsQgxtLeYQIlzGY0M8ljGx5t-u9sFEFY318ppKRAIKWZKVDEnSUDJTJ
+oz3ipND2z2s72ydVQWhbeZgvNjI0Tb6L0m
+}
+!procedure Flipkart($id, $name="Flipkart", $tech="")
+  IconElement($id, 'simpleicons-4/F/Flipkart', $name, $tech)
+!endprocedure
+!procedure FlipkartCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlipkartMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlipkartGroup($id, $name='Flipkart', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlipkartLg>', $name, $tech)
+!endprocedure
+@enduml

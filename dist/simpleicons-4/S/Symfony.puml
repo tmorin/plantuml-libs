@@ -1,0 +1,19 @@
+@startuml
+sprite $SymfonyMd [14x14/16z] {
+BOu55W0X24JHjOcv_sqNU7oJ7g9saRn6pZGWcHwPzMTsyrPaoMAqh7Yu0meS-Fd0VTyBY5kNnEWeaitpOoh3g_RR7K6vna9mV8AmzfnZtQVVSGKbXa9C6K6B
+xd92z0y
+}
+sprite $SymfonyLg [20x20/16z] {
+TT07ZW0X28LXb30gxTt_jaiSakr_AXzJfOeDdJ5rukX2cZRmsVv9he52bazQHsT0oEAJ62497tVASmn16ubAhiaCFKAUZ4gl4GD1O--DAgu9IHbdVdxIpack
+vPyzZ4tvl1_QzwRQevZaRVfk4ZacEh7UAccJZ_jlKy0FEddFWEMiNmUZ_ad_dMarHAD0PTpn0m
+}
+!procedure Symfony($id, $name="Symfony", $tech="")
+  IconElement($id, 'simpleicons-4/S/Symfony', $name, $tech)
+!endprocedure
+!procedure SymfonyCard($id, $funcName="", $content="")
+  IconCard($id, '<$SymfonyMd>', '', $funcName, $content)
+!endprocedure
+!procedure SymfonyGroup($id, $name='Symfony', $tech='')
+  IconGroup($id, 'IconGroup', '<$SymfonyLg>', $name, $tech)
+!endprocedure
+@enduml

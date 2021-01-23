@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglemybusinessMd [14x14/16z] LSU50GGn20LHTgCa7wR_Qi_rHM1AzuzkNVaX4pyglyPV2KZWDOBmO2rY1dCiePsv0wt3aoSvdEzI6yfFkQl4fxBtoJb4tf4RcTdnSXvcLm
+sprite $GooglemybusinessLg [20x20/16z] {
+RP1L0WKn2CIgm52P-v_skRARAlbCogAY7qGbfrmCzWEi9346B8qPtSoR1mgFo8dp4xVlrvn_rrgR6_YxMki0wURt2oJGau81_3jlieBp0kpW6YYo_S_TXEQD
+FxTggqg4LlTAzcZwnN5lUiOL
+}
+!procedure Googlemybusiness($id, $name="Googlemybusiness", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlemybusiness', $name, $tech)
+!endprocedure
+!procedure GooglemybusinessCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglemybusinessMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglemybusinessGroup($id, $name='Googlemybusiness', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglemybusinessLg>', $name, $tech)
+!endprocedure
+@enduml

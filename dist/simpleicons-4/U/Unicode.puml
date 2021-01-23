@@ -1,0 +1,16 @@
+@startuml
+sprite $UnicodeMd [14x14/16z] ZKhJ0K0n43lKIFQVzXc_FKPSBvJZj08EcsINuxWK8kDXGGm_inJIbF6oFAJfmSOfQQBRoQ3Ma_GZSuOutBmUFpkuNZi
+sprite $UnicodeLg [20x20/16z] {
+jKx50SCm33mps_jlMr7vcuXPT-wbMHQxYiw9Ho6NKRNMkERWvZchxgyQ4jNwPmq-OsZoheM9oCU_QeS6_shJ1QirPB6HaGIjJOUwXkTaEUYFKm6ACuS5t69Q
+9PUXOQthN4uF
+}
+!procedure Unicode($id, $name="Unicode", $tech="")
+  IconElement($id, 'simpleicons-4/U/Unicode', $name, $tech)
+!endprocedure
+!procedure UnicodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnicodeMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnicodeGroup($id, $name='Unicode', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnicodeLg>', $name, $tech)
+!endprocedure
+@enduml

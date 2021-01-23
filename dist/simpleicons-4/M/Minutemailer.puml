@@ -1,0 +1,16 @@
+@startuml
+sprite $MinutemailerMd [14x14/16z] ZSlL0SKm243HIv5us7_Qv_hN4yK04U5B8znlnyo0O-NDd9c56zbLlUzit1t3nwsw7XLwFYXetHgcEzE1dSfDVGuDvqu7TyOl_O-4awu
+sprite $MinutemailerLg [20x20/16z] {
+dSm30WGn40J0ZZtz_zSUeZDhDnhX5odddCxwxdlCSIgDfCCAIlR65I4zfboXNEL9mgJ5kyQpgZ152WSpQfBHPCqzv7l428Co2cXxM1MnwFmUHiuG54MZgnbB
+31YymmEhdyGC7ZphrHf_Em8
+}
+!procedure Minutemailer($id, $name="Minutemailer", $tech="")
+  IconElement($id, 'simpleicons-4/M/Minutemailer', $name, $tech)
+!endprocedure
+!procedure MinutemailerCard($id, $funcName="", $content="")
+  IconCard($id, '<$MinutemailerMd>', '', $funcName, $content)
+!endprocedure
+!procedure MinutemailerGroup($id, $name='Minutemailer', $tech='')
+  IconGroup($id, 'IconGroup', '<$MinutemailerLg>', $name, $tech)
+!endprocedure
+@enduml

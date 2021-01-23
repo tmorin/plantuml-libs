@@ -1,0 +1,19 @@
+@startuml
+sprite $MinetestMd [14x14/16z] {
+HSd5WKK134BHIm8ywR_VaQzdXMZ3cfVDe6Z5FmT8rljjOkyO9fNDSMuxn7i5NFvhhGpeEYOw8KQzF4dFxR4zAvZJRUGre5PfjGwijrbmEyaevfyEmqQy_7_y
+-mK
+}
+sprite $MinetestLg [20x20/16z] {
+LSY7aLW124F11mW1Vzn_kxwSTl92JUBc3qtG3dwa1i1Aw_jA0BLTclow1b03yHG5f0pG1RNFh0jWDqCJl4xbga5gtHhm5LWdRc5R075YgykIGmuW_ImozK1O
+0VXEiShf1PLSTMS0FvhB-ZUAUPm0o0vdDgvitjLPx9v8rG1WgtCLEHskRgWjT0u0sODVWQRurDTKKcv-P0_OoH-rypql
+}
+!procedure Minetest($id, $name="Minetest", $tech="")
+  IconElement($id, 'simpleicons-4/M/Minetest', $name, $tech)
+!endprocedure
+!procedure MinetestCard($id, $funcName="", $content="")
+  IconCard($id, '<$MinetestMd>', '', $funcName, $content)
+!endprocedure
+!procedure MinetestGroup($id, $name='Minetest', $tech='')
+  IconGroup($id, 'IconGroup', '<$MinetestLg>', $name, $tech)
+!endprocedure
+@enduml

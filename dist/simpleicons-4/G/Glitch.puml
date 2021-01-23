@@ -1,0 +1,16 @@
+@startuml
+sprite $GlitchMd [14x14/16z] ROo50GGW30Dnwjr_sm_lTaWrAOTMtgWqspDbommwTKCQmWg4DD8ro35qzTH0WdZ35jypvyLIPs19pQZ39CA2z3JKqXCLUmA7oqai7Yvja9o-ygXz5x2ebdzS
+sprite $GlitchLg [20x20/16z] {
+VP35OGKm2429u-o_RKdwtTu5L_XEAM-kfeBZmLqciKLY_PhHDIsTYAIcr4idyr0D8Sw04Afd_auYzoLn44m7UMIgiCI5J1G_YbdSeTRvRXdFEbW0XctBtK97
+pKtgH7OFva589Ag2fqmf3FLVuzq_lIgXA9UfOkdpao0ITvYFvRV9cSW07L7FYZbWVw4ls5JsLIgyK0lyvWy
+}
+!procedure Glitch($id, $name="Glitch", $tech="")
+  IconElement($id, 'simpleicons-4/G/Glitch', $name, $tech)
+!endprocedure
+!procedure GlitchCard($id, $funcName="", $content="")
+  IconCard($id, '<$GlitchMd>', '', $funcName, $content)
+!endprocedure
+!procedure GlitchGroup($id, $name='Glitch', $tech='')
+  IconGroup($id, 'IconGroup', '<$GlitchLg>', $name, $tech)
+!endprocedure
+@enduml

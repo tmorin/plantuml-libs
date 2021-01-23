@@ -1,0 +1,16 @@
+@startuml
+sprite $CodecovMd [14x14/16z] JSV70SD030InvUL4JV_Tsih23vAoy-TPkp317MROir5CiieML1T1sWLSa7H95Do2TXQ2BtRDrDcjLSiaJaQfgsjdZQANhq-Czjqsz37MTo59kny
+sprite $CodecovLg [20x20/16z] {
+PSw54KGX34NHu4HV_zMkV9SxnXmizAyfbgpHNXg-ce-qKJ70XLa2yBfG3KJF_rNkF_rXoW5RP553P9e2ItG-RH02qEXI1Gf-Vein0MNbdjQPHDbWMFDED09B
+4N2P7B0q0UV13YbbkIQr0RmyKCwtVQNx396VDk3qRC9UrX4lIu7oGdwzTvlh2m
+}
+!procedure Codecov($id, $name="Codecov", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codecov', $name, $tech)
+!endprocedure
+!procedure CodecovCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodecovMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodecovGroup($id, $name='Codecov', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodecovLg>', $name, $tech)
+!endprocedure
+@enduml

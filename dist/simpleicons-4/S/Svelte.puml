@@ -1,0 +1,19 @@
+@startuml
+sprite $SvelteMd [14x14/16z] {
+BOs50G0W20JVBk3tdzO-M-9mo3naN89Gkt3WKCcoZtA3WyF3zm0J8B6UVseqHUXqJYbLkBz3e_EIRldU8zk-fk7TllXAIXrKvzYHrQ8UnSrCOWXzAyQnk_pL
+f_pQfIaru56Cbd5P
+}
+sprite $SvelteLg [20x20/16z] {
+HP17eaKX2CMEYDucPF-h_GLVoSn8rwQT5ClqmMwAz8yw4fuvZY2xYhuWPuK7TwcPS9jaBeqTw113qWYc35pIJVm7NK2UNiw2kVDZGVxdDajS7TQmvWiklUBQ
+URGQVPNJHUptSJPDmigntCmNT7dLwqb2H8szuyp1pwJ6tdkKCytFsBWgTqZUNhUPqjwZlzTUhg8dSSxvG1vwuqdnT7snSv7F-Bn_0G
+}
+!procedure Svelte($id, $name="Svelte", $tech="")
+  IconElement($id, 'simpleicons-4/S/Svelte', $name, $tech)
+!endprocedure
+!procedure SvelteCard($id, $funcName="", $content="")
+  IconCard($id, '<$SvelteMd>', '', $funcName, $content)
+!endprocedure
+!procedure SvelteGroup($id, $name='Svelte', $tech='')
+  IconGroup($id, 'IconGroup', '<$SvelteLg>', $name, $tech)
+!endprocedure
+@enduml

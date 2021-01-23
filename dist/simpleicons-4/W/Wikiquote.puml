@@ -1,0 +1,16 @@
+@startuml
+sprite $WikiquoteMd [14x14/16z] PKu30W112Cph-lzhpxvb6i2nqElodWasnojh5SRPPACm2Lf2Kg9GS_2qr2D2R91pQQ1joGO6TRFnoK0Uan-MZy97_UTiJJilxmm
+sprite $WikiquoteLg [20x20/16z] {
+RP030aGn30MdTjxzJxl6rzIDmuQavJcGP84TBf6r75kw4arrgqKm1Sms7iSagfDLtYenUQeQNTvf08GbMMB89nMcUN1Jaim75MUJfe2FUf5HPosAujNVbUrb
+Z6qkxPtBTSxRslo-DkZAXnvSzmgI53ZWHdgTTm
+}
+!procedure Wikiquote($id, $name="Wikiquote", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wikiquote', $name, $tech)
+!endprocedure
+!procedure WikiquoteCard($id, $funcName="", $content="")
+  IconCard($id, '<$WikiquoteMd>', '', $funcName, $content)
+!endprocedure
+!procedure WikiquoteGroup($id, $name='Wikiquote', $tech='')
+  IconGroup($id, 'IconGroup', '<$WikiquoteLg>', $name, $tech)
+!endprocedure
+@enduml

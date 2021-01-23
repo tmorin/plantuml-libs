@@ -1,0 +1,16 @@
+@startuml
+sprite $AzurepipelinesMd [14x14/16z] LKk50G0W29lTyl-rTiw05GO4JKocYNBCY_6so1umrbeJYIA0I0S2ufBH--5VOc1YNed80J2sVDk8PF0-RsQRpouJ30YRjM4QdGCL
+sprite $AzurepipelinesLg [20x20/16z] {
+ZSq73WCn24JHCQ34XNB_qwQFqfFzQlY1P339Oc1Qx-QdHumH3zPFSnfWIRkCDRXaNomLq7mK_h6vtPkuOlapzGP0uf4DbwJ9tS3wYyqEI1T_jDMlgzSxeFcZ
+XU_xYSKVx3hnCYvs1
+}
+!procedure Azurepipelines($id, $name="Azurepipelines", $tech="")
+  IconElement($id, 'simpleicons-4/A/Azurepipelines', $name, $tech)
+!endprocedure
+!procedure AzurepipelinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AzurepipelinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure AzurepipelinesGroup($id, $name='Azurepipelines', $tech='')
+  IconGroup($id, 'IconGroup', '<$AzurepipelinesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SmugmugMd [14x14/16z] XSUv0GGW24N1fmBU_FwhtJlVoGQQTA1SgG4cNIZvNLd7W5ZE7ytCFVfSEx2bdrJMcQErMWfmikniV5LDPjflMuMuuvif1rmDg5l1szAUMpA-UYf7uUq9
+sprite $SmugmugLg [20x20/16z] {
+fS_L0GGn20JGYG4nflzkRrajuDvF5CDXaQm0Scm48MsIBUvYemZ5u-xP24xTtH1aZePRIlX3IYddKfjenK7NN6ljlTqP1BdovNijSg0PUwkrvFJqRx31Wayc
+wt7d6P_E2OZnkqCxXooD5O_Yj4YQEN6hpl6aK8IaxnNovjJMT97zox9vsWsVP9i-9U7s0m
+}
+!procedure Smugmug($id, $name="Smugmug", $tech="")
+  IconElement($id, 'simpleicons-4/S/Smugmug', $name, $tech)
+!endprocedure
+!procedure SmugmugCard($id, $funcName="", $content="")
+  IconCard($id, '<$SmugmugMd>', '', $funcName, $content)
+!endprocedure
+!procedure SmugmugGroup($id, $name='Smugmug', $tech='')
+  IconGroup($id, 'IconGroup', '<$SmugmugLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $TravisciMd [14x14/16z] {
+7Oo1WGDG14C34lns_tNFzG40W9e0OeX_RCeYlCPmTC3V2qHVaUsEAeGheRr5I73EkcubAJ7yTdUd7oFgTI-TX4odg0PyAwgx8kyliDIhVAerEBzIaYbz1UJu
+zHpmAG3LOZVLn8_yx7uInny
+}
+sprite $TravisciLg [20x20/16z] {
+FSU9OQ0m34JHBunkcVxBNSmcUJg7mze5v3tyYRPpj5FuKG6MQU0jV3BEcaa1BuuxEKmvyZiLjryG0IlkA32V3WMf4iIonvaMNjTINHSlQSr0ipCpubsTIkX-
+Tgks8i9TfhMV9HAEJb25Zw4bW2MlrRtEZVZIb8MNQdjOFihHQLO9KMPU5o0sXeVFH0JtjWjazeppyTbx1F3Wk1P714TKt7BDNjnHANnkxsVMccTS-IC-hn0-
+_m
+}
+!procedure Travisci($id, $name="Travisci", $tech="")
+  IconElement($id, 'simpleicons-4/T/Travisci', $name, $tech)
+!endprocedure
+!procedure TravisciCard($id, $funcName="", $content="")
+  IconCard($id, '<$TravisciMd>', '', $funcName, $content)
+!endprocedure
+!procedure TravisciGroup($id, $name='Travisci', $tech='')
+  IconGroup($id, 'IconGroup', '<$TravisciLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $FeathubMd [14x14/16z] Om02HZv-VZv648iWZuUFZuSHp0819Y00C_X0W1S8m0n-F80F1K1COMQ6c89g0_4k0m
+sprite $FeathubLg [20x20/16z] Om03HXv-8E1XXF1e8yR0mSFDpSC1Km41A1mUB82VoW2R7TZS0dCpDn30t4oFi08
+!procedure Feathub($id, $name="Feathub", $tech="")
+  IconElement($id, 'simpleicons-4/F/Feathub', $name, $tech)
+!endprocedure
+!procedure FeathubCard($id, $funcName="", $content="")
+  IconCard($id, '<$FeathubMd>', '', $funcName, $content)
+!endprocedure
+!procedure FeathubGroup($id, $name='Feathub', $tech='')
+  IconGroup($id, 'IconGroup', '<$FeathubLg>', $name, $tech)
+!endprocedure
+@enduml

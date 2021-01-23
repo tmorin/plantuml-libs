@@ -1,0 +1,16 @@
+@startuml
+sprite $MonzoMd [14x14/16z] NSU55SGW54JHjnBqXEc_sWWEN-VoZL_Uok5hP8kC3ATKQDyW5HgDCXrRfUKvLsuLNl9quJrPAGkomjyFUI0snVo-z7S3
+sprite $MonzoLg [20x20/16z] {
+dSX70WCX34DHMKowFRh_QLFeiCod-W5y7kYb9_FZbs4NJu2bKxfqaiu43wdZ8VrGfKkbZ1fuqTxbq5_5-FJeoZc7mJA6OPY1BZbXiy4Y39k1XchXaIrNB6YC
+rO806BDb0f8FSw9KQ7m_
+}
+!procedure Monzo($id, $name="Monzo", $tech="")
+  IconElement($id, 'simpleicons-4/M/Monzo', $name, $tech)
+!endprocedure
+!procedure MonzoCard($id, $funcName="", $content="")
+  IconCard($id, '<$MonzoMd>', '', $funcName, $content)
+!endprocedure
+!procedure MonzoGroup($id, $name='Monzo', $tech='')
+  IconGroup($id, 'IconGroup', '<$MonzoLg>', $name, $tech)
+!endprocedure
+@enduml

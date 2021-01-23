@@ -1,0 +1,16 @@
+@startuml
+sprite $HyperledgerMd [14x14/16z] 7Ow54G0m30BXgUq_SI_4FKXhsIRR6jfdCa8paCbIfcbxMuvDao0iOGI8Za1MsfzqcMUjJ0OMJd0NkcU6GOSk8E-qgbxhGQMPLg4bAb5V-W
+sprite $HyperledgerLg [20x20/16z] {
+JSY74SCm40F1E-0bSjn_lyvf9o-GGvEaiyfRLvxcxsP7G642Jp7OzYWfJmbDXVCWbeV0dFBWO4134n8LIoMn4a0ZCMMcGWHGp_IyJ44C3xPmdCBizwM8PKPZ
+yYofaJO9HAPWYMXerHPtDG0HSno2foeF1JfDW8OdYy4aEi9JfYQQcU7Zik83ygNykm4
+}
+!procedure Hyperledger($id, $name="Hyperledger", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hyperledger', $name, $tech)
+!endprocedure
+!procedure HyperledgerCard($id, $funcName="", $content="")
+  IconCard($id, '<$HyperledgerMd>', '', $funcName, $content)
+!endprocedure
+!procedure HyperledgerGroup($id, $name='Hyperledger', $tech='')
+  IconGroup($id, 'IconGroup', '<$HyperledgerLg>', $name, $tech)
+!endprocedure
+@enduml

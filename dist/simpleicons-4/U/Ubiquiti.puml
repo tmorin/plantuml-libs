@@ -1,0 +1,19 @@
+@startuml
+sprite $UbiquitiMd [14x14/16z] {
+JSx50K0X30DGd7hsd_Qxa1CFgEHSPZhJ0cWfTIgd9WxHA7sSabFAQQPFJBtrHQNp_zDj_3B0vL7aGz17MiuFpvjB7VQ-kLhA7N2ctjdHxvKqSEJUehAnEzVZ
+k0C
+}
+sprite $UbiquitiLg [20x20/16z] {
+PT3L0KKX30FG1ckBPVzfdroN_ENWn0WfHTQWaHm80QAwMHYB0MAUush6nRp-LYTVhQxMUXOrULX2Za-BLf8-rmBMtlFqQPDtwpyZMx-Qoz_8gnMfJsiARtUR
+rP7rOetJfmdYUXQMUTq6u_OPuzToBjP8EtRspZKLiaJ9QMCXbJr1MxSscuQbVW4
+}
+!procedure Ubiquiti($id, $name="Ubiquiti", $tech="")
+  IconElement($id, 'simpleicons-4/U/Ubiquiti', $name, $tech)
+!endprocedure
+!procedure UbiquitiCard($id, $funcName="", $content="")
+  IconCard($id, '<$UbiquitiMd>', '', $funcName, $content)
+!endprocedure
+!procedure UbiquitiGroup($id, $name='Ubiquiti', $tech='')
+  IconGroup($id, 'IconGroup', '<$UbiquitiLg>', $name, $tech)
+!endprocedure
+@enduml

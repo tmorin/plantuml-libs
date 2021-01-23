@@ -1,0 +1,16 @@
+@startuml
+sprite $VkMd [14x14/16z] LSx50K0X30FGuDfa_sc_wpj1lLCFUjD7rjVK5wLUnDna-SXKD28euVZHUNEne-fG4Hs0UqG2V8Q_DrUNr53rn__s_sK-poUJiG8
+sprite $VkLg [20x20/16z] {
+ZT2r0GGn4CLGcN7y-w_sc75Vg52vwaMbThtew5twqFg7PlgifohLL9PMoLCd1OOoRghWBiqSIGrdvYYwo30xRYJ2qiLoXCnHqqtZo86tUop7r1j4tJMFcsgG
+TRUcIPh3z95jV90-FONKxHwi9zW3
+}
+!procedure Vk($id, $name="Vk", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vk', $name, $tech)
+!endprocedure
+!procedure VkCard($id, $funcName="", $content="")
+  IconCard($id, '<$VkMd>', '', $funcName, $content)
+!endprocedure
+!procedure VkGroup($id, $name='Vk', $tech='')
+  IconGroup($id, 'IconGroup', '<$VkLg>', $name, $tech)
+!endprocedure
+@enduml

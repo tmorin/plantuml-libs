@@ -1,0 +1,16 @@
+@startuml
+sprite $AzurefunctionsMd [14x14/16z] ROo5WGKm34AXxko_xTNk-wic0R3Wa8R1nKfgzq-aMTbR5TUaO0fNKPsLkZMX4h46P4q6VUKis5SL0DzgEZ45GCesvVcsmLcatO6LkyLyzjpDOiDCFB4MF_a3
+sprite $AzurefunctionsLg [20x20/16z] {
+XSy5aWGm24JHxhWHxd_RBSAEsoz_KV1VLQlYllR6bj5ye6IqumquGZidm-I5LkVoastnGduqCx1BC9B-_wh8hcX2J2DkFTcc9a7cUTLBTjSGyGk8gThy-bRQ
+GK1q7H9RSIogyK8N76VMOEIuI9b-5ouLbaq0iU2kKV1Sh7Wf1Fpe3m
+}
+!procedure Azurefunctions($id, $name="Azurefunctions", $tech="")
+  IconElement($id, 'simpleicons-4/A/Azurefunctions', $name, $tech)
+!endprocedure
+!procedure AzurefunctionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AzurefunctionsMd>', '', $funcName, $content)
+!endprocedure
+!procedure AzurefunctionsGroup($id, $name='Azurefunctions', $tech='')
+  IconGroup($id, 'IconGroup', '<$AzurefunctionsLg>', $name, $tech)
+!endprocedure
+@enduml

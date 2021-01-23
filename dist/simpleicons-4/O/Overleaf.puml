@@ -1,0 +1,19 @@
+@startuml
+sprite $OverleafMd [14x14/16z] {
+DOw50KCn24H_NBct_xGLQAFOoVDTNI3HFKaNTANYsS3c4ZLQjl96_sIEkyeJo_O0B7kdK-htjVGbjnqYphyOWMPxDd_PyKbvLfd1iZ_u8h9N5pgNCEd3S4Bz
+3G
+}
+sprite $OverleafLg [20x20/16z] {
+HP05ea0X2C3iH7R_q_xmYSwUZVlmdNyKnBj3cEQcDxN-nHZ2kiiQq79V49qXp5WLD5tLg2w9wWXN3N8IQSazEYNpJ_EcCYDAgrsXcvl4zByW3CZR-CIqlmYo
+EwbGRKU1iDlsN5JISUqvyjbxlvZFNX_LDll9ka-cR3LsvyPfrje4XZE2yD7TmvUfh7vZy0i
+}
+!procedure Overleaf($id, $name="Overleaf", $tech="")
+  IconElement($id, 'simpleicons-4/O/Overleaf', $name, $tech)
+!endprocedure
+!procedure OverleafCard($id, $funcName="", $content="")
+  IconCard($id, '<$OverleafMd>', '', $funcName, $content)
+!endprocedure
+!procedure OverleafGroup($id, $name='Overleaf', $tech='')
+  IconGroup($id, 'IconGroup', '<$OverleafLg>', $name, $tech)
+!endprocedure
+@enduml

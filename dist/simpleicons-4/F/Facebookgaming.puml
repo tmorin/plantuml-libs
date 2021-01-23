@@ -1,0 +1,13 @@
+@startuml
+sprite $FacebookgamingMd [14x14/16z] uwS0SB9pG068nyxBpmS181u77qmLAW-k4Y77pW54oF9yx2Wy3a8y
+sprite $FacebookgamingLg [20x20/16z] uwSRu4C1434sLZOa0576oeEXZe-D3zCuDbx2OfXwKUs0yX5k0H9yQ6xcvUDXnMOzRSG
+!procedure Facebookgaming($id, $name="Facebookgaming", $tech="")
+  IconElement($id, 'simpleicons-4/F/Facebookgaming', $name, $tech)
+!endprocedure
+!procedure FacebookgamingCard($id, $funcName="", $content="")
+  IconCard($id, '<$FacebookgamingMd>', '', $funcName, $content)
+!endprocedure
+!procedure FacebookgamingGroup($id, $name='Facebookgaming', $tech='')
+  IconGroup($id, 'IconGroup', '<$FacebookgamingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $VimMd [14x14/16z] {
+7So50KCn20JGG-BmR_zjIuc_87kFEIRprEdt75MTP2vLkRuD298R65D6ASbJM6X5HnxGcLaH9nS-QiKRv6QfXdsjpeJVFxfBuMNSUqoqP9nl7JTNdQwHdlEv
+Es1xOIQdjNhiZHu_
+}
+sprite $VimLg [20x20/16z] {
+HSu70WCX20H0R3Gn-__VHaYvlIAELKqp4dZTKh8ECxbH3i1T-9Pop8Lk-W4Gt6xPTXzxtCAHsJrf4KcQ5UKilqJwc-T9nlHO4UrDDP9cIJMaH4jEpywctwv2
+GDbiHHKjgxIaCjQVhVXIdL5aVehaVnVI27WSstEshoc6lYPpux7Aaax3df3HP_-OnErXyMdSLnufRafg3bzhykJSgirP6yAezNoVgFxBDm
+}
+!procedure Vim($id, $name="Vim", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vim', $name, $tech)
+!endprocedure
+!procedure VimCard($id, $funcName="", $content="")
+  IconCard($id, '<$VimMd>', '', $funcName, $content)
+!endprocedure
+!procedure VimGroup($id, $name='Vim', $tech='')
+  IconGroup($id, 'IconGroup', '<$VimLg>', $name, $tech)
+!endprocedure
+@enduml

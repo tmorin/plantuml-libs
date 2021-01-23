@@ -1,0 +1,13 @@
+@startuml
+sprite $ImdbMd [14x14/16z] dOg50G0n20FxaBodx3zjTGEk0f78KZNv_z1KhxaRxBXCMvL20ytUeMOmbViz5O5pD7rceJgGOjmiVmS
+sprite $ImdbLg [20x20/16z] nSxL0G0n20DGI2Zf-VxRNcs76lA-ycqxxzrkB_VpFSyqkQp83dTSp6bfCeHL8mJgdfRctYoOW9TbtkPf4R4CGSZe0ZbCK2XB9VmAeeuiJxljF2t8s_wsS_m
+!procedure Imdb($id, $name="Imdb", $tech="")
+  IconElement($id, 'simpleicons-4/I/Imdb', $name, $tech)
+!endprocedure
+!procedure ImdbCard($id, $funcName="", $content="")
+  IconCard($id, '<$ImdbMd>', '', $funcName, $content)
+!endprocedure
+!procedure ImdbGroup($id, $name='Imdb', $tech='')
+  IconGroup($id, 'IconGroup', '<$ImdbLg>', $name, $tech)
+!endprocedure
+@enduml

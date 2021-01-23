@@ -1,0 +1,16 @@
+@startuml
+sprite $EleventyMd [14x14/16z] bKv50S1G2FsAI_-qymM06yzRZ_mkUYjzYvPIV5y20ozoyt5_oCYR0Ep_16Fj-3wGRGZv-DJKLP2VxslWA6qv0G
+sprite $EleventyLg [20x20/16z] {
+jL150WLH2F9r8Tp_jBzZOZqkLT8iKvjXDhjW9ouw1D_kciqKMVjsvm4zCJTIr6Sdmqm8kJMKpMv4vexKjxiPMOPI6hzTU61PkefXZwr9mxuQL2Ewl615wP23
+gL_Kotbt1m
+}
+!procedure Eleventy($id, $name="Eleventy", $tech="")
+  IconElement($id, 'simpleicons-4/E/Eleventy', $name, $tech)
+!endprocedure
+!procedure EleventyCard($id, $funcName="", $content="")
+  IconCard($id, '<$EleventyMd>', '', $funcName, $content)
+!endprocedure
+!procedure EleventyGroup($id, $name='Eleventy', $tech='')
+  IconGroup($id, 'IconGroup', '<$EleventyLg>', $name, $tech)
+!endprocedure
+@enduml

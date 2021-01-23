@@ -1,0 +1,19 @@
+@startuml
+sprite $RssMd [14x14/16z] {
+BOp70S0m309nxsZ_ROCLypkQIRi6_3B7ykZmv_WurYLaXfGIW7p45ytEY0YA6TzB1QQsm9WKTWILxtFedXOFfU8ZJNDVCqBfG3MxhOL0EuYgNlB711eNcN2h
+6Ke-
+}
+sprite $RssLg [20x20/16z] {
+LP07TWKX30DbqVlzRvjOaF9d-wnbFpXY9CCVrwt2JoTsvQSJA-51XjptjHN_iBmaEqG8bAsIxVLRGqFZ-es_eGPm-ckI4vC0lN8PCEU-fH68MsaDdP84gZy3
+H5KSWASBBldDBFxFZ2MzoaMOTmn-6m3cJNL_Q6YwwN4VxbLWM-7WFUJumW7KglhRkF7z5K7l_mK
+}
+!procedure Rss($id, $name="Rss", $tech="")
+  IconElement($id, 'simpleicons-4/R/Rss', $name, $tech)
+!endprocedure
+!procedure RssCard($id, $funcName="", $content="")
+  IconCard($id, '<$RssMd>', '', $funcName, $content)
+!endprocedure
+!procedure RssGroup($id, $name='Rss', $tech='')
+  IconGroup($id, 'IconGroup', '<$RssLg>', $name, $tech)
+!endprocedure
+@enduml

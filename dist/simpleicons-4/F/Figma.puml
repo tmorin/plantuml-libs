@@ -1,0 +1,16 @@
+@startuml
+sprite $FigmaMd [14x14/16z] NOx5eSCm40L7h2Mx_se_vDqoWcM0dMkuZvKRm0pkbOJeS0wq-5XRrlvO_Gchj7WwmCerxRtgGWou1YE-BSspzoXJNUpu0i0r0H5TkmWpUWr0UDL2_08
+sprite $FigmaLg [20x20/16z] {
+TT05ba0X20LGE-01-r_jX75-srvRvrmGr5A0KYeak16YKKu9I2cJnMdC_oNHqNPUyc5P_42qmwgu4Ph5RT6QMnkQW5M9nNYH1rfhOjeRuAVHsBTR-Z-FfaaP
+8_WlYxpPzzempe1PRohXT1SOPKRpYvhkEny1rTrj_G5lE_ugQ3bRDCv5SS10g7P_z7y1
+}
+!procedure Figma($id, $name="Figma", $tech="")
+  IconElement($id, 'simpleicons-4/F/Figma', $name, $tech)
+!endprocedure
+!procedure FigmaCard($id, $funcName="", $content="")
+  IconCard($id, '<$FigmaMd>', '', $funcName, $content)
+!endprocedure
+!procedure FigmaGroup($id, $name='Figma', $tech='')
+  IconGroup($id, 'IconGroup', '<$FigmaLg>', $name, $tech)
+!endprocedure
+@enduml

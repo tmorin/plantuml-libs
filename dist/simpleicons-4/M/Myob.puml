@@ -1,0 +1,16 @@
+@startuml
+sprite $MyobMd [14x14/16z] fS470S9050MmltZZXd-vG3KqYTTA4HA4Ja1pDEJXCQvmrfngZtLXxFtPcLt55M117GztlFC3
+sprite $MyobLg [20x20/16z] {
+nSZ50K9130JGYQzablwhnM__3YyU_87W8ZS03vSmDS340zNc89lTiyKvdZDlcnMMrBaxdkN2sOXZ4eqnatI-VaHG4HDLSZQgUyJPJ43acNe2C8Ue6RxMneK8
+Vki1
+}
+!procedure Myob($id, $name="Myob", $tech="")
+  IconElement($id, 'simpleicons-4/M/Myob', $name, $tech)
+!endprocedure
+!procedure MyobCard($id, $funcName="", $content="")
+  IconCard($id, '<$MyobMd>', '', $funcName, $content)
+!endprocedure
+!procedure MyobGroup($id, $name='Myob', $tech='')
+  IconGroup($id, 'IconGroup', '<$MyobLg>', $name, $tech)
+!endprocedure
+@enduml

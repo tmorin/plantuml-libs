@@ -1,0 +1,16 @@
+@startuml
+sprite $ThumbtackMd [14x14/16z] LOxL0KDH24FXkcV_ROlqsVd1IOYum-XCGZvUdIoJZ9jC_M1FO-CmW4P6aqmFP31qXWMZPRm8uLr5hzQdQjsqKpBzuEfpcFhZp0g1crolnfB-
+sprite $ThumbtackLg [20x20/16z] {
+VT074aCX20HGqC6-sVkVzZU9wNdsTHh88NQw7iNPe8DvLFYal4SUHkCRamwIsTB5CaaeJoftF1XF9H_AkNXeNDgD4-WGfFFDaByPlcJjIsRTwuSA_5TNRI6i
+sbOFMltPcFArfqwjWKGpbTCE
+}
+!procedure Thumbtack($id, $name="Thumbtack", $tech="")
+  IconElement($id, 'simpleicons-4/T/Thumbtack', $name, $tech)
+!endprocedure
+!procedure ThumbtackCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThumbtackMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThumbtackGroup($id, $name='Thumbtack', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThumbtackLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $UploadedMd [14x14/16z] JOe50eH030C3h4ld_x-zd3ChRKGca_LdKFvYGhgBhWzvt8J2uchjV2jO6OYtX3emLKhrWZ8nJGEwxxjfCHIGynZf9LGNzEBVmfmRynRcg9kOMJ8F
+sprite $UploadedLg [20x20/16z] {
+PT055iGm24LH86xy_Uzs3amzhtxh8I-gCdrAWEm4sKbv8nHwbetQKoGQLNesbrDCuJQ_KQP26pzioOBL7bOJFBNR9OXPplWNYIe0MyfzNRED7GvURlrFaVmU
+MKPy48rbo347xWTHy8UDdAiUhx4AhZGz1y5RZ_-JEW4TcO_Z7m
+}
+!procedure Uploaded($id, $name="Uploaded", $tech="")
+  IconElement($id, 'simpleicons-4/U/Uploaded', $name, $tech)
+!endprocedure
+!procedure UploadedCard($id, $funcName="", $content="")
+  IconCard($id, '<$UploadedMd>', '', $funcName, $content)
+!endprocedure
+!procedure UploadedGroup($id, $name='Uploaded', $tech='')
+  IconGroup($id, 'IconGroup', '<$UploadedLg>', $name, $tech)
+!endprocedure
+@enduml

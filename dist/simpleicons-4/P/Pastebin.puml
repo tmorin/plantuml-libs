@@ -1,0 +1,16 @@
+@startuml
+sprite $PastebinMd [14x14/16z] 7SY15KGn10NHPmO_wR_XFTaBa0SraAVGalXs4IQtJBJfwt61oFVDqSfeS4uHjkzdC9NTlJFzlgpVTIhH59vwe_1zYlHoZ4cWsSkEbIHocAJD8rGf-QjMy_S3
+sprite $PastebinLg [20x20/16z] {
+HS_9eI112CDG6Hkgw9xyqvtjR--ec_YawWZ23vK_clZa90Kpg05GuW8ljQ81En9-HskUnOPkPklChNwhH0KwR6xsbWLzoiBHlKiAfdddsCZH54H-RkvP6IaW
+phs-qpecWfH_SMUhdm8u0fkPkllz8o3C8u1f8XcWLOApvRM80SealBtiMk6_OIxtNAQIuh-8PxW5TSodvZGeYVbfu8wB7veUYoz_
+}
+!procedure Pastebin($id, $name="Pastebin", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pastebin', $name, $tech)
+!endprocedure
+!procedure PastebinCard($id, $funcName="", $content="")
+  IconCard($id, '<$PastebinMd>', '', $funcName, $content)
+!endprocedure
+!procedure PastebinGroup($id, $name='Pastebin', $tech='')
+  IconGroup($id, 'IconGroup', '<$PastebinLg>', $name, $tech)
+!endprocedure
+@enduml

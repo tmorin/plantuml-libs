@@ -1,0 +1,16 @@
+@startuml
+sprite $TwitchMd [14x14/16z] JSd70SCm34DHg4JivFxRnjt-jmS0KhHeQt4qzAZUZeOtyig6rh5DtYHt_Gp2YCQd_D3rJG4j-AMZ4H_rP6mgfjQ8KW3Esbg-RS3nRPt09EOgvOMxPBorT_y3
+sprite $TwitchLg [20x20/16z] {
+dSW5aWGW34JHnYLs_zjkYh2ZfVFHF03TTDtssZRX3PDncsCUcsQ4PxnGkuMbV4wIXJwlDSde2hnQrunXlrcgGFR33tjKR7vQKIrXZ0Gl1OKfqKRQH8V2FCda
+zw67gVWbJayB3qAfSupjynmpw5PCApwgzaKe3Q_z0G
+}
+!procedure Twitch($id, $name="Twitch", $tech="")
+  IconElement($id, 'simpleicons-4/T/Twitch', $name, $tech)
+!endprocedure
+!procedure TwitchCard($id, $funcName="", $content="")
+  IconCard($id, '<$TwitchMd>', '', $funcName, $content)
+!endprocedure
+!procedure TwitchGroup($id, $name='Twitch', $tech='')
+  IconGroup($id, 'IconGroup', '<$TwitchLg>', $name, $tech)
+!endprocedure
+@enduml

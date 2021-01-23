@@ -1,0 +1,19 @@
+@startuml
+sprite $ComposerMd [14x14/16z] {
+9SU70GCn20H1Be7U_HTiXLM0gG85UApQGOwW5g-Sk912dKpjXRid551oRpAIQKVQWZM2lB-j8dllZe2Z_dKxwrFjnARDRjQ9aeL8LugIIJ_HixvbuogzEZEJ
+gZy
+}
+sprite $ComposerLg [20x20/16z] {
+LSv7GWHH24LHNWAgtVzw3HNKliFp0zHF48hS9AWB2ZJmPaucSLK2w386ax3AHl4oE2JhCjTLKBc_aOpBw2gGLMZDUQocIL566z9bIiTK9msVFzBm2c0mMxos
+KQcXpehpc77iDjUzXuJJXDUBC_JCnwZEGYmOdV_U1fC3JN53rfrTYM1L-oQvvMIsPrY_kDxlB3n4POuzPfpnRSdkjBgtDrNr1G
+}
+!procedure Composer($id, $name="Composer", $tech="")
+  IconElement($id, 'simpleicons-4/C/Composer', $name, $tech)
+!endprocedure
+!procedure ComposerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ComposerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ComposerGroup($id, $name='Composer', $tech='')
+  IconGroup($id, 'IconGroup', '<$ComposerLg>', $name, $tech)
+!endprocedure
+@enduml

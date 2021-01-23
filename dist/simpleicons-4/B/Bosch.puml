@@ -1,0 +1,16 @@
+@startuml
+sprite $BoschMd [14x14/16z] NKw55KD128F0uoVqzb_tfDxYJinSJ20fjqtLkRsdQjkYunJXB5FRhK-cuGBZukxk3gzW1Z4eSUo6a0MTIQBoBtjCae_9tolIzuVVxmTPd2nw9wTATOjdOW4
+sprite $BoschLg [20x20/16z] {
+RP05TW0X34G7YxFtFsvJNjZgnoKsI8O7pzudXmqKAvnwQvqyLbr9J1GpvApgG9daufhBYjQtbiNkBSqz3ICC1ur8yxOTnilG4jXYWnEl5cqzTdZEmKOZ1KMV
+INU2Kbv317JzqUTf_tVtsexnsjuORkOtngzSnE3qDsTlfxRdrlRq5lIl1lzhLPe2fMdHI7tlK6hd-04
+}
+!procedure Bosch($id, $name="Bosch", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bosch', $name, $tech)
+!endprocedure
+!procedure BoschCard($id, $funcName="", $content="")
+  IconCard($id, '<$BoschMd>', '', $funcName, $content)
+!endprocedure
+!procedure BoschGroup($id, $name='Bosch', $tech='')
+  IconGroup($id, 'IconGroup', '<$BoschLg>', $name, $tech)
+!endprocedure
+@enduml

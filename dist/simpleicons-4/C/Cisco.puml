@@ -1,0 +1,16 @@
+@startuml
+sprite $CiscoMd [14x14/16z] bOfN0eO0288LSDx_ll-idkjp2_O4-RUxlXreuZFOW24orMHzPeO3HNnW0L-psuMh6T4-qifYnOxDySanOrDiRt5ezta3
+sprite $CiscoLg [20x20/16z] {
+jOf5OWH130DBijtWxPt__pRCkIPr4V8V-9SXcpSwtnf7am8b7NvfkznqoD7ggAO-kZ7zrjt1YiQIC3ja0W01tuo6PQAWWXW2r2V6zZNPf-BSMZYF69krVCpQ
+tFBbbxMrBwrx-PmMe9Ii5AHHylSy0W
+}
+!procedure Cisco($id, $name="Cisco", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cisco', $name, $tech)
+!endprocedure
+!procedure CiscoCard($id, $funcName="", $content="")
+  IconCard($id, '<$CiscoMd>', '', $funcName, $content)
+!endprocedure
+!procedure CiscoGroup($id, $name='Cisco', $tech='')
+  IconGroup($id, 'IconGroup', '<$CiscoLg>', $name, $tech)
+!endprocedure
+@enduml

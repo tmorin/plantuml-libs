@@ -1,0 +1,19 @@
+@startuml
+sprite $AppveyorMd [14x14/16z] {
+HKu5WWCm20jrXV__zWYzRQaN8e1C2qo1e-fxQVLAjIyg9Yiwn-KX_5iY2MGFNntTB_3gCIt8R4WiDYdzzwf5Bpb3r3kLlaZvgOJ3dM6h4iVhi_gI3Qnu43BM
+jZCO-Wy
+}
+sprite $AppveyorLg [20x20/16z] {
+NP055iGW34GdLi5o_zikBqdNVht02DXmyw8B2XrUJ4Do-XVN_w_wAUP_6Ff8ePF9ydMG1ut035pnaIjFS5kh2qPCsDTK819s7A6ptmYGvPibd4eNq5dYVTNp
+K3JN4igiirtRh4E6hyQOwL7690BScQKoTsM2LMPMBvHcTNl2ByNzjp6JyLHATlak4NiO7iZQM3kNKNo-
+}
+!procedure Appveyor($id, $name="Appveyor", $tech="")
+  IconElement($id, 'simpleicons-4/A/Appveyor', $name, $tech)
+!endprocedure
+!procedure AppveyorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppveyorMd>', '', $funcName, $content)
+!endprocedure
+!procedure AppveyorGroup($id, $name='Appveyor', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppveyorLg>', $name, $tech)
+!endprocedure
+@enduml

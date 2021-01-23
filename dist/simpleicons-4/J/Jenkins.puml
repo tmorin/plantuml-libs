@@ -1,0 +1,19 @@
+@startuml
+sprite $JenkinsMd [14x14/16z] {
+9Ko50S0m20lEwF__3gaI1K1M1aWoWFuzg3_p1Qtmy4_xIL7u8FQM339X43NYoka8cCLsw9MP3iA1HR1lW4MSnucu4GSFoe0AE9-1DTWpwzLdeIsWALYIjfBk
+tcpL-m8_
+}
+sprite $JenkinsLg [20x20/16z] {
+FOm5WWCn30DbY0n9-__dNhrmMim8C9BLXmBnJhmozl7vLia_Sd_-rnlSjG3ePNy3eqeFIF9UljfU4C8LJtk6ISZ2IAOVDhdcck-qGzXJODVcC2eibJPiEHNl
+sdAxzrw9sCqawJVop7JA_EgE6oqwaqyb8GvODa5xM2lC0LNXvsQQkmKi4zs7vmSboi1TtT_FwQ1kgOuxQz3O8aHgzxFf02E289WxVweiwyy-lTln1m
+}
+!procedure Jenkins($id, $name="Jenkins", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jenkins', $name, $tech)
+!endprocedure
+!procedure JenkinsCard($id, $funcName="", $content="")
+  IconCard($id, '<$JenkinsMd>', '', $funcName, $content)
+!endprocedure
+!procedure JenkinsGroup($id, $name='Jenkins', $tech='')
+  IconGroup($id, 'IconGroup', '<$JenkinsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $NokiaMd [14x14/16z] hKe50G0X30Jcsh_jQuNvsHgf_Gp2Nli1PwLoieOf2_T1gM1vcJ_r-7_odFr4H-e6
+sprite $NokiaLg [20x20/16z] pOj50SK03CNAtFft-s4gbjk3mCl90D6O2HLC3g1cc7Ml9PhkDboCAsIUowUh3bgzF0UGVbnJJ0qtr82NymK
+!procedure Nokia($id, $name="Nokia", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nokia', $name, $tech)
+!endprocedure
+!procedure NokiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$NokiaMd>', '', $funcName, $content)
+!endprocedure
+!procedure NokiaGroup($id, $name='Nokia', $tech='')
+  IconGroup($id, 'IconGroup', '<$NokiaLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $LichessMd [14x14/16z] DSV5OG10300WpYtPVznw-O4oxujy3vWHBzw-KEBrWfQOSL1mDnce0pMhqs5tx6CKA7SYMkUtjnXt5i2E8k_Wltk_y6zDRT__LTYlGriDj7tEsQlW4m
+sprite $LichessLg [20x20/16z] {
+JKy54W0X20HROU7_hxtYQksj6Ub2QdCjCVYW1ro6gCBLNgx1THt6ogZ1iFX851Ks7ohJWs6dsaPGXIyIwzZCUpWYNhqS729LLfmYnvfFbLpfx9LwU_jHug1M
+w46BNw3tIY-Ad_c6DUX30fYgGUbFccJhvlLFPaEZDi1_aldSLFza3aLGNcO-rmwfV8XbNLGWjQLGcJLQTW
+}
+!procedure Lichess($id, $name="Lichess", $tech="")
+  IconElement($id, 'simpleicons-4/L/Lichess', $name, $tech)
+!endprocedure
+!procedure LichessCard($id, $funcName="", $content="")
+  IconCard($id, '<$LichessMd>', '', $funcName, $content)
+!endprocedure
+!procedure LichessGroup($id, $name='Lichess', $tech='')
+  IconGroup($id, 'IconGroup', '<$LichessLg>', $name, $tech)
+!endprocedure
+@enduml

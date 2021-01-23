@@ -1,0 +1,16 @@
+@startuml
+sprite $NugetMd [14x14/16z] LSo74SGW44FH9MVKVxSdmIL_c_1W1Y3QhwTAvkIZydPgk5MX8e_BGkt4SRJD78y2RXA6hZGaDODBFmKzzz5sLAPiYbcRoIb2jJmHZ8KsvrohUti1
+sprite $NugetLg [20x20/16z] {
+PT255O0m34NHrBr__sqv4VpX5o-0G9y0nB_zhwiroTPvoT5L7DkQoIZZKHNos3dD2oDRuusxRB1DyAFtXMmBXIZXOnWTFzDwgUjZcRzzlgphvwjDjIBcbzXu
+_a3O-_5hoykWeD7ZvXbzgDXUds68jR4YQIwrmSsU7T41
+}
+!procedure Nuget($id, $name="Nuget", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nuget', $name, $tech)
+!endprocedure
+!procedure NugetCard($id, $funcName="", $content="")
+  IconCard($id, '<$NugetMd>', '', $funcName, $content)
+!endprocedure
+!procedure NugetGroup($id, $name='Nuget', $tech='')
+  IconGroup($id, 'IconGroup', '<$NugetLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $FidoallianceMd [14x14/16z] dKS50S104EBbtFgttMSO3dxYMa0Mm0SFrMVPVirOM3CIiIs7gE9qORVMAkbZ_XvSQxVKTNS3P5l4lUaBF_41
+sprite $FidoallianceLg [20x20/16z] {
+lKx50GD124Jt19d-kytABmKSxWnzGip_5RM6ogipF7PIP0sIzXaQ_2msOiuEcSPdZTr80Dm9k7KNNAewkF6ihV621snQnzWrnOYSrh99-zur2N_X3-pUadKl
+52Q5AAVeleatvAdJhqYc-O9-
+}
+!procedure Fidoalliance($id, $name="Fidoalliance", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fidoalliance', $name, $tech)
+!endprocedure
+!procedure FidoallianceCard($id, $funcName="", $content="")
+  IconCard($id, '<$FidoallianceMd>', '', $funcName, $content)
+!endprocedure
+!procedure FidoallianceGroup($id, $name='Fidoalliance', $tech='')
+  IconGroup($id, 'IconGroup', '<$FidoallianceLg>', $name, $tech)
+!endprocedure
+@enduml

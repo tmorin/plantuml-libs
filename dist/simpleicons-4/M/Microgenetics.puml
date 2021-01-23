@@ -1,0 +1,19 @@
+@startuml
+sprite $MicrogeneticsMd [14x14/16z] {
+LOtL0GGm34AfHMhPVzkZFNy_KG187XTF86t7PJTU93u8PB1Ciyao02XtH4A1cg0vZr4WXQgTOSUdtB8DEGZBZfgAel0p2_sFYtvSsb_2Vpglxw7Xa6n5B4i0
+7W
+}
+sprite $MicrogeneticsLg [20x20/16z] {
+TP254GGn203HkFJVxSFzkUpOJeA3mNMkL8OLxTjRr_KfpHDfUxeziiuR2iJ59JCYPxV2IulP1HPa36-2Q8y5W5DYUpG3QiqqgVmhGGZsCkTWm3AcOvON6mM1
+ToERlpKA4K3zKSICM_CULRSUsGm9F6PiitJliyrSX4YscLzsUxt1_J5ztjH0BTqUYY8uFm
+}
+!procedure Microgenetics($id, $name="Microgenetics", $tech="")
+  IconElement($id, 'simpleicons-4/M/Microgenetics', $name, $tech)
+!endprocedure
+!procedure MicrogeneticsCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrogeneticsMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrogeneticsGroup($id, $name='Microgenetics', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrogeneticsLg>', $name, $tech)
+!endprocedure
+@enduml

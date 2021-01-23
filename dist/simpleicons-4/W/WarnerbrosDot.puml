@@ -1,0 +1,19 @@
+@startuml
+sprite $WarnerbrosDotMd [14x14/16z] {
+FOo50O0m30G_fP5QVlzfSRYu0b3UA2vaa9cBGywY9bku5ysiA97TmcqsPQ2qRdvLuMSbFjNSVHEbNNTg5gQhd7UGjAfkC-kwdlOXSbRQ1auAKomsPS55qCs5
+WOUPlQs95vda5Fpq_iG3
+}
+sprite $WarnerbrosDotLg [20x20/16z] {
+FS_P0SGW24LHm1L4Nl_Tpc0Ix-TnXRA6jqPVF3uR_98u07CV1hWS6XlHlKub4SSUUN31DwSLT0au_yr3jXp3PdzjiyiwDWN7Q46MM9gHR2pwfn0jsgOHTsxG
+j87MssnJsT4BHbg5bTxpB506AcKEvYhwjqNXT1gOKaXdWRGyUWf48vkbCuBUEg2abYDr-ZAWg9B1wCQEjKpF33VPYC2M2ozUkh7PFVW3
+}
+!procedure WarnerbrosDot($id, $name="Warnerbros Dot", $tech="")
+  IconElement($id, 'simpleicons-4/W/WarnerbrosDot', $name, $tech)
+!endprocedure
+!procedure WarnerbrosDotCard($id, $funcName="", $content="")
+  IconCard($id, '<$WarnerbrosDotMd>', '', $funcName, $content)
+!endprocedure
+!procedure WarnerbrosDotGroup($id, $name='Warnerbros Dot', $tech='')
+  IconGroup($id, 'IconGroup', '<$WarnerbrosDotLg>', $name, $tech)
+!endprocedure
+@enduml

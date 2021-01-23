@@ -1,0 +1,19 @@
+@startuml
+sprite $AngularjsMd [14x14/16z] {
+BSm5Ka1H243HIyFxjV_TYevdWWOqpqJCAGNHEkDklwLnNIbm1YHEZhFBtwSRh2OtzFFqXiWfa2_y4qZlXjhqhOtM0y-t7kZzJtokPcyovCXziUQHnZjDO7ar
+IBUnh5l-uhHeZ_7Fpt5OFm
+}
+sprite $AngularjsLg [20x20/16z] {
+LSe7TaKX20JG0KIb6FQ_s_1AohzMvWmQgMNC6SUKy98LnrNzn9AxmolI9s5gzprZ2_BuPBHpq7XQZfEuQTN0BVJD45Nn_YIJq4P5lCNW24Qp4Yb78sVp0K0g
+WIYvlaRR5C2g1MXj06gOUm7qLGz61z1j_LPwXETLx8vC1qu96fqYs0IhGojmsrrq1KjWsi2DVPFtdy8PlpY2q7PkVfET2m_gbEx72B_4KsUQuCE867Xz0m
+}
+!procedure Angularjs($id, $name="Angularjs", $tech="")
+  IconElement($id, 'simpleicons-4/A/Angularjs', $name, $tech)
+!endprocedure
+!procedure AngularjsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AngularjsMd>', '', $funcName, $content)
+!endprocedure
+!procedure AngularjsGroup($id, $name='Angularjs', $tech='')
+  IconGroup($id, 'IconGroup', '<$AngularjsLg>', $name, $tech)
+!endprocedure
+@enduml

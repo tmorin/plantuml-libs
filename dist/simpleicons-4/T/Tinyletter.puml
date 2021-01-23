@@ -1,0 +1,19 @@
+@startuml
+sprite $TinyletterMd [14x14/16z] {
+HKo55SDG4EAVMr_stxRnd0i0O3LdSYsSnWLL59-BrXnjIezFYm_HkBG0aW3FxBZSDzuS809yEtvXlGvXZskR5kcnq0CPe6v2RBVA3iIjqcQs86xDmD6ZkS84
+j_7y5ZvRGKVx0m
+}
+sprite $TinyletterLg [20x20/16z] {
+POu50iCm24K_rfG4wFrFEw7plMeUYZjQcsNQLeeNLYgPecLljpj01FZ-D3eYq4GCFGjpUWG37E4pkzpd_LKYvG2cTxExmrQruUsEqLsxqpZsTX6BqD3AQESE
+FvULd71_kgC6CAgyNTS6IywPGX5nzkksj1RruNGB7wptVirxFysuuGIvVrDnXyrCLxBcfiRuO6HF-KOh_XnuFDmL
+}
+!procedure Tinyletter($id, $name="Tinyletter", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tinyletter', $name, $tech)
+!endprocedure
+!procedure TinyletterCard($id, $funcName="", $content="")
+  IconCard($id, '<$TinyletterMd>', '', $funcName, $content)
+!endprocedure
+!procedure TinyletterGroup($id, $name='Tinyletter', $tech='')
+  IconGroup($id, 'IconGroup', '<$TinyletterLg>', $name, $tech)
+!endprocedure
+@enduml

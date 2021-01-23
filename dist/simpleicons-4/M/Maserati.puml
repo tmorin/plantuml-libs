@@ -1,0 +1,16 @@
+@startuml
+sprite $MaseratiMd [14x14/16z] JSw54KGn20JGXHZCtqd_vHvozk8AA6lXZncQQBJd4K2Z2MVVd8mLpWPsjeEW3dWsHOetPBn5htIxBtslxFY9QhtQLdQlbanooZST8GLVulw_kXVb1G
+sprite $MaseratiLg [20x20/16z] {
+VL255WCX3Bj19KN__s_NdazpIbw4iXnWNZuWyicrTbiyrhUEBjUIQuvVrLZbkiNMbaAe_af70bky3UlxQEyfr3Lq_MWfOHiZ0ih1mIKy1haOvtRTqG2Fxt9n
+IKQcmUdY22Ve71-sCGO-k8n4goWXdnDxYirfdXppdU3U-UFuWBFphsxEK_S4
+}
+!procedure Maserati($id, $name="Maserati", $tech="")
+  IconElement($id, 'simpleicons-4/M/Maserati', $name, $tech)
+!endprocedure
+!procedure MaseratiCard($id, $funcName="", $content="")
+  IconCard($id, '<$MaseratiMd>', '', $funcName, $content)
+!endprocedure
+!procedure MaseratiGroup($id, $name='Maserati', $tech='')
+  IconGroup($id, 'IconGroup', '<$MaseratiLg>', $name, $tech)
+!endprocedure
+@enduml

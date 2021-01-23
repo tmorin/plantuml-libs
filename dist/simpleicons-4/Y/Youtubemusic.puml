@@ -1,0 +1,16 @@
+@startuml
+sprite $YoutubemusicMd [14x14/16z] LKw50SD028JOu-o_ROzwSEU8MFj9oWGwwvNLYSuvGUQKJb8u4zLbA39ABZCe3aLbjL-OMDNHdT96BAs8FzbwPpDvVYQ_Lmpw-J19RVVlFsH8XbYm7JAW7m
+sprite $YoutubemusicLg [20x20/16z] {
+RP3L0S0W34Inu2JxRzjmzPRtTN4nYczoqBmve7xw1XskB0_otmMd9wXAIeKaqsOlfiGid8ZLw1OXP20R5cGIpjWdpI0IWjOvaxIGmrpezEcojgWK005VFdph
+sl-CrIwhdS_RWd8KBN_m_zNwfy1I7UgeP65k
+}
+!procedure Youtubemusic($id, $name="Youtubemusic", $tech="")
+  IconElement($id, 'simpleicons-4/Y/Youtubemusic', $name, $tech)
+!endprocedure
+!procedure YoutubemusicCard($id, $funcName="", $content="")
+  IconCard($id, '<$YoutubemusicMd>', '', $funcName, $content)
+!endprocedure
+!procedure YoutubemusicGroup($id, $name='Youtubemusic', $tech='')
+  IconGroup($id, 'IconGroup', '<$YoutubemusicLg>', $name, $tech)
+!endprocedure
+@enduml

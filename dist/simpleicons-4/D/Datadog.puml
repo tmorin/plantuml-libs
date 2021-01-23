@@ -1,0 +1,20 @@
+@startuml
+sprite $DatadogMd [14x14/16z] {
+5Ol50KCn34Dbjdz0-s_Rz9s4aJthaBDu5UlikRpC8XLam0qG_sWuL_0CP5yw5iTJ5cJ8n3i5u81k5khGWMUgECZDet2rwA_Ll_--CXH8q-OHSK2gbqi-OoRn
+DiiH3KGExzuhOHzWqpsTPNXuYWh-_
+}
+sprite $DatadogLg [20x20/16z] {
+BOq94iGW20GRL40nyl_VhabjUtBDg6gtcEkfgdol3gtVrCfTb_NFrMN6gLnxYDwIlRape0yGHkzL3gSIfF6YUrK5vFCeOY3GyXM2cRNKWYZeyrGjy7bBffXp
+MLK9mp_PZnQzQWlDlj97Jwqw3UtrUQc2jdwUxKYhIqSYBBmhuY9wRcxWemq1r4AG_VbtvHB3CXIofZJH3hmwkHJM1ePsMVlvvvW1T7UlEZjtx0PU2iJop5mp
+PZQGBj2wsUXzZAx2XzfigF3d1m
+}
+!procedure Datadog($id, $name="Datadog", $tech="")
+  IconElement($id, 'simpleicons-4/D/Datadog', $name, $tech)
+!endprocedure
+!procedure DatadogCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatadogMd>', '', $funcName, $content)
+!endprocedure
+!procedure DatadogGroup($id, $name='Datadog', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatadogLg>', $name, $tech)
+!endprocedure
+@enduml

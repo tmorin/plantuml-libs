@@ -1,0 +1,19 @@
+@startuml
+sprite $CodewarsMd [14x14/16z] {
+FSc75GCW201H2oM2SFjlcvVwbSvBdkRlgiOjFd8ySeufhpir3D_Lfi3TCzZTcLAa7bSyLTP8pWwswqhOmhK5kSM5N737KWrljnH0uXIxQku0p6WLpWXUT8wH
+CHzyL8R8wqBJpSkhrXC
+}
+sprite $CodewarsLg [20x20/16z] {
+POy7OaGX24G7B5zfS__R9fgUVLOwy9CilX3nJrbBeNqlJtxpe4Sg035-iZ2ElgtLyQaqmMRAl6QvuLkQ19UGvHxg94jNOdDFBZaPDra9PzVAiRfd3BHY1JQh
+wrQi9AiZo5GjChR8afuyBkJ0YCfdJcThFAb8lwb7hKc71O8ds7m7sITBcquUsdqsZ25uYeT0spRGUOVyn1JlP2tquXTfpneA6Sa_bDkNfYwPMUUVH_0t
+}
+!procedure Codewars($id, $name="Codewars", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codewars', $name, $tech)
+!endprocedure
+!procedure CodewarsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodewarsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodewarsGroup($id, $name='Codewars', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodewarsLg>', $name, $tech)
+!endprocedure
+@enduml

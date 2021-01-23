@@ -1,0 +1,19 @@
+@startuml
+sprite $IconifyMd [14x14/16z] {
+BOs53G0X54DVFzOZoFxRNY0qMWVrqKffemkWJ8SKdWLKPt0Hiz8lUJI6eGdKm7QWdI7l84OHL9q-wB27mrhmk8WnJEtdxpFsUV1UQ_VpSDzLYkuxr6c1V0d4
+D-OSNm0_
+}
+sprite $IconifyLg [20x20/16z] {
+PP075iCm24F1DWzF-VwtRSHhc_MpcOha80_CvjucHfOljj3Tp3kMVKDrLvL0ZzTloEHFOJ0RGzUWoKIL6tKfa4HIpx6_ynqsEnTlPynZJ1_DOyWtLdXVRZ5P
+Gmf3Oc3iZe6zTtnnXoRvefaxg2NDgX7nQTGoLkK8pDudjeVcR1IGnZuOEVujF2YXe-ZNWxTNBqzngbKR2rZ3LCW7
+}
+!procedure Iconify($id, $name="Iconify", $tech="")
+  IconElement($id, 'simpleicons-4/I/Iconify', $name, $tech)
+!endprocedure
+!procedure IconifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$IconifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure IconifyGroup($id, $name='Iconify', $tech='')
+  IconGroup($id, 'IconGroup', '<$IconifyLg>', $name, $tech)
+!endprocedure
+@enduml

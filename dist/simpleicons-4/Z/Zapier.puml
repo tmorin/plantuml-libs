@@ -1,0 +1,16 @@
+@startuml
+sprite $ZapierMd [14x14/16z] LOw50SGm30FDZxNsdxOGpWND8c8c0UHvRzogPNv77AcFfGadjaG640dOdNax2wb48XpucVqGB0AWf1WAcwKgFLDKzYwqJTYdxyeAnNgu
+sprite $ZapierLg [20x20/16z] {
+RP05ZaHX28CV6_cbP7l_smu4oGXVj3XzaalUvvs8uKrkICK4EqAc9682ydWC93NcANE2UF32bCMznH5be_9-oDvzpdKGuXBNE0nsN11CCU3YQlMg2Ppt7V-H
+6c-fczLqtJp_jYtqz-R1xDNiQN2gotW1
+}
+!procedure Zapier($id, $name="Zapier", $tech="")
+  IconElement($id, 'simpleicons-4/Z/Zapier', $name, $tech)
+!endprocedure
+!procedure ZapierCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZapierMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZapierGroup($id, $name='Zapier', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZapierLg>', $name, $tech)
+!endprocedure
+@enduml

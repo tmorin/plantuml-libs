@@ -1,0 +1,13 @@
+@startuml
+sprite $TrelloMd [14x14/16z] VSW50W11141HjWF__gVTxXZzS0q3D_DzuYAY4JgjYIRpddzYko8XlubSipmE4G6dO9SUeckQZi-mAweH
+sprite $TrelloLg [20x20/16z] hT3L0O0m301Ht9hazjyMTuSUslTJOL_5FjTwsMHWxRVgk0hQSiYxdmwBxZU5jFifMYlNLXvOuStcjSncxU8TIvjxRFD-bxdsE8pNkShjAAe1
+!procedure Trello($id, $name="Trello", $tech="")
+  IconElement($id, 'simpleicons-4/T/Trello', $name, $tech)
+!endprocedure
+!procedure TrelloCard($id, $funcName="", $content="")
+  IconCard($id, '<$TrelloMd>', '', $funcName, $content)
+!endprocedure
+!procedure TrelloGroup($id, $name='Trello', $tech='')
+  IconGroup($id, 'IconGroup', '<$TrelloLg>', $name, $tech)
+!endprocedure
+@enduml

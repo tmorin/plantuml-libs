@@ -1,0 +1,19 @@
+@startuml
+sprite $ChefMd [14x14/16z] {
+BOo7bSKW30HbapbsjlzkJ_ZzKOuHpqBiFtPS6aQbSo8dpGBLmifgeq-CHtltGK0v1kUu8TfB8aLKtFF-lUX8bAm-GEwzlRgSEINXgj-NRem-UIC6r2guptAM
+uJquYyipPMk-cVu3
+}
+sprite $ChefLg [20x20/16z] {
+NP1NWiHG2CCWxHMmkVzjrsoVKRf-K31nHf44MNdQDnVQHR9uVwjPJ01cTt3zgCpITTbJwMtEgn8o561BDtraM-RI3RKdV8SK-xG1Ig8qvnYonUcfRnQO9a3o
+xCozO-szUmoprF07YPIRRmxaF1LsxhNsN6jzZReUJ8-V6H6pFXk_MZhXSRSjsSrPKlBzVuw2Naltje-9aT3B3SXsrS-kRfLtmM_e3TaW_tOg_DwiOZnkpGS
+}
+!procedure Chef($id, $name="Chef", $tech="")
+  IconElement($id, 'simpleicons-4/C/Chef', $name, $tech)
+!endprocedure
+!procedure ChefCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChefMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChefGroup($id, $name='Chef', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChefLg>', $name, $tech)
+!endprocedure
+@enduml

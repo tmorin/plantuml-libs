@@ -1,0 +1,16 @@
+@startuml
+sprite $KaiosMd [14x14/16z] FSwr0S0m4CNGRsPh_sd3ENMlKnhW9NLOJcL1lBG0_oXz2gO2NO-YwqKXwjE0BFtgW3Uv3VDNKWQgIHs89hVivP8YqEnC5PPSsbrFWwmJ
+sprite $KaiosLg [20x20/16z] {
+NT074eCm34JHBuaEGlU_RMPJF2XBzNEtnLrreNXMLJfOw0T5jNKxnAAVaAsbh33zszOiHFeTPZ3ddJDVgs2zTiSSXhdU9_2qJU-rsrnAF2quzBbCDEQr5ExD
+c4gPcx79qfhP9JoQ4QKipLXB_quyZ5EuuDCuKt2TwWGiUSNOQUhyNW
+}
+!procedure Kaios($id, $name="Kaios", $tech="")
+  IconElement($id, 'simpleicons-4/K/Kaios', $name, $tech)
+!endprocedure
+!procedure KaiosCard($id, $funcName="", $content="")
+  IconCard($id, '<$KaiosMd>', '', $funcName, $content)
+!endprocedure
+!procedure KaiosGroup($id, $name='Kaios', $tech='')
+  IconGroup($id, 'IconGroup', '<$KaiosLg>', $name, $tech)
+!endprocedure
+@enduml

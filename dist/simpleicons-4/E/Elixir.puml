@@ -1,0 +1,16 @@
+@startuml
+sprite $ElixirMd [14x14/16z] JOpL0S0W30LnXzj_snRdlf9degDQ41V7ysd8zok0te_bf-mlzsyt5HExWuCwli1hzkystVxyku8I7N-jZYrGJBy-
+sprite $ElixirLg [20x20/16z] {
+PT350GCW5C1Gt27xJrllnzunEEh7KzKftYr0Ev8PCFJU2a3OakEjRnCR7tb9bhTzTURFIklIcYmTY2Jt5NB9oC9_Ms8HPUtMpZDm-pFsovpJtZnVmw__bphq
+PDJ74m
+}
+!procedure Elixir($id, $name="Elixir", $tech="")
+  IconElement($id, 'simpleicons-4/E/Elixir', $name, $tech)
+!endprocedure
+!procedure ElixirCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElixirMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElixirGroup($id, $name='Elixir', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElixirLg>', $name, $tech)
+!endprocedure
+@enduml

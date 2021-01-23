@@ -1,0 +1,16 @@
+@startuml
+sprite $JabberMd [14x14/16z] JOg50SL024DpQA2s_xHVwky48a1jNJKjZfrfCLMV-r0sza7YJSjRPHxpg5eVWba2nA4aXOAnwDcKWCnvH0H-8d2efYaDfsAc4oTUyUDI8ybBV04
+sprite $JabberLg [20x20/16z] {
+PSy5ZWGW343HJrlSxd_QtT4E2I-2re2yztpQG_WgUu_U-zZB_AulvKdhzikalfk1IojSP0Kk8t5fpRV5iFTTvyDgxE-6fnU9HQGga9TukKoiWEtC8GkaxP6X
+oMVkX6jJ0Pk2qvHxRR4c3hMQQQZ2ZwNKMazLpxjLH4HDE4XflINSFm
+}
+!procedure Jabber($id, $name="Jabber", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jabber', $name, $tech)
+!endprocedure
+!procedure JabberCard($id, $funcName="", $content="")
+  IconCard($id, '<$JabberMd>', '', $funcName, $content)
+!endprocedure
+!procedure JabberGroup($id, $name='Jabber', $tech='')
+  IconGroup($id, 'IconGroup', '<$JabberLg>', $name, $tech)
+!endprocedure
+@enduml

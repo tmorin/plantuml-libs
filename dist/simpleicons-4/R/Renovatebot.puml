@@ -1,0 +1,19 @@
+@startuml
+sprite $RenovatebotMd [14x14/16z] {
+DSa54iH024JHfX9O6FltF-t6NrcBPCMjJ2U7kO3baZbj_ZOkhbhyPbhIOLblCoE7RrMGeurbcyj7me1c_fPRs-Kh-SGE4GichzA-o5flJGLcpgj6IFBl3Lqi
+1umqIGS
+}
+sprite $RenovatebotLg [20x20/16z] {
+PP07Si0W3C2S1BCyzF_VjlG8NMABRVdacMpiaOqwcz2jEk1ZsxvLD4mQHpuATkFNaIeM49LHUZ6h3iILsTAapauJjHg0PZoENQ9LvA5EO1Ml9hKjrHj0BFUk
+wfM3royrbphaKlIHxBsBgGbnNuDznq55bbHp3l4iwTUZSCX7bBB3yXBz1EO7_NzCYxnSEWDYwYMB3m
+}
+!procedure Renovatebot($id, $name="Renovatebot", $tech="")
+  IconElement($id, 'simpleicons-4/R/Renovatebot', $name, $tech)
+!endprocedure
+!procedure RenovatebotCard($id, $funcName="", $content="")
+  IconCard($id, '<$RenovatebotMd>', '', $funcName, $content)
+!endprocedure
+!procedure RenovatebotGroup($id, $name='Renovatebot', $tech='')
+  IconGroup($id, 'IconGroup', '<$RenovatebotLg>', $name, $tech)
+!endprocedure
+@enduml

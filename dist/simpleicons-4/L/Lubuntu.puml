@@ -1,0 +1,19 @@
+@startuml
+sprite $LubuntuMd [14x14/16z] {
+DOs55KCn200lxh3_jWNUxoMuGLeQh8JHH0Dfa5gu-vfgB76_93UIJBqAnF3yJ_CikiCBpCQ8uja9wwX9Wz6Q3tDCdRrg76pMEllfErfEKycfBFqcf0FjYrR1
+IVFQWfc17m
+}
+sprite $LubuntuLg [20x20/16z] {
+JT055WGX30FG8C5Bxt_QiPQt-qS93Xvfgfi9ZakTqAEcVvf7Hle94psfeTeVCKKVkmBebgsWhn7n23uLtsu59bish94RFhGtoj9n6f9pHo1jrG68kfffmnUR
+MbHddkY-2leSN9bg27smb3dYzco-OqY8USUfH-vlOuJmV8zU_63gBzliC1Hr4d443dc2mO3N3G
+}
+!procedure Lubuntu($id, $name="Lubuntu", $tech="")
+  IconElement($id, 'simpleicons-4/L/Lubuntu', $name, $tech)
+!endprocedure
+!procedure LubuntuCard($id, $funcName="", $content="")
+  IconCard($id, '<$LubuntuMd>', '', $funcName, $content)
+!endprocedure
+!procedure LubuntuGroup($id, $name='Lubuntu', $tech='')
+  IconGroup($id, 'IconGroup', '<$LubuntuLg>', $name, $tech)
+!endprocedure
+@enduml

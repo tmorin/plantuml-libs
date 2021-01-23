@@ -1,0 +1,13 @@
+@startuml
+sprite $A500PxMd [14x14/16z] hKe50GD136k3yszuJnQk69eZ5Ot3JI3h7dFKdKRjyeUFwKbwdwI3ELON
+sprite $A500PxLg [20x20/16z] pOs50KKX30FJb-OA-m_yNLRWe6uwYAHLOAc9X5rEMnClDoOFs41eoLcIPbqmIDd-vqeFxF7aeOB9fIVmlH5IEeux
+!procedure A500Px($id, $name="A500 Px", $tech="")
+  IconElement($id, 'simpleicons-4/A/A500Px', $name, $tech)
+!endprocedure
+!procedure A500PxCard($id, $funcName="", $content="")
+  IconCard($id, '<$A500PxMd>', '', $funcName, $content)
+!endprocedure
+!procedure A500PxGroup($id, $name='A500 Px', $tech='')
+  IconGroup($id, 'IconGroup', '<$A500PxLg>', $name, $tech)
+!endprocedure
+@enduml

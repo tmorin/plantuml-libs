@@ -1,0 +1,13 @@
+@startuml
+sprite $GoogleanalyticsMd [14x14/16z] XSUt0S0W400n-60oj_-shWWTwXIs0ReJ0TiJm9-BfLmhKE9UW_PSr2HdTJBE1X0Br0YOLtAGCJLaQlW1
+sprite $GoogleanalyticsLg [20x20/16z] jT175WCX30DGYxpGiUz_smozRJDq_awYRJWHyJkHVomSbXvZt2P_CMYDm-150eXNq_cZTpFvOryogC0UkrcVAzijvej9JsEuK6hyvD-tTGeLSoZIpBf4Z8f-
+!procedure Googleanalytics($id, $name="Googleanalytics", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googleanalytics', $name, $tech)
+!endprocedure
+!procedure GoogleanalyticsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleanalyticsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleanalyticsGroup($id, $name='Googleanalytics', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleanalyticsLg>', $name, $tech)
+!endprocedure
+@enduml

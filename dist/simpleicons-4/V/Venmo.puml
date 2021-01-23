@@ -1,0 +1,13 @@
+@startuml
+sprite $VenmoMd [14x14/16z] hS475GCn30MmxDX_lF97sriK8fKZQgkzzL776BLt04uOia3_jBsP11BYw6NsJvsr7741
+sprite $VenmoLg [20x20/16z] pK_50S0m48gV0Ct-qzQc2Fwb78uvV2xQ4fSJG3Tv1bECJ7qZFbvxfsthChhypoGrIj9onNozef7zzByF
+!procedure Venmo($id, $name="Venmo", $tech="")
+  IconElement($id, 'simpleicons-4/V/Venmo', $name, $tech)
+!endprocedure
+!procedure VenmoCard($id, $funcName="", $content="")
+  IconCard($id, '<$VenmoMd>', '', $funcName, $content)
+!endprocedure
+!procedure VenmoGroup($id, $name='Venmo', $tech='')
+  IconGroup($id, 'IconGroup', '<$VenmoLg>', $name, $tech)
+!endprocedure
+@enduml

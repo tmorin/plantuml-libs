@@ -1,0 +1,16 @@
+@startuml
+sprite $ScrimbaMd [14x14/16z] XSr75e0m20HGCARFoFrFQvkNhVuL7VkLnYihco7A2W2IpMJFUJCtQVSKRAbtnfMuvvAVEJ1baW2U4n6rw_fnD_jmlPxPlbq
+sprite $ScrimbaLg [20x20/16z] {
+hSx50SHG20HGO3Q6fVzgu_dSrjyH7Ve7J7gQfDLyllbTufmRkervYRuECW0H0LS9jj4gr0zzMOEvkSfncVSJiWDmhOI3D29ovqTrkp4-AgvUjG5L6_VQf2DJ
+htOQwLSh
+}
+!procedure Scrimba($id, $name="Scrimba", $tech="")
+  IconElement($id, 'simpleicons-4/S/Scrimba', $name, $tech)
+!endprocedure
+!procedure ScrimbaCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScrimbaMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScrimbaGroup($id, $name='Scrimba', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScrimbaLg>', $name, $tech)
+!endprocedure
+@enduml

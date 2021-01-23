@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonlumberyardMd [14x14/16z] XKn50aL125A9oVjVztUytTW1nD6gyxBrFkktI6ZuBGZo0TTyB62WfRixmSTKzjZB6PP6fKT1BnXCBlv4na2rdfyDUkH07EmE
+sprite $AmazonlumberyardLg [20x20/16z] {
+hOnPcWCW28D10m7nc_iVTwZT-zh-ha0I-GMQeP-zv8gF5hPppVSMWSdvthe4slbQdjO8KNFldzEoJe-Z-tIDRKZNqSneGS1hryhPVwTpzJjsa4Lf380l5VU4
+AEJq6lYKsjgfJsOnO0Ja2VxOjrM-2RqlPKA-vXy
+}
+!procedure Amazonlumberyard($id, $name="Amazonlumberyard", $tech="")
+  IconElement($id, 'simpleicons-4/A/Amazonlumberyard', $name, $tech)
+!endprocedure
+!procedure AmazonlumberyardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonlumberyardMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmazonlumberyardGroup($id, $name='Amazonlumberyard', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmazonlumberyardLg>', $name, $tech)
+!endprocedure
+@enduml

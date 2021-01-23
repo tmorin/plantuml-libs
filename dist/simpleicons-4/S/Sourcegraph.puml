@@ -1,0 +1,16 @@
+@startuml
+sprite $SourcegraphMd [14x14/16z] HSk54S0m30J1CwFq_NUR2QzH1B2rWHpXv7A8iy5fIGaxhvW2HUfJid1sZQQJ9z3f3MZJfPEL012AIIUV4KYkn_w2Dbo3OD8SKY4aI9ATru9JEuTTpg-f0nm
+sprite $SourcegraphLg [20x20/16z] {
+PP27bSKW40D5pgZ_Ri-ob_jf781PWXuGRfCTmk7WIOvR1VVkw80mERmvDqacU3K5HYNPC7YNa7AD3f7aQhmhWDfTy-R3WBaNq_suvI12xFibUu8H-ylk7YtV
+uXlP8hypvSPPLwhshW2Uh5eUuMBLqlHaRIh0A0hcaKvauGPdk1fUU1XsaSFSEs4fcVW3
+}
+!procedure Sourcegraph($id, $name="Sourcegraph", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sourcegraph', $name, $tech)
+!endprocedure
+!procedure SourcegraphCard($id, $funcName="", $content="")
+  IconCard($id, '<$SourcegraphMd>', '', $funcName, $content)
+!endprocedure
+!procedure SourcegraphGroup($id, $name='Sourcegraph', $tech='')
+  IconGroup($id, 'IconGroup', '<$SourcegraphLg>', $name, $tech)
+!endprocedure
+@enduml

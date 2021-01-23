@@ -1,0 +1,16 @@
+@startuml
+sprite $ApplepayMd [14x14/16z] VOt50S0020DnKjz_shhReVSA_M1dbCxunOo8WoDrixRpT8nZYoNC2WGcin0bTacRR4DejGs_fVym
+sprite $ApplepayLg [20x20/16z] {
+fT35WSD030LGwO_Or7-rkqdCSFCRPg0NpFJ20Bvnkflx-DHdz2KauJZsUVM8b6BdHi1thKpJ13TqOfxmkM-S9lLE4LcQCQ_DOL1JGbfmhtCVCpw9Y1j9RUTk
+WBdlnldEd_w0NlW7
+}
+!procedure Applepay($id, $name="Applepay", $tech="")
+  IconElement($id, 'simpleicons-4/A/Applepay', $name, $tech)
+!endprocedure
+!procedure ApplepayCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplepayMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApplepayGroup($id, $name='Applepay', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApplepayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $WeightsAndBiasesMd [14x14/16z] {
+JKw5OGH03EBSkBB_jYNln3rI1P2pLLNR36UCID650FcojrkdPDNla2vUkFOLjSEeQJxJysNtoNWXd_AdOikuKzGGw59_JYpN4fbW0ubumPtIihD2vLro-Vti
+7m
+}
+sprite $WeightsAndBiasesLg [20x20/16z] {
+RP053W0X30HfSSly_xSNcd0-aHKS8BY5Y4a0_UjYokPr33MJazi42DldKjHCZ2PIYW13tCM03g1NfM1qMzEQBErGOqfoFqDMtkJiDYcNrL-Kx81uNnD1Q-kw
+V8EsLBkTPNR2r1tKctRiJWPGzfkiYC7Ttd7_loct--aSqdeFrpkklpKxhkyv
+}
+!procedure WeightsAndBiases($id, $name="Weights And Biases", $tech="")
+  IconElement($id, 'simpleicons-4/W/WeightsAndBiases', $name, $tech)
+!endprocedure
+!procedure WeightsAndBiasesCard($id, $funcName="", $content="")
+  IconCard($id, '<$WeightsAndBiasesMd>', '', $funcName, $content)
+!endprocedure
+!procedure WeightsAndBiasesGroup($id, $name='Weights And Biases', $tech='')
+  IconGroup($id, 'IconGroup', '<$WeightsAndBiasesLg>', $name, $tech)
+!endprocedure
+@enduml

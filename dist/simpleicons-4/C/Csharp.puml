@@ -1,0 +1,16 @@
+@startuml
+sprite $CsharpMd [14x14/16z] LSvL0aCX34HHw4C6cipT_shhUhuWNafTFAnQRhfvSBzbEX-zBFFX2iGScummWkp6BCa4Q0CvD0olNmo9k-Y6N4f8O8zvnWdeRyFfR_ltilldhYeWT3_w2W
+sprite $CsharpLg [20x20/16z] {
+RP050eH024Md4uRxttRvhArFfsXmIfooCQFRo2GRd3THamljBJ9XpF8Wkyau5_CXOo-WvPI6I9_KOGXHJQoMgfeT5GmOXsN-DTLOLOWmlOWn2csL7ZAgkIEg
+GK70QWhyi2JbXHoDAraCioWfvIci7yZJL4miE-G_UlkOmUUilcSAV1wiWf6z0py
+}
+!procedure Csharp($id, $name="Csharp", $tech="")
+  IconElement($id, 'simpleicons-4/C/Csharp', $name, $tech)
+!endprocedure
+!procedure CsharpCard($id, $funcName="", $content="")
+  IconCard($id, '<$CsharpMd>', '', $funcName, $content)
+!endprocedure
+!procedure CsharpGroup($id, $name='Csharp', $tech='')
+  IconGroup($id, 'IconGroup', '<$CsharpLg>', $name, $tech)
+!endprocedure
+@enduml

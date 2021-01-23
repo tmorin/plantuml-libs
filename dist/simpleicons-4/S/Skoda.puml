@@ -1,0 +1,19 @@
+@startuml
+sprite $SkodaMd [14x14/16z] {
+5Ow70KGX34AnOovyzj_spBEc0xHmtfkEXiUoUDRvl82sp36a3ZupVBOphFRCPWscxSeJap-hh0jGKVN53vYE2Lmx5MNbGOEyUIhJsixALNOnJDxrU8zRMtuv
+nVOgPVuu9qjPqIXRBD5_
+}
+sprite $SkodaLg [20x20/16z] {
+BP090eGW202zBGNc_xzTQ9doueRYz0kcQd1xIOQ0tAkWCqKFFCEf8sufajxAWUrH98Hz8it5Is6LqeHPhjAxWRwWpMtG2azVI_XONwW1_Q2NZpUAu9WCXKHS
+LjLCwZmaKbqeMEYQu1WtPHfdjmWcxzyNlFuUlTnfktuvO6-uGY1wefQhlh0R744cMjj0Ug_bexNeBMTGaYOvc1spSikSrPyfe28vqwIEOs37hOCV
+}
+!procedure Skoda($id, $name="Skoda", $tech="")
+  IconElement($id, 'simpleicons-4/S/Skoda', $name, $tech)
+!endprocedure
+!procedure SkodaCard($id, $funcName="", $content="")
+  IconCard($id, '<$SkodaMd>', '', $funcName, $content)
+!endprocedure
+!procedure SkodaGroup($id, $name='Skoda', $tech='')
+  IconGroup($id, 'IconGroup', '<$SkodaLg>', $name, $tech)
+!endprocedure
+@enduml

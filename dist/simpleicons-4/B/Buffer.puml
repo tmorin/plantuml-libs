@@ -1,0 +1,16 @@
+@startuml
+sprite $BufferMd [14x14/16z] FOs54G0X30IZEAJ_Rl-G-SCss19Y8s8OtMWBf2kGBv_QI4lyAVkqNgv29uBBJGwb2H3qDXE9ptsmZr4ztIzKHWrcnK6DTMxa5PLO85Zkwogku2fkT7Gzy04
+sprite $BufferLg [20x20/16z] {
+JT195WCX20HG5N0Mxd_RM2JffbQyxuGaJ-bgPhsa49vsC_aLSebQfjeJdNJt22H6SDUAiYyXiX-fwKc5Hk5xRQxdIBur7Ywqle_bZARK5gLSqDoj85uLRt0e
+seNeW7W82g6_b8mXc684kK1orzEWa7Qqvz_VZdYN1nU8RuHkzjzWMvXeU3PC4At7q5wFV
+}
+!procedure Buffer($id, $name="Buffer", $tech="")
+  IconElement($id, 'simpleicons-4/B/Buffer', $name, $tech)
+!endprocedure
+!procedure BufferCard($id, $funcName="", $content="")
+  IconCard($id, '<$BufferMd>', '', $funcName, $content)
+!endprocedure
+!procedure BufferGroup($id, $name='Buffer', $tech='')
+  IconGroup($id, 'IconGroup', '<$BufferLg>', $name, $tech)
+!endprocedure
+@enduml

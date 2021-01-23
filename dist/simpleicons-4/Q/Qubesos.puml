@@ -1,0 +1,16 @@
+@startuml
+sprite $QubesosMd [14x14/16z] POw50GCW30GVTxB_jetL3uq_c7g9JeQHDp4hWecJd14mBhyxboCFEEjMC9q_aQqEPT4DRsjoxCyQdcaMpG34HLnN5vktTMA6wr9E01E6cpT2I7D4Jkbu
+sprite $QubesosLg [20x20/16z] {
+bOxL5SGm40DbPgl_QWFMo-ttJT2pY4COVEWUCD9wtOncuY15ypAkqTZ50I5k7MgJdHvTTSrzWrWntkupu93VceOnINf0P7FkjzF_phOtbpvNvTRPwLJxpkFg
+-N9bkBhvaW7NAIl3eiQJnlGGPPdS6SAtzwGk7H-XLOymkAl33G
+}
+!procedure Qubesos($id, $name="Qubesos", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Qubesos', $name, $tech)
+!endprocedure
+!procedure QubesosCard($id, $funcName="", $content="")
+  IconCard($id, '<$QubesosMd>', '', $funcName, $content)
+!endprocedure
+!procedure QubesosGroup($id, $name='Qubesos', $tech='')
+  IconGroup($id, 'IconGroup', '<$QubesosLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $HitachiMd [14x14/16z] hKg30S1038ov_xpjQuJu14E5I8Ympe9YkRhC9ToBjKGzAZZCUjcmWYy98_K3
+sprite $HitachiLg [20x20/16z] pSj70G0n30EmEClkuW_t1elgBxjULKaA0SqiYs36ac8MfrgerPF7COUWN6DFebUAvx-9xBBiLhP5qYxt0W
+!procedure Hitachi($id, $name="Hitachi", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hitachi', $name, $tech)
+!endprocedure
+!procedure HitachiCard($id, $funcName="", $content="")
+  IconCard($id, '<$HitachiMd>', '', $funcName, $content)
+!endprocedure
+!procedure HitachiGroup($id, $name='Hitachi', $tech='')
+  IconGroup($id, 'IconGroup', '<$HitachiLg>', $name, $tech)
+!endprocedure
+@enduml

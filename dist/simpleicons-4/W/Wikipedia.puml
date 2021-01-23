@@ -1,0 +1,16 @@
+@startuml
+sprite $WikipediaMd [14x14/16z] XSh50GCn3031bHa4_LTx_4x68EI7tfkKNgGrQcyh1YaQkr4qfM4mTffmZH6lY6c6ALoVmhrGEvSKcN6_n6slDDPEWqVndTBrUEc6lVaakLxYZnC
+sprite $WikipediaLg [20x20/16z] {
+fSJ5eMCn50KmcPyXllrNE_Xf7ntmXjvRBthlzU-LD7eVSyUJjFlAwftKrowvniGJHJs9SZ9sPFBTri1OqEF1Z6SZxGfE8DzeQ1iOCJ2ZO3N0lLYnACU79uQw
+pwrczo75iLk9wIG-pDWhENTtNt94eyNDlgsDTAOVKeQSlUqt
+}
+!procedure Wikipedia($id, $name="Wikipedia", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wikipedia', $name, $tech)
+!endprocedure
+!procedure WikipediaCard($id, $funcName="", $content="")
+  IconCard($id, '<$WikipediaMd>', '', $funcName, $content)
+!endprocedure
+!procedure WikipediaGroup($id, $name='Wikipedia', $tech='')
+  IconGroup($id, 'IconGroup', '<$WikipediaLg>', $name, $tech)
+!endprocedure
+@enduml

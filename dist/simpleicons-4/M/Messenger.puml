@@ -1,0 +1,16 @@
+@startuml
+sprite $MessengerMd [14x14/16z] HSU55GH1409HthXI-KTxilfRaSBWC89-2fSgXGfldF2AxxjDFsx8PeJDvYT9eQXpw2fHIXmS1ivX0yjuSolr_TbID1T7IOFJ3FffkvJMol5_0G
+sprite $MessengerLg [20x20/16z] {
+PSx50S0m30D0XTdQVzg2c_8zZG80tpbrZoaA9ubGflAXchqsIrSH28aV2OC_bczxWaWboJVTssSQLG6GA1vb7z3Iq03E8l0IO9r6rOzoHFA36K2-_j3gf-QJ
+QArSZPlBbHyLnWfVn0BmyYfvx0fltU5Jwz7Wa2HRwsFmTbPM
+}
+!procedure Messenger($id, $name="Messenger", $tech="")
+  IconElement($id, 'simpleicons-4/M/Messenger', $name, $tech)
+!endprocedure
+!procedure MessengerCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessengerMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessengerGroup($id, $name='Messenger', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessengerLg>', $name, $tech)
+!endprocedure
+@enduml

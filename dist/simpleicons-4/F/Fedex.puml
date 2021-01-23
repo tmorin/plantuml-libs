@@ -1,0 +1,13 @@
+@startuml
+sprite $FedexMd [14x14/16z] hOMr0O0m50M_AxB_j4X7Iv8dTp0OnA-ww64Olu8j8pLs5IKXo3Zwz3OLPWJ1IAzMLXPYM98R
+sprite $FedexLg [20x20/16z] pOpL0SCm34GjEc7j_QSjxv2y7y71kXmY-c_TpTybmVhRrhHzPThE-F_s8_lzdpaWk9hfEvjvSaxoXe2CXByrktB6JuYRYIgfoa85PuMI68i8oReHBm
+!procedure Fedex($id, $name="Fedex", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fedex', $name, $tech)
+!endprocedure
+!procedure FedexCard($id, $funcName="", $content="")
+  IconCard($id, '<$FedexMd>', '', $funcName, $content)
+!endprocedure
+!procedure FedexGroup($id, $name='Fedex', $tech='')
+  IconGroup($id, 'IconGroup', '<$FedexLg>', $name, $tech)
+!endprocedure
+@enduml

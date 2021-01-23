@@ -1,0 +1,19 @@
+@startuml
+sprite $ProtoolsMd [14x14/16z] {
+BOeBaiOm288nMPb6k-7-j_rnffzl0OXJt9jr0YQRdi7EwJNxL16d0wlkzIzw-H6lp1lWmy2HdfJAtetj0w2qqGkjVvXMewgbFnXRPXSnZFUzIdoak5ZnNSLn
+TFgER69OfyrPNdy
+}
+sprite $ProtoolsLg [20x20/16z] {
+LP1LOiLG20MvHj1a_xlj2QNovWSO949WUIhlpPg-g3aHikVS4d5QoStKy2tVAYVzCXDodL9Jt6MKFEJ1oCxpSX-a72C3SJ_DHX6iWf0eJMvCObsCqRgWz3rG
+OSTUD37W10I3arRkIOvq4HY14nWvMx1oKS58UKKcebDZM0b_G7z8Rp-lir8jCNd4wlulAtqGwUS_qFunXvhpgixYgd-QoN-NsI8pZ4ULNm
+}
+!procedure Protools($id, $name="Protools", $tech="")
+  IconElement($id, 'simpleicons-4/P/Protools', $name, $tech)
+!endprocedure
+!procedure ProtoolsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProtoolsMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProtoolsGroup($id, $name='Protools', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProtoolsLg>', $name, $tech)
+!endprocedure
+@enduml

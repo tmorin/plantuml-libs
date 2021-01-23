@@ -1,0 +1,16 @@
+@startuml
+sprite $DroneMd [14x14/16z] PSY55KGn24JHYSB28TD_jVlTR_I1MMeYBM6Jn2EyRza7LwC1kVFKOBoCp8MLiavrZMJpdZ-X8hByBCaCINKhrGoae2yJvvWBZVJMd1GiXAiVDiKYlE9Z0W
+sprite $DroneLg [20x20/16z] {
+TOy50WCn20INkFF_txOiTPdJJ8B1aP1Y4BmYCPUIugkfIyaiTvNSk8rK-UWB9rcc5q4PqAT-CF18LEjGvnvP88AYf2dfwFuorY1IU5W6iPP5q1Z4NwFilM8o
+b-BQfvgBHtKYhvLXVMLpZ1jofLjFSDZsujGxm15AgeW7TTFqW1SabP9e_d01
+}
+!procedure Drone($id, $name="Drone", $tech="")
+  IconElement($id, 'simpleicons-4/D/Drone', $name, $tech)
+!endprocedure
+!procedure DroneCard($id, $funcName="", $content="")
+  IconCard($id, '<$DroneMd>', '', $funcName, $content)
+!endprocedure
+!procedure DroneGroup($id, $name='Drone', $tech='')
+  IconGroup($id, 'IconGroup', '<$DroneLg>', $name, $tech)
+!endprocedure
+@enduml

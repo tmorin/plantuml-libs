@@ -1,0 +1,19 @@
+@startuml
+sprite $GraphqlMd [14x14/16z] {
+LSw50GD120J0nNcvf_zki_5apXK0iXd3Hyua7aIqTseLGQ_Pj9LrkvRiCseDj2bdKeLD0Dd06I8YGHaUW7VZeTiXkLwXT2NuIsLH5d_fTPrbb0SZFAAdUvI8
+_6Ns8cizzsy
+}
+sprite $GraphqlLg [20x20/16z] {
+XT1L0iCW44NHYyCRoEn_jHLgoLSFxiARtCNNjy-uAijzLKwIZIdDOOcdcDQZeoI5e5Iisyfeki_0Q515UBReSczauq65jeyFIs25XsAW5O1HgM9JfGxOVJEo
+nVaULccTjzwATZaiy1PiZ6SnFVELVOPzbr6_XhkG-QEpzQtrmtr-tiQMrMqbjcJAjQQko4bvB5hb_v-IZoFpTWS
+}
+!procedure Graphql($id, $name="Graphql", $tech="")
+  IconElement($id, 'simpleicons-4/G/Graphql', $name, $tech)
+!endprocedure
+!procedure GraphqlCard($id, $funcName="", $content="")
+  IconCard($id, '<$GraphqlMd>', '', $funcName, $content)
+!endprocedure
+!procedure GraphqlGroup($id, $name='Graphql', $tech='')
+  IconGroup($id, 'IconGroup', '<$GraphqlLg>', $name, $tech)
+!endprocedure
+@enduml

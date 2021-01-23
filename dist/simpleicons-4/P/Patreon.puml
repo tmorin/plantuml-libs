@@ -1,0 +1,16 @@
+@startuml
+sprite $PatreonMd [14x14/16z] PSc53G0W00F1uWxxRulxntffIWg0IIK3DF5O5NaJIoDQvQPCLPmgGoBjpYzKwNLK4T_XKGLYAmpf0gWG59YgVV9U7Ce
+sprite $PatreonLg [20x20/16z] {
+fS_50GGX44JHmftAFzgL7aEEyuyFRP81lrJYl-O1N6OAfQXkivrdLPscRoBpQOb3LanpB8kPoRgOuvIONVRjznKnvD6SsFH8kURmDpLz6TmvIT6u3ShdKg85
+RhjxQobbkzeN
+}
+!procedure Patreon($id, $name="Patreon", $tech="")
+  IconElement($id, 'simpleicons-4/P/Patreon', $name, $tech)
+!endprocedure
+!procedure PatreonCard($id, $funcName="", $content="")
+  IconCard($id, '<$PatreonMd>', '', $funcName, $content)
+!endprocedure
+!procedure PatreonGroup($id, $name='Patreon', $tech='')
+  IconGroup($id, 'IconGroup', '<$PatreonLg>', $name, $tech)
+!endprocedure
+@enduml

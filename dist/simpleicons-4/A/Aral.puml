@@ -1,0 +1,16 @@
+@startuml
+sprite $AralMd [14x14/16z] NKs53GC14FhqNDb_sheJnOyRQ9UEDmomRmBuDtcv_Y1tbpoznKRRhnGGSX8xkInyXvXOX8a2JhgexKPdslTAV3_ut_k7ViYr-oGN
+sprite $AralLg [20x20/16z] {
+PSu5WiKW34LHD0bwzx_QcU-fl1OxQFX4GC8b2deX0x3hgcVqJc1tyfNs1LzfM_TMwGnZZ2TMHK8RGTCiOLO13K2MqgFaNgg90WOznbHphXhYeruRqzQLLcqL
+wLiavMddby3cGHTyagEJevEZawEJevF7dFu1
+}
+!procedure Aral($id, $name="Aral", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aral', $name, $tech)
+!endprocedure
+!procedure AralCard($id, $funcName="", $content="")
+  IconCard($id, '<$AralMd>', '', $funcName, $content)
+!endprocedure
+!procedure AralGroup($id, $name='Aral', $tech='')
+  IconGroup($id, 'IconGroup', '<$AralLg>', $name, $tech)
+!endprocedure
+@enduml

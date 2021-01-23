@@ -1,0 +1,16 @@
+@startuml
+sprite $DoubanMd [14x14/16z] LSi10W0H20J0SW2q___j0J00RRW5ULxqO1qsJSf1IYTmn0wAElMy6AubW_DDQ3KhHReYjkMJQK6JFcfAQNi2jsRIg14DNwzukCSF
+sprite $DoubanLg [20x20/16z] {
+TSz50W0X20LGr0ca_lrFEztnTahZhV_w4nMz4MtfKyetQVvIt6XQ_i8EiV_rb3RKxNyT7Vx_IC7bm7lUZSrvlLOvL6MQ9TP2YwASQMKGMbH4ebK1bhkpWsbN
+rqI6BsaoCq15DE0omuVoOGG
+}
+!procedure Douban($id, $name="Douban", $tech="")
+  IconElement($id, 'simpleicons-4/D/Douban', $name, $tech)
+!endprocedure
+!procedure DoubanCard($id, $funcName="", $content="")
+  IconCard($id, '<$DoubanMd>', '', $funcName, $content)
+!endprocedure
+!procedure DoubanGroup($id, $name='Douban', $tech='')
+  IconGroup($id, 'IconGroup', '<$DoubanLg>', $name, $tech)
+!endprocedure
+@enduml

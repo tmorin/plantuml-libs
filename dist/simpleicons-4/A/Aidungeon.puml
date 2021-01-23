@@ -1,0 +1,13 @@
+@startuml
+sprite $AidungeonMd [14x14/16z] jKUd0O1047DNK_RV5XJlS9yUtmT9dLDP-9v8wBojxUh9xXfptywgxChn7nu
+sprite $AidungeonLg [20x20/16z] tKwr0S1028pYil-qhnrTsk3EvMyeChtMNlIdJ3c-2dKrtAtkYfkhsX1sDTCOkmolmOF0zA0CRsENY4H61HYOaSWtbbXcyHVg
+!procedure Aidungeon($id, $name="Aidungeon", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aidungeon', $name, $tech)
+!endprocedure
+!procedure AidungeonCard($id, $funcName="", $content="")
+  IconCard($id, '<$AidungeonMd>', '', $funcName, $content)
+!endprocedure
+!procedure AidungeonGroup($id, $name='Aidungeon', $tech='')
+  IconGroup($id, 'IconGroup', '<$AidungeonLg>', $name, $tech)
+!endprocedure
+@enduml

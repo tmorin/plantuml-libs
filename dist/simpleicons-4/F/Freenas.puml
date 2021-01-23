@@ -1,0 +1,16 @@
+@startuml
+sprite $FreenasMd [14x14/16z] POo53KH120LdiQpJVxNtFNOJWsSYt1JJ0hNQzMZqKDYPqzlAJ0TclYoul9lTzFe-grwFVLztyx4-wswyta1gBdqt9qWQnFlMx817VSAD1wrZLEMV0m
+sprite $FreenasLg [20x20/16z] {
+VOu5Oi0W34LZnKAQ-zzsmvc-5elz3pU8wpWXOcZFQfgu1JXaDQFm6NpT_KqKjLsyz3gjtg8-UA2XveSwXlkX189liTVY295VGUaXgNSifoIfkfvGNcgyGmQa
+_PIZaG1Gr1K1RDajtQrpKmbx7dFnrCs8NoWqGkHufATf0k1kmuh03R4mmNzy
+}
+!procedure Freenas($id, $name="Freenas", $tech="")
+  IconElement($id, 'simpleicons-4/F/Freenas', $name, $tech)
+!endprocedure
+!procedure FreenasCard($id, $funcName="", $content="")
+  IconCard($id, '<$FreenasMd>', '', $funcName, $content)
+!endprocedure
+!procedure FreenasGroup($id, $name='Freenas', $tech='')
+  IconGroup($id, 'IconGroup', '<$FreenasLg>', $name, $tech)
+!endprocedure
+@enduml

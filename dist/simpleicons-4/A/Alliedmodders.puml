@@ -1,0 +1,19 @@
+@startuml
+sprite $AlliedmoddersMd [14x14/16z] {
+FSc55SC020JGmoso_xHj7F-FBXTyqTMfdnXi7J1v153JqW6bKuACvFJfEhGmJt4rOKuLbg6rW3uq2t9e4xLJDK91ZV5J6O4ZQFSMeBLEsNhzV3OvL9jKkdjk
+xHxx-EfdY8Mx7VK7
+}
+sprite $AlliedmoddersLg [20x20/16z] {
+NSg7bG0W20FGK6o0iF-szzJhiN_ZreNmDn6hyJyRVKNu_CDCWFGmGEZBv3Oe5BczNVhwNGifCwXPusiiqE1DwhmjjXqR6uX-R0IWUQodO7X2BJf0-rfDS1Pq
+9m6KpmBmX9IXpKyBLxGaAONvfzbQe0bPGDcpiJJm8b_M5qAVpVpg1SUyHE7-J7nNq36jd9GgH0JTfI22rM3Et2VbdlSyUpBB2T4zcS_w
+}
+!procedure Alliedmodders($id, $name="Alliedmodders", $tech="")
+  IconElement($id, 'simpleicons-4/A/Alliedmodders', $name, $tech)
+!endprocedure
+!procedure AlliedmoddersCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlliedmoddersMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlliedmoddersGroup($id, $name='Alliedmodders', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlliedmoddersLg>', $name, $tech)
+!endprocedure
+@enduml

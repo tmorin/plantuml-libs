@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglecloudMd [14x14/16z] NSs50GCn20LGqekY-s_R3_M-k02KsdKrUcbpx_4w3W_myJXWgugfZbPhzp2YsyAjZVgoy98KgH2D6-z3Cc6tq7n_MW7vK2GSlqqACkp1yIPPVP-7GN_k
+sprite $GooglecloudLg [20x20/16z] {
+TP254S0m3CJ2QDX_szwxJ2f60OFRyTuzyI4yPEh4J2rUL1Srf1rgwC7OLCE0MftuhYi3DXOxLLGvdCigVikwCE4B9YJR5j6D3cT7HXl68gPSx8YzxGh-p0jR
+gxjGrI1_SQJAMxuxX6o8zO447_cX4a8suWFgOU_dWNS_B
+}
+!procedure Googlecloud($id, $name="Googlecloud", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlecloud', $name, $tech)
+!endprocedure
+!procedure GooglecloudCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglecloudMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglecloudGroup($id, $name='Googlecloud', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglecloudLg>', $name, $tech)
+!endprocedure
+@enduml

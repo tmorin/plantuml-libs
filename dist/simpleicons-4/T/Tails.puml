@@ -1,0 +1,19 @@
+@startuml
+sprite $TailsMd [14x14/16z] {
+FOm55WCm34A9GQUv_srNU_kL40EkKG3CiVuSErEkp6V6n6Z-iu9k5XegFcwMUj1c9jNA7eEn9hEvF046kz1J8Gd4kuagJ4BvxFuc3bClU3Br8KxAfH-EItoE
+_W4
+}
+sprite $TailsLg [20x20/16z] {
+LSy54iH024HHj1dBSl_RReXMVlaRXKWm8-YROk8qveiu8hoCySD5OjZGb0cPe0k1xj6Tx35cnq88szSwMjVk7viEbrdcaFk-qOYEioqshNqOq-epPH8vQcDj
+8c-iTHzobadpcYPGHdEtAb1BMsOZOgSp16FbNj0Jpr-UzTTMtasviJrMTrxXEZoCtgnmNd8dwv4_
+}
+!procedure Tails($id, $name="Tails", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tails', $name, $tech)
+!endprocedure
+!procedure TailsCard($id, $funcName="", $content="")
+  IconCard($id, '<$TailsMd>', '', $funcName, $content)
+!endprocedure
+!procedure TailsGroup($id, $name='Tails', $tech='')
+  IconGroup($id, 'IconGroup', '<$TailsLg>', $name, $tech)
+!endprocedure
+@enduml

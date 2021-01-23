@@ -1,0 +1,16 @@
+@startuml
+sprite $VueDotJsMd [14x14/16z] RSI50GD130D17QEz_LSRvlm8vXmbbn0kDsPtlCOQBwtEc32bMgK9CNOeIaa5kXIChOkD1KaLskshhXOUWhDqaw5toBeRN4mzH0UFUchGz6Qc3wNgm1a
+sprite $VueDotJsLg [20x20/16z] {
+VOy5WiKW34G7YrJlVzlDjC1-VoqG5rKraIO5oF58wEA1IjEm5MsYLCzWJIdPzMCDLPntPT0LoWXaFXi0rRYsEm0UR-X4GdGAUJ_FFLDAKmBx60KR6RrARx2Z
+KqDPW2MUXW6rsZs3pApzhZ1XzT69Z7d671EXJV7CoWrVg5pqbNN56pdZ5ty
+}
+!procedure VueDotJs($id, $name="Vue Dot Js", $tech="")
+  IconElement($id, 'simpleicons-4/V/VueDotJs', $name, $tech)
+!endprocedure
+!procedure VueDotJsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VueDotJsMd>', '', $funcName, $content)
+!endprocedure
+!procedure VueDotJsGroup($id, $name='Vue Dot Js', $tech='')
+  IconGroup($id, 'IconGroup', '<$VueDotJsLg>', $name, $tech)
+!endprocedure
+@enduml

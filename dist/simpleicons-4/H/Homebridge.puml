@@ -1,0 +1,19 @@
+@startuml
+sprite $HomebridgeMd [14x14/16z] {
+NOv50WGn20H7WKaQwl-_tSXjAuhtSPmVYtOUWxUWnk4TaHT8CpKDywjfPDtcrBaYSbD64TjGMhaGDOpkBfCLuDPT8-p9eCfxH3S3iQCziY3cX19fC-jQqybt
+YVbJDZX3e9YYVm
+}
+sprite $HomebridgeLg [20x20/16z] {
+TT1NWWGX20JGLg03K73_sow6pJFrLy_iKI7B7QDZHpnt89lkMNqDt3z8cJLD9v8i8e1PvCcKmx0f44troaJBJKxTW6Ti98l2QY9fFkUeYxm34xasHAOpdA14
+LWYoZ6A-AMfkz9esfUBdsCuTf0zNnrJqKj8Gzdr66P_pt3L5pEVogzh3Qwj6aZk-lqpc7opgzkzZiEdjdrQQA3AWqcRz
+}
+!procedure Homebridge($id, $name="Homebridge", $tech="")
+  IconElement($id, 'simpleicons-4/H/Homebridge', $name, $tech)
+!endprocedure
+!procedure HomebridgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$HomebridgeMd>', '', $funcName, $content)
+!endprocedure
+!procedure HomebridgeGroup($id, $name='Homebridge', $tech='')
+  IconGroup($id, 'IconGroup', '<$HomebridgeLg>', $name, $tech)
+!endprocedure
+@enduml

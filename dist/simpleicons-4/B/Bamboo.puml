@@ -1,0 +1,19 @@
+@startuml
+sprite $BambooMd [14x14/16z] {
+FKs74G0X32BsplxR6Yl_QYX7SC0g-13Ilp5rtycuYT4f3-gr72LSPp4Jrr1uad795gJ3OgsF0gaM8W8RYZ95vkWIElSklxfUI-7jQMjew-pjEesan60ZjEvR
+MDC4
+}
+sprite $BambooLg [20x20/16z] {
+NS-5eM0X34JHuCxjlzibiz_FKtnYNw3QNz3jjsZ0j6-XxnDvLlZioWV8bsT7au9hoDRCT74BQUOcidbkqVO9TqhqTpQNAgwOVHzGEroMPvwVGM9gVPxXYTuz
+UX_vzSrzsIOwfrigE9N_kNM81pTocRZh1tMGWtGbtCZyhCsbWwkQd3xpQ4hokT6-f75kN2-Q_0C
+}
+!procedure Bamboo($id, $name="Bamboo", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bamboo', $name, $tech)
+!endprocedure
+!procedure BambooCard($id, $funcName="", $content="")
+  IconCard($id, '<$BambooMd>', '', $funcName, $content)
+!endprocedure
+!procedure BambooGroup($id, $name='Bamboo', $tech='')
+  IconGroup($id, 'IconGroup', '<$BambooLg>', $name, $tech)
+!endprocedure
+@enduml

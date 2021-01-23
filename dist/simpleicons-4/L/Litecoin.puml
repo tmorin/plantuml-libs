@@ -1,0 +1,16 @@
+@startuml
+sprite $LitecoinMd [14x14/16z] HOrN0iGW50B7tlN-jrtHJJ8_hm9WoZeKmoRCEyq09joz7WBbN3nTLtEVi6UPbwZ49VGWWLDpIT3MIo6ixpCJMwrZDqgmYBAcLNezo8n7eq6OlDKz6-07
+sprite $LitecoinLg [20x20/16z] {
+RP050iGm20GtGXNv_sihtEPysXWEk6XxaBs1Y0OneMY9nFtUbtVHNBjIs8Hk5Stp8jYDqGicnYn1Pc3ZLO9q5ETrwBIWEuKPZINGX_XKW3q-q5xGOZ0gOUdC
+CIfPzIPhsU_3Au1I7W6qP6-6Kd0pPsyPo9Nuvs38ydUcfCXcbs2JWfiJ
+}
+!procedure Litecoin($id, $name="Litecoin", $tech="")
+  IconElement($id, 'simpleicons-4/L/Litecoin', $name, $tech)
+!endprocedure
+!procedure LitecoinCard($id, $funcName="", $content="")
+  IconCard($id, '<$LitecoinMd>', '', $funcName, $content)
+!endprocedure
+!procedure LitecoinGroup($id, $name='Litecoin', $tech='')
+  IconGroup($id, 'IconGroup', '<$LitecoinLg>', $name, $tech)
+!endprocedure
+@enduml

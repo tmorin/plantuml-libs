@@ -1,0 +1,16 @@
+@startuml
+sprite $TaobaoMd [14x14/16z] VKp7WKL1259n60ox_NVxKm6FVC8US18H_bjma_xs5B5Nr4grbuDXaVh4p5qB_hUyrRixvh6QI7TafqibCU9t3VkX2mHFCvYaTATKKdMh0MHyY8y0Uy0R
+sprite $TaobaoLg [20x20/16z] {
+fOv7OY0W24K1QHzHxt_RqKdR9yz2B_G7L4dus-Bn_dsyEW4mXMijeDmihbkamNkboP0-SphcAkj91KD7r4qBnocPJMm-JvYI1Ifsu-RHqDgna_OQtRlhW2wv
+HpaLY5Mirg3g3_2r5zCFxlvXSdxxQgPSTwHqEerWXIOqQaPcb9RV3FXxyF9Cd_TxE4I4RR0ggSfx_Fh_ddy
+}
+!procedure Taobao($id, $name="Taobao", $tech="")
+  IconElement($id, 'simpleicons-4/T/Taobao', $name, $tech)
+!endprocedure
+!procedure TaobaoCard($id, $funcName="", $content="")
+  IconCard($id, '<$TaobaoMd>', '', $funcName, $content)
+!endprocedure
+!procedure TaobaoGroup($id, $name='Taobao', $tech='')
+  IconGroup($id, 'IconGroup', '<$TaobaoLg>', $name, $tech)
+!endprocedure
+@enduml

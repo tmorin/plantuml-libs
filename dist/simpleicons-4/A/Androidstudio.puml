@@ -1,0 +1,19 @@
+@startuml
+sprite $AndroidstudioMd [14x14/16z] {
+BOe16eGX14G7_56L-zzswTjN1My0Z9l57MXuv-Cm06fpJbk2H1OY_GUybQdQa_kfjP-KDtr4bXwfinEioeSZ-TkbAgOaUL2H3NPdp3G0hkeY_QCmNraiRuKJ
+P5vj700S-1E27m
+}
+sprite $AndroidstudioLg [20x20/16z] {
+JOu7aW0X20HRG5TqbV-_ze9uOKnJBGcWU5nvuKfcN4qbPJj-jUqWJRJlSoB7zP9mW5WY1qzej7vCfpQkPMJFHoBaoTxCTJ_df9zEgrmsizii7c_nULX5bHhF
+DwVs36iH3PSIqIdwpRIiY5N08ondTaeRenNip0ooDaMEAsMluz26n-l-ng0goTwsusYtQSbccFRnlgEhvQ1OE40f07xQKfr_yWgV
+}
+!procedure Androidstudio($id, $name="Androidstudio", $tech="")
+  IconElement($id, 'simpleicons-4/A/Androidstudio', $name, $tech)
+!endprocedure
+!procedure AndroidstudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$AndroidstudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure AndroidstudioGroup($id, $name='Androidstudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$AndroidstudioLg>', $name, $tech)
+!endprocedure
+@enduml

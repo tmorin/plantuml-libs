@@ -1,0 +1,19 @@
+@startuml
+sprite $ZillowMd [14x14/16z] {
+HSh7OG103091BcTj_zqQvtb9W6GTkdwb0pVhMmqiwk_C8XXIMzXfAJ-M0jv8iWFzHPDILhhuSvptb7TtzPJAvaXpPjc3gszbbk0bMLiFUX15PGMOFzx1Vhz_
+_GC
+}
+sprite $ZillowLg [20x20/16z] {
+XOxN0GGX20N1W5dwx_QGvwMldOqEaG0trSxqHnYgC_ofjDJOcRx8Lb0-gkdbqpDC1RjrD8qPTQidYtTlkjmC2PYbHZXPBNt7mxNWHxO7RK8y9iYqrVAPCwiN
+XRhLrMhPQs9iLY54N3CJMFkkVmMdoaTrkWGPUsEN056mAror4XaGS4TMf7mTU70l
+}
+!procedure Zillow($id, $name="Zillow", $tech="")
+  IconElement($id, 'simpleicons-4/Z/Zillow', $name, $tech)
+!endprocedure
+!procedure ZillowCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZillowMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZillowGroup($id, $name='Zillow', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZillowLg>', $name, $tech)
+!endprocedure
+@enduml

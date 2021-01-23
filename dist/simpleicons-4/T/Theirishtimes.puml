@@ -1,0 +1,13 @@
+@startuml
+sprite $TheirishtimesMd [14x14/16z] dOsr0G0n3CGKvdZ_QKFze-6W4ZSJKax6v1XpYYdxAecGSTALRZPBn2YiD8Kx3NPR-hSTmlP5WBZfe6FEdjkP
+sprite $TheirishtimesLg [20x20/16z] nP354GGn30J7BAp9FzfZ_1xijYtgduGl4BNJwqNCt5JDJxbFaWCrOrGZlVLWQITNKAq0GYg0lBkEYpC0y-REt1rsTNXtrzqAJbGdirnlOARzh9QTM1LVSGG
+!procedure Theirishtimes($id, $name="Theirishtimes", $tech="")
+  IconElement($id, 'simpleicons-4/T/Theirishtimes', $name, $tech)
+!endprocedure
+!procedure TheirishtimesCard($id, $funcName="", $content="")
+  IconCard($id, '<$TheirishtimesMd>', '', $funcName, $content)
+!endprocedure
+!procedure TheirishtimesGroup($id, $name='Theirishtimes', $tech='')
+  IconGroup($id, 'IconGroup', '<$TheirishtimesLg>', $name, $tech)
+!endprocedure
+@enduml

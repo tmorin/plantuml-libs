@@ -1,0 +1,16 @@
+@startuml
+sprite $DialogflowMd [14x14/16z] NSV70OKm34J19ITfN__L0hP_P6wZsnYGevf-vtRqDIilgzJDTeizQrY9v1R1gdu5HsQOro0JNljuJeDvyI2fsrgsNbK0CUZb82TzxAjUBW
+sprite $DialogflowLg [20x20/16z] {
+bS-53SGm44JHsN2or7-tPoRXVP7rp4XjhuVU3KCxH-EZIrurhRpLMtPJfCkQHBm2aGXR4nQXQAwiMUDiCNSLYHA7pTo4MSn7YngbM-zFmpFRWzWXNVH4wMw_
+HOiqqKjOZFSEoTf1tVWXz7u
+}
+!procedure Dialogflow($id, $name="Dialogflow", $tech="")
+  IconElement($id, 'simpleicons-4/D/Dialogflow', $name, $tech)
+!endprocedure
+!procedure DialogflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$DialogflowMd>', '', $funcName, $content)
+!endprocedure
+!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$DialogflowLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $AiohttpMd [14x14/16z] {
+9SW95WCW20FH2QY4hlU_RHzMsNv0xPIo702xzwpq1XqZ3TK7U_BNCwF2KGdixxScl23UdvXjNQ6h7gKWDDgfVirr0bn9BgqTBxFBPe4IBJfYz-6-q_lE7AJ_
+QPIxNG7y
+}
+sprite $AiohttpLg [20x20/16z] {
+PP07ekOW28G_64aKyg_tF-qsUNqiz0gWh733er8qed8OsCWA3cQ6DQkQhGA9HYvG983hdWQHNa5ssjhxqT10QPK0-6llNyUQ4OF3xLs76ykjkNl6uQnjoC7z
+yCyXBi3KkY4pN-jO_CJUbxlsImQm9Z1M9H1k6hV6QqjUaIKGe6NcOOmoHN45ZN6H0SmrHSFNwiKy7xgQFtTwGSDYrVFKwjt-0G
+}
+!procedure Aiohttp($id, $name="Aiohttp", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aiohttp', $name, $tech)
+!endprocedure
+!procedure AiohttpCard($id, $funcName="", $content="")
+  IconCard($id, '<$AiohttpMd>', '', $funcName, $content)
+!endprocedure
+!procedure AiohttpGroup($id, $name='Aiohttp', $tech='')
+  IconGroup($id, 'IconGroup', '<$AiohttpLg>', $name, $tech)
+!endprocedure
+@enduml

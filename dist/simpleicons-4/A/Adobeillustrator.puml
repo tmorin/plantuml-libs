@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobeillustratorMd [14x14/16z] bOp50SCm34NDjl3lFsqRnbEU60qN6gumtf02RMo5X09qsgfQenupZreQqlQGGmuPUQjAvX7qg7GoQXqVu4fwGF4F
+sprite $AdobeillustratorLg [20x20/16z] {
+fP030aGn34IdmQypzp_jsiQh6wTFtZ1b1cy8vJsTxnZjqg_fri9m4R41Hh8kFEEg2BBbY_383MLh6-VeQ8HU_pdKW77v5u18GgQU_oeoOq0lzJnjqx8q_C9s
+TukvdN_I7_KqIUrNLC4Q
+}
+!procedure Adobeillustrator($id, $name="Adobeillustrator", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adobeillustrator', $name, $tech)
+!endprocedure
+!procedure AdobeillustratorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobeillustratorMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobeillustratorGroup($id, $name='Adobeillustrator', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobeillustratorLg>', $name, $tech)
+!endprocedure
+@enduml

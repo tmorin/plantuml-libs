@@ -1,0 +1,13 @@
+@startuml
+sprite $RabbitmqMd [14x14/16z] RKo30S0m48pnklsdhTtuZm2YQ-kphWtr6usqDDPQ4g2ddBB7S_Knuj9kjBROZRBp3mIrRmlP4xKP
+sprite $RabbitmqLg [20x20/16z] lOwr0S0m30H5Pjf_MdCJxd96yPUE1P3-1DZyvJCtle1W-fC8iBDy9SOydXGdNAwOJr_APryI8dlo3IrqyiNkuqijadcV--tBLvyq
+!procedure Rabbitmq($id, $name="Rabbitmq", $tech="")
+  IconElement($id, 'simpleicons-4/R/Rabbitmq', $name, $tech)
+!endprocedure
+!procedure RabbitmqCard($id, $funcName="", $content="")
+  IconCard($id, '<$RabbitmqMd>', '', $funcName, $content)
+!endprocedure
+!procedure RabbitmqGroup($id, $name='Rabbitmq', $tech='')
+  IconGroup($id, 'IconGroup', '<$RabbitmqLg>', $name, $tech)
+!endprocedure
+@enduml

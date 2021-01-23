@@ -1,0 +1,16 @@
+@startuml
+sprite $ShowpadMd [14x14/16z] bKs54GCn34k3Xekr_xHzPZQZvBu8vJu5tpT0sqQhfiuJV4Joe9-lOkRR8-FGtMBe2Adlsi87n83INl8QHGuCRwK1
+sprite $ShowpadLg [20x20/16z] {
+jK_55KGn28nxClrNku9yFOSJ3qRDZedsTSfelBXSavFJv6C65bOILFaV2tfmOI148lwFTdNYhmuqrNJirA0tHtI-9ULwMeXBKdzvUtXuoKBoYRB4H-PKajDk
+Pkjy0G
+}
+!procedure Showpad($id, $name="Showpad", $tech="")
+  IconElement($id, 'simpleicons-4/S/Showpad', $name, $tech)
+!endprocedure
+!procedure ShowpadCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShowpadMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShowpadGroup($id, $name='Showpad', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShowpadLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -13,7 +13,7 @@ The library provides 9 packages.
 - [fontawesome-5.15](fontawesome-5.15/README.md)
 - [homecloud](homecloud/README.md)
 - [material-4.0](material-4.0/README.md)
-- [simpleicons-4.1](simpleicons-4.1/README.md)
+- [simpleicons-4](simpleicons-4/README.md)
 
 ## Include the library
 

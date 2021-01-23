@@ -1,0 +1,19 @@
+@startuml
+sprite $DelphiMd [14x14/16z] {
+BOw5WKGX34IZE9d-kxtX_ZuaBY8wySzI8LbKxmMIaGHgT1ajAsKMggjR5wzI01aMwOtQ04w4g-YXnJVYbPjUF5g4w1SadLQEKr_coXJlU8o9EvQP9OqofTYc
+JJUGlyqAesWyT5mmNwd-0G
+}
+sprite $DelphiLg [20x20/16z] {
+JT250SGW343HE1go_xP7kDgllpgmun5NW-1Avsqk5zN8LgzvghxKopuOHYsHDQc1CLZVXoiKXc_Q5nN4XY0hmZ6IqC1832qopLL5PIP4yMCzoLWPTlJ7N0qq
+mKrCqE9ArGG0yz9oMo4L847MCkzxAzis6t7LSx5ydeXVfcE6inKIOVgZO_vRCe227jDh33eHgiBu3epxcZ7G3vtqUleALxX3xRwMTqN8VW
+}
+!procedure Delphi($id, $name="Delphi", $tech="")
+  IconElement($id, 'simpleicons-4/D/Delphi', $name, $tech)
+!endprocedure
+!procedure DelphiCard($id, $funcName="", $content="")
+  IconCard($id, '<$DelphiMd>', '', $funcName, $content)
+!endprocedure
+!procedure DelphiGroup($id, $name='Delphi', $tech='')
+  IconGroup($id, 'IconGroup', '<$DelphiLg>', $name, $tech)
+!endprocedure
+@enduml

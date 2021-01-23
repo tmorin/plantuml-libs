@@ -1,0 +1,16 @@
+@startuml
+sprite $OsanoMd [14x14/16z] LOv50i0m20IX7l__RyiabJ0Nd5qH3QqJL8ozZghkDjdRnow1IGcXC5LwaODeoSL4EZRDF1iLhttbDel_uXGMf_uxem2ziabTcBu1
+sprite $OsanoLg [20x20/16z] {
+RP254KD124IHERV-gurmctpZZU6oz47R0aq9XBx020ZbTIBVGmXgM3S2jM563o8OEnWDvycxinEmoeeH85YpnOI0BE35_DvEeDaExvRMZvlRDjdvpT70qShL
+572eunEeWSrz0m
+}
+!procedure Osano($id, $name="Osano", $tech="")
+  IconElement($id, 'simpleicons-4/O/Osano', $name, $tech)
+!endprocedure
+!procedure OsanoCard($id, $funcName="", $content="")
+  IconCard($id, '<$OsanoMd>', '', $funcName, $content)
+!endprocedure
+!procedure OsanoGroup($id, $name='Osano', $tech='')
+  IconGroup($id, 'IconGroup', '<$OsanoLg>', $name, $tech)
+!endprocedure
+@enduml

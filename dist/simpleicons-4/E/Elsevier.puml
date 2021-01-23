@@ -1,0 +1,16 @@
+@startuml
+sprite $ElsevierMd [14x14/16z] JSY5OKDH34DHou9F--zRbPASXzS0MCkj8QdgLP3SLKwySkldglMVdoHb9KfBRh1pHXHc9AfSFmMARX-SMKnjg5CprS5wEvZ2iRCAZm2apqWvp_DvmW_25m
+sprite $ElsevierLg [20x20/16z] {
+POo7SKKn20G55v2---_NeEViLRYP9QmcSeZx8cAjVea4saosNHH9gvcWAGL0ZPzW2xURx3TGjZi3r3FvV3ES-kIxFqdFwjAaPDB8P2E2dczEKiOi0UOZLqEX
+FTMVEZmEJPAoEDkSJrz_28fCriRjYtL1VRalmiuiVRhiBG5mXUhJLLst3HwjZ1wQ2IJeNJhdRBcgzZvsxQgpp-ljXVZFUWS
+}
+!procedure Elsevier($id, $name="Elsevier", $tech="")
+  IconElement($id, 'simpleicons-4/E/Elsevier', $name, $tech)
+!endprocedure
+!procedure ElsevierCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElsevierMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElsevierGroup($id, $name='Elsevier', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElsevierLg>', $name, $tech)
+!endprocedure
+@enduml

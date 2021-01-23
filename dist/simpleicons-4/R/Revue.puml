@@ -1,0 +1,16 @@
+@startuml
+sprite $RevueMd [14x14/16z] fKf50e102DnY0lR_xvMRToMdniS2nPTPA_SSSpQUSzDMIIbGXRgda9ATDu1ZKbozYex3VV_L0m
+sprite $RevueLg [20x20/16z] {
+lSYt0ODG30HGfTDNDFjlQreOWDTSe4-mykk1PpQUtmu8-_nCosmbeN1081BECZ4dgpAoMjipHsn_a2lHVa-CtzKZh6JCht9CRYnCJMa21Jl4HnqMIZVf3gOt
+5VhO7m
+}
+!procedure Revue($id, $name="Revue", $tech="")
+  IconElement($id, 'simpleicons-4/R/Revue', $name, $tech)
+!endprocedure
+!procedure RevueCard($id, $funcName="", $content="")
+  IconCard($id, '<$RevueMd>', '', $funcName, $content)
+!endprocedure
+!procedure RevueGroup($id, $name='Revue', $tech='')
+  IconGroup($id, 'IconGroup', '<$RevueLg>', $name, $tech)
+!endprocedure
+@enduml

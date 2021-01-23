@@ -1,0 +1,16 @@
+@startuml
+sprite $OdnoklassnikiMd [14x14/16z] DOu54W0n20EXmtcc-Vzl3zqg7d5kEhSq20jjdDnccsTPD--udh8kGXMyobgRs_UIDa5YZEjQpbLTrBC0lpHDgtacXS8DbUQBdb-R3sb6lgF5l3Yr_
+sprite $OdnoklassnikiLg [20x20/16z] {
+NT05aaGX303H0C4XVV_RxlTCxIjl7BbKBbL-T2vTNE5Hl6qOAGtONmfWKIGQXBT5s4SB2wAy3EfrkCcd0NC2pTknwhA2kD0vzF1JYaf8AOYMhmwOHRLC6Du-
+L_FTVCV_PxYuEUmaBXt93CnZE9EgNS_sxxCiaezO_6ccSb2x7_S7
+}
+!procedure Odnoklassniki($id, $name="Odnoklassniki", $tech="")
+  IconElement($id, 'simpleicons-4/O/Odnoklassniki', $name, $tech)
+!endprocedure
+!procedure OdnoklassnikiCard($id, $funcName="", $content="")
+  IconCard($id, '<$OdnoklassnikiMd>', '', $funcName, $content)
+!endprocedure
+!procedure OdnoklassnikiGroup($id, $name='Odnoklassniki', $tech='')
+  IconGroup($id, 'IconGroup', '<$OdnoklassnikiLg>', $name, $tech)
+!endprocedure
+@enduml

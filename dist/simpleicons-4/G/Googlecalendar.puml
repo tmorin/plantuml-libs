@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglecalendarMd [14x14/16z] PSU5OGCn40J0eEXrE_rN6pHx3lUW1TBuAFf_wdyfyaTqp-9VuMXjcH-R0pFvp6wBKPBgFVhaiyHkdRxu3FzdB1fcwyDVwb25OBWrrxwgZsy
+sprite $GooglecalendarLg [20x20/16z] {
+ZSg5aSLG30F0IV8OlFrNUypuTy0WZKKlNfJEEkQcPIzoOnyhcDsBFebZxGZY1H7xyjrscmLcBZLOjKE7VVQLgfRE31LsPoIX5KW1OfVAo--SQpzerp5ZHyqF
+-pe2U3ZVUx0c-_poEvVothl0kCuSw1MIxxBlgkzAw_EBVjm3
+}
+!procedure Googlecalendar($id, $name="Googlecalendar", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlecalendar', $name, $tech)
+!endprocedure
+!procedure GooglecalendarCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglecalendarMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglecalendarGroup($id, $name='Googlecalendar', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglecalendarLg>', $name, $tech)
+!endprocedure
+@enduml

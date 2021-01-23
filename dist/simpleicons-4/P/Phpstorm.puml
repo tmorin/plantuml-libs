@@ -1,0 +1,16 @@
+@startuml
+sprite $PhpstormMd [14x14/16z] bKo30GH03BlwKEm_xTl-6adgti8zTtN5VfdS09O3jBdVI4j9eI8F6_ike6cUa1IL3hpR1kgk6WtSRsvZBwmaKV-O3zdPF6tfSwtvMc4B
+sprite $PhpstormLg [20x20/16z] {
+jOm3ZaLH68DxZ5_xN-srWvcdBseg-o_Q9dWIN6lJrIBCL2C78AmU8p5vI0HfARkNpIeeeaxBtOjC0Jnl8-tU-cTI4o1xhtKsuwbJq3PlFGu8sO5NpzN5u-ZW
+cZrGiT-W4iD437Groq9cUvaH
+}
+!procedure Phpstorm($id, $name="Phpstorm", $tech="")
+  IconElement($id, 'simpleicons-4/P/Phpstorm', $name, $tech)
+!endprocedure
+!procedure PhpstormCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhpstormMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhpstormGroup($id, $name='Phpstorm', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhpstormLg>', $name, $tech)
+!endprocedure
+@enduml

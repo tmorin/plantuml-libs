@@ -1,0 +1,19 @@
+@startuml
+sprite $SololearnMd [14x14/16z] {
+7OjL0W1H209zMnR2_K-xDJy6WzdoQoJsQHzdfpHLiTxaL5CLFSHXGPOgqQ2uGTDSh-IPYXOhx6MnaWczzOzJYGgr_MnYQ2vUlncGI_1V3RGkXqIKknBQRDNC
+eAMKlygE0QMUi8-zgBdE_LqV
+}
+sprite $SololearnLg [20x20/16z] {
+FP1NeYCW201ZfIZC_M-xSVLbFeVEvqlLvXpIo-VHhU_dwbE2BI1aYifDL581cxOpCyQtLmSBK4ikuwCE0ZfTnj0LaCNtSN5xYms3UTn4txXWA4iKTFNdsibA
+4OZ-MzN96TiLJjfbW3bCO_-fAa276FARuRQX0Ib3wwiyhlh_Krrw7tqaCubIwkQoBM70_1OKsplsDeCpq--YljmzJwholbg4IsZ8KM-j5RcrzZl-7m
+}
+!procedure Sololearn($id, $name="Sololearn", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sololearn', $name, $tech)
+!endprocedure
+!procedure SololearnCard($id, $funcName="", $content="")
+  IconCard($id, '<$SololearnMd>', '', $funcName, $content)
+!endprocedure
+!procedure SololearnGroup($id, $name='Sololearn', $tech='')
+  IconGroup($id, 'IconGroup', '<$SololearnLg>', $name, $tech)
+!endprocedure
+@enduml

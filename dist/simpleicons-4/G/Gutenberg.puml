@@ -1,0 +1,20 @@
+@startuml
+sprite $GutenbergMd [14x14/16z] {
+3Oc74S0m2CI2-SR-2-Vb0Ze1X5W4ujLKAwfL0jZ42Oz4DTuOM1zjp83MjSdxpNnhQKYdPMSIxiAkSSRcF60n1MLaiAD2UYWvAh7LnlMvT-b7XDITm82oqiuu
+oli1
+}
+sprite $GutenbergLg [20x20/16z] {
+BSW50GG120H0P8th7_XrSAWr9kARCl2goHNN8WbvgMK3YnXSUGa7ovBa4-WtGe-e9XgETkzsbQ3GZZGNKI9yAwNbW-tTBWnjdGe8uzvwst4Ob3GAKKrEWT6g
+IVfKnMbqwK8soVn-Klr_Cwi5Qu0fShLJk-Iyexhhkt2BzWXeLh41hLMW5SQawD0oYvHqjjxiayIcpDwxIBdRfbN9n8FSyvmnlicAyD7QP6cUm973ypi1F_OX
+gHS
+}
+!procedure Gutenberg($id, $name="Gutenberg", $tech="")
+  IconElement($id, 'simpleicons-4/G/Gutenberg', $name, $tech)
+!endprocedure
+!procedure GutenbergCard($id, $funcName="", $content="")
+  IconCard($id, '<$GutenbergMd>', '', $funcName, $content)
+!endprocedure
+!procedure GutenbergGroup($id, $name='Gutenberg', $tech='')
+  IconGroup($id, 'IconGroup', '<$GutenbergLg>', $name, $tech)
+!endprocedure
+@enduml

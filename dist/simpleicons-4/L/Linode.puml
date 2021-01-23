@@ -1,0 +1,16 @@
+@startuml
+sprite $LinodeMd [14x14/16z] FOk54GHH34A1VDV-gpt9PlQDeIhtHyU3gZk54tiXmb6kme6ako1df4xOz7Ex-wwKwxaD0FFE67Uc9By8w7TcytCrz9pm6FIrTpOH3bk76G8A55uiCzGN
+sprite $LinodeLg [20x20/16z] {
+HOvPUeH12081jTT_kVzjqsEIiHxhKm0SptjuEWgkDnaifR6FkMTuEGhzQW8C9Gt84qSX8ayCXIbFw2We2V0W09-EP3pDv_iuCCw2BHpY-MmUuIFMlnFNk_Wv
+Mch1T0O6_Xv1Ozw91g0_R_Dm8OaGjDm3xiH_SM_tEvZtVrW_lNxkX7Becp0p53GAIbCmAWgLA1G_
+}
+!procedure Linode($id, $name="Linode", $tech="")
+  IconElement($id, 'simpleicons-4/L/Linode', $name, $tech)
+!endprocedure
+!procedure LinodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinodeMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinodeGroup($id, $name='Linode', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinodeLg>', $name, $tech)
+!endprocedure
+@enduml

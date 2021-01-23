@@ -1,0 +1,16 @@
+@startuml
+sprite $XdadevelopersMd [14x14/16z] hSs54S0m20NGdulXx3zjtGOe_iveafa1-BO4czm4KFDJ3KUqFoLp0fFaqFTxgRtvfjPQhzYZ1xuXvQjwQmK
+sprite $XdadevelopersLg [20x20/16z] {
+nS-tbGD030DHB3svhlzgx-IzOas4zpCqMlkO0tuQY_7DHdWmm1anhvQubLUh3vO_icgj7Q6rLbTROqm5TFQnJiRlVz6ogaucTPn9E5VRy9fyC8nuDxDtQuHx
+_m
+}
+!procedure Xdadevelopers($id, $name="Xdadevelopers", $tech="")
+  IconElement($id, 'simpleicons-4/X/Xdadevelopers', $name, $tech)
+!endprocedure
+!procedure XdadevelopersCard($id, $funcName="", $content="")
+  IconCard($id, '<$XdadevelopersMd>', '', $funcName, $content)
+!endprocedure
+!procedure XdadevelopersGroup($id, $name='Xdadevelopers', $tech='')
+  IconGroup($id, 'IconGroup', '<$XdadevelopersLg>', $name, $tech)
+!endprocedure
+@enduml

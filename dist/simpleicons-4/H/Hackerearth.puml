@@ -1,0 +1,13 @@
+@startuml
+sprite $HackerearthMd [14x14/16z] VScr0G1124HHrftflzfRb-X-n6C2WybYn38-mfG3FvjMfCkM8El9RFNBq9437F6M_PVTGYf03cWAZE1QteUcsDunjM86fCiu5Qe
+sprite $HackerearthLg [20x20/16z] jSt50KGX34NHXrka_sh7zRlU7GT8Kb7L1YVwhg1lTRMr51Bzcp6uLVyCjbG7Atzs-qS0_ysxdTYXTVVAgKOstYs0llRjOnJV1VfO-dIpClZNXQv5N04
+!procedure Hackerearth($id, $name="Hackerearth", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hackerearth', $name, $tech)
+!endprocedure
+!procedure HackerearthCard($id, $funcName="", $content="")
+  IconCard($id, '<$HackerearthMd>', '', $funcName, $content)
+!endprocedure
+!procedure HackerearthGroup($id, $name='Hackerearth', $tech='')
+  IconGroup($id, 'IconGroup', '<$HackerearthLg>', $name, $tech)
+!endprocedure
+@enduml

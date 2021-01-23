@@ -1,0 +1,16 @@
+@startuml
+sprite $PolymerprojectMd [14x14/16z] VKst0S0m3CAzc_-_3L9siz7nH3qd0_ESAX8EjoIIDo1rCfjqoOv9Ji2aGIO58g99yN8vcvATYOvi5PTivV84_5BG67MrxS7VjPhj_OaF
+sprite $PolymerprojectLg [20x20/16z] {
+bL05eiKm3AhBN-J-j_sqoNDd0ekoXXyGWMi62f4CS6PYAXOxLBKuA-rGWvhEG8TCh2e9mmIC6AVGXkSck3MyHjYfjG22Oc1yPlK5V-0A3w33OtNfu37hZOG5
+6R7TktUqav--TqHusIOaRZ_mSl7Qt0zyNVzJSGOACN61649KdftL3_W7
+}
+!procedure Polymerproject($id, $name="Polymerproject", $tech="")
+  IconElement($id, 'simpleicons-4/P/Polymerproject', $name, $tech)
+!endprocedure
+!procedure PolymerprojectCard($id, $funcName="", $content="")
+  IconCard($id, '<$PolymerprojectMd>', '', $funcName, $content)
+!endprocedure
+!procedure PolymerprojectGroup($id, $name='Polymerproject', $tech='')
+  IconGroup($id, 'IconGroup', '<$PolymerprojectLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SwiftMd [14x14/16z] JKm55iKW34lbuRJtF-qsyZLeOtX337-GAY2KRvia7QGbsnczsT3dNSbeNNKxCBE3aLnP7stZFUP3PCXlF5Cj72idU8zUQzyK2-atM2Djn_ChgWE4clAz0G
+sprite $SwiftLg [20x20/16z] {
+POy53WH020Ex3gpq_wyzW_E9DHCK7-ICFqhvTydQEzS8Wo5BHkiX3wDTAdHuDAveNHrBevaZkYbbpmIWaokvh5pZxF9mh70wpxgt2Rqvv1tR91NVakx-f40a
+XIp7NKSRHsi2KbKwEm7Z7g8c2e6w-SNZlJJ2SakjmdYvYSsfFGD0nulqIbS
+}
+!procedure Swift($id, $name="Swift", $tech="")
+  IconElement($id, 'simpleicons-4/S/Swift', $name, $tech)
+!endprocedure
+!procedure SwiftCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwiftMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwiftGroup($id, $name='Swift', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwiftLg>', $name, $tech)
+!endprocedure
+@enduml

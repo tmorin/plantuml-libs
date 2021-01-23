@@ -1,0 +1,13 @@
+@startuml
+sprite $KakaoMd [14x14/16z] hOI70SC03CB0Dj3c_typByW0IVXgH6llmGpbzj2gw6yeimoLy3TIFDvx2B28gqqyt0O
+sprite $KakaoLg [20x20/16z] nKf50eLG4EB11AFtFw-n--7UIGelrthGpEy4anXU80KeGHggmSXa3iDfEt1ZRuaLhWxiLOLDbsR3sTM97R0kn6PbTeVS1ImiNVSUNPV2MtK2
+!procedure Kakao($id, $name="Kakao", $tech="")
+  IconElement($id, 'simpleicons-4/K/Kakao', $name, $tech)
+!endprocedure
+!procedure KakaoCard($id, $funcName="", $content="")
+  IconCard($id, '<$KakaoMd>', '', $funcName, $content)
+!endprocedure
+!procedure KakaoGroup($id, $name='Kakao', $tech='')
+  IconGroup($id, 'IconGroup', '<$KakaoLg>', $name, $tech)
+!endprocedure
+@enduml

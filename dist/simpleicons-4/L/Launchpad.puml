@@ -1,0 +1,16 @@
+@startuml
+sprite $LaunchpadMd [14x14/16z] NOv50WCm20GfGUBp_zysTPaBpguSd4n27fHngwRTSXrmgs2eN6n1LQsmJ7hJC5lBBBJPOj_wq7JZ2tpSgk7yLx-RlMkKyyNlNtuLVjKFDZ_ERcH4oeqh
+sprite $LaunchpadLg [20x20/16z] {
+RP150aD124C3uvhxtxQVgRUy5Ix18Gp6o1dnGLeMM_aTkQfeCN8yAgNHI8b6LmiD6aDU1bIbRAw8b10NTn75N5MqG3lP0ugYRfsRErq6ZMe7RBbY7Ce7ElY8
+TJbbvdO_vlTwEzQkeXbMC0BokIM4tvk3-nkW3mtYMmDFArzJGsgCJHxE3G
+}
+!procedure Launchpad($id, $name="Launchpad", $tech="")
+  IconElement($id, 'simpleicons-4/L/Launchpad', $name, $tech)
+!endprocedure
+!procedure LaunchpadCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaunchpadMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaunchpadGroup($id, $name='Launchpad', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaunchpadLg>', $name, $tech)
+!endprocedure
+@enduml

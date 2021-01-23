@@ -1,0 +1,13 @@
+@startuml
+sprite $AliexpressMd [14x14/16z] hS450S0m30J0mCFy6nwrTP2x655Pw3XiN02Q4a4I0atIeEALKHM37W
+sprite $AliexpressLg [20x20/16z] pOtB5GD12CCMsoD8-Yyu7BCTZ9ukVFrSHAsMNxrkvRHtf7fAjGe8NtkCFyrW3dIOod3Ifp6PVQTALB1FRTd-2xkI7m
+!procedure Aliexpress($id, $name="Aliexpress", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aliexpress', $name, $tech)
+!endprocedure
+!procedure AliexpressCard($id, $funcName="", $content="")
+  IconCard($id, '<$AliexpressMd>', '', $funcName, $content)
+!endprocedure
+!procedure AliexpressGroup($id, $name='Aliexpress', $tech='')
+  IconGroup($id, 'IconGroup', '<$AliexpressLg>', $name, $tech)
+!endprocedure
+@enduml

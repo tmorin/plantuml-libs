@@ -1,0 +1,16 @@
+@startuml
+sprite $KirbyMd [14x14/16z] LSv50W0n349HXjIetl-quzQtobyHx2p7c1qkIyf6QJaZP8-Tpt6_5N6B6H9UOjhB4w1_AeyOHtwAPOp2fpHsEae2B7WVt57JmhJ-V4PAnCroDXms
+sprite $KirbyLg [20x20/16z] {
+RP176WH118Mff1Mwxd_Q2Tg2-UPVoU71mp9cNP31ouYCMmejsnyNsGY2hZB24dKBovofduvr2HI4WPXgZ1YMns9Xop6H_ec8O8wTc_a-Kdht-I0znoRfEKep
+nL2FepulRkdJYTv_DmDkox-Pu8y6spLmbbQj7EJGjD3zlOSt
+}
+!procedure Kirby($id, $name="Kirby", $tech="")
+  IconElement($id, 'simpleicons-4/K/Kirby', $name, $tech)
+!endprocedure
+!procedure KirbyCard($id, $funcName="", $content="")
+  IconCard($id, '<$KirbyMd>', '', $funcName, $content)
+!endprocedure
+!procedure KirbyGroup($id, $name='Kirby', $tech='')
+  IconGroup($id, 'IconGroup', '<$KirbyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $AuthyMd [14x14/16z] {
+LOt50GHH24FXkwV_RlUjp-G4KJFlUg6xWNpUtyaeMJzawoXhIgsWkhGZZhqDKvDIs4HugnRoq2H2fm0BkAQ67xwAYvaT4aufyx8SjneBoasQy2VSrut8_m7U
+SAr6r1u
+}
+sprite $AuthyLg [20x20/16z] {
+TP053WKm24CxTxZ_RN_XkpNAMoKPgBJqffLmKzbtTieDTNrH_qOEKtcUmtiBrh7gMiPHIPZM6PIgeCBI2OUMRCXhTxiNm3Yvn22MDpYH6LRTA5w_44LJs2fa
+8T4Bmk6ZnZHRo9jKGXJBUhF1lbT6ymtb7PWCe0hFihR3nCYeRQdtsulNtrL-_C6Fl_hxfrGeyn3C4loy
+}
+!procedure Authy($id, $name="Authy", $tech="")
+  IconElement($id, 'simpleicons-4/A/Authy', $name, $tech)
+!endprocedure
+!procedure AuthyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AuthyMd>', '', $funcName, $content)
+!endprocedure
+!procedure AuthyGroup($id, $name='Authy', $tech='')
+  IconGroup($id, 'IconGroup', '<$AuthyLg>', $name, $tech)
+!endprocedure
+@enduml

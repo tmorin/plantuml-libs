@@ -1,0 +1,13 @@
+@startuml
+sprite $GiphyMd [14x14/16z] fSVL0S0m203Hk0At_xHr--z5uFcAcQL8SLkRHky-ClAfi8q4wh-2SYlChNJgB7pbhNuK-ANUZlgfkqqh
+sprite $GiphyLg [20x20/16z] nSYr5SD050NHjmoV-g_M5hDYJJJd0cHZ6XrRmjHgud6o5cFoS6nCURLv1ZDh3yOrdqniZDp1KAaJKS5gU_vkZMuMxMxvQsjngwrswiN-
+!procedure Giphy($id, $name="Giphy", $tech="")
+  IconElement($id, 'simpleicons-4/G/Giphy', $name, $tech)
+!endprocedure
+!procedure GiphyCard($id, $funcName="", $content="")
+  IconCard($id, '<$GiphyMd>', '', $funcName, $content)
+!endprocedure
+!procedure GiphyGroup($id, $name='Giphy', $tech='')
+  IconGroup($id, 'IconGroup', '<$GiphyLg>', $name, $tech)
+!endprocedure
+@enduml

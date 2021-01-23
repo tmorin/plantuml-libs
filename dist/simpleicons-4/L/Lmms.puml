@@ -1,0 +1,16 @@
+@startuml
+sprite $LmmsMd [14x14/16z] TKk30G0n3BmQqVxJleqsEjd7Kxs0xbpRRmfm3e4Ma82ice4qsHc1Pv83U4Pr3TGLvHML5Ks1DRwYtsMSoCxr-tW4
+sprite $LmmsLg [20x20/16z] {
+fO-54SCm4C1aPdl_QSiDStIaU_vsbfIcaMh1b5782m3XQXU94Z0MaF4RAHhGwJNnBUepmByaVDD1WVl5kk45_2_MEi1jn6pvjTe-1kbjIT37-iaRiIH1ff6z
+SAy_Uxj5U08
+}
+!procedure Lmms($id, $name="Lmms", $tech="")
+  IconElement($id, 'simpleicons-4/L/Lmms', $name, $tech)
+!endprocedure
+!procedure LmmsCard($id, $funcName="", $content="")
+  IconCard($id, '<$LmmsMd>', '', $funcName, $content)
+!endprocedure
+!procedure LmmsGroup($id, $name='Lmms', $tech='')
+  IconGroup($id, 'IconGroup', '<$LmmsLg>', $name, $tech)
+!endprocedure
+@enduml

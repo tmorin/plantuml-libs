@@ -1,0 +1,16 @@
+@startuml
+sprite $DeepnoteMd [14x14/16z] HOw50G0W40AnM_RVrhVF_0Q0QfnKYudZ9YinTEUXY5Nuy3hmKohvwMcIhmyRqvvbd8QUHfl6h5-juvKIabm6o9p48XwSUIso-wkan-odoW4
+sprite $DeepnoteLg [20x20/16z] {
+PT350S0W50FGu4xsdxPUzDsGhxWfVgeJ-6Z-WiHB57O6ZyYHniLnaWMWAcS68dCHhUUgS5Uji-xYGsQ3HgR_7twzpuA73yw8lwk8rdNMUAFji8Bo1bSvha0_
+TmwNLi_aFvllCv4C0f2Qd-mgiy4bb__A1wy4RYS
+}
+!procedure Deepnote($id, $name="Deepnote", $tech="")
+  IconElement($id, 'simpleicons-4/D/Deepnote', $name, $tech)
+!endprocedure
+!procedure DeepnoteCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeepnoteMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeepnoteGroup($id, $name='Deepnote', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeepnoteLg>', $name, $tech)
+!endprocedure
+@enduml

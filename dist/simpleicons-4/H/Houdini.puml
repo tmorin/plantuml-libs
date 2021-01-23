@@ -1,0 +1,19 @@
+@startuml
+sprite $HoudiniMd [14x14/16z] {
+VOfL0WCn24I7k01p_zisqdR_zaLWXAzeRrrvAG6RC8wIE9nM1MqhvoovqGHpgPwm49l8Im59hI8nm9SAN7y4yrQXESmG7hMe5E5fpXWR-pB8W6XhD0HVmneG
+0gx73m
+}
+sprite $HoudiniLg [20x20/16z] {
+fOu1aiKG50GR09Av_stNLDI_m7O2-WtedwmnndhruzabOcBPkWGW7ApRTL2cnrq3rC_DxVFwyIl2qBM9GvhQWI0p6fUfxku0XBfsS-Q9bC-5vT4PPTBdklQG
+3-igH3l7OlpbhjiAb0BXLIBRkLmnNUi-49TgZ7b8sLaxAA_CKvmrlKAiSuqQeUZIuDAk-GC
+}
+!procedure Houdini($id, $name="Houdini", $tech="")
+  IconElement($id, 'simpleicons-4/H/Houdini', $name, $tech)
+!endprocedure
+!procedure HoudiniCard($id, $funcName="", $content="")
+  IconCard($id, '<$HoudiniMd>', '', $funcName, $content)
+!endprocedure
+!procedure HoudiniGroup($id, $name='Houdini', $tech='')
+  IconGroup($id, 'IconGroup', '<$HoudiniLg>', $name, $tech)
+!endprocedure
+@enduml

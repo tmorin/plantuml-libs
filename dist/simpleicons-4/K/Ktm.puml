@@ -1,0 +1,16 @@
+@startuml
+sprite $KtmMd [14x14/16z] dSp70SCW341HEgZ-_QTDR8_0kwYhtAlzCNh_yjRE2VOvjROTY4vy4eSCO6qYUGZiDqaXXFKSj-T9AwFMKSkbFm
+sprite $KtmLg [20x20/16z] {
+nOk54KGX34IH0F7jlzj3Pgw5_-AovKiw4VL-ClrtYraJmSphZBMfpMPh0bp4Lc4JseE4DqEI0Rh3BR2XlgM6nzhX2TTTyvntqCvDpWAO2padilNUIksNNNVi
+-Ij-
+}
+!procedure Ktm($id, $name="Ktm", $tech="")
+  IconElement($id, 'simpleicons-4/K/Ktm', $name, $tech)
+!endprocedure
+!procedure KtmCard($id, $funcName="", $content="")
+  IconCard($id, '<$KtmMd>', '', $funcName, $content)
+!endprocedure
+!procedure KtmGroup($id, $name='Ktm', $tech='')
+  IconGroup($id, 'IconGroup', '<$KtmLg>', $name, $tech)
+!endprocedure
+@enduml

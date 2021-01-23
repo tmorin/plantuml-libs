@@ -1,0 +1,19 @@
+@startuml
+sprite $TableauMd [14x14/16z] {
+BSstOGH14C0mZ5bx_TShlMF620WnPmWGBTOA7P2RAdQIlPzLv7fsetQe4gU8ZC5SZ6XhfvptpbHFlo_6lIFLxSYOhCMCGj-KAK__XAH-GXxc_Ef4otDIXL_T
+m3y
+}
+sprite $TableauLg [20x20/16z] {
+NP07caCX28G746c-lVznzvlqvBTB1mzaRy47V6Y4tgztqW1BxYlne1Q0TTkQRpucba44jd8eWaIUJgVKiwyCkTlQoxP0HEx-gkv_Ab1p7a0c5HJXYAIbLfuh
+Io4-vJjI0SquXpUnBgEjlMqNRG71-3E63vsJPbopLowYrN_Jc_VekReKWCfi5Ug9xb45kVkBUFU0JuFicIsmm0UQgVZ5_NNz1m
+}
+!procedure Tableau($id, $name="Tableau", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tableau', $name, $tech)
+!endprocedure
+!procedure TableauCard($id, $funcName="", $content="")
+  IconCard($id, '<$TableauMd>', '', $funcName, $content)
+!endprocedure
+!procedure TableauGroup($id, $name='Tableau', $tech='')
+  IconGroup($id, 'IconGroup', '<$TableauLg>', $name, $tech)
+!endprocedure
+@enduml

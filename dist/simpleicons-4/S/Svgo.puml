@@ -1,0 +1,19 @@
+@startuml
+sprite $SvgoMd [14x14/16z] {
+9Kw50GG12FBI5r3sd_Qlx9Q8MAQacYNYINOJWFSdNKTPHALclJiwsxGwjSSusxRWJcUXf6dIBgm2kpDa6r03Dd-SDokKpzyjciBsN9aHBQRp_f1ZjIUvlz_F
+8kjyld_8glWWU-bSoJMVw08
+}
+sprite $SvgoLg [20x20/16z] {
+JL07WiGW439nTAVp_z_UuLPIdGeCGc0Ag4761u9mmECJkzPj2DrR7NQlYx65JjaMRbkoiHYRxP90WpdlEOQ8vMm0qlb0ptIvU4eGvGMa06BXctr0dzpskDH9
+oskzgktXWnaKV0m7uHl561ltga-ClUm0TEQhz-o0p8PAcNB7YqitAe68mqN4KveazF0Xvp7kTauYSXvjNm_Ywy6FL_7nwkDfV3rbwV_SglCX_W
+}
+!procedure Svgo($id, $name="Svgo", $tech="")
+  IconElement($id, 'simpleicons-4/S/Svgo', $name, $tech)
+!endprocedure
+!procedure SvgoCard($id, $funcName="", $content="")
+  IconCard($id, '<$SvgoMd>', '', $funcName, $content)
+!endprocedure
+!procedure SvgoGroup($id, $name='Svgo', $tech='')
+  IconGroup($id, 'IconGroup', '<$SvgoLg>', $name, $tech)
+!endprocedure
+@enduml

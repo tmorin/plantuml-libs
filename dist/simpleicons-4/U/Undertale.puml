@@ -1,0 +1,13 @@
+@startuml
+sprite $UndertaleMd [14x14/16z] fSQr0SD044N1RntVmkk_MZFbccY64NP8XmLsiGIwr85iF1q7VzRY50--mbNugj8nZIURX-ucJrDFHt68SkZDmP-v0G
+sprite $UndertaleLg [20x20/16z] pSor0SLG34DHFIOxT_zfFpFqEPr1oiLXZAoJF0PuKQaRJ2iwAJPXgpBdpBAKZJFlt2nfyM45JNQeDUEDjIvrtfmsltSdFEZa_wutUzG_zMVLxzqH
+!procedure Undertale($id, $name="Undertale", $tech="")
+  IconElement($id, 'simpleicons-4/U/Undertale', $name, $tech)
+!endprocedure
+!procedure UndertaleCard($id, $funcName="", $content="")
+  IconCard($id, '<$UndertaleMd>', '', $funcName, $content)
+!endprocedure
+!procedure UndertaleGroup($id, $name='Undertale', $tech='')
+  IconGroup($id, 'IconGroup', '<$UndertaleLg>', $name, $tech)
+!endprocedure
+@enduml

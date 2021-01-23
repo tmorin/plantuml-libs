@@ -1,0 +1,13 @@
+@startuml
+sprite $MastercardMd [14x14/16z] VSs30G0n343HsitVVzkpyMeaKV-iDqePRyUjTXq80UXELKPjnCZ2gCmTAYDfq8ILrErq_NdDSgbmgVvl
+sprite $MastercardLg [20x20/16z] fL350G0W21GxOVzfRN_tymmwrI-qeKN8wAkWs9YvQ5qcQP6cHZTPQ35UHgjIDyUHvzri9Jd8HQJam_kdQpFgwkeXlCNCie5qA1RLGBs0di5iO0UV6
+!procedure Mastercard($id, $name="Mastercard", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mastercard', $name, $tech)
+!endprocedure
+!procedure MastercardCard($id, $funcName="", $content="")
+  IconCard($id, '<$MastercardMd>', '', $funcName, $content)
+!endprocedure
+!procedure MastercardGroup($id, $name='Mastercard', $tech='')
+  IconGroup($id, 'IconGroup', '<$MastercardLg>', $name, $tech)
+!endprocedure
+@enduml

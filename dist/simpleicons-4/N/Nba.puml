@@ -1,0 +1,16 @@
+@startuml
+sprite $NbaMd [14x14/16z] HKq54aKX46BBLkv_sfzlHoPf01Bm8oxuGHsnuVemgvomP8LaqsIBxCsITJ9gF4mQEUTABpOtJp8r7hiFg0oz3BNRPS1zS02H3uWFHWM0Dm
+sprite $NbaLg [20x20/16z] {
+TSz50aCX30JGWGWEzxzjmw-5oYmVnB132l3AKCBENsC2yYIGl4qYzJdZOSnjhJL2z9RMZdYJOP9p3lvVDMEj_X_jsXQQiljNp6PUmzTADxIcwlVZQVzAvkCE
+wvX1fw7QpYId6L8yRMCENwRb-n-fdq7NNZ5dmZkQKqwb9rov0G
+}
+!procedure Nba($id, $name="Nba", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nba', $name, $tech)
+!endprocedure
+!procedure NbaCard($id, $funcName="", $content="")
+  IconCard($id, '<$NbaMd>', '', $funcName, $content)
+!endprocedure
+!procedure NbaGroup($id, $name='Nba', $tech='')
+  IconGroup($id, 'IconGroup', '<$NbaLg>', $name, $tech)
+!endprocedure
+@enduml

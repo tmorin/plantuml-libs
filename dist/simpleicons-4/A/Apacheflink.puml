@@ -1,0 +1,20 @@
+@startuml
+sprite $ApacheflinkMd [14x14/16z] {
+DSV7WKKn20D075Xi2L3_tUvFRsvZBzu4QzgNgndjzWFfxdXs6_Azx6NkMo9yZtTOwkEE4zCYJcSurASv4muWUQwK4K5W1qglyUyrXyJgff-eUkLLAVUzLBrN
+IUOw-SfR667cQBrXnVm7
+}
+sprite $ApacheflinkLg [20x20/16z] {
+JP250SGm24KZG0Zszv_sjFRQ60xjnupO5fMpjmkkDBC2FMIKGCai6-r6y1KEdGyPmGqrQ5sIFWMm3HdCHzAnp87K8A9351i5k16JCi-ltze9G7gNG55fQsQy
+ganOV-LufVSgeRNzAp3bxv6SoRjYosHPXWykAhnAr5Yy2dzSn7OO2L2kzS7NKELmryI7yA_6HlZF13yiWGnsPmC2Fyh2TyRas8wBsRJiDy_0mUv3ZNxTUHso
+y2xItW
+}
+!procedure Apacheflink($id, $name="Apacheflink", $tech="")
+  IconElement($id, 'simpleicons-4/A/Apacheflink', $name, $tech)
+!endprocedure
+!procedure ApacheflinkCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApacheflinkMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApacheflinkGroup($id, $name='Apacheflink', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApacheflinkLg>', $name, $tech)
+!endprocedure
+@enduml

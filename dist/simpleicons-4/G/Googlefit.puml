@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglefitMd [14x14/16z] PSY54S0m049HuXxstxRKZPD_3o2a0Cqd3nZVHdE0sz99BOGjdgokadiwwO0k08vQGTY0p378fcS3Wqsya1GnNzXv0OZa3N73JU6_1G
+sprite $GooglefitLg [20x20/16z] {
+PSy74WGX20J0GSpn_xyzuJPHii6fDWCWPW9W4eV09f6hQrUb7OicXzQNLYUwqY3jge92JLBUNmJ2qWf0N6lk9CkcYy0YEixrYsJSq7uQDmLPJ_QTXWQHqw7p
+9GT0iJp4m8tHq8ttn1lrMeO0wWV9o8C4kv95GqVz
+}
+!procedure Googlefit($id, $name="Googlefit", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlefit', $name, $tech)
+!endprocedure
+!procedure GooglefitCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglefitMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglefitGroup($id, $name='Googlefit', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglefitLg>', $name, $tech)
+!endprocedure
+@enduml

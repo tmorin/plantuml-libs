@@ -1,0 +1,16 @@
+@startuml
+sprite $PelotonMd [14x14/16z] JKw50G112E8waVsd_OwpM_3ILC57tfJlA7IIcdTIf2DHkpjYE2mLpwmhtCL-Ecjmd01v96vuL4rtP_37zNXEZllewFyLnFj3UJ6HDkATP9d7Ht61kmC
+sprite $PelotonLg [20x20/16z] {
+NP253GCn30337D_-sxR-g7ch9p2Ziqmexey5rTeXk0eINaTVUo-1Tbr5E8Y_Bc3KEdX71657LUA-_Jh4eoNelmrKAULPS9tIhPthqwkomsdtDQ9WVRvvxTcq
+TZorXtYMJK9_ZvTWTr6otVdWxsdNvHg8_g2RfmXK_PMXS3Uu-2N9MJu
+}
+!procedure Peloton($id, $name="Peloton", $tech="")
+  IconElement($id, 'simpleicons-4/P/Peloton', $name, $tech)
+!endprocedure
+!procedure PelotonCard($id, $funcName="", $content="")
+  IconCard($id, '<$PelotonMd>', '', $funcName, $content)
+!endprocedure
+!procedure PelotonGroup($id, $name='Peloton', $tech='')
+  IconGroup($id, 'IconGroup', '<$PelotonLg>', $name, $tech)
+!endprocedure
+@enduml

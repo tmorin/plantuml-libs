@@ -1,0 +1,19 @@
+@startuml
+sprite $PrometheusMd [14x14/16z] {
+9Ow55S0m20KXhlpzj-szz2AucFcKTaZJ3IhQu4KbKf6Hrv5KRGPvpGiP2XSCKcm9HP0DAieH58EkHupwh77rXnoi_9btF0WD9koK8Mr5UjDxQpsa-c_6mF4s
+0nytuWv7_G
+}
+sprite $PrometheusLg [20x20/16z] {
+LT070iCW20LGb688YF_-joqMkrwc6w343i2HdEcG2S2GGgWeqkeBctwwrffauQUJ1McgqUCUs8GyaAm_g4ajZuQNGQdJNHDH1z1BjQpwg32s-9ityE5nLTyT
+jb2OMlKrulVQu7vmVCwOTamayVqPxHXxGcC1e7BedlOkYrsgb_qNHhy_HGBmCRngUZInbKmQRKy
+}
+!procedure Prometheus($id, $name="Prometheus", $tech="")
+  IconElement($id, 'simpleicons-4/P/Prometheus', $name, $tech)
+!endprocedure
+!procedure PrometheusCard($id, $funcName="", $content="")
+  IconCard($id, '<$PrometheusMd>', '', $funcName, $content)
+!endprocedure
+!procedure PrometheusGroup($id, $name='Prometheus', $tech='')
+  IconGroup($id, 'IconGroup', '<$PrometheusLg>', $name, $tech)
+!endprocedure
+@enduml

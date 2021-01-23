@@ -1,0 +1,19 @@
+@startuml
+sprite $CoronarendererMd [14x14/16z] {
+BOo54S0m4CCKvdZ_RNlnzHdLZwIphrwA-wLPXziYtL4JfBga8rL-wM-z4-HrHc2_LoXca3KIO9HgK2k5OA0wllXt9Kfga4qpz5P8SpMIBEUHo5Vdk1sjlzyI
+YdlF2Xy
+}
+sprite $CoronarendererLg [20x20/16z] {
+HP053WGX34LVqQAz_sqtGBFpHh0l2QdOPMzp2aNVrbhcA3xf8QJcqdn-IqiHe3pJCBFAHthQMIC72KURlB81b6bx9AWtxSgQNGfXcUqCaEsnXM6ZSUZcLDIq
+I00PvZJKvbmM-7JwadVmjZEFZ1S1Cbr6sdu6qi-iVYaQ149E0cf_2XTfVWU7gJd6hElCSt7nTzCAvATrHeOV
+}
+!procedure Coronarenderer($id, $name="Coronarenderer", $tech="")
+  IconElement($id, 'simpleicons-4/C/Coronarenderer', $name, $tech)
+!endprocedure
+!procedure CoronarendererCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoronarendererMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoronarendererGroup($id, $name='Coronarenderer', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoronarendererLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $RollsRoyceMd [14x14/16z] {
+HKo30G0n34mLO_zftoXpX9OqaS8QdAlb6iAUs6yqiSP8Z_cW12YM-D2iITKkjAAbWzqQanzW5Lx8rQPHyTEvIjnimT_Yqty4kGxnHyHweZZHIEQ0Qt6UhrM7
+7G
+}
+sprite $RollsRoyceLg [20x20/16z] {
+NSy50WKX20HG36eLvlwd_R7TnhD6efQpzTvvG6X__bRRQdQpGHfZyGdNUfb0QrCiEUlDElqA5onFCrX1rBkL01EotSqng3tciIFgwdk-Rf78IWoqtH0HKb84
+oUSzY64oSq3fdZc6GZGAFVF5AAalCrIFf_sB3bwjncuTMk2hCNArEZ4BvZQFURN2tCi_-Vxudim08Ve2
+}
+!procedure RollsRoyce($id, $name="Rolls Royce", $tech="")
+  IconElement($id, 'simpleicons-4/R/RollsRoyce', $name, $tech)
+!endprocedure
+!procedure RollsRoyceCard($id, $funcName="", $content="")
+  IconCard($id, '<$RollsRoyceMd>', '', $funcName, $content)
+!endprocedure
+!procedure RollsRoyceGroup($id, $name='Rolls Royce', $tech='')
+  IconGroup($id, 'IconGroup', '<$RollsRoyceLg>', $name, $tech)
+!endprocedure
+@enduml

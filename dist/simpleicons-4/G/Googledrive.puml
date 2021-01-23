@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogledriveMd [14x14/16z] BOq50i0m20ChJF3__tPXvQfOCi1cORb6ytX4SWUKbe1EPEcEoFxWhb-26y6iF0ikdsE_2TQg-nrodl4dTrsnvbmU7boHmiz1i6RfDtlpaU_n9T417C1g47m
+sprite $GoogledriveLg [20x20/16z] {
+RSy54iH020J0MNVc_x-zm5KyNRAAmVYYQi15QAeddFoOLE9ng1oBgfwHf0oQ8-CWzuyJVubgq6GeDwdwe9eEcq8J0aq1d1Ug1hIzdtBiSBpA4G5acaYpOjZ4
+CLMbwMAMgKk3v-H5I4M_yQ9OorrepgQp7977S2wslckzuDiF
+}
+!procedure Googledrive($id, $name="Googledrive", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googledrive', $name, $tech)
+!endprocedure
+!procedure GoogledriveCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogledriveMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogledriveGroup($id, $name='Googledrive', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogledriveLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $JsonMd [14x14/16z] {
+BOw50S0W30GVbzZ-s_QX718N03CECX98zMkvD23LU9WtB4PKfmH5PFxY6zYKCPbXaO5yOdPS2cAqRlgpvBV-JBjHkXOWJZdtJTzJAJobvXQF1g39MwtYa2eN
+qhlq1m
+}
+sprite $JsonLg [20x20/16z] {
+NT07Oi0W243Hk1N1V__RLXewV_RBzhbbuKrcUQAgORfgq0XnFEC_WN0nLppR-cwLzeZwtb9DnO0ZMEAcToVVMywr3SrDOCIJkIQ-CKvnAmSKpEsWoItPvxtd
+j-Lh4WQMurxRt_VIunqBaB3u5Z6WRaKEZjbqEMag5JKytU_MXsQo-5KCZEs_vBKLYDuRevIR74ngUhmF
+}
+!procedure Json($id, $name="Json", $tech="")
+  IconElement($id, 'simpleicons-4/J/Json', $name, $tech)
+!endprocedure
+!procedure JsonCard($id, $funcName="", $content="")
+  IconCard($id, '<$JsonMd>', '', $funcName, $content)
+!endprocedure
+!procedure JsonGroup($id, $name='Json', $tech='')
+  IconGroup($id, 'IconGroup', '<$JsonLg>', $name, $tech)
+!endprocedure
+@enduml

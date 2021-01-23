@@ -1,0 +1,19 @@
+@startuml
+sprite $HacktheboxMd [14x14/16z] {
+HOw50S0m20G_4CVstxRKBu8B4ZPtgxWfEzQAJPSnGXaWZPcwHiD52oqI6RgAKsFnBh5Brcfp5YCqJnh8CaO0rFAZEmQ8d9Qn-cyvJ_DsMzMj03EKHCerFQ4T
+YH0Us9wb3m
+}
+sprite $HacktheboxLg [20x20/16z] {
+bP25RGH030HzZFRqtsrqbEJ5lwBLc2rRhW1K9__a6sPq_qTSDNe87QkF9aNZCd6YULM5WUNNA1ipIEsmOW_2a3PWDN-Z3hCoiUhEg5biCNMk69gpOiKvtSpl
+ejlYChVtWBtFVoPcyYshdUR-c6jqSM52VYopRbjc_S2PkVU3fRNpW77EUV9zxnpaGr4rFly3
+}
+!procedure Hackthebox($id, $name="Hackthebox", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hackthebox', $name, $tech)
+!endprocedure
+!procedure HacktheboxCard($id, $funcName="", $content="")
+  IconCard($id, '<$HacktheboxMd>', '', $funcName, $content)
+!endprocedure
+!procedure HacktheboxGroup($id, $name='Hackthebox', $tech='')
+  IconGroup($id, 'IconGroup', '<$HacktheboxLg>', $name, $tech)
+!endprocedure
+@enduml

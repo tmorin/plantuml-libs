@@ -1,0 +1,20 @@
+@startuml
+sprite $AirplayaudioMd [14x14/16z] {
+BOk5LGH034Gdhilrtosv1pyk0o0tp68BNtIJZrozmTvrtSNy3BLagqIwneycP14pZfL8vvOSvd5jNk5B15oQlsa0q7mdkwcDo8jlQlE6l2TezvgbvFbycfDE
+5et-75S20DVrHp4E_Vb7W5y
+}
+sprite $AirplayaudioLg [20x20/16z] {
+HSc50GGm20F0KAI6xB_jytvL4ZJQ6MUj4xa97tpJjzdokemtgpFmCaxP9rBGyWXVr4E7GphIT6CsJ-rGS7s_Io9WzcS7CccaGIFJ1VCvgH-S2wl5l4hHuptB
+a48rqLP00pDCHf8aeOqSlIMLEQZR9qgcPpQLkYr1qoHEihWRld0EpD3_xTWt0rQ3IAg4Q9GYpBDx1sTLClnY9edbW8oi5aCmoW2S07czE107RIZT-hYaX9TJ
+Fnjl4d_E01u
+}
+!procedure Airplayaudio($id, $name="Airplayaudio", $tech="")
+  IconElement($id, 'simpleicons-4/A/Airplayaudio', $name, $tech)
+!endprocedure
+!procedure AirplayaudioCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirplayaudioMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirplayaudioGroup($id, $name='Airplayaudio', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirplayaudioLg>', $name, $tech)
+!endprocedure
+@enduml

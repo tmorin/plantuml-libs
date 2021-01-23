@@ -1,0 +1,16 @@
+@startuml
+sprite $WpengineMd [14x14/16z] TKu54W0X26JE9l__MbkdJhfPwyJNF38v6VP8ywmpI_nATf25vr26JaxtP8QK8DjVfcvEohmY6LpEpX5p7CtKouBtyHiPnvir
+sprite $WpengineLg [20x20/16z] {
+hP350SCm34L_I63SVzg26OxjIqnYAIRiTFn15dOPytVN8mlj5_U0H0WuhFiyYnqoabwJx8cpp5Y05vbTPOG43I95WMijpXx0mqouvFFIEokEL8Gaiq0_poNe
+BgDxahq1
+}
+!procedure Wpengine($id, $name="Wpengine", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wpengine', $name, $tech)
+!endprocedure
+!procedure WpengineCard($id, $funcName="", $content="")
+  IconCard($id, '<$WpengineMd>', '', $funcName, $content)
+!endprocedure
+!procedure WpengineGroup($id, $name='Wpengine', $tech='')
+  IconGroup($id, 'IconGroup', '<$WpengineLg>', $name, $tech)
+!endprocedure
+@enduml

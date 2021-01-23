@@ -1,0 +1,13 @@
+@startuml
+sprite $StyledComponentsMd [14x14/16z] bKp50K0X50Bitd_Qt-7Lrm5WtSXvI_4-tiNfAFQeGF3MWawMnwEqbipHatL476DKdh-J4aORyH4ucYGisWu
+sprite $StyledComponentsLg [20x20/16z] lKxL0KKX2AMnsN_Q5xVZtrOu1RC7sxkMubtJ7IUyNAI_6WB_BdDTErMJ2luUJXlAHkdLPI5KD_gNOiJe6VybLoJ_5VE8w96NqX-3-Al5VzWZh9e9J1nV
+!procedure StyledComponents($id, $name="Styled Components", $tech="")
+  IconElement($id, 'simpleicons-4/S/StyledComponents', $name, $tech)
+!endprocedure
+!procedure StyledComponentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$StyledComponentsMd>', '', $funcName, $content)
+!endprocedure
+!procedure StyledComponentsGroup($id, $name='Styled Components', $tech='')
+  IconGroup($id, 'IconGroup', '<$StyledComponentsLg>', $name, $tech)
+!endprocedure
+@enduml

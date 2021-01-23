@@ -1,0 +1,16 @@
+@startuml
+sprite $FacepunchMd [14x14/16z] LOw53G0n202fvO50RlzftwrNmKMa62TUP6T0kYUCFJB89ZijTzF88YSbAN16pYXAYYvMgwj992u1lKE8yxVi_DHRi-NCdBeOyKm8oZpzt2pCWjCGAPgGUXHi
+sprite $FacepunchLg [20x20/16z] {
+RP05aWKW34FRBS4Xzx_jejypakcRkWnPvb4nEKAzhE6WIFOSW90x6I-w9LOMD9197aeaf5HcUL5cLPBsoem4PrfGE17d_-Ai7lLXMEiqOsyZ8R3DdfuSNRHm
+1k2roUemlrcGCclTgYsxDesrrNiHGAFk6Vrzbqxa7piRxjttU6pBzmVv9eJHCyrVfVwiSO-VLiYL8ZMo9UWA_m4
+}
+!procedure Facepunch($id, $name="Facepunch", $tech="")
+  IconElement($id, 'simpleicons-4/F/Facepunch', $name, $tech)
+!endprocedure
+!procedure FacepunchCard($id, $funcName="", $content="")
+  IconCard($id, '<$FacepunchMd>', '', $funcName, $content)
+!endprocedure
+!procedure FacepunchGroup($id, $name='Facepunch', $tech='')
+  IconGroup($id, 'IconGroup', '<$FacepunchLg>', $name, $tech)
+!endprocedure
+@enduml

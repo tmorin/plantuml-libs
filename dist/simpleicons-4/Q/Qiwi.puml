@@ -1,0 +1,16 @@
+@startuml
+sprite $QiwiMd [14x14/16z] 9Sc7OGCm30F1L-_4_jCcjd4IEvIhhvFvch81vC-mIgvRwk3yCHG9wM1N7PzyN4ZDGzhQI1DhcZn5ndQZ7xr2pQHIWHpIkJUDmbVU-hepuxdrtbhV7RFQ_W4
+sprite $QiwiLg [20x20/16z] {
+POm55aGX54AnM_U_s-4ycRu_fK3AFfVX8LmxOaP9VXwoRpRVrE1lZy47cs0IgSXLOpfWqYmGRjc1gKLBi3HCgtZXcF3G6iG-EtnheHnf3MznghlTvs07nlmE
+ri9NEXIPp9PEqJwDugfn3FvM48d632a38Y-fktD1k5pxwAtMFcV67x4L_9FI0m
+}
+!procedure Qiwi($id, $name="Qiwi", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Qiwi', $name, $tech)
+!endprocedure
+!procedure QiwiCard($id, $funcName="", $content="")
+  IconCard($id, '<$QiwiMd>', '', $funcName, $content)
+!endprocedure
+!procedure QiwiGroup($id, $name='Qiwi', $tech='')
+  IconGroup($id, 'IconGroup', '<$QiwiLg>', $name, $tech)
+!endprocedure
+@enduml

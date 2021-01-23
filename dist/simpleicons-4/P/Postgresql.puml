@@ -1,0 +1,19 @@
+@startuml
+sprite $PostgresqlMd [14x14/16z] {
+FKi9WiGW2AEj6897_l_RnUxCA5Sk1vFLm2GkSEqHQysOYm-NDAgbrEe7nGinjX-4XCJYsa5KRkMS-O07SMinO2qApLIblTlJf-YzK7R0RXB4B8tnc3tkZgKT
+jtrUAzIlBtfIq-ttm5Vw0m
+}
+sprite $PostgresqlLg [20x20/16z] {
+LOu7WeKm24JHm32aoFrlko5k-y-QHsr6TyT-Y8OPJXL5y2LSRNQ62MDavl8dDvtx2NNcfW97HYPntCFynjUFMmZC_PsmI2gEizLHMHpzwSsZ7FTvVxd6xBoZ
+p-tyTRsFFapeyUSI0xMpzkDMBpSKVicjiOl34Laqe-bre-T3LwntAGD5GC8uT5IjZy5BH2nOLxbWQwKEz-NpB2t_GUK1duwLrpvSyp6SyWaYyFR_0W
+}
+!procedure Postgresql($id, $name="Postgresql", $tech="")
+  IconElement($id, 'simpleicons-4/P/Postgresql', $name, $tech)
+!endprocedure
+!procedure PostgresqlCard($id, $funcName="", $content="")
+  IconCard($id, '<$PostgresqlMd>', '', $funcName, $content)
+!endprocedure
+!procedure PostgresqlGroup($id, $name='Postgresql', $tech='')
+  IconGroup($id, 'IconGroup', '<$PostgresqlLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BluetoothMd [14x14/16z] LOu50WGX24MnstV_sowoDJRrGqGIB229hGvzwhKa0rKqpISRRCtyP6ZYDdxKN1tRYNWOpWVVm5l6D2h2dVqdDVKtowrmgvkyEJijMsN1AgBh1G
+sprite $BluetoothLg [20x20/16z] {
+RT07ZaGn20DGVdht_M-xOEsWXjMYbmQ8PG1uq0pnB037R3bDQEg0PlvJ0Ks8nM_IY8lq7JpbahhX-SpomvQcXYowdSqgQ-WbJMbyWsReAre3yRTeiSLtAwdv
+7r4jNlE3rnpq5iqWc5KmqqyyLJ_HdwemVm
+}
+!procedure Bluetooth($id, $name="Bluetooth", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bluetooth', $name, $tech)
+!endprocedure
+!procedure BluetoothCard($id, $funcName="", $content="")
+  IconCard($id, '<$BluetoothMd>', '', $funcName, $content)
+!endprocedure
+!procedure BluetoothGroup($id, $name='Bluetooth', $tech='')
+  IconGroup($id, 'IconGroup', '<$BluetoothLg>', $name, $tech)
+!endprocedure
+@enduml

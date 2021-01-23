@@ -1,0 +1,19 @@
+@startuml
+sprite $EggheadMd [14x14/16z] {
+BOu70i0W20CTAO5MvF-_BOvpibCIg9cYNCJSJQxnM4HCUxRHr2DnRHaW8LIbW6nebPEzvrMRTiW8Is88X9b6k2CV4HBwpUpvATWBthYyo07qOpZRLdAiguOs
+t8VnIWFDk5N_
+}
+sprite $EggheadLg [20x20/16z] {
+LP250SH020Hn5cBzT_lSUoQoON9EJxHZQAK_h2CpslxKD3klwxmrhAMMhA_otAyd6_nbM3klDzdAH160cHkGc5Z91H96WuSLGaWL4fzUsgqJFYNSCZ25R9jC
+8D8Y8xkECfscLaTNXcyjecArrbmsdz9YZjYlBrlKMcBMyND7WORuRxT7B2V0pm5CYypwgCga5m1UvmA0FcGXC7Sb_T3eRUlGL_K
+}
+!procedure Egghead($id, $name="Egghead", $tech="")
+  IconElement($id, 'simpleicons-4/E/Egghead', $name, $tech)
+!endprocedure
+!procedure EggheadCard($id, $funcName="", $content="")
+  IconCard($id, '<$EggheadMd>', '', $funcName, $content)
+!endprocedure
+!procedure EggheadGroup($id, $name='Egghead', $tech='')
+  IconGroup($id, 'IconGroup', '<$EggheadLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $WebstormMd [14x14/16z] ZOxLOGKm24K9KVJklstvwNCx4LnmHteY04Te2U4DagJDZHInkz4KNep8occJUf_HQ9K59kaaIETPrgIwURYoox8DMuZLP-9tN6QXbytKJ0El-0C
+sprite $WebstormLg [20x20/16z] {
+jSf5WWCn34JHaioaklzjH-DmDk7NRVvyagswo3PzT8vIkf5he70X-OWDBl-7ggnGwyXHbfL6bx4YC19wH3Dk3Pv95l4T42VT5A1wcSZbg-uqGAm0ZTsRX1rc
+17R0J17JiHjQkMBqJHJHoJjc_05RCRWO1Y-iR7doPNy
+}
+!procedure Webstorm($id, $name="Webstorm", $tech="")
+  IconElement($id, 'simpleicons-4/W/Webstorm', $name, $tech)
+!endprocedure
+!procedure WebstormCard($id, $funcName="", $content="")
+  IconCard($id, '<$WebstormMd>', '', $funcName, $content)
+!endprocedure
+!procedure WebstormGroup($id, $name='Webstorm', $tech='')
+  IconGroup($id, 'IconGroup', '<$WebstormLg>', $name, $tech)
+!endprocedure
+@enduml

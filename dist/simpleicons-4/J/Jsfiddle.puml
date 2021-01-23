@@ -1,0 +1,16 @@
+@startuml
+sprite $JsfiddleMd [14x14/16z] RSU50GC124FHJv2m_y9rxpqq70fUv1ddCwmWtBVN6rmvA8k7BhpGVHkPIQPhgdge0Ip6oB01idKTM1SlvHhFWmt42p_E
+sprite $JsfiddleLg [20x20/16z] {
+bS_LOSH034NH-mGMkFzwGul-ovvX7l4ncRZocUvDtXpZahoR6uKTmqtT9cDxnxXh1soCDzdWMRoBXgm6LHbubz06Ey2PSQRMSu4Dqsq_Sm0TO0DWAmwRGcl0
+oQ-SQL4poUscMwm0ju1ZTaCIy5l_LhuccxwuXI1_8_xl6m
+}
+!procedure Jsfiddle($id, $name="Jsfiddle", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jsfiddle', $name, $tech)
+!endprocedure
+!procedure JsfiddleCard($id, $funcName="", $content="")
+  IconCard($id, '<$JsfiddleMd>', '', $funcName, $content)
+!endprocedure
+!procedure JsfiddleGroup($id, $name='Jsfiddle', $tech='')
+  IconGroup($id, 'IconGroup', '<$JsfiddleLg>', $name, $tech)
+!endprocedure
+@enduml

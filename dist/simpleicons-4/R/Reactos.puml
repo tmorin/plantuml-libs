@@ -1,0 +1,19 @@
+@startuml
+sprite $ReactosMd [14x14/16z] {
+FOfPWWKX309n0TIaE_S_xSpR-GAgsD78jSI6lZhGdDUTgm7hCQ9UoGOtdFeaOFB-hXAf-35r7NtWhS0ygO-NWU7QVWxlCZYobXzZrJNPCQkETAe80nYPcvaJ
+S7zEJse0M6lRR42JlVaF
+}
+sprite $ReactosLg [20x20/16z] {
+LP05WW0X30DRKchO_tzxXVFi8Xc2kX6HQ4FlqbIOoDor61HgLXNAQD0LuZobN3TkfVjyoyfcbNx-I8i9UFrb6p2t5_kLcfZr-HTDCKOt_HTp9SQM_4M98yNE
+QZ-xBCm38fudiBytZKgGmCznsGz9zGCStifRmK9M0p1qeTjph9SwGM9Kklrid0-z-vPqpHXTrpRwOSJTxYtvcV7ULDparYxlJJr6fe5V6fOvWZy
+}
+!procedure Reactos($id, $name="Reactos", $tech="")
+  IconElement($id, 'simpleicons-4/R/Reactos', $name, $tech)
+!endprocedure
+!procedure ReactosCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReactosMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReactosGroup($id, $name='Reactos', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReactosLg>', $name, $tech)
+!endprocedure
+@enduml

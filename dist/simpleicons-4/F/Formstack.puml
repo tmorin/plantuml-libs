@@ -1,0 +1,16 @@
+@startuml
+sprite $FormstackMd [14x14/16z] NOs54S1G24DJmuwK_QUjwt-d41EP3aHw07d3QRlgmQpVBa7NmQgK8bMxmtSjjVQhpyF9unfovdF5YCwVIp2otckSz-DgYQFaMlYjPvAvGq7B2W
+sprite $FormstackLg [20x20/16z] {
+TT250SKW34NHG0JdxJ_jTobswwUE7wDdCiGlmzZEN9QN9T57OWs0HtoPqZENyJ9B-9glc4qxPel0RAcssWQBqHEvD5Wc8gxplIvsZ2R-jHciAFUBnTVpHF6t
+k8v1aVrOoHYTkWC
+}
+!procedure Formstack($id, $name="Formstack", $tech="")
+  IconElement($id, 'simpleicons-4/F/Formstack', $name, $tech)
+!endprocedure
+!procedure FormstackCard($id, $funcName="", $content="")
+  IconCard($id, '<$FormstackMd>', '', $funcName, $content)
+!endprocedure
+!procedure FormstackGroup($id, $name='Formstack', $tech='')
+  IconGroup($id, 'IconGroup', '<$FormstackLg>', $name, $tech)
+!endprocedure
+@enduml

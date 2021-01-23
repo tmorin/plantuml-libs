@@ -1,0 +1,16 @@
+@startuml
+sprite $MoleculerMd [14x14/16z] LSp50G0W20NGRxViFwsTxqA3IUGiS6WYZKDz5Pp4mOru1k-U8AA8BkQWRAi2kfPuoEYzv5hqIiwbbcbb94wLiR1C3RR-ok9GJg42
+sprite $MoleculerLg [20x20/16z] {
+PP050WKX20Mnsxd_QN_dStOj6knBWsp2W2gYm0sHUM2PK1ZXa2KHk92x9fWmn6fme_oRRMwydVjW-53vjUF67h4SijiPMucpnjQhjzyuRZuiVEkxEtlna37E
+x73As3f1T8X-0bqd4NCmkm8
+}
+!procedure Moleculer($id, $name="Moleculer", $tech="")
+  IconElement($id, 'simpleicons-4/M/Moleculer', $name, $tech)
+!endprocedure
+!procedure MoleculerCard($id, $funcName="", $content="")
+  IconCard($id, '<$MoleculerMd>', '', $funcName, $content)
+!endprocedure
+!procedure MoleculerGroup($id, $name='Moleculer', $tech='')
+  IconGroup($id, 'IconGroup', '<$MoleculerLg>', $name, $tech)
+!endprocedure
+@enduml

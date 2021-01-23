@@ -1,0 +1,20 @@
+@startuml
+sprite $GeneralelectricMd [14x14/16z] {
+7Ow74GGn309zbX0uqd-r7svd9odIsWDDz8Xyse_WlaW2yUi4h_tJcz4Is-RoAb_sW9TAHlsw6VJenTMN_ysq5v8vVI7WUAKqjPmrZySOebGcj8rLjpJfIj2h
+jWzvD_eJEhRlJyK_6OgPzn_bJq-K-8R-0W
+}
+sprite $GeneralelectricLg [20x20/16z] {
+FL050iGm21iQ65tv_s-FdgMAGww109xEp0gvlb14f16Jk7uqPCZT3wCgr8oEphnwiFiWtIQNMix_kRzNGIztFP9BzNAUY0IhHEz8-DsJRVK8mbIJtmJQuDM3
+S7xxatkaI3oJ9eC9Orl14khJqnPBDzwdnhK2EoO657cFVqhPcdEg5uV7HCfU-eokRkyYO7H0AzfyRyqEKI2xH7noYkeyweUVwhtwO9tKfcyEilyabFk7AzEe
+0Z-z4qPVJbsOBys88UK7VZCT47wBBm
+}
+!procedure Generalelectric($id, $name="Generalelectric", $tech="")
+  IconElement($id, 'simpleicons-4/G/Generalelectric', $name, $tech)
+!endprocedure
+!procedure GeneralelectricCard($id, $funcName="", $content="")
+  IconCard($id, '<$GeneralelectricMd>', '', $funcName, $content)
+!endprocedure
+!procedure GeneralelectricGroup($id, $name='Generalelectric', $tech='')
+  IconGroup($id, 'IconGroup', '<$GeneralelectricLg>', $name, $tech)
+!endprocedure
+@enduml

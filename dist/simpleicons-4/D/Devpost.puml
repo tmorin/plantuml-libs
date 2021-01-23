@@ -1,0 +1,16 @@
+@startuml
+sprite $DevpostMd [14x14/16z] LOsr0G0n4CCSvcZ_QPzHrO51KgnbeqOTDEO6xLWY5_lJ38hteS8qSda_EhDBiYeG3IHrS5nRLu7stzgrHGrmJqg6B9bvDBIZuTU-qu0vwJemzc3NhG
+sprite $DevpostLg [20x20/16z] {
+RP053WL124E1SUtzJ_kbEvcilHZ1M_cXQQEoiB8nMLHiwafvdF126Z1QQvsvpbG448ze0aZ_0uCvytPi6IOnWxc2MPJNiaoi7CS2VXXEkI8EFzfRxZmR-GFS
+wKPMQRoXvryYVpd_h0KyVj8sjhPN3zwz4YjrGKzV-G8
+}
+!procedure Devpost($id, $name="Devpost", $tech="")
+  IconElement($id, 'simpleicons-4/D/Devpost', $name, $tech)
+!endprocedure
+!procedure DevpostCard($id, $funcName="", $content="")
+  IconCard($id, '<$DevpostMd>', '', $funcName, $content)
+!endprocedure
+!procedure DevpostGroup($id, $name='Devpost', $tech='')
+  IconGroup($id, 'IconGroup', '<$DevpostLg>', $name, $tech)
+!endprocedure
+@enduml

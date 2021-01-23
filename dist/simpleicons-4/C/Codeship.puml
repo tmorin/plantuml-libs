@@ -1,0 +1,19 @@
+@startuml
+sprite $CodeshipMd [14x14/16z] {
+DSS70W8n24JHeQPdxdzRKNTV2dn01gVPv12KkEn0vmr0WkIUSzS8ZClhQgPUYv0yEKiUibVThYBQBxch4eYenv_zh_sBEGtky3FMsHr552R8FfRW8LibtvIL
+079djTG0YlPLXWBu
+}
+sprite $CodeshipLg [20x20/16z] {
+LOm75WGX24FZCB5Ixd_R5RT_M_Wyn4PMn217n1Aye8PtaUwXVAaU4JF3tA6_L6BkTiAMmWohtI9tMvc9bTq15B808oTA9BEgwTvrPiKuh7e1LrsHd8RT0Evp
+MPRf59lMyjPumxTZVB2tirFb_wm5885R6sdJ_S91hkqoQrrQyKUp8dJvLPTptpsdlse0Htx6g_TNebcd2BiPyQRKgMOwQq7o
+}
+!procedure Codeship($id, $name="Codeship", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codeship', $name, $tech)
+!endprocedure
+!procedure CodeshipCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeshipMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeshipGroup($id, $name='Codeship', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeshipLg>', $name, $tech)
+!endprocedure
+@enduml

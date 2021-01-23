@@ -1,0 +1,16 @@
+@startuml
+sprite $CodefactorMd [14x14/16z] NOw30S0m44N_jJ7tdpRs2yw8CH1Sx5JvmGyh-6W0DIn5XCBtVmN2ZL1_2IcbD2_MqPE_riZKMWky49rMcxvecnqnZKq6
+sprite $CodefactorLg [20x20/16z] {
+bT230S0m00J0ZvtVVzhQxiK6EnhmNCMfBt2LsB50vAhqIGA6AwkK4UX8wqPMuIiXzLZgda8lbve4e39xDQ33ZjdSJz_qdTTkpp0TXJ_cjstrVt3i7F_gtASF
+VIdJuw05
+}
+!procedure Codefactor($id, $name="Codefactor", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codefactor', $name, $tech)
+!endprocedure
+!procedure CodefactorCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodefactorMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodefactorGroup($id, $name='Codefactor', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodefactorLg>', $name, $tech)
+!endprocedure
+@enduml

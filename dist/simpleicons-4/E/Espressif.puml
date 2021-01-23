@@ -1,0 +1,20 @@
+@startuml
+sprite $EspressifMd [14x14/16z] {
+5Ko70GGX28jAvpNxR_kSbLIiipjLalS0IzJ9LhrCm7FbvU2J0qEsgVZZ6oYg95-S7dZRczta7LXAAvR8R-2ZrX5-5J-wiw5x-sKBtvoL1fFBySwxBOmHzAIb
+0xiSHIyQ50D3hFO93SEtrBzb6_W3
+}
+sprite $EspressifLg [20x20/16z] {
+DOu7baCn20C5mWrSxd_RXKsYNpsC_GI8WZwRShrtfw2YHDi-AEE-vugAZ_OgJadp4B3kAA6of2TKU12YsbR1hIrzH6hdU5SjUijaj_dRsChCCwVbtoU7l3Mw
+X_PUg7bHrfpZAVCKxshf7F5gUBI-YKqJJYrHZEAtg5c-D8KEdu3OhXgHwq-_0Apf_gnNRWxqEUH-vinwoGoGwFjrLgFxZWn3XZ68-V4EO4H17x3pkaOqp20g
+EdsmVZbY2hxHlZmYLbTa_W
+}
+!procedure Espressif($id, $name="Espressif", $tech="")
+  IconElement($id, 'simpleicons-4/E/Espressif', $name, $tech)
+!endprocedure
+!procedure EspressifCard($id, $funcName="", $content="")
+  IconCard($id, '<$EspressifMd>', '', $funcName, $content)
+!endprocedure
+!procedure EspressifGroup($id, $name='Espressif', $tech='')
+  IconGroup($id, 'IconGroup', '<$EspressifLg>', $name, $tech)
+!endprocedure
+@enduml

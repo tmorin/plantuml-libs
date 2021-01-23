@@ -1,0 +1,16 @@
+@startuml
+sprite $PingupMd [14x14/16z] bSkr0G0W40J1mntwhnRNaCtcnSIqai0bDnLuQDHTaO4r1UWg3e1NHLBbE0NblktwduHgb_OHknG5bhWM15kjBnK
+sprite $PingupLg [20x20/16z] {
+lSwr5G0X40JGmHtwh_OCP_ERYFTPqxQiYGB0OLbEMt2Qaxa-mZ0Fo5OfcqNsZgbcgYMED-OpMqrzn12MkfWim5FyrgXbXsZ7S6eMn08xBLk6rRYtMW2hrVnc
+Dm
+}
+!procedure Pingup($id, $name="Pingup", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pingup', $name, $tech)
+!endprocedure
+!procedure PingupCard($id, $funcName="", $content="")
+  IconCard($id, '<$PingupMd>', '', $funcName, $content)
+!endprocedure
+!procedure PingupGroup($id, $name='Pingup', $tech='')
+  IconGroup($id, 'IconGroup', '<$PingupLg>', $name, $tech)
+!endprocedure
+@enduml

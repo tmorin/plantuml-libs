@@ -1,0 +1,16 @@
+@startuml
+sprite $ToyotaMd [14x14/16z] VSU90SH02090t5yaRl_TdfS2ChxWMzzE-kueHivnxvYauUG3x08yQOhGv1XS2j8xZcxHGRyS0BmthpDknflwFucUTPUq04-3XTR874jXAFquwQVZsmy
+sprite $ToyotaLg [20x20/16z] {
+fP0tTi1024Hd8qamzx-jXPzBT_gR_j8Gy9Kf7Yyk4t-iIBzAwlMCXKPf0_0g1uPH0J7M06RjLHCOHGFf5Hl70R_OKSvJEGwPcUxlHPwHJmOmRXHVAku0WlcW
+KGDCqGHPgqKw9csh7jBQJWxaQJDkwOgw5hUkfQlzlRjuOtzMKD6ifnuHKkILzSyCll83
+}
+!procedure Toyota($id, $name="Toyota", $tech="")
+  IconElement($id, 'simpleicons-4/T/Toyota', $name, $tech)
+!endprocedure
+!procedure ToyotaCard($id, $funcName="", $content="")
+  IconCard($id, '<$ToyotaMd>', '', $funcName, $content)
+!endprocedure
+!procedure ToyotaGroup($id, $name='Toyota', $tech='')
+  IconGroup($id, 'IconGroup', '<$ToyotaLg>', $name, $tech)
+!endprocedure
+@enduml

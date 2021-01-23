@@ -1,0 +1,16 @@
+@startuml
+sprite $JiraMd [14x14/16z] LSl70KGX24NHPnPC_NSxG_ZfhZm2qEAnOAsFujZRL9cOQFIjQhOrJ20LypbP8dbncCTQ8Y0l8sqHGcOvBrsayLzerKMYk_mHodRz
+sprite $JiraLg [20x20/16z] {
+VSg53SGm50JHDRFTVxSdm_wZ92D-6Z0pf4T3kZ34BpChwsECD3rO3pGqmIXcnRmOJ3bcv-Xt8KQt31Ebj0tQVLZV1kH2Yva65MhhquAXJLMwpW-cJgDk0nGW
+bMEV-Gj3kJ0LUW1x0G
+}
+!procedure Jira($id, $name="Jira", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jira', $name, $tech)
+!endprocedure
+!procedure JiraCard($id, $funcName="", $content="")
+  IconCard($id, '<$JiraMd>', '', $funcName, $content)
+!endprocedure
+!procedure JiraGroup($id, $name='Jira', $tech='')
+  IconGroup($id, 'IconGroup', '<$JiraLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $TeamcityMd [14x14/16z] bSi30aGX543HxBhxN-tWspZnYRMQSiwGKmDQaaAOfgNIT7J2AwXqLCJOtpj5KPGQfqxyRvXPQxnJZRNMJUFvZoDV
+sprite $TeamcityLg [20x20/16z] lSY5OGHH24LH67lpZTj_jScwknqS7fOcILDTBbCALWPRIkiviXB8Io1JHAfio2fqpiR-vnT-WnLenxzgBld0nkmLABrPLpWHmG-bhb_XGDMymjF-0G
+!procedure Teamcity($id, $name="Teamcity", $tech="")
+  IconElement($id, 'simpleicons-4/T/Teamcity', $name, $tech)
+!endprocedure
+!procedure TeamcityCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeamcityMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeamcityGroup($id, $name='Teamcity', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeamcityLg>', $name, $tech)
+!endprocedure
+@enduml

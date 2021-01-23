@@ -1,0 +1,20 @@
+@startuml
+sprite $UnileverMd [14x14/16z] {
+5Oe70i0m20Bfa4EJ_x-tgPCrROAKYHSzPdpOYhV998_q1lg1XpwU2QIdaZhCp07bNd-I8WyfOwbSeVQEYSHWEocdfPWVdcMOu7TiS8-RphRqhAvk0_kLL4bc
+pbpww_BQOzy7VW
+}
+sprite $UnileverLg [20x20/16z] {
+DSq7SYH120J0TcM0tjd___QOaqGuJ4PHbxvWpZ5sb7poCejAgDRFBdPSHkP1NeunLlPEdrosFocTTiC6OK-9F66yEp1IgEtmHlX_NcdtL97fROhDfeXRIf5o
+P9tPFsH2vWBsFfbu7TxenWxhU7jtNZC4VPudG-ATxQ9em8WK1LQxLRPxEh8Fp4y7oWSgvf9uGIWKNuREvdSvvCRVQ7ei9p3Mrcj4sfMif_hRu7N0jpL5NOok
+wT9MPHgwtCtUMdh2cPKtDFvgxdXkU9trV_m7
+}
+!procedure Unilever($id, $name="Unilever", $tech="")
+  IconElement($id, 'simpleicons-4/U/Unilever', $name, $tech)
+!endprocedure
+!procedure UnileverCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnileverMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnileverGroup($id, $name='Unilever', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnileverLg>', $name, $tech)
+!endprocedure
+@enduml

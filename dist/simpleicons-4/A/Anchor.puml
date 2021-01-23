@@ -1,0 +1,16 @@
+@startuml
+sprite $AnchorMd [14x14/16z] POw54GHH24CpED_elzhpMtqZE0a0dlLYCZvaVSXFuPzSUpa0-XJDQHQ1FgFbwbeE7UygN8FNWA_9aK5XCjQvkcpIL-3xPLC86aK0ObE_EmEaLmrvPqy
+sprite $AnchorLg [20x20/16z] {
+JP15eWGn24InU4BT_xHVXadJRuLBqJzsyE4OFLIFc5UwT3pqMuLWg0DHAGV1Pd4SUNTMsspHpJj2lhbEMd_Ln8h0-gQb1YX90Vp_b4dJMXEWa5QuSAkrKUiw
+s55lhBMCPU-WTNjVEnPj-z-Hjs1HMt5BtjpAaU_D-TiHlh-b1dAk1jdjgLLgYaQ9z0tiBk7z0W
+}
+!procedure Anchor($id, $name="Anchor", $tech="")
+  IconElement($id, 'simpleicons-4/A/Anchor', $name, $tech)
+!endprocedure
+!procedure AnchorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnchorMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnchorGroup($id, $name='Anchor', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnchorLg>', $name, $tech)
+!endprocedure
+@enduml

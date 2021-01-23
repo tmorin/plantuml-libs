@@ -1,0 +1,16 @@
+@startuml
+sprite $XfceMd [14x14/16z] bOp50O0m34KZTVlxRmkrdE75bJwZOjbhh45fnjoLvYHuLPQ1MiFi9m1ZQfjLnMBazQDZKMaYexNHEpAlqY_lX7xm
+sprite $XfceLg [20x20/16z] {
+lSo54KH120FGiAwa_shFLXku_yOO8C43lBU2HNoQsnJcrlRQ0R7VEIIBBwFK78CR3wcqaa8XUoDdFd5HiexkVdOjozXngmQ3kNQO8dMcUt9pPwiJynNATpK8
+_kaD
+}
+!procedure Xfce($id, $name="Xfce", $tech="")
+  IconElement($id, 'simpleicons-4/X/Xfce', $name, $tech)
+!endprocedure
+!procedure XfceCard($id, $funcName="", $content="")
+  IconCard($id, '<$XfceMd>', '', $funcName, $content)
+!endprocedure
+!procedure XfceGroup($id, $name='Xfce', $tech='')
+  IconGroup($id, 'IconGroup', '<$XfceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SnapcraftMd [14x14/16z] JKxL0SHG2CjpWsJ_QU_gBN_4nwe1pzNbBRulbhJpuNrbVHZjVesoeNQzvgg8vVY2EolkwvpbUIALdmT3zNtIzy5idoT_6NnN_W4
+sprite $SnapcraftLg [20x20/16z] {
+PSu53W0X30J0OhaATF__sdFlniXGK-EIw1ljrZBzaZg6j1GGw5mY0bOQix3a5xgwR0-b1rs1mJnG7zpC6-LfeXDjCzzBxXlQM6sZ9yLLvKia0ASlbNtylyph
+ZqeaCWIgaSXQe1QhAFrX0G
+}
+!procedure Snapcraft($id, $name="Snapcraft", $tech="")
+  IconElement($id, 'simpleicons-4/S/Snapcraft', $name, $tech)
+!endprocedure
+!procedure SnapcraftCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnapcraftMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnapcraftGroup($id, $name='Snapcraft', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnapcraftLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $BugcrowdMd [14x14/16z] {
+DOs55S10348vzx3_jesySlfZ09ZtddFkXElITHq6vtOS2aaaHLhViiYDzvxYmg5H0Rf-2ftg6z3c4tIrgIkTdw1KoehAhfNB7BXJLLjpqCUz9Do1HzU3AnMN
+rNq
+}
+sprite $BugcrowdLg [20x20/16z] {
+TP1L0iGm24GdRWJkVzjD9_AthutXW8Nl3uz341co2LSsx36EADbiJOymKUJ46f2FJ1mMnMn6n6jO0EULOPAfKAmUkTgY8sO7ptk5sfO1CG3D5i6kh7-XFEkv
+ig3CoU3NDwrzUipFz-RmoYRMNbaBunMT4O6rh0Tb3iu1mfhPcqbepRiajpU6V-J_iqAGHy35FVZy0G
+}
+!procedure Bugcrowd($id, $name="Bugcrowd", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bugcrowd', $name, $tech)
+!endprocedure
+!procedure BugcrowdCard($id, $funcName="", $content="")
+  IconCard($id, '<$BugcrowdMd>', '', $funcName, $content)
+!endprocedure
+!procedure BugcrowdGroup($id, $name='Bugcrowd', $tech='')
+  IconGroup($id, 'IconGroup', '<$BugcrowdLg>', $name, $tech)
+!endprocedure
+@enduml

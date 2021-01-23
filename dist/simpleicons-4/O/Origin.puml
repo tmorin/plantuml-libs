@@ -1,0 +1,16 @@
+@startuml
+sprite $OriginMd [14x14/16z] LSp50K0n20DGu4kzsN_QkhuJ6ggSfks54QRXGH77cWCQtpgDGO-L5R50uFubH0BWkRjnoJmkpvJAeschkesrUsbWCQCPwuUg3
+sprite $OriginLg [20x20/16z] {
+TOy53WGm2C3cllN_hpqbSDeOAUwUP8hxf98-LOTMid-lUh2RgGp22gByngIu1aQpCdfA_J7JwxGkso7Vem8yhqi0vP-ptgQzdpli5Wv8muE586MFRfFPAMth
+5uRFfUam8r7T9pqvuGe
+}
+!procedure Origin($id, $name="Origin", $tech="")
+  IconElement($id, 'simpleicons-4/O/Origin', $name, $tech)
+!endprocedure
+!procedure OriginCard($id, $funcName="", $content="")
+  IconCard($id, '<$OriginMd>', '', $funcName, $content)
+!endprocedure
+!procedure OriginGroup($id, $name='Origin', $tech='')
+  IconGroup($id, 'IconGroup', '<$OriginLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $StarzMd [14x14/16z] hSd70SCm30Gmgl1QOky_hZM4y4LT8RMpLi4RKJJ8-Gp75J1e-9KVh5_9Qm7h_0dL5Hy
+sprite $StarzLg [20x20/16z] pKW50S0m3CjMHlzoFnblm_ZHcIkPEUFWw3DrbOWGso89q7Yp-dgL02d8lTGo32cmj2EVLj9CuJJ3j1obETMHjodMpDmEc1Yuoc3MD-17zm4
+!procedure Starz($id, $name="Starz", $tech="")
+  IconElement($id, 'simpleicons-4/S/Starz', $name, $tech)
+!endprocedure
+!procedure StarzCard($id, $funcName="", $content="")
+  IconCard($id, '<$StarzMd>', '', $funcName, $content)
+!endprocedure
+!procedure StarzGroup($id, $name='Starz', $tech='')
+  IconGroup($id, 'IconGroup', '<$StarzLg>', $name, $tech)
+!endprocedure
+@enduml

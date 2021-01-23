@@ -1,0 +1,16 @@
+@startuml
+sprite $VaultMd [14x14/16z] JSc50S0W30J0npLq_stxkCIlVSyBzTsiAwmYLTWAODbIZAaJ06AECG_gE6pGm9PI6pHHPD12la4BBm7r8UAWYnNFSuj-
+sprite $VaultLg [20x20/16z] {
+PStL3SK034DHbqDIzf_sWPjYxlUHdRqbUxDwldACSsC026tTjjLszekJOR-23q11tqGsBrRGHLM2QtlnTwf_vwXuBP8tLekrze0FHiWCj-RE2CdkBPqHEbuj
+PAyYq5ekzWK
+}
+!procedure Vault($id, $name="Vault", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vault', $name, $tech)
+!endprocedure
+!procedure VaultCard($id, $funcName="", $content="")
+  IconCard($id, '<$VaultMd>', '', $funcName, $content)
+!endprocedure
+!procedure VaultGroup($id, $name='Vault', $tech='')
+  IconGroup($id, 'IconGroup', '<$VaultLg>', $name, $tech)
+!endprocedure
+@enduml

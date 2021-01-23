@@ -1,0 +1,16 @@
+@startuml
+sprite $WalkmanMd [14x14/16z] bOC50OH00C3svxx-QTye01EUam8N0HYU5yH0iH3L24wcYwe3yBGpFQuGrYbvE9XQQ2hPyjr0qW6Hxm48YVjy
+sprite $WalkmanLg [20x20/16z] {
+lOs50S0W30GVjy3jFssz7Q47STFFnDQyFYut0QQNjkgXEx3EgbbGWEdbZCFg08eoaA_H6U-S1MDn_dF46BuDeDwxWhIkEtw2UsywJivpIrUbNxSl6rhKgQix
+Z2kzEFt03W
+}
+!procedure Walkman($id, $name="Walkman", $tech="")
+  IconElement($id, 'simpleicons-4/W/Walkman', $name, $tech)
+!endprocedure
+!procedure WalkmanCard($id, $funcName="", $content="")
+  IconCard($id, '<$WalkmanMd>', '', $funcName, $content)
+!endprocedure
+!procedure WalkmanGroup($id, $name='Walkman', $tech='')
+  IconGroup($id, 'IconGroup', '<$WalkmanLg>', $name, $tech)
+!endprocedure
+@enduml

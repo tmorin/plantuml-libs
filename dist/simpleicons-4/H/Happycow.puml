@@ -1,0 +1,19 @@
+@startuml
+sprite $HappycowMd [14x14/16z] {
+HSdLeGLG308mUbmAx3_jawlv3O1oAhxw3Vm9FEH4_Tks_gBNLAPMj0pqiatALYOmn_OwzZq-BO11fdctRhreTgOloJf6EtjFsJlTW7P6-C-TUmFeFhIjc0j_
+ZYanfO9_KvBDYfVQsZD-0G
+}
+sprite $HappycowLg [20x20/16z] {
+PSf7eY11209GkhAbmlrlEnqd_UTA09Uo1_xN_4TMQELhyLhg1-g1qrvljcas8w_npBEoRSCePJBtw9iLw1L6HQH4oXK0RCqjpfcIt4Mh1rflW-4HajjCUfi3
+GCyuJznSAKTDOEZaeLpQzBfyuGWo6yLCKexJKTYBZv34wbB7wSpGTKdpaOQBQvXkBF0d6rAwBliOwhYP5C6aX-HuBKgPUI_ngTEJ3Elunt72wnS
+}
+!procedure Happycow($id, $name="Happycow", $tech="")
+  IconElement($id, 'simpleicons-4/H/Happycow', $name, $tech)
+!endprocedure
+!procedure HappycowCard($id, $funcName="", $content="")
+  IconCard($id, '<$HappycowMd>', '', $funcName, $content)
+!endprocedure
+!procedure HappycowGroup($id, $name='Happycow', $tech='')
+  IconGroup($id, 'IconGroup', '<$HappycowLg>', $name, $tech)
+!endprocedure
+@enduml

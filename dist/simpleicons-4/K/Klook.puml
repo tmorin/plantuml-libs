@@ -1,0 +1,13 @@
+@startuml
+sprite $KlookMd [14x14/16z] hSV70S0m3090N2G1sN_UT6_W-nqsuGGLvPWjMLavSGGanTfy1vIJob94Asnn0G
+sprite $KlookLg [20x20/16z] pOq50SHG34FVX_BgN-unJCBAc70jsVhmY3ayX0q2uSqkjQDSqc9gcIN7S05Fc6sHm_mviyzij6KE26knajCli3pbpP727WWNaZi
+!procedure Klook($id, $name="Klook", $tech="")
+  IconElement($id, 'simpleicons-4/K/Klook', $name, $tech)
+!endprocedure
+!procedure KlookCard($id, $funcName="", $content="")
+  IconCard($id, '<$KlookMd>', '', $funcName, $content)
+!endprocedure
+!procedure KlookGroup($id, $name='Klook', $tech='')
+  IconGroup($id, 'IconGroup', '<$KlookLg>', $name, $tech)
+!endprocedure
+@enduml

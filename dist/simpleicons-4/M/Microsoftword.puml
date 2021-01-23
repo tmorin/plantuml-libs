@@ -1,0 +1,16 @@
+@startuml
+sprite $MicrosoftwordMd [14x14/16z] LOs50S0m20I_CIYw_xHrlGGt04rlvYqYloFV8YPS63EPyaMuv_RYYberMDFfwcmTlINJKTCEHizxZgQSAA-T6VkQf8DzcTbrO8x_zKqezCG26xLTb1K
+sprite $MicrosoftwordLg [20x20/16z] {
+TT230K0n30JGgvNqzf_sstYrWLaiLn6ptEJKCcPi-TI8MVSu-Rxs1PWT0h-8ABjIXJ6iCeCBz7OgY8rdILODnALBdrH4Ow8fhAlIsCKWHXXXtGYf3atW-cKj
+6T29m5kV2YbA-atcgU-86GE0ysrVV_3xLrdq90KVHW
+}
+!procedure Microsoftword($id, $name="Microsoftword", $tech="")
+  IconElement($id, 'simpleicons-4/M/Microsoftword', $name, $tech)
+!endprocedure
+!procedure MicrosoftwordCard($id, $funcName="", $content="")
+  IconCard($id, '<$MicrosoftwordMd>', '', $funcName, $content)
+!endprocedure
+!procedure MicrosoftwordGroup($id, $name='Microsoftword', $tech='')
+  IconGroup($id, 'IconGroup', '<$MicrosoftwordLg>', $name, $tech)
+!endprocedure
+@enduml

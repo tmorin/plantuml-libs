@@ -1,0 +1,16 @@
+@startuml
+sprite $CodeprojectMd [14x14/16z] FOo5OKDH24Kl3a_tdxQDa7zmnHjUhdZmHKfev0X8qEnoD--X7_CAxs5kjGpdFhlcfiyRtyxCQFYkNByHsHQuzvD0XIWytvKgC0Q_OZ_LI34qg-QgzIx_0G
+sprite $CodeprojectLg [20x20/16z] {
+LP250GGn20Jn9Tv_jU_2nJCuz1cs4KBN4IT2hyWEY9qhaZsUfrKsZld3MrNq0sH3ZwAuLbZu5CIVdHa6cvp-PtjhMlPMRUD0Uv1QpReTy2UNcipAWGkoVPht
+MKqrvYJYp2_a05DEKZ5c1ByWziFzIeKziiBNafvmFR-rNy9maTeh7Ztc0IQArcfjze7PNzyx
+}
+!procedure Codeproject($id, $name="Codeproject", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codeproject', $name, $tech)
+!endprocedure
+!procedure CodeprojectCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeprojectMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeprojectGroup($id, $name='Codeproject', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeprojectLg>', $name, $tech)
+!endprocedure
+@enduml

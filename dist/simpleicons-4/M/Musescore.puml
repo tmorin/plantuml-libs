@@ -1,0 +1,19 @@
+@startuml
+sprite $MusescoreMd [14x14/16z] {
+DOw50O0m30IBndFxJujprVYFCHaFDesBhNdPhiZ6GtjTfdsHtRPWvgKymr509KIXYmIpd5EDL2wqs2dzBBcjtWabdvY0obxeC-4-sVJyJV_5ZD_ioxYO927r
+5dq2
+}
+sprite $MusescoreLg [20x20/16z] {
+NT1LeiKW303HIe0a46R_gts2NEcfCZ_8yUUkB7uVImgMbbPIFkWpjJRYdTXwIb8W7JNOIYR4YPCt3VDga02wELqT-hWTG78IoPA1gX20PRWB8GsiC1I7REEx
+snX_jlXeMkRNLqi6SUSaGAgDrg75N5E7E2_X8UqpU1vCUQH1WYNIiPt90yBJEOQ_
+}
+!procedure Musescore($id, $name="Musescore", $tech="")
+  IconElement($id, 'simpleicons-4/M/Musescore', $name, $tech)
+!endprocedure
+!procedure MusescoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$MusescoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure MusescoreGroup($id, $name='Musescore', $tech='')
+  IconGroup($id, 'IconGroup', '<$MusescoreLg>', $name, $tech)
+!endprocedure
+@enduml

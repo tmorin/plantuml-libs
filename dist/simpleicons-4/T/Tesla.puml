@@ -1,0 +1,16 @@
+@startuml
+sprite $TeslaMd [14x14/16z] JSU50KKn24FHKCLAzf_skxnRWQCUPZg6ceMl27yOqDUq98jxiyWSVRlWa0VY6w-23FnIKl-QvFohaUqlgHByoyIbYAjKhnhZAX6ykWC
+sprite $TeslaLg [20x20/16z] {
+PSs50O0m30J0rAFy_jlYVcYZlLkugupUXvXxsCWi4MxAhTR6QXuXrOoPnQ8HjJ1P3ak1E3QbOEEIQWUu54C4h5G6EX6LjhmO2rv-Mg5JnwBJIyMYlcCvWCZq
+ve3JXmBwZJ70trZ_hbqKe7nZQPeIVKNGZ-e_DiO_Lki_bkuLCm
+}
+!procedure Tesla($id, $name="Tesla", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tesla', $name, $tech)
+!endprocedure
+!procedure TeslaCard($id, $funcName="", $content="")
+  IconCard($id, '<$TeslaMd>', '', $funcName, $content)
+!endprocedure
+!procedure TeslaGroup($id, $name='Tesla', $tech='')
+  IconGroup($id, 'IconGroup', '<$TeslaLg>', $name, $tech)
+!endprocedure
+@enduml

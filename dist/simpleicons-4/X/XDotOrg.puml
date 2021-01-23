@@ -1,0 +1,19 @@
+@startuml
+sprite $XDotOrgMd [14x14/16z] {
+LKl5WGD026G5Xqp_tTwIUmLdP1tLJT-uvtMt_7z-tqZWpAC-SpLAx-Qa2GkWQTSzYxIJ361d8bxuFBhGDXv1ZBYHD7iM1mD3Ed1MxTcNsBGwxzTQx6jsojq6
+VDvpV8c7gtTV-eq_
+}
+sprite $XDotOrgLg [20x20/16z] {
+ROy5WWKX34DhUEN-jzt27rdBU3fv0G1YPdX4vrrgAVXuB90Q4J6UtxoUvqgpN9xsUnPXJ4m0Sy6b5ccgi0o_sd3eJ7CctuKBfKFcWhgHQ0d3nh0i143IMnyO
+ThpMqSANqs59uklfjkNHu6XTNWOp_cbDUDzHmurKt96S9aRskdfyvhED5ShQtZssXO3vgl3foT1GlERMX8d6ZOJgfKnpLPrw8K7a19a9iTGgyA--
+}
+!procedure XDotOrg($id, $name="X Dot Org", $tech="")
+  IconElement($id, 'simpleicons-4/X/XDotOrg', $name, $tech)
+!endprocedure
+!procedure XDotOrgCard($id, $funcName="", $content="")
+  IconCard($id, '<$XDotOrgMd>', '', $funcName, $content)
+!endprocedure
+!procedure XDotOrgGroup($id, $name='X Dot Org', $tech='')
+  IconGroup($id, 'IconGroup', '<$XDotOrgLg>', $name, $tech)
+!endprocedure
+@enduml

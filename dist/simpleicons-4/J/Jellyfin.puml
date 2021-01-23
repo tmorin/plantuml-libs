@@ -1,0 +1,19 @@
+@startuml
+sprite $JellyfinMd [14x14/16z] {
+FSm50aGX24NHfpBOtFtlTduVMq8d1zTdmjIh4K5x7aRa79WkYz_vjPuMGsRgLwEqIIaY9NPISjhnJrV3LOzGvf2Fe3PJ9Gv5an-u7aw7xIKVYc-2otDiyx7Y
+-bZ3qny
+}
+sprite $JellyfinLg [20x20/16z] {
+NKy50iGW3AEoeMt-_zkZt3pJ6D3q1tLWK7g13J1-IJI0Rx1WeQGR2hYg0tfh5YmSUpPpVFFTPiUOxxdhW1zxrsZI61JjkYHnj322DhWSCOb4f0NXa-28hM-B
+m5OE7pZo9Gs7qQsHmUcOY4LL-7_MBRJFv0qJTHDUa2tsSlpXDd6I-VE1xqIIMpVtITnwpKBf1m
+}
+!procedure Jellyfin($id, $name="Jellyfin", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jellyfin', $name, $tech)
+!endprocedure
+!procedure JellyfinCard($id, $funcName="", $content="")
+  IconCard($id, '<$JellyfinMd>', '', $funcName, $content)
+!endprocedure
+!procedure JellyfinGroup($id, $name='Jellyfin', $tech='')
+  IconGroup($id, 'IconGroup', '<$JellyfinLg>', $name, $tech)
+!endprocedure
+@enduml

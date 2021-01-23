@@ -1,0 +1,13 @@
+@startuml
+sprite $RancherMd [14x14/16z] dSS50S0m30J0BqF8lzgoWUs2Zvz2BbkkfSIOr0xcDItGYw96G96Rb5zgFeGWMXsGsJ8MihAsyy5XttM-c
+sprite $RancherLg [20x20/16z] lOw50G0X30E3MsN_QL-n2JYq7fp5zCSQbpifbvIpH_QDj2D57wYGwOxFH_Bul4DCc_Sv3O2BoqVy-_phQnyiZIZsFCQ7Lsv0pvFXKpM_mfH25njZn2bk
+!procedure Rancher($id, $name="Rancher", $tech="")
+  IconElement($id, 'simpleicons-4/R/Rancher', $name, $tech)
+!endprocedure
+!procedure RancherCard($id, $funcName="", $content="")
+  IconCard($id, '<$RancherMd>', '', $funcName, $content)
+!endprocedure
+!procedure RancherGroup($id, $name='Rancher', $tech='')
+  IconGroup($id, 'IconGroup', '<$RancherLg>', $name, $tech)
+!endprocedure
+@enduml

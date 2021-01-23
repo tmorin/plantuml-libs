@@ -1,0 +1,16 @@
+@startuml
+sprite $UnraidMd [14x14/16z] bKfN5e0m30BIyB3tlwzR_vl9mdAfGluiespenjqHx3pC9a1EyVhsBSuxdUwRRRHh14yHOafOhWC
+sprite $UnraidLg [20x20/16z] {
+jSk54GH124JHtp16ZUIVxUbg0FjAqEPHuTnPPIIld4JgoYeT6PkIlGjAfvksNQiMWXoiSzSGW9XRLj_TrauH6HHMZzqIlO2wvyAcyzrbzOJO2Ahxe1ft7Zpg
+3G
+}
+!procedure Unraid($id, $name="Unraid", $tech="")
+  IconElement($id, 'simpleicons-4/U/Unraid', $name, $tech)
+!endprocedure
+!procedure UnraidCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnraidMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnraidGroup($id, $name='Unraid', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnraidLg>', $name, $tech)
+!endprocedure
+@enduml

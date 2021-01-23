@@ -1,0 +1,16 @@
+@startuml
+sprite $LogitechMd [14x14/16z] VOr50iHG34Bv6gAz_sd7fQk-JHJ01RkTUjUE7ylOH-G6MA5BE4ltiNWiJwOo0VN7kQK6TyrMD8SyRknIvMXHDLSqe0-0itKTtpIjvOaVJE-uv0u
+sprite $LogitechLg [20x20/16z] {
+fSv50aGX30FGuD26vlwd7VTP_eThYmFcmBTaQpk-bGWQW9GUTovGopOKbom3bGgopqb3Q9c8ehYCqKYkhWOCDLC5LbGwRIW1LPEyZUF_dXfzF_xRj_zSbZPj
+ehh2Cb2ecDUSRwdb363Db5FsYeGNKmTS5HzoQ8SclcGZ1muw0m
+}
+!procedure Logitech($id, $name="Logitech", $tech="")
+  IconElement($id, 'simpleicons-4/L/Logitech', $name, $tech)
+!endprocedure
+!procedure LogitechCard($id, $funcName="", $content="")
+  IconCard($id, '<$LogitechMd>', '', $funcName, $content)
+!endprocedure
+!procedure LogitechGroup($id, $name='Logitech', $tech='')
+  IconGroup($id, 'IconGroup', '<$LogitechLg>', $name, $tech)
+!endprocedure
+@enduml

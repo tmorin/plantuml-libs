@@ -1,0 +1,16 @@
+@startuml
+sprite $CoverallsMd [14x14/16z] VKo35K113CjPnVxJVXkNXpRK3uXSMSvNvjqr26nHZZ458AGOUQ856zOkk_btlDNgpCe-4c0j_B7eHVo-sfPwgTh72
+sprite $CoverallsLg [20x20/16z] {
+bKy54i0m3ABkxVzVEnVkSXQsMWnOMemkOodAcBKYr84cMW5gxhKTS81j9_eLio3OUyBmVyYFjps_eKGCvGvbPisGiMUYc-GLSFsa6joQxeEQOxtFHbOcNHJO
+0G
+}
+!procedure Coveralls($id, $name="Coveralls", $tech="")
+  IconElement($id, 'simpleicons-4/C/Coveralls', $name, $tech)
+!endprocedure
+!procedure CoverallsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoverallsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoverallsGroup($id, $name='Coveralls', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoverallsLg>', $name, $tech)
+!endprocedure
+@enduml

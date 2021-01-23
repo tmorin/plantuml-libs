@@ -1,0 +1,19 @@
+@startuml
+sprite $QuarkusMd [14x14/16z] {
+FSS7bWCn309GN1-oBRZ_QNUJJ57bothBOKUGr_eeW5A1Me2m27JFwGxmfthiKsyrRccpNJhotbPUAjEIPxc4hhNKyMYNiby1Om0_1G3alcIJN7OjGMUaVqN8
+MVy1
+}
+sprite $QuarkusLg [20x20/16z] {
+PT056iKW30FW5AUqvFwdVJBdMwRyE9El9BvJI4t_v7H4wMG288BpdSZTubIHFkDghjrN4tNIDJnCycvPBYjcSwYEQLPFwpJI1cdifo6qINUoXSSSmSpTnZ9l
+ehLcpAire38zJG9IH93RjWm5i5habDjqEwb1LaZAsrdTCM0hbbHkpcYa5tm1
+}
+!procedure Quarkus($id, $name="Quarkus", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Quarkus', $name, $tech)
+!endprocedure
+!procedure QuarkusCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuarkusMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuarkusGroup($id, $name='Quarkus', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuarkusLg>', $name, $tech)
+!endprocedure
+@enduml

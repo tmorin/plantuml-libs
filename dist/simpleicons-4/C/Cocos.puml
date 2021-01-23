@@ -1,0 +1,19 @@
+@startuml
+sprite $CocosMd [14x14/16z] {
+BKo50S0W34lgdVv_xGI7Hl4lRe6rHCNBxVj-b9RnlTz7W0u7YQB_ACe45FE1il1hj8aChMor-55Ot9LtvcnHRzCEzO5WIgfXvaYFSFBFeVUk_i_-0SRvZVjM
+LKCxzczjnz702m
+}
+sprite $CocosLg [20x20/16z] {
+NOy5WWGW24K_ZO0xzx_jEXtFVXRWWNOGVh09nXkDS2_ZT8_GcwBb4aK0juiduy0EE4C4KWINcmiI1-6GYNYSYoGbC1H9_d2L05W013zTCXwOl1oeXx0slvs9
+NYvnMaOzN538PLpdpqsV3cQw2Edc54-7i7kImDCHe7amlDmoLJdDH5NNtLLrvQpLf-k-Ezixn_fqwLNFt2hILsMk5IuuKCrCxvbzkbq4_0C
+}
+!procedure Cocos($id, $name="Cocos", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cocos', $name, $tech)
+!endprocedure
+!procedure CocosCard($id, $funcName="", $content="")
+  IconCard($id, '<$CocosMd>', '', $funcName, $content)
+!endprocedure
+!procedure CocosGroup($id, $name='Cocos', $tech='')
+  IconGroup($id, 'IconGroup', '<$CocosLg>', $name, $tech)
+!endprocedure
+@enduml

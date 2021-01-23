@@ -1,0 +1,16 @@
+@startuml
+sprite $CockroachlabsMd [14x14/16z] JKs50GGn24kBGsN_QL_FS4tGcJGoKuaxlj9qBMqunTpjQgI0ahER3F0y6jeE-ARZor8rxVXqmPmGFtOAT-Ynau0PuW1jzLrKkyXL7_GvPm1tc__y1W
+sprite $CockroachlabsLg [20x20/16z] {
+NSzNWWGX24NHLuqI16J_gvqyRRXVLSSCjDvOCvapbRz-y1KrQXAfcY5VduHtKYKueoaowQ0d5T1yThF0Ls4RlKf_ztmjunhuoegN-KW6E8SlI-gpjTafbqq2
+Lmbe7eO871OTC0DwBdFzDVLb7ByMl3-DlwqVZvE46bAmvsx37KTFLCM3gp7mtoS
+}
+!procedure Cockroachlabs($id, $name="Cockroachlabs", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cockroachlabs', $name, $tech)
+!endprocedure
+!procedure CockroachlabsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CockroachlabsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CockroachlabsGroup($id, $name='Cockroachlabs', $tech='')
+  IconGroup($id, 'IconGroup', '<$CockroachlabsLg>', $name, $tech)
+!endprocedure
+@enduml

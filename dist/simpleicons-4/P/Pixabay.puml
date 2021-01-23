@@ -1,0 +1,16 @@
+@startuml
+sprite $PixabayMd [14x14/16z] XOpL0GD024Cvmo7xRrkNh_QT0adeBtjy5Glb-rsPa6JA93OTOy-Rsiiw2xYUkZOad1MwLk1QvG7Gg-DSgvM4ArkPiSZqNlLLtJjxabpHAt9DffzS
+sprite $PixabayLg [20x20/16z] {
+hOm7aWCm20E5Um7q_zyUllHaUhAkB1hm0oH_kavjykPKjtEzX1ipqb1QJu2aMiAbYaEP4QvgvEozjtCacitLVIi3ZsC98Rsj8SKvHTA-k4xXmT2jfelJ2Hws
+E5NikCo2zzmqkRZxlBtOSNLq9SDrjmpqEwrN0K9znHy
+}
+!procedure Pixabay($id, $name="Pixabay", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pixabay', $name, $tech)
+!endprocedure
+!procedure PixabayCard($id, $funcName="", $content="")
+  IconCard($id, '<$PixabayMd>', '', $funcName, $content)
+!endprocedure
+!procedure PixabayGroup($id, $name='Pixabay', $tech='')
+  IconGroup($id, 'IconGroup', '<$PixabayLg>', $name, $tech)
+!endprocedure
+@enduml

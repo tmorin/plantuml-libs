@@ -1,0 +1,16 @@
+@startuml
+sprite $ArtstationMd [14x14/16z] LStLhGKm081Gwbxst_RfjPFm3J_IMfsdU3sHfwwJFsaGZcRuCInKtVn8Uc1h1LXg8-iDXEgFoDHEoEL79AhfuxB677D-rtykNlzLYZrF_nmO4TA_07m1
+sprite $ArtstationLg [20x20/16z] {
+NOy50WCX30I3bulz_xTTUfOoU7IXYp7dhFJFPEQssOQ3FL1Wu_3EWwWwwA_ji8mDDajqKTmdWXryOgbwjh5ochgVvRFYF6YHn1SDplC4qy5Pdd5AefHPPQ4j
+w4at5FG4JZsbr8jIqzApmUadGjM24UKRrDGURElRB8GI_22Lg1JOefgJBm
+}
+!procedure Artstation($id, $name="Artstation", $tech="")
+  IconElement($id, 'simpleicons-4/A/Artstation', $name, $tech)
+!endprocedure
+!procedure ArtstationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArtstationMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArtstationGroup($id, $name='Artstation', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArtstationLg>', $name, $tech)
+!endprocedure
+@enduml

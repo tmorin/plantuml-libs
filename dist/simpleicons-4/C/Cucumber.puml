@@ -1,0 +1,19 @@
+@startuml
+sprite $CucumberMd [14x14/16z] {
+DSY5OS0m30J0CmdYxBzkkT8pilSSkmlCvmoSPs4yqzywhDpaESqk-MDTXLR9BGDgVRUJx2HN5JVFZhlqF3qvRxsCPZLpZaKUH0typjYTW_qClzSnk_-BSsk1
+Jm
+}
+sprite $CucumberLg [20x20/16z] {
+HSi7iYKX28NXdo28SiVzhtPUihg_2iG38BEdgrfs2PUk3WMDlOq_riaLxG1e3nwZ5Q0Ia06XG2vGMmAC4tOIa6ru5eZhgdXYEGVO-RY80135B0SybSllZbW6
+Caj_Tp43_6npiJm5KLWKuDG_FwO2bQ3R0FcKd0btp0LWWkapiIOFRUFNMhT1EhYoQm1OJrxv4MHsm4jNL9S2BzqhbUiB
+}
+!procedure Cucumber($id, $name="Cucumber", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cucumber', $name, $tech)
+!endprocedure
+!procedure CucumberCard($id, $funcName="", $content="")
+  IconCard($id, '<$CucumberMd>', '', $funcName, $content)
+!endprocedure
+!procedure CucumberGroup($id, $name='Cucumber', $tech='')
+  IconGroup($id, 'IconGroup', '<$CucumberLg>', $name, $tech)
+!endprocedure
+@enduml

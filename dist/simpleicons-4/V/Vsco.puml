@@ -1,0 +1,16 @@
+@startuml
+sprite $VscoMd [14x14/16z] JOw70GCW3CC2blZ_vBeRCRCziyGIrnHycSZCHWv9hvegCR6sMv0fr0RDl8WU2MyBgCLb8LVcrGNGSqsuf_DJniieEwTaz_i
+sprite $VscoLg [20x20/16z] {
+RT054YKm20FG4990xt_WbU_sfYCr3F_qjjHgSHitEfHQ4ezmKQFA3JM5Vsnv3H9UomBQYoN74uTSZ97KcOhmZr9pofn8TOWBdfAYgcqADs9lnOuN3vjeMqRm
+CB3IdTUpm1rxylxNfshvceDR-LNBjMQ_rNpfhJYPVukrM7_Fm8zPEHUbgUTCBxZ2NVKrNbyV_GK
+}
+!procedure Vsco($id, $name="Vsco", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vsco', $name, $tech)
+!endprocedure
+!procedure VscoCard($id, $funcName="", $content="")
+  IconCard($id, '<$VscoMd>', '', $funcName, $content)
+!endprocedure
+!procedure VscoGroup($id, $name='Vsco', $tech='')
+  IconGroup($id, 'IconGroup', '<$VscoLg>', $name, $tech)
+!endprocedure
+@enduml

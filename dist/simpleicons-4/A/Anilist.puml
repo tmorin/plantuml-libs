@@ -1,0 +1,16 @@
+@startuml
+sprite $AnilistMd [14x14/16z] NOpL0KKX5CEGuXoo_xHFh-UlwfvuAKJvJJKmg9iolhI_45VLi7KeRxHoA47okr87CxRFjlWpSod9O9JIEOYVgwqXoNs8-XBTZJS
+sprite $AnilistLg [20x20/16z] {
+bOy50WGX201jgOF___Qsknnxm78j502CjMkhyjR1NSDDcatGwkJiefuTcAaUN7SwmzwbBWU3xboVaXrjdUzlhMdhGh8LdB-rSL9oAINAhvjhnnhH8Umwikse
+hcTT0m3wwUI9uZxo1m
+}
+!procedure Anilist($id, $name="Anilist", $tech="")
+  IconElement($id, 'simpleicons-4/A/Anilist', $name, $tech)
+!endprocedure
+!procedure AnilistCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnilistMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnilistGroup($id, $name='Anilist', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnilistLg>', $name, $tech)
+!endprocedure
+@enduml

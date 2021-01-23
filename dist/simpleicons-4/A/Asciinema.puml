@@ -1,0 +1,16 @@
+@startuml
+sprite $AsciinemaMd [14x14/16z] RSwr0S1G30FHpspV_jk6EUfUTMhQdJdNb69FLGL9Ty48fzgONTskQEfCpPjoHbR7MK1nvLHtKK3dq2ng1vhxBQ2t-lrPcRFN9W
+sprite $AsciinemaLg [20x20/16z] {
+TP255G0X2401k_UVzigMTxQVnhZY2FRni20uAqrpPoKRPAoKf3WhpMrdqQIFMbeOeCsV0xqmqCr1b9t9-1owEl3KOsGDihBGcKFoksqMq68O734qouNdp6lZ
+FVZlLP2m3sqqdEC6
+}
+!procedure Asciinema($id, $name="Asciinema", $tech="")
+  IconElement($id, 'simpleicons-4/A/Asciinema', $name, $tech)
+!endprocedure
+!procedure AsciinemaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AsciinemaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AsciinemaGroup($id, $name='Asciinema', $tech='')
+  IconGroup($id, 'IconGroup', '<$AsciinemaLg>', $name, $tech)
+!endprocedure
+@enduml

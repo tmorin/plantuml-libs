@@ -1,0 +1,16 @@
+@startuml
+sprite $RedhatMd [14x14/16z] POw50SCm30JVBDR-quRApHd5ZniLfNsCS4zVvM6jlB27PVcW0drEUbeJo0oCk2m-hHHWi1eFWXzcpFBendK-6ggUVg3AyNmDgMHn6VMbf_LUySSE
+sprite $RedhatLg [20x20/16z] {
+bT2rWKKX54NHWykr_glzpx1mPeSB1_ygHSIQt4dHbDMCos5a8mcJlAreMjccduIGRHTlwQJY3YotVME1fjLX6e3GMEyeDOUnmW5m8NW4OzVvkrYD_hqzcJKu
+clTb8bQx0v1rw7b7L-IqF3-ciuujZezm8PTQI_BuSnS
+}
+!procedure Redhat($id, $name="Redhat", $tech="")
+  IconElement($id, 'simpleicons-4/R/Redhat', $name, $tech)
+!endprocedure
+!procedure RedhatCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedhatMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedhatGroup($id, $name='Redhat', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedhatLg>', $name, $tech)
+!endprocedure
+@enduml

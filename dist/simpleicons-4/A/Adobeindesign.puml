@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobeindesignMd [14x14/16z] bOhL0S0W34HnYDx-qzRzhmz9JWmF6fumlZYlNv5TIJ308btAImnygPBuog94mgEPiuH3QNRBCIj-m9NqWk8C
+sprite $AdobeindesignLg [20x20/16z] {
+bP250OGm34L_lOtkF-svuZoenHDMdw1HRIgpv7FOTx0-le-Hv7v8-0bLGKzPdiYe9ana3OZ_CbP4c_ZoGFEfZ51cCWze3J-rj9kC4n3QJmFws6RpE0ylpJJ4
+mN-CY2i
+}
+!procedure Adobeindesign($id, $name="Adobeindesign", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adobeindesign', $name, $tech)
+!endprocedure
+!procedure AdobeindesignCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobeindesignMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobeindesignGroup($id, $name='Adobeindesign', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobeindesignLg>', $name, $tech)
+!endprocedure
+@enduml

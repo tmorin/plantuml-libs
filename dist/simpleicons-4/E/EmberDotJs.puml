@@ -1,0 +1,16 @@
+@startuml
+sprite $EmberDotJsMd [14x14/16z] XOt50G1120DdNO7-gpsNvyu7JM9BHft_487n3eNKoU_aKA5UhTeWglTw3ZFZWA0c_HYbnSkYEtUTnH6JmpqXtO4h-fhg55ko0m
+sprite $EmberDotJsLg [20x20/16z] {
+hOz50iGm24L_q1hX_hUTUfck-w8uv1Siu_BMC03jLHK4D62eEWCi15hT0CbqMD6Dm9JHCDrEaGhCCy5AUcxOy5NgaTkjjAcQpAimKpkwx5jpkcaCeEMfqKIt
+51Hv8TXfNYTn8cAF_AVd9_m
+}
+!procedure EmberDotJs($id, $name="Ember Dot Js", $tech="")
+  IconElement($id, 'simpleicons-4/E/EmberDotJs', $name, $tech)
+!endprocedure
+!procedure EmberDotJsCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmberDotJsMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmberDotJsGroup($id, $name='Ember Dot Js', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmberDotJsLg>', $name, $tech)
+!endprocedure
+@enduml

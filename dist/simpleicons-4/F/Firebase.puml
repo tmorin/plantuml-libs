@@ -1,0 +1,16 @@
+@startuml
+sprite $FirebaseMd [14x14/16z] JSe53W0X30NHuixS_xGhG1D-h2yT4SbThXLkLMBA8cQhaoSI-uAX5qPYhgSbpmzWVyLMHvf0M2fzWVJBrxn0_UKEQAlaR9XFMLLafMrrJixy67uTBm
+sprite $FirebaseLg [20x20/16z] {
+PS_50GH12011nftEFzfJrkk98rzqUM38dOSapbrY4OQqQt-1cPKWqfAO1gN3a4uLCnW5o8rZsQACVuXb8SVCa2k0EbkhUL4QFy7Mjags45b-Qj9ICRROZoD4
+jtcviPjMTmgnlBrneh_5hkefLEt0q34zo2vEW1db8g-LnBm1
+}
+!procedure Firebase($id, $name="Firebase", $tech="")
+  IconElement($id, 'simpleicons-4/F/Firebase', $name, $tech)
+!endprocedure
+!procedure FirebaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirebaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure FirebaseGroup($id, $name='Firebase', $tech='')
+  IconGroup($id, 'IconGroup', '<$FirebaseLg>', $name, $tech)
+!endprocedure
+@enduml

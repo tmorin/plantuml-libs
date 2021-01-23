@@ -1,0 +1,19 @@
+@startuml
+sprite $PinterestMd [14x14/16z] {
+7S670SKW34D1qI7OUljF-qlkf79udQAVOLxkKXb0dXF0q34UgbKzSG5wIGWrM12AcERH9M1NceBKnd0AJIPrCBZSrc4h2I1kAN4qOHt3rQXbWKiPi0gl8Mam
+9u27_cfx87QHz0K
+}
+sprite $PinterestLg [20x20/16z] {
+JP254GHH34B9TwV_Rc_8hRqnuW80SV9YHbpanOkL0AVnGuMehlUSwtR6B36Y0HQwT8AY7gir0KfOfaX7yBfftYX91ooExa4xfDH4uW0cUGo3t1wjBFAfefD7
+Gr7aa_GyYMF61dLUm5QjhpABNrCyqYd6YeY73LZQHJkho60636aBoHDHLaxrIAVhBTKpd7O_9cE_ltBopeNEohWnKwizia7y
+}
+!procedure Pinterest($id, $name="Pinterest", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pinterest', $name, $tech)
+!endprocedure
+!procedure PinterestCard($id, $funcName="", $content="")
+  IconCard($id, '<$PinterestMd>', '', $funcName, $content)
+!endprocedure
+!procedure PinterestGroup($id, $name='Pinterest', $tech='')
+  IconGroup($id, 'IconGroup', '<$PinterestLg>', $name, $tech)
+!endprocedure
+@enduml

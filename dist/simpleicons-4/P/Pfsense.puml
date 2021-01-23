@@ -1,0 +1,16 @@
+@startuml
+sprite $PfsenseMd [14x14/16z] JSV50G0n30F1jSEe_gizU2L6ZKwj4YzLuw13F8eCINDhZ6-nJmDtY1rWp8pb3CL9JSqPKgH5bfHmQJlj_p9ih4Hfv4_mLrIW_xAUOvDAsR-2hl9oeRy
+sprite $PfsenseLg [20x20/16z] {
+PSt7WGKW203HCMVelzirRVBFyIcWRot7bwJ4yD2mm6CEhFjF7ToG_nQXxAszpm-jYSgmcBA-PKmEW1kDbPiOk8N8ok__kDeysEOWTz5HmQ-B1jiTLcSbGJ_c
+xxC61-jIWbmWBpD0KSbWXuUnZ9MrG1i6gzVivgO5qZNNYmzvxcmnZMjHtw1yckalfIy
+}
+!procedure Pfsense($id, $name="Pfsense", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pfsense', $name, $tech)
+!endprocedure
+!procedure PfsenseCard($id, $funcName="", $content="")
+  IconCard($id, '<$PfsenseMd>', '', $funcName, $content)
+!endprocedure
+!procedure PfsenseGroup($id, $name='Pfsense', $tech='')
+  IconGroup($id, 'IconGroup', '<$PfsenseLg>', $name, $tech)
+!endprocedure
+@enduml

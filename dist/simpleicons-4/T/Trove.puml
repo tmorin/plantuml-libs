@@ -1,0 +1,16 @@
+@startuml
+sprite $TroveMd [14x14/16z] LSU54G0n24JHcGGEP_llzjn-11w0lWAsctQLs2AIPKkO3XMEwX2FERAsxn2gAM9s0H3H1aSmMcLh60xPa0MGMu8jqPyC546tc4VLO3vaqnfeduP_lW8
+sprite $TroveLg [20x20/16z] {
+dStL0SCm301HCrkt_xPLcFvwuHS3toRV1AZnLjtSktH8SdwtobdRpMMPKq3qNjncmMWUlD72PgFraQrWq-XjSDRKN6LBDmjrCrkX1ltMdB_CMmMWtAq0VvXx
+MJ62pH1Egyv4ICOLlrirDWsqaQpPJPgm9ts229_I3m
+}
+!procedure Trove($id, $name="Trove", $tech="")
+  IconElement($id, 'simpleicons-4/T/Trove', $name, $tech)
+!endprocedure
+!procedure TroveCard($id, $funcName="", $content="")
+  IconCard($id, '<$TroveMd>', '', $funcName, $content)
+!endprocedure
+!procedure TroveGroup($id, $name='Trove', $tech='')
+  IconGroup($id, 'IconGroup', '<$TroveLg>', $name, $tech)
+!endprocedure
+@enduml

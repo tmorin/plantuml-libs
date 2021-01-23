@@ -1,0 +1,20 @@
+@startuml
+sprite $PivotaltrackerMd [14x14/16z] {
+BOw50GGW30CJd9Rdzf_slUwDv0tdG5XlwX1Z9dJ9dRHMaUETRa9VKnKOIclzCiZ28WhSo4Ce7sSwCulEmvgSAPyZPuOdf3OduqBzc98CxkZjVULpl2dOUXkx
+4rPPTjB_oEO8tic7l1vmboMz
+}
+sprite $PivotaltrackerLg [20x20/16z] {
+PP15OY0n40FbSOEv_l_QtMJWb3esIj8FTV0ogrvy0US0s_NGOALTb-M2zfMowEgNLF8kLWUN0gP-C73DHKYg1xpCKB0Ah6BkjSC8w5eOf0wGcxOXb0omkxOy
+-dtJs9ogrli8AS-kz-NVcgvzKlBHUzDr09CcT7_StBka74xZv5qB1Ynro06zkbkPs5YaOXPxBj-QgzqNfG4XEVYJGHJT8PJuWic_MKdsPSfoVHGR6_Rmeb_-
+0m
+}
+!procedure Pivotaltracker($id, $name="Pivotaltracker", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pivotaltracker', $name, $tech)
+!endprocedure
+!procedure PivotaltrackerCard($id, $funcName="", $content="")
+  IconCard($id, '<$PivotaltrackerMd>', '', $funcName, $content)
+!endprocedure
+!procedure PivotaltrackerGroup($id, $name='Pivotaltracker', $tech='')
+  IconGroup($id, 'IconGroup', '<$PivotaltrackerLg>', $name, $tech)
+!endprocedure
+@enduml

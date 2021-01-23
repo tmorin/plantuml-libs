@@ -1,0 +1,16 @@
+@startuml
+sprite $SlashdotMd [14x14/16z] LOxL0GCm50A9Usx_QUkDtDTJG5_iP1hzyT2qwE1N4w1UAxUQ26KrPe1TNRfMbrU6B5DwCIj6uNjU84a369A5OQGALFaAKPAfDACd
+sprite $SlashdotLg [20x20/16z] {
+XP253O0m54JhBljlopK1wculNu_KONBEWVJ3WlaUyOp1U-Q0tCACzSm3cHv9e7GtKq2nDwC1J2_CUaGZcBgR9J29suHWQ1N4lzszxR5Y9WWH1U7rQUJULjvS
+_3MhTjNiZOV0j96IcfXAtWS
+}
+!procedure Slashdot($id, $name="Slashdot", $tech="")
+  IconElement($id, 'simpleicons-4/S/Slashdot', $name, $tech)
+!endprocedure
+!procedure SlashdotCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlashdotMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlashdotGroup($id, $name='Slashdot', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlashdotLg>', $name, $tech)
+!endprocedure
+@enduml

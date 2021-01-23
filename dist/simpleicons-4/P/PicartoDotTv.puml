@@ -1,0 +1,16 @@
+@startuml
+sprite $PicartoDotTvMd [14x14/16z] BKt70S102DBhLVRVDeQJbr95T8AOAevgxxFgIeMriVV_Lvc68wdHOGhWIjfPT023dngQ5-2yxtX3km0_psNsl6yCNk6CoS65-2nnlOEeyXSJV1pQZnSCzVC3
+sprite $PicartoDotTvLg [20x20/16z] {
+NT050e0W30LGGdARtF-qnihu9eycNCcmD923fg0P5QM-Nkb6s1e2EkPoVSTLKqBT6Ki0SWjny9XnBR66zvJRFK1nuuNmTxvi9Z5omsHzEJP7ubulsqBZjRpx
+0eXyvx0KmBzXpELlnSwWmlzWB4R_CxN4Ckc2MI8NJm
+}
+!procedure PicartoDotTv($id, $name="Picarto Dot Tv", $tech="")
+  IconElement($id, 'simpleicons-4/P/PicartoDotTv', $name, $tech)
+!endprocedure
+!procedure PicartoDotTvCard($id, $funcName="", $content="")
+  IconCard($id, '<$PicartoDotTvMd>', '', $funcName, $content)
+!endprocedure
+!procedure PicartoDotTvGroup($id, $name='Picarto Dot Tv', $tech='')
+  IconGroup($id, 'IconGroup', '<$PicartoDotTvLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TodoistMd [14x14/16z] TSs34GHG30JG-OYn_LTxDjumNBnA_18lxTh3SMQ9bY6DYpNst9LJSTOjqVT5Z9KojDMk4JQeVQx46HboJySLhpdqDRZnH-857m4
+sprite $TodoistLg [20x20/16z] {
+dSt5WGL0309GneL9wB_QtU_kxnP5zwRkKQ-j-oyny6Od8PrQVKZoXZ1q0gJP0vghdHON8r1C8w3QeMUkkRRlibtS3db1eApxeLSB0j1tCTGHSzszQww3jFt3
+k8qv2K3DYDILYj1rorm_uUHTA_u3
+}
+!procedure Todoist($id, $name="Todoist", $tech="")
+  IconElement($id, 'simpleicons-4/T/Todoist', $name, $tech)
+!endprocedure
+!procedure TodoistCard($id, $funcName="", $content="")
+  IconCard($id, '<$TodoistMd>', '', $funcName, $content)
+!endprocedure
+!procedure TodoistGroup($id, $name='Todoist', $tech='')
+  IconGroup($id, 'IconGroup', '<$TodoistLg>', $name, $tech)
+!endprocedure
+@enduml

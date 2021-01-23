@@ -1,0 +1,16 @@
+@startuml
+sprite $RosMd [14x14/16z] LOw50SD030ElIfv1-qzR9ZFRihV8TaRRqxQeTaNssXvmx7t0S9K0tfP8kPv0AS1P5M_6hBJVP1E1Bk53_6xx-25RRg2r1Ctv1W
+sprite $RosLg [20x20/16z] {
+ZT1LGWL134JHspgMIUr_jnGEpyzVIrJMeOGK1RgFcsn0FQMpml1nbotGKyeEYuyXQy0X7K3rSVQnDApCMR2s35vLwYXWhN-UHoLIKO1LMe4IoYwRq5BA1jF7
+uzRTUIFsfqR_hV6gtgzdazMB7TpRrULEzz26ZSo1ROhw1W
+}
+!procedure Ros($id, $name="Ros", $tech="")
+  IconElement($id, 'simpleicons-4/R/Ros', $name, $tech)
+!endprocedure
+!procedure RosCard($id, $funcName="", $content="")
+  IconCard($id, '<$RosMd>', '', $funcName, $content)
+!endprocedure
+!procedure RosGroup($id, $name='Ros', $tech='')
+  IconGroup($id, 'IconGroup', '<$RosLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $FozzyMd [14x14/16z] {
+DOw5GGHG34FptVlstvO0TtLl94t-Q2MPQa1WRLAgkBgO4vfMm4Y4khi9Dkym50xSpuk_rimydZ9qjv8UphHfRiaP51LUH5RcWeldpqx62fgRaLHjKdCzNzg0
+AgbzaJanfV7WZYJf1m
+}
+sprite $FozzyLg [20x20/16z] {
+JP05aiLG2C2mshFS_xQxCB-I4InGaN-iyQEx_8Z1ZxdzMaSPa-9yMfVhOEqdrRG02DcXYIzWapOWoy5okUgcvk9WjfysBjW03n9BpHqQ39L9QT151pCBsVXf
+8T9OrSiNKSkqUhMRRtAsqhGp0HUn-TiGX-ltEGUK9YT47n0bbXPvom9MrFmGYVNOd9RVO9aUdt-rW5yhsIO_HiYDRct2l48b-GC
+}
+!procedure Fozzy($id, $name="Fozzy", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fozzy', $name, $tech)
+!endprocedure
+!procedure FozzyCard($id, $funcName="", $content="")
+  IconCard($id, '<$FozzyMd>', '', $funcName, $content)
+!endprocedure
+!procedure FozzyGroup($id, $name='Fozzy', $tech='')
+  IconGroup($id, 'IconGroup', '<$FozzyLg>', $name, $tech)
+!endprocedure
+@enduml

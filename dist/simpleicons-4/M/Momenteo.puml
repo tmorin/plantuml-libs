@@ -1,0 +1,16 @@
+@startuml
+sprite $MomenteoMd [14x14/16z] bKd50OLG34lwjBh_jj-58rIYk39of1NhHnm6dS1Ks8GvIM_DAGzQqclGDaTriKSgrhTsUrGU8P2SCnyKYmJm-3UTdpi
+sprite $MomenteoLg [20x20/16z] {
+lKg50GGn20jM9Ut-spvlAnmQmqCLxOzQ_40dnnSDid-0KuMVP52K0OYUAFqOOFJIZsBbW1ewHRB352F1XB2ykSU27WhsSCEUvI5dxPWRnl0IIex1AA5aptjJ
+0SdhTbC0pHiU1XHqm1LL5dYYNW
+}
+!procedure Momenteo($id, $name="Momenteo", $tech="")
+  IconElement($id, 'simpleicons-4/M/Momenteo', $name, $tech)
+!endprocedure
+!procedure MomenteoCard($id, $funcName="", $content="")
+  IconCard($id, '<$MomenteoMd>', '', $funcName, $content)
+!endprocedure
+!procedure MomenteoGroup($id, $name='Momenteo', $tech='')
+  IconGroup($id, 'IconGroup', '<$MomenteoLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $EightsleepMd [14x14/16z] POu50iGW40DNxbey_tzjBL35Lp91nD67opQc4Krx586_sH-8ZEf-LKO1pLMz8UoH0sqRf10p86ALKJNga498GEXC5L4o6T7XuVxzcGG6EsG5
+sprite $EightsleepLg [20x20/16z] {
+TP050e0m24KtM1VtlwtVOSVJ5Gq6L3ceHh7zb7MhiY1W005HPMcz4ZD5NF8X6sG0zQkiVyWa66jduAGoHl1HmPg4ZH95ETE2ielA8Sfoa8tYH8kUXplpPWVo
+cHUoCTFHkDMiilxJs_SClcVrFLD3PnypxW8
+}
+!procedure Eightsleep($id, $name="Eightsleep", $tech="")
+  IconElement($id, 'simpleicons-4/E/Eightsleep', $name, $tech)
+!endprocedure
+!procedure EightsleepCard($id, $funcName="", $content="")
+  IconCard($id, '<$EightsleepMd>', '', $funcName, $content)
+!endprocedure
+!procedure EightsleepGroup($id, $name='Eightsleep', $tech='')
+  IconGroup($id, 'IconGroup', '<$EightsleepLg>', $name, $tech)
+!endprocedure
+@enduml

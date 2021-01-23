@@ -1,0 +1,20 @@
+@startuml
+sprite $SkypeforbusinessMd [14x14/16z] {
+9Ot50KKn3CEKSfy3-q_xKQU0OIdsyV1K1vIdjNEEuW9--6CId0OZgjJG_MwMCNS5BPeVUWdQ06s_e2hV1kV-KkQJ5VRPGjWnk3NOpnFMAiOdjj6oN_qQSe8b
+ICQVBU3ciyzkjhFpeUrxbUcTDm
+}
+sprite $SkypeforbusinessLg [20x20/16z] {
+HKy70iCW43hFSoly_xULhj1cCfFySCy50aHt4po0sSSXGQvimi4McIBdQ8TTxuXi3ohdFUzfGfbxzSk6bFEjdgJGf0pRGogovrYaMzhBS99Pv_7RqyKt9Z9a
+u6xVhinCvgjO976cQp3gTqjPq6l_l6DeyZrYa5tU0Wqeg79jZakVsTTEriZctabH0nviwY10BcKqQfpMh7EMLDBfmwxbWUE6IhbRk8USlk6VxP-yCze0mhv8
+KMkP8CPLlG
+}
+!procedure Skypeforbusiness($id, $name="Skypeforbusiness", $tech="")
+  IconElement($id, 'simpleicons-4/S/Skypeforbusiness', $name, $tech)
+!endprocedure
+!procedure SkypeforbusinessCard($id, $funcName="", $content="")
+  IconCard($id, '<$SkypeforbusinessMd>', '', $funcName, $content)
+!endprocedure
+!procedure SkypeforbusinessGroup($id, $name='Skypeforbusiness', $tech='')
+  IconGroup($id, 'IconGroup', '<$SkypeforbusinessLg>', $name, $tech)
+!endprocedure
+@enduml

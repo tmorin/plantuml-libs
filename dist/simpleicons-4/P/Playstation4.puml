@@ -1,0 +1,13 @@
+@startuml
+sprite $Playstation4Md [14x14/16z] hSf70K0n34EnbzZku0_uZsAepk8AIMawBd3RMc46Ickuks6PRCrzTWBTPNF52m
+sprite $Playstation4Lg [20x20/16z] pOs50G0W408_mFpzrxM7yCmla8_0njzFzsjY2syhcRFvocaEmu9zvJfESx9mmdpNJyvhLeqh8IlVJQGKfXJvEP4c3vEVc
+!procedure Playstation4($id, $name="Playstation4", $tech="")
+  IconElement($id, 'simpleicons-4/P/Playstation4', $name, $tech)
+!endprocedure
+!procedure Playstation4Card($id, $funcName="", $content="")
+  IconCard($id, '<$Playstation4Md>', '', $funcName, $content)
+!endprocedure
+!procedure Playstation4Group($id, $name='Playstation4', $tech='')
+  IconGroup($id, 'IconGroup', '<$Playstation4Lg>', $name, $tech)
+!endprocedure
+@enduml

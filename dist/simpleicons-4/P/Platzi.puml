@@ -1,0 +1,16 @@
+@startuml
+sprite $PlatziMd [14x14/16z] LSt10S0G44JH0G6O_hiD0F_sO1SjNSWeCFEiwGEVAXSSHAvS06HY5ce2CAGA2wemOQcYACoN8ZVK1asImAPqUBQ7mvh1oZ5hr7u
+sprite $PlatziLg [20x20/16z] {
+PT350S0W04FHu0xxJrjli7zyEFZoxIe9ZCNRijo8ICg1I1BmH19U52Dzw3_Y9U8zh2rdNQboZIEaXPgPJDMB7A0Tr-hoqdY68mrt2QIEmWbWUvl5ZEb-XCR-
+Lmeh5eafNrlyw0G
+}
+!procedure Platzi($id, $name="Platzi", $tech="")
+  IconElement($id, 'simpleicons-4/P/Platzi', $name, $tech)
+!endprocedure
+!procedure PlatziCard($id, $funcName="", $content="")
+  IconCard($id, '<$PlatziMd>', '', $funcName, $content)
+!endprocedure
+!procedure PlatziGroup($id, $name='Platzi', $tech='')
+  IconGroup($id, 'IconGroup', '<$PlatziLg>', $name, $tech)
+!endprocedure
+@enduml

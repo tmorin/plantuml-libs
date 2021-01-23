@@ -1,0 +1,16 @@
+@startuml
+sprite $HatenabookmarkMd [14x14/16z] VSU50SD030D0-ncb_QTjmvmOTJnMEQdpMkWOBsPv4SdKECjfLRjBecRA9gyE9YrIUkcnp0fYDDB4MK0VBx-h5-o0-mC
+sprite $HatenabookmarkLg [20x20/16z] {
+fOx5WGGm30CLJapglzg3PSPvsY9UCsxSverRy0ryBH4ZAUjm4_pJw0c7coBr2fZdqrkX8SMv3YLZyLo7b93yN5U21OEZdzooQFwxzNwnfOGbnFuM8g8Mf1c_
+96xSvfWNvvZu1G
+}
+!procedure Hatenabookmark($id, $name="Hatenabookmark", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hatenabookmark', $name, $tech)
+!endprocedure
+!procedure HatenabookmarkCard($id, $funcName="", $content="")
+  IconCard($id, '<$HatenabookmarkMd>', '', $funcName, $content)
+!endprocedure
+!procedure HatenabookmarkGroup($id, $name='Hatenabookmark', $tech='')
+  IconGroup($id, 'IconGroup', '<$HatenabookmarkLg>', $name, $tech)
+!endprocedure
+@enduml

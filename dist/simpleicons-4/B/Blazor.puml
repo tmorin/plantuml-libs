@@ -1,0 +1,19 @@
+@startuml
+sprite $BlazorMd [14x14/16z] {
+FKu50e0m24Hg6_d_rzfADmS_RK3o9qYWwmc8PY9t0MYuLNTQTzCCOY7jYofpyzEeN9alDaUcOZyp5Ixqrh1pDk7AijdMcJ5C2aCMeZmJICUgx2eZkBuPwXpA
+lC55bclEDUb3A2huX0S
+}
+sprite $BlazorLg [20x20/16z] {
+PSm5eg0X20JWGGa3dFlVTl_OrvyjWJ-yuGS1C3g-qm0w9pv97tJqOk9Yk-fSM3fu0LeoXqVo4rfLH-ljhdhLt2KzIPPAyh78hkHmcxJEXzT6dIPgo9B5osdJ
+ErqEsHVDUHa8ixlw-OlxJC5mVV8ImUxawK2kjv-OY2IF0Y2RaJEIkGvtmoKhOOUFtGMtrk-WHhYAgEBLYyjKBTPqV918dbCh1D_91P_-0G
+}
+!procedure Blazor($id, $name="Blazor", $tech="")
+  IconElement($id, 'simpleicons-4/B/Blazor', $name, $tech)
+!endprocedure
+!procedure BlazorCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlazorMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlazorGroup($id, $name='Blazor', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlazorLg>', $name, $tech)
+!endprocedure
+@enduml

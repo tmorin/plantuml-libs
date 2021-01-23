@@ -1,0 +1,13 @@
+@startuml
+sprite $NiconicoMd [14x14/16z] jSU50S1020J1VLUW_shZra06FI1gW22HWviLwdGyiPoXZSqqc_kDzZL-JxtsRjetszy3q3ARMe4L
+sprite $NiconicoLg [20x20/16z] tSZ50SKm30DGnt8uiVQVzcEv6_HT1F8rfdv3PvTDetq3R78vxNzjAWtR1Ki_JlT_W_0kygu-v2jzk7_Il_Wh0o506xi2K4mMHP0l7P2Vs7_n1W
+!procedure Niconico($id, $name="Niconico", $tech="")
+  IconElement($id, 'simpleicons-4/N/Niconico', $name, $tech)
+!endprocedure
+!procedure NiconicoCard($id, $funcName="", $content="")
+  IconCard($id, '<$NiconicoMd>', '', $funcName, $content)
+!endprocedure
+!procedure NiconicoGroup($id, $name='Niconico', $tech='')
+  IconGroup($id, 'IconGroup', '<$NiconicoLg>', $name, $tech)
+!endprocedure
+@enduml

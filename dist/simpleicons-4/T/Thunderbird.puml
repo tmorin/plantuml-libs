@@ -1,0 +1,19 @@
+@startuml
+sprite $ThunderbirdMd [14x14/16z] {
+BSn70aGn209GbFJ6_MyxtsJUoWe0BachEO9rXLEZyQs_PQYtUIREhZgzhplC8vTk-FHOpWn7g3U9eC795gS4mAz7Ej9f1OzBwctlokXuuf2xqTsHfHOdaMdv
+tEQnSkz_
+}
+sprite $ThunderbirdLg [20x20/16z] {
+LOy7aaKX20HX73F2_M-xJzsVkXBLPDd0ui57Ldd35HkhwMKmuasxbMd55mOHXSSFKwNFi5_P96BGmqSRjlnA-4ernja7pEEgcp3BF-LET5EXNBGUjtg3ABT0
+vgqBxb4Wk8FYnvKpBF7SZxwLpI5VsDdRftU-L3eEcZoc4Vgkgo92xuzY0eJttmSqsG1SZu9ymxcYwey2cM_H7m
+}
+!procedure Thunderbird($id, $name="Thunderbird", $tech="")
+  IconElement($id, 'simpleicons-4/T/Thunderbird', $name, $tech)
+!endprocedure
+!procedure ThunderbirdCard($id, $funcName="", $content="")
+  IconCard($id, '<$ThunderbirdMd>', '', $funcName, $content)
+!endprocedure
+!procedure ThunderbirdGroup($id, $name='Thunderbird', $tech='')
+  IconGroup($id, 'IconGroup', '<$ThunderbirdLg>', $name, $tech)
+!endprocedure
+@enduml

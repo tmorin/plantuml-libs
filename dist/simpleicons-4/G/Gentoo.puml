@@ -1,0 +1,19 @@
+@startuml
+sprite $GentooMd [14x14/16z] {
+DOxL0G0W24GnI8FzfxLzFpHt0C7SlI9SiFl2qiu3xWaLxtlATLLPI4yfjXPLHDrx1ZRHxhMUsm1HXVr2j4z_8QkYctTaWVYAabNMMZi3nhAFoDoRejNZHHY9
+hJ4SihHUES1b0W
+}
+sprite $GentooLg [20x20/16z] {
+LP350GGn200Jd1ZzTtiRkPLv3awwe1eNLI0zS9-kApxAuj0uVrJH5Z5qIQGnbMU26RJPKtQQS7IeHxelsKHC-ehcvCMeHCHmwtiGvGoj2TLuGBfQQZTvbB2c
+YsoFqjnfEdsfr6rc-Mq6G_VFQT60nin2VhMo8UjFSan5R0FJS-ye31v-tk86gipaiNROhbHLxz4bfvli8w9GUl43
+}
+!procedure Gentoo($id, $name="Gentoo", $tech="")
+  IconElement($id, 'simpleicons-4/G/Gentoo', $name, $tech)
+!endprocedure
+!procedure GentooCard($id, $funcName="", $content="")
+  IconCard($id, '<$GentooMd>', '', $funcName, $content)
+!endprocedure
+!procedure GentooGroup($id, $name='Gentoo', $tech='')
+  IconGroup($id, 'IconGroup', '<$GentooLg>', $name, $tech)
+!endprocedure
+@enduml

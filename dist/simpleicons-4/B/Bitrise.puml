@@ -1,0 +1,16 @@
+@startuml
+sprite $BitriseMd [14x14/16z] LSt5GGLG50FHNCbpwRzR0dmzcraE_aJWGodua0cH66F-6IFGTYDJoBPjBxnCheu7Gs-3lW8IopbRm67kfiIk3g3SIyLtCGW9iRC6oOn8PKmsZPSetV3b1m
+sprite $BitriseLg [20x20/16z] {
+VS_5WKKn20NGYyK3_NSxuOrzFvieXa-OyMGjF56zYr8rAuUPAkEW6NuZ9g6qC15cEfX5B1gMDznf3e-2EnOS8RWZeRv1Qn4kdBlTzWBNAhX8hOmvrq0YFGXf
+hDcHU4TiHcgxLroAUy6bHjxTQn5HSqoLGtFm_DOzxdWd8CVymqnuwGi
+}
+!procedure Bitrise($id, $name="Bitrise", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bitrise', $name, $tech)
+!endprocedure
+!procedure BitriseCard($id, $funcName="", $content="")
+  IconCard($id, '<$BitriseMd>', '', $funcName, $content)
+!endprocedure
+!procedure BitriseGroup($id, $name='Bitrise', $tech='')
+  IconGroup($id, 'IconGroup', '<$BitriseLg>', $name, $tech)
+!endprocedure
+@enduml

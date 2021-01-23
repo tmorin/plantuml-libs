@@ -1,0 +1,16 @@
+@startuml
+sprite $WagtailMd [14x14/16z] JSc54SGm34JHDREt_seF8fYy0S67M2SdcCY96A062z2q9lAU5ZGk_cdA__qmoxNbYlWhSYn9XtzRKhxatGrgrHnXsiJBgN2XxbVv0W
+sprite $WagtailLg [20x20/16z] {
+PSx5WGGm509GuWxzLxix6fcyurSm9VNW3GvPtLcBdHST4B3hwW1iJPYYn98zl9ibC_IIiJzzutfigQSksYt7LRDwuT30LzNBe6OIDqjjY_j0IdL-3KClBM29
+h3K7Yrql-1NahbhdLOepr6HgjpZz0m
+}
+!procedure Wagtail($id, $name="Wagtail", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wagtail', $name, $tech)
+!endprocedure
+!procedure WagtailCard($id, $funcName="", $content="")
+  IconCard($id, '<$WagtailMd>', '', $funcName, $content)
+!endprocedure
+!procedure WagtailGroup($id, $name='Wagtail', $tech='')
+  IconGroup($id, 'IconGroup', '<$WagtailLg>', $name, $tech)
+!endprocedure
+@enduml

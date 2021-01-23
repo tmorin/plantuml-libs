@@ -1,0 +1,19 @@
+@startuml
+sprite $PhotobucketMd [14x14/16z] {
+POo50G8m30G_Ignq_sbnv-8A_CD2jrYhDBghKyraAdSpkSIkEYgy0SxH22n1o-rof6K9Dsx48MrU5NFPABNW1eqiWnTkNBzCvYu6AFSbCtUDwPfKyyUD2E6V
+Cm
+}
+sprite $PhotobucketLg [20x20/16z] {
+ZP1NWeKm24NfaJ5Szh_RYPefxy-ZQNIWrmXTgBlnbXnPgJecgb27YefmBm0SoYA1ncBcO2aeaSqKcgsS7KRUTeKTPmSXAIxP_AA7Q7MitPLXj3bFXlcIAOGs
+KLnXdpAEMnOcKFg5uTx3_t8i71oNBFhFiAvQyc2Ps48-STMCY-uKPXcxDxs9Gird1gfCcxzPlUSR
+}
+!procedure Photobucket($id, $name="Photobucket", $tech="")
+  IconElement($id, 'simpleicons-4/P/Photobucket', $name, $tech)
+!endprocedure
+!procedure PhotobucketCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhotobucketMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhotobucketGroup($id, $name='Photobucket', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhotobucketLg>', $name, $tech)
+!endprocedure
+@enduml

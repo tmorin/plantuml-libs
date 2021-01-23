@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglecastMd [14x14/16z] LSwr0GH0449HriVflzfp_TcBOAwVciLFErtqbJXjujFWR5zDzZ-HkRvgmwWVwSQal1MijZXU0Y8G-bg8tJXsOQk8CnIwkaFo_Wn_NG4
+sprite $GooglecastLg [20x20/16z] {
+RSz50WH1349HecrLuVwd7VVCNpvMI0zgBHHR2slxgLW3FntTC9ZH3UXs7AlzshL3lqrqcMHycm1Pp4-hkHcyQ1ys9oiGF3uCIDAmqz-cUi61uFR-nhBRKXEw
+tYgI6rR6nM6yjxWhn0JcWDt3lyu
+}
+!procedure Googlecast($id, $name="Googlecast", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlecast', $name, $tech)
+!endprocedure
+!procedure GooglecastCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglecastMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglecastGroup($id, $name='Googlecast', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglecastLg>', $name, $tech)
+!endprocedure
+@enduml

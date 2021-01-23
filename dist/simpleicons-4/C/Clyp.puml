@@ -1,0 +1,13 @@
+@startuml
+sprite $ClypMd [14x14/16z] bKw30G0n3AmHxh_jswoZWvbNuIMoGoPBHddeUPWoATuNYZhCECCP87EKFhCIQSYeCHjObkoiiAdZdRDX9HhU3W
+sprite $ClypLg [20x20/16z] VP230GDH342ZCjf_slQCRxyuS0xKH2W6seq9xte7nT2DlHHtbeOhqvIJmVSBDZDU2EEi5t7He_XKJ58hnaDMsevZbBcKEUkUSxksiWVKxbNPqt9yVBt_
+!procedure Clyp($id, $name="Clyp", $tech="")
+  IconElement($id, 'simpleicons-4/C/Clyp', $name, $tech)
+!endprocedure
+!procedure ClypCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClypMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClypGroup($id, $name='Clyp', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClypLg>', $name, $tech)
+!endprocedure
+@enduml

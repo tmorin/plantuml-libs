@@ -1,0 +1,19 @@
+@startuml
+sprite $DribbbleMd [14x14/16z] {
+5Ou10W0H4083iAVs_x-z300cG8dKsg4eC4DIhJqqV3AoGykxCmT2tSVPqEzXPS1yzsWYzhVxF9VvDXl5-vrPpjVdw5eLPYjlnCrZITTjN1x9i742wyAMuEHu
+1hbMfnyy73Sz34OhfJ477cLJudwV_W4
+}
+sprite $DribbbleLg [20x20/16z] {
+DP050i0W30E7GoNv_s-7PahrscygAkagvjJqNMKdjNSnUhwcJXriswdirpI_oXCnrY7cxKgqKmKidxhTw9dTg44zSDgtd0qh9RDWXeMOQWSfcyIKD7EGLCU1
+4m2gqaeACqbgQpKEIh-KrKaiaIRRKa2LrIua0-oGM9cC_VN8Ytwiao9i5dNzsfbsVcVdoJnd4yZT3-kiadUjcR8LN1lxJT6xDYCVMd6Ql9q-XQ8WeUKK-G4
+}
+!procedure Dribbble($id, $name="Dribbble", $tech="")
+  IconElement($id, 'simpleicons-4/D/Dribbble', $name, $tech)
+!endprocedure
+!procedure DribbbleCard($id, $funcName="", $content="")
+  IconCard($id, '<$DribbbleMd>', '', $funcName, $content)
+!endprocedure
+!procedure DribbbleGroup($id, $name='Dribbble', $tech='')
+  IconGroup($id, 'IconGroup', '<$DribbbleLg>', $name, $tech)
+!endprocedure
+@enduml

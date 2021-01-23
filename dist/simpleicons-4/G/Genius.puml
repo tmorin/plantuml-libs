@@ -1,0 +1,16 @@
+@startuml
+sprite $GeniusMd [14x14/16z] FShLOGKm5CDGXJdQVzhsyVcvODUv4-HJ84QMPYWEI1KrGNK3E_dyCgtFQsZYKsTV3v3QCmh7S_ZAcahaOxhvgThvAdg_jJ3K2ccDrfTg0uYlzQx4HyefyFGF
+sprite $GeniusLg [20x20/16z] {
+LOy55iGm20MZZI3__hVT1QfJpJoqDg8Z_Ucqx5DgIgsB33iSihEvbf80y80937DK4out0BBltkQq-Z-aHdm14EK0pX4_02aU1N2AE0Qs_RL5rDrjQ7HuA09i
+fezhWEQoojkHryrlrNsE3rK1rAyIn1mFNQ-jIXJCZM7ub4DeZhdLZVRaU42mwpFe81QcuUOXvsVE7m
+}
+!procedure Genius($id, $name="Genius", $tech="")
+  IconElement($id, 'simpleicons-4/G/Genius', $name, $tech)
+!endprocedure
+!procedure GeniusCard($id, $funcName="", $content="")
+  IconCard($id, '<$GeniusMd>', '', $funcName, $content)
+!endprocedure
+!procedure GeniusGroup($id, $name='Genius', $tech='')
+  IconGroup($id, 'IconGroup', '<$GeniusLg>', $name, $tech)
+!endprocedure
+@enduml

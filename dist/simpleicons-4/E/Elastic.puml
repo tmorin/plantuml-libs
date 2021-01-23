@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticMd [14x14/16z] BOxL0KCn549F37ZPVzyAxTSL58QMCjdF1DXHDX01Anm1aC5trUvrDafyPoyBJT0fP9UZwuaCpofZ-Gg8xHzFC3Da0EPrlXqAiLIpaLuIMK2fAyw_GnAFhcy
+sprite $ElasticLg [20x20/16z] {
+HSz7WWKX24NH2oOUrFwtsmb_rvaf6S26cNAOhJfSOxcd74O5xMH4BVweFrSQIpHB1uWDExZswNIpixbMm3vIgWRNAKW1harR6O4Rm7Z6pN8-SKav86HWvO3b
+WPdAdlwayEhisPEiJaGksfO1sf3ltQMK0eZrtc0U0dXlYDrtWAVHjB3RFCIT6_7VF6g0HRhlmSTKFRcDwni
+}
+!procedure Elastic($id, $name="Elastic", $tech="")
+  IconElement($id, 'simpleicons-4/E/Elastic', $name, $tech)
+!endprocedure
+!procedure ElasticCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElasticGroup($id, $name='Elastic', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElasticLg>', $name, $tech)
+!endprocedure
+@enduml

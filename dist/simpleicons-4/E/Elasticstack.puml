@@ -1,0 +1,13 @@
+@startuml
+sprite $ElasticstackMd [14x14/16z] uoSQyA801XJ0WmBmcOAg4jKKiC5ypCnyO0P4FGiBXCR3umO
+sprite $ElasticstackLg [20x20/16z] uyS4VFnK1fnO00CMW4tTWBk5aH7JBOoCS2ObOdoOOXm
+!procedure Elasticstack($id, $name="Elasticstack", $tech="")
+  IconElement($id, 'simpleicons-4/E/Elasticstack', $name, $tech)
+!endprocedure
+!procedure ElasticstackCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticstackMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElasticstackGroup($id, $name='Elasticstack', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElasticstackLg>', $name, $tech)
+!endprocedure
+@enduml

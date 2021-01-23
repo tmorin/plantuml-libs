@@ -1,0 +1,19 @@
+@startuml
+sprite $GnuMd [14x14/16z] {
+JSVNeSKm24J1mx8O98V-ktqvtFaRznmM87T7hqh5v-ILQo3thcauUZU-dilr33Nhx94bvx5sUMuHBGtd12HIG4c2I1cSaGB2JaA1uBEPWP3Xay94LNmlo47Y
+pwmjNdePu1q
+}
+sprite $GnuLg [20x20/16z] {
+NSY5WM1120JHQcX6-9P_j7VhzaQfpBdNj0KeFTPCqclFyQCjCrQ7a7YBBzQEtGE8UIol7eBeEaz3zlCyw-LUGaVrKUI-zXwfwdCIHwrzLW-oo71ox6wxhcUX
+Y1dK9fvpAC9RIAyjjvWbW1HfNjbI0YWL1bmXEmLWL-NR6v2yKLW62SZWGya1hxs-cedNa9c63mhAaBE2Bo5cGmPy4zLLaz_awxxD7zxxe_q7
+}
+!procedure Gnu($id, $name="Gnu", $tech="")
+  IconElement($id, 'simpleicons-4/G/Gnu', $name, $tech)
+!endprocedure
+!procedure GnuCard($id, $funcName="", $content="")
+  IconCard($id, '<$GnuMd>', '', $funcName, $content)
+!endprocedure
+!procedure GnuGroup($id, $name='Gnu', $tech='')
+  IconGroup($id, 'IconGroup', '<$GnuLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $InformaticaMd [14x14/16z] HSc55S0m30DH1Gq5xJzj8NZ1_uo_b2LZfKLqGHWIPU44pi7A_wFjZX-OOapVKt5zzmtZ_rB-s-5iIHJIaCu601ylYULiQFpcjG2R2cmATZecBm
+sprite $InformaticaLg [20x20/16z] {
+NSq50WGX509GJ9oI-vzsYxybzhCGwOKTIrWuLhfI5l-eQmDEyO_K0IemQ1QWo1Ya8m7frEjya0OUI1dhYzHm79qopjTuPLnwfziEO7xDT-aFJF77Nf26Jn88
+d7jxw8iS-X_cSfYCpfw05GUm8e4L1zQCBzq1
+}
+!procedure Informatica($id, $name="Informatica", $tech="")
+  IconElement($id, 'simpleicons-4/I/Informatica', $name, $tech)
+!endprocedure
+!procedure InformaticaCard($id, $funcName="", $content="")
+  IconCard($id, '<$InformaticaMd>', '', $funcName, $content)
+!endprocedure
+!procedure InformaticaGroup($id, $name='Informatica', $tech='')
+  IconGroup($id, 'IconGroup', '<$InformaticaLg>', $name, $tech)
+!endprocedure
+@enduml

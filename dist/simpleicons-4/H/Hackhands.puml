@@ -1,0 +1,19 @@
+@startuml
+sprite $HackhandsMd [14x14/16z] {
+JSh70SCm30D0IUmr-syRT_jU900hOz63ryo6ETS12Zfds1o7vEqJcMFEwnkScxBhGs4HuNLriV7KgpFTuBKaDpEdyrlXxcjiSEqT4OwJjn9lPCDpWiVjn-E3
+y0y
+}
+sprite $HackhandsLg [20x20/16z] {
+RT054aGX201GmeRztF-q6xRElccbVJGLLHdK8eHa9M-A9NXPXaD-q2oYgF1yYrRVT7zBzGs0kA7rnjOzkEBODLiSbKw4vvje9tJcCZlyqoEF-LOFJsjcgVhO
+7E0NLzPRjMwmn6mv71m0viTElqvqIFNj4l43
+}
+!procedure Hackhands($id, $name="Hackhands", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hackhands', $name, $tech)
+!endprocedure
+!procedure HackhandsCard($id, $funcName="", $content="")
+  IconCard($id, '<$HackhandsMd>', '', $funcName, $content)
+!endprocedure
+!procedure HackhandsGroup($id, $name='Hackhands', $tech='')
+  IconGroup($id, 'IconGroup', '<$HackhandsLg>', $name, $tech)
+!endprocedure
+@enduml

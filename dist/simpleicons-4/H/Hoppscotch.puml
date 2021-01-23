@@ -1,0 +1,16 @@
+@startuml
+sprite $HoppscotchMd [14x14/16z] HSh5WSLG509GakVNwB_R8VFjx10ykiV6ro7pXgnjPcGn89IgTCOPmDXPV9JUohVDICrKrCgoS_O-lG4mlcp8NUza2jVacokDu5igEJ_g0lXpwpdwU0Fm1m
+sprite $HoppscotchLg [20x20/16z] {
+LSy53aGX34NHZqFjxN-tatQid1Yv-FCnM4vxBcMfShyRmOtFddc8I12qH4DWWMm0AwBXmnWWWnzQ6qKECHA_liXSICptYwmvDp4DXIaDlzfl53vxRwsbfBUz
+FMzLKwllDf7q_AsFwQKqGxAzzOdin4v1njvmKsy6Io1nHwbPyVO2
+}
+!procedure Hoppscotch($id, $name="Hoppscotch", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hoppscotch', $name, $tech)
+!endprocedure
+!procedure HoppscotchCard($id, $funcName="", $content="")
+  IconCard($id, '<$HoppscotchMd>', '', $funcName, $content)
+!endprocedure
+!procedure HoppscotchGroup($id, $name='Hoppscotch', $tech='')
+  IconGroup($id, 'IconGroup', '<$HoppscotchLg>', $name, $tech)
+!endprocedure
+@enduml

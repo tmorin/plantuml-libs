@@ -1,0 +1,16 @@
+@startuml
+sprite $AndelaMd [14x14/16z] NOu54aCn20MNy3FGsBl_QIkCfXl1XHykEHHcf9G_2ROrelSOsWPsXbVsE0QC1pBX6U0Pm5f095A77l7xDSeQSuwoF1CVhGqdNjN56ZJpmJtXdlw_MJ46nGS
+sprite $AndelaLg [20x20/16z] {
+RP050iGW30HByTZ-_xMLXFFR2X0TiYqre6rV6i3ONYebfmvLZ9HB2PC1N3ddwmTO2Pl9Z8mf5hPiSYyftN-nx0VsA6QFP7VrUlzti_rUQx-u1iXPQ7euNKY0
+PY-KiznfMK7BrZ0dshBro2KPGoXoLu-Y-zL6BxOw7YmfEsbobXUpovb_xeRoTmR_P_L_fY6Yv_O4
+}
+!procedure Andela($id, $name="Andela", $tech="")
+  IconElement($id, 'simpleicons-4/A/Andela', $name, $tech)
+!endprocedure
+!procedure AndelaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AndelaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AndelaGroup($id, $name='Andela', $tech='')
+  IconGroup($id, 'IconGroup', '<$AndelaLg>', $name, $tech)
+!endprocedure
+@enduml

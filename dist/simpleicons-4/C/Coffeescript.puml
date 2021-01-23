@@ -1,0 +1,16 @@
+@startuml
+sprite $CoffeescriptMd [14x14/16z] PSx50GH1449HkYYTjloZNVVz9zuDt1FbOpL28bm0a63MaP45IFOW2QWAeuJc6RTS6QE7gLBLyZBdVXTLRwpcxNWfCHphWG4SG_qXlLrfuuR-lEPLQVZh3
+sprite $CoffeescriptLg [20x20/16z] {
+TSe5WaGn20FG4AW3__wtNTP7NpqD_ea87b69VzQ8VlPQKr142Aoz8kPgBGrbdrcxjdhOxBN3Zfh7R4OXgQfj7c-iLrtAthMjJcYVCOpu9TRFeLtNbU5-YaVM
+QrY_7j7FUeWszfJgtxBAC1zgI0VEJHG4waDuapK0r3rb_TVmI_Ctw_Z3UIB2b-6Ma1Iyzm4
+}
+!procedure Coffeescript($id, $name="Coffeescript", $tech="")
+  IconElement($id, 'simpleicons-4/C/Coffeescript', $name, $tech)
+!endprocedure
+!procedure CoffeescriptCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoffeescriptMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoffeescriptGroup($id, $name='Coffeescript', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoffeescriptLg>', $name, $tech)
+!endprocedure
+@enduml

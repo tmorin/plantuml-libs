@@ -1,0 +1,16 @@
+@startuml
+sprite $ZennMd [14x14/16z] JOp50S0m30DTRiYt_xHXqaii3Gzmoi0FVeeBkAVoOAPuGOyX3eLtHcQ_kDl54xoR5wN-YNpjmaAEpdBHwfVSpPC0VnaLJtu8sLFLl3s2wfrL0W
+sprite $ZennLg [20x20/16z] {
+XOy54aGX3CLmXzx_jalMl_B6ChLCrJUwYKZNuAysZhKiCsvJifIAseHhmsnAaR6uAPa-IsqfS4U1lX84ABVM2c0eDSX32QgGvGRshZ_D_BNxRzDixEaZqEtT
+r9PItRoN4GoxiSlHhlfCnMwWgCW3
+}
+!procedure Zenn($id, $name="Zenn", $tech="")
+  IconElement($id, 'simpleicons-4/Z/Zenn', $name, $tech)
+!endprocedure
+!procedure ZennCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZennMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZennGroup($id, $name='Zenn', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZennLg>', $name, $tech)
+!endprocedure
+@enduml

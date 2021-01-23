@@ -1,0 +1,19 @@
+@startuml
+sprite $HelmMd [14x14/16z] {
+LKw50SH020kICqxsd_QbNjm9005OTmz80b83pF6dNaeVrVkUbKaHxu6DN7RtLrUph0uncBGUkOGsqHLJZoneFNSbrRneAkhW_u3jLnJxXt5-kB-p-miPSP2N
+tNy1
+}
+sprite $HelmLg [20x20/16z] {
+RP15OWKn3CMUEPpxtxOkkEq7hJIQC0hV-0zzjVFdoN3KkEu_hH-DTUxgr2xZXtLNgFZSrohfYM-nuzL4obYH41CuNP2IbWNHWpRr5JGCM8xUqCOU5sCRyXlx
+hjkhhMoHRVGvijNSUJejom0MXe1D8IeGoW0aH2YuH7QTUHkUxtPkDRGtRp2VtkhjcnOoKNm
+}
+!procedure Helm($id, $name="Helm", $tech="")
+  IconElement($id, 'simpleicons-4/H/Helm', $name, $tech)
+!endprocedure
+!procedure HelmCard($id, $funcName="", $content="")
+  IconCard($id, '<$HelmMd>', '', $funcName, $content)
+!endprocedure
+!procedure HelmGroup($id, $name='Helm', $tech='')
+  IconGroup($id, 'IconGroup', '<$HelmLg>', $name, $tech)
+!endprocedure
+@enduml

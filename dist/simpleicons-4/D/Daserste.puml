@@ -1,0 +1,16 @@
+@startuml
+sprite $DasersteMd [14x14/16z] LKu50aKX26DsU__R_Wd_rQo52YAeMr4XH5ocLcGIju5Ub6f9Zu463XtPYNYIJ8TKJ0rEC39by1zrPUFE0izSbsRXd0jQlKwz4f_EL138fqu1wGy
+sprite $DasersteLg [20x20/16z] {
+NP355G0X30L_SAV_RfVi2pg7oE1We7CNiePWodJ5YlBzmBzAf3QxJRQDQ91bhrOSWTWLahs30i1kO3X4Gy1saOC2JbSvQ9FiuJWmRhe3-wnzNReSVcTIsVkP
+_tyAAIFpT903pFo3bBiGtezXzVvfjPYGJNM8P0dC1m
+}
+!procedure Daserste($id, $name="Daserste", $tech="")
+  IconElement($id, 'simpleicons-4/D/Daserste', $name, $tech)
+!endprocedure
+!procedure DasersteCard($id, $funcName="", $content="")
+  IconCard($id, '<$DasersteMd>', '', $funcName, $content)
+!endprocedure
+!procedure DasersteGroup($id, $name='Daserste', $tech='')
+  IconGroup($id, 'IconGroup', '<$DasersteLg>', $name, $tech)
+!endprocedure
+@enduml

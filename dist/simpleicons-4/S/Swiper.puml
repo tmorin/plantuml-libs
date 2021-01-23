@@ -1,0 +1,19 @@
+@startuml
+sprite $SwiperMd [14x14/16z] {
+HSu50iGm24HHA8tBl_zjTvgr5rSmyyRHt2Hjs4ijwIG1sQ-OaAnjg3vNoh0TkGiY5IcsE2QFP7dpDy86_1LNjv2-OPgwsjH5p7K7xCkJ-kGU2z8tCpKj7bud
+pEgQlW
+}
+sprite $SwiperLg [20x20/16z] {
+RL074WGX20juh5t__ziRWUsRAI5q081GfwC6EAJjlYxkIakDMllYTBeA0xGDSmRHFk1K1Bzb2setNYrprfuq5Hp6F21EgAUl65LGEdpTkJ8upoSIWVlB6s6J
+-jrPBpEQnZ9KIcqh6xB4XYKQ1LUSSh28x3z8vm--V_N-gOEaz35w4LBv1m
+}
+!procedure Swiper($id, $name="Swiper", $tech="")
+  IconElement($id, 'simpleicons-4/S/Swiper', $name, $tech)
+!endprocedure
+!procedure SwiperCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwiperMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwiperGroup($id, $name='Swiper', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwiperLg>', $name, $tech)
+!endprocedure
+@enduml

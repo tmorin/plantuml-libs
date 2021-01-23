@@ -1,0 +1,16 @@
+@startuml
+sprite $V8Md [14x14/16z] ROo5OGH13CJ6nsjI_zKcpompwimIiLmICvCS_99Mjn-uStZt2EWigR9XjZbnrXKdv_EB2e2ewwCDne1D5tP22dRTPcMMzvarVLBJbQMX5pqORdgox_h1Fm
+sprite $V8Lg [20x20/16z] {
+VSn50W8m34JHgL5D_lrlIt7dhQAZgz9xqQlGvgn15t5B2ejj1QLJwsxcjKBlKEkfwyws1arg36DBfG8sA5AvpAeKuiGQA-T5CsOCsXBMuQGRMHVZb7hYVUWg
+3B2I3MRGZKEHChYUP_cK2xgRC6CSi7HN03VWe8SE9rtF3kPcLQzYxr7lpFGX9Vrp1
+}
+!procedure V8($id, $name="V8", $tech="")
+  IconElement($id, 'simpleicons-4/V/V8', $name, $tech)
+!endprocedure
+!procedure V8Card($id, $funcName="", $content="")
+  IconCard($id, '<$V8Md>', '', $funcName, $content)
+!endprocedure
+!procedure V8Group($id, $name='V8', $tech='')
+  IconGroup($id, 'IconGroup', '<$V8Lg>', $name, $tech)
+!endprocedure
+@enduml

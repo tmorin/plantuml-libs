@@ -1,0 +1,16 @@
+@startuml
+sprite $DevrantMd [14x14/16z] HSt50SHG24NHzzq6Rl_LJZmvAnmfJ4upQ5UubJs9N7uGbSQT16Ue6NXpIWPJTx3iX0KUzkpG8qTsJXPB3J3b0LvNT60y7unTb5IvLHtY0hUPTBCLzCbLbmq
+sprite $DevrantLg [20x20/16z] {
+NS-50KCX34NHHt48tFstxNSxk1CjWd4OGOSqESoaNUOXQnMuJ21gqJbrrw5BpdD9Ci3B9nOpLnWkx2inmp6iQlihgR2o0TuD5kMSMvZoyPkGs1ORKNQyz0ii
+XiAIsGJ96Ojcjh-0kKTezWokyT2qgrogJhu3SuuMT7ET5hpJIo1ANzNhyWS
+}
+!procedure Devrant($id, $name="Devrant", $tech="")
+  IconElement($id, 'simpleicons-4/D/Devrant', $name, $tech)
+!endprocedure
+!procedure DevrantCard($id, $funcName="", $content="")
+  IconCard($id, '<$DevrantMd>', '', $funcName, $content)
+!endprocedure
+!procedure DevrantGroup($id, $name='Devrant', $tech='')
+  IconGroup($id, 'IconGroup', '<$DevrantLg>', $name, $tech)
+!endprocedure
+@enduml

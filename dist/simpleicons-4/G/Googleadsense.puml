@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogleadsenseMd [14x14/16z] FOs75G0X34AnTzb_smldivkV0j2AetkyrSdoe93Sj-Yt4IyrGOTBmI08wDtwXwUWekjpIUyw7TkdcXVJwIZMFSj05apeRS3G7qMIwh-9-gS3_EIm3qwU-lLy
+sprite $GoogleadsenseLg [20x20/16z] {
+NT3LGK0n30NG6wbBzjyMwl3ENoMApUSa-8zYBUvpLUoNnr_UXafukDlG1K-ogH0kiSK3udGzrFqDyDsiyYomADI6352pAG75fbkWqmdee11JdmLu1qIM4Bss
+qMyu0MtyIMeEV3koAIWXtiPt2joY2jm944vpw7SXL6qFeQwKo1WefC1O21y_
+}
+!procedure Googleadsense($id, $name="Googleadsense", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googleadsense', $name, $tech)
+!endprocedure
+!procedure GoogleadsenseCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleadsenseMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleadsenseGroup($id, $name='Googleadsense', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleadsenseLg>', $name, $tech)
+!endprocedure
+@enduml

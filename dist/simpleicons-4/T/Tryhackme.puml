@@ -1,0 +1,16 @@
+@startuml
+sprite $TryhackmeMd [14x14/16z] FOk50SHG24EJOF_Wzb-ttZvS0Y37hOQuwG8qVW_vExFwFCQQiQFototCWdXEWW-2-0WkmucguEKzbGUCF3OEPHr6oVmJAJnQtsHkj7TqJsVcTmCY0ozoWZi
+sprite $TryhackmeLg [20x20/16z] {
+LSm7WeKW30JG6KWLykz_t1MtnQUqD1nPBXBbQ5RP65RPGhbni1ME8Xwo-HEILV9ptIlErRCYziIXbV59u5D4TuQ6uSq2tcBasGRsmW-wNuIbowfhZWSaxjYy
+O-1LZ_tJ2-BW0UfKKPjewEgIsz2TuZ47cXaIAX3J5fCHKw0zHY50yrTC2L9kw8PEtBu
+}
+!procedure Tryhackme($id, $name="Tryhackme", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tryhackme', $name, $tech)
+!endprocedure
+!procedure TryhackmeCard($id, $funcName="", $content="")
+  IconCard($id, '<$TryhackmeMd>', '', $funcName, $content)
+!endprocedure
+!procedure TryhackmeGroup($id, $name='Tryhackme', $tech='')
+  IconGroup($id, 'IconGroup', '<$TryhackmeLg>', $name, $tech)
+!endprocedure
+@enduml

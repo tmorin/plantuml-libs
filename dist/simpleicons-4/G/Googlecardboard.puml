@@ -1,0 +1,13 @@
+@startuml
+sprite $GooglecardboardMd [14x14/16z] VOs30K0X500lk_QVzjlewbbqCCuVED6kvFQar5dNifQHiv7aDLApKUHNvu9prpsmLF9oNO9ShjDX1
+sprite $GooglecardboardLg [20x20/16z] fT035W0X00JGoQxxdtOv3slqiu4EKhaTXTeEJ3kgxOEWurg9Eh2h28WyL_9KAMTzbskfdjtqUDK895PBPQa0nRhX7qXC9F-WnmW
+!procedure Googlecardboard($id, $name="Googlecardboard", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlecardboard', $name, $tech)
+!endprocedure
+!procedure GooglecardboardCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglecardboardMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglecardboardGroup($id, $name='Googlecardboard', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglecardboardLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $SwarmMd [14x14/16z] {
+BSe55W0X409Gd5gR-zzsBSp_1hp4q7MBkcvLnhedoMvG7l54b0rlHWw9j2NUvsW1WQxgI-iOR0yVjvYl2cSgvCIAQoPDIMxrR5pLl0wWgzR80fUbb6TEVVD5
+LiCIy0C
+}
+sprite $SwarmLg [20x20/16z] {
+NOy55WGW448Pkxd_RVSDRcD_0yINoYhuLpjLOygzzs8-hUGHEtIj1DWYjnYVAh3j_JTZn6A5j5_iMCcuYca9xIwVOAAMIYqf0ACXx_s9ADk6GR9-M2Ux6DEJ
+o6oWEfklcywscH9Sb9f2vNlvih7GTIkSrmS3JmoKPpgiBy_gdTyEJzkoFS5qsEmTEBK6Q-kiYY-PDzEf1m
+}
+!procedure Swarm($id, $name="Swarm", $tech="")
+  IconElement($id, 'simpleicons-4/S/Swarm', $name, $tech)
+!endprocedure
+!procedure SwarmCard($id, $funcName="", $content="")
+  IconCard($id, '<$SwarmMd>', '', $funcName, $content)
+!endprocedure
+!procedure SwarmGroup($id, $name='Swarm', $tech='')
+  IconGroup($id, 'IconGroup', '<$SwarmLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $FandomMd [14x14/16z] {
+JSk5RGHG3C1GVuRG_jisFHO_IuOLLg5OR01LNp33hR1KgBvcT8wLY48o6h0jCYPj0pTKCYTz8-Qhh0URnwdXoeCbBYf37aGlee0OqoqXYQHM_m3kutaXQJz8
+ll07
+}
+sprite $FandomLg [20x20/16z] {
+PSo50GCn30D0XzdQVzlAQVkenvn1HCB2TCAu0KJPYO06-_4Bo9iIPff4epuDGyBoF6hW4yKr9D4zHuII628mllidYknC02n_yVjJZNI57o8QAKOBq1ChSiLi
+4lyO5LpQ0EG3lP8IHmSnwCRs9Muvy4lJoSPYsFd962IBOS9_K0vi1vtu8d4TDPFkwNWHiH-_7m
+}
+!procedure Fandom($id, $name="Fandom", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fandom', $name, $tech)
+!endprocedure
+!procedure FandomCard($id, $funcName="", $content="")
+  IconCard($id, '<$FandomMd>', '', $funcName, $content)
+!endprocedure
+!procedure FandomGroup($id, $name='Fandom', $tech='')
+  IconGroup($id, 'IconGroup', '<$FandomLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BitbucketMd [14x14/16z] LOm50e0W5CKUtN3_s-fiH_xQ-DBNbxc-_6jb0JEyYNiOOooVKCbPoVAwZCTB7gM9U9AKKCeVdbDIPTDwI0my16GFJf8BFkpuuAKD
+sprite $BitbucketLg [20x20/16z] {
+ROy50eGm30GtWZVb_wz5idVuGDkub2WFOgnlolocVjYc3rl_OMl-DHBA5lc4gPaw5PsoSrLiM4s_z2Dhx3OM6j6mIxVREhQ5qJdijY755kef55CrBkKGhHmc
+uYSO88-LYm0O7zjYux7Um0ckS2gBt9RCuTWHlR1tM04
+}
+!procedure Bitbucket($id, $name="Bitbucket", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bitbucket', $name, $tech)
+!endprocedure
+!procedure BitbucketCard($id, $funcName="", $content="")
+  IconCard($id, '<$BitbucketMd>', '', $funcName, $content)
+!endprocedure
+!procedure BitbucketGroup($id, $name='Bitbucket', $tech='')
+  IconGroup($id, 'IconGroup', '<$BitbucketLg>', $name, $tech)
+!endprocedure
+@enduml

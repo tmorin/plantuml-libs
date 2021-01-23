@@ -1,0 +1,16 @@
+@startuml
+sprite $SuzukiMd [14x14/16z] NSt50G0X3031nJtflzfpPJuGPnT4CpVRL8Vdb4Ht1N2XRv--XzqnpdpHNJJ-w6kfoIWEJDr3YN2AHxaQY6N8rdQK_RG5TsxVmX4DaFMGEEr7kkLcQk6m0W
+sprite $SuzukiLg [20x20/16z] {
+ROw5aGGm30CLTD3glzh_0-LuXpAARIr48sV26s6GExz5PVDAVndg54kZmPmSMwbTacf-6oX3uOnm2hCpMa9SUevw6_MHWT0Kxfgg5KbcRSb5d56NIofsMJgZ
+5e0-_BPLVxXiCueQuZmkPTq_8m1pZGxI6zIoA4RyTDdbcKXx1hmJHiVX7m
+}
+!procedure Suzuki($id, $name="Suzuki", $tech="")
+  IconElement($id, 'simpleicons-4/S/Suzuki', $name, $tech)
+!endprocedure
+!procedure SuzukiCard($id, $funcName="", $content="")
+  IconCard($id, '<$SuzukiMd>', '', $funcName, $content)
+!endprocedure
+!procedure SuzukiGroup($id, $name='Suzuki', $tech='')
+  IconGroup($id, 'IconGroup', '<$SuzukiLg>', $name, $tech)
+!endprocedure
+@enduml

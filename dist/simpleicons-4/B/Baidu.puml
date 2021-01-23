@@ -1,0 +1,19 @@
+@startuml
+sprite $BaiduMd [14x14/16z] {
+9Ow50S0m20I92tBxRzl63Txa7ywIpPGxSg39qVShe0qY_S-vaz8p5scmKXLflUWGm7v44TdGz43ESL0zrIwJW3RWH_oVEO5UpcTxott6jFv_6aLdhr7t3ooJ
+iaSlksp6wLchkcirwWyT4RQstp0V
+}
+sprite $BaiduLg [20x20/16z] {
+LOu5WaKX2031ma3d_hTTO-lFIuUKGm2o1CTLVeX0aRYOuTSPCAG3zTFf0leJAKa2JEVjiCa6JThfNa-QRkSBI1BFVovYSqJXOFyNS5syBkOZYnGseJPOAks5
+dXEr6iIufC3DE6IMEJ23kUUh2apjR5QGHwN58ACChAtqikXYJResOkPA7UImYxfsOe5-d5DrkdQr6RORkcNV-HftFxaxzRS8kFjzJNYhfE5pj5BQDhDiyGK
+}
+!procedure Baidu($id, $name="Baidu", $tech="")
+  IconElement($id, 'simpleicons-4/B/Baidu', $name, $tech)
+!endprocedure
+!procedure BaiduCard($id, $funcName="", $content="")
+  IconCard($id, '<$BaiduMd>', '', $funcName, $content)
+!endprocedure
+!procedure BaiduGroup($id, $name='Baidu', $tech='')
+  IconGroup($id, 'IconGroup', '<$BaiduLg>', $name, $tech)
+!endprocedure
+@enduml

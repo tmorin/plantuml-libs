@@ -1,0 +1,16 @@
+@startuml
+sprite $StreamlitMd [14x14/16z] bOo30G0n303pB8BRVzfoWbvCEUHzTxoNZxXc-C8_aG9bBBWws6_0h_0b1wmwORZScK5e3Oqyth0ng_DZqZfGBQySq04
+sprite $StreamlitLg [20x20/16z] {
+jT1J0WGW50NGZAUx_zrE6dztik5kyVw_Z-LLZM6N1IYx5efPdOkY0HRd5jK4WDQn4WEFwGearjLBc0hFXiyLapQUg_keLkSZDkvYO0RcheI3Y47WSul3c9ZM
+ZRpWepUVIwQNdCA5Rti
+}
+!procedure Streamlit($id, $name="Streamlit", $tech="")
+  IconElement($id, 'simpleicons-4/S/Streamlit', $name, $tech)
+!endprocedure
+!procedure StreamlitCard($id, $funcName="", $content="")
+  IconCard($id, '<$StreamlitMd>', '', $funcName, $content)
+!endprocedure
+!procedure StreamlitGroup($id, $name='Streamlit', $tech='')
+  IconGroup($id, 'IconGroup', '<$StreamlitLg>', $name, $tech)
+!endprocedure
+@enduml

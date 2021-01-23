@@ -1,0 +1,19 @@
+@startuml
+sprite $KahootMd [14x14/16z] {
+HSm1OWGG34JH0G3vzxzjGzlT0HwazgwN0jHjIrACIgu6hcGK6HJNnGvQa5oE4wME1J03Xp97t3m5rjNPL7dES5ceZAlPz6fYLpK_wP1S8RYsDEYk5DH7zVLE
+cQLlukxw0G
+}
+sprite $KahootLg [20x20/16z] {
+HT075e0W30FGjkoP-zzMKbVSNuKyp59LUH9nicECjNqMm4I-SClfd1QDRnQj03FAeDbZ5S1GAVvuczCpO1StqkG8VAmyxKuoOIQGQPv2yN7ZP-DjlSDjQmFc
+fbZcDhG1IJnh26sRPA3TrhlRKlRQjvNscWuWkCNqcbIsUVEiImAcCD54vfpZcFOrI9bTzCIBcL_cL-fFc4tb0W
+}
+!procedure Kahoot($id, $name="Kahoot", $tech="")
+  IconElement($id, 'simpleicons-4/K/Kahoot', $name, $tech)
+!endprocedure
+!procedure KahootCard($id, $funcName="", $content="")
+  IconCard($id, '<$KahootMd>', '', $funcName, $content)
+!endprocedure
+!procedure KahootGroup($id, $name='Kahoot', $tech='')
+  IconGroup($id, 'IconGroup', '<$KahootLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $RustMd [14x14/16z] {
+BOw50GCX3023G-psdxPzEoGk8jAT2BpBJL5k2ostuIpfNJPUf2isvrghTbGi-UY75h4FKLjoTcoeYwUdD9IKHIuZosKbwfTL0m-sGIRKpVMthfmf5_EWztJN
+LahNyF9jblbjTj6swcwtzWS
+}
+sprite $RustLg [20x20/16z] {
+JP270GGX20HHmGIo_NVxuAVRYmuP2fLcYdEWrWfzL2N0lQNILIdcSDlxVagvNWhCMkOeTG8QdYKHqqVii4PD7727fnOrk90v7jgayCW_TGLVB2iWx-aCs2h1
+PkDWgsv33rRf6sybknYP8vc50o3KJZ9hDLWdse0s1ReTU23ugP8VuCY_b-kUk6JFQtHcZlozh-ovL0FsegkrC_tTWGyBhr94Xslzx0h0KJstm_BPAVj1Si-T
+VbMaZzdbu_C2
+}
+!procedure Rust($id, $name="Rust", $tech="")
+  IconElement($id, 'simpleicons-4/R/Rust', $name, $tech)
+!endprocedure
+!procedure RustCard($id, $funcName="", $content="")
+  IconCard($id, '<$RustMd>', '', $funcName, $content)
+!endprocedure
+!procedure RustGroup($id, $name='Rust', $tech='')
+  IconGroup($id, 'IconGroup', '<$RustLg>', $name, $tech)
+!endprocedure
+@enduml

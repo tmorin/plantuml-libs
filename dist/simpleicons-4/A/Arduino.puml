@@ -1,0 +1,16 @@
+@startuml
+sprite $ArduinoMd [14x14/16z] bKtL0K1125AvBlQVzdL-dfqW4u9WPu9egEmiefMDMJbKRDJMJOonmABfwEAgXl5sRUiuxBXifiRqHIb_XWbP0G
+sprite $ArduinoLg [20x20/16z] {
+lKw34S0038oBQFzfQqtGFuGF-0KqkXiUtU0-8B1OTrMd0bZjNGdrDX9Pjbg78cs7RSUmWRCx40H1Uqm76KS1tOzQCs7clflUdHF4Hf4FLsddVZtoyhYor2VB
+cNJ-P2Ru1Ii
+}
+!procedure Arduino($id, $name="Arduino", $tech="")
+  IconElement($id, 'simpleicons-4/A/Arduino', $name, $tech)
+!endprocedure
+!procedure ArduinoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArduinoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArduinoGroup($id, $name='Arduino', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArduinoLg>', $name, $tech)
+!endprocedure
+@enduml

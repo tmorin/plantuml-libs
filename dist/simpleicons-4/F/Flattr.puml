@@ -1,0 +1,16 @@
+@startuml
+sprite $FlattrMd [14x14/16z] TSU55GKW34FHD9pWaFsd_UxoaFO2qJrQgyqTfxId4gDOOCZ2AUwCM7qB5mcWzyGZUkXLZQ-gVwNrgbdF4Y_GPWvafmkiov-3r3mZv4kh1O0Z
+sprite $FlattrLg [20x20/16z] {
+RSu54iKW34NHu4JV_bVxjTxUCUO4eqz54MxV0fRfLtM4oYSEQFhHXFV_jFweVOd_C-gmBw5K22sDBn53tHETOW2ThXQUR-PADpDvCBwQF9Z6pRBhpJhQrP9x
+-hsRREolLfhzGuh54cF-5uhwlxxxIe9WOHODU5l_k1JIqa_U
+}
+!procedure Flattr($id, $name="Flattr", $tech="")
+  IconElement($id, 'simpleicons-4/F/Flattr', $name, $tech)
+!endprocedure
+!procedure FlattrCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlattrMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlattrGroup($id, $name='Flattr', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlattrLg>', $name, $tech)
+!endprocedure
+@enduml

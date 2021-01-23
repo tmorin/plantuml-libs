@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobeMd [14x14/16z] DOt50GKW3CM2E-m_xPTAJfKdQwqz0uIvV-FxSG3sCnf0yoq0XAlBG1YwPGW1iYmRwDrpAd0kK7_B3L3UAv9pJRE0_dg4CETz2UAB25rw5aeKVyRN580l
+sprite $AdobeLg [20x20/16z] {
+JOw50S0W40E3E-m_RIMaSbLUhvBYSE5A9Psq7MkTBD91zaaaaBG-fW4nyuiLYFB578HzGnqlROc0Yy2tLsWOUWnk6H9HWVzqfjF6YWitNn5xzGpxwWIrQ4Yu
+EYbYEftCrYc9CUzzUrkiWV3QOeO2KjiA-8YZHphWXz6S4m
+}
+!procedure Adobe($id, $name="Adobe", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adobe', $name, $tech)
+!endprocedure
+!procedure AdobeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobeGroup($id, $name='Adobe', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $JcbMd [14x14/16z] hKe50G0X33oSUV-qhqIOdo6fXfObj9PicS2A7HsW64xlEwohxTVVRrAVYvIw0G
+sprite $JcbLg [20x20/16z] pOs74KCn24FTXR0vxJzjyliCVbT1BUr5DQG2ahsPqP2F7nGbn8v1HPlYyHjQGvukTVMfVltY-yrA-HWzX3lRpwmhIETXBd3wjK7Kj15_
+!procedure Jcb($id, $name="Jcb", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jcb', $name, $tech)
+!endprocedure
+!procedure JcbCard($id, $funcName="", $content="")
+  IconCard($id, '<$JcbMd>', '', $funcName, $content)
+!endprocedure
+!procedure JcbGroup($id, $name='Jcb', $tech='')
+  IconGroup($id, 'IconGroup', '<$JcbLg>', $name, $tech)
+!endprocedure
+@enduml

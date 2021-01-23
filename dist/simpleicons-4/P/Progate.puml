@@ -1,0 +1,16 @@
+@startuml
+sprite $ProgateMd [14x14/16z] NOpL0SKm30ClJ5Qy_xIFeUtz2I7mf6dn8BIQ8yJk2SY-v0NeUYg3rNYmqqFfgvJ_wf8LyLVPAz-Ni7RbcssDm9DGgdm6FdIBg_75BDbVXMvUU7C7
+sprite $ProgateLg [20x20/16z] {
+PSpL0KKn20DGg1ja_scVtdg-qbE0PaA3EjhZYi8_jPOSms_0DFm74qG1yBUpjiUOASByRy8zzkr_CuYNCT9jkESS_6KYV5f1eDsS8D9cja8yRIRGoFGaDZ9P
+8U4lJp9KO6YdHE6m9lOo3pGvZ4oegZpVRm
+}
+!procedure Progate($id, $name="Progate", $tech="")
+  IconElement($id, 'simpleicons-4/P/Progate', $name, $tech)
+!endprocedure
+!procedure ProgateCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProgateMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProgateGroup($id, $name='Progate', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProgateLg>', $name, $tech)
+!endprocedure
+@enduml

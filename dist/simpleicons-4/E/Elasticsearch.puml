@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticsearchMd [14x14/16z] NSx50G0W2010x4JsdzRk-nWa0F10JJBG61fGr8Ub1MiUBg75RYR4oTPNe4rzho_pKoT4xFm__T-i9ZiaYhhU2W
+sprite $ElasticsearchLg [20x20/16z] {
+RT235G0W403GREm_RNRtd-kCAcBYu1WQc8j34ED9neF1zKd4Ywg9uNgof8OPlIc6O9JfWsmDbBchrJTjuuM1Rt0kPURh0UFwcVdVpH7m1j-ZmV1DnwlsvS6A
+5fG1
+}
+!procedure Elasticsearch($id, $name="Elasticsearch", $tech="")
+  IconElement($id, 'simpleicons-4/E/Elasticsearch', $name, $tech)
+!endprocedure
+!procedure ElasticsearchCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticsearchMd>', '', $funcName, $content)
+!endprocedure
+!procedure ElasticsearchGroup($id, $name='Elasticsearch', $tech='')
+  IconGroup($id, 'IconGroup', '<$ElasticsearchLg>', $name, $tech)
+!endprocedure
+@enduml

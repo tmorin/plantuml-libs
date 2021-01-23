@@ -1,0 +1,16 @@
+@startuml
+sprite $OpensourceinitiativeMd [14x14/16z] BOw14S1G14CV7zX_uLvS0O00jHLHMuZUbfjvxGDYZIFRe2_vKvkKpr8jAqp5p7MmKQq3ee6zx86FCWTYuFQdb4weWCysqEvznTU5QTAfgrGdPDSWoZKu67m
+sprite $OpensourceinitiativeLg [20x20/16z] {
+LP1LWeGX38FJWGeD__sFkq9OcRn0xQi0W0MP4Kc6uUfLx72FPhqWEVE6BUboxO5VZHs03Txyo-50jUDDtjYyyOYBuAmud-1QJ7rh7Dga0RPTH4sXx5Z7s91l
+dcpvdfjN092bl3d4yE_X3tlqKcmyPe-6gIGrNflryHc7LoaedD360ApdDyY0e1r-mHi0sf7t8hP8pKmkmzLCqqddCJy1
+}
+!procedure Opensourceinitiative($id, $name="Opensourceinitiative", $tech="")
+  IconElement($id, 'simpleicons-4/O/Opensourceinitiative', $name, $tech)
+!endprocedure
+!procedure OpensourceinitiativeCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpensourceinitiativeMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpensourceinitiativeGroup($id, $name='Opensourceinitiative', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpensourceinitiativeLg>', $name, $tech)
+!endprocedure
+@enduml

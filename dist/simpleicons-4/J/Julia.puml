@@ -1,0 +1,16 @@
+@startuml
+sprite $JuliaMd [14x14/16z] DSp70KCn20DGuLvX_srZKFwxqC4Zosm9_gez5IJgbGghOg6mogmoQ7cny1cgWsljgd-NfRSX_bt1zTWjr1f1MRN6I3b7sDCF1Z1yCK5Qp_6yDy4F
+sprite $JuliaLg [20x20/16z] {
+POy54iH020G7YOUT___sQhaGxR8k7FmPWem13wP6jkaHMfWik30Us1MRApO_MZ_DKyMcAwOLKroCJ4RSyQsrpQ-QO9kbcyoDCG7poauee96wWfqqh8UEB4JA
+WeKPFwYMjP8TsElfxUXsm9c4Y6wzolFmNhbfLtKJ96BU8py
+}
+!procedure Julia($id, $name="Julia", $tech="")
+  IconElement($id, 'simpleicons-4/J/Julia', $name, $tech)
+!endprocedure
+!procedure JuliaCard($id, $funcName="", $content="")
+  IconCard($id, '<$JuliaMd>', '', $funcName, $content)
+!endprocedure
+!procedure JuliaGroup($id, $name='Julia', $tech='')
+  IconGroup($id, 'IconGroup', '<$JuliaLg>', $name, $tech)
+!endprocedure
+@enduml

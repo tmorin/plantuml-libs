@@ -1,0 +1,13 @@
+@startuml
+sprite $FlickrMd [14x14/16z] bOt50G0X3C22Ezr_sdDzDb0t55XlTcEyXLX5Pe0mHQgH0siFK-GWXjF-et_dVmku-u93mGe
+sprite $FlickrLg [20x20/16z] lSwr0S1030D0FVDh_sd3wLJxEhDXmfTM0nwXjkA1c7bhk3JUCZPV5IXyHNwsStzvyESzVogdPjKDyOlwsSG9
+!procedure Flickr($id, $name="Flickr", $tech="")
+  IconElement($id, 'simpleicons-4/F/Flickr', $name, $tech)
+!endprocedure
+!procedure FlickrCard($id, $funcName="", $content="")
+  IconCard($id, '<$FlickrMd>', '', $funcName, $content)
+!endprocedure
+!procedure FlickrGroup($id, $name='Flickr', $tech='')
+  IconGroup($id, 'IconGroup', '<$FlickrLg>', $name, $tech)
+!endprocedure
+@enduml

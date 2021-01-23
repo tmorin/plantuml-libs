@@ -1,0 +1,16 @@
+@startuml
+sprite $EdxMd [14x14/16z] VKx50SD033isI_jFMswUCRFLRgb_pCUsxQWgL8vtfk2RFCFSBM5Q9kARQfKcTeB2kHOrJSFCbRk1-xt2SFWOoR7Mtcj5JUZ1xwTMej8k2Fqjj_G4
+sprite $EdxLg [20x20/16z] {
+hSE7aKCX3411aGGAwFLVxKNR5VoTMNbOw_RcrkNFMBnKtYvDVkZX9PMCo0ptmBQJ-noF3RahB-VaIdKVPH9N5gTgwb4zr8Gn-e9PfLbbYY_OCe0EH_Uvwwp3
+xR8W6t0lL1OrfhR4PBubinSoKVb8x484KzwQkRlPpoPF-mO
+}
+!procedure Edx($id, $name="Edx", $tech="")
+  IconElement($id, 'simpleicons-4/E/Edx', $name, $tech)
+!endprocedure
+!procedure EdxCard($id, $funcName="", $content="")
+  IconCard($id, '<$EdxMd>', '', $funcName, $content)
+!endprocedure
+!procedure EdxGroup($id, $name='Edx', $tech='')
+  IconGroup($id, 'IconGroup', '<$EdxLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+sprite $NewjapanproWrestlingMd [14x14/16z] {
+5KxN0KGX25Ff9BxRVzj3le3KjRQXK96-run6WLqL-f1qe0h8qkLPB3MNkfK7HEobkcytHzDoMfJNq0sQRZd6p_s3ZZYEcDAwJAmjIDvmXaVzt4PSdZVLVNxo
+VPwCEdjkL5UtkRvcDdLoM3B7AnTpwYlz1m
+}
+sprite $NewjapanproWrestlingLg [20x20/16z] {
+DOp50GGW30G3iOr1_zMUtpnNXbvidx8nIFgc7-odz9D1Vf6MUC_jBdUtzOuS7DL0eIkbc6XpuHs56Iowa48HcbD29A1LDQcrx-qoVbkLx1IohufKEo-OCEAw
+JKfq7-UzKBHENsYSFcOZOaIyDVg6oCraxjncJEfaupoj9formjiGFfxSoU2juwnnvvvMmGq6qASfW00Gt1F6WEMuSDypQd60M9jju-QoEU0ya1GYCcplpa1C
+6Vix-eI2p2nRQhBeWnXCcG4DfZ-BFH80VqTF
+}
+!procedure NewjapanproWrestling($id, $name="Newjapanpro Wrestling", $tech="")
+  IconElement($id, 'simpleicons-4/N/NewjapanproWrestling', $name, $tech)
+!endprocedure
+!procedure NewjapanproWrestlingCard($id, $funcName="", $content="")
+  IconCard($id, '<$NewjapanproWrestlingMd>', '', $funcName, $content)
+!endprocedure
+!procedure NewjapanproWrestlingGroup($id, $name='Newjapanpro Wrestling', $tech='')
+  IconGroup($id, 'IconGroup', '<$NewjapanproWrestlingLg>', $name, $tech)
+!endprocedure
+@enduml

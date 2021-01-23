@@ -1,0 +1,16 @@
+@startuml
+sprite $IconMd [14x14/16z] LSs54KH120FGv0kpdlwxlR3dRmm7YUT9e6ljv2xbfZCvkPTiyXpXH1gbE6AEJLMacCpMm3Pquomgs3Bup_udmHclrjn74Vb1sUhZv98j9v066BK6OKk1hmS
+sprite $IconLg [20x20/16z] {
+NL075iKm28g-x6Yu_scxUFvHEYFWIW6HvxC0-uHKxw0ui1d9OxdRo4aiOcE3g2cxP-O0OHfv1u2PHNBNf9MvDj2Yak5nTc0z0VuFPaEEM06MF798n0ImE-Rl
+6BqbOfcv8szCsybPU1kmMQzgqdxtF46BtBEeWM0sksUk83OJ0t19UHXtzHEBdHA-MUaN9m
+}
+!procedure Icon($id, $name="Icon", $tech="")
+  IconElement($id, 'simpleicons-4/I/Icon', $name, $tech)
+!endprocedure
+!procedure IconCard($id, $funcName="", $content="")
+  IconCard($id, '<$IconMd>', '', $funcName, $content)
+!endprocedure
+!procedure IconGroup($id, $name='Icon', $tech='')
+  IconGroup($id, 'IconGroup', '<$IconLg>', $name, $tech)
+!endprocedure
+@enduml

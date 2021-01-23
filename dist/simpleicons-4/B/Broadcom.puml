@@ -1,0 +1,19 @@
+@startuml
+sprite $BroadcomMd [14x14/16z] {
+LOq75WCW24CJAZwtzxzj6PtVBIG1s6_G2KDFlevQHUy7HOzAhL5b_eh4qMBVmFPpnMk8ZA-y6ZUAqygFtiMlauHshisk8FlPHPhPITc7_-c0VXyEsxR8Hhi-
+0G
+}
+sprite $BroadcomLg [20x20/16z] {
+RP255GGn24Gdxj1_jqVoCkT_DuO3Z33qCW8kQLAsqXLLVQDIz2KCYNVg4iQwaHoUDxfqeD6GiW8KgYcBG6H1znGVenVzOA9MZ4zPmvnC8hsL9Zk5o4uYzZoj
+-3QzL_L-TW-ZL6aE3ctxswNPSNfhUPv4UKVCVsVmBQoSwVgUgU5INoReoM7p
+}
+!procedure Broadcom($id, $name="Broadcom", $tech="")
+  IconElement($id, 'simpleicons-4/B/Broadcom', $name, $tech)
+!endprocedure
+!procedure BroadcomCard($id, $funcName="", $content="")
+  IconCard($id, '<$BroadcomMd>', '', $funcName, $content)
+!endprocedure
+!procedure BroadcomGroup($id, $name='Broadcom', $tech='')
+  IconGroup($id, 'IconGroup', '<$BroadcomLg>', $name, $tech)
+!endprocedure
+@enduml

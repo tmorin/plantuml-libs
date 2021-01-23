@@ -1,0 +1,16 @@
+@startuml
+sprite $SlickpicMd [14x14/16z] XOr50iHG24FvWYRq_hSTb-xwLaX4hXZdPHs8_NqChvLis9Ae3khZE0qDvXpy-1HmiKFVQtbJXeFm9SA7VLk5QZNPekXyt1-ii5_pDNS
+sprite $SlickpicLg [20x20/16z] {
+jOsr0KHH20GNU8hsN-svn_SdGdTm2ApQwMVMAhDyodjEj89uMbPfPq1aQWxNswujh_9r_HbSuvNS8z89wCbu4JElhGPzwAIgNsRrbguaYmr0niwAFGGmnTmE
+dgfBxbAzwAHNvCKlk41zPmc8RJTyGFWxPm
+}
+!procedure Slickpic($id, $name="Slickpic", $tech="")
+  IconElement($id, 'simpleicons-4/S/Slickpic', $name, $tech)
+!endprocedure
+!procedure SlickpicCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlickpicMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlickpicGroup($id, $name='Slickpic', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlickpicLg>', $name, $tech)
+!endprocedure
+@enduml

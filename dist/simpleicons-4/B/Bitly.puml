@@ -1,0 +1,19 @@
+@startuml
+sprite $BitlyMd [14x14/16z] {
+BOe74W0n2099hyh_VtkOkKsH7G7IucCXQAITO_IgJQDLY69iM3pukPx8b6q_ovo-qQCJ73iAxRV1PvnJKsOpZ7JjjzF3JihSu5mSiWhOdimHgwoyhdezqvVH
+9O-gF9F21m
+}
+sprite $BitlyLg [20x20/16z] {
+HP250GGn20I9Aqp_tVwJiptDuCXVQN5h9hbLz64xtwYxGwkrJQ0zw0b9yy1K7jlZa6LjkaW83npimF-HXjMRHIL3bO2XuOqUM1993NjOGMq7__bOCcpBnLBf
+FTrCRpy3A28PWtmOw5JFK9dGBxQYlxDCojeaP_uEIiveYDcRBlxoVklsdD9Oaa_F5Swa3Yqa6AKftpw2ZtwaMUHJsx3hDSmF
+}
+!procedure Bitly($id, $name="Bitly", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bitly', $name, $tech)
+!endprocedure
+!procedure BitlyCard($id, $funcName="", $content="")
+  IconCard($id, '<$BitlyMd>', '', $funcName, $content)
+!endprocedure
+!procedure BitlyGroup($id, $name='Bitly', $tech='')
+  IconGroup($id, 'IconGroup', '<$BitlyLg>', $name, $tech)
+!endprocedure
+@enduml

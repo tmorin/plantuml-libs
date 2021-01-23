@@ -1,0 +1,16 @@
+@startuml
+sprite $LibrarythingMd [14x14/16z] TKw30K112EryUVzfluti7fiVP6bDT7LjKianyrgS3GFwIGBqc-bZyhqdjatEcUKjGyWYgMo3fTPMCs-G3cgf7Rar604
+sprite $LibrarythingLg [20x20/16z] {
+ZL250GCm3A8UPVzVEtUlDmeitJmDXVgppN6yI8R7nRYEvworDBdOpau1uhK6yjaM0F-nPNbhUwttpSOx6mgFDUPhZp4VSWzQ6EmMDe6oPDwZ77qUHX_hei7p
+M6yqBIWhU3CmLi4E
+}
+!procedure Librarything($id, $name="Librarything", $tech="")
+  IconElement($id, 'simpleicons-4/L/Librarything', $name, $tech)
+!endprocedure
+!procedure LibrarythingCard($id, $funcName="", $content="")
+  IconCard($id, '<$LibrarythingMd>', '', $funcName, $content)
+!endprocedure
+!procedure LibrarythingGroup($id, $name='Librarything', $tech='')
+  IconGroup($id, 'IconGroup', '<$LibrarythingLg>', $name, $tech)
+!endprocedure
+@enduml

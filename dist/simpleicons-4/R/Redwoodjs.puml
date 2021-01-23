@@ -1,0 +1,19 @@
+@startuml
+sprite $RedwoodjsMd [14x14/16z] {
+DSu50WGX30F082ctMFx_smihWsiBYoMjm6l8nZDFVCwOlCX3e_PUksP62adpkTsGya-z3X_hbxt755lQaQZIEqbPa9t51rULwgNTu5xgEVSp0CLzaE7T0e2v
+dUWj4xUG1JvfE8_Z3m
+}
+sprite $RedwoodjsLg [20x20/16z] {
+HP072W0n20HjwOd-_xUdaYD3MmQnGKB3dCdmG5dXTi7ds2xy58k6qKA_hAgLfjcYuYbLp_PKAyv8FVfl2vhNPzWOCcPM6fD2BbTI9yxDSioEy9uuAemL7Peb
+7JqjE3gPyRg6p5D9c8QfjygcnmOn86jios9MRamN28TEz-zyn5SuaKPUgpg5wj56Fa050Y4OsK07aC0bBxr7FAeNtfyyQ6_wymS
+}
+!procedure Redwoodjs($id, $name="Redwoodjs", $tech="")
+  IconElement($id, 'simpleicons-4/R/Redwoodjs', $name, $tech)
+!endprocedure
+!procedure RedwoodjsCard($id, $funcName="", $content="")
+  IconCard($id, '<$RedwoodjsMd>', '', $funcName, $content)
+!endprocedure
+!procedure RedwoodjsGroup($id, $name='Redwoodjs', $tech='')
+  IconGroup($id, 'IconGroup', '<$RedwoodjsLg>', $name, $tech)
+!endprocedure
+@enduml

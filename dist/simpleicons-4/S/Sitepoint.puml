@@ -1,0 +1,16 @@
+@startuml
+sprite $SitepointMd [14x14/16z] LOn50G0n0CCwviM_scFChwYTGjM37On7k0dX5dw2rudnCBrIDxkA7R8i37iLfrU0wTuJFozf1rXbwETJJxzdULxnd9oChv1jfrW1
+sprite $SitepointLg [20x20/16z] {
+ZP255GGn24JZBlrN6-3TS6wpcezZBl9pDsiU5TSUxX6bpKglA3-W_EfLW9nxHD6Oi0Sgkm0lpn-KjdxneVBFuEz4U53O17hC852cgFnTuJhOtbqXF9taykWT
+Zbn0VgEWObHElSfVG-VlsqBf6zBIFUel0G
+}
+!procedure Sitepoint($id, $name="Sitepoint", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sitepoint', $name, $tech)
+!endprocedure
+!procedure SitepointCard($id, $funcName="", $content="")
+  IconCard($id, '<$SitepointMd>', '', $funcName, $content)
+!endprocedure
+!procedure SitepointGroup($id, $name='Sitepoint', $tech='')
+  IconGroup($id, 'IconGroup', '<$SitepointLg>', $name, $tech)
+!endprocedure
+@enduml

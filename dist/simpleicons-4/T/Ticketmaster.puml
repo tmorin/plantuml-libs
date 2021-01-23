@@ -1,0 +1,13 @@
+@startuml
+sprite $TicketmasterMd [14x14/16z] jOG90G0W4CBmFkXVs3-2mZPyM4I6PxhxaaKnHIfP3PZWzj46
+sprite $TicketmasterLg [20x20/16z] pKZ70S8m35IvPlRV5yWt4rYwNhTVT_Lh8cI1ahY0110vqYUXZksOELkxYpzdde2_JTVjzmC
+!procedure Ticketmaster($id, $name="Ticketmaster", $tech="")
+  IconElement($id, 'simpleicons-4/T/Ticketmaster', $name, $tech)
+!endprocedure
+!procedure TicketmasterCard($id, $funcName="", $content="")
+  IconCard($id, '<$TicketmasterMd>', '', $funcName, $content)
+!endprocedure
+!procedure TicketmasterGroup($id, $name='Ticketmaster', $tech='')
+  IconGroup($id, 'IconGroup', '<$TicketmasterLg>', $name, $tech)
+!endprocedure
+@enduml

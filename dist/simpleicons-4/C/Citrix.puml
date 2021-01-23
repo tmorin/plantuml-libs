@@ -1,0 +1,16 @@
+@startuml
+sprite $CitrixMd [14x14/16z] JSs55S0W34NHXpj__srxQi359GatCwTXwvs3MK_UdskIknUdnAt8t8aghpPWD7wZri5Y9SkIvypyefnJ_0lUkwZ0pIaVPMk5Vxq
+sprite $CitrixLg [20x20/16z] {
+XOy55iGW44C7TtB_qwxE2woq_LKi8ae2adoH_ypPrgnyOunSaAOJnKqL3PXMHGS2StJpacn8Mv3w_1HaMTJdAA6AegTYK0LYEz0P-hYlcm1ZCfZt67Qtw8WY
+aIQCmfYCh6jbgqODDIzBsuxdnZi
+}
+!procedure Citrix($id, $name="Citrix", $tech="")
+  IconElement($id, 'simpleicons-4/C/Citrix', $name, $tech)
+!endprocedure
+!procedure CitrixCard($id, $funcName="", $content="")
+  IconCard($id, '<$CitrixMd>', '', $funcName, $content)
+!endprocedure
+!procedure CitrixGroup($id, $name='Citrix', $tech='')
+  IconGroup($id, 'IconGroup', '<$CitrixLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MongodbMd [14x14/16z] PSx50G0n20H0u5p2zbzjt3C_78h-XveDXcl01lXgTC8xIlG3hSWQ8isJWaYMA30XKCgk43tzFPNsYsAdvhYemxda
+sprite $MongodbLg [20x20/16z] {
+RT3L0G0G541HtRpzfzND_JmQwX5lq1qDxYRY0VHb1dBo80QbG7RJK5CRuT3Cu-rGwD5bOXXV9eV9ppnnNoN7tdDXlw1gPCyVk9UEKzGkxJhl1sg7dgXy3Q_x
+9W
+}
+!procedure Mongodb($id, $name="Mongodb", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mongodb', $name, $tech)
+!endprocedure
+!procedure MongodbCard($id, $funcName="", $content="")
+  IconCard($id, '<$MongodbMd>', '', $funcName, $content)
+!endprocedure
+!procedure MongodbGroup($id, $name='Mongodb', $tech='')
+  IconGroup($id, 'IconGroup', '<$MongodbLg>', $name, $tech)
+!endprocedure
+@enduml

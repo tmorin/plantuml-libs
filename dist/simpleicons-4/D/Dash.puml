@@ -1,0 +1,16 @@
+@startuml
+sprite $DashMd [14x14/16z] NSsr0G0W30H0tE7tdnRtg-8XbUWu6QnhZEm9nnHeotehrDIHJGA9ieht2n68Q5BB4X8wKnC6-3R6MMjfG9yZTR1-K7u-w2sFRiwPthEQaLy1
+sprite $DashLg [20x20/16z] {
+RT253G0X341HtA7xJuixl5ZpJn1KuG4jj2ChCWXG1Eyqwqt2HhQcOTVUfAmHjZIBXlL5k1g1Z0jJM6jNQ-OND4_-sWBFax6LiGfL9ZVnMOASoUMawpHshEkf
+wNkozZUxbT0ITkscGl1MaV5dshNmbm
+}
+!procedure Dash($id, $name="Dash", $tech="")
+  IconElement($id, 'simpleicons-4/D/Dash', $name, $tech)
+!endprocedure
+!procedure DashCard($id, $funcName="", $content="")
+  IconCard($id, '<$DashMd>', '', $funcName, $content)
+!endprocedure
+!procedure DashGroup($id, $name='Dash', $tech='')
+  IconGroup($id, 'IconGroup', '<$DashLg>', $name, $tech)
+!endprocedure
+@enduml

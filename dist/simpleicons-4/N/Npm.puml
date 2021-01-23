@@ -1,0 +1,16 @@
+@startuml
+sprite $NpmMd [14x14/16z] dSU50G9H30FGkgHb_t61amd-guOE0OrtkYVKOiGIOcOhrDc4gFzDF4dzIeN1VeQnE_l7mWgCy8qE_G
+sprite $NpmLg [20x20/16z] {
+lSwr0SGm3010sMBC_jk-la-TQmn2-C1vKIzCcIYQ6AMD5kf35nGbuTX91jwlEuoGfWaqjnZ2kN4sBsNphlppN3dlk557903AE5Nws5FLcKzjvywzLcKb_77l
+1c-RmwT-
+}
+!procedure Npm($id, $name="Npm", $tech="")
+  IconElement($id, 'simpleicons-4/N/Npm', $name, $tech)
+!endprocedure
+!procedure NpmCard($id, $funcName="", $content="")
+  IconCard($id, '<$NpmMd>', '', $funcName, $content)
+!endprocedure
+!procedure NpmGroup($id, $name='Npm', $tech='')
+  IconGroup($id, 'IconGroup', '<$NpmLg>', $name, $tech)
+!endprocedure
+@enduml

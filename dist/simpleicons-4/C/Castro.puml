@@ -1,0 +1,19 @@
+@startuml
+sprite $CastroMd [14x14/16z] {
+FOu54WGX30GdB0ur_V_VNkMiaRX8iI1P8KdDu7nDYWQxbb8tD2qpf6JWW2rDFAN3X9g6cQfSN6GhNu6F5V6rg5cVlJAJep0uiajEc01pu1ADF-sxsTT8Obwu
+CoIz
+}
+sprite $CastroLg [20x20/16z] {
+PP293i0W24D1uYtu_t-xDZkJTVU3qgb0DlUbQN8fhvjvlb3RKAmLVBO7pPnKKrudj8ndbOybo_GJgPcUq9L6l9V0o88Ix7Hce3CM462WRAA-lHI7JImsfYsL
+n1Os9qc-0opzsUcDMeCMG_2PmQWd3HcioYGQGiVE4p_KthxE5ijiy9CvRVbSpgjtOtxejwUdD0_djAn27G
+}
+!procedure Castro($id, $name="Castro", $tech="")
+  IconElement($id, 'simpleicons-4/C/Castro', $name, $tech)
+!endprocedure
+!procedure CastroCard($id, $funcName="", $content="")
+  IconCard($id, '<$CastroMd>', '', $funcName, $content)
+!endprocedure
+!procedure CastroGroup($id, $name='Castro', $tech='')
+  IconGroup($id, 'IconGroup', '<$CastroLg>', $name, $tech)
+!endprocedure
+@enduml

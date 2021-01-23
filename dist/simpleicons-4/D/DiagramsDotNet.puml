@@ -1,0 +1,16 @@
+@startuml
+sprite $DiagramsDotNetMd [14x14/16z] VKk50KGX5C8kbFsdlVnT-ehI-R5MBc0Om8mPzI_gYsO1ksZofVe5j2Z5EgNeseTn_2O9m4l-i_X7LhAVrNQ8acefb5XArTCRRm
+sprite $DiagramsDotNetLg [20x20/16z] {
+fOw50SKm24H9e6tGst_Qx-xoelZXEspUO5UkOjh0zS2NbxxiMr-_yfLiVN9L2wKnQE0AMO15hgNq0ghhrOYTfQSX8Sma6ok5c2Msla5R333Qifnz-jQdr3RB
+0Tzz55l2tUFy-OjS0m
+}
+!procedure DiagramsDotNet($id, $name="Diagrams Dot Net", $tech="")
+  IconElement($id, 'simpleicons-4/D/DiagramsDotNet', $name, $tech)
+!endprocedure
+!procedure DiagramsDotNetCard($id, $funcName="", $content="")
+  IconCard($id, '<$DiagramsDotNetMd>', '', $funcName, $content)
+!endprocedure
+!procedure DiagramsDotNetGroup($id, $name='Diagrams Dot Net', $tech='')
+  IconGroup($id, 'IconGroup', '<$DiagramsDotNetLg>', $name, $tech)
+!endprocedure
+@enduml

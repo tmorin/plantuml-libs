@@ -1,0 +1,16 @@
+@startuml
+sprite $RelianceindustrieslimitedMd [14x14/16z] JSw5OGGW44JHZskO_hiDS_vmtGNwaGqiFnSwsGjzPFgVFaxGhoQRfVcnjhiA9Bqihl1-NqclCrzFOSNdkt4Vfg8yPIaDrLlPhzpMh2h4eucLr86OWNy
+sprite $RelianceindustrieslimitedLg [20x20/16z] {
+PT25GKKn50FGrBtPVrlU5U3BgRlW4GVTZ71vqUqCK_cYVNPvPqpya34tFspmMwPROrwQGNKoWBIzGN4ZHE6B2XKF_zo0W4Uo7JLVG4q0VFCbsGHs2MNIjAjz
+cVD_irWxkMHLJ3HT3pjXaTa_uqGxJJur0KqEJH3fj2Hd0_sk11CAMhOQn0y
+}
+!procedure Relianceindustrieslimited($id, $name="Relianceindustrieslimited", $tech="")
+  IconElement($id, 'simpleicons-4/R/Relianceindustrieslimited', $name, $tech)
+!endprocedure
+!procedure RelianceindustrieslimitedCard($id, $funcName="", $content="")
+  IconCard($id, '<$RelianceindustrieslimitedMd>', '', $funcName, $content)
+!endprocedure
+!procedure RelianceindustrieslimitedGroup($id, $name='Relianceindustrieslimited', $tech='')
+  IconGroup($id, 'IconGroup', '<$RelianceindustrieslimitedLg>', $name, $tech)
+!endprocedure
+@enduml

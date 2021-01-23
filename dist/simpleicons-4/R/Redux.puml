@@ -1,0 +1,19 @@
+@startuml
+sprite $ReduxMd [14x14/16z] {
+BKo50SD04EB_t9hzfstqN01S9fDL2vzbYRPyYoU0tT-pzmEmPw62w0Rnit5YZgfyY8iBp7UhXMX-nGdQgmpXD_vmUCW27G78RsCruogEDRTalr8yUjVETj4S
+PYLhmh9m0IJI5au
+}
+sprite $ReduxLg [20x20/16z] {
+LP250GGW20196zX_sqU-ROy6Qj1sCslmEyJyd1X_A2RbwVE7lJuI_47DyVdONyMzFi8Fou0y91yuy8NG5LQ4dTKJVTc8hNrQB2h4U3h0yot79Oa6p_ssW3GG
+iEYWhrnQh8IETdLi5PmHUTle2jV0gAwMPpVbUqNaHTuhZfSUZZp9JdbLj_FfpQ5NfSTtcg6kM8YOhsM4jCFCVGjmdgbIsgnDxWDPHxyX7m
+}
+!procedure Redux($id, $name="Redux", $tech="")
+  IconElement($id, 'simpleicons-4/R/Redux', $name, $tech)
+!endprocedure
+!procedure ReduxCard($id, $funcName="", $content="")
+  IconCard($id, '<$ReduxMd>', '', $funcName, $content)
+!endprocedure
+!procedure ReduxGroup($id, $name='Redux', $tech='')
+  IconGroup($id, 'IconGroup', '<$ReduxLg>', $name, $tech)
+!endprocedure
+@enduml

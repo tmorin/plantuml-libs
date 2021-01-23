@@ -1,0 +1,16 @@
+@startuml
+sprite $ApachemavenMd [14x14/16z] LSg53G0n049HwWxxJtikBT57FgmAhcLPmAbTi4Fk5CqDcbFdPpeLSOXAGAFgqrSayIZEDGt7SGRdYiRHqTpo78FoDwvqV43gBUER2S0akyWOFDi1
+sprite $ApachemavenLg [20x20/16z] {
+POq7aWD120C5ctUHzF_NtjbJEFVa7We1gvreul8233UXcUZrVcxstcgMlRMxkagovdOrL4hoWU7wCqfonN2hF1gVvZDjbhpVupaQTsUw41AjH5Eqyd3P2z2S
+idRH7T0XOedlPGYIHMl56pjDLgjc5kapyC5-R5lYarpmmvJnhI8ZlrqYFkh-0G
+}
+!procedure Apachemaven($id, $name="Apachemaven", $tech="")
+  IconElement($id, 'simpleicons-4/A/Apachemaven', $name, $tech)
+!endprocedure
+!procedure ApachemavenCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApachemavenMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApachemavenGroup($id, $name='Apachemaven', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApachemavenLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $PhonepeMd [14x14/16z] {
+PKp50G0n3AAkIVRVzYZVeneCI2k4bK0q3t-JDogDdrgaDYn_TAwXXvVjEz4FVvDd0paZMyHL6yXm87xJmUoQhiQHKdhJNAvPJi-fQR91jW7WA6W0qcJwpiJl
+1m
+}
+sprite $PhonepeLg [20x20/16z] {
+NT055iGW30JGgOH7YTt_j2jawCeyWuycUENGPFG08xRCXTJV4wNscxAXVV2GEdJSA52_Xxq6jjLpgZOsT8svEcq3CxUEQTxGxC8-vZxUDd1bOAzPb5tewRIL
+WSPzdxC6jBPi90zlmB9JMN-4qNoRjPNIfFx9y_slCGm94F_kARF9y1SCgSAV
+}
+!procedure Phonepe($id, $name="Phonepe", $tech="")
+  IconElement($id, 'simpleicons-4/P/Phonepe', $name, $tech)
+!endprocedure
+!procedure PhonepeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhonepeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhonepeGroup($id, $name='Phonepe', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhonepeLg>', $name, $tech)
+!endprocedure
+@enduml

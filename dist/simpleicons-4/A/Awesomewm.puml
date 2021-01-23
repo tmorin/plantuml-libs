@@ -1,0 +1,13 @@
+@startuml
+sprite $AwesomewmMd [14x14/16z] uoSJSC803p-5W8UJYukJ4rc43uN7Jv07
+sprite $AwesomewmLg [20x20/16z] uwS3u4C6K34EPC25HHqV7Po48iG5TWex1wOwNdO-J0CuQ2C6
+!procedure Awesomewm($id, $name="Awesomewm", $tech="")
+  IconElement($id, 'simpleicons-4/A/Awesomewm', $name, $tech)
+!endprocedure
+!procedure AwesomewmCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwesomewmMd>', '', $funcName, $content)
+!endprocedure
+!procedure AwesomewmGroup($id, $name='Awesomewm', $tech='')
+  IconGroup($id, 'IconGroup', '<$AwesomewmLg>', $name, $tech)
+!endprocedure
+@enduml

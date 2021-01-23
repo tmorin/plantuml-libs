@@ -1,0 +1,16 @@
+@startuml
+sprite $EseaMd [14x14/16z] XKm30W114Bh5QDN_VtksngYwVzDuM09eNtm3JmCBCwTMnvzpMe3cXp6gaHi4e54pcle9F7o7lvibP1Y1EYyHbPqk6njFhKpR05_wtNe
+sprite $EseaLg [20x20/16z] {
+bSy53e0m44JHLNmwzpyjxiJuiURLvN_sfUW_f1W-rd7G5rKax3XuoMqc5jzjG05GsimCcTDCzS2vHBCT-jHbr96rUBOWKSjUMrfmhino6hVQnpEskfCCv13r
+m_fPbk_YjAZwt3yy7EOkHnhohma
+}
+!procedure Esea($id, $name="Esea", $tech="")
+  IconElement($id, 'simpleicons-4/E/Esea', $name, $tech)
+!endprocedure
+!procedure EseaCard($id, $funcName="", $content="")
+  IconCard($id, '<$EseaMd>', '', $funcName, $content)
+!endprocedure
+!procedure EseaGroup($id, $name='Esea', $tech='')
+  IconGroup($id, 'IconGroup', '<$EseaLg>', $name, $tech)
+!endprocedure
+@enduml

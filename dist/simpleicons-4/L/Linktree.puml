@@ -1,0 +1,16 @@
+@startuml
+sprite $LinktreeMd [14x14/16z] NSt5GGL034NHE-xp-k-M1FXwugjWIe1G-BSovCMV9jkM6YvSAMVf1aoNj9Qr0KIPrhn7yhHnuDYOR9aArMVsjZ7Rbp76FGNAlMDqOEhwcmcyhWMk-xBK-VO3
+sprite $LinktreeLg [20x20/16z] {
+VS-5TGGW44NHZpkl_svp1k8h5tT6XtTMEwzVqXdvz7kAPatZr-I2A4LO-bA0BWsWw78R84IhjzVHC6DYcapOc5mmE_niMt8BqoKVEPAKEQBQm0nxwwlB5U_N
+ZzlGTGpCxgFtoSfUydanUnzLak8De09Pr--vz6uk_Cn5VSdvlf6pqmiV
+}
+!procedure Linktree($id, $name="Linktree", $tech="")
+  IconElement($id, 'simpleicons-4/L/Linktree', $name, $tech)
+!endprocedure
+!procedure LinktreeCard($id, $funcName="", $content="")
+  IconCard($id, '<$LinktreeMd>', '', $funcName, $content)
+!endprocedure
+!procedure LinktreeGroup($id, $name='Linktree', $tech='')
+  IconGroup($id, 'IconGroup', '<$LinktreeLg>', $name, $tech)
+!endprocedure
+@enduml

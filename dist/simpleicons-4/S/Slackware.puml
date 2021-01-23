@@ -1,0 +1,16 @@
+@startuml
+sprite $SlackwareMd [14x14/16z] VOl50SL044BNbO7-g_soSapUkE1--6v4cz4j2abHQGr1tVi8vJMblMtxqvimUmrkupifgMnTNfdOkhs5hIbBQ1NtSzO1cyczarD-v0i
+sprite $SlackwareLg [20x20/16z] {
+fOz50aCn24GX7fXcxd_QodVRzKLna9dK0FJSJ7QA3Gwlvhgfd0CEVachAXDHH1CEkiuwlGh6LTVeGQTCcqeYoPTRhqbs4ZZZOLTgogLM8sshsxV4M1iqjhMf
+rwvZ2oeQGPDTHqw3OAjHHsi-I5IL3VsTB_8tRduZFF01
+}
+!procedure Slackware($id, $name="Slackware", $tech="")
+  IconElement($id, 'simpleicons-4/S/Slackware', $name, $tech)
+!endprocedure
+!procedure SlackwareCard($id, $funcName="", $content="")
+  IconCard($id, '<$SlackwareMd>', '', $funcName, $content)
+!endprocedure
+!procedure SlackwareGroup($id, $name='Slackware', $tech='')
+  IconGroup($id, 'IconGroup', '<$SlackwareLg>', $name, $tech)
+!endprocedure
+@enduml

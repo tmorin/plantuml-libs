@@ -1,0 +1,13 @@
+@startuml
+sprite $SoundcloudMd [14x14/16z] bOv50a1124AdK-7-f_qTi_LjRC6PyKiU1ZNVQIobWsIy-csCULOp-rBRc5EEwgmFH4JlYlaOjjw5EAYlm8N1qGu
+sprite $SoundcloudLg [20x20/16z] lOs50G0n20FhEEo_xRiEqAjYIPfARht-KeqZWlCTbzO6Qwp8tOB4VEIYdrr8Qqvipodsr3e0iOZecZi0NX5TCRzolcOsjkITwmEH7htJ9kUoxb9gFoXf1Wi
+!procedure Soundcloud($id, $name="Soundcloud", $tech="")
+  IconElement($id, 'simpleicons-4/S/Soundcloud', $name, $tech)
+!endprocedure
+!procedure SoundcloudCard($id, $funcName="", $content="")
+  IconCard($id, '<$SoundcloudMd>', '', $funcName, $content)
+!endprocedure
+!procedure SoundcloudGroup($id, $name='Soundcloud', $tech='')
+  IconGroup($id, 'IconGroup', '<$SoundcloudLg>', $name, $tech)
+!endprocedure
+@enduml

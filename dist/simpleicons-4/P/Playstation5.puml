@@ -1,0 +1,13 @@
+@startuml
+sprite $Playstation5Md [14x14/16z] hSR90G0n20En0MplqN_1eOZe9QxmAYQQs9hfrtnDtfvMTyDNiFbPYg2zkE8
+sprite $Playstation5Lg [20x20/16z] pSt70GCm24FH3qBk-w-RdXtyJdIuYDy4X5j5VTENMeBjIY_zrHPvWDebYUQKWc-Do4oTu4tg4uZl9JxSpFUFxU0YJm
+!procedure Playstation5($id, $name="Playstation5", $tech="")
+  IconElement($id, 'simpleicons-4/P/Playstation5', $name, $tech)
+!endprocedure
+!procedure Playstation5Card($id, $funcName="", $content="")
+  IconCard($id, '<$Playstation5Md>', '', $funcName, $content)
+!endprocedure
+!procedure Playstation5Group($id, $name='Playstation5', $tech='')
+  IconGroup($id, 'IconGroup', '<$Playstation5Lg>', $name, $tech)
+!endprocedure
+@enduml

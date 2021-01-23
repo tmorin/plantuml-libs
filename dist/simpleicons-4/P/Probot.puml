@@ -1,0 +1,19 @@
+@startuml
+sprite $ProbotMd [14x14/16z] {
+JSp55KLH24DHd72D_glzBc-lJ4_eYSzX-bkBBW1w2G25lL40f7kEyLdleKJyUcBIXaHbCHKGqfLGyymmpNnKDbinh9TM5z9IKPxkQ2WG9JmYeLr2hyvDINgN
+2CSOmIpLfozm1m
+}
+sprite $ProbotLg [20x20/16z] {
+RT17Wa0X20FGs0sWkVzjXp-zlKtCIW3lfZJnov8MVgaH5R-PuOzpy26EVZbT2jACwIr3zqR1Jw4me9CTgMqEm1I67Mlw1jQJ1EKSKKg1ZtPggR2v5SPPfTQC
+grxrHbSu-xDNSUzJOjqX9pVCCFScw6MG2jOp2dhK4XEbHQF2ieT70vfdZhTPijMsoPsHnNHFGQexDQHo91qpTukK3xEZ-zzTNW
+}
+!procedure Probot($id, $name="Probot", $tech="")
+  IconElement($id, 'simpleicons-4/P/Probot', $name, $tech)
+!endprocedure
+!procedure ProbotCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProbotMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProbotGroup($id, $name='Probot', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProbotLg>', $name, $tech)
+!endprocedure
+@enduml

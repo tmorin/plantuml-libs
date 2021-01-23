@@ -1,0 +1,16 @@
+@startuml
+sprite $VfairsMd [14x14/16z] LKw50O0m3Cia0ll_Nbphtc2ZdiGT9zM8OkgHQFEzxpN0Gy2U0Hp5iSwCJXF1gVNUGh1PnynW0VHcsB9ZCk_aUOM0d7PzE0P7kRxp_Fv3TbARvnFq2W
+sprite $VfairsLg [20x20/16z] {
+LP050WGX24MnFc7S_xYBKx9_qaT3bnARgd6YeApELCeXIGpK_3PvFLlVGO0RON2Gid4ckXbH5iiaDWiTHcKQiK2rl2oBiYIMSkS6TaUW8hIP7pfQkskzpAdC
+ALUjoDQI5Ddk2_YBRUfXu3rFkrdifQX2t3HgxBaEyzbwd2r9lqzX1ntVhXJExbgVYfhgNIkezbxV_ny
+}
+!procedure Vfairs($id, $name="Vfairs", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vfairs', $name, $tech)
+!endprocedure
+!procedure VfairsCard($id, $funcName="", $content="")
+  IconCard($id, '<$VfairsMd>', '', $funcName, $content)
+!endprocedure
+!procedure VfairsGroup($id, $name='Vfairs', $tech='')
+  IconGroup($id, 'IconGroup', '<$VfairsLg>', $name, $tech)
+!endprocedure
+@enduml

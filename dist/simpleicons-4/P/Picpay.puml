@@ -1,0 +1,16 @@
+@startuml
+sprite $PicpayMd [14x14/16z] PSU50SKm24NH5yC9-q_xNTiRWODtqqJr8mgH_8X9bW6sqmaWSjBMl6ufs8cpzaIZgjw8Q5KD0FduWOTwVMIYMO6NxaL_Y-SQm5kVzQJUyTCL
+sprite $PicpayLg [20x20/16z] {
+ZSs7aKKX241H4ncq_swNv_wSxoJdg51kQyGPtLaNpUJE80YHrxrf5QoH9nHcxDkiBnypJxwEhErt12rgRRRcWL4BJ2RYvUxG-w1aFk_D1tiKv-zowcpmmkZU
+eBO6EOzkBDnZxxtQAU_bnbnD1VBLtOwxVZTLQUM7_W
+}
+!procedure Picpay($id, $name="Picpay", $tech="")
+  IconElement($id, 'simpleicons-4/P/Picpay', $name, $tech)
+!endprocedure
+!procedure PicpayCard($id, $funcName="", $content="")
+  IconCard($id, '<$PicpayMd>', '', $funcName, $content)
+!endprocedure
+!procedure PicpayGroup($id, $name='Picpay', $tech='')
+  IconGroup($id, 'IconGroup', '<$PicpayLg>', $name, $tech)
+!endprocedure
+@enduml

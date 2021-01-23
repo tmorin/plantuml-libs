@@ -1,0 +1,16 @@
+@startuml
+sprite $GraphcoolMd [14x14/16z] FOw55GD124Hd1UU5_giz9VTNSC4DLqtyMLw_qVhGf3LRtoduq5ojJLqmxnnB3LWy6Nxd-toiMNNdnsk16Q_b-F39mMWuWEdnp9WHyvQKDeObeP7iXKu
+sprite $GraphcoolLg [20x20/16z] {
+NS_50GCn3031DPEW_sh3yS4ynU9dkWzkv1wZgheNJf9u2ocT8c7O25n4bSHLQSf97XNQc6nfsV92_SS2OVYCpB7higfAXdDikY-unefPkST8YNji6uFIX0jf
+XAWIsUBI2CIv_mtTvwyWYxLtj9fajcfQYbZbB7Ip7lXw0W
+}
+!procedure Graphcool($id, $name="Graphcool", $tech="")
+  IconElement($id, 'simpleicons-4/G/Graphcool', $name, $tech)
+!endprocedure
+!procedure GraphcoolCard($id, $funcName="", $content="")
+  IconCard($id, '<$GraphcoolMd>', '', $funcName, $content)
+!endprocedure
+!procedure GraphcoolGroup($id, $name='Graphcool', $tech='')
+  IconGroup($id, 'IconGroup', '<$GraphcoolLg>', $name, $tech)
+!endprocedure
+@enduml

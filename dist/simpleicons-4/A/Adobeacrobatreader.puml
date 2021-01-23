@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobeacrobatreaderMd [14x14/16z] JKt50SD033FJqVxJbfjOFp6yeUvmGoqxysfCPZH6HnhZWutbjCQMi5x45tAccRtRk4g4r4aFeCpv7TPGKzrqNz7KUowg4NW2
+sprite $AdobeacrobatreaderLg [20x20/16z] {
+PK_L0GKW20Ib3VQVzdNYVS8bF25i3WN26iUDUDURakwJDrQzDSs02ay-RfPOJpYJwerJen8ZaSgGddRhuqXCr3u9dKHZcQY6F1Do6rD7ydwtUGIiJVYg7cFx
+xUAU-jCAGKrWpLACOEpI377iNhU7DIYu0W
+}
+!procedure Adobeacrobatreader($id, $name="Adobeacrobatreader", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adobeacrobatreader', $name, $tech)
+!endprocedure
+!procedure AdobeacrobatreaderCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobeacrobatreaderMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobeacrobatreaderGroup($id, $name='Adobeacrobatreader', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobeacrobatreaderLg>', $name, $tech)
+!endprocedure
+@enduml

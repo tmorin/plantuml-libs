@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglemeetMd [14x14/16z] HStL0S0m409Gudxilsr9Qk_l503PA9Qn-SbZUeYAfmHSeVNUsr1Pa2SRn8sgOJLM797cLBM_-ZPRuOBBj5PhxUGvwNoOWxIdoZZ2a_RPau_h7ji5
+sprite $GooglemeetLg [20x20/16z] {
+PT230K0n30JGIrBhzj_sctsrWPKadfBWf8MdecUNTTww0IjfV6c2LU970aG7cMsNoC6XC4zISUuIC-dXuwlFKCY8a8w-qzgNuLzz8ciVqtU_wZ8P8DhNGbJM
+wCTef9ttQxl1LPdVGO-fC-EK1ayLDucbdZ_mGR8A_dqHVzLmMW
+}
+!procedure Googlemeet($id, $name="Googlemeet", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlemeet', $name, $tech)
+!endprocedure
+!procedure GooglemeetCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglemeetMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglemeetGroup($id, $name='Googlemeet', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglemeetLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $StadiaMd [14x14/16z] ZOk35GD044Jdj4R_rSPuJluQWn_Cmw9yvhq_tY-S9Eur8_9Mwj4hxpa6fVJt3O3Thc6FznXOH7D9FYRS6NTnkXyyY9Q53tlZ3wu
+sprite $StadiaLg [20x20/16z] {
+hSr50iGW50FGu4xkVrgqlfrvBGxv-9qqpdllZCH1-LAvrUpdjavyYpwSDoPEXNk88qg8aHehtR6NXk3a2fTyoHP3I3ljh9mb8FKCKyh6eu34eCLeaOU4WoMF
+X69mq7CTj1H2u9BeyAKq_gG3
+}
+!procedure Stadia($id, $name="Stadia", $tech="")
+  IconElement($id, 'simpleicons-4/S/Stadia', $name, $tech)
+!endprocedure
+!procedure StadiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$StadiaMd>', '', $funcName, $content)
+!endprocedure
+!procedure StadiaGroup($id, $name='Stadia', $tech='')
+  IconGroup($id, 'IconGroup', '<$StadiaLg>', $name, $tech)
+!endprocedure
+@enduml

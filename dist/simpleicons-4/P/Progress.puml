@@ -1,0 +1,16 @@
+@startuml
+sprite $ProgressMd [14x14/16z] HSd7OGCm5CDGg7Tf_stpIspZzaYajDxR6I_E9ys8Ioxfjk1EsvsXt1ceLzcxpGs6AZLRRmeg2CDUbvJahhX2Pd-Kobq_ZVE-EWdw4CqGNiCR6GZ07m
+sprite $ProgressLg [20x20/16z] {
+NS-50S0W34JHmptPVzeA3h_-Qe2QSCJCNc1B1lwAQYDFNAFjIPEvLoncbePcNK6eRmjJVpI5qwSgTJFQjDCWvsUDZ-Fh3X1KhRxQIXAbsPUZQgGsWuoNrU9j
+IY6S9ZoPqym_gyjyvCk205HaMyq3TPOrepvB_zIZnSgvUX1r_m8
+}
+!procedure Progress($id, $name="Progress", $tech="")
+  IconElement($id, 'simpleicons-4/P/Progress', $name, $tech)
+!endprocedure
+!procedure ProgressCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProgressMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProgressGroup($id, $name='Progress', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProgressLg>', $name, $tech)
+!endprocedure
+@enduml

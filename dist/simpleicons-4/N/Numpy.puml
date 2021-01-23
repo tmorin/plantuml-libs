@@ -1,0 +1,19 @@
+@startuml
+sprite $NumpyMd [14x14/16z] {
+BOk50G0n308Jg1lxR_jVkMeGsrIfsOEUf6BylywX5VzdQj30fiQGK5QZh-bkJHfkw4Mgvco_ZQv_aeS1xmfT-PyAbPCKIhI_iTAUEhp-NbXJcH5-UlXFiR9x
+XT5ztLwhRZzvJulsI35T_GC
+}
+sprite $NumpyLg [20x20/16z] {
+LOx90GGW20C3U0FIVxUBxZslE2e1Jtea0t-Cu-QFg9tHV0-YNbz68ppFnqVejJEIHPdQVWve3QpAABuRqLYPEC8O88t4CycA-bf1PluN4EsuBXXS8GBHyN43
+9OoWMN1SYGDA9edZF5iYygP_71WrWytmUjq-c-YPvsnXnwLvzphTeWg8pUlKdM77aRrxWK9P--crdF14VthVi5qt6RzqaS-l1m
+}
+!procedure Numpy($id, $name="Numpy", $tech="")
+  IconElement($id, 'simpleicons-4/N/Numpy', $name, $tech)
+!endprocedure
+!procedure NumpyCard($id, $funcName="", $content="")
+  IconCard($id, '<$NumpyMd>', '', $funcName, $content)
+!endprocedure
+!procedure NumpyGroup($id, $name='Numpy', $tech='')
+  IconGroup($id, 'IconGroup', '<$NumpyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ChryslerMd [14x14/16z] jOO94G0W0C9WE-tVsAU3yYxFrAPtBu8YODChvx2Nyq4R
+sprite $ChryslerLg [20x20/16z] pSC93K0n5CEm9dtQ-2F-9ubPSevdfQDFnZ4F10i88Wa_rzwhGj3yG864dEy6
+!procedure Chrysler($id, $name="Chrysler", $tech="")
+  IconElement($id, 'simpleicons-4/C/Chrysler', $name, $tech)
+!endprocedure
+!procedure ChryslerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChryslerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChryslerGroup($id, $name='Chrysler', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChryslerLg>', $name, $tech)
+!endprocedure
+@enduml

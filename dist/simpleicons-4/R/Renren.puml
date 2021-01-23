@@ -1,0 +1,16 @@
+@startuml
+sprite $RenrenMd [14x14/16z] ZSVL0S1020DG25IHxBzjh_P_3utCGvW746u1EPhkZBXtWxplijoR9qauLUdWhKGBA9My4mpBC0vFDwrIwBqD8clL-kzv5m
+sprite $RenrenLg [20x20/16z] {
+hOg5bKH148JeSRtAFzkhjGm-eys3vocDt34jKmicbZPLDvUhnjOAvjRRQH_PlIVfwtB-EhMVEt1KMHwFp21hmLHcUFoJoMxibjlqTPD4kn6taXnhUmSxCqeP
+v4rirLg3hWqfmLOdBB1wnpYHvPlSvoYOCcRFFCy_
+}
+!procedure Renren($id, $name="Renren", $tech="")
+  IconElement($id, 'simpleicons-4/R/Renren', $name, $tech)
+!endprocedure
+!procedure RenrenCard($id, $funcName="", $content="")
+  IconCard($id, '<$RenrenMd>', '', $funcName, $content)
+!endprocedure
+!procedure RenrenGroup($id, $name='Renren', $tech='')
+  IconGroup($id, 'IconGroup', '<$RenrenLg>', $name, $tech)
+!endprocedure
+@enduml

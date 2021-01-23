@@ -1,0 +1,16 @@
+@startuml
+sprite $IataMd [14x14/16z] XKxL0KD123iivG9b_sthzjM7Erc7vFwJxAhzIUnCjjsZtBd1Ak8UWDsDK-BcA4lOKslLt9BxlJ08ql6uIs249VquM-YnT0plMNY4XORZFy8h
+sprite $IataLg [20x20/16z] {
+hSv5WWGX30NG3v6EmlrFMpQ-ddubQ0HlC2_uYop32B-DweYkyIUoCZFgCrfLH8Mg8gf8dbLMLstJlAZjkfOyES9p2Ty1Aps20N1shMs0xNNVmatStIOmxPe8
+7lJ2S9hXCV7LOwmhx3LiE_pw7cLtU-36x4ZSHeljxc45NzVuxEbG6WeMtEF0lvm
+}
+!procedure Iata($id, $name="Iata", $tech="")
+  IconElement($id, 'simpleicons-4/I/Iata', $name, $tech)
+!endprocedure
+!procedure IataCard($id, $funcName="", $content="")
+  IconCard($id, '<$IataMd>', '', $funcName, $content)
+!endprocedure
+!procedure IataGroup($id, $name='Iata', $tech='')
+  IconGroup($id, 'IconGroup', '<$IataLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $ViberMd [14x14/16z] {
+BOY5OGH020Jd7AV_QgCFws1bSg_y6B3BzXnZRgkDrWN67d1gL71xS-H0t52qdVtUGjKVgo-SUtZc5zI0CN_RWn4wtWBH_DkzknV-F2V02MVMMfARlzkbm0sc
+UsQ-_t7BkNlnVqS7d_i6
+}
+sprite $ViberLg [20x20/16z] {
+NOu7WiKW24G7b0W6cVlVTatPzb-AJh4065Nhd37FN5K35nAi31yUCuiXbvLqnOiEfg0F7g_is7GEP4t0JeKqk_kpX3GeUGgEk4tZbWsDLx9xXs4BgrBWl7em
+xm5eZLfoPGv0fBb0bjyUd0qNylHAxqlkGKrmUGUVXYOZcGeqThvN5kScW8CwC_7G9gj1jjREm8iA43G0Wyk-pL5qNFGy0QzL9DFmuXWpmeSr_E0M-6Gw_l85
+}
+!procedure Viber($id, $name="Viber", $tech="")
+  IconElement($id, 'simpleicons-4/V/Viber', $name, $tech)
+!endprocedure
+!procedure ViberCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViberMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViberGroup($id, $name='Viber', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViberLg>', $name, $tech)
+!endprocedure
+@enduml

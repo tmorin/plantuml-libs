@@ -1,0 +1,16 @@
+@startuml
+sprite $PeriscopeMd [14x14/16z] JOs50S0W4CI2ExV_j7KXy6w07peOdekYYy99ajJSeHDWfeOc14rxwkPQ1Be2DgcyumaJrRdeYk1qQeYI0vfKlCkwUxmU_7gzSc7w6Gp34mvTfz-mZplO0G
+sprite $PeriscopeLg [20x20/16z] {
+LOu50iD020Gvz-F_l-q6jZQLa47beHmrRf4FxQhJFgfRZVbELTNUKbvuL5F1Xns40u_0iZtSoUP8lDSmLx9bgkDvOaeIabLNm3ZKvn-tdu6J5_2goHatkegN
+EnA2aomwI2FoPhspjNdLMbb8MCR9XDlyVB8fk0zmFyakoqTyP9L_qZvPo0i
+}
+!procedure Periscope($id, $name="Periscope", $tech="")
+  IconElement($id, 'simpleicons-4/P/Periscope', $name, $tech)
+!endprocedure
+!procedure PeriscopeCard($id, $funcName="", $content="")
+  IconCard($id, '<$PeriscopeMd>', '', $funcName, $content)
+!endprocedure
+!procedure PeriscopeGroup($id, $name='Periscope', $tech='')
+  IconGroup($id, 'IconGroup', '<$PeriscopeLg>', $name, $tech)
+!endprocedure
+@enduml

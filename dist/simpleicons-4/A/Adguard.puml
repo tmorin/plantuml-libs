@@ -1,0 +1,19 @@
+@startuml
+sprite $AdguardMd [14x14/16z] {
+FOw30G0n302lI1dil-txhuXHkuUkEPU6zxJCTKWfCZHCV2TUpeXsVhhQvA4cvWfzZ3P0XtfY2x8X-pcWqxnRvXIaVWPx273wmHRKKoxZfCJbE-E52ua9C-GR
+5QfH-KYgptu7
+}
+sprite $AdguardLg [20x20/16z] {
+LOu7OiKW34FDNaQw_sthhuuqBmFmU3YbvYHm0u3qdYoN0H9-0WU9MGpWdIsRo6rUOf1H_8_KUO1iBp8sKTwnmaNMvzmYN_dnFQ4JdivAhX2hlqgpcBRV58uT
+Fum8fUjMEvlPu8ou-iELCbmTl9hJDTlKBOToTauDUPdZtxJdZRqKdama_yZ5L50XTOf53rjnBdkOvEXGrKC3YMPlyZdPVlW2
+}
+!procedure Adguard($id, $name="Adguard", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adguard', $name, $tech)
+!endprocedure
+!procedure AdguardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdguardMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdguardGroup($id, $name='Adguard', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdguardLg>', $name, $tech)
+!endprocedure
+@enduml

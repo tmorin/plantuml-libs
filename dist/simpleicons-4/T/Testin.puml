@@ -1,0 +1,13 @@
+@startuml
+sprite $TestinMd [14x14/16z] hKc50G0X2CIwGFPVzyCP92xZokJMuO7U8-YHMdkf00jo6VRIB7ZnwwQpWngCA_C2
+sprite $TestinLg [20x20/16z] pOC70KGn24F3B07gN-vD4_yDF0YIBVXZ3bC0rUlc0irGheTAm9AO6PifcyrARdlMkJN9fZbHf5nF-cLPS1kJrOshbZXD-mu_4O72WtW3
+!procedure Testin($id, $name="Testin", $tech="")
+  IconElement($id, 'simpleicons-4/T/Testin', $name, $tech)
+!endprocedure
+!procedure TestinCard($id, $funcName="", $content="")
+  IconCard($id, '<$TestinMd>', '', $funcName, $content)
+!endprocedure
+!procedure TestinGroup($id, $name='Testin', $tech='')
+  IconGroup($id, 'IconGroup', '<$TestinLg>', $name, $tech)
+!endprocedure
+@enduml

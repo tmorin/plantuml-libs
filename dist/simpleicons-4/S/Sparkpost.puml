@@ -1,0 +1,16 @@
+@startuml
+sprite $SparkpostMd [14x14/16z] JOt50K0X34DnXxV_jDybFJLkxglMo0slY28WKN_W5lb73T9N4u7s1GV0V41WX308DygueuYiw5qCvrXzdSUtbiodjTBrx
+sprite $SparkpostLg [20x20/16z] {
+RO_L0KKn2CMkrQ2G_QTzBZK-Wvrilv9pcqgl1QipSv-M0uIHsSmoZBiNK8-zHNi59CQM9G0LQSSSm8sZo-6g3isoOW-nqz16uJqGyJ-3wnEeTVZCMIjX3uVB
+o7zsE2xY-D44F0t0Uk4zcQMlxXq
+}
+!procedure Sparkpost($id, $name="Sparkpost", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sparkpost', $name, $tech)
+!endprocedure
+!procedure SparkpostCard($id, $funcName="", $content="")
+  IconCard($id, '<$SparkpostMd>', '', $funcName, $content)
+!endprocedure
+!procedure SparkpostGroup($id, $name='Sparkpost', $tech='')
+  IconGroup($id, 'IconGroup', '<$SparkpostLg>', $name, $tech)
+!endprocedure
+@enduml

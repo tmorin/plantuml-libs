@@ -1,0 +1,19 @@
+@startuml
+sprite $TaxbuzzMd [14x14/16z] {
+HSh70GHH209GpFgJ_LUxUMVUIG6yK9JW8k667q882OEJ0NOtyyogvSXKpRaomxnWmWJf43ETp20rMKlLT7WQG3BRNc-KfTFhVqyr5c3rSfPAzG0W7k9jgoVZ
+PtSdBjMA6tzMJm
+}
+sprite $TaxbuzzLg [20x20/16z] {
+NSt50GKm20FGOA7E_jj-rtTfSJp46eu_N2FmGqYnyDzS2xYwtdvsIoXf7YBKiBvE0qGZc95zhhbNZpO5VJI_PlROGKPaB4TBaTk2MHb1jvW9WJefo9fgJcfV
+iDinI-evIJVBM3O7RgpjIZ5IkREFn5tMJiAQvORqGRabpnR9L5O7u6tCCLRLJ9DHrHxBMkijQedjgcMuSrTWdLvLNV25TKNyi5FByMTCmJzvfYu
+}
+!procedure Taxbuzz($id, $name="Taxbuzz", $tech="")
+  IconElement($id, 'simpleicons-4/T/Taxbuzz', $name, $tech)
+!endprocedure
+!procedure TaxbuzzCard($id, $funcName="", $content="")
+  IconCard($id, '<$TaxbuzzMd>', '', $funcName, $content)
+!endprocedure
+!procedure TaxbuzzGroup($id, $name='Taxbuzz', $tech='')
+  IconGroup($id, 'IconGroup', '<$TaxbuzzLg>', $name, $tech)
+!endprocedure
+@enduml

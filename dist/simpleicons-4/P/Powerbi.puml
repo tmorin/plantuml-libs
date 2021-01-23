@@ -1,0 +1,16 @@
+@startuml
+sprite $PowerbiMd [14x14/16z] VSVL0OKm50MmSrs0TlzfdxkGl-03FG2PyP36U55uS7uPJx-jx6KqK-8-FYs7dATaKyPrL6unzRem0MIbDcjQ1BkE
+sprite $PowerbiLg [20x20/16z] {
+fStL0GD120JGmTPP-gysxfwxzuSEVaPyXu3MweCcflH0EvuvxbX-xitGfvw7NNibvBXtxL7V5LcVUXgTVDyR-uu9TZqxzrmP4dxRuz57id2wzjBOfsdCktzx
+t2koCtj6xOnrjW
+}
+!procedure Powerbi($id, $name="Powerbi", $tech="")
+  IconElement($id, 'simpleicons-4/P/Powerbi', $name, $tech)
+!endprocedure
+!procedure PowerbiCard($id, $funcName="", $content="")
+  IconCard($id, '<$PowerbiMd>', '', $funcName, $content)
+!endprocedure
+!procedure PowerbiGroup($id, $name='Powerbi', $tech='')
+  IconGroup($id, 'IconGroup', '<$PowerbiLg>', $name, $tech)
+!endprocedure
+@enduml

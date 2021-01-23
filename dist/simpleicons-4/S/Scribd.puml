@@ -1,0 +1,19 @@
+@startuml
+sprite $ScribdMd [14x14/16z] {
+DOt50G1120DPLsxwx_RMc0-QHCHFDaKEcSDqU_10gmfv3IwVMjzKeAxIcsm2q8COxNWa6xFkkOaHEyybQLybtMDHY3krk5NIW1wJJgVx6Zus8u1kPLNGBErB
+yWC
+}
+sprite $ScribdLg [20x20/16z] {
+LP253GH124KPDwJ_RWz6BkoBV883A9LbmnN-TBbqxtgyn28AZa4gT7r3xM5ThUFrBRMJQbATp_UQbpM2gvMHm9FFRZDxPvK3Uc_6wntWA9E_XmIR5XkPymxk
+XCKqMUfk6MqiXxCKdIcfcYzPb3Z2cEdcoIoveax06n_oQ46KyldV07fZ87PR6bk0j6o77m
+}
+!procedure Scribd($id, $name="Scribd", $tech="")
+  IconElement($id, 'simpleicons-4/S/Scribd', $name, $tech)
+!endprocedure
+!procedure ScribdCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScribdMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScribdGroup($id, $name='Scribd', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScribdLg>', $name, $tech)
+!endprocedure
+@enduml

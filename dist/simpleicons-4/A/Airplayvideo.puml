@@ -1,0 +1,16 @@
+@startuml
+sprite $AirplayvideoMd [14x14/16z] dSsr0S102010x1NRVzgurRaAP-f7qJaUEWK-dB-P_StEcphEcwgpmyXiiFthI88jDvM4O5FoSEv8dk9eaR1iM11W1G
+sprite $AirplayvideoLg [20x20/16z] {
+nSf75WKX24HHiq8XjV_L_XmvFUyxWWTp8LXPO84MGm_CMar1yuF6qzlex-RliPFjTNHtm5Pg9BqcCO2hjhbMgSwRdUkQy_MUDn-Gli0N-IGbOspxoyehvX_t
+_Ge
+}
+!procedure Airplayvideo($id, $name="Airplayvideo", $tech="")
+  IconElement($id, 'simpleicons-4/A/Airplayvideo', $name, $tech)
+!endprocedure
+!procedure AirplayvideoCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirplayvideoMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirplayvideoGroup($id, $name='Airplayvideo', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirplayvideoLg>', $name, $tech)
+!endprocedure
+@enduml

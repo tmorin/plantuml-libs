@@ -1,0 +1,19 @@
+@startuml
+sprite $NetlifyMd [14x14/16z] {
+HKw50S0m2Akj9P0r_ryx5zn9EgbBDNqKMdj-4vDCyNR26ZH7EHENc160fJGS4gQGgqUUYY32Q3FGuTwoKN99HpfomT7iKyp79dbUN6Ba-pSeaXyKKzW7XYj6
+-ebs-nq
+}
+sprite $NetlifyLg [20x20/16z] {
+PP054aGn24DRjhy4pVrlk-uPOnwUSTSCqiUtPbxP7-hjyic298mvtrMcA5UIQtuqfWnhjfQy6xb5DHofro81IEQr4tESybBfINLIawMsjgkNtFhQKLk3MapR
+nzv8bzE19g_i8aJcCST4HB5mHILJOCTQQe0jYURz6bScoAwr37f5LqZYsWPdV3gmaqIqVDfIcmsNRwyClUVub2IXyy_eUCLd
+}
+!procedure Netlify($id, $name="Netlify", $tech="")
+  IconElement($id, 'simpleicons-4/N/Netlify', $name, $tech)
+!endprocedure
+!procedure NetlifyCard($id, $funcName="", $content="")
+  IconCard($id, '<$NetlifyMd>', '', $funcName, $content)
+!endprocedure
+!procedure NetlifyGroup($id, $name='Netlify', $tech='')
+  IconGroup($id, 'IconGroup', '<$NetlifyLg>', $name, $tech)
+!endprocedure
+@enduml

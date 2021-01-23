@@ -1,0 +1,19 @@
+@startuml
+sprite $CodesandboxMd [14x14/16z] {
+POu5aiL024IHZ4Be-zzsczgK_ZU2Yn0F85p-qGDoL9g5Du5yCQbd_tFn8JM0QrznMTHCrkX5phPCHf4XtjR3j4n-3-oYs25kzuO506tB0FXAm3uhkS2iyhXU
+DNyt8vPXqlm1
+}
+sprite $CodesandboxLg [20x20/16z] {
+PT075eGW303H92gTpFrlkn7Uzh5_xB9B3fxaCor4nJueJLOpFUKS-20QpZW3r1fKrUIUr0fqanfqhLlgkWiqgHqeAYihRFCoy1ogsHbbczq7yqhp7ZAsYLWb
+glVUqw83OliqsY6H-nfgso0_BSFJvjCcqDSxCpwjYLg7QTlCWqoYQxrpM5x_OATvCc3iV_NC_lzfTFJ-aWS
+}
+!procedure Codesandbox($id, $name="Codesandbox", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codesandbox', $name, $tech)
+!endprocedure
+!procedure CodesandboxCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodesandboxMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodesandboxGroup($id, $name='Codesandbox', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodesandboxLg>', $name, $tech)
+!endprocedure
+@enduml

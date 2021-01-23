@@ -1,0 +1,19 @@
+@startuml
+sprite $AutodeskMd [14x14/16z] {
+BOg54SCm5CNKe3_4sd_RNa073u7pd9fyz6Yzlh3PGztVb7fVYvj57QckTnYtMTK0njI6rlc3IptWK4_mBN_lPKGU0A5kP6LLTUngKjxKSfkvRA7N1jpZu1S7
+t6HL_04
+}
+sprite $AutodeskLg [20x20/16z] {
+HOy70WGX20EnT_F_tvxXb9sjZYKW1r_JnY7BH-X_L-IZenQwwKovZP50eZckoPsksx89e6KGVvrkMs7nKos1wwJoipN5XNkwXvMOTNwyzPDkMGV1oW5Pbe_-
+N1EIDIM8jDPxT-hykatdSiYaf7wRXh5YqBmaRLnLdSZuf_YePaHBWTTQTtQYlAPTKQEaTgW_
+}
+!procedure Autodesk($id, $name="Autodesk", $tech="")
+  IconElement($id, 'simpleicons-4/A/Autodesk', $name, $tech)
+!endprocedure
+!procedure AutodeskCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutodeskMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutodeskGroup($id, $name='Autodesk', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutodeskLg>', $name, $tech)
+!endprocedure
+@enduml

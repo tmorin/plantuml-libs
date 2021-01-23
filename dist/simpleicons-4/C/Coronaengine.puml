@@ -1,0 +1,20 @@
+@startuml
+sprite $CoronaengineMd [14x14/16z] {
+9Oq7iWGX24GVxE0q2iNzJ_k3IoKwW-tI2jKsW6YvuUe0M-qy5W_UYzrkDMzEkRUNg2dZp46Iam6m0g_WIUuTqS6UgyM8VYqchpHXLQAFhR0ibFyBdvgP_q7_
+hgS-TnrMoy1q0NXMTwK3lm
+}
+sprite $CoronaengineLg [20x20/16z] {
+PP053iKm34DJ3gps_M_xqu7eUzWdEM19jS3bgduXchmQOEYS6jpZHKghpryrwej6shkCKT9oO1k9YeFDkQt8ELum4IVPAichYA40LHQ9URVYaefnXKZifqcB
+o6-4QxOhyggiBhfrojpsCKtpH38dtl4RgCdIgtmdFNyhlTcZWlwmE8w8PnRFHLhEHhjdEGriJWBmLfFlKiyoIPb2bxFRbq5Lj_bcy9_LNwOOygcCsC2EyIpv
+0m
+}
+!procedure Coronaengine($id, $name="Coronaengine", $tech="")
+  IconElement($id, 'simpleicons-4/C/Coronaengine', $name, $tech)
+!endprocedure
+!procedure CoronaengineCard($id, $funcName="", $content="")
+  IconCard($id, '<$CoronaengineMd>', '', $funcName, $content)
+!endprocedure
+!procedure CoronaengineGroup($id, $name='Coronaengine', $tech='')
+  IconGroup($id, 'IconGroup', '<$CoronaengineLg>', $name, $tech)
+!endprocedure
+@enduml

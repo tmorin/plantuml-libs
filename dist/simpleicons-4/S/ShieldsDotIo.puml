@@ -1,0 +1,13 @@
+@startuml
+sprite $ShieldsDotIoMd [14x14/16z] dOor0GH124N_A0xzLtkt4cqw3rSSqaSVBxrtqARzm9NfmBgxbuL70NlCDUViOLwqwOKpCxvVJla3
+sprite $ShieldsDotIoLg [20x20/16z] nOx50O0m34NZw2VxRujxxtsLk50bv0qp2tKlHYoqmchAmdiISa8caRgPB87b9_JZYCN7uT9uX8Ojlc7nBRMkiYIjwKTjSSQNPPTQp
+!procedure ShieldsDotIo($id, $name="Shields Dot Io", $tech="")
+  IconElement($id, 'simpleicons-4/S/ShieldsDotIo', $name, $tech)
+!endprocedure
+!procedure ShieldsDotIoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShieldsDotIoMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShieldsDotIoGroup($id, $name='Shields Dot Io', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShieldsDotIoLg>', $name, $tech)
+!endprocedure
+@enduml

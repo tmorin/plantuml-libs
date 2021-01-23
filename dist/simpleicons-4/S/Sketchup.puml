@@ -1,0 +1,19 @@
+@startuml
+sprite $SketchupMd [14x14/16z] {
+5Ow54S1020I9uE6t_supx0ZEdOWy7y3tod8bf_jGbyZjK1gX2IxcpJb0QcFWDfmeHl4SnlpWWU4YEhJE-5QtbWPPKrkzVYYgO0ohre0iZZRFMwJkJ8iKaOIj
+s69zzcv-p-QBHPWiFm
+}
+sprite $SketchupLg [20x20/16z] {
+HOu54aGX34E1ejNxttRJ_POnvX5fIP74NqBbrT2BsQWtwN3vcVCud1sWDeRXq5XxqCbd1SiSuoDDNH5fgctOLPQcjYCQ-ARbG6kYLycZYO5Escb2dtMmMjEa
+8yVFk1YcsyaLc7ZUhDBk1DDQSVQT9SycZRL33HlO7VyczzWxe3t0H9dom8j9WxNIp0FtnNP3Pc8MgpOb-sGYS4fgUznPQ9TBn0zZkX7KDPcEZwJMNEjv_m
+}
+!procedure Sketchup($id, $name="Sketchup", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sketchup', $name, $tech)
+!endprocedure
+!procedure SketchupCard($id, $funcName="", $content="")
+  IconCard($id, '<$SketchupMd>', '', $funcName, $content)
+!endprocedure
+!procedure SketchupGroup($id, $name='Sketchup', $tech='')
+  IconGroup($id, 'IconGroup', '<$SketchupLg>', $name, $tech)
+!endprocedure
+@enduml

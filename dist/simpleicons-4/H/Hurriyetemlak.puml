@@ -1,0 +1,13 @@
+@startuml
+sprite $HurriyetemlakMd [14x14/16z] XST10a0W00311G3y_xLWgKurjw6eQTBikpN7OJ4sn9gkizEJ7knXx3AiJ-nQKNS6sfgS2m
+sprite $HurriyetemlakLg [20x20/16z] hT350O0m343HL896zjyMwdQ4V-DHXpzoRYKMDvEeJkXODU148NOpDMpKC2mVybxBcYQFGW0l6QbIGVPQA9I-heiIDIGBXXgz60Z0-UKfFlG
+!procedure Hurriyetemlak($id, $name="Hurriyetemlak", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hurriyetemlak', $name, $tech)
+!endprocedure
+!procedure HurriyetemlakCard($id, $funcName="", $content="")
+  IconCard($id, '<$HurriyetemlakMd>', '', $funcName, $content)
+!endprocedure
+!procedure HurriyetemlakGroup($id, $name='Hurriyetemlak', $tech='')
+  IconGroup($id, 'IconGroup', '<$HurriyetemlakLg>', $name, $tech)
+!endprocedure
+@enduml

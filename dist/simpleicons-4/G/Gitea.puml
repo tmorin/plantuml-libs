@@ -1,0 +1,16 @@
+@startuml
+sprite $GiteaMd [14x14/16z] VSUr0G0n30H1aHcs_seVSu_mvCHIk9cgchdFlNWrNZtilxogodjovR5cbGxLgmreWp7P7c45abWTh2V5PikhiKfKAFBI2Hk6_3GzGivk
+sprite $GiteaLg [20x20/16z] {
+fOvL4WGW34DJmMcv_ssNpEh_FgoM3FWBCLNvIGMr9uc872s3xpfdzlDaprSG2uXdkCRppTM1VGFExzSOvmQZ3MzFyKqTpiWbRfGtAZlFOBJ5h3fOKz75znHP
+A5RfYukLVkwmsPHW5q_kDwEwS6mBdXZrCV8xnc8a2vaLNyICAFxa0G
+}
+!procedure Gitea($id, $name="Gitea", $tech="")
+  IconElement($id, 'simpleicons-4/G/Gitea', $name, $tech)
+!endprocedure
+!procedure GiteaCard($id, $funcName="", $content="")
+  IconCard($id, '<$GiteaMd>', '', $funcName, $content)
+!endprocedure
+!procedure GiteaGroup($id, $name='Gitea', $tech='')
+  IconGroup($id, 'IconGroup', '<$GiteaLg>', $name, $tech)
+!endprocedure
+@enduml

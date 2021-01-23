@@ -1,0 +1,16 @@
+@startuml
+sprite $SteemMd [14x14/16z] LKu50e0m28JrHlt_jvwjHpT4FEF0P0Agdv5NL6eyg3IFoZgh32KY7B8d1gHs8MiDdkwPv8H4N23fv6bSKMk619RRiL62HGGpvuMOnuNqktvyzWO03yMfmN0t
+sprite $SteemLg [20x20/16z] {
+RP05bi0m24I741fUREv_sXNgyjiO3lX36pUQOiCwDuPj8kS5Vuj2gCQLmz_G1l-OR1h77qD2jLIgaExnid13dGbpfXAo6fumPZWrhSwXoJ8gX8x6WuR2X3f5
+UPAKZap3E7nPP4waMT4ZH-2556LTefRMkHMRQnpieiQDiPtsCOElMNtFD12hWnpL99w_
+}
+!procedure Steem($id, $name="Steem", $tech="")
+  IconElement($id, 'simpleicons-4/S/Steem', $name, $tech)
+!endprocedure
+!procedure SteemCard($id, $funcName="", $content="")
+  IconCard($id, '<$SteemMd>', '', $funcName, $content)
+!endprocedure
+!procedure SteemGroup($id, $name='Steem', $tech='')
+  IconGroup($id, 'IconGroup', '<$SteemLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $A3MMd [14x14/16z] ZOp50GGX54Dn-FhwhtPr2Y1-Ihb67QAxxRDhEUS4G2Jq_Xkp0R0MKCfABC2KPFHX16dW0VG6v8OJvFCoO2HzgUwwpqzIhl46
+sprite $A3MLg [20x20/16z] {
+hO-70GCX3CJe7Mx_RIFU6G5zHHWNzvwG8cyF_qzCMr0AhnrS5bnpU9OWkIwZ-IAZkYr8AONOB5OZw4BQocUYjtRL8JAGTrk-YTIQqZap47dfuxvmqEAm2coT
+_3dBlt69Jo19hXYs2yuV3OVxPWkyRJBxUSmF
+}
+!procedure A3M($id, $name="A3 M", $tech="")
+  IconElement($id, 'simpleicons-4/A/A3M', $name, $tech)
+!endprocedure
+!procedure A3MCard($id, $funcName="", $content="")
+  IconCard($id, '<$A3MMd>', '', $funcName, $content)
+!endprocedure
+!procedure A3MGroup($id, $name='A3 M', $tech='')
+  IconGroup($id, 'IconGroup', '<$A3MLg>', $name, $tech)
+!endprocedure
+@enduml

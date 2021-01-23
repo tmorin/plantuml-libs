@@ -1,0 +1,16 @@
+@startuml
+sprite $LessMd [14x14/16z] dSmf0W9150FHtlAN9FS_BmQOqVrKgHgNalpbx2LnHEt8Ko2w6YeRwHNixD0vsu2IObOLihEIg9wloxZq0G
+sprite $LessLg [20x20/16z] {
+lK_7OKDH359_AkXb_sbJJh4zm5S5Ja2FbCWRPQAJ-_KgyXHXSvNq_6u6MrfS1cB5471a7AJRCg2h3KNVOh_9ZCRyQMEkb5Tve3DOHnKyD7pJpXx8NjUswDBi
+i6hpord3zE65I3uYq2Fr0m
+}
+!procedure Less($id, $name="Less", $tech="")
+  IconElement($id, 'simpleicons-4/L/Less', $name, $tech)
+!endprocedure
+!procedure LessCard($id, $funcName="", $content="")
+  IconCard($id, '<$LessMd>', '', $funcName, $content)
+!endprocedure
+!procedure LessGroup($id, $name='Less', $tech='')
+  IconGroup($id, 'IconGroup', '<$LessLg>', $name, $tech)
+!endprocedure
+@enduml

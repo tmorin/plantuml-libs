@@ -1,0 +1,16 @@
+@startuml
+sprite $SvgMd [14x14/16z] LOw54GKW34CVbnOE2_jF-rthtW1Yz3uHTugUAxIonptPpIx5RZjGRyIHJj8wf8CgLSALiNmgG3tUsOK4tAtydysVoPNbxyhdGz3w__SNChsHtIdjv4vN
+sprite $SvgLg [20x20/16z] {
+RP374GCm20GNFQJ30xh-gtNEzdx8aHlJcPwy4SYIHN1dTgi5QbKlBgnBcGNoHRiwEq4kA0lKG5nyKGtT0TbnhLKmCiX1o8Avsgv1G33AtiAMgZC08hiawo28
+kBhkYlR5zydolzgfRVVd390r7hiCMK3KS-TwxjpwkOrblNuWtn_JzV6hxvy6RsXlSUS4
+}
+!procedure Svg($id, $name="Svg", $tech="")
+  IconElement($id, 'simpleicons-4/S/Svg', $name, $tech)
+!endprocedure
+!procedure SvgCard($id, $funcName="", $content="")
+  IconCard($id, '<$SvgMd>', '', $funcName, $content)
+!endprocedure
+!procedure SvgGroup($id, $name='Svg', $tech='')
+  IconGroup($id, 'IconGroup', '<$SvgLg>', $name, $tech)
+!endprocedure
+@enduml

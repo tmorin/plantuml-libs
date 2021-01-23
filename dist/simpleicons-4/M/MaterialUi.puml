@@ -1,0 +1,16 @@
+@startuml
+sprite $MaterialUiMd [14x14/16z] PSk50KCX54FHYqi3sN_Qkl-3FkD7u2acoFiKkQdk35_rGDBrGVAMrxHrZH8MtLPCRf0iYEKnTqjpTPiho2d1BJaZOPaRtORQjk1H6_AkF6HTuy1RIHnS
+sprite $MaterialUiLg [20x20/16z] {
+bSzL0iD020JGMNVc_hTjWEfVyw9h2FwK4pxYi1Ub1xZGX40HNaw1AeSaqEXsGbgapqaczoPbYVy0CO1iw1f2XXwpk6G7qkHAUCxbJJQhGXyxMtdfCA5h0Diy
+PhMPAXeoUW3NIAxyZ0RNFKQS9Czdt-cn2RzxdNGpuCEQsnc_wcguvG4
+}
+!procedure MaterialUi($id, $name="Material Ui", $tech="")
+  IconElement($id, 'simpleicons-4/M/MaterialUi', $name, $tech)
+!endprocedure
+!procedure MaterialUiCard($id, $funcName="", $content="")
+  IconCard($id, '<$MaterialUiMd>', '', $funcName, $content)
+!endprocedure
+!procedure MaterialUiGroup($id, $name='Material Ui', $tech='')
+  IconGroup($id, 'IconGroup', '<$MaterialUiLg>', $name, $tech)
+!endprocedure
+@enduml

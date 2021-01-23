@@ -1,0 +1,19 @@
+@startuml
+sprite $QuickbooksMd [14x14/16z] {
+NKw50GCm2AihaF-_7JB7dQIKDvnsJafT8fEkdUxXjL9FEpfzMpUhMQsUCVe2L4QvVOnrym112cDf1Yw2lymcfwxTOfEwgskxjgNH5i_ZV_7lVEFf1vadIddf
+DYq3_G
+}
+sprite $QuickbooksLg [20x20/16z] {
+RP25OG0n24K3b1Ys_xQDL_zf7auQ8eaZeNJ4UfdnGJM-gVv0AXSIFm_QNqvY-y-ZmlurM54CW5AnuQes8tl2d5EhA0MIZFDWH1wEhSBu48tW24bzV64mcp4Q
+FfdyOOxaY-6DtJMAZ7mfPxmrGZ-mOUq8i7iHFOtMSDypmfdDyMs2tmv4_rtC5_gxqotWRWDqXdNy1
+}
+!procedure Quickbooks($id, $name="Quickbooks", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Quickbooks', $name, $tech)
+!endprocedure
+!procedure QuickbooksCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuickbooksMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuickbooksGroup($id, $name='Quickbooks', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuickbooksLg>', $name, $tech)
+!endprocedure
+@enduml

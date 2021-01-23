@@ -1,0 +1,16 @@
+@startuml
+sprite $PioneerdjMd [14x14/16z] VSm53W9H30JG6Z_rkVzfSOZlYrM7Bfbx-8s_tQ2y0FkiiCzveLX5BH7qwl807Gjz7S1eS1R3ui1vloosPqE80adoz4xNXT67H09E_ywFqhK7
+sprite $PioneerdjLg [20x20/16z] {
+fP3L0SH024G7rWtwx_RculdEIzPmm3TYoJcN70KtmtUitMPy1KYcz19MzmxIgHDH0btkyT1PM6OsDF6AFzGr_2FaIfSAKhQmIfdQVmEqKHG17XrEMfsKTAf0
+auH5RCrUur7NKYWHaRlyYWUYQMvcDz49QtjFekGKy9KV
+}
+!procedure Pioneerdj($id, $name="Pioneerdj", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pioneerdj', $name, $tech)
+!endprocedure
+!procedure PioneerdjCard($id, $funcName="", $content="")
+  IconCard($id, '<$PioneerdjMd>', '', $funcName, $content)
+!endprocedure
+!procedure PioneerdjGroup($id, $name='Pioneerdj', $tech='')
+  IconGroup($id, 'IconGroup', '<$PioneerdjLg>', $name, $tech)
+!endprocedure
+@enduml

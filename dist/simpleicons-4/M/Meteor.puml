@@ -1,0 +1,19 @@
+@startuml
+sprite $MeteorMd [14x14/16z] {
+LKx5eS1G28izg-s_xPTwEG5H4dY6mkVqvyC26JeFiC9Xi3kOx2X5HJiUQQ0sD-zdjMUqdau0OhCMzb76GHtneZ5djwsUIbPDOx_SCzTiEK9LHbbRdU-sNGk1
+Nm
+}
+sprite $MeteorLg [20x20/16z] {
+RSu5SaGn30JHdf7na-z_spYbSBQBdq6I-9VDYqAWFwRwuhOQHC0lTnUrul8bWXYYDMAxleR4D7rGEk74AiefngGEQgAwgQSP1stI3GZDeDt1l6YdyaDy99ut
+_KeiybdeppjgNEJMzjNegt0-4IGE-scCZTTocZKZLcUkglj8K_ZSE3OsYSmrhbBMt5ZuB4eyjMrivYjH1_q0U0C
+}
+!procedure Meteor($id, $name="Meteor", $tech="")
+  IconElement($id, 'simpleicons-4/M/Meteor', $name, $tech)
+!endprocedure
+!procedure MeteorCard($id, $funcName="", $content="")
+  IconCard($id, '<$MeteorMd>', '', $funcName, $content)
+!endprocedure
+!procedure MeteorGroup($id, $name='Meteor', $tech='')
+  IconGroup($id, 'IconGroup', '<$MeteorLg>', $name, $tech)
+!endprocedure
+@enduml

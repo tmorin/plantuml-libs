@@ -1,0 +1,16 @@
+@startuml
+sprite $SpeakerdeckMd [14x14/16z] VSrL0W11101GKvXq_zkk-jut7O0_PHZeEB33Vc86sqmYTwjAzrnHM6e5qoGzYXFjE7S_0LHrXFsqprPFEdgMiAfLue6cGoUR_tm
+sprite $SpeakerdeckLg [20x20/16z] {
+fSvN0i0G30RWFqHjkVzj6pNV-tKY2x-GvSw2vXViQXiS5T6FP98jwjudwTDgLumfgerztfNruh6NGumnF6FVDBaKWhAw5-BUJ6iFu12LDcjsvWAxJkFP8vUk
+bYfIwQbZbYEWZE7tVWi8OpHYTXycaEiiVda1
+}
+!procedure Speakerdeck($id, $name="Speakerdeck", $tech="")
+  IconElement($id, 'simpleicons-4/S/Speakerdeck', $name, $tech)
+!endprocedure
+!procedure SpeakerdeckCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpeakerdeckMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpeakerdeckGroup($id, $name='Speakerdeck', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpeakerdeckLg>', $name, $tech)
+!endprocedure
+@enduml

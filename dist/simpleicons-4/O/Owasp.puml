@@ -1,0 +1,19 @@
+@startuml
+sprite $OwaspMd [14x14/16z] {
+DKu15W9110MivGttlsrC1G1y08mAzp48GrgfH9gbqz4UkxH1bDmOROQeKjnKBAQJ7ahPnxDV13rEE_Ts6W3rpRpTUREOYz8Fx7qzbMCPSF_CbVg-osS__Byp
+Izl5iCWaVvZGJy_B1Vq1
+}
+sprite $OwaspLg [20x20/16z] {
+TP17WWKX24HHmSOcrFrlEuETLhzMyCZGluOXmpqIDkWM1yBMia3mZHGkhOmc3htHscJJLN085ZtgH0j25jxk79hUgNaqOB9EOMPLWtKII4QJ092d0iP4BIoi
+bZbc5mySrSFIrxkZwr6j5sus4ixdeCt2DZD47zZCCgFoP-sjODep02bMdcvJ8D_En9YqT-xytHP7JU3l1rU71VtrAoBvVYetgWHB8ErAfpy
+}
+!procedure Owasp($id, $name="Owasp", $tech="")
+  IconElement($id, 'simpleicons-4/O/Owasp', $name, $tech)
+!endprocedure
+!procedure OwaspCard($id, $funcName="", $content="")
+  IconCard($id, '<$OwaspMd>', '', $funcName, $content)
+!endprocedure
+!procedure OwaspGroup($id, $name='Owasp', $tech='')
+  IconGroup($id, 'IconGroup', '<$OwaspLg>', $name, $tech)
+!endprocedure
+@enduml

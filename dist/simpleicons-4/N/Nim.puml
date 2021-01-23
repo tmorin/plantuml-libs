@@ -1,0 +1,16 @@
+@startuml
+sprite $NimMd [14x14/16z] VSc5WGCW40J0FSNP_glzZtioS8wVmiJwEAG0O9kRPuR5kzqcsSDKBGUPKGCNKIKB3Z9FMNrCzqaUym2CDtwyywBWoFeYTtTSYAhWtJy
+sprite $NimLg [20x20/16z] {
+bSy5aWKX30JG3Zwnllzjjs2_byx3dU0kAVZGAe3gVfgEmwaUIMQ4PiW-OlnYKZBv8_LC-JLxxsDgx54RYz453sK45RMjYWzrDOnP7uE6GwRKddjGBrBtQii1
+YDFcolFYcihOyIn-kSu5nWyks4JveeA7hZjUXdLyaDPxAxZd3m
+}
+!procedure Nim($id, $name="Nim", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nim', $name, $tech)
+!endprocedure
+!procedure NimCard($id, $funcName="", $content="")
+  IconCard($id, '<$NimMd>', '', $funcName, $content)
+!endprocedure
+!procedure NimGroup($id, $name='Nim', $tech='')
+  IconGroup($id, 'IconGroup', '<$NimLg>', $name, $tech)
+!endprocedure
+@enduml

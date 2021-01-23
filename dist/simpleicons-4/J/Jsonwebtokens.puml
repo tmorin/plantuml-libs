@@ -1,0 +1,16 @@
+@startuml
+sprite $JsonwebtokensMd [14x14/16z] LKu35W1H4EeRW-v_sZLx6YGWZ13844R4XigoRvbrtmOjEPDnR3n0gEvAsHPdhxGnZBLvvmOjGD5zY7dutEYOFdA8QTjmRt_ct-MVy4j_cnLMx0ZOjvs65G
+sprite $JsonwebtokensLg [20x20/16z] {
+RP05TaKn20K9VMY4_U-szuJ--iI7E877YBpAYUoX3pHUBfGQ3AsTLaMxh3fi2F2fIceMke62u28WCWZnMZSVfY43ROfZOIQM-nEdf01qo1WIUGgid5U-4U1z
+bQ6dQmTV5tiP3shdxNmlHU-_jV-TWJA_tKMWHOH_tfbblDwMNJOrwDQtF_Z_h_x_qwPTymu
+}
+!procedure Jsonwebtokens($id, $name="Jsonwebtokens", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jsonwebtokens', $name, $tech)
+!endprocedure
+!procedure JsonwebtokensCard($id, $funcName="", $content="")
+  IconCard($id, '<$JsonwebtokensMd>', '', $funcName, $content)
+!endprocedure
+!procedure JsonwebtokensGroup($id, $name='Jsonwebtokens', $tech='')
+  IconGroup($id, 'IconGroup', '<$JsonwebtokensLg>', $name, $tech)
+!endprocedure
+@enduml

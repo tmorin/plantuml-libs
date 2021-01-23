@@ -1,0 +1,16 @@
+@startuml
+sprite $FirefoxMd [14x14/16z] JSxL0S0m203HkCFjlssfvwBl3sV5669ZU7VcIqqkBlA9953ixNQNhf3ScH0KcDwVQZIiFiAfoZebuiu6Jz4GUTEIci9YhtNzeTxdN-SmBzLW-RPWrNE20m
+sprite $FirefoxLg [20x20/16z] {
+PP050aKX2C30xjt_jA_vENjYoeaBJZMKoV1Yg7V7H1hCA4OihUUZJL1kemqOGGx29Lt8_LHwc3ioIgs3Ws0xJwR20fhOWGqY5patkIdGBhKgTeaAytR3d4wC
+HRDpFybwH5rgWj5BwPmq_WbzyiDG7__2xbj-KaH-PRRlcsP644DZcslD6bHETW
+}
+!procedure Firefox($id, $name="Firefox", $tech="")
+  IconElement($id, 'simpleicons-4/F/Firefox', $name, $tech)
+!endprocedure
+!procedure FirefoxCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirefoxMd>', '', $funcName, $content)
+!endprocedure
+!procedure FirefoxGroup($id, $name='Firefox', $tech='')
+  IconGroup($id, 'IconGroup', '<$FirefoxLg>', $name, $tech)
+!endprocedure
+@enduml

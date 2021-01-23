@@ -1,0 +1,16 @@
+@startuml
+sprite $ZelleMd [14x14/16z] RSx50SD034HHpQnX-VTVRPZZTnChhZHnFCW9LZtYpfqE8jcgiCVJ2lKLf4dNCr1dfdYgiBw27Qfit_juq7yKzWBhe_FpwpC
+sprite $ZelleLg [20x20/16z] {
+RT274G0H54NHBsVwxtPbtgmx-SXePae9T7eQLqhwKg9KIYopPHUNkMDfcKwzPeuWtPT2ib8MG3nLKmI5IXR9LWh__HC34hcQ16AnaYR8brhg-MNfyRRu-0C1
+VmL_wWb2-m
+}
+!procedure Zelle($id, $name="Zelle", $tech="")
+  IconElement($id, 'simpleicons-4/Z/Zelle', $name, $tech)
+!endprocedure
+!procedure ZelleCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZelleMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZelleGroup($id, $name='Zelle', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZelleLg>', $name, $tech)
+!endprocedure
+@enduml

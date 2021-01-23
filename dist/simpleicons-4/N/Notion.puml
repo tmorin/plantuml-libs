@@ -1,0 +1,19 @@
+@startuml
+sprite $NotionMd [14x14/16z] {
+DKx50G0X30jEDVjlUqe_jLY4o5vpjBetmBo7KW0q6o1t7tDjKN4kagwoN_1oCYkUgkt6thzIWnChIxj_h73Uew5_cocrESvl2ENv_HkIp_PgniAatviaIv45
+p85s7zXBQNtUUSA09qwwsvseNW
+}
+sprite $NotionLg [20x20/16z] {
+NT050iGW30J0u13z_sylUzvkbS4nTpDJuRFN7CSd4KMuQXAaj-sxm0xzfOZMjE3MUXzpxSF26juZuqXWO5NUVc3IMotqYJ1iu1UOOzItJMeYEebMoC-AH7YX
+ulElxyByQUlFTZ3QtwngMBEhKS_UjtQ5iDPvisflyrVbGSLyszpuwSARYCOgi7nYV0wgb3mYJwjc-uYegdaW4plFN_yUVw_q
+}
+!procedure Notion($id, $name="Notion", $tech="")
+  IconElement($id, 'simpleicons-4/N/Notion', $name, $tech)
+!endprocedure
+!procedure NotionCard($id, $funcName="", $content="")
+  IconCard($id, '<$NotionMd>', '', $funcName, $content)
+!endprocedure
+!procedure NotionGroup($id, $name='Notion', $tech='')
+  IconGroup($id, 'IconGroup', '<$NotionLg>', $name, $tech)
+!endprocedure
+@enduml

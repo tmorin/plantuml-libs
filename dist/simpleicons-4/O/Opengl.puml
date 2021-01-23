@@ -1,0 +1,16 @@
+@startuml
+sprite $OpenglMd [14x14/16z] bKt50S1034g0Szj_sth_5rUmBN7uLwBqLdBIFMXhXkT0WAq52IHIYldgmfapIwfLROqWDmS4waM9-Xb0k6tA0G
+sprite $OpenglLg [20x20/16z] {
+lKw50G0X29G6S_zflryti1MkqgO1A2gCi2eKVRHQIZRwgkPZ17vTJ4zrN2McNoH2bQzQ1N0MP1RAoX9orp1beR3hg68bApnSCL4MGlPmotvxEF7diRACbMLb
+fZlpgkmO9m
+}
+!procedure Opengl($id, $name="Opengl", $tech="")
+  IconElement($id, 'simpleicons-4/O/Opengl', $name, $tech)
+!endprocedure
+!procedure OpenglCard($id, $funcName="", $content="")
+  IconCard($id, '<$OpenglMd>', '', $funcName, $content)
+!endprocedure
+!procedure OpenglGroup($id, $name='Opengl', $tech='')
+  IconGroup($id, 'IconGroup', '<$OpenglLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $SparkarMd [14x14/16z] HOx50GKm2CLUtP3zfwt0bvoIAW12PLLk0R0WlL2DB-w6qsybL-bl2_4vZwTUj8XdyY8YExkiqx9WeWZhARpkWGHds3Us5veyzxts_PtZVpAk0KucAYO7
+sprite $SparkarLg [20x20/16z] {
+LT15WWCW341HNABtF-rC6opzouSJh0pw2KiCjrZfQzpIaTHDJ4SsAgokQTQyvFXhClTsrmYsN4C0ciKRJ68RgTigJ1RTqPvRw8ZmX3iLvIi4KxNTJSiaH1jv
+5kAahpYBWmsUfNdWMbUN5BFi_ohTxPhxK__JLC_F_mC
+}
+!procedure Sparkar($id, $name="Sparkar", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sparkar', $name, $tech)
+!endprocedure
+!procedure SparkarCard($id, $funcName="", $content="")
+  IconCard($id, '<$SparkarMd>', '', $funcName, $content)
+!endprocedure
+!procedure SparkarGroup($id, $name='Sparkar', $tech='')
+  IconGroup($id, 'IconGroup', '<$SparkarLg>', $name, $tech)
+!endprocedure
+@enduml

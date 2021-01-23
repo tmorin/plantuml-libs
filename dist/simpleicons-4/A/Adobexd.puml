@@ -1,0 +1,16 @@
+@startuml
+sprite $AdobexdMd [14x14/16z] VSg54GGn241H86xy_hkzMS_OlGZQdPVROfFPEVG9_OWHe0XD7Qfoi6IDRcf-L5q2KsfH3bdKsx5-54DcYEVCZr5cskogcN_SsHJByvNb1m
+sprite $AdobexdLg [20x20/16z] {
+ZP250SKm20Klxhpzf_tkscjZEEIg5ogrlyewUYT_aAsNTwjsjWrJgc7eW7Vhh2DeEgz7cIAzCAMP4_uYMpYoD1p-9bE2AGkCkwyvo3AYxh9CYqmx-eMBR13K
+2Sh4vjoyf3sSYMO9I7OETppikDjQfisi3xByQQQG-dYW9zW3
+}
+!procedure Adobexd($id, $name="Adobexd", $tech="")
+  IconElement($id, 'simpleicons-4/A/Adobexd', $name, $tech)
+!endprocedure
+!procedure AdobexdCard($id, $funcName="", $content="")
+  IconCard($id, '<$AdobexdMd>', '', $funcName, $content)
+!endprocedure
+!procedure AdobexdGroup($id, $name='Adobexd', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdobexdLg>', $name, $tech)
+!endprocedure
+@enduml

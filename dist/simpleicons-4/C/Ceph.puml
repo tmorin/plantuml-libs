@@ -1,0 +1,20 @@
+@startuml
+sprite $CephMd [14x14/16z] {
+5Ow50S0m20JvG5nk_srRtE7Dh3-0rot9BznK_vE0hfywX8sBbmMhE5VG7FO6RtIU3c7c7Bt35bEWYJQP3GSVP7RrdbfBUnz4PPajgZCMzuzAOTcbg151UDgM
+OBIpjnMMfDND-j8VVW
+}
+sprite $CephLg [20x20/16z] {
+DOu9WiKW24E3T86YvFwt7T0_hoj915289JTfWX_wySUdEDoTYE-BJjze7fBlG35UaazzbLoAOH4se8jKU33hpOrZ90CxxTsmstbtkiWbzGe19AgMHMylIXTt
+gJhWdAHXRNtNYPT9liYjSy6sLXWcetzV16VhFFK3lV0SFKXUMBqZDBcWvS_ax1z7Rwa8vj2dEnfNRsAdJTiB3rCag-or2l6x5mLcrRSBDcVWxzm_OeR2RA3v
+0m
+}
+!procedure Ceph($id, $name="Ceph", $tech="")
+  IconElement($id, 'simpleicons-4/C/Ceph', $name, $tech)
+!endprocedure
+!procedure CephCard($id, $funcName="", $content="")
+  IconCard($id, '<$CephMd>', '', $funcName, $content)
+!endprocedure
+!procedure CephGroup($id, $name='Ceph', $tech='')
+  IconGroup($id, 'IconGroup', '<$CephLg>', $name, $tech)
+!endprocedure
+@enduml

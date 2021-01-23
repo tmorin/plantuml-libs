@@ -1,0 +1,19 @@
+@startuml
+sprite $VineMd [14x14/16z] {
+JOx50S1G34BvbhIDiF-qTNkdA82BmHt5pN9qXicZ0uKKPLQDuw0nIoNRCCv7nzAFYT819ANuSeuheAHWfvoFCEuqOAPVmxHwd1v7mgotSvQIJvAQDAFX5p8A
+ljQlPWC
+}
+sprite $VineLg [20x20/16z] {
+JO-70SHG24BvlUl-snvwQIyTmIWUmbPZ02zHN5j0234668k2oGMrot5xu6UBnyAbgHwGp6T4jt0ih8FmkGFec0Y9MgAMt3TLEs0jsjKlMxO0Lbh-Nm_d4W1h
+8V0mnGmdSQWAKfN84vemYlWYkCAUYOTABo11hit7DVvbL1gpBtjpQ0ZHxG_ccDldU-bgICINQLB2nUFSZ-i7
+}
+!procedure Vine($id, $name="Vine", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vine', $name, $tech)
+!endprocedure
+!procedure VineCard($id, $funcName="", $content="")
+  IconCard($id, '<$VineMd>', '', $funcName, $content)
+!endprocedure
+!procedure VineGroup($id, $name='Vine', $tech='')
+  IconGroup($id, 'IconGroup', '<$VineLg>', $name, $tech)
+!endprocedure
+@enduml

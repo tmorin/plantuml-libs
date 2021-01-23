@@ -1,0 +1,19 @@
+@startuml
+sprite $FastlaneMd [14x14/16z] {
+DKq50W0X338tuEB_lxLT9uGfS6Uu4cckUBli-ikUvnoCqLH2Ja6iuBf-m6huwxb_803t_HiTUT0Ip0QPxSvipGwnyWGhockue3FUnqJymfX6kIl5Ec9SIwGP
+ELOT
+}
+sprite $FastlaneLg [20x20/16z] {
+NKu50WGX29GQG67z_sklS-bcnfEi8ah67w7XRNybAWLGz5kJgSS6_zMu3FEpAve-U2swXJM9tNbqXw7ZEP3TcIqENwNl6wPXM6fxoy-pVMYbc_y-Eu1LdVap
+fujR1w7YMxk3UDoeRwta70pjTnJnhU7f4uSD8c92Q3tEUSHUMkj6UoFnc2iDpIHcGSZhTfJF-mhDHENxSe0UeEAvUGK
+}
+!procedure Fastlane($id, $name="Fastlane", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fastlane', $name, $tech)
+!endprocedure
+!procedure FastlaneCard($id, $funcName="", $content="")
+  IconCard($id, '<$FastlaneMd>', '', $funcName, $content)
+!endprocedure
+!procedure FastlaneGroup($id, $name='Fastlane', $tech='')
+  IconGroup($id, 'IconGroup', '<$FastlaneLg>', $name, $tech)
+!endprocedure
+@enduml

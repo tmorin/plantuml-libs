@@ -1,0 +1,16 @@
+@startuml
+sprite $AudioboomMd [14x14/16z] LKw50OHG20KkfDb_MtyQTFC0K6gG83JwvSporpg_Cbhv3oJRIBAFBZQZ6CGLBUAn7YH2BUeJmKaIND-eaTNENfFnllBwGE_lDxAMTC8-vzn1dm
+sprite $AudioboomLg [20x20/16z] {
+TP035W0n30LJ8_ZtF-tQcCTEOve8Z0qEj9446vesLQ578Egca9nUPKW0WXCS-ObO0KHIeR8vTS3gc19Kry3JPIHlcEXN5ycWm1ej3Nrot27KOD_kE_U_npaB
+otDcSUjkTDtjymQBD3xL_qs9NEewYPxSyXm1
+}
+!procedure Audioboom($id, $name="Audioboom", $tech="")
+  IconElement($id, 'simpleicons-4/A/Audioboom', $name, $tech)
+!endprocedure
+!procedure AudioboomCard($id, $funcName="", $content="")
+  IconCard($id, '<$AudioboomMd>', '', $funcName, $content)
+!endprocedure
+!procedure AudioboomGroup($id, $name='Audioboom', $tech='')
+  IconGroup($id, 'IconGroup', '<$AudioboomLg>', $name, $tech)
+!endprocedure
+@enduml

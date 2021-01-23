@@ -1,0 +1,16 @@
+@startuml
+sprite $CheckioMd [14x14/16z] TS77OKDH30F19OXzIh__TfsFrWplXPG_ETVuD02rdjgqgOlHdN9pO8jDde_JzXnGrsKcDukdZ833zgJImG1zGJHRgkMRpxjc-BFXFvy
+sprite $CheckioLg [20x20/16z] {
+dO-rOGG030FF9Fbn_ss3ZsLoZHd4lmb1rNlcU8Kz2swaDNk8bDiDyEq63cVF5594VsTmipE9OKwQ03ImQt1fYczQm4hauNnSUUqz1h3TTkpjZvK3zh30RT95
+RhDIGPhRVaAp4HOeRli1Nu4sDRVUydRU58dDAEq4tD3n8dbuezt1N_a4
+}
+!procedure Checkio($id, $name="Checkio", $tech="")
+  IconElement($id, 'simpleicons-4/C/Checkio', $name, $tech)
+!endprocedure
+!procedure CheckioCard($id, $funcName="", $content="")
+  IconCard($id, '<$CheckioMd>', '', $funcName, $content)
+!endprocedure
+!procedure CheckioGroup($id, $name='Checkio', $tech='')
+  IconGroup($id, 'IconGroup', '<$CheckioLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AsepriteMd [14x14/16z] ZSUr0S103C10FREz_xHXhg9APsCESIlaI2W1ixKiBNELSalW31YtgApg3bp_esZ0n5DdNucu4rQowkX7GtEeUbKDj1CDPW
+sprite $AsepriteLg [20x20/16z] {
+XSy53WH024FHTbmIUl_JhWki_lWR1UmZr0bmZjeUrJ69rdQ6A-z6iuGGhRvPkXbdkPoRTAQ6KqtUx6hsmVJlxBgyKPOprtVZ-npg3DHL9JKatafekfZCfPEr
+OGhP8DWjqFNwvMsVu0W
+}
+!procedure Aseprite($id, $name="Aseprite", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aseprite', $name, $tech)
+!endprocedure
+!procedure AsepriteCard($id, $funcName="", $content="")
+  IconCard($id, '<$AsepriteMd>', '', $funcName, $content)
+!endprocedure
+!procedure AsepriteGroup($id, $name='Aseprite', $tech='')
+  IconGroup($id, 'IconGroup', '<$AsepriteLg>', $name, $tech)
+!endprocedure
+@enduml

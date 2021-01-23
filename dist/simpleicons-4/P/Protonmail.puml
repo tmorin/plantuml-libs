@@ -1,0 +1,16 @@
+@startuml
+sprite $ProtonmailMd [14x14/16z] POnH0W0G34870Ed-fmNuye1jbOXeS08jcyXDt8KZap69TAigJEj9BFDMe5cL8TIisglQgL0ds9M05yZ4uXPsfHINLf5TFhxWqNmuAI2BSuKly_1d3W
+sprite $ProtonmailLg [20x20/16z] {
+bP254GH120HNW3Ca_sZFrjz_ogOQnrq2iLi2heeqCQM6hAh0S6O9nKXoPeR4bXFTDfnmkP5dCqnHD6D_cQYcFZ5_sbXOcIOTGqZgyfe-C3VtR4x3Gdz7IBim
+HKv48ZBaVakuwvUuT3Ca0dECCiwTGyhzRp_FZQI_7
+}
+!procedure Protonmail($id, $name="Protonmail", $tech="")
+  IconElement($id, 'simpleicons-4/P/Protonmail', $name, $tech)
+!endprocedure
+!procedure ProtonmailCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProtonmailMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProtonmailGroup($id, $name='Protonmail', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProtonmailLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $VercelMd [14x14/16z] LSU53G0m30EmCQhD_zUEqKABGIdnSEuTiRm9G3XH3B3QYsZYYi5Wvl9S7h5ON8kaFP92UHnU9CQby8hwKm4
+sprite $VercelLg [20x20/16z] PSu53aGX54FHuaxtlzhHtmGvKVHTYB6uM8jBQpW5Ck3GoMwmIVn8MDd1Zs6noFp9wpK-721LUstjaB1qo5Wx9Ab3rACEAO1nF3ZaoaC5Rw7TCc0EC6y
+!procedure Vercel($id, $name="Vercel", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vercel', $name, $tech)
+!endprocedure
+!procedure VercelCard($id, $funcName="", $content="")
+  IconCard($id, '<$VercelMd>', '', $funcName, $content)
+!endprocedure
+!procedure VercelGroup($id, $name='Vercel', $tech='')
+  IconGroup($id, 'IconGroup', '<$VercelLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $GraylogMd [14x14/16z] {
+DOw53G1120GvLvZ-ktsuv2U2ioiYGt6qIr0kZrkyg62hjMLGPHetYvCLJGPHz2m51kp8usXpeQTs-ffJEauhiovlHFKsvTH_4qz6blWobw6UUg5OJWq8zVWG
+PfI7LdcqTSvgaNq
+}
+sprite $GraylogLg [20x20/16z] {
+FOq53W0W24M_WTZU_xR4c6z1Fe2I-3pdS4AGnmj6ZXRTzxa4erc-cOYtPGt8DQP6CwDYRcqL1CMK5EjAupXavabs0ci2IEUzgRqEe6_iaJCmTCTLQdsNrUPE
+uESqh5qwCsdclN11cyh4T-q7ygr8GBhsGs4eFd6LbcrMMuH2hXNoDxwK_04XFXqculCFeRqWMawPBvW5dqnzpauPZW
+}
+!procedure Graylog($id, $name="Graylog", $tech="")
+  IconElement($id, 'simpleicons-4/G/Graylog', $name, $tech)
+!endprocedure
+!procedure GraylogCard($id, $funcName="", $content="")
+  IconCard($id, '<$GraylogMd>', '', $funcName, $content)
+!endprocedure
+!procedure GraylogGroup($id, $name='Graylog', $tech='')
+  IconGroup($id, 'IconGroup', '<$GraylogLg>', $name, $tech)
+!endprocedure
+@enduml

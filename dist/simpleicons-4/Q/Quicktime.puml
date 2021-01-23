@@ -1,0 +1,16 @@
+@startuml
+sprite $QuicktimeMd [14x14/16z] HOt50G0n3CDSJ5dxJtiCUWKCagjSLAU3jEvj9Sabe9jr8AakLjH1F0O77CkrGe5-JkUbCy3kisJmRjYzTTrdkvJ4UmNAtN2lo__jTqJYHv8h0qPn1Zi
+sprite $QuicktimeLg [20x20/16z] {
+PP275S0W24GXFcBN_RSDoALVgfyEgKATK0q4IJzP5w0q7qet6YMbCW23h9-DL5ksVw5gkNQ2Til9LuuxjrWkjXFxMy_5djLFypuKT8HoGzhqQCcOGMU8dGuH
+E_Y6QLWD-q5la3nw5aUDCTiAZnx-sy7TqblldRPqCc8fYdiHNjKF
+}
+!procedure Quicktime($id, $name="Quicktime", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Quicktime', $name, $tech)
+!endprocedure
+!procedure QuicktimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuicktimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuicktimeGroup($id, $name='Quicktime', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuicktimeLg>', $name, $tech)
+!endprocedure
+@enduml

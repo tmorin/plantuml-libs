@@ -1,0 +1,16 @@
+@startuml
+sprite $TadoMd [14x14/16z] dOG70S104CAuFQX_krqI7fBWS2huvw-YR7U7nKhesp9dTxDhN4grvd9maO7DhDxAxXY31oB54vA6upq
+sprite $TadoLg [20x20/16z] {
+nKe50SCm47pcnB_ShMYXZqVmKGc_aEMuoBGQ20aFPlrN_Y7TAykocRfsK7Umofovh3ASlqljW5q0DMkImDPn_dpgU3f5u5qC_jVMLkvOuHL3qJuC8Ah0fWJc
+VwR_yrtz
+}
+!procedure Tado($id, $name="Tado", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tado', $name, $tech)
+!endprocedure
+!procedure TadoCard($id, $funcName="", $content="")
+  IconCard($id, '<$TadoMd>', '', $funcName, $content)
+!endprocedure
+!procedure TadoGroup($id, $name='Tado', $tech='')
+  IconGroup($id, 'IconGroup', '<$TadoLg>', $name, $tech)
+!endprocedure
+@enduml

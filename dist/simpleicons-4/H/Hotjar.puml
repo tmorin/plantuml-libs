@@ -1,0 +1,16 @@
+@startuml
+sprite $HotjarMd [14x14/16z] FOw50G0n30ARkeRzjtruksgSG19yvl0H7PZnDpT8VGrpYFvO3Gz9HiVBf37nuHRVYD-fmn-hBLcwHCtAdCvxmsDKbyBW3YLANgIiGulqPvprRNngv7K1
+sprite $HotjarLg [20x20/16z] {
+LSy70eKm20FGTE_c_gVzNy75SmDH2n79tGACG78a1sFmiBAfDOh-7UrKq-Fc5--Yir5HRKaiBy71htIM9eqglsODXCJRB7fnjVEsVTMvFjzQ23mqjF5cuRPy
+DrLT_UIAm9Q5kA0Z20xmHotYKAKcqfaKXLowyd7cbQzJxbtKrXy
+}
+!procedure Hotjar($id, $name="Hotjar", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hotjar', $name, $tech)
+!endprocedure
+!procedure HotjarCard($id, $funcName="", $content="")
+  IconCard($id, '<$HotjarMd>', '', $funcName, $content)
+!endprocedure
+!procedure HotjarGroup($id, $name='Hotjar', $tech='')
+  IconGroup($id, 'IconGroup', '<$HotjarLg>', $name, $tech)
+!endprocedure
+@enduml

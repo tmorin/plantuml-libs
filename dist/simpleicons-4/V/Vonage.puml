@@ -1,0 +1,16 @@
+@startuml
+sprite $VonageMd [14x14/16z] JOu30W0X50LVTdF_qwxHX6_KLlHGMfaCSnjsK0UasyeGOd-2Pj9b8aGTtD8CkWwUd0nUyf2lNc2bTlq7jKaEdhdEIGME_y5EgZxg6ahFpAVIFhlk
+sprite $VonageLg [20x20/16z] {
+LO-54S0m30F33FjlM_bwCQWGwKDsWxnZUSGw8CK2OhjG5KQvxdFlaQsKVA6PybX5QCv73FknZH0n3epvHmLsaCamysUJfjabCWbcoOvEfglhzc_DRVKk_-hb
+Ic_ZUjrJ3NpiazGR94fRHXxBJh1elHO4rJbwSbPUXmy
+}
+!procedure Vonage($id, $name="Vonage", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vonage', $name, $tech)
+!endprocedure
+!procedure VonageCard($id, $funcName="", $content="")
+  IconCard($id, '<$VonageMd>', '', $funcName, $content)
+!endprocedure
+!procedure VonageGroup($id, $name='Vonage', $tech='')
+  IconGroup($id, 'IconGroup', '<$VonageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HubspotMd [14x14/16z] DKo50G0W3B9ZnV_NscAE0You1Q_x1P3s5CzBeXgtPjVZ6igwUtSN2Trv5l_6e6h0iRoEMWpHlMY-WOE-wGYwKmRxHPMVsv3pzyLQ5Md-JFpYlp6-tmG
+sprite $HubspotLg [20x20/16z] {
+JP250O0m40Ef-z_-qsBLGEqz0V1NXwwaxmG8msQ4Ccrbs09WtZDN87MRXVfVb5Q9glzxn5uJ7d4zMLqBfX7VlXb_65KcHm7Qdx2RTXn61zLgByXEBpJTNJkm
+zT6r49QjzdaD-6MBdNS6ismQAAb1tdqp0fzzjbKs4qsgjGQr1-dQdCpObGzY-GXv
+}
+!procedure Hubspot($id, $name="Hubspot", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hubspot', $name, $tech)
+!endprocedure
+!procedure HubspotCard($id, $funcName="", $content="")
+  IconCard($id, '<$HubspotMd>', '', $funcName, $content)
+!endprocedure
+!procedure HubspotGroup($id, $name='Hubspot', $tech='')
+  IconGroup($id, 'IconGroup', '<$HubspotLg>', $name, $tech)
+!endprocedure
+@enduml

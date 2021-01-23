@@ -1,0 +1,16 @@
+@startuml
+sprite $CodeclimateMd [14x14/16z] bSW50S0m34JHlpAVVxSh6MZuXUUm-RlNtAQhthSYNJfqGufff4qxCVaHf5A6kYcJJ7fDGD7um13p16J7M_m
+sprite $CodeclimateLg [20x20/16z] {
+jSzL6iGW30JWM8kJ-zzscNoiFrE1uSVfuCFsRyNJHqjGLFSFj9c8GS0dkTySjCAJC42zsK1u4WQ8a4wW1EMnP-aAfOFkFI2mq7DPOESLXAaqKE3GvttacH3E
+F0y
+}
+!procedure Codeclimate($id, $name="Codeclimate", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codeclimate', $name, $tech)
+!endprocedure
+!procedure CodeclimateCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodeclimateMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodeclimateGroup($id, $name='Codeclimate', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodeclimateLg>', $name, $tech)
+!endprocedure
+@enduml

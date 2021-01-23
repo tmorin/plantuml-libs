@@ -1,0 +1,16 @@
+@startuml
+sprite $PantheonMd [14x14/16z] TOx50K0n24FhnTb_skykxuGc2HEvX0knXojqRS4ydrqNmXAt9fcg7Dji9AHrtxcIsDaviH-UbLXQ33lDhRtiVxAbzMq4
+sprite $PantheonLg [20x20/16z] {
+RSz5WaCX44LHVcFbR_-hxNY2tU51AptBDMtbblRuWCNp8fSe_5gFma6BTM7YLiUj5O0R8e_RGYNOlGpMO6oYKMUxeoq65P_FLZmsHensDIPLgdzfh4P0rqa4
+fjl8rjDMjhHNwW6_hzu
+}
+!procedure Pantheon($id, $name="Pantheon", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pantheon', $name, $tech)
+!endprocedure
+!procedure PantheonCard($id, $funcName="", $content="")
+  IconCard($id, '<$PantheonMd>', '', $funcName, $content)
+!endprocedure
+!procedure PantheonGroup($id, $name='Pantheon', $tech='')
+  IconGroup($id, 'IconGroup', '<$PantheonLg>', $name, $tech)
+!endprocedure
+@enduml

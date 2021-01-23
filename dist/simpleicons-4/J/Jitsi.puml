@@ -1,0 +1,16 @@
+@startuml
+sprite $JitsiMd [14x14/16z] JOp50KDH3CCi9ONz5su_FT3Dc46HZLrXPs6_TfNlYx5fKP_WSfUoP2XAzNKftdQHyZblaumU3JmY6Y13aSaV
+sprite $JitsiLg [20x20/16z] {
+PT3LWGGW00FHP1BE-k_tV1URpuUZjQ2hv2BtCgWFYiQhZfeEhdd-U8idEAr8tKa5Ovcv-hcaYuasGSj-n7PCohfV86GyverNyngayg3abHVsFuZRNrekWZ9i
+Uo4H163DKbt51tm1
+}
+!procedure Jitsi($id, $name="Jitsi", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jitsi', $name, $tech)
+!endprocedure
+!procedure JitsiCard($id, $funcName="", $content="")
+  IconCard($id, '<$JitsiMd>', '', $funcName, $content)
+!endprocedure
+!procedure JitsiGroup($id, $name='Jitsi', $tech='')
+  IconGroup($id, 'IconGroup', '<$JitsiLg>', $name, $tech)
+!endprocedure
+@enduml

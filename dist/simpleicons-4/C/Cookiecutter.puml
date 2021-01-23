@@ -1,0 +1,19 @@
+@startuml
+sprite $CookiecutterMd [14x14/16z] {
+FOs50KCn44BvSJtstxQKoekU0O2wLv2y1UBPfnoAzIWwlFFopK0U_kphsWn7QQW2U9uCLWXIRp0oVj5IpILtcbCKJOTc9JlyqV3nvqoT1tYseyeDKtOmLj7l
+1G
+}
+sprite $CookiecutterLg [20x20/16z] {
+JP050WKX44An6-v_sX_ZXc_J0Op1dxoeJNNOkCgxs3qCFzJWhoAZkQQqnhZJ_3kRJfW17tMH4wKL09J7vjtKj2KcxzgSwZ1iMB8f5MzjsDfAE6h5zVqvQgIC
+PKvRus14t7ivQFxUym7BURRZm6u-EPFZrQjD0SNqz7IdceR7ZI-3uch1Hby
+}
+!procedure Cookiecutter($id, $name="Cookiecutter", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cookiecutter', $name, $tech)
+!endprocedure
+!procedure CookiecutterCard($id, $funcName="", $content="")
+  IconCard($id, '<$CookiecutterMd>', '', $funcName, $content)
+!endprocedure
+!procedure CookiecutterGroup($id, $name='Cookiecutter', $tech='')
+  IconGroup($id, 'IconGroup', '<$CookiecutterLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $DynatraceMd [14x14/16z] {
+PKq55aCn3AAXhlU_xSXy-zLW3m3Svx6I0EeJx1I0zWBiDVKtQAVrKJEDZ2QwhxqtFMtIfvlUQ3aoHxmWBnv6OqYQkWxTC8ichC5z7AaDO19m--W00dDfOvsP
+1N03
+}
+sprite $DynatraceLg [20x20/16z] {
+PSxN0O0m24LHqa4aR_zfBSJk_JmfG7i5LoQ1l8QxAVoefnetuYV5Z4ma3x9OWSA2VZM7ZT1KkPNa_uOuVcPLi-sSHkQJnyylqs7qjFbj_JOxABZPSUzlZQ9R
+T6EdeDtCEXTVXG3KOF2c2a1eit8IX04cebhz4uyd9wAWE1CL6eMGIXETUzSoP0K
+}
+!procedure Dynatrace($id, $name="Dynatrace", $tech="")
+  IconElement($id, 'simpleicons-4/D/Dynatrace', $name, $tech)
+!endprocedure
+!procedure DynatraceCard($id, $funcName="", $content="")
+  IconCard($id, '<$DynatraceMd>', '', $funcName, $content)
+!endprocedure
+!procedure DynatraceGroup($id, $name='Dynatrace', $tech='')
+  IconGroup($id, 'IconGroup', '<$DynatraceLg>', $name, $tech)
+!endprocedure
+@enduml

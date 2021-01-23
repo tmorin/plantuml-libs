@@ -1,0 +1,16 @@
+@startuml
+sprite $HockeyappMd [14x14/16z] XKr50i0m3Aet8Mpy_xNpdHjNI0l9kPISxwgD83yRMPh_oH0brFoSLuWJkwJz2QYWcJdWLsAhavT4t76cCkwntuvnlNS4jus1_jDVx6ab9m
+sprite $HockeyappLg [20x20/16z] {
+jO-50GCn200ZE0JstxPyVO3seZYCdpD1r3tYXBiAp354gqx_BzfsgcnM5Nn7GLMqJkP7DQN38lioHWH0PElOx8-qzaCApfEwKInE4oQuDTV6h53S6s2tCIfn
+p4Nadr0dMgqBewi0FMwBrUMNvObmiskMjFLiYlHHGscEFt03
+}
+!procedure Hockeyapp($id, $name="Hockeyapp", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hockeyapp', $name, $tech)
+!endprocedure
+!procedure HockeyappCard($id, $funcName="", $content="")
+  IconCard($id, '<$HockeyappMd>', '', $funcName, $content)
+!endprocedure
+!procedure HockeyappGroup($id, $name='Hockeyapp', $tech='')
+  IconGroup($id, 'IconGroup', '<$HockeyappLg>', $name, $tech)
+!endprocedure
+@enduml

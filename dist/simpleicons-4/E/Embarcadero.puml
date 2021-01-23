@@ -1,0 +1,19 @@
+@startuml
+sprite $EmbarcaderoMd [14x14/16z] {
+9Ou55W0X44AnM-z_s_sFnPm2f32UCO90kNzq2vN2Pu-nUOe6bUeMge5KL-WZgl4ZIe9dATotgKi1I6OZAhNMreZSkRWNrpQBMeyg_CPrQ1CtMlskUQnkMSE1
+qDuGzC3t0m
+}
+sprite $EmbarcaderoLg [20x20/16z] {
+PP075eCm34Fb6578lFzj6u7J-Pdnr1CcNaPG707hYZL6w34-E22E8MhETGMTznm3B6Nz4qNP314zrPJf1cmvQtvJOOpOzDs1VNvY0bXoBZFc4gIOuqNIEMBc
+5uahHk0SRzgIsUVtvAvSNbhyEAL5PrwQYtrfTjv-93FpKBOywBNsjp7_NWcsJqy3Osupa6aGJm
+}
+!procedure Embarcadero($id, $name="Embarcadero", $tech="")
+  IconElement($id, 'simpleicons-4/E/Embarcadero', $name, $tech)
+!endprocedure
+!procedure EmbarcaderoCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmbarcaderoMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmbarcaderoGroup($id, $name='Embarcadero', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmbarcaderoLg>', $name, $tech)
+!endprocedure
+@enduml

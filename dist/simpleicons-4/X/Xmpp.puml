@@ -1,0 +1,16 @@
+@startuml
+sprite $XmppMd [14x14/16z] TKu54W0X4B9Rz_-_FV2wCAcPLV_GDTlzRtCJaUxclulK0Ph8F3uXGIfa2I5DRMWmTFmgnXdCYiWqEyb4b5hWxmXo8IuvbxpUvZ6y3TW32m
+sprite $XmppLg [20x20/16z] {
+dOu54iGm30F37El_lxsnLHo-RXioIUuxSStYdm5VvWOWTxXC0HQCmb0GVLI17OmbAA5sFJfZbNSVjN8nDZGMpsIoSViQezr3ByqkP6eXLUTbTjZ4yGYnlJVA
+twGDI74lmXHPuHN9lNdVHdv4Opmc9FSFFm
+}
+!procedure Xmpp($id, $name="Xmpp", $tech="")
+  IconElement($id, 'simpleicons-4/X/Xmpp', $name, $tech)
+!endprocedure
+!procedure XmppCard($id, $funcName="", $content="")
+  IconCard($id, '<$XmppMd>', '', $funcName, $content)
+!endprocedure
+!procedure XmppGroup($id, $name='Xmpp', $tech='')
+  IconGroup($id, 'IconGroup', '<$XmppLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $IobrokerMd [14x14/16z] LOw50S0m20G_7YhS_jFM5NTUac7kcmdQA3isZXtFKiZGerdiKDHzCm6Y2XwWQy-2rAaGxomoCUlEDFi_-q_UL-9nvV_X-9xw9f1FP4mJExATGfjXRllL5G
+sprite $IobrokerLg [20x20/16z] {
+RP270SGW200nuXkmtFxRVdg_n4O7cOYE6VFoA1jQSMTULJTH1lndzdCW7o8Rr4m7MuM3GayY8umYsa75oxplCb6emdpVPDkfGBpAudH22LTPA1HmkSh4QL-o
+Bz-l71-rH2kGRZMNkRT5c1TPwg3x3ABchD5kWw6Q5JRHDjEDbcGd96-zDqz1Plu
+}
+!procedure Iobroker($id, $name="Iobroker", $tech="")
+  IconElement($id, 'simpleicons-4/I/Iobroker', $name, $tech)
+!endprocedure
+!procedure IobrokerCard($id, $funcName="", $content="")
+  IconCard($id, '<$IobrokerMd>', '', $funcName, $content)
+!endprocedure
+!procedure IobrokerGroup($id, $name='Iobroker', $tech='')
+  IconGroup($id, 'IconGroup', '<$IobrokerLg>', $name, $tech)
+!endprocedure
+@enduml

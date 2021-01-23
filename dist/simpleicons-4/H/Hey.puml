@@ -1,0 +1,19 @@
+@startuml
+sprite $HeyMd [14x14/16z] {
+JSx5eGLH2C3G0DUmcVwh_VeikxCBe6Z4vD4ozNqUaAfrI7t8PpjxOuAi38r6qpFLJjvBRw4EPyjQtkJYcgnjE-KoEtflpgo-R1JCF8I5hsR0yYF1Iji36Bsd
+WvK0I9WgC6lmaKKzlxu1
+}
+sprite $HeyLg [20x20/16z] {
+NSY50GKW203H4x69_RVzdS_aU1fdRxuLc6SPNzGxPs3ZgoqFkRRktstEVMt56azIniPomjp8w5oTw4xF0shJJooA7FDKBE5wATK5hErSz5IABwvNXJrBUi4t
+ckVPkXNDJWz6EeY9XsTZ6mpMSQ6T4h7IAT61FKsPcsDDSr0hSBgrwqKRneZ2pHwcOXMA3_gZZGZwuKfJUP3TaSfDZmR_MfmcjS0tMHQkl5m
+}
+!procedure Hey($id, $name="Hey", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hey', $name, $tech)
+!endprocedure
+!procedure HeyCard($id, $funcName="", $content="")
+  IconCard($id, '<$HeyMd>', '', $funcName, $content)
+!endprocedure
+!procedure HeyGroup($id, $name='Hey', $tech='')
+  IconGroup($id, 'IconGroup', '<$HeyLg>', $name, $tech)
+!endprocedure
+@enduml

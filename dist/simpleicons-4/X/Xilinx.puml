@@ -1,0 +1,16 @@
+@startuml
+sprite $XilinxMd [14x14/16z] JOw30G0W54Glkzj_sumNlW54aWcc_rb0rYuTH24zV6ON02GZm4uHw2Y16rkiEdjDnOxvh1iy4nP_bt-2_2V86k-4jTdjcURV
+sprite $XilinxLg [20x20/16z] {
+VP235S0m54LVtNZ_QMFh7dmJmAyS_3YOLtvOY5TPKhug3O1B9C3zUfSuOJcuIuVqBdd1Sz6ZztcwsaoUaScxK3I4NSdUb--OpTZiqkqyzvt-jlu759ZzQlBJ
+jzxvKu7R
+}
+!procedure Xilinx($id, $name="Xilinx", $tech="")
+  IconElement($id, 'simpleicons-4/X/Xilinx', $name, $tech)
+!endprocedure
+!procedure XilinxCard($id, $funcName="", $content="")
+  IconCard($id, '<$XilinxMd>', '', $funcName, $content)
+!endprocedure
+!procedure XilinxGroup($id, $name='Xilinx', $tech='')
+  IconGroup($id, 'IconGroup', '<$XilinxLg>', $name, $tech)
+!endprocedure
+@enduml

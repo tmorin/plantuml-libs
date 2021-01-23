@@ -1,0 +1,19 @@
+@startuml
+sprite $Cinema4DMd [14x14/16z] {
+LSZ50GH05C9Gnkq3_LUxhhcz06dvNeo4MqqFaGr8pROYABjZoGpwKS3UuMVKD9FUCa_3Ms7FZFsd-eHexWxqXqAUQmCecznXvTGN7asx0MYxfbIErHutpqDp
+9W1N
+}
+sprite $Cinema4DLg [20x20/16z] {
+NT17WiCm34DHs1R7D8jm_zkEa9xyvLCNLaVoNfy77erwsZKUv0-PbQH_K6TMJmfncAIofq0DP6dEvAjsa4pd1oMDBEIdDOCqr8Tfgrb0l6cc_0Bint8P-crQ
+Mu7FYTewkh0wdwQjBSk4ewbq-TuEgmrg-EKZbskE9vuvNn-J0sgF1odByhypj9VXsMRH2y8sg7y
+}
+!procedure Cinema4D($id, $name="Cinema4 D", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cinema4D', $name, $tech)
+!endprocedure
+!procedure Cinema4DCard($id, $funcName="", $content="")
+  IconCard($id, '<$Cinema4DMd>', '', $funcName, $content)
+!endprocedure
+!procedure Cinema4DGroup($id, $name='Cinema4 D', $tech='')
+  IconGroup($id, 'IconGroup', '<$Cinema4DLg>', $name, $tech)
+!endprocedure
+@enduml

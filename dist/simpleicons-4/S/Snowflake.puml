@@ -1,0 +1,19 @@
+@startuml
+sprite $SnowflakeMd [14x14/16z] {
+DOw50G0X3CI2QtlxR_jAaBfmC_o-0OWGcBhlROKIgjhoswe-Go5koSEKLA0aYXjT_KcK1iIU0zMLwfBoM3jjMQREs-fxnTUIPY2sz6MMH9KnD0Wr4ErCg72c
+UxN9JM1zc_sKJcayN
+}
+sprite $SnowflakeLg [20x20/16z] {
+JP07WiKW24GVaTXrxd_R_UAsIVNH8TILoUfS_R12qJ00Eu_3KALg6cwy1PgwNpQyg-FlYTFUmRJrapClwJBj4Y0RJzigPErcM4v8AqFAbiw9FBLC7qs7gWPf
+H9R7fxIzwbLBMve9dlHX2bPTb-tpVKzi1R-nqYhWfqRnw6jP-UubKxJxWsK7AFklvqhepbQevwCHxEwWVE-W1RC4CzWqal4j6r5Zy5-ftEcllW
+}
+!procedure Snowflake($id, $name="Snowflake", $tech="")
+  IconElement($id, 'simpleicons-4/S/Snowflake', $name, $tech)
+!endprocedure
+!procedure SnowflakeCard($id, $funcName="", $content="")
+  IconCard($id, '<$SnowflakeMd>', '', $funcName, $content)
+!endprocedure
+!procedure SnowflakeGroup($id, $name='Snowflake', $tech='')
+  IconGroup($id, 'IconGroup', '<$SnowflakeLg>', $name, $tech)
+!endprocedure
+@enduml

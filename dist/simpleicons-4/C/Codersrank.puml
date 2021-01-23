@@ -1,0 +1,16 @@
+@startuml
+sprite $CodersrankMd [14x14/16z] XKr50aGX5C9kkVzjnzRL_DS9-1Rrr38xkBmcZbKWarwqevOTe5ig9lI09fwi94ElTI6JP0jgBjg5RPSPWZtE6m-VJ6LuoBMt-2i_
+sprite $CodersrankLg [20x20/16z] {
+hOu74a8X44D3x-J-jpMiNQVh-mN8pfk0l-3nHUr0QA-3C9cKayNT4gV3rh98hcXHFlkYh6oA2lXEqSpnaoBRR4emmmuKkpoApA2Ovhd6cy73oaehXHd9IfU7
+ktVUBzU0mZaKIZLyrsuKU2aJJvmxnQLaXv-u
+}
+!procedure Codersrank($id, $name="Codersrank", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codersrank', $name, $tech)
+!endprocedure
+!procedure CodersrankCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodersrankMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodersrankGroup($id, $name='Codersrank', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodersrankLg>', $name, $tech)
+!endprocedure
+@enduml

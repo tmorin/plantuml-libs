@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the PicartoDotTv element
+include('simpleicons-4/P/PicartoDotTv')
+PicartoDotTv('picarto_dot_tv', 'Picarto Dot Tv', 'an optional tech field')
+@enduml

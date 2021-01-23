@@ -1,0 +1,16 @@
+@startuml
+sprite $SensuMd [14x14/16z] JKw30G0n4BlQoVxJFcgV0lcN0Opi5Sbu9SundaHafO6e-0w3Y0vaIo6azcF1CkbCPWJz5odrFPxHHFe04k5BffXpMpBS2d_NxsGxE-bCNW
+sprite $SensuLg [20x20/16z] {
+NT17TWGn201H9AFGYRh_RKtBda6FMluDGVxhq2KrO2QQc2KScFuu9X9Pk56JMaK31pmttltmZnFFxkkw3HRs0HnQYqYfUYm4pXhJgkla7HcjENs-M7JCERHy
+HZkEczKzR1jyTjL-mhvW4qzXfDlKWj8FTWmATChDe5y
+}
+!procedure Sensu($id, $name="Sensu", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sensu', $name, $tech)
+!endprocedure
+!procedure SensuCard($id, $funcName="", $content="")
+  IconCard($id, '<$SensuMd>', '', $funcName, $content)
+!endprocedure
+!procedure SensuGroup($id, $name='Sensu', $tech='')
+  IconGroup($id, 'IconGroup', '<$SensuLg>', $name, $tech)
+!endprocedure
+@enduml

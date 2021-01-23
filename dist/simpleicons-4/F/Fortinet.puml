@@ -1,0 +1,16 @@
+@startuml
+sprite $FortinetMd [14x14/16z] NKw53S1027maASx-qzOTTsxy262LtOoXKG5UvH2LrDs5sPrOtQ6g0c8cCAa84U6nZqJx9Ep7QWs_6JFJCKbh-BeY8jyFbk_lBsG8FymB
+sprite $FortinetLg [20x20/16z] {
+ZP054iD030CLZdMj_F_VDdAPimCx1qRiPXY67lrmrZWEm1gI0amfYKWVqX3DQg0rPntgxYhHp5Yi1NCOVE1WrkjfhUCbtuLMnqztHtEBZJhY0x5HlMowzlAf
+v-SxMajGokiEIloqgzsS
+}
+!procedure Fortinet($id, $name="Fortinet", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fortinet', $name, $tech)
+!endprocedure
+!procedure FortinetCard($id, $funcName="", $content="")
+  IconCard($id, '<$FortinetMd>', '', $funcName, $content)
+!endprocedure
+!procedure FortinetGroup($id, $name='Fortinet', $tech='')
+  IconGroup($id, 'IconGroup', '<$FortinetLg>', $name, $tech)
+!endprocedure
+@enduml

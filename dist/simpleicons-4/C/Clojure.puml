@@ -1,0 +1,19 @@
+@startuml
+sprite $ClojureMd [14x14/16z] {
+DOv70i1028HC6LUtyV_NfeSR9p1RAW-vs8NpCdN9wigUqO5RzzqiKZwPItGyIq0u13Gn1QZJ8HAyGGOyDlRuhObIDL7ZBhkBA2dwcXEqrhZ2s_Kbe4UEqVeL
+Dl7XTdCVCEAUFW4
+}
+sprite $ClojureLg [20x20/16z] {
+JP25bGCn30M5PblzTtlwbwL9baRuJ8dEk9XA5xRYOlkbUdne1BoLEcFrlZuIi9h9hwyZR-v2PFdLkQ4dbtnCtekGinXtHxQchnR8rBmDHEL4dBmbih8OGVl_
+6hZRjTY0Q-fVXzfZIyzLkwuPjOJLp9RyB72Jf_OOj3TswJIHsPbcbXDBAqhqQprLp4I4YPcI1dcTmLcdqILVe83lxvbUi8_KPpWJ-0C
+}
+!procedure Clojure($id, $name="Clojure", $tech="")
+  IconElement($id, 'simpleicons-4/C/Clojure', $name, $tech)
+!endprocedure
+!procedure ClojureCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClojureMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClojureGroup($id, $name='Clojure', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClojureLg>', $name, $tech)
+!endprocedure
+@enduml

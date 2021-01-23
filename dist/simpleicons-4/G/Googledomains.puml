@@ -1,0 +1,16 @@
+@startuml
+sprite $GoogledomainsMd [14x14/16z] BSs54KD124NHkwxiwx_RXFcSCHm8Hz8Zf2V9W5mo3FrrqfPqg_bWcYPtV6sYJysIIcG6LuV8XdzeaRqCvi-UPmkgz-d7rqccZ1jsSZSjmfRt2MtDsN0_
+sprite $GoogledomainsLg [20x20/16z] {
+POy50WGX2037jGl-_zehupR6f84pHRy8PzfJ5_H7veSvXQe5NEdIMy0ELGMopl_yU4BIYOnqpQ2RpC-SEEaiLbJ5ddHrz5SuwHnGnwEJRdv-ZPCk0eTeEEd4
+0b75y27bFQCLJNFKCYlOhdem2KtgOQEEHXOsjpdg7zD7suOJrdzmI_K6
+}
+!procedure Googledomains($id, $name="Googledomains", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googledomains', $name, $tech)
+!endprocedure
+!procedure GoogledomainsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogledomainsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogledomainsGroup($id, $name='Googledomains', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogledomainsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MyspaceMd [14x14/16z] ZSk73GCn34DHgkNa9ks_RUW1KZx0XqhybRXGfY-3dYwBJ6Xrw-ZknMMG9ycyC-Ao--ZOo-33UKv3Z06CC-0ytyjuI2vok5faxsREB3oCkEDBRm
+sprite $MyspaceLg [20x20/16z] {
+hKv50iCm35EOxV__TfKzlcuw2Dia-2CYlb6EdF88QPqHa9L8kSoH4ENo2zEwGH9KasX9VId5E__NETc_4sYNDEmZ377iPayfV4pebLngubksx88-pcu8w_gf
+eoZXd1jPyhAqZUVzOTwf47DITKoFYGWXHKgq5F43RW
+}
+!procedure Myspace($id, $name="Myspace", $tech="")
+  IconElement($id, 'simpleicons-4/M/Myspace', $name, $tech)
+!endprocedure
+!procedure MyspaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$MyspaceMd>', '', $funcName, $content)
+!endprocedure
+!procedure MyspaceGroup($id, $name='Myspace', $tech='')
+  IconGroup($id, 'IconGroup', '<$MyspaceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $LadaMd [14x14/16z] dSZR0S0W2CLGV5ymqlsthJEOlnDxhYzn85Ot4z4wINeBAZ8R3enYogkgjGRKAo7VuV5bzpkiQv_C4-hst0y
+sprite $LadaLg [20x20/16z] {
+lOxL0S1024F9-Q7xRrkt1Vf-S1Bw3I2j07SZzyaUAwvpvBMHiXZNgk6YfcsQPFBGH5Jwsk1ewuv6SSEQz6RCwtuXWldUApp6d3sq7xqGK6krDVHmK98ekuQR
+gcxIOzTOoOCj7YzVpmdq6mi
+}
+!procedure Lada($id, $name="Lada", $tech="")
+  IconElement($id, 'simpleicons-4/L/Lada', $name, $tech)
+!endprocedure
+!procedure LadaCard($id, $funcName="", $content="")
+  IconCard($id, '<$LadaMd>', '', $funcName, $content)
+!endprocedure
+!procedure LadaGroup($id, $name='Lada', $tech='')
+  IconGroup($id, 'IconGroup', '<$LadaLg>', $name, $tech)
+!endprocedure
+@enduml

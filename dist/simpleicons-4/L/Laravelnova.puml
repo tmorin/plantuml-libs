@@ -1,0 +1,20 @@
+@startuml
+sprite $LaravelnovaMd [14x14/16z] {
+7Sc73GCn34Mnf-9ktTz_snX19mYsTNhcw0xGLCtCF0EiQn2xxdfWQt9qnhoQe8yj9vnyr4OPaigQudkANEPrgQdYbjbyR_jSDIlflTZ7fn8FN9jlmDGTu-Wm
+v42igXqFdOTqeDKVuFEKlcN03m
+}
+sprite $LaravelnovaLg [20x20/16z] {
+DSs7bGCn24NHfpWCGlp-kzt3shxA0G0OHtdT7Zi--5fNUMplntqsIZF9-kzvKbx5eEqJ4JwXmLYApafzd0wSgu59RnrMA0T8BxDsROmEfjkHDg5TNvJUCHdI
+8iL8kLq5xQhLlwlECm6NOLfIBGxCXwxBbgLk8tJDgr0cIxPDHlUKOh4KR3tqAuC-Hgj2arU3siK2nYiPet91F_h8HG_LUuFfSUCyZH5wANFnqKsoHcdpzMTl
+Ewcx-EdBRofzDSeV
+}
+!procedure Laravelnova($id, $name="Laravelnova", $tech="")
+  IconElement($id, 'simpleicons-4/L/Laravelnova', $name, $tech)
+!endprocedure
+!procedure LaravelnovaCard($id, $funcName="", $content="")
+  IconCard($id, '<$LaravelnovaMd>', '', $funcName, $content)
+!endprocedure
+!procedure LaravelnovaGroup($id, $name='Laravelnova', $tech='')
+  IconGroup($id, 'IconGroup', '<$LaravelnovaLg>', $name, $tech)
+!endprocedure
+@enduml

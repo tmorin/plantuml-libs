@@ -1,0 +1,19 @@
+@startuml
+sprite $SpyderideMd [14x14/16z] {
+JOo50KGX34C3f19q_sdFvR-wuW7juPnumsniMJ_L6E5ZVeeCGmdJguWiOYVSmT3CVJe3UP8ecZEcnpoxF7_8nNLEVnrwUilk9d-zN0KrdZi0mob_-6vkg1M0
+ZMduGyU5-XdT0G
+}
+sprite $SpyderideLg [20x20/16z] {
+PSd70KGX30DH0RQ_B5B_rMxE-uupk77YoeI7Tul4cutZ8bJVgOoP9ESgxoQn0YtPySG46v01vIFvA2KFLmSWHtEIInnxqzLGSZ4FQocRUsyXYEl3HLLVIT-z
+QkqzAwxwDkkbhRNsw0CtoQ9Kv9gJBjoukgDmb8eS_cWx01G1gFl0LOWzArgYSb01MAYWSD35mO9o53mKpiM27vRuqn9_Qk3f3
+}
+!procedure Spyderide($id, $name="Spyderide", $tech="")
+  IconElement($id, 'simpleicons-4/S/Spyderide', $name, $tech)
+!endprocedure
+!procedure SpyderideCard($id, $funcName="", $content="")
+  IconCard($id, '<$SpyderideMd>', '', $funcName, $content)
+!endprocedure
+!procedure SpyderideGroup($id, $name='Spyderide', $tech='')
+  IconGroup($id, 'IconGroup', '<$SpyderideLg>', $name, $tech)
+!endprocedure
+@enduml

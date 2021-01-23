@@ -1,0 +1,16 @@
+@startuml
+sprite $DesignernewsMd [14x14/16z] ZOs50KGn34AfI_Xz-qzxka3Z2hgM24UNYgSq3JviDMWoM0fAXQE0HsgCYbd_hj8_jW4iRKgX9G3YZz8r8FndUAgqh6jv0m
+sprite $DesignernewsLg [20x20/16z] {
+hO_L4S0m34CLnhFstxQwSlkT5pJRM4mMoU_VbAFka3DtfYHdP00AXOsfE-wwUUgQeenprx4UkWwWadxNqLr-I0gMhXlRNvUbi5zinYH_DJ82-Uibxn7yz9nr
+J_8zMz4BdpCMim4
+}
+!procedure Designernews($id, $name="Designernews", $tech="")
+  IconElement($id, 'simpleicons-4/D/Designernews', $name, $tech)
+!endprocedure
+!procedure DesignernewsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DesignernewsMd>', '', $funcName, $content)
+!endprocedure
+!procedure DesignernewsGroup($id, $name='Designernews', $tech='')
+  IconGroup($id, 'IconGroup', '<$DesignernewsLg>', $name, $tech)
+!endprocedure
+@enduml

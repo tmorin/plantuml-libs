@@ -1,0 +1,19 @@
+@startuml
+sprite $LuaMd [14x14/16z] {
+HSu50iKW30FG09rLxt_Rt_0j6_9m00CxCyitfiZ4gih6iEhOide6PX3NeMi2KCA0qz1JnVZ0LJqdfKds4g6UIWz_b9gjC7lkcojXTfkgFQOOWs_O2KxzRkyE
+_Y_Re7_L2m
+}
+sprite $LuaLg [20x20/16z] {
+NT25WGGX30NGO8D5-k_sOhVsHtauO2a5yjj5PCVlouRQIUbpxza1bXe1gBGh7cnDtzF66Xnq3uss1jGAJI9JEt3JVjepEx9DT15yU4chQYWTz3k5EOQhPOfC
+iosuioNvYiEM_Z8Vd9F3fjiaMdWVZBuz3UVPWsmEdHdvMUUihSz2ZCqsPcAVd8GQLCSX_-6X05zdS9iNVyxgVPGrVbwIwadv0m
+}
+!procedure Lua($id, $name="Lua", $tech="")
+  IconElement($id, 'simpleicons-4/L/Lua', $name, $tech)
+!endprocedure
+!procedure LuaCard($id, $funcName="", $content="")
+  IconCard($id, '<$LuaMd>', '', $funcName, $content)
+!endprocedure
+!procedure LuaGroup($id, $name='Lua', $tech='')
+  IconGroup($id, 'IconGroup', '<$LuaLg>', $name, $tech)
+!endprocedure
+@enduml

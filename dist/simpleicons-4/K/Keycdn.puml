@@ -1,0 +1,19 @@
+@startuml
+sprite $KeycdnMd [14x14/16z] {
+HOh50SH030ErXiImiVhlzlWoBy5WARuSl9Obdeik8CXrqBshwh2P0Epox8vau4baSuRbzYpIoLwh6VLiLfidSB9AFssljTdFzZOfGcOj0ExFytdbYISnaTTE
+7m5wngEhseEAfm-8sS9gHRNWvW4
+}
+sprite $KeycdnLg [20x20/16z] {
+NP05WWGn20I96wJ-_zkRFj_jqHIEcINxfmxdGVa_6-1c-pumrTwBs07qNZOYt2EwGXbAmMgZpzb6E56IIR6h0vpg_aLiUGCY86gj9kLe0Ild1MUuITqxA2Ov
+j2XYSylXku_XxPVHp1g_hFi08gL0iLKittPXcstm7jyZbWRN_KADySMoJtcglUC2APNWdjhNxBswzc5ow6bVtyTlJw4D04VnVOwMrCyKq_jFMijS8zcRFW
+}
+!procedure Keycdn($id, $name="Keycdn", $tech="")
+  IconElement($id, 'simpleicons-4/K/Keycdn', $name, $tech)
+!endprocedure
+!procedure KeycdnCard($id, $funcName="", $content="")
+  IconCard($id, '<$KeycdnMd>', '', $funcName, $content)
+!endprocedure
+!procedure KeycdnGroup($id, $name='Keycdn', $tech='')
+  IconGroup($id, 'IconGroup', '<$KeycdnLg>', $name, $tech)
+!endprocedure
+@enduml

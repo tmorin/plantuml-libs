@@ -1,0 +1,19 @@
+@startuml
+sprite $ProcesswireMd [14x14/16z] {
+FKw50S0m329r3Vz_EpgZ2Z406xpH3K8XVIsdPo0KFLAjE3CcFKZJYNIZbB38QIfftC3Yd9mmtvnA6L15a2gMM7-snLfwCqSxhBjcbvFpP3uJRjQ-wO8vFsS7
+QPExdhGB
+}
+sprite $ProcesswireLg [20x20/16z] {
+JP054aGn24Fh3hd_RJUmtpAIzg53eCh1fPN3fIOtE-LFuhJF76DQg3jRWDJeqQR02A5sO1jnfGFK8AmpL7hF1fLV08LLswSos9Z8IYAMg18oKR3-JO6PCjyi
+dn2WkQSGihy7r7tvw0_hP3OxVMgd-SvJxXdpI7DM53AkNI8zJDR65E-TwPvd3wz4fLzvdnku6h0-jxfAlZUzuHHLMUNVzGS
+}
+!procedure Processwire($id, $name="Processwire", $tech="")
+  IconElement($id, 'simpleicons-4/P/Processwire', $name, $tech)
+!endprocedure
+!procedure ProcesswireCard($id, $funcName="", $content="")
+  IconCard($id, '<$ProcesswireMd>', '', $funcName, $content)
+!endprocedure
+!procedure ProcesswireGroup($id, $name='Processwire', $tech='')
+  IconGroup($id, 'IconGroup', '<$ProcesswireLg>', $name, $tech)
+!endprocedure
+@enduml

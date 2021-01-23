@@ -1,0 +1,16 @@
+@startuml
+sprite $CocoapodsMd [14x14/16z] NOx50KD1509dtPV-gqs-svoU0l3562v26xCdCDdYYpOQJfaXPMEYbEWJgG1aLOA2v7SbO8opO-kEorWpNl5IoRJvSB3Ac_iytL_9llm1
+sprite $CocoapodsLg [20x20/16z] {
+bL030WD14CjQW___jhchtMOn9lv1I2dUQz9KCvKMoCUUGJG_GH8mV09bKvai9T68ufPWv5SykJS4uKTE0pQCdQlygAkduhsnJ3Glr6NSeljwePDhB6AC_DJB
+jKOpasEDlPT4LINJzruUUyxi-NcsSRk3Vjt1TLT_um
+}
+!procedure Cocoapods($id, $name="Cocoapods", $tech="")
+  IconElement($id, 'simpleicons-4/C/Cocoapods', $name, $tech)
+!endprocedure
+!procedure CocoapodsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CocoapodsMd>', '', $funcName, $content)
+!endprocedure
+!procedure CocoapodsGroup($id, $name='Cocoapods', $tech='')
+  IconGroup($id, 'IconGroup', '<$CocoapodsLg>', $name, $tech)
+!endprocedure
+@enduml

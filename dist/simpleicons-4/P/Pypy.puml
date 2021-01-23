@@ -1,0 +1,19 @@
+@startuml
+sprite $PypyMd [14x14/16z] {
+FOtL0S0m24I96_3sdxRUtD-vYEJku2FBZJYC2phYJVmcZfj7gOfInknJMMAu5f4WsIuLkCYDWKxmyB8C0qWlIw0ERNjh6VwOOK7jghQInBeS2w7mdAEGHUIc
+croDRYpjzz49
+}
+sprite $PypyLg [20x20/16z] {
+NT254KCX401HdC_PzjzjvkB9ZZ-Saetj07wDyggkAzBYhFgaRiQZCEiFYdWPGYGsHq0LsxY0jx8EA3xAF6ji3RXA06hFhPkhGIEjbsS35rRQBk-Cq9CsFtOW
+zj-y2v0q_JDFh6zJO8i6o8iMG3zY2gUcrAE0bZO8KJsZpuC5aF-rUUNwlCG7G-9ph-5a4jZNHq_nE2RpSQaR
+}
+!procedure Pypy($id, $name="Pypy", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pypy', $name, $tech)
+!endprocedure
+!procedure PypyCard($id, $funcName="", $content="")
+  IconCard($id, '<$PypyMd>', '', $funcName, $content)
+!endprocedure
+!procedure PypyGroup($id, $name='Pypy', $tech='')
+  IconGroup($id, 'IconGroup', '<$PypyLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $GarminMd [14x14/16z] hKU74S102C9JIlOVEErNa0wsqK7LstMU8NNcSXn6Gyec-Nf4hE01
+sprite $GarminLg [20x20/16z] pKdL0SL03Ch5WAVxJrllLnUu26epJuvdz6zpF-IuMq-tRXZQNuIwsVcEzWWrNwqDzMwMwkjLsLbmp_3Q80rX4yqA
+!procedure Garmin($id, $name="Garmin", $tech="")
+  IconElement($id, 'simpleicons-4/G/Garmin', $name, $tech)
+!endprocedure
+!procedure GarminCard($id, $funcName="", $content="")
+  IconCard($id, '<$GarminMd>', '', $funcName, $content)
+!endprocedure
+!procedure GarminGroup($id, $name='Garmin', $tech='')
+  IconGroup($id, 'IconGroup', '<$GarminLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BigcommerceMd [14x14/16z] PSsr0S0m00D1cKcszfyspFdkgiSZFvugUa5FF5JrbCktGWx8bwfuAG86JhjgHsOz3aL46GrHMh5eoLBo2nQINRzc
+sprite $BigcommerceLg [20x20/16z] {
+XSp70GCX34HHYPod_seTnjcxm3_10qaE9Hoju8HmGZZGmJB-JIiEPbCUjD_S-B5GQrP9jE_zvjjKnSNeVsQh4vRmjW8diRLgfD18SBnv2JGIt7rVu318DEQv
+JqcekTogF2VIlYi
+}
+!procedure Bigcommerce($id, $name="Bigcommerce", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bigcommerce', $name, $tech)
+!endprocedure
+!procedure BigcommerceCard($id, $funcName="", $content="")
+  IconCard($id, '<$BigcommerceMd>', '', $funcName, $content)
+!endprocedure
+!procedure BigcommerceGroup($id, $name='Bigcommerce', $tech='')
+  IconGroup($id, 'IconGroup', '<$BigcommerceLg>', $name, $tech)
+!endprocedure
+@enduml

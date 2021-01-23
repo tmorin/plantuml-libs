@@ -1,0 +1,19 @@
+@startuml
+sprite $WolframmathematicaMd [14x14/16z] {
+JKw30G012EoLw_QVzgtiZeW68lVJ7GaFL7MuCqCba8MhcUpTphc72rkBYYYtyUW0ZamKm4GJaXKjd7j2Kx5nOpSvKS0NFVPqTamBEqfDjU0y7X_Gl3IAdkzk
+z_S_ifkMvV8R
+}
+sprite $WolframmathematicaLg [20x20/16z] {
+TP250GKW24Gjv9Iu_QVztV5iQSeTz_9AFMyHZ-kPZLwKrDAm7sRaJZ9Fcp_q0ho0UEYjh0Dc62LMEJ54DsCwveHBSAjK3v8vbmAAcIIZrPwdGo1h2MQGsS_M
+ILLiSgagSrmyqiI7azvDDaz_jQKN6CHCJaUnRCM21fsmCGnpgZ6QY3gPEizwIRhAfMQGr8L94eywUAAtyxuUFJYNlzPx3z0UlVhNqmSYZ-iH
+}
+!procedure Wolframmathematica($id, $name="Wolframmathematica", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wolframmathematica', $name, $tech)
+!endprocedure
+!procedure WolframmathematicaCard($id, $funcName="", $content="")
+  IconCard($id, '<$WolframmathematicaMd>', '', $funcName, $content)
+!endprocedure
+!procedure WolframmathematicaGroup($id, $name='Wolframmathematica', $tech='')
+  IconGroup($id, 'IconGroup', '<$WolframmathematicaLg>', $name, $tech)
+!endprocedure
+@enduml

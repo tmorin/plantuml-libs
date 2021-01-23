@@ -1,0 +1,19 @@
+@startuml
+sprite $ZWaveMd [14x14/16z] {
+DOg54G114CBWV6w5_gjzVqP9WdjB2YFUzPIl_fsbJR3-Ps24aazs7TDkprcvh_Dba3YkKopJ2kI8ZPBoo2mngOQjGGpjtQg8K3PA8a0mv6WkuTbM8wVs-qeg
+KrdmNPDsmGa
+}
+sprite $ZWaveLg [20x20/16z] {
+LP27OeKm24KlMIzguFp_trRQFiVHB3ReZp83WgO7RGSYgYviXpLxDLsKXG_BooMipb6apxhZcRD98vxnDexSsDiLgn5sYhphOkuC3RocVeoUMM2PWfu51H0Z
+PLCVzan5ac_eMbd3JepQsWWQKHGXbU38aYVik1LEsO28eGP4QxBUKaPcMm3NO58lotYkByvknMp2l6G3N-S7RhgOa7XzpphmQT8F
+}
+!procedure ZWave($id, $name="Z Wave", $tech="")
+  IconElement($id, 'simpleicons-4/Z/ZWave', $name, $tech)
+!endprocedure
+!procedure ZWaveCard($id, $funcName="", $content="")
+  IconCard($id, '<$ZWaveMd>', '', $funcName, $content)
+!endprocedure
+!procedure ZWaveGroup($id, $name='Z Wave', $tech='')
+  IconGroup($id, 'IconGroup', '<$ZWaveLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $JeepMd [14x14/16z] dOmv5W0X24EL7PBdtF-sqrhxAyYsdgcyFxIKx7I9KbaDaaE2TIP8zX2DaMyuE-6AoeDhmNizymC
+sprite $JeepLg [20x20/16z] {
+lKwr0GD133i-exJ_jdbeGlMRsIhFKAs_DU5lKO_QRCVyOLfh_QurzrWrF8PbOgrvr3ObKoZmoEP8BqQbgZf4vKYL96YTvZAflWCRlhRiuuLfAykaHggryabX
+V_4_Goy
+}
+!procedure Jeep($id, $name="Jeep", $tech="")
+  IconElement($id, 'simpleicons-4/J/Jeep', $name, $tech)
+!endprocedure
+!procedure JeepCard($id, $funcName="", $content="")
+  IconCard($id, '<$JeepMd>', '', $funcName, $content)
+!endprocedure
+!procedure JeepGroup($id, $name='Jeep', $tech='')
+  IconGroup($id, 'IconGroup', '<$JeepLg>', $name, $tech)
+!endprocedure
+@enduml

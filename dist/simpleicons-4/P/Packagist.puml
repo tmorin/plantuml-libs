@@ -1,0 +1,16 @@
+@startuml
+sprite $PackagistMd [14x14/16z] DOU5OGG020CFBa1b_tahB_50gH2x0Dm89e5EHg6TaPRSXhiG53--xU_FAT7A2iJgIdC7nIrbjndmLYt05RgU1v9t06YtNRmmPOOtFYPxlE7EDC0l
+sprite $PackagistLg [20x20/16z] {
+JSi55YKm24FHbq1el-v_kNCOlrMC9PMXOady8hi5JjbYUSwjDiZLam8qxQFzgfnCG2gOsM75Luft09zxd_6yxnMrkIRrU1_vV9-PpRcAqfI0QXgR1EO-RO2x
+KMllv012SxqvLnnlpcVELAcrGS_Pjs-XZ63bpoyjVbDtxLE7lnIrKAlvfq9tLEO_7Qfx-5yUbPe7_pitcHdnlvdq6DOF
+}
+!procedure Packagist($id, $name="Packagist", $tech="")
+  IconElement($id, 'simpleicons-4/P/Packagist', $name, $tech)
+!endprocedure
+!procedure PackagistCard($id, $funcName="", $content="")
+  IconCard($id, '<$PackagistMd>', '', $funcName, $content)
+!endprocedure
+!procedure PackagistGroup($id, $name='Packagist', $tech='')
+  IconGroup($id, 'IconGroup', '<$PackagistLg>', $name, $tech)
+!endprocedure
+@enduml

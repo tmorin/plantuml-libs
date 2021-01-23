@@ -1,0 +1,16 @@
+@startuml
+sprite $AffinityphotoMd [14x14/16z] 9SW70W8X30NHBP502dF_s-gNeRvSwYsKzryZXEq87xo1MTAzwGaraImphV2MdWoBy5X8GGR4YsJmhfzI6iLCNs6XcdRAyWHUi8fJJg37GVZMimBbv-4Clm
+sprite $AffinityphotoLg [20x20/16z] {
+JT05aiCm40LHmv15VV_JBkblaYvoFOiF5QWMYCvOiafaFPzDqwVCMRO7Pi6UEVxc0CEG5O1F81gof_NUmg0xiiYwhofhs9GP40DwH27hK06Gvv85h3C1ejXs
+JSYC1ZtOUS8qsfrvtPL_JS0xkFVUssw_14pd8nsgadTLhrzg3TTtSzIJ3yeRck6WkclgDm
+}
+!procedure Affinityphoto($id, $name="Affinityphoto", $tech="")
+  IconElement($id, 'simpleicons-4/A/Affinityphoto', $name, $tech)
+!endprocedure
+!procedure AffinityphotoCard($id, $funcName="", $content="")
+  IconCard($id, '<$AffinityphotoMd>', '', $funcName, $content)
+!endprocedure
+!procedure AffinityphotoGroup($id, $name='Affinityphoto', $tech='')
+  IconGroup($id, 'IconGroup', '<$AffinityphotoLg>', $name, $tech)
+!endprocedure
+@enduml

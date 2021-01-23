@@ -1,0 +1,16 @@
+@startuml
+sprite $WiproMd [14x14/16z] NOw50S0m20HnIFSVk4Wr5yKV1aHu8MA-RHHAKsKi1gH4jTEm82LdI7-Uj5ZL8ymJSnQp8qBN2j5egvfePb9dRbss2SaxlKbXWh1p0W
+sprite $WiproLg [20x20/16z] {
+VP3L0SGm34CjcTlkF-_5n_po5RCa_u6yammjFiV3513J_T7bAw0q22glCKAuecGGePUOJuWBD6AJmQOTK-zCgPXVq0XR0Qg7LLJjrZalEeqHdiVMRLsTctgb
+JwmEBBGR2WcTNhzUetpQqN4vUIvylMKY-dupOiJIAEYK6puUuER1ZT2RLs-U_kO4
+}
+!procedure Wipro($id, $name="Wipro", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wipro', $name, $tech)
+!endprocedure
+!procedure WiproCard($id, $funcName="", $content="")
+  IconCard($id, '<$WiproMd>', '', $funcName, $content)
+!endprocedure
+!procedure WiproGroup($id, $name='Wipro', $tech='')
+  IconGroup($id, 'IconGroup', '<$WiproLg>', $name, $tech)
+!endprocedure
+@enduml

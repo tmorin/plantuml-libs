@@ -1,0 +1,16 @@
+@startuml
+sprite $FnacMd [14x14/16z] dOC50GCn34L_E2dvTxiT2-W3xC9A-6Wz4uIZypLYLBV8rAhiHPDqf8_ba5xeu3cyz_9a1WFCoX0ZRF87
+sprite $FnacLg [20x20/16z] {
+nOt7OKCn34CXiAWGOlQVDebzinVuxqQYuJ4i-FN9MKl--Rjz_AHF0f7sIXcwQ-dkqrux5KjBMpTG1MX7vbKR1j-_3PH-baiTe9S2Pm6dQgNsAxd90HBW6E7a
+U-Cf_W
+}
+!procedure Fnac($id, $name="Fnac", $tech="")
+  IconElement($id, 'simpleicons-4/F/Fnac', $name, $tech)
+!endprocedure
+!procedure FnacCard($id, $funcName="", $content="")
+  IconCard($id, '<$FnacMd>', '', $funcName, $content)
+!endprocedure
+!procedure FnacGroup($id, $name='Fnac', $tech='')
+  IconGroup($id, 'IconGroup', '<$FnacLg>', $name, $tech)
+!endprocedure
+@enduml

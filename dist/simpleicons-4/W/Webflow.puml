@@ -1,0 +1,16 @@
+@startuml
+sprite $WebflowMd [14x14/16z] VOtN0KDH24AvlQbd_sqJ5tZKFz07pimSrl-v3onfaddP42e1HvEeG9d0q-FAeHaNgz1rOU4DtvYq0sU927BE88gSJFK3Ktem99LfMIlll_43
+sprite $WebflowLg [20x20/16z] {
+fKw50O104BhlVlRVLZ074ECQi1_epLz96jqfnj607PHMO6bQ0BwOd6V67RdDu414SrCncIsWclBCiL0idXlxx7L06uh3R38ldgGKwQR2h0tE2tSZLz8bdkcc
+BHgYsXZCPJ5JNMTsHiYiZ_XiI85mGMbdDd2lSN7TqtPwkz1cEMEQpTjl7
+}
+!procedure Webflow($id, $name="Webflow", $tech="")
+  IconElement($id, 'simpleicons-4/W/Webflow', $name, $tech)
+!endprocedure
+!procedure WebflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$WebflowMd>', '', $funcName, $content)
+!endprocedure
+!procedure WebflowGroup($id, $name='Webflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$WebflowLg>', $name, $tech)
+!endprocedure
+@enduml

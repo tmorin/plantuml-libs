@@ -1,0 +1,19 @@
+@startuml
+sprite $GoogleearthMd [14x14/16z] {
+DOs55GH134B9kDD_jqToRndzCG3ace5obq5AOuy4Mwo0LKfFlobSZo4L7wOrB4_HKSiRS3MXVcP1wCBkcBBZzk9vDMM9x0YvutASZrkNS4QpVUxRctFI5SYp
+T_rNZ4k-wPaV
+}
+sprite $GoogleearthLg [20x20/16z] {
+PP050iGW30HnJ_R_lpqMhZxrASGCiSxoNj6zEV3UyP4XyMz2LsZZ2gyeIsKib4i2A7t4GPWo0T4CmH054GQj43l6V7CLf35vHtJMaBYM9ifurXFfr9i7PKdc
+SNEntRA3j5JK1nbvEIVOo53-N4lzNoQSLHmb5TC7ziks8Rghj_ej0iVelBzBj9noo__Aek2F9dDWOvjQMjoBVW
+}
+!procedure Googleearth($id, $name="Googleearth", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googleearth', $name, $tech)
+!endprocedure
+!procedure GoogleearthCard($id, $funcName="", $content="")
+  IconCard($id, '<$GoogleearthMd>', '', $funcName, $content)
+!endprocedure
+!procedure GoogleearthGroup($id, $name='Googleearth', $tech='')
+  IconGroup($id, 'IconGroup', '<$GoogleearthLg>', $name, $tech)
+!endprocedure
+@enduml

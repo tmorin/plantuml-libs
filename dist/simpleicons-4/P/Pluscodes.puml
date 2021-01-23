@@ -1,0 +1,13 @@
+@startuml
+sprite $PluscodesMd [14x14/16z] XOw35K1H34EVLMJ_QR_DUr0tCICHI6OZ0MMldAWtVwJinZTftCyEaFMdGCvLAkDccZR7z8TT_UxCYimFUW
+sprite $PluscodesLg [20x20/16z] bT3L0KDH20FGO7N8_jFMd_lvkuBYxq4-10Folal5W2PPXg4BUSMOEOuIjN-LVrLJFB8kU3jLdR-rAeDlrlLY96jqfv-xkTYv6eUP0Pix-FUolLDuLk3l1G
+!procedure Pluscodes($id, $name="Pluscodes", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pluscodes', $name, $tech)
+!endprocedure
+!procedure PluscodesCard($id, $funcName="", $content="")
+  IconCard($id, '<$PluscodesMd>', '', $funcName, $content)
+!endprocedure
+!procedure PluscodesGroup($id, $name='Pluscodes', $tech='')
+  IconGroup($id, 'IconGroup', '<$PluscodesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BuzzfeedMd [14x14/16z] JSp50GGn34FH7sQh_seN1lDEHe5hEZG7a4od12xfOagqQpEpMt8w3GT3LPS2LVDOL1bnT1q2CJ5rgYH7FgAaHPILTSoxndDatYKz4f3s1boTqgmE-08
+sprite $BuzzfeedLg [20x20/16z] {
+RT35WS0m34JHCIXa-FrNkw0ml9j1g3-fi2b96wjicabkuc9wN_bbCavjp60g3JR5f00rSAXHKcXWd7gML63XL8Eo9cYuELKmfLuBcnwaOPOAfq7ES1vRfN69
+2XNdDR8Ij744PwMoIFVooUYZSM6VEtZlwdkdBjZIe2qMzEyN
+}
+!procedure Buzzfeed($id, $name="Buzzfeed", $tech="")
+  IconElement($id, 'simpleicons-4/B/Buzzfeed', $name, $tech)
+!endprocedure
+!procedure BuzzfeedCard($id, $funcName="", $content="")
+  IconCard($id, '<$BuzzfeedMd>', '', $funcName, $content)
+!endprocedure
+!procedure BuzzfeedGroup($id, $name='Buzzfeed', $tech='')
+  IconGroup($id, 'IconGroup', '<$BuzzfeedLg>', $name, $tech)
+!endprocedure
+@enduml

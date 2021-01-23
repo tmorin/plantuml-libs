@@ -1,0 +1,16 @@
+@startuml
+sprite $StrongswanMd [14x14/16z] bSM90O1G209G_lSka_sdxHYXfm3-yNJa13whoLd5LcoLuAlG3LYTQwaFSrC1r1YmUO3l2iVtNhRqyjsaYxwErh2BZSyw0tyy
+sprite $StrongswanLg [20x20/16z] {
+jSs5WGKn20JGmUA1_hkzkMyTx5iDYgU803Q7uijMLGLErVc5igY3cTsD0OKoH5SPd0Aup-KnCz_1MyvOpCsFgdFOHjG4QDmT_CZX0gq5qblLG7OR1ZSHbmqt
+DpE1ZZKZDiVmu-7UV6RtqLkHuqKitvrppQLuan0yuGy
+}
+!procedure Strongswan($id, $name="Strongswan", $tech="")
+  IconElement($id, 'simpleicons-4/S/Strongswan', $name, $tech)
+!endprocedure
+!procedure StrongswanCard($id, $funcName="", $content="")
+  IconCard($id, '<$StrongswanMd>', '', $funcName, $content)
+!endprocedure
+!procedure StrongswanGroup($id, $name='Strongswan', $tech='')
+  IconGroup($id, 'IconGroup', '<$StrongswanLg>', $name, $tech)
+!endprocedure
+@enduml

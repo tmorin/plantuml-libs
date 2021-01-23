@@ -1,0 +1,16 @@
+@startuml
+sprite $UspsMd [14x14/16z] VSsr4G11243HZwrB_ztUC9lVYt3u8s5gvWznrwYkAg9Ih9rzrkp51DmBKCQOiqNEPtRl7hkhXm6IlIAkeI1rzXm952czAYdmgCwZRf7F7nVXnmS
+sprite $UspsLg [20x20/16z] {
+fSX50WGX30J0ZX62XF__TaVNhbEN5Zn28lf30CyeMzcTLm1jRKOO4qvEtETfX9i0O6FTRYRrubwRYyA4rR3HN9av-WWkRCROq5WhUurPKTWT1n_LU_O2DjJh
+aveP2a0LNh3XbgCGTgPGsPyHYei921nXX1iPatieRVK2DJ7zHtZa1G
+}
+!procedure Usps($id, $name="Usps", $tech="")
+  IconElement($id, 'simpleicons-4/U/Usps', $name, $tech)
+!endprocedure
+!procedure UspsCard($id, $funcName="", $content="")
+  IconCard($id, '<$UspsMd>', '', $funcName, $content)
+!endprocedure
+!procedure UspsGroup($id, $name='Usps', $tech='')
+  IconGroup($id, 'IconGroup', '<$UspsLg>', $name, $tech)
+!endprocedure
+@enduml

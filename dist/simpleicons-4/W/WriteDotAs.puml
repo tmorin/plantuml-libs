@@ -1,0 +1,16 @@
+@startuml
+sprite $WriteDotAsMd [14x14/16z] XOs50GD140BdtA7_QjyAIDOL-27XaIT-5LXU58_7FJbsOVh0Kg3B1Tc9Ko4FztocMtG0ilUOnRClWF1zMghq3CCAJ8jcG_BWuyWQGE0B_-G6
+sprite $WriteDotAsLg [20x20/16z] {
+hOk55SD03CLq5FHP-s_R5zgWCiFdpvmN0_ROeLv3nOk5dcQbJQyIgGUizuNghB3kUiBXUrg1DbHgpZGAaGMWJctT4ThB9RdOTTkicwx3mStG6K7J_HHA0Kge
+6wJfGOqOZzZ-bIi3NUCfix0z0_kv0EKkPJigV-O7
+}
+!procedure WriteDotAs($id, $name="Write Dot As", $tech="")
+  IconElement($id, 'simpleicons-4/W/WriteDotAs', $name, $tech)
+!endprocedure
+!procedure WriteDotAsCard($id, $funcName="", $content="")
+  IconCard($id, '<$WriteDotAsMd>', '', $funcName, $content)
+!endprocedure
+!procedure WriteDotAsGroup($id, $name='Write Dot As', $tech='')
+  IconGroup($id, 'IconGroup', '<$WriteDotAsLg>', $name, $tech)
+!endprocedure
+@enduml

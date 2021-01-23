@@ -1,0 +1,19 @@
+@startuml
+sprite $GravMd [14x14/16z] {
+FSU74SH02CNGpzhSPjH_jySulKcIP1tsWc5A7Z0xu98vgVki8xS7ASxO7XYNLbRqe5qphHqsO95-PdweSgawiwEqwwntPUtA1XQbS6azO6XU4yMShSx59VdQ
+toHh2rQpp3y
+}
+sprite $GravLg [20x20/16z] {
+JT254GGX30NGG3POvFVVxQ4pzt0NcbW1X0COJ9VOwbC09dGqB9MnjDUrDDPU95Od2mvBmw8KG4WTHsI3gG2Uy7of1RG345mroyThAJ3kmfRIC2B6v5Wq4rFc
+6GoN9w8wKmSdnz4fjq8qWFYodxLV3drtrpXdg4Ceun4rJ9v9SLawRolKyCZvWqO5p_kOtlww3d5SBlGa6Gxua4JB3m
+}
+!procedure Grav($id, $name="Grav", $tech="")
+  IconElement($id, 'simpleicons-4/G/Grav', $name, $tech)
+!endprocedure
+!procedure GravCard($id, $funcName="", $content="")
+  IconCard($id, '<$GravMd>', '', $funcName, $content)
+!endprocedure
+!procedure GravGroup($id, $name='Grav', $tech='')
+  IconGroup($id, 'IconGroup', '<$GravLg>', $name, $tech)
+!endprocedure
+@enduml

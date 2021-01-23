@@ -1,0 +1,16 @@
+@startuml
+sprite $WixMd [14x14/16z] dOn50GKm34DJfe5_jHyix9tQ41vHm1dk6Wh9Lhj5srqsRrjLsL4-Y9kOlNYEsVyBnDd8ozwoPQk4WGjg_b_18ry
+sprite $WixLg [20x20/16z] {
+lKxL0KGn20kqI3NxJtjFlsw0Xpl1noIlymgO2wHPbam0cNkYR3O4jMbXd44X9NQVw5Ec8tUSPRBsKLbd2WqO7ATPOxdiiSjRwu0dgMUuvAhbJZhKpXJ13gKf
+0qaL7GPSztNeYmMGVz223-W
+}
+!procedure Wix($id, $name="Wix", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wix', $name, $tech)
+!endprocedure
+!procedure WixCard($id, $funcName="", $content="")
+  IconCard($id, '<$WixMd>', '', $funcName, $content)
+!endprocedure
+!procedure WixGroup($id, $name='Wix', $tech='')
+  IconGroup($id, 'IconGroup', '<$WixLg>', $name, $tech)
+!endprocedure
+@enduml

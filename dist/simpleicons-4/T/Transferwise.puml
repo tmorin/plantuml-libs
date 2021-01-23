@@ -1,0 +1,16 @@
+@startuml
+sprite $TransferwiseMd [14x14/16z] HSU50SH030F1FMQh_seVatYCWYoT7rc4S3HQxwth01ID_wby7ILWAm1qDI1f_CCCCJAL80zzjQ05bFf3Ky6PuOeQRYbwI9gueUGXQFFp1W
+sprite $TransferwiseLg [20x20/16z] {
+ROzL0WGX688nfYpkVzirS2U_5_y60RZ2Am4LMsjbGXveR3MmhhEJ7ft4R4SK6J7mSwC6gsfL9VGWC9j_AHgfxTeisiJEOcU9yGZXW4b3mTNI86ALaNNRXKLW
+mWCd8s8gc4V9oCYLgk3m83FWWVzGY1z6dWhpg-87
+}
+!procedure Transferwise($id, $name="Transferwise", $tech="")
+  IconElement($id, 'simpleicons-4/T/Transferwise', $name, $tech)
+!endprocedure
+!procedure TransferwiseCard($id, $funcName="", $content="")
+  IconCard($id, '<$TransferwiseMd>', '', $funcName, $content)
+!endprocedure
+!procedure TransferwiseGroup($id, $name='Transferwise', $tech='')
+  IconGroup($id, 'IconGroup', '<$TransferwiseLg>', $name, $tech)
+!endprocedure
+@enduml

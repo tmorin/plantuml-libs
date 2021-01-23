@@ -1,0 +1,16 @@
+@startuml
+sprite $AtomMd [14x14/16z] BSV7OS0m400WfAkEzvytdH_edIDc3jYQQsO3xd0snVZV4zp4wRVVZvwkmsxkqzoi7PTyxMfoE_NhUNJoP9tfmXrRHDkBEGSTxcAklvqQ_ukTLfiBd8lR5ry
+sprite $AtomLg [20x20/16z] {
+NL05OWGn29m4X-x_lrisKhc9u8h6YFBvKZ72mSmARahcSdMXO0SiJUewrbYMQ2BsLnTBqgiB7eWShuLsx9GghoSYt9IsSxWNryIOh1wX7USTagbuG_jov5ZX
+NXZFCv1lg8PfapewMrM_8WMKTcAhdpi6TGYT91riVdls5GLLBEEQTUn1AR2noj0QSDJL2J2XEVxeg4IJe1qkDnRYQx-SMHCV63GM_GO
+}
+!procedure Atom($id, $name="Atom", $tech="")
+  IconElement($id, 'simpleicons-4/A/Atom', $name, $tech)
+!endprocedure
+!procedure AtomCard($id, $funcName="", $content="")
+  IconCard($id, '<$AtomMd>', '', $funcName, $content)
+!endprocedure
+!procedure AtomGroup($id, $name='Atom', $tech='')
+  IconGroup($id, 'IconGroup', '<$AtomLg>', $name, $tech)
+!endprocedure
+@enduml

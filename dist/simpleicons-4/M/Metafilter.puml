@@ -1,0 +1,19 @@
+@startuml
+sprite $MetafilterMd [14x14/16z] {
+PSUtWGD030CmwfAokF-q7zmQ7O2r0JbBzX_0VE76FU7kMEH6KODauP1haxTBbYpzct4E3S3DdfDTbmg1JhHNvIDv4DGUQtEw2vftU7chyOTSpCCpyLaBtvj3
+_In0oNey-6D75FPE2Bxy0W
+}
+sprite $MetafilterLg [20x20/16z] {
+TSXP0XqX20NHAyxTGEr_jx5DtcVAaIEfbABxtE_VoSm-CZld9bLFBzARKMV6oQKEMTIIh0zVn-Qr3MxExcDKQNzM71vBchxEbAbEi1gKIvOHgOtJ1w5hZIUY
+vWxg9lVkKkrCpy7Cj9VJaiQYluGFt9A8wD9-gI_CmQvW-lBCub0tenFb6hWSBozjyUgVFGfM2Unb_MmTgvKuF7usbAd1DcYwXLVvqcIqTDFDx9oYOcUR_jyV
+}
+!procedure Metafilter($id, $name="Metafilter", $tech="")
+  IconElement($id, 'simpleicons-4/M/Metafilter', $name, $tech)
+!endprocedure
+!procedure MetafilterCard($id, $funcName="", $content="")
+  IconCard($id, '<$MetafilterMd>', '', $funcName, $content)
+!endprocedure
+!procedure MetafilterGroup($id, $name='Metafilter', $tech='')
+  IconGroup($id, 'IconGroup', '<$MetafilterLg>', $name, $tech)
+!endprocedure
+@enduml

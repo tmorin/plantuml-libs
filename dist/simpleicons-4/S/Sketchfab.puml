@@ -1,0 +1,19 @@
+@startuml
+sprite $SketchfabMd [14x14/16z] {
+HKu50iCm4EBYdl__Td3RMYe9SW9Oluvk8FBvifFfPB-vaj6FXyAG5lZR0KIat2HrKZUtSksqVlaw6i9ckluPne3O8ficPfEwJyXpQeTZdFuWQxEN2DOsHpKj
+_G4
+}
+sprite $SketchfabLg [20x20/16z] {
+RP055iGW34J9GYhH-v-sCY-i_-fyFEsYQnRQMy4-dNEfhGJOVXLavpdJg1cugR_cMGF_LFqBGKSu6Gsm8i4vDZOi7GcEE58qWmaHtFDdhjVdmxM8Lix_E87Z
+wR2DeLxrkDm3FOpcsRQ8DG7_hS5lhVxN512BNqAO44y
+}
+!procedure Sketchfab($id, $name="Sketchfab", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sketchfab', $name, $tech)
+!endprocedure
+!procedure SketchfabCard($id, $funcName="", $content="")
+  IconCard($id, '<$SketchfabMd>', '', $funcName, $content)
+!endprocedure
+!procedure SketchfabGroup($id, $name='Sketchfab', $tech='')
+  IconGroup($id, 'IconGroup', '<$SketchfabLg>', $name, $tech)
+!endprocedure
+@enduml

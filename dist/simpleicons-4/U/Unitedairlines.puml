@@ -1,0 +1,20 @@
+@startuml
+sprite $UnitedairlinesMd [14x14/16z] {
+LSV5OGLG30EmXuc3td_QSZ_e9hxf-jB_K_bcVySNCxdsCuNXAbpyUo9G3zsAxyBZBe3OqgJgpSROHW6PSKPusRo1vXBwMPrwWEGO6J946VCcmmvOPtZaBaB6
+RDCZA2asJSLOStiqFm4
+}
+sprite $UnitedairlinesLg [20x20/16z] {
+ZSv7cWKW20DWB40aQkv_s_bUtyw_ewD_shj8hYtzP8PxPCJwvG0GG0QYVha8O6r4U7vd2pNcH5rEN3sCaQkAMTsS6teW0pvmoShfNezSvDavBI9rq3qVqxDd
+K8VJEaerbnvWRMbbz1pd34YgXMMDSRJJ-ZgWr1grwGQToEu49BDnXMQsi7Lw3qYZDoOqHxKjpk5BkgUYIzhT-bcNZH9hcAMkkta-dYafWiFcTGeS_IwM7Yft
+Jqbk4xkEz0S
+}
+!procedure Unitedairlines($id, $name="Unitedairlines", $tech="")
+  IconElement($id, 'simpleicons-4/U/Unitedairlines', $name, $tech)
+!endprocedure
+!procedure UnitedairlinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$UnitedairlinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure UnitedairlinesGroup($id, $name='Unitedairlines', $tech='')
+  IconGroup($id, 'IconGroup', '<$UnitedairlinesLg>', $name, $tech)
+!endprocedure
+@enduml

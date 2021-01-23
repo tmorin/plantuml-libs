@@ -1,0 +1,19 @@
+@startuml
+sprite $AircanadaMd [14x14/16z] {
+BOU5OGH130DdqNpklzhaIIn0oqGibJTs-LvhMsuOvzaW0giE_YoutHTcpJ8MqYrCrFHuH_JRllFY_ODHCbP-JynHlj7lKrPMa5tkrOcBXCmprXfdteIH0dl3
+hGaC2_4ZuOCFnj5r9y0_
+}
+sprite $AircanadaLg [20x20/16z] {
+JT253GGn30NHoJfiwh_Ronu_uHzPP8womcrlyvY5Dz7qFUUsL7cddbgX05MpSnivE7Hnz7j8UwRICrfvneR5vgXvL8uL9LCeWaHc209ND5UPcgFVhO_Syzgg
+gtZ-SKRioSe_avwdDSilhVIm3NoZ0jF3eUPN1LkPdNw6cLhUewQCvQKl7VJEsBDZ2iMrSBJ6RSS5N6u2zBjT6iBxfRkLLQapzE9DbdcAXJR-51b5FZSF
+}
+!procedure Aircanada($id, $name="Aircanada", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aircanada', $name, $tech)
+!endprocedure
+!procedure AircanadaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AircanadaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AircanadaGroup($id, $name='Aircanada', $tech='')
+  IconGroup($id, 'IconGroup', '<$AircanadaLg>', $name, $tech)
+!endprocedure
+@enduml

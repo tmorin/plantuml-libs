@@ -1,0 +1,16 @@
+@startuml
+sprite $GooglesheetsMd [14x14/16z] TSg54OC040J0Iu2NUUk_MjnbHq_mpng542R_cfFQEN7vRq_5hEsHojt_HnejANsKMnBgEk8jCHFnLxeyJKQsfSsOu5jmO
+sprite $GooglesheetsLg [20x20/16z] {
+bSy54aKX34FHGjlWiF_LVddkSYTZPpH4qeQSLnhIoO8xi8O3--7QF5ghkhQg_6kmLVhMQkwgIuE5_GqhGrRDM9i4-Mrj6aMYRYo9f8s9bzzMbdnNUll3f2Kb
+G_G5
+}
+!procedure Googlesheets($id, $name="Googlesheets", $tech="")
+  IconElement($id, 'simpleicons-4/G/Googlesheets', $name, $tech)
+!endprocedure
+!procedure GooglesheetsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GooglesheetsMd>', '', $funcName, $content)
+!endprocedure
+!procedure GooglesheetsGroup($id, $name='Googlesheets', $tech='')
+  IconGroup($id, 'IconGroup', '<$GooglesheetsLg>', $name, $tech)
+!endprocedure
+@enduml

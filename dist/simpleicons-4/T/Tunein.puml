@@ -1,0 +1,16 @@
+@startuml
+sprite $TuneinMd [14x14/16z] XSf70KCn009GidVmxxQ5Bo3lni1JMZPXXPzcazpjaZbA8uzs8DQafrD0N4wxNoNqe2HA6IYhMyG_erROb34Jddu
+sprite $TuneinLg [20x20/16z] {
+hOtL0S0W34I3E-m_ROlx9m-DtS4Bg6dedXEXSykfYhGnS4oa76SLdI8YbrcU8cRIZG28qhJgKLbpe3GgESj4ot4vV5jEN7AKfPnJkY2X8SQNaW9M8sSx55xm
+0m
+}
+!procedure Tunein($id, $name="Tunein", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tunein', $name, $tech)
+!endprocedure
+!procedure TuneinCard($id, $funcName="", $content="")
+  IconCard($id, '<$TuneinMd>', '', $funcName, $content)
+!endprocedure
+!procedure TuneinGroup($id, $name='Tunein', $tech='')
+  IconGroup($id, 'IconGroup', '<$TuneinLg>', $name, $tech)
+!endprocedure
+@enduml

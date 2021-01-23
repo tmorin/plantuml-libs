@@ -1,0 +1,16 @@
+@startuml
+sprite $TheconversationMd [14x14/16z] TSwr0KCn34NHPqRfxhzjFdSvbIsMb5i_jAHJckO76r4AbK_HWXPq20tIyT6ZCV7m_eA3wMD0UZ-HuxlUqabh6-lbq8ojK7WTHNLRQMEC-xBMzDSF
+sprite $TheconversationLg [20x20/16z] {
+ZT150eGm343HrBt__gST83YhURjAL3RM1-Mid8oFIKLdH5JeN9gNJUObYOG4rE1Kg42K2GIv1C3gxuS86OQL1zFfKEMbQldltVp6sa47iZmaoFDTE09MUsx9
+grYF7vNDNC6PgS7aCBlNrJ6YIrb59vjSYf4Fv-Gl2m
+}
+!procedure Theconversation($id, $name="Theconversation", $tech="")
+  IconElement($id, 'simpleicons-4/T/Theconversation', $name, $tech)
+!endprocedure
+!procedure TheconversationCard($id, $funcName="", $content="")
+  IconCard($id, '<$TheconversationMd>', '', $funcName, $content)
+!endprocedure
+!procedure TheconversationGroup($id, $name='Theconversation', $tech='')
+  IconGroup($id, 'IconGroup', '<$TheconversationLg>', $name, $tech)
+!endprocedure
+@enduml

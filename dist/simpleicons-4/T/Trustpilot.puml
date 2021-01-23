@@ -1,0 +1,16 @@
+@startuml
+sprite $TrustpilotMd [14x14/16z] JKo50G0W2BF5mFr_hTt5KinbZFYMypzA-GCIa0zPmCw10X4nmFqBrWJS5KPxMNCnguC7YATd8AzU8mU6NIZqk1pFYhdfO3dHJgYE6W
+sprite $TrustpilotLg [20x20/16z] {
+PP350GGW30I318VjlzeJNEOJLnfeJG_Cho_6rrVAMmeynG48bqja88ivJclDsk67qzLGFk8YAH8E1xvsq1cJmcF0h8zoJIseE5gewicADboTPttP4ZC0mmN8
+gxGkHIe1izp3YTx3pzVn_4uSczIaJVy2
+}
+!procedure Trustpilot($id, $name="Trustpilot", $tech="")
+  IconElement($id, 'simpleicons-4/T/Trustpilot', $name, $tech)
+!endprocedure
+!procedure TrustpilotCard($id, $funcName="", $content="")
+  IconCard($id, '<$TrustpilotMd>', '', $funcName, $content)
+!endprocedure
+!procedure TrustpilotGroup($id, $name='Trustpilot', $tech='')
+  IconGroup($id, 'IconGroup', '<$TrustpilotLg>', $name, $tech)
+!endprocedure
+@enduml

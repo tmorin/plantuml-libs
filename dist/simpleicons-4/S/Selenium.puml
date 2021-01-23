@@ -1,0 +1,16 @@
+@startuml
+sprite $SeleniumMd [14x14/16z] JSg53G0n5CFGb34_-qzx3BNmITOV7HPrB29SqTsG0kQuOSW5NVsM6b1rYgNCWmTE-HYzINQ9g6Rg8Tvd1PAvt31FKGFDfLfuo12ZOmxrFcUjb5gPfzRw3W
+sprite $SeleniumLg [20x20/16z] {
+RSs30KGn40JGMSIO_gizVZjuAruV1wuqxMuHa0iL8AGpTO7Dij-_SOCEveq6K2AaSx6r5T1uCcQWSB6PFFmlcOjDXGZY8V_R9ttsJhOOss8LckhyxOwozCi0
+f55iqcKnpXQX0w8gCdxMyoGT0pP67-iCk28omxFLfRP63z_SuXRxOfVdsTu
+}
+!procedure Selenium($id, $name="Selenium", $tech="")
+  IconElement($id, 'simpleicons-4/S/Selenium', $name, $tech)
+!endprocedure
+!procedure SeleniumCard($id, $funcName="", $content="")
+  IconCard($id, '<$SeleniumMd>', '', $funcName, $content)
+!endprocedure
+!procedure SeleniumGroup($id, $name='Selenium', $tech='')
+  IconGroup($id, 'IconGroup', '<$SeleniumLg>', $name, $tech)
+!endprocedure
+@enduml

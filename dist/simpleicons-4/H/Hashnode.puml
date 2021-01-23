@@ -1,0 +1,13 @@
+@startuml
+sprite $HashnodeMd [14x14/16z] NOq50i0W549ntRl_QTKFB37VBr0rdbKZfBG5RUa1ey4ugip5Z0x04EySruggbV4_iR9dfQQigwPy7FxkH8Em-io40W
+sprite $HashnodeLg [20x20/16z] RP250S0W40DJ5sp_QR5G3OSV_gWiFcJyWXTRg6oYChighdmhIb7SlZJbZV7NojQn4p1PzcSsFgiikS3G6LJQgEzqR--EpbluPlt8gafZG2bAOqfc4uAPGH8
+!procedure Hashnode($id, $name="Hashnode", $tech="")
+  IconElement($id, 'simpleicons-4/H/Hashnode', $name, $tech)
+!endprocedure
+!procedure HashnodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$HashnodeMd>', '', $funcName, $content)
+!endprocedure
+!procedure HashnodeGroup($id, $name='Hashnode', $tech='')
+  IconGroup($id, 'IconGroup', '<$HashnodeLg>', $name, $tech)
+!endprocedure
+@enduml

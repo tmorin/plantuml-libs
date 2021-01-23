@@ -1,0 +1,16 @@
+@startuml
+sprite $TasmotaMd [14x14/16z] JSm50WGn20F05DagyF_VtkOyrQa0HhCKtuogyGUHBmUVAVc628IK-vb6PYXP9LPzdrucDRiYEzP2J-Zzrh9HBOrLF43XE2Kb51Tc1nKRO5hud1uDdx0ArmS
+sprite $TasmotaLg [20x20/16z] {
+PSm76eGW34JX2Nv4Ic3kVziDOhRvhFmKt6LIyTT9bWVr5lWXWUC_GNfWq2emIEwLGH3jPbq55-QBZ9D-sy8JT8BvpnY-m-1OpAbGiGpAubZWpO5j61Exn1fM
+UMmxMC9AcCmUrgTWrvcs9HeGcosjuvFvraZPrxf6nQTSbfMCtzoY5m
+}
+!procedure Tasmota($id, $name="Tasmota", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tasmota', $name, $tech)
+!endprocedure
+!procedure TasmotaCard($id, $funcName="", $content="")
+  IconCard($id, '<$TasmotaMd>', '', $funcName, $content)
+!endprocedure
+!procedure TasmotaGroup($id, $name='Tasmota', $tech='')
+  IconGroup($id, 'IconGroup', '<$TasmotaLg>', $name, $tech)
+!endprocedure
+@enduml

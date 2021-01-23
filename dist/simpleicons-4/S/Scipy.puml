@@ -1,0 +1,19 @@
+@startuml
+sprite $ScipyMd [14x14/16z] {
+JKx70G0X24EbMRF_jaT-5skAWeZO1d2p2T6Ba1h9U41Q5a-Hl83RDYlghPohTRD0EAN7yDFHaZ92vmLg6eWToWlPiSaV-EiugwzHT7hfqlJXzhdOWuaes8SL
+oLzdpqWAmpDKY0y
+}
+sprite $ScipyLg [20x20/16z] {
+TT05WXWX50FGhpZa_hTjCzAklb628nJZ03WpLLvQ5cXNaqSmkUry8XPMoSR-AEpd_1tYgRuPfaYV75qQ0BzxX8EwiV7MYbEovfE1faI8Lm5jwQ2LTUoZk7ID
+jl0mt7OBjV4XEnjKvMgwsNUv5b1Sdo50apgribJoUaku3c1ouiKNbehe1DWuKgvc8NybQ6Rqg-SlPqLQxtHLa__K8iDKRdy
+}
+!procedure Scipy($id, $name="Scipy", $tech="")
+  IconElement($id, 'simpleicons-4/S/Scipy', $name, $tech)
+!endprocedure
+!procedure ScipyCard($id, $funcName="", $content="")
+  IconCard($id, '<$ScipyMd>', '', $funcName, $content)
+!endprocedure
+!procedure ScipyGroup($id, $name='Scipy', $tech='')
+  IconGroup($id, 'IconGroup', '<$ScipyLg>', $name, $tech)
+!endprocedure
+@enduml

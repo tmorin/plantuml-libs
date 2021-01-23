@@ -1,0 +1,13 @@
+@startuml
+sprite $MarketoMd [14x14/16z] hSUr0SH0402nMJYc_gjzDEPM9Zx4WB8IFvfTFkkEcc9hjS_Mb3oNwSChjtbopl5X8yjtcH-1pmAdvC0R
+sprite $MarketoLg [20x20/16z] rSZ50S0m30D01Ms7jF-qPTwWzppi75R66d3nn_LqLwyQroDRW7DklK4ElnqLITZpvxAIzhiR5ZwtsQwvp_MMWEsgFyu5h9HKXpTZnfT4h6O
+!procedure Marketo($id, $name="Marketo", $tech="")
+  IconElement($id, 'simpleicons-4/M/Marketo', $name, $tech)
+!endprocedure
+!procedure MarketoCard($id, $funcName="", $content="")
+  IconCard($id, '<$MarketoMd>', '', $funcName, $content)
+!endprocedure
+!procedure MarketoGroup($id, $name='Marketo', $tech='')
+  IconGroup($id, 'IconGroup', '<$MarketoLg>', $name, $tech)
+!endprocedure
+@enduml

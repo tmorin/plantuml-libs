@@ -1,0 +1,16 @@
+@startuml
+sprite $CurseforgeMd [14x14/16z] bSg50GCX50FGu9AKx3zjpmVW8L-n8_8ZYRBzkxurXdpfrMQu5dEpUh8Z7Xe0YLSo-yfVbNsgNrN5gOOT1m
+sprite $CurseforgeLg [20x20/16z] {
+jS-55O1030FGd1PfclstvU4mmFtdzMA4qdxIRjPF1CdGRgPsgwtKnQllDGr0wbVUiOzeEALKA6DgqehNf0paMHsl4bvpyaZuCCcvbtsisgtugA53nYlVRs60
+3G
+}
+!procedure Curseforge($id, $name="Curseforge", $tech="")
+  IconElement($id, 'simpleicons-4/C/Curseforge', $name, $tech)
+!endprocedure
+!procedure CurseforgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$CurseforgeMd>', '', $funcName, $content)
+!endprocedure
+!procedure CurseforgeGroup($id, $name='Curseforge', $tech='')
+  IconGroup($id, 'IconGroup', '<$CurseforgeLg>', $name, $tech)
+!endprocedure
+@enduml

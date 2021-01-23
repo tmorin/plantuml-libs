@@ -1,0 +1,16 @@
+@startuml
+sprite $RiseupMd [14x14/16z] JSs55GD120JGDVmTqt-raOd-TG76GyhuKybbBYwEUEpjEZmPaDQeGGTqU9Z9GtBl3Oh78Ivys3FjrkZFaG98ZMfvbsXMNkyIFdvMpx_JFE_D7G
+sprite $RiseupLg [20x20/16z] {
+PT350G0X40J1nPt9FzeJNEhPEFHZKT699KENY1w5PbHvr2WS73KMVnGX8_7UD3u97qkTH9FPQAQtCKs6CQsV7Z2flrYFZVnFr2x4F5kMxMb2XXd5Ta7thKap
+oWp4VmdZKhR64o3ldmbqyk1NSuukSfds0W
+}
+!procedure Riseup($id, $name="Riseup", $tech="")
+  IconElement($id, 'simpleicons-4/R/Riseup', $name, $tech)
+!endprocedure
+!procedure RiseupCard($id, $funcName="", $content="")
+  IconCard($id, '<$RiseupMd>', '', $funcName, $content)
+!endprocedure
+!procedure RiseupGroup($id, $name='Riseup', $tech='')
+  IconGroup($id, 'IconGroup', '<$RiseupLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $AirfranceMd [14x14/16z] XSh75K1124BHoLdjlzeVOFQ-tJqG_DB-EkDgsryXEj293Ep0v8ScOc1gH04M4VcBG3f00SOwU--PWjiB
+sprite $AirfranceLg [20x20/16z] hSw52G0n343HkZVPVzhJo0bEF_uWOjPKHZyRHIaX5OGS42KZTQAkb8d02_d_fEN9ffE59wrGq3UaILILAj7GoVHzmxbAD8FCjT6lYZKhsW4
+!procedure Airfrance($id, $name="Airfrance", $tech="")
+  IconElement($id, 'simpleicons-4/A/Airfrance', $name, $tech)
+!endprocedure
+!procedure AirfranceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirfranceMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirfranceGroup($id, $name='Airfrance', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirfranceLg>', $name, $tech)
+!endprocedure
+@enduml

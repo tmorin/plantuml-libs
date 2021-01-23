@@ -1,0 +1,19 @@
+@startuml
+sprite $NintendogamecubeMd [14x14/16z] {
+HOxL0S1024E1i_GePFzfw_9-S18vi4bwaHi53w1NtfCSdSnn58sSQgQJNMJnKGNNedbnhjA2Z0Roh3G0ZEHJ9G5oYQkIe3jJrhDAKpzGInR4AMGc8nbwESbQ
+WbpqiUd-6vK6j2lP0G
+}
+sprite $NintendogamecubeLg [20x20/16z] {
+LSy53WGX44JHmbgGhllVTiV3_XXvEEvaaI49MybuP7aZMRnQyaeP94CbICvsRUiyyWnaF_4SP9cS1SazeKmz13v6RKWIpxrbZCEu4XglMlRWPP6ArKwEgejy
+hN8saJR9tKWLaj5ZDtUIaZxBSLlarrYH_RIUKVXOM48LgO35QQKk7YeuQeTmDHpfzVcI1-yjLzdVUptZgqwQSLRy9Qg2fny
+}
+!procedure Nintendogamecube($id, $name="Nintendogamecube", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nintendogamecube', $name, $tech)
+!endprocedure
+!procedure NintendogamecubeCard($id, $funcName="", $content="")
+  IconCard($id, '<$NintendogamecubeMd>', '', $funcName, $content)
+!endprocedure
+!procedure NintendogamecubeGroup($id, $name='Nintendogamecube', $tech='')
+  IconGroup($id, 'IconGroup', '<$NintendogamecubeLg>', $name, $tech)
+!endprocedure
+@enduml
