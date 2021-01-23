@@ -1,0 +1,16 @@
+@startuml
+sprite $ModifiersPreemptableVmMd [14x14/16z] NSxL0K0X20NGIzdA_jE-JiyV3IQi6mYnx85l1hh6kaNg-D1XzaRYthvHx4QbigLpBlOstWYZ4tPdP88tkitNxyzq_soo0W
+sprite $ModifiersPreemptableVmLg [20x20/16z] {
+ZP254K0n349Jwih-stvtVPUpECX_RF03WWW9TafnGWoDCCk0fr7e4Hb2pJd86KyTpIaNc9akELQQysn0tsZgK6bnlH7e2eSSjnmQwGwp69P6EUSGrILt_La1
+wg3jwi7Lg_zq
+}
+!procedure ModifiersPreemptableVm($id, $name="Modifiers Preemptable Vm", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersPreemptableVm', $name, $tech)
+!endprocedure
+!procedure ModifiersPreemptableVmCard($id, $funcName="", $content="")
+  IconCard($id, '<$ModifiersPreemptableVmMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure ModifiersPreemptableVmGroup($id, $name='Modifiers Preemptable Vm', $tech='')
+  IconGroup($id, 'IconGroup', '<$ModifiersPreemptableVmLg>', $name, $tech)
+!endprocedure
+@enduml

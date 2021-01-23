@@ -1,0 +1,16 @@
+@startuml
+sprite $AdvancedSolutionsLab1Md [14x14/16z] TSx50GKW30JHxCn2_nr_TtadYCz5CYzq7a9Bve8J9J0doqjWN9USvQHo-M7sZbn_chMYbv-L4-ltb0aeP6ve-NFPqn4
+sprite $AdvancedSolutionsLab1Lg [20x20/16z] {
+XL250S0m3CAQ_p-UkxBLue0la7TRrTKe9zRHGii3k5lJ14usg6KEQeqm9Ng-Zr0SGuAdospp02NJkTZC6AuA7EusCOEDccrRFMUgfzcMo7CFRRDK7MOfRZJc
+cUa3Py_p-AoK4_EkrO-cT_G
+}
+!procedure AdvancedSolutionsLab1($id, $name="Advanced Solutions Lab1", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/AdvancedSolutionsLab1', $name, $tech)
+!endprocedure
+!procedure AdvancedSolutionsLab1Card($id, $funcName="", $content="")
+  IconCard($id, '<$AdvancedSolutionsLab1Md>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure AdvancedSolutionsLab1Group($id, $name='Advanced Solutions Lab1', $tech='')
+  IconGroup($id, 'IconGroup', '<$AdvancedSolutionsLab1Lg>', $name, $tech)
+!endprocedure
+@enduml

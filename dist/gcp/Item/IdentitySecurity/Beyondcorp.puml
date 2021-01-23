@@ -1,0 +1,16 @@
+@startuml
+sprite $BeyondcorpMd [14x14/16z] PKw50S0m22iaeVt_uWsOhuf5nhaSLsWsAEkO4aDG9R6oEgTd8jK78Y51Rq1MSMNWCEhEdZsYSEWiB4lH6TdVsk4kdXQf5Fsj3G
+sprite $BeyondcorpLg [20x20/16z] {
+VL054e0m3Akc-_-7aRaS16RrX1OmqmxMnIQgmW2aMmml4iYyfI3qFJKCsat5HaWjp26rj9eKemHWlND83dDkSVcLzvWdKEJ2niD4WgyuWnpr9FpeImYL4TPu
+mBNo3kvy4pZtpCUYooWxzACVt
+}
+!procedure Beyondcorp($id, $name="Beyondcorp", $tech="")
+  IconElement($id, 'gcp/Item/IdentitySecurity/Beyondcorp', $name, $tech)
+!endprocedure
+!procedure BeyondcorpCard($id, $funcName="", $content="")
+  IconCard($id, '<$BeyondcorpMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+!procedure BeyondcorpGroup($id, $name='Beyondcorp', $tech='')
+  IconGroup($id, 'IconGroup', '<$BeyondcorpLg>', $name, $tech)
+!endprocedure
+@enduml

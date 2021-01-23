@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudBuildMd [14x14/16z] RSwt0SKm3CHG0QUq_y8_Ejke-2fUUGWEC0dx_SrL0ekasFFrLmczEymcssIJphef8Fw5gR1_91AUb-sz0G
+sprite $CloudBuildLg [20x20/16z] {
+bO_L0GKX4CGoW_RVy9F3-RlWmNPvYHnqAOSVtgr2nrErfPz1sqs1l9I5K4gWPz6kcf2BdL48mmN5aiXLtXonADHokKYvd4IioOJD1MEZ5M0B5bOcmsgTQgWv
+Ss1XNl85
+}
+!procedure CloudBuild($id, $name="Cloud Build", $tech="")
+  IconElement($id, 'gcp/Item/DeveloperTools/CloudBuild', $name, $tech)
+!endprocedure
+!procedure CloudBuildCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudBuildMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure CloudBuildGroup($id, $name='Cloud Build', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudBuildLg>', $name, $tech)
+!endprocedure
+@enduml

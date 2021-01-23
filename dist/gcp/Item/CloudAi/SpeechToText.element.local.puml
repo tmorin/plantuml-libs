@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the SpeechToText element
+include('gcp/Item/CloudAi/SpeechToText')
+SpeechToText('speech_to_text', 'Speech To Text', 'an optional tech field')
+@enduml

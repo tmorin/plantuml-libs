@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudMonitoringMd [14x14/16z] bSc90O0W30F0VadOVs8RN40F-iTdDOHn_qH154aNx4JEi5mz2TK9kOciBeddQ1lVT5w-zSmqUKjS2MJyym
+sprite $CloudMonitoringLg [20x20/16z] jSx50G8m44JH7Lb9-kyNTwxmul-K-3b_G81TDttT-Thokpdqre0qadnfL08rJLrQm1PwgcQcIHaH8QhcegT5HO1xhNbOQv-ZhxeVVtweYWzqfXd_SGG
+!procedure CloudMonitoring($id, $name="Cloud Monitoring", $tech="")
+  IconElement($id, 'gcp/Item/ManagementTools/CloudMonitoring', $name, $tech)
+!endprocedure
+!procedure CloudMonitoringCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudMonitoringMd>', 'ManagementTools', $funcName, $content)
+!endprocedure
+!procedure CloudMonitoringGroup($id, $name='Cloud Monitoring', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudMonitoringLg>', $name, $tech)
+!endprocedure
+@enduml

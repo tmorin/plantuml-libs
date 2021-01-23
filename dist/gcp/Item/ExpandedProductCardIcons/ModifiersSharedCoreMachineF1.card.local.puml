@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the ModifiersSharedCoreMachineF1 element
+include('gcp/Item/ExpandedProductCardIcons/ModifiersSharedCoreMachineF1')
+ModifiersSharedCoreMachineF1Card('modifiers_shared_core_machine_f_1', 'Modifiers Shared Core Machine F1', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

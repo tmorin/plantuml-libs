@@ -1,0 +1,16 @@
+@startuml
+sprite $VideoIntelligenceApiMd [14x14/16z] ZKs54G8136kqn_u3ut86V5sJ-IMuoYtU6sPJewlhwDfbL28QTt0jakrAfmxTDIJDhODyxMpZtX5AcpukMtnGwDiSxPtXk5m
+sprite $VideoIntelligenceApiLg [20x20/16z] {
+jOw50GCn30Db2vBVV-4wvG7Q2vg5NrEn7O5n-7JrYkL5E7C1wl5j0vtKN4JvQg1KbS7s-BBt-D3biBC6Og_ndNw9K4CNrZslukFZe7xwK52axrfKkkn4L0Zl
+Pxz2n_CR7tGzPpZfoaCp2oWT2CxT-0it
+}
+!procedure VideoIntelligenceApi($id, $name="Video Intelligence Api", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/VideoIntelligenceApi', $name, $tech)
+!endprocedure
+!procedure VideoIntelligenceApiCard($id, $funcName="", $content="")
+  IconCard($id, '<$VideoIntelligenceApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure VideoIntelligenceApiGroup($id, $name='Video Intelligence Api', $tech='')
+  IconGroup($id, 'IconGroup', '<$VideoIntelligenceApiLg>', $name, $tech)
+!endprocedure
+@enduml

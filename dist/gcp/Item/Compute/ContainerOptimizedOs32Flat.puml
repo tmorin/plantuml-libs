@@ -1,0 +1,16 @@
+@startuml
+sprite $ContainerOptimizedOs32FlatMd [14x14/16z] PKt50S0m428UYB3_jFLVpnNmawGrbRz6dhNAUflLofN2ljlia3LcHlHrB27APWG5p8hUIschSpuTtPePvdmkgqdNvp8xGYmV2hHLNuQFdH_x8tciDJ9-SW8
+sprite $ContainerOptimizedOs32FlatLg [20x20/16z] {
+VL1Lme0n2DhdTBg2-zzsyNVoP0kaVo2gygNm1BY1UDvB6Jij5fF8hoKbMhkHWVgo28hs97Ak0dSzM98D9tsdnZWrp3qxkN4E39pnqr4ff8jRSihvOAUh8Zen
+crDVQvqq8qUA-_dk3j9zryx7ynyxqaul7FhwOtTiFwQRN_xnmXcvpFgaTywtH-IlsdOH767cWz3_l7htz1yi
+}
+!procedure ContainerOptimizedOs32Flat($id, $name="Container Optimized Os32 Flat", $tech="")
+  IconElement($id, 'gcp/Item/Compute/ContainerOptimizedOs32Flat', $name, $tech)
+!endprocedure
+!procedure ContainerOptimizedOs32FlatCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContainerOptimizedOs32FlatMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ContainerOptimizedOs32FlatGroup($id, $name='Container Optimized Os32 Flat', $tech='')
+  IconGroup($id, 'IconGroup', '<$ContainerOptimizedOs32FlatLg>', $name, $tech)
+!endprocedure
+@enduml

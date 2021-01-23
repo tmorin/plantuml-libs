@@ -1,0 +1,16 @@
+@startuml
+sprite $ApigeeApiPlatformMd [14x14/16z] NSo70GGW20F0a2XX_uaVzBlzf00GCQVYN7itPMkGP59MBsW2aOu9WoDLwGZCa4ahIXWM-omF85yb3sxcYgQiTvTz5Su0k17DNamofysoDO76ttW
+sprite $ApigeeApiPlatformLg [20x20/16z] {
+PP07cWKX28DDAC7xNtW7TBOzw__HOVN2EWiO6kH5abVYaW8FvDuLetOPc0b8HgzeCrc_4HBQehZ0mKMLpR_PTZoY6h3TRoGUKPhb8uHoycRmKCfKFCN4ZMNN
+lsMgLwR05SbUNtRmeTyvChhNRJ-rDA1blB7cPnkp_0IDYU_gDyhHTI6JSFafh_PED4ZoZr7oIZxN5m
+}
+!procedure ApigeeApiPlatform($id, $name="Apigee Api Platform", $tech="")
+  IconElement($id, 'gcp/Item/ApiPlatformEcosystems/ApigeeApiPlatform', $name, $tech)
+!endprocedure
+!procedure ApigeeApiPlatformCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApigeeApiPlatformMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+!procedure ApigeeApiPlatformGroup($id, $name='Apigee Api Platform', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApigeeApiPlatformLg>', $name, $tech)
+!endprocedure
+@enduml

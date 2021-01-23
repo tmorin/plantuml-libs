@@ -1,0 +1,16 @@
+@startuml
+sprite $AppEngineMd [14x14/16z] PSi54iHG20DGhB2GJF_zJxlkVIDevCvTliJFH7vFLP_USVNwZRt3JtlS1sNTdwaYkINKiiUGcnC5IRKLKrYcGGikEiDkqHdDie7S6LX5c3neTgVAmGK
+sprite $AppEngineLg [20x20/16z] {
+bOxLOGKm24Nne67_QUlUhtUY-8L78QP_lbFddozk_lDPsDzkQiVqLqUflNEt1BxGQK50wT6lmXo6LxYJtZruobziLGMlWmHYmPKCeXPN98l2TbSg2Pn0rbzy
+VDVEeKo1bpVND1FT4H6i7RHt2xqDNXmlK8oI-H6T_98jtSR4sgtm1TTEpnR33v3j62Fy1l7Bymm
+}
+!procedure AppEngine($id, $name="App Engine", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/AppEngine', $name, $tech)
+!endprocedure
+!procedure AppEngineCard($id, $funcName="", $content="")
+  IconCard($id, '<$AppEngineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure AppEngineGroup($id, $name='App Engine', $tech='')
+  IconGroup($id, 'IconGroup', '<$AppEngineLg>', $name, $tech)
+!endprocedure
+@enduml

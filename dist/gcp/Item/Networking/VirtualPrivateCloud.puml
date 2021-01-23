@@ -1,0 +1,16 @@
+@startuml
+sprite $VirtualPrivateCloudMd [14x14/16z] TOw5OGGm30Db2_OVkS4-Ny0CgEh2OCX6DSrbqHgM4aiMOnIPY8DfePG6bkGG4HRA-ea5ZO5_MoNlBWpV9gpfiS_qkzcGmYj_
+sprite $VirtualPrivateCloudLg [20x20/16z] {
+ZP050iCm30FhMB3-_y6bq7XJ-4AsbaCHIzMOHqI9GKev1wICYWfW7p0oAH6dCbEDIRvPHuz4PKYEk_NSEH6oiYWKufnnNOPMrX6Up9rfCk7rdF3VELVs40k8
+U1lp-zog1vmUlFEg-lZewLlj
+}
+!procedure VirtualPrivateCloud($id, $name="Virtual Private Cloud", $tech="")
+  IconElement($id, 'gcp/Item/Networking/VirtualPrivateCloud', $name, $tech)
+!endprocedure
+!procedure VirtualPrivateCloudCard($id, $funcName="", $content="")
+  IconCard($id, '<$VirtualPrivateCloudMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure VirtualPrivateCloudGroup($id, $name='Virtual Private Cloud', $tech='')
+  IconGroup($id, 'IconGroup', '<$VirtualPrivateCloudLg>', $name, $tech)
+!endprocedure
+@enduml

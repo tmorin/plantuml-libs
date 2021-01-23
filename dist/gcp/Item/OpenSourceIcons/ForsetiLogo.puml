@@ -1,0 +1,16 @@
+@startuml
+sprite $ForsetiLogoMd [14x15/16z] JOk50KGX34CRAaXk_talttbe8oRGt1lif7c4kqwJhlUSX6kuGr36GxvNx-Ng12mNJrOQCCcH7ZdqeZZTJdood6Kta3uNtb41Tjl8N-rZSUoZB-O-rnt-0m
+sprite $ForsetiLogoLg [20x21/16z] {
+POo50S102CIm5s3_VNilzTJJ04rOH5M42MoXPgfgk6-zn0OMqNhTJ3lK7C4CxoN0rWvUTrafLbOFu5LX4H6PvuKR4LHB4EuUqpQade6_SvdK61zik1UwAFWq
+YL7VQ0HJJwUNH6APHXyGelw0ZVuBDRFpJwAKtxXd5FfI8iE-ackzTXu
+}
+!procedure ForsetiLogo($id, $name="Forseti Logo", $tech="")
+  IconElement($id, 'gcp/Item/OpenSourceIcons/ForsetiLogo', $name, $tech)
+!endprocedure
+!procedure ForsetiLogoCard($id, $funcName="", $content="")
+  IconCard($id, '<$ForsetiLogoMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+!procedure ForsetiLogoGroup($id, $name='Forseti Logo', $tech='')
+  IconGroup($id, 'IconGroup', '<$ForsetiLogoLg>', $name, $tech)
+!endprocedure
+@enduml

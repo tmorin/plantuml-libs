@@ -1,0 +1,16 @@
+@startuml
+sprite $MemorystoreMd [14x14/16z] NOs50GCm409VW7J_YNjrkUWRL5N3GDqPaAtRLrhmIImYBoZ9kLMRe8dST3f4fKFDXHebdcG7-NjKHDEFJaqvkVYbiYUUVZa4B28zp445ipH0_NC5
+sprite $MemorystoreLg [20x20/16z] {
+PP195aGX20Cb4kZxdxY9_DdQMIyoZHihdY-1ufAOWbbuP-XpuL7GQSEG-N3nIrHm0bAOdVD7FLkkZGLNR7IEZtfL8rFrVb1GVsrDoN2DtGv3JDKhTyrYLRd8
+HFTefm6POOzPKAhhNJCRvGWywdbSkrqtO0W67_MOmjytnUEcEty
+}
+!procedure Memorystore($id, $name="Memorystore", $tech="")
+  IconElement($id, 'gcp/Item/StorageDatabases/Memorystore', $name, $tech)
+!endprocedure
+!procedure MemorystoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$MemorystoreMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+!procedure MemorystoreGroup($id, $name='Memorystore', $tech='')
+  IconGroup($id, 'IconGroup', '<$MemorystoreLg>', $name, $tech)
+!endprocedure
+@enduml

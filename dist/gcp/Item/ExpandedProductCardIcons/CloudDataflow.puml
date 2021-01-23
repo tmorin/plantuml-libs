@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudDataflowMd [14x14/16z] POw30SLG34NFCwBzf_rc6piNeBk8TrxKtDJREyiQeVaLhzYgEzOZ5wkKGZK1c1NMWZeJi1gqkwvpDjwJu--AdZvylt-HsGTPiGdJ2d05
+sprite $CloudDataflowLg [20x20/16z] {
+VL35WGGm28mY1uJ-kxsmP5tcWUkKm10TeLH29JehzTPHkMSW2zr4_PGTL75tgO-XAHwGUQiPR4PYGcOyidQeAvJ9iy2sSYGjhhkwXU15MOUH8-ERNQ8h9CrZ
+1r1WozRRbY1O0f1rU95_aFEWRycBj-pmOw-wdFl4TNpxu_5Vg3zvIVxipj-TPpey_mC
+}
+!procedure CloudDataflow($id, $name="Cloud Dataflow", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/CloudDataflow', $name, $tech)
+!endprocedure
+!procedure CloudDataflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudDataflowMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure CloudDataflowGroup($id, $name='Cloud Dataflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudDataflowLg>', $name, $tech)
+!endprocedure
+@enduml

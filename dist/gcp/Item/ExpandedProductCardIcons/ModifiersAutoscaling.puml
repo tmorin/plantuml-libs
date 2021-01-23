@@ -1,0 +1,16 @@
+@startuml
+sprite $ModifiersAutoscalingMd [14x14/16z] NSx50G0X34JH0P9SLgR_Qd7_juS6Lrvwle2pJ25wb2eNTWNQ9cZbtmMZ8jULQNX3LptSJpR-3Ftt7o-PrIT3a20EPma
+sprite $ModifiersAutoscalingLg [20x20/16z] {
+ZT3L0SH0549HUB5n-gzsZNM_-JiPn_yjQRkM5fCUEk6ccN6Eav8jS2tkREQBpIelncAyDo0RgUrgHdSpUFeITsRa_Nh6_BYUrwnAjebn20XMsHOvp3gMxjyA
+aRR3D-FlzW
+}
+!procedure ModifiersAutoscaling($id, $name="Modifiers Autoscaling", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersAutoscaling', $name, $tech)
+!endprocedure
+!procedure ModifiersAutoscalingCard($id, $funcName="", $content="")
+  IconCard($id, '<$ModifiersAutoscalingMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure ModifiersAutoscalingGroup($id, $name='Modifiers Autoscaling', $tech='')
+  IconGroup($id, 'IconGroup', '<$ModifiersAutoscalingLg>', $name, $tech)
+!endprocedure
+@enduml

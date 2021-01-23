@@ -1,0 +1,16 @@
+@startuml
+sprite $ApiMonetizationMd [14x14/16z] TOo50S0m408vujb_txhBkm0w3LtDVnjN954kb_L41f4WiMu-jx1Wl0noCyrUuhq5kjtNZOGIf-R5HW
+sprite $ApiMonetizationLg [20x20/16z] {
+ZO-50SGm24KV46p_WS-btiQ3VE72a7L8JGvY1r0AEkPrDWGlczV91fxCjPY1Xp32VXMpsBOF3GFxRbU0qObsGRMIFLwnIhHAg3AYbZ7znVeRQoFR0QmSoO38
+lpVv-9AvZ_cu0m
+}
+!procedure ApiMonetization($id, $name="Api Monetization", $tech="")
+  IconElement($id, 'gcp/Item/ApiPlatformEcosystems/ApiMonetization', $name, $tech)
+!endprocedure
+!procedure ApiMonetizationCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApiMonetizationMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+!procedure ApiMonetizationGroup($id, $name='Api Monetization', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApiMonetizationLg>', $name, $tech)
+!endprocedure
+@enduml

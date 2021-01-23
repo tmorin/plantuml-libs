@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudNaturalLanguageApiMd [14x14/16z] bSsr0G0120F0G6J_ZL-RTxaE3HuK9ImaWZ7NYivKDMg1dYetUl6dylxB8Q5ehvLDF1a1
+sprite $CloudNaturalLanguageApiLg [20x20/16z] fP035W1H24LpxN_3O-Fp7cKyw055X7U79mS1oSrrZ-daq5GN11TeTd59RCpk7fEDQ-paZ34jS2vsyhtZ-nQa-yqukH-_VMhGmmW
+!procedure CloudNaturalLanguageApi($id, $name="Cloud Natural Language Api", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/CloudNaturalLanguageApi', $name, $tech)
+!endprocedure
+!procedure CloudNaturalLanguageApiCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudNaturalLanguageApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure CloudNaturalLanguageApiGroup($id, $name='Cloud Natural Language Api', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudNaturalLanguageApiLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ModifiersStandardMachineMd [14x14/16z] ZSsr0S003CH0inty_QSDSnLrLua-YHx92bmjr5ksgeW2IWLT5T8I1eb3DXAWFvG-Ck2vwye-zuMcjgGcz6a6
+sprite $ModifiersStandardMachineLg [20x20/16z] fL030aKn39kTvVwd_NWsCzPjn7NOu4C77sohuWoDCinreTC15Vm_67N_np7_xebEHIM8eAOwGoEQ_6kTsV5xhVCaAYl8vWfxiwqvM7Dr7Ly
+!procedure ModifiersStandardMachine($id, $name="Modifiers Standard Machine", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersStandardMachine', $name, $tech)
+!endprocedure
+!procedure ModifiersStandardMachineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ModifiersStandardMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure ModifiersStandardMachineGroup($id, $name='Modifiers Standard Machine', $tech='')
+  IconGroup($id, 'IconGroup', '<$ModifiersStandardMachineLg>', $name, $tech)
+!endprocedure
+@enduml

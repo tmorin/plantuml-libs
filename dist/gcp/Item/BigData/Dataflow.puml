@@ -1,0 +1,16 @@
+@startuml
+sprite $DataflowMd [14x14/16z] NOs50KGX3CNoXEw_yUdtGDq0993PSA5bfrqZTfof3b-ofri4Cbf7XC1xz33MsHbvt_AyW9fPx2Im0a_U
+sprite $DataflowLg [20x20/16z] {
+XL074WGn218HSl__yFKripqzLY1E1z1d3ve83iVQM1f2h8sqrwPaqkMQ5f1ucuDsphn_KzWTDnqTbtUlVIvMFVBpjKwnD6R9XIqthIsWgS6LJMQW7bh5jR9d
+umK
+}
+!procedure Dataflow($id, $name="Dataflow", $tech="")
+  IconElement($id, 'gcp/Item/BigData/Dataflow', $name, $tech)
+!endprocedure
+!procedure DataflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$DataflowMd>', 'BigData', $funcName, $content)
+!endprocedure
+!procedure DataflowGroup($id, $name='Dataflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$DataflowLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ErrorReportingMd [14x14/16z] LKv50aHH2C80P-v_u5-lsIc91-uESpGu6KXwEwH4KF9ssFkqztG-Xm9yJZuNeGB_0jjLlxIgxSAwbhAdM4k1xGrd-tjIQzcE6m
+sprite $ErrorReportingLg [20x20/16z] {
+XT250GCX40J0yzl-AmukiTzN1eTQcBczwOY8S7rlPCzC8SjqNXGHGXeb3JifjUZ4IdDyQSYIbHnAvhLbIhDAGWOKNCP88qM2jn60Ya_6m6VVEkqzXmwClfPl
+Q_wojrzdS9_LjpFzbHS
+}
+!procedure ErrorReporting($id, $name="Error Reporting", $tech="")
+  IconElement($id, 'gcp/Item/ManagementTools/ErrorReporting', $name, $tech)
+!endprocedure
+!procedure ErrorReportingCard($id, $funcName="", $content="")
+  IconCard($id, '<$ErrorReportingMd>', 'ManagementTools', $funcName, $content)
+!endprocedure
+!procedure ErrorReportingGroup($id, $name='Error Reporting', $tech='')
+  IconGroup($id, 'IconGroup', '<$ErrorReportingLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $TextToSpeechMd [14x14/16z] ZOt50S0m30Db2xh_n6LyDPUO2ICeUAY4GCisbBQ9azXxL5nHT4QzXRr6wyV9LalGkstQFV6vzZr7_B
+sprite $TextToSpeechLg [20x20/16z] {
+hSz90a8X38FX9Wsazp-n59nrfzzxJFyAubzalITu6cVNUWqMpTxHSq7CqccD81dfuNItXpxhrZ2QXlEvQKjQfyV3RZDt8zXseqTntwKPj0gg6GkEeBCG-Fwo
+PtB6pou
+}
+!procedure TextToSpeech($id, $name="Text To Speech", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/TextToSpeech', $name, $tech)
+!endprocedure
+!procedure TextToSpeechCard($id, $funcName="", $content="")
+  IconCard($id, '<$TextToSpeechMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure TextToSpeechGroup($id, $name='Text To Speech', $tech='')
+  IconGroup($id, 'IconGroup', '<$TextToSpeechLg>', $name, $tech)
+!endprocedure
+@enduml

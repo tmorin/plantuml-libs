@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the VideoIntelligenceApi element
+include('gcp/Item/CloudAi/VideoIntelligenceApi')
+VideoIntelligenceApiGroup('video_intelligence_api', 'Video Intelligence Api', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

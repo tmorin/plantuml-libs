@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the ApigeeApiPlatform element
+include('gcp/Item/ApiPlatformEcosystems/ApigeeApiPlatform')
+ApigeeApiPlatform('apigee_api_platform', 'Apigee Api Platform', 'an optional tech field')
+@enduml

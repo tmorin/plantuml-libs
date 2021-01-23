@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the ApiAnalytics element
+include('gcp/Item/ApiPlatformEcosystems/ApiAnalytics')
+ApiAnalyticsGroup('api_analytics', 'Api Analytics', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

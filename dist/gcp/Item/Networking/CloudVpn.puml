@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudVpnMd [14x14/16z] XKs30G113Akn_y1l7cicS0iomojiXcydcVJPkUFtb8x8suokZYACX8JrwdJlIClB0gLWcBDViW8
+sprite $CloudVpnLg [20x20/16z] XP050i0W24Lfl_S_y3hDjraqq0zcfW8MaL9eGBP2faYePQXaOk529Svr0PTCKuGIYHi_Cij0g0Nfllza_ifgtugUR5wppcPGpwgUQSqA
+!procedure CloudVpn($id, $name="Cloud Vpn", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudVpn', $name, $tech)
+!endprocedure
+!procedure CloudVpnCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudVpnMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudVpnGroup($id, $name='Cloud Vpn', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudVpnLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 9 packages.
+The library provides 10 packages.
 
 
 - [aws-20200430](aws-20200430/README.md)
@@ -11,6 +11,7 @@ The library provides 9 packages.
 - [c4model](c4model/README.md)
 - [eventstorming](eventstorming/README.md)
 - [fontawesome-5.15](fontawesome-5.15/README.md)
+- [gcp](gcp/README.md)
 - [homecloud](homecloud/README.md)
 - [material-4.0](material-4.0/README.md)
 - [simpleicons-4](simpleicons-4/README.md)

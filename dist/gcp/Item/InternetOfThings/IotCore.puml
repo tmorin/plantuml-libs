@@ -1,0 +1,16 @@
+@startuml
+sprite $IotCoreMd [14x14/16z] ROe50WD120CZSFB_3pTBlRrPWGW62M_KcvyxVOJYx7lMxdmxeJwxJ_liEdefrp8gncfcdNiGmPASYy62X8TY6HHSV2ZQgAYHf8iKdjYuu0O
+sprite $IotCoreLg [20x20/16z] {
+VOk74SGm40BXWaxzL_oOpydh86P1k4FYYuXFcMllgVVHDazPCwELlzksjo6tQIdEdfGFtL-fCUqMIhs-mb89w9XGBBc9O-3Bhsu29Z8YqZyRKouS7ZHXntxE
+gdWuAbYuhK0cejXyxbGq7UvGFg8TNeZgn2SHEEC2
+}
+!procedure IotCore($id, $name="Iot Core", $tech="")
+  IconElement($id, 'gcp/Item/InternetOfThings/IotCore', $name, $tech)
+!endprocedure
+!procedure IotCoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$IotCoreMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure IotCoreGroup($id, $name='Iot Core', $tech='')
+  IconGroup($id, 'IconGroup', '<$IotCoreLg>', $name, $tech)
+!endprocedure
+@enduml

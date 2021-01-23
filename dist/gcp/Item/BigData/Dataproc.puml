@@ -1,0 +1,13 @@
+@startuml
+sprite $DataprocMd [14x14/16z] VOt70SC04C90iF_AYNktzRaAw05REo7x27BsAOPTrTRxXBi97IIQfM_a9Xa7AsKKOXcK8F0a9Imn-kGF
+sprite $DataprocLg [20x20/16z] fOvL0i9G40DVPWBtlp5IRx-GTT-CBmcubbGlnPX9ZuGlSncav3gNrkizv7RlfSO8bVFSP6ksWftsx3gAmMQa1UR9jxNGJX5hhTMaMmr1CqLEmHooGYBZFte2
+!procedure Dataproc($id, $name="Dataproc", $tech="")
+  IconElement($id, 'gcp/Item/BigData/Dataproc', $name, $tech)
+!endprocedure
+!procedure DataprocCard($id, $funcName="", $content="")
+  IconCard($id, '<$DataprocMd>', 'BigData', $funcName, $content)
+!endprocedure
+!procedure DataprocGroup($id, $name='Dataproc', $tech='')
+  IconGroup($id, 'IconGroup', '<$DataprocLg>', $name, $tech)
+!endprocedure
+@enduml

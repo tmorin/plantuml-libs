@@ -1,0 +1,16 @@
+@startuml
+sprite $AutoMlMd [14x14/16z] ROo54KGn4483OMVfl-6JBt56iLSsWIXuJRKJqkFIDclShUmKnFkKpZl-UOQjpfBpCVnFijuxyfvJ-1lScz1jRYc0UtUtvQWl
+sprite $AutoMlLg [20x20/16z] {
+bOv74iC03091FVz_SEB2HBvwZwi2U0CZWZ0ZblpCf-6LAsswUmAH_dSr1qtBtOlJbCF38DZJ4xZXlPc7AYbbSmvSYd8rZxK37FWqTqszEnzAqKvOk1GXc6am
+AU4Pl1smU-KRiDy1adZ53m
+}
+!procedure AutoMl($id, $name="Auto Ml", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/AutoMl', $name, $tech)
+!endprocedure
+!procedure AutoMlCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutoMlMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure AutoMlGroup($id, $name='Auto Ml', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutoMlLg>', $name, $tech)
+!endprocedure
+@enduml

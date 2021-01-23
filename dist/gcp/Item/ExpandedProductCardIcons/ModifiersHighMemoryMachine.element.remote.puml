@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the ModifiersHighMemoryMachine element
+include('gcp/Item/ExpandedProductCardIcons/ModifiersHighMemoryMachine')
+ModifiersHighMemoryMachine('modifiers_high_memory_machine', 'Modifiers High Memory Machine', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudRouterMd [14x14/16z] PKw30G1134lT_HT-d8qgG5b4M9R8ccJAcinKm9cCcl8NHPGFucMgJCUHWVuHzt-IBXRyIPcUgHpExlK2
+sprite $CloudRouterLg [20x20/16z] bP350S0m30D3flqNxfMPz4hEhFHNglc8nFq0ixhP0JO8L3Oa3xMGt6Pc56c4qiAcLcBEjvHCiebcta4d80AvHxbYbxN76K-xGDNegf2DbjkE7bnubVwg0m
+!procedure CloudRouter($id, $name="Cloud Router", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudRouter', $name, $tech)
+!endprocedure
+!procedure CloudRouterCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudRouterMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudRouterGroup($id, $name='Cloud Router', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudRouterLg>', $name, $tech)
+!endprocedure
+@enduml

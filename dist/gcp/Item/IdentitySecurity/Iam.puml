@@ -1,0 +1,16 @@
+@startuml
+sprite $IamMd [14x14/16z] PSm50i0m20D090Js_mVNvbkgLq5MrFPr1-AYWLb5B219n_HK38pv44YyHB1E9LrjtCMK9zRtRI_ANQLBnh5wGVOu4GjxD6ZoJmS
+sprite $IamLg [20x20/16z] {
+VP050WGn20EXD2Jt_mUlLC-psi6n9RSFUNadfQOodbq3oPIKA9FaBL2KYCx02yNrrILwPxVNNOLt-3-sOXUhiqPZrXal4XxWPj7JzOJep9DrT2M5TM6n1zVu
+EpRs1WY_t-h-gqnW55ZojglFdRhzqGa
+}
+!procedure Iam($id, $name="Iam", $tech="")
+  IconElement($id, 'gcp/Item/IdentitySecurity/Iam', $name, $tech)
+!endprocedure
+!procedure IamCard($id, $funcName="", $content="")
+  IconCard($id, '<$IamMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+!procedure IamGroup($id, $name='Iam', $tech='')
+  IconGroup($id, 'IconGroup', '<$IamLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudEndpointsMd [14x14/16z] bKq50G0m389v_yBt1vWxe2FaZYQtqvEzU1gzmunzfw2f6iK8q8ciIaBtQIIuv7smV2TvxsgVfo4J
+sprite $CloudEndpointsLg [20x20/16z] lOw50S0m40BXVV-5stWsoCNb0Jo2gcELBCL2bHXOvTg92XPHVYjb05PmLzAqOOIgp585inh9RSSeGiCzzDfv1IRNhXNQ3RhG5MjLFk47
+!procedure CloudEndpoints($id, $name="Cloud Endpoints", $tech="")
+  IconElement($id, 'gcp/Item/ApiPlatformEcosystems/CloudEndpoints', $name, $tech)
+!endprocedure
+!procedure CloudEndpointsCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudEndpointsMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+!procedure CloudEndpointsGroup($id, $name='Cloud Endpoints', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudEndpointsLg>', $name, $tech)
+!endprocedure
+@enduml

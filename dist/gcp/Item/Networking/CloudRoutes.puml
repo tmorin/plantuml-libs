@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudRoutesMd [14x14/16z] TOo50GH12CI23jj_mUzw4bmvmNuytWRHqq3r3STBKwIgxXMOLdZXzJhKE5zYPBomybnDoC2pbTH8eyVF0kkv4J_7ChwOiUKA
+sprite $CloudRoutesLg [20x20/16z] {
+dP05UWKX38Gpm4ZlV-5-M5tVlul5ate4z2za6kjebjgyTP8ICMLFYL7L94iobvqJ5IIHEZw0ab7qcBQe3Ppq6bKOg4jBtEe3O-RvM2eJLO4u4j2zb73MiDEA
+4giviHttqmTd6vaumhBRKOQaBNe7p9zdzJlF
+}
+!procedure CloudRoutes($id, $name="Cloud Routes", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudRoutes', $name, $tech)
+!endprocedure
+!procedure CloudRoutesCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudRoutesMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudRoutesGroup($id, $name='Cloud Routes', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudRoutesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudeTpuMd [14x14/16z] POs50S10308XSh__n7LlN44_yMe-ErnbpkQGxGoofKZmrXQP8xP6XL8zYZgwxaXH-sMIQhCtv9eA_6RuiyloOlh93
+sprite $CloudeTpuLg [20x20/16z] {
+bP07TWDH20Fr4PebzpzmofRqnFOyNg63z11UihMiJum5ygoFgi1fracsG1A0isg8g7rgcBro6NhY2We-HmPrLyzKq4v1v59lDE1ztXvBgaevOr8Ydgos4kdQ
+uUubiwuT7gWZsp1zxSq1M_xuxGyD_jBgDYy
+}
+!procedure CloudeTpu($id, $name="Cloude Tpu", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/CloudeTpu', $name, $tech)
+!endprocedure
+!procedure CloudeTpuCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudeTpuMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure CloudeTpuGroup($id, $name='Cloude Tpu', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudeTpuLg>', $name, $tech)
+!endprocedure
+@enduml

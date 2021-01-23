@@ -1,0 +1,16 @@
+@startuml
+sprite $DataprepMd [14x14/16z] RSt50O0030F0QXBs7nXtk5UzjWgtctfaI3_oA6-fzypJcwZdv3hh5POG9SKojsMauZcvYFHMsUt3q8_lTjDkFoO
+sprite $DataprepLg [20x20/16z] {
+TP350S1G348Ju9Tq_u7hBkyO1M8dumtUfIo-QyQzG6NQdLkS24nNLNURGtgYFU_nAeUOrzqqqx2Ko0pAjT1hhUbIgwKMoBcpxGgdsJGpugs5STSCLzrgK9vp
+FncSMVra-iy8
+}
+!procedure Dataprep($id, $name="Dataprep", $tech="")
+  IconElement($id, 'gcp/Item/BigData/Dataprep', $name, $tech)
+!endprocedure
+!procedure DataprepCard($id, $funcName="", $content="")
+  IconCard($id, '<$DataprepMd>', 'BigData', $funcName, $content)
+!endprocedure
+!procedure DataprepGroup($id, $name='Dataprep', $tech='')
+  IconGroup($id, 'IconGroup', '<$DataprepLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -35,6 +35,7 @@ The available packages:
 - [c4model](dist/c4model/README.md)
 - [eventstorming](dist/eventstorming/README.md)
 - [fontawesome-5.15](dist/fontawesome-5.15/README.md)
+- [gcp](dist/gcp/README.md)
 - [homecloud](dist/homecloud/README.md)
 - [material-4.0](dist/material-4.0/README.md)
 - [simpleicons-4](dist/simpleicons-4/README.md)

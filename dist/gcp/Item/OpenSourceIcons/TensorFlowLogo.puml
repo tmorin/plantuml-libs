@@ -1,0 +1,16 @@
+@startuml
+sprite $TensorFlowLogoMd [14x15/16z] JOe70e0W30ERxl-_s5Hbd09Pyc4g6pNoUvYR1psMpYwd8DH9stE59mcnegs9YaxW9WZJgd23_B1tzz-WkcVxKoJjk0miWt6ogRuTmd_r
+sprite $TensorFlowLogoLg [20x21/16z] {
+XT25WGKW30DGAacx_yJNm7qtd8UpBi4ZmzLua9XiLp59Ab_KJXTLMtt8Zn3LpQqMHqYmkmlJBWnjeKUDagnMTwVPA6MXwHewjeom5LNCw2PmTxdm9OkdTqJl
+sGbxCEqBFbkJ3oOemjUZWNc3g_bFyp4-cLw39zA_tdN-
+}
+!procedure TensorFlowLogo($id, $name="Tensor Flow Logo", $tech="")
+  IconElement($id, 'gcp/Item/OpenSourceIcons/TensorFlowLogo', $name, $tech)
+!endprocedure
+!procedure TensorFlowLogoCard($id, $funcName="", $content="")
+  IconCard($id, '<$TensorFlowLogoMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+!procedure TensorFlowLogoGroup($id, $name='Tensor Flow Logo', $tech='')
+  IconGroup($id, 'IconGroup', '<$TensorFlowLogoLg>', $name, $tech)
+!endprocedure
+@enduml

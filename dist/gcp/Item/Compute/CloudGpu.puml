@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudGpuMd [14x14/16z] NOxL0KC1308lIlPVk7rkznK500lS2MF3cqpQzwucfPm2p6iajJJbH8yC3DCqa898K8AdXAaDAVUE4bjtNFf-UQYmgwmElHhqwl1m_oJxyWS
+sprite $CloudGpuLg [20x20/16z] {
+TP255OK030FJLFTV62TyFVmULUoOwH96WFjb43N433WbPTNXtHvT9ZNYaCQgwRpegUBcfYUFtxShfuS068TZ7Yw87JzSdyu1nMvHQMUi7BSmdEw9JSK-DS9K
+u-a5wkNiEV8WZfu_PslxiuD_kmAfwnyh
+}
+!procedure CloudGpu($id, $name="Cloud Gpu", $tech="")
+  IconElement($id, 'gcp/Item/Compute/CloudGpu', $name, $tech)
+!endprocedure
+!procedure CloudGpuCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudGpuMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure CloudGpuGroup($id, $name='Cloud Gpu', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudGpuLg>', $name, $tech)
+!endprocedure
+@enduml

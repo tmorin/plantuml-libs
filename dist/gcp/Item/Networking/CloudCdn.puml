@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudCdnMd [14x14/16z] TOst0GD140A71UxKVyKAtq-q1WDFDEV5FQs3oeTdPi88a66yDbWmIqn_6wq1fhWD6TuObAzsDF3a3m
+sprite $CloudCdnLg [20x20/16z] bL050a9H25iGtl_2jlwklQHXk0h5KkMQAscmF7FZo_KelK29x-UVdb3OdQ3rLq5stH8_PPHUkkYtxjjHjA3ibv_wgN_31kC9mqVjSALd3RFDE3ZawXWF
+!procedure CloudCdn($id, $name="Cloud Cdn", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudCdn', $name, $tech)
+!endprocedure
+!procedure CloudCdnCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudCdnMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudCdnGroup($id, $name='Cloud Cdn', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudCdnLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the GroupInfrastructureSystem element
+include('gcp/Group/GroupInfrastructureSystem')
+GroupInfrastructureSystem('group_infrastructure_system', 'Group Infrastructure System', 'an optional tech field')
+@enduml

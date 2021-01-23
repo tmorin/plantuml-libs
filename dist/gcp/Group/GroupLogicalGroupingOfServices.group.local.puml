@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the GroupLogicalGroupingOfServices element
+include('gcp/Group/GroupLogicalGroupingOfServices')
+GroupLogicalGroupingOfServices('group_logical_grouping_of_services', 'Group Logical Grouping Of Services', 'an optional tech field')
+@enduml

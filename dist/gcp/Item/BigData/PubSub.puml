@@ -1,0 +1,16 @@
+@startuml
+sprite $PubSubMd [14x14/16z] ROo50S0m20JVOF-DwzuShjWWyK1wLlQuwW8Ie7gjultEmGxjnrFPEagfjT0M02RSjxTuxb0ugCA310Dc
+sprite $PubSubLg [20x20/16z] {
+bL150a9H41AOkF-DzRNwcyLqyde8IFYFKU957LMaUv6z694QCMNKQdYmL5SHZbQ88aWCUq0VRDV-BWPCb6WEp19BbabCxyKiNMi2cx6-uaeNGNPpWH5R3Y9-
+QjOtntW3
+}
+!procedure PubSub($id, $name="Pub Sub", $tech="")
+  IconElement($id, 'gcp/Item/BigData/PubSub', $name, $tech)
+!endprocedure
+!procedure PubSubCard($id, $funcName="", $content="")
+  IconCard($id, '<$PubSubMd>', 'BigData', $funcName, $content)
+!endprocedure
+!procedure PubSubGroup($id, $name='Pub Sub', $tech='')
+  IconGroup($id, 'IconGroup', '<$PubSubLg>', $name, $tech)
+!endprocedure
+@enduml

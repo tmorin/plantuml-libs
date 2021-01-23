@@ -1,0 +1,16 @@
+@startuml
+sprite $CloudBigtableMd [14x14/16z] ROxL0KKn5C8QeFkF_8Jhag-Zm2YCCz9H8npMnX78QsEAMUza2_TN9fbJQnV9CLj7Ez4_W_kxgWgKDcs3U4zsy0K
+sprite $CloudBigtableLg [20x20/16z] {
+ZP2r0KHH40BV36p_BLzqzfrm1LjNu63MRgUwClcTq2fClwECi1JbSuG2g1zI518NpkSGsgJZTpPeEvFVcIPfAhypapRGpImn7zag6eL-3XLTuFo4xe1sM3zm
+kdJVrSDIltW1
+}
+!procedure CloudBigtable($id, $name="Cloud Bigtable", $tech="")
+  IconElement($id, 'gcp/Item/StorageDatabases/CloudBigtable', $name, $tech)
+!endprocedure
+!procedure CloudBigtableCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudBigtableMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+!procedure CloudBigtableGroup($id, $name='Cloud Bigtable', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudBigtableLg>', $name, $tech)
+!endprocedure
+@enduml

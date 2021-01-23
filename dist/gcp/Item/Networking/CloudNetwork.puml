@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudNetworkMd [14x14/16z] TSst0S004C904Fp-8pirpkgkaZwohqgkOgvCUo5e3XA0a0QPT6-Q8CdfSJ0wQc-73FztMn-j
+sprite $CloudNetworkLg [20x20/16z] bP3L0G012491qFqtlkw-zsCd_X9nSb7YXKyuuYoVV6OTCpCHYvFZH19WAOWE7PW6gYQiSQMGCi0UK1fN9rs4DEhh8WNxlF7P1rtVowjV_QK5
+!procedure CloudNetwork($id, $name="Cloud Network", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudNetwork', $name, $tech)
+!endprocedure
+!procedure CloudNetworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudNetworkMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudNetworkGroup($id, $name='Cloud Network', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudNetworkLg>', $name, $tech)
+!endprocedure
+@enduml

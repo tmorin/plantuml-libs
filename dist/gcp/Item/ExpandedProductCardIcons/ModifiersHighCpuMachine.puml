@@ -1,0 +1,16 @@
+@startuml
+sprite $ModifiersHighCpuMachineMd [14x14/16z] XKx50G0X33je4Xpsd_RSVjIzMQO4_18RuqkjZz7jJZXEujqIIUdAA3EPymxdKc9fBIRaFJjCgLbNvbiDcRjhyTZRDzpf9WWt
+sprite $ModifiersHighCpuMachineLg [20x20/16z] {
+hSl55G0n20JGA18P-gzstVUQYV8Vk159wKz0-f4PqezM_D07irt9f_bmnH-qVTVZrtrDAXaiStUbRYOz9YV8JQavFQojrzPt6rWY8mR7eBvRgDs4olP3Isvy
+PW
+}
+!procedure ModifiersHighCpuMachine($id, $name="Modifiers High Cpu Machine", $tech="")
+  IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersHighCpuMachine', $name, $tech)
+!endprocedure
+!procedure ModifiersHighCpuMachineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ModifiersHighCpuMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+!procedure ModifiersHighCpuMachineGroup($id, $name='Modifiers High Cpu Machine', $tech='')
+  IconGroup($id, 'IconGroup', '<$ModifiersHighCpuMachineLg>', $name, $tech)
+!endprocedure
+@enduml

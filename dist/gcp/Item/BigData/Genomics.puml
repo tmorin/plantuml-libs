@@ -1,0 +1,13 @@
+@startuml
+sprite $GenomicsMd [14x14/16z] POs50S0m3CDcoyd_7u-vQiCq_T3B4LszKSA_sWg1o3vo3d141z9XXyWM4DzH88pNZSxppN3zpG8
+sprite $GenomicsLg [20x20/16z] ZSk74SH03090G6ZSVyMVt_RbsmcAO9l4qtjwx_Au20xs_eQOVWieUEq-J9dNOzDyCAvSivjaQS7vmIidXD-kNKi2U98-GKF79Jj_nBOd
+!procedure Genomics($id, $name="Genomics", $tech="")
+  IconElement($id, 'gcp/Item/BigData/Genomics', $name, $tech)
+!endprocedure
+!procedure GenomicsCard($id, $funcName="", $content="")
+  IconCard($id, '<$GenomicsMd>', 'BigData', $funcName, $content)
+!endprocedure
+!procedure GenomicsGroup($id, $name='Genomics', $tech='')
+  IconGroup($id, 'IconGroup', '<$GenomicsLg>', $name, $tech)
+!endprocedure
+@enduml

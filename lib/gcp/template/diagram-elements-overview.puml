@@ -1,0 +1,43 @@
+@startuml
+' https://docs.google.com/presentation/d/1vjm5YdmOH5LrubFhHf1vlqW2O9Z2UqdWA8biN3e8K5U/edit#slide=id.g19bd855f64_0_292
+
+!global $INCLUSION_MODE='local'
+!global $LIB_BASE_LOCATION='{{= it.relativeRepoLibDir }}'
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+left to right direction
+
+include('material-4.0/bootstrap')
+include('material-4.0/Hardware/Laptop')
+include('material-4.0/Hardware/PhoneAndroid')
+include('material-4.0/Device/Storage')
+
+include('gcp/bootstrap')
+include('gcp/Item/Networking/CloudDns')
+include('gcp/Item/Networking/CloudLoadBalancing')
+include('gcp/Item/Compute/ComputeEngine')
+include('gcp/Group/GroupProjectZone')
+include('gcp/Group/GroupInstances')
+
+Laptop('laptop', '')
+PhoneAndroid('phone', '')
+CloudDns('dns')
+GroupProjectZone('project') {
+  CloudLoadBalancing('lb')
+  GroupInstances('grp_instances', 'Instance Group') {
+    ComputeEngineCard('instances','Serving Instances', 'Multiple Instances')
+  }
+  GroupInstances('grp_heartbeat', 'Instance Group') {
+    ComputeEngineCard('heartbeat', 'Heartbeat and Snapshot System', 'Multiple Instances')
+  }
+  Storage('storage', 'Persistent Disk Snapshot')
+}
+
+laptop --> dns
+phone --> dns
+dns --> lb
+lb --> instances
+heartbeat <-> instances
+instances --> storage
+
+@enduml

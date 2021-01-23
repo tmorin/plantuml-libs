@@ -1,0 +1,16 @@
+@startuml
+sprite $DialogflowMd [14x14/16z] RSU74KCn508mEFm0xpzmUi_NLU66n0S9JvHZY_TCV17pDig9nTl6X0HwRjiTShhlQtgHthPsR_R2bNBR9JTqQ-B95Tv473a3
+sprite $DialogflowLg [20x20/16z] {
+bSs30SKm543HP-m_S1r_tleqW4yXBi9cF2ghdKbJjbfLwUmXFBJACqwD0EuzoFInZ4CH0TMpM1mPeVdnh5RpPhuOHnV37LaTHr1ZlqIWJmuoXD7I6QRO4Fvk
+1m
+}
+!procedure Dialogflow($id, $name="Dialogflow", $tech="")
+  IconElement($id, 'gcp/Item/CloudAi/Dialogflow', $name, $tech)
+!endprocedure
+!procedure DialogflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$DialogflowMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
+  IconGroup($id, 'IconGroup', '<$DialogflowLg>', $name, $tech)
+!endprocedure
+@enduml

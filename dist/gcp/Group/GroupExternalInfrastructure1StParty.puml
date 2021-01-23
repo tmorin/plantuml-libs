@@ -1,0 +1,16 @@
+@startuml
+!procedure GroupExternalInfrastructure1StParty($id, $name='Group External Infrastructure1 St Party', $tech='')
+  IconGroup($id, 'GroupExternalInfrastructure1StParty', '<$Lg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupExternalInfrastructure1StParty>> {
+  StereotypeFontColor $GCP_FRONT
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_FRONT
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #E1F5FE
+  shadowing false
+}
+@enduml

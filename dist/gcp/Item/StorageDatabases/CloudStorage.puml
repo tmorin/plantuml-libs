@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudStorageMd [14x14/16z] VSr50W8120LG-ENzJwnEzxmLJRre4ZEg67C4-5EmqDr4jJts9F7FgUgTGuR3vF5A3XzIE7n_ymC
+sprite $CloudStorageLg [20x20/16z] fSw35GG134NHzuD5_mMFRTp3EBoXj2d_2DalV2B_1lODRplSaCVFK9qJbJf7bLFRrpEhS_Dz4SqiY1cn9fQpuo_ZZUDVnf_7NyRfzXUbsuIdUAC4
+!procedure CloudStorage($id, $name="Cloud Storage", $tech="")
+  IconElement($id, 'gcp/Item/StorageDatabases/CloudStorage', $name, $tech)
+!endprocedure
+!procedure CloudStorageCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudStorageMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+!procedure CloudStorageGroup($id, $name='Cloud Storage', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudStorageLg>', $name, $tech)
+!endprocedure
+@enduml

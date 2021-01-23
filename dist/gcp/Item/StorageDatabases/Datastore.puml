@@ -1,0 +1,13 @@
+@startuml
+sprite $DatastoreMd [14x14/16z] XKt75SCm50f5-wySm4zN-_SAlqy1uWsKP5krTKrIogHpR4BrxO0v-NH368f9qJQ7qkFi7LTsYKLY_39VzXVv0m
+sprite $DatastoreLg [20x20/16z] hKt50KDH28l1_YENHxsz_XmYA2w794ira7kO06t7CJ2gONtMv73uKVDlhRhRhgIKPKoH50yJ3txh1tJ-Up-9VlmsmAsL_sjvrxArPEU6fyRpt-o1T9Yu6ZS
+!procedure Datastore($id, $name="Datastore", $tech="")
+  IconElement($id, 'gcp/Item/StorageDatabases/Datastore', $name, $tech)
+!endprocedure
+!procedure DatastoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatastoreMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+!procedure DatastoreGroup($id, $name='Datastore', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatastoreLg>', $name, $tech)
+!endprocedure
+@enduml

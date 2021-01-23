@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the gcp bootstrap
+include('gcp/bootstrap')
+' loads the KubernetesName element
+include('gcp/Item/OpenSourceIcons/KubernetesName')
+KubernetesName('kubernetes_name', 'Kubernetes Name', 'an optional tech field')
+@enduml

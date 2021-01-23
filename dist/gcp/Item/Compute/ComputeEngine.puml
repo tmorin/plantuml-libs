@@ -1,0 +1,16 @@
+@startuml
+sprite $ComputeEngineMd [14x14/16z] NOxL0K0n20Cl1Db_ugTyzIguy118pxSKDiNIobIluGM8Qgzp6f1HXB64d2RSZIlNglajq6lLdtbsmGi_eohDkSl93G
+sprite $ComputeEngineLg [20x20/16z] {
+TO-50SD024M_dIJx3roYzNUA0tPOc_lpH0Hh2tWoZTxXIJmPXsuyDNAiP7zmOgkszWS4g3cYEoBBwbAw0CNQi1EUiL3i7jYxWht5eDrcwJA6GFQUUfn-wARk
+s3xwVCQwE6x2TlYx5_3esTet-NysS0d6W1VYgLk3EP6LU6920es_F
+}
+!procedure ComputeEngine($id, $name="Compute Engine", $tech="")
+  IconElement($id, 'gcp/Item/Compute/ComputeEngine', $name, $tech)
+!endprocedure
+!procedure ComputeEngineCard($id, $funcName="", $content="")
+  IconCard($id, '<$ComputeEngineMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ComputeEngineGroup($id, $name='Compute Engine', $tech='')
+  IconGroup($id, 'IconGroup', '<$ComputeEngineLg>', $name, $tech)
+!endprocedure
+@enduml

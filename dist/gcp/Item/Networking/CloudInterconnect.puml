@@ -1,0 +1,13 @@
+@startuml
+sprite $CloudInterconnectMd [14x14/16z] ROw50S0m20JHP_-9sxXV11UwuK8p19dO4b25gZfiMeRmOebviOpWTbWpy-uomNkwjCqEVW
+sprite $CloudInterconnectLg [20x20/16z] bP350S0030AZaFqNhhltdb50Vg4-OMlDYYEG4vbFDUz8WYvOQjRNqDVojgP6nbe3QCSQMVP-xw05gvOL5NtnSSZWAQjtMW
+!procedure CloudInterconnect($id, $name="Cloud Interconnect", $tech="")
+  IconElement($id, 'gcp/Item/Networking/CloudInterconnect', $name, $tech)
+!endprocedure
+!procedure CloudInterconnectCard($id, $funcName="", $content="")
+  IconCard($id, '<$CloudInterconnectMd>', 'Networking', $funcName, $content)
+!endprocedure
+!procedure CloudInterconnectGroup($id, $name='Cloud Interconnect', $tech='')
+  IconGroup($id, 'IconGroup', '<$CloudInterconnectLg>', $name, $tech)
+!endprocedure
+@enduml
