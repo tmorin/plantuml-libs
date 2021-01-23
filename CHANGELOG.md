@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/tmorin/plantuml-libs/compare/v2.5.0...v2.6.0) (2021-01-23)
+
+
+### Features
+
+* **gcp:** add the package ([d986bfa](https://github.com/tmorin/plantuml-libs/commit/d986bfa340b7109f3554533a5bee4df69f82e872))
+
 ## [2.5.0](https://github.com/tmorin/plantuml-libs/compare/v2.4.0...v2.5.0) (2021-01-23)
 
 
