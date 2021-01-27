@@ -1,0 +1,19 @@
+@startuml
+sprite $CorsairMd [14x14/16z] {
+JOw5OGGm24KXYfM__xQ5ynV1XPwm3VeXxblZyWlaRVe-Ex0xi9Wr9EU93fYfpWNioJJskGU-4bt81tUNLXQKQ9PQ2fhRbY4TQ6WZ_qfcU22NbUQt-X6juuZp
+NV4i-k4V
+}
+sprite $CorsairLg [20x20/16z] {
+PSu55WGW24NHRokWR_-xdJDTrqxGsnpwivR-L3pfBULh5qJ-s5jTFHcutYPjHXc7gQlSab8X2hl8TzALH_7HPjxGDQkkEcEoaXnOIjU8g_NMO5S3C5qPbYem
+3E2UuuJTWEdml3bWTs0UxkPzRmABXoDDE0O4JvB3ES096xqFnrCv064zwQxNDY1cJVfmi9RqhMJzkG
+}
+!procedure Corsair($id, $name="Corsair", $tech="")
+  IconElement($id, 'simpleicons-4/C/Corsair', $name, $tech)
+!endprocedure
+!procedure CorsairCard($id, $funcName="", $content="")
+  IconCard($id, '<$CorsairMd>', '', $funcName, $content)
+!endprocedure
+!procedure CorsairGroup($id, $name='Corsair', $tech='')
+  IconGroup($id, 'IconGroup', '<$CorsairLg>', $name, $tech)
+!endprocedure
+@enduml

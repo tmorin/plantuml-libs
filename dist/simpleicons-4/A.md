@@ -1,6 +1,6 @@
 # A
 
-The module A contains 160 entries.
+The module A contains 163 entries.
 
 
 
@@ -19,6 +19,7 @@ The module A contains 160 entries.
 |![Abstract](../simpleicons-4/A/Abstract.element.png)|[simpleicons-4/A/Abstract](../simpleicons-4/A/Abstract.md)
 |![Academia](../simpleicons-4/A/Academia.element.png)|[simpleicons-4/A/Academia](../simpleicons-4/A/Academia.md)
 |![Accenture](../simpleicons-4/A/Accenture.element.png)|[simpleicons-4/A/Accenture](../simpleicons-4/A/Accenture.md)
+|![Acclaim](../simpleicons-4/A/Acclaim.element.png)|[simpleicons-4/A/Acclaim](../simpleicons-4/A/Acclaim.md)
 |![Accusoft](../simpleicons-4/A/Accusoft.element.png)|[simpleicons-4/A/Accusoft](../simpleicons-4/A/Accusoft.md)
 |![Acer](../simpleicons-4/A/Acer.element.png)|[simpleicons-4/A/Acer](../simpleicons-4/A/Acer.md)
 |![Acm](../simpleicons-4/A/Acm.element.png)|[simpleicons-4/A/Acm](../simpleicons-4/A/Acm.md)
@@ -65,6 +66,7 @@ The module A contains 160 entries.
 |![Algolia](../simpleicons-4/A/Algolia.element.png)|[simpleicons-4/A/Algolia](../simpleicons-4/A/Algolia.md)
 |![Aliexpress](../simpleicons-4/A/Aliexpress.element.png)|[simpleicons-4/A/Aliexpress](../simpleicons-4/A/Aliexpress.md)
 |![Alipay](../simpleicons-4/A/Alipay.element.png)|[simpleicons-4/A/Alipay](../simpleicons-4/A/Alipay.md)
+|![Alitalia](../simpleicons-4/A/Alitalia.element.png)|[simpleicons-4/A/Alitalia](../simpleicons-4/A/Alitalia.md)
 |![Alliedmodders](../simpleicons-4/A/Alliedmodders.element.png)|[simpleicons-4/A/Alliedmodders](../simpleicons-4/A/Alliedmodders.md)
 |![Allocine](../simpleicons-4/A/Allocine.element.png)|[simpleicons-4/A/Allocine](../simpleicons-4/A/Allocine.md)
 |![Alpinelinux](../simpleicons-4/A/Alpinelinux.element.png)|[simpleicons-4/A/Alpinelinux](../simpleicons-4/A/Alpinelinux.md)
@@ -72,6 +74,7 @@ The module A contains 160 entries.
 |![Amazon](../simpleicons-4/A/Amazon.element.png)|[simpleicons-4/A/Amazon](../simpleicons-4/A/Amazon.md)
 |![Amazonalexa](../simpleicons-4/A/Amazonalexa.element.png)|[simpleicons-4/A/Amazonalexa](../simpleicons-4/A/Amazonalexa.md)
 |![Amazonaws](../simpleicons-4/A/Amazonaws.element.png)|[simpleicons-4/A/Amazonaws](../simpleicons-4/A/Amazonaws.md)
+|![Amazondynamodb](../simpleicons-4/A/Amazondynamodb.element.png)|[simpleicons-4/A/Amazondynamodb](../simpleicons-4/A/Amazondynamodb.md)
 |![Amazonfiretv](../simpleicons-4/A/Amazonfiretv.element.png)|[simpleicons-4/A/Amazonfiretv](../simpleicons-4/A/Amazonfiretv.md)
 |![Amazonlumberyard](../simpleicons-4/A/Amazonlumberyard.element.png)|[simpleicons-4/A/Amazonlumberyard](../simpleicons-4/A/Amazonlumberyard.md)
 |![Amazonprime](../simpleicons-4/A/Amazonprime.element.png)|[simpleicons-4/A/Amazonprime](../simpleicons-4/A/Amazonprime.md)

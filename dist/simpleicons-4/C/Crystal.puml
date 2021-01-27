@@ -1,0 +1,16 @@
+@startuml
+sprite $CrystalMd [14x14/16z] JSg53K0X34NHXrFVVzhlmaLFKW3P8fnxmLMFCvtrnrb57iTZvAScnBXdf7iODItJsVWKtUeUTCXk4SV177VUzU1uDCgChmxK5GUd_ZXBZVp23W
+sprite $CrystalLg [20x20/16z] {
+PS-54GCX04JHnPtjlziSJeO_oiFHaeLaJKu9x7JbLmwcuQ5HJLvkElcNc02bsvOIZIXpkqBvnawrkpapi6PUPPS5U8THN9P5kwXNk99rtSwTJNcWFvPiOCTq
+h2Z3Xh8SCqAD_s-f6cVNHV0lGVfO_scmyNd-zKv8cyga7m
+}
+!procedure Crystal($id, $name="Crystal", $tech="")
+  IconElement($id, 'simpleicons-4/C/Crystal', $name, $tech)
+!endprocedure
+!procedure CrystalCard($id, $funcName="", $content="")
+  IconCard($id, '<$CrystalMd>', '', $funcName, $content)
+!endprocedure
+!procedure CrystalGroup($id, $name='Crystal', $tech='')
+  IconGroup($id, 'IconGroup', '<$CrystalLg>', $name, $tech)
+!endprocedure
+@enduml

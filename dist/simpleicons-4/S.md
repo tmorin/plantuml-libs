@@ -1,6 +1,6 @@
 # S
 
-The module S contains 171 entries.
+The module S contains 173 entries.
 
 
 
@@ -87,6 +87,7 @@ The module S contains 171 entries.
 |![Society6](../simpleicons-4/S/Society6.element.png)|[simpleicons-4/S/Society6](../simpleicons-4/S/Society6.md)
 |![SocketDotIo](../simpleicons-4/S/SocketDotIo.element.png)|[simpleicons-4/S/SocketDotIo](../simpleicons-4/S/SocketDotIo.md)
 |![Sogou](../simpleicons-4/S/Sogou.element.png)|[simpleicons-4/S/Sogou](../simpleicons-4/S/Sogou.md)
+|![Solidity](../simpleicons-4/S/Solidity.element.png)|[simpleicons-4/S/Solidity](../simpleicons-4/S/Solidity.md)
 |![Sololearn](../simpleicons-4/S/Sololearn.element.png)|[simpleicons-4/S/Sololearn](../simpleicons-4/S/Sololearn.md)
 |![Solus](../simpleicons-4/S/Solus.element.png)|[simpleicons-4/S/Solus](../simpleicons-4/S/Solus.md)
 |![Sonarcloud](../simpleicons-4/S/Sonarcloud.element.png)|[simpleicons-4/S/Sonarcloud](../simpleicons-4/S/Sonarcloud.md)
@@ -94,6 +95,7 @@ The module S contains 171 entries.
 |![Sonarqube](../simpleicons-4/S/Sonarqube.element.png)|[simpleicons-4/S/Sonarqube](../simpleicons-4/S/Sonarqube.md)
 |![Sonarsource](../simpleicons-4/S/Sonarsource.element.png)|[simpleicons-4/S/Sonarsource](../simpleicons-4/S/Sonarsource.md)
 |![Songkick](../simpleicons-4/S/Songkick.element.png)|[simpleicons-4/S/Songkick](../simpleicons-4/S/Songkick.md)
+|![Songoda](../simpleicons-4/S/Songoda.element.png)|[simpleicons-4/S/Songoda](../simpleicons-4/S/Songoda.md)
 |![Sonicwall](../simpleicons-4/S/Sonicwall.element.png)|[simpleicons-4/S/Sonicwall](../simpleicons-4/S/Sonicwall.md)
 |![Sonos](../simpleicons-4/S/Sonos.element.png)|[simpleicons-4/S/Sonos](../simpleicons-4/S/Sonos.md)
 |![Soundcloud](../simpleicons-4/S/Soundcloud.element.png)|[simpleicons-4/S/Soundcloud](../simpleicons-4/S/Soundcloud.md)

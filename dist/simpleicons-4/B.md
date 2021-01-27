@@ -1,6 +1,6 @@
 # B
 
-The module B contains 69 entries.
+The module B contains 70 entries.
 
 
 
@@ -51,6 +51,7 @@ The module B contains 69 entries.
 |![Bmcsoftware](../simpleicons-4/B/Bmcsoftware.element.png)|[simpleicons-4/B/Bmcsoftware](../simpleicons-4/B/Bmcsoftware.md)
 |![Bmw](../simpleicons-4/B/Bmw.element.png)|[simpleicons-4/B/Bmw](../simpleicons-4/B/Bmw.md)
 |![Boeing](../simpleicons-4/B/Boeing.element.png)|[simpleicons-4/B/Boeing](../simpleicons-4/B/Boeing.md)
+|![Bookmeter](../simpleicons-4/B/Bookmeter.element.png)|[simpleicons-4/B/Bookmeter](../simpleicons-4/B/Bookmeter.md)
 |![Boost](../simpleicons-4/B/Boost.element.png)|[simpleicons-4/B/Boost](../simpleicons-4/B/Boost.md)
 |![Bootstrap](../simpleicons-4/B/Bootstrap.element.png)|[simpleicons-4/B/Bootstrap](../simpleicons-4/B/Bootstrap.md)
 |![Bosch](../simpleicons-4/B/Bosch.element.png)|[simpleicons-4/B/Bosch](../simpleicons-4/B/Bosch.md)

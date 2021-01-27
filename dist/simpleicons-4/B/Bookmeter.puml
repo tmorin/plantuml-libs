@@ -1,0 +1,13 @@
+@startuml
+sprite $BookmeterMd [14x14/16z] Ou03Fdv-JX9vNBoyd0WU3py_Dq4U5pSN9uB7py_FHpaF
+sprite $BookmeterLg [20x20/16z] Oq01NFn0m4OZCKOc86145UC0SJZ84-Ca9COC0aoeOdpyV7pyNAXY86AmY04
+!procedure Bookmeter($id, $name="Bookmeter", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bookmeter', $name, $tech)
+!endprocedure
+!procedure BookmeterCard($id, $funcName="", $content="")
+  IconCard($id, '<$BookmeterMd>', '', $funcName, $content)
+!endprocedure
+!procedure BookmeterGroup($id, $name='Bookmeter', $tech='')
+  IconGroup($id, 'IconGroup', '<$BookmeterLg>', $name, $tech)
+!endprocedure
+@enduml

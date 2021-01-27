@@ -1,12 +1,13 @@
 # N
 
-The module N contains 49 entries.
+The module N contains 50 entries.
 
 
 
 | |Name|
 |:---:|---|
 |![N26](../simpleicons-4/N/N26.element.png)|[simpleicons-4/N/N26](../simpleicons-4/N/N26.md)
+|![Namecheap](../simpleicons-4/N/Namecheap.element.png)|[simpleicons-4/N/Namecheap](../simpleicons-4/N/Namecheap.md)
 |![Nationalgrid](../simpleicons-4/N/Nationalgrid.element.png)|[simpleicons-4/N/Nationalgrid](../simpleicons-4/N/Nationalgrid.md)
 |![Nativescript](../simpleicons-4/N/Nativescript.element.png)|[simpleicons-4/N/Nativescript](../simpleicons-4/N/Nativescript.md)
 |![Nba](../simpleicons-4/N/Nba.element.png)|[simpleicons-4/N/Nba](../simpleicons-4/N/Nba.md)

@@ -1,0 +1,13 @@
+@startuml
+sprite $FoxtelMd [14x14/16z] hSd50G0n4090rY3QVxadgI7pGd15XSiZab4PQEpiO_ZCpVvzfw7xhf60Ao8zZ5d45Iy
+sprite $FoxtelLg [20x20/16z] pKq54S0m44lxJ3V_ReSYzem9VYIR5jPbLzXxBTeBo6IT5lVaQguK5xXAaPGS2YzCSIh2hncN7WPBJ50QhdVhrj24EghKsW5y79VSZEjY-P6S
+!procedure Foxtel($id, $name="Foxtel", $tech="")
+  IconElement($id, 'simpleicons-4/F/Foxtel', $name, $tech)
+!endprocedure
+!procedure FoxtelCard($id, $funcName="", $content="")
+  IconCard($id, '<$FoxtelMd>', '', $funcName, $content)
+!endprocedure
+!procedure FoxtelGroup($id, $name='Foxtel', $tech='')
+  IconGroup($id, 'IconGroup', '<$FoxtelLg>', $name, $tech)
+!endprocedure
+@enduml

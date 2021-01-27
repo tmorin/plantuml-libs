@@ -1,0 +1,16 @@
+@startuml
+sprite $NamecheapMd [14x14/16z] bOc70G0X2CJopOhS_jl-EOAX4mwuQgo6UVRe6T8BU71BCpNXayRJfMzORdMFLF3uRTMH5Kpbj49MR1dP8TQ3QIlgnG4_
+sprite $NamecheapLg [20x20/16z] {
+jS-55SGm30JH2KS1JV_TthEjAo4RC7qJN-I8E2P6zbwRdr0VUawzWV1-r8qshWfBcWCEPbHngpjCZItJakgy3HYT7QFWQN3AnaWRWrszQrprX04ZpGMAGL_n
+RenYV_YqyVtO6PdQ3VaYFm
+}
+!procedure Namecheap($id, $name="Namecheap", $tech="")
+  IconElement($id, 'simpleicons-4/N/Namecheap', $name, $tech)
+!endprocedure
+!procedure NamecheapCard($id, $funcName="", $content="")
+  IconCard($id, '<$NamecheapMd>', '', $funcName, $content)
+!endprocedure
+!procedure NamecheapGroup($id, $name='Namecheap', $tech='')
+  IconGroup($id, 'IconGroup', '<$NamecheapLg>', $name, $tech)
+!endprocedure
+@enduml

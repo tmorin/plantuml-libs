@@ -1,0 +1,19 @@
+@startuml
+sprite $EagleMd [14x14/16z] {
+HOx50K0n2CMWBfJiF-rtoGrv8gATYwvoa9qBpySbmwefjGLPkjFbf3YkCA__KDLeODTKaXICvx4jQnoKQwfmqQufEB1WwJMcOspT6TUaXWVDO2N6SgN_pOxX
+-ca6raxv3W
+}
+sprite $EagleLg [20x20/16z] {
+NP3LWGKW30IZkFJVxGNUSZQV0x6bGFi6NGduU6uwL86ub1zLardgaEgdZQ39aKvznYS2kOxeoV4m1CehoOgFnpbSjTkzXLlyKL8iiKNn_cadqMpKVSbmFFwl
+-JRzrFRdP5xNTY1FshfBzzEO7XPgy9_Rz1GxEgzYgbx_1GEW_cSAsDiCqPpfy0K
+}
+!procedure Eagle($id, $name="Eagle", $tech="")
+  IconElement($id, 'simpleicons-4/E/Eagle', $name, $tech)
+!endprocedure
+!procedure EagleCard($id, $funcName="", $content="")
+  IconCard($id, '<$EagleMd>', '', $funcName, $content)
+!endprocedure
+!procedure EagleGroup($id, $name='Eagle', $tech='')
+  IconGroup($id, 'IconGroup', '<$EagleLg>', $name, $tech)
+!endprocedure
+@enduml

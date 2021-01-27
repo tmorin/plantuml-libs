@@ -1,0 +1,19 @@
+@startuml
+sprite $AcclaimMd [14x14/16z] {
+FOu50e1G24Cti8dT_xIslXzqu6AKHlniKk25eMu57oFLxgtaPm2dMOOvhv-4bP9n6TPzVYcFD7X9vM0wYQl3NKm2mzqkr0F0uPqSrpvhQ_iMQWkjU5dbouAV
+nGy
+}
+sprite $AcclaimLg [20x20/16z] {
+LOy50iGm20G9SUN_lptseBRrQMI7F5raq3TXYipmHKiqo-630Fb6l4KaPxtj2yO3H9JqUUADJi9RyZVsb_VlDdn2Qu0RDVkKpTQvOxibayRweo5Y8c4lAfND
+0e49LxqvQitXOr69wcF2G0Ll1IRQ8SHj5aWM5BD-YXmUwsSMdhJ__LpR4yzI9KCFRE47
+}
+!procedure Acclaim($id, $name="Acclaim", $tech="")
+  IconElement($id, 'simpleicons-4/A/Acclaim', $name, $tech)
+!endprocedure
+!procedure AcclaimCard($id, $funcName="", $content="")
+  IconCard($id, '<$AcclaimMd>', '', $funcName, $content)
+!endprocedure
+!procedure AcclaimGroup($id, $name='Acclaim', $tech='')
+  IconGroup($id, 'IconGroup', '<$AcclaimLg>', $name, $tech)
+!endprocedure
+@enduml

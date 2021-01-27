@@ -1,12 +1,13 @@
 # E
 
-The module E contains 50 entries.
+The module E contains 51 entries.
 
 
 
 | |Name|
 |:---:|---|
 |![Ea](../simpleicons-4/E/Ea.element.png)|[simpleicons-4/E/Ea](../simpleicons-4/E/Ea.md)
+|![Eagle](../simpleicons-4/E/Eagle.element.png)|[simpleicons-4/E/Eagle](../simpleicons-4/E/Eagle.md)
 |![Easyjet](../simpleicons-4/E/Easyjet.element.png)|[simpleicons-4/E/Easyjet](../simpleicons-4/E/Easyjet.md)
 |![Ebay](../simpleicons-4/E/Ebay.element.png)|[simpleicons-4/E/Ebay](../simpleicons-4/E/Ebay.md)
 |![Eclipseide](../simpleicons-4/E/Eclipseide.element.png)|[simpleicons-4/E/Eclipseide](../simpleicons-4/E/Eclipseide.md)

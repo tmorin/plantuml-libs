@@ -1,6 +1,6 @@
 # O
 
-The module O contains 44 entries.
+The module O contains 45 entries.
 
 
 
@@ -38,6 +38,7 @@ The module O contains 44 entries.
 |![Opensuse](../simpleicons-4/O/Opensuse.element.png)|[simpleicons-4/O/Opensuse](../simpleicons-4/O/Opensuse.md)
 |![Openvpn](../simpleicons-4/O/Openvpn.element.png)|[simpleicons-4/O/Openvpn](../simpleicons-4/O/Openvpn.md)
 |![Opera](../simpleicons-4/O/Opera.element.png)|[simpleicons-4/O/Opera](../simpleicons-4/O/Opera.md)
+|![Opnsense](../simpleicons-4/O/Opnsense.element.png)|[simpleicons-4/O/Opnsense](../simpleicons-4/O/Opnsense.md)
 |![Opsgenie](../simpleicons-4/O/Opsgenie.element.png)|[simpleicons-4/O/Opsgenie](../simpleicons-4/O/Opsgenie.md)
 |![Opslevel](../simpleicons-4/O/Opslevel.element.png)|[simpleicons-4/O/Opslevel](../simpleicons-4/O/Opslevel.md)
 |![Oracle](../simpleicons-4/O/Oracle.element.png)|[simpleicons-4/O/Oracle](../simpleicons-4/O/Oracle.md)

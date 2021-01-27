@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the Eagle element
+include('simpleicons-4/E/Eagle')
+Eagle('eagle', 'Eagle', 'an optional tech field')
+@enduml

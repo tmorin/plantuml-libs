@@ -1,12 +1,13 @@
 # C
 
-The module C contains 113 entries.
+The module C contains 116 entries.
 
 
 
 | |Name|
 |:---:|---|
 |![C](../simpleicons-4/C/C.element.png)|[simpleicons-4/C/C](../simpleicons-4/C/C.md)
+|![Cachet](../simpleicons-4/C/Cachet.element.png)|[simpleicons-4/C/Cachet](../simpleicons-4/C/Cachet.md)
 |![Cairometro](../simpleicons-4/C/Cairometro.element.png)|[simpleicons-4/C/Cairometro](../simpleicons-4/C/Cairometro.md)
 |![Cakephp](../simpleicons-4/C/Cakephp.element.png)|[simpleicons-4/C/Cakephp](../simpleicons-4/C/Cakephp.md)
 |![Campaignmonitor](../simpleicons-4/C/Campaignmonitor.element.png)|[simpleicons-4/C/Campaignmonitor](../simpleicons-4/C/Campaignmonitor.md)
@@ -99,6 +100,7 @@ The module C contains 113 entries.
 |![CoOp](../simpleicons-4/C/CoOp.element.png)|[simpleicons-4/C/CoOp](../simpleicons-4/C/CoOp.md)
 |![Coronaengine](../simpleicons-4/C/Coronaengine.element.png)|[simpleicons-4/C/Coronaengine](../simpleicons-4/C/Coronaengine.md)
 |![Coronarenderer](../simpleicons-4/C/Coronarenderer.element.png)|[simpleicons-4/C/Coronarenderer](../simpleicons-4/C/Coronarenderer.md)
+|![Corsair](../simpleicons-4/C/Corsair.element.png)|[simpleicons-4/C/Corsair](../simpleicons-4/C/Corsair.md)
 |![Couchbase](../simpleicons-4/C/Couchbase.element.png)|[simpleicons-4/C/Couchbase](../simpleicons-4/C/Couchbase.md)
 |![CounterStrike](../simpleicons-4/C/CounterStrike.element.png)|[simpleicons-4/C/CounterStrike](../simpleicons-4/C/CounterStrike.md)
 |![Coursera](../simpleicons-4/C/Coursera.element.png)|[simpleicons-4/C/Coursera](../simpleicons-4/C/Coursera.md)
@@ -112,6 +114,7 @@ The module C contains 113 entries.
 |![Crunchbase](../simpleicons-4/C/Crunchbase.element.png)|[simpleicons-4/C/Crunchbase](../simpleicons-4/C/Crunchbase.md)
 |![Crunchyroll](../simpleicons-4/C/Crunchyroll.element.png)|[simpleicons-4/C/Crunchyroll](../simpleicons-4/C/Crunchyroll.md)
 |![Cryengine](../simpleicons-4/C/Cryengine.element.png)|[simpleicons-4/C/Cryengine](../simpleicons-4/C/Cryengine.md)
+|![Crystal](../simpleicons-4/C/Crystal.element.png)|[simpleicons-4/C/Crystal](../simpleicons-4/C/Crystal.md)
 |![Csharp](../simpleicons-4/C/Csharp.element.png)|[simpleicons-4/C/Csharp](../simpleicons-4/C/Csharp.md)
 |![Css3](../simpleicons-4/C/Css3.element.png)|[simpleicons-4/C/Css3](../simpleicons-4/C/Css3.md)
 |![Csswizardry](../simpleicons-4/C/Csswizardry.element.png)|[simpleicons-4/C/Csswizardry](../simpleicons-4/C/Csswizardry.md)

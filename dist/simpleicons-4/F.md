@@ -1,6 +1,6 @@
 # F
 
-The module F contains 71 entries.
+The module F contains 72 entries.
 
 
 
@@ -64,6 +64,7 @@ The module F contains 71 entries.
 |![Fossa](../simpleicons-4/F/Fossa.element.png)|[simpleicons-4/F/Fossa](../simpleicons-4/F/Fossa.md)
 |![Fossilscm](../simpleicons-4/F/Fossilscm.element.png)|[simpleicons-4/F/Fossilscm](../simpleicons-4/F/Fossilscm.md)
 |![Foursquare](../simpleicons-4/F/Foursquare.element.png)|[simpleicons-4/F/Foursquare](../simpleicons-4/F/Foursquare.md)
+|![Foxtel](../simpleicons-4/F/Foxtel.element.png)|[simpleicons-4/F/Foxtel](../simpleicons-4/F/Foxtel.md)
 |![Fozzy](../simpleicons-4/F/Fozzy.element.png)|[simpleicons-4/F/Fozzy](../simpleicons-4/F/Fozzy.md)
 |![Framer](../simpleicons-4/F/Framer.element.png)|[simpleicons-4/F/Framer](../simpleicons-4/F/Framer.md)
 |![Freebsd](../simpleicons-4/F/Freebsd.element.png)|[simpleicons-4/F/Freebsd](../simpleicons-4/F/Freebsd.md)

@@ -1,6 +1,6 @@
 # L
 
-The module L contains 54 entries.
+The module L contains 55 entries.
 
 
 
@@ -59,5 +59,6 @@ The module L contains 54 entries.
 |![Lubuntu](../simpleicons-4/L/Lubuntu.element.png)|[simpleicons-4/L/Lubuntu](../simpleicons-4/L/Lubuntu.md)
 |![Lufthansa](../simpleicons-4/L/Lufthansa.element.png)|[simpleicons-4/L/Lufthansa](../simpleicons-4/L/Lufthansa.md)
 |![Lumen](../simpleicons-4/L/Lumen.element.png)|[simpleicons-4/L/Lumen](../simpleicons-4/L/Lumen.md)
+|![Lydia](../simpleicons-4/L/Lydia.element.png)|[simpleicons-4/L/Lydia](../simpleicons-4/L/Lydia.md)
 |![Lyft](../simpleicons-4/L/Lyft.element.png)|[simpleicons-4/L/Lyft](../simpleicons-4/L/Lyft.md)
 
