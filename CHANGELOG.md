@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.7.0](https://github.com/tmorin/plantuml-libs/compare/v2.6.0...v2.7.0) (2021-01-29)
+
+
+### Features
+
+* **c4model:** add the element ExternalContainer ([08f6c3b](https://github.com/tmorin/plantuml-libs/commit/08f6c3b5ab3d5f4c7269c839b138a0ef439c24fa))
+* **simpleicons-4:** upgrade to simpleicons-4.8.0 ([2a701c7](https://github.com/tmorin/plantuml-libs/commit/2a701c7891a5a10706d7b90357880816a6562c0a))
+
 ## [2.6.0](https://github.com/tmorin/plantuml-libs/compare/v2.5.0...v2.6.0) (2021-01-23)
 
 
