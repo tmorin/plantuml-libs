@@ -50,7 +50,7 @@ The package provides 2 modules.
 
 
 - [Boundary](boundary.md) with 4 elements
-- [Element](element.md) with 7 elements
+- [Element](element.md) with 8 elements
 
 # Examples
 
