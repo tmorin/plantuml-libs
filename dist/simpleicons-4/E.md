@@ -1,6 +1,6 @@
 # E
 
-The module E contains 51 entries.
+The module E contains 52 entries.
 
 
 
@@ -33,6 +33,7 @@ The module E contains 51 entries.
 |![Embarcadero](../simpleicons-4/E/Embarcadero.element.png)|[simpleicons-4/E/Embarcadero](../simpleicons-4/E/Embarcadero.md)
 |![EmberDotJs](../simpleicons-4/E/EmberDotJs.element.png)|[simpleicons-4/E/EmberDotJs](../simpleicons-4/E/EmberDotJs.md)
 |![Emby](../simpleicons-4/E/Emby.element.png)|[simpleicons-4/E/Emby](../simpleicons-4/E/Emby.md)
+|![Emirates](../simpleicons-4/E/Emirates.element.png)|[simpleicons-4/E/Emirates](../simpleicons-4/E/Emirates.md)
 |![Emlakjet](../simpleicons-4/E/Emlakjet.element.png)|[simpleicons-4/E/Emlakjet](../simpleicons-4/E/Emlakjet.md)
 |![Empirekred](../simpleicons-4/E/Empirekred.element.png)|[simpleicons-4/E/Empirekred](../simpleicons-4/E/Empirekred.md)
 |![Envato](../simpleicons-4/E/Envato.element.png)|[simpleicons-4/E/Envato](../simpleicons-4/E/Envato.md)

@@ -1,6 +1,6 @@
 # R
 
-The module R contains 65 entries.
+The module R contains 66 entries.
 
 
 
@@ -30,6 +30,7 @@ The module R contains 65 entries.
 |![Redhatopenshift](../simpleicons-4/R/Redhatopenshift.element.png)|[simpleicons-4/R/Redhatopenshift](../simpleicons-4/R/Redhatopenshift.md)
 |![Redis](../simpleicons-4/R/Redis.element.png)|[simpleicons-4/R/Redis](../simpleicons-4/R/Redis.md)
 |![Redux](../simpleicons-4/R/Redux.element.png)|[simpleicons-4/R/Redux](../simpleicons-4/R/Redux.md)
+|![ReduxSaga](../simpleicons-4/R/ReduxSaga.element.png)|[simpleicons-4/R/ReduxSaga](../simpleicons-4/R/ReduxSaga.md)
 |![Redwoodjs](../simpleicons-4/R/Redwoodjs.element.png)|[simpleicons-4/R/Redwoodjs](../simpleicons-4/R/Redwoodjs.md)
 |![Relianceindustrieslimited](../simpleicons-4/R/Relianceindustrieslimited.element.png)|[simpleicons-4/R/Relianceindustrieslimited](../simpleicons-4/R/Relianceindustrieslimited.md)
 |![Renault](../simpleicons-4/R/Renault.element.png)|[simpleicons-4/R/Renault](../simpleicons-4/R/Renault.md)

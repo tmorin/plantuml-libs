@@ -1,0 +1,16 @@
+@startuml
+sprite $DWavesystemsMd [14x14/16z] TSh50SCm04DHcTb__sdB3UVT19A7faM4iIO7HPiOT2jLAzdWFo50buACFwVrUSjRhGguDGs8Qmfq8pq1
+sprite $DWavesystemsLg [20x20/16z] {
+dL1L0WKX21povSBzJxkTwfTZqZ00E393S67NfJvrbZFigQD6BEJxLVJ2ZDR4gdIelfbVcbKcuhjAzrv40RQMxXdBL-nLWvUt3ykCWfgpe0Pd_jHfDZZpYDLj
+0W
+}
+!procedure DWavesystems($id, $name="D Wavesystems", $tech="")
+  IconElement($id, 'simpleicons-4/D/DWavesystems', $name, $tech)
+!endprocedure
+!procedure DWavesystemsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DWavesystemsMd>', '', $funcName, $content)
+!endprocedure
+!procedure DWavesystemsGroup($id, $name='D Wavesystems', $tech='')
+  IconGroup($id, 'IconGroup', '<$DWavesystemsLg>', $name, $tech)
+!endprocedure
+@enduml

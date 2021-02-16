@@ -1,0 +1,13 @@
+@startuml
+sprite $WindowsterminalMd [14x14/16z] NSt50S0W341HY1Ld_ssBsqF_AUg21SmBSX7MvGkxhdJ92Lm-i7hIxqYWumvT8b0XjIIKOG2WAUKR4Y9Dg2u_
+sprite $WindowsterminalLg [20x20/16z] ZSg50SGm20LGgZZiF-r9tPiNvGCKGlh1RllqER3r6KM6_Cxu_D65lEGTvv40d4Cg3Rs2xXZLq4Rks1XfzzVsGrV7AO91PUFWq78QSEGb948Qu8YeXq9V
+!procedure Windowsterminal($id, $name="Windowsterminal", $tech="")
+  IconElement($id, 'simpleicons-4/W/Windowsterminal', $name, $tech)
+!endprocedure
+!procedure WindowsterminalCard($id, $funcName="", $content="")
+  IconCard($id, '<$WindowsterminalMd>', '', $funcName, $content)
+!endprocedure
+!procedure WindowsterminalGroup($id, $name='Windowsterminal', $tech='')
+  IconGroup($id, 'IconGroup', '<$WindowsterminalLg>', $name, $tech)
+!endprocedure
+@enduml

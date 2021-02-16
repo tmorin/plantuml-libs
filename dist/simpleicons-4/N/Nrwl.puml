@@ -1,0 +1,13 @@
+@startuml
+sprite $NrwlMd [14x14/16z] dKh30K0n30tgQFzflz5pmoTOB2IUcDh87o6he8CA8GAmH4Ws5-djs2wgt9e99_SiLnoGZai7MAmT
+sprite $NrwlLg [20x20/16z] nOY50SLG20DvYfFzf_skNQ27vkWqUZyQzGevE82xxb_3kxAJLNABtgZTdHbGibP1ai4kOUg26zpDxfPs5LYDMMGDcxlOgQTYhg07lTswqtCDEeah
+!procedure Nrwl($id, $name="Nrwl", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nrwl', $name, $tech)
+!endprocedure
+!procedure NrwlCard($id, $funcName="", $content="")
+  IconCard($id, '<$NrwlMd>', '', $funcName, $content)
+!endprocedure
+!procedure NrwlGroup($id, $name='Nrwl', $tech='')
+  IconGroup($id, 'IconGroup', '<$NrwlLg>', $name, $tech)
+!endprocedure
+@enduml

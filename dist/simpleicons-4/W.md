@@ -1,6 +1,6 @@
 # W
 
-The module W contains 57 entries.
+The module W contains 58 entries.
 
 
 
@@ -41,6 +41,7 @@ The module W contains 57 entries.
 |![Wikivoyage](../simpleicons-4/W/Wikivoyage.element.png)|[simpleicons-4/W/Wikivoyage](../simpleicons-4/W/Wikivoyage.md)
 |![Windows](../simpleicons-4/W/Windows.element.png)|[simpleicons-4/W/Windows](../simpleicons-4/W/Windows.md)
 |![Windows95](../simpleicons-4/W/Windows95.element.png)|[simpleicons-4/W/Windows95](../simpleicons-4/W/Windows95.md)
+|![Windowsterminal](../simpleicons-4/W/Windowsterminal.element.png)|[simpleicons-4/W/Windowsterminal](../simpleicons-4/W/Windowsterminal.md)
 |![Windowsxp](../simpleicons-4/W/Windowsxp.element.png)|[simpleicons-4/W/Windowsxp](../simpleicons-4/W/Windowsxp.md)
 |![Winmate](../simpleicons-4/W/Winmate.element.png)|[simpleicons-4/W/Winmate](../simpleicons-4/W/Winmate.md)
 |![Wipro](../simpleicons-4/W/Wipro.element.png)|[simpleicons-4/W/Wipro](../simpleicons-4/W/Wipro.md)

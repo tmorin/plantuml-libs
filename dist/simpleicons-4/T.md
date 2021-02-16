@@ -1,6 +1,6 @@
 # T
 
-The module T contains 93 entries.
+The module T contains 96 entries.
 
 
 
@@ -11,6 +11,7 @@ The module T contains 93 entries.
 |![Tails](../simpleicons-4/T/Tails.element.png)|[simpleicons-4/T/Tails](../simpleicons-4/T/Tails.md)
 |![Tailwindcss](../simpleicons-4/T/Tailwindcss.element.png)|[simpleicons-4/T/Tailwindcss](../simpleicons-4/T/Tailwindcss.md)
 |![Talend](../simpleicons-4/T/Talend.element.png)|[simpleicons-4/T/Talend](../simpleicons-4/T/Talend.md)
+|![Tampermonkey](../simpleicons-4/T/Tampermonkey.element.png)|[simpleicons-4/T/Tampermonkey](../simpleicons-4/T/Tampermonkey.md)
 |![Taobao](../simpleicons-4/T/Taobao.element.png)|[simpleicons-4/T/Taobao](../simpleicons-4/T/Taobao.md)
 |![Tapas](../simpleicons-4/T/Tapas.element.png)|[simpleicons-4/T/Tapas](../simpleicons-4/T/Tapas.md)
 |![Tasmota](../simpleicons-4/T/Tasmota.element.png)|[simpleicons-4/T/Tasmota](../simpleicons-4/T/Tasmota.md)
@@ -31,6 +32,7 @@ The module T contains 93 entries.
 |![Tesla](../simpleicons-4/T/Tesla.element.png)|[simpleicons-4/T/Tesla](../simpleicons-4/T/Tesla.md)
 |![Testin](../simpleicons-4/T/Testin.element.png)|[simpleicons-4/T/Testin](../simpleicons-4/T/Testin.md)
 |![Testinglibrary](../simpleicons-4/T/Testinglibrary.element.png)|[simpleicons-4/T/Testinglibrary](../simpleicons-4/T/Testinglibrary.md)
+|![Textpattern](../simpleicons-4/T/Textpattern.element.png)|[simpleicons-4/T/Textpattern](../simpleicons-4/T/Textpattern.md)
 |![Theconversation](../simpleicons-4/T/Theconversation.element.png)|[simpleicons-4/T/Theconversation](../simpleicons-4/T/Theconversation.md)
 |![Theirishtimes](../simpleicons-4/T/Theirishtimes.element.png)|[simpleicons-4/T/Theirishtimes](../simpleicons-4/T/Theirishtimes.md)
 |![Themighty](../simpleicons-4/T/Themighty.element.png)|[simpleicons-4/T/Themighty](../simpleicons-4/T/Themighty.md)
@@ -93,6 +95,7 @@ The module T contains 93 entries.
 |![Turbosquid](../simpleicons-4/T/Turbosquid.element.png)|[simpleicons-4/T/Turbosquid](../simpleicons-4/T/Turbosquid.md)
 |![Turkishairlines](../simpleicons-4/T/Turkishairlines.element.png)|[simpleicons-4/T/Turkishairlines](../simpleicons-4/T/Turkishairlines.md)
 |![Tutanota](../simpleicons-4/T/Tutanota.element.png)|[simpleicons-4/T/Tutanota](../simpleicons-4/T/Tutanota.md)
+|![Tvtime](../simpleicons-4/T/Tvtime.element.png)|[simpleicons-4/T/Tvtime](../simpleicons-4/T/Tvtime.md)
 |![Twilio](../simpleicons-4/T/Twilio.element.png)|[simpleicons-4/T/Twilio](../simpleicons-4/T/Twilio.md)
 |![Twitch](../simpleicons-4/T/Twitch.element.png)|[simpleicons-4/T/Twitch](../simpleicons-4/T/Twitch.md)
 |![Twitter](../simpleicons-4/T/Twitter.element.png)|[simpleicons-4/T/Twitter](../simpleicons-4/T/Twitter.md)

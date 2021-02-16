@@ -1,6 +1,6 @@
 # J
 
-The module J contains 36 entries.
+The module J contains 37 entries.
 
 
 
@@ -10,6 +10,7 @@ The module J contains 36 entries.
 |![Jaguar](../simpleicons-4/J/Jaguar.element.png)|[simpleicons-4/J/Jaguar](../simpleicons-4/J/Jaguar.md)
 |![Jamboard](../simpleicons-4/J/Jamboard.element.png)|[simpleicons-4/J/Jamboard](../simpleicons-4/J/Jamboard.md)
 |![Jameson](../simpleicons-4/J/Jameson.element.png)|[simpleicons-4/J/Jameson](../simpleicons-4/J/Jameson.md)
+|![Jamstack](../simpleicons-4/J/Jamstack.element.png)|[simpleicons-4/J/Jamstack](../simpleicons-4/J/Jamstack.md)
 |![Jasmine](../simpleicons-4/J/Jasmine.element.png)|[simpleicons-4/J/Jasmine](../simpleicons-4/J/Jasmine.md)
 |![Java](../simpleicons-4/J/Java.element.png)|[simpleicons-4/J/Java](../simpleicons-4/J/Java.md)
 |![Javascript](../simpleicons-4/J/Javascript.element.png)|[simpleicons-4/J/Javascript](../simpleicons-4/J/Javascript.md)

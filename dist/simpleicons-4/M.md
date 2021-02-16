@@ -1,17 +1,19 @@
 # M
 
-The module M contains 102 entries.
+The module M contains 104 entries.
 
 
 
 | |Name|
 |:---:|---|
 |![Maas](../simpleicons-4/M/Maas.element.png)|[simpleicons-4/M/Maas](../simpleicons-4/M/Maas.md)
+|![Macos](../simpleicons-4/M/Macos.element.png)|[simpleicons-4/M/Macos](../simpleicons-4/M/Macos.md)
 |![Macys](../simpleicons-4/M/Macys.element.png)|[simpleicons-4/M/Macys](../simpleicons-4/M/Macys.md)
 |![Magento](../simpleicons-4/M/Magento.element.png)|[simpleicons-4/M/Magento](../simpleicons-4/M/Magento.md)
 |![Magisk](../simpleicons-4/M/Magisk.element.png)|[simpleicons-4/M/Magisk](../simpleicons-4/M/Magisk.md)
 |![Mailchimp](../simpleicons-4/M/Mailchimp.element.png)|[simpleicons-4/M/Mailchimp](../simpleicons-4/M/Mailchimp.md)
 |![MailDotRu](../simpleicons-4/M/MailDotRu.element.png)|[simpleicons-4/M/MailDotRu](../simpleicons-4/M/MailDotRu.md)
+|![Majorleaguehacking](../simpleicons-4/M/Majorleaguehacking.element.png)|[simpleicons-4/M/Majorleaguehacking](../simpleicons-4/M/Majorleaguehacking.md)
 |![Makerbot](../simpleicons-4/M/Makerbot.element.png)|[simpleicons-4/M/Makerbot](../simpleicons-4/M/Makerbot.md)
 |![Man](../simpleicons-4/M/Man.element.png)|[simpleicons-4/M/Man](../simpleicons-4/M/Man.md)
 |![Manageiq](../simpleicons-4/M/Manageiq.element.png)|[simpleicons-4/M/Manageiq](../simpleicons-4/M/Manageiq.md)

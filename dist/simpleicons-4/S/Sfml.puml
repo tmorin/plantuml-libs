@@ -1,0 +1,19 @@
+@startuml
+sprite $SfmlMd [14x14/16z] {
+BSc70S0W24JH7x4hn_xJfZ-bSxDzCtx3MzE0xn8JPZpNLAEQWzlT81ccbDvIPwOgIWbLSeo48jQA44cxC-CrwLDEYLV1wtH3SHFcHzcD8NSDskAepiyB75eb
+FzQxjkclbU02
+}
+sprite $SfmlLg [20x20/16z] {
+JT3L0KD124JHoxvrOVglDaBqVAC3eRcxEl_Ir3bQnayvQcPLf_0nf9CW7NtQhwrQbA6eDEq4kSepvXsw6zazevXy-OPzBh2jxDjYXymKE-oSFQ7h8MSfTWoT
+1LCFQ-bXmZhkYQolJF97MmNNcqFLTJHWw6t0T6iZclzRIKKPSmKtugFa0-e85UQnIC3uCeq8IZFPByUBfodVRx-iyrWxh1cXtW4
+}
+!procedure Sfml($id, $name="Sfml", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sfml', $name, $tech)
+!endprocedure
+!procedure SfmlCard($id, $funcName="", $content="")
+  IconCard($id, '<$SfmlMd>', '', $funcName, $content)
+!endprocedure
+!procedure SfmlGroup($id, $name='Sfml', $tech='')
+  IconGroup($id, 'IconGroup', '<$SfmlLg>', $name, $tech)
+!endprocedure
+@enduml

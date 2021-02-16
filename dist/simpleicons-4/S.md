@@ -1,6 +1,6 @@
 # S
 
-The module S contains 173 entries.
+The module S contains 179 entries.
 
 
 
@@ -25,6 +25,7 @@ The module S contains 173 entries.
 |![Scipy](../simpleicons-4/S/Scipy.element.png)|[simpleicons-4/S/Scipy](../simpleicons-4/S/Scipy.md)
 |![Scopus](../simpleicons-4/S/Scopus.element.png)|[simpleicons-4/S/Scopus](../simpleicons-4/S/Scopus.md)
 |![Scratch](../simpleicons-4/S/Scratch.element.png)|[simpleicons-4/S/Scratch](../simpleicons-4/S/Scratch.md)
+|![Screencastify](../simpleicons-4/S/Screencastify.element.png)|[simpleicons-4/S/Screencastify](../simpleicons-4/S/Screencastify.md)
 |![Scribd](../simpleicons-4/S/Scribd.element.png)|[simpleicons-4/S/Scribd](../simpleicons-4/S/Scribd.md)
 |![Scrimba](../simpleicons-4/S/Scrimba.element.png)|[simpleicons-4/S/Scrimba](../simpleicons-4/S/Scrimba.md)
 |![Scrutinizerci](../simpleicons-4/S/Scrutinizerci.element.png)|[simpleicons-4/S/Scrutinizerci](../simpleicons-4/S/Scrutinizerci.md)
@@ -44,6 +45,7 @@ The module S contains 173 entries.
 |![Sepa](../simpleicons-4/S/Sepa.element.png)|[simpleicons-4/S/Sepa](../simpleicons-4/S/Sepa.md)
 |![Serverfault](../simpleicons-4/S/Serverfault.element.png)|[simpleicons-4/S/Serverfault](../simpleicons-4/S/Serverfault.md)
 |![Serverless](../simpleicons-4/S/Serverless.element.png)|[simpleicons-4/S/Serverless](../simpleicons-4/S/Serverless.md)
+|![Sfml](../simpleicons-4/S/Sfml.element.png)|[simpleicons-4/S/Sfml](../simpleicons-4/S/Sfml.md)
 |![Shanghaimetro](../simpleicons-4/S/Shanghaimetro.element.png)|[simpleicons-4/S/Shanghaimetro](../simpleicons-4/S/Shanghaimetro.md)
 |![Shazam](../simpleicons-4/S/Shazam.element.png)|[simpleicons-4/S/Shazam](../simpleicons-4/S/Shazam.md)
 |![Shell](../simpleicons-4/S/Shell.element.png)|[simpleicons-4/S/Shell](../simpleicons-4/S/Shell.md)
@@ -53,6 +55,7 @@ The module S contains 173 entries.
 |![Shopify](../simpleicons-4/S/Shopify.element.png)|[simpleicons-4/S/Shopify](../simpleicons-4/S/Shopify.md)
 |![Shopware](../simpleicons-4/S/Shopware.element.png)|[simpleicons-4/S/Shopware](../simpleicons-4/S/Shopware.md)
 |![Showpad](../simpleicons-4/S/Showpad.element.png)|[simpleicons-4/S/Showpad](../simpleicons-4/S/Showpad.md)
+|![Showtime](../simpleicons-4/S/Showtime.element.png)|[simpleicons-4/S/Showtime](../simpleicons-4/S/Showtime.md)
 |![Shutterstock](../simpleicons-4/S/Shutterstock.element.png)|[simpleicons-4/S/Shutterstock](../simpleicons-4/S/Shutterstock.md)
 |![Siemens](../simpleicons-4/S/Siemens.element.png)|[simpleicons-4/S/Siemens](../simpleicons-4/S/Siemens.md)
 |![Signal](../simpleicons-4/S/Signal.element.png)|[simpleicons-4/S/Signal](../simpleicons-4/S/Signal.md)
@@ -140,6 +143,7 @@ The module S contains 173 entries.
 |![Statamic](../simpleicons-4/S/Statamic.element.png)|[simpleicons-4/S/Statamic](../simpleicons-4/S/Statamic.md)
 |![Staticman](../simpleicons-4/S/Staticman.element.png)|[simpleicons-4/S/Staticman](../simpleicons-4/S/Staticman.md)
 |![Statuspage](../simpleicons-4/S/Statuspage.element.png)|[simpleicons-4/S/Statuspage](../simpleicons-4/S/Statuspage.md)
+|![Statuspal](../simpleicons-4/S/Statuspal.element.png)|[simpleicons-4/S/Statuspal](../simpleicons-4/S/Statuspal.md)
 |![Steam](../simpleicons-4/S/Steam.element.png)|[simpleicons-4/S/Steam](../simpleicons-4/S/Steam.md)
 |![Steamdb](../simpleicons-4/S/Steamdb.element.png)|[simpleicons-4/S/Steamdb](../simpleicons-4/S/Steamdb.md)
 |![Steamworks](../simpleicons-4/S/Steamworks.element.png)|[simpleicons-4/S/Steamworks](../simpleicons-4/S/Steamworks.md)
@@ -159,12 +163,14 @@ The module S contains 173 entries.
 |![Strongswan](../simpleicons-4/S/Strongswan.element.png)|[simpleicons-4/S/Strongswan](../simpleicons-4/S/Strongswan.md)
 |![Stubhub](../simpleicons-4/S/Stubhub.element.png)|[simpleicons-4/S/Stubhub](../simpleicons-4/S/Stubhub.md)
 |![StyledComponents](../simpleicons-4/S/StyledComponents.element.png)|[simpleicons-4/S/StyledComponents](../simpleicons-4/S/StyledComponents.md)
+|![Stylelint](../simpleicons-4/S/Stylelint.element.png)|[simpleicons-4/S/Stylelint](../simpleicons-4/S/Stylelint.md)
 |![Styleshare](../simpleicons-4/S/Styleshare.element.png)|[simpleicons-4/S/Styleshare](../simpleicons-4/S/Styleshare.md)
 |![Stylus](../simpleicons-4/S/Stylus.element.png)|[simpleicons-4/S/Stylus](../simpleicons-4/S/Stylus.md)
 |![Subaru](../simpleicons-4/S/Subaru.element.png)|[simpleicons-4/S/Subaru](../simpleicons-4/S/Subaru.md)
 |![Sublimetext](../simpleicons-4/S/Sublimetext.element.png)|[simpleicons-4/S/Sublimetext](../simpleicons-4/S/Sublimetext.md)
 |![Substack](../simpleicons-4/S/Substack.element.png)|[simpleicons-4/S/Substack](../simpleicons-4/S/Substack.md)
 |![Subversion](../simpleicons-4/S/Subversion.element.png)|[simpleicons-4/S/Subversion](../simpleicons-4/S/Subversion.md)
+|![Suckless](../simpleicons-4/S/Suckless.element.png)|[simpleicons-4/S/Suckless](../simpleicons-4/S/Suckless.md)
 |![Sumologic](../simpleicons-4/S/Sumologic.element.png)|[simpleicons-4/S/Sumologic](../simpleicons-4/S/Sumologic.md)
 |![Superuser](../simpleicons-4/S/Superuser.element.png)|[simpleicons-4/S/Superuser](../simpleicons-4/S/Superuser.md)
 |![Suzuki](../simpleicons-4/S/Suzuki.element.png)|[simpleicons-4/S/Suzuki](../simpleicons-4/S/Suzuki.md)

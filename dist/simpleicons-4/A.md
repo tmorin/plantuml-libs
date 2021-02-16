@@ -1,6 +1,6 @@
 # A
 
-The module A contains 163 entries.
+The module A contains 168 entries.
 
 
 
@@ -46,6 +46,7 @@ The module A contains 163 entries.
 |![Adobexd](../simpleicons-4/A/Adobexd.element.png)|[simpleicons-4/A/Adobexd](../simpleicons-4/A/Adobexd.md)
 |![Adonisjs](../simpleicons-4/A/Adonisjs.element.png)|[simpleicons-4/A/Adonisjs](../simpleicons-4/A/Adonisjs.md)
 |![Aerlingus](../simpleicons-4/A/Aerlingus.element.png)|[simpleicons-4/A/Aerlingus](../simpleicons-4/A/Aerlingus.md)
+|![Aeromexico](../simpleicons-4/A/Aeromexico.element.png)|[simpleicons-4/A/Aeromexico](../simpleicons-4/A/Aeromexico.md)
 |![Affinity](../simpleicons-4/A/Affinity.element.png)|[simpleicons-4/A/Affinity](../simpleicons-4/A/Affinity.md)
 |![Affinitydesigner](../simpleicons-4/A/Affinitydesigner.element.png)|[simpleicons-4/A/Affinitydesigner](../simpleicons-4/A/Affinitydesigner.md)
 |![Affinityphoto](../simpleicons-4/A/Affinityphoto.element.png)|[simpleicons-4/A/Affinityphoto](../simpleicons-4/A/Affinityphoto.md)
@@ -58,12 +59,14 @@ The module A contains 163 entries.
 |![Airbus](../simpleicons-4/A/Airbus.element.png)|[simpleicons-4/A/Airbus](../simpleicons-4/A/Airbus.md)
 |![Aircall](../simpleicons-4/A/Aircall.element.png)|[simpleicons-4/A/Aircall](../simpleicons-4/A/Aircall.md)
 |![Aircanada](../simpleicons-4/A/Aircanada.element.png)|[simpleicons-4/A/Aircanada](../simpleicons-4/A/Aircanada.md)
+|![Airchina](../simpleicons-4/A/Airchina.element.png)|[simpleicons-4/A/Airchina](../simpleicons-4/A/Airchina.md)
 |![Airfrance](../simpleicons-4/A/Airfrance.element.png)|[simpleicons-4/A/Airfrance](../simpleicons-4/A/Airfrance.md)
 |![Airplayaudio](../simpleicons-4/A/Airplayaudio.element.png)|[simpleicons-4/A/Airplayaudio](../simpleicons-4/A/Airplayaudio.md)
 |![Airplayvideo](../simpleicons-4/A/Airplayvideo.element.png)|[simpleicons-4/A/Airplayvideo](../simpleicons-4/A/Airplayvideo.md)
 |![Airtable](../simpleicons-4/A/Airtable.element.png)|[simpleicons-4/A/Airtable](../simpleicons-4/A/Airtable.md)
 |![Alfaromeo](../simpleicons-4/A/Alfaromeo.element.png)|[simpleicons-4/A/Alfaromeo](../simpleicons-4/A/Alfaromeo.md)
 |![Algolia](../simpleicons-4/A/Algolia.element.png)|[simpleicons-4/A/Algolia](../simpleicons-4/A/Algolia.md)
+|![Alibabacloud](../simpleicons-4/A/Alibabacloud.element.png)|[simpleicons-4/A/Alibabacloud](../simpleicons-4/A/Alibabacloud.md)
 |![Aliexpress](../simpleicons-4/A/Aliexpress.element.png)|[simpleicons-4/A/Aliexpress](../simpleicons-4/A/Aliexpress.md)
 |![Alipay](../simpleicons-4/A/Alipay.element.png)|[simpleicons-4/A/Alipay](../simpleicons-4/A/Alipay.md)
 |![Alitalia](../simpleicons-4/A/Alitalia.element.png)|[simpleicons-4/A/Alitalia](../simpleicons-4/A/Alitalia.md)
@@ -77,6 +80,7 @@ The module A contains 163 entries.
 |![Amazondynamodb](../simpleicons-4/A/Amazondynamodb.element.png)|[simpleicons-4/A/Amazondynamodb](../simpleicons-4/A/Amazondynamodb.md)
 |![Amazonfiretv](../simpleicons-4/A/Amazonfiretv.element.png)|[simpleicons-4/A/Amazonfiretv](../simpleicons-4/A/Amazonfiretv.md)
 |![Amazonlumberyard](../simpleicons-4/A/Amazonlumberyard.element.png)|[simpleicons-4/A/Amazonlumberyard](../simpleicons-4/A/Amazonlumberyard.md)
+|![Amazonpay](../simpleicons-4/A/Amazonpay.element.png)|[simpleicons-4/A/Amazonpay](../simpleicons-4/A/Amazonpay.md)
 |![Amazonprime](../simpleicons-4/A/Amazonprime.element.png)|[simpleicons-4/A/Amazonprime](../simpleicons-4/A/Amazonprime.md)
 |![Amd](../simpleicons-4/A/Amd.element.png)|[simpleicons-4/A/Amd](../simpleicons-4/A/Amd.md)
 |![Americanairlines](../simpleicons-4/A/Americanairlines.element.png)|[simpleicons-4/A/Americanairlines](../simpleicons-4/A/Americanairlines.md)
@@ -98,6 +102,7 @@ The module A contains 163 entries.
 |![Antdesign](../simpleicons-4/A/Antdesign.element.png)|[simpleicons-4/A/Antdesign](../simpleicons-4/A/Antdesign.md)
 |![Antena3](../simpleicons-4/A/Antena3.element.png)|[simpleicons-4/A/Antena3](../simpleicons-4/A/Antena3.md)
 |![Anydesk](../simpleicons-4/A/Anydesk.element.png)|[simpleicons-4/A/Anydesk](../simpleicons-4/A/Anydesk.md)
+|![Aol](../simpleicons-4/A/Aol.element.png)|[simpleicons-4/A/Aol](../simpleicons-4/A/Aol.md)
 |![Apache](../simpleicons-4/A/Apache.element.png)|[simpleicons-4/A/Apache](../simpleicons-4/A/Apache.md)
 |![Apacheairflow](../simpleicons-4/A/Apacheairflow.element.png)|[simpleicons-4/A/Apacheairflow](../simpleicons-4/A/Apacheairflow.md)
 |![Apacheant](../simpleicons-4/A/Apacheant.element.png)|[simpleicons-4/A/Apacheant](../simpleicons-4/A/Apacheant.md)

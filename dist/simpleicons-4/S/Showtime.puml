@@ -1,0 +1,19 @@
+@startuml
+sprite $ShowtimeMd [14x14/16z] {
+FOh5WG113CCqJ4dSVxK7IteP16dfOYM07hg8_j-MzfGFruQSyPQqCIEXOFUhTM8SULpVILL62JLAPjEbIef6VPgSyPakfNOrQyJ8XTNuRuS4J8qcAwO9qFNG
+-ITDasp-Uxy
+}
+sprite $ShowtimeLg [20x20/16z] {
+LSy54iH024JH9Z0EzFrlk_7A_l8t2lPqyMufximVyu8pwVmqvBH5pXxa64akmPdJC1Z0uiHUwuRwc5EW1UJ0beyjoA85OypN6eoSQabIqNBjLb390DIP2eZi
+fkWaTOCu_usfq3IqzDtiF4kwmF_V87F3V6n2d5PR1UBxvugZHdrc6xZgPDF5D7FUA8EVkk2in2DHy2HbnWwp28v-
+}
+!procedure Showtime($id, $name="Showtime", $tech="")
+  IconElement($id, 'simpleicons-4/S/Showtime', $name, $tech)
+!endprocedure
+!procedure ShowtimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShowtimeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShowtimeGroup($id, $name='Showtime', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShowtimeLg>', $name, $tech)
+!endprocedure
+@enduml

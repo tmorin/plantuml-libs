@@ -1,6 +1,6 @@
 # D
 
-The module D contains 71 entries.
+The module D contains 74 entries.
 
 
 
@@ -32,6 +32,7 @@ The module D contains 71 entries.
 |![Dell](../simpleicons-4/D/Dell.element.png)|[simpleicons-4/D/Dell](../simpleicons-4/D/Dell.md)
 |![Delonghi](../simpleicons-4/D/Delonghi.element.png)|[simpleicons-4/D/Delonghi](../simpleicons-4/D/Delonghi.md)
 |![Delphi](../simpleicons-4/D/Delphi.element.png)|[simpleicons-4/D/Delphi](../simpleicons-4/D/Delphi.md)
+|![Delta](../simpleicons-4/D/Delta.element.png)|[simpleicons-4/D/Delta](../simpleicons-4/D/Delta.md)
 |![Deno](../simpleicons-4/D/Deno.element.png)|[simpleicons-4/D/Deno](../simpleicons-4/D/Deno.md)
 |![Dependabot](../simpleicons-4/D/Dependabot.element.png)|[simpleicons-4/D/Dependabot](../simpleicons-4/D/Dependabot.md)
 |![Derspiegel](../simpleicons-4/D/Derspiegel.element.png)|[simpleicons-4/D/Derspiegel](../simpleicons-4/D/Derspiegel.md)
@@ -75,6 +76,8 @@ The module D contains 71 entries.
 |![Duckduckgo](../simpleicons-4/D/Duckduckgo.element.png)|[simpleicons-4/D/Duckduckgo](../simpleicons-4/D/Duckduckgo.md)
 |![Dunked](../simpleicons-4/D/Dunked.element.png)|[simpleicons-4/D/Dunked](../simpleicons-4/D/Dunked.md)
 |![Duolingo](../simpleicons-4/D/Duolingo.element.png)|[simpleicons-4/D/Duolingo](../simpleicons-4/D/Duolingo.md)
+|![DWavesystems](../simpleicons-4/D/DWavesystems.element.png)|[simpleicons-4/D/DWavesystems](../simpleicons-4/D/DWavesystems.md)
+|![Dwm](../simpleicons-4/D/Dwm.element.png)|[simpleicons-4/D/Dwm](../simpleicons-4/D/Dwm.md)
 |![Dynamics365](../simpleicons-4/D/Dynamics365.element.png)|[simpleicons-4/D/Dynamics365](../simpleicons-4/D/Dynamics365.md)
 |![Dynatrace](../simpleicons-4/D/Dynatrace.element.png)|[simpleicons-4/D/Dynatrace](../simpleicons-4/D/Dynatrace.md)
 

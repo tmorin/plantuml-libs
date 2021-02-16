@@ -1,6 +1,6 @@
 # F
 
-The module F contains 72 entries.
+The module F contains 73 entries.
 
 
 
@@ -11,6 +11,7 @@ The module F contains 72 entries.
 |![Facebooklive](../simpleicons-4/F/Facebooklive.element.png)|[simpleicons-4/F/Facebooklive](../simpleicons-4/F/Facebooklive.md)
 |![Faceit](../simpleicons-4/F/Faceit.element.png)|[simpleicons-4/F/Faceit](../simpleicons-4/F/Faceit.md)
 |![Facepunch](../simpleicons-4/F/Facepunch.element.png)|[simpleicons-4/F/Facepunch](../simpleicons-4/F/Facepunch.md)
+|![Falcon](../simpleicons-4/F/Falcon.element.png)|[simpleicons-4/F/Falcon](../simpleicons-4/F/Falcon.md)
 |![Fandango](../simpleicons-4/F/Fandango.element.png)|[simpleicons-4/F/Fandango](../simpleicons-4/F/Fandango.md)
 |![Fandom](../simpleicons-4/F/Fandom.element.png)|[simpleicons-4/F/Fandom](../simpleicons-4/F/Fandom.md)
 |![Farfetch](../simpleicons-4/F/Farfetch.element.png)|[simpleicons-4/F/Farfetch](../simpleicons-4/F/Farfetch.md)

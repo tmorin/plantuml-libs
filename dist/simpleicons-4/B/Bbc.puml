@@ -1,0 +1,13 @@
+@startuml
+sprite $BbcMd [14x14/16z] dKV50K0X5BBbzVxJ_ewxD6aH-K3AvGa1sr283GECneYfVJf8F8wdq3drUWAouvCE8rWk9QS_5h43
+sprite $BbcLg [20x20/16z] nKw70SGW2FnFK3hklstiZY2zSxzBzEyq_SnLK4nU4UhE64LTCqP025QNN92bA0DuhL46Tp0e9Mej8Nkj8LBCMjqbhNEC905pjzh-exhvmoQMuvxgBj47
+!procedure Bbc($id, $name="Bbc", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bbc', $name, $tech)
+!endprocedure
+!procedure BbcCard($id, $funcName="", $content="")
+  IconCard($id, '<$BbcMd>', '', $funcName, $content)
+!endprocedure
+!procedure BbcGroup($id, $name='Bbc', $tech='')
+  IconGroup($id, 'IconGroup', '<$BbcLg>', $name, $tech)
+!endprocedure
+@enduml

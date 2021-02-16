@@ -1,6 +1,6 @@
 # C
 
-The module C contains 116 entries.
+The module C contains 122 entries.
 
 
 
@@ -27,12 +27,16 @@ The module C contains 116 entries.
 |![Ceph](../simpleicons-4/C/Ceph.element.png)|[simpleicons-4/C/Ceph](../simpleicons-4/C/Ceph.md)
 |![Cesium](../simpleicons-4/C/Cesium.element.png)|[simpleicons-4/C/Cesium](../simpleicons-4/C/Cesium.md)
 |![Cevo](../simpleicons-4/C/Cevo.element.png)|[simpleicons-4/C/Cevo](../simpleicons-4/C/Cevo.md)
+|![Chainlink](../simpleicons-4/C/Chainlink.element.png)|[simpleicons-4/C/Chainlink](../simpleicons-4/C/Chainlink.md)
+|![Chakraui](../simpleicons-4/C/Chakraui.element.png)|[simpleicons-4/C/Chakraui](../simpleicons-4/C/Chakraui.md)
 |![Chartmogul](../simpleicons-4/C/Chartmogul.element.png)|[simpleicons-4/C/Chartmogul](../simpleicons-4/C/Chartmogul.md)
 |![Chase](../simpleicons-4/C/Chase.element.png)|[simpleicons-4/C/Chase](../simpleicons-4/C/Chase.md)
 |![Checkio](../simpleicons-4/C/Checkio.element.png)|[simpleicons-4/C/Checkio](../simpleicons-4/C/Checkio.md)
 |![Checkmarx](../simpleicons-4/C/Checkmarx.element.png)|[simpleicons-4/C/Checkmarx](../simpleicons-4/C/Checkmarx.md)
 |![Chef](../simpleicons-4/C/Chef.element.png)|[simpleicons-4/C/Chef](../simpleicons-4/C/Chef.md)
 |![Chevrolet](../simpleicons-4/C/Chevrolet.element.png)|[simpleicons-4/C/Chevrolet](../simpleicons-4/C/Chevrolet.md)
+|![Chinaeasternairlines](../simpleicons-4/C/Chinaeasternairlines.element.png)|[simpleicons-4/C/Chinaeasternairlines](../simpleicons-4/C/Chinaeasternairlines.md)
+|![Chinasouthernairlines](../simpleicons-4/C/Chinasouthernairlines.element.png)|[simpleicons-4/C/Chinasouthernairlines](../simpleicons-4/C/Chinasouthernairlines.md)
 |![Chocolatey](../simpleicons-4/C/Chocolatey.element.png)|[simpleicons-4/C/Chocolatey](../simpleicons-4/C/Chocolatey.md)
 |![Chrysler](../simpleicons-4/C/Chrysler.element.png)|[simpleicons-4/C/Chrysler](../simpleicons-4/C/Chrysler.md)
 |![Chupachups](../simpleicons-4/C/Chupachups.element.png)|[simpleicons-4/C/Chupachups](../simpleicons-4/C/Chupachups.md)
@@ -52,6 +56,7 @@ The module C contains 116 entries.
 |![Cloud66](../simpleicons-4/C/Cloud66.element.png)|[simpleicons-4/C/Cloud66](../simpleicons-4/C/Cloud66.md)
 |![Cloudbees](../simpleicons-4/C/Cloudbees.element.png)|[simpleicons-4/C/Cloudbees](../simpleicons-4/C/Cloudbees.md)
 |![Cloudcannon](../simpleicons-4/C/Cloudcannon.element.png)|[simpleicons-4/C/Cloudcannon](../simpleicons-4/C/Cloudcannon.md)
+|![Cloudera](../simpleicons-4/C/Cloudera.element.png)|[simpleicons-4/C/Cloudera](../simpleicons-4/C/Cloudera.md)
 |![Cloudflare](../simpleicons-4/C/Cloudflare.element.png)|[simpleicons-4/C/Cloudflare](../simpleicons-4/C/Cloudflare.md)
 |![Cloudsmith](../simpleicons-4/C/Cloudsmith.element.png)|[simpleicons-4/C/Cloudsmith](../simpleicons-4/C/Cloudsmith.md)
 |![Cloudways](../simpleicons-4/C/Cloudways.element.png)|[simpleicons-4/C/Cloudways](../simpleicons-4/C/Cloudways.md)
@@ -103,6 +108,7 @@ The module C contains 116 entries.
 |![Corsair](../simpleicons-4/C/Corsair.element.png)|[simpleicons-4/C/Corsair](../simpleicons-4/C/Corsair.md)
 |![Couchbase](../simpleicons-4/C/Couchbase.element.png)|[simpleicons-4/C/Couchbase](../simpleicons-4/C/Couchbase.md)
 |![CounterStrike](../simpleicons-4/C/CounterStrike.element.png)|[simpleicons-4/C/CounterStrike](../simpleicons-4/C/CounterStrike.md)
+|![Countingworkspro](../simpleicons-4/C/Countingworkspro.element.png)|[simpleicons-4/C/Countingworkspro](../simpleicons-4/C/Countingworkspro.md)
 |![Coursera](../simpleicons-4/C/Coursera.element.png)|[simpleicons-4/C/Coursera](../simpleicons-4/C/Coursera.md)
 |![Coveralls](../simpleicons-4/C/Coveralls.element.png)|[simpleicons-4/C/Coveralls](../simpleicons-4/C/Coveralls.md)
 |![Cpanel](../simpleicons-4/C/Cpanel.element.png)|[simpleicons-4/C/Cpanel](../simpleicons-4/C/Cpanel.md)

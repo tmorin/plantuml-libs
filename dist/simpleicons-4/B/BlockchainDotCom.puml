@@ -1,0 +1,16 @@
+@startuml
+sprite $BlockchainDotComMd [14x14/16z] JSs50GGX34JHnPtVVxN8dE8FIFBSLg4zd-OcuFyX_W1EZEEUHpp7KizL6FVigWEQlhW6-aHL4PXTj5PRDF6dU5CY2QAKXCCZuKrhemuR
+sprite $BlockchainDotComLg [20x20/16z] {
+NSnN0W0H38JXsQOpzx_jAb7_9_aGjBv4Kc5BCsTEEb6H9shon3jEIw_WfKMJkP5xlwzhh9BdHFgtgYxoUl8ZAPfxF7DzlN-gx7cWax5-c1id-FsTlv1ptJe9
+TlFeUJ6XZWvmyh4N0k33HhWLe6uPVW
+}
+!procedure BlockchainDotCom($id, $name="Blockchain Dot Com", $tech="")
+  IconElement($id, 'simpleicons-4/B/BlockchainDotCom', $name, $tech)
+!endprocedure
+!procedure BlockchainDotComCard($id, $funcName="", $content="")
+  IconCard($id, '<$BlockchainDotComMd>', '', $funcName, $content)
+!endprocedure
+!procedure BlockchainDotComGroup($id, $name='Blockchain Dot Com', $tech='')
+  IconGroup($id, 'IconGroup', '<$BlockchainDotComLg>', $name, $tech)
+!endprocedure
+@enduml

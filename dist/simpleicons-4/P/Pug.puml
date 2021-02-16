@@ -1,0 +1,16 @@
+@startuml
+sprite $PugMd [14x14/16z] XOp50GD124NHKU3tN-twENcuqc-OHLMOdtmjkrAnjPX6WhyLf02pzxleOs1lZ0XTMtTsg8v5hL3eDEUrufoeIyMVQozSL7k_ITnLAdsecT8_JW
+sprite $PugLg [20x20/16z] {
+hSp5WKH120JGGbgWfVBFTZ_hzvbtmS7hn1w2NnRPM_MyHnZAv55yqyC9Z20DlumCaDpQlnUVP951SavkWpV8OWvozidPc1fxfoR7g8Tw4-A7lBnD4BV-U0BL
+kYG5wIXkLgrgDgjM6SvlVU2RJduBmm-9Snyd5F-fcU8DFW
+}
+!procedure Pug($id, $name="Pug", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pug', $name, $tech)
+!endprocedure
+!procedure PugCard($id, $funcName="", $content="")
+  IconCard($id, '<$PugMd>', '', $funcName, $content)
+!endprocedure
+!procedure PugGroup($id, $name='Pug', $tech='')
+  IconGroup($id, 'IconGroup', '<$PugLg>', $name, $tech)
+!endprocedure
+@enduml

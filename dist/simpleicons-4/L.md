@@ -1,6 +1,6 @@
 # L
 
-The module L contains 55 entries.
+The module L contains 56 entries.
 
 
 
@@ -44,6 +44,7 @@ The module L contains 55 entries.
 |![Linuxfoundation](../simpleicons-4/L/Linuxfoundation.element.png)|[simpleicons-4/L/Linuxfoundation](../simpleicons-4/L/Linuxfoundation.md)
 |![Linuxmint](../simpleicons-4/L/Linuxmint.element.png)|[simpleicons-4/L/Linuxmint](../simpleicons-4/L/Linuxmint.md)
 |![Litecoin](../simpleicons-4/L/Litecoin.element.png)|[simpleicons-4/L/Litecoin](../simpleicons-4/L/Litecoin.md)
+|![Livechat](../simpleicons-4/L/Livechat.element.png)|[simpleicons-4/L/Livechat](../simpleicons-4/L/Livechat.md)
 |![Livejournal](../simpleicons-4/L/Livejournal.element.png)|[simpleicons-4/L/Livejournal](../simpleicons-4/L/Livejournal.md)
 |![Livestream](../simpleicons-4/L/Livestream.element.png)|[simpleicons-4/L/Livestream](../simpleicons-4/L/Livestream.md)
 |![Llvm](../simpleicons-4/L/Llvm.element.png)|[simpleicons-4/L/Llvm](../simpleicons-4/L/Llvm.md)

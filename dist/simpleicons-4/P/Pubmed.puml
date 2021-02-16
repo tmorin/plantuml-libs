@@ -1,0 +1,16 @@
+@startuml
+sprite $PubmedMd [14x14/16z] LSV5OGLG30Cmvr6myVxJzZFf9jbHWfUXvFoPOIrvBuraZCUUMW6vpvnvU23djZMuXVRSX0tqStzYi1dNhMpwxDdxEAuMoqbc66uoH4wHUjySk3hFFQs32m
+sprite $PubmedLg [20x20/16z] {
+NSm50a0X20FGpLOGxd_RtpdxgG2rQCCllStn8ugxnH-kvWq8aLyR66PpfBTfzpqI7tjItzR6EcNr_h8GjhBTbRSPrqr2SNbitMObmc7Zh5qOSgBfOnaM80so
+MvihMOXUQRAUi8QCqpKqDtL3KHn9xYPYUn7bYNiL5drRoVl2QYwNuTh4gSG_eH0B
+}
+!procedure Pubmed($id, $name="Pubmed", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pubmed', $name, $tech)
+!endprocedure
+!procedure PubmedCard($id, $funcName="", $content="")
+  IconCard($id, '<$PubmedMd>', '', $funcName, $content)
+!endprocedure
+!procedure PubmedGroup($id, $name='Pubmed', $tech='')
+  IconGroup($id, 'IconGroup', '<$PubmedLg>', $name, $tech)
+!endprocedure
+@enduml

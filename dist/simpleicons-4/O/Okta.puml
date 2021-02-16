@@ -1,0 +1,16 @@
+@startuml
+sprite $OktaMd [14x14/16z] LOs54G0W30E3E-o_BSNfd-PYW0Xj4WG8KvUgXXpJBWPXEDdxF5mn6o16smy74t97m6Co3AvOil0LzY3vEs2U60YVHrW2w
+sprite $OktaLg [20x20/16z] {
+RT150aGX30FGu0xtF-r8cz7Vjy4X50zX71e1bEQXbQ3g-LB_fpWPqlcJC9PqUWHYb-vqHnI8eXir0aXswlO8YX98vXn8hxBchBFM6rQMCPdPkNTcusz63OnQ
+cJKbb_fwJFIauUy
+}
+!procedure Okta($id, $name="Okta", $tech="")
+  IconElement($id, 'simpleicons-4/O/Okta', $name, $tech)
+!endprocedure
+!procedure OktaCard($id, $funcName="", $content="")
+  IconCard($id, '<$OktaMd>', '', $funcName, $content)
+!endprocedure
+!procedure OktaGroup($id, $name='Okta', $tech='')
+  IconGroup($id, 'IconGroup', '<$OktaLg>', $name, $tech)
+!endprocedure
+@enduml

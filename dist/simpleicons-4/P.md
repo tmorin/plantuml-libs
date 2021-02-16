@@ -1,6 +1,6 @@
 # P
 
-The module P contains 112 entries.
+The module P contains 115 entries.
 
 
 
@@ -89,6 +89,7 @@ The module P contains 112 entries.
 |![Powershell](../simpleicons-4/P/Powershell.element.png)|[simpleicons-4/P/Powershell](../simpleicons-4/P/Powershell.md)
 |![PrDotCo](../simpleicons-4/P/PrDotCo.element.png)|[simpleicons-4/P/PrDotCo](../simpleicons-4/P/PrDotCo.md)
 |![PreCommit](../simpleicons-4/P/PreCommit.element.png)|[simpleicons-4/P/PreCommit](../simpleicons-4/P/PreCommit.md)
+|![Premierleague](../simpleicons-4/P/Premierleague.element.png)|[simpleicons-4/P/Premierleague](../simpleicons-4/P/Premierleague.md)
 |![Prestashop](../simpleicons-4/P/Prestashop.element.png)|[simpleicons-4/P/Prestashop](../simpleicons-4/P/Prestashop.md)
 |![Presto](../simpleicons-4/P/Presto.element.png)|[simpleicons-4/P/Presto](../simpleicons-4/P/Presto.md)
 |![Prettier](../simpleicons-4/P/Prettier.element.png)|[simpleicons-4/P/Prettier](../simpleicons-4/P/Prettier.md)
@@ -110,6 +111,8 @@ The module P contains 112 entries.
 |![Protools](../simpleicons-4/P/Protools.element.png)|[simpleicons-4/P/Protools](../simpleicons-4/P/Protools.md)
 |![Proxmox](../simpleicons-4/P/Proxmox.element.png)|[simpleicons-4/P/Proxmox](../simpleicons-4/P/Proxmox.md)
 |![Publons](../simpleicons-4/P/Publons.element.png)|[simpleicons-4/P/Publons](../simpleicons-4/P/Publons.md)
+|![Pubmed](../simpleicons-4/P/Pubmed.element.png)|[simpleicons-4/P/Pubmed](../simpleicons-4/P/Pubmed.md)
+|![Pug](../simpleicons-4/P/Pug.element.png)|[simpleicons-4/P/Pug](../simpleicons-4/P/Pug.md)
 |![Puppet](../simpleicons-4/P/Puppet.element.png)|[simpleicons-4/P/Puppet](../simpleicons-4/P/Puppet.md)
 |![Purescript](../simpleicons-4/P/Purescript.element.png)|[simpleicons-4/P/Purescript](../simpleicons-4/P/Purescript.md)
 |![Pycharm](../simpleicons-4/P/Pycharm.element.png)|[simpleicons-4/P/Pycharm](../simpleicons-4/P/Pycharm.md)

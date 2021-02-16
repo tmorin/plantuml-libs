@@ -1,0 +1,16 @@
+@startuml
+sprite $ChakrauiMd [14x14/16z] HOs50S0m20Il7eFVVzfQt80tMAB-5HU0msld1on7hUsz1x4Y8NtegjhizQi6P7sSyezWwtfv287LD5RSN9sft3B3b-2XDhv-Qg-D3k1jPmDBUDKbhC03
+sprite $ChakrauiLg [20x20/16z] {
+RP1L0eOX20IjjP7xd_OhWJ_dpLcLS1Tni32Y4p3L4KHLVgD-gaKY8rvNzXTmWrHbIScpAQyfJBt-xQPSwxq_FvAgXqXiZ0J0ko3AM7RhbOIuh8QGaoh6c3lB
+zc3wFHirDg0xMFyNO-ftfuf7fqjq-ETu0W
+}
+!procedure Chakraui($id, $name="Chakraui", $tech="")
+  IconElement($id, 'simpleicons-4/C/Chakraui', $name, $tech)
+!endprocedure
+!procedure ChakrauiCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChakrauiMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChakrauiGroup($id, $name='Chakraui', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChakrauiLg>', $name, $tech)
+!endprocedure
+@enduml

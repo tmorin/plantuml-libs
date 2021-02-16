@@ -1,6 +1,6 @@
 # O
 
-The module O contains 45 entries.
+The module O contains 48 entries.
 
 
 
@@ -14,6 +14,7 @@ The module O contains 45 entries.
 |![Oculus](../simpleicons-4/O/Oculus.element.png)|[simpleicons-4/O/Oculus](../simpleicons-4/O/Oculus.md)
 |![Odnoklassniki](../simpleicons-4/O/Odnoklassniki.element.png)|[simpleicons-4/O/Odnoklassniki](../simpleicons-4/O/Odnoklassniki.md)
 |![Okcupid](../simpleicons-4/O/Okcupid.element.png)|[simpleicons-4/O/Okcupid](../simpleicons-4/O/Okcupid.md)
+|![Okta](../simpleicons-4/O/Okta.element.png)|[simpleicons-4/O/Okta](../simpleicons-4/O/Okta.md)
 |![Oneplus](../simpleicons-4/O/Oneplus.element.png)|[simpleicons-4/O/Oneplus](../simpleicons-4/O/Oneplus.md)
 |![Onstar](../simpleicons-4/O/Onstar.element.png)|[simpleicons-4/O/Onstar](../simpleicons-4/O/Onstar.md)
 |![Opel](../simpleicons-4/O/Opel.element.png)|[simpleicons-4/O/Opel](../simpleicons-4/O/Opel.md)
@@ -51,4 +52,6 @@ The module O contains 45 entries.
 |![Overleaf](../simpleicons-4/O/Overleaf.element.png)|[simpleicons-4/O/Overleaf](../simpleicons-4/O/Overleaf.md)
 |![Ovh](../simpleicons-4/O/Ovh.element.png)|[simpleicons-4/O/Ovh](../simpleicons-4/O/Ovh.md)
 |![Owasp](../simpleicons-4/O/Owasp.element.png)|[simpleicons-4/O/Owasp](../simpleicons-4/O/Owasp.md)
+|![Oxygen](../simpleicons-4/O/Oxygen.element.png)|[simpleicons-4/O/Oxygen](../simpleicons-4/O/Oxygen.md)
+|![Oyo](../simpleicons-4/O/Oyo.element.png)|[simpleicons-4/O/Oyo](../simpleicons-4/O/Oyo.md)
 

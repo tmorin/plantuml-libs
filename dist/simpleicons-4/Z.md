@@ -1,6 +1,6 @@
 # Z
 
-The module Z contains 21 entries.
+The module Z contains 22 entries.
 
 
 
@@ -21,6 +21,7 @@ The module Z contains 21 entries.
 |![Zillow](../simpleicons-4/Z/Zillow.element.png)|[simpleicons-4/Z/Zillow](../simpleicons-4/Z/Zillow.md)
 |![Zingat](../simpleicons-4/Z/Zingat.element.png)|[simpleicons-4/Z/Zingat](../simpleicons-4/Z/Zingat.md)
 |![Zoho](../simpleicons-4/Z/Zoho.element.png)|[simpleicons-4/Z/Zoho](../simpleicons-4/Z/Zoho.md)
+|![Zoiper](../simpleicons-4/Z/Zoiper.element.png)|[simpleicons-4/Z/Zoiper](../simpleicons-4/Z/Zoiper.md)
 |![Zomato](../simpleicons-4/Z/Zomato.element.png)|[simpleicons-4/Z/Zomato](../simpleicons-4/Z/Zomato.md)
 |![Zoom](../simpleicons-4/Z/Zoom.element.png)|[simpleicons-4/Z/Zoom](../simpleicons-4/Z/Zoom.md)
 |![Zorin](../simpleicons-4/Z/Zorin.element.png)|[simpleicons-4/Z/Zorin](../simpleicons-4/Z/Zorin.md)

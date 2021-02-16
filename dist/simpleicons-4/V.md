@@ -1,6 +1,6 @@
 # V
 
-The module V contains 41 entries.
+The module V contains 43 entries.
 
 
 
@@ -13,6 +13,8 @@ The module V contains 41 entries.
 |![Vault](../simpleicons-4/V/Vault.element.png)|[simpleicons-4/V/Vault](../simpleicons-4/V/Vault.md)
 |![Vauxhall](../simpleicons-4/V/Vauxhall.element.png)|[simpleicons-4/V/Vauxhall](../simpleicons-4/V/Vauxhall.md)
 |![Vbulletin](../simpleicons-4/V/Vbulletin.element.png)|[simpleicons-4/V/Vbulletin](../simpleicons-4/V/Vbulletin.md)
+|![Vectorlogozone](../simpleicons-4/V/Vectorlogozone.element.png)|[simpleicons-4/V/Vectorlogozone](../simpleicons-4/V/Vectorlogozone.md)
+|![Vectorworks](../simpleicons-4/V/Vectorworks.element.png)|[simpleicons-4/V/Vectorworks](../simpleicons-4/V/Vectorworks.md)
 |![Veeam](../simpleicons-4/V/Veeam.element.png)|[simpleicons-4/V/Veeam](../simpleicons-4/V/Veeam.md)
 |![Veepee](../simpleicons-4/V/Veepee.element.png)|[simpleicons-4/V/Veepee](../simpleicons-4/V/Veepee.md)
 |![Venmo](../simpleicons-4/V/Venmo.element.png)|[simpleicons-4/V/Venmo](../simpleicons-4/V/Venmo.md)

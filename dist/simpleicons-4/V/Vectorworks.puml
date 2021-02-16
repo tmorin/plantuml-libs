@@ -1,0 +1,19 @@
+@startuml
+sprite $VectorworksMd [14x14/16z] {
+HOvL0i0m2CNowCfQcDp_j7F1ynL0FMefDRe0QbQ1ZWNo45Sed9uNN9WMZdNZ6jvSi7I81PG565UqZi15MbspdUG2Oc80bE50MK_0ssKW6fVXjnCE-FlP2M0j
+ZsW6x
+}
+sprite $VectorworksLg [20x20/16z] {
+RT05OWKW283XNmMU0NB_qwvORv_T0J1EB1En5MT0KVSfVSXqLygy1iNkhAxeVEenOUX7rqUdSjpumRo50tgKpy9jJK3oD6YU0injmaTBqXiWBWF0Si5E0nXH
+VJsoSswlFfEwP1gs011VioePj5x3Evmt9uNYzd5do_Dvvw6rCuy70Ftglt_m_r-1HapfNMQ4yg7PzWZVrW1u1W
+}
+!procedure Vectorworks($id, $name="Vectorworks", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vectorworks', $name, $tech)
+!endprocedure
+!procedure VectorworksCard($id, $funcName="", $content="")
+  IconCard($id, '<$VectorworksMd>', '', $funcName, $content)
+!endprocedure
+!procedure VectorworksGroup($id, $name='Vectorworks', $tech='')
+  IconGroup($id, 'IconGroup', '<$VectorworksLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ChinaeasternairlinesMd [14x14/16z] PSpL0SKm5CDGXtFH-q_x6DlpB-6kj9lUAnw6YAYkXhlE6vy5ToN967WnqWfU5Yb0wNEj8KfwtS7Oe-8nI7fxHNU1foQa6dV3-v-jp3KgxbgI4nzbYiw2ioi
+sprite $ChinaeasternairlinesLg [20x20/16z] {
+TP050iGm20Jtufx___POwZPj30Ti_0Yu3f5Pi1ORlYkZ9xyPsgcCP0_7jaWC3Z95pU94e2ZZZ1qYYb2CTS6jmP8yGwwzrnoiv6Si4vkSBLfMCfNI6N5BE-Q6
+Ft8claLJJtrgrbmFLn8rXqsrbRrN52RHufpVtIdi7bT2vPGihd2QpF797m
+}
+!procedure Chinaeasternairlines($id, $name="Chinaeasternairlines", $tech="")
+  IconElement($id, 'simpleicons-4/C/Chinaeasternairlines', $name, $tech)
+!endprocedure
+!procedure ChinaeasternairlinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChinaeasternairlinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChinaeasternairlinesGroup($id, $name='Chinaeasternairlines', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChinaeasternairlinesLg>', $name, $tech)
+!endprocedure
+@enduml

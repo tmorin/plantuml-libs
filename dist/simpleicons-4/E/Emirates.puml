@@ -1,0 +1,19 @@
+@startuml
+sprite $EmiratesMd [14x14/16z] {
+FOd50KDH3CF2SHxkFstxMITReekMvlG1u7sQvJJULzBt-rYP1TwVPWupWpwl-aWAuyhZHG6Pgt8SMJJRmIuJEXyYdNk03jGpqdoOdksmgYhWv3FQMWkghT4D
+aypTp_G7
+}
+sprite $EmiratesLg [20x20/16z] {
+LSy54aGn20FGK4XRg73_qwxlbpUUGV4ZkwCHDx83Jjpvq3ISw674BQkkAmVichKEdQcNka8KQHBjscj5A91ggvoPxpLcA6c2ygqbOynXA4vmVejRru-QpLQl
+yYxJaJzRUmXUJC6NQZsDybzRNQCqQ6hqtnVQTylwkK_w-GLKG4i5VtziBozM6E2l3iotzgvEuaTRxwozHqxSwCfqmTiJ
+}
+!procedure Emirates($id, $name="Emirates", $tech="")
+  IconElement($id, 'simpleicons-4/E/Emirates', $name, $tech)
+!endprocedure
+!procedure EmiratesCard($id, $funcName="", $content="")
+  IconCard($id, '<$EmiratesMd>', '', $funcName, $content)
+!endprocedure
+!procedure EmiratesGroup($id, $name='Emirates', $tech='')
+  IconGroup($id, 'IconGroup', '<$EmiratesLg>', $name, $tech)
+!endprocedure
+@enduml

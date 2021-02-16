@@ -1,0 +1,16 @@
+@startuml
+sprite $TampermonkeyMd [14x14/16z] dSVL0SLG309GSjq8-q_xfFxT4wLJ5mRg8Uk9UctMvfBtEYKs0C4LVwUf6dxw-6_plANMyBTwsixwxqHwWZMf6w8NowJhZopu0W
+sprite $TampermonkeyLg [20x20/16z] {
+nSnN0eGm24LHr50c4Dx-LsllBc3krqc18dWb98PNHlZ6-1RuN-a_tnI_cYky9w8oEtb6vpDQHqi5u1LTe1fjHTkXCDbPVKUvxY9sIBRzUG3wJHw0xPiHwwM2
+nH3AsZ3NZCNNFoKIHvd1H1C
+}
+!procedure Tampermonkey($id, $name="Tampermonkey", $tech="")
+  IconElement($id, 'simpleicons-4/T/Tampermonkey', $name, $tech)
+!endprocedure
+!procedure TampermonkeyCard($id, $funcName="", $content="")
+  IconCard($id, '<$TampermonkeyMd>', '', $funcName, $content)
+!endprocedure
+!procedure TampermonkeyGroup($id, $name='Tampermonkey', $tech='')
+  IconGroup($id, 'IconGroup', '<$TampermonkeyLg>', $name, $tech)
+!endprocedure
+@enduml

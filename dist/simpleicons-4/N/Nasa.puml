@@ -1,0 +1,13 @@
+@startuml
+sprite $NasaMd [14x14/16z] fOp70SGm408LDW6h_ikzirykG8HvphZDVD5SjOy5iKg3300KV9CU0VLaf4uOrbBNI85QWv_a9dy
+sprite $NasaLg [20x20/16z] pOh70GL124APf2x8zD_j3rtikn3n8jGRjGSVJ4g1r49tmn6-XnsvfYznJY-b8iMk_DyyzrBmyVhPhAOAFdkMxGRC2FakK6iCiW88IKyKi0eluWi
+!procedure Nasa($id, $name="Nasa", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nasa', $name, $tech)
+!endprocedure
+!procedure NasaCard($id, $funcName="", $content="")
+  IconCard($id, '<$NasaMd>', '', $funcName, $content)
+!endprocedure
+!procedure NasaGroup($id, $name='Nasa', $tech='')
+  IconGroup($id, 'IconGroup', '<$NasaLg>', $name, $tech)
+!endprocedure
+@enduml

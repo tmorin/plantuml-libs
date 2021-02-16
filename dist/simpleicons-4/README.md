@@ -35,32 +35,32 @@ include('simpleicons-4/style')
 The package provides 26 modules.
 
 
-- [A](A.md) with 163 elements
-- [B](B.md) with 70 elements
-- [C](C.md) with 116 elements
-- [D](D.md) with 71 elements
-- [E](E.md) with 51 elements
-- [F](F.md) with 72 elements
+- [A](A.md) with 168 elements
+- [B](B.md) with 72 elements
+- [C](C.md) with 122 elements
+- [D](D.md) with 74 elements
+- [E](E.md) with 52 elements
+- [F](F.md) with 73 elements
 - [G](G.md) with 100 elements
 - [H](H.md) with 58 elements
 - [I](I.md) with 47 elements
-- [J](J.md) with 36 elements
+- [J](J.md) with 37 elements
 - [K](K.md) with 38 elements
-- [L](L.md) with 55 elements
-- [M](M.md) with 102 elements
-- [N](N.md) with 50 elements
-- [O](O.md) with 45 elements
-- [P](P.md) with 112 elements
+- [L](L.md) with 56 elements
+- [M](M.md) with 104 elements
+- [N](N.md) with 52 elements
+- [O](O.md) with 48 elements
+- [P](P.md) with 115 elements
 - [Q](Q.md) with 21 elements
-- [R](R.md) with 65 elements
-- [S](S.md) with 173 elements
-- [T](T.md) with 93 elements
+- [R](R.md) with 66 elements
+- [S](S.md) with 179 elements
+- [T](T.md) with 96 elements
 - [U](U.md) with 27 elements
-- [V](V.md) with 41 elements
-- [W](W.md) with 57 elements
+- [V](V.md) with 43 elements
+- [W](W.md) with 58 elements
 - [X](X.md) with 16 elements
 - [Y](Y.md) with 16 elements
-- [Z](Z.md) with 21 elements
+- [Z](Z.md) with 22 elements
 
 # Examples
 

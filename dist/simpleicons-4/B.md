@@ -1,6 +1,6 @@
 # B
 
-The module B contains 70 entries.
+The module B contains 72 entries.
 
 
 
@@ -21,6 +21,7 @@ The module B contains 70 entries.
 |![Bata](../simpleicons-4/B/Bata.element.png)|[simpleicons-4/B/Bata](../simpleicons-4/B/Bata.md)
 |![Bathasu](../simpleicons-4/B/Bathasu.element.png)|[simpleicons-4/B/Bathasu](../simpleicons-4/B/Bathasu.md)
 |![BattleDotNet](../simpleicons-4/B/BattleDotNet.element.png)|[simpleicons-4/B/BattleDotNet](../simpleicons-4/B/BattleDotNet.md)
+|![Bbc](../simpleicons-4/B/Bbc.element.png)|[simpleicons-4/B/Bbc](../simpleicons-4/B/Bbc.md)
 |![Bbciplayer](../simpleicons-4/B/Bbciplayer.element.png)|[simpleicons-4/B/Bbciplayer](../simpleicons-4/B/Bbciplayer.md)
 |![Beatport](../simpleicons-4/B/Beatport.element.png)|[simpleicons-4/B/Beatport](../simpleicons-4/B/Beatport.md)
 |![Beats](../simpleicons-4/B/Beats.element.png)|[simpleicons-4/B/Beats](../simpleicons-4/B/Beats.md)
@@ -44,6 +45,7 @@ The module B contains 70 entries.
 |![Blazemeter](../simpleicons-4/B/Blazemeter.element.png)|[simpleicons-4/B/Blazemeter](../simpleicons-4/B/Blazemeter.md)
 |![Blazor](../simpleicons-4/B/Blazor.element.png)|[simpleicons-4/B/Blazor](../simpleicons-4/B/Blazor.md)
 |![Blender](../simpleicons-4/B/Blender.element.png)|[simpleicons-4/B/Blender](../simpleicons-4/B/Blender.md)
+|![BlockchainDotCom](../simpleicons-4/B/BlockchainDotCom.element.png)|[simpleicons-4/B/BlockchainDotCom](../simpleicons-4/B/BlockchainDotCom.md)
 |![Blogger](../simpleicons-4/B/Blogger.element.png)|[simpleicons-4/B/Blogger](../simpleicons-4/B/Blogger.md)
 |![Bloglovin](../simpleicons-4/B/Bloglovin.element.png)|[simpleicons-4/B/Bloglovin](../simpleicons-4/B/Bloglovin.md)
 |![Blueprint](../simpleicons-4/B/Blueprint.element.png)|[simpleicons-4/B/Blueprint](../simpleicons-4/B/Blueprint.md)

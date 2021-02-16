@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the Sfml element
+include('simpleicons-4/S/Sfml')
+Sfml('sfml', 'Sfml', 'an optional tech field')
+@enduml

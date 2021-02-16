@@ -1,0 +1,16 @@
+@startuml
+sprite $VectorlogozoneMd [14x14/16z] DSk50S0W34JHmvs__xOjzd1oiSvP_Mm3fv1BMY_J8IbssCNE238HeYG7PJLCggG4VaKQm-oWbWX-9R8MCoddQwkClOu0Vf2qx6W7fwi0NO-75Nm6M2qV
+sprite $VectorlogozoneLg [20x20/16z] {
+NP073aGX24G1U-N-jrqK_24xAKoUUJO0H0HD7Cmx7a94ZorcJW2fxBMACXp2TW2ACgUnAQYG5RMJB8_RghJorwAkcc5taBgE73vLbIGpoyp6mcPkCeSmLLMU
+22IemqjXvdXl4Zz6zmvTJtNoGDrLOoSMKxsyxq4kdK-gH-TClRYNz_inBtlr1m
+}
+!procedure Vectorlogozone($id, $name="Vectorlogozone", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vectorlogozone', $name, $tech)
+!endprocedure
+!procedure VectorlogozoneCard($id, $funcName="", $content="")
+  IconCard($id, '<$VectorlogozoneMd>', '', $funcName, $content)
+!endprocedure
+!procedure VectorlogozoneGroup($id, $name='Vectorlogozone', $tech='')
+  IconGroup($id, 'IconGroup', '<$VectorlogozoneLg>', $name, $tech)
+!endprocedure
+@enduml
