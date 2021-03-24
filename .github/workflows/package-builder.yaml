@@ -1,0 +1,70 @@
+name: Package Builder
+
+on:
+#  push:
+  workflow_dispatch:
+    inputs:
+      pkgName:
+        description: The name of the package.
+        required: true
+      pkgVersion:
+        description: The version of the package.
+        required: false
+
+jobs:
+  build:
+    name: Build a package
+    runs-on: ubuntu-20.04
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          persist-credentials: false # otherwise, the token used is the GITHUB_TOKEN, instead of your personal token
+          fetch-depth: 0 # otherwise, you will failed to push refs to dest repo
+
+      - name: Install system dependencies
+        run: |
+          echo change
+          sudo add-apt-repository ppa:inkscape.dev/stable
+          sudo apt update
+          sudo apt-get install -y inkscape imagemagick graphviz
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '14.x'
+      - uses: actions/setup-java@v1
+        with:
+          java-version: '11'
+
+      - name: Cache Node.js modules
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.OS }}-node-
+            ${{ runner.OS }}-
+
+      - name: Install dependencies
+        run: npm ci --no-progress
+      - name: Generate package
+        run: node bin/glib.js --pn "${{ github.event.inputs.pkgName }}" -c build -c package --jc "$JAVA_HOME/bin/java"
+#        run: node bin/glib.js --pn c4model -c build -c package --jc "$JAVA_HOME/bin/java"
+
+      - name: Format the commit message
+        uses: haya14busa/action-cond@v1
+        id: commit_message
+        with:
+          cond: "${{ github.event.inputs.pkgVersion != null && github.event.inputs.pkgVersion != '' }}"
+          if_true: "feat(${{ github.event.inputs.name }}): upgrade to ${{ github.event.inputs.pkgVersion }}"
+          if_false: "fix(${{ github.event.inputs.name }}): refresh the package"
+      - name: Commit changes
+        run: |
+          git config --local user.email "package_builder@users.noreply.github.com"
+          git config --local user.name "package_builder"
+          git add -A
+          #git commit -m 'feat(c4model): refresh assets'
+          git commit -m "${{ steps.commit_message.outputs.value }}"
+      - name: Push the changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: ${{ github.ref }}
