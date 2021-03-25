@@ -1,0 +1,19 @@
+@startuml
+sprite $ApostropheMd [14x14/16z] {
+DOe55aCX3C3w7yLgkVzjjqw2auXiBsZYaKUJFoe15VQrAL1wrldA0RN93QrNBpkBirRHYMt3BdOm6gyut4lIwEIkpghLZSqt0lQw8_eHEy4jYaOVvK-gY7IK
+VjPutry
+}
+sprite $ApostropheLg [20x20/16z] {
+LP275GGX24H1mGpqt-sfhFfkDlh9040iNUse8KmXDx6h4HOQzgUEq1pfSsLOxqAHmeLjirZLg1qckDvfddErex1ZosJ9D3ElxEIbYAXQvb6YpZ1FsqLDU9rd
+oCcYmvHbiWdwnofqgzpoodK6JObamgnsuM2hz6QMtStiXF9fkkp-UGv7vUI9l3liyY8Hq4l_Bp2C1wGnmX9cMKtNJC713m
+}
+!procedure Apostrophe($id, $name="Apostrophe", $tech="")
+  IconElement($id, 'simpleicons-4/A/Apostrophe', $name, $tech)
+!endprocedure
+!procedure ApostropheCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApostropheMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApostropheGroup($id, $name='Apostrophe', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApostropheLg>', $name, $tech)
+!endprocedure
+@enduml

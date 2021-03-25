@@ -1,0 +1,16 @@
+@startuml
+sprite $SurveymonkeyMd [14x14/16z] XKj50eHG57g_4xZ_QMTiNIaRshwH_Qtz68y24l9XkZRqlH66DA2oN2BeB4PpH3HGTJzKiO-cjhj5Q59mcuEuF7FPkvBj5Ny
+sprite $SurveymonkeyLg [20x20/16z] {
+hO-r0GCn40J5qk7sN-qpf_Q4SxZXB-JnDQre-Jg2b_WKiJiMlDysAGuqdKvm8OVgW8t5wp2W7vDRjRLrOfjc1P2l7xUTxekypiL5kPequBgMW7PSR5SQB70V
+R93xA-CjTgLhDb8Dlp43
+}
+!procedure Surveymonkey($id, $name="Surveymonkey", $tech="")
+  IconElement($id, 'simpleicons-4/S/Surveymonkey', $name, $tech)
+!endprocedure
+!procedure SurveymonkeyCard($id, $funcName="", $content="")
+  IconCard($id, '<$SurveymonkeyMd>', '', $funcName, $content)
+!endprocedure
+!procedure SurveymonkeyGroup($id, $name='Surveymonkey', $tech='')
+  IconGroup($id, 'IconGroup', '<$SurveymonkeyLg>', $name, $tech)
+!endprocedure
+@enduml

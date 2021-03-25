@@ -1,6 +1,6 @@
 # V
 
-The module V contains 43 entries.
+The module V contains 45 entries.
 
 
 
@@ -8,8 +8,10 @@ The module V contains 43 entries.
 |:---:|---|
 |![V](../simpleicons-4/V/V.element.png)|[simpleicons-4/V/V](../simpleicons-4/V/V.md)
 |![V8](../simpleicons-4/V/V8.element.png)|[simpleicons-4/V/V8](../simpleicons-4/V/V8.md)
+|![Vaadin](../simpleicons-4/V/Vaadin.element.png)|[simpleicons-4/V/Vaadin](../simpleicons-4/V/Vaadin.md)
 |![Vagrant](../simpleicons-4/V/Vagrant.element.png)|[simpleicons-4/V/Vagrant](../simpleicons-4/V/Vagrant.md)
 |![Valve](../simpleicons-4/V/Valve.element.png)|[simpleicons-4/V/Valve](../simpleicons-4/V/Valve.md)
+|![Vapor](../simpleicons-4/V/Vapor.element.png)|[simpleicons-4/V/Vapor](../simpleicons-4/V/Vapor.md)
 |![Vault](../simpleicons-4/V/Vault.element.png)|[simpleicons-4/V/Vault](../simpleicons-4/V/Vault.md)
 |![Vauxhall](../simpleicons-4/V/Vauxhall.element.png)|[simpleicons-4/V/Vauxhall](../simpleicons-4/V/Vauxhall.md)
 |![Vbulletin](../simpleicons-4/V/Vbulletin.element.png)|[simpleicons-4/V/Vbulletin](../simpleicons-4/V/Vbulletin.md)

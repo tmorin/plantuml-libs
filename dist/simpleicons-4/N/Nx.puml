@@ -1,0 +1,16 @@
+@startuml
+sprite $NxMd [14x14/16z] VKrL0a0X3C9Q6EF-jttfh-i474Ga0LNorv4Tc9JTiMBSlhi9fS7NahjR57_YBS9e4Mi6NIo2p4BEHGNoVLCmEScuITBJrRlLXmdIRlPoipV1MIu
+sprite $NxLg [20x20/16z] {
+fP1N0iGW44BHZBrm_zikplRlaDWUM753PXRKHBFuONkpgAdSvSCenSDO_rW72bV-OqomkHfWhJTxiOMqvMGV50WCCfUvtPnB7hcloJaeXwEslZZ5eb4wYGnS
+kU_3u1br6wJGd4N59YLpw0o5msUlS22vn4BL6Fbr6RDdtj_WIeQRUW
+}
+!procedure Nx($id, $name="Nx", $tech="")
+  IconElement($id, 'simpleicons-4/N/Nx', $name, $tech)
+!endprocedure
+!procedure NxCard($id, $funcName="", $content="")
+  IconCard($id, '<$NxMd>', '', $funcName, $content)
+!endprocedure
+!procedure NxGroup($id, $name='Nx', $tech='')
+  IconGroup($id, 'IconGroup', '<$NxLg>', $name, $tech)
+!endprocedure
+@enduml

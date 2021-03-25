@@ -1,0 +1,19 @@
+@startuml
+sprite $DatabricksMd [14x14/16z] {
+BOw50S0W30JZyfJzrorsI5neeSY4qKKAgjroZ8JJmaOGOGOzn3Iwv1gSNwfe9s-z9NBEP8CxRDcCK3X7yBQv41nGnRA_58dbh3hfsSCvMwMJRIXnOUajYc9Q
+R7q_UXZUqZy
+}
+sprite $DatabricksLg [20x20/16z] {
+LL250GGX3AjYRRdzjttoVi4rGY_qchCwqnzarZZRGZ_qMcV9v-1pqolqDTEeXbSQwRyNFawthw0Rh4GjblrsTCM5ZrfE-T1dfx2iHZnoOEiCJ7xftf6A2-wu
+hfb6bUHxdGMEU3wrr3xzU8hbKHDgHJtJILQsbkUwnOSty3OKH-0jyFPwyTQBLmnClCgzWk7O26zhwKk4BF02q3pvdjKhqzvhAjq0ti_y0G
+}
+!procedure Databricks($id, $name="Databricks", $tech="")
+  IconElement($id, 'simpleicons-4/D/Databricks', $name, $tech)
+!endprocedure
+!procedure DatabricksCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatabricksMd>', '', $funcName, $content)
+!endprocedure
+!procedure DatabricksGroup($id, $name='Databricks', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatabricksLg>', $name, $tech)
+!endprocedure
+@enduml

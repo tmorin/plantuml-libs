@@ -1,0 +1,13 @@
+@startuml
+sprite $NamebaseMd [14x14/16z] hOf50G0W00E7E-kV5eS4t6joU2ZIOYAL4hUPJB86uPC0F3T50iBmaW5NffRoh1RvE6wTStC0H1aAjZ78eua_hGC
+sprite $NamebaseLg [20x20/16z] pOx50GL124E1SKt_rNx9h5UmxuAJo9q4m1wzVFOqf9oYNNkfuyyegcqcBZNiJ2_Ari05pyEAAyD4pEzdM1IHL9Zru5pT5_jamizh70GayRERAx-gAMtcr_U-
+!procedure Namebase($id, $name="Namebase", $tech="")
+  IconElement($id, 'simpleicons-4/N/Namebase', $name, $tech)
+!endprocedure
+!procedure NamebaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$NamebaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure NamebaseGroup($id, $name='Namebase', $tech='')
+  IconGroup($id, 'IconGroup', '<$NamebaseLg>', $name, $tech)
+!endprocedure
+@enduml

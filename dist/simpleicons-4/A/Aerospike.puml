@@ -1,0 +1,13 @@
+@startuml
+sprite $AerospikeMd [14x14/16z] bOj50e1G24ID7pJtFwqvkkTjO2hh-B3_jx7FxvVMDiNFRMWEA6-RvAEWnqxzKT2qTSUFjMM14m
+sprite $AerospikeLg [20x20/16z] jKwr0OH046GLM-c_sdTEqsV2yRmN5YDp47f7n8wWrZAk072sZ0dWOTIuJaPvMHmhvxny77PnLvIEz2jR9qWlhbxPS17F-J9eJZWlvr_n1
+!procedure Aerospike($id, $name="Aerospike", $tech="")
+  IconElement($id, 'simpleicons-4/A/Aerospike', $name, $tech)
+!endprocedure
+!procedure AerospikeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AerospikeMd>', '', $funcName, $content)
+!endprocedure
+!procedure AerospikeGroup($id, $name='Aerospike', $tech='')
+  IconGroup($id, 'IconGroup', '<$AerospikeLg>', $name, $tech)
+!endprocedure
+@enduml

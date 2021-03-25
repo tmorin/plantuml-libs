@@ -1,0 +1,19 @@
+@startuml
+sprite $AirasiaMd [14x14/16z] {
+LOq50aCn34AXgmkv_st7VFzLuW7WY2U3C4MlI0LWYIy5GpPd7Xs5-9m0a50ZkeDbdu3TxQWwlO7v6UvnYFsAAbXleBpjDMUIlJxaiFRLFQPqLGUAVe5XzxhT
+QVSE
+}
+sprite $AirasiaLg [20x20/16z] {
+RT350KCX40JGGGQ7xR_ROFd-RiWgEfDbomORYsoLM89SXEVLlZIK1oBNbTnPNrA8hUTKCdbiumTbYDZcboI31fZ7NotTp5O0qqPod0KJO5TIVxr3R5a1wOYj
+w3IwSjRWjHLX7a-DWFPQspOggZrRg_B7pnryx-gvqqqnrNwHg33y
+}
+!procedure Airasia($id, $name="Airasia", $tech="")
+  IconElement($id, 'simpleicons-4/A/Airasia', $name, $tech)
+!endprocedure
+!procedure AirasiaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AirasiaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AirasiaGroup($id, $name='Airasia', $tech='')
+  IconGroup($id, 'IconGroup', '<$AirasiaLg>', $name, $tech)
+!endprocedure
+@enduml

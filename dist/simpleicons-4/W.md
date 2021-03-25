@@ -1,6 +1,6 @@
 # W
 
-The module W contains 58 entries.
+The module W contains 60 entries.
 
 
 
@@ -10,6 +10,7 @@ The module W contains 58 entries.
 |![Wagtail](../simpleicons-4/W/Wagtail.element.png)|[simpleicons-4/W/Wagtail](../simpleicons-4/W/Wagtail.md)
 |![Wakatime](../simpleicons-4/W/Wakatime.element.png)|[simpleicons-4/W/Wakatime](../simpleicons-4/W/Wakatime.md)
 |![Walkman](../simpleicons-4/W/Walkman.element.png)|[simpleicons-4/W/Walkman](../simpleicons-4/W/Walkman.md)
+|![Wappalyzer](../simpleicons-4/W/Wappalyzer.element.png)|[simpleicons-4/W/Wappalyzer](../simpleicons-4/W/Wappalyzer.md)
 |![WarnerbrosDot](../simpleicons-4/W/WarnerbrosDot.element.png)|[simpleicons-4/W/WarnerbrosDot](../simpleicons-4/W/WarnerbrosDot.md)
 |![Wattpad](../simpleicons-4/W/Wattpad.element.png)|[simpleicons-4/W/Wattpad](../simpleicons-4/W/Wattpad.md)
 |![Waze](../simpleicons-4/W/Waze.element.png)|[simpleicons-4/W/Waze](../simpleicons-4/W/Waze.md)
@@ -18,6 +19,7 @@ The module W contains 58 entries.
 |![Webassembly](../simpleicons-4/W/Webassembly.element.png)|[simpleicons-4/W/Webassembly](../simpleicons-4/W/Webassembly.md)
 |![Webauthn](../simpleicons-4/W/Webauthn.element.png)|[simpleicons-4/W/Webauthn](../simpleicons-4/W/Webauthn.md)
 |![WebcomponentsDotOrg](../simpleicons-4/W/WebcomponentsDotOrg.element.png)|[simpleicons-4/W/WebcomponentsDotOrg](../simpleicons-4/W/WebcomponentsDotOrg.md)
+|![Webdriverio](../simpleicons-4/W/Webdriverio.element.png)|[simpleicons-4/W/Webdriverio](../simpleicons-4/W/Webdriverio.md)
 |![Webflow](../simpleicons-4/W/Webflow.element.png)|[simpleicons-4/W/Webflow](../simpleicons-4/W/Webflow.md)
 |![Webgl](../simpleicons-4/W/Webgl.element.png)|[simpleicons-4/W/Webgl](../simpleicons-4/W/Webgl.md)
 |![Webmin](../simpleicons-4/W/Webmin.element.png)|[simpleicons-4/W/Webmin](../simpleicons-4/W/Webmin.md)

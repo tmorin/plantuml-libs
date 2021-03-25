@@ -1,11 +1,12 @@
 # S
 
-The module S contains 179 entries.
+The module S contains 191 entries.
 
 
 
 | |Name|
 |:---:|---|
+|![S7Airlines](../simpleicons-4/S/S7Airlines.element.png)|[simpleicons-4/S/S7Airlines](../simpleicons-4/S/S7Airlines.md)
 |![Safari](../simpleicons-4/S/Safari.element.png)|[simpleicons-4/S/Safari](../simpleicons-4/S/Safari.md)
 |![Sahibinden](../simpleicons-4/S/Sahibinden.element.png)|[simpleicons-4/S/Sahibinden](../simpleicons-4/S/Sahibinden.md)
 |![Salesforce](../simpleicons-4/S/Salesforce.element.png)|[simpleicons-4/S/Salesforce](../simpleicons-4/S/Salesforce.md)
@@ -31,9 +32,11 @@ The module S contains 179 entries.
 |![Scrutinizerci](../simpleicons-4/S/Scrutinizerci.element.png)|[simpleicons-4/S/Scrutinizerci](../simpleicons-4/S/Scrutinizerci.md)
 |![Seagate](../simpleicons-4/S/Seagate.element.png)|[simpleicons-4/S/Seagate](../simpleicons-4/S/Seagate.md)
 |![Seat](../simpleicons-4/S/Seat.element.png)|[simpleicons-4/S/Seat](../simpleicons-4/S/Seat.md)
+|![Sefaria](../simpleicons-4/S/Sefaria.element.png)|[simpleicons-4/S/Sefaria](../simpleicons-4/S/Sefaria.md)
 |![Sega](../simpleicons-4/S/Sega.element.png)|[simpleicons-4/S/Sega](../simpleicons-4/S/Sega.md)
 |![Selenium](../simpleicons-4/S/Selenium.element.png)|[simpleicons-4/S/Selenium](../simpleicons-4/S/Selenium.md)
 |![Sellfy](../simpleicons-4/S/Sellfy.element.png)|[simpleicons-4/S/Sellfy](../simpleicons-4/S/Sellfy.md)
+|![SemanticRelease](../simpleicons-4/S/SemanticRelease.element.png)|[simpleicons-4/S/SemanticRelease](../simpleicons-4/S/SemanticRelease.md)
 |![Semanticuireact](../simpleicons-4/S/Semanticuireact.element.png)|[simpleicons-4/S/Semanticuireact](../simpleicons-4/S/Semanticuireact.md)
 |![Semanticweb](../simpleicons-4/S/Semanticweb.element.png)|[simpleicons-4/S/Semanticweb](../simpleicons-4/S/Semanticweb.md)
 |![Semaphoreci](../simpleicons-4/S/Semaphoreci.element.png)|[simpleicons-4/S/Semaphoreci](../simpleicons-4/S/Semaphoreci.md)
@@ -47,6 +50,7 @@ The module S contains 179 entries.
 |![Serverless](../simpleicons-4/S/Serverless.element.png)|[simpleicons-4/S/Serverless](../simpleicons-4/S/Serverless.md)
 |![Sfml](../simpleicons-4/S/Sfml.element.png)|[simpleicons-4/S/Sfml](../simpleicons-4/S/Sfml.md)
 |![Shanghaimetro](../simpleicons-4/S/Shanghaimetro.element.png)|[simpleicons-4/S/Shanghaimetro](../simpleicons-4/S/Shanghaimetro.md)
+|![Sharp](../simpleicons-4/S/Sharp.element.png)|[simpleicons-4/S/Sharp](../simpleicons-4/S/Sharp.md)
 |![Shazam](../simpleicons-4/S/Shazam.element.png)|[simpleicons-4/S/Shazam](../simpleicons-4/S/Shazam.md)
 |![Shell](../simpleicons-4/S/Shell.element.png)|[simpleicons-4/S/Shell](../simpleicons-4/S/Shell.md)
 |![Shenzhenmetro](../simpleicons-4/S/Shenzhenmetro.element.png)|[simpleicons-4/S/Shenzhenmetro](../simpleicons-4/S/Shenzhenmetro.md)
@@ -54,6 +58,7 @@ The module S contains 179 entries.
 |![Shikimori](../simpleicons-4/S/Shikimori.element.png)|[simpleicons-4/S/Shikimori](../simpleicons-4/S/Shikimori.md)
 |![Shopify](../simpleicons-4/S/Shopify.element.png)|[simpleicons-4/S/Shopify](../simpleicons-4/S/Shopify.md)
 |![Shopware](../simpleicons-4/S/Shopware.element.png)|[simpleicons-4/S/Shopware](../simpleicons-4/S/Shopware.md)
+|![Shotcut](../simpleicons-4/S/Shotcut.element.png)|[simpleicons-4/S/Shotcut](../simpleicons-4/S/Shotcut.md)
 |![Showpad](../simpleicons-4/S/Showpad.element.png)|[simpleicons-4/S/Showpad](../simpleicons-4/S/Showpad.md)
 |![Showtime](../simpleicons-4/S/Showtime.element.png)|[simpleicons-4/S/Showtime](../simpleicons-4/S/Showtime.md)
 |![Shutterstock](../simpleicons-4/S/Shutterstock.element.png)|[simpleicons-4/S/Shutterstock](../simpleicons-4/S/Shutterstock.md)
@@ -109,6 +114,7 @@ The module S contains 179 entries.
 |![Spacemacs](../simpleicons-4/S/Spacemacs.element.png)|[simpleicons-4/S/Spacemacs](../simpleicons-4/S/Spacemacs.md)
 |![Spacex](../simpleicons-4/S/Spacex.element.png)|[simpleicons-4/S/Spacex](../simpleicons-4/S/Spacex.md)
 |![Sparkar](../simpleicons-4/S/Sparkar.element.png)|[simpleicons-4/S/Sparkar](../simpleicons-4/S/Sparkar.md)
+|![Sparkasse](../simpleicons-4/S/Sparkasse.element.png)|[simpleicons-4/S/Sparkasse](../simpleicons-4/S/Sparkasse.md)
 |![Sparkfun](../simpleicons-4/S/Sparkfun.element.png)|[simpleicons-4/S/Sparkfun](../simpleicons-4/S/Sparkfun.md)
 |![Sparkpost](../simpleicons-4/S/Sparkpost.element.png)|[simpleicons-4/S/Sparkpost](../simpleicons-4/S/Sparkpost.md)
 |![Spdx](../simpleicons-4/S/Spdx.element.png)|[simpleicons-4/S/Spdx](../simpleicons-4/S/Spdx.md)
@@ -152,6 +158,7 @@ The module S contains 179 entries.
 |![Steinberg](../simpleicons-4/S/Steinberg.element.png)|[simpleicons-4/S/Steinberg](../simpleicons-4/S/Steinberg.md)
 |![Stellar](../simpleicons-4/S/Stellar.element.png)|[simpleicons-4/S/Stellar](../simpleicons-4/S/Stellar.md)
 |![Stencyl](../simpleicons-4/S/Stencyl.element.png)|[simpleicons-4/S/Stencyl](../simpleicons-4/S/Stencyl.md)
+|![Stimulus](../simpleicons-4/S/Stimulus.element.png)|[simpleicons-4/S/Stimulus](../simpleicons-4/S/Stimulus.md)
 |![Stitcher](../simpleicons-4/S/Stitcher.element.png)|[simpleicons-4/S/Stitcher](../simpleicons-4/S/Stitcher.md)
 |![Stmicroelectronics](../simpleicons-4/S/Stmicroelectronics.element.png)|[simpleicons-4/S/Stmicroelectronics](../simpleicons-4/S/Stmicroelectronics.md)
 |![Storify](../simpleicons-4/S/Storify.element.png)|[simpleicons-4/S/Storify](../simpleicons-4/S/Storify.md)
@@ -172,7 +179,10 @@ The module S contains 179 entries.
 |![Subversion](../simpleicons-4/S/Subversion.element.png)|[simpleicons-4/S/Subversion](../simpleicons-4/S/Subversion.md)
 |![Suckless](../simpleicons-4/S/Suckless.element.png)|[simpleicons-4/S/Suckless](../simpleicons-4/S/Suckless.md)
 |![Sumologic](../simpleicons-4/S/Sumologic.element.png)|[simpleicons-4/S/Sumologic](../simpleicons-4/S/Sumologic.md)
+|![Supabase](../simpleicons-4/S/Supabase.element.png)|[simpleicons-4/S/Supabase](../simpleicons-4/S/Supabase.md)
 |![Superuser](../simpleicons-4/S/Superuser.element.png)|[simpleicons-4/S/Superuser](../simpleicons-4/S/Superuser.md)
+|![Surveymonkey](../simpleicons-4/S/Surveymonkey.element.png)|[simpleicons-4/S/Surveymonkey](../simpleicons-4/S/Surveymonkey.md)
+|![Suse](../simpleicons-4/S/Suse.element.png)|[simpleicons-4/S/Suse](../simpleicons-4/S/Suse.md)
 |![Suzuki](../simpleicons-4/S/Suzuki.element.png)|[simpleicons-4/S/Suzuki](../simpleicons-4/S/Suzuki.md)
 |![Svelte](../simpleicons-4/S/Svelte.element.png)|[simpleicons-4/S/Svelte](../simpleicons-4/S/Svelte.md)
 |![Svg](../simpleicons-4/S/Svg.element.png)|[simpleicons-4/S/Svg](../simpleicons-4/S/Svg.md)
@@ -180,9 +190,11 @@ The module S contains 179 entries.
 |![Swagger](../simpleicons-4/S/Swagger.element.png)|[simpleicons-4/S/Swagger](../simpleicons-4/S/Swagger.md)
 |![Swarm](../simpleicons-4/S/Swarm.element.png)|[simpleicons-4/S/Swarm](../simpleicons-4/S/Swarm.md)
 |![Swift](../simpleicons-4/S/Swift.element.png)|[simpleicons-4/S/Swift](../simpleicons-4/S/Swift.md)
+|![Swiggy](../simpleicons-4/S/Swiggy.element.png)|[simpleicons-4/S/Swiggy](../simpleicons-4/S/Swiggy.md)
 |![Swiper](../simpleicons-4/S/Swiper.element.png)|[simpleicons-4/S/Swiper](../simpleicons-4/S/Swiper.md)
 |![Symantec](../simpleicons-4/S/Symantec.element.png)|[simpleicons-4/S/Symantec](../simpleicons-4/S/Symantec.md)
 |![Symfony](../simpleicons-4/S/Symfony.element.png)|[simpleicons-4/S/Symfony](../simpleicons-4/S/Symfony.md)
 |![Symphony](../simpleicons-4/S/Symphony.element.png)|[simpleicons-4/S/Symphony](../simpleicons-4/S/Symphony.md)
+|![Sympy](../simpleicons-4/S/Sympy.element.png)|[simpleicons-4/S/Sympy](../simpleicons-4/S/Sympy.md)
 |![Synology](../simpleicons-4/S/Synology.element.png)|[simpleicons-4/S/Synology](../simpleicons-4/S/Synology.md)
 

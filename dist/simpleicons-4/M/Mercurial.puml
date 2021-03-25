@@ -1,0 +1,19 @@
+@startuml
+sprite $MercurialMd [14x14/16z] {
+BSc54KCn3C1GXS6q_xRrl-O5TIOLYNGBV7fyVFpBuc-IYh-oIc7SLpxLHhlwwifUz7EkPOcitQ3qCREMa4gUxg7pvci-O8GDoLV3J-LqzWN4nwfbCgLbZRC6
+zToSVcg5iaS1VW
+}
+sprite $MercurialLg [20x20/16z] {
+LOy55iGm24GJQ821oFrlkx6rN_yFcQQ3zB6edBxOsBJohmwMhwBn1LVoZsjoofxnW-z2LlmwCQybcSNNrLcW80gFsjzrqIeR9O81sBPB0tpdP95YPrpBcTuX
+Irc5Od7o7IzJ1JUThpbwr-Km4pFQAl3xyrITSwas5RKvk22dOii7BUV3IMUpF8aZTeeieG9An727v1D2e3GV5chFL8VpykWrBm
+}
+!procedure Mercurial($id, $name="Mercurial", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mercurial', $name, $tech)
+!endprocedure
+!procedure MercurialCard($id, $funcName="", $content="")
+  IconCard($id, '<$MercurialMd>', '', $funcName, $content)
+!endprocedure
+!procedure MercurialGroup($id, $name='Mercurial', $tech='')
+  IconGroup($id, 'IconGroup', '<$MercurialLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,6 +1,6 @@
 # D
 
-The module D contains 74 entries.
+The module D contains 79 entries.
 
 
 
@@ -17,9 +17,11 @@ The module D contains 74 entries.
 |![Dash](../simpleicons-4/D/Dash.element.png)|[simpleicons-4/D/Dash](../simpleicons-4/D/Dash.md)
 |![Dashlane](../simpleicons-4/D/Dashlane.element.png)|[simpleicons-4/D/Dashlane](../simpleicons-4/D/Dashlane.md)
 |![Dassaultsystemes](../simpleicons-4/D/Dassaultsystemes.element.png)|[simpleicons-4/D/Dassaultsystemes](../simpleicons-4/D/Dassaultsystemes.md)
+|![Databricks](../simpleicons-4/D/Databricks.element.png)|[simpleicons-4/D/Databricks](../simpleicons-4/D/Databricks.md)
 |![Datacamp](../simpleicons-4/D/Datacamp.element.png)|[simpleicons-4/D/Datacamp](../simpleicons-4/D/Datacamp.md)
 |![Datadog](../simpleicons-4/D/Datadog.element.png)|[simpleicons-4/D/Datadog](../simpleicons-4/D/Datadog.md)
 |![Datastax](../simpleicons-4/D/Datastax.element.png)|[simpleicons-4/D/Datastax](../simpleicons-4/D/Datastax.md)
+|![Datocms](../simpleicons-4/D/Datocms.element.png)|[simpleicons-4/D/Datocms](../simpleicons-4/D/Datocms.md)
 |![Dazn](../simpleicons-4/D/Dazn.element.png)|[simpleicons-4/D/Dazn](../simpleicons-4/D/Dazn.md)
 |![Dblp](../simpleicons-4/D/Dblp.element.png)|[simpleicons-4/D/Dblp](../simpleicons-4/D/Dblp.md)
 |![Dcentertainment](../simpleicons-4/D/Dcentertainment.element.png)|[simpleicons-4/D/Dcentertainment](../simpleicons-4/D/Dcentertainment.md)
@@ -38,10 +40,12 @@ The module D contains 74 entries.
 |![Derspiegel](../simpleicons-4/D/Derspiegel.element.png)|[simpleicons-4/D/Derspiegel](../simpleicons-4/D/Derspiegel.md)
 |![Designernews](../simpleicons-4/D/Designernews.element.png)|[simpleicons-4/D/Designernews](../simpleicons-4/D/Designernews.md)
 |![Deutschebahn](../simpleicons-4/D/Deutschebahn.element.png)|[simpleicons-4/D/Deutschebahn](../simpleicons-4/D/Deutschebahn.md)
+|![Deutschebank](../simpleicons-4/D/Deutschebank.element.png)|[simpleicons-4/D/Deutschebank](../simpleicons-4/D/Deutschebank.md)
 |![DevDotTo](../simpleicons-4/D/DevDotTo.element.png)|[simpleicons-4/D/DevDotTo](../simpleicons-4/D/DevDotTo.md)
 |![Deviantart](../simpleicons-4/D/Deviantart.element.png)|[simpleicons-4/D/Deviantart](../simpleicons-4/D/Deviantart.md)
 |![Devpost](../simpleicons-4/D/Devpost.element.png)|[simpleicons-4/D/Devpost](../simpleicons-4/D/Devpost.md)
 |![Devrant](../simpleicons-4/D/Devrant.element.png)|[simpleicons-4/D/Devrant](../simpleicons-4/D/Devrant.md)
+|![Dgraph](../simpleicons-4/D/Dgraph.element.png)|[simpleicons-4/D/Dgraph](../simpleicons-4/D/Dgraph.md)
 |![Dhl](../simpleicons-4/D/Dhl.element.png)|[simpleicons-4/D/Dhl](../simpleicons-4/D/Dhl.md)
 |![DiagramsDotNet](../simpleicons-4/D/DiagramsDotNet.element.png)|[simpleicons-4/D/DiagramsDotNet](../simpleicons-4/D/DiagramsDotNet.md)
 |![Dialogflow](../simpleicons-4/D/Dialogflow.element.png)|[simpleicons-4/D/Dialogflow](../simpleicons-4/D/Dialogflow.md)
@@ -61,6 +65,7 @@ The module D contains 74 entries.
 |![Dlna](../simpleicons-4/D/Dlna.element.png)|[simpleicons-4/D/Dlna](../simpleicons-4/D/Dlna.md)
 |![Docker](../simpleicons-4/D/Docker.element.png)|[simpleicons-4/D/Docker](../simpleicons-4/D/Docker.md)
 |![Docusign](../simpleicons-4/D/Docusign.element.png)|[simpleicons-4/D/Docusign](../simpleicons-4/D/Docusign.md)
+|![Dogecoin](../simpleicons-4/D/Dogecoin.element.png)|[simpleicons-4/D/Dogecoin](../simpleicons-4/D/Dogecoin.md)
 |![Dolby](../simpleicons-4/D/Dolby.element.png)|[simpleicons-4/D/Dolby](../simpleicons-4/D/Dolby.md)
 |![Doordash](../simpleicons-4/D/Doordash.element.png)|[simpleicons-4/D/Doordash](../simpleicons-4/D/Doordash.md)
 |![DotNet](../simpleicons-4/D/DotNet.element.png)|[simpleicons-4/D/DotNet](../simpleicons-4/D/DotNet.md)

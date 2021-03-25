@@ -1,0 +1,16 @@
+@startuml
+sprite $KnowledgebaseMd [14x14/16z] NSU50G0n24FHr80QsN_RStqL-81Qn2gQOjNS0X3C6rQTz9GcsO4nnDPqqcHqCYFxskiWjq8Y4-w229xQd5LmAlH_zPpJAkVECVaYKQPpupu5gn3YAWG02m
+sprite $KnowledgebaseLg [20x20/16z] {
+VSfLeWH124FHb64bsVzgPxfvhkUF6m28DhngAaZgeo2LuOeqoPNpMEHyQvS0dCm64V6THqxRhq2oGmxJ4NIc3jITJnKVBMEcpmsDRFZMe8hlBVtV1ZuPvFcZ
+6JunSl6o8jmk7d7VjW-_ERNspIzs0r34tEFcRYO5lte2
+}
+!procedure Knowledgebase($id, $name="Knowledgebase", $tech="")
+  IconElement($id, 'simpleicons-4/K/Knowledgebase', $name, $tech)
+!endprocedure
+!procedure KnowledgebaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$KnowledgebaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure KnowledgebaseGroup($id, $name='Knowledgebase', $tech='')
+  IconGroup($id, 'IconGroup', '<$KnowledgebaseLg>', $name, $tech)
+!endprocedure
+@enduml

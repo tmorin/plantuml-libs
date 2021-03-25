@@ -1,0 +1,13 @@
+@startuml
+sprite $NorwegianMd [14x14/16z] hSZ50S0W40J0SqkW_swn5c0-A_20612TXfwjYmMUHL4Hcd8wC-_tTrOpGJYoGWbkJG
+sprite $NorwegianLg [20x20/16z] pSZ70OCm50Mmzti3lF-qwM46woZiWjC18ln8XEMCW8BlyrvhDJmTVreTek7dyGjYDM6ydVC9DNV2pxeoiZACSAkU2cFiu0a
+!procedure Norwegian($id, $name="Norwegian", $tech="")
+  IconElement($id, 'simpleicons-4/N/Norwegian', $name, $tech)
+!endprocedure
+!procedure NorwegianCard($id, $funcName="", $content="")
+  IconCard($id, '<$NorwegianMd>', '', $funcName, $content)
+!endprocedure
+!procedure NorwegianGroup($id, $name='Norwegian', $tech='')
+  IconGroup($id, 'IconGroup', '<$NorwegianLg>', $name, $tech)
+!endprocedure
+@enduml

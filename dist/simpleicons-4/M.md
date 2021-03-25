@@ -1,6 +1,6 @@
 # M
 
-The module M contains 104 entries.
+The module M contains 111 entries.
 
 
 
@@ -36,6 +36,7 @@ The module M contains 104 entries.
 |![Matrix](../simpleicons-4/M/Matrix.element.png)|[simpleicons-4/M/Matrix](../simpleicons-4/M/Matrix.md)
 |![Mattermost](../simpleicons-4/M/Mattermost.element.png)|[simpleicons-4/M/Mattermost](../simpleicons-4/M/Mattermost.md)
 |![Matternet](../simpleicons-4/M/Matternet.element.png)|[simpleicons-4/M/Matternet](../simpleicons-4/M/Matternet.md)
+|![Max](../simpleicons-4/M/Max.element.png)|[simpleicons-4/M/Max](../simpleicons-4/M/Max.md)
 |![MaxPlanckGesellschaft](../simpleicons-4/M/MaxPlanckGesellschaft.element.png)|[simpleicons-4/M/MaxPlanckGesellschaft](../simpleicons-4/M/MaxPlanckGesellschaft.md)
 |![Maytag](../simpleicons-4/M/Maytag.element.png)|[simpleicons-4/M/Maytag](../simpleicons-4/M/Maytag.md)
 |![Mazda](../simpleicons-4/M/Mazda.element.png)|[simpleicons-4/M/Mazda](../simpleicons-4/M/Mazda.md)
@@ -50,6 +51,7 @@ The module M contains 104 entries.
 |![Mega](../simpleicons-4/M/Mega.element.png)|[simpleicons-4/M/Mega](../simpleicons-4/M/Mega.md)
 |![Mendeley](../simpleicons-4/M/Mendeley.element.png)|[simpleicons-4/M/Mendeley](../simpleicons-4/M/Mendeley.md)
 |![Mercedes](../simpleicons-4/M/Mercedes.element.png)|[simpleicons-4/M/Mercedes](../simpleicons-4/M/Mercedes.md)
+|![Mercurial](../simpleicons-4/M/Mercurial.element.png)|[simpleicons-4/M/Mercurial](../simpleicons-4/M/Mercurial.md)
 |![Messenger](../simpleicons-4/M/Messenger.element.png)|[simpleicons-4/M/Messenger](../simpleicons-4/M/Messenger.md)
 |![Metafilter](../simpleicons-4/M/Metafilter.element.png)|[simpleicons-4/M/Metafilter](../simpleicons-4/M/Metafilter.md)
 |![Meteor](../simpleicons-4/M/Meteor.element.png)|[simpleicons-4/M/Meteor](../simpleicons-4/M/Meteor.md)
@@ -85,10 +87,14 @@ The module M contains 104 entries.
 |![Minetest](../simpleicons-4/M/Minetest.element.png)|[simpleicons-4/M/Minetest](../simpleicons-4/M/Minetest.md)
 |![Mini](../simpleicons-4/M/Mini.element.png)|[simpleicons-4/M/Mini](../simpleicons-4/M/Mini.md)
 |![Minutemailer](../simpleicons-4/M/Minutemailer.element.png)|[simpleicons-4/M/Minutemailer](../simpleicons-4/M/Minutemailer.md)
+|![Miro](../simpleicons-4/M/Miro.element.png)|[simpleicons-4/M/Miro](../simpleicons-4/M/Miro.md)
 |![Mitsubishi](../simpleicons-4/M/Mitsubishi.element.png)|[simpleicons-4/M/Mitsubishi](../simpleicons-4/M/Mitsubishi.md)
 |![Mix](../simpleicons-4/M/Mix.element.png)|[simpleicons-4/M/Mix](../simpleicons-4/M/Mix.md)
 |![Mixcloud](../simpleicons-4/M/Mixcloud.element.png)|[simpleicons-4/M/Mixcloud](../simpleicons-4/M/Mixcloud.md)
+|![Mobx](../simpleicons-4/M/Mobx.element.png)|[simpleicons-4/M/Mobx](../simpleicons-4/M/Mobx.md)
+|![MobxStateTree](../simpleicons-4/M/MobxStateTree.element.png)|[simpleicons-4/M/MobxStateTree](../simpleicons-4/M/MobxStateTree.md)
 |![Mocha](../simpleicons-4/M/Mocha.element.png)|[simpleicons-4/M/Mocha](../simpleicons-4/M/Mocha.md)
+|![Modx](../simpleicons-4/M/Modx.element.png)|[simpleicons-4/M/Modx](../simpleicons-4/M/Modx.md)
 |![Mojangstudios](../simpleicons-4/M/Mojangstudios.element.png)|[simpleicons-4/M/Mojangstudios](../simpleicons-4/M/Mojangstudios.md)
 |![Moleculer](../simpleicons-4/M/Moleculer.element.png)|[simpleicons-4/M/Moleculer](../simpleicons-4/M/Moleculer.md)
 |![Momenteo](../simpleicons-4/M/Momenteo.element.png)|[simpleicons-4/M/Momenteo](../simpleicons-4/M/Momenteo.md)
@@ -107,6 +113,7 @@ The module M contains 104 entries.
 |![Musescore](../simpleicons-4/M/Musescore.element.png)|[simpleicons-4/M/Musescore](../simpleicons-4/M/Musescore.md)
 |![Musicbrainz](../simpleicons-4/M/Musicbrainz.element.png)|[simpleicons-4/M/Musicbrainz](../simpleicons-4/M/Musicbrainz.md)
 |![Mxlinux](../simpleicons-4/M/Mxlinux.element.png)|[simpleicons-4/M/Mxlinux](../simpleicons-4/M/Mxlinux.md)
+|![Myanimelist](../simpleicons-4/M/Myanimelist.element.png)|[simpleicons-4/M/Myanimelist](../simpleicons-4/M/Myanimelist.md)
 |![Myob](../simpleicons-4/M/Myob.element.png)|[simpleicons-4/M/Myob](../simpleicons-4/M/Myob.md)
 |![Myspace](../simpleicons-4/M/Myspace.element.png)|[simpleicons-4/M/Myspace](../simpleicons-4/M/Myspace.md)
 |![Mysql](../simpleicons-4/M/Mysql.element.png)|[simpleicons-4/M/Mysql](../simpleicons-4/M/Mysql.md)

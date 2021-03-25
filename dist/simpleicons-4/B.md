@@ -1,6 +1,6 @@
 # B
 
-The module B contains 72 entries.
+The module B contains 78 entries.
 
 
 
@@ -17,6 +17,8 @@ The module B contains 72 entries.
 |![BAndRautomation](../simpleicons-4/B/BAndRautomation.element.png)|[simpleicons-4/B/BAndRautomation](../simpleicons-4/B/BAndRautomation.md)
 |![Bandsintown](../simpleicons-4/B/Bandsintown.element.png)|[simpleicons-4/B/Bandsintown](../simpleicons-4/B/Bandsintown.md)
 |![Bankofamerica](../simpleicons-4/B/Bankofamerica.element.png)|[simpleicons-4/B/Bankofamerica](../simpleicons-4/B/Bankofamerica.md)
+|![Barclays](../simpleicons-4/B/Barclays.element.png)|[simpleicons-4/B/Barclays](../simpleicons-4/B/Barclays.md)
+|![Baremetrics](../simpleicons-4/B/Baremetrics.element.png)|[simpleicons-4/B/Baremetrics](../simpleicons-4/B/Baremetrics.md)
 |![Basecamp](../simpleicons-4/B/Basecamp.element.png)|[simpleicons-4/B/Basecamp](../simpleicons-4/B/Basecamp.md)
 |![Bata](../simpleicons-4/B/Bata.element.png)|[simpleicons-4/B/Bata](../simpleicons-4/B/Bata.md)
 |![Bathasu](../simpleicons-4/B/Bathasu.element.png)|[simpleicons-4/B/Bathasu](../simpleicons-4/B/Bathasu.md)
@@ -37,10 +39,13 @@ The module B contains 72 entries.
 |![Bit](../simpleicons-4/B/Bit.element.png)|[simpleicons-4/B/Bit](../simpleicons-4/B/Bit.md)
 |![Bitbucket](../simpleicons-4/B/Bitbucket.element.png)|[simpleicons-4/B/Bitbucket](../simpleicons-4/B/Bitbucket.md)
 |![Bitcoin](../simpleicons-4/B/Bitcoin.element.png)|[simpleicons-4/B/Bitcoin](../simpleicons-4/B/Bitcoin.md)
+|![Bitcoincash](../simpleicons-4/B/Bitcoincash.element.png)|[simpleicons-4/B/Bitcoincash](../simpleicons-4/B/Bitcoincash.md)
+|![Bitcoinsv](../simpleicons-4/B/Bitcoinsv.element.png)|[simpleicons-4/B/Bitcoinsv](../simpleicons-4/B/Bitcoinsv.md)
 |![Bitdefender](../simpleicons-4/B/Bitdefender.element.png)|[simpleicons-4/B/Bitdefender](../simpleicons-4/B/Bitdefender.md)
 |![Bitly](../simpleicons-4/B/Bitly.element.png)|[simpleicons-4/B/Bitly](../simpleicons-4/B/Bitly.md)
 |![Bitrise](../simpleicons-4/B/Bitrise.element.png)|[simpleicons-4/B/Bitrise](../simpleicons-4/B/Bitrise.md)
 |![Bitwarden](../simpleicons-4/B/Bitwarden.element.png)|[simpleicons-4/B/Bitwarden](../simpleicons-4/B/Bitwarden.md)
+|![Bitwig](../simpleicons-4/B/Bitwig.element.png)|[simpleicons-4/B/Bitwig](../simpleicons-4/B/Bitwig.md)
 |![Blackberry](../simpleicons-4/B/Blackberry.element.png)|[simpleicons-4/B/Blackberry](../simpleicons-4/B/Blackberry.md)
 |![Blazemeter](../simpleicons-4/B/Blazemeter.element.png)|[simpleicons-4/B/Blazemeter](../simpleicons-4/B/Blazemeter.md)
 |![Blazor](../simpleicons-4/B/Blazor.element.png)|[simpleicons-4/B/Blazor](../simpleicons-4/B/Blazor.md)
@@ -64,6 +69,7 @@ The module B contains 72 entries.
 |![Brandfolder](../simpleicons-4/B/Brandfolder.element.png)|[simpleicons-4/B/Brandfolder](../simpleicons-4/B/Brandfolder.md)
 |![Brave](../simpleicons-4/B/Brave.element.png)|[simpleicons-4/B/Brave](../simpleicons-4/B/Brave.md)
 |![Breaker](../simpleicons-4/B/Breaker.element.png)|[simpleicons-4/B/Breaker](../simpleicons-4/B/Breaker.md)
+|![Britishairways](../simpleicons-4/B/Britishairways.element.png)|[simpleicons-4/B/Britishairways](../simpleicons-4/B/Britishairways.md)
 |![Broadcom](../simpleicons-4/B/Broadcom.element.png)|[simpleicons-4/B/Broadcom](../simpleicons-4/B/Broadcom.md)
 |![Bt](../simpleicons-4/B/Bt.element.png)|[simpleicons-4/B/Bt](../simpleicons-4/B/Bt.md)
 |![Buddy](../simpleicons-4/B/Buddy.element.png)|[simpleicons-4/B/Buddy](../simpleicons-4/B/Buddy.md)

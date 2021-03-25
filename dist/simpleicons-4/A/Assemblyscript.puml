@@ -1,0 +1,16 @@
+@startuml
+sprite $AssemblyscriptMd [14x14/16z] fSsr0G0n20LGB9xmzv_stDjx5GvMNRZZbXB-MmysotlYqZ4eoFwbK4AdYfr6SIJIiIPLkcJ0rTRCI4YoLDNrXdKVLXFR-BoQ0G
+sprite $AssemblyscriptLg [20x20/16z] {
+pSw50GCm20J0Zmk4tt_QIgG-G2-km2q2qVWk0vcVHFWdkiu--6myOY8fS1w5cmA3hEZinYq3bUm8dOUXHAoZe5mgjAEIr0W_E3dNAZnja0Mo4i7KCge4hCVU
+YMX7a02WSXBTlQaeVxi2
+}
+!procedure Assemblyscript($id, $name="Assemblyscript", $tech="")
+  IconElement($id, 'simpleicons-4/A/Assemblyscript', $name, $tech)
+!endprocedure
+!procedure AssemblyscriptCard($id, $funcName="", $content="")
+  IconCard($id, '<$AssemblyscriptMd>', '', $funcName, $content)
+!endprocedure
+!procedure AssemblyscriptGroup($id, $name='Assemblyscript', $tech='')
+  IconGroup($id, 'IconGroup', '<$AssemblyscriptLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $RobotframeworkMd [14x14/16z] LSt50K0X30FGu9fc_sc_wxj0FNNDYpgwiLoe83fS76qMF8gsA8i1g6F_P6ZOT5DrhsKq5ujhyUhypwLyICXxH1tiZDnbw_nVxsA-K071TB605G
+sprite $RobotframeworkLg [20x20/16z] {
+TP1L0WP1288PcMsL-v_sp-tutcoXc4kfcPJSO0pb3WNXeOcsmab1QIhOKIQvik80Kme32Zbt0HPI6ip_6qgl_fyZHaMe1rrgbroeDd8CyeebLrkWhM1NiExR
+yvmZcd5blJ5f9S3ypPRQr1cR-oxQxZouy-hdQQpaVnTTEvp06m
+}
+!procedure Robotframework($id, $name="Robotframework", $tech="")
+  IconElement($id, 'simpleicons-4/R/Robotframework', $name, $tech)
+!endprocedure
+!procedure RobotframeworkCard($id, $funcName="", $content="")
+  IconCard($id, '<$RobotframeworkMd>', '', $funcName, $content)
+!endprocedure
+!procedure RobotframeworkGroup($id, $name='Robotframework', $tech='')
+  IconGroup($id, 'IconGroup', '<$RobotframeworkLg>', $name, $tech)
+!endprocedure
+@enduml

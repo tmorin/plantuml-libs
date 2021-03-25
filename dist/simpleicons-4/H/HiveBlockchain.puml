@@ -1,0 +1,16 @@
+@startuml
+sprite $HiveBlockchainMd [14x14/16z] LSx50GGm24JH3yHj-gzsNTybWW916UwZyD2fodOcTqKL7PeAO5kohCOvHZH9W_NycRgBq6J9zR28H6ZgOUDnVtqoxxNnt-L_0Znkp-dVpRHuCGC7k08
+sprite $HiveBlockchainLg [20x20/16z] {
+PP25WG0m30A9r8Nzj_tQ-zKr12n4OIagF4N1GmrUykaKZzfXanq-MN5nCYBjBfEEGoE7OB2Bh0wRo4L6s5qa4m0Tt1WQfw9pA6BceKB90jkt9n-Ep6aefF6J
+0OXWYshVUq__sfjy1AJHzRpzZD6-O_pMObVBqrn-QdwvwSrjEt4mCltr07NyymgoxIo6yEtfFpu
+}
+!procedure HiveBlockchain($id, $name="Hive Blockchain", $tech="")
+  IconElement($id, 'simpleicons-4/H/HiveBlockchain', $name, $tech)
+!endprocedure
+!procedure HiveBlockchainCard($id, $funcName="", $content="")
+  IconCard($id, '<$HiveBlockchainMd>', '', $funcName, $content)
+!endprocedure
+!procedure HiveBlockchainGroup($id, $name='Hive Blockchain', $tech='')
+  IconGroup($id, 'IconGroup', '<$HiveBlockchainLg>', $name, $tech)
+!endprocedure
+@enduml

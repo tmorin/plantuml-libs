@@ -1,6 +1,6 @@
 # P
 
-The module P contains 115 entries.
+The module P contains 126 entries.
 
 
 
@@ -26,6 +26,7 @@ The module P contains 115 entries.
 |![Paytm](../simpleicons-4/P/Paytm.element.png)|[simpleicons-4/P/Paytm](../simpleicons-4/P/Paytm.md)
 |![Pcgamingwiki](../simpleicons-4/P/Pcgamingwiki.element.png)|[simpleicons-4/P/Pcgamingwiki](../simpleicons-4/P/Pcgamingwiki.md)
 |![Peertube](../simpleicons-4/P/Peertube.element.png)|[simpleicons-4/P/Peertube](../simpleicons-4/P/Peertube.md)
+|![Pegasusairlines](../simpleicons-4/P/Pegasusairlines.element.png)|[simpleicons-4/P/Pegasusairlines](../simpleicons-4/P/Pegasusairlines.md)
 |![Pelican](../simpleicons-4/P/Pelican.element.png)|[simpleicons-4/P/Pelican](../simpleicons-4/P/Pelican.md)
 |![Peloton](../simpleicons-4/P/Peloton.element.png)|[simpleicons-4/P/Peloton](../simpleicons-4/P/Peloton.md)
 |![Pepsi](../simpleicons-4/P/Pepsi.element.png)|[simpleicons-4/P/Pepsi](../simpleicons-4/P/Pepsi.md)
@@ -42,6 +43,7 @@ The module P contains 115 entries.
 |![Php](../simpleicons-4/P/Php.element.png)|[simpleicons-4/P/Php](../simpleicons-4/P/Php.md)
 |![Phpstorm](../simpleicons-4/P/Phpstorm.element.png)|[simpleicons-4/P/Phpstorm](../simpleicons-4/P/Phpstorm.md)
 |![PicartoDotTv](../simpleicons-4/P/PicartoDotTv.element.png)|[simpleicons-4/P/PicartoDotTv](../simpleicons-4/P/PicartoDotTv.md)
+|![Picnic](../simpleicons-4/P/Picnic.element.png)|[simpleicons-4/P/Picnic](../simpleicons-4/P/Picnic.md)
 |![Picpay](../simpleicons-4/P/Picpay.element.png)|[simpleicons-4/P/Picpay](../simpleicons-4/P/Picpay.md)
 |![PiHole](../simpleicons-4/P/PiHole.element.png)|[simpleicons-4/P/PiHole](../simpleicons-4/P/PiHole.md)
 |![Pimcore](../simpleicons-4/P/Pimcore.element.png)|[simpleicons-4/P/Pimcore](../simpleicons-4/P/Pimcore.md)
@@ -58,6 +60,7 @@ The module P contains 115 entries.
 |![Planet](../simpleicons-4/P/Planet.element.png)|[simpleicons-4/P/Planet](../simpleicons-4/P/Planet.md)
 |![Plangrid](../simpleicons-4/P/Plangrid.element.png)|[simpleicons-4/P/Plangrid](../simpleicons-4/P/Plangrid.md)
 |![Platzi](../simpleicons-4/P/Platzi.element.png)|[simpleicons-4/P/Platzi](../simpleicons-4/P/Platzi.md)
+|![Playcanvas](../simpleicons-4/P/Playcanvas.element.png)|[simpleicons-4/P/Playcanvas](../simpleicons-4/P/Playcanvas.md)
 |![PlayerDotMe](../simpleicons-4/P/PlayerDotMe.element.png)|[simpleicons-4/P/PlayerDotMe](../simpleicons-4/P/PlayerDotMe.md)
 |![Playerfm](../simpleicons-4/P/Playerfm.element.png)|[simpleicons-4/P/Playerfm](../simpleicons-4/P/Playerfm.md)
 |![Playstation](../simpleicons-4/P/Playstation.element.png)|[simpleicons-4/P/Playstation](../simpleicons-4/P/Playstation.md)
@@ -69,12 +72,16 @@ The module P contains 115 entries.
 |![Pleroma](../simpleicons-4/P/Pleroma.element.png)|[simpleicons-4/P/Pleroma](../simpleicons-4/P/Pleroma.md)
 |![Plesk](../simpleicons-4/P/Plesk.element.png)|[simpleicons-4/P/Plesk](../simpleicons-4/P/Plesk.md)
 |![Plex](../simpleicons-4/P/Plex.element.png)|[simpleicons-4/P/Plex](../simpleicons-4/P/Plex.md)
+|![Plotly](../simpleicons-4/P/Plotly.element.png)|[simpleicons-4/P/Plotly](../simpleicons-4/P/Plotly.md)
 |![Pluralsight](../simpleicons-4/P/Pluralsight.element.png)|[simpleicons-4/P/Pluralsight](../simpleicons-4/P/Pluralsight.md)
 |![Plurk](../simpleicons-4/P/Plurk.element.png)|[simpleicons-4/P/Plurk](../simpleicons-4/P/Plurk.md)
 |![Pluscodes](../simpleicons-4/P/Pluscodes.element.png)|[simpleicons-4/P/Pluscodes](../simpleicons-4/P/Pluscodes.md)
+|![Pm2](../simpleicons-4/P/Pm2.element.png)|[simpleicons-4/P/Pm2](../simpleicons-4/P/Pm2.md)
 |![Pocket](../simpleicons-4/P/Pocket.element.png)|[simpleicons-4/P/Pocket](../simpleicons-4/P/Pocket.md)
 |![Pocketcasts](../simpleicons-4/P/Pocketcasts.element.png)|[simpleicons-4/P/Pocketcasts](../simpleicons-4/P/Pocketcasts.md)
 |![Podcastaddict](../simpleicons-4/P/Podcastaddict.element.png)|[simpleicons-4/P/Podcastaddict](../simpleicons-4/P/Podcastaddict.md)
+|![Podman](../simpleicons-4/P/Podman.element.png)|[simpleicons-4/P/Podman](../simpleicons-4/P/Podman.md)
+|![Pointy](../simpleicons-4/P/Pointy.element.png)|[simpleicons-4/P/Pointy](../simpleicons-4/P/Pointy.md)
 |![Pokemon](../simpleicons-4/P/Pokemon.element.png)|[simpleicons-4/P/Pokemon](../simpleicons-4/P/Pokemon.md)
 |![Poly](../simpleicons-4/P/Poly.element.png)|[simpleicons-4/P/Poly](../simpleicons-4/P/Poly.md)
 |![Polymerproject](../simpleicons-4/P/Polymerproject.element.png)|[simpleicons-4/P/Polymerproject](../simpleicons-4/P/Polymerproject.md)
@@ -96,7 +103,9 @@ The module P contains 115 entries.
 |![Prezi](../simpleicons-4/P/Prezi.element.png)|[simpleicons-4/P/Prezi](../simpleicons-4/P/Prezi.md)
 |![Prime](../simpleicons-4/P/Prime.element.png)|[simpleicons-4/P/Prime](../simpleicons-4/P/Prime.md)
 |![Primevideo](../simpleicons-4/P/Primevideo.element.png)|[simpleicons-4/P/Primevideo](../simpleicons-4/P/Primevideo.md)
+|![Prisma](../simpleicons-4/P/Prisma.element.png)|[simpleicons-4/P/Prisma](../simpleicons-4/P/Prisma.md)
 |![Prismic](../simpleicons-4/P/Prismic.element.png)|[simpleicons-4/P/Prismic](../simpleicons-4/P/Prismic.md)
+|![Privateinternetaccess](../simpleicons-4/P/Privateinternetaccess.element.png)|[simpleicons-4/P/Privateinternetaccess](../simpleicons-4/P/Privateinternetaccess.md)
 |![Probot](../simpleicons-4/P/Probot.element.png)|[simpleicons-4/P/Probot](../simpleicons-4/P/Probot.md)
 |![Processwire](../simpleicons-4/P/Processwire.element.png)|[simpleicons-4/P/Processwire](../simpleicons-4/P/Processwire.md)
 |![Producthunt](../simpleicons-4/P/Producthunt.element.png)|[simpleicons-4/P/Producthunt](../simpleicons-4/P/Producthunt.md)
@@ -108,12 +117,14 @@ The module P contains 115 entries.
 |![ProtoDotIo](../simpleicons-4/P/ProtoDotIo.element.png)|[simpleicons-4/P/ProtoDotIo](../simpleicons-4/P/ProtoDotIo.md)
 |![Protondb](../simpleicons-4/P/Protondb.element.png)|[simpleicons-4/P/Protondb](../simpleicons-4/P/Protondb.md)
 |![Protonmail](../simpleicons-4/P/Protonmail.element.png)|[simpleicons-4/P/Protonmail](../simpleicons-4/P/Protonmail.md)
+|![Protonvpn](../simpleicons-4/P/Protonvpn.element.png)|[simpleicons-4/P/Protonvpn](../simpleicons-4/P/Protonvpn.md)
 |![Protools](../simpleicons-4/P/Protools.element.png)|[simpleicons-4/P/Protools](../simpleicons-4/P/Protools.md)
 |![Proxmox](../simpleicons-4/P/Proxmox.element.png)|[simpleicons-4/P/Proxmox](../simpleicons-4/P/Proxmox.md)
 |![Publons](../simpleicons-4/P/Publons.element.png)|[simpleicons-4/P/Publons](../simpleicons-4/P/Publons.md)
 |![Pubmed](../simpleicons-4/P/Pubmed.element.png)|[simpleicons-4/P/Pubmed](../simpleicons-4/P/Pubmed.md)
 |![Pug](../simpleicons-4/P/Pug.element.png)|[simpleicons-4/P/Pug](../simpleicons-4/P/Pug.md)
 |![Puppet](../simpleicons-4/P/Puppet.element.png)|[simpleicons-4/P/Puppet](../simpleicons-4/P/Puppet.md)
+|![Puppeteer](../simpleicons-4/P/Puppeteer.element.png)|[simpleicons-4/P/Puppeteer](../simpleicons-4/P/Puppeteer.md)
 |![Purescript](../simpleicons-4/P/Purescript.element.png)|[simpleicons-4/P/Purescript](../simpleicons-4/P/Purescript.md)
 |![Pycharm](../simpleicons-4/P/Pycharm.element.png)|[simpleicons-4/P/Pycharm](../simpleicons-4/P/Pycharm.md)
 |![Pypi](../simpleicons-4/P/Pypi.element.png)|[simpleicons-4/P/Pypi](../simpleicons-4/P/Pypi.md)

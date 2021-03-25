@@ -54,8 +54,8 @@ jobs:
         id: commit_message
         with:
           cond: "${{ github.event.inputs.pkgVersion != null && github.event.inputs.pkgVersion != '' }}"
-          if_true: "feat(${{ github.event.inputs.name }}): upgrade to ${{ github.event.inputs.pkgVersion }}"
-          if_false: "fix(${{ github.event.inputs.name }}): refresh the package"
+          if_true: "feat(${{ github.event.inputs.pkgName }}): upgrade to ${{ github.event.inputs.pkgVersion }}"
+          if_false: "fix(${{ github.event.inputs.pkgName }}): refresh the package"
       - name: Commit changes
         run: |
           git config --local user.email "package_builder@users.noreply.github.com"

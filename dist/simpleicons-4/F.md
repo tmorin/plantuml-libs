@@ -1,6 +1,6 @@
 # F
 
-The module F contains 73 entries.
+The module F contains 74 entries.
 
 
 
@@ -68,6 +68,7 @@ The module F contains 73 entries.
 |![Foxtel](../simpleicons-4/F/Foxtel.element.png)|[simpleicons-4/F/Foxtel](../simpleicons-4/F/Foxtel.md)
 |![Fozzy](../simpleicons-4/F/Fozzy.element.png)|[simpleicons-4/F/Fozzy](../simpleicons-4/F/Fozzy.md)
 |![Framer](../simpleicons-4/F/Framer.element.png)|[simpleicons-4/F/Framer](../simpleicons-4/F/Framer.md)
+|![FraunhoferGesellschaft](../simpleicons-4/F/FraunhoferGesellschaft.element.png)|[simpleicons-4/F/FraunhoferGesellschaft](../simpleicons-4/F/FraunhoferGesellschaft.md)
 |![Freebsd](../simpleicons-4/F/Freebsd.element.png)|[simpleicons-4/F/Freebsd](../simpleicons-4/F/Freebsd.md)
 |![Freecodecamp](../simpleicons-4/F/Freecodecamp.element.png)|[simpleicons-4/F/Freecodecamp](../simpleicons-4/F/Freecodecamp.md)
 |![FreedesktopDotOrg](../simpleicons-4/F/FreedesktopDotOrg.element.png)|[simpleicons-4/F/FreedesktopDotOrg](../simpleicons-4/F/FreedesktopDotOrg.md)

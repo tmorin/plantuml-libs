@@ -1,6 +1,6 @@
 # L
 
-The module L contains 56 entries.
+The module L contains 59 entries.
 
 
 
@@ -29,6 +29,7 @@ The module L contains 56 entries.
 |![Lg](../simpleicons-4/L/Lg.element.png)|[simpleicons-4/L/Lg](../simpleicons-4/L/Lg.md)
 |![Lgtm](../simpleicons-4/L/Lgtm.element.png)|[simpleicons-4/L/Lgtm](../simpleicons-4/L/Lgtm.md)
 |![Liberapay](../simpleicons-4/L/Liberapay.element.png)|[simpleicons-4/L/Liberapay](../simpleicons-4/L/Liberapay.md)
+|![LibrariesDotIo](../simpleicons-4/L/LibrariesDotIo.element.png)|[simpleicons-4/L/LibrariesDotIo](../simpleicons-4/L/LibrariesDotIo.md)
 |![Librarything](../simpleicons-4/L/Librarything.element.png)|[simpleicons-4/L/Librarything](../simpleicons-4/L/Librarything.md)
 |![Libreoffice](../simpleicons-4/L/Libreoffice.element.png)|[simpleicons-4/L/Libreoffice](../simpleicons-4/L/Libreoffice.md)
 |![Libuv](../simpleicons-4/L/Libuv.element.png)|[simpleicons-4/L/Libuv](../simpleicons-4/L/Libuv.md)
@@ -41,8 +42,10 @@ The module L contains 56 entries.
 |![Linktree](../simpleicons-4/L/Linktree.element.png)|[simpleicons-4/L/Linktree](../simpleicons-4/L/Linktree.md)
 |![Linode](../simpleicons-4/L/Linode.element.png)|[simpleicons-4/L/Linode](../simpleicons-4/L/Linode.md)
 |![Linux](../simpleicons-4/L/Linux.element.png)|[simpleicons-4/L/Linux](../simpleicons-4/L/Linux.md)
+|![Linuxcontainers](../simpleicons-4/L/Linuxcontainers.element.png)|[simpleicons-4/L/Linuxcontainers](../simpleicons-4/L/Linuxcontainers.md)
 |![Linuxfoundation](../simpleicons-4/L/Linuxfoundation.element.png)|[simpleicons-4/L/Linuxfoundation](../simpleicons-4/L/Linuxfoundation.md)
 |![Linuxmint](../simpleicons-4/L/Linuxmint.element.png)|[simpleicons-4/L/Linuxmint](../simpleicons-4/L/Linuxmint.md)
+|![Lionair](../simpleicons-4/L/Lionair.element.png)|[simpleicons-4/L/Lionair](../simpleicons-4/L/Lionair.md)
 |![Litecoin](../simpleicons-4/L/Litecoin.element.png)|[simpleicons-4/L/Litecoin](../simpleicons-4/L/Litecoin.md)
 |![Livechat](../simpleicons-4/L/Livechat.element.png)|[simpleicons-4/L/Livechat](../simpleicons-4/L/Livechat.md)
 |![Livejournal](../simpleicons-4/L/Livejournal.element.png)|[simpleicons-4/L/Livejournal](../simpleicons-4/L/Livejournal.md)

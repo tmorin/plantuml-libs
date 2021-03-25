@@ -1,0 +1,19 @@
+@startuml
+sprite $SemanticReleaseMd [14x14/16z] {
+BOo50S102CI2F5nz_sdhmPMRKAQ23-isA_cRZsq3_5Y6KGhV0ZIHiYw80RTIKKyWWviHqr91vWZhTVDfMzkUYkpLgzxD_3Qxdd2hlr-KI92hXGohvGYmVHt6
+ZQkXPVo453nS
+}
+sprite $SemanticReleaseLg [20x20/16z] {
+TL07baGX28ke4FlzRxkFZzjdygiAfE11qbvBruGV4EibTmg-eTD-V1nrd1a_v_JgawHJniw-rtSMTe6n0cdIXuxYnOGnUxK9aBqFcJ3BLyuLaWt64lDfJvae
+mRwi2CIIC2NEVHhOpbvCTozNdWvZ3AmMlIZlEA8ik-dG4ffHXbUryGW8RtdtyDlSsytWXBOL6VpCofR-p9GzHwO_aNlFkFW
+}
+!procedure SemanticRelease($id, $name="Semantic Release", $tech="")
+  IconElement($id, 'simpleicons-4/S/SemanticRelease', $name, $tech)
+!endprocedure
+!procedure SemanticReleaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SemanticReleaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SemanticReleaseGroup($id, $name='Semantic Release', $tech='')
+  IconGroup($id, 'IconGroup', '<$SemanticReleaseLg>', $name, $tech)
+!endprocedure
+@enduml

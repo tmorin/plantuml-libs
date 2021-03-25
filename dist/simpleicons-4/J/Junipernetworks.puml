@@ -1,0 +1,13 @@
+@startuml
+sprite $JunipernetworksMd [14x14/16z] hOj50K0X04Ed_ID_GHB0zFHm8kvFe3X_4hT8qLyg4jk81SlaW6Z94Uxe1G
+sprite $JunipernetworksLg [20x20/16z] pOq50SH040CdSE3Vy3CgQ9SnuLWHNr5YQ59xD4vlDcTW3MOx63jTrNZCIjizkkA6CHAD-oo5YeH7Yv1jT7-J_jXkveWpoHK
+!procedure Junipernetworks($id, $name="Junipernetworks", $tech="")
+  IconElement($id, 'simpleicons-4/J/Junipernetworks', $name, $tech)
+!endprocedure
+!procedure JunipernetworksCard($id, $funcName="", $content="")
+  IconCard($id, '<$JunipernetworksMd>', '', $funcName, $content)
+!endprocedure
+!procedure JunipernetworksGroup($id, $name='Junipernetworks', $tech='')
+  IconGroup($id, 'IconGroup', '<$JunipernetworksLg>', $name, $tech)
+!endprocedure
+@enduml

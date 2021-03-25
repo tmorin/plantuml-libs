@@ -1,0 +1,16 @@
+@startuml
+sprite $EthiopianairlinesMd [14x14/16z] POp50SD04CHi7osh_sh37Fq6jq-EBo6V8laIyHAjO3v51zPJJ0Xj3w6aEVs-3zn1xgtCWBgjTicuI8-h4iiB1NbSdySKStVPjp_E
+sprite $EthiopianairlinesLg [20x20/16z] {
+ZT1L0a8X54LHAUNccVzeVTsvFnVDvrKX78drG0ASa6qfAe2w9KDRN5FoZigQSaUQrlH5MwNVYWXm-Idgva0b1YnEL1p2x03oiav9Ev7fXAJ6dHXL3hs4QgBk
+HYGExusu5HLHjFcmMob4D819MlumnfZQukUc1W
+}
+!procedure Ethiopianairlines($id, $name="Ethiopianairlines", $tech="")
+  IconElement($id, 'simpleicons-4/E/Ethiopianairlines', $name, $tech)
+!endprocedure
+!procedure EthiopianairlinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$EthiopianairlinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure EthiopianairlinesGroup($id, $name='Ethiopianairlines', $tech='')
+  IconGroup($id, 'IconGroup', '<$EthiopianairlinesLg>', $name, $tech)
+!endprocedure
+@enduml

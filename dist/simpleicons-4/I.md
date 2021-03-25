@@ -1,6 +1,6 @@
 # I
 
-The module I contains 47 entries.
+The module I contains 48 entries.
 
 
 
@@ -18,6 +18,7 @@ The module I contains 47 entries.
 |![Iconjar](../simpleicons-4/I/Iconjar.element.png)|[simpleicons-4/I/Iconjar](../simpleicons-4/I/Iconjar.md)
 |![Icq](../simpleicons-4/I/Icq.element.png)|[simpleicons-4/I/Icq](../simpleicons-4/I/Icq.md)
 |![Ideal](../simpleicons-4/I/Ideal.element.png)|[simpleicons-4/I/Ideal](../simpleicons-4/I/Ideal.md)
+|![Ieee](../simpleicons-4/I/Ieee.element.png)|[simpleicons-4/I/Ieee](../simpleicons-4/I/Ieee.md)
 |![Ifixit](../simpleicons-4/I/Ifixit.element.png)|[simpleicons-4/I/Ifixit](../simpleicons-4/I/Ifixit.md)
 |![Ifood](../simpleicons-4/I/Ifood.element.png)|[simpleicons-4/I/Ifood](../simpleicons-4/I/Ifood.md)
 |![Ifttt](../simpleicons-4/I/Ifttt.element.png)|[simpleicons-4/I/Ifttt](../simpleicons-4/I/Ifttt.md)

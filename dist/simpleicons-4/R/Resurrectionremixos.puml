@@ -1,0 +1,16 @@
+@startuml
+sprite $ResurrectionremixosMd [14x14/16z] ZSpL0SKW50FGu4xsdxOuNqzwSAxWAo7MwNBfQff_cOj1brYqm1PO9AGnnXh0iKgHE0HXHdfcyiwxyUaG6J1LUdX6N9PPu12vjtoX0G
+sprite $ResurrectionremixosLg [20x20/16z] {
+dSvL0eCm40JGMG7YkVzjkrB_QnyUcG6_8tR2yXmeOwRLaMJkfmD1rzvhkZ5E1B6XeVGHFcp8HoXhODhUaxqbQweDLSkIQ7bsNFw8oDbRQ_s4g0rTO8iik1is
+Nq7zEMHiLO_8YYTcYSYEJqVyowUsfk8R4_vn0m
+}
+!procedure Resurrectionremixos($id, $name="Resurrectionremixos", $tech="")
+  IconElement($id, 'simpleicons-4/R/Resurrectionremixos', $name, $tech)
+!endprocedure
+!procedure ResurrectionremixosCard($id, $funcName="", $content="")
+  IconCard($id, '<$ResurrectionremixosMd>', '', $funcName, $content)
+!endprocedure
+!procedure ResurrectionremixosGroup($id, $name='Resurrectionremixos', $tech='')
+  IconGroup($id, 'IconGroup', '<$ResurrectionremixosLg>', $name, $tech)
+!endprocedure
+@enduml

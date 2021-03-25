@@ -1,0 +1,16 @@
+@startuml
+sprite $StimulusMd [14x14/16z] VOtL0SG034A9rLlst_R8kR-l2C8_c9bFFKokCRCSnTNXbKcnBWcRR-e960usxc68ZLp2mqL8j4chaSqn06DhczcGozfJLJbyOS4rlhQJDxs6Dqu
+sprite $StimulusLg [20x20/16z] {
+ZP3L0GD024FFNVRVjeI3khq_d6J_oGHBeyMX1RwULFCSceCVUuyWGITQCBQlH55eY3SpPgC9nokKJcCswwb1z4XZSU3k07B7yvBYRdTTuGLUxWw0HPCNT8Gg
+e5XTe3H7T-kK3ldPcBIwbPzbRO0slV7E0_5AuN3_nxe
+}
+!procedure Stimulus($id, $name="Stimulus", $tech="")
+  IconElement($id, 'simpleicons-4/S/Stimulus', $name, $tech)
+!endprocedure
+!procedure StimulusCard($id, $funcName="", $content="")
+  IconCard($id, '<$StimulusMd>', '', $funcName, $content)
+!endprocedure
+!procedure StimulusGroup($id, $name='Stimulus', $tech='')
+  IconGroup($id, 'IconGroup', '<$StimulusLg>', $name, $tech)
+!endprocedure
+@enduml

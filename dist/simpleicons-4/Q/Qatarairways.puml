@@ -1,0 +1,19 @@
+@startuml
+sprite $QatarairwaysMd [14x14/16z] {
+JKw5OGGm22n-nDX_svBtA7Rozrsaz9EftOpulX9kqYLtKyQC7cIDSDKvz0vx0furdmp8TAogu9lbG2xQTT8w6ua2LwqPdG5vE3eRrfaZp1sTSMSaWBkkigSX
+LbDc-zgbjzr_
+}
+sprite $QatarairwaysLg [20x20/16z] {
+PP25WU0W403NFQ7_RX-IFnzyy8NVaC0V-8yJLyHtFH4-RPYelGj5X0d0oYE4ji3823UJx0g60veUa7loDQ1MbHdMztoS3kvddzPQL_f_LmUTdhM6XDzr4Iup
+w6kjE-HPsJrPgy6sccazBjFsq62swmnwN5ck0RsEgtoSHqg8Xjx7EHo8mssZTXnzXiAFvLgNmWTwbWbZ-eyuRX1-WeZVrJy
+}
+!procedure Qatarairways($id, $name="Qatarairways", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Qatarairways', $name, $tech)
+!endprocedure
+!procedure QatarairwaysCard($id, $funcName="", $content="")
+  IconCard($id, '<$QatarairwaysMd>', '', $funcName, $content)
+!endprocedure
+!procedure QatarairwaysGroup($id, $name='Qatarairways', $tech='')
+  IconGroup($id, 'IconGroup', '<$QatarairwaysLg>', $name, $tech)
+!endprocedure
+@enduml

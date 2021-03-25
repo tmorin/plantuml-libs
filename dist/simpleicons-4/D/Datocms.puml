@@ -1,0 +1,13 @@
+@startuml
+sprite $DatocmsMd [14x14/16z] POw30G0W54Glk_RVDll5xqkJg06aHM35Ec332g7TpOeSuB5yPBMAKSpoSIsXKPBZP-rC_tSfpkOD91tmGqiyb7b506G
+sprite $DatocmsLg [20x20/16z] ZT253G0X30LGt6N_QK-G9ZW_HX_Us4GJzAKrIuiruSLQd5YWO5OfMqR50aDVM4W5pVPHmbIeihmaRNV9LBMq9CnijdTsn_mjypUteLSzuEUUUbsUz08
+!procedure Datocms($id, $name="Datocms", $tech="")
+  IconElement($id, 'simpleicons-4/D/Datocms', $name, $tech)
+!endprocedure
+!procedure DatocmsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DatocmsMd>', '', $funcName, $content)
+!endprocedure
+!procedure DatocmsGroup($id, $name='Datocms', $tech='')
+  IconGroup($id, 'IconGroup', '<$DatocmsLg>', $name, $tech)
+!endprocedure
+@enduml

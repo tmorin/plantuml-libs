@@ -1,0 +1,16 @@
+@startuml
+sprite $SuseMd [14x14/16z] dSp50KCn30DG9MPelF-qvGxG_qv6uHzRpPH0363bl5MDhpZpSqXEiSItyrRouFTnLt88xTXZkmD0txmTH5ZlI0x31Gy
+sprite $SuseLg [20x20/16z] {
+lSY5WKCn30DGXHCPjF-q1-Kky9_Pk4ZRBYauAtnL_AdKKvvK3BIH-ZBx2CaPUkkWifTMjvw27joWMta-Cvtjh4vCGuWqUMaDoB-14LYQmDR0dvIFfGFqKO3U
+yQSsbqx1rNu1
+}
+!procedure Suse($id, $name="Suse", $tech="")
+  IconElement($id, 'simpleicons-4/S/Suse', $name, $tech)
+!endprocedure
+!procedure SuseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SuseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SuseGroup($id, $name='Suse', $tech='')
+  IconGroup($id, 'IconGroup', '<$SuseLg>', $name, $tech)
+!endprocedure
+@enduml

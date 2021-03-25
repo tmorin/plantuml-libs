@@ -1,6 +1,6 @@
 # H
 
-The module H contains 58 entries.
+The module H contains 65 entries.
 
 
 
@@ -15,6 +15,8 @@ The module H contains 58 entries.
 |![Hackhands](../simpleicons-4/H/Hackhands.element.png)|[simpleicons-4/H/Hackhands](../simpleicons-4/H/Hackhands.md)
 |![Hackster](../simpleicons-4/H/Hackster.element.png)|[simpleicons-4/H/Hackster](../simpleicons-4/H/Hackster.md)
 |![Hackthebox](../simpleicons-4/H/Hackthebox.element.png)|[simpleicons-4/H/Hackthebox](../simpleicons-4/H/Hackthebox.md)
+|![Handshake](../simpleicons-4/H/Handshake.element.png)|[simpleicons-4/H/Handshake](../simpleicons-4/H/Handshake.md)
+|![HandshakeProtocol](../simpleicons-4/H/HandshakeProtocol.element.png)|[simpleicons-4/H/HandshakeProtocol](../simpleicons-4/H/HandshakeProtocol.md)
 |![Happycow](../simpleicons-4/H/Happycow.element.png)|[simpleicons-4/H/Happycow](../simpleicons-4/H/Happycow.md)
 |![Harbor](../simpleicons-4/H/Harbor.element.png)|[simpleicons-4/H/Harbor](../simpleicons-4/H/Harbor.md)
 |![Hashnode](../simpleicons-4/H/Hashnode.element.png)|[simpleicons-4/H/Hashnode](../simpleicons-4/H/Hashnode.md)
@@ -28,15 +30,18 @@ The module H contains 58 entries.
 |![Hellofresh](../simpleicons-4/H/Hellofresh.element.png)|[simpleicons-4/H/Hellofresh](../simpleicons-4/H/Hellofresh.md)
 |![Hellyhansen](../simpleicons-4/H/Hellyhansen.element.png)|[simpleicons-4/H/Hellyhansen](../simpleicons-4/H/Hellyhansen.md)
 |![Helm](../simpleicons-4/H/Helm.element.png)|[simpleicons-4/H/Helm](../simpleicons-4/H/Helm.md)
+|![Helpdesk](../simpleicons-4/H/Helpdesk.element.png)|[simpleicons-4/H/Helpdesk](../simpleicons-4/H/Helpdesk.md)
 |![Here](../simpleicons-4/H/Here.element.png)|[simpleicons-4/H/Here](../simpleicons-4/H/Here.md)
 |![Heroku](../simpleicons-4/H/Heroku.element.png)|[simpleicons-4/H/Heroku](../simpleicons-4/H/Heroku.md)
 |![Hexo](../simpleicons-4/H/Hexo.element.png)|[simpleicons-4/H/Hexo](../simpleicons-4/H/Hexo.md)
 |![Hey](../simpleicons-4/H/Hey.element.png)|[simpleicons-4/H/Hey](../simpleicons-4/H/Hey.md)
+|![Hibernate](../simpleicons-4/H/Hibernate.element.png)|[simpleicons-4/H/Hibernate](../simpleicons-4/H/Hibernate.md)
 |![Highly](../simpleicons-4/H/Highly.element.png)|[simpleicons-4/H/Highly](../simpleicons-4/H/Highly.md)
 |![Hilton](../simpleicons-4/H/Hilton.element.png)|[simpleicons-4/H/Hilton](../simpleicons-4/H/Hilton.md)
 |![Hipchat](../simpleicons-4/H/Hipchat.element.png)|[simpleicons-4/H/Hipchat](../simpleicons-4/H/Hipchat.md)
 |![Hitachi](../simpleicons-4/H/Hitachi.element.png)|[simpleicons-4/H/Hitachi](../simpleicons-4/H/Hitachi.md)
 |![Hive](../simpleicons-4/H/Hive.element.png)|[simpleicons-4/H/Hive](../simpleicons-4/H/Hive.md)
+|![HiveBlockchain](../simpleicons-4/H/HiveBlockchain.element.png)|[simpleicons-4/H/HiveBlockchain](../simpleicons-4/H/HiveBlockchain.md)
 |![Hockeyapp](../simpleicons-4/H/Hockeyapp.element.png)|[simpleicons-4/H/Hockeyapp](../simpleicons-4/H/Hockeyapp.md)
 |![Homeadvisor](../simpleicons-4/H/Homeadvisor.element.png)|[simpleicons-4/H/Homeadvisor](../simpleicons-4/H/Homeadvisor.md)
 |![Homeassistant](../simpleicons-4/H/Homeassistant.element.png)|[simpleicons-4/H/Homeassistant](../simpleicons-4/H/Homeassistant.md)
@@ -59,8 +64,10 @@ The module H contains 58 entries.
 |![Hugo](../simpleicons-4/H/Hugo.element.png)|[simpleicons-4/H/Hugo](../simpleicons-4/H/Hugo.md)
 |![Hulu](../simpleicons-4/H/Hulu.element.png)|[simpleicons-4/H/Hulu](../simpleicons-4/H/Hulu.md)
 |![Humblebundle](../simpleicons-4/H/Humblebundle.element.png)|[simpleicons-4/H/Humblebundle](../simpleicons-4/H/Humblebundle.md)
+|![Hungryjacks](../simpleicons-4/H/Hungryjacks.element.png)|[simpleicons-4/H/Hungryjacks](../simpleicons-4/H/Hungryjacks.md)
 |![Hurriyetemlak](../simpleicons-4/H/Hurriyetemlak.element.png)|[simpleicons-4/H/Hurriyetemlak](../simpleicons-4/H/Hurriyetemlak.md)
 |![Husqvarna](../simpleicons-4/H/Husqvarna.element.png)|[simpleicons-4/H/Husqvarna](../simpleicons-4/H/Husqvarna.md)
+|![Hyper](../simpleicons-4/H/Hyper.element.png)|[simpleicons-4/H/Hyper](../simpleicons-4/H/Hyper.md)
 |![Hyperledger](../simpleicons-4/H/Hyperledger.element.png)|[simpleicons-4/H/Hyperledger](../simpleicons-4/H/Hyperledger.md)
 |![Hypothesis](../simpleicons-4/H/Hypothesis.element.png)|[simpleicons-4/H/Hypothesis](../simpleicons-4/H/Hypothesis.md)
 |![Hyundai](../simpleicons-4/H/Hyundai.element.png)|[simpleicons-4/H/Hyundai](../simpleicons-4/H/Hyundai.md)

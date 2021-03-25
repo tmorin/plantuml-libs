@@ -1,0 +1,16 @@
+@startuml
+sprite $AlibabaDotComMd [14x14/16z] bKg30S0m47oZqVxRDbeWpnEy5LguNCobzq-hRX8zU3wFPSHmc8mgJjP6OPxW1FlM81sG6LhIl3GoRURDNQOhIl1KFm
+sprite $AlibabaDotComLg [20x20/16z] {
+lKo50GGX3CEjkMR_RHzdWqSRDVzRle0VcdjC1AdY0t0zGid1Zaat5PHnZrNcvxooJp7qEUhgauz8SIVJifFCQx9QvsSDzPI9T2B4u3hdUsaVF57HOaT6yA6c
+tcshrDZ_FwqV
+}
+!procedure AlibabaDotCom($id, $name="Alibaba Dot Com", $tech="")
+  IconElement($id, 'simpleicons-4/A/AlibabaDotCom', $name, $tech)
+!endprocedure
+!procedure AlibabaDotComCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlibabaDotComMd>', '', $funcName, $content)
+!endprocedure
+!procedure AlibabaDotComGroup($id, $name='Alibaba Dot Com', $tech='')
+  IconGroup($id, 'IconGroup', '<$AlibabaDotComLg>', $name, $tech)
+!endprocedure
+@enduml

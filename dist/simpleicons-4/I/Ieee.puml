@@ -1,0 +1,13 @@
+@startuml
+sprite $IeeeMd [14x14/16z] hOS50G0n30CxkdJet-sZXOPZ8SZ8SeEgLsDkjRcS0rjp_Q-zZunRaQiwjSj2S0C
+sprite $IeeeLg [20x20/16z] pKk50S0m368jqAJw_xMJBnOFWb-51LorK5_pudjeJa8ZLghjj7Rcd3cNj795zGxgDC_LnvPchkIBIIVyUXVnOPytx1C1s41XLMEnzRRnetW
+!procedure Ieee($id, $name="Ieee", $tech="")
+  IconElement($id, 'simpleicons-4/I/Ieee', $name, $tech)
+!endprocedure
+!procedure IeeeCard($id, $funcName="", $content="")
+  IconCard($id, '<$IeeeMd>', '', $funcName, $content)
+!endprocedure
+!procedure IeeeGroup($id, $name='Ieee', $tech='')
+  IconGroup($id, 'IconGroup', '<$IeeeLg>', $name, $tech)
+!endprocedure
+@enduml

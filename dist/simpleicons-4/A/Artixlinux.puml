@@ -1,0 +1,16 @@
+@startuml
+sprite $ArtixlinuxMd [14x14/16z] JOs53S104CDoVKRlFssPB8n2Eib5Fth_2GTUBnNQtmBtoZYXFbQGycjMHfBLorm0Pd713bMuYA_5p8kLHUwmUZGbACTnFTOi3rXADjqi9Mq
+sprite $ArtixlinuxLg [20x20/16z] {
+POw54S0m54Bv4gsm_xHrJJX_X-5MhUWqZXroqbjMoThREcCXMwEHdL7plBE2lxFkK5-Gam0-Veswnmm84-qtokg2b6_Rp5DZKdrjjsO_aSqFoIfsEFETZ83a
+VLhEjgaue6dUp8QGpdBWV4WcJEU9IvOsh3ahlX8hSGK
+}
+!procedure Artixlinux($id, $name="Artixlinux", $tech="")
+  IconElement($id, 'simpleicons-4/A/Artixlinux', $name, $tech)
+!endprocedure
+!procedure ArtixlinuxCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArtixlinuxMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArtixlinuxGroup($id, $name='Artixlinux', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArtixlinuxLg>', $name, $tech)
+!endprocedure
+@enduml

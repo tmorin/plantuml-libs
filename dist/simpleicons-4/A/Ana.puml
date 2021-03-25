@@ -1,0 +1,13 @@
+@startuml
+sprite $AnaMd [14x14/16z] hS470S0W40Im-prR_Bl510dUO6K1iO9cGhBZKwj1djNCyUwealCdLDfqN3Ct6MzS
+sprite $AnaLg [20x20/16z] pKo50GH02B8LBzn_seyjpWw0tZJ-PvKvKMtkfXGzlmKp9yNww3vQYbraCmiCsFRgzWo0zkpbr9sttGSh3_B7hBymHp0ZbCmTwKfFsHS
+!procedure Ana($id, $name="Ana", $tech="")
+  IconElement($id, 'simpleicons-4/A/Ana', $name, $tech)
+!endprocedure
+!procedure AnaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AnaMd>', '', $funcName, $content)
+!endprocedure
+!procedure AnaGroup($id, $name='Ana', $tech='')
+  IconGroup($id, 'IconGroup', '<$AnaLg>', $name, $tech)
+!endprocedure
+@enduml

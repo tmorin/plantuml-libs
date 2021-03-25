@@ -1,0 +1,19 @@
+@startuml
+sprite $CodemirrorMd [14x14/16z] {
+BOv9OWHH248HWJzKxd_T96tNspWB6EHLm4kBQGnbDr2PN9aT6vLQqzEMAW_CMTzktA2cu67fl7bHiGGGbTECUHedbBYrDnlysHimuUp2TMbvTGZK2G3U_Pp_
+nX46Eldw_0C
+}
+sprite $CodemirrorLg [20x20/16z] {
+LSt5eKGn243HYnEUzL_jb_4vcmJdGQB7-QPHA_aaKG8Ll5Y7Aq0fTz9v_qgsW1deidi63nDqabx-kD5D17KwgtbO7QaoIt7ZeLp1ZmJXGNONYrxlX95HQUB1
+eyzQ0OlgD4XJf6VISsr6jwBdQh94gjqdHO7Ujqq1I_2nIT0pB0PemrCg1DaRoB5igrG0tHO0FbTKHu7rbjo9rtPjiyqgvKLKpSs4cry
+}
+!procedure Codemirror($id, $name="Codemirror", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codemirror', $name, $tech)
+!endprocedure
+!procedure CodemirrorCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodemirrorMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodemirrorGroup($id, $name='Codemirror', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodemirrorLg>', $name, $tech)
+!endprocedure
+@enduml

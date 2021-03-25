@@ -1,0 +1,13 @@
+@startuml
+sprite $SupabaseMd [14x14/16z] JOjL0e1G409PQyFW_gUrzJ5_nE2YtmmDfuIUacmbsxCesyIJZ8ZqI_fPuMjBFGRFYoluBv-X_c3aQf1jW2INOAzq
+sprite $SupabaseLg [20x20/16z] POpL0KCn00A9UzX_slQvSP_8uI0JGj4iKZ8xDMkKB5Eom9MlR2Nu7NF8dkH3zYJ01SeiVcPjjPcmuVVzj7Xoo2GhaAmRoQQ3P16ILGYtx0y
+!procedure Supabase($id, $name="Supabase", $tech="")
+  IconElement($id, 'simpleicons-4/S/Supabase', $name, $tech)
+!endprocedure
+!procedure SupabaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SupabaseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SupabaseGroup($id, $name='Supabase', $tech='')
+  IconGroup($id, 'IconGroup', '<$SupabaseLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MobxStateTreeMd [14x14/16z] FOg50S0W30IVUD3zfwsNW_ZXeGx1Xce6Dic8VJG7IfRVkxF4zcvSF-ybo-kzQ40_ZzkeNVfxoXbgeMiKG6SJJvMwrXfhcgJSTlOv0Zwui2VXeMY42t02
+sprite $MobxStateTreeLg [20x20/16z] {
+NP050i0W24Kj6iRzJxlklr2VT3bLFQNyr2BjpuogyXUHhQRU7t0TGTzCQL-47eHN-CUxUJjtm-wSZmlputcfslXwxjvQpvod6efCNCRZMNbADulX0IV2I6rr
+8BPCFDmiepTsOQFC2MhjaachfTGrovIhjf-rxaSNeXwv4IXy11wgjJP0wAkB11E9ANxcXKJxRLa
+}
+!procedure MobxStateTree($id, $name="Mobx State Tree", $tech="")
+  IconElement($id, 'simpleicons-4/M/MobxStateTree', $name, $tech)
+!endprocedure
+!procedure MobxStateTreeCard($id, $funcName="", $content="")
+  IconCard($id, '<$MobxStateTreeMd>', '', $funcName, $content)
+!endprocedure
+!procedure MobxStateTreeGroup($id, $name='Mobx State Tree', $tech='')
+  IconGroup($id, 'IconGroup', '<$MobxStateTreeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ApplearcadeMd [14x14/16z] NOs55GGX34HPuhcNcVwhFVSFSLit3B3rfiXQRuQS_zeRzxTxn8XC73T_Dqar4hNN84-aA6yKO4rcyKQBDf-K6iSbR_TIVA09f8hSxVtO423U9oL2xiu5
+sprite $ApplearcadeLg [20x20/16z] {
+XSe7caKX24DXWXtGx7-tWzFx-s_rV95Navpo5OmqV6sJ_34q9dkyKoTTvIlKYg-bJ1FuB9-A7Hw0F5PVIWscswve8XwCU6zNL7A9xC-D9tVkJERlEw06F_6A
+kdT7CRwoWhvvo3EWCyw9gHXvpkFQP9wIJd8lbOGUP9ZTzr1vXUPCtY2VGVLzyWG
+}
+!procedure Applearcade($id, $name="Applearcade", $tech="")
+  IconElement($id, 'simpleicons-4/A/Applearcade', $name, $tech)
+!endprocedure
+!procedure ApplearcadeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ApplearcadeMd>', '', $funcName, $content)
+!endprocedure
+!procedure ApplearcadeGroup($id, $name='Applearcade', $tech='')
+  IconGroup($id, 'IconGroup', '<$ApplearcadeLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $BitcoinsvMd [14x14/16z] LOvL0WH0249Xkhd_RTTn-_tO0i0kfnD6Fd9E1fZr8QFVIMs-SAXR830iIvfVe8l9akKLKxN66-OHuxiuQ2euqhvL0-aUsfz2-5TtPv_2O5icrMZf0m
+sprite $BitcoinsvLg [20x20/16z] {
+RP050aCn24F3gElzJpk1T9wlVJW0e7rJNK75STYCH8N0LBuHeKOFAgimQqIVZj2Gc5FiinI0GBnMf4tHPqQmGsFcWBaxcDlH2j0WO9KdIoNYiWuuiJkYCPOr
+sgmCRdIpNf2zbpxOSvNasOQSsV9hjhyx8Fn2tpkb9BPv1osA7My
+}
+!procedure Bitcoinsv($id, $name="Bitcoinsv", $tech="")
+  IconElement($id, 'simpleicons-4/B/Bitcoinsv', $name, $tech)
+!endprocedure
+!procedure BitcoinsvCard($id, $funcName="", $content="")
+  IconCard($id, '<$BitcoinsvMd>', '', $funcName, $content)
+!endprocedure
+!procedure BitcoinsvGroup($id, $name='Bitcoinsv', $tech='')
+  IconGroup($id, 'IconGroup', '<$BitcoinsvLg>', $name, $tech)
+!endprocedure
+@enduml

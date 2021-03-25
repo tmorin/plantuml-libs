@@ -1,0 +1,16 @@
+@startuml
+sprite $VaadinMd [14x14/16z] HKq30W0m46hs-lzhPvnPqU29ONQ_SoHppiNQCX9PEQNkv8MKIgfQrKZoVlnlRMUqUdU92j2CboO1cHfl-LRpAfTv_PP_1IXIuekpEtS
+sprite $VaadinLg [20x20/16z] {
+PS-55SH0201HY0im_LSRuVAEo5_t9KoUr0ZJpnpHwoc7fpw0iDIsbe9YncLTLay0djP6BWCCykOk7stx_D8oIPfcgRleptQ4JYuDc1wD4nNK14Dk6-Ml2Lpr
+hAISMtwRYphafQcUpiSV35Pv6UflPQYJEm
+}
+!procedure Vaadin($id, $name="Vaadin", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vaadin', $name, $tech)
+!endprocedure
+!procedure VaadinCard($id, $funcName="", $content="")
+  IconCard($id, '<$VaadinMd>', '', $funcName, $content)
+!endprocedure
+!procedure VaadinGroup($id, $name='Vaadin', $tech='')
+  IconGroup($id, 'IconGroup', '<$VaadinLg>', $name, $tech)
+!endprocedure
+@enduml

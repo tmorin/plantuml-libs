@@ -1,16 +1,19 @@
 # N
 
-The module N contains 52 entries.
+The module N contains 57 entries.
 
 
 
 | |Name|
 |:---:|---|
 |![N26](../simpleicons-4/N/N26.element.png)|[simpleicons-4/N/N26](../simpleicons-4/N/N26.md)
+|![Namebase](../simpleicons-4/N/Namebase.element.png)|[simpleicons-4/N/Namebase](../simpleicons-4/N/Namebase.md)
 |![Namecheap](../simpleicons-4/N/Namecheap.element.png)|[simpleicons-4/N/Namecheap](../simpleicons-4/N/Namecheap.md)
+|![Nano](../simpleicons-4/N/Nano.element.png)|[simpleicons-4/N/Nano](../simpleicons-4/N/Nano.md)
 |![Nasa](../simpleicons-4/N/Nasa.element.png)|[simpleicons-4/N/Nasa](../simpleicons-4/N/Nasa.md)
 |![Nationalgrid](../simpleicons-4/N/Nationalgrid.element.png)|[simpleicons-4/N/Nationalgrid](../simpleicons-4/N/Nationalgrid.md)
 |![Nativescript](../simpleicons-4/N/Nativescript.element.png)|[simpleicons-4/N/Nativescript](../simpleicons-4/N/Nativescript.md)
+|![Naver](../simpleicons-4/N/Naver.element.png)|[simpleicons-4/N/Naver](../simpleicons-4/N/Naver.md)
 |![Nba](../simpleicons-4/N/Nba.element.png)|[simpleicons-4/N/Nba](../simpleicons-4/N/Nba.md)
 |![Nbb](../simpleicons-4/N/Nbb.element.png)|[simpleicons-4/N/Nbb](../simpleicons-4/N/Nbb.md)
 |![Ndr](../simpleicons-4/N/Ndr.element.png)|[simpleicons-4/N/Ndr](../simpleicons-4/N/Ndr.md)
@@ -43,6 +46,7 @@ The module N contains 52 entries.
 |![Nodemon](../simpleicons-4/N/Nodemon.element.png)|[simpleicons-4/N/Nodemon](../simpleicons-4/N/Nodemon.md)
 |![NodeRed](../simpleicons-4/N/NodeRed.element.png)|[simpleicons-4/N/NodeRed](../simpleicons-4/N/NodeRed.md)
 |![Nokia](../simpleicons-4/N/Nokia.element.png)|[simpleicons-4/N/Nokia](../simpleicons-4/N/Nokia.md)
+|![Norwegian](../simpleicons-4/N/Norwegian.element.png)|[simpleicons-4/N/Norwegian](../simpleicons-4/N/Norwegian.md)
 |![Notepadplusplus](../simpleicons-4/N/Notepadplusplus.element.png)|[simpleicons-4/N/Notepadplusplus](../simpleicons-4/N/Notepadplusplus.md)
 |![Notion](../simpleicons-4/N/Notion.element.png)|[simpleicons-4/N/Notion](../simpleicons-4/N/Notion.md)
 |![Notist](../simpleicons-4/N/Notist.element.png)|[simpleicons-4/N/Notist](../simpleicons-4/N/Notist.md)
@@ -58,4 +62,5 @@ The module N contains 52 entries.
 |![Nutanix](../simpleicons-4/N/Nutanix.element.png)|[simpleicons-4/N/Nutanix](../simpleicons-4/N/Nutanix.md)
 |![NuxtDotJs](../simpleicons-4/N/NuxtDotJs.element.png)|[simpleicons-4/N/NuxtDotJs](../simpleicons-4/N/NuxtDotJs.md)
 |![Nvidia](../simpleicons-4/N/Nvidia.element.png)|[simpleicons-4/N/Nvidia](../simpleicons-4/N/Nvidia.md)
+|![Nx](../simpleicons-4/N/Nx.element.png)|[simpleicons-4/N/Nx](../simpleicons-4/N/Nx.md)
 

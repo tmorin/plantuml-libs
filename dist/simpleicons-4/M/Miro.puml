@@ -1,0 +1,19 @@
+@startuml
+sprite $MiroMd [14x14/16z] {
+BOe93i0m2CFeVTBy_xVpjY81SMJff2Br9ErivqzUjZJJ0CV2WEHvYgX_kfLBcyqVlIQEM-hKf3caOOM-GvMVhJlNTPBBWr6jX1HPCvSAn2AQTApz6o24UHT2
+S7QhG0y
+}
+sprite $MiroLg [20x20/16z] {
+HOu73iCm00BFUxl__sq3waom89p5w_bL-gFTkX8eQxH79_NHK-0u34SsBvcL-tJOfDVPQwVYSwdu-NN2_hjZJT2DsKqTEtoohSeTroZuug5i-dCcHBdTl7qO
+9IIvNeKc8GEIjwGXrCiBrAu-MsWo2cFAnVkW29c0Hw36eXa5JtKZCrHMPjVjbb5d9yWDjBHyieP6P5rwmoTBH9VB1-KD
+}
+!procedure Miro($id, $name="Miro", $tech="")
+  IconElement($id, 'simpleicons-4/M/Miro', $name, $tech)
+!endprocedure
+!procedure MiroCard($id, $funcName="", $content="")
+  IconCard($id, '<$MiroMd>', '', $funcName, $content)
+!endprocedure
+!procedure MiroGroup($id, $name='Miro', $tech='')
+  IconGroup($id, 'IconGroup', '<$MiroLg>', $name, $tech)
+!endprocedure
+@enduml

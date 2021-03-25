@@ -1,6 +1,6 @@
 # R
 
-The module R contains 66 entries.
+The module R contains 72 entries.
 
 
 
@@ -13,6 +13,7 @@ The module R contains 66 entries.
 |![Radiopublic](../simpleicons-4/R/Radiopublic.element.png)|[simpleicons-4/R/Radiopublic](../simpleicons-4/R/Radiopublic.md)
 |![Rainmeter](../simpleicons-4/R/Rainmeter.element.png)|[simpleicons-4/R/Rainmeter](../simpleicons-4/R/Rainmeter.md)
 |![Rakuten](../simpleicons-4/R/Rakuten.element.png)|[simpleicons-4/R/Rakuten](../simpleicons-4/R/Rakuten.md)
+|![Ram](../simpleicons-4/R/Ram.element.png)|[simpleicons-4/R/Ram](../simpleicons-4/R/Ram.md)
 |![Rancher](../simpleicons-4/R/Rancher.element.png)|[simpleicons-4/R/Rancher](../simpleicons-4/R/Rancher.md)
 |![Raspberrypi](../simpleicons-4/R/Raspberrypi.element.png)|[simpleicons-4/R/Raspberrypi](../simpleicons-4/R/Raspberrypi.md)
 |![Razer](../simpleicons-4/R/Razer.element.png)|[simpleicons-4/R/Razer](../simpleicons-4/R/Razer.md)
@@ -39,18 +40,23 @@ The module R contains 66 entries.
 |![Renren](../simpleicons-4/R/Renren.element.png)|[simpleicons-4/R/Renren](../simpleicons-4/R/Renren.md)
 |![ReplDotIt](../simpleicons-4/R/ReplDotIt.element.png)|[simpleicons-4/R/ReplDotIt](../simpleicons-4/R/ReplDotIt.md)
 |![Researchgate](../simpleicons-4/R/Researchgate.element.png)|[simpleicons-4/R/Researchgate](../simpleicons-4/R/Researchgate.md)
+|![Resurrectionremixos](../simpleicons-4/R/Resurrectionremixos.element.png)|[simpleicons-4/R/Resurrectionremixos](../simpleicons-4/R/Resurrectionremixos.md)
 |![Retroarch](../simpleicons-4/R/Retroarch.element.png)|[simpleicons-4/R/Retroarch](../simpleicons-4/R/Retroarch.md)
 |![Retropie](../simpleicons-4/R/Retropie.element.png)|[simpleicons-4/R/Retropie](../simpleicons-4/R/Retropie.md)
+|![RevealDotJs](../simpleicons-4/R/RevealDotJs.element.png)|[simpleicons-4/R/RevealDotJs](../simpleicons-4/R/RevealDotJs.md)
 |![Reverbnation](../simpleicons-4/R/Reverbnation.element.png)|[simpleicons-4/R/Reverbnation](../simpleicons-4/R/Reverbnation.md)
 |![Revolut](../simpleicons-4/R/Revolut.element.png)|[simpleicons-4/R/Revolut](../simpleicons-4/R/Revolut.md)
 |![Revue](../simpleicons-4/R/Revue.element.png)|[simpleicons-4/R/Revue](../simpleicons-4/R/Revue.md)
 |![Rewe](../simpleicons-4/R/Rewe.element.png)|[simpleicons-4/R/Rewe](../simpleicons-4/R/Rewe.md)
+|![Rezgo](../simpleicons-4/R/Rezgo.element.png)|[simpleicons-4/R/Rezgo](../simpleicons-4/R/Rezgo.md)
 |![Rhinoceros](../simpleicons-4/R/Rhinoceros.element.png)|[simpleicons-4/R/Rhinoceros](../simpleicons-4/R/Rhinoceros.md)
+|![Rider](../simpleicons-4/R/Rider.element.png)|[simpleicons-4/R/Rider](../simpleicons-4/R/Rider.md)
 |![Ring](../simpleicons-4/R/Ring.element.png)|[simpleicons-4/R/Ring](../simpleicons-4/R/Ring.md)
 |![Riotgames](../simpleicons-4/R/Riotgames.element.png)|[simpleicons-4/R/Riotgames](../simpleicons-4/R/Riotgames.md)
 |![Ripple](../simpleicons-4/R/Ripple.element.png)|[simpleicons-4/R/Ripple](../simpleicons-4/R/Ripple.md)
 |![Riseup](../simpleicons-4/R/Riseup.element.png)|[simpleicons-4/R/Riseup](../simpleicons-4/R/Riseup.md)
 |![Roamresearch](../simpleicons-4/R/Roamresearch.element.png)|[simpleicons-4/R/Roamresearch](../simpleicons-4/R/Roamresearch.md)
+|![Robotframework](../simpleicons-4/R/Robotframework.element.png)|[simpleicons-4/R/Robotframework](../simpleicons-4/R/Robotframework.md)
 |![Roku](../simpleicons-4/R/Roku.element.png)|[simpleicons-4/R/Roku](../simpleicons-4/R/Roku.md)
 |![RollsRoyce](../simpleicons-4/R/RollsRoyce.element.png)|[simpleicons-4/R/RollsRoyce](../simpleicons-4/R/RollsRoyce.md)
 |![RollupDotJs](../simpleicons-4/R/RollupDotJs.element.png)|[simpleicons-4/R/RollupDotJs](../simpleicons-4/R/RollupDotJs.md)

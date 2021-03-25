@@ -1,0 +1,16 @@
+@startuml
+sprite $WappalyzerMd [14x14/16z] POw30S1034M3ClhxJrkxxn23DbJfmJZUkWQGPxJ3Hh_gxAjg1JZJAb2ZjgjOFqGdghaexbueQzVQShFmn4PwTYIBlQM72otqwLMUmpLzuTwDpPZ-p
+sprite $WappalyzerLg [20x20/16z] {
+XP350GCW301nYE-_ROFKxJvn3LTI2c_a_EPgPltP4z4SZ0-k8hRGUdCDkm6dEHyJp64VLPikZt2FikfRiCE89PIjqix2t6DfMNPum5AenhGz0jrpSEbAkm8y
+tenNwWu0hNEIJ6t1e9AlEzFQpKDmlqrbY03lsmxHCy0e_llL_kalBW
+}
+!procedure Wappalyzer($id, $name="Wappalyzer", $tech="")
+  IconElement($id, 'simpleicons-4/W/Wappalyzer', $name, $tech)
+!endprocedure
+!procedure WappalyzerCard($id, $funcName="", $content="")
+  IconCard($id, '<$WappalyzerMd>', '', $funcName, $content)
+!endprocedure
+!procedure WappalyzerGroup($id, $name='Wappalyzer', $tech='')
+  IconGroup($id, 'IconGroup', '<$WappalyzerLg>', $name, $tech)
+!endprocedure
+@enduml

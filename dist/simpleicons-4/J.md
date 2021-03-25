@@ -1,6 +1,6 @@
 # J
 
-The module J contains 37 entries.
+The module J contains 39 entries.
 
 
 
@@ -39,7 +39,9 @@ The module J contains 37 entries.
 |![Jsfiddle](../simpleicons-4/J/Jsfiddle.element.png)|[simpleicons-4/J/Jsfiddle](../simpleicons-4/J/Jsfiddle.md)
 |![Json](../simpleicons-4/J/Json.element.png)|[simpleicons-4/J/Json](../simpleicons-4/J/Json.md)
 |![Jsonwebtokens](../simpleicons-4/J/Jsonwebtokens.element.png)|[simpleicons-4/J/Jsonwebtokens](../simpleicons-4/J/Jsonwebtokens.md)
+|![Jss](../simpleicons-4/J/Jss.element.png)|[simpleicons-4/J/Jss](../simpleicons-4/J/Jss.md)
 |![Julia](../simpleicons-4/J/Julia.element.png)|[simpleicons-4/J/Julia](../simpleicons-4/J/Julia.md)
+|![Junipernetworks](../simpleicons-4/J/Junipernetworks.element.png)|[simpleicons-4/J/Junipernetworks](../simpleicons-4/J/Junipernetworks.md)
 |![Jupyter](../simpleicons-4/J/Jupyter.element.png)|[simpleicons-4/J/Jupyter](../simpleicons-4/J/Jupyter.md)
 |![Justeat](../simpleicons-4/J/Justeat.element.png)|[simpleicons-4/J/Justeat](../simpleicons-4/J/Justeat.md)
 |![Justgiving](../simpleicons-4/J/Justgiving.element.png)|[simpleicons-4/J/Justgiving](../simpleicons-4/J/Justgiving.md)

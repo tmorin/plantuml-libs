@@ -1,0 +1,16 @@
+@startuml
+sprite $SparkasseMd [14x14/16z] LSpL0K0X509Gx9RzftrXU_vk07w135WocVPqts0j1ccC_XWZ_w5ogDzek1W8Isgf6j6c55EZspHPGDh6k3arRRexWJY72Bm
+sprite $SparkasseLg [20x20/16z] {
+TP230G0W402piV-qsRXy-K65EEyT0HlK9-ZkH7PYTomx1dRajUm24aefIUG65eMqNz1eN3aHsQdTgUOS7X1qEup-Usydd1qqjs6ReuABZcjE-WqvmZJX8vxR
+ro8
+}
+!procedure Sparkasse($id, $name="Sparkasse", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sparkasse', $name, $tech)
+!endprocedure
+!procedure SparkasseCard($id, $funcName="", $content="")
+  IconCard($id, '<$SparkasseMd>', '', $funcName, $content)
+!endprocedure
+!procedure SparkasseGroup($id, $name='Sparkasse', $tech='')
+  IconGroup($id, 'IconGroup', '<$SparkasseLg>', $name, $tech)
+!endprocedure
+@enduml

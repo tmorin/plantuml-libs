@@ -1,0 +1,19 @@
+@startuml
+sprite $FraunhoferGesellschaftMd [14x14/16z] {
+JSR5eGKm30EmSi1rlF-q7n_f97qWtYyY_yUBH4G0uHxnSy_S7hYyQIUl3LF1ztOg-cADkOFwUOTkbdvuRovck4JhxPGoFUMxjKqXqY2rjYWwub1IKEM1O_eN
+TcFY_xQJQvN-VGC
+}
+sprite $FraunhoferGesellschaftLg [20x20/16z] {
+PSp50KCX44LHu3Ckh_zguvwxF2FuhSl_hEB7sYs-h4miqbcU1ygaKMMaQI9CUss9HZaVshc7Y4K1DzYEvh7Y_fcFOskXTKv5gzAQYwo0bZce43RdrcpSvNfc
+4RXNEiTK82MTRv9o4IwqMObS9NYEGG64P983RdkCiIzIhAqx0Oo7m2XhK-FIGv8KlXItp06KK3MjnAjMCjZaVfDlwJg6luKs9NGSXNTd
+}
+!procedure FraunhoferGesellschaft($id, $name="Fraunhofer Gesellschaft", $tech="")
+  IconElement($id, 'simpleicons-4/F/FraunhoferGesellschaft', $name, $tech)
+!endprocedure
+!procedure FraunhoferGesellschaftCard($id, $funcName="", $content="")
+  IconCard($id, '<$FraunhoferGesellschaftMd>', '', $funcName, $content)
+!endprocedure
+!procedure FraunhoferGesellschaftGroup($id, $name='Fraunhofer Gesellschaft', $tech='')
+  IconGroup($id, 'IconGroup', '<$FraunhoferGesellschaftLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $MyanimelistMd [14x14/16z] dKS50G1121joXlPl-sJu-V0Jjl4UsEAHCxgiW-fSvnQ4L_Zk6qdpdjA9rJVdAKnnWfjEKfKpG8mZ4ooCd_W
+sprite $MyanimelistLg [20x20/16z] {
+nSY50SDG20JGGs8VkVsdZMU55kVX1o7oZMVfkQiSKuV0HdUhSmR8z6R2sMlKQSjbLoI2YgtbjegLIwSL8ydFC4cb9YFwiXdem3aAGKXSDkOvnscPM3XZNDPC
+rTFE8SEW1fYgu4zn
+}
+!procedure Myanimelist($id, $name="Myanimelist", $tech="")
+  IconElement($id, 'simpleicons-4/M/Myanimelist', $name, $tech)
+!endprocedure
+!procedure MyanimelistCard($id, $funcName="", $content="")
+  IconCard($id, '<$MyanimelistMd>', '', $funcName, $content)
+!endprocedure
+!procedure MyanimelistGroup($id, $name='Myanimelist', $tech='')
+  IconGroup($id, 'IconGroup', '<$MyanimelistLg>', $name, $tech)
+!endprocedure
+@enduml

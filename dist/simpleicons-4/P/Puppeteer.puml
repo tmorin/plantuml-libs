@@ -1,0 +1,16 @@
+@startuml
+sprite $PuppeteerMd [14x14/16z] ROpPOG11249P0Pca_txtq7pcpQa208z5oeTugPEMd5puy5knuoagxYG-DTLF232_MmN3fdIABvMU48k3yCBhZwsmx4TnlylcAZNEuZzASP201m
+sprite $PuppeteerLg [20x20/16z] {
+TOu55iGm20M1Z_Dw_-jkBNcsdMe69IAKmS4C5okX6xJ35L37TeGfTpl91hsmsmYpZ1elfmL4Tm2bgxGrCaJEbuwyfJ5nzq5ChkBQdJ5hn46RuwtrDbsKF-uq
+mYzYos6ZRnwODgplodySGkzMPrEIvTAhApkgqh5h0GZJcVZHxzEPsyRj53y
+}
+!procedure Puppeteer($id, $name="Puppeteer", $tech="")
+  IconElement($id, 'simpleicons-4/P/Puppeteer', $name, $tech)
+!endprocedure
+!procedure PuppeteerCard($id, $funcName="", $content="")
+  IconCard($id, '<$PuppeteerMd>', '', $funcName, $content)
+!endprocedure
+!procedure PuppeteerGroup($id, $name='Puppeteer', $tech='')
+  IconGroup($id, 'IconGroup', '<$PuppeteerLg>', $name, $tech)
+!endprocedure
+@enduml

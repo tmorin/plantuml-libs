@@ -1,0 +1,19 @@
+@startuml
+sprite $QuantconnectMd [14x14/16z] {
+DOrN0iH02499TuB8_M-xKpRFhsS3s9edxuRELHQPzjKdbtK2oL3NPeqDsbqtkq_kn2P7BtLn0RkPgXTG5o2JxYiSffm6zlKgjx49dCwG8XqE08_DVm8w1qih
+VR5HxlBXYh7s0m
+}
+sprite $QuantconnectLg [20x20/16z] {
+LP05bWGn20KPYI9r_zikoR1MtJ7yVKbUcq9VKZIZy5Qc2UZiSww0MIRidQVfxdgDhmRx8GaGOqCJDLGEppO3Xc8Fu2I-ZJGRtg617XDmOeEzs9zEYdT95Zfn
+wEc79eU6JKY3Cwwj4QDiOkoDj-RelhctYFSWYUwtnwURTGNjDOia7NoDiRncbciCBZ5MXPtqPVwhGLBcNwr-AKt_4RxRf_mN
+}
+!procedure Quantconnect($id, $name="Quantconnect", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Quantconnect', $name, $tech)
+!endprocedure
+!procedure QuantconnectCard($id, $funcName="", $content="")
+  IconCard($id, '<$QuantconnectMd>', '', $funcName, $content)
+!endprocedure
+!procedure QuantconnectGroup($id, $name='Quantconnect', $tech='')
+  IconGroup($id, 'IconGroup', '<$QuantconnectLg>', $name, $tech)
+!endprocedure
+@enduml

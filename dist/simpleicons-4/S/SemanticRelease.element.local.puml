@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the SemanticRelease element
+include('simpleicons-4/S/SemanticRelease')
+SemanticRelease('semantic_release', 'Semantic Release', 'an optional tech field')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $HandshakeMd [14x14/16z] XSct5KDH3CDGl9ob_RSrVwfTyLmY57VFG6e9OfUQDAn37fAsFMSyRb596gYs02GfaRhRIcAeKMNgzDNxMBi-EdtVtwC15-UZ2SzyRVnLh9e2HLFv0G
+sprite $HandshakeLg [20x20/16z] {
+dP053WGn24M1kj7xttRdCown9VRoMfGepIKI8TWvDYXmsL1243o9mWsmqmNSpN43DIHKKDc-RHbSLIi3kltZjR8ZYmWNxDlKdjcapzb1hLLwC2bETcUrMssg
+LcztlMrlq-rE1KCPcTk8tDC9Pdux-NBZxiO_3dVMxVPfkzeF
+}
+!procedure Handshake($id, $name="Handshake", $tech="")
+  IconElement($id, 'simpleicons-4/H/Handshake', $name, $tech)
+!endprocedure
+!procedure HandshakeCard($id, $funcName="", $content="")
+  IconCard($id, '<$HandshakeMd>', '', $funcName, $content)
+!endprocedure
+!procedure HandshakeGroup($id, $name='Handshake', $tech='')
+  IconGroup($id, 'IconGroup', '<$HandshakeLg>', $name, $tech)
+!endprocedure
+@enduml

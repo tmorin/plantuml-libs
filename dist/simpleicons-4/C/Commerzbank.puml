@@ -1,0 +1,16 @@
+@startuml
+sprite $CommerzbankMd [14x14/16z] DSh5WS100810ikxqN-r9PBu0v3bcooLo6nx7t8r_IUrDlUFImtLqmbNK0bNDzACBkBPkL1D0Lfiwk4tT_HYuHIsfz_YQYolxcUdv7_dv7uDRU5p0Bm
+sprite $CommerzbankLg [20x20/16z] {
+TSu50eCm50FGrBt__hSTGIhRU52tW48aPxJ6aF8XUMSj7a4erwDokEZEgU1Pj-Sa1nMgiOqWAsG1nxORpXLsq-Xbm8pLUQ8-juoR2uIQMXDu8RSbRQqpnz2O
+r8Kk1eFZHSQMgDK3kl8YLVhGUitrtZxrQ45vdTC0cIv37AbAlfIiyE83
+}
+!procedure Commerzbank($id, $name="Commerzbank", $tech="")
+  IconElement($id, 'simpleicons-4/C/Commerzbank', $name, $tech)
+!endprocedure
+!procedure CommerzbankCard($id, $funcName="", $content="")
+  IconCard($id, '<$CommerzbankMd>', '', $funcName, $content)
+!endprocedure
+!procedure CommerzbankGroup($id, $name='Commerzbank', $tech='')
+  IconGroup($id, 'IconGroup', '<$CommerzbankLg>', $name, $tech)
+!endprocedure
+@enduml

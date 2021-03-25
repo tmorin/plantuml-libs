@@ -1,6 +1,6 @@
 # X
 
-The module X contains 16 entries.
+The module X contains 17 entries.
 
 
 
@@ -22,4 +22,5 @@ The module X contains 16 entries.
 |![XPack](../simpleicons-4/X/XPack.element.png)|[simpleicons-4/X/XPack](../simpleicons-4/X/XPack.md)
 |![Xrp](../simpleicons-4/X/Xrp.element.png)|[simpleicons-4/X/Xrp](../simpleicons-4/X/Xrp.md)
 |![Xsplit](../simpleicons-4/X/Xsplit.element.png)|[simpleicons-4/X/Xsplit](../simpleicons-4/X/Xsplit.md)
+|![Xstate](../simpleicons-4/X/Xstate.element.png)|[simpleicons-4/X/Xstate](../simpleicons-4/X/Xstate.md)
 

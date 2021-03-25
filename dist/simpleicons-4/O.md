@@ -1,6 +1,6 @@
 # O
 
-The module O contains 48 entries.
+The module O contains 51 entries.
 
 
 
@@ -16,6 +16,7 @@ The module O contains 48 entries.
 |![Okcupid](../simpleicons-4/O/Okcupid.element.png)|[simpleicons-4/O/Okcupid](../simpleicons-4/O/Okcupid.md)
 |![Okta](../simpleicons-4/O/Okta.element.png)|[simpleicons-4/O/Okta](../simpleicons-4/O/Okta.md)
 |![Oneplus](../simpleicons-4/O/Oneplus.element.png)|[simpleicons-4/O/Oneplus](../simpleicons-4/O/Oneplus.md)
+|![Onlyfans](../simpleicons-4/O/Onlyfans.element.png)|[simpleicons-4/O/Onlyfans](../simpleicons-4/O/Onlyfans.md)
 |![Onstar](../simpleicons-4/O/Onstar.element.png)|[simpleicons-4/O/Onstar](../simpleicons-4/O/Onstar.md)
 |![Opel](../simpleicons-4/O/Opel.element.png)|[simpleicons-4/O/Opel](../simpleicons-4/O/Opel.md)
 |![Openaccess](../simpleicons-4/O/Openaccess.element.png)|[simpleicons-4/O/Openaccess](../simpleicons-4/O/Openaccess.md)
@@ -28,6 +29,7 @@ The module O contains 48 entries.
 |![Opencollective](../simpleicons-4/O/Opencollective.element.png)|[simpleicons-4/O/Opencollective](../simpleicons-4/O/Opencollective.md)
 |![Opencontainersinitiative](../simpleicons-4/O/Opencontainersinitiative.element.png)|[simpleicons-4/O/Opencontainersinitiative](../simpleicons-4/O/Opencontainersinitiative.md)
 |![Opencv](../simpleicons-4/O/Opencv.element.png)|[simpleicons-4/O/Opencv](../simpleicons-4/O/Opencv.md)
+|![Openfaas](../simpleicons-4/O/Openfaas.element.png)|[simpleicons-4/O/Openfaas](../simpleicons-4/O/Openfaas.md)
 |![Opengl](../simpleicons-4/O/Opengl.element.png)|[simpleicons-4/O/Opengl](../simpleicons-4/O/Opengl.md)
 |![Openid](../simpleicons-4/O/Openid.element.png)|[simpleicons-4/O/Openid](../simpleicons-4/O/Openid.md)
 |![Openlayers](../simpleicons-4/O/Openlayers.element.png)|[simpleicons-4/O/Openlayers](../simpleicons-4/O/Openlayers.md)
@@ -44,6 +46,7 @@ The module O contains 48 entries.
 |![Opslevel](../simpleicons-4/O/Opslevel.element.png)|[simpleicons-4/O/Opslevel](../simpleicons-4/O/Opslevel.md)
 |![Oracle](../simpleicons-4/O/Oracle.element.png)|[simpleicons-4/O/Oracle](../simpleicons-4/O/Oracle.md)
 |![Orcid](../simpleicons-4/O/Orcid.element.png)|[simpleicons-4/O/Orcid](../simpleicons-4/O/Orcid.md)
+|![Org](../simpleicons-4/O/Org.element.png)|[simpleicons-4/O/Org](../simpleicons-4/O/Org.md)
 |![Origin](../simpleicons-4/O/Origin.element.png)|[simpleicons-4/O/Origin](../simpleicons-4/O/Origin.md)
 |![Osano](../simpleicons-4/O/Osano.element.png)|[simpleicons-4/O/Osano](../simpleicons-4/O/Osano.md)
 |![Oshkosh](../simpleicons-4/O/Oshkosh.element.png)|[simpleicons-4/O/Oshkosh](../simpleicons-4/O/Oshkosh.md)

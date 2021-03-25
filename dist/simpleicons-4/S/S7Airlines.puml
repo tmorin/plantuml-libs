@@ -1,0 +1,19 @@
+@startuml
+sprite $S7AirlinesMd [14x14/16z] {
+DSs54G0n24JH9HFYuVTVxVczCHp9EezkkdZm29VCuUVgGLJtMRDt32APbrLSZGPJ0w0hM13sfCbvhAJEqkIJ3K_0XZcdENq1RKIMUN2xhqFmVvSS_kHcRS5g
+9ka4
+}
+sprite $S7AirlinesLg [20x20/16z] {
+PT3LWKKX34NHmsM29kp-gtsQyVM34z53tQHTbSn9ORar-67egSEVpMeyXNkmtRTZsWwdwM6-dXbUU31ThVKpMvSM6115aM5r0Ukzbw7RQnBlgUm0vzA1rAKI
+C6LyMqK69YVVFarTR5q7CaOGfaPqvybsdAfIL0_9IxNJQlsOVB5io__6_DlwrzDKR0N4igAdEm
+}
+!procedure S7Airlines($id, $name="S7 Airlines", $tech="")
+  IconElement($id, 'simpleicons-4/S/S7Airlines', $name, $tech)
+!endprocedure
+!procedure S7AirlinesCard($id, $funcName="", $content="")
+  IconCard($id, '<$S7AirlinesMd>', '', $funcName, $content)
+!endprocedure
+!procedure S7AirlinesGroup($id, $name='S7 Airlines', $tech='')
+  IconGroup($id, 'IconGroup', '<$S7AirlinesLg>', $name, $tech)
+!endprocedure
+@enduml

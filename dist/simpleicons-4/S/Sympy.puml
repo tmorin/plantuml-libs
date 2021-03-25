@@ -1,0 +1,19 @@
+@startuml
+sprite $SympyMd [14x14/16z] {
+PSUt0OGm40J00sJNwFhlzlL0ncGJ7-KwpoF-pjf1YREt4Y6HiYagHt0I_wSlw9fTaBaNSPp9jZns5LiQ9XV8_wnC2RR-4mIj2UA_qWM3-kUl2RBEU9rbb7y-
+VW
+}
+sprite $SympyLg [20x20/16z] {
+bSXLeaKn20D0ZhM596J_kttkUkTpuXRx7FVE8rwCaIgGLPdpyRDALUWMM0lk6U6k-o8bG3riZ-3z977VihsFxDgGbzVz6VJzHUpxuRwm979sFzuzUrqoJxgg
+-N9CGB2IrIy7sPL2zik9j5jIMdg-LXPMquFZvSQ4AhkGtVbOZukKYbeuuyLsWOkKLxnpN9VMDUAZRTkt-DKT
+}
+!procedure Sympy($id, $name="Sympy", $tech="")
+  IconElement($id, 'simpleicons-4/S/Sympy', $name, $tech)
+!endprocedure
+!procedure SympyCard($id, $funcName="", $content="")
+  IconCard($id, '<$SympyMd>', '', $funcName, $content)
+!endprocedure
+!procedure SympyGroup($id, $name='Sympy', $tech='')
+  IconGroup($id, 'IconGroup', '<$SympyLg>', $name, $tech)
+!endprocedure
+@enduml

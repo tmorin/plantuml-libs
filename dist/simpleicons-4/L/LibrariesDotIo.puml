@@ -1,0 +1,16 @@
+@startuml
+sprite $LibrariesDotIoMd [14x14/16z] NOxL0SCm50El-6G7RlzfomrzYgM6qY9w_w1eLbGx53lGVwWAW7mHL4Z1_4QdReYDDrXRMd4YFrJGsehkWrcHkcg7PvCMjtc-SP_dwnC
+sprite $LibrariesDotIoLg [20x20/16z] {
+PT054e1030F0L71e_lzQt3hDQFRyU4HWGOO1HzDiKiohiHe707ss5aUQUCqdnnLT7XE130OP5OhR09lFCnR7QR5R6y_zsiDcHRgVaOC0yB_r_GwI3K1BHJOP
+ICaspIGr6rbCBol_L_vvtiiCo1Wn2Z0jooGR
+}
+!procedure LibrariesDotIo($id, $name="Libraries Dot Io", $tech="")
+  IconElement($id, 'simpleicons-4/L/LibrariesDotIo', $name, $tech)
+!endprocedure
+!procedure LibrariesDotIoCard($id, $funcName="", $content="")
+  IconCard($id, '<$LibrariesDotIoMd>', '', $funcName, $content)
+!endprocedure
+!procedure LibrariesDotIoGroup($id, $name='Libraries Dot Io', $tech='')
+  IconGroup($id, 'IconGroup', '<$LibrariesDotIoLg>', $name, $tech)
+!endprocedure
+@enduml

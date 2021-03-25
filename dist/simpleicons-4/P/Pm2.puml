@@ -1,0 +1,19 @@
+@startuml
+sprite $Pm2Md [14x14/16z] {
+NSt5WGKm20HGOZDeqd-rkz_juIVaPlJUXpnn0Vewp7RbzMo0ETKppf0-hLmTcs4XKAegSXePo9i3KNNkctEMsEKga5HOpYpa6iitWvTc6fSFga5Z1QhBZJEh
+4d8tG2Zbrpy
+}
+sprite $Pm2Lg [20x20/16z] {
+TSA5WG0m3CD0DrX8u_sdVMOu2Uy6njFuHeV847nbfHMB4r_SI1Od0--aZbrlHhNWYLVTMrAPdNsvWJ4YLeTNITFMTXeyzjhdAJdBhrvR3OytfmLdHXbdF-FJ
+T21Qw9kV7CXIsc7EVB5vWNlsCeRvNcljQSavgrhhG3Myjn_gvjKJIGKGrNKiItZMKIQU31LTr3EJb2fyo5BMlRiLdqxarUh05qDXOmZ-ymW
+}
+!procedure Pm2($id, $name="Pm2", $tech="")
+  IconElement($id, 'simpleicons-4/P/Pm2', $name, $tech)
+!endprocedure
+!procedure Pm2Card($id, $funcName="", $content="")
+  IconCard($id, '<$Pm2Md>', '', $funcName, $content)
+!endprocedure
+!procedure Pm2Group($id, $name='Pm2', $tech='')
+  IconGroup($id, 'IconGroup', '<$Pm2Lg>', $name, $tech)
+!endprocedure
+@enduml

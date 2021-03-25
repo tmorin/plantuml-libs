@@ -1,0 +1,16 @@
+@startuml
+sprite $EclipsecheMd [14x14/16z] JOu55e0m2401TK7U_xQkt_w23cWGHyW34opHA3YCv37mr7I9GmKUahd746hBqnVW7NNi_krkcJBBiZuFAjOoswn7MoMjBdK8kYSetjElpIh2WaHeA3y
+sprite $EclipsecheLg [20x20/16z] {
+TP350G112CHO5sJwh_RS9S_Wq4fImBAZ2wuOWEelAYiMDEycC0uapbMkumPxAWs_pcgrhNPtFH3vhiNHvkRemcGsP_cwQQkKAxUBouP6CUbP6mMONEtdZ7LS
+U-wokmVjVLltI-Vd3zw_sd7r_Ec9PmwqCG8
+}
+!procedure Eclipseche($id, $name="Eclipseche", $tech="")
+  IconElement($id, 'simpleicons-4/E/Eclipseche', $name, $tech)
+!endprocedure
+!procedure EclipsecheCard($id, $funcName="", $content="")
+  IconCard($id, '<$EclipsecheMd>', '', $funcName, $content)
+!endprocedure
+!procedure EclipsecheGroup($id, $name='Eclipseche', $tech='')
+  IconGroup($id, 'IconGroup', '<$EclipsecheLg>', $name, $tech)
+!endprocedure
+@enduml

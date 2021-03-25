@@ -1,6 +1,6 @@
 # C
 
-The module C contains 122 entries.
+The module C contains 130 entries.
 
 
 
@@ -21,6 +21,7 @@ The module C contains 122 entries.
 |![Castorama](../simpleicons-4/C/Castorama.element.png)|[simpleicons-4/C/Castorama](../simpleicons-4/C/Castorama.md)
 |![Castro](../simpleicons-4/C/Castro.element.png)|[simpleicons-4/C/Castro](../simpleicons-4/C/Castro.md)
 |![Caterpillar](../simpleicons-4/C/Caterpillar.element.png)|[simpleicons-4/C/Caterpillar](../simpleicons-4/C/Caterpillar.md)
+|![Cbs](../simpleicons-4/C/Cbs.element.png)|[simpleicons-4/C/Cbs](../simpleicons-4/C/Cbs.md)
 |![Cdprojekt](../simpleicons-4/C/Cdprojekt.element.png)|[simpleicons-4/C/Cdprojekt](../simpleicons-4/C/Cdprojekt.md)
 |![Celery](../simpleicons-4/C/Celery.element.png)|[simpleicons-4/C/Celery](../simpleicons-4/C/Celery.md)
 |![Centos](../simpleicons-4/C/Centos.element.png)|[simpleicons-4/C/Centos](../simpleicons-4/C/Centos.md)
@@ -31,6 +32,7 @@ The module C contains 122 entries.
 |![Chakraui](../simpleicons-4/C/Chakraui.element.png)|[simpleicons-4/C/Chakraui](../simpleicons-4/C/Chakraui.md)
 |![Chartmogul](../simpleicons-4/C/Chartmogul.element.png)|[simpleicons-4/C/Chartmogul](../simpleicons-4/C/Chartmogul.md)
 |![Chase](../simpleicons-4/C/Chase.element.png)|[simpleicons-4/C/Chase](../simpleicons-4/C/Chase.md)
+|![Chatbot](../simpleicons-4/C/Chatbot.element.png)|[simpleicons-4/C/Chatbot](../simpleicons-4/C/Chatbot.md)
 |![Checkio](../simpleicons-4/C/Checkio.element.png)|[simpleicons-4/C/Checkio](../simpleicons-4/C/Checkio.md)
 |![Checkmarx](../simpleicons-4/C/Checkmarx.element.png)|[simpleicons-4/C/Checkmarx](../simpleicons-4/C/Checkmarx.md)
 |![Chef](../simpleicons-4/C/Chef.element.png)|[simpleicons-4/C/Chef](../simpleicons-4/C/Chef.md)
@@ -69,6 +71,7 @@ The module C contains 122 entries.
 |![Cocos](../simpleicons-4/C/Cocos.element.png)|[simpleicons-4/C/Cocos](../simpleicons-4/C/Cocos.md)
 |![Coda](../simpleicons-4/C/Coda.element.png)|[simpleicons-4/C/Coda](../simpleicons-4/C/Coda.md)
 |![Codacy](../simpleicons-4/C/Codacy.element.png)|[simpleicons-4/C/Codacy](../simpleicons-4/C/Codacy.md)
+|![Codeberg](../simpleicons-4/C/Codeberg.element.png)|[simpleicons-4/C/Codeberg](../simpleicons-4/C/Codeberg.md)
 |![Codecademy](../simpleicons-4/C/Codecademy.element.png)|[simpleicons-4/C/Codecademy](../simpleicons-4/C/Codecademy.md)
 |![Codeceptjs](../simpleicons-4/C/Codeceptjs.element.png)|[simpleicons-4/C/Codeceptjs](../simpleicons-4/C/Codeceptjs.md)
 |![Codechef](../simpleicons-4/C/Codechef.element.png)|[simpleicons-4/C/Codechef](../simpleicons-4/C/Codechef.md)
@@ -78,6 +81,7 @@ The module C contains 122 entries.
 |![Codeforces](../simpleicons-4/C/Codeforces.element.png)|[simpleicons-4/C/Codeforces](../simpleicons-4/C/Codeforces.md)
 |![Codeigniter](../simpleicons-4/C/Codeigniter.element.png)|[simpleicons-4/C/Codeigniter](../simpleicons-4/C/Codeigniter.md)
 |![Codemagic](../simpleicons-4/C/Codemagic.element.png)|[simpleicons-4/C/Codemagic](../simpleicons-4/C/Codemagic.md)
+|![Codemirror](../simpleicons-4/C/Codemirror.element.png)|[simpleicons-4/C/Codemirror](../simpleicons-4/C/Codemirror.md)
 |![Codepen](../simpleicons-4/C/Codepen.element.png)|[simpleicons-4/C/Codepen](../simpleicons-4/C/Codepen.md)
 |![Codeproject](../simpleicons-4/C/Codeproject.element.png)|[simpleicons-4/C/Codeproject](../simpleicons-4/C/Codeproject.md)
 |![Codersrank](../simpleicons-4/C/Codersrank.element.png)|[simpleicons-4/C/Codersrank](../simpleicons-4/C/Codersrank.md)
@@ -86,10 +90,12 @@ The module C contains 122 entries.
 |![Codeship](../simpleicons-4/C/Codeship.element.png)|[simpleicons-4/C/Codeship](../simpleicons-4/C/Codeship.md)
 |![Codewars](../simpleicons-4/C/Codewars.element.png)|[simpleicons-4/C/Codewars](../simpleicons-4/C/Codewars.md)
 |![Codingame](../simpleicons-4/C/Codingame.element.png)|[simpleicons-4/C/Codingame](../simpleicons-4/C/Codingame.md)
+|![Codingninjas](../simpleicons-4/C/Codingninjas.element.png)|[simpleicons-4/C/Codingninjas](../simpleicons-4/C/Codingninjas.md)
 |![Codio](../simpleicons-4/C/Codio.element.png)|[simpleicons-4/C/Codio](../simpleicons-4/C/Codio.md)
 |![Coffeescript](../simpleicons-4/C/Coffeescript.element.png)|[simpleicons-4/C/Coffeescript](../simpleicons-4/C/Coffeescript.md)
 |![Cognizant](../simpleicons-4/C/Cognizant.element.png)|[simpleicons-4/C/Cognizant](../simpleicons-4/C/Cognizant.md)
 |![Coinbase](../simpleicons-4/C/Coinbase.element.png)|[simpleicons-4/C/Coinbase](../simpleicons-4/C/Coinbase.md)
+|![Commerzbank](../simpleicons-4/C/Commerzbank.element.png)|[simpleicons-4/C/Commerzbank](../simpleicons-4/C/Commerzbank.md)
 |![Commonworkflowlanguage](../simpleicons-4/C/Commonworkflowlanguage.element.png)|[simpleicons-4/C/Commonworkflowlanguage](../simpleicons-4/C/Commonworkflowlanguage.md)
 |![Composer](../simpleicons-4/C/Composer.element.png)|[simpleicons-4/C/Composer](../simpleicons-4/C/Composer.md)
 |![Compropago](../simpleicons-4/C/Compropago.element.png)|[simpleicons-4/C/Compropago](../simpleicons-4/C/Compropago.md)
@@ -117,6 +123,7 @@ The module C contains 122 entries.
 |![Creativecommons](../simpleicons-4/C/Creativecommons.element.png)|[simpleicons-4/C/Creativecommons](../simpleicons-4/C/Creativecommons.md)
 |![Crehana](../simpleicons-4/C/Crehana.element.png)|[simpleicons-4/C/Crehana](../simpleicons-4/C/Crehana.md)
 |![Crowdin](../simpleicons-4/C/Crowdin.element.png)|[simpleicons-4/C/Crowdin](../simpleicons-4/C/Crowdin.md)
+|![Crowdsource](../simpleicons-4/C/Crowdsource.element.png)|[simpleicons-4/C/Crowdsource](../simpleicons-4/C/Crowdsource.md)
 |![Crunchbase](../simpleicons-4/C/Crunchbase.element.png)|[simpleicons-4/C/Crunchbase](../simpleicons-4/C/Crunchbase.md)
 |![Crunchyroll](../simpleicons-4/C/Crunchyroll.element.png)|[simpleicons-4/C/Crunchyroll](../simpleicons-4/C/Crunchyroll.md)
 |![Cryengine](../simpleicons-4/C/Cryengine.element.png)|[simpleicons-4/C/Cryengine](../simpleicons-4/C/Cryengine.md)
@@ -127,5 +134,6 @@ The module C contains 122 entries.
 |![Cucumber](../simpleicons-4/C/Cucumber.element.png)|[simpleicons-4/C/Cucumber](../simpleicons-4/C/Cucumber.md)
 |![Curl](../simpleicons-4/C/Curl.element.png)|[simpleicons-4/C/Curl](../simpleicons-4/C/Curl.md)
 |![Curseforge](../simpleicons-4/C/Curseforge.element.png)|[simpleicons-4/C/Curseforge](../simpleicons-4/C/Curseforge.md)
+|![Cycling74](../simpleicons-4/C/Cycling74.element.png)|[simpleicons-4/C/Cycling74](../simpleicons-4/C/Cycling74.md)
 |![Cypress](../simpleicons-4/C/Cypress.element.png)|[simpleicons-4/C/Cypress](../simpleicons-4/C/Cypress.md)
 

@@ -1,0 +1,13 @@
+@startuml
+sprite $ShotcutMd [14x14/16z] hSwd0K11409HTsbdeVzgVux-daCD4Bq65obRHHVRlSeFzPf-JL__mhz-FhDEmEZSLW
+sprite $ShotcutLg [20x20/16z] u-RcucRdPEC4KiW08eO4-860avEDXny942ysAeOjJ7b1W9EJZuSN0G
+!procedure Shotcut($id, $name="Shotcut", $tech="")
+  IconElement($id, 'simpleicons-4/S/Shotcut', $name, $tech)
+!endprocedure
+!procedure ShotcutCard($id, $funcName="", $content="")
+  IconCard($id, '<$ShotcutMd>', '', $funcName, $content)
+!endprocedure
+!procedure ShotcutGroup($id, $name='Shotcut', $tech='')
+  IconGroup($id, 'IconGroup', '<$ShotcutLg>', $name, $tech)
+!endprocedure
+@enduml

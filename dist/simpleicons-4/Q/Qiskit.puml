@@ -1,0 +1,19 @@
+@startuml
+sprite $QiskitMd [14x14/16z] {
+BKw50G902AJXu7N_SVsGRew8Cx9g6wPDtfdT6V3TYPNBRPCl9u18Z2v1KQw2tHBr2hEkxEzqLbkvt4jwhCpBAFwPdydvJDHurRwY-mZiN07kvFq2uNY_TR3E
+iiE1GewzeOlq7ly1
+}
+sprite $QiskitLg [20x20/16z] {
+FL250SCW4EHTiFstBTPS53ih2nHcpkocGUL1GjMOJIJaJLcwQuwHgbhjJCMqTJCHYwhDM5oI24NrdG5CARNf_dNyo1lKQa9Op95mWSII4QZtY3Rd62syTm8F
+N_HhdIlJ-Leq_XCfln_i_977DnTXlBc9bip2Fel0lNlsfJ7xqXWCVhqWBMWyByVpW_7rVBCzTiETxNQW8hJHkiruNQduQ6suPkhNgPW1cDrE7v5aZQWfDy0F
+}
+!procedure Qiskit($id, $name="Qiskit", $tech="")
+  IconElement($id, 'simpleicons-4/Q/Qiskit', $name, $tech)
+!endprocedure
+!procedure QiskitCard($id, $funcName="", $content="")
+  IconCard($id, '<$QiskitMd>', '', $funcName, $content)
+!endprocedure
+!procedure QiskitGroup($id, $name='Qiskit', $tech='')
+  IconGroup($id, 'IconGroup', '<$QiskitLg>', $name, $tech)
+!endprocedure
+@enduml

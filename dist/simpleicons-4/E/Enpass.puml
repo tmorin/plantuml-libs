@@ -1,0 +1,16 @@
+@startuml
+sprite $EnpassMd [14x14/16z] JOa74e0W0CFAtl3_tzg2AmeqbrZwIpLzhe-m_foIhSslLP3AqML95ZcAOf4LZhXZ0BnUlsC7kiocSQpn6GZjQmqcBgbaHG1PGnG8wpUMym8
+sprite $EnpassLg [20x20/16z] {
+RP35WSD034M_q1xklzhT91gptqMCBAbSI0grKYyKntZYBxwsATaitsA63tR9I_YHecIs3LyahYy-wv5-hkNQ8l58wvHAL0iWKLFWiwC2kkqWVlSvMEy-1N5q
+MOYYeWk0kNQB1M8jhfUdCBxGMjkahem9xU3BFm
+}
+!procedure Enpass($id, $name="Enpass", $tech="")
+  IconElement($id, 'simpleicons-4/E/Enpass', $name, $tech)
+!endprocedure
+!procedure EnpassCard($id, $funcName="", $content="")
+  IconCard($id, '<$EnpassMd>', '', $funcName, $content)
+!endprocedure
+!procedure EnpassGroup($id, $name='Enpass', $tech='')
+  IconGroup($id, 'IconGroup', '<$EnpassLg>', $name, $tech)
+!endprocedure
+@enduml

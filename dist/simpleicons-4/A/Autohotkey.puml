@@ -1,0 +1,16 @@
+@startuml
+sprite $AutohotkeyMd [14x14/16z] bSsr0S0m30H02z_i_QSDSvUhnAh9Bgbd8wODamrGkD00tnb_UZyo3c8ahA9xvf08pxhT9BYhkZfz__M2Incvbal53
+sprite $AutohotkeyLg [20x20/16z] {
+pT25OGH120LGdC-Eq7-roRasS6_SfRiI-O2idhqHRx3tAFfGVU2p3x_N9q9oofb97tsd32Bfxd7lOmJXn2OUQnE7fLbwv6CjI3sOmupht3Vm_IzxghonsIVx
+pQaDeDu0-Wy
+}
+!procedure Autohotkey($id, $name="Autohotkey", $tech="")
+  IconElement($id, 'simpleicons-4/A/Autohotkey', $name, $tech)
+!endprocedure
+!procedure AutohotkeyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutohotkeyMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutohotkeyGroup($id, $name='Autohotkey', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutohotkeyLg>', $name, $tech)
+!endprocedure
+@enduml

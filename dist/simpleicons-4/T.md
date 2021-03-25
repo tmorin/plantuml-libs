@@ -1,6 +1,6 @@
 # T
 
-The module T contains 96 entries.
+The module T contains 99 entries.
 
 
 
@@ -28,6 +28,7 @@ The module T contains 96 entries.
 |![Tencentweibo](../simpleicons-4/T/Tencentweibo.element.png)|[simpleicons-4/T/Tencentweibo](../simpleicons-4/T/Tencentweibo.md)
 |![Tensorflow](../simpleicons-4/T/Tensorflow.element.png)|[simpleicons-4/T/Tensorflow](../simpleicons-4/T/Tensorflow.md)
 |![Teradata](../simpleicons-4/T/Teradata.element.png)|[simpleicons-4/T/Teradata](../simpleicons-4/T/Teradata.md)
+|![Teratail](../simpleicons-4/T/Teratail.element.png)|[simpleicons-4/T/Teratail](../simpleicons-4/T/Teratail.md)
 |![Terraform](../simpleicons-4/T/Terraform.element.png)|[simpleicons-4/T/Terraform](../simpleicons-4/T/Terraform.md)
 |![Tesla](../simpleicons-4/T/Tesla.element.png)|[simpleicons-4/T/Tesla](../simpleicons-4/T/Tesla.md)
 |![Testin](../simpleicons-4/T/Testin.element.png)|[simpleicons-4/T/Testin](../simpleicons-4/T/Testin.md)
@@ -80,6 +81,7 @@ The module T contains 96 entries.
 |![Trendmicro](../simpleicons-4/T/Trendmicro.element.png)|[simpleicons-4/T/Trendmicro](../simpleicons-4/T/Trendmicro.md)
 |![Treyarch](../simpleicons-4/T/Treyarch.element.png)|[simpleicons-4/T/Treyarch](../simpleicons-4/T/Treyarch.md)
 |![Triller](../simpleicons-4/T/Triller.element.png)|[simpleicons-4/T/Triller](../simpleicons-4/T/Triller.md)
+|![Trino](../simpleicons-4/T/Trino.element.png)|[simpleicons-4/T/Trino](../simpleicons-4/T/Trino.md)
 |![Tripadvisor](../simpleicons-4/T/Tripadvisor.element.png)|[simpleicons-4/T/Tripadvisor](../simpleicons-4/T/Tripadvisor.md)
 |![TripDotCom](../simpleicons-4/T/TripDotCom.element.png)|[simpleicons-4/T/TripDotCom](../simpleicons-4/T/TripDotCom.md)
 |![Trove](../simpleicons-4/T/Trove.element.png)|[simpleicons-4/T/Trove](../simpleicons-4/T/Trove.md)
@@ -89,6 +91,7 @@ The module T contains 96 entries.
 |![Trustpilot](../simpleicons-4/T/Trustpilot.element.png)|[simpleicons-4/T/Trustpilot](../simpleicons-4/T/Trustpilot.md)
 |![Tryhackme](../simpleicons-4/T/Tryhackme.element.png)|[simpleicons-4/T/Tryhackme](../simpleicons-4/T/Tryhackme.md)
 |![Tryitonline](../simpleicons-4/T/Tryitonline.element.png)|[simpleicons-4/T/Tryitonline](../simpleicons-4/T/Tryitonline.md)
+|![TsNode](../simpleicons-4/T/TsNode.element.png)|[simpleicons-4/T/TsNode](../simpleicons-4/T/TsNode.md)
 |![Tui](../simpleicons-4/T/Tui.element.png)|[simpleicons-4/T/Tui](../simpleicons-4/T/Tui.md)
 |![Tumblr](../simpleicons-4/T/Tumblr.element.png)|[simpleicons-4/T/Tumblr](../simpleicons-4/T/Tumblr.md)
 |![Tunein](../simpleicons-4/T/Tunein.element.png)|[simpleicons-4/T/Tunein](../simpleicons-4/T/Tunein.md)

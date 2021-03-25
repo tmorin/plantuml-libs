@@ -1,0 +1,16 @@
+@startuml
+sprite $BarclaysMd [14x14/16z] JSk50S0W40J1mvtjlzguCEYR3gunZMxEcWXMraakCsJ0QP1LOSGAFGwmaqLabLZ5mSBd2TVi-HgNQqtNJArPaW-5GmbUfy0bw68xXsxr26FSbHq
+sprite $BarclaysLg [20x20/16z] {
+ZS-5OGKW34NHXsku-qzRIRrV3-v4hXXGzKVP1vg-nTQYr65yzHKsB9-Rqe8TLJlGVULaDHzi0zY7TrvRu5BaKdfoBkx3FoVqoJzJgOAnp7SipCCEDllEkBpx
+j20fnrKQhfKLizwb4laKIzAdnQUjRuDFGp-A0LZHRw6QrI2vLm
+}
+!procedure Barclays($id, $name="Barclays", $tech="")
+  IconElement($id, 'simpleicons-4/B/Barclays', $name, $tech)
+!endprocedure
+!procedure BarclaysCard($id, $funcName="", $content="")
+  IconCard($id, '<$BarclaysMd>', '', $funcName, $content)
+!endprocedure
+!procedure BarclaysGroup($id, $name='Barclays', $tech='')
+  IconGroup($id, 'IconGroup', '<$BarclaysLg>', $name, $tech)
+!endprocedure
+@enduml

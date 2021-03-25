@@ -1,0 +1,16 @@
+@startuml
+sprite $AmpMd [14x14/16z] JOw50SCm30JFpDB-qnQ-a9n13126Yn40Yhcm0g58bQSm92s_XGKNDKbq_OUYt2qh0yk_B23x3xF2SMMAL2NwiFy0jnYAf6lwRJCP4Ffstpq0Jm
+sprite $AmpLg [20x20/16z] {
+RP054WGW30DJ65pw_zUU9fpk-DQB6t4u6H4aJRcLgAg_KJ_Lben9gZ2OC1RLH6TFSn6XIKcg8JZfwXzWDSzdiGRWpl0t1kvaVsVcQWZBMIi2sfb19gAJD2Q3
+c8gQRgl5IJe_sFyV8_NxKs6fhvleoN3d2W
+}
+!procedure Amp($id, $name="Amp", $tech="")
+  IconElement($id, 'simpleicons-4/A/Amp', $name, $tech)
+!endprocedure
+!procedure AmpCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmpMd>', '', $funcName, $content)
+!endprocedure
+!procedure AmpGroup($id, $name='Amp', $tech='')
+  IconGroup($id, 'IconGroup', '<$AmpLg>', $name, $tech)
+!endprocedure
+@enduml
