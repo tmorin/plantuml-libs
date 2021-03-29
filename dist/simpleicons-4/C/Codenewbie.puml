@@ -1,0 +1,19 @@
+@startuml
+sprite $CodenewbieMd [14x14/16z] {
+DOs50S0W3C2AIoN_NpjVe6uYQV6maboqWBYbNPK6vbfq6LLMWEMUfMqy0T5IfIrW06rGmlAS610mywXr4zoiMU8guG2pU0rjeC6ZYc7GftFp67kk_nJPpeSN
+4JKFm7UJYnC
+}
+sprite $CodenewbieLg [20x20/16z] {
+LOw5WKKn20INUFY1xR_RYt0sJpCeDld3u9CHbCLWrL3zfRpa_gFSE4MvrfMfSAEo54YIZ2pGsyiIf1Nv-6c2rpeb39eC7Z9lf728xyTiaJUYdNIPhacGZLi7
+JT1hMaOQWwaO78dySPvXIRd4JdjUSZBcJcvFTbxKoLh9ks2Qog2LY4EoXxFrMYS0W_-eGAxc_CMtGeX04pPZwhgPlhGdNBu
+}
+!procedure Codenewbie($id, $name="Codenewbie", $tech="")
+  IconElement($id, 'simpleicons-4/C/Codenewbie', $name, $tech)
+!endprocedure
+!procedure CodenewbieCard($id, $funcName="", $content="")
+  IconCard($id, '<$CodenewbieMd>', '', $funcName, $content)
+!endprocedure
+!procedure CodenewbieGroup($id, $name='Codenewbie', $tech='')
+  IconGroup($id, 'IconGroup', '<$CodenewbieLg>', $name, $tech)
+!endprocedure
+@enduml

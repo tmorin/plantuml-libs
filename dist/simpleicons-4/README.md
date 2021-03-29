@@ -37,10 +37,10 @@ The package provides 26 modules.
 
 - [A](A.md) with 183 elements
 - [B](B.md) with 78 elements
-- [C](C.md) with 130 elements
+- [C](C.md) with 132 elements
 - [D](D.md) with 79 elements
 - [E](E.md) with 56 elements
-- [F](F.md) with 74 elements
+- [F](F.md) with 75 elements
 - [G](G.md) with 102 elements
 - [H](H.md) with 65 elements
 - [I](I.md) with 48 elements

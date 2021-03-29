@@ -1,6 +1,6 @@
 # F
 
-The module F contains 74 entries.
+The module F contains 75 entries.
 
 
 
@@ -35,6 +35,7 @@ The module F contains 74 entries.
 |![Figma](../simpleicons-4/F/Figma.element.png)|[simpleicons-4/F/Figma](../simpleicons-4/F/Figma.md)
 |![Figshare](../simpleicons-4/F/Figshare.element.png)|[simpleicons-4/F/Figshare](../simpleicons-4/F/Figshare.md)
 |![Fila](../simpleicons-4/F/Fila.element.png)|[simpleicons-4/F/Fila](../simpleicons-4/F/Fila.md)
+|![Files](../simpleicons-4/F/Files.element.png)|[simpleicons-4/F/Files](../simpleicons-4/F/Files.md)
 |![Filezilla](../simpleicons-4/F/Filezilla.element.png)|[simpleicons-4/F/Filezilla](../simpleicons-4/F/Filezilla.md)
 |![Fing](../simpleicons-4/F/Fing.element.png)|[simpleicons-4/F/Fing](../simpleicons-4/F/Fing.md)
 |![Firebase](../simpleicons-4/F/Firebase.element.png)|[simpleicons-4/F/Firebase](../simpleicons-4/F/Firebase.md)

@@ -1,6 +1,6 @@
 # C
 
-The module C contains 130 entries.
+The module C contains 132 entries.
 
 
 
@@ -30,6 +30,7 @@ The module C contains 130 entries.
 |![Cevo](../simpleicons-4/C/Cevo.element.png)|[simpleicons-4/C/Cevo](../simpleicons-4/C/Cevo.md)
 |![Chainlink](../simpleicons-4/C/Chainlink.element.png)|[simpleicons-4/C/Chainlink](../simpleicons-4/C/Chainlink.md)
 |![Chakraui](../simpleicons-4/C/Chakraui.element.png)|[simpleicons-4/C/Chakraui](../simpleicons-4/C/Chakraui.md)
+|![ChartDotJs](../simpleicons-4/C/ChartDotJs.element.png)|[simpleicons-4/C/ChartDotJs](../simpleicons-4/C/ChartDotJs.md)
 |![Chartmogul](../simpleicons-4/C/Chartmogul.element.png)|[simpleicons-4/C/Chartmogul](../simpleicons-4/C/Chartmogul.md)
 |![Chase](../simpleicons-4/C/Chase.element.png)|[simpleicons-4/C/Chase](../simpleicons-4/C/Chase.md)
 |![Chatbot](../simpleicons-4/C/Chatbot.element.png)|[simpleicons-4/C/Chatbot](../simpleicons-4/C/Chatbot.md)
@@ -82,6 +83,7 @@ The module C contains 130 entries.
 |![Codeigniter](../simpleicons-4/C/Codeigniter.element.png)|[simpleicons-4/C/Codeigniter](../simpleicons-4/C/Codeigniter.md)
 |![Codemagic](../simpleicons-4/C/Codemagic.element.png)|[simpleicons-4/C/Codemagic](../simpleicons-4/C/Codemagic.md)
 |![Codemirror](../simpleicons-4/C/Codemirror.element.png)|[simpleicons-4/C/Codemirror](../simpleicons-4/C/Codemirror.md)
+|![Codenewbie](../simpleicons-4/C/Codenewbie.element.png)|[simpleicons-4/C/Codenewbie](../simpleicons-4/C/Codenewbie.md)
 |![Codepen](../simpleicons-4/C/Codepen.element.png)|[simpleicons-4/C/Codepen](../simpleicons-4/C/Codepen.md)
 |![Codeproject](../simpleicons-4/C/Codeproject.element.png)|[simpleicons-4/C/Codeproject](../simpleicons-4/C/Codeproject.md)
 |![Codersrank](../simpleicons-4/C/Codersrank.element.png)|[simpleicons-4/C/Codersrank](../simpleicons-4/C/Codersrank.md)
