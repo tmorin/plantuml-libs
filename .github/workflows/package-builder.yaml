@@ -1,7 +1,6 @@
 name: Package Builder
 
 on:
-#  push:
   workflow_dispatch:
     inputs:
       pkgName:
@@ -47,7 +46,6 @@ jobs:
         run: npm ci --no-progress
       - name: Generate package
         run: node bin/glib.js --pn "${{ github.event.inputs.pkgName }}" -c build -c package --jc "$JAVA_HOME/bin/java"
-#        run: node bin/glib.js --pn c4model -c build -c package --jc "$JAVA_HOME/bin/java"
 
       - name: Format the commit message
         uses: haya14busa/action-cond@v1
