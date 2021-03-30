@@ -1,0 +1,16 @@
+@startuml
+sprite $FirewallMd [14x14/16z] NOl50KCn34Fbs8AVxZzlcTz9Y3yutqwQlCqgOx_jJi3qwqP3ysfTAA_JL1NG0cQmnim26t3LEgPY36ykqt6RyDmS9nuJK8lOx6CMxXH64lwv
+sprite $FirewallLg [20x20/16z] {
+ZSvLOWCm283Xd-0as_rlEtTf-xtXSBlSAlnWGyxFR2jpX4-MH62x-EIdAj1AvuEctYjQsgsyMOr21ETptEhrZDoPyAODq6ObrTrZi1gW3620ID06QC4ZZhlt
+63A0DBeZlCR3zoBhDLU05z0ArOiHcJqzisT6Nh_94UhruWTHoDqznGyYmdyU0G
+}
+!procedure Firewall($id, $name="Firewall", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GeneralIcons/Firewall', $name, $tech)
+!endprocedure
+!procedure FirewallCard($id, $funcName="", $content="")
+  IconCard($id, '<$FirewallMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure FirewallGroup($id, $name='Firewall', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$FirewallLg>', $name, $tech)
+!endprocedure
+@enduml

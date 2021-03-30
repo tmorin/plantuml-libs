@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonSimpleStorageServiceVpcAccessPoints element
+include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceVpcAccessPoints')
+AmazonSimpleStorageServiceVpcAccessPointsGroup('amazon_simple_storage_service_vpc_access_points', 'Amazon Simple Storage Service Vpc Access Points', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCodeStarMd [14x14/16z] LOh70GCm4C9Ihc3m_lE6Sxf-897hW0F_ffStejPhTLJbFKTJo0GRI6lPbLEMJqXePMUkQQKEL_ReMLMbHLQjMVJNxAgcbpRkzZ5koo31OTQ1X_qt7m
+sprite $AwsCodeStarLg [20x20/16z] {
+PSw5ZM1140DHtMykJ_xftaBFSWdzH0Rcexu1_BM_o2AqMLzSQX_lUce-BSsCDBTWvfef2ggOi7n5WT9yU2jzhASbH4FYILlup4WQaopQqwb_jSRZL4I5Ww-T
+g8epJjC5Q_cQ46hpM9CoqHIAEZRNpid7FJ5pvveqNZZH1SoSHTpswXkUnTstixZyPN_m1G
+}
+!procedure AwsCodeStar($id, $name="Aws Code Star", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/DeveloperTools/AwsCodeStar', $name, $tech)
+!endprocedure
+!procedure AwsCodeStarCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCodeStarMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure AwsCodeStarGroup($id, $name='Aws Code Star', $tech='')
+  IconGroup($id, 'DeveloperToolsFamily', '<$AwsCodeStarLg>', $name, $tech)
+!endprocedure
+@enduml

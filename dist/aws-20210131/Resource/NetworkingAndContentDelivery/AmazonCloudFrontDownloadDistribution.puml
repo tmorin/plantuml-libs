@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonCloudFrontDownloadDistributionMd [14x14/16z] HOw74S0m20D5nCF-6yVr_AvqQMAm3jdOT2wZa28aQXWmhk_RlsXTIntcMHW_onpBspBZdh5XuzM5J5QNFU5TXHRKKPRskBG9WqE37m
+sprite $AmazonCloudFrontDownloadDistributionLg [20x20/16z] {
+TL250GCm22EX_l-_4mZpjRY3wO64lJwC5MyypUsaWd6QJ7tZRWYoUqRjOEx1TWiNdZQfOwXeb4fTOKQQ0WshEdK92omRK3RoEuwPwrdFCpTxDDxZ6BEjcgLF
+SdRDKZDxxwwPQpV5QpVTe0RkVs_rVTDVjxy2
+}
+!procedure AmazonCloudFrontDownloadDistribution($id, $name="Amazon Cloud Front Download Distribution", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownloadDistribution', $name, $tech)
+!endprocedure
+!procedure AmazonCloudFrontDownloadDistributionCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonCloudFrontDownloadDistributionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AmazonCloudFrontDownloadDistributionGroup($id, $name='Amazon Cloud Front Download Distribution', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudFrontDownloadDistributionLg>', $name, $tech)
+!endprocedure
+@enduml

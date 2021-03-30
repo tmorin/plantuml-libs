@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceS3GlacierMd [14x14/16z] DSw50SCm34JHV-Hq_uNBUMQK02Ljp8Utn4vNqE6seckDtz8hCBaVKGpZRGOgc81iOOQQ3tNNGoJyVD-vV9rEeFAHFLPWVFIzsdUCRPqUSMSjsV02
+sprite $AmazonSimpleStorageServiceS3GlacierLg [20x20/16z] {
+JP07cWKX388D4N3s_WTUku-fylsfPIa0H7a2TKGiGgvnw9J7lshvLNfupjyyLdzJj5Y7A5FiNkqlvFGIwrXIEz4gn949oui_Otmrtk7JXzKPSnny-uVCrhZe
+fvIuiruoTgKxI3JYcwVafLBa9A67jO-kgvdj2VvofPAmJJAz_wkiBeQ8jhjukr-j_0C
+}
+!procedure AmazonSimpleStorageServiceS3Glacier($id, $name="Amazon Simple Storage Service S3 Glacier", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3Glacier', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3GlacierCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceS3GlacierMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3GlacierGroup($id, $name='Amazon Simple Storage Service S3 Glacier', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3GlacierLg>', $name, $tech)
+!endprocedure
+@enduml

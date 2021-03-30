@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonManagedServiceForGrafanaMd [14x14/16z] BSVB0SDG30Am_i30st_VuYIwoQNBbE-wlQSVWBaQXxJcfsrYs1QyJSGqzTjH6LAZQsZAHdUcI6XtSg0uIUSki4K0zca5ScHtswndcwT_
+sprite $AmazonManagedServiceForGrafanaLg [20x20/16z] {
+RSvBaW0X20FGgZP12FU_xmYDyy_EHrIYupUx4l_WjS_1DNzmmjlK8S5YcpqsJHMkAekSPu_9M0CtpgCwWHzpR6mZNtDq3Ru0Fcrf9WNUIQms8MHbRk5ZYPqe
+w-RqjCA2JcTRU4hfAwL-JMeh90jLAzRwsOWTcm1eNbQOiVeuBsHZTRDXhF1cx2z-
+}
+!procedure AmazonManagedServiceForGrafana($id, $name="Amazon Managed Service For Grafana", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana', $name, $tech)
+!endprocedure
+!procedure AmazonManagedServiceForGrafanaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonManagedServiceForGrafanaMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AmazonManagedServiceForGrafanaGroup($id, $name='Amazon Managed Service For Grafana', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AmazonManagedServiceForGrafanaLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+sprite $AwsStepFunctionsMd [14x14/16z] JSa75WKX34BHNo06tFz-X-a-wprHwgEHT7Jp17dIWHjexRJpB_o9JZPvJ5YdaWf5F1gl04arr3qzXK9sIv5ZKbQQStULKdGohJgv0G
+sprite $AwsStepFunctionsLg [20x20/16z] {
+RSq72W0n24HHY7Nq_lVTz0BxwIzHqVELjV23M5suYSWMnZGHOKoCsFzypKSjZPXBOIgwJ8M85Gwen32Gch44L4L4kuL87RMmebNBOqwNrLblizPdSMuOW509
+LCk8J2VXwbGKDS-C7eWyCCg1AQgoRIAOSQpZRDeFvWz-
+}
+!procedure GroupAwsStepFunctionsWorkflow($id, $name='Group Aws Step Functions Workflow', $tech='')
+  IconGroup($id, 'GroupAwsStepFunctionsWorkflow', '<$AwsStepFunctionsLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupAwsStepFunctionsWorkflow>> {
+  StereotypeFontColor $AWS_COLOR_VIOLET
+  BorderThickness 1
+  BorderColor $AWS_COLOR_VIOLET
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_VIOLET
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

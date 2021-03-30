@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonLightsailMd [14x14/16z] LSct5GHH38NGGEAX_YlU-MOTsJsekG7-qHsmk9L-gkMb9YaMTS1GdKf6oGDhQyol1aOAsgNfPAyZk-cEIwiahZPMl_Bq0W
+sprite $AmazonLightsailLg [20x20/16z] {
+TSq7RiHG30DHG9GulF-98yHApuxxyozi_jPi_8FyWsVV-GohIgK7ZwgDH_NDoWmgkiw8EbvJerxB4WBISZ7bjSGUxrL6zgTjPvmb0ZAoPlGOwGw-FRXnb9ce
+CeNN3flONOQrmzRMiArTRE6za-Cl-wBNuzu
+}
+!procedure AmazonLightsail($id, $name="Amazon Lightsail", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AmazonLightsail', $name, $tech)
+!endprocedure
+!procedure AmazonLightsailCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonLightsailMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonLightsailGroup($id, $name='Amazon Lightsail', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonLightsailLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonChimeMd [14x14/16z] BSe52W0W44HHO6F2-v_NOh_vHFtu0_GRm-ycP7_RPg0JmAX-WIUWCY8BUdhFLcJZIRXoLAQuRCvFN2r5rwrfQLsA1GPrzMB9zCXttaOVdmS
+sprite $AmazonChimeLg [20x20/16z] {
+RSe7bWGm20BG5yK2kVzzrobk9_q7ljERgk8_A7vbKOlbsAO6rLP2U9DVXd2YmF0rAJ9zfaVOzYZqSREUdvVTy82X2iTQV1coQrugJw3uC3LGtdDQLc3i3bxv
+YIuOu4yRB1JD_3JKJV8EMYPGvPaXlkmIUQCnXwyzsHEtZ5ycAT2Qy6KRQV6xBDv_y0C
+}
+!procedure AmazonChime($id, $name="Amazon Chime", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/BusinessApplication/AmazonChime', $name, $tech)
+!endprocedure
+!procedure AmazonChimeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonChimeMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+!procedure AmazonChimeGroup($id, $name='Amazon Chime', $tech='')
+  IconGroup($id, 'BusinessApplicationFamily', '<$AmazonChimeLg>', $name, $tech)
+!endprocedure
+@enduml

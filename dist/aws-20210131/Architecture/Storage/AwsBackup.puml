@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBackupMd [14x14/16z] LSU5RGHG30KmgNcOl_-yFIOBtJPtlkbFUqT-JJDASbyeI_2rMuvDMeDaLsCeuF2sijwLcDjMbKopzuMrGzztCh3nTzlPKyeMqlQSVMXl--a5
+sprite $AwsBackupLg [20x20/16z] {
+RSy5Oi0W50FGbNnfykz_t-7JL827i-SzoHN-W_m7oQr07jmYDtDkv8gZDHpKccZCfEtfaW88CJmPVMn7YGYKF-Q8KPscR8Xer0ktvilAKqc-j4pZCgMLXKJG
+uXYDWWUIwBAi-Y9ZtpUSr-8nbOIFd7UlOPQmdXR6WLNT4Z4lk0hMHArGnvOil5Q_x1C
+}
+!procedure AwsBackup($id, $name="Aws Backup", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Storage/AwsBackup', $name, $tech)
+!endprocedure
+!procedure AwsBackupCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBackupMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsBackupGroup($id, $name='Aws Backup', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AwsBackupLg>', $name, $tech)
+!endprocedure
+@enduml

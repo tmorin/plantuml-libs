@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAppMeshMd [14x14/16z] DSs74SGm40B06Ly2r7-_R-uj55UH3ZOpmo_cLIQMylfKpLBYK_9s_1KD4fKhZIOIx2jL2qsB9Gt48d4E7p-iYjKHuV_uvZY-folfhQPbVle1
+sprite $AwsAppMeshLg [20x20/16z] {
+RSXHGaGX30F01xGqIUz_NwjQK7VdS_WDBGhV9A-JwfbsKc8HRKx3pweG3f01ZtDh1B_uO-oRMwg23UyB04vin8vxeeyPrBdS8McvIEyJACgZBi2wb7Bj_3uj
+9udCr1nGXRGVOycY2280EjXNQ6CwfNjIfddMt4lLIkLUPUlxdny
+}
+!procedure AwsAppMesh($id, $name="Aws App Mesh", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/NetworkingContent/AwsAppMesh', $name, $tech)
+!endprocedure
+!procedure AwsAppMeshCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppMeshMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+!procedure AwsAppMeshGroup($id, $name='Aws App Mesh', $tech='')
+  IconGroup($id, 'NetworkingContentFamily', '<$AwsAppMeshLg>', $name, $tech)
+!endprocedure
+@enduml

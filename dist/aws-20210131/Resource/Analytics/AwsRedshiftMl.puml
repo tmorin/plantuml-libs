@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsRedshiftMlMd [14x14/16z] HKg70SH02085lDz_u4zFh3ISHTbgNEMeknMUpk-y5Pz_9VPQFnsiZ2AJlhnuo7MeA1PdPfsiPp869BInQ4OugYqZXU75h8_TIGitKoPfTyj7OlzaIofW0m
+sprite $AwsRedshiftMlLg [20x20/16z] {
+JT055iGm30DH6M9BtllVT_FAK_xbuCrtXa_9gtgu63YouctZz_sGtwOADuIetssorIIdkZfkkwzlq1zhEP2DrogP4prrcGVIR5HKwBGKHNO3M8hJnY3au6xR
+FZB1nb_pVR0DCQy5SHXaZzdaOIKy1h-UXuz1QqEtsI7U160KrLZYqSAHmOxDFVP_
+}
+!procedure AwsRedshiftMl($id, $name="Aws Redshift Ml", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Analytics/AwsRedshiftMl', $name, $tech)
+!endprocedure
+!procedure AwsRedshiftMlCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsRedshiftMlMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsRedshiftMlGroup($id, $name='Aws Redshift Ml', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsRedshiftMlLg>', $name, $tech)
+!endprocedure
+@enduml

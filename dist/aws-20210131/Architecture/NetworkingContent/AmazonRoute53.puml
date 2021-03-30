@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonRoute53Md [14x14/16z] BSVN0KGX24JH7oPX__tklDLhW9FccwJS7fCb3VHMkmBc7-rT0fGuWqyPfN7qoKEAh58HSUdfF0jkOWTZdqD0DZ58jK8RCCbf6zBPfxgbFJp-
+sprite $AmazonRoute53Lg [20x20/16z] {
+RSv70iGW34FH1P9jYVlVTmnfqtxwImBegAwoqn_KqurMDqB2ACNOQCiWiOvkesqoBktpQKt1pEsd6H7JaiscqqYAbQms7IOm2wgX85BB9WDIKamDGkSSCIio
+cGwYL7EsqPrwns7htm3JJeA4fBa-R2N0TTAshc9nQ_eoBmRskavRwjdmQQUSEF_W2m
+}
+!procedure AmazonRoute53($id, $name="Amazon Route53", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/NetworkingContent/AmazonRoute53', $name, $tech)
+!endprocedure
+!procedure AmazonRoute53Card($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonRoute53Md>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+!procedure AmazonRoute53Group($id, $name='Amazon Route53', $tech='')
+  IconGroup($id, 'NetworkingContentFamily', '<$AmazonRoute53Lg>', $name, $tech)
+!endprocedure
+@enduml

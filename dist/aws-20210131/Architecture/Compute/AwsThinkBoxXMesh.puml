@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsThinkBoxXMeshMd [14x14/16z] RSg5YGH044HHA9ty8xwnM_zOFwhRvcQxR-mcURWd2x8d9xXEaPCTrWbJepKPYShKg6IPLy7zTU-M6CpKP08vwTQUqzMuzOV-
+sprite $AwsThinkBoxXMeshLg [20x20/16z] {
+VSnN0WCX24NHp2im-rznx9fw_Ji2MOeZb_8Bvi3jqmg14uSLCXuJcv1XmK4k8qWx30d3WlMLJ3Qx2q81jMrSpIeAS66Nds5tYY6c87OhNGnQ2jeObfHCYGKP
+MQo4yKy0qv9AqqunSjYuYUmjIp9oT1zjs_9lxWa
+}
+!procedure AwsThinkBoxXMesh($id, $name="Aws Think Box X Mesh", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsThinkBoxXMesh', $name, $tech)
+!endprocedure
+!procedure AwsThinkBoxXMeshCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsThinkBoxXMeshMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsThinkBoxXMeshGroup($id, $name='Aws Think Box X Mesh', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsThinkBoxXMeshLg>', $name, $tech)
+!endprocedure
+@enduml

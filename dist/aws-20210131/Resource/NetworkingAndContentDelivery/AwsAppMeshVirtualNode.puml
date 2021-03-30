@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAppMeshVirtualNodeMd [14x14/16z] LKw53G113A86l__4NucT5qkmcfMvNmEFS7BUnW706lKNXo01nUp50ZBX7zc0iaQkZ7PwQqOrXK4PSCbXvgUXHcTjBf29-WPbaPIKwmm0GUvNRxEtzGy
+sprite $AwsAppMeshVirtualNodeLg [20x20/16z] {
+TP05Wi1020FH4BR__-yjjVFKfq75Vabi5KUrTRqiCyebu7wXFwoGTRFN1s1OnkLJ7SYUFqKlzzBk64VkMpjo6DBwOiejuMRMFHRIvddNJOwjwZ1vMKp1Yltu
+mRJNBc_DYt7fCmSTcBe9vzsBBLpz1R7eGWhQuvuZKfmBUU3_7Vozgtkd_B9JCVyXamy
+}
+!procedure AwsAppMeshVirtualNode($id, $name="Aws App Mesh Virtual Node", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode', $name, $tech)
+!endprocedure
+!procedure AwsAppMeshVirtualNodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppMeshVirtualNodeMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsAppMeshVirtualNodeGroup($id, $name='Aws App Mesh Virtual Node', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualNodeLg>', $name, $tech)
+!endprocedure
+@enduml

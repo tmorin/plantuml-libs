@@ -1,0 +1,16 @@
+@startuml
+sprite $AlexaForBusinessMd [14x14/16z] HSV15G9140BH2z0Dat--FdRKhLDzjxtD52_J5y0faon10dCbQbV48rCBK1Z_fFagugmZhFVaBBaPqFQv5B1LAO7EgqrHrIVbLV_X1m
+sprite $AlexaForBusinessLg [20x20/16z] {
+RSi7ZWCW40D0IUlj___l6KIx9AQFJAx4ZhiVoulr51TxJIm3ewjP4_dcLF5ZnIVCkMHREGp96DkvJ4a097Y9Orhy3Pw8dDR308jup0pX5ZdAIMjYmYKxUQec
+iOdjHE-4IOxqHPBNie7ckcXPqzI183tcOb7CigLS2vSjMDW_y0y
+}
+!procedure AlexaForBusiness($id, $name="Alexa For Business", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/BusinessApplication/AlexaForBusiness', $name, $tech)
+!endprocedure
+!procedure AlexaForBusinessCard($id, $funcName="", $content="")
+  IconCard($id, '<$AlexaForBusinessMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+!procedure AlexaForBusinessGroup($id, $name='Alexa For Business', $tech='')
+  IconGroup($id, 'BusinessApplicationFamily', '<$AlexaForBusinessLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $ContainersMd [14x14/16z] LSfH4W5W30FXyNUJkF-58GhsgLyd_3JWJOyWYOFwgA8fAwD4gF8PG7EHuUh3FE9K6V5iN26fscMdkqIlgVFGbiImLwh_xW
+sprite $ContainersLg [20x20/16z] {
+PT055eGm34NHqtn9sV-2qQGZFFpY5LYXjoBLjO6UUUUEf1v9y6Eko-9b42aicpaDvXcXPHYqpio1CWzS1HWOgkjYVJN2rcMJh4yMc6rW1MIkwogoB8CTmhTj
+3gn2Z_qCGbwMs-pohAomT9fK-Ylf8hpI0G
+}
+!procedure Containers($id, $name="Containers", $tech="")
+  IconElement($id, 'aws-20210131/Category/Containers', $name, $tech)
+!endprocedure
+!procedure ContainersCard($id, $funcName="", $content="")
+  IconCard($id, '<$ContainersMd>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure ContainersGroup($id, $name='Containers', $tech='')
+  IconGroup($id, 'ContainersFamily', '<$ContainersLg>', $name, $tech)
+!endprocedure
+@enduml

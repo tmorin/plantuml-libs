@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceGlacierVaultMd [14x14/16z] hKu50G1121kp_f7_BCBZpW3GffPY4pDgo9wiipI0bcAQrDxsPN4shKp2dKJcPV4o_Y_By21ZLmRxelOQ-W
+sprite $AmazonSimpleStorageServiceGlacierVaultLg [20x20/16z] {
+rP070iHG14Ir6VR-5rwaNY4l-Kr71cj4UrEvY28BpDxj56drvcGRMPuo-iY0SKIio7yHY0JH1sfbYaLjzjDkJ8WCS4-LCyIPew6zPFYWZ9VickWrqtkgPjVi
+p-d_0G
+}
+!procedure AmazonSimpleStorageServiceGlacierVault($id, $name="Amazon Simple Storage Service Glacier Vault", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGlacierVault', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceGlacierVaultCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceGlacierVaultMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceGlacierVaultGroup($id, $name='Amazon Simple Storage Service Glacier Vault', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGlacierVaultLg>', $name, $tech)
+!endprocedure
+@enduml

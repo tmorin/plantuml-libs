@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonWorkDocsMd [14x14/16z] BSk53GLG24FHBqZRj_--IBZHGoYsxA8Z5-ELTNzRjfnW_7rv2hUXMcpH7QCvkaNqzXGUpVqKbKdI4z89CE0fdWI8zDQRYKysaiG9P6jy5nG
+sprite $AmazonWorkDocsLg [20x20/16z] {
+RSu74iCm2031iKKx_F__9Y3ISzDN1MBodLNyGM1WTDlgplL4YDNlzP31fw6gQn1Oq8OCacMKHGnc8WcaAO5AR3lhNvUbzuuLRsRQdVCsAxC4M1xF_t3lDRTb
+tIDh_RA8oAiCibVTTfMz_JUsP5fLsrNVJH7GrjpH_JDk
+}
+!procedure AmazonWorkDocs($id, $name="Amazon Work Docs", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/EndUserComputing/AmazonWorkDocs', $name, $tech)
+!endprocedure
+!procedure AmazonWorkDocsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonWorkDocsMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+!procedure AmazonWorkDocsGroup($id, $name='Amazon Work Docs', $tech='')
+  IconGroup($id, 'EndUserComputingFamily', '<$AmazonWorkDocsLg>', $name, $tech)
+!endprocedure
+@enduml

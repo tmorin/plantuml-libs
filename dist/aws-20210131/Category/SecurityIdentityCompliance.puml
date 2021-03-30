@@ -1,0 +1,16 @@
+@startuml
+sprite $SecurityIdentityComplianceMd [14x14/16z] PSq54e1034DH99tQ_UzBiZZyrJTMm71doMBaBWqcIHN_1fYJLF5YgvzAzrWz_-gK4fU28QJkCdCtZP8wDI7gK1Ud4uTOLKcFW0q
+sprite $SecurityIdentityComplianceLg [20x20/16z] {
+TSx70SCW44JH0ni7zr-lPucEN_b90hJ9Hqt5maUs8mUGivXPMUxU3NLdaSSeMcFpy6kajUSomCIw6UnOBtFGlD5oMgVrO_xVV1WlbbcMj10jK_5h40ctu7aR
+qUVw3DiEUX7A7aGodpem3SEcZsB-mE9aekqhVG8
+}
+!procedure SecurityIdentityCompliance($id, $name="Security Identity Compliance", $tech="")
+  IconElement($id, 'aws-20210131/Category/SecurityIdentityCompliance', $name, $tech)
+!endprocedure
+!procedure SecurityIdentityComplianceCard($id, $funcName="", $content="")
+  IconCard($id, '<$SecurityIdentityComplianceMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure SecurityIdentityComplianceGroup($id, $name='Security Identity Compliance', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$SecurityIdentityComplianceLg>', $name, $tech)
+!endprocedure
+@enduml

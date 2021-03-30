@@ -1,0 +1,18 @@
+@startuml
+sprite $TraditionalServerMd [14x14/16z] fOhL0S0m24HfpjX_uRf-zqNWfAeWQhsedPPNb4CPcu8F5MZbKVwel9k38CQbzd_wgHeRpA5WhHZhkW
+sprite $TraditionalServerLg [20x20/16z] nP052i0m4C3EXVl_U-U-jJXBFGGhp11l4EnenKOTqWnb0LnEHsuJZl7XhXsgJEYju_29e5idBDE4MvSnaRSESE7MRPV_7FSwhSY5gArx__q8
+!procedure GroupServerContents($id, $name='Group Server Contents', $tech='')
+  IconGroup($id, 'GroupServerContents', '<$TraditionalServerLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupServerContents>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

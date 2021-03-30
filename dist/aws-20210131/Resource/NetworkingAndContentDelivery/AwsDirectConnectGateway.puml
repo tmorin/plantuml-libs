@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDirectConnectGatewayMd [14x14/16z] NKw50KHH20BR_GU-_2_j5ln859FerI5FOYbgJFyrqW3zQZxjNmR-1lbaJY3AJ2FLr9keq2UB_ZRtIN1UuVNX-ZwG4PFaWV46
+sprite $AwsDirectConnectGatewayLg [20x20/16z] {
+VP255GGX30K_yK3_zPuWRtq77pnuWRFgqPG8Tq_6XgL031nHff6qVsspsrKKB0UuOJBT1klcAD2RfCr1_QzQw9z8xTG0jEd1DP-hjxtcex7DKLVdjpo_MTBA
+T9gsnK1x3DBBCLOnOxL1MGKlV04
+}
+!procedure AwsDirectConnectGateway($id, $name="Aws Direct Connect Gateway", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway', $name, $tech)
+!endprocedure
+!procedure AwsDirectConnectGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDirectConnectGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsDirectConnectGatewayGroup($id, $name='Aws Direct Connect Gateway', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AwsDirectConnectGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessMd [14x14/16z] HSY74S0W30H1VHBzTspIu2EkwaLXFxqUnOqtZ8UrP4pA3ETGKWE8N6pHK68sooocJkRKxHVnDDqkUCknna1iBIc5geafgysPWX2Mv9Ni-W
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessLg [20x20/16z] {
+XKy7beL034f8GUz_uLqcytl3XZIVzWZ7bLvOTN7pFcCzin7W5C97w-WZ2YFMhcOIT2aPZLxi_xsMtuMswZr8vKbtSwVWTRhYkfYsuTu6TJ3IY1pjXjzQuKN3
+AGBVMkcpZ0unZ4RerZ8isaQhuWomc9D39coGeJq_kgjw84Rz69xWzWS
+}
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccess($id, $name="Amazon Elastic File System One Zone Infrequent Access", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAccess', $name, $tech)
+!endprocedure
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccessCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticFileSystemOneZoneInfrequentAccessMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccessGroup($id, $name='Amazon Elastic File System One Zone Infrequent Access', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonElasticFileSystemOneZoneInfrequentAccessLg>', $name, $tech)
+!endprocedure
+@enduml

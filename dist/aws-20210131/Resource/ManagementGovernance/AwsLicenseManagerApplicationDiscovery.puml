@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsLicenseManagerApplicationDiscoveryMd [14x14/16z] JKq74WGn2590pFt_mxTfC-agBOHGAMCjkKImjReqYb9uj_gPL6UlXXg30HjVLn1daUR2QdvpF5tws_CV9o8zYQtJsZNwPWI8a5TxrchnjYyOLFm1
+sprite $AwsLicenseManagerApplicationDiscoveryLg [20x20/16z] {
+TSxNOKKn20DGqGLt_tbJSVAgll1n4w00H1KtgQPaarroI1hEdod63bR0pSmD-eyagofPi5vAuOX-3mNQUSzwXj-OdZ-cH8JDpoAo_WtRpdyDZKXiChQBetsD
+igL73jQr1XlzBL5bSr2x8Ynv6VuHdbKXEWRhnPFtI3nZwoDs9nuZ2dm2
+}
+!procedure AwsLicenseManagerApplicationDiscovery($id, $name="Aws License Manager Application Discovery", $tech="")
+  IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery', $name, $tech)
+!endprocedure
+!procedure AwsLicenseManagerApplicationDiscoveryCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsLicenseManagerApplicationDiscoveryMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsLicenseManagerApplicationDiscoveryGroup($id, $name='Aws License Manager Application Discovery', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsLicenseManagerApplicationDiscoveryLg>', $name, $tech)
+!endprocedure
+@enduml

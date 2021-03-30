@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonHoneycodeMd [14x14/16z] DSg73GC134BH50Ck--yRbznNuqd4v9SKJyliaGvecPb1aC0f81X9qqWals0NBQVe0g1MkP7oh_44p75L5N2HClE8gihUxUXg2j8p_yhAxj7W-0C
+sprite $AmazonHoneycodeLg [20x20/16z] {
+RSi7RW1124DHxM06REv_tqm9sRGlgpt9_2oxYE0_gBQNGnULPj6eZQ9RX27P9asRTESqPnl0U7oE8Ao_4BQaWQ_bqXKHIBRvKYrvpRQLC4OUguLZ81y7QDkO
+LKN8XqSa7cxZCi6BvjFe1XvRJOkQKp4csrHoopIdsXQg26Gj-hAbQwVNhZJMF_W1
+}
+!procedure AmazonHoneycode($id, $name="Amazon Honeycode", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/BusinessApplication/AmazonHoneycode', $name, $tech)
+!endprocedure
+!procedure AmazonHoneycodeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonHoneycodeMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+!procedure AmazonHoneycodeGroup($id, $name='Amazon Honeycode', $tech='')
+  IconGroup($id, 'BusinessApplicationFamily', '<$AmazonHoneycodeLg>', $name, $tech)
+!endprocedure
+@enduml

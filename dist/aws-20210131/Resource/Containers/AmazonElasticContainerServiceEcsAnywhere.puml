@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElasticContainerServiceEcsAnywhereMd [14x14/16z] NOq50W9H448d0Ez_Oz-tNQQJEcXGRsmMVURZcTqXK4XOecTcDDeGKTMUFHmfQbcehzLtSwXVNrQvpJ1RD-Qj9tzBnrC_qHQTBwQVyGu
+sprite $AmazonElasticContainerServiceEcsAnywhereLg [20x20/16z] {
+TP254GGW30GZ9_rt_0dlTiCWIpp-2yuqNaaPoXHS3qHLB8iIyv1spov0ZqTvjfGrQutMlx58FT92z32EOx4QoTA35KC1pCQwirQxTROEtXaCdMtOfwzuzSN9
+aJWvAD_obdngCIDLKvjxjwtP1MMialjLtNLlRVHelSVtgJQYfFmSgYe-zM9p0G
+}
+!procedure AmazonElasticContainerServiceEcsAnywhere($id, $name="Amazon Elastic Container Service Ecs Anywhere", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere', $name, $tech)
+!endprocedure
+!procedure AmazonElasticContainerServiceEcsAnywhereCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticContainerServiceEcsAnywhereMd>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticContainerServiceEcsAnywhereGroup($id, $name='Amazon Elastic Container Service Ecs Anywhere', $tech='')
+  IconGroup($id, 'ContainersFamily', '<$AmazonElasticContainerServiceEcsAnywhereLg>', $name, $tech)
+!endprocedure
+@enduml

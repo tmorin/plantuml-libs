@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonKinesisVideoStreamsMd [14x14/16z] FSc72S1G30DHY5My_yInVZlgusphHDBfCQ2E8n4-p0B0D6foM4dglFgkEbf4n0II5OKmFsD9Gn57JQimsRrpEdh-0G
+sprite $AmazonKinesisVideoStreamsLg [20x20/16z] {
+VSi53WC024FH32hi_XSUdVkFyaAzwIbk_eB-m9k1JtmpF9aYQXUzFTciT8Eyso12TAfU6uyA8b8qjkWyLUfwjUu6mDXYjjHQ-6BWTAjfogfOojro5NqpzvHY
+1wnvBH77rj1-jeNghNfzxldUFFNFJW
+}
+!procedure AmazonKinesisVideoStreams($id, $name="Amazon Kinesis Video Streams", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MediaServices/AmazonKinesisVideoStreams', $name, $tech)
+!endprocedure
+!procedure AmazonKinesisVideoStreamsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonKinesisVideoStreamsMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AmazonKinesisVideoStreamsGroup($id, $name='Amazon Kinesis Video Streams', $tech='')
+  IconGroup($id, 'MediaServicesFamily', '<$AmazonKinesisVideoStreamsLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonDynamoDbGlobalSecondaryIndexMd [14x14/16z] LOs7TSHG20G5x2py_XisykLvv9Zma9i0ZZZaOYZDYYBYWZgjcPMRbDsuhSLorbcfQobgccwcbwbdrkxsrFUaaDrU16hzVg1qxk_NVXVWWI6hqWJA5G4Y_W
+sprite $AmazonDynamoDbGlobalSecondaryIndexLg [20x20/16z] {
+RT35WKLH20DG29B0wx_UcUz-TbTGGy0zmXs1iu3Xu58pqwkh0o5BqOqikn9Yh2IusEPdDi1mcYFLw6hScumaAtZJXYCbiOUJTR60BFbPOq6fSYZ4nS95PKcT
+eYxehtSt7kijPGo9ECFl6ZXgUEsb-c9XtHr99lgc3AkzphQwMe-n565wxVcsAxtLqCTErms0E-266xT_
+}
+!procedure AmazonDynamoDbGlobalSecondaryIndex($id, $name="Amazon Dynamo Db Global Secondary Index", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex', $name, $tech)
+!endprocedure
+!procedure AmazonDynamoDbGlobalSecondaryIndexCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonDynamoDbGlobalSecondaryIndexMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonDynamoDbGlobalSecondaryIndexGroup($id, $name='Amazon Dynamo Db Global Secondary Index', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonDynamoDbGlobalSecondaryIndexLg>', $name, $tech)
+!endprocedure
+@enduml

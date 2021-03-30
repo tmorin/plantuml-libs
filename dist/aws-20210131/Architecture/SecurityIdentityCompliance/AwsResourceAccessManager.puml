@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsResourceAccessManagerMd [14x14/16z] BSc7WSCm30F0BwZK_lk6ZWpL8tgJ9_Rzll4K_0P4CkNHpeJGAncm8N2xaKdFTbUb9gHNPwGeaNLLSlhjkZh2bfb7Xo68VmHTjQ7i9giditlpQlzN7m
+sprite $AwsResourceAccessManagerLg [20x20/16z] {
+PSq7SiKW54FH-PPUaSZ-rnl0BUMwSeQYgxwhAZszw3zprjiM01BtU-8qhfcQ9TMeqomSYq3sFS_8WlHfV-gsFe97kO3KCy-vpw_GPQOZc1P8F2P-6ViiJbEF
+OPgPOQCIZmq5syvWBjEUD-Om9DcF3P5C1Y5psm2B4S5P0zfcZI9hPhMsxUpzdbrs3_tOV_m6
+}
+!procedure AwsResourceAccessManager($id, $name="Aws Resource Access Manager", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager', $name, $tech)
+!endprocedure
+!procedure AwsResourceAccessManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsResourceAccessManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsResourceAccessManagerGroup($id, $name='Aws Resource Access Manager', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsResourceAccessManagerLg>', $name, $tech)
+!endprocedure
+@enduml

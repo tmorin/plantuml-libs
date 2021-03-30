@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDataSyncMd [14x14/16z] LSm50WCm30B0IGpo__yEEgTwgOpJJYaGNhRChhOb9JFZqAhKk4ShKenlbqbMKoNJyXUPCpZ2FRiYNP6ogZAcQcPqfdhd0D9oGGLFBLymzuyF
+sprite $AwsDataSyncLg [20x20/16z] {
+RSn13iGm24DHJG1ia_lVToX8NVNlyWAG6xPyqWVg0zMjlBWcc9c_g2SSaEx0yfX1fEpOOab5svFCi_PGIgFqCrOLMTAgqZW6i0kVKGF7t02uEoKOnof_sPW7
+cHOagwu58yAEw0vsjouyWWmBTMjrUJYFfRRRaxLfSEobhUq3xmV-0G
+}
+!procedure AwsDataSync($id, $name="Aws Data Sync", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MigrationTransfer/AwsDataSync', $name, $tech)
+!endprocedure
+!procedure AwsDataSyncCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDataSyncMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsDataSyncGroup($id, $name='Aws Data Sync', $tech='')
+  IconGroup($id, 'MigrationTransferFamily', '<$AwsDataSyncLg>', $name, $tech)
+!endprocedure
+@enduml

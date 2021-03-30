@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AwsOrganizationsManagementAccount element
+include('aws-20210131/Resource/ManagementGovernance/AwsOrganizationsManagementAccount')
+AwsOrganizationsManagementAccountGroup('aws_organizations_management_account', 'Aws Organizations Management Account', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

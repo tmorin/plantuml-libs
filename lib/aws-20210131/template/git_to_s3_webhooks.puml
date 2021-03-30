@@ -1,0 +1,35 @@
+@startuml
+
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="{{= it.relativeRepoLibDir }}"
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+include('aws-20210131/bootstrap')
+include("aws-20210131/Resource/GeneralIcons/User")
+include("aws-20210131/Resource/GeneralIcons/TraditionalServer")
+include("aws-20210131/Architecture/Compute/AwsLambda")
+include("aws-20210131/Resource/Storage/AmazonSimpleStorageServiceBucketWithObjects")
+include("aws-20210131/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAddOn")
+include("aws-20210131/Group/GroupAwsCloud")
+
+left to right direction
+
+User("git_users", "Git users")
+TraditionalServer("git_server", "Git Server")
+GroupAwsCloud('aws') {
+    AwsLambda("lambda0", "AWS Lambda")
+    AwsLambda("lambda1", "AWS Lambda")
+    AmazonSimpleStorageServiceBucketWithObjects("bucket_ssh", "Amazon S3 SSH key bucket")
+    AwsIdentityAccessManagementAddOn("kms", "AWS KMS key")
+    AmazonSimpleStorageServiceBucketWithObjects("bucket_output", "Amazon S3 output bucket")
+}
+
+git_users -down-> git_server : Relationship("git push", "ssh")
+git_server -down-> lambda0 : Relationship("git webhook", "https")
+lambda0 -down-> lambda1
+lambda1 -down-> bucket_ssh
+lambda1 -down-> kms
+lambda1 -down-> bucket_output
+lambda1 -up-> git_server
+lambda1 -[hidden]- lambda0
+@enduml

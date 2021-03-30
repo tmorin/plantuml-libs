@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudMapResourceMd [14x14/16z] HOc74GD1309H0lgls9V6lue05ZMDFvngnHEzWpHlVktE8uThrLgXNlVad2Wmfx2w3JcNcBAGAXCx2HLe0XmicA0Y9x18SGtimgBa6Ma6Xumo1n_vn0y
+sprite $AwsCloudMapResourceLg [20x20/16z] {
+NSrNWaKX20JHQbHeVFjVxmIz4u_fou8hWdzMsxtuhIp0nO_HztMk55VD-sglD5V_zF6yZvyvutJgL9vez8bbeUO8psPsGYiCsGFcA-ZHWKDDU3J8hEs25bcu
+4_9Lbj3fBxHXE3QWNXmoo5Ke1u_r6Z0sL5eSuMXG4tivEDIvQzHspv-_iJIssS5Viel_DE7n3W
+}
+!procedure AwsCloudMapResource($id, $name="Aws Cloud Map Resource", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapResource', $name, $tech)
+!endprocedure
+!procedure AwsCloudMapResourceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudMapResourceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsCloudMapResourceGroup($id, $name='Aws Cloud Map Resource', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapResourceLg>', $name, $tech)
+!endprocedure
+@enduml

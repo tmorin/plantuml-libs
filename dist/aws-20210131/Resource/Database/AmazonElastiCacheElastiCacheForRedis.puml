@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElastiCacheElastiCacheForRedisMd [14x14/16z] LSstWGKn54BHvu2Hr7-_o-ptDpf4n4yZljC0Sq4MRkT5h2PxWLTYKA13cRUL4Iblhrw2qzLU0ZkdesdEaLX4KZmJ6QmIisWwiYwcQ3fsL6O_Lufut3ntrSD_
+sprite $AmazonElastiCacheElastiCacheForRedisLg [20x20/16z] {
+TSk5WG0m30906WMw_xplBbUDuI_LFnJYpWytmaXkBgjUdeG3lJihbbtKpcu3wirXeHl5oIqXZQtJooVR9nVE93QRdH4lpuBFEOuRBzhDrrokAV7vgF8bLri4
+JiG1Ne9CUTA3cZuOvrXvBBO6wX96HVdWoH70BW8wU7S7f0DpyK4DHIxQNt907kItsT5aH3uz-9J39vFuroC
+}
+!procedure AmazonElastiCacheElastiCacheForRedis($id, $name="Amazon Elasti Cache Elasti Cache For Redis", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Database/AmazonElastiCacheElastiCacheForRedis', $name, $tech)
+!endprocedure
+!procedure AmazonElastiCacheElastiCacheForRedisCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElastiCacheElastiCacheForRedisMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonElastiCacheElastiCacheForRedisGroup($id, $name='Amazon Elasti Cache Elasti Cache For Redis', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonElastiCacheElastiCacheForRedisLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2P4DInstanceMd [14x14/16z] LOx70GH13C8a6_el-NBOqSiH04GLUT79RgRl9XyAjdnePSA732Qi39h8yt-tyzJYsSKqUNOc2Beafmgdm-b-9ZjJtm4
+sprite $AmazonEc2P4DInstanceLg [20x20/16z] {
+bP050WH020A75VJ_BxxkljbE1Oxer5smwKjt8j7er750qpUCW4fpGwV0Zti6TBydq4nVin0z8r0J1urOeSynih8gSdADaQYIMBd6i92o7D_4k8IunhYX_z3n
+xC6pL-yzVVP-2m
+}
+!procedure AmazonEc2P4DInstance($id, $name="Amazon Ec2 P4 D Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2P4DInstance', $name, $tech)
+!endprocedure
+!procedure AmazonEc2P4DInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2P4DInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2P4DInstanceGroup($id, $name='Amazon Ec2 P4 D Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2P4DInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

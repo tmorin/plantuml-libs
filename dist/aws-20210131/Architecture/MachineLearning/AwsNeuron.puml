@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsNeuronMd [14x14/16z] BSU92SG0509H-9UQzD_lAflXciU4T4x6vyWKPewXpDqxspG6x2RQr8FZJWzsWSUgSRN72EYgllkawYx-fSMGSmFoCM_9NRhtjVDI52QPLXY4Fm
+sprite $AwsNeuronLg [20x20/16z] {
+JSi53i0024FHZ28jk_zv9qn_YBqKtjLLdkcpQUp1nyT6bK0-gAc0gaV7w4X5CCndUHf2dMOfkftMvwoLE0eAETPqmkYWeJ2xFknyd0iKn-Jj3i3SzJC2omBK
+prRQ4h7O6Db7I3aaECDuj9uOXxQKXxwsofqyH1fRBwMZMfyzQHfxL7UdtVZf3W
+}
+!procedure AwsNeuron($id, $name="Aws Neuron", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MachineLearning/AwsNeuron', $name, $tech)
+!endprocedure
+!procedure AwsNeuronCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsNeuronMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AwsNeuronGroup($id, $name='Aws Neuron', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AwsNeuronLg>', $name, $tech)
+!endprocedure
+@enduml

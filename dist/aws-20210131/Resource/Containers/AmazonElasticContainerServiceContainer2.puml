@@ -1,0 +1,13 @@
+@startuml
+sprite $AmazonElasticContainerServiceContainer2Md [14x14/16z] VOo50S1030Bv77J_ZUjk5rVzqKw8O3DY4w2LQaJL08_QULHOD9QSr-hONB_0-YNi1DK9_J4
+sprite $AmazonElasticContainerServiceContainer2Lg [20x20/16z] hSsr0G0n30D0WM7_ZPynRKwT4PEn1bI1A-ouGaafCo6lXAILQyt1LE-K35yrDrRjMJLrLxr-QAt1iJBMcjPQWMjEN5DYrqyJaoq
+!procedure AmazonElasticContainerServiceContainer2($id, $name="Amazon Elastic Container Service Container2", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Containers/AmazonElasticContainerServiceContainer2', $name, $tech)
+!endprocedure
+!procedure AmazonElasticContainerServiceContainer2Card($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticContainerServiceContainer2Md>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticContainerServiceContainer2Group($id, $name='Amazon Elastic Container Service Container2', $tech='')
+  IconGroup($id, 'ContainersFamily', '<$AmazonElasticContainerServiceContainer2Lg>', $name, $tech)
+!endprocedure
+@enduml

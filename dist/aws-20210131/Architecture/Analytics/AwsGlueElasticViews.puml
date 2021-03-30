@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsGlueElasticViewsMd [14x14/16z] LSsr0GH13CNG0_lJz5_lCYfxaRocBP9-CQTG9IOgUQdPLC8ga_oXjCX0TV_PM9NXxch9gzWieFu5QwJzNq3q9gGJbg150yrLstcCEDjqqrhMVElW3
+sprite $AwsGlueElasticViewsLg [20x20/16z] {
+RSe7SWCW34JHCQksI-v_tWWif_hJty1dzIexJk-CGqT5KXfCm7gNg0nUP1YHLMe4KiVa_cKU43CPZxQw9eET5j9WO-96LeQn6zkYvLfX3MECa5LuBGUIrn1k
+G8J5Yl2slMMRZog7VQHPlAnyt_zqPzS6fhKLKDBJTffJRHufZftQ271iP1hxhMF_y1C
+}
+!procedure AwsGlueElasticViews($id, $name="Aws Glue Elastic Views", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Analytics/AwsGlueElasticViews', $name, $tech)
+!endprocedure
+!procedure AwsGlueElasticViewsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsGlueElasticViewsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsGlueElasticViewsGroup($id, $name='Aws Glue Elastic Views', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsGlueElasticViewsLg>', $name, $tech)
+!endprocedure
+@enduml

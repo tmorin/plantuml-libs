@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonCloudSearchSearchDocumentsMd [14x14/16z] bOx50S0m30CDKc3_XHkcNozebeWJB80kXGX7mH6h5GmD2yK0j5lbAOaPWnIB5OqDYyLIsCpKkyilYzjwbDsgFm
+sprite $AmazonCloudSearchSearchDocumentsLg [20x20/16z] {
+ZT1L0iGm24LHj3ow__rMYOpF-Rpn417BXEaI6Lr6DQLEga4zSKbNt6sPvorquDN9KHRobOy6WBXG07AqX5iKT-JLRBeXMV9z5_6Ysk-dew4rLhaeZtdz31jj
+t6MqyRPfNlVlF8dFVygY0nzX1m
+}
+!procedure AmazonCloudSearchSearchDocuments($id, $name="Amazon Cloud Search Search Documents", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Analytics/AmazonCloudSearchSearchDocuments', $name, $tech)
+!endprocedure
+!procedure AmazonCloudSearchSearchDocumentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonCloudSearchSearchDocumentsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AmazonCloudSearchSearchDocumentsGroup($id, $name='Amazon Cloud Search Search Documents', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AmazonCloudSearchSearchDocumentsLg>', $name, $tech)
+!endprocedure
+@enduml

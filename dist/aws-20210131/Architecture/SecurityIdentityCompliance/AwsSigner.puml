@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSignerMd [14x14/16z] FSU70KCn20FHD9qGV_zzWqav5tWvrITxzlxRi_gbcb_3RcjSWPNAp4fMe60vEOgCUBeukg3a7gUkaOmL9Jd223ZQdY-KbO4dwLxrTFxLjFlo3G
+sprite $AwsSignerLg [20x20/16z] {
+PSi9TaKX30BGzeM4WFlVR-ElTiJv7j59tv3yPuFUu5zAxpS3t2XmemT7Ag1MHHyZbiLeAQbZCQLWmKpTVs0-TAQ3NzPmhmxNdBVhZ9fP4Mb2dwRCKi82NlLb
+BwKNOSh8NLzhB09L_GwZDTdcHvt5fnL-sU1aCLECkhPvzHk0jeub9l6KrgRRtJddiLC_-Mi7Fm
+}
+!procedure AwsSigner($id, $name="Aws Signer", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsSigner', $name, $tech)
+!endprocedure
+!procedure AwsSignerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSignerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsSignerGroup($id, $name='Aws Signer', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsSignerLg>', $name, $tech)
+!endprocedure
+@enduml

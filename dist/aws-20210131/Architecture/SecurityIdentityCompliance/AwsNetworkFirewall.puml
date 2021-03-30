@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsNetworkFirewallMd [14x14/16z] BSb15eGm3CFGHMEdSkR-rnsWeDr_uhHFtPzu6S2IEGvfWSf7YJQX9HxPh8OjFLAgR4YTr-MivH8xa_9GgnzDPlVFLdN1p4JRp_BHf5ikykWK4Zxb3Iu
+sprite $AwsNetworkFirewallLg [20x20/16z] {
+RSg7bGGW40BGTp81iFz-pzcSC7_HBRodk_K3VQUdjWTT0Eg1jeSeFj63q6G1hRinvaDausu4kKgJdEPOq8g82pPkjdj1bTOPuCKWOTPVPCRqjZSHkULQsRqu
+Tj2WtOdJMobf3uRiQ5MGuCqgzquaLWOqDice_ECfYW_RB0O2RJtCioJvQGSUUThH9_u3
+}
+!procedure AwsNetworkFirewall($id, $name="Aws Network Firewall", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall', $name, $tech)
+!endprocedure
+!procedure AwsNetworkFirewallCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsNetworkFirewallMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsNetworkFirewallGroup($id, $name='Aws Network Firewall', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AwsNetworkFirewallLg>', $name, $tech)
+!endprocedure
+@enduml

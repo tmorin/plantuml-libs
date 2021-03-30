@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonBraketChandelierMd [14x14/16z] ROk30S1054F3_KUktNlV241i74siQd5dMscVU3mfMXm7pe8lkRduTQiN1yOw-w5ZGkB2nirwkoUrmlzp1W
+sprite $AmazonBraketChandelierLg [20x20/16z] {
+XSq52WHG20JG2PL__mjl2ihceyGQt11jIYLaaxQGwjw18yaCutGFdfw1Dht53YcyUyp6tQG0aLWYKie8ZCduqsFRhMh49bjuuKpZnNmRhZ9Ub5HuaLM9LvhO
+Am
+}
+!procedure AmazonBraketChandelier($id, $name="Amazon Braket Chandelier", $tech="")
+  IconElement($id, 'aws-20210131/Resource/QuantumTechnologies/AmazonBraketChandelier', $name, $tech)
+!endprocedure
+!procedure AmazonBraketChandelierCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonBraketChandelierMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+!procedure AmazonBraketChandelierGroup($id, $name='Amazon Braket Chandelier', $tech='')
+  IconGroup($id, 'QuantumTechnologiesFamily', '<$AmazonBraketChandelierLg>', $name, $tech)
+!endprocedure
+@enduml

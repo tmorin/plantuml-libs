@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonMacieMd [14x14/16z] LSU54SG024JH4-op_VSRXh7W-zYghKmE-wtgm-wt1sKqPSagCih-wJLIcRkbXmSZ2_xcu7zApGpC5aZgBM1qg4CTFW
+sprite $AmazonMacieLg [20x20/16z] {
+RSY5aKK130B0UHSYGF_rtdVFZY_lvg6xkQIMr99QKajUxzNFqmJFn6W-3qYfEX73sxdICHquLBYVKD480Z7eSrgkeoeZ6-u0BcT7sW225F57qfQiiykGckjT
+zeutNj9BUaalwILF
+}
+!procedure AmazonMacie($id, $name="Amazon Macie", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/SecurityIdentityCompliance/AmazonMacie', $name, $tech)
+!endprocedure
+!procedure AmazonMacieCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonMacieMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+!procedure AmazonMacieGroup($id, $name='Amazon Macie', $tech='')
+  IconGroup($id, 'SecurityIdentityComplianceFamily', '<$AmazonMacieLg>', $name, $tech)
+!endprocedure
+@enduml

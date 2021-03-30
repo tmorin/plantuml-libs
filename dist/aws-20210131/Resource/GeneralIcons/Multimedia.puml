@@ -1,0 +1,16 @@
+@startuml
+sprite $MultimediaMd [14x14/16z] JSU50KGn20HH0ZjBfFzwp-LF15xafT2SxUb-tbcmNKSwvGs86bGn2a5513QFKIynPuglBBlxhpO_QVMmlWhvWPUOv2pDPF9eEO-qqmjgzgzPCIx57G
+sprite $MultimediaLg [20x20/16z] {
+RSY75GGX24LHCX_ilzzbData-5GkFKqKKCU2f2LJzDlyjKLXFNUt_eBE6PEzpOgOYKXCPPxvbunjuvreVtz_DcJ4RKThmMgHEXZN_6Gb-6ImQA_TvjLSGGOw
+c2m8-UAZ4MSLXdvcHXEplj_DO6kfJj_Ne0gfuab-GQKzqmz5Csd6QLBfQLu
+}
+!procedure Multimedia($id, $name="Multimedia", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GeneralIcons/Multimedia', $name, $tech)
+!endprocedure
+!procedure MultimediaCard($id, $funcName="", $content="")
+  IconCard($id, '<$MultimediaMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure MultimediaGroup($id, $name='Multimedia', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$MultimediaLg>', $name, $tech)
+!endprocedure
+@enduml

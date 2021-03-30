@@ -1,0 +1,21 @@
+@startuml
+sprite $AmazonVirtualPrivateCloudMd [14x14/16z] BST1WWCW30B0tJQ4WF__Rr6TsoZc8gddz8n0dzFoO2QVi8snrC0PeM0Nzc1Bg3XJ2XJsbW0GwCwMbmDHqZfnr_VRsIixoTBhBNtx0G
+sprite $AmazonVirtualPrivateCloudLg [20x20/16z] {
+PSq7ZiH024HHoLIHVF_xBWsi9tr5NWTYyl-iUjaBuzM3EIC1VJ0BquLcWbZDmaHVXuZ6M25oFl3BOWriop0L7UDGK03X6B8NWGfIrkAU7o12jDqcvcP160tm
+yBlGISBBi7Rmb8IoBSuqAN01YBR5G2NUza8bFSS6jnXxuSj-y0y
+}
+!procedure GroupVpc($id, $name='Group Vpc', $tech='')
+  IconGroup($id, 'GroupVpc', '<$AmazonVirtualPrivateCloudLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupVpc>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREEN
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

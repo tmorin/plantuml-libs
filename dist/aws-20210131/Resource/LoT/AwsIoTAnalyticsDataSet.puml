@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTAnalyticsDataSetMd [14x14/16z] LOw70S0W0CA4OFy_kNJNE2EkeToC0wPSDA7cq02boyqOAYDEhHqql0oQsBejuCIFcV8OmaQdtI_uoRAyiELagbQcJxITnlVl7G
+sprite $AwsIoTAnalyticsDataSetLg [20x20/16z] {
+ZOw50SCm30GV1Dv_ueQXV46V481Ei96ZTaRkBh3ZT7DnTisaxKHhTRHcoCcLzbe2974wM-tiwfYTNsRipgvKPfOlZXOzmMijEM_5Qstqp5ypCajndp53yLrj
+rEQYgtgVWX8MH1oKj--eWx7bKIUpUW
+}
+!procedure AwsIoTAnalyticsDataSet($id, $name="Aws Io T Analytics Data Set", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/AwsIoTAnalyticsDataSet', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsDataSetCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsDataSetMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsDataSetGroup($id, $name='Aws Io T Analytics Data Set', $tech='')
+  IconGroup($id, 'LoTFamily', '<$AwsIoTAnalyticsDataSetLg>', $name, $tech)
+!endprocedure
+@enduml

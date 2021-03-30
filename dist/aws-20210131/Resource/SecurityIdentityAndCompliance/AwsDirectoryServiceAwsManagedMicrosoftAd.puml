@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdMd [14x14/16z] JKs50G11258GFlRVz_FAJeXF48lKcRD9mxCp7-iD_Qottctl4mlu8FHTgxGz_NU3GwfT8NwT0abXprTeabMmR4ikFTfmFtfgq5WVPj_ogMy
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdLg [20x20/16z] {
+TOy50W9H24Jf6TRxdrVTxlUJ1f5tGBdYJR_gsgmlggG8ykecegr7LTNaZ8DgJOM38qCc0Y1oCZYN37GphobjBvrrPtZKnmwf6LaefuaEkkfiVIhtKc6PIjE1
+u4GoK1a64rjHXfb7O4fnoUS77UYcbkUnaoJBv8aV
+}
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAd($id, $name="Aws Directory Service Aws Managed Microsoft Ad", $tech="")
+  IconElement($id, 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAwsManagedMicrosoftAd', $name, $tech)
+!endprocedure
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDirectoryServiceAwsManagedMicrosoftAdMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdGroup($id, $name='Aws Directory Service Aws Managed Microsoft Ad', $tech='')
+  IconGroup($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>', $name, $tech)
+!endprocedure
+@enduml

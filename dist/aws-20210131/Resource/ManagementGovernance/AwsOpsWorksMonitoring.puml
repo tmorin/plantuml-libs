@@ -1,0 +1,13 @@
+@startuml
+sprite $AwsOpsWorksMonitoringMd [14x14/16z] ZSUr0G114810rlkl-DtrY1XQaZoYeWGWKg0C6-cXPUcCXnOm0GifOSqYZ2qzoIxoogroFke1
+sprite $AwsOpsWorksMonitoringLg [20x20/16z] hSp50KGX34NH6uCy-kztt3TZ_-14sCm8NfNq-fd2b73aQneGCa35aI9Nuiivql7e0kjvRTK1Ot9K2TU_55VNFvFn-kVDfd-cVY43Uy77zW
+!procedure AwsOpsWorksMonitoring($id, $name="Aws Ops Works Monitoring", $tech="")
+  IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsOpsWorksMonitoring', $name, $tech)
+!endprocedure
+!procedure AwsOpsWorksMonitoringCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOpsWorksMonitoringMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsOpsWorksMonitoringGroup($id, $name='Aws Ops Works Monitoring', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksMonitoringLg>', $name, $tech)
+!endprocedure
+@enduml

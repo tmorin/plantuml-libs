@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonApiGatewayMd [14x14/16z] HSY50GD124JH2312__rcRcD_zQ744rBmzP5PkUU9q9xkYRgRiDeee4P57equVptHpxSSLMUWlZGBK1X7wrusKOYqEpEmCTEALasRHKLNFdtadru
+sprite $AmazonApiGatewayLg [20x20/16z] {
+LSi73aH120BGv0kZuFtlkzEs4TEUe9rw9rU-ziK9_thD5PmeHcxqD0Qm30Wij0qwiNv88IRQWfrFakD9AVAOLgya3DLFZnB5Fwk72Sxjlt4iqp7lhI7npmgM
+Z6sgRgFdDiV8jSMno2wsLy_vIEfk0Tn60hLjQOospIZhckVTw6t_jEtYLry
+}
+!procedure AmazonApiGateway($id, $name="Amazon Api Gateway", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/AppIntegration/AmazonApiGateway', $name, $tech)
+!endprocedure
+!procedure AmazonApiGatewayCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonApiGatewayMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+!procedure AmazonApiGatewayGroup($id, $name='Amazon Api Gateway', $tech='')
+  IconGroup($id, 'AppIntegrationFamily', '<$AmazonApiGatewayLg>', $name, $tech)
+!endprocedure
+@enduml

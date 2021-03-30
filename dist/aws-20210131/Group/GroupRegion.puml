@@ -1,0 +1,16 @@
+@startuml
+!procedure GroupRegion($id, $name='Group Region', $tech='')
+  IconGroup($id, 'GroupRegion', '<$Lg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupRegion>> {
+  StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_LIGHT_BLUE
+  BorderStyle dotted
+  FontStyle none
+  FontColor $AWS_COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

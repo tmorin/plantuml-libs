@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonGameLiftMd [14x14/16z] LSl70KGX20JG0nCSxB_VXVNqZJn2PfstR0_MUUmaAfJNxWvAZU9MkqLG0FmNCsdJp0eiRlr9KxKaEgVl0RZ7EEVsDO3YxEGE8p4cpsZ9dTVKbczbzE4F
+sprite $AmazonGameLiftLg [20x20/16z] {
+NSf1aXmW34FH0al64lU_Rqm7EfdvshsI_bQlrJtxwZzhaXxw8nap9kkY3mApQWOkkeiWfKIChoNMY6uaeMkGOSaiHLsBP6GNoBbqZPp9Ouow1flRQrM9b8xj
+fCOYC7f0sxOTWMHdL4MfzlOMoFdv4KFIFcWcripAkQBQ3hQYO1iLQhkOKPOhyjX3tuuzV7JjD_u1
+}
+!procedure AmazonGameLift($id, $name="Amazon Game Lift", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/GameTech/AmazonGameLift', $name, $tech)
+!endprocedure
+!procedure AmazonGameLiftCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonGameLiftMd>', 'GameTech', $funcName, $content)
+!endprocedure
+!procedure AmazonGameLiftGroup($id, $name='Amazon Game Lift', $tech='')
+  IconGroup($id, 'GameTechFamily', '<$AmazonGameLiftLg>', $name, $tech)
+!endprocedure
+@enduml

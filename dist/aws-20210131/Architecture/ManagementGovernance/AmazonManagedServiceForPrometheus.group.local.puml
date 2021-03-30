@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonManagedServiceForPrometheus element
+include('aws-20210131/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus')
+AmazonManagedServiceForPrometheusGroup('amazon_managed_service_for_prometheus', 'Amazon Managed Service For Prometheus', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudFormationStackMd [14x14/16z] JOxL0GG0248jmFqdFhn-7tPG-2E1wZT5eEDB3IRhJRgrCkJPhQ7R86qSllR8i_s-8hso5h-edGdY6MVeg4K4jc9mcSQPCdgWeGH8725EH7NRLCK3
+sprite $AwsCloudFormationStackLg [20x20/16z] {
+ZOs50GDH24Dno7N_UNlk-hvY2Sa9ab_MZcn4YWxKzrpZ1ngXc72VVyJ8mGqUyuzdFStKMUyb9qiEQcgcaHdzQmhXd32RFi5StLCQGwH3m08MpYXXbehe0emU
+7ZceX_VtPUvgbb5LiEmUf0q1qmKj
+}
+!procedure AwsCloudFormationStack($id, $name="Aws Cloud Formation Stack", $tech="")
+  IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsCloudFormationStack', $name, $tech)
+!endprocedure
+!procedure AwsCloudFormationStackCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudFormationStackMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudFormationStackGroup($id, $name='Aws Cloud Formation Stack', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationStackLg>', $name, $tech)
+!endprocedure
+@enduml

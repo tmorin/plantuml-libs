@@ -1,0 +1,13 @@
+@startuml
+sprite $AmazonManagedBlockchainBlockchainMd [14x14/16z] Oo0NC38oWWW8WvcDZHKAsDYOcLbPu80LWuTGoSh4mCW0CmK8oGK
+sprite $AmazonManagedBlockchainBlockchainLg [20x20/16z] pOl75G11249z0j_-Azu9zxsFMKAz500Zan1DW6g4FQD4UnhH3HrRkwFTpHychWlE3A8B4jfdMcTIByK2
+!procedure AmazonManagedBlockchainBlockchain($id, $name="Amazon Managed Blockchain Blockchain", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Blockchain/AmazonManagedBlockchainBlockchain', $name, $tech)
+!endprocedure
+!procedure AmazonManagedBlockchainBlockchainCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonManagedBlockchainBlockchainMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+!procedure AmazonManagedBlockchainBlockchainGroup($id, $name='Amazon Managed Blockchain Blockchain', $tech='')
+  IconGroup($id, 'BlockchainFamily', '<$AmazonManagedBlockchainBlockchainLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTrustedAdvisorMd [14x14/16z] HSV50GG120Im4nYZ_thN9RzufmD9-_qr0JoQBQmDzYOEckX-HtRxdBWFF1OINGtuNFMc86l69QEjF_V56NGisxD9h3ZdSlAv_LTN
+sprite $AwsTrustedAdvisorLg [20x20/16z] {
+PSt7OGGn34FH2qaGKF_z6egsT__aDmfSzGqpVkEpvyyCbRYe9SYOrKPDLARHPwyqKHL0TUGpsVBJzCRn6OWiL7bSyLWdrnw9mBNXzvm5TCsmP8vjuz1W1DKP
+JR-1x34aG586HHJTC4wdnudICOjZBpXcl3txn6MV-WC
+}
+!procedure AwsTrustedAdvisor($id, $name="Aws Trusted Advisor", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsTrustedAdvisor', $name, $tech)
+!endprocedure
+!procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTrustedAdvisorMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsTrustedAdvisorGroup($id, $name='Aws Trusted Advisor', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorLg>', $name, $tech)
+!endprocedure
+@enduml

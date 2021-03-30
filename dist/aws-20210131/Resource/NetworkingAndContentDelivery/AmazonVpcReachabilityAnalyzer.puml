@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonVpcReachabilityAnalyzerMd [14x14/16z] HOtL0KDH34AZyFQVk0tNpbS4iIYtIn1qCLkXIGmiCoTwov2ZlIQOSF9lAuaowSviIjxvkN-L2fqeO9VYfOmBUsaeQfUpKIeGR6xJu1Ns0m
+sprite $AmazonVpcReachabilityAnalyzerLg [20x20/16z] {
+PP054e1030Chbrx2yF_luiwERxrc7lQbgSlVofK9UkpimUnjZ44yKAvIY5vNMMmooBARfFrvEA_olVXMgj8gYLq4iFO40VPTbGh2uWJ4hi1dxOxYdd4F_yEq
+cs9VqrFnK07P9daonDZwNdUzYiZyVxEh_IQccyq
+}
+!procedure AmazonVpcReachabilityAnalyzer($id, $name="Amazon Vpc Reachability Analyzer", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer', $name, $tech)
+!endprocedure
+!procedure AmazonVpcReachabilityAnalyzerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonVpcReachabilityAnalyzerMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AmazonVpcReachabilityAnalyzerGroup($id, $name='Amazon Vpc Reachability Analyzer', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcReachabilityAnalyzerLg>', $name, $tech)
+!endprocedure
+@enduml

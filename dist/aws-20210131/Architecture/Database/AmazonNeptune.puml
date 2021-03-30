@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonNeptuneMd [14x14/16z] BOe75aCn3C8wl83S_xmbxbUcdanYcOLy_35Kci7VulOErxKoQREA9GnOgCH8KHx9P2JWXgv6HjAcy1bBhMLNLNPqNojAmZU-IUYmBfCjuEWSqPaN_nSkFm
+sprite $AmazonNeptuneLg [20x20/16z] {
+HSm5bWKX34JHEV5KcFrlznTjl5Ok0g3VwebsyDYZ-tKix2g9hxdN7gN6WpHv3Z33PshcxcRgpv4piE76B1JNUVPbYjc17AfSod-nI2wClvgKkCqwd7LOQE6n
+jOOLD9IoRSGRWAjgQh_hqipSDLggwrvd_mkxCdKHR5lkZTaaeL6qVNowCUzM7m2zY7o0ORXRX2VWs8D7Vm
+}
+!procedure AmazonNeptune($id, $name="Amazon Neptune", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Database/AmazonNeptune', $name, $tech)
+!endprocedure
+!procedure AmazonNeptuneCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonNeptuneMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonNeptuneGroup($id, $name='Amazon Neptune', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonNeptuneLg>', $name, $tech)
+!endprocedure
+@enduml

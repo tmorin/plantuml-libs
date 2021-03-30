@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsMd [14x14/16z] HSU74S8040F1KpBqNp43EEn7yUNMd7pKpY6-zBqA_pXzrqiQeAhMQsM2f3t0eWOd6zv-IKEGpWDelZjE-Lf8oFXhquQBMl6azriyT8OF
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsLg [20x20/16z] {
+VSe5bWKm24FH5w19__utF8TnlnMKLweINtHinyq7fm0gvaqEQyGniCQiUXpmm8fOAHSAgqrFKm_VNIo0CzovZVHQxTzaFye3Cy3-DxTGsiCEeGm25CP4B1Ui
+az26LG6G48g0rH6S0qhpfd8q8wVWGzTCDLzezyHNkJTyb_2V9m
+}
+!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="Amazon Simple Storage Service General Access Points", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceGeneralAccessPointsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceGeneralAccessPointsMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceGeneralAccessPointsGroup($id, $name='Amazon Simple Storage Service General Access Points', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGeneralAccessPointsLg>', $name, $tech)
+!endprocedure
+@enduml

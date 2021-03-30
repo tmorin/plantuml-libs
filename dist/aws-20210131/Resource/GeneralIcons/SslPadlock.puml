@@ -1,0 +1,19 @@
+@startuml
+sprite $SslPadlockMd [14x14/16z] {
+BOU50SC0408FNjFzzsqK1oomGGQqMpLJjOTWJ8OTYVSMn4m26tJ0Y04tP56_kaGcj5btQ_7Sejc35kDA6AeP4NM_lIgE-sdDTQwBLdWw1MIF0PpRlMduaCc3
+4m
+}
+sprite $SslPadlockLg [20x20/16z] {
+RP07WW0X20CdB2ZW__zx9zTBTcsJMFbVgmNKhLLxa7TqvWa_cHqLW1q3Ty7KEWzqlAVVEy-1bTDhKpl0ta0zm0hmEx8U8sO_irLwDyX0fogpyXXF0cfX1R6O
+PTfWBoxpgXWMUMF3L6t3Q3t5CDQ6l2pTXhNqkDJ3dichPjygNV_UnVacdw5bxH20V5SP8yNkb5whi9yFsqlyahuYBm
+}
+!procedure SslPadlock($id, $name="Ssl Padlock", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GeneralIcons/SslPadlock', $name, $tech)
+!endprocedure
+!procedure SslPadlockCard($id, $funcName="", $content="")
+  IconCard($id, '<$SslPadlockMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure SslPadlockGroup($id, $name='Ssl Padlock', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$SslPadlockLg>', $name, $tech)
+!endprocedure
+@enduml

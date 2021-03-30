@@ -1,0 +1,16 @@
+@startuml
+!procedure GroupAvailabilityZone($id, $name='Group Availability Zone', $tech='')
+  IconGroup($id, 'GroupAvailabilityZone', '<$Lg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupAvailabilityZone>> {
+  StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_LIGHT_BLUE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $AWS_COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

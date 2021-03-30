@@ -31,6 +31,7 @@ The available packages:
 
 - [aws-20200430](dist/aws-20200430/README.md)
 - [aws-20200911](dist/aws-20200911/README.md)
+- [aws-20210131](dist/aws-20210131/README.md)
 - [azure-v2](dist/azure-v2/README.md)
 - [c4model](dist/c4model/README.md)
 - [eventstorming](dist/eventstorming/README.md)

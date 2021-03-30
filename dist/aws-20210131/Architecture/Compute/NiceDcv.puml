@@ -1,0 +1,16 @@
+@startuml
+sprite $NiceDcvMd [14x14/16z] BSg92GHH409HcAzMvn_nRX_5-KGWbssQ74VeFJT75bcs1FHl53NGbnJL0lUtAZRnKz9w-gGUQ85Sb4RTdtd02aa1QBItq_47
+sprite $NiceDcvLg [20x20/16z] {
+TSm7aiKW30JHMesavludtg6C_7CxyWYuVgeSNv0BdtoCZeWS7AfkwU1bAhhzVh8M67tNRPLiD2dyNi0Q0scRqUQtgp3PZ6bRT5eufaATYjmo9lt901qSMt0E
+B8tjeetx5BYDA93OZIs3aginA-l5Hd_RFm
+}
+!procedure NiceDcv($id, $name="Nice Dcv", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/NiceDcv', $name, $tech)
+!endprocedure
+!procedure NiceDcvCard($id, $funcName="", $content="")
+  IconCard($id, '<$NiceDcvMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure NiceDcvGroup($id, $name='Nice Dcv', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$NiceDcvLg>', $name, $tech)
+!endprocedure
+@enduml

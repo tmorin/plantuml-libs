@@ -1,0 +1,16 @@
+@startuml
+sprite $ServerlessMd [14x14/16z] JSpL0SCm54FH7y63_VUj5PTky9W0ugy-LR8DHcz75tqrqqrHcOo6DItsbMIsmMZBIyWjzLNMZH-TZoe7LRGxgK_HV1aTFqL_0Iy
+sprite $ServerlessLg [20x20/16z] {
+VT25ZGGn40LHwHhh-_AFTsLOXXf-mmxpbomyQvMttBt5gNTvx2xL-UiwTHOF9b1ukCE3AMEkBBcPC0HYuh6omfnojuHf0zVeloXliDhMETIa2vInJSuObH58
+NfJFu_RmGB4sspHl7PAerh6PJcpxVoPjEnrlzsBL3sCLzbPS
+}
+!procedure Serverless($id, $name="Serverless", $tech="")
+  IconElement($id, 'aws-20210131/Category/Serverless', $name, $tech)
+!endprocedure
+!procedure ServerlessCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServerlessMd>', 'Serverless', $funcName, $content)
+!endprocedure
+!procedure ServerlessGroup($id, $name='Serverless', $tech='')
+  IconGroup($id, 'ServerlessFamily', '<$ServerlessLg>', $name, $tech)
+!endprocedure
+@enduml

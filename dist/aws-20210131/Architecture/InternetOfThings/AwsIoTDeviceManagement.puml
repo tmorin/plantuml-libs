@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTDeviceManagementMd [14x14/16z] JSU73SCm40Gm8BegxxzlNaubAjlcvgEd_MsOrFnUE01djeE8eg5uRxiBM39VurgF1J7PEv8cfZgpPIpJF2ijKg9cKwaLq-JQ8sHwNDFRU_zz0W
+sprite $AwsIoTDeviceManagementLg [20x20/16z] {
+RSm7RaL124DH1Pl1PlQ_tw1NK_vLFnHFkgipVq1VUFbhiWjOGthtH5HnzBLJie1ZiOUGBfIONh4qrYrsWyaCTQQaCRFhAoCOC1ypI134olHbIWK255ypciZm
+ojTsfX2hmhSrLg_ZeohgiavKJo8rfDtJDY4HrPwqTnzwIFje7tXqo6KlllOFlm4
+}
+!procedure AwsIoTDeviceManagement($id, $name="Aws Io T Device Management", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/InternetOfThings/AwsIoTDeviceManagement', $name, $tech)
+!endprocedure
+!procedure AwsIoTDeviceManagementCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTDeviceManagementMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTDeviceManagementGroup($id, $name='Aws Io T Device Management', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTDeviceManagementLg>', $name, $tech)
+!endprocedure
+@enduml

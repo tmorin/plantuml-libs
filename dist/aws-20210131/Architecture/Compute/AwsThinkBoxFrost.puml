@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsThinkBoxFrostMd [14x14/16z] LSg53GCm34HHDKVPVs93-GUVv2H-9Ib_p4OiLqQdOGCa-XoDpCFkWTPDg0O8jsuB8xvqD9ClGIF2yUrCW4v64taptLVP_f02
+sprite $AwsThinkBoxFrostLg [20x20/16z] {
+RSy54WH134BH0jAGlV-5Tzn_-MjDfkopCPKFp0TcozBOSPDXmZjkHw4fZDD4ou0rgDr8gQjQ93pLcJ8eKfXaiKuNRIQqgI_BOfq4B5BSpqwHqg_g9nAxbLmX
+NEVPxXWb5UmaasqOClkWlHN9dRK-sobl-Txt1m
+}
+!procedure AwsThinkBoxFrost($id, $name="Aws Think Box Frost", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsThinkBoxFrost', $name, $tech)
+!endprocedure
+!procedure AwsThinkBoxFrostCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsThinkBoxFrostMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsThinkBoxFrostGroup($id, $name='Aws Think Box Frost', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsThinkBoxFrostLg>', $name, $tech)
+!endprocedure
+@enduml

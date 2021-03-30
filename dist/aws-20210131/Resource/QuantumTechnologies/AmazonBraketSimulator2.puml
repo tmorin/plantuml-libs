@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonBraketSimulator2Md [14x14/16z] NOx70GC13CA4BIxxJvpUzN85W90hX3iTTvq-6fyKqh9N0cqOfvsuE4HpJC9X3Uk6EdhQLrUsRgAH0QDXn3fzgBH4NmvKZwxQ_sI_gIy
+sprite $AmazonBraketSimulator2Lg [20x20/16z] {
+RP05OaH124CV44BlV-7AbFMVSOtmZzZk3WdVkqLtJ6otpyPFc02g3H4it0LgKpweioSWZ3CDOO43OiPedEUXmpEnz_x82TU3mz0bXV58eDsJXBxgmH7dBTaF
+ZdBKuKZk7FIqoTMoFjACdSy-G2xMcouokChgEjEhx7y
+}
+!procedure AmazonBraketSimulator2($id, $name="Amazon Braket Simulator2", $tech="")
+  IconElement($id, 'aws-20210131/Resource/QuantumTechnologies/AmazonBraketSimulator2', $name, $tech)
+!endprocedure
+!procedure AmazonBraketSimulator2Card($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonBraketSimulator2Md>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+!procedure AmazonBraketSimulator2Group($id, $name='Amazon Braket Simulator2', $tech='')
+  IconGroup($id, 'QuantumTechnologiesFamily', '<$AmazonBraketSimulator2Lg>', $name, $tech)
+!endprocedure
+@enduml

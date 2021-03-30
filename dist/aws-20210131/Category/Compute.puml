@@ -1,0 +1,16 @@
+@startuml
+sprite $ComputeMd [14x14/16z] LSUt0S1030EnGZpA-o_ipmaTT0d94vMKcPxw71rZ0GY5tMTLh46crFUDmPe5siFWkLf94Swssc6icNiL
+sprite $ComputeLg [20x20/16z] {
+PSs7aSKm24NHMLv0st_37qOuN-TZ1O6l85Axoq2lt7agrkrROsw3I4Au6MFtXx6LY6DwG6D64fr37cCaUcGP3XFAgZBQ-bfgvdxjs8C9tSPDWR6r60YWRYnl
+-syq9HgvBTjovJJME1KjaqhVafhmIJy
+}
+!procedure Compute($id, $name="Compute", $tech="")
+  IconElement($id, 'aws-20210131/Category/Compute', $name, $tech)
+!endprocedure
+!procedure ComputeCard($id, $funcName="", $content="")
+  IconCard($id, '<$ComputeMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure ComputeGroup($id, $name='Compute', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$ComputeLg>', $name, $tech)
+!endprocedure
+@enduml

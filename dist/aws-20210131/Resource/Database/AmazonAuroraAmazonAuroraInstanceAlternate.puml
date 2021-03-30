@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonAuroraAmazonAuroraInstanceAlternateMd [14x14/16z] ZOx50S0m24N9D_QVkEwdlWWk1L-WqE19mnoZ3cYZ5v8ilsnIahryNArQk3CJsPQvMdGwRaN5J-P_2ysBndlh6G
+sprite $AmazonAuroraAmazonAuroraInstanceAlternateLg [20x20/16z] {
+jP3L0O0m34JZTsN_VN6dlpoenHCHjGSouuqFceiC9Wzi4ATOF8IqMLQqWaT6PWGs6Ld0yYS0wYeBJu-eBC_msEnUR7QrtbLKRpcY4lDNWKD6WiWaejeXC_Km
+rL1rFsGF_f1zPkMjEzEPp-md
+}
+!procedure AmazonAuroraAmazonAuroraInstanceAlternate($id, $name="Amazon Aurora Amazon Aurora Instance Alternate", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Database/AmazonAuroraAmazonAuroraInstanceAlternate', $name, $tech)
+!endprocedure
+!procedure AmazonAuroraAmazonAuroraInstanceAlternateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonAuroraAmazonAuroraInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonAuroraAmazonAuroraInstanceAlternateGroup($id, $name='Amazon Aurora Amazon Aurora Instance Alternate', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonAuroraAmazonAuroraInstanceAlternateLg>', $name, $tech)
+!endprocedure
+@enduml

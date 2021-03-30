@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveMd [14x14/16z] 5Oo70G0n20AL4d__YHykFNhCp98ICGKs2L1M2czAoNFFGg6E-QaMk5KzmStGjfOBdNU_X2ahtxT3Jcbw_g7UDWkzv8NtiE-nUPdVvsXlPsJmZhYhKm4DmCuF
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveLg [20x20/16z] {
+JOvL5aGX34Ch97dC_XSyzA3teownYKU4soN03M9EKCttT58LizbBgcgAzmwh1a94Aq2H6BKsJ6GhCcPgoNLeFaATZrdptxpBigxpaMacs43-F8K-pEbB-rWr
+f5s2-zF5Ozv6MGoMtUCE2Jxj5aFrBa3zcsB8iAY9c7OA48m4pORX-z6F_GC
+}
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchive($id, $name="Amazon Simple Storage Service S3 Glacier Deep Archive", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveGroup($id, $name='Amazon Simple Storage Service S3 Glacier Deep Archive', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,19 @@
+@startuml
+sprite $DeveloperToolsMd [14x14/16z] {
+JSo5eKCn20NGBt2Dj_-y9VNu2TBLNU_HSRn3bhYAT0XQApSOuxzu50XMezghCHhOGwj9XbsWhTMC292nZzWH0kJ8jH5to4ViqGhCwXfbbeoxhsiza-pgxr5r
+0m
+}
+sprite $DeveloperToolsLg [20x20/16z] {
+PT05biD040FHjzkIcfpxNpT3uJ9_yz3mbH4AVwGLWUWQvQD83HiI1zqZOjjQ3wBznRwk2vMMMGxAjAqTBLL1e77Rl5bmHmNXwK0EwuAe2Z3oOKCfWwBos4nX
+Idit9yVI6xSvlJEqSTdL49pHt7ZCvUoQAFMsI_zSdoGWQrjtLlV4DI10tQvPduRl4Jd5Ig3zn3i
+}
+!procedure DeveloperTools($id, $name="Developer Tools", $tech="")
+  IconElement($id, 'aws-20210131/Category/DeveloperTools', $name, $tech)
+!endprocedure
+!procedure DeveloperToolsCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeveloperToolsMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+!procedure DeveloperToolsGroup($id, $name='Developer Tools', $tech='')
+  IconGroup($id, 'DeveloperToolsFamily', '<$DeveloperToolsLg>', $name, $tech)
+!endprocedure
+@enduml

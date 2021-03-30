@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTransferFamilyAwsFtpsMd [14x14/16z] JSU5SGC030D0iQ_xBrmA6VLubV5HMTzeVmpqfmZUq9CAQ0RA0ehYEepEK6VPOvFzA01ky9Vw4ASQJ_tGU4WI2JrqMcxz4UyunCKym271dxMCRm
+sprite $AwsTransferFamilyAwsFtpsLg [20x20/16z] {
+XSg5bSL034DHIGOvwR_WzPzbVidGFSQ_UVYLfkBwWauWPf7QUEWk8Ay1x7PFhaaZJ6YD06ZNOr8mS8nRC6kDmuV9uosFrOoEOQDwhOIEDylRGlZc1qCz3WS-
+sY8dyTbGT-2hRH-j8ZigMVbc6ihgRXEjjJ0uPCEDy9dBkKeDzYhASGa0HH0ucyx_1
+}
+!procedure AwsTransferFamilyAwsFtps($id, $name="Aws Transfer Family Aws Ftps", $tech="")
+  IconElement($id, 'aws-20210131/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtps', $name, $tech)
+!endprocedure
+!procedure AwsTransferFamilyAwsFtpsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTransferFamilyAwsFtpsMd>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsTransferFamilyAwsFtpsGroup($id, $name='Aws Transfer Family Aws Ftps', $tech='')
+  IconGroup($id, 'MigrationAndTransferFamily', '<$AwsTransferFamilyAwsFtpsLg>', $name, $tech)
+!endprocedure
+@enduml

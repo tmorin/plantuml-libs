@@ -2,6 +2,7 @@
 set -ex
 node bin/glib.js --pn aws-20200430 $@
 node bin/glib.js --pn aws-20200911 $@
+node bin/glib.js --pn aws-20210131 $@
 node bin/glib.js --pn azure-v2 $@
 node bin/glib.js --pn c4model $@
 node bin/glib.js --pn eventstorming $@

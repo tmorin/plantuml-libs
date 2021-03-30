@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonManagedServiceForPrometheusMd [14x14/16z] LSnL0aKX24NH5t3A-O_tTkulbmfUqXQN_AAtMDoOzMpyUdkDWn_1-dDX4lN_RvHsPQ0Sdq8rYZwa0afUEBQVw6tvfaYKryPONPr32xTUsZW3
+sprite $AmazonManagedServiceForPrometheusLg [20x20/16z] {
+RSY5bGKm24JHiq47-kztO_FzHRdO9OiLVY28v6NCnOX5KnFWO2rqJVWGzTpLBCMi9MEeWLOcge8KSTfgMY9Z4WsLQklDfrMusYo0fzc82F-R1jf4DPCeREnZ
+a7HPjB0lQgLTGnziJVEdRUmGmTCMCjetzW_y1m
+}
+!procedure AmazonManagedServiceForPrometheus($id, $name="Amazon Managed Service For Prometheus", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AmazonManagedServiceForPrometheus', $name, $tech)
+!endprocedure
+!procedure AmazonManagedServiceForPrometheusCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonManagedServiceForPrometheusMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AmazonManagedServiceForPrometheusGroup($id, $name='Amazon Managed Service For Prometheus', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AmazonManagedServiceForPrometheusLg>', $name, $tech)
+!endprocedure
+@enduml

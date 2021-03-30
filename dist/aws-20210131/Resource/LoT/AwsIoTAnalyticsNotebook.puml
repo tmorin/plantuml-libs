@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTAnalyticsNotebookMd [14x14/16z] RSx50S0m30J1rOdwhpZCyRniCIXE0ihbAtc1sZao2RRyRCNvktDhfLPsvjpzqISNSEUUlzNefzUFSksyU5yz0m
+sprite $AwsIoTAnalyticsNotebookLg [20x20/16z] {
+RP255SH024G7f_-ARuMpm4_My3S0Y7yXR3pyXsGiWl63yzuoPSLU-DhWFSvoUQMWYWW1r2vbqnNtpANGppnHSH8hWvZEw2XR-h8jfjnhd7lKB7tcx74-Qz3h
+zRYkwQJz2m
+}
+!procedure AwsIoTAnalyticsNotebook($id, $name="Aws Io T Analytics Notebook", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/AwsIoTAnalyticsNotebook', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsNotebookCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsNotebookMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsNotebookGroup($id, $name='Aws Io T Analytics Notebook', $tech='')
+  IconGroup($id, 'LoTFamily', '<$AwsIoTAnalyticsNotebookLg>', $name, $tech)
+!endprocedure
+@enduml

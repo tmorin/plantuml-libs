@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonLookoutForVisionMd [14x14/16z] JStL0GGW30FG3nffsN_VQyw3FjI94cxQ_UTk5L1frAesCWugGXsQeTIZuYcKMT8ClTi0_9P1aFsKEGi8y6hWiHehhnhvzKJthaLGyYfCkZiAW_01
+sprite $AmazonLookoutForVisionLg [20x20/16z] {
+RSq7bWGn30BHDmO9qDp_lcjjJjNvjuFVqrkzvJ-B4ttzUBEOf8fW5qflnjkZ-ihfixZ3wXITf66Kf1rNHKGjypnqcyI714YKJNfjp4mzxh0Z2pjkfcj27LJp
+Xo5yDR-RELCL6OhWQpTaGXRQh_luqbFSdUIWkFPSBCuMf9crhL5I4u1stFDrP9einScdNTrRjhNLJzYkVU8dlm
+}
+!procedure AmazonLookoutForVision($id, $name="Amazon Lookout For Vision", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MachineLearning/AmazonLookoutForVision', $name, $tech)
+!endprocedure
+!procedure AmazonLookoutForVisionCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonLookoutForVisionMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AmazonLookoutForVisionGroup($id, $name='Amazon Lookout For Vision', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AmazonLookoutForVisionLg>', $name, $tech)
+!endprocedure
+@enduml

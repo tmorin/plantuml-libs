@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2C6GInstanceMd [14x14/16z] POw50S1020CJEFPVkQdRlU0YoNA8s9YYcvhTu22c9z_EZ5MS5YL3H4KHM4tKgGXQiHo5tJ9e6pRHtbq-4vxJVvkzjbu
+sprite $AmazonEc2C6GInstanceLg [20x20/16z] {
+bP050e1G24E9RTp_n7QtJt_HO2C-RGk0QTacI2-VjicjjA7w04dP1Z6xO4SPkjttCk-ZLITBMC07MPKFTe07tJp3DETWVo0ON7DqPoBPoTOS3dYYExJcc0Z4
+ccE3VlLndC5vLaypFSw-1G
+}
+!procedure AmazonEc2C6GInstance($id, $name="Amazon Ec2 C6 G Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2C6GInstance', $name, $tech)
+!endprocedure
+!procedure AmazonEc2C6GInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2C6GInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2C6GInstanceGroup($id, $name='Amazon Ec2 C6 G Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2C6GInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+sprite $InternetMd [14x14/16z] XOfL0WD124CV1CZkpFtFMvU_5etnfoBZIzhZUPFoGwbyC3zYqqSyhJvl3nr2HkSvE8aZMw0cHe560xVjVIOMxUdkyOmRY7Xkyhkk
+sprite $InternetLg [20x20/16z] {
+jOp50G9134MZc_mTwRzSnh0xnFNHFqGJ2FaQ-MtC8z1RvEQP-3RNvonzPwjnNsTs3zAm6VXU1GD4qUT1JlGiC4BScEbUf23190dOpemWYWqO2ruBWjBDPtPX
+0VYUL5DLi4gs5FNR9omppGrGKMGe_LmU
+}
+!procedure GroupCloud($id, $name='Group Cloud', $tech='')
+  IconGroup($id, 'GroupCloud', '<$InternetLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupCloud>> {
+  StereotypeFontColor $AWS_COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

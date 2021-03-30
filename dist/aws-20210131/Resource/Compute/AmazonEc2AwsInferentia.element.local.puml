@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonEc2AwsInferentia element
+include('aws-20210131/Resource/Compute/AmazonEc2AwsInferentia')
+AmazonEc2AwsInferentia('amazon_ec_2_aws_inferentia', 'Amazon Ec2 Aws Inferentia', 'an optional tech field')
+@enduml

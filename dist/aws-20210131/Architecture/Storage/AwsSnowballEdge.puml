@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSnowballEdgeMd [14x14/16z] FSUv0KG120BHG43nzz_lobuJpRFdKoUd-HGrcG15-DUzXao0m_g8b0XYPXUIB_r5DW55jpgmw9DG1P14jFQu2oNFi_lirMpRJ_vJzAFJ2m
+sprite $AwsSnowballEdgeLg [20x20/16z] {
+TSg7ZGCn44DHGEJ4xR_Vez8bst-Z7bWgRx7xPBiVdmVkC1_FPJ22GGO0mzwHT68Cm4b4HhSikzpTiX8_Hb3DeIoFQP9PjDzM-bPx_3BGB99WM1whYl0OD8wi
+RKvt3uSBkQnfLAOhODXMlae4jPKzmaVD_I1GLQdJhhhJecPpygDzx0Sbnrxn2m
+}
+!procedure AwsSnowballEdge($id, $name="Aws Snowball Edge", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Storage/AwsSnowballEdge', $name, $tech)
+!endprocedure
+!procedure AwsSnowballEdgeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSnowballEdgeMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AwsSnowballEdgeGroup($id, $name='Aws Snowball Edge', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AwsSnowballEdgeLg>', $name, $tech)
+!endprocedure
+@enduml

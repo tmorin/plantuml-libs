@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElementalConductorMd [14x14/16z] RSf13WD024BHf0BV-v-uex6xlXq0vFY1THcidnZAIwu4b3HCSdQJv_v9kcFdvUUbWMHWj_bqLPdPc4AtRQncOY_2wlClVG4
+sprite $AwsElementalConductorLg [20x20/16z] {
+RSm74aGX28FXCP64-vzumP7j_wj-5bTwAwh_zkfgM-ptf3Ri4yzhXLH6orsV9LmJvF804MFrQ8AaB0FP3xfZwU8kPhMoiEy0s0UDIGeeDnGnnhs9J2sISjcD
+5A9FrfYTUycdiMQcBxvCdlBL7_CVU-a3
+}
+!procedure AwsElementalConductor($id, $name="Aws Elemental Conductor", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MediaServices/AwsElementalConductor', $name, $tech)
+!endprocedure
+!procedure AwsElementalConductorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElementalConductorMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+!procedure AwsElementalConductorGroup($id, $name='Aws Elemental Conductor', $tech='')
+  IconGroup($id, 'MediaServicesFamily', '<$AwsElementalConductorLg>', $name, $tech)
+!endprocedure
+@enduml

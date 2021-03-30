@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsBatchMd [14x14/16z] LSh55G1120FGGup-6ruPL-2_aCJZICh5D09gRAA2bZQ9v9GT8MagWIRqDrUH0FY_Nu7A-5kwGdX8f45gRChrPrHI_QIVklW2
+sprite $AwsBatchLg [20x20/16z] {
+RSq7SaGn28FXCKByvFuNJXYUqtRb_ha1rA_uAxn17kGNyiGHkdWjZF91DXLWySUG7FvbtK0UtwyQI7blurphL8OTKaqtrYqx8zH78MAj8WKwdYuP6smQDPIe
+DP-XoFcysBkgw4ohPlPg3jYxgaQQkogW9n_JqRDYxOQRVeEV
+}
+!procedure AwsBatch($id, $name="Aws Batch", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsBatch', $name, $tech)
+!endprocedure
+!procedure AwsBatchCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsBatchMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsBatchGroup($id, $name='Aws Batch', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsBatchLg>', $name, $tech)
+!endprocedure
+@enduml

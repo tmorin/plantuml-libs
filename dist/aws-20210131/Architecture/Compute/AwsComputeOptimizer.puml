@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsComputeOptimizerMd [14x14/16z] HSU73S0m5491oJp0-q-SdtwgrpOFs-t_UnRcx3bMGElykOaRdQirWOXaTrcHxUWS8K0ujr4i39rDcnZBFMTi4Mis8jUGTl_whRS3
+sprite $AwsComputeOptimizerLg [20x20/16z] {
+RSxLOKGX54NHSFIc_uB77aHdu-kBjisF_AZ_y5ZJ7jpM00uFlaWV2WHIBtmHfKebeMrZLu_Q2jiAX3RfYa-R5l9IfI01dZO5ivgbePjZOs6e8iMnEFKINICl
+cu3xEs1wsQTTZMmMI5ysvZGcEsDi6sEPeXwXlMnAUc9RQJjVzTgt7JpD6xm3
+}
+!procedure AwsComputeOptimizer($id, $name="Aws Compute Optimizer", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsComputeOptimizer', $name, $tech)
+!endprocedure
+!procedure AwsComputeOptimizerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsComputeOptimizerMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsComputeOptimizerGroup($id, $name='Aws Compute Optimizer', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsComputeOptimizerLg>', $name, $tech)
+!endprocedure
+@enduml

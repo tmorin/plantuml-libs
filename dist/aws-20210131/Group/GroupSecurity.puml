@@ -1,0 +1,16 @@
+@startuml
+!procedure GroupSecurity($id, $name='Group Security', $tech='')
+  IconGroup($id, 'GroupSecurity', '<$Lg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupSecurity>> {
+  StereotypeFontColor $AWS_COLOR_RED
+  BorderThickness 1
+  BorderColor $AWS_COLOR_RED
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_RED
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElasticFileSystemOneZoneStandardMd [14x14/16z] DSS50W0W30901ipu_uDjbnnsyHp5HHUWTBdClQxM1Xs0p2GGB2fof0pQuhbAmYe4a7KTKrVKaOcDmDToCS97JhFMI5jRIWImi6GLSvKoac59thKk9W
+sprite $AmazonElasticFileSystemOneZoneStandardLg [20x20/16z] {
+POm9TaGX4081cyR9_G-Sf_spJhcNFF0NwkUwSq-tysMrGm3LMWeUN6VlrNlvEwZvgIWSPRjGO0ZxPk3MseXEOQPZHVTKoYy237fAvoGRQcrFvqVEmHptwklO
+wzk1-ERR3TQRusqG7-UaaEfrRXeNdIsx4Ap6E3kunAd9gKeOQe41TxVTmxab0FKFuXC
+}
+!procedure AmazonElasticFileSystemOneZoneStandard($id, $name="Amazon Elastic File System One Zone Standard", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneStandard', $name, $tech)
+!endprocedure
+!procedure AmazonElasticFileSystemOneZoneStandardCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticFileSystemOneZoneStandardMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticFileSystemOneZoneStandardGroup($id, $name='Amazon Elastic File System One Zone Standard', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonElasticFileSystemOneZoneStandardLg>', $name, $tech)
+!endprocedure
+@enduml

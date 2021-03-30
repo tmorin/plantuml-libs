@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIdentityAccessManagementAwsStsAlternateMd [14x14/16z] DSU75GC020BH4r1VzXyutSw7T2VlqmOyKdOjRxqLDCaKyzCIQKxZXpYn0lT9czuwKJ6SVdMA7FjaoygfKiLVe_XJshT8vptlDRm
+sprite $AwsIdentityAccessManagementAwsStsAlternateLg [20x20/16z] {
+VSv70aCX28JXeG-v_u4Zfh7Alr3vNWMWfgeswqamUPEiYQU-M35hPDhil6iUqqvtSam_HaSPAfOfWN8ebraf7mRP9WqzPzk6oZcrVStdXnZPSrW63HTiM_sn
+0DmrqjotbK839TZFfab0KfTPgFYiRwl0YZQhDLSjc4HNGqy
+}
+!procedure AwsIdentityAccessManagementAwsStsAlternate($id, $name="Aws Identity Access Management Aws Sts Alternate", $tech="")
+  IconElement($id, 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsStsAlternate', $name, $tech)
+!endprocedure
+!procedure AwsIdentityAccessManagementAwsStsAlternateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIdentityAccessManagementAwsStsAlternateMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsIdentityAccessManagementAwsStsAlternateGroup($id, $name='Aws Identity Access Management Aws Sts Alternate', $tech='')
+  IconGroup($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAwsStsAlternateLg>', $name, $tech)
+!endprocedure
+@enduml

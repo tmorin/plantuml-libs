@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonVirtualPrivateCloud element
+include('aws-20210131/Architecture/NetworkingContent/AmazonVirtualPrivateCloud')
+AmazonVirtualPrivateCloud('amazon_virtual_private_cloud', 'Amazon Virtual Private Cloud', 'an optional tech field')
+@enduml

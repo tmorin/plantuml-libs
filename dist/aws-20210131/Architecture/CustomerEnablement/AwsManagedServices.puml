@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsManagedServicesMd [14x14/16z] HSjP0eGX20BWXmGK__kVTzBPQFrAxThanaD_xI5lXgD4Iegi5H80nL4J0XdohUrMNf2Orkv-14w1LYe24SXLeR9u3ZngYy8vT3szSKl-oxFy3DUJ5m
+sprite $AwsManagedServicesLg [20x20/16z] {
+RSi7KWKn38DXY4iaUUz_NfpjmFlJlvb8uXNEz05ruDeUEqAu1_WszmJ2aezPbY942vvM6UKZUjAmi1fDC6PYWAksYYzwHgmbhgfAq80JFWtVyx0kdTOJ69T9
+706upPawZLOCitGpWmwhQToaSdVBomhk6MbkxfTrd9Dv_jtgJeLKn-r6IRsjjWSFEEmV_W
+}
+!procedure AwsManagedServices($id, $name="Aws Managed Services", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/CustomerEnablement/AwsManagedServices', $name, $tech)
+!endprocedure
+!procedure AwsManagedServicesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsManagedServicesMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+!procedure AwsManagedServicesGroup($id, $name='Aws Managed Services', $tech='')
+  IconGroup($id, 'CustomerEnablementFamily', '<$AwsManagedServicesLg>', $name, $tech)
+!endprocedure
+@enduml

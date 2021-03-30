@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEmrHdfsClusterMd [14x14/16z] POx50KH124CXnf_flzzrttT2azGTcVMY1qU_EaojwLUJ3U-W9Ncgh6dQ8OT8rd9yrT8IghVHj-wuT-oFIyLtbNwel1oe7Vou_oTxfJu3
+sprite $AmazonEmrHdfsClusterLg [20x20/16z] {
+RP1LOaL1348PRWJIxd-xxNETyna5y83amZjhfFaeKe3Yk-R9jrMDxMMHZoadIe3LGyIPz050cGQQ_AdkSW5C_Sg0IE54AArQqRQyRhL9uaHV5BxND7pM558n
+RxkN7rF0Ulp0yQ8bybBRQTvvUyzbSf_LFjDTzly
+}
+!procedure AmazonEmrHdfsCluster($id, $name="Amazon Emr Hdfs Cluster", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Analytics/AmazonEmrHdfsCluster', $name, $tech)
+!endprocedure
+!procedure AmazonEmrHdfsClusterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEmrHdfsClusterMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AmazonEmrHdfsClusterGroup($id, $name='Amazon Emr Hdfs Cluster', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AmazonEmrHdfsClusterLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2MacInstanceMd [14x14/16z] NOxL0KC130A17FkFt3wt-uiWaYmloDfec27T1mwMqQqEMYkS4v4XoMmJrf1s1iHedHBeDXcqPmhUBf-4T_gxsRlr7m
+sprite $AmazonEc2MacInstanceLg [20x20/16z] {
+bP250O0m30J_e-o_CExMzg0MJx30TTinG-pRYZkJwxQwPPp8AO1wu4Iu0dQNJI5vbN6AbW7b-A-oJCvsQUX45ECVMmuV4N5p7Zb6WPgvsoc70gDKgNRaE3Xo
+d6KDVJndy9pLzqoViny
+}
+!procedure AmazonEc2MacInstance($id, $name="Amazon Ec2 Mac Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2MacInstance', $name, $tech)
+!endprocedure
+!procedure AmazonEc2MacInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2MacInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2MacInstanceGroup($id, $name='Amazon Ec2 Mac Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2MacInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

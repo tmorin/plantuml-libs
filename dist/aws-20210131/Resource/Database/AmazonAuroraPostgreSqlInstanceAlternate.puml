@@ -1,0 +1,13 @@
+@startuml
+sprite $AmazonAuroraPostgreSqlInstanceAlternateMd [14x14/16z] jSV95O1G548nFd3FwxzYP-t0xABmiJpEmsEgsreAJ0kb9wZir7PSY3xvPPvynZ8VQmS
+sprite $AmazonAuroraPostgreSqlInstanceAlternateLg [20x20/16z] rP3NWSGW5CGqmJRGVxztcsC5AtX9dmEANuY0hl76B5hY3IyoU4h9CEpPBKwTf4csgyjsPk_khTbzSWCigxsCpIUNmGLnv-du8QVbhwpe_CeKv3S4_m
+!procedure AmazonAuroraPostgreSqlInstanceAlternate($id, $name="Amazon Aurora Postgre Sql Instance Alternate", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Database/AmazonAuroraPostgreSqlInstanceAlternate', $name, $tech)
+!endprocedure
+!procedure AmazonAuroraPostgreSqlInstanceAlternateCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonAuroraPostgreSqlInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonAuroraPostgreSqlInstanceAlternateGroup($id, $name='Amazon Aurora Postgre Sql Instance Alternate', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceAlternateLg>', $name, $tech)
+!endprocedure
+@enduml

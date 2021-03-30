@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonAuroraMySqlInstanceMd [14x14/16z] LKu50WGW29ihzFyFlaww6PGF2HgIekvs62qHekusOSwqJUUHKQwI-9u9M0HWoxvdTshjhNTs6k-yio5NFjbkix-P_df99Xezg957BzI6RE8A
+sprite $AmazonAuroraMySqlInstanceLg [20x20/16z] {
+LP07WWCX30DbkSdi_V-xbvx0q8Tkm9mRRW1owM05R1aExi859ns8i78I45qejJo6bLNnTYcbYjtC_hWWlIAAqow-t8DyrWJmSo_Le-copN65cUNiBgvqZ_hZ
+xXHInnpkrJtTDQEPQtVPe1FoOrtGcCUwK4gAuHOh7tk-aeYb5-FnlCC16DyOOCzDDm
+}
+!procedure AmazonAuroraMySqlInstance($id, $name="Amazon Aurora My Sql Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Database/AmazonAuroraMySqlInstance', $name, $tech)
+!endprocedure
+!procedure AmazonAuroraMySqlInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonAuroraMySqlInstanceMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonAuroraMySqlInstanceGroup($id, $name='Amazon Aurora My Sql Instance', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonAuroraMySqlInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

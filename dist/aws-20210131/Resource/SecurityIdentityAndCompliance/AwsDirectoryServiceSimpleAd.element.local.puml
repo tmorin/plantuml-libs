@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AwsDirectoryServiceSimpleAd element
+include('aws-20210131/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceSimpleAd')
+AwsDirectoryServiceSimpleAd('aws_directory_service_simple_ad', 'Aws Directory Service Simple Ad', 'an optional tech field')
+@enduml

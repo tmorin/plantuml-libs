@@ -1,0 +1,19 @@
+@startuml
+sprite $AwsGlueDataBrewMd [14x14/16z] {
+LOw70GGW20CX947tN_ZHxsUXbw0-S8m4QW0WYbKP0xGuOR0PQB5BGYwOpW0v1XQYqROtZnuXIgurLdAkx3wn36_8PCsdYa33TOUGigTq_ZrwPSO5Ab69EW0f
+_c_z
+}
+sprite $AwsGlueDataBrewLg [20x20/16z] {
+RT05RW1134FHRoUxSKRg_OzRvlO91uBWNmJvQH8g_9Bog4lmIfx3L4rb4W6QdJpKb0DIdy9xWPjK1U_AgpNGxTZpScVkKS_jCnjZKmKEUs-7nDerBvPeElgu
+IqpqUaVUOpV3zEoftOqze3dgQv6GIJcyk9PxUFLw9tK2tDlgaAhfpHGlFDcFsRwf8VvlL-GFKFqYdW
+}
+!procedure AwsGlueDataBrew($id, $name="Aws Glue Data Brew", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Analytics/AwsGlueDataBrew', $name, $tech)
+!endprocedure
+!procedure AwsGlueDataBrewCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsGlueDataBrewMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsGlueDataBrewGroup($id, $name='Aws Glue Data Brew', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsGlueDataBrewLg>', $name, $tech)
+!endprocedure
+@enduml

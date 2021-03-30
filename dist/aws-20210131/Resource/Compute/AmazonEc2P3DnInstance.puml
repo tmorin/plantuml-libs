@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2P3DnInstanceMd [14x14/16z] LOw50G1H28LuYlkFV9tyi0C8sI0SJDbjpMbuCP0PBcP2oOL5bAk3XdPlihtOx5R5TdSGvKB_NVXF-4__R_RVUWK
+sprite $AmazonEc2P3DnInstanceLg [20x20/16z] {
+bP250KKX24NXXkm_yS_NxR6bYJyvR1DIj6aRiBDos0QpQWlgwu1kiQ2P4Th-VLtc-Y-_tchzLvK_FJ6507vwGmmB0YngZj4Gb61gZe589eZ4LOprNqST-nxi
+UtNUqttltm
+}
+!procedure AmazonEc2P3DnInstance($id, $name="Amazon Ec2 P3 Dn Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2P3DnInstance', $name, $tech)
+!endprocedure
+!procedure AmazonEc2P3DnInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2P3DnInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2P3DnInstanceGroup($id, $name='Amazon Ec2 P3 Dn Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2P3DnInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

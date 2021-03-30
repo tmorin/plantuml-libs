@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsElasticBeanstalkMd [14x14/16z] LSUt0G012CImuWnc_uK_HtLI-r9L_kglUmYSLGibN4iRckmRoWuAtJDO0UpiQyYcKsuRhGJRthO3TzUypA_pwme
+sprite $AwsElasticBeanstalkLg [20x20/16z] {
+RSY74GC120F1UIHqz5-nSKw_avUL3xquIKwIbrS-BfBwjVSgfwlvF3MGe_Hn1LtkkCWQjip85QAwtzW3EGp1Ocz66LSh3lJZMiXoIKI-tsOVrafjxTsrAyLw
+trA9czSnOhZRU-1jJd9ESaxo0W
+}
+!procedure AwsElasticBeanstalk($id, $name="Aws Elastic Beanstalk", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsElasticBeanstalk', $name, $tech)
+!endprocedure
+!procedure AwsElasticBeanstalkCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsElasticBeanstalkMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsElasticBeanstalkGroup($id, $name='Aws Elastic Beanstalk', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsElasticBeanstalkLg>', $name, $tech)
+!endprocedure
+@enduml

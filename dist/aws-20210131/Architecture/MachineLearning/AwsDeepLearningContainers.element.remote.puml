@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AwsDeepLearningContainers element
+include('aws-20210131/Architecture/MachineLearning/AwsDeepLearningContainers')
+AwsDeepLearningContainers('aws_deep_learning_containers', 'Aws Deep Learning Containers', 'an optional tech field')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonEventBridgeDefaultEventBus element
+include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus')
+AmazonEventBridgeDefaultEventBusGroup('amazon_event_bridge_default_event_bus', 'Amazon Event Bridge Default Event Bus', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

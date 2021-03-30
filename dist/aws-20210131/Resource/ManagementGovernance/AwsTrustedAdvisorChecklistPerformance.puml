@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsTrustedAdvisorChecklistPerformanceMd [14x14/16z] DOp70S102CCmM5pPVz_qwESgC1SLDo3oOZpAnhAhVnMgobUHuRZuifvNqFwooWYfo9Gk9IurQCQocSesztGRIueaN6sowVk47cx7WqPHDNur0G_YnJVe1
+sprite $AwsTrustedAdvisorChecklistPerformanceLg [20x20/16z] {
+NSv70aGn209G13EIpFtF-tj_xkpWBR3ZiAkyg5vdpe24bUwSDCZK4bUkyY-qPVvtvmm2trcWvJUNhSTtdvPzMPzzrwkApRqlXdU3TFjrPFrahCecYuDWYdlE
+evF6BWnaiCFYg5qwrcLD5gWDwKmfLINWccsqcih4dKigCcJTkNMnbnZ4XTeHCm
+}
+!procedure AwsTrustedAdvisorChecklistPerformance($id, $name="Aws Trusted Advisor Checklist Performance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistPerformance', $name, $tech)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistPerformanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsTrustedAdvisorChecklistPerformanceMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsTrustedAdvisorChecklistPerformanceGroup($id, $name='Aws Trusted Advisor Checklist Performance', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistPerformanceLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AwsStorageGatewayTapeGateway element
+include('aws-20210131/Resource/Storage/AwsStorageGatewayTapeGateway')
+AwsStorageGatewayTapeGatewayGroup('aws_storage_gateway_tape_gateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

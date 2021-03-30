@@ -1,0 +1,16 @@
+@startuml
+sprite $IoTDesiredStateMd [14x14/16z] FKg54S1028CO-s_SjoiQgmRukglKVt5rBKNcUW0sItSQ3HpFIuYKvQtQREs08qqEs-c5dESHyzZp99lqE0F4IMPosKY9FNlH8a5gBLtL0DZOLVK1
+sprite $IoTDesiredStateLg [20x20/16z] {
+NP09ZaL12081HRt_YSVk-Jinf59lwGK01H427mL4gkajsQTgNGhVCPWNeZPniQZw1ql-HzxPM41KP6QqrDUTxpIzhXEC3-T39ZDjP-dbcfgEYEwt2o3gmBpT
+KFFh4lIderW6ijJoA4BJNNs_zO7EcLo5krfOBRUxTcfdo6xRiyOr1pi9nqOyJMqv0JXPl9LcAMCTt_SkY6l-
+}
+!procedure IoTDesiredState($id, $name="Io T Desired State", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/IoTDesiredState', $name, $tech)
+!endprocedure
+!procedure IoTDesiredStateCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTDesiredStateMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTDesiredStateGroup($id, $name='Io T Desired State', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTDesiredStateLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCertificateManagerCertificateAuthorityMd [14x14/16z] LSc74KCn3CDGs1IfxBzmVc-u-WvyKlkkvQZE5E-IhKrb0OuBa3ULeUjIf9RlbuowXUrmItFgKTOUUMrNTTRiJFWLummOB
+sprite $AwsCertificateManagerCertificateAuthorityLg [20x20/16z] {
+RSg54SGm50DHIVxez5_lCJYmmsyMLvdlCZTeUkpoAHMuhwGjwrLclNjzhpW6yQg-PftPjZDD0cojblRmy5ojXgc7QhLmtmmHgx6DiEPgO5KNiJCPQTgR9P2s
+jz6FnjxKPEjhqtuv7sHJY2K1ZC1LTm
+}
+!procedure AwsCertificateManagerCertificateAuthority($id, $name="Aws Certificate Manager Certificate Authority", $tech="")
+  IconElement($id, 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsCertificateManagerCertificateAuthority', $name, $tech)
+!endprocedure
+!procedure AwsCertificateManagerCertificateAuthorityCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCertificateManagerCertificateAuthorityMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+!procedure AwsCertificateManagerCertificateAuthorityGroup($id, $name='Aws Certificate Manager Certificate Authority', $tech='')
+  IconGroup($id, 'SecurityIdentityAndComplianceFamily', '<$AwsCertificateManagerCertificateAuthorityLg>', $name, $tech)
+!endprocedure
+@enduml

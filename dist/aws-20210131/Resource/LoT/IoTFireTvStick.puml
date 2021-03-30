@@ -1,0 +1,13 @@
+@startuml
+sprite $IoTFireTvStickMd [14x14/16z] dSct0OC040ImY-_z9pOPQb0hl40yF3sa5Q8xEevbaaeGEuBJc42S69VvMTDBYAyM
+sprite $IoTFireTvStickLg [20x20/16z] lSxL0S0m409GE2FxBrnlP86yprEm0stnb5hDL4POOI4rNZNYut7LK7RL8juh7jbhi9IkMmwEsgKV46KcB9f4QisIOskx4m
+!procedure IoTFireTvStick($id, $name="Io T Fire Tv Stick", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/IoTFireTvStick', $name, $tech)
+!endprocedure
+!procedure IoTFireTvStickCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTFireTvStickMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTFireTvStickGroup($id, $name='Io T Fire Tv Stick', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTFireTvStickLg>', $name, $tech)
+!endprocedure
+@enduml

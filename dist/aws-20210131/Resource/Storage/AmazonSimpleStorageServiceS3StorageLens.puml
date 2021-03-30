@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceS3StorageLensMd [14x14/16z] BOw5SKKX50Nt6FdzLvpX3OjS5q1E6tFHrjZf2XpnoE1yeHiyWqgth94BARpFi9tXBQoav1UW-_kvlWgNOsbG0rmDxnmkBXyJGCE7XzFn46_hVm
+sprite $AmazonSimpleStorageServiceS3StorageLensLg [20x20/16z] {
+LS67jTX0200m0GVuPVzzqyw_IQw8p0YVuiod0dexNL6zXHfyYGtggV0f-WbYUwVx_DKpqmjBP9s_AaCEJ89CK0tzz0dsLq4VvDRP3NBsX5biojc6wEtTbOFS
+STKp4x4Gwug1BNIxQY2spuxNEK2TRgyfNfkkILwr87fycJ0pU_oK6Qu_
+}
+!procedure AmazonSimpleStorageServiceS3StorageLens($id, $name="Amazon Simple Storage Service S3 Storage Lens", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3StorageLensCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceS3StorageLensMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3StorageLensGroup($id, $name='Amazon Simple Storage Service S3 Storage Lens', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3StorageLensLg>', $name, $tech)
+!endprocedure
+@enduml

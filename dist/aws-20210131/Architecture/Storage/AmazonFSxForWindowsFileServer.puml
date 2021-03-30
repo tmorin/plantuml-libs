@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonFSxForWindowsFileServerMd [14x14/16z] LSVN0SD03CFGD8d4tVxxXagryOK7s9CcJkH4JfmDU7FHwbPk627H9OrM6RUhxpNIihhzkDsZX06tedSmUH_53d-Eza5F
+sprite $AmazonFSxForWindowsFileServerLg [20x20/16z] {
+RSY54KG130BHRuH0-g_tt8yTstcwrCzuJm4LK04LK07zf0-q1HG1wgLNiz4IcgMd7Mo29gxpDZVA0BVzqCrgB0j4OST-CvTDNAXzhElMLxibMPV8rjMU-gnx
+0ax02JW19-0P
+}
+!procedure AmazonFSxForWindowsFileServer($id, $name="Amazon F Sx For Windows File Server", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer', $name, $tech)
+!endprocedure
+!procedure AmazonFSxForWindowsFileServerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonFSxForWindowsFileServerMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonFSxForWindowsFileServerGroup($id, $name='Amazon F Sx For Windows File Server', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonFSxForWindowsFileServerLg>', $name, $tech)
+!endprocedure
+@enduml

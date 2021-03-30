@@ -1,0 +1,19 @@
+@startuml
+sprite $AmazonRedshiftRa3Md [14x14/16z] {
+DOw5OKKn24N9DNZxBzn8_udWKXjvBQiUgpMZNiyw-dbRPOyhGChJj2PaDvcH4OFwFXCEQWDr2_yj8zXGRbFrzcnjVAqu6qVNOWbWyLdQ3gBaEdIsvVnMW-Gt
+uGy
+}
+sprite $AmazonRedshiftRa3Lg [20x20/16z] {
+JP25WKGn24G77vBhlzvZlpyy7d2WfgTxqLrR3_SP8xZME7l7SjTINRKJ1n7EaY90Jl08wF8T05ga9yJsfKgmo-6L0S-UqcJrCg_c_cFJRKh1XHG5NoIgkglY
+7VPEbqpnRB-6jCytOMZ5WUsuCirjrnY3PDKuvprMOse3KE-Ov8mXFcC4qYB5yNQ6fIe2CQt6pN47XyG7qK6kuXy
+}
+!procedure AmazonRedshiftRa3($id, $name="Amazon Redshift Ra3", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Analytics/AmazonRedshiftRa3', $name, $tech)
+!endprocedure
+!procedure AmazonRedshiftRa3Card($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonRedshiftRa3Md>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AmazonRedshiftRa3Group($id, $name='Amazon Redshift Ra3', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AmazonRedshiftRa3Lg>', $name, $tech)
+!endprocedure
+@enduml

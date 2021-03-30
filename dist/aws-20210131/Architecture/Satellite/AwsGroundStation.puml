@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsGroundStationMd [14x14/16z] LSj50i0W34JHoaGOUl_pDZZytOkGgUOr1bdPHHU8fo75ArQthBpxRoP5y00Utw7i40FKOfiBtmVsI5NGH5vbLMGgmaEfyAk22gEY6clVmHy
+sprite $AwsGroundStationLg [20x20/16z] {
+RSy73iGm24HH1MOCWTp_l4i4tlxLdoiHSUvyYZyOZUDZZGJWZTi0LMZZsEacObvME9QP8lTQOvOugCUXW3LcbgbZaLJldNdZ0dnHiEXZXIOgugPYCLRe00r7
+qPije-YCavrpaIiQturHVHZA6g-sK3LXDbuR8sDtDOvl-yK7
+}
+!procedure AwsGroundStation($id, $name="Aws Ground Station", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Satellite/AwsGroundStation', $name, $tech)
+!endprocedure
+!procedure AwsGroundStationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsGroundStationMd>', 'Satellite', $funcName, $content)
+!endprocedure
+!procedure AwsGroundStationGroup($id, $name='Aws Ground Station', $tech='')
+  IconGroup($id, 'SatelliteFamily', '<$AwsGroundStationLg>', $name, $tech)
+!endprocedure
+@enduml

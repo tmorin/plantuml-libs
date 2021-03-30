@@ -1,0 +1,16 @@
+@startuml
+sprite $StorageMd [14x14/16z] LSS7WeCm44FHtKJ5mlU_RqI7xpBpy2uPezTDO19Bsho9ChxbBid-iWINLLqFBM6fQe15LMENfj39KvQyQtQiUTSSNfEpgIqj2RY7rky7
+sprite $StorageLg [20x20/16z] {
+PT07RW1124DHQR6nONB_ysQdfNvLdgm60tyAWfBoAv88kElacPo0rfblYoG6D7S06S_PNREi21tpCa6A9_oMMDOGiyeuTdPyoszxewLCeRui4U0Rdc0TexkI
+J9TmRD13aHdPhzMqyLgR9DQkjAt663tpjlTE97VWiMxRsjMsZt7hjshjN_acoGp6l_W9
+}
+!procedure Storage($id, $name="Storage", $tech="")
+  IconElement($id, 'aws-20210131/Category/Storage', $name, $tech)
+!endprocedure
+!procedure StorageCard($id, $funcName="", $content="")
+  IconCard($id, '<$StorageMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure StorageGroup($id, $name='Storage', $tech='')
+  IconGroup($id, 'StorageFamily', '<$StorageLg>', $name, $tech)
+!endprocedure
+@enduml

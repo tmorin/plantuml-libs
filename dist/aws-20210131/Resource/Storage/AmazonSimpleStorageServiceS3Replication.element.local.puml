@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonSimpleStorageServiceS3Replication element
+include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3Replication')
+AmazonSimpleStorageServiceS3Replication('amazon_simple_storage_service_s_3_replication', 'Amazon Simple Storage Service S3 Replication', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $IoTMqttProtocolMd [14x14/16z] hSV70SKm5CEmPuho_Xl_aZP1SCFWWw4yYim3NzmwWVoojTQTSnpqN0HMGe5DQgY34XEDwmi
+sprite $IoTMqttProtocolLg [20x20/16z] rSY70GCn2CLGwUC3xxzmUjyWpnM1-IAmfhzCuSWNnpG_Ed_Ip4lnQBjVjeys8Y76phCTwwYgvSgxhGkhA3kEjnRqKAH3JNVVhfxRlGMJO5xa3
+!procedure IoTMqttProtocol($id, $name="Io T Mqtt Protocol", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/IoTMqttProtocol', $name, $tech)
+!endprocedure
+!procedure IoTMqttProtocolCard($id, $funcName="", $content="")
+  IconCard($id, '<$IoTMqttProtocolMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure IoTMqttProtocolGroup($id, $name='Io T Mqtt Protocol', $tech='')
+  IconGroup($id, 'LoTFamily', '<$IoTMqttProtocolLg>', $name, $tech)
+!endprocedure
+@enduml

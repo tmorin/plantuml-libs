@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCostAndUsageReportMd [14x14/16z] HSc5ZS004CJ0XyLB__M6mSAHsrpvg7ryoVxOuXyo2Exis95K_UwS8IXJmdyo8qe6h5DsQ3d68GB_8grJIHLFX_TJG1B9ibYTQVRQPM-kshxeqGO
+sprite $AwsCostAndUsageReportLg [20x20/16z] {
+HSxHUe0H38FXPzgqITp__GxppmTuZsZ5h_xhsKET7brZ7JtRPvc14h4gFiCGOjaFDbfMsI6KnHYvq7PbSndOp1WaRKMD60OGsOZUvaugLCXKHV2OoavtYHAl
+9G83EmBNaEZHjMBLDVTqpgffsSVkNrmGLq5nJaUDX1cvYjGoJwQcRzhDtNj-vl-UNNtu2m
+}
+!procedure AwsCostAndUsageReport($id, $name="Aws Cost And Usage Report", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/AwsCostManagement/AwsCostAndUsageReport', $name, $tech)
+!endprocedure
+!procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCostAndUsageReportMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+!procedure AwsCostAndUsageReportGroup($id, $name='Aws Cost And Usage Report', $tech='')
+  IconGroup($id, 'AwsCostManagementFamily', '<$AwsCostAndUsageReportLg>', $name, $tech)
+!endprocedure
+@enduml

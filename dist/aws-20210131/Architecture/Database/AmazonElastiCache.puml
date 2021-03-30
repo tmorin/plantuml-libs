@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElastiCacheMd [14x14/16z] BSVRWODG20N0tUIyGFklDt1r_gQxLXvzrB6phCSEn6idK0DWvMefEukfMGGBqza5MWc5RyqaquR9tNNdh7ismfYPr7rgkyVirUj-sySF
+sprite $AmazonElastiCacheLg [20x20/16z] {
+TT1BTWGX34FHqqQo9M3_wqsvAP9H7lyxPCxfczx-iPk_7LF-nJmsaYHw0enZp84CCeYHSDiYIAfA14RRMXE62qzbQCZNGdR5Ov3TDgaWWIZw6bDSzcGbXjjM
+V5AHLVmyCuvP5fGfb4fjtLQKLA4rvxKb55cebciUicluVCL-aI2R6lUBtsEUzi4hrox-wWy
+}
+!procedure AmazonElastiCache($id, $name="Amazon Elasti Cache", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Database/AmazonElastiCache', $name, $tech)
+!endprocedure
+!procedure AmazonElastiCacheCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElastiCacheMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonElastiCacheGroup($id, $name='Amazon Elasti Cache', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonElastiCacheLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSupportMd [14x14/16z] DScn3GHH2CJGX04yRF_r7aB_d3tPvkhBItmyBLC9JwMYrYVLERKSvtIEse8JQk44JY5HVoNZY4WpKygv7Qm65HqAcM_ccqvGSdfv-nvz_G
+sprite $AwsSupportLg [20x20/16z] {
+RSY73GCm30D1m19LIEy_RnIdbqVz8zcFwXx_86z8DfzuY2otwEbfQbYCvfkDi8j7xpQYD7SoLrnHeejjJO0CTFSngY2MZmK7Zv6UxJM6Xud2ijNgx8TH0QaA
+PkYxRPf8fGKCl9g0o34Qt65zJ6LEIOx9UEnePDG2LexjOrlXfOONoTvRTnKrSTftVFpTVl02
+}
+!procedure AwsSupport($id, $name="Aws Support", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/CustomerEnablement/AwsSupport', $name, $tech)
+!endprocedure
+!procedure AwsSupportCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSupportMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+!procedure AwsSupportGroup($id, $name='Aws Support', $tech='')
+  IconGroup($id, 'CustomerEnablementFamily', '<$AwsSupportLg>', $name, $tech)
+!endprocedure
+@enduml

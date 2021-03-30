@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsDataExchangeMd [14x14/16z] DSsvbKGn24HHHzJsyyzt2ixqitIruKqNoP-yh98rk4pOC7WeAs16rEFAR7a4JkWXvQVg4oGE1pwLdfkbhv8zxwsh4T4pdD93EcrrtVfVQSS_
+sprite $AwsDataExchangeLg [20x20/16z] {
+RSu7ZWH124DHgQ4mDlU_xzBjpJDV2RsATFqLDhv1la5zsogD4YLnguZ0Wmiddmw92pRrNO4e8MZJoK0s-mB3-rnHIBRj-y8YTwBD1oeR9_hBShgcixBy-T4m
+TK6T1Fh1cRL1gQiomLjjeq7UHTeKVbTqQuiUfL_cj5b_mDbUyGC
+}
+!procedure AwsDataExchange($id, $name="Aws Data Exchange", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Analytics/AwsDataExchange', $name, $tech)
+!endprocedure
+!procedure AwsDataExchangeCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsDataExchangeMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsDataExchangeGroup($id, $name='Aws Data Exchange', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsDataExchangeLg>', $name, $tech)
+!endprocedure
+@enduml

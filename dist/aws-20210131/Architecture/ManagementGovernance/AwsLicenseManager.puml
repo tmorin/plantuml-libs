@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsLicenseManagerMd [14x14/16z] HSrB4aGn24BHwbA1uFxts-RzSaUS4Mkd7QSZtM9cLc3Jowp2gX-7jtA29Di4PjShCGB4keN83DngCYFoKe-aJEcH2fML-xgxlLGr-zQuRR_oTFCF
+sprite $AwsLicenseManagerLg [20x20/16z] {
+PSW73WGn20D0NMmWXl__zrAqVTH7Ip_493ttkduvZY01jDYPwvmCgVrsviXak7i46lgK8vDE4g3pSJRske5TGOOwT9sY0IsUHnZ1ntK018BNCNsU2zBOMYTn
+f4JDh975dXPX2cYgaUKq0Z3OSIEhpDqgyxYHmn77LHwE--GV
+}
+!procedure AwsLicenseManager($id, $name="Aws License Manager", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsLicenseManager', $name, $tech)
+!endprocedure
+!procedure AwsLicenseManagerCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsLicenseManagerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsLicenseManagerGroup($id, $name='Aws License Manager', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsLicenseManagerLg>', $name, $tech)
+!endprocedure
+@enduml

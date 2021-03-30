@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonIoTSailboatMd [14x14/16z] LKq74i0m2CA2-V-Jos4wufu04fzGuh-ZqEyabwMkQPqknvMM0hJazhs4b2AXAxOlVUKKeEsL8kSHSjXfWLnIudIfZiiR
+sprite $AmazonIoTSailboatLg [20x20/16z] {
+TL07ZWH0249XvFylljkTleqq8oq1YC0xcgstLnZmnw-_gvJdAJk1IBa27-09xhtPDVlPDDeJW7F-U9pfe-imWUBbpI5Y7MzEKTJH8Goe0GvWRv3ZIlm0xOjB
+csi3YXHxd6DkrJhwwNZRL7OxlTSY_m
+}
+!procedure AmazonIoTSailboat($id, $name="Amazon Io T Sailboat", $tech="")
+  IconElement($id, 'aws-20210131/Resource/LoT/AmazonIoTSailboat', $name, $tech)
+!endprocedure
+!procedure AmazonIoTSailboatCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonIoTSailboatMd>', 'LoT', $funcName, $content)
+!endprocedure
+!procedure AmazonIoTSailboatGroup($id, $name='Amazon Io T Sailboat', $tech='')
+  IconGroup($id, 'LoTFamily', '<$AmazonIoTSailboatLg>', $name, $tech)
+!endprocedure
+@enduml

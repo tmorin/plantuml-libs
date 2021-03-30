@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsGlobalAcceleratorMd [14x14/16z] DST14iH020B0gX5KyV__tM6JzAtdwaTLUT-VTG8iLwC60W5NKYB00tWQa4mmwXsUpPr8W46qjvKu4SpfNbqPXsExsZn0GDxLbQnwPh9l-lO3
+sprite $AwsGlobalAcceleratorLg [20x20/16z] {
+JS-50GCn34FHrfBimFxxrWt_utUKr5dPHVRQQDZLkh1DSMPQJxQ1f00ICR0bDeh6-4BOre8o-s-WwZ995H7o8Cinm4GOy9WYBqJdjkvf9a4Yz_SgzGM9tFdV
+-dWm0cQcu9XHJyoA8wdE-i3o4Sq_tfObTa5ZUlMngYeMnNrkr4QFjTFxt8i_
+}
+!procedure AwsGlobalAccelerator($id, $name="Aws Global Accelerator", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/NetworkingContent/AwsGlobalAccelerator', $name, $tech)
+!endprocedure
+!procedure AwsGlobalAcceleratorCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsGlobalAcceleratorMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+!procedure AwsGlobalAcceleratorGroup($id, $name='Aws Global Accelerator', $tech='')
+  IconGroup($id, 'NetworkingContentFamily', '<$AwsGlobalAcceleratorLg>', $name, $tech)
+!endprocedure
+@enduml

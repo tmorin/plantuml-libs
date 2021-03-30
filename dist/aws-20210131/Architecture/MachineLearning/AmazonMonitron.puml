@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonMonitronMd [14x14/16z] HSh90GL1407Glr15J_xv3gTsUr2ppII-h1mFmB8YC372J11IRBJsaki_sVCv9BHT_nNIOlKdgZxH_oWop1aekqv7p0AKz8GMcS5Hs2AfaiiN
+sprite $AmazonMonitronLg [20x20/16z] {
+PSY9aGGn24FHAajWYSu_tmNsdla-UVhgVfQJzL_N_8yMtQaNka__D0S2rk7XuXAJqVMpE8Ph8W9Kdh6oAqZEFQ_6ocIo91mnWBNA1DB9VX1dpKYI4Ube2uqL
+cL7dICLBI6ELhStk1-h6U2jQIUkCFLLFKj4bC_1fWxZmWo2zzemE0sN_skIlraR_STixVW
+}
+!procedure AmazonMonitron($id, $name="Amazon Monitron", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MachineLearning/AmazonMonitron', $name, $tech)
+!endprocedure
+!procedure AmazonMonitronCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonMonitronMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure AmazonMonitronGroup($id, $name='Amazon Monitron', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$AmazonMonitronLg>', $name, $tech)
+!endprocedure
+@enduml

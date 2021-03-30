@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsProtonMd [14x14/16z] HSot0S1034BHHe32_liQETtl7XVAvPrS7TuYzBCBOBxdwiuWmOXbEz0pwnM3IG57icerK5hxKK_1En5bJeEgxgvjHgWvcZRSgyNB2m
+sprite $AwsProtonLg [20x20/16z] {
+VSs54GCn44FHYPSigVzwanpp_U4d0yRwKWtX1d630BFv4KaOFOc-8KbtGnIteoHHLhs5XxN51ZKWCzqs0-kJqxYTevTdHKIQuSKqtXL9O3PDVrGOHXl6ieuM
+4TOmegHmOmuZvYIQeaGIcwaiEBMPA1vGOpoWRl07
+}
+!procedure AwsProton($id, $name="Aws Proton", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsProton', $name, $tech)
+!endprocedure
+!procedure AwsProtonCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsProtonMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsProtonGroup($id, $name='Aws Proton', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsProtonLg>', $name, $tech)
+!endprocedure
+@enduml

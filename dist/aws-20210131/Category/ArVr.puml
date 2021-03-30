@@ -1,0 +1,16 @@
+@startuml
+sprite $ArVrMd [14x14/16z] JSg54GD044BHo0fm_VSRYF_JDxDLNN-HH5fNpG_nriUHTb9F9DpzTVU5jPkvnOnr5aU0jCDeXUxbFANnIr-0TOuINQH__MZzLVK
+sprite $ArVrLg [20x20/16z] {
+PT053WGX40NHPAcMt-pzhplkLFpXMEDJCppM_0x8qbuUEKIz95RBj-LfrtATLcMSNOPbxC5kFNzcvynVQ3VljIQfp0-psWwMKlXZdbfJFUOXYGYKIIX0lG8Z
+gXnm7TQNQa-7zRhXibjF-w_uy8JGMZx_ojgGpG
+}
+!procedure ArVr($id, $name="Ar Vr", $tech="")
+  IconElement($id, 'aws-20210131/Category/ArVr', $name, $tech)
+!endprocedure
+!procedure ArVrCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArVrMd>', 'ArVr', $funcName, $content)
+!endprocedure
+!procedure ArVrGroup($id, $name='Ar Vr', $tech='')
+  IconGroup($id, 'ArVrFamily', '<$ArVrLg>', $name, $tech)
+!endprocedure
+@enduml

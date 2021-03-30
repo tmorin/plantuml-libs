@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceBucketMd [14x14/16z] LOw55ODG54EZqFqdxWbKxvVd0e1sOc6ejIMd0NZWJGAUZOPp1YYTxD86kgHgcLfiIkkvvXbCpmTXuuQ70ELjvVqDNLPnSvUaleRF-x_r4m
+sprite $AmazonSimpleStorageServiceBucketLg [20x20/16z] {
+LP073iKm24FBi5tft_--FuXclJQB3KzZxcxFni49l2sej6aTLDsPpqcePF8p3ai6GaGMe4WCMOxD8ulmuLkou1Ue3rHuRvd_EYvhDyqwn64hr4Ds98LUJEj9
+lYmPugflPje4vh79dEORTY3JAVFln9eLj898BAGptJtxFm
+}
+!procedure AmazonSimpleStorageServiceBucket($id, $name="Amazon Simple Storage Service Bucket", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceBucket', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceBucketCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceBucketMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceBucketGroup($id, $name='Amazon Simple Storage Service Bucket', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceBucketLg>', $name, $tech)
+!endprocedure
+@enduml

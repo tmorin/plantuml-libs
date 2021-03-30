@@ -1,0 +1,19 @@
+@startuml
+sprite $AmazonCloudfrontFunctionsMd [14x14/16z] {
+LKu70WCn2495Oll_1vUpcqn6ehYGtOaN6CCwu98-4cj6kfpZJTF0iHjcRPW5Oih4Re8Jld5yJIli9aBLYcLE9e7IGKsiix-MmhP2PZaXRlLRsRkxv0LYoDdE
+_hj-
+}
+sprite $AmazonCloudfrontFunctionsLg [20x20/16z] {
+NT2veKKn2CHG3TWmNFTVxr_Vhl24ubRyn7kwx2EULSa3RgguaNlshBMkqwuR0T3j9VZ7QW3DTW1T01eW9giJ607o1bL23B0jubZKD40la4-4WOdP0Qi1d7-s
+PkSqyiqkYvL0MGto5SY55q3QnRO0NNG2X9SP0PIf3S2Un7MpR01MrSqezza2dJEkbrS6jwe-dbxYlSWCRdq3
+}
+!procedure AmazonCloudfrontFunctions($id, $name="Amazon Cloudfront Functions", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudfrontFunctions', $name, $tech)
+!endprocedure
+!procedure AmazonCloudfrontFunctionsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonCloudfrontFunctionsMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AmazonCloudfrontFunctionsGroup($id, $name='Amazon Cloudfront Functions', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudfrontFunctionsLg>', $name, $tech)
+!endprocedure
+@enduml

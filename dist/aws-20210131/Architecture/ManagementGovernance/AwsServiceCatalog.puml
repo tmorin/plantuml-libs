@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsServiceCatalogMd [14x14/16z] HSc73GD024DHARWSiF--yQLQzVbtTbvp5doFhqJIbvEVjWo5Cu9Te8ldN1s2E7Z9DkgHg6W3ebXYfpLLO97kiubobdHrIL2TxQQsUEQZvAp_-le9
+sprite $AwsServiceCatalogLg [20x20/16z] {
+PSbRWiKW28FXKKWWkF_z3gV5f_xUF_MKj_Yb3uvD5-yJRawzM0qb629eblfXbOg42fxFLsDLl_gvd7-KkOtH8ytT8CEOTXnQ05PXyLhYk74lO2kWCMt7Nev5
+ZfMdXmU8ddpjWDpRlLUOsavrbg8gA0irdiOZOxbbzg7kF5W4OY5BOusjRbbDOurlkZOuZNtn7m
+}
+!procedure AwsServiceCatalog($id, $name="Aws Service Catalog", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsServiceCatalog', $name, $tech)
+!endprocedure
+!procedure AwsServiceCatalogCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsServiceCatalogMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsServiceCatalogGroup($id, $name='Aws Service Catalog', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsServiceCatalogLg>', $name, $tech)
+!endprocedure
+@enduml

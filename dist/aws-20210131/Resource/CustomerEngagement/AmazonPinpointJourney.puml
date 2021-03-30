@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonPinpointJourneyMd [14x14/16z] NKw50G9027ou0Dr_OC5Mkhcp57c-oCLF4aL_zVBoCugE6Obd9XLGDIbjb4hUJ29bJBbnmd1VCH_IetAczqDFPNiKTUpzAK6OVJxmqFP-6lsZ6m
+sprite $AmazonPinpointJourneyLg [20x20/16z] {
+XSr7Oi0m24JHJn4CSkv_tHJBc_ItfCpmEvUCBoQN-6AR3r_ale9lnlacv_jXpHJOx7Dl4SOOb_hAc7FHaetK4IKLqC8CTIw0lO0KFRhAxvmGW6A9Vdbo-ZuU
+aqUxR00_hV9gg791pYGdJzBSNnCd3pNkr02nTt3hgPgpD-FXkPn_l04
+}
+!procedure AmazonPinpointJourney($id, $name="Amazon Pinpoint Journey", $tech="")
+  IconElement($id, 'aws-20210131/Resource/CustomerEngagement/AmazonPinpointJourney', $name, $tech)
+!endprocedure
+!procedure AmazonPinpointJourneyCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonPinpointJourneyMd>', 'CustomerEngagement', $funcName, $content)
+!endprocedure
+!procedure AmazonPinpointJourneyGroup($id, $name='Amazon Pinpoint Journey', $tech='')
+  IconGroup($id, 'CustomerEngagementFamily', '<$AmazonPinpointJourneyLg>', $name, $tech)
+!endprocedure
+@enduml

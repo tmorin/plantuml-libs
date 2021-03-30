@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceS3ReplicationMd [14x14/16z] HSc5ZGG108LGletqN_39Aj4N0CaMpx8rxVh00VxNKVqhY_MN6noTrgCUg2nTksOm1iJWljLZUZnL0EvvcohcKGrfyjG0al8LhB6pyinf8k0N
+sprite $AmazonSimpleStorageServiceS3ReplicationLg [20x20/16z] {
+RP055iGm448x1jdxNtZ9r8Lg_cDq-LPaWGGg3a9ak9bv5BsH3PiVbpaJQIkZ6uZA276sbU6CCxbHLZq3IhYIg24ZV64NRY6dhtBYKzIJDR4KrGrWVMMVSZ1r
+d3x34jXg5gj-rGcCvvnZp25WmeVMeU72PrbhEmr-Pu9-RkbC7VGD0MSv41BLuLNclbVw0m
+}
+!procedure AmazonSimpleStorageServiceS3Replication($id, $name="Amazon Simple Storage Service S3 Replication", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3Replication', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3ReplicationCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceS3ReplicationMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3ReplicationGroup($id, $name='Amazon Simple Storage Service S3 Replication', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ReplicationLg>', $name, $tech)
+!endprocedure
+@enduml

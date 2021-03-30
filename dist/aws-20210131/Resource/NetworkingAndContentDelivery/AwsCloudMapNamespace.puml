@@ -1,0 +1,19 @@
+@startuml
+sprite $AwsCloudMapNamespaceMd [14x14/16z] {
+DKs9ZKHH248HCDj_mUlxoNYV05G3pVF2DOcqvycr9cprDZhFCACM2ceu4rvNMGCJiYBBNiBcijL-NHiqv9wfb4ZtkyGvPwV_tWJq37Qah_l8QXrvGhk0wvbr
+MFX94v_y0m
+}
+sprite $AwsCloudMapNamespaceLg [20x20/16z] {
+NSs7aGGm24FHBun1UA__UcysXpUHA9uaFkoJe1b1dirLJjXzwJXjnoIW4r2zcja1SGIJmDxHJDpFeElQgqTlhIXWnZvvlPNSRG6zaSXhhwlS1dgw7N7nYQuE
+EuY99HSAuRJBq0bhfEfYbs8NCkmHQ-A82KqgJ0svbfaWxUmLlhR-DlOz40S-RE_YAGro3rawFkB-6zHJKz4uiwS5LrhbqrocblYGCyalYQT_
+}
+!procedure AwsCloudMapNamespace($id, $name="Aws Cloud Map Namespace", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace', $name, $tech)
+!endprocedure
+!procedure AwsCloudMapNamespaceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudMapNamespaceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsCloudMapNamespaceGroup($id, $name='Aws Cloud Map Namespace', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapNamespaceLg>', $name, $tech)
+!endprocedure
+@enduml

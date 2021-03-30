@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonKeyspacesMd [14x14/16z] HSk54SD050FHq2Vf-gytQrxZ6yr9izTxeeUWWWeYLuZvLn3bBmb1jb4tlz-SDXkeo62rgxkEisXLyeVc44jt5aHTOgYHaDr902wRcoHQ_D_G7m
+sprite $AmazonKeyspacesLg [20x20/16z] {
+PT25SS0m343HfhRGxlxhLZyC2hyJNJ8pZl0zyeCOyRMGJeZl27LpahJLOxDXRM_mQpUhEgdwLWQECXrkPhIXVBC-AZ9TjFsGMb-sY9g5TIDxDmqLyHxRfjWq
+_QEs3DZC5ogoL-yypCI4FPf8t6k9DDR1wAHCCuag1YSP9kilGC09SgDWZxb_GvU1J_q7
+}
+!procedure AmazonKeyspaces($id, $name="Amazon Keyspaces", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Database/AmazonKeyspaces', $name, $tech)
+!endprocedure
+!procedure AmazonKeyspacesCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonKeyspacesMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonKeyspacesGroup($id, $name='Amazon Keyspaces', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonKeyspacesLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonSimpleStorageServiceS3OneZoneIaMd [14x14/16z] JOw50GGm3089qkw_yPFtgyO1C98jOc4YaNBSmC67cdDZiSXNzOpaeX5heOIzF1lhHwczBXFBEFSE9BpWSI-_Z3dEODuMSywdQGdtvuYax4lygQxn
+sprite $AmazonSimpleStorageServiceS3OneZoneIaLg [20x20/16z] {
+PP075iGW44AL6I3P-nzuRUdOf_vdcQe0Qha4wX0n8-IiHtJA_QuiTuMxpN6lOxMTeaLc9YbBRBPi6oAx0lDPGglGRCHU2TDMVnuSwdlruWYhnPZzuPCVihQD
+C_fIpCQyyr4SHruc4SCOlDbofnRCPHErOAuMHQEypiu8QsMbh2uxi0_Qxz__0G
+}
+!procedure AmazonSimpleStorageServiceS3OneZoneIa($id, $name="Amazon Simple Storage Service S3 One Zone Ia", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3OneZoneIa', $name, $tech)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3OneZoneIaCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonSimpleStorageServiceS3OneZoneIaMd>', 'Storage', $funcName, $content)
+!endprocedure
+!procedure AmazonSimpleStorageServiceS3OneZoneIaGroup($id, $name='Amazon Simple Storage Service S3 One Zone Ia', $tech='')
+  IconGroup($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3OneZoneIaLg>', $name, $tech)
+!endprocedure
+@enduml

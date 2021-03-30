@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2C5AdInstanceMd [14x14/16z] LOw50G113C82XVr7VjUSr0KGsa0Sr9c9UngvAAZbeXKE5p5Ai0Ix9YR3s3ExibjsqkoM4YJsa_oxy9_md_xVxB_r2W
+sprite $AmazonEc2C5AdInstanceLg [20x20/16z] {
+bL250G112581tN_Yx-xdEWaRuLEtWBHSkWcIbq_TzAnoW-e_WD8sIC6CnptsR_TxtlzMkLMHLJxS4uBU7p0qSWYmaBi0XKOE1Sr2ms5eva3_Dk2WhnnsvjZk
+_V9npE2SrLEcn-nR
+}
+!procedure AmazonEc2C5AdInstance($id, $name="Amazon Ec2 C5 Ad Instance", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2C5AdInstance', $name, $tech)
+!endprocedure
+!procedure AmazonEc2C5AdInstanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2C5AdInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2C5AdInstanceGroup($id, $name='Amazon Ec2 C5 Ad Instance', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2C5AdInstanceLg>', $name, $tech)
+!endprocedure
+@enduml

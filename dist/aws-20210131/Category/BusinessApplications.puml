@@ -1,0 +1,16 @@
+@startuml
+sprite $BusinessApplicationsMd [14x14/16z] JSV50S1030EmGiY-_VTjeAIVH5G-YXJDVGPLP7EiY7HpfAcP66OkOHPdjcSvjzdgXVxdiuLJsnd8hV1avgWrfdjigFs8N
+sprite $BusinessApplicationsLg [20x20/16z] {
+PT05ae0m38NX6PedIVV-rqL2rd_ymuiLR-jh1q5hujlDhiedEztniQP2_3K_p_jjXKMko2-xunAfnVms73OW7J6sow2UXOGonoYPbDhKbg_vX-qVvhRSso05
+t0IDrH6Oul1Sf-1T6tDiP-UxodhiOtVLPLkDVMevGZDyNp6m_eKB
+}
+!procedure BusinessApplications($id, $name="Business Applications", $tech="")
+  IconElement($id, 'aws-20210131/Category/BusinessApplications', $name, $tech)
+!endprocedure
+!procedure BusinessApplicationsCard($id, $funcName="", $content="")
+  IconCard($id, '<$BusinessApplicationsMd>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+!procedure BusinessApplicationsGroup($id, $name='Business Applications', $tech='')
+  IconGroup($id, 'BusinessApplicationsFamily', '<$BusinessApplicationsLg>', $name, $tech)
+!endprocedure
+@enduml

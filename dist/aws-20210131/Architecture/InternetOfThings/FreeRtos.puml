@@ -1,0 +1,16 @@
+@startuml
+sprite $FreeRtosMd [14x14/16z] JKw53G1134hkWODs_tdVZLW5I-8Jyq3otyzvdXyV6q42v0BF55N6CiDzgtqpILYmZmsG5l3UD80XtLjn34I8gpaxPEhQ154amRYhdpP9Ub_hHCxjjsG3
+sprite $FreeRtosLg [20x20/16z] {
+VOy74iGW30CdI2P8_F-_PqY_jgaik2bf1-k67lA_EpZq-2Kuxq7TN9JSRC5nf8otqy5o0A4cCADj1wQQ4f4fftCjlLQN47Yu1YB6qVLm5IQO0Bh5YeYXT3jd
+bMKfIXU7w-wL3Ci8xR7xLFaKvd-tnHkhr7h6vNEYv18wwVTJX_iYNm
+}
+!procedure FreeRtos($id, $name="Free Rtos", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/InternetOfThings/FreeRtos', $name, $tech)
+!endprocedure
+!procedure FreeRtosCard($id, $funcName="", $content="")
+  IconCard($id, '<$FreeRtosMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure FreeRtosGroup($id, $name='Free Rtos', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$FreeRtosLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonManagedWorkflowsForApacheAirflowMd [14x14/16z] FSU7OGD124HHXqb0__sQmvB-1dZrbClsin_j4uWr0CPT7Bb2GoSXA-n8DrKR_Qj_CHP4VcHG9xatvaUL7alLHPh9D4VfNgXg9dIlYDFqz5PFivtEVm
+sprite $AmazonManagedWorkflowsForApacheAirflowLg [20x20/16z] {
+LSs74GGn24FH6IE2HF_z7kRot_pMWLkzonl_SVK5_8vQCyD95lEO6IfJeb68iG33g-eQr1xaM1WmE6Rk9wyvahQcU6qLI8C_xI1rImYdreXog_20Ey9Unh5S
+2zh_t0BDWcjx9vNNabMjJW3IsCubgrjGUqhNFCVOtIXPhSbHJoCGFLO7WAzD6fhugf_uwMlzPmy
+}
+!procedure AmazonManagedWorkflowsForApacheAirflow($id, $name="Amazon Managed Workflows For Apache Airflow", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/AppIntegration/AmazonManagedWorkflowsForApacheAirflow', $name, $tech)
+!endprocedure
+!procedure AmazonManagedWorkflowsForApacheAirflowCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonManagedWorkflowsForApacheAirflowMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+!procedure AmazonManagedWorkflowsForApacheAirflowGroup($id, $name='Amazon Managed Workflows For Apache Airflow', $tech='')
+  IconGroup($id, 'AppIntegrationFamily', '<$AmazonManagedWorkflowsForApacheAirflowLg>', $name, $tech)
+!endprocedure
+@enduml

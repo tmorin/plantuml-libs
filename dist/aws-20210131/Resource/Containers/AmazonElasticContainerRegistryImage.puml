@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonElasticContainerRegistryImageMd [14x14/16z] JOw50G0n20C95zX_uzVQLV680s7bG8QCHVvMwh2mjQtISpCj5L75QqdzXZECm7w-VdlHqC_RZfSvhtBtVB0-wrUceKncOTq
+sprite $AmazonElasticContainerRegistryImageLg [20x20/16z] {
+ZP254G11308X7xZhl-5tzntVYGB62O95rWwhC8mJZdzEYsiKPvTk2a_EWSpRkXnhlP-NZX9BdJJL0eCSwvpfIG4i7EgaeR8nHiA5h3asLiomhl-cBdy0yis_
+qjM1YripzPRfNVOT
+}
+!procedure AmazonElasticContainerRegistryImage($id, $name="Amazon Elastic Container Registry Image", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Containers/AmazonElasticContainerRegistryImage', $name, $tech)
+!endprocedure
+!procedure AmazonElasticContainerRegistryImageCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonElasticContainerRegistryImageMd>', 'Containers', $funcName, $content)
+!endprocedure
+!procedure AmazonElasticContainerRegistryImageGroup($id, $name='Amazon Elastic Container Registry Image', $tech='')
+  IconGroup($id, 'ContainersFamily', '<$AmazonElasticContainerRegistryImageLg>', $name, $tech)
+!endprocedure
+@enduml

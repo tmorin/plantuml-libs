@@ -1,0 +1,16 @@
+@startuml
+sprite $ManagementGovernanceMd [14x14/16z] JSwd0G013CD04bjEVlzvlpUnOwfI_Uhkd06bFeWDEJMeZfpID0Ofw12oZS2da8mlBG3seJwLy2e2KEVKiiGXyQKPplhKsSmSkgjpVmC
+sprite $ManagementGovernanceLg [20x20/16z] {
+PSe7aiD020NHMWC_C7l_yvfnbjILNtL5defAS8Tlmsf_qcwGBzCi8nHUdp9lMN7B_5YZN6EbmCiaG2Ge9xnjAUfPy6D4Wn9TNrCnzig3jITsikjjG6R67-hN
+LazUssXkSrHMJg6NUSqbpkUPPttOv4Gz2hsjboLnahtjVtthIPdqJkyePCMbkWC
+}
+!procedure ManagementGovernance($id, $name="Management Governance", $tech="")
+  IconElement($id, 'aws-20210131/Category/ManagementGovernance', $name, $tech)
+!endprocedure
+!procedure ManagementGovernanceCard($id, $funcName="", $content="")
+  IconCard($id, '<$ManagementGovernanceMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure ManagementGovernanceGroup($id, $name='Management Governance', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$ManagementGovernanceLg>', $name, $tech)
+!endprocedure
+@enduml

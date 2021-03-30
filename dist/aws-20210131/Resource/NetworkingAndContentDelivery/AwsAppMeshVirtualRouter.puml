@@ -1,0 +1,19 @@
+@startuml
+sprite $AwsAppMeshVirtualRouterMd [14x14/16z] {
+DOw50S0m20GF9zr_u4Pnvrba4SObBpURPYSP44kJ4qYLx4WAbHLuIuavN-Aket4BewPqoZsTojfRcGLjUwzmazGn96BkIQvpejbTAmBImTztY7BLXmnadPOL
+_G
+}
+sprite $AwsAppMeshVirtualRouterLg [20x20/16z] {
+RL076eKX24fRuFqF_E3jVr29so_R6v4PxH-nyCJwkKUzZ5Wrtgx9a0rOShwoQBa4CvqPVDObsILVfi8XI-oI_MHcs-uozGfieOlMGCNsJiwPiYBbor8PKDaC
+f7tEdPxxzjaEIgN52DTwngh-ch489tWsTuKv2p3B7trFRW3i8sH-_uOrOUQusS7jhkvtUhVx1m
+}
+!procedure AwsAppMeshVirtualRouter($id, $name="Aws App Mesh Virtual Router", $tech="")
+  IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter', $name, $tech)
+!endprocedure
+!procedure AwsAppMeshVirtualRouterCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppMeshVirtualRouterMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+!procedure AwsAppMeshVirtualRouterGroup($id, $name='Aws App Mesh Virtual Router', $tech='')
+  IconGroup($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualRouterLg>', $name, $tech)
+!endprocedure
+@enduml

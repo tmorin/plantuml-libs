@@ -1,0 +1,19 @@
+@startuml
+sprite $AmazonQuantumLedgerDatabaseMd [14x14/16z] {
+DOw73G0n20CbYWqc-y_xAVfBfLlgIrrqkUQp2A2sUIrmFybhIe4g1dJC4PeeyjRE13Co8ZowHoWtTpFpRKqqSeF4iR805aSw5beIk8rjBP54FKbhrfgDBk__
+cny
+}
+sprite $AmazonQuantumLedgerDatabaseLg [20x20/16z] {
+RSk7RGHH24LH2HwP_kirJBIzUoV-8yZCkFEh_89vT-DjRgh-uWf3HC2sU1bxRKwndKPGCrDGN5YL25LH3KHa3gvnrIwOcglQu1Z1Y7dlUVWqk824PHuG_BJE
+SuwVkI9ncrGjpFpPdH2Ispc7xdbtSUJAMYlCtGsQrs0FXiwkHkM5lJZDRjxjyUwrJ_m1
+}
+!procedure AmazonQuantumLedgerDatabase($id, $name="Amazon Quantum Ledger Database", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Database/AmazonQuantumLedgerDatabase', $name, $tech)
+!endprocedure
+!procedure AmazonQuantumLedgerDatabaseCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonQuantumLedgerDatabaseMd>', 'Database', $funcName, $content)
+!endprocedure
+!procedure AmazonQuantumLedgerDatabaseGroup($id, $name='Amazon Quantum Ledger Database', $tech='')
+  IconGroup($id, 'DatabaseFamily', '<$AmazonQuantumLedgerDatabaseLg>', $name, $tech)
+!endprocedure
+@enduml

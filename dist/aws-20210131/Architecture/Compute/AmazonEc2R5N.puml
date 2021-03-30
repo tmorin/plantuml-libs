@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2R5NMd [14x14/16z] BSg72G0m24HHyBoo_yAf_jG7sjP4qgU1HcxST7IZJg3Ulr3LWexYeiIwIaWqEN8Rr17xAN_I_c81HUiedSJqxUh6FEPq7uzUemq
+sprite $AmazonEc2R5NLg [20x20/16z] {
+RSm75e0m20JHHrtkVs8tODUnVqd0ybOm_22wwpkphH6c4n57bZsjdCGqcpyiHLLKWaRVoOCvSLa1LIa15doqLRcbkljjhg2prfUPZHdNzXuX2Lpc6P6S8-r6
+LCQnQuxOORMiblKlJ6sT-c7eaQvmj-dFBjm
+}
+!procedure AmazonEc2R5N($id, $name="Amazon Ec2 R5 N", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AmazonEc2R5N', $name, $tech)
+!endprocedure
+!procedure AmazonEc2R5NCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2R5NMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2R5NGroup($id, $name='Amazon Ec2 R5 N', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2R5NLg>', $name, $tech)
+!endprocedure
+@enduml

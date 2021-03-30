@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonWorkMailMd [14x14/16z] LSe70eH024FHNQM6-z_NnEwtle4-AfLv_Hu4LdDclYvLQFE25ioaQ2kXd8A3VxpR3d5ROyu60RBmI9QQcgz8vTqp7iePTKvQIVESR
+sprite $AmazonWorkMailLg [20x20/16z] {
+RSq73i0m24DH2P30pltlMn9tjxypJndOgwFCnDc5V4vQBv9cuKTcZIJSYrgDF2pA6aNfgNayq1A-pwDmKfs6YNsZ86DmeawwMLTDor1Zj2by3OT1fdvCyo3h
+vooMZRZbcdVCWf8fxdrCk04
+}
+!procedure AmazonWorkMail($id, $name="Amazon Work Mail", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/BusinessApplication/AmazonWorkMail', $name, $tech)
+!endprocedure
+!procedure AmazonWorkMailCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonWorkMailMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+!procedure AmazonWorkMailGroup($id, $name='Amazon Work Mail', $tech='')
+  IconGroup($id, 'BusinessApplicationFamily', '<$AmazonWorkMailLg>', $name, $tech)
+!endprocedure
+@enduml

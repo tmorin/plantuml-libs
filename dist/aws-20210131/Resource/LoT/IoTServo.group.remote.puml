@@ -1,0 +1,15 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the IoTServo element
+include('aws-20210131/Resource/LoT/IoTServo')
+IoTServoGroup('io_t_servo', 'Io T Servo', 'an optional tech field'){
+note as note
+the content of the group
+end note
+}
+@enduml

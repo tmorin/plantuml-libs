@@ -2,11 +2,12 @@
 
 ## Packages
 
-The library provides 10 packages.
+The library provides 11 packages.
 
 
 - [aws-20200430](aws-20200430/README.md)
 - [aws-20200911](aws-20200911/README.md)
+- [aws-20210131](aws-20210131/README.md)
 - [azure-v2](azure-v2/README.md)
 - [c4model](c4model/README.md)
 - [eventstorming](eventstorming/README.md)

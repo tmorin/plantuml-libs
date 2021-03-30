@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsMigrationHubMd [14x14/16z] 9Sd13KHH24BHHFq2Jl_z3kJTbKUOaDQ9hqUPoc5Q9gghuIpqPElsh4EJuqTPT_gqqyjXnEREx1Q8R1z4p4HcVT9u8Yz4DvX-bu2JeaV3jE8e_0C
+sprite $AwsMigrationHubLg [20x20/16z] {
+PSo7ZG1124DH2PlWsVxxFLZcybT-XBhb5fE-x1kr-EslhNgcvqMzA0TWKOkx5mRIBEB58HZtcHcoEpe9b088XI766kdj959WNVCunIv5VwqHK16pOxnMG1Kg
+KG5arTX9PqXQwiOU9zGPgB5dKEuWuSnlwzK0ygXfxBaQqTJuRPEsiQlVEFOFFm
+}
+!procedure AwsMigrationHub($id, $name="Aws Migration Hub", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MigrationTransfer/AwsMigrationHub', $name, $tech)
+!endprocedure
+!procedure AwsMigrationHubCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsMigrationHubMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+!procedure AwsMigrationHubGroup($id, $name='Aws Migration Hub', $tech='')
+  IconGroup($id, 'MigrationTransferFamily', '<$AwsMigrationHubLg>', $name, $tech)
+!endprocedure
+@enduml

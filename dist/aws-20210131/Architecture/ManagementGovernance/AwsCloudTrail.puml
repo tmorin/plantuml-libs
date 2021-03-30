@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsCloudTrailMd [14x14/16z] PSs54S0m40F1a1xxxpStOP1nZKbYYvDyCVSSh1q7gu2atQZavOljAXVxhcMNSOsOK8TS5copsHmqqqopH7N-nz2azhoKlxqL
+sprite $AwsCloudTrailLg [20x20/16z] {
+RSq53W0n24JHPD4Pxd_UjLg47tyjWBzSnHSQH8Dea0ro83EESg29obP-I5Cm90BR2250lyH-7EGSPox3DD_NKmt3pA3EuPAVLMf4g1b8vcT5XbbugFgRE5uh
+PZgSuMxl8zxgZyKHbl70jesSrc0r-
+}
+!procedure AwsCloudTrail($id, $name="Aws Cloud Trail", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsCloudTrail', $name, $tech)
+!endprocedure
+!procedure AwsCloudTrailCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsCloudTrailMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+!procedure AwsCloudTrailGroup($id, $name='Aws Cloud Trail', $tech='')
+  IconGroup($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailLg>', $name, $tech)
+!endprocedure
+@enduml

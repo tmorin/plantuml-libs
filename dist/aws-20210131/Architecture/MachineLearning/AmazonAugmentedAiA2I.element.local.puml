@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonAugmentedAiA2I element
+include('aws-20210131/Architecture/MachineLearning/AmazonAugmentedAiA2I')
+AmazonAugmentedAiA2I('amazon_augmented_ai_a_2_i', 'Amazon Augmented Ai A2 I', 'an optional tech field')
+@enduml

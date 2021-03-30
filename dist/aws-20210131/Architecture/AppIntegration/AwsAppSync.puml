@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsAppSyncMd [14x14/16z] FSY73S10349HANUOulttZLE_6WzFkkFaj-4d0dKp0u0S3PE04Qq5AH7YVNmYOq0chBJeXLhIeuCRMAhoo70wqRRLwGwfWcpFJbH5-zRuldvD3qy
+sprite $AwsAppSyncLg [20x20/16z] {
+RSi7YWCn40LHF1thp_tlktAZ9grB-O6OUgjl_C0rJelSAZFxeZYfp3pSBagWj4AYRn9gGrHquvyOaxn4c-NPdXmJBi2UeZkIiJwcZ0n1nDghVE09o6loBfjA
+ld-V3n7CiZxswYL2DpzClmVFcd3dsuNq2BVKsc1NDM9jS7RM1hUrV_W7
+}
+!procedure AwsAppSync($id, $name="Aws App Sync", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/AppIntegration/AwsAppSync', $name, $tech)
+!endprocedure
+!procedure AwsAppSyncCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsAppSyncMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+!procedure AwsAppSyncGroup($id, $name='Aws App Sync', $tech='')
+  IconGroup($id, 'AppIntegrationFamily', '<$AwsAppSyncLg>', $name, $tech)
+!endprocedure
+@enduml

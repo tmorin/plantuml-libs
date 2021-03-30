@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsSqlWorkbenchMd [14x14/16z] BSe75WKX34BHNr80zx_V8HcVzHxbXAsxB_YIGavOIZ7l6HnQbUbvbI9HsLpzin3Ej4gi02Ajeu1MjShUd_yaHpg7MHdcEIZNKesStZXQNpu
+sprite $AwsSqlWorkbenchLg [20x20/16z] {
+HSk94GGX24JHAcb0siq_tWN6uy_fK-9hdZpRzdGR6v8tCasbWXya2UipBhx7oHWMsVJyNXC58FdsPrZiW-OHspYSjLDTarf07wQ1EGCOasTiMrmExNalMuj3
+SnTgeOh8oc10Q8Bgc8LblqLI0GoJsRPWhCnYYibdL7H1Jj7FYhD-fPGzFVZiuHy
+}
+!procedure AwsSqlWorkbench($id, $name="Aws Sql Workbench", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Analytics/AwsSqlWorkbench', $name, $tech)
+!endprocedure
+!procedure AwsSqlWorkbenchCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsSqlWorkbenchMd>', 'Analytics', $funcName, $content)
+!endprocedure
+!procedure AwsSqlWorkbenchGroup($id, $name='Aws Sql Workbench', $tech='')
+  IconGroup($id, 'AnalyticsFamily', '<$AwsSqlWorkbenchLg>', $name, $tech)
+!endprocedure
+@enduml

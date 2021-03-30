@@ -1,0 +1,16 @@
+@startuml
+sprite $TensorFlowOnAwsMd [14x14/16z] LSdN0KDH20BG56c-_VSDVePR3_gY2vlyCN4qc65PXMEnJLdP1D12IlETPBwkDWfkDi89uGA1fbeQaJmQQnync851U_SXSnkndzqLTsjNPNVIVJhlkVm1
+sprite $TensorFlowOnAwsLg [20x20/16z] {
+PSi7aiH024FHceP64hx_VPUmURxpAvcVOOjENyOVr3TYUQnKl5Ov5jMXFaduYS7P6PBkL2oEzTUzvn9JgZDZpm_N6ldoaC9UuATvmcdkHW_QcYKzqrsoBqjN
+cU9A3XfPzbpeu8b878QJpFtPRcMGeUofOVYJSKvasjLQeI6bn53PqqiMPXZqOzbNgivgR7HmAtl73m
+}
+!procedure TensorFlowOnAws($id, $name="Tensor Flow On Aws", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/MachineLearning/TensorFlowOnAws', $name, $tech)
+!endprocedure
+!procedure TensorFlowOnAwsCard($id, $funcName="", $content="")
+  IconCard($id, '<$TensorFlowOnAwsMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+!procedure TensorFlowOnAwsGroup($id, $name='Tensor Flow On Aws', $tech='')
+  IconGroup($id, 'MachineLearningFamily', '<$TensorFlowOnAwsLg>', $name, $tech)
+!endprocedure
+@enduml

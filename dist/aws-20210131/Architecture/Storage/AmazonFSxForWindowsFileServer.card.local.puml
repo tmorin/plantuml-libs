@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the AmazonFSxForWindowsFileServer element
+include('aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer')
+AmazonFSxForWindowsFileServerCard('amazon_f_sx_for_windows_file_server', 'Amazon F Sx For Windows File Server', 'Molestiae praesentium aut natus dolorem. Aut consequatur fugiat a consequatur ut.')
+@enduml

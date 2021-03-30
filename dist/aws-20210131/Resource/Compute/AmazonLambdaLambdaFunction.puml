@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonLambdaLambdaFunctionMd [14x14/16z] JOw70GD0209v3hB_oD5FjNVHai5w4urDqL8ICYso7TIZRXcjTssquNNaDZ4U-yY1p-cujpaj12VJhARJuPmppf5eEovDqVYC-NdA3za_wYS
+sprite $AmazonLambdaLambdaFunctionLg [20x20/16z] {
+LP075WGn24914Uz_unsVRcDA8E-dA4vyX3_9LMKB7sLNS5XrVY3Qxe5uQ1hqH4xoa6Y2hO0qYGRMfXgOjDd4sJfmMR3px41hr1emnpjspaysmZTtvqZAlOWv
+BvgxItI1FWPfm05u0kYvyUHmfBUSR6bFp58whmVuQ7km9F7NgqMzFVqJ8uZJ2m
+}
+!procedure AmazonLambdaLambdaFunction($id, $name="Amazon Lambda Lambda Function", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonLambdaLambdaFunction', $name, $tech)
+!endprocedure
+!procedure AmazonLambdaLambdaFunctionCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonLambdaLambdaFunctionMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonLambdaLambdaFunctionGroup($id, $name='Amazon Lambda Lambda Function', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonLambdaLambdaFunctionLg>', $name, $tech)
+!endprocedure
+@enduml

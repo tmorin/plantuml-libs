@@ -1,0 +1,21 @@
+@startuml
+sprite $InternetAlt1Md [14x14/16z] XKx50G0X3Aid-ozyX_EaxeqyI4rlaYZKJWAZ4ZOoZB5Awcf5fedJnI5A0gpcBRstMzxMlBpwj7c_KTxlBqBstviU67y
+sprite $InternetAlt1Lg [20x20/16z] {
+jOxL5G8m34KRJzvX_tNhs3_SIbpQFv2i2lvo6PHeVkqDWvOWg4cxf1sfZu1V7zwTwEXKjLfcPiYKExFcnnK-gLYTOfghaqT6fE_9nL9BQdYcdm4b3NIS97x7
+x8LbmfCb3RPIyiqP_ci6
+}
+!procedure GroupAwsCloud($id, $name='Group Aws Cloud', $tech='')
+  IconGroup($id, 'GroupAwsCloud', '<$InternetAlt1Lg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupAwsCloud>> {
+  StereotypeFontColor $AWS_COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+sprite $AmazonEc2RescueMd [14x14/16z] NOw50K112491thd_nh_px1Ov3raUjH7iTZWbAP3DLVQCTZLNXXDYZYoTXiraoy0WxKscx3SvNPa-_Bx_aVrHhm
+sprite $AmazonEc2RescueLg [20x20/16z] {
+RP050iGm20I7JLd-_-FBKPTfOpW0ki54pXiMLF0dnjWkHgQfpA9nj0nLGLaNsU8mEBmSic6YOlvOkwm2DwXQbb6LPIR_IqLAEHAYPGx8yItxzDrobEUFlEVL
+HoqiRWETDK_aMsyVCy3gMqZHbqxW9YTkj9cS1F03
+}
+!procedure AmazonEc2Rescue($id, $name="Amazon Ec2 Rescue", $tech="")
+  IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2Rescue', $name, $tech)
+!endprocedure
+!procedure AmazonEc2RescueCard($id, $funcName="", $content="")
+  IconCard($id, '<$AmazonEc2RescueMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AmazonEc2RescueGroup($id, $name='Amazon Ec2 Rescue', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AmazonEc2RescueLg>', $name, $tech)
+!endprocedure
+@enduml

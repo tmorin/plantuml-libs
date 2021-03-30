@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsIoTAnalyticsMd [14x14/16z] FSV5WO1050MmbQT_-gyNXzpIDXUV-ZNFMZBcim0GmNWwel-5F-hOX2CNK98PfGmgy5ebnl_FJ8eoUcmP_rI7kIUueTfchR4bPNfOfpdqsHoUxW
+sprite $AwsIoTAnalyticsLg [20x20/16z] {
+RSi9ZWLH24BHb8e2R__xxPhwppTcEX7jyR-vqW_KFqh_-hGgaXZ-sru1fSmS_XioW6sIXTsilInrO6BB93csNB2IPiQ8UxQdx2vFSA9kmrWfnXX0wRJY0XGq
+uzyMw9gKAlj_kxgxQf0jfNIQ5R5LGNP1zzzWHNlPdTeZbvSIqJDTfJEk0qUDmbXNQyVhR3rj-Rz_-u5_
+}
+!procedure AwsIoTAnalytics($id, $name="Aws Io T Analytics", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/InternetOfThings/AwsIoTAnalytics', $name, $tech)
+!endprocedure
+!procedure AwsIoTAnalyticsCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsIoTAnalyticsMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+!procedure AwsIoTAnalyticsGroup($id, $name='Aws Io T Analytics', $tech='')
+  IconGroup($id, 'InternetOfThingsFamily', '<$AwsIoTAnalyticsLg>', $name, $tech)
+!endprocedure
+@enduml

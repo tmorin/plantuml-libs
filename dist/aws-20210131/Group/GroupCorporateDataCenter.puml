@@ -1,0 +1,21 @@
+@startuml
+sprite $OfficeBuildingMd [14x14/16z] VOw50G0n20En1Bh_mEyklIeUcGa0icCLA3yiCk6d0PAs6eskvco-LX7CQQzMsWBF695xJAU8wZrMdLXk5YOERLm0LMG4
+sprite $OfficeBuildingLg [20x20/16z] {
+XOy7aWKX24I11cncxt_VDTJ4dzhygfwAh2XwL6xPYkJV3MefeCITWULt9fqHj1C4MHPXBERnG3f4LU2nwIws95ZUil5WuJ7SlfpCkZYxri7OrbyQUJ27gxlr
+vUgQg7NL3fV3hUxouS8DG1qCsktHVxZXQH6u_dbhkUUe5ta4qlCF
+}
+!procedure GroupCorporateDataCenter($id, $name='Group Corporate Data Center', $tech='')
+  IconGroup($id, 'GroupCorporateDataCenter', '<$OfficeBuildingLg>', $name, $tech)
+!endprocedure
+skinparam Rectangle<<GroupCorporateDataCenter>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+@enduml

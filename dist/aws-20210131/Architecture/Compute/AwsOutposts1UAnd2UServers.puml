@@ -1,0 +1,16 @@
+@startuml
+sprite $AwsOutposts1UAnd2UServersMd [14x14/16z] LOd75G0m28KEwiVz5qwlf2WFG8k8u5DuVBMjGBZxjfI1MuoSwRtBH3Uy3o9capUiuTtIfxeD8oQYsOJ19_oj0W
+sprite $AwsOutposts1UAnd2UServersLg [20x20/16z] {
+RSs93GGn24DHBHZR_LUy26NkVDql0TJnLdNQe3wuCuwzMHD0lIo0gD7335ZyHHrecQ6kzK3RUHmF7gRq98EIrZyGHraQSsKXWUmG7BEIpPKTSvcHHm6DhNHq
+cEvj_iaRz0R_
+}
+!procedure AwsOutposts1UAnd2UServers($id, $name="Aws Outposts1 U And2 U Servers", $tech="")
+  IconElement($id, 'aws-20210131/Architecture/Compute/AwsOutposts1UAnd2UServers', $name, $tech)
+!endprocedure
+!procedure AwsOutposts1UAnd2UServersCard($id, $funcName="", $content="")
+  IconCard($id, '<$AwsOutposts1UAnd2UServersMd>', 'Compute', $funcName, $content)
+!endprocedure
+!procedure AwsOutposts1UAnd2UServersGroup($id, $name='Aws Outposts1 U And2 U Servers', $tech='')
+  IconGroup($id, 'ComputeFamily', '<$AwsOutposts1UAnd2UServersLg>', $name, $tech)
+!endprocedure
+@enduml
