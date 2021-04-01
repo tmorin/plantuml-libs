@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.11.0](https://github.com/tmorin/plantuml-libs/compare/v2.10.0...v2.11.0) (2021-04-01)
+
+
+### Features
+
+* **aws-20210131:** add the latest release of AWS icons ([0439492](https://github.com/tmorin/plantuml-libs/commit/0439492b5625ff964b7eb61a766dbc2734bcee1d))
+
 ## [2.10.0](https://github.com/tmorin/plantuml-libs/compare/v2.9.0...v2.10.0) (2021-03-29)
 
 
