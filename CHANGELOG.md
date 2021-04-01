@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.12.0](https://github.com/tmorin/plantuml-libs/compare/v2.11.0...v2.12.0) (2021-04-01)
+
+
+### Features
+
+* upgrade PlantUML to 1.2021.3 ([3df56d3](https://github.com/tmorin/plantuml-libs/commit/3df56d34550b43095b6792e2fb2cbdde5bb7f821))
+
 ## [2.11.0](https://github.com/tmorin/plantuml-libs/compare/v2.10.0...v2.11.0) (2021-04-01)
 
 
