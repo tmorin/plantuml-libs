@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.13.0](https://github.com/tmorin/plantuml-libs/compare/v2.12.0...v2.13.0) (2021-04-27)
+
+
+### Features
+
+* **eip:** add package ([62e0bc7](https://github.com/tmorin/plantuml-libs/commit/62e0bc73f69b71cabe18c4e6635ba251f930f43e))
+* **fontawesome-5.15:** upgrade to 5.15.3 ([ccc8450](https://github.com/tmorin/plantuml-libs/commit/ccc84507a5b6f1e6f7c84c388aeb5fa2e7624a0b))
+* **simpleicons-4:** upgrade to 4.21.0 ([1d6ffee](https://github.com/tmorin/plantuml-libs/commit/1d6ffeeff6daeec3c74a82b72da09c3205c62b63))
+
+
+### Bug Fixes
+
+* **c4model:** refresh the package ([5c369da](https://github.com/tmorin/plantuml-libs/commit/5c369dadd4e579f702f8910f81194b73bf781ad5))
+* **eventstorming:** refresh the package ([6d2a0a9](https://github.com/tmorin/plantuml-libs/commit/6d2a0a9ae0fc9409d38920e2aa0e7b9dd4a25276))
+
 ## [2.12.0](https://github.com/tmorin/plantuml-libs/compare/v2.11.0...v2.12.0) (2021-04-01)
 
 
