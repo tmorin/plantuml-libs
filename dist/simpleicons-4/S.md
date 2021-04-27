@@ -1,6 +1,6 @@
 # S
 
-The module S contains 191 entries.
+The module S contains 195 entries.
 
 
 
@@ -29,6 +29,7 @@ The module S contains 191 entries.
 |![Screencastify](../simpleicons-4/S/Screencastify.element.png)|[simpleicons-4/S/Screencastify](../simpleicons-4/S/Screencastify.md)
 |![Scribd](../simpleicons-4/S/Scribd.element.png)|[simpleicons-4/S/Scribd](../simpleicons-4/S/Scribd.md)
 |![Scrimba](../simpleicons-4/S/Scrimba.element.png)|[simpleicons-4/S/Scrimba](../simpleicons-4/S/Scrimba.md)
+|![Scrumalliance](../simpleicons-4/S/Scrumalliance.element.png)|[simpleicons-4/S/Scrumalliance](../simpleicons-4/S/Scrumalliance.md)
 |![Scrutinizerci](../simpleicons-4/S/Scrutinizerci.element.png)|[simpleicons-4/S/Scrutinizerci](../simpleicons-4/S/Scrutinizerci.md)
 |![Seagate](../simpleicons-4/S/Seagate.element.png)|[simpleicons-4/S/Seagate](../simpleicons-4/S/Seagate.md)
 |![Seat](../simpleicons-4/S/Seat.element.png)|[simpleicons-4/S/Seat](../simpleicons-4/S/Seat.md)
@@ -53,6 +54,7 @@ The module S contains 191 entries.
 |![Sharp](../simpleicons-4/S/Sharp.element.png)|[simpleicons-4/S/Sharp](../simpleicons-4/S/Sharp.md)
 |![Shazam](../simpleicons-4/S/Shazam.element.png)|[simpleicons-4/S/Shazam](../simpleicons-4/S/Shazam.md)
 |![Shell](../simpleicons-4/S/Shell.element.png)|[simpleicons-4/S/Shell](../simpleicons-4/S/Shell.md)
+|![Shelly](../simpleicons-4/S/Shelly.element.png)|[simpleicons-4/S/Shelly](../simpleicons-4/S/Shelly.md)
 |![Shenzhenmetro](../simpleicons-4/S/Shenzhenmetro.element.png)|[simpleicons-4/S/Shenzhenmetro](../simpleicons-4/S/Shenzhenmetro.md)
 |![ShieldsDotIo](../simpleicons-4/S/ShieldsDotIo.element.png)|[simpleicons-4/S/ShieldsDotIo](../simpleicons-4/S/ShieldsDotIo.md)
 |![Shikimori](../simpleicons-4/S/Shikimori.element.png)|[simpleicons-4/S/Shikimori](../simpleicons-4/S/Shikimori.md)
@@ -64,6 +66,7 @@ The module S contains 191 entries.
 |![Shutterstock](../simpleicons-4/S/Shutterstock.element.png)|[simpleicons-4/S/Shutterstock](../simpleicons-4/S/Shutterstock.md)
 |![Siemens](../simpleicons-4/S/Siemens.element.png)|[simpleicons-4/S/Siemens](../simpleicons-4/S/Siemens.md)
 |![Signal](../simpleicons-4/S/Signal.element.png)|[simpleicons-4/S/Signal](../simpleicons-4/S/Signal.md)
+|![Simpleanalytics](../simpleicons-4/S/Simpleanalytics.element.png)|[simpleicons-4/S/Simpleanalytics](../simpleicons-4/S/Simpleanalytics.md)
 |![Simpleicons](../simpleicons-4/S/Simpleicons.element.png)|[simpleicons-4/S/Simpleicons](../simpleicons-4/S/Simpleicons.md)
 |![Sinaweibo](../simpleicons-4/S/Sinaweibo.element.png)|[simpleicons-4/S/Sinaweibo](../simpleicons-4/S/Sinaweibo.md)
 |![Singlestore](../simpleicons-4/S/Singlestore.element.png)|[simpleicons-4/S/Singlestore](../simpleicons-4/S/Singlestore.md)
@@ -162,6 +165,7 @@ The module S contains 191 entries.
 |![Stitcher](../simpleicons-4/S/Stitcher.element.png)|[simpleicons-4/S/Stitcher](../simpleicons-4/S/Stitcher.md)
 |![Stmicroelectronics](../simpleicons-4/S/Stmicroelectronics.element.png)|[simpleicons-4/S/Stmicroelectronics](../simpleicons-4/S/Stmicroelectronics.md)
 |![Storify](../simpleicons-4/S/Storify.element.png)|[simpleicons-4/S/Storify](../simpleicons-4/S/Storify.md)
+|![Storyblok](../simpleicons-4/S/Storyblok.element.png)|[simpleicons-4/S/Storyblok](../simpleicons-4/S/Storyblok.md)
 |![Storybook](../simpleicons-4/S/Storybook.element.png)|[simpleicons-4/S/Storybook](../simpleicons-4/S/Storybook.md)
 |![Strapi](../simpleicons-4/S/Strapi.element.png)|[simpleicons-4/S/Strapi](../simpleicons-4/S/Strapi.md)
 |![Strava](../simpleicons-4/S/Strava.element.png)|[simpleicons-4/S/Strava](../simpleicons-4/S/Strava.md)

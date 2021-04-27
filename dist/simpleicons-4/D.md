@@ -1,6 +1,6 @@
 # D
 
-The module D contains 79 entries.
+The module D contains 80 entries.
 
 
 
@@ -22,6 +22,7 @@ The module D contains 79 entries.
 |![Datadog](../simpleicons-4/D/Datadog.element.png)|[simpleicons-4/D/Datadog](../simpleicons-4/D/Datadog.md)
 |![Datastax](../simpleicons-4/D/Datastax.element.png)|[simpleicons-4/D/Datastax](../simpleicons-4/D/Datastax.md)
 |![Datocms](../simpleicons-4/D/Datocms.element.png)|[simpleicons-4/D/Datocms](../simpleicons-4/D/Datocms.md)
+|![Datto](../simpleicons-4/D/Datto.element.png)|[simpleicons-4/D/Datto](../simpleicons-4/D/Datto.md)
 |![Dazn](../simpleicons-4/D/Dazn.element.png)|[simpleicons-4/D/Dazn](../simpleicons-4/D/Dazn.md)
 |![Dblp](../simpleicons-4/D/Dblp.element.png)|[simpleicons-4/D/Dblp](../simpleicons-4/D/Dblp.md)
 |![Dcentertainment](../simpleicons-4/D/Dcentertainment.element.png)|[simpleicons-4/D/Dcentertainment](../simpleicons-4/D/Dcentertainment.md)

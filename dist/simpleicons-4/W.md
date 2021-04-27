@@ -1,6 +1,6 @@
 # W
 
-The module W contains 60 entries.
+The module W contains 61 entries.
 
 
 
@@ -22,6 +22,7 @@ The module W contains 60 entries.
 |![Webdriverio](../simpleicons-4/W/Webdriverio.element.png)|[simpleicons-4/W/Webdriverio](../simpleicons-4/W/Webdriverio.md)
 |![Webflow](../simpleicons-4/W/Webflow.element.png)|[simpleicons-4/W/Webflow](../simpleicons-4/W/Webflow.md)
 |![Webgl](../simpleicons-4/W/Webgl.element.png)|[simpleicons-4/W/Webgl](../simpleicons-4/W/Webgl.md)
+|![Webhint](../simpleicons-4/W/Webhint.element.png)|[simpleicons-4/W/Webhint](../simpleicons-4/W/Webhint.md)
 |![Webmin](../simpleicons-4/W/Webmin.element.png)|[simpleicons-4/W/Webmin](../simpleicons-4/W/Webmin.md)
 |![Webmoney](../simpleicons-4/W/Webmoney.element.png)|[simpleicons-4/W/Webmoney](../simpleicons-4/W/Webmoney.md)
 |![Webpack](../simpleicons-4/W/Webpack.element.png)|[simpleicons-4/W/Webpack](../simpleicons-4/W/Webpack.md)

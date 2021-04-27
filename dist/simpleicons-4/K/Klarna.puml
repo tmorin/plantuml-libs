@@ -1,0 +1,16 @@
+@startuml
+sprite $KlarnaMd [14x14/16z] LSw50G0X30F0u9fc_sdV5J-ipJa2SBbuR8MisnYdnLrItyOYVTHbxb6G1cwvkL-yjAFZLfU8Hq6oy0ZvEdI7iDrjG5Kxv2XbR0Fjo8oSBZ7ZLrO
+sprite $KlarnaLg [20x20/16z] {
+RP050eGm30JZEFd_Ro-f7RROCcrZ588K4Z52aOXoPIhQcBllnKxXTB2ji2MSFFRjxYVTcUG1kBCrp7Hd5j-3RamzDCELcVTeevOvqO5NjlCnjWsMXOoi8qSv
+BNS6Muye-qQDKOPS0V2C_pw3Kg41vMVCe8LS8fcgjjWQeXmoVEa7
+}
+!procedure Klarna($id, $name="Klarna", $tech="")
+  IconElement($id, 'simpleicons-4/K/Klarna', $name, $tech)
+!endprocedure
+!procedure KlarnaCard($id, $funcName="", $content="")
+  IconCard($id, '<$KlarnaMd>', '', $funcName, $content)
+!endprocedure
+!procedure KlarnaGroup($id, $name='Klarna', $tech='')
+  IconGroup($id, 'IconGroup', '<$KlarnaLg>', $name, $tech)
+!endprocedure
+@enduml

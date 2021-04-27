@@ -1,0 +1,16 @@
+@startuml
+sprite $ArangodbMd [14x14/16z] XSUr0SD050MmzncEzfysdDPM9zoXw4hzfvr04T-5avZYLMABEODjA4hIuxmmZOOaeTyJNm6ynZLROn20wW2WyoG0wbfddxF5EgCLb7CM0H0bN7a2
+sprite $ArangodbLg [20x20/16z] {
+hSj5WaD120JGeXs__ss7tsFP9s-35Zw0ZhdfmelXkdeVH-b_5HFNieOVl6YCkUgm5O_HXx3CkOujG0xQu2MH6GUOx0raNQJDl5RjuadlHf2y3jZg3qrGXyWY
+E7ecYdMgopwx4-V4vMw4GjkpWezXvg4iLd5U9eDe-AJkUHs0bbLkuEdKwWFV2E_v0W
+}
+!procedure Arangodb($id, $name="Arangodb", $tech="")
+  IconElement($id, 'simpleicons-4/A/Arangodb', $name, $tech)
+!endprocedure
+!procedure ArangodbCard($id, $funcName="", $content="")
+  IconCard($id, '<$ArangodbMd>', '', $funcName, $content)
+!endprocedure
+!procedure ArangodbGroup($id, $name='Arangodb', $tech='')
+  IconGroup($id, 'IconGroup', '<$ArangodbLg>', $name, $tech)
+!endprocedure
+@enduml

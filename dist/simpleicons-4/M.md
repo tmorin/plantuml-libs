@@ -1,6 +1,6 @@
 # M
 
-The module M contains 111 entries.
+The module M contains 114 entries.
 
 
 
@@ -45,6 +45,7 @@ The module M contains 111 entries.
 |![Mclaren](../simpleicons-4/M/Mclaren.element.png)|[simpleicons-4/M/Mclaren](../simpleicons-4/M/Mclaren.md)
 |![Mdnwebdocs](../simpleicons-4/M/Mdnwebdocs.element.png)|[simpleicons-4/M/Mdnwebdocs](../simpleicons-4/M/Mdnwebdocs.md)
 |![Mediafire](../simpleicons-4/M/Mediafire.element.png)|[simpleicons-4/M/Mediafire](../simpleicons-4/M/Mediafire.md)
+|![Mediatek](../simpleicons-4/M/Mediatek.element.png)|[simpleicons-4/M/Mediatek](../simpleicons-4/M/Mediatek.md)
 |![Mediatemple](../simpleicons-4/M/Mediatemple.element.png)|[simpleicons-4/M/Mediatemple](../simpleicons-4/M/Mediatemple.md)
 |![Medium](../simpleicons-4/M/Medium.element.png)|[simpleicons-4/M/Medium](../simpleicons-4/M/Medium.md)
 |![Meetup](../simpleicons-4/M/Meetup.element.png)|[simpleicons-4/M/Meetup](../simpleicons-4/M/Meetup.md)
@@ -53,6 +54,7 @@ The module M contains 111 entries.
 |![Mercedes](../simpleicons-4/M/Mercedes.element.png)|[simpleicons-4/M/Mercedes](../simpleicons-4/M/Mercedes.md)
 |![Mercurial](../simpleicons-4/M/Mercurial.element.png)|[simpleicons-4/M/Mercurial](../simpleicons-4/M/Mercurial.md)
 |![Messenger](../simpleicons-4/M/Messenger.element.png)|[simpleicons-4/M/Messenger](../simpleicons-4/M/Messenger.md)
+|![Metabase](../simpleicons-4/M/Metabase.element.png)|[simpleicons-4/M/Metabase](../simpleicons-4/M/Metabase.md)
 |![Metafilter](../simpleicons-4/M/Metafilter.element.png)|[simpleicons-4/M/Metafilter](../simpleicons-4/M/Metafilter.md)
 |![Meteor](../simpleicons-4/M/Meteor.element.png)|[simpleicons-4/M/Meteor](../simpleicons-4/M/Meteor.md)
 |![Metro](../simpleicons-4/M/Metro.element.png)|[simpleicons-4/M/Metro](../simpleicons-4/M/Metro.md)
@@ -110,6 +112,7 @@ The module M contains 111 entries.
 |![Mozilla](../simpleicons-4/M/Mozilla.element.png)|[simpleicons-4/M/Mozilla](../simpleicons-4/M/Mozilla.md)
 |![Mta](../simpleicons-4/M/Mta.element.png)|[simpleicons-4/M/Mta](../simpleicons-4/M/Mta.md)
 |![Mtr](../simpleicons-4/M/Mtr.element.png)|[simpleicons-4/M/Mtr](../simpleicons-4/M/Mtr.md)
+|![Mumble](../simpleicons-4/M/Mumble.element.png)|[simpleicons-4/M/Mumble](../simpleicons-4/M/Mumble.md)
 |![Musescore](../simpleicons-4/M/Musescore.element.png)|[simpleicons-4/M/Musescore](../simpleicons-4/M/Musescore.md)
 |![Musicbrainz](../simpleicons-4/M/Musicbrainz.element.png)|[simpleicons-4/M/Musicbrainz](../simpleicons-4/M/Musicbrainz.md)
 |![Mxlinux](../simpleicons-4/M/Mxlinux.element.png)|[simpleicons-4/M/Mxlinux](../simpleicons-4/M/Mxlinux.md)

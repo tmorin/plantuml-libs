@@ -1,6 +1,6 @@
 # U
 
-The module U contains 27 entries.
+The module U contains 28 entries.
 
 
 
@@ -28,6 +28,7 @@ The module U contains 27 entries.
 |![Unsplash](../simpleicons-4/U/Unsplash.element.png)|[simpleicons-4/U/Unsplash](../simpleicons-4/U/Unsplash.md)
 |![Untangle](../simpleicons-4/U/Untangle.element.png)|[simpleicons-4/U/Untangle](../simpleicons-4/U/Untangle.md)
 |![Untappd](../simpleicons-4/U/Untappd.element.png)|[simpleicons-4/U/Untappd](../simpleicons-4/U/Untappd.md)
+|![Upcloud](../simpleicons-4/U/Upcloud.element.png)|[simpleicons-4/U/Upcloud](../simpleicons-4/U/Upcloud.md)
 |![Uplabs](../simpleicons-4/U/Uplabs.element.png)|[simpleicons-4/U/Uplabs](../simpleicons-4/U/Uplabs.md)
 |![Uploaded](../simpleicons-4/U/Uploaded.element.png)|[simpleicons-4/U/Uploaded](../simpleicons-4/U/Uploaded.md)
 |![Ups](../simpleicons-4/U/Ups.element.png)|[simpleicons-4/U/Ups](../simpleicons-4/U/Ups.md)

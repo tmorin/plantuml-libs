@@ -1,6 +1,6 @@
 # I
 
-The module I contains 48 entries.
+The module I contains 51 entries.
 
 
 
@@ -10,6 +10,7 @@ The module I contains 48 entries.
 |![Ibeacon](../simpleicons-4/I/Ibeacon.element.png)|[simpleicons-4/I/Ibeacon](../simpleicons-4/I/Ibeacon.md)
 |![Ibm](../simpleicons-4/I/Ibm.element.png)|[simpleicons-4/I/Ibm](../simpleicons-4/I/Ibm.md)
 |![Ibmwatson](../simpleicons-4/I/Ibmwatson.element.png)|[simpleicons-4/I/Ibmwatson](../simpleicons-4/I/Ibmwatson.md)
+|![Icinga](../simpleicons-4/I/Icinga.element.png)|[simpleicons-4/I/Icinga](../simpleicons-4/I/Icinga.md)
 |![Icloud](../simpleicons-4/I/Icloud.element.png)|[simpleicons-4/I/Icloud](../simpleicons-4/I/Icloud.md)
 |![Icomoon](../simpleicons-4/I/Icomoon.element.png)|[simpleicons-4/I/Icomoon](../simpleicons-4/I/Icomoon.md)
 |![Icon](../simpleicons-4/I/Icon.element.png)|[simpleicons-4/I/Icon](../simpleicons-4/I/Icon.md)
@@ -26,6 +27,8 @@ The module I contains 48 entries.
 |![Ikea](../simpleicons-4/I/Ikea.element.png)|[simpleicons-4/I/Ikea](../simpleicons-4/I/Ikea.md)
 |![Imdb](../simpleicons-4/I/Imdb.element.png)|[simpleicons-4/I/Imdb](../simpleicons-4/I/Imdb.md)
 |![Imgur](../simpleicons-4/I/Imgur.element.png)|[simpleicons-4/I/Imgur](../simpleicons-4/I/Imgur.md)
+|![Immer](../simpleicons-4/I/Immer.element.png)|[simpleicons-4/I/Immer](../simpleicons-4/I/Immer.md)
+|![Imou](../simpleicons-4/I/Imou.element.png)|[simpleicons-4/I/Imou](../simpleicons-4/I/Imou.md)
 |![Indeed](../simpleicons-4/I/Indeed.element.png)|[simpleicons-4/I/Indeed](../simpleicons-4/I/Indeed.md)
 |![Infiniti](../simpleicons-4/I/Infiniti.element.png)|[simpleicons-4/I/Infiniti](../simpleicons-4/I/Infiniti.md)
 |![Influxdb](../simpleicons-4/I/Influxdb.element.png)|[simpleicons-4/I/Influxdb](../simpleicons-4/I/Influxdb.md)

@@ -1,0 +1,13 @@
+@startuml
+sprite $ImouMd [14x14/16z] hKU70S10474T-m-S3F4wF464ZaIxgt77CqcNh_5tthJ-jshFH5TrUR0kFC47
+sprite $ImouLg [20x20/16z] pKs50SCm39CXCM__NrjyecQKy24XO2siJNY2CA32Fdr9mgUQQuD_QxNINsdM2CeN0xPMCUQoTONo2An-PtBP_KioDPj82O-zH6oABya9
+!procedure Imou($id, $name="Imou", $tech="")
+  IconElement($id, 'simpleicons-4/I/Imou', $name, $tech)
+!endprocedure
+!procedure ImouCard($id, $funcName="", $content="")
+  IconCard($id, '<$ImouMd>', '', $funcName, $content)
+!endprocedure
+!procedure ImouGroup($id, $name='Imou', $tech='')
+  IconGroup($id, 'IconGroup', '<$ImouLg>', $name, $tech)
+!endprocedure
+@enduml

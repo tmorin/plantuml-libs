@@ -1,6 +1,6 @@
 # C
 
-The module C contains 132 entries.
+The module C contains 133 entries.
 
 
 
@@ -53,6 +53,7 @@ The module C contains 132 entries.
 |![Civicrm](../simpleicons-4/C/Civicrm.element.png)|[simpleicons-4/C/Civicrm](../simpleicons-4/C/Civicrm.md)
 |![Claris](../simpleicons-4/C/Claris.element.png)|[simpleicons-4/C/Claris](../simpleicons-4/C/Claris.md)
 |![Clickup](../simpleicons-4/C/Clickup.element.png)|[simpleicons-4/C/Clickup](../simpleicons-4/C/Clickup.md)
+|![Clion](../simpleicons-4/C/Clion.element.png)|[simpleicons-4/C/Clion](../simpleicons-4/C/Clion.md)
 |![Cliqz](../simpleicons-4/C/Cliqz.element.png)|[simpleicons-4/C/Cliqz](../simpleicons-4/C/Cliqz.md)
 |![Clockify](../simpleicons-4/C/Clockify.element.png)|[simpleicons-4/C/Clockify](../simpleicons-4/C/Clockify.md)
 |![Clojure](../simpleicons-4/C/Clojure.element.png)|[simpleicons-4/C/Clojure](../simpleicons-4/C/Clojure.md)

@@ -1,6 +1,6 @@
 # V
 
-The module V contains 45 entries.
+The module V contains 47 entries.
 
 
 
@@ -21,6 +21,7 @@ The module V contains 45 entries.
 |![Veepee](../simpleicons-4/V/Veepee.element.png)|[simpleicons-4/V/Veepee](../simpleicons-4/V/Veepee.md)
 |![Venmo](../simpleicons-4/V/Venmo.element.png)|[simpleicons-4/V/Venmo](../simpleicons-4/V/Venmo.md)
 |![Vercel](../simpleicons-4/V/Vercel.element.png)|[simpleicons-4/V/Vercel](../simpleicons-4/V/Vercel.md)
+|![Verdaccio](../simpleicons-4/V/Verdaccio.element.png)|[simpleicons-4/V/Verdaccio](../simpleicons-4/V/Verdaccio.md)
 |![Veritas](../simpleicons-4/V/Veritas.element.png)|[simpleicons-4/V/Veritas](../simpleicons-4/V/Veritas.md)
 |![Verizon](../simpleicons-4/V/Verizon.element.png)|[simpleicons-4/V/Verizon](../simpleicons-4/V/Verizon.md)
 |![Vfairs](../simpleicons-4/V/Vfairs.element.png)|[simpleicons-4/V/Vfairs](../simpleicons-4/V/Vfairs.md)
@@ -36,6 +37,7 @@ The module V contains 45 entries.
 |![Visa](../simpleicons-4/V/Visa.element.png)|[simpleicons-4/V/Visa](../simpleicons-4/V/Visa.md)
 |![Visualstudio](../simpleicons-4/V/Visualstudio.element.png)|[simpleicons-4/V/Visualstudio](../simpleicons-4/V/Visualstudio.md)
 |![Visualstudiocode](../simpleicons-4/V/Visualstudiocode.element.png)|[simpleicons-4/V/Visualstudiocode](../simpleicons-4/V/Visualstudiocode.md)
+|![Vite](../simpleicons-4/V/Vite.element.png)|[simpleicons-4/V/Vite](../simpleicons-4/V/Vite.md)
 |![Vivaldi](../simpleicons-4/V/Vivaldi.element.png)|[simpleicons-4/V/Vivaldi](../simpleicons-4/V/Vivaldi.md)
 |![Vivino](../simpleicons-4/V/Vivino.element.png)|[simpleicons-4/V/Vivino](../simpleicons-4/V/Vivino.md)
 |![Vk](../simpleicons-4/V/Vk.element.png)|[simpleicons-4/V/Vk](../simpleicons-4/V/Vk.md)

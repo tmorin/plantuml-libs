@@ -1,6 +1,6 @@
 # K
 
-The module K contains 41 entries.
+The module K contains 45 entries.
 
 
 
@@ -14,10 +14,12 @@ The module K contains 41 entries.
 |![Kalilinux](../simpleicons-4/K/Kalilinux.element.png)|[simpleicons-4/K/Kalilinux](../simpleicons-4/K/Kalilinux.md)
 |![Karlsruherverkehrsverbund](../simpleicons-4/K/Karlsruherverkehrsverbund.element.png)|[simpleicons-4/K/Karlsruherverkehrsverbund](../simpleicons-4/K/Karlsruherverkehrsverbund.md)
 |![Kasasmart](../simpleicons-4/K/Kasasmart.element.png)|[simpleicons-4/K/Kasasmart](../simpleicons-4/K/Kasasmart.md)
+|![Kashflow](../simpleicons-4/K/Kashflow.element.png)|[simpleicons-4/K/Kashflow](../simpleicons-4/K/Kashflow.md)
 |![Kaspersky](../simpleicons-4/K/Kaspersky.element.png)|[simpleicons-4/K/Kaspersky](../simpleicons-4/K/Kaspersky.md)
 |![Katacoda](../simpleicons-4/K/Katacoda.element.png)|[simpleicons-4/K/Katacoda](../simpleicons-4/K/Katacoda.md)
 |![Katana](../simpleicons-4/K/Katana.element.png)|[simpleicons-4/K/Katana](../simpleicons-4/K/Katana.md)
 |![Kde](../simpleicons-4/K/Kde.element.png)|[simpleicons-4/K/Kde](../simpleicons-4/K/Kde.md)
+|![Kdenlive](../simpleicons-4/K/Kdenlive.element.png)|[simpleicons-4/K/Kdenlive](../simpleicons-4/K/Kdenlive.md)
 |![Keepassxc](../simpleicons-4/K/Keepassxc.element.png)|[simpleicons-4/K/Keepassxc](../simpleicons-4/K/Keepassxc.md)
 |![Kentico](../simpleicons-4/K/Kentico.element.png)|[simpleicons-4/K/Kentico](../simpleicons-4/K/Kentico.md)
 |![Keras](../simpleicons-4/K/Keras.element.png)|[simpleicons-4/K/Keras](../simpleicons-4/K/Keras.md)
@@ -31,6 +33,7 @@ The module K contains 41 entries.
 |![Kik](../simpleicons-4/K/Kik.element.png)|[simpleicons-4/K/Kik](../simpleicons-4/K/Kik.md)
 |![Kirby](../simpleicons-4/K/Kirby.element.png)|[simpleicons-4/K/Kirby](../simpleicons-4/K/Kirby.md)
 |![Kitsu](../simpleicons-4/K/Kitsu.element.png)|[simpleicons-4/K/Kitsu](../simpleicons-4/K/Kitsu.md)
+|![Klarna](../simpleicons-4/K/Klarna.element.png)|[simpleicons-4/K/Klarna](../simpleicons-4/K/Klarna.md)
 |![Klm](../simpleicons-4/K/Klm.element.png)|[simpleicons-4/K/Klm](../simpleicons-4/K/Klm.md)
 |![Klook](../simpleicons-4/K/Klook.element.png)|[simpleicons-4/K/Klook](../simpleicons-4/K/Klook.md)
 |![Klout](../simpleicons-4/K/Klout.element.png)|[simpleicons-4/K/Klout](../simpleicons-4/K/Klout.md)
@@ -46,5 +49,6 @@ The module K contains 41 entries.
 |![Krita](../simpleicons-4/K/Krita.element.png)|[simpleicons-4/K/Krita](../simpleicons-4/K/Krita.md)
 |![Ktm](../simpleicons-4/K/Ktm.element.png)|[simpleicons-4/K/Ktm](../simpleicons-4/K/Ktm.md)
 |![Kubernetes](../simpleicons-4/K/Kubernetes.element.png)|[simpleicons-4/K/Kubernetes](../simpleicons-4/K/Kubernetes.md)
+|![Kubuntu](../simpleicons-4/K/Kubuntu.element.png)|[simpleicons-4/K/Kubuntu](../simpleicons-4/K/Kubuntu.md)
 |![Kyocera](../simpleicons-4/K/Kyocera.element.png)|[simpleicons-4/K/Kyocera](../simpleicons-4/K/Kyocera.md)
 

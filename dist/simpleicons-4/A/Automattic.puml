@@ -1,0 +1,19 @@
+@startuml
+sprite $AutomatticMd [14x14/16z] {
+LOx50SKm34CLHkVjF-s7SdqnYII5Pc0jw5-kyQ_LtF-pe9VIOGLLOxWDCZ2ti0qHv8m2HP9dIeK9KL8dIn6sBJ6qRHlIyDgGcqgEqgRoTf2ts_rEnfRilyUS
+upP_0G
+}
+sprite $AutomatticLg [20x20/16z] {
+TP1POi0W24HHiqhWtV-sDMFZL_koEkpOIpqzCiFFQelj3WPnRv_Id8MtwPHokIuvvt0jBI7sOeEo1sIpxl18aVg06uEPexxE3TY0suJhvuOE799EECTdXm3K
+L4iUTO6GvkfYQSUClEpbcB5TgHyJ7VflB-rgajJBxH1h7JN0hTI4_6Px_-kVEnZKpgAtVtSgIXqKc_m
+}
+!procedure Automattic($id, $name="Automattic", $tech="")
+  IconElement($id, 'simpleicons-4/A/Automattic', $name, $tech)
+!endprocedure
+!procedure AutomatticCard($id, $funcName="", $content="")
+  IconCard($id, '<$AutomatticMd>', '', $funcName, $content)
+!endprocedure
+!procedure AutomatticGroup($id, $name='Automattic', $tech='')
+  IconGroup($id, 'IconGroup', '<$AutomatticLg>', $name, $tech)
+!endprocedure
+@enduml

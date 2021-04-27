@@ -1,0 +1,16 @@
+@startuml
+sprite $DattoMd [14x14/16z] dKW50S002CFz_UFU4m1pM1yzWhzH4O4KDjz3raXMZ1vssztDMmEI4oQYAykQAZ9Ab44OcOXH4PPt0G
+sprite $DattoLg [20x20/16z] {
+nKY50GGX30iaHIh7_jE-_mpNnd7ViNsilz3-M-Wp9H3y37Ejaldg-ynnWlI5Y7aqBDUun6kgPcnrfBHgCO6a1LX3g7bnRnQGieHLfX-B7T5hOwTvvA14jC4E
+2aqDHjnrJm
+}
+!procedure Datto($id, $name="Datto", $tech="")
+  IconElement($id, 'simpleicons-4/D/Datto', $name, $tech)
+!endprocedure
+!procedure DattoCard($id, $funcName="", $content="")
+  IconCard($id, '<$DattoMd>', '', $funcName, $content)
+!endprocedure
+!procedure DattoGroup($id, $name='Datto', $tech='')
+  IconGroup($id, 'IconGroup', '<$DattoLg>', $name, $tech)
+!endprocedure
+@enduml

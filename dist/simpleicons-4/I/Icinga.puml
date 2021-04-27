@@ -1,0 +1,16 @@
+@startuml
+sprite $IcingaMd [14x14/16z] LSnL0a9120LGSZhslrlleBuuFpGKU6sdsxlAAOAL4yKeQAuidfcWda7P6rSYQJTK7TLqCnR-LOFfnsBpJznSAR2e8nI9Qkvj2CfHuIRHfT_lu0C
+sprite $IcingaLg [20x20/16z] {
+PP050iGW30HBjCNs_wyzIpMt5M28BwS0QEmUp3BhW6IczK92iVf9Yg36rIr1sJPTs7HRGjxvk-WsWHbs1cm_Ktmr2fcRh67d-6aJelAnEEoHkw3mlQCmp4se
+ggW-4FzwTphFibbqPUqs8QpH4DtP_9yaMc9hHQV4tW
+}
+!procedure Icinga($id, $name="Icinga", $tech="")
+  IconElement($id, 'simpleicons-4/I/Icinga', $name, $tech)
+!endprocedure
+!procedure IcingaCard($id, $funcName="", $content="")
+  IconCard($id, '<$IcingaMd>', '', $funcName, $content)
+!endprocedure
+!procedure IcingaGroup($id, $name='Icinga', $tech='')
+  IconGroup($id, 'IconGroup', '<$IcingaLg>', $name, $tech)
+!endprocedure
+@enduml

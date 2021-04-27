@@ -1,0 +1,16 @@
+@startuml
+sprite $PhotopeaMd [14x14/16z] JSc55G0X30FGKC4X-qzxBjJ_w-GIPGNxDQk9Pjun3P00ksL8nqme9yg1aGQ3tIzs85Fqm3aTdHr-AXWZQWteZqO0GkKZZb8dNosnQDJ-Q-WE
+sprite $PhotopeaLg [20x20/16z] {
+bOu73WKX24J75Umozx_j3sRxflrdOKBd5-MNT4cpNHnsPebHAc-KW8NOrG48Mee0ScO1CdUnbyy07zy7AQwSZ30v1DjWGUH2a6W2z-NTPnig6r2DZ7ljtD1O
+WTK5xVBr0FLTb8Ul-ugEsjt76gEwlMft_l8PlxwikJzzbl43
+}
+!procedure Photopea($id, $name="Photopea", $tech="")
+  IconElement($id, 'simpleicons-4/P/Photopea', $name, $tech)
+!endprocedure
+!procedure PhotopeaCard($id, $funcName="", $content="")
+  IconCard($id, '<$PhotopeaMd>', '', $funcName, $content)
+!endprocedure
+!procedure PhotopeaGroup($id, $name='Photopea', $tech='')
+  IconGroup($id, 'IconGroup', '<$PhotopeaLg>', $name, $tech)
+!endprocedure
+@enduml

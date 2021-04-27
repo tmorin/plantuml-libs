@@ -1,0 +1,16 @@
+@startuml
+sprite $ClionMd [14x14/16z] bSUr0S0m00CmXpd-_zeoSxM9HpbLrZB502XEibSyCWEd1MNPiUEILfinGpkH7PmjGxLoZDhep1zAC9quhUQOKYoyqW8
+sprite $ClionLg [20x20/16z] {
+jSZ50SKW50J0nHBWoVPVRToEN-SuV8FKsfrMzHeVi4Wk6AyRaKHpfg0UunQ2S_KuHU5nuttvlZCJEgdoF7OWbm0Jn9ABxoa9Y8qIOWZHU33ZFxdbjCX9dbd7
+rQ1ysmm
+}
+!procedure Clion($id, $name="Clion", $tech="")
+  IconElement($id, 'simpleicons-4/C/Clion', $name, $tech)
+!endprocedure
+!procedure ClionCard($id, $funcName="", $content="")
+  IconCard($id, '<$ClionMd>', '', $funcName, $content)
+!endprocedure
+!procedure ClionGroup($id, $name='Clion', $tech='')
+  IconGroup($id, 'IconGroup', '<$ClionLg>', $name, $tech)
+!endprocedure
+@enduml

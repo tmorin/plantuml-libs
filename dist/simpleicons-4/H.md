@@ -1,6 +1,6 @@
 # H
 
-The module H contains 65 entries.
+The module H contains 66 entries.
 
 
 
@@ -21,6 +21,7 @@ The module H contains 65 entries.
 |![Harbor](../simpleicons-4/H/Harbor.element.png)|[simpleicons-4/H/Harbor](../simpleicons-4/H/Harbor.md)
 |![Hashnode](../simpleicons-4/H/Hashnode.element.png)|[simpleicons-4/H/Hashnode](../simpleicons-4/H/Hashnode.md)
 |![Haskell](../simpleicons-4/H/Haskell.element.png)|[simpleicons-4/H/Haskell](../simpleicons-4/H/Haskell.md)
+|![Hasura](../simpleicons-4/H/Hasura.element.png)|[simpleicons-4/H/Hasura](../simpleicons-4/H/Hasura.md)
 |![Hatenabookmark](../simpleicons-4/H/Hatenabookmark.element.png)|[simpleicons-4/H/Hatenabookmark](../simpleicons-4/H/Hatenabookmark.md)
 |![Haveibeenpwned](../simpleicons-4/H/Haveibeenpwned.element.png)|[simpleicons-4/H/Haveibeenpwned](../simpleicons-4/H/Haveibeenpwned.md)
 |![Haxe](../simpleicons-4/H/Haxe.element.png)|[simpleicons-4/H/Haxe](../simpleicons-4/H/Haxe.md)

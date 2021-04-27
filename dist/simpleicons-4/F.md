@@ -1,6 +1,6 @@
 # F
 
-The module F contains 75 entries.
+The module F contains 78 entries.
 
 
 
@@ -12,6 +12,7 @@ The module F contains 75 entries.
 |![Faceit](../simpleicons-4/F/Faceit.element.png)|[simpleicons-4/F/Faceit](../simpleicons-4/F/Faceit.md)
 |![Facepunch](../simpleicons-4/F/Facepunch.element.png)|[simpleicons-4/F/Facepunch](../simpleicons-4/F/Facepunch.md)
 |![Falcon](../simpleicons-4/F/Falcon.element.png)|[simpleicons-4/F/Falcon](../simpleicons-4/F/Falcon.md)
+|![Fampay](../simpleicons-4/F/Fampay.element.png)|[simpleicons-4/F/Fampay](../simpleicons-4/F/Fampay.md)
 |![Fandango](../simpleicons-4/F/Fandango.element.png)|[simpleicons-4/F/Fandango](../simpleicons-4/F/Fandango.md)
 |![Fandom](../simpleicons-4/F/Fandom.element.png)|[simpleicons-4/F/Fandom](../simpleicons-4/F/Fandom.md)
 |![Farfetch](../simpleicons-4/F/Farfetch.element.png)|[simpleicons-4/F/Farfetch](../simpleicons-4/F/Farfetch.md)
@@ -58,8 +59,10 @@ The module F contains 75 entries.
 |![Fnac](../simpleicons-4/F/Fnac.element.png)|[simpleicons-4/F/Fnac](../simpleicons-4/F/Fnac.md)
 |![Folium](../simpleicons-4/F/Folium.element.png)|[simpleicons-4/F/Folium](../simpleicons-4/F/Folium.md)
 |![Fontawesome](../simpleicons-4/F/Fontawesome.element.png)|[simpleicons-4/F/Fontawesome](../simpleicons-4/F/Fontawesome.md)
+|![Fontbase](../simpleicons-4/F/Fontbase.element.png)|[simpleicons-4/F/Fontbase](../simpleicons-4/F/Fontbase.md)
 |![Foodpanda](../simpleicons-4/F/Foodpanda.element.png)|[simpleicons-4/F/Foodpanda](../simpleicons-4/F/Foodpanda.md)
 |![Ford](../simpleicons-4/F/Ford.element.png)|[simpleicons-4/F/Ford](../simpleicons-4/F/Ford.md)
+|![Forestry](../simpleicons-4/F/Forestry.element.png)|[simpleicons-4/F/Forestry](../simpleicons-4/F/Forestry.md)
 |![Formstack](../simpleicons-4/F/Formstack.element.png)|[simpleicons-4/F/Formstack](../simpleicons-4/F/Formstack.md)
 |![Fortinet](../simpleicons-4/F/Fortinet.element.png)|[simpleicons-4/F/Fortinet](../simpleicons-4/F/Fortinet.md)
 |![Fortran](../simpleicons-4/F/Fortran.element.png)|[simpleicons-4/F/Fortran](../simpleicons-4/F/Fortran.md)

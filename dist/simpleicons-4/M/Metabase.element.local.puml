@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the simpleicons-4 bootstrap
+include('simpleicons-4/bootstrap')
+' loads the Metabase element
+include('simpleicons-4/M/Metabase')
+Metabase('metabase', 'Metabase', 'an optional tech field')
+@enduml

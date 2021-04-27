@@ -1,0 +1,19 @@
+@startuml
+sprite $ViteMd [14x14/16z] {
+HSt50S0024FHr8N0tt_Qkk3lXCwO4sYbPkXRoK2rRJy2kIGGQnqD-9GZwBhv4Qv5QkfHL2jf9DS0vwmpJ1eYBwYd5Zl7Mrgfi1-enMlshxGurW_db_QNfkNU
+Em
+}
+sprite $ViteLg [20x20/16z] {
+NSw55GGX303Hh07HwR_QizLt7zT4TgibG9U75WNGv4krRyianiyoRrqDe78VSI_0zZVXVEcme3vt7tj5w3VE5FlURf3pDoGGmK_u4Th1tNE_5aU-a6u1UB39
+JW4hGClbC1Me9UuiSkgGrh5IkKm9U1Ypt3O8DxeyEHgUapojgExfFYWLycSkLlatJ4vl
+}
+!procedure Vite($id, $name="Vite", $tech="")
+  IconElement($id, 'simpleicons-4/V/Vite', $name, $tech)
+!endprocedure
+!procedure ViteCard($id, $funcName="", $content="")
+  IconCard($id, '<$ViteMd>', '', $funcName, $content)
+!endprocedure
+!procedure ViteGroup($id, $name='Vite', $tech='')
+  IconGroup($id, 'IconGroup', '<$ViteLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,6 +1,6 @@
 # E
 
-The module E contains 56 entries.
+The module E contains 57 entries.
 
 
 
@@ -14,6 +14,7 @@ The module E contains 56 entries.
 |![Eclipseide](../simpleicons-4/E/Eclipseide.element.png)|[simpleicons-4/E/Eclipseide](../simpleicons-4/E/Eclipseide.md)
 |![Eclipsemosquitto](../simpleicons-4/E/Eclipsemosquitto.element.png)|[simpleicons-4/E/Eclipsemosquitto](../simpleicons-4/E/Eclipsemosquitto.md)
 |![EclipsevertDotX](../simpleicons-4/E/EclipsevertDotX.element.png)|[simpleicons-4/E/EclipsevertDotX](../simpleicons-4/E/EclipsevertDotX.md)
+|![Editorconfig](../simpleicons-4/E/Editorconfig.element.png)|[simpleicons-4/E/Editorconfig](../simpleicons-4/E/Editorconfig.md)
 |![Edx](../simpleicons-4/E/Edx.element.png)|[simpleicons-4/E/Edx](../simpleicons-4/E/Edx.md)
 |![Egghead](../simpleicons-4/E/Egghead.element.png)|[simpleicons-4/E/Egghead](../simpleicons-4/E/Egghead.md)
 |![Egnyte](../simpleicons-4/E/Egnyte.element.png)|[simpleicons-4/E/Egnyte](../simpleicons-4/E/Egnyte.md)

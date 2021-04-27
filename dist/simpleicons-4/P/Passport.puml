@@ -1,0 +1,16 @@
+@startuml
+sprite $PassportMd [14x14/16z] RSY5OGH134DHxJ3gzrzjSipcPqdPs3Zh4eDBZ0iwi1RGJuZW92L3LAXGTOhBZjKxdXMsJ-fmKO7sKDYGxkg6gRk07PvoFtJLNklqq4s0VkaV
+sprite $PassportLg [20x20/16z] {
+bSu54iGm30F0SD7I_tzxTgWqT2ffjY5dAI1XJt4pAvjndRHp6FSvoY92pf499jdxP8eqXftUcZ-rRgFq_Kh_xGyH-xQ18eVsS0AN0Me-20d_c7kP3Mk7kIpa
+iv_bCf3zA9TLEjp7DdzPzFgLBPXq8pGsvB8MzxVz
+}
+!procedure Passport($id, $name="Passport", $tech="")
+  IconElement($id, 'simpleicons-4/P/Passport', $name, $tech)
+!endprocedure
+!procedure PassportCard($id, $funcName="", $content="")
+  IconCard($id, '<$PassportMd>', '', $funcName, $content)
+!endprocedure
+!procedure PassportGroup($id, $name='Passport', $tech='')
+  IconGroup($id, 'IconGroup', '<$PassportLg>', $name, $tech)
+!endprocedure
+@enduml

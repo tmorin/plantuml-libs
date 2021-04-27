@@ -1,6 +1,6 @@
 # A
 
-The module A contains 183 entries.
+The module A contains 185 entries.
 
 
 
@@ -146,6 +146,7 @@ The module A contains 183 entries.
 |![Appstore](../simpleicons-4/A/Appstore.element.png)|[simpleicons-4/A/Appstore](../simpleicons-4/A/Appstore.md)
 |![Appveyor](../simpleicons-4/A/Appveyor.element.png)|[simpleicons-4/A/Appveyor](../simpleicons-4/A/Appveyor.md)
 |![Aral](../simpleicons-4/A/Aral.element.png)|[simpleicons-4/A/Aral](../simpleicons-4/A/Aral.md)
+|![Arangodb](../simpleicons-4/A/Arangodb.element.png)|[simpleicons-4/A/Arangodb](../simpleicons-4/A/Arangodb.md)
 |![Archicad](../simpleicons-4/A/Archicad.element.png)|[simpleicons-4/A/Archicad](../simpleicons-4/A/Archicad.md)
 |![Archiveofourown](../simpleicons-4/A/Archiveofourown.element.png)|[simpleicons-4/A/Archiveofourown](../simpleicons-4/A/Archiveofourown.md)
 |![Archlinux](../simpleicons-4/A/Archlinux.element.png)|[simpleicons-4/A/Archlinux](../simpleicons-4/A/Archlinux.md)
@@ -179,6 +180,7 @@ The module A contains 183 entries.
 |![Autodesk](../simpleicons-4/A/Autodesk.element.png)|[simpleicons-4/A/Autodesk](../simpleicons-4/A/Autodesk.md)
 |![Autohotkey](../simpleicons-4/A/Autohotkey.element.png)|[simpleicons-4/A/Autohotkey](../simpleicons-4/A/Autohotkey.md)
 |![Automatic](../simpleicons-4/A/Automatic.element.png)|[simpleicons-4/A/Automatic](../simpleicons-4/A/Automatic.md)
+|![Automattic](../simpleicons-4/A/Automattic.element.png)|[simpleicons-4/A/Automattic](../simpleicons-4/A/Automattic.md)
 |![Autotask](../simpleicons-4/A/Autotask.element.png)|[simpleicons-4/A/Autotask](../simpleicons-4/A/Autotask.md)
 |![Aventrix](../simpleicons-4/A/Aventrix.element.png)|[simpleicons-4/A/Aventrix](../simpleicons-4/A/Aventrix.md)
 |![Awesomelists](../simpleicons-4/A/Awesomelists.element.png)|[simpleicons-4/A/Awesomelists](../simpleicons-4/A/Awesomelists.md)

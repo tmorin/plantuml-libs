@@ -1,0 +1,19 @@
+@startuml
+sprite $KubuntuMd [14x14/16z] {
+JOp5WGKm44APpKuylFwh_MwSS2a6ny08IKep1-2K8e6cDMAJcep2oGmP1snrmFzjqS7500wjixig3np36MzbuBUvpy_Be4zwOMUD0Fz50gdLmgIaXBc0Xv2Y
+7zWz95q1
+}
+sprite $KubuntuLg [20x20/16z] {
+RP050WCX30I3Gsp__zi6wktDARDeA2W2E3PSw47JfzFsK1E0vFsERBuKD95Xq3YoD7Wpe53EzxoHQ2JPeAepavmX24gCsNZD8eQ6e1KyYE4TAr9Ew-bcxW9p
+YypmnFVpT3_8U-ogos0NQ_0U_zmBMkQbgBptN0mIUowaPy-bmfh3CwL4vnpjMGEcx5vfVHP6CWCc3nKq-wrfa1g7Dcw9DZS
+}
+!procedure Kubuntu($id, $name="Kubuntu", $tech="")
+  IconElement($id, 'simpleicons-4/K/Kubuntu', $name, $tech)
+!endprocedure
+!procedure KubuntuCard($id, $funcName="", $content="")
+  IconCard($id, '<$KubuntuMd>', '', $funcName, $content)
+!endprocedure
+!procedure KubuntuGroup($id, $name='Kubuntu', $tech='')
+  IconGroup($id, 'IconGroup', '<$KubuntuLg>', $name, $tech)
+!endprocedure
+@enduml

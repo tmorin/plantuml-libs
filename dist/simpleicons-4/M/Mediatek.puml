@@ -1,0 +1,13 @@
+@startuml
+sprite $MediatekMd [14x14/16z] hSf50S10302mmpBuLpkUW-QTLcEwsq_0bFKYgfOOAQmljsPsppVFLkC4
+sprite $MediatekLg [20x20/16z] pS570S0m34KnP_wNQVvisri7WaXsb8JUG6R3VtgkNhDeWifj-0fpBwa2QkeqXbVpln6ClsH7kG
+!procedure Mediatek($id, $name="Mediatek", $tech="")
+  IconElement($id, 'simpleicons-4/M/Mediatek', $name, $tech)
+!endprocedure
+!procedure MediatekCard($id, $funcName="", $content="")
+  IconCard($id, '<$MediatekMd>', '', $funcName, $content)
+!endprocedure
+!procedure MediatekGroup($id, $name='Mediatek', $tech='')
+  IconGroup($id, 'IconGroup', '<$MediatekLg>', $name, $tech)
+!endprocedure
+@enduml

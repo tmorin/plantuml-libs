@@ -1,0 +1,16 @@
+@startuml
+sprite $VerdaccioMd [14x14/16z] LOs50S0W4CI2ExV_j7KDl1ksww9RRDH3fEk3rvScATcg6KoIvfx1gWRNxdRgI7Um5ntbtGNkimlgRkTrDvpP_tMRtY01hftjpS4A
+sprite $VerdaccioLg [20x20/16z] {
+RP255GGX30K7NMFp-w_s77l7uCG3xjJ0wG12qK09u89fmW9drUgQJl_aZxgPVkVxSkczETwoqpltVdyL0bmwF0GrBaWgToctEW6AfRHFsKDCCFqf0jJqks9L
+cnIhcWsAHysYMzSlvLKF5hrQzXHm-QeHh-o09m
+}
+!procedure Verdaccio($id, $name="Verdaccio", $tech="")
+  IconElement($id, 'simpleicons-4/V/Verdaccio', $name, $tech)
+!endprocedure
+!procedure VerdaccioCard($id, $funcName="", $content="")
+  IconCard($id, '<$VerdaccioMd>', '', $funcName, $content)
+!endprocedure
+!procedure VerdaccioGroup($id, $name='Verdaccio', $tech='')
+  IconGroup($id, 'IconGroup', '<$VerdaccioLg>', $name, $tech)
+!endprocedure
+@enduml

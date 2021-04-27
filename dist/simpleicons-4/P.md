@@ -1,6 +1,6 @@
 # P
 
-The module P contains 126 entries.
+The module P contains 130 entries.
 
 
 
@@ -19,6 +19,7 @@ The module P contains 126 entries.
 |![Pantheon](../simpleicons-4/P/Pantheon.element.png)|[simpleicons-4/P/Pantheon](../simpleicons-4/P/Pantheon.md)
 |![Paritysubstrate](../simpleicons-4/P/Paritysubstrate.element.png)|[simpleicons-4/P/Paritysubstrate](../simpleicons-4/P/Paritysubstrate.md)
 |![ParseDotLy](../simpleicons-4/P/ParseDotLy.element.png)|[simpleicons-4/P/ParseDotLy](../simpleicons-4/P/ParseDotLy.md)
+|![Passport](../simpleicons-4/P/Passport.element.png)|[simpleicons-4/P/Passport](../simpleicons-4/P/Passport.md)
 |![Pastebin](../simpleicons-4/P/Pastebin.element.png)|[simpleicons-4/P/Pastebin](../simpleicons-4/P/Pastebin.md)
 |![Patreon](../simpleicons-4/P/Patreon.element.png)|[simpleicons-4/P/Patreon](../simpleicons-4/P/Patreon.md)
 |![Payoneer](../simpleicons-4/P/Payoneer.element.png)|[simpleicons-4/P/Payoneer](../simpleicons-4/P/Payoneer.md)
@@ -40,6 +41,7 @@ The module P contains 126 entries.
 |![Phonepe](../simpleicons-4/P/Phonepe.element.png)|[simpleicons-4/P/Phonepe](../simpleicons-4/P/Phonepe.md)
 |![Photobucket](../simpleicons-4/P/Photobucket.element.png)|[simpleicons-4/P/Photobucket](../simpleicons-4/P/Photobucket.md)
 |![Photocrowd](../simpleicons-4/P/Photocrowd.element.png)|[simpleicons-4/P/Photocrowd](../simpleicons-4/P/Photocrowd.md)
+|![Photopea](../simpleicons-4/P/Photopea.element.png)|[simpleicons-4/P/Photopea](../simpleicons-4/P/Photopea.md)
 |![Php](../simpleicons-4/P/Php.element.png)|[simpleicons-4/P/Php](../simpleicons-4/P/Php.md)
 |![Phpstorm](../simpleicons-4/P/Phpstorm.element.png)|[simpleicons-4/P/Phpstorm](../simpleicons-4/P/Phpstorm.md)
 |![PicartoDotTv](../simpleicons-4/P/PicartoDotTv.element.png)|[simpleicons-4/P/PicartoDotTv](../simpleicons-4/P/PicartoDotTv.md)
@@ -77,6 +79,7 @@ The module P contains 126 entries.
 |![Plurk](../simpleicons-4/P/Plurk.element.png)|[simpleicons-4/P/Plurk](../simpleicons-4/P/Plurk.md)
 |![Pluscodes](../simpleicons-4/P/Pluscodes.element.png)|[simpleicons-4/P/Pluscodes](../simpleicons-4/P/Pluscodes.md)
 |![Pm2](../simpleicons-4/P/Pm2.element.png)|[simpleicons-4/P/Pm2](../simpleicons-4/P/Pm2.md)
+|![Pnpm](../simpleicons-4/P/Pnpm.element.png)|[simpleicons-4/P/Pnpm](../simpleicons-4/P/Pnpm.md)
 |![Pocket](../simpleicons-4/P/Pocket.element.png)|[simpleicons-4/P/Pocket](../simpleicons-4/P/Pocket.md)
 |![Pocketcasts](../simpleicons-4/P/Pocketcasts.element.png)|[simpleicons-4/P/Pocketcasts](../simpleicons-4/P/Pocketcasts.md)
 |![Podcastaddict](../simpleicons-4/P/Podcastaddict.element.png)|[simpleicons-4/P/Podcastaddict](../simpleicons-4/P/Podcastaddict.md)
@@ -126,6 +129,7 @@ The module P contains 126 entries.
 |![Puppet](../simpleicons-4/P/Puppet.element.png)|[simpleicons-4/P/Puppet](../simpleicons-4/P/Puppet.md)
 |![Puppeteer](../simpleicons-4/P/Puppeteer.element.png)|[simpleicons-4/P/Puppeteer](../simpleicons-4/P/Puppeteer.md)
 |![Purescript](../simpleicons-4/P/Purescript.element.png)|[simpleicons-4/P/Purescript](../simpleicons-4/P/Purescript.md)
+|![Purgecss](../simpleicons-4/P/Purgecss.element.png)|[simpleicons-4/P/Purgecss](../simpleicons-4/P/Purgecss.md)
 |![Pycharm](../simpleicons-4/P/Pycharm.element.png)|[simpleicons-4/P/Pycharm](../simpleicons-4/P/Pycharm.md)
 |![Pypi](../simpleicons-4/P/Pypi.element.png)|[simpleicons-4/P/Pypi](../simpleicons-4/P/Pypi.md)
 |![Pypy](../simpleicons-4/P/Pypy.element.png)|[simpleicons-4/P/Pypy](../simpleicons-4/P/Pypy.md)

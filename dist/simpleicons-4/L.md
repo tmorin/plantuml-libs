@@ -1,6 +1,6 @@
 # L
 
-The module L contains 59 entries.
+The module L contains 60 entries.
 
 
 
@@ -34,6 +34,7 @@ The module L contains 59 entries.
 |![Libreoffice](../simpleicons-4/L/Libreoffice.element.png)|[simpleicons-4/L/Libreoffice](../simpleicons-4/L/Libreoffice.md)
 |![Libuv](../simpleicons-4/L/Libuv.element.png)|[simpleicons-4/L/Libuv](../simpleicons-4/L/Libuv.md)
 |![Lichess](../simpleicons-4/L/Lichess.element.png)|[simpleicons-4/L/Lichess](../simpleicons-4/L/Lichess.md)
+|![Lifx](../simpleicons-4/L/Lifx.element.png)|[simpleicons-4/L/Lifx](../simpleicons-4/L/Lifx.md)
 |![Lighthouse](../simpleicons-4/L/Lighthouse.element.png)|[simpleicons-4/L/Lighthouse](../simpleicons-4/L/Lighthouse.md)
 |![Line](../simpleicons-4/L/Line.element.png)|[simpleicons-4/L/Line](../simpleicons-4/L/Line.md)
 |![Lineageos](../simpleicons-4/L/Lineageos.element.png)|[simpleicons-4/L/Lineageos](../simpleicons-4/L/Lineageos.md)
