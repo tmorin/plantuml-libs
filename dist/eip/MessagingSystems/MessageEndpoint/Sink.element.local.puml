@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eip bootstrap
+include('eip/bootstrap')
+' loads the Sink element
+include('eip/MessagingSystems/MessageEndpoint/Sink')
+Sink('sink', 'Sink', 'an optional tech field')
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $ControlBusMd [14x9/16z] Oo046840pc5cPsTdPOBnM80y5cOuZmF8XVCOMO20aP3X
+sprite $ControlBusLg [20x13/16z] jKZ50O103Aidx3ymxlo0Q-FIv0m5LDbvSm98ZyTMwS-DbyqwabYt_NJ4oCyt
+!procedure ControlBus($id, $name="Control Bus", $tech="")
+  IconElement($id, 'eip/SystemManagement/ControlBus', $name, $tech)
+!endprocedure
+!procedure ControlBusCard($id, $funcName="", $content="")
+  IconCard($id, '<$ControlBusMd>', '', $funcName, $content)
+!endprocedure
+!procedure ControlBusGroup($id, $name='Control Bus', $tech='')
+  IconGroup($id, 'IconGroup', '<$ControlBusLg>', $name, $tech)
+!endprocedure
+@enduml

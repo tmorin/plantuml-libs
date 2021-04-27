@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageChannelMd [14x9/16z] VSkr0G1H242nXxF_mkVoAzA7aNm0UtaeaXv-2JM8VeKk4s6q0m
+sprite $MessageChannelLg [20x13/16z] hS710O0m30EnIs8ROF-1UG4Te1BRZNwZ333kXLiDYXUf7kZhl3xdRHNGbXVDTWy
+!procedure MessageChannel($id, $name="Message Channel", $tech="")
+  IconElement($id, 'eip/MessagingSystems/MessageChannel', $name, $tech)
+!endprocedure
+!procedure MessageChannelCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageChannelMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageChannelGroup($id, $name='Message Channel', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageChannelLg>', $name, $tech)
+!endprocedure
+@enduml

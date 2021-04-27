@@ -11,3 +11,4 @@ node bin/glib.js --pn gcp $@
 node bin/glib.js --pn homecloud $@
 node bin/glib.js --pn material-4.0 $@
 node bin/glib.js --pn simpleicons-4 $@
+node bin/glib.js --pn eip $@

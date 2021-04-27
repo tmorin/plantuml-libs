@@ -1,0 +1,13 @@
+@startuml
+sprite $DeadLetterChannelMd [14x9/16z] VOl50G1G24B1Tl-1VzvzTe0HaZUz0ZrucQgvW65kMMbdKC3hq3UTs-NhJXdP
+sprite $DeadLetterChannelLg [20x13/16z] hShL0S0W40FGimJTVzwcV3403pcrvx8amHEA-RSGKdsSYAWmAq9wvu3GGuin-f2rfsAVA3SrKRY4FVS1
+!procedure DeadLetterChannel($id, $name="Dead Letter Channel", $tech="")
+  IconElement($id, 'eip/MessagingChannels/DeadLetterChannel', $name, $tech)
+!endprocedure
+!procedure DeadLetterChannelCard($id, $funcName="", $content="")
+  IconCard($id, '<$DeadLetterChannelMd>', '', $funcName, $content)
+!endprocedure
+!procedure DeadLetterChannelGroup($id, $name='Dead Letter Channel', $tech='')
+  IconGroup($id, 'IconGroup', '<$DeadLetterChannelLg>', $name, $tech)
+!endprocedure
+@enduml

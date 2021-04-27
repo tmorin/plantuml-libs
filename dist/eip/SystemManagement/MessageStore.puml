@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageStoreMd [14x9/16z] JKc34G103BiosN_XDwhGrKpdJ4wJEQgBmaUQo4I83ZToCiEV0rp5NpVTwv8PiJeRC0ARA15M9Zi
+sprite $MessageStoreLg [20x13/16z] PSxL0KGX44FHpP2Hq7-_Qy-GYvyltDgI9R4L3llstUxZigo8-6uOhAiow3bQLR2z43QR4vjnDIcSiCHWNfaPmT60yN_4LgYs-WS
+!procedure MessageStore($id, $name="Message Store", $tech="")
+  IconElement($id, 'eip/SystemManagement/MessageStore', $name, $tech)
+!endprocedure
+!procedure MessageStoreCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageStoreMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageStoreGroup($id, $name='Message Store', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageStoreLg>', $name, $tech)
+!endprocedure
+@enduml

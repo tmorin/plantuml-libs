@@ -1,0 +1,16 @@
+@startuml
+sprite $MessageDispatcherMd [14x9/16z] DOm54G0W40Jd18V-TV5zLrC7CfbHUAX71FE0Mg9N1L9KN4jQbHoIHmijZR1d4Xt3SjpL0gZPQrFOnHBldq4VMt42
+sprite $MessageDispatcherLg [20x13/16z] {
+LOw54S0m30DFiWpb_QSjKpvW1gTzaA8nXJzM1CB15uj-YSO7pYE3V7muRfK1U7pkjEe28POVlxko8fSfQnvZwQyyI6HKGaJOln-orw_V1QRHYgsFrBMVy8S1
+8BfgoFtr6m
+}
+!procedure MessageDispatcher($id, $name="Message Dispatcher", $tech="")
+  IconElement($id, 'eip/MessagingEndpoints/MessageDispatcher', $name, $tech)
+!endprocedure
+!procedure MessageDispatcherCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageDispatcherMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageDispatcherGroup($id, $name='Message Dispatcher', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageDispatcherLg>', $name, $tech)
+!endprocedure
+@enduml

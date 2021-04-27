@@ -34,6 +34,7 @@ The available packages:
 - [aws-20210131](dist/aws-20210131/README.md)
 - [azure-v2](dist/azure-v2/README.md)
 - [c4model](dist/c4model/README.md)
+- [eip](dist/eip/README.md)
 - [eventstorming](dist/eventstorming/README.md)
 - [fontawesome-5.15](dist/fontawesome-5.15/README.md)
 - [gcp](dist/gcp/README.md)

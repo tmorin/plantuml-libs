@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageDoubleMd [14x9/16z] Om019XO69C3CZinZP6P0uR8meqYYy9WOaNbih2WQ4N88
+sprite $MessageDoubleLg [20x13/16z] bSYt0S0m4090G9_sNzYv4fMlF7mac2g_7jf9C2GNzrD6xCSLiWDX5nMMcNQWyDC9
+!procedure MessageDouble($id, $name="Message Double", $tech="")
+  IconElement($id, 'eip/MessagingSystems/MessageDouble', $name, $tech)
+!endprocedure
+!procedure MessageDoubleCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageDoubleMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageDoubleGroup($id, $name='Message Double', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageDoubleLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,13 @@
+@startuml
+sprite $SelectiveConsumerMd [14x9/16z] JOo54O0030ElCNp_TIdEdqO5lY2i5vI50w8vL87Ga1PiHGzMdCcRh2BHYe1mD1loc9LvgECGnwVv8pi
+sprite $SelectiveConsumerLg [20x13/16z] VSu54a8120JGsG3MllzfpGdrnvkaAUeFnrZe0l_iv03rj002dvpAB6TA9bDeiohfqhXodhaTFxCbbDlrNgPF3YIhI-_LltUnzuknq8Si71y
+!procedure SelectiveConsumer($id, $name="Selective Consumer", $tech="")
+  IconElement($id, 'eip/MessagingEndpoints/SelectiveConsumer', $name, $tech)
+!endprocedure
+!procedure SelectiveConsumerCard($id, $funcName="", $content="")
+  IconCard($id, '<$SelectiveConsumerMd>', '', $funcName, $content)
+!endprocedure
+!procedure SelectiveConsumerGroup($id, $name='Selective Consumer', $tech='')
+  IconGroup($id, 'IconGroup', '<$SelectiveConsumerLg>', $name, $tech)
+!endprocedure
+@enduml

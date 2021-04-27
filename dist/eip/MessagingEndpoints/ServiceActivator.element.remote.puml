@@ -1,0 +1,11 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/dist"
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eip bootstrap
+include('eip/bootstrap')
+' loads the ServiceActivator element
+include('eip/MessagingEndpoints/ServiceActivator')
+ServiceActivator('service_activator', 'Service Activator', 'an optional tech field')
+@enduml

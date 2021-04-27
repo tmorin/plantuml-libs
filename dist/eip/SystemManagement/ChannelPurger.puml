@@ -1,0 +1,13 @@
+@startuml
+sprite $ChannelPurgerMd [14x9/16z] JKo54GCn3Bk8slqdVeSv5Wea-kf_sFegq3-hip-h_uKw_mznK4l8Y_mYCC90RBrjL1OodvKF
+sprite $ChannelPurgerLg [20x13/16z] PSY53GGm30GmvQYm_xxFc5fiWms6wX0NcjSLvqWaVkzc3Ak4twjC2-qqJRA-TpT30dzN8rG_nVovfg8wPCt3lW8
+!procedure ChannelPurger($id, $name="Channel Purger", $tech="")
+  IconElement($id, 'eip/SystemManagement/ChannelPurger', $name, $tech)
+!endprocedure
+!procedure ChannelPurgerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ChannelPurgerMd>', '', $funcName, $content)
+!endprocedure
+!procedure ChannelPurgerGroup($id, $name='Channel Purger', $tech='')
+  IconGroup($id, 'IconGroup', '<$ChannelPurgerLg>', $name, $tech)
+!endprocedure
+@enduml

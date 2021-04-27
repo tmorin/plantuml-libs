@@ -1,0 +1,13 @@
+@startuml
+sprite $DocumentMessageMd [14x9/16z] Om019XO69C3CZinZP6P00Qoio3ms88y2
+sprite $DocumentMessageLg [20x13/16z] Ou029YO63C36XYd6pi48P-FJoyZ8nCA48SREnOgXaeMDcM5W0G
+!procedure DocumentMessage($id, $name="Document Message", $tech="")
+  IconElement($id, 'eip/MessageConstruction/DocumentMessage', $name, $tech)
+!endprocedure
+!procedure DocumentMessageCard($id, $funcName="", $content="")
+  IconCard($id, '<$DocumentMessageMd>', '', $funcName, $content)
+!endprocedure
+!procedure DocumentMessageGroup($id, $name='Document Message', $tech='')
+  IconGroup($id, 'IconGroup', '<$DocumentMessageLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -1,0 +1,39 @@
+@startuml
+
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the eip bootstrap
+include('eip/bootstrap')
+
+Title("Simple diagram to show some EIP shapes")
+
+include('eip/MessageConstruction/CommandMessage')
+include('eip/MessageConstruction/EventMessage')
+include('eip/MessagingChannels/DatatypeChannel')
+include('eip/MessagingSystems/MessageChannel')
+include('eip/MessagingEndpoints/CompetingConsumers')
+include('eip/MessagingEndpoints/Application')
+include('eip/MessageConstruction/DocumentMessage')
+
+Application('producer', 'producer')
+CommandMessage('cmd', 'a command')
+EventMessage('evt', 'an event')
+DatatypeChannel('queue', 'command queue', 'DatatypeChannel')
+CompetingConsumers('handler', 'command handler', 'CompetingConsumers')
+MessageChannel('bus', 'event bus', 'MessageChannel')
+MessageChannel('channel', 'result channel', 'MessageChannel')
+DocumentMessage('result', 'a result')
+
+producer -> cmd
+cmd -> queue
+queue -> handler
+handler -> evt
+handler --> result
+channel <- result
+producer <- channel
+evt -> bus
+@enduml

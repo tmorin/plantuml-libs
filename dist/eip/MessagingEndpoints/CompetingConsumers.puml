@@ -1,0 +1,16 @@
+@startuml
+sprite $CompetingConsumersMd [14x9/16z] 9Sc52GDH40HGHZSvwR_TO_aF6p6rI8rPuKZk8kPoxrI8mIq2iKtEE9rxtkmdEOHeRYEONh4GWII0wLCaEaXR_G
+sprite $CompetingConsumersLg [20x13/16z] {
+LOw54S0m30DFCXVtdxOCoGVDCie7IQKm52sI1Dp01-YOjNhZWqJDHYTV7nXfnCdhCnFbWIlJu7euDD8bCsEPV1tkFAZALQc4oz_FAuHjlyjhjOOasUcJYbkV
+eeMEmrVP4SSPTW
+}
+!procedure CompetingConsumers($id, $name="Competing Consumers", $tech="")
+  IconElement($id, 'eip/MessagingEndpoints/CompetingConsumers', $name, $tech)
+!endprocedure
+!procedure CompetingConsumersCard($id, $funcName="", $content="")
+  IconCard($id, '<$CompetingConsumersMd>', '', $funcName, $content)
+!endprocedure
+!procedure CompetingConsumersGroup($id, $name='Competing Consumers', $tech='')
+  IconGroup($id, 'IconGroup', '<$CompetingConsumersLg>', $name, $tech)
+!endprocedure
+@enduml

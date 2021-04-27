@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageExpirationMd [14x9/16z] ROkt0S10308FIR3_o6wS_wyYijAZnwJBVPafX2zdqOpk5zJTCHwB6uaT1m
+sprite $MessageExpirationLg [20x13/16z] bSon0G0X20J1NLIX_uh_GmYT3E2E9zxCms2jS1TT1ihfdoQ4aACDt35sb03hqgmIecGiyoTCohCF
+!procedure MessageExpiration($id, $name="Message Expiration", $tech="")
+  IconElement($id, 'eip/MessageConstruction/MessageExpiration', $name, $tech)
+!endprocedure
+!procedure MessageExpirationCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageExpirationMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageExpirationGroup($id, $name='Message Expiration', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageExpirationLg>', $name, $tech)
+!endprocedure
+@enduml

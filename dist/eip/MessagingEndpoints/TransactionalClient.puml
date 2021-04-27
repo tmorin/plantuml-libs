@@ -1,0 +1,16 @@
+@startuml
+sprite $TransactionalClientMd [14x9/16z] 9So53S0m40D06TNz9swSdEZHfgYqZSWAe3CcOh3Hf3nTrZW-OhLVj3DvErloSJlMujeooyp35o7xdgi_
+sprite $TransactionalClientLg [20x13/16z] {
+JSw50G8m30H0yf8lx3ymDUJgcXYS06fQ8n7LHlTarDGke9JOaZiDxBroXClXsYi6uEG9ohxNiaNAG7FM5XndH90UPS9QRrio_--vm12StFtzhpICWntS_EQq
+FUNafzf0JzppVeuhqvcztW
+}
+!procedure TransactionalClient($id, $name="Transactional Client", $tech="")
+  IconElement($id, 'eip/MessagingEndpoints/TransactionalClient', $name, $tech)
+!endprocedure
+!procedure TransactionalClientCard($id, $funcName="", $content="")
+  IconCard($id, '<$TransactionalClientMd>', '', $funcName, $content)
+!endprocedure
+!procedure TransactionalClientGroup($id, $name='Transactional Client', $tech='')
+  IconGroup($id, 'IconGroup', '<$TransactionalClientLg>', $name, $tech)
+!endprocedure
+@enduml

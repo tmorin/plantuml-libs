@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageFilterMd [14x9/16z] RKo54O0043hI_IUsMxy3C2KkjlGAgv5BZPVh42zztZ2tLZetgERru_ycy92Sj-XcdG
+sprite $MessageFilterLg [20x13/16z] ZSY53G9H40N0x3xxq7_1H3ZNYOyQEntMWLMzCnqIYTfSUOZDMb_tCDYzkPA9sXtpxc1jRglCEl1d77n_
+!procedure MessageFilter($id, $name="Message Filter", $tech="")
+  IconElement($id, 'eip/MessageRouting/MessageFilter', $name, $tech)
+!endprocedure
+!procedure MessageFilterCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageFilterMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageFilterGroup($id, $name='Message Filter', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageFilterLg>', $name, $tech)
+!endprocedure
+@enduml

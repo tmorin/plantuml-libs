@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eip bootstrap
+include('eip/bootstrap')
+' loads the TransactionalClient element
+include('eip/MessagingEndpoints/TransactionalClient')
+TransactionalClient('transactional_client', 'Transactional Client', 'an optional tech field')
+@enduml

@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the eip bootstrap
+include('eip/bootstrap')
+' loads the EventDrivenConsumer element
+include('eip/MessagingEndpoints/EventDrivenConsumer')
+EventDrivenConsumer('event_driven_consumer', 'Event Driven Consumer', 'an optional tech field')
+@enduml
