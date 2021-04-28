@@ -4,7 +4,7 @@ sprite $AwsParallelClusterLg [20x20/16z] {
 PSy73WGn3090dS61_x_uOgJjRCquLJlhbjxH5sDF_lGBnWhLjyBq8am-p60n_IGTnkwYTXheCSjT8A4rdngqbJu4EbqLWmT_DP-5c4bxLHChUuePGBM5mi9X
 rlv8IEsmaMtQtLRiGAEAKnmxS4wI-8RMsoA7VV0F
 }
-!procedure AwsParallelCluster($id, $name="Aws Parallel Cluster", $tech="")
+!procedure AwsParallelCluster($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Compute/AwsParallelCluster', $name, $tech)
 !endprocedure
 !procedure AwsParallelClusterCard($id, $funcName="", $content="")

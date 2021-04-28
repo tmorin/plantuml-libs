@@ -4,7 +4,7 @@ sprite $EventBridgeDefaultEventBusLg [20x20/16z] {
 hK_L0KCX38mVsN_XulBTTn1t-WBChosL8gOo0Hi-ArTTCgaIvShZIcg8WEaqgQ2AT3FFwi4eZwZ_LcQ_8MU_cVb8pWJ9oKFcN1wZ7vx3UYEvpbCWWCvqPvcQ
 LbJ1z2T-
 }
-!procedure EventBridgeDefaultEventBus($id, $name="Event Bridge Default Event Bus", $tech="")
+!procedure EventBridgeDefaultEventBus($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/EventBridgeDefaultEventBus', $name, $tech)
 !endprocedure
 !procedure EventBridgeDefaultEventBusCard($id, $funcName="", $content="")

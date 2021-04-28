@@ -4,7 +4,7 @@ sprite $AwsVpnLg [20x20/16z] {
 RSe93iGm24DHAIQ0dVlVTuXQqjb-c-q9NcKN5VyWJm_go8FQA8TX7bIX9f8qOx9D2P4KWE1jortScZ7QSjJkW9CJjrcMWuaW7RnCL4nf1fFekRLic0r8iUUM
 LiB2M1lS4DiAbMc2vSZWRXMMWkunfBP2JQkcUAomLjLsOTVsW-iFlW
 }
-!procedure AwsVpn($id, $name="Aws Vpn", $tech="")
+!procedure AwsVpn($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/NetworkingContent/AwsVpn', $name, $tech)
 !endprocedure
 !procedure AwsVpnCard($id, $funcName="", $content="")

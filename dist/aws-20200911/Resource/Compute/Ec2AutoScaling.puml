@@ -4,7 +4,7 @@ sprite $Ec2AutoScalingLg [20x20/16z] {
 VT3L0GKW3CNGq5na_uMVkt3-a2exS_2XZJb7uuqNV4ZuKWNRs5RWl13gMcWKcPnCgS59p2flTxMYaBpSkNAjFtp6sgyrVArXuyvetFIycStIydDN9uqFSx9p
 1
 }
-!procedure Ec2AutoScaling($id, $name="Ec2 Auto Scaling", $tech="")
+!procedure Ec2AutoScaling($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2AutoScaling', $name, $tech)
 !endprocedure
 !procedure Ec2AutoScalingCard($id, $funcName="", $content="")

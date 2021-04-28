@@ -4,7 +4,7 @@ sprite $AwsSiteToSiteVpnLg [20x20/16z] {
 RSu54WGn20NHgU576kv_toMstkKl0gpwgMNyGLx8GTyaCvsRlb25NiH2dtLpm1h7KE-LhBQkRUMIP9dCBh7lGNNmsi-zhDgjxBuB7DFUhHdzc70l1U-2r5WM
 JQhBw94OuvuPsuZ4OL6hysdX8-JBCfbcffTvniZPjdZtQIzy
 }
-!procedure AwsSiteToSiteVpn($id, $name="Aws Site To Site Vpn", $tech="")
+!procedure AwsSiteToSiteVpn($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/NetworkingContent/AwsSiteToSiteVpn', $name, $tech)
 !endprocedure
 !procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")

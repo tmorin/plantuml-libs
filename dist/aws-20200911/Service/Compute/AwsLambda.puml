@@ -4,7 +4,7 @@ sprite $AwsLambdaLg [20x20/16z] {
 RSu54iD034FHZcLGxt_X6C9P5VFc1oBdjrak5XWBR3A124viKyrIxC2nRF8hxkQG1Bcw7iNw2ZsEcTr25j9-3W_i8HjXwF0o6fYMeSLO3avJKsOOkpcA8m5I
 vMJDgZ4FVcQC2dtihm914kjFji5Q_yGvNhjiWHi
 }
-!procedure AwsLambda($id, $name="Aws Lambda", $tech="")
+!procedure AwsLambda($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Compute/AwsLambda', $name, $tech)
 !endprocedure
 !procedure AwsLambdaCard($id, $funcName="", $content="")

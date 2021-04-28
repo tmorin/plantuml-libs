@@ -4,7 +4,7 @@ sprite $AwsDirectConnectLg [20x20/16z] {
 RSk73GH124DHQKXZqt-_Povl-8ey6RpQdqfzxAi_4-6Bn9Hc5b-aa6bQMUnt73HCPbPu6yk9cbcjpwwioB0PnygN6GYtDP-QFmrEmiOI6o_hI7PwX148Wqo5
 UsQKr7pBMjQ085mdrEv1mZBIWtZMWxsTOFdFcktcQcr-J1XKdVcpqLUtnfyTyG4
 }
-!procedure AwsDirectConnect($id, $name="Aws Direct Connect", $tech="")
+!procedure AwsDirectConnect($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/NetworkingContent/AwsDirectConnect', $name, $tech)
 !endprocedure
 !procedure AwsDirectConnectCard($id, $funcName="", $content="")

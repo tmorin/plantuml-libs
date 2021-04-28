@@ -4,7 +4,7 @@ sprite $AmazonConnectLg [20x20/16z] {
 RSe73a0X20FGH41Aw_sl-uSZKsM-GBBEmtwy82-uZ4HnupQckKLDF0O3AnoOE4qE5UbcMVXGfCe82rRsDYz5qRgo_MvX-Q6awACYFD7yysrLPa9hoQ9ZMWOz
 17EItJbDuUuf_CshbgcOeUu0o6CQvHuK9srJ6NxXrA7po8FZWkE2uu8l
 }
-!procedure AmazonConnect($id, $name="Amazon Connect", $tech="")
+!procedure AmazonConnect($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/CustomerEnagagement/AmazonConnect', $name, $tech)
 !endprocedure
 !procedure AmazonConnectCard($id, $funcName="", $content="")

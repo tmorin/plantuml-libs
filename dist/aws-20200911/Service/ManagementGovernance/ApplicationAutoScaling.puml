@@ -4,7 +4,7 @@ sprite $ApplicationAutoScalingLg [20x20/16z] {
 RSy5jiGW44JH4rghUl_h_S9Guoz-Ou1Tg_eFNn12-PF1348UYhL2I656Anva9LwCQ7Et0cJJDHMibSp2pIgkgXWtv1NvP8xwss_Jkx2_cbdSTegWfZcoRkBW
 23EXvc2kbPGT77TI9jmxsKOb-y1V
 }
-!procedure ApplicationAutoScaling($id, $name="Application Auto Scaling", $tech="")
+!procedure ApplicationAutoScaling($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/ManagementGovernance/ApplicationAutoScaling', $name, $tech)
 !endprocedure
 !procedure ApplicationAutoScalingCard($id, $funcName="", $content="")

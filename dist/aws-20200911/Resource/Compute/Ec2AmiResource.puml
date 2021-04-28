@@ -4,7 +4,7 @@ sprite $Ec2AmiResourceLg [20x20/16z] {
 bOq50WH02087Ll7_Bxxkljcq0F0T0Cu3XX5tE8TzYuZSJ7TFkdFuqFjSW3Qi0lAGwuVSEkPqpksOoqNayC31js-fOsuifQIAv5U-V-PcsIcxOw_Pvq8z-X9p
 XmFE0mBG7S0M
 }
-!procedure Ec2AmiResource($id, $name="Ec2 Ami Resource", $tech="")
+!procedure Ec2AmiResource($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2AmiResource', $name, $tech)
 !endprocedure
 !procedure Ec2AmiResourceCard($id, $funcName="", $content="")

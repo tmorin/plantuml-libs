@@ -4,7 +4,7 @@ sprite $IoTThingWindfarmLg [20x20/16z] {
 NP070aCX24C39C3zJrmjTBu_rESEBWRx54j2JfgGM9pDKfQQJHzLV26ouZeIIt1QblrsvSTrsjSuvlq9CDKwAxkkPKSIxcvHXUkEGYIHXzQCgp1mvvhQduup
 zmcZOkQQUbqwEcOFyECyvYpP7uV_CtESxZ-A7pO3X5gTLRTG_6RgdqmtTBDtzWy
 }
-!procedure IoTThingWindfarm($id, $name="Io T Thing Windfarm", $tech="")
+!procedure IoTThingWindfarm($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/LoT/IoTThingWindfarm', $name, $tech)
 !endprocedure
 !procedure IoTThingWindfarmCard($id, $funcName="", $content="")

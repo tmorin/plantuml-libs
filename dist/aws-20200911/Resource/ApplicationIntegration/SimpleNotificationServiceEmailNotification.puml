@@ -4,7 +4,7 @@ sprite $SimpleNotificationServiceEmailNotificationLg [20x20/16z] {
 ROo5jKHH20CdGU_st-ztMNaJ3WuWyqoUFU817L7B0rxGUcVsMplY9DDKLUINV8psD9GhAofIhDryahOZ8jEVlLlFTCzEpwTjtqpa4u66jllUIO50Towav8cK
 0eFlN4Zz-eyWfRnpWPgowywr53mHrxrXx0SdZAK7npi
 }
-!procedure SimpleNotificationServiceEmailNotification($id, $name="Simple Notification Service Email Notification", $tech="")
+!procedure SimpleNotificationServiceEmailNotification($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/ApplicationIntegration/SimpleNotificationServiceEmailNotification', $name, $tech)
 !endprocedure
 !procedure SimpleNotificationServiceEmailNotificationCard($id, $funcName="", $content="")

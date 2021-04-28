@@ -4,7 +4,7 @@ sprite $Route53HostedZoneLg [20x20/16z] {
 ROw50GCn30DZbhl_m7trIm45VSPnbYTln7K9v8MqqH6TW6S3HFAmOPdA-91HTUTCebqvipPUye-YU9TFgRQp8fCvrpbC7dgqpCnhACOimSu8O3Ehk7Z7VsRX
 Vhf2-BF4Dq0i6sADq7c41i6ilp6V
 }
-!procedure Route53HostedZone($id, $name="Route53 Hosted Zone", $tech="")
+!procedure Route53HostedZone($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/Route53HostedZone', $name, $tech)
 !endprocedure
 !procedure Route53HostedZoneCard($id, $funcName="", $content="")

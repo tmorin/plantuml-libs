@@ -4,7 +4,7 @@ sprite $Ec2C5InstanceLg [20x20/16z] {
 bP255SDG24LvwFuRzo1jutAJRpXGWzb-g9B_ji4CWTd6BNn1P00nfmLkGgHRMOR4MeQC5YK324XP1CPEJTWuPRySiBnWbGDMWR7AaRwg1pbedUE7l-fZEuFz
 hAvckftz1m
 }
-!procedure Ec2C5Instance($id, $name="Ec2 C5 Instance", $tech="")
+!procedure Ec2C5Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2C5Instance', $name, $tech)
 !endprocedure
 !procedure Ec2C5InstanceCard($id, $funcName="", $content="")

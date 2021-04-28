@@ -4,7 +4,7 @@ sprite $AmazonDetectiveLg [20x20/16z] {
 RSm7Ui0m24FXhqO297h_ypOxNI_JluUk-gwgz0zQRpVwGYu6BlI97Or2wZRBZjo-jLgtMIl09E8ZTLip0a04NlCajelXP-_8YksBKkio8hgYmMffm_6GLdI2
 ggKTPupDYomq5tQS6NW-CxKA7EAqYiu5NuUSDiq4DaIoSTcM4MuENhF7HzfwrprTTkkDNm
 }
-!procedure AmazonDetective($id, $name="Amazon Detective", $tech="")
+!procedure AmazonDetective($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/SecurityIdentityCompliance/AmazonDetective', $name, $tech)
 !endprocedure
 !procedure AmazonDetectiveCard($id, $funcName="", $content="")

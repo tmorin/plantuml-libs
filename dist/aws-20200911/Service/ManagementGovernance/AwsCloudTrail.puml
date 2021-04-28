@@ -4,7 +4,7 @@ sprite $AwsCloudTrailLg [20x20/16z] {
 RSq53W0n24JHPD4Pxd_UjLg47tyjWBzSnHSQH8Dea0ro83EESg29obP-I5Cm90BR2250lyH-7EGSPox3DD_NKmt3pA3EuPAVLMf4g1b8vcT5XbbugFgRE5uh
 PZgSuMxl8zxgZyKHbl70jesSrc0r-
 }
-!procedure AwsCloudTrail($id, $name="Aws Cloud Trail", $tech="")
+!procedure AwsCloudTrail($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsCloudTrail', $name, $tech)
 !endprocedure
 !procedure AwsCloudTrailCard($id, $funcName="", $content="")

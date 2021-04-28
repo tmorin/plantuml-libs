@@ -4,7 +4,7 @@ sprite $SagemakerTrainLg [20x20/16z] {
 bSrNOiOm20DWn99y_mktuFOVZ_aIRuOzXQo2VGbLbie-k3Q6QM-CcHFwlDkfhNtVgYfRbkWswudtaqE8qnEAkQCvWARDgSusRF1NYmwqaZVk2l8KFRLnMcmG
 E9vynzq6KCYTwBemJS6QkFWpSSjF_4l1hkgNj6T-
 }
-!procedure SagemakerTrain($id, $name="Sagemaker Train", $tech="")
+!procedure SagemakerTrain($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/MachineLearning/SagemakerTrain', $name, $tech)
 !endprocedure
 !procedure SagemakerTrainCard($id, $funcName="", $content="")

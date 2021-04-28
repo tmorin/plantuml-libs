@@ -4,7 +4,7 @@ sprite $SagemakerNotebookLg [20x20/16z] {
 dP250SHG24E31lOV-5pgzjflE00G7O4dh6H-8Fibf690wdFhDh3UABXkLmRpD_AMWGP4nfFyoAAfKryf1v9lz2spIe5--DZvKoOFbdpVmjKSe2tMFBVJgtRl
 cVvfnTBixm
 }
-!procedure SagemakerNotebook($id, $name="Sagemaker Notebook", $tech="")
+!procedure SagemakerNotebook($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/MachineLearning/SagemakerNotebook', $name, $tech)
 !endprocedure
 !procedure SagemakerNotebookCard($id, $funcName="", $content="")

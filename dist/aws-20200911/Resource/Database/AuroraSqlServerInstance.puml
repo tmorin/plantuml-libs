@@ -4,7 +4,7 @@ sprite $AuroraSqlServerInstanceLg [20x20/16z] {
 TSq50iGm24JHcG4Ie7l_wwvRxTTV8m1DVna1HEUgTh2nZarBLxX10O0WaBhRY9ZWY3bYpEaFi_jhECRzTdyDFGo0yDVRS6xAofg3VwPsab7_vakO-RZetz8p
 fzVQy6XjIrLMBVyM4p8XRJNEHSLgd6TaffVO_9ZLurKjUEUhCd_kOG2eTmH8tBi1
 }
-!procedure AuroraSqlServerInstance($id, $name="Aurora Sql Server Instance", $tech="")
+!procedure AuroraSqlServerInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/AuroraSqlServerInstance', $name, $tech)
 !endprocedure
 !procedure AuroraSqlServerInstanceCard($id, $funcName="", $content="")

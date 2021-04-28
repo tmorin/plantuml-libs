@@ -4,7 +4,7 @@ sprite $ElasticContainerRegistryImageLg [20x20/16z] {
 ZP254G11308X7xZhl-5tzntVYGB62O95rWwhC8mJZdzEYsiKPvTk2a_EWSpRkXnhlP-NZX9BdJJL0eCSwvpfIG4i7EgaeR8nHiA5h3asLiomhl-cBdy0yis_
 qjM1YripzPRfNVOT
 }
-!procedure ElasticContainerRegistryImage($id, $name="Elastic Container Registry Image", $tech="")
+!procedure ElasticContainerRegistryImage($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Containers/ElasticContainerRegistryImage', $name, $tech)
 !endprocedure
 !procedure ElasticContainerRegistryImageCard($id, $funcName="", $content="")

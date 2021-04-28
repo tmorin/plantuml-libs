@@ -4,7 +4,7 @@ sprite $SavingsPlansLg [20x20/16z] {
 RSZ1bSKm20F0RmC8YVxxNIUy-BHp71xrmU0_EJTzRzBjYCavM1OBRdLshWo0Po8cHSgJQuUlbCUJaif8cDjEmEeuXn1fUxjP6URod9kx5VaTl3qKXLtn7REi
 ysVAo5_CgICx5bZ6uZs8jaaZxy4xrnQSRxOU7ZJ0Yc_sPFXHugidMwJ4UoS7xzsy-mS
 }
-!procedure SavingsPlans($id, $name="Savings Plans", $tech="")
+!procedure SavingsPlans($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/CostManagement/SavingsPlans', $name, $tech)
 !endprocedure
 !procedure SavingsPlansCard($id, $funcName="", $content="")

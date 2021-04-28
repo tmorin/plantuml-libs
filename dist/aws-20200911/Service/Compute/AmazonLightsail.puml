@@ -4,7 +4,7 @@ sprite $AmazonLightsailLg [20x20/16z] {
 TSq7RiHG30DHG9GulF-98yHApuxxyozi_jPi_8FyWsVV-GohIgK7ZwgDH_NDoWmgkiw8EbvJerxB4WBISZ7bjSGUxrL6zgTjPvmb0ZAoPlGOwGw-FRXnb9ce
 CeNN3flONOQrmzRMiArTRE6za-Cl-wBNuzu
 }
-!procedure AmazonLightsail($id, $name="Amazon Lightsail", $tech="")
+!procedure AmazonLightsail($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Compute/AmazonLightsail', $name, $tech)
 !endprocedure
 !procedure AmazonLightsailCard($id, $funcName="", $content="")

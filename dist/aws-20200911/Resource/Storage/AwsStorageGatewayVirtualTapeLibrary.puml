@@ -4,7 +4,7 @@ sprite $AwsStorageGatewayVirtualTapeLibraryLg [20x20/16z] {
 LT050e0W44JHluttFx1DZVqi643N24-yvPAcZuMp98UfchdfPk8cfhiHAgQscu28oMezY-dh4YxTpCgYqEPUyfkdFFimy8ZF8W6B5D3ixwP3gGUanMzKjYFh
 g8fr7lAlYo6zfsdwz5MrMmAIh_LEwxKsEcLKBl_91G
 }
-!procedure AwsStorageGatewayVirtualTapeLibrary($id, $name="Aws Storage Gateway Virtual Tape Library", $tech="")
+!procedure AwsStorageGatewayVirtualTapeLibrary($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary', $name, $tech)
 !endprocedure
 !procedure AwsStorageGatewayVirtualTapeLibraryCard($id, $funcName="", $content="")

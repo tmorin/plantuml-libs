@@ -4,7 +4,7 @@ sprite $IoTThingHouseLg [20x20/16z] {
 TL07aWCn349Q1Fh_Yy_rMXAsCAQuOI8GFtGWL99Pq5MINLrs3M9koVm5Bv7SLkAEGhqqsfjRSN9bm7LpDNCIiF_iYY5o9tQQGy8ZsZYmgGUWcSudCRxef8dL
 LRMpowdLNMk8hHJcHzVUYmR5qUwURSaUv9yzHsOa1WN8JtU0PBFBga7CZtVwUlTV
 }
-!procedure IoTThingHouse($id, $name="Io T Thing House", $tech="")
+!procedure IoTThingHouse($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/LoT/IoTThingHouse', $name, $tech)
 !endprocedure
 !procedure IoTThingHouseCard($id, $funcName="", $content="")

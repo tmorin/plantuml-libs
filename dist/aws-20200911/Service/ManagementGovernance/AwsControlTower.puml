@@ -4,7 +4,7 @@ sprite $AwsControlTowerLg [20x20/16z] {
 RSzPaaCn24FHAcDX9FQ_tkw41vdlv_48gvZEFVv03WwFVUnKam0EgX4aebEXKB6jy91c37zQRYZCWjXienDcQzb2u64QuvZI8TPPY6sIKsOYhizdMHu7q0D4
 NgXDRdRPcExvj4PI6YkSsdvW_i1_
 }
-!procedure AwsControlTower($id, $name="Aws Control Tower", $tech="")
+!procedure AwsControlTower($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsControlTower', $name, $tech)
 !endprocedure
 !procedure AwsControlTowerCard($id, $funcName="", $content="")

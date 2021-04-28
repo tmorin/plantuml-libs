@@ -7,7 +7,7 @@ sprite $AwsAppMeshVirtualRouterLg [20x20/16z] {
 RL076eKX24fRuFqF_E3jVr29so_R6v4PxH-nyCJwkKUzZ5Wrtgx9a0rOShwoQBa4CvqPVDObsILVfi8XI-oI_MHcs-uozGfieOlMGCNsJiwPiYBbor8PKDaC
 f7tEdPxxzjaEIgN52DTwngh-ch489tWsTuKv2p3B7trFRW3i8sH-_uOrOUQusS7jhkvtUhVx1m
 }
-!procedure AwsAppMeshVirtualRouter($id, $name="Aws App Mesh Virtual Router", $tech="")
+!procedure AwsAppMeshVirtualRouter($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualRouter', $name, $tech)
 !endprocedure
 !procedure AwsAppMeshVirtualRouterCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $Ec2M6GInstanceLg [20x20/16z] {
 ZP250KLH249HGFUV-EVhFhTJ0NzYw2OarDGDsD4nTCEphWKT0EZ2WZ81RVS48DPx0KHt9P64-Dlh_kwQZH85K57_6APBj4HH_iSmcVdT-K0FCIA0X19Pz11Z
 2aeDCNQvFDQnzs3lrRcdU-_V
 }
-!procedure Ec2M6GInstance($id, $name="Ec2 M6 G Instance", $tech="")
+!procedure Ec2M6GInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2M6GInstance', $name, $tech)
 !endprocedure
 !procedure Ec2M6GInstanceCard($id, $funcName="", $content="")

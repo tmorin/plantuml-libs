@@ -1,7 +1,7 @@
 @startuml
 sprite $Ec2H1InstanceMd [14x14/16z] LOx70GH13C8a1lTVykMmriiH04GLUJ7fESsyctuOS8OFCvBoeS4MnK0hfwHDGm-VpZoxpwKexLPXEsptdModlWC
 sprite $Ec2H1InstanceLg [20x20/16z] bP250SKm20Nl1Tj_ugzrpxKn7FYZOPjm9wTj84AbOHlSAXUK08jaGOQ1RsKEQ2qJg6ejgzBVJewtbeASSYXRD4BB74kPi_35TPDZAUleOp-3_QpEPxgV_Hi
-!procedure Ec2H1Instance($id, $name="Ec2 H1 Instance", $tech="")
+!procedure Ec2H1Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2H1Instance', $name, $tech)
 !endprocedure
 !procedure Ec2H1InstanceCard($id, $funcName="", $content="")

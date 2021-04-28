@@ -4,7 +4,7 @@ sprite $IoTThingDoorLockLg [20x20/16z] {
 TP290iCm24AZ4V3_ltYqTlT64ezdJzQXy7gc4HUoAk7YKbQZ8SAfSf3AWbMMJbYrrXO1QayNR4TFz_OTPisO2GCIWjC5-c35ArGZ3D-PqTfylvVRGITRwSsh
 3Gm3XY6CPAQ8xZZl5UxVaelqTM_V7D_V31PGn7JZ0TIMC1wCLwKY8HVvrzDlxsy
 }
-!procedure IoTThingDoorLock($id, $name="Io T Thing Door Lock", $tech="")
+!procedure IoTThingDoorLock($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/LoT/IoTThingDoorLock', $name, $tech)
 !endprocedure
 !procedure IoTThingDoorLockCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $SimpleStorageS3ReplicationLg [20x20/16z] {
 RP055iGm448x1jdxNtZ9r8Lg_cDq-LPaWGGg3a9ak9bv5BsH3PiVbpaJQIkZ6uZA276sbU6CCxbHLZq3IhYIg24ZV64NRY6dhtBYKzIJDR4KrGrWVMMVSZ1r
 d3x34jXg5gj-rGcCvvnZp25WmeVMeU72PrbhEmr-Pu9-RkbC7VGD0MSv41BLuLNclbVw0m
 }
-!procedure SimpleStorageS3Replication($id, $name="Simple Storage S3 Replication", $tech="")
+!procedure SimpleStorageS3Replication($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageS3Replication', $name, $tech)
 !endprocedure
 !procedure SimpleStorageS3ReplicationCard($id, $funcName="", $content="")

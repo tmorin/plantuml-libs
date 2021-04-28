@@ -4,7 +4,7 @@ sprite $Ec2T3InstanceLg [20x20/16z] {
 bP255S1024EJ7e7zD-vBtUMtPpXWXDEs485SjWc9nMcRt2etb0Cq9JQa6X17cKDoBwEZbMKaGLfMnSakChhm9JSv1AZjSrX6SPz3O6YVmn3x70lveu_p3Cwp
 kf_fUVOz
 }
-!procedure Ec2T3Instance($id, $name="Ec2 T3 Instance", $tech="")
+!procedure Ec2T3Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2T3Instance', $name, $tech)
 !endprocedure
 !procedure Ec2T3InstanceCard($id, $funcName="", $content="")

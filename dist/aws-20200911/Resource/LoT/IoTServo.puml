@@ -4,7 +4,7 @@ sprite $IoTServoLg [20x20/16z] {
 fSYt0SKm509012-W_GV-qTcbhpmyKJTW3_wCDZzSJHOMT03fKOS3fstYT1ZKm7AH0CZVBwVAJtQVhmBLNOS31IX2vnEnM4xJdZeTPm1X7gxRbEYcVcWYR_34
 6m
 }
-!procedure IoTServo($id, $name="Io T Servo", $tech="")
+!procedure IoTServo($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/LoT/IoTServo', $name, $tech)
 !endprocedure
 !procedure IoTServoCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $VpcVpnGatewayLg [20x20/16z] {
 RL070WCn299CkFy_k5NINMuoagXnWDOGxy1YORtaSPbWNUD8KqyRcax9Xgb6MIW3UD6rqjvtFdQ4kV2fGG7MIecKQZNHw3nwX_TXAstEQ6JBRseuMYVxqH12
 QR7fBvXx-R_t_9f3Y7djWkQpXGmPxkrt1lzdzN-clxE_0G
 }
-!procedure VpcVpnGateway($id, $name="Vpc Vpn Gateway", $tech="")
+!procedure VpcVpnGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcVpnGateway', $name, $tech)
 !endprocedure
 !procedure VpcVpnGatewayCard($id, $funcName="", $content="")

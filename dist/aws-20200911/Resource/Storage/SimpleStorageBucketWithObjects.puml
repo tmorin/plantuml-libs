@@ -4,7 +4,7 @@ sprite $SimpleStorageBucketWithObjectsLg [20x20/16z] {
 LL0BRWKW20CihSdkVz_HCBUz-jT-3B78gihuGpKVkfOX8HyRalT4_0VeEzL_7_cksM8tW6wgsIRFL0Tm7mLiTRYgiqjxBSwuKL_ho_Givo3oICCHzWxCQrAs
 gDjcbxTmMWKkyLm7qBbPt2J443dyUJuTnYmwgJY2dgZe3oZdiKmsXjAIrbIvArcPMrZohpuBVTOjqzmVV0C
 }
-!procedure SimpleStorageBucketWithObjects($id, $name="Simple Storage Bucket With Objects", $tech="")
+!procedure SimpleStorageBucketWithObjects($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Storage/SimpleStorageBucketWithObjects', $name, $tech)
 !endprocedure
 !procedure SimpleStorageBucketWithObjectsCard($id, $funcName="", $content="")

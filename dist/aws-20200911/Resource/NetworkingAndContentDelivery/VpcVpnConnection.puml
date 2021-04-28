@@ -4,7 +4,7 @@ sprite $VpcVpnConnectionLg [20x20/16z] {
 PSzPbWCn24DH92XRk7l_wms7fERd-VxPzaXxH4aPTrfkXZkgNym3jZBqJS3MbvbW400Hv1f5_DUiqTKb_r0OMSkw09RtpGrfdMYq3j9Ijr8_Sm447GGKFvlz
 aVGwnjLcU3xDC-DfDgQzR1jl0z_M7SOrzMikjn_w4Qtw
 }
-!procedure VpcVpnConnection($id, $name="Vpc Vpn Connection", $tech="")
+!procedure VpcVpnConnection($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcVpnConnection', $name, $tech)
 !endprocedure
 !procedure VpcVpnConnectionCard($id, $funcName="", $content="")

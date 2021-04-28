@@ -1,7 +1,7 @@
 @startuml
 sprite $Ec2ElasticIpAddressMd [14x14/16z] Oo0NCBAmC45PGCpA148W01Hb1h5OcO60YPcTaPaPcGTKnWXNYMeAsG
 sprite $Ec2ElasticIpAddressLg [20x20/16z] pOjL0e1024GNcBZ_YUtMV_VHCUqtWcBUL-cAAVPHkQVGeLBi4rbOAFbhzzAcOaf6bdFVJQk901cj1qO
-!procedure Ec2ElasticIpAddress($id, $name="Ec2 Elastic Ip Address", $tech="")
+!procedure Ec2ElasticIpAddress($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/Ec2ElasticIpAddress', $name, $tech)
 !endprocedure
 !procedure Ec2ElasticIpAddressCard($id, $funcName="", $content="")

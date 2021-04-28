@@ -4,7 +4,7 @@ sprite $AwsEc2ImageBuilderLg [20x20/16z] {
 NSq74eH024JHiWEDzx_micRzbTyCaAaUURhjnbnT-3Thopfn39e8mlQ6OqmNINi1V1XYE6Agl1p6qHuZGsQiEvHQba9vqM4i8sE569UH_J6vMLPJ1Mrst32f
 wBhHHhMLf9RBrb1q0QZniOR-GQWQ6XmhRvLpDBQkQszTDjrosrT_
 }
-!procedure AwsEc2ImageBuilder($id, $name="Aws Ec2 Image Builder", $tech="")
+!procedure AwsEc2ImageBuilder($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Compute/AwsEc2ImageBuilder', $name, $tech)
 !endprocedure
 !procedure AwsEc2ImageBuilderCard($id, $funcName="", $content="")

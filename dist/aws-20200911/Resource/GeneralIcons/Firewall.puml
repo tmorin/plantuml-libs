@@ -4,7 +4,7 @@ sprite $FirewallLg [20x20/16z] {
 ZSvLOWCm283Xd-0as_rlEtTf-xtXSBlSAlnWGyxFR2jpX4-MH62x-EIdAj1AvuEctYjQsgsyMOr21ETptEhrZDoPyAODq6ObrTrZi1gW3620ID06QC4ZZhlt
 63A0DBeZlCR3zoBhDLU05z0ArOiHcJqzisT6Nh_94UhruWTHoDqznGyYmdyU0G
 }
-!procedure Firewall($id, $name="Firewall", $tech="")
+!procedure Firewall($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/GeneralIcons/Firewall', $name, $tech)
 !endprocedure
 !procedure FirewallCard($id, $funcName="", $content="")

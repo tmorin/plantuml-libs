@@ -4,7 +4,7 @@ sprite $SdkLg [20x20/16z] {
 XT255GCX40JGWVKv-gytRuaxpiV1Zp0onmivpUYFeeoU5DIhpAhvqh8b0AHgLylQYZaH565Y1Aijft35FcXHPsuJ6DC1oyCWDtDaLSAV3H5ujkwtFvZGseno
 iRxNwEsgNopLPlj5ayU-C-tXHUwNrlqFslOVt8CNMVxtJv_32G
 }
-!procedure Sdk($id, $name="Sdk", $tech="")
+!procedure Sdk($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/GeneralIcons/Sdk', $name, $tech)
 !endprocedure
 !procedure SdkCard($id, $funcName="", $content="")

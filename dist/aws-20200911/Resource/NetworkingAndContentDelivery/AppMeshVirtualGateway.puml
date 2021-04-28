@@ -7,7 +7,7 @@ sprite $AppMeshVirtualGatewayLg [20x20/16z] {
 NP05iYOn28G_lCb___jkJMNsMLo05W0m_hOwSm-pUG-zdS8aHpLRODj6Y7u-5DYiXG2Sr3JkKoXSU0AC0ALYmeUT0Qh0JiadObnsdhScJdNUtFaaiDlhm7tB
 WGVtmA-tYmjkxzj-uPRMvdcJNbmuDdbnUK2wiLdfnTqUrODR0F8G6FWf_zYBQwSC5xwRo26FOTShp41PEmvWtvwU_dRyFTdT_m4
 }
-!procedure AppMeshVirtualGateway($id, $name="App Mesh Virtual Gateway", $tech="")
+!procedure AppMeshVirtualGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/AppMeshVirtualGateway', $name, $tech)
 !endprocedure
 !procedure AppMeshVirtualGatewayCard($id, $funcName="", $content="")

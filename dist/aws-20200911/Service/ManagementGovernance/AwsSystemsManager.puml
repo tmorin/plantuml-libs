@@ -4,7 +4,7 @@ sprite $AwsSystemsManagerLg [20x20/16z] {
 HSu73iH020D0QKtV___tm9S4gmyrcNZZaxL54lKfV6O0zCDgAKDtBTOWs7m09xPLI8rv-7ci0axBI3t-DmcIov5mq5980kqsCLeXBXUeWG-qtO2gYxggcCfO
 Oxe7qXLgURhnrkWjcLRrxciRv4Djvl3Cl0-cmCg07Fimvh-aFKYkMYDIruYhFm
 }
-!procedure AwsSystemsManager($id, $name="Aws Systems Manager", $tech="")
+!procedure AwsSystemsManager($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsSystemsManager', $name, $tech)
 !endprocedure
 !procedure AwsSystemsManagerCard($id, $funcName="", $content="")

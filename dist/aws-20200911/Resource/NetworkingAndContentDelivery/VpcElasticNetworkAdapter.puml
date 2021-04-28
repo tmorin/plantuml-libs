@@ -4,7 +4,7 @@ sprite $VpcElasticNetworkAdapterLg [20x20/16z] {
 VL250GD12CC9jFklMtdtdE8GUeRsMIVlFFjb-lXB0FK7EgXq283x9ho6EwqCEG0bXi6FCaCZF48o237fB90T9HR4fPCkvV-g_PrgzYjKjcnrGIpkmbXYeIzZ
 wxQ647piXHm9CmIHZxsOypfU3Gzsiyaj1yzSIT4zlW
 }
-!procedure VpcElasticNetworkAdapter($id, $name="Vpc Elastic Network Adapter", $tech="")
+!procedure VpcElasticNetworkAdapter($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcElasticNetworkAdapter', $name, $tech)
 !endprocedure
 !procedure VpcElasticNetworkAdapterCard($id, $funcName="", $content="")

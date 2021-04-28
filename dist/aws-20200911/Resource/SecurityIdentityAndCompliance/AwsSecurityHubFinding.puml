@@ -4,7 +4,7 @@ sprite $AwsSecurityHubFindingLg [20x20/16z] {
 dOrNGa1120Cdm49uzp-mhbq_dQsqX0ya_b3sJl9Dp4v0UlkZMNQXiyvx3vSpj-Eu-tPl05Jp97J1MVoHau4fa3zovr-vqj_STFBRexPhDjvpUtCPZqZozIRC
 vksRl7-w0KUkwBAG8GsKgQUtRsuW1s06gciEAd1nwJr2iKKovfreUrFsRFC7XG1U
 }
-!procedure AwsSecurityHubFinding($id, $name="Aws Security Hub Finding", $tech="")
+!procedure AwsSecurityHubFinding($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/SecurityIdentityAndCompliance/AwsSecurityHubFinding', $name, $tech)
 !endprocedure
 !procedure AwsSecurityHubFindingCard($id, $funcName="", $content="")

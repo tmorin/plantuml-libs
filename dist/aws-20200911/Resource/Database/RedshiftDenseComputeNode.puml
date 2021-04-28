@@ -4,7 +4,7 @@ sprite $RedshiftDenseComputeNodeLg [20x20/16z] {
 RP05WWGn20H9u-Jk_zzTajMH7atXq4TW1XqrPaID8qCGfPnODfjw2Csgp541VBs4h3qheq2YBViB48LQzHkOvhOqMVC_Lb9ma2g9K9ODZQgeqSpLhSshjvZh
 lPYPZmxP36Ep3kGTYrSifhNRiKPxYOg-Uj7TortFnzcG0TpkuCY43XfrtIcXHLiF
 }
-!procedure RedshiftDenseComputeNode($id, $name="Redshift Dense Compute Node", $tech="")
+!procedure RedshiftDenseComputeNode($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/RedshiftDenseComputeNode', $name, $tech)
 !endprocedure
 !procedure RedshiftDenseComputeNodeCard($id, $funcName="", $content="")

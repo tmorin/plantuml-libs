@@ -4,7 +4,7 @@ sprite $ReservedInstanceReportingLg [20x20/16z] {
 RSy73eKm30DGGPVjtF--tocVZPbzKfk43lQCBVn0Fl4qgZNkE0KSjPJQBTWjrqIt3nXbKraWWbZAt2vHesA5iyBR7LlK8RHI6jWhfwaNaTxbcwLTBPc7HHlY
 tAjZhr2vaimQOpVtGf5oByJVw9w7bBE0rfZexVRSI6COCz5xY5jYHwNiTg9s-y0V
 }
-!procedure ReservedInstanceReporting($id, $name="Reserved Instance Reporting", $tech="")
+!procedure ReservedInstanceReporting($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/CostManagement/ReservedInstanceReporting', $name, $tech)
 !endprocedure
 !procedure ReservedInstanceReportingCard($id, $funcName="", $content="")

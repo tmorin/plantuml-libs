@@ -4,7 +4,7 @@ sprite $AwsDatabaseMigrationLg [20x20/16z] {
 LS-54OL0303HcNX2__KYsQ-BF-okNYN5K_yPs20zkBRgfchEarYRnPqPs9jWKekOygxcDbWznzB25aNStKHUjcWLxf6wuy56dd-L2uES1qTDxqmP-MpAPx72
 GZt2rNljM2l-aRzcuztU-h83ZIxc_Z7gRMqL0W_mJoy
 }
-!procedure AwsDatabaseMigration($id, $name="Aws Database Migration", $tech="")
+!procedure AwsDatabaseMigration($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/MigrationTransfer/AwsDatabaseMigration', $name, $tech)
 !endprocedure
 !procedure AwsDatabaseMigrationCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsSystemManagerParameterStoreLg [20x20/16z] {
 LSi7aWD124DHiiJi_S-xjZlM_CeF929gCvMJDcTz4I6pmAPyF6R-vBdUzY9vBPTrw2vw6KqClqoCrmhcXdfR9ZDBnB9qMmNYPq3ssyOMyTvccn7BeAx8VF2D
 FSoRP7k594GvR8MG_hDXB7mhM8KKnv_5IhzcDknMJOBzCh6HoWS
 }
-!procedure AwsSystemManagerParameterStore($id, $name="Aws System Manager Parameter Store", $tech="")
+!procedure AwsSystemManagerParameterStore($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/ManagementGovernance/AwsSystemManagerParameterStore', $name, $tech)
 !endprocedure
 !procedure AwsSystemManagerParameterStoreCard($id, $funcName="", $content="")

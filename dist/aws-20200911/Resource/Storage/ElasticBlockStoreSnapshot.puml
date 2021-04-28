@@ -4,7 +4,7 @@ sprite $ElasticBlockStoreSnapshotLg [20x20/16z] {
 JOu73iH020DfXhty_y4NLbXar13W8XUrHkM35vgANTa3yvTuOdSWBYHgLeMrYq2-XAyMXMWxL38wytFbS13M10xF0KCsi00Zxd2jWY7M0gs22RZJPCqyFxOk
 6UoKiOnokQtIrtbOPz-TbqxO72UngLujggOgmny
 }
-!procedure ElasticBlockStoreSnapshot($id, $name="Elastic Block Store Snapshot", $tech="")
+!procedure ElasticBlockStoreSnapshot($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Storage/ElasticBlockStoreSnapshot', $name, $tech)
 !endprocedure
 !procedure ElasticBlockStoreSnapshotCard($id, $funcName="", $content="")

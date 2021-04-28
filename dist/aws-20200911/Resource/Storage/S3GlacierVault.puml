@@ -4,7 +4,7 @@ sprite $S3GlacierVaultLg [20x20/16z] {
 rP070iHG14Ir6VR-5rwaNY4l-Kr71cj4UrEvY28BpDxj56drvcGRMPuo-iY0SKIio7yHY0JH1sfbYaLjzjDkJ8WCS4-LCyIPew6zPFYWZ9VickWrqtkgPjVi
 p-d_0G
 }
-!procedure S3GlacierVault($id, $name="S3 Glacier Vault", $tech="")
+!procedure S3GlacierVault($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Storage/S3GlacierVault', $name, $tech)
 !endprocedure
 !procedure S3GlacierVaultCard($id, $funcName="", $content="")

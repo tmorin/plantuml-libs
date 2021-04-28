@@ -4,7 +4,7 @@ sprite $ElasticBeanstalkApplicationLg [20x20/16z] {
 hSs53KDH34FH6x3xzb-uz24bSOye2Xb6P00ZshQM67NfW5YULc-rU_PoRrLEpmaWqJrhUmibcsqgGqo4Sjj2DUy2Qq-VdWf2PdWvsouOLgkID-QRuqUF__Q2
 TpS
 }
-!procedure ElasticBeanstalkApplication($id, $name="Elastic Beanstalk Application", $tech="")
+!procedure ElasticBeanstalkApplication($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Compute/ElasticBeanstalkApplication', $name, $tech)
 !endprocedure
 !procedure ElasticBeanstalkApplicationCard($id, $funcName="", $content="")

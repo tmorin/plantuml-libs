@@ -4,7 +4,7 @@ sprite $InspectorAgentLg [20x20/16z] {
 TSvLWWDG24FH43JC_jSxTM_lvta2-5NqJCUpSDkFjNWdN_9qZxutj6NApMAJUxNE60im8A-wc2YlRJKewZ9WV31_cIA6OsThRnmPlj4-lDsZ5h2Dsps84oo5
 aaUxpAYc3BdEvJGkRVXMP2r3ojlIQL4LLWkxOwiYIZr7KEEgMPK6Km5pnMiN4D-m9sHuAvhurW4
 }
-!procedure InspectorAgent($id, $name="Inspector Agent", $tech="")
+!procedure InspectorAgent($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/SecurityIdentityAndCompliance/InspectorAgent', $name, $tech)
 !endprocedure
 !procedure InspectorAgentCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsDirectConnectGatewayLg [20x20/16z] {
 VP255GGX30K_yK3_zPuWRtq77pnuWRFgqPG8Tq_6XgL031nHff6qVsspsrKKB0UuOJBT1klcAD2RfCr1_QzQw9z8xTG0jEd1DP-hjxtcex7DKLVdjpo_MTBA
 T9gsnK1x3DBBCLOnOxL1MGKlV04
 }
-!procedure AwsDirectConnectGateway($id, $name="Aws Direct Connect Gateway", $tech="")
+!procedure AwsDirectConnectGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway', $name, $tech)
 !endprocedure
 !procedure AwsDirectConnectGatewayCard($id, $funcName="", $content="")

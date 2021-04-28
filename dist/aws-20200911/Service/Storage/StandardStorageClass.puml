@@ -4,7 +4,7 @@ sprite $StandardStorageClassLg [20x20/16z] {
 PSi7JeL130DX8Ctstl--9Fk7-aRzauOTiDKJfnTxrGlXTlF2MbaKkigmn3MvSuFRcAWmDv_c1Z2MALJbJ1bib5GkYXz9qdCDRMIu1TtNU4r4sFlRe3flc0IB
 mXh46vpxdgYrSc8jwrnK1Tbwsc2WMc79mJDO_bIydOlxQcrm8zSMV-id
 }
-!procedure StandardStorageClass($id, $name="Standard Storage Class", $tech="")
+!procedure StandardStorageClass($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Storage/StandardStorageClass', $name, $tech)
 !endprocedure
 !procedure StandardStorageClassCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ToolkitLg [20x20/16z] {
 VP254SDG241nJVTVjqUgqQ_lS82RXH6u4rcfblrBf7m-B_b8A0C_0P9Mq1BJTqZWMZ4PwZ4KlIHmmY03PYDWOIn0yPPD01JtTE2FR8HBYJ9iP59S27yoz18B
 RlhA238esPABth9aw9P4iD1-rwB5qW-RffkvzDrR6gqadzw6q-RpbFjPVMPwivu
 }
-!procedure Toolkit($id, $name="Toolkit", $tech="")
+!procedure Toolkit($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/GeneralIcons/Toolkit', $name, $tech)
 !endprocedure
 !procedure ToolkitCard($id, $funcName="", $content="")

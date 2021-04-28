@@ -4,7 +4,7 @@ sprite $AwsConfigLg [20x20/16z] {
 NSe7aWGX34FHMaiEClU_x-9cg0c_8w-afxhb95rzuy-vwh5sa7E3i1XhDGCXKe5axFcO4owW-ES-Ljt7o0JuDfiH2xFJsz8idVasPuo9tF3OyftWRgIvhi55
 MRg7bOubgmS2nXckNWnLYe4i3uojLRxBWeE9bBHUTMz9GCVwf012BxkwMjt7tZZoji6t_WC
 }
-!procedure AwsConfig($id, $name="Aws Config", $tech="")
+!procedure AwsConfig($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/ManagementGovernance/AwsConfig', $name, $tech)
 !endprocedure
 !procedure AwsConfigCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsDataSyncLg [20x20/16z] {
 RSn13iGm24DHJG1ia_lVToX8NVNlyWAG6xPyqWVg0zMjlBWcc9c_g2SSaEx0yfX1fEpOOab5svFCi_PGIgFqCrOLMTAgqZW6i0kVKGF7t02uEoKOnof_sPW7
 cHOagwu58yAEw0vsjouyWWmBTMjrUJYFfRRRaxLfSEobhUq3xmV-0G
 }
-!procedure AwsDataSync($id, $name="Aws Data Sync", $tech="")
+!procedure AwsDataSync($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/MigrationTransfer/AwsDataSync', $name, $tech)
 !endprocedure
 !procedure AwsDataSyncCard($id, $funcName="", $content="")

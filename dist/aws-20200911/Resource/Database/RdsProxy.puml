@@ -4,7 +4,7 @@ sprite $RdsProxyLg [20x20/16z] {
 ROq5UiKm38CjoQ1qzx_lak63_cr8y3a2edGM3q94b7ipSzPXPS189XN9-6P1Wsj7EdpshegX9ZgRZOHgaz_Q8yARjhdL_AHnR7VXGUCIWFIZfgj4rSTZDqSp
 UprfVf-XonxxkTj1CePyp2N0V9bHjjF4-iyvDbYCNFEDbJxe6Fm1-mvivHC
 }
-!procedure RdsProxy($id, $name="Rds Proxy", $tech="")
+!procedure RdsProxy($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/RdsProxy', $name, $tech)
 !endprocedure
 !procedure RdsProxyCard($id, $funcName="", $content="")

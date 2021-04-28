@@ -4,7 +4,7 @@ sprite $AmazonRoute53Lg [20x20/16z] {
 RSv70iGW34FH1P9jYVlVTmnfqtxwImBegAwoqn_KqurMDqB2ACNOQCiWiOvkesqoBktpQKt1pEsd6H7JaiscqqYAbQms7IOm2wgX85BB9WDIKamDGkSSCIio
 cGwYL7EsqPrwns7htm3JJeA4fBa-R2N0TTAshc9nQ_eoBmRskavRwjdmQQUSEF_W2m
 }
-!procedure AmazonRoute53($id, $name="Amazon Route53", $tech="")
+!procedure AmazonRoute53($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/NetworkingContent/AmazonRoute53', $name, $tech)
 !endprocedure
 !procedure AmazonRoute53Card($id, $funcName="", $content="")

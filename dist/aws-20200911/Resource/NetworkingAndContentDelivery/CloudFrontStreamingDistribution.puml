@@ -4,7 +4,7 @@ sprite $CloudFrontStreamingDistributionLg [20x20/16z] {
 RL254SG020CERVUVzuLGTq5YD0UBC9qFzkp3Zx8k-65VT4fU_2_qemnJXGx-Ihi54EiQVjtfD8V_ucjDaZZfMgDaUTRahVQs-ol_DUQ_bWgEqH9k5W4jksPV
 Ln_DXxVmyGPN8_l8e2TTsiAHrP6fOU4j-oy
 }
-!procedure CloudFrontStreamingDistribution($id, $name="Cloud Front Streaming Distribution", $tech="")
+!procedure CloudFrontStreamingDistribution($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/CloudFrontStreamingDistribution', $name, $tech)
 !endprocedure
 !procedure CloudFrontStreamingDistributionCard($id, $funcName="", $content="")

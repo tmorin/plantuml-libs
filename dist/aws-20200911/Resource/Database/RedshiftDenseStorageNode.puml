@@ -4,7 +4,7 @@ sprite $RedshiftDenseStorageNodeLg [20x20/16z] {
 XL050WD0249iR_l_SzUTNDeARg0gyGnPLIFFEZRGza6t_2cqPxhPHTwz377qx1h2_83O585odyDDhZWW8vPwRwi5hLfm5oTwWbupDNBGfMS9cW1g7U-ZBiph
 HMS6UuezrmY_rW1QF_NogUVFiprpy9ShcNTEGLvJxG4
 }
-!procedure RedshiftDenseStorageNode($id, $name="Redshift Dense Storage Node", $tech="")
+!procedure RedshiftDenseStorageNode($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/RedshiftDenseStorageNode', $name, $tech)
 !endprocedure
 !procedure RedshiftDenseStorageNodeCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsAppMeshVirtualServiceLg [20x20/16z] {
 TOz5eaH130A9X_Jzp_jbdexL4gWMV41wexfme1JpFon6vSWAqnkSCnDYX--PBddBEljpfgL7PWzN7uLiMJ6tEtIgjvtG2SZ0QIvR1by6LBFbTWS1eV7ucs_P
 FdO6fBg1MBuNT0eWAsji71YWoCGVvfRCwZyOk110nqVnWjFmbLy
 }
-!procedure AwsAppMeshVirtualService($id, $name="Aws App Mesh Virtual Service", $tech="")
+!procedure AwsAppMeshVirtualService($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualService', $name, $tech)
 !endprocedure
 !procedure AwsAppMeshVirtualServiceCard($id, $funcName="", $content="")

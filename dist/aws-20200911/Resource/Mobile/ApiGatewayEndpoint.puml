@@ -4,7 +4,7 @@ sprite $ApiGatewayEndpointLg [20x20/16z] {
 TT05aWKX303H9bR9pFtlk-X-x_A7mqnsF8hAMGKFOfTnA47fwS9DUJTeTxM5dhJo79Q-KAgJiWmjeKGJ3uuHJgfycXmpLTkcB_PxxVSp2haUTxc44Y8xsZBh
 b043Mxs-RQ7HCphz-AjVVmgYCs7s1m
 }
-!procedure ApiGatewayEndpoint($id, $name="Api Gateway Endpoint", $tech="")
+!procedure ApiGatewayEndpoint($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Mobile/ApiGatewayEndpoint', $name, $tech)
 !endprocedure
 !procedure ApiGatewayEndpointCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $DynamoDbGlobalSecondaryIndexLg [20x20/16z] {
 RT35WKLH20DG29B0wx_UcUz-TbTGGy0zmXs1iu3Xu58pqwkh0o5BqOqikn9Yh2IusEPdDi1mcYFLw6hScumaAtZJXYCbiOUJTR60BFbPOq6fSYZ4nS95PKcT
 eYxehtSt7kijPGo9ECFl6ZXgUEsb-c9XtHr99lgc3AkzphQwMe-n565wxVcsAxtLqCTErms0E-266xT_
 }
-!procedure DynamoDbGlobalSecondaryIndex($id, $name="Dynamo Db Global Secondary Index", $tech="")
+!procedure DynamoDbGlobalSecondaryIndex($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/DynamoDbGlobalSecondaryIndex', $name, $tech)
 !endprocedure
 !procedure DynamoDbGlobalSecondaryIndexCard($id, $funcName="", $content="")

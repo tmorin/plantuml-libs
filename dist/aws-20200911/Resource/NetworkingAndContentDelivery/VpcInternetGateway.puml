@@ -4,7 +4,7 @@ sprite $VpcInternetGatewayLg [20x20/16z] {
 RP07WaGX24C3ACNx7tYbxFJywZFIC29cmgj8lQHFl4ulICyQfF7OfjZjYdpBMf9RaKvAbxgfMiRZMYfWjknggVSwkUqG8ebj03l8aJwjP7OPdBYODjDYtCpU
 67qpklYTSUT-YwUxQ_Pe5WwEwKsCSSKctHkmlsRGinhVaUTCjvV6z6lsVm
 }
-!procedure VpcInternetGateway($id, $name="Vpc Internet Gateway", $tech="")
+!procedure VpcInternetGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcInternetGateway', $name, $tech)
 !endprocedure
 !procedure VpcInternetGatewayCard($id, $funcName="", $content="")

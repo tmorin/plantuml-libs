@@ -4,7 +4,7 @@ sprite $EmrClusterLg [20x20/16z] {
 RP1LOaL1348PRWJIxd-xxNETyna5y83amZjhfFaeKe3Yk-R9jrMDxMMHZoadIe3LGyIPz050cGQQ_AdkSW5C_Sg0IE54AArQqRQyRhL9uaHV5BxND7pM558n
 RxkN7rF0Ulp0yQ8bybBRQTvvUyzbSf_LFjDTzly
 }
-!procedure EmrCluster($id, $name="Emr Cluster", $tech="")
+!procedure EmrCluster($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Analytics/EmrCluster', $name, $tech)
 !endprocedure
 !procedure EmrClusterCard($id, $funcName="", $content="")

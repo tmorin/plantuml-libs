@@ -4,7 +4,7 @@ sprite $Route53RouteTableLg [20x20/16z] {
 ROy5Ti1G3CCSsH_lV-2jC6gdpv3eHPW7OeyvnnXp7EknR3ohW1A5G6Z08DXMMbD2yuGXg9IWOLSOi5jlhVThwf-7ZLf_q5Hhd5pkew_on7PGoi8AXmDZKD94
 zF8ANLxd3zweZmTTDSU3MInyH122Ks7zyjggN8vHFhrsA-vwLnbYZYdXYAtvelGF7m
 }
-!procedure Route53RouteTable($id, $name="Route53 Route Table", $tech="")
+!procedure Route53RouteTable($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/Route53RouteTable', $name, $tech)
 !endprocedure
 !procedure Route53RouteTableCard($id, $funcName="", $content="")

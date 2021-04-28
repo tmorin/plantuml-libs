@@ -4,7 +4,7 @@ sprite $AwsPrivateLinkLg [20x20/16z] {
 RSpL0GGX54FHZwS9st-zIyRjZd8GhFLUpV21-40UTYA9br98PEI9L33Fi2OkvacoBE8q-D094U7SpGFPFalprKPaMrecO1qE6NtghzeQwzrZ6kYHdkd5DiX6
 MQKEKvO0naIa2bMG2TUePETeWyrEv6Pl71_u1m
 }
-!procedure AwsPrivateLink($id, $name="Aws Private Link", $tech="")
+!procedure AwsPrivateLink($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/NetworkingContent/AwsPrivateLink', $name, $tech)
 !endprocedure
 !procedure AwsPrivateLinkCard($id, $funcName="", $content="")

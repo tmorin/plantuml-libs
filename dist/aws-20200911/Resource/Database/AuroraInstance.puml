@@ -4,7 +4,7 @@ sprite $AuroraInstanceLg [20x20/16z] {
 LP250OH030JZ0jz_lRzuRj6RU8XOPKYPY7ohHPiJRymq1Q15vH7gvXvsm5Amp8oiY4m_cO1TkZFSB8HPX8K7woEuqk-8LZ1LKp6yoGBLZC5ULQ9w9GsckwAK
 _cIopcuyazs_AzkxidgVp99KbKeNFnCMN_qwkjjRi9glxhKh-NRQQlZjjiEWtzRn0Va3
 }
-!procedure AuroraInstance($id, $name="Aurora Instance", $tech="")
+!procedure AuroraInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/AuroraInstance', $name, $tech)
 !endprocedure
 !procedure AuroraInstanceCard($id, $funcName="", $content="")

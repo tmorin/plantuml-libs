@@ -7,7 +7,7 @@ sprite $VpcTrafficMirroringLg [20x20/16z] {
 PP370G903CFaj4iEzb-Ntj5F-jaya9duHDKtIZo9VHVLZaVA4GyqoPKOMDrIzu89G2EOGq1MFxGAewD5U6DNPumkOxaboiOQDQBptZ84BMicD5vkePOFRRRo
 E9LnRHvLnrocPXdrQFYYHHlAHyiKrb25zgZSajcwEXgnTootoCE-wcERIBD4Zst_7po_CW2h2Nu_JV7az_ip
 }
-!procedure VpcTrafficMirroring($id, $name="Vpc Traffic Mirroring", $tech="")
+!procedure VpcTrafficMirroring($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/NetworkingAndContentDelivery/VpcTrafficMirroring', $name, $tech)
 !endprocedure
 !procedure VpcTrafficMirroringCard($id, $funcName="", $content="")

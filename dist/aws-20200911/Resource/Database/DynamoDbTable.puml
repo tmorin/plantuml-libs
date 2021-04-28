@@ -4,7 +4,7 @@ sprite $DynamoDbTableLg [20x20/16z] {
 RT250KCX30JGon65_UTjl_l3NS3MPCguQmH7LddFqs1B8CDmIhQ2P3W4Aq6HypAhF9M8HnWzJWuEyugoqo0JYD3x6PrQCPKxTaf6Ufkoa-nzfvHrRTpMhcVS
 tx7SnSlSLcw3NtT-lwtB_WUd-lohhpy5IH5UuGy
 }
-!procedure DynamoDbTable($id, $name="Dynamo Db Table", $tech="")
+!procedure DynamoDbTable($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/Database/DynamoDbTable', $name, $tech)
 !endprocedure
 !procedure DynamoDbTableCard($id, $funcName="", $content="")

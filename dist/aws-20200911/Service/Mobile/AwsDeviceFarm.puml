@@ -4,7 +4,7 @@ sprite $AwsDeviceFarmLg [20x20/16z] {
 LSW94aCX28FXgSH0mltlMzzYdVwkV7ghNMOUEsYTDlf19v0RVQ65m0oKjjaCQenYp9yXAYSvCoDU4p1ulVpW615KCK2KNXE5CI3MCQydGaxTrcw1K9DTCPUf
 kfVDaIR5WSkqp82A0Ai0NNQLI4SuWzhcziGa86-xi0kejevTwclRnnRkZltX5m
 }
-!procedure AwsDeviceFarm($id, $name="Aws Device Farm", $tech="")
+!procedure AwsDeviceFarm($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/Mobile/AwsDeviceFarm', $name, $tech)
 !endprocedure
 !procedure AwsDeviceFarmCard($id, $funcName="", $content="")

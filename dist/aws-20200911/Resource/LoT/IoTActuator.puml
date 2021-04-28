@@ -4,7 +4,7 @@ sprite $IoTActuatorLg [20x20/16z] {
 NKy7eiKW3Cg0uFrF_1lZVnrq6ePe0m-tDrmgyJrQURsfvwmmd_NGwiZHx02QNNRA35dzJWazBDxEofWV-SNCRqWvP3GHayfJTHH8X07ccJXg1ndj3PAl8shT
 IyT6aZb_5vKhIHoGw9gWY__LIvaz0wamh4LpiPAxLsqvqU80EwzUMEZE7vZz0G
 }
-!procedure IoTActuator($id, $name="Io T Actuator", $tech="")
+!procedure IoTActuator($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Resource/LoT/IoTActuator', $name, $tech)
 !endprocedure
 !procedure IoTActuatorCard($id, $funcName="", $content="")

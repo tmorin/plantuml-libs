@@ -4,7 +4,7 @@ sprite $AmazonTranslateLg [20x20/16z] {
 LSY7OG0n24FH70Y1yFxxXiEftvLNN-MDR_flYzAL7rrJchjvqPmNnnWgFb4Lg4MfnvJsmJIBV5jhKa7varkl0Ke0dlLZ1HIHT5lixb9C30ds3AwbvegO3psk
 9UOTIyVSruG08XZm7AlgwRJXa7hG4QewBwPvCOBWhnroTakwTbwLWmPtMFxOQ6kgKgsjRjhMVb2tJm
 }
-!procedure AmazonTranslate($id, $name="Amazon Translate", $tech="")
+!procedure AmazonTranslate($id, $name="", $tech="")
   IconElement($id, 'aws-20200911/Service/MachineLearning/AmazonTranslate', $name, $tech)
 !endprocedure
 !procedure AmazonTranslateCard($id, $funcName="", $content="")
