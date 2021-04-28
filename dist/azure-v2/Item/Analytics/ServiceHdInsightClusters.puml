@@ -7,7 +7,7 @@ sprite $ServiceHdInsightClustersLg [20x20/16z] {
 VOw7bGKn20CbG3ZqN_01x_8FisjRZ2FUGUEVae25mZf-AidWaXmc4QFkLVKPHCUMTkuzdFFOiK_8EwvfTvE8MmHYhLNzsVkugTGcTm-6LGXnptPadzHLEGSZ
 gjkjCadt80QkStUcY4_C2Dlj73GR9ObGxGomSaiVXy4-7PK2Gie0z7KcIyrvCVaJ_tnBu0SxTwJZ5w4YFjK7
 }
-!procedure ServiceHdInsightClusters($id, $name="Service Hd Insight Clusters", $tech="")
+!procedure ServiceHdInsightClusters($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Analytics/ServiceHdInsightClusters', $name, $tech)
 !endprocedure
 !procedure ServiceHdInsightClustersCard($id, $funcName="", $content="")

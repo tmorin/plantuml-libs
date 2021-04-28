@@ -4,7 +4,7 @@ sprite $ServiceLogicAppsLg [20x20/16z] {
 fOy50iDG24FBJmAx_uc7p5rIIzz7jx-qq1ypwozMUh6iHrvbADkMLjbyerZ_7nZJtJBNKjmmo8KZWomDu3l7z8H16HGkxoUXs74CeiH0nLM-QMgcfnrw88AM
 o1InNZ0Z9nUStDdtBCviLmnh-rHx
 }
-!procedure ServiceLogicApps($id, $name="Service Logic Apps", $tech="")
+!procedure ServiceLogicApps($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceLogicApps', $name, $tech)
 !endprocedure
 !procedure ServiceLogicAppsCard($id, $funcName="", $content="")

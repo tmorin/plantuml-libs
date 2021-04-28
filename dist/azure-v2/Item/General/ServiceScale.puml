@@ -4,7 +4,7 @@ sprite $ServiceScaleLg [20x20/16z] {
 ROm5ZaL140An9_S_yQP9x_SQhp3W9-mWvwu1e16OSmLpdkUbznph9gSoKkk458rwEg5u18zrgwwp_UjM6MNTKpqTZtiK-PfBKp95qDlNXEl0kaK60UNfcdC_
 9FOI0ytv1J743zg7q59f7uKPV88_
 }
-!procedure ServiceScale($id, $name="Service Scale", $tech="")
+!procedure ServiceScale($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceScale', $name, $tech)
 !endprocedure
 !procedure ServiceScaleCard($id, $funcName="", $content="")

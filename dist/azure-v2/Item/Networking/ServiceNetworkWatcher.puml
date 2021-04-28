@@ -4,7 +4,7 @@ sprite $ServiceNetworkWatcherLg [20x20/16z] {
 POq5OeH040HRPyd_7vpaa3CArceCBvGO7oZzntfNiwsk-PcNz6giS6KP9zlCf9FfkZ8RnNJeQix4HLYWWSAdszecgJsTx4fDQhhIEDcLI3wsW6SjVIGxbSVx
 N96GA7SyNUNkh5YIot5rj5C8q9ckjIjGsDF_nHWdqJ4SBxB5jl2XYazuLw23R_u
 }
-!procedure ServiceNetworkWatcher($id, $name="Service Network Watcher", $tech="")
+!procedure ServiceNetworkWatcher($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceNetworkWatcher', $name, $tech)
 !endprocedure
 !procedure ServiceNetworkWatcherCard($id, $funcName="", $content="")

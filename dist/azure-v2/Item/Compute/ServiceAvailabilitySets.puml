@@ -4,7 +4,7 @@ sprite $ServiceAvailabilitySetsLg [20x20/16z] {
 PT19OWKW20DGI0WEzpzmWRP_p4BboIe090ivHLUOLE9E6caWR5xkSFkCYrz6iO-_n1Zxo7llENLi7nJ7Db7d6UEVPKIUlptMELPPQqbiXDcwT-NgrL8pz4Ui
 ZaYDiVSSM7i5gBtJ3ExMMMUBaMCk_jdPguvJni2OLgvAPfYzL03fRn0V5iGy6Fpk1VWo1p0bcpzx_W4
 }
-!procedure ServiceAvailabilitySets($id, $name="Service Availability Sets", $tech="")
+!procedure ServiceAvailabilitySets($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceAvailabilitySets', $name, $tech)
 !endprocedure
 !procedure ServiceAvailabilitySetsCard($id, $funcName="", $content="")

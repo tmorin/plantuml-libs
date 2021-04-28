@@ -4,7 +4,7 @@ sprite $ServiceBuildsLg [20x20/16z] {
 dShNOGH120DGG1Am_JTiPdsHptiJYFRa2Dk2i8qb_wq7P2VnrOtgxk9QhAjb2sfQc_igftwy9n0MX0TfJnGCeeTaJq3SUqxOuR4vc3SztY1O1y7Kl1g2-c1C
 Br0znBoEoYddNIE3kV4F
 }
-!procedure ServiceBuilds($id, $name="Service Builds", $tech="")
+!procedure ServiceBuilds($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBuilds', $name, $tech)
 !endprocedure
 !procedure ServiceBuildsCard($id, $funcName="", $content="")

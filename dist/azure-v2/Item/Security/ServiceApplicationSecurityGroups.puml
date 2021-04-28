@@ -4,7 +4,7 @@ sprite $ServiceApplicationSecurityGroupsLg [20x20/16z] {
 LT25WSGm34HHuOoort-_Pv03F_p2bauzNEMJUKIuoKbL7GH0-DXVb4bYHsHEjCAxict4YM0RPAHpuRcEMDyo3yYNUG8kMbzZVMrkmiUwJKbQvqMgZAAAPFKw
 brdDVd-_jJLPvTYzXbrZczAXJf2Jieag3s8HcXgZhdxbgzVO_mC
 }
-!procedure ServiceApplicationSecurityGroups($id, $name="Service Application Security Groups", $tech="")
+!procedure ServiceApplicationSecurityGroups($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Security/ServiceApplicationSecurityGroups', $name, $tech)
 !endprocedure
 !procedure ServiceApplicationSecurityGroupsCard($id, $funcName="", $content="")

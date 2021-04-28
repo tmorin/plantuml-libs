@@ -4,7 +4,7 @@ sprite $ServiceRouteTablesLg [20x20/16z] {
 PSi96eD024DXCX3GkV-1Ax7khtNxlumfs2VdrtAYny3B42J7mqIa_sMqELL2n0KvH-HUdqRCkQwNwR2liweGjK6_M1SB00Eh2zlJ7D4h3hk2nzw58DFrk9RC
 p1ZmxN6WP-TWFm8oKT5JQOXI6ojl6_KePCiZcVaZ_
 }
-!procedure ServiceRouteTables($id, $name="Service Route Tables", $tech="")
+!procedure ServiceRouteTables($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceRouteTables', $name, $tech)
 !endprocedure
 !procedure ServiceRouteTablesCard($id, $funcName="", $content="")

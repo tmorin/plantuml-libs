@@ -4,7 +4,7 @@ sprite $ServiceLocationLg [20x20/16z] {
 NSi74WD0249HOHKrzxzlUj7ywM_0NfsGmrOCASv2A2EKFYqo24znc99cY3pBxZTgMMI6gzQNLPLLijaTxkhBehewEGcixWvR1dNdCGmoUbr430JXrV_6o4m7
 fY4aRGFEdSZvDP8Wn-oEdsosv0O
 }
-!procedure ServiceLocation($id, $name="Service Location", $tech="")
+!procedure ServiceLocation($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceLocation', $name, $tech)
 !endprocedure
 !procedure ServiceLocationCard($id, $funcName="", $content="")

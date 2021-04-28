@@ -4,7 +4,7 @@ sprite $ServiceGlobeErrorLg [20x20/16z] {
 PSk54GGW44DH8jZIVx-NS_jZy2RRxj4MscTG7sEOURreLErTjToa1ysgwbvLs-YyMJynPXp4VSXTIRVrxZ1YEc-hrMx7FkTj-sd1GypptkbcS-nA4nqnh9F6
 tKIZ9LNCMYSpMEtM2EvTfnRPqUxrNMbFelCkDk0-ycLNUwHk4bGFluASz91t_2D0sU5dbPxB2m
 }
-!procedure ServiceGlobeError($id, $name="Service Globe Error", $tech="")
+!procedure ServiceGlobeError($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceGlobeError', $name, $tech)
 !endprocedure
 !procedure ServiceGlobeErrorCard($id, $funcName="", $content="")

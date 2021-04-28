@@ -4,7 +4,7 @@ sprite $ServiceAllResourcesLg [20x20/16z] {
 ZOv55aGX30I9vz__mjDDnhqMzI2-tg90HEXv8vJ0BU3Oxv1bzHHB_JTsFyzrCajchv8rNXh0r64NllTU49QqqgMliNoA5U7Urrl4WDxP17NSg53IixSvoJ6l
 ypBl4kjph7SCX1UC6CpOmP_NqKTfaxTxJm
 }
-!procedure ServiceAllResources($id, $name="Service All Resources", $tech="")
+!procedure ServiceAllResources($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceAllResources', $name, $tech)
 !endprocedure
 !procedure ServiceAllResourcesCard($id, $funcName="", $content="")

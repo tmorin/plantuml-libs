@@ -4,7 +4,7 @@ sprite $ServiceToolboxLg [20x20/16z] {
 bSy30aCn303G8lox_tqNpdorc_6NrSOLhhcM5HXNqEsCPcu3stGxDz0ZsC2FeFPXgdsl00PskHqsYjEJKt48jYCc3qlMscu4G6AvOd_48KcZc4CdcdAEX11O
 MyuTghRhACfCQrSKLtkC-MYS0G
 }
-!procedure ServiceToolbox($id, $name="Service Toolbox", $tech="")
+!procedure ServiceToolbox($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceToolbox', $name, $tech)
 !endprocedure
 !procedure ServiceToolboxCard($id, $funcName="", $content="")

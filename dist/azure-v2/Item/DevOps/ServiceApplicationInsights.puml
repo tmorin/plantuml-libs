@@ -4,7 +4,7 @@ sprite $ServiceApplicationInsightsLg [20x20/16z] {
 PT054eKm34NHDdcM_I_uky8TnWxrzMetUg-_6fBGFxAHUOJlK4wU3TzK4_cUClKo1Lqq6uXUgoMjnitKoNwRKDLLq8zP3QBbjot51atOqNlVcv4YRrRh5MFf
 _eNVUpY-5_zSkPr7lNxot6IyVkFSu_6nGAoJeOz6e0wsg-fza2i
 }
-!procedure ServiceApplicationInsights($id, $name="Service Application Insights", $tech="")
+!procedure ServiceApplicationInsights($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/DevOps/ServiceApplicationInsights', $name, $tech)
 !endprocedure
 !procedure ServiceApplicationInsightsCard($id, $funcName="", $content="")

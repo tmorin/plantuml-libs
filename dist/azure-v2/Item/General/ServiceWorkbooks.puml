@@ -4,7 +4,7 @@ sprite $ServiceWorkbooksLg [20x20/16z] {
 PO-50O0W402_o_tdLJ69CpduWeRsyAL4k4FnL1ICF-3dGRG1D0QKyDbHRZax86ld_EByNh4QuSxKOFVBKTJf41huE60_7M63tBjOquQvnnERqN75IiJYU7LS
 MtKgdtFPSpaP7Ttprd3EhtEzApU2kPbJ7G
 }
-!procedure ServiceWorkbooks($id, $name="Service Workbooks", $tech="")
+!procedure ServiceWorkbooks($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceWorkbooks', $name, $tech)
 !endprocedure
 !procedure ServiceWorkbooksCard($id, $funcName="", $content="")

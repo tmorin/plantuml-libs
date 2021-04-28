@@ -7,7 +7,7 @@ sprite $ServicePrivateLinkHubLg [20x20/16z] {
 LO-7aGGm20E5o7R__JxyvNNGp3g29n8d1J_GwhGJ7qJxTCvGmHFMFQKJvnQVDzrx58lslSd9Su_ZXPzTryvzmjs89NjSETGucAxpMcTm-N_SDkpfSWn5dVmu
 Tw6gEwXFvv1GDNS2_dOGCTiQ-773E59TuUiwiD0ZHY5QmTnQNsYTv7_svCBiDi4YrXs4HBSBNZ2wiZee-22QbVeqVm
 }
-!procedure ServicePrivateLinkHub($id, $name="Service Private Link Hub", $tech="")
+!procedure ServicePrivateLinkHub($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServicePrivateLinkHub', $name, $tech)
 !endprocedure
 !procedure ServicePrivateLinkHubCard($id, $funcName="", $content="")

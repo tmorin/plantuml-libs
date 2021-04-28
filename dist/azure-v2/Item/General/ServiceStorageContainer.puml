@@ -1,7 +1,7 @@
 @startuml
 sprite $ServiceStorageContainerMd [14x14/16z] NSS50i0m24DHaepQ_UyxbtI_0WzUoCFmidivfMTAooM1Y0WSAdcifygkygZyLKhX9LxAkrtq45CR
 sprite $ServiceStorageContainerLg [20x20/16z] ZS-53G0X30NGoY-s_xxdYhyOeKwpM78i5iDVDBYKSxK_XSj1r79w_3d3yTmyVtgiS6ps_F6zxFtdiZ-t_xdVdwl-GJ3_vmotxSk1AtTiwJcgMG4
-!procedure ServiceStorageContainer($id, $name="Service Storage Container", $tech="")
+!procedure ServiceStorageContainer($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceStorageContainer', $name, $tech)
 !endprocedure
 !procedure ServiceStorageContainerCard($id, $funcName="", $content="")

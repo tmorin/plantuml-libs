@@ -7,7 +7,7 @@ sprite $ServiceVirtualClustersLg [20x20/16z] {
 NP070iGW20IZ11Oi___kmNfzKbp7xlMXaGfTEiaWNVAxBb704wiG5LewZxttj7T8TtlCEODkZE5qZ6yNVsF7UopW02m3eJEzYHhHu-0HRePl5skj0GDvEgyz
 0E_vkgWY71yaJzmDQ_WNaaxDyAL2oscj_8RELEtRIRa2uGUk8SVXRhpQnYkN0ola0G
 }
-!procedure ServiceVirtualClusters($id, $name="Service Virtual Clusters", $tech="")
+!procedure ServiceVirtualClusters($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceVirtualClusters', $name, $tech)
 !endprocedure
 !procedure ServiceVirtualClustersCard($id, $funcName="", $content="")

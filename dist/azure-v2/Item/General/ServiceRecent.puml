@@ -4,7 +4,7 @@ sprite $ServiceRecentLg [20x20/16z] {
 NOu55WGn24CR99ctzp_mGcqb8w6_sDY2ksDyopnQNnHECIEfz8FoYRy8L9TuMZTPC0Ix3AOgxn-mMRsPGAYJDoj1xfc_R33oZB_3CrWCy_h5Deo8F2n4tomo
 xkgqrG_1SRH2-N1PvUpKygXif4RH0_5uktXo-f3JJJg9lb715CFTst3RU6GhLluR
 }
-!procedure ServiceRecent($id, $name="Service Recent", $tech="")
+!procedure ServiceRecent($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceRecent', $name, $tech)
 !endprocedure
 !procedure ServiceRecentCard($id, $funcName="", $content="")

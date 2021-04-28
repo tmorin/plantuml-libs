@@ -4,7 +4,7 @@ sprite $ServiceAzureDatabaseMySqlServerLg [20x20/16z] {
 TP075WGX24C54jHu__lkJk-PiVr7Bz-oHIVYiSbtcm104a2ijc4UsIPbkCTibeARkKyRb3Qp8QctsdgNniQ6DernijDaf9CTq3lGpdQoKcdEx8q7yp13MB9e
 P_nJmX4x6-YicObmqxMMQcPygK_VhF3I1yiwX8sEASK20yn9H4pe1m
 }
-!procedure ServiceAzureDatabaseMySqlServer($id, $name="Service Azure Database My Sql Server", $tech="")
+!procedure ServiceAzureDatabaseMySqlServer($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceAzureDatabaseMySqlServer', $name, $tech)
 !endprocedure
 !procedure ServiceAzureDatabaseMySqlServerCard($id, $funcName="", $content="")

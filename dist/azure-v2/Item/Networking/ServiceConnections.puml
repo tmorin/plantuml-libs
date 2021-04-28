@@ -4,7 +4,7 @@ sprite $ServiceConnectionsLg [20x20/16z] {
 TP050WD120CNIE3-_-9YzPRJ7JndJG7eUJKra8GzgPW7aJWSieXXwxMWB99doa1xHKSkP7ct1uBNenbMiOCw8w1WVXsPLn5f98XJ1P0F9pfPvvbNXjuPkg5J
 19HcK-zqZB1hS_fkcg3xzdpAbnb3PwgNJIxysVTL5rn-5mkb7-2jtrDvbgtwDm
 }
-!procedure ServiceConnections($id, $name="Service Connections", $tech="")
+!procedure ServiceConnections($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceConnections', $name, $tech)
 !endprocedure
 !procedure ServiceConnectionsCard($id, $funcName="", $content="")

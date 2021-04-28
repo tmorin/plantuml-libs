@@ -1,7 +1,7 @@
 @startuml
 sprite $ServicePreviewMd [14x14/16z] lKi50G0m2DlG_edlbk0u4q1zXG8_lx3dY_kfnVx2fSzSFlR5oR4_VGjG0G
 sprite $ServicePreviewLg [20x20/16z] jOu30W1H4487rVrllBRvFiTPXSU8MqjEwNoSqlamSU4lt_svu8PchNrQ-xJmeVRCVPahNvevvhveFZ7nmRjVKDqttNeygwi4
-!procedure ServicePreview($id, $name="Service Preview", $tech="")
+!procedure ServicePreview($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServicePreview', $name, $tech)
 !endprocedure
 !procedure ServicePreviewCard($id, $funcName="", $content="")

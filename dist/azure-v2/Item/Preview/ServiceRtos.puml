@@ -4,7 +4,7 @@ sprite $ServiceRtosLg [20x20/16z] {
 NSt70GCm2CLG-8YI_GTEmUawFXkmJI7xBmZvBmduLOzFBrPyfMy3llG0oM7YQNcFp9Sv4LGbLBrCa5KTYjmNP1vGtUccwYx0JHoJSwU2C0MBazcptsInrZDL
 CzDhEjOrbwa-jdUNBmzuchDbviTC-OXJulR87qK-2bzwvG9MRW
 }
-!procedure ServiceRtos($id, $name="Service Rtos", $tech="")
+!procedure ServiceRtos($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServiceRtos', $name, $tech)
 !endprocedure
 !procedure ServiceRtosCard($id, $funcName="", $content="")

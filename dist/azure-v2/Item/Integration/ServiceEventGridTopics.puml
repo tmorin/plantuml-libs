@@ -4,7 +4,7 @@ sprite $ServiceEventGridTopicsLg [20x20/16z] {
 VP050i0m20C39Ed_NpntwMqr7F15PDp9A5ftJCbFL5GYJf3Y8aC0Y4e0iomY0NgcUHK6PieaPTqBMei24YTLMPLPEeLXYvJKsBTxnvlhd9l4IcG2R0jRVRds
 aG22jVdi_MBPrdw_v_AUtzUSHm
 }
-!procedure ServiceEventGridTopics($id, $name="Service Event Grid Topics", $tech="")
+!procedure ServiceEventGridTopics($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Integration/ServiceEventGridTopics', $name, $tech)
 !endprocedure
 !procedure ServiceEventGridTopicsCard($id, $funcName="", $content="")

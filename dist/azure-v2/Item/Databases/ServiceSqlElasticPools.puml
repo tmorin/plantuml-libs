@@ -4,7 +4,7 @@ sprite $ServiceSqlElasticPoolsLg [20x20/16z] {
 TT074aGX20FGTGm9yVu7NdxlSUgp0Ryj47wtD9hjJkcyeHGzf3Do2826JgUycdMYibvMs9RdHyMfzAWK5faHTRIM8i9iu31w3qzdsJiyg1mEO3MWBC7PU39E
 xucKfoH3zVF-hwJrtxq-eeDhVLzz5Avz59qm6KorsqZzCjI3_W
 }
-!procedure ServiceSqlElasticPools($id, $name="Service Sql Elastic Pools", $tech="")
+!procedure ServiceSqlElasticPools($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceSqlElasticPools', $name, $tech)
 !endprocedure
 !procedure ServiceSqlElasticPoolsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceBlobPageLg [20x20/16z] {
 bOw50KCX34H_pWhxBznGTtbe_BPVAJnIz1ptJ2lpaRpqUUpk6ORYUoBGgYhQGXNKJYvVAuAiwlVMLoINZvI5FYVjxMkmV6dVudyVpxwwyyMDBcTfpYFieaUs
 L-m1
 }
-!procedure ServiceBlobPage($id, $name="Service Blob Page", $tech="")
+!procedure ServiceBlobPage($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBlobPage', $name, $tech)
 !endprocedure
 !procedure ServiceBlobPageCard($id, $funcName="", $content="")

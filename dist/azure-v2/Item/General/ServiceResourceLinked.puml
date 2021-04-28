@@ -4,7 +4,7 @@ sprite $ServiceResourceLinkedLg [20x20/16z] {
 NSw54GH144BHQm4s_uXlt7u9Ks_rDtFuxyaIQOybnNofbWyXGU8YB-C3vxii45OMYnJDGXAi_eHAD7CpgfGMgLQw-po2ROcSHp6o4qcDihyFu_yqFuAoGaH6
 3YgXlOvY56hIK6pt3PeeKfCcVfeqiu9VUVsBY_u
 }
-!procedure ServiceResourceLinked($id, $name="Service Resource Linked", $tech="")
+!procedure ServiceResourceLinked($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceResourceLinked', $name, $tech)
 !endprocedure
 !procedure ServiceResourceLinkedCard($id, $funcName="", $content="")

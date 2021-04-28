@@ -7,7 +7,7 @@ sprite $ServiceElasticJobAgentsLg [20x20/16z] {
 TP255O1034ChEIlxxqk3Qz3yTrNvbwuoqvsOBmBbArMwaa8U1GXTpMlleo7_HP2Fbd1DEKoaCX7P516ZjvgisSuIajAO-C48UL0CTZ92E8h9oGXJLLSsuj2q
 iLx7SeRHlIW7TQ17jD8YEk2SEb7DeEgLvnAQ6bZyc9-MnvoxSaQ9x9QL33nFHxk9vzwRFj0C
 }
-!procedure ServiceElasticJobAgents($id, $name="Service Elastic Job Agents", $tech="")
+!procedure ServiceElasticJobAgents($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceElasticJobAgents', $name, $tech)
 !endprocedure
 !procedure ServiceElasticJobAgentsCard($id, $funcName="", $content="")

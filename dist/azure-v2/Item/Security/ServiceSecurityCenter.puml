@@ -4,7 +4,7 @@ sprite $ServiceSecurityCenterLg [20x20/16z] {
 LT054i1024FH9GJ2_IzSNVrZcLTlwnaSrexCIRfjO8XKAWDclv2v8b-5z9t3xrm9tIH_bakxXNdIuZH41NWOmUHf2GDWo6xsMd-jQTbjdwpDYj-2Ih2tRxKl
 gaPYw-N4M3ycE-N-jqAFA3frf4hiD7Fwc3S
 }
-!procedure ServiceSecurityCenter($id, $name="Service Security Center", $tech="")
+!procedure ServiceSecurityCenter($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Security/ServiceSecurityCenter', $name, $tech)
 !endprocedure
 !procedure ServiceSecurityCenterCard($id, $funcName="", $content="")

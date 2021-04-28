@@ -4,7 +4,7 @@ sprite $ServiceUsersLg [20x20/16z] {
 VO_7WKD124CHI33zDxpfJrxRxq8EiavG2ZjmIg8VAJtiIGsmjUN3rXWvY8yvP7LW4_OKRG5LQws4BHKaHTAnYt00BX5BH186fl8PXvvl--VyQ-kVeN_fPc3b
 3wNGun3c_T_KSDoyRjoYrKaBysedvTy
 }
-!procedure ServiceUsers($id, $name="Service Users", $tech="")
+!procedure ServiceUsers($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceUsers', $name, $tech)
 !endprocedure
 !procedure ServiceUsersCard($id, $funcName="", $content="")

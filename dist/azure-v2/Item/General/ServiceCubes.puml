@@ -4,7 +4,7 @@ sprite $ServiceCubesLg [20x20/16z] {
 XS-54KGX40DGDaB_9L-uxxvZcOU5jawronJg8YIF2aw3ZKgpUMyUgjuFPhdtBskB-V2i7HDhwmPGDfbKMxSevjGAIxUbjv8cawKfMQ2jqJPcHth_cqEJ9JrO
 uRBAr6EIHoyeILY-KMlxf1y
 }
-!procedure ServiceCubes($id, $name="Service Cubes", $tech="")
+!procedure ServiceCubes($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceCubes', $name, $tech)
 !endprocedure
 !procedure ServiceCubesCard($id, $funcName="", $content="")

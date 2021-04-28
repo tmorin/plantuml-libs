@@ -4,7 +4,7 @@ sprite $ServiceRemoteRenderingLg [20x20/16z] {
 hP1N0aCX20GLM7Rr_WSEZ_IlrB6FdV4FfitvR0n9PZnQJsPpbvOiu22k9qKhmfoSrtqa0WXtq7iVnOIVYUhQS4WCBymZ8gMqfAJhgWHg1BOpEvOYizQ9oIL5
 kMYdWewr5hnSWAlXC5KZN4qHnsFsxlvk5cP79EwuZRSv0G
 }
-!procedure ServiceRemoteRendering($id, $name="Service Remote Rendering", $tech="")
+!procedure ServiceRemoteRendering($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/MixedReality/ServiceRemoteRendering', $name, $tech)
 !endprocedure
 !procedure ServiceRemoteRenderingCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceGlobeSuccessLg [20x20/16z] {
 PSe95WD1209H0T6v_ucZwUofMVi_uWIIyHMeJ0aHU55MrsI6z23tqaQCR-e-QDTZY1fQ5JnFOepNCT4p3NDCLwiUz6493tM_ZDSCERIMCCPGYqEBPAu5U_3a
 ICMz7BohIICUM2jbm7n88fGf1Aru92S9ocQyWd8IuoV-4Q0KyRFQ7iiR
 }
-!procedure ServiceGlobeSuccess($id, $name="Service Globe Success", $tech="")
+!procedure ServiceGlobeSuccess($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceGlobeSuccess', $name, $tech)
 !endprocedure
 !procedure ServiceGlobeSuccessCard($id, $funcName="", $content="")

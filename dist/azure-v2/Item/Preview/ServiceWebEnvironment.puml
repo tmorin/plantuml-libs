@@ -7,7 +7,7 @@ sprite $ServiceWebEnvironmentLg [20x20/16z] {
 LOu9Ta0X20E5982z_u4RjUlyrNa9kYwexcAiNmAecNyoQgjcsof-rCSUgWXG-HJR4MQoUk-vBblTpa0pipTVxBvBKDkrHu9OHbKwuTvsOgw8uvpCn7WNIc5K
 HYJBjTIaE-e-qj1bDgj8PoIwV8U9qot_l1FhjSjDh832ZlGxQLH0lTnvfnzezfc0b5qad7MlYYY_Ovd4oPxVGAIU8ypw8jxxrFtxooS
 }
-!procedure ServiceWebEnvironment($id, $name="Service Web Environment", $tech="")
+!procedure ServiceWebEnvironment($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServiceWebEnvironment', $name, $tech)
 !endprocedure
 !procedure ServiceWebEnvironmentCard($id, $funcName="", $content="")

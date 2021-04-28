@@ -4,7 +4,7 @@ sprite $ServiceBizTalkLg [20x20/16z] {
 NOs5WSH030FDrdxwx_Vb2sU2EmR9YPgfl53p2BUNYXxA7wvuhgAzvNI5UXFTZKz3gcZWQDIaoEoqw2JCiG0ua6pmJj6Po0B0ad5MsTD0OCXK3fXe9h2eX-NC
 3hM5eNeDfUpJN0ESto5KrR665iCkcnCxmSZz_s_RzaagekvkjS7cAmyIgVB62XrVrxFfWsUSi_y
 }
-!procedure ServiceBizTalk($id, $name="Service Biz Talk", $tech="")
+!procedure ServiceBizTalk($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBizTalk', $name, $tech)
 !endprocedure
 !procedure ServiceBizTalkCard($id, $funcName="", $content="")

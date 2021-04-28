@@ -4,7 +4,7 @@ sprite $ServiceAvsLg [20x20/16z] {
 bSk73G0n24DHajY6x3_mzTxlgLbVO3_bKafEsv8WxoZRYZvPO_6PvZByeM0vJECV8FJdJ5r2z4X9P8GBHcqQXbrYrFyIti-ggLMYKuSP7dKG1ES9ZSD9-ZIj
 HFME2AeVjS8iErSP0UiahGtCDhOLbMoCMtQj1G
 }
-!procedure ServiceAvs($id, $name="Service Avs", $tech="")
+!procedure ServiceAvs($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AzureVMwareSolution/ServiceAvs', $name, $tech)
 !endprocedure
 !procedure ServiceAvsCard($id, $funcName="", $content="")

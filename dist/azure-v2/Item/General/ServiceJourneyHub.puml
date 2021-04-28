@@ -4,7 +4,7 @@ sprite $ServiceJourneyHubLg [20x20/16z] {
 bS-54SHG20HGT27zDtnVuDoocK5UdDw6PuXb72GZFCZStQfwH3W_6O0FHgAgKjiwysguiq0C0rxCdopA_8JfpBQgmypilI4ZqSRtXc6uizoMJrPrsFfl77ai
 6vM8XPdtLrQz
 }
-!procedure ServiceJourneyHub($id, $name="Service Journey Hub", $tech="")
+!procedure ServiceJourneyHub($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceJourneyHub', $name, $tech)
 !endprocedure
 !procedure ServiceJourneyHubCard($id, $funcName="", $content="")

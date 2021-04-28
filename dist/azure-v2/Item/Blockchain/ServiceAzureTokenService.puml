@@ -4,7 +4,7 @@ sprite $ServiceAzureTokenServiceLg [20x20/16z] {
 TS-5bSKm30NHI1gP-YzutubfwK_uXkndPk7FRH5XFyL99Rr4pl1DaJTiFfN9iURBIdcHhADVAmdKtd-OgdsCtoRwOB6iRkkjXflCOZxOUgy4p86xS0uIjIOk
 vIQR22hrkBPbGIZUuSSoewZxlOckI28IsSsGQYnV
 }
-!procedure ServiceAzureTokenService($id, $name="Service Azure Token Service", $tech="")
+!procedure ServiceAzureTokenService($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Blockchain/ServiceAzureTokenService', $name, $tech)
 !endprocedure
 !procedure ServiceAzureTokenServiceCard($id, $funcName="", $content="")

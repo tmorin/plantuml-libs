@@ -4,7 +4,7 @@ sprite $ServiceAdvisorLg [20x20/16z] {
 VT3NOGKn24HHO610xhzWAziltlqxgonVqj4J8I8S_zLYvVyiJhYZF6vBz0hxfm_4Qgrbk8eQ3sK46piQE8ig1xoIXFcsbkYnI5TmDSUXXebjoxLUaX01SzNt
 _QbSnzaO7ancfvbQpxqZb-o6WSIJmKYJHpGbNfvQ5lq2
 }
-!procedure ServiceAdvisor($id, $name="Service Advisor", $tech="")
+!procedure ServiceAdvisor($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAdvisor', $name, $tech)
 !endprocedure
 !procedure ServiceAdvisorCard($id, $funcName="", $content="")

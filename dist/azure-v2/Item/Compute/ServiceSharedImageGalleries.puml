@@ -4,7 +4,7 @@ sprite $ServiceSharedImageGalleriesLg [20x20/16z] {
 RSt50S0m34FH6YG5zf-tpEqx_iJsi4aSVDWvTKWxKkk7iZMhhUxQtXmwbAC5Jy-MUBTqzyX7GxYP9rxD8rxD_vhDzTPidOrORzGc7zRL903Ef2Auf_YaZDI2
 OUv1pUQ6egU2kRqXsUfJemVVOW8
 }
-!procedure ServiceSharedImageGalleries($id, $name="Service Shared Image Galleries", $tech="")
+!procedure ServiceSharedImageGalleries($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceSharedImageGalleries', $name, $tech)
 !endprocedure
 !procedure ServiceSharedImageGalleriesCard($id, $funcName="", $content="")

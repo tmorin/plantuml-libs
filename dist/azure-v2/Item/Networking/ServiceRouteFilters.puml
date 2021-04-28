@@ -4,7 +4,7 @@ sprite $ServiceRouteFiltersLg [20x20/16z] {
 hOnL0iGW4CLW7Ev_u4rTVhUfmCj8-nXLEz6-kOXmzzZGvev7yJzTJdqvy-6o9XNPdPSsKTo6Tc5hcdfvxh30Cgfgp2BIbRdquTnZ1CfK-PCoQE_MIOpbIh39
 X5IhArIbjPgugcLVhU0YSUONpFtD3m
 }
-!procedure ServiceRouteFilters($id, $name="Service Route Filters", $tech="")
+!procedure ServiceRouteFilters($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceRouteFilters', $name, $tech)
 !endprocedure
 !procedure ServiceRouteFiltersCard($id, $funcName="", $content="")

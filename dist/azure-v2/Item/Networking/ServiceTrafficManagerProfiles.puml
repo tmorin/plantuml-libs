@@ -7,7 +7,7 @@ sprite $ServiceTrafficManagerProfilesLg [20x20/16z] {
 HSg7aKKX34DHX1Ny-szupKjx9yXpO5rXts5zeTx-aUATY8zAT_KWw2q_bOcB2jkv6nGsJM5jaxVIBDen5i2U4fkaqpsu61RJ6TCnZYcrzZ5H6TEK5A1EBljD
 tUT7GRVriNFComRz_kkzwbbxg_MR2hWsrLhmJ-SEmLbri6wSUd0k3zsOxaujFdImS_Biq8FoqqL_
 }
-!procedure ServiceTrafficManagerProfiles($id, $name="Service Traffic Manager Profiles", $tech="")
+!procedure ServiceTrafficManagerProfiles($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceTrafficManagerProfiles', $name, $tech)
 !endprocedure
 !procedure ServiceTrafficManagerProfilesCard($id, $funcName="", $content="")

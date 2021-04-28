@@ -4,7 +4,7 @@ sprite $ServiceInfrastructureBackupLg [20x20/16z] {
 dS_50G8m44JHrOb1_-qIbol_-A9BnBAZbUYEbwa3eGROHlMKlwraQhmjV9fb4zLzDhJW9Z8tAcBAjHHC-DWvQohJOcx5RZnitWSNadNMPoQyRURQOdxCJTNw
 ZROebWX73aoyBPHSAzjQyGyBsqepC97OgWtKXla1
 }
-!procedure ServiceInfrastructureBackup($id, $name="Service Infrastructure Backup", $tech="")
+!procedure ServiceInfrastructureBackup($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech)
 !endprocedure
 !procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")

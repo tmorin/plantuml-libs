@@ -4,7 +4,7 @@ sprite $ServiceResourceGroupsLg [20x20/16z] {
 RT250O0W50HGu6B_aVM7tSAZR_nVSzqgQ-QNNXUPQqnOkXbbW6RFCFDF4rH9NAaAQsbjQsfi8rgaTHeHIjat2wNzD03ItN8eIEcoNT9sFMoiqp0E2qsReyoe
 mv4P1Sp8XQzSVlBxpNa3
 }
-!procedure ServiceResourceGroups($id, $name="Service Resource Groups", $tech="")
+!procedure ServiceResourceGroups($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceResourceGroups', $name, $tech)
 !endprocedure
 !procedure ServiceResourceGroupsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceImageVersionsLg [20x20/16z] {
 VSs5aGLH24JHWKOd_u0NUh_RBQFE4qIXrw07WyKz5rhMsRSAjAWElmLSp1xxOJxPh3MVRcPG4L7OcycpwGPxCzAJYOAeSZEHlUaUesiHCJXa4Hbd26q2RCPp
 2nhB4MPZD-hAZFR3F8DLSp3COW4fanGZ6pOpi8K_
 }
-!procedure ServiceImageVersions($id, $name="Service Image Versions", $tech="")
+!procedure ServiceImageVersions($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceImageVersions', $name, $tech)
 !endprocedure
 !procedure ServiceImageVersionsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceMobileLg [20x20/16z] {
 dSg55SCm40JH7EmUkFz-OrGOH_oVJdFAEJWufmkiXZd7t3237S4ESzblubUszuTXUS5L15Tc80cxCMIG6JV6ggokE-kUfhmnZncBrwQYh7JH6nDHbLlR-s1K
 sL8EIpA8UKNwiAgQOTvp-NS6
 }
-!procedure ServiceMobile($id, $name="Service Mobile", $tech="")
+!procedure ServiceMobile($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceMobile', $name, $tech)
 !endprocedure
 !procedure ServiceMobileCard($id, $funcName="", $content="")

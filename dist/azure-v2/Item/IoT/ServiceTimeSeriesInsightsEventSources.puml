@@ -1,7 +1,7 @@
 @startuml
 sprite $ServiceTimeSeriesInsightsEventSourcesMd [14x14/16z] RSstOGC03CH0VgIz_y3AMReE5ThSkMxb6pNnF7XF1LvWSYxs9E4evyePCJFdkW3mexJRBJdN-Z_vMuryAlZYTdZ8jh8khCPvmIC
 sprite $ServiceTimeSeriesInsightsEventSourcesLg [20x20/16z] TT350S0m34FHoZ9q_uMBONZ77mv4sLCHskZ9FgGmgXqzZtsJh3QnJ9hcBrC-3UZc4N8y_fO1A0sDtFZfv_cFKlVZ-GbJFWcfPQplO8RQgdsR_s_rppS
-!procedure ServiceTimeSeriesInsightsEventSources($id, $name="Service Time Series Insights Event Sources", $tech="")
+!procedure ServiceTimeSeriesInsightsEventSources($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceTimeSeriesInsightsEventSources', $name, $tech)
 !endprocedure
 !procedure ServiceTimeSeriesInsightsEventSourcesCard($id, $funcName="", $content="")

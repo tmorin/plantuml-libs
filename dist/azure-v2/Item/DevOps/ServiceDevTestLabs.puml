@@ -4,7 +4,7 @@ sprite $ServiceDevTestLabsLg [20x20/16z] {
 VSvNWeKW38NXz9F0x7-zGy3sT3_xhmBq0ukgC7rfO76Xb-68zql1pUyIU9qF5L_MKP1esR0eYUM6QEWxKSyZt7stjAUXMpPdgwiXiLiv2NQigByHbLcfU-A6
 RhdirR35WZ57hglGmslEEOBffJbR-Pi4yqXz6ceSbS_Vzbhj7m
 }
-!procedure ServiceDevTestLabs($id, $name="Service Dev Test Labs", $tech="")
+!procedure ServiceDevTestLabs($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/DevOps/ServiceDevTestLabs', $name, $tech)
 !endprocedure
 !procedure ServiceDevTestLabsCard($id, $funcName="", $content="")

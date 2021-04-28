@@ -4,7 +4,7 @@ sprite $ServiceSearchGridLg [20x20/16z] {
 VOy7ic0X20I12VZkV-45z-SqLNPX6ub9Lg5oHYsHwuea2iEwvJfsjwXkavvo7Molyph_uIGH7EAMwmgJ0WTJibxEzjUpx7DCdtsz-yLPqhZJqYvVLva5-VzP
 wxOMI-xZ66AVZHl8ui3SoOlhvrZdUNhtVNJFVvU8fMTglpXw___-BYDqa5aPxoaTnfSKlgdu1m
 }
-!procedure ServiceSearchGrid($id, $name="Service Search Grid", $tech="")
+!procedure ServiceSearchGrid($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceSearchGrid', $name, $tech)
 !endprocedure
 !procedure ServiceSearchGridCard($id, $funcName="", $content="")

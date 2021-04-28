@@ -7,7 +7,7 @@ sprite $ServiceNetworkInterfacesLg [20x20/16z] {
 TSy5WWGX44DHYf8Wzx_lXh0szjjV6xGF6TU_S-LnIXNXkbEdkHIg-hN8c5lHeiio7isSbZLkTIonP01uB5cDBOiUbRBUyXgyUOdAVgpIamQQsp5yVo_1Wxud
 6xZ_b2KMhVPSipARh9a3cKiM1a3pmFTpFFuPkrP_nZcjEIV_qiU06otoJe27u4fYzZ_I5m
 }
-!procedure ServiceNetworkInterfaces($id, $name="Service Network Interfaces", $tech="")
+!procedure ServiceNetworkInterfaces($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceNetworkInterfaces', $name, $tech)
 !endprocedure
 !procedure ServiceNetworkInterfacesCard($id, $funcName="", $content="")

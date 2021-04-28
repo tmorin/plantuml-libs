@@ -4,7 +4,7 @@ sprite $ServiceEventHubsLg [20x20/16z] {
 RSu5ZWHH409Gf63lV-Br-PAU5oSbu1q-QJgtJleqgNbouqGuAQ4CQC8L-c_cTvWaJYIK-8hilynUi-w7A97jcjM4b8bZdnBS3aYSSvhH-YZ0hVO0_weT_vHC
 Qd23cwGFJfjJ6rAyYLy
 }
-!procedure ServiceEventHubs($id, $name="Service Event Hubs", $tech="")
+!procedure ServiceEventHubs($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceEventHubs', $name, $tech)
 !endprocedure
 !procedure ServiceEventHubsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceAzureDatabaseMigrationServicesLg [20x20/16z] {
 hT1NWaKX20DGX0Ha_nkUsAPzlzpgiMitmKow_OuZPHY_AB9aLVp1iOf0LU49HEasgCyXBqLa6-Fqcnl3N2CggervWlTNxkZpgtPrQySsaZuSfFwR5jsjvW5T
 hgRTq1mo0Kb4LFTqJQnXabXXpjR0AqXUuyyv-BCZ_om-OXOuYM7A5m
 }
-!procedure ServiceAzureDatabaseMigrationServices($id, $name="Service Azure Database Migration Services", $tech="")
+!procedure ServiceAzureDatabaseMigrationServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceAzureDatabaseMigrationServices', $name, $tech)
 !endprocedure
 !procedure ServiceAzureDatabaseMigrationServicesCard($id, $funcName="", $content="")

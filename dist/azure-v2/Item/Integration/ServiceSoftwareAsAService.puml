@@ -4,7 +4,7 @@ sprite $ServiceSoftwareAsAServiceLg [20x20/16z] {
 bS-5aGGn34HH2zkQ_0C-mItpB-fwWrw_HjcTgCDDhebJlFH2v9XSJoHDW-VdSay0ptExJ4H5B8Vn8jcLCmkpzIInCQbcgrYqyTd2ICjYdlLeMxmZWrOUbQwb
 RKH2rEPrR4OSS3Dp7B4jQL9NLhVU5tCrw8tHj5xs1m
 }
-!procedure ServiceSoftwareAsAService($id, $name="Service Software As A Service", $tech="")
+!procedure ServiceSoftwareAsAService($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Integration/ServiceSoftwareAsAService', $name, $tech)
 !endprocedure
 !procedure ServiceSoftwareAsAServiceCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $ServiceAutomationAccountsLg [20x20/16z] {
 NOu5iY1H2CImXdvx_mClyZtZgK2DV18PyWTjfp-_-_94c3Qdh0i5mfj8sofhm1XKvPOnAkDKnQqxrSTCw9VhA5pjqnbwODMkWKbW1YmYJ6N3H94psiw7gXRN
 jOcbs9seWmNJJOF4x1KbQU88Dv9ZpX6TWLyERnoImyEDllSAEO--xgUTQJ4gLL4cYwbPy1-zXxOwAvgToV4V
 }
-!procedure ServiceAutomationAccounts($id, $name="Service Automation Accounts", $tech="")
+!procedure ServiceAutomationAccounts($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAutomationAccounts', $name, $tech)
 !endprocedure
 !procedure ServiceAutomationAccountsCard($id, $funcName="", $content="")

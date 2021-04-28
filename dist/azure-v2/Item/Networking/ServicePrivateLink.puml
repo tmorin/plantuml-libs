@@ -4,7 +4,7 @@ sprite $ServicePrivateLinkLg [20x20/16z] {
 XSW5JWH044N1r_97xdzXEXa1LYjU7CQJdEDfnvXwFCtXFEh9yyNty-VBwUjysArW7QtoLAhOobC9XDWPLSXmXJ9MHZF8viqbP9KZiVHA5L10EgoqxbXqMxNJ
 U_5LAusbwicfPpy
 }
-!procedure ServicePrivateLink($id, $name="Service Private Link", $tech="")
+!procedure ServicePrivateLink($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServicePrivateLink', $name, $tech)
 !endprocedure
 !procedure ServicePrivateLinkCard($id, $funcName="", $content="")

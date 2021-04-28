@@ -4,7 +4,7 @@ sprite $ServiceIoTHubLg [20x20/16z] {
 NKz70WGn21e1oVz_l1jrgXSIYkLuLG1WV3X9mlbXoR2zD9pIR2bzSyb-yUA2NwvPDk8n5zfZFiMKhZS1aCf_ZJDiSPViYvCGdSsy9aO30NscI7jsgRCF-hZS
 -r1chrye6nTti23NukQIzm7Owr3Bs_zS8Y3fiy8F
 }
-!procedure ServiceIoTHub($id, $name="Service Io T Hub", $tech="")
+!procedure ServiceIoTHub($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceIoTHub', $name, $tech)
 !endprocedure
 !procedure ServiceIoTHubCard($id, $funcName="", $content="")

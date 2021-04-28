@@ -4,7 +4,7 @@ sprite $ServiceCostAnalysisLg [20x20/16z] {
 LT054iCm34JH1K7kV-9MRaSJ__0B6wSCt1qZxgXCyrBbLC6RfhSvqndoonYLp8MrgDlW-fO2UDqy69vMFPeYzK8EdPtaOfLniZ19u9hEbj4LtS6zxjXKluCY
 9cK_WoPThHshBj4HLZ-3fwS9a8Iw_JVlMNNo0m
 }
-!procedure ServiceCostAnalysis($id, $name="Service Cost Analysis", $tech="")
+!procedure ServiceCostAnalysis($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceCostAnalysis', $name, $tech)
 !endprocedure
 !procedure ServiceCostAnalysisCard($id, $funcName="", $content="")

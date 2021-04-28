@@ -4,7 +4,7 @@ sprite $ServiceServiceHealthLg [20x20/16z] {
 RO-50GD120HnDlqtdENTvkNc395lLCrqDTDD8gl2Jg5H1jFOHDHh9NAJr4DFBAivT5UxzOfpZSoYIV97T5tJx5InTdLtnkDIY7VmW4ki5G0bAcasLNHZBbIw
 fCvcQWBjIskSkd3UN4BAuD4ezGQXo4BHBPUbvjAvU2vj98wB9u7VRwguuLFv4xD3_m
 }
-!procedure ServiceServiceHealth($id, $name="Service Service Health", $tech="")
+!procedure ServiceServiceHealth($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceServiceHealth', $name, $tech)
 !endprocedure
 !procedure ServiceServiceHealthCard($id, $funcName="", $content="")

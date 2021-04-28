@@ -4,7 +4,7 @@ sprite $ServiceVirtualMachineLg [20x20/16z] {
 VSe50iH024FH0aagzxzlPSYw_2fl03yolQP_FHtFdPXHzByD6H795wlAJ7Xn6SqN5TY3BUEqWgr3NAWUrcvM5TIJxT8MczlEn-YUXZaSvrdm_-HmMaslGUIR
 9SugdYIoHfdFw7hn
 }
-!procedure ServiceVirtualMachine($id, $name="Service Virtual Machine", $tech="")
+!procedure ServiceVirtualMachine($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceVirtualMachine', $name, $tech)
 !endprocedure
 !procedure ServiceVirtualMachineCard($id, $funcName="", $content="")

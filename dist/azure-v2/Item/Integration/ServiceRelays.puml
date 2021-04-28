@@ -4,7 +4,7 @@ sprite $ServiceRelaysLg [20x20/16z] {
 RT050WKX40BG0GRT-r_unvRvx8xO0Oa18TSoSReib4NHewqiZ1FY13jmrsMTjRFZWdGY9bhxA58nW7YcZlA_a1RQmbgDYAnLNT_nxzDnzO7whxeMIMUsl0td
 sv8zxV-5SewSvvjx0Bu
 }
-!procedure ServiceRelays($id, $name="Service Relays", $tech="")
+!procedure ServiceRelays($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Integration/ServiceRelays', $name, $tech)
 !endprocedure
 !procedure ServiceRelaysCard($id, $funcName="", $content="")

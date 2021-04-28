@@ -4,7 +4,7 @@ sprite $ServiceStreamAnalyticsJobsLg [20x20/16z] {
 bOxLWGKW30IpblvBFeAS_Rr1Tz3w64ZudISmrftMYPIp91q-zyDpPG6WHXbreIG2NkuQa2XCdqGOHKwUlfoz4vCue4f9Dt1sNUTqP9riQoainVDzEGHctXsy
 Lw6LqiFziz8_t4yZ1iSJ2ki7hItr3_Xdou_4dNm1
 }
-!procedure ServiceStreamAnalyticsJobs($id, $name="Service Stream Analytics Jobs", $tech="")
+!procedure ServiceStreamAnalyticsJobs($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceStreamAnalyticsJobs', $name, $tech)
 !endprocedure
 !procedure ServiceStreamAnalyticsJobsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceCacheRedisLg [20x20/16z] {
 fP170WCX30CNDwtC__yRMdfFH1lF1V3sLugegfGpzTFStLJEv04L4KLS46gIp8fhwc5eiCF9XPkfcSU5Sn4r5V4BHo0Y07Qtst2rRUn7PnJTMqRHNIziFZ-N
 o_wDbPDh_ArJa4b2hnlMKxQdEG
 }
-!procedure ServiceCacheRedis($id, $name="Service Cache Redis", $tech="")
+!procedure ServiceCacheRedis($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceCacheRedis', $name, $tech)
 !endprocedure
 !procedure ServiceCacheRedisCard($id, $funcName="", $content="")

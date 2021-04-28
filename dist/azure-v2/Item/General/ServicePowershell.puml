@@ -1,7 +1,7 @@
 @startuml
 sprite $ServicePowershellMd [14x14/16z] LSS70iH020B0LO4j___lNNh8M0dNoiLocci-bhe3kVMjjYvFpFA4V9DG980xRPsP45LobIxQnny
 sprite $ServicePowershellLg [20x20/16z] ZT350SKm30JHM3lQ3_tt6sP-GS_5KBrLOgyeVtl9vx_tmMVjk-V0wLmpeKnoGsqZsBVknRuDSTyenzQ-DWtt2IJHDxf6lwYMtAzFU90TTmXvJ-q1xbLd6W
-!procedure ServicePowershell($id, $name="Service Powershell", $tech="")
+!procedure ServicePowershell($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServicePowershell', $name, $tech)
 !endprocedure
 !procedure ServicePowershellCard($id, $funcName="", $content="")

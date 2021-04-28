@@ -4,7 +4,7 @@ sprite $ServiceDataFactoryLg [20x20/16z] {
 bSq50W8n30J0D9uk___kkU1mMvyQlKrRyq2iPgPoXoAY7c5oXnPbimVypj2NmAvOczk3jM0YjNjh0I6flBE9m5Auit00LhYtBL-jQhA-jSqQMJVYwaIv6otM
 geXYD_T4UG3XVR9y_kEMOXaHDIUts0W
 }
-!procedure ServiceDataFactory($id, $name="Service Data Factory", $tech="")
+!procedure ServiceDataFactory($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceDataFactory', $name, $tech)
 !endprocedure
 !procedure ServiceDataFactoryCard($id, $funcName="", $content="")

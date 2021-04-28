@@ -4,7 +4,7 @@ sprite $ServiceWorkspacesLg [20x20/16z] {
 ZOs5WSL020MH9wJ_Xcyvjo-Jh0qMJvBLlwccTR1VjrVOL5V1x2nQ95zTHPIP4VZV0LXdRAsszVWr3nmVng_xxBQEU0r8Amw4t17jhP2vKkzkNfq0UTqW4pEY
 NiVk35tRwPhnLhrot2UlZgE2lk1h4k8xcT7e-4sYywzSzPSN
 }
-!procedure ServiceWorkspaces($id, $name="Service Workspaces", $tech="")
+!procedure ServiceWorkspaces($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceWorkspaces', $name, $tech)
 !endprocedure
 !procedure ServiceWorkspacesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceDiagnosticsSettingsLg [20x20/16z] {
 ZT250SCW501HlXtj_WiNXtek_kAaalcHfPgQ7haKad3PfT1cP-Blfj-DpmPznJ88mZpCWcvQpDn5JNrP1jKY6h2itAGIxfdJC2EJIzDAH96Q3HkTThjgPnRD
 xgSvyZ86K6zz
 }
-!procedure ServiceDiagnosticsSettings($id, $name="Service Diagnostics Settings", $tech="")
+!procedure ServiceDiagnosticsSettings($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceDiagnosticsSettings', $name, $tech)
 !endprocedure
 !procedure ServiceDiagnosticsSettingsCard($id, $funcName="", $content="")

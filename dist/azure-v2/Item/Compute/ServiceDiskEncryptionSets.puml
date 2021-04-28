@@ -4,7 +4,7 @@ sprite $ServiceDiskEncryptionSetsLg [20x20/16z] {
 NT25WI0n34DHISQa_uBFpYt_uJSSIH7me8Kn714Zf1bcbWblZnJnDuQz3JKHBrjZTdTLd_9dUz6vf_kyQZ4C6lkWsn_tQgMdkIpNkDVsNBYKkGRJOlLMcHw0
 mcRbKLDcLvoWcS2Sdjtkqo89rOT5TtKGOU3Q5d5l0kQQLVNoNdW8YDXe7kvING5xxtTyPlxJaCqnyQTHRoM-GGPDsDd8Vm
 }
-!procedure ServiceDiskEncryptionSets($id, $name="Service Disk Encryption Sets", $tech="")
+!procedure ServiceDiskEncryptionSets($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceDiskEncryptionSets', $name, $tech)
 !endprocedure
 !procedure ServiceDiskEncryptionSetsCard($id, $funcName="", $content="")

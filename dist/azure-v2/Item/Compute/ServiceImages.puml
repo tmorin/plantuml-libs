@@ -7,7 +7,7 @@ sprite $ServiceImagesLg [20x20/16z] {
 ROq7WaD1249_L42J-zztSTFBcyfpol63o2z2XA6kR229a-5o3KT25PGs5aXlAqjO9-Rf54MjWv2hAlo2auI2hkJ-VqliV-mYxAwXMRlugkKwWiDiWx0hTGzg
 tUw6LT2uMdPA03EEEm6v9MJMt51cggM-OjDNUDpGvJ9rlAFp-TD5s_5DfSOquga2l7Az_GS
 }
-!procedure ServiceImages($id, $name="Service Images", $tech="")
+!procedure ServiceImages($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceImages', $name, $tech)
 !endprocedure
 !procedure ServiceImagesCard($id, $funcName="", $content="")

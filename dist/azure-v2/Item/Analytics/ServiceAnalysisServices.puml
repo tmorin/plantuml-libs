@@ -4,7 +4,7 @@ sprite $ServiceAnalysisServicesLg [20x20/16z] {
 fS_L0GGn20HGV2RzDto1_JZtjnf3v0zgFapEF6h4rHnAhH1wCPSe4J8cZcwcaMI1YsNgETptt9vX_m7btc7KpE6cebwaI2AbbOnSontiELLOnmuiRZrdcQZC
 gZnqgLPLMLtDcQDCibzdJeGcS3LtH8RBcUNeXizqo6id
 }
-!procedure ServiceAnalysisServices($id, $name="Service Analysis Services", $tech="")
+!procedure ServiceAnalysisServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Analytics/ServiceAnalysisServices', $name, $tech)
 !endprocedure
 !procedure ServiceAnalysisServicesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceServiceBusLg [20x20/16z] {
 VT250SCm34HHYq_xBrn1cNxuXNt-HTMRY9eflv15v_f4NiVkfNedhICv4XKztOUhoVM-cw4VMSWAbBZG8PdJHkxevk4Qw1HBRbotNC-lcQgmYEoXHoBJhLD5
 Lc2RJMnZVYZQV1kJ_cOyM_1jL6pZf-5I92hdyqXYUZ7YwKeN
 }
-!procedure ServiceServiceBus($id, $name="Service Service Bus", $tech="")
+!procedure ServiceServiceBus($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceServiceBus', $name, $tech)
 !endprocedure
 !procedure ServiceServiceBusCard($id, $funcName="", $content="")

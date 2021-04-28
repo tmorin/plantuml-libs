@@ -7,7 +7,7 @@ sprite $ServiceAzureSynapseAnalyticsLg [20x20/16z] {
 NS-7WSKW30DGsv9hzj_t273jAmLuTBdHc5Jv5sDDkVqHHKzdJvdAZUKp1R7g3BihFS_mBC2pAkOPtm92VRKWw5njso8hsSlA1UIH5Q_NA1xXj8EiEowJ0Eol
 AQ3hHxDVEr4wxSFiNVQ_APRnxDjnX81J9HfYkU_AiojgodOPLooxgNV3w33Hw8uj6oswiZfmw2goabU-
 }
-!procedure ServiceAzureSynapseAnalytics($id, $name="Service Azure Synapse Analytics", $tech="")
+!procedure ServiceAzureSynapseAnalytics($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Analytics/ServiceAzureSynapseAnalytics', $name, $tech)
 !endprocedure
 !procedure ServiceAzureSynapseAnalyticsCard($id, $funcName="", $content="")

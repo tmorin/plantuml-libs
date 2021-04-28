@@ -4,7 +4,7 @@ sprite $ServiceErrorLg [20x20/16z] {
 RS-50SCm34JH24_TV-6Q-OTVoFvQn2ByRP6egJ8jn8QIBayvS20fHbJ5i2IPsB7c2La3UywEEBEuGpno_6RvcRHdMyqjcN-4nSpm2ybZZaumSt2RN8qjbMXD
 iibXdanfC_PKUtUYQdxr3m
 }
-!procedure ServiceError($id, $name="Service Error", $tech="")
+!procedure ServiceError($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceError', $name, $tech)
 !endprocedure
 !procedure ServiceErrorCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceCodeLg [20x20/16z] {
 ZP35GGLH54DdYDr7_mKJuBkVJMoNxLFshrjsQDqYvlkMq8-wkSLWV4q87hseVtFe17KMZbqITsbdm4cD_gh4rB-9eAbrHlGqfgxTJ9h9ZaoJg2c6gMNaBz3h
 bx6oPlxyNtU37_towB_j0Jy
 }
-!procedure ServiceCode($id, $name="Service Code", $tech="")
+!procedure ServiceCode($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceCode', $name, $tech)
 !endprocedure
 !procedure ServiceCodeCard($id, $funcName="", $content="")

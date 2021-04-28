@@ -7,7 +7,7 @@ sprite $ServiceReservationsLg [20x20/16z] {
 JT250KGX30FGMfBszX_uu3lEmx4xH5NODtX4aSXueQgog1xbHVfD-T6g7lXfmrKbOfKSRC8W7tDEhlRG_BQLMX7e9PVjW4b8TjavvWqAfw7hR8XQvkUDiCK_
 PYN6PH3l1-F4Hg2VDs8FrwJbm1vrCodCsH4lOchLqRqjpfE6RYTUzmrTj9gS5abrbp_R92Y9r-__0G
 }
-!procedure ServiceReservations($id, $name="Service Reservations", $tech="")
+!procedure ServiceReservations($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceReservations', $name, $tech)
 !endprocedure
 !procedure ServiceReservationsCard($id, $funcName="", $content="")

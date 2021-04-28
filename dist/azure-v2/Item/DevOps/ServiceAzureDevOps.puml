@@ -4,7 +4,7 @@ sprite $ServiceAzureDevOpsLg [20x20/16z] {
 VT3L0OH034LHeY_P_ljbT76uVnp6bw_emKJlQZ0-2wi3RjjG4glGSXKrSAKERi9rb3YgaQ5_ZWG8NZYmhxqRdKrk5jKaZwRHZA-Mqex2LsjdLXLXecvPhOKS
 HLIQnf5xkYqZxF5hGsLVcnPYHOAlhqpIgG
 }
-!procedure ServiceAzureDevOps($id, $name="Service Azure Dev Ops", $tech="")
+!procedure ServiceAzureDevOps($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/DevOps/ServiceAzureDevOps', $name, $tech)
 !endprocedure
 !procedure ServiceAzureDevOpsCard($id, $funcName="", $content="")

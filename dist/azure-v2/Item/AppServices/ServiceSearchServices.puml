@@ -4,7 +4,7 @@ sprite $ServiceSearchServicesLg [20x20/16z] {
 bSv70WCn24FH0Ka8t__2SKbV9Ny5Rufz_Lt4joH9V6YeTdYpIT_8ifc9SiLB393CSfvVULQWDDMQcFGsKbDpJQ7gZPWYmjs6tQlA987QS--SaI1qbl8Xkjtt
 gD6jO8z-v0jhgpSQchVn-4YnRWs-bTVFtG
 }
-!procedure ServiceSearchServices($id, $name="Service Search Services", $tech="")
+!procedure ServiceSearchServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AppServices/ServiceSearchServices', $name, $tech)
 !endprocedure
 !procedure ServiceSearchServicesCard($id, $funcName="", $content="")

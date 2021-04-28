@@ -4,7 +4,7 @@ sprite $ServicePublicIpPrefixesLg [20x20/16z] {
 ZSr50eD0343HnjFx7xY5s90T7t-CV5w621L2szUrScrp4yviJ4wypBLO_MbS1cqgbMfOPnOF8XQzY_asQ_9TJckpsdmLLlDP-3hB928WH08EYqXxtB9kZ4sx
 CJYLhFu
 }
-!procedure ServicePublicIpPrefixes($id, $name="Service Public Ip Prefixes", $tech="")
+!procedure ServicePublicIpPrefixes($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServicePublicIpPrefixes', $name, $tech)
 !endprocedure
 !procedure ServicePublicIpPrefixesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceUserPrivacyLg [20x20/16z] {
 NS-70O0m24JH07UK_HSMxFhjpvQiCr5PlzJCz4l6oTwaFDANWRx7bmtz3GV5spJstDOhQyd0cmIWav2753HLjLQShlECzg7VpwIr2hqpiKYVokRxta5nMbe_
 DXOEHiRKfXvdULYrvMrrtD6baLTLivl9w1Eg2kiNV6W3
 }
-!procedure ServiceUserPrivacy($id, $name="Service User Privacy", $tech="")
+!procedure ServiceUserPrivacy($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceUserPrivacy', $name, $tech)
 !endprocedure
 !procedure ServiceUserPrivacyCard($id, $funcName="", $content="")

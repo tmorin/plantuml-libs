@@ -4,7 +4,7 @@ sprite $ServiceTfsVcRepositoryLg [20x20/16z] {
 TOu5WWGn20IXXUJ-_-5RiZ9Ueoaq6Y3ZI88a3Wgo97EV9Q7VngPeV4AvgymcQ3mvYDcrIwhyWO5IAthC5wDSYc1PL8aBLtMF_dgCzuBuR9yreDboHyqC_asS
 tP8ukU2mjRdHBcKxFmgs-bzLZW-orr99vjUnUj4ZIHtKFm
 }
-!procedure ServiceTfsVcRepository($id, $name="Service Tfs Vc Repository", $tech="")
+!procedure ServiceTfsVcRepository($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceTfsVcRepository', $name, $tech)
 !endprocedure
 !procedure ServiceTfsVcRepositoryCard($id, $funcName="", $content="")

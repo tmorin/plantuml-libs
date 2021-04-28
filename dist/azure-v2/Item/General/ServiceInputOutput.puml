@@ -4,7 +4,7 @@ sprite $ServiceInputOutputLg [20x20/16z] {
 RP1L0e0024DXZ87tFx3T-dxej5_yQuFnW7ImzAG2LE9EAZmKTeU2WVwOSDYUfvzO7UvHgzDdb31mdTMQrPpHxAI6cUuEOzVAkakgEzsG9AlstcWTG-hG83iG
 p5xxhVRV7Q3ullVlBmRo_R-_Fqy
 }
-!procedure ServiceInputOutput($id, $name="Service Input Output", $tech="")
+!procedure ServiceInputOutput($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceInputOutput', $name, $tech)
 !endprocedure
 !procedure ServiceInputOutputCard($id, $funcName="", $content="")

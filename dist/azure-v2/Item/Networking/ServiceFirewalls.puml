@@ -4,7 +4,7 @@ sprite $ServiceFirewallsLg [20x20/16z] {
 VO-50S0W30IHUFVVjn_gUbKEOkMFMklTD2BgxQ9O1ltaXhXA4jraNU9W3jfGQGuOqOrChp0AsXrIUt0eTzz-HR48S7oiCVuduERvWTJID5t4uIXdXLFao4WD
 MyOZRAyPWcjP7OxW9DuJbONcOBJbtiecazxn6ce6
 }
-!procedure ServiceFirewalls($id, $name="Service Firewalls", $tech="")
+!procedure ServiceFirewalls($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceFirewalls', $name, $tech)
 !endprocedure
 !procedure ServiceFirewallsCard($id, $funcName="", $content="")

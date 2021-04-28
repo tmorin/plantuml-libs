@@ -4,7 +4,7 @@ sprite $ServiceProcessExplorerLg [20x20/16z] {
 VOw54G1120CFI7BMVx_lBZkMMPJKdT7mZghiZYhJ7HxExEaYKlAHRTOY6Mb10B4wo08nscFMmO0ROzsN0u3xrEFR3Vd86EBvYzlDRHopTvHpcQaJIypRGEwz
 bpN_kJ8vEnjN6rtBVYXelI6aaG4
 }
-!procedure ServiceProcessExplorer($id, $name="Service Process Explorer", $tech="")
+!procedure ServiceProcessExplorer($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceProcessExplorer', $name, $tech)
 !endprocedure
 !procedure ServiceProcessExplorerCard($id, $funcName="", $content="")

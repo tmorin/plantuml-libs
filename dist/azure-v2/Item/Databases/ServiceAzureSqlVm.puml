@@ -4,7 +4,7 @@ sprite $ServiceAzureSqlVmLg [20x20/16z] {
 TSm50iGW34HHI4P2xt_WRLYtN-KXurSpvdin8_LP9ln1nX-pcL0_IjcdqNQm2Q7flO9b8qxgrMtLLYLaGWoULZTZIoOTqBPL9RhsCP9h4LhtVFiLTApt3YNN
 Pno17MKHknYtKbQEzvBYXyq4aFEL8hABU5rsRtGN
 }
-!procedure ServiceAzureSqlVm($id, $name="Service Azure Sql Vm", $tech="")
+!procedure ServiceAzureSqlVm($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceAzureSqlVm', $name, $tech)
 !endprocedure
 !procedure ServiceAzureSqlVmCard($id, $funcName="", $content="")

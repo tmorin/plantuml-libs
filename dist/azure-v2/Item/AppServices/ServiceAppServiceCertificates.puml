@@ -4,7 +4,7 @@ sprite $ServiceAppServiceCertificatesLg [20x20/16z] {
 TStLeSK0309G4gIw_xfFhbRFPmI0Ea9Vi7Wa4qUycrLll6QeZPlV4Cq2q7m2QCksWCrlCjWP6lNj60QJZ51yUiqag_3oc4NImCrCpXWFW_ZbPkPfDZSQbMLP
 Y9tAUZ6RD0jxtL1XwnS
 }
-!procedure ServiceAppServiceCertificates($id, $name="Service App Service Certificates", $tech="")
+!procedure ServiceAppServiceCertificates($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AppServices/ServiceAppServiceCertificates', $name, $tech)
 !endprocedure
 !procedure ServiceAppServiceCertificatesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceFtpLg [20x20/16z] {
 ZSYr0S0m34HHuHds7pWnG-LV21wznsT5_8v9SmfOXPIjcF9AKzRVSjhBsKXm9oHUCxCooZdCHAoCtPIaZ65eM_jmT3DcmpzyCoKjGtPZChYmxIRgS5MVTYV4
 UiVqs0S
 }
-!procedure ServiceFtp($id, $name="Service Ftp", $tech="")
+!procedure ServiceFtp($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceFtp', $name, $tech)
 !endprocedure
 !procedure ServiceFtpCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceCostBudgetsLg [20x20/16z] {
 NOu90aGX2493XER-9svXTluIl4eTBrMDVu74FwFT-CBSlYHo-aNBvhvyqgO8i_Xg0WScbLJOSFPt3vlNr40V1qcT4Tr5gyAO6seSbhkgoxe7U2se3SDEV7VH
 Yz7OlAebfSVc3sycRvrRPGwqdNefP-74r27FNpFTOSSC71ILx2PR6IS2-ueuQG4
 }
-!procedure ServiceCostBudgets($id, $name="Service Cost Budgets", $tech="")
+!procedure ServiceCostBudgets($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceCostBudgets', $name, $tech)
 !endprocedure
 !procedure ServiceCostBudgetsCard($id, $funcName="", $content="")

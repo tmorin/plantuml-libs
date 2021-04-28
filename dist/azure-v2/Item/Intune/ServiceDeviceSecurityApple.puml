@@ -4,7 +4,7 @@ sprite $ServiceDeviceSecurityAppleLg [20x20/16z] {
 LSp50S0m30H1iTD_mm51pjxd2EZBF49fZ-Kp4nuGqHSoLoqEj5Pec_y4QybsMvsqWIxiDRprNbEjHvbvacR2bQR97h5_ZsoFIE8rFuquqhHxBJ7tO9dz16Dp
 DAROqx7Z-04
 }
-!procedure ServiceDeviceSecurityApple($id, $name="Service Device Security Apple", $tech="")
+!procedure ServiceDeviceSecurityApple($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Intune/ServiceDeviceSecurityApple', $name, $tech)
 !endprocedure
 !procedure ServiceDeviceSecurityAppleCard($id, $funcName="", $content="")

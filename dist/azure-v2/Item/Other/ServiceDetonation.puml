@@ -4,7 +4,7 @@ sprite $ServiceDetonationLg [20x20/16z] {
 PT275O0m30FHsBAaXFttfTV7qJyzxIapshT801yDKEIwv4F5C-6oZIuyhqpggM8tlEsyi4IKR1EuZ78so8eetzTrhTvD-ZAmZwlBWXxJQTTx6zN7j3Ly_Kb8
 yjX8n4dkdMjQbtm8sxWKifsaZJxbdnh6ZrhoHmi
 }
-!procedure ServiceDetonation($id, $name="Service Detonation", $tech="")
+!procedure ServiceDetonation($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Other/ServiceDetonation', $name, $tech)
 !endprocedure
 !procedure ServiceDetonationCard($id, $funcName="", $content="")

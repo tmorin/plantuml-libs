@@ -4,7 +4,7 @@ sprite $ServiceBugLg [20x20/16z] {
 LSx70GGn349H11Aif_z-Dq_wpkza_EAndpK_r3Vp49p17ItdJkt4xYlDE8ddHDhvPtv5yMIl7G6qs8U9CY43Eeo0XIBAZxqfL06boM4PVMZIVPWwKr20Ym4M
 g8-jhwoFYG30nzhB_kVqOKe4C2paJuDY11f0PMtRjbm0BA3mmHwFVjTw0G
 }
-!procedure ServiceBug($id, $name="Service Bug", $tech="")
+!procedure ServiceBug($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBug', $name, $tech)
 !endprocedure
 !procedure ServiceBugCard($id, $funcName="", $content="")

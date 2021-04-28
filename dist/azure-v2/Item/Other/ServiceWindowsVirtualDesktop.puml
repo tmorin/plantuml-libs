@@ -4,7 +4,7 @@ sprite $ServiceWindowsVirtualDesktopLg [20x20/16z] {
 RT07aWKX20HGQK3I_SyxITdzgIjHZvwWOuS0q9vRM4JuLQ7c4U6cQ6ABMWdZfgnEBiGVfTk568CqkZH9ga9fmBerYU-rWTZlnipQLCwGUr3IDC9Z8Sj2I6CN
 soemB9LaxTaVOvgLKv_t3LZJZc7z7vCrXT8wX_dVMGo_pljzBp_lx_Szdm
 }
-!procedure ServiceWindowsVirtualDesktop($id, $name="Service Windows Virtual Desktop", $tech="")
+!procedure ServiceWindowsVirtualDesktop($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Other/ServiceWindowsVirtualDesktop', $name, $tech)
 !endprocedure
 !procedure ServiceWindowsVirtualDesktopCard($id, $funcName="", $content="")

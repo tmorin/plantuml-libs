@@ -4,7 +4,7 @@ sprite $ServiceAzureActiveDirectoryLg [20x20/16z] {
 VT2t0GD144BH7GFqtx7GUV_3by7uBEwKNLUA0l9A3I9ELcqZBcGxOPhA9lQ17FHlmUWkrwHSJLGkCsrEpB-bsuoeiCJ1W49dTSLcwAGmJSWn6m9Inp8_8e4g
 YR6jjOwaLEUdMa9SZY7BTCRSxli1
 }
-!procedure ServiceAzureActiveDirectory($id, $name="Service Azure Active Directory", $tech="")
+!procedure ServiceAzureActiveDirectory($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceAzureActiveDirectory', $name, $tech)
 !endprocedure
 !procedure ServiceAzureActiveDirectoryCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceImportExportJobsLg [20x20/16z] {
 TSi53WCW44JHML_kV-5EYbK__XAmKpF5MsBEtb0YApaDjyYLte-v2yoyyZR9Yf5hdaxIB1PY2yi5ray23keqfsbCQeDMTwM3r3E3UBE0Rae198icsqe1PfaX
 Lfqi13VhnEslQNIPlflt6FLX4gCD7uaVUW
 }
-!procedure ServiceImportExportJobs($id, $name="Service Import Export Jobs", $tech="")
+!procedure ServiceImportExportJobs($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Storage/ServiceImportExportJobs', $name, $tech)
 !endprocedure
 !procedure ServiceImportExportJobsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceDeviceProvisioningServicesLg [20x20/16z] {
 NP070iH0208NGLF-_-1JrrmpVHZIrXvG4h4-0vFNq3w84Ix98qQ5NDe2AYZA-zAoK5CxhuAyJYw5qEPvgNnQ2K-T6JBsXTaSWr3CewQEaCaXPrf-UAS-BD5u
 3qDtB6SpqFiCphLAD6TkAgPwVBr3EP3lQWU4bzpx6HkZsZOiaKsgLElrf9tEH_Au3_xzQIYz8Iy
 }
-!procedure ServiceDeviceProvisioningServices($id, $name="Service Device Provisioning Services", $tech="")
+!procedure ServiceDeviceProvisioningServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/IoT/ServiceDeviceProvisioningServices', $name, $tech)
 !endprocedure
 !procedure ServiceDeviceProvisioningServicesCard($id, $funcName="", $content="")

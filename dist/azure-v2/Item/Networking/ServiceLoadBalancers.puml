@@ -4,7 +4,7 @@ sprite $ServiceLoadBalancersLg [20x20/16z] {
 NSw50KGX30DGIgJiF_4HpibN7jAETwRck58qwpBQDzAYp8i0oFgIiX6qlyZU4NK-FsGKdA_gD26tP-rhepPY4qWKnO9oAkKcm9fgpUB-jy7En6kTKucZrExl
 UMxL22Ppp7n2oK4C_FGNN7kwk48VN4ppA_J5xFKldKAdueqVUW
 }
-!procedure ServiceLoadBalancers($id, $name="Service Load Balancers", $tech="")
+!procedure ServiceLoadBalancers($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceLoadBalancers', $name, $tech)
 !endprocedure
 !procedure ServiceLoadBalancersCard($id, $funcName="", $content="")

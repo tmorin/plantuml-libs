@@ -4,7 +4,7 @@ sprite $ServiceNetworkSecurityGroupsLg [20x20/16z] {
 fSgt5GD130DH6W3aNVy5QvrigWd_6zk5kbjX7mMeAk697f4IaXgC21-65Z5YQMWtneOJQwQ2_rhzPLoMarAz6sQfxs33UgUzCuR5bq7Jd8kkOtIR-6aQDCk-
 HikOTa8V8pOSl8STEcNVWjA-YYg6xHu
 }
-!procedure ServiceNetworkSecurityGroups($id, $name="Service Network Security Groups", $tech="")
+!procedure ServiceNetworkSecurityGroups($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceNetworkSecurityGroups', $name, $tech)
 !endprocedure
 !procedure ServiceNetworkSecurityGroupsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceAzureSphereLg [20x20/16z] {
 RT050iD024HHcC5w_mkNXNhpuo--yWo4VASuwQVG7A9kr1Tv1u5tYxllPZxXTTL7saIVYEUExftiZEGmb15XXspMVKIisJPci2lBJ_E8F9OPBui-Cc5svD8U
 pBTaa4EH-vSGnY1dsw2gWgYQ9rS5f459houpgtFEUAbwtRRorxWgFSudEKVk
 }
-!procedure ServiceAzureSphere($id, $name="Service Azure Sphere", $tech="")
+!procedure ServiceAzureSphere($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServiceAzureSphere', $name, $tech)
 !endprocedure
 !procedure ServiceAzureSphereCard($id, $funcName="", $content="")

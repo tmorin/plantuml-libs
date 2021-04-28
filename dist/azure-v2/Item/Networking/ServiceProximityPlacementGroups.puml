@@ -4,7 +4,7 @@ sprite $ServiceProximityPlacementGroupsLg [20x20/16z] {
 ZP254GCX403FxVd-smqsSLjyyGC04hWX14FnWsFgnapngb3CXXdBhv2ecGaymjqnu61i76ndxcv2F5lSBjfv64dcsUBgib998ZFzwevMEjQruxhEQwsBgkiw
 KnrtpFRgEiCD_dQV__68sBkul8lVkpXV
 }
-!procedure ServiceProximityPlacementGroups($id, $name="Service Proximity Placement Groups", $tech="")
+!procedure ServiceProximityPlacementGroups($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceProximityPlacementGroups', $name, $tech)
 !endprocedure
 !procedure ServiceProximityPlacementGroupsCard($id, $funcName="", $content="")

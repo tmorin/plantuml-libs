@@ -4,7 +4,7 @@ sprite $ServiceActiveDirectoryConnectHealthLg [20x20/16z] {
 VT1N0aGX24FH1oH1zx_X2TFx_JnsZxz5V52YFgZ8V2TGhnY5eiHuiiAOyPaSMzrtpA5YJxXJLIKatJ067DfP6Rv-Nk9olTPMPiMp6JiI5LRRjX0YB_SznbON
 AvEw7foHr8ZGjgbcWsA3tYxlVs2PlC7JBuYPyaLUlYiyWg4J
 }
-!procedure ServiceActiveDirectoryConnectHealth($id, $name="Service Active Directory Connect Health", $tech="")
+!procedure ServiceActiveDirectoryConnectHealth($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceActiveDirectoryConnectHealth', $name, $tech)
 !endprocedure
 !procedure ServiceActiveDirectoryConnectHealthCard($id, $funcName="", $content="")

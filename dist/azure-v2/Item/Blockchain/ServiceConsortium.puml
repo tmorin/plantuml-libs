@@ -4,7 +4,7 @@ sprite $ServiceConsortiumLg [20x20/16z] {
 RT250KGX30FGIf8MzX_uohdbAm_77ebq-uedlZ504l5353zC8hJNXrMhzkutCQZLUodD_IgO9CSgSX8M2HwB928E7ZbKSfjEu1Z5SzUkaR4Ys3McMSJ3Yjs5
 OqiAZt3ecCmXDPa9p4CM_ReOjv59Xitz28c4Ekqj55NznzQd1QHk-lSvC-zq0G
 }
-!procedure ServiceConsortium($id, $name="Service Consortium", $tech="")
+!procedure ServiceConsortium($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Blockchain/ServiceConsortium', $name, $tech)
 !endprocedure
 !procedure ServiceConsortiumCard($id, $funcName="", $content="")

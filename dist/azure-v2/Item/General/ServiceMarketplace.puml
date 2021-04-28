@@ -4,7 +4,7 @@ sprite $ServiceMarketplaceLg [20x20/16z] {
 NT273G0X34DHxDZPV-IZIhbyzKTdt4W0urVC9l_8uHHLBG5QWsocQW0CJWFVGSoIPNJBOt76vMOcG6tBQ-AOiPfmpbUnJTEeOYykupHbT8CoWoSLctcLnKeo
 zz-vMF1-2sSnauGf7m
 }
-!procedure ServiceMarketplace($id, $name="Service Marketplace", $tech="")
+!procedure ServiceMarketplace($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceMarketplace', $name, $tech)
 !endprocedure
 !procedure ServiceMarketplaceCard($id, $funcName="", $content="")

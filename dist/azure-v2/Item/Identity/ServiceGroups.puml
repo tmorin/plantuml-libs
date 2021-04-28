@@ -4,7 +4,7 @@ sprite $ServiceGroupsLg [20x20/16z] {
 bSvLWaKn30BG6m7Ixd_1KvddVZwZ73ynTxih1OQuAJdmK0J08SrOybtZXc3llUog9aJhWwzQQ0d_horGbTAE74NyXyj4PdXG57sM4d2RWTXewF9HsZ6Ie9hN
 t7PExk1G71ShKXmYEQaF3T04Qgc9kh72INLjrJpoIXol_04
 }
-!procedure ServiceGroups($id, $name="Service Groups", $tech="")
+!procedure ServiceGroups($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceGroups', $name, $tech)
 !endprocedure
 !procedure ServiceGroupsCard($id, $funcName="", $content="")

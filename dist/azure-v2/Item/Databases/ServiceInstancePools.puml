@@ -4,7 +4,7 @@ sprite $ServiceInstancePoolsLg [20x20/16z] {
 JSi7aiKW38FXu2A9pER-rrrJv_sfV9XdPdvwJfQtTYnqsuFDaxjhZjinYrnTCuzJuXhKtwhZrxg-x_jx2O37g376QLoM8EPTNQl0KmmBp45mV0dOD91kcJ6E
 EEdJ94j5A5kPv1we3oqzEXfSKWxh2elmiM_1FWpgXAGmQYp2Ws2ltbVKMr-qPiK1La3M7Utv1m
 }
-!procedure ServiceInstancePools($id, $name="Service Instance Pools", $tech="")
+!procedure ServiceInstancePools($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceInstancePools', $name, $tech)
 !endprocedure
 !procedure ServiceInstancePoolsCard($id, $funcName="", $content="")

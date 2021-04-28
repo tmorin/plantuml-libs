@@ -4,7 +4,7 @@ sprite $ServiceAzureArcLg [20x20/16z] {
 fOx7WSKm20LDJlttku9rzl7FYJSIOViD8BW2mXXLPTXDiudeWFECGuGjOqdZMX9bHdZclsDH9kPiAjDMw372b_FEAd9tqfEOJrUrpoD-z0e0a5pp6jSbJ6Lt
 OH6vZvz_AuPNnSpRUu4ylLM3xGZwUXCOrJNZNktcgh_y0G
 }
-!procedure ServiceAzureArc($id, $name="Service Azure Arc", $tech="")
+!procedure ServiceAzureArc($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAzureArc', $name, $tech)
 !endprocedure
 !procedure ServiceAzureArcCard($id, $funcName="", $content="")

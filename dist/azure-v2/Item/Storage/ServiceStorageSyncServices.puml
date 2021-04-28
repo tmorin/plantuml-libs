@@ -4,7 +4,7 @@ sprite $ServiceStorageSyncServicesLg [20x20/16z] {
 VP05Oi0W34KB-HAw-zzt8MKkhy87ujU_ZF7zO0OGv_GSKIuKrmVouUCGVcUS4n7ESpQVKEQe5BE8qdKuaScTbhcII9k3oZI0qEgp0jbOqBgNq9jibkZxvJPx
 9w-DG4dWrXdiCnE82BM-fdjLP-epL85RP6Kmg59u7ufMaaJCZzbCMHBZox02c_brgCsZNm4
 }
-!procedure ServiceStorageSyncServices($id, $name="Service Storage Sync Services", $tech="")
+!procedure ServiceStorageSyncServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Storage/ServiceStorageSyncServices', $name, $tech)
 !endprocedure
 !procedure ServiceStorageSyncServicesCard($id, $funcName="", $content="")

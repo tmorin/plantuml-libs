@@ -4,7 +4,7 @@ sprite $ServiceInformationLg [20x20/16z] {
 NP074iGW4CFihUJ_3xwoc2jHcaPf00Hfb0gQl_YjzAmXdITDKUKzdSZebtPmIyKhMWy1n3Q3o-RX8PYoYZXcaauofQRhIY3MLlyqCjKiQmtJXhR8UoioxYq0
 g__M1E1wHHysOEArDY_nIVFwjId3WHvPLQ4bVG8
 }
-!procedure ServiceInformation($id, $name="Service Information", $tech="")
+!procedure ServiceInformation($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceInformation', $name, $tech)
 !endprocedure
 !procedure ServiceInformationCard($id, $funcName="", $content="")

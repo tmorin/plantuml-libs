@@ -4,7 +4,7 @@ sprite $ServiceLoadTestLg [20x20/16z] {
 dOp50KGX30N9CzZ-2_xknnqq4saRE6atF7auUKVj8pVrZnC0VHoNYs_dpVdjG7mSWq8Xl1MYrefKS7UcrccgkCxEllQ0s7uRwAPiebgvRzsLBf-eP-tMa1yC
 hSFY9trG-Oqtlr3veXa
 }
-!procedure ServiceLoadTest($id, $name="Service Load Test", $tech="")
+!procedure ServiceLoadTest($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceLoadTest', $name, $tech)
 !endprocedure
 !procedure ServiceLoadTestCard($id, $funcName="", $content="")

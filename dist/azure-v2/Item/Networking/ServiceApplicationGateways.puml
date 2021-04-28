@@ -4,7 +4,7 @@ sprite $ServiceApplicationGatewaysLg [20x20/16z] {
 PSv50W0X34FHIffqxd_WSUUluA5svpOK6GELAdv4wOVENYFziujaJphn94y94kCc2KLA6zu7ivfWYXlk565509RxpD7YjfA1SZEgiT_c1gM3uQ7hC70OKCyZ
 Kg_MMhi-iuyz7zgnqyohJxhHSTA3py47ETtq86vQ
 }
-!procedure ServiceApplicationGateways($id, $name="Service Application Gateways", $tech="")
+!procedure ServiceApplicationGateways($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceApplicationGateways', $name, $tech)
 !endprocedure
 !procedure ServiceApplicationGatewaysCard($id, $funcName="", $content="")

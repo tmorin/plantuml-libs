@@ -4,7 +4,7 @@ sprite $ServiceHeartLg [20x20/16z] {
 ZO-54S0m30CLC7V_TSlCNuZkxH0UI3ddCVHZmfHOLKeVYgZoM2tc0vHe7AslPl4fcqr1CegVAIXnKb5_kd9rLf3rA8CJK2zjG9938qtNjPqKJ2Jtc72TpDGv
 AS4E7HNZ07lZ5ISgz-fCMbC7
 }
-!procedure ServiceHeart($id, $name="Service Heart", $tech="")
+!procedure ServiceHeart($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceHeart', $name, $tech)
 !endprocedure
 !procedure ServiceHeartCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $ServiceKubernetesServicesLg [20x20/16z] {
 XP05SiHG34DZblJlVzy6o-qgy6RCzlQ7FC8ls6EoeJezTbJw7IQA7904OPUD53ZpqgQrs5vhBNHSfdHBiqpt7KSJWEoA1j6L3Q1Jky2cH68Wxk3v6-30HKey
 utX6WBmn7GrXAeRSOLuJPXRTlYExx9fPQzA2KZzN27pVusyRVzaNxQLhtqkHwRRPXLrl
 }
-!procedure ServiceKubernetesServices($id, $name="Service Kubernetes Services", $tech="")
+!procedure ServiceKubernetesServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceKubernetesServices', $name, $tech)
 !endprocedure
 !procedure ServiceKubernetesServicesCard($id, $funcName="", $content="")

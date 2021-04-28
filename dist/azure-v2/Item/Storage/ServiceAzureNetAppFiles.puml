@@ -4,7 +4,7 @@ sprite $ServiceAzureNetAppFilesLg [20x20/16z] {
 ZP35OGKn34Ir6bWv_HSSK_8PtaaUCCMt78z0TO_eTe-VQghpbbBIkiLC2FsapHY5hcM4TyyHgP4Zq7uM3U3CaUnQkRf6RYspBtMe6vdStP4pF78O6YMosjHQ
 aKlhNLVrgUgSNT3YDVFEjgwnyUG3unc_
 }
-!procedure ServiceAzureNetAppFiles($id, $name="Service Azure Net App Files", $tech="")
+!procedure ServiceAzureNetAppFiles($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Storage/ServiceAzureNetAppFiles', $name, $tech)
 !endprocedure
 !procedure ServiceAzureNetAppFilesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceLogAnalyticsWorkspacesLg [20x20/16z] {
 PS-5iKKX40HHLgPdoJ_WBrUUTb5syFLIPgpt8glgNKj8qFca1ls7ycNLaK1nsKLamxKmG0UlmdrQeYZRNqRrQP7rdnLDb5TxEXjGcMZoCETj5XRJZABQXlBi
 EGUnxdLpPiNryyfM_rV77x8DIe1wVdJ6FlRsgysNxN-RlRTkYq9IwlMyNm
 }
-!procedure ServiceLogAnalyticsWorkspaces($id, $name="Service Log Analytics Workspaces", $tech="")
+!procedure ServiceLogAnalyticsWorkspaces($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Analytics/ServiceLogAnalyticsWorkspaces', $name, $tech)
 !endprocedure
 !procedure ServiceLogAnalyticsWorkspacesCard($id, $funcName="", $content="")

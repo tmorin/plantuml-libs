@@ -4,7 +4,7 @@ sprite $ServiceDisksClassicLg [20x20/16z] {
 bOw54SH030F_pBx-2tuf34FPy8uLw_U90OItmuXvH6P6kCewuyLFM58-e6nHrNCsNHl7eEW0L3K6HsISIH08swmyRKzRTtGZiy8TnF8mQLjXDUOALvWkOn8t
 rdv1k7AjReTZUdqnzFDuXnMXSEUNynUwBF4wSTdAY9exnam5mOD1jlS_
 }
-!procedure ServiceDisksClassic($id, $name="Service Disks Classic", $tech="")
+!procedure ServiceDisksClassic($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceDisksClassic', $name, $tech)
 !endprocedure
 !procedure ServiceDisksClassicCard($id, $funcName="", $content="")

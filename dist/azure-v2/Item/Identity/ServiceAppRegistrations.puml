@@ -4,7 +4,7 @@ sprite $ServiceAppRegistrationsLg [20x20/16z] {
 JS-54SCm44HHBPsX_uApOVqP2vvvGIH1KNmjrrgW6zH1SAlHH-DqC8-6byqCUzIwtEtO39g6T31VonhKm0vyBTVltdoVDwZv_BptZCwEcvrlcuyr7Xt28yxx
 lKcGoPXcm_VVtCHtKAwcyxhEaKdHsisECcFbtaokcPk9j1trpUqriAOQrnPO4dPwAKiF
 }
-!procedure ServiceAppRegistrations($id, $name="Service App Registrations", $tech="")
+!procedure ServiceAppRegistrations($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceAppRegistrations', $name, $tech)
 !endprocedure
 !procedure ServiceAppRegistrationsCard($id, $funcName="", $content="")

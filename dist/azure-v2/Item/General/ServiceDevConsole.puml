@@ -1,7 +1,7 @@
 @startuml
 sprite $ServiceDevConsoleMd [14x14/16z] LSS70iH020B0LO4j___lNNh8M0dNoiLocci-bhe3kVMjjYvFpFA4V9DG980xRPsP45LobIxQnny
 sprite $ServiceDevConsoleLg [20x20/16z] ZT350SKm30JHM3lQ3_tt6sP-GS_5KBrLOgyeVtl9vx_tmMVjk-V0wLmpeKnoGsqZsBVknRuDSTyenzQ-DWtt2IJHDxf6lwYMtAzFU90TTmXvJ-q1xbLd6W
-!procedure ServiceDevConsole($id, $name="Service Dev Console", $tech="")
+!procedure ServiceDevConsole($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceDevConsole', $name, $tech)
 !endprocedure
 !procedure ServiceDevConsoleCard($id, $funcName="", $content="")

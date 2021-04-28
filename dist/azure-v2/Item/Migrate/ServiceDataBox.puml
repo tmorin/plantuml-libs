@@ -4,7 +4,7 @@ sprite $ServiceDataBoxLg [20x20/16z] {
 PSi54WH124DHGXhflVzzTmJ6V_chH3eegT8rSQmfv4hDryB7HV3kGenQRQ5boppss5HOvYkIe_DihLKFixg8oiOu2IBQU3Vwt4hoGD6SUoxu6EL4BGlA7jOO
 eG3a7Y8BhXZdxShcpzz333je0G
 }
-!procedure ServiceDataBox($id, $name="Service Data Box", $tech="")
+!procedure ServiceDataBox($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Migrate/ServiceDataBox', $name, $tech)
 !endprocedure
 !procedure ServiceDataBoxCard($id, $funcName="", $content="")

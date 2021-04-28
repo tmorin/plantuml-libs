@@ -4,7 +4,7 @@ sprite $ServiceDownloadLg [20x20/16z] {
 LT253GH134DHEpZGVxztsIm-aVN5neL2FFW7gYbx0ZGjvk7d4bggbMf5qwYEWwNryBlHq_bfZ2p1LuD49S7TEevAdmPrnRifqQXt2vDcSJVpYtKBy0rXq95V
 mm0vn9WZUk8IQw_0L-wzyrCarh-j4DpesVgQ7m
 }
-!procedure ServiceDownload($id, $name="Service Download", $tech="")
+!procedure ServiceDownload($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceDownload', $name, $tech)
 !endprocedure
 !procedure ServiceDownloadCard($id, $funcName="", $content="")

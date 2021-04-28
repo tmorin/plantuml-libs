@@ -4,7 +4,7 @@ sprite $ServiceServiceProvidersLg [20x20/16z] {
 RSu54iGW40H0TepS_nzySK_NbC5QMnGjj9kY_7nK9ZsyF26BxcjPNmNljsipF-fgUtExG8Q9w_eaExQkunm3OCopiQUZYfPGirRk4nL94HB5xP10fZL7mdQm
 Of1B80zzPNgEB6VOc7c-_SAjbmLkG7k9sec9vdW4
 }
-!procedure ServiceServiceProviders($id, $name="Service Service Providers", $tech="")
+!procedure ServiceServiceProviders($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceServiceProviders', $name, $tech)
 !endprocedure
 !procedure ServiceServiceProvidersCard($id, $funcName="", $content="")

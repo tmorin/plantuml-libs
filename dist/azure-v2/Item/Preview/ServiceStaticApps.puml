@@ -4,7 +4,7 @@ sprite $ServiceStaticAppsLg [20x20/16z] {
 ZOu76eGn14JtMuF1_S_xzzvV-ak2tqS0FOAgoif-skAIuWvkNLXPXCTgU45SaC49T-V0xCnfCDiw4oF4n5Td0YVWW0qkIHSPljB_yCaHy66OA6T7xV-5Yx4Z
 Qt2quQjnTPlg1bUL7PKpdO6U-LtG0W
 }
-!procedure ServiceStaticApps($id, $name="Service Static Apps", $tech="")
+!procedure ServiceStaticApps($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServiceStaticApps', $name, $tech)
 !endprocedure
 !procedure ServiceStaticAppsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceOutboundConnectionLg [20x20/16z] {
 VT250O0m44DHJfBA_ljInUNZ3-_obuWyoE5w5KFBv235bcraZYt7D2SsIK4s8xl4b0-BWM18EM-cOApOQ9eOM8yZOzvCZOwR0TPl3iDY-nP2-e-nMGgszEjq
 Uq-AtZwYtkTGgQbpx83rMkSjz97JcinDk-wUFwczjm
 }
-!procedure ServiceOutboundConnection($id, $name="Service Outbound Connection", $tech="")
+!procedure ServiceOutboundConnection($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Blockchain/ServiceOutboundConnection', $name, $tech)
 !endprocedure
 !procedure ServiceOutboundConnectionCard($id, $funcName="", $content="")

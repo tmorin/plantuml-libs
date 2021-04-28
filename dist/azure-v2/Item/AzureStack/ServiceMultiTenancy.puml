@@ -4,7 +4,7 @@ sprite $ServiceMultiTenancyLg [20x20/16z] {
 NT07WWKX28DX28IWzp_mellwF_sRhjqGi9-GcJyOfPdYaxnEefi3JzEjuBrtVLfNv9xmi3uHF1Psm-0I36llzakUP97XEQPh601YrffRp_Ncb6OR9VNQSoNT
 eyS8Qbfhk94yfgopQN4mIdtItIWvM_H7uXZTrEjPLuufpHp-7oAl5Ru7yPXetqZLz-Wwa06tFm
 }
-!procedure ServiceMultiTenancy($id, $name="Service Multi Tenancy", $tech="")
+!procedure ServiceMultiTenancy($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AzureStack/ServiceMultiTenancy', $name, $tech)
 !endprocedure
 !procedure ServiceMultiTenancyCard($id, $funcName="", $content="")

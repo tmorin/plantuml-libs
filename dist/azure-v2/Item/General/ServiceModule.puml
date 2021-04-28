@@ -4,7 +4,7 @@ sprite $ServiceModuleLg [20x20/16z] {
 TSr70i0W24HHON0mkV-10wItlr1vARRFz5cGRz6tj2cxcTNIMKkQn0-8MC1Of4nlfd_lUO_8N6lniZqIWArcMvqYeaGQIX2MTpWQnl4UNKHGnZtt_C58yxtG
 g0oYPs9bfjTi2fi-R1v-RSnfpz04TWkG1G
 }
-!procedure ServiceModule($id, $name="Service Module", $tech="")
+!procedure ServiceModule($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceModule', $name, $tech)
 !endprocedure
 !procedure ServiceModuleCard($id, $funcName="", $content="")

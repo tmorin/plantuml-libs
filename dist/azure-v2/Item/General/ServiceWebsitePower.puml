@@ -4,7 +4,7 @@ sprite $ServiceWebsitePowerLg [20x20/16z] {
 FL1N5e0m2CkYtF_6lhZu0BAqBG1An5EqTSzov2EsAX6aHSffZ_ZcwCcprVfiZgL7_RYu3ZySg5AlvLRKMSfdpmyesl2Uisj8D1j80vav1r04W6E0y9aSm4DK
 CM0dcG7oH2d1k_OQDaKeW8NiZX_0cZhHKjfe4INLLWfykAfo_DzNpvQOBmSzZ-RsDbRINQo3lBSB
 }
-!procedure ServiceWebsitePower($id, $name="Service Website Power", $tech="")
+!procedure ServiceWebsitePower($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceWebsitePower', $name, $tech)
 !endprocedure
 !procedure ServiceWebsitePowerCard($id, $funcName="", $content="")

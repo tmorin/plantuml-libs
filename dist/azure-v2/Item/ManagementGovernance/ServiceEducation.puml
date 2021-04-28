@@ -4,7 +4,7 @@ sprite $ServiceEducationLg [20x20/16z] {
 bT250SCW443HSw7xxrkSklpuYmF_XeYFn1vATq8UBQCZrcLf5-_5s1Y3wAHooRcdeZwAS1aNA2ABhRIgCBOla_2ZyzMSuLNh_Pd2qqef6LNgLWMNxPHV6CAJ
 sHgIs9G42yNgA-jhxeO6gONmjYi
 }
-!procedure ServiceEducation($id, $name="Service Education", $tech="")
+!procedure ServiceEducation($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceEducation', $name, $tech)
 !endprocedure
 !procedure ServiceEducationCard($id, $funcName="", $content="")

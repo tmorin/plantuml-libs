@@ -4,7 +4,7 @@ sprite $ServiceDisksSnapshotsLg [20x20/16z] {
 VP19bWL120BBb4Jjklzz-rFp72jVo09ra1msZ2H-k0yxxl2-Y1rxT92pXawomqrE6uyTNyAQwsySIuCjBdTMLnanYwYofHEpPZ8mB20oPGvAJKAmewqt2YbX
 PnS75znH5u7CnMH2FPgIOAWUeLJ3Ug3u-XNy-cVy0m
 }
-!procedure ServiceDisksSnapshots($id, $name="Service Disks Snapshots", $tech="")
+!procedure ServiceDisksSnapshots($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceDisksSnapshots', $name, $tech)
 !endprocedure
 !procedure ServiceDisksSnapshotsCard($id, $funcName="", $content="")

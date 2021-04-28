@@ -4,7 +4,7 @@ sprite $ServiceFrontDoorsLg [20x20/16z] {
 VSw54GD134DHaoId_uAJ7FFzePstP7l9FSAF50KIwNkYE8GDdKjOA43f3_hdoxqn52ZbI9eYgefYkINw3ysC_1lKOb0zHBSOhF-XfnYRILThy3EqsB1khz6q
 CvhZP1tZqDiiBRXjnT_IvZOBErkwFVS3
 }
-!procedure ServiceFrontDoors($id, $name="Service Front Doors", $tech="")
+!procedure ServiceFrontDoors($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceFrontDoors', $name, $tech)
 !endprocedure
 !procedure ServiceFrontDoorsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceAzureLighthouseLg [20x20/16z] {
 PS-50O0m30H0qhmqxBylxZpQgsOu0-NmIShAU4fZZUDOR3T5h-fzUVanKcYnNE1ZBdFR8_6oe15lQtz39it4qoJP8X-7INiZF0Rg5EgaM6a1KZuduvIb5Xws
 Y_kMs2X9dD8hjzK8BVz7kcArXvJt8wBg7aGGiGoxnEAQc04
 }
-!procedure ServiceAzureLighthouse($id, $name="Service Azure Lighthouse", $tech="")
+!procedure ServiceAzureLighthouse($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceAzureLighthouse', $name, $tech)
 !endprocedure
 !procedure ServiceAzureLighthouseCard($id, $funcName="", $content="")

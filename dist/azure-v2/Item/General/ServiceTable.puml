@@ -4,7 +4,7 @@ sprite $ServiceTableLg [20x20/16z] {
 ZP1NbWCn20G7TO3P-nzumJdRzT6lb0NRhyHw9A3z4J7_7adwrLmzOZ07toH1OosO_I3TqGeg-aT61zmQ8jJpWDkEIWjAaR0bETNapAs8pG9QPr-UzZ5dY-ku
 Zowtr7Mkt7C4KExGA6TkhyoSoDfprA_wygf_sml-0G
 }
-!procedure ServiceTable($id, $name="Service Table", $tech="")
+!procedure ServiceTable($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceTable', $name, $tech)
 !endprocedure
 !procedure ServiceTableCard($id, $funcName="", $content="")

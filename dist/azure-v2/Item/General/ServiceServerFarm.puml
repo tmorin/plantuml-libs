@@ -7,7 +7,7 @@ sprite $ServiceServerFarmLg [20x20/16z] {
 RT350GGX44HHf8M6sVpJtIh6vHyVJihbAASPg1wLpKfLjPbgFQr5P-rYrcNyqF2BHImihckFJZFiDz1zF_tOppbl2PESDrFpcOb8BVbwXeWgxvrF4p5dAXbc
 qqYjDtSfXoaeHZWmmvXOGz4GJAQfam8ODT6OG_0v4J1Cd3ba4BlmfrcIEPDdbFG7
 }
-!procedure ServiceServerFarm($id, $name="Service Server Farm", $tech="")
+!procedure ServiceServerFarm($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceServerFarm', $name, $tech)
 !endprocedure
 !procedure ServiceServerFarmCard($id, $funcName="", $content="")

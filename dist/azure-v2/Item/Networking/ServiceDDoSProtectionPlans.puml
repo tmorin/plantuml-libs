@@ -4,7 +4,7 @@ sprite $ServiceDDoSProtectionPlansLg [20x20/16z] {
 LSu90e0W24JH18GPxt_WXlP--wlKxSoIPDhsoI81PDmupA9GcQbpc0rP49AkbGnzDXlYh7cEosm2IFjQ-Mbr6wfaNAjCT_WOYFI_cOVxRLl8uAFplWsjpmay
 1j1bXf_1P6D-ZHgkaK1O5p9HvtppXYuUYfk4NxfpBYxubuI5kca7
 }
-!procedure ServiceDDoSProtectionPlans($id, $name="Service D Do S Protection Plans", $tech="")
+!procedure ServiceDDoSProtectionPlans($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceDDoSProtectionPlans', $name, $tech)
 !endprocedure
 !procedure ServiceDDoSProtectionPlansCard($id, $funcName="", $content="")

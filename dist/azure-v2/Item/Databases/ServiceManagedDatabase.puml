@@ -4,7 +4,7 @@ sprite $ServiceManagedDatabaseLg [20x20/16z] {
 ZT170iGm24DHWoJ0vFxtdVIocv_-qZt-pzmTwsBs47Zc9xeP5BaMlAwCqAeauORaRigbPuOKrTsdrR9qpxNkvR4--zTcfUnhCoNHNpPdKcjyMGK1qUcNhIIQ
 4GF2PQcW-_6Zk2o2WBapWiRUi395Ei58Z05bdUKwbUmSL3pP-04
 }
-!procedure ServiceManagedDatabase($id, $name="Service Managed Database", $tech="")
+!procedure ServiceManagedDatabase($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceManagedDatabase', $name, $tech)
 !endprocedure
 !procedure ServiceManagedDatabaseCard($id, $funcName="", $content="")

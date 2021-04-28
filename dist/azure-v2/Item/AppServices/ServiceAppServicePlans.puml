@@ -4,7 +4,7 @@ sprite $ServiceAppServicePlansLg [20x20/16z] {
 RSp50O1034HHaXr1-oyNTtZ77waY3r7j8igUoXcpK1lYQ95gsc7Mr-NUF2mQdArGNX6tVtMp4l9ighNVtblTBMgME9kyaeWIU-D2ixbZRT36cxoQ3uoz-GRn
 RRLoQQuVyDEuDDLt3HAMtTmu8mc0yamBPZK1
 }
-!procedure ServiceAppServicePlans($id, $name="Service App Service Plans", $tech="")
+!procedure ServiceAppServicePlans($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AppServices/ServiceAppServicePlans', $name, $tech)
 !endprocedure
 !procedure ServiceAppServicePlansCard($id, $funcName="", $content="")

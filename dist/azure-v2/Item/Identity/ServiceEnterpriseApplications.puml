@@ -4,7 +4,7 @@ sprite $ServiceEnterpriseApplicationsLg [20x20/16z] {
 NOy93eGm30ERs75Q_l_WjPQR4SenGAsEIBENVnt3YYG2hXaqTidkLigLQ1D_9zaPfiUdQpLnEbXLrlyx6Ri80CxzLvX_XgxpS7o7ciw5d5ZmE4_NwDdJploT
 kvrhmU7VN90bnEDky0Em6D1QQsAwg0gMJDJj9EvE7mUZRTiMbqllhk3RcNzXgy2g73T1gTxACa5O_G
 }
-!procedure ServiceEnterpriseApplications($id, $name="Service Enterprise Applications", $tech="")
+!procedure ServiceEnterpriseApplications($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Identity/ServiceEnterpriseApplications', $name, $tech)
 !endprocedure
 !procedure ServiceEnterpriseApplicationsCard($id, $funcName="", $content="")

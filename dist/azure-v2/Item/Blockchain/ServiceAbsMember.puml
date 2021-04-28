@@ -4,7 +4,7 @@ sprite $ServiceAbsMemberLg [20x20/16z] {
 RT253KGX44NHFuhrt-zcyXRdnW_EDwBlYfaF8J4pePNOa4nHwobZ6MHeR22cAxc6kUiGozN2aeT2Sftc8IcNEYtGGtRpN6jjhJsitjRN-h2n7zbccV7UQKLf
 _1Ii6EIlwgMwW4QiOzaF
 }
-!procedure ServiceAbsMember($id, $name="Service Abs Member", $tech="")
+!procedure ServiceAbsMember($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Blockchain/ServiceAbsMember', $name, $tech)
 !endprocedure
 !procedure ServiceAbsMemberCard($id, $funcName="", $content="")

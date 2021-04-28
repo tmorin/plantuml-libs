@@ -4,7 +4,7 @@ sprite $ServiceAzureMigrateLg [20x20/16z] {
 jSp7WGGm24DHG2Au_uONUTES9_mRpmRxM1v0FCp1pApguXyXRzNTl-W2E4heLq0POx5x89AeC7sSpWYMFjtTUtBczmyIe3PwXBNfKz5YXpd3Q-NEoh0Tpkc0
 YBgFzUfpQ9wznEeakteAjWK2_2xirRu
 }
-!procedure ServiceAzureMigrate($id, $name="Service Azure Migrate", $tech="")
+!procedure ServiceAzureMigrate($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Migrate/ServiceAzureMigrate', $name, $tech)
 !endprocedure
 !procedure ServiceAzureMigrateCard($id, $funcName="", $content="")

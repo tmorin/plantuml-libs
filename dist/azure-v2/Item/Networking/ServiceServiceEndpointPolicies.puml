@@ -4,7 +4,7 @@ sprite $ServiceServiceEndpointPoliciesLg [20x20/16z] {
 ZS-50SKW34LH6di9---BmtUvzLE3rBhenCHNwh7SKfEE3BiLEKjxK-s7kOEwmLWDmWQJr1h6Oi30O_rt9CBADpDLSD_VdZF080OptCnz6DnnivQElVzhkWpj
 F5vj5SjkquL7J6CSYsrqivo3qeXrrLY6L
 }
-!procedure ServiceServiceEndpointPolicies($id, $name="Service Service Endpoint Policies", $tech="")
+!procedure ServiceServiceEndpointPolicies($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceServiceEndpointPolicies', $name, $tech)
 !endprocedure
 !procedure ServiceServiceEndpointPoliciesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceApiManagementServicesLg [20x20/16z] {
 VL370G902BiqSF-5hPnT-T0XoVfd0F1MaMtnfNGfqD5JRHA4ZyNCAMNlnRkDO4xXSRUkLsYy_XSelw9YI6dYZSx2dbEiM-35mGGg6gnmYEigLBYc5p1LINK9
 NQcQDKbrQB5VPO29z7erkbflDNVUIml43ay
 }
-!procedure ServiceApiManagementServices($id, $name="Service Api Management Services", $tech="")
+!procedure ServiceApiManagementServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Integration/ServiceApiManagementServices', $name, $tech)
 !endprocedure
 !procedure ServiceApiManagementServicesCard($id, $funcName="", $content="")

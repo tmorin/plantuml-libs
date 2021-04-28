@@ -4,7 +4,7 @@ sprite $ServiceCacheLg [20x20/16z] {
 TT055iGm30FHM993U__xhkjNXYd_Sif7jdOIa998mbOn17WKl5vA0cezgegzDBNfX4LWdMsrtvmZc_EmmBNkgsqqQhuTTh8kgDOgsCbSxddboQex0Rgk9ieV
 XeS9Hjsj53oC9eyp7EkFZCMOLa1lhRTMSxp2k8vX52ioT_u
 }
-!procedure ServiceCache($id, $name="Service Cache", $tech="")
+!procedure ServiceCache($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceCache', $name, $tech)
 !endprocedure
 !procedure ServiceCacheCard($id, $funcName="", $content="")

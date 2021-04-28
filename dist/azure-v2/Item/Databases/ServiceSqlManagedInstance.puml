@@ -4,7 +4,7 @@ sprite $ServiceSqlManagedInstanceLg [20x20/16z] {
 VOjNGa0X40FPdWMz_tKDhtyvz0aPGnx62OtfYUdjr29FmkHnsVE7hFewrE-cFouAcqh__kj9aFv_Dz5hhTcLuNgxh8Fa33sSPv0daDDjwiPkLyUAkxqTKurm
 jGYhyc5qW0RSaK8761sFqZ3lb3G0iLt3rTrshbuTHxShcJkB--7cLTLaJXGcpnHHQlP9Pd2wZ3y
 }
-!procedure ServiceSqlManagedInstance($id, $name="Service Sql Managed Instance", $tech="")
+!procedure ServiceSqlManagedInstance($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceSqlManagedInstance', $name, $tech)
 !endprocedure
 !procedure ServiceSqlManagedInstanceCard($id, $funcName="", $content="")

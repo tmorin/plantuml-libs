@@ -4,7 +4,7 @@ sprite $ServiceTimeSeriesDataSetsLg [20x20/16z] {
 TP254GCX401pBlJVR_3tVMK7pdxVmE1aa1Quzn0pYqXzqznBWAJUK4AalasJ4G2nlJWLkYkP6MuUaLcMQpAZlShXIawEVQuQ9keXXsCsauh3uLISDOqCZtWX
 n6BA1f77FdOXaa1ncQxNOMmPnxvHIdZUQpxggyYvv2A_EOHbImit9B5eGvYQ-WC
 }
-!procedure ServiceTimeSeriesDataSets($id, $name="Service Time Series Data Sets", $tech="")
+!procedure ServiceTimeSeriesDataSets($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Preview/ServiceTimeSeriesDataSets', $name, $tech)
 !endprocedure
 !procedure ServiceTimeSeriesDataSetsCard($id, $funcName="", $content="")

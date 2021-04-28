@@ -7,7 +7,7 @@ sprite $ServiceMediaLg [20x20/16z] {
 HT3ROGGW24HH1HGOtVxR3On9zduUtuwNxiXm6z_4F06ac_wJdzjzBhAHv967V01hcfkjQ0IWHOjaCiK_RI5J_KcdUGhDUfeMCLa9j7ZyasgPUr6Ao1ChItSF
 f30rQukQbcqaMlhU3gGoMXJfBbj6w_hsGm4SDqPo7HA5zvPgIRNc64gxIDziZig0zoa7cI63QQA8fJOG-Sy7iJZh1m
 }
-!procedure ServiceMedia($id, $name="Service Media", $tech="")
+!procedure ServiceMedia($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceMedia', $name, $tech)
 !endprocedure
 !procedure ServiceMediaCard($id, $funcName="", $content="")

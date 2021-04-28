@@ -7,7 +7,7 @@ sprite $ServiceVmScaleSetsLg [20x20/16z] {
 PSq55iGm24NHu93E_jSxdxgy2YUtaZ5eV68xavt8Vyk2iwyypB2UvXCZxcRCmAUfMS2IqM5HLHDX9FMslK53M3R3I0irAGFRWCoiG1Ung4ecAEAQ5UOUo4ml
 SwG6zysoCh1GbjE6gaMcimWcR8kyZGKZBgjA5ykgosBMrinnn2fguRZBk2TkunMn2c7-0G
 }
-!procedure ServiceVmScaleSets($id, $name="Service Vm Scale Sets", $tech="")
+!procedure ServiceVmScaleSets($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Compute/ServiceVmScaleSets', $name, $tech)
 !endprocedure
 !procedure ServiceVmScaleSetsCard($id, $funcName="", $content="")

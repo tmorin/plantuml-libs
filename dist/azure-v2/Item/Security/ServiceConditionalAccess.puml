@@ -4,7 +4,7 @@ sprite $ServiceConditionalAccessLg [20x20/16z] {
 LSo50GGX34HHuiFrN_1DilvNUSWw4tEJzKaz8bpliOXQeOgFgSXG9b3P5P3PQ3lVRQCfUaMuU_HgZFLHwK5E_hqiaizjjlaN7i67VyTvj3GrvXzJHakQjW5e
 ctKej4cEcNiRKXQpZV8f2ZnkIZnb0nFiAyZwu8U8DLH3DyR-xI1zqCCl-WC
 }
-!procedure ServiceConditionalAccess($id, $name="Service Conditional Access", $tech="")
+!procedure ServiceConditionalAccess($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Security/ServiceConditionalAccess', $name, $tech)
 !endprocedure
 !procedure ServiceConditionalAccessCard($id, $funcName="", $content="")

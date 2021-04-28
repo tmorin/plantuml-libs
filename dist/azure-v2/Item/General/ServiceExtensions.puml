@@ -4,7 +4,7 @@ sprite $ServiceExtensionsLg [20x20/16z] {
 bSv50iGW343HE7B_--8mKs__yY49_2BkuOzGhQR6FsCVQZ4wd2-8H4lYeYEMtlo6GxNVd_S6GFFzdudsv8EXyDuG0VR6YXiphIiiiuFnVFkpNyi8_-epL3OL
 GwHT01a
 }
-!procedure ServiceExtensions($id, $name="Service Extensions", $tech="")
+!procedure ServiceExtensions($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceExtensions', $name, $tech)
 !endprocedure
 !procedure ServiceExtensionsCard($id, $funcName="", $content="")

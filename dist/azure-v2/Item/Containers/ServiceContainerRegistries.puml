@@ -4,7 +4,7 @@ sprite $ServiceContainerRegistriesLg [20x20/16z] {
 bT050aCX30FGJqcJiliVU4YPQxxoS8x_KgoYMhaZruYN6rA6LtFj81j1YXqkuXQDdzh9a4B0uI7QGILrOB-Sj6pL1adYav4HSb1jPdIIvXtcstBapdqjqrQF
 KukG-dAWYEohN7UcTiiXNrZSMaWXEcvE5GIgMJdE
 }
-!procedure ServiceContainerRegistries($id, $name="Service Container Registries", $tech="")
+!procedure ServiceContainerRegistries($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Containers/ServiceContainerRegistries', $name, $tech)
 !endprocedure
 !procedure ServiceContainerRegistriesCard($id, $funcName="", $content="")

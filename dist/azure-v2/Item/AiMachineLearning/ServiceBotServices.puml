@@ -4,7 +4,7 @@ sprite $ServiceBotServicesLg [20x20/16z] {
 LT25WGKX30JGP8phl-9Z0zzcbOTJDo29-avJjlMjJB9jlzcNj7mQmCk3hSLFZwK7ETIOd5B7qqqIPPI3Ol2PNYWiGga2BswhYFOs5ReQO_Qr9fxtjtstYw6C
 dR2tgRYcLzKD5WjnmQ8aF9RWx0EJtgI_sPKtJeRUXs2CC4E3p4gS_URNP3_d_0y
 }
-!procedure ServiceBotServices($id, $name="Service Bot Services", $tech="")
+!procedure ServiceBotServices($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AiMachineLearning/ServiceBotServices', $name, $tech)
 !endprocedure
 !procedure ServiceBotServicesCard($id, $funcName="", $content="")

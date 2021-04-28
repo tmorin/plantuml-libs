@@ -4,7 +4,7 @@ sprite $ServiceProductionReadyDatabaseLg [20x20/16z] {
 TSW5WWKW24LHIU6v__sEnVo-9gVzZavFmbBn5I9HLJERjz0nOHQFo0XNPjbcK2PYNfV2QDi0aD4Z4nXb2p5XqhET0k-Mfays3h4_35dqPDeFBMjbr8qDpxQG
 70-ZPL3F3yEXQqstNHgwZHob8vtQGL7pbQai-WC
 }
-!procedure ServiceProductionReadyDatabase($id, $name="Service Production Ready Database", $tech="")
+!procedure ServiceProductionReadyDatabase($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceProductionReadyDatabase', $name, $tech)
 !endprocedure
 !procedure ServiceProductionReadyDatabaseCard($id, $funcName="", $content="")

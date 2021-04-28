@@ -4,7 +4,7 @@ sprite $ServiceBranchLg [20x20/16z] {
 NSs70KGX309Gqo3kl_1XhiklFWlh7IzVLomhxR84aJUTv4NfIU4l8Im8r9V8CVADoPCnfTHkGsCWS326nimpeiWizDj4hbsDq4lIicHbdCtBYjrYcTxedfAI
 eLmTaY5523Tro22QO32epqi6DuhxbuHxzzwmNpFXHTF-eGS
 }
-!procedure ServiceBranch($id, $name="Service Branch", $tech="")
+!procedure ServiceBranch($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBranch', $name, $tech)
 !endprocedure
 !procedure ServiceBranchCard($id, $funcName="", $content="")

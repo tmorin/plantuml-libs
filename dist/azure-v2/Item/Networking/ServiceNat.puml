@@ -4,7 +4,7 @@ sprite $ServiceNatLg [20x20/16z] {
 PSY7SKCn30HHu0BOVyS-MjAFEsddrQzcrpE8Jw9jlaZ11w4GV53TC1JS53pet-W3QSapiPbi4260SimY4AGDec76q2GsM37EDZOei_O26lR_qAga6K5e2DbD
 _xX2rTJQT201QAtGWKiaVQNWi7dGWJEX9wg_-mS
 }
-!procedure ServiceNat($id, $name="Service Nat", $tech="")
+!procedure ServiceNat($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Networking/ServiceNat', $name, $tech)
 !endprocedure
 !procedure ServiceNatCard($id, $funcName="", $content="")

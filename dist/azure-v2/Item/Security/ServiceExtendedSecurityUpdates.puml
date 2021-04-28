@@ -4,7 +4,7 @@ sprite $ServiceExtendedSecurityUpdatesLg [20x20/16z] {
 ZSq7WWKX20DGQG7c_WVUBFxUCzMdm9feTXTaNIFgMLLmlO1H4W3VhiD-52N_G-qcYbVUfdwq7kjNLkSy6GNO_PRrbIAGBZS6cbh0M8p137E4YIBc85FS5WTY
 ENGEqZ9KZCQNBM8H4we0pqZesaYpNQkqmJnOR3o3WClO34-u1pA61fq144xw0m
 }
-!procedure ServiceExtendedSecurityUpdates($id, $name="Service Extended Security Updates", $tech="")
+!procedure ServiceExtendedSecurityUpdates($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Security/ServiceExtendedSecurityUpdates', $name, $tech)
 !endprocedure
 !procedure ServiceExtendedSecurityUpdatesCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceUniversalPrintLg [20x20/16z] {
 VT250OD044JHzLdIVx-SJDmU_l6JVrJrlNXCzfAo9bGyfRfnkOa2AimdFbLNcSsLLYei3LVRvZQQhKCtWsVrWaO6TJO1zN1hzGp7qi_9aWtr80Qs3AUizQ-z
 cnlDjgZcqQ5ik0YfFNaUL9Al1W
 }
-!procedure ServiceUniversalPrint($id, $name="Service Universal Print", $tech="")
+!procedure ServiceUniversalPrint($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Other/ServiceUniversalPrint', $name, $tech)
 !endprocedure
 !procedure ServiceUniversalPrintCard($id, $funcName="", $content="")

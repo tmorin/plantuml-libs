@@ -4,7 +4,7 @@ sprite $ServiceAzureDatabaseMariaDbServerLg [20x20/16z] {
 TT254SGW54LHlWlzzxl1MRlnCsyivNymkWHfXNj3p2mYpvtcbW19lQM4I7scoGY0s6wS2jrgPeQRHsJMPGqpscKXntfE56St2Qo-ctE1l2rCgG3VvjnVxLW6
 GOjZMpAgkp6ddrtaKxJxiHmTArBheIfb_eIbDTki8x5eIvWQlG
 }
-!procedure ServiceAzureDatabaseMariaDbServer($id, $name="Service Azure Database Maria Db Server", $tech="")
+!procedure ServiceAzureDatabaseMariaDbServer($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceAzureDatabaseMariaDbServer', $name, $tech)
 !endprocedure
 !procedure ServiceAzureDatabaseMariaDbServerCard($id, $funcName="", $content="")

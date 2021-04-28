@@ -4,7 +4,7 @@ sprite $ServiceMediaFileLg [20x20/16z] {
 PS-52S1050JH-NRMVx-nKyZW3zi5r7hAIao_7jqMygMHVHizhzL-Ljh4qpxifYw0bVRaqr8yAf7UP5eE0NbB-bf2mvNHPvgG9TkGqM5YFJqCxRGj8nvV1kHX
 I8zjVQt1QQjbHO-az1z-beGR
 }
-!procedure ServiceMediaFile($id, $name="Service Media File", $tech="")
+!procedure ServiceMediaFile($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceMediaFile', $name, $tech)
 !endprocedure
 !procedure ServiceMediaFileCard($id, $funcName="", $content="")

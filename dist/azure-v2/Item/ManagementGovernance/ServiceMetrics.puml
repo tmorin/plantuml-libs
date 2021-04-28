@@ -4,7 +4,7 @@ sprite $ServiceMetricsLg [20x20/16z] {
 bSv5WWGm20H06klO_z-x6niz3QTGmUGZeF8Lvb-eB8dFibBo5WAtZfUSvzTDRh0KNsM1fzKQ7sKMPZDLX-zReA4pTmz3RVCMZV1Lp4937uGWvzCSchKuMZ-c
 Lbl0cDWcnX3zjttxDfWjWsRSEi_4iXZDVZCu4pOjfwtxHCC5IHClL649_04
 }
-!procedure ServiceMetrics($id, $name="Service Metrics", $tech="")
+!procedure ServiceMetrics($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/ManagementGovernance/ServiceMetrics', $name, $tech)
 !endprocedure
 !procedure ServiceMetricsCard($id, $funcName="", $content="")

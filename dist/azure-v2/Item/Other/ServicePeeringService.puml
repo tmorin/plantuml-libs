@@ -7,7 +7,7 @@ sprite $ServicePeeringServiceLg [20x20/16z] {
 JT27OI0X30H0uWRHVxylmRtjlSYGQPL5svpjDtr13WlpbtQ4e-BzttQOU1WVpWYkzQ779KHeBJh43CgWI2GetNVrrki4fBakz6U712WnB-rEdqIQ6sckUswU
 4_8tPDK6-awZamN0mRpRy3cqAQ6MH9crw9D04cj3eD0INNtp1kBrhUnhOLtRxM7rrNUFPuEMR9dMQbzcuRrt_tEok9b9_m
 }
-!procedure ServicePeeringService($id, $name="Service Peering Service", $tech="")
+!procedure ServicePeeringService($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Other/ServicePeeringService', $name, $tech)
 !endprocedure
 !procedure ServicePeeringServiceCard($id, $funcName="", $content="")

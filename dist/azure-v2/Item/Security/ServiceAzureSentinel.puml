@@ -4,7 +4,7 @@ sprite $ServiceAzureSentinelLg [20x20/16z] {
 LSs70SGm24DHX41m-ozynka__SN5pi0Wx9Cp8kXs1O0gIIK2s9HPfMaqSz1Rxzelow0pSePUbex9ynvNGquVl8r0v3e0rca260uF0hgC5DSRvsKRggJUrb8L
 R1MzaiCrBxdDUwggdjnssKzfPxf9TeKwgM0FQfE67ep-pPRV6Bpe3m
 }
-!procedure ServiceAzureSentinel($id, $name="Service Azure Sentinel", $tech="")
+!procedure ServiceAzureSentinel($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Security/ServiceAzureSentinel', $name, $tech)
 !endprocedure
 !procedure ServiceAzureSentinelCard($id, $funcName="", $content="")

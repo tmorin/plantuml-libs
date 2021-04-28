@@ -4,7 +4,7 @@ sprite $ServiceAzureCosmosDbLg [20x20/16z] {
 RP05WWGX30IfUER_3pu2vxiz0XJnzLwyGI8lJCmuDy82OHYguDtFKsuggWn4ghldontcXgAwHcd09_CUa35nPUamkWVv2O_SU6QvPMka5-bYmt0PAzEDJami
 8bnLFAuP4_IuXqTnEpjiY6VxLxT0f5jK5oUSWhYRRtBH2RXbsK-NdwA_1GB7JL_dgV9swXy
 }
-!procedure ServiceAzureCosmosDb($id, $name="Service Azure Cosmos Db", $tech="")
+!procedure ServiceAzureCosmosDb($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Databases/ServiceAzureCosmosDb', $name, $tech)
 !endprocedure
 !procedure ServiceAzureCosmosDbCard($id, $funcName="", $content="")

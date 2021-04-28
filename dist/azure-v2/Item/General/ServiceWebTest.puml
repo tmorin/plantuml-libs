@@ -7,7 +7,7 @@ sprite $ServiceWebTestLg [20x20/16z] {
 HP054WGn20GtZ03t_mTVMEsoL0S_Xb1rb-Bu03ak-KbsCwig_KQYkqs986-vF25OGK-1TTQodK1W_hgvdOspiGdL7TW-1jaYWUpjVgyxkwBZSMkxd2enkPNO
 2iwD0dHC3uEaHBfidGKWTudph1HrbQgkobqcR2pUkmrJNrp7k5TczioAsVXE__qwDIkzjrahOa6OlNU1bz09XSyfVVC7
 }
-!procedure ServiceWebTest($id, $name="Service Web Test", $tech="")
+!procedure ServiceWebTest($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceWebTest', $name, $tech)
 !endprocedure
 !procedure ServiceWebTestCard($id, $funcName="", $content="")

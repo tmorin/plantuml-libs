@@ -4,7 +4,7 @@ sprite $ServiceHelpAndSupportLg [20x20/16z] {
 POy5ei1G2CCUq1RkV-4lF9bbdbaO4sHLqiQDO8ERH3BS0zAHLk4WuIOT5xxVhHWRBXpSoga9F6qxVPsfIGNRhPX6NdMSyNyEnKWUvI0xq6shF-DcXjjm41Ks
 N2IN3Fr1DtJDFIHMk7TmTXkuZlUsN4Vhj2V-vr0FPECN
 }
-!procedure ServiceHelpAndSupport($id, $name="Service Help And Support", $tech="")
+!procedure ServiceHelpAndSupport($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceHelpAndSupport', $name, $tech)
 !endprocedure
 !procedure ServiceHelpAndSupportCard($id, $funcName="", $content="")

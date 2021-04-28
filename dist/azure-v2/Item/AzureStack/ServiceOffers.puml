@@ -4,7 +4,7 @@ sprite $ServiceOffersLg [20x20/16z] {
 LT1B5WGn24BHH2DWxN_1hPtwlk4zZ1YlvfmsnoVpQjc7WgH4_n30WuVi8HH90naN0MPaxyfEwWWgfVKd1pp8C59b9o508fgopG07Ez6LjBrQczhev-gKqAP5
 U4i5btnKCqgYhFoaGf06PPoh4_LVvQO7FJvKo5Jof0UFfc_s_lS7
 }
-!procedure ServiceOffers($id, $name="Service Offers", $tech="")
+!procedure ServiceOffers($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/AzureStack/ServiceOffers', $name, $tech)
 !endprocedure
 !procedure ServiceOffersCard($id, $funcName="", $content="")

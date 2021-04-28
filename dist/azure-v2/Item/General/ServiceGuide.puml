@@ -4,7 +4,7 @@ sprite $ServiceGuideLg [20x20/16z] {
 RT250GD120J0Ou65z5zm18c__vmWPmu18FEzecggxmfd7uub9ICoCuAq9-MbZoIr5Yvb5E8SyI6grqoN0qPHg7Yz2T6sj7EiJQ6zb3AMD5YR0tYQZfaPntO_
 cddEVWThFl69pOz5az_K4Kl4_tf_-_A_VzjdCzi-tm
 }
-!procedure ServiceGuide($id, $name="Service Guide", $tech="")
+!procedure ServiceGuide($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceGuide', $name, $tech)
 !endprocedure
 !procedure ServiceGuideCard($id, $funcName="", $content="")

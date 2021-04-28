@@ -4,7 +4,7 @@ sprite $ServiceSapAzureMonitorLg [20x20/16z] {
 bSi5biKm34DHIGQb-z_mDEbyvblCEpP-H4gyJIhRdTSrsqjVedpIE71EdMYbyBKyziOrbv1rERhj_IFxL38aPO-jJqCT905gt_FO9WUOGH6iKJtJI5ApYL0Z
 rvYYWWJdS635OZeOdHaY0R0wgI3J0WbX2KqHMd3WDJpn1m
 }
-!procedure ServiceSapAzureMonitor($id, $name="Service Sap Azure Monitor", $tech="")
+!procedure ServiceSapAzureMonitor($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/Monitor/ServiceSapAzureMonitor', $name, $tech)
 !endprocedure
 !procedure ServiceSapAzureMonitorCard($id, $funcName="", $content="")

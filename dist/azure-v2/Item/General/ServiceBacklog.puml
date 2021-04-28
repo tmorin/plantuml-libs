@@ -4,7 +4,7 @@ sprite $ServiceBacklogLg [20x20/16z] {
 bSs5OGGm30D0KMnt_u7xp7nX57vYuLxA04_W16c3gPCeqnE0NYS6rz_2FGhFSFbcIMwtIfHFv2ojrbrkznYulWTaWWVSrGUinzmgqZbHLhcRDxbGJnDRF07W
 qjFSMni
 }
-!procedure ServiceBacklog($id, $name="Service Backlog", $tech="")
+!procedure ServiceBacklog($id, $name="", $tech="")
   IconElement($id, 'azure-v2/Item/General/ServiceBacklog', $name, $tech)
 !endprocedure
 !procedure ServiceBacklogCard($id, $funcName="", $content="")
