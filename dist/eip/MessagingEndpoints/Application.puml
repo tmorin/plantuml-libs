@@ -1,7 +1,7 @@
 @startuml
 sprite $ApplicationMd [14x9/16z] OsP20YmeF6RAUPXcih4Y0m
 sprite $ApplicationLg [20x13/16z] Os5YHWLCpApCJ1Y0PIYAmVs60AoiBAp80CHd0G
-!procedure Application($id, $name="Application", $tech="")
+!procedure Application($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingEndpoints/Application', $name, $tech)
 !endprocedure
 !procedure ApplicationCard($id, $funcName="", $content="")

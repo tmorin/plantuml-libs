@@ -1,7 +1,7 @@
 @startuml
 sprite $InvalidMessageChannelMd [14x9/16z] VOl50S1020JnfF-A3tyok2oSeEF9yO43zH0bG1CLDHKV641_vukajChGmia3
 sprite $InvalidMessageChannelLg [20x13/16z] hSi50G0X30NGiIz8_xxdGW0UEelbm1zed2dbYSwJaXb1ws3vVaiUZTbRFtQh_T26M8xX53N9M6u7
-!procedure InvalidMessageChannel($id, $name="Invalid Message Channel", $tech="")
+!procedure InvalidMessageChannel($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingChannels/InvalidMessageChannel', $name, $tech)
 !endprocedure
 !procedure InvalidMessageChannelCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $TestMessageMd [14x9/16z] JOo54S103CFEb7BttxOCBnq4RUg39H0FH0n-89BENgT7DwskoJeqenJuH346I7n_8FZqIDHGEm
 sprite $TestMessageLg [20x13/16z] ZO-55S1024CVaAJUxZzjtVsVua2F4vx0BeZc9vvqPiFdgCko_eD-8yPjGZHDGjKv8ZXiUE-NfkxzV_CxvBDn_-_bReuilP1t
-!procedure TestMessage($id, $name="Test Message", $tech="")
+!procedure TestMessage($id, $name="", $tech="")
   IconElement($id, 'eip/SystemManagement/TestMessage', $name, $tech)
 !endprocedure
 !procedure TestMessageCard($id, $funcName="", $content="")

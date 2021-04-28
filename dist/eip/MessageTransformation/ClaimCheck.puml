@@ -1,7 +1,7 @@
 @startuml
 sprite $ClaimCheckMd [14x9/16z] HOk55S0m508VSFNzzsqyzrt0TWO-euLrKF2WJ17fGyg4CCVvbUo3zC-IwgIXCScPCaabLJ-EP7F-
 sprite $ClaimCheckLg [20x13/16z] POs54GCn40CZ2aF_tMOUp6iyaa9Dy6OiNBFTxC7LJA8ffr0v0jISBZXoDY5xonaCTKrUly3QSenZRbXdNx1HzIHjkTvIbhdbUhJxOk7wk2yy_m
-!procedure ClaimCheck($id, $name="Claim Check", $tech="")
+!procedure ClaimCheck($id, $name="", $tech="")
   IconElement($id, 'eip/MessageTransformation/ClaimCheck', $name, $tech)
 !endprocedure
 !procedure ClaimCheckCard($id, $funcName="", $content="")

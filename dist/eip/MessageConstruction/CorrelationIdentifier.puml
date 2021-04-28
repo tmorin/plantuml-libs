@@ -1,7 +1,7 @@
 @startuml
 sprite $CorrelationIdentifierMd [14x9/16z] dOU74S0m309V4d3PV-5qBs0wqAOOyM6EQfB_rG3ThAjvejSJb9jzN
 sprite $CorrelationIdentifierLg [20x13/16z] nOk50S0m3CFamE3_WyUhJwZ2O80KBYzQcn2vfdUnBQIelVYn5ep8qbEyLdOdgBhbPRMUKc8Y9m
-!procedure CorrelationIdentifier($id, $name="Correlation Identifier", $tech="")
+!procedure CorrelationIdentifier($id, $name="", $tech="")
   IconElement($id, 'eip/MessageConstruction/CorrelationIdentifier', $name, $tech)
 !endprocedure
 !procedure CorrelationIdentifierCard($id, $funcName="", $content="")

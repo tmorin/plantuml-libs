@@ -1,7 +1,7 @@
 @startuml
 sprite $MessagingBridgeMd [14x9/16z] JSS54S0030F02tR-3O_fYp4baTIE5NvYxjBpxWba8urn9jJQrJYIHpwKYBpaqc54uMOa-ka6
 sprite $MessagingBridgeLg [20x13/16z] PSY53SH00CH0BHxqt-yp9cEXGnrm62SDU0UGuCFxGHqDmUz3bgnEulEGcgPIlX-q49gM9vuFQ16OaeRnU6hhUxaPrlrrvMjCtv-DBuQeST8rJ_OL
-!procedure MessagingBridge($id, $name="Messaging Bridge", $tech="")
+!procedure MessagingBridge($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingChannels/MessagingBridge', $name, $tech)
 !endprocedure
 !procedure MessagingBridgeCard($id, $funcName="", $content="")

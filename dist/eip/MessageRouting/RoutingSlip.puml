@@ -1,7 +1,7 @@
 @startuml
 sprite $RoutingSlipMd [14x9/16z] NOk54G0m20Cl0lkFNDV79QOsJ653XC5DdLZHy3h96zP9qBYPdquWcjU-Jg6BB
 sprite $RoutingSlipLg [20x13/16z] bOs35S0m54NFGxZ_lhNTctmhK0UOZ1CnW0U-vqoRTATagrTTJd9mO7IKEaVcqgT1GVQm3-IW1l3dBax4aa_K5W
-!procedure RoutingSlip($id, $name="Routing Slip", $tech="")
+!procedure RoutingSlip($id, $name="", $tech="")
   IconElement($id, 'eip/MessageRouting/RoutingSlip', $name, $tech)
 !endprocedure
 !procedure RoutingSlipCard($id, $funcName="", $content="")

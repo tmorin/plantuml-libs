@@ -1,7 +1,7 @@
 @startuml
 sprite $ComposedMessageProcessorMd [14x9/16z] HOo54G0m308lV2hxJrpgSG5IW3GhgiGqQPOewUcyvwPfEHlUI5g1xBvuGy8JcjjKqEKHyexSl1NuLWS
 sprite $ComposedMessageProcessorLg [20x13/16z] RO-55S0m24JVINp_UUjUVXI7H7rWCNxa1EvOtBbqa0ATJMBNcJOfAksFlUWaoxrAiaUHpD0lWRZoBI2i6_SNpT7gZpu3
-!procedure ComposedMessageProcessor($id, $name="Composed Message Processor", $tech="")
+!procedure ComposedMessageProcessor($id, $name="", $tech="")
   IconElement($id, 'eip/MessageRouting/ComposedMessageProcessor', $name, $tech)
 !endprocedure
 !procedure ComposedMessageProcessorCard($id, $funcName="", $content="")

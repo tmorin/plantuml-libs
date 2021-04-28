@@ -1,7 +1,7 @@
 @startuml
 sprite $EndpointMd [14x9/16z] OsP20inCZ4oCCC34Z2n7Fe-94Gamix4Y0m
 sprite $EndpointLg [20x13/16z] Os7202pCZEW0A8PLtU0Mm-8tLbOMTC3A0W
-!procedure Endpoint($id, $name="Endpoint", $tech="")
+!procedure Endpoint($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingEndpoints/Endpoint', $name, $tech)
 !endprocedure
 !procedure EndpointCard($id, $funcName="", $content="")

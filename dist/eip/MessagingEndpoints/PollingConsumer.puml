@@ -4,7 +4,7 @@ sprite $PollingConsumerLg [20x13/16z] {
 PO-55KCn24KF_khxJ_ibIEr6SJ2MX4_M9vGAFgJykL4w6CBXvxTrzBWlZw3HaLnrlM7KEZDETmaOkHuA3NZMvUlhMdwgvQTXElb0cK_fNTSWXpPywgOo0Xda
 CyVfaVW5Vrnt
 }
-!procedure PollingConsumer($id, $name="Polling Consumer", $tech="")
+!procedure PollingConsumer($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingEndpoints/PollingConsumer', $name, $tech)
 !endprocedure
 !procedure PollingConsumerCard($id, $funcName="", $content="")

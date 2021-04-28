@@ -3,7 +3,7 @@
 {{= sprite }}
 {{ } }}
 
-!procedure {{= it.entry.element.name }}($id, $name="{{= it.entry.element.label }}", $tech="")
+!procedure {{= it.entry.element.name }}($id, $name="", $tech="")
   IconElement($id, '{{= it.entry.element.urn }}', $name, $tech)
 !endprocedure
 

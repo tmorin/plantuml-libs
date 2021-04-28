@@ -1,7 +1,7 @@
 @startuml
 sprite $EventMessageMd [14x9/16z] Om019XO69C3CZinZP6P00Qoio3ms88y2
 sprite $EventMessageLg [20x13/16z] Ou029YO63C36XYd6pi48P-FJoyZ8nCo4BiR4niM2ePA5dPbXO04
-!procedure EventMessage($id, $name="Event Message", $tech="")
+!procedure EventMessage($id, $name="", $tech="")
   IconElement($id, 'eip/MessageConstruction/EventMessage', $name, $tech)
 !endprocedure
 !procedure EventMessageCard($id, $funcName="", $content="")

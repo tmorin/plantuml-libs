@@ -1,7 +1,7 @@
 @startuml
 sprite $ServiceActivatorMd [14x9/16z] HOc54KKn3CCkSk3Z_kk-SXNKsT61b1smS2xD38HeU3DvLFnV-QtobY7X889cD6nso61viv0k-G
 sprite $ServiceActivatorLg [20x13/16z] ZOw35KDH40NFdMNSVxMnF-TXZS3-e5m3CiGVSpwX9szV1DOEwLQXT2AyEkkqhJhkEufxdjmX0OVoJp_q4kjtSGt8JG_ONW
-!procedure ServiceActivator($id, $name="Service Activator", $tech="")
+!procedure ServiceActivator($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingEndpoints/ServiceActivator', $name, $tech)
 !endprocedure
 !procedure ServiceActivatorCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $MessagingGatewayMd [14x9/16z] JSi74W9H40BH6kZ-tl_4wkPzbIO0wIP5MPr35IIRYXQPf6DpRCKFjDUlpVsRTw_xDc49sXFOzGC
 sprite $MessagingGatewayLg [20x13/16z] PSo5iGK134BH2LnOwR_VBqzNpdW2HFwG3MXXlWGXqupUQ8lhmwqnHT7hDfeYvt1BhDZl6qfOrZhsCJSWlM_7lKGwt9vIKvzluouDYyiSoC1qMs_sNm
-!procedure MessagingGateway($id, $name="Messaging Gateway", $tech="")
+!procedure MessagingGateway($id, $name="", $tech="")
   IconElement($id, 'eip/MessagingEndpoints/MessagingGateway', $name, $tech)
 !endprocedure
 !procedure MessagingGatewayCard($id, $funcName="", $content="")

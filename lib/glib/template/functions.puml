@@ -2,19 +2,21 @@
 
 ' title
 
-!procedure Title($title, $subtitle="", $version="", $date="")
-  !$s=$title
+!procedure Title($title="", $subtitle="", $version="", $date="")
+  !$s="$title"
   !$s_d="Last modified: " + %date("yyyy-MM-dd'T'HH:mm:ss")
   !$s_v=""
-  !if ($date)
+  !if ($date != "")
     !$s_d="Last modified: " + $date
   !endif
-  !if ($version)
+  !if ($version != "")
     !$s_v=" | version: " + $version
   !endif
   !$s=$s_d + $s_v
   left header
-  <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+  !if ($title != "")
+    <color:$FONT_COLOR><size:$FONT_SIZE_LG>$title</size></color>
+  !endif
   !if ($subtitle)
     <color:$FONT_COLOR><size:$FONT_SIZE_MD>$subtitle</size></color>
   !endif
@@ -36,13 +38,13 @@
 
 ' Relationship
 
-!procedure Relationship($label, $tech="")
+!procedure Relationship($label="", $tech="")
   !if ($label != '' && $tech != '')
     $label\n<size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
   !elseif ($label != '')
     $label
   !else
-    <color:$FONT_COLOR_LIGHT>[$tech]</color>
+    <size:$FONT_SIZE_XS><color:$FONT_COLOR_LIGHT>[$tech]</color></size>
   !endif
 !endprocedure
 
@@ -50,10 +52,10 @@
 
 !procedure IconElement($id, $icon, $name="", $tech="")
   !local $H="<img:" + getIcon($icon)+ ">"
-  !if ($label)
+  !if ($name != "")
     !$H=$H + "\n" + $name
   !endif
-  !if ($tech)
+  !if ($tech != "")
     !$H=$H + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
   !endif
   card $id <<IconElement>> as "$H"
@@ -66,27 +68,27 @@
   !local $H=""
   !local $S=""
   !local $F=""
-  !if ($sprite)
+  !if ($sprite != "")
     !$S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
   !endif
-  !if ($techName) && ($funcName)
+  !if ($techName != "") && ($funcName != "")
     !$ST="<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>"
     !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
     !$H=$T + "\l" + $S + $ST
     !$V=$V + $H
-  !elseif ($techName)
+  !elseif ($techName != "")
     !$ST="<color:" + $FONT_COLOR + ">" + $techName + "</color>"
     !$H=$S + $ST
     !$V=$V + $H
-  !elseif ($funcName)
+  !elseif ($funcName != "")
     !$T=$S + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
     !$H=$T
     !$V=$V + $H
   !endif
-  !if ($H) && ($content)
+  !if ($H != "") && ($content != "")
     !$F="\l----\l<size:" + $FONT_SIZE_SM + ">" + $content + "</size>"
     !$V=$V + $F
-  !elseif ($content)
+  !elseif ($content != "")
     !$F="\l<size:" + $FONT_SIZE_SM + " + $content + "</size>"
     !$V=$V + $F
   !endif
@@ -95,21 +97,21 @@
 
 ' Group
 
-!procedure IconGroup($id, $stereotype, $sprite, $name, $tech="")
+!procedure IconGroup($id, $stereotype, $sprite, $name="", $tech="")
   !local $value=""
   !if ($sprite)
     !$value=$sprite + " "
   !endif
 
-  !if ($name) && ($tech)
+  !if ($name != "") && ($tech != "")
     !$value=$value + $name + "\n" + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
-  !elseif ($name)
+  !elseif ($name != "")
     !$value=$value + $name
-  !elseif ($tech)
+  !elseif ($tech != "")
     !$value=$value + "<size:" + $FONT_SIZE_XS + "><color:" + $FONT_COLOR_LIGHT + ">[" + $tech + "]</color></size>"
   !endif
 
-  !if ($value)
+  !if ($value != "")
     Rectangle $id <<$stereotype>> as "$value"
   !else
     Rectangle $id <<$stereotype>>

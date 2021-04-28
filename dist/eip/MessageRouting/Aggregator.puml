@@ -1,7 +1,7 @@
 @startuml
 sprite $AggregatorMd [14x9/16z] JOo55S105C8UWVh-yzPEyrq3Rh1Qg8AME3JUAhtoDpDalI92c-MtTgToPom9oi_54-i3
 sprite $AggregatorLg [20x13/16z] RO-54OC040JdB1xelrhSdnrvbmjrWK-Zy0Wjdi33KitHNln3BalEOonxcZN1vD5-I5ZctgTewIlxm6NsSZTqoTtfUByAdnu
-!procedure Aggregator($id, $name="Aggregator", $tech="")
+!procedure Aggregator($id, $name="", $tech="")
   IconElement($id, 'eip/MessageRouting/Aggregator', $name, $tech)
 !endprocedure
 !procedure AggregatorCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $ReturnAddressMd [14x9/16z] RSUt0O103CLG-oVlFp6v0KwLNYtge-SobkHSGeO0w5i4I4AFMaduoBfotRph-hO3
 sprite $ReturnAddressLg [20x13/16z] bSYr0S0m40Imvqls7zYCfLMA7l2s3a1uXI_cEVwGojpNcPiqka-MynILNITMwJxu536FPM5wa04
-!procedure ReturnAddress($id, $name="Return Address", $tech="")
+!procedure ReturnAddress($id, $name="", $tech="")
   IconElement($id, 'eip/MessageConstruction/ReturnAddress', $name, $tech)
 !endprocedure
 !procedure ReturnAddressCard($id, $funcName="", $content="")

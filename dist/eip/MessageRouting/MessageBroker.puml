@@ -1,7 +1,7 @@
 @startuml
 sprite $MessageBrokerMd [14x9/16z] NOo50S1020Eve_lFt7V39KbKGubbhasiQo2qZRf9FTVbCxDSnW-prOldgraDnl83
 sprite $MessageBrokerLg [20x13/16z] TKw50O0m0AB-lzbXrz0rXHsMZISeydi7x7UNQapgNZuO1DZHHs9xep90xZom39lCpYvVwf-KVVF3pZZylhbNls_dZJt70W
-!procedure MessageBroker($id, $name="Message Broker", $tech="")
+!procedure MessageBroker($id, $name="", $tech="")
   IconElement($id, 'eip/MessageRouting/MessageBroker', $name, $tech)
 !endprocedure
 !procedure MessageBrokerCard($id, $funcName="", $content="")
