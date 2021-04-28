@@ -4,7 +4,7 @@ sprite $CloudRainLg [20x20/16z] {
 TS-55GCW30JGmpst_xR5gddzk1DCSP3DubFc8Ywqdd0u7iAfO4lyPExHJnvJ47xf7e6A6rGQgGcLdgb4gDFhsov-SVWdclttlS56B8QxxNK7AbWAXm7Y3jK9
 qzfDhdQGRQrJp6kkVyuXSjtafLl0T0d00m
 }
-!procedure CloudRain($id, $name="Cloud Rain", $tech="")
+!procedure CloudRain($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/CloudRain', $name, $tech)
 !endprocedure
 !procedure CloudRainCard($id, $funcName="", $content="")

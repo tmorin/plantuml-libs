@@ -4,7 +4,7 @@ sprite $BitbucketLg [20x20/16z] {
 RSq5aWGn30D06IOC___jbUDRI7arc0u8Y2aZ9FKTKakqbAA9H2CED85ftyN4J7gi0rvC0F1uBL3FZvfbhmMyE9krrxGVqip6-MM0lKn4TFtNMl6LRjPlgsRr
 jcIMRbCplOtDgFMlLFpE7m
 }
-!procedure Bitbucket($id, $name="Bitbucket", $tech="")
+!procedure Bitbucket($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Bitbucket', $name, $tech)
 !endprocedure
 !procedure BitbucketCard($id, $funcName="", $content="")

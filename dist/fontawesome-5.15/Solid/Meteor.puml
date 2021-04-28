@@ -7,7 +7,7 @@ sprite $MeteorLg [20x20/16z] {
 NSw5hHWm54FH6-Pu_sqRrP-F-A7v8_Lp-1Hd9OyZQMAXI_Vel-9IkVeMUCBI3uidN_rKWQhV8XH9kzT-lbV3zJHqrswbln8X_2WsjZOi9RmY7P0wuJhdT6Aa
 2idHXvpkglF412mdOUdmj051KiE9EpQz-Mof1o1CwGJNuf7k7FDADuB59TikMPvRPnO-_GC
 }
-!procedure Meteor($id, $name="Meteor", $tech="")
+!procedure Meteor($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Meteor', $name, $tech)
 !endprocedure
 !procedure MeteorCard($id, $funcName="", $content="")

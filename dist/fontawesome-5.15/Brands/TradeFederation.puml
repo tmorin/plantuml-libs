@@ -7,7 +7,7 @@ sprite $TradeFederationLg [20x21/16z] {
 LSpNWGLH209Gp8hJVxqxTry-VmR08T6yJGhUWiiPBjzBdMqJGAoMZiEMYYVfFKlXg07HTSk-QD1QXPLDnL6SGMq0A2kjOyhNkM5-esrbQ2ZOx7kRcI6HiJQE
 l9Z2Kv-ILPS1y6iIwXv9OuNZx9Q9cqzRk-3mYusRQDlWePQhE3uxTct-xc9TQ-rx9sn0XlhQlISb_Txnx8nhE6IkSGyJxwNXoMSvt9t05_NCC3py0G
 }
-!procedure TradeFederation($id, $name="Trade Federation", $tech="")
+!procedure TradeFederation($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/TradeFederation', $name, $tech)
 !endprocedure
 !procedure TradeFederationCard($id, $funcName="", $content="")

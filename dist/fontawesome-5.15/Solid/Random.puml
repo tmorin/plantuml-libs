@@ -4,7 +4,7 @@ sprite $RandomLg [20x20/16z] {
 XT255SD030HHeLct_NSRxGlpcB_vv7_RyaOAD4RsT16F2KImJHY1hPTDK-9IxSTHu0tHwt5mPT9jW3kFL2z431rzvAAaIzO4vuvUIVd8u5xubGwILl2Ruquf
 1RY2M6FmMVFvaLmGN954dC0AR14M5vkTNR_8a_G-LfEyjbpehHC
 }
-!procedure Random($id, $name="Random", $tech="")
+!procedure Random($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Random', $name, $tech)
 !endprocedure
 !procedure RandomCard($id, $funcName="", $content="")

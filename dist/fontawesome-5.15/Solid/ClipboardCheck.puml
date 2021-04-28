@@ -4,7 +4,7 @@ sprite $ClipboardCheckLg [20x27/16z] {
 lSi53WH124JH6aT2r_rlk-FIHDT-ZBmKsEeB6HqU6UVaGJtBC94jjWQPSpeGjENk8TmRf_DYBlZt8jC0omJuysMXvlWMo4xjGGf0dYiwbiM-Uk235in4Mg85
 kuK-htWsQH8gNW
 }
-!procedure ClipboardCheck($id, $name="Clipboard Check", $tech="")
+!procedure ClipboardCheck($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ClipboardCheck', $name, $tech)
 !endprocedure
 !procedure ClipboardCheckCard($id, $funcName="", $content="")

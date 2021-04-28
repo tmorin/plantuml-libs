@@ -7,7 +7,7 @@ sprite $LinkLg [20x20/16z] {
 JP254GGX40GNTph_RB_cp-YoPGIp5rSNh687Ve5O_fCsD_EKgDvN87_IDJSObpPUEy2-1qbLkyT7AoeCbbE3RXQcgzeVhIgGT2-ldCB8xUOM56MABKXHpIiy
 OBi1sJKpcLKFezYMAm2lIsVhofwQIL93gFj8mowgx1378IaeFkdyosudUUpTetty
 }
-!procedure Link($id, $name="Link", $tech="")
+!procedure Link($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Link', $name, $tech)
 !endprocedure
 !procedure LinkCard($id, $funcName="", $content="")

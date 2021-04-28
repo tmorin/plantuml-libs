@@ -7,7 +7,7 @@ sprite $ThermometerEmptyLg [20x40/16z] {
 xP970i9G24JvlKBkVrjX8YbBzuucWKTR09b2bqCbZMur1O25N1q0yimAZncVH90vAnAbRGPGLcl32ZOf-e02TflZxbBKhB-nFrjlrh6XDplokQ51UJ7FX9gD
 jEqRhjXIHhViAuzMFJJ0j9sDe2_p9Zdoy8i9cDW81a3OV9iHAu1F6mrtCq_KKLg2mAwiDGKnnjtWr4B0iPr7j536SpACGIehW1n1JPn89LTegDjVyW4
 }
-!procedure ThermometerEmpty($id, $name="Thermometer Empty", $tech="")
+!procedure ThermometerEmpty($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ThermometerEmpty', $name, $tech)
 !endprocedure
 !procedure ThermometerEmptyCard($id, $funcName="", $content="")

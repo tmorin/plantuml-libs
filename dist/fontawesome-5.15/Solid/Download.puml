@@ -4,7 +4,7 @@ sprite $DownloadLg [20x20/16z] {
 bSm54iGW38NXu13PT__JhjMz_SUOZoJKbV4jqgBsix9Z-QuzlvTQg_OphQt5pXYpAdN9HAsd7fT4JZjYcYVpgP2-vVX3ffX-UNHbaaQrUxymOaUBpB2R96HU
 6GV41YWsyGS
 }
-!procedure Download($id, $name="Download", $tech="")
+!procedure Download($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Download', $name, $tech)
 !endprocedure
 !procedure DownloadCard($id, $funcName="", $content="")

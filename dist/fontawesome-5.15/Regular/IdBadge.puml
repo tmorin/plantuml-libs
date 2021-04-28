@@ -7,7 +7,7 @@ sprite $IdBadgeLg [20x27/16z] {
 TSq5ceKm34NXkgQv-z_j0DLCltVmdqh0bQktPO1oESeD30Gboa0tMz-AFitXZSrXJ_f9pfr9iocQVnRnv8MPleVOD-3BdUQxMR5UmnF9FGm1LKjxz15XsixR
 iWGm4OFZj8TMOLhRLgVnDfeMQHMcYNuQ5L43LrmbVM5MVm
 }
-!procedure IdBadge($id, $name="Id Badge", $tech="")
+!procedure IdBadge($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/IdBadge', $name, $tech)
 !endprocedure
 !procedure IdBadgeCard($id, $funcName="", $content="")

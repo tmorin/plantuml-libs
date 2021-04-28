@@ -4,7 +4,7 @@ sprite $EnvelopeOpenLg [20x20/16z] {
 ZSx50SKm30DGXL7H_jD-XdBxRcRZ8sb4pDYcXshm5uPUwF5Lz9C-SrqJxJaVD3SyibQYreOkIrKJERzoc2mDdsSRBFNIZUN_fTTydauemxCxL4rr2pXgWTIH
 eHM6LPB-3W
 }
-!procedure EnvelopeOpen($id, $name="Envelope Open", $tech="")
+!procedure EnvelopeOpen($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/EnvelopeOpen', $name, $tech)
 !endprocedure
 !procedure EnvelopeOpenCard($id, $funcName="", $content="")

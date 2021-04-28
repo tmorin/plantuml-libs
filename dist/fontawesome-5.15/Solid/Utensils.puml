@@ -7,7 +7,7 @@ sprite $UtensilsLg [20x25/16z] {
 LSy55iGW40JHndtw_hTTP7XXA_vZu3dGw3qxTbdO8yLqnZ0FYxoGp1nsC0NIJWfSjMqva06mt7KE9ziIq8x9DB9Cot2y3K_MQHNviqYsjAof26yPNSyARnvL
 pwpScq3IKxX-2KRKWC4zk5cwjZyTiQllSnaFwbUknSUAMZvcEQjgvR7s_pttMdkig_LZdhEXDew5ptHsEYGnsopViJpVApy
 }
-!procedure Utensils($id, $name="Utensils", $tech="")
+!procedure Utensils($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Utensils', $name, $tech)
 !endprocedure
 !procedure UtensilsCard($id, $funcName="", $content="")

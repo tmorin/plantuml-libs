@@ -1,7 +1,7 @@
 @startuml
 sprite $CampgroundMd [14x11/16z] LOp50G112CHOLqZ_rPvhVgEoepcfF7JehtBWNrMXFI82fBjd0EQVZpbX7283tWDb4m788Wc84XGqn1WcQEJ72W
 sprite $CampgroundLg [20x16/16z] NSu50e0W00F0sPBx_s-TD9pICP2Pi6t1OE9f33qcUoJZZjb3FbXuhaVnKbwCBYRNaY1JYcFXXamnXbAp3qe00kK0PClzkhP1wfbw1u0xtxr9phfHNr6hsgm-
-!procedure Campground($id, $name="Campground", $tech="")
+!procedure Campground($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Campground', $name, $tech)
 !endprocedure
 !procedure CampgroundCard($id, $funcName="", $content="")

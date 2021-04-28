@@ -4,7 +4,7 @@ sprite $DiagnosesLg [20x16/16z] {
 RSZN0O1020HHC5m0tUs_MpbpUdypiYjaaQV4a9xF6VpvAaDzlWuaEddIbFHrXXI6wrQjuCmmQzrMhvcSP6B8cb8i8nZQsbXxHBPjMyRwEYygfIr14ItUoIOJ
 W3FBHeDejzAjm0QRFVXZ0G
 }
-!procedure Diagnoses($id, $name="Diagnoses", $tech="")
+!procedure Diagnoses($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Diagnoses', $name, $tech)
 !endprocedure
 !procedure DiagnosesCard($id, $funcName="", $content="")

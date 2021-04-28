@@ -4,7 +4,7 @@ sprite $WaterLg [20x18/16z] {
 ZS-35GH1303GZ6Bqt-tPs1qp_mLs5xHv79jeFqxJ242ZgbmjgzBKZvkGu_AuE2sFbwVhuoLJXq7Cgy4YfWaT-Rj1jevZlndSm1v6NGtTClYlWRRUylWqyYaF
 _sMCXx5T3W
 }
-!procedure Water($id, $name="Water", $tech="")
+!procedure Water($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Water', $name, $tech)
 !endprocedure
 !procedure WaterCard($id, $funcName="", $content="")

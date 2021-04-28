@@ -4,7 +4,7 @@ sprite $KissBeamLg [20x21/16z] {
 XT07WiCm20J0LPTjOF__splLz6HSrG4qBb_sJuh3LfITrTNfbPj5DC5uBxMzb8y2_C4d5tgNnjm-DKZxnBwPTyXaXUyRdMolI0lA8Co5aoefHY5D-4ijncUQ
 TgJAvSJSxAYSCbRqmUtECjUUm5h1ElxCtufGukWAQDp5JJocE7ibuuvFEQSrvmy
 }
-!procedure KissBeam($id, $name="Kiss Beam", $tech="")
+!procedure KissBeam($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/KissBeam', $name, $tech)
 !endprocedure
 !procedure KissBeamCard($id, $funcName="", $content="")

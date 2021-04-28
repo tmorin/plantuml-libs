@@ -7,7 +7,7 @@ sprite $QuestionCircleLg [20x20/16z] {
 HO-50S0W30GVAHhPVziIz2eSZmOJdrllDJbSVDDDFUcd3mbuKSkvYOc5teGy1guFPGUqtHgEHwUiQHtuY2AGR4kNrQ2yHg9rOjD3zq0sALqtoSuJitgo0Y39
 rDhUjBmr9zs878j-2uN8onYeoyAjEmDkhPaNDWY3k5PywrJnC0BhXJmMhiW-E-FXOgarHon-
 }
-!procedure QuestionCircle($id, $name="Question Circle", $tech="")
+!procedure QuestionCircle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/QuestionCircle', $name, $tech)
 !endprocedure
 !procedure QuestionCircleCard($id, $funcName="", $content="")

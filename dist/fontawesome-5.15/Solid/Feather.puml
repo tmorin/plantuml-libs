@@ -4,7 +4,7 @@ sprite $FeatherLg [20x20/16z] {
 RT350S0W44JHmNMp_LSRdoZ_-71mPRAeIiAZCEbUjs19MITblOj_qdOll1kGhEHqonTQNQtk1A45mEvaI9Atov9sSBm7IQKtkrcvQTztAmTkFxLe-247zUGe
 f3Ln9rcX97DJjI56Rt6r4hxrFs41
 }
-!procedure Feather($id, $name="Feather", $tech="")
+!procedure Feather($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Feather', $name, $tech)
 !endprocedure
 !procedure FeatherCard($id, $funcName="", $content="")

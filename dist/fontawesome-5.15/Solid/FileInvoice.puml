@@ -7,7 +7,7 @@ sprite $FileInvoiceLg [20x27/16z] {
 dStL0KCn241HdaUG_RSjn5Dlp-TD09R60z82IiOMvNhIB5eBb-BID5hRGSNID5fZKdNMujGyeHbc0vXomocsZowJ7o0rMD81Wx9i0rTTS9QsICNl6n8c56lR
 eQiDtO3aBuoAv-RBZH4vXV8z_vYk6m
 }
-!procedure FileInvoice($id, $name="File Invoice", $tech="")
+!procedure FileInvoice($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/FileInvoice', $name, $tech)
 !endprocedure
 !procedure FileInvoiceCard($id, $funcName="", $content="")

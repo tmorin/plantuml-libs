@@ -1,7 +1,7 @@
 @startuml
 sprite $FirstAidMd [14x12/16z] ROo50GCX34LnYFxzfstF_SLLK1MEIRc2WQPOa8Q9-gfAEIfpYecXMyLXGlSA6fDTxbh__jdihCWBkqquLOnmumy
 sprite $FirstAidLg [20x18/16z] bP050WGW20JNLcBv_sklksziQV02STPEFy5Hw3qYseWBinpF-jVVMdpySy3k_sW2YF7sJt1WtVvfIa1ASkUF1YYVO_XJBcP_r_7OWnh18LggoWbjMQNY1Li
-!procedure FirstAid($id, $name="First Aid", $tech="")
+!procedure FirstAid($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/FirstAid', $name, $tech)
 !endprocedure
 !procedure FirstAidCard($id, $funcName="", $content="")

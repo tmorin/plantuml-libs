@@ -7,7 +7,7 @@ sprite $GoogleLg [20x21/16z] {
 LSw50GCn241HuixVVzjUwEcBAuZnkO_HIv2Rxvp6jPkKHvOjOrIVlS3MedEXA56s2MWG4w9iYOENZmuK-LhtDNS3bfY96WOmxnUFzTr3zop8bikX0MDtLMxP
 ykSGvUJLLeD3EhScCCyZHWeXDgv7aOyYMrZVBUEAWkb17h6qLfCJymC
 }
-!procedure Google($id, $name="Google", $tech="")
+!procedure Google($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Google', $name, $tech)
 !endprocedure
 !procedure GoogleCard($id, $funcName="", $content="")

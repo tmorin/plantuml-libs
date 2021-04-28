@@ -4,7 +4,7 @@ sprite $WifiLg [20x16/16z] {
 XOs50SCm30JD3FjlMmlBoHl4EYEorhmfr3xNchq6oUIvLJDZ3sHMhwNKlY0RJ3bc9CixqpXXELzwPQJJOfi_Ncp0QF6ulbbUAGW1Hu2qKXeW8kNSt9cylASp
 d6H7F55SAvWFpGEupSdiXHu
 }
-!procedure Wifi($id, $name="Wifi", $tech="")
+!procedure Wifi($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Wifi', $name, $tech)
 !endprocedure
 !procedure WifiCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $BarcodeMd [14x14/16z] hOwr0G0n201nst_VrsYVmwi3Dl1h7MDMiGTFgnnNb2-Nv-5h-aJLpVtpqViGlJ0nmyOD
 sprite $BarcodeLg [20x20/16z] tP150iHG24CRGf2s__x77NTVpzlX9DEF964Gd7IwUo0zrp2ohQMCgbgurbXbP5b94PM7t7hE7Vl-8NVLzie36G22jeEaGzJq8ri
-!procedure Barcode($id, $name="Barcode", $tech="")
+!procedure Barcode($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Barcode', $name, $tech)
 !endprocedure
 !procedure BarcodeCard($id, $funcName="", $content="")

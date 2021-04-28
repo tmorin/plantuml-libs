@@ -7,7 +7,7 @@ sprite $TramLg [20x20/16z] {
 fSe54iGW44JHXX6SkVzfD-v9sNxy5TWhHZWdbT1DCEP4jpy9n72ScbbUZ987QUrM8piiUIdTUfBjxIHtizmpjc8pgv60cdOhqtjgiZsMAMvblG38TYi2zMvv
 ClPUzqqMSm0TsxUHSx9llDYjFqtl9XW
 }
-!procedure Tram($id, $name="Tram", $tech="")
+!procedure Tram($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Tram', $name, $tech)
 !endprocedure
 !procedure TramCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $RedditAlienLg [20x20/16z] {
 VP250SKW30M34-lRVzelTJ_yyD0hINk9pVBUzPQQ0BPt4d-LWtSgo5WVjYQc2xtJHWoKsF73EL48FoLmnOeCw9Hn8OxEgk67DXyTyLW704xZhaQKHXSt5oVd
 RTuxJ8uSE-R_5W1Sp5sB09W-Lm58BQKgWB963ZCIT_-hBC9rCnU-
 }
-!procedure RedditAlien($id, $name="Reddit Alien", $tech="")
+!procedure RedditAlien($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/RedditAlien', $name, $tech)
 !endprocedure
 !procedure RedditAlienCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PeopleCarryLg [20x16/16z] {
 HOw50OH030JtWaEoqt-r_pXp4XSfxD39fqymwUJJe-hDU_LsVZklePaC5JQbI6P9FP2DavP0VwG1Wm4y04VY1aLnSYgRL3YIcmnJqeARPf_CQcRHKPpVBdcK
 QhZdltiD2gQUJJSR_KHCB47g9ec5oVJ2kZ7gSQMKNzvXrHy
 }
-!procedure PeopleCarry($id, $name="People Carry", $tech="")
+!procedure PeopleCarry($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PeopleCarry', $name, $tech)
 !endprocedure
 !procedure PeopleCarryCard($id, $funcName="", $content="")

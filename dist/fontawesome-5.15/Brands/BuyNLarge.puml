@@ -7,7 +7,7 @@ sprite $BuyNLargeLg [20x18/16z] {
 TOs5WM0X34G7-yGW_NTxarkt1t73doprYD3LtZCxtz6NR3-v2pcfMtGmrKuQ_jEY0vuTmp8VnWnHzgOpdydso2Q7VOlXl9a7W4pJBHl2d9Q0jCjkNyuuA0jO
 EhJtTjUj7DNBjU4dj9jgyWU0EIYoKDp92lxJTaEnhDGcOdbt8VzBpVCJpbGntxEny4v_r4oVWJ_v1m
 }
-!procedure BuyNLarge($id, $name="Buy N Large", $tech="")
+!procedure BuyNLarge($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/BuyNLarge', $name, $tech)
 !endprocedure
 !procedure BuyNLargeCard($id, $funcName="", $content="")

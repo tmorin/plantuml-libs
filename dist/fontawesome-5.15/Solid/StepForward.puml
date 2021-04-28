@@ -4,7 +4,7 @@ sprite $StepForwardLg [20x23/16z] {
 fT0t5WH120DHjGN6wVwdNJ-E9bj5zJuPYDSj_IgfwISokUQl5P9vZwtiPwRTkDKzJoDhO6o1KGAZvD4u1yO_J4UhsTjMKPnj1TxM36zBWhSvuMRvHN1_HcdO
 r_hUVay
 }
-!procedure StepForward($id, $name="Step Forward", $tech="")
+!procedure StepForward($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/StepForward', $name, $tech)
 !endprocedure
 !procedure StepForwardCard($id, $funcName="", $content="")

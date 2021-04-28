@@ -4,7 +4,7 @@ sprite $RegisteredLg [20x20/16z] {
 POu5OaGX34G74jpkVzjsq7RtVUL5CR4XbvAymSNciKd7kl7eyjI3ql8d-n32wj0CCFyCY7J-HwOjH-rdInEsaz7u8fg_NIodLWmGrvB74TsBdrgZTzFWRp_b
 NaJjTGLhHWCIlvQz751P2XWkNsFxNNOshtVQfLiGQKzLAc9Ytqa13wCnfQ1O_
 }
-!procedure Registered($id, $name="Registered", $tech="")
+!procedure Registered($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Registered', $name, $tech)
 !endprocedure
 !procedure RegisteredCard($id, $funcName="", $content="")

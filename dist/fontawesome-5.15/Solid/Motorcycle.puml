@@ -4,7 +4,7 @@ sprite $MotorcycleLg [20x16/16z] {
 ZOz7baKX20NDua6f_U-svULP_vgGmmt_4xz11bgSJ0_Ad3fIYAqf4pXpkZ3fhGsiImqNoaKvuwIOdHaVG5D8XgmpjOen1KjAJ9pqOMeneiYphI8x4OITyoqR
 oumWjdDAyeVL5Hn-Gls6c2L_uVH9_elVTsx_L_u
 }
-!procedure Motorcycle($id, $name="Motorcycle", $tech="")
+!procedure Motorcycle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Motorcycle', $name, $tech)
 !endprocedure
 !procedure MotorcycleCard($id, $funcName="", $content="")

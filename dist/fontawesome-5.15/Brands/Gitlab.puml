@@ -7,7 +7,7 @@ sprite $GitlabLg [20x20/16z] {
 TOu75eGW30L3xypzJwiIdjjtbCxa8o9EdXWhol3FlTXrSEJdNaClPlfJdKHLuL4nG5ELfrnXcgN2k5LWoRbT1A_4DK_YwivHelesaRIeOaIa43hu7RuZ8rIU
 ISGj33VqN6KhPa2_XghlsqSLYYmY12cG9363RDp4U31kUJUcTJElVtbFKgwvH7d7vQJUFqu
 }
-!procedure Gitlab($id, $name="Gitlab", $tech="")
+!procedure Gitlab($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Gitlab', $name, $tech)
 !endprocedure
 !procedure GitlabCard($id, $funcName="", $content="")

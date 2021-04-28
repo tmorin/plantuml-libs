@@ -1,7 +1,7 @@
 @startuml
 sprite $SwimmingPoolMd [14x11/16z] BKg50S002B9n9VzVkpOfkKlJxkkfBpd8a2BtXu5-x39hC6_M8v4oBR27qLLj5f4l-LP_h1btyVTgddlWkROWj5i3YycGVFOxA3N05ErQk
 sprite $SwimmingPoolLg [20x16/16z] XOk50S0m3CFYCJh_NpjU6LHGKB9CvFJxB-d5P7r3RLkbzOsgoCxFkwrP_p5kmQlzL6iG8Dor_Xdsr_lm6WFPu_u7eBz_eKQGtFf-ytz9S08
-!procedure SwimmingPool($id, $name="Swimming Pool", $tech="")
+!procedure SwimmingPool($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/SwimmingPool', $name, $tech)
 !endprocedure
 !procedure SwimmingPoolCard($id, $funcName="", $content="")

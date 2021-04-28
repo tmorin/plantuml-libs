@@ -4,7 +4,7 @@ sprite $ShopwareLg [20x20/16z] {
 JP255SGm5CF23FjFU-2eu6Bq_D58BhVUQxBcbciRLGUAW3N7x0uaKFmJwKxG0QW9lG2sQQIGKlX_yvyLeQwycT0a5-M7wpUp2rZxKy9Fc6ANfNivSjeOhy7d
 3cu_4BCrzS0PGPI3iYhwGgjvsDq3dH9UY9zPuT1GQis1qnS
 }
-!procedure Shopware($id, $name="Shopware", $tech="")
+!procedure Shopware($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Shopware', $name, $tech)
 !endprocedure
 !procedure ShopwareCard($id, $funcName="", $content="")

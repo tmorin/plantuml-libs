@@ -4,7 +4,7 @@ sprite $CertificateLg [20x20/16z] {
 PT350SKW40JGmPtflzel2SwxhYyUXWu8L5W4qdhIeT7HoC97aZRAbhEoRw_DqrDoLG3eKBZ9GV5M72y6bWSDU1ui0Y-Ejw9SuYOwUUvSyMUliSyFoiXgFv1E
 8RTUq4uiFzMMT5ZeQW1N9HvV
 }
-!procedure Certificate($id, $name="Certificate", $tech="")
+!procedure Certificate($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Certificate', $name, $tech)
 !endprocedure
 !procedure CertificateCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TruckMonsterLg [20x16/16z] {
 VSt5WKDH34DHoP_XwVPVxKoOaxCoMsSxm6Oz0WAh7e5LOTAPRHai3J38aXg1im1XatWZ0mbdvyXXxQgw5RX6ONBVMk-9UwGAG4eFKG_B0lrZr5YaXVOx-hZx
 yOUgJ_hIG_GF
 }
-!procedure TruckMonster($id, $name="Truck Monster", $tech="")
+!procedure TruckMonster($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/TruckMonster', $name, $tech)
 !endprocedure
 !procedure TruckMonsterCard($id, $funcName="", $content="")

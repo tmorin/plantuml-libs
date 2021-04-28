@@ -4,7 +4,7 @@ sprite $TelegramLg [20x21/16z] {
 PP255KGX3C22E-o_xHrz_HuyUDcOsEQVdWmdQInXPfLOCMez6pVNdG2OiPuuR5al6W_Lywxzl8xF3hE7zTmHi06_JaQsa8eXdIe3RXIWNYUrc6M2vxj4MJrA
 dJSMWdHBLfVwycJfEgDoKsHJ1VfwCEqd2DEnCUrItQ9ujJromuOOWzN13m
 }
-!procedure Telegram($id, $name="Telegram", $tech="")
+!procedure Telegram($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Telegram', $name, $tech)
 !endprocedure
 !procedure TelegramCard($id, $funcName="", $content="")

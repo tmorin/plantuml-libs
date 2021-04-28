@@ -4,7 +4,7 @@ sprite $SearchLg [20x20/16z] {
 TSz5Wi0W40NHZq-mklzfent6txBGrYdM0RD6BQvYcdjJPnaMAz2Zzx5TEtM9m8Tk1KYshSjKspWWoGIOrus0rsj2-ATDYD_Fshrci_SIK7JBGDQb0JL8OMDz
 oms0ERbrzyI6wLz6JlqkMTrstdm8tkwnQ5RKxrZrC_Qg0m
 }
-!procedure Search($id, $name="Search", $tech="")
+!procedure Search($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Search', $name, $tech)
 !endprocedure
 !procedure SearchCard($id, $funcName="", $content="")

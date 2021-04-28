@@ -4,7 +4,7 @@ sprite $ChromecastLg [20x20/16z] {
 ZSk50KGX30FGr738_jEUk_w7rh2LrnS6vQi9OnQL6vL6DIOygHHj_fR3nMFEHlMt7CcLNcSbBRQdd8GSt_QOSx8h2lFZR3GknQGyv83WE9pqCBlYy1ZO8NQW
 ZUga60lcGkB9WAGaI8v8q9oE55lj0G
 }
-!procedure Chromecast($id, $name="Chromecast", $tech="")
+!procedure Chromecast($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Chromecast', $name, $tech)
 !endprocedure
 !procedure ChromecastCard($id, $funcName="", $content="")

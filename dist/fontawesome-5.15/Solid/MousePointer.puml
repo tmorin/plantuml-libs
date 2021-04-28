@@ -4,7 +4,7 @@ sprite $MousePointerLg [20x32/16z] {
 XT054iCm44FHzPRCklzjExB3AloXp8kvThThG7CrHH23654DzOGGf2bYHpKKCQ8QKGrPZQY6D4qHYcg8D47ygSGKOqoFwvvo5ZzQAs2lWtNt-MktVZCh0--h
 aUnnV0CIQ_ikbUDP71Rv6OBDV5YrKuKRtyzsHrda3G
 }
-!procedure MousePointer($id, $name="Mouse Pointer", $tech="")
+!procedure MousePointer($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/MousePointer', $name, $tech)
 !endprocedure
 !procedure MousePointerCard($id, $funcName="", $content="")

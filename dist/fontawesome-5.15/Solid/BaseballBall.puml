@@ -4,7 +4,7 @@ sprite $BaseballBallLg [20x21/16z] {
 RT255OGm54JHYSkNwRzQ75OVVW-MO2zKyIrj0K_DUEJzndJ8fHb7dM_9Bh51NcIe2N6mX9UbHC4WVRvCbCnEKjjDGqWUjqpuPQ6zNgmyyl2ynX-3_Dp7rtq3
 lAtkTzk-azl4zbkwqngVkf0fTERuiXmvWL2WB_EGu_zv0S9yaKPSPRcaugrOQYttFIi
 }
-!procedure BaseballBall($id, $name="Baseball Ball", $tech="")
+!procedure BaseballBall($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BaseballBall', $name, $tech)
 !endprocedure
 !procedure BaseballBallCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $BufferLg [20x23/16z] {
 VT150iGW343HAUxS_xQJVkgM7G-8_JvY2duwYugzznRKBZg9454FCRaV8ebEo4abLMX7QPwaaw-hLBSNTsYnMsUQIYKRUfWVIhfn6ZUzUh4k8OfGXAaQQcUf
 JBWgZQoowb6qcr1aSchCrWv9c8tKA79kOGW37DUrDx--FGkAlCOV
 }
-!procedure Buffer($id, $name="Buffer", $tech="")
+!procedure Buffer($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Buffer', $name, $tech)
 !endprocedure
 !procedure BufferCard($id, $funcName="", $content="")

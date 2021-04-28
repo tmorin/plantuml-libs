@@ -7,7 +7,7 @@ sprite $RedditLg [20x20/16z] {
 HOu75WGX24DZx-pzRxl4XyEVeWaLbzZcMgC6VCJvCyPpoy-Hv9P3CpxH-ymQFre-FqzbukbfvmKbj6UrTkoQ6PsbHoYfbytYfJyrtbwPIoxhEe0jmA37sesm
 c-e5YCfMEIaYX5kVxeoxoqAe2iBc1kp0imIb2kzDAyGMjFMsZNVOcwJZrgP5GhTwQN12xcEqREeF
 }
-!procedure Reddit($id, $name="Reddit", $tech="")
+!procedure Reddit($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Reddit', $name, $tech)
 !endprocedure
 !procedure RedditCard($id, $funcName="", $content="")

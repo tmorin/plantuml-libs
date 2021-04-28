@@ -4,7 +4,7 @@ sprite $FileContractLg [20x27/16z] {
 pSz50WD124JHQdUu_srJn6qNcVdBruhejOQv79ZUsz3onWpDUc5oDg9P11jd8vh9OdesmmThQrftPplEqNfbOXlhATrTrVKNSmZFD6ouFXuieOAL-yiGURf5
 UE_QsNnQMhDAyi5t_NxjbSe1
 }
-!procedure FileContract($id, $name="File Contract", $tech="")
+!procedure FileContract($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/FileContract', $name, $tech)
 !endprocedure
 !procedure FileContractCard($id, $funcName="", $content="")

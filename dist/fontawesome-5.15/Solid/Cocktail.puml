@@ -4,7 +4,7 @@ sprite $CocktailLg [20x18/16z] {
 hOxL0S1024Dphf3zfwqB_UyxnGD3dEHCi1Ho3B8QL-BqW1iqcJwv_N6KskfDgTK3wFoI3rzJusfxhGg26jSzut4sZ3bqr_8uEyBKG_FZx8SGXvjmkJvCflzy
 JOHKaOW7pmCpUWK
 }
-!procedure Cocktail($id, $name="Cocktail", $tech="")
+!procedure Cocktail($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Cocktail', $name, $tech)
 !endprocedure
 !procedure CocktailCard($id, $funcName="", $content="")

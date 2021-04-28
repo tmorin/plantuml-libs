@@ -1,7 +1,7 @@
 @startuml
 sprite $TerminalMd [14x11/16z] OsHaG0AylCXS3dvqBXDkBZS_5uB3ni_7Z8_3n086pBn03aWh1321bR6mWm4R
 sprite $TerminalLg [20x16/16z] Oy02M7YOCSJu-Fam1DdvQIF8X5SCePSY8JOETWuW099iSB_n8m0y37Zu-I20dnTX2YCCC
-!procedure Terminal($id, $name="Terminal", $tech="")
+!procedure Terminal($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Terminal', $name, $tech)
 !endprocedure
 !procedure TerminalCard($id, $funcName="", $content="")

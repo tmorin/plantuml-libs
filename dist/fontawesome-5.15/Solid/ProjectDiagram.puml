@@ -1,7 +1,7 @@
 @startuml
 sprite $ProjectDiagramMd [14x11/16z] ROo50GD12C3E7RB_jEsx1rS5d9bmm5mmMkyjig4YCfPAWR1luhpNPcQcp4qXuSs56gorHsK7AbkvF_YkhExL7m
 sprite $ProjectDiagramLg [20x16/16z] hT2r0G0X44JHMKZmtt-rvsxHlGXTAmoA5lEEYSa64ZVDskVPzM-XJMUpJ6iK3TUPgDdoVE31wogITEMYMp-jrk1P9qp-EpkDh0S
-!procedure ProjectDiagram($id, $name="Project Diagram", $tech="")
+!procedure ProjectDiagram($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ProjectDiagram', $name, $tech)
 !endprocedure
 !procedure ProjectDiagramCard($id, $funcName="", $content="")

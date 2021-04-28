@@ -7,7 +7,7 @@ sprite $RecordVinylLg [20x20/16z] {
 LOy50e0W301NTFt_jIhRh5DW7Q1GggsLYF10TJdbjeRrClblChQHN1x3tolTQcLYvcAYXmM-eZf5BOb9NM9vDe3eJTriLNsvxRAy-rtwr4hbiKcy1BDfBZTV
 GsTDKMMs9L1zOhD4gdCKoZeqGF6EH6BT4m3EzQF3XVnCas33unD5O63s_9dW1IMNaiIr4m
 }
-!procedure RecordVinyl($id, $name="Record Vinyl", $tech="")
+!procedure RecordVinyl($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/RecordVinyl', $name, $tech)
 !endprocedure
 !procedure RecordVinylCard($id, $funcName="", $content="")

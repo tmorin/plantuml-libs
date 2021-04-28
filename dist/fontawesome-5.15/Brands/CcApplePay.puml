@@ -1,7 +1,7 @@
 @startuml
 sprite $CcApplePayMd [14x12/16z] VS650S0m30EmCiMP_xzsp2I19y9_ZLB01QpLsdAh3I2RCLApb5Ioaam1qh5KIJm1-Alg3bhCnG
 sprite $CcApplePayLg [20x18/16z] fSv50iGm20LG6Y7ul_zfntswwuihq0xBFuo3gkxjaofoCEFDgMsP4wmYPX1SCD66x39TUIrVkD1hbZK2Agnw6Q_c65K2-ELMTFnXnP_4CSLg-gFJZZC
-!procedure CcApplePay($id, $name="Cc Apple Pay", $tech="")
+!procedure CcApplePay($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/CcApplePay', $name, $tech)
 !endprocedure
 !procedure CcApplePayCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $FilmLg [20x20/16z] {
 ZSu56iGW34JXuCxS_xQRRvfrwrzz5K1Eobv2Uw2PKMF3dUK6HZIJYIZwhPZEH91qVpQOc6q-VZSqiSP24tSOJ7vyn-HfBtEazaOJCpG1zDmVvsXvV5vBalBm
 7PDcDWjKVCM3h1cT-9BlDAEST04
 }
-!procedure Film($id, $name="Film", $tech="")
+!procedure Film($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Film', $name, $tech)
 !endprocedure
 !procedure FilmCard($id, $funcName="", $content="")

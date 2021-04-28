@@ -4,7 +4,7 @@ sprite $PatreonLg [20x20/16z] {
 fT033WKn58NX6XSv-r_jmxYAve-_kaGKp5OeL9Cplm3aJHHRzRQ4Cx67UTpHOO97OJEFPtMpr9Xibj7NpzF9VhGyruG7yVcEFBpZLppVQyrXcrQYVF_BexTM
 Il6zVG4
 }
-!procedure Patreon($id, $name="Patreon", $tech="")
+!procedure Patreon($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Patreon', $name, $tech)
 !endprocedure
 !procedure PatreonCard($id, $funcName="", $content="")

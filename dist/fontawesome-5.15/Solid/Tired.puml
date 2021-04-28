@@ -7,7 +7,7 @@ sprite $TiredLg [20x21/16z] {
 PP050W8n30HJz-p_VmjRoEcSj74HulBGBxCuEIWB6wscz0i76eK4nPN4N0jtWlY61qEeMc5Gi4lSoRAa1MYHGAc3gAEKHUQrLbPsHmkvvOi35tGEnPqzLBOu
 Qvv4a5Rt_rW6fU2eZAPpR4zsJpdrkTRiEIhKlvQWuHTmQMfw-MEjpYmNVCevcSy7
 }
-!procedure Tired($id, $name="Tired", $tech="")
+!procedure Tired($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Tired', $name, $tech)
 !endprocedure
 !procedure TiredCard($id, $funcName="", $content="")

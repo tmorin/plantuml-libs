@@ -4,7 +4,7 @@ sprite $PlaneLg [20x18/16z] {
 PS_50GGX44JHmfsVVxIhuxmBsgOl2pZTcGbD3nM8kel0CDhauhU496rWMacTRVCreVlW6q3p8GGdDPw6IvEdcTUxqNcOrG3LMbC1ih6VhRJrEe2vDnsYbUHO
 Xqj0rrq3l6uiK7Ldjs4tRm
 }
-!procedure Plane($id, $name="Plane", $tech="")
+!procedure Plane($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Plane', $name, $tech)
 !endprocedure
 !procedure PlaneCard($id, $funcName="", $content="")

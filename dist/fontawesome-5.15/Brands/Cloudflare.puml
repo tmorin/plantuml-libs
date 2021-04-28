@@ -1,7 +1,7 @@
 @startuml
 sprite $CloudflareMd [14x11/16z] XSVL0O0m54FHkZTt_sbn-AJdQSoAxtE4Bt2wOv4uTMUDSUBM91UFCCSXsyhW98bIW1JJBHmJpOyT
 sprite $CloudflareLg [20x16/16z] dSpL0KCX50FGu4xsdxQ6yzTtSAxWRm8tcskD2hl07ur1ISkc23IUYyMFu583imPauEA_DKh_sgGKOmZ1GFh8N5fDuqIgzVlYai8l0M83eEtFlG4
-!procedure Cloudflare($id, $name="Cloudflare", $tech="")
+!procedure Cloudflare($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Cloudflare', $name, $tech)
 !endprocedure
 !procedure CloudflareCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $PercentLg [20x23/16z] {
 HP250SCm4CGkPjR-qnQk40LDUf3AWfNrfS9KnpIP1Am2x0qalGW7JbXGfGPJBvONOKkwZZy3xxZdx6T8MjPtcFRlIr86zW7YvRVUD4on_vTcddlFf8ujFzwE
 0axdvlRV1FjrnNZFJqTf1tQLiRzxmJ_w-fUhcB-48d0kRO_SFrtkbC9XwSK1-wdVDZY3euQRuRKUmlkTxN-J-HBTR9cAoUgSf2-ndzs2z0G
 }
-!procedure Percent($id, $name="Percent", $tech="")
+!procedure Percent($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Percent', $name, $tech)
 !endprocedure
 !procedure PercentCard($id, $funcName="", $content="")

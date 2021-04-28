@@ -7,7 +7,7 @@ sprite $WheelchairLg [20x20/16z] {
 LT053W0X34JHmHOj__wtNKXZl2XIrPMC5VKoOEeHE4ol3Goz5eoWry3q2ggmhYgvJ2cu8LUWHLXzz57yAcx80Qh2uNSTihIVO6DAck2I3gYImdUKwX_zpYLr
 _sWCkKWDq9M3FrqTqs0lUeATTJIOoXnB7zo63NRK_LY3xkNbcmubw8fjRVEvt0y
 }
-!procedure Wheelchair($id, $name="Wheelchair", $tech="")
+!procedure Wheelchair($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Wheelchair', $name, $tech)
 !endprocedure
 !procedure WheelchairCard($id, $funcName="", $content="")

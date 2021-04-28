@@ -4,7 +4,7 @@ sprite $GhostLg [20x27/16z] {
 tT250G9130J0FNdD9zj_jqHmEc3ENH2c69sT0mz3U2STPUMRzRUhEWU_3E3Y5y7aZtdmnw5qkWdTkHbTxTRHD3QgdIopbaUTGEVJsNUwTGZ_dsaLJ9UNThNy
 Vkk3xiHGRG2QqaP-di0rX6uBtARLl04
 }
-!procedure Ghost($id, $name="Ghost", $tech="")
+!procedure Ghost($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Ghost', $name, $tech)
 !endprocedure
 !procedure GhostCard($id, $funcName="", $content="")

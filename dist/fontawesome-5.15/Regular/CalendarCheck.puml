@@ -4,7 +4,7 @@ sprite $CalendarCheckLg [20x23/16z] {
 ZT254O0m44JHSppRVxTmCxX__E6XgGw5Swj0GtCT8BErb8bg3_YqaG0wKQOAbxnSRS3lJ0vvcj0XFPbSJT6UJGkWPBDnUXx4UXttHMTQpO4XIj9cyqydhPOu
 qsQ9VlrcfZbx-hSmtsNLxG1sqbzf1
 }
-!procedure CalendarCheck($id, $name="Calendar Check", $tech="")
+!procedure CalendarCheck($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/CalendarCheck', $name, $tech)
 !endprocedure
 !procedure CalendarCheckCard($id, $funcName="", $content="")

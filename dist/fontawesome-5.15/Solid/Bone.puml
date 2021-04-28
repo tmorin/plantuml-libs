@@ -1,7 +1,7 @@
 @startuml
 sprite $BoneMd [14x11/16z] VS450GGn00InBNF7lzfdE4vq8SwYZp8J4FJYWGwplqmOZWNNWFa2T23AF2W2cQQFHfRHZz7Q7G
 sprite $BoneLg [20x16/16z] fOvL0iGW30M1x5OVdVkVjkxD7uF49HHWehtRBR8Cr9Uh1ZBBbq9S2McrnSB0JIYA5ugUpwlrPdYxU3k70YO
-!procedure Bone($id, $name="Bone", $tech="")
+!procedure Bone($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Bone', $name, $tech)
 !endprocedure
 !procedure BoneCard($id, $funcName="", $content="")

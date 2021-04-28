@@ -7,7 +7,7 @@ sprite $BugLg [20x20/16z] {
 JS_50GKX54FHu4xwhtOaV7btbpCAJd6ICyAMgP8XjwdMTqSWyLFKnE20Ir4bvoORqFdWjuTOTIFN_BJ9XhT9KuTg6cFmhRpYdSQ6brNdCRbfxPcTwcjgXPAd
 jP6BrpUC5QXiBK8bQq4KjhNbNoBPzx7L3muomzS6ruj3rUdAGwR2X1i
 }
-!procedure Bug($id, $name="Bug", $tech="")
+!procedure Bug($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Bug', $name, $tech)
 !endprocedure
 !procedure BugCard($id, $funcName="", $content="")

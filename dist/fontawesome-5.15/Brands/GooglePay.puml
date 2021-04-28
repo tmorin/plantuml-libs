@@ -4,7 +4,7 @@ sprite $GooglePayLg [20x16/16z] {
 hS6tOSDG3431zv71XFsdjPKgjj8TtrdSvJMdWbG57pdbjI0ssPotQSHCY2GxstDH4smpYP_TahcNMny7s3XH46sxz2OwrpOxH4Asd_G6qdi2Im1tfOoxrVpS
 Fm
 }
-!procedure GooglePay($id, $name="Google Pay", $tech="")
+!procedure GooglePay($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/GooglePay', $name, $tech)
 !endprocedure
 !procedure GooglePayCard($id, $funcName="", $content="")

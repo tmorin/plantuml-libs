@@ -4,7 +4,7 @@ sprite $SaveLg [20x23/16z] {
 RSvLWiOW303Xu1QO-zzsoVvMcnRxdY8FkTeELMysEBKCePL9BtMtM1Y2bq4IQvBKy6p1pOqloqPkc_Z9C5EcpXtR989PvvCN2Q_JnHY2zo5w-PgLMeiYHtFA
 hf-iicg5ShHfqnJ6mTnwJQ47aq5tNkb7Yx20yonfWWOvcEMSoDTqd59MurQLc2z5UUeF
 }
-!procedure Save($id, $name="Save", $tech="")
+!procedure Save($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Save', $name, $tech)
 !endprocedure
 !procedure SaveCard($id, $funcName="", $content="")

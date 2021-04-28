@@ -4,7 +4,7 @@ sprite $BroadcastTowerLg [20x16/16z] {
 LKu50aKX2CDkT__JMi2FlQUIspmQ_Q715oGY8_aD4ig4etPEc3EGGpjd0aI0eHDCCfnfRG13QxhRWQwxh76ZssKDyN9Q9n4luW6mzjB-8A7TYVHR6tWOFwK0
 GT0ARnd338BBhafQAoW_WQew3XmhRm
 }
-!procedure BroadcastTower($id, $name="Broadcast Tower", $tech="")
+!procedure BroadcastTower($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BroadcastTower', $name, $tech)
 !endprocedure
 !procedure BroadcastTowerCard($id, $funcName="", $content="")

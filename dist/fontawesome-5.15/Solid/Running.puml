@@ -7,7 +7,7 @@ sprite $RunningLg [20x25/16z] {
 NP050i0W24KbrWZtl-qihB_qqOIXn-m9gq3D55PsM1Al33F3AOvI48lm86_Az5qu1R5QLUGbTyDdOr_vVmjJS3_1WCtnzXBfkLfAHUXjn-8a2QfUKns3i_fM
 TfkL1RnJpkAGOm0Hl8fa-E8qVSGIxJsV8XBpLFJrlQIlvpfyVrBGLrBuRC19v0rzOPDuZI7o4fFOGzVOjkSV
 }
-!procedure Running($id, $name="Running", $tech="")
+!procedure Running($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Running', $name, $tech)
 !endprocedure
 !procedure RunningCard($id, $funcName="", $content="")

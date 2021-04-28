@@ -4,7 +4,7 @@ sprite $DumpsterFireLg [20x16/16z] {
 RSc5OKGX00JHnUtOwR_RV8lVmmSfXDzBoa2QK2kC16If0t7VpT7GfHUy4dTRAZ2bRNh6PrjXvbnr234Syzmq8QL-f8qlf0ROD9d7YZ0sX_ZLScSfuytGu1Ot
 HMgfOhKxEPYiGmKLRcanT9Wi9MuzmyXvGb7WP1pxyobfxw1mJAaiUnMzzG4
 }
-!procedure DumpsterFire($id, $name="Dumpster Fire", $tech="")
+!procedure DumpsterFire($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/DumpsterFire', $name, $tech)
 !endprocedure
 !procedure DumpsterFireCard($id, $funcName="", $content="")

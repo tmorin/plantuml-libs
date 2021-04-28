@@ -4,7 +4,7 @@ sprite $ObjectUngroupLg [20x18/16z] {
 ROw5WG0X30Hp7j_-gpqap_lWmoBq3n5vqJOWpRodizknk9qhf-bImBASmpSgxZ7THLdGzuejKorIeTyTEd7zS32Y8-7otMdl7nmAMMw7bHlVsezUzjtxj7Ad
 ON4gJvSEuyV1p1aeTzrt_-XS7VUrZwdHu8a74U4UaNtwuNYueJEvt676wqDgIl_G
 }
-!procedure ObjectUngroup($id, $name="Object Ungroup", $tech="")
+!procedure ObjectUngroup($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/ObjectUngroup', $name, $tech)
 !endprocedure
 !procedure ObjectUngroupCard($id, $funcName="", $content="")

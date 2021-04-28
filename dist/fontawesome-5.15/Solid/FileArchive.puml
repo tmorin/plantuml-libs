@@ -4,7 +4,7 @@ sprite $FileArchiveLg [20x27/16z] {
 jSjL0eH030FGK6miq_kV5YbTGxyswBocLTT4vFLLs6294QEKRJ2-Z1ZUvT6jXZ3IJKSphxWjQ3qPgWyCtMWMMTPyxIPuZC8Oh1Yss2u6FIQYxAd6PcUdkuG4
 xYm323iBY_KxwnUJdGbw0N-83HTFZwOT1X7TPP2U-h_48uqp
 }
-!procedure FileArchive($id, $name="File Archive", $tech="")
+!procedure FileArchive($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/FileArchive', $name, $tech)
 !endprocedure
 !procedure FileArchiveCard($id, $funcName="", $content="")

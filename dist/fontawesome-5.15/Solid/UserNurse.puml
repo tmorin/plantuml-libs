@@ -4,7 +4,7 @@ sprite $UserNurseLg [20x23/16z] {
 PT054eKm303H1AicU__JVgqDBDJUUEJVMI0VCjFeO0OMjLi6s4-0sAq2XyWNysg-dtutgd6trh12qEsJnjKk-HL9tIBrTwfnTTiWVIdZAhqBB6M3KsQN0zWX
 Qth6UAgCzfIrtKhSnmJg3pTlKoXyCsq4IIves0YEIaUZbNbcFFFCewZf9Xxb3G
 }
-!procedure UserNurse($id, $name="User Nurse", $tech="")
+!procedure UserNurse($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserNurse', $name, $tech)
 !endprocedure
 !procedure UserNurseCard($id, $funcName="", $content="")

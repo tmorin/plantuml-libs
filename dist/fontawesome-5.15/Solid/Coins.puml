@@ -7,7 +7,7 @@ sprite $CoinsLg [20x20/16z] {
 RT150aGX30FG12tMtF-s0_pDsDiXLLoXzkMIVFP2N5LlF6EZwzt2aVtzAkAHRCorrkmr8k8TYL2606ORSyvXcJ1ja-sjei7aZKFl6jBjxDr2xgwYTnbJwWZx
 uU6Dm9W5Ne2GSiwHO5qu91zMKah5XkGuJEyAhc3JTVYinBLA8CD6S3_ZaBH6CxC-rlyr9LmyQ_ApTKjul
 }
-!procedure Coins($id, $name="Coins", $tech="")
+!procedure Coins($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Coins', $name, $tech)
 !endprocedure
 !procedure CoinsCard($id, $funcName="", $content="")

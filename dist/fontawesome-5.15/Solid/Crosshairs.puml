@@ -7,7 +7,7 @@ sprite $CrosshairsLg [20x20/16z] {
 NP055WCX30KJd0fp_zlsVLwwDgiC4h6WGB8xQKBtgoaVDkzygC51EzNg7UeuP85ligeOPKMaDql7PBqAJ4M4RWUJvLQKH8brhj78RB9bqA51E6qAvqf2iPBh
 rQ6vOWmxUF7r_Q6OUQrkrc91XbLqL9PQRg81Sq1_iRU43BJXxDxQPhXT6L3jmQuZ-04
 }
-!procedure Crosshairs($id, $name="Crosshairs", $tech="")
+!procedure Crosshairs($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Crosshairs', $name, $tech)
 !endprocedure
 !procedure CrosshairsCard($id, $funcName="", $content="")

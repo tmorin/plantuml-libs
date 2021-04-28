@@ -4,7 +4,7 @@ sprite $BellLg [20x23/16z] {
 PT550iKm24LHQ5pWxN-rN-g4Cxnjd4v1XMbHW6GBPm6cYKcnat2dZ5iyquQ7CkqwNkgUMDzjBaDt--00tw9jczt9RjzYiwtGZzWsVYbX4MdJjGaBdAc-IQZE
 HYV-8Mj25SCzXtiGoY9t-W8
 }
-!procedure Bell($id, $name="Bell", $tech="")
+!procedure Bell($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Bell', $name, $tech)
 !endprocedure
 !procedure BellCard($id, $funcName="", $content="")

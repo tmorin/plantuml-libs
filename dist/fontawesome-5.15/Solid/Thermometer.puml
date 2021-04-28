@@ -4,7 +4,7 @@ sprite $ThermometerLg [20x20/16z] {
 PS_50G0X34JHuCxqN-qABl_uqD0Qyq2IEoNyoPiGLekeBRiCXK9nM02qBQQRSCupQgvJ0XSxaGAottSvqiT15X4eNWUHTofMidHOeTFiFRfRY2TuyNKG7HKw
 YewkNW
 }
-!procedure Thermometer($id, $name="Thermometer", $tech="")
+!procedure Thermometer($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Thermometer', $name, $tech)
 !endprocedure
 !procedure ThermometerCard($id, $funcName="", $content="")

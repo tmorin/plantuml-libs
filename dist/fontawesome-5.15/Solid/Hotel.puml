@@ -4,7 +4,7 @@ sprite $HotelLg [20x18/16z] {
 ZOu5WWD120HP6qFg_w-zIzYuroZU_4Xpk2VMpK3N3gK4OnqGiZaKMN4HOvEIFWEh2gq5Mkti2tMm_CJPLvzhwLCbbjbfKplxaeZpv-8hyrJYthV9WVNEPvBe
 xYkUxnYgO_XzFrgxpEX1alfs2bnypfbdd_y3
 }
-!procedure Hotel($id, $name="Hotel", $tech="")
+!procedure Hotel($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Hotel', $name, $tech)
 !endprocedure
 !procedure HotelCard($id, $funcName="", $content="")

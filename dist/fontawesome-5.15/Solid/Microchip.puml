@@ -4,7 +4,7 @@ sprite $MicrochipLg [20x20/16z] {
 RT253GGm20NG2Wuvzf_st6ZuqRuQCEwn_4R6Av1_MI_3VzkFGqPGZ7LxMhL87p2hhTs-9wdrd5zOJukKxkvOXyqrcbeCWwkfO_VUf5tF0SquteF8M0Br7F9g
 w-jdEkH7z5ZV
 }
-!procedure Microchip($id, $name="Microchip", $tech="")
+!procedure Microchip($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Microchip', $name, $tech)
 !endprocedure
 !procedure MicrochipCard($id, $funcName="", $content="")

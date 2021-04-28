@@ -1,7 +1,7 @@
 @startuml
 sprite $MapMd [14x12/16z] dOar0W114C9Obn7-_zgpRgxSL90WpzsqPm1v-IQraPIy-F4zDWjFOpjy-XtlQTdNh4l7IrrrDlou0G
 sprite $MapLg [20x18/16z] rT2r0SH030NHPLvD_zNUcTa5U3AzJ5yzfrEmnUrNqwu8oO7aaKqM462qCR6UkTtmyTCcNjU3PUX1Zy-7EbcFHYM_RnQiy-gbFm
-!procedure Map($id, $name="Map", $tech="")
+!procedure Map($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Map', $name, $tech)
 !endprocedure
 !procedure MapCard($id, $funcName="", $content="")

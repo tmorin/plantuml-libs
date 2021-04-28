@@ -4,7 +4,7 @@ sprite $HubspotLg [20x20/16z] {
 JP254S0m2029Utx_RNlKmhSn72H3aXVddcF3UaLfx_3928zimH0bxxM9eWoeRn3nW_RuJ3aKbbVdBeQmoEAsXZCqffPGh4mBK9grWnRYW6JC7el9YHaWl1LO
 MTIp6fbRjvFVT5isizIj8Nuw3-Nt38EOvbeZcc14FUKGprnji2I72m
 }
-!procedure Hubspot($id, $name="Hubspot", $tech="")
+!procedure Hubspot($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Hubspot', $name, $tech)
 !endprocedure
 !procedure HubspotCard($id, $funcName="", $content="")

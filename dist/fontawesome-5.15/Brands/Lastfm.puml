@@ -4,7 +4,7 @@ sprite $LastfmLg [20x20/16z] {
 hSk70SCW34JHetV-_jj6Ifl0pmPKzRZOnkXPBbdOebHuMq6gk1iJh9mQJ8NBYFam9qUcGefsfDojtEKE8_XAj1YANEVQCQlyQyc3CWzGh--wmvH9cxsuqS8I
 6bIPnirmQfqqRPYrjijKkRYgC7dRGGgbjH9aeaKrwN4l
 }
-!procedure Lastfm($id, $name="Lastfm", $tech="")
+!procedure Lastfm($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Lastfm', $name, $tech)
 !endprocedure
 !procedure LastfmCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $MoonLg [20x20/16z] {
 LP050e0W34Nf7BpxdzPYjX8_LkPwR1PWPlC-1HWYu6x42hCSj_p1XEwMEBt6Vcw1-QYSdZln4pylQhmvnmhiQGza4RF2LVE6wxhB3zEA_ElLs0cnRyLQLcC4
 nJB5t22ZYuJJ_0IA0bonyYUGjPcfWPwK2MsnGWlEMfVadKsQm3oNVZaqV1DcBmlP0G
 }
-!procedure Moon($id, $name="Moon", $tech="")
+!procedure Moon($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Moon', $name, $tech)
 !endprocedure
 !procedure MoonCard($id, $funcName="", $content="")

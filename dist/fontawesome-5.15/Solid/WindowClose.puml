@@ -1,7 +1,7 @@
 @startuml
 sprite $WindowCloseMd [14x14/16z] POp50S1G24EJxmRiFstT-ov899LyKSBG1zr-Y9ZfE0zIpAEV5vm7sYaw07V3eb2ENTS3F6h6aX6Y7c9lowlQ3tqTBZpW3
 sprite $WindowCloseLg [20x20/16z] bSm54e0W54NHFzAz_ztwT8AkQt886iHzcsCnTVbq5UTuHIPB8k8W8baPSH2ineQ0FU4i93f2lB2FbAXH_cTnJAG2GK2ThWezEMPTbNNceK4l
-!procedure WindowClose($id, $name="Window Close", $tech="")
+!procedure WindowClose($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/WindowClose', $name, $tech)
 !endprocedure
 !procedure WindowCloseCard($id, $funcName="", $content="")

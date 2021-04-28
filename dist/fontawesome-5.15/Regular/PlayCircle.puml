@@ -7,7 +7,7 @@ sprite $PlayCircleLg [20x20/16z] {
 LOw74SGW3C30CSKGqFxRVgXthrJawYOIIwqMlRj8OMF71cZf4T7SwSzHUKUzmP02mVbJasZVRnbPfSSjnr5etzyBx-eaT9z8ovsX1Iqynz73znl95RaEYdEA
 _RiwdQ7NpU6Hz9KVb-UCYdgwdwwA6pnZDyE-LrEtg6CttyVxOBpZes2oZ5JQRj6WHDLOuTrHvtDdqcUNOpMPfJFd1m
 }
-!procedure PlayCircle($id, $name="Play Circle", $tech="")
+!procedure PlayCircle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/PlayCircle', $name, $tech)
 !endprocedure
 !procedure PlayCircleCard($id, $funcName="", $content="")

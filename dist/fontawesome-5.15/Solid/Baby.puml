@@ -7,7 +7,7 @@ sprite $BabyLg [20x27/16z] {
 VT570eCm34JHRubUDFS_ROe58gky3HsFngH5Kapyyj37sVXngDjuk2wDCkXYbAPqaio0LTqCk35BAx19_QHjqjW_SV1vCXZZcpCon02qSTVNKKj6t2UEPTwo
 zOnpgDJCRT5b_Zy7Tk4lMrkTFEqTbirMWri6PNXM7k_QhUVqUtiqrjbKuPxtZ7gymP6lfLvHywprqa8wiMzr53-_MSR8cBm1
 }
-!procedure Baby($id, $name="Baby", $tech="")
+!procedure Baby($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Baby', $name, $tech)
 !endprocedure
 !procedure BabyCard($id, $funcName="", $content="")

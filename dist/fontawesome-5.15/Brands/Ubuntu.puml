@@ -7,7 +7,7 @@ sprite $UbuntuLg [20x21/16z] {
 DL05bWKn32AUyVlVTll3bf42qLVy87cz2tS9i57FDtXxcqg7hezbxpRkNZG0oAvxFqKjOj1Zd4U1J9oBNg3bvMg8UaVCln3ixpzrJYi8vnWkDh-qDKbFD4d2
 e_VEDyaTXoJfmJpsmpEdOl96D6AjV1jYifcSRH0aXGdFnrKwfjq9i0KJqDEKbq2yr_gCjxpengq0uV_kdTI4HcRid3y
 }
-!procedure Ubuntu($id, $name="Ubuntu", $tech="")
+!procedure Ubuntu($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Ubuntu', $name, $tech)
 !endprocedure
 !procedure UbuntuCard($id, $funcName="", $content="")

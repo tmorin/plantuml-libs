@@ -4,7 +4,7 @@ sprite $DraftingCompassLg [20x20/16z] {
 JSx50KGX34NHXtjk_zMEVEMi8AvJc32yTju0bjEcGMrGj9aCQT6rwLX8KBKf7B9URd6OUbLWhhUmL7c0a01pwiqLo1teqeIc2jaR1o-54THWIk48dbV41SjV
 2x3HsZ1WEadEUAsiwAG6ZDJdMhCbkK5M00YwXEEU0JGzZkzvgFR2jQ1eqs3q4QLTdFKB
 }
-!procedure DraftingCompass($id, $name="Drafting Compass", $tech="")
+!procedure DraftingCompass($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/DraftingCompass', $name, $tech)
 !endprocedure
 !procedure DraftingCompassCard($id, $funcName="", $content="")

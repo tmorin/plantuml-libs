@@ -4,7 +4,7 @@ sprite $UserEditLg [20x16/16z] {
 TS_50G0X303112VQVxNdBljZS9WAxCu1hWNpARiX-H9TpLQpVtll_RzZHZAZdLWG7bLt0Unct1gRzG1O0pa7zQCEx1Ggqacy32h0IR8GmTLYczV2pOBEDDSE
 Gzs_CW8
 }
-!procedure UserEdit($id, $name="User Edit", $tech="")
+!procedure UserEdit($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserEdit', $name, $tech)
 !endprocedure
 !procedure UserEditCard($id, $funcName="", $content="")

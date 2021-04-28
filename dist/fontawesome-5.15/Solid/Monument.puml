@@ -4,7 +4,7 @@ sprite $MonumentLg [20x27/16z] {
 ZSzL0iCm38FXDiow_sc7jjNnzFWLad-J1Io_FQq3zPM892Bf4HrqQ-UPDgSMQLujqO9QeIMrHik7gxnSPj2QsW96lcm2GsXVykyAJCiGAmpn5slEUzyPmWo6
 C8CXvMZHCbv2oXosAS4lI-Lb4Nzkl58_0m
 }
-!procedure Monument($id, $name="Monument", $tech="")
+!procedure Monument($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Monument', $name, $tech)
 !endprocedure
 !procedure MonumentCard($id, $funcName="", $content="")

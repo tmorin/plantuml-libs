@@ -4,7 +4,7 @@ sprite $UserTieLg [20x23/16z] {
 POy50iGW40CNT_B_trxt8DMfJv545ca0FSeDq_6doKN7fWe9075qzNAPhbskVXqANRfSe3EJQiXtOoSNlglfMn4NWdrKiuUpzhXRiumjisizRJjcLkjqKojU
 RqwtjcBdZZMwI5nvoevlCLWeZPLrpLtPMTLa85Wyy1KeyUdg03ed3Nnejd_L3m
 }
-!procedure UserTie($id, $name="User Tie", $tech="")
+!procedure UserTie($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserTie', $name, $tech)
 !endprocedure
 !procedure UserTieCard($id, $funcName="", $content="")

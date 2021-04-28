@@ -4,7 +4,7 @@ sprite $TrashRestoreLg [20x23/16z] {
 ZP1LOW0X4CM2h633_M_RZjJuQbPu10VZsSQDyJP5t8bLdlq_fDHoK3Ev7cHe--25ztItRSqOCy85ToW8MU4A1SbbWQhbH4bBSuQYAc5abGcoJ-lSxj9diSRK
 7SmXUukxs6cti80axln4iTpwssy0iTN7-uKR5djA4TmP8busTUzvBPpo0Ju
 }
-!procedure TrashRestore($id, $name="Trash Restore", $tech="")
+!procedure TrashRestore($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/TrashRestore', $name, $tech)
 !endprocedure
 !procedure TrashRestoreCard($id, $funcName="", $content="")

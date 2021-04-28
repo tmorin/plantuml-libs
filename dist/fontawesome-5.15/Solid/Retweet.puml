@@ -1,7 +1,7 @@
 @startuml
 sprite $RetweetMd [14x11/16z] NSg54GHH309GRYxsBVHVxRg_iGJ0H-Zp8V_2N3IWSc4MxZs1OYFshISM6TWuxq_CKsBvcgYACfCTw5ofa0t0RmDOnSSC
 sprite $RetweetLg [20x16/16z] bP170eGm30CZBZJ1_F-rGABjVGVItEto6kbPj2nLg12HmT9AS4HKuGZXa1c3cKjpL9CDSmVTF9G0D-SVijiue6IOayzD5iPpNQsSi4gEwAQjzFdBFC8E
-!procedure Retweet($id, $name="Retweet", $tech="")
+!procedure Retweet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Retweet', $name, $tech)
 !endprocedure
 !procedure RetweetCard($id, $funcName="", $content="")

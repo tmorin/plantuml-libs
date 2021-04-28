@@ -4,7 +4,7 @@ sprite $ClinicMedicalLg [20x18/16z] {
 LSu7ZWCW3011qwkz___j2RWai6hMKEK_hnRaBHeG7qgW2lcY0jF9XFgb2aDgamxjo1aRzBsun0qeCW2cv7r9KKXEsQcBe068tW1TRZuODZKinvmi97ejwsyh
 bMFdZmEOtejulyUFTTcrswmtaThjjdtVXDUiPBljxbXxhOly0G
 }
-!procedure ClinicMedical($id, $name="Clinic Medical", $tech="")
+!procedure ClinicMedical($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ClinicMedical', $name, $tech)
 !endprocedure
 !procedure ClinicMedicalCard($id, $funcName="", $content="")

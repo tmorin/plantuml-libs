@@ -7,7 +7,7 @@ sprite $ShieldVirusLg [20x20/16z] {
 LSw5WSKW403HGQCm_LTxidnzKM2DfHpEFVEM-csu6alUfoyZWi_dQhZiT1_gwwzi4LF6JCMhJD-d9LhHrgB6vo1gNx78MRsFp560UWwTYQ4R8G67Nl7M3lIB
 NIEYHhs8M_KoSEkWDcWbgIT0qtbehl6nm6k2lhkgX3nz6Ocb-ZGBJ-szzLQ6wfNuietHUFW5
 }
-!procedure ShieldVirus($id, $name="Shield Virus", $tech="")
+!procedure ShieldVirus($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ShieldVirus', $name, $tech)
 !endprocedure
 !procedure ShieldVirusCard($id, $funcName="", $content="")

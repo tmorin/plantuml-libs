@@ -7,7 +7,7 @@ sprite $BattleNetLg [20x20/16z] {
 PSm5bXWm20JGmME4-z-sZxHT_N5XWCVgC7x8gaju_YqgTMKUD1OqhrC1B7yfXBP3AdoidC5iNSwImsfm_ncx561LFNFMs6ieaU_hQ2Ce7JOpyo3g1Th26c-J
 TNhNDco_rSQjGEDhI0BEOAT_boi6bY4NGZ0h-rj2GiUTqAEZgWFZ4kpK9jvphf1NMfbrbtCg_XjLbOgJZazcdNm3tyamEECNClp6ZESF
 }
-!procedure BattleNet($id, $name="Battle Net", $tech="")
+!procedure BattleNet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/BattleNet', $name, $tech)
 !endprocedure
 !procedure BattleNetCard($id, $funcName="", $content="")

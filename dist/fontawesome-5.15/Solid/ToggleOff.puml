@@ -4,7 +4,7 @@ sprite $ToggleOffLg [20x18/16z] {
 ZOp50GH12C367T9_jmVd-zkCOWdtYMtkDwl5u1JX3wsMgg2pZmFQsrHeOIWd1gDx5E96aoAMSWRYSc523oyIP7iQ2YMy4ToVCUerLp36EvLVinqHIA_SuhXL
 6KqGDyQ5cxCWqGkSjHLqhiDBa3P_xFoszp6cCKRtp6qU
 }
-!procedure ToggleOff($id, $name="Toggle Off", $tech="")
+!procedure ToggleOff($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ToggleOff', $name, $tech)
 !endprocedure
 !procedure ToggleOffCard($id, $funcName="", $content="")

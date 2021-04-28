@@ -4,7 +4,7 @@ sprite $EthernetLg [20x20/16z] {
 hOp50KH12CKO0SRJVxNhVbdxEJw9V4Ef5_mMHQwiQnJoFOlnV6Hn3z5ZLdd2Zlhvd8tgRCzmQ1LAPzawPqr04yJ2ad790bX-pHPwpkRZJXztQfx5F0PtIMwY
 xYeViWS
 }
-!procedure Ethernet($id, $name="Ethernet", $tech="")
+!procedure Ethernet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Ethernet', $name, $tech)
 !endprocedure
 !procedure EthernetCard($id, $funcName="", $content="")

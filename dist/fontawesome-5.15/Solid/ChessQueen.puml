@@ -4,7 +4,7 @@ sprite $ChessQueenLg [20x20/16z] {
 PShL0KGX34N10yaJzFPVxRgncU_XvP0sLbdIJ2nCaXAhAfqiSiADbFdQDGrSSW3IcQ59tRSX5R0ZJStIzT7AL6yAYYl8X5Z0OuCU6coX_SSA8HfFsJuo3rxE
 7oK352rsW4CBXoi
 }
-!procedure ChessQueen($id, $name="Chess Queen", $tech="")
+!procedure ChessQueen($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ChessQueen', $name, $tech)
 !endprocedure
 !procedure ChessQueenCard($id, $funcName="", $content="")

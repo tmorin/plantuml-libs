@@ -7,7 +7,7 @@ sprite $InfoLg [20x53/16z] {
 xT0r0iGm34HHQMC8QUR-fmspt6Qh_FAPBKkX0uako5dBhTOJsMsKU2clPbUpXG9lXTdotNB1QdS4cMQhxbR9N7-bNlp1mLywoLx4AeXofgdh-owfl9F-Bgd_
 K2BC1j8zZVVi3KF1WW5tcrCnP_BPyr_K_Hy12qON-8TGeEGjZG
 }
-!procedure Info($id, $name="Info", $tech="")
+!procedure Info($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Info', $name, $tech)
 !endprocedure
 !procedure InfoCard($id, $funcName="", $content="")

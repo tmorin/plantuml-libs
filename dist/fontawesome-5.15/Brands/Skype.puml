@@ -7,7 +7,7 @@ sprite $SkypeLg [20x23/16z] {
 RSs5OG0X44JHZnyw_NURC75vfwpohr1xB_oGZrxjCUUe0Klwxd5qw8STWQFhF2NdEcumWAuLiBYbyLuN8POIe4hAz5iFB6addmRnFLRcaOvyId8v459pJ25x
 RG4RdXvbPzHqQy-jyxkcBMdYLOeCxmZJCMxkuGvCG8n0zMBFFHLhCWXtnfczpoDRUDOFZQjkcItUvTQVvleH-27L6ldV2m
 }
-!procedure Skype($id, $name="Skype", $tech="")
+!procedure Skype($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Skype', $name, $tech)
 !endprocedure
 !procedure SkypeCard($id, $funcName="", $content="")

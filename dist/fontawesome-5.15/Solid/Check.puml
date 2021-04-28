@@ -1,7 +1,7 @@
 @startuml
 sprite $CheckMd [14x14/16z] TSV50O1000InnPtflrhqNFABgfem4qCOY39tK-yowO3UHV3KHiC6vsBoU6hY-iGrZ9fUHJS
 sprite $CheckLg [20x20/16z] dSo53S0m44DHbxdUVzfo3uMnwFJo5HIk7kj8rSgj2hIHN6DrRKuL5w0PFCqNxLm2ORzh-Uiz_qigVQwbKgHKWaAAGW4N8A9KYXqATW8
-!procedure Check($id, $name="Check", $tech="")
+!procedure Check($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Check', $name, $tech)
 !endprocedure
 !procedure CheckCard($id, $funcName="", $content="")

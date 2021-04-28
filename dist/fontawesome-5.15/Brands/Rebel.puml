@@ -7,7 +7,7 @@ sprite $RebelLg [20x20/16z] {
 PSw55SGW00JHnPtflziBWVCVH-P5EeBJBy-mUhD1Ke4eAPezr8nS3OnGZNo_1tkM8eCvSLBhMf-h4xYurLs9CRLqo7U9BiVGai7lCMm2gxtPxNyYvBCdddKD
 OWR2xfMT82Ok9RIFHt3yiHhyw5BYHzhrJqCNE_dajDYFv7GwyZmZsUZ5-5nAzcVa0G
 }
-!procedure Rebel($id, $name="Rebel", $tech="")
+!procedure Rebel($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Rebel', $name, $tech)
 !endprocedure
 !procedure RebelCard($id, $funcName="", $content="")

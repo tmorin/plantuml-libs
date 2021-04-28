@@ -1,7 +1,7 @@
 @startuml
 sprite $DeliciousMd [14x16/16z] fO_50O1030Gt-U2p_LUBwm-uEOqdYWkfPfXXnRLpiQPtjF9T2iMyCTx1RBhIpBaqdQxNr2mCr7gCD04
 sprite $DeliciousLg [20x23/16z] lSt50KCn30DGXpdQVzhsCpEzeq6Y1SpwXciO2aYrZ9Q3fXhlXr3j33szC5FNPuTxeslecWhe96gOmOmjpEY36MSr3uSPIrAF6KbB_W
-!procedure Delicious($id, $name="Delicious", $tech="")
+!procedure Delicious($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Delicious', $name, $tech)
 !endprocedure
 !procedure DeliciousCard($id, $funcName="", $content="")

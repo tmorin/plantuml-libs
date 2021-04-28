@@ -7,7 +7,7 @@ sprite $MaleLg [20x53/16z] {
 xPE53S0m30J377l_QSjWwUiDUiA_CDWS-4RCrBnvINoH7XNv8LxApjTD-tI3ZbMwUhecNLFwAVDPUXLPTNzu3ZplY_NUokpS5QrpvY3FVLYECUyJpFoUGfua
 CP06Eb0wF_IXChfiGiaa-vHWTkG_tVFle0ZRxTourN1xNW4
 }
-!procedure Male($id, $name="Male", $tech="")
+!procedure Male($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Male', $name, $tech)
 !endprocedure
 !procedure MaleCard($id, $funcName="", $content="")

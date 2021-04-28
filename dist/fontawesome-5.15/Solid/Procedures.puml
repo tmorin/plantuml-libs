@@ -1,7 +1,7 @@
 @startuml
 sprite $ProceduresMd [14x11/16z] FSY50S0W30J0no7s-qzRBnSFNcFXbTPQJNIj2fI4KYhxrHF00Jo_n_q5SYwNT5s3i_4HbKDfdIzdpv8RVxxMids5kPa-dEpOEay
 sprite $ProceduresLg [20x16/16z] dSp50GDH409GY1lGVxL9Lh_Tzirf3EnEEg7W7_384-Gs-rZMvL-Mh-KEppoM-pzhJ4jG33Ckbjd5la1n9jOL2PM8AQxRp6McxJSDWWHp2C5YIJ4wpWy
-!procedure Procedures($id, $name="Procedures", $tech="")
+!procedure Procedures($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Procedures', $name, $tech)
 !endprocedure
 !procedure ProceduresCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $GiftLg [20x20/16z] {
 hOm54aCn24GtdWdmz_wtBQ6kOtsuuWj3PJn6H-WeakwuiAdKd8LhKN8nbhXW1vAHUYcS5lk5Huu_5PYgfEdsxexjE__BaQ-KaeEK4_eC6XuoPI20NR9RRttE
 xCVqmp_lLLdYEe3fmTE2Jvm
 }
-!procedure Gift($id, $name="Gift", $tech="")
+!procedure Gift($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Gift', $name, $tech)
 !endprocedure
 !procedure GiftCard($id, $funcName="", $content="")

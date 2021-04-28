@@ -7,7 +7,7 @@ sprite $BluetoothLg [20x23/16z] {
 JP050aGX24InYvNxttOPvvVjen6Cq7IRcVOezoW0s6RrHlpD3motXkBQ0QpRnSA13Knl9k67G8wYttE0pH3X9Z12ak5iByd-oIBDhr-KwJ6IA9qC8mm-5uE0
 4TxFBZ8PTj4p6OKxGUzbH5z_ZMXKMV70UkVNcLzaVhX6DuFUoIz-wmsYhFSufEkWLrXqW-pRFybCw-qpHg9BQ9K3gDhNDfsLXdy
 }
-!procedure Bluetooth($id, $name="Bluetooth", $tech="")
+!procedure Bluetooth($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Bluetooth', $name, $tech)
 !endprocedure
 !procedure BluetoothCard($id, $funcName="", $content="")

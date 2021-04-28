@@ -4,7 +4,7 @@ sprite $StreetViewLg [20x20/16z] {
 hT350GGn243HkCFllzeTz-joV0bgzYYGpJCIW7zQNImzBHx_7ZX6U5FqFZsnmAVWsApzo_fczH9hxTY-kMEq3hOibZpQvY6T82KT-wQgT2l4umRRiH8TCKja
 O7jrI4ABjtFLjAnhVOLWV0Taj5hRKA2jlMqiNHHqz1Bi31C
 }
-!procedure StreetView($id, $name="Street View", $tech="")
+!procedure StreetView($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/StreetView', $name, $tech)
 !endprocedure
 !procedure StreetViewCard($id, $funcName="", $content="")

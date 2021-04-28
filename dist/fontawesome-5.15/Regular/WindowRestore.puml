@@ -4,7 +4,7 @@ sprite $WindowRestoreLg [20x20/16z] {
 fSx50SH030D0BRFLVxU7OKxcQHJUCYVSksGfjTKUvLkB66c4jP75kX-he8IpMnKGpfd7jJRohrMCb9LQFZsdLsgbKEQrjp2lEQtnhgdUzmSWiypwNNF2CO-t
 5m
 }
-!procedure WindowRestore($id, $name="Window Restore", $tech="")
+!procedure WindowRestore($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/WindowRestore', $name, $tech)
 !endprocedure
 !procedure WindowRestoreCard($id, $funcName="", $content="")

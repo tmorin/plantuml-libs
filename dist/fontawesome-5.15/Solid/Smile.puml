@@ -4,7 +4,7 @@ sprite $SmileLg [20x21/16z] {
 fT350GCn40D0cNdLVxSn7JypPWOCoXVfQb0uXSP9eiAY6qzYCHZXdHjxDJuPwCINWiGFAsldC8fewYWoXmICNJKyJ-B27BAD_vexU4jUPOhiAdHkhHZCQnWr
 EyMXi-jw02e7gLLMHNy-GGm6LNYg6flTlTNZHZlldSRo0m
 }
-!procedure Smile($id, $name="Smile", $tech="")
+!procedure Smile($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Smile', $name, $tech)
 !endprocedure
 !procedure SmileCard($id, $funcName="", $content="")

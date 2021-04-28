@@ -4,7 +4,7 @@ sprite $GemLg [20x18/16z] {
 NSg5OKH124NHDwvm--ysd_Zk6K4bBVxP2XLRnjtxFicbIqfEbf4Yyw-gRBewGuy8ZQFBYOMaz5mZwz31UU7uWNlmVHxREGTw6cnTaeAR5bFIfbUw7etME96b
 IxKRsV6A9ONCdPI8wqPKg5oMDBaqXJ30amoc_Yne5RR-kvpDJVelEtZHgmfLxyPK21y
 }
-!procedure Gem($id, $name="Gem", $tech="")
+!procedure Gem($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Gem', $name, $tech)
 !endprocedure
 !procedure GemCard($id, $funcName="", $content="")

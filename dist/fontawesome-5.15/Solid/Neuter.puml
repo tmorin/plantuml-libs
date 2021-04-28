@@ -7,7 +7,7 @@ sprite $NeuterLg [20x35/16z] {
 rT155aCn20LGo8_h_bTRGMgHUTyevyO0E0Nn1rnklRVYyIrjIBeNIWAKH1JVeEXucKF8dLOUFBrLw77Cz2PM8f0GUZfkrB0_J-YntnhYsxnQc6o-k_fZLOjZ
 DE-Q6u2TUblEu1VJF5D7mCezicYkfrqmc_qlCttk0z0OX4Fk
 }
-!procedure Neuter($id, $name="Neuter", $tech="")
+!procedure Neuter($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Neuter', $name, $tech)
 !endprocedure
 !procedure NeuterCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $CommentsLg [20x18/16z] {
 RSx50SGm34JHYJ6MBVt-grtcpJiAHyUsFZtMA7hhWA-0bNIN1wjkaj8E-LvRc1uAqP8kOFkwihB4r4l61ZJXxrgbAJdbMdzoafHOxL9_R2wwBenib6wzxOjx
 ISQ2u2eiwofTItZR1lCHAJcbrgIBYVUIKiq5U-SDRYp8UYbzxCs0q8_KRUZ06G
 }
-!procedure Comments($id, $name="Comments", $tech="")
+!procedure Comments($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Comments', $name, $tech)
 !endprocedure
 !procedure CommentsCard($id, $funcName="", $content="")

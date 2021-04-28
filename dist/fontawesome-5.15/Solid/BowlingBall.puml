@@ -4,7 +4,7 @@ sprite $BowlingBallLg [20x21/16z] {
 hT355GCW00JHnPtjlzi4vuLh_d5mq0YRwbTs0fihxAfVKRQIHgww9rL91eZAphIz-eG8oKb11bRho5nMImXj3Z8lkhPz3HbLMYsUNJH_HPNv3-LDmRzDYIT6
 h3TiLUvFs4cX4ObRbfZqhDdY8esrPitv
 }
-!procedure BowlingBall($id, $name="Bowling Ball", $tech="")
+!procedure BowlingBall($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BowlingBall', $name, $tech)
 !endprocedure
 !procedure BowlingBallCard($id, $funcName="", $content="")

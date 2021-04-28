@@ -4,7 +4,7 @@ sprite $SteamSquareLg [20x23/16z] {
 XSo54KCn30DGXMDelF-q_SpqZdG6uOQhT58WTa7suQVjD6aHG3dEl2Ugno51F7B5_Zt50e2SxFeH270CxRDD8b0eSmnzTac7KKKl9EU6co4IPuT1hCscsJWE
 W5URL8-1PsJRI4IlPZi8CPPIZpDDEMKxQQBshj5rLX7pISIT3W
 }
-!procedure SteamSquare($id, $name="Steam Square", $tech="")
+!procedure SteamSquare($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/SteamSquare', $name, $tech)
 !endprocedure
 !procedure SteamSquareCard($id, $funcName="", $content="")

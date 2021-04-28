@@ -1,7 +1,7 @@
 @startuml
 sprite $YoutubeMd [14x12/16z] NSk50S0W30J0VzpPVreWzN9e353Q2AqLmD8VXRv_k7WaQp-497T4QCTxHN2VYBaVxp7NsZNd-eT5QijHRn4BIQNMXTq4
 sprite $YoutubeLg [20x18/16z] ZOvL0aL124APHgVslzgNj_lys08U4oYg-OyA0-2aRr18t-7olXVgaAGnwJsEgKLgutXCB626trpqnj-SRZzRusqP4ccpnf4NxdlMf6sB06o8YPGFP8h1uZ5l
-!procedure Youtube($id, $name="Youtube", $tech="")
+!procedure Youtube($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Youtube', $name, $tech)
 !endprocedure
 !procedure YoutubeCard($id, $funcName="", $content="")

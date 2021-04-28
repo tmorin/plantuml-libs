@@ -4,7 +4,7 @@ sprite $FacebookMessengerLg [20x20/16z] {
 NSw54GGW40F0mE6M_gjz2IyCEqeuWrXklRViyMET7zsmPHxIBxh2m8i1WvTsbqsIlb2ogJwyIr9JL04K3eztNUdgS3hJGLrLMOH5fRkfQbDSQkzxTYHfQXcn
 KSnDSl4qWCHBr92Jvi8D7Xhaw5u9lwptnJLxSlZmrTuZz9Od
 }
-!procedure FacebookMessenger($id, $name="Facebook Messenger", $tech="")
+!procedure FacebookMessenger($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/FacebookMessenger', $name, $tech)
 !endprocedure
 !procedure FacebookMessengerCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $VolumeOffMd [14x28/16z] Oo0BiBCYSRZv-L4u_2WSVXGEFnCB600vWmqmCOC15uYDS3KNd8VWOleM8OiSIcmin8Se
 sprite $VolumeOffLg [20x40/16z] xSe33WGm04JHgTsv_sdNgC8rVlpoyO9KBdeaacKcigVQM7kHtTLQJnJsbBiG4_-LXKaVZiMhuP9fR4Oi40l40Z5ZnOYL5cD2uDvj0G
-!procedure VolumeOff($id, $name="Volume Off", $tech="")
+!procedure VolumeOff($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/VolumeOff', $name, $tech)
 !endprocedure
 !procedure VolumeOffCard($id, $funcName="", $content="")

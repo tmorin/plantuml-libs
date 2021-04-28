@@ -1,7 +1,7 @@
 @startuml
 sprite $TruckMovingMd [14x11/16z] VSTL0iH020DGoBW4xd_QtNhxDGzDpEcY8kAFkaYi-AJPYJUDPFGLD5UsbAhfR7FIXa54EGYj2JN8PZz_
 sprite $TruckMovingLg [20x16/16z] ZS-50S0W3031G0tDxpzjtVrm9sBsP9HG5aeSvpZwEsV6kRFcCkS2xdfVeE54bV_KwLI0fUV4zSLZf4_uePSOzv7cw8UUJSGoakmuPzFKk-e
-!procedure TruckMoving($id, $name="Truck Moving", $tech="")
+!procedure TruckMoving($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/TruckMoving', $name, $tech)
 !endprocedure
 !procedure TruckMovingCard($id, $funcName="", $content="")

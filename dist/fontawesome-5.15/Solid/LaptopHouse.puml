@@ -4,7 +4,7 @@ sprite $LaptopHouseLg [20x16/16z] {
 TSg54KCX50NH-nL_st-t6JH-y1tKE9m-122e53r5gWIQjioaOIyiXvh3gCP-gYfKktOm8wiwRmFgPQlKzNyw6IvfexblV8ENj9gQlorX6BTxRTegUJPjcxRQ
 1cCn3P4bFW
 }
-!procedure LaptopHouse($id, $name="Laptop House", $tech="")
+!procedure LaptopHouse($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/LaptopHouse', $name, $tech)
 !endprocedure
 !procedure LaptopHouseCard($id, $funcName="", $content="")

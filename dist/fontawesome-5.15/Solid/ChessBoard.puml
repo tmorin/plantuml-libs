@@ -4,7 +4,7 @@ sprite $ChessBoardLg [20x20/16z] {
 fP034aH144Fpn-pS_xPRcRLLU6q2bNCxGIPnOHRQyjMQKovNI6I2Cu7Cs6HYMjx2ECBBT1iAXqCL2eSwswCPvSyPwYoKVMTxUiSL7iymo_2JWWcQyU1NXYlp
 knbdtyBoxG
 }
-!procedure ChessBoard($id, $name="Chess Board", $tech="")
+!procedure ChessBoard($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ChessBoard', $name, $tech)
 !endprocedure
 !procedure ChessBoardCard($id, $funcName="", $content="")

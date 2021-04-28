@@ -1,7 +1,7 @@
 @startuml
 sprite $WindowMinimizeMd [14x14/16z] OnXGmCI211ZvaG4VFsuk7we-
 sprite $WindowMinimizeLg [20x20/16z] Os1W60Kih6Y0XO6B7mDmy1C9U365k9cvk5405pSd4pQd
-!procedure WindowMinimize($id, $name="Window Minimize", $tech="")
+!procedure WindowMinimize($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/WindowMinimize', $name, $tech)
 !endprocedure
 !procedure WindowMinimizeCard($id, $funcName="", $content="")

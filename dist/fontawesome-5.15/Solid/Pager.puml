@@ -1,7 +1,7 @@
 @startuml
 sprite $PagerMd [14x14/16z] LSt50G1134BHPDQ5q7-ru_fE_1EoKZV8pybBVayLDo5Tp7_KGvhs-XWJW25X1D1WBA1oN-9O_P_XgxV62Tn-32gB
 sprite $PagerLg [20x20/16z] bSZL0GH120FGx4X68VrtUtoTspuS_8lZISNG2qQvtN79f8dZ1iTM81wCCx-LxcNJ2OkaHsj--n60jMZxzlErbYpQxQCNrlIY8lD9nhyk
-!procedure Pager($id, $name="Pager", $tech="")
+!procedure Pager($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Pager', $name, $tech)
 !endprocedure
 !procedure PagerCard($id, $funcName="", $content="")

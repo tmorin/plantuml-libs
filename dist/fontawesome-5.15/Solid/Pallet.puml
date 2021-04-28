@@ -1,7 +1,7 @@
 @startuml
 sprite $PalletMd [14x11/16z] LSg50G0n20F0G5qW-q_xhbT10IKxqCY0JI0RKCbuLQFtySvs_-hQb7gHBPVjsnqfwJpjIHoUKZIBAVcCqbs3Jji-6ygV5G
 sprite $PalletLg [20x16/16z] dOkr0SG030EbXoRWst_RH5KOhx556YaW5wZS0639kNClT-tzs_Q_zi8RhwSW5BsEiBsMnORQysImj3XxtjwM7GO
-!procedure Pallet($id, $name="Pallet", $tech="")
+!procedure Pallet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Pallet', $name, $tech)
 !endprocedure
 !procedure PalletCard($id, $funcName="", $content="")

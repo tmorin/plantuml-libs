@@ -4,7 +4,7 @@ sprite $CarLg [20x20/16z] {
 bSd5OKCn50NHA-Ot_LSRaErFg-I8H_eFNzfMd3uo7vRUAG9h0xosWKMv7yhG98MGeEgjOp5uVWKv_N1A0AlitJu0om4CJeQvGbCwIz0a5efKUSjI_stqjdYR
 jKCCF9dJ1Em0T6dkdpV7RWEcFfn1atpENeTGijDVVGC
 }
-!procedure Car($id, $name="Car", $tech="")
+!procedure Car($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Car', $name, $tech)
 !endprocedure
 !procedure CarCard($id, $funcName="", $content="")

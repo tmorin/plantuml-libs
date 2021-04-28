@@ -1,7 +1,7 @@
 @startuml
 sprite $ChartBarMd [14x14/16z] LOY50G0X30E1EfRzfttNgrxIZvAVDvU4VcIqBGDXxDQmBGUVrf6Tx3M2dyQTsciA_HXFZbwcwYJqz05JF-27g7n8FrO
 sprite $ChartBarLg [20x20/16z] ZOg50KGn2CLmwc__QSzTVreiG1ifLPxcQ4v0d7fsEzM1TdCEw4OdFjkRArXtP_xcPC7jgvi_xoYIEG-xTBBKati5IE8NyCvSU4SpNaYZZUm1
-!procedure ChartBar($id, $name="Chart Bar", $tech="")
+!procedure ChartBar($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ChartBar', $name, $tech)
 !endprocedure
 !procedure ChartBarCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $BuildingLg [20x23/16z] {
 XK-54SLG28Fs6Phzf_skLSvoG8mQ5bE9TBaRhvrx0kd-irEY0JGY_zjreFxjebO3jDHyxxOzR9eK6DCKtvriw1cp09qvZlMYDGUqjjpATzm3PWcaEJOypdV2
 RCjT9vA_tHB9-c_44xd82qN7nbm1
 }
-!procedure Building($id, $name="Building", $tech="")
+!procedure Building($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Building', $name, $tech)
 !endprocedure
 !procedure BuildingCard($id, $funcName="", $content="")

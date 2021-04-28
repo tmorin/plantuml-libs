@@ -7,7 +7,7 @@ sprite $HandsWashLg [20x18/16z] {
 LS_L0GGn20JG8MmWFlrtUt2-xok28hdQ4G16mrjXMwSKeD7nvdJskG4eFjQ908vwuQj4q74Q1u3Q13gwPT2Cs0fSv8JjFNbujal9C7AZBeQkectcOrlwUbDf
 cpo2btoxb67t5deMdPno-3DU-zJFrTpTikgkpdyBW4ZPxpXl4QS8RbZtUkZyL9mzL8H1-iMqrzg6LDP4wPzn7C03
 }
-!procedure HandsWash($id, $name="Hands Wash", $tech="")
+!procedure HandsWash($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/HandsWash', $name, $tech)
 !endprocedure
 !procedure HandsWashCard($id, $funcName="", $content="")

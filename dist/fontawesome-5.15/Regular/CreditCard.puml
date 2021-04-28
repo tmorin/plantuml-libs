@@ -1,7 +1,7 @@
 @startuml
 sprite $CreditCardMd [14x12/16z] VSc54G8n40NGhDiCl_zgSOUxbwmFtZIKxfWCc7uQx4f_Ae3NavodHXO0NKlFawP8Hj3rbgfcUavkYJgyoVNX1
 sprite $CreditCardLg [20x18/16z] fSx50SKm30DGXL7H_jD-ADEjBums7bIE2qQ95v8gBeh4V46zyHYtmHW0Uwl_lNik3Nam6_xvRQzArUelRdis10iVViosTs3c67SZrHkF1ry
-!procedure CreditCard($id, $name="Credit Card", $tech="")
+!procedure CreditCard($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/CreditCard', $name, $tech)
 !endprocedure
 !procedure CreditCardCard($id, $funcName="", $content="")

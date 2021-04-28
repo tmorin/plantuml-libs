@@ -1,7 +1,7 @@
 @startuml
 sprite $TableMd [14x14/16z] VOtL0SLG24DxNI7xJuiyrvuFdAJszg3dpIyidC6zzSRmIC0-Z0MF0o3F6y7Yz5CYyiWMRMdSullbfmftW-6Hm6_UCUUKaWMFGG4
 sprite $TableLg [20x20/16z] fT030WGX043HxFhtF-rwnvwN3R70bAci6pE5MuBIMYiFzbD904wyMT2VIbph2r8f9HsOJoLnGd9l4SAdKfREEDDNy_k3AfHFfK5b9kkKqqV-br691Ky
-!procedure Table($id, $name="Table", $tech="")
+!procedure Table($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Table', $name, $tech)
 !endprocedure
 !procedure TableCard($id, $funcName="", $content="")

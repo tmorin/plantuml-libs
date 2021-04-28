@@ -7,7 +7,7 @@ sprite $BurnLg [20x27/16z] {
 PP5L0iKW30I3M-ZU_xHFKhOwdnCboC9FTVAW0lcjdhB0I1ULi0X20iZ6EMu2H9Vhk53PZB2bsq1OpJNGs28p3KESCZ73c4x4ht0Sx7nEQtkiNhVIlP87mqcH
 HSCVg_LqqMhLIedxkzvuZRDXjknukwqNvONuzhxQ3cULQcdCnwXry4yeIU9MIZF-XRHj0bhNjtq1
 }
-!procedure Burn($id, $name="Burn", $tech="")
+!procedure Burn($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Burn', $name, $tech)
 !endprocedure
 !procedure BurnCard($id, $funcName="", $content="")

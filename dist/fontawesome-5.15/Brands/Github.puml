@@ -7,7 +7,7 @@ sprite $GithubLg [20x21/16z] {
 TP053WD1201PT-R_l-r1Kc_dT2T1nGXjwyLgGUw4hZZQxp8htD7Ygl16lLI2CnISkI5BNj0bzbvA6yc2japCtJ57iQZsT1bOWCeJZpF_wXhE_dH_OcbF5G4z
 d4MFueIgm6XAwN1Uub9eQEp7mol6lFusAyRdDjJ-mm76tMaI8qnt7diymiYx-UTK-SSD
 }
-!procedure Github($id, $name="Github", $tech="")
+!procedure Github($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Github', $name, $tech)
 !endprocedure
 !procedure GithubCard($id, $funcName="", $content="")

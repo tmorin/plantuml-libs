@@ -1,7 +1,7 @@
 @startuml
 sprite $FlickrMd [14x16/16z] Os1WX0C61Wv-Fdu8038u-Ca7h0oi4084E1aO6BYuW0Gd9e-VZH6aaf6D0ijGNOtg8m
 sprite $FlickrLg [20x23/16z] lSf50eK0409GVZhD_Kzhjwvzcmd0ZPVeIGFdXV8f9Z4C5-VY1q38Vp_-d3W65UC8ZWI3z74uHsFXnHn7SIs-dDH-61SLjOvdbF92yFsVV76d0m
-!procedure Flickr($id, $name="Flickr", $tech="")
+!procedure Flickr($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Flickr', $name, $tech)
 !endprocedure
 !procedure FlickrCard($id, $funcName="", $content="")

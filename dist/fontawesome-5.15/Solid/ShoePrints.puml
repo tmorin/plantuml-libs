@@ -1,7 +1,7 @@
 @startuml
 sprite $ShoePrintsMd [14x11/16z] PKp50G0n20lKMsJ_QS_zye4e08xSrDr6N0YvPjzH5kjclfWnSzMD20uKqL48VuGsUbuDYfJwLLA_1WDW5nkBnuMxBR_MjJS3
 sprite $ShoePrintsLg [20x16/16z] XP350K0X34E1ufBiF-rtrtUhDr4JMXcVGQ84CsSSeC6LCEKQZpc6XnpliyHwGvkuvfpQCQa1DOawet_Yuznz_ziVu6ykFEj_zga7
-!procedure ShoePrints($id, $name="Shoe Prints", $tech="")
+!procedure ShoePrints($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ShoePrints', $name, $tech)
 !endprocedure
 !procedure ShoePrintsCard($id, $funcName="", $content="")

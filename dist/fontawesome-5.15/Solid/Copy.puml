@@ -1,7 +1,7 @@
 @startuml
 sprite $CopyMd [14x16/16z] jSUt0SC024L1m8qJ_-q_BS51ca3NdOraADvXYoL7ONuiUIVfOjqy0lGRaiwjQuQ_qK0ayF0OFeobPKFyvAu1
 sprite $CopyLg [20x23/16z] rSh54SGm341HoSpklziTmORXd9UO_WY8dShuZY3yqjniU6uKJsssr6epIxFWhAK-QHVL4Mqddsp-TMxG5Y6cLPQ9W0hOtB6thMnJ0_O3
-!procedure Copy($id, $name="Copy", $tech="")
+!procedure Copy($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Copy', $name, $tech)
 !endprocedure
 !procedure CopyCard($id, $funcName="", $content="")

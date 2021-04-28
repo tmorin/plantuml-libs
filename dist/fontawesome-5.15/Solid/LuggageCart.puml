@@ -1,7 +1,7 @@
 @startuml
 sprite $LuggageCartMd [14x11/16z] JOk50SHG24CvXpJyj_-sLszn8k28-37upFljdkUKeOevQeHIc5IkNrS1QQsVr-ytQUTquvJ9uBVwEcvHgBH4pIk-7c2xeJsp7txpV33VVm
 sprite $LuggageCartLg [20x16/16z] jOr50WD140BXihxK_t-R8Ixdr4Xx0qHbOR2e153XcEVZvigFtD9UtMXkZw4u-oFNeAcM_fIhxad2-TBz0QoUKbEFRoATlxc1GopxxjnOMDwT2m
-!procedure LuggageCart($id, $name="Luggage Cart", $tech="")
+!procedure LuggageCart($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/LuggageCart', $name, $tech)
 !endprocedure
 !procedure LuggageCartCard($id, $funcName="", $content="")

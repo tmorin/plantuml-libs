@@ -4,7 +4,7 @@ sprite $DrawPolygonLg [20x23/16z] {
 RSh50SH030H1BQFK-KTxQBRhDo1FOgjUDhws81dG6FvyCY0PRN8mEXD2uw0aRFp7XG8qfr1bfK1tqY38ei9q8j8X_XjVW237BW4qENNAKCgfyuQlzFDlOd3-
 IL0u_pvSD4ZoqTRk8uD69m4Oifg0-eaQfWl3b06-Sf03AFFqKsL4OBgLLx0WFaSvIDd9apS
 }
-!procedure DrawPolygon($id, $name="Draw Polygon", $tech="")
+!procedure DrawPolygon($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/DrawPolygon', $name, $tech)
 !endprocedure
 !procedure DrawPolygonCard($id, $funcName="", $content="")

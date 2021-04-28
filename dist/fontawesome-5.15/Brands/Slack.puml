@@ -7,7 +7,7 @@ sprite $SlackLg [20x23/16z] {
 TP17bWKn20DbahEv_sq7vkTK2prHJIVZ9zOPaAvuqDoTEC8URlfnhU76ozw7WxPEJquq4CdbT4KPtI_igrlkrMz8riuHPzySQqHDjtW5UwqAjDt1Uqr28K84
 0egUanq_H3lVEFsV8oUIHeIONzaPb1lwSD5gVfHRv0L5ARYwg1J4dAHJswlXmRgTovESj_UEXuln5CeBUC1M03B6J_u
 }
-!procedure Slack($id, $name="Slack", $tech="")
+!procedure Slack($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Slack', $name, $tech)
 !endprocedure
 !procedure SlackCard($id, $funcName="", $content="")

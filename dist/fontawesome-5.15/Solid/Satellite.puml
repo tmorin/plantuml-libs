@@ -7,7 +7,7 @@ sprite $SatelliteLg [20x20/16z] {
 PSu53i1G20FGVdTw_zDE89asjZtu02oP0uyOKJ7DzA0qEBIKRuARd3oZdO6C0DoYfgjPBHc91-ml8nij8o2ItSXESY55bsXPyyGcMhrcdJYfkMQvmUuUM02W
 Sk524UQJnEF27ibKA44tY_KXNYUd8KlH8raNi5WnpU0TD6LwdIaEhvmuWH_cwti7
 }
-!procedure Satellite($id, $name="Satellite", $tech="")
+!procedure Satellite($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Satellite', $name, $tech)
 !endprocedure
 !procedure SatelliteCard($id, $funcName="", $content="")

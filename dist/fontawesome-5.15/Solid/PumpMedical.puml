@@ -7,7 +7,7 @@ sprite $PumpMedicalLg [20x27/16z] {
 RP47Si0m20HHxxh__pQv2Oon9-kgLGM4R90YZd11HamfcejuECaxvIRll3ItOeg3q-d2sh-SnlyELFdIg4BjHbOVBnxwdrlmP8t1q_mvnW4PT0daY5IGIPVV
 RjFnTzGY4biz6aC3O0dgmDKlahh9VlsUFKNotj3-PNkKvz0Rv4OkOaKvbadzCYluqFznmys5crlUQWifnyyCL3y
 }
-!procedure PumpMedical($id, $name="Pump Medical", $tech="")
+!procedure PumpMedical($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PumpMedical', $name, $tech)
 !endprocedure
 !procedure PumpMedicalCard($id, $funcName="", $content="")

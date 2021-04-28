@@ -4,7 +4,7 @@ sprite $CcAmazonPayLg [20x18/16z] {
 TSn50WKn20FGpk25alkVzhlBso79-66kBuhVCipG9ju1p8KpvSM6MdlImdxREOeGJXMUYljkYYkeMZHlEpg_S5122RUTLG5P3PZVTu4RvyP9BpnLOrgWKmil
 8WX0CLbUC-LYwJXBtiPsmHDrB-iAzwZ6Fstp2uyVZW
 }
-!procedure CcAmazonPay($id, $name="Cc Amazon Pay", $tech="")
+!procedure CcAmazonPay($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/CcAmazonPay', $name, $tech)
 !endprocedure
 !procedure CcAmazonPayCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $VoicemailMd [14x11/16z] VOg30KKn4C0EjRB_jjzyI7kEd6B-g6uYsc65Qx-WQoFQM2fhUg2Jhox1kVe9ojN2ZQkTAPGuYP4LCrKARwfSqIVopmK
 sprite $VoicemailLg [20x16/16z] fOw30S1040GdvltsNsriOnvdy1DlfwOcIzTggPQIXPhAGa9JogmwXK0e0njK9z7IYaazoZlgHwaDPR-Kd1fQCQtgBU05DG
-!procedure Voicemail($id, $name="Voicemail", $tech="")
+!procedure Voicemail($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Voicemail', $name, $tech)
 !endprocedure
 !procedure VoicemailCard($id, $funcName="", $content="")

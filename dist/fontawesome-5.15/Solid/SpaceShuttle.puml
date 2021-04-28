@@ -1,7 +1,7 @@
 @startuml
 sprite $SpaceShuttleMd [14x11/16z] HOs30G0W400pdljFct7rbd71cOSdrloYIAIAzaGWeaWGh9qP7GYBYXA11xqK6gd1rimKSLX0YCvvTtQIFpi3iTP_FgJmWmu
 sprite $SpaceShuttleLg [20x16/16z] RP350S1G34A_UyB-qzQzl6CKC8nSnaYV6ge0pVvh4FyesRq6BVVeLf1IQYqnBBYbXZS2oRQ-Ike035PZk-G7qK8q4syy0yuC
-!procedure SpaceShuttle($id, $name="Space Shuttle", $tech="")
+!procedure SpaceShuttle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/SpaceShuttle', $name, $tech)
 !endprocedure
 !procedure SpaceShuttleCard($id, $funcName="", $content="")

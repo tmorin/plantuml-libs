@@ -4,7 +4,7 @@ sprite $HireAHelperLg [20x20/16z] {
 ZP250OGm34L_jDxkF-svuF2W5ay07pCC0BMvh1By8PhJVEmGcFLXNaGu_eICzD91_uQAyZpIj0QvB1D_m7DPxhsFE9VLvv4lo-pV8NrhvdzlQlOmB6OQnmws
 cbNLzKo1hTdV0G
 }
-!procedure HireAHelper($id, $name="Hire A Helper", $tech="")
+!procedure HireAHelper($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/HireAHelper', $name, $tech)
 !endprocedure
 !procedure HireAHelperCard($id, $funcName="", $content="")

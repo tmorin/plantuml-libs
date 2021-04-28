@@ -7,7 +7,7 @@ sprite $MeetupLg [20x20/16z] {
 PS_50KGX34NHHn8S_ks_sd6ViuEuhagMb6hIhy3rfOoUtVHIcnON-pYQ7ZmcJ_tnPuCtx_dw1UmobjVU8TVhNuFNnCasALA7AIMN5MrOCbg6AjMkNfphdy8c
 cBGyBGsWU9RVGqkz9jv_NHezOSx5rCLYMt1HPUknjIqUPjiG_tSqNQK87exgUkh01dAPUebM8eghRtqQxx8p
 }
-!procedure Meetup($id, $name="Meetup", $tech="")
+!procedure Meetup($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Meetup', $name, $tech)
 !endprocedure
 !procedure MeetupCard($id, $funcName="", $content="")

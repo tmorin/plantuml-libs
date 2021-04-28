@@ -4,7 +4,7 @@ sprite $FireLg [20x27/16z] {
 PT053i0W30NGuiw__ssN8abN_fI7GoS1qv1A0PmY3o0eQm3gdopmD0pWJ2SjOgFNxJW2pRmOThdutL2qx1X4bAxnTZBO-7jIo4usJhbe4wxHE9RwCJ5adNjO
 iN0CiT86cM55CyovFoLttBIA9pc-vcXeQhnx5ITtBmyhQUAuTgNQGwoyl9xTBdq
 }
-!procedure Fire($id, $name="Fire", $tech="")
+!procedure Fire($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Fire', $name, $tech)
 !endprocedure
 !procedure FireCard($id, $funcName="", $content="")

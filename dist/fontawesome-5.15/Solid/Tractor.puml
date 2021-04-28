@@ -4,7 +4,7 @@ sprite $TractorLg [20x16/16z] {
 POs5TGKm30FFORJstxOlQVlnWYO9Q3eCNZaPbp90tk4lPqRL19WgVpd0N16G3FvUewk3_UM23gu7YwmlS7t1rawahITjIWb8qgMNNf74uTgia4g2PzyqevrM
 7deR2FBc2WzVlztBbXBPjwJj6U1-0MDfOHpYqehy
 }
-!procedure Tractor($id, $name="Tractor", $tech="")
+!procedure Tractor($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Tractor', $name, $tech)
 !endprocedure
 !procedure TractorCard($id, $funcName="", $content="")

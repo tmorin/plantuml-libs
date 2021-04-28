@@ -4,7 +4,7 @@ sprite $RadiationLg [20x21/16z] {
 ZOu50WCX30I3mm79_t_RRl7wu8Cj_O_9PanLTasnvE6I2AHY4V5DMRbZo5mOMH4ec1US1WagjBbbQPZs2iXTHVA1dEmmHP6Czu1_uB1aPOC7r0djdnDjNbJo
 BkbJXH5oeRcbtLsFMPTPOUDoLGPgEfkRAUxun7dlHfOR
 }
-!procedure Radiation($id, $name="Radiation", $tech="")
+!procedure Radiation($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Radiation', $name, $tech)
 !endprocedure
 !procedure RadiationCard($id, $funcName="", $content="")

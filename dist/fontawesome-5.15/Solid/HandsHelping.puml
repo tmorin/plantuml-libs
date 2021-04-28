@@ -4,7 +4,7 @@ sprite $HandsHelpingLg [20x16/16z] {
 LSpL0GDH24HHODtczjzjU6JrVA5Z7xumV7htKN3uDOWLH9clsS4ZB7Mh2zIGjXoDA6UpHV85b3FLR1oHs9szondNBCa7IwsEHR6GzihVgmmVQToIe8XYpSRR
 LhFWPRA_cPDOxUG7QFHaZu75xUC7
 }
-!procedure HandsHelping($id, $name="Hands Helping", $tech="")
+!procedure HandsHelping($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/HandsHelping', $name, $tech)
 !endprocedure
 !procedure HandsHelpingCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $WineBottleLg [20x20/16z] {
 VT255S0W40FGmvtiFsqrzDLJvUF8DGP1xgbueCEI-2JKOw0GdL-b9KLAO9eM9lyGp8bAtCsUICcEVgUoqFBPqOvMzPYxZP_25NR0RNy0cYADqJeNTI89s5hg
 VZwGk64ZdP4TJqWwn_Vcv9GP
 }
-!procedure WineBottle($id, $name="Wine Bottle", $tech="")
+!procedure WineBottle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/WineBottle', $name, $tech)
 !endprocedure
 !procedure WineBottleCard($id, $funcName="", $content="")

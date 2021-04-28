@@ -1,7 +1,7 @@
 @startuml
 sprite $CityMd [14x11/16z] LSU54GDH24NHxuRS_hiDJCRsFBIyNRrSO9VmJlCYFhZnA7X4EoS-tk4yRFs_CvWBROwP8fSd-86di3jZ8SLoeGzHKgvLwPFKSdaavVhw0G
 sprite $CityLg [20x16/16z] ZOq55eHG3CJI9xlutF-qoFJX6lYM6kZFNz1gf2LHGI6GIHLs4V82igIJMPnMkcvsIrbUY3Wuqxh4AxTaoLksQxVKBiENlANJfVjCSw46
-!procedure City($id, $name="City", $tech="")
+!procedure City($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/City', $name, $tech)
 !endprocedure
 !procedure CityCard($id, $funcName="", $content="")

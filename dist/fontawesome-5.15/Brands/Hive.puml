@@ -7,7 +7,7 @@ sprite $HiveLg [20x20/16z] {
 TSy53iGm30J03HGIszd___Paq0ax1O4P7-R4hJhmg7OKC_H3nI0tqatUUFptaXEk7V8q60tDg70lIRwuo2TBWCxG8JmTwYNO398JffTCbWlliUufNLaCePEY
 B8emo3LO9fRNYWzPTDb-vKQ-ilCrB3S7yEJETnrtmMaCDQhN2CByPono88bY_AUKCN2BT3ooEpxy
 }
-!procedure Hive($id, $name="Hive", $tech="")
+!procedure Hive($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Hive', $name, $tech)
 !endprocedure
 !procedure HiveCard($id, $funcName="", $content="")

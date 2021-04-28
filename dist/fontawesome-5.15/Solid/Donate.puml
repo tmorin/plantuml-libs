@@ -7,7 +7,7 @@ sprite $DonateLg [20x20/16z] {
 RKy7bWKn238wwUt-jzs1b6sVAI68FXJYAMFENamkN9qR-KZQSKqP_xOrkXfBnnb08rW2uypsaYwMas_7w0OwwIRwgncP8G_PS4SRKJ5vQtgQXidOlT8O9PQg
 r0gq22tSB8zSOnN5IPi6rS7KT7Ld0UdCqR7SVaxUl4JksWA60qaDwwWwRA25rPHopYdjey-FAF-bz0K
 }
-!procedure Donate($id, $name="Donate", $tech="")
+!procedure Donate($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Donate', $name, $tech)
 !endprocedure
 !procedure DonateCard($id, $funcName="", $content="")

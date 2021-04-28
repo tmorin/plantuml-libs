@@ -4,7 +4,7 @@ sprite $SnowflakeLg [20x23/16z] {
 LP050WCX30GN2zmrPFx_sahgWoqnH2yCkluODi7chxK40PlziRIcIMBgDMCA8ItIL8bIPAoWIGSiQR0FUW1CFR97Ui3dmxYRqfOHOSrvi1wvPyfBTTYR3plW
 7AiNpNXPJAKVNOcHl7RBPwidBuxQbflpHm1dkQGS2ymWJPdcHIkVjhD0plP-nyg8xfRllS0XTRPvaqguT6PIwgIKD07heR__xE2uVcXjmcXLVmneUd43
 }
-!procedure Snowflake($id, $name="Snowflake", $tech="")
+!procedure Snowflake($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Snowflake', $name, $tech)
 !endprocedure
 !procedure SnowflakeCard($id, $funcName="", $content="")

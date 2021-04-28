@@ -7,7 +7,7 @@ sprite $MegaportLg [20x21/16z] {
 RT250OGm00J1ZGAnwx_RvzvjyCM3XThNQMo1fsrASqXhVyHu5gt8TPEnjEI3S3OhG9XwDKl4Gx8EpxrNUiQyP2DGAZJPRQs3A6KsFRbbQVjixKyh_gH4qai5
 OWAoRCetiIS8Hw3uuRlymbqpqDK8_f6mkxNR60oYtmVZrWBZRC4d8QpklzchNtOeOQ7hQKRkyhsE2Y-nr5eYDnS
 }
-!procedure Megaport($id, $name="Megaport", $tech="")
+!procedure Megaport($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Megaport', $name, $tech)
 !endprocedure
 !procedure MegaportCard($id, $funcName="", $content="")

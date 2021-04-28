@@ -7,7 +7,7 @@ sprite $FileCodeLg [20x27/16z] {
 PS_7WSCm34JHOSwS_hjTO6r3WV-69p5btfiEqk2ZeaRErhKs3CcCJr5WAJuj-gtuDFWbyB0IlC2wcsNc3vD2ak8mksftAys_pMscXyaKkKEyMMT3unYiPeCo
 J9PAjgzrTKy62DPAjKnsP2wuISQFGL6tN49sHjfPRr9sW9aejmCSxbOuphS5_pJBR7Pjz6-BU_2ekWCR_W
 }
-!procedure FileCode($id, $name="File Code", $tech="")
+!procedure FileCode($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/FileCode', $name, $tech)
 !endprocedure
 !procedure FileCodeCard($id, $funcName="", $content="")

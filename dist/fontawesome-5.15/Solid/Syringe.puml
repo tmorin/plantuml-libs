@@ -4,7 +4,7 @@ sprite $SyringeLg [20x20/16z] {
 PSrN0a0H34JHqRlP_sfVByZzSv1WI06wMupbTc3aY9uyC99km4JMurcid-Xm8lqulpATMDLlZLnG8V33ctGhy2-6RsEsF7EmzokFmhlqRmoe4o6UXpOHCiyc
 GfA4S5F6K1Al4EbTY7P-PR5M7KGx
 }
-!procedure Syringe($id, $name="Syringe", $tech="")
+!procedure Syringe($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Syringe', $name, $tech)
 !endprocedure
 !procedure SyringeCard($id, $funcName="", $content="")

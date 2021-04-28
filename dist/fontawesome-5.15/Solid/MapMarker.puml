@@ -4,7 +4,7 @@ sprite $MapMarkerLg [20x27/16z] {
 ZT750G0X40F0u4xwh_RSbVcXQnZfL3ceKM6bCnT9OkPuO37ov7NJy481XHS9bZSwyIPKtcJULROfcJVHyyQ8UdiAkDirt8fB66YUo7kpB6QPcuY5ugeAh2mN
 6hl4IS21h1nad9Xb4YU1TBWG9M7L0m
 }
-!procedure MapMarker($id, $name="Map Marker", $tech="")
+!procedure MapMarker($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/MapMarker', $name, $tech)
 !endprocedure
 !procedure MapMarkerCard($id, $funcName="", $content="")

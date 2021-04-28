@@ -7,7 +7,7 @@ sprite $FlushedLg [20x21/16z] {
 PT250GCW30J0XmI7_FxR5giVxeB5nMPJJmulQN2p_EpqWo-cMCJuAG1mWzy4ll17m-hgGJEdgjfceJQxC4MoOAhaZ8p8tS7eqGhqULAbnvZ9EeHR1TmQZt0E
 cKUUNSRPwLpYYztYb8D_IkPc6pTnkzCSLkZto5FfRTeryt-VO8B5DRvqZqjlRu_uu4ECmUDu
 }
-!procedure Flushed($id, $name="Flushed", $tech="")
+!procedure Flushed($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Flushed', $name, $tech)
 !endprocedure
 !procedure FlushedCard($id, $funcName="", $content="")

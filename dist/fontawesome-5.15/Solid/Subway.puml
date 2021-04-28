@@ -4,7 +4,7 @@ sprite $SubwayLg [20x23/16z] {
 jT155iH020JGQeb0WBh_RUSHb_NyJNiZGDVWARG14BvCcFan1Z-Cd5lllSanqTokI9LHaDe_zjenhKWzzqnKH3md8YhE5CwJ1vC20pVHKEpuRzdsvFZlknTS
 2aRkEghHfcUCd0xV1eu0cbXm5oOLIDMviu9D3vwyxTNVEO0V
 }
-!procedure Subway($id, $name="Subway", $tech="")
+!procedure Subway($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Subway', $name, $tech)
 !endprocedure
 !procedure SubwayCard($id, $funcName="", $content="")

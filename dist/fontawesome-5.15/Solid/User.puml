@@ -4,7 +4,7 @@ sprite $UserLg [20x23/16z] {
 fStL0GGX34LHak3s-gzs7UTlx_WPH7rp1SXMJL76fpJPZu3OoQ0dpU8mtomDYnSBpTmmqungewBEZKMDT7vBRjJKsaL8f3tfAnmhK8BpiG0rl5LZhRBYYgsY
 0evSEItXZsxhSJxf2G
 }
-!procedure User($id, $name="User", $tech="")
+!procedure User($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/User', $name, $tech)
 !endprocedure
 !procedure UserCard($id, $funcName="", $content="")

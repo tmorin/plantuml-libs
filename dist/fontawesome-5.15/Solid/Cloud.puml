@@ -1,7 +1,7 @@
 @startuml
 sprite $CloudMd [14x11/16z] LSV50SC034KnGnlyyTj_sZ3g9bl5F-tM0wEVQTX8Ibk9azRykPHRmqCnyIuV8oyLzThVl6alQGi
 sprite $CloudLg [20x16/16z] PSs54S1G30BGr8LVs7_Qkj3BEuqIpdKWqOKRTHfzIpUGJnyoTvCoz6_UA_f3VMyvrbG2AQEoKGcYv8o8SP7XNCUXCh7R
-!procedure Cloud($id, $name="Cloud", $tech="")
+!procedure Cloud($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Cloud', $name, $tech)
 !endprocedure
 !procedure CloudCard($id, $funcName="", $content="")

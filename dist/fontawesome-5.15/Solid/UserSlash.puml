@@ -4,7 +4,7 @@ sprite $UserSlashLg [20x16/16z] {
 JSy53WKm20FGpftU_xHV6fRinN76YVY9YrmHa4FBlv3nnpmO9janAHEkaSieXYihuh4hBBwzhjDtl0h97U1StBG2aJ1sygEkS4XMe9BhjW_-3I3fAJ7AZZgg
 AKPdHKVDeDZLzTJHmKuxuXbV
 }
-!procedure UserSlash($id, $name="User Slash", $tech="")
+!procedure UserSlash($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserSlash', $name, $tech)
 !endprocedure
 !procedure UserSlashCard($id, $funcName="", $content="")

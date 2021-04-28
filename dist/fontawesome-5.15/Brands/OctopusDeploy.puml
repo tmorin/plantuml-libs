@@ -4,7 +4,7 @@ sprite $OctopusDeployLg [20x20/16z] {
 RP255S0m44BZoXtxJrjBlIN-OppCK8AIoDQSSk2G-1CfkKlTpXelzO4yx_8Rom-MDbOVBE_iUouzc1jM-FZtwoNlhFmmt1ZCZx_sHQHO2n8WrLTIWX0r1BHe
 XOmch4QyxgR3zehJrPmNx0nhm1Zlxrd7RGowfpm3
 }
-!procedure OctopusDeploy($id, $name="Octopus Deploy", $tech="")
+!procedure OctopusDeploy($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/OctopusDeploy', $name, $tech)
 !endprocedure
 !procedure OctopusDeployCard($id, $funcName="", $content="")

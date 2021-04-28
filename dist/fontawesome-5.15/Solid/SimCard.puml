@@ -4,7 +4,7 @@ sprite $SimCardLg [20x27/16z] {
 fT0r5iGW001Ht67kVzjzyGIfTWhaDuWiF3KjjXplejYgZ0WZCa4co0Jvhw9bmAbjaAOTPhVNc7FmX-ctkSEIz_arBBDItKb_c16lt65wOYcyoYnpIeNNiBop
 VrlaA6vF2DlW4q1bA5k6jB2r_qtn0m
 }
-!procedure SimCard($id, $name="Sim Card", $tech="")
+!procedure SimCard($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/SimCard', $name, $tech)
 !endprocedure
 !procedure SimCardCard($id, $funcName="", $content="")

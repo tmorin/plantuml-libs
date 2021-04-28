@@ -4,7 +4,7 @@ sprite $ConfluenceLg [20x20/16z] {
 NS-50KCX30JGmpMv_RSjrcyFTm8OZulFPhM94dSFHYW1Wv3KlLuvD8l0HMlmRNS5dL_HyQi3IVcY5aEKvvJ35ZkFRd7nfGyr08VDNLHwyRW4vI4HM-A39WES
 E9wpCCeFDPLV6NewBfJJjTWR8mQp0geOlEpsXBa_QPB5nG7u0G
 }
-!procedure Confluence($id, $name="Confluence", $tech="")
+!procedure Confluence($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Confluence', $name, $tech)
 !endprocedure
 !procedure ConfluenceCard($id, $funcName="", $content="")

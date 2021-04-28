@@ -7,7 +7,7 @@ sprite $SpotifyLg [20x21/16z] {
 PP254GGX303ZUEY_soUSp-yfYqGWG6k-w0dX9esvyNn9skQqiXNxVADnrfXV6AYip-YrrZPykmPBtGU3vDWalXuWjMJAeSrdZLXta4XmcQ0f8I9hzUcd6W34
 mhHswft4zTC4y4w-9XL9RHrOhZKA929hh-ve9J-1lO3iGZ3aJKnM0EZpWzDV4vmXmFQeJdVjxJG6BqZDz5hp0m
 }
-!procedure Spotify($id, $name="Spotify", $tech="")
+!procedure Spotify($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Spotify', $name, $tech)
 !endprocedure
 !procedure SpotifyCard($id, $funcName="", $content="")

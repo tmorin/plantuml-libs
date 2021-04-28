@@ -4,7 +4,7 @@ sprite $CarCrashLg [20x16/16z] {
 NSZN0SKm24Mn2wGuE73st_Rrgaz9YfGiz2DOhNPzn8YDRiBppCrrOyND2ExgkBKra5PaRDdGBgqDcoLJDp597S0HG8tLRaafOcCvM1FekOU1fC3xbF7GuD8u
 rSp1ErCAK_CMckWge8_YfbUlqfMV3CctR6w6xbmFaL2cNmDs_LcgGnS
 }
-!procedure CarCrash($id, $name="Car Crash", $tech="")
+!procedure CarCrash($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/CarCrash', $name, $tech)
 !endprocedure
 !procedure CarCrashCard($id, $funcName="", $content="")

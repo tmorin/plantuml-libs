@@ -4,7 +4,7 @@ sprite $CogsLg [20x16/16z] {
 NL250GGn2ACAL9BzftsXzveAhX98wL3RVTjX5zc3cIHdSFd1URXnbaaJzmu-CFgie8gIdH-iik7O9NmmLYZxY7mA4bd4dr8kAbf51cdFRaXc2OJEBrq9nObX
 FNINQicgu5JSGTgfqNvw0Gmeejh2oQkNg-UVsPIpBDeP7MX_E_X0LrigTm
 }
-!procedure Cogs($id, $name="Cogs", $tech="")
+!procedure Cogs($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Cogs', $name, $tech)
 !endprocedure
 !procedure CogsCard($id, $funcName="", $content="")

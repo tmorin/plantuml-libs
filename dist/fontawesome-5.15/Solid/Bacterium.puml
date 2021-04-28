@@ -4,7 +4,7 @@ sprite $BacteriumLg [20x20/16z] {
 JT013W0H30J01Q1q___RkwQ9T000yBJo9rO4YNU8Si2OaZ3fEbpcEQJJFNpTPN1X5WEnyoYCfkslLbjPwGf-rqSltGOmo4UboK9N9MKfVye5qqYhLLkKfSFO
 _HkGr3TtGjkrapnmVfChf8xt9U7wJu__yVJtyc3op38cegOPY3u
 }
-!procedure Bacterium($id, $name="Bacterium", $tech="")
+!procedure Bacterium($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Bacterium', $name, $tech)
 !endprocedure
 !procedure BacteriumCard($id, $funcName="", $content="")

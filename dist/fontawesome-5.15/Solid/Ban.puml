@@ -4,7 +4,7 @@ sprite $BanLg [20x20/16z] {
 LP054aGX34DnRtF_s-uFDcp6mgjag9bokVLUawNVf659ww6HJ-bTIFr5TLhV0T0vTeKzaW3vnjUkk6462jjgU3exr6PkYBUJDZG8tOLMKJhwBkznGIMZ0Zit
 MxDtd9avCUFfJ41mYcOUE3XNWVH-79dX_t2SaHxijpuDG9sX_3oI2DX5HDcY-wPvWKL3gJM7_Ve1
 }
-!procedure Ban($id, $name="Ban", $tech="")
+!procedure Ban($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Ban', $name, $tech)
 !endprocedure
 !procedure BanCard($id, $funcName="", $content="")

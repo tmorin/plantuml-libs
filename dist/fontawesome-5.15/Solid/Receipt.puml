@@ -1,7 +1,7 @@
 @startuml
 sprite $ReceiptMd [14x18/16z] XSsr0SKm34LHEPm8xlxJcgkFHzWz3hcu9LbzRWW3p07bdvXeTacTN5IkffMfy-O-pkvGgdFTklNcJVnAi2du8zh4V2vHBAtHdm8
 sprite $ReceiptLg [20x27/16z] rT435WGn40JGYjcf-vzsRUzu_bES1Yk0pAe18uo04f8MdjpF4jcE4xR4lLoubpYAccy83mnk-FEvSf5b7N_OxtyCxLtVB1p9SDDVsKrWciTE50qWbIq
-!procedure Receipt($id, $name="Receipt", $tech="")
+!procedure Receipt($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Receipt', $name, $tech)
 !endprocedure
 !procedure ReceiptCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ProductHuntLg [20x20/16z] {
 POw50S0m20GVuiJsdxO6zQlcK1nmabfB95omJAEOHPWtmvbwiKkURpe1edsOYEAO6zdIiWtRvQ1aBiyn_FRUy6AkR6z1F0xLN1gzUvIZUNtrqyN5734xdJjJ
 l6PSUFwv3cqhB9TB08tvec73lzHWxBZ-o68eb8Sb9ToGpwKa3sK5
 }
-!procedure ProductHunt($id, $name="Product Hunt", $tech="")
+!procedure ProductHunt($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/ProductHunt', $name, $tech)
 !endprocedure
 !procedure ProductHuntCard($id, $funcName="", $content="")

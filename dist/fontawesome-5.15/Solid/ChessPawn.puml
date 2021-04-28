@@ -7,7 +7,7 @@ sprite $ChessPawnLg [20x32/16z] {
 bS-53GGW44HH718sE_rNUpxusO_oSFDNDekgP3kGLpnIlz685QtAPHXwBKoZfQULqSfvtVcyyxt6zVSvmmB_4HhLlgxIC7IqqxtCagpvs_pmCnPfiLkXbMv2
 a-qu7dZCMhiE1OefXU37v41N
 }
-!procedure ChessPawn($id, $name="Chess Pawn", $tech="")
+!procedure ChessPawn($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ChessPawn', $name, $tech)
 !endprocedure
 !procedure ChessPawnCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $RoadLg [20x18/16z] {
 bOvNbWKX448nPzt_RgSByN_UxLOhSi0lj3cczz_Ly8ZdOqwxCyImh3LsL0gMR8TbRvGQQpblUpjBxf2rxkkjLXWEpPzgjVN2SYICfDLIveqoub1j30bEUfE7
 yC8Z0k3t3Jac2qwrKnkXWtBZZ7_o1m
 }
-!procedure Road($id, $name="Road", $tech="")
+!procedure Road($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Road', $name, $tech)
 !endprocedure
 !procedure RoadCard($id, $funcName="", $content="")

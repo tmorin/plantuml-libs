@@ -4,7 +4,7 @@ sprite $DumpsterLg [20x18/16z] {
 ROv70a9124Cp5RxpWVlVrjWLvotILi46ESsEOkQZkrbLjxDQH6YZp44PGX6dZFdQf5CkGTfDPL1M3QAgWabjbJ8XrD9w7_qDOuDO9Ap51l-Vh4gU5EXv6q3D
 MmDAtWg0TCP1LfnwF54MaBaQthGbs785
 }
-!procedure Dumpster($id, $name="Dumpster", $tech="")
+!procedure Dumpster($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Dumpster', $name, $tech)
 !endprocedure
 !procedure DumpsterCard($id, $funcName="", $content="")

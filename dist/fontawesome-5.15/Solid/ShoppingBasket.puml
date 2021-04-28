@@ -4,7 +4,7 @@ sprite $ShoppingBasketLg [20x18/16z] {
 TSc5WGGW34JHWIGu_FwhFR_rVH3NMsargQsi6vCjBPQkAhXaqFJFeLrFFz9cwiVW94aUFg1wVF42qyDuOGDmuFm5h5X0oU0E5i1Mxe3ha1Ca0uPKWT31yj-k
 IG7uxQv81eIuxbnAm1em9um9P4cREqTVRDmnlVG9
 }
-!procedure ShoppingBasket($id, $name="Shopping Basket", $tech="")
+!procedure ShoppingBasket($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ShoppingBasket', $name, $tech)
 !endprocedure
 !procedure ShoppingBasketCard($id, $funcName="", $content="")

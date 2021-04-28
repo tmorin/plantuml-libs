@@ -4,7 +4,7 @@ sprite $HospitalLg [20x23/16z] {
 XO-54SHG20M9VlprN-r9tBDZEpWqq6EWemqAi02yZqNTn3vcGJzoZhNs8-5ruyY_DqI2aSAJy31-nrCicGFmmhd6bAWC5_ikniTOgWGGejiT4G3I0yVUdiYV
 TtZR6g1jbwz_I5NPCLQ8P1SxcfphE33W8fD5mGLV
 }
-!procedure Hospital($id, $name="Hospital", $tech="")
+!procedure Hospital($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Hospital', $name, $tech)
 !endprocedure
 !procedure HospitalCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $FileMd [14x18/16z] u-E704PkJWO61duuZvy3XGVa8lFuEU4yPZPMDZOOZvCL1FY71k03
 sprite $FileLg [20x27/16z] xSYd0O1044N1nLo-VVrNIyxV8XavpYbRwuFDk5ybwa7KWwYtf1xnSRct1PTYEsvosl2vNqR42G
-!procedure File($id, $name="File", $tech="")
+!procedure File($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/File', $name, $tech)
 !endprocedure
 !procedure FileCard($id, $funcName="", $content="")

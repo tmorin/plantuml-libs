@@ -4,7 +4,7 @@ sprite $UserLockLg [20x16/16z] {
 VSq54WGn24HHnfF0zh__QTV6zPLHMDjNxU2rRTNYIxjcuQziUnfxkkxLGTI7so0Hsup6Z6G96vj5AhKjlQsAR9dgMsJ9KtBL3WY8-iL8bPWKjZsbSR3f_V-D
 dlT6YLdjZE83
 }
-!procedure UserLock($id, $name="User Lock", $tech="")
+!procedure UserLock($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserLock', $name, $tech)
 !endprocedure
 !procedure UserLockCard($id, $funcName="", $content="")

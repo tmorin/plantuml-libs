@@ -4,7 +4,7 @@ sprite $RocketchatLg [20x18/16z] {
 RO-5WGKX30KVjaR2zD_jBNBV1uqdri0slT7eM0mfHIrovK6hUvZAARgPz_VekWXSUTX3gM11wSAI7cIdohhXXU1iaAGGfHZcAHX-gnenuifKAS1FtNTihPW-
 QfHuSEb9SaufZeopvtpHLIht7IfhDYjTPMp5SOTcHrQ7mJd35yTrcvFU-0C
 }
-!procedure Rocketchat($id, $name="Rocketchat", $tech="")
+!procedure Rocketchat($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Rocketchat', $name, $tech)
 !endprocedure
 !procedure RocketchatCard($id, $funcName="", $content="")

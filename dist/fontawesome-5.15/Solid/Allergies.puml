@@ -4,7 +4,7 @@ sprite $AllergiesLg [20x23/16z] {
 XSnL0aKX2411RfSo-r_jwyxpfQCGbzgiJJpKBaDC334kDz_aoHgMgnMQexMizt-FrhpRR7wpv8_rZrRePiQUhRbRkfHeb_5e7gkC6pNlTv2qCrpsNSurzGKA
 xil6OdFYQFE-Eoei4GDq2oGO8sB1N2oLTKCRXofeDuQ96iSwZwrnQlBG66yuHUm1
 }
-!procedure Allergies($id, $name="Allergies", $tech="")
+!procedure Allergies($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Allergies', $name, $tech)
 !endprocedure
 !procedure AllergiesCard($id, $funcName="", $content="")

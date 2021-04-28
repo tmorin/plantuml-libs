@@ -4,7 +4,7 @@ sprite $MagicLg [20x20/16z] {
 ZOm5aWCm4CCKvlZ_lxtP79LRXpMA8IQ0uW6wCfQvWAhf34a5ufHM8km2GtiQJ4lQ6SAnCiqsvkPad1TB6vBTVYn-F7wHwa7b0XcyGDPrScTPFhQYkxTslKMX
 QsVt_p7_rgIR-gZfA9V8p0IKAuG3WmVT92jVWoy
 }
-!procedure Magic($id, $name="Magic", $tech="")
+!procedure Magic($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Magic', $name, $tech)
 !endprocedure
 !procedure MagicCard($id, $funcName="", $content="")

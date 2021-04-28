@@ -4,7 +4,7 @@ sprite $MailBulkLg [20x18/16z] {
 bOvN5eD0203fnAttlssGA6z_CzOTAe3l0uMad-xwtqrxu78BMN-4TabtyJu1-8nXF7eVErXzxar4YFc0vOmeMLKnCJ8Rw3x1VXT7ahGtZMjJpZPtaLElDaGn
 IgCmN66WAD66n1FPGRTiIl1GsOURfHgyV04
 }
-!procedure MailBulk($id, $name="Mail Bulk", $tech="")
+!procedure MailBulk($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/MailBulk', $name, $tech)
 !endprocedure
 !procedure MailBulkCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $NewspaperLg [20x18/16z] {
 ZSs30GH130NGEEFVVxLdSzzoGjfCsdZMQfjO2qUdp_MVdbIWTP3aGP1bf5rZWIFfXrU_nHQJGiJCv5xN-u3KDLUznhGVDCxHHrvZ77v06XxwSKSxnqYFY0yl
 FjOTX_F9vTFmYPNwAccZFG
 }
-!procedure Newspaper($id, $name="Newspaper", $tech="")
+!procedure Newspaper($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Newspaper', $name, $tech)
 !endprocedure
 !procedure NewspaperCard($id, $funcName="", $content="")

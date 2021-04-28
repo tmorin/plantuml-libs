@@ -1,7 +1,7 @@
 @startuml
 sprite $PollHMd [14x16/16z] NO_50S0020C3dtgo_xJr5Za-E0Im7s0KzKAD-eaa8t00dY9B4RVJnAZPrHoT4LrzYixOqQDewjIlgw83
 sprite $PollHLg [20x23/16z] bS_50S1020J0FLUW_shZxfad3Ywec0u2Yfma-O7oO1Up6EIBs6vs2J7645dEk2Cp3pL1c6C62pV7WZQpnn-YiMRzUvqN3Z6t7hmY8lcFBmwAiFx0uaeB
-!procedure PollH($id, $name="Poll H", $tech="")
+!procedure PollH($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PollH', $name, $tech)
 !endprocedure
 !procedure PollHCard($id, $funcName="", $content="")

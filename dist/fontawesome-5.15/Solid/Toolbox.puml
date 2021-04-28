@@ -4,7 +4,7 @@ sprite $ToolboxLg [20x20/16z] {
 fSY50GCm24JHYmkKst_RahhhY_BnJ5QLjINXA1WF54UHrEasj7CpLhZ-e8rZ2rELD7L6gWvFoXi2vPt9R-GeT3CKBgMKMe1K_Or0yRTabu2utW3aXKk2q0ra
 _icgJBaofU21BG
 }
-!procedure Toolbox($id, $name="Toolbox", $tech="")
+!procedure Toolbox($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Toolbox', $name, $tech)
 !endprocedure
 !procedure ToolboxCard($id, $funcName="", $content="")

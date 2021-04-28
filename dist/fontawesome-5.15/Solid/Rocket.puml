@@ -4,7 +4,7 @@ sprite $RocketLg [20x20/16z] {
 POy50W0X20HNF5lP_x_skXbxBC2Bs9IafiTCWmVzESGBlKznlvQv0i29Y5Uk9A3ivmgLofqCLB8Zy4MfMuVEFpuOLUqnTT2V6W8uxwKygZdiU9eKhDi8rcro
 vB-3kEFim9l31UEAu8FeOnO
 }
-!procedure Rocket($id, $name="Rocket", $tech="")
+!procedure Rocket($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Rocket', $name, $tech)
 !endprocedure
 !procedure RocketCard($id, $funcName="", $content="")

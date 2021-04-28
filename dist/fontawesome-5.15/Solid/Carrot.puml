@@ -4,7 +4,7 @@ sprite $CarrotLg [20x20/16z] {
 RP054e103CHwxhV__orRt89dKapkb29l7E3UBWFvnwMtyq2jrH-N9iHWf80Syt42c85I3rj5fGHncYlMsasE-_EitK9tA4xEV0oVsOcxieD-PEatosMht2qh
 KcYyd0mMLNAGYmZIZDmPDEyVsMdUB
 }
-!procedure Carrot($id, $name="Carrot", $tech="")
+!procedure Carrot($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Carrot', $name, $tech)
 !endprocedure
 !procedure CarrotCard($id, $funcName="", $content="")

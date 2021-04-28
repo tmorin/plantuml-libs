@@ -7,7 +7,7 @@ sprite $BiohazardLg [20x18/16z] {
 HSY54S0m30D06SAEjV-svUiV270PYfiCV3o_jilN9k5ZhL6G2wz5gynaKyR_XG0GYVyRv7OH3tBYvYlvMmv8usDlFZg2COFa0YPvZpeBLEmiW7ERA4e0oW7D
 iomgEXKAO2VGcCd-z4jZXVDKKDdns3JZoPKfU1YjyTIL1dmqcSbK_3oPfflf-5H64q1giE5q
 }
-!procedure Biohazard($id, $name="Biohazard", $tech="")
+!procedure Biohazard($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Biohazard', $name, $tech)
 !endprocedure
 !procedure BiohazardCard($id, $funcName="", $content="")

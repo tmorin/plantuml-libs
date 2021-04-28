@@ -4,7 +4,7 @@ sprite $ToiletLg [20x27/16z] {
 hSy53WCn34HHXydntF-s3QZogWpxnIzeV5ZcM-58SNXAhEPecYKgQdvPPyQjZSwpX9MCi0hhsHoSDIFhOX700qp7Z60mYZTNiRu2qjTbdLkjZJjcRVXjEToR
 8xwbIkHkIEQ3uMwCYQBI7UsQMjQlwxu9jnUwRULeQLi5xYwqNOdDW0i
 }
-!procedure Toilet($id, $name="Toilet", $tech="")
+!procedure Toilet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Toilet', $name, $tech)
 !endprocedure
 !procedure ToiletCard($id, $funcName="", $content="")

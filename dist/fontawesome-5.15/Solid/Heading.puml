@@ -4,7 +4,7 @@ sprite $HeadingLg [20x20/16z] {
 hP250O0W402LRlRVrW-xwwYZuPiTL282g8ZimbP6m7IlMeOCJVAmhlK9DS2q1v5ya0OrA5_7hDA0SjFOnDMO5X8GbiV-VfzA1IHph39gt8zL314onIgGGwns
 w
 }
-!procedure Heading($id, $name="Heading", $tech="")
+!procedure Heading($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Heading', $name, $tech)
 !endprocedure
 !procedure HeadingCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $IndustryMd [14x14/16z] jST50i0W30H089xA_l-rTJlrnaJNtBoLsppFq2TXu_-fQYsbsPbuWXITiGlVbYNw8FwW5G
 sprite $IndustryLg [20x20/16z] rSX50e1020LG67k8V__JsgrByz7GYQYjo9iVUiaDFwuYTIDMyozpW8bonoYmT8E3ObOvEYL-ePGe6r4AEj4
-!procedure Industry($id, $name="Industry", $tech="")
+!procedure Industry($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Industry', $name, $tech)
 !endprocedure
 !procedure IndustryCard($id, $funcName="", $content="")

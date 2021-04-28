@@ -4,7 +4,7 @@ sprite $SteamSymbolLg [20x23/16z] {
 dT150e0W00LHbEOZS__JsktEMJuQywUkxz-IWHOUL55A0_bccHXKNC5Vqr00caEdMQ80aZYjV2r0TS3WA3lr3SW-HLUnsQucbeOY20PgS4diDSrpM2jbc-VC
 4bin0UhCtPfhnFEgURTbtPb7u4CrzoJlGhElVwjL9rri_ZG1
 }
-!procedure SteamSymbol($id, $name="Steam Symbol", $tech="")
+!procedure SteamSymbol($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/SteamSymbol', $name, $tech)
 !endprocedure
 !procedure SteamSymbolCard($id, $funcName="", $content="")

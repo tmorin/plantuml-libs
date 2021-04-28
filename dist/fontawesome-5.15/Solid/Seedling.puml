@@ -4,7 +4,7 @@ sprite $SeedlingLg [20x20/16z] {
 dSs50GCX50FGu4xsdxOMwdxlbA_uAfJMUxkB31xr4Bot2YLAMHa0aOiV-bQOIUaebxzCSN1S2jJYWKiXNJYMQr-dLFJg8QOgDWrk19LQtB6XA7Oda6vpxCTv
 jbM33_O
 }
-!procedure Seedling($id, $name="Seedling", $tech="")
+!procedure Seedling($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Seedling', $name, $tech)
 !endprocedure
 !procedure SeedlingCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $ClockLg [20x20/16z] {
 LP17WaKX20H91l1ht_-sC_9oRLhA32LIOmolJ3SIEF7B5c0s5R6-iFHI_Pnb1xOKe6JClQzb13gbMzjbAPXqkIiRsiTHm0BwTHLzGBxEu8z3yEaSHea3KtDl
 g_U3oqBynu1ndfE82v5YxZrEByP-6o-qHpb-E-nfaGnCoP5E8AfP7S1FhXRrXMGrUc1hxitEwWy
 }
-!procedure Clock($id, $name="Clock", $tech="")
+!procedure Clock($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Clock', $name, $tech)
 !endprocedure
 !procedure ClockCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $ShuttleVanMd [14x11/16z] VON50SK038M8LIFxJ_jTRdq27jyOCFyupCO-ghD9ZZ8hM_EKL36TFLKFPSqvbwd8dontjenugWplintiBMnplhe3
 sprite $ShuttleVanLg [20x16/16z] fOpL0S0W44DJns__QN67lpxaDC7HWuYY7lF2GnDtx1quwiV8dA67_XEaZsaFXo8v-nd_EFs4yp5JFW5uC3Sf8uKZPGUw32me6Feif3vfsHu7
-!procedure ShuttleVan($id, $name="Shuttle Van", $tech="")
+!procedure ShuttleVan($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ShuttleVan', $name, $tech)
 !endprocedure
 !procedure ShuttleVanCard($id, $funcName="", $content="")

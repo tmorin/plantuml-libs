@@ -7,7 +7,7 @@ sprite $UserAstronautLg [20x23/16z] {
 NT270SCW44DHqJauhFst3R58VUxV7ToYBNBrY8_6e-Aba_ynyujkxnSj7uDNmxOuWHHmSxfQHrwcE3ZL39KptMs-cWDLpmxxG9UpV7seuQdoEh6I6J98DxEn
 oAwYA8QFujmyuoNr7X1Yt2ixGsFSHisvJb9F7FnZgEI_x7oQ_QO3tUau5hUbC_06c4CNBhMh0ochpUZljlcT7W
 }
-!procedure UserAstronaut($id, $name="User Astronaut", $tech="")
+!procedure UserAstronaut($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserAstronaut', $name, $tech)
 !endprocedure
 !procedure UserAstronautCard($id, $funcName="", $content="")

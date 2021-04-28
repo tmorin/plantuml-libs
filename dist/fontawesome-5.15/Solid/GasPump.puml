@@ -4,7 +4,7 @@ sprite $GasPumpLg [20x20/16z] {
 PS_50S0m40D1cTdglzj4OTZd60-cyIW1i525Lnw1MTRPeyhQwEQAiWfboOW3tuQkxN-RjytJYCwHorhTFnDskz8-kFco33LUnfa1yzut9ilN8YODtfRGw7vM
 _uRCcjbXtPM1qMWkFoeU9aG3FgiuVitl85W
 }
-!procedure GasPump($id, $name="Gas Pump", $tech="")
+!procedure GasPump($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/GasPump', $name, $tech)
 !endprocedure
 !procedure GasPumpCard($id, $funcName="", $content="")

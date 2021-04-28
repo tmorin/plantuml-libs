@@ -4,7 +4,7 @@ sprite $UnlockAltLg [20x23/16z] {
 ZOw55G0X5CEAEzr_sdDNWlK5-vYGeP352-mOpbHzKmEh59NZnJ0jc753ZkDU6eAPtH3hzBeSN9XT9jESofRoPrBUoulRkJinrLN3ZaFYZS0FYh7rwZHWhqu1
 kj6PgqjIvSyQxYh9V5Sz
 }
-!procedure UnlockAlt($id, $name="Unlock Alt", $tech="")
+!procedure UnlockAlt($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UnlockAlt', $name, $tech)
 !endprocedure
 !procedure UnlockAltCard($id, $funcName="", $content="")

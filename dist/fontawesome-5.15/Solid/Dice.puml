@@ -1,7 +1,7 @@
 @startuml
 sprite $DiceMd [14x11/16z] BSpL0SLG309GdhPHzj-sDyBVYG3WdV72f61H70J5wA_TiBAaIUskj5-4UfwpeF8Mal2vl7yiuPn9uPz7HShP15lG-xNDcCntFW
 sprite $DiceLg [20x16/16z] RSy55iGW40JH2Uvz_zlkGvfPg_YFWSpi65QqJG1HAKRYfMb4qen8KdoUHsHzYrit0mFfmvh1xEDT4p6JYQI0bOvbKepJEEP5j3kt02OBUxS2DVRN4Ycz
-!procedure Dice($id, $name="Dice", $tech="")
+!procedure Dice($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Dice', $name, $tech)
 !endprocedure
 !procedure DiceCard($id, $funcName="", $content="")

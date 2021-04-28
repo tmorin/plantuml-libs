@@ -4,7 +4,7 @@ sprite $BombLg [20x20/16z] {
 NSi55iGW40JH7ecWS__RRcySAi7-0upPcamdApbNmPIXf6ldRi1cM8iN8yZUWhKQVM-Ah81HdbQ0QUUsFcXWF2OWt-QaDI9ZxpTbi1AXzBiArcdq9wLn8RyP
 Q6osDb8NMXgjWDbe3imNCyxoyF9glodXJVVIUzqLLpy
 }
-!procedure Bomb($id, $name="Bomb", $tech="")
+!procedure Bomb($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Bomb', $name, $tech)
 !endprocedure
 !procedure BombCard($id, $funcName="", $content="")

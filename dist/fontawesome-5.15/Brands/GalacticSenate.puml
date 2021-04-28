@@ -4,7 +4,7 @@ sprite $GalacticSenateLg [20x20/16z] {
 VL250G0X2BIbsN_RxuupQRZmXvoUEgXFdT1JP_9GHTU7Bhd6UrKMuOkoO5LchPGFNNDdON4lXrjtcFAnjzsHNI9qwCaSb-orax9XYAmis6iQVKQOEUSYqpi2
 QKo5ggHcGggGHqKiOuq62YBZrVCexQNTpEviWNjxp0iGmmy6
 }
-!procedure GalacticSenate($id, $name="Galactic Senate", $tech="")
+!procedure GalacticSenate($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/GalacticSenate', $name, $tech)
 !endprocedure
 !procedure GalacticSenateCard($id, $funcName="", $content="")

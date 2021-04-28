@@ -4,7 +4,7 @@ sprite $DirectionsLg [20x20/16z] {
 NSq73a0X30BGkhVU_xO_kFYnsIy5P9_fJSiwqXWFce7h-ld2_Jxj4YA_YAHgpv2vFtMlRohEUsz5TCFw2XhP5_7VjfLQaqYOeVMefQCFNwCgLE0FxMdJxftV
 bnR-QU7xHIJTE8cV97wMIny
 }
-!procedure Directions($id, $name="Directions", $tech="")
+!procedure Directions($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Directions', $name, $tech)
 !endprocedure
 !procedure DirectionsCard($id, $funcName="", $content="")

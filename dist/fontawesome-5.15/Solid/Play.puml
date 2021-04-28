@@ -1,7 +1,7 @@
 @startuml
 sprite $PlayMd [14x16/16z] u-JdOcA00tuWO4VXyVEom7WGmCq4uS401vm7KSuAvS6LyoC3FamUGYM6APWsS35XTnaVmjMeFW8
 sprite $PlayLg [20x23/16z] PP150WKn5C8OjxQv_sc_woJBfy04Qquqe4t_DHwKmJNOEjTeisg_1_XbxroZBQv17Lsx7y0Sc8PP4KlqeS-fLiQNFba650sW29rKuaIJ2Xnz_kXBdNBY2W
-!procedure Play($id, $name="Play", $tech="")
+!procedure Play($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Play', $name, $tech)
 !endprocedure
 !procedure PlayCard($id, $funcName="", $content="")

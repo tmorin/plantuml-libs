@@ -4,7 +4,7 @@ sprite $HandshakeLg [20x16/16z] {
 bO-5OGKm20K3ZSkx_QVjT_UBuX1UOtOu5meaNuXoTB2TAhlOKNSAiKoaFw09P8lzmtGuw6M2eqwaaAvr8hkdGvcBZZc1OeChtO5knGNaAntBWZBI23OvKSAG
 3WEDWwQrwn4RerB2Rsm
 }
-!procedure Handshake($id, $name="Handshake", $tech="")
+!procedure Handshake($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Handshake', $name, $tech)
 !endprocedure
 !procedure HandshakeCard($id, $funcName="", $content="")

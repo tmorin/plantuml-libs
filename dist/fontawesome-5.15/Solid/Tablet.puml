@@ -1,7 +1,7 @@
 @startuml
 sprite $TabletMd [14x16/16z] u-170a3EK0BCpDXug3u2
 sprite $TabletLg [20x23/16z] O-NZHmDyp70X1E3XfmuO1LnS64AS30pS6CgGn7ZXWd0XRYPuZ224
-!procedure Tablet($id, $name="Tablet", $tech="")
+!procedure Tablet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Tablet', $name, $tech)
 !endprocedure
 !procedure TabletCard($id, $funcName="", $content="")

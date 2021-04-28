@@ -7,7 +7,7 @@ sprite $BitcoinLg [20x20/16z] {
 JOw5OGGn30HN4Cli_gjDyje_c4EF48b67wCLmOtsywLTzkSyR7khkVZzI6Nyw2ZZyxS4o5uTXX1cLkYtUNP9kINeEigTu9ske9y5x2mUT0enHM4VkWMT0NIw
 _Cn0vF1qKLW9xyFXdA4SAmP0k3JGqjdGEJPB0VdyhTNYa0aWcpninGTRZveA8dNJxC23U6qj7EGF
 }
-!procedure Bitcoin($id, $name="Bitcoin", $tech="")
+!procedure Bitcoin($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Bitcoin', $name, $tech)
 !endprocedure
 !procedure BitcoinCard($id, $funcName="", $content="")

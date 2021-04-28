@@ -4,7 +4,7 @@ sprite $LandmarkLg [20x20/16z] {
 ZSx50G0X44FHCBYc_sxNNH_-Js2YOsj1i15VE2fEOMGpDoqPm5UULCT_ccWHqRrbxmDWeWSW8IW08Mhq8bl_icJ_KgH3Bx1YRBArk3JztiArIMPprWRIM-l8
 943XIRff6P3fzpBleXN2HVIyKNbHEW
 }
-!procedure Landmark($id, $name="Landmark", $tech="")
+!procedure Landmark($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Landmark', $name, $tech)
 !endprocedure
 !procedure LandmarkCard($id, $funcName="", $content="")

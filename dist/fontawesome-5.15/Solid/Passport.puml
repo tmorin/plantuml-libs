@@ -4,7 +4,7 @@ sprite $PassportLg [20x23/16z] {
 dS_50GD1243HFwv0_zN6ipQdv1rntB2hUWWjL4GlaUp0bMDqEWWU_27e_M0q1d4BDRIZWaosbT5fSZAeGjvYRD8MSvBSw9IvrrMqOy8yp3CNNdkd2xQPE680
 BxQJrvfq-KxcLFj3ndrGlx6UDyD-qDQGKlGQItS
 }
-!procedure Passport($id, $name="Passport", $tech="")
+!procedure Passport($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Passport', $name, $tech)
 !endprocedure
 !procedure PassportCard($id, $funcName="", $content="")

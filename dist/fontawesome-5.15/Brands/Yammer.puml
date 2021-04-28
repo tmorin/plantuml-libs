@@ -4,7 +4,7 @@ sprite $YammerLg [20x20/16z] {
 dO-r0GL124HXtQV_Qa_WT9ClBy4Pe6y9GQqNgpIOtJ3wdKj8qYw6YtGRzAlT3MJQgV1xfUuZtPFWDVGKggEJ3aDZq8k8Q5N1nLnxF5Ig7CIvzLEb09Kc7E1t
 iSHtZbM16x8vSnxf_0cYmDOFd6Kxibu217h38HZwZnK
 }
-!procedure Yammer($id, $name="Yammer", $tech="")
+!procedure Yammer($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Yammer', $name, $tech)
 !endprocedure
 !procedure YammerCard($id, $funcName="", $content="")

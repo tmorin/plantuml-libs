@@ -1,7 +1,7 @@
 @startuml
 sprite $HackerNewsMd [14x16/16z] bSV50S0m30H1CrlRVxLX_0H6UFg65tAicKkG7PkgmLHsBXV7eLfREJd7HOYt5BY8aP_qpGW
 sprite $HackerNewsLg [20x23/16z] hSYr0G0X40J0nPtjlzgt1CsUEJziX0t-LKFbeqHsX7wxakm493AzhIFLLuE8d90vaaPhJYAGEPEQ2sdE_chb2NO36pS
-!procedure HackerNews($id, $name="Hacker News", $tech="")
+!procedure HackerNews($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/HackerNews', $name, $tech)
 !endprocedure
 !procedure HackerNewsCard($id, $funcName="", $content="")

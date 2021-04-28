@@ -7,7 +7,7 @@ sprite $DeploydogLg [20x20/16z] {
 ZOm5ZaGn34Fpqr3Hzx_jAjrXVW9B9leLQmyeLVHx1WnA3_X2eIJcLXwD52UlGRQ7-S4JB-aTPdBs0edGJDaUC-06bC2GTl848_zAWn5VUoehUvtZ_DUGoB5I
 JXvfLMjC724rqZDw89PZdXWdXPBu0uL-vGy
 }
-!procedure Deploydog($id, $name="Deploydog", $tech="")
+!procedure Deploydog($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Deploydog', $name, $tech)
 !endprocedure
 !procedure DeploydogCard($id, $funcName="", $content="")

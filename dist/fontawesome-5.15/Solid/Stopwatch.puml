@@ -4,7 +4,7 @@ sprite $StopwatchLg [20x23/16z] {
 PP3L0K0X30DnX-m_xTCMlS-3MiI7neSI4-PtUdQwDg0LAHOyO5UZN06Ac_h92288s_JNhA5J_-caQYMTds-5gaJwtnxbm8ww6lf6_wXMONTDciD1sTDfThxF
 WEP-sHYQ1ibp1_aBPEQFfnxVE7UcAGv-A8vV9LPnIb-5r5hobFCD
 }
-!procedure Stopwatch($id, $name="Stopwatch", $tech="")
+!procedure Stopwatch($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Stopwatch', $name, $tech)
 !endprocedure
 !procedure StopwatchCard($id, $funcName="", $content="")

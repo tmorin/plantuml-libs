@@ -7,7 +7,7 @@ sprite $YelpLg [20x27/16z] {
 RP050eCm40HFulh_tvPR96dBudF8i7J4bp7dLDeIshIu3KK3Fyo_C2elJ5uOfHV6uuV1vc7Y7zZ0S59kvYwMZsFUV1n660QzV9IuWzN3enXLPqyYfM6YZrBF
 ZiOrWtiDOiUhW45RS5_B2gF0OAadRsUgzkrHFEybCbqgklv3xtOBaDfRvMut639_CB5PVLgnzw6qpglIWVDSXH2fDzkZ6RLT-G
 }
-!procedure Yelp($id, $name="Yelp", $tech="")
+!procedure Yelp($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Yelp', $name, $tech)
 !endprocedure
 !procedure YelpCard($id, $funcName="", $content="")

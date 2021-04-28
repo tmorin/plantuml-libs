@@ -7,7 +7,7 @@ sprite $DungeonLg [20x20/16z] {
 TOq5OW0X30GtS4Pi___Rfg4kSpg3OQD9veDFReMpKDY5ZPBp8lVxUKzK8Hazk-FDOcZPP56hvSRmMZQUHsgfIOMRUU8w0H6WljLF8sd00LyoUmbNiXWZOMic
 3XRk4McOh3Oe4gtDUzjcuQ6VhPL5VgvbyqUBp2zdu5NzppFSVP_nLDlw_nb3SL-YaEqa7H-qlW
 }
-!procedure Dungeon($id, $name="Dungeon", $tech="")
+!procedure Dungeon($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Dungeon', $name, $tech)
 !endprocedure
 !procedure DungeonCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $CloneMd [14x14/16z] hSwr0S105CDG7-EtzvysJ0FaTUe41D5E511Loo4t-L3bS0gYzAqSFsKv_5B-UfcJMo6M0sU9RFx20kWLWHK
 sprite $CloneLg [20x20/16z] lSgr5KDH0CDGFsPx_stpcUlSKaUOLDs4ANcnNuXBoxYWu7s-DKDLJHvDpFNLEln72r_Vtnl6saPj9t5gfkicJGrm6ziKhCNy6UoQ701gZC6TPASMgAk8oGy
-!procedure Clone($id, $name="Clone", $tech="")
+!procedure Clone($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Clone', $name, $tech)
 !endprocedure
 !procedure CloneCard($id, $funcName="", $content="")

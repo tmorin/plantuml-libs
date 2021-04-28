@@ -4,7 +4,7 @@ sprite $DatabaseLg [20x23/16z] {
 dSwr0GD13031FMQf_sxzZD5xiqCDu7CRebFIQt9CPT5R8z7qLTN_a_3USX2xN3PQX140wsFAEKLlWIZpKVBMC6NinBzz8vyjwRqNiENsqSY6vi3uLEfKJjw0
 w_F9mbeneSX5CiPdJNbl9NoxxrGFAwLDWDxAWk47
 }
-!procedure Database($id, $name="Database", $tech="")
+!procedure Database($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Database', $name, $tech)
 !endprocedure
 !procedure DatabaseCard($id, $funcName="", $content="")

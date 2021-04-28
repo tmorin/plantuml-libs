@@ -4,7 +4,7 @@ sprite $StethoscopeLg [20x20/16z] {
 TSu5haGn34DHbpbt_wlzq3uDZqNMAIHvc7b9WzcSJW2Iv0p8DvkxndQtM_FVhOxyQXsep-POqUp5ZCOqsh6uTyf079ZVDk1_vqbNX1Kbtw7fCbLWBM2wcwcm
 qvtk9bTX1EbcExVXShVQmPzM8DrsM-6YUUWC7wqliElZs_1p_HPVfwsHT_y5
 }
-!procedure Stethoscope($id, $name="Stethoscope", $tech="")
+!procedure Stethoscope($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Stethoscope', $name, $tech)
 !endprocedure
 !procedure StethoscopeCard($id, $funcName="", $content="")

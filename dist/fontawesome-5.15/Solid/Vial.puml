@@ -1,7 +1,7 @@
 @startuml
 sprite $VialMd [14x15/16z] JSw50G0X30F0u4xsd_O5BNvOYrLon2sgTtrboNPeMDBF3M3JilvJOnid-KTYyUE364B8T1WOPI19u4B8GyZjR2K07Q8-U04
 sprite $VialLg [20x21/16z] XSk53KGn0CFGbBdPVzg3pr2m-4d6cImMpmhvmimN1jOLRwJiYbS2LhpHYcwbk17Cp_ABKX8hqGWffR2NaQnSkn2dPD-4_2Qy2QXlGdWJH7xH3tqkIMFM5m
-!procedure Vial($id, $name="Vial", $tech="")
+!procedure Vial($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Vial', $name, $tech)
 !endprocedure
 !procedure VialCard($id, $funcName="", $content="")

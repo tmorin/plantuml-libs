@@ -1,7 +1,7 @@
 @startuml
 sprite $SignalMd [14x11/16z] LOhL0K112CFE5UZ-qpwN7byqYVilej9AQE_hjKLQ6DyQ8z1I_LQTdjP0a6UbwJl2wohIicB_ohe3
 sprite $SignalLg [20x16/16z] VSkv4S0m509HOtvE_zqgqgnkmZVijyo9LwkaPX56zxiRdMSJDdSOdJ4jHeVHOTgC3kFpDk_c1W
-!procedure Signal($id, $name="Signal", $tech="")
+!procedure Signal($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Signal', $name, $tech)
 !endprocedure
 !procedure SignalCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ChairLg [20x23/16z] {
 hSg70KGX20FG0EAlalstFRpU-xF7eBCvc69I75GUbNrKoCQc5dbmtrmu5JP8qFAAJacrNIRv9qZ6mBwdGluXQvcjptgA9DLp5S1hBaTIKxNpfN3Ui8Kt9jwA
 UptCf8lkIUqH9j9mvEI8tYkNsVkzoX0S6UdO
 }
-!procedure Chair($id, $name="Chair", $tech="")
+!procedure Chair($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Chair', $name, $tech)
 !endprocedure
 !procedure ChairCard($id, $funcName="", $content="")

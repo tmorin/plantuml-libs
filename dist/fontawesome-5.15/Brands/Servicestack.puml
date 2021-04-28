@@ -4,7 +4,7 @@ sprite $ServicestackLg [20x21/16z] {
 bOw50K8n30KZTSl-sz8NtE6-zgBq3_h2vPNvIKvR-T4LCniF7QA1TEVKd78riXEdotfnRUogV9U9obL8vbtFRji66f1wBZusOyXnpGDTvwMQ8LnYp-cksfcA
 Bf5yYwj4Dacp6pewiWQzGMI_w4SE
 }
-!procedure Servicestack($id, $name="Servicestack", $tech="")
+!procedure Servicestack($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Servicestack', $name, $tech)
 !endprocedure
 !procedure ServicestackCard($id, $funcName="", $content="")

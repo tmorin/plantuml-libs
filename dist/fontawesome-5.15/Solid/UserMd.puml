@@ -4,7 +4,7 @@ sprite $UserMdLg [20x23/16z] {
 PT075iGW20HGx882zx_jEgQ_dVIVvaX7chhFIg-4wJlZPQ0TkQdudNIPFDOl6uy9_HjVrXuhbmMxIEd_nucUv0cP5rrQwqV2Mex4yoJA93PkJOI6TMWoDs97
 9efhf6Y-J40SAF12ubseWYXpmNLJN4ICC1Jq2Ewecl9YFJuWPEwmQ8tCgE-vidl6crjOoBkxeZcFlLTNCLG4VZBZ3m
 }
-!procedure UserMd($id, $name="User Md", $tech="")
+!procedure UserMd($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserMd', $name, $tech)
 !endprocedure
 !procedure UserMdCard($id, $funcName="", $content="")

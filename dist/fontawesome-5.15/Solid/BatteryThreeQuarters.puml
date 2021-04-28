@@ -1,7 +1,7 @@
 @startuml
 sprite $BatteryThreeQuartersMd [14x11/16z] VSd50SCm40J0Ep6ijFrNcvZPdk_8Xz9tCAmnnLbYOKoe8nLjP0GdLYIGCJUCZ2Z8xCF4kq20kpxyWPpz0G
 sprite $BatteryThreeQuartersLg [20x16/16z] ZS_L0O0m303H73yuj_-qkFkhUnE_STJFP9vbuHKAoGm8jBQXBoFhw3LgG-CYUjpFtPszVUEAcp_VnFPV1m
-!procedure BatteryThreeQuarters($id, $name="Battery Three Quarters", $tech="")
+!procedure BatteryThreeQuarters($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BatteryThreeQuarters', $name, $tech)
 !endprocedure
 !procedure BatteryThreeQuartersCard($id, $funcName="", $content="")

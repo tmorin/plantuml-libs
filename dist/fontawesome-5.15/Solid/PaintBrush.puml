@@ -4,7 +4,7 @@ sprite $PaintBrushLg [20x20/16z] {
 PK_50KKn2AjxoVxJVdcAv0XHfz11ILxy1B35AIpeMoJyKTaf0PfMSAAyftgTbZqXQIzWlBHstuAzyHv1A-lUmMy0ayq-ulgucqqVJLMYRIODsFu9TkRTR3YE
 F8bcuPSl
 }
-!procedure PaintBrush($id, $name="Paint Brush", $tech="")
+!procedure PaintBrush($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PaintBrush', $name, $tech)
 !endprocedure
 !procedure PaintBrushCard($id, $funcName="", $content="")

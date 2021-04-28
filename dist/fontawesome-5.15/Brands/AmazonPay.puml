@@ -4,7 +4,7 @@ sprite $AmazonPayLg [20x16/16z] {
 ZOk5eKKX3CM2rU7kF-rtrnUqH_YDzdAz2-4LZCnitfa6q4-db4OkDqAVj09ptFRgsQezQHl2t4WXt7ZkkkzcALjOrtZMzfG6Q_R6I5uqNfcrU6QyQuk-f0th
 V6Hg6JDZjNV9fmgW-rIOgdgTagRjnQrpNQTi0erRkGS
 }
-!procedure AmazonPay($id, $name="Amazon Pay", $tech="")
+!procedure AmazonPay($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/AmazonPay', $name, $tech)
 !endprocedure
 !procedure AmazonPayCard($id, $funcName="", $content="")

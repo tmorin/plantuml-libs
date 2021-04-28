@@ -4,7 +4,7 @@ sprite $DiseaseLg [20x20/16z] {
 VT050i0W20NGRuB9_M-xoJgVtO4_hbJ2bPVPjTF9KA4CvyIKP64n53cB6EIAp3OlyyYvZhm4c2xI3SQ6jEx327CUR9D31whS95sio6kj4q2YjatP06RVASM-
 Nj3BXJx4NhgwMV-eSB2MrcjSw1KJhWmNmgS9
 }
-!procedure Disease($id, $name="Disease", $tech="")
+!procedure Disease($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Disease', $name, $tech)
 !endprocedure
 !procedure DiseaseCard($id, $funcName="", $content="")

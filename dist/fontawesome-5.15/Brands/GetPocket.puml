@@ -4,7 +4,7 @@ sprite $GetPocketLg [20x23/16z] {
 bP350O104CG2vzv_jRWxUSswy9LQ7AXnvOGfPtBvGpwNoNcIHKsk1DXX85HpfXsT6kQ2sMbcLqw3qp7W1oFuiZedRUT17i8a1N6UdYOHG1xthm6zzqbwr3PB
 pc_riyTLBDJQUUzqnIzQ
 }
-!procedure GetPocket($id, $name="Get Pocket", $tech="")
+!procedure GetPocket($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/GetPocket', $name, $tech)
 !endprocedure
 !procedure GetPocketCard($id, $funcName="", $content="")

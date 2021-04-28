@@ -4,7 +4,7 @@ sprite $UserCheckLg [20x16/16z] {
 TSvL0a0X24HH1Jjczh_QrnttynXWfgIILSmr0QTmmyAbSZMiXd-pBTxUsfdOpXbgFCDCTXbSW3AD3MHVwLBaIZO3DQKAP35n8Uaywd9RU2slncluCFvRkb9Q
 RGG
 }
-!procedure UserCheck($id, $name="User Check", $tech="")
+!procedure UserCheck($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserCheck', $name, $tech)
 !endprocedure
 !procedure UserCheckCard($id, $funcName="", $content="")

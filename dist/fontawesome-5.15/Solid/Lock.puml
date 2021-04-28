@@ -4,7 +4,7 @@ sprite $LockLg [20x23/16z] {
 rOnL5iGW40HnP_h-jzsHTVzD9K2zaNPAw1lOpRiR1GQbQodZogNe2RBOzN56PH_IcopPQgoawO5htMeBc6RRxFzQO5i-U4Pgd9o9m92YjYFXXOK3ibzBCwpN
 qWa
 }
-!procedure Lock($id, $name="Lock", $tech="")
+!procedure Lock($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Lock', $name, $tech)
 !endprocedure
 !procedure LockCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $HandPaperLg [20x23/16z] {
 PT073iGW34JHiHUSKEV-jrsgqhuQUg9ZPPL9SKiji9KFmywp5HnRQLjXBZHKnierKqXntGe2myjoCzRmDV9ifdVpnlgU9p-oqUzj4cjzMsIhZpnAmZ6CTCQg
 K404K4n3ec3NBR2A6AvSWyA8UyRKd7QtqDznadgpGWyWCL-aSuRMDdtdrmGZpVcHY_l8o5lxfzD52VW3
 }
-!procedure HandPaper($id, $name="Hand Paper", $tech="")
+!procedure HandPaper($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/HandPaper', $name, $tech)
 !endprocedure
 !procedure HandPaperCard($id, $funcName="", $content="")

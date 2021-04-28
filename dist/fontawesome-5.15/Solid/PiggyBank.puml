@@ -4,7 +4,7 @@ sprite $PiggyBankLg [20x18/16z] {
 PSk30K0n30JGgvtRVzfl5A-CyB2LuZ0mF8t9p5D5ppfxCF0vuA5ik5GoFIad_5WWDGlFJW9QX1BsWgvUHNxaAcTf_U1LXrAP4m1-pK79ceDZ9pk7K-Iduk59
 ffHY8tENQ-URo8A7VVw1Z01s
 }
-!procedure PiggyBank($id, $name="Piggy Bank", $tech="")
+!procedure PiggyBank($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PiggyBank', $name, $tech)
 !endprocedure
 !procedure PiggyBankCard($id, $funcName="", $content="")

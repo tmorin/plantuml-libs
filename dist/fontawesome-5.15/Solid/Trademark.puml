@@ -4,7 +4,7 @@ sprite $TrademarkLg [20x16/16z] {
 ZO_50G0n20I9Ezj_jxVax9jv84DKJd4tLbbhKM4e2gj1LQ4H3yKp-BqcUUyLrNcnQP74cCL6XT6wAOsnVYv35w9YedskO5QAtj4_Hn40n8RnkSvwG6tskO4k
 eKGwPRUGjwjYvEt-J_tvY0i
 }
-!procedure Trademark($id, $name="Trademark", $tech="")
+!procedure Trademark($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Trademark', $name, $tech)
 !endprocedure
 !procedure TrademarkCard($id, $funcName="", $content="")

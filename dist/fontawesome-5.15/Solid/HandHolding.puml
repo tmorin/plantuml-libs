@@ -1,7 +1,7 @@
 @startuml
 sprite $HandHoldingMd [14x12/16z] jS470O1040In_Tvl_AkbWmCI_SNf4oQd83TMgGRqKkGNXSjeRK0Kd-Kbuz5qs04
 sprite $HandHoldingLg [20x18/16z] tSb50S1G3C3GVERMlzenIzWx9loSQsFJBM1R1PAU0dXHhRNfIeBtRllYz9HJpddvpQ0V1RujyctTiPe1
-!procedure HandHolding($id, $name="Hand Holding", $tech="")
+!procedure HandHolding($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/HandHolding', $name, $tech)
 !endprocedure
 !procedure HandHoldingCard($id, $funcName="", $content="")

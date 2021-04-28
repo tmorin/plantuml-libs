@@ -4,7 +4,7 @@ sprite $ThumbsDownLg [20x20/16z] {
 ZSt50KCn30DGXScnzf_sCwJSTpCA9vU5f8e7geXasDXuik2YGtXpRthbJQ__sQDxqujlUfuLee-zp6QxeeqztM_Ts1EVOd9075eMXxgLPe6BwLia7ZWkAXxb
 BUsHVzCpIcRWKMBPGsS
 }
-!procedure ThumbsDown($id, $name="Thumbs Down", $tech="")
+!procedure ThumbsDown($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ThumbsDown', $name, $tech)
 !endprocedure
 !procedure ThumbsDownCard($id, $funcName="", $content="")

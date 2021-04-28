@@ -4,7 +4,7 @@ sprite $TrashLg [20x23/16z] {
 ZT2r0SKm00FHYvcz_xJ1olfudLufxkAy2zobV3KU6_U8yx-6TLPo1kCa0tbA2P9QWAZc8QWvy6eMd9e1gxQ1UMERq7XZdTF6QWsWhrOlQs-ihbRUMBuiwIqe
 Hk
 }
-!procedure Trash($id, $name="Trash", $tech="")
+!procedure Trash($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Trash', $name, $tech)
 !endprocedure
 !procedure TrashCard($id, $funcName="", $content="")

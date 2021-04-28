@@ -4,7 +4,7 @@ sprite $RouteLg [20x20/16z] {
 LSy50WCW241Hx8H__zjkBFNPBN8A4tQMoyObELIO7POSEXPaOlS-QjHxNp1SaLE1-xhGnW28yfEDusGCNYkegdNlLpKRGJ8q2SUrJ6z_GIdM5gG0Dfvw4V4Z
 2QeqFfOeApJyNDdce3VS_lzoeq71j_rCp3_1a3u-fdz2EbiwV-R1ZLYEcHdb0G
 }
-!procedure Route($id, $name="Route", $tech="")
+!procedure Route($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Route', $name, $tech)
 !endprocedure
 !procedure RouteCard($id, $funcName="", $content="")

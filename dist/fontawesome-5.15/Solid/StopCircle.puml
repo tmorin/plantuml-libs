@@ -4,7 +4,7 @@ sprite $StopCircleLg [20x20/16z] {
 RSt50S0m30D06SBW_QSjStDFWuGDXrnAyeGBPpkaS-hirkKUtTOXsriZ8Dj7FCu2ouBZ5adX2hcYDVzdiVndQJGR_0R_dodliMwr5pOWsKS0gBz75GjzZJfZ
 9UrnnTXHFFvxm8qqfXGKkna
 }
-!procedure StopCircle($id, $name="Stop Circle", $tech="")
+!procedure StopCircle($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/StopCircle', $name, $tech)
 !endprocedure
 !procedure StopCircleCard($id, $funcName="", $content="")

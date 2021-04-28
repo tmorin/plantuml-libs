@@ -4,7 +4,7 @@ sprite $ObjectGroupLg [20x20/16z] {
 RSZN0O0020FHs1K8sNzQUzVxkuUVFEedj3Gf-k5MJybIht90IDpQpJ2RerZ2ZhwOOMitkrly66bcR-kmRyX_J357fjgRBR7hMhpC5dYP5sKnLtAtPmRNkxJP
 sqSnYrTurFY0doO
 }
-!procedure ObjectGroup($id, $name="Object Group", $tech="")
+!procedure ObjectGroup($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ObjectGroup', $name, $tech)
 !endprocedure
 !procedure ObjectGroupCard($id, $funcName="", $content="")

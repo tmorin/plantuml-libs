@@ -4,7 +4,7 @@ sprite $TeamspeakLg [20x20/16z] {
 PO_L0S0m20M9Axpzjosatju7Sb78S7b06OakiW2pjQan7Af2YblRAv2N2fYU3e9WhJPBbqJHw6txJRKTJUY9iotSwSKSrDM_Q5Yln_HoR0uO_k54dGSWOOtO
 YxgPaKXCUggMD4PIAfJaBJOwYQLaYwtgUVgHvQUyy5S5HdcF6ZjGduVg59ujaB81
 }
-!procedure Teamspeak($id, $name="Teamspeak", $tech="")
+!procedure Teamspeak($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Teamspeak', $name, $tech)
 !endprocedure
 !procedure TeamspeakCard($id, $funcName="", $content="")

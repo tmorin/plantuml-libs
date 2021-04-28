@@ -4,7 +4,7 @@ sprite $ShowerLg [20x20/16z] {
 ZSo5RGKm34NH5p25lF-sLQ2VwOgF0IzBfLK9ToG-wubDug7iFahprJ0DqwgF29YVqhJX2a0F2MRk3A3Tqh6wY8D2OjHjiearAvDj2tqUgg95CMn3SqRDgQ4I
 _etM1mqrOzk9cOJ3lIcH0lS6cNHlbV5aCJpPDQi9l_G7
 }
-!procedure Shower($id, $name="Shower", $tech="")
+!procedure Shower($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Shower', $name, $tech)
 !endprocedure
 !procedure ShowerCard($id, $funcName="", $content="")

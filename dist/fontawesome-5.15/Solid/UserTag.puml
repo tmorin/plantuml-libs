@@ -4,7 +4,7 @@ sprite $UserTagLg [20x16/16z] {
 VSu73iGW30LHO1lnJpptl-tIfFIC6deqXr8IA8LjoIdv3esMRSrf-QDjxpx_KT3SRKFR15WiYpWvobdCaPn1vTx2oBiLD5PpMcBjDT5QDgQWHeajHbKAUOlV
 CDVH_m
 }
-!procedure UserTag($id, $name="User Tag", $tech="")
+!procedure UserTag($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/UserTag', $name, $tech)
 !endprocedure
 !procedure UserTagCard($id, $funcName="", $content="")

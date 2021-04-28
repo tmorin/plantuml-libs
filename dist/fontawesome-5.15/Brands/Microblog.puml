@@ -4,7 +4,7 @@ sprite $MicroblogLg [20x23/16z] {
 TP050e0m201XtVl_Qmt2zdH50_o2FkMSF9uIKoOpiX5Hc1SyYTAy4JQHLxyX5mUerw3sxGo6zWXPzxttaG7gw7r_PNAD82Hovd2PA-SwEyb4M2K9dUATHH_v
 D5WBI6RFzVKmPDkEHxVKnxlVH2N4gsZWOtxKhM92AYLvq_OC3p3JK1zO2v-i
 }
-!procedure Microblog($id, $name="Microblog", $tech="")
+!procedure Microblog($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Microblog', $name, $tech)
 !endprocedure
 !procedure MicroblogCard($id, $funcName="", $content="")

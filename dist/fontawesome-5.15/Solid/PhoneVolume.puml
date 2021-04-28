@@ -7,7 +7,7 @@ sprite $PhoneVolumeLg [20x27/16z] {
 PSo53GGn30313HmdsVwxVLbF1oCmcvl3327pipaJPblXdIN6Y6HINIFB7YnEa8RXWCnkJkwmQpXOfRemEiMtYSMIt6Z6MkYmnk5AC_ksmBGpEp7Qh1v7RvdG
 fRZkQeAtxC9cQThuIHGFXkwS71RKbPDIUVI2kd7r-1UQTcusjQPQEAc-LKwwuVfqrJ0oVsbeM3XPD3JEZkSUgMihNEMnSFO2
 }
-!procedure PhoneVolume($id, $name="Phone Volume", $tech="")
+!procedure PhoneVolume($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PhoneVolume', $name, $tech)
 !endprocedure
 !procedure PhoneVolumeCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $VirusLg [20x20/16z] {
 TT07aaGX20JG1dvKfEz_soqAtSdFd0Cc2SSxOmWU3WMmaLdONbqCWmwo2tRIia-374mHf0lInYUAahCyc1n5IUwG7Ad3nJQluPEfcqbm3JTEmsTvDWPBXsYl
 QkJjs5JgZBBVvC3ZBekZx7nYI5OtdWU6r3HNI2SROB4cokElr7x_QV66vGy
 }
-!procedure Virus($id, $name="Virus", $tech="")
+!procedure Virus($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Virus', $name, $tech)
 !endprocedure
 !procedure VirusCard($id, $funcName="", $content="")

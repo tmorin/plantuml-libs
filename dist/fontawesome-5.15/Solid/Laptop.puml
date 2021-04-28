@@ -1,7 +1,7 @@
 @startuml
 sprite $LaptopMd [14x11/16z] XSsr0S10243HVwx0_jF6hSkhSCZsoD0ivKFIlcN2PUwPSf7Vp5sEp1uDmd7z-19HsVGGkcnqsCTS0G
 sprite $LaptopLg [20x16/16z] lSx55G0X40JHxdMV_BDTtBdoJ_NG0Gx9752aODS8MYhy6XAZrkfPUZE_yiM5JrwrH4uAeTWYFlcC1LXjgOLuAzGQEYxz
-!procedure Laptop($id, $name="Laptop", $tech="")
+!procedure Laptop($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Laptop', $name, $tech)
 !endprocedure
 !procedure LaptopCard($id, $funcName="", $content="")

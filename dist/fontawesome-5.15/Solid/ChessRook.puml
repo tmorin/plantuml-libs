@@ -4,7 +4,7 @@ sprite $ChessRookLg [20x27/16z] {
 lSnL0WCX34NHYuo7lFtljXFgtgyUd0WyowKK89LT0k9mIHCqxJPO9FNxJ58mMDNrFt_ySpDrPgv_QwuJpukw5JO5dnFa5jSAOvoM2Dljtq9dx_x6dETJtz1q
 OoCarmqZPDrgXAexkVyrkrLuQPoV3FgHwSbs
 }
-!procedure ChessRook($id, $name="Chess Rook", $tech="")
+!procedure ChessRook($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/ChessRook', $name, $tech)
 !endprocedure
 !procedure ChessRookCard($id, $funcName="", $content="")

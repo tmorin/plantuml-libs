@@ -4,7 +4,7 @@ sprite $FaucetLg [20x20/16z] {
 bP030i0m34MJrFptl-qwMszeOz0_TBIqWRKI2YZCejMa2m3g_4qwtwubXPWBKEPOnVs__udG1h-uh4JKrOT5X4tfy_jsevwABJNtRU98MdLR9SwOKkkQShn5
 QhWboc8PqDR-7fculvHvDzP8Vr7EMg6FT
 }
-!procedure Faucet($id, $name="Faucet", $tech="")
+!procedure Faucet($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Faucet', $name, $tech)
 !endprocedure
 !procedure FaucetCard($id, $funcName="", $content="")

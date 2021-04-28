@@ -4,7 +4,7 @@ sprite $RestroomLg [20x16/16z] {
 ZP073iGm20JNlNl__ziJaCHMFzSH7O149W1xusCiSW4W3sEJMsM74TUAAZlia_SfgCpOQmWDGZeqxiqcB4l-exzatjZVicISRbapRfZoJSsnJBRWv7Cg4_L9
 yjPSoGhyBTDPlBFAP0P-
 }
-!procedure Restroom($id, $name="Restroom", $tech="")
+!procedure Restroom($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Restroom', $name, $tech)
 !endprocedure
 !procedure RestroomCard($id, $funcName="", $content="")

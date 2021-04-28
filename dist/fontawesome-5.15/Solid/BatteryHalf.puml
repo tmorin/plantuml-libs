@@ -1,7 +1,7 @@
 @startuml
 sprite $BatteryHalfMd [14x11/16z] VSh50K0n20DGg1VTVzllBky4IU07sK62SsrrqPoyDc4c76UexbLy561Kng-hA2ECnhpdCievf-8YVh00U09N0m
 sprite $BatteryHalfLg [20x16/16z] ZS_L0S0W40FGIt_goVxJrWM7XpjdpU0xPWQ51bCCHqPtUauU4wk8ev1QxKRfcACkxvFfkTJPv1in9FwSYAtT3W
-!procedure BatteryHalf($id, $name="Battery Half", $tech="")
+!procedure BatteryHalf($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BatteryHalf', $name, $tech)
 !endprocedure
 !procedure BatteryHalfCard($id, $funcName="", $content="")

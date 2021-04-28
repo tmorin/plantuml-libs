@@ -7,7 +7,7 @@ sprite $UnlinkLg [20x20/16z] {
 NSu50iKW30FGu4xkVzelfVHBvcyRQM37YQkBN0N0fg9Vb2oFpeD-KpDnSP6itbUI-MALUw2H0uP22EI6uKbK-yOXTtvNGxb9CaHHr8jRV-q3q84C1sJMYhyY
 aXv_QDQjtVvjfEBfg26Exrcmg1d0HQ_OhMW2o6Fl7W75wPu
 }
-!procedure Unlink($id, $name="Unlink", $tech="")
+!procedure Unlink($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Unlink', $name, $tech)
 !endprocedure
 !procedure UnlinkCard($id, $funcName="", $content="")

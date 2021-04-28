@@ -4,7 +4,7 @@ sprite $DropboxLg [20x19/16z] {
 VO-50S0W30GVTxB_j7XThWNYWdUOjtT9PQ8apn8FD71ibxYZXRQRP21JVwF0IGAptJKu9DXDWDLhW5RIxf9P0pIIsAHMxwMlvduALWgtJJfJebGvIPcwjBOq
 FAmDB3OCJRB4PEkzxR1ZUvJ65H43nmyL
 }
-!procedure Dropbox($id, $name="Dropbox", $tech="")
+!procedure Dropbox($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Dropbox', $name, $tech)
 !endprocedure
 !procedure DropboxCard($id, $funcName="", $content="")

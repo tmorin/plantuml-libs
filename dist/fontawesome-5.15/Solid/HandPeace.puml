@@ -4,7 +4,7 @@ sprite $HandPeaceLg [20x23/16z] {
 NOu55iGW50E3Exd_RRU_RsiPD8FYJ-PE-E99RlSFOQva0m_ytosRYxDv4JT8Bd79GlmwR99TNBNaJXVQZ33EbC__DRiwfFyhCvWxPgkG3SWqIPF_1hXDuNzO
 NAU2IcMXKMdmMrq6YZeFkANN7UIlwp2cN6Vu-NaLFm
 }
-!procedure HandPeace($id, $name="Hand Peace", $tech="")
+!procedure HandPeace($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/HandPeace', $name, $tech)
 !endprocedure
 !procedure HandPeaceCard($id, $funcName="", $content="")

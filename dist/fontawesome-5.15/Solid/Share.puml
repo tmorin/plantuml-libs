@@ -4,7 +4,7 @@ sprite $ShareLg [20x20/16z] {
 XOu35WH134JJHb3tF-rYxFcDr8lfcSBkv1EeF_jWyUm34as4N5jd39Injs9B8_AJPuNToGKf9nUJZ4AvLHjK9HhR-d6NQUnaHz-qdW6wx6nX40pmv6lYHf5M
 tmf3Jpwd22UdRvxU-G8
 }
-!procedure Share($id, $name="Share", $tech="")
+!procedure Share($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Share', $name, $tech)
 !endprocedure
 !procedure ShareCard($id, $funcName="", $content="")

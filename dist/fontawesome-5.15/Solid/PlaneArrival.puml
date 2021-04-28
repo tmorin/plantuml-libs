@@ -1,7 +1,7 @@
 @startuml
 sprite $PlaneArrivalMd [14x11/16z] LOm50W0W20Fjrlt_jNPn9h2DTL8IR26SO1vXLmgk7yXJmUc2k2gUCD6xZAlCNixI9IpK3jOXzyhDOdUwKggDbFqBGWC
 sprite $PlaneArrivalLg [20x16/16z] RSf50e1G409G_9rm_zFQhMyr0s1XM3tUA5bSUZL0bifZae6Wnv2YmS37KBEMkYI7GzIXuXHqw3aORBnk4ZOsLPqo3eFFNIlYpeJIsJt-3NVh3-g3-Z41
-!procedure PlaneArrival($id, $name="Plane Arrival", $tech="")
+!procedure PlaneArrival($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PlaneArrival', $name, $tech)
 !endprocedure
 !procedure PlaneArrivalCard($id, $funcName="", $content="")

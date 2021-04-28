@@ -4,7 +4,7 @@ sprite $FillDripLg [20x18/16z] {
 LSs50GCX40NHZvoX_NUR7MBi96SFKnvPrZKl4UKwPuRcXg4P6Ws7VLf5nQ5DgP93zXfvHwYmvnyZn45DrhFGPZpi-MGihPtj5aZSKfyZOMCBmhQWCwbuKcJ3
 x8Wv6TmeshF9y4ywfoNmHqfh7gKodgZLqMjy0G
 }
-!procedure FillDrip($id, $name="Fill Drip", $tech="")
+!procedure FillDrip($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/FillDrip', $name, $tech)
 !endprocedure
 !procedure FillDripCard($id, $funcName="", $content="")

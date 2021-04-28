@@ -1,7 +1,7 @@
 @startuml
 sprite $DoorClosedMd [14x11/16z] Os1WvEK70pv61Y1WveS2PY9vVCWyTcPa7XylcZuM48y9oHHcPZOW0wgLXHy5
 sprite $DoorClosedLg [20x16/16z] Om023duuu6200Zw461zCZ1y9q5gCcHcR68tiPMHWH1O3Se7-v-D70M01J
-!procedure DoorClosed($id, $name="Door Closed", $tech="")
+!procedure DoorClosed($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/DoorClosed', $name, $tech)
 !endprocedure
 !procedure DoorClosedCard($id, $funcName="", $content="")

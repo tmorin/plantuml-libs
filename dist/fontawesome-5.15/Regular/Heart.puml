@@ -4,7 +4,7 @@ sprite $HeartLg [20x20/16z] {
 RSe7SWD024DHmVQ6xd_RX4rS6FjFrHlXQrBNNaq0xMlFugI7dfN6snR8uKoYtRcgfCMDpW4lqnJUOZrK_672BT6lCJ7oV9XjQhJCsJYZRHRiYCkd7evtsa34
 In4djo3YUfAZiOUNbtvnHBfF7gU0SqH2x0S
 }
-!procedure Heart($id, $name="Heart", $tech="")
+!procedure Heart($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Regular/Heart', $name, $tech)
 !endprocedure
 !procedure HeartCard($id, $funcName="", $content="")

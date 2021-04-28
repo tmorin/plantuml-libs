@@ -7,7 +7,7 @@ sprite $LifeRingLg [20x20/16z] {
 LOx50G0X30I3Ezj_jqVaR5xi42F1bpv6ouuUV8VHRflmieEfyjJL1fOUXSXaEwzD73kHMwpcUGnKyi2H7IN4Uk84jYioMKT7R4vH9nKIcYuQO8Awh9lKnP_J
 tghE1cKv0ebLmPGcBwTMj9GxCbSktbK_D_Eb9wAHcn0wqLXwAIytEROd9cmyB5QCgsPteHSNQsibMhe
 }
-!procedure LifeRing($id, $name="Life Ring", $tech="")
+!procedure LifeRing($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/LifeRing', $name, $tech)
 !endprocedure
 !procedure LifeRingCard($id, $funcName="", $content="")

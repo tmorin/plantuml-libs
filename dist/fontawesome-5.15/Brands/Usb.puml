@@ -4,7 +4,7 @@ sprite $UsbLg [20x16/16z] {
 VOw5bSKm30HbXIpS_hkzlSyyYMcUI7wZxseYntDCDO3joQKFGrspTU6sDjEMQ-eE1CEEQyBgAWtAG4mx4y0yEPkED2UMTATSCkEMU-v1Hg-Yw_eyjvKop-I9
 0DwS3Defhr9ro1V-
 }
-!procedure Usb($id, $name="Usb", $tech="")
+!procedure Usb($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/Usb', $name, $tech)
 !endprocedure
 !procedure UsbCard($id, $funcName="", $content="")

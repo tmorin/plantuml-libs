@@ -1,7 +1,7 @@
 @startuml
 sprite $CalendarMd [14x16/16z] Os1WuETdW9CCZFpyZ32IWny9W3a8m8S269cG02Eg73-T0Qgh0G
 sprite $CalendarLg [20x23/16z] vSYr0O10343HSx_y_QV56voU5u-QL4JFqq9Mcmfc-vNbOQnjuATX0bHZjOgSUE6ayute2o66W-ZvcSv9DUty6W4
-!procedure Calendar($id, $name="Calendar", $tech="")
+!procedure Calendar($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Calendar', $name, $tech)
 !endprocedure
 !procedure CalendarCard($id, $funcName="", $content="")

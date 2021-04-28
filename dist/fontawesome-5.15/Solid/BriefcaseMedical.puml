@@ -4,7 +4,7 @@ sprite $BriefcaseMedicalLg [20x20/16z] {
 bSs54GDG20FGm7TBzf-sxjvtdE1u9yuvzZ42pemwcJXpQVQT9Pw6tA9KO8OckhkXYDGDYadFg0_OknvrO7slPNV0lUY6uo3fHaqHYAdz_sEFS-eJwibAV2h5
 BG
 }
-!procedure BriefcaseMedical($id, $name="Briefcase Medical", $tech="")
+!procedure BriefcaseMedical($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/BriefcaseMedical', $name, $tech)
 !endprocedure
 !procedure BriefcaseMedicalCard($id, $funcName="", $content="")

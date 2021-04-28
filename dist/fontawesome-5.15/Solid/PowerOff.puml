@@ -7,7 +7,7 @@ sprite $PowerOffLg [20x20/16z] {
 JOu54i0W3C3Q6Kx-_ziTHJCbLHauUEL0LII2jx_EIpBdH7AzXsfbbkU09Y-WtkOiN5eZKxtMf9VBAgThrLKTPDbEAppMPplhc-2R_-th8KpdzpT42DAuB_ia
 S1yKsIZmN5ZpIR2K03nJVJr3wyhKmDZs0QZH-rZRpzKd5XRvciDynQXEDlhu4DmSzGC
 }
-!procedure PowerOff($id, $name="Power Off", $tech="")
+!procedure PowerOff($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/PowerOff', $name, $tech)
 !endprocedure
 !procedure PowerOffCard($id, $funcName="", $content="")

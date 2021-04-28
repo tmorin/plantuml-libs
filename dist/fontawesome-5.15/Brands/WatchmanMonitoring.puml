@@ -7,7 +7,7 @@ sprite $WatchmanMonitoringLg [20x20/16z] {
 JOu73WGX30DD2o61zVz_UrJfHiNIfEAGH5KY_X1t5L7tZ4jmknt9xQekY893FTAd6jJTLohRpCAkJbArVrmaeCyOv3TuCQIU8unaHiobDXzVaBL8fukuM5RP
 EpdmqB9T_UzhHNJ5FdUn57t6-gLS5Jp04x3-gDT90ueZh6VRTJsk-HevyRjDJtJoFMEllItt1GJfYaUokT7CBU6Fa7990OSV
 }
-!procedure WatchmanMonitoring($id, $name="Watchman Monitoring", $tech="")
+!procedure WatchmanMonitoring($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/WatchmanMonitoring', $name, $tech)
 !endprocedure
 !procedure WatchmanMonitoringCard($id, $funcName="", $content="")

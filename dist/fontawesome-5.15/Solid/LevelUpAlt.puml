@@ -4,7 +4,7 @@ sprite $LevelUpAltLg [20x32/16z] {
 xSY53KCn5CNGG25ulV-srVlC4zGYwxYbA4MtBmWKTkGxGFTRQWor3Guqu4ALfJfHOLCPABChct78B264DKnoGzwxP9JirYQp7knltlk39GHYDQErjDB1Cjk-
 WsbB2eFz
 }
-!procedure LevelUpAlt($id, $name="Level Up Alt", $tech="")
+!procedure LevelUpAlt($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/LevelUpAlt', $name, $tech)
 !endprocedure
 !procedure LevelUpAltCard($id, $funcName="", $content="")

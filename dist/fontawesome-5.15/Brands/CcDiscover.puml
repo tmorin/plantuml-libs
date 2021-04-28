@@ -4,7 +4,7 @@ sprite $CcDiscoverLg [20x18/16z] {
 fSk30KGn303G_2B6_jEURRmoWWSqxc3z8tDpAgDY5-JcKMGcT5A4peueaqlOkyZGMc31QQXToeXLI5bauU14PQsFEDvb9YnrnGO0j3eBRW0NkJHgS72O3MKa
 OgOjIT8jkpJWWJK
 }
-!procedure CcDiscover($id, $name="Cc Discover", $tech="")
+!procedure CcDiscover($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/CcDiscover', $name, $tech)
 !endprocedure
 !procedure CcDiscoverCard($id, $funcName="", $content="")

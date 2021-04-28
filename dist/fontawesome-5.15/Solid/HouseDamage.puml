@@ -4,7 +4,7 @@ sprite $HouseDamageLg [20x18/16z] {
 NSo53KKn5CFGbF7M-q_xyR55qIbeoziAkXSNa9JDchOIc44gC3VwJgS9TbY5eThKORFlR6hGLJTp0uh6_qg6vLKCaZFuPYw21I3wnTRoOR6cXQypjwlHMv7I
 _qRSC4lI-E-oVJelXdFpQTN9hPkD88NxFPDSWvkHf7cnjYt_jowz0G
 }
-!procedure HouseDamage($id, $name="House Damage", $tech="")
+!procedure HouseDamage($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/HouseDamage', $name, $tech)
 !endprocedure
 !procedure HouseDamageCard($id, $funcName="", $content="")

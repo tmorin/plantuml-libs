@@ -4,7 +4,7 @@ sprite $GooglePlayLg [20x20/16z] {
 NSzL0aKX409G9cvPx7-rhmFby-WKwWx772StdB7O0wrVDjiJnzWdUo8wMwfzaCNLFiZpOuhfkzWJMzfWSp7ky46ogIMyBnOs7kKizhTu5kuM05pfSumBdGQn
 iC7gW5WuUm9guVs0n9w5fs7AbLW4Tm
 }
-!procedure GooglePlay($id, $name="Google Play", $tech="")
+!procedure GooglePlay($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Brands/GooglePlay', $name, $tech)
 !endprocedure
 !procedure GooglePlayCard($id, $funcName="", $content="")

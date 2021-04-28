@@ -4,7 +4,7 @@ sprite $CompassLg [20x21/16z] {
 PP115i0G4CK-0E3-jsrdMa1M1EG18MogBza935nfJFLTIZQ_rQnKRIk6xYfjHq66PHhCUoPXgkebG8TqlwnmXw5X_5K2azk2Him2UbKPYYhI4UKZvAeAcBwD
 YzqhfA-zqbEPsDAL8EdZSb7iJPCghq-e2eHOihB4Z_vjjbYGnbhJzpm
 }
-!procedure Compass($id, $name="Compass", $tech="")
+!procedure Compass($id, $name="", $tech="")
   IconElement($id, 'fontawesome-5.15/Solid/Compass', $name, $tech)
 !endprocedure
 !procedure CompassCard($id, $funcName="", $content="")
