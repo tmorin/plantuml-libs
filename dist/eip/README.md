@@ -35,20 +35,28 @@ include('eip/style')
 The package provides 7 modules.
 
 
-- [MessageConstruction](MessageConstruction.md) with 7 elements
+- [MessageConstruction](MessageConstruction.md) with 8 elements
 - [MessageRouting](MessageRouting.md) with 11 elements
 - [MessageTransformation](MessageTransformation.md) with 5 elements
 - [MessagingChannels](MessagingChannels.md) with 5 elements
-- [MessagingEndpoints](MessagingEndpoints.md) with 10 elements
+- [MessagingEndpoints](MessagingEndpoints.md) with 11 elements
 - [MessagingSystems](MessagingSystems.md) with 7 elements
 - [SystemManagement](SystemManagement.md) with 7 elements
 
 # Examples
 
-The package provides 1 examples.
+The package provides 3 examples.
 
 
 ## simple
 ![simple](../eip/examples/simple.png)<br>
 [The source file.](../eip/examples/simple.puml)
+
+## message router
+![message router](../eip/examples/message_router.png)<br>
+[The source file.](../eip/examples/message_router.puml)
+
+## pipes and filters
+![pipes and filters](../eip/examples/pipes_and_filters.png)<br>
+[The source file.](../eip/examples/pipes_and_filters.puml)
 

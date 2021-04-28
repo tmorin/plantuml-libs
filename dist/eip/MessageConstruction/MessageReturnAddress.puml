@@ -1,0 +1,13 @@
+@startuml
+sprite $MessageReturnAddressMd [14x9/16z] Om019XO69C3CZinZP6P0uR8mCpCYU4oeF2PabQmiA1eHwX
+sprite $MessageReturnAddressLg [20x13/16z] bOt50O1G34FRo8Vz5yRTUSTeJ01nefIpLjLvqgww6HI8lGQ9v5vBqZvgSJh9b7KI9SP9pFX92m
+!procedure MessageReturnAddress($id, $name="Message Return Address", $tech="")
+  IconElement($id, 'eip/MessageConstruction/MessageReturnAddress', $name, $tech)
+!endprocedure
+!procedure MessageReturnAddressCard($id, $funcName="", $content="")
+  IconCard($id, '<$MessageReturnAddressMd>', '', $funcName, $content)
+!endprocedure
+!procedure MessageReturnAddressGroup($id, $name='Message Return Address', $tech='')
+  IconGroup($id, 'IconGroup', '<$MessageReturnAddressLg>', $name, $tech)
+!endprocedure
+@enduml

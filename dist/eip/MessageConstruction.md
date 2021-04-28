@@ -1,6 +1,6 @@
 # MessageConstruction
 
-The module MessageConstruction contains 7 entries.
+The module MessageConstruction contains 8 entries.
 
 
 
@@ -11,6 +11,7 @@ The module MessageConstruction contains 7 entries.
 |![DocumentMessage](../eip/MessageConstruction/DocumentMessage.element.png)|[eip/MessageConstruction/DocumentMessage](../eip/MessageConstruction/DocumentMessage.md)
 |![EventMessage](../eip/MessageConstruction/EventMessage.element.png)|[eip/MessageConstruction/EventMessage](../eip/MessageConstruction/EventMessage.md)
 |![MessageExpiration](../eip/MessageConstruction/MessageExpiration.element.png)|[eip/MessageConstruction/MessageExpiration](../eip/MessageConstruction/MessageExpiration.md)
+|![MessageReturnAddress](../eip/MessageConstruction/MessageReturnAddress.element.png)|[eip/MessageConstruction/MessageReturnAddress](../eip/MessageConstruction/MessageReturnAddress.md)
 |![MessageSequence](../eip/MessageConstruction/MessageSequence.element.png)|[eip/MessageConstruction/MessageSequence](../eip/MessageConstruction/MessageSequence.md)
 |![ReturnAddress](../eip/MessageConstruction/ReturnAddress.element.png)|[eip/MessageConstruction/ReturnAddress](../eip/MessageConstruction/ReturnAddress.md)
 

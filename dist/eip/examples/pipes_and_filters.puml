@@ -1,0 +1,29 @@
+@startuml
+
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the eip bootstrap
+include('eip/bootstrap')
+
+Title("Pipes and Filters", "from www.enterpriseintegrationpatterns.com")
+
+include('eip/MessagingSystems/MessageSingleGreen')
+include('eip/MessagingSystems/MessageSingleOrange')
+include('eip/MessagingEndpoints/Endpoint')
+
+MessageSingleGreen('msg_green', 'incoming order')
+MessageSingleOrange('msg_orange', "'clean' order")
+
+Endpoint('decrypt', 'Decrypt', 'Filter')
+Endpoint('authenticate', 'Authenticate', 'Filter')
+Endpoint('dedup', 'De-Dup', 'Filter')
+
+msg_green -> decrypt : Pipe
+decrypt -> authenticate : Pipe
+authenticate -> dedup : Pipe
+dedup -> msg_orange : Pipe
+@enduml

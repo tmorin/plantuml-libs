@@ -1,6 +1,6 @@
 # MessagingEndpoints
 
-The module MessagingEndpoints contains 10 entries.
+The module MessagingEndpoints contains 11 entries.
 
 
 
@@ -9,6 +9,7 @@ The module MessagingEndpoints contains 10 entries.
 |![Application](../eip/MessagingEndpoints/Application.element.png)|[eip/MessagingEndpoints/Application](../eip/MessagingEndpoints/Application.md)
 |![CompetingConsumers](../eip/MessagingEndpoints/CompetingConsumers.element.png)|[eip/MessagingEndpoints/CompetingConsumers](../eip/MessagingEndpoints/CompetingConsumers.md)
 |![DurableSubscriberLock](../eip/MessagingEndpoints/DurableSubscriberLock.element.png)|[eip/MessagingEndpoints/DurableSubscriberLock](../eip/MessagingEndpoints/DurableSubscriberLock.md)
+|![Endpoint](../eip/MessagingEndpoints/Endpoint.element.png)|[eip/MessagingEndpoints/Endpoint](../eip/MessagingEndpoints/Endpoint.md)
 |![EventDrivenConsumer](../eip/MessagingEndpoints/EventDrivenConsumer.element.png)|[eip/MessagingEndpoints/EventDrivenConsumer](../eip/MessagingEndpoints/EventDrivenConsumer.md)
 |![MessageDispatcher](../eip/MessagingEndpoints/MessageDispatcher.element.png)|[eip/MessagingEndpoints/MessageDispatcher](../eip/MessagingEndpoints/MessageDispatcher.md)
 |![MessagingGateway](../eip/MessagingEndpoints/MessagingGateway.element.png)|[eip/MessagingEndpoints/MessagingGateway](../eip/MessagingEndpoints/MessagingGateway.md)
