@@ -4,7 +4,7 @@ sprite $EfsInfrequentAccessLg [20x20/16z] {
 bL055WKW27iA2_3-v_tT_Mt9RVNFwExZTMDombL6-c85fAGW0qTBOx3i25Tni8ysCHAxbI7XR5jmJJIrxcpDQV9YKmZM398ANHhFKO16y0OWCac4-jRc2ZGV
 RBlrQEE-TTxQoebaua4P1TmlvFftR04
 }
-!procedure EfsInfrequentAccess($id, $name="Efs Infrequent Access", $tech="")
+!procedure EfsInfrequentAccess($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Storage/EfsInfrequentAccess', $name, $tech)
 !endprocedure
 !procedure EfsInfrequentAccessCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsSystemsManagerRunCommandLg [20x20/16z] {
 fSd70SGm4CD0R2BTVyCN98S2F4-0zqQtPYj5Nex8_ibHTMrjSdvAwctQPZF47z13MPuIFlnte5gVRinV2iTkodHaPcZDiXmchJ-JOWbpws4fSLEnJ7Dpi6Yo
 jcopfHx9Ery
 }
-!procedure AwsSystemsManagerRunCommand($id, $name="Aws Systems Manager Run Command", $tech="")
+!procedure AwsSystemsManagerRunCommand($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsSystemsManagerRunCommand', $name, $tech)
 !endprocedure
 !procedure AwsSystemsManagerRunCommandCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $CustomerEnablementLg [20x20/16z] {
 RS_L0O00549HunNW_klQhTS-NzZyrhvQ27oKxMmK9L7xetQR4_VdQLAQfNGpmOCCXmwRdmQw4rOwBMhmAXygxZQVCxojxry6kEJ0pT8T4jnJjossR37ekTdz
 jXdy-xTxcsKzYiMwLxFzD04
 }
-!procedure CustomerEnablement($id, $name="Customer Enablement", $tech="")
+!procedure CustomerEnablement($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/CustomerEnablement/CustomerEnablement', $name, $tech)
 !endprocedure
 !procedure CustomerEnablementCard($id, $funcName="", $content="")

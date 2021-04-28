@@ -4,7 +4,7 @@ sprite $IoTBankLg [20x20/16z] {
 RP27WSH020D1B8B__Wi-mUKW1-nPiesWottDGsNqSvpwkEbaPxEACdckY0W9rpSNPjZ8VKsa6Qh5a4LMGgmBumVok3mFYVLZ2zrZ1PimPw13fbo12BfvL4oP
 R6m1_VgTASplJ47BF3gNqQV6CjJDRseCA9afYxht3FpbJV_0hMV3G_AxxU15FBztzNkdtxk_
 }
-!procedure IoTBank($id, $name="Io T Bank", $tech="")
+!procedure IoTBank($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTBank', $name, $tech)
 !endprocedure
 !procedure IoTBankCard($id, $funcName="", $content="")

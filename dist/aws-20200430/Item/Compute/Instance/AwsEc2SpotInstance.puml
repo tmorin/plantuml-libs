@@ -4,7 +4,7 @@ sprite $AwsEc2SpotInstanceLg [20x20/16z] {
 VL25WSKW52Ew_yY7dNrxrLWB6Hy62NwHEE2cJOr1BOw5V6GBvOdrDtLVeKsoIJIqINl5Xpp0BZIdymAT6CY1p36JzfZluRmwUQqtnlEzELnzEF5mNFntTavu
 _X70YOa5xrewaRKNVypGS99oB59t8_rjfvVwtm5-ktBhtPKVElqmNm
 }
-!procedure AwsEc2SpotInstance($id, $name="Aws Ec2 Spot Instance", $tech="")
+!procedure AwsEc2SpotInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2SpotInstance', $name, $tech)
 !endprocedure
 !procedure AwsEc2SpotInstanceCard($id, $funcName="", $content="")

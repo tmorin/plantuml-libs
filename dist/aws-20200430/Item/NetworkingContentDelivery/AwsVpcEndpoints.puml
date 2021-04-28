@@ -4,7 +4,7 @@ sprite $AwsVpcEndpointsLg [20x20/16z] {
 RL05WWGn3282vFyllcqwvqibhhY8wgx03vGjKdPzgUJ48gr7PQxhEj7NYuYsCcK6g7K0Xf5I1WSuxixph2gz2916-8IBU84RwAX3klBOUdMgxY3Px9b7nxuw
 _jBLaYeOu1ExDTp68UlWs5vwFSJczh8zOu8sO-Bs31tZL6PD0TJN3aAs4g3VxkhzJj_j_WC
 }
-!procedure AwsVpcEndpoints($id, $name="Aws Vpc Endpoints", $tech="")
+!procedure AwsVpcEndpoints($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcEndpoints', $name, $tech)
 !endprocedure
 !procedure AwsVpcEndpointsCard($id, $funcName="", $content="")

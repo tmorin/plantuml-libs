@@ -4,7 +4,7 @@ sprite $IoTCarLg [20x20/16z] {
 TP070aCX349_0W7lV-8wkflofq_Cklw9WSIyWqyKXbX5mN57-j1nwJsCbfF-PEQquR2SYiamNv3EVacUNs7wk5XwRt3UqvUbYrBkT2DLkLYboOsOyc91ULG9
 e4isS-T82Gix1oJSQ-7E3SMkfQcvwQsPGJEhVgQzRW
 }
-!procedure IoTCar($id, $name="Io T Car", $tech="")
+!procedure IoTCar($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTCar', $name, $tech)
 !endprocedure
 !procedure IoTCarCard($id, $funcName="", $content="")

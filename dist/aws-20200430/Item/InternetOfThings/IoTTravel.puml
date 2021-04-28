@@ -4,7 +4,7 @@ sprite $IoTTravelLg [20x20/16z] {
 RL07WiH0249GDF__y4svlaiopGxO88Y8StoZuSWCexyiMLFZRg-ZyffCBP3YWe-nX0qHa8C5i4UGvSTmbJbDeCX7sTCkM2VEGvGJeB2i6XDX0L6zhEbJ4g7M
 wTu0ssGhZerQfadCQDiGfsUnbxbzSkcHgbc5ojJfSMUEBY6S1NtD3DIZk-dEl6qoW22W-gt1bS7vNgltchvg_m4
 }
-!procedure IoTTravel($id, $name="Io T Travel", $tech="")
+!procedure IoTTravel($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTTravel', $name, $tech)
 !endprocedure
 !procedure IoTTravelCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsEc2R5InstanceLg [20x20/16z] {
 RL050i10249GxlylNlTakx812nZGjHqemaZjsuOikyQrvHObn0qLm7JWWN2I-jh49VTjMtBbiTh8VI66jSVHcRIEkBqUIukDHxt3PdDzFdimevZBxUvnjCJH
 evkbcxdZrcZGQDLhsca_0m
 }
-!procedure AwsEc2R5Instance($id, $name="Aws Ec2 R5 Instance", $tech="")
+!procedure AwsEc2R5Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2R5Instance', $name, $tech)
 !endprocedure
 !procedure AwsEc2R5InstanceCard($id, $funcName="", $content="")

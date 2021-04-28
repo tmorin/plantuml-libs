@@ -4,7 +4,7 @@ sprite $AwsInspectorLg [20x20/16z] {
 bSz5WW8134JH6QZwiVkV5uUsLRzbF7tEpEn35KHjGnWmwv2DBUmbbCOb6STI1X5MWLUnK8e9hsDmjMiL6t2hvGlCDrZ2lkAGbiD3OHi5MXvBlqse5vdP4zTE
 zzQaKEyLrGVJ9zm1
 }
-!procedure AwsInspector($id, $name="Aws Inspector", $tech="")
+!procedure AwsInspector($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsInspector', $name, $tech)
 !endprocedure
 !procedure AwsInspectorCard($id, $funcName="", $content="")

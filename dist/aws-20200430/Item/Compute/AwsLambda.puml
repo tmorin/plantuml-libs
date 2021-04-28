@@ -1,7 +1,7 @@
 @startuml
 sprite $AwsLambdaMd [14x14/16z] VOkt0SC00C8M1Fp_SEBURIQQUbEIGn3obaoZmwPw7mlL7aHPnu2yaJZieuhjYcaYQXJJj81R8_TJVm
 sprite $AwsLambdaLg [20x20/16z] fOr9SWD10C8gOTF_FvmzjdkkeoC5YBjKji9uCE9j6aSM84UHIc7YO6ZN8eslnRvLmqVHyRLOuvzYNmGboQ6kmB_gzp1WkDJWGCr-QviAqvP7PXb6P9LxV08
-!procedure AwsLambda($id, $name="Aws Lambda", $tech="")
+!procedure AwsLambda($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsLambda', $name, $tech)
 !endprocedure
 !procedure AwsLambdaCard($id, $funcName="", $content="")

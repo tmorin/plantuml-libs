@@ -4,7 +4,7 @@ sprite $AwsEc2C5NInstanceLg [20x20/16z] {
 RL250G0X4893SF-9l_l5k4uiA4BNTy25e6d_DZGdxjVNDY-1DsIWMeW7c5Qbhqu5-AqpeFH5LuNIhklHvcUh8eBS_4e1iz08TiXegy6E1P5fugpXj6hcUkuQ
 v7Al6gDUHZsFPXliOB2hyKv7kvy1
 }
-!procedure AwsEc2C5NInstance($id, $name="Aws Ec2 C5 N Instance", $tech="")
+!procedure AwsEc2C5NInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2C5NInstance', $name, $tech)
 !endprocedure
 !procedure AwsEc2C5NInstanceCard($id, $funcName="", $content="")

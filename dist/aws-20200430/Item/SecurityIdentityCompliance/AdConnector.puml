@@ -4,7 +4,7 @@ sprite $AdConnectorLg [20x20/16z] {
 POy55W0X24JfmViVU5EUDJRvfLz2XxJ5OKk6RYOF4gmcpcSB6uPwSl9a4bI18NIG74260ZBMSbST1YBIdvjxbSqFCUBZ6ENuMR3GohHdPGiLD9-K6YvFWWqf
 VXlHd8ilb-ZiCMo3PMXYdjN_TWC
 }
-!procedure AdConnector($id, $name="Ad Connector", $tech="")
+!procedure AdConnector($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AdConnector', $name, $tech)
 !endprocedure
 !procedure AdConnectorCard($id, $funcName="", $content="")

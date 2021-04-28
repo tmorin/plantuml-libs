@@ -4,7 +4,7 @@ sprite $AwsGuardDutyLg [20x20/16z] {
 fP1L0iD024GhZD2v_trBNVErBrd3uRHELAMyImmTku-2Nw8Yscwm7iA04GQ5o2CMNQpvZKVCYJMoeJmnRx9oN1gkbqtPpHSatdmZv9OZK5wrD8Q-rVAgURZL
 lDtRQmRhd04
 }
-!procedure AwsGuardDuty($id, $name="Aws Guard Duty", $tech="")
+!procedure AwsGuardDuty($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsGuardDuty', $name, $tech)
 !endprocedure
 !procedure AwsGuardDutyCard($id, $funcName="", $content="")

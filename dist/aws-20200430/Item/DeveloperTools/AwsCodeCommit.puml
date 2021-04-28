@@ -4,7 +4,7 @@ sprite $AwsCodeCommitLg [20x20/16z] {
 ZP050WD120Ch14ZI_t_tl6utwxEEzcFxJJ7AhouwA7bbSnKPPx4vSrq88jJ82S1N9m7oXExEZOPbRSvzJWlH5drrmMMXKb5yMEVEH5LaNk-LAkYfNDTDRbh2
 vRZRUOMpBfsMTNFezGwIkjv1j2MifE-nyXNjPmG
 }
-!procedure AwsCodeCommit($id, $name="Aws Code Commit", $tech="")
+!procedure AwsCodeCommit($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/DeveloperTools/AwsCodeCommit', $name, $tech)
 !endprocedure
 !procedure AwsCodeCommitCard($id, $funcName="", $content="")

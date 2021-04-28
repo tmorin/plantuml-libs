@@ -4,7 +4,7 @@ sprite $CustomerEngagementLg [20x20/16z] {
 RSXP0e8050B0IWKUTF_hkkywd_DvzRsPgdp1xtYEitEqtYYUN2u2IU1or7WwNJ8T81vNgWui6STr4WN6tN4iLQbjeTFDfEGusFbJiOyZW0xbyoKf9AURJNEw
 NCn7NM2wXy-R0G
 }
-!procedure CustomerEngagement($id, $name="Customer Engagement", $tech="")
+!procedure CustomerEngagement($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/CustomerEngagement/CustomerEngagement', $name, $tech)
 !endprocedure
 !procedure CustomerEngagementCard($id, $funcName="", $content="")

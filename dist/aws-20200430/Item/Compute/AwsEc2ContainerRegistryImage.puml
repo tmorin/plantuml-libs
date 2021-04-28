@@ -4,7 +4,7 @@ sprite $AwsEc2ContainerRegistryImageLg [20x20/16z] {
 VT050i9044FHaIHm_nCpmMlxww--SLhlCgdndsgiOnFMbaUZkBT6i7TMAcKqVsPa3O5VIwNlrm0_fbO5Xeosva3Ajxc-brU-CMzbcMX3k5JklzbOEpFYRUTZ
 THpJqnu
 }
-!procedure AwsEc2ContainerRegistryImage($id, $name="Aws Ec2 Container Registry Image", $tech="")
+!procedure AwsEc2ContainerRegistryImage($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsEc2ContainerRegistryImage', $name, $tech)
 !endprocedure
 !procedure AwsEc2ContainerRegistryImageCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $IoTCameraLg [20x20/16z] {
 TP07aWGn2CG8ZRYw_pzuySQ9FT4gEO3THPwHSxk-o3jHbSZsDsANbuLjmZBLmzASUWvfZPOO_o1NHnZfeq1r5MkFQa6EjpuA-g-n08qNHOLLCrZE6Yp6OcdP
 zMQk5oDVdbvx37Ewd-kzziX24JbxP8ZAyTGuHQt0-BgexQ875xswxkbr7W
 }
-!procedure IoTCamera($id, $name="Io T Camera", $tech="")
+!procedure IoTCamera($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTCamera', $name, $tech)
 !endprocedure
 !procedure IoTCameraCard($id, $funcName="", $content="")

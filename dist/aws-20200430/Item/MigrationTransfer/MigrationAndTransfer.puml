@@ -4,7 +4,7 @@ sprite $MigrationAndTransferLg [20x20/16z] {
 VO_5WSLG3CH-m9xHklz-Dyo9Rj93_nvfBep9d50pDFvEV3SoTMrf51nRIJNO4DcQvotksVOHGs1mOjldh447htIjPpCT4CuylEk-Xxutv_z9oMKE8hZD1g_p
 biUc4uwntVWzyGy
 }
-!procedure MigrationAndTransfer($id, $name="Migration And Transfer", $tech="")
+!procedure MigrationAndTransfer($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/MigrationTransfer/MigrationAndTransfer', $name, $tech)
 !endprocedure
 !procedure MigrationAndTransferCard($id, $funcName="", $content="")

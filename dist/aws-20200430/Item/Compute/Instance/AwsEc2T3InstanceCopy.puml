@@ -4,7 +4,7 @@ sprite $AwsEc2T3InstanceCopyLg [20x20/16z] {
 RP250SGm30DFCkq_yMEvlN3C1h28RLieqsJyjnzPtJNRbZ-jG3jHu6nnG9rsNF_2KEU_WkWHoBPiGDFnrtDDk7hHM_ove7FnT_XJQukn_4NMASOFiSMuv_AK
 yrDjznuyz-gvf_VUlm4
 }
-!procedure AwsEc2T3InstanceCopy($id, $name="Aws Ec2 T3 Instance Copy", $tech="")
+!procedure AwsEc2T3InstanceCopy($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2T3InstanceCopy', $name, $tech)
 !endprocedure
 !procedure AwsEc2T3InstanceCopyCard($id, $funcName="", $content="")

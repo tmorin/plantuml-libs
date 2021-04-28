@@ -4,7 +4,7 @@ sprite $AwsCloudFrontDownloadDistributionLg [20x20/16z] {
 VL3L0KD137eHmluJrmZrDbztH9135TLTSJnLaGCCMNTec7eaPo7Yzh_XeAQW6SrYRhVsvjwwtcGQyyqZDAPT3KQPgTiggc7LLeo-Oy0TqsvgBhKhZexhlMXn
 h1OW4rWjrjnLRSrtRpFsvWnSu9Ui_cNwdlqP
 }
-!procedure AwsCloudFrontDownloadDistribution($id, $name="Aws Cloud Front Download Distribution", $tech="")
+!procedure AwsCloudFrontDownloadDistribution($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsCloudFrontDownloadDistribution', $name, $tech)
 !endprocedure
 !procedure AwsCloudFrontDownloadDistributionCard($id, $funcName="", $content="")

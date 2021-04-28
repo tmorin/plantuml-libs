@@ -4,7 +4,7 @@ sprite $ElasticLoadBalancingElbApplicationLoadBalancerLg [20x20/16z] {
 RP1N0eHG20C1GvAz_uLNi7mvriphn0B9bX0lSDTyg_rOAkCcnKjnUkh4cBHJZKTa1YRFfCvnrtpZqe6UfAwJLkmORO-3RJUFxIt5KabcnIBlX-Q9kS7hqhZs
 dkiq0tzjZEhV3DUiqGfg5W_th07UX-Y-ZqA40smJ96Yi22Z9WwhI-M4ATmrkxlHHgy-QVjN-3m
 }
-!procedure ElasticLoadBalancingElbApplicationLoadBalancer($id, $name="Elastic Load Balancing Elb Application Load Balancer", $tech="")
+!procedure ElasticLoadBalancingElbApplicationLoadBalancer($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/ElasticLoadBalancingElbApplicationLoadBalancer', $name, $tech)
 !endprocedure
 !procedure ElasticLoadBalancingElbApplicationLoadBalancerCard($id, $funcName="", $content="")

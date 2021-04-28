@@ -4,7 +4,7 @@ sprite $AwsSageMakerNotebookLg [20x20/16z] {
 XP150W1H24AnqBd_WQUx_jlP0aRaX0ecedYYTCuvJb2dL5SEveA2Ftq6Mv6rZmuuOu9hpYljFYiC898JkVPfKY6wW5CE8lASpPoJtpV0zv_FkJyFsdtldZwz
 7m
 }
-!procedure AwsSageMakerNotebook($id, $name="Aws Sage Maker Notebook", $tech="")
+!procedure AwsSageMakerNotebook($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/MachineLearning/AwsSageMakerNotebook', $name, $tech)
 !endprocedure
 !procedure AwsSageMakerNotebookCard($id, $funcName="", $content="")

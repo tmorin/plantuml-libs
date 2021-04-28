@@ -4,7 +4,7 @@ sprite $AwsEc2DbOnInstanceLg [20x20/16z] {
 RP250G0n308B8NJ_YT-bncildd8eZel4-Na55rEYOJp8TXwNyxfkhooDacSkksFMzUaOLdwnpaTrVjO1qJF4vPWjaHHT3TGWc6vxOTMXhAqV1PB5RI-Xw-D_
 1mu-xDjLC1jsxnJWnnhHTqUbbNoAEm
 }
-!procedure AwsEc2DbOnInstance($id, $name="Aws Ec2 Db On Instance", $tech="")
+!procedure AwsEc2DbOnInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2DbOnInstance', $name, $tech)
 !endprocedure
 !procedure AwsEc2DbOnInstanceCard($id, $funcName="", $content="")

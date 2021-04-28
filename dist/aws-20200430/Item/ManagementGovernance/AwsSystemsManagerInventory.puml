@@ -4,7 +4,7 @@ sprite $AwsSystemsManagerInventoryLg [20x20/16z] {
 POw74GGX2039OFyDFsRvsp6n3W4sHF07chjXKHe28A7NSEZz6j1AMYKeht5Uq0t4WEM1mVB49Ygv9WsbEnENN32mvQpbykf8ATTo9LT3I-vOOJLthfgxLaZ9
 NMiwSbBcjJAG1DpKpdAGCKGX1Se7_04
 }
-!procedure AwsSystemsManagerInventory($id, $name="Aws Systems Manager Inventory", $tech="")
+!procedure AwsSystemsManagerInventory($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsSystemsManagerInventory', $name, $tech)
 !endprocedure
 !procedure AwsSystemsManagerInventoryCard($id, $funcName="", $content="")

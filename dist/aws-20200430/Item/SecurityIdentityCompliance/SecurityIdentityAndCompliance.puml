@@ -4,7 +4,7 @@ sprite $SecurityIdentityAndComplianceLg [20x20/16z] {
 dS_50SH030H1Oyz8pZ_VanbVrylrs-Qpzj5CZckfjYnoRfhdVFgm46YvQRC0nX68qn068quhcbmJtKtwrpIRhcQHTYAVbcY9k9ZHE0hbQJDMpjtclzUAM2-U
 JRSyplQg-Ue7
 }
-!procedure SecurityIdentityAndCompliance($id, $name="Security Identity And Compliance", $tech="")
+!procedure SecurityIdentityAndCompliance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/SecurityIdentityAndCompliance', $name, $tech)
 !endprocedure
 !procedure SecurityIdentityAndComplianceCard($id, $funcName="", $content="")

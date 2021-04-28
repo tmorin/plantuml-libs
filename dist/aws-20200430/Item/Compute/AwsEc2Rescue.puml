@@ -4,7 +4,7 @@ sprite $AwsEc2RescueLg [20x20/16z] {
 RL050W0n2487xFy_Fg_BzKm0oF4Q2K1wsoIai8qaSt-f4hT7p35cRCynTXjjmER39aAeHLqs4k6eLQ_35gwb6cMijG6oPMqTf-mDBYixTbjK9hEplNDzv3Oz
 6YmDvfvRfq6dLQVffJrvQRy
 }
-!procedure AwsEc2Rescue($id, $name="Aws Ec2 Rescue", $tech="")
+!procedure AwsEc2Rescue($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsEc2Rescue', $name, $tech)
 !endprocedure
 !procedure AwsEc2RescueCard($id, $funcName="", $content="")

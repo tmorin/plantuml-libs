@@ -4,7 +4,7 @@ sprite $AwsEmrHdfsClusterLg [20x20/16z] {
 VL1L0WL12C8HnDdxt_TrRl5fKFWWIU8VCSaUgvc1gjMi8zprF_9iGmlp8z29DE1ICtX7TG0eSG8acnARm92Nye3qzCIYhHZsTEThrWm0q3807CxMloP94uYF
 Hf3KoujUNlOydsHRTx3kwhnJfFHYlm8
 }
-!procedure AwsEmrHdfsCluster($id, $name="Aws Emr Hdfs Cluster", $tech="")
+!procedure AwsEmrHdfsCluster($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Analytics/AwsEmrHdfsCluster', $name, $tech)
 !endprocedure
 !procedure AwsEmrHdfsClusterCard($id, $funcName="", $content="")

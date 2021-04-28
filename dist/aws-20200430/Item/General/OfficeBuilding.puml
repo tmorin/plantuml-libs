@@ -4,7 +4,7 @@ sprite $OfficeBuildingLg [20x20/16z] {
 lP053WGX34Mfjt3_-oukiOtEH_kIQXfY5L5Ejw1eLO6ReQD8lLv6NlSVbZqCYC32yqGGH0XODr70P6xc7C7jNIomElQDiLbrdFlozU7hN_kQLyUdPcSHx9it
 Axgrnyg7zV7_
 }
-!procedure OfficeBuilding($id, $name="Office Building", $tech="")
+!procedure OfficeBuilding($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/General/OfficeBuilding', $name, $tech)
 !endprocedure
 !procedure OfficeBuildingCard($id, $funcName="", $content="")

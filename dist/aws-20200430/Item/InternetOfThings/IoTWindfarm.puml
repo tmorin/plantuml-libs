@@ -4,7 +4,7 @@ sprite $IoTWindfarmLg [20x20/16z] {
 RP250GH120CJlF-AVuK_p-aE3gPaNEJw74e4pHX8jCpBAp9ZVDms2j6MYSI2hcYfZSS1oJfOSh1AkVXfeFtYxyVaP1K2XaA6B7Cx4zGKnb3vzalbO1thfSt0
 Q6QIkcFF6Y4etJNW9wCzUXuCpvvzCx_lO7mbx6jNtplzslqF
 }
-!procedure IoTWindfarm($id, $name="Io T Windfarm", $tech="")
+!procedure IoTWindfarm($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTWindfarm', $name, $tech)
 !endprocedure
 !procedure IoTWindfarmCard($id, $funcName="", $content="")

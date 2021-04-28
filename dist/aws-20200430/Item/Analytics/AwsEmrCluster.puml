@@ -4,7 +4,7 @@ sprite $AwsEmrClusterLg [20x20/16z] {
 XL3L0KLH2485ETxzzttToQT1uOOYYMV4a2jVPWQwNsOhmgkVHvvbQ6C1gUwkMeKouDPY3JFB4m1Q783KjDGsaFBMJaXaL6LQjYBjyIhohC0006q9uCViwLVd
 MGDnrt00mPCNNRo0Fa1yzFmXsyyEBbtzxnGbNTZt
 }
-!procedure AwsEmrCluster($id, $name="Aws Emr Cluster", $tech="")
+!procedure AwsEmrCluster($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Analytics/AwsEmrCluster', $name, $tech)
 !endprocedure
 !procedure AwsEmrClusterCard($id, $funcName="", $content="")

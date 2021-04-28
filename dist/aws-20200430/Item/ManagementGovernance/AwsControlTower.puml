@@ -1,7 +1,7 @@
 @startuml
 sprite $AwsControlTowerMd [14x14/16z] XSor0SD050FGWEYq_xw9sUxkLH_LAVdPaRsCo1bNKwX7QmZVBuLi7QqlPAQRb1fvf2YzWNr8ElK7
 sprite $AwsControlTowerLg [20x20/16z] hL053iG024kGKk3_xpsPQsmZYjNgZMASPo9v70KGVVWaaB6xJBHP1RUFh5JD9fO_SPYgcWB2UGReVsRBRFsj7Gl_70sUjF0e6a1SUBl9u7bz0G
-!procedure AwsControlTower($id, $name="Aws Control Tower", $tech="")
+!procedure AwsControlTower($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsControlTower', $name, $tech)
 !endprocedure
 !procedure AwsControlTowerCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsManagedServicesLg [20x20/16z] {
 bOy5SW1H34Ad6o32l_zrgwdx6uyWynFsfu4_JZq208rVHnqQFopQhwC-ZUnJCTuPompXuidQMSCP9LNqYqtSZAW7uFrrfg_2DCMvk4ERAA1HSscVUnpAHcIL
 lSyy1LogG6XT3Feyc974B5Qega0owhMAo6O0c1VyG0kmPtbTp3-u0m
 }
-!procedure AwsManagedServices($id, $name="Aws Managed Services", $tech="")
+!procedure AwsManagedServices($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/CustomerEnablement/AwsManagedServices', $name, $tech)
 !endprocedure
 !procedure AwsManagedServicesCard($id, $funcName="", $content="")

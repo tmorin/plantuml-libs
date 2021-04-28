@@ -4,7 +4,7 @@ sprite $AwsVpcElasticNetworkInterfaceLg [20x20/16z] {
 VP35eKHH34A9GLx_1N-vDZvd5mzWOf4PXZj2OXMbm8Po35p4H8L3QNOLxYYENV3xvGf03hRbejm5qnXNrZ_9XYmuSXcYg830o1gvg40Z2aBboJ6kuCpjMMDL
 qQt1c3UonxyMBSWWXmbgggklX6lyJ07kRd0VFxzgU-_1irVVF7ts_XS
 }
-!procedure AwsVpcElasticNetworkInterface($id, $name="Aws Vpc Elastic Network Interface", $tech="")
+!procedure AwsVpcElasticNetworkInterface($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcElasticNetworkInterface', $name, $tech)
 !endprocedure
 !procedure AwsVpcElasticNetworkInterfaceCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsVpcNatGatewayLg [20x20/16z] {
 RL070WCX20C3YLx__z_YwAvRPXBRmn41jxS1YPcKy3HHRJ-QU4pALqPgHuLtVncvQXbwHvAxW52x6OOQG9wQvZBpLH2dh1mi6nusbniHzSALvXOqnv15B9j6
 IdtKPYyJM6K7JcwxfH6hHwnwt2_vmdB5gs_JngmHcJsVc8tHAWxOKYMtX_wjmQzM_pNzrVuE
 }
-!procedure AwsVpcNatGateway($id, $name="Aws Vpc Nat Gateway", $tech="")
+!procedure AwsVpcNatGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcNatGateway', $name, $tech)
 !endprocedure
 !procedure AwsVpcNatGatewayCard($id, $funcName="", $content="")

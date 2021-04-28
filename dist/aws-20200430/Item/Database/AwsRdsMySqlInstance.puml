@@ -4,7 +4,7 @@ sprite $AwsRdsMySqlInstanceLg [20x20/16z] {
 XP05WaKX30EhINZtF_2M_Uw33rwddg2hx8cYp7pIr65nwadcAvGs9OZ4sObiT6Tdeayka4YbQtmnJkjcezEhh1LJRxU9q-tkkrwo6muEg7kdTZClthkZmptw
 k7Ekub1wSESZ7lQoCekFUwC1nC-zI-Y67lTQLgL9TV_cNPUSTq671lWV
 }
-!procedure AwsRdsMySqlInstance($id, $name="Aws Rds My Sql Instance", $tech="")
+!procedure AwsRdsMySqlInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Database/AwsRdsMySqlInstance', $name, $tech)
 !endprocedure
 !procedure AwsRdsMySqlInstanceCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsElasticFileSystemEfsLg [20x20/16z] {
 ZL053W012DefMF__xtKtAsSH-HzLbxgejhHCEJKXiIo4w3mCf9FUTn6M2uW8M1w0oae5QoCZntUrDSimF1r_BCr2XX8zeh2U-aYQrjZIoo2ZxvK9VJC4dmoj
 DYqmVgCwtAQUIYniYxTh1jUi_gC3
 }
-!procedure AwsElasticFileSystemEfs($id, $name="Aws Elastic File System Efs", $tech="")
+!procedure AwsElasticFileSystemEfs($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Storage/AwsElasticFileSystemEfs', $name, $tech)
 !endprocedure
 !procedure AwsElasticFileSystemEfsCard($id, $funcName="", $content="")

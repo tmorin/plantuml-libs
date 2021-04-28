@@ -4,7 +4,7 @@ sprite $AwsLocalZonesLg [20x20/16z] {
 ZOu7aiC020Dd3h7m_nSVfCZfYTpbtO6-f2Pzb-eNGPEw-wS0ajGX3Y954GT7LB2F5iOGlHIPNUuI_K4WToaHKoZTvNG9Sx-usohFCzA3LwRcoQhUCCeFWmom
 -1cptMtpi6qwkr_Vfzgh_Pv_
 }
-!procedure AwsLocalZones($id, $name="Aws Local Zones", $tech="")
+!procedure AwsLocalZones($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsLocalZones', $name, $tech)
 !endprocedure
 !procedure AwsLocalZonesCard($id, $funcName="", $content="")

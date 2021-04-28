@@ -4,7 +4,7 @@ sprite $VpcAccessPointsLg [20x20/16z] {
 VOk50S0m40AH9zr_uhhRnI-0RrH9wIHOAQt7ffhsUEFMMyvEGEdYxBexTcfrScgjQ5k7Sma1G9oSom6JSvTppGWtnonVSH1Y8G90gg00fw0DhB6jDZb7E67P
 CgxG9cva14-9FmO
 }
-!procedure VpcAccessPoints($id, $name="Vpc Access Points", $tech="")
+!procedure VpcAccessPoints($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Storage/VpcAccessPoints', $name, $tech)
 !endprocedure
 !procedure VpcAccessPointsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsEventBridgeLg [20x20/16z] {
 bL25RG1139F-Oip-yvQPQt70rFyWqAVP2AubluuofIfotWmz9ztTN6-dGfoIdMU5DWUOQ8J76TZ2hR2QnvcdVLp3k-F7sUxph7sSbSF2hT7ocKz41ZXkbUUP
 q3Z2sxHNThSxXtt6UaWrqxTTFEOVZt-kx7VS0W
 }
-!procedure AwsEventBridge($id, $name="Aws Event Bridge", $tech="")
+!procedure AwsEventBridge($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ApplicationIntegration/AwsEventBridge', $name, $tech)
 !endprocedure
 !procedure AwsEventBridgeCard($id, $funcName="", $content="")

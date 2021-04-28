@@ -1,7 +1,7 @@
 @startuml
 sprite $AwsForecastMd [14x14/16z] VSV70SGW34JHooJKVx_4NTidlWXwTQ_jAbdGAV1Mcu_1r4_Y71t5fEoV2FkLh8z-_KGA8hdLyfkwDm
 sprite $AwsForecastLg [20x20/16z] hSZ50SD034JHm82W_te3PZZQVr6lxYkdDpINzTHeeeT-Bn6JHLTr5qZNb5oLCdzPYtKJi2oj5WB9lH71t9j8CGxcE9jyCXCXA41pDd0EggbSgwjz0G
-!procedure AwsForecast($id, $name="Aws Forecast", $tech="")
+!procedure AwsForecast($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/MachineLearning/AwsForecast', $name, $tech)
 !endprocedure
 !procedure AwsForecastCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsVpcLg [20x20/16z] {
 bT350GDG30BG2eG4zf-txjvt-nBrVvBuKPV6zqW9VVitLKcCgfk_y4wQGYxVSAvJFFwCUAx3ednmUYDsM3x0n8b9ZNYEWNg7S0RqqTIEoF7rpjaZEetohG95
 Ahv5h44_aFhBmhxR0W
 }
-!procedure AwsVpc($id, $name="Aws Vpc", $tech="")
+!procedure AwsVpc($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpc', $name, $tech)
 !endprocedure
 !procedure AwsVpcCard($id, $funcName="", $content="")

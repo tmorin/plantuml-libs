@@ -4,7 +4,7 @@ sprite $UsersLg [20x20/16z] {
 HOvXceOX14M1MxJ__GxVg-dykC-f0YeKIlIaGIBnfE6eI2x94IBP5I54Ej84sBCbdH7KUER9BQgoyqHwNmKLTYAEjOKJ_vhAaOc-i4N5GYS-DwG3jfKAtGPu
 JofiVfGKJ1-zFxBaiNgVpFLkE571_KINm3N4YBKCeVHZsxlpDM_yxcJF7WiNlrCK_W-wtny
 }
-!procedure Users($id, $name="Users", $tech="")
+!procedure Users($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/General/Users', $name, $tech)
 !endprocedure
 !procedure UsersCard($id, $funcName="", $content="")

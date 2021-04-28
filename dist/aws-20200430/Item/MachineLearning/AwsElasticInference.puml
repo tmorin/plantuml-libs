@@ -4,7 +4,7 @@ sprite $AwsElasticInferenceLg [20x20/16z] {
 fKvN0a8n2FEL119w__Ew5Vr-tOMiFZ-iRVsN4Y10JyLOtk5T6AYoL6ojg656CwdEvBV42bg0T-9TOpJCyYerFpKbORXzW5zkIYlSxS2aAoIi96goM1j0OAt9
 33G2uWK_2K5cyAYSMbkFhJuzRW
 }
-!procedure AwsElasticInference($id, $name="Aws Elastic Inference", $tech="")
+!procedure AwsElasticInference($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/MachineLearning/AwsElasticInference', $name, $tech)
 !endprocedure
 !procedure AwsElasticInferenceCard($id, $funcName="", $content="")

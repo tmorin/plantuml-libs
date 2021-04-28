@@ -4,7 +4,7 @@ sprite $IoTSensorLg [20x20/16z] {
 POpN0SGm24C12NJPV-6pJNhUZmh55aw6FQ6I9NzMDe3irgezVzTkr66CktNnTbA-19_Vo0v0QmqbkzgsMNPszTTCxu-nFc3Wf4zLluhCB0vgcB0RvEKTYwYA
 TkDjAH-eHkTHkDt6x4AG6oHSdOSuP71rXUIDEGg-2Fi3
 }
-!procedure IoTSensor($id, $name="Io T Sensor", $tech="")
+!procedure IoTSensor($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTSensor', $name, $tech)
 !endprocedure
 !procedure IoTSensorCard($id, $funcName="", $content="")

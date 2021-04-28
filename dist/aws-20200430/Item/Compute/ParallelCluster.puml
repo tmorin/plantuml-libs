@@ -4,7 +4,7 @@ sprite $ParallelClusterLg [20x20/16z] {
 dP054W8130C7aZIv_pyOQGztTgIkUONjV4D9lY_T5fGRByL5Hz-bhs4GTLi9I-soo3LHH0a72HraEwicG8wCdMxl1Plfn1w6YGknfdFt4NYGwi1Gd2W0qxSN
 CY8kVraNfNABoPlAlrwx1m
 }
-!procedure ParallelCluster($id, $name="Parallel Cluster", $tech="")
+!procedure ParallelCluster($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/ParallelCluster', $name, $tech)
 !endprocedure
 !procedure ParallelClusterCard($id, $funcName="", $content="")

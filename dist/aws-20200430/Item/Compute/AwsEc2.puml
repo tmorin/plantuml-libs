@@ -1,7 +1,7 @@
 @startuml
 sprite $AwsEc2Md [14x14/16z] VKr50e1043fCmFzVx9Ijoutc5n0uY0NKXi32mJ0JLV5Xa2YvD8j63BX2kvCCwjvCF4eoU_HQ8P8f0dvxRcU93G
 sprite $AwsEc2Lg [20x20/16z] hS-73S0m30D1G1H9xJznN14Du4-_DBjUbCWHsCZmJ6Xa3Hd7h1jZnMOEQiHmDv_3jOIW6caOji6ERH3kSsxlrc-qPCQWQ_zOcfLjUHnla6TeLDoppthH1m
-!procedure AwsEc2($id, $name="Aws Ec2", $tech="")
+!procedure AwsEc2($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsEc2', $name, $tech)
 !endprocedure
 !procedure AwsEc2Card($id, $funcName="", $content="")

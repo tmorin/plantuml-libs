@@ -4,7 +4,7 @@ sprite $AwsVpcVpnConnectionLg [20x20/16z] {
 LP072WH120JRx77_V-zE4i7QC4rD5WMfCYQQPk53IPw_3nblNX8UPDkzQ0AZezAPXIyYx6Ui_7tmbxDb05fRCU951cMjf-3Q9E8NbyoGck6W3Uy_rClP7PnI
 kSQTfIWhj-C8cwwED5p_foFft7lDBAbDrrMjdJ601G
 }
-!procedure AwsVpcVpnConnection($id, $name="Aws Vpc Vpn Connection", $tech="")
+!procedure AwsVpcVpnConnection($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcVpnConnection', $name, $tech)
 !endprocedure
 !procedure AwsVpcVpnConnectionCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsEc2G3InstanceLg [20x20/16z] {
 RP250KGn2CNoqFqdFlakf5uS01D-R1jf5E7hjX1PbNriiMWvEl44Yn8NL67cppytoFjVWbSBa0ipWReSKgiNl6tLM_sbo_3Q_6r_eVxlrnYgJ4NQBGO2YJN6
 bCkKyrJRq8EXLtDFfzv_0G
 }
-!procedure AwsEc2G3Instance($id, $name="Aws Ec2 G3 Instance", $tech="")
+!procedure AwsEc2G3Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2G3Instance', $name, $tech)
 !endprocedure
 !procedure AwsEc2G3InstanceCard($id, $funcName="", $content="")

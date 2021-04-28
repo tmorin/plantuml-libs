@@ -4,7 +4,7 @@ sprite $InternetGatewayLg [20x20/16z] {
 hSvN0W8n20JGYG5cMEz_NnTiwA--z0huWuKlbYV35Bc1dPot3hJqRNYeMsLTfGHQZZZodgJgFScu0FjWtOh-tyDTwe2m6jr3fDmhIra4JauddPruX0d5P2uq
 MVytUMNB_A25iWRyw0O
 }
-!procedure InternetGateway($id, $name="Internet Gateway", $tech="")
+!procedure InternetGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/General/InternetGateway', $name, $tech)
 !endprocedure
 !procedure InternetGatewayCard($id, $funcName="", $content="")

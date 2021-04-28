@@ -4,7 +4,7 @@ sprite $AwsTrustedAdvisorChecklistSecurityLg [20x20/16z] {
 ZOw50OL03CKgULVOVs3SlmQzL9sJi1MA6KcqjZkcPqs8mmcLfIJopAFpoN5pjXDNfxVzWfouzwD9cfp7iv-eLdxhPrbcrDPlhLrhPWUzMv9aLe5w_DAl4nDP
 q6cbxUk1vKxKuKx-TUiCwkfoTVW8
 }
-!procedure AwsTrustedAdvisorChecklistSecurity($id, $name="Aws Trusted Advisor Checklist Security", $tech="")
+!procedure AwsTrustedAdvisorChecklistSecurity($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsTrustedAdvisorChecklistSecurity', $name, $tech)
 !endprocedure
 !procedure AwsTrustedAdvisorChecklistSecurityCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsOrganizationsOrganizationalUnitLg [20x20/16z] {
 TP255S0m24GFFLxttxVkINuRmm4TH1iaAdzKfE67vLWMLGw8lMHEIAbKyf5H0OimfD-oi6qvjVJndPAJALSkML3TbRvvv24pOgTqsmuPzIfiypvbL-jyQkRD
 eBUHh3UhtapHOG4
 }
-!procedure AwsOrganizationsOrganizationalUnit($id, $name="Aws Organizations Organizational Unit", $tech="")
+!procedure AwsOrganizationsOrganizationalUnit($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOrganizationsOrganizationalUnit', $name, $tech)
 !endprocedure
 !procedure AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")

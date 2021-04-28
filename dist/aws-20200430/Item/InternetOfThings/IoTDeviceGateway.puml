@@ -4,7 +4,7 @@ sprite $IoTDeviceGatewayLg [20x20/16z] {
 TT050aCX20PW-0Es-rzuk7vb-zd6HG0EBTprCTrVo7OZbAd8QNBHRHJfIOcH6mETeT_QDJVfrOBb2HWByscqgm2RVwQgBlV6F0XeQyoqkRNsB2vfipPHjJb3
 0oC5lKonlVEodjRhlPDwh1bkSCpvUY_Q4O7w_wl2gqLy38oBy
 }
-!procedure IoTDeviceGateway($id, $name="Io T Device Gateway", $tech="")
+!procedure IoTDeviceGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTDeviceGateway', $name, $tech)
 !endprocedure
 !procedure IoTDeviceGatewayCard($id, $funcName="", $content="")

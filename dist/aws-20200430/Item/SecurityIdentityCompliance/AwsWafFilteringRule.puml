@@ -4,7 +4,7 @@ sprite $AwsWafFilteringRuleLg [20x20/16z] {
 RP1PSiH024FPrPNx7pWewlINcR4j7cjXCi-gT6bP0jCzG3uq28d0N8IsPmrb4NciEU6m5wo0ORy1ojWJOVZ1eeKhB62EBJmHt2NYR3ayMT-QekzicCu9hV8N
 A35v2B6Sjr1VcGwrElwlu2nGb1MtJIhSSHbIhSWEdTSKX56k6tpUwlkcNxV_1G
 }
-!procedure AwsWafFilteringRule($id, $name="Aws Waf Filtering Rule", $tech="")
+!procedure AwsWafFilteringRule($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsWafFilteringRule', $name, $tech)
 !endprocedure
 !procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")

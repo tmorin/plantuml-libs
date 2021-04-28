@@ -4,7 +4,7 @@ sprite $AwsRdsLg [20x20/16z] {
 ZL05hWKm24i-HGgx_td_zBbrGeD3_ewg9ru6EwfEQ-eWhEqLVrZKYAo914z8Dz5KZPDkbQTOX0bjAulmViqSx7VLK3QAHxXqebiNZGZt05jiNS8evZxouIJC
 8Bm3zAtQlNHmqbSzFyv6GRtQmQjT_Ov_
 }
-!procedure AwsRds($id, $name="Aws Rds", $tech="")
+!procedure AwsRds($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Database/AwsRds', $name, $tech)
 !endprocedure
 !procedure AwsRdsCard($id, $funcName="", $content="")

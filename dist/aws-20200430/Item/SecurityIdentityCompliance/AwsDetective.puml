@@ -4,7 +4,7 @@ sprite $AwsDetectiveLg [20x20/16z] {
 hOv54W9140GZcCfM_lzUrktAvcXxrGku0dlu58JYwccikqDzpHgO6nfvk1A92P6NMcTQngKsirJTkcGXUIZmE9n6bTonih4NCqK3Z01sRTvjrahvTthN2OAF
 OWfGIMr4cCOK2sBpxOCYojBhFtu
 }
-!procedure AwsDetective($id, $name="Aws Detective", $tech="")
+!procedure AwsDetective($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsDetective', $name, $tech)
 !endprocedure
 !procedure AwsDetectiveCard($id, $funcName="", $content="")

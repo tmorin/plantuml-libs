@@ -4,7 +4,7 @@ sprite $AwsSystemsManagerMaintenanceWindowsLg [20x20/16z] {
 PP273KD124Dzd05d_uKZY-JNfqAlm42Ik1CYFt5ngBOII4KsXcPsM8bEZbFkirZ5vRwohz8QzwQZMVRjXYj8Tq5lDr70-PdkWz02bMEI4qZHQiMO2r40y_25
 kcDy_zeXYVpmFsEGpMCNyz_bs3dYsFbzs_q7opzu_cgN7ZzL7ERxzry
 }
-!procedure AwsSystemsManagerMaintenanceWindows($id, $name="Aws Systems Manager Maintenance Windows", $tech="")
+!procedure AwsSystemsManagerMaintenanceWindows($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsSystemsManagerMaintenanceWindows', $name, $tech)
 !endprocedure
 !procedure AwsSystemsManagerMaintenanceWindowsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ElasticLoadBalancingClassicLoadBalancerLg [20x20/16z] {
 FP1POWKW20C7X0Hx__jsKVlcapK9X_Byuk93kODVekTLaLSUWh1kgMFhi0tIMMJfBOp01HEl5lHyDJ5KGufeM-jqLKvOOfhqpXIa3QpkXjbI2V00ATbkHRc1
 EJLxzkJYrSwkL9bxMdrsxuySM1xT7qzBJVUOF5fucgCghzAvtipDXJAkcu7_cTKl6FF1ubBJoI_vCdrLUyP-bHy
 }
-!procedure ElasticLoadBalancingClassicLoadBalancer($id, $name="Elastic Load Balancing Classic Load Balancer", $tech="")
+!procedure ElasticLoadBalancingClassicLoadBalancer($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/ElasticLoadBalancingClassicLoadBalancer', $name, $tech)
 !endprocedure
 !procedure ElasticLoadBalancingClassicLoadBalancerCard($id, $funcName="", $content="")

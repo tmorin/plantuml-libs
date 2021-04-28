@@ -4,7 +4,7 @@ sprite $AwsTransitGatewayLg [20x20/16z] {
 bL150aGX25t02-7-vvtk-QNI3JNv-l9-B4E0nfSLG0I03rEoJRgPhqImhw4NYNYaZwlGqfLYtCC4LplJNORwdXfCHLKe6LYqBUKkz5YSPNdcvTsMRx1yg_rt
 1W
 }
-!procedure AwsTransitGateway($id, $name="Aws Transit Gateway", $tech="")
+!procedure AwsTransitGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsTransitGateway', $name, $tech)
 !endprocedure
 !procedure AwsTransitGatewayCard($id, $funcName="", $content="")

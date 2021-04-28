@@ -4,7 +4,7 @@ sprite $IoTAlexaEnabledDeviceLg [20x20/16z] {
 RP050e1G24D7RNZ_0zkjC_-ZmIA7mspzd19ecKRe85bTJOdpft95HO-OxrNEN5dWfYZ0rVvWBV_ruzkF3l3fHy1IDsO8XLbSB4cAQR0pbbMifDrgBCH3gRNd
 qms0at7sREJwmugR7-Fy5DS5k58E16dNhiWPUYkVE-rXw1LTkuVdMcO2
 }
-!procedure IoTAlexaEnabledDevice($id, $name="Io T Alexa Enabled Device", $tech="")
+!procedure IoTAlexaEnabledDevice($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTAlexaEnabledDevice', $name, $tech)
 !endprocedure
 !procedure IoTAlexaEnabledDeviceCard($id, $funcName="", $content="")

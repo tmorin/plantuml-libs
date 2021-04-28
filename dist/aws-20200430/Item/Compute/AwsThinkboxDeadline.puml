@@ -4,7 +4,7 @@ sprite $AwsThinkboxDeadlineLg [20x20/16z] {
 VT3L0KD120NH8CE5_WkEszFvFElR9saNjP4qgoNXGFEd5QaXqb1zo3KjTq5TdgW69H4rU0QjbtL4urWqNvi7UoJpRtcdvjyw37_kyBL8Pog2rDFktIy0SbUF
 _7j1OHcCyaiFfG6d5vLPgbTL7NphSJS
 }
-!procedure AwsThinkboxDeadline($id, $name="Aws Thinkbox Deadline", $tech="")
+!procedure AwsThinkboxDeadline($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsThinkboxDeadline', $name, $tech)
 !endprocedure
 !procedure AwsThinkboxDeadlineCard($id, $funcName="", $content="")

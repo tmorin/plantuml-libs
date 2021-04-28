@@ -4,7 +4,7 @@ sprite $AwsCloudDirectoryLg [20x20/16z] {
 bP250KCX30KhoPEo_xxzxiRXX-TNHncg1K8sG0l5b6mfEM-Cx3iPy_QScFUcc_tDFY-T2ZDPj7PXnzOfGXjdPLDvwHo89YyTy644Fy1Y7PlKLRDZq0rDSnc3
 ELPr_04
 }
-!procedure AwsCloudDirectory($id, $name="Aws Cloud Directory", $tech="")
+!procedure AwsCloudDirectory($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsCloudDirectory', $name, $tech)
 !endprocedure
 !procedure AwsCloudDirectoryCard($id, $funcName="", $content="")

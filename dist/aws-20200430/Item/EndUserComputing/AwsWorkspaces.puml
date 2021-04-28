@@ -4,7 +4,7 @@ sprite $AwsWorkspacesLg [20x20/16z] {
 fSv74WGn30B0AXkGmFz_x-QTT1sEhPZRwRgAII4fxrIpB0Y4DfjJ557BGl-CZHhjJfOdVsOHqijCu6jucNl0GeN_6v3ghLd-MRfPILZgpRBOow5TmluYEYzR
 dieMW-Rstzuwi3NjwjpF4m
 }
-!procedure AwsWorkspaces($id, $name="Aws Workspaces", $tech="")
+!procedure AwsWorkspaces($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/EndUserComputing/AwsWorkspaces', $name, $tech)
 !endprocedure
 !procedure AwsWorkspacesCard($id, $funcName="", $content="")

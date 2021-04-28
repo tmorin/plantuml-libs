@@ -4,7 +4,7 @@ sprite $AwsShieldLg [20x20/16z] {
 bT25OGKW303HIkuYx3zlvRiBpiEPzyBgMUSm1LWdrAAOui52yHkigBqXlUX9F1erGq_3YUK3iozjDFVcrbP6mjxatpgcHjV6KdCnbVKLlPyOXQ4iglRMKMA5
 VVAI1g65ElsgxhzotWk_
 }
-!procedure AwsShield($id, $name="Aws Shield", $tech="")
+!procedure AwsShield($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsShield', $name, $tech)
 !endprocedure
 !procedure AwsShieldCard($id, $funcName="", $content="")

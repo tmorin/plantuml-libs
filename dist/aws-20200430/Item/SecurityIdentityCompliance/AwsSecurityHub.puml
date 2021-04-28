@@ -4,7 +4,7 @@ sprite $AwsSecurityHubLg [20x20/16z] {
 hP053WKX44EJRTyCXVkVzxjBT1k3iShS0rLVfOP-_sTEEBqUzHXM80kS-oaRdM3ySdJ8jhQyNQnpZLVgTQf9hbwFKjBYL5EDSQzXbxIf_UI5kcePvh5xLcgV
 -VFVspE3FN04
 }
-!procedure AwsSecurityHub($id, $name="Aws Security Hub", $tech="")
+!procedure AwsSecurityHub($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsSecurityHub', $name, $tech)
 !endprocedure
 !procedure AwsSecurityHubCard($id, $funcName="", $content="")

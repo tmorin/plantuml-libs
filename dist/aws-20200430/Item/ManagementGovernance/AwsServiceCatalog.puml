@@ -4,7 +4,7 @@ sprite $AwsServiceCatalogLg [20x20/16z] {
 hSz5bWD130FGroc1fRh_UOV2lPtyfTdzF_F7z6a7d6I8xbv5yYxPRIZN6Ctci8yKvZKceNET1-aQ6sGJDhYZN6FsNlHnc6lRjvYoI81SqLnZOMZzC8Vf5Urr
 aIxBPc-2PDh9e7q6DS08UV_NMku9sK_u1W
 }
-!procedure AwsServiceCatalog($id, $name="Aws Service Catalog", $tech="")
+!procedure AwsServiceCatalog($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsServiceCatalog', $name, $tech)
 !endprocedure
 !procedure AwsServiceCatalogCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AwsEc2AmiLg [20x20/16z] {
 VP050e1020G7zXR__sAxQ_IA1aXTIC1MEo6RD3US4fETjAmcD1ATcigIQxnqCSiCj81eW0-P4zA_CifsrR9SpB8RiymNbbegCaeHcY-d707ncVVRheZDBgYF
 -jvcXQqBDc-p7m
 }
-!procedure AwsEc2Ami($id, $name="Aws Ec2 Ami", $tech="")
+!procedure AwsEc2Ami($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/AwsEc2Ami', $name, $tech)
 !endprocedure
 !procedure AwsEc2AmiCard($id, $funcName="", $content="")

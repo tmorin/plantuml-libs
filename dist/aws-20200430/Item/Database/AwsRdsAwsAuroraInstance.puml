@@ -4,7 +4,7 @@ sprite $AwsRdsAwsAuroraInstanceLg [20x20/16z] {
 XP1L0WG1248DH7RkV-2jwNpwPOktThGBjWCjo_8CZo_v2qh6faWMcpt5Cl5n8B7KcTkMJmoC_84bnlvODLDZmqiMdkd-S_O7GhQWSZD7hs8-LBX73UkOq1-W
 JMpUkp0qCj7RtYYIyTZx4gkeRQyba2PXVRDzWBnNebCVw6y
 }
-!procedure AwsRdsAwsAuroraInstance($id, $name="Aws Rds Aws Aurora Instance", $tech="")
+!procedure AwsRdsAwsAuroraInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Database/AwsRdsAwsAuroraInstance', $name, $tech)
 !endprocedure
 !procedure AwsRdsAwsAuroraInstanceCard($id, $funcName="", $content="")

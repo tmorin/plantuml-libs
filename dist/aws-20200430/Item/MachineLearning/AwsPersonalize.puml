@@ -4,7 +4,7 @@ sprite $AwsPersonalizeLg [20x20/16z] {
 hK-rOSG033JeSFzzasSkhLB7FUBq_PdLUNyFp1Jp-b91e7e-XUuYlPSFUGgVVqRcvLVlkmijlhwy21rfYjnUpOGSO8ZcaS7kIdJEUEk2zoxji54uxzlYTNvC
 xX7t3m
 }
-!procedure AwsPersonalize($id, $name="Aws Personalize", $tech="")
+!procedure AwsPersonalize($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/MachineLearning/AwsPersonalize', $name, $tech)
 !endprocedure
 !procedure AwsPersonalizeCard($id, $funcName="", $content="")

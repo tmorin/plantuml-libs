@@ -1,7 +1,7 @@
 @startuml
 sprite $GenericDatabaseMd [14x14/16z] XOu54W0X548nW1dlV-2rjkiPlmD0f2gCQ50vLh9OZL0IEgc4Qfcsv2gQfVegWEAm1WedAxvQ_tN6fCq3FJOpWVFM2m
 sprite $GenericDatabaseLg [20x20/16z] rT250SD0201075xOVzmsxXaWz-u24n8T2C76IWaRH2csT1L3MA2LULqUbl3Se1h5bGVg9UhKnm6a7WDNWk2bR_VbldBiApmNll-LbzS_lV_z7m
-!procedure GenericDatabase($id, $name="Generic Database", $tech="")
+!procedure GenericDatabase($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/General/GenericDatabase', $name, $tech)
 !endprocedure
 !procedure GenericDatabaseCard($id, $funcName="", $content="")

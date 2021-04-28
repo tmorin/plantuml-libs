@@ -4,7 +4,7 @@ sprite $IoTLightbulbLg [20x20/16z] {
 TP074W8n30DnLVx_OYnaElYQPs-ZbCk_IWkFkIqVo12TLTa1MzItgj9NbZxk4cWco0BT23BaQ37COOprOJ5TCA96OSlmQIrRAKhkdDPBNfMyycL-o8wBQUme
 cKpIsD0o-nnzExGMYW0rhIMn_zT7FlOMLRvxa_9QVyxgyqp_rHK
 }
-!procedure IoTLightbulb($id, $name="Io T Lightbulb", $tech="")
+!procedure IoTLightbulb($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTLightbulb', $name, $tech)
 !endprocedure
 !procedure IoTLightbulbCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $VpcSubnetPrivateMd [14x14/16z] ROgr0GD10CEgCsZ_VPDdLcLGFu1haovbsEFGOd3Oh_dRJgJOaLXRaCZHEdbdmpu_rwxNrcWXNM6XB_u
 sprite $VpcSubnetPrivateLg [20x20/16z] bOj95iH0248N8bZS_xuzTnBDggZH__XhD_QD55dkI466EaJPXMwcNtSsM_YKTJKHmESwsV4T39ZCIQP7hu2QhabFrvAR6oGbad4oyHUTp4VMJfu
-!procedure VpcSubnetPrivate($id, $name="Vpc Subnet Private", $tech="")
+!procedure VpcSubnetPrivate($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Groups/VpcSubnetPrivate', $name, $tech)
 !endprocedure
 !procedure VpcSubnetPrivateCard($id, $funcName="", $content="")

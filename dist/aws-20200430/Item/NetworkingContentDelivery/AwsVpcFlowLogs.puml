@@ -4,7 +4,7 @@ sprite $AwsVpcFlowLogsLg [20x20/16z] {
 RP370KCn24D54VhPV-4OEpsy2xtYO94PXWz2AhAaUBbAZeshS101sm0KcY9uLQFBmDgz0ARv0kL0zvItBwjOqJuNJ5sU7Wjh7sJHzHb19ZtRhCW45xaXyzRg
 u9jgfnclNVZQPTfvk6tumVYh-QVJx-y
 }
-!procedure AwsVpcFlowLogs($id, $name="Aws Vpc Flow Logs", $tech="")
+!procedure AwsVpcFlowLogs($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcFlowLogs', $name, $tech)
 !endprocedure
 !procedure AwsVpcFlowLogsCard($id, $funcName="", $content="")

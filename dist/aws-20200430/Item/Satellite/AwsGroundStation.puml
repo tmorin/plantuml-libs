@@ -4,7 +4,7 @@ sprite $AwsGroundStationLg [20x20/16z] {
 bSq53iD040D0QUtb__-t5fNR93wUexcMLTwfCtjVAKt9LwG1nhVN1fZN5olBJDtp1mYwqxdxm8Z8acU-_WkJelU1hSj5bEXX8U68NYr2T6GCKlQIZ8fwirL4
 bt83
 }
-!procedure AwsGroundStation($id, $name="Aws Ground Station", $tech="")
+!procedure AwsGroundStation($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Satellite/AwsGroundStation', $name, $tech)
 !endprocedure
 !procedure AwsGroundStationCard($id, $funcName="", $content="")

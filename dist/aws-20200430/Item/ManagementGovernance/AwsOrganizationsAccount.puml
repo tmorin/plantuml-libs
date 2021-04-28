@@ -4,7 +4,7 @@ sprite $AwsOrganizationsAccountLg [20x20/16z] {
 VSm55iH020FGO26z_uNtqRNw7ny4RsOui5OhiDC9k1mRmTcJsAYStVivxzVFi16IMgfjkpQOpucl_5qjwLZfzqL6SsvPtnRoUIg02hn9Swk502jMJcEdqWa4
 Qt2zBuOvVngmnk6FysTTsCYkBWLsZ4lXnWi
 }
-!procedure AwsOrganizationsAccount($id, $name="Aws Organizations Account", $tech="")
+!procedure AwsOrganizationsAccount($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsOrganizationsAccount', $name, $tech)
 !endprocedure
 !procedure AwsOrganizationsAccountCard($id, $funcName="", $content="")

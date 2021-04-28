@@ -4,7 +4,7 @@ sprite $GenericFirewallLg [20x20/16z] {
 bKrLmWP1249qHdJT-n_txuulUADnErphbnR3bJz5EQQ-2fOMYJY_9Zcj3Kh-hJa1AfJsePNH46ap7tNMIpZiT9hPItRlPwF1ZUwgWo_LTyFwPVrT4o7LI3fw
 0RbV36-wIQJtSyE1ehSv9VFebsCzXtCgiqQry8nbNeRQv1Q-8IGfS0SU0G
 }
-!procedure GenericFirewall($id, $name="Generic Firewall", $tech="")
+!procedure GenericFirewall($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/General/GenericFirewall', $name, $tech)
 !endprocedure
 !procedure GenericFirewallCard($id, $funcName="", $content="")

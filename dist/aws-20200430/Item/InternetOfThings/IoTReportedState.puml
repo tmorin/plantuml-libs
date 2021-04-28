@@ -4,7 +4,7 @@ sprite $IoTReportedStateLg [20x20/16z] {
 bT052WG134FHJ6Dp_mklk-_7ogDO0Eek0aZkBG63Xq89-zHTfrCd2m7cmGQOlysohJjZGxAzDm7m2yjtMpLPt6LckLXTnvsMllwnTDtwOWt5hfQSYqaoHxlc
 F4VCIwTDNss_1G
 }
-!procedure IoTReportedState($id, $name="Io T Reported State", $tech="")
+!procedure IoTReportedState($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTReportedState', $name, $tech)
 !endprocedure
 !procedure IoTReportedStateCard($id, $funcName="", $content="")

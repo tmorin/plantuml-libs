@@ -4,7 +4,7 @@ sprite $AwsCostAndUsageReportLg [20x20/16z] {
 dP170iG0209JH87y_xtfFQVTkTa5_O3rWQ0jUURi2lGegxAItdCPg73scMZFP5bmbis-A-zzkVIbfOpmiI_22GHOEEvAQox5lEKmL94MG-TiXuL2GjSDPdAc
 uldBO5ln-3aIcOYNjWL-FBYveF-O
 }
-!procedure AwsCostAndUsageReport($id, $name="Aws Cost And Usage Report", $tech="")
+!procedure AwsCostAndUsageReport($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/AwsCostManagement/AwsCostAndUsageReport', $name, $tech)
 !endprocedure
 !procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")

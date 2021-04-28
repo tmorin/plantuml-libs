@@ -4,7 +4,7 @@ sprite $AwsEc2OptimizedInstanceLg [20x20/16z] {
 bO-r0SKm44Dr8ky_yMUCgxpoG81n_X0m5VzmOE509jncF3Lp6xWfFxDqXfZHclTirhmTFx_iSzIbRKRMso_KzmnUeY1o-JC34qE9plROP_9nra4EL026Vmnm
 1G
 }
-!procedure AwsEc2OptimizedInstance($id, $name="Aws Ec2 Optimized Instance", $tech="")
+!procedure AwsEc2OptimizedInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2OptimizedInstance', $name, $tech)
 !endprocedure
 !procedure AwsEc2OptimizedInstanceCard($id, $funcName="", $content="")

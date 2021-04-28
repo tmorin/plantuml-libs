@@ -4,7 +4,7 @@ sprite $AwsVpcVpnGatewayLg [20x20/16z] {
 RL05WaGX5CA7WFU_y8PipWm_fGmKYtjpuG-OM7B27ygP_aoC8hhfcrJgKhtrwFFDgsm3tZT5e5qUODnEhE1RPVgxwC_aER5ppcVQt4ARPjeAxSk9c6H0NOuk
 nuJbp9LoI50k2vboPBb9Lw0ZIzOH47PlYomMv3zdK2Wlp-hrcRuw-tS
 }
-!procedure AwsVpcVpnGateway($id, $name="Aws Vpc Vpn Gateway", $tech="")
+!procedure AwsVpcVpnGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/NetworkingContentDelivery/AwsVpcVpnGateway', $name, $tech)
 !endprocedure
 !procedure AwsVpcVpnGatewayCard($id, $funcName="", $content="")

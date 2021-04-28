@@ -4,7 +4,7 @@ sprite $AwsCodeDeployLg [20x20/16z] {
 bOv70aGn248N4L39_QyxytjP_fTgfx_XZPUd4n5K-tPLAAHGb6zN6JPSbzDHCsapPyVXIbPBlHtAcmy3YC7b00ExBpGzQ6DuQlWOmPavrtDDTYj9Yio7mhcQ
 K8RxmamKcEYNZn34fm_Pg6eyVGgiq4-dju7kJ_m1
 }
-!procedure AwsCodeDeploy($id, $name="Aws Code Deploy", $tech="")
+!procedure AwsCodeDeploy($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/DeveloperTools/AwsCodeDeploy', $name, $tech)
 !endprocedure
 !procedure AwsCodeDeployCard($id, $funcName="", $content="")

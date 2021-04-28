@@ -4,7 +4,7 @@ sprite $IoTMedicalEmergencyLg [20x20/16z] {
 RP250S1020En9B__mdKlrxxXO2knVExRSI6ZLpcNoq5XO53YSg1s4IClWfiGQGyIPg6H5ZW8ow7OxC3CganYj-F8LUoIhu8S37FcRheR9TqyjGXAZA1gaIcz
 apM-NOwcbhxcfhTc1jsi-fbsivy1
 }
-!procedure IoTMedicalEmergency($id, $name="Io T Medical Emergency", $tech="")
+!procedure IoTMedicalEmergency($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTMedicalEmergency', $name, $tech)
 !endprocedure
 !procedure IoTMedicalEmergencyCard($id, $funcName="", $content="")

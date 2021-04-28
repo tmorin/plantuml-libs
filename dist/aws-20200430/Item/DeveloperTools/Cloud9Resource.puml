@@ -1,7 +1,7 @@
 @startuml
 sprite $Cloud9ResourceMd [14x14/16z] bOgr0GC03CCKG_h_nMMQ2bgCV6FU_NRBWnr8VJtWW9JizNSOr0m-c-jlKeCMhWTrkDfqHl7Cf83R9ctD7vm
 sprite $Cloud9ResourceLg [20x20/16z] jKu50G0m2CFX_GFVDS27E_05ucxufjo99F6TCcqQWuLM2cDOJXghbxqgCiEMdljxqP6icj69WMEdEAnGT6vGwzQa-iCbDjuvYAO0vnySFV8Eis7dYtW1Fg
-!procedure Cloud9Resource($id, $name="Cloud9 Resource", $tech="")
+!procedure Cloud9Resource($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/DeveloperTools/Cloud9Resource', $name, $tech)
 !endprocedure
 !procedure Cloud9ResourceCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $SecurityHubFindingLg [20x20/16z] {
 ZSe7ZaH120DHOmFct__2g-wTd4lvgV2Xv0D4kTgtodO6WstXL5kHFgOYsh4f1kb6IrCudM7CkWaCws8-MVzePZzP1kFHsDt4jjWcv92QZGx7_WOmQEn3iuoD
 CB06n41JHyi0rxhI499W8L6D7SULMNIdrtRIh1IW4jxq1m
 }
-!procedure SecurityHubFinding($id, $name="Security Hub Finding", $tech="")
+!procedure SecurityHubFinding($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/SecurityHubFinding', $name, $tech)
 !endprocedure
 !procedure SecurityHubFindingCard($id, $funcName="", $content="")

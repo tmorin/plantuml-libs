@@ -1,7 +1,7 @@
 @startuml
 sprite $RegionMd [14x14/16z] VOt50SG020G_iDP_ltTnJ-O7Q_uah4pCfmeJozKYrSXyORHr7hKY1kZLwKCdZdjc3YTAXql7uyWV
 sprite $RegionLg [20x20/16z] fSs52G1H30DG-DLa_ttFtULXfHRyfR9hqPIxNeZsYdFiULyoTEZClHIiUYreSkvfTBpa8iC6iVh7pYwZzReN-rw8nBQN4RcxRU163G
-!procedure Region($id, $name="Region", $tech="")
+!procedure Region($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Groups/Region', $name, $tech)
 !endprocedure
 !procedure RegionCard($id, $funcName="", $content="")

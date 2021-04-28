@@ -4,7 +4,7 @@ sprite $IoTPolicyLg [20x20/16z] {
 ROx70SH020CH0idkl-73-R4tZZl4-0TUNfLkgJMOSLCLY8o17P-pkRfzoGEnvY6mEAbYIAOaFlqG1n9pzE5GUUPrn_sPl0i8qb5WdExeGhdASejLHHrLj2hQ
 sdOUCwwnKXyvgQHRFOWYUSHyhiK3m3cA6o8-8CkwrSSh5du
 }
-!procedure IoTPolicy($id, $name="Io T Policy", $tech="")
+!procedure IoTPolicy($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/InternetOfThings/IoTPolicy', $name, $tech)
 !endprocedure
 !procedure IoTPolicyCard($id, $funcName="", $content="")

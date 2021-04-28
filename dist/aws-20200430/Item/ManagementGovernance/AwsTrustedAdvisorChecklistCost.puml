@@ -4,7 +4,7 @@ sprite $AwsTrustedAdvisorChecklistCostLg [20x20/16z] {
 ROm54iGm3CHiPo5t__zlcLiLezbHugHY1LwE927j3X7Re0v7qD7cNJjtw3avt5pirDNnirTe4_SUHBBgsQCc7ZtJ2LzwK4d_2lIjzyief7DUmzUUrX_q-U62
 u5KsJyz6HLzbhpXPvJO_C1R_aB-NYbnQ8m
 }
-!procedure AwsTrustedAdvisorChecklistCost($id, $name="Aws Trusted Advisor Checklist Cost", $tech="")
+!procedure AwsTrustedAdvisorChecklistCost($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsTrustedAdvisorChecklistCost', $name, $tech)
 !endprocedure
 !procedure AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")

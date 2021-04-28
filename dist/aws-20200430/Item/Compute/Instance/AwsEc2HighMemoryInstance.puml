@@ -4,7 +4,7 @@ sprite $AwsEc2HighMemoryInstanceLg [20x20/16z] {
 RP250S1020C32M7_YUlUl_OD1onaWDTsK0b3tBSDbLrzRTgiYBXX0Ia77eILoQ-C2THRLW3TWVtRZpPNEmgE5fhYQfSqQ7QKjSfWvYvBPyawP9Tl0QHuvRWv
 Slnh6TKywkq_W_6inZFzptu6
 }
-!procedure AwsEc2HighMemoryInstance($id, $name="Aws Ec2 High Memory Instance", $tech="")
+!procedure AwsEc2HighMemoryInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2HighMemoryInstance', $name, $tech)
 !endprocedure
 !procedure AwsEc2HighMemoryInstanceCard($id, $funcName="", $content="")

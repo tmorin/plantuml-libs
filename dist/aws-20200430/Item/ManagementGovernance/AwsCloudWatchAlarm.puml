@@ -4,7 +4,7 @@ sprite $AwsCloudWatchAlarmLg [20x20/16z] {
 fK_50S0W38pdzf-uk7rx47Uwm6PCDmJkaDkNnPQyAvkPktgO8x2XqFBV8Uxokj8igrCAPcsQfXQ9YDb3dSXrIItekarVl-3sRVxBL-PQ48NgvYLFCYAPDnTY
 ym8xENFHRZX_
 }
-!procedure AwsCloudWatchAlarm($id, $name="Aws Cloud Watch Alarm", $tech="")
+!procedure AwsCloudWatchAlarm($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ManagementGovernance/AwsCloudWatchAlarm', $name, $tech)
 !endprocedure
 !procedure AwsCloudWatchAlarmCard($id, $funcName="", $content="")

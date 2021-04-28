@@ -4,7 +4,7 @@ sprite $AwsCertificateAuthorityLg [20x20/16z] {
 RSq70eH024FH408Pxt_XNTng-VRd5Dn4zobJ7QTQiavvpfhcgwOnOI-am9u-rZEZ3YRFtVet4w3P_zOiBeOFfjm8zR_5oa2k-DbWsnquMWB9esK3fPFvMHwD
 AsBxMdFAd2lstSJ-QpOf4pSz
 }
-!procedure AwsCertificateAuthority($id, $name="Aws Certificate Authority", $tech="")
+!procedure AwsCertificateAuthority($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/SecurityIdentityCompliance/AwsCertificateAuthority', $name, $tech)
 !endprocedure
 !procedure AwsCertificateAuthorityCard($id, $funcName="", $content="")

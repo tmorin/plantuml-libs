@@ -4,7 +4,7 @@ sprite $AwsEc2InstanceWithCloudWatchLg [20x20/16z] {
 TP07SWD0309NGd3_Vt6A4dURwtK70BhGjVkNcp1YkzKuyRbsixT4tIH3JmfkgaotTgyzzR-d1XSehVJk6PHJ4A1ETEbTZFSAqTvhXSxoxKuJTIjC0pwUQVFF
 a86ai7LbJ2AREhenbc2V-CBOlUNwp38Ul6czFMO0ygUiNZDzb_qt
 }
-!procedure AwsEc2InstanceWithCloudWatch($id, $name="Aws Ec2 Instance With Cloud Watch", $tech="")
+!procedure AwsEc2InstanceWithCloudWatch($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/Compute/Instance/AwsEc2InstanceWithCloudWatch', $name, $tech)
 !endprocedure
 !procedure AwsEc2InstanceWithCloudWatchCard($id, $funcName="", $content="")

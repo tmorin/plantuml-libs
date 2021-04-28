@@ -4,7 +4,7 @@ sprite $ApplicationIntegrationEventResourceLg [20x20/16z] {
 TT250KKX509GRW3kl_2FrsbxRDkI2VwhnXnSaMMCp2Yl5a08nbGTp9Fbmpp4Wr6aycHILhKFjcv77io5AOpOhDQRj7RpQZoixObYOBSOawaF1hgxQHmDJP9n
 DZpyWHx_wlrFd_x-2m
 }
-!procedure ApplicationIntegrationEventResource($id, $name="Application Integration Event Resource", $tech="")
+!procedure ApplicationIntegrationEventResource($id, $name="", $tech="")
   IconElement($id, 'aws-20200430/Item/ApplicationIntegration/ApplicationIntegrationEventResource', $name, $tech)
 !endprocedure
 !procedure ApplicationIntegrationEventResourceCard($id, $funcName="", $content="")
