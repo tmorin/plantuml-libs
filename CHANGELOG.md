@@ -2,6 +2,34 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/tmorin/plantuml-libs/compare/v2.13.0...v3.0.0) (2021-04-29)
+
+
+### ⚠ BREAKING CHANGES
+
+* now icon elements don't have any more a default names
+
+### Features
+
+* some procedure parameters, like `name`, should be by default empty ([b37dfda](https://github.com/tmorin/plantuml-libs/commit/b37dfda15a7aec76de6844048804371fcd40ce48))
+* **eip:** add MessageReturnAddress and Endpoint ([d933de3](https://github.com/tmorin/plantuml-libs/commit/d933de3f77f43f4222c2c54e87239268ccb9c2a5))
+
+
+### Bug Fixes
+
+* **aws-20200430:** refresh the package ([b39432f](https://github.com/tmorin/plantuml-libs/commit/b39432fe6167e275ddbbc4aaf1d43f0eea6a32c6))
+* **aws-20200911:** refresh the package ([31ca72b](https://github.com/tmorin/plantuml-libs/commit/31ca72b4db6406b5cd1f958715a52129654d94fa))
+* **aws-20210131:** refresh the package ([d11df00](https://github.com/tmorin/plantuml-libs/commit/d11df008899b4287dd65e30c0a0f630e4a158e76))
+* **azure-v2:** refresh the package ([ca5b0ad](https://github.com/tmorin/plantuml-libs/commit/ca5b0ad78aa5be289062e65a637a7086d21fca31))
+* **c4model:** refresh the package ([bab8c32](https://github.com/tmorin/plantuml-libs/commit/bab8c321b1fda060e39d27267ad9e4ad8ed78fc8))
+* **eip:** refresh the package ([b9100e7](https://github.com/tmorin/plantuml-libs/commit/b9100e7697d216d5afb78995ff41ed33cbcf2bff))
+* **eventstorming:** refresh the package ([5cfb3b8](https://github.com/tmorin/plantuml-libs/commit/5cfb3b8117f04029afe7a0caa0e136b9fd0cc63e))
+* **fontawesome-5.15:** refresh the package ([4e2d090](https://github.com/tmorin/plantuml-libs/commit/4e2d090a1bdb8c7083b08122460a389600e5c1b8))
+* **gcp:** refresh the package ([bb8bb96](https://github.com/tmorin/plantuml-libs/commit/bb8bb96a2a5b2f262e731eefb7403ebdf66fa2d9))
+* **homecloud:** refresh the package ([9abd5b0](https://github.com/tmorin/plantuml-libs/commit/9abd5b00b726435d2ab13531f8203a8aa0eba58c))
+* **material-4.0:** refresh the package ([2669554](https://github.com/tmorin/plantuml-libs/commit/266955474177b7e29eef4add3d4bdc4c2291e051))
+* **simpleicons-4:** refresh the package ([6c921d7](https://github.com/tmorin/plantuml-libs/commit/6c921d7616b8645f73e7405032205e5e7630a010))
+
 ## [2.13.0](https://github.com/tmorin/plantuml-libs/compare/v2.12.0...v2.13.0) (2021-04-27)
 
 
