@@ -4,7 +4,7 @@ sprite $AwsSignerLg [20x20/16z] {
 PSi9TaKX30BGzeM4WFlVR-ElTiJv7j59tv3yPuFUu5zAxpS3t2XmemT7Ag1MHHyZbiLeAQbZCQLWmKpTVs0-TAQ3NzPmhmxNdBVhZ9fP4Mb2dwRCKi82NlLb
 BwKNOSh8NLzhB09L_GwZDTdcHvt5fnL-sU1aCLECkhPvzHk0jeub9l6KrgRRtJddiLC_-Mi7Fm
 }
-!procedure AwsSigner($id, $name="Aws Signer", $tech="")
+!procedure AwsSigner($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsSigner', $name, $tech)
 !endprocedure
 !procedure AwsSignerCard($id, $funcName="", $content="")

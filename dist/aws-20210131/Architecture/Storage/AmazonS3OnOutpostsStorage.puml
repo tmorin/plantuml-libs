@@ -4,7 +4,7 @@ sprite $AmazonS3OnOutpostsStorageLg [20x20/16z] {
 PSW7TiHG24FHCvOeWltlDyIufBnVkPhoBZPDhxwMRxSHPo-EGL8AiVZF5gj4aGY6jBZcRicO5jVC7201UyoOP4eP7zDQPOeWI1v-ssHH2P_dDO6b83yuhRuD
 JcGf3xkiszdo8oHghAiCF5JLmN9giBkQwI29WqnDlMahtLPFMdlmjIy
 }
-!procedure AmazonS3OnOutpostsStorage($id, $name="Amazon S3 On Outposts Storage", $tech="")
+!procedure AmazonS3OnOutpostsStorage($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Storage/AmazonS3OnOutpostsStorage', $name, $tech)
 !endprocedure
 !procedure AmazonS3OnOutpostsStorageCard($id, $funcName="", $content="")

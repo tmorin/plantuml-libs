@@ -4,7 +4,7 @@ sprite $AmazonApiGatewayEndpointLg [20x20/16z] {
 TT055e1020JG8GMz_ttTj9rNlBy9QE4HdF6CblIJObRX5v9QICD9iH50Mr172r1QL0lDXfo51DqWoKZcW3ccmGqX3xDYnpuLqR7ltzvdtsyaU3t_ijQ_r3Ou
 TQcsQA7QI4NAtbjl0mEr5ZhfDQltJC-mj8pPxm
 }
-!procedure AmazonApiGatewayEndpoint($id, $name="Amazon Api Gateway Endpoint", $tech="")
+!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint', $name, $tech)
 !endprocedure
 !procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")

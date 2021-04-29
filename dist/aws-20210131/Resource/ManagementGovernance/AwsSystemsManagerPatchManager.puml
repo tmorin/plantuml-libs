@@ -4,7 +4,7 @@ sprite $AwsSystemsManagerPatchManagerLg [20x20/16z] {
 VT05WWCX50FGpuJ8_K-ysDRRZF9mwbUIglPCf0BVovU6i2Yp7MgmhLurllqWOsVGC5chbMMxrJOjAmZ06IN7pBgbKtEGw4u3nGmZ-wDEAufufeLfPw60SCnU
 VuXjBPEtoL9mjeiCQrq3hzk69N6-nBh7FUA2Uzewqr_v0m
 }
-!procedure AwsSystemsManagerPatchManager($id, $name="Aws Systems Manager Patch Manager", $tech="")
+!procedure AwsSystemsManagerPatchManager($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerPatchManager', $name, $tech)
 !endprocedure
 !procedure AwsSystemsManagerPatchManagerCard($id, $funcName="", $content="")

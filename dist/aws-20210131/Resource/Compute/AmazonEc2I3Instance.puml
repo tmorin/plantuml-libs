@@ -4,7 +4,7 @@ sprite $AmazonEc2I3InstanceLg [20x20/16z] {
 bP250SGm24NvwFuJtrNYIUsrCHpe17dBg9ANBM66GDgIMtX3x074d1hSX4X7sHuIlGnxj4Wou9158Db1KqwlEM1aKdDa6HmfH_LLM-IWFaV5F_Knps2UrNgc
 gzd_0G
 }
-!procedure AmazonEc2I3Instance($id, $name="Amazon Ec2 I3 Instance", $tech="")
+!procedure AmazonEc2I3Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2I3Instance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2I3InstanceCard($id, $funcName="", $content="")

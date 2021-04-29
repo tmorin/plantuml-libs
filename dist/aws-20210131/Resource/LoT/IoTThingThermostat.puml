@@ -4,7 +4,7 @@ sprite $IoTThingThermostatLg [20x20/16z] {
 TL050WCn28CsATp_Fpnild5QB28PAlhyJ1pX0XRZPsB3uJHZVB0xPG1HGS0g2UGgaD0vwV5uqtqjkn0vFreL7bcnH0y5Z3uwz8gIvGfNE5Mq5dTkEq2Dxm6N
 JDzYrM4VEKZD8dCi9g0sXaN7gQMDCLpKJ6Mu36VRm3OEvszjum6mwowgunNRAphsNq-_lRy1
 }
-!procedure IoTThingThermostat($id, $name="Io T Thing Thermostat", $tech="")
+!procedure IoTThingThermostat($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/LoT/IoTThingThermostat', $name, $tech)
 !endprocedure
 !procedure IoTThingThermostatCard($id, $funcName="", $content="")

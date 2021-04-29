@@ -4,7 +4,7 @@ sprite $AmazonEc2MacInstanceLg [20x20/16z] {
 bP250O0m30J_e-o_CExMzg0MJx30TTinG-pRYZkJwxQwPPp8AO1wu4Iu0dQNJI5vbN6AbW7b-A-oJCvsQUX45ECVMmuV4N5p7Zb6WPgvsoc70gDKgNRaE3Xo
 d6KDVJndy9pLzqoViny
 }
-!procedure AmazonEc2MacInstance($id, $name="Amazon Ec2 Mac Instance", $tech="")
+!procedure AmazonEc2MacInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2MacInstance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2MacInstanceCard($id, $funcName="", $content="")

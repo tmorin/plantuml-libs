@@ -4,7 +4,7 @@ sprite $AmazonDynamoDbItemLg [20x20/16z] {
 bP1N0eD024HXa9rnlVzz4p2DpppTHWT3e7478W81mwLcrqzHkX2o9aXOShbfo2ZazX-Pc7NDnLyPMIU7tN72x3muuk6abWcn4K-mf8LZ9R3XQgXCYQGaTx5e
 6Hjv-GA1bFA-xTb7CVk88Pjs__lgQ_UPARdLN33WE_iRUm
 }
-!procedure AmazonDynamoDbItem($id, $name="Amazon Dynamo Db Item", $tech="")
+!procedure AmazonDynamoDbItem($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Database/AmazonDynamoDbItem', $name, $tech)
 !endprocedure
 !procedure AmazonDynamoDbItemCard($id, $funcName="", $content="")

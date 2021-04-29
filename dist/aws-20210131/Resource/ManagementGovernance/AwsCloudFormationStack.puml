@@ -4,7 +4,7 @@ sprite $AwsCloudFormationStackLg [20x20/16z] {
 ZOs50GDH24Dno7N_UNlk-hvY2Sa9ab_MZcn4YWxKzrpZ1ngXc72VVyJ8mGqUyuzdFStKMUyb9qiEQcgcaHdzQmhXd32RFi5StLCQGwH3m08MpYXXbehe0emU
 7ZceX_VtPUvgbb5LiEmUf0q1qmKj
 }
-!procedure AwsCloudFormationStack($id, $name="Aws Cloud Formation Stack", $tech="")
+!procedure AwsCloudFormationStack($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsCloudFormationStack', $name, $tech)
 !endprocedure
 !procedure AwsCloudFormationStackCard($id, $funcName="", $content="")

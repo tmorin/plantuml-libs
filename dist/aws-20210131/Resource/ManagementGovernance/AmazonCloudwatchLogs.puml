@@ -4,7 +4,7 @@ sprite $AmazonCloudwatchLogsLg [20x20/16z] {
 fSi54a81203HfM6y_tdjRlsFc5mMa3voBcnFJNZ2iaBOYmWFWIxt66TBAZDBwBJkrB6hi6sKQ6ksP4-tWF8IaEcjmnCoIZaH5GEPGwk7RAmwns8b8FjAiN5t
 g_5HphIwEZfqX2i2T8rAxqro50vw8Fnk0m
 }
-!procedure AmazonCloudwatchLogs($id, $name="Amazon Cloudwatch Logs", $tech="")
+!procedure AmazonCloudwatchLogs($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchLogs', $name, $tech)
 !endprocedure
 !procedure AmazonCloudwatchLogsCard($id, $funcName="", $content="")

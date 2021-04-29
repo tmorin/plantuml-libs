@@ -4,7 +4,7 @@ sprite $BusinessApplicationsLg [20x20/16z] {
 PT05ae0m38NX6PedIVV-rqL2rd_ymuiLR-jh1q5hujlDhiedEztniQP2_3K_p_jjXKMko2-xunAfnVms73OW7J6sow2UXOGonoYPbDhKbg_vX-qVvhRSso05
 t0IDrH6Oul1Sf-1T6tDiP-UxodhiOtVLPLkDVMevGZDyNp6m_eKB
 }
-!procedure BusinessApplications($id, $name="Business Applications", $tech="")
+!procedure BusinessApplications($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/BusinessApplications', $name, $tech)
 !endprocedure
 !procedure BusinessApplicationsCard($id, $funcName="", $content="")

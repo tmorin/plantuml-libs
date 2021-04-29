@@ -4,7 +4,7 @@ sprite $AwsCostManagementLg [20x20/16z] {
 PSk7RGC130H1sBp0ezn_lUQ_ihJ80omB7nL1stf44eMUtEeZjm1dQriwoMR1iyRV8ie7jMu6Q4BjVbgl2JzCMEJkmjfqMGKKLNuO3M1LV34wUnbuCU6ChnQ4
 SkbkbxLnEWBfv6fX65aYrdpO9HoDsYLUBMj5421OVREPFlAsTDhVvTvicJKdwNkscyNwYly
 }
-!procedure AwsCostManagement($id, $name="Aws Cost Management", $tech="")
+!procedure AwsCostManagement($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/AwsCostManagement', $name, $tech)
 !endprocedure
 !procedure AwsCostManagementCard($id, $funcName="", $content="")

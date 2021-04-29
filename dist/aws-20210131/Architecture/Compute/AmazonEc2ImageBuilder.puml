@@ -4,7 +4,7 @@ sprite $AmazonEc2ImageBuilderLg [20x20/16z] {
 NSq74eH024JHiWEDzx_micRzbTyCaAaUURhjnbnT-3Thopfn39e8mlQ6OqmNINi1V1XYE6Agl1p6qHuZGsQiEvHQba9vqM4i8sE569UH_J6vMLPJ1Mrst32f
 wBhHHhMLf9RBrb1q0QZniOR-GQWQ6XmhRvLpDBQkQszTDjrosrT_
 }
-!procedure AmazonEc2ImageBuilder($id, $name="Amazon Ec2 Image Builder", $tech="")
+!procedure AmazonEc2ImageBuilder($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Compute/AmazonEc2ImageBuilder', $name, $tech)
 !endprocedure
 !procedure AmazonEc2ImageBuilderCard($id, $funcName="", $content="")

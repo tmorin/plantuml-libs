@@ -4,7 +4,7 @@ sprite $AwsStorageGatewayLg [20x20/16z] {
 RSk73SD034DHm5IZRlzzevAUVFS7cbKyyer_SAsLJ-Ha07IMJrFK5oHyS0ra16jhnUv9fabvir-pp294qjqyQ9SLPXBDKi4OM9CCU9l1kPOghcgarbs4Oscc
 wgHh5R5seYoppFDX-JB-CvQUpt_PU1e9HAql1Bipk0silJ1Vzhsy0G
 }
-!procedure AwsStorageGateway($id, $name="Aws Storage Gateway", $tech="")
+!procedure AwsStorageGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Storage/AwsStorageGateway', $name, $tech)
 !endprocedure
 !procedure AwsStorageGatewayCard($id, $funcName="", $content="")

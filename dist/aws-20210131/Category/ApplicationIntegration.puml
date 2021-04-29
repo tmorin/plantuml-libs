@@ -4,7 +4,7 @@ sprite $ApplicationIntegrationLg [20x20/16z] {
 PSq7aiD024JHgYLqDypzpxiWP_ihFqq8ywyiFB7bgs6MgdIBso1At8783NUZnVJdcs6DXIWLZ1BbULcFLKRUJI_piNopx9shSA-u6mqaB4npFSoDwHPWfk5k
 INU5KNhDZIPBSaa1OUoCrUuSJzDXdguEr3Jto-IPaHQRyR9kyGeJTPlRv_IzckWERNm4feVz5Fy
 }
-!procedure ApplicationIntegration($id, $name="Application Integration", $tech="")
+!procedure ApplicationIntegration($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/ApplicationIntegration', $name, $tech)
 !endprocedure
 !procedure ApplicationIntegrationCard($id, $funcName="", $content="")

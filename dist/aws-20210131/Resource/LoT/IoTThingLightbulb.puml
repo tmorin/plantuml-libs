@@ -4,7 +4,7 @@ sprite $IoTThingLightbulbLg [20x20/16z] {
 TL270GD12Be2UljF7D3qvFbYmpgCgUSb6Z6uW4KfTomS7cPI0gjT2MFl4bbEe6e1ys7DEFOnWQHz9sP7KCLpAsWUpSlPbSsZHd8aUZxxA7M7UMkGpGiLG4A1
 j2yVfdCT1gAKAgU0a88baZLBwntZQ-OHmlYOsGMZ9TvkGBvkKBV2OGGbi2vl-dlx6m
 }
-!procedure IoTThingLightbulb($id, $name="Io T Thing Lightbulb", $tech="")
+!procedure IoTThingLightbulb($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/LoT/IoTThingLightbulb', $name, $tech)
 !endprocedure
 !procedure IoTThingLightbulbCard($id, $funcName="", $content="")

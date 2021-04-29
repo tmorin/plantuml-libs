@@ -4,7 +4,7 @@ sprite $TorchServeLg [20x20/16z] {
 PSe73e0m30H12TTp_lzVV0cTLHzj7iNA6Pvs8F0_qKsHE9X6H6wUgZ5RHa9ixHCF2cIQnQfeqjJ19ASLogmIoSIJrgXWDDU_XLnM1w8jarQA0-6AngRXDh2I
 o6vK9pwAf8PbJ3KoNKYqCJMqYm8UjdOmsg674CU1Jzq1
 }
-!procedure TorchServe($id, $name="Torch Serve", $tech="")
+!procedure TorchServe($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/MachineLearning/TorchServe', $name, $tech)
 !endprocedure
 !procedure TorchServeCard($id, $funcName="", $content="")

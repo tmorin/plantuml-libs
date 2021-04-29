@@ -4,7 +4,7 @@ sprite $ClientLg [20x20/16z] {
 fSg53KGn30JHDM-id_xBFMQ69nuDn6u8f7cZOSDO5sXK8rFjH9FRLeOBNXys_j5gs_ZWor4NHbArlQvuAuBNZO6xLW5jE_6CI6yruYJciimijHOz43jyg1ud
 t1Y5HzO
 }
-!procedure Client($id, $name="Client", $tech="")
+!procedure Client($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/Client', $name, $tech)
 !endprocedure
 !procedure ClientCard($id, $funcName="", $content="")

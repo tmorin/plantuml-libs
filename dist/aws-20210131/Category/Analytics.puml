@@ -4,7 +4,7 @@ sprite $AnalyticsLg [20x20/16z] {
 TT054eH034JHWbXtilU_BZAs_YbzZ9leHsBgqVBLnKYEqFDb60Ny_pXRoqzBw1X5YMNMvliMzcRNvvjFgzjIpPNK89Ufk_35YewegimqaD76XI3kFCIRiN8t
 TxVMZcu56s8QOznLzdZLxD5iOKvh3OTgyEkjJBwo4m
 }
-!procedure Analytics($id, $name="Analytics", $tech="")
+!procedure Analytics($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/Analytics', $name, $tech)
 !endprocedure
 !procedure AnalyticsCard($id, $funcName="", $content="")

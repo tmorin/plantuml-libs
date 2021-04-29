@@ -4,7 +4,7 @@ sprite $DatabaseLg [20x20/16z] {
 PSi7RaKn24HHwPc10PpzRpVWalnoLJbYCEIZ0L7QJLSGOSR9ExgMzHNUtoMLdZyJ0MHeeH_ZsEDXVYtveAQAfysscL814BhDsp2pWxbVuwD6Mc__JNrjrU9O
 biqUJroR-RyjYssJvbgvlfWZPw-5VvPfWaeigcipdVJ8Deh4ppnb5P5b3BznfOBn5Nu1
 }
-!procedure Database($id, $name="Database", $tech="")
+!procedure Database($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/Database', $name, $tech)
 !endprocedure
 !procedure DatabaseCard($id, $funcName="", $content="")

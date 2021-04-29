@@ -4,7 +4,7 @@ sprite $AmazonCloudwatchRuleLg [20x20/16z] {
 RT074WGX20H068K1x_x_tOtKvgwiPC5ARl1ZC5rnK478Wb7865ZVJirCul66VovlcbpWY7CXnDoToTC0nlRc9wk-vgVgUmA5G8ggrej6jhLla8nUZmPPttnz
 otEDICLelVjNt-PMQA--VU-BytuwOkiHiTzFLmRLh0Xc75Bbmmm
 }
-!procedure AmazonCloudwatchRule($id, $name="Amazon Cloudwatch Rule", $tech="")
+!procedure AmazonCloudwatchRule($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchRule', $name, $tech)
 !endprocedure
 !procedure AmazonCloudwatchRuleCard($id, $funcName="", $content="")

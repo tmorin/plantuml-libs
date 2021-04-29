@@ -4,7 +4,7 @@ sprite $UsersLg [20x20/16z] {
 JSy75eGm24NH1wJmexF_xSx1VkqcD8exdsVn9IL0IklwknhCULwnA9602MH0nl5FHpoeuXIK75Xsw6dqvD1_slO0tpVzEYKhfaqO3Lm9T5sLCYZgLpNwQh6E
 E1E-FC9P1hQez-MMIatJ4UP3gJHEAwuPFcAVSm--B3L6HNsS9VitUCxFyw8hoCHZqsNZuN5noXy
 }
-!procedure Users($id, $name="Users", $tech="")
+!procedure Users($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/Users', $name, $tech)
 !endprocedure
 !procedure UsersCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $TraditionalServerMd [14x14/16z] fOhL0S0m24HfpjX_uRf-zqNWfAeWQhsedPPNb4CPcu8F5MZbKVwel9k38CQbzd_wgHeRpA5WhHZhkW
 sprite $TraditionalServerLg [20x20/16z] nP052i0m4C3EXVl_U-U-jJXBFGGhp11l4EnenKOTqWnb0LnEHsuJZl7XhXsgJEYju_29e5idBDE4MvSnaRSESE7MRPV_7FSwhSY5gArx__q8
-!procedure TraditionalServer($id, $name="Traditional Server", $tech="")
+!procedure TraditionalServer($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/TraditionalServer', $name, $tech)
 !endprocedure
 !procedure TraditionalServerCard($id, $funcName="", $content="")

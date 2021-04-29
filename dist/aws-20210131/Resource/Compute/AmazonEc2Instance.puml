@@ -1,7 +1,7 @@
 @startuml
 sprite $AmazonEc2InstanceMd [14x14/16z] LOx50G113089qd_9vxBCBu806Cm11XUX9JFtu8TZd0GFoO1-9nFZV_90_oJqr9_jqWcTtiswzGu
 sprite $AmazonEc2InstanceLg [20x20/16z] pP250G0W2C1e_h_ORZt0sT901Tis404RMqCL7TlMpDmMF3jWDLWmvUJi_CikSV_3xCttFtUyzBwBSVVWxjMxfw_UHm
-!procedure AmazonEc2Instance($id, $name="Amazon Ec2 Instance", $tech="")
+!procedure AmazonEc2Instance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2Instance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2InstanceCard($id, $funcName="", $content="")

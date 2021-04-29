@@ -4,7 +4,7 @@ sprite $AwsActivateLg [20x20/16z] {
 RSk5hIKm44DHxR3jz5_lpdzCDtoaaCIzkSNjbotkUYAlJLTqhJujlCCwVF0mBqvKigrnDMM9qN2m7OkY42ASpDgLLwkMgj8xWDa5IJcYMut_6y8VDZOSUX1n
 iLCjKfqYUF-Bs5LJqsGcBtQop-HKb-3OfCq75uCFxyQiMiiOSl5SyA2aRf4Rpj4ztZi_yFp0_m
 }
-!procedure AwsActivate($id, $name="Aws Activate", $tech="")
+!procedure AwsActivate($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/CustomerEnablement/AwsActivate', $name, $tech)
 !endprocedure
 !procedure AwsActivateCard($id, $funcName="", $content="")

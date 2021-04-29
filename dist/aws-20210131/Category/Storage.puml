@@ -4,7 +4,7 @@ sprite $StorageLg [20x20/16z] {
 PT07RW1124DHQR6nONB_ysQdfNvLdgm60tyAWfBoAv88kElacPo0rfblYoG6D7S06S_PNREi21tpCa6A9_oMMDOGiyeuTdPyoszxewLCeRui4U0Rdc0TexkI
 J9TmRD13aHdPhzMqyLgR9DQkjAt663tpjlTE97VWiMxRsjMsZt7hjshjN_acoGp6l_W9
 }
-!procedure Storage($id, $name="Storage", $tech="")
+!procedure Storage($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/Storage', $name, $tech)
 !endprocedure
 !procedure StorageCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AmazonVpcCustomerGatewayLg [20x20/16z] {
 RL055WGX21KV4hFU_xmhiJbVwORHZ-QayVr8p5JDv6FcwoZCntLncvRJ8Nkla-2heZmT8gbwH99JHOUfLP6kq3pq3dlxo0TPPxsfqLJUiiup2oeFrbasaMCB
 AllOK2xeWMP1CuFTm0tWhV1DqUsV
 }
-!procedure AmazonVpcCustomerGateway($id, $name="Amazon Vpc Customer Gateway", $tech="")
+!procedure AmazonVpcCustomerGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway', $name, $tech)
 !endprocedure
 !procedure AmazonVpcCustomerGatewayCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ContainersLg [20x20/16z] {
 PT055eGm34NHqtn9sV-2qQGZFFpY5LYXjoBLjO6UUUUEf1v9y6Eko-9b42aicpaDvXcXPHYqpio1CWzS1HWOgkjYVJN2rcMJh4yMc6rW1MIkwogoB8CTmhTj
 3gn2Z_qCGbwMs-pohAomT9fK-Ylf8hpI0G
 }
-!procedure Containers($id, $name="Containers", $tech="")
+!procedure Containers($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/Containers', $name, $tech)
 !endprocedure
 !procedure ContainersCard($id, $funcName="", $content="")

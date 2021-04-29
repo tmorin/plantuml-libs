@@ -7,7 +7,7 @@ sprite $AwsCloudFormationChangeSetLg [20x20/16z] {
 VP05bk1024GBhIAxzp_ll9Pn-KaR3e3v9x0OaJgGV7hBy8uXkKxLCmDO6sQGlMMTK4h_AyYuTgqQWz66d6ldrOb5LaTzpR7aLvPjDsrScL8jcCjI96_UDiNA
 sugPBHlZ1802Yfv_vF3yAfEF-WZ2_Cgw8FEO09zydG5zvstmtvMzvdKWu4VsI4D9NFIPgSSd37W1
 }
-!procedure AwsCloudFormationChangeSet($id, $name="Aws Cloud Formation Change Set", $tech="")
+!procedure AwsCloudFormationChangeSet($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech)
 !endprocedure
 !procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")

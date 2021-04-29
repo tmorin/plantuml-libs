@@ -4,7 +4,7 @@ sprite $IoTThingCarLg [20x20/16z] {
 TL25WGGm22ib2Um_yIDlPwdWUXfMvuyiT7Y1osA-SP5CHh08xge2_n2Z1FwIh6JAHrtAVlmCXOfZ-t7zGYJJoezMojPvJA0EQIK9nMjx241UjgRmpMcI9Y53
 5AzxK4fqkg0dF5ksP8dVlKWsXVpmGy-littQGUyAoH2Bu7xSwUlklm
 }
-!procedure IoTThingCar($id, $name="Io T Thing Car", $tech="")
+!procedure IoTThingCar($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/LoT/IoTThingCar', $name, $tech)
 !endprocedure
 !procedure IoTThingCarCard($id, $funcName="", $content="")

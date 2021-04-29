@@ -4,7 +4,7 @@ sprite $AwsNetworkFirewallEndpointsLg [20x20/16z] {
 RL27WGCn21CTxDz_tK-2IO_kt4GN1iHCU0LvDkn9sVBsOIyPokiHnQN7As_HTxezgRru9uqdWB2JAHADSA0JyD-6hovBUXOu2BoASNngcI9BpRm2PYiF9wLQ
 ULtSNCTA2MU857TiB_BORhvzQiGPCfMaffVf6PgHTdgUsPue-Qr1ntreDPhMfwQVsby
 }
-!procedure AwsNetworkFirewallEndpoints($id, $name="Aws Network Firewall Endpoints", $tech="")
+!procedure AwsNetworkFirewallEndpoints($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints', $name, $tech)
 !endprocedure
 !procedure AwsNetworkFirewallEndpointsCard($id, $funcName="", $content="")

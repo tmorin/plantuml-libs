@@ -4,7 +4,7 @@ sprite $AmazonEc2M6GdInstanceLg [20x20/16z] {
 bL230G0n4BiBslqdVjkVca6CoAbR84LPkWbsrfowwLaj6zJ-0xh41iMCq76l_pBtUzd_LlTxjVQx1eB9WGyUEKpJHeemFN50b5dwZfuuCWDWob0UE8YLOy_x
 mySvWtDMzvcUisy1
 }
-!procedure AmazonEc2M6GdInstance($id, $name="Amazon Ec2 M6 Gd Instance", $tech="")
+!procedure AmazonEc2M6GdInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2M6GdInstance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2M6GdInstanceCard($id, $funcName="", $content="")

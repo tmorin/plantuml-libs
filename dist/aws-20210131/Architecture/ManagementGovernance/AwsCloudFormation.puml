@@ -4,7 +4,7 @@ sprite $AwsCloudFormationLg [20x20/16z] {
 RSu5YWL030HHc6XtzlxdtR5yB_nXXLrsiS8FH6FpYqr28o-fY087IN1cjjXY8ybqT_EOg1BO1h7LI00-ufZ2d6N9XN8jHStKD2pG1jzPUBXW6HMcMPuwasXp
 H6e2I4pAgca6dqQSjjLVLJqDqsG_3xnOPSmyI3xjnjdJ-ApjyXF_0G
 }
-!procedure AwsCloudFormation($id, $name="Aws Cloud Formation", $tech="")
+!procedure AwsCloudFormation($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsCloudFormation', $name, $tech)
 !endprocedure
 !procedure AwsCloudFormationCard($id, $funcName="", $content="")

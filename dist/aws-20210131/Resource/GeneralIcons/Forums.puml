@@ -4,7 +4,7 @@ sprite $ForumsLg [20x20/16z] {
 RSi5Oa0n20DG86a3dzt_kfFA_5Kn2_mI5bq_PGDb6pMbzmCHpR4ej_dGfkOlRXpSna6BLbvxeeb4wd3x8CPB_gI6WR_0NDVS94U308Yf9ST3b6qZTux9wFgb
 OOvO0CHcNgcyQbs1Okg0kRibV-JydHNzgRngUSB-yGO
 }
-!procedure Forums($id, $name="Forums", $tech="")
+!procedure Forums($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/Forums', $name, $tech)
 !endprocedure
 !procedure ForumsCard($id, $funcName="", $content="")

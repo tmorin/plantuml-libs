@@ -4,7 +4,7 @@ sprite $AwsAppMeshVirtualNodeLg [20x20/16z] {
 TP05Wi1020FH4BR__-yjjVFKfq75Vabi5KUrTRqiCyebu7wXFwoGTRFN1s1OnkLJ7SYUFqKlzzBk64VkMpjo6DBwOiejuMRMFHRIvddNJOwjwZ1vMKp1Yltu
 mRJNBc_DYt7fCmSTcBe9vzsBBLpz1R7eGWhQuvuZKfmBUU3_7Vozgtkd_B9JCVyXamy
 }
-!procedure AwsAppMeshVirtualNode($id, $name="Aws App Mesh Virtual Node", $tech="")
+!procedure AwsAppMeshVirtualNode($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode', $name, $tech)
 !endprocedure
 !procedure AwsAppMeshVirtualNodeCard($id, $funcName="", $content="")

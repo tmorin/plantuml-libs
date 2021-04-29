@@ -1,7 +1,7 @@
 @startuml
 sprite $AmazonEc2TrainiumInstanceMd [14x14/16z] NSwr0S0020J0r_r7ZXkv3WS0mGs8GnKxwXdaieLiSMa9vOuYC6yKmX5FCRQ8yaxrx9nRVXVczVdP_7e5
 sprite $AmazonEc2TrainiumInstanceLg [20x20/16z] bL230K0X4Esy_yIVsRrmfli1_ejWTXe_3n4my9yFCyrWRm8ITHbKw4bMw_ZveTJ1cyrAdHaqVhu6CW0YmlEd6eJCHCzZZ3NYR0Sr3kPeTz3kQhpJTlSt
-!procedure AmazonEc2TrainiumInstance($id, $name="Amazon Ec2 Trainium Instance", $tech="")
+!procedure AmazonEc2TrainiumInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2TrainiumInstance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2TrainiumInstanceCard($id, $funcName="", $content="")

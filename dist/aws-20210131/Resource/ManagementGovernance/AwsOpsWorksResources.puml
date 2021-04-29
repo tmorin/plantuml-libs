@@ -4,7 +4,7 @@ sprite $AwsOpsWorksResourcesLg [20x20/16z] {
 dL1N0aCX25EPuVxtxSXRrC_cJJCK63VcsA60_J8BEKT0MoeWL3BNITcJKZY_YT4GzNrN-dEaPNtZc7w51J63t7N8v159xdGuIxau8ivlvzJ_uD8xPs2nF90S
 2smpKEypECiBexz1gtpicCyWtW
 }
-!procedure AwsOpsWorksResources($id, $name="Aws Ops Works Resources", $tech="")
+!procedure AwsOpsWorksResources($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/ManagementGovernance/AwsOpsWorksResources', $name, $tech)
 !endprocedure
 !procedure AwsOpsWorksResourcesCard($id, $funcName="", $content="")

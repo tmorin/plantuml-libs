@@ -4,7 +4,7 @@ sprite $AmazonEc2AutoScalingLg [20x20/16z] {
 VT3L0GKW3CNGq5na_uMVkt3-a2exS_2XZJb7uuqNV4ZuKWNRs5RWl13gMcWKcPnCgS59p2flTxMYaBpSkNAjFtp6sgyrVArXuyvetFIycStIydDN9uqFSx9p
 1
 }
-!procedure AmazonEc2AutoScaling($id, $name="Amazon Ec2 Auto Scaling", $tech="")
+!procedure AmazonEc2AutoScaling($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2AutoScaling', $name, $tech)
 !endprocedure
 !procedure AmazonEc2AutoScalingCard($id, $funcName="", $content="")

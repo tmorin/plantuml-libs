@@ -4,7 +4,7 @@ sprite $AwsAppConfigLg [20x20/16z] {
 PSe7iYL024BHgeUAqFlVxtISdwuLZsZNBwxq5x_iFRvCIaJheCyiwaD4fXRQYv3HLWQoPvxeWYssL9zdPfW8f0hNFBy6BL30iP5qXzkLqhCA6sr_xMQa2ubq
 GNVNcATgNniUWj3aS6Maf1vZMD445P5fpPQ15Su8sRf63dedNPjv-EANFRAl_SL_
 }
-!procedure AwsAppConfig($id, $name="Aws App Config", $tech="")
+!procedure AwsAppConfig($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsAppConfig', $name, $tech)
 !endprocedure
 !procedure AwsAppConfigCard($id, $funcName="", $content="")

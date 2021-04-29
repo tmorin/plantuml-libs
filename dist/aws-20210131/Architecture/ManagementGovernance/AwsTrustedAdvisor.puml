@@ -4,7 +4,7 @@ sprite $AwsTrustedAdvisorLg [20x20/16z] {
 PSt7OGGn34FH2qaGKF_z6egsT__aDmfSzGqpVkEpvyyCbRYe9SYOrKPDLARHPwyqKHL0TUGpsVBJzCRn6OWiL7bSyLWdrnw9mBNXzvm5TCsmP8vjuz1W1DKP
 JR-1x34aG586HHJTC4wdnudICOjZBpXcl3txn6MV-WC
 }
-!procedure AwsTrustedAdvisor($id, $name="Aws Trusted Advisor", $tech="")
+!procedure AwsTrustedAdvisor($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/ManagementGovernance/AwsTrustedAdvisor', $name, $tech)
 !endprocedure
 !procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")

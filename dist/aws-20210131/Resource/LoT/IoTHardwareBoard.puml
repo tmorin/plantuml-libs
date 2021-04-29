@@ -4,7 +4,7 @@ sprite $IoTHardwareBoardLg [20x20/16z] {
 TP070WCX20JPHLWl_tzmaDHhOnyxze6q0vwPyhsIH_XUiiQLzzjHG-8pK1PTVG1b04GqQwN8jAmyh46aPxkDff9Z2vLgPvomRPhBKz4EOPIDwBrZO3b_45dZ
 aUvEik-GjSiPpGG5hQfWxpOHIktVBEp_TX-3-rYLtCNq7Fid
 }
-!procedure IoTHardwareBoard($id, $name="Io T Hardware Board", $tech="")
+!procedure IoTHardwareBoard($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/LoT/IoTHardwareBoard', $name, $tech)
 !endprocedure
 !procedure IoTHardwareBoardCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TapeStorageLg [20x20/16z] {
 lSX50S104C30BCFvrriIqVab_CEgGdX8L1clEkcr1dR6O-fTdVash8z05wmG0HLHM2goeeFCPasr4plPgy-ZzyagnxT5Hbcr5cZtvjdeWcyPv14vdQ370P_k
 sNbiTw_pCLS-wiPFRW
 }
-!procedure TapeStorage($id, $name="Tape Storage", $tech="")
+!procedure TapeStorage($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/TapeStorage', $name, $tech)
 !endprocedure
 !procedure TapeStorageCard($id, $funcName="", $content="")

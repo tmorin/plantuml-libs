@@ -4,7 +4,7 @@ sprite $AmazonEc2P4DInstanceLg [20x20/16z] {
 bP050WH020A75VJ_BxxkljbE1Oxer5smwKjt8j7er750qpUCW4fpGwV0Zti6TBydq4nVin0z8r0J1urOeSynih8gSdADaQYIMBd6i92o7D_4k8IunhYX_z3n
 xC6pL-yzVVP-2m
 }
-!procedure AmazonEc2P4DInstance($id, $name="Amazon Ec2 P4 D Instance", $tech="")
+!procedure AmazonEc2P4DInstance($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/Compute/AmazonEc2P4DInstance', $name, $tech)
 !endprocedure
 !procedure AmazonEc2P4DInstanceCard($id, $funcName="", $content="")

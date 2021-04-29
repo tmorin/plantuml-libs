@@ -4,7 +4,7 @@ sprite $EmailLg [20x20/16z] {
 hSX75eH024313tGZmUVzRpjv37jhMTnCkh9oLrajkfOXEwnMjT0UxAmrp18jvyTRoVT11hn5mlzOIa0gE4upIhKYTJ_hWLKPeyVll1KG1RJzVJ433k5Xkgrp
 pDsOlQcuBnVkmisU
 }
-!procedure Email($id, $name="Email", $tech="")
+!procedure Email($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/Email', $name, $tech)
 !endprocedure
 !procedure EmailCard($id, $funcName="", $content="")

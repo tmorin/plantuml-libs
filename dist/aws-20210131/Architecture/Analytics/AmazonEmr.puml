@@ -4,7 +4,7 @@ sprite $AmazonEmrLg [20x20/16z] {
 PSu9bi0W20FGLmEIuFtlEzA1MTEwVLTzXfEuqLziQzLW3lboDcOZ8GIbmYoiQXaezxPC1jq2t6RUjk5OcRVQs_HQ89LkPkj-PDbnyja25Kz875kXnUGJR2EE
 phiN2t7nN7plg0OHLbQeqFQ026n9fx2gPL2IAdinKpXWIcEd7vvZWrKQJ-EaxHz-
 }
-!procedure AmazonEmr($id, $name="Amazon Emr", $tech="")
+!procedure AmazonEmr($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Analytics/AmazonEmr', $name, $tech)
 !endprocedure
 !procedure AmazonEmrCard($id, $funcName="", $content="")

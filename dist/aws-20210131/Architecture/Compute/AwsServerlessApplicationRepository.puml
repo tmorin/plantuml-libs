@@ -4,7 +4,7 @@ sprite $AwsServerlessApplicationRepositoryLg [20x20/16z] {
 RSo54S1G20JH-S3Tqd_5SS-EFuGvtz8SFyWFyeF0XzcgadcO8sk4uMQf9XsPcpKqsNYeAfFLUgPgK1WYTojr9b7CLR8OKPaPGwwvsFP21ZaofCESmFumYzbM
 F2jME-BeCExzxD4_s3yu0G
 }
-!procedure AwsServerlessApplicationRepository($id, $name="Aws Serverless Application Repository", $tech="")
+!procedure AwsServerlessApplicationRepository($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Compute/AwsServerlessApplicationRepository', $name, $tech)
 !endprocedure
 !procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")

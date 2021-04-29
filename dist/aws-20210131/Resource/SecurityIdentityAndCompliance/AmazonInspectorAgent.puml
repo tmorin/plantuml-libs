@@ -4,7 +4,7 @@ sprite $AmazonInspectorAgentLg [20x20/16z] {
 TSvLWWDG24FH43JC_jSxTM_lvta2-5NqJCUpSDkFjNWdN_9qZxutj6NApMAJUxNE60im8A-wc2YlRJKewZ9WV31_cIA6OsThRnmPlj4-lDsZ5h2Dsps84oo5
 aaUxpAYc3BdEvJGkRVXMP2r3ojlIQL4LLWkxOwiYIZr7KEEgMPK6Km5pnMiN4D-m9sHuAvhurW4
 }
-!procedure AmazonInspectorAgent($id, $name="Amazon Inspector Agent", $tech="")
+!procedure AmazonInspectorAgent($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/SecurityIdentityAndCompliance/AmazonInspectorAgent', $name, $tech)
 !endprocedure
 !procedure AmazonInspectorAgentCard($id, $funcName="", $content="")

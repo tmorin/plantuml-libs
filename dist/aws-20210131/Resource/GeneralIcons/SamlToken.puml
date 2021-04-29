@@ -4,7 +4,7 @@ sprite $SamlTokenLg [20x20/16z] {
 LSq7ZaGn20DGcrIJV__phb0AirP_52DZPYJncxgcDEKpgQrOAJ3FBGyQFYd-8phT9d_9sDU0RFyACYbURjllpKSJmievB47xvx9zA6dUchQtPe_v8tu6gdc5
 BiKf85-37hiDY7H7_TIyxQs7PSnwA35_9HBqch3HxbQcVMyhGsJ-
 }
-!procedure SamlToken($id, $name="Saml Token", $tech="")
+!procedure SamlToken($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/SamlToken', $name, $tech)
 !endprocedure
 !procedure SamlTokenCard($id, $funcName="", $content="")

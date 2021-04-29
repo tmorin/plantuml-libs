@@ -4,7 +4,7 @@ sprite $ServerlessLg [20x20/16z] {
 VT25ZGGn40LHwHhh-_AFTsLOXXf-mmxpbomyQvMttBt5gNTvx2xL-UiwTHOF9b1ukCE3AMEkBBcPC0HYuh6omfnojuHf0zVeloXliDhMETIa2vInJSuObH58
 NfJFu_RmGB4sspHl7PAerh6PJcpxVoPjEnrlzsBL3sCLzbPS
 }
-!procedure Serverless($id, $name="Serverless", $tech="")
+!procedure Serverless($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/Serverless', $name, $tech)
 !endprocedure
 !procedure ServerlessCard($id, $funcName="", $content="")

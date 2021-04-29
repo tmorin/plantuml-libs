@@ -4,7 +4,7 @@ sprite $ElasticLoadBalancingGatewayLoadBalancerLg [20x20/16z] {
 RP3LOKL124JnPKZwh_Unr-ryuJAqmI9CLpXo8SwmrUfmb6qXnvbENwj01wgmsR1LUJC0ptOZYAHCozm6IhnzIBVyXnWr8jr7dDrEAKnRZ98brIj6L1ZDNkry
 nwB6Z3bP0ZFsrNliS6hCY77UyXSHYLAFysPh0Z3mupSHs5C3Jl_KwblJB-r_
 }
-!procedure ElasticLoadBalancingGatewayLoadBalancer($id, $name="Elastic Load Balancing Gateway Load Balancer", $tech="")
+!procedure ElasticLoadBalancingGatewayLoadBalancer($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingGatewayLoadBalancer', $name, $tech)
 !endprocedure
 !procedure ElasticLoadBalancingGatewayLoadBalancerCard($id, $funcName="", $content="")

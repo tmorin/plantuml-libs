@@ -7,7 +7,7 @@ sprite $DeveloperToolsLg [20x20/16z] {
 PT05biD040FHjzkIcfpxNpT3uJ9_yz3mbH4AVwGLWUWQvQD83HiI1zqZOjjQ3wBznRwk2vMMMGxAjAqTBLL1e77Rl5bmHmNXwK0EwuAe2Z3oOKCfWwBos4nX
 Idit9yVI6xSvlJEqSTdL49pHt7ZCvUoQAFMsI_zSdoGWQrjtLlV4DI10tQvPduRl4Jd5Ig3zn3i
 }
-!procedure DeveloperTools($id, $name="Developer Tools", $tech="")
+!procedure DeveloperTools($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/DeveloperTools', $name, $tech)
 !endprocedure
 !procedure DeveloperToolsCard($id, $funcName="", $content="")

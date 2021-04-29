@@ -4,7 +4,7 @@ sprite $InternetOfThingsLg [20x20/16z] {
 PT07SWGX44FHgf7KGVZ-vtMpuBX_yfkCm7z1L6R6Tv88bdjNC--oWinBcLicWUaN2L1lhBZMWMxet7kUPn9L06iARdF82QIflkPyPXtXv1F7Lj79ZcXa8VkO
 LZ-Cm5FcCLjaQagGzrulv1gY4rrzpBqV5ohKM1vRHN3cx6cinoO26FYsM_lRFjQhxnDvngg-oimIXBVq2G
 }
-!procedure InternetOfThings($id, $name="Internet Of Things", $tech="")
+!procedure InternetOfThings($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/InternetOfThings', $name, $tech)
 !endprocedure
 !procedure InternetOfThingsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $DiskLg [20x20/16z] {
 RP050i0W24K91RxU_xuRhECjb0xQOLMcEsmex5BtwPAdsEoxoiPfvc5rja4tHa_JxiLvxAALjo82MfcS29AggTfqfbAGxmhK0DVjBdLojFL02odxd-w8zLli
 MQDTDSX_UldhcJhe1lhV3evTsMjNQNOKpdH7L8Ls5W
 }
-!procedure Disk($id, $name="Disk", $tech="")
+!procedure Disk($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/GeneralIcons/Disk', $name, $tech)
 !endprocedure
 !procedure DiskCard($id, $funcName="", $content="")

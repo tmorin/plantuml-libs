@@ -4,7 +4,7 @@ sprite $AwsCodeBuildLg [20x20/16z] {
 RT05WeGm341H6fVU_xoRabdyumzlHFX_zYkgjnqrjo6gg7H-60wGjG2mj_NHO2WQw6tR45ntm-_kZ4WIeje4-luYoomB6H5AHEAhPSn41XioRc3BAiHWOLTc
 8uqsGcSHKbOyZANsrOXT-BWk1PHJpUEuRdy7qWgjRH8bHUOn5BECgJIEV1QkVwaEd3jsXttW7m
 }
-!procedure AwsCodeBuild($id, $name="Aws Code Build", $tech="")
+!procedure AwsCodeBuild($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/DeveloperTools/AwsCodeBuild', $name, $tech)
 !endprocedure
 !procedure AwsCodeBuildCard($id, $funcName="", $content="")

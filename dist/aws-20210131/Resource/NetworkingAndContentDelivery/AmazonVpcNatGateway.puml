@@ -4,7 +4,7 @@ sprite $AmazonVpcNatGatewayLg [20x20/16z] {
 PL1LGWKm34lgxRZ_TP5jm9FynIR11KM8Hp1g8_vbcqCOOrVovb-X_QIA9N-TjcrHfjNT1OS24JXQ1O3DqG8c0TZHs601L5nD4oXA0RA2f2VfAr6ojPwewgcQ
 74dXZpPsk_PXAEux75SJ0_kyPUNLiFb-Suz7Tloz6LQo7AhAyxUxWRvk05Y_RONtJT-t_m8
 }
-!procedure AmazonVpcNatGateway($id, $name="Amazon Vpc Nat Gateway", $tech="")
+!procedure AmazonVpcNatGateway($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway', $name, $tech)
 !endprocedure
 !procedure AmazonVpcNatGatewayCard($id, $funcName="", $content="")

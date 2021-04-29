@@ -4,7 +4,7 @@ sprite $GameTechLg [20x20/16z] {
 PT17Ti0m30FHvn1WWNp_yuPggUELlx0Y3NyomcFbNpMdwfGxF_OjyS--T-fNJVQu9eU3dVMtRHGgqjojHnQrB3oVeiGM-hOMXVN6bKyS0_414WzWrxnvI4AA
 KR6CBqDLSWuigo62wahitsr3gLr57UkkwTZxRPEqxNGyWRXd-RuLxL_y1
 }
-!procedure GameTech($id, $name="Game Tech", $tech="")
+!procedure GameTech($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Category/GameTech', $name, $tech)
 !endprocedure
 !procedure GameTechCard($id, $funcName="", $content="")

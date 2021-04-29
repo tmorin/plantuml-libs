@@ -4,7 +4,7 @@ sprite $AmazonEc2Lg [20x20/16z] {
 RSs55SD030JH9rprNt54CO_v-m2PNx8C7uZk_AuR5Y4y9UAVU8_c73cmYzzCcOcOBCtNZApInB808fp-lz0MeMA7-HWOpcFi8cCIQG64aGE77NiahK6v8hkC
 2tY7gYpIOePFRHthtn3Plk6meqyxy0S
 }
-!procedure AmazonEc2($id, $name="Amazon Ec2", $tech="")
+!procedure AmazonEc2($id, $name="", $tech="")
   IconElement($id, 'aws-20210131/Architecture/Compute/AmazonEc2', $name, $tech)
 !endprocedure
 !procedure AmazonEc2Card($id, $funcName="", $content="")
