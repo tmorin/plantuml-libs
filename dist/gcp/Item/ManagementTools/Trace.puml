@@ -1,7 +1,7 @@
 @startuml
 sprite $TraceMd [14x14/16z] TSV50S8050Mm9rzW_u6Xxiqjb4Ii59dUvkhERPGjlE4Eogx1PzINWGUueoTXZDJz7JL6pAn19yx-
 sprite $TraceLg [20x20/16z] fSx50G113090O2tfl-1pTvbd580DRAYnBbAb4RUrdFDbxJ_6GUfb3ZzQrdCTrGvt_siV5MiLqsMjb3dBG3CSgW4
-!procedure Trace($id, $name="Trace", $tech="")
+!procedure Trace($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ManagementTools/Trace', $name, $tech)
 !endprocedure
 !procedure TraceCard($id, $funcName="", $content="")

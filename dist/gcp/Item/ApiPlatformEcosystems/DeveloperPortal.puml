@@ -1,7 +1,7 @@
 @startuml
 sprite $DeveloperPortalMd [14x14/16z] XKs30G113Bj6-s_yDcicxLUgzXeP16l76hPShWQNbW8X3PWChbt3UeaxodXi1oVsN-a1
 sprite $DeveloperPortalLg [20x20/16z] jKzL0aGX4DeHSEz_usUtdxPE4BytmybxkIcalu1mZ35OF0rpiw74IsEuJLA-KuYUXC9R0iCdbOKOSumXfajlk2UEYvPPyydRc_41
-!procedure DeveloperPortal($id, $name="Developer Portal", $tech="")
+!procedure DeveloperPortal($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ApiPlatformEcosystems/DeveloperPortal', $name, $tech)
 !endprocedure
 !procedure DeveloperPortalCard($id, $funcName="", $content="")

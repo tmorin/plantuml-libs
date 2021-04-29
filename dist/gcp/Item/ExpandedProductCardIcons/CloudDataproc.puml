@@ -7,7 +7,7 @@ sprite $CloudDataprocLg [20x20/16z] {
 NP350GGm20InEDdjlzfpoyrpSEIDXyc9HklLJjLu8myPH2kJmuwqfXBO_dNMMMzJ_jqARvnsE094o9a7Sigl6opHDrVvEkrqqRgOFPx2B2RZcSwiTbCrTsxw
 eySYkJmQ2VBkh8Dx9kTA56-WMqioYtfkOjqo9iS2yh7q1B1CV9BC5dZcZMGlWqHJaVNifuKtqEsv-sFkuyCjz7LGb32v0W
 }
-!procedure CloudDataproc($id, $name="Cloud Dataproc", $tech="")
+!procedure CloudDataproc($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ExpandedProductCardIcons/CloudDataproc', $name, $tech)
 !endprocedure
 !procedure CloudDataprocCard($id, $funcName="", $content="")

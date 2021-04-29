@@ -4,7 +4,7 @@ sprite $StackdriverLg [20x20/16z] {
 fSt50GG120F0u5p_1QyWPz-T9vBWAPR282oI1dQi6H4ivFzCt9t-pgvHQ8rOvQ8C3P_3GI0lXeiscbazsojl0VdwZOnhb58TWY8vXtmDCRn6gR1W3Cv6P7Yp
 A8RdJW
 }
-!procedure Stackdriver($id, $name="Stackdriver", $tech="")
+!procedure Stackdriver($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ManagementTools/Stackdriver', $name, $tech)
 !endprocedure
 !procedure StackdriverCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $CloudLoggingMd [14x14/16z] PSs50G0W20H0-lUVs6xF3e2ue8b5b8axObKJHw1qhoSLGrHUlfenRM5qS7WqyEzKVtBpnmKqklgpxe5UlU61RXa
 sprite $CloudLoggingLg [20x20/16z] ZP050e0m200bdV__iEkkqnKDpnImz28cOWJAW9NvazuC5fb6h2pweaf4NN1aGUWJopSM8yOPPo38D6Q8ERpCLj38Ub-1A6lOoRgQRNt6z3d8scWzWqWpgrj-
-!procedure CloudLogging($id, $name="Cloud Logging", $tech="")
+!procedure CloudLogging($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ManagementTools/CloudLogging', $name, $tech)
 !endprocedure
 !procedure CloudLoggingCard($id, $funcName="", $content="")

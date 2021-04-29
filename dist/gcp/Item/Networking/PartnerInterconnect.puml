@@ -1,7 +1,7 @@
 @startuml
 sprite $PartnerInterconnectMd [14x14/16z] bKs35G1H3Akn_y37xyVQ2LG4zHFiBOX0QyYTHDxup4aZtov3QU-EouboCbJa1W
 sprite $PartnerInterconnectLg [20x20/16z] jO_50S0m200Z7BB_m7Klt-0kPGGqEQ0zOe0gqDwrwDEhG5zZ7QXxhBi7XON2lHzLPhx7t0ng5ajwqntvBSVDeYhGqjz6m0m
-!procedure PartnerInterconnect($id, $name="Partner Interconnect", $tech="")
+!procedure PartnerInterconnect($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/PartnerInterconnect', $name, $tech)
 !endprocedure
 !procedure PartnerInterconnectCard($id, $funcName="", $content="")

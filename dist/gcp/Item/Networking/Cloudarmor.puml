@@ -4,7 +4,7 @@ sprite $CloudarmorLg [20x20/16z] {
 VT35eSD030JGqP3xh_X3p24TtwuGtsBcHToQLs4QZXkU4i_ZimwDSOIp6V__R3aNIm7DpQQ55bzjHC3XnVoVzS-0DdDNKWRsQkpwgmjHOayc0MhMrEsZrfyy
 lW4goUtjWfbnzNAhyEjDN-CN
 }
-!procedure Cloudarmor($id, $name="Cloudarmor", $tech="")
+!procedure Cloudarmor($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/Cloudarmor', $name, $tech)
 !endprocedure
 !procedure CloudarmorCard($id, $funcName="", $content="")

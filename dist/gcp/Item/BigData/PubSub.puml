@@ -4,7 +4,7 @@ sprite $PubSubLg [20x20/16z] {
 bL150a9H41AOkF-DzRNwcyLqyde8IFYFKU957LMaUv6z694QCMNKQdYmL5SHZbQ88aWCUq0VRDV-BWPCb6WEp19BbabCxyKiNMi2cx6-uaeNGNPpWH5R3Y9-
 QjOtntW3
 }
-!procedure PubSub($id, $name="Pub Sub", $tech="")
+!procedure PubSub($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/BigData/PubSub', $name, $tech)
 !endprocedure
 !procedure PubSubCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MemorystoreLg [20x20/16z] {
 PP195aGX20Cb4kZxdxY9_DdQMIyoZHihdY-1ufAOWbbuP-XpuL7GQSEG-N3nIrHm0bAOdVD7FLkkZGLNR7IEZtfL8rFrVb1GVsrDoN2DtGv3JDKhTyrYLRd8
 HFTefm6POOzPKAhhNJCRvGWywdbSkrqtO0W67_MOmjytnUEcEty
 }
-!procedure Memorystore($id, $name="Memorystore", $tech="")
+!procedure Memorystore($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/StorageDatabases/Memorystore', $name, $tech)
 !endprocedure
 !procedure MemorystoreCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $CloudRoutesLg [20x20/16z] {
 dP05UWKX38Gpm4ZlV-5-M5tVlul5ate4z2za6kjebjgyTP8ICMLFYL7L94iobvqJ5IIHEZw0ab7qcBQe3Ppq6bKOg4jBtEe3O-RvM2eJLO4u4j2zb73MiDEA
 4giviHttqmTd6vaumhBRKOQaBNe7p9zdzJlF
 }
-!procedure CloudRoutes($id, $name="Cloud Routes", $tech="")
+!procedure CloudRoutes($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/CloudRoutes', $name, $tech)
 !endprocedure
 !procedure CloudRoutesCard($id, $funcName="", $content="")

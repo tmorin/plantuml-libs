@@ -4,7 +4,7 @@ sprite $CloudGpuLg [20x20/16z] {
 TP255OK030FJLFTV62TyFVmULUoOwH96WFjb43N433WbPTNXtHvT9ZNYaCQgwRpegUBcfYUFtxShfuS068TZ7Yw87JzSdyu1nMvHQMUi7BSmdEw9JSK-DS9K
 u-a5wkNiEV8WZfu_PslxiuD_kmAfwnyh
 }
-!procedure CloudGpu($id, $name="Cloud Gpu", $tech="")
+!procedure CloudGpu($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Compute/CloudGpu', $name, $tech)
 !endprocedure
 !procedure CloudGpuCard($id, $funcName="", $content="")

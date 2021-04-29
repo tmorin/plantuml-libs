@@ -4,7 +4,7 @@ sprite $ComputeEngineLg [20x20/16z] {
 TO-50SD024M_dIJx3roYzNUA0tPOc_lpH0Hh2tWoZTxXIJmPXsuyDNAiP7zmOgkszWS4g3cYEoBBwbAw0CNQi1EUiL3i7jYxWht5eDrcwJA6GFQUUfn-wARk
 s3xwVCQwE6x2TlYx5_3esTet-NysS0d6W1VYgLk3EP6LU6920es_F
 }
-!procedure ComputeEngine($id, $name="Compute Engine", $tech="")
+!procedure ComputeEngine($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Compute/ComputeEngine', $name, $tech)
 !endprocedure
 !procedure ComputeEngineCard($id, $funcName="", $content="")

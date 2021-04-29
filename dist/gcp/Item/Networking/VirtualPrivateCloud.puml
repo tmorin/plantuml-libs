@@ -4,7 +4,7 @@ sprite $VirtualPrivateCloudLg [20x20/16z] {
 ZP050iCm30FhMB3-_y6bq7XJ-4AsbaCHIzMOHqI9GKev1wICYWfW7p0oAH6dCbEDIRvPHuz4PKYEk_NSEH6oiYWKufnnNOPMrX6Up9rfCk7rdF3VELVs40k8
 U1lp-zog1vmUlFEg-lZewLlj
 }
-!procedure VirtualPrivateCloud($id, $name="Virtual Private Cloud", $tech="")
+!procedure VirtualPrivateCloud($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/VirtualPrivateCloud', $name, $tech)
 !endprocedure
 !procedure VirtualPrivateCloudCard($id, $funcName="", $content="")

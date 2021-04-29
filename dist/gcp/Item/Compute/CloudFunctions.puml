@@ -1,7 +1,7 @@
 @startuml
 sprite $CloudFunctionsMd [14x14/16z] NOs50SC03CEaqFyVRsKAeyrNVAP8joO3t9gpDOj3Ah7cxAQ87aIHwK_tkdoZV1WWohjPMixqaJy
 sprite $CloudFunctionsLg [20x20/16z] bL250KGX52AC_IU-_6stlWImCAJY9Pl_5sqzJBjnlquZlsVanPP-jfYljXm9CgUB3IaBL4w027tV7LkPM-q1EfLOIimbjwe6fLOBumq
-!procedure CloudFunctions($id, $name="Cloud Functions", $tech="")
+!procedure CloudFunctions($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Compute/CloudFunctions', $name, $tech)
 !endprocedure
 !procedure CloudFunctionsCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $FilestoreMd [14x14/16z] XSY50S0m3CH0GwtVV-8oKoueMqFCjlAPpN9dDxuDvpTAWkNKMB0KBBLOIcY6oZoxNTgV0G
 sprite $FilestoreLg [20x20/16z] fSY35G1140FGP8VzDtosyHy2_5O6oqi61HT45mGThk04tSmK7Msg4opXhMnuAyhqHMFvJJvyiT1-eAuPyKSD
-!procedure Filestore($id, $name="Filestore", $tech="")
+!procedure Filestore($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/StorageDatabases/Filestore', $name, $tech)
 !endprocedure
 !procedure FilestoreCard($id, $funcName="", $content="")

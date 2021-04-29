@@ -7,7 +7,7 @@ sprite $KubernetesLogoLg [20x19/16z] {
 LSi5eY0W24NHHoXSzh_WaVbzJ4gVeYhqHnGpTEfRza0Lp5SsDiFSCtndOLL4mJB98M-xcSpx9eIKGuTYycr5CqT-OKBUuUqAe9GDhKuzqLORRLlP5eykVWUy
 XpuooKEo7PliwKmbAGL76JtL0vE6dIiyDZf-UK9MRNAUabGyRekdJP8rL515xenh1PlWumvzo9dXUS_HbzFLJ_NL-WS
 }
-!procedure KubernetesLogo($id, $name="Kubernetes Logo", $tech="")
+!procedure KubernetesLogo($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/OpenSourceIcons/KubernetesLogo', $name, $tech)
 !endprocedure
 !procedure KubernetesLogoCard($id, $funcName="", $content="")

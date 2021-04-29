@@ -4,7 +4,7 @@ sprite $CloudSqlLg [20x20/16z] {
 VSq72i0m34DHM_Be_K_SxD1fLdY1B_axrGSnqgvAppoEj2tmI0UhSfRClRsB1eQH69ynJS2YLJB6pbI_Yeg2uH3uL995gsHCqzhJrgDSUbSXgjO5NdjIvTgZ
 eeYZozH8dxsbJhrILVcx4m
 }
-!procedure CloudSql($id, $name="Cloud Sql", $tech="")
+!procedure CloudSql($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/StorageDatabases/CloudSql', $name, $tech)
 !endprocedure
 !procedure CloudSqlCard($id, $funcName="", $content="")

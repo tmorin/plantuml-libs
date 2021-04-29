@@ -4,7 +4,7 @@ sprite $SecurityCommandCenterLg [20x20/16z] {
 VP25aGGW40InaVmZ_i7gpnllBMpB3-ggZpIm5ABzcqvvEflzxAB3SifOrpxDEKg1Cr4xpbfxklpWecgDlAw2o99C8DDQBfKXoqSgI3muYDaBP2-5xOOzzXsP
 7LUrv5Aw-yVznuejrahfL-H1SdUFZEd6pvo-ymS
 }
-!procedure SecurityCommandCenter($id, $name="Security Command Center", $tech="")
+!procedure SecurityCommandCenter($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/IdentitySecurity/SecurityCommandCenter', $name, $tech)
 !endprocedure
 !procedure SecurityCommandCenterCard($id, $funcName="", $content="")

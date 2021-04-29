@@ -4,7 +4,7 @@ sprite $BeyondcorpLg [20x20/16z] {
 VL054e0m3Akc-_-7aRaS16RrX1OmqmxMnIQgmW2aMmml4iYyfI3qFJKCsat5HaWjp26rj9eKemHWlND83dDkSVcLzvWdKEJ2niD4WgyuWnpr9FpeImYL4TPu
 mBNo3kvy4pZtpCUYooWxzACVt
 }
-!procedure Beyondcorp($id, $name="Beyondcorp", $tech="")
+!procedure Beyondcorp($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/IdentitySecurity/Beyondcorp', $name, $tech)
 !endprocedure
 !procedure BeyondcorpCard($id, $funcName="", $content="")

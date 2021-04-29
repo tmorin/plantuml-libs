@@ -4,7 +4,7 @@ sprite $DebuggerLg [20x20/16z] {
 bO-54S0m24NXIsJ_XNlKvQmlYaFy9-z_e4IWVjXq816HH83MeQkRPOYk8_Pq3Z4EIbMwEyclZeLitYD1IRrbtF4SlRsYFLhZVOvDvtfuwzbRik5TvwvGHoMT
 XqvcIDLIC-yTPlnc0G
 }
-!procedure Debugger($id, $name="Debugger", $tech="")
+!procedure Debugger($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ManagementTools/Debugger', $name, $tech)
 !endprocedure
 !procedure DebuggerCard($id, $funcName="", $content="")

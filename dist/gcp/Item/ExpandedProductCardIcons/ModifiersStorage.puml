@@ -1,7 +1,7 @@
 @startuml
 sprite $ModifiersStorageMd [14x14/16z] VStL0O0m40FGu4cm_QV5dRRlw_oGK5BoWMY6ckEXNtgajJ4157bsMYRbUx8P-CYGFIQtAzhzF-ZwtX8fCm
 sprite $ModifiersStorageLg [20x20/16z] Ow00C39pS_Dm8G5kPWOc5dus9dvam0eMOqGL0-hbuURXHW8ypDYim537nJDOxK3efGG
-!procedure ModifiersStorage($id, $name="Modifiers Storage", $tech="")
+!procedure ModifiersStorage($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersStorage', $name, $tech)
 !endprocedure
 !procedure ModifiersStorageCard($id, $funcName="", $content="")

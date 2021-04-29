@@ -4,7 +4,7 @@ sprite $PersistentDiskLg [20x20/16z] {
 TSw73SGm34DHcrRB_WjVT628r8V-NQJnOPummPOOsDR9gU4mrJ3arB3GrlcUPuiqhjA_M3GsiWmtC-rYEtzS-RC-XLes7rQRSmRNmDwAJKxDuf1gNf9gMubc
 u6IETpy
 }
-!procedure PersistentDisk($id, $name="Persistent Disk", $tech="")
+!procedure PersistentDisk($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/StorageDatabases/PersistentDisk', $name, $tech)
 !endprocedure
 !procedure PersistentDiskCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $GkeOnPremLg [20x20/16z] {
 bT37WOGm44JHCkhg8V-4T_7kn0UvTvFmCTfyoqr9MVDcNTRTl5ML04Ah3O6L_ugmLoJWTD9boCISe98Jgmm3SmOxbiOlF0qQdPxA5rEaYXoVXj4bPIfmDm5A
 _reu39hLnaowNVVr3lGGBToIYQ_z0G
 }
-!procedure GkeOnPrem($id, $name="Gke On Prem", $tech="")
+!procedure GkeOnPrem($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Compute/GkeOnPrem', $name, $tech)
 !endprocedure
 !procedure GkeOnPremCard($id, $funcName="", $content="")

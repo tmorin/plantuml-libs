@@ -4,7 +4,7 @@ sprite $CloudDnsLg [20x20/16z] {
 RS-54S1020H0uEwb_ueJPABio2ic5otFlHM_8WctodcfK86RAUxOtI7DvU9EB74o39NBMjUs-TVbw-ls_P5NhBDhNfbBhtdRNbIS0HPRRyNsEcq2p5tK_L2v
 wBLl7G
 }
-!procedure CloudDns($id, $name="Cloud Dns", $tech="")
+!procedure CloudDns($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/CloudDns', $name, $tech)
 !endprocedure
 !procedure CloudDnsCard($id, $funcName="", $content="")

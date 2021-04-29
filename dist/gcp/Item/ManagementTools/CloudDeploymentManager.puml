@@ -4,7 +4,7 @@ sprite $CloudDeploymentManagerLg [20x20/16z] {
 ZOw50KGn24EJK6J_YQzmxlzLW-CmCjcDBG0mNo2W50WIx3CIx6iW-xhRMfhRasqHaeKURFAmVa8N6x7rSapwrIRX2g-vn9txB7TQKkdh0PyuZoOtqJXnnQiS
 TxxOQ54LnYUZ1dpd1
 }
-!procedure CloudDeploymentManager($id, $name="Cloud Deployment Manager", $tech="")
+!procedure CloudDeploymentManager($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ManagementTools/CloudDeploymentManager', $name, $tech)
 !endprocedure
 !procedure CloudDeploymentManagerCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AiPlatformLg [20x20/16z] {
 bL17WiG02590CV__yARdijCygjJuQG1a0eXdw6vmPdIlie4cJHht6qFhRYga-szT5T1JcNcivBOo4htCz2b0i0kq1GtNLLOJAOChbB9ptRLj7RIrWhTTW9GF
 xD8I3ba43oyAdBgmm6rtIfncIagKFFLaQsGawCcdWsxpwU15Lr_D7m
 }
-!procedure AiPlatform($id, $name="Ai Platform", $tech="")
+!procedure AiPlatform($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/CloudAi/AiPlatform', $name, $tech)
 !endprocedure
 !procedure AiPlatformCard($id, $funcName="", $content="")

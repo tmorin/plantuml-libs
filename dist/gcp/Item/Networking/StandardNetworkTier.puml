@@ -1,7 +1,7 @@
 @startuml
 sprite $StandardNetworkTierMd [14x14/16z] dSYr0GC140CmsVUu_y1Xg1ELyglwMjAEfwvv5coTFT3GZVLOCP5rS9p14EX0_UiA
 sprite $StandardNetworkTierLg [20x20/16z] nKo50GD130AY-o_yVZ916nS0lpE79SJjGYGffBPR-83xkbIye_Jr5jJ93_3ql37MzLxzhkm7dzslrdrJ0G_m_R68QVfcuczs0W
-!procedure StandardNetworkTier($id, $name="Standard Network Tier", $tech="")
+!procedure StandardNetworkTier($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Networking/StandardNetworkTier', $name, $tech)
 !endprocedure
 !procedure StandardNetworkTierCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $GenericMd [14x14/16z] PSc55S0m24NHZyF-0zSRlT5t00r0Oes2hF8NLsLSxttUoZH0sann4Nyg22-_o_3Hk_mlkokDwQRvLBELHkEOdG
 sprite $GenericLg [20x20/16z] RT250O0m3031UCB-0mDrVVpmmYraMkBVEBOGWCBZp__ojjZMC1EnpGJ-T3R_AQDtorArci6KPtjaDYscirdzPXn4xHtEL1EljZNRFWPUosDm7ol0BRZs0G
-!procedure Generic($id, $name="Generic", $tech="")
+!procedure Generic($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/Generic/Generic', $name, $tech)
 !endprocedure
 !procedure GenericCard($id, $funcName="", $content="")

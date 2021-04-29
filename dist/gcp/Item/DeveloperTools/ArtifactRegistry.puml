@@ -4,7 +4,7 @@ sprite $ArtifactRegistryLg [20x20/16z] {
 TT350KGX40DGT8ImfFzgrxuRpeDB9dnR2cjRZtcbvPYScz6_FqK7-sRWq40EYR-Ro6-DCfX8_Pz1ul-cgrK7l1wjKOGucXEW7woejzQqxCn8f0JILok6xYBM
 ONKneychzo5ANqpP6m6sJbii6XfI_2uU9nloZP7-ORv1Vjd41d6eWTtKwbBJ4XxQ1m
 }
-!procedure ArtifactRegistry($id, $name="Artifact Registry", $tech="")
+!procedure ArtifactRegistry($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/DeveloperTools/ArtifactRegistry', $name, $tech)
 !endprocedure
 !procedure ArtifactRegistryCard($id, $funcName="", $content="")

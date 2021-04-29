@@ -4,7 +4,7 @@ sprite $CloudBuildLg [20x20/16z] {
 bO_L0GKX4CGoW_RVy9F3-RlWmNPvYHnqAOSVtgr2nrErfPz1sqs1l9I5K4gWPz6kcf2BdL48mmN5aiXLtXonADHokKYvd4IioOJD1MEZ5M0B5bOcmsgTQgWv
 Ss1XNl85
 }
-!procedure CloudBuild($id, $name="Cloud Build", $tech="")
+!procedure CloudBuild($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/DeveloperTools/CloudBuild', $name, $tech)
 !endprocedure
 !procedure CloudBuildCard($id, $funcName="", $content="")

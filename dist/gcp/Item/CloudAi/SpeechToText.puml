@@ -4,7 +4,7 @@ sprite $SpeechToTextLg [20x20/16z] {
 VSY54OHG4C3Gh2_qt-_vuVoCPHx_H5WRMERP8bZJt5egWFNMoZvMeF8sqQsraOdrQf-B_DzgkJMVO7AgiC-DRFwOpwi99cyJsngy3P2lMRCQPQnbSQekJ9LH
 Jm
 }
-!procedure SpeechToText($id, $name="Speech To Text", $tech="")
+!procedure SpeechToText($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/CloudAi/SpeechToText', $name, $tech)
 !endprocedure
 !procedure SpeechToTextCard($id, $funcName="", $content="")

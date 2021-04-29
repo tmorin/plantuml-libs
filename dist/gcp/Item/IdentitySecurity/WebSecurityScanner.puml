@@ -4,7 +4,7 @@ sprite $WebSecurityScannerLg [20x20/16z] {
 bK-50GD124iWSBV_mg-Kkk4k-1_u8fGYp7aVLBXSF0ikEK-3RBUaBjqhMKbGATRCNMK0cdC6W31qBEUO2K1UWmd4MLSRmE0knh4zMClKNtZq0rQM9T6c7pEY
 awShnHYw_zNTg-m-Jlm7Am
 }
-!procedure WebSecurityScanner($id, $name="Web Security Scanner", $tech="")
+!procedure WebSecurityScanner($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/IdentitySecurity/WebSecurityScanner', $name, $tech)
 !endprocedure
 !procedure WebSecurityScannerCard($id, $funcName="", $content="")

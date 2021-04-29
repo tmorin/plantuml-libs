@@ -7,7 +7,7 @@ sprite $ModifiersCustomVirtualMachineLg [20x20/16z] {
 RP050WGW20GNn2R-_zl3wnfxR03Y3mW9INr3-2YD3vJ14b_KupgphE9UR30NJrUTMfyRPZHPMe-hWqNOSLkuj7GbtJ9Nx0tTlU6wDmh0Ae1e8IgtEzmiTsiM
 K_NZQbxluPx6iegxSsXdPm3i3nVIP2WD6hoVRe9KUMLwEKDnvKdpxYGIwQ6oC-bptGVrJwpet5y_OFpb0W
 }
-!procedure ModifiersCustomVirtualMachine($id, $name="Modifiers Custom Virtual Machine", $tech="")
+!procedure ModifiersCustomVirtualMachine($id, $name="", $tech="")
   IconElement($id, 'gcp/Item/ExpandedProductCardIcons/ModifiersCustomVirtualMachine', $name, $tech)
 !endprocedure
 !procedure ModifiersCustomVirtualMachineCard($id, $funcName="", $content="")
