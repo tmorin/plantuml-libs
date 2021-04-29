@@ -4,7 +4,7 @@ sprite $BoardLg [20x20/16z] {
 ZP055WGX34Ehuv3xttPVwBfdb5-l_ArOvkMiUPa6CZne9ajCQXSvTh902e_2Hx2hqY-5GT5HVqaMWtcnDjiTYqmLvYlMUk--7OSBqAFoHOGhOuizvhl5ljHu
 xUMrPzFti_dB3WXVTlMlJW
 }
-!procedure Board($id, $name="Board", $tech="")
+!procedure Board($id, $name="", $tech="")
   IconElement($id, 'homecloud/Hardware/Board', $name, $tech)
 !endprocedure
 !procedure BoardCard($id, $funcName="", $content="")

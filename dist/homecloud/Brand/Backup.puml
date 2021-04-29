@@ -7,7 +7,7 @@ sprite $BackupLg [20x20/16z] {
 JP07WWKX24E3Wrt8_M-xJhRzPt_O8KfRUyzc43ABFynVMydeJoa-WldyAZf48_dAmaiwYYdAC61Hyf27Og0mF1KFrPvf_Vehuu6QWaLVxwQXdL6vWCQnMM0C
 22RWd9_EVjoa0uUkwr5h-rt-tYihhEcUcswCnd-oCO2fVgpCbUfsmF9L1HTT_gZt-GUANfvWhkRUDdck4ZQI8Zl-CUzpTWV45m
 }
-!procedure Backup($id, $name="Backup", $tech="")
+!procedure Backup($id, $name="", $tech="")
   IconElement($id, 'homecloud/Brand/Backup', $name, $tech)
 !endprocedure
 !procedure BackupCard($id, $funcName="", $content="")

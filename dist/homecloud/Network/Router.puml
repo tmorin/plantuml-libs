@@ -4,7 +4,7 @@ sprite $RouterLg [20x20/16z] {
 bOo54GH020E1auGp-g_stVrtCXQJ_qbqs9rZOn2-_DO33LwifRlYR1XTxb3T1_90TfL74FR9KpkGr2FRSMqhRbY7AkCE7b-YC7BRwyQJ4e9rNF2qNMUTlH9t
 53cO14-0HNvd2m
 }
-!procedure Router($id, $name="Router", $tech="")
+!procedure Router($id, $name="", $tech="")
   IconElement($id, 'homecloud/Network/Router', $name, $tech)
 !endprocedure
 !procedure RouterCard($id, $funcName="", $content="")

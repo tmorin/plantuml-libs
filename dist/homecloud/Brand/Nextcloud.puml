@@ -1,7 +1,7 @@
 @startuml
 sprite $NextcloudMd [14x14/16z] fST70S003CD0rzdcpxURGUubOIEwxQ-9QDfuZe734W5NMkCORzbp5GrOcOt7C8fuMIMnSG4
 sprite $NextcloudLg [20x20/16z] nOm50GC130DJRkBVx_QeuQ-C-9ZQRSEBPGAhRj8GvMUBqhJyp8v8EgnfJlLrBoLspXxiwQKOPmzESeVd_zqH5JYQtMPavSfH7NYn8SVnBNy
-!procedure Nextcloud($id, $name="Nextcloud", $tech="")
+!procedure Nextcloud($id, $name="", $tech="")
   IconElement($id, 'homecloud/Brand/Nextcloud', $name, $tech)
 !endprocedure
 !procedure NextcloudCard($id, $funcName="", $content="")

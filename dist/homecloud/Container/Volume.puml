@@ -4,7 +4,7 @@ sprite $VolumeLg [20x20/16z] {
 ZS_50S0W04FHu4xsdxRkocknVm8qaZvC57QPitg8B7haMRMG4m5cJ3mtPcrmUS6wDI4mgroQG72N9b9A5aQDswMfc6ACrjFjBPLHBiNkhIxt5jYRMvzoQ30f
 HujP8OjTc7bnbOatGTWhWrOz
 }
-!procedure Volume($id, $name="Volume", $tech="")
+!procedure Volume($id, $name="", $tech="")
   IconElement($id, 'homecloud/Container/Volume', $name, $tech)
 !endprocedure
 !procedure VolumeCard($id, $funcName="", $content="")

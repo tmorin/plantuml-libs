@@ -1,7 +1,7 @@
 @startuml
 sprite $DnsMd [14x14/16z] NOwr0G0120Fn2jb_sdVDTKY403LJsz5zc8Tjj17kSx9zOghFr3tFH1xX9mGJVAABF1Ea_ve1Am
 sprite $DnsLg [20x20/16z] ZP3L0SGm34CTvcJ_QU_AhQ7mFesIu3CwXX3YWPvhOI3YMgl6iPe1IBJc03AknT5Z9hj-8Fmg1W5oZU-Y7rmBrnnfhMZk3H75h3xp1m
-!procedure Dns($id, $name="Dns", $tech="")
+!procedure Dns($id, $name="", $tech="")
   IconElement($id, 'homecloud/Network/Dns', $name, $tech)
 !endprocedure
 !procedure DnsCard($id, $funcName="", $content="")

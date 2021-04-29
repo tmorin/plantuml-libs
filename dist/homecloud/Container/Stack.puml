@@ -4,7 +4,7 @@ sprite $StackLg [20x20/16z] {
 bP254S1040BVVOx-kqtUuxBZfm1xWlDJIH99jiTWnUnA7WK_AoAXaKGhASA0LBsE7V8yf-_l2Tx_1iP5BULkqoSIQj7bRzb7lkoc69lzsYQbFucSXtnaPoub
 -7C8vXoMP7zP
 }
-!procedure Stack($id, $name="Stack", $tech="")
+!procedure Stack($id, $name="", $tech="")
   IconElement($id, 'homecloud/Container/Stack', $name, $tech)
 !endprocedure
 !procedure StackCard($id, $funcName="", $content="")

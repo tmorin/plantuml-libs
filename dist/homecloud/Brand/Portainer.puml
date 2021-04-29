@@ -4,7 +4,7 @@ sprite $PortainerLg [20x20/16z] {
 PSs55SKm34DH6MJQVz_Fu9o-ycq0lnINh1ndGgTH5mX3mVVZdPD9CfCUOMi3WuTWpnK6k4t8CCFLz6f1-67vJ0xpwPcnmsmw8zMu39NHnIHMbjqzq_edxNVZ
 Uu-FSO-RjmKMUarNbs8dD8ZWqnq
 }
-!procedure Portainer($id, $name="Portainer", $tech="")
+!procedure Portainer($id, $name="", $tech="")
   IconElement($id, 'homecloud/Brand/Portainer', $name, $tech)
 !endprocedure
 !procedure PortainerCard($id, $funcName="", $content="")

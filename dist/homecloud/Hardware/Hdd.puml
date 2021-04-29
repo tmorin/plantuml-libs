@@ -4,7 +4,7 @@ sprite $HddLg [20x18/16z] {
 bSg50GCW30J0Z-2Gtt_QkdiFYU8FPLvK76KopbYmfro2iqax1iU5SG9I3kiNcHMTONSMdS-2grpalB-JxBXmXJeQEQujJWbQkzsJNb3wOK_qJ6HtfVE5oBKz
 Clne2m
 }
-!procedure Hdd($id, $name="Hdd", $tech="")
+!procedure Hdd($id, $name="", $tech="")
   IconElement($id, 'homecloud/Hardware/Hdd', $name, $tech)
 !endprocedure
 !procedure HddCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ServiceLg [20x20/16z] {
 TSxN0SD0309GGExs7VjFcoQb9-zJ5Vmm79_swFvo-A18FL3TFW09BswrmTROzZoch4rsB2wHDKmZe4HKRHm0uee07xkpIzqRRKszfQeXX8VQvRg0Gy7_BE76
 OLiJi_QXsKtnIj7T_6MFxTCg_706
 }
-!procedure Service($id, $name="Service", $tech="")
+!procedure Service($id, $name="", $tech="")
   IconElement($id, 'homecloud/Container/Service', $name, $tech)
 !endprocedure
 !procedure ServiceCard($id, $funcName="", $content="")
