@@ -4,7 +4,7 @@ sprite $NugetLg [20x20/16z] {
 PT255O0m34NHrBr__sqv4VpX5o-0G9y0nB_zhwiroTPvoT5L7DkQoIZZKHNos3dD2oDRuusxRB1DyAFtXMmBXIZXOnWTFzDwgUjZcRzzlgphvwjDjIBcbzXu
 _a3O-_5hoykWeD7ZvXbzgDXUds68jR4YQIwrmSsU7T41
 }
-!procedure Nuget($id, $name="Nuget", $tech="")
+!procedure Nuget($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/N/Nuget', $name, $tech)
 !endprocedure
 !procedure NugetCard($id, $funcName="", $content="")

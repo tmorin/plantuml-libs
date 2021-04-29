@@ -4,7 +4,7 @@ sprite $ZendeskLg [20x20/16z] {
 ZT253SH034JHyJ9l_zKU6EI8yqMZ5mvUrhHEr7MLQuLWAziOY4ReaySEPXK0jRLt3wJMmT4FC2BVRyAhb-q4ftp5abEyOjc9jbY5nwyJuvJ7SVso_Q2llHhn
 8zN2vZ4ff6isTDLppSZMQVtnhpIyx0i
 }
-!procedure Zendesk($id, $name="Zendesk", $tech="")
+!procedure Zendesk($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/Z/Zendesk', $name, $tech)
 !endprocedure
 !procedure ZendeskCard($id, $funcName="", $content="")

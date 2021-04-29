@@ -7,7 +7,7 @@ sprite $RedisLg [20x20/16z] {
 bL1L0aCX3AlW5Uv_suNvzlU2XrJf8hWt-UUAxquVw7BlmfNBIYiFhk-zZObavlQAis5Z5MbZAZ5SwdIWyxcbtTqk7tWsYoaGCvYduCXNBFYk5c2uU-PIk5qP
 6Pt0X2dB3AluFi5ak1t5NNrth3EMdZ0HvrajtME2gUwjr4TOdKCU32Jd-IofUZHw0N5y36Z-McLMwI9k
 }
-!procedure Redis($id, $name="Redis", $tech="")
+!procedure Redis($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/R/Redis', $name, $tech)
 !endprocedure
 !procedure RedisCard($id, $funcName="", $content="")

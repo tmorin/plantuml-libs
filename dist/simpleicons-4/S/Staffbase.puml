@@ -7,7 +7,7 @@ sprite $StaffbaseLg [20x20/16z] {
 RP050eH0200fOmFc_w-zxdDqYmQvO1qgis1iVH9o8IRa70cppRh9LcYX8XexP65NKOKyCBTPQawvlB4QqWQBVCgo5BfyiR70yYrpEcNVCisiLFbcrf7im7V-
 vGWQDD6sour-ENVYDeTaXEeowU9CjI1D1i3DvJwgZNJnDiPkOeEB-qr8kut1TswYzqndGhwBqEW5rHUzFSy
 }
-!procedure Staffbase($id, $name="Staffbase", $tech="")
+!procedure Staffbase($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Staffbase', $name, $tech)
 !endprocedure
 !procedure StaffbaseCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $ConcourseLg [20x20/16z] {
 JT15eY112C3G86L05_S_xSZNpl8j0-zEBru9GBvCt0JOVOslR1c0tUuGFl8ZgC3kpimFr4INW3xTGHo077e4yEuJXtBmqd20sGN7VSCEAm1M6VWY89vyzZJ9
 Fe0CTZtzsUnE0Onvxt-u5NgUeu3WQZxdC06qhW4Ohw8_K7Wrkki5gW9ItUT719zpHTxVCU8EvghLlVd1VTQEcwSVvKTjp6d2FC9V
 }
-!procedure Concourse($id, $name="Concourse", $tech="")
+!procedure Concourse($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Concourse', $name, $tech)
 !endprocedure
 !procedure ConcourseCard($id, $funcName="", $content="")

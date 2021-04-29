@@ -4,7 +4,7 @@ sprite $BugsnagLg [20x20/16z] {
 bSv5WiGm30315araaFV_hnt6vBHzSva4H8rf_BPLsvkKoy6c_iT4zgOsHjy-xCWqFBPHphlNUwVrmbxrLzUQSYfvpMSprBoNCd8tI-_4_BPCVA8bZxlAT7h_
 CcRG6q1xtoKxjb8rbz7pOR82crNJY2KyYkKW0hu2tZX2DVeNWURjRkfZTG4
 }
-!procedure Bugsnag($id, $name="Bugsnag", $tech="")
+!procedure Bugsnag($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Bugsnag', $name, $tech)
 !endprocedure
 !procedure BugsnagCard($id, $funcName="", $content="")

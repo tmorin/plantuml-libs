@@ -4,7 +4,7 @@ sprite $EventbriteLg [20x20/16z] {
 TL170iCW36E3H-3_lssiwj2f392ydMxajG-mLqv4rKDefJJE2yQt1B4qfZ9ZqfRKuxmw8gwuUtuw5HQ3QwDxIhaDCMYAoDoMEZWe_gI4yoIshvxJ2zNW0JOd
 emP_rJXcSR-Dx7cFyEYeQ9WDU9djQmVptwvUTseeHdMgcKug3m
 }
-!procedure Eventbrite($id, $name="Eventbrite", $tech="")
+!procedure Eventbrite($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/E/Eventbrite', $name, $tech)
 !endprocedure
 !procedure EventbriteCard($id, $funcName="", $content="")

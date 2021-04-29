@@ -7,7 +7,7 @@ sprite $GitpodLg [20x20/16z] {
 NP250GGn20JZ3lJVxPCDVxQd6Hm7XI4YqxsKbhBr956ztimt1k9qeR04QXuXIJ-rWynmIi5zqSwKGPgb9Kt622i4f2UmdGXftsoUk1V3gJXwiaBKDIq_cGle
 1cpj8NgmaJhoDSpAzUvcE1_Fj9GIY73SdKrvQ2co61CLVw_he1Q-QnqMvdu
 }
-!procedure Gitpod($id, $name="Gitpod", $tech="")
+!procedure Gitpod($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/G/Gitpod', $name, $tech)
 !endprocedure
 !procedure GitpodCard($id, $funcName="", $content="")

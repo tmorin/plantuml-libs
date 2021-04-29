@@ -4,7 +4,7 @@ sprite $HomebrewLg [20x20/16z] {
 ZT050aCX30DGIfEKRL_kVzhldHlEmobRSBYyP4X3Ux5epUlpDCc1EpBkDUvcIlHbCi7RjB2LLNWxHtNnOhOq8wsAzJZTx_Rhkhvt3mbfHEl6iOkpmHF9k8nB
 ED5rPzrci7yjNit9D6e_enAUXcvOhO59XOPeBM2qkxyY9PB7Nyq
 }
-!procedure Homebrew($id, $name="Homebrew", $tech="")
+!procedure Homebrew($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Homebrew', $name, $tech)
 !endprocedure
 !procedure HomebrewCard($id, $funcName="", $content="")

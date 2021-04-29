@@ -7,7 +7,7 @@ sprite $AppveyorLg [20x20/16z] {
 NP055iGW34GdLi5o_zikBqdNVht02DXmyw8B2XrUJ4Do-XVN_w_wAUP_6Ff8ePF9ydMG1ut035pnaIjFS5kh2qPCsDTK819s7A6ptmYGvPibd4eNq5dYVTNp
 K3JN4igiirtRh4E6hyQOwL7690BScQKoTsM2LMPMBvHcTNl2ByNzjp6JyLHATlak4NiO7iZQM3kNKNo-
 }
-!procedure Appveyor($id, $name="Appveyor", $tech="")
+!procedure Appveyor($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/A/Appveyor', $name, $tech)
 !endprocedure
 !procedure AppveyorCard($id, $funcName="", $content="")

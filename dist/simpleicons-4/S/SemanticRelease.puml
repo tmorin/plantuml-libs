@@ -7,7 +7,7 @@ sprite $SemanticReleaseLg [20x20/16z] {
 TL07baGX28ke4FlzRxkFZzjdygiAfE11qbvBruGV4EibTmg-eTD-V1nrd1a_v_JgawHJniw-rtSMTe6n0cdIXuxYnOGnUxK9aBqFcJ3BLyuLaWt64lDfJvae
 mRwi2CIIC2NEVHhOpbvCTozNdWvZ3AmMlIZlEA8ik-dG4ffHXbUryGW8RtdtyDlSsytWXBOL6VpCofR-p9GzHwO_aNlFkFW
 }
-!procedure SemanticRelease($id, $name="Semantic Release", $tech="")
+!procedure SemanticRelease($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/SemanticRelease', $name, $tech)
 !endprocedure
 !procedure SemanticReleaseCard($id, $funcName="", $content="")

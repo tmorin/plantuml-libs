@@ -4,7 +4,7 @@ sprite $GerritLg [20x20/16z] {
 RSu50i0W30F0fcZG_xzsxYnJhaNa38oHJw0VWq_CsJv4bQtt5hp7ISQNNc9meVQo8pJJXbRxbhntMP8rkRQZbor-AKFSen6mAIWWVgKMzN4OAXTBwIR641ZP
 6c-3U3eZXeST_Ff-AYEgO42e_g7HmQ232JOQCWC
 }
-!procedure Gerrit($id, $name="Gerrit", $tech="")
+!procedure Gerrit($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/G/Gerrit', $name, $tech)
 !endprocedure
 !procedure GerritCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $SlackLg [20x20/16z] {
 VP050WCX30GtWjFB_t_R97MT4zZ1GT3DJCH_7NU6HrN_ZOUR7clrtteuESpQcmE9KBkxFfOpf-BYP0wo6v9ZwUI_kyir9jiJ1vClfE66QaqOu2gWLXNYZY0N
 boZCORsDJNgwF4TvcPvMEBdbtSSKX6ieSovdC89qSJuyoB5-jaFUN9xZ_vtoZZHiSyOp
 }
-!procedure Slack($id, $name="Slack", $tech="")
+!procedure Slack($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Slack', $name, $tech)
 !endprocedure
 !procedure SlackCard($id, $funcName="", $content="")

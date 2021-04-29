@@ -7,7 +7,7 @@ sprite $OvercastLg [20x20/16z] {
 HL07biL02D8ecIxtl-rcsdvUura1-M0jUacfz6Wc1nXH4v1g39nIPjRDzAEdvF8FdqK3SGkx2EcHvNrkvNabXqQe_PQTfe7Uf3KfQnzbyjfAal4wNKeHesD8
 6WaQbhiKiaZF5egujKpcMpkxzf3FtUrrtNKdtJTl4UfJI-czJYq-jOojUQGqjkQXXgNOcD8YJjmCKemHQPPkC4Kh0TQJrGI27C0W0tAXg3sYL-ni_m
 }
-!procedure Overcast($id, $name="Overcast", $tech="")
+!procedure Overcast($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/O/Overcast', $name, $tech)
 !endprocedure
 !procedure OvercastCard($id, $funcName="", $content="")

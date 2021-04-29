@@ -7,7 +7,7 @@ sprite $CrowdsourceLg [20x20/16z] {
 TL053WGm2EjSWF3_tnxJyqOWrBBX80Hy8MTyeghMprjNxM-7cE69F7AyfwJQjZ-DMOeREsr_XIjvn7ZYY9GGcVmWT1pXO6InCKwbxiAtuMMEA1BdIVng7RK3
 JNSpsBReQ_N15hvFq6O43nbTXv0QI6vADCcwcVYyhZnl5GUvzdchRt_eSodPupyU
 }
-!procedure Crowdsource($id, $name="Crowdsource", $tech="")
+!procedure Crowdsource($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Crowdsource', $name, $tech)
 !endprocedure
 !procedure CrowdsourceCard($id, $funcName="", $content="")

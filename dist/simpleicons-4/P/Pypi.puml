@@ -4,7 +4,7 @@ sprite $PypiLg [20x20/16z] {
 VT05ZWL120HGQ3Ugxd_R9Sma-xr2xBM2F4JhoFAIt5VLHqXjWUH-m798c97ztxgBgvVTcgIHfnjY9KWbJTAC1f2yP1p2326qi48YAixYsQwjJYgPzE0-2pTn
 Gq1itLqrZ1PR3LP47iuICAmi6cVJ136Nw-ubBAge33ViT9-DMRYTX_bTLfhAGsBtp_m1
 }
-!procedure Pypi($id, $name="Pypi", $tech="")
+!procedure Pypi($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Pypi', $name, $tech)
 !endprocedure
 !procedure PypiCard($id, $funcName="", $content="")

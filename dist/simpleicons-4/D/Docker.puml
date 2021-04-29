@@ -4,7 +4,7 @@ sprite $DockerLg [20x20/16z] {
 bSg54SCm341HoIpUVzesZ4VvvdU6h-NyDlFqCXQ4IseKP3R_IxYPwF2XEflnj66InjoqJviKZEWPKmbsvtKRu14XhTCW6hnk8wPgFBA2yBG6y3I3jvNPrAzK
 OIwNKpJ3LcPrTrEkS0bpoGdXSty
 }
-!procedure Docker($id, $name="Docker", $tech="")
+!procedure Docker($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Docker', $name, $tech)
 !endprocedure
 !procedure DockerCard($id, $funcName="", $content="")

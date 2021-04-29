@@ -4,7 +4,7 @@ sprite $WireLg [20x20/16z] {
 hL1b0iKW25Oatm3lVzfNhhUV-mmwou9QomMjRImCQfasE336FuE9c3FRQOImb-8y8dElaw7hZ-lmJdVjXIywJ9EPgNMUGoEy_E4gCnSwXSrJTlephsy4X2D0
 qvxM0D3prror20ydd38Y3UOL8_ux1yHPSyK7
 }
-!procedure Wire($id, $name="Wire", $tech="")
+!procedure Wire($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/W/Wire', $name, $tech)
 !endprocedure
 !procedure WireCard($id, $funcName="", $content="")

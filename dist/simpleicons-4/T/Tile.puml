@@ -4,7 +4,7 @@ sprite $TileLg [20x20/16z] {
 hOzL0iCm28OXjWRxxt_RDJPvxnV5WHwcb7bdgeKE9kDseT1VNM9gTUjuN83VabnJbyNiOWhlykAGeIk0Een_yrbaeePhwOQVPC1lW3-Tog0Zqj4nEj6ks_Ak
 qI6rcUVI0iQh1dVSjD5cgLJBcYsD-t7U
 }
-!procedure Tile($id, $name="Tile", $tech="")
+!procedure Tile($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Tile', $name, $tech)
 !endprocedure
 !procedure TileCard($id, $funcName="", $content="")

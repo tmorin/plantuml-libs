@@ -4,7 +4,7 @@ sprite $PicpayLg [20x20/16z] {
 ZSs7aKKX241H4ncq_swNv_wSxoJdg51kQyGPtLaNpUJE80YHrxrf5QoH9nHcxDkiBnypJxwEhErt12rgRRRcWL4BJ2RYvUxG-w1aFk_D1tiKv-zowcpmmkZU
 eBO6EOzkBDnZxxtQAU_bnbnD1VBLtOwxVZTLQUM7_W
 }
-!procedure Picpay($id, $name="Picpay", $tech="")
+!procedure Picpay($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Picpay', $name, $tech)
 !endprocedure
 !procedure PicpayCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $FampayLg [20x20/16z] {
 PSpLeKGX34NHWql8tVrN-mJ6P_t48uMeXr0CaXIp7c9pIBbUMDQMnmLCsGAeaghnpwD2t6bEYst6_SDXD3RBwVmPh7ewDK_QxgMhEx16DrX1c-tBvO0d7Mbo
 U0swyzrPHSUZPrbl1jvhr9jyDQFeNJPeUXSMJ7s8ZkjJSh8-nMNwrhAENm
 }
-!procedure Fampay($id, $name="Fampay", $tech="")
+!procedure Fampay($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/F/Fampay', $name, $tech)
 !endprocedure
 !procedure FampayCard($id, $funcName="", $content="")

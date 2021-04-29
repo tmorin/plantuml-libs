@@ -4,7 +4,7 @@ sprite $SnapcraftLg [20x20/16z] {
 PSu53W0X30J0OhaATF__sdFlniXGK-EIw1ljrZBzaZg6j1GGw5mY0bOQix3a5xgwR0-b1rs1mJnG7zpC6-LfeXDjCzzBxXlQM6sZ9yLLvKia0ASlbNtylyph
 ZqeaCWIgaSXQe1QhAFrX0G
 }
-!procedure Snapcraft($id, $name="Snapcraft", $tech="")
+!procedure Snapcraft($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Snapcraft', $name, $tech)
 !endprocedure
 !procedure SnapcraftCard($id, $funcName="", $content="")

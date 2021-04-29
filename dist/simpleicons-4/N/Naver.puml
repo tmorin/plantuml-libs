@@ -1,7 +1,7 @@
 @startuml
 sprite $NaverMd [14x14/16z] bSS53e1050FH9liDQ-z_MjpYCB5v-X7DWYepxW8GCk0MHd-hjLlxF_BnBLFUCYlHpQZlZGi
 sprite $NaverLg [20x20/16z] jSz50e0m30J0hNlp_zVYpXwXZSujyiChEUSkqgTMTjC0h4W5eA-6I0oDc2K6g-wcxAntGtN4EZ59nCJDHc_x_kKH
-!procedure Naver($id, $name="Naver", $tech="")
+!procedure Naver($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/N/Naver', $name, $tech)
 !endprocedure
 !procedure NaverCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $BuddyLg [20x20/16z] {
 RT052WGn44JHYdjo_zEk5DG6UkTZpHk9WFbsFdKFtEBusenN-1Rh0SoLTNxjwW0VABSLqCPXOmi7nkGmNP9Dzp5MaQmHjxLJaAqjZsvC91CPs_53CktvDXxF
 1hYwpHtytvMAqzmfosjbpMy
 }
-!procedure Buddy($id, $name="Buddy", $tech="")
+!procedure Buddy($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Buddy', $name, $tech)
 !endprocedure
 !procedure BuddyCard($id, $funcName="", $content="")

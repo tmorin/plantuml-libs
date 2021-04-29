@@ -4,7 +4,7 @@ sprite $HubspotLg [20x20/16z] {
 JP250O0m40Ef-z_-qsBLGEqz0V1NXwwaxmG8msQ4Ccrbs09WtZDN87MRXVfVb5Q9glzxn5uJ7d4zMLqBfX7VlXb_65KcHm7Qdx2RTXn61zLgByXEBpJTNJkm
 zT6r49QjzdaD-6MBdNS6ismQAAb1tdqp0fzzjbKs4qsgjGQr1-dQdCpObGzY-GXv
 }
-!procedure Hubspot($id, $name="Hubspot", $tech="")
+!procedure Hubspot($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Hubspot', $name, $tech)
 !endprocedure
 !procedure HubspotCard($id, $funcName="", $content="")

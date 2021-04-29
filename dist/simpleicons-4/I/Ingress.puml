@@ -7,7 +7,7 @@ sprite $IngressLg [20x20/16z] {
 LP050iCm24L_18_S_xPZM_MrCHpmesYuXrOyQ1wUT5mK2mRd7tPQoj2Ikm15HkwexL0I8Qas6imPBzXXrg0ceec8APgLbC7taaxSPUquPMMgCy2XivuoY5KV
 mwiABbc93ZEqA8Ui_vEnm1cN7JE2c2dozfU9UqCF4UzexfAoM8J4vZGaVGPg6xyHbRKAWAgZtJDWFcVmeremadDMrqnRYtEc9nI3pli7
 }
-!procedure Ingress($id, $name="Ingress", $tech="")
+!procedure Ingress($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Ingress', $name, $tech)
 !endprocedure
 !procedure IngressCard($id, $funcName="", $content="")

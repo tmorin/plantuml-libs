@@ -4,7 +4,7 @@ sprite $UbuntuLg [20x20/16z] {
 RP050WGX24M_WHttl-sgmDRu9tqqM79rYgg3Y9goJeAIah7yqo-Q0Ub0HnmKd4k4i7u9jUsWd0nWOXhhqCpnYeYjjiNZFft81jDE0elzBUkl9gsJJi8-kqCw
 RgTIugzzijaUiVSQprwuvv9Fpv5xlinstS5zLu1lIXj1PQZqbREGESSN
 }
-!procedure Ubuntu($id, $name="Ubuntu", $tech="")
+!procedure Ubuntu($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/U/Ubuntu', $name, $tech)
 !endprocedure
 !procedure UbuntuCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $KlookLg [20x20/16z] {
 RP050e0m24K_iCxxtrQNvjCL3J7N5vbpUSkAR6rAooECmmaJiRXx14nuHnUe8W1b0rd-EAyQdAe0CvWTidGkmCu4JMPZ4srPf6PdMmmWpe2g-xecL7MIkWos
 1rre3WJ0YRwtY8xScq_KH9JgdGZiUZUUsTStURSV_cRA4f-YA3W
 }
-!procedure Klook($id, $name="Klook", $tech="")
+!procedure Klook($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/K/Klook', $name, $tech)
 !endprocedure
 !procedure KlookCard($id, $funcName="", $content="")

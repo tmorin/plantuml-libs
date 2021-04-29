@@ -7,7 +7,7 @@ sprite $KnownLg [20x20/16z] {
 RP25WG0X30G31Dt0zj_je-zpoY0HcGImerPq8iX5EwtcN8rThoh4_LMmN9NaaxHaY4mADAX7QoY9KMmqoPp4iDucRJXIrmv6aKgROPMncwmlmpotUvaOKA_B
 D2UBEbhPRc0ybrcF8pjPhtjxpJLIpzuNGyNpx3QyNEOxxztAQBqjHKP_S-xEArCqWwcVBwk9yRyU_D-hIVpgQPI7YnZaG3oLV
 }
-!procedure Known($id, $name="Known", $tech="")
+!procedure Known($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/K/Known', $name, $tech)
 !endprocedure
 !procedure KnownCard($id, $funcName="", $content="")

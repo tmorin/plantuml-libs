@@ -4,7 +4,7 @@ sprite $TeslaLg [20x20/16z] {
 PSs50O0m30J0rAFy_jlYVcYZlLkugupUXvXxsCWi4MxAhTR6QXuXrOoPnQ8HjJ1P3ak1E3QbOEEIQWUu54C4h5G6EX6LjhmO2rv-Mg5JnwBJIyMYlcCvWCZq
 ve3JXmBwZJ70trZ_hbqKe7nZQPeIVKNGZ-e_DiO_Lki_bkuLCm
 }
-!procedure Tesla($id, $name="Tesla", $tech="")
+!procedure Tesla($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Tesla', $name, $tech)
 !endprocedure
 !procedure TeslaCard($id, $funcName="", $content="")

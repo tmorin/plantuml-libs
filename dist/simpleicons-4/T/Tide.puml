@@ -4,7 +4,7 @@ sprite $TideLg [20x20/16z] {
 lKw5WKDH24EUeTb_sfDw5_Yu4xgA-3kTKqXW_w74kDU0JUppFrIiPwrJOj7CzB_QgJf_jJJ5KPGtriOvEFXhCew1QM1LdzDuref9iQlDt82OWZrXCp2zLMtC
 tQrzQ0E5nG7K7oBcV_bJbd-GGfVGBm
 }
-!procedure Tide($id, $name="Tide", $tech="")
+!procedure Tide($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Tide', $name, $tech)
 !endprocedure
 !procedure TideCard($id, $funcName="", $content="")

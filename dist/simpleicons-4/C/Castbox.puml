@@ -4,7 +4,7 @@ sprite $CastboxLg [20x20/16z] {
 RP054e1G24HfuUVzJsktlYc6teKLZ3uJ13SuBxdCLmQzBQbxfzL-KctfeTmV50Bp_i9XY3riHowENCjQufahwknyppLnG1Hrk-K0I95qaC7Fd0MxkBf6NFio
 vb9pg_SRzLItvFv-HYeVRLyFlbxzUtgXjUeHJm
 }
-!procedure Castbox($id, $name="Castbox", $tech="")
+!procedure Castbox($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Castbox', $name, $tech)
 !endprocedure
 !procedure CastboxCard($id, $funcName="", $content="")

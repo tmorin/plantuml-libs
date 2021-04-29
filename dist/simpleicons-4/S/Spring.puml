@@ -7,7 +7,7 @@ sprite $SpringLg [20x20/16z] {
 LP170iGW202H5bS5_l_RZIs9SnmwS4Cr5fK04tJ4jci2X5tb-93rMkh5IP3aL0o2rRwg843Y7M-jbapGqJbEQMxmkl8HAS7LixvAPfx0IqReUKvlrazXEjoA
 MeRfWgV1drz3SMrHUafkRYE89VNRQd6tGhFUf8zI2Iz2n2nQ8wy5mjzVxME-FtstBxUs8lEYFm
 }
-!procedure Spring($id, $name="Spring", $tech="")
+!procedure Spring($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Spring', $name, $tech)
 !endprocedure
 !procedure SpringCard($id, $funcName="", $content="")

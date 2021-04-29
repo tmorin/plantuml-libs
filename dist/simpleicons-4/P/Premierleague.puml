@@ -7,7 +7,7 @@ sprite $PremierleagueLg [20x20/16z] {
 JP37WGKW20KnWuJNVxMRbFtESSZG7uDxBD-D7iQU8R3NDOEAYBwky1ArFGUzKW3L22rf6Xky4lKs-rKrt36wSgMMJl23jCP2WwzZ_AABmpVaz3SSOdQJi-F2
 PH1nqx_gdMuNTdNzs-HV6bV1ML7IQVjrEJSo4tVmWdOaExzIQgJBGmgrLFRyz2oDg1zNDU1IvtdgDm
 }
-!procedure Premierleague($id, $name="Premierleague", $tech="")
+!procedure Premierleague($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Premierleague', $name, $tech)
 !endprocedure
 !procedure PremierleagueCard($id, $funcName="", $content="")

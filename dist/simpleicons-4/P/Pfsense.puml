@@ -4,7 +4,7 @@ sprite $PfsenseLg [20x20/16z] {
 PSt7WGKW203HCMVelzirRVBFyIcWRot7bwJ4yD2mm6CEhFjF7ToG_nQXxAszpm-jYSgmcBA-PKmEW1kDbPiOk8N8ok__kDeysEOWTz5HmQ-B1jiTLcSbGJ_c
 xxC61-jIWbmWBpD0KSbWXuUnZ9MrG1i6gzVivgO5qZNNYmzvxcmnZMjHtw1yckalfIy
 }
-!procedure Pfsense($id, $name="Pfsense", $tech="")
+!procedure Pfsense($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Pfsense', $name, $tech)
 !endprocedure
 !procedure PfsenseCard($id, $funcName="", $content="")

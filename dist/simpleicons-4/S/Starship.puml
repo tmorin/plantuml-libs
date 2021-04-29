@@ -4,7 +4,7 @@ sprite $StarshipLg [20x20/16z] {
 NP054WGn20GdGbsCpFz_UnjZfSiR1nUXSbC3DjAEKzagyK4wwYE3a7thpe6WjX5AAwFEdew3gJ8GLo8Fwb9soejYBYENvTIK6yj_DnZeq-bZLpKhWFVodj5h
 QdscI5L-Q2x8oWe-TMk2D5G4d3uVKvC748zwqEodnezQn67m1m
 }
-!procedure Starship($id, $name="Starship", $tech="")
+!procedure Starship($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Starship', $name, $tech)
 !endprocedure
 !procedure StarshipCard($id, $funcName="", $content="")

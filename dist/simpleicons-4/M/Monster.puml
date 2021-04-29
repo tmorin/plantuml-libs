@@ -1,7 +1,7 @@
 @startuml
 sprite $MonsterMd [14x14/16z] XSS54e0m3031rBtt_zVYa66iLqasU_boSnHL1kgBmbcxKK7PUEj6EYWLxJTi18ZsbfC0GTmhyLvKHslj
 sprite $MonsterLg [20x20/16z] jSx50SKW44LHtE7rN-tNP6oVkvk3zkfC1RDRQm26fevlKz80_kY99kxMXNw1su58OzY0naZ4dQF6HUEX6slS5wLwMxkktz4rilytLd3Ad1_JEsNK8_O6
-!procedure Monster($id, $name="Monster", $tech="")
+!procedure Monster($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Monster', $name, $tech)
 !endprocedure
 !procedure MonsterCard($id, $funcName="", $content="")

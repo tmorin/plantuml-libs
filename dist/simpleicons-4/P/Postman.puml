@@ -4,7 +4,7 @@ sprite $PostmanLg [20x20/16z] {
 PT054iKW30HGB89iz_wd_PhQz8qnG3HzrCamQmeD34lYoddXZwk9xsKLdYmhA6c2fvRh8Z9FNLGwoKkavgpy6fUhMZg_m62b5YMlfbiLtcrQT8ipuggc23nh
 r39va0bo4-C9kJJI3Jp9kOFdOgvNFm86IDfb6I0n9AUlDm
 }
-!procedure Postman($id, $name="Postman", $tech="")
+!procedure Postman($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Postman', $name, $tech)
 !endprocedure
 !procedure PostmanCard($id, $funcName="", $content="")

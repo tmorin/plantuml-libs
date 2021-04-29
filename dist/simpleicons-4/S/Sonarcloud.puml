@@ -7,7 +7,7 @@ sprite $SonarcloudLg [20x20/16z] {
 LL050i0W29mTnFt_jGjOgNJ3vYzFrPctvLK6kFujWK6zCoXyDaAnOD1hAgWkL9GtJ1v9w9KuXDKR1m1fRiE8PykacBMoMgG0cZOMIJQEzwX99G3Vz1byaUQT
 _0qhG4h3zLRFRi4yCDioOuVG8uLt0y3NITgVHfLOiu-1QYRb4ABudUO4zqwGU4tRnEzP-ThnAHl2mWy
 }
-!procedure Sonarcloud($id, $name="Sonarcloud", $tech="")
+!procedure Sonarcloud($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Sonarcloud', $name, $tech)
 !endprocedure
 !procedure SonarcloudCard($id, $funcName="", $content="")

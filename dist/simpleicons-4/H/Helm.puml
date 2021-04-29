@@ -7,7 +7,7 @@ sprite $HelmLg [20x20/16z] {
 RP15OWKn3CMUEPpxtxOkkEq7hJIQC0hV-0zzjVFdoN3KkEu_hH-DTUxgr2xZXtLNgFZSrohfYM-nuzL4obYH41CuNP2IbWNHWpRr5JGCM8xUqCOU5sCRyXlx
 hjkhhMoHRVGvijNSUJejom0MXe1D8IeGoW0aH2YuH7QTUHkUxtPkDRGtRp2VtkhjcnOoKNm
 }
-!procedure Helm($id, $name="Helm", $tech="")
+!procedure Helm($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Helm', $name, $tech)
 !endprocedure
 !procedure HelmCard($id, $funcName="", $content="")

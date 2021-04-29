@@ -4,7 +4,7 @@ sprite $BluetoothLg [20x20/16z] {
 RT07ZaGn20DGVdht_M-xOEsWXjMYbmQ8PG1uq0pnB037R3bDQEg0PlvJ0Ks8nM_IY8lq7JpbahhX-SpomvQcXYowdSqgQ-WbJMbyWsReAre3yRTeiSLtAwdv
 7r4jNlE3rnpq5iqWc5KmqqyyLJ_HdwemVm
 }
-!procedure Bluetooth($id, $name="Bluetooth", $tech="")
+!procedure Bluetooth($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Bluetooth', $name, $tech)
 !endprocedure
 !procedure BluetoothCard($id, $funcName="", $content="")

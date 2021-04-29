@@ -4,7 +4,7 @@ sprite $IfixitLg [20x20/16z] {
 RP234K0n44GF4wl_QeFznXkTiJJHr7QIqex9HwoOFUJR3VyD8QYclJ2K2aQ7vGL9QoOZ9KIsrZbVK7WErdK6okCn0rWuPRzBS7jjDwf-O_RR6wOlyjmnNLFN
 hug5QVsVnECat9pvxxUl1dzQ_MiAsCGo0z4mt04
 }
-!procedure Ifixit($id, $name="Ifixit", $tech="")
+!procedure Ifixit($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Ifixit', $name, $tech)
 !endprocedure
 !procedure IfixitCard($id, $funcName="", $content="")

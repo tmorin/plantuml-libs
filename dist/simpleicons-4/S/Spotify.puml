@@ -7,7 +7,7 @@ sprite $SpotifyLg [20x20/16z] {
 VP25WSKm243nfaYp_xP7SlRzjJ4Se26VFmJ33vA_ij8VqJ5l6C-YBMIT3oX4TXGVPZOyhnqJj-8Nj6ZnyXmwF3BQcBk6cZ-LNPcrpbICMKkWYEs7fD6F7oEM
 TlP34D3d8oV9IholoaJ4vj-kFdyIU_i2nIvwrVnBsRbo8yjpRm2Zpy-3ETxEj47rQe4hmk8B
 }
-!procedure Spotify($id, $name="Spotify", $tech="")
+!procedure Spotify($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Spotify', $name, $tech)
 !endprocedure
 !procedure SpotifyCard($id, $funcName="", $content="")

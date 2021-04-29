@@ -4,7 +4,7 @@ sprite $PreCommitLg [20x20/16z] {
 RT054WKX20PWDi3wmVkVziKQR3dbV4fIEvi2kjFbi9LYVAEOSrIv4cf5D7RIF_rH-VAheR4JX5dGSMk1YNPP2IrSMwvCg4gnvKJ9zR28GFb_ApPjMHOvRjbc
 RBPPUcDhDJ18PY-iatoCrq5QhkSEvBahVkvq_fhekRu
 }
-!procedure PreCommit($id, $name="Pre Commit", $tech="")
+!procedure PreCommit($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/PreCommit', $name, $tech)
 !endprocedure
 !procedure PreCommitCard($id, $funcName="", $content="")

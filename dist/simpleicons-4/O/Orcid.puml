@@ -4,7 +4,7 @@ sprite $OrcidLg [20x20/16z] {
 PP050i0W24Lb2BRU_xJRxFfB7utuXIurEHHDv3iBr91EYtH7mMyGwVygcQP8kF1_el-VaHFAnt8oAALKeJWMfZ3nOwt19oUsDI-sb8GvU6SUCjXP17Sn1_6C
 3G_d6gEkO2QWKiZv76AIOsRbQXsaT8ZcMix5dEZSQHUG3J-m1ENu0G
 }
-!procedure Orcid($id, $name="Orcid", $tech="")
+!procedure Orcid($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/O/Orcid', $name, $tech)
 !endprocedure
 !procedure OrcidCard($id, $funcName="", $content="")

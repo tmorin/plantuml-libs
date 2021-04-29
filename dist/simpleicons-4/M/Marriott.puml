@@ -4,7 +4,7 @@ sprite $MarriottLg [20x20/16z] {
 dO_50G9140HxtQVopnPEzmtr6PVMJuJg9RcWJLiKAK_pExTWEMTGTou3MHLmRyuTZGf0qKi1alfHUV4BfXAGz_00ehUZyf0mwDNiM74pSWSiJEXtgavbZh00
 yNul7tzZNWPDCSt9lFykge2VThHlWK23HsLihNkbMilNoVgJ3m
 }
-!procedure Marriott($id, $name="Marriott", $tech="")
+!procedure Marriott($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Marriott', $name, $tech)
 !endprocedure
 !procedure MarriottCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $BuymeacoffeeLg [20x20/16z] {
 HT250SGW343HK2pE_jlUeVdrLmV-bU64YCIgSAjZy3HHXq0IKLLAbe-atcgjPUQIjf69xLICjcbTLwyhghth67llICnEsr91P15Xea5m-cXlChptGlQSSrCV
 FImPZXLQWflIDb9u2Vaa9mbZjcd674OYqqGe39MdiM9OkzR3gk8qr1hsEVSvgFP1L4NdI9Lzz0C
 }
-!procedure Buymeacoffee($id, $name="Buymeacoffee", $tech="")
+!procedure Buymeacoffee($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Buymeacoffee', $name, $tech)
 !endprocedure
 !procedure BuymeacoffeeCard($id, $funcName="", $content="")

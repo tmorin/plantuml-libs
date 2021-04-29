@@ -1,7 +1,7 @@
 @startuml
 sprite $AeroflotMd [14x14/16z] fOp50K0n349hULJt7_UxdXiNmCsP_sqn7Wq1KHYWP6gZrqWPeodiAAXLn4SZ1EzcR0K
 sprite $AeroflotLg [20x20/16z] nOtL0S1024FXb23xZrlt3d3l1qr2mqdqXyjlLLgfHok0YA0dwxnrGArDFSAyKCzc4Mvjyn4OqA4mIERRNXJWmky8eao3cG4
-!procedure Aeroflot($id, $name="Aeroflot", $tech="")
+!procedure Aeroflot($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/A/Aeroflot', $name, $tech)
 !endprocedure
 !procedure AeroflotCard($id, $funcName="", $content="")

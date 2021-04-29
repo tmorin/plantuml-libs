@@ -4,7 +4,7 @@ sprite $KnowledgebaseLg [20x20/16z] {
 VSfLeWH124FHb64bsVzgPxfvhkUF6m28DhngAaZgeo2LuOeqoPNpMEHyQvS0dCm64V6THqxRhq2oGmxJ4NIc3jITJnKVBMEcpmsDRFZMe8hlBVtV1ZuPvFcZ
 6JunSl6o8jmk7d7VjW-_ERNspIzs0r34tEFcRYO5lte2
 }
-!procedure Knowledgebase($id, $name="Knowledgebase", $tech="")
+!procedure Knowledgebase($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/K/Knowledgebase', $name, $tech)
 !endprocedure
 !procedure KnowledgebaseCard($id, $funcName="", $content="")

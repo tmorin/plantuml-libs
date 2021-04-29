@@ -4,7 +4,7 @@ sprite $FortinetLg [20x20/16z] {
 ZP054iD030CLZdMj_F_VDdAPimCx1qRiPXY67lrmrZWEm1gI0amfYKWVqX3DQg0rPntgxYhHp5Yi1NCOVE1WrkjfhUCbtuLMnqztHtEBZJhY0x5HlMowzlAf
 v-SxMajGokiEIloqgzsS
 }
-!procedure Fortinet($id, $name="Fortinet", $tech="")
+!procedure Fortinet($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/F/Fortinet', $name, $tech)
 !endprocedure
 !procedure FortinetCard($id, $funcName="", $content="")

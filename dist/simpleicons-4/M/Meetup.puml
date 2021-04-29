@@ -7,7 +7,7 @@ sprite $MeetupLg [20x20/16z] {
 JP250O0m30G_KfVVVrjeqODQFC72zDnY4_pG9Sjzopx4r2C-t93672NNX8SOCczUTubyAHAsg9EpzfvQ6-osioUIZktav4eao6G_Ju6PaWm8DOUjB075CjTT
 p0efqAvUCSYXBcBRDMLK2rook6KPw3dCdOsEayRXYND5zybfUm3jxQAJxUwZyc7UynBrjpF7InmSkSyYlNn2DOjhiCdnvpVH0m
 }
-!procedure Meetup($id, $name="Meetup", $tech="")
+!procedure Meetup($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Meetup', $name, $tech)
 !endprocedure
 !procedure MeetupCard($id, $funcName="", $content="")

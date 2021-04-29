@@ -7,7 +7,7 @@ sprite $PlanetLg [20x20/16z] {
 TL170iCW3FCEO0F_VstRs1cdAXDFIV03Unp2B4SummKDDqPayz0hr4Bkh4JBRm-41-WTW3L3Rp0CF1k9GPfHjMDuRbbZnzfs_hkr_CgU0ZZsMMb3k68vOPrR
 EGWhbgaOvvPvnxJgCdRtBa7qdCTHEtJxMdifv8wBosOo9IWkoRbs5CInj97VCKnhUdRVyFx7gzTJIazleFMOCxgLRLy
 }
-!procedure Planet($id, $name="Planet", $tech="")
+!procedure Planet($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Planet', $name, $tech)
 !endprocedure
 !procedure PlanetCard($id, $funcName="", $content="")

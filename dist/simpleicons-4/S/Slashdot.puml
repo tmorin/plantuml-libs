@@ -4,7 +4,7 @@ sprite $SlashdotLg [20x20/16z] {
 XP253O0m54JhBljlopK1wculNu_KONBEWVJ3WlaUyOp1U-Q0tCACzSm3cHv9e7GtKq2nDwC1J2_CUaGZcBgR9J29suHWQ1N4lzszxR5Y9WWH1U7rQUJULjvS
 _3MhTjNiZOV0j96IcfXAtWS
 }
-!procedure Slashdot($id, $name="Slashdot", $tech="")
+!procedure Slashdot($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Slashdot', $name, $tech)
 !endprocedure
 !procedure SlashdotCard($id, $funcName="", $content="")

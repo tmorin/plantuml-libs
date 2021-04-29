@@ -4,7 +4,7 @@ sprite $DashLg [20x20/16z] {
 RT253G0X341HtA7xJuixl5ZpJn1KuG4jj2ChCWXG1Eyqwqt2HhQcOTVUfAmHjZIBXlL5k1g1Z0jJM6jNQ-OND4_-sWBFax6LiGfL9ZVnMOASoUMawpHshEkf
 wNkozZUxbT0ITkscGl1MaV5dshNmbm
 }
-!procedure Dash($id, $name="Dash", $tech="")
+!procedure Dash($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Dash', $name, $tech)
 !endprocedure
 !procedure DashCard($id, $funcName="", $content="")

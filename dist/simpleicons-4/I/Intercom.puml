@@ -4,7 +4,7 @@ sprite $IntercomLg [20x20/16z] {
 fSw5ZGD1341HUqYxfjz_jNTXZYXFC63adV7EkShaIKrdJdmMPx5HiZC6knHR0AURdl-qZb4utUv_-lkV52z_xxkSLJDwnrfnbuKPbLnutxZPctEqH9TdLVfI
 MPp5QYAg8cq5T-5c7dpbvczVxHy
 }
-!procedure Intercom($id, $name="Intercom", $tech="")
+!procedure Intercom($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Intercom', $name, $tech)
 !endprocedure
 !procedure IntercomCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $HackadayLg [20x20/16z] {
 RT250GCX44JH0IB0ok-_svp67-uYTQjwgjQrwDxqr7phawUUqYKLtQ7eKA1hH09MZYu3qgPbWZKxiinjGdL6iiZ1yxno3pPnBphTI1R9JKyMjMRM6gOddxh2
 LTFrD7oGoL98ppE0EO7d6IryGYPCZoPfMYGCOs43CgmSRnks6CVRll-0k_gVlrhqUF_J65hKeZUbIWy
 }
-!procedure Hackaday($id, $name="Hackaday", $tech="")
+!procedure Hackaday($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Hackaday', $name, $tech)
 !endprocedure
 !procedure HackadayCard($id, $funcName="", $content="")

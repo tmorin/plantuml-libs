@@ -4,7 +4,7 @@ sprite $IobrokerLg [20x20/16z] {
 RP270SGW200nuXkmtFxRVdg_n4O7cOYE6VFoA1jQSMTULJTH1lndzdCW7o8Rr4m7MuM3GayY8umYsa75oxplCb6emdpVPDkfGBpAudH22LTPA1HmkSh4QL-o
 Bz-l71-rH2kGRZMNkRT5c1TPwg3x3ABchD5kWw6Q5JRHDjEDbcGd96-zDqz1Plu
 }
-!procedure Iobroker($id, $name="Iobroker", $tech="")
+!procedure Iobroker($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Iobroker', $name, $tech)
 !endprocedure
 !procedure IobrokerCard($id, $funcName="", $content="")

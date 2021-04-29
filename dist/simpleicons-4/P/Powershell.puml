@@ -4,7 +4,7 @@ sprite $PowershellLg [20x20/16z] {
 ZP150iGW300dkFF_towwTkgqM3pXEIPu7xxm8AN_0QRrPiVs9eCVXyD-P1xYFEsNK9zmpU2kJ4JFOmdz3QUkJnNIkWHSE2A3saLPObwN99XwK-oBGqBV564T
 6brwhNKM7c5hNEjE1YEGtp8p4sO_gBCc-Xz5OCx6-xtFY-4vBm
 }
-!procedure Powershell($id, $name="Powershell", $tech="")
+!procedure Powershell($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Powershell', $name, $tech)
 !endprocedure
 !procedure PowershellCard($id, $funcName="", $content="")

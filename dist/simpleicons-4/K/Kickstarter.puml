@@ -1,7 +1,7 @@
 @startuml
 sprite $KickstarterMd [14x14/16z] NOw50S0m20Glxh3_j7KDxhpnkb4fk_Mumuznr2YY3ubj-Y7NFucORnRftsJAfidVbV-7__SBsL4hG1PjPjkG32i
 sprite $KickstarterLg [20x20/16z] XP250GGW54AVtRh_jDTfjpy1iEqnZ7dU5i2ztg_RWTIj6neNUbiWvjwMnMXBZ3OtseeSR5Lni_Mci-rbFFJei1mnPp7HOARLLrFtkZq09jqAQz3tsm1N
-!procedure Kickstarter($id, $name="Kickstarter", $tech="")
+!procedure Kickstarter($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/K/Kickstarter', $name, $tech)
 !endprocedure
 !procedure KickstarterCard($id, $funcName="", $content="")

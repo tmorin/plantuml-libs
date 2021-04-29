@@ -4,7 +4,7 @@ sprite $SensuLg [20x20/16z] {
 NT17TWGn201H9AFGYRh_RKtBda6FMluDGVxhq2KrO2QQc2KScFuu9X9Pk56JMaK31pmttltmZnFFxkkw3HRs0HnQYqYfUYm4pXhJgkla7HcjENs-M7JCERHy
 HZkEczKzR1jyTjL-mhvW4qzXfDlKWj8FTWmATChDe5y
 }
-!procedure Sensu($id, $name="Sensu", $tech="")
+!procedure Sensu($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Sensu', $name, $tech)
 !endprocedure
 !procedure SensuCard($id, $funcName="", $content="")

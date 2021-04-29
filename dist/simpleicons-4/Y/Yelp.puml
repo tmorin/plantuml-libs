@@ -4,7 +4,7 @@ sprite $YelpLg [20x20/16z] {
 RP054iH020G7MRjRuF-lZNlIvLteO48j9XHNaiyktLoETntwXzCFX_RXn5TNhelguigjcYpIKcsqrXG2KcVyOY8lIpryjaWHResFYrq1-LV1IecZvK2zryGW
 96lfs4dprKvfAhT6r_jatPjmcSdBVVzR1ZnN6zySpNS93hYwuM04
 }
-!procedure Yelp($id, $name="Yelp", $tech="")
+!procedure Yelp($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/Y/Yelp', $name, $tech)
 !endprocedure
 !procedure YelpCard($id, $funcName="", $content="")

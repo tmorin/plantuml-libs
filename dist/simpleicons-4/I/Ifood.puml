@@ -7,7 +7,7 @@ sprite $IfoodLg [20x20/16z] {
 XSv7OiKW34NH9ugGZSh-TnlJqfD_HfSE7fIPCuPKkT0kaJgIIfEroXuF9QG-mYl0iJ3P2gSSstMTQkyb9xJhBckniTgkmZiwU1zXv3r509gwNHb0ljrxnMiq
 uOkggYP0BVXmZQy3QXa7s_m02eSa0YZDcV1vJYBqlZM6cuqmb1vBPr33GeL5MispyRit
 }
-!procedure Ifood($id, $name="Ifood", $tech="")
+!procedure Ifood($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Ifood', $name, $tech)
 !endprocedure
 !procedure IfoodCard($id, $funcName="", $content="")

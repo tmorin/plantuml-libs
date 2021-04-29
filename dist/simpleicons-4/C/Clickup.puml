@@ -4,7 +4,7 @@ sprite $ClickupLg [20x20/16z] {
 fS_75GCn20JGKKAPwRzR6vwyuUn_98EZaHrlePCpl4EJNoi2bxZeThf2MNbeEQ52qnkDm5IQ2WXDyokkdgmUCvsQuTBc-DrxhOiju6znvElw4M7AvhLNkGiG
 elgbCOJedsY4dU_sffFhNtE5J9eyLiObZqtgA07c0m
 }
-!procedure Clickup($id, $name="Clickup", $tech="")
+!procedure Clickup($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Clickup', $name, $tech)
 !endprocedure
 !procedure ClickupCard($id, $funcName="", $content="")

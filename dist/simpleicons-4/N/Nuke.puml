@@ -7,7 +7,7 @@ sprite $NukeLg [20x20/16z] {
 HP1H4aGH30G32MHYxd_RvPKj3UZorR8fZg6rQeSNkIYyrPnhyz2hUfYcxxzPZ4yDr4daS-CesB9eL914EeweOUAmoKEq7lkOYWGtNdoTtTnwiuK8B4BotfQr
 gLNonwIAZvIbecQvJ8AspnpFYPF-EQtofv3i8XMZFRUsRD9du3bkLeOvzE_gSSEGYaP-Zbv2lmRf9kDjiEctMXcgqVzD0w_fdwGJ4PYMvF03
 }
-!procedure Nuke($id, $name="Nuke", $tech="")
+!procedure Nuke($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/N/Nuke', $name, $tech)
 !endprocedure
 !procedure NukeCard($id, $funcName="", $content="")

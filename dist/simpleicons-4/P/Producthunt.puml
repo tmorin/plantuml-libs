@@ -4,7 +4,7 @@ sprite $ProducthuntLg [20x20/16z] {
 RP073WKW24EBnYrw_zF-GI1nDPF7BdxoRQgQXofqOnmKvRaeBsY5Fin30OsjmtOnMGCvHu0i2yRIO8wGi1eh_-lWfDdOR_lGkkqgdJUN7Kv_v7M75jHbdYaq
 6L4Mrkdnsyk3jrTlJm4AbN-W1fBm2m
 }
-!procedure Producthunt($id, $name="Producthunt", $tech="")
+!procedure Producthunt($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Producthunt', $name, $tech)
 !endprocedure
 !procedure ProducthuntCard($id, $funcName="", $content="")

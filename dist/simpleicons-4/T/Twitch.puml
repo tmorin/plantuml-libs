@@ -4,7 +4,7 @@ sprite $TwitchLg [20x20/16z] {
 dSW5aWGW34JHnYLs_zjkYh2ZfVFHF03TTDtssZRX3PDncsCUcsQ4PxnGkuMbV4wIXJwlDSde2hnQrunXlrcgGFR33tjKR7vQKIrXZ0Gl1OKfqKRQH8V2FCda
 zw67gVWbJayB3qAfSupjynmpw5PCApwgzaKe3Q_z0G
 }
-!procedure Twitch($id, $name="Twitch", $tech="")
+!procedure Twitch($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Twitch', $name, $tech)
 !endprocedure
 !procedure TwitchCard($id, $funcName="", $content="")

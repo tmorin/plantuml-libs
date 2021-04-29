@@ -7,7 +7,7 @@ sprite $ImgurLg [20x20/16z] {
 JSnL5aGX30FGu3MQ_Uzs3eozeBqVmSdoDNijvVoBo3NrEIe-MNfkSzG-bwYP-K0SeaBuZHqpaWFsC35o2pliRoGPYnFoiBJaWwW8F_tZJnHuRedv8AxR_2TH
 SbObeuml0SRUXMIh-qDpGEgSkIrApKiZSm3UoQIZxKFKe9g29u4wCV9MU45kP-pTCBaQIGDmouNfPDYbQpSMzyRJyjDryW8
 }
-!procedure Imgur($id, $name="Imgur", $tech="")
+!procedure Imgur($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Imgur', $name, $tech)
 !endprocedure
 !procedure ImgurCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $DeliverooLg [20x20/16z] {
 JP055iGm24GZG3pS_xPReDEtKyt7IQzo8KhbwgC2Lgfmgl-ihgEw4XawEHZ7mJyxs9keYhqdAcmxSRFtG8bXf-xl1kOUoxq5p2jUDJ5OFGgHJy1zwQTRqvWH
 iUNeDUTJqWwagspb6YttYPY7psWv-eIYbKBw2TDc7nN253pMKUZcRw4aOpiRG5X-NzTt_0C
 }
-!procedure Deliveroo($id, $name="Deliveroo", $tech="")
+!procedure Deliveroo($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Deliveroo', $name, $tech)
 !endprocedure
 !procedure DeliverooCard($id, $funcName="", $content="")

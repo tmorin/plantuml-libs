@@ -4,7 +4,7 @@ sprite $SitepointLg [20x20/16z] {
 ZP255GGn24JZBlrN6-3TS6wpcezZBl9pDsiU5TSUxX6bpKglA3-W_EfLW9nxHD6Oi0Sgkm0lpn-KjdxneVBFuEz4U53O17hC852cgFnTuJhOtbqXF9taykWT
 Zbn0VgEWObHElSfVG-VlsqBf6zBIFUel0G
 }
-!procedure Sitepoint($id, $name="Sitepoint", $tech="")
+!procedure Sitepoint($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Sitepoint', $name, $tech)
 !endprocedure
 !procedure SitepointCard($id, $funcName="", $content="")

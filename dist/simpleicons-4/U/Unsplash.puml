@@ -1,7 +1,7 @@
 @startuml
 sprite $UnsplashMd [14x14/16z] bSV50S0m30D0kKoozj-sp9JSxp2eDQWn-5lbf5TOsG1t7EGOv1neK61GQ76TsJxdm1Mb1m
 sprite $UnsplashLg [20x20/16z] lSe33W1150FGJZBMl_zf5mtMnWiBK19Ae6yw5ydX4aqAf3H9hsgGha9aG5hETKP6zCelXTW9INxJ0W
-!procedure Unsplash($id, $name="Unsplash", $tech="")
+!procedure Unsplash($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/U/Unsplash', $name, $tech)
 !endprocedure
 !procedure UnsplashCard($id, $funcName="", $content="")

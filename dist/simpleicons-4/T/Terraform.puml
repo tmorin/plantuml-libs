@@ -4,7 +4,7 @@ sprite $TerraformLg [20x20/16z] {
 XSy54WCn30D0XGszwF-lBJhbzZIasQ3LAGclEPkLJ-EKz66afOVcC9UjXBWlKz8oa8Hqj3x3o5gl_R9RbyKPN58EOVOmfFAnxx9LP-pJjCozssMVFyrad29D
 naCkHcxz2S9e-wPVBClyCA3Ofm5Tefm
 }
-!procedure Terraform($id, $name="Terraform", $tech="")
+!procedure Terraform($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Terraform', $name, $tech)
 !endprocedure
 !procedure TerraformCard($id, $funcName="", $content="")

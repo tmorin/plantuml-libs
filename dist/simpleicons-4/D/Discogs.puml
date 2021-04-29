@@ -7,7 +7,7 @@ sprite $DiscogsLg [20x20/16z] {
 PP114W8X40Cph0Ym9Fd_QrK7ETatkcgI5FXmtPP8oHs7okF6KTsY4buuQYabDO3nERzggdrxeTCLzpvRijtG939iYg9dQ-Dp8z5LIlN4XqAAqjpn4m54J6Sx
 AT4DA0LePfw9V-vt6zzRJ4b7KWzyU7ftv1RtQBtDtwoQcmUgRAtT6kLXJiGIALDQhW3w3RJJjlON1b1M7ebCbRJpfwmuH5PnriZd6m
 }
-!procedure Discogs($id, $name="Discogs", $tech="")
+!procedure Discogs($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Discogs', $name, $tech)
 !endprocedure
 !procedure DiscogsCard($id, $funcName="", $content="")

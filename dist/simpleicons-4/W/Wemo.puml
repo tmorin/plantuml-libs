@@ -4,7 +4,7 @@ sprite $WemoLg [20x20/16z] {
 ROw5GKH130NviTLa-gyMEDTPZR_a0-KJvvCDEQa9ewWHapF3IIrabyMmEFlcpHUMkOxnbAVB3Zb4phvfv958DeSSd37H_-MKMaZZJCtDMkTFNznyYpK17ZvJ
 5LKdrPe4BpF2eVIX9T7b4uXuqTpEUVF5LsfTpsdaWWcpgD4Mtzbyukh92-a_Vm
 }
-!procedure Wemo($id, $name="Wemo", $tech="")
+!procedure Wemo($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/W/Wemo', $name, $tech)
 !endprocedure
 !procedure WemoCard($id, $funcName="", $content="")

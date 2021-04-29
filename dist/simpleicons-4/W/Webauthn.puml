@@ -4,7 +4,7 @@ sprite $WebauthnLg [20x20/16z] {
 dL05WaL1208SqHVtl-xkxsucRGK_GBfLL6MwBjLP8L9HULOvjW-Xap9CIO0eMDBOkWMt2WgWSfwd1WtYj2k8kTqk2zLNkbvMSsg9eJh6AWFsteyA02a2scqo
 3xqaUUu5UumyzknnEOX8XXDdo1uZhJTSlSC_
 }
-!procedure Webauthn($id, $name="Webauthn", $tech="")
+!procedure Webauthn($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/W/Webauthn', $name, $tech)
 !endprocedure
 !procedure WebauthnCard($id, $funcName="", $content="")

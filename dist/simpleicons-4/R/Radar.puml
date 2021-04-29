@@ -4,7 +4,7 @@ sprite $RadarLg [20x20/16z] {
 PS-53G0W34HHt6dtdnPtBaPUv1SoPotvvjn7582-fX7rQm4nF2InJDvcgzrb3jM0dwOgtHKQkWMwJU2OsEQd-KKCrzWqiyrCYzlYUSYSEWiX71K1Y61bUTZw
 4hqGpSWn7TgdgP77zLHQIZ8
 }
-!procedure Radar($id, $name="Radar", $tech="")
+!procedure Radar($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/R/Radar', $name, $tech)
 !endprocedure
 !procedure RadarCard($id, $funcName="", $content="")

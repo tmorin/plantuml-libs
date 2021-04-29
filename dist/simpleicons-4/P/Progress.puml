@@ -4,7 +4,7 @@ sprite $ProgressLg [20x20/16z] {
 NS-50S0W34JHmptPVzeA3h_-Qe2QSCJCNc1B1lwAQYDFNAFjIPEvLoncbePcNK6eRmjJVpI5qwSgTJFQjDCWvsUDZ-Fh3X1KhRxQIXAbsPUZQgGsWuoNrU9j
 IY6S9ZoPqym_gyjyvCk205HaMyq3TPOrepvB_zIZnSgvUX1r_m8
 }
-!procedure Progress($id, $name="Progress", $tech="")
+!procedure Progress($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Progress', $name, $tech)
 !endprocedure
 !procedure ProgressCard($id, $funcName="", $content="")

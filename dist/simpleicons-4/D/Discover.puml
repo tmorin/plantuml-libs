@@ -1,7 +1,7 @@
 @startuml
 sprite $DiscoverMd [14x14/16z] hKe50G0n48BJ-VgdVUbmZg6a2982mV-PhRMmSOVt79ajMjDnitdq-7D_0zybIke5
 sprite $DiscoverLg [20x20/16z] pOl70G8X00JnDf7flrhrkc1-6wPSJao4JuEwMHox0Ppk2h3FQivGdGA7EElRJS__F-k9mUhN7Ihws1JAvVm
-!procedure Discover($id, $name="Discover", $tech="")
+!procedure Discover($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Discover', $name, $tech)
 !endprocedure
 !procedure DiscoverCard($id, $funcName="", $content="")

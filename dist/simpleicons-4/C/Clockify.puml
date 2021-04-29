@@ -4,7 +4,7 @@ sprite $ClockifyLg [20x20/16z] {
 PP250O0m40DJDzhiFoqI78BstX-RREMXZ5D--h74JRqF5fXeDXH9ZkIiTG6eSlM3R0RIYYQh3niE5I7hoM5V226HvIecX5n9Bv2BXT5VRQHLTVb_cRfunwPa
 5FkfaRi3zbvuzx93j4VFMV2OpNwWTf3zleEiwe8RxcG5WldkjE2IyQKFZXQLTm4
 }
-!procedure Clockify($id, $name="Clockify", $tech="")
+!procedure Clockify($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Clockify', $name, $tech)
 !endprocedure
 !procedure ClockifyCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $StorifyLg [20x20/16z] {
 LP210a1024DF0Lsr__zQg41WzpQmTiviwDn-CwmE6Nw855ZJP2faW8LQp4tu5AkWOXEkyRcr4EF5Dg0MBrkAwH2NETvWTp2jU0SN55GmeCUYB1y3ZiZvmHxw
 WVHyeueMNEE9eOYBoVD0Fg_-ldgvJH8posQkFgWQfAnl1PJ-tGgm_hjbxNE63W
 }
-!procedure Storify($id, $name="Storify", $tech="")
+!procedure Storify($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Storify', $name, $tech)
 !endprocedure
 !procedure StorifyCard($id, $funcName="", $content="")

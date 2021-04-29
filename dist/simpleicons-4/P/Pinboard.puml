@@ -4,7 +4,7 @@ sprite $PinboardLg [20x20/16z] {
 RSx50S0W50DGt27xRzlYcXkFR-GF2ugS4KcUn1FCJO1UXHR2LXaovTXfMgjOqT7SrjUsIi-b7GUeXWc1aXxJAzVjBakkMa8ZbYFd7c-WTikDAedLT9ab8r_h
 weFxZakOPG_Kz4QQzzpw0G
 }
-!procedure Pinboard($id, $name="Pinboard", $tech="")
+!procedure Pinboard($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Pinboard', $name, $tech)
 !endprocedure
 !procedure PinboardCard($id, $funcName="", $content="")

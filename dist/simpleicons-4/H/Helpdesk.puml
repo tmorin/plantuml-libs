@@ -7,7 +7,7 @@ sprite $HelpdeskLg [20x20/16z] {
 RL050WCX30lkyF_VhYdRJdC2zIO0N8WfvHC04r8kfPvWtLXtzBbUqMefEKlFL6YoCEC7IxCP-OMVoxDFDTW-KnCGvovYdeVhOcJsYk9gwlE_QG6CgmzxoUa0
 nmRgWvLejvppB-2KHXU2f9ztEVdAsIVJTKYl9AVYqCvF3QPzQ3KS9uPTfWrIC7Z51m
 }
-!procedure Helpdesk($id, $name="Helpdesk", $tech="")
+!procedure Helpdesk($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Helpdesk', $name, $tech)
 !endprocedure
 !procedure HelpdeskCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PastebinLg [20x20/16z] {
 HS_9eI112CDG6Hkgw9xyqvtjR--ec_YawWZ23vK_clZa90Kpg05GuW8ljQ81En9-HskUnOPkPklChNwhH0KwR6xsbWLzoiBHlKiAfdddsCZH54H-RkvP6IaW
 phs-qpecWfH_SMUhdm8u0fkPkllz8o3C8u1f8XcWLOApvRM80SealBtiMk6_OIxtNAQIuh-8PxW5TSodvZGeYVbfu8wB7veUYoz_
 }
-!procedure Pastebin($id, $name="Pastebin", $tech="")
+!procedure Pastebin($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Pastebin', $name, $tech)
 !endprocedure
 !procedure PastebinCard($id, $funcName="", $content="")

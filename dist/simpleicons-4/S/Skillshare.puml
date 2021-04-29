@@ -4,7 +4,7 @@ sprite $SkillshareLg [20x20/16z] {
 lKY5WSH02CHzIV_LlfvL41Y7-qxZeuWo4f8e8I3zRtlCkyAp0xp_jvwCNV1g_zXEzhXNRSGs_sxkJ4pApAQiXhzRX8c2aQMB1ciem7L5d3mr_iEnxKiWg-Fq
 z63d2A-Ly4nvO4d-U0ha11VSSDy
 }
-!procedure Skillshare($id, $name="Skillshare", $tech="")
+!procedure Skillshare($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Skillshare', $name, $tech)
 !endprocedure
 !procedure SkillshareCard($id, $funcName="", $content="")

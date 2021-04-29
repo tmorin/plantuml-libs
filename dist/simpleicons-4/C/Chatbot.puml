@@ -4,7 +4,7 @@ sprite $ChatbotLg [20x20/16z] {
 RSxLWSLG20JGIIuQMAR_RlUvdp-SfSCter3Z1yVmYvoxGrNbH5LzoEFI_CB9FvAA5qhEPqwkEO75se1jXPrpPuBcT5KF-vahtjGzfv0UdamBv7bZLtVTdpT-
 _JSPAG0sYyWXZ-550AjvjKHvvaYUtTTdLUUvgQigTzm5EOPtmMFXWpcU_W4
 }
-!procedure Chatbot($id, $name="Chatbot", $tech="")
+!procedure Chatbot($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Chatbot', $name, $tech)
 !endprocedure
 !procedure ChatbotCard($id, $funcName="", $content="")

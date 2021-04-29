@@ -7,7 +7,7 @@ sprite $MusicbrainzLg [20x20/16z] {
 LP070iGW20JLs01X_l_RYrxVL8TEEYeJ5QIa7rswcLrVKYIW2w1lp-6mQb8GZv7lg7QJwBT9y3QuNqaNi2Do7MsxnZeiRgAgFep8vabjinvH1KqHW_La1Rcg
 4WllRvPhTwq2FehwYnceME_NibSD2g1AX0rOUVl9OK9lMDj-Hayllsd4pYT6JNAOYa-2TMOxqbfdgu6tFTICmmHtOkRthfwClwrUjfdLzAS-PqylFG
 }
-!procedure Musicbrainz($id, $name="Musicbrainz", $tech="")
+!procedure Musicbrainz($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Musicbrainz', $name, $tech)
 !endprocedure
 !procedure MusicbrainzCard($id, $funcName="", $content="")

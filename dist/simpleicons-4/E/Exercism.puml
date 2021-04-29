@@ -7,7 +7,7 @@ sprite $ExercismLg [20x20/16z] {
 fP050iCm24K_SMJb_hSTwTobyJmS8FUAywWjhHUt2sjSGgkwvWlBwXL3FD0LT87OagvPMcmJsxaHYGwAhoY3pCczWJj90yOWxcW-9WjZejZJD1XFMyGuijNs
 68C6OQIxk9s57t8fvLr-pthmj5VXwBQdWPwDFG
 }
-!procedure Exercism($id, $name="Exercism", $tech="")
+!procedure Exercism($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/E/Exercism', $name, $tech)
 !endprocedure
 !procedure ExercismCard($id, $funcName="", $content="")

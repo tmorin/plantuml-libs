@@ -4,7 +4,7 @@ sprite $SeatLg [20x20/16z] {
 ZL05GiH046F7dV__5geuTsdNnXD0CVU8oCnmDrK1OlFChAgkEipu-XFrYwr_iSsnXxzZxxFLFIeO8woN2v5zPbIQ46msGW0IppdhfolDzEu7PFNwDfGBhhMG
 BOVPedekXzBLQss9LxCEn6kA1SY7UMvqdzFERzoUr4LiKpcpjcgxgCOdwtLZUxq1
 }
-!procedure Seat($id, $name="Seat", $tech="")
+!procedure Seat($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Seat', $name, $tech)
 !endprocedure
 !procedure SeatCard($id, $funcName="", $content="")

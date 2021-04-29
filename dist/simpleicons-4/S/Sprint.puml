@@ -4,7 +4,7 @@ sprite $SprintLg [20x20/16z] {
 PL2r0S102EGTl_stJHSXbC0fqP16TRfs-iqqchCk3q__uMNwQbmeZ_B0AKkJ1QNrMMvXd8aFlhFbCXYzjNRwHWw9-UncSc894FtPcM4h07lGIt4CoDFUVEo0
 ZRUkQ2Bsrvy19TpCh8tja572CWyggr5xlW
 }
-!procedure Sprint($id, $name="Sprint", $tech="")
+!procedure Sprint($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Sprint', $name, $tech)
 !endprocedure
 !procedure SprintCard($id, $funcName="", $content="")

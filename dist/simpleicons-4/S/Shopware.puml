@@ -4,7 +4,7 @@ sprite $ShopwareLg [20x20/16z] {
 JP255S0m20NZ3km_ROtFArVDHP3maBU0KmAennmrg6wBzbfR5mwioF4TlQzSFpK-0VRvLF3enl1HMYl9tFWFvfdKrLSbKLWZj2yY2N1xy_6EWj8sloDR2CeW
 MQBqOCHUDWxP2Kvh0wlyTeXnMl8IS3TPoVSKnBhe4Qjgnsu
 }
-!procedure Shopware($id, $name="Shopware", $tech="")
+!procedure Shopware($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Shopware', $name, $tech)
 !endprocedure
 !procedure ShopwareCard($id, $funcName="", $content="")

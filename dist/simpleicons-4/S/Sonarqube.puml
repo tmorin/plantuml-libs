@@ -4,7 +4,7 @@ sprite $SonarqubeLg [20x20/16z] {
 PS67jGKW242n2rPGs7_RNr_pcF2dh5b0VF9MbdSGCm5OoqSLfA_Le2y5nh0LOGfjcz2MyaUQfojYIsZEawxiCBSm9Yyz3UO6BxneE9XJdJS9GtQZm9jcfotX
 q5DOdTDokdCggUp2QHbTERNW8b6vhC75ZSjqBct0Dm
 }
-!procedure Sonarqube($id, $name="Sonarqube", $tech="")
+!procedure Sonarqube($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Sonarqube', $name, $tech)
 !endprocedure
 !procedure SonarqubeCard($id, $funcName="", $content="")

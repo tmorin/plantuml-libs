@@ -7,7 +7,7 @@ sprite $GravatarLg [20x20/16z] {
 JP275SGW34C5FZgEzz_sdgAqduhSZOiLP1a-x21U8Ehu8Nk83j8ZZfoaIRJ2dqBjcCVvZyL4ViPwuZiy1J5f6NOwyZLmQqmUKswFPWocbjNV1g1SbrRSorSp
 F3on0mz3DRwEwaKzsoKnR2VD5iDojX6aQ0SFtyLy9L6OyxjJaihaRBCaa3y
 }
-!procedure Gravatar($id, $name="Gravatar", $tech="")
+!procedure Gravatar($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/G/Gravatar', $name, $tech)
 !endprocedure
 !procedure GravatarCard($id, $funcName="", $content="")

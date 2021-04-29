@@ -4,7 +4,7 @@ sprite $GithubLg [20x20/16z] {
 LT054eH03031PDt8_F-tTy6PCgfPbtzQZJshAcUXSzR3ITcuitmGd_weqLXruUqV5gLFg28fgQOaqc0AG9ChDzAvn5K6Eh3qCLsmtELL1mF6smRUT-u6vfWU
 Iy1qitYJ0MLZonkpgZ_FTBAGAZqQurc_YiWaITJh4apvfvDMucLJnTC6xRJsUkYyN_PyvXy
 }
-!procedure Github($id, $name="Github", $tech="")
+!procedure Github($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/G/Github', $name, $tech)
 !endprocedure
 !procedure GithubCard($id, $funcName="", $content="")

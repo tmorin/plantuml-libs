@@ -4,7 +4,7 @@ sprite $LighthouseLg [20x20/16z] {
 LOvL0i0m2CKgp87S_xJJslBL1dlXGnHCme_PmUVHf8EN8tUtWasYi8xExeviVwSnXAZTnRYXESQiR36MBdFG6t0hdJi3HycsEmNVMyRksjduVdNQ85OdeAlS
 Iq2AQc-1jcx3qhDYXQsw0mrHTW2jpj2bdBQYajFmrCvsf9tjF8Sl
 }
-!procedure Lighthouse($id, $name="Lighthouse", $tech="")
+!procedure Lighthouse($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/L/Lighthouse', $name, $tech)
 !endprocedure
 !procedure LighthouseCard($id, $funcName="", $content="")

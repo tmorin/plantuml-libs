@@ -4,7 +4,7 @@ sprite $DellLg [20x20/16z] {
 RP05WiKW34JZsAHx_zjkljUc0ZpYLDA5xghUiPJUSg2PY3N0twYdVszpl12Olc8KLCyN-i1oMjyGt-2Se9CGev6vb8yJAv4HjUagc311Cr_45ToWh8lj3p5x
 Vp793zjwtoRn9iNA5sEPh7BE4Jd3yCrXzRhMlisxMkvgllOMzH-N6LndzPkf7cTQ7Z6HYHclAFy
 }
-!procedure Dell($id, $name="Dell", $tech="")
+!procedure Dell($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Dell', $name, $tech)
 !endprocedure
 !procedure DellCard($id, $funcName="", $content="")

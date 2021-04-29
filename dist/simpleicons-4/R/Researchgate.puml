@@ -4,7 +4,7 @@ sprite $ResearchgateLg [20x20/16z] {
 PP250S0m20GVYDllFstTU_6BWoSsajM25uv1yiVbYX-bGBs3geWkdCvtMctaw7qmo-QWmu341D7CBWZ348S0WH4BTMtoQDtZSf7h8ymhdYvZu-4QxUcIggt7
 FTreZStZvRAcwx3xFAdqNmV78L-7p0hytv9E8rBPrhVR5eQDKjkIrfLQs7LpCm
 }
-!procedure Researchgate($id, $name="Researchgate", $tech="")
+!procedure Researchgate($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/R/Researchgate', $name, $tech)
 !endprocedure
 !procedure ResearchgateCard($id, $funcName="", $content="")

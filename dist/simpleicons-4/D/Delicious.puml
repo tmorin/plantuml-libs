@@ -1,7 +1,7 @@
 @startuml
 sprite $DeliciousMd [14x14/16z] Ou00VWYW9e-HZnyE-FZv61aOGO065Z4
 sprite $DeliciousLg [20x20/16z] Ou03VZWOYc88CBHz1
-!procedure Delicious($id, $name="Delicious", $tech="")
+!procedure Delicious($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Delicious', $name, $tech)
 !endprocedure
 !procedure DeliciousCard($id, $funcName="", $content="")

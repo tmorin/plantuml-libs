@@ -4,7 +4,7 @@ sprite $ConsulLg [20x20/16z] {
 PP050e0m24M9DOv__zFQlQSh6cY5YsEdALremy4K-HGbe9SKOpP0Rr4-rR7iXmGWqWDdfJOXqOk0Ge3HXo24oqoE4ZA513zILJVP3aI3TpcJet9Fh2JwaNdU
 P7BwSlLfkvJDzyd1PuwOnrfug5bHnjwA_cQGwJkhjCzgc6dVPteYgRIQzPGi
 }
-!procedure Consul($id, $name="Consul", $tech="")
+!procedure Consul($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/C/Consul', $name, $tech)
 !endprocedure
 !procedure ConsulCard($id, $funcName="", $content="")

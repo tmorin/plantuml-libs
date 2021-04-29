@@ -4,7 +4,7 @@ sprite $DevpostLg [20x20/16z] {
 RP053WL124E1SUtzJ_kbEvcilHZ1M_cXQQEoiB8nMLHiwafvdF126Z1QQvsvpbG448ze0aZ_0uCvytPi6IOnWxc2MPJNiaoi7CS2VXXEkI8EFzfRxZmR-GFS
 wKPMQRoXvryYVpd_h0KyVj8sjhPN3zwz4YjrGKzV-G8
 }
-!procedure Devpost($id, $name="Devpost", $tech="")
+!procedure Devpost($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Devpost', $name, $tech)
 !endprocedure
 !procedure DevpostCard($id, $funcName="", $content="")

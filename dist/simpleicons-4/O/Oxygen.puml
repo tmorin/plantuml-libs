@@ -4,7 +4,7 @@ sprite $OxygenLg [20x20/16z] {
 RL270O0m2AE5kWh9_zUwjqQxs8dCo0E9291LPOTLCjo3TDjDBTbR4adMa-rkGZapi1Yp4IOd53JfAnkveR0AwUbkIvMwLxtGi2FjQJCweK-R0d-slzndZzpr
 TUbHhraCCO3scDc7PUkpaNgMpyk0iMgmjqcXg-sX5JoBOcrgVcWA1FezoGQG64hIaaKc
 }
-!procedure Oxygen($id, $name="Oxygen", $tech="")
+!procedure Oxygen($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/O/Oxygen', $name, $tech)
 !endprocedure
 !procedure OxygenCard($id, $funcName="", $content="")

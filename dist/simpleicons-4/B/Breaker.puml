@@ -7,7 +7,7 @@ sprite $BreakerLg [20x20/16z] {
 FP05WWCX34LZnA7tl-rEodJV2FBZy83UBaIyeXtXmb7622JUIVTAFvlWnRPyh_PwVE5bRGQavl5kXeiMUDghBxYqTB-P-7VfNWalilbwf2lyqBfQwdYWgEhY
 -eQsq4LMko8-fy-UsBswEwRCJ0GwCXku6jYPnShwqVeRc4xFWX4J_jOSKGB_83S3D_XHfWVH2Q9DckFzKFMvVUdUCYrDWvM_LhkDiKtoplaYKVkSD8BX3m
 }
-!procedure Breaker($id, $name="Breaker", $tech="")
+!procedure Breaker($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Breaker', $name, $tech)
 !endprocedure
 !procedure BreakerCard($id, $funcName="", $content="")

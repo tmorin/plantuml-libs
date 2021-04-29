@@ -7,7 +7,7 @@ sprite $HibernateLg [20x20/16z] {
 JP050iGW30It2aJ__zlBiRMfCaW4m33DYU11NEZqKNlc2ChpThNH1vqlqspdt6MKVJhpkK2IR2YIQ5VHkXkAe1iWuwZNsUVUzSx1KAnUhe7OzLk13QGzMomF
 W5kUV8udm2UVfb9ebq-5MnBnJmwDplJJYCKfXtyQTj95HTbne_U9WazZIVi7-04
 }
-!procedure Hibernate($id, $name="Hibernate", $tech="")
+!procedure Hibernate($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Hibernate', $name, $tech)
 !endprocedure
 !procedure HibernateCard($id, $funcName="", $content="")

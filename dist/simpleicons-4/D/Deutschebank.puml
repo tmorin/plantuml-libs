@@ -4,7 +4,7 @@ sprite $DeutschebankLg [20x20/16z] {
 ZT15WiC040D1ZSmq_V_NxeOJi_kcEehBvJZyD2R0u7YbMnuU5dfb5w6vjO3dLWArPXOJz9fR3vFdra2McbcPq6XcCSAWkNMGCRSQAFLhSaBxedXP5BRUFUsv
 uv4yR7vrkNy
 }
-!procedure Deutschebank($id, $name="Deutschebank", $tech="")
+!procedure Deutschebank($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/D/Deutschebank', $name, $tech)
 !endprocedure
 !procedure DeutschebankCard($id, $funcName="", $content="")

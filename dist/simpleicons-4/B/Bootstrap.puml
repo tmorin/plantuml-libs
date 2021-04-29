@@ -4,7 +4,7 @@ sprite $BootstrapLg [20x20/16z] {
 RP050e0m24M1RmDw_zCQ37jFLpJG3Z-W0iijaYA2kdbYhZXau_9YEcJwbkaHBMHkQdEHCP7u8M86qnHQ8KPSZdSdOGdgXalM8vm7MW9dT13BBAUi7GSqcUNs
 ZIry7pd6KYgo5cE6K9UrPCscQfurLtghpw0-As9vm5Hd0m
 }
-!procedure Bootstrap($id, $name="Bootstrap", $tech="")
+!procedure Bootstrap($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Bootstrap', $name, $tech)
 !endprocedure
 !procedure BootstrapCard($id, $funcName="", $content="")

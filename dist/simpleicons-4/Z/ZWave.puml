@@ -7,7 +7,7 @@ sprite $ZWaveLg [20x20/16z] {
 LP27OeKm24KlMIzguFp_trRQFiVHB3ReZp83WgO7RGSYgYviXpLxDLsKXG_BooMipb6apxhZcRD98vxnDexSsDiLgn5sYhphOkuC3RocVeoUMM2PWfu51H0Z
 PLCVzan5ac_eMbd3JepQsWWQKHGXbU38aYVik1LEsO28eGP4QxBUKaPcMm3NO58lotYkByvknMp2l6G3N-S7RhgOa7XzpphmQT8F
 }
-!procedure ZWave($id, $name="Z Wave", $tech="")
+!procedure ZWave($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/Z/ZWave', $name, $tech)
 !endprocedure
 !procedure ZWaveCard($id, $funcName="", $content="")

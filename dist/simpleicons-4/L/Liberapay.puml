@@ -4,7 +4,7 @@ sprite $LiberapayLg [20x20/16z] {
 bS_50GCm3CLGXVbx_sdBpDNn1MtFBNjEzhwP-vCbdamUFHqbs1gzhnjh57E0ly5CtssTYNnxtQgxhPrmiKMmGBTAkjWWoJbfvpVciYFx_RPBsGN0LxihqgHx
 KdWUHAtPlsdfYT8M
 }
-!procedure Liberapay($id, $name="Liberapay", $tech="")
+!procedure Liberapay($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/L/Liberapay', $name, $tech)
 !endprocedure
 !procedure LiberapayCard($id, $funcName="", $content="")

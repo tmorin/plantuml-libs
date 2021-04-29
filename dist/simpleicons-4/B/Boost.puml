@@ -4,7 +4,7 @@ sprite $BoostLg [20x20/16z] {
 bSX50e0m30NHG1kh_Dp_jBZlcDqy-f586hwM4QqQZozCY2NqekaoHI1RR5NTQBqsS1pPGXfhFQvEWlj9O8szrawJkEX4fTFgcDf1frqPtIPBs8b4ArQhAPM0
 qbaIRx66HC-6hBK1cRub4VhH3
 }
-!procedure Boost($id, $name="Boost", $tech="")
+!procedure Boost($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Boost', $name, $tech)
 !endprocedure
 !procedure BoostCard($id, $funcName="", $content="")

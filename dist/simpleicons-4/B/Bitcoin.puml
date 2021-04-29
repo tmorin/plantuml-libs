@@ -7,7 +7,7 @@ sprite $BitcoinLg [20x20/16z] {
 RP150a8n30LV9VnwxdzROZYpwpGEeKmEPa50YuDDeHg_qTxLcazPY8MpkRPscIJCRK78eDmy8R7J8JPxEeMRAASds03ZsKuIA-ovmn5IaUHZ3LtjZ76bZqbF
 1sbpx5Tk1kfOpLtqM2r1kTchJci_Sq-jUy1Eljlget90hnkSFuTvAOFszqs5H6EB6EJjxm
 }
-!procedure Bitcoin($id, $name="Bitcoin", $tech="")
+!procedure Bitcoin($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/B/Bitcoin', $name, $tech)
 !endprocedure
 !procedure BitcoinCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $AuthyLg [20x20/16z] {
 TP053WKm24CxTxZ_RN_XkpNAMoKPgBJqffLmKzbtTieDTNrH_qOEKtcUmtiBrh7gMiPHIPZM6PIgeCBI2OUMRCXhTxiNm3Yvn22MDpYH6LRTA5w_44LJs2fa
 8T4Bmk6ZnZHRo9jKGXJBUhF1lbT6ymtb7PWCe0hFihR3nCYeRQdtsulNtrL-_C6Fl_hxfrGeyn3C4loy
 }
-!procedure Authy($id, $name="Authy", $tech="")
+!procedure Authy($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/A/Authy', $name, $tech)
 !endprocedure
 !procedure AuthyCard($id, $funcName="", $content="")

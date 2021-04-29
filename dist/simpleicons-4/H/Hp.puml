@@ -7,7 +7,7 @@ sprite $HpLg [20x20/16z] {
 LP3L0GGm34AfUzX_smizVryjnE6aVG8EdPNmeXpNJDefBwcJ7PLF-bjYnk9NJ8NaHZA-ALYgtP3796sECRmsHK04gbl1NrOaBIGMD5NThirdXSu8qt-WKjKi
 m2OIsxKcrMuWisAwjRTRLykOscDVgr6vEu0JvNO9sEJKS5MXX2R9QhdExeTpSY3DCKrvsksICDwxwGPY8zZ_OLIrVALxKwMkxqr5gCrJpom1uW4
 }
-!procedure Hp($id, $name="Hp", $tech="")
+!procedure Hp($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Hp', $name, $tech)
 !endprocedure
 !procedure HpCard($id, $funcName="", $content="")

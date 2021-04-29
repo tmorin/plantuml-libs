@@ -4,7 +4,7 @@ sprite $SignalLg [20x20/16z] {
 RSr50a9H34FHcpRFWR__rU8EPrX90CA5AqToexIvoYYwZQfHcslD5fJRHuf-sAuE7HoKcipjQU5AQupjpS027xPtnj2t3uC1wtEsIFGrsod_tFMVl4u5VumE
 6QgL-NdMepMzjmmoWLG-9lk23U0QvtsVinkoSkKOAG5H3JSXtC8jPJrc6fP0F9m
 }
-!procedure Signal($id, $name="Signal", $tech="")
+!procedure Signal($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Signal', $name, $tech)
 !endprocedure
 !procedure SignalCard($id, $funcName="", $content="")

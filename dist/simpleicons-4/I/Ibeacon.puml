@@ -4,7 +4,7 @@ sprite $IbeaconLg [20x20/16z] {
 LOxLOSL030INxlVrNsu4COrXfJb4ePYKI4VunudQAV4QnfPFSYeSjejSYDmCeCvwOcSA6yb8i_2eT6vrJhIDA0-IhYhaKMWviSperDUc8hzVzsFNdO-xrhgu
 rlBgW6iajlQvhbzSTvvvgoZlO-1Q0Y2ChtcLGS6yvuKOwLYibEDMbnMWo_m1
 }
-!procedure Ibeacon($id, $name="Ibeacon", $tech="")
+!procedure Ibeacon($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/I/Ibeacon', $name, $tech)
 !endprocedure
 !procedure IbeaconCard($id, $funcName="", $content="")

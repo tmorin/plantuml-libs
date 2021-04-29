@@ -4,7 +4,7 @@ sprite $NewrelicLg [20x20/16z] {
 VP05Wi0m409X1VB_5z-cUZurTXh71MCWlX0v15xO5ofSJBnQPFj8T74gUsc-iIMT-zKak7f7daEeihi8ZQooC1-r8ZJHiHyUpOJZW_0uRDOvRpIen_LFvtpx
 RhtfEkVW92Zd1T1nhYMD4cpYNFrysvC8xXAWbknaZHh2bVTvIRWezGL_dkW_V
 }
-!procedure Newrelic($id, $name="Newrelic", $tech="")
+!procedure Newrelic($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/N/Newrelic', $name, $tech)
 !endprocedure
 !procedure NewrelicCard($id, $funcName="", $content="")

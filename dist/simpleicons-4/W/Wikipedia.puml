@@ -4,7 +4,7 @@ sprite $WikipediaLg [20x20/16z] {
 fSJ5eMCn50KmcPyXllrNE_Xf7ntmXjvRBthlzU-LD7eVSyUJjFlAwftKrowvniGJHJs9SZ9sPFBTri1OqEF1Z6SZxGfE8DzeQ1iOCJ2ZO3N0lLYnACU79uQw
 pwrczo75iLk9wIG-pDWhENTtNt94eyNDlgsDTAOVKeQSlUqt
 }
-!procedure Wikipedia($id, $name="Wikipedia", $tech="")
+!procedure Wikipedia($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/W/Wikipedia', $name, $tech)
 !endprocedure
 !procedure WikipediaCard($id, $funcName="", $content="")

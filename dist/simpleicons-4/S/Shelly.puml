@@ -7,7 +7,7 @@ sprite $ShellyLg [20x20/16z] {
 LSw73WCn20FGxDwH4F__tzRed8wdXHWMYUg4p9gaBuXtjIuSllVuQrcl9PSIMLsjM2Yj9PgkBTO3M8aW5-iNjpFF8NVaRAort22U8-WfSRJdE8pU2bKtzif6
 O9LhROQTo46UKjDzFZrJi7eRr1Ly7gGLmsRkix4OqDfHsjH-g7PVz_HlH1WRuj_3p4WshESKtW
 }
-!procedure Shelly($id, $name="Shelly", $tech="")
+!procedure Shelly($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Shelly', $name, $tech)
 !endprocedure
 !procedure ShellyCard($id, $funcName="", $content="")

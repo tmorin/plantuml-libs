@@ -4,7 +4,7 @@ sprite $QuipLg [20x20/16z] {
 PP050i0W24Mn0_3V_xQprc_fCmZgE4PJPcrWHnklK2w5-yTlbI71KCS4GTugJpDj7j9v57fGu4bK-Yhh9hQl53L0w0gRBWDyqt5OY9CmZjIgJ1-uIIKlUY8I
 UfItq-d-UpDM31z39_hbVhbqntVEdRNkKzjquodcNN5_fTMhUztTqqsMwSZusd2X1m
 }
-!procedure Quip($id, $name="Quip", $tech="")
+!procedure Quip($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/Q/Quip', $name, $tech)
 !endprocedure
 !procedure QuipCard($id, $funcName="", $content="")

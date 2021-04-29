@@ -4,7 +4,7 @@ sprite $StravaLg [20x20/16z] {
 POw50S0W30GV3VxxRriNmhNuHN1Xka1ZHu8cSPX58zEYKOkM1sdHo6wLbleiPh8P8OUTYaQOe_IaxKia-OX6Kl9m8YKbaJXtdO3EYX-obpZ6x-geKHep9YAl
 8fFOUMXQrDgHyT0KmLth1W
 }
-!procedure Strava($id, $name="Strava", $tech="")
+!procedure Strava($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Strava', $name, $tech)
 !endprocedure
 !procedure StravaCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $GrafanaLg [20x20/16z] {
 NP250SH020GvTwR_RX_UaucSB2uVEfhbneGg5s83TDGvNiUvzpoyEL6C3CwgAUMk574xjz7oZh5VXXFUQh3Vxc9KcBQKfMTcYSkLZfjbT6oeqgDRexQSvRQG
 Of2mGOCaltUVORy9RXTLdCGEiWz65PdZTNTCJmTS37tK80EQII4lcA_oqaitWi8kPbf1M_pCpZdAtmmN7ufy69nQlIgLBo46NufMSHu
 }
-!procedure Grafana($id, $name="Grafana", $tech="")
+!procedure Grafana($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/G/Grafana', $name, $tech)
 !endprocedure
 !procedure GrafanaCard($id, $funcName="", $content="")

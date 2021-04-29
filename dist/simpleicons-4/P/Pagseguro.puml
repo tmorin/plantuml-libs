@@ -7,7 +7,7 @@ sprite $PagseguroLg [20x20/16z] {
 PL05iWKn24Cgq6N9_K_xhELhHiZ4LkW5TPVt5NUbWxwCtvTjzIFP9UNAPLiA-e5uYTgXFpL5fqX_aU7Bn_Oy6MWqLsUYviRqEkYPQhDwxrUHN7TuIJIkEQT6
 0kieR8EPrV72gDGcSWDPhr9vp__QMC1VpNhaBAxdYexWpSLbnzwRNgzie_Mm7RQJ703iwvzEPUaN48qAqlswCrVVXIS
 }
-!procedure Pagseguro($id, $name="Pagseguro", $tech="")
+!procedure Pagseguro($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/P/Pagseguro', $name, $tech)
 !endprocedure
 !procedure PagseguroCard($id, $funcName="", $content="")

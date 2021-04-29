@@ -4,7 +4,7 @@ sprite $MessengerLg [20x20/16z] {
 PSx50S0m30D0XTdQVzg2c_8zZG80tpbrZoaA9ubGflAXchqsIrSH28aV2OC_bczxWaWboJVTssSQLG6GA1vb7z3Iq03E8l0IO9r6rOzoHFA36K2-_j3gf-QJ
 QArSZPlBbHyLnWfVn0BmyYfvx0fltU5Jwz7Wa2HRwsFmTbPM
 }
-!procedure Messenger($id, $name="Messenger", $tech="")
+!procedure Messenger($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Messenger', $name, $tech)
 !endprocedure
 !procedure MessengerCard($id, $funcName="", $content="")

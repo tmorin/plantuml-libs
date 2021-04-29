@@ -7,7 +7,7 @@ sprite $HomeassistantLg [20x20/16z] {
 VSq7OiGm24HH1dLXcFlVDZZ9zlBTdrNaKk_oqfolHCvNUiP1FkCalJLFNDotKQNMae-WNIcmDuAPtTOQmE2_jK5w7q5LnkXE3c5MYhQyiMdUo6aMWMFfQReE
 H5ZklDb4uAKuSYcc28nXInLGNHOq91epLn7rltqlHWUSJtRkyTsc7vch_ZsddE6tsrD-
 }
-!procedure Homeassistant($id, $name="Homeassistant", $tech="")
+!procedure Homeassistant($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/H/Homeassistant', $name, $tech)
 !endprocedure
 !procedure HomeassistantCard($id, $funcName="", $content="")

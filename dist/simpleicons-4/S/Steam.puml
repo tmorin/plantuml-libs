@@ -7,7 +7,7 @@ sprite $SteamLg [20x20/16z] {
 TP07bi0W24Hdx4IK-zzsUR5i_ucD3d1YjqsFsEHnP9gnQFQ5zaFKHLzXp4UYWMGno-WdrcGIQQYcj8C40L8Dqv8TSl1840wJ6mqKefHWDhgkQ1688XNDxtvz
 firLA-aYbpaXXqG0UVKuk0ng1KxiHxMyOabt44c7noVOwX4fO_OzDybwP7dDG4iP_mt6gV_Er65-N3oUl2hx
 }
-!procedure Steam($id, $name="Steam", $tech="")
+!procedure Steam($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Steam', $name, $tech)
 !endprocedure
 !procedure SteamCard($id, $funcName="", $content="")

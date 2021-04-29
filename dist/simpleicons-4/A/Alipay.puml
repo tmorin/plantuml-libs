@@ -7,7 +7,7 @@ sprite $AlipayLg [20x20/16z] {
 ZK-50GCX4Cif3ljlM-hjU_08S7siO6CDVszwpk_89rg1-c_leu3gw5z2HOG1cVYxlooopTsDo4pjIzQ9LglXovMKxhakA6-6YGZW6A2lHvkakn0OWDLNBhx4
 EmcDzSwb9nSWIIPBugr8kx-ikA_5C3569D6P2--_CkuULuljMseSr-3c_P_fZXi
 }
-!procedure Alipay($id, $name="Alipay", $tech="")
+!procedure Alipay($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/A/Alipay', $name, $tech)
 !endprocedure
 !procedure AlipayCard($id, $funcName="", $content="")

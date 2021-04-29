@@ -4,7 +4,7 @@ sprite $ThinkpadLg [20x20/16z] {
 nKk70OGm22GqSxJiF-s_keHqhj17uMvAR4HBI7mza9w3LCLYJugp5zEQJ8xosBtZIg2mCLKIYRaQzH0TlHyCYVR2ODUAhcig1V5Y1JYrtzajKN5xxrbE4nt7
 RAcAYTtJcTpKd3wAFm
 }
-!procedure Thinkpad($id, $name="Thinkpad", $tech="")
+!procedure Thinkpad($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/T/Thinkpad', $name, $tech)
 !endprocedure
 !procedure ThinkpadCard($id, $funcName="", $content="")

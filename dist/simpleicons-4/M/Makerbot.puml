@@ -7,7 +7,7 @@ sprite $MakerbotLg [20x20/16z] {
 RT254SCm44JH5Ujm-wyspF4VyZoBSQaPmrGjQ0sFUj1bRt56Vz2cLjogolsWYIctBXzNRED2naTsmG5FnI0ZoGnUGBEG7OjH6jbASA5pXEDf_MPmC_arILdu
 del58pFvDSdmNtFxE4j_diL3lyTfbjevQofWNY1H9iVZ3LxDryFeuocRFGWOGPUrn9a3pygm9DD6mRKp
 }
-!procedure Makerbot($id, $name="Makerbot", $tech="")
+!procedure Makerbot($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/M/Makerbot', $name, $tech)
 !endprocedure
 !procedure MakerbotCard($id, $funcName="", $content="")

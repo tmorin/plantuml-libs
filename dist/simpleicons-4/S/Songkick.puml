@@ -7,7 +7,7 @@ sprite $SongkickLg [20x20/16z] {
 NP15WW0n20IR20mH-l-_tKbOhsFX0AYJXm8bPyMbhqzdvEx7Y9C_UQGBBDMFeuFyxzX8XgkDIEVsS91ByDBYk0TGBb9HLAkVkHjeP30QzBDVRv35GuTK7SUz
 E2yp-wKB9llf5LW58kYyH90B60McjpX8awQPPo6GkdR4xGExEpk0EUuPQejqdQUtxcREVpWW_a_9pq-JtP58ynLaB6ytwGC
 }
-!procedure Songkick($id, $name="Songkick", $tech="")
+!procedure Songkick($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Songkick', $name, $tech)
 !endprocedure
 !procedure SongkickCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $SmartthingsLg [20x20/16z] {
 RT35WK0X34NHZqIGvFRVxS2u7IIoVC_pMF8fxRdAu9jHxch35V5UwsC3hg7wqJt96uaGtbJUwPpA6mDo1gIqX9W92r9L0uP1d3QvWpCKxLtHWGyIjWxH9fdY
 em_TNE4R6J24vS6drTUvV9Vf8Xx95LocRSDkQXoB8mHpS4CsO0b4JnqmD7i0rGOmktDudy0uMGK_HFa_qwFQ2evOLk_y0W
 }
-!procedure Smartthings($id, $name="Smartthings", $tech="")
+!procedure Smartthings($id, $name="", $tech="")
   IconElement($id, 'simpleicons-4/S/Smartthings', $name, $tech)
 !endprocedure
 !procedure SmartthingsCard($id, $funcName="", $content="")
