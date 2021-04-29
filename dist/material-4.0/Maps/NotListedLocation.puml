@@ -4,7 +4,7 @@ sprite $NotListedLocationLg [20x20/16z] {
 VS-5ZSLG302mF2Y3zv_sy9UbMXnElCYrvbjaWkaShJvARDB2MCh8ahPOnn2bn42xnIPofMQcBJQpeidCfpfqCPtgEkXZHBV5CdGjv3WtppF6s1MKWXA7WNLb
 Y9EqSlhYz76Dgvu-xgOf7bAADzy
 }
-!procedure NotListedLocation($id, $name="Not Listed Location", $tech="")
+!procedure NotListedLocation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/NotListedLocation', $name, $tech)
 !endprocedure
 !procedure NotListedLocationCard($id, $funcName="", $content="")

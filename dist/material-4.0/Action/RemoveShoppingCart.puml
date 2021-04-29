@@ -4,7 +4,7 @@ sprite $RemoveShoppingCartLg [20x20/16z] {
 RT054i0m20J0E4Jl_w-jKcgviSp603C9qTyA9fWtTEMElv2XINezNTJD4Jl0Yb6UP2XM8t70Tfrs2u-2SBvPb6n7x_l9PjLuVvdVnNSm4OqN4YHFzDuvvrr-
 O1ZLIasAJTRqkCvIQm2wOl3oRZYcz4iXim8
 }
-!procedure RemoveShoppingCart($id, $name="Remove Shopping Cart", $tech="")
+!procedure RemoveShoppingCart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/RemoveShoppingCart', $name, $tech)
 !endprocedure
 !procedure RemoveShoppingCartCard($id, $funcName="", $content="")

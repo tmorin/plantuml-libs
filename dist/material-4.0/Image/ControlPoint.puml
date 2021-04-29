@@ -4,7 +4,7 @@ sprite $ControlPointLg [20x20/16z] {
 VL050iGW3EjAuMHByl_Npjs2Hp1xWKVuWQY-L0z-gvLA5BwbV26aXPBAD2lIH5OS9-wZZ37-LHu6O79-Xe6mYPi6ZlRldllApQAFEW09WFVXc3bE72Vk9dj_
 nl4kMT_hdJazESHi8p8LDY4eV7F-GepTN-duLnDIHB8NT
 }
-!procedure ControlPoint($id, $name="Control Point", $tech="")
+!procedure ControlPoint($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/ControlPoint', $name, $tech)
 !endprocedure
 !procedure ControlPointCard($id, $funcName="", $content="")

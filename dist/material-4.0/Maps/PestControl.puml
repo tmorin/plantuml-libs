@@ -4,7 +4,7 @@ sprite $PestControlLg [20x20/16z] {
 bOq54i0W3C1g-7Nz_sjdxOHpCYL8O0cHUFzGowrbqscTtV3VaJlwk-GkVHihL7VdJsIwgGLg7Pno3UNkP3T8TAsZgwD4UBaQpMXNJvJjSLjf4S5lBxg9pUhn
 4avbsCqGhV20urO84rmAmo87
 }
-!procedure PestControl($id, $name="Pest Control", $tech="")
+!procedure PestControl($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/PestControl', $name, $tech)
 !endprocedure
 !procedure PestControlCard($id, $funcName="", $content="")

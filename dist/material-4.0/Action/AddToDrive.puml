@@ -7,7 +7,7 @@ sprite $AddToDriveLg [20x20/16z] {
 ZSz5WWKX34NHYrE5lFtljXFQ_PyCu_mk5vFvfCaLteNEb5cVgdAIQxoAMvDRPWTUN99gaBlWI79qkSGnNhgspC0LkGfLeyGKC4jc0g503E_NPewWyLPsqthp
 4estkj2aJHctzZt2AUpXFDPrH2XQN2y_10q2PjRtPpKu8hatYmhqmkEU
 }
-!procedure AddToDrive($id, $name="Add To Drive", $tech="")
+!procedure AddToDrive($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AddToDrive', $name, $tech)
 !endprocedure
 !procedure AddToDriveCard($id, $funcName="", $content="")

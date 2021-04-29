@@ -1,7 +1,7 @@
 @startuml
 sprite $TableChartMd [14x14/16z] VOk50S1020C3fFR6_jFMtUwL26weRKo3xmI0nvG03Lq8tNH2CqLLzZCbkx4RPKpU9xjEFydn5zOfO1of86qyWYi3
 sprite $TableChartLg [20x20/16z] ZL150e0039enXs3y_xTs9uTrOl_X22m8P6EeFIBjOpZ5_27ceaXAewIofxMYmgANRkLODysJiPUmUfuNlUOfTgtx7uk7EfvYVggRY06y5u7S2lJYDpe
-!procedure TableChart($id, $name="Table Chart", $tech="")
+!procedure TableChart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/TableChart', $name, $tech)
 !endprocedure
 !procedure TableChartCard($id, $funcName="", $content="")

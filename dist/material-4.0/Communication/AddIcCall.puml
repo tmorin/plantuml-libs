@@ -4,7 +4,7 @@ sprite $AddIcCallLg [20x20/16z] {
 ZOm53W0n20I1kkx_VtkaSXRhH90LEaP2Y8u6BgvVWC9ZpNZ_H1Uc0bu1A1eM34PSriObT-GognlGvDj7SRzstmZNlHbwZ9x-S8EXFmRZAT49qyP2uzAWF3Mc
 eOmNugip0R_VQ1l6G5_4XIXqp0K
 }
-!procedure AddIcCall($id, $name="Add Ic Call", $tech="")
+!procedure AddIcCall($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/AddIcCall', $name, $tech)
 !endprocedure
 !procedure AddIcCallCard($id, $funcName="", $content="")

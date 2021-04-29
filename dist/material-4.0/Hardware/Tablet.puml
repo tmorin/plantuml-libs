@@ -1,7 +1,7 @@
 @startuml
 sprite $TabletMd [14x14/16z] Oy0363cvkA60YvEHZP-VamCCEFdvsTZuUM7AUAd5GxK1rNPyxWG
 sprite $TabletLg [20x20/16z] pSZ50OC030NGBoqk-q-BEpVynOCpVid63oot2ghf1WTmSqfjmqHV_7d-kVsnt27-QRAI_d563G
-!procedure Tablet($id, $name="Tablet", $tech="")
+!procedure Tablet($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Tablet', $name, $tech)
 !endprocedure
 !procedure TabletCard($id, $funcName="", $content="")

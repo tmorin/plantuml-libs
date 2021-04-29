@@ -4,7 +4,7 @@ sprite $AccountCircleLg [20x20/16z] {
 VL250GGX3CETiF-s_oddbXD2szJK1wnpzcJG2UEFdlHcShG8O5SJRzMvodCQDQCQMQDUv8dkT6OWAsH52h698GXAXSciL11WBUus6th3PXDjbXPiMRIiuTVk
 mwoXqjheB9YMdhjPJ7r0hxCXMQqjD-6EEu3yt7LNIFfpfrVy
 }
-!procedure AccountCircle($id, $name="Account Circle", $tech="")
+!procedure AccountCircle($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AccountCircle', $name, $tech)
 !endprocedure
 !procedure AccountCircleCard($id, $funcName="", $content="")

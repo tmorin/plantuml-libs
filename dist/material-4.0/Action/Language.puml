@@ -4,7 +4,7 @@ sprite $LanguageLg [20x20/16z] {
 VP053aCX68FBeonFeD_zRxlCZQpHNolwWshNZqPP0v2rl7P268EGnwx1ApPhWrkp98lIfH4joVLyPQihkxspretrqWiV61U2oqgdsIVwPNcHJ9CwbmiEgU5P
 Rt9RfnnpBUMYaoxrbsQPtBqP_30SGX-4U9RLFDCvpW
 }
-!procedure Language($id, $name="Language", $tech="")
+!procedure Language($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Language', $name, $tech)
 !endprocedure
 !procedure LanguageCard($id, $funcName="", $content="")

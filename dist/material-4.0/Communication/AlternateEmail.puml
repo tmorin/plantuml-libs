@@ -4,7 +4,7 @@ sprite $AlternateEmailLg [20x20/16z] {
 VP17WWKX24I11eTUK7N_suxep-cji899Vc3kzYHeWXEatgG3h1mZYtLS92V7dWQvHSKQp9PTgvwTyYBBEvcjeKI2E4zoYeK-e9sYpJQdcpqvGsmtphaUz3Sj
 6DSkT7P1xzpzZ4oGbMnNijDH9EAFXB_UMKslRqF8AmvMHgEFVyNDynSUtZdvoZy
 }
-!procedure AlternateEmail($id, $name="Alternate Email", $tech="")
+!procedure AlternateEmail($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/AlternateEmail', $name, $tech)
 !endprocedure
 !procedure AlternateEmailCard($id, $funcName="", $content="")

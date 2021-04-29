@@ -4,7 +4,7 @@ sprite $InsertInvitationLg [20x20/16z] {
 ZT250O1004BH0mkJ_QUrkx_zx0j3P1Z3i9rpEMqBBnBBTQQ-hBRYaH8VIWRJqJHOTcDoMQoLYp6iyOS1E5ljniJHRFynZCRbcqSBxDlU4ODpYAtRCHXHcUOo
 3VIt3W
 }
-!procedure InsertInvitation($id, $name="Insert Invitation", $tech="")
+!procedure InsertInvitation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/InsertInvitation', $name, $tech)
 !endprocedure
 !procedure InsertInvitationCard($id, $funcName="", $content="")

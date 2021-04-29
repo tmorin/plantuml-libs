@@ -7,7 +7,7 @@ sprite $AlarmOnLg [20x20/16z] {
 VP050aCX34DnXzp_jcl9Pxxb2uyW5VDB_WDCHI04L8BjQDRbMhCJx5QjYU8wjhehc6hsv87ghGqLowU-3pl1AyI29JM6O91sRMidVZOTJYaYFb9Ad6Hu4xnQ
 ylF8nvDvaK6zn7jbgDYMoOndCUHV67iitbru1xST78Uo7g7im2mnbiKEd3CBefNUsXg2Ctzq0m
 }
-!procedure AlarmOn($id, $name="Alarm On", $tech="")
+!procedure AlarmOn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AlarmOn', $name, $tech)
 !endprocedure
 !procedure AlarmOnCard($id, $funcName="", $content="")

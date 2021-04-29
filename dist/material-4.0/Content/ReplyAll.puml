@@ -1,7 +1,7 @@
 @startuml
 sprite $ReplyAllMd [14x14/16z] bSsr0S1G20JGuxjo-qyRjoRsAXpy4Irit9D44SrxXquwUx9hnufoLkMQiH-frZvrjolCW4dqrmykuyhWmGW
 sprite $ReplyAllLg [20x20/16z] jO-35G0n341hO_zfQ_VnyCiu0Nz0npKGjby3xaszLfL5wVAEebELqJMdo2hXEmfM7Lnqti3RqUirsd6XR5BohEJP9celM7e7hvwnO_TiM88R15uG0G
-!procedure ReplyAll($id, $name="Reply All", $tech="")
+!procedure ReplyAll($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/ReplyAll', $name, $tech)
 !endprocedure
 !procedure ReplyAllCard($id, $funcName="", $content="")

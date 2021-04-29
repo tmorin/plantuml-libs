@@ -4,7 +4,7 @@ sprite $DirectionsSubwayLg [20x20/16z] {
 bSu70eCW44JH0TPAcVlVDYizFNdshm9uopXHpemYWLMGbZYfyM1Ytu_IJXfZa1BqmhCrg1YXwFzjGR6SpzQ6qQ8lmSVHRFdsW6tje8Cl_xcsPaT6gdnnACIp
 ye9cQsr3j-_RhlI4Vzm
 }
-!procedure DirectionsSubway($id, $name="Directions Subway", $tech="")
+!procedure DirectionsSubway($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/DirectionsSubway', $name, $tech)
 !endprocedure
 !procedure DirectionsSubwayCard($id, $funcName="", $content="")

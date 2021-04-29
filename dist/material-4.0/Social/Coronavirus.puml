@@ -4,7 +4,7 @@ sprite $CoronavirusLg [20x20/16z] {
 VL053W0n22F7933I_l-rvswTu2f_o5dkwCZkB2STl-RZfsbJqIGPO4cCgr8TZJCQNBVW6CNb7ld8a6WIt48xSMv-D9cgPpfOCqjXheGp7RfSc5RT5XlZtM9V
 QcozuDQB6e8p0gR7RDa9J-9CBpluszMsqpyC
 }
-!procedure Coronavirus($id, $name="Coronavirus", $tech="")
+!procedure Coronavirus($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Coronavirus', $name, $tech)
 !endprocedure
 !procedure CoronavirusCard($id, $funcName="", $content="")

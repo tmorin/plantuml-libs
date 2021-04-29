@@ -1,7 +1,7 @@
 @startuml
 sprite $FullscreenExitMd [14x14/16z] XOs30G0n302lTlRVzcrU6ui_rFGNN8NgrY0tQDbDPLKbGvQc-47LbY6rgYvRxXTGQf8VUW
 sprite $FullscreenExitLg [20x20/16z] jOu54e0m40ElCmaE-VzhSNVhLix5l802tJU3OlUD055ZGX76p5pgygHyp2Fep1n9s4EsjTiP-xlixzoaeFkyK04
-!procedure FullscreenExit($id, $name="Fullscreen Exit", $tech="")
+!procedure FullscreenExit($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/FullscreenExit', $name, $tech)
 !endprocedure
 !procedure FullscreenExitCard($id, $funcName="", $content="")

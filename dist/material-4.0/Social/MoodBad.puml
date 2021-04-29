@@ -4,7 +4,7 @@ sprite $MoodBadLg [20x20/16z] {
 VP053iKm34EJngk6zlrFEqZx6JpeawkW_L41oelX8tMAez-jeBQnrd4JerkGQgCgDTEPa0enmqSD5kcU_whn8cxc6HEIsqQxQBp2oqMRstWHpb3paZtwLGRD
 UoYzZ3tbGAzOiaQYb9SRRxqiIiqsz2WIuvGQGNgVZR165ApZOmTusfKUkteeWB0_EW
 }
-!procedure MoodBad($id, $name="Mood Bad", $tech="")
+!procedure MoodBad($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/MoodBad', $name, $tech)
 !endprocedure
 !procedure MoodBadCard($id, $funcName="", $content="")

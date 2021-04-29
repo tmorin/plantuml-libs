@@ -4,7 +4,7 @@ sprite $OpenInNewLg [20x20/16z] {
 ZT1L0iKW44FH8LZWoUn_jTLKlxZrKyV6owmagu5rcT96lgSThaPFMBC0V6NLOQhvLzUTrhtXCb6tbxM5p39a9ocP25vFwplTdvT4TxCKPEzllb-N0bH8ksL_
 bC-nKfKB3JS3
 }
-!procedure OpenInNew($id, $name="Open In New", $tech="")
+!procedure OpenInNew($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OpenInNew', $name, $tech)
 !endprocedure
 !procedure OpenInNewCard($id, $funcName="", $content="")

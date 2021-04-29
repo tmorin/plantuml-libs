@@ -1,7 +1,7 @@
 @startuml
 sprite $LocalHospitalMd [14x14/16z] POs50S0W3C22U_l_jNDVe6vyiEx0he5UBA5VZAGaY_7W5jEXdv6C2dN87cKsahf_97tjxFBTyhxmlOxr1vOFCm
 sprite $LocalHospitalLg [20x20/16z] ZP1L0e1W28DdmFOqxtzQk_lJlsZ0VqBK35LFekP0339DTtiwDSWuNXF8JQR59Jvb6L40HKIiCXTOyBFiwli_xtFDxbbbbnbSPnNuJmS
-!procedure LocalHospital($id, $name="Local Hospital", $tech="")
+!procedure LocalHospital($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalHospital', $name, $tech)
 !endprocedure
 !procedure LocalHospitalCard($id, $funcName="", $content="")

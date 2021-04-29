@@ -1,7 +1,7 @@
 @startuml
 sprite $FeaturedVideoMd [14x14/16z] NSj50a11209GZDynzp_jTFfs2c0bcaZ2KFSdBjFZHKJbFCe5b-tc-a04gjVkogHTWxsE-JfqlXIYdM0L
 sprite $FeaturedVideoLg [20x20/16z] jT235G1130JG97FMz5_jsTR-nqKeTraOBOGcMd2bK6Eii1h6HpD6qk7sJddht_fEQyjO5ft5tSJHtTuE1D4AvAuA
-!procedure FeaturedVideo($id, $name="Featured Video", $tech="")
+!procedure FeaturedVideo($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/FeaturedVideo', $name, $tech)
 !endprocedure
 !procedure FeaturedVideoCard($id, $funcName="", $content="")

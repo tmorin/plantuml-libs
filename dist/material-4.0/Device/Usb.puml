@@ -4,7 +4,7 @@ sprite $UsbLg [20x20/16z] {
 VSw50SCm40D0cLdQVzfom_6PyHypEUF8InvxbX8jTembhTazTC0OCDOkLuiKG29Bu_-EKldlJUx1g7t-GvF3dzetRXCMNJyT2vjo8b-TnSuOM4psWXHmq7S1
 bhmBZcB4p1C
 }
-!procedure Usb($id, $name="Usb", $tech="")
+!procedure Usb($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/Usb', $name, $tech)
 !endprocedure
 !procedure UsbCard($id, $funcName="", $content="")

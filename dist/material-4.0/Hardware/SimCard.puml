@@ -1,7 +1,7 @@
 @startuml
 sprite $SimCardMd [14x14/16z] PSc54S1G3CFGVAR4td_QCbU7xoJ_YkbIFC2jVk2XpAVwHmMjePmI7LtbL5B0qYam9UAKqvBLtM_fUCcEedoQ0G
 sprite $SimCardLg [20x20/16z] ZP150aKX54BjLlQ_sXylRJt3cm2P8EG1pqeQ5wejmRMbfwRHr1JQcjkkHMeX12oDMOqOS0v3gXfGrf8EC0P1f_87OzKFOi4eR7dl_9lN9jxohBXyu6J05m
-!procedure SimCard($id, $name="Sim Card", $tech="")
+!procedure SimCard($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/SimCard', $name, $tech)
 !endprocedure
 !procedure SimCardCard($id, $funcName="", $content="")

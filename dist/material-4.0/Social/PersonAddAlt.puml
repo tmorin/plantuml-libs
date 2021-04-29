@@ -4,7 +4,7 @@ sprite $PersonAddAltLg [20x20/16z] {
 fSpL4G1120FGmAmpaFwhFVVVU-j2y9VKKULpvIJzVTbPKDZNhPulxkS46dP6XT9UTuanWWdPnhAplJmxFGEL6yMBq23xLbDAYaUUjk0gcW0jRrcazv9BTpAV
 2P6non5xbl9f3vKnRAosLV3N3
 }
-!procedure PersonAddAlt($id, $name="Person Add Alt", $tech="")
+!procedure PersonAddAlt($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/PersonAddAlt', $name, $tech)
 !endprocedure
 !procedure PersonAddAltCard($id, $funcName="", $content="")

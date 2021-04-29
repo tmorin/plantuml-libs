@@ -4,7 +4,7 @@ sprite $CelebrationLg [20x20/16z] {
 ZSx50KKn24JH8QvC_zL-VUvtUIA0wtpOMw1VGmj0L5bPxe2Z8BKuML8OBIZCym_D2okg6WplKmKClxVCF80P9gt8ain0ehXM1axyeJ61fUaVEt_uNxAcBpbo
 mBdCeJAHw40jJUP_qBF5N24rEompMZqsYS6JtW
 }
-!procedure Celebration($id, $name="Celebration", $tech="")
+!procedure Celebration($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Celebration', $name, $tech)
 !endprocedure
 !procedure CelebrationCard($id, $funcName="", $content="")

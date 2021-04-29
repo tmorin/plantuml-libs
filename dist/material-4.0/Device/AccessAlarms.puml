@@ -7,7 +7,7 @@ sprite $AccessAlarmsLg [20x20/16z] {
 VSq5OaGX30JGYU0ozpzj9L3lxljA58yeBWEkHaT8R0WosCLAQqNHEUGzj5XrC0mjNE_1aOri1l56MXvd0xS1he1jAaAF5Ri0SFPR5j-8eP_2n7HZNuT2_OeP
 ouaP08pjNp5dnhlAeIYn3yA9eAjW4RUWu2giE6O48pHnoUIgATN5AVXKDadkZ1_CNV74Am
 }
-!procedure AccessAlarms($id, $name="Access Alarms", $tech="")
+!procedure AccessAlarms($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/AccessAlarms', $name, $tech)
 !endprocedure
 !procedure AccessAlarmsCard($id, $funcName="", $content="")

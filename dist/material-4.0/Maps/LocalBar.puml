@@ -1,7 +1,7 @@
 @startuml
 sprite $LocalBarMd [14x14/16z] ZSpL0SCm40DG7RL1QVzjm_YLP_O1dYno5mQ4k5C2w4U3pNFiiHWupZJibTICXerpVZWEAGKkNOSlhx-eUVxtbfMpShnD
 sprite $LocalBarLg [20x20/16z] dSg53KGX54JHmVBmwR_QhsXivU0tu6l6Yn_4cxjvRlppZzKg_L2MDBWv9jraEho4Ww3pR3oco4V4AjqfOQCocHLscXnfA0L_DNqfzTunS52ZYMy4lpW1
-!procedure LocalBar($id, $name="Local Bar", $tech="")
+!procedure LocalBar($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalBar', $name, $tech)
 !endprocedure
 !procedure LocalBarCard($id, $funcName="", $content="")

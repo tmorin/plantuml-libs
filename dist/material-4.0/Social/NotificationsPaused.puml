@@ -4,7 +4,7 @@ sprite $NotificationsPausedLg [20x20/16z] {
 bOzL0e0W04FfPhl_QMsbldmc2qBy9UT5CgIPf00IOIpoegyx8Xs0he_X_DG-2BBcSnaqZGTQWkIGi_SwyfME11vBzhdWlUyrpG_JZhM80QNMSd2y4KL3Mwl5
 X2UzcD5zR6K7
 }
-!procedure NotificationsPaused($id, $name="Notifications Paused", $tech="")
+!procedure NotificationsPaused($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/NotificationsPaused', $name, $tech)
 !endprocedure
 !procedure NotificationsPausedCard($id, $funcName="", $content="")

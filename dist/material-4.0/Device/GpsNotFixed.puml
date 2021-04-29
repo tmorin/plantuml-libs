@@ -4,7 +4,7 @@ sprite $GpsNotFixedLg [20x20/16z] {
 VP254GL124DtiLEI_glzUcuPOnwUCakad9Hv9DK0gplIyQTsfP8SGpL6finLoVX7mPmgko-QOVilux1E7lahz6_PMcZV-Q2kJ8cKAtRgzRiTfQFFoDbDDuC-
 ewppO71mLHy8FNdGxPrnmEkZfsVltm
 }
-!procedure GpsNotFixed($id, $name="Gps Not Fixed", $tech="")
+!procedure GpsNotFixed($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/GpsNotFixed', $name, $tech)
 !endprocedure
 !procedure GpsNotFixedCard($id, $funcName="", $content="")

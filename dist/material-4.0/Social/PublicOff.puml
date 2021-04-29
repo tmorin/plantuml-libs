@@ -4,7 +4,7 @@ sprite $PublicOffLg [20x20/16z] {
 VT073iCW30LGp-9KiV_zRrl2aBf_9eyD_OcQAUsmzoSAFHKyxK0ZnKhfC3uxsf3MFnCL0pFlJ8eQtGC3PJIu8QvFOU1ArkYQpnZe7GpMdj1Xbpd5mcsAe2UC
 iPhAiVA5MRF6YHecobmBLob90i_hD9GJRLonGiQm9-GOvGevuSzdwje_V31zpGC
 }
-!procedure PublicOff($id, $name="Public Off", $tech="")
+!procedure PublicOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/PublicOff', $name, $tech)
 !endprocedure
 !procedure PublicOffCard($id, $funcName="", $content="")

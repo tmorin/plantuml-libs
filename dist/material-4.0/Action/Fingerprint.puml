@@ -4,7 +4,7 @@ sprite $FingerprintLg [20x20/16z] {
 TSl5eG0m309GeYqa-w_xtUKT4VpFgxiSN_GCx-LCVqHEjyWC2_gNS4LglqHtqpp3hVRYbOZU8MSB4fwrC3ABC1j1ZIS6NTmbzuA4uLaDvi8T53RnGb62PeJ9
 ucisfZW4s2cRZyoPfvD8_yWOJucm9-QyPie-ljZ2LU5LbYrqR1bf-72VZsXDuDCqj8Nl38Z4_nu1
 }
-!procedure Fingerprint($id, $name="Fingerprint", $tech="")
+!procedure Fingerprint($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Fingerprint', $name, $tech)
 !endprocedure
 !procedure FingerprintCard($id, $funcName="", $content="")

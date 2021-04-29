@@ -4,7 +4,7 @@ sprite $LaunchLg [20x20/16z] {
 ZT1L0iKW44FH8LZWoUn_jTLKlxZrKyV6owmagu5rcT96lgSThaPFMBC0V6NLOQhvLzUTrhtXCb6tbxM5p39a9ocP25vFwplTdvT4TxCKPEzllb-N0bH8ksL_
 bC-nKfKB3JS3
 }
-!procedure Launch($id, $name="Launch", $tech="")
+!procedure Launch($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Launch', $name, $tech)
 !endprocedure
 !procedure LaunchCard($id, $funcName="", $content="")

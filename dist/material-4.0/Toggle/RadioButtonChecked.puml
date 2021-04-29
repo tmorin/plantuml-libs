@@ -4,7 +4,7 @@ sprite $RadioButtonCheckedLg [20x20/16z] {
 VP05biH024HR82z6rVrlkq5sVAQY_N7Q3msHyGJw2bx2sczeWhOkosh4B2Iavjz29ko8dp4yWeZmrRt4o5FSStK6QqqPkg31tTrYoKwF6bv1ss1fNC7ocJt6
 MiK-rj2iKRseaUPVhjapejs7dhqAQZQ5LqZeEr3r7SZ3hlYwAzSKcUs7_W
 }
-!procedure RadioButtonChecked($id, $name="Radio Button Checked", $tech="")
+!procedure RadioButtonChecked($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Toggle/RadioButtonChecked', $name, $tech)
 !endprocedure
 !procedure RadioButtonCheckedCard($id, $funcName="", $content="")

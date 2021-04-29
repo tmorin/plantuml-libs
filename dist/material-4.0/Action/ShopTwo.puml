@@ -4,7 +4,7 @@ sprite $ShopTwoLg [20x20/16z] {
 RO-50S0m20GXRl3xJrjtUl6B0PsmMw0N0IlbvHfAoOAFsxjhBMC08W8iCzbU5RpOtC2ANevBsCyfvzCvbDs1oTNJvSiHYpaNrTmjzZs1TNYvz12AIgjxmaoB
 Qo6UX1Z89bltmz4S-sC6
 }
-!procedure ShopTwo($id, $name="Shop Two", $tech="")
+!procedure ShopTwo($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ShopTwo', $name, $tech)
 !endprocedure
 !procedure ShopTwoCard($id, $funcName="", $content="")

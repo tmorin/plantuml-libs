@@ -4,7 +4,7 @@ sprite $AgricultureLg [20x20/16z] {
 fSe5RWHG30DHE_bCllzj6wdjec3XYKU3jtbwIhQUckzDaCGlCoDQoZf10w4eE63wbQ9PBQL5S_tA26oD0DgrSHrfJrk_vIXQKIUxIb6exjbY6mXpkgHSf6Km
 LOGcFnf9gsjTlcMfS8ZeiZWQsLH-xumbnhYbiuXWHr93yD4DlwoFZA_y
 }
-!procedure Agriculture($id, $name="Agriculture", $tech="")
+!procedure Agriculture($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Agriculture', $name, $tech)
 !endprocedure
 !procedure AgricultureCard($id, $funcName="", $content="")

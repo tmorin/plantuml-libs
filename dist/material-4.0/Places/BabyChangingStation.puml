@@ -4,7 +4,7 @@ sprite $BabyChangingStationLg [20x20/16z] {
 XSx50KHH24FHyEmRSFklTjprBD7efEZDZDjh3UYljOKmlIfwjUHINqgT0-_jiRv2BC2g6qkOPQtNvzKoqYUDBBV0f4QIjb0k2IO8IS51sMYNkMDj0To2yL1J
 QyraJRVQo73t28_nMClCY61SVhWUtEPUbDwR_je3
 }
-!procedure BabyChangingStation($id, $name="Baby Changing Station", $tech="")
+!procedure BabyChangingStation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/BabyChangingStation', $name, $tech)
 !endprocedure
 !procedure BabyChangingStationCard($id, $funcName="", $content="")

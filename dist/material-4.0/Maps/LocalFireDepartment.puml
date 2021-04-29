@@ -4,7 +4,7 @@ sprite $LocalFireDepartmentLg [20x20/16z] {
 VS-3bKLH3030XsjD_zMkyPtZYRUNKS8TTNVME6ye8j_OmDolw03zid4_WV5NkJjFpClsAEm8ywAzgDlat1V2tscfaRU0ycqLt-TDshSbi8vj_w_RrnTzDVmz
 dM6sSNLs0JVlnGdgzSTdZE5QhkCT
 }
-!procedure LocalFireDepartment($id, $name="Local Fire Department", $tech="")
+!procedure LocalFireDepartment($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalFireDepartment', $name, $tech)
 !endprocedure
 !procedure LocalFireDepartmentCard($id, $funcName="", $content="")

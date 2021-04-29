@@ -4,7 +4,7 @@ sprite $CardTravelLg [20x20/16z] {
 ZSk54GGn30D0cS8UzL_jC-Djq8Il98vSy21vid2d71xXWueROyD1fU5iyCa0u5nZCiT1Sev51u81lSxgAJnT4ee33RddxdxbciUDjtFknTTS4RsHyYrdV640
 lDLsKvjZipq
 }
-!procedure CardTravel($id, $name="Card Travel", $tech="")
+!procedure CardTravel($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/CardTravel', $name, $tech)
 !endprocedure
 !procedure CardTravelCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TapAndPlayLg [20x20/16z] {
 fS-5ZKCn50NHUMQ-_LUxaEIpE2EoZfd_t9QnbRINDfk73PusTrlEltBhi2z6VJmDkrbKp-vcVYwfFFRweM6NTJL0Lh-Uf-afoc1i_x0iUQPmQ-bjvl4QH2Mc
 jEtDL7bJeqdbOyky4clWO-2pruCtd6Fh5m
 }
-!procedure TapAndPlay($id, $name="Tap And Play", $tech="")
+!procedure TapAndPlay($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/TapAndPlay', $name, $tech)
 !endprocedure
 !procedure TapAndPlayCard($id, $funcName="", $content="")

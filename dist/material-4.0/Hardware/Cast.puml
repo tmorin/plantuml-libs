@@ -4,7 +4,7 @@ sprite $CastLg [20x20/16z] {
 ZT1LWiCm40DGIQQPaEv_sjrowtpbcHbmbKPCXi339mVbPD57OLfoO38iRWsJiF3rdPUZdFjaUszp7rZYSCvzbU3YvRHs8TBZTrxVl0kxETsbUqDp_rcxDwGB
 l0AwOLZoFIKsext_W152DBG1nOYRWgl-0G
 }
-!procedure Cast($id, $name="Cast", $tech="")
+!procedure Cast($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Cast', $name, $tech)
 !endprocedure
 !procedure CastCard($id, $funcName="", $content="")

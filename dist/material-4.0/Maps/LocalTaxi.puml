@@ -4,7 +4,7 @@ sprite $LocalTaxiLg [20x20/16z] {
 bSu53iH020NGNq4gmFrFMsL7ejiNOZY-cLL4PtGqBegAp3nkPeJaAmlB5RnvfYW6f25ovxQZsDUiCGgE73NRarbGlk6HF1-Ie3j_Kt38cviXRqumXxwplaPQ
 _PThbPmLvOQZyFV6g8I2TCJVJW
 }
-!procedure LocalTaxi($id, $name="Local Taxi", $tech="")
+!procedure LocalTaxi($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalTaxi', $name, $tech)
 !endprocedure
 !procedure LocalTaxiCard($id, $funcName="", $content="")

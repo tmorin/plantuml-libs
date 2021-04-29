@@ -4,7 +4,7 @@ sprite $LayersClearLg [20x20/16z] {
 ZSy50i0W20LGkuNxttRxhBlZAQNk3jt3zDOxh0oqH6Q7PKJBun5Ec81vCyiBDZsJ8rwHtBABDsGhw6b3ydEmQGjsCvD6vRaNROKCDwFYZ67Ebr3D4jdCNZcz
 DXELmMQ4RqKAajQw8VvRmsW73187r1iw59HcVXy3
 }
-!procedure LayersClear($id, $name="Layers Clear", $tech="")
+!procedure LayersClear($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LayersClear', $name, $tech)
 !endprocedure
 !procedure LayersClearCard($id, $funcName="", $content="")

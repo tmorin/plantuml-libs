@@ -4,7 +4,7 @@ sprite $CancelLg [20x20/16z] {
 VP250SH020IvGzwX_seZs7isFjW6E10IuHiOPxLDUXwDo8bJB6GleYZKL_RmylFsncnrF-zClK8s13jxx2QyX474aHds18P4Hiq4G9fX8k64w3EyVSyeBnHU
 gBoyUzRnvz_UTq17k-gT7cW5
 }
-!procedure Cancel($id, $name="Cancel", $tech="")
+!procedure Cancel($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/Cancel', $name, $tech)
 !endprocedure
 !procedure CancelCard($id, $funcName="", $content="")

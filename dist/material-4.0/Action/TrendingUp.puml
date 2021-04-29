@@ -1,7 +1,7 @@
 @startuml
 sprite $TrendingUpMd [14x14/16z] dSUr0S10302nUqRR-qyRXZfH9xuBjMPUmoQ71BXvhLl3QoSVqQXTEfpnUBlIp0EEK_3yiG8
 sprite $TrendingUpLg [20x20/16z] nKv50e1046AxX_-_rkwpkXnfV0e5fHwK4GhjaoJfpj02T-6qv9LgRkTq8_D2QJYxKpunEOe6S5109jkLMYhowLAojrxUPeyE604
-!procedure TrendingUp($id, $name="Trending Up", $tech="")
+!procedure TrendingUp($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/TrendingUp', $name, $tech)
 !endprocedure
 !procedure TrendingUpCard($id, $funcName="", $content="")

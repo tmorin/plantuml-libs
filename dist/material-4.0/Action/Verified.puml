@@ -4,7 +4,7 @@ sprite $VerifiedLg [20x20/16z] {
 VP054i0m20IFHYOqqFl_Q-jkExuu-4HA04AHirEoLhBW878bhA9HuuvfCxdC2saftF6jFEmgmrPdXmeTQG3gt7fMIvUwE8KkMQiJ8qqGjxwspN3PnuTz5qlT
 xZvs3gqVnjjm_q7y_nL40n1KyCa
 }
-!procedure Verified($id, $name="Verified", $tech="")
+!procedure Verified($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Verified', $name, $tech)
 !endprocedure
 !procedure VerifiedCard($id, $funcName="", $content="")

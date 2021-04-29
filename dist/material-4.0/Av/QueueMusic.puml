@@ -1,7 +1,7 @@
 @startuml
 sprite $QueueMusicMd [14x14/16z] ZSa53iGm3011GnZi___smX5Tsn6k5hwZs8Jem4VVAWyUjSO-1oIX5gn3nbRNUbAhM0XLUw5hqAgssbe9N2unFFi1
 sprite $QueueMusicLg [20x20/16z] jOl50SGW54G7T-Y_syNjk4aU-aVmBGGLbGOQFjyYQy9PbyctG4ZMiQiQGhwkNEoQJWFTjGKXgqi55na0Z5zT1fNlAqVIq1OqPJnENDRafH5j1Pxo0m
-!procedure QueueMusic($id, $name="Queue Music", $tech="")
+!procedure QueueMusic($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/QueueMusic', $name, $tech)
 !endprocedure
 !procedure QueueMusicCard($id, $funcName="", $content="")

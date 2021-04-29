@@ -1,7 +1,7 @@
 @startuml
 sprite $TimelineMd [14x14/16z] dKk50S0m2CEPv_zlrt12SIAo4rwpz3cv7YHN0SPvhoc1utwr439FKpKok_b8uXaF5nKsgrrsuWS
 sprite $TimelineLg [20x20/16z] lOtL0OGm40MZE4p_rK9Sl-ycihvF_16LxCQMF7abLm6fRE59RTob3LRdh5n6njJ9fYwNtBXynkDIeVV9AMbyog417PjksB9tYL5SshniPnSJKloQ3m
-!procedure Timeline($id, $name="Timeline", $tech="")
+!procedure Timeline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Timeline', $name, $tech)
 !endprocedure
 !procedure TimelineCard($id, $funcName="", $content="")

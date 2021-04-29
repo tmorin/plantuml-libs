@@ -1,7 +1,7 @@
 @startuml
 sprite $TerrainMd [14x14/16z] bOV50S0m3CJiC6l_QSlqR6IuayoYvckvVyH3bfEOfG7X40lE0jZT6WpDGDkayb15KqpFglnc1G
 sprite $TerrainLg [20x20/16z] lSmt0i9034N1xvmzzxyjbNC9UBfTII_l6ihSTQRSrEYJNLMcMA3UlmfZAh3koOak7Up97ggCxCa6B6dPakKABEp9oGhhzcLCYeVysWS
-!procedure Terrain($id, $name="Terrain", $tech="")
+!procedure Terrain($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Terrain', $name, $tech)
 !endprocedure
 !procedure TerrainCard($id, $funcName="", $content="")

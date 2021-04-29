@@ -4,7 +4,7 @@ sprite $LocalLibraryLg [20x20/16z] {
 dS_50OKm54JHk2Ut_sg_uWwpcdSW9evYp8eov0Kv03St_pK_D_KrDOxcstLAUXX4W1f-JOKAOTZgMqDV-ahEh0mUcB_udsjjbDQwHqiJ_nAD_CkV4wGlpEAS
 ECeR
 }
-!procedure LocalLibrary($id, $name="Local Library", $tech="")
+!procedure LocalLibrary($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalLibrary', $name, $tech)
 !endprocedure
 !procedure LocalLibraryCard($id, $funcName="", $content="")

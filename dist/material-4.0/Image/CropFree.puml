@@ -1,7 +1,7 @@
 @startuml
 sprite $CropFreeMd [14x14/16z] VOr50W0X30EdIRYM_xzs_RGsK3TkA2ceH81cJuCt8qXpqRb7PIvS_73h_Dbvluuo2cf4t5W1
 sprite $CropFreeLg [20x20/16z] jP233K0134JBzCBkF-stpHVLEBgE8s2reRr1dXMehQWjhosaYN9jiOhrMHddI4PRDukXdSnZZ67q0-iTwrlsRpQMzZTXIsnfiDRAwJeb
-!procedure CropFree($id, $name="Crop Free", $tech="")
+!procedure CropFree($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/CropFree', $name, $tech)
 !endprocedure
 !procedure CropFreeCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TodayLg [20x20/16z] {
 ZT150e0m34JH94W6dVlVbk0EVSjVhupCPA8c6pOogRcM7EmSmJiYbr71as9iE3UCpHyQsDHDg4VDsamsjZMDcVMvgJ7elVN_yqpWyFEy-xd-qC1SRQ4vyVm7
 OuHZuHXJgW4
 }
-!procedure Today($id, $name="Today", $tech="")
+!procedure Today($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Today', $name, $tech)
 !endprocedure
 !procedure TodayCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $AccountBoxMd [14x14/16z] POq30W0X44N_O8tkVzhiNes52POCXy1KVAZ1NbVG2eWt1t2aI1Vp4hqrokIvTnFPtnnTY5n6GlGSv-7_uwFfEbX5FQAC2GS
 sprite $AccountBoxLg [20x20/16z] ZP053iGm3C2I7eGE_l_RAQ1el5bakLoupuk92-9dfl-2bpTUDlP6eJA6PEjvvcQBrdO-pnKnf5kpRAPgoqReXZHhJoYUVUSV0WQ0lvxtQtpUmHyi_yhJNIO
-!procedure AccountBox($id, $name="Account Box", $tech="")
+!procedure AccountBox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AccountBox', $name, $tech)
 !endprocedure
 !procedure AccountBoxCard($id, $funcName="", $content="")

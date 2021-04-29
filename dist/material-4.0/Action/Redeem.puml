@@ -4,7 +4,7 @@ sprite $RedeemLg [20x20/16z] {
 ZO_30G1134N72dx_tQxDTuXf7d71pM8b0WYX5t6BgKO5UY5ho88DOnHsYZGSQ7qeW1ir0H6aDnYXdpyCjWfh8NPqPp5dUH-hnVJKkeyjhB4IuaeeK-p4OonP
 jsBJKypZX1-UAxciv1BCRpe
 }
-!procedure Redeem($id, $name="Redeem", $tech="")
+!procedure Redeem($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Redeem', $name, $tech)
 !endprocedure
 !procedure RedeemCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PublicLg [20x20/16z] {
 VP054iH020HddKiTpFzV6s4hBbtUEFWWvPnE8eXnnYHW9RjncrQrcfR9BeEvK1q24itBXKx4GgLWnbRdg2rBKCb_pkZ84ipCbGCGWhl2lBW2eSsmh2vHrZco
 ri8KmC_TEWEor3HVyHSBfUzi2L7frgoFohG2TCcy_q35dUN3hxZ-wlxJToO
 }
-!procedure Public($id, $name="Public", $tech="")
+!procedure Public($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Public', $name, $tech)
 !endprocedure
 !procedure PublicCard($id, $funcName="", $content="")

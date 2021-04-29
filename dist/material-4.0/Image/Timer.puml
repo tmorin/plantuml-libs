@@ -4,7 +4,7 @@ sprite $TimerLg [20x20/16z] {
 LO-50S0W30IB9i5-_ssBorK-7FuDbAwexu5HuTSPyfxCwxHdzlen4Preaanb0R4rvAofKKmrrPg2EJ_0rd_EVKQOmsfEzyKnqC5DTne4Svm1NKvaED_2jbWG
 R0k5T5mgw_vqXgqohOhE59MGsJakYEfQkg1I_FTWhDMlUVa1
 }
-!procedure Timer($id, $name="Timer", $tech="")
+!procedure Timer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Timer', $name, $tech)
 !endprocedure
 !procedure TimerCard($id, $funcName="", $content="")

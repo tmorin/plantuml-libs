@@ -4,7 +4,7 @@ sprite $BrowserNotSupportedLg [20x20/16z] {
 fT1L0iCW54JHYU6o_zNYJ5_bhpT-uk2VZgHmURVoUc382YOprStqxJ73bSsqVkNgt7QwXJITJn1Vru4eZ2YCA8meta6aNPZv_aV3L6RZZz0pVW-0un_9VFgs
 uyJlAW
 }
-!procedure BrowserNotSupported($id, $name="Browser Not Supported", $tech="")
+!procedure BrowserNotSupported($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/BrowserNotSupported', $name, $tech)
 !endprocedure
 !procedure BrowserNotSupportedCard($id, $funcName="", $content="")

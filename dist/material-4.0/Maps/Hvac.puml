@@ -4,7 +4,7 @@ sprite $HvacLg [20x20/16z] {
 ZP034aG134DJQt7_qwxD_qQTEi5oB2ClHEevjNt2ZhbypkKn5yTe5D2vvV8Ka3iX7t8DQ8G2SyyfPhfdeFSSKPqWkkT0bKSUSqBtsLytjW5sPyJJpos0zDFF
 1pQRkxOt3zwzCYnd3m
 }
-!procedure Hvac($id, $name="Hvac", $tech="")
+!procedure Hvac($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Hvac', $name, $tech)
 !endprocedure
 !procedure HvacCard($id, $funcName="", $content="")

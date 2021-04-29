@@ -4,7 +4,7 @@ sprite $WaterDamageLg [20x20/16z] {
 fOtL0GCW30M3Es__QIku_5GEFoBqBPnVIkGi3YNnGcvAeQ1eOj3GGraCR5Ekl58gXolArmWXCIMZTqGW2k_erxEGQajT74tdIjtT8GIiBc8GPznWnDdW6y7I
 dpm1
 }
-!procedure WaterDamage($id, $name="Water Damage", $tech="")
+!procedure WaterDamage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/WaterDamage', $name, $tech)
 !endprocedure
 !procedure WaterDamageCard($id, $funcName="", $content="")

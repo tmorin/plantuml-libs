@@ -4,7 +4,7 @@ sprite $AddCircleOutlineLg [20x20/16z] {
 VP055W0X24GHmRV5pFrFkztrxMyZFwYPNaIgG9Aeqguo65KfLH1vLKQMfLV8HIRC7TLf1p5lh-XJ4x6ihAO68OjR6ipBgxEhgDCDBXeHP4Ie5Dhgi3WixcNl
 -ntNjpYhhpUB4Iup3fei61YLUnM4dMB5QwmMibcM7mO
 }
-!procedure AddCircleOutline($id, $name="Add Circle Outline", $tech="")
+!procedure AddCircleOutline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/AddCircleOutline', $name, $tech)
 !endprocedure
 !procedure AddCircleOutlineCard($id, $funcName="", $content="")

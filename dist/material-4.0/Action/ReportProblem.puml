@@ -4,7 +4,7 @@ sprite $ReportProblemLg [20x20/16z] {
 bOw50GGX4CHmX_HVxUkvC-XwHAz2sBaKoAqlGjou381U-mf0NhaS0BY5IpPm3kgI0r0A20kEqOSQVGd0EO2qv1Xb5Xn37cN9eTJ0Ct00jF6Lmu2beX0-hEI3
 5q_r1W
 }
-!procedure ReportProblem($id, $name="Report Problem", $tech="")
+!procedure ReportProblem($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ReportProblem', $name, $tech)
 !endprocedure
 !procedure ReportProblemCard($id, $funcName="", $content="")

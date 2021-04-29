@@ -4,7 +4,7 @@ sprite $RuleFolderLg [20x20/16z] {
 fT350O0m44JHYUlkz5yjxd3ZetcN27uLMwsrfIivhYMOkSK2jtI9zRGp_s7XCF7Q6wjUJ2ogDH5fjsARHM6R5t4OW3Al1gRjnZeJhMl8Xr7M1IxVyBqMzpIt
 dy5HY_ZL2
 }
-!procedure RuleFolder($id, $name="Rule Folder", $tech="")
+!procedure RuleFolder($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/RuleFolder', $name, $tech)
 !endprocedure
 !procedure RuleFolderCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LibraryAddLg [20x20/16z] {
 VSu50iGW34JHmQ6IkVzfLv5afR_-sWBuMqmptsddIZfIbnxWkfsk3OkCtL26fMNLsbvgHgYbJHDMlFFgEpdE7Vbn_Z_UrRnI3cr2LNnQGfqWt074XwsSmwF4
 6jCezbKALQvZqj_zwmu
 }
-!procedure LibraryAdd($id, $name="Library Add", $tech="")
+!procedure LibraryAdd($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/LibraryAdd', $name, $tech)
 !endprocedure
 !procedure LibraryAddCard($id, $funcName="", $content="")

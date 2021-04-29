@@ -4,7 +4,7 @@ sprite $SettingsBrightnessLg [20x20/16z] {
 ZP250OL034ER1BViF-rNNE_1MRsDL5XM6qe61kyOGDSGgMcXDkbgZC7_MKuovldW8l-AgqcMssxiVBARP04NAnc_oH6rkSWqoRJoBIRVNRnwsEPWNknh-IAj
 QmQ_O3mgysm6eMg78fKt
 }
-!procedure SettingsBrightness($id, $name="Settings Brightness", $tech="")
+!procedure SettingsBrightness($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SettingsBrightness', $name, $tech)
 !endprocedure
 !procedure SettingsBrightnessCard($id, $funcName="", $content="")

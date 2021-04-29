@@ -4,7 +4,7 @@ sprite $ContactMailLg [20x20/16z] {
 ZP050eH024K_sEJzRxjJs-NJAHfm4jhs5pRoVCEo4Nrl3Cb2Kr4gWSglJRO2uCnZFe2oDHcZO2dOL5V8evsKdJ5aCOErn0EX_9g3zxnoY3sNEAF2aZUSC3Xk
 CW5riBn6BjmadsR0xxDYdEG2
 }
-!procedure ContactMail($id, $name="Contact Mail", $tech="")
+!procedure ContactMail($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/ContactMail', $name, $tech)
 !endprocedure
 !procedure ContactMailCard($id, $funcName="", $content="")

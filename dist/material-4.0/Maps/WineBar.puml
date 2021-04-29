@@ -1,7 +1,7 @@
 @startuml
 sprite $WineBarMd [14x14/16z] POu54iGW303334IH_x_shYqEYyG5Jfp_SDMYaijpkLfixs_TIZu4dvf5vOEgvQlbeQAl8MC6vemm4O45rIf7cp1M2zu71nT_
 sprite $WineBarLg [20x20/16z] bSg54SGW54NHnnTS-gzs9OQCXOkV0JivV-MwjIVJBH7_ejGms7d6qRBeBycZtTLkvRRIpT_ckvbwVJFeKVvJ9an9hOorKl32Y4ebcaZRaOv6tldV96pr1G
-!procedure WineBar($id, $name="Wine Bar", $tech="")
+!procedure WineBar($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/WineBar', $name, $tech)
 !endprocedure
 !procedure WineBarCard($id, $funcName="", $content="")

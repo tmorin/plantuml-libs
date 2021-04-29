@@ -4,7 +4,7 @@ sprite $RestaurantLg [20x20/16z] {
 bSq30a0X00FGPRVxt_RRRFabt4OQm4XeZI5A3hsd4FIePP1CFvWRpA7q9YidsvqBN4tAsIAvktioJ--PBVTcE2Nk37aojJVX2nbxsjbmFMA8I-LYmuVkOk76
 VBDPfei9ep15MedRT
 }
-!procedure Restaurant($id, $name="Restaurant", $tech="")
+!procedure Restaurant($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Restaurant', $name, $tech)
 !endprocedure
 !procedure RestaurantCard($id, $funcName="", $content="")

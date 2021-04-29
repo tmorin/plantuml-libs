@@ -1,7 +1,7 @@
 @startuml
 sprite $TocMd [14x14/16z] Oo0NCFFpWG0_3oCl2uWB1GpCZ0mCJ9mGmC70mOJAGwXaOc22cCBFpmyrXLm
 sprite $TocLg [20x20/16z] lSwr0G0n30D0ASpPVzfdXjRNcGqHL2T0SSw5VbBiOSwPuCFA1o8O_72jxXhPtPpplRRLalFuyRpnzmlrzMTDY1W1
-!procedure Toc($id, $name="Toc", $tech="")
+!procedure Toc($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Toc', $name, $tech)
 !endprocedure
 !procedure TocCard($id, $funcName="", $content="")

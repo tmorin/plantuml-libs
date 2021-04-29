@@ -4,7 +4,7 @@ sprite $PolicyLg [20x20/16z] {
 LP050eHG24I7jht_RNV7vkal6d0Z0dIajgsQLCVzODHRulF-C3j8xOsYR3ZlwtgUmsCtAw3p8wFT1Ca4vgzCiVwzeH_VzGoGMAySsML9cT5NDcfuDP3ro54b
 S2hm95R07CaKHBQxva0e2BFS1CZZ_JRMBHDVTDgOfz5c_mC
 }
-!procedure Policy($id, $name="Policy", $tech="")
+!procedure Policy($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Policy', $name, $tech)
 !endprocedure
 !procedure PolicyCard($id, $funcName="", $content="")

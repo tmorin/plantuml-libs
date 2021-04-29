@@ -4,7 +4,7 @@ sprite $ExploreLg [20x20/16z] {
 VP074WCX24M_oameit3_sqPiwNcxDZhW3uselGWAUtGkBaT47WjlMnHFJ67n8r2EgwICZwH18pXboqmgq38HyaoyeYCh8aN2C4MDXBQimWmyPSjNqAb-gl5v
 LfwYQzMYQ18BNZNVD3PUFdkZpndG-woSo-TC_t07
 }
-!procedure Explore($id, $name="Explore", $tech="")
+!procedure Explore($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Explore', $name, $tech)
 !endprocedure
 !procedure ExploreCard($id, $funcName="", $content="")

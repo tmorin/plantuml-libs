@@ -1,7 +1,7 @@
 @startuml
 sprite $AssignmentLateMd [14x14/16z] ZOw35G0W54LVTkq_RUPXDtm37I4mePpf63NZj1cfedNxgydJXWEiIU-xDMD2_5entbsqlcF6J8kcJL-6JvhnK
 sprite $AssignmentLateLg [20x20/16z] hT230S0m50JGEFUhst_QsjQB3JNGMgq9AMhYWIXCKqe4NDV5bhLTwPi-TFMYw4eqVP4BcCrBqssVCV_sXR3iwrpCYuVxBT_ckU3xluheHNXrNmK
-!procedure AssignmentLate($id, $name="Assignment Late", $tech="")
+!procedure AssignmentLate($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AssignmentLate', $name, $tech)
 !endprocedure
 !procedure AssignmentLateCard($id, $funcName="", $content="")

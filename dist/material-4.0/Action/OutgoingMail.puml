@@ -4,7 +4,7 @@ sprite $OutgoingMailLg [20x20/16z] {
 hSwr0GCn0CLGcTb__sc3XrLGvQl4tokZhutk7kHrh3yiA8G5cXbZiOYfaeQ7kPggmVS4SMeppGIuhkhjPbBtHVB0Oci9JCydcmPeIaSRX5QRb0_FaxHjbx5a
 CHHrmpcpqvuplDyL
 }
-!procedure OutgoingMail($id, $name="Outgoing Mail", $tech="")
+!procedure OutgoingMail($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OutgoingMail', $name, $tech)
 !endprocedure
 !procedure OutgoingMailCard($id, $funcName="", $content="")

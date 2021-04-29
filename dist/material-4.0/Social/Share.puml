@@ -4,7 +4,7 @@ sprite $ShareLg [20x20/16z] {
 XS_50G0n30D1ESpglzfZndrEqFZDc1jbCb_8SSYTBOpcZoAHO-f0dlGw9RriS4vCPPB3cKesLetp8J82DmiOkvmj-epUYsdh6vShd0f1dRSd3bMvpdQVruvc
 SIwH2TUqnaiz
 }
-!procedure Share($id, $name="Share", $tech="")
+!procedure Share($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Share', $name, $tech)
 !endprocedure
 !procedure ShareCard($id, $funcName="", $content="")

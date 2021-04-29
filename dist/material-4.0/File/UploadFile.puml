@@ -4,7 +4,7 @@ sprite $UploadFileLg [20x20/16z] {
 TP055eGm44FhtkR-frt92i42jV_6pOry3F7r1q49N-MDDT0kAMpWuTIomP91eDW1QSTiARcWxHYrPocHTM4HY3j6H2ZCOgurONTsoStfQASrpxdFmRtj6MV0
 UQ7jPqKbcIaLeZStUW8
 }
-!procedure UploadFile($id, $name="Upload File", $tech="")
+!procedure UploadFile($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/UploadFile', $name, $tech)
 !endprocedure
 !procedure UploadFileCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LockClockLg [20x20/16z] {
 TT254S0m30D0XpdQVzkULIOTVy0Wl_7UF6K2Y3Uoc2aE-AjbE3seLsjmrja1pBhTDHrhUkj0OwsmYTFpWdPQ5x5w9oCTnYhwRamQhz7s9cYLPdd5RzQqm9n1
 91ussKA1bmQp6R9eh7X-uy4aeflyL6AhjNQC56B3zBT5Q2fldN7XNEmx2m
 }
-!procedure LockClock($id, $name="Lock Clock", $tech="")
+!procedure LockClock($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/LockClock', $name, $tech)
 !endprocedure
 !procedure LockClockCard($id, $funcName="", $content="")

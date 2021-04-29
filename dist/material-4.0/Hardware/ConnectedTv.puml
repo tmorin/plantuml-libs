@@ -4,7 +4,7 @@ sprite $ConnectedTvLg [20x20/16z] {
 bSnLWeKm30NGMulKil_LFbp2ryo1MWn_5LaSZWZJFcQ8fY75MmfgCPh0uIt6CUD5jXY9lMlvx2tMVOouHOpscTSi1oik1f11c-kj0vEokRfGa2BoEpPx7_qm
 LjCYU3tMosvkGSQX7B62boWiwn_nBmi
 }
-!procedure ConnectedTv($id, $name="Connected Tv", $tech="")
+!procedure ConnectedTv($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/ConnectedTv', $name, $tech)
 !endprocedure
 !procedure ConnectedTvCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PhoneForwardedLg [20x20/16z] {
 ZOs54G1120CXVowJ_gjzTyy9cSNaKngc2E-3NI3J63nxQM-Qd38PLuRUM8vAYxL7Xi64jNSQMCcAumu96z8u6x38HO7kmhIokS268qImq1KQzksev13Noiey
 8eRTp4YUsJ1jBFHo5AmFaD_g
 }
-!procedure PhoneForwarded($id, $name="Phone Forwarded", $tech="")
+!procedure PhoneForwarded($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/PhoneForwarded', $name, $tech)
 !endprocedure
 !procedure PhoneForwardedCard($id, $funcName="", $content="")

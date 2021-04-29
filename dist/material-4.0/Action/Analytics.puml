@@ -1,7 +1,7 @@
 @startuml
 sprite $AnalyticsMd [14x14/16z] NOs30K0n34IZZth_QMk_Chg32-8EbI1CSYWh4W0E5PjVxZNd3UPQZNnuFukZaqm8PaPe_t_Ls7sVe_nU3fSxa7G8BX8
 sprite $AnalyticsLg [20x20/16z] ZT150iGW341Ht9FS_xGpzHRdBnyEMqyxwwwiKoTHbjxDvUPsitI7wJRtcG9pCwOm918yDpWdLnPZRPnFRBzpGWB8xfpbUd-G_zLEg_q1
-!procedure Analytics($id, $name="Analytics", $tech="")
+!procedure Analytics($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Analytics', $name, $tech)
 !endprocedure
 !procedure AnalyticsCard($id, $funcName="", $content="")

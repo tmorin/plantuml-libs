@@ -4,7 +4,7 @@ sprite $MiscellaneousServicesLg [20x20/16z] {
 TS_50GGn40D1cTcTVxJ7uANw3agNV73QSJ2qij5a8BYedyfNMEQ00T3rLM0wfRLF1ffa9bK_6QPLXEat--Pct_QkCtgnoHOWk2HFtUM8Oq1lcxmDSWUx2KcL
 9sjLcQ4oDts52NCORGIQZBPCiBfm1m
 }
-!procedure MiscellaneousServices($id, $name="Miscellaneous Services", $tech="")
+!procedure MiscellaneousServices($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/MiscellaneousServices', $name, $tech)
 !endprocedure
 !procedure MiscellaneousServicesCard($id, $funcName="", $content="")

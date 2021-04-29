@@ -4,7 +4,7 @@ sprite $PetsLg [20x20/16z] {
 bS-5OGKW30JGmvtRVzisQFNBmvtWBIQOLHsMf35IuKZi3F6pIbWq74ahcnqqH6OthdZ05sVcLbckMAeSc7D5dfRxotedicceIbO5qnWXr3h4EWTBvf1n9IuH
 M-GHRcINEIUlz6lktAYx3FgecyAadDKAKDewXNzy
 }
-!procedure Pets($id, $name="Pets", $tech="")
+!procedure Pets($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Pets', $name, $tech)
 !endprocedure
 !procedure PetsCard($id, $funcName="", $content="")

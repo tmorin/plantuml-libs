@@ -1,7 +1,7 @@
 @startuml
 sprite $CallToActionMd [14x14/16z] dSUr4S0040CmtvCTtd_QCBPH9toPtmmnlGJVOxrNVySnyXGZsUFMAwRnDWKyuvIEhmK
 sprite $CallToActionLg [20x20/16z] pT2r0S1G30DHMrAOzfysp5p-LrvvzXUIz221UTsSr8xc0k6tND6Eyg6bTf0CBNDYHSyQt3qmfYUqlpe
-!procedure CallToAction($id, $name="Call To Action", $tech="")
+!procedure CallToAction($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/CallToAction', $name, $tech)
 !endprocedure
 !procedure CallToActionCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ScoreLg [20x20/16z] {
 ZT250S0W40F0HqFBG_RVjkwQAeSZ_nCIqf3nuoVY8M6mH1PZhJhDjf9fC90LKTIq5XnjQkUSgBMEUnCqnS3aWuceACpEg4LPo5BYPimSO-rc492iJl9g42UH
 rOgkwqFlIU1xMirYx2vvjxw6Gz1ojUiPR6S53ASrqDzq
 }
-!procedure Score($id, $name="Score", $tech="")
+!procedure Score($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/Score', $name, $tech)
 !endprocedure
 !procedure ScoreCard($id, $funcName="", $content="")

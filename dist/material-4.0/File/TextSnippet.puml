@@ -1,7 +1,7 @@
 @startuml
 sprite $TextSnippetMd [14x14/16z] NOs50G0W2C3i1lw_rkwPKu9z2DaGKsXWkocQk6QII7BEK_ljbYhjLtQpnXXjYDGsuvP1gi0ooJWVv-dG_yGnmQggIPE70W
 sprite $TextSnippetLg [20x20/16z] ZT254O0m44HHV1Uz_gkDA_x7c4Uy-Tz8q0GEcII5Q9GhmdpljYCZ3UL54Es0tMCHsnYiZ75ks_dsgxNHhdFp7YOSnTnu_ZWtdjacB-kDjOtvhNoWeTzf
-!procedure TextSnippet($id, $name="Text Snippet", $tech="")
+!procedure TextSnippet($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/TextSnippet', $name, $tech)
 !endprocedure
 !procedure TextSnippetCard($id, $funcName="", $content="")

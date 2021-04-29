@@ -4,7 +4,7 @@ sprite $OutbondLg [20x20/16z] {
 VL050e0W4ACx_lzQfHkcrFK67i24uCa0XVC1Li1c8j6Iu70r-G7P2DreiobTv2obj8fU4MqbZ8QhYe5nYA6IJcVlm01ASPu4MpLHJwiDLrDiLAV9pMWRfivY
 HHjGx3Cxk7CZkmParSe9k6lwm0y
 }
-!procedure Outbond($id, $name="Outbond", $tech="")
+!procedure Outbond($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Outbond', $name, $tech)
 !endprocedure
 !procedure OutbondCard($id, $funcName="", $content="")

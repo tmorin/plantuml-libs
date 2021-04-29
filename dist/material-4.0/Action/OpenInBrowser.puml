@@ -1,7 +1,7 @@
 @startuml
 sprite $OpenInBrowserMd [14x14/16z] VSe53iGm40D0RtX1yVzVUrTkHHcX0Kl3BdqBcOyC5Dg5PKiJbtadiqyoqfuasJtB-rIzdrGLDL7bbZ0yKcifV63f3m
 sprite $OpenInBrowserLg [20x20/16z] fP350G0X40CNTz9_jUU7_vZdQXBQmmHV2EOfQNJeksRxcdrMqUw-DGjE1TxLf9ng0X13JU92zZNd0U_OS2-bvfvPraIjYRUcN_KvaodUo0OV53b7AZmPR742
-!procedure OpenInBrowser($id, $name="Open In Browser", $tech="")
+!procedure OpenInBrowser($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OpenInBrowser', $name, $tech)
 !endprocedure
 !procedure OpenInBrowserCard($id, $funcName="", $content="")

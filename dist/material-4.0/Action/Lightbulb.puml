@@ -1,7 +1,7 @@
 @startuml
 sprite $LightbulbMd [14x14/16z] PSh50S0W50FGu0xxJrlxKdkt27vCRYqR2MCT1iUwBfMcIMbUersCheF2m2LI2Y3v31aiqCHiYZ4P21U2Wofp5lpj
 sprite $LightbulbLg [20x20/16z] VSx50GD1243HmTUt_shZMEmVtmYCFo4pTg7rlBLMvVCL1y7XTe2RdP6vhMchsvws_RjN__kSkyFdVZGoVPAEaZnDgb4-_HyAis2toPSh0OimZDzT0G
-!procedure Lightbulb($id, $name="Lightbulb", $tech="")
+!procedure Lightbulb($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Lightbulb', $name, $tech)
 !endprocedure
 !procedure LightbulbCard($id, $funcName="", $content="")

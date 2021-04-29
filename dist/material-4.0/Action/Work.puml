@@ -1,7 +1,7 @@
 @startuml
 sprite $WorkMd [14x14/16z] jSUr0S0m30J0VpDA-qyRvjI-xl33sdlbEI_EYSVAfbWb1Aan6Q3ffOrPkLS0kWlnDWC
 sprite $WorkLg [20x20/16z] pOz50W0X24KL-7RS_xJJtSjv9Wtg7W84j5ULsb5sIbGduYfMZUvqKCEbHqsefOjShj2ff1wGFk80_g_ZeuxxuPnr2zQ9-amB
-!procedure Work($id, $name="Work", $tech="")
+!procedure Work($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Work', $name, $tech)
 !endprocedure
 !procedure WorkCard($id, $funcName="", $content="")

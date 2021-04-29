@@ -1,7 +1,7 @@
 @startuml
 sprite $DesktopWindowsMd [14x14/16z] hSV50SH020LGHd7elzhLUAvvw8UJghxHYZ7cOWIYmSQUIJHJrLJaipGd81DnvdSZ_60cmgg7MGouUGC
 sprite $DesktopWindowsLg [20x20/16z] jT350GGW30J0JN3T_gizD-nvyy69O4VSo0hGEAbGPZjSorHbn21izkBktl_snhXXSw_bGQCYSP80o0sGoVoQluYjPBM27uuFRjDOmT4L
-!procedure DesktopWindows($id, $name="Desktop Windows", $tech="")
+!procedure DesktopWindows($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/DesktopWindows', $name, $tech)
 !endprocedure
 !procedure DesktopWindowsCard($id, $funcName="", $content="")

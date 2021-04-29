@@ -1,7 +1,7 @@
 @startuml
 sprite $SimCardAlertMd [14x14/16z] TSUr0G0n3C30SCpUVzfd1bMwyAwhJ9KDlaGRBchJYEoYQMhz5z5LgbUrTj7KjwhAafRmQ0G
 sprite $SimCardAlertLg [20x20/16z] Oy03M5Z1W1b9Y9qV2jWmXVYv4488CRWGXXWRcCFDZIp61UOmCP4lniA2AWO1c6ASdCIPnyjBs3mSVaCFAsPME6365UO
-!procedure SimCardAlert($id, $name="Sim Card Alert", $tech="")
+!procedure SimCardAlert($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/SimCardAlert', $name, $tech)
 !endprocedure
 !procedure SimCardAlertCard($id, $funcName="", $content="")

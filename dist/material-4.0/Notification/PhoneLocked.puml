@@ -4,7 +4,7 @@ sprite $PhoneLockedLg [20x20/16z] {
 ZSu52iH044JHbd6Xxd_Q95FhleLz7j2qFCnLdgQjDcDPpYMoSXIlfy8nFK97RttQrLP5h1MvP7mqOpsQJ81N0YtJ2cbXFAPCmv2N5QGNqmb_GGVHIZGby3gG
 n2Q0kpC-qKaeTpShvTvuRLv-Vk2OYydVsm4
 }
-!procedure PhoneLocked($id, $name="Phone Locked", $tech="")
+!procedure PhoneLocked($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/PhoneLocked', $name, $tech)
 !endprocedure
 !procedure PhoneLockedCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TrainLg [20x20/16z] {
 bP055WGW20N1Blptl-torjgEiSU6tiBMAPQFSGsJvgQok67AZ8wTyt05p4ozapOessajGWhgSlJ25GMZtdiFdvtK8QeSPyRQJ6Qv34jrxBF8-syozcfZLmnq
 LHTHKnqj8XfV3uwqIOd7NA9_k
 }
-!procedure Train($id, $name="Train", $tech="")
+!procedure Train($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Train', $name, $tech)
 !endprocedure
 !procedure TrainCard($id, $funcName="", $content="")

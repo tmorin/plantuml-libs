@@ -1,7 +1,7 @@
 @startuml
 sprite $MenuOpenMd [14x14/16z] ZSs35G0n303G6k7-qvxD_gSuffshPLJzd16Eo3kmPcC5nnuCC5e5SyjMRfhqD1gleBryQDS3
 sprite $MenuOpenLg [20x20/16z] lSx50O1030J0FVTB_zNYkl25-SM3NmGvE6nSoPjYu9i6ST8vvsLhyxtDUZbIb5DWMoCdktx-ikRYoyzG1tnZ1
-!procedure MenuOpen($id, $name="Menu Open", $tech="")
+!procedure MenuOpen($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/MenuOpen', $name, $tech)
 !endprocedure
 !procedure MenuOpenCard($id, $funcName="", $content="")

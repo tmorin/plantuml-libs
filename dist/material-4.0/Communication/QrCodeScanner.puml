@@ -7,7 +7,7 @@ sprite $QrCodeScannerLg [20x20/16z] {
 RP050iCm24K_uPD5uVwtNPbBNnl30MU8cH4FQ3G1B2BsKxQFXm6CHdtAb2rb5cpRznRPnz5ujzErQejIejMrDOZ4BoWfAxWu7dY3fapH_3DRoZuhACbnQ1uF
 v26327vzCGU-SYWGh8ySprfaidT5GjSrisOPjNVI-UpDTm6SDlat0seBEvlLwKpFk08
 }
-!procedure QrCodeScanner($id, $name="Qr Code Scanner", $tech="")
+!procedure QrCodeScanner($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/QrCodeScanner', $name, $tech)
 !endprocedure
 !procedure QrCodeScannerCard($id, $funcName="", $content="")

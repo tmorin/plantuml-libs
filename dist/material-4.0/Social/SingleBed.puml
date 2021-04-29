@@ -1,7 +1,7 @@
 @startuml
 sprite $SingleBedMd [14x14/16z] XSm54WCW30J018VBDF__RGyTRnSd8dze89Kj-SSvqtur4q2ixLSt1TJwUbG_gf2rLq0O8L4OM6LiIEwx45aeGnQznszV
 sprite $SingleBedLg [20x20/16z] jSw54SL024LHu4iOxFLVRJnGGUxw6Ljwer_aMNp72fauLZOnZ2YJoC2DyCUQ56K6c1Lq27UD1k4xWJr6tPWkUhResFGOA_vozeS-7_puVMCNUg4D
-!procedure SingleBed($id, $name="Single Bed", $tech="")
+!procedure SingleBed($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/SingleBed', $name, $tech)
 !endprocedure
 !procedure SingleBedCard($id, $funcName="", $content="")

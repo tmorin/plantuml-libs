@@ -4,7 +4,7 @@ sprite $PrivacyTipLg [20x20/16z] {
 LT350GGW44FHuCxqN-qAddVyEDYK0fWAlGUgEicGz2wso57iI458-BSeGsion6UUrhlTUIbHU_1QQvypFE_d_yrmC_XhRsiOujiY1jNldVl-1o-7nnRfiJpJ
 uwLpxqbJuh__0W
 }
-!procedure PrivacyTip($id, $name="Privacy Tip", $tech="")
+!procedure PrivacyTip($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/PrivacyTip', $name, $tech)
 !endprocedure
 !procedure PrivacyTipCard($id, $funcName="", $content="")

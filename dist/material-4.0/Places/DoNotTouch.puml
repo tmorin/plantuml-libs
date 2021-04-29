@@ -4,7 +4,7 @@ sprite $DoNotTouchLg [20x20/16z] {
 VO-55SCm30M50PFstxQ_ORwWxmbfXUc6H29RFJjUdMeKXPuPeoV-YsoHAUaKLo2jME1EZj1D2e8Mjyg1v1YtHleQjw21IFQhWyIxBixG8G2wupqvQL6708Yq
 jiJr0HQvhJ8Sf8_RUYjOanxaHlgM7MsO_p4PcHxv0G
 }
-!procedure DoNotTouch($id, $name="Do Not Touch", $tech="")
+!procedure DoNotTouch($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/DoNotTouch', $name, $tech)
 !endprocedure
 !procedure DoNotTouchCard($id, $funcName="", $content="")

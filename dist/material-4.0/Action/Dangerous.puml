@@ -1,7 +1,7 @@
 @startuml
 sprite $DangerousMd [14x14/16z] POs54SG020IvbmWost-rSS-Emfczq7T2-v5CfDQZM2YjIklWxQ9-eRSCS_Wj5s4MyBv-u1QxKqNZu0sbvy9-vdIivsz2zc84
 sprite $DangerousLg [20x20/16z] bT170W0H50FGhoOhxdzQRQhiT9xEZa8WE5BuKwahb21qeT94_rB01CG7ENhPCCZoQ7BQDSM8gyLhteMJr6P3raBMwXdNNMQlvd3TMkwi3z472ybV7OGE
-!procedure Dangerous($id, $name="Dangerous", $tech="")
+!procedure Dangerous($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Dangerous', $name, $tech)
 !endprocedure
 !procedure DangerousCard($id, $funcName="", $content="")

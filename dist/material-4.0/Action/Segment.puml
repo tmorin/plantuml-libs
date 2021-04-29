@@ -1,7 +1,7 @@
 @startuml
 sprite $SegmentMd [14x14/16z] Oo0UC75oG04d4v37mmq5FCpOLBDpWG4JEWyJSFA00CmKDawe3SG3
 sprite $SegmentLg [20x20/16z] Ow0BOET70HmWCLPkBYJ0pKgoeMnyl130nuPLZ5J0oetf5WuaDyC18mpG8AG
-!procedure Segment($id, $name="Segment", $tech="")
+!procedure Segment($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Segment', $name, $tech)
 !endprocedure
 !procedure SegmentCard($id, $funcName="", $content="")

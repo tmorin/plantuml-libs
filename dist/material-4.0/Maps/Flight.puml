@@ -4,7 +4,7 @@ sprite $FlightLg [20x20/16z] {
 hP250OGm302fUs__QQ7oxi91BPuihz3YJkI9Tx98tbMMgV9QOYg0kv38n2IheyXLJlXfL83YybXGkwaXENd8AsqQbcAcYvHn2lckvd8_5cu7OyXXX9-S8qkv
 F6S3
 }
-!procedure Flight($id, $name="Flight", $tech="")
+!procedure Flight($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Flight', $name, $tech)
 !endprocedure
 !procedure FlightCard($id, $funcName="", $content="")

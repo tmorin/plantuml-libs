@@ -4,7 +4,7 @@ sprite $TtyLg [20x20/16z] {
 ZSrLWWGX30JGYk6G-zzsgVMPhtwjHF5ORRKvNdXU2-ZDbZM-04iIdENfQti684aEYAdOVU5QZ0MWMNjQDiRg3Gq0qZIAD6DC6U8EdLRv0a_iVDd1BKVmIm2A
 N21L_AcvXAayqq7KSbia3VmgIQynw7YFaVNz7YEDQdZk0m
 }
-!procedure Tty($id, $name="Tty", $tech="")
+!procedure Tty($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Tty', $name, $tech)
 !endprocedure
 !procedure TtyCard($id, $funcName="", $content="")

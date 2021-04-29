@@ -4,7 +4,7 @@ sprite $NoMeetingRoomLg [20x20/16z] {
 ZT170eH030D14ILiOFx_svtapQcFTMpycmk3H54B8ak4KkaqSpNSCZBr3ZoY0qSOZgI2zcWPrnVBA7ys0jEphHFnR3czM4M-M2Bc9pDbR0rZ62nG5QfXwpYB
 ojLN6OMNpF6s2m
 }
-!procedure NoMeetingRoom($id, $name="No Meeting Room", $tech="")
+!procedure NoMeetingRoom($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/NoMeetingRoom', $name, $tech)
 !endprocedure
 !procedure NoMeetingRoomCard($id, $funcName="", $content="")

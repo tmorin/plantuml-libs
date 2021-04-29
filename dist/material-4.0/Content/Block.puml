@@ -4,7 +4,7 @@ sprite $BlockLg [20x20/16z] {
 VT053aCX381XV8MC_lS_xQo5-ID6FgY6WvDAIMyGHG5KugQiJ6bL9fgT2bIxDJ2CodhjC1_XGjtK6tA_wNGQZ12ctWiWwzTuHALxXVf2eLBCZBnqyLWdY_KQ
 mybh1A7sJHNndkbE6OqVirMbh86Lywa-Tb1UTiN7hYnJAJaSd2i
 }
-!procedure Block($id, $name="Block", $tech="")
+!procedure Block($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Block', $name, $tech)
 !endprocedure
 !procedure BlockCard($id, $funcName="", $content="")

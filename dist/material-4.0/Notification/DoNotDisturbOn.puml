@@ -1,7 +1,7 @@
 @startuml
 sprite $DoNotDisturbOnMd [14x14/16z] PSt50S0W30NG5lU__xIuyqxnV0-ghTMq9ngL7ibA6IRMMglf0Cap2RWxCyVaSUNyS7ulc77EbB5B0W
 sprite $DoNotDisturbOnLg [20x20/16z] VP3L0S1034ARkbtOVzfpj_SP1PO9sxvlHO5kXaRS54ixmyDRA2735Odpch3hDmfkK-Eo9em8L6pkWrWz0i3kQ-HAv6ljRkV7I4kfcQdrjhSPx7LMV5Cdqp4A
-!procedure DoNotDisturbOn($id, $name="Do Not Disturb On", $tech="")
+!procedure DoNotDisturbOn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/DoNotDisturbOn', $name, $tech)
 !endprocedure
 !procedure DoNotDisturbOnCard($id, $funcName="", $content="")

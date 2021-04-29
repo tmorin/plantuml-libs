@@ -1,7 +1,7 @@
 @startuml
 sprite $MessageMd [14x14/16z] TSg35G1140FGh37glzgpyHy3t6K-P83jm7EYb2U9rjHZciI-fH0dOKkKooHlp-RynDKr2IraJOVrMMgPrG18nKN2hn4
 sprite $MessageLg [20x20/16z] dSx50S0m30D0XTdUVzeoStDFet19cXtPbuXtg2iQFZ3tDO7PMdDsujPQM3plviN5d5XhHfk1Da_v3lInHfmmr3p42aFDuyW4r6e1
-!procedure Message($id, $name="Message", $tech="")
+!procedure Message($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/Message', $name, $tech)
 !endprocedure
 !procedure MessageCard($id, $funcName="", $content="")

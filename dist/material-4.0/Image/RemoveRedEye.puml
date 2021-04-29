@@ -4,7 +4,7 @@ sprite $RemoveRedEyeLg [20x20/16z] {
 hP150a8124G7-9ttlwsatSfgU3JuWx48Nu9ntTNMyOG71uw7HBFgcG5suMXIDO6wBgAJeivA6AjMWqrhRBDUwCDRtQ4RjbMjXawrrPZwdd8S2jekXkR7EmDI
 jycJ7tnl1m
 }
-!procedure RemoveRedEye($id, $name="Remove Red Eye", $tech="")
+!procedure RemoveRedEye($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/RemoveRedEye', $name, $tech)
 !endprocedure
 !procedure RemoveRedEyeCard($id, $funcName="", $content="")

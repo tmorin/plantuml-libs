@@ -1,7 +1,7 @@
 @startuml
 sprite $PrintMd [14x14/16z] NSs30KKn30NGgDR-qnRtu-7KI49lRBeP4yG1aI2Cles0W_eOjXZiz-__j_xteU7qKt4geYe5fz97fYsFNb0FSqc_wdtxLHS3eRS5
 sprite $PrintLg [20x20/16z] bT350GH124HHPAoL_ADjj_MTV-FT2hZJURNEQJB2JlXWBMDRfWllIrn8oKCg4J_8gOK1zWV3G_PYZtNpkkHNqr3INmoPM4otTBGfOf1IQ0I-x7turPqY
-!procedure Print($id, $name="Print", $tech="")
+!procedure Print($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Print', $name, $tech)
 !endprocedure
 !procedure PrintCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TimelapseLg [20x20/16z] {
 VP073aCn24D90Ydzmxx_RIj-LZTQw35j-HDPDR-0v219U9geWAVNUWTHEbBIMbR91XEk99sxIY6kSUzT95qgFNASCXXLJiG1UbiHR1TdZWks-Y16NUosMCms
 j6RRZOveSQF_eWsvM9jAG1OxWCFcpw94Fss82ms61sP-4hgySYwlLXJL8d_Y0G
 }
-!procedure Timelapse($id, $name="Timelapse", $tech="")
+!procedure Timelapse($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Timelapse', $name, $tech)
 !endprocedure
 !procedure TimelapseCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MissedVideoCallLg [20x20/16z] {
 jO_10G0H30H90B3zLml0wvutW069-05vk4QZR92xfU4S7Yo26yuYHX-xw0V9OZe74je2cI8YZcFkgaYFmN5PwQEE2mLQJFNkxbM77EnNB1e566t6B6cdTX3_
 q
 }
-!procedure MissedVideoCall($id, $name="Missed Video Call", $tech="")
+!procedure MissedVideoCall($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/MissedVideoCall', $name, $tech)
 !endprocedure
 !procedure MissedVideoCallCard($id, $funcName="", $content="")

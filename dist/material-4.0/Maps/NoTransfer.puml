@@ -4,7 +4,7 @@ sprite $NoTransferLg [20x20/16z] {
 TSz5WaKX34JHmfuHKllVRGVlRtTuqE1dFaGhEFHS0Z974flTF16vQkY4XagbfRpHi1Yw4H-q7XgEcAV9m6sPBXk-xoiqz59atzTgNzfMCgqBGRTvF0EtXMw6
 wUwMg8Nppfc954jqetoPA5u1hN093xpdReUl_G4
 }
-!procedure NoTransfer($id, $name="No Transfer", $tech="")
+!procedure NoTransfer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/NoTransfer', $name, $tech)
 !endprocedure
 !procedure NoTransferCard($id, $funcName="", $content="")

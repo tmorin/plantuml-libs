@@ -1,7 +1,7 @@
 @startuml
 sprite $LocalOfferMd [14x14/16z] LSVH5K0030F0023L_QS5eddkx_0tHf3ijU2K5pKcfClSqsL-UitjFG8OQYFK2j0xgdCr73i1
 sprite $LocalOfferLg [20x20/16z] RSm30W0X443HRDp_jCiq-CjU46pA6ljaJchzBssplTYCq7JxF11jpohslxZiA043E0oW0JJEJ0WDWreGT0yC13GGq4180mT170Go6W7e1W
-!procedure LocalOffer($id, $name="Local Offer", $tech="")
+!procedure LocalOffer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalOffer', $name, $tech)
 !endprocedure
 !procedure LocalOfferCard($id, $funcName="", $content="")

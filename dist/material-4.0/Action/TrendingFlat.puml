@@ -1,7 +1,7 @@
 @startuml
 sprite $TrendingFlatMd [14x14/16z] Ow0OCABmsDc011CN173oyhEXyH20WntL5F81
 sprite $TrendingFlatLg [20x20/16z] OnYqW96R4LEGdmTCiV7n8W0_I11J34CtH8Ym7Om3wMi
-!procedure TrendingFlat($id, $name="Trending Flat", $tech="")
+!procedure TrendingFlat($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/TrendingFlat', $name, $tech)
 !endprocedure
 !procedure TrendingFlatCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $FamilyRestroomLg [20x20/16z] {
 VOi5WWGX30GRjx3r_zUUaPdpHIij-dk572vCoS7OBbQe9mQuFM4UweohkhUxCSKWntYg1ZmE5oZ-0rtjaMLWNpLZH83uHKiz10EQQ-_KUrC4xDPg_p3sASS1
 p3Y1hktb06HTckKaAHxDkrEwSzeioRvgFZxJL4e9KYx9dp_NAm
 }
-!procedure FamilyRestroom($id, $name="Family Restroom", $tech="")
+!procedure FamilyRestroom($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/FamilyRestroom', $name, $tech)
 !endprocedure
 !procedure FamilyRestroomCard($id, $funcName="", $content="")

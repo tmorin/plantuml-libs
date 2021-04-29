@@ -4,7 +4,7 @@ sprite $UnsubscribeLg [20x20/16z] {
 fSy53aGX34NHXxPezx_R-LX8OsCtVj3Yym8JxuZz8b65OInK3rGI7aRY4DgG5c2NiNJ2eu-0-Z6PEaMk3HroxLQuaRPgO01b3Q5ByygYdHUFhQvlizHzy6iG
 uwmR8KefHHnKOveCdU4SyLyl
 }
-!procedure Unsubscribe($id, $name="Unsubscribe", $tech="")
+!procedure Unsubscribe($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/Unsubscribe', $name, $tech)
 !endprocedure
 !procedure UnsubscribeCard($id, $funcName="", $content="")

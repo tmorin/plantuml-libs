@@ -4,7 +4,7 @@ sprite $VolumeUpLg [20x20/16z] {
 bP050WGX24Mnst__sowntMFxQEZuSEwP14geZpHiyXFBtoE0pupbxhImsH_3flzOIzrWlJI99bInmWP5P5PCmigD3VPRFh0NsqynbCDoIPhB3VAPDESRPBs1
 7LvwqDoFNlqU9m
 }
-!procedure VolumeUp($id, $name="Volume Up", $tech="")
+!procedure VolumeUp($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/VolumeUp', $name, $tech)
 !endprocedure
 !procedure VolumeUpCard($id, $funcName="", $content="")

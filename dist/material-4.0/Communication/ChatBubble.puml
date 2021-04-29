@@ -1,7 +1,7 @@
 @startuml
 sprite $ChatBubbleMd [14x14/16z] Oq05R3nmmCR0mCCF1ppquN6nSu00EmSp0mCl1xBBM1bm0W
 sprite $ChatBubbleLg [20x20/16z] tSYr0S0W00J0ZmVVVrhSeQBaoiFK-JHELr8rfCr7TPvDxkvFAWP_Fuu2xcpr7e9L1W
-!procedure ChatBubble($id, $name="Chat Bubble", $tech="")
+!procedure ChatBubble($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/ChatBubble', $name, $tech)
 !endprocedure
 !procedure ChatBubbleCard($id, $funcName="", $content="")

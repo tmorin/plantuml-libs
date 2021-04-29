@@ -4,7 +4,7 @@ sprite $DeckLg [20x20/16z] {
 VSy55iGW30JGG86WoVrFYzlgrERzjWZyYn0Vf8ZK6pckiRSyYNlYimbvnyoFufRzAJgqrY9HVpW39odj-jL4nDimjhLpk2rolzDj5CSMWWyQY43NmgwPxTkg
 jbetAHcR8Sjd6B8GrL9ghRxjtpNh_tRhtqaDe2KejThN5
 }
-!procedure Deck($id, $name="Deck", $tech="")
+!procedure Deck($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Deck', $name, $tech)
 !endprocedure
 !procedure DeckCard($id, $funcName="", $content="")

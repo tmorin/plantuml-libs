@@ -1,7 +1,7 @@
 @startuml
 sprite $DashboardMd [14x14/16z] POs53S0m30IDhmgx_xHXzYLceWTLDMOhfWJs5u2ghPIgTQzQHysl6aZFEVaAGjJjxEmzEBV0umLxhxCLk6kwoG
 sprite $DashboardLg [20x20/16z] fP230S10303VYlQVjhPnxIjEr6DSYgb1wtQFoRMo91t6z6TgPV50bbxAr29776KZ2pjD3SYXbGLk7woNyKP6sQ8FTLTB_D7RRbQFgG4
-!procedure Dashboard($id, $name="Dashboard", $tech="")
+!procedure Dashboard($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Dashboard', $name, $tech)
 !endprocedure
 !procedure DashboardCard($id, $funcName="", $content="")

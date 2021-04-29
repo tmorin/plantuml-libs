@@ -4,7 +4,7 @@ sprite $CompassCalibrationLg [20x20/16z] {
 bSq30iGm443HO1ZD_K-xg8rVlmRkNP6OAIuWQBEkfc4WiKNSKRPL-MzbRMKxi1isObDcRHqD5UqUNZkQ2y5j2jaiRxJqMou3wuAbuO7vZffto-XljDsOERYN
 VG4
 }
-!procedure CompassCalibration($id, $name="Compass Calibration", $tech="")
+!procedure CompassCalibration($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/CompassCalibration', $name, $tech)
 !endprocedure
 !procedure CompassCalibrationCard($id, $funcName="", $content="")

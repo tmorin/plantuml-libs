@@ -4,7 +4,7 @@ sprite $TextureLg [20x20/16z] {
 ZT250SCW50HGt6N_QP7xRTmkoiDXtwEy6c_Xx2n8aAwP3ohLZ8AlQfhB3AH0WRgA8o7t5EvQQNiYLHtctL710gqv4H9EjBOIHq8hhax44kPL84EjKgLsU5id
 S6oQVKy7
 }
-!procedure Texture($id, $name="Texture", $tech="")
+!procedure Texture($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Texture', $name, $tech)
 !endprocedure
 !procedure TextureCard($id, $funcName="", $content="")

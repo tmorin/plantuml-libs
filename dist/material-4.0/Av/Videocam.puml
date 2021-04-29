@@ -1,7 +1,7 @@
 @startuml
 sprite $VideocamMd [14x14/16z] Oo0UCB9p004x1okOny8F0RmC72mC3Cmm7Zi_2qWE1Z1u29KSo79yG5CGDh0na0G
 sprite $VideocamLg [20x20/16z] jOwr0S1G24IHkDt-qyRjUyKhuOmCu8VtKcEvmRnVvRXr-50QElycBOBRYF26vAtibGvjOikn-JgScrdeW5_8XWq
-!procedure Videocam($id, $name="Videocam", $tech="")
+!procedure Videocam($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Videocam', $name, $tech)
 !endprocedure
 !procedure VideocamCard($id, $funcName="", $content="")

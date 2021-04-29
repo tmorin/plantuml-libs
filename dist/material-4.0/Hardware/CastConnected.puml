@@ -4,7 +4,7 @@ sprite $CastConnectedLg [20x20/16z] {
 ZP1LmeCX30GdYuLFsFkVzdUXVUhWnCEhQEG3GyJo4ola6Tg8QSd9_iUmuchS_kCcBO1wRN-VUdCKQ6l_q-Ub4TVsHvHSdiIz_TKW3X-K1ziZc1xClp_wvLlS
 3ksvT5yqT_vorjsOBlZawpFIaZ_Nv3BjjmUHARBH1igljXLUvHq
 }
-!procedure CastConnected($id, $name="Cast Connected", $tech="")
+!procedure CastConnected($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/CastConnected', $name, $tech)
 !endprocedure
 !procedure CastConnectedCard($id, $funcName="", $content="")

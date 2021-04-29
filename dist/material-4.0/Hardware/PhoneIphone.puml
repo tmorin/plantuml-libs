@@ -1,7 +1,7 @@
 @startuml
 sprite $PhoneIphoneMd [14x14/16z] XKxL0G0X2CMMtd_QCxyzkda04EkY38VKDvMTH6kbbApzPd4vVcNupFxtiFVUxFRSBP5xlyXELauMQskjxcG
 sprite $PhoneIphoneLg [20x20/16z] pT050S0m40F0P8nv_sh7vGhObHbmO_CYl4xswU5ivknmTdNzhTiizBdXfTAtrkRzj4yWI2PtDadRbSoIVvamNBaOzutexZuudLrMNTa0ZstJjbTgy3W1
-!procedure PhoneIphone($id, $name="Phone Iphone", $tech="")
+!procedure PhoneIphone($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/PhoneIphone', $name, $tech)
 !endprocedure
 !procedure PhoneIphoneCard($id, $funcName="", $content="")

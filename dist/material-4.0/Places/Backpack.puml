@@ -1,7 +1,7 @@
 @startuml
 sprite $BackpackMd [14x14/16z] XOo50S1030Afjp7sdxRkzlUQ1C035K1qBIfIXAosOcOfPQlahGgEn59fXmpZxdIPsOZdhPrywfhAhDnclCID0G
 sprite $BackpackLg [20x20/16z] fOy54aKn20D3EtN9_K_xvRdhLe0T2zX3Z97-xr6a0GofHkV876CctQ0I1rAdB2VOraLEY8zT7PqCuPbwPpe4e-in6ov7nZVvzlU5DWCQEtm1
-!procedure Backpack($id, $name="Backpack", $tech="")
+!procedure Backpack($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Backpack', $name, $tech)
 !endprocedure
 !procedure BackpackCard($id, $funcName="", $content="")

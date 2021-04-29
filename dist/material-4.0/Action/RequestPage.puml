@@ -1,7 +1,7 @@
 @startuml
 sprite $RequestPageMd [14x14/16z] NOk30G0W54Ipw_QVDll5Vo0V8bIYdfD3HpyJp9v2g9UQKvKLuER4kR5dafHTdZESNzxJWtEufigSP0oTACX70G
 sprite $RequestPageLg [20x20/16z] TT054iGW44HHt9cv_sbtuut-ijGBBZPfUsK4SlpaOOc1C22iHrZEVEPWDKZfJqsmS7xuqL8fD8-Jmzpgd1tdbX0z37D5x8sgLfKxEvLuiZEOQytXJT-qsFG7
-!procedure RequestPage($id, $name="Request Page", $tech="")
+!procedure RequestPage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/RequestPage', $name, $tech)
 !endprocedure
 !procedure RequestPageCard($id, $funcName="", $content="")

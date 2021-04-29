@@ -4,7 +4,7 @@ sprite $QueueLg [20x20/16z] {
 VSu50iGW34JHmQ6IkVzfLv5afR_-sWBuMqmptsddIZfIbnxWkfsk3OkCtL26fMNLsbvgHgYbJHDMlFFgEpdE7Vbn_Z_UrRnI3cr2LNnQGfqWt074XwsSmwF4
 6jCezbKALQvZqj_zwmu
 }
-!procedure Queue($id, $name="Queue", $tech="")
+!procedure Queue($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Queue', $name, $tech)
 !endprocedure
 !procedure QueueCard($id, $funcName="", $content="")

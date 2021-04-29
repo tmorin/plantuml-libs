@@ -4,7 +4,7 @@ sprite $TranslateLg [20x20/16z] {
 TO-55S1034BFFM7_RKlTV_Lu4J2_s6HVMaIyLlH61aOZVQrsMD3ruxP2kxuSgh6NQPwlmg8B7TPOD7F5eLDdMHZd-eI1n6_3E2l7Sh00_2vL2BUoFFApIurj
 nOXox2bnUNB8UyYokoXG4LeWVX-X416zMGzBc-U0asqy5zrJ4yVg3oO
 }
-!procedure Translate($id, $name="Translate", $tech="")
+!procedure Translate($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Translate', $name, $tech)
 !endprocedure
 !procedure TranslateCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $EqualizerMd [14x14/16z] Oo04cBYuc10yPdv-PZmy9ZPUTZ2R4SpZvES2SJZvEPaGF2wYUMpSR8nSN8n02hyJ0G
 sprite $EqualizerLg [20x20/16z] Ow02OEVcPaSNu-Bdvw98Z9M3WnLLZ1jPCICZXXWda8Kc1kPI8CO59d2hGtWVGL06
-!procedure Equalizer($id, $name="Equalizer", $tech="")
+!procedure Equalizer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Equalizer', $name, $tech)
 !endprocedure
 !procedure EqualizerCard($id, $funcName="", $content="")

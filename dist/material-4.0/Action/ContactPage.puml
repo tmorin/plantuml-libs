@@ -1,7 +1,7 @@
 @startuml
 sprite $ContactPageMd [14x14/16z] NSU10G0G2011083zfmMWUgXZ99L6sHw5kh98rI5LSrNA-C9HuRm02G5KOwnFQVmyFnddJBewBUcSLbanKWS
 sprite $ContactPageLg [20x20/16z] VT350OGm00NHlml4fVzgSHbqZYyUlTHqSot8r3LxMAX06956f5NpO85cxSsiPAzcO5zhe_VnRAMPtrreKRynHLejSnM6LZCqWpzTQ_JI
-!procedure ContactPage($id, $name="Contact Page", $tech="")
+!procedure ContactPage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ContactPage', $name, $tech)
 !endprocedure
 !procedure ContactPageCard($id, $funcName="", $content="")

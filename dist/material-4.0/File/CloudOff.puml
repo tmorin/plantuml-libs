@@ -4,7 +4,7 @@ sprite $CloudOffLg [20x20/16z] {
 fSp50O0m44JHsRZkz5yjxd3ZetaH_2jCZuab1tEGOu4evzAvRaBhHLnZFh1Ck9GPzXzoGz6EkSOQNDmmCriWCcvdhXyoe-lyVw2OmkrtmoNjR7XWOQ5zO5T3
 zR9Xd34pmYdF9lIJGqBPggLC-2hGlj7Wkn4
 }
-!procedure CloudOff($id, $name="Cloud Off", $tech="")
+!procedure CloudOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/CloudOff', $name, $tech)
 !endprocedure
 !procedure CloudOffCard($id, $funcName="", $content="")

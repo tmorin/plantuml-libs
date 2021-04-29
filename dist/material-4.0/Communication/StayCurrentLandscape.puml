@@ -1,7 +1,7 @@
 @startuml
 sprite $StayCurrentLandscapeMd [14x14/16z] bSsr0S0m4CLGiwlxsd_QC7DUfqhkYGyBxo9e0h6W60PHb8AvYVqhXObHzuVz_KaB
 sprite $StayCurrentLandscapeLg [20x20/16z] Ow0sOEFbuKK088UDWOcVdvyF8SG7v38nWGY4BgR1A8Ri3x0ITbuqm4xru0C
-!procedure StayCurrentLandscape($id, $name="Stay Current Landscape", $tech="")
+!procedure StayCurrentLandscape($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/StayCurrentLandscape', $name, $tech)
 !endprocedure
 !procedure StayCurrentLandscapeCard($id, $funcName="", $content="")

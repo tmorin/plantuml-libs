@@ -4,7 +4,7 @@ sprite $NaturePeopleLg [20x20/16z] {
 VStL0OLG30FGr738_jC-kSNj_5M3TsAA8-z9ZXLsAgPkjyL5WqNFnIHbHo7SHFaqmhYf0GG7A3SbsXGOkLB0feajQYxwSagEGCSqwjP3ark2NG_Ii5MabZJa
 D83KS9ARNdX4UCF6VUdjZ2WqTXmFlW
 }
-!procedure NaturePeople($id, $name="Nature People", $tech="")
+!procedure NaturePeople($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/NaturePeople', $name, $tech)
 !endprocedure
 !procedure NaturePeopleCard($id, $funcName="", $content="")

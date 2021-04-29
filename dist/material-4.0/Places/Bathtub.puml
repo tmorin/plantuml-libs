@@ -4,7 +4,7 @@ sprite $BathtubLg [20x20/16z] {
 hSZ50KGn549HYBqu_LSxxYx_hk3WNIxmbaoQxaf2KpULm_DzkpWceNQmBgKj6ivMfNYO9qCAk3LQvgrLQV3Al1kIkjlcrHo1g9lYykPlpME3urAwnpR6YuZ7
 hG4
 }
-!procedure Bathtub($id, $name="Bathtub", $tech="")
+!procedure Bathtub($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Bathtub', $name, $tech)
 !endprocedure
 !procedure BathtubCard($id, $funcName="", $content="")

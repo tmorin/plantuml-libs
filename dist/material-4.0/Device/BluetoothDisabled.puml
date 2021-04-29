@@ -4,7 +4,7 @@ sprite $BluetoothDisabledLg [20x20/16z] {
 XT250O0m30J018_-_jlYRe_swgMlL7oty5En7byEEr036Ti1nvOwOaG7upFMJewMpiWAfMF6ShtJtl8QmGqL6F5C4Yad52X5a1-m6sYm5hbZkUwD5GqTukFE
 -4JZUFzdUauF
 }
-!procedure BluetoothDisabled($id, $name="Bluetooth Disabled", $tech="")
+!procedure BluetoothDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/BluetoothDisabled', $name, $tech)
 !endprocedure
 !procedure BluetoothDisabledCard($id, $funcName="", $content="")

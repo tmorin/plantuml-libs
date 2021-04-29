@@ -4,7 +4,7 @@ sprite $NfcLg [20x20/16z] {
 RP050iGm20ItFOY7_Vzhh-vC6yC1BgFU41qNaV61pK9bafjTeWAoR1TAtJOZHMnnX6mo0Qt-6aintcGLw1qeJzbWDg0-PPbCZYo_PKFE7z-5PmuhfTPxBKlD
 EmRnU_DcuCyAeyfpfYuJ
 }
-!procedure Nfc($id, $name="Nfc", $tech="")
+!procedure Nfc($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/Nfc', $name, $tech)
 !endprocedure
 !procedure NfcCard($id, $funcName="", $content="")

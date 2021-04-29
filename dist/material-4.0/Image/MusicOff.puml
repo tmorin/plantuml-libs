@@ -4,7 +4,7 @@ sprite $MusicOffLg [20x20/16z] {
 ZT250SGW50FGZplPVzeJlDvKUJZqFg9-ZFrTZIHi-U8Vrj1LpCrM16AASqJxHuG97Osd8t8wufuOTtkqG4B3IIKhfYBUh9YhqJfcAAPfHPvAipAo64lHLhPJ
 elVv0W
 }
-!procedure MusicOff($id, $name="Music Off", $tech="")
+!procedure MusicOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/MusicOff', $name, $tech)
 !endprocedure
 !procedure MusicOffCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LocalAtmLg [20x20/16z] {
 fP350S0m24K_Jdt_RUkUMruRmm5LUDUkhFjw-2AIwOC0DXc8016iv_g4hXj8nz4Okyc-8LQl_CfSltOv3NqlRvds_V3rPLF_od9QY5EcXzquAhtjzffnrVn1
 IZEeOWO
 }
-!procedure LocalAtm($id, $name="Local Atm", $tech="")
+!procedure LocalAtm($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalAtm', $name, $tech)
 !endprocedure
 !procedure LocalAtmCard($id, $funcName="", $content="")

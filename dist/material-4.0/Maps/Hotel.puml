@@ -4,7 +4,7 @@ sprite $HotelLg [20x20/16z] {
 hOq50W8n40FhtkR_lsK5TxYRwbfYTiQjz9X3eSlIKQpaikcWQq9fbd8fWN03foJdAeXmpi7IRA1tsKlEiKSQpPjvdMk1YUiwT-P3hZf_XQlgSKE6iptUvcAt
 PWC7
 }
-!procedure Hotel($id, $name="Hotel", $tech="")
+!procedure Hotel($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Hotel', $name, $tech)
 !endprocedure
 !procedure HotelCard($id, $funcName="", $content="")

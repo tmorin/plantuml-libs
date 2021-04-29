@@ -1,7 +1,7 @@
 @startuml
 sprite $StorageMd [14x14/16z] VSsr0S0020J0Z-FiFstSxIeS_24YMH7W7UNAW8w8LnrGL5MvAiP9bdtocgsJg-kLwuVRzpy3
 sprite $StorageLg [20x20/16z] Ow04C7DpSNCX0Mvc1WPMVdPcVcJ02X9ZOq8L0-b50M2zc013tU2p0pCCA04
-!procedure Storage($id, $name="Storage", $tech="")
+!procedure Storage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/Storage', $name, $tech)
 !endprocedure
 !procedure StorageCard($id, $funcName="", $content="")

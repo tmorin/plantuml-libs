@@ -4,7 +4,7 @@ sprite $InsightsLg [20x20/16z] {
 hL150iCm3BCTHlt_jmiFBzlAigXDw8U3Fr3vZLG9IIqiIzKPMQz4zFoGPSqjagCqaskmQytSUwJT6700o8pP1dd4WK1RBKYDIl1qA4qUIJzHYgYHs9IE5Re3
 EVNSa9bgwFLBhVow1oOPkl2u0G
 }
-!procedure Insights($id, $name="Insights", $tech="")
+!procedure Insights($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Insights', $name, $tech)
 !endprocedure
 !procedure InsightsCard($id, $funcName="", $content="")

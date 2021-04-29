@@ -4,7 +4,7 @@ sprite $CheckCircleLg [20x20/16z] {
 VT053e0m44HHLXAgC_S_BUxI7-LHxngPkzr00ZXLWnpaYongE_7IYe9J2Y6pXPDIrpFCXWj9OPqFSI6jwufEHgqdqLURlrPQpPOX5cOwJeC53wh7MU9E3CUP
 Zo3lk_dh3U3FjqAGzvis6W4
 }
-!procedure CheckCircle($id, $name="Check Circle", $tech="")
+!procedure CheckCircle($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/CheckCircle', $name, $tech)
 !endprocedure
 !procedure CheckCircleCard($id, $funcName="", $content="")

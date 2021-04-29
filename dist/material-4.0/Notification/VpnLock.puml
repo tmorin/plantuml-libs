@@ -7,7 +7,7 @@ sprite $VpnLockLg [20x20/16z] {
 NOy50eL044APxUR-f_s1xTEjQV34FDw4Lklf3Yad1pH3YPkbyaz3NAsDheJ5tTPqEi1pfrosoJ-ZLJjjcKAL3zkW26eMVmGOv-9q3ZSSi-CqvpQpP_xR2W95
 aIq1ndwCqm0a5UvqG99DBmCGMB5dZwY7N0ce56ivsMpmbA1gCdQoJuLvd8IkSXaFp3d3mHS
 }
-!procedure VpnLock($id, $name="Vpn Lock", $tech="")
+!procedure VpnLock($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/VpnLock', $name, $tech)
 !endprocedure
 !procedure VpnLockCard($id, $funcName="", $content="")

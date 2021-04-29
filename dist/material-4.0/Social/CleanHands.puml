@@ -4,7 +4,7 @@ sprite $CleanHandsLg [20x20/16z] {
 TSw5WGGX343HZsj8_ztUPMtyZG8n7eNqBt8mr8Y3JUXQOiqSLFM03spAqfbmOssRKqsX3kTuoohBDZsE6Va9RMcnum5UfZWdCqDE8Ae1RpdsqXuvxPbL2IEp
 xScx2x3jvPXIuBYdCgQfszuclFUSw8TKptiFGXcVSKnA2OoBZcT_
 }
-!procedure CleanHands($id, $name="Clean Hands", $tech="")
+!procedure CleanHands($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/CleanHands', $name, $tech)
 !endprocedure
 !procedure CleanHandsCard($id, $funcName="", $content="")

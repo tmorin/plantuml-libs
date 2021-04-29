@@ -1,7 +1,7 @@
 @startuml
 sprite $LabelImportantMd [14x14/16z] Oy0B6240okFW1mDsA9SNmcM6y9WXF1we93k4oudEGwZaXKZnm4p1j84931WP204
 sprite $LabelImportantLg [20x20/16z] jSur0e0m44JHZNjo_zFY_0Qfu9Mh8zzBhUwAfcR7gGe2nIIe51qrJQqhYfvYkQkzxHPgxYMBeTJabDkX6ld53
-!procedure LabelImportant($id, $name="Label Important", $tech="")
+!procedure LabelImportant($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/LabelImportant', $name, $tech)
 !endprocedure
 !procedure LabelImportantCard($id, $funcName="", $content="")

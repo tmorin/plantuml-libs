@@ -4,7 +4,7 @@ sprite $SwitchAccountLg [20x20/16z] {
 TSm50e0W341Hr4qbT__JqXtVv17i663jpYIfPJ9IIE0Nl-ZXIiRzBsO3WcWFy-bac0s2cT6Kfvz68oCrJQQba6em1InqysQQbNWrMGsh6L5I16dYfrhS0jww
 hdJ03rW25hiDTLqPSLXto04
 }
-!procedure SwitchAccount($id, $name="Switch Account", $tech="")
+!procedure SwitchAccount($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/SwitchAccount', $name, $tech)
 !endprocedure
 !procedure SwitchAccountCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TollLg [20x20/16z] {
 fOx50GGW40DnPzD_jvUSsuzv3BBgJebIQgEbnq-oJMs8VVijGA6i1X-g8VChO8URHDZWPI3UT2EYEu_96vPxi8nLpLtre27y-xlMIg_QFpE6jFrDmbztqRfP
 Abop6FSN6Pio48Ll-2JdFdfsfrm
 }
-!procedure Toll($id, $name="Toll", $tech="")
+!procedure Toll($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Toll', $name, $tech)
 !endprocedure
 !procedure TollCard($id, $funcName="", $content="")

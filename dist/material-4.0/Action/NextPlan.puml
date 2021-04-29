@@ -4,7 +4,7 @@ sprite $NextPlanLg [20x20/16z] {
 VP050e0W40Gz6cFt_x-LjXsJ8Iwc7xGn-Y8aW8ajo506R41tnHDL2ivkAzi3BuJisl4kh2JINrAwJ6eVqxFf97MD4Ci4tIJfROg3AljNrPqcjuKPRwnjsO0N
 jhTSdZb3dhMPPm_ClLS8ykpf3pi
 }
-!procedure NextPlan($id, $name="Next Plan", $tech="")
+!procedure NextPlan($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/NextPlan', $name, $tech)
 !endprocedure
 !procedure NextPlanCard($id, $funcName="", $content="")

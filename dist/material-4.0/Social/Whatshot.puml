@@ -4,7 +4,7 @@ sprite $WhatshotLg [20x20/16z] {
 VP250S0W30HnXzz_MZHr-IeN3pl4sLFEF9c6V329SWeNV37uWwKPf80ZsY2CJyJ9CGFHcDJHdb62L0gW5hE4ikn_TZ4_VRpcJEy9GqUHKULm-AqU3Z_J6TyY
 Q6PUABMUlHo5hP1-V8ujWUJO8PrdW_gsAAK4-r43
 }
-!procedure Whatshot($id, $name="Whatshot", $tech="")
+!procedure Whatshot($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Whatshot', $name, $tech)
 !endprocedure
 !procedure WhatshotCard($id, $funcName="", $content="")

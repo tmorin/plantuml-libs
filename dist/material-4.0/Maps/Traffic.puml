@@ -4,7 +4,7 @@ sprite $TrafficLg [20x20/16z] {
 bT054WGW20LGJB3lVzlzCZZRzUmE-aiM1ibqvPVnP6ICjKQC4_aGMxWWNqjLKSUueAXqfDtQ8uaCDvqeo5hBrhU0hwNgkhVsTJBQOit89DOJ6p9XEqKMoBNS
 tBZUURZpt8f621YgxkKVFF_LNou
 }
-!procedure Traffic($id, $name="Traffic", $tech="")
+!procedure Traffic($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Traffic', $name, $tech)
 !endprocedure
 !procedure TrafficCard($id, $funcName="", $content="")

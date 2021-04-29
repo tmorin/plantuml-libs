@@ -1,7 +1,7 @@
 @startuml
 sprite $StackedBarChartMd [14x14/16z] XKk30G0n3ApRUFzftsQSW_k9S7ognTSlDbyux5mOwg0SwDJyohM1vkENuVZXOitiC_c2tdr63m
 sprite $StackedBarChartLg [20x20/16z] jOor0S1G50BvRa_sdpRInJsKm1t-I9EuwaJpfIucXvZ3hClLWxMksAPbqIKuRs6idVr6jYgjEf_2geirpNoqoSwxqW9oIqWjusLw
-!procedure StackedBarChart($id, $name="Stacked Bar Chart", $tech="")
+!procedure StackedBarChart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/StackedBarChart', $name, $tech)
 !endprocedure
 !procedure StackedBarChartCard($id, $funcName="", $content="")

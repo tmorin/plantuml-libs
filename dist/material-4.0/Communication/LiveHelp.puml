@@ -4,7 +4,7 @@ sprite $LiveHelpLg [20x20/16z] {
 TSg53G11449HpcPzwB_QSrlxCV82setBh_6acLdJOVQSGIISmvxMMGbJIYFqRt6Ef4Vux4uGIxCmB2n0MDe4hKo4fTtTPlg_SVoPC4jmP8FtaNlH-s3mvKcF
 CbzGqGO
 }
-!procedure LiveHelp($id, $name="Live Help", $tech="")
+!procedure LiveHelp($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/LiveHelp', $name, $tech)
 !endprocedure
 !procedure LiveHelpCard($id, $funcName="", $content="")

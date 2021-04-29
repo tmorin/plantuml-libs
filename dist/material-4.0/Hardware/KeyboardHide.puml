@@ -4,7 +4,7 @@ sprite $KeyboardHideLg [20x20/16z] {
 ZOzL0iGm20KfSNd9_M-xB7NlV20JXJvZuuOGZIZJ3p2Hqw9DGN3gs1GgXlzXc5s8S8WQmknoRh5DuUaiqD5Ram3CJe0YnUeoANdh47G8J6xGOWK3YJJ6y8HX
 8sg25TgHrvUsSbMh5FN03m
 }
-!procedure KeyboardHide($id, $name="Keyboard Hide", $tech="")
+!procedure KeyboardHide($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/KeyboardHide', $name, $tech)
 !endprocedure
 !procedure KeyboardHideCard($id, $funcName="", $content="")

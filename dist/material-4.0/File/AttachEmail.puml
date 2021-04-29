@@ -4,7 +4,7 @@ sprite $AttachEmailLg [20x20/16z] {
 RSs50OGm0CNGN_Tc_sbFSGZ-gEWf4qvPVHgSSvAb7RMIlvPKL-dM_cq6kV_G9Dl-1iqgGJNAyBTbX9UV78tXL9dH-s0tWmaszYGT3Ae7qjbAn55DlDddPfzC
 XRdiaJysVoQpfeINoiSEMKP8D9sAmB0wPxpNSsy
 }
-!procedure AttachEmail($id, $name="Attach Email", $tech="")
+!procedure AttachEmail($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/AttachEmail', $name, $tech)
 !endprocedure
 !procedure AttachEmailCard($id, $funcName="", $content="")

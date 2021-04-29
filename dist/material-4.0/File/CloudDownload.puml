@@ -4,7 +4,7 @@ sprite $CloudDownloadLg [20x20/16z] {
 fSjL4iKW58FXu70gsVzghwJOUxyg_qpmdY_MYiUkKkgMZ5qRnLLE6T9qi5ACvAbqKXAGj8v0uTvKSUbxtX68zxF9b09vHjSzev8OHvpfyXmnppz4hJS6m1NR
 j8HNlW
 }
-!procedure CloudDownload($id, $name="Cloud Download", $tech="")
+!procedure CloudDownload($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/CloudDownload', $name, $tech)
 !endprocedure
 !procedure CloudDownloadCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $OfflinePinLg [20x20/16z] {
 VT3L0SKW50DG951Fzf-sWZyzVyXLyuS7l1dPcReTi-r_g8BrBpJ8b_PG4QDqfF1PnPGYvkUkVeicf49F0Ts0-rTe6P7_k5OAjMhirV749Wl7RgWNH-c5eM3f
 nLAxANRHrjb8FPWg9A0AudrNdEtdJl-u
 }
-!procedure OfflinePin($id, $name="Offline Pin", $tech="")
+!procedure OfflinePin($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OfflinePin', $name, $tech)
 !endprocedure
 !procedure OfflinePinCard($id, $funcName="", $content="")

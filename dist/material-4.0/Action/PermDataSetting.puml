@@ -4,7 +4,7 @@ sprite $PermDataSettingLg [20x20/16z] {
 POnLWiKm3CJ6eRQnKzt_jBkFoVeSaBwneKHuYfoPevGvANDIvgGiI9dpo5BaS_n4Hqd78LblN_f3fivfdwwYOos8rTvw5M06k0KyhXfCsUKzVDxm8Hs46dIz
 CU2yMJuOkyD-57tHM9B-0G
 }
-!procedure PermDataSetting($id, $name="Perm Data Setting", $tech="")
+!procedure PermDataSetting($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/PermDataSetting', $name, $tech)
 !endprocedure
 !procedure PermDataSettingCard($id, $funcName="", $content="")

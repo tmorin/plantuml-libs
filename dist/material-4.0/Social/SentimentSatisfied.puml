@@ -4,7 +4,7 @@ sprite $SentimentSatisfiedLg [20x20/16z] {
 VP175iGm24E5mRnKwVwddOBJLlaxEX9UQ14DJsoYVd2oA-NKFcLEk-WOX9GeKXf9e_oQ46jyKeTxPHof2J-umsec9CFEQf-ESTTkcDI0-8t2MlreG2f6xgPo
 DNjJitNZmSxp5pYtZGteOyf8X-Mof5q_8yIEebE1GTmUnCChtLxTU8JZXIy
 }
-!procedure SentimentSatisfied($id, $name="Sentiment Satisfied", $tech="")
+!procedure SentimentSatisfied($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/SentimentSatisfied', $name, $tech)
 !endprocedure
 !procedure SentimentSatisfiedCard($id, $funcName="", $content="")

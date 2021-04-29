@@ -4,7 +4,7 @@ sprite $RequestQuoteLg [20x20/16z] {
 TT250O0W04JHenlsdzQauzlF1eUO-E8ToPHJpUmlNcViBC1aREQ1V6Mpo0NtIVPcpBUnpRm0k1rDWn2esQptQROdCreqHittEg74R3hlD7lZVFg-N3FPc-p6
 DCTmw0O
 }
-!procedure RequestQuote($id, $name="Request Quote", $tech="")
+!procedure RequestQuote($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/RequestQuote', $name, $tech)
 !endprocedure
 !procedure RequestQuoteCard($id, $funcName="", $content="")

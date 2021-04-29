@@ -4,7 +4,7 @@ sprite $SearchOffLg [20x20/16z] {
 fKs54GCn30kJGVjlMrzzANFr667u2gNtVCC839mkAMZFUK8lI45sYKvKHVUVXPCnZxZ54cxHDfUMDStZBvsoOsKfRfkdo8HHgH7GJnCqBJw0sR6SYf8j7bAr
 hhN9v8-lE7d22xA7_t
 }
-!procedure SearchOff($id, $name="Search Off", $tech="")
+!procedure SearchOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SearchOff', $name, $tech)
 !endprocedure
 !procedure SearchOffCard($id, $funcName="", $content="")

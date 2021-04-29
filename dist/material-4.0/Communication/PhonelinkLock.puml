@@ -4,7 +4,7 @@ sprite $PhonelinkLockLg [20x20/16z] {
 XP053WGW30IfuVB_rvxZa9jOKzzLNx02gX9A9MFjAXtRSfxb3UiXPshKSefXpK5CIPQSzqhoaej6OOOfnoN7z8jhpfSFiEVotpxxISNvBX8JrRitRNSFElRe
 QOKgxrDF
 }
-!procedure PhonelinkLock($id, $name="Phonelink Lock", $tech="")
+!procedure PhonelinkLock($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/PhonelinkLock', $name, $tech)
 !endprocedure
 !procedure PhonelinkLockCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $VolumeMuteMd [14x14/16z] Oo02C38XytZOa3ZS_Amm9XStBp-21sJZv77nW5KYpEU1y10seDbE
 sprite $VolumeMuteLg [20x20/16z] hOsr0G0W30Hnb_st9HNsTEJALy64LAWL2rBk5gL3ao7uqazDTO9Bmu-b5zH890se3qqfySq
-!procedure VolumeMute($id, $name="Volume Mute", $tech="")
+!procedure VolumeMute($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/VolumeMute', $name, $tech)
 !endprocedure
 !procedure VolumeMuteCard($id, $funcName="", $content="")

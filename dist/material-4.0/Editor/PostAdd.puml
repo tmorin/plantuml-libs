@@ -4,7 +4,7 @@ sprite $PostAddLg [20x20/16z] {
 bSx50S1020H0pdMX_shZxXb-EBsozfm37d89lKgM8GBknxq0tCKs5qIVPljSx8HebrmKfMKGbrzYrsS6YZg7la2eIv_AgPCTCPOS1Ty9PdD3BpTuyuiUg4sV
 EVtiP2FJb8oBeEY75W
 }
-!procedure PostAdd($id, $name="Post Add", $tech="")
+!procedure PostAdd($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/PostAdd', $name, $tech)
 !endprocedure
 !procedure PostAddCard($id, $funcName="", $content="")

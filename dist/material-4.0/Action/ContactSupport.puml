@@ -4,7 +4,7 @@ sprite $ContactSupportLg [20x20/16z] {
 VSw5TG0W303HuCxjlsqVNl-u9l8tPQnHNtSIGzPlotHwTB63aqrtkXct6unno10aaiH1tTU0w02Z02k3PsbYWIX3OAfADI2zFL2gS_SiGziv1faQF4PUa2ff
 3LkQ8JA0bIEo9NbqBFMzV3f5lb4zo0zA_lC1
 }
-!procedure ContactSupport($id, $name="Contact Support", $tech="")
+!procedure ContactSupport($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ContactSupport', $name, $tech)
 !endprocedure
 !procedure ContactSupportCard($id, $funcName="", $content="")

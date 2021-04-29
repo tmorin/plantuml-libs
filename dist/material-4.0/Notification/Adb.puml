@@ -4,7 +4,7 @@ sprite $AdbLg [20x20/16z] {
 TO-50SKW30LnZUm_RPsNhrVb8ER-qVpzzStS89zgJPw6CwPUp1ULzI531L4vpV49A744qHavjIv7AatqV5b6Li3BnHHZIiVh-44d0lx4_dTaZcmoW86BkUAG
 y2qK0v-Sung-dxDrxzxm8S3i
 }
-!procedure Adb($id, $name="Adb", $tech="")
+!procedure Adb($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/Adb', $name, $tech)
 !endprocedure
 !procedure AdbCard($id, $funcName="", $content="")

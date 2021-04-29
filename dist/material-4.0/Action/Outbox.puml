@@ -4,7 +4,7 @@ sprite $OutboxLg [20x20/16z] {
 ZT052iH04031h8_0zVz_UyHT6Xigij9zhqYJgIPv97QLteGSbpBIMoDsIt4q6StiP0fsC8CUjnQYWyUm_zREttRDlMrDf-qdQJeRuFtamBpdFWb1M6mS-VsO
 xNm7vxlgwMj_
 }
-!procedure Outbox($id, $name="Outbox", $tech="")
+!procedure Outbox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Outbox', $name, $tech)
 !endprocedure
 !procedure OutboxCard($id, $funcName="", $content="")

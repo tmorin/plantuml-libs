@@ -7,7 +7,7 @@ sprite $LiquorLg [20x20/16z] {
 XSq7cWKX20DWTCbqoFrlkv7NUwRb-qV5ViI1_amaZoS3vuXpR-Ck2vvjfZANvSKMxZkNAdyx-zbQao4r0EHsPmVdfjaxlIn2bg5HpK2KaR9WZl3HpXc6Aezc
 AxdQarcclLZ4-QMWh2CJtI8TW2_tSrUUahtMAIeEnTNUvXy
 }
-!procedure Liquor($id, $name="Liquor", $tech="")
+!procedure Liquor($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Liquor', $name, $tech)
 !endprocedure
 !procedure LiquorCard($id, $funcName="", $content="")

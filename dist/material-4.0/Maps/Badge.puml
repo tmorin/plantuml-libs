@@ -4,7 +4,7 @@ sprite $BadgeLg [20x20/16z] {
 VT250S0W40H1td2u_hkDksnyuhYVs8nlf1YJgqLuZtYr0AApCGibC2EHC4z25LEJpLLoph2K4fPiial_bYW1sJawcSsRrjh9UkmZXHWFAwfQK8ZbC9g-y_QE
 Fa__tyBzIftdqRmqqKi3
 }
-!procedure Badge($id, $name="Badge", $tech="")
+!procedure Badge($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Badge', $name, $tech)
 !endprocedure
 !procedure BadgeCard($id, $funcName="", $content="")

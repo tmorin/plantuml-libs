@@ -4,7 +4,7 @@ sprite $HouseLg [20x20/16z] {
 fSk55SGW44NHZzj8_zN6OLtp8i0z0txDsWTo8WwfvIlokkIgqeM2hWbVMLg0Q6Nkb9T31ih5jhrIhTjWsQZgfOu6V15UZbjykSl0nG8GFXbTZDxDvLQR0zoo
 P9ni1W
 }
-!procedure House($id, $name="House", $tech="")
+!procedure House($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/House', $name, $tech)
 !endprocedure
 !procedure HouseCard($id, $funcName="", $content="")

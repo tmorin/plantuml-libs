@@ -4,7 +4,7 @@ sprite $AddLocationAltLg [20x20/16z] {
 VSr5ee1030FGZ20LoFrF-wM3szjLWxESS4F39jLXAEVUC9EKwifPhPqh_qdFaFzR8uFbacc8jSnDeI6q4v7_NbyHvByrnWkJ3dj2l-mhi4LCfKvjFrGU53JE
 ZMDHxslBn_PjPmo68z-UxPAJdd1XXY-_
 }
-!procedure AddLocationAlt($id, $name="Add Location Alt", $tech="")
+!procedure AddLocationAlt($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/AddLocationAlt', $name, $tech)
 !endprocedure
 !procedure AddLocationAltCard($id, $funcName="", $content="")

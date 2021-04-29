@@ -4,7 +4,7 @@ sprite $TrackChangesLg [20x20/16z] {
 VP07TiL020E55nosIVU_RPvhykkyFdJmXSNzKLXIcW-gK4m-E9TMOExknuz2gi3xNckaRIuLI6bpZb1kZXEkOPDOvPZS1YWnP22ng2DLjWa1TLJjCOJylwkN
 ksjhXUsrop4Zr0smVisuTkbTociN8mjYI2DGH3jlOs0dAByEfcP6v1Jztw-qmRJ7VxaNVE4N
 }
-!procedure TrackChanges($id, $name="Track Changes", $tech="")
+!procedure TrackChanges($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/TrackChanges', $name, $tech)
 !endprocedure
 !procedure TrackChangesCard($id, $funcName="", $content="")

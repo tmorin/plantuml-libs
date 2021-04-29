@@ -4,7 +4,7 @@ sprite $AlbumLg [20x20/16z] {
 VP252G0n54DFKhVzfwrxeS72uskUYtxWNy3BhOio_Eq8YMJPLWitgS3NpipaTfwz84HamnFBPKYEvC9qHAvwiaITY5ecH2t4p8O_UwSTjSnCjm3rblDc-vw_
 uSm0UrQMlsUc5mK
 }
-!procedure Album($id, $name="Album", $tech="")
+!procedure Album($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Album', $name, $tech)
 !endprocedure
 !procedure AlbumCard($id, $funcName="", $content="")

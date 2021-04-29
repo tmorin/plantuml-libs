@@ -4,7 +4,7 @@ sprite $CellWifiLg [20x20/16z] {
 bSg55O1G34FHAawp_xIuEm_zzuH-nPQcBZl9CLJfGXOeb5dIGBPO9IIUTACYxqusgbJeYlwayD4KAPD5rl_rDcNE_Jis9e6aNzNPTfVs1BN9fZG0sjgmEfhX
 P8gjJNGoZSaicysnQJBpJKnNjG
 }
-!procedure CellWifi($id, $name="Cell Wifi", $tech="")
+!procedure CellWifi($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/CellWifi', $name, $tech)
 !endprocedure
 !procedure CellWifiCard($id, $funcName="", $content="")

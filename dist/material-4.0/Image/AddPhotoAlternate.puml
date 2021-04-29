@@ -4,7 +4,7 @@ sprite $AddPhotoAlternateLg [20x20/16z] {
 bSs50S0W34JH1BSZ-szRT-NNNn7wp9Yh0IyMKVeGJOK8gkd9oLJHM2tC1cDvcTlRaYdrObQRYw74pJOzMXqttmpzfVrX72Y99yghzRyrgT2_STaii1fZkvYL
 NObc33wC-U2P6ke
 }
-!procedure AddPhotoAlternate($id, $name="Add Photo Alternate", $tech="")
+!procedure AddPhotoAlternate($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/AddPhotoAlternate', $name, $tech)
 !endprocedure
 !procedure AddPhotoAlternateCard($id, $funcName="", $content="")

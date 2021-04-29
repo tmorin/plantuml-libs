@@ -1,7 +1,7 @@
 @startuml
 sprite $GamepadMd [14x14/16z] VKw54S103E8yKFxOVzgwMzm3diJMU6HTug-iabftx8A4iWauYG0cyPvfoMWJvEBtAx__xiZkD
 sprite $GamepadLg [20x20/16z] jP253G01309V82NA_jE-k-l5IBqa-sIioEOnkKBpM5oARVUYZc7Og0WXeSq4jQwsqpLLi0gvXdMiL_0ijgbOz_Qotm4R_OxPBJ_-E_Tqcn8
-!procedure Gamepad($id, $name="Gamepad", $tech="")
+!procedure Gamepad($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Gamepad', $name, $tech)
 !endprocedure
 !procedure GamepadCard($id, $funcName="", $content="")

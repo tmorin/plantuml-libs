@@ -4,7 +4,7 @@ sprite $PersonAddDisabledLg [20x20/16z] {
 XT054aCn20JG7tUu_sqB6wctEvPvCU3w46lVhPDvCyTZeKarcOCMD9ZN_ZbPM5FMzOgJ7TQF4TchmHgUQPLuo7KFyseMIr8SDC8gGMuP-OYCB4ygwtbzqxfj
 8GjbOi5EsMwEB04oxpT1mAOFdyyFMfYfAoHOxEkKQCbVxFQw0G
 }
-!procedure PersonAddDisabled($id, $name="Person Add Disabled", $tech="")
+!procedure PersonAddDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/PersonAddDisabled', $name, $tech)
 !endprocedure
 !procedure PersonAddDisabledCard($id, $funcName="", $content="")

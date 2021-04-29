@@ -4,7 +4,7 @@ sprite $MicOffLg [20x20/16z] {
 ZS_50G0X00F1u4xwx_RS1VR7uFXBQvnI64jaEYsW1op7x85XH3EPnnNjpU0NzBYZkHdY2EviQHnpH06VTYkGonLbDqq35TA8LfzECyj5rojA38LNr96CwhOI
 fQm_kXiyrSciNGv1VmC
 }
-!procedure MicOff($id, $name="Mic Off", $tech="")
+!procedure MicOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/MicOff', $name, $tech)
 !endprocedure
 !procedure MicOffCard($id, $funcName="", $content="")

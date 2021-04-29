@@ -1,7 +1,7 @@
 @startuml
 sprite $StayCurrentPortraitMd [14x14/16z] lSun0W0W10LGg5hW_gS5QtklmFO1WCzWQ6W-3FiYDotcD9Tz7cxQdDvamFUKswaJ
 sprite $StayCurrentPortraitLg [20x20/16z] Om019XXWP801DduuO8E9yIB4UB28ySB5-9YOmO293o4sN5XyiB3YuyKI1dZ5sB64AGCJCnGmWRa
-!procedure StayCurrentPortrait($id, $name="Stay Current Portrait", $tech="")
+!procedure StayCurrentPortrait($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/StayCurrentPortrait', $name, $tech)
 !endprocedure
 !procedure StayCurrentPortraitCard($id, $funcName="", $content="")

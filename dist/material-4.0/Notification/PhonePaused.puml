@@ -4,7 +4,7 @@ sprite $PhonePausedLg [20x20/16z] {
 ZOm54i0W30IJu7h_VstTbMk1dOrGSyGvRoPIdidhaHo6y4pCy9kJpRcHpEZCkKz6vyzzL80YvpxoYo8nH6P1PBh5mzuS5wYRL9YaU2EyIOrXN0emlbjdGPeK
 _65d02vksZOrEZf7ZFD2pUa1
 }
-!procedure PhonePaused($id, $name="Phone Paused", $tech="")
+!procedure PhonePaused($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/PhonePaused', $name, $tech)
 !endprocedure
 !procedure PhonePausedCard($id, $funcName="", $content="")

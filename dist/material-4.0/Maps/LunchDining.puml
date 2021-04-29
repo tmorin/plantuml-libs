@@ -4,7 +4,7 @@ sprite $LunchDiningLg [20x20/16z] {
 fOz50eH040D7ad7v_sytlMwSABneTQU9gRPMKtoPFFUTcM_6Z_t6yEQaFgGKzXTGAW6GlD_0Qt9aq2z0hq6lzh2clMvHkxMMvIwGcUIKHTayMA6ttaI_tLkF
 blk5SkEtiwMJabxqv4vn0G
 }
-!procedure LunchDining($id, $name="Lunch Dining", $tech="")
+!procedure LunchDining($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LunchDining', $name, $tech)
 !endprocedure
 !procedure LunchDiningCard($id, $funcName="", $content="")

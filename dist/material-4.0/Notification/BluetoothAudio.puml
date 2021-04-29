@@ -4,7 +4,7 @@ sprite $BluetoothAudioLg [20x20/16z] {
 XT250GCW40F0_EEQ_RTjwjxY70w-1m_lLlcEXVi9golp2GENoygc47R6p8L2Avn0KxxWxApS3XJw3HMqGu4nuuwYHWVhrPBCq1yjNTPM6DELJcS8KMWNsdQx
 otYySzwCzpkt01b5RtyW-lzNBleP3W
 }
-!procedure BluetoothAudio($id, $name="Bluetooth Audio", $tech="")
+!procedure BluetoothAudio($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/BluetoothAudio', $name, $tech)
 !endprocedure
 !procedure BluetoothAudioCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AssignmentTurnedInLg [20x20/16z] {
 ZT350O0m44JHZSzYqt-rUFIKZpyyaZD6nfHKgGKWATULcW3_4T-S-xRXCNpxn_5jyLXYgHXOMhPYXSGNAsJtnev2nQ8vCXLJSVYes7DVfchKXwQ_kLZeBVnZ
 bV2NyD1i5m
 }
-!procedure AssignmentTurnedIn($id, $name="Assignment Turned In", $tech="")
+!procedure AssignmentTurnedIn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AssignmentTurnedIn', $name, $tech)
 !endprocedure
 !procedure AssignmentTurnedInCard($id, $funcName="", $content="")

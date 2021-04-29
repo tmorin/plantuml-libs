@@ -4,7 +4,7 @@ sprite $CleaningServicesLg [20x20/16z] {
 lO-50G0n308JwXRsd_RT1tXgzAZA8GLKteAHXZVBN9J_P-dBNEssCkl57IWiix5fISA6zF41PzHrZ4Tsx8dxyRWPc4_Ml9Gilfqi4wipszt1L9ba34cBErdE
 x8bCRN4dUsbZwe2jxeEAp
 }
-!procedure CleaningServices($id, $name="Cleaning Services", $tech="")
+!procedure CleaningServices($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/CleaningServices', $name, $tech)
 !endprocedure
 !procedure CleaningServicesCard($id, $funcName="", $content="")

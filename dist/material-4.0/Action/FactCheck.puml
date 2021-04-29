@@ -1,7 +1,7 @@
 @startuml
 sprite $FactCheckMd [14x14/16z] NOr50W1H249nEWJkVzhf_6-d50hgX-sO_301-LwvNQhGl9Sp3tqmzwlh1e_Pn7jrg7GxkVbujSIlvI7BzMWU0dzM
 sprite $FactCheckLg [20x20/16z] ZT253G0X44JHmNL3_zMUA_xZ3mVJIVl9MB6HI5aSKBcfmsWhDmx0P-QCDUT4eilUYF7R9ECi9Ak9m_rDWMsKhTK7PMV4_2xZEsTj9d8Jnr-Pxrz9JBS2
-!procedure FactCheck($id, $name="Fact Check", $tech="")
+!procedure FactCheck($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/FactCheck', $name, $tech)
 !endprocedure
 !procedure FactCheckCard($id, $funcName="", $content="")

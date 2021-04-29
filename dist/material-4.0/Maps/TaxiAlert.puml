@@ -7,7 +7,7 @@ sprite $TaxiAlertLg [20x20/16z] {
 PSs5aG0W30NH9RZ-_hkzGSxV-48IVd3c-2rDITtpGzCggKlfEnLLGdCsvJbi3etT3Qz-YaL94R8CkXm47Vwr_PdHCCfkFZkeSfW2u5KXDCEj2NcnTSKpMvLW
 T6TspjJWOrS3qs-5qyhGLRi6fvNTjmvhtjPTqZ7DwpKjVNjj-zTQBbUUNotmgQfpel7DEu0F
 }
-!procedure TaxiAlert($id, $name="Taxi Alert", $tech="")
+!procedure TaxiAlert($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/TaxiAlert', $name, $tech)
 !endprocedure
 !procedure TaxiAlertCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $BookOnlineLg [20x20/16z] {
 VT034i10343Hr0hkVzgkZJ_Al681fZK6eLDYPp1AXXsZPEo4C-CmSJA2_T3jPWfFSHVRXbpO-uhioOW01L4-CoLxaxNVDciaQ_VIttF_R1AQszMvKrWttmec
 1G
 }
-!procedure BookOnline($id, $name="Book Online", $tech="")
+!procedure BookOnline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/BookOnline', $name, $tech)
 !endprocedure
 !procedure BookOnlineCard($id, $funcName="", $content="")

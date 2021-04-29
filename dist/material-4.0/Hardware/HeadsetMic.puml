@@ -4,7 +4,7 @@ sprite $HeadsetMicLg [20x20/16z] {
 XOw53GDH3CK-S-Fzf-qnaqLMyAaPROmwuYezrUvA6LfA3V9QAXGzxbVAN0fRkn0c4LatjFoc-yJjScBy4zczSuIfjajcYCkudiyfIvfg8bCt3ZRNOB8usANs
 QV5OCpTNb2sb-Z5moMMeRSGKGqZuVOsHhFQOaS4w
 }
-!procedure HeadsetMic($id, $name="Headset Mic", $tech="")
+!procedure HeadsetMic($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/HeadsetMic', $name, $tech)
 !endprocedure
 !procedure HeadsetMicCard($id, $funcName="", $content="")

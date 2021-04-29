@@ -1,7 +1,7 @@
 @startuml
 sprite $TvMd [14x14/16z] hSs52O0040NGNs3h_jFQBOtlcZeyEISZGtyQKhGujSLFLqU9ixbtXOVbqMmP1iLYkOfvmOAP4HyJ
 sprite $TvLg [20x20/16z] lSg50S0m20H0-0ganlxJrjtzeZpGMH2T411dDfCnpB67diVE05EQa9LCr-R-ocGboz9IKgj-cO6a-LIQjb0ZQBA0Hg2YvGPTKW
-!procedure Tv($id, $name="Tv", $tech="")
+!procedure Tv($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Tv', $name, $tech)
 !endprocedure
 !procedure TvCard($id, $funcName="", $content="")

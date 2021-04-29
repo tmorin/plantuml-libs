@@ -4,7 +4,7 @@ sprite $ExitToAppLg [20x20/16z] {
 ZP250SGm24KZIFplF-rTtUsrCHpCTpXecD10emWxk9S5a5iWX5wcS6R1ZR8mo7pZZSm7s-y0JR8Lrq2BJ5eTQ03FCiKgE_loPOxhMfvg9kicB25SpU0ygrxq
 bJy
 }
-!procedure ExitToApp($id, $name="Exit To App", $tech="")
+!procedure ExitToApp($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ExitToApp', $name, $tech)
 !endprocedure
 !procedure ExitToAppCard($id, $funcName="", $content="")

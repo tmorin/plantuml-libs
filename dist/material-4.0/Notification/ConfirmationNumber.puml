@@ -1,7 +1,7 @@
 @startuml
 sprite $ConfirmationNumberMd [14x14/16z] Oy07MBY0W9iRHB8mCF3m0m4V7uZaWVBOsA0yRduuu6Q0I79oWgLGUQWgKKr1jG7DTdm
 sprite $ConfirmationNumberLg [20x20/16z] fT230G0n30NGNplPVzgpZLSR-CMck6G1ADvGW1cgtWyLC_T9kUyZclj4v9KeqCXTNUkkoC2kBw4X0gy4iJtZ_YxEpNtxj-t-85dyKWC
-!procedure ConfirmationNumber($id, $name="Confirmation Number", $tech="")
+!procedure ConfirmationNumber($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/ConfirmationNumber', $name, $tech)
 !endprocedure
 !procedure ConfirmationNumberCard($id, $funcName="", $content="")

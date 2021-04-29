@@ -4,7 +4,7 @@ sprite $ApprovalLg [20x20/16z] {
 VSg50S0W34JHmpMv_RUjkxmAy0b-6EyDhX974MUH4gDSewe1ZEefMMQCCkqfjcMkuMGyBXTddZ7HuwgG6NUzuym57tpEVbmS5f4dSMcLuy1aN5YtXXtRrfGh
 FUPEVfeB9mxl1W
 }
-!procedure Approval($id, $name="Approval", $tech="")
+!procedure Approval($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/Approval', $name, $tech)
 !endprocedure
 !procedure ApprovalCard($id, $funcName="", $content="")

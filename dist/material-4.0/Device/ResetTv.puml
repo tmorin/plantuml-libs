@@ -4,7 +4,7 @@ sprite $ResetTvLg [20x20/16z] {
 bSq54W8n30NGdxhd_hSbJBrZy5ORnQ-K3nUlG8qVZHH7qchH55Wf3hZu8qQnVssX5IiLquXHuPOwCsFwsjjZC5n10kTUMzwzGXqnZrEFjIfAALLkqLZ1zv-l
 dlReR8zP75JmGMw5ltm
 }
-!procedure ResetTv($id, $name="Reset Tv", $tech="")
+!procedure ResetTv($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/ResetTv', $name, $tech)
 !endprocedure
 !procedure ResetTvCard($id, $funcName="", $content="")

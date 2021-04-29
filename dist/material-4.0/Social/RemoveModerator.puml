@@ -4,7 +4,7 @@ sprite $RemoveModeratorLg [20x20/16z] {
 RT350O1034JH2Cucqt-rE8F-6uzrELCLvhP9czbICrHim5PlkrK8jSJHM6tOeQW6pjhT43ViTYC-Z4WZqbeGkKU31pQhEHxeiXOtp9Ij3Y1QiviciV0P6Zpn
 ERlFU8zin15seWs9OVsgqkNlxMS
 }
-!procedure RemoveModerator($id, $name="Remove Moderator", $tech="")
+!procedure RemoveModerator($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/RemoveModerator', $name, $tech)
 !endprocedure
 !procedure RemoveModeratorCard($id, $funcName="", $content="")

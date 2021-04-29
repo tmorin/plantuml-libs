@@ -4,7 +4,7 @@ sprite $FlareLg [20x20/16z] {
 fP2r0KD134Eb3yUozvys30TTyXepuissOK7wpSUtZrrE0Me5IfTR_BoBqmk-1304taGFvIw-LvLa5T5l15IJj6qs-snRQz-SO8oyYMMNqEr2U-rSkvr9G7h8
 _t-r_luA
 }
-!procedure Flare($id, $name="Flare", $tech="")
+!procedure Flare($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Flare', $name, $tech)
 !endprocedure
 !procedure FlareCard($id, $funcName="", $content="")

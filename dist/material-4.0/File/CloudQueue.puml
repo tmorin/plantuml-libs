@@ -4,7 +4,7 @@ sprite $CloudQueueLg [20x20/16z] {
 fSp70G0X20J0DGigst-rb_FtvaC6__cYaZsUAZSLDsMFpiLEmS6LCnVcCw6vOse3gywM0mv2MVB2WbicAHY69-ULcOeF6-puK2e3tiRmjEIU3uK5qVYcwoJh
 WqJyCWC
 }
-!procedure CloudQueue($id, $name="Cloud Queue", $tech="")
+!procedure CloudQueue($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/CloudQueue', $name, $tech)
 !endprocedure
 !procedure CloudQueueCard($id, $funcName="", $content="")

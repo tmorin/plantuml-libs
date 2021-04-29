@@ -4,7 +4,7 @@ sprite $VideoLibraryLg [20x20/16z] {
 TSg53KD140DHxyaEPzr_jS6ZJoD-6Xn6zKgbkqTPqNFwG5JBOJJnetBlfceEd7SCVAuCdqxRx-AL8UvUMIgzijgmd8rV4ouTqdS0_DWe0f_a2zKYVfNqL5JK
 wjlj3G
 }
-!procedure VideoLibrary($id, $name="Video Library", $tech="")
+!procedure VideoLibrary($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/VideoLibrary', $name, $tech)
 !endprocedure
 !procedure VideoLibraryCard($id, $funcName="", $content="")

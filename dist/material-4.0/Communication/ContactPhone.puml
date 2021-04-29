@@ -4,7 +4,7 @@ sprite $ContactPhoneLg [20x20/16z] {
 ZP035WGm34Gdgd7_s-whrlerCW7-X7numbFjBvIrj9U7PYJxqUA-Sm1uxZoGrnqFPqEu0joU_dbAnsTJy3HHU_5rVzTIJDElvsrR50DEquUquOkmYTFR44wW
 1OQOngLsw8TtDU3NMZ7-v08
 }
-!procedure ContactPhone($id, $name="Contact Phone", $tech="")
+!procedure ContactPhone($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/ContactPhone', $name, $tech)
 !endprocedure
 !procedure ContactPhoneCard($id, $funcName="", $content="")

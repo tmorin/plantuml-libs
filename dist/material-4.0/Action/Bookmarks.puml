@@ -1,7 +1,7 @@
 @startuml
 sprite $BookmarksMd [14x14/16z] fSp50S0W50FG17VstxQfjsSUpXU8JN7dSCXjDwRT7uOWjQO3EEQXOEZbvgbpVzdVows-KAwUhU-ldPlwO-W3EneSB6G3
 sprite $BookmarksLg [20x20/16z] pSe53eKm00JHtRht_gVz0lKOSIR-ChWJFQANQg-8HdGjNwh5cMxcSyft1gAwFvawOpEtcE2hp3xwOCsmafe1pR8bf5_CPeKhsYAR4MTV
-!procedure Bookmarks($id, $name="Bookmarks", $tech="")
+!procedure Bookmarks($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Bookmarks', $name, $tech)
 !endprocedure
 !procedure BookmarksCard($id, $funcName="", $content="")

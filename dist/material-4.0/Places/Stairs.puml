@@ -4,7 +4,7 @@ sprite $StairsLg [20x20/16z] {
 ZP250KGX3CLQtD_-qvxBnmaUl7IETjPzi4wz5IhqqpbyAS_AFPszhE02LwrJf0qgbv9ae7RYjRDrpjVhl6S1LAumKUj0CgNQ6VNzpU_DvV_3_xhoe79j3FfO
 QJhd3W
 }
-!procedure Stairs($id, $name="Stairs", $tech="")
+!procedure Stairs($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Stairs', $name, $tech)
 !endprocedure
 !procedure StairsCard($id, $funcName="", $content="")

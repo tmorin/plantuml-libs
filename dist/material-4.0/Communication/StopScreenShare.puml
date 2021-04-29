@@ -4,7 +4,7 @@ sprite $StopScreenShareLg [20x20/16z] {
 RT254O0m44JHZVjj_zMYX_F7c4SSVpdxjIvVT5mmjLAriDc2Pl3C0O4hefyMLjjnZBIRLwCOan5lutIaVfyMnuhnRXc5Oz_ej2YaucahwP7KD4KFc7x3OKon
 uBDXKTaULH5hAfvP_ZrTC_Xh1W
 }
-!procedure StopScreenShare($id, $name="Stop Screen Share", $tech="")
+!procedure StopScreenShare($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/StopScreenShare', $name, $tech)
 !endprocedure
 !procedure StopScreenShareCard($id, $funcName="", $content="")

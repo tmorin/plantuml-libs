@@ -4,7 +4,7 @@ sprite $OpenWithLg [20x20/16z] {
 VL1L0i0W55fP-C7zRpkxbSrw3TS9m6Go96RJQDGCqAtjla1QTzGeTqT8lNCaw3QXjN07KJfQSNcx1MbyLAskmXLBMp2skTZrS5tgB6QO6UuOwOOv6Y1r78qu
 QphZ1m
 }
-!procedure OpenWith($id, $name="Open With", $tech="")
+!procedure OpenWith($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OpenWith', $name, $tech)
 !endprocedure
 !procedure OpenWithCard($id, $funcName="", $content="")

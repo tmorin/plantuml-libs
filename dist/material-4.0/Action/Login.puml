@@ -1,7 +1,7 @@
 @startuml
 sprite $LoginMd [14x14/16z] ROs50S0m20IXNkptdxOkiKjmenR3oHS58Y2KCFbjE-4a8hCdMaHa5HZNqOrvkaMJBJT9v95U7qwOSdO
 sprite $LoginLg [20x20/16z] bP1L0aGX54BjLlQ_sfdNPP_Fcm2PHfi5RVYZH7707aMsGXKa-I8VDHCADOIiHZJyLHCfxW2XLAFPRg03FsoWhrgkEVUMPy3ph0GPvWy
-!procedure Login($id, $name="Login", $tech="")
+!procedure Login($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Login', $name, $tech)
 !endprocedure
 !procedure LoginCard($id, $funcName="", $content="")

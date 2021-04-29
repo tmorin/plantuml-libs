@@ -4,7 +4,7 @@ sprite $LocalFloristLg [20x20/16z] {
 VP35TS0m50HNPF6V_giDw9a3Sr_KWNDwas7JWn0CB0HT37Qw3X90Qm3nLBBCDk1ILqoIZA83Dy5B7gQx-usO9f2qupamlokzGgq0jNhvfSwCBFLLBW-smys2
 SbQqew4pWB1gWYsj2i2K9a2vpqq9O9oTnx5tE9takVJl1sCC-eTF
 }
-!procedure LocalFlorist($id, $name="Local Florist", $tech="")
+!procedure LocalFlorist($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalFlorist', $name, $tech)
 !endprocedure
 !procedure LocalFloristCard($id, $funcName="", $content="")

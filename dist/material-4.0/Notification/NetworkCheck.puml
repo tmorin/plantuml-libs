@@ -4,7 +4,7 @@ sprite $NetworkCheckLg [20x20/16z] {
 hSYrGG1G54Mny-IxtFsdnPqIKeQ_itZoBTg-aavMTrxrgnTjzA764z_IdJNSNRcaxN2auJphSflIWRm5YDhzNg3S10nYIwjgPeBnekf9MMf3bJUfKqcfJ2Nl
 mc59Ri5N8LtZko5jVb_d1nl3-0UF
 }
-!procedure NetworkCheck($id, $name="Network Check", $tech="")
+!procedure NetworkCheck($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/NetworkCheck', $name, $tech)
 !endprocedure
 !procedure NetworkCheckCard($id, $funcName="", $content="")

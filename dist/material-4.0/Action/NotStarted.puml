@@ -4,7 +4,7 @@ sprite $NotStartedLg [20x20/16z] {
 VL234G0n48oD_glzZvtiwEQq00zWGl3KWCBv02jWQv7OIN2ujlo0t8HkxDbqBbAfwaJ4dikL8IOlHX6-z21GzIFfFS1ZIUOUIxtZRUV0dMFJicjsSFT6zWp8
 cfKJSC_qWHy
 }
-!procedure NotStarted($id, $name="Not Started", $tech="")
+!procedure NotStarted($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/NotStarted', $name, $tech)
 !endprocedure
 !procedure NotStartedCard($id, $funcName="", $content="")

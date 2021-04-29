@@ -4,7 +4,7 @@ sprite $DynamicFeedLg [20x20/16z] {
 bP150iCW401nb_-_jiBgfKqo-E1hdf9ABkLJlAYy2SUkiOlAJO1SzAPlx9BR_QyBnzdZAfwtTlXEXAzpOysrFgwU0uuJoCrSpYUiN5Jb3tAHGtXlicTi3UCt
 CeqGC4Z9FEKD
 }
-!procedure DynamicFeed($id, $name="Dynamic Feed", $tech="")
+!procedure DynamicFeed($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/DynamicFeed', $name, $tech)
 !endprocedure
 !procedure DynamicFeedCard($id, $funcName="", $content="")

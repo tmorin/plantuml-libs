@@ -4,7 +4,7 @@ sprite $ExposureLg [20x20/16z] {
 ZT050eGW04HHkc7kVrfYs0xrsyz6NCy67sxvO3RXBRiil4f2MEQ1EYDvjIsWoRbP6CJ3q6Qafp7Ikv7UZHJqct4NxiL8SMwgVXXtj4Cq-l7DNh1gUIyjISMq
 LeRsSmpUnufqiG4
 }
-!procedure Exposure($id, $name="Exposure", $tech="")
+!procedure Exposure($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Exposure', $name, $tech)
 !endprocedure
 !procedure ExposureCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $SpeakerLg [20x20/16z] {
 VP254S0m30DrLsD1sN_QCjE7Fsny8ReYkugo4rZfnW7D9jUTdGD-T_RYQCQhMxcvsgo-EihK2W_N5eEJ3ZklWvGHmSaHCRa0VzUrHH7hUOTZDRKLh-zBrJo_
 Bq-n-elfdG4
 }
-!procedure Speaker($id, $name="Speaker", $tech="")
+!procedure Speaker($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Speaker', $name, $tech)
 !endprocedure
 !procedure SpeakerCard($id, $funcName="", $content="")

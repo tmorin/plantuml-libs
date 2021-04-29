@@ -4,7 +4,7 @@ sprite $SettingsPowerLg [20x20/16z] {
 dSxL0GCW30JG2-wt_xGrYjGbN_2YU1V6F5gjTo3TPAFS1BL1MfeKc7fTOhYIOXdp2gMRenbcwReboZ1XtAsKYwMnGf-_vuGUI_He02BrE8-sFoppoAf6Bu04
 DeM9XQoLB8DwLwerMVmHaYrYXCsoJ36WDNZs7KS
 }
-!procedure SettingsPower($id, $name="Settings Power", $tech="")
+!procedure SettingsPower($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SettingsPower', $name, $tech)
 !endprocedure
 !procedure SettingsPowerCard($id, $funcName="", $content="")

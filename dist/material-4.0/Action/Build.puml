@@ -1,7 +1,7 @@
 @startuml
 sprite $BuildMd [14x14/16z] VOl50KKn08DIzxB_jD_bERS8adom-jEWhcFHYz0aCvdcbHBLLC2zaeS9O7yI_4HJLr7McVQAFwvZ1Vmo5Yq8qXq
 sprite $BuildLg [20x20/16z] jSxL0OGm40JGbRXD_zNUuRBmoq3iHMaECzbaZ9uCom3GnM07qCvnaHtzJeB6H3nRtas1pWkXxCQOS26ayppioVU7m2pKD-HGQYe6bto7_CH09cKc6vdA7m
-!procedure Build($id, $name="Build", $tech="")
+!procedure Build($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Build', $name, $tech)
 !endprocedure
 !procedure BuildCard($id, $funcName="", $content="")

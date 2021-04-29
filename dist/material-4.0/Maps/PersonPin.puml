@@ -4,7 +4,7 @@ sprite $PersonPinLg [20x20/16z] {
 VOq70eCm200JmCdw_syBQUYkvxeSQje5G0JlPLKFT7sMBhdEphrQfbZqY3BJ5f_jANl8DbAtq2Fj2B7Ho1CieVeqOBu_jsf5jJL4D-mTDmrTii7SOUu2GtW-
 n_miuMhFCRdIUAfJAr3ScCq5PwXQvGMHzaNlxOeR
 }
-!procedure PersonPin($id, $name="Person Pin", $tech="")
+!procedure PersonPin($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/PersonPin', $name, $tech)
 !endprocedure
 !procedure PersonPinCard($id, $funcName="", $content="")

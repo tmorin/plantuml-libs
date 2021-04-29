@@ -4,7 +4,7 @@ sprite $StarRateLg [20x20/16z] {
 bS_L0SCW543H9BZU_QUjuV1Ld8E-wzyavMdUdPRIGGAUtGoOtIA4CRF1Uny0VWFxjISmfN2NdNgGxiUVM2JEJwjYQWcYc9_epX0YvCaaVA9r88SvLBdL3VDF
 wOMVxZi6Hte3
 }
-!procedure StarRate($id, $name="Star Rate", $tech="")
+!procedure StarRate($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/StarRate', $name, $tech)
 !endprocedure
 !procedure StarRateCard($id, $funcName="", $content="")

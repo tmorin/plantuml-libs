@@ -4,7 +4,7 @@ sprite $LocalActivityLg [20x20/16z] {
 fP2r0KCn30NFp7hxJnlc_CxNY94jykYVP23eXm3feOxnKDBR5zEVpy1UFjUb4O877yEGkWEOKeKhLPhmyAbVbIvfN1NNzFIDgzRSSqQcDVBttBAaLTw-7zBX
 RRy_69ajpW
 }
-!procedure LocalActivity($id, $name="Local Activity", $tech="")
+!procedure LocalActivity($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalActivity', $name, $tech)
 !endprocedure
 !procedure LocalActivityCard($id, $funcName="", $content="")

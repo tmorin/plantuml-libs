@@ -1,7 +1,7 @@
 @startuml
 sprite $MmsMd [14x14/16z] TSp50G0n30F13NFSVxN73FCpIDpvUl1GvL1_fdvClKjLRP-CxHgpJHuKuDUfRhuwKrX50orouVWr0W
 sprite $MmsLg [20x20/16z] dSwr0SGm0C10cTdUVzh7C2SghnARIJDBVgcsMVM3fYqoZwokpUgP1TTQ13-n3B7oAG_sNHA2tsnlGPik7Qx_wQNLblYPHupnjGyjCu6dlG4
-!procedure Mms($id, $name="Mms", $tech="")
+!procedure Mms($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/Mms', $name, $tech)
 !endprocedure
 !procedure MmsCard($id, $funcName="", $content="")

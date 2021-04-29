@@ -1,7 +1,7 @@
 @startuml
 sprite $BatteryAlertMd [14x14/16z] TOk35S1G00Dh1ljFM_FZ7eChOYgWUa876zsTw0tcqZ1yKzlcavJtnl5DyeRkD1BWM4Ii
 sprite $BatteryAlertLg [20x20/16z] Oy03c5bPcT75kFZvkL15sBdu-FdvkDYHX9ZueO29F35EJamn9YRonTZOyDkBK8VBF0hyneWIec30Z3lC0G
-!procedure BatteryAlert($id, $name="Battery Alert", $tech="")
+!procedure BatteryAlert($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/BatteryAlert', $name, $tech)
 !endprocedure
 !procedure BatteryAlertCard($id, $funcName="", $content="")

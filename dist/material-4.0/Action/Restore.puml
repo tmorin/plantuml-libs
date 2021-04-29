@@ -4,7 +4,7 @@ sprite $RestoreLg [20x20/16z] {
 bOu54WGn20JZ7kR_lpsWvgnyUpMDXeV4sblvCsd1aFvLHR1hBlrYHwe4i6nWqsraVTVeihdAcFQ1vyfrrv6_RYBf4c4XnOzhzfbGZagRIQTfkCcc7tJMgXGk
 rJPdA5I1kv31dJjs81bO9ULsV1X96yxWcRRrNi8pNW
 }
-!procedure Restore($id, $name="Restore", $tech="")
+!procedure Restore($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Restore', $name, $tech)
 !endprocedure
 !procedure RestoreCard($id, $funcName="", $content="")

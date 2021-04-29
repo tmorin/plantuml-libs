@@ -4,7 +4,7 @@ sprite $GrassLg [20x20/16z] {
 fSY53KDH34FH-nYIoFjFM-QA_n4OE2eL_kt1dw8EaFVaBPHXoFYmr1WAFasHfSP3Ia1VB0qUYnwnCk2LiY8wLycb0PafUUBXVbulNegaJ4Y5DvCMMyPTqrtG
 xwL2iNrbwz6iSCGP
 }
-!procedure Grass($id, $name="Grass", $tech="")
+!procedure Grass($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Grass', $name, $tech)
 !endprocedure
 !procedure GrassCard($id, $funcName="", $content="")

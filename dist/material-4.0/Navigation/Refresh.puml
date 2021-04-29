@@ -4,7 +4,7 @@ sprite $RefreshLg [20x20/16z] {
 fL1N3a0X29FXrlJ-ftqRoVks3XesX7rmhYtpHSGqLF6WXj9DDT2LI3icsgUho2_fC1tZ2oXOkWmrrT8rq2D5-BgkStZi1qxy4JJJDSXYoI9gy9wR44d3yCpK
 yA3HVmVjsS4sJW
 }
-!procedure Refresh($id, $name="Refresh", $tech="")
+!procedure Refresh($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/Refresh', $name, $tech)
 !endprocedure
 !procedure RefreshCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MenuBookLg [20x20/16z] {
 fOu5iWKm20CXeTx2_K_xvRdhZksWaUy0IVqNnKxoZ3zyc6qaPXR4aL5BQHuurh9iAASraLHhusdD6JwdrtnQWu4qAMUr6UvnFiTAWETpMbTSpjagniIpB7gT
 pv67HyovgQqnnjhKvqQWbV8F-jX9KNcHNm
 }
-!procedure MenuBook($id, $name="Menu Book", $tech="")
+!procedure MenuBook($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/MenuBook', $name, $tech)
 !endprocedure
 !procedure MenuBookCard($id, $funcName="", $content="")

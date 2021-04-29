@@ -4,7 +4,7 @@ sprite $DesktopAccessDisabledLg [20x20/16z] {
 RP253KKn30ETbD7xJ_kmKlhXnAUWyGTLQFJ1y88-HGPtEZo7o5vMgKeEnKQwNPjpb_bsIRYarMMu9SqbcBGwa-PCxcv9sui7VKvQTQFUjDBlojG65ON6L1ai
 0EG2g6HzZXSin7UoEx-_6VZWbIPNMW9dbORhYXC
 }
-!procedure DesktopAccessDisabled($id, $name="Desktop Access Disabled", $tech="")
+!procedure DesktopAccessDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/DesktopAccessDisabled', $name, $tech)
 !endprocedure
 !procedure DesktopAccessDisabledCard($id, $funcName="", $content="")

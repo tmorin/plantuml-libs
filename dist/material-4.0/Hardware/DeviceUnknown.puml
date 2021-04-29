@@ -4,7 +4,7 @@ sprite $DeviceUnknownLg [20x20/16z] {
 VT053e1044FHfZiuTEv_MxAAysFDmq6CBTHwR_NLjiFM5zkQYO4a0tLON6Pn7IPGxY8kvwrE-XBNOOC1amuhYpxTBLvwjrbuc8MdhUlDtjwP9HtchLyRNluf
 64f4R0S
 }
-!procedure DeviceUnknown($id, $name="Device Unknown", $tech="")
+!procedure DeviceUnknown($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/DeviceUnknown', $name, $tech)
 !endprocedure
 !procedure DeviceUnknownCard($id, $funcName="", $content="")

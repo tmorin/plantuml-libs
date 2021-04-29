@@ -1,7 +1,7 @@
 @startuml
 sprite $CasesMd [14x14/16z] Oy04ZDoyl9nm7WylAni_Eup7nip0mCg2gOSJHOoNZM8U4v37nGO5B22R-NWXW8yLtN8
 sprite $CasesLg [20x20/16z] hOv50iGm548ZC5Fd_gUjMtJL5_sEgG62BdIrsl1lrqyjm6bw-_xQwZe5jVQvyxZM9JwAYGyP7x_t9KeX1FBzdjU05w3V_4u1VxFXY20jpm8
-!procedure Cases($id, $name="Cases", $tech="")
+!procedure Cases($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Cases', $name, $tech)
 !endprocedure
 !procedure CasesCard($id, $funcName="", $content="")

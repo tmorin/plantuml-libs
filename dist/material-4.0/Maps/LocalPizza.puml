@@ -4,7 +4,7 @@ sprite $LocalPizzaLg [20x20/16z] {
 bSu30i0m343H54Fvxt_QsTwhcSWzPQmrIZQiptIoDyiTpyAFTtK2fnsZfALZ8NL3OcIbvybAL6RWPA0XLf6Hbb7Debu2PyZMzlsQOWdbrAyYbKXDb0qBpe6L
 hK0do8wXOsJFBUck52WvgclvgmK
 }
-!procedure LocalPizza($id, $name="Local Pizza", $tech="")
+!procedure LocalPizza($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalPizza', $name, $tech)
 !endprocedure
 !procedure LocalPizzaCard($id, $funcName="", $content="")

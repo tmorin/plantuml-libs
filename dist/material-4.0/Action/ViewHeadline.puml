@@ -1,7 +1,7 @@
 @startuml
 sprite $ViewHeadlineMd [14x14/16z] Oy0B69cWW174u-JdumS2FdvEi1mSW7WSF5300UAni4412oQFWnUYa1UiaW5X2AOD2Dln0W
 sprite $ViewHeadlineLg [20x20/16z] hS-r0S1020NGSmVsdpRk-IMln37w2jE5wnwhJ7muObWikHnoYNkioKFROzOzs3Dc7p7SYtTW5Vm1Ohfc
-!procedure ViewHeadline($id, $name="View Headline", $tech="")
+!procedure ViewHeadline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ViewHeadline', $name, $tech)
 !endprocedure
 !procedure ViewHeadlineCard($id, $funcName="", $content="")

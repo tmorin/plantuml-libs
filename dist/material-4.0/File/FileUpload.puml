@@ -1,7 +1,7 @@
 @startuml
 sprite $FileUploadMd [14x14/16z] XSc54O0m3010t6BxJmlKlOt_PHe6G0mHY15uaX9TqHFTdGiJBTkss7E-xkiy_p5h0G3YFxJQyG4
 sprite $FileUploadLg [20x20/16z] fSo35G11303HjQB-gptRcESVgBSPioTcioKIeJNgXcQSgKKzaMKPOZjPSAMLua9ZKwcrj80JYm_tZ6yowZgKAPoUGHc2f7vM0m
-!procedure FileUpload($id, $name="File Upload", $tech="")
+!procedure FileUpload($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/FileUpload', $name, $tech)
 !endprocedure
 !procedure FileUploadCard($id, $funcName="", $content="")

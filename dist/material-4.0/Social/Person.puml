@@ -1,7 +1,7 @@
 @startuml
 sprite $PersonMd [14x14/16z] XSor0G0X30NG2AxxJukdEk5LqGytv3s1m59hGUbq7PHqF3i6OKeny4w7b88-yRakcMONwX5MH3Wi_Ee
 sprite $PersonLg [20x20/16z] hSt50SH030D0BVEw_shlmh4_uNaQ97p0fcGX1He4S9ec6eoRPmwCcMS6NA51WQ1oxqdXb3BM6YLgIwT1BquMp0fcaPWuppAVvNaMIjwKW7V-
-!procedure Person($id, $name="Person", $tech="")
+!procedure Person($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Person', $name, $tech)
 !endprocedure
 !procedure PersonCard($id, $funcName="", $content="")

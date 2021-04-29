@@ -4,7 +4,7 @@ sprite $VisibilityOffLg [20x20/16z] {
 ZT070iCW20LGHjoYzxzj_TAzQPF0Sqj_X_8BoQpxeoetJ0kvpnMMhnmN7iCCdCxM9dgkuMqYGzJfQM2wO0JbbGPZGHw91oQd0enaA2wMV11idCSAcgftYBui
 oeZXn-v-GI7AmBO91UQqFVmQMcnpkqE_0_LZFWLGNr7eVPm
 }
-!procedure VisibilityOff($id, $name="Visibility Off", $tech="")
+!procedure VisibilityOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/VisibilityOff', $name, $tech)
 !endprocedure
 !procedure VisibilityOffCard($id, $funcName="", $content="")

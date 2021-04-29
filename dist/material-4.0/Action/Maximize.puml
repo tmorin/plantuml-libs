@@ -1,7 +1,7 @@
 @startuml
 sprite $MaximizeMd [14x14/16z] Oq05Z2nmmCZ0mCpF1mNyp0o35m
 sprite $MaximizeLg [20x20/16z] Oo0Qi72mSy00aCa24kFWHm4S8356PYOamCp8G08O1G
-!procedure Maximize($id, $name="Maximize", $tech="")
+!procedure Maximize($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Maximize', $name, $tech)
 !endprocedure
 !procedure MaximizeCard($id, $funcName="", $content="")

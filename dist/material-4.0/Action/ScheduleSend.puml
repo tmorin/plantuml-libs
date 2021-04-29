@@ -4,7 +4,7 @@ sprite $ScheduleSendLg [20x20/16z] {
 ZP15WWD020G76BVw_s-NZNlIDuf6mwzIUsQ97fyPp2nF37RL9mRUufd1BEdOG-hON5LELh7S5dJJD6adgAakSeXkwkHhhUVhyd2lwunuPA4X5-Od5f8dq0lp
 q64Eu-HRsPZ1PQACu6pyM-fn2LtOzLUTtUg076wK5p0UlwbwFFSF
 }
-!procedure ScheduleSend($id, $name="Schedule Send", $tech="")
+!procedure ScheduleSend($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ScheduleSend', $name, $tech)
 !endprocedure
 !procedure ScheduleSendCard($id, $funcName="", $content="")

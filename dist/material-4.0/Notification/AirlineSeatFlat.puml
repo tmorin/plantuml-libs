@@ -1,7 +1,7 @@
 @startuml
 sprite $AirlineSeatFlatMd [14x14/16z] dSV70O103CH0NKvht7-rv0PWNX9_9IcCpKupWDpxyjk0wTxU4uJUgEFMO9fidIIRK6ePVffdS8czjHxvv
 sprite $AirlineSeatFlatLg [20x20/16z] lSo50GCX50DGt27xRzlWBD1xE5_4DwJYqcgQNnx8t9RSVpN8dJyK_bbGT3WqEpMUvkR1zk9Sd72rBDKmpv2TnbMkVY_BF6ki2HW2hyoR31euhNZ9GVp73m
-!procedure AirlineSeatFlat($id, $name="Airline Seat Flat", $tech="")
+!procedure AirlineSeatFlat($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/AirlineSeatFlat', $name, $tech)
 !endprocedure
 !procedure AirlineSeatFlatCard($id, $funcName="", $content="")

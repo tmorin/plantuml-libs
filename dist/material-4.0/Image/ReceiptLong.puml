@@ -4,7 +4,7 @@ sprite $ReceiptLongLg [20x20/16z] {
 VOu55aGX2021LScttF-qlxl67XM0TmWGvmbdWTQoHOoJCyDC7f3LET84bjqP4E4OZdQdBGTOyxSx8swDgJGwk9-fMgbw-zlEVm47njftvp3oxQfR_ct2r_ea
 T-Z9uUpQmObaWv4uo2rRgHi5NkW1
 }
-!procedure ReceiptLong($id, $name="Receipt Long", $tech="")
+!procedure ReceiptLong($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/ReceiptLong', $name, $tech)
 !endprocedure
 !procedure ReceiptLongCard($id, $funcName="", $content="")

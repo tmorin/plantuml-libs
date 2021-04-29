@@ -4,7 +4,7 @@ sprite $BlockFlippedLg [20x20/16z] {
 VP254SCm303DqAlq-q-Rn5YksI-M-JDS2Eu5sA80Mkn6Nf4IKn74BmHnl18CQ0NA5aitByHAdJ2HswLYp6r3qQRU3JSiN2c57c33H5XimzYONq5xe6uxOZmq
 HMSk4rPA75PMyHkYe-I0Jir8Yp1Wxq7CTpGyzOhNNetXG_3cppW1
 }
-!procedure BlockFlipped($id, $name="Block Flipped", $tech="")
+!procedure BlockFlipped($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/BlockFlipped', $name, $tech)
 !endprocedure
 !procedure BlockFlippedCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AirportShuttleLg [20x20/16z] {
 hSYr0KL124HHO5s6wR_Q9zyrsniWHrQNSJHlerp8IC3fb-6ye9thFXGNDDQNOGT-sXMDFYVk0zD9Ctxqtpn6NXlQJjCufWX6J2anIs1EAiTgZK6E6ZEcN4f0
 kXpQlAkiRmS
 }
-!procedure AirportShuttle($id, $name="Airport Shuttle", $tech="")
+!procedure AirportShuttle($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/AirportShuttle', $name, $tech)
 !endprocedure
 !procedure AirportShuttleCard($id, $funcName="", $content="")

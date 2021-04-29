@@ -4,7 +4,7 @@ sprite $PlumbingLg [20x20/16z] {
 ZSs50S0W40F0ztgp_xPr5mX-62N2yY3h4NV2cE8C8gFqWE_awAs2IOzcDyM8ekDu6Fk85KfIFPwFm9JoV1DIpyYRDO0LaxWSltOB6PtpGcKMnPEeUH85-f5k
 4QPa1W
 }
-!procedure Plumbing($id, $name="Plumbing", $tech="")
+!procedure Plumbing($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Plumbing', $name, $tech)
 !endprocedure
 !procedure PlumbingCard($id, $funcName="", $content="")

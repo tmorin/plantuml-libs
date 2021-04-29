@@ -1,7 +1,7 @@
 @startuml
 sprite $AirplayMd [14x14/16z] dST50eHG30FGvASpMEN-jwKRTCch1a-oas2LfxB9SVBvaQRFAJW02HYCILN9Nc9M2XoqQjOF6hTm3oVUTW
 sprite $AirplayLg [20x20/16z] lSY53SD040J0FOYUR_klDin6aKSys4jJ_f4K4lmJeYnY-cPIgCgC7sdcyiobeoxXplthOaG3Z3IWnGWgqhYT1Hbskv5mTwzxVZYV_EjEJuub5m
-!procedure Airplay($id, $name="Airplay", $tech="")
+!procedure Airplay($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Airplay', $name, $tech)
 !endprocedure
 !procedure AirplayCard($id, $funcName="", $content="")

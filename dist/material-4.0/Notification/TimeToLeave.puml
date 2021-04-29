@@ -4,7 +4,7 @@ sprite $TimeToLeaveLg [20x20/16z] {
 fSp5WKD130DG3QEj_glTJOR2f_zk1WaN-NOuB2Ab3aLalz5YiLoFfUEGWa4ZZgGhskhHw76J-IAFToPJELJalNE872BytlMi73GBy-y-wlvJxZ-rPh4wTwvb
 7BavNF8F
 }
-!procedure TimeToLeave($id, $name="Time To Leave", $tech="")
+!procedure TimeToLeave($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/TimeToLeave', $name, $tech)
 !endprocedure
 !procedure TimeToLeaveCard($id, $funcName="", $content="")

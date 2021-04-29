@@ -1,7 +1,7 @@
 @startuml
 sprite $ForwardMd [14x14/16z] Oo0869bHU7miK1OpAoih6py_L9QB7mAOKNZyBBXvBCYci63OWB2T8
 sprite $ForwardLg [20x20/16z] hSwr0O0040H1tE7whnRdxGX_mucsIAbcAjSV10pMxHsmAKwGQZ91CK6oHas9hAONDFJCL6v2QdMHqG4
-!procedure Forward($id, $name="Forward", $tech="")
+!procedure Forward($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Forward', $name, $tech)
 !endprocedure
 !procedure ForwardCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $TimerOffLg [20x20/16z] {
 RSx70SGW34JH8MUc_svNAvpjT-EJXCLOON2JAJ9kN8enEUmYX8qvHxidpm8qgkPwqPWaXk80NyutiqGf7d2J5ggI5HX37wgQB6lyN-yGRHsC3FgcBWB3-iD2
 uvzZMirXnRDvHXmnqaCOTXonqsppfNFuXALVuivqZXn27ZhyBasA6TCrmdcl8mry-m4
 }
-!procedure TimerOff($id, $name="Timer Off", $tech="")
+!procedure TimerOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/TimerOff', $name, $tech)
 !endprocedure
 !procedure TimerOffCard($id, $funcName="", $content="")

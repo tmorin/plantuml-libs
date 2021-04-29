@@ -4,7 +4,7 @@ sprite $BlurCircularLg [20x20/16z] {
 VP053WH120GFpIhy_xVNh3infZA5_Jw2LVa4g8b4H4CRaiYnSM_635cGPjgSUUOCAP0GgD5FCYQzcNuXfUbdKon6lDZnPYHZL8DiO7aIfPF1OdI0khkGzOcT
 N9lTvnxdMMoUXI9kCwDBW5HOL8SPrWtCwWPwk5Nkjzf3LENhvdy
 }
-!procedure BlurCircular($id, $name="Blur Circular", $tech="")
+!procedure BlurCircular($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/BlurCircular', $name, $tech)
 !endprocedure
 !procedure BlurCircularCard($id, $funcName="", $content="")

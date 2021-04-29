@@ -4,7 +4,7 @@ sprite $ReportOffLg [20x20/16z] {
 RT254S0m30F0KBcMzf-s42PTZZvaMyrYpMWG_Mtis_uj6ytnmui-g55BXoll3-4PnfC5ATfemu8x-QCAnlstZH6bsCw8Mdhp7zLtyydstBPv36Rn4vJ6ZxTL
 1Q_Bl-abey-8M24PywmiPPodWrMpl
 }
-!procedure ReportOff($id, $name="Report Off", $tech="")
+!procedure ReportOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/ReportOff', $name, $tech)
 !endprocedure
 !procedure ReportOffCard($id, $funcName="", $content="")

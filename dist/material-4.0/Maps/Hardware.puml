@@ -1,7 +1,7 @@
 @startuml
 sprite $HardwareMd [14x14/16z] ZSh50GCX40NGSHpwhpPPTtktBt12p4n0D8JGEebRx8ErNgrJIg7skK-3r3rjIM8ceB9DdUMPTobzIoH2SFO7
 sprite $HardwareLg [20x20/16z] jSk35K0n50FGrExRVzflc_Sum1rC6MkDbU1MTP7Cr318vBjL5v6Br6UM9hfC1-yJLNAVJRRMRMJmqupn2WC4NsV0wlj_PkOPjnMEUqe
-!procedure Hardware($id, $name="Hardware", $tech="")
+!procedure Hardware($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Hardware', $name, $tech)
 !endprocedure
 !procedure HardwareCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $AppsMd [14x14/16z] VKt50S0m48hddFsdhRtgvmhfLuQEB9Atj7S2AK0LwB6JdfbpbsENIqwb7Ecuv08KXboxw-KLvSfmO_-L5G
 sprite $AppsLg [20x20/16z] Ow0Ci7DpioCHOC35pyyD9xYmYs7g7JPsK0O
-!procedure Apps($id, $name="Apps", $tech="")
+!procedure Apps($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/Apps', $name, $tech)
 !endprocedure
 !procedure AppsCard($id, $funcName="", $content="")

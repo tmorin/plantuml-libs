@@ -4,7 +4,7 @@ sprite $ImportantDevicesLg [20x20/16z] {
 RSi54e1034FHj7HTSl_JuWvl_4-2F-Rkp2bG-D8LhFROHJemuy7TcWxVvlEx-LWPem3Gf7lJIdQ7tVvrP08GsoplBOMX253xtBWt0KI0fQFkRLUNrjZpeRYz
 1LxYtY0B1BAUNop4CjcSedfpjZKzlrnWvLOATMPkm8y9
 }
-!procedure ImportantDevices($id, $name="Important Devices", $tech="")
+!procedure ImportantDevices($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ImportantDevices', $name, $tech)
 !endprocedure
 !procedure ImportantDevicesCard($id, $funcName="", $content="")

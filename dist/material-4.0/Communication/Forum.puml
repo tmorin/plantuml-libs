@@ -1,7 +1,7 @@
 @startuml
 sprite $ForumMd [14x14/16z] XSUr0G0W00EmuWx_NulhHBRWPOBlJ9zFGtmMeCGr4iDlLkbAe2rOmcZ3Kfs4IfD7HRLgJDkX0su2hm8
 sprite $ForumLg [20x20/16z] fSY35K1H30Mm--ns_sc_RUGuEAJDH8t52x8_StzYVu99RKyoc_zN1XdJMOocCt1-u49_3eAN33gPQJ0Vn01-lfa_E0I3fse
-!procedure Forum($id, $name="Forum", $tech="")
+!procedure Forum($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/Forum', $name, $tech)
 !endprocedure
 !procedure ForumCard($id, $funcName="", $content="")

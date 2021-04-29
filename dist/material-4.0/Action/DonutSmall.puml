@@ -4,7 +4,7 @@ sprite $DonutSmallLg [20x20/16z] {
 VT050iCm00B0mjpW_xzTcDGYL7FnJ8CSoeqru2gJreqp7MN7Iav_SXAR4LgR6BjwRRx5v4J0xoUBcBlmYuVCCFS0atdMwzhcllC2Zeqvq5aBj37MUpltpY31
 JJ7TELEqhE28gPyt
 }
-!procedure DonutSmall($id, $name="Donut Small", $tech="")
+!procedure DonutSmall($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/DonutSmall', $name, $tech)
 !endprocedure
 !procedure DonutSmallCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $AccountBalanceWalletMd [14x14/16z] NOs30G0n40Jdy5R_rRwLdUGi18yRFuBb9I0FszSxZKFimKJamLKREJl7D-fzraWxTSjtGQ_ZUHBf21i
 sprite $AccountBalanceWalletLg [20x20/16z] ZP254S0m24L9Bnpnl_-qqRg_DeO3_OUDc1anUeXmW9lCO936PffCq0WJxJ2p2y-edGmpl9Cbf72M0PhiW-pJTuOVQfbhLiUQ1wa3ypI3uwoO_bC
-!procedure AccountBalanceWallet($id, $name="Account Balance Wallet", $tech="")
+!procedure AccountBalanceWallet($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AccountBalanceWallet', $name, $tech)
 !endprocedure
 !procedure AccountBalanceWalletCard($id, $funcName="", $content="")

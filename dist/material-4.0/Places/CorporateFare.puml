@@ -4,7 +4,7 @@ sprite $CorporateFareLg [20x20/16z] {
 ZP250GCn2029mYlxRrkqRXU_EF0lbP0Kl7E3Wt9pdMUfjMpyi2vSguwv9uQw5UM6W-qkNCr99QmSHxax3u4PkdIWfpjFTwUuptlZ3gZIvBh0Uk5k_wYrkkiF
 _oXJtUi_8bOta2hyomK
 }
-!procedure CorporateFare($id, $name="Corporate Fare", $tech="")
+!procedure CorporateFare($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/CorporateFare', $name, $tech)
 !endprocedure
 !procedure CorporateFareCard($id, $funcName="", $content="")

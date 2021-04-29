@@ -4,7 +4,7 @@ sprite $EvStationLg [20x20/16z] {
 bSwr0G0X44JHmNLt-g_st2_Yuoy20yMSbX6VbBWNhPZJwc4Lik9bsbUpNF2oL5Rh8lqoHLsDpj6SbdRhAfU9WObiCBbU5fQzaSomb_MCI3PFUzlwjNLxMOdy
 MPU_aOUvdpMoOIlabFEo0anA66W6
 }
-!procedure EvStation($id, $name="Ev Station", $tech="")
+!procedure EvStation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/EvStation', $name, $tech)
 !endprocedure
 !procedure EvStationCard($id, $funcName="", $content="")

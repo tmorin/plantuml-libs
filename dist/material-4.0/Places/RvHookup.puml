@@ -4,7 +4,7 @@ sprite $RvHookupLg [20x20/16z] {
 XT250S0W30J0u9xVVzkIkdEu2mqfUigQ3gvaWNRgZ5Yvyqw2MjZRSQlflQiYn5a8VktpEDaMHzP6DnHj30gjR4yLkUTRdt7MESUelP01aN7uwqiuOojzkhQ6
 e84cf6zca3mY7TOzs-FpZ9MkRnC
 }
-!procedure RvHookup($id, $name="Rv Hookup", $tech="")
+!procedure RvHookup($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/RvHookup', $name, $tech)
 !endprocedure
 !procedure RvHookupCard($id, $funcName="", $content="")

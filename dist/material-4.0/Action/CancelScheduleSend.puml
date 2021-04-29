@@ -4,7 +4,7 @@ sprite $CancelScheduleSendLg [20x20/16z] {
 ZT05ZWGm34DH1yfDVV_RhZ9TvYTAljZu9p5yeTpbQoEZoQUMph3FBQtokQLehHfIMuVlx5kXfUzyg_aW_JRFDf3i746RmRGX2YYSNSchGaD71o9Ucm762M3n
 jXFPnbe6x4SxNOmTsk4DmgNS5G22YeV18eu7vybB1YTU5JBcuaqlT1pUCPy
 }
-!procedure CancelScheduleSend($id, $name="Cancel Schedule Send", $tech="")
+!procedure CancelScheduleSend($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/CancelScheduleSend', $name, $tech)
 !endprocedure
 !procedure CancelScheduleSendCard($id, $funcName="", $content="")

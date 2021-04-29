@@ -4,7 +4,7 @@ sprite $LoyaltyLg [20x20/16z] {
 VSw50O0m34JHE4xsdnOxt3x-WBRqchZvb9sfJrGVvjbwSqDBduuhUZPI9QfsErNV3GXxek5MlM_KkdNCUg9sNYWJwNHlAzQ4U38bO2-m8ZE8LkmM3D21LmAo
 WyxOWou8kcPAFuq
 }
-!procedure Loyalty($id, $name="Loyalty", $tech="")
+!procedure Loyalty($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Loyalty', $name, $tech)
 !endprocedure
 !procedure LoyaltyCard($id, $funcName="", $content="")

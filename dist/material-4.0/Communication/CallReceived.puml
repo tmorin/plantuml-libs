@@ -1,7 +1,7 @@
 @startuml
 sprite $CallReceivedMd [14x14/16z] ZKe35e0051koTl_JPZtMvuHVLVfDKhv9jNzsV0Wq2TKTqyJDkLcpEHTB6egtbsbAVvjR4L-r
 sprite $CallReceivedLg [20x20/16z] hSi52i104CNGgMlwxt_QkgzW6_n1B5sLIvrgb_eOrSVGlyZ07S6XrHnQpQ7L7B9HwkmN4cjJ_R8U74lP0W
-!procedure CallReceived($id, $name="Call Received", $tech="")
+!procedure CallReceived($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/CallReceived', $name, $tech)
 !endprocedure
 !procedure CallReceivedCard($id, $funcName="", $content="")

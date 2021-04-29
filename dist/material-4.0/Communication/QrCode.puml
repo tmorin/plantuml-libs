@@ -4,7 +4,7 @@ sprite $QrCodeLg [20x20/16z] {
 ZP250WCn24D9Jg2p_F_VhkdSz-vgECJVp9NL0RndpPQL1gG6PLbg9fe0DN0-oKhq1lZ9RxAMkHMXNMQpx7qES111C-5HXi2Gt7oTux2tv9OZ7lhWUSjpGJUP
 dxiTSUlj8WDkEHvzBxEAcFhc7Fzo1
 }
-!procedure QrCode($id, $name="Qr Code", $tech="")
+!procedure QrCode($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/QrCode', $name, $tech)
 !endprocedure
 !procedure QrCodeCard($id, $funcName="", $content="")

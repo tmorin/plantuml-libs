@@ -4,7 +4,7 @@ sprite $TouchAppLg [20x20/16z] {
 bS-r0GKX50NHYplJVxNVTL-qat5mdIoMT10tWUN_h5D3PlujeyMT2k77FBan8r4_KHeZuN-jFgpflyvqpffaZ96imKh6Vl_YKtWR-MK3rdvPVA-xmwiWWzl9
 u98CrllW2W
 }
-!procedure TouchApp($id, $name="Touch App", $tech="")
+!procedure TouchApp($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/TouchApp', $name, $tech)
 !endprocedure
 !procedure TouchAppCard($id, $funcName="", $content="")

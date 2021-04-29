@@ -4,7 +4,7 @@ sprite $LocalMallLg [20x20/16z] {
 lSXL0iKm20NHcmJgCFjVxNEfVVT46NtLgXqB2DEQa-C8cnXKgHAhr1XLYaRg9vGb4pBVzrBqq0DJy10JqEjXW93pu4eOFWtJ19ESLOkY-jYnRcHVQv-isifr
 pTWmFJLVQJft1m
 }
-!procedure LocalMall($id, $name="Local Mall", $tech="")
+!procedure LocalMall($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalMall', $name, $tech)
 !endprocedure
 !procedure LocalMallCard($id, $funcName="", $content="")

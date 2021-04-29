@@ -1,7 +1,7 @@
 @startuml
 sprite $BookMd [14x14/16z] fSS53i0m30J12oUsJ_t_QyiCegve1xSYIPkAazHIrcvCPbMW7cf0-vBKUaYc-wr4csF4hG4
 sprite $BookLg [20x20/16z] Oy01c5bPMA606Ih4ney4s21YNFn0TIoy434kc1Y8H1TZn2B6GBGO8veODpyhBnyhkZem670npB22XoaSCECATm
-!procedure Book($id, $name="Book", $tech="")
+!procedure Book($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Book', $name, $tech)
 !endprocedure
 !procedure BookCard($id, $funcName="", $content="")

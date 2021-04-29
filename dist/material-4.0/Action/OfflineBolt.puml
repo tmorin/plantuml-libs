@@ -4,7 +4,7 @@ sprite $OfflineBoltLg [20x20/16z] {
 VSu7ZWCX44JHJckJ-_wtNHS56iLvIkYJMbvOX0cHbfa_ywjo-K91NdvJRfy4Hfq9pHAcG4aUOCilsZacfytdDHUjPM1b8d6EmMvnco7z9HllhbA3nxWzSwlo
 UOOfRELi5ZHTN4V2Ke7WtNv_O5mui4yXaHQMeaBa4Iul_W4
 }
-!procedure OfflineBolt($id, $name="Offline Bolt", $tech="")
+!procedure OfflineBolt($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/OfflineBolt', $name, $tech)
 !endprocedure
 !procedure OfflineBoltCard($id, $funcName="", $content="")

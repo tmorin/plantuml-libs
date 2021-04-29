@@ -4,7 +4,7 @@ sprite $EscalatorLg [20x20/16z] {
 ZT150iKm409GeaCgm_rF-rtgBJjUFBYUGkCdnlmcpLAUnbzrbyIdsPSIGXp5wRpsB9riOXwHs3IRPy0WpMmCg5fO1SQ53O1fPeq9qITcxriqpMm80KcQhtLt
 pMph3-P_LN0zTm
 }
-!procedure Escalator($id, $name="Escalator", $tech="")
+!procedure Escalator($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Escalator', $name, $tech)
 !endprocedure
 !procedure EscalatorCard($id, $funcName="", $content="")

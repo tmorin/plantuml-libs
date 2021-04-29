@@ -1,7 +1,7 @@
 @startuml
 sprite $CheckBoxMd [14x14/16z] NOtL0S0W34GFTzX_snOdUL-H4p2aMiY-jCE_whjfGAtHgxwjNq1egcykzoKjfK7jozgQ1UAJOllIDzB0so7rGeBn0G
 sprite $CheckBoxLg [20x20/16z] ZT170aGH40JGdsNkVzkPaZEruedTntvUIgWFeOyZK-I5qT8eZ6GWDQpOn_yRYBT8fopsWIuLxsCOUug6cQTubXyt1MK619M6AmT_BlOLDkX1sIlGRdu
-!procedure CheckBox($id, $name="Check Box", $tech="")
+!procedure CheckBox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Toggle/CheckBox', $name, $tech)
 !endprocedure
 !procedure CheckBoxCard($id, $funcName="", $content="")

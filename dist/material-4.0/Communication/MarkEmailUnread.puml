@@ -4,7 +4,7 @@ sprite $MarkEmailUnreadLg [20x20/16z] {
 hSo55GCX44NHXpk__sx3YRlVNMoCbuntDw4X5PPOTreYQt7WTD2eMZm4fQgjWT_kh3CIvpQOyBKO86p75ca_tjfjJ3FWnd34tfh2DhOq0wPfsSUsOfHEiPD_
 n9okE22sUgP5Vh81
 }
-!procedure MarkEmailUnread($id, $name="Mark Email Unread", $tech="")
+!procedure MarkEmailUnread($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/MarkEmailUnread', $name, $tech)
 !endprocedure
 !procedure MarkEmailUnreadCard($id, $funcName="", $content="")

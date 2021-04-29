@@ -4,7 +4,7 @@ sprite $SpellcheckLg [20x20/16z] {
 bO-50O0W54JfXjj_MhibJwdtcmn9wHzYWFWo3TWlIzw2lf60P51lvXQd65-8hiaq-Bj2YZ6ULUYME22kBErLGbWsZgrX2RaxcAq2snjQ7EYEY5X7O99mkNez
 XlIGfzSb5XUueJVSq0Tkw2skIKKp
 }
-!procedure Spellcheck($id, $name="Spellcheck", $tech="")
+!procedure Spellcheck($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Spellcheck', $name, $tech)
 !endprocedure
 !procedure SpellcheckCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LinkedCameraLg [20x20/16z] {
 XSs50S0m24JHYnC1zf-sxlhhhn7yvTpTIFcWL4kfOTGPZG7fM286jP6AYkXKHc4Zmq2lUmLaqc1X_cn4RHWPKxAhHGn57GkB9IIH13hQV0_cO8moxykxoJoB
 88Uv7ZoEzdemDl0UXe-c4grDeaSxDfYLCud5WE6KnMCz
 }
-!procedure LinkedCamera($id, $name="Linked Camera", $tech="")
+!procedure LinkedCamera($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/LinkedCamera', $name, $tech)
 !endprocedure
 !procedure LinkedCameraCard($id, $funcName="", $content="")

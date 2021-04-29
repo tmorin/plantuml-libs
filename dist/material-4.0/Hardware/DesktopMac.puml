@@ -1,7 +1,7 @@
 @startuml
 sprite $DesktopMacMd [14x14/16z] dSl50S1G20DGQeGlaFsdhNjlVISaaOUs-AcqY45tGm1LJlN_nb9tXL3UgAWPCfbXfdk1B7BeezRevMC2
 sprite $DesktopMacLg [20x20/16z] fT230KGn00FGr6xsd_RmRRxQm1PXvhG02XSo9AEUJOkKaXupRgFFNvpdtkstVR-bxJu4Lh99NIK043-GbQoohVSYVmAcD1jwusCbTdq1
-!procedure DesktopMac($id, $name="Desktop Mac", $tech="")
+!procedure DesktopMac($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/DesktopMac', $name, $tech)
 !endprocedure
 !procedure DesktopMacCard($id, $funcName="", $content="")

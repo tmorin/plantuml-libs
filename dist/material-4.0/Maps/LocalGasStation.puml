@@ -4,7 +4,7 @@ sprite $LocalGasStationLg [20x20/16z] {
 fSe5aiGm34JHjiosj7t_quOv1JipFp6z4ZuebJnzwKgPQqdCxTReHSIpmGvin1mxX3ispXV71ZNJ-rm3lQVRhCtDStzss5g7A-rXP84yvmBbQGs_cNzP9pkM
 OicbJ2l2vOmF6W4
 }
-!procedure LocalGasStation($id, $name="Local Gas Station", $tech="")
+!procedure LocalGasStation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalGasStation', $name, $tech)
 !endprocedure
 !procedure LocalGasStationCard($id, $funcName="", $content="")

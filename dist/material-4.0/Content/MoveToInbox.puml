@@ -4,7 +4,7 @@ sprite $MoveToInboxLg [20x20/16z] {
 ZP053WCX54IBXIy9S__R5hVgsmKc3-VnFu4YTIBvfd0GYYDuE_6WuY9ihesr9ZUsEQfE0Fdj32SWiTbStpnSSptWpxb55hKSHt8bEOeyN4PBqfBwcGja366w
 5f4Ikllm1kTR5VKlJm
 }
-!procedure MoveToInbox($id, $name="Move To Inbox", $tech="")
+!procedure MoveToInbox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/MoveToInbox', $name, $tech)
 !endprocedure
 !procedure MoveToInboxCard($id, $funcName="", $content="")

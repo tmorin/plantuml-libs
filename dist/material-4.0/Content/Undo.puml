@@ -1,7 +1,7 @@
 @startuml
 sprite $UndoMd [14x14/16z] dOc55G0W20LfM_UVrc83Zhpt8OhUGL5s6mNhkanzrk-NcQIjubRWaPPvLh-s2I2gQlWC2Q8S
 sprite $UndoLg [20x20/16z] nOp50S0W0CHmX-m_RVsw0dcUnEmY97FZGl1MMIGQamOtFIWZTM2C2JHbiBAz_mNwdsN95rKPKI5uPQGlhFV7nfSliyviumG
-!procedure Undo($id, $name="Undo", $tech="")
+!procedure Undo($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Undo', $name, $tech)
 !endprocedure
 !procedure UndoCard($id, $funcName="", $content="")

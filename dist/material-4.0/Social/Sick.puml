@@ -4,7 +4,7 @@ sprite $SickLg [20x20/16z] {
 VP050iDG24FXkp1o_ziketDB_M4fyaUvbFm2T3We7ogI3bI21DM4W0LtkImi8lK7cmfS4WSVOmPPIvprmZiPQrWqaBGpBSCSNJQmfSDRObhTn8k8S86gPElP
 35MYTcVf8-V3EB8SCxfeQwe6u4GKNbADAWqBLyy6AXvqz_PlCU5z1-NRhZvt-bjd
 }
-!procedure Sick($id, $name="Sick", $tech="")
+!procedure Sick($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Sick', $name, $tech)
 !endprocedure
 !procedure SickCard($id, $funcName="", $content="")

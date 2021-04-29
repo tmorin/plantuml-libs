@@ -4,7 +4,7 @@ sprite $LeakRemoveLg [20x20/16z] {
 ZOs54SGm40Dbnedwx_OLFlzGpDw3nVSHj9f7JI-AhDh1iPky9fY4C_uWElrBV9aKBCDaLR9KGJjyb7SxeS_zieV6RPmzoNhLSeP3L7fqHrRg-J0UcIuQEy9H
 5nVPOAWK3CREZi8b2vaHd6s1dOWiiflQLE6Rd17Vnmy
 }
-!procedure LeakRemove($id, $name="Leak Remove", $tech="")
+!procedure LeakRemove($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/LeakRemove', $name, $tech)
 !endprocedure
 !procedure LeakRemoveCard($id, $funcName="", $content="")

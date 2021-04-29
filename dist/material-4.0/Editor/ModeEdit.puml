@@ -1,7 +1,7 @@
 @startuml
 sprite $ModeEditMd [14x14/16z] Oy01c90vtFmiS3OZ8oS_FroMYu-9anlEuUVdOqBYy7EHo666S10y18U1aOK5bri1
 sprite $ModeEditLg [20x20/16z] jSk52S1040NHjRZy_gkDe2jOv0P_CFIgNWfDs3CAa74KlR1F8okcIFSecO2nqjIA-aeqPhgj4jauzlIg4m
-!procedure ModeEdit($id, $name="Mode Edit", $tech="")
+!procedure ModeEdit($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/ModeEdit', $name, $tech)
 !endprocedure
 !procedure ModeEditCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MoneyOffLg [20x20/16z] {
 bT350SKW00DGt27xJ_kb6khDBGz7l8qBbfeSIa4YimX2UA0Qml13tqf3O1oQB524PK0TsJm6x9EEK2T6FeZZ_Hupx70wesgekQ5rA0FGl0omXDCVMBdxgtVv
 0W
 }
-!procedure MoneyOff($id, $name="Money Off", $tech="")
+!procedure MoneyOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/MoneyOff', $name, $tech)
 !endprocedure
 !procedure MoneyOffCard($id, $funcName="", $content="")

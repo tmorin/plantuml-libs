@@ -4,7 +4,7 @@ sprite $AttractionsLg [20x20/16z] {
 VT1L0aKX20JGiGkO_Q_sbhwEysUG-2S4lCjanWlVUUWU3uKjgQR6WiaDix1ocWstCWaMMLa3sO0aae16pX0hr-VhIx6PZ_uAkb9uklkTFkxkiOM70bJ3lKQZ
 2EkiiNfnR40dTFNYX3Re0CzX58UfqefA8Glk4WSFWn5tAdDNAa__F12FFpxXbnq
 }
-!procedure Attractions($id, $name="Attractions", $tech="")
+!procedure Attractions($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Attractions', $name, $tech)
 !endprocedure
 !procedure AttractionsCard($id, $funcName="", $content="")

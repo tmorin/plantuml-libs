@@ -1,7 +1,7 @@
 @startuml
 sprite $InsertCommentMd [14x14/16z] LSV50S10200mpXtstxPOBR_0NzsF2h3fiMMhL5QMRUR2ylIbp99lrSRgieqGMUYsizInFNYfDpDahtxWgy3V1G
 sprite $InsertCommentLg [20x20/16z] VSx50KCX40JGMTpflzhaEyuxhWwcc6omivHo8nr5cJjoNIEyIashXour-zdlXizaZafD2daHSfrFJ6hmEGqrK07pr1gcr0exr9R-
-!procedure InsertComment($id, $name="Insert Comment", $tech="")
+!procedure InsertComment($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/InsertComment', $name, $tech)
 !endprocedure
 !procedure InsertCommentCard($id, $funcName="", $content="")

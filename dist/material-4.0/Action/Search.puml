@@ -4,7 +4,7 @@ sprite $SearchLg [20x20/16z] {
 fOq53iH030EpJ4dy_zSUjLqI78re5B3fAtnARfi87h2THz3aN85EGu4zLcqwIuTKzCDqQO0VCtT873EFV4Z3A67uuwoCNgSe8JGWqS0o7fI4IlFKUqjKnt3G
 FXyc-eyx
 }
-!procedure Search($id, $name="Search", $tech="")
+!procedure Search($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Search', $name, $tech)
 !endprocedure
 !procedure SearchCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $WifiCallingLg [20x20/16z] {
 ZSYr0SD044JHVxo2rVJVhG_CaLuom6snDIkprDOoKrCNIBi6h-ylObgk01Hr1GvDcIwgCmYNkiRaqXM1B6bdCNbaQFB04dMoR9aNK-LVS2N-9SqpMec1bonL
 egihl2JNuHgCjx19_nz4StMDNx4qYzps
 }
-!procedure WifiCalling($id, $name="Wifi Calling", $tech="")
+!procedure WifiCalling($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/WifiCalling', $name, $tech)
 !endprocedure
 !procedure WifiCallingCard($id, $funcName="", $content="")

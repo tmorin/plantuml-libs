@@ -4,7 +4,7 @@ sprite $SupportLg [20x20/16z] {
 VP07ZWGW24KPn0HD_E_-jrrmUvkNOlqbs1D6nB2lF58KoiVd7_66tly6p44n9enNeNgpOPS2NNaow--14sQJx3l9QwkrH9YZ3W3MmSsSixcEGNCLYoR-lclj
 LiUvzAOrSJConRmPHT8T1EfEv6jd-KVdDca2XLDug3MN4A8GYcUp-fpf_xm
 }
-!procedure Support($id, $name="Support", $tech="")
+!procedure Support($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Support', $name, $tech)
 !endprocedure
 !procedure SupportCard($id, $funcName="", $content="")

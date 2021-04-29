@@ -4,7 +4,7 @@ sprite $NewReleasesLg [20x20/16z] {
 TT253G0X30NG6bxozv_stEN5eKw_E0kHPBw-PQ1M8DD9iT7jGOhZu4NcjuX5xrY4-Ssm4BcawyURtz-SY1hkRsZdczdvneuRl_Ge1GlzdkLxPgqT1wz2AyF6
 w5I0re1ylwaIwVscToC
 }
-!procedure NewReleases($id, $name="New Releases", $tech="")
+!procedure NewReleases($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/NewReleases', $name, $tech)
 !endprocedure
 !procedure NewReleasesCard($id, $funcName="", $content="")

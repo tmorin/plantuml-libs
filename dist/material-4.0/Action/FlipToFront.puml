@@ -4,7 +4,7 @@ sprite $FlipToFrontLg [20x20/16z] {
 bOxL0SLG34BXkhF_jFNdslCJ3-0K9gQDcDobnQ4h_hAcJ6jMdDAsP63MREMI9P7FFPkUzzvdGUJFtYMBRpHgJ2inNxmOD5qOvl0Cc0l4fRUav9RjU1agOGma
 tPf4SeWHDX5dc04
 }
-!procedure FlipToFront($id, $name="Flip To Front", $tech="")
+!procedure FlipToFront($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/FlipToFront', $name, $tech)
 !endprocedure
 !procedure FlipToFrontCard($id, $funcName="", $content="")

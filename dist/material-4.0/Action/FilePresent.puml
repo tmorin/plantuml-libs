@@ -4,7 +4,7 @@ sprite $FilePresentLg [20x20/16z] {
 TT073iKW30DGbgEAvVlVzlkl0f7gblLahOI7P1H0Aoyo_eFRAh-zIxZiUs8rPJ5Sx15Sg5xcO4sjLjRR2akVGN4sKi-1xJHjthgpXvwPiyIgascpg3MdF2xJ
 PhsRZcKeA8eELZyhnOwPkh6wl
 }
-!procedure FilePresent($id, $name="File Present", $tech="")
+!procedure FilePresent($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/FilePresent', $name, $tech)
 !endprocedure
 !procedure FilePresentCard($id, $funcName="", $content="")

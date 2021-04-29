@@ -4,7 +4,7 @@ sprite $AddBusinessLg [20x20/16z] {
 fSzd0iCW28RXAD3n4SlzRrjn-wVppNwozFWdKcWB6gk9BJKBJBEZThKbheRLRjNIQYWKRIrDcmMtSDe989dw3dryalStYpw4U9NDV4UcRfmjL0iKieKvDt-t
 dv72Kx-ji8UVxTNllJUAUVS4
 }
-!procedure AddBusiness($id, $name="Add Business", $tech="")
+!procedure AddBusiness($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/AddBusiness', $name, $tech)
 !endprocedure
 !procedure AddBusinessCard($id, $funcName="", $content="")

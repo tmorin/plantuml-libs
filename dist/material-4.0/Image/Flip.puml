@@ -4,7 +4,7 @@ sprite $FlipLg [20x20/16z] {
 TP350KGn44A1sBTa-gzstTcyuoY09nACtl51MTgIqGVI0fPxAIui60CjgBWLbyXAlEuo0UArra8Vz-wVbi-QOh4QbsorAxvR_zJQTDT_k1RNp8StwkvDZvfd
 u5bDC_Nipm
 }
-!procedure Flip($id, $name="Flip", $tech="")
+!procedure Flip($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Flip', $name, $tech)
 !endprocedure
 !procedure FlipCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $EventNoteLg [20x20/16z] {
 ZT054i0m24JHXOPXgzp_j7NtD_xZmK0L8r6ieiIeYAKaHktiUHrCOx8uiA7ns3WqlscCiYXdHRaqnKhN9cKnpPArYSPCvRnMPBSMPfOi0t1UMm2dURQVvxTt
 IRgG57pw0nYTCwVXlmu
 }
-!procedure EventNote($id, $name="Event Note", $tech="")
+!procedure EventNote($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/EventNote', $name, $tech)
 !endprocedure
 !procedure EventNoteCard($id, $funcName="", $content="")

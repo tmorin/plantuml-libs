@@ -1,7 +1,7 @@
 @startuml
 sprite $StopMd [14x14/16z] Oo05C7EmSm0H2uJ7pWy675Ja8MmW1G
 sprite $StopLg [20x20/16z] Ow09O8G2925UVZumuET5YF730UEW5EFZvmC902bahy4zHmi
-!procedure Stop($id, $name="Stop", $tech="")
+!procedure Stop($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Stop', $name, $tech)
 !endprocedure
 !procedure StopCard($id, $funcName="", $content="")

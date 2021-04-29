@@ -1,7 +1,7 @@
 @startuml
 sprite $BoltMd [14x14/16z] RKt50G0X3CCTkl-qvrBBBsuqM8jPTuZaXNCm42lGt1TrSA2zh9tiyxphK51nW4LiPKGSFZ3M6Gqx
 sprite $BoltLg [20x20/16z] bOz50iKW44DnXtV_qtwNjbcHvKpKRCD7lOqgfq1K6lvwok0k9xkOLre5MclsS7AyC8wq_huTK-n31aZ1oRANauCiQnao8wBJwZ3AysORTm
-!procedure Bolt($id, $name="Bolt", $tech="")
+!procedure Bolt($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Bolt', $name, $tech)
 !endprocedure
 !procedure BoltCard($id, $funcName="", $content="")

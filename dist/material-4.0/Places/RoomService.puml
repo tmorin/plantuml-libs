@@ -1,7 +1,7 @@
 @startuml
 sprite $RoomServiceMd [14x14/16z] bSgr0S0m30H0iyNQVzemDQ7h7i8_KVMIkdiFcwm-qRm6tooHzyHJI7v8qn7w1gOhcswCf-T5U382
 sprite $RoomServiceLg [20x20/16z] jSl50KGn40BG7_VGVxLnF---smpm_GbrZhm_0vZdnJpWsJNqQ3nTBuw5pnQsE9eM1xjgXrQKkCZM4_mWQey7Vmcy_6A8Xn3vzsiP
-!procedure RoomService($id, $name="Room Service", $tech="")
+!procedure RoomService($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/RoomService', $name, $tech)
 !endprocedure
 !procedure RoomServiceCard($id, $funcName="", $content="")

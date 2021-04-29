@@ -1,7 +1,7 @@
 @startuml
 sprite $SubjectMd [14x14/16z] XSs35G0n303Gkettd_Pi_gSuxfCF2pzcO6e3DPXwcp5hl6XZbieYtRCcuvY8DZVQBkmVukcx-zK3
 sprite $SubjectLg [20x20/16z] Ow0-uE3ZXGC-JeWO9nyl7nI0n702LWvs3WW0CbWXObpyI80B8iR8X0GOOMACw6AOUZ7jm0au-H1Um1IZ4G
-!procedure Subject($id, $name="Subject", $tech="")
+!procedure Subject($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Subject', $name, $tech)
 !endprocedure
 !procedure SubjectCard($id, $funcName="", $content="")

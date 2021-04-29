@@ -4,7 +4,7 @@ sprite $DirectionsWalkLg [20x20/16z] {
 ZSk5iSKW00NHYplRVxLVdyMp-9b1f-NcrXIWtp75OfTWy-XByWtMNw5D82si2e1iFiq1eKDxsSWHXXHRqxiAqshPOApHq4qdBynJvLOMYR8hgxYD3RGsGzkO
 d7biVtq3
 }
-!procedure DirectionsWalk($id, $name="Directions Walk", $tech="")
+!procedure DirectionsWalk($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/DirectionsWalk', $name, $tech)
 !endprocedure
 !procedure DirectionsWalkCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $CloudMd [14x14/16z] XSf50G1140EmBlFKlzfZnho3FoubXuMg75I5aQwS50moLnQ8t1KbFCWyAJmGVQmUEkQLnPSU
 sprite $CloudLg [20x20/16z] fS7L0KCn30D0XTdQVzhsCVapTvXdKot9uYbpat6hF1GSJEObObFuqB7gV2aUIFmg65GYjI7KAfLXgIHuuLi5O59zA05J_W
-!procedure Cloud($id, $name="Cloud", $tech="")
+!procedure Cloud($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/Cloud', $name, $tech)
 !endprocedure
 !procedure CloudCard($id, $funcName="", $content="")

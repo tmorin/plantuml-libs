@@ -4,7 +4,7 @@ sprite $SwipeLg [20x20/16z] {
 fOm54eH030JNaSZy_xSt1S7BhrVJaHJaKdAwqyL1N7h4SpR8gANK8R0yTpf0pgxCXjtDZ9fkVJF0jxawdnLArKszfI3SnV_Ev_fo0hBMhwFDAQYPlJlZh77n
 S3rSnyKviPtAS_f8EzKbbtGZrutj_mC
 }
-!procedure Swipe($id, $name="Swipe", $tech="")
+!procedure Swipe($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Swipe', $name, $tech)
 !endprocedure
 !procedure SwipeCard($id, $funcName="", $content="")

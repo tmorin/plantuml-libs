@@ -1,7 +1,7 @@
 @startuml
 sprite $NorthMd [14x14/16z] Oy02M5cHEVpy22uRFoylFnkSmyB9oGBZShCnS74niF70b89uG41T7WS7DlS2
 sprite $NorthLg [20x20/16z] rSYr5S1G5CDG-pE__QSDC_LHfNFn5NctKcwKHVAThfZ5rngEo2m1jM90hXO66csUEUKm6vp2rcnpFp9Zy5KF
-!procedure North($id, $name="North", $tech="")
+!procedure North($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/North', $name, $tech)
 !endprocedure
 !procedure NorthCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $NotificationsActiveLg [20x20/16z] {
 bSy54WCn34DHfU5nRDt_jbMPOL_u3mORrAxDJ5ihvrGOIHiBKZ0Vq_4oWuo1J3-spWRZaQ6nGznrEsi8LyeSM9TccDofUK5SMg1unX6l81zRkhM4YpSjtzhj
 Rto98vRx4kqnSPDhpNZIoOvdEUERFG
 }
-!procedure NotificationsActive($id, $name="Notifications Active", $tech="")
+!procedure NotificationsActive($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/NotificationsActive', $name, $tech)
 !endprocedure
 !procedure NotificationsActiveCard($id, $funcName="", $content="")

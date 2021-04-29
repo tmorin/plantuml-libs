@@ -4,7 +4,7 @@ sprite $StarsLg [20x20/16z] {
 VL054iCm38ihTnVM_rzRY3BUgYEVm1Gk07Uy4HOx3xHe3yeFHkYuKnocnXCYJQxr9cd4er8sjNXoZr9YEvSWAvQHi0MLX2QaC958kZWM-Gh5WIeEhDhcFaE-
 EKFZQa2j25KBQESSnpxvtFDnsmF-_GF__5MFzltJ2-m
 }
-!procedure Stars($id, $name="Stars", $tech="")
+!procedure Stars($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Stars', $name, $tech)
 !endprocedure
 !procedure StarsCard($id, $funcName="", $content="")

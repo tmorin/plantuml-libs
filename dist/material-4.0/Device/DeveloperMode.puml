@@ -4,7 +4,7 @@ sprite $DeveloperModeLg [20x20/16z] {
 RP250OGm4C3ESDj_sbT2DVLSNRuOgC1uFOou8xaTjtVSSPh_iFF0RLlUWvY-zHIIyEjI4RikJ-eU11A5p7f4GvBC5F6JCn8nV-kPMPqxypRxaBsj_mV97RWf
 _rCmlp7vyWO
 }
-!procedure DeveloperMode($id, $name="Developer Mode", $tech="")
+!procedure DeveloperMode($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/DeveloperMode', $name, $tech)
 !endprocedure
 !procedure DeveloperModeCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PublishedWithChangesLg [20x20/16z] {
 VOw7ZSKm34CbLnuk8lVVzhi2GGiJsyAZcdqhlS9Wg8zNX5-O9S7C4M9-iRwY9fKLEDc4QtELGzLAsxOTbs57PRZ1bOwBPZSeRJFz-K9vZYcRDVrRtZEhogc5
 7YhlYVdEm5qtU7SPzoXfPPJYx3n67PVqimFh2hhMd0sfW6-MxSWXfSc2p_2kidth1m
 }
-!procedure PublishedWithChanges($id, $name="Published With Changes", $tech="")
+!procedure PublishedWithChanges($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/PublishedWithChanges', $name, $tech)
 !endprocedure
 !procedure PublishedWithChangesCard($id, $funcName="", $content="")

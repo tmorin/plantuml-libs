@@ -4,7 +4,7 @@ sprite $RoomPreferencesLg [20x20/16z] {
 bKzL0aCX3CEzpVrlk-pvwzSMF0BK_O7IQcFFJqwmGSUOxUGMBeZnJUuiDtxdKdfo9Q2UvviZPRFBfTA0LkBD5RU0tYdUN7G5hA8XFxb0BuL0neUDoynAJ899
 hfsLrRK0MPLSQhKHzHi1lBEuwx3u
 }
-!procedure RoomPreferences($id, $name="Room Preferences", $tech="")
+!procedure RoomPreferences($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/RoomPreferences', $name, $tech)
 !endprocedure
 !procedure RoomPreferencesCard($id, $funcName="", $content="")

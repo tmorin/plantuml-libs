@@ -4,7 +4,7 @@ sprite $RoomLg [20x20/16z] {
 VO_50GHH2CNWkzD_jUF8QexXOV075u9xCvqEkhM17hmeNEmciij4j4evAudTEIpS4pgxSSJWu0WEc_EQqtavd_EoN4U2NjXPDH2ytgpKMrKr_8b-eHy7UAKG
 5NYdT_W04Vwn0m
 }
-!procedure Room($id, $name="Room", $tech="")
+!procedure Room($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Room', $name, $tech)
 !endprocedure
 !procedure RoomCard($id, $funcName="", $content="")

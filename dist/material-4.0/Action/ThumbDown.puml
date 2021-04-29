@@ -1,7 +1,7 @@
 @startuml
 sprite $ThumbDownMd [14x14/16z] NSU54SCm04MnPsPx_sdRSFv5X-BB7GpE6yZhq1WhOUQvOSQAfAKREhzqIPV2kpe2FWJVjnLkNMCrc5KHbiiV
 sprite $ThumbDownLg [20x20/16z] bS_50GGX44JHQjp9FzhLSVpZxmOMKaQRRvg1FbVwaCvx2Uopiu-bVCGsKxcqK9h8fRdIA9V69WtnPlZzW-GdONxaSKr_AT3DV4c89L4g231tAdi3
-!procedure ThumbDown($id, $name="Thumb Down", $tech="")
+!procedure ThumbDown($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ThumbDown', $name, $tech)
 !endprocedure
 !procedure ThumbDownCard($id, $funcName="", $content="")

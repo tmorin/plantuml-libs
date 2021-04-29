@@ -4,7 +4,7 @@ sprite $SupportAgentLg [20x20/16z] {
 bOq5aiGW54I_ubJV_xQBnKftNeAtq6-mn-ZykSbOvETMEegfMa6NIzLXcbilPkX7cM01rG54Gzeo50EC0iPSi8GEB-jP2sg0qI12Uph9eWWqQ51MwD2DIT36
 bM5kYz2Q1DFiWD2D03vqdpjTEgfVNTjj-pHXGwA7ZetJGqWnZT_f__m1
 }
-!procedure SupportAgent($id, $name="Support Agent", $tech="")
+!procedure SupportAgent($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/SupportAgent', $name, $tech)
 !endprocedure
 !procedure SupportAgentCard($id, $funcName="", $content="")

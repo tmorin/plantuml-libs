@@ -4,7 +4,7 @@ sprite $SelectAllLg [20x20/16z] {
 ZP254GDH24HtlnAb_supIFpiZU2AutH26kP45R27ImjLSBz3b4NToG8KefIdPfWMc0R3AuBe0bZdefSfCYzQR5fG8Zgr81ZAh12h7Gk-kLIxF6Dv5txlp8_R
 oDIMVh3qg-Cy
 }
-!procedure SelectAll($id, $name="Select All", $tech="")
+!procedure SelectAll($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/SelectAll', $name, $tech)
 !endprocedure
 !procedure SelectAllCard($id, $funcName="", $content="")

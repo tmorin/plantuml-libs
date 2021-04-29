@@ -4,7 +4,7 @@ sprite $HelpOutlineLg [20x20/16z] {
 VP073WCX40DDrQ8xxF__Dd8WlQmQ6ZpQWZ-LQyql80KbYP7kg51pz3wcM3QgKb-lBYsOg88qo95Gn6GMQi2XyzJXP9Xn0aK361OdtS0_gIUWgThAxj3sG9F9
 SdsmJ0zYjbsuYv7TrSFL7Dyz44kEQxpPMZCxuFYUsLsuMpUwmuBKZDPYYXjP3xtVobLgBVXJ5m
 }
-!procedure HelpOutline($id, $name="Help Outline", $tech="")
+!procedure HelpOutline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/HelpOutline', $name, $tech)
 !endprocedure
 !procedure HelpOutlineCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $ComputerMd [14x14/16z] VSk54S0034BHNnV8TVzfwsxlB0ByoMNDh1piUcL35AoAW2XPbR_RlIStxQongDtjN4ljJkB7
 sprite $ComputerLg [20x20/16z] nSZ50S0m30D0XJdQVzeozrSyit6BJN7B0b0yK82XWLWC9tJVLeQwR__yD7FSoFrFPEua0V8inXIt-XCtj
-!procedure Computer($id, $name="Computer", $tech="")
+!procedure Computer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Computer', $name, $tech)
 !endprocedure
 !procedure ComputerCard($id, $funcName="", $content="")

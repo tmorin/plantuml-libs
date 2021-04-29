@@ -4,7 +4,7 @@ sprite $VideoSettingsLg [20x20/16z] {
 fS-r0GH130D0oNlBeFwx_MCCVqApyO-fl4oWtWPD2IJ17P9iYSs8GpnZgV8JYnh-KoUf43Cwt69Bknc0Pw_Nk6AfSLdKfDBSxHQJr8TKbnYnIQfBOkBr4k8M
 S_2rRB2aszABqxK3b_sM3sS0VW
 }
-!procedure VideoSettings($id, $name="Video Settings", $tech="")
+!procedure VideoSettings($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/VideoSettings', $name, $tech)
 !endprocedure
 !procedure VideoSettingsCard($id, $funcName="", $content="")

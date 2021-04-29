@@ -1,7 +1,7 @@
 @startuml
 sprite $FilterListMd [14x14/16z] Oo0UC75oG04d4v37mmq5FCoOQbcvkO20cnMLXyDS7Xuc18-HWuEHWJG
 sprite $FilterListLg [20x20/16z] Ow0BOET70HmWCLPkBYJ0pKgYaJoyKC239CO74UBZ8S-LtDpiw69S_FnS60eP6MaMKW
-!procedure FilterList($id, $name="Filter List", $tech="")
+!procedure FilterList($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/FilterList', $name, $tech)
 !endprocedure
 !procedure FilterListCard($id, $funcName="", $content="")

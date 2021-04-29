@@ -4,7 +4,7 @@ sprite $DataUsageLg [20x20/16z] {
 VP250SKm24Hfa6gu_QVz0dMxQXuElOZ_zrvDLr4AQjUiI1puCy1vGG0c8x89W6IW0qOX0sg4Tu5MsFs_5IEj6b7_JQJRviXHWJV6WDopQ-ovHfdyt4k9EtlM
 H8g9jzb6PTOnPjjsa7BPxSg3nAusiIZJYxu
 }
-!procedure DataUsage($id, $name="Data Usage", $tech="")
+!procedure DataUsage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/DataUsage', $name, $tech)
 !endprocedure
 !procedure DataUsageCard($id, $funcName="", $content="")

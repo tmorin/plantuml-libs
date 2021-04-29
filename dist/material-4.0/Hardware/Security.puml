@@ -4,7 +4,7 @@ sprite $SecurityLg [20x20/16z] {
 ZT150iGW04FH1EejoVrFEvPn_yk7Wqiadk8eZGzQPbksvtAHRhMtZaVqsfrej9SAq6cCPSnfYfM_R7exhu84PLdA6ODrgf14x-5erOdPgE9OkxCcd9fkrdkC
 KHUZHAJ1CMxk8vVLg2qhxsPkze3xogBRxxtx-pq
 }
-!procedure Security($id, $name="Security", $tech="")
+!procedure Security($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Security', $name, $tech)
 !endprocedure
 !procedure SecurityCard($id, $funcName="", $content="")

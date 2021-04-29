@@ -7,7 +7,7 @@ sprite $ExploreOffLg [20x20/16z] {
 VOu74eCm30JFBSXcqFt_jx4ECIrbgLvL_A7rtl1m6b3DkRciG2mQNamySoUFaCajAxSy99RnKhcHT_bgMF6xKVi3em8j1a5VIRNEZaFAGrO67UWCweponwbs
 vafP2x-_rMcnakSk2otQIsgNililYYYl23f5ogGxa-YP57CPArCoQNsq-AuJNta3
 }
-!procedure ExploreOff($id, $name="Explore Off", $tech="")
+!procedure ExploreOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ExploreOff', $name, $tech)
 !endprocedure
 !procedure ExploreOffCard($id, $funcName="", $content="")

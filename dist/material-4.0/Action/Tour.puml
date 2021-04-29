@@ -1,7 +1,7 @@
 @startuml
 sprite $TourMd [14x14/16z] VSwr0S003CH0snycxJzjc4dTTR9RNlj9GLqj-QornbRLNaAwARSKj8coWtBJNEUJkbHBDYjiwr_RsRC1
 sprite $TourLg [20x20/16z] Oy01M5WmnNXviOZnSy41DmjC30am8Olnye58JfXU28SHHBF0nA1wE82A6P35E23gc1dmceS0Z5ZSnupD7tGGGuGfGG
-!procedure Tour($id, $name="Tour", $tech="")
+!procedure Tour($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Tour', $name, $tech)
 !endprocedure
 !procedure TourCard($id, $funcName="", $content="")

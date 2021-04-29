@@ -4,7 +4,7 @@ sprite $AcUnitLg [20x20/16z] {
 VP073aCn24CJ2GKwZEz_smRJlVnd7flnJsRlO0n0dxiMlPXpFTWyqm7dUTwzPa6oq6nFuqcUyZhH18Fd3JE5OhIyF852tg49aBaVv7wGzfMLr0IWbaOhL35p
 _mfsBwfOdtdhnHjHVTw2o-n0AE2nWwWQmVLtLvyx_TG5
 }
-!procedure AcUnit($id, $name="Ac Unit", $tech="")
+!procedure AcUnit($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/AcUnit', $name, $tech)
 !endprocedure
 !procedure AcUnitCard($id, $funcName="", $content="")

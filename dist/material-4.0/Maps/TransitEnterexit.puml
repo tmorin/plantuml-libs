@@ -1,7 +1,7 @@
 @startuml
 sprite $TransitEnterexitMd [14x14/16z] bSV50K0X30FG58VQ_jD-btCz3-6Y_8JK25Z-i7i-iF2g_3YaFl7BDMVwTLHzb4S_EY5KEm
 sprite $TransitEnterexitLg [20x20/16z] lOt50S0W54DnX-o_RN6xbuT-IyXZXDi3oSeDRCa4KrA0E7FoI9MSlhfABYH0aXraKkcwSa4PmwvSGHvwUQLqcD0E-OSF
-!procedure TransitEnterexit($id, $name="Transit Enterexit", $tech="")
+!procedure TransitEnterexit($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/TransitEnterexit', $name, $tech)
 !endprocedure
 !procedure TransitEnterexitCard($id, $funcName="", $content="")

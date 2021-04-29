@@ -1,7 +1,7 @@
 @startuml
 sprite $SendMd [14x14/16z] TKw35G1H3Fj6bVsdFHjvR4DtXxzTml5w0LAk5s0jh1TX1Qq67rAkNG0jonctgvvAJg-KjS6VxUcsx1SZ
 sprite $SendLg [20x20/16z] ZL350GCn30idvlsdRO-Pz3I8t5U4U9vbmtIUcN7nfvcPjd2SzS1qccqfV0KIDJjH-11p1UvNb9PXJ0Medt7kVnloyWlne2757tHfwsLzsiwa7hDH_j3LL_m1
-!procedure Send($id, $name="Send", $tech="")
+!procedure Send($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Send', $name, $tech)
 !endprocedure
 !procedure SendCard($id, $funcName="", $content="")

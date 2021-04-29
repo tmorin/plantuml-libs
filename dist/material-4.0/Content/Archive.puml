@@ -4,7 +4,7 @@ sprite $ArchiveLg [20x20/16z] {
 bSw53GG124HH75RflzgJTPSVcxpOm8kicDA1l5ORQwmZpgQQQfF_5hag_kO75gSM8h6sDXL0ibrOGz15pMnPutzXdPDrED1a7NQq_bVND_zqRGeTXiUGHqSF
 -m8
 }
-!procedure Archive($id, $name="Archive", $tech="")
+!procedure Archive($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Archive', $name, $tech)
 !endprocedure
 !procedure ArchiveCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AddchartLg [20x20/16z] {
 ZT170iKW24NH1r5W8kn_jQd8x-MEo4bJyRFMSkYcPaRO6oCfplZUB1hl0Sr7nF2scrwFF9XDgtVBH9viNhPMHYxpaMb4OV01Me25oXJkqEjkFVTip9Vbb6jc
 0ZDe7-PpZJYZTbcFXtgTLQRMyNyR
 }
-!procedure Addchart($id, $name="Addchart", $tech="")
+!procedure Addchart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Addchart', $name, $tech)
 !endprocedure
 !procedure AddchartCard($id, $funcName="", $content="")

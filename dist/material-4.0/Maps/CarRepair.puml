@@ -4,7 +4,7 @@ sprite $CarRepairLg [20x20/16z] {
 bSo50OGm30NGrFKd-q-BrCw51xKONQ5YQgAwnL9o_k1okfLLDIyhvbOwkrkhTOszDKCMp1XdodB8LFX3x6Cl90-t6DxSZ7wvHLG0jMs8r2J6GGG7JdHp6_KZ
 PYrzimC
 }
-!procedure CarRepair($id, $name="Car Repair", $tech="")
+!procedure CarRepair($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/CarRepair', $name, $tech)
 !endprocedure
 !procedure CarRepairCard($id, $funcName="", $content="")

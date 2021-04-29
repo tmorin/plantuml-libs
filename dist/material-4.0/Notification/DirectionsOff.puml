@@ -4,7 +4,7 @@ sprite $DirectionsOffLg [20x20/16z] {
 VSq74e0m2011WbqouV-_bRFthZjS8dz7LHtVgH6EthtRROXloEp0bEDRFVDnnIh95GlVWvsnSzQlVHHPaUNLo0ENoVWqQWUDoMenBRcGHsqOBHkHq_OYEuvB
 3kre8vEwo3wfJdv5yt97YxNo3OFOjpbXNVDCGvBNOm8
 }
-!procedure DirectionsOff($id, $name="Directions Off", $tech="")
+!procedure DirectionsOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/DirectionsOff', $name, $tech)
 !endprocedure
 !procedure DirectionsOffCard($id, $funcName="", $content="")

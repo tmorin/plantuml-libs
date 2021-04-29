@@ -4,7 +4,7 @@ sprite $SelfImprovementLg [20x20/16z] {
 hOu55WGX34E7scFIBhd_QTVTxQFrJF-WzriNUUESzxvNjH8Xrwv1ZajdAwwfTfvL75kd73k1zFM1hq_8NXbaKxneWhqYCV7abhHcSjJBhgfvfhl8sRYb3Zv5
 MXGIW4m_iW8
 }
-!procedure SelfImprovement($id, $name="Self Improvement", $tech="")
+!procedure SelfImprovement($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/SelfImprovement', $name, $tech)
 !endprocedure
 !procedure SelfImprovementCard($id, $funcName="", $content="")

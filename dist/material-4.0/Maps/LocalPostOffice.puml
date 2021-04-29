@@ -1,7 +1,7 @@
 @startuml
 sprite $LocalPostOfficeMd [14x14/16z] XSS53i1020J0FJTW___QAcdyEj71JbxJhGo8qPa0sgBm8h4f8EoXaIrqoZrQZZ4RVUISfC_zBizFniu9
 sprite $LocalPostOfficeLg [20x20/16z] fOz50aGX3CM2E-_-fnsNRpi2jNHLbeXrHmIS3ZW8IlKlQb80hqYSRpC3yUc2LA18d_fnpxqRmn6cFkv9Cs2Qj7LIZDBV_LbtrxSHMztG8alS0G
-!procedure LocalPostOffice($id, $name="Local Post Office", $tech="")
+!procedure LocalPostOffice($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalPostOffice', $name, $tech)
 !endprocedure
 !procedure LocalPostOfficeCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MedicalServicesLg [20x20/16z] {
 XSu50iGW40D0oAsTPV__sxfRMcpGSXseYc9Bp3RSe6Q8HEeYjJKjVLK7-IIPELUVbYHtaNR7tdGniwC1U_iJu7zZd_49Q_jxr1h-VpglpUl4oAtjtmnkYIWj
 wYOjdQK1
 }
-!procedure MedicalServices($id, $name="Medical Services", $tech="")
+!procedure MedicalServices($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/MedicalServices', $name, $tech)
 !endprocedure
 !procedure MedicalServicesCard($id, $funcName="", $content="")

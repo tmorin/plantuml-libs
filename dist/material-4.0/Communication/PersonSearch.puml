@@ -4,7 +4,7 @@ sprite $PersonSearchLg [20x20/16z] {
 fT053iGm30J0TSEu___joUbHGDWH1enux8hPOsOwoO99ePf_TgeytJMgEDrvlUeN9g6p6XpuncBmPQo1PolV12OrRQHtWMM42bGEshJS3HaE0PKMyMxSSMWm
 L6dyAraLCnQHcR4fNR0ImT4B
 }
-!procedure PersonSearch($id, $name="Person Search", $tech="")
+!procedure PersonSearch($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/PersonSearch', $name, $tech)
 !endprocedure
 !procedure PersonSearchCard($id, $funcName="", $content="")

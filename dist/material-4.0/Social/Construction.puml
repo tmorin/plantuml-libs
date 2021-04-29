@@ -4,7 +4,7 @@ sprite $ConstructionLg [20x20/16z] {
 bSy74iCm24HH507gxFrl6nXtJqk--tEJwAy-VHO_S9MJiW5k5T0xLJy0JCBRYqvOYGIM67Mp2I-J0cQ8vz8o2nkAQ7ki05e68kLCMnhFn_j2LvA8RQShHf3E
 z2O60YzYFxODhwVemekYxhXDxQHuib6KcQw4VkyB
 }
-!procedure Construction($id, $name="Construction", $tech="")
+!procedure Construction($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Construction', $name, $tech)
 !endprocedure
 !procedure ConstructionCard($id, $funcName="", $content="")

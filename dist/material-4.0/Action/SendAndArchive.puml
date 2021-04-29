@@ -4,7 +4,7 @@ sprite $SendAndArchiveLg [20x20/16z] {
 ZP050a8n34Cpz-R-joN37V9rhrxyAnzUMMAFhuoSwPMHgxWN9hNmoiXnIUpgi2jTlVTumY6t9M96oKwPVQgB7Zu6Xqf_YzLn-nInQmqTNvdYEVsDBICYoN7r
 MnbTiKa8TRDJguDwHOVjTzbLPosrw1xqhoCENEKl0Wu
 }
-!procedure SendAndArchive($id, $name="Send And Archive", $tech="")
+!procedure SendAndArchive($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SendAndArchive', $name, $tech)
 !endprocedure
 !procedure SendAndArchiveCard($id, $funcName="", $content="")

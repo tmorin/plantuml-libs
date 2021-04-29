@@ -4,7 +4,7 @@ sprite $CalculateLg [20x20/16z] {
 ZP250G0X203XLS9Y_sc_kyy-6_XF49OP5ZyfEn069qSdW-DrHLAQdVGj4MLZ0DqSEU-IAK3Qt8HJ2aStixdCLnV1h21YKnTNSNnIxDdM9G8jjN6DgzkR8vfL
 KT7zlVLmnoK6rrWDwYyT
 }
-!procedure Calculate($id, $name="Calculate", $tech="")
+!procedure Calculate($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Calculate', $name, $tech)
 !endprocedure
 !procedure CalculateCard($id, $funcName="", $content="")

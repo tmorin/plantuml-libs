@@ -1,7 +1,7 @@
 @startuml
 sprite $ScienceMd [14x14/16z] XOp50O0m0CHmX-m_BL3tDh_JhiL-7BjJAwnEZJ2Mr0AB7y5Wr2NKPVwHx6QaMAGw3yafL8KF
 sprite $ScienceLg [20x20/16z] fSp50G113090rZtqN-svvNixlmXWNcwrjWmbSPEWDR81MYNhpvtZnaBft7Hy5HuANf6NeCjELfLjFfMP7nc7qEgZUSnP0G
-!procedure Science($id, $name="Science", $tech="")
+!procedure Science($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Science', $name, $tech)
 !endprocedure
 !procedure ScienceCard($id, $funcName="", $content="")

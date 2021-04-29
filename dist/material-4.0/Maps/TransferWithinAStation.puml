@@ -4,7 +4,7 @@ sprite $TransferWithinAStationLg [20x20/16z] {
 TOw5WGGn30F3P53_rIue3uSAUepXg-AQRsm1umFhRxdZ5UNfB-MQ0Y_bAbnkc1zOGQaty_eOLmOWnO7s7vVbBfUwFVIE3WX_wNyKk1CsZPV86be6KaYWs6kY
 X76nq3Nbb1ceY6IiruWYB93bDUPqPJFCpOgf2Ypk5fjHas_C-_hN2G
 }
-!procedure TransferWithinAStation($id, $name="Transfer Within A Station", $tech="")
+!procedure TransferWithinAStation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/TransferWithinAStation', $name, $tech)
 !endprocedure
 !procedure TransferWithinAStationCard($id, $funcName="", $content="")

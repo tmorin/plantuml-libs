@@ -4,7 +4,7 @@ sprite $GrainLg [20x20/16z] {
 fOv50aGX34C35Rov_sd7VVwEXzQ3VRpBzQdrxH9oNLtaswbtNtlxHE13O1cjFNkH3c0mCfvqiWCfI7iFY100XGDVz70ao5hlSYCZFReyoS7ndlPGdmtI7QeF
 rqFz8WLFse4ltTNBSEnp1W
 }
-!procedure Grain($id, $name="Grain", $tech="")
+!procedure Grain($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Grain', $name, $tech)
 !endprocedure
 !procedure GrainCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AvTimerLg [20x20/16z] {
 bOvL0iGW44EtZ9KYkVzj5ydgNrCXlD77NNdeySyQWFD3fQJ1kbUqH7IqwKiPzMZCpCXC6F3SQIZ34rQiH8ED7wiSEez0kc9Swh2N83QJCepx5pFur-OmpY3W
 ZBNBYaMicioT-uIbSFgMT1GJiO8cH2CpOoapYzGYR91RUW8
 }
-!procedure AvTimer($id, $name="Av Timer", $tech="")
+!procedure AvTimer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/AvTimer', $name, $tech)
 !endprocedure
 !procedure AvTimerCard($id, $funcName="", $content="")

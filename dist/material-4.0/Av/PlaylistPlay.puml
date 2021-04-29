@@ -1,7 +1,7 @@
 @startuml
 sprite $PlaylistPlayMd [14x14/16z] bSUr0KGX042nXpliF-q9sdr95rwmmOSVHUTIDoTa1rredU4GJBwMaeMLTDfQQyZDSkHgE8pWnXS
 sprite $PlaylistPlayLg [20x20/16z] lSr50e1020NGFy1qtV-qTklAUgne_2FKcSRCnX1x8J8kNSzTtrkfBXQiHMijQsdTXSvycjErUiAUllYYgrSuOC5pBG
-!procedure PlaylistPlay($id, $name="Playlist Play", $tech="")
+!procedure PlaylistPlay($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/PlaylistPlay', $name, $tech)
 !endprocedure
 !procedure PlaylistPlayCard($id, $funcName="", $content="")

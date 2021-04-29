@@ -4,7 +4,7 @@ sprite $DeliveryDiningLg [20x20/16z] {
 jO_55GHH2C3WkwV_QjSOlU_ab8SZpn7M75us9X1_CRfiv5gR5SovXLnAARjRB8BrYdZ6BwJBOgPM7ZXYdQXwjb92g9G6UOjjj4mTttODWrGf8KPfI29OzsIf
 sTfCylRJPd_d3G
 }
-!procedure DeliveryDining($id, $name="Delivery Dining", $tech="")
+!procedure DeliveryDining($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/DeliveryDining', $name, $tech)
 !endprocedure
 !procedure DeliveryDiningCard($id, $funcName="", $content="")

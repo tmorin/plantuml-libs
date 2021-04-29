@@ -4,7 +4,7 @@ sprite $LockOpenLg [20x20/16z] {
 TS_50S0m34DH6SlL_jEM6VxnnI7igUAHTsJdDmhsPTdpXbqlWFJTXPG509HKFCkBMNXCUSMqO_bIhbPpdbjZlHkEsEmc05Jk1i19VrfDrZzpZ_CKXptlVRxF
 W_N_Fs3ddE6d4G
 }
-!procedure LockOpen($id, $name="Lock Open", $tech="")
+!procedure LockOpen($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/LockOpen', $name, $tech)
 !endprocedure
 !procedure LockOpenCard($id, $funcName="", $content="")

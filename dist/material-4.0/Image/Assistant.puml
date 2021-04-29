@@ -4,7 +4,7 @@ sprite $AssistantLg [20x20/16z] {
 RS_50GKX34NHXqDaqd-rNyQHkpneiCwdLtwdQ5tXRxMt-ZBHsLAQR0EsqJAGEzFYzayLVOns0Xozpv87F0ttCI3JNqAmnuhj4Jssd2ttbl6lCj5-ln1nmHEP
 4SReJNDV
 }
-!procedure Assistant($id, $name="Assistant", $tech="")
+!procedure Assistant($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Assistant', $name, $tech)
 !endprocedure
 !procedure AssistantCard($id, $funcName="", $content="")

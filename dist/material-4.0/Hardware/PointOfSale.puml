@@ -4,7 +4,7 @@ sprite $PointOfSaleLg [20x20/16z] {
 TSs5OG0X44HHP75sflzkWyVV-J_4_4V28a5UodpoROex4FhQ7s-DJxlDbSUPI-8XBqK-yJPb5qr9HNdt22GgMqC56NRhf4QKWgXtOo69X5h7ZQIVhSvMCEQM
 sUf83XD1WXZK6cF5Y_XZlCbeWJ-4EPVVm9aHmpSZ_UK3
 }
-!procedure PointOfSale($id, $name="Point Of Sale", $tech="")
+!procedure PointOfSale($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/PointOfSale', $name, $tech)
 !endprocedure
 !procedure PointOfSaleCard($id, $funcName="", $content="")

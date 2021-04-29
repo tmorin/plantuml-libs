@@ -1,7 +1,7 @@
 @startuml
 sprite $ArtTrackMd [14x14/16z] dOor0G0n30CLZdd_QP-XprMs2AiCDtE2X8S06YV8jPJoVOE81c2cNVwFMXr7yWXcO8Hxt2kALNO
 sprite $ArtTrackLg [20x20/16z] lSw30G0n30NGdqED_QUjFK1VpGHtFCKw8UCBWTyNFygim2EuIFLPzWZDUkzpDd5VsNDUwBpdhNDjJn07MOyfxN4kk5vZf1k5N781dJbV4G4
-!procedure ArtTrack($id, $name="Art Track", $tech="")
+!procedure ArtTrack($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/ArtTrack', $name, $tech)
 !endprocedure
 !procedure ArtTrackCard($id, $funcName="", $content="")

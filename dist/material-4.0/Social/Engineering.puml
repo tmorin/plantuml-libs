@@ -4,7 +4,7 @@ sprite $EngineeringLg [20x20/16z] {
 dSvLWaCn20NGYmI8il_TJgc_p-c9A-0tuf_f5DomhOo6miFI1WEMqtEZz3ot4W0TnGhKjPFbC2nNVzoJi182afacA6r4Zz402bKyQ1Q5xBtrayeU0iYXRRYI
 TTxtICrD2O0JK7JcmrGyUNuuK2Y_4GhdDqQX-F0W_CSV
 }
-!procedure Engineering($id, $name="Engineering", $tech="")
+!procedure Engineering($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Engineering', $name, $tech)
 !endprocedure
 !procedure EngineeringCard($id, $funcName="", $content="")

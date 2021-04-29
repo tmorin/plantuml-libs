@@ -1,7 +1,7 @@
 @startuml
 sprite $WbCloudyMd [14x14/16z] XSf50G1140EmBlFKlzfZnho3FoubXuMg75I5aQwS50moLnQ8t1KbFCWyAJmGVQmUEkQLnPSU
 sprite $WbCloudyLg [20x20/16z] fS7L0KCn30D0XTdQVzhsCVapTvXdKot9uYbpat6hF5GSJEObObFuCB3gV2aUIFmg65GYjI7KAfLXgIHuuLi5O59zA05J_W
-!procedure WbCloudy($id, $name="Wb Cloudy", $tech="")
+!procedure WbCloudy($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/WbCloudy', $name, $tech)
 !endprocedure
 !procedure WbCloudyCard($id, $funcName="", $content="")

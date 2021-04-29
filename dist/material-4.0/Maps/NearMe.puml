@@ -1,7 +1,7 @@
 @startuml
 sprite $NearMeMd [14x14/16z] TSt50G0X3031uCxsN-svotmWBd_KzH_h4TeCSKlx2g3dlucTMPu3tLdPQr-LdGEy72hzSiqJhwUxaGij7qO
 sprite $NearMeLg [20x20/16z] dS_50GGX341HtE7tN-suaTlkEyQZ_cICZDWovfWE3ShKb0Q0UoEkScXFK-nSmjLK1hUXprZWbQPz9wjUDh6hQd84lVW0w4fe46KiC8oCwVrLoHlrenK
-!procedure NearMe($id, $name="Near Me", $tech="")
+!procedure NearMe($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/NearMe', $name, $tech)
 !endprocedure
 !procedure NearMeCard($id, $funcName="", $content="")

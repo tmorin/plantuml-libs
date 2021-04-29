@@ -4,7 +4,7 @@ sprite $FindReplaceLg [20x20/16z] {
 fSs54GCm40D1lPcl_supOMQPrwI_Owcsx2H_fhZOfeHf9s8bPw43HxArR3i6s4vsISG3mT5yrCvYZE7gOrsdikZQPewZDGwKo6UZxWaxMX-DrTi4sj6oKnmm
 Y_KjtlwynRiqwZtMe8-p0G
 }
-!procedure FindReplace($id, $name="Find Replace", $tech="")
+!procedure FindReplace($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/FindReplace', $name, $tech)
 !endprocedure
 !procedure FindReplaceCard($id, $funcName="", $content="")

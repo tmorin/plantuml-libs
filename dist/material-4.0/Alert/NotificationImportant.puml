@@ -4,7 +4,7 @@ sprite $NotificationImportantLg [20x20/16z] {
 bOy55iGm20Lf6xT__zEkyv3rYKyCw5zw9qy0WbDb0QlOYxYXhwVh-kgJk05Wt-t1nMw90pjensoiDl0VukIkk4FE1KbB29pNc7DSkFIhad34U90Z0vaynq6V
 E0C
 }
-!procedure NotificationImportant($id, $name="Notification Important", $tech="")
+!procedure NotificationImportant($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Alert/NotificationImportant', $name, $tech)
 !endprocedure
 !procedure NotificationImportantCard($id, $funcName="", $content="")

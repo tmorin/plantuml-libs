@@ -4,7 +4,7 @@ sprite $TramLg [20x20/16z] {
 VP250S0W3C1OSSt_ryxTWWUl-gApAztXX1LH5y9DY4yPSlA7DkoOpMLsykOgFinuwkxUUkrm_-kCdJ7jSEpihW1DfDrTsPeL2v0dHJX_hkISmQkTI5f24mvd
 xRhUgIy6
 }
-!procedure Tram($id, $name="Tram", $tech="")
+!procedure Tram($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Tram', $name, $tech)
 !endprocedure
 !procedure TramCard($id, $funcName="", $content="")

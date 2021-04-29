@@ -4,7 +4,7 @@ sprite $PowerOffLg [20x20/16z] {
 bSY50GCn40D1cTdglzgmmazhlC6XRB7tItC00dNTIqpmr_5wgNB1dAsDZFZ0n6iPoapXV3UXWIA5Bvl22IXI-B8YTFY3-CRnYUPgjdoWlHa-CUMS350dVZFu
 tna
 }
-!procedure PowerOff($id, $name="Power Off", $tech="")
+!procedure PowerOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/PowerOff', $name, $tech)
 !endprocedure
 !procedure PowerOffCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AutoDeleteLg [20x20/16z] {
 ZSh70SGW34JH8KTv-kzsXPFmRPy3y16KymgR59DGbPYUxccgpSMOLBGvX3dcCcR58_7H_smpbUIicV9jBSOqsVUMKGRGcQqre0hW3h4MhuP6zxQWZMxzF28l
 2V2J1MDTD5aueKhp77XKDYWd37Xr7gqECcEJXUG8-FBUOVa1
 }
-!procedure AutoDelete($id, $name="Auto Delete", $tech="")
+!procedure AutoDelete($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Alert/AutoDelete', $name, $tech)
 !endprocedure
 !procedure AutoDeleteCard($id, $funcName="", $content="")

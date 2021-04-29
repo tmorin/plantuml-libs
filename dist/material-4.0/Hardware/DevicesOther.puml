@@ -4,7 +4,7 @@ sprite $DevicesOtherLg [20x20/16z] {
 fOxL0SCm44DbF6gZ_QSDys-UyLZuGlK7qO345mha-Kexs5by9wsrsih39rp9Jr-lrI_VqawO0JbzGlusdvu-8uTNNc7FxFtXQmJ2xxw4DBYmTfQrN-BC7xfS
 XpwqyB3bLXIVcOqlJ
 }
-!procedure DevicesOther($id, $name="Devices Other", $tech="")
+!procedure DevicesOther($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/DevicesOther', $name, $tech)
 !endprocedure
 !procedure DevicesOtherCard($id, $funcName="", $content="")

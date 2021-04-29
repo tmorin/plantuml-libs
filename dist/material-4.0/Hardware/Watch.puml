@@ -4,7 +4,7 @@ sprite $WatchLg [20x20/16z] {
 TP054eGm40HPmMBp_zUUvOO2idHPghC-_LZmOvbExDtjPrUwosTNkwidfVYZXvA2xAgUKOGkOUsF5VkHcVYRcRt2wPmP2K8dI95xphMWntcMT9evcOWdpipT
 MWEWuGtYMyKtZMx_1W
 }
-!procedure Watch($id, $name="Watch", $tech="")
+!procedure Watch($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Watch', $name, $tech)
 !endprocedure
 !procedure WatchCard($id, $funcName="", $content="")

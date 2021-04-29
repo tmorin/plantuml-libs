@@ -1,7 +1,7 @@
 @startuml
 sprite $SpeakerNotesMd [14x14/16z] TOo30GHG243xoDf_shFnCk4TYWS44FqWpfLf4H7wjL8fHDpsgFRUIn-RVEAsALHpuFrBPhl7lRfngvI5-MIo05BW1OI_704
 sprite $SpeakerNotesLg [20x20/16z] dSk54GCX04JHnPtjlzhatFtZRmOS9iqgsLBbgjgWuIPpRj3jhMqs6nYCRNApXSJaGzlrtrnOSbCfipMRWO0dPzEUNXiTPvixDRsroeJEFCGSMcjecmdusXy
-!procedure SpeakerNotes($id, $name="Speaker Notes", $tech="")
+!procedure SpeakerNotes($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SpeakerNotes', $name, $tech)
 !endprocedure
 !procedure SpeakerNotesCard($id, $funcName="", $content="")

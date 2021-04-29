@@ -4,7 +4,7 @@ sprite $InfoLg [20x20/16z] {
 VP350S0W300RUU3PVzeQheSVdki0CLCdG0LvyGgAujT40cKb3L52NELzRE1pAYv0ZAtwN8XzhMFhNqKoGFK6Bftg4AkZqL6-epg_ViluvW3pttYE0O-n2WgE
 CHrv
 }
-!procedure Info($id, $name="Info", $tech="")
+!procedure Info($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Info', $name, $tech)
 !endprocedure
 !procedure InfoCard($id, $funcName="", $content="")

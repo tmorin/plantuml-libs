@@ -7,7 +7,7 @@ sprite $BusAlertLg [20x20/16z] {
 NS_70SCW44JHsKHO0TD_jpOu-vsaJyONKS6lCaccVgVawlKY0vlNdZdOuIcwgFUoU0oWKM5CO78xQ-gUSoqePzvDwhCrYh81-zS0gmBaknaxuAcGDV1ik1Xd
 RJAWx6Ag6cHpYy44bByg_biLdBPASijotd1QUyuLj7URLhbLcy-6v4V7Gv2zjjPg9-FPdEzTw7XI_V-u0G
 }
-!procedure BusAlert($id, $name="Bus Alert", $tech="")
+!procedure BusAlert($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/BusAlert', $name, $tech)
 !endprocedure
 !procedure BusAlertCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $LaptopMd [14x14/16z] VSk54S0034BHNnV8TVzfwsxlB0ByoMNDh1piUcL35AoAW2XPbR_RlIStxQongDtjN4ljJkB7
 sprite $LaptopLg [20x20/16z] nSYr0S0m00D1cTdQVzemfmjUzuzRR8fR5e3YWG8C3SHYI6WQR0pF_FGqSzp8r838t4a2v5cCAMxrYHjQ
-!procedure Laptop($id, $name="Laptop", $tech="")
+!procedure Laptop($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Laptop', $name, $tech)
 !endprocedure
 !procedure LaptopCard($id, $funcName="", $content="")

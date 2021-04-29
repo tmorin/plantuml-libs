@@ -4,7 +4,7 @@ sprite $ForwardToInboxLg [20x20/16z] {
 fS-53KGX50NHmPtRVxURxnRVYHyUnb_5rkfPQn5mUkKWQ0GmQn2cmc9JrR1cgdOBGOeBHIdutPRrRcrVviDXuASqFTmDIc79onzsxst6RCDtS_qxvzJkVnia
 BIqOs_RxGcYrIPbNzakuEztx0G
 }
-!procedure ForwardToInbox($id, $name="Forward To Inbox", $tech="")
+!procedure ForwardToInbox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/ForwardToInbox', $name, $tech)
 !endprocedure
 !procedure ForwardToInboxCard($id, $funcName="", $content="")

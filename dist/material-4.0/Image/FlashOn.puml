@@ -1,7 +1,7 @@
 @startuml
 sprite $FlashOnMd [14x14/16z] RSV50G0X00Emuaxtd_PSiFo2ISmv5_-ky63Q9RHJxOgKxoeF_fsBP1LuATAYMK8xrKm7DAJ0oWu
 sprite $FlashOnLg [20x20/16z] bSt50KGX34NHXplqN-tCTyFlya0IL1D73w9fpnUCv-QG6y_D8JTMC6jDuQv-Ml0h1RopYudS779ZkMbySudaff2b2ARx0m
-!procedure FlashOn($id, $name="Flash On", $tech="")
+!procedure FlashOn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/FlashOn', $name, $tech)
 !endprocedure
 !procedure FlashOnCard($id, $funcName="", $content="")

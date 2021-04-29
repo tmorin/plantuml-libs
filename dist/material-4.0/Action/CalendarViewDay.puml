@@ -1,7 +1,7 @@
 @startuml
 sprite $CalendarViewDayMd [14x14/16z] Oo0UC7520GSd4v373GTC84aO076O-U60XO611ON7n0FJnWDIoWW7O7ryO6L0YXdLJBm
 sprite $CalendarViewDayLg [20x20/16z] Ow0BOET70HmWCLPkBcuO039PiUd3fOu3tJnCEzXngMFXOEU00I2J1PUzR7oyI82F3QiOrG4
-!procedure CalendarViewDay($id, $name="Calendar View Day", $tech="")
+!procedure CalendarViewDay($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/CalendarViewDay', $name, $tech)
 !endprocedure
 !procedure CalendarViewDayCard($id, $funcName="", $content="")

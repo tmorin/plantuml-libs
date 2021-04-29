@@ -1,7 +1,7 @@
 @startuml
 sprite $PollMd [14x14/16z] NStL0K0n24FHr1NOVzhdcbizNu3ouShliAUDyLK4mlwMycfQJg_S96LhNqtS2hCKsL-QGDFXuvK7jG8
 sprite $PollLg [20x20/16z] bP250O1024Mlam_xJsjt-_IA1lKTdsAQYCcD8jdXUrdQor8lY-CTc6MhdJ7lCdRb94EtwMiPqr6ckoT-olgQYGNOnTkHhcPmdbKl-aeB
-!procedure Poll($id, $name="Poll", $tech="")
+!procedure Poll($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Poll', $name, $tech)
 !endprocedure
 !procedure PollCard($id, $funcName="", $content="")

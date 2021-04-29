@@ -4,7 +4,7 @@ sprite $RingVolumeLg [20x20/16z] {
 ZOs50KGn24Efm0cI_RVzxlggmK9tr7gCkJ_4yZ-FiKKmFBMFQdibHwKX67bi2V3OBKjCw42YM-fN0mZzbYaYtcfJjJRk_S1YmEJ602pt3p3wbbvmz4zPnqBG
 ygSHHOkGZDEcYRsgXLQKIgzf
 }
-!procedure RingVolume($id, $name="Ring Volume", $tech="")
+!procedure RingVolume($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/RingVolume', $name, $tech)
 !endprocedure
 !procedure RingVolumeCard($id, $funcName="", $content="")

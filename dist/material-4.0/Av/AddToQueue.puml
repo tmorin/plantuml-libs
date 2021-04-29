@@ -4,7 +4,7 @@ sprite $AddToQueueLg [20x20/16z] {
 bOw50S0m20JXuyh-qzRTUr7ywIjmVeS3SPK3bI615HOK1m74ZpsOnzTjVAMChp_vDdagHP6OrDPdPC3i-d5VotSpjZvhDpv7MqPVBHqvzwV_LG6vyTCpXiUw
 ZPODyCvt6_IB5W
 }
-!procedure AddToQueue($id, $name="Add To Queue", $tech="")
+!procedure AddToQueue($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/AddToQueue', $name, $tech)
 !endprocedure
 !procedure AddToQueueCard($id, $funcName="", $content="")

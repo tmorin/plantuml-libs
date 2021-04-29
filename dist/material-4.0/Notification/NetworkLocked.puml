@@ -4,7 +4,7 @@ sprite $NetworkLockedLg [20x20/16z] {
 XSk53G11449Hrdtelzfprnz_0VnduesKb2lfndodgwc1c6-hqIwhqMwh6ioLqltOe6iDfnKZYaErssfi08Na3ojMM9OivR1YHkQOXXOkbSrYoNCbR7ReqPGR
 idYg1m
 }
-!procedure NetworkLocked($id, $name="Network Locked", $tech="")
+!procedure NetworkLocked($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/NetworkLocked', $name, $tech)
 !endprocedure
 !procedure NetworkLockedCard($id, $funcName="", $content="")

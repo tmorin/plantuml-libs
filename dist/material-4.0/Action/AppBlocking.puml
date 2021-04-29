@@ -4,7 +4,7 @@ sprite $AppBlockingLg [20x20/16z] {
 ZP054aHX28BvIxU4-vzs-tL-uvGD-91xq67giIuNwddiv_ZBKD7dYFG5jrkVwwkrfbckK6APvdY7AoQvfdSuwoH7aq6JN0evRfpkgvHKfZcaLjFUp-8VnKbV
 -ZvVyHIv_Fbv_m8
 }
-!procedure AppBlocking($id, $name="App Blocking", $tech="")
+!procedure AppBlocking($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AppBlocking', $name, $tech)
 !endprocedure
 !procedure AppBlockingCard($id, $funcName="", $content="")

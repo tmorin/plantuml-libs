@@ -7,7 +7,7 @@ sprite $ViewInArLg [20x20/16z] {
 RP250KCn24GZqCR8st_RbbI-NlHm2BV8glBxYsfs4M0_cG5leLB4xLJTJWhgCYTvm72tHGK9gK4fKDEY3eMMmjBeBl9I2enDDkafTMnNWSNA6pNQ9fjUfXUs
 azbsRV7IXwOjtXEAomeybq2c11dOdCOGfx_U7XFcuzlRRmQnbFYTmVsihZEznGi
 }
-!procedure ViewInAr($id, $name="View In Ar", $tech="")
+!procedure ViewInAr($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ViewInAr', $name, $tech)
 !endprocedure
 !procedure ViewInArCard($id, $funcName="", $content="")

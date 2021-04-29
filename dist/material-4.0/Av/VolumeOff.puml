@@ -4,7 +4,7 @@ sprite $VolumeOffLg [20x20/16z] {
 ZT055i0W30FGu6NItl-soyEVBrC-3ludeCUvHT6aroIJfPM8gF2FlVx4R01VxsfPYCavHwnz2Yb5YKWFy5XhADOY29RPCFME4yjDBuUrbjrMNwt4sJTA4IL2
 YAdFqPpj72hH0mS2k8auKE5kqnFx6LGd5d36UR0z_kS3
 }
-!procedure VolumeOff($id, $name="Volume Off", $tech="")
+!procedure VolumeOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/VolumeOff', $name, $tech)
 !endprocedure
 !procedure VolumeOffCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $CropLandscapeMd [14x14/16z] bSsr0S002031Hqfa_sdZriIkmk6PRfX8TYqw1RnDL-tWnQR-PQsNArhxXn90T2Cy6W4
 sprite $CropLandscapeLg [20x20/16z] Ow0-uEH50fnW8JP-P35-Df0OEpyJGWyJFmSkCGugYx4JBORfPaOkP34kHke77W
-!procedure CropLandscape($id, $name="Crop Landscape", $tech="")
+!procedure CropLandscape($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/CropLandscape', $name, $tech)
 !endprocedure
 !procedure CropLandscapeCard($id, $funcName="", $content="")

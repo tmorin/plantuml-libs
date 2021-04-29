@@ -1,7 +1,7 @@
 @startuml
 sprite $FormatQuoteMd [14x14/16z] dKe50S0m32kF5_zgppTG3b6wUAtjjjVYcmc0yEl8ppn-ndN0jMqmFJKtNud-4aKGrIkOhnC
 sprite $FormatQuoteLg [20x20/16z] lOe54i0W30HnX_l_Rujcj2rZMOZjd6123MWiAZfAeLE_NBdCfTgwaxMqxeY8qhji2AGqOFlmQ99SEZ4l2ANbS5eBDXu
-!procedure FormatQuote($id, $name="Format Quote", $tech="")
+!procedure FormatQuote($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/FormatQuote', $name, $tech)
 !endprocedure
 !procedure FormatQuoteCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LocalCarWashLg [20x20/16z] {
 LSy53WKX30JGmILBv_wd_K8bsOSxnL_wbriXF0FO6nWFNACWand21bDva2aPXmKkfIWX1xZ5iFma6zA5JZlT1O7TVhSGjlumiwTiqj33dI_tyE2PmalcuTIv
 WkvxgiyDRF_TqBb92etGzxtulZdcDQRDTHw4Ou6KX90AW2y
 }
-!procedure LocalCarWash($id, $name="Local Car Wash", $tech="")
+!procedure LocalCarWash($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalCarWash', $name, $tech)
 !endprocedure
 !procedure LocalCarWashCard($id, $funcName="", $content="")

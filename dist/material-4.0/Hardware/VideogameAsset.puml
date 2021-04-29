@@ -1,7 +1,7 @@
 @startuml
 sprite $VideogameAssetMd [14x14/16z] ZOtL0G0X241j6lQVzlhyvYbT9Sz2HC17hR8YJEDZNX7qnvKH03vRdN95L7n7usvOVoUiJvd5n_el0DmNyfm
 sprite $VideogameAssetLg [20x20/16z] hSvL0i0m20FGmBIMtF-qSzzlNrq1zPcjxRJkZ2GbtaQu5Z7hmRSzT3hayDzpX7Klc0FkHQlEyhrdHSNRtty9AByO8UhS--M284fR4xbE0W3xG7Kp
-!procedure VideogameAsset($id, $name="Videogame Asset", $tech="")
+!procedure VideogameAsset($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/VideogameAsset', $name, $tech)
 !endprocedure
 !procedure VideogameAssetCard($id, $funcName="", $content="")

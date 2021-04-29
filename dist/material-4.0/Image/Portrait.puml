@@ -4,7 +4,7 @@ sprite $PortraitLg [20x20/16z] {
 ZP250SCm30JJjx3q-syRPZppcLKzHyDZm4DwnHNQkg2WePIs5aRhd9ZFGU-YT-uxbsHktPVyRfsJjZiFs9q74QmTlcpuOdQb-h3ZCpflrmtCw-I54MdTFWRx
 MBNgAJK
 }
-!procedure Portrait($id, $name="Portrait", $tech="")
+!procedure Portrait($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Portrait', $name, $tech)
 !endprocedure
 !procedure PortraitCard($id, $funcName="", $content="")

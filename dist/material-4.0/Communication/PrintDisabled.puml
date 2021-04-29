@@ -4,7 +4,7 @@ sprite $PrintDisabledLg [20x20/16z] {
 RT3L0GCm24LH7d63_RTjYLNlvuc7_iJyQrr0b4zf6ii03JrXem3zqyZ90DheLgDTrC74mGVBJIggEe2pPx6bQWdJt3DLTKH1PsCXeePZ5_MQr2fd-R5g-pwn
 VTf1CpXsslQBc9m3pRI1cH7ie1tq9XVJ_IjR_ftJVzYP7W
 }
-!procedure PrintDisabled($id, $name="Print Disabled", $tech="")
+!procedure PrintDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/PrintDisabled', $name, $tech)
 !endprocedure
 !procedure PrintDisabledCard($id, $funcName="", $content="")

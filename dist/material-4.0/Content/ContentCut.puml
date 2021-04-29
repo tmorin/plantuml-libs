@@ -4,7 +4,7 @@ sprite $ContentCutLg [20x20/16z] {
 XL074iCm399FPCVY_x-j5zrjIBoqmNu0UBTuaE5wh6kz1kUP-U4lDd0sMmYPO2yscIpLt21aQa2mmYtNRI01KpLwu7L4vjFVXsJEV3R2QqrDhg5QEJvw1EUb
 3O5GvDFCQEcopSKcetWmD5AlYNUj1ezaLxW1
 }
-!procedure ContentCut($id, $name="Content Cut", $tech="")
+!procedure ContentCut($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/ContentCut', $name, $tech)
 !endprocedure
 !procedure ContentCutCard($id, $funcName="", $content="")

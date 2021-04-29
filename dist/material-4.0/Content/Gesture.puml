@@ -4,7 +4,7 @@ sprite $GestureLg [20x20/16z] {
 bO_50S0m2029AxdzfwtxhnV5GNuGalreJ8DXFbuC9NuSewktxlRSOgszLMQGH5o7VcapNIIoehURbm3L6CNBXaV53ShoKteDMzd5GschPYMlEWTZTGLLQdH7
 ZRLWeqh7ou5rom7ZFZCQA4gM5nbeyi4dB_-O0G
 }
-!procedure Gesture($id, $name="Gesture", $tech="")
+!procedure Gesture($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Gesture', $name, $tech)
 !endprocedure
 !procedure GestureCard($id, $funcName="", $content="")

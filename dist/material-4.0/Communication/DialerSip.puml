@@ -4,7 +4,7 @@ sprite $DialerSipLg [20x20/16z] {
 ZOw54SH0203HFmj3_zq-SPUDtgBm6KefQtnJ5Q5Kk7V90mIqH5LRpOiZmAv9qSvIxxHtKSmr5MquzkjTLDGcFqumOkv6i2UVL5_SmOdilvD3Spv9za5ILi95
 YaSvcGTh6pPlvZrvqxEu7rtVpNgNZfjgoWIV-GC
 }
-!procedure DialerSip($id, $name="Dialer Sip", $tech="")
+!procedure DialerSip($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/DialerSip', $name, $tech)
 !endprocedure
 !procedure DialerSipCard($id, $funcName="", $content="")

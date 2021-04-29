@@ -4,7 +4,7 @@ sprite $ConnectWithoutContactLg [20x20/16z] {
 RSo50OGm40J0FSMIRF_T_kCw43l3DtCyETdZeISBu8eBAIsGJ4YCqnupqsI5L_xtXN9M_-6MWbNmhy3-OMXUOYCA5GCfspWr4-M0dfFX8kbW0LHmY4ba2dHi
 YeTATlVsfSvm8MmEUxG6sLehWYif_0lSZ1ynYp_1bny
 }
-!procedure ConnectWithoutContact($id, $name="Connect Without Contact", $tech="")
+!procedure ConnectWithoutContact($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/ConnectWithoutContact', $name, $tech)
 !endprocedure
 !procedure ConnectWithoutContactCard($id, $funcName="", $content="")

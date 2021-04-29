@@ -4,7 +4,7 @@ sprite $CarRentalLg [20x20/16z] {
 VOw50S0W30G3nUBxJrjtE-o9mqmCS2EAMxxPoD6yrJRkijdK07r1DrjpSucn2-mHTgFn_465NqB3cHPW1ocNaKnuX4dOn6xBknlphZ3bcNGag-_imnW1-GW1
 svljBrUTLaws5vNIJRqm
 }
-!procedure CarRental($id, $name="Car Rental", $tech="")
+!procedure CarRental($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/CarRental', $name, $tech)
 !endprocedure
 !procedure CarRentalCard($id, $funcName="", $content="")

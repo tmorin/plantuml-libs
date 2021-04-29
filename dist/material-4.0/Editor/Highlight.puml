@@ -1,7 +1,7 @@
 @startuml
 sprite $HighlightMd [14x14/16z] RSd50S0W44JHZplRVxLn3-yqma2C73IG4YWDK2gRMhRFi_7RXwjbKHsRA9l89hoQaOs1ZLsBvLH42izMkQJM4dyp
 sprite $HighlightLg [20x20/16z] ZSg55O0m4C3Gr0NRVrhSeVAXbdVaQCr7rt4dhYROn5O0KYwfZLlpGs0N1i_6YgC9oy5vvsVpmK4C9y6XFrBFfvNcrD4K5xqbpPrVagVONEMSD3D9sWG
-!procedure Highlight($id, $name="Highlight", $tech="")
+!procedure Highlight($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/Highlight', $name, $tech)
 !endprocedure
 !procedure HighlightCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $DeleteOutlineMd [14x14/16z] XSg35G0n303GCaMq_xJrq_4NeRbpthkJMaGT4EsgSib3oQiomCJZWbaoXnW3vrFX_F6hAl-Re38ecCs7mPkR3W
 sprite $DeleteOutlineLg [20x20/16z] hSn50iDG20HGe09Vv_wdRUFkoLkXG-U8gPfGpuBFA6GVh9sbegq0gPtngyFKGcSmIse5JQ0E0bNymYmSlFEFvR4KU7WNqOZK4RMA2ftn1m
-!procedure DeleteOutline($id, $name="Delete Outline", $tech="")
+!procedure DeleteOutline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/DeleteOutline', $name, $tech)
 !endprocedure
 !procedure DeleteOutlineCard($id, $funcName="", $content="")

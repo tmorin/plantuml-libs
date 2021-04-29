@@ -1,7 +1,7 @@
 @startuml
 sprite $SettingsInputHdmiMd [14x14/16z] PSV50S0m20108ExxJzl6zNu7D_8XyzIcev1I1DrcB0b1rjHWJ35B4SieTVGEnn0AssAXOcqC6bDYe1DbOem7xmE7nmy
 sprite $SettingsInputHdmiLg [20x20/16z] jSg53S103CNGdsFE_jEMKmPHdzWo7XaxCTXaNgIjSJ7JLfYsbX6K2iCFeRXGiRPGOIMjygh-rSBMWZHgaXhXCdefsxXjsnY0ZUM9_Mfa9uH7FG
-!procedure SettingsInputHdmi($id, $name="Settings Input Hdmi", $tech="")
+!procedure SettingsInputHdmi($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SettingsInputHdmi', $name, $tech)
 !endprocedure
 !procedure SettingsInputHdmiCard($id, $funcName="", $content="")

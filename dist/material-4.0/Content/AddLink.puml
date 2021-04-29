@@ -4,7 +4,7 @@ sprite $AddLinkLg [20x20/16z] {
 lSu55WCn20JGYOS8tF-sdJfldrVsnnLmbaZF_gwgKOn6MW5gjbgjZHFsspX1i0bdMG2oPNQwIJahNFezotCX7D_k3HUZ1iJUL5kFxrmIlxefFcUak3KcFBd_
 ZaJmfGi
 }
-!procedure AddLink($id, $name="Add Link", $tech="")
+!procedure AddLink($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/AddLink', $name, $tech)
 !endprocedure
 !procedure AddLinkCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $NoteAddMd [14x14/16z] NOg50S0W30HnpRVxJulx8SaBUr1KW1qg_8NukKCvtkHGdd7OfRuO4ASAxPjAwwsYu5p4gH2a3DXDOtQpCPG64UfJx243
 sprite $NoteAddLg [20x20/16z] TT254O1034JHSvV-gyNP1CaVOnxdIiZw8ySepAj8Lavf2GZhAWF9WDnKdE5X8wOOPuLHXPjpNpFcPQDKhMiPpF0bZ1FM4_T5iC0ju4sHLK8h
-!procedure NoteAdd($id, $name="Note Add", $tech="")
+!procedure NoteAdd($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/NoteAdd', $name, $tech)
 !endprocedure
 !procedure NoteAddCard($id, $funcName="", $content="")

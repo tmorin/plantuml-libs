@@ -1,7 +1,7 @@
 @startuml
 sprite $PowerInputMd [14x14/16z] hKg30G0n32nYxR_jioF4fz5Jbd4gznX8nFJiS-R71ZoxFsOLKokNr9FigHi
 sprite $PowerInputLg [20x20/16z] OnXCW8c3dGCEW6mMe1WhFohW02j41OnWCKOWpOWWeNfv6JY093S3DqWlr0us1XOWoSh02hPZK04
-!procedure PowerInput($id, $name="Power Input", $tech="")
+!procedure PowerInput($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/PowerInput', $name, $tech)
 !endprocedure
 !procedure PowerInputCard($id, $funcName="", $content="")

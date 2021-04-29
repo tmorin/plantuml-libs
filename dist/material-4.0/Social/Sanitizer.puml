@@ -4,7 +4,7 @@ sprite $SanitizerLg [20x20/16z] {
 XO-50S0W40F3uvhzfwsxNeiTmV2A7J4d9Pne2ZlA97eJh9oYWJBKcNjIOcFrKAHTbU54WOjg2Qh6cGYuEZl75INJn43Ym9JLWQIiBg2ID6MiPjUoHIYaSUl5
 4ylo60iR1EUSnSHflxDZuztntscxel1A3m
 }
-!procedure Sanitizer($id, $name="Sanitizer", $tech="")
+!procedure Sanitizer($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Sanitizer', $name, $tech)
 !endprocedure
 !procedure SanitizerCard($id, $funcName="", $content="")

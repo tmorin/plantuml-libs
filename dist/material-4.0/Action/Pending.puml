@@ -4,7 +4,7 @@ sprite $PendingLg [20x20/16z] {
 VP1L0e0m34DN-S2ItF-skCE2xjLRAehCk05hg4bex419RMBiI1Ujq7Xbi9arkgcP6UyCSnFpT-A0HAmPK-gB2tE0brxAAuDiOtFiiCLYc6C_QxnxUVTCUy-M
 xntaSrTixBtJYaO
 }
-!procedure Pending($id, $name="Pending", $tech="")
+!procedure Pending($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Pending', $name, $tech)
 !endprocedure
 !procedure PendingCard($id, $funcName="", $content="")

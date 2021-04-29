@@ -4,7 +4,7 @@ sprite $NoLuggageLg [20x20/16z] {
 TO-50S0m20I9Ex__jWtKxTlOuVGl4wREbruJfjBEYbxp81hvyEi2bHMwGG_m_Ddla1Mg-kuv9BrhoFt6aCd1b9Drj2RXLA-i6Wb_CDh2nuqb3R_xXI2UzfOl
 Xkl4D6G8PbnXnQ4JPhIKirHfY3lqHWVtP8gXJoq
 }
-!procedure NoLuggage($id, $name="No Luggage", $tech="")
+!procedure NoLuggage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/NoLuggage', $name, $tech)
 !endprocedure
 !procedure NoLuggageCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $PhoneCallbackLg [20x20/16z] {
 ZOm55e1020M1xVptlwqyktKs6O9-8o54jmHinYT0uTbLlpaXJbfL0uquA4xZJP50YSI5swX66j25kEcibOWc-W2vvCK9wlWOQyskqDCPRZ0NQJ1AYKvubHRm
 90sAsoeRogWGTpCJS7BZjB4mq15n8GhzPW
 }
-!procedure PhoneCallback($id, $name="Phone Callback", $tech="")
+!procedure PhoneCallback($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/PhoneCallback', $name, $tech)
 !endprocedure
 !procedure PhoneCallbackCard($id, $funcName="", $content="")

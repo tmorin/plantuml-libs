@@ -4,7 +4,7 @@ sprite $WatchLaterLg [20x20/16z] {
 VP250SGm2023l3-m_xPjt7Dj30TtW9Yf4y1RxKRUK6sy9A3PbgqX2a7C8ngFuFwE1f3EjvT9BnEVmBAiHkHHnbL6A5bMV8NTirHJ2luvzBfQYqT_kHRmXbKE
 Ss-S6wupu75M-eRZJ4Sk
 }
-!procedure WatchLater($id, $name="Watch Later", $tech="")
+!procedure WatchLater($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/WatchLater', $name, $tech)
 !endprocedure
 !procedure WatchLaterCard($id, $funcName="", $content="")

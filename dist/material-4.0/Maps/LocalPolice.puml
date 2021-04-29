@@ -4,7 +4,7 @@ sprite $LocalPoliceLg [20x20/16z] {
 LT253G0n20NGNtVOVziBN6ZAYv4A1XC2u8L6rDnf7An6j9Ey-5ePeh7JvAopsfjLVzwLOcVttG78dPsS0X1IFi_V0JMjHfKVKw8bKPKe-RC4SVHsBTI_bXMU
 n4nJowf0V97jeV9LOReRrh-iUCL9PDipRlSV
 }
-!procedure LocalPolice($id, $name="Local Police", $tech="")
+!procedure LocalPolice($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalPolice', $name, $tech)
 !endprocedure
 !procedure LocalPoliceCard($id, $funcName="", $content="")

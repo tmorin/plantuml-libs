@@ -4,7 +4,7 @@ sprite $AddTaskLg [20x20/16z] {
 VP053iKm34E3QqRn_K_xeTKOdiWAn_I2cEaXm97uaI6qe8avEeyP7Lcf8SDFLvGKoV_6n3h9q7J0jr2sTCxdAbB4CLILa_IyX7Y9THX9QqXGbjx0rBOBOjqH
 TQD7Zwd4SaiO4Gse76uMCVIixLAd9RfSPeavtCla9EEIva0bw80UFBto1G
 }
-!procedure AddTask($id, $name="Add Task", $tech="")
+!procedure AddTask($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AddTask', $name, $tech)
 !endprocedure
 !procedure AddTaskCard($id, $funcName="", $content="")

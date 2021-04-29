@@ -1,7 +1,7 @@
 @startuml
 sprite $AddRoadMd [14x14/16z] VOt50SDG3CNq6Utzjst3dEXaUC0dAK2C4DAuzGorGkxZrlByostQ2XYpRxjottmyAeszfImD9dV9RcstNRG7DdBdW0lm1m
 sprite $AddRoadLg [20x20/16z] fP230S10303VYlQVjhPnxIjEr3zYQVUSsxt4NbQatOdQNU10LfQod3Ts8xDiQLUUvQ2yzPrPvaZ-efOvdcvaUY5Z5QN3B6VWeGWNq6fcZdSlissm6W
-!procedure AddRoad($id, $name="Add Road", $tech="")
+!procedure AddRoad($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/AddRoad', $name, $tech)
 !endprocedure
 !procedure AddRoadCard($id, $funcName="", $content="")

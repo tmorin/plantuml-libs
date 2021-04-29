@@ -4,7 +4,7 @@ sprite $FlakyLg [20x20/16z] {
 VP073iD020I1QzWok___ROImqvDHlJcw_A7rtbw4EaWoN1ynu4bSiPrFbDJWlhEoDq3JERcfMJgNmPKkI9fugdmX6v1SvXhqohBg0F1KCjWVNKl9JDSkfQ8n
 ArTGoZ0FQFMuTtI6ogWQ2cvLogGHUkuMNQefiaD9y5XZU12f2dKcSFroqz_S
 }
-!procedure Flaky($id, $name="Flaky", $tech="")
+!procedure Flaky($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Flaky', $name, $tech)
 !endprocedure
 !procedure FlakyCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $TvOffLg [20x20/16z] {
 TSi52W0n34JHgNjp_zjkXO6rVYmy9ZYM0aO-OLSY0DNyeAOuaJ2nEbT9y3BGjYxIsyf3ZtDW7B0JqLh2VcTXMiJ6kmKGxplYouWt8xwCIBiXxOxRajAi3dIY
 LPTx0xs6YRT2beXFkU2t2m
 }
-!procedure TvOff($id, $name="Tv Off", $tech="")
+!procedure TvOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/TvOff', $name, $tech)
 !endprocedure
 !procedure TvOffCard($id, $funcName="", $content="")

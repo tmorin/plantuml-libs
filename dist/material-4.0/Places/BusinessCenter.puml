@@ -4,7 +4,7 @@ sprite $BusinessCenterLg [20x20/16z] {
 bOu74iCm20HLuC1D_F-tET9xufssixQaApk1EvxI76HwI1Ae5I7Nq5grKqDjBKjTuu6rbgBnX7vlOzoQd0oSUBAUQoSoq_gSnj-e1i0QDnsbP_FJX7a-ZV9i
 5W_OxR_azf--pClevYSeJ7zp
 }
-!procedure BusinessCenter($id, $name="Business Center", $tech="")
+!procedure BusinessCenter($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/BusinessCenter', $name, $tech)
 !endprocedure
 !procedure BusinessCenterCard($id, $funcName="", $content="")

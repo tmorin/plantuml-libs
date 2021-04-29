@@ -1,7 +1,7 @@
 @startuml
 sprite $ExpandMd [14x14/16z] NKw30S1032m-rlxJrlpOkQ4ZpZWeUSyQ8W9ifZrz_WnBbRvPCslVvjlgizbiVZFzNlb-Q7XH-o6J7lCA
 sprite $ExpandLg [20x20/16z] hP350S10408vzzl-guqxoI_pN0NmZd7MRLXdrbgM2_awP-rrRiKvF74YpwANYN2lnTXxZ7ZG6l1RJQq_rAqOLYqaqDyAv8qouAm-CsL6
-!procedure Expand($id, $name="Expand", $tech="")
+!procedure Expand($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Expand', $name, $tech)
 !endprocedure
 !procedure ExpandCard($id, $funcName="", $content="")

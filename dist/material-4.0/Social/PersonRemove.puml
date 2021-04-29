@@ -1,7 +1,7 @@
 @startuml
 sprite $PersonRemoveMd [14x14/16z] XSVL0S0m24LHYFlRVzgu_BKd0fT-IE_u1O1qow8JftIFmYIbv96kP4sY08OkPXw_YIbvHPCgc1AFIjZSA1UMgEbR0m
 sprite $PersonRemoveLg [20x20/16z] fSkr0G0n30D0EypQVzh7aEjSAQ1ZAYH7acu0iimoNdBPy4eYgtW5aRatQeeev9Go_w5lA7eS54dye9ysneXQnuPNyJmYZwdfFzBOb3-psF6_osb3fsu
-!procedure PersonRemove($id, $name="Person Remove", $tech="")
+!procedure PersonRemove($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/PersonRemove', $name, $tech)
 !endprocedure
 !procedure PersonRemoveCard($id, $funcName="", $content="")

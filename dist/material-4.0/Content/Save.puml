@@ -4,7 +4,7 @@ sprite $SaveLg [20x20/16z] {
 ZP250S0W30HnXzz_shhYrsBnXCmZZJO7sl1RX0-Nq42m7Kuja4wX1YCd6hVG_6GmfypgCuN_o5ucP34LCaM8ocHklxbNbj_kgi9-2raynxbxuqdyaE-ixdyN
 pR82
 }
-!procedure Save($id, $name="Save", $tech="")
+!procedure Save($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Save', $name, $tech)
 !endprocedure
 !procedure SaveCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LocationCityLg [20x20/16z] {
 ZSs55GCW34LH8gT1y_QVjkx-yOkLRn5vjJbVJWsOycY16t4xOghICADUhNBEWzK6jFfWee3AWwq4CicvLcvEbdkxTlN-xlc1kF_Z_gFAGyvc3lYnivC5Pd3j
 ujDThr6lYUhbx-m
 }
-!procedure LocationCity($id, $name="Location City", $tech="")
+!procedure LocationCity($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/LocationCity', $name, $tech)
 !endprocedure
 !procedure LocationCityCard($id, $funcName="", $content="")

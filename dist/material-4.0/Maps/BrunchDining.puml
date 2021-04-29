@@ -4,7 +4,7 @@ sprite $BrunchDiningLg [20x20/16z] {
 dOw50SD054BX2ctZ-qyRTq_UwNTmnSUokVJ5HOtNFlstFkYUppkrDIzzKUDJzwSx-QfT6Jf2_GzziHixYUEazZLFG96WpnzGxrlG-sYvGoQAL0HSJ1YTFdg2
 QAyzAW
 }
-!procedure BrunchDining($id, $name="Brunch Dining", $tech="")
+!procedure BrunchDining($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/BrunchDining', $name, $tech)
 !endprocedure
 !procedure BrunchDiningCard($id, $funcName="", $content="")

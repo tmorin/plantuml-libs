@@ -4,7 +4,7 @@ sprite $PaletteLg [20x20/16z] {
 bT150WCX44JHmYtmxt_QI1EVrRmLsgPpN2ebkP-JXXbUBtwICkG4IPkRT6ajQK2GQK2kK0jmsS-OTM5MdVjX8YXZiY9PTuMYZccsiRCVSV_zDdQEdoFthiMK
 b88-DJzqVGjMtdGwpY0SPvLqrWq
 }
-!procedure Palette($id, $name="Palette", $tech="")
+!procedure Palette($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Palette', $name, $tech)
 !endprocedure
 !procedure PaletteCard($id, $funcName="", $content="")

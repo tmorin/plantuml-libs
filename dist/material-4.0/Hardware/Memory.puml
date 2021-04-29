@@ -4,7 +4,7 @@ sprite $MemoryLg [20x20/16z] {
 bL250GGn36hg1ko_xRl_6TLuWZk6KCtL-AchCbDzTvgW014pF7HJk4FZeGE-Vx4AvwkKSmteLgXAE5zdrBFkLiYCT4KXd4NIR4dt7RjGuwkNFptFXovEKEHZ
 jaKENbmTmma
 }
-!procedure Memory($id, $name="Memory", $tech="")
+!procedure Memory($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Memory', $name, $tech)
 !endprocedure
 !procedure MemoryCard($id, $funcName="", $content="")

@@ -7,7 +7,7 @@ sprite $CameraLg [20x20/16z] {
 VS-5WSGm30LHIUQ0V__TdkQOTYVyGhOzgTHQVe3FBQd7z2z2TDcfNT-f-8dLnluDNICa7NPZjsDJswSKkT72DaTD6xDde_4rPQL6dev5UTRU_ab3r30QHjVx
 dsCH5hLYJATrciEMx91s4aUQaPldzZMpctloAJUgM6Elmoi2Rfrl_znkHBwY8nFwghHMx4al
 }
-!procedure Camera($id, $name="Camera", $tech="")
+!procedure Camera($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Camera', $name, $tech)
 !endprocedure
 !procedure CameraCard($id, $funcName="", $content="")

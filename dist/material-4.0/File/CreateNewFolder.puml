@@ -1,7 +1,7 @@
 @startuml
 sprite $CreateNewFolderMd [14x14/16z] VOor0G0X34Lnujb_sdEXokk-feX61-LLuWSwvmGejtgGJmrUb1NyrJmEikcZJChKPTVeQQwVZJvQYjW1
 sprite $CreateNewFolderLg [20x20/16z] fT235GKW503GbrtxJvlTmSVD1lo56wsr4NiN2Oq0LDG-5ZfV1Rtw5hhtEUvAmVO-0_hfqqyVwRVO-mGZG9ZuSh_1Mz_xQBYG_WUBuV2N1
-!procedure CreateNewFolder($id, $name="Create New Folder", $tech="")
+!procedure CreateNewFolder($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/CreateNewFolder', $name, $tech)
 !endprocedure
 !procedure CreateNewFolderCard($id, $funcName="", $content="")

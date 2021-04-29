@@ -1,7 +1,7 @@
 @startuml
 sprite $DialpadMd [14x14/16z] bOr50e00408tm5R-_rgxFJcNJS3CwGQiPQPMvP9NgfU90wrhr_A1FQrjb_BLBMQPXwTZc_0lOM59k0WfRYEmrGa
 sprite $DialpadLg [20x20/16z] Om02HaOa0W9O-FbPa0WmuEBdvq8GIEfOuGG8O9etLErWOW8R1M710LGC0H06m0728iBgK8q7
-!procedure Dialpad($id, $name="Dialpad", $tech="")
+!procedure Dialpad($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/Dialpad', $name, $tech)
 !endprocedure
 !procedure DialpadCard($id, $funcName="", $content="")

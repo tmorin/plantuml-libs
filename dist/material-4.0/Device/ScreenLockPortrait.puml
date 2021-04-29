@@ -4,7 +4,7 @@ sprite $ScreenLockPortraitLg [20x20/16z] {
 XT054W0X241HnExxdtPxxVXJpfiGW3jCmP-8AV6Rp-O6vfC5f4yOiirUZ7Kcj1QjQOAwiW0iU1zORIfUAGWxaxV9sWY_8jD9qsxuhFRjDhx1sEJWfe3q2-7k
 1
 }
-!procedure ScreenLockPortrait($id, $name="Screen Lock Portrait", $tech="")
+!procedure ScreenLockPortrait($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/ScreenLockPortrait', $name, $tech)
 !endprocedure
 !procedure ScreenLockPortraitCard($id, $funcName="", $content="")

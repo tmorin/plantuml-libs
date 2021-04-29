@@ -4,7 +4,7 @@ sprite $ErrorLg [20x20/16z] {
 VP250S0W3C1MYkl_ryvm3Hwyrm6a53i1qeSN9w4e-faVZrc5XYWXhd8kDl0v6HSG4blvETyxzpqYP5TFfAEZrL5Q7OO1h7Se5LktUql_PW_pt-WS0ph6oaiu
 ndJa0G
 }
-!procedure Error($id, $name="Error", $tech="")
+!procedure Error($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Alert/Error', $name, $tech)
 !endprocedure
 !procedure ErrorCard($id, $funcName="", $content="")

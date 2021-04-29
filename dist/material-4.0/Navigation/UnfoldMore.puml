@@ -1,7 +1,7 @@
 @startuml
 sprite $UnfoldMoreMd [14x14/16z] Oo08UBYHEDoyl0Wk6nyZ8nyRdCi8GgG3Tbu61bvsX7Myl3p8jlCGDW4
 sprite $UnfoldMoreLg [20x20/16z] jL350S0W3CGTRlzfgwzBFpKWxebw-eovc7JlMaPre6jfyW6TqXEyKW690kr9fZtkmRDudiKCU8zXv2AdYIF9HBTwybO
-!procedure UnfoldMore($id, $name="Unfold More", $tech="")
+!procedure UnfoldMore($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/UnfoldMore', $name, $tech)
 !endprocedure
 !procedure UnfoldMoreCard($id, $funcName="", $content="")

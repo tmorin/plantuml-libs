@@ -7,7 +7,7 @@ sprite $AddAlarmLg [20x20/16z] {
 VP250GGn20JZ2cp_tNw0TvkpkOqJVf4_94mKbuBf4ZTMJ7tEdexkg15Zf0rZfm7MSBSCp9nIcP3STb3IqUiIWkYsR8dMR97btVpBhE-Df9-AUiqUFntvg553
 HhzbUIzWxIDellds6DlzI17qo4Y2CMoEf0jsLODkrdM84mayQXtY5RZI1GTfRsKj9OK_N
 }
-!procedure AddAlarm($id, $name="Add Alarm", $tech="")
+!procedure AddAlarm($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/AddAlarm', $name, $tech)
 !endprocedure
 !procedure AddAlarmCard($id, $funcName="", $content="")

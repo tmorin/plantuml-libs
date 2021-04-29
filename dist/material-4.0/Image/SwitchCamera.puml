@@ -1,7 +1,7 @@
 @startuml
 sprite $SwitchCameraMd [14x14/16z] VOo54SCm5CNU-OmoxJzj6-P4dr4tJ1am6h5G-q05AvM-KHug1Yii5RBUMt6gqhAPniqqsFTFouRL5ty
 sprite $SwitchCameraLg [20x20/16z] fP035a1H24J3izh_QhzjtCFS39p3ke5NAIKTQenD345wIWZHj5EoWG7qDgSlShdR6FCYLz1AWyKovGe3KWC2bIb7-zn-ThuHvXlF_jjh6poOYGP-KGC
-!procedure SwitchCamera($id, $name="Switch Camera", $tech="")
+!procedure SwitchCamera($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/SwitchCamera', $name, $tech)
 !endprocedure
 !procedure SwitchCameraCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LibraryBooksLg [20x20/16z] {
 TSq54i1024FHm42zoVrFMtTvutyNmA_8Ws-frObRr5LEmG2gDfzPB2qKa2fSMyxjT6bjMStA-cXKXPLV_h7Vt1hPQt6VBTytolR-xoBcbgYaBLCjW9ZQoGoJ
 L1Mv2ooSkh0jvlNVdn4
 }
-!procedure LibraryBooks($id, $name="Library Books", $tech="")
+!procedure LibraryBooks($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/LibraryBooks', $name, $tech)
 !endprocedure
 !procedure LibraryBooksCard($id, $funcName="", $content="")

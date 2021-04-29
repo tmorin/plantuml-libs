@@ -1,7 +1,7 @@
 @startuml
 sprite $SignalCellularAltMd [14x14/16z] Oo06C7An8_6O-BcHvVYvO4ms7aOa7YS_4rOU8my7b0Sr31kF6sOj6pSZ0v322m
 sprite $SignalCellularAltLg [20x20/16z] Ow0QuE1cnn3ZuUSYHuoDWnLD3CmbHuo5bHbD3C6bN0pXSmH16G
-!procedure SignalCellularAlt($id, $name="Signal Cellular Alt", $tech="")
+!procedure SignalCellularAlt($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/SignalCellularAlt', $name, $tech)
 !endprocedure
 !procedure SignalCellularAltCard($id, $funcName="", $content="")

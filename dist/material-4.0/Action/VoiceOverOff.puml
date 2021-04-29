@@ -4,7 +4,7 @@ sprite $VoiceOverOffLg [20x20/16z] {
 ZOs54S0m3CHCOVZzjsseS5m5hJFG3tW_-b4AFnz3V9r3NvbnICqoVYAKJqOQRu2Gz4o6UjoKcHHWccVGCANEZrA7J9UnvChZawVOKb38q6YXfUKvIFVSbpWZ
 1mXDs7pmjgGYJ6C5cro7N5a1N-9K_3LzJn1yaGWTUV4bH2QZ_rm
 }
-!procedure VoiceOverOff($id, $name="Voice Over Off", $tech="")
+!procedure VoiceOverOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/VoiceOverOff', $name, $tech)
 !endprocedure
 !procedure VoiceOverOffCard($id, $funcName="", $content="")

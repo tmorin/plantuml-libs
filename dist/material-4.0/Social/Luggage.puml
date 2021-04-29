@@ -1,7 +1,7 @@
 @startuml
 sprite $LuggageMd [14x14/16z] POu30W11203NkVx_shDl5Xdf3whYRMcjUkeD3D6WRKRssF2yMYM4Lw9iiI101BeiNFXP_ymIAhhStKeM6vOsYenQ1vVVmZC
 sprite $LuggageLg [20x20/16z] jSZ50S0m3CNGNmvQ-qzRPZXMGJzzLpHZD-iOwwxcifJTrVna_WID6IodtYonbmvBZX1mwMn1D3KATsl-jcAoucGP31itvCq2Uq5RZjWvrqMSZkf2OqMjpmO
-!procedure Luggage($id, $name="Luggage", $tech="")
+!procedure Luggage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/Luggage', $name, $tech)
 !endprocedure
 !procedure LuggageCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $HelpLg [20x20/16z] {
 VP075iCW34FbMe-QpFlVjeZLdP-1-6nmWPF-9YoEix27JKMPok53gPRTiyecJRqIp90qtkIYf4sTYRt4a5EtFPNgWaLHcnZpgr-VaKCbH6-QBkC-ki-nD_JW
 RGqHkPNxsCiBqVSis2O-38AlZjztmC-xEi8kx_IJ1m
 }
-!procedure Help($id, $name="Help", $tech="")
+!procedure Help($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Help', $name, $tech)
 !endprocedure
 !procedure HelpCard($id, $funcName="", $content="")

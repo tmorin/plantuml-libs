@@ -1,7 +1,7 @@
 @startuml
 sprite $InboxMd [14x14/16z] fSwb0S004CNGVr26x3zjcMsVYui-F0--1emRM3977SRyKMIOP94i5K0bLR1MicWQzd8k_Zxxc04
 sprite $InboxLg [20x20/16z] nT053iKW00HHdE5Bz_wthRj6Ex7DYo3cUP7CK2Rqf5MnDHJSL12jPJapvNhZDIiPtovFBgCrVTlrRTTmvpQiHPFrKrMbsRP_iF-hbfvM0m
-!procedure Inbox($id, $name="Inbox", $tech="")
+!procedure Inbox($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Inbox', $name, $tech)
 !endprocedure
 !procedure InboxCard($id, $funcName="", $content="")

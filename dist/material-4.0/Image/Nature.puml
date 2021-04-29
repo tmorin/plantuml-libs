@@ -4,7 +4,7 @@ sprite $NatureLg [20x20/16z] {
 VSx50SH034FH0JaSkVzgbnKj_-CRiCk_MgzlCZ6JIokkRdaFjZKViOgGHvDiicsonKRPRDjbWssHrVsmNXH4Ot7zTfE3vQOaQdbhtz_Wqn08a8W875VUTjQz
 M_2zzyu
 }
-!procedure Nature($id, $name="Nature", $tech="")
+!procedure Nature($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Nature', $name, $tech)
 !endprocedure
 !procedure NatureCard($id, $funcName="", $content="")

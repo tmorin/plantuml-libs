@@ -4,7 +4,7 @@ sprite $EscalatorWarningLg [20x20/16z] {
 TOq55WGn24FhNdB_s-w6SKk5l8-P3zbW7sYYtra0y2Yio8zUvzqDEG4mh5g_iWAgi44GpWmicV0Nri-zcMGs13D491vrqs4qcgRCqmlBHPagA3FHbmVJATFU
 MFwpTR67-fLzrzaOOw1nZ1_w0G
 }
-!procedure EscalatorWarning($id, $name="Escalator Warning", $tech="")
+!procedure EscalatorWarning($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/EscalatorWarning', $name, $tech)
 !endprocedure
 !procedure EscalatorWarningCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LocalPharmacyLg [20x20/16z] {
 ZO-50G8n40Glxjd-gyLESFXvpKg4dd3qXblZJKtORxcEoZzvJs41Q-MhLl489-Ep5c_bVVjlxVQHHNZWFLkinKSjoautkkvbaMap9g8K9xQJ3JvsCslZKHjS
 nOsr-Eku-aJwThPGIpLAZNIOCm
 }
-!procedure LocalPharmacy($id, $name="Local Pharmacy", $tech="")
+!procedure LocalPharmacy($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalPharmacy', $name, $tech)
 !endprocedure
 !procedure LocalPharmacyCard($id, $funcName="", $content="")

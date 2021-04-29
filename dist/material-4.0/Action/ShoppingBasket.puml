@@ -4,7 +4,7 @@ sprite $ShoppingBasketLg [20x20/16z] {
 ZSw50S0m20J03xKO_FxJrjqlhe0t8ZXpPWudaOmugkWzgzDB1VJuEb80ML_NtZU1slI3ClH33U65G7cYG9YdPlCa35cC4f0ugW2PP-kf0v2Fzp9wdYDLZZnw
 9GzA3FIKoK0Qln7yrm4
 }
-!procedure ShoppingBasket($id, $name="Shopping Basket", $tech="")
+!procedure ShoppingBasket($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ShoppingBasket', $name, $tech)
 !endprocedure
 !procedure ShoppingBasketCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $DetailsLg [20x20/16z] {
 bSv50i0W34JH1BSmzxzjtPM_V2qmr1hprMAya0BKsH9m_j6WJn-je2yVo2A81DYz2LY48Jjoy5GhURYLk0gH2FM-3W-mapc4TMwXoQX0BNFrOXff98sY-gIg
 lWAzpjqgFN7muH3Jtpe
 }
-!procedure Details($id, $name="Details", $tech="")
+!procedure Details($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Details', $name, $tech)
 !endprocedure
 !procedure DetailsCard($id, $funcName="", $content="")

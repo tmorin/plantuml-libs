@@ -1,7 +1,7 @@
 @startuml
 sprite $ArrowForwardMd [14x14/16z] Oo08M9YHUUpyA5mEVgooR5mWmCd7puB6WmCsP0u7Z8Df0miBOHS2
 sprite $ArrowForwardLg [20x20/16z] Ow06O6R15EFbPyOGO-7d8reGYtPcX2077oyKyCC5EP75MD3ryc4AGNGI5cB1z1iBfej1GfG3
-!procedure ArrowForward($id, $name="Arrow Forward", $tech="")
+!procedure ArrowForward($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/ArrowForward', $name, $tech)
 !endprocedure
 !procedure ArrowForwardCard($id, $funcName="", $content="")

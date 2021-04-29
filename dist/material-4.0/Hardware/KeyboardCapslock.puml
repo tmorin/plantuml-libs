@@ -1,7 +1,7 @@
 @startuml
 sprite $KeyboardCapslockMd [14x14/16z] Oo0HiB8WSLZu-LcGE6piS2upFpi30pi_CuJ7n0hMoeJLG5vk8E1XWnh2oG44d2makGa
 sprite $KeyboardCapslockLg [20x20/16z] jSg53S0m00D1kypUVzeoHn1yyUcHAjAqOJ2kGUh_b-hwXxqQeFbWjz66tMFbHXkMSAwxUqntV91dID82
-!procedure KeyboardCapslock($id, $name="Keyboard Capslock", $tech="")
+!procedure KeyboardCapslock($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/KeyboardCapslock', $name, $tech)
 !endprocedure
 !procedure KeyboardCapslockCard($id, $funcName="", $content="")

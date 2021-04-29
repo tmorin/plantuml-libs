@@ -4,7 +4,7 @@ sprite $SatelliteLg [20x20/16z] {
 ZT350GGn34DHoM6o-gzscN7-yOM3xQLQwgLIuvdqL3fQLM9H3XUhHoio3D4UhQeCDTHdqu5CpvO9MozchAuNkzJhayqXBM8-cc4f0EPtIq18bpTTxjn00Zo4
 fdAUvm-fVlk3vxzAsDuU
 }
-!procedure Satellite($id, $name="Satellite", $tech="")
+!procedure Satellite($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Satellite', $name, $tech)
 !endprocedure
 !procedure SatelliteCard($id, $funcName="", $content="")

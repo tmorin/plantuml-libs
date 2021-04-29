@@ -1,7 +1,7 @@
 @startuml
 sprite $PhotoMd [14x14/16z] XOq35W0n34JdDLxb_hTTMx-DXGk55ieOvCOGyXunGAU8VwDEjpdp5DWInQ00H0wQqytKR6ZWo_KXPE81ue8BFG
 sprite $PhotoLg [20x20/16z] jP350K0n34AfUxF_jD_TzHsZ0AwZhB4TnigsH3DKNRFpcgrhPgDc_wfvEwl5G9GOuhJ6aKW0F8yr1GZLUUeqEp06i0euCkrSda1sBuDvLWhNAG4
-!procedure Photo($id, $name="Photo", $tech="")
+!procedure Photo($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Photo', $name, $tech)
 !endprocedure
 !procedure PhotoCard($id, $funcName="", $content="")

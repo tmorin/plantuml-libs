@@ -4,7 +4,7 @@ sprite $ZoomInLg [20x20/16z] {
 fSj50i8m04JH7_VC_K-BGzjiiBSSuIi-9RSaGnVTxYFDv5pHt8L33cC8QhjPWXAXwZLCiYRtdWdoM-Q8hGRYbdbbo17QzgNV-wZ2Yvig8JGfiR5T5oMfia-z
 jr2tSDC-3nF_EGC
 }
-!procedure ZoomIn($id, $name="Zoom In", $tech="")
+!procedure ZoomIn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/ZoomIn', $name, $tech)
 !endprocedure
 !procedure ZoomInCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $SetMealLg [20x20/16z] {
 ZSm50iCW3030G1JD_t-x1URQQx4O74Pcfi7YOdWEeR_801ndhwLs3zDvnHf2mEe3PSSKhWI1TunkCKpNc5lQ8VLsY_ciAbfct4R4q5zW36xrehLMcy1tAUMC
 H29gbICWFgSlSuu-969Pc32d10-ujxwCC2LYL3PR2i5X9m
 }
-!procedure SetMeal($id, $name="Set Meal", $tech="")
+!procedure SetMeal($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/SetMeal', $name, $tech)
 !endprocedure
 !procedure SetMealCard($id, $funcName="", $content="")

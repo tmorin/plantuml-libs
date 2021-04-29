@@ -4,7 +4,7 @@ sprite $AssignmentReturnedLg [20x20/16z] {
 ZT050iKW30FGJfFEUl_JVfdZPCh3aIjD8txKJ5_5WOJQF9k2x0-oFLrtV8U_yVZVjkFBly7UEOn9cu39iMFeeMpBrelqs_8s7Al7smm7lUn016i62ciUN1lE
 imBFW0VLvGi
 }
-!procedure AssignmentReturned($id, $name="Assignment Returned", $tech="")
+!procedure AssignmentReturned($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AssignmentReturned', $name, $tech)
 !endprocedure
 !procedure AssignmentReturnedCard($id, $funcName="", $content="")

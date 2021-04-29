@@ -7,7 +7,7 @@ sprite $HearingDisabledLg [20x20/16z] {
 TP054aCX4CM2VlpT_xPbPwYtmOClVt4n1cjhn709YZOhuxMSkQgBD78gIuMaOiwDBGtNbPWB8yZa5V4QNB8JTxDi-meq4PJDnUA7oKIHy-UWnvbDxgnxoZdF
 UIyoPOOSJzctFEzxqAH2d8udLSrM7cMjlVVv8yYAK9HuaLup5GrubLdIz1oP7n7buAhZ9pS
 }
-!procedure HearingDisabled($id, $name="Hearing Disabled", $tech="")
+!procedure HearingDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/HearingDisabled', $name, $tech)
 !endprocedure
 !procedure HearingDisabledCard($id, $funcName="", $content="")

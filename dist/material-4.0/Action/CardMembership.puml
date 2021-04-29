@@ -4,7 +4,7 @@ sprite $CardMembershipLg [20x20/16z] {
 fSt50S0m2010e1xTVzguowjN3GfBT3NEYtn8wOvomKk_PrFtwWlWzA_gyiVhLqomXeYnNep9pduUUzxYOJw6KdSaWWiIuHFFZ_-lKxnniji-nMw0kuyXrlUQ
 1G
 }
-!procedure CardMembership($id, $name="Card Membership", $tech="")
+!procedure CardMembership($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/CardMembership', $name, $tech)
 !endprocedure
 !procedure CardMembershipCard($id, $funcName="", $content="")

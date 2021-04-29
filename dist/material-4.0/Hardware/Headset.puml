@@ -4,7 +4,7 @@ sprite $HeadsetLg [20x20/16z] {
 fOw54SGm30GjoKpNVxLF5nnuoWQyOw5R45LtnZS0QEPs2j1pxa3PhYgglEeRgYDn3rT4ofnRXSp1_aXk8-Cr9_4W7f5tkjyfqfekl15doBoRaz7qjEKEe2NQ
 -UwpfRFfESh5hDOMdX9QBUQkSGS
 }
-!procedure Headset($id, $name="Headset", $tech="")
+!procedure Headset($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Headset', $name, $tech)
 !endprocedure
 !procedure HeadsetCard($id, $funcName="", $content="")

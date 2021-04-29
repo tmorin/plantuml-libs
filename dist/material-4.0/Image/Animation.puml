@@ -4,7 +4,7 @@ sprite $AnimationLg [20x20/16z] {
 VP050WCW202nOyBz_xKBN9VI3VB_fPpUB0t0shDfichkodoOEgmUBwvxv00r629g3rCNYPCXdNHDDCek6ZDvIrPtcKYlf3s4Ygbdc2vpljIaCIwouWc9sebo
 G5jfxFaAEJ6z1DxUuvfCPXIfoX1_Ndw2BNiivkNJK4zyhAyjryNyE1FjuvnP_hyJ
 }
-!procedure Animation($id, $name="Animation", $tech="")
+!procedure Animation($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Animation', $name, $tech)
 !endprocedure
 !procedure AnimationCard($id, $funcName="", $content="")

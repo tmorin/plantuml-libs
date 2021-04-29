@@ -4,7 +4,7 @@ sprite $LockOutlineLg [20x20/16z] {
 TOy30W0n30JZGx7_V-tPc7ggX7P4w84LeDXDEMhRLjnagKp4jLoKe9c75d9rCGznSHhepDqwX6ugS25MryCFqE-E3f1sn_C_V7Tp8e0zNG_q_-UkxmbjxlzV
 DrymH_-V1-bvJkc74G
 }
-!procedure LockOutline($id, $name="Lock Outline", $tech="")
+!procedure LockOutline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/LockOutline', $name, $tech)
 !endprocedure
 !procedure LockOutlineCard($id, $funcName="", $content="")

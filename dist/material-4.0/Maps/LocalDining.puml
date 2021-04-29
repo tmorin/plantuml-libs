@@ -4,7 +4,7 @@ sprite $LocalDiningLg [20x20/16z] {
 dT053WCn44DHXpc-_sshILqK5BvezJQClmevm8h3IVmaMUshSU3aDYqFO53OUBBPXLVKi7rMibMcJEl16GvPDn5cJCuriyWmOsYMqj3nPfEb29y8gC_eXj4h
 Yfwn7H8sw85mhmHytmK
 }
-!procedure LocalDining($id, $name="Local Dining", $tech="")
+!procedure LocalDining($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalDining', $name, $tech)
 !endprocedure
 !procedure LocalDiningCard($id, $funcName="", $content="")

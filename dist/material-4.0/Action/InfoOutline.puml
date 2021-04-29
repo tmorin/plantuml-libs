@@ -4,7 +4,7 @@ sprite $InfoOutlineLg [20x20/16z] {
 VP055WGX34CB51xMvFwdNSkwPGRxhsv_bDtp2qWT98cUxgY0qLlhGHIJd6owDL8muNB9-Un1NDmxw_c8a6K_7mZvoJzmCU_sfCvivdArjKpE_c0H3oPVCVag
 nnCBVDHIsN_LR4ueZLNGJN8mUgqz27-Q5Lzd9HNtOdzq1
 }
-!procedure InfoOutline($id, $name="Info Outline", $tech="")
+!procedure InfoOutline($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/InfoOutline', $name, $tech)
 !endprocedure
 !procedure InfoOutlineCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $BugReportLg [20x20/16z] {
 bSo55GCn30DGlQ13rlxJ5bJctW_7W4r2kEmtomCGVE5EuPhJMN0dKp8kOYuyApb2Ek_qIvwJbfAHhZnHApK5FjVMINBshgFYp2-r3hpcZVgXdmIdh82RC7am
 0nwaMXCssWC
 }
-!procedure BugReport($id, $name="Bug Report", $tech="")
+!procedure BugReport($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/BugReport', $name, $tech)
 !endprocedure
 !procedure BugReportCard($id, $funcName="", $content="")

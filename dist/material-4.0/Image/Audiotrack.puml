@@ -1,7 +1,7 @@
 @startuml
 sprite $AudiotrackMd [14x14/16z] ROw30G0W402piV-qsVs5Dn04BMmh5iYsWfHuMwu9oCA79NpO5es5PSdBujLIQA9B29zx8OWC
 sprite $AudiotrackLg [20x20/16z] bOpL0KKX3CLQtBl_j4-luP3F8u5jj37Qg3oZBp7F4b6YK6O64EiievtXIiPzYfHdWdvacMzagP75VwQUcVb52Q4I2iWHHY7iyWO
-!procedure Audiotrack($id, $name="Audiotrack", $tech="")
+!procedure Audiotrack($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Audiotrack', $name, $tech)
 !endprocedure
 !procedure AudiotrackCard($id, $funcName="", $content="")

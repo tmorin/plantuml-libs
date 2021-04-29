@@ -1,7 +1,7 @@
 @startuml
 sprite $PlayDisabledMd [14x14/16z] VKsr0G0n488YVhB_jEykeSFH0-EDQaNWbRA62ospihFW4_Lui8csT3AlE9CQvA2Xh4TNQBmo4W-C
 sprite $PlayDisabledLg [20x20/16z] fSYr0GDH50CmFmvx_sa_TE4ZbS8n-LdE2yJnAaVwMRxa8xyaR_gIDTB8UhxWp0Vlzd8p-V2Ncwc2rvk9rtj4ZdovYm2lwObfveTaVgPZWmu
-!procedure PlayDisabled($id, $name="Play Disabled", $tech="")
+!procedure PlayDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/PlayDisabled', $name, $tech)
 !endprocedure
 !procedure PlayDisabledCard($id, $funcName="", $content="")

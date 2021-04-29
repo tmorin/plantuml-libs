@@ -4,7 +4,7 @@ sprite $DryLg [20x20/16z] {
 VOw50GGn20GXxjj_jq_uSvlJ34hVU4FEdPL1fD7EZb6e3jv5OddWBUgcAhAysw08jrGrI2yIOHZfhpgWlMqKRtMUAFGYv5IoKJLm94_Ni11y45WtNIbABRov
 7NTmtYdsMDkgOZQt4-XQQ-VAlAtN9v4c7aSgAMmFgFa1
 }
-!procedure Dry($id, $name="Dry", $tech="")
+!procedure Dry($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Dry', $name, $tech)
 !endprocedure
 !procedure DryCard($id, $funcName="", $content="")

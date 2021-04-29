@@ -4,7 +4,7 @@ sprite $LeakAddLg [20x20/16z] {
 ZP150eHG34FpjG8bzp_j2DebRrbDWjSq5LIhqF7KX2k4hT1IBIfYG-T4nYXmrgTG9UXeNF2WfA04MwhL3hGuhjLfn_VIdNkfEaazTxaq08FqKVQnuNF_E1aD
 Q3NROHJ8HasrXGtEqAoI3g4XCzcn1SegsLvf5Apvtj0zCD6Ertm1
 }
-!procedure LeakAdd($id, $name="Leak Add", $tech="")
+!procedure LeakAdd($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/LeakAdd', $name, $tech)
 !endprocedure
 !procedure LeakAddCard($id, $funcName="", $content="")

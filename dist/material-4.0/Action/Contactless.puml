@@ -4,7 +4,7 @@ sprite $ContactlessLg [20x20/16z] {
 VL250SCm3BENGbZ_Vxl5DAxQa5cY2wHjIsy6pXCFZCnXsYOCCxa9Br0ZUzGOQvFqR6dOzdNcPTEmoYWaqMk8TTdwfFLBHUjmo-02gk9tsmdERhFSr43DSwD7
 8rJl4RECcELrvhvcdlpDRVlMOFlKQcR-rlG2Tm
 }
-!procedure Contactless($id, $name="Contactless", $tech="")
+!procedure Contactless($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Contactless', $name, $tech)
 !endprocedure
 !procedure ContactlessCard($id, $funcName="", $content="")

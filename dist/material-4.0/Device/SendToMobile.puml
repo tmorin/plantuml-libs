@@ -1,7 +1,7 @@
 @startuml
 sprite $SendToMobileMd [14x14/16z] POxH5G0G30C30DX_Mm-07hJtbG0GkYFGOBbqCcl6ouGFSyPQu_AmCI1mcz7Rf7UfDANMC0QNST24aqwRGPXMshJq2W
 sprite $SendToMobileLg [20x20/16z] ZP3L0SLG24E1vmBiFstRwoxd3oS10v878V3Ko3FaM2F_UKvSHfHZJW0jyFl574EapU4Fspv_9EI8ByBba1ENmtOMjsx0z6SLZ_AcBx7lrV4KwEOX6vu
-!procedure SendToMobile($id, $name="Send To Mobile", $tech="")
+!procedure SendToMobile($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/SendToMobile', $name, $tech)
 !endprocedure
 !procedure SendToMobileCard($id, $funcName="", $content="")

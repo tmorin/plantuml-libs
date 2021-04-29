@@ -1,7 +1,7 @@
 @startuml
 sprite $SnippetFolderMd [14x14/16z] VSx50K0X201GM-dzf_tTuRlHk9w4ax17R1EfanQMQCTxX37f6RNIuYLg5aNEsZM248FASsV2G-g-EG8
 sprite $SnippetFolderLg [20x20/16z] fT2r0G113CH07xEt_sgVcM52XQ9VR8en9hTC2Zr7ejKrWm5t4ESsqul6pdeqpA8LagHtZPdCjXLuyQHbk5rhoBbrSgDqJM533GzcoT8lDG
-!procedure SnippetFolder($id, $name="Snippet Folder", $tech="")
+!procedure SnippetFolder($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/SnippetFolder', $name, $tech)
 !endprocedure
 !procedure SnippetFolderCard($id, $funcName="", $content="")

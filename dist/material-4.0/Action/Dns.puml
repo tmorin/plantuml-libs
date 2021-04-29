@@ -1,7 +1,7 @@
 @startuml
 sprite $DnsMd [14x14/16z] ROq53a0X34CxZG6x_sc_QyEBRZKGvcud-r4Fs-cbqi_BzqlmNbPZFwuBaHaduCjgZ9gsq0Ajm_m6n0e
 sprite $DnsLg [20x20/16z] ZP150a1124APJlN-f_tTEMzf0cX6Xu6u4jHO2t8YpBLgt5wBSyq0wLfpG3xNed3Cbrql9_mivWHUQlVT_STTIsdHNBJZg-Px1ZeUiueQpVG
-!procedure Dns($id, $name="Dns", $tech="")
+!procedure Dns($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Dns', $name, $tech)
 !endprocedure
 !procedure DnsCard($id, $funcName="", $content="")

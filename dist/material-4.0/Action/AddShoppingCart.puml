@@ -7,7 +7,7 @@ sprite $AddShoppingCartLg [20x20/16z] {
 TSq55WGX30FGuDhc_hVTXwx_6HnI7DRY2i5X4C5XIVtSCpupmhLArkPWei6WWi0f835W6AE120mCTu9XFtbvNnip3yGu2dPiTrhfS5JAn8h324LLHPl5CP8_
 2NFAIyIMU0aEv-pY33QlRSvD4u-jasbdz6TT-dcVp3YysxaU_pm
 }
-!procedure AddShoppingCart($id, $name="Add Shopping Cart", $tech="")
+!procedure AddShoppingCart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/AddShoppingCart', $name, $tech)
 !endprocedure
 !procedure AddShoppingCartCard($id, $funcName="", $content="")

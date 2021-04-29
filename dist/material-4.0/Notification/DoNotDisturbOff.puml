@@ -4,7 +4,7 @@ sprite $DoNotDisturbOffLg [20x20/16z] {
 VP1L0WCn24GdrdZc_gTTOQ7Uli-7Wp-460ECNW1V5WzcSH0Q2svKbkPMveVa9JqFcSrDAI_aStavdRH_bCzp2GldHySaJSv1FlX9CW9Hd1-7X3ghVPG7cI7O
 z6MxFEIrYrkcP2MFayXdgSHbQh6OT6M9ASUUvVcdASZhEhwo0m
 }
-!procedure DoNotDisturbOff($id, $name="Do Not Disturb Off", $tech="")
+!procedure DoNotDisturbOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Notification/DoNotDisturbOff', $name, $tech)
 !endprocedure
 !procedure DoNotDisturbOffCard($id, $funcName="", $content="")

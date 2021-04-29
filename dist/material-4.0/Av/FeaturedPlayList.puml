@@ -1,7 +1,7 @@
 @startuml
 sprite $FeaturedPlayListMd [14x14/16z] VSc53GDH0CFGjCbdsd_QOwOdj8mpQiJH7sfrr2Po1OFVdCuUdtM58hLMTNwmb6sxxtB7SZgMG6s8inu
 sprite $FeaturedPlayListLg [20x20/16z] lT0r0i1044BH6OYix_rF6tUlyifFXto5skpK44tv82coKVIuZEYQeDEDcxPQcwzDfpRRPcIqRId4mRQj_cnN7mZD0UMh5W
-!procedure FeaturedPlayList($id, $name="Featured Play List", $tech="")
+!procedure FeaturedPlayList($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/FeaturedPlayList', $name, $tech)
 !endprocedure
 !procedure FeaturedPlayListCard($id, $funcName="", $content="")

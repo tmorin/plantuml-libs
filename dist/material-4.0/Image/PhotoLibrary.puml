@@ -1,7 +1,7 @@
 @startuml
 sprite $PhotoLibraryMd [14x14/16z] ROo54O1030JlBSdmaVwhnHrsz1HlikxGeZXs5A1qLzRehkgFSZsLKJ3qK1K5I6xRIzUkshTFaB0mYvHP3QtLcPOnGsuhmNWp0G
 sprite $PhotoLibraryLg [20x20/16z] hSe52i1044FHZC7wtF-qTMyNxKFp2RhK3hobxAUsHRyo0FHkwlfgza-huTvoc5UwjiOe0K2vDC6AwjdIhhhEpH3yb07er2u84_EWjbCikFa5RT6klvuH
-!procedure PhotoLibrary($id, $name="Photo Library", $tech="")
+!procedure PhotoLibrary($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/PhotoLibrary', $name, $tech)
 !endprocedure
 !procedure PhotoLibraryCard($id, $funcName="", $content="")

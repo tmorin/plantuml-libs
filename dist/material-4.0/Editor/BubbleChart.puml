@@ -1,7 +1,7 @@
 @startuml
 sprite $BubbleChartMd [14x14/16z] XOor0G0X00E3ExV_jEzISbrKQtp9zXCHc9_i7EHNZLELUvEKJ-MVJLEU8-ga0kO_XofR_2Ejbp9DFxPwBTW1
 sprite $BubbleChartLg [20x20/16z] hSx50OHG30JGOUF1-gyMT_vjUSVeu1ELfHDkgEidYgkcNn1ErAyS9zbgMPWph2Y2a4kfgouZlwNO4bOnrm8WOU1Hkw8jboPTYfcqj5eyy5axQKtusmW
-!procedure BubbleChart($id, $name="Bubble Chart", $tech="")
+!procedure BubbleChart($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/BubbleChart', $name, $tech)
 !endprocedure
 !procedure BubbleChartCard($id, $funcName="", $content="")

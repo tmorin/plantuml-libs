@@ -4,7 +4,7 @@ sprite $StorefrontLg [20x20/16z] {
 bOy56aGX28J7nky9S__RhhNTlqa3VYUM6-9IyOwfh0oHuinSPUm_T9frrmGpvEva3O3ZWJA4OIeuwD0_6RL_rE0fqtSRm_0BEmHGAcb6ziqke2DKIKrprfP4
 AKldSS7_foil_QBp6xTdIxmZOP2aoAP8mk-S
 }
-!procedure Storefront($id, $name="Storefront", $tech="")
+!procedure Storefront($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/Storefront', $name, $tech)
 !endprocedure
 !procedure StorefrontCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $LocalConvenienceStoreMd [14x14/16z] VSU50SCm34HHCuXk_sdRC2VV83ttcUyqrVseWAKmW0oQYIl3o3a193476kOaIWBU1CFG9foaEUkkVJGYQjluw0y
 sprite $LocalConvenienceStoreLg [20x20/16z] fSY54GDG3CFGzcF8yVxJbfb1Hxgt-3DnE-HoDF0Kzb8Bc1vaPXAbRgXpKumbOeXoKpyOf02bsALPTTAhNbdf8EULCS53PxlejKbhShOFhxfjydfn_xG6
-!procedure LocalConvenienceStore($id, $name="Local Convenience Store", $tech="")
+!procedure LocalConvenienceStore($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalConvenienceStore', $name, $tech)
 !endprocedure
 !procedure LocalConvenienceStoreCard($id, $funcName="", $content="")

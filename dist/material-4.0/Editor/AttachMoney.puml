@@ -4,7 +4,7 @@ sprite $AttachMoneyLg [20x20/16z] {
 bP350OKm341n6dtxJ_k52svjt9FgvUlBiBCflZKDIMu2ZVH0Lr78bDulR39fZRJBfcI_wre0svhR4amzrgznnjKIzJyMMvKhFpeYopmdBCXcQQl7XDAStc1z
 gxVl2m
 }
-!procedure AttachMoney($id, $name="Attach Money", $tech="")
+!procedure AttachMoney($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Editor/AttachMoney', $name, $tech)
 !endprocedure
 !procedure AttachMoneyCard($id, $funcName="", $content="")

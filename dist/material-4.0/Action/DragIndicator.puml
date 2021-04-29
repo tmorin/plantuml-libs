@@ -1,7 +1,7 @@
 @startuml
 sprite $DragIndicatorMd [14x14/16z] Oo00M3aP63XPOJnUVXPMVXw472CZGew14OHWW9kVcPcV6vE7gPALWu6H0xyD1
 sprite $DragIndicatorLg [20x20/16z] Ow0Oi72nG0W4OEJdvsS44mWn9YnY3ApSh622e1tSB21Y4Dl10Y4e1W
-!procedure DragIndicator($id, $name="Drag Indicator", $tech="")
+!procedure DragIndicator($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/DragIndicator', $name, $tech)
 !endprocedure
 !procedure DragIndicatorCard($id, $funcName="", $content="")

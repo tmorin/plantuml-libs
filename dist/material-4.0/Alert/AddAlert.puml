@@ -4,7 +4,7 @@ sprite $AddAlertLg [20x20/16z] {
 XT1L0W8X04LHkk7jVxSENUhSpqD3_iNvHGnWfnd0x28Jdf9S2Qs9BC_oFi-atJIU6CEJxkQckMuUdh9d2-hX_zfS-sxUhoQmn2VDH3RftPDzSaz-URDGIf0Z
 DJzWHYdfVG
 }
-!procedure AddAlert($id, $name="Add Alert", $tech="")
+!procedure AddAlert($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Alert/AddAlert', $name, $tech)
 !endprocedure
 !procedure AddAlertCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $WorkspacesFilledMd [14x14/16z] ROor0S0m30J5uVp-srgL-Hh10sqGwOuBkEfXI7Iuh8ely5B3lVQ5jE40h8utnrl7a-EfGt_yMWUnCTKnK
 sprite $WorkspacesFilledLg [20x20/16z] bP350OGm0C3gBljFUtwaEEGLGbtSH7cl5ids5tQMP7kt9XV3tfYn6HgKTogBRSihgTLXrEOdfdBlMM4iZt4CZN5SZ6kD9jnqVOndmgxn1
-!procedure WorkspacesFilled($id, $name="Workspaces Filled", $tech="")
+!procedure WorkspacesFilled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/File/WorkspacesFilled', $name, $tech)
 !endprocedure
 !procedure WorkspacesFilledCard($id, $funcName="", $content="")

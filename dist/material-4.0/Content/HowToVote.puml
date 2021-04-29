@@ -4,7 +4,7 @@ sprite $HowToVoteLg [20x20/16z] {
 VOw50S0W30I3Ex__jlswSrKkAaEKUQi6_rQTyfcrPZuATODxA4f0xQvkHHdfo8l83qKIobDfofoer2Khi9pAyJaAWv8OHKBPf4UMWxnk4D5gM-xADwAGW1jn
 pNixUtTMX1XtmSWt4m
 }
-!procedure HowToVote($id, $name="How To Vote", $tech="")
+!procedure HowToVote($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/HowToVote', $name, $tech)
 !endprocedure
 !procedure HowToVoteCard($id, $funcName="", $content="")

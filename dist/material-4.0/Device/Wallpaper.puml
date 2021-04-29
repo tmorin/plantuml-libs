@@ -4,7 +4,7 @@ sprite $WallpaperLg [20x20/16z] {
 RP050e0m24K70rl__M_hkf-kQ31BM0F6-5sKlUX3W3cUdnCg3cdi3hYR-AsY_gbLnZJ962-DCW5uyhKsFtaerwnasLXkjr5N2tquZVsubJq0zWTF8piGyCRQ
 zaPTRuT8de7u6IndvMSgmqnN_
 }
-!procedure Wallpaper($id, $name="Wallpaper", $tech="")
+!procedure Wallpaper($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/Wallpaper', $name, $tech)
 !endprocedure
 !procedure WallpaperCard($id, $funcName="", $content="")

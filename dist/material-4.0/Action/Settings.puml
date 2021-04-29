@@ -4,7 +4,7 @@ sprite $SettingsLg [20x20/16z] {
 VP054iGm3CIyRHYy___jdSki8Ot2aI-0M-balzI1VuR3d3X8ifPaY929JEsSwCeyfP4dHcjbqWZ4IOerD4jc5XjaYafY4b8XRmsLP5ZNLkndXDCPZYUSp1DL
 EQ5abeaX3P8jvKatnlCVJ43lVoNu8n_y
 }
-!procedure Settings($id, $name="Settings", $tech="")
+!procedure Settings($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Settings', $name, $tech)
 !endprocedure
 !procedure SettingsCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $NoPhotographyLg [20x20/16z] {
 RT095eCm24NHNqE47WdiVxSjuApF-Je7RtsUD9d4fWkpzEqoTGPcp-ODxO_abUeG80uBjmZeiHNGibXPBuih0SZ5p2NmUxQMRyTqiW7sn76o_42-c3TelVra
 2X0jyPrMbaZvWunMLfdLTtO2cbzYH2GiMwmkpn5MmnCdu0S
 }
-!procedure NoPhotography($id, $name="No Photography", $tech="")
+!procedure NoPhotography($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Places/NoPhotography', $name, $tech)
 !endprocedure
 !procedure NoPhotographyCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $SignalWifi4BarMd [14x14/16z] RSp50G0X40F0u0xzLtk2sxnMWnDbZABWDgHFi0nWBdMEgJHHiAEn07nhV0wCfOcqX9QEer0beR4beGaU4qfnyG8
 sprite $SignalWifi4BarLg [20x20/16z] bSr50WGn24JH8kxS_xGpxTMoojj5-62Ak11ZSCABsFJGecmtIH-Im0rz6SxfXqFGbm0WltfOLLMgsCZWLHViBEyi3jpZGObzgbUVf5zziknJ29Zr1m
-!procedure SignalWifi4Bar($id, $name="Signal Wifi4 Bar", $tech="")
+!procedure SignalWifi4Bar($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/SignalWifi4Bar', $name, $tech)
 !endprocedure
 !procedure SignalWifi4BarCard($id, $funcName="", $content="")

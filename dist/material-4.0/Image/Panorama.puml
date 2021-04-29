@@ -1,7 +1,7 @@
 @startuml
 sprite $PanoramaMd [14x14/16z] Oy0363cvu82JaOqV2R0Hm-E1ytXu-3aPkA4yFaOcBg3Xl10U6mCZ8oCJ0nk6AQYsutCd
 sprite $PanoramaLg [20x20/16z] hSZ50OH040J0Nfax6Cq_MjnvBlKijAZyK97YoLEEb_pH2T_EBC8px7erULIWNEuFr3yc_-CO1zxFz63pfNX98E4R8RGO0G
-!procedure Panorama($id, $name="Panorama", $tech="")
+!procedure Panorama($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Panorama', $name, $tech)
 !endprocedure
 !procedure PanoramaCard($id, $funcName="", $content="")

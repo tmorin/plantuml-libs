@@ -4,7 +4,7 @@ sprite $FindInPageLg [20x20/16z] {
 TT050eKW40JGePkz_sbjdVtXc3mQlCI58rvHb2k9LeL88z8KQfkjpVqRQNd_AI9I7okmfTWTQSRktOrHDf3E2OQsk5lK9WvTfCEBiWvu3pXjqZS94Px6NOJo
 6D7SPyLadkaJZvUi
 }
-!procedure FindInPage($id, $name="Find In Page", $tech="")
+!procedure FindInPage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/FindInPage', $name, $tech)
 !endprocedure
 !procedure FindInPageCard($id, $funcName="", $content="")

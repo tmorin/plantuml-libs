@@ -4,7 +4,7 @@ sprite $ParkLg [20x20/16z] {
 bO-50S0W30JhNdx_QN5t3ZyicKQvxqHjm1QfcG1a3jq3pXEe0vB3KmjHZYpElT2yuStuzcNKPTKAoshSvzodrGauJXE8A80OJ3WpHuJpg9dZSQbLtRhlwrI1
 0G
 }
-!procedure Park($id, $name="Park", $tech="")
+!procedure Park($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Park', $name, $tech)
 !endprocedure
 !procedure ParkCard($id, $funcName="", $content="")

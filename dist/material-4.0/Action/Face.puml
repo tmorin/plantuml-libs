@@ -4,7 +4,7 @@ sprite $FaceLg [20x20/16z] {
 VP075i9024IfCGtc_hTLth9s_Ua_imNe3sgcBuBNn8rOcIQMQ5AdmXD3SgMMlLrmkHN0GJJbMYxxfvqZM9i0TkxbpNM3r0eN8XBgcyFAET62PTxAQSrgONrR
 KUaCUY9oxCKVoh7sddKgHNBNbjwfX3rw4Alx6aXxwXMANFcpft-u0W
 }
-!procedure Face($id, $name="Face", $tech="")
+!procedure Face($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Face', $name, $tech)
 !endprocedure
 !procedure FaceCard($id, $funcName="", $content="")

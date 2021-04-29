@@ -4,7 +4,7 @@ sprite $SettingsRemoteLg [20x20/16z] {
 jSY53GH14CH0B_Dq_j4-CugkP94vYSqaQv4RFwKrnfAclwmWLSU1QrAup1PnkVViY8sRgfF2Wx6ISya6_vHQ3l4ewIGzlnNZUdqPykihK5-VMjFhEzdqHPr4
 7lbmuE5a3m
 }
-!procedure SettingsRemote($id, $name="Settings Remote", $tech="")
+!procedure SettingsRemote($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/SettingsRemote', $name, $tech)
 !endprocedure
 !procedure SettingsRemoteCard($id, $funcName="", $content="")

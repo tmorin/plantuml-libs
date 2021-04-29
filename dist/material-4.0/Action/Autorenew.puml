@@ -4,7 +4,7 @@ sprite $AutorenewLg [20x20/16z] {
 VOy53W0X30IfuR3__-tbt9bOCtKtWkA7H7u83XbtIGapdIwgeYYZywKi8So9MSa-QnqqDngssW3TEnHX3J9eTuIyEtTn_xq2srQuikzO3k1ASqUwVjB0ab7f
 fcRoHSsxaGDVpVMWAudSY0a
 }
-!procedure Autorenew($id, $name="Autorenew", $tech="")
+!procedure Autorenew($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Autorenew', $name, $tech)
 !endprocedure
 !procedure AutorenewCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $StreetviewLg [20x20/16z] {
 ZOi73iKW3CKUKLDUP-v_sYusVvfbMG4D8kWODhDrU5JfUG6rXoicNR4b0HYKpY82-3UDtTyDkPaCuTMghT3zcb9KZPSx1uIMaepaw4eZP0uIMh3DsdQ9swlc
 usjr2m_gEGqfpIagF4bFnV-S
 }
-!procedure Streetview($id, $name="Streetview", $tech="")
+!procedure Streetview($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Streetview', $name, $tech)
 !endprocedure
 !procedure StreetviewCard($id, $funcName="", $content="")

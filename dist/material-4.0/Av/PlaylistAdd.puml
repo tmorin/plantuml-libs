@@ -1,7 +1,7 @@
 @startuml
 sprite $PlaylistAddMd [14x14/16z] ZSt50GCn3031DRFTVxN9CTEynE8x5mQ2WKy3oK380NBevZQGAJ0JWZ6BfPH8BgsM2DfQgx6c96DO9B_xQtds1m
 sprite $PlaylistAddLg [20x20/16z] lSq30WGn30NGNxkv_sbtnxPUZIJuWgAMHqi47qe-66mP_ZD-cYyW4CDGUVBKx9LKHMUGIaQgTcsi0ZNKyh-XDjzGMtV8UDpr1m
-!procedure PlaylistAdd($id, $name="Playlist Add", $tech="")
+!procedure PlaylistAdd($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/PlaylistAdd', $name, $tech)
 !endprocedure
 !procedure PlaylistAddCard($id, $funcName="", $content="")

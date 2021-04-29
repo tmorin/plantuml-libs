@@ -1,7 +1,7 @@
 @startuml
 sprite $VpnKeyMd [14x14/16z] bOt50S0m24LngFxzjwtRhNa9RjI0HEeTE5Ro37Z6F04kkiA1MMWDT-8R2VRE45_LkQNMrO3HQdA_m5b2_ra
 sprite $VpnKeyLg [20x20/16z] lSxL0SCm34NHPsRV_QSjS_CNE6QKT8pGvwXEdoetGM-91wkN0JDcODIxPYpWfSARNThJW16URs-3_Oun87_a4lMnfzZdRFUSEoJT6JqdncXxPm
-!procedure VpnKey($id, $name="Vpn Key", $tech="")
+!procedure VpnKey($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/VpnKey', $name, $tech)
 !endprocedure
 !procedure VpnKeyCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $LocalLaundryServiceLg [20x20/16z] {
 TT250OKm30JGfAwv_QV58Vd2eNtrqajyk1FzHGacwRI6rCTTqMxZqaY-pCJQx5s-BDsJgLrB2CRAyUL8HUriri5EZKz287Hh0u1dRHU9T-gKr2Pn4sbCKmsT
 ZuaxZ45AZ5LmsijPaOzFFBra1G
 }
-!procedure LocalLaundryService($id, $name="Local Laundry Service", $tech="")
+!procedure LocalLaundryService($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocalLaundryService', $name, $tech)
 !endprocedure
 !procedure LocalLaundryServiceCard($id, $funcName="", $content="")

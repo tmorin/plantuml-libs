@@ -4,7 +4,7 @@ sprite $KeyboardLg [20x20/16z] {
 hSwr0G0X44JHmM6r_shFFRuV82yQ_5vNUQHzeUoVCb3ScMtOSRYNpM9YS8hh4KuJCRBZEArK2LBASjHyMie2pfcN8vtsxZHjVQdfqmXRjDcvMRVEpHZwQk3t
 PW
 }
-!procedure Keyboard($id, $name="Keyboard", $tech="")
+!procedure Keyboard($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/Keyboard', $name, $tech)
 !endprocedure
 !procedure KeyboardCard($id, $funcName="", $content="")

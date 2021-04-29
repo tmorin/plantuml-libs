@@ -1,7 +1,7 @@
 @startuml
 sprite $ShuffleMd [14x14/16z] VKt50S1024lj3cV_QUlsmZr1ATDon56a7Nd9ivKK7DAoxI54SBM-7pICLtTVVqtxDmlykLnk5FxzSCgFdQMXb0q
 sprite $ShuffleLg [20x20/16z] fL053W0X31lE9Dd_NtkEHivmfctXvmZN7PauNK_5ys5ObIu_5ICMMpEYeZ0qOzuF0XDRc-mEqpJmiSdbmNJKoefWGeigM9XRuemvbWTqt0hEq3JuF5O
-!procedure Shuffle($id, $name="Shuffle", $tech="")
+!procedure Shuffle($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/Shuffle', $name, $tech)
 !endprocedure
 !procedure ShuffleCard($id, $funcName="", $content="")

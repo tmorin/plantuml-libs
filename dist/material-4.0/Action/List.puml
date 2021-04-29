@@ -1,7 +1,7 @@
 @startuml
 sprite $ListMd [14x14/16z] dOp50G0X3C1ohi3-q-B-REgAb5qjlz41iy6oiMM0zUP-4kjSiR9kYVh566yRKXm
 sprite $ListLg [20x20/16z] lSwr0G0n30D0ASpPVzfdXjRNcGqHL80w4PFGgVefOA836NO-6FnmdMnrrzoPQwlQFNuyR_pzGdtzMHCYHW
-!procedure List($id, $name="List", $tech="")
+!procedure List($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/List', $name, $tech)
 !endprocedure
 !procedure ListCard($id, $funcName="", $content="")

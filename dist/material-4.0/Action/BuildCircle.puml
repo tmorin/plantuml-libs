@@ -4,7 +4,7 @@ sprite $BuildCircleLg [20x20/16z] {
 VP053WGW3C2suFx_tnwZvzOOANFvW_FUlGZDSsr6rhlosy1qDxMUGAf5zJfmGyrbUnQHXCpcveuggufq0cs84rLtOBrNz5PDZ8Bpk9MER3XohM96CirSK1bh
 CCjT9cRX4-mnzNCt_ta3_twhcVNpfd-u
 }
-!procedure BuildCircle($id, $name="Build Circle", $tech="")
+!procedure BuildCircle($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/BuildCircle', $name, $tech)
 !endprocedure
 !procedure BuildCircleCard($id, $funcName="", $content="")

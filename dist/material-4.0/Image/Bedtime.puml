@@ -4,7 +4,7 @@ sprite $BedtimeLg [20x20/16z] {
 VT3L0S0W34LHtCdRVzgw95Jkvy5HFrcd9UZKqIKv0f0aOSs9XOGrmorXotBhktb65djvE66DjBHneiLPk94kJFmkPpqOVkUpAayHJtHq2ZdsLxH9qiEVUgj-
 cW4
 }
-!procedure Bedtime($id, $name="Bedtime", $tech="")
+!procedure Bedtime($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Bedtime', $name, $tech)
 !endprocedure
 !procedure BedtimeCard($id, $funcName="", $content="")

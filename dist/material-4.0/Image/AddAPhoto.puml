@@ -7,7 +7,7 @@ sprite $AddAPhotoLg [20x20/16z] {
 ZOu50WCX30GNFKYQxFzVUoxrTl1P30W9BpJ6Fvo8KRLc5H6jc-DAhzjO4O2vDQOKEpVSlG6BSzuJWJJ4nMdhTheiGdhUlh2vRLBGtGfaSnX8sfR4TBTFSDk-
 SkSKofaIxXnZz2KPxfq2EI7ntj5AZ8rtxexDPJvYc4dbWO1tJ
 }
-!procedure AddAPhoto($id, $name="Add A Photo", $tech="")
+!procedure AddAPhoto($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/AddAPhoto', $name, $tech)
 !endprocedure
 !procedure AddAPhotoCard($id, $funcName="", $content="")

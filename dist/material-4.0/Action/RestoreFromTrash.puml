@@ -4,7 +4,7 @@ sprite $RestoreFromTrashLg [20x20/16z] {
 bSi50i0W30F0u4x-_zkvAxTXROCsqZld9JO-nSfUZSaljT8_HsHPQa8ffNlz8R3WwhkMqgMMWNoeLIRqqd7EzWzXIUop1Z1Bzh5M-p1WUShMtc4kSvQnaiwF
 d4IB3W
 }
-!procedure RestoreFromTrash($id, $name="Restore From Trash", $tech="")
+!procedure RestoreFromTrash($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/RestoreFromTrash', $name, $tech)
 !endprocedure
 !procedure RestoreFromTrashCard($id, $funcName="", $content="")

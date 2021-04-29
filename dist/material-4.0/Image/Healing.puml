@@ -4,7 +4,7 @@ sprite $HealingLg [20x20/16z] {
 TT073iKW30FG24CtyVrl-sMi_cZLdJmsyPNM_4KhIdPz1xEznEjW5t6XAU8WEacZIPZy8xXvh3U8Y8sxwBvD8sBXracWoFrkvCHT59syaDakibSpkk_GEeju
 NUfe1Ec8X2YZrtcoUGPb3E55X895QvsdoBX8c8kCg3Fzo0y
 }
-!procedure Healing($id, $name="Healing", $tech="")
+!procedure Healing($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/Healing', $name, $tech)
 !endprocedure
 !procedure HealingCard($id, $funcName="", $content="")

@@ -1,7 +1,7 @@
 @startuml
 sprite $LaptopWindowsMd [14x14/16z] bSV50SD040ImIKott7-rPcRh9-paipOSFWe6hCIej4yhfXNTqZ_h_LExCcObKh8fbf88pqHmem4
 sprite $LaptopWindowsLg [20x20/16z] nS_50S0m2010Y3lxJrjtzrw2_e33X1dGXXShJXCCG992ra554a2KgIT95EctdTE3ErovmqWZ4Q7WQS0N2rhW5i0DEG
-!procedure LaptopWindows($id, $name="Laptop Windows", $tech="")
+!procedure LaptopWindows($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/LaptopWindows', $name, $tech)
 !endprocedure
 !procedure LaptopWindowsCard($id, $funcName="", $content="")

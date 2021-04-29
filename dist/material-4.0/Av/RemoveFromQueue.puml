@@ -1,7 +1,7 @@
 @startuml
 sprite $RemoveFromQueueMd [14x14/16z] RSs30G0n3030w5Nkl-tNlXf9OCRIC8XtZPV7G6EU_OGSO3rTFiHSxIS6fpYBH1Y4sJxiOw4WBWn8-FZW2Hk8K0A4pGy
 sprite $RemoveFromQueueLg [20x20/16z] bSw54S0m20LG-5mk3ljFMtVlYolGL_1XnuDOxK0P5bcm48u6MA0TVx4Ndkv9Jfqisprd0xVxZmStCUxt_CMUrauPz3Cra1ydlV5uVhVciaBmeQkWNre
-!procedure RemoveFromQueue($id, $name="Remove From Queue", $tech="")
+!procedure RemoveFromQueue($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Av/RemoveFromQueue', $name, $tech)
 !endprocedure
 !procedure RemoveFromQueueCard($id, $funcName="", $content="")

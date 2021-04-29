@@ -4,7 +4,7 @@ sprite $SignalWifiOffLg [20x20/16z] {
 bOq50WGX30CJtFl_rvvqUwux-00DtbBSYtAo71XJpYdmJf9Jb95LiuXCSeXHYB14L4unLWYsSRUN0KcKwM0o0QZsafiiEDFlNtOeN2Q9kOWDVqaaFGpDiUyt
 ogkqdEOV9ATcU1acBCUVbu0xKi9UZW
 }
-!procedure SignalWifiOff($id, $name="Signal Wifi Off", $tech="")
+!procedure SignalWifiOff($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/SignalWifiOff', $name, $tech)
 !endprocedure
 !procedure SignalWifiOffCard($id, $funcName="", $content="")

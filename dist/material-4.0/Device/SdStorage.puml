@@ -1,7 +1,7 @@
 @startuml
 sprite $SdStorageMd [14x14/16z] jSar0e0m50FGUh-5tF-q-0HptnH9VnC1e3r5jccgxiz3pwErURT1Ofh8ynbVjgfrn0qjVHm
 sprite $SdStorageLg [20x20/16z] rSkp0G1150JGMUkZ_shFLdul7E233nDtY98kuY7AWLqhNkjXvK4e4Tgsw9R58Hg__l2jUl3ZB1wpY9aB6uSNFG
-!procedure SdStorage($id, $name="Sd Storage", $tech="")
+!procedure SdStorage($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Device/SdStorage', $name, $tech)
 !endprocedure
 !procedure SdStorageCard($id, $funcName="", $content="")

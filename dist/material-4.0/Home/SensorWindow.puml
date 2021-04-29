@@ -1,7 +1,7 @@
 @startuml
 sprite $SensorWindowMd [14x14/16z] PSt50S1G20FGxmOa-qzRzxuR6lUHJ3UMragqj4LHsQe-273qer8kzAxCxYekzocsiogB-BdxLly4hMrHTQkI7PBxc04
 sprite $SensorWindowLg [20x20/16z] fP054WDH34Bx4sYxolrFk-ukRomJXyyEJh01z2xrrOHlcuj5T51ncqjaQOSfwNEk3d-KYy3_91ShcDM1MPZbpDswt7hV-znQszg3jLUxdguf0G
-!procedure SensorWindow($id, $name="Sensor Window", $tech="")
+!procedure SensorWindow($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Home/SensorWindow', $name, $tech)
 !endprocedure
 !procedure SensorWindowCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $DeviceHubLg [20x20/16z] {
 bS-54KH130BGP5sX_shFxxionhpLoCre2BgaJlO5HhuITcrvTe60oZAzonNpf5zHx_GBWYf6zBKKmeWOi9JwyKGIzjqiNZNzHoZoINdL-D_tj_y-bsBoN_El
 wkHodW
 }
-!procedure DeviceHub($id, $name="Device Hub", $tech="")
+!procedure DeviceHub($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/DeviceHub', $name, $tech)
 !endprocedure
 !procedure DeviceHubCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $ShopLg [20x20/16z] {
 ZSw50O0m30J0sECa-q-Bk_QXTbLwZm06EPF743yXeZ0h0kkOcGS3ZTKu6CZ2VTovL1uspbw2rLg_MqxbpOhXFTNT1ctkPktL-BuN7XShYyjRRc_Mg-buMv4N
 QuQkKN9w
 }
-!procedure Shop($id, $name="Shop", $tech="")
+!procedure Shop($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Action/Shop', $name, $tech)
 !endprocedure
 !procedure ShopCard($id, $funcName="", $content="")

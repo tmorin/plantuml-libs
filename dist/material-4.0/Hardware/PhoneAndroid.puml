@@ -1,7 +1,7 @@
 @startuml
 sprite $PhoneAndroidMd [14x14/16z] jOx50K0n2CLUgIlxJ_i56Q6fG6u148eG82mMbWYTB1mIsn3sFJkjzTxQKViwnlW-yh8vjKogwuTKlm
 sprite $PhoneAndroidLg [20x20/16z] rP3L0S0m20NZXkq_RUEoGYy277zF3Sn27GpA0eyjSYZR4Je_S4ZRyTaM_hK3fNlLZoDXbaRxwJeHo1bQeJUh749-ipBqPdgiDGsxJ0K
-!procedure PhoneAndroid($id, $name="Phone Android", $tech="")
+!procedure PhoneAndroid($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Hardware/PhoneAndroid', $name, $tech)
 !endprocedure
 !procedure PhoneAndroidCard($id, $funcName="", $content="")

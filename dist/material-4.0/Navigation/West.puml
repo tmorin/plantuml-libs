@@ -1,7 +1,7 @@
 @startuml
 sprite $WestMd [14x14/16z] Oo09i74ZS_ZP41nMVbPa6LvEBWZWGEE1k2mCgAQWsK0o
 sprite $WestLg [20x20/16z] Ow09OEHWn13ZvcV356B75E8WGXKFFpyl4k1Z0Lg9AGOMPCTq7JP1HWnR8DfPCGKvcHXe1m
-!procedure West($id, $name="West", $tech="")
+!procedure West($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Navigation/West', $name, $tech)
 !endprocedure
 !procedure WestCard($id, $funcName="", $content="")

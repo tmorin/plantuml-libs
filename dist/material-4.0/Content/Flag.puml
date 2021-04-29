@@ -1,7 +1,7 @@
 @startuml
 sprite $FlagMd [14x14/16z] Oy0B63cvW809ocFY1m4kTWvM60yYG2AFZvMPYGl1Om8IRAoip30U163o69XnkH8
 sprite $FlagLg [20x20/16z] jSg35G0n403Hc8l-gptR_F6yY9T2JfNifmsvWL98sJVW5X5n7FwDqcyjLN3UiDxjHfEsfiSskjcS4u-K
-!procedure Flag($id, $name="Flag", $tech="")
+!procedure Flag($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Content/Flag', $name, $tech)
 !endprocedure
 !procedure FlagCard($id, $funcName="", $content="")

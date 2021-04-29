@@ -4,7 +4,7 @@ sprite $LocationPinLg [20x20/16z] {
 VO-54SKW04E3Ezb_sg_DNPLN9O9WWVNUdfJ63sslUcuu23Eb3ICj_Og_UfJM_eFuTQGDSdw_a-pIEaaBs7qka-pUVwqipP7NpLH95PSDJdCzYCUUJ2smOsXl
 Em8PS6OCNB0MAzu
 }
-!procedure LocationPin($id, $name="Location Pin", $tech="")
+!procedure LocationPin($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/LocationPin', $name, $tech)
 !endprocedure
 !procedure LocationPinCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $AddModeratorLg [20x20/16z] {
 ZP3L0KKn2CKEr7t_QQzNd-OpEAWGOO5CpcQoxCg5usfaA8qWBsNAX3cTdPtjUREpVxXFC_GWKYhwTAANCS24a_GeTTHSMNs8EyFfSPGl9q3LjIcGhKMhXWY-
 51_4a2bRl_v1tro3-0nTJzq1
 }
-!procedure AddModerator($id, $name="Add Moderator", $tech="")
+!procedure AddModerator($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Social/AddModerator', $name, $tech)
 !endprocedure
 !procedure AddModeratorCard($id, $funcName="", $content="")

@@ -4,7 +4,7 @@ sprite $MicExternalOnLg [20x20/16z] {
 TT050i0W241H55Yo_VkVTjrX-spb9oJJfLRB1tLGJtKBb9jL02erjGUsMZER2I6IgLVJY6X4Q6KkDdCpJxlTrjwid2tVhPZjiTQ0_da6q3qi0-t3KW_DmoIW
 adItT3phjFdvjZwVPhUqVTC-RtzpNcfN-GuZ
 }
-!procedure MicExternalOn($id, $name="Mic External On", $tech="")
+!procedure MicExternalOn($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Image/MicExternalOn', $name, $tech)
 !endprocedure
 !procedure MicExternalOnCard($id, $funcName="", $content="")

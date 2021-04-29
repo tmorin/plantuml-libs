@@ -1,7 +1,7 @@
 @startuml
 sprite $FestivalMd [14x14/16z] LSk30G0W40NGdztjFstcYoSCmcY6mr5-eo1ln5B4eJ9HLcTeS6XaeYK98D8HLvJp4qNEuuqa8Bv8piYdc0GWskFngm
 sprite $FestivalLg [20x20/16z] bSp50S1024JHTGMc_shZxld7XwWvOunLXnYWJoRUwuE9g4Ec0jNiA0YwnA-Y2wRA_D49biGDbB4hTUHno3yRqT7wDscrcNeyM_nhslUPteplq-gg5W
-!procedure Festival($id, $name="Festival", $tech="")
+!procedure Festival($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Maps/Festival', $name, $tech)
 !endprocedure
 !procedure FestivalCard($id, $funcName="", $content="")

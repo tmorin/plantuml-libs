@@ -4,7 +4,7 @@ sprite $DomainDisabledLg [20x20/16z] {
 RSq74aCX24LHfDYL_Uys4blAVzFFS0Tu6EA_PKNW568Crx1tXAfZxgBemE2AmgSPGb72kMdQQTYUcELWbyKUnP2dCRmlvsHQRxemTU1hrN3QRWlabSlvqNoR
 -ROzmzrwDzgYI4rftl4nntPPTtjpT0Y0CSIpq4V-EsnFM0bU
 }
-!procedure DomainDisabled($id, $name="Domain Disabled", $tech="")
+!procedure DomainDisabled($id, $name="", $tech="")
   IconElement($id, 'material-4.0/Communication/DomainDisabled', $name, $tech)
 !endprocedure
 !procedure DomainDisabledCard($id, $funcName="", $content="")
