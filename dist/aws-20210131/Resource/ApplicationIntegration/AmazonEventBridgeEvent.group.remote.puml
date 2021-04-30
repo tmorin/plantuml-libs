@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeEvent element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeEvent')
 AmazonEventBridgeEventGroup('amazon_event_bridge_event', 'Amazon Event Bridge Event', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

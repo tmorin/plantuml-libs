@@ -1,11 +1,8 @@
 @startuml
-sprite $InternetMd [14x14/16z] XOfL0WD124CV1CZkpFtFMvU_5etnfoBZIzhZUPFoGwbyC3zYqqSyhJvl3nr2HkSvE8aZMw0cHe560xVjVIOMxUdkyOmRY7Xkyhkk
-sprite $InternetLg [20x20/16z] {
-jOp50G9134MZc_mTwRzSnh0xnFNHFqGJ2FaQ-MtC8z1RvEQP-3RNvonzPwjnNsTs3zAm6VXU1GD4qUT1JlGiC4BScEbUf23190dOpemWYWqO2ruBWjBDPtPX
-0VYUL5DLi4gs5FNR9omppGrGKMGe_LmU
-}
+sprite $CloudMd [14x14/16z] bOor0G1H34AhEB3_jkTI_nTNBe4g_4LqnLVcIECvLp7nRE3nTvb7CgcxKfsxKTC7Ktd_Vm0Ns04
+sprite $CloudLg [20x20/16z] lSh70G9H40BGqoG4-k_MxAmL_7SZw1Xa5aJzcG0HOrqOjAp8f3xeQL7K3SZh1dsuabkjxnDbweikV2PhVJjbStNgZPMhg3CU
 !procedure GroupCloud($id, $name='Group Cloud', $tech='')
-  IconGroup($id, 'GroupCloud', '<$InternetLg>', $name, $tech)
+  IconGroup($id, 'GroupCloud', '<$CloudLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupCloud>> {
   StereotypeFontColor $AWS_COLOR_DARK_BLUE

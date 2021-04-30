@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AwsAppMeshVirtualNode element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode')
 AwsAppMeshVirtualNodeGroup('aws_app_mesh_virtual_node', 'Aws App Mesh Virtual Node', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

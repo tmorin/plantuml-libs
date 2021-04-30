@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraSqlServerInstanceAlternate element
 include('aws-20210131/Resource/Database/AmazonAuroraSqlServerInstanceAlternate')
 AmazonAuroraSqlServerInstanceAlternateGroup('amazon_aurora_sql_server_instance_alternate', 'Amazon Aurora Sql Server Instance Alternate', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

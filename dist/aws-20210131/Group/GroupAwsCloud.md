@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupAwsCloud')
 include('aws-20210131/bootstrap')
 ' loads the GroupAwsCloud element
 include('aws-20210131/Group/GroupAwsCloud')
-GroupAwsCloud('group_aws_cloud', 'Group Aws Cloud', 'an optional tech field')
+GroupAwsCloud('group_aws_cloud', 'Group Aws Cloud', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupAwsCloud('group_aws_cloud', 'Group Aws Cloud', 'an optional tech field')
 include('aws-20210131/bootstrap')
 ' loads the GroupAwsCloud element
 include('aws-20210131/Group/GroupAwsCloud')
-GroupAwsCloud('group_aws_cloud', 'Group Aws Cloud', 'an optional tech field')
+GroupAwsCloud('group_aws_cloud', 'Group Aws Cloud', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

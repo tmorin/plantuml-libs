@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSxForLustre element
 include('aws-20210131/Architecture/Storage/AmazonFSxForLustre')
 AmazonFSxForLustreGroup('amazon_f_sx_for_lustre', 'Amazon F Sx For Lustre', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSxForLustre element
 include('aws-20210131/Architecture/Storage/AmazonFSxForLustre')
 AmazonFSxForLustreGroup('amazon_f_sx_for_lustre', 'Amazon F Sx For Lustre', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

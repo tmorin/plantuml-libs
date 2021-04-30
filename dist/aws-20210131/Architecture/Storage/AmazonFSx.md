@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSx element
 include('aws-20210131/Architecture/Storage/AmazonFSx')
 AmazonFSxGroup('amazon_f_sx', 'Amazon F Sx', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSx element
 include('aws-20210131/Architecture/Storage/AmazonFSx')
 AmazonFSxGroup('amazon_f_sx', 'Amazon F Sx', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

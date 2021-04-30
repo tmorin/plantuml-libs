@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIdentityAccessManagementAwsSts element
 include('aws-20210131/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsSts')
 AwsIdentityAccessManagementAwsStsGroup('aws_identity_access_management_aws_sts', 'Aws Identity Access Management Aws Sts', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIdentityAccessManagementAwsSts element
 include('aws-20210131/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsSts')
 AwsIdentityAccessManagementAwsStsGroup('aws_identity_access_management_aws_sts', 'Aws Identity Access Management Aws Sts', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2ImageBuilder element
 include('aws-20210131/Architecture/Compute/AmazonEc2ImageBuilder')
 AmazonEc2ImageBuilderGroup('amazon_ec_2_image_builder', 'Amazon Ec2 Image Builder', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2ImageBuilder element
 include('aws-20210131/Architecture/Compute/AmazonEc2ImageBuilder')
 AmazonEc2ImageBuilderGroup('amazon_ec_2_image_builder', 'Amazon Ec2 Image Builder', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

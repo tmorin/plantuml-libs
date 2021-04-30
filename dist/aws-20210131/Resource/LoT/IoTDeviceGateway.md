@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTDeviceGateway element
 include('aws-20210131/Resource/LoT/IoTDeviceGateway')
 IoTDeviceGatewayGroup('io_t_device_gateway', 'Io T Device Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTDeviceGateway element
 include('aws-20210131/Resource/LoT/IoTDeviceGateway')
 IoTDeviceGatewayGroup('io_t_device_gateway', 'Io T Device Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

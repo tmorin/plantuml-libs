@@ -1,0 +1,16 @@
+@startuml
+sprite $ElasticBeanstalkContainerMd [14x14/16z] XSUt0GDH5CCm1_69-o_iSB7ywE32GE-apVLV81dx2pX4VzL6ycP-xNyDxuHjiYM0V-s4M4-atgOkVG4
+sprite $ElasticBeanstalkContainerLg [20x20/16z] {
+hO-53GD024KJldR_WUlkzavnw9xqblGT8YgNleOi-C8BsTva3fgQhOSYSN9JWr8j3fvG6n9fgfsdsN08sstfNT65MK243hf20SMnMI6x6gI7410nFM8XrFNy
+1DpcGatt1gV_O0K
+}
+!procedure ElasticBeanstalkContainer($id, $name="", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GroupIcons/ElasticBeanstalkContainer', $name, $tech)
+!endprocedure
+!procedure ElasticBeanstalkContainerCard($id, $funcName="", $content="")
+  IconCard($id, '<$ElasticBeanstalkContainerMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+!procedure ElasticBeanstalkContainerGroup($id, $name='Elastic Beanstalk Container', $tech='')
+  IconGroup($id, 'GroupIconsFamily', '<$ElasticBeanstalkContainerLg>', $name, $tech)
+!endprocedure
+@enduml

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsXRay element
 include('aws-20210131/Architecture/DeveloperTools/AwsXRay')
 AwsXRayGroup('aws_x_ray', 'Aws X Ray', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsXRay element
 include('aws-20210131/Architecture/DeveloperTools/AwsXRay')
 AwsXRayGroup('aws_x_ray', 'Aws X Ray', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

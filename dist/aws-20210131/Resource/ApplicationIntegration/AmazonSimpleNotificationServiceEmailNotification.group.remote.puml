@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleNotificationServiceEmailNotification element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceEmailNotification')
 AmazonSimpleNotificationServiceEmailNotificationGroup('amazon_simple_notification_service_email_notification', 'Amazon Simple Notification Service Email Notification', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

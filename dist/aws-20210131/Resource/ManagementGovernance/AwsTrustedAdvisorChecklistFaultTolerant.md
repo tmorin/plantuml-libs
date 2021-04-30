@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant element
 include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')
 AwsTrustedAdvisorChecklistFaultTolerantGroup('aws_trusted_advisor_checklist_fault_tolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsTrustedAdvisorChecklistFaultTolerant element
 include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistFaultTolerant')
 AwsTrustedAdvisorChecklistFaultTolerantGroup('aws_trusted_advisor_checklist_fault_tolerant', 'Aws Trusted Advisor Checklist Fault Tolerant', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

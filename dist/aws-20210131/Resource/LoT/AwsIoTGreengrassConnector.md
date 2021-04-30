@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTGreengrassConnector element
 include('aws-20210131/Resource/LoT/AwsIoTGreengrassConnector')
 AwsIoTGreengrassConnectorGroup('aws_io_t_greengrass_connector', 'Aws Io T Greengrass Connector', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTGreengrassConnector element
 include('aws-20210131/Resource/LoT/AwsIoTGreengrassConnector')
 AwsIoTGreengrassConnectorGroup('aws_io_t_greengrass_connector', 'Aws Io T Greengrass Connector', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

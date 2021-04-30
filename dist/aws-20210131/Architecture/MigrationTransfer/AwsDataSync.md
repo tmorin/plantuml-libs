@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDataSync element
 include('aws-20210131/Architecture/MigrationTransfer/AwsDataSync')
 AwsDataSyncGroup('aws_data_sync', 'Aws Data Sync', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDataSync element
 include('aws-20210131/Architecture/MigrationTransfer/AwsDataSync')
 AwsDataSyncGroup('aws_data_sync', 'Aws Data Sync', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

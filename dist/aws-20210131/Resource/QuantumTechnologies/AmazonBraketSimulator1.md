@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonBraketSimulator1 element
 include('aws-20210131/Resource/QuantumTechnologies/AmazonBraketSimulator1')
 AmazonBraketSimulator1Group('amazon_braket_simulator_1', 'Amazon Braket Simulator1', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonBraketSimulator1 element
 include('aws-20210131/Resource/QuantumTechnologies/AmazonBraketSimulator1')
 AmazonBraketSimulator1Group('amazon_braket_simulator_1', 'Amazon Braket Simulator1', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

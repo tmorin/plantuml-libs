@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceS3IntelligentTiering element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering')
 AmazonSimpleStorageServiceS3IntelligentTieringGroup('amazon_simple_storage_service_s_3_intelligent_tiering', 'Amazon Simple Storage Service S3 Intelligent Tiering', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceS3IntelligentTiering element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering')
 AmazonSimpleStorageServiceS3IntelligentTieringGroup('amazon_simple_storage_service_s_3_intelligent_tiering', 'Amazon Simple Storage Service S3 Intelligent Tiering', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

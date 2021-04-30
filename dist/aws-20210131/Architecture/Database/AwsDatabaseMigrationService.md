@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDatabaseMigrationService element
 include('aws-20210131/Architecture/Database/AwsDatabaseMigrationService')
 AwsDatabaseMigrationServiceGroup('aws_database_migration_service', 'Aws Database Migration Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDatabaseMigrationService element
 include('aws-20210131/Architecture/Database/AwsDatabaseMigrationService')
 AwsDatabaseMigrationServiceGroup('aws_database_migration_service', 'Aws Database Migration Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

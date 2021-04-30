@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonBraketTensorNetwork element
 include('aws-20210131/Resource/QuantumTechnologies/AmazonBraketTensorNetwork')
 AmazonBraketTensorNetworkGroup('amazon_braket_tensor_network', 'Amazon Braket Tensor Network', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonBraketTensorNetwork element
 include('aws-20210131/Resource/QuantumTechnologies/AmazonBraketTensorNetwork')
 AmazonBraketTensorNetworkGroup('amazon_braket_tensor_network', 'Amazon Braket Tensor Network', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

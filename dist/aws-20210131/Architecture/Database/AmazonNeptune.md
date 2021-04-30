@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonNeptune element
 include('aws-20210131/Architecture/Database/AmazonNeptune')
 AmazonNeptuneGroup('amazon_neptune', 'Amazon Neptune', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonNeptune element
 include('aws-20210131/Architecture/Database/AmazonNeptune')
 AmazonNeptuneGroup('amazon_neptune', 'Amazon Neptune', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

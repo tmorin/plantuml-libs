@@ -1,0 +1,13 @@
+@startuml
+sprite $ServerContentsMd [14x14/16z] TOw30G0W403ZQ_zzit7X3RwWGZSS91mr2n3I7HObXkLppCyOuZScp0B3oZ_SiNtwljbE1
+sprite $ServerContentsLg [20x20/16z] dP375GG1248FYWhzzxixEUT_yfc1hyY1EQCmT5XeoY5O3GpCkK0uu85LdpfMVH7cRX4t-n2L3RNEzJVMkIxMjrmVRFkaLT_AWxrNh_W3
+!procedure ServerContents($id, $name="", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GroupIcons/ServerContents', $name, $tech)
+!endprocedure
+!procedure ServerContentsCard($id, $funcName="", $content="")
+  IconCard($id, '<$ServerContentsMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+!procedure ServerContentsGroup($id, $name='Server Contents', $tech='')
+  IconGroup($id, 'GroupIconsFamily', '<$ServerContentsLg>', $name, $tech)
+!endprocedure
+@enduml

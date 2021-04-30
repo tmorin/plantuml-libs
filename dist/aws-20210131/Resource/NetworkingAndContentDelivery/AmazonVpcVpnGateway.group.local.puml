@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcVpnGateway element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcVpnGateway')
 AmazonVpcVpnGatewayGroup('amazon_vpc_vpn_gateway', 'Amazon Vpc Vpn Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

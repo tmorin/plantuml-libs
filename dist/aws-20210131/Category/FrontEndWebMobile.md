@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the FrontEndWebMobile element
 include('aws-20210131/Category/FrontEndWebMobile')
 FrontEndWebMobileGroup('front_end_web_mobile', 'Front End Web Mobile', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the FrontEndWebMobile element
 include('aws-20210131/Category/FrontEndWebMobile')
 FrontEndWebMobileGroup('front_end_web_mobile', 'Front End Web Mobile', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

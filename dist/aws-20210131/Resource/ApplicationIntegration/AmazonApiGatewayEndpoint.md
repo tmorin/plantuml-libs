@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonApiGatewayEndpoint element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint')
 AmazonApiGatewayEndpointGroup('amazon_api_gateway_endpoint', 'Amazon Api Gateway Endpoint', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonApiGatewayEndpoint element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint')
 AmazonApiGatewayEndpointGroup('amazon_api_gateway_endpoint', 'Amazon Api Gateway Endpoint', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

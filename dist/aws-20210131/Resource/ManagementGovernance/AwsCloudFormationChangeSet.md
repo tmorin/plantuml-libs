@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudFormationChangeSet element
 include('aws-20210131/Resource/ManagementGovernance/AwsCloudFormationChangeSet')
 AwsCloudFormationChangeSetGroup('aws_cloud_formation_change_set', 'Aws Cloud Formation Change Set', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudFormationChangeSet element
 include('aws-20210131/Resource/ManagementGovernance/AwsCloudFormationChangeSet')
 AwsCloudFormationChangeSetGroup('aws_cloud_formation_change_set', 'Aws Cloud Formation Change Set', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupAwsStepFunctionsWorkflow')
 include('aws-20210131/bootstrap')
 ' loads the GroupAwsStepFunctionsWorkflow element
 include('aws-20210131/Group/GroupAwsStepFunctionsWorkflow')
-GroupAwsStepFunctionsWorkflow('group_aws_step_functions_workflow', 'Group Aws Step Functions Workflow', 'an optional tech field')
+GroupAwsStepFunctionsWorkflow('group_aws_step_functions_workflow', 'Group Aws Step Functions Workflow', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupAwsStepFunctionsWorkflow('group_aws_step_functions_workflow', 'Group Aws St
 include('aws-20210131/bootstrap')
 ' loads the GroupAwsStepFunctionsWorkflow element
 include('aws-20210131/Group/GroupAwsStepFunctionsWorkflow')
-GroupAwsStepFunctionsWorkflow('group_aws_step_functions_workflow', 'Group Aws Step Functions Workflow', 'an optional tech field')
+GroupAwsStepFunctionsWorkflow('group_aws_step_functions_workflow', 'Group Aws Step Functions Workflow', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

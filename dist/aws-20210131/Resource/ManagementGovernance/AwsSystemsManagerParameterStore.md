@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerParameterStore element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerParameterStore')
 AwsSystemsManagerParameterStoreGroup('aws_systems_manager_parameter_store', 'Aws Systems Manager Parameter Store', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerParameterStore element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerParameterStore')
 AwsSystemsManagerParameterStoreGroup('aws_systems_manager_parameter_store', 'Aws Systems Manager Parameter Store', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

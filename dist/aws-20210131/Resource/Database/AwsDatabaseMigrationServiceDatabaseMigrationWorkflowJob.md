@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob element
 include('aws-20210131/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob')
 AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobGroup('aws_database_migration_service_database_migration_workflow_job', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob element
 include('aws-20210131/Resource/Database/AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJob')
 AwsDatabaseMigrationServiceDatabaseMigrationWorkflowJobGroup('aws_database_migration_service_database_migration_workflow_job', 'Aws Database Migration Service Database Migration Workflow Job', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonInteractiveVideoService element
 include('aws-20210131/Architecture/MediaServices/AmazonInteractiveVideoService')
 AmazonInteractiveVideoServiceGroup('amazon_interactive_video_service', 'Amazon Interactive Video Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonInteractiveVideoService element
 include('aws-20210131/Architecture/MediaServices/AmazonInteractiveVideoService')
 AmazonInteractiveVideoServiceGroup('amazon_interactive_video_service', 'Amazon Interactive Video Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

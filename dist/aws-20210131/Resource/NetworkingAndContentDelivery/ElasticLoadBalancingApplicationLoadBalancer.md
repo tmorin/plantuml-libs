@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the ElasticLoadBalancingApplicationLoadBalancer element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer')
 ElasticLoadBalancingApplicationLoadBalancerGroup('elastic_load_balancing_application_load_balancer', 'Elastic Load Balancing Application Load Balancer', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the ElasticLoadBalancingApplicationLoadBalancer element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer')
 ElasticLoadBalancingApplicationLoadBalancerGroup('elastic_load_balancing_application_load_balancer', 'Elastic Load Balancing Application Load Balancer', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

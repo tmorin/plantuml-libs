@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraPostgreSqlInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraPostgreSqlInstance')
 AmazonAuroraPostgreSqlInstanceGroup('amazon_aurora_postgre_sql_instance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraPostgreSqlInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraPostgreSqlInstance')
 AmazonAuroraPostgreSqlInstanceGroup('amazon_aurora_postgre_sql_instance', 'Amazon Aurora Postgre Sql Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

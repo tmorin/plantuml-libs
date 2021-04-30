@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEmrCluster element
 include('aws-20210131/Resource/Analytics/AmazonEmrCluster')
 AmazonEmrClusterGroup('amazon_emr_cluster', 'Amazon Emr Cluster', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEmrCluster element
 include('aws-20210131/Resource/Analytics/AmazonEmrCluster')
 AmazonEmrClusterGroup('amazon_emr_cluster', 'Amazon Emr Cluster', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -1,0 +1,16 @@
+@startuml
+sprite $GeneralMd [14x14/16z] LSbN0iL0249HNt465PBzhpQzdhyBzlPhAr_zpBgugaKpQomMa9NfsvV8H6IrjTAJJCTMGqO0YE1UgO3og0gjmr7BlAgZHA2u5SPXeMLIDtC0VVUtjna
+sprite $GeneralLg [20x20/16z] {
+RSe54WG120F1SmWa-__d7gpRb7VDuxRdgQR8M49bpx8acLF5ELiJ0sNLOgLMHM7wOlY1z9_dQh8FbSdy_78oakQ6diqMavnqQzXRKkvY73y2vE5p2X3DoCK4
+2o1-O6uc-lVhoOD9cU9g6ZeDwYYq8SOmzskxzBZh3m
+}
+!procedure General($id, $name="", $tech="")
+  IconElement($id, 'aws-20210131/Resource/GeneralIcons/General', $name, $tech)
+!endprocedure
+!procedure GeneralCard($id, $funcName="", $content="")
+  IconCard($id, '<$GeneralMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+!procedure GeneralGroup($id, $name='General', $tech='')
+  IconGroup($id, 'GeneralIconsFamily', '<$GeneralLg>', $name, $tech)
+!endprocedure
+@enduml

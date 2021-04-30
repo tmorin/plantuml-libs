@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElastiCacheCacheNode element
 include('aws-20210131/Resource/Database/AmazonElastiCacheCacheNode')
 AmazonElastiCacheCacheNodeGroup('amazon_elasti_cache_cache_node', 'Amazon Elasti Cache Cache Node', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElastiCacheCacheNode element
 include('aws-20210131/Resource/Database/AmazonElastiCacheCacheNode')
 AmazonElastiCacheCacheNodeGroup('amazon_elasti_cache_cache_node', 'Amazon Elasti Cache Cache Node', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

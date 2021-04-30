@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCostAndUsageReport element
 include('aws-20210131/Architecture/AwsCostManagement/AwsCostAndUsageReport')
 AwsCostAndUsageReportGroup('aws_cost_and_usage_report', 'Aws Cost And Usage Report', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCostAndUsageReport element
 include('aws-20210131/Architecture/AwsCostManagement/AwsCostAndUsageReport')
 AwsCostAndUsageReportGroup('aws_cost_and_usage_report', 'Aws Cost And Usage Report', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSagemakerModel element
 include('aws-20210131/Resource/MachineLearning/AmazonSagemakerModel')
 AmazonSagemakerModelGroup('amazon_sagemaker_model', 'Amazon Sagemaker Model', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSagemakerModel element
 include('aws-20210131/Resource/MachineLearning/AmazonSagemakerModel')
 AmazonSagemakerModelGroup('amazon_sagemaker_model', 'Amazon Sagemaker Model', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

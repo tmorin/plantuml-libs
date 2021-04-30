@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsElementalMediaConvert element
 include('aws-20210131/Architecture/MediaServices/AwsElementalMediaConvert')
 AwsElementalMediaConvertGroup('aws_elemental_media_convert', 'Aws Elemental Media Convert', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsElementalMediaConvert element
 include('aws-20210131/Architecture/MediaServices/AwsElementalMediaConvert')
 AwsElementalMediaConvertGroup('aws_elemental_media_convert', 'Aws Elemental Media Convert', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

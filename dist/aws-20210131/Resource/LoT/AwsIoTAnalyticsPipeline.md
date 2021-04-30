@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsPipeline element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsPipeline')
 AwsIoTAnalyticsPipelineGroup('aws_io_t_analytics_pipeline', 'Aws Io T Analytics Pipeline', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsPipeline element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsPipeline')
 AwsIoTAnalyticsPipelineGroup('aws_io_t_analytics_pipeline', 'Aws Io T Analytics Pipeline', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupRegion')
 include('aws-20210131/bootstrap')
 ' loads the GroupRegion element
 include('aws-20210131/Group/GroupRegion')
-GroupRegion('group_region', 'Group Region', 'an optional tech field')
+GroupRegion('group_region', 'Group Region', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupRegion('group_region', 'Group Region', 'an optional tech field')
 include('aws-20210131/bootstrap')
 ' loads the GroupRegion element
 include('aws-20210131/Group/GroupRegion')
-GroupRegion('group_region', 'Group Region', 'an optional tech field')
+GroupRegion('group_region', 'Group Region', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2G4DnInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2G4DnInstance')
 AmazonEc2G4DnInstanceGroup('amazon_ec_2_g_4_dn_instance', 'Amazon Ec2 G4 Dn Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2G4DnInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2G4DnInstance')
 AmazonEc2G4DnInstanceGroup('amazon_ec_2_g_4_dn_instance', 'Amazon Ec2 G4 Dn Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

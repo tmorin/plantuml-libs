@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsBatch element
 include('aws-20210131/Architecture/Compute/AwsBatch')
 AwsBatchGroup('aws_batch', 'Aws Batch', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsBatch element
 include('aws-20210131/Architecture/Compute/AwsBatch')
 AwsBatchGroup('aws_batch', 'Aws Batch', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsAppMeshVirtualService element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualService')
 AwsAppMeshVirtualServiceGroup('aws_app_mesh_virtual_service', 'Aws App Mesh Virtual Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsAppMeshVirtualService element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualService')
 AwsAppMeshVirtualServiceGroup('aws_app_mesh_virtual_service', 'Aws App Mesh Virtual Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

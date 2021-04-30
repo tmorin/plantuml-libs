@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDynamoDbGlobalSecondaryIndex element
 include('aws-20210131/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex')
 AmazonDynamoDbGlobalSecondaryIndexGroup('amazon_dynamo_db_global_secondary_index', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDynamoDbGlobalSecondaryIndex element
 include('aws-20210131/Resource/Database/AmazonDynamoDbGlobalSecondaryIndex')
 AmazonDynamoDbGlobalSecondaryIndexGroup('amazon_dynamo_db_global_secondary_index', 'Amazon Dynamo Db Global Secondary Index', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

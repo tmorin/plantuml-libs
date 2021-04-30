@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonWorkSpaces element
 include('aws-20210131/Architecture/EndUserComputing/AmazonWorkSpaces')
 AmazonWorkSpacesGroup('amazon_work_spaces', 'Amazon Work Spaces', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

@@ -1,11 +1,8 @@
 @startuml
-sprite $AmazonEc2Md [14x14/16z] FSq53W0n20J015Zv_uklI6whKvN42m3z14-gx12Qe3SJx7b5HXIJJrRqhMZPGFRTbKgZHAtkf4RkzmDYtolRsfzQ7NZebnvqcfm-
-sprite $AmazonEc2Lg [20x20/16z] {
-RSs55SD030JH9rprNt54CO_v-m2PNx8C7uZk_AuR5Y4y9UAVU8_c73cmYzzCcOcOBCtNZApInB808fp-lz0MeMA7-HWOpcFi8cCIQG64aGE77NiahK6v8hkC
-2tY7gYpIOePFRHthtn3Plk6meqyxy0S
-}
+sprite $Ec2InstanceContainerMd [14x14/16z] uy0Fs5d1W1t2OO42C9UL1QA4XHNA0ugoGta8ET9K8cn0jHq_
+sprite $Ec2InstanceContainerLg [20x20/16z] bL054WGn39e91_J_7xvrhrAD9wGHUCFydffaYXBzkzo4G0IMfSCDj5QOsCBDkD84DvsXj1VHvQSpy-4dN3eefyl4vchaUydrd9ajmq6Egn5C
 !procedure GroupEc2InstanceContents($id, $name='Group Ec2 Instance Contents', $tech='')
-  IconGroup($id, 'GroupEc2InstanceContents', '<$AmazonEc2Lg>', $name, $tech)
+  IconGroup($id, 'GroupEc2InstanceContents', '<$Ec2InstanceContainerLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupEc2InstanceContents>> {
   StereotypeFontColor $AWS_COLOR_ORANGE

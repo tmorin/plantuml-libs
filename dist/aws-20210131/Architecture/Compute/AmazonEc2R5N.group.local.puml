@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2R5N element
 include('aws-20210131/Architecture/Compute/AmazonEc2R5N')
 AmazonEc2R5NGroup('amazon_ec_2_r_5_n', 'Amazon Ec2 R5 N', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

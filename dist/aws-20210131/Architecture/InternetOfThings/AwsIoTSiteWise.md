@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTSiteWise element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTSiteWise')
 AwsIoTSiteWiseGroup('aws_io_t_site_wise', 'Aws Io T Site Wise', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTSiteWise element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTSiteWise')
 AwsIoTSiteWiseGroup('aws_io_t_site_wise', 'Aws Io T Site Wise', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

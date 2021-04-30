@@ -1,6 +1,6 @@
 # Group
 
-The module Group contains 16 entries.
+The module Group contains 17 entries.
 
 
 
@@ -21,5 +21,6 @@ The module Group contains 16 entries.
 |![GroupRegion](../aws-20210131/Group/GroupRegion.group.local.png)|[aws-20210131/Group/GroupRegion](../aws-20210131/Group/GroupRegion.md)
 |![GroupSecurity](../aws-20210131/Group/GroupSecurity.group.local.png)|[aws-20210131/Group/GroupSecurity](../aws-20210131/Group/GroupSecurity.md)
 |![GroupServerContents](../aws-20210131/Group/GroupServerContents.group.local.png)|[aws-20210131/Group/GroupServerContents](../aws-20210131/Group/GroupServerContents.md)
+|![GroupSpotFleet](../aws-20210131/Group/GroupSpotFleet.group.local.png)|[aws-20210131/Group/GroupSpotFleet](../aws-20210131/Group/GroupSpotFleet.md)
 |![GroupVpc](../aws-20210131/Group/GroupVpc.group.local.png)|[aws-20210131/Group/GroupVpc](../aws-20210131/Group/GroupVpc.md)
 

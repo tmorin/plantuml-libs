@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2InstanceWithCloudWatch element
 include('aws-20210131/Resource/Compute/AmazonEc2InstanceWithCloudWatch')
 AmazonEc2InstanceWithCloudWatchGroup('amazon_ec_2_instance_with_cloud_watch', 'Amazon Ec2 Instance With Cloud Watch', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2InstanceWithCloudWatch element
 include('aws-20210131/Resource/Compute/AmazonEc2InstanceWithCloudWatch')
 AmazonEc2InstanceWithCloudWatchGroup('amazon_ec_2_instance_with_cloud_watch', 'Amazon Ec2 Instance With Cloud Watch', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

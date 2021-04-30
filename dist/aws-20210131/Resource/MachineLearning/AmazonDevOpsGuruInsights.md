@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDevOpsGuruInsights element
 include('aws-20210131/Resource/MachineLearning/AmazonDevOpsGuruInsights')
 AmazonDevOpsGuruInsightsGroup('amazon_dev_ops_guru_insights', 'Amazon Dev Ops Guru Insights', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDevOpsGuruInsights element
 include('aws-20210131/Resource/MachineLearning/AmazonDevOpsGuruInsights')
 AmazonDevOpsGuruInsightsGroup('amazon_dev_ops_guru_insights', 'Amazon Dev Ops Guru Insights', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudDevelopmentKit element
 include('aws-20210131/Architecture/DeveloperTools/AwsCloudDevelopmentKit')
 AwsCloudDevelopmentKitGroup('aws_cloud_development_kit', 'Aws Cloud Development Kit', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudDevelopmentKit element
 include('aws-20210131/Architecture/DeveloperTools/AwsCloudDevelopmentKit')
 AwsCloudDevelopmentKitGroup('aws_cloud_development_kit', 'Aws Cloud Development Kit', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

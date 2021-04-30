@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSnowballSnowballImportExport element
 include('aws-20210131/Resource/Storage/AwsSnowballSnowballImportExport')
 AwsSnowballSnowballImportExportGroup('aws_snowball_snowball_import_export', 'Aws Snowball Snowball Import Export', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSnowballSnowballImportExport element
 include('aws-20210131/Resource/Storage/AwsSnowballSnowballImportExport')
 AwsSnowballSnowballImportExportGroup('aws_snowball_snowball_import_export', 'Aws Snowball Snowball Import Export', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

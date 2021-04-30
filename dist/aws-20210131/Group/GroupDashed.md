@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupDashed')
 include('aws-20210131/bootstrap')
 ' loads the GroupDashed element
 include('aws-20210131/Group/GroupDashed')
-GroupDashed('group_dashed', 'Group Dashed', 'an optional tech field')
+GroupDashed('group_dashed', 'Group Dashed', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupDashed('group_dashed', 'Group Dashed', 'an optional tech field')
 include('aws-20210131/bootstrap')
 ' loads the GroupDashed element
 include('aws-20210131/Group/GroupDashed')
-GroupDashed('group_dashed', 'Group Dashed', 'an optional tech field')
+GroupDashed('group_dashed', 'Group Dashed', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

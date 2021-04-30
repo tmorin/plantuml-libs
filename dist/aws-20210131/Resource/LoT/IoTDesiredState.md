@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTDesiredState element
 include('aws-20210131/Resource/LoT/IoTDesiredState')
 IoTDesiredStateGroup('io_t_desired_state', 'Io T Desired State', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTDesiredState element
 include('aws-20210131/Resource/LoT/IoTDesiredState')
 IoTDesiredStateGroup('io_t_desired_state', 'Io T Desired State', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

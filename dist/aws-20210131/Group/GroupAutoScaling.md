@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupAutoScaling')
 include('aws-20210131/bootstrap')
 ' loads the GroupAutoScaling element
 include('aws-20210131/Group/GroupAutoScaling')
-GroupAutoScaling('group_auto_scaling', 'Group Auto Scaling', 'an optional tech field')
+GroupAutoScaling('group_auto_scaling', 'Group Auto Scaling', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupAutoScaling('group_auto_scaling', 'Group Auto Scaling', 'an optional tech f
 include('aws-20210131/bootstrap')
 ' loads the GroupAutoScaling element
 include('aws-20210131/Group/GroupAutoScaling')
-GroupAutoScaling('group_auto_scaling', 'Group Auto Scaling', 'an optional tech field')
+GroupAutoScaling('group_auto_scaling', 'Group Auto Scaling', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

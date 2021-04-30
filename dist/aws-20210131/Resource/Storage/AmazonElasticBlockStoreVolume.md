@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticBlockStoreVolume element
 include('aws-20210131/Resource/Storage/AmazonElasticBlockStoreVolume')
 AmazonElasticBlockStoreVolumeGroup('amazon_elastic_block_store_volume', 'Amazon Elastic Block Store Volume', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticBlockStoreVolume element
 include('aws-20210131/Resource/Storage/AmazonElasticBlockStoreVolume')
 AmazonElasticBlockStoreVolumeGroup('amazon_elastic_block_store_volume', 'Amazon Elastic Block Store Volume', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

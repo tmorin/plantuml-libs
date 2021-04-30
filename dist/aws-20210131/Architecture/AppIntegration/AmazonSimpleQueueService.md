@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleQueueService element
 include('aws-20210131/Architecture/AppIntegration/AmazonSimpleQueueService')
 AmazonSimpleQueueServiceGroup('amazon_simple_queue_service', 'Amazon Simple Queue Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleQueueService element
 include('aws-20210131/Architecture/AppIntegration/AmazonSimpleQueueService')
 AmazonSimpleQueueServiceGroup('amazon_simple_queue_service', 'Amazon Simple Queue Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

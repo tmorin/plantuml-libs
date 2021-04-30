@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonKinesisDataStreams element
 include('aws-20210131/Architecture/Analytics/AmazonKinesisDataStreams')
 AmazonKinesisDataStreamsGroup('amazon_kinesis_data_streams', 'Amazon Kinesis Data Streams', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

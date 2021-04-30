@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsGlueDataCatalog element
 include('aws-20210131/Resource/Analytics/AwsGlueDataCatalog')
 AwsGlueDataCatalogGroup('aws_glue_data_catalog', 'Aws Glue Data Catalog', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsGlueDataCatalog element
 include('aws-20210131/Resource/Analytics/AwsGlueDataCatalog')
 AwsGlueDataCatalogGroup('aws_glue_data_catalog', 'Aws Glue Data Catalog', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

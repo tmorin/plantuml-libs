@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonKinesisFirehose element
 include('aws-20210131/Architecture/Analytics/AmazonKinesisFirehose')
 AmazonKinesisFirehoseGroup('amazon_kinesis_firehose', 'Amazon Kinesis Firehose', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonKinesisFirehose element
 include('aws-20210131/Architecture/Analytics/AmazonKinesisFirehose')
 AmazonKinesisFirehoseGroup('amazon_kinesis_firehose', 'Amazon Kinesis Firehose', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

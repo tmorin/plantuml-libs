@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTGreengrass element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTGreengrass')
 AwsIoTGreengrassGroup('aws_io_t_greengrass', 'Aws Io T Greengrass', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTGreengrass element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTGreengrass')
 AwsIoTGreengrassGroup('aws_io_t_greengrass', 'Aws Io T Greengrass', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudMapResource element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapResource')
 AwsCloudMapResourceGroup('aws_cloud_map_resource', 'Aws Cloud Map Resource', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudMapResource element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapResource')
 AwsCloudMapResourceGroup('aws_cloud_map_resource', 'Aws Cloud Map Resource', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

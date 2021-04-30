@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudDirectory element
 include('aws-20210131/Architecture/NetworkingContent/AmazonCloudDirectory')
 AmazonCloudDirectoryGroup('amazon_cloud_directory', 'Amazon Cloud Directory', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudDirectory element
 include('aws-20210131/Architecture/NetworkingContent/AmazonCloudDirectory')
 AmazonCloudDirectoryGroup('amazon_cloud_directory', 'Amazon Cloud Directory', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingCamera element
 include('aws-20210131/Resource/LoT/IoTThingCamera')
 IoTThingCameraGroup('io_t_thing_camera', 'Io T Thing Camera', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingCamera element
 include('aws-20210131/Resource/LoT/IoTThingCamera')
 IoTThingCameraGroup('io_t_thing_camera', 'Io T Thing Camera', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

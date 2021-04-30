@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedStreamingForApacheKafka element
 include('aws-20210131/Architecture/Analytics/AmazonManagedStreamingForApacheKafka')
 AmazonManagedStreamingForApacheKafkaGroup('amazon_managed_streaming_for_apache_kafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedStreamingForApacheKafka element
 include('aws-20210131/Architecture/Analytics/AmazonManagedStreamingForApacheKafka')
 AmazonManagedStreamingForApacheKafkaGroup('amazon_managed_streaming_for_apache_kafka', 'Amazon Managed Streaming For Apache Kafka', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

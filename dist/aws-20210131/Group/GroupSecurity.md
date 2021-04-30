@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupSecurity')
 include('aws-20210131/bootstrap')
 ' loads the GroupSecurity element
 include('aws-20210131/Group/GroupSecurity')
-GroupSecurity('group_security', 'Group Security', 'an optional tech field')
+GroupSecurity('group_security', 'Group Security', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupSecurity('group_security', 'Group Security', 'an optional tech field')
 include('aws-20210131/bootstrap')
 ' loads the GroupSecurity element
 include('aws-20210131/Group/GroupSecurity')
-GroupSecurity('group_security', 'Group Security', 'an optional tech field')
+GroupSecurity('group_security', 'Group Security', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

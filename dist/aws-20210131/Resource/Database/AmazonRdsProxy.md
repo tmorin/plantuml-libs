@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRdsProxy element
 include('aws-20210131/Resource/Database/AmazonRdsProxy')
 AmazonRdsProxyGroup('amazon_rds_proxy', 'Amazon Rds Proxy', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRdsProxy element
 include('aws-20210131/Resource/Database/AmazonRdsProxy')
 AmazonRdsProxyGroup('amazon_rds_proxy', 'Amazon Rds Proxy', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

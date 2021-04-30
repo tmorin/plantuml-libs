@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonQuickSight element
 include('aws-20210131/Architecture/Analytics/AmazonQuickSight')
 AmazonQuickSightGroup('amazon_quick_sight', 'Amazon Quick Sight', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonQuickSight element
 include('aws-20210131/Architecture/Analytics/AmazonQuickSight')
 AmazonQuickSightGroup('amazon_quick_sight', 'Amazon Quick Sight', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

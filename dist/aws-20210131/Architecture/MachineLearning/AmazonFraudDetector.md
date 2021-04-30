@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFraudDetector element
 include('aws-20210131/Architecture/MachineLearning/AmazonFraudDetector')
 AmazonFraudDetectorGroup('amazon_fraud_detector', 'Amazon Fraud Detector', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFraudDetector element
 include('aws-20210131/Architecture/MachineLearning/AmazonFraudDetector')
 AmazonFraudDetectorGroup('amazon_fraud_detector', 'Amazon Fraud Detector', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

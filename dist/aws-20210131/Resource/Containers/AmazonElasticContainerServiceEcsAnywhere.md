@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceEcsAnywhere element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere')
 AmazonElasticContainerServiceEcsAnywhereGroup('amazon_elastic_container_service_ecs_anywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceEcsAnywhere element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere')
 AmazonElasticContainerServiceEcsAnywhereGroup('amazon_elastic_container_service_ecs_anywhere', 'Amazon Elastic Container Service Ecs Anywhere', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

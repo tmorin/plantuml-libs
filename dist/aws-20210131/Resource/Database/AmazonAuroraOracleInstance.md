@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraOracleInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraOracleInstance')
 AmazonAuroraOracleInstanceGroup('amazon_aurora_oracle_instance', 'Amazon Aurora Oracle Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraOracleInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraOracleInstance')
 AmazonAuroraOracleInstanceGroup('amazon_aurora_oracle_instance', 'Amazon Aurora Oracle Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

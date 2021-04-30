@@ -1,0 +1,12 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+' loads the library
+!include $LIB_BASE_LOCATION/bootstrap.puml
+' loads the aws-20210131 bootstrap
+include('aws-20210131/bootstrap')
+' loads the Ec2InstanceContainer element
+include('aws-20210131/Resource/GroupIcons/Ec2InstanceContainer')
+Ec2InstanceContainer('ec_2_instance_container', 'Ec2 Instance Container', 'an optional tech field')
+@enduml

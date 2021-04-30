@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTOverAirUpdate element
 include('aws-20210131/Resource/LoT/IoTOverAirUpdate')
 IoTOverAirUpdateGroup('io_t_over_air_update', 'Io T Over Air Update', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTOverAirUpdate element
 include('aws-20210131/Resource/LoT/IoTOverAirUpdate')
 IoTOverAirUpdateGroup('io_t_over_air_update', 'Io T Over Air Update', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

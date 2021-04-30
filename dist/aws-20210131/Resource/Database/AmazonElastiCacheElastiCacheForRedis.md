@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElastiCacheElastiCacheForRedis element
 include('aws-20210131/Resource/Database/AmazonElastiCacheElastiCacheForRedis')
 AmazonElastiCacheElastiCacheForRedisGroup('amazon_elasti_cache_elasti_cache_for_redis', 'Amazon Elasti Cache Elasti Cache For Redis', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElastiCacheElastiCacheForRedis element
 include('aws-20210131/Resource/Database/AmazonElastiCacheElastiCacheForRedis')
 AmazonElastiCacheElastiCacheForRedisGroup('amazon_elasti_cache_elasti_cache_for_redis', 'Amazon Elasti Cache Elasti Cache For Redis', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

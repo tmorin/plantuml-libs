@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2 element
 include('aws-20210131/Architecture/Compute/AmazonEc2')
 AmazonEc2Group('amazon_ec_2', 'Amazon Ec2', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2 element
 include('aws-20210131/Architecture/Compute/AmazonEc2')
 AmazonEc2Group('amazon_ec_2', 'Amazon Ec2', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

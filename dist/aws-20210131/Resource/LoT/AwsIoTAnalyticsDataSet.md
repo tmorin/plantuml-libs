@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsDataSet element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsDataSet')
 AwsIoTAnalyticsDataSetGroup('aws_io_t_analytics_data_set', 'Aws Io T Analytics Data Set', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsDataSet element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsDataSet')
 AwsIoTAnalyticsDataSetGroup('aws_io_t_analytics_data_set', 'Aws Io T Analytics Data Set', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

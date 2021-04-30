@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRdsOnVMware element
 include('aws-20210131/Architecture/Database/AmazonRdsOnVMware')
 AmazonRdsOnVMwareGroup('amazon_rds_on_v_mware', 'Amazon Rds On V Mware', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRdsOnVMware element
 include('aws-20210131/Architecture/Database/AmazonRdsOnVMware')
 AmazonRdsOnVMwareGroup('amazon_rds_on_v_mware', 'Amazon Rds On V Mware', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

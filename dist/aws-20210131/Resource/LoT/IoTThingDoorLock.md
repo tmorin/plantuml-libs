@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingDoorLock element
 include('aws-20210131/Resource/LoT/IoTThingDoorLock')
 IoTThingDoorLockGroup('io_t_thing_door_lock', 'Io T Thing Door Lock', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingDoorLock element
 include('aws-20210131/Resource/LoT/IoTThingDoorLock')
 IoTThingDoorLockGroup('io_t_thing_door_lock', 'Io T Thing Door Lock', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

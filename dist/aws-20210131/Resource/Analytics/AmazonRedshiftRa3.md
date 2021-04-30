@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRedshiftRa3 element
 include('aws-20210131/Resource/Analytics/AmazonRedshiftRa3')
 AmazonRedshiftRa3Group('amazon_redshift_ra_3', 'Amazon Redshift Ra3', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRedshiftRa3 element
 include('aws-20210131/Resource/Analytics/AmazonRedshiftRa3')
 AmazonRedshiftRa3Group('amazon_redshift_ra_3', 'Amazon Redshift Ra3', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

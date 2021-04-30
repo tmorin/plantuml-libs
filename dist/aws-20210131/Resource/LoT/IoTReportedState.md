@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTReportedState element
 include('aws-20210131/Resource/LoT/IoTReportedState')
 IoTReportedStateGroup('io_t_reported_state', 'Io T Reported State', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTReportedState element
 include('aws-20210131/Resource/LoT/IoTReportedState')
 IoTReportedStateGroup('io_t_reported_state', 'Io T Reported State', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

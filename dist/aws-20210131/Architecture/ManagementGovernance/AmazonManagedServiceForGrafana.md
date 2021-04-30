@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedServiceForGrafana element
 include('aws-20210131/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana')
 AmazonManagedServiceForGrafanaGroup('amazon_managed_service_for_grafana', 'Amazon Managed Service For Grafana', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedServiceForGrafana element
 include('aws-20210131/Architecture/ManagementGovernance/AmazonManagedServiceForGrafana')
 AmazonManagedServiceForGrafanaGroup('amazon_managed_service_for_grafana', 'Amazon Managed Service For Grafana', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

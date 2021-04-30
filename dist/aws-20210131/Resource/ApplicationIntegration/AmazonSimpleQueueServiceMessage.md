@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleQueueServiceMessage element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage')
 AmazonSimpleQueueServiceMessageGroup('amazon_simple_queue_service_message', 'Amazon Simple Queue Service Message', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleQueueServiceMessage element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonSimpleQueueServiceMessage')
 AmazonSimpleQueueServiceMessageGroup('amazon_simple_queue_service_message', 'Amazon Simple Queue Service Message', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

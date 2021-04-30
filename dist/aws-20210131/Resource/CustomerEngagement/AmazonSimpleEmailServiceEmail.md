@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleEmailServiceEmail element
 include('aws-20210131/Resource/CustomerEngagement/AmazonSimpleEmailServiceEmail')
 AmazonSimpleEmailServiceEmailGroup('amazon_simple_email_service_email', 'Amazon Simple Email Service Email', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleEmailServiceEmail element
 include('aws-20210131/Resource/CustomerEngagement/AmazonSimpleEmailServiceEmail')
 AmazonSimpleEmailServiceEmailGroup('amazon_simple_email_service_email', 'Amazon Simple Email Service Email', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

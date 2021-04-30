@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsServerlessApplicationRepository element
 include('aws-20210131/Architecture/Compute/AwsServerlessApplicationRepository')
 AwsServerlessApplicationRepositoryGroup('aws_serverless_application_repository', 'Aws Serverless Application Repository', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsServerlessApplicationRepository element
 include('aws-20210131/Architecture/Compute/AwsServerlessApplicationRepository')
 AwsServerlessApplicationRepositoryGroup('aws_serverless_application_repository', 'Aws Serverless Application Repository', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingCart element
 include('aws-20210131/Resource/LoT/IoTThingCart')
 IoTThingCartGroup('io_t_thing_cart', 'Io T Thing Cart', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingCart element
 include('aws-20210131/Resource/LoT/IoTThingCart')
 IoTThingCartGroup('io_t_thing_cart', 'Io T Thing Cart', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the NetworkingContentDelivery element
 include('aws-20210131/Category/NetworkingContentDelivery')
 NetworkingContentDeliveryGroup('networking_content_delivery', 'Networking Content Delivery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the NetworkingContentDelivery element
 include('aws-20210131/Category/NetworkingContentDelivery')
 NetworkingContentDeliveryGroup('networking_content_delivery', 'Networking Content Delivery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

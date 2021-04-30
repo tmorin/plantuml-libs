@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupElasticBeanstalkContainer')
 include('aws-20210131/bootstrap')
 ' loads the GroupElasticBeanstalkContainer element
 include('aws-20210131/Group/GroupElasticBeanstalkContainer')
-GroupElasticBeanstalkContainer('group_elastic_beanstalk_container', 'Group Elastic Beanstalk Container', 'an optional tech field')
+GroupElasticBeanstalkContainer('group_elastic_beanstalk_container', 'Group Elastic Beanstalk Container', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupElasticBeanstalkContainer('group_elastic_beanstalk_container', 'Group Elast
 include('aws-20210131/bootstrap')
 ' loads the GroupElasticBeanstalkContainer element
 include('aws-20210131/Group/GroupElasticBeanstalkContainer')
-GroupElasticBeanstalkContainer('group_elastic_beanstalk_container', 'Group Elastic Beanstalk Container', 'an optional tech field')
+GroupElasticBeanstalkContainer('group_elastic_beanstalk_container', 'Group Elastic Beanstalk Container', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonIoTSailboat element
 include('aws-20210131/Resource/LoT/AmazonIoTSailboat')
 AmazonIoTSailboatGroup('amazon_io_t_sailboat', 'Amazon Io T Sailboat', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonIoTSailboat element
 include('aws-20210131/Resource/LoT/AmazonIoTSailboat')
 AmazonIoTSailboatGroup('amazon_io_t_sailboat', 'Amazon Io T Sailboat', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

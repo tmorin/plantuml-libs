@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceS3StorageLens element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
 AmazonSimpleStorageServiceS3StorageLensGroup('amazon_simple_storage_service_s_3_storage_lens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceS3StorageLens element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
 AmazonSimpleStorageServiceS3StorageLensGroup('amazon_simple_storage_service_s_3_storage_lens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

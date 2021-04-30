@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupPublicSubnet')
 include('aws-20210131/bootstrap')
 ' loads the GroupPublicSubnet element
 include('aws-20210131/Group/GroupPublicSubnet')
-GroupPublicSubnet('group_public_subnet', 'Group Public Subnet', 'an optional tech field')
+GroupPublicSubnet('group_public_subnet', 'Group Public Subnet', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupPublicSubnet('group_public_subnet', 'Group Public Subnet', 'an optional tec
 include('aws-20210131/bootstrap')
 ' loads the GroupPublicSubnet element
 include('aws-20210131/Group/GroupPublicSubnet')
-GroupPublicSubnet('group_public_subnet', 'Group Public Subnet', 'an optional tech field')
+GroupPublicSubnet('group_public_subnet', 'Group Public Subnet', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

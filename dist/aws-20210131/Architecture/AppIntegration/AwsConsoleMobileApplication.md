@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsConsoleMobileApplication element
 include('aws-20210131/Architecture/AppIntegration/AwsConsoleMobileApplication')
 AwsConsoleMobileApplicationGroup('aws_console_mobile_application', 'Aws Console Mobile Application', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsConsoleMobileApplication element
 include('aws-20210131/Architecture/AppIntegration/AwsConsoleMobileApplication')
 AwsConsoleMobileApplicationGroup('aws_console_mobile_application', 'Aws Console Mobile Application', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -27,8 +27,8 @@ include('{{= it.entry.element.urn }}')
 {{ if (it.snippet.type === 'element') { }}{{= it.entry.element.name }}('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.technical }}'){{ } }}
 {{ if (it.snippet.type === 'card') { }}{{= it.entry.element.name }}Card('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.description }}'){{ } }}
 {{ if (it.snippet.type === 'group') { }}{{= it.entry.element.name }}Group('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.technical }}'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }{{ } }}
 @enduml

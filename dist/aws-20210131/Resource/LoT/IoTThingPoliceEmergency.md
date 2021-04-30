@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingPoliceEmergency element
 include('aws-20210131/Resource/LoT/IoTThingPoliceEmergency')
 IoTThingPoliceEmergencyGroup('io_t_thing_police_emergency', 'Io T Thing Police Emergency', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingPoliceEmergency element
 include('aws-20210131/Resource/LoT/IoTThingPoliceEmergency')
 IoTThingPoliceEmergencyGroup('io_t_thing_police_emergency', 'Io T Thing Police Emergency', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

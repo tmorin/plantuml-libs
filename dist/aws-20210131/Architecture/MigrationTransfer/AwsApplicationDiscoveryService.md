@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsApplicationDiscoveryService element
 include('aws-20210131/Architecture/MigrationTransfer/AwsApplicationDiscoveryService')
 AwsApplicationDiscoveryServiceGroup('aws_application_discovery_service', 'Aws Application Discovery Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsApplicationDiscoveryService element
 include('aws-20210131/Architecture/MigrationTransfer/AwsApplicationDiscoveryService')
 AwsApplicationDiscoveryServiceGroup('aws_application_discovery_service', 'Aws Application Discovery Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

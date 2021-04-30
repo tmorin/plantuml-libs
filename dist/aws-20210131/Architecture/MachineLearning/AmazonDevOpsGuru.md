@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDevOpsGuru element
 include('aws-20210131/Architecture/MachineLearning/AmazonDevOpsGuru')
 AmazonDevOpsGuruGroup('amazon_dev_ops_guru', 'Amazon Dev Ops Guru', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDevOpsGuru element
 include('aws-20210131/Architecture/MachineLearning/AmazonDevOpsGuru')
 AmazonDevOpsGuruGroup('amazon_dev_ops_guru', 'Amazon Dev Ops Guru', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupCorporateDataCenter')
 include('aws-20210131/bootstrap')
 ' loads the GroupCorporateDataCenter element
 include('aws-20210131/Group/GroupCorporateDataCenter')
-GroupCorporateDataCenter('group_corporate_data_center', 'Group Corporate Data Center', 'an optional tech field')
+GroupCorporateDataCenter('group_corporate_data_center', 'Group Corporate Data Center', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupCorporateDataCenter('group_corporate_data_center', 'Group Corporate Data Ce
 include('aws-20210131/bootstrap')
 ' loads the GroupCorporateDataCenter element
 include('aws-20210131/Group/GroupCorporateDataCenter')
-GroupCorporateDataCenter('group_corporate_data_center', 'Group Corporate Data Center', 'an optional tech field')
+GroupCorporateDataCenter('group_corporate_data_center', 'Group Corporate Data Center', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

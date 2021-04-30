@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudwatchLogs element
 include('aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchLogs')
 AmazonCloudwatchLogsGroup('amazon_cloudwatch_logs', 'Amazon Cloudwatch Logs', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudwatchLogs element
 include('aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchLogs')
 AmazonCloudwatchLogsGroup('amazon_cloudwatch_logs', 'Amazon Cloudwatch Logs', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

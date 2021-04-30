@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingTravel element
 include('aws-20210131/Resource/LoT/IoTThingTravel')
 IoTThingTravelGroup('io_t_thing_travel', 'Io T Thing Travel', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTThingTravel element
 include('aws-20210131/Resource/LoT/IoTThingTravel')
 IoTThingTravelGroup('io_t_thing_travel', 'Io T Thing Travel', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

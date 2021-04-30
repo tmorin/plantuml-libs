@@ -33,8 +33,8 @@ The package provides 4 modules.
 
 - [Architecture](architecture.md) with 262 elements
 - [Category](category.md) with 26 elements
-- [Resource](resource.md) with 349 elements
-- [Group](group.md) with 16 elements
+- [Resource](resource.md) with 363 elements
+- [Group](group.md) with 17 elements
 
 # Examples
 

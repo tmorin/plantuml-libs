@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsServerMigrationService element
 include('aws-20210131/Architecture/MigrationTransfer/AwsServerMigrationService')
 AwsServerMigrationServiceGroup('aws_server_migration_service', 'Aws Server Migration Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsServerMigrationService element
 include('aws-20210131/Architecture/MigrationTransfer/AwsServerMigrationService')
 AwsServerMigrationServiceGroup('aws_server_migration_service', 'Aws Server Migration Service', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

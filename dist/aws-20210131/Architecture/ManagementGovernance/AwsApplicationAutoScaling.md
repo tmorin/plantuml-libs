@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsApplicationAutoScaling element
 include('aws-20210131/Architecture/ManagementGovernance/AwsApplicationAutoScaling')
 AwsApplicationAutoScalingGroup('aws_application_auto_scaling', 'Aws Application Auto Scaling', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsApplicationAutoScaling element
 include('aws-20210131/Architecture/ManagementGovernance/AwsApplicationAutoScaling')
 AwsApplicationAutoScalingGroup('aws_application_auto_scaling', 'Aws Application Auto Scaling', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

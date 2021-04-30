@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedBlockchainBlockchain element
 include('aws-20210131/Resource/Blockchain/AmazonManagedBlockchainBlockchain')
 AmazonManagedBlockchainBlockchainGroup('amazon_managed_blockchain_blockchain', 'Amazon Managed Blockchain Blockchain', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonManagedBlockchainBlockchain element
 include('aws-20210131/Resource/Blockchain/AmazonManagedBlockchainBlockchain')
 AmazonManagedBlockchainBlockchainGroup('amazon_managed_blockchain_blockchain', 'Amazon Managed Blockchain Blockchain', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

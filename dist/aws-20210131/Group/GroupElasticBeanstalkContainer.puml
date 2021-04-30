@@ -1,11 +1,11 @@
 @startuml
-sprite $AwsElasticBeanstalkMd [14x14/16z] LSUt0G012CImuWnc_uK_HtLI-r9L_kglUmYSLGibN4iRckmRoWuAtJDO0UpiQyYcKsuRhGJRthO3TzUypA_pwme
-sprite $AwsElasticBeanstalkLg [20x20/16z] {
-RSY74GC120F1UIHqz5-nSKw_avUL3xquIKwIbrS-BfBwjVSgfwlvF3MGe_Hn1LtkkCWQjip85QAwtzW3EGp1Ocz66LSh3lJZMiXoIKI-tsOVrafjxTsrAyLw
-trA9czSnOhZRU-1jJd9ESaxo0W
+sprite $ElasticBeanstalkContainerMd [14x14/16z] XSUt0GDH5CCm1_69-o_iSB7ywE32GE-apVLV81dx2pX4VzL6ycP-xNyDxuHjiYM0V-s4M4-atgOkVG4
+sprite $ElasticBeanstalkContainerLg [20x20/16z] {
+hO-53GD024KJldR_WUlkzavnw9xqblGT8YgNleOi-C8BsTva3fgQhOSYSN9JWr8j3fvG6n9fgfsdsN08sstfNT65MK243hf20SMnMI6x6gI7410nFM8XrFNy
+1DpcGatt1gV_O0K
 }
 !procedure GroupElasticBeanstalkContainer($id, $name='Group Elastic Beanstalk Container', $tech='')
-  IconGroup($id, 'GroupElasticBeanstalkContainer', '<$AwsElasticBeanstalkLg>', $name, $tech)
+  IconGroup($id, 'GroupElasticBeanstalkContainer', '<$ElasticBeanstalkContainerLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupElasticBeanstalkContainer>> {
   StereotypeFontColor $AWS_COLOR_ORANGE

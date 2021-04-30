@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticBlockStore element
 include('aws-20210131/Architecture/Storage/AmazonElasticBlockStore')
 AmazonElasticBlockStoreGroup('amazon_elastic_block_store', 'Amazon Elastic Block Store', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticBlockStore element
 include('aws-20210131/Architecture/Storage/AmazonElasticBlockStore')
 AmazonElasticBlockStoreGroup('amazon_elastic_block_store', 'Amazon Elastic Block Store', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

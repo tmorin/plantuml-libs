@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceTask element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceTask')
 AmazonElasticContainerServiceTaskGroup('amazon_elastic_container_service_task', 'Amazon Elastic Container Service Task', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceTask element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceTask')
 AmazonElasticContainerServiceTaskGroup('amazon_elastic_container_service_task', 'Amazon Elastic Container Service Task', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

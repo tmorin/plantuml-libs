@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeDefaultEventBus element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus')
 AmazonEventBridgeDefaultEventBusGroup('amazon_event_bridge_default_event_bus', 'Amazon Event Bridge Default Event Bus', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeDefaultEventBus element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus')
 AmazonEventBridgeDefaultEventBusGroup('amazon_event_bridge_default_event_bus', 'Amazon Event Bridge Default Event Bus', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticFileSystemFileSystem element
 include('aws-20210131/Resource/Storage/AmazonElasticFileSystemFileSystem')
 AmazonElasticFileSystemFileSystemGroup('amazon_elastic_file_system_file_system', 'Amazon Elastic File System File System', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticFileSystemFileSystem element
 include('aws-20210131/Resource/Storage/AmazonElasticFileSystemFileSystem')
 AmazonElasticFileSystemFileSystemGroup('amazon_elastic_file_system_file_system', 'Amazon Elastic File System File System', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

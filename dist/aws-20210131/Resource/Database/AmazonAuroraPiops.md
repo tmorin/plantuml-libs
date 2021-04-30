@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraPiops element
 include('aws-20210131/Resource/Database/AmazonAuroraPiops')
 AmazonAuroraPiopsGroup('amazon_aurora_piops', 'Amazon Aurora Piops', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraPiops element
 include('aws-20210131/Resource/Database/AmazonAuroraPiops')
 AmazonAuroraPiopsGroup('amazon_aurora_piops', 'Amazon Aurora Piops', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcEndpoints element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints')
 AmazonVpcEndpointsGroup('amazon_vpc_endpoints', 'Amazon Vpc Endpoints', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcEndpoints element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints')
 AmazonVpcEndpointsGroup('amazon_vpc_endpoints', 'Amazon Vpc Endpoints', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

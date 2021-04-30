@@ -1,11 +1,8 @@
 @startuml
-sprite $AmazonEc2AutoScalingMd [14x14/16z] RKw50GD128iTx3zn--wu4on4uYHsNrBPmYMz9awyXt0bFJc0gZZ0P4gazsmCSv-ioTskl3-ylwlx2yiV
-sprite $AmazonEc2AutoScalingLg [20x20/16z] {
-VT3L0GKW3CNGq5na_uMVkt3-a2exS_2XZJb7uuqNV4ZuKWNRs5RWl13gMcWKcPnCgS59p2flTxMYaBpSkNAjFtp6sgyrVArXuyvetFIycStIydDN9uqFSx9p
-1
-}
+sprite $AutoScalingMd [14x14/16z] TKs30S1042kY_HUk-JWpIKlyRURvsv7FaHtfI9T8zqe24a1osLsNVHIopnwd8Ii
+sprite $AutoScalingLg [20x20/16z] VP350SGm40DDWluRFWmdydoMqIkIv-GyjNPpidVwZ0nOSvyasy2YRcwQD3U708nActK0KFBTQ_EC-Nxvjlo3_DFC6m
 !procedure GroupAutoScaling($id, $name='Group Auto Scaling', $tech='')
-  IconGroup($id, 'GroupAutoScaling', '<$AmazonEc2AutoScalingLg>', $name, $tech)
+  IconGroup($id, 'GroupAutoScaling', '<$AutoScalingLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupAutoScaling>> {
   StereotypeFontColor $AWS_COLOR_ORANGE

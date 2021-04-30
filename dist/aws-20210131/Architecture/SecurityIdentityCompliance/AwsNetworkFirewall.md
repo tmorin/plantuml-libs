@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsNetworkFirewall element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall')
 AwsNetworkFirewallGroup('aws_network_firewall', 'Aws Network Firewall', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsNetworkFirewall element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsNetworkFirewall')
 AwsNetworkFirewallGroup('aws_network_firewall', 'Aws Network Firewall', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

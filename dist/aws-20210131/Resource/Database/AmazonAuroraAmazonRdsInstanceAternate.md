@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraAmazonRdsInstanceAternate element
 include('aws-20210131/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate')
 AmazonAuroraAmazonRdsInstanceAternateGroup('amazon_aurora_amazon_rds_instance_aternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraAmazonRdsInstanceAternate element
 include('aws-20210131/Resource/Database/AmazonAuroraAmazonRdsInstanceAternate')
 AmazonAuroraAmazonRdsInstanceAternateGroup('amazon_aurora_amazon_rds_instance_aternate', 'Amazon Aurora Amazon Rds Instance Aternate', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

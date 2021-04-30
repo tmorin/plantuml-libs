@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSxForWindowsFileServer element
 include('aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer')
 AmazonFSxForWindowsFileServerGroup('amazon_f_sx_for_windows_file_server', 'Amazon F Sx For Windows File Server', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonFSxForWindowsFileServer element
 include('aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer')
 AmazonFSxForWindowsFileServerGroup('amazon_f_sx_for_windows_file_server', 'Amazon F Sx For Windows File Server', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

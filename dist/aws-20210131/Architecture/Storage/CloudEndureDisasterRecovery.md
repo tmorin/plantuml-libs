@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the CloudEndureDisasterRecovery element
 include('aws-20210131/Architecture/Storage/CloudEndureDisasterRecovery')
 CloudEndureDisasterRecoveryGroup('cloud_endure_disaster_recovery', 'Cloud Endure Disaster Recovery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the CloudEndureDisasterRecovery element
 include('aws-20210131/Architecture/Storage/CloudEndureDisasterRecovery')
 CloudEndureDisasterRecoveryGroup('cloud_endure_disaster_recovery', 'Cloud Endure Disaster Recovery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

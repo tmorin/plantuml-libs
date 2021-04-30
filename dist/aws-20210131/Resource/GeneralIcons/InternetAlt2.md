@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the InternetAlt2 element
 include('aws-20210131/Resource/GeneralIcons/InternetAlt2')
 InternetAlt2Group('internet_alt_2', 'Internet Alt2', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the InternetAlt2 element
 include('aws-20210131/Resource/GeneralIcons/InternetAlt2')
 InternetAlt2Group('internet_alt_2', 'Internet Alt2', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

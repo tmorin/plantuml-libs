@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSecretsManager element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsSecretsManager')
 AwsSecretsManagerGroup('aws_secrets_manager', 'Aws Secrets Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSecretsManager element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsSecretsManager')
 AwsSecretsManagerGroup('aws_secrets_manager', 'Aws Secrets Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

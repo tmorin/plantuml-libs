@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2C6GInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2C6GInstance')
 AmazonEc2C6GInstanceGroup('amazon_ec_2_c_6_g_instance', 'Amazon Ec2 C6 G Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2C6GInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2C6GInstance')
 AmazonEc2C6GInstanceGroup('amazon_ec_2_c_6_g_instance', 'Amazon Ec2 C6 G Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

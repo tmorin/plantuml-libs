@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsOpsWorksInstances element
 include('aws-20210131/Resource/ManagementGovernance/AwsOpsWorksInstances')
 AwsOpsWorksInstancesGroup('aws_ops_works_instances', 'Aws Ops Works Instances', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsOpsWorksInstances element
 include('aws-20210131/Resource/ManagementGovernance/AwsOpsWorksInstances')
 AwsOpsWorksInstancesGroup('aws_ops_works_instances', 'Aws Ops Works Instances', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

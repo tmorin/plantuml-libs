@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsTransferFamilyAwsFtps element
 include('aws-20210131/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtps')
 AwsTransferFamilyAwsFtpsGroup('aws_transfer_family_aws_ftps', 'Aws Transfer Family Aws Ftps', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsTransferFamilyAwsFtps element
 include('aws-20210131/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtps')
 AwsTransferFamilyAwsFtpsGroup('aws_transfer_family_aws_ftps', 'Aws Transfer Family Aws Ftps', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

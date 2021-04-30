@@ -1,6 +1,8 @@
 @startuml
+sprite $VpcSubnetPublicMd [14x14/16z] XSct0OC044FHwXJtdzScGmM_UrA-Ck0R8yr5iQMkQyWvJq1Bm2vg6I9UcdceP4-1bapi4hW4vRq_
+sprite $VpcSubnetPublicLg [20x20/16z] hSir0iK020FG9KZ2_S_xfKwNwblGw0Lqfxg4Er8DiYhHtqm_bZtAdnO6O3_0cYROcwabmFtEVqxyiToBRITLH4dhJeW9j0YVX9xw0W
 !procedure GroupPublicSubnet($id, $name='Group Public Subnet', $tech='')
-  IconGroup($id, 'GroupPublicSubnet', '<$Lg>', $name, $tech)
+  IconGroup($id, 'GroupPublicSubnet', '<$VpcSubnetPublicLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupPublicSubnet>> {
   StereotypeFontColor $AWS_COLOR_GREEN

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudFrontEdgeLocation element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation')
 AmazonCloudFrontEdgeLocationGroup('amazon_cloud_front_edge_location', 'Amazon Cloud Front Edge Location', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudFrontEdgeLocation element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudFrontEdgeLocation')
 AmazonCloudFrontEdgeLocationGroup('amazon_cloud_front_edge_location', 'Amazon Cloud Front Edge Location', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

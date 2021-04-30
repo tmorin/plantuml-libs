@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCommandLineInterface element
 include('aws-20210131/Architecture/DeveloperTools/AwsCommandLineInterface')
 AwsCommandLineInterfaceGroup('aws_command_line_interface', 'Aws Command Line Interface', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCommandLineInterface element
 include('aws-20210131/Architecture/DeveloperTools/AwsCommandLineInterface')
 AwsCommandLineInterfaceGroup('aws_command_line_interface', 'Aws Command Line Interface', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

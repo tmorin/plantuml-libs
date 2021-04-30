@@ -1,11 +1,8 @@
 @startuml
-sprite $AmazonVirtualPrivateCloudMd [14x14/16z] BST1WWCW30B0tJQ4WF__Rr6TsoZc8gddz8n0dzFoO2QVi8snrC0PeM0Nzc1Bg3XJ2XJsbW0GwCwMbmDHqZfnr_VRsIixoTBhBNtx0G
-sprite $AmazonVirtualPrivateCloudLg [20x20/16z] {
-PSq7ZiH024HHoLIHVF_xBWsi9tr5NWTYyl-iUjaBuzM3EIC1VJ0BquLcWbZDmaHVXuZ6M25oFl3BOWriop0L7UDGK03X6B8NWGfIrkAU7o12jDqcvcP160tm
-yBlGISBBi7Rmb8IoBSuqAN01YBR5G2NUza8bFSS6jnXxuSj-y0y
-}
+sprite $VpcMd [14x14/16z] bKjL0iCW59l5uFxtNSOgloqyYurRpsHE0BTsZ1u1l80uycalQ5GbN9XAceCgcj8luLYoNQsGfDeikFw-
+sprite $VpcLg [20x20/16z] jOn50eKm44E_H9hf_U-B-ve7jOdKI-Gn4G1THsGgrs73kFKEm6j7EZtkQd6GpVOVRyIq-z_sqRZnpxbc7iez9LKRP-dMFXjzO8rOUxQIkJvO2t72jPATUeC1
 !procedure GroupVpc($id, $name='Group Vpc', $tech='')
-  IconGroup($id, 'GroupVpc', '<$AmazonVirtualPrivateCloudLg>', $name, $tech)
+  IconGroup($id, 'GroupVpc', '<$VpcLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupVpc>> {
   StereotypeFontColor $AWS_COLOR_GREEN

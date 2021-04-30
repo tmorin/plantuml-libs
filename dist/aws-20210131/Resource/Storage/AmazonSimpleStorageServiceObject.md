@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceObject element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceObject')
 AmazonSimpleStorageServiceObjectGroup('amazon_simple_storage_service_object', 'Amazon Simple Storage Service Object', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceObject element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceObject')
 AmazonSimpleStorageServiceObjectGroup('amazon_simple_storage_service_object', 'Amazon Simple Storage Service Object', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

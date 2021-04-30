@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupAvailabilityZone')
 include('aws-20210131/bootstrap')
 ' loads the GroupAvailabilityZone element
 include('aws-20210131/Group/GroupAvailabilityZone')
-GroupAvailabilityZone('group_availability_zone', 'Group Availability Zone', 'an optional tech field')
+GroupAvailabilityZone('group_availability_zone', 'Group Availability Zone', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupAvailabilityZone('group_availability_zone', 'Group Availability Zone', 'an 
 include('aws-20210131/bootstrap')
 ' loads the GroupAvailabilityZone element
 include('aws-20210131/Group/GroupAvailabilityZone')
-GroupAvailabilityZone('group_availability_zone', 'Group Availability Zone', 'an optional tech field')
+GroupAvailabilityZone('group_availability_zone', 'Group Availability Zone', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

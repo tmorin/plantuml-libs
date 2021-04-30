@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLakeFormationDataLake element
 include('aws-20210131/Resource/Analytics/AwsLakeFormationDataLake')
 AwsLakeFormationDataLakeGroup('aws_lake_formation_data_lake', 'Aws Lake Formation Data Lake', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLakeFormationDataLake element
 include('aws-20210131/Resource/Analytics/AwsLakeFormationDataLake')
 AwsLakeFormationDataLakeGroup('aws_lake_formation_data_lake', 'Aws Lake Formation Data Lake', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

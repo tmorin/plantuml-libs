@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticFileSystemOneZoneStandard element
 include('aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneStandard')
 AmazonElasticFileSystemOneZoneStandardGroup('amazon_elastic_file_system_one_zone_standard', 'Amazon Elastic File System One Zone Standard', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticFileSystemOneZoneStandard element
 include('aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneStandard')
 AmazonElasticFileSystemOneZoneStandardGroup('amazon_elastic_file_system_one_zone_standard', 'Amazon Elastic File System One Zone Standard', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

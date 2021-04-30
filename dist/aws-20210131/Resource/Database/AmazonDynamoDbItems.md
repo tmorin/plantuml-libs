@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDynamoDbItems element
 include('aws-20210131/Resource/Database/AmazonDynamoDbItems')
 AmazonDynamoDbItemsGroup('amazon_dynamo_db_items', 'Amazon Dynamo Db Items', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonDynamoDbItems element
 include('aws-20210131/Resource/Database/AmazonDynamoDbItems')
 AmazonDynamoDbItemsGroup('amazon_dynamo_db_items', 'Amazon Dynamo Db Items', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

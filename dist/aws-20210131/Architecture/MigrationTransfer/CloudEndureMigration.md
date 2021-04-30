@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the CloudEndureMigration element
 include('aws-20210131/Architecture/MigrationTransfer/CloudEndureMigration')
 CloudEndureMigrationGroup('cloud_endure_migration', 'Cloud Endure Migration', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the CloudEndureMigration element
 include('aws-20210131/Architecture/MigrationTransfer/CloudEndureMigration')
 CloudEndureMigrationGroup('cloud_endure_migration', 'Cloud Endure Migration', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

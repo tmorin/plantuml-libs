@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2MacInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2MacInstance')
 AmazonEc2MacInstanceGroup('amazon_ec_2_mac_instance', 'Amazon Ec2 Mac Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2MacInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2MacInstance')
 AmazonEc2MacInstanceGroup('amazon_ec_2_mac_instance', 'Amazon Ec2 Mac Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIdentityAndAccessManagement element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement')
 AwsIdentityAndAccessManagementGroup('aws_identity_and_access_management', 'Aws Identity And Access Management', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIdentityAndAccessManagement element
 include('aws-20210131/Architecture/SecurityIdentityCompliance/AwsIdentityAndAccessManagement')
 AwsIdentityAndAccessManagementGroup('aws_identity_and_access_management', 'Aws Identity And Access Management', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

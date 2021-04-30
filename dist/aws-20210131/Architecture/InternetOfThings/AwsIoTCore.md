@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTCore element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTCore')
 AwsIoTCoreGroup('aws_io_t_core', 'Aws Io T Core', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTCore element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTCore')
 AwsIoTCoreGroup('aws_io_t_core', 'Aws Io T Core', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

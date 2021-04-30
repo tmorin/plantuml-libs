@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcNetworkAccessControlList element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList')
 AmazonVpcNetworkAccessControlListGroup('amazon_vpc_network_access_control_list', 'Amazon Vpc Network Access Control List', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcNetworkAccessControlList element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList')
 AmazonVpcNetworkAccessControlListGroup('amazon_vpc_network_access_control_list', 'Amazon Vpc Network Access Control List', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

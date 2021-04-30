@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcElasticNetworkAdapter element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkAdapter')
 AmazonVpcElasticNetworkAdapterGroup('amazon_vpc_elastic_network_adapter', 'Amazon Vpc Elastic Network Adapter', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

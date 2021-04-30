@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2I3EnInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2I3EnInstance')
 AmazonEc2I3EnInstanceGroup('amazon_ec_2_i_3_en_instance', 'Amazon Ec2 I3 En Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsOpsWorksResources element
 include('aws-20210131/Resource/ManagementGovernance/AwsOpsWorksResources')
 AwsOpsWorksResourcesGroup('aws_ops_works_resources', 'Aws Ops Works Resources', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsOpsWorksResources element
 include('aws-20210131/Resource/ManagementGovernance/AwsOpsWorksResources')
 AwsOpsWorksResourcesGroup('aws_ops_works_resources', 'Aws Ops Works Resources', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

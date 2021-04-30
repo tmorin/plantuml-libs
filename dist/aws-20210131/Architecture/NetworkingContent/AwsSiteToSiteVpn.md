@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSiteToSiteVpn element
 include('aws-20210131/Architecture/NetworkingContent/AwsSiteToSiteVpn')
 AwsSiteToSiteVpnGroup('aws_site_to_site_vpn', 'Aws Site To Site Vpn', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSiteToSiteVpn element
 include('aws-20210131/Architecture/NetworkingContent/AwsSiteToSiteVpn')
 AwsSiteToSiteVpnGroup('aws_site_to_site_vpn', 'Aws Site To Site Vpn', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

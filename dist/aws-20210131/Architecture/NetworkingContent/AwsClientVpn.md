@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsClientVpn element
 include('aws-20210131/Architecture/NetworkingContent/AwsClientVpn')
 AwsClientVpnGroup('aws_client_vpn', 'Aws Client Vpn', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsClientVpn element
 include('aws-20210131/Architecture/NetworkingContent/AwsClientVpn')
 AwsClientVpnGroup('aws_client_vpn', 'Aws Client Vpn', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

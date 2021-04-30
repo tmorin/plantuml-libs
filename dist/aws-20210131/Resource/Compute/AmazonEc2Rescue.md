@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2Rescue element
 include('aws-20210131/Resource/Compute/AmazonEc2Rescue')
 AmazonEc2RescueGroup('amazon_ec_2_rescue', 'Amazon Ec2 Rescue', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2Rescue element
 include('aws-20210131/Resource/Compute/AmazonEc2Rescue')
 AmazonEc2RescueGroup('amazon_ec_2_rescue', 'Amazon Ec2 Rescue', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

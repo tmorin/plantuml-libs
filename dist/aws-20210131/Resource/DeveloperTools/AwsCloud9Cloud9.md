@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloud9Cloud9 element
 include('aws-20210131/Resource/DeveloperTools/AwsCloud9Cloud9')
 AwsCloud9Cloud9Group('aws_cloud_9_cloud_9', 'Aws Cloud9 Cloud9', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloud9Cloud9 element
 include('aws-20210131/Resource/DeveloperTools/AwsCloud9Cloud9')
 AwsCloud9Cloud9Group('aws_cloud_9_cloud_9', 'Aws Cloud9 Cloud9', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

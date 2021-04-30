@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTTopic element
 include('aws-20210131/Resource/LoT/IoTTopic')
 IoTTopicGroup('io_t_topic', 'Io T Topic', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTTopic element
 include('aws-20210131/Resource/LoT/IoTTopic')
 IoTTopicGroup('io_t_topic', 'Io T Topic', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

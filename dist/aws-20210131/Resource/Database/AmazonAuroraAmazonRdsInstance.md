@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraAmazonRdsInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraAmazonRdsInstance')
 AmazonAuroraAmazonRdsInstanceGroup('amazon_aurora_amazon_rds_instance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonAuroraAmazonRdsInstance element
 include('aws-20210131/Resource/Database/AmazonAuroraAmazonRdsInstance')
 AmazonAuroraAmazonRdsInstanceGroup('amazon_aurora_amazon_rds_instance', 'Amazon Aurora Amazon Rds Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

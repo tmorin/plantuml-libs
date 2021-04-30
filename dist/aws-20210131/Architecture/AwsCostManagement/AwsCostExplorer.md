@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCostExplorer element
 include('aws-20210131/Architecture/AwsCostManagement/AwsCostExplorer')
 AwsCostExplorerGroup('aws_cost_explorer', 'Aws Cost Explorer', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCostExplorer element
 include('aws-20210131/Architecture/AwsCostManagement/AwsCostExplorer')
 AwsCostExplorerGroup('aws_cost_explorer', 'Aws Cost Explorer', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

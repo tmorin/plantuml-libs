@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsAppConfig element
 include('aws-20210131/Architecture/ManagementGovernance/AwsAppConfig')
 AwsAppConfigGroup('aws_app_config', 'Aws App Config', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsAppConfig element
 include('aws-20210131/Architecture/ManagementGovernance/AwsAppConfig')
 AwsAppConfigGroup('aws_app_config', 'Aws App Config', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

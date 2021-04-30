@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudMapNamespace element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace')
 AwsCloudMapNamespaceGroup('aws_cloud_map_namespace', 'Aws Cloud Map Namespace', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsCloudMapNamespace element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace')
 AwsCloudMapNamespaceGroup('aws_cloud_map_namespace', 'Aws Cloud Map Namespace', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupVpc')
 include('aws-20210131/bootstrap')
 ' loads the GroupVpc element
 include('aws-20210131/Group/GroupVpc')
-GroupVpc('group_vpc', 'Group Vpc', 'an optional tech field')
+GroupVpc('group_vpc', 'Group Vpc', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupVpc('group_vpc', 'Group Vpc', 'an optional tech field')
 include('aws-20210131/bootstrap')
 ' loads the GroupVpc element
 include('aws-20210131/Group/GroupVpc')
-GroupVpc('group_vpc', 'Group Vpc', 'an optional tech field')
+GroupVpc('group_vpc', 'Group Vpc', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

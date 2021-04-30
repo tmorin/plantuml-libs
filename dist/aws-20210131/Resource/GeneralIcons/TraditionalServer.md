@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the TraditionalServer element
 include('aws-20210131/Resource/GeneralIcons/TraditionalServer')
 TraditionalServerGroup('traditional_server', 'Traditional Server', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the TraditionalServer element
 include('aws-20210131/Resource/GeneralIcons/TraditionalServer')
 TraditionalServerGroup('traditional_server', 'Traditional Server', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

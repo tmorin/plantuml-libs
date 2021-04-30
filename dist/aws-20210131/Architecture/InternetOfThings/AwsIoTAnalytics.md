@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalytics element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTAnalytics')
 AwsIoTAnalyticsGroup('aws_io_t_analytics', 'Aws Io T Analytics', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalytics element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoTAnalytics')
 AwsIoTAnalyticsGroup('aws_io_t_analytics', 'Aws Io T Analytics', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

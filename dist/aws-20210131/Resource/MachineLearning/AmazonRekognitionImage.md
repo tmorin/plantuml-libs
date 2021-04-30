@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRekognitionImage element
 include('aws-20210131/Resource/MachineLearning/AmazonRekognitionImage')
 AmazonRekognitionImageGroup('amazon_rekognition_image', 'Amazon Rekognition Image', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRekognitionImage element
 include('aws-20210131/Resource/MachineLearning/AmazonRekognitionImage')
 AmazonRekognitionImageGroup('amazon_rekognition_image', 'Amazon Rekognition Image', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

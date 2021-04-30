@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonLookoutForVision element
 include('aws-20210131/Architecture/MachineLearning/AmazonLookoutForVision')
 AmazonLookoutForVisionGroup('amazon_lookout_for_vision', 'Amazon Lookout For Vision', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonLookoutForVision element
 include('aws-20210131/Architecture/MachineLearning/AmazonLookoutForVision')
 AmazonLookoutForVisionGroup('amazon_lookout_for_vision', 'Amazon Lookout For Vision', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

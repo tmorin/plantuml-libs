@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeCustomEventBus element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus')
 AmazonEventBridgeCustomEventBusGroup('amazon_event_bridge_custom_event_bus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeCustomEventBus element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus')
 AmazonEventBridgeCustomEventBusGroup('amazon_event_bridge_custom_event_bus', 'Amazon Event Bridge Custom Event Bus', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

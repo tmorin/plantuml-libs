@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupServerContents')
 include('aws-20210131/bootstrap')
 ' loads the GroupServerContents element
 include('aws-20210131/Group/GroupServerContents')
-GroupServerContents('group_server_contents', 'Group Server Contents', 'an optional tech field')
+GroupServerContents('group_server_contents', 'Group Server Contents', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupServerContents('group_server_contents', 'Group Server Contents', 'an option
 include('aws-20210131/bootstrap')
 ' loads the GroupServerContents element
 include('aws-20210131/Group/GroupServerContents')
-GroupServerContents('group_server_contents', 'Group Server Contents', 'an optional tech field')
+GroupServerContents('group_server_contents', 'Group Server Contents', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

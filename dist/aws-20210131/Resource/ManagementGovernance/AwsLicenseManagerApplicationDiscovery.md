@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLicenseManagerApplicationDiscovery element
 include('aws-20210131/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery')
 AwsLicenseManagerApplicationDiscoveryGroup('aws_license_manager_application_discovery', 'Aws License Manager Application Discovery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLicenseManagerApplicationDiscovery element
 include('aws-20210131/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery')
 AwsLicenseManagerApplicationDiscoveryGroup('aws_license_manager_application_discovery', 'Aws License Manager Application Discovery', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

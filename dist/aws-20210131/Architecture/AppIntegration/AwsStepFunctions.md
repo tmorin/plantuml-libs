@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsStepFunctions element
 include('aws-20210131/Architecture/AppIntegration/AwsStepFunctions')
 AwsStepFunctionsGroup('aws_step_functions', 'Aws Step Functions', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsStepFunctions element
 include('aws-20210131/Architecture/AppIntegration/AwsStepFunctions')
 AwsStepFunctionsGroup('aws_step_functions', 'Aws Step Functions', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

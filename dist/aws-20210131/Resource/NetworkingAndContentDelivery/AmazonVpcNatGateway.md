@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcNatGateway element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway')
 AmazonVpcNatGatewayGroup('amazon_vpc_nat_gateway', 'Amazon Vpc Nat Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcNatGateway element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway')
 AmazonVpcNatGatewayGroup('amazon_vpc_nat_gateway', 'Amazon Vpc Nat Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

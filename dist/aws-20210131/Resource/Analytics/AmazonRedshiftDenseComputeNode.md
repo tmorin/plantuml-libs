@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRedshiftDenseComputeNode element
 include('aws-20210131/Resource/Analytics/AmazonRedshiftDenseComputeNode')
 AmazonRedshiftDenseComputeNodeGroup('amazon_redshift_dense_compute_node', 'Amazon Redshift Dense Compute Node', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonRedshiftDenseComputeNode element
 include('aws-20210131/Resource/Analytics/AmazonRedshiftDenseComputeNode')
 AmazonRedshiftDenseComputeNodeGroup('amazon_redshift_dense_compute_node', 'Amazon Redshift Dense Compute Node', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

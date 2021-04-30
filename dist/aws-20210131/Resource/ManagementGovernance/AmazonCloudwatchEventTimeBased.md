@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudwatchEventTimeBased element
 include('aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchEventTimeBased')
 AmazonCloudwatchEventTimeBasedGroup('amazon_cloudwatch_event_time_based', 'Amazon Cloudwatch Event Time Based', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonCloudwatchEventTimeBased element
 include('aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchEventTimeBased')
 AmazonCloudwatchEventTimeBasedGroup('amazon_cloudwatch_event_time_based', 'Amazon Cloudwatch Event Time Based', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

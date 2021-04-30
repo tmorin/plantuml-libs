@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceBucketWithObjects element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceBucketWithObjects')
 AmazonSimpleStorageServiceBucketWithObjectsGroup('amazon_simple_storage_service_bucket_with_objects', 'Amazon Simple Storage Service Bucket With Objects', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSimpleStorageServiceBucketWithObjects element
 include('aws-20210131/Resource/Storage/AmazonSimpleStorageServiceBucketWithObjects')
 AmazonSimpleStorageServiceBucketWithObjectsGroup('amazon_simple_storage_service_bucket_with_objects', 'Amazon Simple Storage Service Bucket With Objects', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

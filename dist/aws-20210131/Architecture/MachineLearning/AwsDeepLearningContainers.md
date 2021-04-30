@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDeepLearningContainers element
 include('aws-20210131/Architecture/MachineLearning/AwsDeepLearningContainers')
 AwsDeepLearningContainersGroup('aws_deep_learning_containers', 'Aws Deep Learning Containers', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsDeepLearningContainers element
 include('aws-20210131/Architecture/MachineLearning/AwsDeepLearningContainers')
 AwsDeepLearningContainersGroup('aws_deep_learning_containers', 'Aws Deep Learning Containers', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

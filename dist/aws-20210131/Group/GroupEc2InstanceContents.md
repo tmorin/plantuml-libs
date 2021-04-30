@@ -26,7 +26,11 @@ include('aws-20210131/Group/GroupEc2InstanceContents')
 include('aws-20210131/bootstrap')
 ' loads the GroupEc2InstanceContents element
 include('aws-20210131/Group/GroupEc2InstanceContents')
-GroupEc2InstanceContents('group_ec_2_instance_contents', 'Group Ec2 Instance Contents', 'an optional tech field')
+GroupEc2InstanceContents('group_ec_2_instance_contents', 'Group Ec2 Instance Contents', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 ### Load locally
@@ -41,7 +45,11 @@ GroupEc2InstanceContents('group_ec_2_instance_contents', 'Group Ec2 Instance Con
 include('aws-20210131/bootstrap')
 ' loads the GroupEc2InstanceContents element
 include('aws-20210131/Group/GroupEc2InstanceContents')
-GroupEc2InstanceContents('group_ec_2_instance_contents', 'Group Ec2 Instance Contents', 'an optional tech field')
+GroupEc2InstanceContents('group_ec_2_instance_contents', 'Group Ec2 Instance Contents', 'an optional tech field') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml
 ```
 

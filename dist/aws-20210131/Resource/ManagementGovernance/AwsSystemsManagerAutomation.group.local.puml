@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerAutomation element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerAutomation')
 AwsSystemsManagerAutomationGroup('aws_systems_manager_automation', 'Aws Systems Manager Automation', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

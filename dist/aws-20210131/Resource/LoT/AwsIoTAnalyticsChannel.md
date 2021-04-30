@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsChannel element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsChannel')
 AwsIoTAnalyticsChannelGroup('aws_io_t_analytics_channel', 'Aws Io T Analytics Channel', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoTAnalyticsChannel element
 include('aws-20210131/Resource/LoT/AwsIoTAnalyticsChannel')
 AwsIoTAnalyticsChannelGroup('aws_io_t_analytics_channel', 'Aws Io T Analytics Channel', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

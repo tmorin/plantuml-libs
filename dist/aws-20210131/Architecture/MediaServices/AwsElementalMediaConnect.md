@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsElementalMediaConnect element
 include('aws-20210131/Architecture/MediaServices/AwsElementalMediaConnect')
 AwsElementalMediaConnectGroup('aws_elemental_media_connect', 'Aws Elemental Media Connect', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsElementalMediaConnect element
 include('aws-20210131/Architecture/MediaServices/AwsElementalMediaConnect')
 AwsElementalMediaConnectGroup('aws_elemental_media_connect', 'Aws Elemental Media Connect', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

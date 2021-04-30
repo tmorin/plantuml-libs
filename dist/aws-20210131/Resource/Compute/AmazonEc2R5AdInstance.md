@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2R5AdInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2R5AdInstance')
 AmazonEc2R5AdInstanceGroup('amazon_ec_2_r_5_ad_instance', 'Amazon Ec2 R5 Ad Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2R5AdInstance element
 include('aws-20210131/Resource/Compute/AmazonEc2R5AdInstance')
 AmazonEc2R5AdInstanceGroup('amazon_ec_2_r_5_ad_instance', 'Amazon Ec2 R5 Ad Instance', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

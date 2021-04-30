@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonLookoutForEquipment element
 include('aws-20210131/Architecture/MachineLearning/AmazonLookoutForEquipment')
 AmazonLookoutForEquipmentGroup('amazon_lookout_for_equipment', 'Amazon Lookout For Equipment', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

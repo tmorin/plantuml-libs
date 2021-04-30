@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTPolicy element
 include('aws-20210131/Resource/LoT/IoTPolicy')
 IoTPolicyGroup('io_t_policy', 'Io T Policy', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTPolicy element
 include('aws-20210131/Resource/LoT/IoTPolicy')
 IoTPolicyGroup('io_t_policy', 'Io T Policy', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

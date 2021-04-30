@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsThinkBoxStoke element
 include('aws-20210131/Architecture/Compute/AwsThinkBoxStoke')
 AwsThinkBoxStokeGroup('aws_think_box_stoke', 'Aws Think Box Stoke', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsThinkBoxStoke element
 include('aws-20210131/Architecture/Compute/AwsThinkBoxStoke')
 AwsThinkBoxStokeGroup('aws_think_box_stoke', 'Aws Think Box Stoke', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -1,11 +1,11 @@
 @startuml
-sprite $InternetAlt1Md [14x14/16z] XKx50G0X3Aid-ozyX_EaxeqyI4rlaYZKJWAZ4ZOoZB5Awcf5fedJnI5A0gpcBRstMzxMlBpwj7c_KTxlBqBstviU67y
-sprite $InternetAlt1Lg [20x20/16z] {
-jOxL5G8m34KRJzvX_tNhs3_SIbpQFv2i2lvo6PHeVkqDWvOWg4cxf1sfZu1V7zwTwEXKjLfcPiYKExFcnnK-gLYTOfghaqT6fE_9nL9BQdYcdm4b3NIS97x7
-x8LbmfCb3RPIyiqP_ci6
+sprite $AwsCloudMd [14x14/16z] bOm35e104433MFU_RTPJjN_CR23y6OLOb8n8OgcK5f04TIaCc0GOqaPVPsA-2gypzrh8gc1PNZ6ocYcJI2uummZ87f4hjRiFPW
+sprite $AwsCloudLg [20x20/16z] {
+fSm5OaGX30JG8Z4om_sFs_3hBljm8hmHFhbkylqrVJ69ca1T3wYEcEbjguegU23hwjRNZEwyvB1fCTLKc7CaYmzEOPEySooCO868EIse2Pd60cw-m5fdTt_-
+tTlrQWWR4ecwPAY4WcMdjDRweSZ5fuxBpJphyjekV0_yiti
 }
 !procedure GroupAwsCloud($id, $name='Group Aws Cloud', $tech='')
-  IconGroup($id, 'GroupAwsCloud', '<$InternetAlt1Lg>', $name, $tech)
+  IconGroup($id, 'GroupAwsCloud', '<$AwsCloudLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupAwsCloud>> {
   StereotypeFontColor $AWS_COLOR_DARK_BLUE

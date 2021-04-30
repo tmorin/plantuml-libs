@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcRouter element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcRouter')
 AmazonVpcRouterGroup('amazon_vpc_router', 'Amazon Vpc Router', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcRouter element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcRouter')
 AmazonVpcRouterGroup('amazon_vpc_router', 'Amazon Vpc Router', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

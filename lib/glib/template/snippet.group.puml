@@ -23,5 +23,9 @@ include('{{= it.config.pkgName }}/style')
 
 ' loads the {{= it.entry.element.name }} element
 include('{{= it.entry.element.urn }}')
-{{= it.entry.element.name }}('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.technical }}')
+{{= it.entry.element.name }}('{{= it.elementId }}', '{{= it.entry.element.label }}', '{{= it.text.technical }}') {
+  note as note
+  the content of the group
+  end note
+}
 @enduml

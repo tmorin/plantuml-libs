@@ -9,8 +9,8 @@ include('aws-20210131/bootstrap')
 ' loads the AwsWellArchitectedTool element
 include('aws-20210131/Architecture/ManagementGovernance/AwsWellArchitectedTool')
 AwsWellArchitectedToolGroup('aws_well_architected_tool', 'Aws Well Architected Tool', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonSagemakerTrain element
 include('aws-20210131/Resource/MachineLearning/AmazonSagemakerTrain')
 AmazonSagemakerTrainGroup('amazon_sagemaker_train', 'Amazon Sagemaker Train', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

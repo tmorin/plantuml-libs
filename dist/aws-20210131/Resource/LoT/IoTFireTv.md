@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTFireTv element
 include('aws-20210131/Resource/LoT/IoTFireTv')
 IoTFireTvGroup('io_t_fire_tv', 'Io T Fire Tv', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the IoTFireTv element
 include('aws-20210131/Resource/LoT/IoTFireTv')
 IoTFireTvGroup('io_t_fire_tv', 'Io T Fire Tv', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

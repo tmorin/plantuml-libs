@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoT1Click element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoT1Click')
 AwsIoT1ClickGroup('aws_io_t_1_click', 'Aws Io T1 Click', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsIoT1Click element
 include('aws-20210131/Architecture/InternetOfThings/AwsIoT1Click')
 AwsIoT1ClickGroup('aws_io_t_1_click', 'Aws Io T1 Click', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

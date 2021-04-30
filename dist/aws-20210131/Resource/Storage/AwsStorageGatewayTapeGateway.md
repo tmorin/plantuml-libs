@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsStorageGatewayTapeGateway element
 include('aws-20210131/Resource/Storage/AwsStorageGatewayTapeGateway')
 AwsStorageGatewayTapeGatewayGroup('aws_storage_gateway_tape_gateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsStorageGatewayTapeGateway element
 include('aws-20210131/Resource/Storage/AwsStorageGatewayTapeGateway')
 AwsStorageGatewayTapeGatewayGroup('aws_storage_gateway_tape_gateway', 'Aws Storage Gateway Tape Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

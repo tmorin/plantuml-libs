@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcCustomerGateway element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway')
 AmazonVpcCustomerGatewayGroup('amazon_vpc_customer_gateway', 'Amazon Vpc Customer Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcCustomerGateway element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcCustomerGateway')
 AmazonVpcCustomerGatewayGroup('amazon_vpc_customer_gateway', 'Amazon Vpc Customer Gateway', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

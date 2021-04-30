@@ -1,6 +1,6 @@
 # Resource
 
-The module Resource contains 349 entries.
+The module Resource contains 363 entries.
 
 - [Analytics](#family-analytics)
 - [ApplicationIntegration](#family-applicationintegration)
@@ -11,6 +11,7 @@ The module Resource contains 349 entries.
 - [Database](#family-database)
 - [DeveloperTools](#family-developertools)
 - [GeneralIcons](#family-generalicons)
+- [GroupIcons](#family-groupicons)
 - [LoT](#family-lot)
 - [MachineLearning](#family-machinelearning)
 - [ManagementGovernance](#family-managementgovernance)
@@ -213,6 +214,7 @@ The module Resource contains 349 entries.
 |![Email](../aws-20210131/Resource/GeneralIcons/Email.element.png)|[aws-20210131/Resource/GeneralIcons/Email](../aws-20210131/Resource/GeneralIcons/Email.md)
 |![Firewall](../aws-20210131/Resource/GeneralIcons/Firewall.element.png)|[aws-20210131/Resource/GeneralIcons/Firewall](../aws-20210131/Resource/GeneralIcons/Firewall.md)
 |![Forums](../aws-20210131/Resource/GeneralIcons/Forums.element.png)|[aws-20210131/Resource/GeneralIcons/Forums](../aws-20210131/Resource/GeneralIcons/Forums.md)
+|![General](../aws-20210131/Resource/GeneralIcons/General.element.png)|[aws-20210131/Resource/GeneralIcons/General](../aws-20210131/Resource/GeneralIcons/General.md)
 |![GenericDatabase](../aws-20210131/Resource/GeneralIcons/GenericDatabase.element.png)|[aws-20210131/Resource/GeneralIcons/GenericDatabase](../aws-20210131/Resource/GeneralIcons/GenericDatabase.md)
 |![Internet](../aws-20210131/Resource/GeneralIcons/Internet.element.png)|[aws-20210131/Resource/GeneralIcons/Internet](../aws-20210131/Resource/GeneralIcons/Internet.md)
 |![InternetAlt1](../aws-20210131/Resource/GeneralIcons/InternetAlt1.element.png)|[aws-20210131/Resource/GeneralIcons/InternetAlt1](../aws-20210131/Resource/GeneralIcons/InternetAlt1.md)
@@ -228,6 +230,25 @@ The module Resource contains 349 entries.
 |![TraditionalServer](../aws-20210131/Resource/GeneralIcons/TraditionalServer.element.png)|[aws-20210131/Resource/GeneralIcons/TraditionalServer](../aws-20210131/Resource/GeneralIcons/TraditionalServer.md)
 |![User](../aws-20210131/Resource/GeneralIcons/User.element.png)|[aws-20210131/Resource/GeneralIcons/User](../aws-20210131/Resource/GeneralIcons/User.md)
 |![Users](../aws-20210131/Resource/GeneralIcons/Users.element.png)|[aws-20210131/Resource/GeneralIcons/Users](../aws-20210131/Resource/GeneralIcons/Users.md)
+
+<span id="family-groupicons"></span>
+## GroupIcons
+
+| |Name|
+|:---:|---|
+|![AutoScaling](../aws-20210131/Resource/GroupIcons/AutoScaling.element.png)|[aws-20210131/Resource/GroupIcons/AutoScaling](../aws-20210131/Resource/GroupIcons/AutoScaling.md)
+|![AwsCloud](../aws-20210131/Resource/GroupIcons/AwsCloud.element.png)|[aws-20210131/Resource/GroupIcons/AwsCloud](../aws-20210131/Resource/GroupIcons/AwsCloud.md)
+|![AwsStepFunction](../aws-20210131/Resource/GroupIcons/AwsStepFunction.element.png)|[aws-20210131/Resource/GroupIcons/AwsStepFunction](../aws-20210131/Resource/GroupIcons/AwsStepFunction.md)
+|![Cloud](../aws-20210131/Resource/GroupIcons/Cloud.element.png)|[aws-20210131/Resource/GroupIcons/Cloud](../aws-20210131/Resource/GroupIcons/Cloud.md)
+|![CorporateDataCenter](../aws-20210131/Resource/GroupIcons/CorporateDataCenter.element.png)|[aws-20210131/Resource/GroupIcons/CorporateDataCenter](../aws-20210131/Resource/GroupIcons/CorporateDataCenter.md)
+|![Ec2InstanceContainer](../aws-20210131/Resource/GroupIcons/Ec2InstanceContainer.element.png)|[aws-20210131/Resource/GroupIcons/Ec2InstanceContainer](../aws-20210131/Resource/GroupIcons/Ec2InstanceContainer.md)
+|![ElasticBeanstalkContainer](../aws-20210131/Resource/GroupIcons/ElasticBeanstalkContainer.element.png)|[aws-20210131/Resource/GroupIcons/ElasticBeanstalkContainer](../aws-20210131/Resource/GroupIcons/ElasticBeanstalkContainer.md)
+|![Region](../aws-20210131/Resource/GroupIcons/Region.element.png)|[aws-20210131/Resource/GroupIcons/Region](../aws-20210131/Resource/GroupIcons/Region.md)
+|![ServerContents](../aws-20210131/Resource/GroupIcons/ServerContents.element.png)|[aws-20210131/Resource/GroupIcons/ServerContents](../aws-20210131/Resource/GroupIcons/ServerContents.md)
+|![SpotFleet](../aws-20210131/Resource/GroupIcons/SpotFleet.element.png)|[aws-20210131/Resource/GroupIcons/SpotFleet](../aws-20210131/Resource/GroupIcons/SpotFleet.md)
+|![Vpc](../aws-20210131/Resource/GroupIcons/Vpc.element.png)|[aws-20210131/Resource/GroupIcons/Vpc](../aws-20210131/Resource/GroupIcons/Vpc.md)
+|![VpcSubnetPrivate](../aws-20210131/Resource/GroupIcons/VpcSubnetPrivate.element.png)|[aws-20210131/Resource/GroupIcons/VpcSubnetPrivate](../aws-20210131/Resource/GroupIcons/VpcSubnetPrivate.md)
+|![VpcSubnetPublic](../aws-20210131/Resource/GroupIcons/VpcSubnetPublic.element.png)|[aws-20210131/Resource/GroupIcons/VpcSubnetPublic](../aws-20210131/Resource/GroupIcons/VpcSubnetPublic.md)
 
 <span id="family-lot"></span>
 ## LoT

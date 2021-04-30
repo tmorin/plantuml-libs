@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceContainer3 element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceContainer3')
 AmazonElasticContainerServiceContainer3Group('amazon_elastic_container_service_container_3', 'Amazon Elastic Container Service Container3', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonElasticContainerServiceContainer3 element
 include('aws-20210131/Resource/Containers/AmazonElasticContainerServiceContainer3')
 AmazonElasticContainerServiceContainer3Group('amazon_elastic_container_service_container_3', 'Amazon Elastic Container Service Container3', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

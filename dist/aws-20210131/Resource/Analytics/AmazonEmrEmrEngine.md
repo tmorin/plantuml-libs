@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEmrEmrEngine element
 include('aws-20210131/Resource/Analytics/AmazonEmrEmrEngine')
 AmazonEmrEmrEngineGroup('amazon_emr_emr_engine', 'Amazon Emr Emr Engine', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEmrEmrEngine element
 include('aws-20210131/Resource/Analytics/AmazonEmrEmrEngine')
 AmazonEmrEmrEngineGroup('amazon_emr_emr_engine', 'Amazon Emr Emr Engine', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

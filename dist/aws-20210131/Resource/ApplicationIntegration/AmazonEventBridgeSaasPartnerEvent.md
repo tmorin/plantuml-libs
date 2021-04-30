@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeSaasPartnerEvent element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent')
 AmazonEventBridgeSaasPartnerEventGroup('amazon_event_bridge_saas_partner_event', 'Amazon Event Bridge Saas Partner Event', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEventBridgeSaasPartnerEvent element
 include('aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeSaasPartnerEvent')
 AmazonEventBridgeSaasPartnerEventGroup('amazon_event_bridge_saas_partner_event', 'Amazon Event Bridge Saas Partner Event', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

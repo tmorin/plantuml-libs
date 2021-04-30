@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLicenseManagerLicenseBlending element
 include('aws-20210131/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending')
 AwsLicenseManagerLicenseBlendingGroup('aws_license_manager_license_blending', 'Aws License Manager License Blending', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsLicenseManagerLicenseBlending element
 include('aws-20210131/Resource/ManagementGovernance/AwsLicenseManagerLicenseBlending')
 AwsLicenseManagerLicenseBlendingGroup('aws_license_manager_license_blending', 'Aws License Manager License Blending', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonS3OnOutpostsStorage element
 include('aws-20210131/Architecture/Storage/AmazonS3OnOutpostsStorage')
 AmazonS3OnOutpostsStorageGroup('amazon_s_3_on_outposts_storage', 'Amazon S3 On Outposts Storage', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonS3OnOutpostsStorage element
 include('aws-20210131/Architecture/Storage/AmazonS3OnOutpostsStorage')
 AmazonS3OnOutpostsStorageGroup('amazon_s_3_on_outposts_storage', 'Amazon S3 On Outposts Storage', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

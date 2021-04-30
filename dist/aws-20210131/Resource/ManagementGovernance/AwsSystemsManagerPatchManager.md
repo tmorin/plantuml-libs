@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerPatchManager element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerPatchManager')
 AwsSystemsManagerPatchManagerGroup('aws_systems_manager_patch_manager', 'Aws Systems Manager Patch Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerPatchManager element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerPatchManager')
 AwsSystemsManagerPatchManagerGroup('aws_systems_manager_patch_manager', 'Aws Systems Manager Patch Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

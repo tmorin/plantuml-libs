@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonPinpointJourney element
 include('aws-20210131/Resource/CustomerEngagement/AmazonPinpointJourney')
 AmazonPinpointJourneyGroup('amazon_pinpoint_journey', 'Amazon Pinpoint Journey', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonPinpointJourney element
 include('aws-20210131/Resource/CustomerEngagement/AmazonPinpointJourney')
 AmazonPinpointJourneyGroup('amazon_pinpoint_journey', 'Amazon Pinpoint Journey', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

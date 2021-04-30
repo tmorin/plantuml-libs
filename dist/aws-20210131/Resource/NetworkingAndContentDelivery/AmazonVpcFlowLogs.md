@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcFlowLogs element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs')
 AmazonVpcFlowLogsGroup('amazon_vpc_flow_logs', 'Amazon Vpc Flow Logs', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonVpcFlowLogs element
 include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs')
 AmazonVpcFlowLogsGroup('amazon_vpc_flow_logs', 'Amazon Vpc Flow Logs', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

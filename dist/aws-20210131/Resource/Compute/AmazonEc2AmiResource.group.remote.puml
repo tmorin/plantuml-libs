@@ -8,8 +8,8 @@ include('aws-20210131/bootstrap')
 ' loads the AmazonEc2AmiResource element
 include('aws-20210131/Resource/Compute/AmazonEc2AmiResource')
 AmazonEc2AmiResourceGroup('amazon_ec_2_ami_resource', 'Amazon Ec2 Ami Resource', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml

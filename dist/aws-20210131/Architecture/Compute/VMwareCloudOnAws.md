@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the VMwareCloudOnAws element
 include('aws-20210131/Architecture/Compute/VMwareCloudOnAws')
 VMwareCloudOnAwsGroup('v_mware_cloud_on_aws', 'V Mware Cloud On Aws', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the VMwareCloudOnAws element
 include('aws-20210131/Architecture/Compute/VMwareCloudOnAws')
 VMwareCloudOnAwsGroup('v_mware_cloud_on_aws', 'V Mware Cloud On Aws', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

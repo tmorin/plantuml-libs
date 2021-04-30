@@ -1,11 +1,11 @@
 @startuml
-sprite $OfficeBuildingMd [14x14/16z] VOw50G0n20En1Bh_mEyklIeUcGa0icCLA3yiCk6d0PAs6eskvco-LX7CQQzMsWBF695xJAU8wZrMdLXk5YOERLm0LMG4
-sprite $OfficeBuildingLg [20x20/16z] {
-XOy7aWKX24I11cncxt_VDTJ4dzhygfwAh2XwL6xPYkJV3MefeCITWULt9fqHj1C4MHPXBERnG3f4LU2nwIws95ZUil5WuJ7SlfpCkZYxri7OrbyQUJ27gxlr
-vUgQg7NL3fV3hUxouS8DG1qCsktHVxZXQH6u_dbhkUUe5ta4qlCF
+sprite $CorporateDataCenterMd [14x14/16z] TOwt0O1G508h3jn_OBF-VDMBm3QIaz89L3eIgftzxonivAU3n87I9R3ShJe1Y1AiHAiu
+sprite $CorporateDataCenterLg [20x20/16z] {
+bL3L0KLH2FfGGlRVztN73KxQoko3TOBVTIYSzeTEC_hIaH-wKBQO5nLH4bNWKrVKwBHPJrsR9rteVjLXo41lEizbl-hK8TBhVZ_oZM97htxLkA3hWwbFjl9y
+_k08
 }
 !procedure GroupCorporateDataCenter($id, $name='Group Corporate Data Center', $tech='')
-  IconGroup($id, 'GroupCorporateDataCenter', '<$OfficeBuildingLg>', $name, $tech)
+  IconGroup($id, 'GroupCorporateDataCenter', '<$CorporateDataCenterLg>', $name, $tech)
 !endprocedure
 skinparam Rectangle<<GroupCorporateDataCenter>> {
   StereotypeFontColor $AWS_COLOR_GREY

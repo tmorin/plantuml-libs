@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerStateManager element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerStateManager')
 AwsSystemsManagerStateManagerGroup('aws_systems_manager_state_manager', 'Aws Systems Manager State Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsSystemsManagerStateManager element
 include('aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerStateManager')
 AwsSystemsManagerStateManagerGroup('aws_systems_manager_state_manager', 'Aws Systems Manager State Manager', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```

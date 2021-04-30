@@ -91,9 +91,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsFaultInjectionSimulator element
 include('aws-20210131/Architecture/ManagementGovernance/AwsFaultInjectionSimulator')
 AwsFaultInjectionSimulatorGroup('aws_fault_injection_simulator', 'Aws Fault Injection Simulator', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
@@ -110,9 +110,9 @@ include('aws-20210131/bootstrap')
 ' loads the AwsFaultInjectionSimulator element
 include('aws-20210131/Architecture/ManagementGovernance/AwsFaultInjectionSimulator')
 AwsFaultInjectionSimulatorGroup('aws_fault_injection_simulator', 'Aws Fault Injection Simulator', 'an optional tech field'){
-note as note
-the content of the group
-end note
+  note as note
+  the content of the group
+  end note
 }
 @enduml
 ```
