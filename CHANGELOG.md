@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/tmorin/plantuml-libs/compare/v3.0.0...v3.1.0) (2021-04-30)
+
+
+### Features
+
+* **aws-20210131:** import some legacy icons as additional entries ([ad30cef](https://github.com/tmorin/plantuml-libs/commit/ad30cefc0085f81cf4a8e6d22c476c24f4910ad5))
+
 ## [3.0.0](https://github.com/tmorin/plantuml-libs/compare/v2.13.0...v3.0.0) (2021-04-29)
 
 
