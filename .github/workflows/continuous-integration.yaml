@@ -1,6 +1,16 @@
 name: Continous Integration
 
-on: [ push, pull_request ]
+#on: [ push, pull_request ]
+
+on:
+  workflow_dispatch:
+    inputs:
+      pkgName:
+        description: The name of the package.
+        required: true
+      pkgVersion:
+        description: The version of the package.
+        required: false
 
 jobs:
   build:
@@ -8,15 +18,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: "Setup node"
+        uses: actions/setup-node@v1
         with:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
           scope: '@tmorin'
-      - uses: actions/setup-java@v1
-        with:
-          java-version: '11'
-      - name: Cache Node.js modules
+      - name: "Cache Node.js modules"
         uses: actions/cache@v2
         with:
           path: ~/.npm
@@ -24,12 +32,7 @@ jobs:
           restore-keys: |
             ${{ runner.OS }}-node-
             ${{ runner.OS }}-
-      - name: Install dependencies
+      - name: "Install dependencies"
         run: npm ci --no-progress
-      - name: Test package
-        run: npm run test
-      - name: Publish package
-        if: ${{ startsWith(github.ref, 'refs/tags/') }}
-        run: npm publish --tag latest
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: "Test yaml generation"
+        run: npm run generate:yaml

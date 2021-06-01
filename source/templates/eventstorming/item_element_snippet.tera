@@ -1,0 +1,17 @@
+{% extends "item_snippet.tera" %}
+{% block procedures %}
+{%- if data.element_shape == "Custom" %}
+{%- if data.properties.shape == "actor" %}
+{{ data.procedure_name }}('{{ data.variable_name }}', '{{ data.primary_label }}')
+note as note
+{{ data.properties.description }}
+end note
+{%- else %}
+{{ data.procedure_name }}('{{ data.variable_name }}') [
+{{ data.primary_label }}
+--
+{{ data.properties.description }}
+]
+{%- endif %}
+{%- endif %}
+{% endblock procedures %}

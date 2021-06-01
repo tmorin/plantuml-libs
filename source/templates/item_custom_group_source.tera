@@ -1,0 +1,27 @@
+{% extends "item_source.tera" %}
+{% block elements %}
+{% for element in data.elements -%}
+
+{% if element.type == "CustomElement" -%}
+!procedure {{ element.procedure_name }}($id, $name='{{ element.properties.label }}', $tech='')
+  {% if element.properties.sprite_name -%}
+    IconGroupElement($id, '{{ element.procedure_name }}', '<${{ element.properties.sprite_name }}>', $name, $tech)
+  {%- else -%}
+    GroupElement($id, '{{ element.procedure_name }}', $name, $tech)
+  {%- endif %}
+!endprocedure
+{%- endif %}
+
+skinparam Rectangle<<{{ element.procedure_name }}>> {
+  StereotypeFontColor {{ element.properties.front_color }}
+  BorderThickness {{ element.properties.border_thick }}
+  BorderColor {{ element.properties.border_color }}
+  BorderStyle {{ element.properties.border_style }}
+  FontStyle none
+  FontColor {{ element.properties.front_color }}
+  FontSize $FONT_SIZE_MD
+  BackgroundColor {{ element.properties.background_color }}
+  shadowing false
+}
+{% endfor -%}
+{% endblock elements %}

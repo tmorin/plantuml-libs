@@ -1,0 +1,35 @@
+{% extends "package_example.tera" %}
+
+{% block content %}
+
+C4Legend()
+Title("System Landscape diagram for Internet Banking System")
+
+left to right direction
+
+include('c4model/Element/Person')
+include('c4model/Boundary/EnterpriseBoundary')
+include('c4model/Element/System')
+include('c4model/Element/ExternalSystem')
+include('c4model/Element/ExternalPerson')
+
+Person("pbc", "Personal Banking Customer", "A customer of the bank, with personal bank accounts.")
+EnterpriseBoundary("enterprise", "Big Bank pic") {
+    ExternalSystem("atm", "ATM", "Allows customers to withdraw cash.")
+    ExternalPerson("css", "Customer Service Staff", "Customer service staff within the bank.")
+    ExternalPerson("bos", "Back office Staff", "Administration and support staff within the bank.")
+    System("ibs", "Internet Banking System", "Allows customers to view information about their bank accounts, and make payments.")
+    ExternalSystem("mbs", "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+    ExternalSystem("ems", "E-Mail System", "The internal Microsoft Exchange e-email system.")
+}
+
+pbc --> atm : C4Relationship("Withdraw cash using")
+pbc --> css : C4Relationship("Ask question to", "telephone")
+pbc --> ibs : C4Relationship("Views account balance, and makes payments using")
+ibs -left-> ems : C4Relationship("Sends e-mails using")
+ems -up-> pbc: C4Relationship("Sends e-email to")
+ibs --> mbs: C4Relationship("Gets account information from, and makes payments using")
+atm --> mbs : C4Relationship("Uses")
+css --> mbs : C4Relationship("Uses")
+bos -> mbs : C4Relationship("Uses")
+{% endblock content -%}

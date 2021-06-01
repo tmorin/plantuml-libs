@@ -1,8 +1,0 @@
-This package is used to document the project [homecloud](https://github.com/tmorin/homecloud-ansible).
-
-It implements elements based on :
-
-- [Material Design Icons](https://github.com/google/material-design-icons)
-- [Font Awesome](https://fontawesome.com)
-
-Provide the colors and palettes of [Nord Theme](https://www.nordtheme.com).

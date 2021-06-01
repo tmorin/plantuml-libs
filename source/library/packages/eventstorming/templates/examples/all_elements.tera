@@ -1,0 +1,8 @@
+{% extends "package_example.tera" %}
+{% block content %}
+' include elements
+<%= includeClauses.join("\n") %>
+
+' display elements
+<%= procedureClauses.join("\n") %>
+{% endblock content %}

@@ -1,0 +1,6 @@
+{% extends "item_snippet.tera" %}
+{% block procedures %}
+{%- if data.element_shape == "Custom" %}
+{{ data.procedure_name }}('{{ data.variable_name }}', '{{ data.primary_label }}', '{{ data.description_label | default(value="an optional description label") }}', '{{ data.technical_label | default(value="an optional tech label") }}')
+{%- endif %}
+{% endblock procedures %}

@@ -1,0 +1,19 @@
+family,name,description,shape,bg_color,st_font_size,fg_color
+Message,FacadeCommand,A facade command is a public command masking the underlying complexity.,file,#779fae,$FONT_SIZE_SM,$FONT_COLOR
+Message,Command,A command is an intent to mutate the state of the system.,file,#aec6cf,$FONT_SIZE_SM,$FONT_COLOR
+Message,Result,A result provides a feedback about an already processed message.,file,#cfcfc4,$FONT_SIZE_SM,$FONT_COLOR
+Message,Event,An event notifies something happened.,file,#ffb853,$FONT_SIZE_SM,$FONT_COLOR
+Message,DomainEvent,A domain event notifies something significant happened about an aggregate.,file,#ffcb81,$FONT_SIZE_SM,$FONT_COLOR
+Message,IntegrationEvent,An integration event notifies to other systems something happened.,file,#ffdeaf,$FONT_SIZE_SM,$FONT_COLOR
+Message,Query,A query is a wish to get a point of view of the state of the system.,file,#62d862,$FONT_SIZE_SM,$FONT_COLOR
+View,ReadModel,A read model provides the information that needs to be available to take a given decision.,file,#77dd77,$FONT_SIZE_SM,$FONT_COLOR
+View,UserInterface,A user interface helps users to interact with the system.,file,#a2e8a2,$FONT_SIZE_SM,$FONT_COLOR
+Aggregate,Aggregate,An aggregate expresses domain aspects that can be treated as a single unit.,file,#fdfd9d,$FONT_SIZE_SM,$FONT_COLOR
+Aggregate,Service,A service implements domain operations which cannot belong to an aggregate.,file,#fcfc78,$FONT_SIZE_SM,$FONT_COLOR
+Policy,Policy,A policy captures the reactive logic of a process.,file,#b6a2db,$FONT_SIZE_SM,$FONT_COLOR
+Policy,Saga,A saga is a long-lived business transaction.,file,#c9bbe5,$FONT_SIZE_SM,$FONT_COLOR
+Policy,Process,A process is a short-lived business transaction.,file,#ddd4ee,$FONT_SIZE_SM,$FONT_COLOR
+Actor,Timer,A timer represents a significant moment or period.,file,#cfcfc4,$FONT_SIZE_SM,$FONT_COLOR
+Actor,Person,A person who executes a command through a view.,actor,#ffd1dc,0,$FONT_COLOR
+Actor,System,A third-party service provider such as a payment gateway or shipping company.,file,#ffd1dc,$FONT_SIZE_SM,$FONT_COLOR
+Documentation,Comment,A comment is used to provide additional information.,file,none,$FONT_SIZE_SM,$FONT_COLOR

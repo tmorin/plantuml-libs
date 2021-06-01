@@ -1,0 +1,10 @@
+{% extends "item_source.tera" %}
+{% block elements %}
+{%- for element in data.elements %}
+{%- if element.type == "CustomElement" %}
+!procedure {{ element.procedure_name }}($id, $name, $desc="", $tech="")
+  C4Element('{{ element.properties.shape }}', '{{ element.properties.stereotype }}', '{{ element.properties.type }}', $id, $name, $desc, $tech)
+!endprocedure
+{%- endif %}
+{% endfor -%}
+{% endblock elements %}

@@ -1,0 +1,23 @@
+{% extends "package_example.tera" %}
+
+{% block content %}
+
+C4Legend()
+Title("Dynamic diagram for API Application")
+
+include('c4model/Element/Container')
+include('c4model/Boundary/ContainerBoundary')
+include('c4model/Element/Database')
+include('c4model/Element/Component')
+
+Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
+Database("db", "Database", "Stores user registration information, hashed authentication credentials, access log, etc.", "Oracle Database Schema")
+ContainerBoundary("api", "API Application") {
+  Component("ctrl_signin", "Sign In Controller", "Allows users to sign in to the Internet Banking System.", "Spring MVC Rest Controller")
+  Component("bean_secu", "Security Component", "Provides functionality related to sing in, changing passwords, etc.", "Spring Bean")
+}
+
+spa -> ctrl_signin : C4Relationship("1: Submit credentials to", "JSON/HTTPS")
+ctrl_signin --> bean_secu : C4Relationship("2: call isAuthenticated() on")
+bean_secu -left-> db : C4Relationship("3: select * from users where username = ?", "jdbc")
+{% endblock content -%}
