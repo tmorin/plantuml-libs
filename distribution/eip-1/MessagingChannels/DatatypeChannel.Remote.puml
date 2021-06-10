@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element DatatypeChannel
+include('eip-1/MessagingChannels/DatatypeChannel')
+
+' renders the element
+DatatypeChannel('DatatypeChannel', 'Datatype Channel', 'an optional tech label')
+@enduml

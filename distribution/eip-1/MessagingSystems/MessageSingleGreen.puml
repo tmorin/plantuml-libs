@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageSingleGreen
+
+sprite $MessageSingleGreenXs [15x9/16z] umS37bv-9C37mGLdOyhoy_9mygBmWLnA0G
+
+sprite $MessageSingleGreenSm [18x11/16z] uuS0Fbv-DC39WIx4pSa7O-BKnSV3nSQBBiJ1nqzZ
+
+sprite $MessageSingleGreenMd [25x15/16z] uqS0FdxiW8k36wiu7mSx9tuTc5gWufY0cv-7cnUh13SRCnvhXYW
+
+sprite $MessageSingleGreenLg [31x19/16z] xS-d0O1050HHyi-x_NUBn5mgWB5F3TU3UmtOHMp09gBeSwe61zMdFGO63B-Vx9-5dcUoNwWM9_sz
+
+!procedure MessageSingleGreen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleGreen', $name, $tech)
+!endprocedure
+
+!procedure MessageSingleGreenGroup($id, $name='Message Single Green', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSingleGreenMd>', $name, $tech)
+!endprocedure

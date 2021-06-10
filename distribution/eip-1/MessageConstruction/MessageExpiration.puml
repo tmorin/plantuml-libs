@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/MessageExpiration
+
+sprite $MessageExpirationXs [15x9/16z] uoS2yEBdyl1J3W
+
+sprite $MessageExpirationSm [18x11/16z] uwS4yF6XY_3oOgZXvi7Knqzb
+
+sprite $MessageExpirationMd [25x15/16z] uwS9uCCXpijBiWGFBYkukF0ODjW1
+
+sprite $MessageExpirationLg [31x19/16z] unyiW1U_D3SVBQLvy4hpS7BYLS37mmsYHW4
+
+!procedure MessageExpiration($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageExpiration', $name, $tech)
+!endprocedure
+
+!procedure MessageExpirationGroup($id, $name='Message Expiration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageExpirationMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+' definition of the Item eip-1/SystemManagement/MessageStore
+
+sprite $MessageStoreXs [15x9/16z] NKs30G0n47i4tN_XscScn2x4jmjGWYqPesKG_tzlSxhR_HVyHxi45sy2
+
+sprite $MessageStoreSm [18x11/16z] XOu30e1044N3nzJzxvlTuYt643u8tGVW42iF3yUmPTuUXOcsUtd4lkBXOA87dhD8thC-uB_p3
+
+sprite $MessageStoreMd [25x15/16z] jT2r5GD154FHCnPywBzVOs9UVkcDfDJtKgVlQHAeHtW3TcLSo-8hg39i0lg0i8WnU1omAcs2viSEsnyx5btoyzqB
+
+sprite $MessageStoreLg [31x19/16z] jTAr0GCn44HHmS2Et7-zninCzzCNBKJFYiQpz2y6TOdp3dCNdzLPk6MjfAeiKhp3iGdCtZjUiBPaFcNUOQx44W4MRdbCIlBDrZQys8jlEG
+
+!procedure MessageStore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/MessageStore', $name, $tech)
+!endprocedure
+
+!procedure MessageStoreGroup($id, $name='Message Store', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageStoreMd>', $name, $tech)
+!endprocedure

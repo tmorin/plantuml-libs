@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageEndpoint/Source
+
+sprite $SourceXs [15x9/16z] uqS7lDnmm0VaSZ0nCJD103UOoyh2YinbOMJ18ulGYsuo6W
+
+sprite $SourceSm [18x11/16z] uySA-100mcTbGG0sa1WlCnCpCpCJ1B10H9XPWH1LX9cHcHcl6anp-DXGxS9q3oO
+
+sprite $SourceMd [25x15/16z] uoSBy680Y3WVApCQOE65IB0meG5ck0Gp6n2mO95WOG7oMB5AC38Y931r4BO3jwjm-WEdpya1
+
+sprite $SourceLg [31x19/16z] uwSvuER21dYXidmiJDW09_7Ip2mWW5EQZOsLbPMT6QSqCoCZ8oiB3QGHTfFYSig2XL2OqnW
+
+!procedure Source($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageEndpoint/Source', $name, $tech)
+!endprocedure
+
+!procedure SourceGroup($id, $name='Source', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SourceMd>', $name, $tech)
+!endprocedure

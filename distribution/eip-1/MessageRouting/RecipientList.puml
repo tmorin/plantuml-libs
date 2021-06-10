@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/RecipientList
+
+sprite $RecipientListXs [15x9/16z] NOs53S104CEanYxiFt3vqQA3WFJ8qaDPimdvrmX9xczqFNRPrFyRdk_a_RyTJBqN
+
+sprite $RecipientListSm [18x11/16z] POw53GD14CIaU7pKVx_XftqB5mPQ2YsFGauRk6vmDdNRWC9VXThNR9QVj41nZiCabom1Ffj2xfrV
+
+sprite $RecipientListMd [25x15/16z] ZT253S0W40NGf5-g-wzR88h3YyFvfRvBHvzsFu3-1-_tT8JoWnPPPm0wXQ8K7PtV-rXIKmgYJ-9eIYMmEPWAiPJRgH8AoNhpbeRN3G
+
+sprite $RecipientListLg [31x19/16z] {
+hS_74GDH30BG6OCGF_LVhdEsLwTzLqMQAas7YdOl0rMPO-GL_vIPQVCAh_Aho8tRPDoAv4TPUU6rfdMMS_hzDcvIQU5CmjNFvr16cHjoH1IveRby5TVoZshw
+QgzoKwMT
+}
+
+!procedure RecipientList($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/RecipientList', $name, $tech)
+!endprocedure
+
+!procedure RecipientListGroup($id, $name='Recipient List', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RecipientListMd>', $name, $tech)
+!endprocedure

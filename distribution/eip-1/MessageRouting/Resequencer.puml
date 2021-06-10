@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/Resequencer
+
+sprite $ResequencerXs [15x9/16z] NSs53S0m30LHwT-viF_0PKZoH6QNhJAGZsEAX8HJBBJMMKHukhnT6Kwr7Fxk
+
+sprite $ResequencerSm [18x11/16z] XOq53W0X3C0Iskta__z5ewU5kQKNqd912_2J2Us9dcJHCs34UTej0jhD6buiztfBhvaBfXUo0G
+
+sprite $ResequencerMd [25x15/16z] TP055a8n40CVcGI7-zyMbo_frBk--tJsKITF0NI1CLqWge2uMdmS4OI_y1G8ijtkhkTOiZT-7afmGF8-SultiwOBgeAnHMSi67Rt3W
+
+sprite $ResequencerLg [31x19/16z] {
+jP855iCW40NVxiw7Ukz_siglksOIT70OjsUCMpwZlQ5hmnEjAZtJ4NpPkq0SvlOw73RHNYTbCL8b8EGOMLTKgVS-MYodK054eWYiXJmUax4IN0Qlnqj38g_d
+hWrxdNb_uGSTFDD2JxGPHBzuBMi
+}
+
+!procedure Resequencer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Resequencer', $name, $tech)
+!endprocedure
+
+!procedure ResequencerGroup($id, $name='Resequencer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ResequencerMd>', $name, $tech)
+!endprocedure

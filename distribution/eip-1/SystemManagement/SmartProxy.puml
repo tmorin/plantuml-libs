@@ -1,0 +1,20 @@
+' definition of the Item eip-1/SystemManagement/SmartProxy
+
+sprite $SmartProxyXs [15x9/16z] JSs53O1030NGX2yGQ_UVbdDviNgpCZj7Di6duqe12U3fsdUtEgdq6RXJwPMkz5o-_nO
+
+sprite $SmartProxySm [18x11/16z] NSw53G0n30D0gNRARVQVzfdy9mp7DzDuQNuQ21V9G3CWgn6GdepV57IACHLA1fOoKpAy6SOSI4WcoJ_wyme
+
+sprite $SmartProxyMd [25x15/16z] bP253GH040AJ0rPE-w_stVqdlWgi0yDqnUUwC52kw8y6NZH0qhj8ljXGm-jJp7z-qAFfzNEb2NXgoACJqSFn93TG8E1n8xBpZNC-HV8otIq
+
+sprite $SmartProxyLg [31x19/16z] {
+jP834WKn44Ihqjs3tU3-f_ss-M8EnuxPpibnHfPpuX_7k7SChh3cN84Rhx52rTR3lS_Pz4Ws4X-g9ddYxZ7Tf-gyQpSWfqcwgRaoQsTXRPbsv_NgM-dcvugO
+6ii3fthYWuZTpvOb
+}
+
+!procedure SmartProxy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/SmartProxy', $name, $tech)
+!endprocedure
+
+!procedure SmartProxyGroup($id, $name='Smart Proxy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SmartProxyMd>', $name, $tech)
+!endprocedure

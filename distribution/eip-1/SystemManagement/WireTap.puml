@@ -1,0 +1,17 @@
+' definition of the Item eip-1/SystemManagement/WireTap
+
+sprite $WireTapXs [15x9/16z] OsL11gmiJCY0XG2NcHK4EC0aCqoM5KKnCoSpYbuEg2oQlG
+
+sprite $WireTapSm [18x11/16z] OsD10smiJ6Y0XKmHPbOmuE20q0Wrc0oWB9e89oTkDPXk1W
+
+sprite $WireTapMd [25x15/16z] us353ZXOcR03LdfBiA1AiB110GSF1up9ZAA3cOCPXr7iEEnWviIXWvsF7OSERcPYd8ipT04
+
+sprite $WireTapLg [31x19/16z] usJ31pZPcF01jk4YpSp6Z27DnWu7N7oS20uBfcukPhnsSp1H8CtAnOfFcekV2vyq6nyRNdzpudSvCvhJ2AGM
+
+!procedure WireTap($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/WireTap', $name, $tech)
+!endprocedure
+
+!procedure WireTapGroup($id, $name='Wire Tap', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$WireTapMd>', $name, $tech)
+!endprocedure

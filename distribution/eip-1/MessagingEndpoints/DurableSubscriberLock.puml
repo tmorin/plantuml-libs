@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/DurableSubscriberLock
+
+sprite $DurableSubscriberLockXs [15x9/16z] uoS2yF7o8NDvU7cG9LcPMP2bMLbHkBnSFCHO0G
+
+sprite $DurableSubscriberLockSm [18x11/16z] uoS1yF6X2_3mygAAy001gWWR4nChcWWB2mkg23SR6nS_9G
+
+sprite $DurableSubscriberLockMd [25x15/16z] lOp70O0m30FJ4nVP-syB0uWdkPzg_aDysEO65W0PpWAL5_OsQgqTDDYD1gkTDjWLpjwULta
+
+sprite $DurableSubscriberLockLg [31x19/16z] rSyd3W0n44DHfMVw_K-xZNlmvaj63pd-asTeBAoOsR-Xv9b2rlb6YBcyJSnrrfIbbGL_zJfgvUJt9er3kW4
+
+!procedure DurableSubscriberLock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/DurableSubscriberLock', $name, $tech)
+!endprocedure
+
+!procedure DurableSubscriberLockGroup($id, $name='Durable Subscriber Lock', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DurableSubscriberLockMd>', $name, $tech)
+!endprocedure

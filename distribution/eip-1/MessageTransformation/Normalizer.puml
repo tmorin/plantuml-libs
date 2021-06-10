@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageTransformation/Normalizer
+
+sprite $NormalizerXs [15x9/16z] OsL11gmiJCY0XOMP6OqB4M068Y0NIB8mix2mSuB4WLmMY2HC5aKlcibezW8
+
+sprite $NormalizerSm [18x11/16z] VOw53S103CIasYdjlsyPdyASwqsejql8GWL8Py2Z1eVgEHWHyynMOQl8DVxCQEbNkv9ZNW4
+
+sprite $NormalizerMd [25x15/16z] hP252G114CHWatVflznt5-o23YCdPVPEcSKxsP_1Xm6-6uu6xrEWcsJKocICE1hc8tLV4MDeCJ1WRUJCiSLGuiw_CPB4-FpT0G
+
+sprite $NormalizerLg [31x19/16z] {
+nP9L5i0W0CFUQ3kN-vzsxkxaDmGFt3q2r-pXFjVOrQJsj1pWe8Rc1XZMXdgFmAs4ggZRUQtXLVXf5h9QqR2hwxoj6NgiQg2hjR9pbBHR4xMpythW_gLQqGU_
+fG
+}
+
+!procedure Normalizer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/Normalizer', $name, $tech)
+!endprocedure
+
+!procedure NormalizerGroup($id, $name='Normalizer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NormalizerMd>', $name, $tech)
+!endprocedure

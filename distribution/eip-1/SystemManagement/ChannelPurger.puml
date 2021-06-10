@@ -1,0 +1,17 @@
+' definition of the Item eip-1/SystemManagement/ChannelPurger
+
+sprite $ChannelPurgerXs [15x9/16z] JSU73G11408n2PYz_Yl-7B2YIIDgkJg3yvU5_DSBLpLOLVwsaCOE
+
+sprite $ChannelPurgerSm [18x11/16z] NOo54S0020Flu0dTV-6waSTL628Ck491vh-ZfGZ6JXSnTh95ZZyXfNNeiUE9WJ2q0G
+
+sprite $ChannelPurgerMd [25x15/16z] bKz94W9132e39Fp_m-eSf_VcocwDOSKOsXAGH99e2Tef1JeYgfByC3eYdKGC23u4q1Ee4ZYQcpE25Z4YGkJ5yvwmnl0F
+
+sprite $ChannelPurgerLg [31x19/16z] hTAt5SKm34FHOoJI-m_yOojdlVQMm9gzrc2lp68c_YPpoDtrKK93HdrOmY8CEN_61kl72pbcLEN3mWQd8sAJrJ6voUmonIr6bMLiCcrpY-SlTl2MDm
+
+!procedure ChannelPurger($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ChannelPurger', $name, $tech)
+!endprocedure
+
+!procedure ChannelPurgerGroup($id, $name='Channel Purger', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ChannelPurgerMd>', $name, $tech)
+!endprocedure

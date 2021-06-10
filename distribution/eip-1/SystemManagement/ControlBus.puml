@@ -1,0 +1,17 @@
+' definition of the Item eip-1/SystemManagement/ControlBus
+
+sprite $ControlBusXs [15x9/16z] uoSPS75oSh0Zk9pixEniI5mE3dOE19UFZu-NZmX30G
+
+sprite $ControlBusSm [18x11/16z] uwS0yF620B885mS71niRiWWdEpixfWWx1x883pSGy53Y4W
+
+sprite $ControlBusMd [25x15/16z] unyCW8-34mWus7ZG9NZPGO2DYGkx13ipBWasRe8I21a8uAEdZm4
+
+sprite $ControlBusLg [31x19/16z] unyEW1i6-B39yh5300iJD-sasTWfa-R1xZC-A1WQyG
+
+!procedure ControlBus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/ControlBus', $name, $tech)
+!endprocedure
+
+!procedure ControlBusGroup($id, $name='Control Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ControlBusMd>', $name, $tech)
+!endprocedure

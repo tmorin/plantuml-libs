@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/Endpoint
+
+sprite $EndpointXs [15x9/16z] OqO1hCnCo826N5J03W
+
+sprite $EndpointSm [18x11/16z] Os560spCJ6XWq8cmiQ813W
+
+sprite $EndpointMd [25x15/16z] OsN63ZYOcR034YH69JZOiGCk
+
+sprite $EndpointLg [31x19/16z] OsN11xXOcF01pf4bFIhDnOaFS0C
+
+!procedure Endpoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Endpoint', $name, $tech)
+!endprocedure
+
+!procedure EndpointGroup($id, $name='Endpoint', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EndpointMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element MessageTranslator
+include('eip-1/MessagingSystems/MessageTranslator')
+
+' renders the element
+MessageTranslator('MessageTranslator', 'Message Translator', 'an optional tech label')
+@enduml

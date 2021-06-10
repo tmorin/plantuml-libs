@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessagingEndpoints/SelectiveConsumer
+
+sprite $SelectiveConsumerXs [15x9/16z] ROs53S1030Eb68hxhrlkyua21h54Z1A-Av1N13JfNguLd2HQdhth_puP77XBsFIU
+
+sprite $SelectiveConsumerSm [18x11/16z] ZOw53S0040AJvw2w_xoDrFsYBqWu4Ue4ZnkPtKP8RXgamWN2JKpifiimQlaXB3zNdp_fryuJ
+
+sprite $SelectiveConsumerMd [25x15/16z] fOy53WD130EbjIT9yV-_BNEFRyG1Gz5DqRfXpKAskXOYClop22JC1cGtLTuMXimaH9dSxRAEHpu_14BMw-Fj4NXEglNDYsxg3
+
+sprite $SelectiveConsumerLg [31x19/16z] {
+nP852WCm40GXkpTnyl_NrbtHTl1psSedAkaJ_D0jVN0Rm4_kKvQ9KWFT53gvoLZOhjaaGicz--0Ma7UG9QfTofYrjBNgOxOokib-x2t2rzxV9l--zpzVyaKj
+Mm
+}
+
+!procedure SelectiveConsumer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/SelectiveConsumer', $name, $tech)
+!endprocedure
+
+!procedure SelectiveConsumerGroup($id, $name='Selective Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SelectiveConsumerMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageEndpoint/Sink
+
+sprite $SinkXs [15x9/16z] uqS7lDnmm0VaSZ1103CJ4pUSoyp2meBCPMPamIuBuOFqefkC1W
+
+sprite $SinkSm [18x11/16z] uySA-100mcTbGG0sa1WlCnC4C3CpCx4WYx2mCBEYYJ0niX1IWp27ZmtLBaptO08
+
+sprite $SinkMd [25x15/16z] uoSBy680Y3WVApCQOE65IB0meG5c30bcDY1WnYB1mWB2M2KO6KcK0Da1bC3jAfp-mEbpSW
+
+sprite $SinkLg [31x19/16z] uwSvuER21dYXidmiJDW09pdIp2mWW5EQdHK8s9bnIZCnCZAoKIXDfjqiS9TJ5Yo4mfp6
+
+!procedure Sink($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageEndpoint/Sink', $name, $tech)
+!endprocedure
+
+!procedure SinkGroup($id, $name='Sink', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SinkMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageRouting/Splitter
+
+sprite $SplitterXs [15x9/16z] OsL11gmiJCY01OdBpCpCmiBC3EUoWBaWDHoSpCYoG18aYw6N2OdFn89cBm
+
+sprite $SplitterSm [18x11/16z] VKw34G1139p9ujb_ks-UOcVDXCn8Y4pIj0A0tEoPF3C8Rf4yz_SChXcXSUTBn3lp5dFCAm
+
+sprite $SplitterMd [25x15/16z] bL036e1G3FxwaUl-jytcm-mjz_FBZUVd60SbFZeqmBDZpfZvR35dvjcHa03JD2tQaakfSuOp7KlT7ktugPuT8BzEydhT7W
+
+sprite $SplitterLg [31x19/16z] jPA34KH144HhhtlMo3_QqxVzYcCwlORJhpNqCsQXo9fPAQwPWJeQmDHCaIeQGh8Dicngiue657uwQ6ECByaEQqDGHUEB3WOxQwztpejphvZnvVB5Dhxb0m
+
+!procedure Splitter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Splitter', $name, $tech)
+!endprocedure
+
+!procedure SplitterGroup($id, $name='Splitter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SplitterMd>', $name, $tech)
+!endprocedure

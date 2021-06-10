@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/EventDrivenConsumer
+
+sprite $EventDrivenConsumerXs [15x9/16z] OsL11gmiJCY01GkN6OX190kGoyp2mixAmiR6piN6muekYzyeD7i1
+
+sprite $EventDrivenConsumerSm [18x11/16z] dKu33i0034nwclx_tIcSKRjdxiYi7V5j1KIjhgWYGIfcacP8D-1avj-l8-O9
+
+sprite $EventDrivenConsumerMd [25x15/16z] us353ZXOcR03Llf9CBEnC4C5s9YPEDZ14Yn0nx6nixEnSd020JSV5piV7oiU7GFg3voX2m
+
+sprite $EventDrivenConsumerLg [31x19/16z] rP953i10202Jmk8f_tzjtVMySyDLwGkbvWkgm0nmDaoAtLoOSDIDi1P0TvpCG2CyG6GJaQrefhv4qnxzKxlUfVvyImy
+
+!procedure EventDrivenConsumer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/EventDrivenConsumer', $name, $tech)
+!endprocedure
+
+!procedure EventDrivenConsumerGroup($id, $name='Event Driven Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EventDrivenConsumerMd>', $name, $tech)
+!endprocedure

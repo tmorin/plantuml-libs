@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessagingChannels/MessagingBridge
+
+sprite $MessagingBridgeXs [15x9/16z] JSU53S004CD0wMEd-qzSfXEU_CdySHPhtcBWF9mBINCsXQDwD4kzj85X7WpovmO
+
+sprite $MessagingBridgeSm [18x11/16z] NSY73GH158DGwHip_LTySJCeFdaayuXD0hb9Fyb5sX3A9Z_uIcIJo4-c_eMbhTzTVANDaJ_9d2M3FF8D
+
+sprite $MessagingBridgeMd [25x15/16z] ZSc53GGn40H1QN2TVy3FZDTcr_XpOtpE6u2oFa7Ykdu5feHnb2TWvID8pXCqE0CnVW1NDqXv0rP7e24XoWMKDMsccVIuhOP7WCgdLE8CmdE-mCSy_jpi0G
+
+sprite $MessagingBridgeLg [31x19/16z] {
+hT65ZSHG54DHwP7jRF_rBasOwIh2ay-glLIsLxt8dXcR742nMEkSAlCo5ts54vb_R9MjjzogHSiMhGySJGniu8m97t4n9roL4swdRzdf6MFsHCzW8ugaHj-N
+c1zkTpejq4zUQSlW7Rkjv6TUJBMNVW
+}
+
+!procedure MessagingBridge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessagingBridge', $name, $tech)
+!endprocedure
+
+!procedure MessagingBridgeGroup($id, $name='Messaging Bridge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessagingBridgeMd>', $name, $tech)
+!endprocedure

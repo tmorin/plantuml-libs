@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageTransformation/ContentEnricher
+
+sprite $ContentEnricherXs [15x9/16z] OsL11gmiJCY01S5bPc418MOm6oW3H20kI9oJ0yW5qb1Pa20GiA0QXSv5inS
+
+sprite $ContentEnricherSm [18x11/16z] ZOu55e1024IVpWVp_jUrsosw6UT3JlqXqXN019BsT9LAQsK9CFEnsOhtZ5WL_fVBAd_CCm
+
+sprite $ContentEnricherMd [25x15/16z] lP034i0m44Kd-QXx_zlMngXuSTQRwffKyHgz8A0ayq8WX811G78nHxV5HH20I7SKTOQjWCHeOVSMIunB_X7SThS5
+
+sprite $ContentEnricherLg [31x19/16z] pPA34KC144JdLd7IVxMnhOytFcD7USOeU4RQTpEsuqTkUHkpSvEyTgkgi7FJiWwEmL3NRXRNDWysJ1QpmPLRr35xE3BNxaZomzxG1dwnTt_SBzIo0W
+
+!procedure ContentEnricher($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ContentEnricher', $name, $tech)
+!endprocedure
+
+!procedure ContentEnricherGroup($id, $name='Content Enricher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentEnricherMd>', $name, $tech)
+!endprocedure

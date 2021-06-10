@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/ServiceActivator
+
+sprite $ServiceActivatorXs [15x9/16z] OsL11gmiJCY01GkNcOcP1KIo0BdCB2pihEpSREnSx6oiwBBuZKAp5m
+
+sprite $ServiceActivatorSm [18x11/16z] dKx54S002Bi38hNzrotVkk1EM3jYnOxgRIKh0zak2bt9AeXSHdasMISp_tuTCQy
+
+sprite $ServiceActivatorMd [25x15/16z] jP053e1G34EJtqcBtV-sI0I7w5vqlfR-3hszuyK570M4eIMn9WB8n5OmTu_CY6cIr4yTtUDdukT6lS1FTnS
+
+sprite $ServiceActivatorLg [31x19/16z] rP1L3aGX34KJRcKg6VQ_skTk_noSUas-C2bVI0DYODydc8zYLg52uGH0ZS4_vKaC6T41yLh3tRF-pG33ixKShBzZjzjKao-i1m
+
+!procedure ServiceActivator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/ServiceActivator', $name, $tech)
+!endprocedure
+
+!procedure ServiceActivatorGroup($id, $name='Service Activator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceActivatorMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessagingEndpoints/PollingConsumer
+
+sprite $PollingConsumerXs [15x9/16z] NOs53S10548JfBx_kZtN5_aAM3CM8fGFCpRAutN5bPd7se67uaZfp2Ekp-Kgj6lkxA5DTESjDm
+
+sprite $PollingConsumerSm [18x11/16z] RKw54SCm3BppGnlOVzsG6SIiDmSoGoHAZ45qsWJ8g9N_zhMTAqZrO2cG8FKpul9vOZKJcwntShV-cl7Cc6y
+
+sprite $PollingConsumerMd [25x15/16z] TP253S0m40EbHnVttxOOXXC47cte62YDqHnWmuDsWMKr_g9S1-JOmeyt0UTmSoa2RCgKKk1VG5JLt4r2WBVpr5mXVKLuAhKp0X0QRaMCHiTS-HYTkdi3
+
+sprite $PollingConsumerLg [31x19/16z] {
+XP453WH020EJBTRJ_x_sNDQPE4vBsq4hEwnBYvfYaOOot8E1MTfFb5ULKIRfqvNV5PGXBQTgQ7Hf059TGG1rMjsgT0a_7kMLXZtn1uRgpEkLMNU-kmwLwULr
+x8KG4r5zfbg5aZFDSyVc66q7xm
+}
+
+!procedure PollingConsumer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/PollingConsumer', $name, $tech)
+!endprocedure
+
+!procedure PollingConsumerGroup($id, $name='Polling Consumer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PollingConsumerMd>', $name, $tech)
+!endprocedure

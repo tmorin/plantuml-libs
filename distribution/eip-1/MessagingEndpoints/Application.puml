@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/Application
+
+sprite $ApplicationXs [15x9/16z] Os561cpCJCY0bNPSLC0E
+
+sprite $ApplicationSm [18x11/16z] Os560-pCJ6Y0RR29O00E
+
+sprite $ApplicationMd [25x15/16z] OsN13ZXPcB033k8bHYLm0Iu
+
+sprite $ApplicationLg [31x19/16z] OsF11xXOcF01pf4aFIhDpCd5YGzm0m
+
+!procedure Application($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/Application', $name, $tech)
+!endprocedure
+
+!procedure ApplicationGroup($id, $name='Application', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApplicationMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element Source
+include('eip-1/MessagingSystems/MessageEndpoint/Source')
+
+' renders the element
+Source('Source', 'Source', 'an optional tech label')
+@enduml

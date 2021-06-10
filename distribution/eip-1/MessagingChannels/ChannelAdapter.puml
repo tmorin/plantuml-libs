@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingChannels/ChannelAdapter
+
+sprite $ChannelAdapterXs [15x9/16z] umS1Fbv-PC33oic7p6LcPkL1uJ9pukVYril2WMmL7rmA
+
+sprite $ChannelAdapterSm [18x11/16z] uuS0NduqmClAoOScmiBCoeqkmipCZI72HPO8DxfTN6ZkuK1p3nyFWWq
+
+sprite $ChannelAdapterMd [25x15/16z] uoS8kDbvi4jmCRDmy66NO6PcvUB39W42xBWasEWkGTXLB9nyM7tEpeirhDYuiOSL7vef
+
+sprite $ChannelAdapterLg [31x19/16z] tT6d5S1030HHS45PwhzRL-1vnbxwsSvyNbiHrzxMn6kTG5vB4dbjHrxwKzv6V0DUWoYrjnOKUwa1Um
+
+!procedure ChannelAdapter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/ChannelAdapter', $name, $tech)
+!endprocedure
+
+!procedure ChannelAdapterGroup($id, $name='Channel Adapter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ChannelAdapterMd>', $name, $tech)
+!endprocedure

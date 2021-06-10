@@ -1,0 +1,20 @@
+' definition of the Item eip-1/SystemManagement/TestMessage
+
+sprite $TestMessageXs [15x9/16z] OsL11gmiJCY01PtBpCh4n0n4803aSl2niNAoip2383DGbWqa1PF5RnIQlG
+
+sprite $TestMessageSm [18x11/16z] OsD10smiJ6Y0XJWHTbOc9cPc8083e0WhFmyhAnSN2pCp2n02IHPc3ZQGKeGQykp2T3C
+
+sprite $TestMessageMd [25x15/16z] nL3L5S0m27o5kxZiFstTvRT9S0V7z-Sexu__E1Y3YYXL5DlJoU5hzSROaWWHeCF4vemK9z7ndY7QR8_Fwmu
+
+sprite $TestMessageLg [31x19/16z] {
+pLBL5KKX33jjakAm_xJFNNylMlSIlrO9_xLYuspoJW1mkeVdmYvpn96H1ISfwlHI9pR6MYsbbETg9Ep0CwVCUDQkQoO0h4L-u8i23nSwin5wzut3-XFvjjb_
+fcKF
+}
+
+!procedure TestMessage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/SystemManagement/TestMessage', $name, $tech)
+!endprocedure
+
+!procedure TestMessageGroup($id, $name='Test Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TestMessageMd>', $name, $tech)
+!endprocedure

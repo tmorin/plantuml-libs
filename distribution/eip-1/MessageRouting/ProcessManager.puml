@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/ProcessManager
+
+sprite $ProcessManagerXs [15x9/16z] FKo73G0034dG_q_ktXjYspUKaTEtGVZrmRtMg2cz5j0oU-MKxwExWyhu6G
+
+sprite $ProcessManagerSm [18x11/16z] VOo54S0m3CJEB-s_SfcRH6QK7Q-4xF1BTDov_nmT1TtzqRckC3dsevhhjefmkB1ZFDo2g2yt0m
+
+sprite $ProcessManagerMd [25x15/16z] TT075e0W40FHHoRB_OzimDx6xhTI_gwi8uoEV07BFr0_eAvleFE4_JkoZ0wWIFQOKt60R-_m3hWOJ6TkoqmmoU4vxOS3r5eBa0s1R7I0Bg03Pc9ks0_zExeB
+
+sprite $ProcessManagerLg [31x19/16z] {
+fOk53K112CLoJs3_YR-xIqzeqX2w8eGb9B54wspw8bD5lDYMXOkCn8zi-IWxUbYOWouoWnqIf5vpbT73u61nb97OPSaf4Q2q5FNPQE0exMyEqcQL1enIMi4e
+zzaaEGazIP-f5Xw9GbT43G
+}
+
+!procedure ProcessManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ProcessManager', $name, $tech)
+!endprocedure
+
+!procedure ProcessManagerGroup($id, $name='Process Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ProcessManagerMd>', $name, $tech)
+!endprocedure

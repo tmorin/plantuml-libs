@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageConstruction/CorrelationIdentifier
+
+sprite $CorrelationIdentifierXs [15x9/16z] fOgr0G0X34NBUDx-qvuVq1Fz1cJtVNYhD3nIWw-YMLoghAcq4VV-pbQT
+
+sprite $CorrelationIdentifierSm [18x11/16z] jKj50S0m47kD0_xLhXm7FRw0RT5Z9jxxUr_K6GGFITNf13A3u4IVyOdTqUVEA
+
+sprite $CorrelationIdentifierMd [25x15/16z] rOo50OGm54DFuLkI_QV5dGbuzKOqGcg6EW6tOa4CYvEGraOq5iDffmpTCTMbvQKBQrOt8PEJWAYZaFd_OHJIFdRAC9pJfIprH7e
+
+sprite $CorrelationIdentifierLg [31x19/16z] {
+xOw50GCn30FB1a7sdxRCFC1VE0Pf_0EgzxltIzrwZZ8ZYGYG5L5lm_iDU1jsP_lKd5aSB_Ij4yVRi7syYOVhSzYAJH_3SA_ZAGvWlQXZk96BbLxiLU6Ic-Nn
+XOaT
+}
+
+!procedure CorrelationIdentifier($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/CorrelationIdentifier', $name, $tech)
+!endprocedure
+
+!procedure CorrelationIdentifierGroup($id, $name='Correlation Identifier', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CorrelationIdentifierMd>', $name, $tech)
+!endprocedure

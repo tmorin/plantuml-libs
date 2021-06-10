@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element ReturnAddress
+include('eip-1/MessageConstruction/ReturnAddress')
+
+' renders the element
+ReturnAddress('ReturnAddress', 'Return Address', 'an optional tech label')
+@enduml

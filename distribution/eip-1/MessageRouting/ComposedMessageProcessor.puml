@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/ComposedMessageProcessor
+
+sprite $ComposedMessageProcessorXs [15x9/16z] OsL11gmiJCY01S9bPcQ6Si4CPXOm2UOoix83IHOGWIgBgPS9meUQZ6Ol
+
+sprite $ComposedMessageProcessorSm [18x11/16z] OsD10smiJ6Y0XGKNWvcP6Iu2OJD3f81ie0WGit6095WvGIHK3OW1984qaZaikEt2T0-ccm4
+
+sprite $ComposedMessageProcessorMd [25x15/16z] fP054iHG24FdyvALzlxdhRiBuq3qv-tvERR7LmwMDW-Gj8Vmx2292Fe3WKHpI63dFqZ2t_oZ28q8GOD0pUATAyJs8U1I9RljbW
+
+sprite $ComposedMessageProcessorLg [31x19/16z] {
+hPA53SG030ELdbtk_kk--ymSqKLX6DfdChJDCsd_Q9RLFZDJUcPMunipiDUmZsROcR6ie4cqLZD11tTcYd2xJ18bx7uPS9LsPg4GhHBD6gsW2TxMrW61syxn
+3tC_Zsw0VrxinRTi
+}
+
+!procedure ComposedMessageProcessor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ComposedMessageProcessor', $name, $tech)
+!endprocedure
+
+!procedure ComposedMessageProcessorGroup($id, $name='Composed Message Processor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ComposedMessageProcessorMd>', $name, $tech)
+!endprocedure

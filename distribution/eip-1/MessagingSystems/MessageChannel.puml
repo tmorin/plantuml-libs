@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageChannel
+
+sprite $MessageChannelXs [15x9/16z] uoS9yB2nGW4R6pS_FnShdCl4mS_FnmK773oa6Gm
+
+sprite $MessageChannelSm [18x11/16z] dS7L0O0m3411h1fv-q-BG_zpHv2hgdqSyBJ-jhGPM1hojWZGwr2IS_A1i0C
+
+sprite $MessageChannelMd [25x15/16z] nSd50G0X300m7EhxJtkkBD1yOxvqr4ixTHYw1-L9pN7iWNNIK-nxoEX_8oUqOsY6vcm5
+
+sprite $MessageChannelLg [31x19/16z] rSct0GCn2010PP7PVrhxKmSBwDhpemb5h6BlKc_H70tUtYEnQ-rwhwsPk5lyXZi1hGxpco54k0Rxnr9-j3y
+
+!procedure MessageChannel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageChannel', $name, $tech)
+!endprocedure
+
+!procedure MessageChannelGroup($id, $name='Message Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageChannelMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eip-1/bootstrap')
+
+' loads the Item which embeds the element Sink
+include('eip-1/MessagingSystems/MessageEndpoint/Sink')
+
+' renders the element
+Sink('Sink', 'Sink', 'an optional tech label')
+@enduml

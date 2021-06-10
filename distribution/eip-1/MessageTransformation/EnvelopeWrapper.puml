@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageTransformation/EnvelopeWrapper
+
+sprite $EnvelopeWrapperXs [15x9/16z] JSc72G1H08DGI7J_aQ_-9lMXd4dEU5Z_qqcRRZP0kfbcax-VPyYPDm
+
+sprite $EnvelopeWrapperSm [18x11/16z] TOw54G0W203lfFRVs5Ro3JeO7OpDWSi3X-SX8HmCSJt360A7-tbWcCC9sjDWFELvLBCS67Vk
+
+sprite $EnvelopeWrapperMd [25x15/16z] dSi73i0W34DHoM3NzxzmzoA95h-3yS2iCr77MP35AtaPeAkVattK06XaktuZd8TvNakm4r032X2VDC3GB9XrtW
+
+sprite $EnvelopeWrapperLg [31x19/16z] lSa53iH034DHoHuxa_iVU1dAt7v1uAMdIcCgNy7C6lzgiiqbBE8TvIWT5kJoNYsgpw15K2Omn8128M2CGH4J_6urCzhnpnETo-cfyWu
+
+!procedure EnvelopeWrapper($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/EnvelopeWrapper', $name, $tech)
+!endprocedure
+
+!procedure EnvelopeWrapperGroup($id, $name='Envelope Wrapper', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EnvelopeWrapperMd>', $name, $tech)
+!endprocedure

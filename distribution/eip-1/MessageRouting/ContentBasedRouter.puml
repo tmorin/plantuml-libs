@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageRouting/ContentBasedRouter
+
+sprite $ContentBasedRouterXs [15x9/16z] JSk53S0030D1gUzlzf-u33v1qAQPfUKT6HEUaRE7uugkSon7VQy7g6nTIqnp1m
+
+sprite $ContentBasedRouterSm [18x11/16z] POu54e0m40DdIFPA__zWt5AsSYxbWV8qu8z7Ie_e1TmU2QIhIa3hREOSEVUNdHksmuCs3a_Y_yuh
+
+sprite $ContentBasedRouterMd [25x15/16z] bP054W0X30DdBWdM_l-xv-uiJhr9zoGrz-Yl0BWNC5iCFJWA64IUBG15uU2AeITwrl0NpwuWJ2UVqiM385hONEsXC51H-IPux6u7
+
+sprite $ContentBasedRouterLg [31x19/16z] hSy33W1130NGPCi_kFznrxPUN1Tw1bgSqT_JH6TfZj5Ql9DcCtTkqPIUadomcrcw9FCYhUqcpr6fZSNayztKCHbRgFNkRv7JTCpUaXVThP_Iq3Ee
+
+!procedure ContentBasedRouter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/ContentBasedRouter', $name, $tech)
+!endprocedure
+
+!procedure ContentBasedRouterGroup($id, $name='Content Based Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContentBasedRouterMd>', $name, $tech)
+!endprocedure

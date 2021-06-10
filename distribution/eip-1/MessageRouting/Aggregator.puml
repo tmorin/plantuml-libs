@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageRouting/Aggregator
+
+sprite $AggregatorXs [15x9/16z] OsL11gmiJCY0XOMP6ONBWf1dXiW2IGvEPYPcPcQOB5WBCwPU9XGkchq
+
+sprite $AggregatorSm [18x11/16z] XOo53S003CEanEtm_tV7Z2vZSY7H1J1SE-PbnvEpm48YiYsdZlUTyBRZ_y-wG78XUm
+
+sprite $AggregatorMd [25x15/16z] bP255O0m34GVlNyuxByjxauRzoJrzKiThfyV782k7P7qCmDFZaaGQ2sbE8wpEkyzzB0hvOGXSSx0uUTKujeHf5ydkRrk2m
+
+sprite $AggregatorLg [31x19/16z] {
+jP854aGn34AdUTHNxd_QTVsk6Qd4WHo6B0SRih3MZPTdm8r30swPXjpUTnM7R-zFjazwNIJ_rviGOopdOtgwdTEhDy_U0A56dcvuPbjdRu1NRwGLUmzc6x0J
+OoDgkG8
+}
+
+!procedure Aggregator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageRouting/Aggregator', $name, $tech)
+!endprocedure
+
+!procedure AggregatorGroup($id, $name='Aggregator', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AggregatorMd>', $name, $tech)
+!endprocedure

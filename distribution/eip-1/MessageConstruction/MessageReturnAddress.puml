@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/MessageReturnAddress
+
+sprite $MessageReturnAddressXs [15x9/16z] umS37bv-9C37mGLdOyhoy_AmitAWSDcHkRmyVCXcyR3neEW6IM82
+
+sprite $MessageReturnAddressSm [18x11/16z] ZOmt0e1G34Bj-dy2tF-qrYbClesg3q96EzoAHdC80YXEjcLUMPo-RZjjPKzt1pAhKR-v
+
+sprite $MessageReturnAddressMd [25x15/16z] jS-r0SLG20NGhpZS_QUDD55UcLFYO5VecHWw9IoZ3aUh70CE4o8fN9d_lukyTnJ_YFvD0hNgThW56kxqrV4h3vW1
+
+sprite $MessageReturnAddressLg [31x19/16z] pP2r4SHG34HdBARz_LTx41j3lrImi9w3ZBuOfvdZV1pNutQlTS7yfvVZgJzpCaOeRSHvF8woZNx4sNCd5k4y6sF-uDGvSE4SATBdfPSJNVLUPhFUmHS
+
+!procedure MessageReturnAddress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/MessageReturnAddress', $name, $tech)
+!endprocedure
+
+!procedure MessageReturnAddressGroup($id, $name='Message Return Address', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageReturnAddressMd>', $name, $tech)
+!endprocedure

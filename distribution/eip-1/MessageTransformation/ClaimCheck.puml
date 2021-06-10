@@ -1,0 +1,20 @@
+' definition of the Item eip-1/MessageTransformation/ClaimCheck
+
+sprite $ClaimCheckXs [15x9/16z] OsL11gmiJCY0XOKPY92uB4pCO2up446vG1Nid40Af18goGmHXkj3S156eTaB
+
+sprite $ClaimCheckSm [18x11/16z] XOw54O1G3CMEvXNRVs38AKw-r6NCXJ5r8NUFD6TF3Q0AFZqektjTrKWmJOBlqfcTFu_allC6
+
+sprite $ClaimCheckMd [25x15/16z] dP054e1030EdJOB3_t-Bkz_jI5qptPF9xr5CG3q9xW9kng-0r2iWiGimwIcQlDVws7d6g72kk03Shqi2n4q00p6NFtwt0m
+
+sprite $ClaimCheckLg [31x19/16z] {
+jT955iGW00JH1zMDZTt_jEDkyTh-1A_fNpN5VwM5cMGx-HVhD03v9piS-vW4lZ8rdS2INvbygcntJKSEKMScwTXzRhMiqz_WCqUTucDg-BtlC_va34W_MPmd
+_3tu75VIyLeE
+}
+
+!procedure ClaimCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageTransformation/ClaimCheck', $name, $tech)
+!endprocedure
+
+!procedure ClaimCheckGroup($id, $name='Claim Check', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ClaimCheckMd>', $name, $tech)
+!endprocedure

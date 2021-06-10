@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageDouble
+
+sprite $MessageDoubleXs [15x9/16z] LSct0S0W00F1pb5X_sbje7gkKkWY5t8z9RbatMRrNgEWHgTAEE47
+
+sprite $MessageDoubleSm [18x11/16z] uuS0Fbv-DC39WIx4pSa7O-BKnSV3nSQB9iB3mOUk2zqWX2w44C8smW
+
+sprite $MessageDoubleMd [25x15/16z] uqS0FdxiW8k36wiu7mSx9tuTc5gWufY0cv-7cnUhMTnip9nOTU2o1fyTNBnO9RZPMV1uXGO
+
+sprite $MessageDoubleLg [31x19/16z] pOv50SC054EtqkV4lziQAFEx1haTkDU2x2As89k8ObvErU025LoJWGKPtWyvArjesyxBmL2j-wuDyzVWeLsNd2T4YzzW1
+
+!procedure MessageDouble($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageDouble', $name, $tech)
+!endprocedure
+
+!procedure MessageDoubleGroup($id, $name='Message Double', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageDoubleMd>', $name, $tech)
+!endprocedure
