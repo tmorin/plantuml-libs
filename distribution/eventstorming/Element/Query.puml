@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Query
+
+
+skinparam file<<Query>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #62d862
+}
+
+!procedure Query($id, $label="")
+  EsEntity('file', 'Query', $id, $label)
+!endprocedure

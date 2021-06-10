@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' loads the Item which embeds the element Query
+include('eventstorming/Element/Query')
+
+Query('Query') [
+Query
+--
+A query is a wish to get a point of view of the state of the system.
+]
+@enduml

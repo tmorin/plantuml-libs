@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' loads the Item which embeds the element ReadModel
+include('eventstorming/Element/ReadModel')
+
+ReadModel('ReadModel') [
+Read Model
+--
+A read model provides the information that needs to be available to take a given decision.
+]
+@enduml

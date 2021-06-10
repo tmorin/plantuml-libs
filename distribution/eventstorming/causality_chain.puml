@@ -1,0 +1,35 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+include('eventstorming/Element/Person')
+include('eventstorming/Element/System')
+include('eventstorming/Element/FacadeCommand')
+include('eventstorming/Element/Command')
+include('eventstorming/Element/Aggregate')
+include('eventstorming/Element/DomainEvent')
+include('eventstorming/Element/Process')
+
+Person("person")
+System("system")
+FacadeCommand("facade_command", "facade command")
+Command("command")
+Aggregate("aggregate")
+DomainEvent("domain_event", "domain event")
+Process("process")
+
+person --> facade_command : invokes
+system --> facade_command : invokes
+facade_command --> command : invokes
+command --> domain_event : generates
+command . aggregate : invoked on
+domain_event -> process : starts
+
+@enduml

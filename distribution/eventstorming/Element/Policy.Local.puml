@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('eventstorming/bootstrap')
+
+' loads the Item which embeds the element Policy
+include('eventstorming/Element/Policy')
+
+Policy('Policy') [
+Policy
+--
+A policy captures the reactive logic of a process.
+]
+@enduml

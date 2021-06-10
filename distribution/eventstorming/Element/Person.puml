@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Person
+
+
+skinparam actor<<Person>> {
+    StereotypeFontSize 0
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #ffd1dc
+}
+
+!procedure Person($id, $label="")
+  EsEntity('actor', 'Person', $id, $label)
+!endprocedure

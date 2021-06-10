@@ -1,0 +1,14 @@
+' definition of the Item eventstorming/Element/Command
+
+
+skinparam file<<Command>> {
+    StereotypeFontSize $FONT_SIZE_SM
+    shadowing false
+    FontColor $FONT_COLOR
+    BorderColor $FONT_COLOR
+    BackgroundColor #aec6cf
+}
+
+!procedure Command($id, $label="")
+  EsEntity('file', 'Command', $id, $label)
+!endprocedure
