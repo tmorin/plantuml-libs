@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceIpGroups
+
+sprite $ServiceIpGroupsXs [10x10/16z] FSY50S0m20J06lQHtt_RnW-7Huu853QkQeRQDXLJ4Kjj-zfiVsI4VggYwgI9Q6DaAJwt9daJF7u
+
+sprite $ServiceIpGroupsSm [12x12/16z] JOp50SLG3CC-r78UxpzjcNHAJED5gwMKslUx673PRuimaJUBYP0WsdPBCX2ffl2qtv3MjYRjjzVL561xlJUsjdJSDM-KyM81
+
+sprite $ServiceIpGroupsMd [16x16/16z] {
+XSpL0KDH20FG6YJNzz-saBg-mnUMjQ5NIh_sZPvGhptDd03O-vZHutJoOgTWPLnwGpw4fZuPtU8HfKUSgHVMDMUD_eRnejwHfNxKMZmxg1SyxeMuADT-tgmt
+Pm
+}
+
+sprite $ServiceIpGroupsLg [20x20/16z] {
+ZOx50OH0303FuaB_tTvQmfT1TwBNGoBy4ErSOOEMxOGshErafcphEPYEVxyVAfvwZNP2k23rSZjd8RDykWbArOlp_CvSePCjbX6nwh6HjSzqXz61RuTCn2Iu
+NPYP0X3Ik8zR7g6GspNjKXk_7l87
+}
+
+!procedure ServiceIpGroups($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceIpGroups', $name, $tech)
+!endprocedure
+
+!procedure ServiceIpGroupsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIpGroupsMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIpGroupsGroup($id, $name='Service Ip Groups', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIpGroupsMd>', $name, $tech)
+!endprocedure

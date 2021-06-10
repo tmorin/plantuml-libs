@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Security/ServiceKeyVaults
+
+sprite $ServiceKeyVaultsXs [10x10/16z] 9Km54W0W2EC6jiB_VojnjPwPdZcFcjaR3F1ufWF1CFGuYBWuamZCJ3ITaHDd1yLmT1GRwYyGWR_ayuhd3m
+
+sprite $ServiceKeyVaultsSm [12x12/16z] JKw50GGn32A5AfNzftsNYtiuvoptxdMUv29IrSym9qOmPPzLWY-AiaoGaXxEFV1gF5n_n8Xd-8XD0A-ONkKRbtMS0IcG_Vf5YUKHNZ7S0G
+
+sprite $ServiceKeyVaultsMd [16x16/16z] {
+NKy55aGX49fHR7tU_xOBkirFmeajhD7xM5iGwoK3kVIhp8eGtMD0dN9hz2ZEJsMYm-8JZhvNaGL2eR96CWkN1xCq69T0a1gwk0HHSUO9LJTJdlN4SNpMsnqV
+ZdxcCGi0kUOvyxguSzxNFecu-_pl-m
+}
+
+sprite $ServiceKeyVaultsLg [20x20/16z] {
+JP055iCm34CDOUhzRplRqRQgcF-CUa9dhpddFizVQxIQSsrZVSaPBQifQMvZ1zgz2AiIgRAK7d0KDgHubU6rcf3-HDAM5Sla4SbbWPJ7sHR6WS2axLcP349Y
+_tNEGkGGo5Gk0sG2g_TF46Mvotk0wVrfssTnQGApMM9cC8wmTNSBbZpETuC7mHBJzG1UYSU9UNNUdfRoznJUc_Nh8EW3
+}
+
+!procedure ServiceKeyVaults($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceKeyVaults', $name, $tech)
+!endprocedure
+
+!procedure ServiceKeyVaultsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceKeyVaultsMd>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceKeyVaultsGroup($id, $name='Service Key Vaults', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKeyVaultsMd>', $name, $tech)
+!endprocedure

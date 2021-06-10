@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Integration/ServicePartnerTopic
+
+sprite $ServicePartnerTopicXs [10x10/16z] HKor0G113Aek3km_xRl41SZFB1up1q59SBAx8Hu-KvKLq3LL9qJstD-VyQlyoZi
+
+sprite $ServicePartnerTopicSm [12x12/16z] JOr50iGm24KtCU3B_KyxKszVWbj-66DUZD6J5zc3Ga6scNPX2to4Ago8MA73ZzpVNYYmO6xkEUiDndVdzrP--0C
+
+sprite $ServicePartnerTopicMd [16x16/16z] PSxL0G0X203G7mF9_QUzi_FP2SG72W_OXE2ZsgJH0ve9aLY5a3j2ojMiNnGK4IRLH7LD93525YFtTOAK0V1-tzgd_J-sfiRZ5U_EvyxtnfSV
+
+sprite $ServicePartnerTopicLg [20x20/16z] {
+RP370G11208_6nMm_selvzlvcGKEAFL76TFiHIibPuyNddEfZ10SEdAiLOfmMy6HN3C1SufcZB2psqmmm47KlYTbOAid_SofjnCxPbrqqY7sO-7p1gxB-Foo
+_ypdpsDjVm_6r3_yena
+}
+
+!procedure ServicePartnerTopic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServicePartnerTopic', $name, $tech)
+!endprocedure
+
+!procedure ServicePartnerTopicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePartnerTopicMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServicePartnerTopicGroup($id, $name='Service Partner Topic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePartnerTopicMd>', $name, $tech)
+!endprocedure

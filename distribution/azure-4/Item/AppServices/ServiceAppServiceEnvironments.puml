@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/AppServices/ServiceAppServiceEnvironments
+
+sprite $ServiceAppServiceEnvironmentsXs [10x10/16z] FKp50G0n27joH8xzfwstk2InZXco0LkZL6LMUKwCm9moOrZccBvbOrAkOJ9-d_9KnXNaAEe
+
+sprite $ServiceAppServiceEnvironmentsSm [12x12/16z] LKp50G0127egeBZ_jDTf1-3Qh7kl5ge4g0gYPanwHjpdZgXpTcTiYxSvSnzZQrG-9ehdn0Cl0kJMVfgGXAFGt4pQgrS
+
+sprite $ServiceAppServiceEnvironmentsMd [16x16/16z] ROx50S00309_ZK7OVzgwj_U91zGFH8yPpzmYuIq94PX3E-2QOGINUDHbbhSQDWoMMsrWkIs0iBb-0FW3mEggQfbt7cLk-bsP4PdL-lFpz4lp6OlO8eKLSekQ
+
+sprite $ServiceAppServiceEnvironmentsLg [20x20/16z] {
+ZP150aGn349tFq1BUl_JZjJ6vQtYGdk7C2Xb6ceErIkGq0s57NMKI-f6_HvZ1FCnfZYE0zwnRdIuOf0G4rrj6_44d2G2s91C1uWxYBx3kCDphxZHlgLAFQ2I
+FVRtlwzQ9VSBqs2sz22tqSu
+}
+
+!procedure ServiceAppServiceEnvironments($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceAppServiceEnvironments', $name, $tech)
+!endprocedure
+
+!procedure ServiceAppServiceEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceEnvironmentsMd>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppServiceEnvironmentsGroup($id, $name='Service App Service Environments', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceEnvironmentsMd>', $name, $tech)
+!endprocedure

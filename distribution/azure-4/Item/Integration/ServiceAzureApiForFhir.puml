@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Integration/ServiceAzureApiForFhir
+
+sprite $ServiceAzureApiForFhirXs [10x10/16z] 5OQr0G1020CB_8NiFoqIFUHzmBk99o8H8lgSc6LbEaJBQhiaeok3cq0mou036IB4dXWygZ6mkdUt0G
+
+sprite $ServiceAzureApiForFhirSm [12x12/16z] 7Kl50S1027lWKhB_jkLmY01V3p3z0N0LhJRHc28MKPMDS2BYVJVKc8Jf7lK3xz7MjwuJUSUU3eolO_q-s2TKYMFFzwJfdHTLjtu
+
+sprite $ServiceAzureApiForFhirMd [16x16/16z] {
+JOy54e0m40DdUbh__sy9GHSgc_e62-LjLWtFldTFZuOer41jTf9hgjYFLbM0FXvXC6ItUne7dy2RAVm9DAOhUqnLncxEhb5pxttkeCubiU2BMvOYcb06xbR4
+gCyJtAatBVYMZz7lpW4
+}
+
+sprite $ServiceAzureApiForFhirLg [20x20/16z] {
+RSg73KCn24LHoJHNs7_R64ZowrLx766lwUpIfwyzMWnbf5rTrYY6chM2kJT5eifVEng3013mxBKIbWAxGwKI-Oa7ObZEWZ-RJ80NXAP226cGXCl6_p49cfar
+ZW_UEObkKza8o8I4WBBCMnAVfHIWeC3ApDkGQzA1GKVQXLcIZeP8Lxirvtz-
+}
+
+!procedure ServiceAzureApiForFhir($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceAzureApiForFhir', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureApiForFhirCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureApiForFhirMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureApiForFhirGroup($id, $name='Service Azure Api For Fhir', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureApiForFhirMd>', $name, $tech)
+!endprocedure

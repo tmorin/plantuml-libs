@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureSqlServerStretchDatabases
+
+sprite $ServiceAzureSqlServerStretchDatabasesXs [10x10/16z] HSh50O1G30DGh9Bg_jFYyD-badGNDFlYJCHMtI0-aNQd-WbnjQ3OxWBShoffGGLcCE-gJ3SxjylOykpc0G
+
+sprite $ServiceAzureSqlServerStretchDatabasesSm [12x12/16z] TSUt0KCn30DH9qP0nFxJ_gJQhxgJD5cZ3MuMk8jXZrnIUzObd9AIYIxat0tl_DdFl9N4ejirfO9LTbSrXLL0twW7_lG2m3a1
+
+sprite $ServiceAzureSqlServerStretchDatabasesMd [16x16/16z] {
+XOw53GCn34KBPjn_smPLyRsW-VSanFjFAG9gNii9OK1MAvNnmZ5i9UGDaiu4vugOcwst7OX1O2GUDUqaIlh2Tm0sypCxy0iJNVcKR2hCOj4X0HXa2uzEBxCo
+l_RXoOvjvxKhtQUU7m
+}
+
+sprite $ServiceAzureSqlServerStretchDatabasesLg [20x20/16z] {
+fSoreK9154NHBzUr_suPmydOJsS5ftUksS-b898_IYd223bkP3HfwHb8mNjdG6dydSOlryGagLEWBUeYJMPR3thV3436mmB4xBMDK1F_Js3JUcprG004-FyV
+ncVFX12Hn6AOhJsqat-sZYpt-TpjrZSMVgpwNiLio0K
+}
+
+!procedure ServiceAzureSqlServerStretchDatabases($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureSqlServerStretchDatabases', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlServerStretchDatabasesMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSqlServerStretchDatabasesGroup($id, $name='Service Azure Sql Server Stretch Databases', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlServerStretchDatabasesMd>', $name, $tech)
+!endprocedure

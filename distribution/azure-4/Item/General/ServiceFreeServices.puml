@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceFreeServices
+
+sprite $ServiceFreeServicesXs [10x10/16z] BKc54S102Bihbl32_jls3OdszgR3tNmF46vc7h5Kc8WjHS0-MHsJ394WisKciA1LrGJceYMeoYD7hXbLFm
+
+sprite $ServiceFreeServicesSm [12x12/16z] FOa50eGm30Jl85xx_syPTDeaAwD_ZB2FEBNgezrD1USUwUwoxSB9Z8WTpSd2wRPhP5Obq4FDCKQFw9ove9lrTLCgedNhtg0Z3W
+
+sprite $ServiceFreeServicesMd [16x16/16z] {
+LSu34WDH303GQOp5_M_Re7o3Z_2-_joXVyAaCCkB-Ro9PR_SAwdYn9LJrteN9aJYldbOOG10iHBlDzBhxKNW0QXU8hqfqJmzCzg4Mkw-KPMxxt8Hlp-kP2BE
+2YwZOP_uEIR-1
+}
+
+sprite $ServiceFreeServicesLg [20x20/16z] {
+TSi73eCm44HHmNORyFrlcstfoLETBytwuJ3zO8Tn8duoguJqqJhUkmq9H1vTZb6DlNdaPtEmEvHk6h81IevVRKvDi6t-rMwM1FUTr5Asgc9jdgEO6-LSvL9t
+hTPDcEMZ3NBZjKn6SCZpsPIRhdzk
+}
+
+!procedure ServiceFreeServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFreeServices', $name, $tech)
+!endprocedure
+
+!procedure ServiceFreeServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFreeServicesMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFreeServicesGroup($id, $name='Service Free Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFreeServicesMd>', $name, $tech)
+!endprocedure

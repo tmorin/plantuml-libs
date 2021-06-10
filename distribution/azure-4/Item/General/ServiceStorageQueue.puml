@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceStorageQueue
+
+sprite $ServiceStorageQueueXs [10x10/16z] FSR70S0W30D0a4G7U_zfqyEzphSvFhEtJo-YfAHKCW9Y99ZBDvLx07cDWO2kjVfflfq
+
+sprite $ServiceStorageQueueSm [12x12/16z] NOo55G0X34ChoSDX_sdFbL_NyQ7LXrRoGqanX5qtKe2gcy4T8RY8dMK84F4fT-UTOyyZZqC2ZD__uyCA
+
+sprite $ServiceStorageQueueMd [16x16/16z] NOs50SGm30DZ2iF-q_wNM_c29cbv9h1Q1PgFQmPgCXNH7TksfMGS0ZCH2xFiCK6SiPxFM8X4VIoYMno_STpYgtVts-AIW38To_47
+
+sprite $ServiceStorageQueueLg [20x20/16z] {
+ZSc50O0m34JHo5rms7zRtAsl_jibQkgRfYflgiTMt5G5RugSq05i01-0-T1au3g03nzxmzhygP5vSM_5sapLu8EnnRN5qBWrxar5b3OWrXOSZ7iiYhgygRj4
+FG
+}
+
+!procedure ServiceStorageQueue($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceStorageQueue', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorageQueueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageQueueMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageQueueGroup($id, $name='Service Storage Queue', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageQueueMd>', $name, $tech)
+!endprocedure

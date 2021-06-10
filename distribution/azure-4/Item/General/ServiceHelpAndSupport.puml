@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceHelpAndSupport
+
+sprite $ServiceHelpAndSupportXs [10x10/16z] 9Kg50SGW37pf2H3PVzeQqRFkd6FCwhkcASy7BG0S-MWaDH-KalngYu3M1hy_N5qc3v3hJV7UqUdxlUW2
+
+sprite $ServiceHelpAndSupportSm [12x12/16z] FKt50S103Ah5EDj_stBAAq5RQpaYK7ZqqyqYQh-BYuW6-brDL7dNSUkv6un0zBj6zoFtq-Mx7z5-9rLvFbMZnvLFJoTQR05Ssa3x0G
+
+sprite $ServiceHelpAndSupportMd [16x16/16z] {
+JOs54G0X30G7YHtMVxTFyiQYom5Pcm5LjROUXXcyut6O4f6OzJSdXs4pV8eRizcuS-40U1veg40Vx-BOvoroQss6WYYdL4aVPQAICj5zCFrtIjMVjEzn8Pzr
+kud34epmdrqGUZ3M1G
+}
+
+sprite $ServiceHelpAndSupportLg [20x20/16z] {
+ROy54iCm30GdYKLd-lzlQsYkk1hS4LrVbF01QYSD7XXu53eumbHZI7O6J2OQ4PmDsLZsUZlRIXM1fwjwam7sqR6lXzh2uNJLjylnvcmsgfNCA5dbEaU9ZYug
+ISTn91cIWpeQZrDqi1D39-cuTEBlp-qsjTbOR2Dg2z0PcSFuuuf_CcOV
+}
+
+!procedure ServiceHelpAndSupport($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceHelpAndSupport', $name, $tech)
+!endprocedure
+
+!procedure ServiceHelpAndSupportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceHelpAndSupportMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceHelpAndSupportGroup($id, $name='Service Help And Support', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHelpAndSupportMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Analytics/ServiceDataLakeStoreGen1
+
+sprite $ServiceDataLakeStoreGen1Xs [10x10/16z] FSg30S0m4030wgtzjsrymRCE5rQF9arO61lgFtmx-rvOsNEtZ9c80DhNrblHYSgYTVm
+
+sprite $ServiceDataLakeStoreGen1Sm [12x12/16z] JSQ50G0X243H2sbZ_sdjUWhyT0ccwkDeByGcJ9KALmWDCLRWiEBU_mUhuNrSQo4YT3_MqvkW9Odm9gQRfKi1
+
+sprite $ServiceDataLakeStoreGen1Md [16x16/16z] NSZ50SGm40D0mxAf_seFel1y1Ejbmhbxg4YqVlozkLaq4_2mZJ2OusTY4RasLQGxiXJYswuf5S7M7w6IMV-mLOcG7aXMYB2D6c1VOew7kLw-
+
+sprite $ServiceDataLakeStoreGen1Lg [20x20/16z] {
+ZSg53GCn44HHq_9Ut7-r8MCuJpJwclgdm-t6ZwsvSScPRjaQFxdfZIaXTEhI44mYsAo4io5aw6krd70q7RSOSsbJHqiXXDc8xhSKGyBP6imH-voDCj1BApIR
+SKF4WussCTSNNlzq0G
+}
+
+!procedure ServiceDataLakeStoreGen1($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceDataLakeStoreGen1', $name, $tech)
+!endprocedure
+
+!procedure ServiceDataLakeStoreGen1Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataLakeStoreGen1Md>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataLakeStoreGen1Group($id, $name='Service Data Lake Store Gen1', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataLakeStoreGen1Md>', $name, $tech)
+!endprocedure

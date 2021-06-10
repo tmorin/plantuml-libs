@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceScheduler
+
+sprite $ServiceSchedulerXs [10x10/16z] 7Ke50W0X21irBbJ-_rgBNDNuCeBVgF5IOD3t0ZX4Fpg0iwG1aWA9g-a-p9E3xDpFk317VGpt-4PLlVkTlm
+
+sprite $ServiceSchedulerSm [12x12/16z] 9Km54W1124Bdn2kN_xzsqmv0gYSPV4hId-6Opb-LOS056EkcOy_m9uXfwmV6Qfw-GEVkwq9kFCpXxyDvsbjMkzTYMrzr1pFpRPfMvBS73G
+
+sprite $ServiceSchedulerMd [16x16/16z] {
+DO-50O0m30GZV5BF_jjIFQZSroDYb9IIUwuZ5itTb9a5kH_zY0XC9Ad7cCeyNOXOyiXcqvRlkfgjsSybmtLr-3LmMVCbsTBbIWlTwpZ1G1k6pBGak12VXCbw
+mprm1L-9AF0Lh1zvH0o70Ihw-NdGA82NMjkoHJTuZyiF
+}
+
+sprite $ServiceSchedulerLg [20x20/16z] {
+JP053iGm30GJSuF__-rjIBefZqdr1ADz7k0hRSn33miJ8cADqezoTyaf4QwiNrlAp2a1bGJaGoOAET5pbBICgcweUGwlqLoHjdWEYMgUpxjTnnzSsfB2ZwDG
+iqmx7B6UEI_tQXdHMwi8NtHBAQukwS5msTiQGkcbehLyOvZwwPDFQk3VgcdOogEZwWIV8bFsLjYmbiNuJDN2tUEhOrwg8hNrtc4UtTI-l-yV
+}
+
+!procedure ServiceScheduler($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceScheduler', $name, $tech)
+!endprocedure
+
+!procedure ServiceSchedulerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSchedulerMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSchedulerGroup($id, $name='Service Scheduler', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSchedulerMd>', $name, $tech)
+!endprocedure

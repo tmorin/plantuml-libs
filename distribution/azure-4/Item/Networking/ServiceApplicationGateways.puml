@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceApplicationGateways
+
+sprite $ServiceApplicationGatewaysXs [10x10/16z] BSQ52G0m3011QEIXakm_RVsmowtMV2hK5_VNYXbEtT5YLfHQ4L4LeMO3KMYPkqLERdzsRnO
+
+sprite $ServiceApplicationGatewaysSm [12x12/16z] HOg72G0n3CI8EwdxR_k92s_AISBdNU-dhgls7qkwCgTq5PPxLsu5P0PWxPSR8r6xV8QA8jsVSSuJ07MySdlY5REB9O4V
+
+sprite $ServiceApplicationGatewaysMd [16x16/16z] {
+JOo55KGX40EH973UVxUNVMY-mCpAR-Jvd9U9qlF6vZmlx5DCLEKHRXRKEOMhgaP2id0LEGD4odH7S2egLJa5HpyOJ6WkS4gD_-iNUVLOmTQDKoWNJPnYL8yO
+UCJ2Fm
+}
+
+sprite $ServiceApplicationGatewaysLg [20x20/16z] {
+PSs55SGW40JGzU6Y_LSRmLzky8-TBSjoVhD4BF_qnGL82HK7uSqoasjaNmR163zpPAmK_jGKKV4XTsKymkR-uWf0cIJKWeaDm9gDo8C5HfJjlMiYh-MnF_Za
+DM3-k5gbYY54MgbYWX4xKgQQzS5ACpvP9wXOQSP1Dm
+}
+
+!procedure ServiceApplicationGateways($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceApplicationGateways', $name, $tech)
+!endprocedure
+
+!procedure ServiceApplicationGatewaysCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApplicationGatewaysMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApplicationGatewaysGroup($id, $name='Service Application Gateways', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApplicationGatewaysMd>', $name, $tech)
+!endprocedure

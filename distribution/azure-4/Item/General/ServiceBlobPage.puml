@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceBlobPage
+
+sprite $ServiceBlobPageXs [10x10/16z] FSQ50S0m40B0Dw3U_QUj9haNE8TrQTPbRXOHU9TIMfHRuctcRfQZXLJk4UwfUMhcSxW1
+
+sprite $ServiceBlobPageSm [12x12/16z] NSU50GCn34DH6HI6_QTjZ-a5_3qVsaF9bvBJ9KUQaMvEnkY0kK9yQG9GmRBiBKlZssxcopF6MYvrFlm1
+
+sprite $ServiceBlobPageMd [16x16/16z] RSU52KGn50NHfpUUz5_jxdS_mC2CftupIhef-VuvnviS0NTWRuokpE9prTtd9s9p8HBRdrXahkvFB7Fbut5zJEywioM8AToa_Z0U_W
+
+sprite $ServiceBlobPageLg [20x20/16z] {
+ZOk53S1030CVmr7tdxRCV0BBrFp4zO8hNz2_6UC5fbfBphbEKceFzLaA8VHXdcJAuc3AMAMoosBCQPJKPpnzUpj9A9LlCpXb5ROixJF8QI2ND39c5zZaWZK_
+wG
+}
+
+!procedure ServiceBlobPage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBlobPage', $name, $tech)
+!endprocedure
+
+!procedure ServiceBlobPageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBlobPageMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBlobPageGroup($id, $name='Service Blob Page', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlobPageMd>', $name, $tech)
+!endprocedure

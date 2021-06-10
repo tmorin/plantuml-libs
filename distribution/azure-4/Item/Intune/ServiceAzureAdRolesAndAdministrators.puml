@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Intune/ServiceAzureAdRolesAndAdministrators
+
+sprite $ServiceAzureAdRolesAndAdministratorsXs [10x10/16z] 7SZP0SGW40BGtJ30UFTVRQA-7uwrHghCTIJ9UigqfBnViLrlgvBQF1Vn0yEZY_4FF72HH0Rez2OWSlIZgiuF
+
+sprite $ServiceAzureAdRolesAndAdministratorsSm [12x12/16z] HOjN0e0m24DL2Ec4-v_MtVPzPKP4esMFbsu0ygUBFVZI_7JdJOvVmv3TRzaC-oQ05dS2igiSXx3UHmXK12cJlAsAWhT-UFBY_QLbzhW
+
+sprite $ServiceAzureAdRolesAndAdministratorsMd [16x16/16z] {
+TOvLWaKX28ODIc1m_xiTyDJJ_KpwtqaeiyP-2C64NuVXGHzRw22_REM3VltAbB_7TaBAxH77N8YZjO68iD9ZX0Yj0Smn1bWmPVBeMFO4SIe0Si-994etQKBQ
+Ys-Wqc6Pt31cliQE5or9_m
+}
+
+sprite $ServiceAzureAdRolesAndAdministratorsLg [20x20/16z] {
+TSvN0aCX24HHdinWr_tlDhRqv7uU2_HLZI7arbzBnf6lBrIuyoyMZbbvKFDsId_i5FmfFoqV2krfBJwlFTS3Z62ehPrRWOI8NA0HU_78qIMYX3hd45lFdAd8
+f9d67cp6on4J5OprBAomYKgpM8QTE0ZJad_4zHHyDSCogpM-v5MPMdylXxdo3G
+}
+
+!procedure ServiceAzureAdRolesAndAdministrators($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Intune/ServiceAzureAdRolesAndAdministrators', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureAdRolesAndAdministratorsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdRolesAndAdministratorsMd>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAdRolesAndAdministratorsGroup($id, $name='Service Azure Ad Roles And Administrators', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdRolesAndAdministratorsMd>', $name, $tech)
+!endprocedure

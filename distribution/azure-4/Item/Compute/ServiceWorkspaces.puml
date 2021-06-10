@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceWorkspaces
+
+sprite $ServiceWorkspacesXs [10x10/16z] FSA55OD000Kmv2js-qzRBtavRv7yQYVhh6KMcM8LLaijOSj9kqucHNUpaWZ8yH5o7n_NgNtydEC9
+
+sprite $ServiceWorkspacesSm [12x12/16z] JOk50OHG34EHnk3B_jEU2wyk6HTYwUaFOgmxjuq47ImRr-NP9om8aAX7lyFaKv7ZyME0HH-7tligvCWBL_6OuqKpqUQNncV_OSmx
+
+sprite $ServiceWorkspacesMd [16x16/16z] {
+NSm50eGm30J0Ih8RkOF_lnRtGThe-97-aau0n884wCvMAhGK8LJNk5wnR76lZQXLzteOITj_YmZhhPDGadkyx2DLgO8pjZM6Y3B2IRejbbWqqazhR3bSI8WD
+usKOKtIFJnxZrmm
+}
+
+sprite $ServiceWorkspacesLg [20x20/16z] {
+ROm50WCn20GZi4ly_xyjkNhJYJB8-iFe1wFoe5H2H40LKH8EQwM649GfX4IgSpYH3vUVTN1d-qF3ZeoEkRFzxjiUk4EC4VSwy7BDuFFSxUcYSDS-72WxuQum
+vyn2W2ORr5RUN4xP3iVIvWTTeA9jhWzccqs4R_60OeURL-l93G
+}
+
+!procedure ServiceWorkspaces($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceWorkspaces', $name, $tech)
+!endprocedure
+
+!procedure ServiceWorkspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkspacesMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWorkspacesGroup($id, $name='Service Workspaces', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkspacesMd>', $name, $tech)
+!endprocedure

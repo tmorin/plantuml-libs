@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/AppServices/ServiceAppServiceDomains
+
+sprite $ServiceAppServiceDomainsXs [10x10/16z] FSA53S0m40D0AO-s2_jFMsvEjq-h-D2gZaUhwzCPdqmRTXcMvUPszQhu5Fg3VJe1
+
+sprite $ServiceAppServiceDomainsSm [12x12/16z] LSg30S1030308kR-qzQyHzWVcN7PCeFv01gkSb5dVF0lX_aqmPPFqtN_E_HWjuVtnme
+
+sprite $ServiceAppServiceDomainsMd [16x16/16z] XSs53KD1203G1BVqzf-stztUkG3jGsNuAh8g1LOodDrMdcLoOCO7DsT411YclWtduJGF6Cw4IDCWkiQVwxaU-E-adNG
+
+sprite $ServiceAppServiceDomainsLg [20x20/16z] ZSY54G0n2031YUFqt-sxwqOv_ydqmeGPsWumYp2bi9DeQ8omWyn2S45GBk1_IodEEyRX7LgElTqrj1BwN-bFwAyKojXoRxxwtJSi5tZRwWKANOZ_r04
+
+!procedure ServiceAppServiceDomains($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceAppServiceDomains', $name, $tech)
+!endprocedure
+
+!procedure ServiceAppServiceDomainsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceDomainsMd>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppServiceDomainsGroup($id, $name='Service App Service Domains', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceDomainsMd>', $name, $tech)
+!endprocedure

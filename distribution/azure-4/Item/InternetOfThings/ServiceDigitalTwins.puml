@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/InternetOfThings/ServiceDigitalTwins
+
+sprite $ServiceDigitalTwinsXs [10x10/16z] 5Kp50O0m46k9uTb_MkG-5s_FSBtQtdiubBrT4vFstdndKElz8m9a8ekO2wK1O8v1xSudJaYzzjMIlFQR_d2ElW
+
+sprite $ServiceDigitalTwinsSm [12x12/16z] 9Kt50S0m28oSDBx_jetm0KxNMatunZepYdE0wzoWRKRQtrpxt4-MrDwjdC5ltXFx1lOX4pd6_Id6ZQOG4lbbQECXP7BMxnC9aDfbzJoaswdkhKfbhXy
+
+sprite $ServiceDigitalTwinsMd [16x16/16z] {
+FO_5WKL140Ad1UZd-MUxO_lhXbpgwpn5rFDjtajqWyvtnhj4j9QahXulTPYMqYoqo20flV-PdfduPI9cKU--PtfaXpDoPFFiA2o0Y6YjUGBoPX7kthFrV30u
+_zPt0EzPLGAG4UXqcwEAMF2O2aU98-dUYizpYno6Vm
+}
+
+sprite $ServiceDigitalTwinsLg [20x20/16z] {
+LT390GH124BHQaMmz_op7QtPt_5pusxNBZAF-yUP3BFGThtBjOcqCPpKTazxIgBFHgrd9qt40hMig3SOYxJzD1e2mV_cvW0YlotGhUdu9C0CK_mqNvPdJRfH
+Gbd668Q8I1zZCRSoscpe4Lu-RLD0gIXMoQBSUxPeRXwjdjggCRwopphMJBqh-vgslogfxzjNMKdEgny
+}
+
+!procedure ServiceDigitalTwins($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/InternetOfThings/ServiceDigitalTwins', $name, $tech)
+!endprocedure
+
+!procedure ServiceDigitalTwinsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDigitalTwinsMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDigitalTwinsGroup($id, $name='Service Digital Twins', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDigitalTwinsMd>', $name, $tech)
+!endprocedure

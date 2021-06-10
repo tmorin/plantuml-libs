@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceLoadTest
+
+sprite $ServiceLoadTestXs [10x10/16z] BSd55GD1342nPnpsxx_QP4bNmMwPRNEf5j6AMtVlF9f8ursLTvUB-G9EgfhaWH4HxZ5OBHzjpV6PVm
+
+sprite $ServiceLoadTestSm [12x12/16z] JSp70SGW3011X2AWq7-rTyxslFQrLMMwiJfCtiopGvWbhcP4Vhgrkvqxi1-PrW79yjm081oZK2B2ZXgLG_WW8wVfnURN7m
+
+sprite $ServiceLoadTestMd [16x16/16z] {
+NSs35S1G30NG6FtQVzhQzp1yOvMnot5AtTrrzwtqFYv7FMukpFAk2O3_TTnbSsPaRrSTYa1qvnKZG1MsSco7828XIEmNQI8gmYIUsxQRdipBkkrsysWP7rcc
+Zx8
+}
+
+sprite $ServiceLoadTestLg [20x20/16z] {
+ZS-35K0n343H8gxst_RRVCUtJ1iocREs9ZWdcsMPARSjdKpRfq7VsRnp_fVvtcn7XT63zyXrCwNO7mr0s-7Cs1DWGCupLQ7Wd0FmWMG-RGmXnX1yxsppi8H3
+0342ZIDNPTp5sfyseKDYBOdmdbWagLpId2xb3W
+}
+
+!procedure ServiceLoadTest($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLoadTest', $name, $tech)
+!endprocedure
+
+!procedure ServiceLoadTestCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLoadTestMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLoadTestGroup($id, $name='Service Load Test', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadTestMd>', $name, $tech)
+!endprocedure

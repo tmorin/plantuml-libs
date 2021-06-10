@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceError
+
+sprite $ServiceErrorXs [10x10/16z] FSQt0GCn302nHc8cR_zfxS-e0AIP3sVq432X9sjSRrRsyOkfUSSv5I-ckqksSsdPniqr-GC
+
+sprite $ServiceErrorSm [12x12/16z] JSZ50GG120F03n8q_LTxkZOu93U16Fw4cndsz_MV8Xl-XoPkXOSufWFHyGFpA4vz9DIAVskgr-wgoKDvBDy
+
+sprite $ServiceErrorMd [16x16/16z] NScr0K0n40BGwWw8iV-qtpMlGhmRXMJrhI4tA3uDujJELxXeFuK7sx3mGGt-5Kx41xYfkZ4XQJm38bMwtUj16S7XXo82dywjvwUNpAHVGrItLm
+
+sprite $ServiceErrorLg [20x20/16z] {
+XSg53SDG40HHmOVTm_wxJSpdu1EF9ZSk92Moa3aMyBTKeyyJzoAu6c99YbbflAK9MkATuHtnryH2MM20Jo6bpJv8QhgKhNU8PMQuRcJsteTbPNrnRxesth-n
+DCagCCQOdZTESaaF
+}
+
+!procedure ServiceError($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceError', $name, $tech)
+!endprocedure
+
+!procedure ServiceErrorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceErrorMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceErrorGroup($id, $name='Service Error', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceErrorMd>', $name, $tech)
+!endprocedure

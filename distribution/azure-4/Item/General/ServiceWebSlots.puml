@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceWebSlots
+
+sprite $ServiceWebSlotsXs [10x10/16z] BSQr0G0m40B09lO2x3zj_AhJGTS5w_KsMkljRZZWFFE8i77gxZ4wHRo1QM-UQR6vxuql5m
+
+sprite $ServiceWebSlotsSm [12x12/16z] HSX90W8n50BHJSOYVEz_MhKxKwqUV6R4GWnAcqCr_zD3bzfLcNTtX1oF1q8KjfcEQtTDTpmjAjrk80beVv_y0m
+
+sprite $ServiceWebSlotsMd [16x16/16z] ZSV70GGn24FHYqb2MFrNkpdEQRu3FBrZwxSDum_IpPmlTjWZF3bk7aWhFQl0I8HU0HnoW7wwWTjbU9xnpDSpsbLVT-sRSJ39kTrktfsHdoAta3z1Lm
+
+sprite $ServiceWebSlotsLg [20x20/16z] {
+fSg53SGm44HHaMTvt7-t5sQBxYUcf-sNdFqPeG-eqDRiAeusTSMSv64r4Q26ovW1bkoKawPxBMUG1xfxnhn4z68nkmF2VoqyhrOUqv3wpTI7bX4vhGfLMypK
+SY-cr2R3eydI7cN_0G
+}
+
+!procedure ServiceWebSlots($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceWebSlots', $name, $tech)
+!endprocedure
+
+!procedure ServiceWebSlotsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebSlotsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebSlotsGroup($id, $name='Service Web Slots', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebSlotsMd>', $name, $tech)
+!endprocedure

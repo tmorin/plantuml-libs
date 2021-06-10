@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceAutomanagedVm
+
+sprite $ServiceAutomanagedVmXs [10x10/16z] BSYt0G0n20F0WfTCCB3_jkzqZOAEHqc2m8eny8bWvMe2o6ggnFvKpPJBoarFLbMgvehk3Y1wSmBqxXy
+
+sprite $ServiceAutomanagedVmSm [12x12/16z] JSc54S1020J06PpN_hlD4TyNvEB7JgfsOO4Qt4s56BqN9JDID148cDNGPM80pqiWJXZGCtlL3SEzwjMgtiCo1Ljx7m
+
+sprite $ServiceAutomanagedVmMd [16x16/16z] {
+RSe75WCW30BGzpH0OjVzRzj8z_XkeV93yG-Wjm0Vvem6VqZgQ3I2Cc8EQKo_CrE8GOr0FmoQtHVoJZJ7jSbFN-zsO4TRcSkNqyLAgilBYG1tPETYDDRvaTxj
+nXK
+}
+
+sprite $ServiceAutomanagedVmLg [20x20/16z] {
+VSm50eGW40LGuyTWtl-sQmDRJwcf8NqOz1-e0d7kqC4RzHqxe2CeNmIoQTk6WdDigzI-aEk81ZQQgpSsfj597Kp7ZVO-J-OLk0gbfomTJ4M8JgMmv4W_3VDf
+IjkO-RIifzcRUQsCsWnbP9d4ZQObXuIBdk3iopNo1G
+}
+
+!procedure ServiceAutomanagedVm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAutomanagedVm', $name, $tech)
+!endprocedure
+
+!procedure ServiceAutomanagedVmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAutomanagedVmMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAutomanagedVmGroup($id, $name='Service Automanaged Vm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAutomanagedVmMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceTimeSeriesInsightsEnvironments
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsXs [10x10/16z] 5Og34G0130G7iRR_QX_X2ShKh83qlcjFofU5jSgX7PZC2DMkZ0zyg_Q_-KF3PCLza8kYOkxc0r3k7Wql
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsSm [12x12/16z] 9Ku50WD025eAzlz_E-vcj-msloBsAeH5LHXQ8MP50pHjjlBqZL4gsMbLE83F9qFEUGo-NpbcgPqVhhRydedHGM_oVvDi6MHtufRQOOOGXXy
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsMd [16x16/16z] {
+BK_N0W0X27efroN-_zyUMjm8o5bL25bhRGrK0xgtkWl_kD9E-yTejFHwS1gnZIpoPOO9QTAS534a05sRcKJ2Di5sVgIPpL-YpM6P8CeOqV7fEgLpXadrJsxx
+e8J9no_g8SJOniLl2WbgejGYJCNUWfy9uQVb3m
+}
+
+sprite $ServiceTimeSeriesInsightsEnvironmentsLg [20x20/16z] {
+FP1N0iGW24H_O02btF-sgxD9NggFiSubNUK0ptcvHe7xzaU5AbPsvu9gl6hra5v_wKVDnv4-2QgEViT6kbhVkZpXDlKTUVyWDdyozjJ5HIIdYxJ9YpU4c0h1
+4dtBMd-QeIYIAuU423TsHC2RhlwBQaUKOGzPnJYipeloOGF12hupU1Ibx-pExLGa383nHKKg7BZfciiF
+}
+
+!procedure ServiceTimeSeriesInsightsEnvironments($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceTimeSeriesInsightsEnvironments', $name, $tech)
+!endprocedure
+
+!procedure ServiceTimeSeriesInsightsEnvironmentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesInsightsEnvironmentsMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTimeSeriesInsightsEnvironmentsGroup($id, $name='Service Time Series Insights Environments', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesInsightsEnvironmentsMd>', $name, $tech)
+!endprocedure

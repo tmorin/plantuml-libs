@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AiMachineLearning/ServiceBotServices
+
+sprite $ServiceBotServicesXs [10x10/16z] HKp50K1H259uNUm_xU_m8YtDLafRaaQ2E_FGJ6uuBgz6CtU0hVXX7j3BZnfnG3EsbS-yULuQcVUAj9xb7G
+
+sprite $ServiceBotServicesSm [12x12/16z] JOx50K0n24D31QtiF-rtwRlW97FExghUvubpJgbmd6ab752DsPb0-O2aUyRLpoYk2PaECfAjkHVawnObkjoNE6vdF3ylWP1oQCcPdXxCulIm0m
+
+sprite $ServiceBotServicesMd [16x16/16z] {
+PO-55KCn24MZE2VxRzj7lVqtYiCfqbGjpfDKte0rxwBp7WsCpLvMNkr1Nm8FtVZE1MRVUeB7szm6fsrO7mh4aPNxwhDZGzuNsQWSYmeZHpxOsmFaGxs-YagA
+UYVbRRxtSq9U_Kgyvg6zwJKF23FpXtG3
+}
+
+sprite $ServiceBotServicesLg [20x20/16z] {
+VP05aaKn20I3F8Ru_M-xXBNlNTw5paxMRC5O-u_L7J03lF_QMN494x4QwlnMRa8b8OKVkQf9-KDGexr3ioAHekXx-KNPTX0jP7KDH2V_T5Aqg8-644h_Zj6Q
+qN5yAlYJU-xj0_hlokdnkJoQBw53oBmbRnPDZbJlvpSy_9OPu7_7Np0LfXoeUQZVJAiZyDflanuHVPy_vWi
+}
+
+!procedure ServiceBotServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceBotServices', $name, $tech)
+!endprocedure
+
+!procedure ServiceBotServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBotServicesMd>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBotServicesGroup($id, $name='Service Bot Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBotServicesMd>', $name, $tech)
+!endprocedure

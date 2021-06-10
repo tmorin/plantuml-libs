@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer
+
+sprite $ServiceAzureDatabaseMariaDbServerXs [10x10/16z] 9SO73e1020J0X2OBwlx_jLSdRVYdctd-P8gvcu1ymvTuoQyBGDuLBBuzF2hOWwjuxIMGEEjQrdQxUcK2
+
+sprite $ServiceAzureDatabaseMariaDbServerSm [12x12/16z] FOi54i0W30I7nXCW__zjhxfZfztJXLbyDYGH0oAOnIIgGhowTxgfckU6hWIX_kaGoaU7yP2wTV0OXzywS1IB-lUPlmRGCAl0X3m1
+
+sprite $ServiceAzureDatabaseMariaDbServerMd [16x16/16z] {
+LSs50SCW40NGvjmIzj-sQEMZ3ssjtQ7Set6taIJ06Q0S5i2-Aym4CXo4n2BSXnYkiAw-Ob7J6IlkVnQKN-j5yRKBN9B7Jd2zmBV327husDZSHJssrsUzvV__
+sq_cyTDcdigUcde3
+}
+
+sprite $ServiceAzureDatabaseMariaDbServerLg [20x20/16z] {
+NT055e0W44LHQfBQ_sxzDeTdNvjvrfollCsdHZcbZB2cMtjEkJnXjxz6B8ZfjQ455nB2PKN7PTMLgI1YzVfOTMJcQB4d9VBDD2NPhhCSQ7kUbXYbBcQKOmZ9
+5bD8Z97yC-NxluX_aw9ueB3vRtu5MUp1pr1RxHdL0Vm8bpqwsbM_vG
+}
+
+!procedure ServiceAzureDatabaseMariaDbServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMariaDbServer', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMariaDbServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabaseMariaDbServerMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMariaDbServerGroup($id, $name='Service Azure Database Maria Db Server', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabaseMariaDbServerMd>', $name, $tech)
+!endprocedure

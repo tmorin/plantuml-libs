@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf
+
+sprite $ServiceWebApplicationFirewallPoliciesWafXs [10x10/16z] DKa50WGX2DmGc53v_sklZvZiNgIyktkogh9Mkv0H1MtUryYeugppk3B75SPrlhgymmf8VBrdoGGbzV9VlQLe-ma
+
+sprite $ServiceWebApplicationFirewallPoliciesWafSm [12x12/16z] DKu50WH129fK0M_z_szlqswfAX7KKIST2ezmrna6mcoRHPRCRM_p00_CthUTYUFdlRLr3erk6QEDxUvpM78la8ZJA2runwAAPoNyob6L-cRgIcuKoZy
+
+sprite $ServiceWebApplicationFirewallPoliciesWafMd [16x16/16z] {
+FOy5WaCX34JHJ0no_zjkmhPzNnb18ZccedRYWmj9eK-v9W8mQ6-Km2pCEo6mtZX4pzj8GooCnfYBg6mMlR9QQuEe8WjoPEIuxnHMRrFEpyVkVV1HZ46YYLJV
+7Hjl19Jg5oHcvOhcry8uTI5YJQ0HNhg8wFFV2VINy7TUTxUqFVa3
+}
+
+sprite $ServiceWebApplicationFirewallPoliciesWafLg [20x20/16z] {
+FP053aHH20E_0IqykVzjbwvDZ4pmBTQePDPO-yzC1qME_MMG8Gb4y9EQdG2FS1DlINzdMEC1iBez35_L1cJEFV08SrUQPEt2THpdPU6gZG1pquxcVBmnkwu7
+kVWSudQX4c_dvpylxevwcyHz7hUX8KFJEOls64lek6h6X3bIiAkfO6mQbDRnDw_T3BAoq5af6ALFAOy0yfs6TdkzAoiZWeh65kFlyk_c45f3p1S
+}
+
+!procedure ServiceWebApplicationFirewallPoliciesWaf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceWebApplicationFirewallPoliciesWaf', $name, $tech)
+!endprocedure
+
+!procedure ServiceWebApplicationFirewallPoliciesWafCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebApplicationFirewallPoliciesWafMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebApplicationFirewallPoliciesWafGroup($id, $name='Service Web Application Firewall Policies Waf', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebApplicationFirewallPoliciesWafMd>', $name, $tech)
+!endprocedure

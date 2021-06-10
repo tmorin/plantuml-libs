@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AzureStack/ServiceMultiTenancy
+
+sprite $ServiceMultiTenancyXs [10x10/16z] 7SR70SCm30F0n3O9Y7N_QTNkTTq3rfT34PbtW9dj9i4yAyehDFCUq5T1Mf84gSeS1pz1z5RuHDct1iy5
+
+sprite $ServiceMultiTenancySm [12x12/16z] 9Oe50aH1248t5R3kVzi_yIQKc4aWvj8myvpUU_b2ePqr5Y6frqvtLAnzhVRz6AXLall_kn9Ik-ssdxDmiP-nCpRu_Smr1_pNZhaacFC
+
+sprite $ServiceMultiTenancyMd [16x16/16z] {
+JO-5eGGm24E_00cXil-sLpbxLHpcd3sPVRuPZ0Xy58e5D7jTNMB39kaesX98rPBhnYzolEs2kwDUiYBizpz07KK1y3zVTsPAarWO5Woa1ZVW8YnOHpx0B52p
+T4bVybVRj2q7NtAZMu0rt_GpzGC
+}
+
+sprite $ServiceMultiTenancyLg [20x20/16z] {
+LT05WiGm243H4GQN-zzs2RNig_zwggMAQDOk6Hl_Yuf3U_VgIGVECBNSMdDjLaFcAfPfvxkCXyTsdQ-hIBAiMnoN4Nw_Nq3kD74ImliDY2Jd0uCQVZwutgFI
+sKjf0Q15Ukwty43aXG1PD7dJboD9rDv-gr6KoWrXjNs0Kk1eg7NZgr4zN7xTnBDs8VDhVm
+}
+
+!procedure ServiceMultiTenancy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceMultiTenancy', $name, $tech)
+!endprocedure
+
+!procedure ServiceMultiTenancyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMultiTenancyMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMultiTenancyGroup($id, $name='Service Multi Tenancy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMultiTenancyMd>', $name, $tech)
+!endprocedure

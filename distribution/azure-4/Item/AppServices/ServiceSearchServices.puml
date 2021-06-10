@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AppServices/ServiceSearchServices
+
+sprite $ServiceSearchServicesXs [10x10/16z] JSU52S004C10wBllFstT3alcBytY2c5YdsaN1a3fCH521BPILLeGHNSCp4U4oVdcKnc7dCy6
+
+sprite $ServiceSearchServicesSm [12x12/16z] NSp50S1G20FG2fPyOVzjw_ekEFdJ2kkPLZTpNAcA-ZhfSDTPPaNFDNNPE5f4kAnzYy2QwwHgiMB4sjkX4u53Mp-rGy-t1G
+
+sprite $ServiceSearchServicesMd [16x16/16z] {
+XSY55KGn24JHyuCCH8R-grrtlT57VKQoxcO2qNbB-55S1WjmKtECOx47e4r4F8-P0BofgXW6wv3tHZAEqEJGVlZbANKJEUQ5RXQu_CVXYCLLLiyyF5UhQeqx
+rZzx
+}
+
+sprite $ServiceSearchServicesLg [20x20/16z] {
+bSy53iGm34HHDMQ7xd_RdN8ht3xn3tf-CsfczbTghc0n7ibqvrViQn8HxApdLM6cN41itzZTG0ep4vcrAnaJGr7p73FitSnY-EOuMymXZrQMGgMetv0Odp7V
+XGCjx0yjrlPAEMi4SjnoODWCU2KOJ_D_Fm
+}
+
+!procedure ServiceSearchServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceSearchServices', $name, $tech)
+!endprocedure
+
+!procedure ServiceSearchServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSearchServicesMd>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSearchServicesGroup($id, $name='Service Search Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSearchServicesMd>', $name, $tech)
+!endprocedure

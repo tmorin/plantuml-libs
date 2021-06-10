@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceSsisLiftAndShiftIr
+
+sprite $ServiceSsisLiftAndShiftIrXs [10x10/16z] JSQ53SD0400mwOzv_sdRS6AHas63DgCBcGcm9uM9Y7qcmztSuvn_5j7N4BIFAG3LCOF5tRajt6h-
+
+sprite $ServiceSsisLiftAndShiftIrSm [12x12/16z] ROs53GC130EbC6V_QSlSFq7GzXW1893shWFn1GBRJSRhW9Ix7Mwgvj6NFkD67lVvxjD8whc_9iozTqAKHvyC64z1HSwU0G
+
+sprite $ServiceSsisLiftAndShiftIrMd [16x16/16z] {
+bSz50WCX30NG4aDYzxzj0zLPpjyz998-27PGLcIc8I3j88AK5O14UXS-ti_hdhdkMSkXQtQf5sCkEzRrZjwpNgrhJFzPHtiqyP-HW57_p42qucCZX4PLqTxt
+MlTdGtyVk7dn2G
+}
+
+sprite $ServiceSsisLiftAndShiftIrLg [20x20/16z] {
+hT155iGm30FG6XIodTp_jfCoh4V5_AULneWC8cOcHl6nfGgBYAhEDtDUoPbNKEZA97rQW5XJBgNaf4nOhRSaUtNzP1khcRLP0J3BpIwxysSpyu-PktcypOkG
+b7YQLrwtgFrfwmnGnCkW980_3G9XIS-UcIpB8ZQNYRje6TbYh0a_C6RM_Nu
+}
+
+!procedure ServiceSsisLiftAndShiftIr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSsisLiftAndShiftIr', $name, $tech)
+!endprocedure
+
+!procedure ServiceSsisLiftAndShiftIrCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSsisLiftAndShiftIrMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSsisLiftAndShiftIrGroup($id, $name='Service Ssis Lift And Shift Ir', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSsisLiftAndShiftIrMd>', $name, $tech)
+!endprocedure

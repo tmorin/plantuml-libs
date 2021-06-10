@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AiMachineLearning/ServiceTranslatorText
+
+sprite $ServiceTranslatorTextXs [10x10/16z] HOV50O1040CVIsJwBnY7YyS_uj5L9ppZIEVINBKbbUIUgwrpMkbp8nKSAWjeYcGM3W
+
+sprite $ServiceTranslatorTextSm [12x12/16z] JOQ53SC040Ebld7_XUj4b3FgWqNmsHSSBD93zxiTQfyuORD4dB9n4hz5PX3F5vpMN8cdjf5J6Ex8lgNqony
+
+sprite $ServiceTranslatorTextMd [16x16/16z] {
+ROc53KLH34AJMtJ_WPzzbrC5z0VgXSqPmBV_H9WvRV2krrgdeRi1B0h7mtF5WoKYCKPEGeguFSw5RrkwoLiQO7Zvk6aRIDgQrnu0vzFGQOaGlOYKAsVVIFg7
+7G
+}
+
+sprite $ServiceTranslatorTextLg [20x20/16z] {
+ZOe94WGn208h8k3y_yFhcBthIkUmfT0XjaLi-Q2C1T0cfK-8pEdF61Yn0ceJw458GBloAYQrQ69ywbK4GWAhIeXqDQQiLDseep-iTyJSAY1OBzrc5-ElLsAk
+rgjHpgW46MwRHNMFtXLjWobNPqcioQPfz--aTPtp
+}
+
+!procedure ServiceTranslatorText($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceTranslatorText', $name, $tech)
+!endprocedure
+
+!procedure ServiceTranslatorTextCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTranslatorTextMd>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTranslatorTextGroup($id, $name='Service Translator Text', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTranslatorTextMd>', $name, $tech)
+!endprocedure

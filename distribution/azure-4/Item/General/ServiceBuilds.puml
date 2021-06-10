@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceBuilds
+
+sprite $ServiceBuildsXs [10x10/16z] DSct0G0n34BHwWvzdFQVrjclaO0s9ThbzsKYdw-QShzQMbrFJAZk3KnjQFab27sJWcGpsMa
+
+sprite $ServiceBuildsSm [12x12/16z] FOW50e1020GjsBZw_sjj7MhOSM6D7_7NBhRFJQf_kVthw6qyJqqH9NqxJ9vhZ6BhmOL0RX5R0XJ9o0oGAluf1m
+
+sprite $ServiceBuildsMd [16x16/16z] LSW50WCn24JH2iw4tF-sdVhkYtxsM-RQHsxd3Z_sh73ClpkezcbGim_wc3FSV3xPvZ13Mhwxr5eLeVvkP25pTJQZugJII4LDn2ZJIUzgTt7A2dBpuAP2d-01
+
+sprite $ServiceBuildsLg [20x20/16z] {
+dSe5ZWCm34JHtJPcUtB_spPK5lP90N-v7p3B_g64_RU6IX4llBRKnVjNTFJtQ3RIXuht13pFuSmUunIpziE8R9uYOdmsFWr0PTOyo4m0tUMB6o-jqJgJxJs-
+NccUlUSwIMiy3kdaOSluhZD5nPUw0G
+}
+
+!procedure ServiceBuilds($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBuilds', $name, $tech)
+!endprocedure
+
+!procedure ServiceBuildsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBuildsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBuildsGroup($id, $name='Service Builds', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBuildsMd>', $name, $tech)
+!endprocedure

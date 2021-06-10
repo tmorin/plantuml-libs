@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Migrate/ServiceAzureMigrate
+
+sprite $ServiceAzureMigrateXs [10x10/16z] LKZL0ODG36pXxFd-qs9Va9olxytvs8ZjUeLkOfVxAYAnqMcw5W1A96x0ffJcQw3IvfhZkhdUTm8
+
+sprite $ServiceAzureMigrateSm [12x12/16z] TOc54GD0408dEG5U--ysf83V4MJlcxEcEC-_RbHLGwxBDRu5xglscnyBJjV8oAmckzjlML3gZkYCnbXdecd6FlV53m
+
+sprite $ServiceAzureMigrateMd [16x16/16z] {
+ZOnL4eCX38Idn8FT_xRTKFbV-T2LoRvbhUVRCzqilyuq0MeMnrWEHLJ6WCoJyekgC7UKAiqekAT-oeqP8zpzMnR1AQr5Qo8uwX49IVWoZaNEFLngD7QCkJQO
+Snts3My
+}
+
+sprite $ServiceAzureMigrateLg [20x20/16z] {
+hOv7WiCm200ZKmL4_lzl5t2zRyPLGzr_mehuley-fmgppDikfIATw3fTAq1A9zRcQvsr3IGv4jTaQd2CJfonJpg10PHILOtx38IbKcforctLSJiJkS4FKBrg
+nJcb7NmmNoDVEgT5oJvXlMIQhpscr4ag9kgnZgNTug35__W3
+}
+
+!procedure ServiceAzureMigrate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceAzureMigrate', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureMigrateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMigrateMd>', 'Migrate', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureMigrateGroup($id, $name='Service Azure Migrate', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMigrateMd>', $name, $tech)
+!endprocedure

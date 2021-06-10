@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Preview/ServiceAzureCloudShell
+
+sprite $ServiceAzureCloudShellXs [10x10/16z] FSf50S0m3030JnZzgztALmZsOuSt7TB8HxEQkwl8oDHCcQLuH9L1IMUYrzYCxES7
+
+sprite $ServiceAzureCloudShellSm [12x12/16z] LSgr0G0m40B0AYyGsN_Rk5tp0kKHZrpamBS7C-zClOWxcxb30RggjhwZjRGnocmCGRJn3d58JIwl2W
+
+sprite $ServiceAzureCloudShellMd [16x16/16z] XSc54OH050JHE-3Bp5h-qUAkhxIhomSSvA9xTkrctvABa656IEhRC9MRZHywPo-FtmqOqvY5_GDzXhu7y5bZ8yU4DWDx8URoeGC
+
+sprite $ServiceAzureCloudShellLg [20x20/16z] {
+ZSo30SKm403GZvw3_QUj7RusEiLE_Yt4I6yQ8xuLOWEyo1mZUG2UO_Df1rNTOtW4cOYsc35i8Q4PoX9Jb9afquh3De-GX6d3RCC-JFcIZH7lvA330NYFMF2N
+i8dT9W
+}
+
+!procedure ServiceAzureCloudShell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureCloudShell', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureCloudShellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCloudShellMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCloudShellGroup($id, $name='Service Azure Cloud Shell', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCloudShellMd>', $name, $tech)
+!endprocedure

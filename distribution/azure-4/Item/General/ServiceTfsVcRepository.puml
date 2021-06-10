@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceTfsVcRepository
+
+sprite $ServiceTfsVcRepositoryXs [10x10/16z] 7Oh50S0W34KBn7N_RHjubwzjnD4NWxKfh-EzrfaoIyQ1XP440N2aatQP-Vngdf7bwZseTI1FbqHLholHVlm
+
+sprite $ServiceTfsVcRepositorySm [12x12/16z] 9Ko54GGm3BfANDX_sfSqBW1AnHfZnMSVUOkUjTQDcMN_vkD0MDfTQvE5CqahNTBgKdPqQ7W1_KkqTtacy6OaqqWP6ufvPYK1SaRyk7Zs1G
+
+sprite $ServiceTfsVcRepositoryMd [16x16/16z] {
+JSa73iH020D0hO9D3___xQNhl7NCJ9jQpPUWY21VDhUrrePwxBBEY3-sFtVaxhWCgoe5l2W7Dtf44B19Ga3VPtQdvaov7SEU8tsqHtyWxs9UJxfPF_OwBWNi
+jb7xCEdtcC3nIxL-JERvpfEo-Fxp0m
+}
+
+sprite $ServiceTfsVcRepositoryLg [20x20/16z] {
+PSy50e0W30LG9Vw2ZTt_j7RxJHwvY71XjXxF2EeIVgBKabBAJtIKSHY6CLTz34lZbif_AxjPy-UulaHgXHdAHXcigjiPf3DA6fTzITiI0Y3XlFQ1zcsLm1xH
+bOb4r3VqewAkBLnNF7BOXkvl2nTKw6MoMl2o5_M3292FsNeMNxx0DRUjPkkAQWTj_HoVc6YFHsO
+}
+
+!procedure ServiceTfsVcRepository($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTfsVcRepository', $name, $tech)
+!endprocedure
+
+!procedure ServiceTfsVcRepositoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTfsVcRepositoryMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTfsVcRepositoryGroup($id, $name='Service Tfs Vc Repository', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTfsVcRepositoryMd>', $name, $tech)
+!endprocedure

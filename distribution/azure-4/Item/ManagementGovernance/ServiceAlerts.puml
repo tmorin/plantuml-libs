@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceAlerts
+
+sprite $ServiceAlertsXs [10x10/16z] JOg50O0m40Fn2BR_j51lx_sJfq40-nuQSHp7ieG6rerHNTUeTb_V710f-utSVjw17m
+
+sprite $ServiceAlertsSm [12x12/16z] JOo52G0m4CIejw_xJrkt0BbWfnybTr8QBYd66AmDVLAE7ME6ysnhLwUEjSEhGvXTXhqVBlyd3mWozj45hdWq
+
+sprite $ServiceAlertsMd [16x16/16z] TSZ50G0X30H0t4dwh_O4r_ciu2BuIJ0o4IAdCUed2P6fNBOYDAUn-gSeLQdOyzP2w7dBUNDUjqcqpcbZIFpt-oyZ5k0Cu2JYoGi
+
+sprite $ServiceAlertsLg [20x20/16z] bP235GD154N7Hl_L9gknxz7xXk_X6hpa7um59ILx8GYHJoOV0Bi-MljevWjpRr-Ogv8lBAE2Zs6SVEtEoGTHwoCa-KI3CZhmcBSmFcALaEqdjV97_04
+
+!procedure ServiceAlerts($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceAlerts', $name, $tech)
+!endprocedure
+
+!procedure ServiceAlertsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAlertsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAlertsGroup($id, $name='Service Alerts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAlertsMd>', $name, $tech)
+!endprocedure

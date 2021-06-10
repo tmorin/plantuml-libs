@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceBug
+
+sprite $ServiceBugXs [10x10/16z] 9SY53G0W34JHA5HEzfyM_KXVQXltlZhpY_D4MyYhWgXwEa35wUxOLqsQbQSw01z0sUochGq
+
+sprite $ServiceBugSm [12x12/16z] BSOr0G0m00EmQrZoxtQOAqdCXFcm_R9jkbMlhTMkn41lMmTi-NqdGh-Wc1gdG_GshfqGjnEC6PuhT3O1ohO
+
+sprite $ServiceBugMd [16x16/16z] {
+JSYt0SCm44FHIan8-s_henL_XOViwCJC4v7WOurABzkk-w97wrMRtX9MFniBIY2Don8InkFAXKIu3HM1nmJAzZmvxRAYUQL2p7KRT08Q9saYON8UoCQP09th
+1m
+}
+
+sprite $ServiceBugLg [20x20/16z] {
+JOx50SGm0CC-HUF-qnuKex12xe7zz0z2si0T8Mom8zxM7ri6bMLUrdMP1vbz-QcVN93B2F-R1nlujmAvFaw4MgfvpwLYAzVRWsiTGV0w-Z34wF2tPCQx8Lkw
+sM-rfsQRrlk33z4GhtiocxUIxymDhbFfcJb7nETUr1jHlkTV
+}
+
+!procedure ServiceBug($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBug', $name, $tech)
+!endprocedure
+
+!procedure ServiceBugCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBugMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBugGroup($id, $name='Service Bug', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBugMd>', $name, $tech)
+!endprocedure

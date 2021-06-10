@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Storage/ServiceStorSimpleDataManagers
+
+sprite $ServiceStorSimpleDataManagersXs [10x10/16z] BOc53G0m3CEa54Q5_wyTMvJO6PKtDJ8hM8HHCqrbevRfexVMkvzLcUjTdG5-Im3vLQI-rJTxdJdws6C1
+
+sprite $ServiceStorSimpleDataManagersSm [12x12/16z] FSU53GC13C10DSpPVzi-MtJUBQKZhJs8U1hnc2Pa4KRgtGbJ4RMOmndX7f6t1O4VEy8F_RO18jZj802Ans4MdoDkxtGUrS4_
+
+sprite $ServiceStorSimpleDataManagersMd [16x16/16z] {
+JSe75iGW30FH9ok8kd3_swvnwgH-cxNMh-dmrERQTHeZE_gsm1GHQRlv8adfCBRjqOgIfz96k3Ul-jCVLwb-d0sm_5f6G8-hqRpwxa7YSpuJuCUjvbpRnz7b
+-Gpwt8w9Dq9_
+}
+
+sprite $ServiceStorSimpleDataManagersLg [20x20/16z] {
+XSu50iGW34HHaac2m_rlkzYw_Vfh2_HPIRfAfP-Ay0YOPzjQGP3JkAtBcA3cHwOWNjR2_517meJGbkKKRFudOY7bOpcDOfpd_CT2149uiiZi775yDe3usU24
+I1mUJKd0GlRyhmFSotYO_ygJfHXLu-yrzpBjbCkKXNTg_THgMRKj5m
+}
+
+!procedure ServiceStorSimpleDataManagers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDataManagers', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorSimpleDataManagersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorSimpleDataManagersMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorSimpleDataManagersGroup($id, $name='Service Stor Simple Data Managers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDataManagersMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceLogStreaming
+
+sprite $ServiceLogStreamingXs [10x10/16z] 9SW72W0X4CLGSDhVVl_JgfCDxP7lIjBtbbDiiQ8L3MGURcYOsq3k-JybjQhB_Dv3T7qB
+
+sprite $ServiceLogStreamingSm [12x12/16z] NOk53S0m40EbPvUy_xHbIavav5nvCP8mFP4YAouqU-sxyh13cvYR-AdtdwdOeU5YSUVuxP4NV-qWXxh0p0q
+
+sprite $ServiceLogStreamingMd [16x16/16z] ZSc53S0m44DHvR3i_QSDWxZvmcS3pxdwWC-PUe6VV9kEf7csQMKja66cF307xIOcuUBrYnPhivAQvS6wHzq--xFv2xpdAZC1
+
+sprite $ServiceLogStreamingLg [20x20/16z] {
+bT035iGm543HynLZ_xkTEAFgrRTEpjcxzq8k1OrlaQbcX6a7kb3IyjumzTPp4-dmPW9S3nba6m6ZKiI0sn2fn4ZmQSnCxyR0rEwbQQOSYYe9bTMqjwRfjsuR
+cMaxutF9_Gpz2m
+}
+
+!procedure ServiceLogStreaming($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceLogStreaming', $name, $tech)
+!endprocedure
+
+!procedure ServiceLogStreamingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogStreamingMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogStreamingGroup($id, $name='Service Log Streaming', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogStreamingMd>', $name, $tech)
+!endprocedure

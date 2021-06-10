@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureDatabasePostgreSqlServer
+
+sprite $ServiceAzureDatabasePostgreSqlServerXs [10x10/16z] 7SQ53S0m40GmzHcQtFxJXYmoPgY8nWI2H5KeWT_qi1yO5UvHuyo8Feux9oR9ksJvjEugdVojApNFRhlwP0C
+
+sprite $ServiceAzureDatabasePostgreSqlServerSm [12x12/16z] DOg54S0m30ElbiA6_RTjy8y47w4raQbgp0Xm0inYHCevWHRXlPQSI-q-ywXvKiVANKG-y6P0a7SU57neu_aVR-wzIkuljz9MdiN6H6Vy0G
+
+sprite $ServiceAzureDatabasePostgreSqlServerMd [16x16/16z] {
+JSa70iKW20FG3yH1QElzR_lHpZXV66FiR2NJk8-PWDgA8gQhMavhAT0wJHXAhIKVJc_igMmwj-MWhp1EioXKOUsogvZyr0glkQf1p6fSXgY9mYz74q2ayZPh
+hoBD7vEkwlmQXPUFM8MdZ-HijiXiIty
+}
+
+sprite $ServiceAzureDatabasePostgreSqlServerLg [20x20/16z] {
+NT250SGW341Hui7tt_O2L__rLsUkMj5TQVEe2I5I56lvQoSaFehTVfgeHIgd3UUuKAAuZ7rigyLLE1BrKW-h9SfvhUjbsTHLJUssme042GZjieo9bZ5AkQv3
+O68W9dlUIx3kvtnPLK1a0BRdUv5K894_h9YRGkANHOv9oySoWbqssxPYciEEKHq7baLnsQ6ZxVfVVW
+}
+
+!procedure ServiceAzureDatabasePostgreSqlServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabasePostgreSqlServer', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDatabasePostgreSqlServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabasePostgreSqlServerMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabasePostgreSqlServerGroup($id, $name='Service Azure Database Postgre Sql Server', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabasePostgreSqlServerMd>', $name, $tech)
+!endprocedure

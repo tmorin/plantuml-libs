@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWebServicePlans
+
+sprite $ServiceMachineLearningStudioWebServicePlansXs [10x10/16z] 7OZ50KDH3CCUXS7xRzlywc9B0Ch42aCGtKSnXKWUNIeuwxaZ3gC9zrv5yjDmZqBJTlonlQY-as-jOzzp7Qpd_G
+
+sprite $ServiceMachineLearningStudioWebServicePlansSm [12x12/16z] BSp70S0m20F0W13kPlzjutOVEh6CcakFez8KLkPA6rZC3JLYkfEhJuxep4b9zpLegmD2eIL6DfQwZNKhU0_NxIVvvKM_3ossJX7HD7VUoZ5s_WC
+
+sprite $ServiceMachineLearningStudioWebServicePlansMd [16x16/16z] {
+HOw55G0X34Dfa-Ao_xQ7lljeFMFJIYwrZqlF7Wh6SeCHy23Koeuc86MQf_WwxMhcpSzycARP8wseg5gCi3P6P0Z4F3HYTWWqen8YAiikOJQ8wJ3pHrRnVVn4
+STP-iz0vn5zi4ESSoxCJt4J2hIY16v-ldI-tu0C
+}
+
+sprite $ServiceMachineLearningStudioWebServicePlansLg [20x20/16z] {
+LSs53S1G24LH7BxllssfjoT-mmlhCdfhVQoFKSDKBUfRUp0I9eb-9oVs8c92TCKHX5whYfa0bxctAkBipgH2GjeopQ1eJWY0uaLeF-p6fURSp9EIZxs9cSg-
+HXP1QzbKL9LH60-wjsBPF6vbx4zAZc8-rguGKAoVOGXa--8L300IyvEgOZRK-bawmOxzMS-IPplKShSMRYUF-x2tr_rb0m
+}
+
+!procedure ServiceMachineLearningStudioWebServicePlans($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWebServicePlans', $name, $tech)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWebServicePlansCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioWebServicePlansMd>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWebServicePlansGroup($id, $name='Service Machine Learning Studio Web Service Plans', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioWebServicePlansMd>', $name, $tech)
+!endprocedure

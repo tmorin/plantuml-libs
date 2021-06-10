@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceServiceHealth
+
+sprite $ServiceServiceHealthXs [10x10/16z] BKW74WGn29g9YG8f_F-rTzkKxgNb8sqhCudCsfNVgQuuMaOKgaTlhQVcYBYcmZd84IWisxgSTx0dkVtUVi8V
+
+sprite $ServiceServiceHealthSm [12x12/16z] FSO75e0m20JHPyekeTx_j7Rz2J2LPbdbwkSYG5S0gmG_9oxZMafoOcwpjoP2REEC1fgZduK-kR8usBkGubMf0eYSUT6prfKNMolg4rcN0m
+
+sprite $ServiceServiceHealthMd [16x16/16z] {
+JSZL0SGm30FGImnooDf_soktxqT0vfh9pHK3xXXSiKLBJZzq7D4O_eN4rVICYStsMr6OY0niHA6_QgLkkm7sArwbb0h4Ma2jHOfhSQ2JKRR-gu0X8ic41uh5
+RdAJFSAmhRR8-xZcVTppDbjFVZth3m
+}
+
+sprite $ServiceServiceHealthLg [20x20/16z] {
+NOi95i8m20N9mfw4-z_MxwuTRJlCWm9drvFzbZGLIyWoLOi3StdW9vzYfs0lVqiKz8ALVdpA4ztwHjh4YvdbsHZZf2RIYQYjH-jD5EESDB6u0uanudGG3KnU
+sx3MUvkuR5XNMrKnEZ4sk-gSQbYhEhFZejCqKmExm7OODp5x9t0GbH_5aRxnaXxncX0JAKxzipoHBloK6m
+}
+
+!procedure ServiceServiceHealth($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceHealth', $name, $tech)
+!endprocedure
+
+!procedure ServiceServiceHealthCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceHealthMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceHealthGroup($id, $name='Service Service Health', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceHealthMd>', $name, $tech)
+!endprocedure

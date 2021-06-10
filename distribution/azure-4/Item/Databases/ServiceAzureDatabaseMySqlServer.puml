@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer
+
+sprite $ServiceAzureDatabaseMySqlServerXs [10x10/16z] 9Od70S0W4CC2NA_xRnkANvRK9GY0Kjqo0H6cTWVX7aLtcgcQvNx4o7fUm9eByLJUSi5vRgQY-TxUVlkw-Ju_
+
+sprite $ServiceAzureDatabaseMySqlServerSm [12x12/16z] HOk53G0n54AJ0jKl-szxVYM6lKph8jKjJmlm57069rIhGC-CsLkjhSyu_Pfpp3dNvJixsvbkNr0WzTkB4ahx_bqQhvyVk_qPV9soqnu
+
+sprite $ServiceAzureDatabaseMySqlServerMd [16x16/16z] {
+RSs5bS0W40JGjsu9zD_jeUUJ87-ntlkR9YEMRvyfHbf1hcb56gigmgZJoSIYAcF8wITzQ5Gyd-NAazhEoFJuig4PQ8poCH01axCT4o8nCkfsc9iP4zYt-qD5
+_xpthrlLTUihxQcHP-a3
+}
+
+sprite $ServiceAzureDatabaseMySqlServerLg [20x20/16z] {
+TT055i8m54JHyssY3VlVBGDrU_LRp-TNh_XN-sUfXwaQupfcdKpDbxWxhHP83B7QoCuBW_4op-DlhMQ4iq2kRR5MMIcLjTssDYiel3sV3EB59NXtgRj9gBX5
+CMocAggkbZGsSoWydASsusCA2nhEtr8IaEhxzzsDzQCjepg86_6oHKV_Dyto1G
+}
+
+!procedure ServiceAzureDatabaseMySqlServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDatabaseMySqlServer', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMySqlServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabaseMySqlServerMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabaseMySqlServerGroup($id, $name='Service Azure Database My Sql Server', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabaseMySqlServerMd>', $name, $tech)
+!endprocedure

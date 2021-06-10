@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceIoTHub
+
+sprite $ServiceIoTHubXs [10x10/16z] 5Om53W0m20CZ4sJq_l_RfKIe0ng86q2SeUC2VH-qDPGjHFRhimiKDHEdGOBEAH5jcGXTGylo9FW-
+
+sprite $ServiceIoTHubSm [12x12/16z] BKn50W0W2BkeZDp_NsitI-vLHJgWPnJ9FG-SUVJOByxCDDklE-y2xc1mjz57xHaIcIVu2qD3yoLIb84WK2nrna1Xl8hoe6BFVoq
+
+sprite $ServiceIoTHubMd [16x16/16z] {
+HK_50S0m27o5t15a_sqBr72N_441SAmp6YA2yMKjopJ5uwFzxdZyK6Xh6pKHgCTjtffhOLoJJILgf7ZxPucQ6TvygdK_INJZCuCxaZf7Maif_snuGYfQ9ak8
+i7pqW6urRFkVwA4L9G3D7ou
+}
+
+sprite $ServiceIoTHubLg [20x20/16z] {
+TP07aWGn20Ch6P7d_xyzLFZohYQwoJo_v3RoUuZ8UJTaPDT-ZWni1RwOddE2ZfNuPB5iL6GNAcoPWZLMYNNi_jc707N_o_ZNnJhezSKHLJOnJ6hP_5kEwATV
+UQpt-zt6qxUkTo9_rZOmbw8O0UsTdYo4hPkWo5JGF8aaMLOFZ8q2YXOm_2eyrfjXRxTzzG4
+}
+
+!procedure ServiceIoTHub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceIoTHub', $name, $tech)
+!endprocedure
+
+!procedure ServiceIoTHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIoTHubMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIoTHubGroup($id, $name='Service Io T Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTHubMd>', $name, $tech)
+!endprocedure

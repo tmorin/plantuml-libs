@@ -1,0 +1,28 @@
+' definition of the Item azure-4/Item/Identity/ServiceIdentityGovernance
+
+sprite $ServiceIdentityGovernanceXs [10x10/16z] 5OJ70GLG388khmVY_jF-ea30AY3EeR86xiKvluhjkRzO2NkJLANlMhTJohlt8Qvjzx-CHUAO1gWIyWK
+
+sprite $ServiceIdentityGovernanceSm [12x12/16z] 9Ow53G0n30EbSkYy_xOF3NCiaen82kaCAqYR6rRRk6Dj56uPvqIPaoM5MKYLWUHhkKIySPuvJxxnE-Fsahypk7c-z3fgDjDBkotOqnBAnf6eYo7H0m
+
+sprite $ServiceIdentityGovernanceMd [16x16/16z] {
+NOy53aCn34ErJo7NllzjL-jFj5SC9n8fOWRqJreHZG6cEm9INSTZqpQSH_2LaGc-ycJsoiWa8aTiIipCSj0GeortLMip6FZ9-qv_C9PNvdLbBilsdwg8Al_0
+8RTidFnNpw3IzU8uKuRFSPKinthbpvQ5Y6xFWmuR_kRz0W
+}
+
+sprite $ServiceIdentityGovernanceLg [20x20/16z] {
+RP1NWiKW24LJLCgbx7-tWyJvUoUnqI4_mW2B_CUOuTh0X54YfpcMUMI6wxwNqEPzJQjph_LSW_VvFjD2Y2ISnZCbqtc_b8XO4xJOCu68JEL2CztSCjIpK2cm
+RwvXsbNPbhKsrA2jvFMEzGaLBGjXUbzYYPQrhp7pMhLP-tOEo06T8yqze0T401sUn3-CYNRDCf-N8Xkh-x9C7jTJvv5TzwmxrfYatwniZK6xIB3OIUBeSdxD
+_Wy
+}
+
+!procedure ServiceIdentityGovernance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceIdentityGovernance', $name, $tech)
+!endprocedure
+
+!procedure ServiceIdentityGovernanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIdentityGovernanceMd>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIdentityGovernanceGroup($id, $name='Service Identity Governance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIdentityGovernanceMd>', $name, $tech)
+!endprocedure

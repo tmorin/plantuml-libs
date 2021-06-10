@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Storage/ServiceAzureHcpCache
+
+sprite $ServiceAzureHcpCacheXs [10x10/16z] FOk53GCn54ELVERzfssFBJAzcKdJc5Ef8kA7YTE8zhZgPQrEWm20OeU3jTQMDDFBwLGwxhtXfEjpVSAQVm
+
+sprite $ServiceAzureHcpCacheSm [12x12/16z] DSk54K0n30BG-ngZOVzfwtrd4M07qqXE8PsD9Q4o15bC5okSemoAEJx3gpRdgtiap4oUktkKuMSECjFFtFdgpXasPGC
+
+sprite $ServiceAzureHcpCacheMd [16x16/16z] HSu30W0X443HZE7zJvlnbhyMwKArWkWbDGy5VswyaY4VC1FBnpSlr7rDSKjdEdgtX7BQcSc60dKOyriil0QYiqj05HmZz_qeStt2QRSVlPnshuEVmcqyI3i
+
+sprite $ServiceAzureHcpCacheLg [20x20/16z] {
+RSnLWaCn243HPmaE-r_jJ5i2rVDvaKYkp6pnIX5kaFqj9Upe24Ng5K6ZJ8Ilz9QiKX6FIj3OArrjShTZEGTssxTqJAG4rrbx4-sxSSXgHzzQXF7x7iITk_Dr
+5eX5hcDFB-tdNiDghitZ7m
+}
+
+!procedure ServiceAzureHcpCache($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceAzureHcpCache', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureHcpCacheCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureHcpCacheMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureHcpCacheGroup($id, $name='Service Azure Hcp Cache', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureHcpCacheMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Intune/ServiceDeviceSecurityApple
+
+sprite $ServiceDeviceSecurityAppleXs [10x10/16z] 9KY53G0m24jmPlt_sXbGdztD-mHWxpnM9V_fUQLhR-rZf3iJ4JEl39Nh8bZv4mkmLFxzzBS3
+
+sprite $ServiceDeviceSecurityAppleSm [12x12/16z] LSY53S104CJ0u37qtsts5RPev4ebagX6J2FcWEblwFIfqum8QKGek5ob26zNdSChWhlaz0gtRsUdhty
+
+sprite $ServiceDeviceSecurityAppleMd [16x16/16z] HSi53e1044DHP1Jh_K-BTDFmesy4k3eY-iIeE-ChUxi-XySeywGbMPB9tr9LqKIuHtZlR_rvcTLoLbRQ7uwgShELcGC7FVgCitorTVGPXviRS_haFpDPFG
+
+sprite $ServiceDeviceSecurityAppleLg [20x20/16z] {
+PSk73GCW34HH9Ivqs7_R7DqANzLFvzPQ3OfYRRkSazUHJxbCKvjV9XiSgjCiUMiGOqiUs-ANcT6nUQlCGko5OVIn5OXtGhQMO5xv9jA0C6BwhXW6V7P0Btyx
+LEnkMLMMrymlyTwPv0S
+}
+
+!procedure ServiceDeviceSecurityApple($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Intune/ServiceDeviceSecurityApple', $name, $tech)
+!endprocedure
+
+!procedure ServiceDeviceSecurityAppleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityAppleMd>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDeviceSecurityAppleGroup($id, $name='Service Device Security Apple', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityAppleMd>', $name, $tech)
+!endprocedure

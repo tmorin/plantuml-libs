@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Integration/ServiceEventGridSubscriptions
+
+sprite $ServiceEventGridSubscriptionsXs [10x10/16z] HOo53G113CE4frBY_QTz1WiA0Nr4v4L437Y62OCwqvnBLlK0piYbSu6kN8ElXCSJVylVl0C
+
+sprite $ServiceEventGridSubscriptionsSm [12x12/16z] JSsr0KKX30NG1hb6il-qt-MT1k9rmOsFJU1y04vtHxiwxWVPS3r_9KhMwwyDJlTRQ6mzFi_Pau0TNtTURzN57G
+
+sprite $ServiceEventGridSubscriptionsMd [16x16/16z] {
+NO_50GG120DFqGJwhtRTvuDB-a7uZJ1HEr0n4_H2LJV4mcgEc1hTPR7MFEA_5hOGo0WUeQT7RZ5DLVqlHpTJ4weuvZlDJJywk-izah2Sxwt_R43i-UzJJpyO
+0G
+}
+
+sprite $ServiceEventGridSubscriptionsLg [20x20/16z] {
+RT350GCn34JHeAGPKV_TPj4X_qM_Yw4dPVoLaBy0KNwbgrb_PG8gzlzAqro-K7Rj0jZZmULlWuEgQ1ux7EHS0kA3Q46cCmzoa-N2y-4zSaACtxP4P18cXzQE
+jdI_w0Rdccl9aTkQPtkRdy5Vc9rfJte1
+}
+
+!procedure ServiceEventGridSubscriptions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceEventGridSubscriptions', $name, $tech)
+!endprocedure
+
+!procedure ServiceEventGridSubscriptionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridSubscriptionsMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEventGridSubscriptionsGroup($id, $name='Service Event Grid Subscriptions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridSubscriptionsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceInputOutput
+
+sprite $ServiceInputOutputXs [10x10/16z] HSn50aLH20BGqGsbzh_Q7o_FK07hubxxiBhQXogRJC9oTsrXxzb4bzYru9_VL_3RU5VUvIy
+
+sprite $ServiceInputOutputSm [12x12/16z] LSn70GKm34EnMrF7gHz_j7zF0H3vmFNXBi-3got2tSX9D41AjBJtyQwrsjrIHgeou72ZmUBfwF-i3vCFhW
+
+sprite $ServiceInputOutputMd [16x16/16z] PS_50S0m30F0doEJjF-qPUw5ETP7-qkNsRYOLPdtnPVnI54xngXruAKDq69t0xMsDImKs7JP9d9v10WsWEM5sgu9Qa77CgHKr2QokRvtOlp_y_tlDnvzp
+
+sprite $ServiceInputOutputLg [20x20/16z] {
+RT2r0S0m30J0Jgp__QSDStoDsGAEr0zRvKDxsTENTK-ay50YwrxpeKKRLMGK3svPv-pSD76oCZDChObOg4WmRESuizB8Oo_OUYWisZr0ehjTpwypmKUqBPVY
+AQeI_vnbLDkm1wDUZNewCWC
+}
+
+!procedure ServiceInputOutput($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceInputOutput', $name, $tech)
+!endprocedure
+
+!procedure ServiceInputOutputCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceInputOutputMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceInputOutputGroup($id, $name='Service Input Output', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceInputOutputMd>', $name, $tech)
+!endprocedure

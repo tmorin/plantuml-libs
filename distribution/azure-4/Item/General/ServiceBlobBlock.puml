@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceBlobBlock
+
+sprite $ServiceBlobBlockXs [10x10/16z] FSY50S0m202m6cx_NpjVWrERsyTLFaet140Y5k7Usi1d6xtFztUXTvEhIBRQJW
+
+sprite $ServiceBlobBlockSm [12x12/16z] JSo50S0W40J1-1xUVxV1ON1UqYRuAJWxEMicomTyJ_RcI_xHUHp7tUzNlqiYgydMvlgyaQc3lN_Q_
+
+sprite $ServiceBlobBlockMd [16x16/16z] XSk50S0m20J0EF1VsN_Qkkj5iVO7SS9RR2VKSgAQTIJH3y8G5CD0lHluAHuTOfdaDCXxNQUxRFCwtZR6UggRd5XpqLxq
+
+sprite $ServiceBlobBlockLg [20x20/16z] ZSZL0SC040BGsWd4zf-smgKMVp_8S53NpdGDPvgZ7sE6QURbLimoBI1nEScrFhxazWVpbBXUv6Q0nVYDwGPuK38L25_x89cA-ZpacsWvqmu7FG
+
+!procedure ServiceBlobBlock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceBlobBlock', $name, $tech)
+!endprocedure
+
+!procedure ServiceBlobBlockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBlobBlockMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBlobBlockGroup($id, $name='Service Blob Block', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlobBlockMd>', $name, $tech)
+!endprocedure

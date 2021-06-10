@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceManagedDatabase
+
+sprite $ServiceManagedDatabaseXs [10x10/16z] 9Ok34G1140GVQ-OVxR5Bmt8XiUfk-W7XnwKKDxAKcwgQ7tMegvI9SojThrzgASRl-r32JHW0IBiozzPh0W
+
+sprite $ServiceManagedDatabaseSm [12x12/16z] FSY52G0n341HQDptt_OgSB-IHwP2nQDdfmZdK6qp83CXv7QOCB5ORsVuANxlyhSosxC98b9U2wqTvxOnmrh0MdklGZlncUxAsELy
+
+sprite $ServiceManagedDatabaseMd [16x16/16z] {
+PSo55SGW44NHm_YW_NUx_B2U5xtOMdEqMiTOfnd2IAnTDc8HLH7Y0IUpcfi9wOHxkeg8MhJZVLZDtA-FqTrrV3lCBD_ECDqr67HbshUFur2b8eNK-sKtOof4
+QZ7WS6CXOHmviIB3KUHSft5Qwm4
+}
+
+sprite $ServiceManagedDatabaseLg [20x20/16z] {
+ZT05aWCn34JH5NJBxFlVTkLmfYY_IFK63FiqUn_xezK8LpMWFBsxcdbcfbhkHZ47IC1DRBtU0oF871xlZLRoZSmHjJ-izzRggRN-OOz-jMnUh0R1kZwj4gVs
+jbe23hXplIm0-pE88ER3AjD4FItnReMagQWAoFfuxrYY2zFMICiN8m0uFIBo6jVvlkVAz-h7ZQz7EVu3
+}
+
+!procedure ServiceManagedDatabase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceManagedDatabase', $name, $tech)
+!endprocedure
+
+!procedure ServiceManagedDatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedDatabaseMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedDatabaseGroup($id, $name='Service Managed Database', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedDatabaseMd>', $name, $tech)
+!endprocedure

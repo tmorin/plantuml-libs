@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceFolderBlank
+
+sprite $ServiceFolderBlankXs [10x10/16z] umK2FduGO6LXOMNd0V51B1Pc5Y1W9XAmO04yS
+
+sprite $ServiceFolderBlankSm [12x12/16z] umC1VWXWOsLXPUE2y5XPM5X0N11W0G5coW4B4c150dn8
+
+sprite $ServiceFolderBlankMd [16x16/16z] uqS37630oGVZix8mCJ6nih9pyq80AmImCBEW06Pw0NJBM0W0TZI0xby
+
+sprite $ServiceFolderBlankLg [20x20/16z] rSW52i0m00D0M9Av_F-rixgWnNhuNHMRTKGd4Q0qRT5nU57lhfib1m4jT8G9UmssYglY0G
+
+!procedure ServiceFolderBlank($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFolderBlank', $name, $tech)
+!endprocedure
+
+!procedure ServiceFolderBlankCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFolderBlankMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFolderBlankGroup($id, $name='Service Folder Blank', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderBlankMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceDDoSProtectionPlans
+
+sprite $ServiceDDoSProtectionPlansXs [10x10/16z] 9Kp50S103Af4e4Bsd_RqXLEb1tWqa0Zt0AKCY_H82Ma9JonstpOPOUTferVlPkywoLmtWvAJBBf81m
+
+sprite $ServiceDDoSProtectionPlansSm [12x12/16z] DKt50G0W23Gfu_QVrfONrm2QYLZ3kcB2H2nM02LAAISYlR_e-td_cVZy74EClFyL3Tw75GRg_olGJV8g4kjxIi-jiREhQlVTjcF01
+
+sprite $ServiceDDoSProtectionPlansMd [16x16/16z] {
+JSvN0iKW24JHLz0PY8JzxpPZ-atHmnSr6qxwgBqrCuZUmSXSgnP2cW5SPCd-fbUJoyq3jm4pi1dmcDulK_ugcV9uMpkaauT9JoqKP9jkP9HA9qo1dkVsPqEu
+1myr2FSGxp8YZzi6
+}
+
+sprite $ServiceDDoSProtectionPlansLg [20x20/16z] {
+NSy5aiGW443HMgmDkVzjjwKco8-_62nl2caorzViZD0Q8FSPm4mgcYanAm-7wZaFCwEKIod9S5i6wLos0K2rHtIdfvyrVKwujCjIqL-an_wqpoRXQKWsR4R4
+d-afBqtq1C80aIGcTnh7Z3iXDf-QFjPN9FGb8Hz-zE57Nvs9kA-xmPl-0G
+}
+
+!procedure ServiceDDoSProtectionPlans($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceDDoSProtectionPlans', $name, $tech)
+!endprocedure
+
+!procedure ServiceDDoSProtectionPlansCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDDoSProtectionPlansMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDDoSProtectionPlansGroup($id, $name='Service D Do S Protection Plans', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDDoSProtectionPlansMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/AppServices/ServiceCdnProfiles
+
+sprite $ServiceCdnProfilesXs [10x10/16z] TSL90W0W20B0cxlo_zUsTwjH01yXucEgWeT0yQPfSgMhR0Wt7Spnq04
+
+sprite $ServiceCdnProfilesSm [12x12/16z] VSWb0i0030D0LMwJ_xzs36ex4-0VLFPTNTLoApCTjd7idvrYClnHzGvMN2EI0Bfs3NvO0G
+
+sprite $ServiceCdnProfilesMd [16x16/16z] dSkr0S1030F0wisMzfysZ6LoZL7y1s6UlBJ98gwhwwQNljpTTBS-k8XU79LX3slGdeZsrvp-52JG6OVYLpC
+
+sprite $ServiceCdnProfilesLg [20x20/16z] hSwr0G0X3030AcxxJ_l-MCtXcjGUcRK89MAhaHFUT7p7zB9tUN6cZpoFhXSqiBxNIKQuyKpmmWkxyABINPQt5NS_iIU_C6qaQhSJ
+
+!procedure ServiceCdnProfiles($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceCdnProfiles', $name, $tech)
+!endprocedure
+
+!procedure ServiceCdnProfilesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCdnProfilesMd>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCdnProfilesGroup($id, $name='Service Cdn Profiles', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCdnProfilesMd>', $name, $tech)
+!endprocedure

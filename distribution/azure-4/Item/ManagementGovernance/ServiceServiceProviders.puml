@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceServiceProviders
+
+sprite $ServiceServiceProvidersXs [10x10/16z] 7SZ50K0n20FGhy5X_sdRmhj4geoWrP80ycv1XrKJ8exv-F_9f-1z03KJelFXO3gucxHfbPabfz06
+
+sprite $ServiceServiceProvidersSm [12x12/16z] JSm50iKW203G7pHCxd_QRRRFbiWiIcJPERsytvLVUjn7KWYpHBiM8m2oahtBxqUa4PSpCm1ZLIlVNwwaRTB-hL5wSJPMx_8
+
+sprite $ServiceServiceProvidersMd [16x16/16z] HSg73SGm30D0v1sHTDz_suyWbqDbcPzAiCoZmjr2SEmh3eQwioBtkHGwZRbqKNvVcf3UPAmh4aZF3q0TJYJjUMLcy98V96GBcSvOj33iNKj6w2tKY9fBM_aF
+
+sprite $ServiceServiceProvidersLg [20x20/16z] {
+RSu54i0m24JHYUq2bTp_j5MIwXl_4QYxIG5QlHk9tICAJiFd6gZtrioVThytYRVxaE6CCZrtsH9qxcLM8gKKCsJi2K0E8GBWv9znWnWIIodd-FdyFuMYfJ4U
+Ig8HpXj1auwDeJZfjeOZmxGnEAdT1AT_RGK
+}
+
+!procedure ServiceServiceProviders($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceServiceProviders', $name, $tech)
+!endprocedure
+
+!procedure ServiceServiceProvidersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceProvidersMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceProvidersGroup($id, $name='Service Service Providers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceProvidersMd>', $name, $tech)
+!endprocedure

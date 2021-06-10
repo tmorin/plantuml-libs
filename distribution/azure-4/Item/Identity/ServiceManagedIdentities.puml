@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Identity/ServiceManagedIdentities
+
+sprite $ServiceManagedIdentitiesXs [10x10/16z] 9SQ53S0m40D0gGzsqFjFsz29JbiVUaPYtanuyfRkcNMdk5cUjh3FmZqQ8kpCYsf687UamGIzwMXzHDS2
+
+sprite $ServiceManagedIdentitiesSm [12x12/16z] DKo53S1044h-Z5VstxRKYE6yiGz_xAnVdFBe7uTxvYk6YrTDqUbcbXcvkD9QimXbMuQ9ku2Do517LBzJ4NGhIYggaIydrs8LUG4
+
+sprite $ServiceManagedIdentitiesMd [16x16/16z] {
+LOu54iHG24Dd5fBm_VwtNUhj6uqWws3CzMOoFZ8SvQMBEzbkMJtrOtG_jCOXiMj9CVRLRWb98F9giLzYs5jbYV9TkwL62K2qAsTTdKwvKJ1ZtnOMW8gW-_b1
+LY35gPDPeTPtVJ96Fi8y_mS
+}
+
+sprite $ServiceManagedIdentitiesLg [20x20/16z] {
+PSu55iCm30FGzsPPSlZ-jvrJ6AeD_U2wCzTV9kkV5VnX0SZsHGtRD3we-xOl78xJ6FE-Cd2Qf7APS5eIUM85pEnXJX8uBk-mHsQRmnqSgobmcSEGlvh3WtPQ
+Kg975y3mRSIHCl8EXqjcMI7hTZvvBnMZYB1OP_PIAFIsUwbKoxPt6gElzcrhpYpqaTqd
+}
+
+!procedure ServiceManagedIdentities($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceManagedIdentities', $name, $tech)
+!endprocedure
+
+!procedure ServiceManagedIdentitiesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedIdentitiesMd>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagedIdentitiesGroup($id, $name='Service Managed Identities', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedIdentitiesMd>', $name, $tech)
+!endprocedure

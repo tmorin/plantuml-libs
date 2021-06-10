@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceVirtualWaNs
+
+sprite $ServiceVirtualWaNsXs [10x10/16z] 7Sot0SKW00FH7nJ8sdzQ6xZgLPUasosd8PARgm8aE5FvF_fh6DGEB5L7fifg5Y3NcJG2l9jfqJENjHwy
+
+sprite $ServiceVirtualWaNsSm [12x12/16z] 7Sc70SKW40BGNmwmi_-s8JwzxfXDu_WQYEOuQL_Jtgfl0VNbSiU_4FNd58gKo3zQPp6TKjhfwUgzjUMpH82Sno5KGRvoe9OZzXZRyG
+
+sprite $ServiceVirtualWaNsMd [16x16/16z] {
+DOy73e0m30C5YTsT_F-tk58ufaTNNcBrFa_-H8VW_hNaXMg8NH8-hfpqno3UXrifOQzBwcEO6kk6mi3LwKusGKhtgRua8CF84Rs19AXS_iupEk5cJlQ-Kcn5
+W1ehf4JpctihcOj2SHOn6z7cZOkpLXtt0m
+}
+
+sprite $ServiceVirtualWaNsLg [20x20/16z] {
+JT075eGm30FHHsn9Jjda_hTTqndwfsUTpL6Z_TQt8MIiNoBENfp2tRYaqVqKzpZe9_XMJjesz9K5OAyPOgvEk3ckl7XY1GvYbXipi5NId6Ha8jt8sewj940I
+3MapH2S9a2ASqbWz9586c9YYElC3MyXPt0kXg3qf6q61T44ZvMX6mMQseIZfgbEaAFRrD2kHCH__mHRICT3VVgC_yWS
+}
+
+!procedure ServiceVirtualWaNs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceVirtualWaNs', $name, $tech)
+!endprocedure
+
+!procedure ServiceVirtualWaNsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualWaNsMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualWaNsGroup($id, $name='Service Virtual Wa Ns', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualWaNsMd>', $name, $tech)
+!endprocedure

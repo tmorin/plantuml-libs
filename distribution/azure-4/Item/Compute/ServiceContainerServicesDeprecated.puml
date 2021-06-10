@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceContainerServicesDeprecated
+
+sprite $ServiceContainerServicesDeprecatedXs [10x10/16z] HKl50G102FfQmFxJNeSj8H4S9Gdk4UxOby-Bg1NWU7EZ_sATeEfv_qNKg75q
+
+sprite $ServiceContainerServicesDeprecatedSm [12x12/16z] LOst5G0n24DhAy3-snvwgkxRvBIxCvM3U8p4VmN_l4LBrE5KSIfIlvYqqqDwXuG4A9VI5Ob_xSJhhR4Zvtq
+
+sprite $ServiceContainerServicesDeprecatedMd [16x16/16z] {
+ROnN4aCX30D_GSM-_sqZd9uypR33klLVIWIjqEFU2VBMzlZQavUV7X6VXR8jbwomc-bG0PGlUFR0zJhvwqJc7K3pxPAJEvM3BMJotZpQiqoiBFlAJMvOdFb9
+rO77RW
+}
+
+sprite $ServiceContainerServicesDeprecatedLg [20x20/16z] {
+VOz70aGX24EtaWIy_sq7m_IMNvxIsTzL9QfsfJ4I0Yi881OqDgxLjZP4l_njKyIn8PviAG5PXijDjsf0sH9pEmN28JW8Lr5OMCOt6yO6d-axKWJJlLabCLId
+SoPLZPd0qn1EftjgsuPP2c7yiKthB_isFC5TDV_1lW
+}
+
+!procedure ServiceContainerServicesDeprecated($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceContainerServicesDeprecated', $name, $tech)
+!endprocedure
+
+!procedure ServiceContainerServicesDeprecatedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceContainerServicesDeprecatedMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceContainerServicesDeprecatedGroup($id, $name='Service Container Services Deprecated', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerServicesDeprecatedMd>', $name, $tech)
+!endprocedure

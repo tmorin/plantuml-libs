@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Intune/ServiceIntuneForEducation
+
+sprite $ServiceIntuneForEducationXs [10x10/16z] 9Sp50G0m20D0ajHr_schzy5fzMipu8ipc44mUvde99zEHl4qVU8bckkzrrozuEQSDHUPdQoVRvuCysddzGO
+
+sprite $ServiceIntuneForEducationSm [12x12/16z] DOw50SGm30DZMs7QVzkNlkq5pB3Nnxar_276hOcOtgD7X9dtGzt20TgrqUzXJb6Qcv1LrXYZzrw1L2wPOnNbIAK_l_ecp46z3rfb_m
+
+sprite $ServiceIntuneForEducationMd [16x16/16z] {
+LSn70iGW34FHoABN-zzsh30jRyK7xFMmTqr_ojh5hf_a3HrWdwvg1lA_Wo58pAsQDsc11fUR6YJE2lNX3U-Uqv5JpBZoajbQxpJw-vQxDNXwjEhUhLUf161b
+VumiTN-jsmi
+}
+
+sprite $ServiceIntuneForEducationLg [20x20/16z] {
+RSm53aGX34LHeCLj_xkToW-MkR6NWym_rVJKvipehdmX0tE5swnpsme88VKOW2K6_Y-LLd2R1mwpcaNQzliwLzG1OCrZtBO0AuyGB5chKk6Izz6HJOsmZa0F
+pR9HFZFBUirKEQrdxRIXzOYS9zlb9DKjkny
+}
+
+!procedure ServiceIntuneForEducation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Intune/ServiceIntuneForEducation', $name, $tech)
+!endprocedure
+
+!procedure ServiceIntuneForEducationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntuneForEducationMd>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIntuneForEducationGroup($id, $name='Service Intune For Education', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntuneForEducationMd>', $name, $tech)
+!endprocedure

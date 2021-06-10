@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceDataSharesCard
+include('azure-4/Item/Storage/ServiceDataShares')
+
+' renders the element
+ServiceDataSharesCard('ServiceDataSharesCard', 'Service Data Shares Card', 'an optional description')
+@enduml

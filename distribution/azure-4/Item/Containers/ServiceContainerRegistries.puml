@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Containers/ServiceContainerRegistries
+
+sprite $ServiceContainerRegistriesXs [10x10/16z] 7Sd70G0W30B0du4qzjzMz3HTDgDl2N3VWc4bDJwEO15ERqKStvaqq0Tr5GCcumcJDLWz5m
+
+sprite $ServiceContainerRegistriesSm [12x12/16z] 9OlN0G0X34B_3AIn_xPtwBEa03AxCkuIo7qjuuTkct2FaGec0BPUU_otFyQnBPC_m0tj6-udpGnE61cw1sGQh9xz
+
+sprite $ServiceContainerRegistriesMd [16x16/16z] RSgr0GC150BGxe2l-s-R8swlG_QVIIdd6OiuiU-npsYQ-nStB4VnANetI0DekRUeum0eib_PcA85dAraGKM81BPk6QHiTxgg7d_kpIFZFPEAUsufgcVt0W
+
+sprite $ServiceContainerRegistriesLg [20x20/16z] {
+VP175eGm34DtaPnw_zkE_EoXmr_1Z_lwOFG-pgORX1rjGy2-vn49Pvf6RAw5uf6wgnrJIME2mlXkYucL0j2rpQsGdAphSNQXgmMrm8o4CrCsQI4FhfHDQTxA
+YPE8x26uxRptmExkSPCnSws7swgNVkSIFm
+}
+
+!procedure ServiceContainerRegistries($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Containers/ServiceContainerRegistries', $name, $tech)
+!endprocedure
+
+!procedure ServiceContainerRegistriesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceContainerRegistriesMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceContainerRegistriesGroup($id, $name='Service Container Registries', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerRegistriesMd>', $name, $tech)
+!endprocedure

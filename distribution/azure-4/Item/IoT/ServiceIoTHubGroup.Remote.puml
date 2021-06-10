@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceIoTHubGroup
+include('azure-4/Item/IoT/ServiceIoTHub')
+
+' renders the element
+ServiceIoTHubGroup('ServiceIoTHubGroup', 'Service Io T Hub Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

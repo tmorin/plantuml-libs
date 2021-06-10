@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceGlobeError
+
+sprite $ServiceGlobeErrorXs [10x10/16z] DKY50SD02Apt1Db_s-GDphlJYdBTGVnILBU5DsNKIRoJ-TFSSYQnEtoVa7S2nJlSLuQgv_7_vsqN
+
+sprite $ServiceGlobeErrorSm [12x12/16z] DSXR5i8020DHtq0IOF-xDTfslkwPtMrICredP1GOxGjydWKKl4ypRIAUkCpyd1xxRHPiqI9YTfcKMD7hb1c1iTmeg_T8_YdZ2m
+
+sprite $ServiceGlobeErrorMd [16x16/16z] {
+RSq75WCW20FG3Xz80dZ_spPshpY_SocTPBQ6TKq14K3Iwi4nj42VsvHFPndN0otZV8QIpd-cFDvDk5zj-yUKnn09QtaVc26cnLAGIIKvlSIUZgpAi2kr03TN
+HGlNTD53UXhX7dXvNdCzSG4
+}
+
+sprite $ServiceGlobeErrorLg [20x20/16z] {
+RSg75GCX30HH9vGb-k_MQ0zdpqN-suaoLjK_SrTkAAPHlaXP5hgJl5PylcelbQ8jx6MMnz0FkvbXoDNc_yn_hL4kuzq2o09BXcNRtdcGBZg6EXWa5B1gn2fj
+2CZ4izLZhQHWGQIUbM4ycb0A4J6lnq5RNOKa8AygMVBJX92yc-uckWC
+}
+
+!procedure ServiceGlobeError($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGlobeError', $name, $tech)
+!endprocedure
+
+!procedure ServiceGlobeErrorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeErrorMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGlobeErrorGroup($id, $name='Service Globe Error', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeErrorMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceWebsiteStaging
+
+sprite $ServiceWebsiteStagingXs [10x10/16z] FSd70GCX34JH4oZFxxzQU_C3PI1jkuwgiaE2maxUb3_wwqePjq5TXnweXyZdXcmV6lW3
+
+sprite $ServiceWebsiteStagingSm [12x12/16z] HSQr0SC030J09h75l_-q8jDL1o3uECWwqxDHTBqxh4kJHWAbbzbt3U678qnbg0EkDmlONNT0Q0aQ_OTE2m
+
+sprite $ServiceWebsiteStagingMd [16x16/16z] LSxL0SDG20NGEixTVzk6F3z_E2XElnzfehJmGe8cc9geA8MwDb5Xnn88taaw7oBaZ66oqKJQ5hQBtaLMf1khwYQmFQ0eAIqI3nJxD3_S_W
+
+sprite $ServiceWebsiteStagingLg [20x20/16z] {
+PT350SDG30FGeacnjF-qXJ2ysmUZHYmtinYqORhzERGgdmKrwVB5yX6-K-F78Nml837Ee8wp9EE2pEi_3NbIad2wwh4Rr0gWHcGlg57b4IGrZbeIQWDDqZTr
+MLvJ4xvV2sZo1G
+}
+
+!procedure ServiceWebsiteStaging($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceWebsiteStaging', $name, $tech)
+!endprocedure
+
+!procedure ServiceWebsiteStagingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebsiteStagingMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebsiteStagingGroup($id, $name='Service Website Staging', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebsiteStagingMd>', $name, $tech)
+!endprocedure

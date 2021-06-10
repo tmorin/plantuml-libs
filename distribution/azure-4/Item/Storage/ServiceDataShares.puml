@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Storage/ServiceDataShares
+
+sprite $ServiceDataSharesXs [10x10/16z] DOQ50OG030F_WNgQxZyjJlI63Swba6qJ0HDslcp0eXNkdeHLvILapqCPV8b8VhHOdrXWIyoGSufp
+
+sprite $ServiceDataSharesSm [12x12/16z] JSP50GH140ImeMOe_sgFOVCAW6wyfT0Xba8NU1-YimMwrPaUE21BqjtCFM7H6VwKwS3pJng_Prl_3YN_dQUW8ZmA24rSt04
+
+sprite $ServiceDataSharesMd [16x16/16z] {
+NSV50GCn40ImdBrCqt-rOTPF-3SP9XxrRD9-u4QxZonY4U6z2hQMfz0Tsq2FPPNXPkQHWn3hwn-kjm8-hp1ytpH-FctpSxZtxudp-tewRFBP0fmeWUdAwW4m
+LVXt0G
+}
+
+sprite $ServiceDataSharesLg [20x20/16z] {
+RSy50iCW40J01Zk__VzlIwZJR0GO7DV9TBNCBz5HMotpwt9oHa9BhMsbbW4uTKwUGmOHZRwCowsAKri3Qwt3fXsdcGgDCOZ57D3UXazxPHbvujUI3FWnSw7S
+J6a8zd6X59ivalNFOAI-cxRIRRDvZo9fzcrIZwP8dxea00IJO2KZy4hYCdS
+}
+
+!procedure ServiceDataShares($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShares', $name, $tech)
+!endprocedure
+
+!procedure ServiceDataSharesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataSharesMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataSharesGroup($id, $name='Service Data Shares', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataSharesMd>', $name, $tech)
+!endprocedure

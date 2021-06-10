@@ -1,0 +1,157 @@
+# ServiceExpressRouteCircuits
+
+
+```text
+azure-4/Item/Networking/ServiceExpressRouteCircuits
+```
+
+```text
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+```
+
+
+
+| Illustration | ServiceExpressRouteCircuits | ServiceExpressRouteCircuitsCard | ServiceExpressRouteCircuitsGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure-4/Item/Networking/ServiceExpressRouteCircuits.png) | ![illustration for ServiceExpressRouteCircuits](../../../azure-4/Item/Networking/ServiceExpressRouteCircuits.Local.png) | ![illustration for ServiceExpressRouteCircuitsCard](../../../azure-4/Item/Networking/ServiceExpressRouteCircuitsCard.Local.png) | ![illustration for ServiceExpressRouteCircuitsGroup](../../../azure-4/Item/Networking/ServiceExpressRouteCircuitsGroup.Local.png) |
+
+
+
+
+## ServiceExpressRouteCircuits
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuits
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuits('ServiceExpressRouteCircuits', 'Service Express Route Circuits', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuits
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuits('ServiceExpressRouteCircuits', 'Service Express Route Circuits', 'an optional tech label')
+@enduml
+```
+
+## ServiceExpressRouteCircuitsCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuitsCard
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuitsCard('ServiceExpressRouteCircuitsCard', 'Service Express Route Circuits Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuitsCard
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuitsCard('ServiceExpressRouteCircuitsCard', 'Service Express Route Circuits Card', 'an optional description')
+@enduml
+```
+
+## ServiceExpressRouteCircuitsGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuitsGroup
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuitsGroup('ServiceExpressRouteCircuitsGroup', 'Service Express Route Circuits Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceExpressRouteCircuitsGroup
+include('azure-4/Item/Networking/ServiceExpressRouteCircuits')
+
+' renders the element
+ServiceExpressRouteCircuitsGroup('ServiceExpressRouteCircuitsGroup', 'Service Express Route Circuits Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceStorageContainer
+
+sprite $ServiceStorageContainerXs [10x10/16z] LSQ34G11402munhzL_jcHic7wSM4Bu80SmU8SxHMIvlRMjdy1xrkEY3JXVEn0W
+
+sprite $ServiceStorageContainerSm [12x12/16z] PSo53S0m4C30m3Ce-qzRvfx88e-7Z4kwNLpbeeo8W020o4ktLaifi3QKnR_fR5eQ-mQ9d__nC0C
+
+sprite $ServiceStorageContainerMd [16x16/16z] XSUr0G0X400m7Cxtd_RTDLti1-49NO_j15i-QTDJJZ64cEQduBqRhP_ozbBsb_Bq71PvEDGJq0kxw04
+
+sprite $ServiceStorageContainerLg [20x20/16z] ZSg53S0W04HHt0dxRzlYBYzwF-SUMJEnMatqiic9bcmY1VK8ePKe3KEFv4Ry0W7sJVe62l-JpuqnrhP_xXiiKlDemZnfrCIuHny
+
+!procedure ServiceStorageContainer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceStorageContainer', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorageContainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageContainerMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageContainerGroup($id, $name='Service Storage Container', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageContainerMd>', $name, $tech)
+!endprocedure

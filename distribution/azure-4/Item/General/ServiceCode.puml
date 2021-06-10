@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceCode
+
+sprite $ServiceCodeXs [10x10/16z] FSg50S0m20J0sajz_ssZS17qJyyzFTSvNLR5-cmIF43QEceEoATh8j9rrQ9LaplzgG
+
+sprite $ServiceCodeSm [12x12/16z] JOs50OCm44LRuBvX-q-BsqlERVum3WzZduS-VeYmKxkIDgVGTRNxH7T4e4mK2opItYibK7AyX-UUxwtvmme
+
+sprite $ServiceCodeMd [16x16/16z] XSvL0WD120FG2f1azVwtRQZxlXdqYtN3EBmOFsQz68KNObr4LgESybXrT389S8yCU07qd0d4DJIGlJXwNII7WPOLXCUUrG1T3E_thHjE
+
+sprite $ServiceCodeLg [20x20/16z] {
+ZP055a91203VamRZ_hULiFqrsyFsxI2Nyn-Ny3_Yg7FzmusV4F5WzXe3qfS3P3uHm3WNaL92ALBcqCi1PeNOmNQgmiGPuEg8gfPBYxbEb52qN6XH9wjIAusm
+WSMUfFiZblxgTf0x
+}
+
+!procedure ServiceCode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCode', $name, $tech)
+!endprocedure
+
+!procedure ServiceCodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCodeMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCodeGroup($id, $name='Service Code', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCodeMd>', $name, $tech)
+!endprocedure

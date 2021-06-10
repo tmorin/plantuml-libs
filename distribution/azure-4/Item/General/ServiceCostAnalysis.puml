@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceCostAnalysis
+
+sprite $ServiceCostAnalysisXs [10x10/16z] 9Km54W0X23nrZeRz_sjD9jW6Z1Ftb7wA0uA8v2BVeAvPkY6zg57_FYgK6xNl6uaKvd4rfAcng6F3ir6M2m
+
+sprite $ServiceCostAnalysisSm [12x12/16z] BKq54W011EH6v_zVUsq2cxkZll-qiMYzvoWpIxvtYOXNVvBddb-VztFh_5Ef7017FkSOmprwvvYf803QZOUfCYB7s-3P4UblnvVUFXS
+
+sprite $ServiceCostAnalysisMd [16x16/16z] {
+HOw34G0m34NBiDX_sXhlcAzB7I2K-YaAaVGf6UE4xytpWdSNY8YGLE-DC2ZrmVEMF3W1XadmaKzA4Q8rndWv5G9l1dRDYAHpcpXlna5OFYv_tZDWpqyv4Ia3
+8FCPP2gr38HrtUyLaTe1
+}
+
+sprite $ServiceCostAnalysisLg [20x20/16z] {
+PSx50O1034HHB6xzLulx_kD39hL58FKh2CZpBIa8QwWl8ZZYn-mGV1i34067oiSGVxk2MryBEj1KrVABC0uZy8MfgqBVhKtwx20EtLQFiN_gwmvXt-s1R-Oa
+nerjuRZJWF4OmR3zxXfs5IOMdCO9cEzXOQlORdQvKLSxMj7FgoFhHgi5
+}
+
+!procedure ServiceCostAnalysis($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCostAnalysis', $name, $tech)
+!endprocedure
+
+!procedure ServiceCostAnalysisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostAnalysisMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCostAnalysisGroup($id, $name='Service Cost Analysis', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAnalysisMd>', $name, $tech)
+!endprocedure

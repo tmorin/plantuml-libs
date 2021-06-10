@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/AzureStack/ServiceCapacity
+
+sprite $ServiceCapacityXs [10x10/16z] 9Ogr0S0m40Eh2Eo7_QUDIOtez1rbTmjZJhua6pTnHEWaWoIYTjeyG3aDd5MEdSuadUsk66yxt08
+
+sprite $ServiceCapacitySm [12x12/16z] FOhL0S0m44AhPz3B_jis_lZ1_7ah3qh5HID2fZS0kdfttpr9cxuJcQN4Mn5HiyXehMhrpk6jMl-gdulENgKArSzJv0y
+
+sprite $ServiceCapacityMd [16x16/16z] TSh50KCn00BGMe08oVxRbhh-TqD6ETrWNVLIm2ZFJ0tRzIst81yPLE2PAKVbrl-EdlEL0P2gOtLS4L2LgkzP3DLdPhReQ-2E0SrdHY8mxfatyZs3YkPr1W
+
+sprite $ServiceCapacityLg [20x20/16z] {
+PSq7SW0W24JHD7RNWjx_jh5h9c_wLy3jvqXrolPZqzkC8JMHjfiR8U_YqumXTdmREDZJm92xS1l8V_i0Qi3Jx4ZkvKy3G59AfRMDOmaLYz_KMf12k4rYqzBp
+3mgJLyV51aYhBQFHdnkBtBcRE2ZMmZke9kPQVm4
+}
+
+!procedure ServiceCapacity($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceCapacity', $name, $tech)
+!endprocedure
+
+!procedure ServiceCapacityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCapacityMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCapacityGroup($id, $name='Service Capacity', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCapacityMd>', $name, $tech)
+!endprocedure

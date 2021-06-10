@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces
+
+sprite $ServiceMachineLearningStudioWorkspacesXs [10x10/16z] 7SP10W0H30F0NMYRGFx_MZ2daMRu5MTM7LRjBU3bhBkxMOIcMrXnKl82Whrhbfzwy7zrtFJoVGbtZ0FpR0C
+
+sprite $ServiceMachineLearningStudioWorkspacesSm [12x12/16z] BSY55O0m30JGMZnm-qyBjUX_1o3bb4u7aQZCipn8tMZmpKrtdYRAH6eE6B7o8FFfdDzKFGBmsXEdNYvLhwsLqcCpgTRQv5qEs_Ki_m
+
+sprite $ServiceMachineLearningStudioWorkspacesMd [16x16/16z] {
+ROm70aCX24Dn0d7T_xQDThV_EO4aYmnxuQUkH7NVTkfIYhhRVkvrpWhuVYxdIaw4Cc_ohwOv5mV0iPTI_QDkkpRg7pLYA6EITPWMf8pr0baasNoMemOHoUrP
+Un8IzE5ecWyLZneF7eOR
+}
+
+sprite $ServiceMachineLearningStudioWorkspacesLg [20x20/16z] {
+XSq5WaCX34LHd9TW-z_jHAPkj_rsi6CHxcAZtTjTvDPghGr0hnB-hPJIY1bLNfwCVfYTqG5xGcKC0EJx4z4GcrLgOgLKCBFQWLX_CdAxh6Mp77DVtfRCKaWu
+3yqMGshhddRF8OI2VMTSerYiVBUofw39AHVQfDDi8brie3Ulup9nZbkNK_u
+}
+
+!procedure ServiceMachineLearningStudioWorkspaces($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AiMachineLearning/ServiceMachineLearningStudioWorkspaces', $name, $tech)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWorkspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioWorkspacesMd>', 'AiMachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMachineLearningStudioWorkspacesGroup($id, $name='Service Machine Learning Studio Workspaces', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioWorkspacesMd>', $name, $tech)
+!endprocedure

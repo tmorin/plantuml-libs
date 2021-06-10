@@ -1,0 +1,49 @@
+@startuml
+
+
+
+' AZURE
+
+!global $AZURE_GROUP_BD_LIGHT="#e1e1e1"
+!global $AZURE_GROUP_BD_DARK="#3f3f3f"
+!global $AZURE_GROUP_BG_LIGHT="#f2f2f2"
+!global $AZURE_BLUE="#0078d7"
+
+skinparam DefaultTextAlignment center
+
+skinparam Arrow {
+    FontColor $AZURE_GROUP_BD_DARK
+    Color $AZURE_BLUE
+    Thickness 1
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor none
+    BackgroundColor none
+    shadowing false
+}
+
+skinparam Rectangle<<IconCardElement>> {
+    BorderThickness 1
+    BorderColor $AZURE_GROUP_BD_LIGHT
+    BackgroundColor #FFFFFF
+    FontColor $AZURE_GROUP_BD_DARK
+    shadowing true
+}
+
+skinparam Rectangle<<IconGroupElement>> {
+  StereotypeFontColor $AZURE_GROUP_BD_DARK
+  BorderThickness 1
+  BorderColor $AZURE_GROUP_BD_DARK
+  BorderStyle solid
+  FontStyle none
+  FontColor $AZURE_GROUP_BD_DARK
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+
+@enduml

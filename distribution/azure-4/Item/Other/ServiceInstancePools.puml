@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Other/ServiceInstancePools
+
+sprite $ServiceInstancePoolsXs [10x10/16z] 7Sh10SH020B0ZmgGPEc_stDlFggGl5fEyX1BYQVNx3OZyRy1DcUuMyzWVS5CTNNhsxDggcY0SnkqA5_F-G4
+
+sprite $ServiceInstancePoolsSm [12x12/16z] BSd70G0X40B0poRWrFwxlJNCYx3M8hQlqrHbAtL473kd7v4x1oJ4oqNao_lVkFVTp3tLkTmjpBBKUQzcNgoeAaHKGkp4JT_w0G
+
+sprite $ServiceInstancePoolsMd [16x16/16z] {
+JO_55KGn30CF1id1_hjTVShR2KxGtgAtXx5l5b_QhOruk7sD_BYTyV8w0XGudkXpZig__If2Zk--fZVrU2AVYYxNn2rSpNH33cfcIBCa--KwuE5X0JPv8O3G
+YK39atM1QsYhawpM7vJm3m
+}
+
+sprite $ServiceInstancePoolsLg [20x20/16z] {
+PSu74eGW44JHAi9qD_7-jzrXDkitFnNOfzxUZVrgyPDUDCVDkdt2owPkflhjRVJRwC-0FZnL-ngjppaQp0qlCz038eQzHd_RSbF8jn5c1ilP_AWenhQsd5WF
+rPei6TcEaPQB9I3NOnnXiEIFbYoi7vFb3CkfCET27OD4-b4BFMdA0YFAQtDFnKr_DtpH3m
+}
+
+!procedure ServiceInstancePools($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceInstancePools', $name, $tech)
+!endprocedure
+
+!procedure ServiceInstancePoolsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceInstancePoolsMd>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceInstancePoolsGroup($id, $name='Service Instance Pools', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceInstancePoolsMd>', $name, $tech)
+!endprocedure

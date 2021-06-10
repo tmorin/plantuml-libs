@@ -1,0 +1,28 @@
+' definition of the Item azure-4/Group/GroupNetwork
+
+sprite $ServiceVirtualNetworksXs [10x10/16z] ROUr0G0n30ExmCdnxJ_jGn-nl297J_x1VucGgWgm9lM1kNhErZ_j5SrgRtW1
+
+sprite $ServiceVirtualNetworksSm [12x12/16z] TKkr0S0m39jYblh_jmrlCLlmlQFkOCIQxCCn8FJ7lHmPi78twKScFCMeihoYtQ32xXrdNy4rdl43
+
+sprite $ServiceVirtualNetworksMd [16x16/16z] bOs50S0m20JhnTb_s_BG1UAv2vBh8zHnkSQWaE4sbXXKu8X6Brilrn9CQeGh-3KbffkRkPJnJVvSFF7fV3sU4DcZCI44A8qGVty2heuF
+
+sprite $ServiceVirtualNetworksLg [20x20/16z] {
+jOjP4iCW34Ex6e4j-_wtBUlulssK04zlHd51lEa2RNvKHJjGFUaC9gPAoQwe5c7QJviLGnNG2emYEcOGCKLtwAuKxHwKbvWnWXnxwvN1UU_ialBW8H_WHqs9
+1UZgn1D-pGS
+}
+
+!procedure GroupNetwork($id, $name='Network', $tech='')
+  IconGroupElement($id, 'GroupNetwork', '<$ServiceVirtualNetworksLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupNetwork>> {
+  StereotypeFontColor $AZURE_BLUE
+  BorderThickness 1
+  BorderColor $AZURE_BLUE
+  BorderStyle dotted
+  FontStyle none
+  FontColor $AZURE_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

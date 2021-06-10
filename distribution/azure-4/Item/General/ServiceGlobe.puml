@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceGlobe
+
+sprite $ServiceGlobeXs [10x10/16z] 7Kk50SH037f5pjX_szB6WoIJz9udMVm3z4Wi4f1EBn0_-cHOuf_5bel-xJgcA6ltKi7xICxoE7cYaBik
+
+sprite $ServiceGlobeSm [12x12/16z] DSp50GD120NG67mPeVzkmzgxu5HjWrfxLbD49enTDOX45tAL2I0Zp2V__TJv44b47FcoZXnqlnn20Zh-JDeoiQgEehcxXptbetjOR4Vn1m
+
+sprite $ServiceGlobeMd [16x16/16z] {
+JSp70GGn24FHYq4W7FhlTcKspRyzEHorCeBxx7KwsZ1tiD33nBKYKjmHK3Bewnu7_0vcHFLdCDd6-3X3FPtNFeoO-h1wW1k8BM-spGjvLCqACoG3wph0KkaX
+zdqu5BVGxLKX_IC1yiSTNTzu0G
+}
+
+sprite $ServiceGlobeLg [20x20/16z] {
+NSn9bi0W30FHJP3a0UV-jssCUwvLyf_CsrMQcTVvskzdoRK0CChvYPlhUT0fe3aKqRlE3Tbcb7XgOr9tfh5UBpTMxmujaFtgOtxD3uBwPwPkR6x3Vd05hsqR
+9DR3W1sQeTqPGiXhTP00WN1ePeeqBD13K5rBm29FpgPf2u3wEeP6mmJBAp_Lbkgl6VkK-cEJpzy7
+}
+
+!procedure ServiceGlobe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGlobe', $name, $tech)
+!endprocedure
+
+!procedure ServiceGlobeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGlobeGroup($id, $name='Service Globe', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeMd>', $name, $tech)
+!endprocedure

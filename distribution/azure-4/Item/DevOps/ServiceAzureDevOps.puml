@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/DevOps/ServiceAzureDevOps
+
+sprite $ServiceAzureDevOpsXs [10x10/16z] 9Kf50G103FhDWVvjJ-QORWsrnGXy8SCZAtkY1bHvLVnGNvJwA0e5VjJtP5qdBsBF1QDRrmMa0m
+
+sprite $ServiceAzureDevOpsSm [12x12/16z] FOst0S10308xPS7-qzgVhr44E2a-ODwdIrVLx093rJooJACq6kjFCtKAJs-tjom_lLiI6PdLDNiYV14pewipFF6Yv_87
+
+sprite $ServiceAzureDevOpsMd [16x16/16z] {
+POxL0S1034B_MeYG_QUjoyaxZLCNKdKalBDZMPZFN-bSJppTLS9bW1x74-BrrPbuseVpAyHbGvsDnWOcMyxKOnF8up7QGOIJbwZaXrsfQM6NwQzybU8egOuh
+TmS
+}
+
+sprite $ServiceAzureDevOpsLg [20x20/16z] {
+RSrL0iKW44FHFnWXa_sljX9uIc_z5E6gk1UEtLhFFuAtrh-65iBwB90HHMPVcQVUmM7pSw18oEeYVQffi6uITOym6JSp_xQhHolVZPN-sRVSpE-F2bUHcUuk
+8_oxa75uXA-Ignn4tXo3xw1R1hXLkfy
+}
+
+!procedure ServiceAzureDevOps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/DevOps/ServiceAzureDevOps', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDevOpsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDevOpsMd>', 'DevOps', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDevOpsGroup($id, $name='Service Azure Dev Ops', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDevOpsMd>', $name, $tech)
+!endprocedure

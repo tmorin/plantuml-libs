@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Storage/ServiceStorageAccountsClassic
+
+sprite $ServiceStorageAccountsClassicXs [10x10/16z] FS654S0m30F0Wio5_QSj93h_twsIAeFIX4ptTTZLi0ym0va91h5mYhkz
+
+sprite $ServiceStorageAccountsClassicSm [12x12/16z] NSP50S0m402mqJ7vLpkcDg_KZ_-el5Ju9GJp3OYMyRRids_TORd1_XUPlgn-DW
+
+sprite $ServiceStorageAccountsClassicMd [16x16/16z] RSd50O00509GwmTWx3-jtVfEnF3MFmp2W_ZiP3umtUtadcbLUQhifpStIw-hK_t-_xhTgYKY_1I1_cLucG
+
+sprite $ServiceStorageAccountsClassicLg [20x20/16z] ZSsr0K0X30HGx8B3_jD-RN1uNVJoeUWxqTkEF-rPtR46a1N062XMKL-FLxuULEM_5HK5Cyxe6Dl_iyCU4If4DhXEo8Tk
+
+!procedure ServiceStorageAccountsClassic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorageAccountsClassic', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorageAccountsClassicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAccountsClassicMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageAccountsClassicGroup($id, $name='Service Storage Accounts Classic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAccountsClassicMd>', $name, $tech)
+!endprocedure

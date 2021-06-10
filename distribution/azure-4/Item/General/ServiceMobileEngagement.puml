@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceMobileEngagement
+
+sprite $ServiceMobileEngagementXs [10x10/16z] 9SQ74GD130B0yKa2_8d-gxsuazOVAxFusLz5Pgkz0k8igzhPhqLX3L7KMO7YdCzcp9ps_WBqjmS
+
+sprite $ServiceMobileEngagementSm [12x12/16z] RSU54S9000NHuLjotd-rkCEElLshnf9JrpeR986RcKH_34fy-016DvDEySrdRX_EtJgFhsxMERUhzptPzxDF
+
+sprite $ServiceMobileEngagementMd [16x16/16z] bS-53KGX54JHy7HcjVzklxjVz8GO__-V4U5UR_otGLL5wWszHQsko6YFEZcskOVFNAHjSX5rMc_MJv7nClPMjyGpHmOdgsXJxrTs_yjNRm0HzTQu0W
+
+sprite $ServiceMobileEngagementLg [20x20/16z] {
+dT056eCm50FWRoz9RHkz_sbnTmZQlzwSS-5T7Qbv-wA6riG-cim-VMncK1CkZAx9EpE0WeqspGki340A62rO7H-O8i9a549S6kXMbkUMhwoP8ypDO6HzJnQd
+yukZXJfIypwq2W
+}
+
+!procedure ServiceMobileEngagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceMobileEngagement', $name, $tech)
+!endprocedure
+
+!procedure ServiceMobileEngagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMobileEngagementMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMobileEngagementGroup($id, $name='Service Mobile Engagement', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMobileEngagementMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Compute/ServiceVirtualMachine
+
+sprite $ServiceVirtualMachineXs [10x10/16z] LOR70GD120Ctaw7_RYtpkr5y7-xzDn6TjIw66MzVRkxQ3oE0kirCkwsgWYWnE7oEz7K5KVK3
+
+sprite $ServiceVirtualMachineSm [12x12/16z] TSQ52SG050HH-2ud_NURtGYUXyp4YymC5_6yX8eOfwfIH8r39kfiGsKs3JpzmLPzsJ-CnoBmQpVpmS7I1tC
+
+sprite $ServiceVirtualMachineMd [16x16/16z] RSg54G0X30J08PxN_gjznM578dVIKfaZJeKNOm0KpGX20FvMUpmt8B5bpmrOtO80fD_g7nFvjj7wMfvbMJ_dwt3LPyiE5R5oxav4l1xf5Ffehk-VBxy1
+
+sprite $ServiceVirtualMachineLg [20x20/16z] {
+bSw54S0W3030WrYz-qzRBwv_HeXoJBWJ0P1fVZ1gfJIoE4ZVVn3yNG2_Q7ZG_GNuHV-Vkd_Ddob4_eBn8yJtkylocfttih-M-wnjzynyMRslJUWokJyZ8rnG
+PlEtya-sFUC4
+}
+
+!procedure ServiceVirtualMachine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceVirtualMachine', $name, $tech)
+!endprocedure
+
+!procedure ServiceVirtualMachineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualMachineMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualMachineGroup($id, $name='Service Virtual Machine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualMachineMd>', $name, $tech)
+!endprocedure

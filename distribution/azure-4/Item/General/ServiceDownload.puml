@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceDownload
+
+sprite $ServiceDownloadXs [10x10/16z] BOQ30S0m44MZi_RVjWq-NsO6S_odQos0VrHwwm3_o4-3Q5ngSxP3S_oQNNG-QRYxwZzHLMcM__tWPlxZ1m
+
+sprite $ServiceDownloadSm [12x12/16z] BOY54G0m2CJgS8VjlssnO7bC7SJOnl0Q85fZZ7jzhV1vtZkpV6o0tNyFhkbpBsVFyiITqG68pUOeaLWZHDpAJ1K-
+
+sprite $ServiceDownloadMd [16x16/16z] {
+JOvL0e0m34EPrGltlotBqFUJr7iiKYHlPq29T9bCgfD6rA2KERP98IhGSSMj4_NsnPMOgNxnLfdRrp-fgDvnwGLCUUAR5LFzm7rJ8BB4xg_3B8uVuUvVj2Fq
+sD_g3Vm9
+}
+
+sprite $ServiceDownloadLg [20x20/16z] {
+RT150iGm243HJ0IYzFwdZS5G_IjuzHvIYR4S_neNGuWyLQA8S0jZ8_oPbGLmU_X5kfXbGp7h0c9mzcQ0CxZPH2QrZOZt--tBzuLgrXl9MpK84gWPg_6rqJ-A
+H9bBCnb9_zMC5uq-h2rhDwbJ7bgrlGu
+}
+
+!procedure ServiceDownload($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceDownload', $name, $tech)
+!endprocedure
+
+!procedure ServiceDownloadCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDownloadMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDownloadGroup($id, $name='Service Download', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDownloadMd>', $name, $tech)
+!endprocedure

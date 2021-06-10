@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureDataExplorerClusters
+
+sprite $ServiceAzureDataExplorerClustersXs [10x10/16z] 5KY50GG12FgmCVRVzZYb9pp2pSolgFBxYnsZ_7bCcvp-Fxl9UQFuUA5Jn38IZacBtBAY8fB1VUzGMHjpl7a
+
+sprite $ServiceAzureDataExplorerClustersSm [12x12/16z] 5SU54S0m40F1IQm7oV3zLskueRsLh_1Rbjp3qNx0wmskstC9-1h-_taHxNLDllc0N8mn9W64qeTyB5ga-gN4fKoLd7HMzHHDiiix4cjmrMiT
+
+sprite $ServiceAzureDataExplorerClustersMd [16x16/16z] {
+HSn50eGm44JH0P9skVzjfuBMgjz7saH4CJvdROGnpp6ECGRt5S1zkum0mlljDd23zkqutOhxSqRfyxw0pDLw_MyQI5wv0YWMH9v228jYCXSbgvG4Jd1A24Vx
+SXU3F3bx1KkSDn7Mzrms2Jo3XsINWlV-
+}
+
+sprite $ServiceAzureDataExplorerClustersLg [20x20/16z] {
+HSy5aWKX40FGCQHboVrlkw53rSy8y72aLTpTfXBmlZF6wD_916oRw7bb1pUzr_qUWuj-uuGRRihBdmoJTb-qvtfamlVLAmjRnDhZOqnRf4RU3sb4aM6jmatx
+7gtPoZ4t5iqGyI8BH1BD3kLVB1Y9XYIrddG3GWOHVm5X88fQaJ2Y7NA2C8m4Mf4mbmLB5vty0m
+}
+
+!procedure ServiceAzureDataExplorerClusters($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureDataExplorerClusters', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDataExplorerClustersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataExplorerClustersMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataExplorerClustersGroup($id, $name='Service Azure Data Explorer Clusters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataExplorerClustersMd>', $name, $tech)
+!endprocedure

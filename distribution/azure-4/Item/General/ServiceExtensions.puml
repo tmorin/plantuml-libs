@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceExtensions
+
+sprite $ServiceExtensionsXs [10x10/16z] BOYt0GCn4CCQ1QOxxJ-j_GaD2PmRIpBstanYBTYvScdP9Fqyp3bnojzhzVUohYS0gkl1DrozrylkFm
+
+sprite $ServiceExtensionsSm [12x12/16z] JScr0S0m30J0ok98-s-RD_kgXngy2rEm7isf4P7EZoIXvq0ExdBc1lIzERnE5kwPOEMChdeccOXBQDFw0G
+
+sprite $ServiceExtensionsMd [16x16/16z] RSUr0SGm402mniUq_xH9Z8_gL8lR4BdeP0m3XtTgr90UMbq-1wzbFtImVOE1_jtVdnRrVctszpZmVjhWw-eRzpSusdEbTr4t
+
+sprite $ServiceExtensionsLg [20x20/16z] {
+XT1L0WCX34NHUXiXsVzgHry7X_DvSVmIvAGM6_-f48WmoEy5v7QGlRs_1_RJqRuUnMO1B3P-0yL6iwQiPTitBPg-FrMJ5ngtsWSuji2WiKLe-0FudAsmDVqL
+s7q5
+}
+
+!procedure ServiceExtensions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceExtensions', $name, $tech)
+!endprocedure
+
+!procedure ServiceExtensionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExtensionsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExtensionsGroup($id, $name='Service Extensions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtensionsMd>', $name, $tech)
+!endprocedure

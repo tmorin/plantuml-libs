@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Security/ServiceSecurityCenter
+
+sprite $ServiceSecurityCenterXs [10x10/16z] 9Ok72G0n30E3uswmzj_snUTegW0cSq0gmpsoi1JtKYwLagUkoAL2XfmZaNo6tgl1zrQIMlpo2Sfk2dm
+
+sprite $ServiceSecurityCenterSm [12x12/16z] DOa50W0W20Dj1yR-_rkJKs31ZG8wZ-YAie5sKhP8QI_PkjOKOwhrwPXp_BhuJJ7jtDFTyivJN8IRYSlaOGWWWu-fUjC5
+
+sprite $ServiceSecurityCenterMd [16x16/16z] {
+JOy50WGX30CFQuh__xUNh0ywBRh5QkvjQIPPtOruNmeDm2w0GUU04cFXO7ADCQMe-EKbc8NozLA-7WE97_-HovU_xdf00t8Y6MXKBV03fSMyVLB4E7tic-b0
+lRBNX-_l_W4
+}
+
+sprite $ServiceSecurityCenterLg [20x20/16z] {
+LT250O0W04HHIku8OVzfbOvlFvlSUxrp_ir7AS2M4DA0u3tjYDw7UWti5LArcZLI6elQCYEqbkOsfTfocmRqROzKnYZvdAQ5B0azZSrgpLWik_RQPIwN8iXX
+XaJCDOBsQLc2Oqm8Zi0vDd5RpBC0D478kq0KuhngFNCzQvMyJtF_1m
+}
+
+!procedure ServiceSecurityCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Security/ServiceSecurityCenter', $name, $tech)
+!endprocedure
+
+!procedure ServiceSecurityCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSecurityCenterMd>', 'Security', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSecurityCenterGroup($id, $name='Service Security Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSecurityCenterMd>', $name, $tech)
+!endprocedure

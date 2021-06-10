@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Migrate/ServiceCostManagementAndBilling
+
+sprite $ServiceCostManagementAndBillingXs [10x10/16z] 5SQt0GGm30B0mhOG2h3_j1-gEzlAH_sjVEUyjGZW_ge6PYVE8L4gpJqlCUxHErcWLdtlReBJkB0d0MIkxIroP7y1
+
+sprite $ServiceCostManagementAndBillingSm [12x12/16z] 7Kst0G1122ekA9Zst_Qvjr69esa_gFalugnrGcUvcUwrOnfce6qn5MRiQkg1u2xMc0YOpqIEh-N2QwBwhjDfvjLFRpCqVMxtrAlozo3_uYGGhUC3
+
+sprite $ServiceCostManagementAndBillingMd [16x16/16z] {
+DOp5WGD030CVIqQf_svFlYIpE2R-WtUz-QCpzbhRm05fzlOIjqRZ2Rcu87FKxFv7Z31f4OWZtvtIP6Spfi9TnM16iw_yZfCTIJxv6uSyo2j5gJ-8md-_V-Od
+555w5raJCDTzbb6alS7qW4Ev3PwZ0oeYwcD_
+}
+
+sprite $ServiceCostManagementAndBillingLg [20x20/16z] {
+NOzNbaKX20G_36Hw_xiTGIUzlj4wfG1UWaW2VvEXOup9lpHLcEOeAW_v8NHOXougGlknKMOs8gPrwGp0cdXco6h8hMrEm1EshjYQLsa3PBQefG4f6iTjaHw3
+gmAvFvWaiZovvrLvjVEgympnNJVGMlUdtL_qGFCDTyIAlA6N_yxRDjDKuC67M0mleTofld-JfggUkFa2
+}
+
+!procedure ServiceCostManagementAndBilling($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Migrate/ServiceCostManagementAndBilling', $name, $tech)
+!endprocedure
+
+!procedure ServiceCostManagementAndBillingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostManagementAndBillingMd>', 'Migrate', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCostManagementAndBillingGroup($id, $name='Service Cost Management And Billing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostManagementAndBillingMd>', $name, $tech)
+!endprocedure

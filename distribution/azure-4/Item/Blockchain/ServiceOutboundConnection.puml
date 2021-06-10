@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Blockchain/ServiceOutboundConnection
+
+sprite $ServiceOutboundConnectionXs [10x10/16z] FSYr0GC130F0nY2JlF-qoVCrWZrKxMMWwdqKcXwSn-McXkIo71vvDE1hhBDD4zdfg0RODs0VpJy
+
+sprite $ServiceOutboundConnectionSm [12x12/16z] FSct0S1020F02aHc_sdjprSfz1JUHmgHv8hEDF2wP6NOoc1YrRa71ZKRMKUIav4XQyzgHAT2lKh2HLKWeiBeEbAid-WV
+
+sprite $ServiceOutboundConnectionMd [16x16/16z] {
+LSt50K0X30FG4qcz-q_xNI3eG_jEHayfnT3yw1n7O7LlodWYjucRr7gCGn2rnoHEsULKKCYJfntdfdo6fE3PzzFUPSJfgCY-FWcbUdORmqavWgidsEb_1D9p
+J6jnLUy
+}
+
+sprite $ServiceOutboundConnectionLg [20x20/16z] {
+PSxL0O0m54FHBvBqwVxRudxn0xJjiyh-L4vulIWuBT5lAKr7YeCIqnNo-14twJBWa64FMnGSPhT91BJ8OMa49N1S5WIm01z630VqCh3Q262tg5fih6EEtJmx
+bKtuWXNYlhO4qm5jWTolOCVGtM6lzdz_ffrULVSC
+}
+
+!procedure ServiceOutboundConnection($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceOutboundConnection', $name, $tech)
+!endprocedure
+
+!procedure ServiceOutboundConnectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceOutboundConnectionMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+
+!procedure ServiceOutboundConnectionGroup($id, $name='Service Outbound Connection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOutboundConnectionMd>', $name, $tech)
+!endprocedure

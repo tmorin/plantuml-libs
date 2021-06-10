@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceAutomationAccounts
+include('azure-4/Item/ManagementGovernance/ServiceAutomationAccounts')
+
+' renders the element
+ServiceAutomationAccounts('ServiceAutomationAccounts', 'Service Automation Accounts', 'an optional tech label')
+@enduml

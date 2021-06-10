@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceAllResources
+
+sprite $ServiceAllResourcesXs [10x10/16z] HOf50e1G24HNr1lm_hUrzPDJ8vtJqbOUvPxkEX4F8bEPv-sA828Zn8yQpX4CTwZEt4ADNlS
+
+sprite $ServiceAllResourcesSm [12x12/16z] LOmX0iH04CBS0ZEm_t_keQwj88dYsabd-yuvL8S3FtqyW0IGG9RKT2Gp0DK1yBijxKepKjgpdTeBQ3g2dv_isjtktXy
+
+sprite $ServiceAllResourcesMd [16x16/16z] TOo53KH120MZkFJVxJqu_pB9pk9TOBLqCBECM2Ug829s0ZhHJSxGCqy5CN8ygptbttl_EL_sPSIsUGLOvQX3mChmz3Klq7F-lo-LX_bENFhSotu
+
+sprite $ServiceAllResourcesLg [20x20/16z] fT0r5e1034NH3kBP_sx9FxZRAsu1utbGC5KcK7hJswPIWjJxwrlGmHvqjg_nF9Vh6pA6HF3-6_TcC7A58b0p38L3xqsd_TpZRyWOSkzqZ_cR7BvfXbUzqPiT
+
+!procedure ServiceAllResources($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceAllResources', $name, $tech)
+!endprocedure
+
+!procedure ServiceAllResourcesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAllResourcesMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAllResourcesGroup($id, $name='Service All Resources', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAllResourcesMd>', $name, $tech)
+!endprocedure

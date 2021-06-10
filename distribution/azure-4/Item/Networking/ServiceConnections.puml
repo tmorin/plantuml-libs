@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceConnections
+
+sprite $ServiceConnectionsXs [10x10/16z] 3Ko50G1H5C7zBljlUru7xBV6MC_sRGBKhbz3ZEnlYGGBj0TGM0YCJFgeJ4j8OxwlvHFhpxSBKB-EyXvZH_a7
+
+sprite $ServiceConnectionsSm [12x12/16z] FSx70S0m24DH2P5g0_jFcnx_qxjGgYhQjhMekpORgRdTT3nvgvWVcM6EPX1X3gXj19rk0BVBaAZRJNX0gCKCmzCIO-VKdriYjLpyVyWB9m
+
+sprite $ServiceConnectionsMd [16x16/16z] {
+LOy73iCm202PmiAX_lzl6qP7JijdzabYk-yuGxWfivf7wRKO2bbNHXV1GElES1vZ0l4J1e2bYe0MM_FP2g2xqaL0gqpQqvZACnzG490nyyFwMQ35SG4Q1V77
+FhnUjQzK77lVlaT4pJCwzzxqTMy
+}
+
+sprite $ServiceConnectionsLg [20x20/16z] {
+PT1L0iGm20JG236izx_jKjZwVBueitbKo2AwNU4rH-zZ8XyYEA0aIu694hIwYsiFn9xJcTpHY4SvfUPK9c-wu2JOJm2gp6BhS99j51f-2mJj6KGztgi9MbWF
+CxINQZriXEsR0WVv6wb0_lybbIMAS9AdeVgVoqd-v_TiWpuT3DGe5EU_gpP9pqxHErrdfz_kVm
+}
+
+!procedure ServiceConnections($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceConnections', $name, $tech)
+!endprocedure
+
+!procedure ServiceConnectionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceConnectionsMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceConnectionsGroup($id, $name='Service Connections', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceConnectionsMd>', $name, $tech)
+!endprocedure

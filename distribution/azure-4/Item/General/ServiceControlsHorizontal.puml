@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceControlsHorizontal
+
+sprite $ServiceControlsHorizontalXs [10x10/16z] u-Vdv-K70oukBbOEJY3W0W8s20iep0V2V41PC61duqIm4B887GXJ42O3
+
+sprite $ServiceControlsHorizontalSm [12x12/16z] JSv50W0X20NGQHhkVzffzR-DGTOjwsDcUgYzc9dMuo0YveXmzjjzgSQofDb8y8uvM8izSHRkS04
+
+sprite $ServiceControlsHorizontalMd [16x16/16z] NS_50S0m30F0icBUVziowJv1Kv7SDSkRRDeq0sYlQLeMx5hptT9ijs-Bn0SaeltIeF6P_nVvrFCTzyFzyZn5LW
+
+sprite $ServiceControlsHorizontalLg [20x20/16z] XP235G1134JFgw3_Qi_Uu3_565R1ylRAJkXItjczk3DrqqhOsFqx5gxOsTkdf_MSJS3E0UNBsA_zySlOJI5ACQbNsY7T8jqi_IPf86abQ2go
+
+!procedure ServiceControlsHorizontal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceControlsHorizontal', $name, $tech)
+!endprocedure
+
+!procedure ServiceControlsHorizontalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceControlsHorizontalMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceControlsHorizontalGroup($id, $name='Service Controls Horizontal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsHorizontalMd>', $name, $tech)
+!endprocedure

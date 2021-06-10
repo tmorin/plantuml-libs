@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AzureVMwareSolution/ServiceAvs
+
+sprite $ServiceAvsXs [10x10/16z] 7OpL0G10249_LE2A_QUzUdRwCgS_Im3dIngg87kG5L4SviqoYsoyH3pVH6QIqbBTQOQc1nurtfkFVG
+
+sprite $ServiceAvsSm [12x12/16z] JSt70SH020F03o1f4_rtUvlEzf1Vv396NaE4Ucx2n7MqkRe3DREIS3C7w-1a7ZP7uGIpuAI9Pdjs0U4U4MhPvxQr_UaO-VK3
+
+sprite $ServiceAvsMd [16x16/16z] {
+ROx50GCW40GVvmBflzii5vV1Tl3BFtP5v7hgSZlKOnKwz6WdeWYwF8jvLfc8pHnNf0CbHKN8xUEig2U53mnkAGPSOBTKT-URvovNLG7e_7mov0vJRFoWz8x8
+_7Zt4on_SmK
+}
+
+sprite $ServiceAvsLg [20x20/16z] {
+VSu53W9H30JGf3vywVrF2wpxldXryaMhjVPZ9TpClEIc-WovwE6BCbVgn__Cji467p0HktlqeHG35pPZyGYKdeWHgvcInnzQx6eS8ymr8r6oc8kJK6OD7Ac8
+ObQ7eJ_xr-QzaXMk6x4XJ3RVbTXg3i9MAf4Z-0voqdVomGy
+}
+
+!procedure ServiceAvs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureVMwareSolution/ServiceAvs', $name, $tech)
+!endprocedure
+
+!procedure ServiceAvsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAvsMd>', 'AzureVMwareSolution', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAvsGroup($id, $name='Service Avs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvsMd>', $name, $tech)
+!endprocedure

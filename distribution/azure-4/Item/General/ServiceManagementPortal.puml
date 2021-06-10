@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceManagementPortal
+
+sprite $ServiceManagementPortalXs [10x10/16z] uuS3NcueuENcX09k3XPMDZ3WP6TYPWK33bmiY3ek3WukCE11c0m
+
+sprite $ServiceManagementPortalSm [12x12/16z] ZSkr0S0W40NG18Up_QV5hUGrfrykJ1jZt0321a5huuOKb39sY0zz-xShIm0uiLmA
+
+sprite $ServiceManagementPortalMd [16x16/16z] hSs35S10303GuXZkFsrjutxy5BqXk0JCSOKvXB2yqHXZtOIWA8hIJZ35RRRtuXyrpSTHOBrH0m
+
+sprite $ServiceManagementPortalLg [20x20/16z] jSY33K0n5030fExZ_jD-sxpuz2fPKSahSlKur6AQOBB66EidGdzJ5o_yT66AoLbhtRGYAnCHp-XL9G
+
+!procedure ServiceManagementPortal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceManagementPortal', $name, $tech)
+!endprocedure
+
+!procedure ServiceManagementPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagementPortalMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceManagementPortalGroup($id, $name='Service Management Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementPortalMd>', $name, $tech)
+!endprocedure

@@ -13,7 +13,7 @@ name: Package Builder
 on: [ push, pull_request ]
 
 env:
-  PACKAGE_URN: aws-20210131
+  PACKAGE_URN: azure-4
   #PACKAGE_URN: ${{ github.event.inputs.pkgName }}
   PACKAGE_VERSION: ${{ github.event.inputs.pkgVersion }}
 

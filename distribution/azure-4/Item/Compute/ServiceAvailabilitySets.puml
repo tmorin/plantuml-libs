@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceAvailabilitySets
+
+sprite $ServiceAvailabilitySetsXs [10x10/16z] 7Kk50G112FesaVstVUvi2M0mAW2S5QJ-3CyYXQSzdjYOVUzdEeYm-tMvo0hpa4pQjXoA9L6bWSQEnWy
+
+sprite $ServiceAvailabilitySetsSm [12x12/16z] JSQ30S0040F0wetiFssjHtBr7xopE-EOos52vdsRI3Joil12h8ShLUP5x33Qb4NzD3BCCYyZMHgtk-fqPkMUHsy
+
+sprite $ServiceAvailabilitySetsMd [16x16/16z] {
+LOu54WCm20Hd6W6I0_x_soBLYouEXIeCiLKJ_4yATsiL0swdTSkloRAtlBZyD2RBiM1OiD3UcuWv0CMqvmYBPJt7PTgFO0wkDeTf36B9-68HPf7Wday1uPj_
+VSrxrvBsl3W6xFuXZrLN27fZA-gwm1C
+}
+
+sprite $ServiceAvailabilitySetsLg [20x20/16z] {
+RT054WGX34JHAYG2INF_sswmzJ_-nd4tSvYTUHv50CRRZ72Chs3J_8QdUOjqhcoP-pOXrcFtEYqfovT9APL5sZn4BClePcFYCcOggH2pxNlHkuQbL7WRngoB
+y3IHS-yqLQ7Aekf1sqnl_hmNxjvOOxqE9iwCAeLCicDW8f9v0FFnaqT_njcweM_hCOSz
+}
+
+!procedure ServiceAvailabilitySets($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAvailabilitySets', $name, $tech)
+!endprocedure
+
+!procedure ServiceAvailabilitySetsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAvailabilitySetsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAvailabilitySetsGroup($id, $name='Service Availability Sets', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvailabilitySetsMd>', $name, $tech)
+!endprocedure

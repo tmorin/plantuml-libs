@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Other/ServiceUniversalPrint
+
+sprite $ServiceUniversalPrintXs [10x10/16z] 7Kp50G0X3Bk3DXKa-q-BvHKdENkVv2KEM3za152hO7OtGocb3lT3HKJZCZnaX4DLSOePUdkuDt5PvpkAI6u
+
+sprite $ServiceUniversalPrintSm [12x12/16z] DSo53GC120306cxxRriaVn6S6X5P9vY8VTDaH02Khgoxy6bGHcFpv4RqQoYRur4HUVBeWk3RVjZlNV7JVb93xi_cQSth3m
+
+sprite $ServiceUniversalPrintMd [16x16/16z] {
+NStL0SCm30JGaaM6st_Q91QKtf_ma1Q-J1MMZZAODglfBjj5T07BX9dRutA_6vOoU-qCKGf7hKisPcgEMHozwLyzzF9LetlzUhf6m1hT9FD8u6RbJGHvkeuo
+7N02
+}
+
+sprite $ServiceUniversalPrintLg [20x20/16z] {
+TS_50KGX303H5UA1z5_jDoIhxpYtYV-g2wk_9ICyINjB7QzOhmGd9BcACXtAlNks23_AUrk9yT4L3w5EQ3ImoXqHGeU4is7wsLGkRwtfQ30XHjNUogDx7YsQ
+coeJZ5Q8edF3sTHYWdnR13gAdtO
+}
+
+!procedure ServiceUniversalPrint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceUniversalPrint', $name, $tech)
+!endprocedure
+
+!procedure ServiceUniversalPrintCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUniversalPrintMd>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUniversalPrintGroup($id, $name='Service Universal Print', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUniversalPrintMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Preview/ServiceAzureSphere
+
+sprite $ServiceAzureSphereXs [10x10/16z] 3OQ93G0m20AJAj37oFxRLjwp-sM-jbt2Mb2v1MG2wZiGCNZ5Z9nGcyWHk0-P8_9eWGDOEgcjIHvttNDkjJy
+
+sprite $ServiceAzureSphereSm [12x12/16z] JSY53KKn34DHXUoozv_sCxnJo5KadP4vZfucowmu7pcgAlFn3Mry6xkZugNG6n3v442xTYVpXUmZ2yz4vQ05-To6SP7jXLoILdzunXq
+
+sprite $ServiceAzureSphereMd [16x16/16z] {
+NOo50O0W54J5t-J-stgsyiWB63izC-UEowMKKsAzdAeYknRH2jaWOK32Q6Eul5hyZ9a07uLG5Tm1aQY6gohaOU3gimwpLvj5CJKvtmkkfV8gniIO9YjNJmiP
+6aYDbXG5kU-_OjlpqKe9FuXIsW2m0fnY0m
+}
+
+sprite $ServiceAzureSphereLg [20x20/16z] {
+fP250OGm302XiIQLtt_RZo03SEWTslwAhOYwBqcM2fudYgwxR6KYE0uWOjsLEZdO6fBJCsPwwPuc5OXKpFis10Ul6oSpKuRCv3gL7Gy5XEcNPk8WN0d3R0cp
+C40cuB2rg3MAM2biQGnU8aQIC9i-IIIz2zNUfsnkPNQv4MQDkThBxcHhFvCzJHsRPNy
+}
+
+!procedure ServiceAzureSphere($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureSphere', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureSphereCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSphereMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSphereGroup($id, $name='Service Azure Sphere', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSphereMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceEducationCard
+include('azure-4/Item/ManagementGovernance/ServiceEducation')
+
+' renders the element
+ServiceEducationCard('ServiceEducationCard', 'Service Education Card', 'an optional description')
+@enduml

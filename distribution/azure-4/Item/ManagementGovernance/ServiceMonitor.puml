@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceMonitor
+
+sprite $ServiceMonitorXs [10x10/16z] HKp50K1H219uNUu_xU_m8ks-UYbzkVlC8fMdhymOGcHUNIAWg5OeqocM0Xp83AMHTXxRohXGMiSA3-LO-PTt
+
+sprite $ServiceMonitorSm [12x12/16z] JKu54aL1259Od77OkFzfVyUpMyuvozrUvqak0Ym_Gq5ZF8pFAa2aY5eccH4fqGqWncDge1kP8SMZrIOGBw9NPRxZMiTwXyFlNvclNrSCTm
+
+sprite $ServiceMonitorMd [16x16/16z] {
+POy7ZWKn24CnOq94WkR-jztKRV-fqR7VIVQ8dkyXmuqqZrtfbT01MFliLeKLiXYqZeaWHluynHICDntF0nLHDODdCv0G4T1ThGMXerlc2oeZA1Xjhv01ezde
+GmxMqd_by5p_vC1OUcuwz1ozCpjwF_mCiaMqdNq1
+}
+
+sprite $ServiceMonitorLg [20x20/16z] {
+TT150WH124DH4j8KNNh_quwx_1rlHzQbENjhVSprhDSi4ILhlykikH5cu9PrN6aFmaNAmTWlM0FO8jmZDY3gYNeIqDK4CFkQLN123gD36rJdI5AYNL8fpXoj
+m2MO0JXH4KfhOI3Dc1cYEoqk1fnitzqkdQm0v1bfrqeRIV1wNsEEMMKadgOwLq_Q2p7xzRSd8UfzWplTDrYZfgvRAUlyi-crELwtFm8
+}
+
+!procedure ServiceMonitor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceMonitor', $name, $tech)
+!endprocedure
+
+!procedure ServiceMonitorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMonitorGroup($id, $name='Service Monitor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorMd>', $name, $tech)
+!endprocedure

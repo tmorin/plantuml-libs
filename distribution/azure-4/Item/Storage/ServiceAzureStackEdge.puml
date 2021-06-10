@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Storage/ServiceAzureStackEdge
+
+sprite $ServiceAzureStackEdgeXs [10x10/16z] JOQ55S9044GVj-xzLml4C_hdhNBF7LAOEMRQc5X4UmGHI4IiSAqFYFxrftMG8W2AcSN4jfarZtu
+
+sprite $ServiceAzureStackEdgeSm [12x12/16z] NSo54K0n20FGAwG4gljl-rtV6PhvCteRPzdSZEKeQIksTUyPsKZ6d0IWUQqzEaHI0dqLa9NkjPkAAXYRJgnyhKfVCrTzZ34_5W
+
+sprite $ServiceAzureStackEdgeMd [16x16/16z] ZSv75eH020JG9rrIqF7-jntQx6hyEpBZYrxSSxt2IWtCPzLqmxf5hkkgd3p2ffYsX4K34HB0oRmZYSWYKDlu5iiMRv2MLqn82g1lSYSstCCMlng3br3x-ES7
+
+sprite $ServiceAzureStackEdgeLg [20x20/16z] {
+bT053WCX48NXBCoEOVS_BVggiVQB_pZjJxMKybLC9atjfGWV_ZQBGJ9IqfiP3EjeOJdAJ9dfGBIv-ioAaKZ0Ab4C8LnN95PmeXcci1fGXBTsnsjRpGurMdCM
+Dl2g1FnChJdVc_YMAxvfgrlxtG
+}
+
+!procedure ServiceAzureStackEdge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceAzureStackEdge', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureStackEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureStackEdgeGroup($id, $name='Service Azure Stack Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeMd>', $name, $tech)
+!endprocedure

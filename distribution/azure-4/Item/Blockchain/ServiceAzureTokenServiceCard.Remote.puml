@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureTokenServiceCard
+include('azure-4/Item/Blockchain/ServiceAzureTokenService')
+
+' renders the element
+ServiceAzureTokenServiceCard('ServiceAzureTokenServiceCard', 'Service Azure Token Service Card', 'an optional description')
+@enduml

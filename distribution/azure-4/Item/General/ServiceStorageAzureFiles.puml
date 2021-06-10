@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceStorageAzureFiles
+
+sprite $ServiceStorageAzureFilesXs [10x10/16z] HSc53G1H20FGZsl2_jEUouj0s_bqFJhZaQOgAY9g9am4W79yj0vmVFf_38TZ3N_4V7O
+
+sprite $ServiceStorageAzureFilesSm [12x12/16z] NSor0G0n3C30iDdUVzfdp5Mg51-c3nD-2E63eEzQQxt3rhMKd7CzEgVTtEFkiVMeXpxW-u-F5G
+
+sprite $ServiceStorageAzureFilesMd [16x16/16z] XSV50G0X302mAWxTVzfpr_nYFt8woTUdS9A2deJnJbHv8CkP2650ouTC-EdE7UxET_EPPZ8y-fFOBkoY1m
+
+sprite $ServiceStorageAzureFilesLg [20x20/16z] ZSY50O0m40H1z81e_zqITzleZroCiofEIHLjsbT5FrHzxwt2VQdZUvMfb5t7hZg3cN7J7Te-RMOEzYqRWCo0ok3js7sdDwK-Q6EaYid5VW
+
+!procedure ServiceStorageAzureFiles($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceStorageAzureFiles', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorageAzureFilesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAzureFilesMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorageAzureFilesGroup($id, $name='Service Storage Azure Files', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAzureFilesMd>', $name, $tech)
+!endprocedure

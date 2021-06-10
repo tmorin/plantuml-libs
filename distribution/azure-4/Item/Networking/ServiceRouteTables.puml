@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceRouteTables
+
+sprite $ServiceRouteTablesXs [10x10/16z] 7Oh50O0030En2hNilosXzua2FHWirM5MD5sX8ZQeY51LkiaPDtlt67e_rZIfSjt_35SLFeFEo3upblm
+
+sprite $ServiceRouteTablesSm [12x12/16z] FOe50W9124MDeUFV_xQ2klicu0U0marxfshyzs0YYjaYNNam8Dt3TlVr6oL3OMcZSyYn6DFhHMoprfJFOTvMJ9bvFj_zZqqd_kG7
+
+sprite $ServiceRouteTablesMd [16x16/16z] {
+JSu50i0W20305I7v_zyENDvIfR9uv5-8PvZQR-q4W1pFsXZQcCaQeWXOk9VISAAOQrLdf7B7rykeUROEOZZgahk18S2wRW1Nn-2gjQz7lUKwBh0z7LAe853h
+eGTzv3x_hyC-SG8
+}
+
+sprite $ServiceRouteTablesLg [20x20/16z] {
+NSu53WGn20NGZE6K-zzsWUxeIsF5VfGnuck8pihtJn20_VN7Hm5x_1aSZQAPvHzr5m3sJXNDHp3ri4bHXdRtkG_3YQDftvB-eZDCjHlcYNnovyvq-x8iMuOv
+FxNIhSkotmaT8UtBUgP90ctTeSn6nW87OFEwI_YYaJv_qhFqOXtQN-87
+}
+
+!procedure ServiceRouteTables($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceRouteTables', $name, $tech)
+!endprocedure
+
+!procedure ServiceRouteTablesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRouteTablesMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRouteTablesGroup($id, $name='Service Route Tables', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRouteTablesMd>', $name, $tech)
+!endprocedure

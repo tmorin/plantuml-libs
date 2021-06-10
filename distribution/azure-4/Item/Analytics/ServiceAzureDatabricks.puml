@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Analytics/ServiceAzureDatabricks
+
+sprite $ServiceAzureDatabricksXs [10x10/16z] HOm54G003083OFtRxlviRi2ssXrc9V9MXJLfvGAG8ykMWOX9Rjc9bChO3Hm2htm
+
+sprite $ServiceAzureDatabricksSm [12x12/16z] JOx30G0m40J_MVLVRQm9paZ7fBCGI71h7Y7qh_147Hu_f49YNGj3JcFce4CKUQWS3ugMDjIEZlRlq
+
+sprite $ServiceAzureDatabricksMd [16x16/16z] {
+PO_50GGn54BFWwN_RdU-h1D_43iZwNp8kFKY9boChbMuJeG2G6erX9rRO9OdgqZlCv8BHIIqSGANGTRAFeUmyMnNwfhoeCeX1vjaapsN69pdUs_LU___y_lV
+1m
+}
+
+sprite $ServiceAzureDatabricksLg [20x20/16z] {
+VP1P6WCn28AVGN3kVzk6BwPxw-o_0fDSf-phhKo0BxGBPHVOJuIUuTfKf4vRh3ngUbFMeWByX036Jh4xwT9YbSJe9vsB4L27Xeo6YgAJ7g9UYdbtz-cDItwR
+g7War-tzjJjMSXCHW-qWP2NZlYfkq6CFMce_rlcKqt_tz7tlRm
+}
+
+!procedure ServiceAzureDatabricks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAzureDatabricks', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDatabricksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabricksMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDatabricksGroup($id, $name='Service Azure Databricks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabricksMd>', $name, $tech)
+!endprocedure

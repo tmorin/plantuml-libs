@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AzureStack/ServiceUpdates
+
+sprite $ServiceUpdatesXs [10x10/16z] 7SR50K0X50EmByyBTFzfiPn2iZApyGXLnSb8Tpz3cgeKMHWH8T8O8yta_mNfAhhdoJ9p4-aa-sPdrza2
+
+sprite $ServiceUpdatesSm [12x12/16z] NOl50G9154CFtyVIVxTaWDLtYWAORREegDtDuzBsqwixoQrxbJ7N2LJ3Y2mJcmXAxaN4PzOUA3NlPMRkAhRuhYGkZeDwwmy
+
+sprite $ServiceUpdatesMd [16x16/16z] {
+NOg53GCm30Ib6DxX_RUjeNmdUhZE6SMvnUcMlhCrTV7P1QwzykvgxlC_0MtYrdzWBwZ1c8P7itqNO1tKef1pjwcgaEE5x1d9Oz8dX0DXJx3kRt6WIiJxEWi5
+F_CzoShyOV_bK_a1
+}
+
+sprite $ServiceUpdatesLg [20x20/16z] {
+bT05aaKX34JH-j199-Z-TplOi_AvvGUdht8wjNwNt9EFFgOWLE5lGz0VyBEtKKr9zRSPdMQyhRhvN2i8TYohcI8oYWIjKvfBxjtDt9rn8rd6QYFfXX3YH2pI
+6U9CsxJCAH9FMici8W8WtjXCi9Azs4iPknKTWToMhWyuoR3ST-N4O-_id_O7
+}
+
+!procedure ServiceUpdates($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceUpdates', $name, $tech)
+!endprocedure
+
+!procedure ServiceUpdatesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUpdatesMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUpdatesGroup($id, $name='Service Updates', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUpdatesMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceIoTCentralApplications
+
+sprite $ServiceIoTCentralApplicationsXs [10x10/16z] 5Ko53G0m34fcDHh-_tRK3I09Tr3MuO17wr1pguawQnr4jTlU-seYS-_pvjOuwxoEWgMOI8DKhCga8eFPA7y
+
+sprite $ServiceIoTCentralApplicationsSm [12x12/16z] 7Oq14W0X14Ld5Zu5zx_jqYi0z110z2CTvy2pkzP4RA82aKPaEKxerMz08SeXH2Gs_img4UlpgwU7UVsmcMMPNHfzOBlJuBMtr5qj-t61k_O7
+
+sprite $ServiceIoTCentralApplicationsMd [16x16/16z] {
+FOy73iKW34EbdzHcElU_xQ-BX3lWPQS-JNBMrUuWqVSX3NBe_4_ewvdpZNAIo5KB4LXQf8HUFN-lejU0H7I4EMcktOYCY0VDx7RcnELoVERpiQPSppm-9jqe
+ilc0QXBjpDE0uN83w5iTTmDxWBRgQWBptFu
+}
+
+sprite $ServiceIoTCentralApplicationsLg [20x20/16z] {
+JP075iGW24JVMs701lU_xGAcJMBxIlKZ6oB3_Akj2Ed-a2xGEHNIzsE6idislWI8Q-lTmW2GvQxGc2V_VZpDLnoJRT_IVg6MssBS3O4Aoc4ThA22n7gOJn4G
+jTOOk9dRAaOFAqdQ4l7DB5Z5eD35-h3CfPWykKZbt4XcLiLQSpR4whs2iKuFE2lEQXbt4wqE0sNmQ8KHiox_oWOUC_y3
+}
+
+!procedure ServiceIoTCentralApplications($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceIoTCentralApplications', $name, $tech)
+!endprocedure
+
+!procedure ServiceIoTCentralApplicationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIoTCentralApplicationsMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIoTCentralApplicationsGroup($id, $name='Service Io T Central Applications', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTCentralApplicationsMd>', $name, $tech)
+!endprocedure

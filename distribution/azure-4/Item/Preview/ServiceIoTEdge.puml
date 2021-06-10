@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Preview/ServiceIoTEdge
+
+sprite $ServiceIoTEdgeXs [10x10/16z] ROR50O1G048juYVxJsjU9Lyo3MZaXefRJhg8um1xH69TGLL9t7VUvrlVZbAAV4zFvcnzpfa_NG
+
+sprite $ServiceIoTEdgeSm [12x12/16z] VOV55KGn30D3ff3wxtOLlpt_COm4u9Y8RZmkuxziboI0fQhIcgZDQyoZr4654UrTdpsBPTpXxZHPk6ij3xw3PDCV_
+
+sprite $ServiceIoTEdgeMd [16x16/16z] ZSVL0GCm24NHA1PX_stBe_hP4u7hi6ZEgTTVR2QvdZRD9qKTHIP6CeLHsuXXnuMWbT8mUJEWEt4GJjGpl-YT9ebPaldIdxRhVdSGtU1lcklNzJyz
+
+sprite $ServiceIoTEdgeLg [20x20/16z] {
+hSZ5bKCn50HHORVuvH_j1-6ClVLTrIdfQlGF5ZagVOTqNl1Bbg4blt6SI9o7zgw0pchjy8XL9A7pMYdjUoOXEdSU4mSOfGpu7wm5F-6i62PWLMnfFQvLfUNO
+azphqUgZCDQkoS4iNqgJNxW1
+}
+
+!procedure ServiceIoTEdge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceIoTEdge', $name, $tech)
+!endprocedure
+
+!procedure ServiceIoTEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIoTEdgeMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIoTEdgeGroup($id, $name='Service Io T Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTEdgeMd>', $name, $tech)
+!endprocedure

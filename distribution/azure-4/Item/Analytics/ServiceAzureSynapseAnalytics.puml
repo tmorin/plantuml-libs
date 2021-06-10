@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Analytics/ServiceAzureSynapseAnalytics
+
+sprite $ServiceAzureSynapseAnalyticsXs [10x10/16z] 9OP50G1130C_Ist8lzh3u2GHe3moAPvo319h0nPhpaueiSzU_2X9pVe9UpTbO2-8S5o70fr7wjPpDm
+
+sprite $ServiceAzureSynapseAnalyticsSm [12x12/16z] BKsr0G0m25kgHFh_jNKM83hs2D2uOuACq0LfHoxxCTHxoM736yuvnnP0WbghkVlUnx_r_BTwERT39mLGUF2d1A-WxoxuDUkrZWK
+
+sprite $ServiceAzureSynapseAnalyticsMd [16x16/16z] {
+NS-r0S0m34JHHX3V2VQVDio_UsRtNWBPTnKW4Nc9Z2wweLRcgkeQAWwkIyWaO6Ai8hiHeI8wjhM1pJHJcV9sZcboqQZJlKLHovVJL7cxeEOUkvb55sDaSdLY
+-7vT4SXZhQCgWAZpTyGQT_t_km
+}
+
+sprite $ServiceAzureSynapseAnalyticsLg [20x20/16z] {
+TP150aGn24CtDGYXzx_jX8vRllRXx9l2FVQR4YuXNqZ0GSBDU4C441K-Uri7Pf7KT_NM5b09YX3XexKPbGPYdXnDFWCdpA_CUk-j5teo7sC8hdnXj6KsbO_v
+OFi8SXLzOtighRsnatNuAyDGv3BU6BX35UJ398ebt5QhJcxhuLdTL5Y8X4ZSAjBCd3mR_B_JxzrV
+}
+
+!procedure ServiceAzureSynapseAnalytics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceAzureSynapseAnalytics', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureSynapseAnalyticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSynapseAnalyticsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSynapseAnalyticsGroup($id, $name='Service Azure Synapse Analytics', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSynapseAnalyticsMd>', $name, $tech)
+!endprocedure

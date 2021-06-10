@@ -1,0 +1,28 @@
+' definition of the Item azure-4/Item/Preview/ServiceWebEnvironment
+
+sprite $ServiceWebEnvironmentXs [10x10/16z] 7Kp50G0W43BWx6F_QIrUjBpNrgVq24aRqY01gztLOe1TljHIf5tQNaeGYUsnX1GmMeuibTa-MwlVnrMjwUC
+
+sprite $ServiceWebEnvironmentSm [12x12/16z] 7Kk54SC024nmpU-_RRdYl00RcJKVBYRTN3NkN0zdDiy1MeX4rAE0fETLK-RuKFoIcHrLQ5NH2sAlrGDVvkVHdfFQSQViuFDMkLdl2740imryPN7h7py
+
+sprite $ServiceWebEnvironmentMd [16x16/16z] {
+BKy54WGX35kefKZv_sylC9UnQkISKyZCiSyVUuG1Y9YlNKYO4XPrZoCGsiM1dFSwf7SnRf631rE_xrFt-v2RlRJMs3lFVB3tthkvXzbZNA5aTsChwfWL5c7I
+nDhb6SKLsTYJLwAAH6B1cJJoJEYxom4UOcxoVqr7rSIu2Sh9g-jSrCipBIUhFtu
+}
+
+sprite $ServiceWebEnvironmentLg [20x20/16z] {
+JP07aaGX20M_mYEPxd_R1NTILx9Qyacs5sEUBoiKzg_tIurm0qp1pFQAKdTJ8cA8shhEOHdJEwjbWVYlptI325TMuBJsF0-9b1JrKHtaIRgKxArRNDUIT2Mv
+GqSwevuDf60a6RWSd5m79eR6ohvYmaoDmDcE03_12bMqfu6oMuFjOmm6X1fVrwjWS6-rHDNB5qIctr-wXqaByTXl5sjDoUYwp2ltFiSwCUfXk3ts-M6lmPdu
+g_u
+}
+
+!procedure ServiceWebEnvironment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceWebEnvironment', $name, $tech)
+!endprocedure
+
+!procedure ServiceWebEnvironmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebEnvironmentMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebEnvironmentGroup($id, $name='Service Web Environment', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebEnvironmentMd>', $name, $tech)
+!endprocedure

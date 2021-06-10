@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceDevConsole
+
+sprite $ServiceDevConsoleXs [10x10/16z] JST50S104C30qZBvLri-c5TIdTlFLNvA-2Cy3dWXmVubpGMmFqF2Fwdk0W
+
+sprite $ServiceDevConsoleSm [12x12/16z] RSor0O100CNGuXlE_jFYphqgLSQ7lhlqRNDfc_hIH9T4U3HHxYK1R6rPAplF__Wm0m
+
+sprite $ServiceDevConsoleMd [16x16/16z] XSo53SH030H0oVOUG__L_eUJun4PDozuL_1DRmlUg88nA6oza1GzcAJeGLpkkVpVMY4wZ-vy4JdtLXTigkJA7m
+
+sprite $ServiceDevConsoleLg [20x20/16z] ZOs35K0n34LhO_zflraakSUFbKXE7Jc6ZaZLWkq8JdUuJLEgrwHGdRQBdRQ9dQQ4x3xQFRyrTqbmpY_F-zjL6_hIJ8TFeIDL8Yi
+
+!procedure ServiceDevConsole($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceDevConsole', $name, $tech)
+!endprocedure
+
+!procedure ServiceDevConsoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDevConsoleMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDevConsoleGroup($id, $name='Service Dev Console', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDevConsoleMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceLogAnalyticsWorkspaces
+
+sprite $ServiceLogAnalyticsWorkspacesXs [10x10/16z] 9SR50SGm40ImW-oGgVzgGzPBwzP5ZpUeAZuLW7zvhSb_uGUrHB_Z-CC4XPk6w4VwicorTRkdlJXnVtO1
+
+sprite $ServiceLogAnalyticsWorkspacesSm [12x12/16z] DOh55OLG34I_4BV-ksNoEDnaCJPBcMZC8Pc8s5QsC3DCFZ7pzMSx-aTq_KNTpA5_qARC9iGuBHNunNAm2VUewXc4U9zbnQins3_w1W
+
+sprite $ServiceLogAnalyticsWorkspacesMd [16x16/16z] {
+TOv75iGW34CVJR8WWVlVTcoSxNogkqwobvbU_oGFXmFjD5-CH6aR0a_0BTc4Vz4gC6ywHmsx0FhiWZPw0IMIChTBxvLS1a26nexHgQrh9w4eygUIwTEMf3MT
+TuUuZ1kfaqmlY_FFVhmqplhi7m
+}
+
+sprite $ServiceLogAnalyticsWorkspacesLg [20x20/16z] {
+VSy50eGW54LHyoUn_ztEGwMchdqioAse8fxoK10w4LdN0BcJYecfPOyPtPq74JyFocFxUX9vVVNOBbkmqzk4znLl4lRCccAf6E0sKq8wMNXCZetlLJJT1cp5
+h8m6qvYp2JBJEmjbmAx8hHJpap4omQvD_dbNiVjltaoRHKV1IyrU
+}
+
+!procedure ServiceLogAnalyticsWorkspaces($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceLogAnalyticsWorkspaces', $name, $tech)
+!endprocedure
+
+!procedure ServiceLogAnalyticsWorkspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogAnalyticsWorkspacesMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogAnalyticsWorkspacesGroup($id, $name='Service Log Analytics Workspaces', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogAnalyticsWorkspacesMd>', $name, $tech)
+!endprocedure

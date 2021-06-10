@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Networking/ServicePublicIpAddressesClassic
+
+sprite $ServicePublicIpAddressesClassicXs [10x10/16z] FSA54S0m40Inq3vTeFzgmxP6HwUCLwgSbvVRpus5su8vqppTSMTvuSxFCtvvT1S
+
+sprite $ServicePublicIpAddressesClassicSm [12x12/16z] JSg55G0X30FG1vK4xVxJdWiVgSQYj_felL4UR9LuiC8-E78rFUwLIzAS9ScPgwWSLuzytVSFMlsqMEm
+
+sprite $ServicePublicIpAddressesClassicMd [16x16/16z] RSs55SGm203G5qSY-qzxLs-H7nTWANC8amdQ0uYPQdpKxOpmWGnL02Z2SSvRtyTrJY7c478CoJyV7z__0kXws0ISobB-
+
+sprite $ServicePublicIpAddressesClassicLg [20x20/16z] ZP055e0W340NrE8zxtzRknNuIgsteHFN5sugALv8eZR962_mAYit9fda5rBYY_8h2s5VXsnA7CAKSbwxZ0038qmoe5qMQ5Bpl2ZyvP2tJ2Iz-9HzpMheP0G
+
+!procedure ServicePublicIpAddressesClassic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePublicIpAddressesClassic', $name, $tech)
+!endprocedure
+
+!procedure ServicePublicIpAddressesClassicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePublicIpAddressesClassicMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServicePublicIpAddressesClassicGroup($id, $name='Service Public Ip Addresses Classic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpAddressesClassicMd>', $name, $tech)
+!endprocedure

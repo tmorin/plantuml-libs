@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceResourceLinked
+
+sprite $ServiceResourceLinkedXs [10x10/16z] 9Oa72W0m30AX6TO0yV-lxPJbtKdgELjlpEIxZ3629n5kvk0vIBC4U5-S0tOXFGBLKY4YIdS5_AEkcxG1
+
+sprite $ServiceResourceLinkedSm [12x12/16z] HKq74WGn29g9KU2A-Vzlb-ts2ilIPAzJMbNgkvppR5g8CG9kN5PO2d89P4GwoNLLbijZKVvDN0yvAt42VL3v47p8pqjyJZS
+
+sprite $ServiceResourceLinkedMd [16x16/16z] {
+HOm75eH02CMUE_0_s-z_MajGfvDG_gnVrO_WGWan4N5ZZ148q7hiIqRyddOiiH_x-GEjXVmXoiVACPAWO6NApKUzf0poFU30o0J_Y0mfm1RU2mIsA7Vn50LE
+SU46
+}
+
+sprite $ServiceResourceLinkedLg [20x20/16z] {
+PT053iGm30J0Dbuuxlz_Ux5igRJYKMBQEb_xkvtpVKYFxuqAJqGMxaIC0HOMsLZ6M60dDcc-cY-Ls6J5j3NanABykwuBxSGcYn6K2nzDBDaVYbBXNb0oOmIA
+kZ4PbC6YnASjK8ByJDenWaMLtyJCyzTGBnyp_Mf_EUbtE_H-l3y
+}
+
+!procedure ServiceResourceLinked($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceResourceLinked', $name, $tech)
+!endprocedure
+
+!procedure ServiceResourceLinkedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceLinkedMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceResourceLinkedGroup($id, $name='Service Resource Linked', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceLinkedMd>', $name, $tech)
+!endprocedure

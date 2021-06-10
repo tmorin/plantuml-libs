@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceElasticJobAgents
+
+sprite $ServiceElasticJobAgentsXs [10x10/16z] 5OO90W8X30CNw9KscF-_LjsSeq-vcUDAjStzR1intFqvJ-XE8zTQ-L8ZBAw8_WiKAhgge-0spEIO0wGx2UYlxdT_
+
+sprite $ServiceElasticJobAgentsSm [12x12/16z] BOQ70GH010JFOSMd_se_RvpTDX5HxtaZixp5RBCFOGKk4VbEka7fyh6Toao_XsxyE5mrPYV_cgs6fx-3BYWoyQa2ObD0ZGcwUqkrzWCVPNxl1G
+
+sprite $ServiceElasticJobAgentsMd [16x16/16z] {
+JSdNWGKW24HH0ncL_hlTqKtlVd6OgjgXZ3HFtNAEUICIsx0CujleVIWUGNY8pDP7crwrmWGpG6qOd85ijlRs7xiCF6J_EboPRTNpR-2fLCFg4QPPnq998qJY
+7QP4aXdCaIb42dljPCvT3hkgdSL4l8wfUhtkNf_bBxy
+}
+
+sprite $ServiceElasticJobAgentsLg [20x20/16z] {
+NSy5OWKX40DGP0o__ssRqFRBPfM7pc5cjvi-3qFHMafbHACjqggboeqA-cpIIgvgxcurvPoAO-GE3bGrJQcKbAJ3HWzJpaHRyJJQw4WBMAxvRKJ3HB3Djs65
+adFHTjw6aMxcOtyPGw95-vSMjB6sYt6UeySazXfXBk8mLHZ_BLpmcQCtaTR7k4s-1eeU-A3GGGkyREzR7ByYN191FutZaNrkYA1dnfj-
+}
+
+!procedure ServiceElasticJobAgents($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceElasticJobAgents', $name, $tech)
+!endprocedure
+
+!procedure ServiceElasticJobAgentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceElasticJobAgentsMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceElasticJobAgentsGroup($id, $name='Service Elastic Job Agents', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceElasticJobAgentsMd>', $name, $tech)
+!endprocedure

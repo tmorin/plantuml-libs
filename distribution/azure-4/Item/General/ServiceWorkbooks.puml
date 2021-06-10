@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceWorkbooks
+
+sprite $ServiceWorkbooksXs [10x10/16z] HSQ52S10400m-7FVVzgw1CkqoQKcw0BPBdp2SmY0pzO2EQToq6iNoWxxT-6Sz4lC3W
+
+sprite $ServiceWorkbooksSm [12x12/16z] LSY53SGm30LGDMIszv_seE4d-12Xs967GNdbOg7GkhkxO4lFa_gFa5FAuuVk_Jlu_uJT_wVkrrrvTF1m6JI-
+
+sprite $ServiceWorkbooksMd [16x16/16z] RSlL0KCn243HDeR3_jC-z-J-7IGYbAzqeK4w--DYQbS9rckud1VRm2KlbGQhbH7IRod1PcU0afRARXM4i_qVhxukspszx49Nn_usllSeiHvSgSSC
+
+sprite $ServiceWorkbooksLg [20x20/16z] {
+TP253KCn30K_XOpxRzimgYS-FQD6c6OaA_y-Wu-Y4c--mVjWYZaxOP8Z1BSxfh3dQgt9z5oiTURAVCwrsiF5zPopRyP6LskZxDZc9cojdVcROu9mreOPM--T
+dSkrcol_Mrm0rWZjh_y1
+}
+
+!procedure ServiceWorkbooks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceWorkbooks', $name, $tech)
+!endprocedure
+
+!procedure ServiceWorkbooksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkbooksMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWorkbooksGroup($id, $name='Service Workbooks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkbooksMd>', $name, $tech)
+!endprocedure

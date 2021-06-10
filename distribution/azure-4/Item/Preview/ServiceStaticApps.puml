@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Preview/ServiceStaticApps
+
+sprite $ServiceStaticAppsXs [10x10/16z] FSa53W1120F0251Bzl-_FR-T2BHTMoGxDvFK--bZaK23b3WztVDyrplNPt8Qznf_ihOJ
+
+sprite $ServiceStaticAppsSm [12x12/16z] JSZN0OGm30FGEy2s9Dh-svAUl1-LTt6TsLN8uSwpKbOhYOQvXeTvv85KtCm25EB8zr4wt8vm1oGaZapdubry
+
+sprite $ServiceStaticAppsMd [16x16/16z] NS_50GKW203G0mq_zf_MxcUt_1_Vp-KRRZN58YIeu6libHr3EvIHTYAjCTU2HO1uZHdAcA5EkBUX4hMcZGLPIoOSOnLYKAOorF40atO-_cFUnHlF_v41
+
+sprite $ServiceStaticAppsLg [20x20/16z] {
+RSs54OHG34NHcTYBhFHVBUxaueSl_wPVKtMbHLW2Lmi2A4JgMcH6PLuaky8VnMvmDyMAcq41LiN5m0AG2MEpbLmPc74p8tDddLzmx642CAQ7-MOBAZicMgmM
+SwYwmnUhobYQthUokdvD_wOH
+}
+
+!procedure ServiceStaticApps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceStaticApps', $name, $tech)
+!endprocedure
+
+!procedure ServiceStaticAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStaticAppsMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStaticAppsGroup($id, $name='Service Static Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStaticAppsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceCache
+
+sprite $ServiceCacheXs [10x10/16z] FKg30GDH52k2x-m_RNj-Z8O9g2NHboI-CsaMgRgItbfjjRG-UziWiVM11C0N-Zxe3H_1JQEJDMSNtVy
+
+sprite $ServiceCacheSm [12x12/16z] JKo53G0X44kuzWpRVzltXyRg8nM0vJnX0X0eSV8ugPwYdhnbc5baktZD4svgtcuU12cy-Vq5UxWHuCkLfMnSQECMHW7zl1rzD5UDVW
+
+sprite $ServiceCacheMd [16x16/16z] {
+NSs54S0m243H2nvb_sqBzVQVlWZuwigHzULP9ppZcHP05X4cXBRV2n97YBhVZrvDHTHQFztEQXjZtLQAaDfbph44SjzpBYPxEPxps_XpAHzZWV1ylQUmhvbF
+kZ55NFriTLMruHi
+}
+
+sprite $ServiceCacheLg [20x20/16z] {
+RSw54GGn243H2HR1-g_sRjt_-8j0PbYJkMwHMvrmZyP60BI507QOrDfgPGHSpHeXhjUGUwocepTXPcbzw6uwZjIVjbpdgXSJn7LwFus1H8GHsccLvzb8tA_6
+DCLFGtmRl0rBmQT1AVCz_tYRVZManJB3JLLzoBfBjJppqQOiyWy
+}
+
+!procedure ServiceCache($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCache', $name, $tech)
+!endprocedure
+
+!procedure ServiceCacheCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCacheMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCacheGroup($id, $name='Service Cache', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCacheMd>', $name, $tech)
+!endprocedure

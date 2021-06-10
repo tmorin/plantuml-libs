@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Storage/ServiceImportExportJobs
+
+sprite $ServiceImportExportJobsXs [10x10/16z] 9SR50GHH242nLHnU_ztEbvm2f5aCIwc818ohBDQawk-hIuVAv_rVYpRxVsqfEaqyejWgXcF2cwkBvG4
+
+sprite $ServiceImportExportJobsSm [12x12/16z] FSU74SD020LHnUEJ--_M1uorazxcJW7sx6JjK0gXLTacQ9k8eAcRrrL3llsUvrjM1t3Vg2oD-Na0PirTkB97Jh6TVmjRVZFy0G
+
+sprite $ServiceImportExportJobsMd [16x16/16z] {
+JSs53G0n243HUd7sd_Qaal2ZZmh-PmI0uZU3yJNv4iTgwYB3EF7Y_1hp3yZSu6VfSuKkYodl0UXoJVU260B0I0rsvXhzRr0XQ0EGYDLlZEeXOnGBPaIKOAFB
+ExXy0G
+}
+
+sprite $ServiceImportExportJobsLg [20x20/16z] {
+PS_L0KCX341HdW3nxBzjSMXxFmyQxoaX8lkPv5G3_QMAYnJIJARajA99PwZ5CDVYcwQg6pIwmZEH-j5qXH2UOQ3Twhwup0bA-GuHHcYkK3kCwn080C-qERGf
+LqTcLlCZcZjszcz2Y4ZoZLniqaQQjBDD7m
+}
+
+!procedure ServiceImportExportJobs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceImportExportJobs', $name, $tech)
+!endprocedure
+
+!procedure ServiceImportExportJobsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceImportExportJobsMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceImportExportJobsGroup($id, $name='Service Import Export Jobs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImportExportJobsMd>', $name, $tech)
+!endprocedure

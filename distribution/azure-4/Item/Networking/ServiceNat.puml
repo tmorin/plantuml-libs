@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceNat
+
+sprite $ServiceNatXs [10x10/16z] 7Og53S1G24HJu908xBzjNpvwTdTRjJn0H_G-eEyJ421p0Jiyd8dkCAUCwCWDUmXEcYM0cj3Sgvsd_
+
+sprite $ServiceNatSm [12x12/16z] BSk54S0W04FHQwGk-s_RvA02xoDVddVRtixbRk_lf816QIsB4gKDsebTfC2EUumQyNjO0UKZ5uwrTzVmQv233RkSCVW3
+
+sprite $ServiceNatMd [16x16/16z] {
+JSk5WKGn20JGWq7YwR_RMyBts1jWds-QpVr-qrLzVYboWfluemoIOMW6wqTLuZXzdTdRCUBAO8J1WBeRWz84Dbz5txgMkLSn1IYQhQozCo227KPGNG3n6ip0
+04lU7LbzWvl_
+}
+
+sprite $ServiceNatLg [20x20/16z] {
+PSq50iGm20J0O4kz___jGOxwnYUsLnPWsPzPtGphXqwyY2NnIQrnnuiqJHDF2YIoZAz5cR32964zJ5a2WHX9D4rZmWhtC2Nk9aoQjZfYAXO64s91FZZqw_zp
+2WpvSM4Z4IjAT2WHiS6JJcGLBZfHcBNeHAWLNJYwZqbFlEW7
+}
+
+!procedure ServiceNat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceNat', $name, $tech)
+!endprocedure
+
+!procedure ServiceNatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNatMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNatGroup($id, $name='Service Nat', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNatMd>', $name, $tech)
+!endprocedure

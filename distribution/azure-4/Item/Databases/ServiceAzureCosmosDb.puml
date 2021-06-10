@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceAzureCosmosDb
+
+sprite $ServiceAzureCosmosDbXs [10x10/16z] BSQr0GD140ImesMO_gkrdnG9tdW5MMM6MSBSp4H2qAR2Qvd2wCgOb77cOTed8BuMCrj3JOZ5gj0PLTKbZe_t7m
+
+sprite $ServiceAzureCosmosDbSm [12x12/16z] DSY54GDG3CFGZm47lF-qvRxJaPZ5lrGjTdTcibG3xYwcpWetCzb88M6cTuxp-ZYYiiPOsdddkdBsbgBwUIsv0b82-uYe5ndwOevgRxBx7N71lmQV
+
+sprite $ServiceAzureCosmosDbMd [16x16/16z] {
+LS-tOGCm34HH9kHm-szho9NqApvU1S3nKt5yC_YHTqMcYOWrWYpS9XKpCi1ptXDTXmhGFXIXlMxoxFKXtxtMPYeKdIV2PwrrdWDwroRcTyu_WsJFXmWJQG6Y
+_TPwGrR7MChV9I8nht7EGBFPXvv0XsTz0e9-RodMndVH-0C
+}
+
+sprite $ServiceAzureCosmosDbLg [20x20/16z] {
+XT59ek0W20JG69b1lFzjkqms_UTQoNFMlJltbwJq9-aKidKQw5a8sgb4xAio8fq9XQ7Jk2hyYLbWZ6E2hwT4c68twmR6AqhZcgl8OUKEK9dZkWPw2Xj23jtN
+oNo6sJqcwBMR5DicLXaCetkCbrgOiCmK14r9p7HA7q31T6RrWYbt4zPHPMBpQ9XHTA945BGsKa8YC37tGyk1ArGjAv7Q8CBqZucpzTyl_Fx4Fm
+}
+
+!procedure ServiceAzureCosmosDb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceAzureCosmosDb', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureCosmosDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCosmosDbMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureCosmosDbGroup($id, $name='Service Azure Cosmos Db', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCosmosDbMd>', $name, $tech)
+!endprocedure

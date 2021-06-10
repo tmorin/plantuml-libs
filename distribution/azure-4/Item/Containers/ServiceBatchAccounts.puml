@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Containers/ServiceBatchAccounts
+
+sprite $ServiceBatchAccountsXs [10x10/16z] 9Sh50S1G20FG6cxxRziFl0kI20ohKkm5sKk_vm3bDEWDbSq93dQnEaAEc0s_3_S7xxjRAlFspdxy
+
+sprite $ServiceBatchAccountsSm [12x12/16z] JSo53SH030J01pDj_zr6uHk1sS4d1H1oqWHIVZioZIVtj4dvxyXTlUnQBoliojqZvinb_vhOzNvaTqv4LuxA7HOR
+
+sprite $ServiceBatchAccountsMd [16x16/16z] {
+TSa73i8m4011WSjrt_z_Yxk19AEwMaqRUYMdeTHMo1C0IElm6X8Yc2l6zv3PWDqmXY6p0ffXM9yePp9664WASV71f59HdpXtkBv2h1BBwXogvpR6YdPxqS7_
+V
+}
+
+sprite $ServiceBatchAccountsLg [20x20/16z] {
+XSp50GCX443HDSQb_shNWNZUyOyub0US1o_B0xmQmWCKFnhXKXL4G3zQ6Qi9YO2E1dEre3ZkYy7mi2V9O7jx-4VC2CHFUoIAW1OYJ3SMJINBnktWRj4RbPls
+9WWdadwiE4-xcLJ_jTDZCu8JFxHqhRABAZ_O
+}
+
+!procedure ServiceBatchAccounts($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Containers/ServiceBatchAccounts', $name, $tech)
+!endprocedure
+
+!procedure ServiceBatchAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBatchAccountsMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBatchAccountsGroup($id, $name='Service Batch Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBatchAccountsMd>', $name, $tech)
+!endprocedure

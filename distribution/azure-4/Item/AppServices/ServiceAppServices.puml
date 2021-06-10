@@ -1,0 +1,28 @@
+' definition of the Item azure-4/Item/AppServices/ServiceAppServices
+
+sprite $ServiceAppServicesXs [10x10/16z] 5Sm50S1030Im_Nfbygzs823P7O-esTqAKHN9RJKbYFeaRWB4lFnSHmI4SBf9H8WycS4GjVm53ZxnBMwiLllD6P7V_08
+
+sprite $ServiceAppServicesSm [12x12/16z] 7KvN0i0m16riJyhzJziHNtXpPcu0k-UVdHeHdj-LcIOYQZMtkGkBHw9Brc8JTSyDkYuoKoO5pj-CIL2_q3wHEJvjA2_-n3t832LMmv-5ZEzR9xWBgB_32m
+
+sprite $ServiceAppServicesMd [16x16/16z] {
+FOvNWaKX34Alfg7ekF_T3hvsVj83vx8MkVRvy3UZXfZlpfeZ7PNXCLHICxYPHHQqWG3IkYKm1i-6SWtTwpOsytcU5fdkgRUBVcjFDNhh8BErrYE5wYHrtqrL
+bGHZRlYz_VqxSA32MWlLbBsK7xYEP6Y__QeJKLKQYytnWdVwwOXtzGy
+}
+
+sprite $ServiceAppServicesLg [20x20/16z] {
+HT170WCn24FHiH48NEz_ss2d_LNofclVrXozZxNsls4MMMlZAwi7mJGdsI-Dyqz1AWJGWyiyZP91IMzfNHdkAgKgtIDYxDKKgX21W7wmxHbudgU8cNwmhUxb
+oQfTXC1ZT5uhTf9I2g9thoMJGzJyBT57QCtqcacji3x3xcskaKRdFEz2Lq2bWlTTrkvGTpUSszgnt66H4UwKKYhKBBuRf9e8L9NlkMP_wxtP_6tQulRVz6xV
+i_dP_WK
+}
+
+!procedure ServiceAppServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AppServices/ServiceAppServices', $name, $tech)
+!endprocedure
+
+!procedure ServiceAppServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServicesMd>', 'AppServices', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppServicesGroup($id, $name='Service App Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServicesMd>', $name, $tech)
+!endprocedure

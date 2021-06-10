@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceGuide
+include('azure-4/Item/General/ServiceGuide')
+
+' renders the element
+ServiceGuide('ServiceGuide', 'Service Guide', 'an optional tech label')
+@enduml

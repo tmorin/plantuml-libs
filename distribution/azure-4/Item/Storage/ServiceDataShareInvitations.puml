@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Storage/ServiceDataShareInvitations
+
+sprite $ServiceDataShareInvitationsXs [10x10/16z] RSR70G0X2031YvAX_shD-d8KsDXiSVY_xYT8FHCof9Q0rAgUgXQAg33Lfvr871G
+
+sprite $ServiceDataShareInvitationsSm [12x12/16z] TSc53G0X50FGqsyjOVzfSUAyM2KVkCgYOVyt_IsBp6ZUixHBp6TMRMbcGnCzQt201vWsveCA
+
+sprite $ServiceDataShareInvitationsMd [16x16/16z] bScr0GD144DHqp3rtwsFbXB3pvvKNyfOAe4vL4PuzP0t8mpAxci04jczjvDbc70_krdDJ9j9pRVCJlEkCnLLYodt-hCt
+
+sprite $ServiceDataShareInvitationsLg [20x20/16z] fSYr0SKW5030hyy3-q-Ru5fovVa3JZUE_xy5ACEIIE6c_1Dpl64XLBgUeVgb_2DplxH0F1-9gCfuo9f8Fr8hmgP3iO664xPhOgBURVo91m
+
+!procedure ServiceDataShareInvitations($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceDataShareInvitations', $name, $tech)
+!endprocedure
+
+!procedure ServiceDataShareInvitationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataShareInvitationsMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDataShareInvitationsGroup($id, $name='Service Data Share Invitations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataShareInvitationsMd>', $name, $tech)
+!endprocedure

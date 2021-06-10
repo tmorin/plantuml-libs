@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceImageVersions
+
+sprite $ServiceImageVersionsXs [10x10/16z] HKk30G1H2FtAsd_QCt8FfcTOLGdX6NnSiCx0BC4r-dYlCVyBq8yBva6onkLb4NKxBc8YgppcMLax
+
+sprite $ServiceImageVersionsSm [12x12/16z] DOs54S0W302lSK7sdxRuGzpoqdhlORgnCdsXWnyVuVhA-7r0V7q0V3vitzhBirYsK14cCVV8vOkwcsShDdtJAMqTFcJl0m
+
+sprite $ServiceImageVersionsMd [16x16/16z] {
+NSm75iCW30JHHrbKW-z_swn8pxX-sP3nAg_AxLtkOxpJiivtSWo-ZV5bpDvQ7nF71Wow_RXt4lfdsUM5qHe7mF9Tvg0eekwRPe2OEGkw8atDOpzjAXm6DunZ
+gPkIrytqLP1t
+}
+
+sprite $ServiceImageVersionsLg [20x20/16z] {
+PSi54WGn24JHck0GkVzjDxQZl_n1vxXLsimV_KtbIcEQCTwY-ZM-6y33Y13ISQI-fClW62LuM4g3hZ-PbZfz39QLo_fqRRrCOy9jp68TXp4J314rS_SoRIZ9
+W55icoiRURJJp5J69LehiKowZABrwZQUIMsZi5inv0S
+}
+
+!procedure ServiceImageVersions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceImageVersions', $name, $tech)
+!endprocedure
+
+!procedure ServiceImageVersionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageVersionsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceImageVersionsGroup($id, $name='Service Image Versions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageVersionsMd>', $name, $tech)
+!endprocedure

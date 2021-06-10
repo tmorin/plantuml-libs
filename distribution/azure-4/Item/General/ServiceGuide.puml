@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceGuide
+
+sprite $ServiceGuideXs [10x10/16z] HSox3O0m40L1_ljMykdwhnPmv6oYwIx1wku12OmkejCb-XmHYJds6AQkQqhCZMAHeA7MikOF
+
+sprite $ServiceGuideSm [12x12/16z] JKu55i1G25eY-7xS_xOJNyrksNiF1JMsAH55oEMG4ada7Xs-534KajwpB1HbupniITlxxbYs3rHMtcNlO_WcEypVhsqQ8Xl31m
+
+sprite $ServiceGuideMd [16x16/16z] {
+POy53i0m30EBZgr5xVzVEx9mE-4fw7spKgHoRPF42_FL0mZU173ScW1rGn78lMYTa0YkH3oAEYK5KcyvMXbw6kJsKKf_dVRP-x2x7sFG_Tw74V8-tml8xSl_
+qDt8tx-_F9-y5m
+}
+
+sprite $ServiceGuideLg [20x20/16z] {
+RP055iGm24JZJ58UlVzjTuYiJpKVvvwogrDg_h_9a3Obur257ob-e0i92JmM_kVGw4NYY3V_6JuEajed7BT9a-MLijjuj6kx8OU4vQXzkQ644CdSiMycYKo-
+MCavVJ6KKjg9LTPOhABl6hiNL4UxbzKpcLjspsSs70JxjuF_k_g_KwVwlli7
+}
+
+!procedure ServiceGuide($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGuide', $name, $tech)
+!endprocedure
+
+!procedure ServiceGuideCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGuideMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGuideGroup($id, $name='Service Guide', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGuideMd>', $name, $tech)
+!endprocedure

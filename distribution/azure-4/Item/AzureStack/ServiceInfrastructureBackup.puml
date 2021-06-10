@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/AzureStack/ServiceInfrastructureBackup
+
+sprite $ServiceInfrastructureBackupXs [10x10/16z] JOkr0SGm54CF1Vwq_xG1LtcLi72pPgQW2FszbKsXB-LCyRSk1H92Nkf_yVkXzfUYUokj5G_L8gc8d1C
+
+sprite $ServiceInfrastructureBackupSm [12x12/16z] PSp50K8n40HGR3CMwRzR-98JxxGw4-t0kTQQhSb6OHurd13bivO40hyQIEzgLVsuFv2SQw8Edyy7yye4gd7NjhF-QrwrU70orXS
+
+sprite $ServiceInfrastructureBackupMd [16x16/16z] {
+dSgr0SGm50FGWy-IxVsd3LETrmb6-g6DJQYjL8nxDWV9KbCUkG2aflZ-zrYuGgqV_zOQB5HoprbLOIvIstzdYEYFBAjQ_pkL_rzYZ3noPKJoobwh5ncnoGB0
+FcO
+}
+
+sprite $ServiceInfrastructureBackupLg [20x20/16z] {
+jOs50GCn200hE97zjsq2l0tG-uyTDfkSs2mS08Dr7jAHH6sXoyeensXzqOW8zCopp6C56kcGU4F83jYhbhqjdDWHTAGZptunsxCVouPtFx2iFU4kqfyE0bws
+qG5y0xyxPGGaUUHPuEEVJaytJ0lpjbZg1m
+}
+
+!procedure ServiceInfrastructureBackup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/AzureStack/ServiceInfrastructureBackup', $name, $tech)
+!endprocedure
+
+!procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceInfrastructureBackupMd>', 'AzureStack', $funcName, $content)
+!endprocedure
+
+!procedure ServiceInfrastructureBackupGroup($id, $name='Service Infrastructure Backup', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceInfrastructureBackupMd>', $name, $tech)
+!endprocedure

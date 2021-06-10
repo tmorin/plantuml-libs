@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceBlueprints
+
+sprite $ServiceBlueprintsXs [10x10/16z] DKY50G112BfIWQlzf_r-fKTV-pqHY0YWaswjDhDuKZ4plrFDzTxYIkrES7UxtcFgEGBxlKNzIUC4
+
+sprite $ServiceBlueprintsSm [12x12/16z] HSO50W0X24HHYvenxd_QxVWAlC6ntX01u1mCX8kqsaJ4RvVJTZl_BhcS3ZEHskffLrMHywlHtjJNV8B7UcFWyy3O0G
+
+sprite $ServiceBlueprintsMd [16x16/16z] TSS50WCn24JHPia4BTp_j7LPou_0guYiLQvg-QzCLSOZuFbpFCm0Y0ZFP6AqhVjbMRktrkXjaQSNqDiw7g5tOEM1pnjo5LwdbVzSH6jLgDhEldQwrnq
+
+sprite $ServiceBlueprintsLg [20x20/16z] {
+ZP255G8m30LVlJ-w_xOakCFLhnutLdz20SYJut0RzuXJr6iahOqZayykLUidkR-wNkhunxLIdlQ62jhPxRtJzHgxnzdD83fvQJrj1aAbxIEhcO3d2p2iP-1k
+UWV7bVGcTFodKtz2MFm
+}
+
+!procedure ServiceBlueprints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceBlueprints', $name, $tech)
+!endprocedure
+
+!procedure ServiceBlueprintsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceBlueprintsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceBlueprintsGroup($id, $name='Service Blueprints', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlueprintsMd>', $name, $tech)
+!endprocedure

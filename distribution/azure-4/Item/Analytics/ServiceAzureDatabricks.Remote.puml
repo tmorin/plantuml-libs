@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDatabricks
+include('azure-4/Item/Analytics/ServiceAzureDatabricks')
+
+' renders the element
+ServiceAzureDatabricks('ServiceAzureDatabricks', 'Service Azure Databricks', 'an optional tech label')
+@enduml

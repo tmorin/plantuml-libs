@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceDashboard
+
+sprite $ServiceDashboardXs [10x10/16z] FSQ53O1050FGf8R3_jjo_hwqtt8iBaInPWa9jH2qohc4IaDvbG57HVsvbc_v0G
+
+sprite $ServiceDashboardSm [12x12/16z] JSc54SCm40J0oK7CTl_LYccbvsznBrmelOOmM1jHjHUPAvWIbR-1NpuaUG__cIaLUFiNkMpFubj4
+
+sprite $ServiceDashboardMd [16x16/16z] XSU53SC00CH0FPMRx3zjcF54TddZjP614piJmOQ6Pa9bUa9kStZAXBkd4iCnqpsKmVGFg-F-7-CtHL6FvsFmxEhvsIXlr
+
+sprite $ServiceDashboardLg [20x20/16z] {
+ZSf50W8n44JHb3KEzpyjRkFpLkcVkgnq6f4vLXAvqzWKWvq9wRYnCtbSlsQGfjxDZoGeQdZ_2e-8nqc-6v_DpjElTHWId8huejIhLKKVgJnQQbC_x_TcE-8y
+uhBI3G
+}
+
+!procedure ServiceDashboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceDashboard', $name, $tech)
+!endprocedure
+
+!procedure ServiceDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDashboardMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDashboardGroup($id, $name='Service Dashboard', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDashboardMd>', $name, $tech)
+!endprocedure

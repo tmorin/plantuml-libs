@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Integration/ServiceApiManagementServices
+
+sprite $ServiceApiManagementServicesXs [10x10/16z] 9Kh55S1G2BiIQ_RVjf-7nzf-Kje50uuVyAZDj1gV_YrOI2pQMCOZ3KPW8yxh2vdgLRBt1m
+
+sprite $ServiceApiManagementServicesSm [12x12/16z] FKt50S1037e2qVsdRS_Z2Zsa8ggt943uAQqxaACqS1v8tOvOMmTh7LODfsZpO4w2pgYK43ccJX8Yg9hNwSx7vlA-KhdI3m
+
+sprite $ServiceApiManagementServicesMd [16x16/16z] {
+POrL0W1124B_5CN1-vzsk_TDMj0xalgcOEQfApHdXU48XsCjqRX6WbdrYcCFS_G6BDIqkcJINF33RnSEk3P9Z_K5TbKH5ilZ8NYIOH5EmaShuGlWUjMkDHXC
+bFgY4kmRPUpXZna
+}
+
+sprite $ServiceApiManagementServicesLg [20x20/16z] {
+VOvL0iH024E_Y52Otl-sMzOzxTZ3ilzMMTAsdb56W16i1ze2HquxUCyieA_fUIL4-79Tu2s9kMuCSrt4v5yP4UnBYmTiWykew_DQxyWRIr8zbuOJbvbjWWCB
+NZhiZcsdPbeJDVPq262HyiL6MnofD7lU77JPMLJtUd5MrhQ_g5Dtz61P-n-T
+}
+
+!procedure ServiceApiManagementServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceApiManagementServices', $name, $tech)
+!endprocedure
+
+!procedure ServiceApiManagementServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceApiManagementServicesMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceApiManagementServicesGroup($id, $name='Service Api Management Services', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceApiManagementServicesMd>', $name, $tech)
+!endprocedure

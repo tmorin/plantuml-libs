@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceVirtualClusters
+
+sprite $ServiceVirtualClustersXs [10x10/16z] 9SYr0G0m30F1pgB0_jC6tyrPjdNEcLH4EFhY4mY0r4IHTRgItZfIuikzYhfTWKuondt7F6q
+
+sprite $ServiceVirtualClustersSm [12x12/16z] DSW52aH130DGh6ravFwttSo7VKZ42YlM1IHWPFhVAIhTPlwb_1tJCvE_XkpdTOWJ-TqGdi4wtOC8dQu6FpxJtLYnxzLpFpy
+
+sprite $ServiceVirtualClustersMd [16x16/16z] {
+RO_50GCm24Kl4Qnb_stx8q3jHN5usEO-xZGduUo7vXCocodjnsZBp3InyFwrKzft_EYRiLXo7oJ2-C-ILUO6ien1F0Dn9zWfKGGW8f4ZSs1RXa8swivH-PAJ
+7bu
+}
+
+sprite $ServiceVirtualClustersLg [20x20/16z] {
+PSm53WGn34DHKMjdGlU_xHQoWrzalKBugyWKxCWQnpGUgifXr16NGSrCbesnh9CYnBGPdlUWxiRpluFa7kjUtm4rbhNgOH1L7VSnUnYgRHt4bKIwZ7l6MmEr
+TGhlwR0sz6kDSikszHjgflKLgBRoNBOnyYoykkW7
+}
+
+!procedure ServiceVirtualClusters($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceVirtualClusters', $name, $tech)
+!endprocedure
+
+!procedure ServiceVirtualClustersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualClustersMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVirtualClustersGroup($id, $name='Service Virtual Clusters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualClustersMd>', $name, $tech)
+!endprocedure

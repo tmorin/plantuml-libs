@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceReservations
+
+sprite $ServiceReservationsXs [10x10/16z] 7Ko50G0m219Ob_zVkx83S9ybrxxSlMUGeSnxaOd6iXhjJHP6mQqoO_jJVDFx6cMXpumxFeQFJ41NvIgt-fKF
+
+sprite $ServiceReservationsSm [12x12/16z] 7Kg50G101CINjl-qN_AggfnPFI-eq4dK1ll5nWYDW9PNBFeOIL8RmCC0m_c__WILZoS-_3D0_MLyuTK04JdBniE0qwlILYFgVE4jLr6B2mu
+
+sprite $ServiceReservationsMd [16x16/16z] {
+HKvN0aH116EQ-ipzRxlObYyfo4s4YQW_zut7USrrIAoLKDa80s6IbE122B0d01w9jFVuy85arpbPyyIKq0D_Zknvh0RQpKbblNaTnJoWRG2kWvstlDUOzK6U
+a0KV1U5Ozk4wtKUsH1OqNbXydEhRZVdiJQn96-6QUBCN
+}
+
+sprite $ServiceReservationsLg [20x20/16z] {
+HT37WSKm24LHG8c7Kl_T3XzZprqUPTreBzXSv_vthBSw5B2TCir6OMOfJM4dR06LYAeGSNlmc0vswuMy2dCp594q5khOTwCxf7ciyqx8Pr6pCvNJAaK5MmS7
+bkSaPe7XCvMq-QqjlNEkDGXbBR1XRpHwgswiTg-fi2Io_ARTkp62E6zYyGSFIgpMxsEq5_RgG98lDq0zs0fAdRzU-GC
+}
+
+!procedure ServiceReservations($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceReservations', $name, $tech)
+!endprocedure
+
+!procedure ServiceReservationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceReservationsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceReservationsGroup($id, $name='Service Reservations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservationsMd>', $name, $tech)
+!endprocedure

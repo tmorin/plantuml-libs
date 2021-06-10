@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceCounter
+
+sprite $ServiceCounterXs [10x10/16z] JOo53G0n24LFS4Yw_xHrUn7aIzg4Jy88cKXOJByN_vy0JH6fyiFQ02xr94xBQIu
+
+sprite $ServiceCounterSm [12x12/16z] LOq53i1G34Ap0j_b_hVTOWrxaIfmZRsIFNio1vueG2qgOo2Ya4NyUacbbAhm_l_ZMlVqh6ky
+
+sprite $ServiceCounterMd [16x16/16z] XOx50KD124HnsAprNstikpyk-4n_8Bysv9mYqaBEZeYcp1gc6ZaR09WGYQlyQ_w6ceaBoQ_-bdyEjP9izfNb-6-lj_UpzziV-
+
+sprite $ServiceCounterLg [20x20/16z] {
+ZP053iKm34FRnl37zx_jZoeSxocYiBrzP9bFBDDuOfh6uK3cXgYryeS8_4nIG-PgAINS4ej9pzMeuG320j1pJH9CPoYhFGSr8pEIXNQV2ujz5Zrtka60bxzS
+_NofxSg3Aw-sZ_m1
+}
+
+!procedure ServiceCounter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceCounter', $name, $tech)
+!endprocedure
+
+!procedure ServiceCounterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceCounterMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceCounterGroup($id, $name='Service Counter', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCounterMd>', $name, $tech)
+!endprocedure

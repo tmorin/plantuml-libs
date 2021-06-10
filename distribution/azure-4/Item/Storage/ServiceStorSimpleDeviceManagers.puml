@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Storage/ServiceStorSimpleDeviceManagers
+
+sprite $ServiceStorSimpleDeviceManagersXs [10x10/16z] 9Ok50SHG24DF2YJe_jlsoyCbCvDahB8QKxNLTi0MwA5TM829600IzWWsISZgjhmoW_IQGtZE9NEjNW
+
+sprite $ServiceStorSimpleDeviceManagersSm [12x12/16z] DStL0SC020JGEcU5_QUDvw5_Dvj8xZcuVh_YyQOEdlcpJknXtH00ty-di2Fm-tnnCBd_t6WY0bLrHdItfUqxsPvRacsl
+
+sprite $ServiceStorSimpleDeviceManagersMd [16x16/16z] {
+JSx50GGn2030KrpwxtQ9PtuusRcPHIx1201eAwwmGSyc52TkeH8k53qyI9DAtqQTKlb_lp-a0tw_7Gipu_yFn4DKejLdR1dQMjfBo69PeZ5LZJnQqnstUbwy
+P7a
+}
+
+sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] {
+LSq50iCm30F0OS2kfV__Tb6wq1LZv5yqu2vg5kDovTHjGPGy-AYgUIfZrAR426sAWmgTAehaRvFr9rOalT_lZsB3g2jJbVHfSXr2hxjkX8okM2kxToW4Cjmw
+5QTg3Wgwk1g0koBWGNN1ambuW51-
+}
+
+!procedure ServiceStorSimpleDeviceManagers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Storage/ServiceStorSimpleDeviceManagers', $name, $tech)
+!endprocedure
+
+!procedure ServiceStorSimpleDeviceManagersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorSimpleDeviceManagersMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStorSimpleDeviceManagersGroup($id, $name='Service Stor Simple Device Managers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDeviceManagersMd>', $name, $tech)
+!endprocedure

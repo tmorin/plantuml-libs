@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/General/ServiceVersions
+
+sprite $ServiceVersionsXs [10x10/16z] DSQt0S0m30EmnLQN-F-rQOmnOPg02Xg4KSELyuf_5ccRhFmC9MSjv9YalW4
+
+sprite $ServiceVersionsSm [12x12/16z] JSQr0G0n30Im9Z7Rj_-qZo5LGWu5X0t-N0S3ZFWdKSQYGpZBv2xK1mtTh-HruBpGO436K3S
+
+sprite $ServiceVersionsMd [16x16/16z] XSUr0G0n30Im9edPj_-qpupgX8lKdIKGUZ1U3ePxQxJn74wy4GadOjcDFt9dhWSMShbAEnxfvoF_JWSE80_G0m
+
+sprite $ServiceVersionsLg [20x20/16z] fSWt0iH020F0wbPYiU3_hxsSv51vokazIvgwLqsdemltE66OV1tu9sAM08Hx73T7m54YSN6gsBkWrr3bt5ntvubRXdkSQA9wnmq
+
+!procedure ServiceVersions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceVersions', $name, $tech)
+!endprocedure
+
+!procedure ServiceVersionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceVersionsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceVersionsGroup($id, $name='Service Versions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVersionsMd>', $name, $tech)
+!endprocedure

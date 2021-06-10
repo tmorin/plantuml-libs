@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceDisksSnapshots
+
+sprite $ServiceDisksSnapshotsXs [10x10/16z] FOor0G1030Ax0D7zjtsglxWovyoaPD_jAcS54jgz8INItKsPN6U4eNiT0KJqxGf6ZlyB_kS7
+
+sprite $ServiceDisksSnapshotsSm [12x12/16z] JOx50S0m30D_aMJSVzkwd0kO0VA-S94rigvFrca4QDdUHK0YpeGIBtJcXIwY1yE5dULO2-SxyuardBLdJv6Qdh7FWkpRuG
+
+sprite $ServiceDisksSnapshotsMd [16x16/16z] {
+PO_50S1020HVkFNVRJPkSug3YDeSc8fopeCqBZoTaTdub5bFc6nOJ3jyy5KpnPDRZ0B8O9Dh-s-wsfEwRVXHAkGWTZC3IBZp8VCfb-w2Y2AVevypVwBHezyy
+-_tDyvbt0G
+}
+
+sprite $ServiceDisksSnapshotsLg [20x20/16z] {
+RP05aaKn20HB0pC4kFzjjv3zta_JH4UE2F81H0uEtEFfmXqup0yuBgu1WDrenvj1bKKPUQqAtGAwmfsW5KbzEjCNRDmbW6e3DVtW9Kc-gB1Uf9Um6CTJYFG7
+uz1ALLvTDHPPPohIkcQr4fv1w0ABTDyCs6m6FxBwdUcFxFy
+}
+
+!procedure ServiceDisksSnapshots($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceDisksSnapshots', $name, $tech)
+!endprocedure
+
+!procedure ServiceDisksSnapshotsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisksSnapshotsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDisksSnapshotsGroup($id, $name='Service Disks Snapshots', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksSnapshotsMd>', $name, $tech)
+!endprocedure

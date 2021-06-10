@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Identity/ServiceAppRegistrations
+
+sprite $ServiceAppRegistrationsXs [10x10/16z] JKgr0G0W31lg2VB_jTX4DLQH6PNHPdg4PtYRbPLtVfGlTrqKKAbYFAZAH3IUvg8MevzA4QlvYiwv0G
+
+sprite $ServiceAppRegistrationsSm [12x12/16z] FKw54S0m2BmB3f7zj-rJmvrFTqYu-pwksc9gYCt231PnHZmIVzqDymXQN9-Pme0GsNg6bSOWUsCcLgzCY1Ans6dQ9QZNUMWtXWi
+
+sprite $ServiceAppRegistrationsMd [16x16/16z] {
+NKw5SGLG2Bihbl24_RSjLBxXJXQ09C04iAlWxWptc61LyJEFY56WJSylagEPRSvlFz5zJlzl_YF_wxjtdd_xX8hOgfMPev2l9c7-uNFjWXh-vqDLr1thFnSH
+DSSzvunonjLO_xIivrSzwPAtwXi
+}
+
+sprite $ServiceAppRegistrationsLg [20x20/16z] {
+ZOu73WCn20Ibi-bS_F_VXYMzPoHHnWLsAy8xTbXh6HSc5SHHwf_EuAGmHNG4k7WpmxLmGumkuTwyxSBXz8F3t8V_dEUsJJkiZAA3qzW0PrploMWtvdaf19bp
+Z369pyxRbIJcHuThkBTVP-Z0PoLjNTbbm54jSqVoc9Bh2NDSEW8
+}
+
+!procedure ServiceAppRegistrations($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceAppRegistrations', $name, $tech)
+!endprocedure
+
+!procedure ServiceAppRegistrationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppRegistrationsMd>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAppRegistrationsGroup($id, $name='Service App Registrations', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppRegistrationsMd>', $name, $tech)
+!endprocedure

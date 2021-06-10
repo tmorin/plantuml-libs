@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Preview/ServicePrivateLinkHub
+
+sprite $ServicePrivateLinkHubXs [10x10/16z] HOov0O0m008xDO63_QVDKybVqHQ97iG2EOs050Lhpa4DddplfxiOdnXtbI79H6w2bV_b04rERG
+
+sprite $ServicePrivateLinkHubSm [12x12/16z] 7Kt50S1037hLqFstxSKzq2CctPM8EfOPJfg16re0UugO-eGNANrgwdxUrrE7pmk3KxVyv4zqu5QaZ5JWO19QBcW7AmOy-GS
+
+sprite $ServicePrivateLinkHubMd [16x16/16z] {
+LOzN0aGX20E_tceI2FU_xLgts6UmKQiacVKf3aeCNv96S8pBv9clbsmDDurKnN3lGCSGmSb26RqX3mVTdjRQApURU42vStDPRNu7EZm6a80NAuV8Y71oS8hQ
+_z598iYmrpZeH4WT-i_t3G
+}
+
+sprite $ServicePrivateLinkHubLg [20x20/16z] {
+TT05WiL020FGrQ4a1Ev_sZhzdlgZetKcWAY79B66UIT1K28OhI8PsqkGrD6CLpatNTztKQnfNGrPi2sU6-8mMaX1mvt1gp3-nx2uZ9xy6sQJ_KURtEqVSALv
+MuasdAgQSDbwDoWpZ7UMcBQmnpZMeoqbR9Ri3Rb_5u38LGAzYUU7klHfJr_tVW4
+}
+
+!procedure ServicePrivateLinkHub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServicePrivateLinkHub', $name, $tech)
+!endprocedure
+
+!procedure ServicePrivateLinkHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePrivateLinkHubMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServicePrivateLinkHubGroup($id, $name='Service Private Link Hub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePrivateLinkHubMd>', $name, $tech)
+!endprocedure

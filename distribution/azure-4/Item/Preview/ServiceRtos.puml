@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Preview/ServiceRtos
+
+sprite $ServiceRtosXs [10x10/16z] 5KVN0S1G4Fcum-lstpQYirVhF0UZgwf7DjCvt5a8Sa-3tKHB3LKBlP4L0EUVPE9uflztxVVEm7h-
+
+sprite $ServiceRtosSm [12x12/16z] 7Oq54aGn24DdjX7urllVTaDV1ITxVsQ_-_1ehGNvYrzn1pt7HyZl-618m9UGqY6W6vH-o-AaeP9Bu6U2upB-BW0aCFvZJpFT-_0sH_SF
+
+sprite $ServiceRtosMd [16x16/16z] {
+DSa1ciKG40JXbwIw0Tp_jZjywq-Wp0e5jxckKGWkjP-S-lxHpfZl8e_RyErJPJSwsC-hHjl4skrvhdvUsOBMG4vw7gVeCqOfuPm4QH6SitCioAi8PEKiQ_Vg
+8jZ0wMcEsskqrcfIg6skgvcoppy
+}
+
+sprite $ServiceRtosLg [20x20/16z] {
+LT053iGm34JHmXY2llzjDrDdwHT6UeeemHhW8twRNG28zpbZj-H-0k1R_Vx9vfzbKiVNWBtIbd5t82B2QAgoVcaI7JUWgZT_m38F1q-f72SuW8p1lvdTny4H
+vB6DI48BfBd1tF_CtPobDQMfo0BHj9YE9xDSMXJyHnkcAzbftinalIgbKxuD5sd1NW
+}
+
+!procedure ServiceRtos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceRtos', $name, $tech)
+!endprocedure
+
+!procedure ServiceRtosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRtosMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRtosGroup($id, $name='Service Rtos', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRtosMd>', $name, $tech)
+!endprocedure

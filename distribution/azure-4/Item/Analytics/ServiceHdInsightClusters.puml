@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Analytics/ServiceHdInsightClusters
+
+sprite $ServiceHdInsightClustersXs [10x10/16z] 5Kcr0G0m29igCVZ_sWeIxJSR_IVEd0-wo4WXosJiOCkq2NAn7M4XximLCskcDhx2hkxwxUCtblJe0W
+
+sprite $ServiceHdInsightClustersSm [12x12/16z] 9Ol50SDG34DFgR-5-s_Rm3E3UfFTVYIyBYLtQz0p9jm0oCrJ24XtS0u56jYZCwmTx2sms_E3SSZVQUP2u-mrgM3khA7U-9QE-o69kUiV
+
+sprite $ServiceHdInsightClustersMd [16x16/16z] {
+JOm70WCm20AxuXR-_zl6T5wc2l003_vZZ_LjT1PqBMDbZpGYKAfrFcJkfmcmzwVcdla6uUx8wKxJEqKq497JT7MuQXCafXJ3fB3Djjv5kyoQzBMKNP6qjVpK
+HcpUTRitOgBA7JpaE-zmyaVmhTcRQWvF
+}
+
+sprite $ServiceHdInsightClustersLg [20x20/16z] {
+NOzP6WGn18HVEWHHTV_R3cRlFukT3r-aEsz0hcM_Di1OHOxQmDsHifPWL1QdbAIhUZVrCysB8BigMi-NF3n0VMvcKQB1Y8IfwiwNuOKPGaGqklQPRIf1sshJ
+UvhQ5Z6-x1C1JDfEHEHpgqjxecfGhql0sQeaa4b86L6b9PKldrQy5t7TXz6rpjWQR43cpD0OuuKNMsJpXnYdEd_0a2_h0G
+}
+
+!procedure ServiceHdInsightClusters($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Analytics/ServiceHdInsightClusters', $name, $tech)
+!endprocedure
+
+!procedure ServiceHdInsightClustersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceHdInsightClustersMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure ServiceHdInsightClustersGroup($id, $name='Service Hd Insight Clusters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHdInsightClustersMd>', $name, $tech)
+!endprocedure

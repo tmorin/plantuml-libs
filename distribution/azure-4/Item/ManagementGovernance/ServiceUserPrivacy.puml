@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceUserPrivacy
+
+sprite $ServiceUserPrivacyXs [10x10/16z] LOp50S0m30DB1ac1_QSD_NfcxBqXqFg6PiQJfRldoHGH-a_ftssHh3NStmWFANPO5EK2oFMo7TJw1
+
+sprite $ServiceUserPrivacySm [12x12/16z] HSRN0K9H24H1qtBs1g3_QitwvckwEyseVYia-VCTBtMSpzl0_3IvIQvFTJtVyDZLZj0bY60d4E9bBrviSENyi7V_x6SV
+
+sprite $ServiceUserPrivacyMd [16x16/16z] {
+TSs50SD0203066xxRrj2tIxwQ9sCMRCU51ez0e5mqhen7Fpl73JiEOyQF-OP7GqbRqU4Orrt91RFSrlRLg2P6INOZfrkvsHg23GuWsucBXNyodkUtvX87rz4
+zEi2
+}
+
+sprite $ServiceUserPrivacyLg [20x20/16z] {
+VSq53WHH20FGZD32D-v_soMC4TiNHrfFgwlsvTMa14ulA8dbSa0InZThkBN_iq403CC_ncHUTAPUpo174DWt4f5zstO1rVfwMyzjEpMhj2rVH91z1v5iUKSw
+JofJp8m9-6PBUNjctMUP9PlktOeO3VTg3Rj7rPmUVW
+}
+
+!procedure ServiceUserPrivacy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceUserPrivacy', $name, $tech)
+!endprocedure
+
+!procedure ServiceUserPrivacyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceUserPrivacyMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceUserPrivacyGroup($id, $name='Service User Privacy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUserPrivacyMd>', $name, $tech)
+!endprocedure

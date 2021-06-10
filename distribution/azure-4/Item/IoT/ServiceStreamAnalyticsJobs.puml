@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceStreamAnalyticsJobs
+
+sprite $ServiceStreamAnalyticsJobsXs [10x10/16z] 5OlH0G1014A_0DJ-srxt08YVENvsnd8RP9cRqFeYmos0ZaYPXPh8klISognk3_2VtIEam5uKr7mMIWy
+
+sprite $ServiceStreamAnalyticsJobsSm [12x12/16z] FOm54aGn24F7Y4m_SF_RRhhsAcYoRvxU3pqDplHD0LJbczrXg2fkSYVFI3qdcIYZS8ZaUXv0Ll1fmx4v5WY0roS38FFaExVSFzqRNW
+
+sprite $ServiceStreamAnalyticsJobsMd [16x16/16z] {
+NKy50WGW2BjYZ53-_zkpBcSk3EgWz_f6LuatSMyX3xPaJfhoXguieAgBUqqa2IwbJPOgT8f2X35Ca01eWPa0e1W-Ao5J9cbAwsM0zwIEvkOnAERxBSqK6rPJ
+K70ArCbNOcfMFJz5cUPQ_-jz0W
+}
+
+sprite $ServiceStreamAnalyticsJobsLg [20x20/16z] {
+VStLeGGX30NGdycL14Z_rQx0SzapIhHVCjrVhDKzuugvVxT5k7nTeJ8mTopZgpnrY00Gn-ojdAdoZggFWIiUwEThxGqAkAeKu2C8zoY6dcqNicgtjuAdKAWU
+pnYKsc-IOxK1U9XoMSogrOE0dZj5qcbAmiFUsslQn8Vgfm7W14aWUolLAW1UCxC_BO6pVoXb_-yE
+}
+
+!procedure ServiceStreamAnalyticsJobs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceStreamAnalyticsJobs', $name, $tech)
+!endprocedure
+
+!procedure ServiceStreamAnalyticsJobsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceStreamAnalyticsJobsMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceStreamAnalyticsJobsGroup($id, $name='Service Stream Analytics Jobs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStreamAnalyticsJobsMd>', $name, $tech)
+!endprocedure

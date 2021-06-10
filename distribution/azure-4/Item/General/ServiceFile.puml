@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceFile
+
+sprite $ServiceFileXs [10x10/16z] LSR50S1030EmrA6IS_jFMqQzH0CGSskDAY8syjwmzLZddaN5GRbDD_yPp21YB9E3LOKTebO
+
+sprite $ServiceFileSm [12x12/16z] JOl50S0m30F3P5lTVzg6uLv21Dlmz3NWLSDcVdJXerFElBGoraOWQ3lGeMlJfPdQ3KvkscLeUtHKYmWalqYe
+
+sprite $ServiceFileMd [16x16/16z] LSp10G0G40D1083-guKJiBy9LA_LJFjIAIVOJFXOVeSr-ECvN3llwGdCb1c5w_LecYl4OOd8uNLOLjJrY7w5wVIQ8LXUo-7exCd5sW4
+
+sprite $ServiceFileLg [20x20/16z] {
+RT254GGX44JHdiOz_soli3dRN_vmHlNk5DeuLISxXdonEEmav8tVTh5-sSGlInVLu4ASDRKPPxwgQMwQ1vr6-6rYDBa6qN2DNkCrKCFFVeBPiW3UCsTXsrVp
+5zkZKJxYiXI_Icsy
+}
+
+!procedure ServiceFile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFile', $name, $tech)
+!endprocedure
+
+!procedure ServiceFileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFileMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFileGroup($id, $name='Service File', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFileMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceFunctionApps
+
+sprite $ServiceFunctionAppsXs [10x10/16z] BKo50SD046gJjnDW_stpTYw0fh7tq3Px2rPFrE8vXmWhDgiyvcbOXizYhGpQu32sZZc8PXqqBZM3Zk4E7m
+
+sprite $ServiceFunctionAppsSm [12x12/16z] DKrL0eK037gnoKgu_sbjwJzqWX59tSZ_7_SY_UzphUeqwouUirQtF9jvo0oHh0mmmys720BaudssY2mlvJ4b3afQxwy-vejvnmu
+
+sprite $ServiceFunctionAppsMd [16x16/16z] {
+LSYt0KCn30FHGY0ivlsdzS_fkdTzL6xcrNSsnf379MF0BsGR1ZJhe5aI-ALPxTGqGB9JhNOM0QkgRUZCLW0aVvLJ9xqdkPrevqoATuL0LWgpzw4GEzZhO71b
+SUCsGbTsnyPzSEEJVTdPJmi
+}
+
+sprite $ServiceFunctionAppsLg [20x20/16z] {
+PSj9WWGX24JHXKepn_rlsq3DcN_dCy0xx_2JxRNMZczAMfNSPvIVZGCzE-xv8f6mNLc8v9FOaeeOC6uSGiyeySHewjdHgB8mc1MGNPsgjihCn8c_UZPJ80k2
+DcT4w1a2Rt8CplcnMit78EBiey2J1brEa-_JD6ZUL5dWdGpz57GZo9sG-EaV
+}
+
+!procedure ServiceFunctionApps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceFunctionApps', $name, $tech)
+!endprocedure
+
+!procedure ServiceFunctionAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFunctionAppsMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFunctionAppsGroup($id, $name='Service Function Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFunctionAppsMd>', $name, $tech)
+!endprocedure

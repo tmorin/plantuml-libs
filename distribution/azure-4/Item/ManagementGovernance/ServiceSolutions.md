@@ -1,0 +1,157 @@
+# ServiceSolutions
+
+
+```text
+azure-4/Item/ManagementGovernance/ServiceSolutions
+```
+
+```text
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+```
+
+
+
+| Illustration | ServiceSolutions | ServiceSolutionsCard | ServiceSolutionsGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure-4/Item/ManagementGovernance/ServiceSolutions.png) | ![illustration for ServiceSolutions](../../../azure-4/Item/ManagementGovernance/ServiceSolutions.Local.png) | ![illustration for ServiceSolutionsCard](../../../azure-4/Item/ManagementGovernance/ServiceSolutionsCard.Local.png) | ![illustration for ServiceSolutionsGroup](../../../azure-4/Item/ManagementGovernance/ServiceSolutionsGroup.Local.png) |
+
+
+
+
+## ServiceSolutions
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutions
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutions('ServiceSolutions', 'Service Solutions', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutions
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutions('ServiceSolutions', 'Service Solutions', 'an optional tech label')
+@enduml
+```
+
+## ServiceSolutionsCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutionsCard
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutionsCard('ServiceSolutionsCard', 'Service Solutions Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutionsCard
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutionsCard('ServiceSolutionsCard', 'Service Solutions Card', 'an optional description')
+@enduml
+```
+
+## ServiceSolutionsGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutionsGroup
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutionsGroup('ServiceSolutionsGroup', 'Service Solutions Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceSolutionsGroup
+include('azure-4/Item/ManagementGovernance/ServiceSolutions')
+
+' renders the element
+ServiceSolutionsGroup('ServiceSolutionsGroup', 'Service Solutions Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

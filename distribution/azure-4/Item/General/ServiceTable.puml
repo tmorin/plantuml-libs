@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceTable
+
+sprite $ServiceTableXs [10x10/16z] FSA75OD030Mm1EnVhku_BHtqD3-jFbhnemZWLLoNM8uh5Kj685BEG2OIDeAPHzVogFEp0m
+
+sprite $ServiceTableSm [12x12/16z] JOq30W0n40EBHPBJ_rzxrhHhBJ-cyMKQz3A8BqAutn-mshpjlnhWlOTPk3dexVQ3JFDqstySmt7yZDJ_rl9Z0m
+
+sprite $ServiceTableMd [16x16/16z] XOu54WH120CB2IIh_t_jofITNu_WilzXdfwOtsmzCQkV42lSaUu9zoYgt0nX5Z3paZepgu3xeI_xZYC25P6jYRUxgsgywR8pkp9n5_Aowuu3nVjDh_ljVpW1
+
+sprite $ServiceTableLg [20x20/16z] {
+ZL23bG1137sn3lrNkxR_8ER_H_p-dF1RUK9zrQMVaA4g8iCd4nkX300aq46ePnUT8W0EB6ka3G6snbgczM5aJCGgH2ITpWKHsOIPJRjFlTEPgjhmJsoMQn_W
+VQprh7fLs13GnOeFR7Iw4-fgLr_tt08
+}
+
+!procedure ServiceTable($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTable', $name, $tech)
+!endprocedure
+
+!procedure ServiceTableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTableMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTableGroup($id, $name='Service Table', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTableMd>', $name, $tech)
+!endprocedure

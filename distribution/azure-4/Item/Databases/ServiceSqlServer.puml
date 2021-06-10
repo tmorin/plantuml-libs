@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Databases/ServiceSqlServer
+
+sprite $ServiceSqlServerXs [10x10/16z] 7OdP0SCm24Dx0B84jlQVjatozuv1H2HjvpSpuzEswgB4jbiYrUUYGXNqK5ObxmjK0jHfIHJNqjpuaFTqpvRE7m
+
+sprite $ServiceSqlServerSm [12x12/16z] 9Kk50GGn27i18XNsd_Qq0j7jYeZIxkxwnNt-TM7-8olZpmjF4m0r7snBzeDHo2gzE9FNUp2pxhQzdZmX0LXp-3x2WDQB3M3slgmvzzBi4m
+
+sprite $ServiceSqlServerMd [16x16/16z] {
+HOu55WGn24FVJY51AlU_xTBHL3--Pb9BYB6sKevswcYv6RzMJgZAePj3cwX2fKbixk4iBsZHJywubJUxXPkxt-m2YWhniM9VDmUR2cfvZhdzeAF1AeZUx_h6
+22TXy-jdxCxukCAD-GPa6EXLSOqn-gZQSq_y1m
+}
+
+sprite $ServiceSqlServerLg [20x20/16z] {
+VP05biCm30LVHLzKv_wtNOUpr36FMSioscq5zLuEN8XuPJOOkoAI4txXSeeL4thPvXfCBAegixNQNQMRYeYQH_NXAYy-kZ0BdoLmkHI1iueut-Sf0npEzd1f
+PEnWh6xiUqtPXKcT11svt-6H0KQumm6lwotkQsM0vULM0kWsr1yktvSxz_eQvbDMPmAvnsQCqMCokxMQBm
+}
+
+!procedure ServiceSqlServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Databases/ServiceSqlServer', $name, $tech)
+!endprocedure
+
+!procedure ServiceSqlServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlServerMd>', 'Databases', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSqlServerGroup($id, $name='Service Sql Server', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlServerMd>', $name, $tech)
+!endprocedure

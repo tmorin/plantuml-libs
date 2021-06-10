@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServicePolicy
+
+sprite $ServicePolicyXs [10x10/16z] 5Kh70G0n27fT4b1X_sqFEyrsexmblW96haT5vajxsBobLyQv93g8zosAgr7SgGlPnNZ29J3Uscpg1m
+
+sprite $ServicePolicySm [12x12/16z] FKs50GD13Ah6WVstVR-uWdQP75s2yep4Nh5zpwoOHFcvPvLtXhGVzQ-WlQQRLNNCKOTxtxNGSzwKzVfbMK3CcC9-aHOdroaJVUOD
+
+sprite $ServicePolicyMd [16x16/16z] {
+NKzL0WK117onZ7R_qswtFqpsEg7HrwI2ORLlPO260TOrtroWkL8G8XMCE7013gTvBJTl8OteTJScDWoQkUt2p18UGAwx0j2yzb3HkE6xgXOzzmvYl_krCs7D
+8mZLckzA9BdalVhGrUVLTm8
+}
+
+sprite $ServicePolicyLg [20x20/16z] {
+PP053aGn24GZxQ03zx_j_agozk8Ffo_fx6_I11BLRyeVem9zssMSJGMiAjcT2b7kz52XGPk0vBi91SASs4r8Tibqr-YSiX8KG7ACbN1TO15pM7XUvzibMQlV
+TR8uJkiuweFbKvlEMzjq3-uPrOy3-x9t4M_EWVZPkLFcb7pV9jPxkJ6LJLi_wBebXW4xltf3dLEy_Zxz_lqB
+}
+
+!procedure ServicePolicy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServicePolicy', $name, $tech)
+!endprocedure
+
+!procedure ServicePolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePolicyMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServicePolicyGroup($id, $name='Service Policy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePolicyMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Identity/ServiceAzureAdIdentityProtection
+
+sprite $ServiceAzureAdIdentityProtectionXs [10x10/16z] 9Oot0G0m3C8cX5Fz_xMfSa4JUUWzFmF6asd9yqeWKOuL7O6Q3LrmCtv2PCNORhSa84O-Mhj_0m
+
+sprite $ServiceAzureAdIdentityProtectionSm [12x12/16z] DOxL0G0W20M_k6V2_jFQda57R5gBJqV-L4zctyYso5TbgL2MMg-AQdJP0L8NYQkYlXw6HEgxO6lKspz3zdZKkyC4
+
+sprite $ServiceAzureAdIdentityProtectionMd [16x16/16z] JS-53G0n30D0aQ6y_xGF9SN2SufZfRKHqyWURS2XI0IGBlDFi6oMHUwY7bBjFrf0BDBYQjAmp6CbsQ2rQ1F-JvzBzDMg_u49y2-a_SGga6kuqXEuXYVr_FS5
+
+sprite $ServiceAzureAdIdentityProtectionLg [20x20/16z] {
+PS-r0SDG34NHwebX_saJauotF1_LKrM_A-Rw4A0lCm9W7tfXx0JABn4Fvj3IyNZ9q9eElJ66XgDTXUx8gWwGoaMY10G3eiTMLWOukdHTNhUI2e6iUcdToheu
+0vBtSTUjT1yu5vXDLqvirQ_oaZy
+}
+
+!procedure ServiceAzureAdIdentityProtection($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Identity/ServiceAzureAdIdentityProtection', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureAdIdentityProtectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdIdentityProtectionMd>', 'Identity', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureAdIdentityProtectionGroup($id, $name='Service Azure Ad Identity Protection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdIdentityProtectionMd>', $name, $tech)
+!endprocedure

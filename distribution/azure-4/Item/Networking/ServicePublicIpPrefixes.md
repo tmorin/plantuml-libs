@@ -1,0 +1,157 @@
+# ServicePublicIpPrefixes
+
+
+```text
+azure-4/Item/Networking/ServicePublicIpPrefixes
+```
+
+```text
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+```
+
+
+
+| Illustration | ServicePublicIpPrefixes | ServicePublicIpPrefixesCard | ServicePublicIpPrefixesGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../azure-4/Item/Networking/ServicePublicIpPrefixes.png) | ![illustration for ServicePublicIpPrefixes](../../../azure-4/Item/Networking/ServicePublicIpPrefixes.Local.png) | ![illustration for ServicePublicIpPrefixesCard](../../../azure-4/Item/Networking/ServicePublicIpPrefixesCard.Local.png) | ![illustration for ServicePublicIpPrefixesGroup](../../../azure-4/Item/Networking/ServicePublicIpPrefixesGroup.Local.png) |
+
+
+
+
+## ServicePublicIpPrefixes
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixes
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixes('ServicePublicIpPrefixes', 'Service Public Ip Prefixes', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixes
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixes('ServicePublicIpPrefixes', 'Service Public Ip Prefixes', 'an optional tech label')
+@enduml
+```
+
+## ServicePublicIpPrefixesCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixesCard
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixesCard('ServicePublicIpPrefixesCard', 'Service Public Ip Prefixes Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixesCard
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixesCard('ServicePublicIpPrefixesCard', 'Service Public Ip Prefixes Card', 'an optional description')
+@enduml
+```
+
+## ServicePublicIpPrefixesGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixesGroup
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixesGroup('ServicePublicIpPrefixesGroup', 'Service Public Ip Prefixes Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServicePublicIpPrefixesGroup
+include('azure-4/Item/Networking/ServicePublicIpPrefixes')
+
+' renders the element
+ServicePublicIpPrefixesGroup('ServicePublicIpPrefixesGroup', 'Service Public Ip Prefixes Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

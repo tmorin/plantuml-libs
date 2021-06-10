@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Other/ServiceTemplateSpecs
+
+sprite $ServiceTemplateSpecsXs [10x10/16z] LOY53SDG34JrsQHx-q_R1aInZx4JKXn3PpvtXFNMBnXaRsEqdb1lgc_gQ_Kx-RYtuSZsSoRS0iASFm
+
+sprite $ServiceTemplateSpecsSm [12x12/16z] JKw30KHH3AlnbFsdFUFNRZ2gDh2h1b3kaHdkzOYDYHzYZtWvYPcGB-0uiGYJdqVygR_YUCVnYLNVyGgo2ADux7RmYwA1ogpkfyKLmnq
+
+sprite $ServiceTemplateSpecsMd [16x16/16z] {
+NS_L0OGm44NH2On6--zs7v6r-yKXFbguvu6oUxGnggfQGOQF-bZkdImpxVXnTwPqeqJi7ViKc15SnlBguoGe7SknJ5SXIeX8wlQbw5hkeSSQVTwNTkk-vh9p
+UwncqL2OAVpttXS
+}
+
+sprite $ServiceTemplateSpecsLg [20x20/16z] {
+VT055eD034LHB0fCzh_R_Y2P-ck1d8iJiHfgWLfEQmx2Q6jeoqdQOKJ4MGwtBLErb0tLQU5fquocD8zCOGkXt6gKZHCQNmo8XcxztFzcrCybAxkUvTLO4PUv
+KhyUgOEQ20yLYxJ3PAxaDbpAZZ1SbXzo3xJd2FlsxHy
+}
+
+!procedure ServiceTemplateSpecs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceTemplateSpecs', $name, $tech)
+!endprocedure
+
+!procedure ServiceTemplateSpecsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTemplateSpecsMd>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTemplateSpecsGroup($id, $name='Service Template Specs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTemplateSpecsMd>', $name, $tech)
+!endprocedure

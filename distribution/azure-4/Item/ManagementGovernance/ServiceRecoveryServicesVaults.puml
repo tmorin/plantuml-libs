@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceRecoveryServicesVaults
+
+sprite $ServiceRecoveryServicesVaultsXs [10x10/16z] 9Sor0SG02030b-2s_xP1hi6fuHQrZ90cJI7u_oMxCyb3Kia0oCqP6elqykerF5oblBIVXBVvzW8
+
+sprite $ServiceRecoveryServicesVaultsSm [12x12/16z] DSt50S0W40J062je_zq6dG-SjwdaqhPCCirVJIG-paeatkVwd7klyBqzB_Lq204QgX4wsax2ehuLHz_9e_-pDRcEIsKQtny
+
+sprite $ServiceRecoveryServicesVaultsMd [16x16/16z] {
+JO_50S0m30DBjXJUVzg6uNwYG9h4c0w20HXsI41r6Rwaa5TjbwwexxclbpQEydU_xoraRNYeV48e2qLJAg2f9D-bQ9FMgGmDOwsFke4luqEtwt5WYhPRqlUt
+JlpyJAUB3
+}
+
+sprite $ServiceRecoveryServicesVaultsLg [20x20/16z] {
+VSg53S103C30Ok0f-syRAEE9BSklp4IvNL92C7oE6Gq0ybuAevi6mBebiZ2FVTUDo2LIypHrNTzRGyhUgZKO-jbM9ECjmUneunlE0OWNqZBDgxMbHZ1lC5As
+T4QbLX6uocBWYhpXLJI-jkIjCfrmbL3IBZVveW
+}
+
+!procedure ServiceRecoveryServicesVaults($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceRecoveryServicesVaults', $name, $tech)
+!endprocedure
+
+!procedure ServiceRecoveryServicesVaultsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceRecoveryServicesVaultsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceRecoveryServicesVaultsGroup($id, $name='Service Recovery Services Vaults', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRecoveryServicesVaultsMd>', $name, $tech)
+!endprocedure

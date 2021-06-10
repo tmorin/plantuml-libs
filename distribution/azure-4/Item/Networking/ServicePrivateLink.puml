@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServicePrivateLink
+
+sprite $ServicePrivateLinkXs [10x10/16z] HOor0G113CFAW7tA_jC-Wvg0OGxakQ7wNluVxxQQDk9Or5MuISkLZQjpkSwhfXDRMMS7H-nOTW
+
+sprite $ServicePrivateLinkSm [12x12/16z] FSZN0S0W24NHpm2lxJzjkbxRaJo1MQbwsptP3TTKZ_rouDl0ovbktszwF9gZvPagOwencVBzuOYOGt5rH3vCZDprpGi
+
+sprite $ServicePrivateLinkMd [16x16/16z] {
+VOz50WGW30ClM9es_Vzl5rctGMTEa1lHyncE4SzkRnwmVE6Vknrt7OL9O0hGKHyJdU2Wu6B73Z4W8Qpt-O8Lh39904xBQ2CnWyn2PBIkt26CHjywGvk7fAEJ
+yrTXwGK
+}
+
+sprite $ServicePrivateLinkLg [20x20/16z] {
+XSg5bG0n40BGyp36zD_jHTQLbV1-o2aqpsCKE680i8DHpfOEuT48pLUBar4Hmq9y8ILZMCM9Gb0AOk2qgYsiW1DA9TQ9jQLrhDMJObu0IEtfWFt-HReOwdsA
+9l4hsP4EOziJFs1Eg6gc6fMoPLhMH5zDw5DfgoandPI--WS
+}
+
+!procedure ServicePrivateLink($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServicePrivateLink', $name, $tech)
+!endprocedure
+
+!procedure ServicePrivateLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServicePrivateLinkMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServicePrivateLinkGroup($id, $name='Service Private Link', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePrivateLinkMd>', $name, $tech)
+!endprocedure

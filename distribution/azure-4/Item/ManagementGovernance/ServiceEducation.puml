@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceEducation
+
+sprite $ServiceEducationXs [10x10/16z] JOor0G0W30GhU26o_xH8nyMrVz8hNmpnucm182UW42Rc68Wk4RXw5st9GhxiyQvp-RtvE
+
+sprite $ServiceEducationSm [12x12/16z] NSk35G1130JGXrZJVxTd_cM4dycQw-TcdclKOQgsdMZTkB6iKOVAYfczWRGrKXDVPojy5IQp_G-rvll-hgOog_6r
+
+sprite $ServiceEducationMd [16x16/16z] {
+ROu50W9130EnIhBs_zSYeUZThDQpzXdpnoBGviVA1-KPo8X8NHmB8LWlCaI6cVdzdHtXmYwNwEiEKvv8DtLiH4O2p4jxsYHu1uwoYwxy_hQNcEMGldAD8MFB
+3G
+}
+
+sprite $ServiceEducationLg [20x20/16z] {
+bSr50e10243H3Gq3zp-jWQqhl_sSg9-5-NYBYAZTD5JsTir5-4mqiboE3ptOpm6cXCIT2LF7X02uFCKg_L1gjUnThh52ODMPwQBhDYP0kTkYglqW78UTCVd7
+ekLfOxVn6RQK8zpC8xB-D0C
+}
+
+!procedure ServiceEducation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceEducation', $name, $tech)
+!endprocedure
+
+!procedure ServiceEducationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceEducationMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceEducationGroup($id, $name='Service Education', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEducationMd>', $name, $tech)
+!endprocedure

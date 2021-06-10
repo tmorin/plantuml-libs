@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceServiceBus
+
+sprite $ServiceServiceBusXs [10x10/16z] 3Ko53S1044hp0lpP_jiM9yRCT6QxF7WlqwE4lS6P8B0M44toVjybvNNMEgudNaFIvCEzUD5-4IctKPdb-W4
+
+sprite $ServiceServiceBusSm [12x12/16z] DOs55KGX30I_psQn_hiz8Ey6uZOMhVLjfoTGsMuNxmjjkaLmt-0n37pNzI5tIRp7yKuRot_k-s4wZk2RA2AwG-cxplLcuZpNPbdjVtYox0y
+
+sprite $ServiceServiceBusMd [16x16/16z] {
+JSn70iGm24FHs2O8kTx_jWDasjjzkPp7tkVF8i3ndIRKWUzX6LH4WH6rkm5Q2W164Y4R_aMcjkjg2e3B0kIw1ERufDGgOe7HjxWxUv8q9Bf-fhUco7tEdXsf
+ptNIfZFR6T6T8JljTC8B
+}
+
+sprite $ServiceServiceBusLg [20x20/16z] {
+TS_LWK0X34HHV690_ztkowpR-Rnexl-sgrXyIuxrWCJtHDZlQGDOlIy0zbPCifMQJGxF2TAgRF0dnLkQfSoCed5L4aOjfGv8sa90AwL1I8Nc6BMEFkMBGU_D
+z27lNrOwZA2t5fTnqSnc-SCJOQ0bvl4-yL4IFVUJiK7l5sxazryl
+}
+
+!procedure ServiceServiceBus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceServiceBus', $name, $tech)
+!endprocedure
+
+!procedure ServiceServiceBusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceServiceBusMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceServiceBusGroup($id, $name='Service Service Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServiceBusMd>', $name, $tech)
+!endprocedure

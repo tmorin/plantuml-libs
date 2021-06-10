@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Integration/ServiceAzureDataCatalog
+
+sprite $ServiceAzureDataCatalogXs [10x10/16z] LSQr0G0n30ImHxDz-qyRhA9AIVz01VWtlNdi7xutvcQ-dsAEcOXpZDI636RUGrN5tb3k7kW
+
+sprite $ServiceAzureDataCatalogSm [12x12/16z] JSh50O1G30DGh6xxRyitv9tQ92amQ5KvdDt1uxwwSzx3xxvEycptEDiCOjo43OSZ08gggALZqsvjT-hIxkhyTwURMTGD
+
+sprite $ServiceAzureDataCatalogMd [16x16/16z] VSY53KCn301HAJ7Z_jlMPVvFUDSfV9CzYlUwiKiZtDoQFXklZXjWBnIlU-yDCpVMjOdnGllMPZhCfo_iQfhVkrM6Flgg_7T7trJwoEuJ
+
+sprite $ServiceAzureDataCatalogLg [20x20/16z] {
+ZS-53GCW443H53_VVzeAJlt7oCFD2Ce8r6eKtMNakLaEC-TUpN-rEFlJWdUepQRS2o61JWlEXxOscvLcAOLg8TAqZ0ZrUyZB25lqi5JxQPXhPJVJ6X_MaZSs
+5v8swFf8xgCR
+}
+
+!procedure ServiceAzureDataCatalog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceAzureDataCatalog', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureDataCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataCatalogMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureDataCatalogGroup($id, $name='Service Azure Data Catalog', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataCatalogMd>', $name, $tech)
+!endprocedure

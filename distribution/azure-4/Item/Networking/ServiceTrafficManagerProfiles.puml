@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceTrafficManagerProfiles
+
+sprite $ServiceTrafficManagerProfilesXs [10x10/16z] 7Om53iGm30GbmqBR9F__xJat0iF2EI-6zypIVzxvH06Shz0HTvN830GeKmGxOTCC6EbF4fBITzPTIsiAbuTPVW
+
+sprite $ServiceTrafficManagerProfilesSm [12x12/16z] 7OS94i0W2CIckkxHY___jjGea5IzPkEtMeDDtgririfx4WSM9V8qXMEG51sQO_Ot4yMIrbpRmw5e8fSSJZZYLNyOaAwgZWPREyxcrmy
+
+sprite $ServiceTrafficManagerProfilesMd [16x16/16z] {
+DSY7aGKn20JHZvkHO4t-sHwBwhfilxTBJlcUCdoAF0kFoV51mGnJGxt5K344I29OEm0JLN9W9xYeFw5RDEJtK3NQpzVyEhbBdDzxXJU7EBBulGhstY6eQwF1
+JTaS-teFB5SkzBx_O3exm0wp1sgQ_GC
+}
+
+sprite $ServiceTrafficManagerProfilesLg [20x20/16z] {
+JSa5hi1054BHFeMHfllVxUYN6oE7RzLuQzzFFSDtaVsFx9ZzO4VClGiFz4EgaRUDdUdwQ28Ii_Hah_0CUTGd7qIj6NFeymYGYoDhHPBqPI7YPAAsPQcgXdYE
+jMMtD9MuLcO4GC8abd5RYiIwJ8pJWdysSTfRcPpcjf71-duN2oTU-lwZ7xgu2hLD5mjtPTF5TZiq
+}
+
+!procedure ServiceTrafficManagerProfiles($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceTrafficManagerProfiles', $name, $tech)
+!endprocedure
+
+!procedure ServiceTrafficManagerProfilesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTrafficManagerProfilesMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTrafficManagerProfilesGroup($id, $name='Service Traffic Manager Profiles', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTrafficManagerProfilesMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceWebTest
+
+sprite $ServiceWebTestXs [10x10/16z] 7KlN0GKX33er88c5_QTzvNxe-AOob-sJ0i2V_774L5tpULvzNaMqiQq818boINm6nk-oApcZoVOz9sDW-wz5Kby
+
+sprite $ServiceWebTestSm [12x12/16z] 7Ol50K0n24DngMN_QR_qNI06hEpkUV0nEoBS-t-pGZMg5r0gwXPP0mWYZZ2H1f98le5m7hIPkN_hM1XHgIHfVd16Tue5wmQmnYUTk74vxMOnxxyhF-e5
+
+sprite $ServiceWebTestMd [16x16/16z] {
+DOs7OS1020Ef0hwO_RSDTfBxIfEw-qHLhVFqBxk0p42SBvnQsk38j-DC3IeMcRKdNYwYveQ9rpGa4v73RLRTxg3100XHJ9ppiWEXp1Y1Sb5zut3t77UFX0bf
+m7tg5raPF3FEEd7VLPKGWvEi7fwzQaWbmkqlS-_TK16j_gVy1VilF1aV-GC
+}
+
+sprite $ServiceWebTestLg [20x20/16z] {
+LT254SGm34JHMBGhEz1_joVb-0zbNinNTO1PhVFwjDAZZPmlEMScB11kPlaqeaQugfg3kJVj4IHCf8IPizTSePsPner7MVfMMKHZC5URj6b4k8vD-6zXzH6t
+MPiNmSSOdcSPH4HlGxXx3rnXW9lfCB2CVTTmag6z5bojxPh8B2mpjstmzGGLNHmemtdZFlCPf0RFrzFigwEDiOtOhsyhpDtCy_pGmV0xpEymVde
+}
+
+!procedure ServiceWebTest($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceWebTest', $name, $tech)
+!endprocedure
+
+!procedure ServiceWebTestCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebTestMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceWebTestGroup($id, $name='Service Web Test', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebTestMd>', $name, $tech)
+!endprocedure

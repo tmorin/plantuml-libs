@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Integration/ServiceSoftwareAsAService
+
+sprite $ServiceSoftwareAsAServiceXs [10x10/16z] 9SpL0SD030FGDc2ISjf_siFtOxQMfWCHjNFuL7EGRbDygeZtljy8PeJjB9avCyk4Y7WU1pMLMUbe-zi
+
+sprite $ServiceSoftwareAsAServiceSm [12x12/16z] NKq53W0n24jkG5jc___jJQB3jPsFDAcEMoOYGhiQYIDjbGHy2TXcah3lCv1D9AqKMochH2_5AULSpQvNETPtXnbwlmn9vil_0m
+
+sprite $ServiceSoftwareAsAServiceMd [16x16/16z] {
+RSt50GDH24NHAFwW_su3iT6xudojqp82AneJiUQAa-HRwVpDXo7Cxtr-tyWtxnqnIvHBHxVxxKOpmTwU_RVjlS-BKxktUQOesChpOm9AZmSfWEPaOwj_Y0vr
+rWi
+}
+
+sprite $ServiceSoftwareAsAServiceLg [20x20/16z] {
+VP253GCn303LDmP__srDPJfHSZAV_zZxtSmcelr5T-50rxEwehV8FUJEA3NqeQw1CnKb_kZB4oiA3mSoSdXcu0x2QR2w9WG8WEN6A8UNoDLogmLAw93cnmkc
+gxXqiU6C1y4jhkT-Qyx1ZCZSvvmULIncE9WzvC5IONvSeDZ9-Hi3
+}
+
+!procedure ServiceSoftwareAsAService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceSoftwareAsAService', $name, $tech)
+!endprocedure
+
+!procedure ServiceSoftwareAsAServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceSoftwareAsAServiceMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceSoftwareAsAServiceGroup($id, $name='Service Software As A Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSoftwareAsAServiceMd>', $name, $tech)
+!endprocedure

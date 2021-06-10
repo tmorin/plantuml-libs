@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Integration/ServiceIntegrationAccounts
+
+sprite $ServiceIntegrationAccountsXs [10x10/16z] DOp50G0m2CHUTU3stxQf45p3riLycPc3KTGcSB8sVeREaTdeRpgNuOnip4NxVhhSjOTl
+
+sprite $ServiceIntegrationAccountsSm [12x12/16z] FSR70GGX30F0kur6ahtzLqk6UKre2s6kXyQlKMLdsgTfNrIoc0VjzN6dY-xEUhuWQ8crWaG7wy492crH
+
+sprite $ServiceIntegrationAccountsMd [16x16/16z] LSU50KGX30JHKsJ9RFglzkGxWoGlpIMdDGN2u3KMzrATIrvSdY-khg_YYqs4mOU75BLeShcO2AGuhDuPW_4RgriBAVvZyUZYvsM0WgF5KoHJ-GK
+
+sprite $ServiceIntegrationAccountsLg [20x20/16z] {
+ZT250SKW30JGhutdzf-sxifLUJX0xWB0T1VBR5-RgBPc67gCiTwo-lzbR__lbqjCc6DdSFTmLLkRghfM5UM3MMj6nEk-4P7PllgVmPA9j9iZYCYNjLXh6imy
+cOeC9YAn6o_dyOvdTJZJpl8GD
+}
+
+!procedure ServiceIntegrationAccounts($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Integration/ServiceIntegrationAccounts', $name, $tech)
+!endprocedure
+
+!procedure ServiceIntegrationAccountsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntegrationAccountsMd>', 'Integration', $funcName, $content)
+!endprocedure
+
+!procedure ServiceIntegrationAccountsGroup($id, $name='Service Integration Accounts', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntegrationAccountsMd>', $name, $tech)
+!endprocedure

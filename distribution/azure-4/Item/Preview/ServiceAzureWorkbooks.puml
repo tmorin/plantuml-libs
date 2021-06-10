@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/Preview/ServiceAzureWorkbooks
+
+sprite $ServiceAzureWorkbooksXs [10x10/16z] OuO05dOEE8C3HB616EmGFf31pimAP81O74060h03EOG09m
+
+sprite $ServiceAzureWorkbooksSm [12x12/16z] OuO15WuEE9CTmcPX0JCv849i82Oxc0a6xEn8J0uu4uP115oMQC09
+
+sprite $ServiceAzureWorkbooksMd [16x16/16z] dSc53G0X0C30zvRz1tx3YTFefNlRPUYf0vFFOpz-4Ybd994fO20zDPAVgf5Wq-ZnEbzu
+
+sprite $ServiceAzureWorkbooksLg [20x20/16z] dSg54SDG4CJGm2Mhtt_1vZqpQlYDuZll1sL18M1n2LiIJ2p-aIGJ2fDC89EIID86iIB0f9u0C4b9o6HmsmIdX7XOsQ0Q
+
+!procedure ServiceAzureWorkbooks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Preview/ServiceAzureWorkbooks', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureWorkbooksCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureWorkbooksMd>', 'Preview', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureWorkbooksGroup($id, $name='Service Azure Workbooks', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureWorkbooksMd>', $name, $tech)
+!endprocedure

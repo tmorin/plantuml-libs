@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Other/ServiceAzureBackupCenter
+
+sprite $ServiceAzureBackupCenterXs [10x10/16z] 7SR50K0n20MmKi7XxJ_jb-OK_D8BbmlBtpRvM0F1vnRDDBQgMihPWzYYTErDWmImjSQ7WNBblJdngUx6vmK
+
+sprite $ServiceAzureBackupCenterSm [12x12/16z] BSZ50K0n20DGgZZPVzglVPS8Fkc1mtcpVQsCN_dslx84K7lEBGy5j1CDVdlgtftQ4lFKCSOYQZC16Qit8keE-1gZdHzfodkBurCuRW
+
+sprite $ServiceAzureBackupCenterMd [16x16/16z] {
+JSy54iGW3010Bj8Oyl_N5f_hZaAy7RMKslwAYcZ-F9z1odcwoXBx6NBPwc4pT_Fnp0m0BBgCNW8ffH-lfxSm4HmVf6RcDGH-C3E0P6xaY0yGfG6ZdNTQO3KN
+0DnlNFk6YJ4EPEUox36LTdqFxG
+}
+
+sprite $ServiceAzureBackupCenterLg [20x20/16z] {
+VS_5eKD120NGmM6q_seZztsNd2NE-MAT7tRFoDhdg_Adt5-hmg4-GYFZpKVXZ4yv3bHyaHF3mbJD8o-5CcLg9FuPszEvFP16mJYhLwO-WnnNQA_kJ88Wg-US
+wt5PaEWZI8yWiU7bxkIkPDIUfF21as47SEA5aaRlCP9-lLfkQGmI-y0SlTAUeX22FJQS5-u
+}
+
+!procedure ServiceAzureBackupCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceAzureBackupCenter', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureBackupCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureBackupCenterMd>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureBackupCenterGroup($id, $name='Service Azure Backup Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureBackupCenterMd>', $name, $tech)
+!endprocedure

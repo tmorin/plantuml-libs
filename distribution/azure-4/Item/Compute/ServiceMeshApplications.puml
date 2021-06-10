@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceMeshApplications
+
+sprite $ServiceMeshApplicationsXs [10x10/16z] HKjL0e1G3FfRWN3_qzhwrYDiAqk-Wn6yZquY-wHuSbibLG7DY54dTrzPYxqSOFPjPYPzXxfrhWC
+
+sprite $ServiceMeshApplicationsSm [12x12/16z] BSor0G1020F03X8i-s_xUWsEjdPlVMcMBvl05gCjZ18if4w0tIIotQ2TjM20y-LqJ65d3QBctEBT_fzyFxTqJtr3ZBO5
+
+sprite $ServiceMeshApplicationsMd [16x16/16z] {
+NOu33iK044IZ3hAw_sa_wlQ5Yy6i99XpGykYsrW4MCVKfctHlJy3Ft40Ff_ZFw-I51MXJ4MQIgvlAVqa1YJocacMfJp-vNpx_V0w9-2pZspJ_UvxuZNbegoS
+bIy
+}
+
+sprite $ServiceMeshApplicationsLg [20x20/16z] {
+LP274GGX30CdWIG4Tl_TFfVcyLva2GxvCZgSbTLRwwiwNyv5XVf6SMmKCAG1wDiUQ8tNT-zNSHksXhWtMW2lH0mIyae_PnlsvSSU6fUxai6byefF0ZWTDkRb
+_di1EcCAF6BCgFczkHnvNL-TjQdKLdfmCh6PMGW2N5cPelFb1m
+}
+
+!procedure ServiceMeshApplications($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceMeshApplications', $name, $tech)
+!endprocedure
+
+!procedure ServiceMeshApplicationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceMeshApplicationsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceMeshApplicationsGroup($id, $name='Service Mesh Applications', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMeshApplicationsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceOperationLogClassic
+
+sprite $ServiceOperationLogClassicXs [10x10/16z] HSQ52G11400nE5-T_gjzbs31vqLWzLCRv1odVcprMcg_Lqhfuzmy7UEVhDFyDq7bukm
+
+sprite $ServiceOperationLogClassicSm [12x12/16z] TSQ53S10300nvHbp-qzRPh38Q4wh1iMxXScGmygzRaJ4RRV661UNnyNoSdrQ-P-70hMigZ82
+
+sprite $ServiceOperationLogClassicMd [16x16/16z] bS-r0S0m4C10CppkFssOEUgkb2eZpA6eIlLkBh0gfJWNHY_TEVY-bEBWdApfYtbo3gxBfzbpDovxSrbAFrsgT8RTRWi
+
+sprite $ServiceOperationLogClassicLg [20x20/16z] fSY53O103010UAkd-szBSFUBdxkRBfctHJ7C8hT79SrYJUr1MSZdXyUNUwiBLIVE1zC1bF4WnKvUtEpgwEdX0lovnEjhiRKdAsqr
+
+!procedure ServiceOperationLogClassic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceOperationLogClassic', $name, $tech)
+!endprocedure
+
+!procedure ServiceOperationLogClassicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceOperationLogClassicMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceOperationLogClassicGroup($id, $name='Service Operation Log Classic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOperationLogClassicMd>', $name, $tech)
+!endprocedure

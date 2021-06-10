@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Networking/ServiceNetworkWatcher
+
+sprite $ServiceNetworkWatcherXs [10x10/16z] BOk50G0X24LjvO77_jkUHVF3LqpGRnyc8EnJqNNRucGWWhgLc47LlCSKwyAczvH2PHrENkmsJapNlsAj5py
+
+sprite $ServiceNetworkWatcherSm [12x12/16z] 9Os50S0W30GBf2t_iVsdHG_YbXjNgkV1G1AstM37UjmLCpeSjWg1_zyLQiPNIkFDiooa0un4RRK8k4UjbQTyQh6t_2A_tvFqYBpSsvS9
+
+sprite $ServiceNetworkWatcherMd [16x16/16z] {
+HOw50S0W40FnVX9a_ssBL0vzppXqIRMFbqeiwcl2AD9OJp9XiBd1NTBKCCI1gdQgQOJHG4rJ9QLBX8oQDgDtBa3ig7Nc5-_cYfUPWRDvyZ567q22RTevX5aG
+3SkSM73E-RngDoenn5m_wL2b-c-Uo6SVy-C6
+}
+
+sprite $ServiceNetworkWatcherLg [20x20/16z] {
+PP1LWWKn2C1UEmB1Ul_RRaVNyXcSyHBkdZL-aCQ1vOya80YKUBD0SNNKU3BD45GKnUpgMLREACs1r-tIqiYGI2KjhZIPgEwY8k27agNtPS_KA2YFG_NFf4iS
+xkeNo-UWBKUvNgNqDajdkMYWVexLqxHPZ3_7sTBQqN4HCByNtgyPM-Jxbc8xTjbyl9HXY12_LOtV-7yrql-fyGK
+}
+
+!procedure ServiceNetworkWatcher($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Networking/ServiceNetworkWatcher', $name, $tech)
+!endprocedure
+
+!procedure ServiceNetworkWatcherCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkWatcherMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure ServiceNetworkWatcherGroup($id, $name='Service Network Watcher', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkWatcherMd>', $name, $tech)
+!endprocedure

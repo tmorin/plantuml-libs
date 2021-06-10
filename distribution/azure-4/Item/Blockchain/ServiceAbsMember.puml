@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Blockchain/ServiceAbsMember
+
+sprite $ServiceAbsMemberXs [10x10/16z] 9Kn50G103FhCZVvfJ-S201ZtmRKKPibpC7vcq_86zMaLOR68Dub7_aazpctyJtbLx4oDQnCrfsq
+
+sprite $ServiceAbsMemberSm [12x12/16z] JSY52G114C10P5txh_RrBDYGVYhLwZzdHFPNyUXDeciGIH_JHrPxJOGaPiFFT3_yVldzr9twswkVGbWz-wyylda3
+
+sprite $ServiceAbsMemberMd [16x16/16z] RS-r0GCn343HHepxRnlbc7xtpEwbCgi-2qPaFoIu9B4iLS8jqjcaU4O-9jh5kdeTO3LRFI79y3Jfm4_pXzVrTdNydywhLqwflEwlymUiddrM7hts0m
+
+sprite $ServiceAbsMemberLg [20x20/16z] {
+RT053e0m343HM5su_st9skBy-9jlcz9iU-K4G0yDWKhYN2O84qeM6S5LR-08ZoYMtH5PsYubKMrhRRaRhcNwCbnYzh2rq7vDtxPgevUjrndVpVeRKkaql_vA
+gSppyQTCqiiUUiaE
+}
+
+!procedure ServiceAbsMember($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Blockchain/ServiceAbsMember', $name, $tech)
+!endprocedure
+
+!procedure ServiceAbsMemberCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAbsMemberMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAbsMemberGroup($id, $name='Service Abs Member', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAbsMemberMd>', $name, $tech)
+!endprocedure

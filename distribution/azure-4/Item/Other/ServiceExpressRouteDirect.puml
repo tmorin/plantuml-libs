@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Other/ServiceExpressRouteDirect
+
+sprite $ServiceExpressRouteDirectXs [10x10/16z] BKkr0GH145ePD_glzlL8SA1Zy4TmFIgzy4ix9umbC3cGjIwxQELPXudL9y-zTry0eq9hoVTKThSq_l_Fxmq
+
+sprite $ServiceExpressRouteDirectSm [12x12/16z] FKs50SH020EES8BjF-rhMroJxWxlMygGJptdKuTxLCIthrEr8O9FzkW44IkEcSTX8WKCvhcOPIYFp6vNG8ZmGrq69Zb_s0yGpisNKTrl
+
+sprite $ServiceExpressRouteDirectMd [16x16/16z] {
+LKw50KGX2CK0b7B_RG_lDzsybHGMwqKnSBnpHwJuzEdJDp7n5UvdMsof27LatRccTMu0q6X6gEISxBGYaX0ET-SZHUHTKq60KZlsYinp8u3QQ-q5y7Z1dRAP
+GtpyL2RA7UXwOM2gcSgDMIVHi3Vi0-yF
+}
+
+sprite $ServiceExpressRouteDirectLg [20x20/16z] {
+ZP05beOm38IfPD8ezx_jXlxEinseVIz-RcMSTobmXq54wpziCTkDcRfgNgdoRQPskfehCuk_pA8smMYj3KZPNYQxd7QK1c5bFa8bFn4Hb6jbfiqdAl6rL7Nr
+GcrEejbHR4M45EkzJPhjW8fShUf-zpRA6iyQdGWeU9JvgyqK1h0JmS-NuM9GAqJwrRJmh3vOytiwfY9sd-rhBdy
+}
+
+!procedure ServiceExpressRouteDirect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Other/ServiceExpressRouteDirect', $name, $tech)
+!endprocedure
+
+!procedure ServiceExpressRouteDirectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceExpressRouteDirectMd>', 'Other', $funcName, $content)
+!endprocedure
+
+!procedure ServiceExpressRouteDirectGroup($id, $name='Service Express Route Direct', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExpressRouteDirectMd>', $name, $tech)
+!endprocedure

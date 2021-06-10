@@ -1,0 +1,21 @@
+' definition of the Item azure-4/Item/ManagementGovernance/ServiceActivityLog
+
+sprite $ServiceActivityLogXs [10x10/16z] HSQ52G11400nE5-T_gjzbs31vqLWzLCRv1odVcprMcg_Lqhfuzmy7UEVhDFyDq7bukm
+
+sprite $ServiceActivityLogSm [12x12/16z] TSQ53S10300nvHbp-qzRPh38Q4wh1iMxXScGmygzRaJ4RRV661UNnyNoSdrQ-P-70hMigZ82
+
+sprite $ServiceActivityLogMd [16x16/16z] bS-r0S0m4C10CppkFssOEUgkb2eZpA6eIlLkBh0gfJWNHY_TEVY-bEBWdApfYtbo3gxBfzbpDovxSrbAFrsgT8RTRWi
+
+sprite $ServiceActivityLogLg [20x20/16z] fSY53O103010UAkd-szBSFUBdxkRBfctHJ7C8hT79SrYJUr1MSZdXyUNUwiBLIVE1zC1bF4WnKvUtEpgwEdX0lovnEjhiRKdAsqr
+
+!procedure ServiceActivityLog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/ManagementGovernance/ServiceActivityLog', $name, $tech)
+!endprocedure
+
+!procedure ServiceActivityLogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceActivityLogMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure ServiceActivityLogGroup($id, $name='Service Activity Log', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceActivityLogMd>', $name, $tech)
+!endprocedure

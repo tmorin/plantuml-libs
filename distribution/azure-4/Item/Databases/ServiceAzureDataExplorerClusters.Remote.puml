@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('azure-4/bootstrap')
+
+' loads the Item which embeds the element ServiceAzureDataExplorerClusters
+include('azure-4/Item/Databases/ServiceAzureDataExplorerClusters')
+
+' renders the element
+ServiceAzureDataExplorerClusters('ServiceAzureDataExplorerClusters', 'Service Azure Data Explorer Clusters', 'an optional tech label')
+@enduml

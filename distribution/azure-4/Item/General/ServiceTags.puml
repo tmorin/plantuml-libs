@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceTags
+
+sprite $ServiceTagsXs [10x10/16z] 9SYt4G104CB0x3pGVxLl5Ur89tIFRgmAvqE6ML8unqxD3_TcXz-2cdY0f8g8F3XrFZm-R
+
+sprite $ServiceTagsSm [12x12/16z] DOir0G0m30INCFfNM-vDZxqfTw--qipOlrH1oISPYPOvaeYHuybbEDfL-23LzUJvccnqossUtBXQzQFyoWa
+
+sprite $ServiceTagsMd [16x16/16z] LSk73SH024JHIsGE-k_MoEEqNuat4eqg8X8dw5CkrA__RveAIJn8n29saOdaor9TldEIgJf0DCwX8Fp7WpNEbLsc29p1T_hm7CmCl0Rm6kBa1W
+
+sprite $ServiceTagsLg [20x20/16z] {
+NSe54WCX40NH23AspFrl6nn-klnL-wgOgff3AZL4RP9JGxp2HnI9SegPdY5bK8en4IL3YlGDb2zgKGX4YpYDY5ArGJdjsFtfT6NU48YBr-IVq6YI5wQLD49i
+10ZKK9Xv4A0sGhH3Fm
+}
+
+!procedure ServiceTags($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceTags', $name, $tech)
+!endprocedure
+
+!procedure ServiceTagsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceTagsMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceTagsGroup($id, $name='Service Tags', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagsMd>', $name, $tech)
+!endprocedure

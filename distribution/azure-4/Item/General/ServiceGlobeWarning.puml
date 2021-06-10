@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/General/ServiceGlobeWarning
+
+sprite $ServiceGlobeWarningXs [10x10/16z] 7Ko50S0m39f4eCR_rzRY0aWDoLx77YBC4qL2s6yEZ87u_i_1FTdxlRPlgkvkGKgLI13zY90uWpGgoj0rPdAt1G
+
+sprite $ServiceGlobeWarningSm [12x12/16z] DSo73G0n20D0fTc6jFstVOZqfqBdtkEYxRDkC8m1EFUz4-Xr39fd6xMr0LVchRJovwNKqbw-q9Fa-P84PJpnHnuKByEII8zkEalskcz0QaNo0G
+
+sprite $ServiceGlobeWarningMd [16x16/16z] {
+HOw50GGX30GFsuqW_NVx2MzpEaHFi5H4rzdpN0p06337IlNGtkD0AQ6R4QrrP4Ocp0otrX1ElpvARMLWl9reJwrF_SGNHqal7OwSgAE_4SCENq8I01rwrt5b
+e2PSeLje7YX2asq4uxQTbkpbr9zbXcRzt-LoCru
+}
+
+sprite $ServiceGlobeWarningLg [20x20/16z] {
+LSi73iGm24HHrm6RallVTZ7Pbg-6dfZhvBhMsXwNNU-K04pGzWtxfmWiu2HBQkFWOkYnZMZKDX5uFphVRwq7OY_oj_KwMXt0N6yZp1fMOesVjL9QBV7utbwB
+HYsbXzS9eJIbsTzD4goWyqYu8s5ecYsAalRafCqYYubunnTxcW9BL4qtpJV5bi-EpZRfhJ46QyelDs9x6YFZVrllhkm5
+}
+
+!procedure ServiceGlobeWarning($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceGlobeWarning', $name, $tech)
+!endprocedure
+
+!procedure ServiceGlobeWarningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeWarningMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceGlobeWarningGroup($id, $name='Service Globe Warning', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeWarningMd>', $name, $tech)
+!endprocedure

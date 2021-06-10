@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/IoT/ServiceLogicApps
+
+sprite $ServiceLogicAppsXs [10x10/16z] FON7OGH048EU6uI6_gkrBok0lpJQQfeuxPW41qPoi50v1vW1Jku-UdQI6vI76bz9_UKV
+
+sprite $ServiceLogicAppsSm [12x12/16z] JKt50GH137fEa43_rPxBnXLw5UUTuthIjRU5ZNQJVsszQh1vtgG46Er35CB0KQkZvpt7ZtfUTLu4oVZATPKx
+
+sprite $ServiceLogicAppsMd [16x16/16z] {
+PSzL0eH030FGlth3_M-x2Qmp_Zf-t19-XvLiTbVZh0FU7FICkd70LmE6jEnjxA-xvt8vTDeC6nvMD9fGI8PFXQv4Hf_xEpn0X-VfoKWveou390FGuNhlEsNz
+_-UM7W
+}
+
+sprite $ServiceLogicAppsLg [20x20/16z] {
+ZT35OSLG44FHdOT7_NSRASbdlEPZVlYshRu-x5eWZlmzmtY4iW3Sj3irawEJxZGkD1wN31yig_9a-sSxLRD_jgdNJdTNSJK0GRRLftwDzsx5t-EdidKlbpQp
+bAMPw_d_LdSsJfULU_pRCgXbOxJGVPVoYATZzMq_
+}
+
+!procedure ServiceLogicApps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/IoT/ServiceLogicApps', $name, $tech)
+!endprocedure
+
+!procedure ServiceLogicAppsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsMd>', 'IoT', $funcName, $content)
+!endprocedure
+
+!procedure ServiceLogicAppsGroup($id, $name='Service Logic Apps', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/Intune/ServiceDeviceSecurityWindows
+
+sprite $ServiceDeviceSecurityWindowsXs [10x10/16z] DKY54G0W2BmpwDX_MbluTaL0zSo4VKXn4xw4UDEolQeP8xPIIgqrc7ghwre6_vJHsxcJpZO1
+
+sprite $ServiceDeviceSecurityWindowsSm [12x12/16z] HSY54SDG3C3GDc26_RUDF-ledS8P02soGcWXMhdfk6aPMzJS01MR6HUlMH3XCqjllbjFPj1nwZDhNly3
+
+sprite $ServiceDeviceSecurityWindowsMd [16x16/16z] LSo53S0m34JHaYbq-s_RC9pm-Ki6aZ6pHhIP2LC-Y5agPYeg1udLGuTbUagqkqkx2zfJytbM_DvpIKM5lZa4LQNtUzi-bCFUWNXs89mTSVNkrNy
+
+sprite $ServiceDeviceSecurityWindowsLg [20x20/16z] {
+RSk54GCn34JHa1cs_svZqPpf3p-j0FJaHwd3QhL4xzp0M6eLyvv52hAT9KIrHtOZcOtaC9EeDibZ3Dv9ANDil_TSZ_JcldEeWwB_pG5be1_NZpQCSD-Dsh4Z
+F7VeDvj_lzVT7m
+}
+
+!procedure ServiceDeviceSecurityWindows($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Intune/ServiceDeviceSecurityWindows', $name, $tech)
+!endprocedure
+
+!procedure ServiceDeviceSecurityWindowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityWindowsMd>', 'Intune', $funcName, $content)
+!endprocedure
+
+!procedure ServiceDeviceSecurityWindowsGroup($id, $name='Service Device Security Windows', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityWindowsMd>', $name, $tech)
+!endprocedure

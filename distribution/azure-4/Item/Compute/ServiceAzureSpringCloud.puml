@@ -1,0 +1,27 @@
+' definition of the Item azure-4/Item/Compute/ServiceAzureSpringCloud
+
+sprite $ServiceAzureSpringCloudXs [10x10/16z] HKd50S1033gNm8Nzjos_Hb1uIC2JUlSo4n3ttcizPsUDtYf0x5PAgPTMjTHQWqmCjoT92UT0SgO43Fpd0m
+
+sprite $ServiceAzureSpringCloudSm [12x12/16z] 7St50G0m30B0kWH2zv-s5hqVU4NUOu1BRiPteSNHUvyK85ssbjkrMoifnP09SjPmAwPBpFmK2WZtbdEEoHpKGc-rsHAlbvlv-fRy9ufE4d_e1m
+
+sprite $ServiceAzureSpringCloudMd [16x16/16z] {
+HOy5WWCn30F3ACN__-qPhkqiHECmhaD6YtkWN7-1enKHUMUlGmrmnvh6sk4lTDJstA_ctcjEXUeNQxISZApB4LWzBESD4dSrrvBAWHu3f-TSQacfGytMRxsL
+N3e404MuvXXZGPEvSlS-JtuEHS91CkvZ0LPHORJW7m
+}
+
+sprite $ServiceAzureSpringCloudLg [20x20/16z] {
+JP050eGm30JhRPJ___QsoTbWcy4ML802C-ma9Y468gpA2M7m1xXy4oEbEdjl4eT-EuK9phvEuVoZLkjsdU1Cp6kDLgg4SrosPc-r5a1-6uZiFSg7ZLQtwLur
+HONBzd9cgjPAEN3AmYUkQnsgap2kyaVtw6Fq2h_T1GwTgQyvUkzps_E40x83WdexO0GKuUi0Ptgx_4F_oII9BqhCqJh0CJ5_0G
+}
+
+!procedure ServiceAzureSpringCloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/Compute/ServiceAzureSpringCloud', $name, $tech)
+!endprocedure
+
+!procedure ServiceAzureSpringCloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSpringCloudMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ServiceAzureSpringCloudGroup($id, $name='Service Azure Spring Cloud', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSpringCloudMd>', $name, $tech)
+!endprocedure

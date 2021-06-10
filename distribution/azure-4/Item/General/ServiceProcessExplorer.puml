@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceProcessExplorer
+
+sprite $ServiceProcessExplorerXs [10x10/16z] DOg70KD1249FXUl4_QVDxyykDBuqb1TScxcv4yKY46QaXyFiKszVZPSgQS-vpv6PlxMK5rhhNWy
+
+sprite $ServiceProcessExplorerSm [12x12/16z] FOg50S0m20IB4zz_sqQv2BoO1YPV86U7jmCW8n7ft8c9UFbADBrPkdsOs_OXq9mcxklFOz9AQUDIIwbdwsNJn_W1
+
+sprite $ServiceProcessExplorerMd [16x16/16z] PSq50eGW48NXALlX_hVTjqF3RtvAdEVH1GbtoN7GK35BUYGBoSPgo0qOOl_Fb62IvkDTULDYIlQdCgNM_MpelBqBfRVeFIYzDOUgyFxzbWyVu7t03m
+
+sprite $ServiceProcessExplorerLg [20x20/16z] {
+VSw53S0m30H0qpUSx3zjcUb4bjc_WTx0UwOR-S-ntd8yXc2ooROFGWPJ4sRM9QSmWG2ypYgpGCOk4jtsOLoX99sSxYunsyilVCx9oy-kkt4-nKKOhM5gYv96
+fIr-SZbDJebQbbJAfPu75ylu
+}
+
+!procedure ServiceProcessExplorer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceProcessExplorer', $name, $tech)
+!endprocedure
+
+!procedure ServiceProcessExplorerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceProcessExplorerMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceProcessExplorerGroup($id, $name='Service Process Explorer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceProcessExplorerMd>', $name, $tech)
+!endprocedure

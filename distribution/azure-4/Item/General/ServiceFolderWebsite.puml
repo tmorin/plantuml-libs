@@ -1,0 +1,24 @@
+' definition of the Item azure-4/Item/General/ServiceFolderWebsite
+
+sprite $ServiceFolderWebsiteXs [10x10/16z] JSU54O0m50JH6MuNb_whnI5vNsyvhTj5i9klV7tSag3NkP-su_wQ2ES5fULcfzJctm4
+
+sprite $ServiceFolderWebsiteSm [12x12/16z] JSV50O1G081G0-pOVrhZzpl1zRkZIPosU0B__eZ6p6as9LCTUkHlG529vfc9JFdPk1el
+
+sprite $ServiceFolderWebsiteMd [16x16/16z] NSbL0a9134DHffERukn_jJotdg_8hxZF7j-jeuY0V7qMB5JqAzcSAdVdQH2ZlEy3xOQ5znuDgy-_HZWLJhJnFMLqm7ijilWL0m
+
+sprite $ServiceFolderWebsiteLg [20x20/16z] {
+bSx7WGCn5CFGaKIGVzUf_sgTS_OxueJL4xEZnLK3ZI78xAgfRmce_zaH9-D2H-E9novS5SOrAc1VHm4YLReqnjG0XRjc9d5vmHBOqHKgcfJeMlqLjcuviNuq
+UsBrn0O
+}
+
+!procedure ServiceFolderWebsite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceFolderWebsite', $name, $tech)
+!endprocedure
+
+!procedure ServiceFolderWebsiteCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServiceFolderWebsiteMd>', 'General', $funcName, $content)
+!endprocedure
+
+!procedure ServiceFolderWebsiteGroup($id, $name='Service Folder Website', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderWebsiteMd>', $name, $tech)
+!endprocedure
