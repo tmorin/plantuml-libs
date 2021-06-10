@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonDocumentDb
+
+sprite $AmazonDocumentDbXs [10x10/16z] FOYt0S104C8ga-xsdzUVrO2KUA118fBhYIDXFPrOivaVNPuG68-oWTU6zhXo1jqrcEy7
+
+sprite $AmazonDocumentDbSm [12x12/16z] BSs55GGX40FGqudHVxrBU0JxkAs6pJO9NXUOOqtzX-hs1FPslDUbmG-AgUEfHpipmxjke0xFLzrSINzsirQQumS
+
+sprite $AmazonDocumentDbMd [16x16/16z] {
+NOu5WW8n40JlW4bByl_tCeBNRgHwOhO63lu9oh4IF5sBLSLwE6FyHeqZQmj0dx7zE1CHGN5lHXsbx6uXfSy-87UrmmK2CRw0pxfaPKiRDzIFf8gJ0P78XKu6
+ZOVp4zm1
+}
+
+sprite $AmazonDocumentDbLg [20x20/16z] {
+HSrN0iH020BGRI0wkVzvDqo9_FbiLPKdsgd6DcULZrg28054pmNtAfYvZO-XRGLSpMNf9wv2ierHNCzBF-BhKHleZoccVb_P1hqLAZ62EBPt0U4O5YOHnq91
+CcvJYDjoh3cGt7EAAgkKAvUHA_jNNiPxAgjp6NVQ3hRz0G
+}
+
+!procedure AmazonDocumentDb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonDocumentDb', $name, $tech)
+!endprocedure
+
+!procedure AmazonDocumentDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDocumentDbMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDocumentDbGroup($id, $name='Amazon Document Db', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDocumentDbMd>', $name, $tech)
+!endprocedure

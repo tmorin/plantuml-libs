@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonKinesis
+
+sprite $AmazonKinesisXs [10x10/16z] 9SY53G113CJ0noprN-zHB1fPAww0ngR5Qbge_w_2rl-jgjzHpDfHYI1hbLYsZvOF9m
+
+sprite $AmazonKinesisSm [12x12/16z] JOh50KKX0CE-rjX_tuT3JfMueWvvifWQCLjYW3ERmB_1kWl_N-FEgfbJaaeje3kbn4pISosTdazv
+
+sprite $AmazonKinesisMd [16x16/16z] NSh70KHH24BHIGQm_tv7_FdTtK6XSYyYC2sEwu6wMYBts8E7vStfxcRcxZ6s47-ToqmNBkFo_X-cngMxz-1T8glQuJYg6K1ojuQaEbqDDLw6Fm
+
+sprite $AmazonKinesisLg [20x20/16z] {
+PSk53GC134FHaYct_xvDYf7kYv_iPF8lTTcuRMXfPQAoRT3atbQZuOSQjmKI7fJqCya0YSU4jtacQ5fMKSFzRDssW1BNzwYI0v34pneBSgiy9JuQmy2fogUs
+kREcdmtAjR1byDkoZMDdV08
+}
+
+!procedure AmazonKinesis($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonKinesis', $name, $tech)
+!endprocedure
+
+!procedure AmazonKinesisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisGroup($id, $name='Amazon Kinesis', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisMd>', $name, $tech)
+!endprocedure

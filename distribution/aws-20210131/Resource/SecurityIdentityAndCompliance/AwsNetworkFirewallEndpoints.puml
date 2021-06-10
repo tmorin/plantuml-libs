@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints
+
+sprite $AwsNetworkFirewallEndpointsXs [10x10/16z] HSpB0S0m3CBG1H3ilstLVsBxSM9ReQ9IJEvDEs1Q2eau2KYxcgRilFAt_Cq7
+
+sprite $AwsNetworkFirewallEndpointsSm [12x12/16z] JOx10G0m10CNS6V_RPju5G38XWJg6nd22_S8ev5n6nWtD-ywH6Qq0bH9x9futDkDGeF_vl_hn_
+
+sprite $AwsNetworkFirewallEndpointsMd [16x16/16z] PK-50G0X41hW0VUVLg-_CAzX1MHO0u86i6BzORwOJB6zW3e3sQ0SbXIsefqP0kW7b_iGDiq4_OLJMMKhYgECj9tzM0ug_cy-Vxv_FM-z1m
+
+sprite $AwsNetworkFirewallEndpointsLg [20x20/16z] {
+RP27WKKX3CC681BxRtiNuj_HgwGPl8FgVaVgm2j4OL8yG-vWaT1-u-JDEyLs1MHI1xF6b4L0koG3MAUob_MFrQpLnSN4gC34vBHQQ3czsB4G3PYz8gCnVHqZ
+5bYtirqyk7frz_Jc_Hy
+}
+
+!procedure AwsNetworkFirewallEndpoints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsNetworkFirewallEndpoints', $name, $tech)
+!endprocedure
+
+!procedure AwsNetworkFirewallEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallEndpointsMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsNetworkFirewallEndpointsGroup($id, $name='Aws Network Firewall Endpoints', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsNetworkFirewallEndpointsMd>', $name, $tech)
+!endprocedure

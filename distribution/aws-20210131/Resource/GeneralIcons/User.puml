@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/User
+
+sprite $UserXs [10x10/16z] umS2FZuW0MO04OI1JY1a8HhuKDGX951OKC0F
+
+sprite $UserSm [12x12/16z] umS1FZuG2M424Om99d2oCTNpyW4Hr4082IEWDDmQT3OSy0C
+
+sprite $UserMd [16x16/16z] VOw30G0n5CKcUCd-qvvHf_Y6Ds01WV2Rr2afnDeUrnkK-DiNnVHREEnRrZMRmy2kK6jp1m
+
+sprite $UserLg [20x20/16z] TOw50G0m2CCkQFR_jNC7CiMROb25noMjUyCqJkRvSoNkR-YBQn7xkPqLyKdUekFQyqMVQpdFyoJyqpxjo-JtqNmV98y2
+
+!procedure User($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/User', $name, $tech)
+!endprocedure
+
+!procedure UserCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UserMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure UserGroup($id, $name='User', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$UserMd>', $name, $tech)
+!endprocedure

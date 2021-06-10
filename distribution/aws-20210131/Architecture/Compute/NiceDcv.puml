@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/NiceDcv
+
+sprite $NiceDcvXs [10x10/16z] BOl50G0n409FWlJVS5PvOIE99Q0SaBOSnbOrjTNff2DsjN1O3zeka9B7QfoTHW4
+
+sprite $NiceDcvSm [12x12/16z] FOp70SDG38KkQljF71wn_IkexUxyL_Uo-9HWTIamoVbuqaFgO5jgu3JQ05S1An-PpEAUqkdVKo3P9Vy
+
+sprite $NiceDcvMd [16x16/16z] NStL0GD154BH29St_JUy0j7bxy387F4xm5oA6eaKDO9dYypocA_XB8rukQSisMkzVJ86NZ_4ICyJ4sT_-ltBuIFc_KizO9HNLmjdZPlgxM-n0m
+
+sprite $NiceDcvLg [20x20/16z] {
+RSw73OGm44HHwIRizb_nEOp8d_m0spNpcKRrWVM1CG5WC6R81eBRgE6cV9hXZAd3n4maO5WlKmMvh4-pG2_hGOp8sueoB8AsOatW1pdpR-jCdCkseNIMFegr
+eK6iLQSYC2aMFEkpqpxm3m
+}
+
+!procedure NiceDcv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/NiceDcv', $name, $tech)
+!endprocedure
+
+!procedure NiceDcvCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NiceDcvMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure NiceDcvGroup($id, $name='Nice Dcv', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$NiceDcvMd>', $name, $tech)
+!endprocedure

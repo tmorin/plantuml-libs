@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/Disk
+
+sprite $DiskXs [10x10/16z] u-VdvmC280LaW0ae1bDyG8AN5qG2CIyV7mQB3y92w42OWZ0P
+
+sprite $DiskSm [12x12/16z] LKu30G0032jmz4zxs_xOY8pCPLI6mvIVd395n9x5NFwn6OjZvkxUc_VNnQ
+
+sprite $DiskMd [16x16/16z] ROy50G0W0CCIRFHFYxlB_s6X5jKmYnJDS73OX-o6G_PrzO2AqMA43ZTDwPxQha_-FgyUU8p7UyxtVlzp_ZS1
+
+sprite $DiskLg [20x20/16z] TP275G0X24Cdo6V_QQyOkn8BUNI85AY0MSD6GgfaSAhAi6TLpKheHSoeRWYWnbMTxATDLpuoNHwxrzXxaQolVTMUazcs7IIxCaS541bU
+
+!procedure Disk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/Disk', $name, $tech)
+!endprocedure
+
+!procedure DiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DiskMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DiskGroup($id, $name='Disk', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DiskMd>', $name, $tech)
+!endprocedure

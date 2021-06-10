@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2ImageBuilderCard
+include('aws-20210131/Architecture/Compute/AmazonEc2ImageBuilder')
+
+' renders the element
+AmazonEc2ImageBuilderCard('AmazonEc2ImageBuilderCard', 'Amazon Ec2 Image Builder Card', 'an optional description')
+@enduml

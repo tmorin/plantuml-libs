@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupPublicSubnet
+
+sprite $VpcSubnetPublicXs [10x10/16z] NOYr0G110C8wRFzz_yyj3IIviCSHgLueqIEDA9D-7bLWVQxFEVW1
+
+sprite $VpcSubnetPublicSm [12x12/16z] NOh50K0X34DFqVtt_Ix0gpVfIlAjbln-bIEVDtta_QOEcCUY8v-zPB_TFlRLtrnqPWS
+
+sprite $VpcSubnetPublicMd [16x16/16z] ZSYr0G0m30F1nYJjlsyOEt_mp5HelRJMCt2VvpZ8E8QhjTInh85eMxSDi7vUwsUQyNF4O_MHBZDMJ5G1
+
+sprite $VpcSubnetPublicLg [20x20/16z] hSZ50S1024JH2p3IVxznOtDC_YhFFoH00p6haesKN5tTrhkPc5fAwgRCoDmktQQZPbQkLpTKOJH6S3G3VXdPBN0KbnbN_jeC
+
+!procedure GroupPublicSubnet($id, $name='Public subnet', $tech='')
+  IconGroupElement($id, 'GroupPublicSubnet', '<$VpcSubnetPublicLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupPublicSubnet>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AWS_COLOR_LIGHT_BLUE_BG
+  shadowing false
+}

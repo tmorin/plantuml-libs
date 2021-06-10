@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupPrivateSubnet
+
+sprite $VpcSubnetPrivateXs [10x10/16z] LSOb0G1000GmTTG_y3DEBHzxHrgbpH5HeiPCUarQwyOyv541
+
+sprite $VpcSubnetPrivateSm [12x12/16z] uyG3EDZOE61iDY222RDo015Kc1q8s61As8086vk30yu60pns0W
+
+sprite $VpcSubnetPrivateMd [16x16/16z] ZSUt0SGm00B0VziWs7zWvTZfklCTwIYphI67OPsonTKF93wEGnN6QIE7wmAqtwIFIzl12kFgV241
+
+sprite $VpcSubnetPrivateLg [20x20/16z] hOnL0e0m34D_siZzBunBs2TxC6l44n0f9soWcRFMQkrCzYb4L2iHhgfUMOzeMyd6tfwRa3EiV6Ug6dnURSECp5c1EwXdHfpGVra
+
+!procedure GroupPrivateSubnet($id, $name='Private subnet', $tech='')
+  IconGroupElement($id, 'GroupPrivateSubnet', '<$VpcSubnetPrivateLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupPrivateSubnet>> {
+  StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor $AWS_COLOR_LIGHT_BLUE_BG
+  shadowing false
+}

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonElasticsearchService
+
+sprite $AmazonElasticsearchServiceXs [10x10/16z] 5OY74S103CBIQFR--uQN2pfINAIKHdME090d8WdIusOhrKGObFSOFYerYAspOqjEicLAyWC
+
+sprite $AmazonElasticsearchServiceSm [12x12/16z] 9Ssn0G0m20B11Y3g_lj6zQkZ8hgtsN73Ct9DkbVs44NGByEIrOqb4_3Q4X-fjpQrhhQQK4IbsCCUrvr5Lrrk4Hy
+
+sprite $AmazonElasticsearchServiceMd [16x16/16z] {
+NSi7ZeKX30DX5UnnuFxttOHzVVxwMQAcF0BgzkiAvWxxuIL1Jti6PB7MydKYv4Y-HbBSuc4ShUvjfB3ywMhJFZiPpmbJEQUjlgTKjR6GmVykmxrhEjF-x_fd
+-0C
+}
+
+sprite $AmazonElasticsearchServiceLg [20x20/16z] {
+LSg5TGKX54NHoBKtqt-_mVCv-5xKA2UtwiBBhf_FGG5UjZ4GP7T-1aOIGlu2nmo18UXb9iMoR6aRrT1eASSY1qIRbub809cVnYekUwUPaB3jVHJBRE6tOTMm
+Qb8Y1I9LrIrgHYKXFEmLq2O9f5BJdbwrsTUothFxjnl_
+}
+
+!procedure AmazonElasticsearchService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonElasticsearchService', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticsearchServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticsearchServiceMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticsearchServiceGroup($id, $name='Amazon Elasticsearch Service', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonElasticsearchServiceMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonKinesisDataStreams
+
+sprite $AmazonKinesisDataStreamsXs [10x10/16z] BSY73S103CF0LCcqzzytUdo8TY2falqZR4gRZVM-afVU9sc_s3LTMXGp6ET5JMCJnGa-
+
+sprite $AmazonKinesisDataStreamsSm [12x12/16z] HOi53WD0409hsEx__rkkEX5W4bByGlftQrhvMJCXzUaHYOFgJJmEtzv5jqja-ztU3ggFXxBRznXt9DjHuhH_HcUU
+
+sprite $AmazonKinesisDataStreamsMd [16x16/16z] {
+NOm54WCX40Ihiep1__yRB3edqBsI5Tz8oaTyM9-6lghmUwHFGS5VR980I6epjB3DS74t5tmuc-VtxjVghohROzKfi81YFCPaCMf4OpAsI4zhZzBa9SvMEekN
+ECdYF_44
+}
+
+sprite $AmazonKinesisDataStreamsLg [20x20/16z] {
+RSs7ZKH120DGtO4DpFJVxvgVavNG8zMIF19ANV5gJHSTYp7gQer9NcU7C94UmgiL8k3KzSDK0YIyWzMoHm2_sgWGsAS18gvMq2xXD3DFPUf75a26E-mFRSA1
+vRC1X6Vb51OBAeqEjwoIzJfrLc3_gBR6M7-vizfMNDDmcF32ymD_
+}
+
+!procedure AmazonKinesisDataStreams($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonKinesisDataStreams', $name, $tech)
+!endprocedure
+
+!procedure AmazonKinesisDataStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisDataStreamsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisDataStreamsGroup($id, $name='Amazon Kinesis Data Streams', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisDataStreamsMd>', $name, $tech)
+!endprocedure

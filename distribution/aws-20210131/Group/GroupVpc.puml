@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupVpc
+
+sprite $VpcXs [10x10/16z] ROYf0G1038DS2Tr_ttjjOmBqE8EVY3mMYvSnLSeZU7G1Oa_R
+
+sprite $VpcSm [12x12/16z] VOkt0G0n20ChGAVzztMsk_yZ1_a7U6qDpgGobMkYO7JhL79bOcdqeyoUyeZ34XpyIGS
+
+sprite $VpcMd [16x16/16z] dOgr0S0m40D3Bzf_tp2rzZN2z63x7mM0NsCe9lGqP283k0gNeYg7yFCkBCS9Fl9n8PZaoev5tlPulIW7Vaax6m
+
+sprite $VpcLg [20x20/16z] jOv55e103CKsjT_x7vW6X_q4nl9glGP9VnFkdlggaDXUjfo7YBrT9B4r-1MPLWIPvkhLK9nbRduzo2GsLEEuN8uuVnpXQW7Dxu8tppHwqGlO
+
+!procedure GroupVpc($id, $name='Vpc', $tech='')
+  IconGroupElement($id, 'GroupVpc', '<$VpcLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupVpc>> {
+  StereotypeFontColor $AWS_COLOR_GREEN
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREEN
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREEN
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsThinkBoxXMesh
+
+sprite $AwsThinkBoxXMeshXs [10x10/16z] BKe10WH12BdR3Vx_ubLbfWAIs02Q0KsRrDjSgY2S5WgX31lh632UnPg-WxxD6iq-
+
+sprite $AwsThinkBoxXMeshSm [12x12/16z] HOg52S1G34I1dEq_SNy4-f1Jsrf8_s4zYXsUAn00snDDbPHvO5w9-b0OZsDwDaKh3mFo8qsRyN_w
+
+sprite $AwsThinkBoxXMeshMd [16x16/16z] TSW93iD03CD081Bj_F_5rTRPtYNEOQVQ0VqnUWRCk6mVdX6K3BR5sFAIhSk4aOxuFBiirnfi9wHjoGcZiOcmDJvh2L1rnoja-jwuAnpl_lW6
+
+sprite $AwsThinkBoxXMeshLg [20x20/16z] {
+RSu7ZW0X3CLG2Vk7kV-9bud8TgkXHyj-gwzosl_W_WV70XaSGrRT6hGK8ndZb4IKQqM8O63bs7EG12lEcy-BqkoYsWwMHY9ysJAemJ26ZGI_BFQQjQXzx4Mp
+OrBQinrgNeHzUsvzPcmQ61iT-mS_
+}
+
+!procedure AwsThinkBoxXMesh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsThinkBoxXMesh', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxXMeshCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxXMeshMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxXMeshGroup($id, $name='Aws Think Box X Mesh', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxXMeshMd>', $name, $tech)
+!endprocedure

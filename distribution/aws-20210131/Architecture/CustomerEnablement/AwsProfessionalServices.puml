@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/CustomerEnablement/AwsProfessionalServices
+
+sprite $AwsProfessionalServicesXs [10x10/16z] 9Sct0G0m20F13bwFzv_NwIe5pS5n4ar-wXyLX8GnrPLZ1BeuAMZTE1nz_pLgGDUQmsC3
+
+sprite $AwsProfessionalServicesSm [12x12/16z] BSUn5GGn4CBGo0DejlzwpxopeYz8SmEAF7iqdNeIAtccZXTyT9pRRYHhb5g1kLqZGFRVxHoHRniG-Dwq7m
+
+sprite $AwsProfessionalServicesMd [16x16/16z] {
+NOvN0iKW3CFUIcm7xd_UPynVrIcrZ1bTU9b762Ds8-4w2wnEY3Sb5HFYckiEomwSCJfmEQYgVbHO3jrWTwTOaKtWLumBOtxbWkEuUsZvFCu--FVgaVOoOo1o
+HZiXBUn7-0C
+}
+
+sprite $AwsProfessionalServicesLg [20x20/16z] {
+PT056iCm34FXWK5IUl_pplvIT_JAVpcIEE5CrPyDOdGCRkRuDaiYh92NHR3o_BBQa1dinbA5CRPM7pf46BWhg_BfzaoELKgFp734M1DLCPuvHbSNRcaUsmAh
+pPs2dUOj--NfF6sNvfL47clDq7WWedUFmfskZesZOtzNlW
+}
+
+!procedure AwsProfessionalServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/CustomerEnablement/AwsProfessionalServices', $name, $tech)
+!endprocedure
+
+!procedure AwsProfessionalServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsProfessionalServicesMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsProfessionalServicesGroup($id, $name='Aws Professional Services', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsProfessionalServicesMd>', $name, $tech)
+!endprocedure

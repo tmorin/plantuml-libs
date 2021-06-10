@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/SslPadlock
+
+sprite $SslPadlockXs [10x10/16z] u-Vdu-S38duW0mB0V1W6SS0KWWMMG2Y1alpeEe40HWC
+
+sprite $SslPadlockSm [12x12/16z] DOe55G01348B8FtJdlmzfbYRDk4rMI7jN8GGuyGzlFIbx9Cw0R8CG_6dKzFw0W
+
+sprite $SslPadlockMd [16x16/16z] PSw50O0m40F02HBsdnOvl4tx4a6M2KttYePIjEupCZrMn9BIgrswcBs1AzFllL-H83hdtcxkIlgLn4z5yeQ8huaQO4TkF6m3
+
+sprite $SslPadlockLg [20x20/16z] {
+ROs74GCW4CCciBB_j2aoJlVnJGR-yby9ooGYGfA0Hz_CesiE3QsiQJGBpKjpJJW2QEmogMnbvr_tBMJktQ_PrZB1c5p6OMvbhFLeRuIL27E6OQsOvMbucdYX
+6m
+}
+
+!procedure SslPadlock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/SslPadlock', $name, $tech)
+!endprocedure
+
+!procedure SslPadlockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SslPadlockMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure SslPadlockGroup($id, $name='Ssl Padlock', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$SslPadlockMd>', $name, $tech)
+!endprocedure

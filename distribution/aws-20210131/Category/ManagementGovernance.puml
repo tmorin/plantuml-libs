@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/ManagementGovernance
+
+sprite $ManagementGovernanceXs [10x10/16z] NSQt0GCn3C30XW6Wzj_NLgZ-gcFh3NrJgp9ph-klF-lUOsy3PzvchL4GnmD-
+
+sprite $ManagementGovernanceSm [12x12/16z] JSUt0S0m4CF0wXda_VSrbONgG2NEP5kzPQ8AY9k5c2MweLUQPW4GkYdoDRlbJzqq77yj1DYTIRObzph47m
+
+sprite $ManagementGovernanceMd [16x16/16z] JSUr0S0m4CNGnf_E-yyRKqYLdcpzSsO-lSv--x7O6XguNDCG0GZoCWbEouzDISHhDQvUMnR5m8z5FEu5hSZmE9OycyvqxsNkaELPvSdfgzejA_wd0G
+
+sprite $ManagementGovernanceLg [20x20/16z] {
+TSY5eG9134NHBtcsst-_P0I7EvgZJsNatSqUzSL4QkCIuBzGVUv62bKjHRSTHsnA8ccZpp0NLgLbRgD9gU7HL22X9uiTDoZDsmIW_lba6JdJCYtObSDfvzbg
+PTMMjedWghojDPwfwMQxbYyctzFk0W
+}
+
+!procedure ManagementGovernance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/ManagementGovernance', $name, $tech)
+!endprocedure
+
+!procedure ManagementGovernanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ManagementGovernanceMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ManagementGovernanceGroup($id, $name='Management Governance', $tech='')
+  IconGroupElement($id, 'ManagementGovernance', '<$ManagementGovernanceMd>', $name, $tech)
+!endprocedure

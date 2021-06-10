@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/General
+
+sprite $GeneralXs [10x10/16z] BSQv0G0W30En5fzDzj-MDweqQOK0IIDsB87EB1YwGzVTEUOkW23E33Xd-4AfjDe
+
+sprite $GeneralSm [12x12/16z] FOlL0S0m448_YnpD_jEsyHSv0LvVci4EEa_CiZL0h38xkmTjFgkdHcBr_SWqUn-DyEoT4Y2lFga1qvCJ4ccvj1y
+
+sprite $GeneralMd [16x16/16z] NSUt0SCm30J0IWO-GDn_MpCeNtUjdlQsRx_R5gt2cjXXtdDYjsuXC-ypAI5mFiOPiLw6a0ccpjk0z3pfwoMmIqevNsO4vFETvEwy9wb_Ztn0-_e3
+
+sprite $GeneralLg [20x20/16z] {
+RT053WKX54FHs3nfIzZ_QiVGBpT-SEg__B3MqMEjbdZBdk4sY3qyUJFf1N8QNmlt03TZUfBfiLbOsyySY64HRPwJq_f-c5Pkap98nB9yBBLRoPHmMsmc138H
+oMugTqgpfAJDYdZBRarRhsNxgVslYAzA_TS5
+}
+
+!procedure General($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/General', $name, $tech)
+!endprocedure
+
+!procedure GeneralCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GeneralMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure GeneralGroup($id, $name='General', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GeneralMd>', $name, $tech)
+!endprocedure

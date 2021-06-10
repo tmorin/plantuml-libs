@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeRule
+
+sprite $AmazonEventBridgeRuleXs [10x10/16z] LSG70S8000D10-JUlresjBsCpj3RIeesA1ytJB_VLafOLUZg0G
+
+sprite $AmazonEventBridgeRuleSm [12x12/16z] PSn50S1044DH0viN_shBt7yP2FI3QmlYUjCSxoGjsrKXWqWBGziSPolWBkrvgFwO0G
+
+sprite $AmazonEventBridgeRuleMd [16x16/16z] TSr50GG03CH00vl4lzfZXdcLsqz-92iU-OnyvFVGMON5jhoaYT0rcrMjkDWKN7d1p8AI-xmqcFLueuRTIUGUEO_kW_rn1
+
+sprite $AmazonEventBridgeRuleLg [20x20/16z] bSstOKG150Am0Gne_sbzELTVtOiufcFpKXeoBwdLuatZOfQwsB2USMzfCccRGkTY6XWquoAptFs5filOJHDQqj_RPJHl6QdcR9wQwNFx9PJ6Iqj6lMnqZZe1
+
+!procedure AmazonEventBridgeRule($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ApplicationIntegration/AmazonEventBridgeRule', $name, $tech)
+!endprocedure
+
+!procedure AmazonEventBridgeRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeRuleMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeRuleGroup($id, $name='Amazon Event Bridge Rule', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeRuleMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringXs [10x10/16z] BOp70G0W30BVQexRVrfxUW4CjGsbecUL0Td3C2HrqXsonw5xEdFdJMRaJ-m9r33Gfrmk
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringSm [12x12/16z] DOxN5G0W20F_3GVxRsjYYOLxz9ckY3R9na8CiYCgnNybSyN7790PLMEEFzwrcFgryJ-M6yBpcrjlbldl0BC1
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringMd [16x16/16z] {
+NO_50K9134JFZFRVBJiVvwt6anxYYtI4fCPvVMGeVMAu-SYPN718koSpJK8dBPzdMNRp75q_aqhcxoEFYBWXDVj2gvMFRAJVCgdT-PFz52DX3zxpG1snPQzs
+UmS
+}
+
+sprite $AmazonSimpleStorageServiceS3IntelligentTieringLg [20x20/16z] {
+JP3BOK0X3CFEM7ROVzkMy9gY4mZotKrzx8yA-WEtZkJiIooTCzH-i8vJ_cLPr_q2ZW6fdTcLn299RNFoiXjk8ViutKnIIzoNclHKYNDjrmHfBQuRYjKVyQZ9
+vDTvSQHv74mp0xTklIw6TcIC45thsMbExEpUT_V7_
+}
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTiering($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3IntelligentTiering', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTieringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3IntelligentTieringMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3IntelligentTieringGroup($id, $name='Amazon Simple Storage Service S3 Intelligent Tiering', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3IntelligentTieringMd>', $name, $tech)
+!endprocedure

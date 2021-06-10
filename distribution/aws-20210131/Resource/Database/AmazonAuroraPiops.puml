@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Database/AmazonAuroraPiops
+
+sprite $AmazonAuroraPiopsXs [10x10/16z] u-U30du-VYZW8ul52mP05f372q88am4
+
+sprite $AmazonAuroraPiopsSm [12x12/16z] u-U30tuWWW8G3muePVFnWW4VX0tdm6pcvKDs0m
+
+sprite $AmazonAuroraPiopsMd [16x16/16z] pOz70S1048GC7E1VRNfN4BREa_91nOka1_YBpCR0Au-jERA19lZr-VhE
+
+sprite $AmazonAuroraPiopsLg [20x20/16z] rP050S0m4CGCN2x-rOvvCx2K-_n-GRWHDFL6e_W0pL__shhDumyIvYrS_WXT_ilM0sJ1mjQhm-MyvxEdNum
+
+!procedure AmazonAuroraPiops($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Database/AmazonAuroraPiops', $name, $tech)
+!endprocedure
+
+!procedure AmazonAuroraPiopsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPiopsMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraPiopsGroup($id, $name='Amazon Aurora Piops', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPiopsMd>', $name, $tech)
+!endprocedure

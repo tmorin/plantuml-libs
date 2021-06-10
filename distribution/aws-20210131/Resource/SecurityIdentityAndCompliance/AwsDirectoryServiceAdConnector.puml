@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector
+
+sprite $AwsDirectoryServiceAdConnectorXs [10x10/16z] JKk50G0013j0_V-jPjh2C4Jcq8Y1eWQAbfWg2MlS4ZC6jos0keRDFJO7
+
+sprite $AwsDirectoryServiceAdConnectorSm [12x12/16z] NOo54O100CCMQCB-qmBlqhDSxRc46pBm9ndsQbNFGBMR_tjK6mD8Km9ZhpX-_UsXOdu
+
+sprite $AwsDirectoryServiceAdConnectorMd [16x16/16z] ROu50G0W40CBt4R_jBZ38UyIVbYd3OT32dWFdnLo-pgc_vqU0UGrIt9MiuvxUd6H5HUA3Ysfq-sriMowlVfDrETT9
+
+sprite $AwsDirectoryServiceAdConnectorLg [20x20/16z] {
+TP250S0W40CNoANxJrlSuQf0ylQziSyjwTWJOjj2KRcvqvhL3UsWqMpMag1zctASemYUPQKSbdnfOQU4RkbCSIUD5d0IkK9QHfgnfRVOobGvOfqNFkPZMYid
+0G
+}
+
+!procedure AwsDirectoryServiceAdConnector($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAdConnector', $name, $tech)
+!endprocedure
+
+!procedure AwsDirectoryServiceAdConnectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceAdConnectorMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceAdConnectorGroup($id, $name='Aws Directory Service Ad Connector', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceAdConnectorMd>', $name, $tech)
+!endprocedure

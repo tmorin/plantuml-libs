@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsNeuron
+
+sprite $AwsNeuronXs [10x10/16z] BOh50S103CCAYQdxxziZlGpIW0F0be0HHoAwUsGBhCA84MhGPCn-ty9CnrFYqKVGbqIoHven7lm
+
+sprite $AwsNeuronSm [12x12/16z] 9SU53GC13CNGmiTq_tsRw2nwpkLDKdk-7elaJMkQ56Mtie0TUoe2-E8yCZuVY3a7cvdCH4f89x-PMbgjTwRN-UQvFm
+
+sprite $AwsNeuronMd [16x16/16z] {
+LSW93WCn24DHAM0RwFtlMujqzIp9-xNJZbxtVxWMSOFjm0II6sm1-swneM84nRJ75f3UzJGO2BzukpBFYTJRpOXpd5Nse1XYG5bLTX7g9Y3xCLw1NDaRMkhs
+R8VTs_-Xdm
+}
+
+sprite $AwsNeuronLg [20x20/16z] {
+JSe9ZeL024NHfE0DsFlVRnSIVhnQqmdbIHExghN5jI-s3JAJYzLPLtxwcf4KKepHfgJD25g8drtAU8U2rvxdcZ8KqQEfDRw04nYxY496n8bKoclEE2T2_beS
+u8pPRKbd-YuntTP8q5LcmjtVqncGxggnYwlLjItMrZQulBQuW_y
+}
+
+!procedure AwsNeuron($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsNeuron', $name, $tech)
+!endprocedure
+
+!procedure AwsNeuronCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsNeuronMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsNeuronGroup($id, $name='Aws Neuron', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsNeuronMd>', $name, $tech)
+!endprocedure

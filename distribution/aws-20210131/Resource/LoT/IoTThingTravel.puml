@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingTravel
+
+sprite $IoTThingTravelXs [10x10/16z] HOor0G113CFwanNlF-qpg0aOMY_QoeML4HEK0FTM4U_VWkidkBpLD8D_oz-y0m
+
+sprite $IoTThingTravelSm [12x12/16z] LOx50G1130B_P83-kpsNZNjewvEwKz3i9DBY11kevPcZW-pPOs1tUvozbpjcdn5wucCkUwnqPfV8nO7OPldrnx01
+
+sprite $IoTThingTravelMd [16x16/16z] {
+PKz70W8m23itY___rWWtJSlUKpWBpy4G2-4S95YigEalYpoMMGv4v6EP0DVmWmYQfX8ovYeUCjacWWFwx0eGuZiRV51DQlDrlbbI3CpuiQG1lFk4dZXJSVk2
+HTd_FR_tVW
+}
+
+sprite $IoTThingTravelLg [20x20/16z] {
+RP1P4iH024A_vO7U_xPJTisUaFJk0ioYzplJlD0AWH2zBaqX94JXMLZ-Who9-EGxqtPCJwiy9YfQabtg2KwLL8B69jF8GIHsex4uSLjKp6ojLzpsaBmnsRYz
+QniXKkLdBgU-f1IlN8A00UMhHxPSwnMdsXxihCgur4zjnv7ay7bv05yUt7Xrw-cTzmy
+}
+
+!procedure IoTThingTravel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingTravel', $name, $tech)
+!endprocedure
+
+!procedure IoTThingTravelCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingTravelMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingTravelGroup($id, $name='Io T Thing Travel', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingTravelMd>', $name, $tech)
+!endprocedure

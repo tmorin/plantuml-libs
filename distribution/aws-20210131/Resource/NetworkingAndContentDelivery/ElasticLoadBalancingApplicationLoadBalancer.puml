@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer
+
+sprite $ElasticLoadBalancingApplicationLoadBalancerXs [10x10/16z] FOp70S103C8MC6Z_RQDSaqrv0JGfAojsWbMZ9M86CZPKfpxH5xKVrignj_m1
+
+sprite $ElasticLoadBalancingApplicationLoadBalancerSm [12x12/16z] LOs70S0W3CCUi9J_lwsxGP2zfb3cGYnukvGhuF_uzdiDaTo-TJLSlWaaoa0kxX6VA_kj0hTt
+
+sprite $ElasticLoadBalancingApplicationLoadBalancerMd [16x16/16z] PO-50GCm2C0UICZ_rqxAVAdYq65kz49KSQN1EQ-SbmaK6oejgzm_rSPND6xe9d6EB80lMIZmAICpI3cHi1YbRrahd0uZvy6LPVxd-Ptt2W
+
+sprite $ElasticLoadBalancingApplicationLoadBalancerLg [20x20/16z] {
+RP275KGX3CC6EDdil-t5UVaTqKNF6boiEnQDBgqPM6WK-0HcbQk4hEgLnkNJw_eQIYwwcoh-sfk5oS66UI1kTwsxd7ieyEKefkuBZjT9NI_JTyElSWeSZuGB
+pzjI3vueW2_5DbRxcEvY_mS
+}
+
+!procedure ElasticLoadBalancingApplicationLoadBalancer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingApplicationLoadBalancer', $name, $tech)
+!endprocedure
+
+!procedure ElasticLoadBalancingApplicationLoadBalancerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingApplicationLoadBalancerMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure ElasticLoadBalancingApplicationLoadBalancerGroup($id, $name='Elastic Load Balancing Application Load Balancer', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$ElasticLoadBalancingApplicationLoadBalancerMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MediaServices/AwsElementalLive
+
+sprite $AwsElementalLiveXs [10x10/16z] BSP70G0n4CImAnbx-HDErqigIoBaC4jhZJbWhSX1oJhShTP4dDRqxdu
+
+sprite $AwsElementalLiveSm [12x12/16z] 9SQ15SH020BHkmGO-wyuF9rTzGEvxELbekjrI8TOMZiTrqEr9JCGgKeTLwzTDwm0TQDiit6-rXy
+
+sprite $AwsElementalLiveMd [16x16/16z] TOp50SKm5CC-cFQVk2wpRdAKvw8LahuCYt16TMpy8TMdJrCnkyxEKv_re6OI5_LLNfmjvTQOFDr1_Jdt4sOB5sKTFBFwIbPUV
+
+sprite $AwsElementalLiveLg [20x20/16z] {
+RSq53iGm34HHgHx8_K-yusYjuY-_1jpfZCaVw3UsiSCKZ1Kk7PJQj1yIKur1JgogqywsBHjrJR7WJjIqWhEOxB5-OG15SWofR1vv_YtgE8lkslxAGxFR6XGy
+hHDFE_6qizC-y0S
+}
+
+!procedure AwsElementalLive($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MediaServices/AwsElementalLive', $name, $tech)
+!endprocedure
+
+!procedure AwsElementalLiveCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalLiveMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalLiveGroup($id, $name='Aws Elemental Live', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalLiveMd>', $name, $tech)
+!endprocedure

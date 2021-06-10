@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonCodeGuru
+
+sprite $AmazonCodeGuruXs [10x10/16z] 3Oo50SH03CCU6Zcm_xwL3e9sImHcp2AOXOB432YRExQgCDln9sss4HtCvdbQXpDDPinCRSiB
+
+sprite $AmazonCodeGuruSm [12x12/16z] 7Sl50GCm0CF0eY7TVz_AqUiSo399QkTrxKYMZUilOS-Iha-ZxnBUiEK4dohvXWxnMVCFv_D9Y--0CuEw_W
+
+sprite $AmazonCodeGuruMd [16x16/16z] JOj70WCm2CCk39l-_xz5T2fJZgEZZrhi_-3drO1RBTKw4Uwkp8p46rVIZ8QXdqMZpiUyxIJ0XtvrPqlduog99PsFKieMd3iZKiOV0xXj_09-Urad01J_1SSJ
+
+sprite $AmazonCodeGuruLg [20x20/16z] {
+PSX90W9124DHXv2GzlxtjJ75obyZpvsKEDbhwTWVUf5Sf2Sf5ZzMn1sBcloBK8i8nHgIYaJikcm916ikhd6iE5QnKKWpeU_ML3E1QvDBjj1fhSYgjTHr9yS-
+nzx0k-tOGGBbQMpHsrXmUMtH1xy
+}
+
+!procedure AmazonCodeGuru($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonCodeGuru', $name, $tech)
+!endprocedure
+
+!procedure AmazonCodeGuruCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCodeGuruMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCodeGuruGroup($id, $name='Amazon Code Guru', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonCodeGuruMd>', $name, $tech)
+!endprocedure

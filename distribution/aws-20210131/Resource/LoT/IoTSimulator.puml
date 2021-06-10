@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTSimulator
+
+sprite $IoTSimulatorXs [10x10/16z] NOkv0G0X3CDgOWNjl-q1wSwLFwdGFj6TtiTigC2no5fuB9B2i_SnbO5IYVxSiUCWg1y
+
+sprite $IoTSimulatorSm [12x12/16z] JOpLOGLG34A_W-w_RUdpSoKARIEvJqARpYENEHuZCpXoqxLJuB3aaPDWkniAu-KLWCoIHtx4EwT--hnxvTNe-0C
+
+sprite $IoTSimulatorMd [16x16/16z] LSv70e1024FHDVa1xtzROtTYVJ1jEzBTitq1etxPp8mPtwOj8TidhN4LUEHmc9IgWd4AdSSYJe-Op-RS3LKYu3p5j4dydIbzbB5_ypDE_eOgVPQqkC-Slpi
+
+sprite $IoTSimulatorLg [20x20/16z] {
+PSjP5iH024BHRm5n_xlj9fKvBsFTexEoFSyQgUzao6FYFagukmNrDOisKDacbsJ9g9BofMD2Jwm0JnF1FrssZWF7f5eZt4mnOCqPiGR5sg88JRB4FIbJAs5B
+SqjPvDVmDafgFWqYgbv6riU0jtbldNu
+}
+
+!procedure IoTSimulator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTSimulator', $name, $tech)
+!endprocedure
+
+!procedure IoTSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTSimulatorMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTSimulatorGroup($id, $name='Io T Simulator', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTSimulatorMd>', $name, $tech)
+!endprocedure

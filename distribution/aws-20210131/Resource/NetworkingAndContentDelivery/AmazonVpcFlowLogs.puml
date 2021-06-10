@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs
+
+sprite $AmazonVpcFlowLogsXs [10x10/16z] HOm70G0n308Dv0x_Qd-s9Ni0IGJpTTLtnW4a-a-Ap6lGgTyogbBb6m
+
+sprite $AmazonVpcFlowLogsSm [12x12/16z] JSr70G0W3CLG0-JNlrl2vbsWkuHg2X6Ptsa6L1FuCVIZ2eIsmF__UxxPV-T_QuBrwm
+
+sprite $AmazonVpcFlowLogsMd [16x16/16z] PO-50S0m20GNu9xzfstSlXV58Jkgv8QW4apR-X3T9yH0YgObem6qVrPT5nY2o6r7g6xYy9FTt_DvFU_7-_LvVDu2
+
+sprite $AmazonVpcFlowLogsLg [20x20/16z] RP275O1024C7k9-m_xOApsw-NgD37NYddbWCkiKw7XOwH72f3OULnO5hBDqNDE1vbbJ5ej7rzaGS-cxwRnc7dLIqZYUBB4k-8KUg9TKSUWipYBFACqsptm
+
+!procedure AmazonVpcFlowLogs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcFlowLogs', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcFlowLogsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcFlowLogsMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcFlowLogsGroup($id, $name='Amazon Vpc Flow Logs', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcFlowLogsMd>', $name, $tech)
+!endprocedure

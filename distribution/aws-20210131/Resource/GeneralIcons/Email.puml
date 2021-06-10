@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/Email
+
+sprite $EmailXs [10x10/16z] uyS2-7ZvG012WGGWD1JnWRaW2Y6B0DZC0m
+
+sprite $EmailSm [12x12/16z] uyS1-901BnzKa1V40tEW31GC130QOGWlmX0aG_bn0G
+
+sprite $EmailMd [16x16/16z] bOg54S0m3CGcaBp_jZsLsyCeO3_CAk0DZF3FkAKnOgfXkk2GfnQKMsSTTZh_uExTb1atiye6
+
+sprite $EmailLg [20x20/16z] hS-54S0W58FX2V9d_srxUJNqb5I03_VfQ4eCDw4CqHAnb0svBFC3J_cOrVmVGnBrUoo42H3SxI4DLwWVJSgOujEv
+
+!procedure Email($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/Email', $name, $tech)
+!endprocedure
+
+!procedure EmailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EmailMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure EmailGroup($id, $name='Email', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$EmailMd>', $name, $tech)
+!endprocedure

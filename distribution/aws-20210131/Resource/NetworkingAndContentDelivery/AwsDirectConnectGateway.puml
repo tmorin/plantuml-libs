@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway
+
+sprite $AwsDirectConnectGatewayXs [10x10/16z] JOm50G1020CBm7t_je-xRtjcOCMxcb47RArpX2ZsH2pY5Ms-4A5NPPG_
+
+sprite $AwsDirectConnectGatewaySm [12x12/16z] POu50G0n30CDv2x-rJxZLkQcEsal4iAPGRLmzM_j9quKbDYWNh6qEcl1--P6zwylXXK
+
+sprite $AwsDirectConnectGatewayMd [16x16/16z] TOz50K1H3CCCD9r_jHyUOmvZZ8mT8qXqpy9yedcVu2zAJVpI9E7MqjkXvyjeilXaXEGFalpzKAzNFgtDE-upkDtJxXNYzayRzV42
+
+sprite $AwsDirectConnectGatewayLg [20x20/16z] VL254S0m41gWGFRVjY7kdF3t3k410Tmp03Ha2CPqKCywuzOSAgTCpXdJrfphwtfEREjw7qt2Z0_vb44KSYFckvautpZzilqie2IXITlPWzchiwTd_
+
+!procedure AwsDirectConnectGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsDirectConnectGateway', $name, $tech)
+!endprocedure
+
+!procedure AwsDirectConnectGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectConnectGatewayGroup($id, $name='Aws Direct Connect Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsDirectConnectGatewayMd>', $name, $tech)
+!endprocedure

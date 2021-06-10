@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace
+
+sprite $AwsCloudMapNamespaceXs [10x10/16z] BOa70G0W3CCCqCI_Mc1_lHB1e25_I9dF1Kvo3hRugeZMEzkKChW5rj3q
+
+sprite $AwsCloudMapNamespaceSm [12x12/16z] 9SO70SC04CD00dyoVxGTYQSsMpstS61PrAQ4oZM4kvVri9f8bq3TwPniQGwARN5ehthX2m
+
+sprite $AwsCloudMapNamespaceMd [16x16/16z] HOc7TGGm38K6E3xilssUbOOhelATktgCEUxQQJvZnX9hBke4bNCtIhRhmeVgdF7us8ketiJeHfiuSaz5si1NXepYoeJKKcpWJvTL3fXtrU4u-STV-m8
+
+sprite $AwsCloudMapNamespaceLg [20x20/16z] {
+VO-70GCn4C86UCFjlsrafRV75U4wgADUfrd1h5MdTxIsOYUiEPgdTIR3kUsJbNCz7CasE5mTvXtF8mJ2RkleRgrJ6uVUZy5ZtSw9ZKUIYMY2EyC4rGJ1DpeW
+VfYEWPuqqtOGnilSwphFDhd_OmS1AKrfcLTvveak
+}
+
+!procedure AwsCloudMapNamespace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudMapNamespaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapNamespaceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudMapNamespaceGroup($id, $name='Aws Cloud Map Namespace', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapNamespaceMd>', $name, $tech)
+!endprocedure

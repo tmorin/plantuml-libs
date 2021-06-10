@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticFileSystemInfrequentAccessGroup
+include('aws-20210131/Resource/Storage/AmazonElasticFileSystemInfrequentAccess')
+
+' renders the element
+AmazonElasticFileSystemInfrequentAccessGroup('AmazonElasticFileSystemInfrequentAccessGroup', 'Amazon Elastic File System Infrequent Access Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

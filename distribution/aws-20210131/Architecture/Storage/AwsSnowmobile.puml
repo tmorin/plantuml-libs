@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Storage/AwsSnowmobile
+
+sprite $AwsSnowmobileXs [10x10/16z] 7SRB0S0W34En_c8_X_ttRK0d9MosarZocSrv8yzbcWALj5Ubxvj54YhJZS4EgpkGiQPZzWC
+
+sprite $AwsSnowmobileSm [12x12/16z] 9OU50G0n2CJUEA7xx_j8MY2nhOQ5YnQjemYCzqY0cCQWeDArn2_64G2-hps9kZKg5sqBj4u5Y5BxLAINCx7v0m
+
+sprite $AwsSnowmobileMd [16x16/16z] {
+NOn50WCX0CGgOx3__sy7EJKha22ZvE35zilr1f5oSbqL2otRfOmKCl6idvq9-itPBf9GfENcleI0U5p59BXz6FW2xAVjZAnUIsJvZCRi1Q57ykmWMymeJqEB
+NTlUSBZ-5tu
+}
+
+sprite $AwsSnowmobileLg [20x20/16z] {
+RSi72iGm34HHs6YQVV_xhenmQFc8zj2ayqrJFZ0lQl0reJeqlyQYRA5WQupmp3Mu4bVJHTbQAo8cseJjOu1EU2ZL68ivwK6nD0QgiremVyjywkchN_skYMee
+cLN5iS2d9AqUMuQpqgcKs7iGiWaudNTZTu3Ej1jlkVQ1-mF_
+}
+
+!procedure AwsSnowmobile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AwsSnowmobile', $name, $tech)
+!endprocedure
+
+!procedure AwsSnowmobileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowmobileMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsSnowmobileGroup($id, $name='Aws Snowmobile', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowmobileMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Category/EndUserComputing
+
+sprite $EndUserComputingXs [10x10/16z] 7SY53S1034DHqSNG_VVjbuDFbYtgxXoBF-szYKyhI2IJbYhTdqhydjols5GQ2kW7
+
+sprite $EndUserComputingSm [12x12/16z] HSV70S0m20J1roNSVxz6UHKOPAr8EhQViHgMs9EGsgImNEuV64w9Qc0PvBZ3PHi4h7nL5H4S7aibiPsHH_e1
+
+sprite $EndUserComputingMd [16x16/16z] {
+JSj14e0m34BHJHAWtl--GaUrVzN7f3WQ1wRVbCW7Zz6xgdeydCb5Ox3jAXTUkOGQiltkxMNdNPzJ4_Mus_zxkXyZpbZ3UCcrruPzNIlb_F4U92R8zl3y8Y3-
+cJS
+}
+
+sprite $EndUserComputingLg [20x20/16z] {
+LSi7gWGn38FXLzISlVzzroJEmFpq3ydlrDav3UrSzSAnYdKY7pDu0lwlIR6qxv3bCH14zzyoHiIGRTBTgZAKXAAZOwjCIcg3jsMjPSKo7O5ZHQgZH8WvXcjo
+M_Otx4IG-1_RLSd6x3wVGP4WTEnYt6Niukvj5-tS_FG5
+}
+
+!procedure EndUserComputing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/EndUserComputing', $name, $tech)
+!endprocedure
+
+!procedure EndUserComputingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EndUserComputingMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure EndUserComputingGroup($id, $name='End User Computing', $tech='')
+  IconGroupElement($id, 'EndUserComputing', '<$EndUserComputingMd>', $name, $tech)
+!endprocedure

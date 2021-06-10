@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Containers/AmazonElasticContainerServiceContainer3
+
+sprite $AmazonElasticContainerServiceContainer3Xs [10x10/16z] uyS2k9415myF5vG9b-440Z03ACN5oGDL25Q6pJm
+
+sprite $AmazonElasticContainerServiceContainer3Sm [12x12/16z] TSot5S1G34BHMZmusdzRv-n_5Ijw87X7M7gn7AL8gCZBxsuV_qBRBw7jNtg6nJsp1oO
+
+sprite $AmazonElasticContainerServiceContainer3Md [16x16/16z] bSUv0G0X24N1L1vywR_QFJr39viy93OAf6Wa8a1cFCn4E_bWUSsionkrOuy2utXGhDtbpiDTJeYDyj0D
+
+sprite $AmazonElasticContainerServiceContainer3Lg [20x20/16z] hSmr0aH130BGCeBy-vzsNKRQUMK2N8UvDbP9re_rF1Je8KCyRmrdqW_CDFftysjxlkbvqtYhd-66VC5uwoOVznvlU5nho842yKA8ABaslWwx0m
+
+!procedure AmazonElasticContainerServiceContainer3($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Containers/AmazonElasticContainerServiceContainer3', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceContainer3Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceContainer3Md>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceContainer3Group($id, $name='Amazon Elastic Container Service Container3', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceContainer3Md>', $name, $tech)
+!endprocedure

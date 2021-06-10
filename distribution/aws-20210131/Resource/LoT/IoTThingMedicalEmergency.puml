@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingMedicalEmergency
+
+sprite $IoTThingMedicalEmergencyXs [10x10/16z] NOp50G1130BVaGdzLtkw7XT0uZD9n6UeiW3U5f09yKQwvp7Dxyy8fifKlW4
+
+sprite $IoTThingMedicalEmergencySm [12x12/16z] LOwr0G0120Dx8hV_jEzw3Ku2v82DUhGnBZWzY8bgItQLFKTYpwjACzAMvCd_Ez_Rxy-lrjV32W
+
+sprite $IoTThingMedicalEmergencyMd [16x16/16z] RS-r0GDH30JHNAFTwRzQC_jUz47eHNeJxp8Bi1ElOBWPK8ilr8BBpGhj8YaqoBOWxKoBK8Cm5o2nVDuvZd_Lory_Wo_aRzw_VNxsFGC
+
+sprite $IoTThingMedicalEmergencyLg [20x20/16z] {
+RL2r0GCn4Aijt7_Qv9bbECREo7ooa1s1QKvNs9NY88Zv3cfLGHT0YqwzO9P2gEO6Ls1gggIzlefU_MOApFQBd-Cnfc_rss8nCDrRh4xTT-ntZJvxQODdpqZ3
+-spCnmw-TlMzqw_T_m4
+}
+
+!procedure IoTThingMedicalEmergency($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingMedicalEmergency', $name, $tech)
+!endprocedure
+
+!procedure IoTThingMedicalEmergencyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingMedicalEmergencyMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingMedicalEmergencyGroup($id, $name='Io T Thing Medical Emergency', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingMedicalEmergencyMd>', $name, $tech)
+!endprocedure

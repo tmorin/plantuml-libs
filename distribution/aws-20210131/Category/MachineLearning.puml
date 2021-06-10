@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Category/MachineLearning
+
+sprite $MachineLearningXs [10x10/16z] DSY53S1030D0qHlI_VTj64-cn2m0yZ7rif8otWEI6PsS3om50H9APPYGuejmbkJzuWy
+
+sprite $MachineLearningSm [12x12/16z] JSV50GCm5CFGaYdPVz_wfwZJawnN91tRVoQ1JXq0P-Huh4wD9h3E8laGTHmI5Ebw2NHPxqvpndkr9BOpUT8J
+
+sprite $MachineLearningMd [16x16/16z] {
+NSfN0a9124DH2odmzhzVWrtlV9qC-ef9tZvszx_RBA0WFOshG1KbAZQ8_TmBUNglCsLuk9Wdaiz_QE-ffqTGNGch7cwAb5cqrwDQbxq-ZXd7KBVN6LAdTSSP
+dekbzgVm1W
+}
+
+sprite $MachineLearningLg [20x20/16z] {
+LSp70G9H24NHnN-9iVz-PH3JNHw2_rDdvzMN6gl-SAsMjBXcW3ouTQrqw0R2ipu6YdI4sHmBf6PvDttT18WcuwEnAqUaZesyzj96ayIV5IcVOoe-pcsDC4at
+4Kd6Bbfcog0_5Y1qn6JiyRZs9UYgjSRMgbHzhN5vy6jVj9FDdvu
+}
+
+!procedure MachineLearning($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/MachineLearning', $name, $tech)
+!endprocedure
+
+!procedure MachineLearningCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MachineLearningMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure MachineLearningGroup($id, $name='Machine Learning', $tech='')
+  IconGroupElement($id, 'MachineLearning', '<$MachineLearningMd>', $name, $tech)
+!endprocedure

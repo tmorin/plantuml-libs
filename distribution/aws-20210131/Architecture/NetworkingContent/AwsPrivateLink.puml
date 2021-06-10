@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsPrivateLink
+
+sprite $AwsPrivateLinkXs [10x10/16z] FSYt5S103CFGocBQVr_pv83gFwYn0Qkb2onj0eCZ3J7NL6SrC7i6K2oUf2HkgdxU
+
+sprite $AwsPrivateLinkSm [12x12/16z] JOZ50S0m3CHUFSh-ypOC2bYo6ngGVY9F91R0xT2gX1JnVIrYWkXtUDlse4f4T6YNae7TVTNr4HK
+
+sprite $AwsPrivateLinkMd [16x16/16z] NOg54SH03CGUicJtNs-OTIYDi-0TILbv-nNg6LnB4AdJAwG5NOvbVW1t9orYmC3LnPMGuEhMl25OitUP1a3AKDnBs56IdiD6LleL-XNw5IO
+
+sprite $AwsPrivateLinkLg [20x20/16z] {
+PSY53GCm30LHWJyb--_RGDcd4xsS_4wht9hzuDBHS5b7ZuCM-MCZBX2b7uEIgC2F6LaPgvS5j5Gh59u6gbYaNGAU5d58jUpikSs5NJ7NvX349TmjZkV2IE9D
+MSsDhtAR7PTrd1sNTNm
+}
+
+!procedure AwsPrivateLink($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsPrivateLink', $name, $tech)
+!endprocedure
+
+!procedure AwsPrivateLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPrivateLinkMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsPrivateLinkGroup($id, $name='Aws Private Link', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsPrivateLinkMd>', $name, $tech)
+!endprocedure

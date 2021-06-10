@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2ElasticIpAddress
+
+sprite $AmazonEc2ElasticIpAddressXs [10x10/16z] uySB-BYvUK0qBpyF7pyF3oylBnSFYCNBnmTa8MJn0m
+
+sprite $AmazonEc2ElasticIpAddressSm [12x12/16z] uoS6yF7omPdSFDmy80OlBpyFBpy_Dmy8SFA0sRmWmCcBf0QYbmG
+
+sprite $AmazonEc2ElasticIpAddressMd [16x16/16z] hOsr0G0X303RsENtd_OTRU4WRiSwcNs4cVbVu1RZbhYZp-UfeVwYoXSRBwxC_U--QFk-U_ku
+
+sprite $AmazonEc2ElasticIpAddressLg [20x20/16z] nOv50S0m34Ml-zJuLpjc0tc5C5GR9kYw6BiBolek5xD-yAe6kQfMBTXLWWUOaCkd71WO_reXnmmzCuvW2EQrInyB
+
+!procedure AmazonEc2ElasticIpAddress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2ElasticIpAddress', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2ElasticIpAddressCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ElasticIpAddressMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2ElasticIpAddressGroup($id, $name='Amazon Ec2 Elastic Ip Address', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ElasticIpAddressMd>', $name, $tech)
+!endprocedure

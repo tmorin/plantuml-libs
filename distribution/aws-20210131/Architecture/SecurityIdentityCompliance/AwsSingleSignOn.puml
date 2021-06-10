@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AwsSingleSignOn
+
+sprite $AwsSingleSignOnXs [10x10/16z] 7SQt0G0m20EmAMxy_syCckJIOXfUamRS6JQ9JZ81igFmTXERhJsJn7ZihbBNBdy
+
+sprite $AwsSingleSignOnSm [12x12/16z] FSUt0GC138NGIloW_UUrBrCzSkOhzQFTHi1h4WsNSIp3uQY1CJfjCmXx6niO9Rjjuu7JvpICJr_J9FjDymS
+
+sprite $AwsSingleSignOnMd [16x16/16z] {
+HSi73iGW34HH5QOOxd_V7SnQIMZ_IQxt-NtIzC3kaWPsG20n7O1Z2_gt-6QMkWttY0NTPfk8m6sfYXc7IVi4oBkGh3g1lKi0aKm7hdWrd87j1NOFb9mUQ9d-
+u0S
+}
+
+sprite $AwsSingleSignOnLg [20x20/16z] {
+RSr9bWGX24NH2Rypzh_V4WzXTVc6Lu5CVfEK3xW-u3fe0hgu6bKKYzSQI_st2jzcf1E1rm8ssN5X3CfAK0t4iI3dhqJ4DV-yhLobYjgUFW4Q1hILYP-DiI98
+0fpTqzYPA85ZWoi7nowoM1wxQ21jWwCP6xpwVC0l
+}
+
+!procedure AwsSingleSignOn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsSingleSignOn', $name, $tech)
+!endprocedure
+
+!procedure AwsSingleSignOnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSingleSignOnMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSingleSignOnGroup($id, $name='Aws Single Sign On', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSingleSignOnMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsThinkBoxDeadline
+
+sprite $AwsThinkBoxDeadlineXs [10x10/16z] 7SQ50S0m40B02hR_n86ymDdMXfp8SG36ei9FHMh_d8WVcDmQbFZ2JaVjQJCT
+
+sprite $AwsThinkBoxDeadlineSm [12x12/16z] JSSr0G0m0CJ0uQd-3PSfqoM9LrA-6HGu9n7xG1eU90cxH1O1SHaWFLn8wTZkPohT9L6V9DtZakLx3G
+
+sprite $AwsThinkBoxDeadlineMd [16x16/16z] TSi7YWL0409H64jxxd_YRIRipqLyWjNbPhlUXbe5ph1afEoQnh64lHoII8RXOm4Ug3rdAA8XXMsN6AtQBXWMA6HP9kkhvLabS8ohsbqAqUhcghoqVFhXFm
+
+sprite $AwsThinkBoxDeadlineLg [20x20/16z] {
+RSg54SGm34JHEI-v_ufF2jDFJ6-KpcUgye5vuMa2jE5cGkMz5XCooQ733FKs21Ml9bagCj2xFTi2cD20oBRPHXa_GDvijX4zgfpc0GuQFES6e12WJAqMYDA0
+4q4fQmn1geJbQMjrM9LqSoj0oMahdispqpxm3m
+}
+
+!procedure AwsThinkBoxDeadline($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsThinkBoxDeadline', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxDeadlineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxDeadlineMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxDeadlineGroup($id, $name='Aws Think Box Deadline', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxDeadlineMd>', $name, $tech)
+!endprocedure

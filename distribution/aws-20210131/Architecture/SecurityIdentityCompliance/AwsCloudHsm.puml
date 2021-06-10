@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AwsCloudHsm
+
+sprite $AwsCloudHsmXs [10x10/16z] BSY74S1G2CFGD90D---RttJjdJpIZ39a9b8fbJ0rJiHvWqkanfJL1SI7tLssCt0FZj3GPla7
+
+sprite $AwsCloudHsmSm [12x12/16z] 9SVR0O0W34FHdppf_ljAyIfmqYqldzQlEqwj_RWE8YhFfKdgjtmbTOr8fDlCiME1RMUQnAJNSsuLilv7kjwnzGC
+
+sprite $AwsCloudHsmMd [16x16/16z] {
+LSh7eSDG24JH7vZ4wxzV2olFxbp8Fk-JthOw4VPnGdUWUHInM_ys0Uim_utDF1q8K878rwxpdXp_siDuTP2sMCLiMwl5MHKyta9cA4nO4sPn5STdQ5Expz0P
+lyC7
+}
+
+sprite $AwsCloudHsmLg [20x20/16z] {
+RSn9bWKW24FHWKaWkl_z5dYetx-PLy1J_XSH_e7xzJsu2ubfwU8kHCoeE6QkT11CFmqh0nBndDjQIG5KF6spZBb0ogzp19MIFVUG2GKHaMuyFUTjKG32ZQUG
+wIgmI7UdKEm24F9QOsLR02-UmUig72kSXB5NjCS6Hv_sYdy
+}
+
+!procedure AwsCloudHsm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsCloudHsm', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudHsmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudHsmMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudHsmGroup($id, $name='Aws Cloud Hsm', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCloudHsmMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/ElasticLoadBalancing
+
+sprite $ElasticLoadBalancingXs [10x10/16z] 9SOd0G0m40GmTFFzw-qCIWuVqfzazSQ0tKWaTMOd87JNG9IdEkXafct8krlxxBV91W
+
+sprite $ElasticLoadBalancingSm [12x12/16z] HKh50G8137kbaTj_Noh0LMFkqXRfBs5FZXHAIioY00ucHssebZi30gidVwpEJCHwdbXseQEDfrWQVCn-yR0F
+
+sprite $ElasticLoadBalancingMd [16x16/16z] {
+JOs73GH120C_WSFst-y3Eg6ruWp1wl0904qkNe542Q_uHPPrYTBKiX6PWGXmMD7htpuUvlpedS33ljb92pzeze-jh30I_UUKg7Mx-qgS4UqYXbSG6bxXvKly
+0G
+}
+
+sprite $ElasticLoadBalancingLg [20x20/16z] {
+NSi75aCX24JH51v5zx_VWBzXndxF62j-npBHSBUzEJg2BMi8Y6T6OPLoG-2qKG_1JGIxUjWgYHOSPXeLqN0uJNDB0nNWDCljpvoe_MlNtrb5zJ0GYqfQOG8U
+Bk25C_6AebHpNjYjOQZwQQrPigpZQBRX3m
+}
+
+!procedure ElasticLoadBalancing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/ElasticLoadBalancing', $name, $tech)
+!endprocedure
+
+!procedure ElasticLoadBalancingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure ElasticLoadBalancingGroup($id, $name='Elastic Load Balancing', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$ElasticLoadBalancingMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerInventory
+
+sprite $AwsSystemsManagerInventoryXs [10x10/16z] JOY70G0n28G6K73_QV_J4snurT2s-aNfZlCj7ZApXSlO5e7JEg_9mXy
+
+sprite $AwsSystemsManagerInventorySm [12x12/16z] JOk50G0W3CCEO0d_NulBWapQredMWmps1FSty8X218yOJE7s-FfIIFqDnUAqTv277G
+
+sprite $AwsSystemsManagerInventoryMd [16x16/16z] LOo70G0n2087y23xR_kVgbwg2eoDFIe2rKhdclXyBAQ9UUV44ZeWsVCzNk-Q49HQixRx75phY5R73oZp5wVcrimQuh526-C3
+
+sprite $AwsSystemsManagerInventoryLg [20x20/16z] VSw50SKm54BH0RZmzf_sQorA6plHsiJWLWBvbbQEjJd4-3x1HzCUuWhkGa9evJ1ig5yk4ynCP32-PJ0rXhuaaQGvxsl8lUcmrPkR_6n8AaFg3G
+
+!procedure AwsSystemsManagerInventory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerInventory', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerInventoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerInventoryMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerInventoryGroup($id, $name='Aws Systems Manager Inventory', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerInventoryMd>', $name, $tech)
+!endprocedure

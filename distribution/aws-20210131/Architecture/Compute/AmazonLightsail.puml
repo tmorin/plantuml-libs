@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AmazonLightsail
+
+sprite $AmazonLightsailXs [10x10/16z] LSR10K0m50L1iFj-_mq3I3AdIU85ylSCiA69o7QseWB3IiE6rbd0f4wvN7j_
+
+sprite $AmazonLightsailSm [12x12/16z] HOh70SKm5C9-0VJsNpXnjovK81ER6wQtv1QwbMS0dFXl9KMQbnlD4xOl3DRuz9189ZM27Q06mF0tl
+
+sprite $AmazonLightsailMd [16x16/16z] TSY73GD158HGoJimst_5_ixnK7nqyX7Ghz6lSIDPApXTdMYok1l4KrXtnqfYqBqhoXgHcvrUtarR4i9uWkh2U7F1Gcp7Kqs2dVQjFjgF3dm6
+
+sprite $AmazonLightsailLg [20x20/16z] {
+RSr50eH034JHHQNa_YUUJWQ7ZpzQtEcCAt-WFz0Vk5DXLPeswa-omCCqxu28mueUArLFprZ_OcaRc5YYD5zzZaL-MrpUvfAdiH7WjiSWPBfc2syMWRAurFPc
+CR6Yt6NFP_d0V60-y0S
+}
+
+!procedure AmazonLightsail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AmazonLightsail', $name, $tech)
+!endprocedure
+
+!procedure AmazonLightsailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLightsailMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLightsailGroup($id, $name='Amazon Lightsail', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonLightsailMd>', $name, $tech)
+!endprocedure

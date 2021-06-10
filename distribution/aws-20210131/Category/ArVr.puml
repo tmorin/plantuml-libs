@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/ArVr
+
+sprite $ArVrXs [10x10/16z] BOkt0G0W20GRbG_xxolf6lY48WgG755FazyhRdzLUvL206kWA5ugAs55tZTJDi07
+
+sprite $ArVrSm [12x12/16z] FSUt0S0m48NGIlVXlF-yJWglWW1aGkKp-mmj-K3iZ7gD-heWh_5rMj3w6r99WLUB0hvzzKU_FWDEG1u
+
+sprite $ArVrMd [16x16/16z] JSq50i0m30B06Gb9___VKI_Je-Qads4exEa-Y-wpO6ufSX9c1iMRuqCJlg_RvW9uTsQmxWik0nmkQGhRfisbdfXwKLzPHOlKVHOCyIZemJF-0m
+
+sprite $ArVrLg [20x20/16z] {
+bSm7aW9134FHNK2MvBd_VQdEJOPV-JdmMIwfjspJPwPbcpwpWfbfp5Yn4bk1Ip5bwepHvSnkiLuYXfMVKb5mDq2REMo1X2JGrP8He1q0GiMEuyYUMozjwMz6
+hTYx0W
+}
+
+!procedure ArVr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/ArVr', $name, $tech)
+!endprocedure
+
+!procedure ArVrCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ArVrMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ArVrGroup($id, $name='Ar Vr', $tech='')
+  IconGroupElement($id, 'ArVr', '<$ArVrMd>', $name, $tech)
+!endprocedure

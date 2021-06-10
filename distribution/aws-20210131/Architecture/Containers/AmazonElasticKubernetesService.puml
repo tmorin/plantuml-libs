@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Containers/AmazonElasticKubernetesService
+
+sprite $AmazonElasticKubernetesServiceXs [10x10/16z] 5SQ90S0W3CF0VhBPV-9QWYJNDWOAfFZURsxXM-GeG8NvLKGcPrnfpygkClK3
+
+sprite $AmazonElasticKubernetesServiceSm [12x12/16z] HSm50e0m34DHf26z_ud9xv3fowIshzKaJz04METP9AXYO2Me57VC-RYNwtoiiB0faIUEsrmuhMbW_ASR
+
+sprite $AmazonElasticKubernetesServiceMd [16x16/16z] TSY53GD04CH0AKlVVyKv28E5urI-9oaV8pj8xHW95MSqAGCIjARD4RGEPvZbSyQNNay7PU9XgGct3nMHDBWkkQgJb2jJAdLdYZKQRtzy1G
+
+sprite $AmazonElasticKubernetesServiceLg [20x20/16z] {
+RSu5aeKm44NHgl-izx_YYJI3Nlm0IJBpcKRvmBpmD0BKnZPXnOtzaGr8upWCYa4E4BJDoBedQ79O3KGeOnvjrVQ3JwlmttGtYWP-QaFMFmG1jmt8Njkm39iP
+oaZxigqYsA2pgiuyvBJAMPsTze5_
+}
+
+!procedure AmazonElasticKubernetesService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Containers/AmazonElasticKubernetesService', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticKubernetesServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticKubernetesServiceMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticKubernetesServiceGroup($id, $name='Amazon Elastic Kubernetes Service', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticKubernetesServiceMd>', $name, $tech)
+!endprocedure

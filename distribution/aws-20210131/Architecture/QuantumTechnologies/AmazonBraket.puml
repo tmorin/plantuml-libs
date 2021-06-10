@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/QuantumTechnologies/AmazonBraket
+
+sprite $AmazonBraketXs [10x10/16z] 9Kg50S0W3DiWzl_5r2LcMrraeGM5X7il81iigKuCkP0MbRz8m6YLcNmiRsMgqGC
+
+sprite $AmazonBraketSm [12x12/16z] 9Og50O0m30IHb-o_SFIWxPjj7QIRanej4k1FjVmNZ2Qc0wHOBO6jOpHwSteMM2rmfMTFYYtjY3u-ubXT
+
+sprite $AmazonBraketMd [16x16/16z] TSi52W0n34HHsB7S_yBhtlQZBsIovYj9-HxU5cNjv9v0UoUs9l0muJt2bu-LLbT5E0Y-JE1ZY6yBr6LJ9DQShBP4YsIsjd-dSbLN0oy
+
+sprite $AmazonBraketLg [20x20/16z] {
+RSo53S1030H1oKVVVyC1Xs75OyYQhxIK7ymFFacWlHj54gHOifjKg8w2syoIrG5qMmJlNmalZIGifnFKDawp0QfjxBT2yRHz3uOAZpqN5gDtys869KDEcoqA
+H1MGfTLearbPwHOpw0olxNQMi_63umTd
+}
+
+!procedure AmazonBraket($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/QuantumTechnologies/AmazonBraket', $name, $tech)
+!endprocedure
+
+!procedure AmazonBraketCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketGroup($id, $name='Amazon Braket', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketMd>', $name, $tech)
+!endprocedure

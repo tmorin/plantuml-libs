@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingGeneric
+
+sprite $IoTThingGenericXs [10x10/16z] HOor0G1030Bho97zftqNAhmAI5I3n4GoY1XGG0oJP3CV_7YN9OifzoBrN_vp1m
+
+sprite $IoTThingGenericSm [12x12/16z] JOx50G0X40F_bzca_suFXq7M9KaDqZ2Vr2vEA0-Ab8m4MDLqQOgbYwvRRagZAIkebGD8DFtj-SvwT_W1
+
+sprite $IoTThingGenericMd [16x16/16z] PO-r0KK1309xZi3-qtvvBbV50_qnMUdAo01cBO3O-NVf0TD0pO8B-VSPd0nx7oGCXIovXMts-IMHB_D6OfrVoebP1lFw5tf0NdfVVXv-lm
+
+sprite $IoTThingGenericLg [20x20/16z] {
+RL1L0iKW3Fj-aN7_sxvaBcHA1DgEOkcrliQ11QQvlWvA_07iJKWR1Tq0DKYD6yJiYYZc3YU571GVASgE55-ZyOK28pjSVxpwaBE3-dppMTRTfn2XjVas3aN8
+UzRhONnaQLlKpVUikKNfsPjcCvZDQZxJsUp_
+}
+
+!procedure IoTThingGeneric($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingGeneric', $name, $tech)
+!endprocedure
+
+!procedure IoTThingGenericCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingGenericMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingGenericGroup($id, $name='Io T Thing Generic', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingGenericMd>', $name, $tech)
+!endprocedure

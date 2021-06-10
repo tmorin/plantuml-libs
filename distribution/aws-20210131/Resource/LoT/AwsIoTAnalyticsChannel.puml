@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/AwsIoTAnalyticsChannel
+
+sprite $AwsIoTAnalyticsChannelXs [10x10/16z] JKn50G0m4FeFwvzsRkS29AQpJE0Q257dn1vzCIGe71DPQDwlVyPIMRQL6m
+
+sprite $AwsIoTAnalyticsChannelSm [12x12/16z] POwr0S1030FxFy7-quOvRaoYjbPw5kYO0k9u26oI_Ix146wxtTLefshiSxHX81Ut5pS_hsU66G
+
+sprite $AwsIoTAnalyticsChannelMd [16x16/16z] PK_30GD15Bq_RV_T9cDz6ry1-zj1H3OtVtyh82YjWg0uXLUUjAfiunGJK5gH2Tb2ANNn0Of0Yh_Lq-IS9q5I-ZwlVVizxxtlF_U_Fm
+
+sprite $AwsIoTAnalyticsChannelLg [20x20/16z] {
+ZP350O1040FV5wF_Qd7DYw0twpljIgQM0JOZZAzdR62u0stY3SKzy0E5LNG8Iyhj6072e71wPmkBZdx8dP64RUqknissP-XXFcC7l2ATxAonYTrByhG2Lyyr
+M-tW8y78ZvtMxXS
+}
+
+!procedure AwsIoTAnalyticsChannel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/AwsIoTAnalyticsChannel', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTAnalyticsChannelCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsChannelMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsChannelGroup($id, $name='Aws Io T Analytics Channel', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsChannelMd>', $name, $tech)
+!endprocedure

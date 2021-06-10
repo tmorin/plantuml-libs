@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsDeepLearningAmIs
+
+sprite $AwsDeepLearningAmIsXs [10x10/16z] JOYx4KGn2CII_UB--xsTYvviGACC3wcDPF5l006vDQQqRqdQVEr2KahkEW6TjpYSlEdw-04
+
+sprite $AwsDeepLearningAmIsSm [12x12/16z] FSXH0a5H489Xg6h6_lUh0xUdxozdxYJDN3mMG3pXUlIiIRi_WRBUuHDIysV_l2EGefFTDKegUTMimRenNLAVQ9wz0G
+
+sprite $AwsDeepLearningAmIsMd [16x16/16z] {
+LOu54W8n00DdY5Ju_tz9YjrjTLETXt5mMEiU79ThKZt144YcUTJN06I6RAgR0XpYEyjah0VgU-X1kI7yTR_NLLz3oaupEiSEbeaaCzHdTufI_5dll7-gDpZV
+c7QzGLcb_W_A2m
+}
+
+sprite $AwsDeepLearningAmIsLg [20x20/16z] {
+DSq9ZiKm309GANXBvlxt7J2_T7_5yXsddL8kqUROJ599onOJAKb0U9MEEWZWPF2VRN1K05Fi_teWHFN6beKWPqJAthlQS6gQ54YR5cGLQy1d-JCa2MjFiwZX
+GxCZKxFv6TsyXddAy0CmV7O1rB3cujyQQu9JMRB5yXoRi-OcJsLuqeIArMQq6Vy1
+}
+
+!procedure AwsDeepLearningAmIs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsDeepLearningAmIs', $name, $tech)
+!endprocedure
+
+!procedure AwsDeepLearningAmIsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeepLearningAmIsMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeepLearningAmIsGroup($id, $name='Aws Deep Learning Am Is', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsDeepLearningAmIsMd>', $name, $tech)
+!endprocedure

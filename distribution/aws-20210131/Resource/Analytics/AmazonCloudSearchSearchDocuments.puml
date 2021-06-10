@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Analytics/AmazonCloudSearchSearchDocuments
+
+sprite $AmazonCloudSearchSearchDocumentsXs [10x10/16z] u-VZ1GC-VYGMBnyOyFBpyK34UFWGOln00gIC3uK51VpOp0C
+
+sprite $AmazonCloudSearchSearchDocumentsSm [12x12/16z] u-VdXG9-VXGs7oyV200fVduUc3WFAXkX1gIN3oJAXsmE1XkY7fyQ
+
+sprite $AmazonCloudSearchSearchDocumentsMd [16x16/16z] RO_L0S1G308Nu63_QUjzclk92qdSo8t5X_p4D9uOydN37SgjBEvO-E7szdfmWsr_6RVskjx-sUkxdbNl2G
+
+sprite $AmazonCloudSearchSearchDocumentsLg [20x20/16z] jP235G0134C7YFQVzcppFzPDKk49QU4KTJbFO9_JqDNbJATb2Cnv7ztaw07sEOrzwdAA1oBwwY__z6NWzhwrfsllIm
+
+!procedure AmazonCloudSearchSearchDocuments($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Analytics/AmazonCloudSearchSearchDocuments', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudSearchSearchDocumentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudSearchSearchDocumentsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudSearchSearchDocumentsGroup($id, $name='Amazon Cloud Search Search Documents', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonCloudSearchSearchDocumentsMd>', $name, $tech)
+!endprocedure

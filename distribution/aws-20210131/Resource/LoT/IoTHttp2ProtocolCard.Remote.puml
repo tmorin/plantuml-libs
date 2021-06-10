@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element IoTHttp2ProtocolCard
+include('aws-20210131/Resource/LoT/IoTHttp2Protocol')
+
+' renders the element
+IoTHttp2ProtocolCard('IoTHttp2ProtocolCard', 'Io T Http2 Protocol Card', 'an optional description')
+@enduml

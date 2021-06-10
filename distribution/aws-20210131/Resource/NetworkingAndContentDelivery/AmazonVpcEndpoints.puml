@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints
+
+sprite $AmazonVpcEndpointsXs [10x10/16z] HOm50S1030C55Cw_srr6JuKGi3FBtTUJUOG41zUUxS1ExOHu39c4NvP1slAdm4c-
+
+sprite $AmazonVpcEndpointsSm [12x12/16z] LSsv0S003CB01H3ilssmyrETAj81piwuQotfDeWaHD4K3eeDI68CavVj84Ta57P5J908_dzjiJe
+
+sprite $AmazonVpcEndpointsMd [16x16/16z] PO-70GCn4C86YE3stpRMfUTn5RZEgaVpLiWHUMPEMktAT0B6nSKPISFvC78R41hPNjPFk04lNglG5-_-p9F7dkqomaQ1KEUlzu3-wxrjTNlzp_z_xm
+
+sprite $AmazonVpcEndpointsLg [20x20/16z] {
+RP270G8n30C7UEdOVriiHtISUfUUMmEWtGfhmozbcGwvIY8SZzHPf6yhdPt9z6AsU33JdDLh9ifCkGo3rpYKlCuYBW3AcYlvpG6sqRixb_OUVrnoWBtRE7es
+aL4SteczSwVzVLl_m0fL_VkhsesQVtz_1m
+}
+
+!procedure AmazonVpcEndpoints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcEndpoints', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcEndpointsMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcEndpointsGroup($id, $name='Amazon Vpc Endpoints', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcEndpointsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MediaServices/AwsElementalMediaConvert
+
+sprite $AwsElementalMediaConvertXs [10x10/16z] 5SY73G0n0CB0BnYo_yG1gvsSn0ic68kfZYMa7v-ouIeC4o2eDecJq-naMjC5
+
+sprite $AwsElementalMediaConvertSm [12x12/16z] HSU90OKW40FHVoIPxRzYLyvHu0N8pEQEQIblOEVzzLgIhVy_AR3VcNOHDwSTsufU9pHjKXqIR_K6otSz
+
+sprite $AwsElementalMediaConvertMd [16x16/16z] TSq53iH040D1ATEsz_ylliNZjB0yWVHyafIl8MiGQzWMQ0q3YjM9fdqXeAXB-rwIAEXkBJ6zgMDruMqPWx6MMI_8DTsi1EP_qprobJDRdhVbquqV
+
+sprite $AwsElementalMediaConvertLg [20x20/16z] {
+RSY55GCW40JH5zRels6S-A3tC_ChZV87ymUl2T35QvJeqmR7actgc0ijZ6GyjEtCmml0OJMn0t4wB4qRcC3G47XL5oByCWSse3UJGbWI66gRuPW07K4PDb59
+o7avoRHPH2gdUZBWRwiNZdrh_OCT
+}
+
+!procedure AwsElementalMediaConvert($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MediaServices/AwsElementalMediaConvert', $name, $tech)
+!endprocedure
+
+!procedure AwsElementalMediaConvertCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaConvertMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaConvertGroup($id, $name='Aws Elemental Media Convert', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaConvertMd>', $name, $tech)
+!endprocedure

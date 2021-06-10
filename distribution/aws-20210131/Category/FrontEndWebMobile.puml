@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/FrontEndWebMobile
+
+sprite $FrontEndWebMobileXs [10x10/16z] DOR70G0W309V0XVttzSQwkNAMt3W5AGn_2YHT0cCdQOSScGbLRQbGtDMGRRF7sK1
+
+sprite $FrontEndWebMobileSm [12x12/16z] NOt70O0m30C_RcVstnU9vCMbk5jpQ3E86mvTbTaEs19PrszmVFob5Cxy_SyfXgSzgsj_OHItVR72YeYh_G8
+
+sprite $FrontEndWebMobileMd [16x16/16z] JSgv5O0m40FHIDUw_tvP7u0d-tgIRLqvAw-E_TMkOBU7DhVrcSaQUHcoS9bEFbVz7ijrFkqY9O4YZaKIml68En90udPNLLavOrMhjk8xFG
+
+sprite $FrontEndWebMobileLg [20x20/16z] {
+TT054iCm34JHWhNWtF--jIoLspyPUZ7pLwxKjRsZoiJgONDg8BA1nhGxHPksoHA1cj_c5KOEvhlbTl5YyvVDChpPXBPvsN6yZxFRLeZSzzhc8006rnTjHxq6
+Sl1GMRRsi3AN5NR_Z7gDkni
+}
+
+!procedure FrontEndWebMobile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/FrontEndWebMobile', $name, $tech)
+!endprocedure
+
+!procedure FrontEndWebMobileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FrontEndWebMobileMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure FrontEndWebMobileGroup($id, $name='Front End Web Mobile', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobile', '<$FrontEndWebMobileMd>', $name, $tech)
+!endprocedure

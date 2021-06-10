@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsCodeArtifact
+
+sprite $AwsCodeArtifactXs [10x10/16z] 9SQn0G111031x6yj_TVxCD5eD5eFjiPhKw7t0TbRiMEdZrkcGISgzsfTsmy
+
+sprite $AwsCodeArtifactSm [12x12/16z] JOi53W0X4CIYO_3_zzxiUR6MP1CF6lABAd5730bWerwrs1-jlYIwwF7MvObej-HLp9btlSIautt5oVx50G
+
+sprite $AwsCodeArtifactMd [16x16/16z] NScv0GGW24JHYBcq_tfNPE-9U9_4Cyto5t83tw79klROW8MRhY6ZT8hQA_srPKAmrgB5OjMrnqHhh0XHml5PdmR4frTQPgaz9G8TUx-2d3FlTvZjl_
+
+sprite $AwsCodeArtifactLg [20x20/16z] {
+NSu9ZiCm34DHB98eqhx_UOVeg8RGd_qbiIs9tthImcNxoss57oEYE8rrPjCdB0k85K1aVzJ6z5vq5I3ytJbATR9PtelHv1YoCsiRiojHm3RlHVBPeRae2O6l
+EI7nlyoWRP2L_JazCpeaA97tF4LP7Ez3lUxWrZkuxGy
+}
+
+!procedure AwsCodeArtifact($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsCodeArtifact', $name, $tech)
+!endprocedure
+
+!procedure AwsCodeArtifactCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeArtifactMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeArtifactGroup($id, $name='Aws Code Artifact', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeArtifactMd>', $name, $tech)
+!endprocedure

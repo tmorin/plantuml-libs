@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerStateManager
+
+sprite $AwsSystemsManagerStateManagerXs [10x10/16z] JSP70S100CCm04ri_cYxR-Wb-vj9Dogepu0-i1hl9O4qznv7dlrgVru
+
+sprite $AwsSystemsManagerStateManagerSm [12x12/16z] JOq50G0W30G3yD8_BJuvc9kPD1VxFuZjws5f-tRNb43Y-JRa6mBUpYq5u_hZ_fv7Eoml
+
+sprite $AwsSystemsManagerStateManagerMd [16x16/16z] JST70KK13CCm04ri_cZ_UBEwILdKz98saVKaa4klb_uX_aFzuSUVwwGDwzNcRnyxaBPPdz-dq4dpVpEJdz_dVAud_sSPJ3QLHRy
+
+sprite $AwsSystemsManagerStateManagerLg [20x20/16z] {
+RT3H0KG040FH0dOpst-t4W3C7NZoPOPduzIlDBJEXGIUO3i7-TTkIWz3UmE3YCshqzHEJsk16jznMXwfJc_BB4OwRLPBLPknxrh-5H9LURtlQdsIp-ocQBlR
+JiRAsQJTMhVy-FjD7OyC2m
+}
+
+!procedure AwsSystemsManagerStateManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerStateManager', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerStateManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerStateManagerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerStateManagerGroup($id, $name='Aws Systems Manager State Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerStateManagerMd>', $name, $tech)
+!endprocedure

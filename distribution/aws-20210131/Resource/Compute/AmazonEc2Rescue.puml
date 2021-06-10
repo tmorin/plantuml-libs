@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2Rescue
+
+sprite $AmazonEc2RescueXs [10x10/16z] HOpN5S0m30B_kQTZ_sdJOwiNG3wJwIHNWJl1ma3oDg9NsTFw2lLZl2fssCed
+
+sprite $AmazonEc2RescueSm [12x12/16z] LOx50K0124BlF8Jzf_sTTalzK4qoqYJUmaQmEyWMshk74Tfe2q1OhOp-yV3E9Doxvx7JsVSl_CMm0W
+
+sprite $AmazonEc2RescueMd [16x16/16z] PO-r0GC13CHgIuRzjqsUIOqPRZflz7IWyiS_T39_15UR-RTjL8QznurK8Rt5MW5HkiGOX5MhuHzJHSqKV_kDt_tlVUzxtt-U_pO-zBpr_W
+
+sprite $AmazonEc2RescueLg [20x20/16z] {
+TP150iG030AlEn7u_sktxktSuW5RVK6sYnjbaHvHHgGyzwZnH1F1d3CzvvJy9AWZfw2GI6BF9MggQ55pRewRcKwaAPVy0DcQypdb8gHYtbvIn5SkuJuxFt6_
+OHVtNsm7UVzvDkUcRKHd3qJTlTARfs_U3m
+}
+
+!procedure AmazonEc2Rescue($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2Rescue', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2RescueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2RescueMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2RescueGroup($id, $name='Amazon Ec2 Rescue', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2RescueMd>', $name, $tech)
+!endprocedure

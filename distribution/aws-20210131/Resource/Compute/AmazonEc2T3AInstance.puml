@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2T3AInstance
+
+sprite $AmazonEc2T3AInstanceXs [10x10/16z] HOp50G0W30FVrUo_BTGFgIQ09VW99_OJnyVPVlO18ZCHKSlUVwoHvThVEyMvdFC3
+
+sprite $AmazonEc2T3AInstanceSm [12x12/16z] JOwr0G0m20JxD_RVDXygBeBBJEAIJ26njrxI2vdGivWnPCdLuTK9ILzt-W6h_tYSwhVszhopxWuF
+
+sprite $AmazonEc2T3AInstanceMd [16x16/16z] PO_50GD124NFyAt_RaE8hBrH79BuJnOI1EPYLgoUjHSJi-Wl-sKxNzmZemwvyBOBFVYm6tEheSBAOTJ3ocn7tlfwvdlKk_Tpx_S-pttU5m
+
+sprite $AmazonEc2T3AInstanceLg [20x20/16z] {
+RP17WaKX3CEsOuSezx_jq7wFNW54TqsWUFuk4HWR4t4Lzb1gliFcA7t0D65HJv23vUgDvOhnwSPKbYetR2TFcI8aws_0T3cLhQh8iZ8SoEOwAhtOhiZf1cbP
+3fHtZyMgS_TepjATkRjRaq6JLPzfb_q_
+}
+
+!procedure AmazonEc2T3AInstance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2T3AInstance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2T3AInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2T3AInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2T3AInstanceGroup($id, $name='Amazon Ec2 T3a Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2T3AInstanceMd>', $name, $tech)
+!endprocedure

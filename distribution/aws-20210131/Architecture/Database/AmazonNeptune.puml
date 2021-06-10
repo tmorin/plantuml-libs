@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonNeptune
+
+sprite $AmazonNeptuneXs [10x10/16z] 7OY90OGm3CFkWBps_lEYeZQ9xDs1Xfskgi_EoPfZaATKaREZHWqLEKE7H67JC_L4Zz4cxTg2XHS
+
+sprite $AmazonNeptuneSm [12x12/16z] 5Oa90WH110Ft8Ydc_-zTgMxac24udCx1qRIa5j6ksrsGNDRXjfTEBltCejEgCYJdP14jagVOaHqjU7O7PkxFysoOy0S
+
+sprite $AmazonNeptuneMd [16x16/16z] {
+NKn50WGX3BkqaPR_ltUnjSa8HAjye8Dw29EB02XVhgH4f7mu8DkC-RyScVdskw0zIIbWTMFrXJ23TlTa99Kv5nPV-VBQk3n18Z8kfzUSC0jOtD2ap5Xp7jsr
+zufSEsFqGHsCX_02
+}
+
+sprite $AmazonNeptuneLg [20x20/16z] {
+TSi73iDG28DXgM3ZD-v_tZexwVYrFt3llHrfhxj_ffikL4Y7kXcevQMI-wVVejgo5t1POYtJvbR3Tcs59bQJnkZfgMjbZbHhjW1BAhxAnhOQMj69IN_jjasb
+n6d-jp4ZcEtuAombAqiwjcCR8n2nsc2rdPYKRHf5E4hWEfX6xnzDuz5b1rxs1W
+}
+
+!procedure AmazonNeptune($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonNeptune', $name, $tech)
+!endprocedure
+
+!procedure AmazonNeptuneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonNeptuneMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonNeptuneGroup($id, $name='Amazon Neptune', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonNeptuneMd>', $name, $tech)
+!endprocedure

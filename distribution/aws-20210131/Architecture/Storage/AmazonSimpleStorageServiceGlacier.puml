@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonSimpleStorageServiceGlacier
+
+sprite $AmazonSimpleStorageServiceGlacierXs [10x10/16z] 5SQt0GH14CEmjqDArt-zQn0XyGBEc9axX_C_r3dEh8JXhms9yyEMnj_VEyFtfq-hOlAS7aas
+
+sprite $AmazonSimpleStorageServiceGlacierSm [12x12/16z] 9Ok70SHG24Alg83kls_4l5yiW2GQBEvXhgyZhm-OJA9LG1cokwHAlFqRZxYUEiNzFZ5-ISw5aG5ffblKNlVJHii3
+
+sprite $AmazonSimpleStorageServiceGlacierMd [16x16/16z] {
+LSp50SH034FHW0Ln-kztvLd-jwU1A_cPfkLNBrj4egOGK2AAoofv4ifMNoxYLTPkSzx89fSlv4y20ZvEmdbetFJO9FronppFbwNEKCTHyJqVo3Qhvk4zWqLP
+2kCCgs3vVtW
+}
+
+sprite $AmazonSimpleStorageServiceGlacierLg [20x20/16z] {
+RSq7ZWH124DHROEDeUv_tWwLTj9NVYBadLOnoX-O6sDZ5y9xs7FXd3DmQ1YWTHCMDrOcpHqWu6xsp5SbcGg2ZA3hhge2pwfH4Z5DZoNX3AovHFO4FmvicnXW
+32keEZcScaRLWm4phBc8UX3sTnXJQizZ3_KvDofJhIC1U928l6iT--wkRRpRzeqN
+}
+
+!procedure AmazonSimpleStorageServiceGlacier($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonSimpleStorageServiceGlacier', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGlacierCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGlacierMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGlacierGroup($id, $name='Amazon Simple Storage Service Glacier', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGlacierMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/InternetOfThings/AwsIoTCore
+
+sprite $AwsIoTCoreXs [10x10/16z] 7Od70G0X3CEk11VOVrvIzB8bMmr9r-JC6W1OSvio0McBPhHjjufQDIEYQy5_sJeztPoUinC
+
+sprite $AwsIoTCoreSm [12x12/16z] JSZ70SC034BHD9gy_xuHJkNq7qdSQPS_D4aLxIs2YucPICMa-O0Wpz02UFuJyO77NUtL9XCVXS7iZXEjTl7I4m
+
+sprite $AwsIoTCoreMd [16x16/16z] {
+LSj94iGm34BHXGG2v_xtxM3tbBzxLE4xdIPzd3x-3XyJeDBnG69ZCgpRa2soCwnbCXSgGuom2Y8_PW8cNiEf9hgexMNtJl5ENLLZIzSPffjErncSZZEaZv_3
+2m
+}
+
+sprite $AwsIoTCoreLg [20x20/16z] {
+RSu53aGX38JXP3k2tF--Mzw4A7-q7pgxSNEQ3vmFd0yC6G1zCRlGio05rp7gB908haPZv4hNXwinT7OPYbc7K5KSOcpmkz8OqBMUXwhDAFgpHWzM4QZxnjS0
+si0nOy6g-Y5_sXVLs7HmNpo7Pjh1yBK7xWV-0G
+}
+
+!procedure AwsIoTCore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/InternetOfThings/AwsIoTCore', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTCoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTCoreMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTCoreGroup($id, $name='Aws Io T Core', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTCoreMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Containers/AmazonEcsCopilotCli
+
+sprite $AmazonEcsCopilotCliXs [10x10/16z] BOk70S0W4087eEs_RIxgMRu0xGhRv2RXdmPnPHs58cv6IuSrTA6Bq5afhktIEmSoUVG3
+
+sprite $AmazonEcsCopilotCliSm [12x12/16z] FOb50G0n40F_3On_jGUbXI1b7rY9dA62PX97wj8TgQruEhbICwjEpJHLhiP3YfL_I9JGgHlhZkaTNW
+
+sprite $AmazonEcsCopilotCliMd [16x16/16z] NSp95O0m24NHDN_ilrjpdFNjRWBqbq6RLC5q9UG8t5_4xWKDXxVt-S3BsHr2fSH0r-dTzMXtJjVGnzLaDx6Rk4xESXQjbLjdMUtBi7C76Nm5zzS6
+
+sprite $AmazonEcsCopilotCliLg [20x20/16z] {
+RSZ70S0m34BHCqZ0_jEcz_YxwcMK97kzKks3G4eaEmJAkpb7R17jrN9Rqa2_34fSyCDSe198YCgd4eSPF56dFT2NnQI_5WFUt_PXBdIs6jpDX7FatGJQjTL9
+525ToSUSLuO4VeAYNnar0m
+}
+
+!procedure AmazonEcsCopilotCli($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Containers/AmazonEcsCopilotCli', $name, $tech)
+!endprocedure
+
+!procedure AmazonEcsCopilotCliCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEcsCopilotCliMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEcsCopilotCliGroup($id, $name='Amazon Ecs Copilot Cli', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonEcsCopilotCliMd>', $name, $tech)
+!endprocedure

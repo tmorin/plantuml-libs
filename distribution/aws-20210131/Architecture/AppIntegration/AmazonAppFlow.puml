@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/AppIntegration/AmazonAppFlow
+
+sprite $AmazonAppFlowXs [10x10/16z] FOcv0KH158AYUQ3JVxsx_oPIIE89v9izryneUmmPR00NOsM5gmP5uwwGaxrxSgvl_W4
+
+sprite $AmazonAppFlowSm [12x12/16z] JOe54i1020Eh4Ux__ssevuHT9axK8UcVN9nbf9e90bALAOZS6MQstauskATqTV8v9LcZn8REY4Y-EDAv-9C3
+
+sprite $AmazonAppFlowMd [16x16/16z] NOkt0GGX30JVhHFzz_i7KiHaioORDth85UGAQbmaTr0T22HsK1t03pyTDqY6NvF7QIFXJz1sqp_jX-3jqdQISEnLOQg27BnMcHASPkt0Scfy1qtx5Qmh-0C
+
+sprite $AmazonAppFlowLg [20x20/16z] {
+RSr70WKX30BGNqW0lVzznubb9VPdSqKxVECB-eA-O3kMcP65RICn48LjeK1B1Ci6aigmI4Ki8vAG-V-BM7T3phI5EEUO3jYl4-kFa7-G1IReVQv9Tb2aFR3N
+mT4flA8-K44Iyaulv8ZRiSALRHVi5-mNV
+}
+
+!procedure AmazonAppFlow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AppIntegration/AmazonAppFlow', $name, $tech)
+!endprocedure
+
+!procedure AmazonAppFlowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAppFlowMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAppFlowGroup($id, $name='Amazon App Flow', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonAppFlowMd>', $name, $tech)
+!endprocedure

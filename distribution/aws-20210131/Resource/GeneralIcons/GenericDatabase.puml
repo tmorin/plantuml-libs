@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/GenericDatabase
+
+sprite $GenericDatabaseXs [10x10/16z] u-VdvmC1CCqF9O5yg20GWG3nB8Gf29C1
+
+sprite $GenericDatabaseSm [12x12/16z] u-VdvmC380F4H92y43QOukE7A86mGO1oDi8kP3S
+
+sprite $GenericDatabaseMd [16x16/16z] umS3FX00qX0EBvWBfA1S48bWyGAb8NfuUU5w8GP0-FmmC31yP8zW-WVXNGWF
+
+sprite $GenericDatabaseLg [20x20/16z] uyS1-FXuOO0F9WHamPcy40P2224Fqi87CmCc1kG0UH0fFfWO0WmRCLu-h6656QOu
+
+!procedure GenericDatabase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/GenericDatabase', $name, $tech)
+!endprocedure
+
+!procedure GenericDatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GenericDatabaseMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure GenericDatabaseGroup($id, $name='Generic Database', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GenericDatabaseMd>', $name, $tech)
+!endprocedure

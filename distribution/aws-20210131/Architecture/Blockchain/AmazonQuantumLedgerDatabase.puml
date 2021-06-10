@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Blockchain/AmazonQuantumLedgerDatabase
+
+sprite $AmazonQuantumLedgerDatabaseXs [10x10/16z] DOk54G0m30Bl6cp_XUlvIWImhGDv6jxMUo9EQtQNNL5LF5sD3TwELtsvJU8TUztXT0i
+
+sprite $AmazonQuantumLedgerDatabaseSm [12x12/16z] BSk74S0W30F05BNz5mQiunF0rRPKf1lNYGc06XOa_RmnpzSu9_wB9oQ-cXXT9gMOaYZRIZWyahWQL-CD
+
+sprite $AmazonQuantumLedgerDatabaseMd [16x16/16z] TSY54GCm34FHkrgG_IUkmiKN_7Pe8-cFmSYBAGoQR41ZUBeGTLiYnJnCDmEiUWn8DnApLeEgPVP0Mf6ch6pOaJOOa8UMWMB4xEbFFm4
+
+sprite $AmazonQuantumLedgerDatabaseLg [20x20/16z] {
+RSk54SGm34JHoOBN_LTyqeNX1_r6IZVENEK3yu4hk3gnoAGayj0ohiF6nK3P5g_6OQcOkysonFQmtBNDWCRPQhIm45nAbjqoI0Ayp473dTpVOrUaXaQwloap
+7LTBsRHwmLAsPXLBvJdiA1ysJ_l07m
+}
+
+!procedure AmazonQuantumLedgerDatabase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Blockchain/AmazonQuantumLedgerDatabase', $name, $tech)
+!endprocedure
+
+!procedure AmazonQuantumLedgerDatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQuantumLedgerDatabaseMd>', 'Blockchain', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQuantumLedgerDatabaseGroup($id, $name='Amazon Quantum Ledger Database', $tech='')
+  IconGroupElement($id, 'BlockchainFamily', '<$AmazonQuantumLedgerDatabaseMd>', $name, $tech)
+!endprocedure

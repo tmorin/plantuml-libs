@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupAutoScaling
+
+sprite $AutoScalingXs [10x10/16z] uq01R6muMUnihEpih6pi21O17GW
+
+sprite $AutoScalingSm [12x12/16z] uq07xEm89YiBWiF6XX1dOsE7CLZPsLc1N0GR8OMX5s4cmYvq
+
+sprite $AutoScalingMd [16x16/16z] ZOwr0S10548RRF-9K-NSNlKLo1CctVL0rqVAeRSbkwm4seIaiH_kp_fZdZ7l4ny
+
+sprite $AutoScalingLg [20x20/16z] fP350S0m30CB5ko_S9cvoRtC8Fz5EeVg-XHa14-5WDDYOh-NMdm0KT5c5G1q7Jltvjzo_krUWtxlNre
+
+!procedure GroupAutoScaling($id, $name='Auto scaling', $tech='')
+  IconGroupElement($id, 'GroupAutoScaling', '<$AutoScalingLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAutoScaling>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle dashed
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

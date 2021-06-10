@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonRds
+
+sprite $AmazonRdsXs [10x10/16z] DSOt0S0030EmAvxXJxUxkfJueal4Uw12t1ie4MT0gHQ08VrFRapWYYicDkYrseJARY-vd
+
+sprite $AmazonRdsSm [12x12/16z] FOk50KGX34DFMY9b_tMnBm-f9B6ruSQhd06hPs3t-EFizn9xRo4p0sjJXhArPADMpxSldnwKLiixhbAmR3EeNdAjGPHxhuqt4m
+
+sprite $AmazonRdsMd [16x16/16z] {
+NOw70GCn30BJ109x_tc3qlFdUhZQUj9FV0Xi5f-E6yRh-dJnMkDip6O9G3o85TX9UzbWtIeLIB9Mqm2pHQ0KnyFnTiyQAWsA1pU0vo_YtRGpCyXnt3fRGluZ
+xIN4rtZHsdizyPDz2Eu
+}
+
+sprite $AmazonRdsLg [20x20/16z] {
+PSq5TiCm403HzxgyyltFsx6ea4bCNzJTTSfTqwT1_n0IiMCciasZTd7CqwhNF0sRHammYiowvqQ8HTYNUnOwHYSJr9aduNDhpB9JFC8bs6EPOnhkhjT6cQUO
+-roRozYHUSGDcTQZEuoywEnd3LFPEKCrkSzI1Nl6KFKUIrsakXwmeMLCulw0fzuzzD--0G
+}
+
+!procedure AmazonRds($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonRds', $name, $tech)
+!endprocedure
+
+!procedure AmazonRdsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRdsGroup($id, $name='Amazon Rds', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsMd>', $name, $tech)
+!endprocedure

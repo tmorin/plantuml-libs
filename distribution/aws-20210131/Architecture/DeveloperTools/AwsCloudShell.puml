@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsCloudShell
+
+sprite $AwsCloudShellXs [10x10/16z] 9Ogt4GD14CEofxl-wnLsX8W6RS10aecNv4yNQnQPj33fOzvkGIRLLlv9FY5lCyXzH7Ru0G
+
+sprite $AwsCloudShellSm [12x12/16z] BOst0KD12CKglyJjFwy9NnUGAX8F6jAXBre1TAtJvaNCR3GL4dtnewiYqJ77In8IwfmYpyqkGdvLkSNEwsWo_04
+
+sprite $AwsCloudShellMd [16x16/16z] NOr90WCW2CHEp8R_Vs-hqZKd4nKINtJ9NzWkweHn5GkxZ4CnQa92d3yJEbH44Y1bTHii7b1sTyUm4biutaR0vDjLJjvEmmJU3jjdXxsUddtSA5uxR79PV-41
+
+sprite $AwsCloudShellLg [20x20/16z] {
+NSv13iGW34FHJKnib_kVTvf0DOWlLW-0sDONTpxmjFjaKm9vMO8PO-isi8v67ZOWMyg5Qdkf4iUsvp6eWIfgKNfDO72NqVQgeUIQypIYSLaZP8OA3xC6bkbl
+cIO07jPdIAfiDk8hGjPiTAVAzcnSkMkRj_q
+}
+
+!procedure AwsCloudShell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsCloudShell', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudShellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudShellMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudShellGroup($id, $name='Aws Cloud Shell', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloudShellMd>', $name, $tech)
+!endprocedure

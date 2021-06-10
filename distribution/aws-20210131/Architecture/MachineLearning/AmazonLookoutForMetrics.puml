@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonLookoutForMetrics
+
+sprite $AmazonLookoutForMetricsXs [10x10/16z] 9SQv0G0W20ImvZvq_tqLI9Ly_gJwaRfbWy1lcPGW-rWaTz4VUzP7vMpet79JSk_vwdi
+
+sprite $AmazonLookoutForMetricsSm [12x12/16z] DOs75GCn24DJh4_RVzy8lvpSL0pa8WoWbi8LvVkS8p_cIF3Tf98JuWQTbpqy9BdYSa3MPDSo74LEsOErSxh-eyrdsgZ53m
+
+sprite $AmazonLookoutForMetricsMd [16x16/16z] {
+LShB0GGW20FHWqmIjVz-5zt_t1uaDz_KpVbtQBibaBjZxAeQ0tTjcKAgSHV7HR2UW_LqFrzUPzzF1daw1gf6yN8i8LJa6cJPK4cx6p45JlOIISLrvkqTlG8V
+xtMRf_R_OJu
+}
+
+sprite $AmazonLookoutForMetricsLg [20x20/16z] {
+RSg72SH044DHy2ZDklz-RnCctIS_gNFoIQk-wDi_yp5E8b3GmML8CAkgWyS8q4B1kss0GliSZnb87WNNnkZrinykosSaL60zdx4DaTEgb5nhYvv65RyVWr0X
+lPxR064D5k1ZKWeTeCX9USU0kiLfT37BtW6Im8tRvhDFkRqBRxqxTl6x_m
+}
+
+!procedure AmazonLookoutForMetrics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonLookoutForMetrics', $name, $tech)
+!endprocedure
+
+!procedure AmazonLookoutForMetricsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLookoutForMetricsMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLookoutForMetricsGroup($id, $name='Amazon Lookout For Metrics', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonLookoutForMetricsMd>', $name, $tech)
+!endprocedure

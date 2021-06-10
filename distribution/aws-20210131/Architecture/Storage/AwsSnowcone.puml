@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Storage/AwsSnowcone
+
+sprite $AwsSnowconeXs [10x10/16z] FSR50S0m30Imqf6z_xpbH2ybVaZAR2BSQ9LnFEJIyU8zYE0tai0zym6vwv5Rpru
+
+sprite $AwsSnowconeSm [12x12/16z] HOU70G0X2CI-q0xstzUpHu44G7ISu4RtVioZUwWGPII6_Y8U6JfYkwkQRYV3eHtfNXb040zKPGUTke46
+
+sprite $AwsSnowconeMd [16x16/16z] NOXP0WKm10C_Y3JS_xwlUFjqOKQNix1P_mJzXL56mmwjW0yTKd9Ocqt83FWBZ3lkcMyT0PeH7wT8nSSH5t-v0_36hbVglE2HgdBHKd-X_i83
+
+sprite $AwsSnowconeLg [20x20/16z] {
+RSW53W0X34JHP3jJu_xtNPn8FzeNFJ_PAWgC0gF09JeYrIPE8edLnEnsYPoO6IgGIIBoqTsxGN4ZR1cKxAw3jX46LP5-5CyOJdYmcpyBx-4P3Qjh2S5DXhLC
+Dx-fHNZhk8jJAx0Ls0hy0G
+}
+
+!procedure AwsSnowcone($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AwsSnowcone', $name, $tech)
+!endprocedure
+
+!procedure AwsSnowconeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowconeMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsSnowconeGroup($id, $name='Aws Snowcone', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowconeMd>', $name, $tech)
+!endprocedure

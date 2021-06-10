@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTFireTv
+
+sprite $IoTFireTvXs [10x10/16z] LSf50G1008J006lzqvxhV2673seXlH8foXP89fOSytuUIVRufNmg
+
+sprite $IoTFireTvSm [12x12/16z] TSp50G012CJ00aYM_gizTvaFJl-ms9IaDm6pPWg2YLL2Eawoxcn49bLCNF-MlKlwQGG
+
+sprite $IoTFireTvMd [16x16/16z] ZSj50a1H24BHkN1r_wlztVdEo83waoT5w230TU277PQ5yFItP61iBtbiY-U-E13fISYJN7AXKm-WclG
+
+sprite $IoTFireTvLg [20x20/16z] fSrL0aHH20BGxm61_QzswdNNkHrgdj123702i96PhJixFKl-tv5AYo-eYIs09Oc_jSyd_YbshjJb31orGBNIia0v4yMlodCV
+
+!procedure IoTFireTv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTFireTv', $name, $tech)
+!endprocedure
+
+!procedure IoTFireTvCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTFireTvMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTFireTvGroup($id, $name='Io T Fire Tv', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTFireTvMd>', $name, $tech)
+!endprocedure

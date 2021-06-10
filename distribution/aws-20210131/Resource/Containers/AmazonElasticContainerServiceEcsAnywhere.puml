@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere
+
+sprite $AmazonElasticContainerServiceEcsAnywhereXs [10x10/16z] 7S710KDH2CEmSt5Czj-sl2-rzVHiEDakvZUHLUVum00UvebdFhiamDXM3FRPsFC7
+
+sprite $AmazonElasticContainerServiceEcsAnywhereSm [12x12/16z] 7Or10W0n10FFAndz_sytCYq0NY2yiXfxj9SKw8Ha7rzWjVaQvTT7C_6fFyNjcUi9vtTsnAqtOAd7a7sdofhQ7m
+
+sprite $AmazonElasticContainerServiceEcsAnywhereMd [16x16/16z] {
+HOxL0S0m24I_EMF_RKkelUZXlJXnVuHb5_D8WR0XQ9r0caFx_9gQKmCdSWx7YuMTrOPuW6-jSUtMewkmMtxYDtnZHlkj1-7ucQ060CwEfrYoKNd6Xy-bVZ40
+fd_YLrq
+}
+
+sprite $AmazonElasticContainerServiceEcsAnywhereLg [20x20/16z] {
+POzN5iGW30D_Cx9Hxd_R5QJntWwuJIhdZTVUiR3HRWkcWtxC46sStMYinuhoQIHIb25tCMOw3c0yenAWiAGkPrej9U77jVA4vAH-NAbeijEy3Ww1abxNh6UJ
+aF-_0S-_D9HKeD6QZdBaeaL_ntLN9S-FNDn7TrqrF5EJ1tU6q6C-_BK_
+}
+
+!procedure AmazonElasticContainerServiceEcsAnywhere($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Containers/AmazonElasticContainerServiceEcsAnywhere', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceEcsAnywhereCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceEcsAnywhereMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerServiceEcsAnywhereGroup($id, $name='Amazon Elastic Container Service Ecs Anywhere', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceEcsAnywhereMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Analytics/AwsRedshiftMl
+
+sprite $AwsRedshiftMlXs [10x10/16z] 9Od90G1044CQ6FHVxPwl15K2_bD21SZSfuRtNJ4HG1ggL87stwyb2GAs0G
+
+sprite $AwsRedshiftMlSm [12x12/16z] LOu50S0m3C0CBAb_jo-TCYX359BOQaaTuvJEeNI4L4TF8QQkdgHqI5bvCcSR6yJeFtzGwCmgRNQu
+
+sprite $AwsRedshiftMlMd [16x16/16z] TO-55GD1508Rc87-gutmBfvZzIChFP3XKObtu24-LlAGSwzur4RbLIVJuqC7WrsT922i3dSu-sfZIGSpjlAeOslBcLu_yos0llrdZtjyzme
+
+sprite $AwsRedshiftMlLg [20x20/16z] {
+NP293GCm308NWFF-sxP4Bh9A_bFyJiNJ75a_5VUALKOTYFwpMGzbk1xBPd95FhP8ZkrCsRFCMiPJKDdwzkJgi2o4J_h4BPc78SB6kcncrs5-RnqMJ__-lii8
+6KwlK8JLF2E67Etz1m
+}
+
+!procedure AwsRedshiftMl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Analytics/AwsRedshiftMl', $name, $tech)
+!endprocedure
+
+!procedure AwsRedshiftMlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRedshiftMlMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRedshiftMlGroup($id, $name='Aws Redshift Ml', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsRedshiftMlMd>', $name, $tech)
+!endprocedure

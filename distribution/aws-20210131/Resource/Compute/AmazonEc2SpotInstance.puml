@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2SpotInstance
+
+sprite $AmazonEc2SpotInstanceXs [10x10/16z] BS590G113CEmV-F6_D7kEP9Qg0z-KQQ5ODCaB8K6PdaD85kI8QMINJieXu-oLMy
+
+sprite $AmazonEc2SpotInstanceSm [12x12/16z] JKwr0GC029k9_lzjeOuxwP7T7iaaI5cjiIOHt5B8jQI63K1n0sCbcnOsWusPqjrOuCMjDheXlMxcti1hhC-lVmmF
+
+sprite $AmazonEc2SpotInstanceMd [16x16/16z] {
+JO-reGK0309h273xJ_lrsJLnWNyw7cmibfpz-apnDUqvAX3bhsqFvoyTswu7EUewdRc02vMjc1vLY0ssYJPrEeCpgk5E-Uqll_tafiQfomNcsFPlSppW_wlt
+Ov__3bQMa-vVppzlxni
+}
+
+sprite $AmazonEc2SpotInstanceLg [20x20/16z] {
+TL37WG112FekYDf_jmURBZCPnhWFPd-Y1QhV9xK542IW5SC9nPhOZY-cWqBb6AElwzwYOB3PaIt993KZ-fg8c7mYG9aRzDw1MDt5t2dp6FDH6-3rPiwwk6GD
+dhPpwBAzIqWCSqeCFwyOYvgZb7Io2ck8pQ2lClkkBUUNCYzHFtf0cGRFsIl-rzFVlVy
+}
+
+!procedure AmazonEc2SpotInstance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2SpotInstance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2SpotInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2SpotInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2SpotInstanceGroup($id, $name='Amazon Ec2 Spot Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2SpotInstanceMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/LoT/AmazonIoTLoRaWanProtocol
+
+sprite $AmazonIoTLoRaWanProtocolXs [10x10/16z] u-M10buUFdumuEFXuOS20YmalRn0DZStcCFD1GBSIB8
+
+sprite $AmazonIoTLoRaWanProtocolSm [12x12/16z] bSQt0S0m30F1ddp0-qzhvT3ggZERaIU1lydFrmKaZemgetUe5viA
+
+sprite $AmazonIoTLoRaWanProtocolMd [16x16/16z] jSV70GG124BHiyB7_glTdHmAc6TaU1dQ3msU1t-UmpEJw2M8X9D0HhtH0kmjxilGUcZ2I_u
+
+sprite $AmazonIoTLoRaWanProtocolLg [20x20/16z] pS-r0GKn40FHU5VMgFzgFnv3VcD-cSEfqAUWoIw-baCFCnrDn1potNy96B0DFsWFIwt-9hL_9bNL1xwhQpQD8VsdVdQAS2fl
+
+!procedure AmazonIoTLoRaWanProtocol($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/AmazonIoTLoRaWanProtocol', $name, $tech)
+!endprocedure
+
+!procedure AmazonIoTLoRaWanProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonIoTLoRaWanProtocolMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AmazonIoTLoRaWanProtocolGroup($id, $name='Amazon Io T Lo Ra Wan Protocol', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AmazonIoTLoRaWanProtocolMd>', $name, $tech)
+!endprocedure

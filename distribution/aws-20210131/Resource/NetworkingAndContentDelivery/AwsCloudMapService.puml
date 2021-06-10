@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapService
+
+sprite $AwsCloudMapServiceXs [10x10/16z] HOk10S1010CNQAxxJ_i03e2G_8xqkP5Tpjjn7MI7dEp2vJEfZ4HzAbE00G
+
+sprite $AwsCloudMapServiceSm [12x12/16z] TOot0G0n4C8MiCJ-qtw0scek4E9F2fmVjwFAzhqkk-9s0TbEE-8njS6lhppjnS4-9Iy
+
+sprite $AwsCloudMapServiceMd [16x16/16z] bSg53S1034FH1GpxJtiKfoJi5-LPyISXjSaorTQ9l9pZZtEMCqDGl2wriNn-2DZ2Ck4ToPhX1DKUzWKcP5Uo9m
+
+sprite $AwsCloudMapServiceLg [20x20/16z] jP350KKn3CCMa9tzf_teSgzFPPLJDo2eAwE0XpEToLLus0M19sT9Hc8u8ts59uV-DVewVPsPpYlWg_wkycslGSdn5ZN0cNF4r1UT-PXErHi
+
+!procedure AwsCloudMapService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AwsCloudMapService', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudMapServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapServiceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudMapServiceGroup($id, $name='Aws Cloud Map Service', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapServiceMd>', $name, $tech)
+!endprocedure

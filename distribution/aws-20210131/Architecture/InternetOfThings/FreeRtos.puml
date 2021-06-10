@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/InternetOfThings/FreeRtos
+
+sprite $FreeRtosXs [10x10/16z] 9SV50G0m20F0Jmow_xmr_5ALLxP7VZB5Et9R8IpbYYHu5GaNJouWNx9aEgkxwzTw_E4
+
+sprite $FreeRtosSm [12x12/16z] HSV70KCn3CFG54eWxVttZPpsSNf8uXDJhXdJduu5LI1OARVK5XwtgjGVeucFm_E9vMExsuptCf-SlTSfq_YQ5m
+
+sprite $FreeRtosMd [16x16/16z] LSwt0G0n24FHGbW1xp_lvVWhdYgovJFjVUpR-TaSTuTLalQReDIR4mB31ktkpUJOSXrsgMgCAjvsRQ5qEou0zkCMm3m-Nx4WUtR4EoTpzbdEvZFS_Wyh
+
+sprite $FreeRtosLg [20x20/16z] {
+ROy54iHG24DdDZZtl--6kgNzzl2aOfUloW-O7p0_uBpb8bkPOeogt0p2lSY4lWOeGyd2gz9aE224Yu6CVeOm6m1PcSbKKHK6Rdur3AIWqywcna2YFRPSiWA_
+7uAjsXwRTAQI_cU-TIXk6DRJp2dXOD64ct9NVy3-WFq1_m
+}
+
+!procedure FreeRtos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/InternetOfThings/FreeRtos', $name, $tech)
+!endprocedure
+
+!procedure FreeRtosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FreeRtosMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure FreeRtosGroup($id, $name='Free Rtos', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$FreeRtosMd>', $name, $tech)
+!endprocedure

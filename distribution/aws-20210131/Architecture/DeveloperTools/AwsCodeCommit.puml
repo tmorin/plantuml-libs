@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsCodeCommit
+
+sprite $AwsCodeCommitXs [10x10/16z] BOcr0S0m40Eh2Bt_l37yDO9BlD4cvjJeepKVG8BgjkUbAnZ07irsqlcCxOzTsMD_pbhTPFC3
+
+sprite $AwsCodeCommitSm [12x12/16z] FOZL0K0n20E_YD7zrtrIE-n2uX_z9BeXBfoGL9K8u7T-HkcR3gIY1RaDfa3KvqsHnFm7CEDmki8FoAFJ7NyaO_HFVbu
+
+sprite $AwsCodeCommitMd [16x16/16z] {
+NOd9bKGX3CGkr6P-_l5EFJod5glacInUvYTKwGt_BYBBkW-EhCBdGuDY5GstdW6KH8plpT7mA7OzzugS00RnFCTZGDJwfKX7tJl7oN2AdviLs1BhNyFqM2MJ
+h-4no_SJ_W
+}
+
+sprite $AwsCodeCommitLg [20x20/16z] {
+NSz74iGW34JHXILrmFS_xm13gFBVySYsjUFA2p-csx6A-fg2eTDUzsJa6A6tJC4dX1n5h7jJH0Rcrc6j3JCJkKpgXgUi69U334rBpeK5PjRVMaMvMp1HiSmf
+8S1A0TkY4gGrFx3tFcfCZxObqqqv_pNtlgsnnYihPoNhxJZpxLsuUDlxjHy
+}
+
+!procedure AwsCodeCommit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsCodeCommit', $name, $tech)
+!endprocedure
+
+!procedure AwsCodeCommitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeCommitMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeCommitGroup($id, $name='Aws Code Commit', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeCommitMd>', $name, $tech)
+!endprocedure

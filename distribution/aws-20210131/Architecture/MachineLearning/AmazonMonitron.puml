@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonMonitron
+
+sprite $AmazonMonitronXs [10x10/16z] 7KZ15S1G3Bb0wFxxrli9u7RUISbPN5mIIIpdA86mQyflN29Do8qaYxvsjh_xsjZ9qkBAxWS
+
+sprite $AmazonMonitronSm [12x12/16z] 7SYn0S1G20BHvdCgsN_Ve5Jlw5rbm4mCYJFQ9MPONyIYtjcjLoMznnaLRt-NK2DrsmqfwFuIHTPnmjqp4rzuTZy
+
+sprite $AmazonMonitronMd [16x16/16z] {
+LSe70eC034BH3Y2ZzxzlIJfKdEzhxc8dh-eIlXQX3NQj1D9XB8gaFM5inizTGJBpIGAoEmH_i9x0MDzV_T0uIGdf1vHsXqI58pDpR51VlpP80NCyeSkXF7l2
+fg-leTu
+}
+
+sprite $AmazonMonitronLg [20x20/16z] {
+PSinbiK024BHGa3Cx7-_eoPM_vNtGFajtpHLdHt-sc1zY8Wuh4623S70u1efi0EnE0OPuAmOPo9bxunZprE4u794WX6lIO3SW0X-XZRENG7olg8HjY5Wh359
+YMMrkNiwgaP1P-HdoLsAukx-5f6mCSkrnaa0QXexh6jjyVZiy8R_
+}
+
+!procedure AmazonMonitron($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonMonitron', $name, $tech)
+!endprocedure
+
+!procedure AmazonMonitronCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMonitronMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMonitronGroup($id, $name='Amazon Monitron', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonMonitronMd>', $name, $tech)
+!endprocedure

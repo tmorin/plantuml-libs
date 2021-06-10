@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AwsAuditManager
+
+sprite $AwsAuditManagerXs [10x10/16z] 9SR90SCm40EnnFPoIAd_UdNYXIpUQ0Q9rSRkToSZpg3Ep5gLt6qYHBefrrbiGvA-j2qJ
+
+sprite $AwsAuditManagerSm [12x12/16z] BSst0S0m24JHXakm_xosqbFWTsJpeOwrU6jJ8kgsJBjuMpJvsZPmEbe0b3pnEfJeJ4Iuo3ejYfIIcRitlNhh8py
+
+sprite $AwsAuditManagerMd [16x16/16z] {
+LSY7aKGX40FHgWD9FVpyyptSkiQ-gHEdvDTaL6JDp6uC1n8tSJqfw2rlYoBsTModTxcEAK1ok4v2bzGDppJJsgvwHchk8eMPVe9RqXlwyxB148VKCevtrFPi
+tAvdxy4_
+}
+
+sprite $AwsAuditManagerLg [20x20/16z] {
+RSq5Za0X48FXPAmjtF--EzZw_vGlY6vy0T0_EBuFBuwXk7bTNCOprHkVPLFrAzpmPOmpD_1z7iLCv9SnExZtIr_pLfNuVWPNSI8vtrfwTk4KvnpPS_j60Vr8
+MYPLIGYAKTUORgomGfY_UGEGc0ABrruHBSiQLzgTxxoDrpVxZXy
+}
+
+!procedure AwsAuditManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsAuditManager', $name, $tech)
+!endprocedure
+
+!procedure AwsAuditManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAuditManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsAuditManagerGroup($id, $name='Aws Audit Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsAuditManagerMd>', $name, $tech)
+!endprocedure

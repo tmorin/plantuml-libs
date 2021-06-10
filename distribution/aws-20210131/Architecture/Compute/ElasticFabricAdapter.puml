@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/ElasticFabricAdapter
+
+sprite $ElasticFabricAdapterXs [10x10/16z] JOd50G1008AkZFqNlYvU2f8u07JcM411dsFqrATPSgVWN-QfrXYIt55dhBCR
+
+sprite $ElasticFabricAdapterSm [12x12/16z] HSo73G0W24JHHBYo_y9sXRJtBKZY6K0Lnm1MJ4uWiSt4d1LcHhGMCSEQZckldtdUh3ZBbwspJvEhT5mn
+
+sprite $ElasticFabricAdapterMd [16x16/16z] TSk7ZGHG20DHwRu7qt_5vuNDOHIV1Kvr2_3RuBTXYSGEGm4wtAmzFLSZdKlpquOp_MM8crZHpKRIA8pRgadbU0Qg2Ernkm1FlItMsm__0m
+
+sprite $ElasticFabricAdapterLg [20x20/16z] {
+RSi53i0W44JHXB6z_udBrksts2EayvLc-S7yO7xm80BKZXiHaWZUZEpL9ayphIsehH9XDcQOiQq2Sn3TWF2mCMucW12QZhTJQNOodCF4T6QlRHlA5lQhsh98
+EbjrbAlwmVh1-i45
+}
+
+!procedure ElasticFabricAdapter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/ElasticFabricAdapter', $name, $tech)
+!endprocedure
+
+!procedure ElasticFabricAdapterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticFabricAdapterMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ElasticFabricAdapterGroup($id, $name='Elastic Fabric Adapter', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$ElasticFabricAdapterMd>', $name, $tech)
+!endprocedure

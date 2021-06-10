@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonFSxForLustre
+
+sprite $AmazonFSxForLustreXs [10x10/16z] FOh70O1G349F4NZPVrxrrrHQub6ISc4k9Dw5fNyqaAsdIWPs4XQE-yA-y0C
+
+sprite $AmazonFSxForLustreSm [12x12/16z] JOgt0G113CAgCyZUVzxF0JL4m2Sw808HYD38yitjIxezLgrLX-_xBHt-X0jFX8am4NO
+
+sprite $AmazonFSxForLustreMd [16x16/16z] NOtL0KLH2CEULc3_UQyV8tz1MX_eXYVDsy1bu39m6SGZZGYHuEA2193DRHB_WzjjyHZm1nv-CdN4ZTieru6p3B8CiWns
+
+sprite $AmazonFSxForLustreLg [20x20/16z] RSZ70GD130CnfnM7Kl_rEkSZdl0LBtfmI8TqI8Tqo0xPRIHAVF9w1GK8VPtGxPTKp-l2fj1QfxNqEBcXgdJIDH_dRWGO2jtlmI-t2paX9-I4d90JyW8
+
+!procedure AmazonFSxForLustre($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonFSxForLustre', $name, $tech)
+!endprocedure
+
+!procedure AmazonFSxForLustreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForLustreMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFSxForLustreGroup($id, $name='Amazon F Sx For Lustre', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForLustreMd>', $name, $tech)
+!endprocedure

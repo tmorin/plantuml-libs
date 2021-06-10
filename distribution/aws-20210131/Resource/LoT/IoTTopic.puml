@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTTopic
+
+sprite $IoTTopicXs [10x10/16z] XOT10W1010BlgFx_smNEEz0aAH8Ly0GfpCZ2j43aba49_XRtyYSf3m
+
+sprite $IoTTopicSm [12x12/16z] dOZ70G0W20F_fEq_hGfiuD6E934Vpi02YgiGASo3WlJMvBPaSpp3dzCFRYG-zEG2
+
+sprite $IoTTopicMd [16x16/16z] lSZ70G0X24JHCpE4_hjTbTJ1FkCdBdkYkGWfufq43x06f-9jl843C7S3gcd6uzpLKNvgl6S_2kf1Q1Itmz_t0m
+
+sprite $IoTTopicLg [20x20/16z] pP370SCm3CJUnB7iFwthnROs2DIXphbeCny83eAFQg0AU1VcOGGwR5eLIRSqJL9s0UdryNEakD2xJaVbb-XrvayThyEkKVNLAT5ZAOmkPPRGxm
+
+!procedure IoTTopic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTTopic', $name, $tech)
+!endprocedure
+
+!procedure IoTTopicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTTopicMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTTopicGroup($id, $name='Io T Topic', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTTopicMd>', $name, $tech)
+!endprocedure

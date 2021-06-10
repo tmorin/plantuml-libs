@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsAppMeshVirtualNodeGroup
+include('aws-20210131/Resource/NetworkingAndContentDelivery/AwsAppMeshVirtualNode')
+
+' renders the element
+AwsAppMeshVirtualNodeGroup('AwsAppMeshVirtualNodeGroup', 'Aws App Mesh Virtual Node Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

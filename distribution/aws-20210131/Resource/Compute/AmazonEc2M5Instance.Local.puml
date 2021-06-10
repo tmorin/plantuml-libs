@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M5Instance
+include('aws-20210131/Resource/Compute/AmazonEc2M5Instance')
+
+' renders the element
+AmazonEc2M5Instance('AmazonEc2M5Instance', 'Amazon Ec2 M5 Instance', 'an optional tech label')
+@enduml

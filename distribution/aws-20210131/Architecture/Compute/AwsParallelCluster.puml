@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsParallelCluster
+
+sprite $AwsParallelClusterXs [10x10/16z] DSQt0SH00CEm3oBb_IVsHLHegmESw1ZPhHa3VKG2Z6b2nghb7ts66kp8w31s-m8
+
+sprite $AwsParallelClusterSm [12x12/16z] NST10aHG0CFG6Thct__42a1MBq3sR1vJISU0lhQS35nKsWnIlnwnurcR1n3DfcwrWQhHwiSi
+
+sprite $AwsParallelClusterMd [16x16/16z] TOf70i0m3C8EWCd_NroSxgKsGueTQaUI7s7J8xG2F4AKrDq1sgU3p3j3VBYZ22KfFZHdaApfnLB_P5fyMB8DRDxOcOBAyIsGT3Wyd1v-V04
+
+sprite $AwsParallelClusterLg [20x20/16z] {
+RSY54SCm44JH6I-f_ugZZHc-y5wQppJB1-O3TxdYdu155om9fd8pSY6Kt4mYFKsaQYCHm8dk3TL6c1a1EHPMGyqB9kqsg4aGAG1QBGJXz15SAwwXEN_R6HRa
+fBOZ0QQD2zgvMN5lVE3um1y
+}
+
+!procedure AwsParallelCluster($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsParallelCluster', $name, $tech)
+!endprocedure
+
+!procedure AwsParallelClusterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsParallelClusterMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsParallelClusterGroup($id, $name='Aws Parallel Cluster', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsParallelClusterMd>', $name, $tech)
+!endprocedure

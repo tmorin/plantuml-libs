@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M5NInstanceGroup
+include('aws-20210131/Resource/Compute/AmazonEc2M5NInstance')
+
+' renders the element
+AmazonEc2M5NInstanceGroup('AmazonEc2M5nInstanceGroup', 'Amazon Ec2 M5n Instance Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

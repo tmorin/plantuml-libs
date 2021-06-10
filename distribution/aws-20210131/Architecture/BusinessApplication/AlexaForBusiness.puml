@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/BusinessApplication/AlexaForBusiness
+
+sprite $AlexaForBusinessXs [10x10/16z] 7SYv4G0m48F0v7xrtw-HYNPO6jS7kXhUJL9PvVAhMLzTiurqMzpUbMuA87FlaEds0G
+
+sprite $AlexaForBusinessSm [12x12/16z] 9Sc75KCX34FHD3Mp_xwn-8zsVKZpJLDARZCny0CV0zAUsbWHhBMc7fjq3CRdVeHmSZeGo_giMTPdCblTuPO_
+
+sprite $AlexaForBusinessMd [16x16/16z] LSs54O0m04FHaqXb_tt91NVUfpBFOvo7_NF2gYpA3Mk5946eJWZj99zsA2drj6G1rC-oRriS7ZFEjhi3b4r9vxaJfZA2J8mRo9Dn0vN1fnkoNDQfpt0Uft_X
+
+sprite $AlexaForBusinessLg [20x20/16z] {
+RSi7aiGW34JH2keWkFzzjrTCjhzDUWNzoCyazGskNmgkWwm47Lo3I0MKdhQ6fEZWc04wiO2daMLKbS1w6eX6BEkNpVCF4s79tOYrlMEDuEfsWPrb_wF0qZhN
+qXvq1KFgiOCYQcXiC4R0_RH15xtIqmQVZTtWli4_
+}
+
+!procedure AlexaForBusiness($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/BusinessApplication/AlexaForBusiness', $name, $tech)
+!endprocedure
+
+!procedure AlexaForBusinessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AlexaForBusinessMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+
+!procedure AlexaForBusinessGroup($id, $name='Alexa For Business', $tech='')
+  IconGroupElement($id, 'BusinessApplicationFamily', '<$AlexaForBusinessMd>', $name, $tech)
+!endprocedure

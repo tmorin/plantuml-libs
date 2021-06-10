@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2AmiResource
+
+sprite $AmazonEc2AmiResourceXs [10x10/16z] DOm50G0m20G3yD8_xOOUhef50JR80e7KRYCxwbQ3jdEcH5T69Ap-SP-X3m
+
+sprite $AmazonEc2AmiResourceSm [12x12/16z] LOx50G112CJ-90FzLtkkMS5bV1Z91IBKSGKSkXa1R19QG2u2rYS_PtxWhxyvuadmkyCA
+
+sprite $AmazonEc2AmiResourceMd [16x16/16z] bO_50KHH20FFP4BIVxNhlgS_Jt5e_46Q4MyKAn-m1abpsm8RRLVjxRd9QMX9SvU51aRe9kz7ENmutx-C6NkuVQsF_Cjc-43vcdVJCm
+
+sprite $AmazonEc2AmiResourceLg [20x20/16z] {
+bP150WH120FFIPFK_r-xxhurquO3D7SK63qmL8ixHeqUVPKeiYqTbvMZhE21CVGi0no8WQjTZtQzsjrobBtEUujpbANrQfVQlChxhsmoMiawN8uotxAgLDCx
+HdqrqrUptm8
+}
+
+!procedure AmazonEc2AmiResource($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2AmiResource', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2AmiResourceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AmiResourceMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AmiResourceGroup($id, $name='Amazon Ec2 Ami Resource', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AmiResourceMd>', $name, $tech)
+!endprocedure

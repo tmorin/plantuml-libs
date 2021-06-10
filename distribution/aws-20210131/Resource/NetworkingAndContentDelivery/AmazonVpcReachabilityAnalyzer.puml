@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer
+
+sprite $AmazonVpcReachabilityAnalyzerXs [10x10/16z] JOe50G1H38KA3EYVzbp-z9dONSoWMiAbt5Tlf80K5_0Ew185IvKPkalS0G
+
+sprite $AmazonVpcReachabilityAnalyzerSm [12x12/16z] JOe50G0m3CCCD9z_jQTX3eF6m18arcFstEa-1ozk_8vdi5xdlMlkPE-csnSaDxftm0u
+
+sprite $AmazonVpcReachabilityAnalyzerMd [16x16/16z] RO-50G0n308NuEZ-qxv1twyQJyQmnnr9TuMrGQcCmw68Ek2y7nc9xT4XssZxWuYDo8vLqpzuVhuoRS21jaxHpoWtCPEl
+
+sprite $AmazonVpcReachabilityAnalyzerLg [20x20/16z] PP272G0n30CNECdxR_k8DEC_MhYuLzar4J2iaIA7GpmSIMGBYJHHJTQVvYpvnRtsaUZ4aETglnHXkPMVPyzTuDRZtxp7FVRknarfTJQFo7carNvAL1ExwWC
+
+!procedure AmazonVpcReachabilityAnalyzer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcReachabilityAnalyzerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcReachabilityAnalyzerMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcReachabilityAnalyzerGroup($id, $name='Amazon Vpc Reachability Analyzer', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcReachabilityAnalyzerMd>', $name, $tech)
+!endprocedure

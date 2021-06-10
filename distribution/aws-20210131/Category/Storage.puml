@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Storage
+
+sprite $StorageXs [10x10/16z] 9SQ70S0m20F1L1Mo_xu1z3PmwhZ9RYa27ZGzuYlHrSBB4ObEQhbl996ZhsprbLFx1m
+
+sprite $StorageSm [12x12/16z] DOl70KDH3CBIRCJx--yRID69AeA-O5F-UdR4LsirhngEsOq5-IGlL1FnVKHRKmNL9bHVbjIzewyJ7C3bkte3
+
+sprite $StorageMd [16x16/16z] NSZ50SG03CJ00oyv_TSRPlr6UkKaNhkS1VPf0oZOboN-j-5UJ8ebUt4lXeJPtYsIfuMrAkvs2D2wZBduS3fBPcOFRMv1oUoXEtkRXzvQBJ_I1
+
+sprite $StorageLg [20x20/16z] {
+TSZL0KCn3CNG3zDrkl--rMDMqAVUwcwjdUsgkrLbrjM2t42TZ4yQUB6iSdCHDiPiaKo7WHWjfjtcLXEMuHx1PHwRXLf9ZBkbHdccLv-iXuBKYZwCch36Vh-H
+Uv6BWLghQi9eh05VLjgglJy
+}
+
+!procedure Storage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Storage', $name, $tech)
+!endprocedure
+
+!procedure StorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$StorageMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure StorageGroup($id, $name='Storage', $tech='')
+  IconGroupElement($id, 'Storage', '<$StorageMd>', $name, $tech)
+!endprocedure

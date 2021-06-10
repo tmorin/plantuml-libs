@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTDeviceGateway
+
+sprite $IoTDeviceGatewayXs [10x10/16z] HKp50G1027fRiF-s5tOhG8BC4ePh5WpFoSFXRjVl33UzdfFfJlN5jJkXkLZb0m
+
+sprite $IoTDeviceGatewaySm [12x12/16z] POt70G1120BVou3st-tbk2FfPtyWMuOr35a1jzUkbSIuOWcHqhJHlM6CS-zusmvP8QQjuzTUjVge1G
+
+sprite $IoTDeviceGatewayMd [16x16/16z] PScr4S1000F1-8NzLsjcNwGTzP_SBMldKDDc6mj1M4i6eHgHkYK5iYeH82bLF3may386Y8T9ukCnnjlFFrlQp8ZnKgYG9RWuMGomhU5kcUcl6G
+
+sprite $IoTDeviceGatewayLg [20x20/16z] {
+TT350S0W30NGSxwn_xPDtN4UplW9oQjbQ3V16nKJBua5BqH2fZkfsuq1Xywr6er1kcKjmMq1Wz4cL540UyLXzMaW7mQAU1hGo-z6k-ar3qsdtUwyM8REzsfv
+6A7hUpkbvwFEjRLzLkZTh8plC04
+}
+
+!procedure IoTDeviceGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTDeviceGateway', $name, $tech)
+!endprocedure
+
+!procedure IoTDeviceGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTDeviceGatewayMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTDeviceGatewayGroup($id, $name='Io T Device Gateway', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTDeviceGatewayMd>', $name, $tech)
+!endprocedure

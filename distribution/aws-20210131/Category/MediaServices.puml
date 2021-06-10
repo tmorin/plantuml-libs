@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/MediaServices
+
+sprite $MediaServicesXs [10x10/16z] NOb50G0n0CCELl1lUCpv52A9ZRsXK1eB8O1P0bTprda4qYPPb5nGPPO4
+
+sprite $MediaServicesSm [12x12/16z] LOo50G0n20DVWCl-2zVrAcW2n8HLUFJCHzyhDlBQjTz6NgxLN5TEGDkHlFhKHia59QcemomOP
+
+sprite $MediaServicesMd [16x16/16z] TOu50e0m30EHfEd_NmmLd1soHIOAxE8XINlcgJiw-o09WATM_CChJG4chilANNje0otoaUv-QrVjnz9WWBoAvDutLE65zDIkVpO
+
+sprite $MediaServicesLg [20x20/16z] {
+VSs53G0X343HvAhxJtmLt7wCFA2LYATM8YBUtZKRCQrzAZa1HW23OVaEzhYRdUFz1-IcmYJsaym-m3Hriu_-UZ5_E1iYsryOpDcA7SrKmjXA4wn9IVDHt0-M
+DN7RKGTyz0C
+}
+
+!procedure MediaServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/MediaServices', $name, $tech)
+!endprocedure
+
+!procedure MediaServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MediaServicesMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure MediaServicesGroup($id, $name='Media Services', $tech='')
+  IconGroupElement($id, 'MediaServices', '<$MediaServicesMd>', $name, $tech)
+!endprocedure

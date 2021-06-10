@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsBatch
+
+sprite $AwsBatchXs [10x10/16z] 7OZH5G00205_mFuJ9rVb7jjwo3UoEiFKXL29sw2Z26LcY10qM-V4bdupN0u
+
+sprite $AwsBatchSm [12x12/16z] DSVB5SD024FHZNxzDvpOZsFD05TjSx5BCGLBbBFrkSUialcOu4Lzlh4LlH_xXPLkwthP1Vy1
+
+sprite $AwsBatchMd [16x16/16z] NSh55G0X40FGGup-6rx18UZFctpnYAHSHLf1gXNDej0ccYbpju7b_nhZBiKa3QYUPX3w3laxXADsVXSpkqFA9B-ZL6ivttoSI8wLtorfQTwA5m
+
+sprite $AwsBatchLg [20x20/16z] {
+RSs54KGX30JG6TRel-4lISvlyOVbZb_HbVp1_C5C163mOOPC3ZxDrfU55FHbvdgGTn9HYU1OAjiN4Qf_golZPLUyxgvj6qICnUhQBamodSUqtEV2fJPJg4Sj
+2CwdkInrbzuXc8XEMIUJiM_TV_04
+}
+
+!procedure AwsBatch($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsBatch', $name, $tech)
+!endprocedure
+
+!procedure AwsBatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBatchMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsBatchGroup($id, $name='Aws Batch', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsBatchMd>', $name, $tech)
+!endprocedure

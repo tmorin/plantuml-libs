@@ -1,0 +1,28 @@
+' definition of the Item aws-20210131/Group/GroupAwsCloud
+
+sprite $AwsCloudXs [10x10/16z] RSat0G0m30EmAyEBFzq6GFKgFvQFd71cPuR9zdHZDo5r09kGBAnZtY-LdmS
+
+sprite $AwsCloudSm [12x12/16z] ZOkb0KG134DDCR3_k8VsqpDjo4_GB0ZioEPaTtLz_-sSh4QlpM-5nD06z9-rhAtw3XO_Ym3bSzu
+
+sprite $AwsCloudMd [16x16/16z] fKmr0iCm45kE1Ft_Tvl4zbxG97xz3Gqaq-JmraHsJx3oqPwEoQgQIVZIYSILXOJqLK13X70LSVTrZitciwTyuPAhW8h8Z2pIgoW2r2M-nni
+
+sprite $AwsCloudLg [20x20/16z] {
+lOs9aSH020EhF20UoVcdUvZpXh3Rypyjxj_0Qb7YBJtRvqe1IsUQ41x1lMC3I5XPdUIgRM4ezu2hO7jPrWuUz9NgjbftnDBqe2PGUoVToonlOLND_AAA3Hm1
+HGtiGE5VRfphF5YG_L7KbRbHt-0F
+}
+
+!procedure GroupAwsCloud($id, $name='Aws cloud', $tech='')
+  IconGroupElement($id, 'GroupAwsCloud', '<$AwsCloudLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupAwsCloud>> {
+  StereotypeFontColor $AWS_COLOR_DARK_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_DARK_BLUE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_DARK_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

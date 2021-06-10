@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/LoT/AwsIoTAnalyticsDataSet
+
+sprite $AwsIoTAnalyticsDataSetXs [10x10/16z] LKh30G103FktmVxJdbb6nYZQ1jjlsr4lv8U6FH4s8fwS1c8Eko5ZbYi
+
+sprite $AwsIoTAnalyticsDataSetSm [12x12/16z] HSZ90GCn58FG0Wp-_NSRazdU2MdaCWUOXQUZG5s8jJjNm_VdQStLUTkiUhEuJEFY_
+
+sprite $AwsIoTAnalyticsDataSetMd [16x16/16z] TO_50K0n24Fl90txJritlhnRf0NSqyORCWw0xWWp5MZgkgNLWAPERDRH0osjoT842U2tpq7CDVEF-HfCxJ13XqCxbyRGkYyk
+
+sprite $AwsIoTAnalyticsDataSetLg [20x20/16z] XS-r0GCm34JHNaVxJni-GvLVFgCId-KRPuSQkiSQ3B_sYnHSqpTRo3BBRpmD1F6AsvYs3IJ5L_fZReUXKsnZEkgsDGOFwnW-B6tRx6enHh_ihzqxQxvAdW
+
+!procedure AwsIoTAnalyticsDataSet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/AwsIoTAnalyticsDataSet', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDataSetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsDataSetMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsDataSetGroup($id, $name='Aws Io T Analytics Data Set', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsDataSetMd>', $name, $tech)
+!endprocedure

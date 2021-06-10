@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/CustomerEnablement/AwsTrainingCertification
+
+sprite $AwsTrainingCertificationXs [10x10/16z] 5SUn0S103CB0AY3itt_UO5MdcJJQoPGLnZv5xVjW8pUHanmu8TdLOaIIjpjasYixxGS
+
+sprite $AwsTrainingCertificationSm [12x12/16z] 7Sst0S1024FH2WMu_UUr9QhtB-uweymcbAW5W758SLW3GywCT9jb4h1_Gu0Stu2vMvDEE3wJSFvvbzhEQrpz0G
+
+sprite $AwsTrainingCertificationMd [16x16/16z] {
+NSuv4WGX34FH16sO-vztN6LcQsNlHzexCy_s8xGxc9um9eGkrwOI4nu7dxLhXm8SWNHS5J1IGrrpJIJXDTRgu5mlRuCqaRHBZ4rI6LSaBytJKrFIwkMScktP
+UOGN
+}
+
+sprite $AwsTrainingCertificationLg [20x20/16z] {
+PSq5OWGn34FHWYrPIkv_tWQxz8VV16phLYUFFkrpf3TM1bzD21wzLWcD6AXhGcALez8o9eUIynuOrfe9PkQS6mbAMfRoz1gyhHqR907_5lbR81vMSvarrqeU
+-vMD9DUssngJAYS1sSUQaQM88PxOsqf8-gH-q4_rWyUlzNVx0m
+}
+
+!procedure AwsTrainingCertification($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/CustomerEnablement/AwsTrainingCertification', $name, $tech)
+!endprocedure
+
+!procedure AwsTrainingCertificationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrainingCertificationMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrainingCertificationGroup($id, $name='Aws Training Certification', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsTrainingCertificationMd>', $name, $tech)
+!endprocedure

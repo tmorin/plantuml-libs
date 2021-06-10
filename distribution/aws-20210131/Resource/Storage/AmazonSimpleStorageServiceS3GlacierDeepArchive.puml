@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveXs [10x10/16z] 9Kh75S1G2Bf-bRB_je4NAyqYKhG9sQNciOKBaz0DQe91pXGlWtvOJRlSbKdEtCGD10Ju0m
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveSm [12x12/16z] FKh50S1027iViVstRQYXiSJSKef0sPRA16VBnEeaq6LvnKqlGB50gvXlV4QX2z_SOhAnOYay1tF6CVNZM7up5m
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveMd [16x16/16z] {
+HOr7GWGW54FNfDx_jav0dKVzBUc7-9AEaDGWkGoq-sAu-SPPN7280scP9gPo_--iQmExfCNcEZPlzH8H1wdPCTRJV6EvVR41Lq3w374EzBcus2_chZj0yHmk
+gOuaSXgx_G4
+}
+
+sprite $AmazonSimpleStorageServiceS3GlacierDeepArchiveLg [20x20/16z] {
+HOv10W0X20BF2qB__-qQLN4WcImTaRSIPXPnH0K9A9tR0cPDklsgC1dqe0kBjKYANELiPlyZ4Mptg6ecZeZr3Y6rWK0emVTxsk2COT5S_lluM6H-c9brqVsz
+5hCJEDv1WF6wxTMVe-9hcRHrQhKpQr9cKhpsjbGdsco_UmrB7jj_
+}
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchive($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3GlacierDeepArchive', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierDeepArchiveGroup($id, $name='Amazon Simple Storage Service S3 Glacier Deep Archive', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3GlacierDeepArchiveMd>', $name, $tech)
+!endprocedure

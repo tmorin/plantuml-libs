@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/InternetOfThings/AwsIoTEvents
+
+sprite $AwsIoTEventsXs [10x10/16z] FSR50S1G20FG2yIw_xxzZYJFrXoIVXp0gC5OtLMG8h0RWp7KXQOoY1fOiZNkonoF-Hv_
+
+sprite $AwsIoTEventsSm [12x12/16z] JOU70GCn2CJIk8BttpV7Tzc0P5i3WnznQc8SnG8JRRD-8T464anSNXNl5khx0pME4a5RgzlE7rOY77x77m
+
+sprite $AwsIoTEventsMd [16x16/16z] LSv70WGX44BHHGLGxt_VAMHIitk_WwuPFMYsPp_2qxGxcrKEUuoyksKhiEKeoAm2AWczyN76k5hs7oAcGhvlT8PEi56z250NEVg0Qw_tZeBsyIF8p_02
+
+sprite $AwsIoTEventsLg [20x20/16z] {
+RSz75e0m24NH0JtiVxz-i2jlb7FJ0_cPxSM0CM0CUDEDJSRihcm7hZ9bKaPYZMj78QweSG7DUplNMjaDGrLizoXycy7aiF3UIoHi9csj82OGv328kVGDSHjZ
+kvllVyh6ceippyBknXmm1ym1Dm
+}
+
+!procedure AwsIoTEvents($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/InternetOfThings/AwsIoTEvents', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTEventsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEventsMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTEventsGroup($id, $name='Aws Io T Events', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTEventsMd>', $name, $tech)
+!endprocedure

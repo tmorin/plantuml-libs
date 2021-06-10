@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsOutposts1UAnd2UServers
+
+sprite $AwsOutposts1UAnd2UServersXs [10x10/16z] FOY74S0m48FICDf_uhW-NyH9RGEmTEH2uMDOHWtJEWoDVD_xlhJ4rPc1WvJ-
+
+sprite $AwsOutposts1UAnd2UServersSm [12x12/16z] JSUr0G113CJ0XmNtt_0nMD78jcQaqpXD4y5jKi1mcBQ5PRN8xX1Q_mysUrdDuLsCbjDK
+
+sprite $AwsOutposts1UAnd2UServersMd [16x16/16z] TOc50S1048CguVBxJzpKdLSuXze1_0X-13-20-BgfKAShbn8gpU3GudL6-Kbx5veOHn7uWbYLMbndtF7Wq_QoiF3Zqy
+
+sprite $AwsOutposts1UAnd2UServersLg [20x20/16z] RSi93iGm349HQG33_KyytTia_bhzPBnNRzfoWsxG3Rh1ynPhiW89ZKRP-hsQ_QsE_OE9kTEkU0s-ucEX9DxfD0i7OeiuBNvDZn5FBE-swr3kEajdwUp1Fm
+
+!procedure AwsOutposts1UAnd2UServers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsOutposts1UAnd2UServers', $name, $tech)
+!endprocedure
+
+!procedure AwsOutposts1UAnd2UServersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOutposts1UAnd2UServersMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsOutposts1UAnd2UServersGroup($id, $name='Aws Outposts1 U And2 U Servers', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutposts1UAnd2UServersMd>', $name, $tech)
+!endprocedure

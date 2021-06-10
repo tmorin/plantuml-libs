@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Containers/RedHatOpenShift
+
+sprite $RedHatOpenShiftXs [10x10/16z] 5Sp90SC030B1n0QM_Yksc9TEW8ozolQLh93am0Pwb4O2lRxgDLYhf6GNRJpGTe6i6iu7
+
+sprite $RedHatOpenShiftSm [12x12/16z] HOe93aHH2CAI0SJxdtZwTzvYCMqxLv8Inbd0EBOfvnQK0YSO-MbcQuK5FomTeWoF-H6Dit7E5Dw6u1McaPE_zWS
+
+sprite $RedHatOpenShiftMd [16x16/16z] RSu73aCn309GoGRyxt_YWjFTMYiFiiQZnv2Sh-2O0BZ1qY0R2PQdxyOQxYLsrTFPjRMkoujIZ48yNUd7N0DGJ90nsIa8GN4AqHquOv-4C3rcaltPoud--mO
+
+sprite $RedHatOpenShiftLg [20x20/16z] {
+RSy54iCm34JHgPPy_nFNailD7zHBJEdyJhjSO2xmGKAdWuV07WaE7fA5ThIEzS3XMvN6ZAtPQTichqGqplyWtBOYe7Z-KzNOSXNKvYfYB0Ho8lqmXCypJ8uj
+eaXGXFkmiPZClDspRziSBRj_JDSqojdqRQFlrhktNU0T
+}
+
+!procedure RedHatOpenShift($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Containers/RedHatOpenShift', $name, $tech)
+!endprocedure
+
+!procedure RedHatOpenShiftCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RedHatOpenShiftMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure RedHatOpenShiftGroup($id, $name='Red Hat Open Shift', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$RedHatOpenShiftMd>', $name, $tech)
+!endprocedure

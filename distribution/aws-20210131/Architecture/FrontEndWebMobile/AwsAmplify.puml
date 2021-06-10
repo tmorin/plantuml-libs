@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/FrontEndWebMobile/AwsAmplify
+
+sprite $AwsAmplifyXs [10x10/16z] FSY53S103CNGKf8F--_ROukUp1PwfKCrLam9N-HKvX8Y8ugmAiUaqT1cazKZcxP_
+
+sprite $AwsAmplifySm [12x12/16z] JOg54OKm50I_yCxIVxz41tRiP3tGX7cLP4IkF4eLTWwlghCNBj0pep0agqK0v-6Mdggkgf4r8CVUoMJafzm
+
+sprite $AwsAmplifyMd [16x16/16z] NOg50GGX4CHUHbRwh_TS2Pf0xiIE_VPmvRlK7YoVleOWUFaI-2TzUIK9CNBnNM6GpjpT90LnzLwU9UluaDqbGn8XRHuC2H28M3szeD2ohRvIExdGG-WXp
+
+sprite $AwsAmplifyLg [20x20/16z] {
+RSi53WKn28JX9oEbtF--MzRj3x4lGworBTlnWlq5-mls3Itjjc83uCrMn1_YOOMk6HndamI84OSHS5sBsAm1b40n2hECHbk7XJdGaa9YZMEKcS7wvJ4SEwdP
+0mGGsgoYEL_PND-AAbymNp1VS08
+}
+
+!procedure AwsAmplify($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/FrontEndWebMobile/AwsAmplify', $name, $tech)
+!endprocedure
+
+!procedure AwsAmplifyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAmplifyMd>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AwsAmplifyGroup($id, $name='Aws Amplify', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AwsAmplifyMd>', $name, $tech)
+!endprocedure

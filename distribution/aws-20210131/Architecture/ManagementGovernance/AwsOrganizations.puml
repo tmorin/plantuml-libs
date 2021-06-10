@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsOrganizations
+
+sprite $AwsOrganizationsXs [10x10/16z] FOot0GC1308hWGxsdzV-V8q20TWJcsyDU4R7cY3DN5kizxSwbdFJwJla8aiQqond1xJD2Vm1
+
+sprite $AwsOrganizationsSm [12x12/16z] JOS70WCm28Iw3jV__zipdIGgbCab8kelZa9ijFq1ZpJj07JSWSJ7YzNr5FAFocb8AQIiun2eQgQhQrbtBVOd
+
+sprite $AwsOrganizationsMd [16x16/16z] {
+NOY70GCm2CCwi8t9__yMacvbWEGX3shy5_mNQXi1db0JU9VksA4cW15uUvaYzV5AH41-kqswETx229BPOLKfb15IJ5ZB80M8ZBJ7HN4kjbVsa9pzseSwUFml
+F
+}
+
+sprite $AwsOrganizationsLg [20x20/16z] {
+RSY53GD130H0AVRINV_znc7u7_7apY_Io4dcc9-JthcUXMxecUkUli36vPdhdge6kZutAHWmFZVfDkd-kabsLTFvtAG1PxpFjW0Dvtbf45q0ofdSKoX6LGgg
+DRdt4jm1YRJ097jlSGxIzuNa4g0GyEFsUibutl_kaxm2
+}
+
+!procedure AwsOrganizations($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsOrganizations', $name, $tech)
+!endprocedure
+
+!procedure AwsOrganizationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOrganizationsGroup($id, $name='Aws Organizations', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsMd>', $name, $tech)
+!endprocedure

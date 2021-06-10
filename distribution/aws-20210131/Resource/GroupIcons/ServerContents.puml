@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GroupIcons/ServerContents
+
+sprite $ServerContentsXs [10x10/16z] uqG276n0m05YiODOx60nTY3WmCdY06A83dO8HfY2
+
+sprite $ServerContentsSm [12x12/16z] uqG57En0m05Xiu41b0qIXxFPW0WXZfKD8J3Px1mSO3K8kr01
+
+sprite $ServerContentsMd [16x16/16z] uoG2iB620HkSpmu6I7ms860dGPw37OXmotE0I0xY-UmW4g4VuLx2
+
+sprite $ServerContentsLg [20x20/16z] uoG5SB130GT2Z8s55GnOs934s3Z0gjXGnDX0ojXGnI0qONKSOC16WHsq54E40TQm8WK
+
+!procedure ServerContents($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GroupIcons/ServerContents', $name, $tech)
+!endprocedure
+
+!procedure ServerContentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerContentsMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServerContentsGroup($id, $name='Server Contents', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$ServerContentsMd>', $name, $tech)
+!endprocedure

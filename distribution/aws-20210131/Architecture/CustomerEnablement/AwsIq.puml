@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/CustomerEnablement/AwsIq
+
+sprite $AwsIqXs [10x10/16z] 7SQt0G0m40An3WxU-w_hf4fjBguMt_uPMt-Im64mI4xUPEiDEyMPW7nbJTDlhRdU3W
+
+sprite $AwsIqSm [12x12/16z] BKk54G0X33jhf6N_UIj7_e5efXTQ39TM71SWyNCI88up0lByAcyS3Dir3cCxosd2QHodTZX1bKOix5ULEV_YZHWSRm
+
+sprite $AwsIqMd [16x16/16z] {
+NObN0WGX2CL-V0sy_taNjy_4cb2L5tvHjt1ST8QFYq8iVPmE18AV-SAY4ZXsLwRhxN6tx955C4EtAH6OuwVBLKAgZBUBGWtIovqi3UJnoUR42KvsTyVLzI9x
+mk4JzYqy
+}
+
+sprite $AwsIqLg [20x20/16z] {
+PSm5hWHH24JHBr3sUl_h7Lh6AyHERaZY-tGjis_xBW_gQdqOOBP5oBvRAofLe_0m5XiJMpNbQQWk71zFMol4kE_TRAmjAAxkV_eoDkQwWEf7fyGe9sRVpScK
+kRvUNJTzMDJtpewAdA4EMvgApMjZss3OoifztWRFvR5jyBwdVPSt
+}
+
+!procedure AwsIq($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/CustomerEnablement/AwsIq', $name, $tech)
+!endprocedure
+
+!procedure AwsIqCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIqMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsIqGroup($id, $name='Aws Iq', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsIqMd>', $name, $tech)
+!endprocedure

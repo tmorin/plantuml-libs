@@ -1,0 +1,157 @@
+# AwsTrustedAdvisorChecklist
+
+
+```text
+aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist
+```
+
+```text
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+```
+
+
+
+| Illustration | AwsTrustedAdvisorChecklist | AwsTrustedAdvisorChecklistCard | AwsTrustedAdvisorChecklistGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist.png) | ![illustration for AwsTrustedAdvisorChecklist](../../../aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist.Local.png) | ![illustration for AwsTrustedAdvisorChecklistCard](../../../aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistCard.Local.png) | ![illustration for AwsTrustedAdvisorChecklistGroup](../../../aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklistGroup.Local.png) |
+
+
+
+
+## AwsTrustedAdvisorChecklist
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklist
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklist('AwsTrustedAdvisorChecklist', 'Aws Trusted Advisor Checklist', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklist
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklist('AwsTrustedAdvisorChecklist', 'Aws Trusted Advisor Checklist', 'an optional tech label')
+@enduml
+```
+
+## AwsTrustedAdvisorChecklistCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklistCard
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklistCard('AwsTrustedAdvisorChecklistCard', 'Aws Trusted Advisor Checklist Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklistCard
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklistCard('AwsTrustedAdvisorChecklistCard', 'Aws Trusted Advisor Checklist Card', 'an optional description')
+@enduml
+```
+
+## AwsTrustedAdvisorChecklistGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklistGroup
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklistGroup('AwsTrustedAdvisorChecklistGroup', 'Aws Trusted Advisor Checklist Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsTrustedAdvisorChecklistGroup
+include('aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist')
+
+' renders the element
+AwsTrustedAdvisorChecklistGroup('AwsTrustedAdvisorChecklistGroup', 'Aws Trusted Advisor Checklist Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

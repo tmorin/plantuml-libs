@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AwsGlueElasticViews
+
+sprite $AwsGlueElasticViewsXs [10x10/16z] BOR50G0n3CDUCIZxxtlG6jLNUMLVaasLnbBeI9fvYVfz9qIQLyucZgnqNq1gkmiaF_rC-m
+
+sprite $AwsGlueElasticViewsSm [12x12/16z] HSb70WDG407GD6FuzxzlI7qhHR4lfAefdD02SEr1PqmpyTPiJTA6nS7Cuu7cdI68v2DIPf9qd2zPIWvR-kUIdW
+
+sprite $AwsGlueElasticViewsMd [16x16/16z] {
+NSYvOGL02CJGX1a1st-_Pl6_bJtLBHy1jVrwXsNegcG7OMLsboBli7XQs8xGkXF749pZ6ueGe-ioo9uLQ-EGGfR8FEt2NIYbh3m7J3VXkfrJK6CzFFLKpeTt
+REkVyGS
+}
+
+sprite $AwsGlueElasticViewsLg [20x20/16z] {
+PSw5ZSGm04HHwJnaR__zteGZvI_c6UTUxjpcqTVQJNslDng0QyKE7YWQJbOHy36Jp6r4jidwU-Qns0OCCBjjnq2DQOUrsXZ2Ox4dBNeGy66m04YTIwdswn4h
+mn4nJMZMVgl6VSyEgBVVBTuiG66hPYgRaRwidVTvvZqu-tciU7RO5_y1
+}
+
+!procedure AwsGlueElasticViews($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AwsGlueElasticViews', $name, $tech)
+!endprocedure
+
+!procedure AwsGlueElasticViewsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueElasticViewsMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueElasticViewsGroup($id, $name='Aws Glue Elastic Views', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueElasticViewsMd>', $name, $tech)
+!endprocedure

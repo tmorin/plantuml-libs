@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchLogs
+
+sprite $AmazonCloudwatchLogsXs [10x10/16z] HOn50G103CCCD9b_jSUGpw1G3oTdlRjG9EmlE5Q1i-bKntPqmo_vT
+
+sprite $AmazonCloudwatchLogsSm [12x12/16z] TOk50S0m408NW6F_QUkDvzw5RC0N38ktW6JvNnEBgpvmzu7tv-k3RdZsZqZ--v4J
+
+sprite $AmazonCloudwatchLogsMd [16x16/16z] XOw54GHH2CKQIA3_Qa-msT7DL_pb6z6SRR7siRu0h1lCHL28jQkXMFcDPGzA11LNlIodT0SG-LG7XiNEoJU-
+
+sprite $AmazonCloudwatchLogsLg [20x20/16z] fO_L0G0W20KNU0VxJskt_dac3Vw36hRehE4lJA9Po5GD4gjE1TQqLaGaxQNItNGQLCUb6S3SzbWbwBsFA82iPwtSiSVuzBfq9VWF4G
+
+!procedure AmazonCloudwatchLogs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchLogs', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudwatchLogsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchLogsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudwatchLogsGroup($id, $name='Amazon Cloudwatch Logs', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchLogsMd>', $name, $tech)
+!endprocedure

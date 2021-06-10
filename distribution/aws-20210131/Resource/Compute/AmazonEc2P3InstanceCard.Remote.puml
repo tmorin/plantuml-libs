@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2P3InstanceCard
+include('aws-20210131/Resource/Compute/AmazonEc2P3Instance')
+
+' renders the element
+AmazonEc2P3InstanceCard('AmazonEc2P3InstanceCard', 'Amazon Ec2 P3 Instance Card', 'an optional description')
+@enduml

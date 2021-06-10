@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Database/AmazonAuroraOracleInstanceAlternate
+
+sprite $AmazonAuroraOracleInstanceAlternateXs [10x10/16z] u-U30duGveTmUQ40n0JpG79GG3GBOJ8
+
+sprite $AmazonAuroraOracleInstanceAlternateSm [12x12/16z] u-U30tummSyFPV7oWaW80G8yGCI72lZXW7Gs7uA9x0O
+
+sprite $AmazonAuroraOracleInstanceAlternateMd [16x16/16z] lOz70G0m308D1Cw_skuje9STNe0F05tWaZIgAbi5kozzM56odD6LAjHpt1pylry_hzyC
+
+sprite $AmazonAuroraOracleInstanceAlternateLg [20x20/16z] pT274SCm0CF01GXm_srpJ4_i0GprlwwUPVWfjbklt4fBvSNOGMCCIo8yZ9B1PDiiXBssdbPHY-wqp7wxcd5YyPVCwP-UTGC
+
+!procedure AmazonAuroraOracleInstanceAlternate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Database/AmazonAuroraOracleInstanceAlternate', $name, $tech)
+!endprocedure
+
+!procedure AmazonAuroraOracleInstanceAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraOracleInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraOracleInstanceAlternateGroup($id, $name='Amazon Aurora Oracle Instance Alternate', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraOracleInstanceAlternateMd>', $name, $tech)
+!endprocedure

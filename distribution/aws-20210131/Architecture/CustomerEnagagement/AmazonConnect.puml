@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/CustomerEnagagement/AmazonConnect
+
+sprite $AmazonConnectXs [10x10/16z] 9SR70G0m20B0brBC_lF6Bfoj7lQuoMK3IAv0842MfYEXLZ38bfbCGAegfMphDRtpckSF
+
+sprite $AmazonConnectSm [12x12/16z] JSkt0KKn34BH7oM2zv_tGUTR7HmaDZHTezxPZdg0oQgv6Cm_mre6lnamtZz-ousTUqm_n1Q2vaIeyRX5wLpZ0G
+
+sprite $AmazonConnectMd [16x16/16z] {
+NOx50GGn30CFBBAt_tOFadrbNaP9tTbuqyUWZy7g1MWDTYycf9oxH-m0IEnPwwge2evdmXWmocGoOxdaDnAllgbIG0lwznC94IXdzJCDCZlOBEHU9DTi-XvS
+n-0w1by
+}
+
+sprite $AmazonConnectLg [20x20/16z] {
+PSfBcWKn24BXGLG8gVsljucVrQ_BpDyZQR_ZJ8F_xN-fGVA_8I9oT8pXkvByPKavoOYwPTkEJP-iYYxFqKu8w_hAW4jRmPm9hBItdIB3rLgt2RQX62cx2RdR
+L1a18U_OPkn_9I-CUJkorFjjR6by1dM6ZC-BFwPdS7Jii_m2
+}
+
+!procedure AmazonConnect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/CustomerEnagagement/AmazonConnect', $name, $tech)
+!endprocedure
+
+!procedure AmazonConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonConnectMd>', 'CustomerEnagagement', $funcName, $content)
+!endprocedure
+
+!procedure AmazonConnectGroup($id, $name='Amazon Connect', $tech='')
+  IconGroupElement($id, 'CustomerEnagagementFamily', '<$AmazonConnectMd>', $name, $tech)
+!endprocedure

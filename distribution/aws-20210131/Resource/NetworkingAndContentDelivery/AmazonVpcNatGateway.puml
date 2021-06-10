@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway
+
+sprite $AmazonVpcNatGatewayXs [10x10/16z] HOm70G0W408BU5p_j6xzlG0r47VFBK1MCs66gvjPbYEhjrbdSt-BKIgbF
+
+sprite $AmazonVpcNatGatewaySm [12x12/16z] JOq70G0m2CCCaE1VxVuX-uEsEG38XJZ0TIKdE5Vi5kPpNBWDp6v2C6Er1RmUfMghPysQmBvr
+
+sprite $AmazonVpcNatGatewayMd [16x16/16z] PO-50KD1348NU93zjssqzZb5JX8D9-8DeGHQxpQYCsXvc58LeD5gfXAvdMouzj7Sphauif65boDLX-MRBxy8_jntx-5zBwXzm_p_zrdFVxql
+
+sprite $AmazonVpcNatGatewayLg [20x20/16z] {
+RP275KCn3087yEcq_xGfFDB3BpOdNBTIRRTWYEQ5fyPXYi2jXAPymKrIb2Y5r6TsOJI9UlF59CZAtJRGK1Yee82K7PuQokOnzinYvcVBd9LEY-ayIoXHcDYp
+nKRjyaB2txlwVwV_xluA
+}
+
+!procedure AmazonVpcNatGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcNatGateway', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcNatGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcNatGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcNatGatewayGroup($id, $name='Amazon Vpc Nat Gateway', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcNatGatewayMd>', $name, $tech)
+!endprocedure

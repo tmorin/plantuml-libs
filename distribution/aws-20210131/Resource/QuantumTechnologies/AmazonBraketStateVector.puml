@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/QuantumTechnologies/AmazonBraketStateVector
+
+sprite $AmazonBraketStateVectorXs [10x10/16z] HKp50S1037edsFxRjkTn0PnZZFMNt_0c_nEWH2I57hC9z6_8ZrEJDR545UOK0KVN__01
+
+sprite $AmazonBraketStateVectorSm [12x12/16z] LOlL0K0120A_bKFsd_PrdXta0tFvXcRpV-zzm4UlBMLa6PLQJcYawXA7n4MglFKJsFQGdUCVvuHsVgm
+
+sprite $AmazonBraketStateVectorMd [16x16/16z] bOp5OGH030FVGlVVRHQI7Brk5crBcZVYTJ9JtzfQP_VqNIs9kmvxQelhMPYHIe82cUq4ZM2HNH-_W1PWV-iGMJLMlQdALKMPoytpVpqrfNb6wdpo0m
+
+sprite $AmazonBraketStateVectorLg [20x20/16z] {
+hP17WWCW30ElZ2oB__zsATkJt3BqeNi-erT9tzwNObTQLNYlCt4T5_BfIeLofEgwj76gitGa5zt0g1h0bXQeI8s5c_jsQuP2UxN8ClUyjShhz5CVLwjyhTFy
+mee7QrNu5Ginf26JBtVVPyxxVb7Wn_ZsVCK7
+}
+
+!procedure AmazonBraketStateVector($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/QuantumTechnologies/AmazonBraketStateVector', $name, $tech)
+!endprocedure
+
+!procedure AmazonBraketStateVectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketStateVectorMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketStateVectorGroup($id, $name='Amazon Braket State Vector', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketStateVectorMd>', $name, $tech)
+!endprocedure

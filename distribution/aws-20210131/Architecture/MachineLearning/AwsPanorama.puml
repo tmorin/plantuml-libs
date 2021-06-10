@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsPanorama
+
+sprite $AwsPanoramaXs [10x10/16z] 9Scn4S1G3CBGoY1_xxzlT9TN0Q0gsON4QEhCLAPufNthEHEJqHTg-4yUfSs4CofmzxJw
+
+sprite $AwsPanoramaSm [12x12/16z] 5Sc75SKW04BHNqBJ_VSDl1GlHoyraicyvWhFnloGr4fI44__9n48GFL6PNlsl752DUxgHjxWVECbkxwdPRq
+
+sprite $AwsPanoramaMd [16x16/16z] {
+LOu50iCm3CG6zfsT_V-_Ks1G5QMuK0il1DtNS3ppX2P8Zl1YENBMxOPCHaeh3To9n3CqdL0APPxr6JgX08VZAs3K5DCIOGpBnHqbkBo6VVvOcJX1crJXX4LF
+y6leDm
+}
+
+sprite $AwsPanoramaLg [20x20/16z] {
+TSpBTKKn24FHWP44Vltt6rqW_-GiZxQ1oaaJdsfHszelh4L5BBPLCiGuN1mB87jkQiDHcbDSSufCGZYpVsylqtRYqvmGH8ZKs4xQillVRXiZDqiIO4ZFA3I6
+TAY2Y3xmifLBlnJPzhg2YurjdgmfNPMjSIgtjlWv_WO
+}
+
+!procedure AwsPanorama($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsPanorama', $name, $tech)
+!endprocedure
+
+!procedure AwsPanoramaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPanoramaMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsPanoramaGroup($id, $name='Aws Panorama', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsPanoramaMd>', $name, $tech)
+!endprocedure

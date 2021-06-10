@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/ApplicationIntegration
+
+sprite $ApplicationIntegrationXs [10x10/16z] 5SYn0GD14CB0w41Qzz-ldqa0c0wkZBGlpHe4zbbUNjRo8KMHMF2WfN2_Kq5SMUSF
+
+sprite $ApplicationIntegrationSm [12x12/16z] 9Sgn0G0n24BHAl3nzj_t97cL0cRv8GbrRqjdgRVY0nmxixSmXzxGoRkxn_TsG4ImzuoTAEJ3rdBlRoe9v07y0m
+
+sprite $ApplicationIntegrationMd [16x16/16z] JSU53S0m34HHmQ6x_xvDKVa1-pdnNhhAq-TlVqs9u0gNfseD9w7p-DfsLmZvcQv1YdXDBwqTkQtGfbjUFggPYTJgzdXPxkLUrehtryl7JF_IushkBhlPyma
+
+sprite $ApplicationIntegrationLg [20x20/16z] {
+TSW5OWKX34NHIfxDt_z-6qQ0saLpz5SP-MxQhjFk7qUtkKZW4wFYPM8xI-v0jns7smWwbtatwpPV5fM1MWRPh9O-qqf4KHPBjr60KKg2QOVTkpmiZtK4al2q
+ryiQ1kMo30lOrNNxj4O_oRciE-wI_qnUwUuB
+}
+
+!procedure ApplicationIntegration($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/ApplicationIntegration', $name, $tech)
+!endprocedure
+
+!procedure ApplicationIntegrationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApplicationIntegrationMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ApplicationIntegrationGroup($id, $name='Application Integration', $tech='')
+  IconGroupElement($id, 'ApplicationIntegration', '<$ApplicationIntegrationMd>', $name, $tech)
+!endprocedure

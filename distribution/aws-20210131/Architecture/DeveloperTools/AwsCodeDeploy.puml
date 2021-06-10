@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsCodeDeploy
+
+sprite $AwsCodeDeployXs [10x10/16z] 7SOv4S1040EmQlqUVxpnH9KIZsOJm7yYPZD44bI5ES2DXfJROEoj_-BNQfAyryby
+
+sprite $AwsCodeDeploySm [12x12/16z] DOc50KGn24FF8gH__tcFsck1I58JJpADTRNu0xYqDPyuDKKAWZq2W_hrgp4yaLMjHx5fkJH8A4k7ZPDwPj6aUThCRl87
+
+sprite $AwsCodeDeployMd [16x16/16z] {
+NOk54GCm3CHAJqxsdxTV1WMbEy_aWH_CNvXx442zlNRfujEDq879XzE3r0tPQt86pvtePhoM4P-T2f2iDMAOeGNN6oAorEfbA47uyWi9U9w-A4hrXdrpYoNJ
+i1lkp8Fz5wu
+}
+
+sprite $AwsCodeDeployLg [20x20/16z] {
+RSW5ZWHH24NHPE0PLVjVxv1skryvCvDxlZNRBvixvCtOLGMzc9kWcesxBJcx8GDtWyT8oBYLYncshaU4xUCO5b1_sDEeSh96pW29Qi_LZe3nkXcrihQDRLdQ
+urnj4yZTdRoOQ538l1XQP7TcdYPHCjOMpukvqTYM5iyhNeUvTYxUcxjjd_OF
+}
+
+!procedure AwsCodeDeploy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsCodeDeploy', $name, $tech)
+!endprocedure
+
+!procedure AwsCodeDeployCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeDeployMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeDeployGroup($id, $name='Aws Code Deploy', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeDeployMd>', $name, $tech)
+!endprocedure

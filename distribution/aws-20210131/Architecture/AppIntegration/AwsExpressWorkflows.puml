@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AppIntegration/AwsExpressWorkflows
+
+sprite $AwsExpressWorkflowsXs [10x10/16z] 9Oc73S0m20HLW2_UVz-SbBE1Bqbia08IKYNRDJItUoUKI9ZxrTsALfJd-BMv2poaQL18G7u
+
+sprite $AwsExpressWorkflowsSm [12x12/16z] JOfH0i0m345_aa3lVzz5lcPh-q0hHW3qCuVTPxo8gi4QQwe0J9XTJNGtmhkUNBVfsuZF9ZAGzDPuHj6BaNmSiuhv
+
+sprite $AwsExpressWorkflowsMd [16x16/16z] {
+NOtL0SKm4CCU76V_VNks-nKLfL234hdq5LwFUCFGqoqLPiD-_fOAw-NcH1xxPpif8-bh5fssNuSdfdV00-w0ysivkp_t2u_UUWvFDAjgS12ci4Aka3aZPn3q
+Apm
+}
+
+sprite $AwsExpressWorkflowsLg [20x20/16z] {
+RSvB0iGW28FX1P0GUl_xZZYmy-_xQwlgbXixFL0FNACx5sii4CZ1-cFIZ3bL8zpTx1mO4yBSxrDWpG4u9081ZFLtgVGu6TigsY1Oc--_nB4aJlmRO1ufPGBg
+orSdpbgSQlmkbcYUchv1CAYrmOnGhLtSnXxuFV07
+}
+
+!procedure AwsExpressWorkflows($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AppIntegration/AwsExpressWorkflows', $name, $tech)
+!endprocedure
+
+!procedure AwsExpressWorkflowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsExpressWorkflowsMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsExpressWorkflowsGroup($id, $name='Aws Express Workflows', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AwsExpressWorkflowsMd>', $name, $tech)
+!endprocedure

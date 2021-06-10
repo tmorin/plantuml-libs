@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsLocalZones
+
+sprite $AwsLocalZonesXs [10x10/16z] 5SQ10SCm2CJ0Dk4H-qySlMpWW6s9SaUACGcPoDqZxynRtRed5O4iIWeuMr6rwWC
+
+sprite $AwsLocalZonesSm [12x12/16z] HSo50S0m40B06hB_n8Mln8_8I-BJ03K04yghBI6-Bk0rupEJTCwZywmjv3vlQhS0eB7mreldLQpQnNYb6m
+
+sprite $AwsLocalZonesMd [16x16/16z] NSY53GC030D1gJ5a_uaRAhx8PrTwHT9_nve0n3w6s5IrU_F750F1jH300p7Ej6i2NoQWEg5sfQ85-cooFESuNRjfhrC0FUKTzFdoot_74m
+
+sprite $AwsLocalZonesLg [20x20/16z] {
+RSg5ZKKX04JHPCVel-8TBD_UnK_8pA_Kye1vm4D2e-HsZ10hMEP51N2jbq5m30gwPf0cS3-EPO3m9m3R9e95igPjHH9q1CBRYeQSMDIrefGcE3bMX6jGshLX
+9cHMro8AEOsBX5zsyTLuzR87_0S
+}
+
+!procedure AwsLocalZones($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsLocalZones', $name, $tech)
+!endprocedure
+
+!procedure AwsLocalZonesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLocalZonesMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsLocalZonesGroup($id, $name='Aws Local Zones', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLocalZonesMd>', $name, $tech)
+!endprocedure

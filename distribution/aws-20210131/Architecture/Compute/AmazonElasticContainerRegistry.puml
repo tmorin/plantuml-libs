@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AmazonElasticContainerRegistry
+
+sprite $AmazonElasticContainerRegistryXs [10x10/16z] 7SQn0G0W3CEmfOxp_yC0rIGr7-puVG7cNOcPIUeBC-m8_E4cRM10svh4ly_d0W
+
+sprite $AmazonElasticContainerRegistrySm [12x12/16z] HSV10K005CDGQDg__yGAoEabYUyW_rn6edPY2dRgSBraJoXrUseCl-NBnWX8FK6IazIzTlc_0m
+
+sprite $AmazonElasticContainerRegistryMd [16x16/16z] RSs50SGm00B05oJxJroe6zKZvaHRIFfQB7P-rc8XagKfsN_YpyNHl6JtjgJ56BC9NGpbnjcATJAuUkJNA2dNmpaxbvpKRSHgSwjtJm
+
+sprite $AmazonElasticContainerRegistryLg [20x20/16z] {
+ZSs7ZKH120DGwMm3_LTy636R4p_E8wKZhg6EV87v0lCWgOCh0ecZMmJ_ZwuHcapeZsk1hJvrrGSCgGLJMBNcaH376cb3UCWl5c1IQxEN0QMViN97Lp05TNgi
+Eay8JZbCLi5zkNPqOkrPwmN-0m
+}
+
+!procedure AmazonElasticContainerRegistry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AmazonElasticContainerRegistry', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticContainerRegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerRegistryMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticContainerRegistryGroup($id, $name='Amazon Elastic Container Registry', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonElasticContainerRegistryMd>', $name, $tech)
+!endprocedure

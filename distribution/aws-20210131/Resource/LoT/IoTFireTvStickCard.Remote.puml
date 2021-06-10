@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element IoTFireTvStickCard
+include('aws-20210131/Resource/LoT/IoTFireTvStick')
+
+' renders the element
+IoTFireTvStickCard('IoTFireTvStickCard', 'Io T Fire Tv Stick Card', 'an optional description')
+@enduml

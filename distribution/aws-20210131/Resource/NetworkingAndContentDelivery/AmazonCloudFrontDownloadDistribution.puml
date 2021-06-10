@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownloadDistribution
+
+sprite $AmazonCloudFrontDownloadDistributionXs [10x10/16z] JOo50G10544NmDj_skluNG1YXzLpYaTVRTIJPa_uJwCkxkZU3nULhzm1
+
+sprite $AmazonCloudFrontDownloadDistributionSm [12x12/16z] VOt50S1G348NAB3_jaLgfxulyI03eqBGW7Nzx21Fy-sijeO_doQ-aF_OadVdLwi0yqu
+
+sprite $AmazonCloudFrontDownloadDistributionMd [16x16/16z] ROy50S104CCCD7t_QWSPmp734Bg0Xa00mfux36AD4ipirbrc7wZAA1higkMUfxzvrhn6dLU0BaRsIX8LhtlUztx_UVyx0m
+
+sprite $AmazonCloudFrontDownloadDistributionLg [20x20/16z] {
+RP250S0m408N0BB_j1LozHBbely39GbJW5NvmiR4CaZA3jf9x4e7rtLdYc1OvezHuUqmQgzJrvCvcN-Oz6AybSdsMj3QDtPBU0sC_OIX8gmrNh6H0nJfDrV_
+EVtB_Ge
+}
+
+!procedure AmazonCloudFrontDownloadDistribution($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudFrontDownloadDistribution', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudFrontDownloadDistributionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontDownloadDistributionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudFrontDownloadDistributionGroup($id, $name='Amazon Cloud Front Download Distribution', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudFrontDownloadDistributionMd>', $name, $tech)
+!endprocedure

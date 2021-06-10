@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonTimestream
+
+sprite $AmazonTimestreamXs [10x10/16z] 7Oc70G0X20E_0HTa_ta_UWgaTCjWh2YEKaAbZgfAEvQyCmAjBeWCMUqsFgoGAht64jhCBBFL3m
+
+sprite $AmazonTimestreamSm [12x12/16z] 9Os50G0n30BV8f3kF-z3UvLu867QaBI3utUAmlPbKT4ulWYtZVpkY2-06RaL6ML_vuLzhyY8j0ytbNNM305kbW91ymC
+
+sprite $AmazonTimestreamMd [16x16/16z] {
+NKu9aWGn2DgT4HII_xztj9EwcfnSLTewg0E_18-GZTBbJZ2JA5tUlmOfNGwI03J2iZcVJEPKrdAmtq14bDISDLuYg8T3jW99N4uomOZlmnTdn8dpy68rvnbz
+jw2QSJtG7c7WW_qIVW
+}
+
+sprite $AmazonTimestreamLg [20x20/16z] {
+PT07aWKW20FGcOM4MEv_taNmzqn_niQSSpoYcvdvjTzcaGY0yMu4Gq67Ma_DLTlbRsRUFOkHQOEYjkVUQgwLDiuA0sHLZnaY6mvtSvMjt4k0BhXnF6psJI7X
+sZIU7Q3dPbr3r5u2_lUqkNApQ2HhRuRins3qGFP14Pb8ADo5Qxvd5tRUR7_RFm
+}
+
+!procedure AmazonTimestream($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonTimestream', $name, $tech)
+!endprocedure
+
+!procedure AmazonTimestreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonTimestreamMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonTimestreamGroup($id, $name='Amazon Timestream', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonTimestreamMd>', $name, $tech)
+!endprocedure

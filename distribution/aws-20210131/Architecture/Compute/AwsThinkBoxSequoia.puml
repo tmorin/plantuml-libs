@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsThinkBoxSequoia
+
+sprite $AwsThinkBoxSequoiaXs [10x10/16z] BSP50G0n40ImWo7_Yjk5l69RXQoHrKxNGgCY0l_k9_-QGHAG4lEIdKkoQwLs
+
+sprite $AwsThinkBoxSequoiaSm [12x12/16z] JScx5KG120BHG4Ril-8Lz_U8xXniztlWHnmb4Y4WY4L9HNMFMMtfJ46THuXySPC9hySfxoOBplzw0G
+
+sprite $AwsThinkBoxSequoiaMd [16x16/16z] TOo54GGm3CFk6ilf_XD_usTIKQ4--0xG7u4E1WUYMBf5KgrnGTo5L2MnYCirNjJnlLDRKo3YU0bgeNYBCaoJumMQhHNV3PcX6Ru72uuDExJf40z__08
+
+sprite $AwsThinkBoxSequoiaLg [20x20/16z] {
+RSY5TGKW44JHynbP-gyuWySUkhT6VYdLFrZ_O1q4T72BJ5fRfrYCPLypP1ZPLjEoVFGHa4kDiHwZ8P8Wp6czf0mDQ0AtTScPqmVcioRdPjEryPs6V9SL8f0G
+RQxOm3dI0brLiQcHeJNhkoVFUhtwwza_-0K
+}
+
+!procedure AwsThinkBoxSequoia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsThinkBoxSequoia', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxSequoiaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxSequoiaMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxSequoiaGroup($id, $name='Aws Think Box Sequoia', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxSequoiaMd>', $name, $tech)
+!endprocedure

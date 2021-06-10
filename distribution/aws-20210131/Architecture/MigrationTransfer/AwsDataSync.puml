@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MigrationTransfer/AwsDataSync
+
+sprite $AwsDataSyncXs [10x10/16z] DOb10e10489EWxhz_xyvLPmKN5GWUPTsmUnCg1oaOxNNTo6mTWqp7Jv1aijrIfAkV-O6
+
+sprite $AwsDataSyncSm [12x12/16z] FOd70KC1249F0i-__xuXfbYeUOyxak1lJcjq1gYOSs3bMoqADPxJZfI-TrjhtCiogeYJF8iXGFMp7RxwRtW1
+
+sprite $AwsDataSyncMd [16x16/16z] LOmn5W1H10CR2Upzxxk1vaytmqiCFb1aFk7n3jc1PhYGWXA04_gE4FTIcJVY4wfYDZe0wnu1A70yQThj04RVOO3PfcWd9Hx3rmFHUxlwAJGvo9_G_dxy
+
+sprite $AwsDataSyncLg [20x20/16z] {
+NSrN0eH020FG3nB2wFtlkmomjjYVb1KTTNnd3MfosQTo3UfAMQe0yC8oGI52aofBoi3CBnDcf7VfSMJPjOdcRRqeAewoGwelLh-D4Iu7i6tgbfio--xm_956
+EacOWbIqAKKY6BFeJ0n4xVrlFnCxgrDstbOf-rIMVIlZ1m
+}
+
+!procedure AwsDataSync($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MigrationTransfer/AwsDataSync', $name, $tech)
+!endprocedure
+
+!procedure AwsDataSyncCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataSyncMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataSyncGroup($id, $name='Aws Data Sync', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsDataSyncMd>', $name, $tech)
+!endprocedure

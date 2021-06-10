@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Storage/AwsSnowballEdge
+
+sprite $AwsSnowballEdgeXs [10x10/16z] 5Op50S1G2CKkm9Fkls_pWslYXwJW3iYqEt0gdLtKrPvzE7em8zVx67hr6wxz5VYPVAIGv0S
+
+sprite $AwsSnowballEdgeSm [12x12/16z] JScr0GC040B01ddPVzyyyQkGxgxmINGa5mD0CYM0WZoN6L0btsd2oPP4i98JILmUV_DE5EdkVPME_IiF
+
+sprite $AwsSnowballEdgeMd [16x16/16z] NOv50e10480kq_x_lpB65YReHaAyU3CSFdVxUTnKH45uF2vc0dIyS7TJDQf6LE4jfC_LBS6cYz9wki_1QFAuQoDzMVktd-_xLI_PkuhCQuJ0y1a0Fy8D
+
+sprite $AwsSnowballEdgeLg [20x20/16z] {
+TSX90W9120F00mcGxl__rwYpBtKiMQ_gJm_vSaN38ly73vDC5-Dt3GyG0P20RqX0gzEgozSrXg-8dqZu-d_e7nokqRBcTlGnMSL0Pg_NPG4YQhcVJ1V0tmsk
+KEx_gTAg8bsfxZbMOY3GKiz3TfPayvYB-P3p8Jy
+}
+
+!procedure AwsSnowballEdge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AwsSnowballEdge', $name, $tech)
+!endprocedure
+
+!procedure AwsSnowballEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowballEdgeMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsSnowballEdgeGroup($id, $name='Aws Snowball Edge', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowballEdgeMd>', $name, $tech)
+!endprocedure

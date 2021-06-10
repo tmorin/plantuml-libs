@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint
+
+sprite $AmazonApiGatewayEndpointXs [10x10/16z] POo50S10308No1txJrllQro0H02JY6yHAYaGGNdR6_k4T4PNwSed
+
+sprite $AmazonApiGatewayEndpointSm [12x12/16z] PKu50G0m20k0h7zQz7xS6G2L84LI-22H3iD99XgM0GwNZAnNHzFf7--Pp7etgkVDyzU9mG4
+
+sprite $AmazonApiGatewayEndpointMd [16x16/16z] TO-30G0m30GNUEm_RMrS6ITEgE6Am0BKH7MzwfqSREPNLQnoKOY6c6KAPfRfAfj3pgv_UVVVyvtrpdxsVkzvpdaZ
+
+sprite $AmazonApiGatewayEndpointLg [20x20/16z] bT350S0W50FGEvA__xH8cZgQAW_762Xs9rnv4DISA09888g2Ho4VY2BshXyYwYVYCCG0WfNRgkaxjWZ4lcsCf_kvbiQQ6tjhd47phDfdsZhx3
+
+!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint', $name, $tech)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayEndpointMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointGroup($id, $name='Amazon Api Gateway Endpoint', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonApiGatewayEndpointMd>', $name, $tech)
+!endprocedure

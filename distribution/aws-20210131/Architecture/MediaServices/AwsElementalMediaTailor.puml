@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MediaServices/AwsElementalMediaTailor
+
+sprite $AwsElementalMediaTailorXs [10x10/16z] DSR70G0n40An2mou_uQTLoybyG8rCuC4TWBwaTrYmKzDUooQEtNIfanhzG4
+
+sprite $AwsElementalMediaTailorSm [12x12/16z] HOg54S1G38KgJxB_nANEby1TskR6xX-tImvWXgjQPDzb9TCmlDluu72xO_lUcTwHujD00QVWyhyE
+
+sprite $AwsElementalMediaTailorMd [16x16/16z] TSf95W8n54BH0TtV_ugbajZhcrqEQRudAHz3FePD0QhQ4YcHFAQCPkBOO8DOpyIrNVjk4Y1yJC6sxl-XpUQx8reowQHkLglQx79lxltn3G
+
+sprite $AwsElementalMediaTailorLg [20x20/16z] {
+RSm54iHG30BGcHB2tl_42waBrVyYIleC7NsWFb0xaZiUit1s7288ip-7LT70fGbirb3NubHwRR_qjO-a2qJ7ZDRKYOh4WiI4ftcM8aNF7gOPouBJQgOPRjaS
+GsQdMr8iMdGYIMIq0tUpddRcj0_y0m
+}
+
+!procedure AwsElementalMediaTailor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MediaServices/AwsElementalMediaTailor', $name, $tech)
+!endprocedure
+
+!procedure AwsElementalMediaTailorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaTailorMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AwsElementalMediaTailorGroup($id, $name='Aws Elemental Media Tailor', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaTailorMd>', $name, $tech)
+!endprocedure

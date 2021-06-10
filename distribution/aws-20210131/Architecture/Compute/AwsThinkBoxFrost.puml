@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsThinkBoxFrost
+
+sprite $AwsThinkBoxFrostXs [10x10/16z] 9Ok72G0m3CE0nEF_YnjHiJoJ62IKX4JCxCbaZncx4Mg_0jIklY9SEUd13mMe1m
+
+sprite $AwsThinkBoxFrostSm [12x12/16z] JOgr0S104CCAq-y_SGv2gWnAuaNALpQJwb99AAJE0ac0zYbZKENpp-L876UagaxbQgHJd2d5vAzT
+
+sprite $AwsThinkBoxFrostMd [16x16/16z] NOq75aGX30BV4zZa_YTU5FqDwumbvVnE9DL7L8IqnKPWctMRS6p214KA0s5n4F14SxTPa3k-hCD3fE-7cxv8To1SgSVvkNaPm3JJ4Q5mpE6F-0C
+
+sprite $AwsThinkBoxFrostLg [20x20/16z] {
+RSi92WH1349HKADz_nDFGdLcjzTwy3FpQzNB7ymVp29PYxUKWLgy2UoDhed50kR5DOACP08OkqvwsZk-6hirRLPHnww_PWCwhTS8Ab9Q-Mej4zQqQHkCfzMa
+ISP6RQBXhE6evApj5jPMr_xW0m
+}
+
+!procedure AwsThinkBoxFrost($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsThinkBoxFrost', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxFrostCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxFrostMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxFrostGroup($id, $name='Aws Think Box Frost', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxFrostMd>', $name, $tech)
+!endprocedure

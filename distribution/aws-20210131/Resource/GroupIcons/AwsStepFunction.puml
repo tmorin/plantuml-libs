@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GroupIcons/AwsStepFunction
+
+sprite $AwsStepFunctionXs [10x10/16z] uq8171nG1YSR6oUOPcTZOsS7YRAnidAm0m6CnSOEbuNhG9Y20W
+
+sprite $AwsStepFunctionSm [12x12/16z] NOr50W01208lAl7__suNEnSJy1_oQJMZPzjzNeGUaCU5tKtC3AF__AJsyioiP0K
+
+sprite $AwsStepFunctionMd [16x16/16z] ZOx50OC054DR8CR---Bkx_ObKdyYPBQpIQzJOi39F84Zuqnqf8FZ1r1riq0IMMTAGjP_Y_RPxvntxZFr_KGB
+
+sprite $AwsStepFunctionLg [20x20/16z] bP050aH1248t0D7xttVZTyUR7jkwIsOjCUdbdtui3GruPYwI04drEX6W8d-OlNT88Ylja9tj7z-0MfdWsH_zWvxP_Wyfbp5qaCiovsLjvpqek-xo1G
+
+!procedure AwsStepFunction($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GroupIcons/AwsStepFunction', $name, $tech)
+!endprocedure
+
+!procedure AwsStepFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStepFunctionMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure AwsStepFunctionGroup($id, $name='Aws Step Function', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$AwsStepFunctionMd>', $name, $tech)
+!endprocedure

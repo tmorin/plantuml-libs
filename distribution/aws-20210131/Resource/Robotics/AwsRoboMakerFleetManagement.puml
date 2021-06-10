@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Robotics/AwsRoboMakerFleetManagement
+
+sprite $AwsRoboMakerFleetManagementXs [10x10/16z] 5SQ10G0W28J01GJstxQUKg-aj075GVDiWhkZwPRXyJjoMjdTidBNMb0z
+
+sprite $AwsRoboMakerFleetManagementSm [12x12/16z] HOk73SG04C8Mm6R_QRzmaO8AlIssjLD1pMbzkgKruVAGp23Jn6a3RFNFJjDti-A-VqZYqhc5Nm
+
+sprite $AwsRoboMakerFleetManagementMd [16x16/16z] LSg50GCn5CFG0MB9-qzRSF5Uu6CVj3zYeZRfUAsbjIrq4dGnze4ecAUjkDdvD4WDh2BR9nYXn3viUOwj9VGxbvgGxElam_urb7wGf1UuS0S
+
+sprite $AwsRoboMakerFleetManagementLg [20x20/16z] {
+NP25eSKm3CG6Y7It_xGVx0Tj5LRO7T8xIS0c3NP1aMg5VlOn2xxhlXiadnxfQ0wi1HAq0SIHsig7aSaivk38p9867Q78EZ5bih9xEOSlUR_7R5vdcjbhIEF7
+ySKkmk7xbeL5iHySzOXkCkv1tkeN
+}
+
+!procedure AwsRoboMakerFleetManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Robotics/AwsRoboMakerFleetManagement', $name, $tech)
+!endprocedure
+
+!procedure AwsRoboMakerFleetManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRoboMakerFleetManagementMd>', 'Robotics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRoboMakerFleetManagementGroup($id, $name='Aws Robo Maker Fleet Management', $tech='')
+  IconGroupElement($id, 'RoboticsFamily', '<$AwsRoboMakerFleetManagementMd>', $name, $tech)
+!endprocedure

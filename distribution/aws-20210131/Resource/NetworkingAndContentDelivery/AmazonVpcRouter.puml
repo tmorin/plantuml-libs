@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcRouter
+
+sprite $AmazonVpcRouterXs [10x10/16z] HKm50G0m30g0zKzx_ro199QSq_UqPwtO6JiljOBS2EbF_Mr6gxJo1
+
+sprite $AmazonVpcRouterSm [12x12/16z] JOt10G0m1CGM4Db_srxl9Iq030JBiX1LLsVq1t6bgg7rbyy4mlLlpvczE--j0jHx
+
+sprite $AmazonVpcRouterMd [16x16/16z] PO-70G0X20CNI63_RT_ZUupIUmzgeHzObXQxOYWIxic14oT2ill7rO-DKIWk-r9AjWL6sUpCptuvB_U1Uv6AVVTxyju3
+
+sprite $AmazonVpcRouterLg [20x20/16z] RP270SGm3087y0djFsrYy_eEgJIt7cYZFw72gBTSXy2nQYJGrjVQN30fsNXG9uLiMHfQrP-QEVhMH8jfm8o2XB5UBxAMkc6Ej9QyvYwJzzx26SIpocUQplu6
+
+!procedure AmazonVpcRouter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcRouter', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcRouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcRouterMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcRouterGroup($id, $name='Amazon Vpc Router', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcRouterMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsOrganizationsManagementAccount
+
+sprite $AwsOrganizationsManagementAccountXs [10x10/16z] 9SW70G1028300WBzq_uyjoNsICgCQPrbAEJ_xbHBAf2m6XZ5NtPnz6bj
+
+sprite $AwsOrganizationsManagementAccountSm [12x12/16z] BOe70GGm48CC1F2lzaTRRbzIYJrGTACwnJRFxjafSCRkJmYVFH7ltOW5W3ZfmecB37kSxnS
+
+sprite $AwsOrganizationsManagementAccountMd [16x16/16z] POk90GH128CQWAJ_RcyTxr_cHKqlalGBKTAecIvxCSpNNX26tBrpQKLEIxQXhcuevgWTuew77c3-DhvS6SUXLBBDxRVsopM4ZpT0-isn1m
+
+sprite $AwsOrganizationsManagementAccountLg [20x20/16z] {
+TOw70SCm20G7uCl-soOy8jK-LntLGPA_4PumVvQEudcXYIGcqduBEf8FKQXA1Zdkf2L5UHCcOYS3LCBAY83QPVHUPJkGg_XUdU1xk_mmNYaPCAxQUHqpANa3
+3Rj5wXOuHT-ExVJbb7vlzLxGDpm
+}
+
+!procedure AwsOrganizationsManagementAccount($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsOrganizationsManagementAccount', $name, $tech)
+!endprocedure
+
+!procedure AwsOrganizationsManagementAccountCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsManagementAccountMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOrganizationsManagementAccountGroup($id, $name='Aws Organizations Management Account', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsManagementAccountMd>', $name, $tech)
+!endprocedure

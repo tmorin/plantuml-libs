@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Storage/AwsStorageGateway
+
+sprite $AwsStorageGatewayXs [10x10/16z] FOcx0G1H2C8gJV3jl-zHdLyWYRQ0AfRAAd2hELTXy71dXlLIn1HVfOx-AhuxaavUPQlg0m
+
+sprite $AwsStorageGatewaySm [12x12/16z] DSc75SKm34BHNm86lF--GIckzntPrgpLLVTlt2Q9vbYq5z28UStPI04S86kJa82EaonQvMkZLxl6RUyTEv77ZLdZ4m
+
+sprite $AwsStorageGatewayMd [16x16/16z] {
+LSp7WKKn24FH3GhuzT_l83m_QNUkGyzyf-pBVbk0DbmJKZ5bRRYjAYISRl9-KP1zZjW2C01ZUbY5aX1F9je0mVYqyiDONfyrmVwrUi8JWsSzUoOqdUXrmYwA
+VyCV
+}
+
+sprite $AwsStorageGatewayLg [20x20/16z] {
+RSnNWiCW34NHcKHw1VQ_tqYM-UEwSYYkTEBa2_g2GuY873o6e9X9DeufrDlZ6tXmbI7VC_bzSAtUQR6I48rbeUAkWF6Q5NWegB65P2OiP21pp4GcxPw1sZeT
+es_cYpNkrxJ66dUZ8sg3wkrk3xfVfpqu7RlW3m
+}
+
+!procedure AwsStorageGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AwsStorageGateway', $name, $tech)
+!endprocedure
+
+!procedure AwsStorageGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayGroup($id, $name='Aws Storage Gateway', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayMd>', $name, $tech)
+!endprocedure

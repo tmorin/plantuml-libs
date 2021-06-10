@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/BusinessApplication/AmazonHoneycode
+
+sprite $AmazonHoneycodeXs [10x10/16z] 7SR70S1G24EnD8hD_llcyNMIqAlCghPs9xYL-T4pn5cmZuqJ4QqPLLMssBZRPl3I3m
+
+sprite $AmazonHoneycodeSm [12x12/16z] BOs50GH1309V3eZqt-_5M9jPYtTieZZkH8a8BXiB2JLJVChGB582s4mKFw1R1WbqTyzqIUNMdFsJkaosX4UDvfQElm
+
+sprite $AmazonHoneycodeMd [16x16/16z] HSc50GGm30B0bmAH_UUj2zKZlc8hqlKkOb7SHOn28A7jC4AOUyqXbaAGkDOVn7PGWXckmU7_VpgxWG88tUwPGLEHqEF3wUmD3R3b36DFrtP6c3pYEcFb-XKD
+
+sprite $AmazonHoneycodeLg [20x20/16z] {
+RSx70KH120BGWo8uqt-_o_wSE3vZRz4Uals1ux0JnuRCv8vZGI5P2Uvch2m1rZhw05N0GkHX0X0MA7dOeccvzX7Tg8ibLukmjJHj4Sa0mAIjDUSo6o29MAod
+4TK22ipSp4YmILMMnRPWkqaezM768M3vuJJZbirUE3_m1m
+}
+
+!procedure AmazonHoneycode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/BusinessApplication/AmazonHoneycode', $name, $tech)
+!endprocedure
+
+!procedure AmazonHoneycodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonHoneycodeMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+
+!procedure AmazonHoneycodeGroup($id, $name='Amazon Honeycode', $tech='')
+  IconGroupElement($id, 'BusinessApplicationFamily', '<$AmazonHoneycodeMd>', $name, $tech)
+!endprocedure

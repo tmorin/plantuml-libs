@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/MobileClient
+
+sprite $MobileClientXs [10x10/16z] u-VdvmC280LYyF82cM0MJ91K0g4NOJ8
+
+sprite $MobileClientSm [12x12/16z] u-VdvmC380F4vkNbXR71J5weE9YWa8rc5o-8oOic3W
+
+sprite $MobileClientMd [16x16/16z] umS1FZ3WXm5UCE3ZXVFvG5n-11y247m41J4EIj67Zsa_ByG_MFde_WK
+
+sprite $MobileClientLg [20x20/16z] uyS5U6603qaC8WfY8CJuW4f0W1UBNYGnE7EuY17oBnyKyE89Kqm
+
+!procedure MobileClient($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/MobileClient', $name, $tech)
+!endprocedure
+
+!procedure MobileClientCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MobileClientMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure MobileClientGroup($id, $name='Mobile Client', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$MobileClientMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonAugmentedAiA2I
+
+sprite $AmazonAugmentedAiA2IXs [10x10/16z] BSR70S0W50BG4pNxxnlrLtW-epDaufEKZWWGXp6MvScHA9ux2Wq8ScjAjFqTIihHOPipFm
+
+sprite $AmazonAugmentedAiA2ISm [12x12/16z] 5OW90aHH289c4wsv_tr_yfQW51_0JBLGHz8F-zn2q9XHCJzx8yvarS60kr-8P9Jinku-oVz2jZBd5pSozSPbUG
+
+sprite $AmazonAugmentedAiA2IMd [16x16/16z] {
+LOvN0WCm248x13Iv_trBwERB1wwE5D6Q-JV20Wd661kyimhtT9W5dBJIOIPSGqAPbn557YYQbwjIzYLV56Nwv5xNLAETjtc9etkTfNx5t6muPnxTCLmBUNM_
+3EPLiut85FutvW4
+}
+
+sprite $AmazonAugmentedAiA2ILg [20x20/16z] {
+PSY53G9H40N0X7ssH__zyWsV-7GsRvhwf8__szah3P15xUoPl76i04_h18XaLDBCTOenBgmw9vG80ex1STVLa8kHoBZE5OnnD69u7oAPP34kdPCK95H2Pjn8
+8WqP3ij9hi7gPbMPKCu5aTA6iznN6kaErVjMDXPrzxgTR-DMRkzxPvzy
+}
+
+!procedure AmazonAugmentedAiA2I($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonAugmentedAiA2I', $name, $tech)
+!endprocedure
+
+!procedure AmazonAugmentedAiA2ICard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAugmentedAiA2IMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAugmentedAiA2IGroup($id, $name='Amazon Augmented Ai A2i', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonAugmentedAiA2IMd>', $name, $tech)
+!endprocedure

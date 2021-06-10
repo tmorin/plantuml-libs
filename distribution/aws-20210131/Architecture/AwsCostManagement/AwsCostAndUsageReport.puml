@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AwsCostManagement/AwsCostAndUsageReport
+
+sprite $AwsCostAndUsageReportXs [10x10/16z] BOd50S103CDACMN_VNkaZq6s9YH7ETKiiAh8203vGT7yKBDXdZYDuhO2GNMSUDATmUm_
+
+sprite $AwsCostAndUsageReportSm [12x12/16z] JOlL0KDH24DhCTX_t_BydX-89V66XYmY1cMHvmzHFqWLQllnbIkR3-Wt_-aRfxyjjx_e-MpAFRwZmUckZMpq8lu
+
+sprite $AwsCostAndUsageReportMd [16x16/16z] {
+NOu5aWDH449tamPQxd_VC2vl5AlwPN93CZUTkywJLIl0J1hbha7w_i96Lp7bC3E-oEncH3XtALQT42M4jEcrBsKcjpuyS5t4dXy7qMtFlJyj7EU1IpFjZgcD
+iR6nwvVn0m
+}
+
+sprite $AwsCostAndUsageReportLg [20x20/16z] {
+RSk7YGGm30LHEFqak_z-JzwSXlnWUiezN-iVs3_mWFEEOm2aM2JbFAqY3FxnuBgyGQJ4LKoyLWk-6wkSZ865YWX0kDeo7OoHyTtYRiHAUl3-GaLIYeWSMmHT
+aknOD-lCsr9FkPcWZ36JZ-rvLLI79p2TlLVKwzJtzk2zX_t0_GF_0G
+}
+
+!procedure AwsCostAndUsageReport($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AwsCostManagement/AwsCostAndUsageReport', $name, $tech)
+!endprocedure
+
+!procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCostAndUsageReportMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsCostAndUsageReportGroup($id, $name='Aws Cost And Usage Report', $tech='')
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsCostAndUsageReportMd>', $name, $tech)
+!endprocedure

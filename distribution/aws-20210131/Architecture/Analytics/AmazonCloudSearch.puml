@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonCloudSearch
+
+sprite $AmazonCloudSearchXs [10x10/16z] 9Og54G0m30BFWCZ--_PpZM9D5PNmBGSu9La2ZXsZVaJWK2ubqBPjWNgtuslGpamd8E3XVW
+
+sprite $AmazonCloudSearchSm [12x12/16z] BOe54WH120DFbWZp__zkeARB8ksWXPn8S4kRDKnf5mXiQHR1P4u6PFFc8eLrZ1hzaNLI4einp-cMB139QS7KpTly0W
+
+sprite $AmazonCloudSearchMd [16x16/16z] {
+LOo5eKCX40I_P0twxpUtZ-YWSvRY1v9oyUt2e1DO2N5mMKi0fGdoyhGKOxWztN2ene-J6Tv-PWDd7Zkgrysnzmg9waGJxmRGBDmvUm8haYCQ7c-WH43pxq3P
+xy0LkGC
+}
+
+sprite $AmazonCloudSearchLg [20x20/16z] {
+PSv7WWCX44FHZKBLzFtlEqBEzb_18swRPqxxn6_hyAb_XmGGW1yM9CKeeManaV1O4FmmY6j21d4tapDmfFjh4fSwtp7UB7fwcKMgfkTzIx4Pmcpiwc7cZ4An
+ZGLv50ogU1qCXG5jyIhko9dGAnqhjZvN-q1fQyMdrdxn7m
+}
+
+!procedure AmazonCloudSearch($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonCloudSearch', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudSearchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudSearchMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudSearchGroup($id, $name='Amazon Cloud Search', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonCloudSearchMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGlacierVault
+
+sprite $AmazonSimpleStorageServiceGlacierVaultXs [10x10/16z] ZOP70K1H3CBk9JJ-rVvfu36ZV5BBXcKratc2qYO5HOCUqgBygZS
+
+sprite $AmazonSimpleStorageServiceGlacierVaultSm [12x12/16z] dSot0S0m20NHMi0T-szhnGNyAkBljZPxIiYKcYMxXfYBYejPevbQgvwxdCVygP6NGrts1m
+
+sprite $AmazonSimpleStorageServiceGlacierVaultMd [16x16/16z] nOd94O0030BV0WdzTskk6Kjm7vosCmulf4YKo4tGJhOWkuFgNnBeNfy2eziL8QvsNrdzeqCI2RQwY8-qNm
+
+sprite $AmazonSimpleStorageServiceGlacierVaultLg [20x20/16z] rP390GCn20FV6H7elzgrBUKiOSSd8rxCeJ_C6x7nHKqeTYpnpDSuBBcKqlPGLI7yq756v8r36mJd8QvyAzMDdSwTMKqJXr6UkFvdcmK
+
+!procedure AmazonSimpleStorageServiceGlacierVault($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGlacierVault', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGlacierVaultCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGlacierVaultMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGlacierVaultGroup($id, $name='Amazon Simple Storage Service Glacier Vault', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGlacierVaultMd>', $name, $tech)
+!endprocedure

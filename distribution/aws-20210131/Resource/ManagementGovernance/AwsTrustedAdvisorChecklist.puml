@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist
+
+sprite $AwsTrustedAdvisorChecklistXs [10x10/16z] NSb70G0X0C0m1MtzgxqzW7mJZqAiA32Geikz_Ql3kgptogqT
+
+sprite $AwsTrustedAdvisorChecklistSm [12x12/16z] POx70S1038CM2B3_jEdz-BXRIauiT7A30kpAjJllvEXpvv30k9El7UuTS8VU7XO
+
+sprite $AwsTrustedAdvisorChecklistMd [16x16/16z] TOz50G10408B8FtJdhlCRnMmjU04I805ADSowG9BJQ0TrTgqnKIl1xsMrbh2LXEqaE1v_wkr-o6qwWlQ_76G1cVU2
+
+sprite $AwsTrustedAdvisorChecklistLg [20x20/16z] XP350S10408Rk1twhpOvTvddAY290GNCZSIQIJYK8DVmiohacjz6MAJCoT1IwxdN7FCFsb_Qtofz-9jv_6MjiVdhdv1P_zhbxvBfBliV
+
+!procedure AwsTrustedAdvisorChecklist($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsTrustedAdvisorChecklist', $name, $tech)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsTrustedAdvisorChecklistGroup($id, $name='Aws Trusted Advisor Checklist', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistMd>', $name, $tech)
+!endprocedure

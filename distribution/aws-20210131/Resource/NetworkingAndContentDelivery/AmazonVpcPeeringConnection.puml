@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection
+
+sprite $AmazonVpcPeeringConnectionXs [10x10/16z] HKm50G0023gWy7-jtIr04gfWzPnoreXC8fT8nAT-sZPxVIgFyIglx
+
+sprite $AmazonVpcPeeringConnectionSm [12x12/16z] JOq70G0W3CCCBAr_jvI_mFvp87WX157BjQji575agHNU1gWzK8GeQPdTitMRxJlxhGLiRm
+
+sprite $AmazonVpcPeeringConnectionMd [16x16/16z] NOy50S1030CDNFh-tIw5KPdf58JXF2045fD3PiBXgacP-SnaiSvFqYEoD9rGP93giXE0N2TBeFrC1krdVGPHrSyyQURjVVkUVU_-P_zx0G
+
+sprite $AmazonVpcPeeringConnectionLg [20x20/16z] {
+RL270O0m33eWWFz_QuAuYwCbEso16jiJ8WpUPWu1niMO0BMzghc0HCcEWpfIRHhO5CgKU9u9kyeByn8skLLx8845ghdQI1J6XhOnFMDphhB7aPiU4YcbnpK3
+hbdMCtkKvsuB3PPQhJLTQRy3
+}
+
+!procedure AmazonVpcPeeringConnection($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcPeeringConnection', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcPeeringConnectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcPeeringConnectionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcPeeringConnectionGroup($id, $name='Amazon Vpc Peering Connection', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcPeeringConnectionMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsPersonalHealthDashboard
+
+sprite $AwsPersonalHealthDashboardXs [10x10/16z] 5SR10S1020B15y2Q_liDfme3z4qov7LpE5QSNakTk4U8noTlDDsbDVHxT85lX7iQD-CF
+
+sprite $AwsPersonalHealthDashboardSm [12x12/16z] HOkt0GD140AZXTcx_liLoFr4s0qKstzDDGepmcV5Qc1CT5OIYZw6R13HT9v3TH_Om8t1QCEjSMHrJFdenxm
+
+sprite $AwsPersonalHealthDashboardMd [16x16/16z] {
+NOnP0iKm20BV4b3C_UzRrB_ITGQDEha9Ho-nkD1FcG0mW4EBAY4b_jt2eYhP6-mIpMfMU833nHH83oEc3u8uSVnChuHNHQPpBUP86oVlYA1drBahU1g7HoZz
+38_O3B_40m
+}
+
+sprite $AwsPersonalHealthDashboardLg [20x20/16z] {
+RSy7Wa8X30JGNPr2uFxtDO7OdLzvrCJEkCUL-87n0mzOpgRaZRC896YWteap4KxdLJc8pDUSquoCiLT3cywYg85jWoKnhdYEctA2p6p3FSuK12GIEXQH6Bpc
+AAd7zPAkhNT5ww0IHr7XQgpPZfFL68JYQOsE-RJ2JjiFN3_m1W
+}
+
+!procedure AwsPersonalHealthDashboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsPersonalHealthDashboard', $name, $tech)
+!endprocedure
+
+!procedure AwsPersonalHealthDashboardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsPersonalHealthDashboardMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsPersonalHealthDashboardGroup($id, $name='Aws Personal Health Dashboard', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsPersonalHealthDashboardMd>', $name, $tech)
+!endprocedure

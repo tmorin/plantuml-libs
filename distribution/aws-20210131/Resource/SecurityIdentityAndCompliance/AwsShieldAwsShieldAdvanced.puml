@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAdvanced
+
+sprite $AwsShieldAwsShieldAdvancedXs [10x10/16z] u-Vdv-Fb0v8W6Wo0B5ua5ZyVFtOM7uJ51r88ug9hXZ3vWCe
+
+sprite $AwsShieldAwsShieldAdvancedSm [12x12/16z] ZOr70G0m20CDS8T_jTtmBdickKJCAuB0BW62so2vzDMkse-QmFVh1HA81aLPZOyOTpK1
+
+sprite $AwsShieldAwsShieldAdvancedMd [16x16/16z] fO_N0O1G20CNk2JxRwiGsx_tAXsosFbW8NIhvZi8rRXcaBdbX1ZVTeySwPyC-9DVGqumUvagr7OVsUrtRdoFetQSug7V0m
+
+sprite $AwsShieldAwsShieldAdvancedLg [20x20/16z] lT2t0O0m0CJ01QJ__QSbP_SSECcTUqe_8c0V1DC0kKiICV6iR7jPf6UhfA6LtCrjQNzemQ79OelaQ1eZNMX8Ir3SzWqHnKUh9BAmLhhXl4CVpxLHx2sBdcO
+
+!procedure AwsShieldAwsShieldAdvanced($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/SecurityIdentityAndCompliance/AwsShieldAwsShieldAdvanced', $name, $tech)
+!endprocedure
+
+!procedure AwsShieldAwsShieldAdvancedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsShieldAwsShieldAdvancedMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsShieldAwsShieldAdvancedGroup($id, $name='Aws Shield Aws Shield Advanced', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsShieldAwsShieldAdvancedMd>', $name, $tech)
+!endprocedure

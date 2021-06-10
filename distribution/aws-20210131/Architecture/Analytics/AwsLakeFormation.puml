@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AwsLakeFormation
+
+sprite $AwsLakeFormationXs [10x10/16z] 5OY50G113CBUAi3--tukjHJ1mWmNOAp-gXkrghv1iQw6mUP4DHkVVtkLYAX72hgpmi0W_G
+
+sprite $AwsLakeFormationSm [12x12/16z] BKo53KHH23k16llF-uMynkf-e0NvqYCOgq2kI5J_0d0uYco-d6W2xEKi0QZZloTjpPW22DepCRZquPDOpl97BEmR
+
+sprite $AwsLakeFormationMd [16x16/16z] {
+LOc7WGD12CJ-RIOizD-luV9feyGQV21fRRnTlaFsy4k8salcSiGt26ZtrAU3BMXtGnY8tQc09Vbq1yqcj3k_OOtRhao9MetHfoeNBG36rDe2RRNkNfacstQV
+iBFxE_m
+}
+
+sprite $AwsLakeFormationLg [20x20/16z] {
+PSi9RW0X34DHTR3ZcBd_VHjBXMvVgn_4JdtJv8F_BNXrPrF1RnliXs2LZkx19jS2YRgs-V5WFPstQxqaP8frh8fZM83mPQQnv4xGjK9RKWbrJ3b3Mh5ta1fo
+QhJ71bLM9ujvU8EK2Q3oRNg3PiteWdmivoHOWME3szxJjU3fs5_y1
+}
+
+!procedure AwsLakeFormation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AwsLakeFormation', $name, $tech)
+!endprocedure
+
+!procedure AwsLakeFormationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLakeFormationMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsLakeFormationGroup($id, $name='Aws Lake Formation', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsLakeFormationMd>', $name, $tech)
+!endprocedure

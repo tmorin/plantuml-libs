@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonKeyspaces
+
+sprite $AmazonKeyspacesXs [10x10/16z] 7SZ10G0n447HqyPdqd-zQ_8kaBYe14cl-O2Ej-c1wTVnuJ4Wrtw8RS66n7TYdBftAlK3
+
+sprite $AmazonKeyspacesSm [12x12/16z] HSRP0KGX24FH7vKizb_l9BEzgy2HsD3Yukj9vtoy1vZzyGdpSwoDwXpIEWI2P6yy7e8OgiQWb7XjAMhtkhtz0W
+
+sprite $AmazonKeyspacesMd [16x16/16z] {
+NSm74iCW34JHj6t2zpzlDCAfVvhV6gZAphlw7SPYvrrplWNbzCD932JR405ILdjLE4zQk3jUAu-vJv5EsenaPDT6TKYzJTAKJzUyLr9gl2JRKdN9qKCikwOS
+FKorE_w69m
+}
+
+sprite $AmazonKeyspacesLg [20x20/16z] {
+JSy70iCW34FH3cn9XlkVjnLP_jal2wfALpohXjsCfFKnPen_oSSuG3-JWxBQu7FZ5yrYDmP4gosBJf9V9-UqEJ5pV239zWq0XFVWjeaKCXaikTFAXQeU-y9d
+mMPCH0GOcQhBCEVnOtg_hUAScycuZCo8sBHn6UsjTM7pTM6p7m
+}
+
+!procedure AmazonKeyspaces($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonKeyspaces', $name, $tech)
+!endprocedure
+
+!procedure AmazonKeyspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKeyspacesMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKeyspacesGroup($id, $name='Amazon Keyspaces', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonKeyspacesMd>', $name, $tech)
+!endprocedure

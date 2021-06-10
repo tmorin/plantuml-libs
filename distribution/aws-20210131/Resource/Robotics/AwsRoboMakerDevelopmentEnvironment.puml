@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Robotics/AwsRoboMakerDevelopmentEnvironment
+
+sprite $AwsRoboMakerDevelopmentEnvironmentXs [10x10/16z] FOg70G0W3C8UWFZ_jyQ9jcMD3mWKP2qLYsrBfhLjlOEUebQan7EQSgdUWNS2
+
+sprite $AwsRoboMakerDevelopmentEnvironmentSm [12x12/16z] JOq50G113CCCD9b_jG-7OswhYw3eNxQQ18PKYSNmVww0CXv4Lmse14STC79gPD1bzDNb1G
+
+sprite $AwsRoboMakerDevelopmentEnvironmentMd [16x16/16z] POs7GGGm4CC6m9BttnQS0D-K7btfEnPgtJOmyMuT-EiztlnW0782TXKMmV5qr-nsuvrVn8ctLTJAenyiCix3V4E8TNuAjsvyWfHYX_bAJdml3g0VV0C
+
+sprite $AwsRoboMakerDevelopmentEnvironmentLg [20x20/16z] {
+TOw5OS104CC6Y2JlFsqXKAwIfoDx_r3NiGSDoddk9_qHqtHhsJE4TvARCmZ2qBQyOdfcnCtFkXndINwBwLd95yEqwaiCHhfDwDA0g6vVxXrlBoh4La4SLp6E
+fcUCCxRhVsGEXCldZNpGlbFjRru1
+}
+
+!procedure AwsRoboMakerDevelopmentEnvironment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Robotics/AwsRoboMakerDevelopmentEnvironment', $name, $tech)
+!endprocedure
+
+!procedure AwsRoboMakerDevelopmentEnvironmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRoboMakerDevelopmentEnvironmentMd>', 'Robotics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRoboMakerDevelopmentEnvironmentGroup($id, $name='Aws Robo Maker Development Environment', $tech='')
+  IconGroupElement($id, 'RoboticsFamily', '<$AwsRoboMakerDevelopmentEnvironmentMd>', $name, $tech)
+!endprocedure

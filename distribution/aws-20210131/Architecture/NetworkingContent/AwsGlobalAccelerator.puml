@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsGlobalAccelerator
+
+sprite $AwsGlobalAcceleratorXs [10x10/16z] DOm73i1G248x783tls_n9trPogA1wTwZgdsAo8WeGAozSgyq4RxqQoFs-nR86PKbdcltpkNRa1y
+
+sprite $AwsGlobalAcceleratorSm [12x12/16z] 7Okv5S1G3C8AdpZxxnjzL05w2DRCEC-u7B4oiobtgeYCd9Ud0E6SplNo4i3xJKTKh_RxE7DTISxWJ3c1CyL8Fm
+
+sprite $AwsGlobalAcceleratorMd [16x16/16z] {
+TOu53aKn3CEaDIbizx_lN_hvWONse2sHBoAYceDda1uTffGG2Zbt80mSXcYVGMutW4zt4kxWZUi-0FjuaMRwCYfpAPJROAP6BmM7Zaii1P8Wibr16vTKhl2a
+_H0U
+}
+
+sprite $AwsGlobalAcceleratorLg [20x20/16z] {
+NSe7YeKn30DXi3HEUVU_xyRPlm-YVMZi-bLRZGE_zdtEVqclQ8SLTeohZNqMWiCPEd2kkgqm8PdJ4ffRWxHF0pb0yjF8xoznoXPmsJ0gavnZsQ-mjLH4qEXZ
+BDiu2ycnMrRO0uiuyBSHuzfX6qTstBFTjl3ii0yUziK_
+}
+
+!procedure AwsGlobalAccelerator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsGlobalAccelerator', $name, $tech)
+!endprocedure
+
+!procedure AwsGlobalAcceleratorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlobalAcceleratorMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlobalAcceleratorGroup($id, $name='Aws Global Accelerator', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsGlobalAcceleratorMd>', $name, $tech)
+!endprocedure

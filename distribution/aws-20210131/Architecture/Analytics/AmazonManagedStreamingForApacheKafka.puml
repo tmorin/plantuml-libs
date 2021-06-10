@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonManagedStreamingForApacheKafka
+
+sprite $AmazonManagedStreamingForApacheKafkaXs [10x10/16z] DSR50SH030ImWtZ8_VURHRtaGGDv9sQiQZQnghYc0XxUrLY78mMvWxjsRClk8OFz0W
+
+sprite $AmazonManagedStreamingForApacheKafkaSm [12x12/16z] JOYr0G0n4CCgKsx_UH_2Qcmf7-v8kQJzd-pIFZ4m_YS4EJi00gD_MVERFw1TtySFaohJfAZ_L_l9H_qoxGK
+
+sprite $AmazonManagedStreamingForApacheKafkaMd [16x16/16z] LOu50iKW3CM-y5Ax_tr7vsH3yef5uoTc5dTm-nBaeMESIURfTda70jsU0GEuw_eZyTTLHvWnBdUJG1BJQpgD00-lIYIanYEc6tRi8Dehez_GhRt9WzjVmGO
+
+sprite $AmazonManagedStreamingForApacheKafkaLg [20x20/16z] {
+LSq73WGn20D0IS5Wv_x_tpFRKBmr8ugky4ivEl2metA_M3Ns86EzoFrWhSCQ6PanTY7IYCCIBYGm9gn8k7J5r6KW7InCdLn5PKHTzhDPgX2eLjcC95h3KfHi
+FzVrCFG3cspoeU3Ks5Pl8hLLfTkQtsXiSEp4Fm
+}
+
+!procedure AmazonManagedStreamingForApacheKafka($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonManagedStreamingForApacheKafka', $name, $tech)
+!endprocedure
+
+!procedure AmazonManagedStreamingForApacheKafkaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedStreamingForApacheKafkaMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedStreamingForApacheKafkaGroup($id, $name='Amazon Managed Streaming For Apache Kafka', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonManagedStreamingForApacheKafkaMd>', $name, $tech)
+!endprocedure

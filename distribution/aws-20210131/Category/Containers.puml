@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Containers
+
+sprite $ContainersXs [10x10/16z] LSY53S0m0CJ0mjF-2nV2iUXaswhj8bb4aC2l6rytF_tuNnQn9EVFfO4N
+
+sprite $ContainersSm [12x12/16z] FOsr0G0m20GBtlPVE1wkGbviw-DUU6VmtqKIF3EBYyAUKLXKhJd2cRbdzfm_Oy-_mSx5Xnxi2G
+
+sprite $ContainersMd [16x16/16z] RSu73aCX40DH2Ninzpznc8sINqUDHm_DemkhskaHOPhoRp_LplNpT2zQzRLaM_OOU0MIr5xriz_jw_xyXBFNVrz6k0lzJ7dl0m
+
+sprite $ContainersLg [20x20/16z] {
+TSY73GH13090oO3P_Xk-O2sVVvJ7ez-aGbBxEzj9CjbEWXrxA59yFK7jRa8viwZ1mjno5uWB2PJcbW5kgEwvHOgKxiFR3V3bRgIOCnYebqF8btNbfJVFXIEN
+pBtaVoS
+}
+
+!procedure Containers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Containers', $name, $tech)
+!endprocedure
+
+!procedure ContainersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainersMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContainersGroup($id, $name='Containers', $tech='')
+  IconGroupElement($id, 'Containers', '<$ContainersMd>', $name, $tech)
+!endprocedure

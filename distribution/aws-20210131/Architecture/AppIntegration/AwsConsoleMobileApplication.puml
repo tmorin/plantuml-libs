@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/AppIntegration/AwsConsoleMobileApplication
+
+sprite $AwsConsoleMobileApplicationXs [10x10/16z] 5SY74SGm40B03oP9_VThkBX34g-aAY8fdGfu09-o0JdjJo4hL0jjqRVaijpIaboLhUG5
+
+sprite $AwsConsoleMobileApplicationSm [12x12/16z] DOm74iGm20ElH2pO__zl96Uoqq1jJ0TWWezwRvKkmJgtT5tLAqyrNUG6gfHxV20adWndi_So0iJiF6NKllrCcyaTvzHk
+
+sprite $AwsConsoleMobileApplicationMd [16x16/16z] NOX90WGX2CGkrcR__xz3oMtY0acA5mtv2-icolXT1t7cMVS57-0Czdt1q43K6qnJrdf8Q1xMCpjzP03hfL7ZtorX1jTVoE409DyBWQJr3MBn-8QIKjsmvGS
+
+sprite $AwsConsoleMobileApplicationLg [20x20/16z] {
+PT390GGX44BHWr1GRVxvJglC_e_FtTxvcLRzYx6Wqjkm6v1qnOegWeAiArWW0N38leA5MXqBYkTmB0kgJDJRkiXrX031szgwCzGcOyML2I3pafKpRC-OAizn
+UmOrU0SCTy-WU7u1ouAzPm7LspApNyrWYltZ0m
+}
+
+!procedure AwsConsoleMobileApplication($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AppIntegration/AwsConsoleMobileApplication', $name, $tech)
+!endprocedure
+
+!procedure AwsConsoleMobileApplicationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsConsoleMobileApplicationMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsConsoleMobileApplicationGroup($id, $name='Aws Console Mobile Application', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AwsConsoleMobileApplicationMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2HabanaGaudiInstance
+
+sprite $AmazonEc2HabanaGaudiInstanceXs [10x10/16z] HOor0G102CHg9CV-qxvBSArYKIFn1IDH3UJW2H8h2_U8cIaPkh8OhPqjdF_bV-u
+
+sprite $AmazonEc2HabanaGaudiInstanceSm [12x12/16z] JOwr0S0m40Fhw0JxJnkgV8PdsDgyj7i1_VVrGdwWnVi9ZJ0uHlbq8VZrD6tYNxSkYSz9rfU5dZtFMUSE3m
+
+sprite $AmazonEc2HabanaGaudiInstanceMd [16x16/16z] NOzN0aHH14E_ISJ-TpjFcURSgfEP-f0D2G84EQBvi_fw5A9HmtpfoaLE2MClEGnbTtGq36iF50GC9Ij3vIsDVuKuAy_uAxnXsM-zsy_jzyvpvtq1
+
+sprite $AmazonEc2HabanaGaudiInstanceLg [20x20/16z] {
+RP1NWaCn20D_aH3Y_hTTlKrFFExZpWPx_QpkT9jcihllogGmI1Rfcy87ZcccUMAmVRbzut9h8TNBoMi2BIPfPZG08mSKgbW5535H96HrI_yPf2-tZ_Ud1czx
+rsoDHvYzxGLsY2ecnO6Hobxr3T_USdZpwM-761nYTOxfAVP_
+}
+
+!procedure AmazonEc2HabanaGaudiInstance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2HabanaGaudiInstance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2HabanaGaudiInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2HabanaGaudiInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2HabanaGaudiInstanceGroup($id, $name='Amazon Ec2 Habana Gaudi Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2HabanaGaudiInstanceMd>', $name, $tech)
+!endprocedure

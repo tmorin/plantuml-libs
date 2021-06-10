@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingCoffeePot
+
+sprite $IoTThingCoffeePotXs [10x10/16z] HOot0GG12CDwPE7zf_rmaGRdLetRLluNArtIuYbve9dk-4VaHjeYRfO4s0epOD_bBm
+
+sprite $IoTThingCoffeePotSm [12x12/16z] LOx50GCn30JVzbB_tKOGkZ688Oc65EO5wj89PP6kBuADSnL3wWGHNlqWlYZTO2K4fLiGKhecnvIDGc6P0n-p_dTu0G
+
+sprite $IoTThingCoffeePotMd [16x16/16z] {
+PO_70GGn20FVre3elzjRuFAEiucgY_HIIoe0Wlq0WKJJrjuSEQOiGqUSmxYwajY8brqwkho5ssw4vFRbvVzwhp-9juln3qps6vkmOQvE2U4oPLvu-tq2Tpt_
+UXy
+}
+
+sprite $IoTThingCoffeePotLg [20x20/16z] {
+TP37WS0m3CFU8YXw_sqlzFM6TCHMEoKzSX_lHCjoR-_AZ4HFPBygkO2BAaFlzr5CJdJ_C3DAdVh0yKxPEhf7QD0c8e_hVK4pwfBH7hDTvovyt0hUrzcIhpDt
+NTtA3H-9ZxrHJX7vs7lWrNcNjtKTGXwO4LrtsZOg5VXz1dmW_pUhtpFzQ_Ol
+}
+
+!procedure IoTThingCoffeePot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingCoffeePot', $name, $tech)
+!endprocedure
+
+!procedure IoTThingCoffeePotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingCoffeePotMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingCoffeePotGroup($id, $name='Io T Thing Coffee Pot', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingCoffeePotMd>', $name, $tech)
+!endprocedure

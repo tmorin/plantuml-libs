@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTHardwareBoard
+
+sprite $IoTHardwareBoardXs [10x10/16z] FOov4G10209pMR3_Rc_kSoFbw-wWz84gjc0RR0TGOYGii5H2U0C8eYralrlEh6m2MrW
+
+sprite $IoTHardwareBoardSm [12x12/16z] JOwr0G0m20HxNjX_shXm4LnoODAvCI9m3GsMn80JY1hQoDFqY20C83WqMhB5hISmbLsxzDMBakgihVuTEW
+
+sprite $IoTHardwareBoardMd [16x16/16z] NSwt0S1034BHsi3dzf_MERzEMMDNO3pGYYVs5hjttBGS8Vu04zGDMq0Yd352f0ao8kHQscERqBIZOB08sqclTDJJnd3KFxZ_IV__FZ6Q9Z4UXRDz0G
+
+sprite $IoTHardwareBoardLg [20x20/16z] {
+RT170e0W34JHTQOazx-jGEpwTpxfjPUZUYQCzAQ85ueWmOTLkifvVF1J9ZI2V2GCIpB1MfbaMyXWba1G4SFcIUJ0Cc2Pc6A9lRsDOGnxWkXHcr7B0CumJH1X
+MphEydVcwjnt-ta3_xpLmye37_H--mq
+}
+
+!procedure IoTHardwareBoard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTHardwareBoard', $name, $tech)
+!endprocedure
+
+!procedure IoTHardwareBoardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTHardwareBoardMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTHardwareBoardGroup($id, $name='Io T Hardware Board', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTHardwareBoardMd>', $name, $tech)
+!endprocedure

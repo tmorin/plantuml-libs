@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsClientVpn
+
+sprite $AwsClientVpnXs [10x10/16z] BSW72W112C10YYtw__zU3ZPR7CJ6kX_aCjNrSodeQZLDbNirNSwQMv7PmzsEE-3aOaeQV
+
+sprite $AwsClientVpnSm [12x12/16z] JOl70OC030CJm5NxxykPhjUf5Sf34VKn3Rd7ORhBytBTxDWQXlWSsN2qeyBEniqsvoMnShT2S7FDat6ZBsDs
+
+sprite $AwsClientVpnMd [16x16/16z] {
+RSg7aGCW44FH2oX1__qQCSws9lwtcyxNIShPzoxC5W5UPMveWBhsDFi3u7gdOfwNqr822TdGfcTW3qTeczOOur_dlWeK05A9ruOfaaFfLY7SyxKBPzT-XVK6
+5m
+}
+
+sprite $AwsClientVpnLg [20x20/16z] {
+NSnB4aGX24FHWGaaxVxtspo_LTvoT0GyqYahBtpjdVnTkZOm0F3exyEWBF9O9OnrDEInZ7KniKtGk1WMaTEeuK9QWM6cQvqsmnREdD5GpnuNU-sH2G7HWaYN
+5LgYWMnAsLOlhA28Q9xrYS6lOmDNrrxiBovxyGy
+}
+
+!procedure AwsClientVpn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsClientVpn', $name, $tech)
+!endprocedure
+
+!procedure AwsClientVpnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsClientVpnMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsClientVpnGroup($id, $name='Aws Client Vpn', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsClientVpnMd>', $name, $tech)
+!endprocedure

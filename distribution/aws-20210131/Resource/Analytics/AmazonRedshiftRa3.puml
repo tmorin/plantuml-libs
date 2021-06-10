@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Analytics/AmazonRedshiftRa3
+
+sprite $AmazonRedshiftRa3Xs [10x10/16z] JKo30G1041eWxJ_j6sTLIMGhqwnXNls5HCuwtwGNRh_Mj22Nw_NMighN0G
+
+sprite $AmazonRedshiftRa3Sm [12x12/16z] BSk74G0m20B01GJstpQKzDT3IGHzr0NS0H7D7gP96am5B6CsPVEFikVR2rUpOTIADM_LMiPu
+
+sprite $AmazonRedshiftRa3Md [16x16/16z] FOo74GD148CQGFh-k_KoyXmNsVH9k_Cd4C_pw9at1oqXr-DhXLcCWzqxS0KMwVjAbrV4BZoPKmTU6NEiZJtpVD7kUKuSz_hdPLvKe9fKPZy
+
+sprite $AmazonRedshiftRa3Lg [20x20/16z] {
+PSw75OD040FH0ZoZwxzRlnKPHFvSq6gIRBSh0TBRtSB8tGhbrQYG-Uf3NS7-9PqfzWqq0kcKCN3WzplUxdMoxeaqNYmca8XNutOyNckTaxcu6NkyR5XbhPkj
+iNmCdeOsiNQhV2zTdXpm1m
+}
+
+!procedure AmazonRedshiftRa3($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Analytics/AmazonRedshiftRa3', $name, $tech)
+!endprocedure
+
+!procedure AmazonRedshiftRa3Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftRa3Md>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftRa3Group($id, $name='Amazon Redshift Ra3', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftRa3Md>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AwsCostManagement/ReservedInstanceReporting
+
+sprite $ReservedInstanceReportingXs [10x10/16z] FOcx0G1H406ZDNZzztkYsoyciLT09c5o2aadq-ZiszPOid3pgw9HUSg0Y5_REAitkPhw
+
+sprite $ReservedInstanceReportingSm [12x12/16z] JSct0G1024BHHWMy_UUzdAZ-KqaSGvy-Z8GxrfqMf1k852E0S92fu9I_vkXaB8sMZJQAfMD-99MEr5gPM6m
+
+sprite $ReservedInstanceReportingMd [16x16/16z] {
+NSpL0KCn34FHWa5ozj-tfjBJtxa1vZ3pse-nhk2-OMWYba0RYKfF1ppQ85maZGZcFLCrDsj3IJDJGFpNN4Vzcm5xFwYA-NKjwlq_29mAT5K7c3iPSersXTxw
+4bu
+}
+
+sprite $ReservedInstanceReportingLg [20x20/16z] {
+RSiv5aH124BHG1Ietlz-sngZ_y9xm9rktFa3_O6-MFdm21E1Qj4n8P9I8O9g7EuGNEC8THoDJ48IGPIwqPYq2aYgiCs4BKYG5BbtqxpCGcqRvrioKyUKQoCG
+l6Q4t352VePaKm9ous-XbSlNNB_65UdRxw77iuVTjG_y0m
+}
+
+!procedure ReservedInstanceReporting($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AwsCostManagement/ReservedInstanceReporting', $name, $tech)
+!endprocedure
+
+!procedure ReservedInstanceReportingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ReservedInstanceReportingMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+
+!procedure ReservedInstanceReportingGroup($id, $name='Reserved Instance Reporting', $tech='')
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$ReservedInstanceReportingMd>', $name, $tech)
+!endprocedure

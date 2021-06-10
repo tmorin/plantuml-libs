@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneStandard
+
+sprite $AmazonElasticFileSystemOneZoneStandardXs [10x10/16z] BOgt0GD10CBwGuBzfxK_qP2qJJVeDfpdyAIQK92GbBY5wOFQrJlWMl66249ixoIV-WS
+
+sprite $AmazonElasticFileSystemOneZoneStandardSm [12x12/16z] FSZ75SC020FGEshxRnj4R5F_KxRan6JfsGVq9dICgKr00c4HJ0KsJDAZY_lFBfspI0yCSWs8lKtNzbdyoZy
+
+sprite $AmazonElasticFileSystemOneZoneStandardMd [16x16/16z] {
+LKx50GCn37jNvFsthQ6eWqHWg45yVwSMVAWf6YUOcLzpNruhyiL5CWejjYp1eQYDcvAdDssrRn3P4Pv_3F16r75b9-n_-LwWqPQRTFTEVtvnYNG_MlxUwdom
+eGORIFo7UW8
+}
+
+sprite $AmazonElasticFileSystemOneZoneStandardLg [20x20/16z] {
+PSxLWSKm44FHxrp1z5_jWjzuKU4JW-QLzZuxcq0_HO3N_9nN8uakAkSk-3Ql2TOYf75BWZuNJgIOA0NJiuR9Fk5HfbHvLSCzawPeLzLpdYzxjBqzrtgBTwxn
+tVgl1KwjdIjGWHJmcgq02hNM96r3iMR9TttLd_Otckc_p3i
+}
+
+!procedure AmazonElasticFileSystemOneZoneStandard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneStandard', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticFileSystemOneZoneStandardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemOneZoneStandardMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemOneZoneStandardGroup($id, $name='Amazon Elastic File System One Zone Standard', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemOneZoneStandardMd>', $name, $tech)
+!endprocedure

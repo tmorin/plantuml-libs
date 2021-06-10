@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints
+
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsXs [10x10/16z] 5Oct0G0m3C9sq_x_Df4he6snCyf1asIJkRQ9Z5AZelfNpbOtYJUa143g45J2VG
+
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsSm [12x12/16z] DOp55G0W3CNkVCd-s_AGfgv0OuTBbTRgoO-tAo1kkrRFcYFrDFnoidpo6B3adbYQn1nyuH4fVCvBXhps1W
+
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsMd [16x16/16z] JOhN5SLG3CB-BGpxJvj2NebkbOzIzY8_D4YmNyLDK7Mh6djQjFD0blk7GGQShujabU3weEmC9kdmOX5RVsvpwUP6wl5r7eH0L8jlT_umGrxipEQDl_K9
+
+sprite $AmazonSimpleStorageServiceGeneralAccessPointsLg [20x20/16z] {
+PP354S0m40FV5bt_tMQCeNrTLegf5abIJo8C_520LvAZE4Owt99JgR77gvRLXikOEICfRcYeWeVJh2HE_zhEFHPu73EErjii3cVi8vdCEWoq762n1XwPNOxF
+zTGdigUgZK6H8bmt4G7f_reVLK5h-BWouFgIktK1
+}
+
+!procedure AmazonSimpleStorageServiceGeneralAccessPoints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceGeneralAccessPoints', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGeneralAccessPointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGeneralAccessPointsMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceGeneralAccessPointsGroup($id, $name='Amazon Simple Storage Service General Access Points', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGeneralAccessPointsMd>', $name, $tech)
+!endprocedure

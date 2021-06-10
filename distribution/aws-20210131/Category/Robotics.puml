@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Robotics
+
+sprite $RoboticsXs [10x10/16z] DOf50S1040DB6wf_lyVp2Mh2ZZihE5OLfujHk-i5kdK84N1ttpXzKbBQxeydVJsk0G
+
+sprite $RoboticsSm [12x12/16z] TOkr0SGm54CF8lhUVrvpcrS9VT32cLphcXBGCgbwqvw2cgUfkJGSfn6K-61fO5xoF4iRca1BjrQRTRxO7W
+
+sprite $RoboticsMd [16x16/16z] NOe70WD1209JT07t__yDcdPtitL0aCG1Qk1mTTghTKNa1FQwUWSPrC-BApEXNxyaCQcF0v00f_PTY9NmzNJG7i7k6Kz-N6NqyUtHPkPft-w-K7kemGxn25u
+
+sprite $RoboticsLg [20x20/16z] {
+TSW7ZaH120DHQHkmpR__VHTrdbHAfOTlQSJPiGjvZC2nJ5MmAXPcH_Xbp85q0uzrZDQSkeqUG3XqJ4vLS6eRGeLaG9f6Wpjf5gsmx7dIMfdeZjOeeOpzCgKo
+35DPzewbDu-U_vcw5OehJUlbx9U1T-Zz0m
+}
+
+!procedure Robotics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Robotics', $name, $tech)
+!endprocedure
+
+!procedure RoboticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RoboticsMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure RoboticsGroup($id, $name='Robotics', $tech='')
+  IconGroupElement($id, 'Robotics', '<$RoboticsMd>', $name, $tech)
+!endprocedure

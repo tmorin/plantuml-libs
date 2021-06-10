@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M6GdInstance
+include('aws-20210131/Resource/Compute/AmazonEc2M6GdInstance')
+
+' renders the element
+AmazonEc2M6GdInstance('AmazonEc2M6GdInstance', 'Amazon Ec2 M6 Gd Instance', 'an optional tech label')
+@enduml

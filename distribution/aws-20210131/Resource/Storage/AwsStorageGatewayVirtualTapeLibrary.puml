@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary
+
+sprite $AwsStorageGatewayVirtualTapeLibraryXs [10x10/16z] 9SW75G012CDG0IIjVxKtsFpNScLBX8HFLTBLLoTG-3JiN3R3ge9P8QoW0Vi2
+
+sprite $AwsStorageGatewayVirtualTapeLibrarySm [12x12/16z] DOot5S1G30BxpntQVredFLEHHrXq1XKiFhmJ7k9oAZz_iPpmxLz-scGyBuyayd6tyVyysArDU-JXxWDqRW
+
+sprite $AwsStorageGatewayVirtualTapeLibraryMd [16x16/16z] LSzN5iGm24FHxv4UQF-hJM8EqzolEqbzKoTf0TZJ7FjimPpX6XTVJuNwUb9_tDqvpHfPZMt6KgNiJcdTwzVkjsN9mdiVa_hx_l3lVoNM0bLYuUDieDlT
+
+sprite $AwsStorageGatewayVirtualTapeLibraryLg [20x20/16z] {
+LP1N0i0W24E_pO3xtxP8bwJ3yDp9ZAdS4eOQYZtMTfHvcFP7WgxgPq46FLb2IJC6YwZNattwcAIoblmo2YIY_tuOuCnTR_-mjQ9P_Ls-6Q4mH4PyTvE1jUeh
+ulyiRetplN3U5oInwpyheuoNlwomrUpBz8_yDHS
+}
+
+!procedure AwsStorageGatewayVirtualTapeLibrary($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AwsStorageGatewayVirtualTapeLibrary', $name, $tech)
+!endprocedure
+
+!procedure AwsStorageGatewayVirtualTapeLibraryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayVirtualTapeLibraryMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayVirtualTapeLibraryGroup($id, $name='Aws Storage Gateway Virtual Tape Library', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayVirtualTapeLibraryMd>', $name, $tech)
+!endprocedure

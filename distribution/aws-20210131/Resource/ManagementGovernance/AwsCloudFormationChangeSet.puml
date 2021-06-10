@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsCloudFormationChangeSet
+
+sprite $AwsCloudFormationChangeSetXs [10x10/16z] LOj50K0138KA3EYVzhjosPx5HGsermSp55P9WK-gm9FstvvZYejM
+
+sprite $AwsCloudFormationChangeSetSm [12x12/16z] JOv70KK138CC0F6lzi-tk7GtMHwqgLNc1YgYcrW9RkvFtll_7P9Zfvuxl_INenBdVghkwU4D
+
+sprite $AwsCloudFormationChangeSetMd [16x16/16z] NK-54G0n31e0oVxRFlchKqKggVA12gKME7cMiahDeKZiFdnICSFvSzM41_SKLjwMPpvK8ZHvM2_fy_o2VawwYOTFcLRwyP-ROvOJ_jRx0G
+
+sprite $AwsCloudFormationChangeSetLg [20x20/16z] {
+RP350GCm30C7YEwy_xI5D2hhQH3DZ1-OE_89zinkHmTw5ySuIMSBGx92GcUzU-EZVAfdDcyeds177xeIIPBEUEZUiOx6NXe7ADy_3VsPaUGCfBguTTborJrv
+pUgCRK2qkdyx_Ut-2W
+}
+
+!procedure AwsCloudFormationChangeSet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsCloudFormationChangeSet', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationChangeSetMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationChangeSetGroup($id, $name='Aws Cloud Formation Change Set', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationChangeSetMd>', $name, $tech)
+!endprocedure

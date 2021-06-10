@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonSageMaker
+
+sprite $AmazonSageMakerXs [10x10/16z] 3Scr0GC140D1qudSVx-_4ma2GseZ45kTxdTsIo3QimWW4QqVgTB16RUG_BV4AOcu5Gy
+
+sprite $AmazonSageMakerSm [12x12/16z] 7Og70O104C9iLy3zzpNu5PBRh65rjqGafP2xwgcYa0jTDqO2DnlXJMg6cjm_UswoEnGmQyHC9dPVcuHRCaNISiWKQjO7
+
+sprite $AmazonSageMakerMd [16x16/16z] {
+LSw73SH030D1u8-aBlJVxw-4Q3dEEkwPcWbppZUCoub3m0IlI9OxZ5r9hLy8k5mcQRKlj90I6L-hn2rBpZXLThAzf3RgP_agEtmhSRGKsiPx_eJOVeIIxOBj
+3gVspkPNC646ZR_X_04
+}
+
+sprite $AmazonSageMakerLg [20x20/16z] {
+RSW7JaGn30L0ANxDuVxtvJkXiwC-dSkNHlUlywlpt4a3P44tUvABHed5oNC6P3AifSbxCfwhzNLXYH1i0PDxD-YYeogRTQyGo30AzCSX9aJ5jV1vjaKeiMgT
+sm6Y0aqBJh8VblbiBOdvFCQH8aDpRoTH1c8mvqwse9dkdfkStVrXRlBwlfltRhu3
+}
+
+!procedure AmazonSageMaker($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonSageMaker', $name, $tech)
+!endprocedure
+
+!procedure AmazonSageMakerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerGroup($id, $name='Amazon Sage Maker', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerMd>', $name, $tech)
+!endprocedure

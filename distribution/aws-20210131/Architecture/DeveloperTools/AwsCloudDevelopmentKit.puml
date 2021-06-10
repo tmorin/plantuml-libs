@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsCloudDevelopmentKit
+
+sprite $AwsCloudDevelopmentKitXs [10x10/16z] 3SP70S1030EmhdZb-EEjzLBYKdMasauKeCwqo7PbpL3qMfm1kss-eJkZ59_MKfBJxgP-
+
+sprite $AwsCloudDevelopmentKitSm [12x12/16z] BOW90W8n20EzoDNz_tiDkjC2cIHUjAGYLVwP9ExUj3bhhML0h1mpc85RdT2e2Ct7Wyy77xav-E7DHmCC4r-LzAPSbTNb2m
+
+sprite $AwsCloudDevelopmentKitMd [16x16/16z] {
+NOvL0W0X508_57ZWtl-wsuqvOoO-KaVo4zc4oB9l5alGin_RxWxwO37xtdtBID4c0A_2DOOSTw2LHNkCKWeaPEuS4MoDM77ZaGxs1dIVpA84uUGXTAoLYJrj
+mafqV7rQnPuScNvY0G
+}
+
+sprite $AwsCloudDevelopmentKitLg [20x20/16z] {
+PSu73iCm34DH5255KixzpzjQwCx7VXvIT-ULd_NWnGRzqhS9GFsQw9Xb9oyBiWEWjvdpfotCpKtGTYhXt5ohwMuTqb79tDpMtSGZ9dcP7wOgCJ6oRPakJ6Ke
+OoiuejjDFk0yhLaW2H1vsMBAaXccNoQYzYtMB7yE1am8zoxdngdVdOClVTdrvXq
+}
+
+!procedure AwsCloudDevelopmentKit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsCloudDevelopmentKit', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudDevelopmentKitCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudDevelopmentKitMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudDevelopmentKitGroup($id, $name='Aws Cloud Development Kit', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloudDevelopmentKitMd>', $name, $tech)
+!endprocedure

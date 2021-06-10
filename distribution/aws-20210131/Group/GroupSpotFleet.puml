@@ -1,0 +1,28 @@
+' definition of the Item aws-20210131/Group/GroupSpotFleet
+
+sprite $SpotFleetXs [10x10/16z] uq00TdPsDZOW0MIniW41AuW5ebdPW2mm0oWEP44OR21PC0DP1y8K1
+
+sprite $SpotFleetSm [12x12/16z] NSst0S0m08H09q3xB-nSYUgg_p7LtIS5qDUKyZYI0-arSFps0FeD-7g85iwR_zVK1G
+
+sprite $SpotFleetMd [16x16/16z] XOut0WD03C8MXFp_3wVwigHfSWNcFuu57PyjvK5v3fgEMdhsiI6xBoC9-3m0cpOHjayqtRu82GuUFLBpygFgDFsSnr7evlt35G
+
+sprite $SpotFleetLg [20x20/16z] {
+bL3L0OD05Fk8TV-9cmhk3ui2Tw-dawnOB43Ew8HMJvazXxJfmYG5GrV5DJfMXbYA9HSCGVKPaFYQlofKo8Iz2Haq_ZGFMhkXqMwfDNw3jfIlEVrBnpMj-J_d
+ky8QUsixteFHUJfl
+}
+
+!procedure GroupSpotFleet($id, $name='Spot fleet', $tech='')
+  IconGroupElement($id, 'GroupSpotFleet', '<$SpotFleetLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupSpotFleet>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

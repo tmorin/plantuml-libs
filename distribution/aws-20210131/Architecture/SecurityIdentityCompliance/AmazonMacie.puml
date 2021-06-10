@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AmazonMacie
+
+sprite $AmazonMacieXs [10x10/16z] FKk34G1033iKmVxxljc6d0Vhj3xKXnE1x8swK5aJCUUkR7Y66kochNbMpH_wmm4
+
+sprite $AmazonMacieSm [12x12/16z] JSUt0G0n5CBG2_u1s7zUfmfLUZZrhMYWWORzrK3b_Sxi65ddOvUPqIqaCX8T3Oatx6IGGOO5
+
+sprite $AmazonMacieMd [16x16/16z] NSg5aG8044FHEo2w_TUBwsRq_KaUysFIhwtcjtI5jjkDVnpW9k1fKJIE91_6TIS1l1scEfgd4nmUcSmaZQGaqitJntBVh30hp0gpmWK
+
+sprite $AmazonMacieLg [20x20/16z] {
+RSw5WGCm20NG4-3R_lFMlSJp8g1RuRq0q89Uq0jwGI_e2ox6ueKQ3rFtI41tFMn6JLJzSVfcggcfOdMX83Bs_FVqkGjLHJ5nZTrLTOdoJobvP7CPgBFTz2NF
+B9W5is0Mp897
+}
+
+!procedure AmazonMacie($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AmazonMacie', $name, $tech)
+!endprocedure
+
+!procedure AmazonMacieCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMacieMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMacieGroup($id, $name='Amazon Macie', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonMacieMd>', $name, $tech)
+!endprocedure

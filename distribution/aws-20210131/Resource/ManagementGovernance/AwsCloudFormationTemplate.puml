@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsCloudFormationTemplate
+
+sprite $AwsCloudFormationTemplateXs [10x10/16z] LOj70S103CC8r19_jBszz4cypCJseVRl2z0-K7rJmfFoBdPlOW4
+
+sprite $AwsCloudFormationTemplateSm [12x12/16z] PKu50G0m20l0f7_QknztPd6GRAguIcmnv48j7YCjbhph6FDd_CySyNbdp9yOCW
+
+sprite $AwsCloudFormationTemplateMd [16x16/16z] PO_70G0m2087K67_QTCRvbvsWSG36nu7Hy_P8WvYvF1mIEvhP-Oyh7pMTN-GzbTEW9EJ__kQwt-TLp_PRmK
+
+sprite $AwsCloudFormationTemplateLg [20x20/16z] dP3L0KC14C8MIBZzfssVk-Vp5AYghAWMMTFLhB7TaB46E1QdMk1W3kcOQcdOpYsv-v61gURumwccVl_XWG_tFeIh7-4uqwFi_m
+
+!procedure AwsCloudFormationTemplate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsCloudFormationTemplate', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudFormationTemplateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationTemplateMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudFormationTemplateGroup($id, $name='Aws Cloud Formation Template', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationTemplateMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Containers/AmazonEksAnywhere
+
+sprite $AmazonEksAnywhereXs [10x10/16z] 5SYn0G0m507H8WxxJvplgaSIBvXWJD2Jpk4IiZleFLoRmzC4J_jgB21juuEdZUi3
+
+sprite $AmazonEksAnywhereSm [12x12/16z] HSp14G0n20B01n3il-93TUPuBObg-sqa_wKjWEeIIf3Opbn4vQTw2GIWyMkEDHzaF8NdyXroTJpNszCw7m
+
+sprite $AmazonEksAnywhereMd [16x16/16z] NSc7RGKm4CDG84VglF_4SKtvH7rIp_9I-sCuHi-mBLN5MTP9A2sEDR24ny4PmlHO3aLLVJ4zZdVNQehPiIqKxnyX7Tu_Qx5Cf7lieioSllLjV0pV
+
+sprite $AmazonEksAnywhereLg [20x20/16z] {
+RSg7ZGLH24DHBKxJVyKBuitFruf7pkHdwl83ymCF4O0EhWae43ou9tjkX6w3Od10q6rDiWcQ7Bl6f3cgTEnQAn055DRO5g2HmDCOgjYx3GbfGxAqTZL4GF4F
+vzUPIiBpIriNmIubSLjQzafYMjkojJpjoMq_y1y
+}
+
+!procedure AmazonEksAnywhere($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Containers/AmazonEksAnywhere', $name, $tech)
+!endprocedure
+
+!procedure AmazonEksAnywhereCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEksAnywhereMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEksAnywhereGroup($id, $name='Amazon Eks Anywhere', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonEksAnywhereMd>', $name, $tech)
+!endprocedure

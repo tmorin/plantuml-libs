@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudfrontFunctions
+
+sprite $AmazonCloudfrontFunctionsXs [10x10/16z] HOo70G0m404NSEo_RQH_BqWDCitKX9CcikaKUsuzMRCRveKvpMDwdhX9KwyRCDUlF
+
+sprite $AmazonCloudfrontFunctionsSm [12x12/16z] LKs50S0m33e0sV_VZj9C6bUu8fQSrAhYbhR8Dij9PxR7KyYT9XL1aTPB0y2aJeCcIfkejOVrO6vr0m
+
+sprite $AmazonCloudfrontFunctionsMd [16x16/16z] NO-70SH02CCMi63_RH_qwJwQWz9QrQYLfWFPhiq8QscNzTACUfaSOwTaR3r94sQO9BKjB9XXqHEMqilxn66GMsIXL7n_KNREzu7UlKEGTwtk__d-xmy
+
+sprite $AmazonCloudfrontFunctionsLg [20x20/16z] {
+TP274GG1208BUC7-ktrtyCCbBYzopDWhZ_eer-WVIeEw1qgB6579Ul6MgMGmt2w5vHulpCFmXyASBsvUasdNt5JV7D_6hC3yUPaAsbwMB26QawM3ifrkRR73
+nkKrDbbKH1H6qOOTbXsOB7hSrNMdTxj_0m
+}
+
+!procedure AmazonCloudfrontFunctions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudfrontFunctions', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudfrontFunctionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudfrontFunctionsMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudfrontFunctionsGroup($id, $name='Amazon Cloudfront Functions', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudfrontFunctionsMd>', $name, $tech)
+!endprocedure

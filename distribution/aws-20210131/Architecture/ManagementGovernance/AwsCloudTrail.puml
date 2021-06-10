@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsCloudTrail
+
+sprite $AwsCloudTrailXs [10x10/16z] FOkt0GC14CAw4-BsdzV-h8gevWJyP5-LLXWk5SpCgKWKKkSWXzhdehizyL2V_0C
+
+sprite $AwsCloudTrailSm [12x12/16z] JOgt0GD13CCgYsd_VQs_Z0eCQlW1G4_G4_nPOGIxbVMbpuiIVlYSuFhPrK1gZz7CcFX37tb2dl07
+
+sprite $AwsCloudTrailMd [16x16/16z] NOnL0WKn20EVB0bo__ikziLKCorOeGCJEyAEy2Ey1SaLNW82uUP49Vy_3pQRi1gmH6NIrCe8EWCKBLD7v7S0Kls4Lbb99P9g4n4-M1D7n15nn0i
+
+sprite $AwsCloudTrailLg [20x20/16z] {
+RSrB0WGn18JXcMwKulxtxRopyI-_11pv3ZqMo09PO1GO2nr-Yeag8hZMqPI40DV2XIrxnOwvshhIS1d05LIdKNN_fCiqg1bKrRTbX3VgQ2snvfdX3WTXFR2L
+3NTSPO5PO1QO1Nu
+}
+
+!procedure AwsCloudTrail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsCloudTrail', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudTrailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudTrailGroup($id, $name='Aws Cloud Trail', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsProton
+
+sprite $AwsProtonXs [10x10/16z] BSar0G0m00EmQqN_UiUv2hPra1PrCHm_nWGmJehtIF0axCIJHExNgY1VZRATrER51G
+
+sprite $AwsProtonSm [12x12/16z] DSct5S103CFGwXYa_VSrd5XzF9Obp7RH7utqnrI7MoPc2dnUJuv2VJRMOpEvpOxan6cxbVWGti8tblrn0G
+
+sprite $AwsProtonMd [16x16/16z] JOd70SD03CFIs7JxxnjPhdWHO3QyeoRFC6xg4IeaV8SguMTkSq9L317uVJJU178itmwAv8yFLxjELnB5iLThdm2-xkYr39ZpRwpLPwh9uINNS7YNW_7X3dy
+
+sprite $AwsProtonLg [20x20/16z] {
+RS_50G0n24JHGnW6wR_VZR7-Zo-ApwpYo7zmmXsNgS0U6EvYeDynme56vK0kZ8uKKW2qLjRHPDuDkInSc-uRBuE2r9v8MVpPEjkxdQqt5cSdWYO0fDd4p50L
+Op-m1kzrW-k-mikIq5XTbd5Mzj1bFtW
+}
+
+!procedure AwsProton($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsProton', $name, $tech)
+!endprocedure
+
+!procedure AwsProtonCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsProtonMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsProtonGroup($id, $name='Aws Proton', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsProtonMd>', $name, $tech)
+!endprocedure

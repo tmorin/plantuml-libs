@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsDeepLearningContainers
+
+sprite $AwsDeepLearningContainersXs [10x10/16z] 5SR70SK034AnNro0xBzlddMIi9YnsM7JFLTlLTSrM_slgjkPPbfRirBeZl0aCHZbU04
+
+sprite $AwsDeepLearningContainersSm [12x12/16z] HOU90OH02CJkb6S6--_N-6SNI2Heg2hx2voD4dP5P9vXONUDiJKeNDK56RZBq2LfHYsXiCrOtRPnWhpz3Uy
+
+sprite $AwsDeepLearningContainersMd [16x16/16z] LOe7ZWH02CEaeoNS__-x1BPwgYsmr983-HlEFu4A4Lc7F5my2raMvkb-tipmZBzfljxGlBdkb6Ta7BPUHO7o0iOPvr4Okdj_TOh_2QpC0acvWjeY_uJptua7
+
+sprite $AwsDeepLearningContainersLg [20x20/16z] {
+NSg93SHG20DHATXW_lRVxmR8FRgV9ZN5v5NcQTDftpCBFsSsEk1nrXzXXDswMsnk6uFsC11mCsm4szPA4lHT36Qd1T6HW74Ct3lKS9YoaXJmKDdoo4bmLUin
+aZfjYHwIWvf-XHbEUjrZXLrERIVcKTld7FkS-WC
+}
+
+!procedure AwsDeepLearningContainers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsDeepLearningContainers', $name, $tech)
+!endprocedure
+
+!procedure AwsDeepLearningContainersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeepLearningContainersMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeepLearningContainersGroup($id, $name='Aws Deep Learning Containers', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsDeepLearningContainersMd>', $name, $tech)
+!endprocedure

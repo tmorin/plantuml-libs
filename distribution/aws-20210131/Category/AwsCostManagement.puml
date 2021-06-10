@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/AwsCostManagement
+
+sprite $AwsCostManagementXs [10x10/16z] DSOt0S0m00InwSiv_Fd6LPCwPIlCTQ-oLo6Qt30YlzcUwroQEySovHlGCdUq_G4
+
+sprite $AwsCostManagementSm [12x12/16z] HSd50SL040BGBs60tVxxpKZadH0gSSXMkJC0Qd8SP1Sj1N3quypfoWwycHGhgpCpA_DUaH1ovhsIa-Icn1C
+
+sprite $AwsCostManagementMd [16x16/16z] NSj90i0m24BHZIYazxzlqSxzksT8_Q8aJe_L86yJ0O2y7K7YM73rSrG6V6alPleIEOinoiNBtMrbV_oPmEqwtobxMm8IpfQzUN5dzs4Q5p_L3W
+
+sprite $AwsCostManagementLg [20x20/16z] {
+TSq5Oi0m58BX2V0WlVzz5v__zQ-H-giatdsntxgiIghlndUGwEXh1cHJNqruPpTmpsyjHX4z2iUQASp8RbwstbrOvcLOax_QE5JGfuLnR95VJ5PKKhTyjmBf
+fDlpj40KvqR7EdfLJg_Rm5tohvLFTVi
+}
+
+!procedure AwsCostManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/AwsCostManagement', $name, $tech)
+!endprocedure
+
+!procedure AwsCostManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCostManagementMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure AwsCostManagementGroup($id, $name='Aws Cost Management', $tech='')
+  IconGroupElement($id, 'AwsCostManagement', '<$AwsCostManagementMd>', $name, $tech)
+!endprocedure

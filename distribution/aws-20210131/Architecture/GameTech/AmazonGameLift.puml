@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/GameTech/AmazonGameLift
+
+sprite $AmazonGameLiftXs [10x10/16z] 7SQ73S1030905Qf__ts3uWBNJJRsO6dqLJ0uNaHJdangDyMQwBmJ0L9zxqBvrzXBfd7JVW
+
+sprite $AmazonGameLiftSm [12x12/16z] 7SZR0S0m24BH7m6n--zRGfxdwgpjacgfSJOd-yM5q2HgIYIU5mC2jKKzCpuDC0djzvrYpiZncSfWuvJJQzTTzWy
+
+sprite $AmazonGameLiftMd [16x16/16z] {
+NOn14aHH10CN987xttSOR_NRgZjLSec7fFppSG7GXPeH1fapbgg4kmGtdWVb95mufpYBVEuSlhlXkHHC3k3x1wSFsD1Lcd2EZ9uG18oqyUmDHRAIuFg6LDQ4
+EEywSkXF-04
+}
+
+sprite $AmazonGameLiftLg [20x20/16z] {
+VSu5be0m30JGzvgH1Ev_tqtGzO7QhzQHVE9ENVYVZMw7A3fyh369S0RWKxT60CeK4BxDr49daRoDcPXRwCHb1Ibi2-psiX134W76kxTOPSrQNMOvJ63Tj-pN
+Mq0YOMDia6GGYujSMMs34XJABiYgVR0LParzsw0uroLKRJSUQRYjySvbF_03
+}
+
+!procedure AmazonGameLift($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/GameTech/AmazonGameLift', $name, $tech)
+!endprocedure
+
+!procedure AmazonGameLiftCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonGameLiftMd>', 'GameTech', $funcName, $content)
+!endprocedure
+
+!procedure AmazonGameLiftGroup($id, $name='Amazon Game Lift', $tech='')
+  IconGroupElement($id, 'GameTechFamily', '<$AmazonGameLiftMd>', $name, $tech)
+!endprocedure

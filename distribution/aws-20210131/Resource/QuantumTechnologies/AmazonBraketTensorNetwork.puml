@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/QuantumTechnologies/AmazonBraketTensorNetwork
+
+sprite $AmazonBraketTensorNetworkXs [10x10/16z] 3Od90G0m2CBU5JJxRzju0ccv74x3pkBez0IebdLbRchU9NalOQPzTIJNp2J8DeA5Srlu
+
+sprite $AmazonBraketTensorNetworkSm [12x12/16z] 7OpN5G0m20A_5V3stpQFsEj5S3fYq1mUD_-P0ZODBV41DsfiW0sNTHS5IRCZisDhDxF1cylgrrZvDtP1xaA5aXAAUG
+
+sprite $AmazonBraketTensorNetworkMd [16x16/16z] {
+BOnBZaLH20AdZw_xtsthFSs01AjYdPc9-ry6TnEwyXw_3VZsfounrnnfDcNV76Ok0l81Nx-F5pvhShWHe-IuTe80VqGMioq32kPjaFOFdHLMrVtnmk2zfC_d
+3uYyEq1DoB2F5wULzBoqrydr7m
+}
+
+sprite $AmazonBraketTensorNetworkLg [20x20/16z] {
+NL17WaKn2DeA8jx_jlECcTz8iTTskHzKpR-2WHpL4e1NMCANpec9oiWXX7f0ZTlocRsKxQlgVseas8lqPGWiQsPVC72zm7y_eKxJ3pMrpLEZ0X5aW9D8eUDi
+1H2gYGAGcUD76o3xNsV5-3FYZ7eibWW9J7YRllaUoAXj1ZA1K0QrFUuENT06xapKzQ_-XTVh3m
+}
+
+!procedure AmazonBraketTensorNetwork($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/QuantumTechnologies/AmazonBraketTensorNetwork', $name, $tech)
+!endprocedure
+
+!procedure AmazonBraketTensorNetworkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketTensorNetworkMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketTensorNetworkGroup($id, $name='Amazon Braket Tensor Network', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketTensorNetworkMd>', $name, $tech)
+!endprocedure

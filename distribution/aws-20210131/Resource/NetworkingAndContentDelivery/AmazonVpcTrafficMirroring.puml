@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcTrafficMirroring
+
+sprite $AmazonVpcTrafficMirroringXs [10x10/16z] NOo50G113C8MQCB-qxwUrmL88fYlsmefg10Lu6-75VsgGG1PLARo3G
+
+sprite $AmazonVpcTrafficMirroringSm [12x12/16z] LOq50G0W3C0AV7l_jBWExfOD6ZaG6pXTb16G1eRDcRbH4uZXTo8uLXceYQCGCdQc3lFT6j7qAW
+
+sprite $AmazonVpcTrafficMirroringMd [16x16/16z] PO-7TGGm5C8Ma63_RVFuIQxYXd3lAKdwaAXYJ_atScl8tDAmT2CfPBuqKQF9mAq-se8vPUoK0FyCMvc4umnAop5qe0LLcB_tDBgUp_T-_-Vplpy
+
+sprite $AmazonVpcTrafficMirroringLg [20x20/16z] {
+TP274SGm408BCCVrt-q3WpuRMs5tbBUXqcx589cNdWBLgG9YOe6EeZHcO96Hz2XSwaeQFMoMYq6gfNa3esugsVmgnu4U9CRu7xelQuVBfX7O4ToZba7z13eg
+iDcxZYXdB2812C_Tk7QRhVV8Xi3zMyKcDV_U_W4
+}
+
+!procedure AmazonVpcTrafficMirroring($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonVpcTrafficMirroring', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcTrafficMirroringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcTrafficMirroringMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcTrafficMirroringGroup($id, $name='Amazon Vpc Traffic Mirroring', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcTrafficMirroringMd>', $name, $tech)
+!endprocedure

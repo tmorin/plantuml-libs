@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/GroupIcons/SpotFleet
+
+sprite $SpotFleetXs [10x10/16z] uq00TdPsDZOW0MIniW41AuW5ebdPW2mm0oWEP44OR21PC0DP1y8K1
+
+sprite $SpotFleetSm [12x12/16z] NSst0S0m08H09q3xB-nSYUgg_p7LtIS5qDUKyZYI0-arSFps0FeD-7g85iwR_zVK1G
+
+sprite $SpotFleetMd [16x16/16z] XOut0WD03C8MXFp_3wVwigHfSWNcFuu57PyjvK5v3fgEMdhsiI6xBoC9-3m0cpOHjayqtRu82GuUFLBpygFgDFsSnr7evlt35G
+
+sprite $SpotFleetLg [20x20/16z] {
+bL3L0OD05Fk8TV-9cmhk3ui2Tw-dawnOB43Ew8HMJvazXxJfmYG5GrV5DJfMXbYA9HSCGVKPaFYQlofKo8Iz2Haq_ZGFMhkXqMwfDNw3jfIlEVrBnpMj-J_d
+ky8QUsixteFHUJfl
+}
+
+!procedure SpotFleet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GroupIcons/SpotFleet', $name, $tech)
+!endprocedure
+
+!procedure SpotFleetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SpotFleetMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure SpotFleetGroup($id, $name='Spot Fleet', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$SpotFleetMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTRule
+
+sprite $IoTRuleXs [10x10/16z] NSQv0S0m24FH7btxRnj5fRyDl8JiA8smWJIRbFCdG8ElZJe0dDprIeadipdv
+
+sprite $IoTRuleSm [12x12/16z] ROct0G0n4C9wmw7zftrdLw-688WBoc5G4iXc48yYXOrVGwtflcsWUskOx3y9FXtuwweaOb6Mrjq1
+
+sprite $IoTRuleMd [16x16/16z] dO-r0G0120DhSWdiF-sxrO-xp4mdlQbaJh2qcGRltctXssyRMz1pGwFDULqZz-jJedXSboHA_QRDrq_iDBT_6VzzEJ7l0GbSxwu
+
+sprite $IoTRuleLg [20x20/16z] {
+jT2t5G0n40BHc85TzL_jUQS23ld_Y3Isz9Rh77S2x2UGnrox5Ms-lTfCUNjT5H9iZs-QlJfJX-wP48W98s797zoVA7jpiYIIFkOODkPZTLt-j9pt-bW1DlCt
+T9TTVRLM
+}
+
+!procedure IoTRule($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTRule', $name, $tech)
+!endprocedure
+
+!procedure IoTRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTRuleMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTRuleGroup($id, $name='Io T Rule', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTRuleMd>', $name, $tech)
+!endprocedure

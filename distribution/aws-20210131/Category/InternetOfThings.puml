@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/InternetOfThings
+
+sprite $InternetOfThingsXs [10x10/16z] BObN0e0m2CL-60dU_xngHrhW3NvwW_wIgwgMt69B_K-lqQxCB73erIurPBRYC-C23y07
+
+sprite $InternetOfThingsSm [12x12/16z] BOg50OGm00FVeh__lWGvQ1kJXswS-EJHCIdVsY0XJpVK93PBjSKEBosCMs-3Q-Eq9dvmflzjDaWoFJDExLnuw
+
+sprite $InternetOfThingsMd [16x16/16z] NOhNGGKm30D_eXRstnTRyEgbdYnzuIGkBty5zK60x7hrQ7O3tr4G0-trwyEGPXipfwa1mh-7XpXmlNq2t7xzRXaKKnzu1ZeP_zbWvrd66znQVODIbp_GBm
+
+sprite $InternetOfThingsLg [20x20/16z] {
+VT15TWGW44NH0L-xzx_V53aLbpUyEFwjjja-sK_jelt3232hQq82VJ4IziVCnwCLE-9mSCr0AjKu6hmMreoKkzvZURKSI3WErnuYJOa2cBNIlLOXQtTrhWLk
+rouUuD2TnfxFYyKqiBRuqTZ5xHzpVlooNm
+}
+
+!procedure InternetOfThings($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/InternetOfThings', $name, $tech)
+!endprocedure
+
+!procedure InternetOfThingsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetOfThingsMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure InternetOfThingsGroup($id, $name='Internet Of Things', $tech='')
+  IconGroupElement($id, 'InternetOfThings', '<$InternetOfThingsMd>', $name, $tech)
+!endprocedure

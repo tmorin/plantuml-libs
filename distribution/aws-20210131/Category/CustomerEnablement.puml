@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Category/CustomerEnablement
+
+sprite $CustomerEnablementXs [10x10/16z] 7SV90S1024BHsy37z5zlSFTXV2KHu5WrgoHoyLP6GdPM3-6C1Jh5Bgfl9bjmj-KV
+
+sprite $CustomerEnablementSm [12x12/16z] DSUv0S1G3CBGpY2S_TVDlrKz-IM9163VjkeQoQfrn6PAicd3WjYcwjaAqdPSK0AdkoEHnFbwbMKdt3m
+
+sprite $CustomerEnablementMd [16x16/16z] {
+JSt70SGW44FHJIWCst-zHkFuRqysG2LUgSgTklWvjCiSWxS5ICZI9kGi0_4ika32WkEvpCC-_VlnOQCCjJsdIFKZjBKyFMXZoF5_3VceMiKPPXt5FHoJw9Mk
+k04
+}
+
+sprite $CustomerEnablementLg [20x20/16z] {
+RSe7baCX34FHcGHPbc7_wur-huz-3tnBUxd6hAe33wi5fBCPexL8dKn4P8PrjqH8fApSBD8BW4HeCvKCIAKFM--J5KXeDatM9ulslHj32buDgX9EbWYKyy7D
+Uh6nl8Lgira1YvjjB2hBd6qCuznX_dStvYsIFm
+}
+
+!procedure CustomerEnablement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/CustomerEnablement', $name, $tech)
+!endprocedure
+
+!procedure CustomerEnablementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CustomerEnablementMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure CustomerEnablementGroup($id, $name='Customer Enablement', $tech='')
+  IconGroupElement($id, 'CustomerEnablement', '<$CustomerEnablementMd>', $name, $tech)
+!endprocedure

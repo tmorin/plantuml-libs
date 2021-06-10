@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Storage/AwsStorageGatewayVolumeGateway
+
+sprite $AwsStorageGatewayVolumeGatewayXs [10x10/16z] DSmr0G0m40F0FUXVRRcFDwMrf7ILt4RUwgeynLQEkCGZWC2HukYg_t4LsjniTm8
+
+sprite $AwsStorageGatewayVolumeGatewaySm [12x12/16z] RKt30K1H3Bitsd_QRppLJ1Bp4ESKGRR8itv6oreawAls-GBSTHKEU-Uadlf-VEQszT_Zl7Skp9Du1m
+
+sprite $AwsStorageGatewayVolumeGatewayMd [16x16/16z] VS-t0O0m34JHsfUy_xOug-CtqYFJH_4e_MHI4gai1jfJt7EEMNwTM7asPs2EjJOrNpU0G1dBU7PFCiVphAp9y1aSeStBjZ6DzvFnR2mV
+
+sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] {
+ZSgt5SG020JHc3NGVxV7oNjfedqVQYZ_rQOKnhIm0GqdiyUOM4FRAItchwQTfTc1tXWWTwqReuTlO6E1Vn478vks9ekKlRMieNmpZ-QjWUg8hJLs6CskJiGG
+NPjogBeV
+}
+
+!procedure AwsStorageGatewayVolumeGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AwsStorageGatewayVolumeGateway', $name, $tech)
+!endprocedure
+
+!procedure AwsStorageGatewayVolumeGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayVolumeGatewayMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayVolumeGatewayGroup($id, $name='Aws Storage Gateway Volume Gateway', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayVolumeGatewayMd>', $name, $tech)
+!endprocedure

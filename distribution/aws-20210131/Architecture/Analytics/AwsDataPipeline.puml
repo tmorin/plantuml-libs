@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AwsDataPipeline
+
+sprite $AwsDataPipelineXs [10x10/16z] 9Oo50G0n20DVSFRVjmUz2fea1BXljccHc3ffaOXCMY73RsGwIpGx-9miEyJCLCXgmQlXfWS
+
+sprite $AwsDataPipelineSm [12x12/16z] JOot0G0n2CG-aDb_Nmiggu9B2R6uv_NKtExxL6MeYEwDgFAhsToo_BzpZu97YjjdoBYRZ898P9VvZbjcGmrvtJm7
+
+sprite $AwsDataPipelineMd [16x16/16z] NSm72WG124DHM8sntF--IsJwe_u8bkI1PArltqFNYZYMRXNC44Tt5U0E79qEtHrmgcdcwsUn7U1o71txj48zdOzxvGpDiCoYQgOGIO5JFNqe6NaCynd-
+
+sprite $AwsDataPipelineLg [20x20/16z] {
+RSu73iGm24HH2MOWuFlVTv5Ds9Ql_bmWTjVaLPp-h74q_x0icyZHBDmY0lXOeP40oR6eOq0LS3S_HYZB1FkWJOKihMJCOPqQRsFsIjYsskBJLjAKdP8HsrJO
+YI8Yrbe6-CcWF9QHTt75iUgDRN-u7l05
+}
+
+!procedure AwsDataPipeline($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AwsDataPipeline', $name, $tech)
+!endprocedure
+
+!procedure AwsDataPipelineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDataPipelineMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsDataPipelineGroup($id, $name='Aws Data Pipeline', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsDataPipelineMd>', $name, $tech)
+!endprocedure

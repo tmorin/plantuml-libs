@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MediaServices/AmazonElasticTranscoder
+
+sprite $AmazonElasticTranscoderXs [10x10/16z] 9Oa50G01309VaFKlF5VWR6kAR4MER2KAepkILqOhwV-f403YrwdUeJhgcBBeKIEx2W
+
+sprite $AmazonElasticTranscoderSm [12x12/16z] DOW94e0W4CDcxBN_Vx7bgW99alXCsgmZPP7SrinOMvfx8bIctE73OhAHuEuWNRsT0b2UIKVGAMzrmppfVW
+
+sprite $AmazonElasticTranscoderMd [16x16/16z] RSq73WCm20D0gNZa_o-koUgqvZa1dEY4f3-BPGAdM2IBgsX35e5Zeai1N9uqgtfc33EHK8_b_eW2ygvfLjG3NDxdqYuZITFpZeVlVjbZfGk6n-lN7py1
+
+sprite $AmazonElasticTranscoderLg [20x20/16z] {
+RSu74iCm30F1IGu0zVyFfuZkzarV5RB-PS-_wW7h0PiCUCCc4gDLfybL4NWta_cbjHlPVfqwgafD0KqSew9UrBnVqAPVHh3V6me4CXzdixVeTNQp2sGGRZEI
+I80NgihuLnteRpMjlMTCst1hFE1um2y
+}
+
+!procedure AmazonElasticTranscoder($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MediaServices/AmazonElasticTranscoder', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticTranscoderCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticTranscoderMd>', 'MediaServices', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticTranscoderGroup($id, $name='Amazon Elastic Transcoder', $tech='')
+  IconGroupElement($id, 'MediaServicesFamily', '<$AmazonElasticTranscoderMd>', $name, $tech)
+!endprocedure

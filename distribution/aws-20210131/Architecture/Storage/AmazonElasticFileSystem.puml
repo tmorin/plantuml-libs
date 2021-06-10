@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonElasticFileSystem
+
+sprite $AmazonElasticFileSystemXs [10x10/16z] 5Kc50G112Fgat7_V4uEqrI5feWgesjKFna8JAM47LHlm_wksrRTjHLjel75CUYOTsmS
+
+sprite $AmazonElasticFileSystemSm [12x12/16z] 9Oi70e0m20DTZ8F__zTGecqpWHo40B7SnVCzmb-NByjbwYzG6ERAgbBEPCiztEnmPkJVTcPh7fdDbmZn1bsK807TNIlW1m
+
+sprite $AmazonElasticFileSystemMd [16x16/16z] {
+PSi72WGn34DH85PnSl_xhiNscKzz0lNaPqft2tgQnHXB_VIgM1E0CIdj_8DwtlOCv6mYdjwYoVpnD0KIgBSDz5JbE4FinNPiYvYAadqsbtSdBNIVOpgdCHIV
+A4EA_uO7
+}
+
+sprite $AmazonElasticFileSystemLg [20x20/16z] {
+RSu7ZW0X28NXP8HNzFxtNGZZzZ_ziu0htJZv7npvRLeBr_DPr-WNiSOCGXcHPOais-uoLGogusvKoEwxWxinSpR2uAwOOhzkl9P482CY6NoDcNJ5sawl6TVI
+OzriWKVs60L6HWKGPMVl2FL27TUITSwEnLqreysdq2s3aiiQR-x6VkC7
+}
+
+!procedure AmazonElasticFileSystem($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonElasticFileSystem', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticFileSystemCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemGroup($id, $name='Amazon Elastic File System', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemMd>', $name, $tech)
+!endprocedure

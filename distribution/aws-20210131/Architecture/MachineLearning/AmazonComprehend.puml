@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonComprehend
+
+sprite $AmazonComprehendXs [10x10/16z] 7Oo50G0X30DVgE-_BzSSKaqI0joBvqgBS6pJxPcotcmNbBbUivjfvjcoEN_cT2adcuQ22m
+
+sprite $AmazonComprehendSm [12x12/16z] 9Sc74KG120BHIwpexx_VCp3fxU1Pz81i41SPWjzMc-1taGOat2uluJmG6WVOOrSwU_hAVf80zANzL5KVThjZQlO7
+
+sprite $AmazonComprehendMd [16x16/16z] {
+LOa50WCW3CGcFOF__tSjyw19VT21JV8V4g7XEoJpnnsla72UUeTnW4GzVQN_RIpv-ABGJEJBsKXWyUsI8HD-Uq8KQBTdhIIgUzdUIpm0Dupl6Ng0qzxXa6Ry
+F-G1
+}
+
+sprite $AmazonComprehendLg [20x20/16z] {
+JSW9ZWCX34HHATHcSl_xZXaSTNzMlyhDDvrgqDFOm7GDfyK7ZwN3WgV7-E0n0nImb9V9aioVxLqmJL9jUHawIOJ664kM0mhy6KbJHcAyhSfmkvDZbJXL0JvW
+ndRVRLfhfVlk3LadSdtmRzyTtnGjrx76MtNfqpOuElPW3Vu1
+}
+
+!procedure AmazonComprehend($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonComprehend', $name, $tech)
+!endprocedure
+
+!procedure AmazonComprehendCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonComprehendMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonComprehendGroup($id, $name='Amazon Comprehend', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonComprehendMd>', $name, $tech)
+!endprocedure

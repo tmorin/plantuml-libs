@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager
+
+sprite $AwsResourceAccessManagerXs [10x10/16z] BSgn4G1H20BHI5dz_VTxwyozI84H9qlI2kj1gjkhg_yh3HKl4cx9OygJp7EkUEq2ewSzym4
+
+sprite $AwsResourceAccessManagerSm [12x12/16z] DSW74W8m24HHspPo__kwPFIdy8PilcbY_VAOeWHWBS8rwplzDsc3wwY_jFiJ2tRNIkqFIAz7GXETSyuaqrAtkUKB
+
+sprite $AwsResourceAccessManagerMd [16x16/16z] LSg53GGn34HHGOQS_lizRqYwl_ZiPEUTz6-h8X0dsbMKgGuabgt16C1nSyZzUdlI4QHZOfy_5WCRNfvtFz1EPYa157Tip_x5G7TDDNeaBCygopdDLUsM_mS_
+
+sprite $AwsResourceAccessManagerLg [20x20/16z] {
+RSt50GCX50JGmuwo_VURJzm6VrZloIEs-mVNrnadNgjupp6uBOqp4MtSZ0t6Au0leuJaS0uzpCT-fmOKv6QjdJPINaP2BIPF2nkC9JSxxtzepDhMdEVYgfXE
+HsthrPO0DMdxj08a9ay3FRID7XuRNCka7RVfpJO_yxHtVRDtl
+}
+
+!procedure AwsResourceAccessManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AwsResourceAccessManager', $name, $tech)
+!endprocedure
+
+!procedure AwsResourceAccessManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsResourceAccessManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsResourceAccessManagerGroup($id, $name='Aws Resource Access Manager', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsResourceAccessManagerMd>', $name, $tech)
+!endprocedure

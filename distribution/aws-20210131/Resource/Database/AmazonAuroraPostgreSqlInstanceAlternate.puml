@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Database/AmazonAuroraPostgreSqlInstanceAlternate
+
+sprite $AmazonAuroraPostgreSqlInstanceAlternateXs [10x10/16z] u-U30dvUFduW0F5vOO2F5oG0H21vA22QXJ0P
+
+sprite $AmazonAuroraPostgreSqlInstanceAlternateSm [12x12/16z] bSQn0G0G0CJ01Noo_xG0rAuwkGGdkeGbyqd901w0r_zvbSi6
+
+sprite $AmazonAuroraPostgreSqlInstanceAlternateMd [16x16/16z] lS-v0S0W40F11gpT_glremIu0ZnmNoXbe-OWSHEu0k6LL-zFU-_uWdPxR_w_PvwPzm4
+
+sprite $AmazonAuroraPostgreSqlInstanceAlternateLg [20x20/16z] pT0v0SG058HG0mFZN-sUkVC5v9MKT68uYMtiYJatFygd1GNvY_y68JasQnNg1vfFwmNFRmnjU3KzdRm1
+
+!procedure AmazonAuroraPostgreSqlInstanceAlternate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Database/AmazonAuroraPostgreSqlInstanceAlternate', $name, $tech)
+!endprocedure
+
+!procedure AmazonAuroraPostgreSqlInstanceAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraPostgreSqlInstanceAlternateGroup($id, $name='Amazon Aurora Postgre Sql Instance Alternate', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceAlternateMd>', $name, $tech)
+!endprocedure

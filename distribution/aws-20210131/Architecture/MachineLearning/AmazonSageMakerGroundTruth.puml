@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonSageMakerGroundTruth
+
+sprite $AmazonSageMakerGroundTruthXs [10x10/16z] 3Oa90WH11CJse8Bv_tydwKOT8qYoEn5GfTFLiAjGmf6U5XLqfLGBLOGvw_y_cNdkrhigfKPU
+
+sprite $AmazonSageMakerGroundTruthSm [12x12/16z] 5Oh70G0X3CCU41Tk_trFeKgniyiiIIq8hS2QkJC8FCHpI5h6OXEyy4UK1CkwL_V0JrdsEE_5EeT6yY43Ep1I_XPUGNVz
+
+sprite $AmazonSageMakerGroundTruthMd [16x16/16z] {
+LSX14aGn20BHgWYWcVlVTuYxtxlNlNbJclcEjIbHEoQ39O3W6sjQSXrbnAQPXNg-8H510kDB6DqkK6lP560My6psi0hjKiVNRWAqrDrngokPpxyCgyufXV4R
+8r4zCt765gs_O_u
+}
+
+sprite $AmazonSageMakerGroundTruthLg [20x20/16z] {
+HSy73WGX34DH2TknOUz_toNJ-EgFcfaxtrKt7_J1OmUtDPgKmBfnDch8H0bglCnaMOemgl6sChTXV1QXnA9TPEDQapAK560Bju5X9I4eFyPOCcbZy3NtCsDi
+B8pBLZQg02b59raxrnHtsvJN504Okj_AxyOsI9lQBbpLTW_VTkFyQckyEtPmFlW7
+}
+
+!procedure AmazonSageMakerGroundTruth($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonSageMakerGroundTruth', $name, $tech)
+!endprocedure
+
+!procedure AmazonSageMakerGroundTruthCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerGroundTruthMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerGroundTruthGroup($id, $name='Amazon Sage Maker Ground Truth', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerGroundTruthMd>', $name, $tech)
+!endprocedure

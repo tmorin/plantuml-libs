@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupServerContents
+
+sprite $ServerContentsXs [10x10/16z] uqG276n0m05YiODOx60nTY3WmCdY06A83dO8HfY2
+
+sprite $ServerContentsSm [12x12/16z] uqG57En0m05Xiu41b0qIXxFPW0WXZfKD8J3Px1mSO3K8kr01
+
+sprite $ServerContentsMd [16x16/16z] uoG2iB620HkSpmu6I7ms860dGPw37OXmotE0I0xY-UmW4g4VuLx2
+
+sprite $ServerContentsLg [20x20/16z] uoG5SB130GT2Z8s55GnOs934s3Z0gjXGnDX0ojXGnI0qONKSOC16WHsq54E40TQm8WK
+
+!procedure GroupServerContents($id, $name='Server contents', $tech='')
+  IconGroupElement($id, 'GroupServerContents', '<$ServerContentsLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupServerContents>> {
+  StereotypeFontColor $AWS_COLOR_GREY
+  BorderThickness 1
+  BorderColor $AWS_COLOR_GREY
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_GREY
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

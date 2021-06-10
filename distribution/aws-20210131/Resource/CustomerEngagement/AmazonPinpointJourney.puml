@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/CustomerEngagement/AmazonPinpointJourney
+
+sprite $AmazonPinpointJourneyXs [10x10/16z] LOa50G1038GI7FHl-ovZFkpWXjmrvScOP82hop1PSYeOxx4D-T4
+
+sprite $AmazonPinpointJourneySm [12x12/16z] PKg50G0W23k0nV_NskqKMBb2NY2tqC6javDb6YcqZimAjLxrK3bRjPHgRCzEushqGmO
+
+sprite $AmazonPinpointJourneyMd [16x16/16z] TOo74O0m30CNiDxxRyj9CHr4IVvK-bCILqJexXUFmeCf-S_fAygOGX16WCdNILPbRtwo7MkMch0g_XBUDREMutGKuqyR
+
+sprite $AmazonPinpointJourneyLg [20x20/16z] {
+ZOw55K9H5CCMQFBstvPpYyDthw_zG_0N0_Z5edyOYV-1nIw090ppfBGjWG0FHJ2Plq47GXMigLQnGWf9dJ8epxy7fe1v3q9eACyzypOGuSb_zAxFnQIhlW_L
+TNBS
+}
+
+!procedure AmazonPinpointJourney($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/CustomerEngagement/AmazonPinpointJourney', $name, $tech)
+!endprocedure
+
+!procedure AmazonPinpointJourneyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonPinpointJourneyMd>', 'CustomerEngagement', $funcName, $content)
+!endprocedure
+
+!procedure AmazonPinpointJourneyGroup($id, $name='Amazon Pinpoint Journey', $tech='')
+  IconGroupElement($id, 'CustomerEngagementFamily', '<$AmazonPinpointJourneyMd>', $name, $tech)
+!endprocedure

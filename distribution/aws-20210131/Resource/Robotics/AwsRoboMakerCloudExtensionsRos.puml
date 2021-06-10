@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Robotics/AwsRoboMakerCloudExtensionsRos
+
+sprite $AwsRoboMakerCloudExtensionsRosXs [10x10/16z] BOS10S10544BGF-sUzyEe4rcmauG0ro5XTfR1TJfBIABVRmm8F-__
+
+sprite $AwsRoboMakerCloudExtensionsRosSm [12x12/16z] LSn50GH004BH0iD__TEkwma72y4wguvHgoGxEzkUyKfXFRdMFqTYhy_IUIiGw_tvEWkv0W
+
+sprite $AwsRoboMakerCloudExtensionsRosMd [16x16/16z] POw50G113C8MW6J_QT_rj5v05NRhQGk9u6wht7aFk__pUSP94nBeOVTaZnIJUrBVUS3gkJNcyaxVBxNO74bFPHwsD-nxE2KSmurlJasc-HK
+
+sprite $AwsRoboMakerCloudExtensionsRosLg [20x20/16z] {
+RP250GD1408B2D9_jzbvDruEvdoBajwLHZ8yqaIGwb5vVyC41Ay6lhLXtfv3bCLwdWzEt5Ykx3MN5hOhETOhVNY9c2_sDNVtnH_Pp4cP8i5FXjtPLwts6jYR
+pr6hdUkdiwQibS7ovtf_
+}
+
+!procedure AwsRoboMakerCloudExtensionsRos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Robotics/AwsRoboMakerCloudExtensionsRos', $name, $tech)
+!endprocedure
+
+!procedure AwsRoboMakerCloudExtensionsRosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRoboMakerCloudExtensionsRosMd>', 'Robotics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRoboMakerCloudExtensionsRosGroup($id, $name='Aws Robo Maker Cloud Extensions Ros', $tech='')
+  IconGroupElement($id, 'RoboticsFamily', '<$AwsRoboMakerCloudExtensionsRosMd>', $name, $tech)
+!endprocedure

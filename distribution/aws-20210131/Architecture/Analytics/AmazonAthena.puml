@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonAthena
+
+sprite $AmazonAthenaXs [10x10/16z] 5SY73SG03CF0Bx7LzjytCj4EL6C33i3HmhJQsdcUsOg3UNRk3NRlnPZjf18JwAvYM-mxdlK2
+
+sprite $AmazonAthenaSm [12x12/16z] BOcv4GD13CCIlhh--xMiMKO4q5rkzlq7qvg4ifi9AOBt_ng4zvUIeFtdRRv_WKZpVHFkf7J_fbRq_gDf-lvHVm
+
+sprite $AmazonAthenaMd [16x16/16z] {
+NSn5OaLH20FG2h7xzh_V0lsUsK6IYM-HbCs7BUesE4sXEjp9EJ4An0pMHorK3xGEeD_w1Ojh5KnMtHsKPuBR_J4epeLZNrkmZSN4rmnQRK79DOEJZa6CPx09
+jNuEqluO_04
+}
+
+sprite $AmazonAthenaLg [20x20/16z] {
+LS-7ZSL030DHu7OeIhx--_rqWCCWlusQexvpcWz-xBDpEyMIwhOT3HBWKxTW8nGKlgs4AmLlCsQnbi6NDGmADjHfevXi_YpfthUcQiopBwXgm2LwOlynIt9R
+i7ecjcCf4Ik2iHtxi4Wf60lkmnmp6iTEF0kU-pwOOX-CtlR57m
+}
+
+!procedure AmazonAthena($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonAthena', $name, $tech)
+!endprocedure
+
+!procedure AmazonAthenaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAthenaMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAthenaGroup($id, $name='Amazon Athena', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonAthenaMd>', $name, $tech)
+!endprocedure

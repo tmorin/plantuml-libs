@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonQuickSight
+
+sprite $AmazonQuickSightXs [10x10/16z] 9Oo50S0m3CD6iUpc_tzNK1WpyGHcv30Y9eL72FZJpaeINbELiTiL59oURgAPzNcOz6HCaXy
+
+sprite $AmazonQuickSightSm [12x12/16z] BSd50SCm50FGDiaNUVzvpUyayAIDNF5YZAMgf0JxuiUJ0TND-Z1fPf8eQcKNZB9XjS2nLdPhd32jdCLBctBh
+
+sprite $AmazonQuickSightMd [16x16/16z] {
+LOi74WCn309Jr43__szGN6PkNHTi3BN9J9bu-5mMEWcuX_ynDIHyVqcBww6hcnylCzNhFULXdXhBepp39SkXA_nRm7WpFIR3EAeR3XB3PDsCm_9UPOdbIXPO
+_WX-
+}
+
+sprite $AmazonQuickSightLg [20x20/16z] {
+LSi92WH1349He3HH-_xtdUerp6T_gA_qrJiFZdqu6jjTqsMnK5VShPQKHFZklNYRUOibS8rPG5lhRrSBBHHxh06A9UYpXgfOrbZHngBjouw4WDD0N-PjHyXA
+JFesRpj4P-Syvcr1TzVTP-h9j-tovh71iN_y0G
+}
+
+!procedure AmazonQuickSight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonQuickSight', $name, $tech)
+!endprocedure
+
+!procedure AmazonQuickSightCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonQuickSightMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonQuickSightGroup($id, $name='Amazon Quick Sight', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonQuickSightMd>', $name, $tech)
+!endprocedure

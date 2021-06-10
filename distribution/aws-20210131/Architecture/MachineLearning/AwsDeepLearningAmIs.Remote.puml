@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AwsDeepLearningAmIs
+include('aws-20210131/Architecture/MachineLearning/AwsDeepLearningAmIs')
+
+' renders the element
+AwsDeepLearningAmIs('AwsDeepLearningAmIs', 'Aws Deep Learning Am Is', 'an optional tech label')
+@enduml

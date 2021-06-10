@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MigrationTransfer/CloudEndureMigration
+
+sprite $CloudEndureMigrationXs [10x10/16z] DSP50GD100Imqc3z-xt5lE910vdSZf6Q4id0MCrO7AqYy2UEcU3WreDa_pia6RlD0m
+
+sprite $CloudEndureMigrationSm [12x12/16z] HSU53O1G5CLGx5rZ_ttv6XhhKOyj0FR6VCxQ6wWQi0LfAeOi3aGq2ZU1zGM2IeFQ0TARUDQ-eN7-3ty
+
+sprite $CloudEndureMigrationMd [16x16/16z] LSbH0W40409HKBNh_lSr0FgRLn_BOsOp_q3_mG2btZ0iqaLvZgpQIazPRcF0vT7BJTiMG9EHVJdNUZJlMRoDIZkZI77aTdVg4eRQNXVPUQuqm5v2_m7z3tC3
+
+sprite $CloudEndureMigrationLg [20x20/16z] {
+HSnHOWK114FHjeq8tVz--s36_JmGcdnY5N7MU7RQ5cUBKJMykcO0p9-6JFB2CqV_-_tzPLjc1Ba_YSS8bP560zk40dFQDqICMKJmnmIOz5eAPg1J3fSoqppC
+1LQWsaAZPQvFVrcQ6PFQ2hlLjiQpABlDiyDO_0S
+}
+
+!procedure CloudEndureMigration($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MigrationTransfer/CloudEndureMigration', $name, $tech)
+!endprocedure
+
+!procedure CloudEndureMigrationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudEndureMigrationMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure CloudEndureMigrationGroup($id, $name='Cloud Endure Migration', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$CloudEndureMigrationMd>', $name, $tech)
+!endprocedure

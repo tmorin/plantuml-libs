@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Storage/AwsStorageGatewayFileGateway
+
+sprite $AwsStorageGatewayFileGatewayXs [10x10/16z] TOj50K1H3CCCj9b_jQFBnvSnD513D9EHfvkHOpSIszCv0B5Tutjdj5
+
+sprite $AwsStorageGatewayFileGatewaySm [12x12/16z] bSQd0S0m40GmVdN_QTqU1aL8RNIab-Z4r7kV7vSestbFVJ3pIvyx5rFN6jq
+
+sprite $AwsStorageGatewayFileGatewayMd [16x16/16z] hSUr0G1124JH61ZflzfpJyxshy3p4CUyXYm0bT14vZnLDHkUKpCpAsbHYm6pvcRJSxnO3rsOgy6InJMv1m
+
+sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lSn50i0W44FHTPEH-vyMXtHV-LKUahqOvIqdPdQOeFTlMDDb63ALsqAd_6o1bcU6onmHl3YBONEFp-2o7Tymo71C3Ol-g3Qi
+
+!procedure AwsStorageGatewayFileGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AwsStorageGatewayFileGateway', $name, $tech)
+!endprocedure
+
+!procedure AwsStorageGatewayFileGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayFileGatewayMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayFileGatewayGroup($id, $name='Aws Storage Gateway File Gateway', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayFileGatewayMd>', $name, $tech)
+!endprocedure

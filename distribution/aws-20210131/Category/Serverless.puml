@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Serverless
+
+sprite $ServerlessXs [10x10/16z] 9Ol50G0W30D_v2xiFozQRuGNEO7wR_zrJcioyYuInW35inDilfFEsghdcZsXV41X0m
+
+sprite $ServerlessSm [12x12/16z] DSUv0G0W5CBGIWZV_UVrDjKB9v_8Yjtp6sf9FauLml9nPA7cROSc42o3dtj1OfFbNhla-0_ance2
+
+sprite $ServerlessMd [16x16/16z] JSt70SCW04FHD3NOVzyWztzxiW7PUkOqkzs-X_evU8mbKNQhHqdeifb4q653X8MVTZC1I1k7Um99MCyXYUeXEijpnEaZIkerxENmSt1ckwtucVu
+
+sprite $ServerlessLg [20x20/16z] {
+TSo50SH024JHin58__qUnFL7zwtehkWyjzb5umRZ1ZCdaVRM211OqDb8blF7dHdHgN4sGVx1mgzmia2alX1iGvEPvIBSPt9Rbo9P1aNPCAH1573wj1LcHFRB
+ZggjiMlTRCFDDdmqUPUc_W
+}
+
+!procedure Serverless($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Serverless', $name, $tech)
+!endprocedure
+
+!procedure ServerlessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerlessMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ServerlessGroup($id, $name='Serverless', $tech='')
+  IconGroupElement($id, 'Serverless', '<$ServerlessMd>', $name, $tech)
+!endprocedure

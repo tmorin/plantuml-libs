@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonRdsProxyAlternate
+include('aws-20210131/Resource/Database/AmazonRdsProxyAlternate')
+
+' renders the element
+AmazonRdsProxyAlternate('AmazonRdsProxyAlternate', 'Amazon Rds Proxy Alternate', 'an optional tech label')
+@enduml

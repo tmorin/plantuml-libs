@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/FrontEndWebMobile/AwsDeviceFarm
+
+sprite $AwsDeviceFarmXs [10x10/16z] 7Sot0SDG30DHMn98XFtd_O5NlUfqugrzr7rfiu3g8m7T-Avg6h6xZsBK0QX43JHr5D_3qULD6m
+
+sprite $AwsDeviceFarmSm [12x12/16z] BSYn5KHH20BHH1Mm_tuNtlw9xXacl5QVaqHkz_oD7hitdlBiwkVDdubtQSmGfwbrrUGTPxjt49zWqvqJASbEUl47
+
+sprite $AwsDeviceFarmMd [16x16/16z] {
+LSc5WG0X34JHav5awB_UjR0d7ttGKqtsVvSpb6fABfe0lPqI3PZq_1EIBG6llzsjx-seB40sNrUJNOzNGh3j9bZTQuMqTKNsxTLI0NNjuvKIoKlRAobtidsL
+QVpluGG
+}
+
+sprite $AwsDeviceFarmLg [20x20/16z] {
+RSt7bG0X30FG0x82zD_lUkQPpI9_KYQ-aPH_SFynQmyAqCNzeWkTqhL6WbfBFLnBGI9PZRW6B2Kn5w2n8a2RGC7NBDTQPVhBuXqWKLliyrWXcunHRV4vyqUR
+5XxBQQoILKMfnXhL25XWIzkBOJrnnbxSRjbxZmrEnlxW-GS_
+}
+
+!procedure AwsDeviceFarm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/FrontEndWebMobile/AwsDeviceFarm', $name, $tech)
+!endprocedure
+
+!procedure AwsDeviceFarmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeviceFarmMd>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeviceFarmGroup($id, $name='Aws Device Farm', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AwsDeviceFarmMd>', $name, $tech)
+!endprocedure

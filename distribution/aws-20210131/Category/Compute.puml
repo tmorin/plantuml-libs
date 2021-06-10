@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Compute
+
+sprite $ComputeXs [10x10/16z] JOkr0S003CEM6Fw_k4fPap69B_xA0rerqcWkPU9LGWbL5An2yg0hykAJ1m
+
+sprite $ComputeSm [12x12/16z] HOh50S1G5C9g4FQVkEzxJaW0BzX5Rb7IfxxxQxngkRRUPcvVs-FAhAn6omd3DvM3BHb8Xy59_
+
+sprite $ComputeMd [16x16/16z] RSo50OH034JHav7qNp4H73xwrbpfw49Ir_cn028VPSt_n37_OgO_LYEllCTHfisdkLddzK5OSzxOw9AMqs5sYImgJ-F9xoq
+
+sprite $ComputeLg [20x20/16z] {
+VOy53e1030IJhlJ-_s6a9JWCUfDg5hvmLvByYBixzQiTHHB2gHu30QoltH5k5D3c31CBT2ddgBYAX0FjHWfcXuD_ZejpkTYTaLpOUknnlSaUjq0qmIn6ILEY
+c2UNLyRErUtocna
+}
+
+!procedure Compute($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Compute', $name, $tech)
+!endprocedure
+
+!procedure ComputeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ComputeMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ComputeGroup($id, $name='Compute', $tech='')
+  IconGroupElement($id, 'Compute', '<$ComputeMd>', $name, $tech)
+!endprocedure

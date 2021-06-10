@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonApiGateway
+include('aws-20210131/Architecture/AppIntegration/AmazonApiGateway')
+
+' renders the element
+AmazonApiGateway('AmazonApiGateway', 'Amazon Api Gateway', 'an optional tech label')
+@enduml

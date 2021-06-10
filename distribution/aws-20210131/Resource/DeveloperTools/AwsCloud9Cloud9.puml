@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/DeveloperTools/AwsCloud9Cloud9
+
+sprite $AwsCloud9Cloud9Xs [10x10/16z] RKSr0G0032g0z4yxFuVZ5ohSA9Ers6VKPruliSEKsFQ71
+
+sprite $AwsCloud9Cloud9Sm [12x12/16z] TKj50G1022imwP_s1FlXCF4U8bKdzLjv9nNhmmmwo0ALxfYng1oQy1ON
+
+sprite $AwsCloud9Cloud9Md [16x16/16z] dOl50S103CCciBB_jCUXPwims7wW1NNqT43nT6TE0ZipMwgJTqBrMV14VGPnv-rNUSgE0lQL2G
+
+sprite $AwsCloud9Cloud9Lg [20x20/16z] hOs73S0m408NuF3-qwOXT_KOrp-GAB_bHmj286P4lPjCjS0rvkg16WjmynrFDh6gKzcZDw9QeFnUm5O_v73FrQeWwojPL8xh1W
+
+!procedure AwsCloud9Cloud9($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/DeveloperTools/AwsCloud9Cloud9', $name, $tech)
+!endprocedure
+
+!procedure AwsCloud9Cloud9Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloud9Cloud9Md>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloud9Cloud9Group($id, $name='Aws Cloud9 Cloud9', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloud9Cloud9Md>', $name, $tech)
+!endprocedure

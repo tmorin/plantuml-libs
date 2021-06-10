@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonS3OnOutpostsStorage
+
+sprite $AmazonS3OnOutpostsStorageXs [10x10/16z] 7SQt0G0m40An2WxU-y_hf4fj7g2n_Ll0l0x8lDvPjhXBPFqr0ZaJ7EDaJGAaNMkUjWS
+
+sprite $AmazonS3OnOutpostsStorageSm [12x12/16z] 9Ok55KCn549hMBB_leNpR-G9aCH39L5vXfWIdY5zudhhM0IeJUlv8_7p-XW4r-_2mhTD59hkx7kuP5zoxpaUQTzXfFm1
+
+sprite $AmazonS3OnOutpostsStorageMd [16x16/16z] {
+LSc55SDG34FHWWLszj-tEd5ABtZrEtcJqdfR2udN49FvbAuXpiTOMzCKmNYRELr8MfjaIU9JwxOAbVlojDW2F_Pvn0VN3Hjev-DZN80paEpk8qEB92YVFcOB
+rd_32m
+}
+
+sprite $AmazonS3OnOutpostsStorageLg [20x20/16z] {
+RSu7ZWKn28DXQMCRpDp_leicvFLVDLyQxl8KE__0eTCnukw9TkuLOd3COuDb8mcexM1LcwH0T1ktKLf0nzZ690FtNIsEETFOBHqhc-64aa-h1EqW_l0mKqIq
+ljmLoqBC_5SLWPMs0odQpgjHAH340jFTrTZvDDOuFUqB_m4
+}
+
+!procedure AmazonS3OnOutpostsStorage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonS3OnOutpostsStorage', $name, $tech)
+!endprocedure
+
+!procedure AmazonS3OnOutpostsStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonS3OnOutpostsStorageMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonS3OnOutpostsStorageGroup($id, $name='Amazon S3 On Outposts Storage', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonS3OnOutpostsStorageMd>', $name, $tech)
+!endprocedure

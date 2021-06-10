@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingThermostat
+
+sprite $IoTThingThermostatXs [10x10/16z] HOn70S0m4CC0o3hpHzlTH3_FreUsyc1b0XcK60qA4uV7Qso-D0RtOh_ivnC
+
+sprite $IoTThingThermostatSm [12x12/16z] JKwr0G0m2Dk9_VzjKoRS8Kcqb98vA0sTK1PGmsXCiEAH89XANMCqO8YD_MDlB0O86_nT0loxz-RzTJ4y
+
+sprite $IoTThingThermostatMd [16x16/16z] {
+PO_70O1G34BlAR3_jhx8JVar7GnMBzR1rZIOYgExs1psHRaqX4LeIQuxmrbp2EdktIsHf3IgiQujTb5rjgShjh2lQ-oUmIxYRtxwLIdzCk_cPzw7pu_lJyz7
+xmC
+}
+
+sprite $IoTThingThermostatLg [20x20/16z] {
+RL170iH023eBulx_jukc9sDCim33hwFwgdaTKH15ft0Kaq4GJWPpAo4xo7cXYpKj4Q1coQY8z0CX0ORBy4EU0olb93mdho85ly4Ha63FqUMjbi5zZf17Waq5
+WhMgpMww1eoIYyCjG0V7eQLhjMivDDDnQ5wSRU71ogkrfoll_m
+}
+
+!procedure IoTThingThermostat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingThermostat', $name, $tech)
+!endprocedure
+
+!procedure IoTThingThermostatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingThermostatMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingThermostatGroup($id, $name='Io T Thing Thermostat', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingThermostatMd>', $name, $tech)
+!endprocedure

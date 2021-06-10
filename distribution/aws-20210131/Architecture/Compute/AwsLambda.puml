@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsLambda
+
+sprite $AwsLambdaXs [10x10/16z] 7Ok73SG04CA-17pxJnmBgr61LX954kLKdmeGKPtgwTIfagbKyQZOCU5ez-S6yW8
+
+sprite $AwsLambdaSm [12x12/16z] FOp14G1H344lUP_-Azv9c7K2I7e1B8SJomVcnF7tSr7X3QRSWk5HdiNo_AsmPu_tLjwnfNrqeCK7
+
+sprite $AwsLambdaMd [16x16/16z] POu50e0m30EHIF__OfRY46IxL3saKoJzCO84mCC83-1wP3I30cyM8U7YDdmaL7L14YuMS2I4ovIkX33ScyKBKqPUWKuzUaqox9HVMojyoD6VDm
+
+sprite $AwsLambdaLg [20x20/16z] {
+RSg73SCm44DHm6pQV-B85u6ftrKFp9tTjCiVBBLZkW2mE4RQXdogHVmm4x1HEq6pdbOcYUbm3UeItE4QX333seeOpb2fqPix73EpUKC87QEVh5X8t5bo3yKa
+smI2sH70s2xppPrpR3fO-y87
+}
+
+!procedure AwsLambda($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsLambda', $name, $tech)
+!endprocedure
+
+!procedure AwsLambdaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLambdaMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsLambdaGroup($id, $name='Aws Lambda', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLambdaMd>', $name, $tech)
+!endprocedure

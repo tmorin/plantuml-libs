@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/InternetOfThings/AwsIoTThingsGraph
+
+sprite $AwsIoTThingsGraphXs [10x10/16z] 7SU75S1G24BH50NqxxzltedrCfDGjf4anyZl-tDJRrbADjqcEJlgLXLQDNHGG6Po89ywa48V
+
+sprite $AwsIoTThingsGraphSm [12x12/16z] 5ShN5S0m34BH3xM7i_--0TmkFf94SewTDoMUxfaZfgkMWNiovxONddRyTFNntktCJZKsbeU85IyIduVyhUHpaRnZboJ-0G
+
+sprite $AwsIoTThingsGraphMd [16x16/16z] {
+NOq72WD1008XjYt__s_Mz9nKdG7doNWcpKyVxnv7SeTd5qX9wL1Tk473gh5cY1EDE6TOAwM704pxSCdqaTm-7P9kJ_iABNEuUlkG-k_CPvygZtizzXbCiQtP
+7MPUhRr3y-gNuGu
+}
+
+sprite $AwsIoTThingsGraphLg [20x20/16z] {
+RSrPaWKW24FHAab2qFtljvtwpVVpA50p_vUd-i1lyzCK900Tl8P6K60kl1Qj1MpI2_iKC6ARwOMz5z7Gg7G26vVjJrMEMMxhphCub-5Ooeo0jl7OEY8fd5Yq
+hHjJ2PNaVqj8ILBhqhL24XcfIGl7GWK5rCrZOuckHsFXxMdVE7xW7m
+}
+
+!procedure AwsIoTThingsGraph($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/InternetOfThings/AwsIoTThingsGraph', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingsGraphCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingsGraphMd>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingsGraphGroup($id, $name='Aws Io T Things Graph', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTThingsGraphMd>', $name, $tech)
+!endprocedure

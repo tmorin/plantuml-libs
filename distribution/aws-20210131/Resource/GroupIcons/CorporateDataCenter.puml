@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GroupIcons/CorporateDataCenter
+
+sprite $CorporateDataCenterXs [10x10/16z] uqG676ni710MEn10XTZP8O902iY1I79miEDciG41ExAn
+
+sprite $CorporateDataCenterSm [12x12/16z] bSQd0S1000GWTzplFt1wTq4nFahFXvo7io6sDbhfZtDy0EDj1W
+
+sprite $CorporateDataCenterMd [16x16/16z] bSg53S004CD0aHN__WENcNl2G7qX7RTPzpdPP8CIvmpfmFhM6FoHtUSy_8j9VT02
+
+sprite $CorporateDataCenterLg [20x20/16z] bP2r0KG1348RmYFx3tn-tvKoWlKz123pcLKbBsOah6QOqpjR0F9aAXC8rZYhkA5DdStefCbqHZNkshZBycvROywd-a6BffPjdUC9
+
+!procedure CorporateDataCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GroupIcons/CorporateDataCenter', $name, $tech)
+!endprocedure
+
+!procedure CorporateDataCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CorporateDataCenterMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure CorporateDataCenterGroup($id, $name='Corporate Data Center', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$CorporateDataCenterMd>', $name, $tech)
+!endprocedure

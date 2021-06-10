@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsNitroEnclaves
+
+sprite $AwsNitroEnclavesXs [10x10/16z] DOg73S10309LWFF-4mTUodsnAK263Hxg5idgIxqK9KSxYhjTbl-ROzxcNhXNTBODoWS
+
+sprite $AwsNitroEnclavesSm [12x12/16z] FSW15a0m40DHI3Az_ubbGMZxtm1vPfUEdn_qBgcRccz7n5730gCpIhreb7-VudFHGBqKnm9gCXi_OtO1
+
+sprite $AwsNitroEnclavesMd [16x16/16z] LSo53S1030H1AGTs_nKRmXkSf-Xy9-bdhqMPb41xJ84aGDWUMzgzbuNp373SiOcskymr3fklHU9sjW7gwpZweUFstECO9xqnkh4cKhUdkCgxomK
+
+sprite $AwsNitroEnclavesLg [20x20/16z] {
+RSe73i0W34DH5ISszpznOuOwF_i9ELvbfH-SSe6N2G336z0Afn61p1OjKSPf6Kb6RTi4-625ncKS5bb6russFAXjVHhHhd_6e2ADouoXR8LyMY4eUbt68pLC
+qxejP5ErZ7BBD0s1KLpMTMMxkkm7Jm
+}
+
+!procedure AwsNitroEnclaves($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsNitroEnclaves', $name, $tech)
+!endprocedure
+
+!procedure AwsNitroEnclavesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsNitroEnclavesMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsNitroEnclavesGroup($id, $name='Aws Nitro Enclaves', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsNitroEnclavesMd>', $name, $tech)
+!endprocedure

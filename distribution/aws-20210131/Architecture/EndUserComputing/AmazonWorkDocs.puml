@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/EndUserComputing/AmazonWorkDocs
+
+sprite $AmazonWorkDocsXs [10x10/16z] 5OY95GGn28Lsv_X7xB_VGHALHy0WbNcrMZbwLkjiHezfecA9PRrO6r1EC9CpzI9dva3X0m
+
+sprite $AmazonWorkDocsSm [12x12/16z] 9Og50KGn24FFOcN_VO_qlmf4NBIGZ3iU4O74xuf8De6AM8ceYcFMlxMxYrgvknClf4_sLbEUq28bxBvkaUoPEKlA7m
+
+sprite $AmazonWorkDocsMd [16x16/16z] {
+LOq7WW8W40FlrBJb__-LO1_gXB8-wC1DyXiamkP6bJgwnVKP99HjlcviTxPJZs3g2Ub7CCCk0Da_whB5Wblzt5S_5NnywadTspCJzr9zpQC--qbzcKy0rTSS
+Kke_GUu
+}
+
+sprite $AmazonWorkDocsLg [20x20/16z] {
+JSq74iD024FH5C02t_--GQlHnD_zUKj3NQfOjqtP3ZXPdBvXF0QM7wEiQPd6Xq5eMwo4SQQZMHM8DgvxHUJs2HkhBE9NbfxBmZPhtEuOyBVQszFs3jXmptYz
+bJMitPCi76rnMa6j4LMVPCPM-04
+}
+
+!procedure AmazonWorkDocs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/EndUserComputing/AmazonWorkDocs', $name, $tech)
+!endprocedure
+
+!procedure AmazonWorkDocsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkDocsMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkDocsGroup($id, $name='Amazon Work Docs', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkDocsMd>', $name, $tech)
+!endprocedure

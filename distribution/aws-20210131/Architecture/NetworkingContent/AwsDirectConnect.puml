@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsDirectConnect
+
+sprite $AwsDirectConnectXs [10x10/16z] 7Kp70SD034fSHD7--ngE5rq10o04Wr8Bm9HRmtTgE_xz4CEcxrjlGyCexRej7TR7my83wGC
+
+sprite $AwsDirectConnectSm [12x12/16z] FOg53GCn54DBfcJ_VVj1kYSmfl0WZTU6ax2OT8uP4MWVsZzO5OuLVByArNq_9FO_7k_utbx45ENz-0f5na_O-0S
+
+sprite $AwsDirectConnectMd [16x16/16z] {
+NOp7bGKW30CFs0hGVxyhip-BE2CUdkWHahxvOG9yY1r4avdNx8YsnIey6B2gfS9b1dkjG6COsgorIcOFAxQwNtq46bbDIMSdqxSdEYEGfdN5YV1zZWT7p2z-
+zH7_kVmZ_W
+}
+
+sprite $AwsDirectConnectLg [20x20/16z] {
+TSe7JW0n30LHYVYtxFtlIt1CXr5_cdJ-IAVS_hVHtSIgugVj9jk0f_s6vSIkLVmm8L71LcbCfGHLZb5i2xnJwsMLOjLOnfZusgOIebYEENO095YeWa_FFYKw
+3Dj9Zbqi0CLqVXgD949kJoFwMnvhv3v5-cgtP8-DJcE_y1K
+}
+
+!procedure AwsDirectConnect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsDirectConnect', $name, $tech)
+!endprocedure
+
+!procedure AwsDirectConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectConnectGroup($id, $name='Aws Direct Connect', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsDirectConnectMd>', $name, $tech)
+!endprocedure

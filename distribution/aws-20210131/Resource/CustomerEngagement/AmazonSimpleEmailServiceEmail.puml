@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/CustomerEngagement/AmazonSimpleEmailServiceEmail
+
+sprite $AmazonSimpleEmailServiceEmailXs [10x10/16z] JOi50G1038GImFLF-ovZBfSFU1jSHCZ0jLZDgYX9wN19LN01UNG
+
+sprite $AmazonSimpleEmailServiceEmailSm [12x12/16z] JSn70G112CLG0oJVlzejKtaNEkd4anPusY23xZRu6wdv4vaFHXCW8vUp0pctXGDbcXS
+
+sprite $AmazonSimpleEmailServiceEmailMd [16x16/16z] POu50G1020CBx4R_jE_-kBFuoFQP8dGM9E2OvYARtNRTFAOn3bTVivhK-Hvrq_Emw4zN7tP_7kpxvtsmXUFu_-ABXp8
+
+sprite $AmazonSimpleEmailServiceEmailLg [20x20/16z] ZSo50SGm0CF01IHx_saVownYBj37HSs6K5mRe5lpMvpx6cWp9BIYMPx-iRgmaFgX7_UNvWTqnDzxjag2NLeG90kJD6d8PDeX_Ljc-cA-Xbqa_6pPpxAhHxq1
+
+!procedure AmazonSimpleEmailServiceEmail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/CustomerEngagement/AmazonSimpleEmailServiceEmail', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceEmailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleEmailServiceEmailMd>', 'CustomerEngagement', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleEmailServiceEmailGroup($id, $name='Amazon Simple Email Service Email', $tech='')
+  IconGroupElement($id, 'CustomerEngagementFamily', '<$AmazonSimpleEmailServiceEmailMd>', $name, $tech)
+!endprocedure

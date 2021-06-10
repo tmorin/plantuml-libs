@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsConfig
+
+sprite $AwsConfigXs [10x10/16z] 7SY73SCm0CJ0nFPNxJ-l6j4EJEAJ5FDcLHy_VB2h5y1xv7q8NWcx8ufRygZjyp96MylPsjmb2m
+
+sprite $AwsConfigSm [12x12/16z] HSUt0G813CLGWd-y_VV5hb3rbCsNf9KkdWrmE93LOCNlsiry_yQAeC-000pFf0dEs4z9QW0upzCs19JrJPsiRwxr3m
+
+sprite $AwsConfigMd [16x16/16z] {
+LSe72a0n309Ge54pxd_VR_dRpYUfdJmZv_HR6BWZ5rr24A40w8bkHSXUQpkt5q_hj7-nF7KxWZRDqu1t10ANGvGPOKyRcVHuW9KpHKTXHLRDz4u12DJssPIO
+TTh5cTF_uW
+}
+
+sprite $AwsConfigLg [20x20/16z] {
+RS-73GD130D1u4XA5_hlrvJjpx_8WxZZMz_AQhpW0Ldr_ZDn3r4uRM9qiWl1wCOvosHBDgcib_5d03UR0c3hQ5VBrb8AvMQY4WYZwM-kKm89RIQggoDatooK
+8uCAWhAjikuiaPAykjRiuR93PA1cb_7Ri0JPomvCgycsOUc_TM1rs0q_
+}
+
+!procedure AwsConfig($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsConfig', $name, $tech)
+!endprocedure
+
+!procedure AwsConfigCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsConfigMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsConfigGroup($id, $name='Aws Config', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsConfigMd>', $name, $tech)
+!endprocedure

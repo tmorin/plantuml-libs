@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/BusinessApplication/AmazonChime
+
+sprite $AmazonChimeXs [10x10/16z] 5Scn0G1030709WdOVzz_Lu4-5jo0Hfjx2_maxipkJxp1pVN50BDWV3S_I8buE3R5LAMnz
+
+sprite $AmazonChimeSm [12x12/16z] HSV50GG12CNG5VX6__MEIqultjCHyrg9IJOlznOQkyMkVpStkr5Y7OusgxgbsTnL3Tep0W6qTq_S4azlawtJaoEl
+
+sprite $AmazonChimeMd [16x16/16z] {
+LSn10a9120BGpG2gzxzl6d-gs3rKqmb7-dUe7bCkQWeX25nN0WJ98xl4Cm7mTb23AUXzWGUPEA3_2JQtwBtVupDMPdVjwmb7wmv8X837Sq8m4VOMgPm_rrCu
+zb_n0W
+}
+
+sprite $AmazonChimeLg [20x20/16z] {
+RSq73WHH20BGP0IH_-z_tsLx6sBQi_cHUKQIJt2TuBhXs0AVk88Uo6IzBGWYZ6deQQlP806oNhk6ZZggYNuOGHGa75bzMgjBjegWxZOaSJSHiNr_d3MXmA8z
+EoYsgd086RAzW-WcRjMHM68gnK7ZPLatcYkxRmis9vtrjk0pDpl1VO8N
+}
+
+!procedure AmazonChime($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/BusinessApplication/AmazonChime', $name, $tech)
+!endprocedure
+
+!procedure AmazonChimeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonChimeMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+
+!procedure AmazonChimeGroup($id, $name='Amazon Chime', $tech='')
+  IconGroupElement($id, 'BusinessApplicationFamily', '<$AmazonChimeMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTSensor
+
+sprite $IoTSensorXs [10x10/16z] 7Ol50S103CF-PrdPVzis38OPeNE10yv2E_Ry3tUv43bDWPn9BUgOrwIbUxtdj18Im0y
+
+sprite $IoTSensorSm [12x12/16z] FOh74GD140BVMg39FriLvyRYscAdTo5GwCgCQrPqkoEYJURVMFEqZEtjl48CGvAiCmzqTEUJuPnVmAc_uWy
+
+sprite $IoTSensorMd [16x16/16z] JOl50SDG34FFjMZ_RHiv-3vQa2B9UG68KMw8HWQyRQ_AI-1SNKy5rRu4A3bJm2dKty-MM0-5W-9D7GYzK_pELO2PFMMILXtCXk7rez_mCnE_Go2Rihxa3m
+
+sprite $IoTSensorLg [20x20/16z] {
+NOzN0iHG20A_0SNxttPNO-gaaNbDQt1JBu9_z9B9S5dqmpBc8vANtPIoOfNkKLEhyh6rMdfLzcT_4-uSm9xKOynZqNvdyw2YOR-qTMNSBlBLZExiF10tk3Sb
+A8dGGBKBqcLXEnmd8Yj0FLo0DW7wTWJ_0E0m3N-f7m
+}
+
+!procedure IoTSensor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTSensor', $name, $tech)
+!endprocedure
+
+!procedure IoTSensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTSensorMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTSensorGroup($id, $name='Io T Sensor', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTSensorMd>', $name, $tech)
+!endprocedure

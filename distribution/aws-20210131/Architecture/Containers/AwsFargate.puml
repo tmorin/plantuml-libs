@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Containers/AwsFargate
+
+sprite $AwsFargateXs [10x10/16z] 5Sd14S1G547HcHSk_LUSxwmW2MClsOObIH-GU0J56jEmrz1odyvvAReJIHz8bcRf1m
+
+sprite $AwsFargateSm [12x12/16z] HSm73i1G28BXv0dY_KzSi8kixxT3KjyZjS6D442bR2ApG_gTn0XxpsL6TfLf3mzvgXzxa6B_j9WVsYvl_TS5
+
+sprite $AwsFargateMd [16x16/16z] TSc54SD044FHyOgk_uhZm_0VV5Bkl9EKZs5Pr1Yc2GeOoxX1WCSM8vhKiBbyPxTccWH8JMVmZlBjEmCseIohYgn2il-whdjBCjmi59rU6yLAbbT__
+
+sprite $AwsFargateLg [20x20/16z] {
+RSq5aaGX34NH8i_O_uRx2pRIj_n0aZpvfBjymVp3OmIeWTDOa5WOE0oZqZ739cniCmb7l8slzeGCDSp2Ops21Q00YiDwJApeOJqHTST7fdLNbSFMc2mJge12
+tPPfHhLMhKgv6pRFo7dhin1AZWqyzTEnBtW1
+}
+
+!procedure AwsFargate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Containers/AwsFargate', $name, $tech)
+!endprocedure
+
+!procedure AwsFargateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFargateMd>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AwsFargateGroup($id, $name='Aws Fargate', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AwsFargateMd>', $name, $tech)
+!endprocedure

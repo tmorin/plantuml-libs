@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTActuator
+
+sprite $IoTActuatorXs [10x10/16z] 7Kgr0G0m3Dg3_VzjeL4iCQdyeiFkfAu7sS4S3sqTKKJFCWPwOfm07ZHqdIA2sFW1
+
+sprite $IoTActuatorSm [12x12/16z] FKpN5O103FhsQFjlQyWzJIz04f7ADKEDdUdkw4kOPDm5djnoPo8x6nJnQTc0tGa06zrn460QrLddKLlucry
+
+sprite $IoTActuatorMd [16x16/16z] {
+JKn50i0m33eN2Fd_RnUPCMdHR4I4ymCX8bugTWJKOtjKtO9GF5GVrC6XPFNTlqaPwt6_UpFL8abPh9UxR3jmL4SkBPGrw3ZmV43lesg43OZhPvoZ7nVF0N40
+f-EFl
+}
+
+sprite $IoTActuatorLg [20x20/16z] {
+NP355G0n20NFV87-krr2rkU0p8jIGoxgWz3GRsKeAudtKd0I0JukztAQEXN7sHqDdihx6itQ9NDKaK9ThIFhMhU0pp3oV5TEfEJLMEAvsced1AVu_0LFczwG
+Pv6p840I7H01S3a1UmJb27eSrr7gjXrFfq0cekDQ9vxdDT7oEg_oJnq
+}
+
+!procedure IoTActuator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTActuator', $name, $tech)
+!endprocedure
+
+!procedure IoTActuatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTActuatorMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTActuatorGroup($id, $name='Io T Actuator', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTActuatorMd>', $name, $tech)
+!endprocedure

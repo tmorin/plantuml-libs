@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Category/Satellite
+
+sprite $SatelliteXs [10x10/16z] 7OhN0G0X24D_B2ct_xpt90gaoHhSwnX0OO-UBS58zZ0huoM7shdewhpwOpKaiAzjW3qRw0S
+
+sprite $SatelliteSm [12x12/16z] DOh70GD03C9I3SZPVzvSrOiYNoG5CbWjh6BfPBi-PMT4IVNHo8r2_5L6Je7rpSnZagMLExANHtUJC32_dgnioC5_
+
+sprite $SatelliteMd [16x16/16z] {
+JOp94GH12CC-Z0zwyuztSS-fdmHbAl11tTve4_-4-1q8tfwWgkEv8nJZAwfvhuBZgyzH7h3ZhXvqb4z7TW0mxhbdoNl4yXf42UgE_n8ikOVuXD2R-3U87lJ0
+Fm
+}
+
+sprite $SatelliteLg [20x20/16z] {
+RSm7jeH024JH7oYA0lU_tk4uc7t6lXtublPYOcJc3TlkE3OO3X_RqSsC9wCx0-Tr0KOuy4V5cD0VYGOBjLLbajyp0KXYMycqMfXfB06r400rLcxc04E8tKfW
+TdJjrkWUXFSHXrMAREbMMsfuQbkM6ywwcp5kaVm
+}
+
+!procedure Satellite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Satellite', $name, $tech)
+!endprocedure
+
+!procedure SatelliteCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SatelliteMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure SatelliteGroup($id, $name='Satellite', $tech='')
+  IconGroupElement($id, 'Satellite', '<$SatelliteMd>', $name, $tech)
+!endprocedure

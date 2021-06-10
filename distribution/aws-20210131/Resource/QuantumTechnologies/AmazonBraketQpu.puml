@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/QuantumTechnologies/AmazonBraketQpu
+
+sprite $AmazonBraketQpuXs [10x10/16z] 9Kj50G1027ipxP_s56VIsexILW08fWP_nFUjzQusLCvWnHbAe7tsA2H5WBoqpoMtUTvs0m
+
+sprite $AmazonBraketQpuSm [12x12/16z] 9Kl50S1027iJtN_RGWydqiRsTYy8GC0-1bz0pKs9WWzNsqXwzx5Eext9mL3dhG0DxZu0djyCYZCZjfPYaabVH7jz
+
+sprite $AmazonBraketQpuMd [16x16/16z] {
+JK_5eK0n3Bg-ODb_sleNgCRfxiIzkCuB4KOWt2-h2fVfDaeF1hGDAXm8olQ_nEJvtvz8-jTlmV8ot4R0RUBdX_PVS8J5k3utljhv9XCMNQZiLC3mSfPtmv28
+0AZ4x5RMEWEm_-FgdG
+}
+
+sprite $AmazonBraketQpuLg [20x20/16z] {
+NP3N5GGn309_3GAf_swFpNut6pt2SKA7wNnpFLHeZYa-gXa45mftqDZH6GByShOYXIyfLaSLuNUOPkJjvdPMdK6zJc34FGUk4DLb7zfnLssH2yZWrkLWhQ26
+hxx9au0DC0rL76ky5bD9CkEa83bZ4Bfp6Oba6VsEbudDyCnB9HSg96-My9nhX_lKDF_qbVa1
+}
+
+!procedure AmazonBraketQpu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/QuantumTechnologies/AmazonBraketQpu', $name, $tech)
+!endprocedure
+
+!procedure AmazonBraketQpuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketQpuMd>', 'QuantumTechnologies', $funcName, $content)
+!endprocedure
+
+!procedure AmazonBraketQpuGroup($id, $name='Amazon Braket Qpu', $tech='')
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketQpuMd>', $name, $tech)
+!endprocedure

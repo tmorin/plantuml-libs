@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsManagementConsole
+
+sprite $AwsManagementConsoleXs [10x10/16z] DOkt0S0m3CCccu3q_x-96oPMbKKYyv2QOomng2HR_ygTBCLI-HKlQzORfYq4mUwkXNu
+
+sprite $AwsManagementConsoleSm [12x12/16z] 9Oh70GCn3CFIsEJzzmtbmui5ALua9RgGpGRGH52pUVdHOqK0JJNRgA4dywBcM3SsdpYDi9GJxP6mUP9urUIKMPBy0G
+
+sprite $AwsManagementConsoleMd [16x16/16z] JSh90G0X24FH2sJ1_lkTpEu_-Gm-qntJRbrcVu4SutuajEAkVggIPa29tTT-MKPbXFYw2B0-iv4QZxrxnUxhtdeyxCJONWko1TZcPU7A8p1Ey-GKfl_Z
+
+sprite $AwsManagementConsoleLg [20x20/16z] {
+RSg9RSGm44DH07EG7FVVRoXXRIl9VjqFqevtMEaBlc_SBSkZ2DlOkghkpmbYHb6kksiL86tPsDBkjfA4ZcW_cOyX2wZeqwfPXIeRFyPW0ed0QyXrz_QQPtUc
+5xTTCpNJ1H9PiedNjKoLbLcKR5ecexhbUDidZ6cRSKQx-xGjlhlj7_u
+}
+
+!procedure AwsManagementConsole($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsManagementConsole', $name, $tech)
+!endprocedure
+
+!procedure AwsManagementConsoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsManagementConsoleMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsManagementConsoleGroup($id, $name='Aws Management Console', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsManagementConsoleMd>', $name, $tech)
+!endprocedure

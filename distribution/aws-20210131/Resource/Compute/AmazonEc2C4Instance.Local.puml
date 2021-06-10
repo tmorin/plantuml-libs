@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2C4Instance
+include('aws-20210131/Resource/Compute/AmazonEc2C4Instance')
+
+' renders the element
+AmazonEc2C4Instance('AmazonEc2C4Instance', 'Amazon Ec2 C4 Instance', 'an optional tech label')
+@enduml

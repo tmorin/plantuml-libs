@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonLambdaLambdaFunction
+
+sprite $AmazonLambdaLambdaFunctionXs [10x10/16z] HSov0SD050BHs0lCz5-jf8tyZvU1qgIeEoTR9lcCXixbqcX-hIIi9ntVPstJyaKX7ow33__DBm
+
+sprite $AmazonLambdaLambdaFunctionSm [12x12/16z] 9Ot75S0m34BF5ct_RGCltqLT936BC_WE4ZWN894qC1e9Rc2gfLk1RCRlQGRzm0wpFca8q75USTrry6rSl5-0Th-CEWthV
+
+sprite $AmazonLambdaLambdaFunctionMd [16x16/16z] {
+NO_90G0X20FVP0Bst-qI_QrtBfMJDcttv7IHIe1uJAjAwZDKHor3j_ReMeSu5eENW3FX5bt3Q9eOLQE4rGvMrJFWO4Ff6f9xBcprdaRZQAr12mv8n0I2_AVi
+l6bBS_yRk0IvyHr4PkX_lHy
+}
+
+sprite $AmazonLambdaLambdaFunctionLg [20x20/16z] {
+PL3P0iCm27eDeER__tPeijkjBPSzs6SgFRK_9eWPvbCfBSYfIa9r9AFL8UC4HnGSS0ZP0SZdCBOTM-p4M3Iij3DiU1sKXhp1ydy0aGTMWra0e4qrlbeYYUVE
+NI2to71mTltlM8qRe4avq_-W0x43PM9TWCmjY8XvDorAcYvaKRU3Mz6x0_jW6hwx6lktq__k7m
+}
+
+!procedure AmazonLambdaLambdaFunction($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonLambdaLambdaFunction', $name, $tech)
+!endprocedure
+
+!procedure AmazonLambdaLambdaFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLambdaLambdaFunctionMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLambdaLambdaFunctionGroup($id, $name='Amazon Lambda Lambda Function', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonLambdaLambdaFunctionMd>', $name, $tech)
+!endprocedure

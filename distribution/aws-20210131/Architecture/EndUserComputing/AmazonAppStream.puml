@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/EndUserComputing/AmazonAppStream
+
+sprite $AmazonAppStreamXs [10x10/16z] 7SR10KCn2CFG4x8W--zRzoi1dYqDjiCqrabZiYjg9cSWdvQwFtSR8NWbSV3zwHfVMRSV
+
+sprite $AmazonAppStreamSm [12x12/16z] BOo50SCm4CHAVv3kls_rSHMmPCfYa5H4own_ZZAq6U-saKie8Fcgm7z7hEF4BLAk3SQHypt1rVWTaE04jVm
+
+sprite $AmazonAppStreamMd [16x16/16z] JOv90WGX2CGkb0Nu__yEORREoSIDNBoSeUePS6k9GUjnFdiAZvVb72Q5NO-0zuRrN6yB3WU4PvZbppkLbPA9E25bcKCDM5bd_Bv3YC7mJ_3dsqk0WlLdg1S
+
+sprite $AmazonAppStreamLg [20x20/16z] {
+FSxP5OGm34FH3--P_liTopheiLyWoJGhbcX6HgG94j7S71axcxBKjsbPi2clHV9QZP1A4yhU8pOhgxFmy2tF_Epnn_AM0QEnpAn56d7jliUnGcmVe0nOFei9
+-tteFejclIOCBXucdAjfH2cCI2F-0G
+}
+
+!procedure AmazonAppStream($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/EndUserComputing/AmazonAppStream', $name, $tech)
+!endprocedure
+
+!procedure AmazonAppStreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAppStreamMd>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAppStreamGroup($id, $name='Amazon App Stream', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonAppStreamMd>', $name, $tech)
+!endprocedure

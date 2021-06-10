@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3StandardIa
+
+sprite $AmazonSimpleStorageServiceS3StandardIaXs [10x10/16z] FOR70S0m4CB-EOJsdpRTfigIMoYfMYB3euobpTERb1kZqOSFFhARZ4Ar7PJSQde1
+
+sprite $AmazonSimpleStorageServiceS3StandardIaSm [12x12/16z] HOhN0O0m44A_FShjlwrWVPg4jciMRHGesrASu2qccWVaOtp2hYiGBT2AvZEVGqj71ev_3QzqQxD73kAefZZv2G
+
+sprite $AmazonSimpleStorageServiceS3StandardIaMd [16x16/16z] {
+LK_50O0m47iJk_st9SL9U-vJn0SoXq5I2o1J6yfSC39vxHXkd0igWMY8cSHobdvHkSh2CcdP9fN0rNHr4x4XZSmDeNe-zlQt3PKpbtcfz3yUWYhAsl-zjsff
+1m
+}
+
+sprite $AmazonSimpleStorageServiceS3StandardIaLg [20x20/16z] {
+LOxL5OG030I_MKl_rIABpnsGDz4fkPYBcBYXgmp8TrR04PEP3yBXu5T6gEiSqkGP7iMSs3widP6E7PnoZMKT6WVezhw3FEELeFLrnGIMXQyhOLsdlX8jqTTT
+TUAtZinpJ7cwydDawkZhH4SBK2dSA83kqIUDPZO
+}
+
+!procedure AmazonSimpleStorageServiceS3StandardIa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3StandardIa', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StandardIaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3StandardIaMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StandardIaGroup($id, $name='Amazon Simple Storage Service S3 Standard Ia', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3StandardIaMd>', $name, $tech)
+!endprocedure

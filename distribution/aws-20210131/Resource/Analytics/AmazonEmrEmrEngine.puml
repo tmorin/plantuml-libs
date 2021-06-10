@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Analytics/AmazonEmrEmrEngine
+
+sprite $AmazonEmrEmrEngineXs [10x10/16z] uqS6VBnyK1OlBoz402W29400eWB4WQb1Y04nL254W0_5M
+
+sprite $AmazonEmrEmrEngineSm [12x12/16z] NOj70G0n3CC8M39_jBT7MtqIhowetvlmlY1O2tfb0Fb6_z_v5-3u23oEYE-m2pi
+
+sprite $AmazonEmrEmrEngineMd [16x16/16z] ZOu50G0n3CGCv5B_QfyPbq4PgeKCd6p8oTGrmGmuIX1qpmIZK3jFTjxYEjfXtGOIrw73X_kMynODz
+
+sprite $AmazonEmrEmrEngineLg [20x20/16z] fO_50KK13C8M2Ed-qtvvxffR5QZNy2VpNW9nrfByO5mHQChcFD2iZ7E2EElzcuKkzMxrSj0RDIePWmc8GnARjGgCL_ontl85
+
+!procedure AmazonEmrEmrEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Analytics/AmazonEmrEmrEngine', $name, $tech)
+!endprocedure
+
+!procedure AmazonEmrEmrEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEmrEmrEngineMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEmrEmrEngineGroup($id, $name='Amazon Emr Emr Engine', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonEmrEmrEngineMd>', $name, $tech)
+!endprocedure

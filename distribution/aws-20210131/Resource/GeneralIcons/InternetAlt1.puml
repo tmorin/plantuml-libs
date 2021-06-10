@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/InternetAlt1
+
+sprite $InternetAlt1Xs [10x10/16z] uySA-800oW9pO0mW0Z5uUNd1N8GS7nHWDGq
+
+sprite $InternetAlt1Sm [12x12/16z] uyS3-FYGMNmmDaI03qp2C1Zn0W5C2iZaWwY3YO0n5E2s4m
+
+sprite $InternetAlt1Md [16x16/16z] dOn50S0m4C0K9FMlTjIZxvfZN0UepfBNkiFssT5vj3Tt0NjRFhvFchNxYE-P4Bzs_zFzsi7wpGq
+
+sprite $InternetAlt1Lg [20x20/16z] jOx50S0m30Cdq7d_QOkI0-_sWcRL7w0BDXU-9fSVQBVeTB7vfh_aAN0RE8ACKvBLSkoBi-BZSH99fLshJRH0VSu9
+
+!procedure InternetAlt1($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/InternetAlt1', $name, $tech)
+!endprocedure
+
+!procedure InternetAlt1Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetAlt1Md>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure InternetAlt1Group($id, $name='Internet Alt1', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$InternetAlt1Md>', $name, $tech)
+!endprocedure

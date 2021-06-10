@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerParameterStore
+
+sprite $AwsSystemsManagerParameterStoreXs [10x10/16z] HSf70G1130Cn0XajVxJNYrw9xQLg7OJhDDLSbyf_SLqpqdLTKvTCT1BhfB83
+
+sprite $AwsSystemsManagerParameterStoreSm [12x12/16z] NOk73S002CCUmER_Rwj0jxKokmazO23I8fH_hO2-DQwkKd0rW8pUDyO6q2QuxmMW3m
+
+sprite $AwsSystemsManagerParameterStoreMd [16x16/16z] TSo50SCm30NH0Ngdl_-q0OFABs0BazIK1GSoQGRssVx4DOMQSGh5sB6tg3lcCMFVwXLM32A0lKyAYZkU2Dm1WqKqfA5AMWqv0G
+
+sprite $AwsSystemsManagerParameterStoreLg [20x20/16z] {
+VSwt0GKn20JH0ZIxz5_jDvWJqKtuP21-kOgRcQwYgCIGa2kjqzkR8KzYpE6PkapqfMqIf24_nZbjk2shjz8O-TRu6dblMhi81zXbtTzE6QhoD-9lrZ8dh-XY
+vopY2m
+}
+
+!procedure AwsSystemsManagerParameterStore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerParameterStore', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerParameterStoreMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerParameterStoreGroup($id, $name='Aws Systems Manager Parameter Store', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerParameterStoreMd>', $name, $tech)
+!endprocedure

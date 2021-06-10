@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudfrontFunctions
+include('aws-20210131/Resource/NetworkingAndContentDelivery/AmazonCloudfrontFunctions')
+
+' renders the element
+AmazonCloudfrontFunctions('AmazonCloudfrontFunctions', 'Amazon Cloudfront Functions', 'an optional tech label')
+@enduml

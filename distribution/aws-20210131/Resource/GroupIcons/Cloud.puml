@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GroupIcons/Cloud
+
+sprite $CloudXs [10x10/16z] uyKAUBYvU20iBYvkJZ2RXvC7Aip53PBWvWAnU800nEBX0WCUhAO1
+
+sprite $CloudSm [12x12/16z] VOgt0S0m20HRys7_SHM1phhcenz8RH41PHiIFbpB_SAUU7TXLJZhxlOdqLuJ_p81
+
+sprite $CloudMd [16x16/16z] dOkr0G0n24LBVFznJnAqvJNmpLQe3aM8h2K_eKWIZj0n2JNYwnCT8wVAjtZbVM_kC5qtYQ5Z2ru
+
+sprite $CloudLg [20x20/16z] jOwr0S0W50KxlXtxZniFtd8LyYpl0HYVN4MzVp9nNApLXjmNacWqplVBNVXbgKJffoGvfVvJkkI6LnYBDyGe_2se5EeQ2da79m
+
+!procedure Cloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GroupIcons/Cloud', $name, $tech)
+!endprocedure
+
+!procedure CloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudMd>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure CloudGroup($id, $name='Cloud', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$CloudMd>', $name, $tech)
+!endprocedure

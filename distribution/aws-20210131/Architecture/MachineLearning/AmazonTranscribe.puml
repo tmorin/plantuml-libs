@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonTranscribe
+
+sprite $AmazonTranscribeXs [10x10/16z] 7Ob10e00406h0hl__szgN30kAcHY4w3-1k2csjJsG1EgeJJ6SyDT_OZlzBX2BXitITjEINa1
+
+sprite $AmazonTranscribeSm [12x12/16z] BSm74WH124BHJNwKllzz5xk6Ii_O6oN0JBpGuwhwbkAv_drHBDOWXqgGOkhtgswGNTU2jiaZGlMP0dJV7O_jS7sEdsB-
+
+sprite $AmazonTranscribeMd [16x16/16z] {
+LOtL0GDG308hWSZRVzyIwlpTHIWd7IhT_-B92KHWHLjaa75VqSeoWFjDeYsI80AHEK82knz9yJIfzwvuClGgu9RbGjmLStc-txW_jJGpA3LGrzINCnK0GVUA
+ZtRwdUKppfl_HJy
+}
+
+sprite $AmazonTranscribeLg [20x20/16z] {
+HSy94iKW20FGcPf4iFU_xm-5-QQhpvMCpkweaZaskTOeDUQWblF0MDOgkhaMPCn10I3mB7VzZP88BerPIFZ6hXNFCO6gzG3B6FPtb70sFpl-ehBBq2PYFJwT
+mXdR19QltHPX2tIryNMs9R8YLfSfNgy7K0AZgxIzXyfqVtRAZ9sSs2wUQnTpy0S
+}
+
+!procedure AmazonTranscribe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonTranscribe', $name, $tech)
+!endprocedure
+
+!procedure AmazonTranscribeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonTranscribeMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonTranscribeGroup($id, $name='Amazon Transcribe', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonTranscribeMd>', $name, $tech)
+!endprocedure

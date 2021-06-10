@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/NetworkingAndContentDelivery/AmazonRoute53RouteTable
+
+sprite $AmazonRoute53RouteTableXs [10x10/16z] u-E50Z03pkFXvG4280q5K2Ly80K80980Ie4Hb083i30V7
+
+sprite $AmazonRoute53RouteTableSm [12x12/16z] HOk10G0m1CCUwEB_RmSG0CfRkAhkeifzYR6FKNWGQVx3vUD2Q3rM1gh_FaGs5li
+
+sprite $AmazonRoute53RouteTableMd [16x16/16z] XOw55S1G2CGM8CV-snQhMxuBUUSwuJ8WHsAcE0iS94ISwrunikNxYOSpWKu-fI-6yfpcNDAP_lP2zde_CNvg7FDP-Vxp-OK5
+
+sprite $AmazonRoute53RouteTableLg [20x20/16z] {
+TSs50SD00CF00Mh9-q_RC2VtZAuFDGyQ9eeKX6LFj90IcUy91Y4aPDwR_7vJbwMpF7pavfpRRBcov4fppnMMUnm4YCr3t_RC34Caxhb00xTS2m5SziXIoOnO
+SaFV3
+}
+
+!procedure AmazonRoute53RouteTable($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/NetworkingAndContentDelivery/AmazonRoute53RouteTable', $name, $tech)
+!endprocedure
+
+!procedure AmazonRoute53RouteTableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53RouteTableMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53RouteTableGroup($id, $name='Amazon Route53 Route Table', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53RouteTableMd>', $name, $tech)
+!endprocedure

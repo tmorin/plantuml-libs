@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsFaultInjectionSimulator
+
+sprite $AwsFaultInjectionSimulatorXs [10x10/16z] 7SQt0S0W00InYa_ilwyFgrBRF3Qp_3e2ligAwP8_OZuopLOfINEtunNtBjtUAEW7
+
+sprite $AwsFaultInjectionSimulatorSm [12x12/16z] 9OZB0KH12CBs9q6c_tvNtt0XIS-y0vRXog2aOYLjKLIDf6McgfRnM5biLmdGz3HQTlia_j7FpedbN1xf99T7SkKF
+
+sprite $AwsFaultInjectionSimulatorMd [16x16/16z] {
+NSXHWeD038BXtJO1YFU_RudZawZE_9ztEcFc5zp91X-O99hCUyECrMgm2WjfGDMM0jk2HUtRs8OCI5-QlKsoYfQqF0jeT9RK5L2NVAOhu2hD0rV0Q4TFBv2J
+FRrmTlSBVW
+}
+
+sprite $AwsFaultInjectionSimulatorLg [20x20/16z] {
+PSp70GGn24FH3G99kFz-Pnml_iT7y4WxzdpXRJgM0F9WJQA8s5WT8IA5_zgj5madO9BWCY6je2q5E2quAK8YXXbsPjhuoyBQam3Gairb2eB8tlbNTWXYJxRK
+geVu-wJMfi5ri0qCXQkE3IJOruyDN1sxiDte1m
+}
+
+!procedure AwsFaultInjectionSimulator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsFaultInjectionSimulator', $name, $tech)
+!endprocedure
+
+!procedure AwsFaultInjectionSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFaultInjectionSimulatorMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsFaultInjectionSimulatorGroup($id, $name='Aws Fault Injection Simulator', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsFaultInjectionSimulatorMd>', $name, $tech)
+!endprocedure

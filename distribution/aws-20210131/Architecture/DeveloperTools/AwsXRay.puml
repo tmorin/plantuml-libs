@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsXRay
+
+sprite $AwsXRayXs [10x10/16z] 7Oc74GCn20GdcKlglrxl_4h0XJPWG5b6eX2dJubIPyzS8cMH-48XxoS7DUcKvcrD2W-9WJy
+
+sprite $AwsXRaySm [12x12/16z] BOst5KCn54AhJvBsdzTmBAhx0f1uqfGDiXyJmDiRDhzEPMeMT3XcID2GJoYPv7W3FXNBfrXhoXj8hkTko5ztmvj-
+
+sprite $AwsXRayMd [16x16/16z] {
+NSwtWKH140BHKzq5pCy_tjiHA_7gMIJUqru-81C4iXzDqJLXjyisVuLtquajBHXHEmPvmHWeAYXCssC8joELUdLeJC5CZzi4Vt-0JwVdoZazrD3x-hKWaZFd
+QyAYlUi3_W4
+}
+
+sprite $AwsXRayLg [20x20/16z] {
+PSw5SGDH54FHm1DywB_UQ1IsPTmpTs7llRxdh-tisPxABpD1_pSFnT5tsGnjPk0VCtfDYS5eCxREPXmxPyC10GfoyXL3Kvj8D8wrW-8MOktEWfAAMADHBQMv
+2I2vLwtbclVtMV2kTQIOzJc_RQFtNRjulz190yLRBF_i5lzexRdy
+}
+
+!procedure AwsXRay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsXRay', $name, $tech)
+!endprocedure
+
+!procedure AwsXRayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsXRayMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsXRayGroup($id, $name='Aws X Ray', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsXRayMd>', $name, $tech)
+!endprocedure

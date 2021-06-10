@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTHttpProtocol
+
+sprite $IoTHttpProtocolXs [10x10/16z] XSOv0S0m30Gm09NF_D4sxnvDYYlIM-ZhlRAiyKsaKOYh1W
+
+sprite $IoTHttpProtocolSm [12x12/16z] dSP50G0n00Gn0GlZN-r1IK3p2ZvmkiGkIw_UJFzb_VpVblq_hVJVnaTU
+
+sprite $IoTHttpProtocolMd [16x16/16z] nO-r0S003CDsW_B_jMNwe0fgzD0F3Ce7qSo7z1UlRqxFng6wtKuTtRvHjd6FF9PaIrQFlFI65G
+
+sprite $IoTHttpProtocolLg [20x20/16z] rSX50S0m44JH-w1_jMLA7FG5zxUPj1KcQf1-xI7ev3SjBrqj-7YQBHxqQQJexM1ePcbuRpcRP8RI7eIDy94siwu
+
+!procedure IoTHttpProtocol($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTHttpProtocol', $name, $tech)
+!endprocedure
+
+!procedure IoTHttpProtocolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTHttpProtocolMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTHttpProtocolGroup($id, $name='Io T Http Protocol', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTHttpProtocolMd>', $name, $tech)
+!endprocedure

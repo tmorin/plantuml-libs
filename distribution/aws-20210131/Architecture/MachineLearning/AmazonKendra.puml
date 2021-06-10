@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonKendra
+
+sprite $AmazonKendraXs [10x10/16z] 9Oct0S104C8Qqf_ttzSNL86Kn8sa9v80Ub6t_BIDingYLycQRfUJRdHwsUsKhzxWNbyrStu
+
+sprite $AmazonKendraSm [12x12/16z] 9Sd70GGW44BH3S0VjVzwZUz4g8CjISENl7Fi-F-NJduiQ85Ne8SJv9FXHjrSOADKTLfhs7BLA4Y8bHgZR-TZvrUE1G
+
+sprite $AmazonKendraMd [16x16/16z] {
+DOnN0e0m5C8-tg3Z_lSrnJREW3ACJCFyfOqzAyyPaM4lxZf1Pilz8rgYdsyoySNt1Hwnj-v0rNK2UWBXauvVKft52Zw1o3wkjnVnlVvzBnI-5yp3gCG9Z1Fx
+2ym7
+}
+
+sprite $AmazonKendraLg [20x20/16z] {
+RSy5WiCm44FHtLOQ6Uv_tyeO_E4NidCQQHIjd2-cOI9nD8ojY6bKjsXfcve1Hn-RRCh7pxbCiUjM2ari0JXCuVHYX1ThEamWPTImCJ7uCeZaIWblEMSGWPiP
+oEzNjbfyuS0Wy2LagoKV2Q3DEEgOJ3RZeSvse6tW3m
+}
+
+!procedure AmazonKendra($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonKendra', $name, $tech)
+!endprocedure
+
+!procedure AmazonKendraCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKendraMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKendraGroup($id, $name='Amazon Kendra', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonKendraMd>', $name, $tech)
+!endprocedure

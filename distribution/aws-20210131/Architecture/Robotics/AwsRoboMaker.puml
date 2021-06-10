@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Robotics/AwsRoboMaker
+
+sprite $AwsRoboMakerXs [10x10/16z] BSar0G1030F0fH3mh_UnDmLuu6gTq7MZKCZecrYTYPVkLxCT9ng1RaJH7IHVKWFd9NteuWO
+
+sprite $AwsRoboMakerSm [12x12/16z] BSot0SH03CJ0D-Gwzj-lT6OYHF2YZLbDQebfLE5qKzrQ4ZMxU1jl47xRW5RBcZInb3p-Cx7nfoVxn_xBCx6rsBDaymC
+
+sprite $AwsRoboMakerMd [16x16/16z] {
+LOw5WGCW40HVRktelzzWiK5dqHnyaBxTwgqYvKrtQAEgTDsbg8g-tYgxPlXqWvZGsMw9IOpPBnSG9p8yVNGJBh9cFkCnzCVGPZ0dq_dFNap7Sl_ZVFYk3_60
+gTCdVRd-Jf87
+}
+
+sprite $AwsRoboMakerLg [20x20/16z] {
+RSq7ai0W34FH6P2HvTp_lgk9pVQV_aBHb3UI-WVhjnchaG441wkAaOgmnPUTHQMngKqyAGAKnXnNPEmTQRocSt18twInmuoKIr1gGvYCAI9bVAf4A40Y1Chu
+FCM5khQEqUOTI-bJjfslmTO9UopMQt8phWTsFSncTBgDjKzZl_43
+}
+
+!procedure AwsRoboMaker($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Robotics/AwsRoboMaker', $name, $tech)
+!endprocedure
+
+!procedure AwsRoboMakerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRoboMakerMd>', 'Robotics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRoboMakerGroup($id, $name='Aws Robo Maker', $tech='')
+  IconGroupElement($id, 'RoboticsFamily', '<$AwsRoboMakerMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/Sdk
+
+sprite $SdkXs [10x10/16z] BOk10G0m1CCkMFn_xJPf0q3d0nFGNJGZTjiVN-pRqOxw9m99VG
+
+sprite $SdkSm [12x12/16z] POm50G0n4CCKDF6lzc4C6Hos_e0TW9wDdzIanaIJKal1cbkogrzrDQ4EBL1TAjJi1G
+
+sprite $SdkMd [16x16/16z] ROy50G1H348JyDO_xSdikyu1kouaPWz_XZSR_iAe4_JnpEXF7oyQlf_5j-5xRnBwhnpKtu5g6qD8RzKpLhal
+
+sprite $SdkLg [20x20/16z] VP254S0m30CdaBB_jZtTDypuPfV7iEG3yKH3Pbtpwi-kL5LX-BBC9woO5u0NpklPMNJacR7VB5jXmPqLYzYLQQwl5yI7PzN1NqUuqxc3Z_41
+
+!procedure Sdk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/Sdk', $name, $tech)
+!endprocedure
+
+!procedure SdkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SdkMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure SdkGroup($id, $name='Sdk', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$SdkMd>', $name, $tech)
+!endprocedure

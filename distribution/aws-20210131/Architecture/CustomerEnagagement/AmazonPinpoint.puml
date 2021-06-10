@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/CustomerEnagagement/AmazonPinpoint
+
+sprite $AmazonPinpointXs [10x10/16z] BSY53GGn0CJ0nyNqN--5B1evyKopAP7Y4adWJyLBFqZLr1-Wfqwk3-JUQO_MafECoJQp1m
+
+sprite $AmazonPinpointSm [12x12/16z] DKi50e0m4BAkOFz_hs2WsqXWZ3PWqVNpIdsHvbML6H4Vhxn2DOvvP6ODDIpzMJrqnyWPiZyXRk4QC4i2Cp2MXALn0m
+
+sprite $AmazonPinpointMd [16x16/16z] {
+NSY54K8n50LHx6f-__MIDpWxUhRD8p_gt-WCY-J7WdO47XPDWE33eI6R5t1xLHDkLrACrv8P13TZEmypmSksB4AYD2v39uBXyR8YKgQoFOEsHRN9CQEMbEvo
+p9ZwwFWRTm
+}
+
+sprite $AmazonPinpointLg [20x20/16z] {
+RSY7OGH1349H1m52E_tNQpOwtP-eDpE-wwj9hsmki7zQinARUamPau3IPK8t0Qe4dkPofl3dHw5z66L4oFgK6DksWQakuIFSrVPXknfWux4vpFfXXq2gZfPt
+snInoUvgyhI16x85HK_R6ZO1sf0l2yfZgpIJTnquGg93mHKyz4Vhmf--qb_x0W
+}
+
+!procedure AmazonPinpoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/CustomerEnagagement/AmazonPinpoint', $name, $tech)
+!endprocedure
+
+!procedure AmazonPinpointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonPinpointMd>', 'CustomerEnagagement', $funcName, $content)
+!endprocedure
+
+!procedure AmazonPinpointGroup($id, $name='Amazon Pinpoint', $tech='')
+  IconGroupElement($id, 'CustomerEnagagementFamily', '<$AmazonPinpointMd>', $name, $tech)
+!endprocedure

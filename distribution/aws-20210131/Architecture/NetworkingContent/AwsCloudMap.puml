@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsCloudMap
+
+sprite $AwsCloudMapXs [10x10/16z] FSY53G0n5CFGWqz9zj-tN8kUZ5xrChSw2MHKTfBfvdzqmNisLEcZA9MRMMH2VOu0IUoXwx81
+
+sprite $AwsCloudMapSm [12x12/16z] JSU53S003CJ0maDW_tqRbIqwvnHdTlwcFaTLcX1v6QHsd3R0oUEqoJbuV4eXHvTdG2cpkwhoR7nUrUTp3W
+
+sprite $AwsCloudMapMd [16x16/16z] NSg5ZGD044FH0yD0__rcCMJX-tBEnPdjNFlsAzJXNSqWmAQMH-2m_l_-Z-CVf06SlmO9GLwsao8yopO1WZ8PqHLBO8ISqLqU6YELcJt2MDxr2RVrL-Yly
+
+sprite $AwsCloudMapLg [20x20/16z] {
+RSu74e0W44FH6PFi0dl_-nfx_VQd0dsjdQKpd7ZPzylnGTiNsrWnHMOBvMx6f0WA4o-3H3PYmcdD5WnHEiSZ1P59PEocz81f2_cycqa1219XAvk3mfiNoSLg
+9AWWV6vDOIzZexXbShNWMZ-h4o-l7wmVh1-S0G
+}
+
+!procedure AwsCloudMap($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsCloudMap', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudMapCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudMapGroup($id, $name='Aws Cloud Map', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsCloudMapMd>', $name, $tech)
+!endprocedure

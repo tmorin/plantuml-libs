@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/Firewall
+
+sprite $FirewallXs [10x10/16z] uqS2V7nm1XylXCNB1nC5CO0y80F2vWCIO9KG9fm5bKKs5m
+
+sprite $FirewallSm [12x12/16z] LSi70O1030H11JluLqk7xydLRJdCE3-a5zTmZ1GlvTlHfRkH6o7zTTnmd0C
+
+sprite $FirewallMd [16x16/16z] ROu50GH03CCK9FMlzk6Onhpc9eyKzmhAhAW6PXSCwkmdE2QeDHnvKGMA7pEjNX3HoDR3sBgbrhfK_1gqP1lC1tq1
+
+sprite $FirewallLg [20x20/16z] ZT250KGn3CFG2IJlF-s1FpCMNbBC-mSycCG3uovN-y7QW9fhixPMYOaAhApBh9V6CM00scKEj7InpeWApcQXnPpSfLhqnzhyhEu0rVK9JUQaryyN
+
+!procedure Firewall($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/Firewall', $name, $tech)
+!endprocedure
+
+!procedure FirewallCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FirewallMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure FirewallGroup($id, $name='Firewall', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$FirewallMd>', $name, $tech)
+!endprocedure

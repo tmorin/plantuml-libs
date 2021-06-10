@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AppIntegration/AmazonEventBridge
+
+sprite $AmazonEventBridgeXs [10x10/16z] BSR70SDG34Enn8MFbFRVrx_XX2IUO8JTYbzuPOyXz3368Cq9BCuasrt1UKcwQy1ZerFo0G
+
+sprite $AmazonEventBridgeSm [12x12/16z] BSU73SKm30FHNy8cxxzlAC27zYxDcwIbxjI4H7Kc4MGzj6Ti0SIpPcXJq5fqbrvto3W-4oW1avmp8uTqtMbnwZjJlm
+
+sprite $AmazonEventBridgeMd [16x16/16z] {
+NSZ7WG8m30NHNV1FSl_z8fdCtEPbyZrr-O5pr0kgdrmce85g49OjBZRKW459WCxJ0GcjwtaZOY8OdC_Z6PulWA2MtUjTHJ8IbCvxLqWdMXZO3IKg8Zm_CALj
+_W7J-H-u0G
+}
+
+sprite $AmazonEventBridgeLg [20x20/16z] {
+RSzLOiKW54NHZnpbpN--1MwztV4LWzxoaK_z1t_Iu13WRxYEYM84S70TD1usDg23wsA4x0XmRDdD0y3SZHMfc8Zcep6hXriumX-htws0n5Piu0yBGk1HwpPv
+RIGnit7kyRNnVgKjm9vU1vT9zNvZREDKGHqR7EtOu4TZ_-0R
+}
+
+!procedure AmazonEventBridge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AppIntegration/AmazonEventBridge', $name, $tech)
+!endprocedure
+
+!procedure AmazonEventBridgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeGroup($id, $name='Amazon Event Bridge', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonEventBridgeMd>', $name, $tech)
+!endprocedure

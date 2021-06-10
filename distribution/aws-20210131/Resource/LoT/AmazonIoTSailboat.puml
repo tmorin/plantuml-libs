@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/AmazonIoTSailboat
+
+sprite $AmazonIoTSailboatXs [10x10/16z] DOi50G0m3CCC9Br_jQSn5IIh0eZ_2RdjErqIUVJ7oRiqvFAlVeOn0lx2mJm
+
+sprite $AmazonIoTSailboatSm [12x12/16z] FKu30G1030nmMF-qZza-Kp54mXCBUDfvsfwaWr1aGcVPxFehPotrMJbta-oywKS1wFzwHWQv64HV
+
+sprite $AmazonIoTSailboatMd [16x16/16z] LK_54G0W3Fitqlst9NTueEujkH-eWC-6oxv9Hh5D5BmzatCxc2A6iJmBGaAYnBO3HS3B5X9b_euJaIkLYx7DDM_3Qvy55YoumWAv3Crx77G3fVTUIpq
+
+sprite $AmazonIoTSailboatLg [20x20/16z] {
+RL173iH02BkxyV_Vhf1NwPm6ruIPP9v3W0yeI90dPY4XgLozch49-5J--MZ9Zht0CZxQf4rj0dHWTNB1dDYYAw9EBrMHSUhq5mKvlKPVnUpA-zBvpPrk_RSJ
+4i0D5JBQsGhrK3cnRe-RTlle-04
+}
+
+!procedure AmazonIoTSailboat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/AmazonIoTSailboat', $name, $tech)
+!endprocedure
+
+!procedure AmazonIoTSailboatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonIoTSailboatMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AmazonIoTSailboatGroup($id, $name='Amazon Io T Sailboat', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AmazonIoTSailboatMd>', $name, $tech)
+!endprocedure

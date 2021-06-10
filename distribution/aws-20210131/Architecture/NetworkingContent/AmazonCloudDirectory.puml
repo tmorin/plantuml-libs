@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AmazonCloudDirectory
+
+sprite $AmazonCloudDirectoryXs [10x10/16z] 7SQ75SKW34FHNwBA_lj6XmUsRvQND8ZKs442xLRYklAkF5c0fbC3U9ISOv2uQcndMbt92m
+
+sprite $AmazonCloudDirectorySm [12x12/16z] BSV70SCm4CH0MzAcO__rCkCroCmxQLlIcaf8aPXJbOyIlsEQCAu3cDS6T5p4od5hjVGXoRGeKijpAaaTprab0m
+
+sprite $AmazonCloudDirectoryMd [16x16/16z] NSh70KHH24BH2IAW_TVxStntTr2lwOYajmOpWSnjg8MPN0AqLCiGk_-xozZ-6PUjzHct2V1fHTptIY8Y25dgnJYohUxJiTgz34IIYJpSPP6KJtVjdNuECm
+
+sprite $AmazonCloudDirectoryLg [20x20/16z] {
+RS_70S0W34FH0vAHm_xx1Zcz_1kFdfNE-Yml_B5Bbw8WNEnc97kDGBd5YCFQRXEnxILn6PMYzpqjIER3CXbncPicG4yJqHeekpGsWqYrZlhIC9AD01jiEMtO
+4420PJcCdVNJGEncL0J9KEvMUBJR4ozxuWe
+}
+
+!procedure AmazonCloudDirectory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AmazonCloudDirectory', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudDirectoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudDirectoryMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudDirectoryGroup($id, $name='Amazon Cloud Directory', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AmazonCloudDirectoryMd>', $name, $tech)
+!endprocedure

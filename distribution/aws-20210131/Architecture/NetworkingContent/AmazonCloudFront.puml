@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AmazonCloudFront
+
+sprite $AmazonCloudFrontXs [10x10/16z] 3SY73GG14CB0Zu3P_lizh3GoAyiUOdiiqV_tLr8SoNAwDKUJ7KyvxEOlSut8Jt1NuZ2jBdW
+
+sprite $AmazonCloudFrontSm [12x12/16z] FSg54GCm3CNGaZyu--zR5ODFTouhxsN_JIpKu_4GiHiHae8LoyhWZYPLP2opFrxpPAYSmoI3u_QSZUnHCR5DzsE2HJm1
+
+sprite $AmazonCloudFrontMd [16x16/16z] {
+LSZ50GH130F10uiy-SUxZDAhEkjyJ5AEyBP8xQ4N6VLVlfNkXGgh1Ewc8wo0TaTqA9EhNG0S8S9c6Y8Dxmx3Zb0MxT5DSQa0uNYCDj3ThcAIiOQIpJ-pUtHR
+bBDx3VjslyCC
+}
+
+sprite $AmazonCloudFrontLg [20x20/16z] {
+PSu93aCX40BGfC8i_llVjpXqBrbzIh0dzKegxVoRyQNRb5JYQGUBmCAw8KVtGRreOaK8RQ9J1jGJZXNLrY6YYhH5g9ZoUMWZPhEREJwMgYIfyiiYT_JkOD1s
+pGPRymcaM2PaodGdGsdh4ZOn_mmWMhaErkAvNsjeJFMa_sCpgjbRiRtGiVtZ7G
+}
+
+!procedure AmazonCloudFront($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AmazonCloudFront', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudFrontCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudFrontGroup($id, $name='Amazon Cloud Front', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AmazonCloudFrontMd>', $name, $tech)
+!endprocedure

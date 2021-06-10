@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsDeepLens
+
+sprite $AwsDeepLensXs [10x10/16z] BSb15e102CFGpG0ftl--HZMh_rfih3kXJKPLbMkIN_i9jQeBrFQWK3wAIuQ9ajfk
+
+sprite $AwsDeepLensSm [12x12/16z] 5Sh15ODG44BHH0NWst-_0glxpemtTIIJak9Y1eb56i0pQoOnwpJGWrmtzY-xFhLOU-uTyzkmwjIBn9aRg-q3
+
+sprite $AwsDeepLensMd [16x16/16z] LOv5OiLG4CCs0tPx__jMutvKK4eUA6mOiBz3VBev4toX1shXt7WLVlZuy9yu0_VX5wOEAKxOcx0buU0kHfG0Xnb9hIEkHIl-cp1uo-S9ihCLd12m-7Vm7m
+
+sprite $AwsDeepLensLg [20x20/16z] {
+NT2v0GD020F1W4VYt7-_va1-DvnmYnksl9KGIYRwO0t2t3Ci5jjQuK0Y78CrjPb5ha4MuU7_1hUKuPmn9u1mycDqjovbtRNi7EmWWqK07h89dY0YEAqnacJ-
+M758zX36MAqjLXRto9Zmb6eRt3xsmH8-0G
+}
+
+!procedure AwsDeepLens($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsDeepLens', $name, $tech)
+!endprocedure
+
+!procedure AwsDeepLensCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeepLensMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeepLensGroup($id, $name='Aws Deep Lens', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsDeepLensMd>', $name, $tech)
+!endprocedure

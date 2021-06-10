@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3OnOutposts
+
+sprite $AmazonSimpleStorageServiceS3OnOutpostsXs [10x10/16z] BOh54S1030F_iQ3_RhE-COiigbiAUqW-jBRjFFI1nkGo6hrCL0jj9GmG30czjhRS7m
+
+sprite $AmazonSimpleStorageServiceS3OnOutpostsSm [12x12/16z] JOX90iH048BkhUB_VplEbeHU2Wfxz8C3wEUCQ-_nS7dmzHF8OTd8slswb_auKefFvWhsef44ACk6ZP7s1G
+
+sprite $AmazonSimpleStorageServiceS3OnOutpostsMd [16x16/16z] JO_70S102CF-bWtxRnj2ggxgAdGk-YRoW5xt3loyXfyNaB_R3gdXyLWi6Gz4d7k5xlSbiTnEkd3bvnsGQXtaslivtNIWzbXaQpzcV2QMxvGCFLHNRiOE
+
+sprite $AmazonSimpleStorageServiceS3OnOutpostsLg [20x20/16z] {
+TOvL0e0W44I_cThxdzO2MvzIRuUexDH1i7DrFU2RsyURoyhTXG3eHyxsJuuRpfwBLxqWm2D7DwOMOd1_WnjsjBl0YUI4tbqXLGASCwUcDIsqXdH727GliZl3
+IuEsQJ_SO8rAYOiZ5b8hP8Mg1MdrE_tKP6qxgva1
+}
+
+!procedure AmazonSimpleStorageServiceS3OnOutposts($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceS3OnOutposts', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3OnOutpostsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3OnOutpostsMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3OnOutpostsGroup($id, $name='Amazon Simple Storage Service S3 On Outposts', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3OnOutpostsMd>', $name, $tech)
+!endprocedure

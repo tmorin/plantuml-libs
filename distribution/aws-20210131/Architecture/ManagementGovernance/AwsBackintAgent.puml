@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ManagementGovernance/AwsBackintAgent
+
+sprite $AwsBackintAgentXs [10x10/16z] 9Ol14G0n005VB4d__PxCUO5jcoVeipRXF0EpvzJoxv1YpONEuxb4afqxQudstZ7CpCrExGS
+
+sprite $AwsBackintAgentSm [12x12/16z] 9SU74SKm3CFGNo8sxxzlg3EkFRXf8-bjeMi1c4vgeXWfCMSmkiQWNvTQ4QmPJwjF29OFvNEIT63NEvAlEwr-0G
+
+sprite $AwsBackintAgentMd [16x16/16z] {
+NOnP0iKW30BV4eZO-z-taFfLN6SILRAUjAENq144Es8_Q695x17eTCFRjbWim2esJ1PJFNNxVqki2WVp8RY8S7kfW9e7rswN6qwHPWkImxsaoyBzGKhc8yZM
+uOZ9y4lS
+}
+
+sprite $AwsBackintAgentLg [20x20/16z] {
+RSvNmeGm40BWlm33nFlVTyEuvaaqxKljYPzKqY_OBtYii5E3wslAM51mtMYu7VJE6hH0gMnKB6YG8ZTGZr7urvnvrXdclxjD_7-jg0wGvS9jd8i84DMespeL
+11AENMifT-LM4ABRryOInOqGojrz1UTkIddGs44W53lO9zV1oMql-04
+}
+
+!procedure AwsBackintAgent($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ManagementGovernance/AwsBackintAgent', $name, $tech)
+!endprocedure
+
+!procedure AwsBackintAgentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackintAgentMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackintAgentGroup($id, $name='Aws Backint Agent', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsBackintAgentMd>', $name, $tech)
+!endprocedure

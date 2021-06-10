@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTAlexaVoiceService
+
+sprite $IoTAlexaVoiceServiceXs [10x10/16z] BSmd0G104CH0ljM_sgyND2YjNptWoutwKimlUfIH0Nn11g-2b7mNGF0_tzy6
+
+sprite $IoTAlexaVoiceServiceSm [12x12/16z] JOx50SGW44NFVEs_sfK4UyYujFL3VqJW3oYjd0UhPleG-jOpzPZ_-pW1p1n277hq3BNWqzDW0xspC0XaxY0g_G8
+
+sprite $IoTAlexaVoiceServiceMd [16x16/16z] NK_50GCn37jRkF-qxJ4fA0Yu2vmDxWv3N23i0ecLRij2mrvW5lhaJFJaojUlBxvuxkKBmE3AQsRbLnxZ1kF3ps0ByV03fENe-2zcO0zorWFCAlMkrzBY_W4
+
+sprite $IoTAlexaVoiceServiceLg [20x20/16z] {
+ZL2t0SD04Ag10-s_hNbbTURZ4HgsXQoL_RaGMbQtUP4ZY6Ate3aepWkSdPljn3L5_79KDklBoN_xlfoZRzOY2RopxjoDUVa4o5C-_PySeTub7Pu-T-WJLChf
+2p6NT7KWO944ytI5GWByxdGMpLAVxZDEnny
+}
+
+!procedure IoTAlexaVoiceService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTAlexaVoiceService', $name, $tech)
+!endprocedure
+
+!procedure IoTAlexaVoiceServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTAlexaVoiceServiceMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTAlexaVoiceServiceGroup($id, $name='Io T Alexa Voice Service', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTAlexaVoiceServiceMd>', $name, $tech)
+!endprocedure

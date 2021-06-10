@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Compute/AmazonEc2R5NInstance
+
+sprite $AmazonEc2R5NInstanceXs [10x10/16z] HSor0G1020F06it-qxwWLw41BE0L7EmLZiVPgiAlb4NKgcBHs8QewcDJDla2
+
+sprite $AmazonEc2R5NInstanceSm [12x12/16z] JOx50G0X30JVjvDa--_sS1WaBdPLDghS08tRl903g28zI2eLrMYwikcI86BfV6Bgesar_QrzUxwptXr-
+
+sprite $AmazonEc2R5NInstanceMd [16x16/16z] PG_J0G1Hw3Ut_xQNJhrikBizu0KYB1maqYvIO0c9Oa6PwZQ5fYro53xZwoDdNaM2xCah4I4JiIAN7vuGHk7KSrQKEkVjVVkUVU_-P_zx0G
+
+sprite $AmazonEc2R5NInstanceLg [20x20/16z] {
+RT3N0GCn30BGtm0Itd_ReFGYhhzhDYUnZr-xHoJJp6hfGIOBZQn5-axuYYDY3gyObCVEHyQEwzigH7mR66nOP45bnpf4OZP10cMGlXlGnGkBiSUxkM3yPltu
+HzlTxIppZtKisvYtkIqTB5tjdMxTNm4
+}
+
+!procedure AmazonEc2R5NInstance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Compute/AmazonEc2R5NInstance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2R5NInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2R5NInstanceMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2R5NInstanceGroup($id, $name='Amazon Ec2 R5n Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2R5NInstanceMd>', $name, $tech)
+!endprocedure

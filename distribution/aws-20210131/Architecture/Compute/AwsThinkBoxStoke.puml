@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsThinkBoxStoke
+
+sprite $AwsThinkBoxStokeXs [10x10/16z] 5Sb50G0n00F1Wv1_nUtEAz0si4asaI39IVFBrkyi0Yc-k5S9oPQViztMf2M1T
+
+sprite $AwsThinkBoxStokeSm [12x12/16z] JSg72G0n40D1y0Mv_ufVU_uaqYn8KfzLwHUmCeimBGh7EA9xOpREyXnuSBmxLjMAaitBRqcRYU6lBW
+
+sprite $AwsThinkBoxStokeMd [16x16/16z] NSY75SD020JH9pPm_LTiM6VDnKzFVYUfRuDEbfmKIW3bRMGA5WJ51YIRH2akriwAwtDS8hNdvOLD4N6l9v4l9ypn-XXLTXNaNf_c9LrqJoVPZk8Kh6-31m
+
+sprite $AwsThinkBoxStokeLg [20x20/16z] {
+RSW55iH020JH1ota_YVUdjXQQfG_AxzJcWUSVtmRSUD9942UU8W86takCzgGBQXQXwb1c7IUPcoBbPe2X5RjjetQo59GVTWchZMp7boMk5-hjq783kamBu0D
+WD34TgpgcQuApSJIgCkkZgmYkrAYvss7ljlUlUq1Nm
+}
+
+!procedure AwsThinkBoxStoke($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsThinkBoxStoke', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxStokeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxStokeMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxStokeGroup($id, $name='Aws Think Box Stoke', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxStokeMd>', $name, $tech)
+!endprocedure

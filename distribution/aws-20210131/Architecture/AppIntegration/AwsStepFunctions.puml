@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AppIntegration/AwsStepFunctions
+
+sprite $AwsStepFunctionsXs [10x10/16z] 5Oh50S103CDAfjp--zRHow0aNgGKQUDq0rmc14ar2Py4S1CiGdsrh-Cp4pBbDDRUrBWaFm
+
+sprite $AwsStepFunctionsSm [12x12/16z] HOh70S0m308_Qk3zzmqepLLm1wtnwcviw0qxPYwXsuWo8If2RdgUZ9pEp5QV-S_wvPISGuxJ03WAh08yEm1yPXCwN
+
+sprite $AwsStepFunctionsMd [16x16/16z] {
+ROtL0SDG30CBWWVxxrj3ERc_CqWp6Os3-JDuk_GSh78Jxi7AmJ3kxa7u85YqYoGYqNAv2N0QCUMPYq5cLkMEmCeJbKqx1tC07ZFPELY3J4tlWJrNUmsQzj_1
+0m
+}
+
+sprite $AwsStepFunctionsLg [20x20/16z] {
+RSyv0i0W24JHWc46yFxdpK8mbR_pkMSNExtb0VE0smHeOutHtMEmFWoPAQPwKG3C0EDOqc7e4Ny3INYcI2S_UvT1AVCdQoltjXYRlQApzv9gAnBcUhz2zezM
+FUstGFdYQgmCc79QWoBvss2wH_tME8qTS1tm1W
+}
+
+!procedure AwsStepFunctions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AppIntegration/AwsStepFunctions', $name, $tech)
+!endprocedure
+
+!procedure AwsStepFunctionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStepFunctionsMd>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AwsStepFunctionsGroup($id, $name='Aws Step Functions', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AwsStepFunctionsMd>', $name, $tech)
+!endprocedure

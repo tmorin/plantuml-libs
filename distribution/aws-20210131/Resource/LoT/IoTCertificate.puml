@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTCertificate
+
+sprite $IoTCertificateXs [10x10/16z] BOgt0G0m3CBs8E3_QzFbRcXhS0zdc9xcxEwMCP3WRsXl5hxcqnBeGQ1UsFmjETi2
+
+sprite $IoTCertificateSm [12x12/16z] BOl50S0m30FVZMZ_RMkwe0KfH2g3GLjmYjNCaG7AfXFX0ry9Aht_8AS0SgGKMaNPWNpCO4hq_L7SFvoT_
+
+sprite $IoTCertificateMd [16x16/16z] {
+HOtN0O1024E_JMF_RKLGxrsb9JMugH-J4kalnFooJuNPV30VaOGgAUc9oOj6G_6DBviKyCNeS3pMJS1Eha47W_3vA7rhx3O14XCkJ1pMYStU9mPiuCH-zDRi
+1W
+}
+
+sprite $IoTCertificateLg [20x20/16z] {
+LSvH0a0m30JHRxERpVrF2u0CuA5jtsMlHyLPVPBxgI2FINdltX_JD-Rv7HjqFPZxdHSiX9KYbsbPo86WlxMrDwoCl7V_sv81ZyKKbUIvVLRwt1Ng9-FQnJjz
+YQD1RMLF7kOS-pIGO1g-Jr_9SpxQ
+}
+
+!procedure IoTCertificate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTCertificate', $name, $tech)
+!endprocedure
+
+!procedure IoTCertificateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTCertificateMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTCertificateGroup($id, $name='Io T Certificate', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTCertificateMd>', $name, $tech)
+!endprocedure

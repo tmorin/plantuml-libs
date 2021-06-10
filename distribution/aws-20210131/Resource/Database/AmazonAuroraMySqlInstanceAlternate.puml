@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Database/AmazonAuroraMySqlInstanceAlternate
+
+sprite $AmazonAuroraMySqlInstanceAlternateXs [10x10/16z] u-U30duW0W8W0UJmy880M8uNYC2I440y2s4o
+
+sprite $AmazonAuroraMySqlInstanceAlternateSm [12x12/16z] u-U30tuWWW8GbvUN3mJ175uU7buW02a12e1fVYJbPB2HxK9s0m
+
+sprite $AmazonAuroraMySqlInstanceAlternateMd [16x16/16z] lSe50G0n30D00qlElzfdDB0RjWtzG7uqFjAcoNPsFUknoMPSzNQkm56ZHRdgovHQVj0FLW
+
+sprite $AmazonAuroraMySqlInstanceAlternateLg [20x20/16z] pT050O1G30N00jkx_cbnXm3STnTVklgccegR50qX4REcp0koRx7trMGVEEVDi-ew3-cOSyu-iJlx_AAlFNp-rUUVVXa1
+
+!procedure AmazonAuroraMySqlInstanceAlternate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Database/AmazonAuroraMySqlInstanceAlternate', $name, $tech)
+!endprocedure
+
+!procedure AmazonAuroraMySqlInstanceAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMySqlInstanceAlternateMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAuroraMySqlInstanceAlternateGroup($id, $name='Amazon Aurora My Sql Instance Alternate', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMySqlInstanceAlternateMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchRule
+
+sprite $AmazonCloudwatchRuleXs [10x10/16z] HOi50G0m20G3lFLFEnySBc_9XoZPLHjdmTMGVAclkuzrUXxsvko-sFHvkam
+
+sprite $AmazonCloudwatchRuleSm [12x12/16z] FSk75G0W2CJG1KZOVrlVgV2jD87-K8a2xCjANALwypUwJ8znyzu946k1BV7-bsJ1ZDxSqmS
+
+sprite $AmazonCloudwatchRuleMd [16x16/16z] RSt70G0X3CJ00bZ9_LTxEGBpSdQfrij0matPYuStVqSr6myaQ4jQ7iSyNNuHq3p_4wzxNF-C1j8UvpwtsJsuIg6mLFAmEYi
+
+sprite $AmazonCloudwatchRuleLg [20x20/16z] ZT3L0K0n24FH0KXkzf_skMlFNnL86EK4JJW86W-i0r0EB77Te-Qz4UTxDT8HoBRaWuQwyLo3qm3EMjVhdXCH3rGFTUjegS76ljRbiIvZZMD-bhTBM0TvqWC
+
+!procedure AmazonCloudwatchRule($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AmazonCloudwatchRule', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudwatchRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchRuleMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudwatchRuleGroup($id, $name='Amazon Cloudwatch Rule', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchRuleMd>', $name, $tech)
+!endprocedure

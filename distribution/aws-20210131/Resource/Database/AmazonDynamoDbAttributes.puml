@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Database/AmazonDynamoDbAttributes
+
+sprite $AmazonDynamoDbAttributesXs [10x10/16z] u-C50Jumu0Lo-FdvWIGFK0mY00N8idmWMH038Gk4K344YmyE
+
+sprite $AmazonDynamoDbAttributesSm [12x12/16z] NSj70S1G3CDG0f7C7srt_yYxP5f5y4K9ILHXz52yb67vIViVHbRRFvJWBGuv0G
+
+sprite $AmazonDynamoDbAttributesMd [16x16/16z] bOur0G0m30G5FFbNMze-MwyGXhY89VAzXwrG2fdBjJticL_SV54cVRbsrFNHPpzsF-jdlmms
+
+sprite $AmazonDynamoDbAttributesLg [20x20/16z] hOs54S0m4CCMCEo_RSy-A7CKpeDy10gx1S261J2RNFf7AYUy-1Eu_IE1RYo9SqTgEDQhr6QJog7twE-uDeuZhuwykFKUCG4
+
+!procedure AmazonDynamoDbAttributes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Database/AmazonDynamoDbAttributes', $name, $tech)
+!endprocedure
+
+!procedure AmazonDynamoDbAttributesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbAttributesMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbAttributesGroup($id, $name='Amazon Dynamo Db Attributes', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbAttributesMd>', $name, $tech)
+!endprocedure

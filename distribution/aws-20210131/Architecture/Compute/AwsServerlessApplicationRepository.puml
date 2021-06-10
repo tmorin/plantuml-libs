@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Compute/AwsServerlessApplicationRepository
+
+sprite $AwsServerlessApplicationRepositoryXs [10x10/16z] FKor0S003Ae4-V_XM8K9byG1e9yEmT8X4SCjD4KqOxJLl5bxTmppNlJ00mtyqm8
+
+sprite $AwsServerlessApplicationRepositorySm [12x12/16z] JOl50GH0309FCe7-6rutFhYad00zHe_fAeAjevdXB13DqdNGKsBgv1_yIJk1UR2j3G-yUfeA
+
+sprite $AwsServerlessApplicationRepositoryMd [16x16/16z] TSo52G0n44HHO6pxR_XS8p_Ocy1cotUIqWnfXZJ38P7wM1IWnsO20TnT5IaXRF2mP0YCJUqcA03Stsxpk87xVnkkvBZsybPdZRScNW4
+
+sprite $AwsServerlessApplicationRepositoryLg [20x20/16z] {
+RSk54GDH24NH6Pv0_nNd2t7k-e7DdTzfbGFcW3bW3jWWwiSCCg0lWnOBvBKwQ-iAxguj9DU0Pvbjb047lBQ9Qo011CLLj4cs58JKLkR-oujiyjf2ejCUroc_
+gcUJrMJrjW4V
+}
+
+!procedure AwsServerlessApplicationRepository($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Compute/AwsServerlessApplicationRepository', $name, $tech)
+!endprocedure
+
+!procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsServerlessApplicationRepositoryMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsServerlessApplicationRepositoryGroup($id, $name='Aws Serverless Application Repository', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsServerlessApplicationRepositoryMd>', $name, $tech)
+!endprocedure

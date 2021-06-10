@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/AwsCostManagement/AwsCostExplorer
+
+sprite $AwsCostExplorerXs [10x10/16z] JOR50SD040C_Axp-wqtCjd0IxvBq9LdaI0sj0UGQuXQx8GQpKoLkU98m8w_wLDRghYH_
+
+sprite $AwsCostExplorerSm [12x12/16z] DOkr0SH040CVX7lzrslsHCAsEV51NtDfNvdqQWAmfpeqA2LJKgJjGuy44CYf7H62Bztp-sUo9ZgWaAurVLc7EJdr3W
+
+sprite $AwsCostExplorerMd [16x16/16z] {
+NSYt0GCn3CNGWZzHsdzU-t92zz1BsVFQmpby83wiX353FYomu7YiRWOWcMICXXSN8cqE4LAolRaf58bYDWz58CZowOP1bIwp2HGMpyKoR5AbxZb7Uoljh9vZ
+hxVcP_m1
+}
+
+sprite $AwsCostExplorerLg [20x20/16z] {
+RSu7RWGn34DHO4IAf7t_-sQwa-n-6EsvANj-qbM-OBxW9R5yhjVeD6r8m6CuJTKejALndHDDRAoIhR4Z3WiA9hqtnb1nDw7aVgnP4j6Ikczp4RMnWQ9l6xH1
+OhVIiX0DXCLbGstiN9tV5WBOIZlEmwuX6is2uxcZUETq9vaxNkLjlhXuVi4V
+}
+
+!procedure AwsCostExplorer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/AwsCostManagement/AwsCostExplorer', $name, $tech)
+!endprocedure
+
+!procedure AwsCostExplorerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCostExplorerMd>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsCostExplorerGroup($id, $name='Aws Cost Explorer', $tech='')
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsCostExplorerMd>', $name, $tech)
+!endprocedure

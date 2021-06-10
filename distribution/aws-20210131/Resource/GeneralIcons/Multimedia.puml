@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/Multimedia
+
+sprite $MultimediaXs [10x10/16z] u-U30du-NYW0yU2YG64G2S5yl20I8OPW8G0lZ4AO3
+
+sprite $MultimediaSm [12x12/16z] NOo70S0W408duBB_j57FxlS2V8UHa5Xm1cVQ3vl5axFdCES0BmQBzT1qriHjAm
+
+sprite $MultimediaMd [16x16/16z] TO-54G0n380cWEw_xH_lLghnPBpXmH0GxD2xNUtjQq4-tyr-oLlCAHjSSWyozK-Hc1olFFF-nFSyRnO
+
+sprite $MultimediaLg [20x20/16z] ZT3L0SKW5C3G2PBiF-tJkgS2d3zkHyac2y7bntEZNwhzcam0LoQOk3G4b9L5mjO4roROsYPQM04qcLgBx-1kV8sZ6MpYSAP7lG4
+
+!procedure Multimedia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/Multimedia', $name, $tech)
+!endprocedure
+
+!procedure MultimediaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MultimediaMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure MultimediaGroup($id, $name='Multimedia', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$MultimediaMd>', $name, $tech)
+!endprocedure

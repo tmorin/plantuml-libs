@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/DeveloperTools/AwsToolsAndSdKs
+
+sprite $AwsToolsAndSdKsXs [10x10/16z] 9OY53S1030D5CNR_UMlfBtHnug6HAVbCk-3CfsL7rG9mf6jpI3CP46TzcVsraJA-wPxn0m
+
+sprite $AwsToolsAndSdKsSm [12x12/16z] FSU53GCn0CNGqiTa_taRaCwYvpOxxxh7UipLjUZ4v3OaKeGzge3ycSbo9J7RGpMWQojsgErHSQdD7AiihUQQrV4V
+
+sprite $AwsToolsAndSdKsMd [16x16/16z] {
+NOr50WKX3CM-q6VC_Qyxxjabq3RnXZRo2bc3gkJBKMJXS1OzivN4VrY0NF_PUmoXIGqiMRqRGIqOiZStAHpE43FSFKZKck9QlGkAj9_jCyV_n1xwGW1dmSCM
+UdQ6FHnb0W
+}
+
+sprite $AwsToolsAndSdKsLg [20x20/16z] {
+RSw5aSH034JH0qaDTlxnRfkMVqtH6v9jNV7CwPlvWBlwnAbgFfjGGqvDz3HsKubTE8r_8mk8pX-q6wh9Ja3Ln9R5G8wsr3aq8-cqwigwsuBOU4RD5si1geSH
+DhggeRkfQQjRDWgx1MTayZvxAB4dDMHRMWyq_lyZUrg3XqRErZk6xtR7kzq
+}
+
+!procedure AwsToolsAndSdKs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/DeveloperTools/AwsToolsAndSdKs', $name, $tech)
+!endprocedure
+
+!procedure AwsToolsAndSdKsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsToolsAndSdKsMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsToolsAndSdKsGroup($id, $name='Aws Tools And Sd Ks', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsToolsAndSdKsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Database/AmazonDynamoDb
+
+sprite $AmazonDynamoDbXs [10x10/16z] 9SOt0G1020ImYMlWt-xNJ4byw3WZ-GUfYdT5aB0wXLlxhU0_eEuQ995uEfASPAQF71i
+
+sprite $AmazonDynamoDbSm [12x12/16z] DSY74SH024FHIu22-w_tXCVx9pr9uePDqk8nUgPwRazDPXtd_GtXk7UIj8Efmd4Vexgxe3LxC4E9bvqdIbT6klq7
+
+sprite $AmazonDynamoDbMd [16x16/16z] {
+NOe5aWL12CNMda7V_xpBh_59Qr9KPSCRzGYRcuDok22Re7Odx830wHmoENPNuKy6h5ybxYw24qnbw6u2uEmS_gSP1au71_qzdKXjRdYWgYQi2R4aruUirHkr
+iLxX7m
+}
+
+sprite $AmazonDynamoDbLg [20x20/16z] {
+JSt70KGX24NHXIyW_lxh7M4IToN7b9dxMtpAWTEovxyscRWnXebro9JyCxIH0d_6ohoiVhEjNgePIsNdP69H0MWB_NiRxTYqYyekaY05mVjh1pLuOGthOrn1
+vJndomOplqPsbhAmpN2jWv6DJs68DnKLFeqdPy_5RyCQfxq
+}
+
+!procedure AmazonDynamoDb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Database/AmazonDynamoDb', $name, $tech)
+!endprocedure
+
+!procedure AmazonDynamoDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbGroup($id, $name='Amazon Dynamo Db', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbMd>', $name, $tech)
+!endprocedure

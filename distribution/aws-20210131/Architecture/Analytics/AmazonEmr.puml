@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AmazonEmr
+
+sprite $AmazonEmrXs [10x10/16z] 5Oc50SG0309V6YpxxrlYmBcb5dbAE9ag32d5n626Yauzq2bMZRILEEhTX2FPM-d-gfCj-mK
+
+sprite $AmazonEmrSm [12x12/16z] JKm55i1G25e9nltlEt7vGwb7zF4vP0pXa1I63SacRWS1OSA0ux360TBGZlG_TW2SJ5McUjGkd8H728_JxyPzH4u
+
+sprite $AmazonEmrMd [16x16/16z] {
+NOut0i0m2CG6-mhu_-zDEQP4c-G2zM8FaYhylGHDwAWtuT0zlc4otaM20W7c71B8jTRMwwRWBI_ONrUyAUV-ViFfBX4q1AXydl2a3LIMEnCWLZWJpEhnX67y
+6su
+}
+
+sprite $AmazonEmrLg [20x20/16z] {
+PSi5ZaH120JGPA3ip_tlkosiLoila1D_HIiP_6-3ey-deV5bWswrflCPT7NPvDWJom1RxCRqiT7be0eO4xAWksijNQDKT3jyBVasRTEBd-Op2tJLdNqlrAuJ
+Tf78iernIBNLhMJPmis5Jkoil0VJxWtN1jdCC_Q5sTVOu6Ji7tu
+}
+
+!procedure AmazonEmr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AmazonEmr', $name, $tech)
+!endprocedure
+
+!procedure AmazonEmrCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEmrMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEmrGroup($id, $name='Amazon Emr', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonEmrMd>', $name, $tech)
+!endprocedure

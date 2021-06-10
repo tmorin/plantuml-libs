@@ -1,0 +1,28 @@
+' definition of the Item aws-20210131/Group/GroupElasticBeanstalkContainer
+
+sprite $ElasticBeanstalkContainerXs [10x10/16z] JOp50S103CDAihh_meLZlHBJlQ2nNaaejmZ18bsO_1VNnNzPhbOAZfrsD5u
+
+sprite $ElasticBeanstalkContainerSm [12x12/16z] NOot0S0m0C8MaFB_m-dDPg8l4_IbjDpAkgjwKjmPXm2QAXoypIuEBcG7UA_3zweltzcC3G
+
+sprite $ElasticBeanstalkContainerMd [16x16/16z] ZOur0W0X0CC6seJ_l_XSHZ8XjRc2uEzAsdmFHctAVQUx8d1BY9vwmgrEHd4Qztkb7MdTxwU-sMa8Jti60tyRabtxepZ_xDerDW
+
+sprite $ElasticBeanstalkContainerLg [20x20/16z] {
+fOwr0KHH3CEAoB3_meUVswSkOEWoaPJxoiZ2jo_SndFzjLg197AygI6uWMmh9G7SPliq3SFOJeF_kvWm0hLuqnfW_BzkXV4mcl7P9edrNJIvzmRtJd3wP5kj
+yWO
+}
+
+!procedure GroupElasticBeanstalkContainer($id, $name='Elastic beanstalk container', $tech='')
+  IconGroupElement($id, 'GroupElasticBeanstalkContainer', '<$ElasticBeanstalkContainerLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupElasticBeanstalkContainer>> {
+  StereotypeFontColor $AWS_COLOR_ORANGE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_ORANGE
+  BorderStyle solid
+  FontStyle none
+  FontColor $AWS_COLOR_ORANGE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

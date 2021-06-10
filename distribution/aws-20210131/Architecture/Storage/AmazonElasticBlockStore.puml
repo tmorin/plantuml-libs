@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonElasticBlockStore
+
+sprite $AmazonElasticBlockStoreXs [10x10/16z] 9OYv0G1038Agg2JxptklZG3apZRH9ScuRYYvGLMLf1ibUjI6JzX-546GChXVPwRlW0q
+
+sprite $AmazonElasticBlockStoreSm [12x12/16z] DOp50S1G24Dho0lxxzkVIYuG1Tge1QZtp_NtMVW_qtfbHERI1Nr5N4vAaDtv_YAX_jzwu_yTjp5Sxk3f4SYaO6Pa0Dm
+
+sprite $AmazonElasticBlockStoreMd [16x16/16z] PSot0GCX44JH0COj_VUhMv2_dxt1vCedTNSRFEP4cuCv7hDjqGGWabBb2fF4T5VL1i6dUw3xsvVhtzNEnn4bmjcE6KioANkLXlQdyK2oLjYkH51xrIcxzJSy
+
+sprite $AmazonElasticBlockStoreLg [20x20/16z] {
+RSf13iGm24DHgM1iallVTopQh39_-VJRwSIt_eCZj-71CSJpMaQTcSV8bAfG503RQYS5Z65rN8Dy4iX8JMkG4Cd2CQDjxcE3bpbzrfSLUd2e6mbaKiOnpYKP
+K2LfhuNWp4uHQkszAge_B5ltDewyA9FDU6etTkCF
+}
+
+!procedure AmazonElasticBlockStore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonElasticBlockStore', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreGroup($id, $name='Amazon Elastic Block Store', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreMd>', $name, $tech)
+!endprocedure

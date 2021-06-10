@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/ArVr/AmazonSumerian
+
+sprite $AmazonSumerianXs [10x10/16z] 9Kc50S0m29j1fF__Evoe9FO0Mfc0HMJ4bpG25NsWbSWQqWQBHnKGGHwhse1qZbsPIfNiaNu
+
+sprite $AmazonSumerianSm [12x12/16z] BKU50SGm47efUllFMqjmSiCF96KVxMr0jzIGb7X0hWdREcYtaWXgRPlmtefaCfw6jWWdCwq1ClT-JXRcFNt_1G
+
+sprite $AmazonSumerianMd [16x16/16z] {
+NSZ50GCm3CNGWZyv--_RG5ctfwnyqYn_8vz1JFSMgwW2hEvGf8Iw5-rk4evjtU5b0RGar77JninwEoQKZsNH56AFQQQbY4WyHeUCfk0aOuus2n1oF4TBfezd
+VJh-7Gy
+}
+
+sprite $AmazonSumerianLg [20x20/16z] {
+RSW7ac0n20FHgZMY9Np_--wFazkHbok_SPO_CD-HRmQ7r18m3sajqSN2pCGDrHoYLMNxC7NXGD0IjvL5OiVzhtpPK6e1v_lQo45LmdonYLMTV3MRRimNWqnt
+t5HYxzCgSnbI3jmd8a9JadEqBqphg54UEt5SXOh77ZpAqtxmA-y_y3y
+}
+
+!procedure AmazonSumerian($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/ArVr/AmazonSumerian', $name, $tech)
+!endprocedure
+
+!procedure AmazonSumerianCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSumerianMd>', 'ArVr', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSumerianGroup($id, $name='Amazon Sumerian', $tech='')
+  IconGroupElement($id, 'ArVrFamily', '<$AmazonSumerianMd>', $name, $tech)
+!endprocedure

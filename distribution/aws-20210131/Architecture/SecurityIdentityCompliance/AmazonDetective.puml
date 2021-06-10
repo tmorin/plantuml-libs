@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/SecurityIdentityCompliance/AmazonDetective
+
+sprite $AmazonDetectiveXs [10x10/16z] BSW93e002CH0BoWB__-lIxIv9fMhZRO0iriayIaY7jEg_mao4zMKdojDUob1CxPKVijDBm
+
+sprite $AmazonDetectiveSm [12x12/16z] 9OU70SGm2CJ-annNs7zULzc0v8qEp7Nko0gYS3r24RZERyFZPWdoTh8sAzeC2-lP7GfKhUVkgE3YyLMEDttYu0a
+
+sprite $AmazonDetectiveMd [16x16/16z] {
+LSsr0G0n30J1m3gI-w_t6LVH67FcC-blgqzIbFUwTuFRNEv4PRjukJMgK3LuETg88TyE7279OGBQHxjdIssGr52IEUKETFwuEpJBCIBkdf60c3ozrMOxjYxF
+FiljTs45
+}
+
+sprite $AmazonDetectiveLg [20x20/16z] {
+RS_7bGKW34FH1P9icVxxdMyEOT9ZTydUvIaY_0_MjOUraI2miHOw40hgMYFK4oEkLMA08iRGCmw0m41iwyGUiA_PYRGPNjWYCiGK8nVEAibk_EXOE6VHLHyA
+1WSRjqc982qkczcRO3SaSbcb1DAcTApPX5DMhhqRo_ldRHTtrtxY5m
+}
+
+!procedure AmazonDetective($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/SecurityIdentityCompliance/AmazonDetective', $name, $tech)
+!endprocedure
+
+!procedure AmazonDetectiveCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDetectiveMd>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDetectiveGroup($id, $name='Amazon Detective', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonDetectiveMd>', $name, $tech)
+!endprocedure

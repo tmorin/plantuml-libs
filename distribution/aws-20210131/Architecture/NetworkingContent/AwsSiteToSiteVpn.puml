@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsSiteToSiteVpn
+
+sprite $AwsSiteToSiteVpnXs [10x10/16z] 9SQt0G0m40Anwk70--_hf4evEEmRwxQ9_Lf6PsCQZpI25dp0Af5miXR7Nx3DsT4ZsG
+
+sprite $AwsSiteToSiteVpnSm [12x12/16z] 7SZN0SKm34BHLqAJzzytMFVhG9etQItjc9hDRSPcJAdE0v30ip-lgUlGak7hqH2XutDgAKnIqvAmFedRTPijUG4
+
+sprite $AwsSiteToSiteVpnMd [16x16/16z] LSZ50GD13CNGq2TF__KksI7TddBcIL9c_5k4UjH9G-hXEWUL25RxHL8Y-DJN_BZ25mYyQBVXAuoB2P1Znru_Jk9r35P9xQnZmF7Hns8tFaut_Xix
+
+sprite $AwsSiteToSiteVpnLg [20x20/16z] {
+POw50GD120GZY_VVRpYox_DwWyRWEzO4vTKzCvDA0DdTNufwQsRcICUyx71TfAkXchKUfs_ilEMKvvUybeglD5-EpeLig-7aeXk8zsHViuhE0UDANiKyW6j6
+kngNPaaNrKnUStMG1I1qKns4ZfRGFUGF
+}
+
+!procedure AwsSiteToSiteVpn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsSiteToSiteVpn', $name, $tech)
+!endprocedure
+
+!procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSiteToSiteVpnMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsSiteToSiteVpnGroup($id, $name='Aws Site To Site Vpn', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsSiteToSiteVpnMd>', $name, $tech)
+!endprocedure

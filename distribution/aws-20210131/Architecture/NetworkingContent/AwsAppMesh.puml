@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/NetworkingContent/AwsAppMesh
+
+sprite $AwsAppMeshXs [10x10/16z] 5Sk50G0n34BHqmZilsy_rHTRrh2we-vGPAfYxKU-FgGcDnMDwAPg_PdciUYYXcnb3eKIF
+
+sprite $AwsAppMeshSm [12x12/16z] JOX90W813CBSMWZz_tlLsISNIFZZ5OcRPBcVMYLnBwsq_2w3Fhrskyho-acBxKkn-QjdB6otOIQXYeNv4qYElm8_
+
+sprite $AwsAppMeshMd [16x16/16z] {
+NOm50aCn24Dd4E7-vvsadVrN1PBe1JS058wr6hlXbBZUci4MCqGtLdsxCffBfJQMj0kh9bz-2f_QgjQd1cr0QeWSkqgcn6j9dB50ldPJqipOJbwOrI3jNQSH
+KXyQ3m
+}
+
+sprite $AwsAppMeshLg [20x20/16z] {
+LSu73iH024DHQGhOvFxtNJkDxDUelMcG3c-fsDZsOcizjdPRtJJdWoXZ1bGYyhKramvxhBQu7nZxjlADG7fbMp667sWB-87DhoLbaR84POTiXG_RLf0ouPg-
+h6Bu0Hn20aGc_1oLpDUvnpsaxKK_scQyQ_jWsp_-
+}
+
+!procedure AwsAppMesh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/NetworkingContent/AwsAppMesh', $name, $tech)
+!endprocedure
+
+!procedure AwsAppMeshCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshMd>', 'NetworkingContent', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshGroup($id, $name='Aws App Mesh', $tech='')
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsAppMeshMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210131/bootstrap')
+
+' loads the Item which embeds the element IoTMqttProtocolCard
+include('aws-20210131/Resource/LoT/IoTMqttProtocol')
+
+' renders the element
+IoTMqttProtocolCard('IoTMqttProtocolCard', 'Io T Mqtt Protocol Card', 'an optional description')
+@enduml

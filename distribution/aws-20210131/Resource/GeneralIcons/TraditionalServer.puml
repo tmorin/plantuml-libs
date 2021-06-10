@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/GeneralIcons/TraditionalServer
+
+sprite $TraditionalServerXs [10x10/16z] u-Vd0mD-VX9OX0aK7G
+
+sprite $TraditionalServerSm [12x12/16z] u-VdvmC380F4v0K180Sc36S3HR698pHJGYBS
+
+sprite $TraditionalServerMd [16x16/16z] umS2FYW0Ci5SNYW02a2bmJmu7me8oEFXWuNuuNm8JJi-BvBzwFu5
+
+sprite $TraditionalServerLg [20x20/16z] uyS1-7ZXW0ykniS75K4IWm7yOWYz1CMWsla9geE2eIE66QQO
+
+!procedure TraditionalServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/GeneralIcons/TraditionalServer', $name, $tech)
+!endprocedure
+
+!procedure TraditionalServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TraditionalServerMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure TraditionalServerGroup($id, $name='Traditional Server', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$TraditionalServerMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer
+
+sprite $AmazonFSxForWindowsFileServerXs [10x10/16z] FKi50GD13DkUGlxr7dCRbDWF01se0zq-np4Q0j1GDxxl-MWD_8BkPzHoO0wi
+
+sprite $AmazonFSxForWindowsFileServerSm [12x12/16z] JOk50G0X24KlXGVxpsi7Ilq2j3sfZm08ODqD6CqvWAcqdofkDveaVP-e0StKx_fMt6qXy00yW08
+
+sprite $AmazonFSxForWindowsFileServerMd [16x16/16z] NOtL0SK020EVb1Zxprlt--AmU4ORN3ZyQFZLyAlXLoDhIHqa8C6vmzC56fZxkzk42iE0nMUL0EB_hyMTBBTM5MVVE6FxsN2_6lrgzAin0G
+
+sprite $AmazonFSxForWindowsFileServerLg [20x20/16z] {
+RSY50GCn34FHaYZUVzuodtxGBzVyIezIC0LJC0LJSBte2zSAIG7wuCqIEgR5jq4M5G6IFXQJ8NWyuM6ydXWYS3mT7wQrp2lPE1mUTYkFBEbfJtvcJy4fE0Md
+u1Iy
+}
+
+!procedure AmazonFSxForWindowsFileServer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Storage/AmazonFSxForWindowsFileServer', $name, $tech)
+!endprocedure
+
+!procedure AmazonFSxForWindowsFileServerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForWindowsFileServerMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonFSxForWindowsFileServerGroup($id, $name='Amazon F Sx For Windows File Server', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForWindowsFileServerMd>', $name, $tech)
+!endprocedure

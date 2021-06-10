@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTLambdaFunction
+
+sprite $IoTLambdaFunctionXs [10x10/16z] 7Oon5G10347xWx__jkSbQG1GxmfKJwax9Nlm2D4fetedUaoUw8ivYYkvamLLO0hSyWWV
+
+sprite $IoTLambdaFunctionSm [12x12/16z] 5OV10S1G5C7kNyZ-sxOFG1t0FFI5Dhr900KNIPbcr3jeOUwzNjsceTpkKcXQbXzRI2Qlq_sbacvDFGper0y
+
+sprite $IoTLambdaFunctionMd [16x16/16z] {
+DO_90KGX34BlFC3-kvsVEE9k5k0CcWyzVnI14VSdaY2dLYQgs0qR-JBmiIWJCwVpLnnjxalKJI3nTqZA1hply3fulsaWGqUsHPdDJ7CGdYGRF1ooXzEMhbxt
+sg3FpqiUFB_t-WC
+}
+
+sprite $IoTLambdaFunctionLg [20x20/16z] {
+LP3NWGLH24A_1z3jlziLyIKctcFsB-fL_gCYLgmNQJvpghQ9VGXyxEJ_WqGNUeuTE6-Vovau9yF9wTyksRaCgN1xCuwEUwL1iexCKWUGmuubySSnp0uarT2n
+6ZT_nalWzaRw5iT11gHh2v0x4aHeSywmqbQK3BC3co9vt8FCCF6AIbZfPzC_g_y7
+}
+
+!procedure IoTLambdaFunction($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTLambdaFunction', $name, $tech)
+!endprocedure
+
+!procedure IoTLambdaFunctionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTLambdaFunctionMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTLambdaFunctionGroup($id, $name='Io T Lambda Function', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTLambdaFunctionMd>', $name, $tech)
+!endprocedure

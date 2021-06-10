@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAccess
+
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessXs [10x10/16z] BSJ70GD10CB0_o91_zNQbuQm5tIJQ-VSJzU4yaXATHTbhqetN2k6N4M8hK7vz0y
+
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessSm [12x12/16z] JSV70G0n30B1lrbm_zKwweBYqAi2-ydxgEt0STj6x8lY9SCY8NtDBllWR-VQaAO8bYMpxpBBoR5vAnC
+
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessMd [16x16/16z] LOxN0KCn4CB-3uJttpRuqlMgmEry2MH_pEgK6qJxGNMszrdNUbHk8gmRsp2sjsP02YLkJqV2UQ7Kltmz_vxf9rb7mZFxlDnkrilhxrDkpwYug4p27-S1
+
+sprite $AmazonElasticFileSystemOneZoneInfrequentAccessLg [20x20/16z] {
+ZSvNTeL040FHRrHgiV_TUaHojb-H-bpIx9zBSazpNP7aSzHs3XQW70OS1bAjJQbMN5QnJ3yPpOWEU0ba1UvZI9v9rAoDsRDy93-h6fRrYwMhozhBndmpRqh_
+S5gGYAwJBxEPsYZcijNU8dIPmVVtYMjVOxtmhVqD
+}
+
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccess($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonElasticFileSystemOneZoneInfrequentAccess', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccessCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemOneZoneInfrequentAccessMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemOneZoneInfrequentAccessGroup($id, $name='Amazon Elastic File System One Zone Infrequent Access', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemOneZoneInfrequentAccessMd>', $name, $tech)
+!endprocedure

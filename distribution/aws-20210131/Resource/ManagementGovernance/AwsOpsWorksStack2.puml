@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsOpsWorksStack2
+
+sprite $AwsOpsWorksStack2Xs [10x10/16z] u-E50ZvUVYZWfGuBOJ8
+
+sprite $AwsOpsWorksStack2Sm [12x12/16z] u-E50pvUFZW0ylYXW5PiX5t8RW
+
+sprite $AwsOpsWorksStack2Md [16x16/16z] u-T30VnyFBn8W8UFZvSV2V0EEJwwVz3z2m
+
+sprite $AwsOpsWorksStack2Lg [20x20/16z] u-V30FnyF1Y0Zu-77msG9ZOgXXccsC8U
+
+!procedure AwsOpsWorksStack2($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsOpsWorksStack2', $name, $tech)
+!endprocedure
+
+!procedure AwsOpsWorksStack2Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksStack2Md>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksStack2Group($id, $name='Aws Ops Works Stack2', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksStack2Md>', $name, $tech)
+!endprocedure

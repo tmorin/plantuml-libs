@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Resource/LoT/IoTThingDoorLock
+
+sprite $IoTThingDoorLockXs [10x10/16z] HSod0G0m3CH0xc_xRviU2nrI8ebo9e0gK1C6G4DJ4xZY4oLUpQRC8pf2pQZqUG
+
+sprite $IoTThingDoorLockSm [12x12/16z] JOwr0S0m40FxYFRVDdfLFiCp9D58CJ-WbqueeKYCOB5U6JeT9AO_VbS_ffmEdAxfvFHKVAMEpHfqtXr-
+
+sprite $IoTThingDoorLockMd [16x16/16z] RO-r0O1000DheljFYpiS6ddhZBFH3KES4JU3n0R99MN3bPHU_kV7f1VD_ET8iEMR5g1xltRl_GBT-rerkMfbpwKzNqImCkli-nrc0F9xdlTv9m
+
+sprite $IoTThingDoorLockLg [20x20/16z] {
+RP375G1124BF0uhzTslO79WextCXMkerLnmIdCwv3iku0FOcp3QhFjnbXZR5kecHTKYX-S6TT4Ude6B68y3nsD7X32xOS1NsuGZj7ltWhkp5rUkXdJiyaT8p
+AwqblRD0lBaQuk3gBezx1pqT7M2D-cT_NVrt-jTz0W
+}
+
+!procedure IoTThingDoorLock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/LoT/IoTThingDoorLock', $name, $tech)
+!endprocedure
+
+!procedure IoTThingDoorLockCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IoTThingDoorLockMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure IoTThingDoorLockGroup($id, $name='Io T Thing Door Lock', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingDoorLockMd>', $name, $tech)
+!endprocedure

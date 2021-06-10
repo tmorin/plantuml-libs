@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/BusinessApplication/AmazonWorkMail
+
+sprite $AmazonWorkMailXs [10x10/16z] 5SYn4G0m2CF01i0Y--yRMzMVS4fxcfsP7jrsHhUbKRu5OrlY0EjPTsYnKeIatHNFNU83
+
+sprite $AmazonWorkMailSm [12x12/16z] 7Sd70G80349HA-6J_VTLyauKocU2vsWSlzMaTxDay5VDHhOybqElPfm0pTkSDDDSN1x_pSZi0YxOok47
+
+sprite $AmazonWorkMailMd [16x16/16z] LSx50SCm44JHq0wv_tuZsi2_lJ58tcb7_bkCMQZT2r9IJuvzXETh6YpPNkyjItDGaSTHhUtZCGosdSI3rl2r7I_RLxYSQGnVnsb3VM4k2yI9mxESFBtw36y
+
+sprite $AmazonWorkMailLg [20x20/16z] {
+RSe52aCn00HH8BAI-z-tVsciClXZDECAWFwWlnwGi5LAtPNoOAnYlNrPHJ2Xzlgs9WP3u3O7GsBbic3ejc3ec1EfPMEPDKqSmx6DZsbP-cV-CIKkszKdnSQw
+TcFcLUmFlW
+}
+
+!procedure AmazonWorkMail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/BusinessApplication/AmazonWorkMail', $name, $tech)
+!endprocedure
+
+!procedure AmazonWorkMailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkMailMd>', 'BusinessApplication', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkMailGroup($id, $name='Amazon Work Mail', $tech='')
+  IconGroupElement($id, 'BusinessApplicationFamily', '<$AmazonWorkMailMd>', $name, $tech)
+!endprocedure

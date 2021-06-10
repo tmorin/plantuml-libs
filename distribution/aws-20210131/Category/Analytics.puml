@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Category/Analytics
+
+sprite $AnalyticsXs [10x10/16z] BOj10W0X208lgg3__-_ELbEb2kZG8Dktfp9NgptDekfqfYc9ZgLFbmKfpRuatGxOgFmWVG
+
+sprite $AnalyticsSm [12x12/16z] DSl15G0n20BHKsGm_VUxnEV-aoemD73ipeuXslKS8JUoEJMpPLNzSrY0crASChvizystsoDpbYSpzY0-
+
+sprite $AnalyticsMd [16x16/16z] LSYr0G0W0CJ01bvW_tbnJNUXn3Uvfz7r7ReQGoavhYXr2xP5VdO8Zmc0M3RPO6yBSWzqSqun0h4LWjoSXLPVz73gUJGypdfoxbtJUcC5
+
+sprite $AnalyticsLg [20x20/16z] {
+XSY55GGn24NHbV25z5_l2CDPbnVbybFUKtUtD_K7lDCTC-tO6rkXjbIeeWRhAVCUheW_bWuWfBiv3h8V3AAheDius0t8cysP8r15nBLjAcxHTbbMhjfAs-zs
+nwz6FSIZ5G
+}
+
+!procedure Analytics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Category/Analytics', $name, $tech)
+!endprocedure
+
+!procedure AnalyticsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnalyticsMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnalyticsGroup($id, $name='Analytics', $tech='')
+  IconGroupElement($id, 'Analytics', '<$AnalyticsMd>', $name, $tech)
+!endprocedure

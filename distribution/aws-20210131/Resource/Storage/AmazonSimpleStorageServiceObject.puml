@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Storage/AmazonSimpleStorageServiceObject
+
+sprite $AmazonSimpleStorageServiceObjectXs [10x10/16z] JOm30G1034K3VFLFUyRUpCGSE3FnSiEoO5P_ZPX3oTvK_-9_6OZK21q
+
+sprite $AmazonSimpleStorageServiceObjectSm [12x12/16z] LSn50K013CDG0MiJ_se_uxkCfv8DxZg5JlOq7b8PBo6zyoRSEV_ytUbxEvZtfpQ5JjtHfAWh
+
+sprite $AmazonSimpleStorageServiceObjectMd [16x16/16z] PKx50S0m2FpdXFsdRUDwk1C5LeQZmqWWiseP9LR7J2gcwbx91J0co5psYdCWn0P8t6C-yTr_xiDpx_W7JOz_qKS9iCWQL4RpVW
+
+sprite $AmazonSimpleStorageServiceObjectLg [20x20/16z] fL2r0G0X3EoZ-q-BHF2EUpt3r246NS081kHK11iHjr1IcdQ82FqpnLumQOgT8gwISG5U5UjPTaFNz4ExvdYiXQurDthlZUopY0mOVmJ8SOmq6mG64bsn7dq5
+
+!procedure AmazonSimpleStorageServiceObject($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Storage/AmazonSimpleStorageServiceObject', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceObjectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceObjectMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceObjectGroup($id, $name='Amazon Simple Storage Service Object', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceObjectMd>', $name, $tech)
+!endprocedure

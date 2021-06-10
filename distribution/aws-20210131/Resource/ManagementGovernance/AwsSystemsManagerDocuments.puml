@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerDocuments
+
+sprite $AwsSystemsManagerDocumentsXs [10x10/16z] HSQ70S0m30Am1opu_zhk9XwWGfzXHbv9U2N6BwzopIj9N_KQrsyre2S
+
+sprite $AwsSystemsManagerDocumentsSm [12x12/16z] HOm50G0W40CBJFgtXVT3NZUB7nSa04uk1fFR0Yj7F6XsWieLS7OuEHs4m-LHp7x0H7u
+
+sprite $AwsSystemsManagerDocumentsMd [16x16/16z] ROu50G0W40C3CEcV5dSuz7ssAfu08GHesSmBuB95aFaiMxMEUrmrezkKL4hs-jscAfVjLL_OxAxkQviuRM_pEkhO2G
+
+sprite $AwsSystemsManagerDocumentsLg [20x20/16z] PSk74O1G40BH0ZoM_girwx-maz-0RUwSKpmLaxQkEaDNaCrnjwcOpuXGDcvJg7rvxcLd89Bz9UCjczyqlYf6tyrlJ0E9PZQXPe_-_MR-R1y
+
+!procedure AwsSystemsManagerDocuments($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/ManagementGovernance/AwsSystemsManagerDocuments', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerDocumentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerDocumentsMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerDocumentsGroup($id, $name='Aws Systems Manager Documents', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerDocumentsMd>', $name, $tech)
+!endprocedure

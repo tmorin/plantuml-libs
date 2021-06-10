@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AwsDeepRacer
+
+sprite $AwsDeepRacerXs [10x10/16z] DSY54S0m5CFGWcFutN_V1dNqJkwfHoQ7NIBPcGWaG9N1flPsgSqv1EB5IrSSsxI_wYNfEimF
+
+sprite $AwsDeepRacerSm [12x12/16z] JOS74aGX2CLcbbSezx_l_gvH8CaJ7qYgMd7u5uUB92ZxSC9c7AkB5ANVwKaPCYy77G64iuio9S0vVL07cJbRp8hw0m
+
+sprite $AwsDeepRacerMd [16x16/16z] {
+LOi94iGW3CDccyGOzl__hUYDEQLnVAGT4Ubz5V0Y-YeELXsH40T7gbL48WQOITkrPS73F9Lo_bAJ6QCYpiLHPhXKV60y_IqIPpDVrAffUli_ZlGP6tu5WHTn
+yDBO0G
+}
+
+sprite $AwsDeepRacerLg [20x20/16z] {
+NSi7aWGX34FHMYGZcxt_VSTX8khywdVuJBDTY_WnlUmk8_4kqsvjy-ojjWVRZ5WqMmlSBnFekKsGQUV4ne9avbf_RwD9jFrjbBkCsvsekWpP187w9CT8auDO
+VSdzd4E32KmoWDwcp7pNdoALzdzcqKieI_pMQFikQsLNENQN_W
+}
+
+!procedure AwsDeepRacer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AwsDeepRacer', $name, $tech)
+!endprocedure
+
+!procedure AwsDeepRacerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDeepRacerMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AwsDeepRacerGroup($id, $name='Aws Deep Racer', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AwsDeepRacerMd>', $name, $tech)
+!endprocedure

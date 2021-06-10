@@ -1,0 +1,25 @@
+' definition of the Item aws-20210131/Group/GroupRegion
+
+sprite $RegionXs [10x10/16z] uqG271mm5ZiREn20nTWvEB2oE10wK5b0DMW
+
+sprite $RegionSm [12x12/16z] LOer0G1030ENKlmBVYpU4iJ4ckSMH5J52xq_yTxCr7lHItsSuSNIcbyd6m
+
+sprite $RegionMd [16x16/16z] dOkr0O0m00Inj_q7nhKYoLMlAO3wUl3h2QvWqkMT5J4VJzrUNj7apv-y_2tQl02db0K
+
+sprite $RegionLg [20x20/16z] jOsr0S10548ZNs3_WUDE4xjNedm2e9gPQk6gfVbCcxiMabyr64IZvq7pd8X3C2rcN3vcocXfbbSDcU0BUW
+
+!procedure GroupRegion($id, $name='Region', $tech='')
+  IconGroupElement($id, 'GroupRegion', '<$RegionLg>', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupRegion>> {
+  StereotypeFontColor $AWS_COLOR_LIGHT_BLUE
+  BorderThickness 1
+  BorderColor $AWS_COLOR_LIGHT_BLUE
+  BorderStyle dotted
+  FontStyle none
+  FontColor $AWS_COLOR_LIGHT_BLUE
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210131/Architecture/MachineLearning/AmazonLookoutForEquipment
+
+sprite $AmazonLookoutForEquipmentXs [10x10/16z] 9Od14G11388-KKss_twFcUEbK0ZOszGoSpqU3NFngfGSovb_IIQpKhJIewXH-pPn4jOxMFW
+
+sprite $AmazonLookoutForEquipmentSm [12x12/16z] BOl70SCm30CJ6utI_lkQAlT2pSADf5gwXTtQe07GRaqI8cnNr4HBZvYMyLwz0BsqOwr3HedISiai0l3Hex9mMiyvcbfy
+
+sprite $AmazonLookoutForEquipmentMd [16x16/16z] {
+LSYt0GCn3CNGWZzHj_--Ld92zv2TTvfr_urfoub8pR5C80IgECUn0Gdmh5kce0JGz5Zsf04l3mKYGzJRP942eUiWL0Xcs-qO99rC4u8w5fCyGoWManm_qOtU
+ViQkLzF_ery
+}
+
+sprite $AmazonLookoutForEquipmentLg [20x20/16z] {
+LSz90WCm24BH1Q2Otl--rTZnBrz6orjkCLNzMNxj1zT4DH5WBBP1oEGO5iU851b1CgSscjba1n2_fhJpPUSKMpr48Zy69kJWTv-A8gGs3Qx90Mjs2b-pAca7
+PFkQgxBCoIyJHDp9yzhZd0RXpnvj7NZJMk-ipLtLsE0sllR5slm4
+}
+
+!procedure AmazonLookoutForEquipment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/MachineLearning/AmazonLookoutForEquipment', $name, $tech)
+!endprocedure
+
+!procedure AmazonLookoutForEquipmentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLookoutForEquipmentMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLookoutForEquipmentGroup($id, $name='Amazon Lookout For Equipment', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonLookoutForEquipmentMd>', $name, $tech)
+!endprocedure

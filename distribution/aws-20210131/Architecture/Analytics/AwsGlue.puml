@@ -1,0 +1,24 @@
+' definition of the Item aws-20210131/Architecture/Analytics/AwsGlue
+
+sprite $AwsGlueXs [10x10/16z] 9Sl70S0m2CNGDFh--qPyw_Hie2WfGl9b0rjbTzdtsP57I30YkHeONZJGJOALBS5k-0C
+
+sprite $AwsGlueSm [12x12/16z] LKo30G0n47iScdJ_UMlpGfGLsd970zu0wsZQ518mKUyp_HSHxJFAhzvdbWe3-apJrXRZcd7F5O5SSrr01W
+
+sprite $AwsGlueMd [16x16/16z] NOw50SCm40CBJvBtdxTD7a8otXcn9phkdemdmxK52qsYmXIYQiD4gAY8UZFZiv5yR9XcVMCpDFQAOOQQrpzM2PL0YfK2giLOAI1V7qwnNzIS8ZDy5Ny
+
+sprite $AwsGlueLg [20x20/16z] {
+PSY74GD120F0yO44kk-_NWTUpZjvDVgbxkJyFwTtoxZukZERZ6hRPzO2-Rh9PY0MopUvLW0P5tuSaWGHxPlCbfGbtoX8nFq_Jc1dwyp3sGbgtCyfPCjvE1jP
+iiDPaNYVaz3UFgVvdERxoni
+}
+
+!procedure AwsGlue($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Architecture/Analytics/AwsGlue', $name, $tech)
+!endprocedure
+
+!procedure AwsGlueCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueGroup($id, $name='Aws Glue', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueMd>', $name, $tech)
+!endprocedure

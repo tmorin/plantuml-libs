@@ -1,0 +1,21 @@
+' definition of the Item aws-20210131/Resource/Analytics/AmazonRedshiftDenseStorageNode
+
+sprite $AmazonRedshiftDenseStorageNodeXs [10x10/16z] HKm50G0m30g0zKzx_ro1R9DopVgZjjcdahjJbgazlgc_pMYLLfu
+
+sprite $AmazonRedshiftDenseStorageNodeSm [12x12/16z] NOu50G113CCCD9b_jO_7Orxh8x0QYVIO4EmJ8NHAy7DAyIVGusMcxneuR_PVAuOR
+
+sprite $AmazonRedshiftDenseStorageNodeMd [16x16/16z] PO-55GDH3CCMiEJzj-rpwKWVmqc_g3rX26UP6W-P30vljnCDiC-keen9R4_-6Df9dKoSd8-iyil_p7Ulz-pdsUzpdcFU5m
+
+sprite $AmazonRedshiftDenseStorageNodeLg [20x20/16z] XP350S1G38K6ABpiFstTxNCadjh9I5q98xcxAdnnU5KJdik3aQnDdG7dqgb1WgjLEbONa1IOsQwEoKtD9r6rEBavZPVQbndNNNHsRpj_ttRzmTNP-EdrzmC
+
+!procedure AmazonRedshiftDenseStorageNode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210131/Resource/Analytics/AmazonRedshiftDenseStorageNode', $name, $tech)
+!endprocedure
+
+!procedure AmazonRedshiftDenseStorageNodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftDenseStorageNodeMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftDenseStorageNodeGroup($id, $name='Amazon Redshift Dense Storage Node', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftDenseStorageNodeMd>', $name, $tech)
+!endprocedure
