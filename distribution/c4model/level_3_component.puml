@@ -1,0 +1,57 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4model/bootstrap')
+
+
+C4Legend()
+Title("Component diagram for Internet Banking System - API Application")
+
+include('c4model/Element/Database')
+include('c4model/Element/ExternalSystem')
+include('c4model/Element/Component')
+include('c4model/Element/Container')
+include('c4model/Boundary/ContainerBoundary')
+
+Container("spa", "Single-Page Application", "Provides all of the Internet banking functionality to customers via their browser.", "JavaScript and Angular")
+Container("ma", "Mobile App", "Provides limited subset of the Internet banking functionality to customers via their mobile device.", "Xamarin")
+ContainerBoundary("api", "API Application") {
+    Component("ctrl_signin", "Sign In Controller", "Allows users to sign in to the Internet Banking System.", "Spring MVC Rest Controller")
+    Component("ctrl_password", "Reset Password Controller", "Allows users to reset their passwords with a single use URL.", "Spring MVC Rest Controller")
+    Component("ctrl_accounts", "Accounts Summary Controller", "Provides customers with a summary of their bank accounts.", "Spring MVC Rest Controller")
+
+    Component("bean_secu", "Security Component", "Provides functionality related to sing in, changing passwords, etc.", "Spring Bean")
+    Component("bean_email", "E-mail Component", "Sends e-mail to users.", "Spring Bean")
+    Component("bean_facade", "Mainframe Banking System Facade", "A facade onto the mainframe banking system.", "Spring Bean")
+
+}
+Database("db", "Database", "Stores user registration information, hashed authentication credentials, access log, etc.", "Oracle Database Schema")
+ExternalSystem("mbs", "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+ExternalSystem("ems", "E-Mail System", "The internal Microsoft Exchange e-email system.")
+
+spa --> ctrl_signin : C4Relationship("Maks API calls to", "JSON/HTTPS")
+spa --> ctrl_password : C4Relationship("Maks API calls to", "JSON/HTTPS")
+spa --> ctrl_accounts : C4Relationship("Maks API calls to", "JSON/HTTPS")
+
+ma --> ctrl_signin : C4Relationship("Maks API calls to", "JSON/HTTPS")
+ma --> ctrl_password : C4Relationship("Maks API calls to", "JSON/HTTPS")
+ma --> ctrl_accounts : C4Relationship("Maks API calls to", "JSON/HTTPS")
+
+ctrl_signin --> bean_secu : C4Relationship("Uses")
+
+ctrl_password --> bean_secu : C4Relationship("Uses")
+ctrl_password --> bean_email : C4Relationship("Uses")
+
+ctrl_accounts --> bean_facade : C4Relationship("Uses")
+
+bean_secu --> db : C4Relationship("Reads from and writes to", "JDBC")
+bean_email --> ems : C4Relationship("Sends e-mail using", "SMTP")
+bean_facade --> mbs : C4Relationship("Uses", "XML/HTTPS")
+
+@enduml

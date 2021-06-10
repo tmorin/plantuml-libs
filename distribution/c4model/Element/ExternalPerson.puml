@@ -1,0 +1,5 @@
+' definition of the Item c4model/Element/ExternalPerson
+
+!procedure ExternalPerson($id, $name, $desc="", $tech="")
+  C4Element('rectangle', 'ExternalPerson', 'External Person', $id, $name, $desc, $tech)
+!endprocedure
