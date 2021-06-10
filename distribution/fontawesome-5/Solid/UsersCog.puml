@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/UsersCog
+
+sprite $UsersCogXs [12x9/16z] uwSZ
+
+sprite $UsersCogSm [15x11/16z] unyA
+
+sprite $UsersCogMd [20x15/16z] uoSQZ08
+
+sprite $UsersCogLg [25x19/16z] un-kO1G
+
+!procedure UsersCog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/UsersCog', $name, $tech)
+!endprocedure

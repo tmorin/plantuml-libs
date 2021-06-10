@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/BowlingBall
+
+sprite $BowlingBallXs [9x9/16z] uwSs
+
+sprite $BowlingBallSm [11x11/16z] unye
+
+sprite $BowlingBallMd [15x15/16z] un_k
+
+sprite $BowlingBallLg [19x19/16z] uwSF60K
+
+!procedure BowlingBall($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/BowlingBall', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/KickstarterK
+
+sprite $KickstarterKXs [7x9/16z] uwSC
+
+sprite $KickstarterKSm [9x11/16z] uwSz
+
+sprite $KickstarterKMd [12x15/16z] un-2
+
+sprite $KickstarterKLg [15x19/16z] uySDHW4
+
+!procedure KickstarterK($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/KickstarterK', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/PollH
+
+sprite $PollHXs [8x9/16z] uwSI
+
+sprite $PollHSm [10x11/16z] uwSh
+
+sprite $PollHMd [14x15/16z] unzs
+
+sprite $PollHLg [17x19/16z] uwSKZ08
+
+!procedure PollH($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/PollH', $name, $tech)
+!endprocedure

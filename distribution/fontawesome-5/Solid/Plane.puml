@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Plane
+
+sprite $PlaneXs [11x9/16z] uwSz
+
+sprite $PlaneSm [13x11/16z] unzS
+
+sprite $PlaneMd [17x15/16z] un_P
+
+sprite $PlaneLg [22x19/16z] un_aO1G
+
+!procedure Plane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Plane', $name, $tech)
+!endprocedure

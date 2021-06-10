@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Laugh
+
+sprite $LaughXs [9x9/16z] uwSs
+
+sprite $LaughSm [11x11/16z] unye
+
+sprite $LaughMd [15x15/16z] un_k
+
+sprite $LaughLg [19x19/16z] uwSF60K
+
+!procedure Laugh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Laugh', $name, $tech)
+!endprocedure

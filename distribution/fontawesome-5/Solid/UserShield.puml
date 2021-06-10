@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/UserShield
+
+sprite $UserShieldXs [12x9/16z] uwSZ
+
+sprite $UserShieldSm [15x11/16z] unyA
+
+sprite $UserShieldMd [20x15/16z] uoSQZ08
+
+sprite $UserShieldLg [25x19/16z] un-kO1G
+
+!procedure UserShield($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/UserShield', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Syringe
+
+sprite $SyringeXs [10x10/16z] uwS3
+
+sprite $SyringeSm [12x12/16z] unza
+
+sprite $SyringeMd [16x16/16z] un_X
+
+sprite $SyringeLg [20x20/16z] unzKO1G
+
+!procedure Syringe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Syringe', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Sith
+
+sprite $SithXs [8x9/16z] uwSI
+
+sprite $SithSm [10x11/16z] uwSh
+
+sprite $SithMd [14x15/16z] unzs
+
+sprite $SithLg [17x19/16z] uwSKZ08
+
+!procedure Sith($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Sith', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Portrait
+
+sprite $PortraitXs [7x9/16z] uwSC
+
+sprite $PortraitSm [9x11/16z] uwSz
+
+sprite $PortraitMd [12x15/16z] un-2
+
+sprite $PortraitLg [15x19/16z] uySDHW4
+
+!procedure Portrait($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Portrait', $name, $tech)
+!endprocedure

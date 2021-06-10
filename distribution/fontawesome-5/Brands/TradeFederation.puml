@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/TradeFederation
+
+sprite $TradeFederationXs [9x9/16z] uwSs
+
+sprite $TradeFederationSm [11x11/16z] unye
+
+sprite $TradeFederationMd [15x15/16z] un_k
+
+sprite $TradeFederationLg [19x19/16z] uwSF60K
+
+!procedure TradeFederation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/TradeFederation', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Hotel
+
+sprite $HotelXs [11x9/16z] uwSz
+
+sprite $HotelSm [13x11/16z] unzS
+
+sprite $HotelMd [17x15/16z] un_P
+
+sprite $HotelLg [22x19/16z] un_aO1G
+
+!procedure Hotel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Hotel', $name, $tech)
+!endprocedure

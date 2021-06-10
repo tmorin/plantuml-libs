@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Audible
+
+sprite $AudibleXs [12x9/16z] uwSZ
+
+sprite $AudibleSm [15x11/16z] unyA
+
+sprite $AudibleMd [20x15/16z] uoSQZ08
+
+sprite $AudibleLg [25x19/16z] un-kO1G
+
+!procedure Audible($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Audible', $name, $tech)
+!endprocedure

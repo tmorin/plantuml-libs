@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Rev
+
+sprite $RevXs [8x9/16z] uwSI
+
+sprite $RevSm [10x11/16z] uwSh
+
+sprite $RevMd [14x15/16z] unzs
+
+sprite $RevLg [17x19/16z] uwSKZ08
+
+!procedure Rev($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Rev', $name, $tech)
+!endprocedure

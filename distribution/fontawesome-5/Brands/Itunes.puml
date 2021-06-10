@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Itunes
+
+sprite $ItunesXs [8x9/16z] uwSI
+
+sprite $ItunesSm [10x11/16z] uwSh
+
+sprite $ItunesMd [14x15/16z] unzs
+
+sprite $ItunesLg [17x19/16z] uwSKZ08
+
+!procedure Itunes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Itunes', $name, $tech)
+!endprocedure

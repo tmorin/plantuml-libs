@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Nutritionix
+
+sprite $NutritionixXs [7x8/16z] uoSJ
+
+sprite $NutritionixSm [9x11/16z] uwSz
+
+sprite $NutritionixMd [12x15/16z] un-2
+
+sprite $NutritionixLg [15x19/16z] uySDHW4
+
+!procedure Nutritionix($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Nutritionix', $name, $tech)
+!endprocedure

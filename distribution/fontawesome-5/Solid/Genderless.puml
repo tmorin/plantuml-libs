@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Genderless
+
+sprite $GenderlessXs [5x8/16z] uoSI
+
+sprite $GenderlessSm [6x10/16z] uwS
+
+sprite $GenderlessMd [8x14/16z] uwSp
+
+sprite $GenderlessLg [11x19/16z] unzk
+
+!procedure Genderless($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Genderless', $name, $tech)
+!endprocedure

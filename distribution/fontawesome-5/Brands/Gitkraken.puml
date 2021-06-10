@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Gitkraken
+
+sprite $GitkrakenXs [11x9/16z] uwSz
+
+sprite $GitkrakenSm [13x11/16z] unzS
+
+sprite $GitkrakenMd [18x15/16z] uqS2em
+
+sprite $GitkrakenLg [23x19/16z] unzwO1G
+
+!procedure Gitkraken($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Gitkraken', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/RaspberryPi
+
+sprite $RaspberryPiXs [8x10/16z] uwSo
+
+sprite $RaspberryPiSm [9x11/16z] uwSz
+
+sprite $RaspberryPiMd [12x15/16z] un-2
+
+sprite $RaspberryPiLg [16x20/16z] uwS8Z08
+
+!procedure RaspberryPi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/RaspberryPi', $name, $tech)
+!endprocedure

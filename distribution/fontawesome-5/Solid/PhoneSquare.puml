@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/PhoneSquare
+
+sprite $PhoneSquareXs [8x9/16z] uwSI
+
+sprite $PhoneSquareSm [10x11/16z] uwSh
+
+sprite $PhoneSquareMd [14x15/16z] unzs
+
+sprite $PhoneSquareLg [17x19/16z] uwSKZ08
+
+!procedure PhoneSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/PhoneSquare', $name, $tech)
+!endprocedure

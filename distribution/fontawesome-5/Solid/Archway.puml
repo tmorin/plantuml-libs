@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Archway
+
+sprite $ArchwayXs [11x9/16z] uwSz
+
+sprite $ArchwaySm [13x11/16z] unzS
+
+sprite $ArchwayMd [17x15/16z] un_P
+
+sprite $ArchwayLg [22x19/16z] un_aO1G
+
+!procedure Archway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Archway', $name, $tech)
+!endprocedure

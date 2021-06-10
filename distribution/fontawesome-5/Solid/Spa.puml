@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Spa
+
+sprite $SpaXs [11x9/16z] uwSz
+
+sprite $SpaSm [13x11/16z] unzS
+
+sprite $SpaMd [17x15/16z] un_P
+
+sprite $SpaLg [22x19/16z] un_aO1G
+
+!procedure Spa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Spa', $name, $tech)
+!endprocedure

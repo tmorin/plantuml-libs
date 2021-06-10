@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Pushed
+
+sprite $PushedXs [8x9/16z] uwSI
+
+sprite $PushedSm [10x11/16z] uwSh
+
+sprite $PushedMd [13x15/16z] un_w
+
+sprite $PushedLg [16x19/16z] uoS9Z08
+
+!procedure Pushed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Pushed', $name, $tech)
+!endprocedure

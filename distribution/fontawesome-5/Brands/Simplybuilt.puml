@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Simplybuilt
+
+sprite $SimplybuiltXs [10x10/16z] uwS3
+
+sprite $SimplybuiltSm [12x12/16z] unza
+
+sprite $SimplybuiltMd [16x16/16z] un_X
+
+sprite $SimplybuiltLg [20x20/16z] unzKO1G
+
+!procedure Simplybuilt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Simplybuilt', $name, $tech)
+!endprocedure

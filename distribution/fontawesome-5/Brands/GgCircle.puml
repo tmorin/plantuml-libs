@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GgCircle
+
+sprite $GgCircleXs [10x10/16z] uwS3
+
+sprite $GgCircleSm [12x12/16z] unza
+
+sprite $GgCircleMd [16x16/16z] un_X
+
+sprite $GgCircleLg [20x20/16z] unzKO1G
+
+!procedure GgCircle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GgCircle', $name, $tech)
+!endprocedure

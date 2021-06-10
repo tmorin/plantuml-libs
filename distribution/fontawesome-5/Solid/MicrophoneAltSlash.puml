@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/MicrophoneAltSlash
+
+sprite $MicrophoneAltSlashXs [12x9/16z] uwSZ
+
+sprite $MicrophoneAltSlashSm [15x11/16z] unyA
+
+sprite $MicrophoneAltSlashMd [20x15/16z] uoSQZ08
+
+sprite $MicrophoneAltSlashLg [25x19/16z] un-kO1G
+
+!procedure MicrophoneAltSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/MicrophoneAltSlash', $name, $tech)
+!endprocedure

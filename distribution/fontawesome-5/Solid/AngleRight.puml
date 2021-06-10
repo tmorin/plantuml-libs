@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/AngleRight
+
+sprite $AngleRightXs [5x10/16z] uoSP
+
+sprite $AngleRightSm [6x12/16z] uwSI
+
+sprite $AngleRightMd [8x16/16z] unzW
+
+sprite $AngleRightLg [10x20/16z] unyc
+
+!procedure AngleRight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/AngleRight', $name, $tech)
+!endprocedure

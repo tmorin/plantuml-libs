@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Airbnb
+
+sprite $AirbnbXs [8x9/16z] uwSI
+
+sprite $AirbnbSm [10x11/16z] uwSh
+
+sprite $AirbnbMd [14x15/16z] unzs
+
+sprite $AirbnbLg [17x19/16z] uwSKZ08
+
+!procedure Airbnb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Airbnb', $name, $tech)
+!endprocedure

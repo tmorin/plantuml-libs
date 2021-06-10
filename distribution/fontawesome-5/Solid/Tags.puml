@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tags
+
+sprite $TagsXs [12x9/16z] uwSZ
+
+sprite $TagsSm [15x11/16z] unyA
+
+sprite $TagsMd [20x15/16z] uoSQZ08
+
+sprite $TagsLg [25x19/16z] un-kO1G
+
+!procedure Tags($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tags', $name, $tech)
+!endprocedure

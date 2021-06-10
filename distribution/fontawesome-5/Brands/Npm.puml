@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Npm
+
+sprite $NpmXs [11x9/16z] uwSz
+
+sprite $NpmSm [13x11/16z] unzS
+
+sprite $NpmMd [17x15/16z] un_P
+
+sprite $NpmLg [22x19/16z] un_aO1G
+
+!procedure Npm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Npm', $name, $tech)
+!endprocedure

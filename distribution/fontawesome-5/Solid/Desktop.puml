@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Desktop
+
+sprite $DesktopXs [11x9/16z] uwSz
+
+sprite $DesktopSm [13x11/16z] unzS
+
+sprite $DesktopMd [17x15/16z] un_P
+
+sprite $DesktopLg [22x19/16z] un_aO1G
+
+!procedure Desktop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Desktop', $name, $tech)
+!endprocedure

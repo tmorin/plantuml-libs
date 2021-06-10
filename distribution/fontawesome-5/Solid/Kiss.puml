@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Kiss
+
+sprite $KissXs [9x9/16z] uwSs
+
+sprite $KissSm [11x11/16z] unye
+
+sprite $KissMd [15x15/16z] un_k
+
+sprite $KissLg [19x19/16z] uwSF60K
+
+!procedure Kiss($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Kiss', $name, $tech)
+!endprocedure

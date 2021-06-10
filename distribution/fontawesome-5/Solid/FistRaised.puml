@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FistRaised
+
+sprite $FistRaisedXs [7x9/16z] uwSC
+
+sprite $FistRaisedSm [9x11/16z] uwSz
+
+sprite $FistRaisedMd [12x15/16z] un-2
+
+sprite $FistRaisedLg [15x19/16z] uySDHW4
+
+!procedure FistRaised($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FistRaised', $name, $tech)
+!endprocedure

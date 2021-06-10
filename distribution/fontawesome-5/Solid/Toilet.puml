@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Toilet
+
+sprite $ToiletXs [7x9/16z] uwSC
+
+sprite $ToiletSm [9x11/16z] uwSz
+
+sprite $ToiletMd [12x15/16z] un-2
+
+sprite $ToiletLg [15x19/16z] uySDHW4
+
+!procedure Toilet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Toilet', $name, $tech)
+!endprocedure

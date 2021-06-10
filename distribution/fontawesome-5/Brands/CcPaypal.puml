@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/CcPaypal
+
+sprite $CcPaypalXs [11x9/16z] uwSz
+
+sprite $CcPaypalSm [13x11/16z] unzS
+
+sprite $CcPaypalMd [17x15/16z] un_P
+
+sprite $CcPaypalLg [22x19/16z] un_aO1G
+
+!procedure CcPaypal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/CcPaypal', $name, $tech)
+!endprocedure

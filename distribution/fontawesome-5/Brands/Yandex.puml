@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Yandex
+
+sprite $YandexXs [5x10/16z] uoSP
+
+sprite $YandexSm [6x12/16z] uwSI
+
+sprite $YandexMd [8x16/16z] unzW
+
+sprite $YandexLg [10x20/16z] unyc
+
+!procedure Yandex($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Yandex', $name, $tech)
+!endprocedure

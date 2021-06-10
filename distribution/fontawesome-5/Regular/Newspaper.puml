@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Newspaper
+
+sprite $NewspaperXs [11x9/16z] uwSz
+
+sprite $NewspaperSm [13x11/16z] unzS
+
+sprite $NewspaperMd [17x15/16z] un_P
+
+sprite $NewspaperLg [22x19/16z] un_aO1G
+
+!procedure Newspaper($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Newspaper', $name, $tech)
+!endprocedure

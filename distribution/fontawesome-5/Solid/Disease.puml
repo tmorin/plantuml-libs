@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Disease
+
+sprite $DiseaseXs [10x10/16z] uwS3
+
+sprite $DiseaseSm [12x12/16z] unza
+
+sprite $DiseaseMd [16x16/16z] un_X
+
+sprite $DiseaseLg [20x20/16z] unzKO1G
+
+!procedure Disease($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Disease', $name, $tech)
+!endprocedure

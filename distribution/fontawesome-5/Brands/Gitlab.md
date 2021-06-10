@@ -1,0 +1,63 @@
+# Gitlab
+
+
+```text
+fontawesome-5/Brands/Gitlab
+```
+
+```text
+include('fontawesome-5/Brands/Gitlab')
+```
+
+
+
+| Illustration | Gitlab |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Brands/Gitlab.png) | ![illustration for Gitlab](../../fontawesome-5/Brands/Gitlab.Local.png) |
+
+
+
+
+## Gitlab
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Gitlab
+include('fontawesome-5/Brands/Gitlab')
+
+' renders the element
+Gitlab('Gitlab', 'Gitlab', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Gitlab
+include('fontawesome-5/Brands/Gitlab')
+
+' renders the element
+Gitlab('Gitlab', 'Gitlab', 'an optional tech label')
+@enduml
+```
+

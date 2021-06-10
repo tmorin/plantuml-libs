@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DiceSix
+
+sprite $DiceSixXs [8x9/16z] uwSI
+
+sprite $DiceSixSm [10x11/16z] uwSh
+
+sprite $DiceSixMd [14x15/16z] unzs
+
+sprite $DiceSixLg [17x19/16z] uwSKZ08
+
+!procedure DiceSix($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DiceSix', $name, $tech)
+!endprocedure

@@ -1,0 +1,63 @@
+# Passport
+
+
+```text
+fontawesome-5/Solid/Passport
+```
+
+```text
+include('fontawesome-5/Solid/Passport')
+```
+
+
+
+| Illustration | Passport |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Solid/Passport.png) | ![illustration for Passport](../../fontawesome-5/Solid/Passport.Local.png) |
+
+
+
+
+## Passport
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Passport
+include('fontawesome-5/Solid/Passport')
+
+' renders the element
+Passport('Passport', 'Passport', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Passport
+include('fontawesome-5/Solid/Passport')
+
+' renders the element
+Passport('Passport', 'Passport', 'an optional tech label')
+@enduml
+```
+

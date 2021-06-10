@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Bacteria
+
+sprite $BacteriaXs [12x9/16z] uwSZ
+
+sprite $BacteriaSm [15x11/16z] unyA
+
+sprite $BacteriaMd [20x15/16z] uoSQZ08
+
+sprite $BacteriaLg [25x19/16z] un-kO1G
+
+!procedure Bacteria($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Bacteria', $name, $tech)
+!endprocedure

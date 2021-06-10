@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Bell
+
+sprite $BellXs [8x9/16z] uwSI
+
+sprite $BellSm [10x11/16z] uwSh
+
+sprite $BellMd [14x15/16z] unzs
+
+sprite $BellLg [17x19/16z] uwSKZ08
+
+!procedure Bell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Bell', $name, $tech)
+!endprocedure

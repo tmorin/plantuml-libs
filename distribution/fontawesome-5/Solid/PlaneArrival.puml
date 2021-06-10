@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/PlaneArrival
+
+sprite $PlaneArrivalXs [12x9/16z] uwSZ
+
+sprite $PlaneArrivalSm [15x11/16z] unyA
+
+sprite $PlaneArrivalMd [20x15/16z] uoSQZ08
+
+sprite $PlaneArrivalLg [25x19/16z] un-kO1G
+
+!procedure PlaneArrival($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/PlaneArrival', $name, $tech)
+!endprocedure

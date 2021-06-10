@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SearchDollar
+
+sprite $SearchDollarXs [10x10/16z] uwS3
+
+sprite $SearchDollarSm [12x12/16z] unza
+
+sprite $SearchDollarMd [16x16/16z] un_X
+
+sprite $SearchDollarLg [20x20/16z] unzKO1G
+
+!procedure SearchDollar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SearchDollar', $name, $tech)
+!endprocedure

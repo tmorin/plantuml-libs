@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Medal
+
+sprite $MedalXs [10x10/16z] uwS3
+
+sprite $MedalSm [12x12/16z] unza
+
+sprite $MedalMd [16x16/16z] un_X
+
+sprite $MedalLg [20x20/16z] unzKO1G
+
+!procedure Medal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Medal', $name, $tech)
+!endprocedure

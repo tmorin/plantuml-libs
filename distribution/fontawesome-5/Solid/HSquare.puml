@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/HSquare
+
+sprite $HSquareXs [8x9/16z] uwSI
+
+sprite $HSquareSm [10x11/16z] uwSh
+
+sprite $HSquareMd [14x15/16z] unzs
+
+sprite $HSquareLg [17x19/16z] uwSKZ08
+
+!procedure HSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/HSquare', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/StackExchange
+
+sprite $StackExchangeXs [8x9/16z] uwSI
+
+sprite $StackExchangeSm [10x11/16z] uwSh
+
+sprite $StackExchangeMd [14x15/16z] unzs
+
+sprite $StackExchangeLg [17x19/16z] uwSKZ08
+
+!procedure StackExchange($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/StackExchange', $name, $tech)
+!endprocedure

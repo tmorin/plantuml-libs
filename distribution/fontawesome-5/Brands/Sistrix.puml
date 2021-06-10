@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Sistrix
+
+sprite $SistrixXs [8x9/16z] uwSI
+
+sprite $SistrixSm [10x11/16z] uwSh
+
+sprite $SistrixMd [14x15/16z] unzs
+
+sprite $SistrixLg [17x19/16z] uwSKZ08
+
+!procedure Sistrix($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Sistrix', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/QuoteRight
+
+sprite $QuoteRightXs [10x10/16z] uwS3
+
+sprite $QuoteRightSm [12x12/16z] unza
+
+sprite $QuoteRightMd [16x16/16z] un_X
+
+sprite $QuoteRightLg [20x20/16z] unzKO1G
+
+!procedure QuoteRight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/QuoteRight', $name, $tech)
+!endprocedure

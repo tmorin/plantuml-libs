@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Adn
+
+sprite $AdnXs [9x9/16z] uwSs
+
+sprite $AdnSm [11x11/16z] unye
+
+sprite $AdnMd [15x15/16z] un_k
+
+sprite $AdnLg [19x19/16z] uwSF60K
+
+!procedure Adn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Adn', $name, $tech)
+!endprocedure

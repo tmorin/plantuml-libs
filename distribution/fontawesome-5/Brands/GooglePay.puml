@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GooglePay
+
+sprite $GooglePayXs [12x9/16z] uwSZ
+
+sprite $GooglePaySm [15x11/16z] unyA
+
+sprite $GooglePayMd [20x15/16z] uoSQZ08
+
+sprite $GooglePayLg [25x19/16z] un-kO1G
+
+!procedure GooglePay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GooglePay', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CalendarWeek
+
+sprite $CalendarWeekXs [8x9/16z] uwSI
+
+sprite $CalendarWeekSm [10x11/16z] uwSh
+
+sprite $CalendarWeekMd [14x15/16z] unzs
+
+sprite $CalendarWeekLg [17x19/16z] uwSKZ08
+
+!procedure CalendarWeek($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CalendarWeek', $name, $tech)
+!endprocedure

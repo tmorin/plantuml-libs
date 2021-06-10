@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CloudMoon
+
+sprite $CloudMoonXs [11x9/16z] uwSz
+
+sprite $CloudMoonSm [13x11/16z] unzS
+
+sprite $CloudMoonMd [17x15/16z] un_P
+
+sprite $CloudMoonLg [22x19/16z] un_aO1G
+
+!procedure CloudMoon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CloudMoon', $name, $tech)
+!endprocedure

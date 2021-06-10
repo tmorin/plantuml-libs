@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CommentDollar
+
+sprite $CommentDollarXs [10x10/16z] uwS3
+
+sprite $CommentDollarSm [12x12/16z] unza
+
+sprite $CommentDollarMd [16x16/16z] un_X
+
+sprite $CommentDollarLg [20x20/16z] unzKO1G
+
+!procedure CommentDollar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CommentDollar', $name, $tech)
+!endprocedure

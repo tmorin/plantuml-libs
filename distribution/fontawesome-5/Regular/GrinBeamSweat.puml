@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/GrinBeamSweat
+
+sprite $GrinBeamSweatXs [9x9/16z] uwSs
+
+sprite $GrinBeamSweatSm [11x11/16z] unye
+
+sprite $GrinBeamSweatMd [15x15/16z] un_k
+
+sprite $GrinBeamSweatLg [19x19/16z] uwSF60K
+
+!procedure GrinBeamSweat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/GrinBeamSweat', $name, $tech)
+!endprocedure

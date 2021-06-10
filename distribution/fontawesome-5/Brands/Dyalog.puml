@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Dyalog
+
+sprite $DyalogXs [8x9/16z] uwSI
+
+sprite $DyalogSm [9x10/16z] uwSP
+
+sprite $DyalogMd [13x15/16z] un_w
+
+sprite $DyalogLg [16x19/16z] uoS9Z08
+
+!procedure Dyalog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Dyalog', $name, $tech)
+!endprocedure

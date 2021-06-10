@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Napster
+
+sprite $NapsterXs [9x9/16z] uwSs
+
+sprite $NapsterSm [11x11/16z] unye
+
+sprite $NapsterMd [15x15/16z] un_k
+
+sprite $NapsterLg [19x19/16z] uwSF60K
+
+!procedure Napster($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Napster', $name, $tech)
+!endprocedure

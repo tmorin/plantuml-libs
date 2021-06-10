@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Fire
+
+sprite $FireXs [7x9/16z] uwSC
+
+sprite $FireSm [9x11/16z] uwSz
+
+sprite $FireMd [12x15/16z] un-2
+
+sprite $FireLg [15x19/16z] uySDHW4
+
+!procedure Fire($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Fire', $name, $tech)
+!endprocedure

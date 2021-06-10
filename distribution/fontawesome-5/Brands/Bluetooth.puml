@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Bluetooth
+
+sprite $BluetoothXs [8x9/16z] uwSI
+
+sprite $BluetoothSm [10x11/16z] uwSh
+
+sprite $BluetoothMd [14x15/16z] unzs
+
+sprite $BluetoothLg [17x19/16z] uwSKZ08
+
+!procedure Bluetooth($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Bluetooth', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SolarPanel
+
+sprite $SolarPanelXs [12x9/16z] uwSZ
+
+sprite $SolarPanelSm [15x11/16z] unyA
+
+sprite $SolarPanelMd [20x15/16z] uoSQZ08
+
+sprite $SolarPanelLg [25x19/16z] un-kO1G
+
+!procedure SolarPanel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SolarPanel', $name, $tech)
+!endprocedure

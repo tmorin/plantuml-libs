@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/ClosedCaptioning
+
+sprite $ClosedCaptioningXs [10x10/16z] uwS3
+
+sprite $ClosedCaptioningSm [12x12/16z] unza
+
+sprite $ClosedCaptioningMd [16x16/16z] un_X
+
+sprite $ClosedCaptioningLg [20x20/16z] unzKO1G
+
+!procedure ClosedCaptioning($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/ClosedCaptioning', $name, $tech)
+!endprocedure

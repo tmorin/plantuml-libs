@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Upload
+
+sprite $UploadXs [10x10/16z] uwS3
+
+sprite $UploadSm [12x12/16z] unza
+
+sprite $UploadMd [16x16/16z] un_X
+
+sprite $UploadLg [20x20/16z] unzKO1G
+
+!procedure Upload($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Upload', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/LocationArrow
+
+sprite $LocationArrowXs [10x10/16z] uwS3
+
+sprite $LocationArrowSm [12x12/16z] unza
+
+sprite $LocationArrowMd [16x16/16z] un_X
+
+sprite $LocationArrowLg [20x20/16z] unzKO1G
+
+!procedure LocationArrow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/LocationArrow', $name, $tech)
+!endprocedure

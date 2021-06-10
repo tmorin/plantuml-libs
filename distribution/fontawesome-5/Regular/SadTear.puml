@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/SadTear
+
+sprite $SadTearXs [9x9/16z] uwSs
+
+sprite $SadTearSm [11x11/16z] unye
+
+sprite $SadTearMd [15x15/16z] un_k
+
+sprite $SadTearLg [19x19/16z] uwSF60K
+
+!procedure SadTear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/SadTear', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ToriiGate
+
+sprite $ToriiGateXs [10x10/16z] uwS3
+
+sprite $ToriiGateSm [12x12/16z] unza
+
+sprite $ToriiGateMd [16x16/16z] un_X
+
+sprite $ToriiGateLg [20x20/16z] unzKO1G
+
+!procedure ToriiGate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ToriiGate', $name, $tech)
+!endprocedure

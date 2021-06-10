@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Uikit
+
+sprite $UikitXs [8x9/16z] uwSI
+
+sprite $UikitSm [10x11/16z] uwSh
+
+sprite $UikitMd [14x15/16z] unzs
+
+sprite $UikitLg [17x19/16z] uwSKZ08
+
+!procedure Uikit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Uikit', $name, $tech)
+!endprocedure

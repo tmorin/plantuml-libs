@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/School
+
+sprite $SchoolXs [12x9/16z] uwSZ
+
+sprite $SchoolSm [15x11/16z] unyA
+
+sprite $SchoolMd [20x15/16z] uoSQZ08
+
+sprite $SchoolLg [25x19/16z] un-kO1G
+
+!procedure School($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/School', $name, $tech)
+!endprocedure

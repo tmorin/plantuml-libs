@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Trailer
+
+sprite $TrailerXs [12x9/16z] uwSZ
+
+sprite $TrailerSm [15x11/16z] unyA
+
+sprite $TrailerMd [20x15/16z] uoSQZ08
+
+sprite $TrailerLg [25x19/16z] un-kO1G
+
+!procedure Trailer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Trailer', $name, $tech)
+!endprocedure

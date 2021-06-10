@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Smile
+
+sprite $SmileXs [9x9/16z] uwSs
+
+sprite $SmileSm [11x11/16z] unye
+
+sprite $SmileMd [15x15/16z] un_k
+
+sprite $SmileLg [19x19/16z] uwSF60K
+
+!procedure Smile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Smile', $name, $tech)
+!endprocedure

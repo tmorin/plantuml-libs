@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Reacteurope
+
+sprite $ReacteuropeXs [11x9/16z] uwSz
+
+sprite $ReacteuropeSm [13x11/16z] unzS
+
+sprite $ReacteuropeMd [17x15/16z] un_P
+
+sprite $ReacteuropeLg [22x19/16z] un_aO1G
+
+!procedure Reacteurope($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Reacteurope', $name, $tech)
+!endprocedure

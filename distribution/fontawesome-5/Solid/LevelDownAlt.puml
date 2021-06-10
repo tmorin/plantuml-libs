@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/LevelDownAlt
+
+sprite $LevelDownAltXs [6x9/16z] uoSB
+
+sprite $LevelDownAltSm [7x11/16z] uwSc
+
+sprite $LevelDownAltMd [9x14/16z] unzG
+
+sprite $LevelDownAltLg [12x19/16z] uny1
+
+!procedure LevelDownAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/LevelDownAlt', $name, $tech)
+!endprocedure

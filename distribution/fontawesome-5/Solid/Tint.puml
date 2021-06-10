@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tint
+
+sprite $TintXs [6x8/16z] uoSH
+
+sprite $TintSm [8x11/16z] uwSH
+
+sprite $TintMd [10x14/16z] unz4
+
+sprite $TintLg [13x19/16z] un-P
+
+!procedure Tint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tint', $name, $tech)
+!endprocedure

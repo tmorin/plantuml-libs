@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Mercury
+
+sprite $MercuryXs [5x8/16z] uoSI
+
+sprite $MercurySm [6x10/16z] uwS
+
+sprite $MercuryMd [8x14/16z] uwSp
+
+sprite $MercuryLg [11x19/16z] unzk
+
+!procedure Mercury($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Mercury', $name, $tech)
+!endprocedure

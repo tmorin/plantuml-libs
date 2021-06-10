@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Foursquare
+
+sprite $FoursquareXs [7x9/16z] uwSC
+
+sprite $FoursquareSm [8x11/16z] uwSH
+
+sprite $FoursquareMd [11x15/16z] unyA
+
+sprite $FoursquareLg [14x19/16z] uuU2KG
+
+!procedure Foursquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Foursquare', $name, $tech)
+!endprocedure

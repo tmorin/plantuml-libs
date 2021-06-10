@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/KiwiBird
+
+sprite $KiwiBirdXs [11x9/16z] uwSz
+
+sprite $KiwiBirdSm [13x11/16z] unzS
+
+sprite $KiwiBirdMd [17x15/16z] un_P
+
+sprite $KiwiBirdLg [22x19/16z] un_aO1G
+
+!procedure KiwiBird($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/KiwiBird', $name, $tech)
+!endprocedure

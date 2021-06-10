@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Times
+
+sprite $TimesXs [6x8/16z] uoSH
+
+sprite $TimesSm [8x11/16z] uwSH
+
+sprite $TimesMd [10x14/16z] unz4
+
+sprite $TimesLg [13x19/16z] un-P
+
+!procedure Times($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Times', $name, $tech)
+!endprocedure

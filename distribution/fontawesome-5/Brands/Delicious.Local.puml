@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Delicious
+include('fontawesome-5/Brands/Delicious')
+
+' renders the element
+Delicious('Delicious', 'Delicious', 'an optional tech label')
+@enduml

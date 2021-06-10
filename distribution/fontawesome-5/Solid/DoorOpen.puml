@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DoorOpen
+
+sprite $DoorOpenXs [12x9/16z] uwSZ
+
+sprite $DoorOpenSm [15x11/16z] unyA
+
+sprite $DoorOpenMd [20x15/16z] uoSQZ08
+
+sprite $DoorOpenLg [25x19/16z] un-kO1G
+
+!procedure DoorOpen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DoorOpen', $name, $tech)
+!endprocedure

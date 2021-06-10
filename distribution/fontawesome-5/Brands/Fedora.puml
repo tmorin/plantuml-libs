@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Fedora
+
+sprite $FedoraXs [8x9/16z] uwSI
+
+sprite $FedoraSm [10x11/16z] uwSh
+
+sprite $FedoraMd [14x15/16z] unzs
+
+sprite $FedoraLg [17x19/16z] uwSKZ08
+
+!procedure Fedora($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Fedora', $name, $tech)
+!endprocedure

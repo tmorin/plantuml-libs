@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Freebsd
+
+sprite $FreebsdXs [8x9/16z] uwSI
+
+sprite $FreebsdSm [10x11/16z] uwSh
+
+sprite $FreebsdMd [14x15/16z] unzs
+
+sprite $FreebsdLg [17x19/16z] uwSKZ08
+
+!procedure Freebsd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Freebsd', $name, $tech)
+!endprocedure

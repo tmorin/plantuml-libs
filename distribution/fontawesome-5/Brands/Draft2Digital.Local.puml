@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Draft2Digital
+include('fontawesome-5/Brands/Draft2Digital')
+
+' renders the element
+Draft2Digital('Draft2Digital', 'Draft2 Digital', 'an optional tech label')
+@enduml

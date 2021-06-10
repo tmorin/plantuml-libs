@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ThermometerQuarter
+
+sprite $ThermometerQuarterXs [5x10/16z] uoSP
+
+sprite $ThermometerQuarterSm [6x12/16z] uwSI
+
+sprite $ThermometerQuarterMd [8x16/16z] unzW
+
+sprite $ThermometerQuarterLg [10x20/16z] unyc
+
+!procedure ThermometerQuarter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ThermometerQuarter', $name, $tech)
+!endprocedure

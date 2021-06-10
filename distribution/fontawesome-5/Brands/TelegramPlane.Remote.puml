@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element TelegramPlane
+include('fontawesome-5/Brands/TelegramPlane')
+
+' renders the element
+TelegramPlane('TelegramPlane', 'Telegram Plane', 'an optional tech label')
+@enduml

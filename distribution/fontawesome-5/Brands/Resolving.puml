@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Resolving
+
+sprite $ResolvingXs [9x9/16z] uwSs
+
+sprite $ResolvingSm [11x11/16z] unye
+
+sprite $ResolvingMd [15x15/16z] un_k
+
+sprite $ResolvingLg [19x19/16z] uwSF60K
+
+!procedure Resolving($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Resolving', $name, $tech)
+!endprocedure

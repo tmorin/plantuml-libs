@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ShieldAlt
+
+sprite $ShieldAltXs [10x10/16z] uwS3
+
+sprite $ShieldAltSm [12x12/16z] unza
+
+sprite $ShieldAltMd [16x16/16z] un_X
+
+sprite $ShieldAltLg [20x20/16z] unzKO1G
+
+!procedure ShieldAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ShieldAlt', $name, $tech)
+!endprocedure

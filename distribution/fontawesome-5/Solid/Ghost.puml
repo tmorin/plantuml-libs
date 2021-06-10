@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Ghost
+
+sprite $GhostXs [7x9/16z] uwSC
+
+sprite $GhostSm [9x11/16z] uwSz
+
+sprite $GhostMd [12x15/16z] un-2
+
+sprite $GhostLg [15x19/16z] uySDHW4
+
+!procedure Ghost($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Ghost', $name, $tech)
+!endprocedure

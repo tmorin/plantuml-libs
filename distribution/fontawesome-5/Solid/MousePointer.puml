@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/MousePointer
+
+sprite $MousePointerXs [6x9/16z] uoSB
+
+sprite $MousePointerSm [7x11/16z] uwSc
+
+sprite $MousePointerMd [9x14/16z] unzG
+
+sprite $MousePointerLg [12x19/16z] uny1
+
+!procedure MousePointer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/MousePointer', $name, $tech)
+!endprocedure

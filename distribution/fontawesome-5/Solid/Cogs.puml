@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Cogs
+
+sprite $CogsXs [12x9/16z] uwSZ
+
+sprite $CogsSm [15x11/16z] unyA
+
+sprite $CogsMd [20x15/16z] uoSQZ08
+
+sprite $CogsLg [25x19/16z] un-kO1G
+
+!procedure Cogs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Cogs', $name, $tech)
+!endprocedure

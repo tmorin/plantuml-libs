@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/AngleDoubleDown
+
+sprite $AngleDoubleDownXs [6x9/16z] uoSB
+
+sprite $AngleDoubleDownSm [7x11/16z] uwSc
+
+sprite $AngleDoubleDownMd [9x14/16z] unzG
+
+sprite $AngleDoubleDownLg [12x19/16z] uny1
+
+!procedure AngleDoubleDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/AngleDoubleDown', $name, $tech)
+!endprocedure

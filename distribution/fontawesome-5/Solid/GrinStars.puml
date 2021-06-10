@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/GrinStars
+
+sprite $GrinStarsXs [9x9/16z] uwSs
+
+sprite $GrinStarsSm [11x11/16z] unye
+
+sprite $GrinStarsMd [15x15/16z] un_k
+
+sprite $GrinStarsLg [19x19/16z] uwSF60K
+
+!procedure GrinStars($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/GrinStars', $name, $tech)
+!endprocedure

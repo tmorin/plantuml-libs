@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Periscope
+
+sprite $PeriscopeXs [8x9/16z] uwSI
+
+sprite $PeriscopeSm [10x11/16z] uwSh
+
+sprite $PeriscopeMd [14x15/16z] unzs
+
+sprite $PeriscopeLg [17x19/16z] uwSKZ08
+
+!procedure Periscope($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Periscope', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/HouseDamage
+
+sprite $HouseDamageXs [11x9/16z] uwSz
+
+sprite $HouseDamageSm [13x11/16z] unzS
+
+sprite $HouseDamageMd [17x15/16z] un_P
+
+sprite $HouseDamageLg [22x19/16z] un_aO1G
+
+!procedure HouseDamage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/HouseDamage', $name, $tech)
+!endprocedure

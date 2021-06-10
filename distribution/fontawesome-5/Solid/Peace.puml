@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Peace
+
+sprite $PeaceXs [9x9/16z] uwSs
+
+sprite $PeaceSm [11x11/16z] unye
+
+sprite $PeaceMd [15x15/16z] un_k
+
+sprite $PeaceLg [19x19/16z] uwSF60K
+
+!procedure Peace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Peace', $name, $tech)
+!endprocedure

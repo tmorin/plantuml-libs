@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Anchor
+
+sprite $AnchorXs [11x9/16z] uwSz
+
+sprite $AnchorSm [13x11/16z] unzS
+
+sprite $AnchorMd [17x15/16z] un_P
+
+sprite $AnchorLg [22x19/16z] un_aO1G
+
+!procedure Anchor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Anchor', $name, $tech)
+!endprocedure

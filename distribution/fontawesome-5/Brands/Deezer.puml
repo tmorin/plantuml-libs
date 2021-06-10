@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Deezer
+
+sprite $DeezerXs [11x9/16z] uwSz
+
+sprite $DeezerSm [13x11/16z] unzS
+
+sprite $DeezerMd [17x15/16z] un_P
+
+sprite $DeezerLg [22x19/16z] un_aO1G
+
+!procedure Deezer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Deezer', $name, $tech)
+!endprocedure

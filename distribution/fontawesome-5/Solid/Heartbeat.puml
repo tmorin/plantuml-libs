@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Heartbeat
+
+sprite $HeartbeatXs [10x10/16z] uwS3
+
+sprite $HeartbeatSm [12x12/16z] unza
+
+sprite $HeartbeatMd [16x16/16z] un_X
+
+sprite $HeartbeatLg [20x20/16z] unzKO1G
+
+!procedure Heartbeat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Heartbeat', $name, $tech)
+!endprocedure

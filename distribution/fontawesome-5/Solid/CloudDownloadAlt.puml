@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CloudDownloadAlt
+
+sprite $CloudDownloadAltXs [12x9/16z] uwSZ
+
+sprite $CloudDownloadAltSm [15x11/16z] unyA
+
+sprite $CloudDownloadAltMd [20x15/16z] uoSQZ08
+
+sprite $CloudDownloadAltLg [25x19/16z] un-kO1G
+
+!procedure CloudDownloadAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CloudDownloadAlt', $name, $tech)
+!endprocedure

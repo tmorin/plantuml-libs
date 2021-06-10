@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SortAlphaDown
+
+sprite $SortAlphaDownXs [8x9/16z] uwSI
+
+sprite $SortAlphaDownSm [10x11/16z] uwSh
+
+sprite $SortAlphaDownMd [14x15/16z] unzs
+
+sprite $SortAlphaDownLg [17x19/16z] uwSKZ08
+
+!procedure SortAlphaDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SortAlphaDown', $name, $tech)
+!endprocedure

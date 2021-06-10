@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Medium
+
+sprite $MediumXs [8x9/16z] uwSI
+
+sprite $MediumSm [10x11/16z] uwSh
+
+sprite $MediumMd [14x15/16z] unzs
+
+sprite $MediumLg [17x19/16z] uwSKZ08
+
+!procedure Medium($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Medium', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/FacebookSquare
+
+sprite $FacebookSquareXs [8x9/16z] uwSI
+
+sprite $FacebookSquareSm [10x11/16z] uwSh
+
+sprite $FacebookSquareMd [14x15/16z] unzs
+
+sprite $FacebookSquareLg [17x19/16z] uwSKZ08
+
+!procedure FacebookSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/FacebookSquare', $name, $tech)
+!endprocedure

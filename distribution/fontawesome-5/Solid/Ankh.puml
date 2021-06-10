@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Ankh
+
+sprite $AnkhXs [6x9/16z] uoSB
+
+sprite $AnkhSm [7x11/16z] uwSc
+
+sprite $AnkhMd [9x14/16z] unzG
+
+sprite $AnkhLg [12x19/16z] uny1
+
+!procedure Ankh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Ankh', $name, $tech)
+!endprocedure

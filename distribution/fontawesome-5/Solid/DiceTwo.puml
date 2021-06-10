@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DiceTwo
+
+sprite $DiceTwoXs [8x9/16z] uwSI
+
+sprite $DiceTwoSm [10x11/16z] uwSh
+
+sprite $DiceTwoMd [14x15/16z] unzs
+
+sprite $DiceTwoLg [17x19/16z] uwSKZ08
+
+!procedure DiceTwo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DiceTwo', $name, $tech)
+!endprocedure

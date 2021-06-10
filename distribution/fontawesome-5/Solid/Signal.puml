@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Signal
+
+sprite $SignalXs [12x9/16z] uwSZ
+
+sprite $SignalSm [15x11/16z] unyA
+
+sprite $SignalMd [20x15/16z] uoSQZ08
+
+sprite $SignalLg [25x19/16z] un-kO1G
+
+!procedure Signal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Signal', $name, $tech)
+!endprocedure

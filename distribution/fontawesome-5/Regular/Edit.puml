@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Edit
+
+sprite $EditXs [11x9/16z] uwSz
+
+sprite $EditSm [13x11/16z] unzS
+
+sprite $EditMd [17x15/16z] un_P
+
+sprite $EditLg [22x19/16z] un_aO1G
+
+!procedure Edit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Edit', $name, $tech)
+!endprocedure

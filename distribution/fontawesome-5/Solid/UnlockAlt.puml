@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/UnlockAlt
+
+sprite $UnlockAltXs [8x9/16z] uwSI
+
+sprite $UnlockAltSm [10x11/16z] uwSh
+
+sprite $UnlockAltMd [14x15/16z] unzs
+
+sprite $UnlockAltLg [17x19/16z] uwSKZ08
+
+!procedure UnlockAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/UnlockAlt', $name, $tech)
+!endprocedure

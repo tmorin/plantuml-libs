@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DrawPolygon
+
+sprite $DrawPolygonXs [8x9/16z] uwSI
+
+sprite $DrawPolygonSm [10x11/16z] uwSh
+
+sprite $DrawPolygonMd [14x15/16z] unzs
+
+sprite $DrawPolygonLg [17x19/16z] uwSKZ08
+
+!procedure DrawPolygon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DrawPolygon', $name, $tech)
+!endprocedure

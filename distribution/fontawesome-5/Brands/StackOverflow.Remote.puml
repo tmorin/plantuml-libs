@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element StackOverflow
+include('fontawesome-5/Brands/StackOverflow')
+
+' renders the element
+StackOverflow('StackOverflow', 'Stack Overflow', 'an optional tech label')
+@enduml

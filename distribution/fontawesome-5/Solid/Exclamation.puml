@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Exclamation
+
+sprite $ExclamationXs [3x7/16z] uyS6
+
+sprite $ExclamationSm [4x10/16z] uoSI
+
+sprite $ExclamationMd [6x15/16z] uwSP
+
+sprite $ExclamationLg [7x18/16z] unzG
+
+!procedure Exclamation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Exclamation', $name, $tech)
+!endprocedure

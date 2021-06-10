@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Ethereum
+
+sprite $EthereumXs [6x9/16z] uoSB
+
+sprite $EthereumSm [7x11/16z] uwSc
+
+sprite $EthereumMd [9x14/16z] unzG
+
+sprite $EthereumLg [12x19/16z] uny1
+
+!procedure Ethereum($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Ethereum', $name, $tech)
+!endprocedure

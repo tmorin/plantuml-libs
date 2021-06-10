@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/SlackHash
+
+sprite $SlackHashXs [8x9/16z] uwSI
+
+sprite $SlackHashSm [10x11/16z] uwSh
+
+sprite $SlackHashMd [14x15/16z] unzs
+
+sprite $SlackHashLg [17x19/16z] uwSKZ08
+
+!procedure SlackHash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/SlackHash', $name, $tech)
+!endprocedure

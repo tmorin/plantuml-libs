@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ListOl
+
+sprite $ListOlXs [10x10/16z] uwS3
+
+sprite $ListOlSm [12x12/16z] unza
+
+sprite $ListOlMd [16x16/16z] un_X
+
+sprite $ListOlLg [20x20/16z] unzKO1G
+
+!procedure ListOl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ListOl', $name, $tech)
+!endprocedure

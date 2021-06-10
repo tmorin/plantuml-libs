@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Cocktail
+
+sprite $CocktailXs [11x9/16z] uwSz
+
+sprite $CocktailSm [13x11/16z] unzS
+
+sprite $CocktailMd [17x15/16z] un_P
+
+sprite $CocktailLg [22x19/16z] un_aO1G
+
+!procedure Cocktail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Cocktail', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DoorClosed
+
+sprite $DoorClosedXs [12x9/16z] uwSZ
+
+sprite $DoorClosedSm [15x11/16z] unyA
+
+sprite $DoorClosedMd [20x15/16z] uoSQZ08
+
+sprite $DoorClosedLg [25x19/16z] un-kO1G
+
+!procedure DoorClosed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DoorClosed', $name, $tech)
+!endprocedure

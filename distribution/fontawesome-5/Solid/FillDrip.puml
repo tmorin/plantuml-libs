@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FillDrip
+
+sprite $FillDripXs [11x9/16z] uwSz
+
+sprite $FillDripSm [13x11/16z] unzS
+
+sprite $FillDripMd [17x15/16z] un_P
+
+sprite $FillDripLg [22x19/16z] un_aO1G
+
+!procedure FillDrip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FillDrip', $name, $tech)
+!endprocedure

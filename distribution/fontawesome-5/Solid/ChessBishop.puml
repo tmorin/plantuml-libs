@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ChessBishop
+
+sprite $ChessBishopXs [6x9/16z] uoSB
+
+sprite $ChessBishopSm [7x11/16z] uwSc
+
+sprite $ChessBishopMd [9x14/16z] unzG
+
+sprite $ChessBishopLg [12x19/16z] uny1
+
+!procedure ChessBishop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ChessBishop', $name, $tech)
+!endprocedure

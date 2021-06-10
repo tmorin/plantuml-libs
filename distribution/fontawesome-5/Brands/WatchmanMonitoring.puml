@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/WatchmanMonitoring
+
+sprite $WatchmanMonitoringXs [10x10/16z] uwS3
+
+sprite $WatchmanMonitoringSm [12x12/16z] unza
+
+sprite $WatchmanMonitoringMd [16x16/16z] un_X
+
+sprite $WatchmanMonitoringLg [20x20/16z] unzKO1G
+
+!procedure WatchmanMonitoring($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/WatchmanMonitoring', $name, $tech)
+!endprocedure

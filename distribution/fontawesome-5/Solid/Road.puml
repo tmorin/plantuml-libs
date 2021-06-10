@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Road
+
+sprite $RoadXs [11x9/16z] uwSz
+
+sprite $RoadSm [13x11/16z] unzS
+
+sprite $RoadMd [17x15/16z] un_P
+
+sprite $RoadLg [22x19/16z] un_aO1G
+
+!procedure Road($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Road', $name, $tech)
+!endprocedure

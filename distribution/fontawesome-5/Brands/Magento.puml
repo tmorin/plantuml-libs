@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Magento
+
+sprite $MagentoXs [8x9/16z] uwSI
+
+sprite $MagentoSm [10x11/16z] uwSh
+
+sprite $MagentoMd [14x15/16z] unzs
+
+sprite $MagentoLg [17x19/16z] uwSKZ08
+
+!procedure Magento($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Magento', $name, $tech)
+!endprocedure

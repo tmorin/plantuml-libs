@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Modx
+
+sprite $ModxXs [8x9/16z] uwSI
+
+sprite $ModxSm [10x11/16z] uwSh
+
+sprite $ModxMd [14x15/16z] unzs
+
+sprite $ModxLg [17x19/16z] uwSKZ08
+
+!procedure Modx($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Modx', $name, $tech)
+!endprocedure

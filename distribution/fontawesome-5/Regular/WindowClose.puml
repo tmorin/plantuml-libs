@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/WindowClose
+
+sprite $WindowCloseXs [10x10/16z] uwS3
+
+sprite $WindowCloseSm [12x12/16z] unza
+
+sprite $WindowCloseMd [16x16/16z] un_X
+
+sprite $WindowCloseLg [20x20/16z] unzKO1G
+
+!procedure WindowClose($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/WindowClose', $name, $tech)
+!endprocedure

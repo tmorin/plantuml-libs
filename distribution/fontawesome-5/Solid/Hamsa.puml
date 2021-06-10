@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Hamsa
+
+sprite $HamsaXs [10x10/16z] uwS3
+
+sprite $HamsaSm [12x12/16z] unza
+
+sprite $HamsaMd [16x16/16z] un_X
+
+sprite $HamsaLg [20x20/16z] unzKO1G
+
+!procedure Hamsa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Hamsa', $name, $tech)
+!endprocedure

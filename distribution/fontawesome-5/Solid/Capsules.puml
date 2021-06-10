@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Capsules
+
+sprite $CapsulesXs [11x9/16z] uwSz
+
+sprite $CapsulesSm [13x11/16z] unzS
+
+sprite $CapsulesMd [17x15/16z] un_P
+
+sprite $CapsulesLg [22x19/16z] un_aO1G
+
+!procedure Capsules($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Capsules', $name, $tech)
+!endprocedure

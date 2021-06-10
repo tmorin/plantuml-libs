@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ConciergeBell
+
+sprite $ConciergeBellXs [10x10/16z] uwS3
+
+sprite $ConciergeBellSm [12x12/16z] unza
+
+sprite $ConciergeBellMd [16x16/16z] un_X
+
+sprite $ConciergeBellLg [20x20/16z] unzKO1G
+
+!procedure ConciergeBell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ConciergeBell', $name, $tech)
+!endprocedure

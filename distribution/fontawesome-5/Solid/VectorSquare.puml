@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/VectorSquare
+
+sprite $VectorSquareXs [10x10/16z] uwS3
+
+sprite $VectorSquareSm [12x12/16z] unza
+
+sprite $VectorSquareMd [16x16/16z] un_X
+
+sprite $VectorSquareLg [20x20/16z] unzKO1G
+
+!procedure VectorSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/VectorSquare', $name, $tech)
+!endprocedure

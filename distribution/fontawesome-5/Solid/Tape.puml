@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tape
+
+sprite $TapeXs [12x9/16z] uwSZ
+
+sprite $TapeSm [15x11/16z] unyA
+
+sprite $TapeMd [20x15/16z] uoSQZ08
+
+sprite $TapeLg [25x19/16z] un-kO1G
+
+!procedure Tape($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tape', $name, $tech)
+!endprocedure

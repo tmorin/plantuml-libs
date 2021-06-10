@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/StarHalf
+
+sprite $StarHalfXs [11x9/16z] uwSz
+
+sprite $StarHalfSm [13x11/16z] unzS
+
+sprite $StarHalfMd [17x15/16z] un_P
+
+sprite $StarHalfLg [22x19/16z] un_aO1G
+
+!procedure StarHalf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/StarHalf', $name, $tech)
+!endprocedure

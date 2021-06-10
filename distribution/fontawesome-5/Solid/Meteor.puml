@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Meteor
+
+sprite $MeteorXs [10x10/16z] uwS3
+
+sprite $MeteorSm [12x12/16z] unza
+
+sprite $MeteorMd [16x16/16z] un_X
+
+sprite $MeteorLg [20x20/16z] unzKO1G
+
+!procedure Meteor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Meteor', $name, $tech)
+!endprocedure

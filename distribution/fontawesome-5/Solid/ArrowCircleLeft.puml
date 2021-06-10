@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ArrowCircleLeft
+
+sprite $ArrowCircleLeftXs [10x10/16z] uwS3
+
+sprite $ArrowCircleLeftSm [12x12/16z] unza
+
+sprite $ArrowCircleLeftMd [16x16/16z] un_X
+
+sprite $ArrowCircleLeftLg [20x20/16z] unzKO1G
+
+!procedure ArrowCircleLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ArrowCircleLeft', $name, $tech)
+!endprocedure

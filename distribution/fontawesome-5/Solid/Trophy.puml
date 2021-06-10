@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Trophy
+
+sprite $TrophyXs [11x9/16z] uwSz
+
+sprite $TrophySm [13x11/16z] unzS
+
+sprite $TrophyMd [17x15/16z] un_P
+
+sprite $TrophyLg [22x19/16z] un_aO1G
+
+!procedure Trophy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Trophy', $name, $tech)
+!endprocedure

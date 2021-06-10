@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Globe
+
+sprite $GlobeXs [9x9/16z] uwSs
+
+sprite $GlobeSm [11x11/16z] unye
+
+sprite $GlobeMd [15x15/16z] un_k
+
+sprite $GlobeLg [19x19/16z] uwSF60K
+
+!procedure Globe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Globe', $name, $tech)
+!endprocedure

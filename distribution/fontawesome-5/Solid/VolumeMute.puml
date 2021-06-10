@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/VolumeMute
+
+sprite $VolumeMuteXs [10x10/16z] uwS3
+
+sprite $VolumeMuteSm [12x12/16z] unza
+
+sprite $VolumeMuteMd [16x16/16z] un_X
+
+sprite $VolumeMuteLg [20x20/16z] unzKO1G
+
+!procedure VolumeMute($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/VolumeMute', $name, $tech)
+!endprocedure

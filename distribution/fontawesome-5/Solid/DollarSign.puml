@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DollarSign
+
+sprite $DollarSignXs [5x8/16z] uoSI
+
+sprite $DollarSignSm [6x10/16z] uwS
+
+sprite $DollarSignMd [8x14/16z] uwSp
+
+sprite $DollarSignLg [11x19/16z] unzk
+
+!procedure DollarSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DollarSign', $name, $tech)
+!endprocedure

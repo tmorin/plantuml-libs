@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Angellist
+
+sprite $AngellistXs [8x9/16z] uwSI
+
+sprite $AngellistSm [10x11/16z] uwSh
+
+sprite $AngellistMd [14x15/16z] unzs
+
+sprite $AngellistLg [17x19/16z] uwSKZ08
+
+!procedure Angellist($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Angellist', $name, $tech)
+!endprocedure

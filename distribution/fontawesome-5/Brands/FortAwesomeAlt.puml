@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/FortAwesomeAlt
+
+sprite $FortAwesomeAltXs [10x10/16z] uwS3
+
+sprite $FortAwesomeAltSm [12x12/16z] unza
+
+sprite $FortAwesomeAltMd [16x16/16z] un_X
+
+sprite $FortAwesomeAltLg [20x20/16z] unzKO1G
+
+!procedure FortAwesomeAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/FortAwesomeAlt', $name, $tech)
+!endprocedure

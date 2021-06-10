@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/RssSquare
+
+sprite $RssSquareXs [8x9/16z] uwSI
+
+sprite $RssSquareSm [10x11/16z] uwSh
+
+sprite $RssSquareMd [14x15/16z] unzs
+
+sprite $RssSquareLg [17x19/16z] uwSKZ08
+
+!procedure RssSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/RssSquare', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FileDownload
+
+sprite $FileDownloadXs [7x9/16z] uwSC
+
+sprite $FileDownloadSm [9x11/16z] uwSz
+
+sprite $FileDownloadMd [12x15/16z] un-2
+
+sprite $FileDownloadLg [15x19/16z] uySDHW4
+
+!procedure FileDownload($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FileDownload', $name, $tech)
+!endprocedure

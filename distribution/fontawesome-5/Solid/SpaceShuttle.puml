@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SpaceShuttle
+
+sprite $SpaceShuttleXs [12x9/16z] uwSZ
+
+sprite $SpaceShuttleSm [15x11/16z] unyA
+
+sprite $SpaceShuttleMd [20x15/16z] uoSQZ08
+
+sprite $SpaceShuttleLg [25x19/16z] un-kO1G
+
+!procedure SpaceShuttle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SpaceShuttle', $name, $tech)
+!endprocedure

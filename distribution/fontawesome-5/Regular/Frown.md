@@ -1,0 +1,63 @@
+# Frown
+
+
+```text
+fontawesome-5/Regular/Frown
+```
+
+```text
+include('fontawesome-5/Regular/Frown')
+```
+
+
+
+| Illustration | Frown |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Regular/Frown.png) | ![illustration for Frown](../../fontawesome-5/Regular/Frown.Local.png) |
+
+
+
+
+## Frown
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Frown
+include('fontawesome-5/Regular/Frown')
+
+' renders the element
+Frown('Frown', 'Frown', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Frown
+include('fontawesome-5/Regular/Frown')
+
+' renders the element
+Frown('Frown', 'Frown', 'an optional tech label')
+@enduml
+```
+

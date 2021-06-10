@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ArrowUp
+
+sprite $ArrowUpXs [8x9/16z] uwSI
+
+sprite $ArrowUpSm [10x11/16z] uwSh
+
+sprite $ArrowUpMd [14x15/16z] unzs
+
+sprite $ArrowUpLg [17x19/16z] uwSKZ08
+
+!procedure ArrowUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ArrowUp', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element AssistiveListeningSystems
+include('fontawesome-5/Solid/AssistiveListeningSystems')
+
+' renders the element
+AssistiveListeningSystems('AssistiveListeningSystems', 'Assistive Listening Systems', 'an optional tech label')
+@enduml

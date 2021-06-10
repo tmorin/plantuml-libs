@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Hippo
+
+sprite $HippoXs [12x9/16z] uwSZ
+
+sprite $HippoSm [15x11/16z] unyA
+
+sprite $HippoMd [20x15/16z] uoSQZ08
+
+sprite $HippoLg [25x19/16z] un-kO1G
+
+!procedure Hippo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Hippo', $name, $tech)
+!endprocedure

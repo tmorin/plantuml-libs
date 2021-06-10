@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FileImage
+
+sprite $FileImageXs [7x9/16z] uwSC
+
+sprite $FileImageSm [9x11/16z] uwSz
+
+sprite $FileImageMd [12x15/16z] un-2
+
+sprite $FileImageLg [15x19/16z] uySDHW4
+
+!procedure FileImage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FileImage', $name, $tech)
+!endprocedure

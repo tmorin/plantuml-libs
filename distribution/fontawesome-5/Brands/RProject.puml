@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/RProject
+
+sprite $RProjectXs [11x9/16z] uwSz
+
+sprite $RProjectSm [13x11/16z] unzS
+
+sprite $RProjectMd [18x15/16z] uqS2em
+
+sprite $RProjectLg [22x19/16z] un_aO1G
+
+!procedure RProject($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/RProject', $name, $tech)
+!endprocedure

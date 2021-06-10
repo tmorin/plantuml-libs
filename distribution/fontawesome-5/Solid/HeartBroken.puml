@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/HeartBroken
+
+sprite $HeartBrokenXs [10x10/16z] uwS3
+
+sprite $HeartBrokenSm [12x12/16z] unza
+
+sprite $HeartBrokenMd [16x16/16z] un_X
+
+sprite $HeartBrokenLg [20x20/16z] unzKO1G
+
+!procedure HeartBroken($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/HeartBroken', $name, $tech)
+!endprocedure

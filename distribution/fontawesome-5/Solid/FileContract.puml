@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FileContract
+
+sprite $FileContractXs [7x9/16z] uwSC
+
+sprite $FileContractSm [9x11/16z] uwSz
+
+sprite $FileContractMd [12x15/16z] un-2
+
+sprite $FileContractLg [15x19/16z] uySDHW4
+
+!procedure FileContract($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FileContract', $name, $tech)
+!endprocedure

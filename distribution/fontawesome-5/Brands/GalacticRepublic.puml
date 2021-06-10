@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GalacticRepublic
+
+sprite $GalacticRepublicXs [9x9/16z] uwSs
+
+sprite $GalacticRepublicSm [11x11/16z] unye
+
+sprite $GalacticRepublicMd [15x15/16z] un_k
+
+sprite $GalacticRepublicLg [19x19/16z] uwSF60K
+
+!procedure GalacticRepublic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GalacticRepublic', $name, $tech)
+!endprocedure

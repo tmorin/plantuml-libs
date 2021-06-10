@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Viruses
+
+sprite $VirusesXs [12x9/16z] uwSZ
+
+sprite $VirusesSm [15x11/16z] unyA
+
+sprite $VirusesMd [20x15/16z] uoSQZ08
+
+sprite $VirusesLg [25x19/16z] un-kO1G
+
+!procedure Viruses($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Viruses', $name, $tech)
+!endprocedure

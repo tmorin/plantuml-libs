@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ExclamationTriangle
+
+sprite $ExclamationTriangleXs [11x9/16z] uwSz
+
+sprite $ExclamationTriangleSm [13x11/16z] unzS
+
+sprite $ExclamationTriangleMd [17x15/16z] un_P
+
+sprite $ExclamationTriangleLg [22x19/16z] un_aO1G
+
+!procedure ExclamationTriangle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ExclamationTriangle', $name, $tech)
+!endprocedure

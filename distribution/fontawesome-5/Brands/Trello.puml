@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Trello
+
+sprite $TrelloXs [8x9/16z] uwSI
+
+sprite $TrelloSm [10x11/16z] uwSh
+
+sprite $TrelloMd [14x15/16z] unzs
+
+sprite $TrelloLg [17x19/16z] uwSKZ08
+
+!procedure Trello($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Trello', $name, $tech)
+!endprocedure

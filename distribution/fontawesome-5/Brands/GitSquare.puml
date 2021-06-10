@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GitSquare
+
+sprite $GitSquareXs [8x9/16z] uwSI
+
+sprite $GitSquareSm [10x11/16z] uwSh
+
+sprite $GitSquareMd [14x15/16z] unzs
+
+sprite $GitSquareLg [17x19/16z] uwSKZ08
+
+!procedure GitSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GitSquare', $name, $tech)
+!endprocedure

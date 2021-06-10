@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ArrowsAlt
+
+sprite $ArrowsAltXs [10x10/16z] uwS3
+
+sprite $ArrowsAltSm [12x12/16z] unza
+
+sprite $ArrowsAltMd [16x16/16z] un_X
+
+sprite $ArrowsAltLg [20x20/16z] unzKO1G
+
+!procedure ArrowsAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ArrowsAlt', $name, $tech)
+!endprocedure

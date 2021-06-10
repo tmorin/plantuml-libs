@@ -1,0 +1,63 @@
+# Boxes
+
+
+```text
+fontawesome-5/Solid/Boxes
+```
+
+```text
+include('fontawesome-5/Solid/Boxes')
+```
+
+
+
+| Illustration | Boxes |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Solid/Boxes.png) | ![illustration for Boxes](../../fontawesome-5/Solid/Boxes.Local.png) |
+
+
+
+
+## Boxes
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Boxes
+include('fontawesome-5/Solid/Boxes')
+
+' renders the element
+Boxes('Boxes', 'Boxes', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Boxes
+include('fontawesome-5/Solid/Boxes')
+
+' renders the element
+Boxes('Boxes', 'Boxes', 'an optional tech label')
+@enduml
+```
+

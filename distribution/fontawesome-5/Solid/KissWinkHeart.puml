@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/KissWinkHeart
+
+sprite $KissWinkHeartXs [9x9/16z] uwSs
+
+sprite $KissWinkHeartSm [11x11/16z] unye
+
+sprite $KissWinkHeartMd [15x15/16z] un_k
+
+sprite $KissWinkHeartLg [19x19/16z] uwSF60K
+
+!procedure KissWinkHeart($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/KissWinkHeart', $name, $tech)
+!endprocedure

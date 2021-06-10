@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/ViadeoSquare
+
+sprite $ViadeoSquareXs [8x9/16z] uwSI
+
+sprite $ViadeoSquareSm [10x11/16z] uwSh
+
+sprite $ViadeoSquareMd [14x15/16z] unzs
+
+sprite $ViadeoSquareLg [17x19/16z] uwSKZ08
+
+!procedure ViadeoSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/ViadeoSquare', $name, $tech)
+!endprocedure

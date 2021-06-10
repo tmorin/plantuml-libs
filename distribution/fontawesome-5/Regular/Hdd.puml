@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Hdd
+
+sprite $HddXs [11x9/16z] uwSz
+
+sprite $HddSm [13x11/16z] unzS
+
+sprite $HddMd [17x15/16z] un_P
+
+sprite $HddLg [22x19/16z] un_aO1G
+
+!procedure Hdd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Hdd', $name, $tech)
+!endprocedure

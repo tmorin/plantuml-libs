@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Receipt
+
+sprite $ReceiptXs [7x9/16z] uwSC
+
+sprite $ReceiptSm [9x11/16z] uwSz
+
+sprite $ReceiptMd [12x15/16z] un-2
+
+sprite $ReceiptLg [15x19/16z] uySDHW4
+
+!procedure Receipt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Receipt', $name, $tech)
+!endprocedure

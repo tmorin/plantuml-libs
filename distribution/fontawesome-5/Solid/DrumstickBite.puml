@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DrumstickBite
+
+sprite $DrumstickBiteXs [10x10/16z] uwS3
+
+sprite $DrumstickBiteSm [12x12/16z] unza
+
+sprite $DrumstickBiteMd [16x16/16z] un_X
+
+sprite $DrumstickBiteLg [20x20/16z] unzKO1G
+
+!procedure DrumstickBite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DrumstickBite', $name, $tech)
+!endprocedure

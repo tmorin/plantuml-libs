@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Cloudsmith
+
+sprite $CloudsmithXs [6x9/16z] uoSB
+
+sprite $CloudsmithSm [7x10/16z] uwSA
+
+sprite $CloudsmithMd [10x15/16z] un-K
+
+sprite $CloudsmithLg [12x18/16z] un-c
+
+!procedure Cloudsmith($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Cloudsmith', $name, $tech)
+!endprocedure

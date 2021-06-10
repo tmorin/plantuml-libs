@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Gavel
+
+sprite $GavelXs [10x10/16z] uwS3
+
+sprite $GavelSm [12x12/16z] unza
+
+sprite $GavelMd [16x16/16z] un_X
+
+sprite $GavelLg [20x20/16z] unzKO1G
+
+!procedure Gavel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Gavel', $name, $tech)
+!endprocedure

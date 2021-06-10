@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Vuejs
+
+sprite $VuejsXs [8x9/16z] uwSI
+
+sprite $VuejsSm [10x11/16z] uwSh
+
+sprite $VuejsMd [14x15/16z] unzs
+
+sprite $VuejsLg [17x19/16z] uwSKZ08
+
+!procedure Vuejs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Vuejs', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Crow
+
+sprite $CrowXs [12x9/16z] uwSZ
+
+sprite $CrowSm [15x11/16z] unyA
+
+sprite $CrowMd [20x15/16z] uoSQZ08
+
+sprite $CrowLg [25x19/16z] un-kO1G
+
+!procedure Crow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Crow', $name, $tech)
+!endprocedure

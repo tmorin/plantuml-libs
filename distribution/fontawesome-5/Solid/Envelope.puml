@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Envelope
+
+sprite $EnvelopeXs [10x10/16z] uwS3
+
+sprite $EnvelopeSm [12x12/16z] unza
+
+sprite $EnvelopeMd [16x16/16z] un_X
+
+sprite $EnvelopeLg [20x20/16z] unzKO1G
+
+!procedure Envelope($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Envelope', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Flushed
+
+sprite $FlushedXs [9x9/16z] uwSs
+
+sprite $FlushedSm [11x11/16z] unye
+
+sprite $FlushedMd [15x15/16z] un_k
+
+sprite $FlushedLg [19x19/16z] uwSF60K
+
+!procedure Flushed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Flushed', $name, $tech)
+!endprocedure

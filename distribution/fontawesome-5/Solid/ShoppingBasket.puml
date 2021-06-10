@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ShoppingBasket
+
+sprite $ShoppingBasketXs [11x9/16z] uwSz
+
+sprite $ShoppingBasketSm [13x11/16z] unzS
+
+sprite $ShoppingBasketMd [17x15/16z] un_P
+
+sprite $ShoppingBasketLg [22x19/16z] un_aO1G
+
+!procedure ShoppingBasket($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ShoppingBasket', $name, $tech)
+!endprocedure

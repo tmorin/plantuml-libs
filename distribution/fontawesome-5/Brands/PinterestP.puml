@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/PinterestP
+
+sprite $PinterestPXs [7x9/16z] uwSC
+
+sprite $PinterestPSm [9x11/16z] uwSz
+
+sprite $PinterestPMd [12x15/16z] un-2
+
+sprite $PinterestPLg [15x19/16z] uySDHW4
+
+!procedure PinterestP($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/PinterestP', $name, $tech)
+!endprocedure

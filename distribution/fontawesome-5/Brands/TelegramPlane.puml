@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/TelegramPlane
+
+sprite $TelegramPlaneXs [8x9/16z] uwSI
+
+sprite $TelegramPlaneSm [10x11/16z] uwSh
+
+sprite $TelegramPlaneMd [14x15/16z] unzs
+
+sprite $TelegramPlaneLg [17x19/16z] uwSKZ08
+
+!procedure TelegramPlane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/TelegramPlane', $name, $tech)
+!endprocedure

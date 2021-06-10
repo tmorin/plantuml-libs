@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Bomb
+
+sprite $BombXs [10x10/16z] uwS3
+
+sprite $BombSm [12x12/16z] unza
+
+sprite $BombMd [16x16/16z] un_X
+
+sprite $BombLg [20x20/16z] unzKO1G
+
+!procedure Bomb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Bomb', $name, $tech)
+!endprocedure

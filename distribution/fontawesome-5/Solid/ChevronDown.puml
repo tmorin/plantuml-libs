@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ChevronDown
+
+sprite $ChevronDownXs [8x9/16z] uwSI
+
+sprite $ChevronDownSm [10x11/16z] uwSh
+
+sprite $ChevronDownMd [14x15/16z] unzs
+
+sprite $ChevronDownLg [17x19/16z] uwSKZ08
+
+!procedure ChevronDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ChevronDown', $name, $tech)
+!endprocedure

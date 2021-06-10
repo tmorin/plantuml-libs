@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Rocketchat
+
+sprite $RocketchatXs [11x9/16z] uwSz
+
+sprite $RocketchatSm [13x11/16z] unzS
+
+sprite $RocketchatMd [17x15/16z] un_P
+
+sprite $RocketchatLg [22x19/16z] un_aO1G
+
+!procedure Rocketchat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Rocketchat', $name, $tech)
+!endprocedure

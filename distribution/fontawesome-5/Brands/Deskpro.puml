@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Deskpro
+
+sprite $DeskproXs [9x9/16z] uwSs
+
+sprite $DeskproSm [11x11/16z] unye
+
+sprite $DeskproMd [15x15/16z] un_k
+
+sprite $DeskproLg [18x19/16z] uwS160K
+
+!procedure Deskpro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Deskpro', $name, $tech)
+!endprocedure

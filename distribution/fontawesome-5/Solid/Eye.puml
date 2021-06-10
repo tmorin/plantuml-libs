@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Eye
+
+sprite $EyeXs [11x9/16z] uwSz
+
+sprite $EyeSm [13x11/16z] unzS
+
+sprite $EyeMd [17x15/16z] un_P
+
+sprite $EyeLg [22x19/16z] un_aO1G
+
+!procedure Eye($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Eye', $name, $tech)
+!endprocedure

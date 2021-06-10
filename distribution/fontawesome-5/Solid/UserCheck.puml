@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/UserCheck
+
+sprite $UserCheckXs [12x9/16z] uwSZ
+
+sprite $UserCheckSm [15x11/16z] unyA
+
+sprite $UserCheckMd [20x15/16z] uoSQZ08
+
+sprite $UserCheckLg [25x19/16z] un-kO1G
+
+!procedure UserCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/UserCheck', $name, $tech)
+!endprocedure

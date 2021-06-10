@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Igloo
+
+sprite $IglooXs [11x9/16z] uwSz
+
+sprite $IglooSm [13x11/16z] unzS
+
+sprite $IglooMd [17x15/16z] un_P
+
+sprite $IglooLg [22x19/16z] un_aO1G
+
+!procedure Igloo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Igloo', $name, $tech)
+!endprocedure

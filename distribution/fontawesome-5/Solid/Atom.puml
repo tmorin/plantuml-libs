@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Atom
+
+sprite $AtomXs [8x9/16z] uwSI
+
+sprite $AtomSm [10x11/16z] uwSh
+
+sprite $AtomMd [14x15/16z] unzs
+
+sprite $AtomLg [17x19/16z] uwSKZ08
+
+!procedure Atom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Atom', $name, $tech)
+!endprocedure

@@ -1,0 +1,63 @@
+# StickerMule
+
+
+```text
+fontawesome-5/Brands/StickerMule
+```
+
+```text
+include('fontawesome-5/Brands/StickerMule')
+```
+
+
+
+| Illustration | StickerMule |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Brands/StickerMule.png) | ![illustration for StickerMule](../../fontawesome-5/Brands/StickerMule.Local.png) |
+
+
+
+
+## StickerMule
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element StickerMule
+include('fontawesome-5/Brands/StickerMule')
+
+' renders the element
+StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element StickerMule
+include('fontawesome-5/Brands/StickerMule')
+
+' renders the element
+StickerMule('StickerMule', 'Sticker Mule', 'an optional tech label')
+@enduml
+```
+

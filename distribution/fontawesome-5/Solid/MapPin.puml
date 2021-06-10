@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/MapPin
+
+sprite $MapPinXs [5x8/16z] uoSI
+
+sprite $MapPinSm [6x10/16z] uwS
+
+sprite $MapPinMd [8x14/16z] uwSp
+
+sprite $MapPinLg [11x19/16z] unzk
+
+!procedure MapPin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/MapPin', $name, $tech)
+!endprocedure

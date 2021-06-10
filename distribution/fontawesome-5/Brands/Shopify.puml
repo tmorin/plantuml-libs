@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Shopify
+
+sprite $ShopifyXs [8x9/16z] uwSI
+
+sprite $ShopifySm [10x11/16z] uwSh
+
+sprite $ShopifyMd [14x15/16z] unzs
+
+sprite $ShopifyLg [17x19/16z] uwSKZ08
+
+!procedure Shopify($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Shopify', $name, $tech)
+!endprocedure

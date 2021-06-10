@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/VimeoSquare
+
+sprite $VimeoSquareXs [8x9/16z] uwSI
+
+sprite $VimeoSquareSm [10x11/16z] uwSh
+
+sprite $VimeoSquareMd [14x15/16z] unzs
+
+sprite $VimeoSquareLg [17x19/16z] uwSKZ08
+
+!procedure VimeoSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/VimeoSquare', $name, $tech)
+!endprocedure

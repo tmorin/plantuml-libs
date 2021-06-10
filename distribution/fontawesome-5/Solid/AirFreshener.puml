@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/AirFreshener
+
+sprite $AirFreshenerXs [10x10/16z] uwS3
+
+sprite $AirFreshenerSm [12x12/16z] unza
+
+sprite $AirFreshenerMd [16x16/16z] un_X
+
+sprite $AirFreshenerLg [20x20/16z] unzKO1G
+
+!procedure AirFreshener($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/AirFreshener', $name, $tech)
+!endprocedure

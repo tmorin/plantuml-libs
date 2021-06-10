@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Html5
+
+sprite $Html5Xs [7x9/16z] uwSC
+
+sprite $Html5Sm [9x11/16z] uwSz
+
+sprite $Html5Md [12x15/16z] un-2
+
+sprite $Html5Lg [15x19/16z] uySDHW4
+
+!procedure Html5($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Html5', $name, $tech)
+!endprocedure

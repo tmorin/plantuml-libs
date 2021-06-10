@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/LaptopMedical
+
+sprite $LaptopMedicalXs [12x9/16z] uwSZ
+
+sprite $LaptopMedicalSm [15x11/16z] unyA
+
+sprite $LaptopMedicalMd [20x15/16z] uoSQZ08
+
+sprite $LaptopMedicalLg [25x19/16z] un-kO1G
+
+!procedure LaptopMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/LaptopMedical', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/WineGlassAlt
+
+sprite $WineGlassAltXs [5x8/16z] uoSI
+
+sprite $WineGlassAltSm [6x10/16z] uwS
+
+sprite $WineGlassAltMd [8x14/16z] uwSp
+
+sprite $WineGlassAltLg [11x19/16z] unzk
+
+!procedure WineGlassAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/WineGlassAlt', $name, $tech)
+!endprocedure

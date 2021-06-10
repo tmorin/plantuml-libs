@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/TrafficLight
+
+sprite $TrafficLightXs [7x9/16z] uwSC
+
+sprite $TrafficLightSm [9x11/16z] uwSz
+
+sprite $TrafficLightMd [12x15/16z] un-2
+
+sprite $TrafficLightLg [15x19/16z] uySDHW4
+
+!procedure TrafficLight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/TrafficLight', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SearchMinus
+
+sprite $SearchMinusXs [10x10/16z] uwS3
+
+sprite $SearchMinusSm [12x12/16z] unza
+
+sprite $SearchMinusMd [16x16/16z] un_X
+
+sprite $SearchMinusLg [20x20/16z] unzKO1G
+
+!procedure SearchMinus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SearchMinus', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Regular/Hourglass
+
+sprite $HourglassXs [7x9/16z] uwSC
+
+sprite $HourglassSm [9x11/16z] uwSz
+
+sprite $HourglassMd [12x15/16z] un-2
+
+sprite $HourglassLg [15x19/16z] uySDHW4
+
+!procedure Hourglass($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Regular/Hourglass', $name, $tech)
+!endprocedure

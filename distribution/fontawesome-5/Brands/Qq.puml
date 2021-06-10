@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Qq
+
+sprite $QqXs [8x9/16z] uwSI
+
+sprite $QqSm [10x11/16z] uwSh
+
+sprite $QqMd [14x15/16z] unzs
+
+sprite $QqLg [17x19/16z] uwSKZ08
+
+!procedure Qq($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Qq', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/CcDinersClub
+
+sprite $CcDinersClubXs [11x9/16z] uwSz
+
+sprite $CcDinersClubSm [13x11/16z] unzS
+
+sprite $CcDinersClubMd [17x15/16z] un_P
+
+sprite $CcDinersClubLg [22x19/16z] un_aO1G
+
+!procedure CcDinersClub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/CcDinersClub', $name, $tech)
+!endprocedure

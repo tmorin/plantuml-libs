@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/RupeeSign
+
+sprite $RupeeSignXs [6x9/16z] uoSB
+
+sprite $RupeeSignSm [7x11/16z] uwSc
+
+sprite $RupeeSignMd [9x14/16z] unzG
+
+sprite $RupeeSignLg [12x19/16z] uny1
+
+!procedure RupeeSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/RupeeSign', $name, $tech)
+!endprocedure

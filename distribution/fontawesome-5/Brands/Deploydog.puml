@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Deploydog
+
+sprite $DeploydogXs [10x10/16z] uwS3
+
+sprite $DeploydogSm [12x12/16z] unza
+
+sprite $DeploydogMd [16x16/16z] un_X
+
+sprite $DeploydogLg [20x20/16z] unzKO1G
+
+!procedure Deploydog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Deploydog', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SortAmountUp
+
+sprite $SortAmountUpXs [10x10/16z] uwS3
+
+sprite $SortAmountUpSm [12x12/16z] unza
+
+sprite $SortAmountUpMd [16x16/16z] un_X
+
+sprite $SortAmountUpLg [20x20/16z] unzKO1G
+
+!procedure SortAmountUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SortAmountUp', $name, $tech)
+!endprocedure

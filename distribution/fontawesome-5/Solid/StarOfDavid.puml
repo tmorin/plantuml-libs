@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/StarOfDavid
+
+sprite $StarOfDavidXs [9x10/16z] uwSP
+
+sprite $StarOfDavidSm [10x11/16z] uwSh
+
+sprite $StarOfDavidMd [14x15/16z] unzs
+
+sprite $StarOfDavidLg [18x20/16z] uwSB60K
+
+!procedure StarOfDavid($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/StarOfDavid', $name, $tech)
+!endprocedure

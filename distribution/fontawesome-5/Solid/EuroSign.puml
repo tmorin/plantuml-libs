@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/EuroSign
+
+sprite $EuroSignXs [6x9/16z] uoSB
+
+sprite $EuroSignSm [7x11/16z] uwSc
+
+sprite $EuroSignMd [9x14/16z] unzG
+
+sprite $EuroSignLg [12x19/16z] uny1
+
+!procedure EuroSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/EuroSign', $name, $tech)
+!endprocedure

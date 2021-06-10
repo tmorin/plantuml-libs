@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/PenFancy
+
+sprite $PenFancyXs [10x10/16z] uwS3
+
+sprite $PenFancySm [12x12/16z] unza
+
+sprite $PenFancyMd [16x16/16z] un_X
+
+sprite $PenFancyLg [20x20/16z] unzKO1G
+
+!procedure PenFancy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/PenFancy', $name, $tech)
+!endprocedure

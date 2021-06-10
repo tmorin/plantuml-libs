@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/TransgenderAlt
+
+sprite $TransgenderAltXs [9x9/16z] uwSs
+
+sprite $TransgenderAltSm [11x11/16z] unye
+
+sprite $TransgenderAltMd [15x15/16z] un_k
+
+sprite $TransgenderAltLg [18x19/16z] uwS160K
+
+!procedure TransgenderAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/TransgenderAlt', $name, $tech)
+!endprocedure

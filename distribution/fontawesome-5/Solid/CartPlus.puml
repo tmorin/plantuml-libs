@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CartPlus
+
+sprite $CartPlusXs [11x9/16z] uwSz
+
+sprite $CartPlusSm [13x11/16z] unzS
+
+sprite $CartPlusMd [17x15/16z] un_P
+
+sprite $CartPlusLg [22x19/16z] un_aO1G
+
+!procedure CartPlus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CartPlus', $name, $tech)
+!endprocedure

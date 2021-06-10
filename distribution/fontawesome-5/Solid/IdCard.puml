@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/IdCard
+
+sprite $IdCardXs [11x9/16z] uwSz
+
+sprite $IdCardSm [13x11/16z] unzS
+
+sprite $IdCardMd [17x15/16z] un_P
+
+sprite $IdCardLg [22x19/16z] un_aO1G
+
+!procedure IdCard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/IdCard', $name, $tech)
+!endprocedure

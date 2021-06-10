@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/TicketAlt
+
+sprite $TicketAltXs [11x9/16z] uwSz
+
+sprite $TicketAltSm [13x11/16z] unzS
+
+sprite $TicketAltMd [17x15/16z] un_P
+
+sprite $TicketAltLg [22x19/16z] un_aO1G
+
+!procedure TicketAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/TicketAlt', $name, $tech)
+!endprocedure

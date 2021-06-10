@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Expeditedssl
+
+sprite $ExpeditedsslXs [9x9/16z] uwSs
+
+sprite $ExpeditedsslSm [11x11/16z] unye
+
+sprite $ExpeditedsslMd [15x15/16z] un_k
+
+sprite $ExpeditedsslLg [19x19/16z] uwSF60K
+
+!procedure Expeditedssl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Expeditedssl', $name, $tech)
+!endprocedure

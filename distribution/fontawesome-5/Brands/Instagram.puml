@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Instagram
+
+sprite $InstagramXs [8x9/16z] uwSI
+
+sprite $InstagramSm [10x11/16z] uwSh
+
+sprite $InstagramMd [14x15/16z] unzs
+
+sprite $InstagramLg [17x19/16z] uwSKZ08
+
+!procedure Instagram($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Instagram', $name, $tech)
+!endprocedure

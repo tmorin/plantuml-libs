@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/CreativeCommonsPdAlt
+
+sprite $CreativeCommonsPdAltXs [9x9/16z] uwSs
+
+sprite $CreativeCommonsPdAltSm [11x11/16z] unye
+
+sprite $CreativeCommonsPdAltMd [15x15/16z] un_k
+
+sprite $CreativeCommonsPdAltLg [19x19/16z] uwSF60K
+
+!procedure CreativeCommonsPdAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/CreativeCommonsPdAlt', $name, $tech)
+!endprocedure

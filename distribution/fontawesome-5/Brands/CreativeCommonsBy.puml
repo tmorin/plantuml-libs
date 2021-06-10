@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/CreativeCommonsBy
+
+sprite $CreativeCommonsByXs [9x9/16z] uwSs
+
+sprite $CreativeCommonsBySm [11x11/16z] unye
+
+sprite $CreativeCommonsByMd [15x15/16z] un_k
+
+sprite $CreativeCommonsByLg [19x19/16z] uwSF60K
+
+!procedure CreativeCommonsBy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/CreativeCommonsBy', $name, $tech)
+!endprocedure

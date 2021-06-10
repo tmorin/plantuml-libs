@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/MinusSquare
+
+sprite $MinusSquareXs [8x9/16z] uwSI
+
+sprite $MinusSquareSm [10x11/16z] uwSh
+
+sprite $MinusSquareMd [14x15/16z] unzs
+
+sprite $MinusSquareLg [17x19/16z] uwSKZ08
+
+!procedure MinusSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/MinusSquare', $name, $tech)
+!endprocedure

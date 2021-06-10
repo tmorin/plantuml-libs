@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Keybase
+
+sprite $KeybaseXs [8x9/16z] uwSI
+
+sprite $KeybaseSm [10x11/16z] uwSh
+
+sprite $KeybaseMd [14x15/16z] unzs
+
+sprite $KeybaseLg [17x19/16z] uwSKZ08
+
+!procedure Keybase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Keybase', $name, $tech)
+!endprocedure

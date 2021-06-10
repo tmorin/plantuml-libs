@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Outdent
+
+sprite $OutdentXs [8x9/16z] uwSI
+
+sprite $OutdentSm [10x11/16z] uwSh
+
+sprite $OutdentMd [14x15/16z] unzs
+
+sprite $OutdentLg [17x19/16z] uwSKZ08
+
+!procedure Outdent($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Outdent', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Dharmachakra
+
+sprite $DharmachakraXs [10x10/16z] uwS3
+
+sprite $DharmachakraSm [12x12/16z] unza
+
+sprite $DharmachakraMd [16x16/16z] un_X
+
+sprite $DharmachakraLg [20x20/16z] unzKO1G
+
+!procedure Dharmachakra($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Dharmachakra', $name, $tech)
+!endprocedure

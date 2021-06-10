@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/SignLanguage
+
+sprite $SignLanguageXs [8x9/16z] uwSI
+
+sprite $SignLanguageSm [10x11/16z] uwSh
+
+sprite $SignLanguageMd [14x15/16z] unzs
+
+sprite $SignLanguageLg [17x19/16z] uwSKZ08
+
+!procedure SignLanguage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/SignLanguage', $name, $tech)
+!endprocedure

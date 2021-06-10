@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element CaretDown
+include('fontawesome-5/Solid/CaretDown')
+
+' renders the element
+CaretDown('CaretDown', 'Caret Down', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FastBackward
+
+sprite $FastBackwardXs [10x10/16z] uwS3
+
+sprite $FastBackwardSm [12x12/16z] unza
+
+sprite $FastBackwardMd [16x16/16z] un_X
+
+sprite $FastBackwardLg [20x20/16z] unzKO1G
+
+!procedure FastBackward($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FastBackward', $name, $tech)
+!endprocedure

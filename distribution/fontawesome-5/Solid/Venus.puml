@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Venus
+
+sprite $VenusXs [5x8/16z] uoSI
+
+sprite $VenusSm [6x10/16z] uwS
+
+sprite $VenusMd [8x14/16z] uwSp
+
+sprite $VenusLg [11x19/16z] unzk
+
+!procedure Venus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Venus', $name, $tech)
+!endprocedure

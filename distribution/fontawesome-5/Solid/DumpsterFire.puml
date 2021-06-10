@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DumpsterFire
+
+sprite $DumpsterFireXs [12x9/16z] uwSZ
+
+sprite $DumpsterFireSm [15x11/16z] unyA
+
+sprite $DumpsterFireMd [20x15/16z] uoSQZ08
+
+sprite $DumpsterFireLg [25x19/16z] un-kO1G
+
+!procedure DumpsterFire($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DumpsterFire', $name, $tech)
+!endprocedure

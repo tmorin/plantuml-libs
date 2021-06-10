@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Xing
+
+sprite $XingXs [7x9/16z] uwSC
+
+sprite $XingSm [9x11/16z] uwSz
+
+sprite $XingMd [12x15/16z] un-2
+
+sprite $XingLg [15x19/16z] uySDHW4
+
+!procedure Xing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Xing', $name, $tech)
+!endprocedure

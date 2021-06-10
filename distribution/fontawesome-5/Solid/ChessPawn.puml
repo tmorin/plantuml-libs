@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ChessPawn
+
+sprite $ChessPawnXs [6x9/16z] uoSB
+
+sprite $ChessPawnSm [7x11/16z] uwSc
+
+sprite $ChessPawnMd [9x14/16z] unzG
+
+sprite $ChessPawnLg [12x19/16z] uny1
+
+!procedure ChessPawn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ChessPawn', $name, $tech)
+!endprocedure

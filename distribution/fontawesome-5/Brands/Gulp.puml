@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Gulp
+
+sprite $GulpXs [5x10/16z] uoSP
+
+sprite $GulpSm [6x12/16z] uwSI
+
+sprite $GulpMd [8x16/16z] unzW
+
+sprite $GulpLg [10x20/16z] unyc
+
+!procedure Gulp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Gulp', $name, $tech)
+!endprocedure

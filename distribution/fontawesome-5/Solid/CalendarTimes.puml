@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CalendarTimes
+
+sprite $CalendarTimesXs [8x9/16z] uwSI
+
+sprite $CalendarTimesSm [10x11/16z] uwSh
+
+sprite $CalendarTimesMd [14x15/16z] unzs
+
+sprite $CalendarTimesLg [17x19/16z] uwSKZ08
+
+!procedure CalendarTimes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CalendarTimes', $name, $tech)
+!endprocedure

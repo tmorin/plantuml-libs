@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Male
+
+sprite $MaleXs [3x7/16z] uyS6
+
+sprite $MaleSm [4x10/16z] uoSI
+
+sprite $MaleMd [6x15/16z] uwSP
+
+sprite $MaleLg [7x18/16z] unzG
+
+!procedure Male($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Male', $name, $tech)
+!endprocedure

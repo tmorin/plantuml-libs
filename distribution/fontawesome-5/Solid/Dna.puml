@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Dna
+
+sprite $DnaXs [8x9/16z] uwSI
+
+sprite $DnaSm [10x11/16z] uwSh
+
+sprite $DnaMd [14x15/16z] unzs
+
+sprite $DnaLg [17x19/16z] uwSKZ08
+
+!procedure Dna($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Dna', $name, $tech)
+!endprocedure

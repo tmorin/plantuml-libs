@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Ello
+
+sprite $ElloXs [9x9/16z] uwSs
+
+sprite $ElloSm [11x11/16z] unye
+
+sprite $ElloMd [15x15/16z] un_k
+
+sprite $ElloLg [19x19/16z] uwSF60K
+
+!procedure Ello($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Ello', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/AppStore
+
+sprite $AppStoreXs [10x10/16z] uwS3
+
+sprite $AppStoreSm [12x12/16z] unza
+
+sprite $AppStoreMd [16x16/16z] un_X
+
+sprite $AppStoreLg [20x20/16z] unzKO1G
+
+!procedure AppStore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/AppStore', $name, $tech)
+!endprocedure

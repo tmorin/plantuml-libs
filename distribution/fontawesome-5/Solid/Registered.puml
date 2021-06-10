@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Registered
+
+sprite $RegisteredXs [10x10/16z] uwS3
+
+sprite $RegisteredSm [12x12/16z] unza
+
+sprite $RegisteredMd [16x16/16z] un_X
+
+sprite $RegisteredLg [20x20/16z] unzKO1G
+
+!procedure Registered($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Registered', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Centercode
+
+sprite $CentercodeXs [10x10/16z] uwS3
+
+sprite $CentercodeSm [12x12/16z] unza
+
+sprite $CentercodeMd [16x16/16z] un_X
+
+sprite $CentercodeLg [20x20/16z] unzKO1G
+
+!procedure Centercode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Centercode', $name, $tech)
+!endprocedure

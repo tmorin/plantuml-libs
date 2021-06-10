@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ReplyAll
+
+sprite $ReplyAllXs [11x9/16z] uwSz
+
+sprite $ReplyAllSm [13x11/16z] unzS
+
+sprite $ReplyAllMd [17x15/16z] un_P
+
+sprite $ReplyAllLg [22x19/16z] un_aO1G
+
+!procedure ReplyAll($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ReplyAll', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Phabricator
+
+sprite $PhabricatorXs [9x9/16z] uwSs
+
+sprite $PhabricatorSm [11x11/16z] unye
+
+sprite $PhabricatorMd [15x15/16z] un_k
+
+sprite $PhabricatorLg [19x19/16z] uwSF60K
+
+!procedure Phabricator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Phabricator', $name, $tech)
+!endprocedure

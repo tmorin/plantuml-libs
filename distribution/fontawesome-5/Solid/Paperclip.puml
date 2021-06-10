@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Paperclip
+
+sprite $PaperclipXs [8x9/16z] uwSI
+
+sprite $PaperclipSm [10x11/16z] uwSh
+
+sprite $PaperclipMd [14x15/16z] unzs
+
+sprite $PaperclipLg [17x19/16z] uwSKZ08
+
+!procedure Paperclip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Paperclip', $name, $tech)
+!endprocedure

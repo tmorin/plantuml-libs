@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Snapchat
+
+sprite $SnapchatXs [9x9/16z] uwSs
+
+sprite $SnapchatSm [11x11/16z] unye
+
+sprite $SnapchatMd [15x15/16z] un_k
+
+sprite $SnapchatLg [19x19/16z] uwSF60K
+
+!procedure Snapchat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Snapchat', $name, $tech)
+!endprocedure

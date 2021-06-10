@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Osi
+
+sprite $OsiXs [10x10/16z] uwS3
+
+sprite $OsiSm [12x12/16z] unza
+
+sprite $OsiMd [16x16/16z] un_X
+
+sprite $OsiLg [20x20/16z] unzKO1G
+
+!procedure Osi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Osi', $name, $tech)
+!endprocedure

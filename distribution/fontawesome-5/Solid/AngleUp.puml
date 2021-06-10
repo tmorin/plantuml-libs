@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/AngleUp
+
+sprite $AngleUpXs [6x9/16z] uoSB
+
+sprite $AngleUpSm [7x11/16z] uwSc
+
+sprite $AngleUpMd [9x14/16z] unzG
+
+sprite $AngleUpLg [12x19/16z] uny1
+
+!procedure AngleUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/AngleUp', $name, $tech)
+!endprocedure

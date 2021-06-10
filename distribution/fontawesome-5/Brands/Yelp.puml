@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Yelp
+
+sprite $YelpXs [7x9/16z] uwSC
+
+sprite $YelpSm [9x11/16z] uwSz
+
+sprite $YelpMd [12x15/16z] un-2
+
+sprite $YelpLg [15x19/16z] uySDHW4
+
+!procedure Yelp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Yelp', $name, $tech)
+!endprocedure

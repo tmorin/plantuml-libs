@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/DigitalTachograph
+
+sprite $DigitalTachographXs [12x9/16z] uwSZ
+
+sprite $DigitalTachographSm [15x11/16z] unyA
+
+sprite $DigitalTachographMd [20x15/16z] uoSQZ08
+
+sprite $DigitalTachographLg [25x19/16z] un-kO1G
+
+!procedure DigitalTachograph($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/DigitalTachograph', $name, $tech)
+!endprocedure

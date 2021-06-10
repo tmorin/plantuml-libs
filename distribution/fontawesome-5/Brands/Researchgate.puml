@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Researchgate
+
+sprite $ResearchgateXs [8x9/16z] uwSI
+
+sprite $ResearchgateSm [10x11/16z] uwSh
+
+sprite $ResearchgateMd [14x15/16z] unzs
+
+sprite $ResearchgateLg [17x19/16z] uwSKZ08
+
+!procedure Researchgate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Researchgate', $name, $tech)
+!endprocedure

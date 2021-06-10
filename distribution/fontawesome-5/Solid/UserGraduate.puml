@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/UserGraduate
+
+sprite $UserGraduateXs [8x9/16z] uwSI
+
+sprite $UserGraduateSm [10x11/16z] uwSh
+
+sprite $UserGraduateMd [14x15/16z] unzs
+
+sprite $UserGraduateLg [17x19/16z] uwSKZ08
+
+!procedure UserGraduate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/UserGraduate', $name, $tech)
+!endprocedure

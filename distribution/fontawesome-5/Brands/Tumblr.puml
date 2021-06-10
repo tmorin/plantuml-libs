@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Tumblr
+
+sprite $TumblrXs [6x9/16z] uoSB
+
+sprite $TumblrSm [7x11/16z] uwSc
+
+sprite $TumblrMd [9x14/16z] unzG
+
+sprite $TumblrLg [12x19/16z] uny1
+
+!procedure Tumblr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Tumblr', $name, $tech)
+!endprocedure

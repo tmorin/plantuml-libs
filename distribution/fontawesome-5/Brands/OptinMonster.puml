@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/OptinMonster
+
+sprite $OptinMonsterXs [11x9/16z] uwSz
+
+sprite $OptinMonsterSm [13x11/16z] unzS
+
+sprite $OptinMonsterMd [17x15/16z] un_P
+
+sprite $OptinMonsterLg [22x19/16z] un_aO1G
+
+!procedure OptinMonster($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/OptinMonster', $name, $tech)
+!endprocedure

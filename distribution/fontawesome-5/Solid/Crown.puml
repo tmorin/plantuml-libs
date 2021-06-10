@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Crown
+
+sprite $CrownXs [12x9/16z] uwSZ
+
+sprite $CrownSm [15x11/16z] unyA
+
+sprite $CrownMd [20x15/16z] uoSQZ08
+
+sprite $CrownLg [25x19/16z] un-kO1G
+
+!procedure Crown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Crown', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Deaf
+
+sprite $DeafXs [10x10/16z] uwS3
+
+sprite $DeafSm [12x12/16z] unza
+
+sprite $DeafMd [16x16/16z] un_X
+
+sprite $DeafLg [20x20/16z] unzKO1G
+
+!procedure Deaf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Deaf', $name, $tech)
+!endprocedure

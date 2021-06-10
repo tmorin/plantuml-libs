@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Coffee
+
+sprite $CoffeeXs [12x9/16z] uwSZ
+
+sprite $CoffeeSm [15x11/16z] unyA
+
+sprite $CoffeeMd [20x15/16z] uoSQZ08
+
+sprite $CoffeeLg [25x19/16z] un-kO1G
+
+!procedure Coffee($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Coffee', $name, $tech)
+!endprocedure

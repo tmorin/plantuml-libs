@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Dungeon
+
+sprite $DungeonXs [10x10/16z] uwS3
+
+sprite $DungeonSm [12x12/16z] unza
+
+sprite $DungeonMd [16x16/16z] un_X
+
+sprite $DungeonLg [20x20/16z] unzKO1G
+
+!procedure Dungeon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Dungeon', $name, $tech)
+!endprocedure

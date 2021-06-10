@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Lastfm
+
+sprite $LastfmXs [10x10/16z] uwS3
+
+sprite $LastfmSm [12x12/16z] unza
+
+sprite $LastfmMd [16x16/16z] un_X
+
+sprite $LastfmLg [20x20/16z] unzKO1G
+
+!procedure Lastfm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Lastfm', $name, $tech)
+!endprocedure

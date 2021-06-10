@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/PlaneSlash
+
+sprite $PlaneSlashXs [12x9/16z] uwSZ
+
+sprite $PlaneSlashSm [15x11/16z] unyA
+
+sprite $PlaneSlashMd [20x15/16z] uoSQZ08
+
+sprite $PlaneSlashLg [25x19/16z] un-kO1G
+
+!procedure PlaneSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/PlaneSlash', $name, $tech)
+!endprocedure

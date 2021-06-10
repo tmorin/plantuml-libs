@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Dove
+include('fontawesome-5/Solid/Dove')
+
+' renders the element
+Dove('Dove', 'Dove', 'an optional tech label')
+@enduml

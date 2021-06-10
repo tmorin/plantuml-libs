@@ -1,0 +1,63 @@
+# Th
+
+
+```text
+fontawesome-5/Solid/Th
+```
+
+```text
+include('fontawesome-5/Solid/Th')
+```
+
+
+
+| Illustration | Th |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-5/Solid/Th.png) | ![illustration for Th](../../fontawesome-5/Solid/Th.Local.png) |
+
+
+
+
+## Th
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Th
+include('fontawesome-5/Solid/Th')
+
+' renders the element
+Th('Th', 'Th', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Th
+include('fontawesome-5/Solid/Th')
+
+' renders the element
+Th('Th', 'Th', 'an optional tech label')
+@enduml
+```
+

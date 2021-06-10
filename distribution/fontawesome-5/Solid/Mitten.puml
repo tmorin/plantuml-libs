@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Mitten
+
+sprite $MittenXs [8x9/16z] uwSI
+
+sprite $MittenSm [10x11/16z] uwSh
+
+sprite $MittenMd [14x15/16z] unzs
+
+sprite $MittenLg [17x19/16z] uwSKZ08
+
+!procedure Mitten($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Mitten', $name, $tech)
+!endprocedure

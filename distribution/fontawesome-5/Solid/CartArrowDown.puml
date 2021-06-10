@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CartArrowDown
+
+sprite $CartArrowDownXs [11x9/16z] uwSz
+
+sprite $CartArrowDownSm [13x11/16z] unzS
+
+sprite $CartArrowDownMd [17x15/16z] un_P
+
+sprite $CartArrowDownLg [22x19/16z] un_aO1G
+
+!procedure CartArrowDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CartArrowDown', $name, $tech)
+!endprocedure

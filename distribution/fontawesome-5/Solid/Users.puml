@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Users
+
+sprite $UsersXs [12x9/16z] uwSZ
+
+sprite $UsersSm [15x11/16z] unyA
+
+sprite $UsersMd [20x15/16z] uoSQZ08
+
+sprite $UsersLg [25x19/16z] un-kO1G
+
+!procedure Users($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Users', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Question
+
+sprite $QuestionXs [7x9/16z] uwSC
+
+sprite $QuestionSm [9x11/16z] uwSz
+
+sprite $QuestionMd [12x15/16z] un-2
+
+sprite $QuestionLg [15x19/16z] uySDHW4
+
+!procedure Question($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Question', $name, $tech)
+!endprocedure

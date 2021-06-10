@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Running
+
+sprite $RunningXs [8x9/16z] uwSI
+
+sprite $RunningSm [9x10/16z] uwSP
+
+sprite $RunningMd [13x15/16z] un_w
+
+sprite $RunningLg [16x19/16z] uoS9Z08
+
+!procedure Running($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Running', $name, $tech)
+!endprocedure

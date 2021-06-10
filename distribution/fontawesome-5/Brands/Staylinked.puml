@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Staylinked
+
+sprite $StaylinkedXs [8x9/16z] uwSI
+
+sprite $StaylinkedSm [10x11/16z] uwSh
+
+sprite $StaylinkedMd [13x15/16z] un_w
+
+sprite $StaylinkedLg [17x19/16z] uwSKZ08
+
+!procedure Staylinked($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Staylinked', $name, $tech)
+!endprocedure

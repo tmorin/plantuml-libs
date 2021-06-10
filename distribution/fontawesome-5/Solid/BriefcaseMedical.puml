@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/BriefcaseMedical
+
+sprite $BriefcaseMedicalXs [10x10/16z] uwS3
+
+sprite $BriefcaseMedicalSm [12x12/16z] unza
+
+sprite $BriefcaseMedicalMd [16x16/16z] un_X
+
+sprite $BriefcaseMedicalLg [20x20/16z] unzKO1G
+
+!procedure BriefcaseMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/BriefcaseMedical', $name, $tech)
+!endprocedure

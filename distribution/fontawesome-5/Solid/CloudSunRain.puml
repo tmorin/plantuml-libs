@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/CloudSunRain
+
+sprite $CloudSunRainXs [11x9/16z] uwSz
+
+sprite $CloudSunRainSm [13x11/16z] unzS
+
+sprite $CloudSunRainMd [17x15/16z] un_P
+
+sprite $CloudSunRainLg [22x19/16z] un_aO1G
+
+!procedure CloudSunRain($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/CloudSunRain', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FunnelDollar
+
+sprite $FunnelDollarXs [12x9/16z] uwSZ
+
+sprite $FunnelDollarSm [15x11/16z] unyA
+
+sprite $FunnelDollarMd [20x15/16z] uoSQZ08
+
+sprite $FunnelDollarLg [25x19/16z] un-kO1G
+
+!procedure FunnelDollar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FunnelDollar', $name, $tech)
+!endprocedure

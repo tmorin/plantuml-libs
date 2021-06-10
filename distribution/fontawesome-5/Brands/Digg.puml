@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Digg
+
+sprite $DiggXs [10x10/16z] uwS3
+
+sprite $DiggSm [12x12/16z] unza
+
+sprite $DiggMd [16x16/16z] un_X
+
+sprite $DiggLg [20x20/16z] unzKO1G
+
+!procedure Digg($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Digg', $name, $tech)
+!endprocedure

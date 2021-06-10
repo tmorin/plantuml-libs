@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ToggleOn
+
+sprite $ToggleOnXs [11x9/16z] uwSz
+
+sprite $ToggleOnSm [13x11/16z] unzS
+
+sprite $ToggleOnMd [17x15/16z] un_P
+
+sprite $ToggleOnLg [22x19/16z] un_aO1G
+
+!procedure ToggleOn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ToggleOn', $name, $tech)
+!endprocedure

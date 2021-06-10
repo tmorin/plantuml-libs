@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/MailBulk
+
+sprite $MailBulkXs [11x9/16z] uwSz
+
+sprite $MailBulkSm [13x11/16z] unzS
+
+sprite $MailBulkMd [17x15/16z] un_P
+
+sprite $MailBulkLg [22x19/16z] un_aO1G
+
+!procedure MailBulk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/MailBulk', $name, $tech)
+!endprocedure

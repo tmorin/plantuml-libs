@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Atlas
+
+sprite $AtlasXs [8x9/16z] uwSI
+
+sprite $AtlasSm [10x11/16z] uwSh
+
+sprite $AtlasMd [14x15/16z] unzs
+
+sprite $AtlasLg [17x19/16z] uwSKZ08
+
+!procedure Atlas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Atlas', $name, $tech)
+!endprocedure

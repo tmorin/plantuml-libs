@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Store
+
+sprite $StoreXs [12x10/16z] unyW
+
+sprite $StoreSm [14x11/16z] un-q
+
+sprite $StoreMd [19x15/16z] uySDHW4
+
+sprite $StoreLg [24x20/16z] un_MO1G
+
+!procedure Store($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Store', $name, $tech)
+!endprocedure

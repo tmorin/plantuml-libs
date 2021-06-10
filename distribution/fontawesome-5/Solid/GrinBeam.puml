@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/GrinBeam
+
+sprite $GrinBeamXs [9x9/16z] uwSs
+
+sprite $GrinBeamSm [11x11/16z] unye
+
+sprite $GrinBeamMd [15x15/16z] un_k
+
+sprite $GrinBeamLg [19x19/16z] uwSF60K
+
+!procedure GrinBeam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/GrinBeam', $name, $tech)
+!endprocedure

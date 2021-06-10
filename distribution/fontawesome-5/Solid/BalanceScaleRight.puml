@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/BalanceScaleRight
+
+sprite $BalanceScaleRightXs [12x9/16z] uwSZ
+
+sprite $BalanceScaleRightSm [15x11/16z] unyA
+
+sprite $BalanceScaleRightMd [20x15/16z] uoSQZ08
+
+sprite $BalanceScaleRightLg [25x19/16z] un-kO1G
+
+!procedure BalanceScaleRight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/BalanceScaleRight', $name, $tech)
+!endprocedure

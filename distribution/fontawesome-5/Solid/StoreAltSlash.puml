@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/StoreAltSlash
+
+sprite $StoreAltSlashXs [12x9/16z] uwSZ
+
+sprite $StoreAltSlashSm [15x11/16z] unyA
+
+sprite $StoreAltSlashMd [20x15/16z] uoSQZ08
+
+sprite $StoreAltSlashLg [25x19/16z] un-kO1G
+
+!procedure StoreAltSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/StoreAltSlash', $name, $tech)
+!endprocedure

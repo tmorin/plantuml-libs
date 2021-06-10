@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/BuyNLarge
+
+sprite $BuyNLargeXs [11x9/16z] uwSz
+
+sprite $BuyNLargeSm [13x11/16z] unzS
+
+sprite $BuyNLargeMd [17x15/16z] un_P
+
+sprite $BuyNLargeLg [22x19/16z] un_aO1G
+
+!procedure BuyNLarge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/BuyNLarge', $name, $tech)
+!endprocedure

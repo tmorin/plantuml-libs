@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Etsy
+
+sprite $EtsyXs [7x9/16z] uwSC
+
+sprite $EtsySm [9x11/16z] uwSz
+
+sprite $EtsyMd [12x15/16z] un-2
+
+sprite $EtsyLg [15x19/16z] uySDHW4
+
+!procedure Etsy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Etsy', $name, $tech)
+!endprocedure

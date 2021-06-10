@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tree
+
+sprite $TreeXs [7x9/16z] uwSC
+
+sprite $TreeSm [9x11/16z] uwSz
+
+sprite $TreeMd [12x15/16z] un-2
+
+sprite $TreeLg [15x19/16z] uySDHW4
+
+!procedure Tree($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tree', $name, $tech)
+!endprocedure

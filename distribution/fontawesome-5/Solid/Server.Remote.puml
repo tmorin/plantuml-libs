@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-5/bootstrap')
+
+' loads the Item which embeds the element Server
+include('fontawesome-5/Solid/Server')
+
+' renders the element
+Server('Server', 'Server', 'an optional tech label')
+@enduml

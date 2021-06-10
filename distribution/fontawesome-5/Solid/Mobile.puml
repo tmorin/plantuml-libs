@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Mobile
+
+sprite $MobileXs [6x9/16z] uoSB
+
+sprite $MobileSm [7x11/16z] uwSc
+
+sprite $MobileMd [9x14/16z] unzG
+
+sprite $MobileLg [12x19/16z] uny1
+
+!procedure Mobile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Mobile', $name, $tech)
+!endprocedure

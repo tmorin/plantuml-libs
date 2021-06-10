@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Empire
+
+sprite $EmpireXs [9x9/16z] uwSs
+
+sprite $EmpireSm [11x11/16z] unye
+
+sprite $EmpireMd [15x15/16z] un_k
+
+sprite $EmpireLg [19x19/16z] uwSF60K
+
+!procedure Empire($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Empire', $name, $tech)
+!endprocedure

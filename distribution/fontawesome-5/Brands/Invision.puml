@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Invision
+
+sprite $InvisionXs [8x9/16z] uwSI
+
+sprite $InvisionSm [10x11/16z] uwSh
+
+sprite $InvisionMd [14x15/16z] unzs
+
+sprite $InvisionLg [17x19/16z] uwSKZ08
+
+!procedure Invision($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Invision', $name, $tech)
+!endprocedure

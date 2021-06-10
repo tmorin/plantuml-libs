@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/WonSign
+
+sprite $WonSignXs [11x9/16z] uwSz
+
+sprite $WonSignSm [13x11/16z] unzS
+
+sprite $WonSignMd [17x15/16z] un_P
+
+sprite $WonSignLg [22x19/16z] un_aO1G
+
+!procedure WonSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/WonSign', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/RulerVertical
+
+sprite $RulerVerticalXs [5x10/16z] uoSP
+
+sprite $RulerVerticalSm [6x12/16z] uwSI
+
+sprite $RulerVerticalMd [8x16/16z] unzW
+
+sprite $RulerVerticalLg [10x20/16z] unyc
+
+!procedure RulerVertical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/RulerVertical', $name, $tech)
+!endprocedure

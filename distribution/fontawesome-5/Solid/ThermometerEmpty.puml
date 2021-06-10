@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/ThermometerEmpty
+
+sprite $ThermometerEmptyXs [5x10/16z] uoSP
+
+sprite $ThermometerEmptySm [6x12/16z] uwSI
+
+sprite $ThermometerEmptyMd [8x16/16z] unzW
+
+sprite $ThermometerEmptyLg [10x20/16z] unyc
+
+!procedure ThermometerEmpty($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/ThermometerEmpty', $name, $tech)
+!endprocedure

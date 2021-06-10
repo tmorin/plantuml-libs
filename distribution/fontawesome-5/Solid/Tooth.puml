@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tooth
+
+sprite $ToothXs [8x9/16z] uwSI
+
+sprite $ToothSm [10x11/16z] uwSh
+
+sprite $ToothMd [14x15/16z] unzs
+
+sprite $ToothLg [17x19/16z] uwSKZ08
+
+!procedure Tooth($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tooth', $name, $tech)
+!endprocedure

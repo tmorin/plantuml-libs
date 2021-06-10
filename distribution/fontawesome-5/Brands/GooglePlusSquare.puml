@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GooglePlusSquare
+
+sprite $GooglePlusSquareXs [8x9/16z] uwSI
+
+sprite $GooglePlusSquareSm [10x11/16z] uwSh
+
+sprite $GooglePlusSquareMd [14x15/16z] unzs
+
+sprite $GooglePlusSquareLg [17x19/16z] uwSKZ08
+
+!procedure GooglePlusSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GooglePlusSquare', $name, $tech)
+!endprocedure

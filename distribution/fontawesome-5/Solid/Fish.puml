@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Fish
+
+sprite $FishXs [11x9/16z] uwSz
+
+sprite $FishSm [13x11/16z] unzS
+
+sprite $FishMd [17x15/16z] un_P
+
+sprite $FishLg [22x19/16z] un_aO1G
+
+!procedure Fish($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Fish', $name, $tech)
+!endprocedure

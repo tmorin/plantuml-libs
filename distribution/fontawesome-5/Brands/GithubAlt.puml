@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/GithubAlt
+
+sprite $GithubAltXs [9x9/16z] uwSs
+
+sprite $GithubAltSm [11x11/16z] unye
+
+sprite $GithubAltMd [15x15/16z] un_k
+
+sprite $GithubAltLg [18x19/16z] uwS160K
+
+!procedure GithubAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/GithubAlt', $name, $tech)
+!endprocedure

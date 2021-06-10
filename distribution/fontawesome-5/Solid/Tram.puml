@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Tram
+
+sprite $TramXs [10x10/16z] uwS3
+
+sprite $TramSm [12x12/16z] unza
+
+sprite $TramMd [16x16/16z] un_X
+
+sprite $TramLg [20x20/16z] unzKO1G
+
+!procedure Tram($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Tram', $name, $tech)
+!endprocedure

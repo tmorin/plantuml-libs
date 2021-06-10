@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/FileCsv
+
+sprite $FileCsvXs [7x9/16z] uwSC
+
+sprite $FileCsvSm [9x11/16z] uwSz
+
+sprite $FileCsvMd [12x15/16z] un-2
+
+sprite $FileCsvLg [15x19/16z] uySDHW4
+
+!procedure FileCsv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/FileCsv', $name, $tech)
+!endprocedure

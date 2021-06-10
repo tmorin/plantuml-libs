@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/Radiation
+
+sprite $RadiationXs [9x9/16z] uwSs
+
+sprite $RadiationSm [11x11/16z] unye
+
+sprite $RadiationMd [15x15/16z] un_k
+
+sprite $RadiationLg [19x19/16z] uwSF60K
+
+!procedure Radiation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/Radiation', $name, $tech)
+!endprocedure

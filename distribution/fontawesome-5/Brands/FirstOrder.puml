@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/FirstOrder
+
+sprite $FirstOrderXs [8x9/16z] uwSI
+
+sprite $FirstOrderSm [10x11/16z] uwSh
+
+sprite $FirstOrderMd [14x15/16z] unzs
+
+sprite $FirstOrderLg [17x19/16z] uwSKZ08
+
+!procedure FirstOrder($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/FirstOrder', $name, $tech)
+!endprocedure

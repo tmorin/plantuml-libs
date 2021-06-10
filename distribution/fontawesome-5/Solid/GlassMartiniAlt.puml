@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/GlassMartiniAlt
+
+sprite $GlassMartiniAltXs [10x10/16z] uwS3
+
+sprite $GlassMartiniAltSm [12x12/16z] unza
+
+sprite $GlassMartiniAltMd [16x16/16z] un_X
+
+sprite $GlassMartiniAltLg [20x20/16z] unzKO1G
+
+!procedure GlassMartiniAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/GlassMartiniAlt', $name, $tech)
+!endprocedure

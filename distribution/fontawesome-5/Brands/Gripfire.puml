@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Gripfire
+
+sprite $GripfireXs [7x9/16z] uwSC
+
+sprite $GripfireSm [9x11/16z] uwSz
+
+sprite $GripfireMd [12x15/16z] un-2
+
+sprite $GripfireLg [15x19/16z] uySDHW4
+
+!procedure Gripfire($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Gripfire', $name, $tech)
+!endprocedure

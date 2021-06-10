@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Brands/Microsoft
+
+sprite $MicrosoftXs [8x9/16z] uwSI
+
+sprite $MicrosoftSm [10x11/16z] uwSh
+
+sprite $MicrosoftMd [14x15/16z] unzs
+
+sprite $MicrosoftLg [17x19/16z] uwSKZ08
+
+!procedure Microsoft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Brands/Microsoft', $name, $tech)
+!endprocedure

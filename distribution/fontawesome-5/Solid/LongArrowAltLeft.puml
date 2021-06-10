@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/LongArrowAltLeft
+
+sprite $LongArrowAltLeftXs [8x9/16z] uwSI
+
+sprite $LongArrowAltLeftSm [10x11/16z] uwSh
+
+sprite $LongArrowAltLeftMd [14x15/16z] unzs
+
+sprite $LongArrowAltLeftLg [17x19/16z] uwSKZ08
+
+!procedure LongArrowAltLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/LongArrowAltLeft', $name, $tech)
+!endprocedure

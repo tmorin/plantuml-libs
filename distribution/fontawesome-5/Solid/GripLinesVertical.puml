@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-5/Solid/GripLinesVertical
+
+sprite $GripLinesVerticalXs [5x10/16z] uoSP
+
+sprite $GripLinesVerticalSm [6x12/16z] uwSI
+
+sprite $GripLinesVerticalMd [8x16/16z] unzW
+
+sprite $GripLinesVerticalLg [10x20/16z] unyc
+
+!procedure GripLinesVertical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-5/Solid/GripLinesVertical', $name, $tech)
+!endprocedure
