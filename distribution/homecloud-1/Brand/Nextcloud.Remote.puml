@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-1/bootstrap')
+
+' loads the Item which embeds the element Nextcloud
+include('homecloud-1/Brand/Nextcloud')
+
+' renders the element
+Nextcloud('Nextcloud', 'Nextcloud', 'an optional tech label')
+@enduml

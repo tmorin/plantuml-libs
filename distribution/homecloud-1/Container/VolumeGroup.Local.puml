@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-1/bootstrap')
+
+' loads the Item which embeds the element VolumeGroup
+include('homecloud-1/Container/Volume')
+
+' renders the element
+VolumeGroup('VolumeGroup', 'Volume Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

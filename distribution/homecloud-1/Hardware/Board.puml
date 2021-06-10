@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Hardware/Board
+
+sprite $BoardXs [10x10/16z] uwS3
+
+sprite $BoardSm [12x12/16z] unza
+
+sprite $BoardMd [16x16/16z] un_X
+
+sprite $BoardLg [20x20/16z] unzKO1G
+
+!procedure Board($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Hardware/Board', $name, $tech)
+!endprocedure
+
+!procedure BoardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BoardMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure BoardGroup($id, $name='Board', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BoardMd>', $name, $tech)
+!endprocedure

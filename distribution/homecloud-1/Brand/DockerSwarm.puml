@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Brand/DockerSwarm
+
+sprite $DockerSwarmXs [10x10/16z] XS6t0O0m40ImyjE5_QSbjO0jUGD3mBAdBiqMAxCgQ-JEhchu8SdVJW
+
+sprite $DockerSwarmSm [12x12/16z] ZSU54SH050BGiHCaq7-tORQ2VL_fdNZJmwJ5Pj4u5XFy1t_GgRxx0BXZFvJJEoy
+
+sprite $DockerSwarmMd [16x16/16z] hSV50OHG30JGoowGZFLVBIuD_1UTZ20d_X8RTYiNemgeXH6Es7LQYbpQxkLIUpSJ7l-bxIJrt_Ey3voJPGDKHjW
+
+sprite $DockerSwarmLg [20x20/16z] lOx50SDG34Cl0Kc6xBzjvNARU_JHptXSfgupIXfcVA4GMHbIs_4CCg8vcDt8dYW-1R0A30TZnxx3j-4ab3CduXKvg9oiRSMJ61bOhGqIDoFbtuXPTLod6m
+
+!procedure DockerSwarm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/DockerSwarm', $name, $tech)
+!endprocedure
+
+!procedure DockerSwarmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DockerSwarmMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure DockerSwarmGroup($id, $name='Docker Swarm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DockerSwarmMd>', $name, $tech)
+!endprocedure

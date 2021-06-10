@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Hardware/Hdd
+
+sprite $HddXs [11x9/16z] uwSz
+
+sprite $HddSm [13x11/16z] unzS
+
+sprite $HddMd [17x15/16z] un_P
+
+sprite $HddLg [22x19/16z] un_aO1G
+
+!procedure Hdd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Hardware/Hdd', $name, $tech)
+!endprocedure
+
+!procedure HddCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$HddMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure HddGroup($id, $name='Hdd', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$HddMd>', $name, $tech)
+!endprocedure

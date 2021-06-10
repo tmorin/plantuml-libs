@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Brand/Nextcloud
+
+sprite $NextcloudXs [10x10/16z] uySF-FXukRbv-FZuURcukFZuW0GlWeMGnGy
+
+sprite $NextcloudSm [12x12/16z] ZKkr0G0m25ln_7zjNJSS8aX6kCSut5nLfIs4g2YWRSM-kTsFvlDceW8
+
+sprite $NextcloudMd [16x16/16z] hOsr0G0X303R-Eq_xRj2cuEuqK9jl3vb6xbx46Q-1NcO0FDGJKZLS1lZiN_UzzvhOGK
+
+sprite $NextcloudLg [20x20/16z] nOwt0G0n20FhGyY__xGEpIVJcvpHTPOSa_oaKdCWWPkq6Wb4a3DQdXK99sXj2DAegbMxnOy2oq4Q
+
+!procedure Nextcloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Nextcloud', $name, $tech)
+!endprocedure
+
+!procedure NextcloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NextcloudMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure NextcloudGroup($id, $name='Nextcloud', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NextcloudMd>', $name, $tech)
+!endprocedure

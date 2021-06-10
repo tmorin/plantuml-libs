@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Network/Internet
+
+sprite $InternetXs [10x10/16z] uwS3
+
+sprite $InternetSm [12x12/16z] unza
+
+sprite $InternetMd [16x16/16z] un_X
+
+sprite $InternetLg [20x20/16z] unzKO1G
+
+!procedure Internet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Network/Internet', $name, $tech)
+!endprocedure
+
+!procedure InternetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure InternetGroup($id, $name='Internet', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InternetMd>', $name, $tech)
+!endprocedure

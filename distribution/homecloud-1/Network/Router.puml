@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Network/Router
+
+sprite $RouterXs [10x10/16z] uwS3
+
+sprite $RouterSm [12x12/16z] unza
+
+sprite $RouterMd [16x16/16z] un_X
+
+sprite $RouterLg [20x20/16z] unzKO1G
+
+!procedure Router($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Network/Router', $name, $tech)
+!endprocedure
+
+!procedure RouterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RouterMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure RouterGroup($id, $name='Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RouterMd>', $name, $tech)
+!endprocedure

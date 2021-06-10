@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Container/Container
+
+sprite $ContainerXs [10x10/16z] uwS3
+
+sprite $ContainerSm [12x12/16z] unza
+
+sprite $ContainerMd [16x16/16z] un_X
+
+sprite $ContainerLg [20x20/16z] unzKO1G
+
+!procedure Container($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Container/Container', $name, $tech)
+!endprocedure
+
+!procedure ContainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContainerGroup($id, $name='Container', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Brand/Backup
+
+sprite $BackupXs [10x10/16z] uwS3
+
+sprite $BackupSm [12x12/16z] unza
+
+sprite $BackupMd [16x16/16z] un_X
+
+sprite $BackupLg [20x20/16z] unzKO1G
+
+!procedure Backup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Backup', $name, $tech)
+!endprocedure
+
+!procedure BackupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BackupMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure BackupGroup($id, $name='Backup', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BackupMd>', $name, $tech)
+!endprocedure

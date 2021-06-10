@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-1/bootstrap')
+
+' loads the Item which embeds the element DnsGroup
+include('homecloud-1/Network/Dns')
+
+' renders the element
+DnsGroup('DnsGroup', 'Dns Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

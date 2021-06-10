@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Network/Dns
+
+sprite $DnsXs [10x10/16z] uwS3
+
+sprite $DnsSm [12x12/16z] unza
+
+sprite $DnsMd [16x16/16z] un_X
+
+sprite $DnsLg [20x20/16z] unzKO1G
+
+!procedure Dns($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Network/Dns', $name, $tech)
+!endprocedure
+
+!procedure DnsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DnsMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure DnsGroup($id, $name='Dns', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DnsMd>', $name, $tech)
+!endprocedure

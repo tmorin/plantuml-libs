@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Hardware/Smartphone
+
+sprite $SmartphoneXs [10x10/16z] uwS3
+
+sprite $SmartphoneSm [12x12/16z] unza
+
+sprite $SmartphoneMd [16x16/16z] un_X
+
+sprite $SmartphoneLg [20x20/16z] unzKO1G
+
+!procedure Smartphone($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Hardware/Smartphone', $name, $tech)
+!endprocedure
+
+!procedure SmartphoneCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SmartphoneMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure SmartphoneGroup($id, $name='Smartphone', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SmartphoneMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-1/bootstrap')
+
+' loads the Item which embeds the element Calibreweb
+include('homecloud-1/Brand/Calibreweb')
+
+' renders the element
+Calibreweb('Calibreweb', 'Calibreweb', 'an optional tech label')
+@enduml

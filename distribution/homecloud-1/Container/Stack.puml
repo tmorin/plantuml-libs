@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Container/Stack
+
+sprite $StackXs [10x10/16z] uwS3
+
+sprite $StackSm [12x12/16z] unza
+
+sprite $StackMd [16x16/16z] un_X
+
+sprite $StackLg [20x20/16z] unzKO1G
+
+!procedure Stack($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Container/Stack', $name, $tech)
+!endprocedure
+
+!procedure StackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$StackMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure StackGroup($id, $name='Stack', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$StackMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Brand/Calibreweb
+
+sprite $CalibrewebXs [10x10/16z] uwS3
+
+sprite $CalibrewebSm [12x12/16z] unza
+
+sprite $CalibrewebMd [16x16/16z] un_X
+
+sprite $CalibrewebLg [20x20/16z] unzKO1G
+
+!procedure Calibreweb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Calibreweb', $name, $tech)
+!endprocedure
+
+!procedure CalibrewebCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CalibrewebMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure CalibrewebGroup($id, $name='Calibreweb', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CalibrewebMd>', $name, $tech)
+!endprocedure

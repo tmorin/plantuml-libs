@@ -1,0 +1,27 @@
+' definition of the Item homecloud-1/Brand/Ceph
+
+sprite $CephXs [10x10/16z] 5Ol74S1030A_Oi57_zrwK1QXZUxajeW4KSlMsWVRS1SPhEmQkyle-uGFHOaY7faZl3PZq_u
+
+sprite $CephSm [12x12/16z] 9Kh73S0m4FhIVEo_RP3YGc_FsF6rVGIbmUiHYPs09yGWuK3GuBr50Yo6UpAGwI4rdFTx0u4hUBUOV4DaJtoDV-sqlNzpxGS
+
+sprite $CephMd [16x16/16z] {
+JOl75GH024AlYA3zTxkucHa3lEz6AaIbVSh4M_JPoY9R3E8T1dIJxPnn6j3dNa1iExaKpet832PDXW-RWWxJhN_UR-y3oUU8Fn3QlPvYWDHkWKxDQzglV5R9
+NdvuToihUp8vzaJqReEtFm
+}
+
+sprite $CephLg [20x20/16z] {
+LOzN5e1020D_fIJS_xOIiCQ2pChisr8GTdGiK5SeSYMuQ8XtL8qNik0aR65qGNUT81f6vQ1BQ0DJ2pFkFeCQKssvIpUroHPZckLyk5XY-VP8CU1MChRRtYxN
+SYrhVmBCu_9T2bJXaX-X6RsgN9vvsMsyRKPDk0vDwgW-bih_VraAlZxKbRZtZMbF
+}
+
+!procedure Ceph($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Ceph', $name, $tech)
+!endprocedure
+
+!procedure CephCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CephMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure CephGroup($id, $name='Ceph', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CephMd>', $name, $tech)
+!endprocedure

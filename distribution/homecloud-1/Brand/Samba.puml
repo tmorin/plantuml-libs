@@ -1,0 +1,21 @@
+' definition of the Item homecloud-1/Brand/Samba
+
+sprite $SambaXs [10x10/16z] uwS3
+
+sprite $SambaSm [12x12/16z] unza
+
+sprite $SambaMd [16x16/16z] un_X
+
+sprite $SambaLg [20x20/16z] unzKO1G
+
+!procedure Samba($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Samba', $name, $tech)
+!endprocedure
+
+!procedure SambaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SambaMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure SambaGroup($id, $name='Samba', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SambaMd>', $name, $tech)
+!endprocedure

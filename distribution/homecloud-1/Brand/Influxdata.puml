@@ -1,0 +1,27 @@
+' definition of the Item homecloud-1/Brand/Influxdata
+
+sprite $InfluxdataXs [10x10/16z] 7SR50G0m3090g5l2_jFMxdMIrZ9zg-JQfx-0CURnSaUqEmQIAEObnhUqr28OKcnBCm68rIIVBQTsyzXyEG
+
+sprite $InfluxdataSm [12x12/16z] BOo50S0m20JX6qNttxQnmpKNPf4FxNteBRKnlgzFpv16H0LSDAqp4S04IHyVOrN48sAYd9owfwnThFeRjjxGuaFNJ9yLwr6tNBZ9QFEaj_GTVW
+
+sprite $InfluxdataMd [16x16/16z] {
+LK_LWGKW3AlWjVstlN3FynU5raL6r1VYx7qyFtHgxtCVomSTJ2AiK43zKgBMH7HdnHu4Y2eHhm3lbmg1qxJAqvLKw9zt35WNA8Wmj9FbanLjHeNRni1gV6tj
+sXRyV3n024pGglCAhEV_xApPP3mfa93sVj7VY_y
+}
+
+sprite $InfluxdataLg [20x20/16z] {
+NP075WGX24EbZ0As-zzsYTidK_tm4dG_jTRQDus8wFCVkPcvHn_hYngpojKiyGTHAIo59Ec0U_TA9QLLXGLinGkHNlYq0BE3M4dmKoDZmXH8yc4uU8xKJUIW
+Z43HErAPBotGALYowKgNAipqX1p3UimaXnRMwgyGAb2sinZyTiuCWanYYuo5OOCPSkM5i1EtcfZh2vtEqIDnSw2lLkBuH__7_m
+}
+
+!procedure Influxdata($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Influxdata', $name, $tech)
+!endprocedure
+
+!procedure InfluxdataCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InfluxdataMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure InfluxdataGroup($id, $name='Influxdata', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InfluxdataMd>', $name, $tech)
+!endprocedure

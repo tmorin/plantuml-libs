@@ -1,0 +1,24 @@
+' definition of the Item homecloud-1/Brand/Portainer
+
+sprite $PortainerXs [10x10/16z] LOd50K0124AlAhN_jB_J15wsClUxVu3QnQwqgn342MSkfUwvivwvLRV-AWBWxQy
+
+sprite $PortainerSm [12x12/16z] JKr50G103FfEeN_QSvaxS0g2Lz8ziAlmfVl2m_QORfQlLdjpK_LIsxyPacy-hihy4eSTsWu
+
+sprite $PortainerMd [16x16/16z] TK_50G0X37kt4VQVzbpGe16avG5B3I7XZvdGqNWh8X979xw8mVmlu17GpvqHTCkZydLoLZmEeCjdTJ_YHDRv4rxmWhpoLJq0zT0T
+
+sprite $PortainerLg [20x20/16z] {
+XT2r0K0n30FHsYVBsN_QpunNld3QLbQxL8akQ8J8uoIHXGrUDvA411ewJ9KCf_shnDaCGTRP8XujBcipniwcoVHhnMZ4rQPyFME8wtv3sirNcr0C0cx7Kd9j
+tzm3
+}
+
+!procedure Portainer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-1/Brand/Portainer', $name, $tech)
+!endprocedure
+
+!procedure PortainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PortainerMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure PortainerGroup($id, $name='Portainer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PortainerMd>', $name, $tech)
+!endprocedure
