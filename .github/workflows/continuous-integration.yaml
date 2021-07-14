@@ -47,4 +47,5 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: tmorin-plantuml-libs.zip
-          path: .cache/tmorin-plantuml-libs.zip
+          path: |
+            .cache/tmorin-plantuml-libs.zip
