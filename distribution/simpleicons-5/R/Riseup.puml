@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Riseup
+
+sprite $RiseupXs [10x10/16z] uwS3
+
+sprite $RiseupSm [12x12/16z] unza
+
+sprite $RiseupMd [16x16/16z] un_X
+
+sprite $RiseupLg [20x20/16z] unzKO1G
+
+!procedure Riseup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Riseup', $name, $tech)
+!endprocedure

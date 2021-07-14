@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fandango
+
+sprite $FandangoXs [10x10/16z] uwS3
+
+sprite $FandangoSm [12x12/16z] unza
+
+sprite $FandangoMd [16x16/16z] un_X
+
+sprite $FandangoLg [20x20/16z] unzKO1G
+
+!procedure Fandango($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fandango', $name, $tech)
+!endprocedure

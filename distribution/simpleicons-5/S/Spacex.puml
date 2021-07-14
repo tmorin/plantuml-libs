@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Spacex
+
+sprite $SpacexXs [10x10/16z] uwS3
+
+sprite $SpacexSm [12x12/16z] unza
+
+sprite $SpacexMd [16x16/16z] un_X
+
+sprite $SpacexLg [20x20/16z] unzKO1G
+
+!procedure Spacex($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Spacex', $name, $tech)
+!endprocedure

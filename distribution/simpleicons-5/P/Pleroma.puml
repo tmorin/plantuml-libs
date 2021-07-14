@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Pleroma
+
+sprite $PleromaXs [10x10/16z] uwS3
+
+sprite $PleromaSm [12x12/16z] unza
+
+sprite $PleromaMd [16x16/16z] un_X
+
+sprite $PleromaLg [20x20/16z] unzKO1G
+
+!procedure Pleroma($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Pleroma', $name, $tech)
+!endprocedure

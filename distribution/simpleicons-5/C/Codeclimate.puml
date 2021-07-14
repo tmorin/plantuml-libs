@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codeclimate
+
+sprite $CodeclimateXs [10x10/16z] uwS3
+
+sprite $CodeclimateSm [12x12/16z] unza
+
+sprite $CodeclimateMd [16x16/16z] un_X
+
+sprite $CodeclimateLg [20x20/16z] unzKO1G
+
+!procedure Codeclimate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codeclimate', $name, $tech)
+!endprocedure

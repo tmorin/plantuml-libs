@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Britishairways
+
+sprite $BritishairwaysXs [10x10/16z] uwS3
+
+sprite $BritishairwaysSm [12x12/16z] unza
+
+sprite $BritishairwaysMd [16x16/16z] un_X
+
+sprite $BritishairwaysLg [20x20/16z] unzKO1G
+
+!procedure Britishairways($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Britishairways', $name, $tech)
+!endprocedure

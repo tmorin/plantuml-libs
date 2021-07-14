@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Elementary
+
+sprite $ElementaryXs [10x10/16z] uwS3
+
+sprite $ElementarySm [12x12/16z] unza
+
+sprite $ElementaryMd [16x16/16z] un_X
+
+sprite $ElementaryLg [20x20/16z] unzKO1G
+
+!procedure Elementary($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Elementary', $name, $tech)
+!endprocedure

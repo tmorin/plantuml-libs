@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kibana
+
+sprite $KibanaXs [10x10/16z] uwS3
+
+sprite $KibanaSm [12x12/16z] unza
+
+sprite $KibanaMd [16x16/16z] un_X
+
+sprite $KibanaLg [20x20/16z] unzKO1G
+
+!procedure Kibana($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kibana', $name, $tech)
+!endprocedure

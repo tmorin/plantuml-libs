@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Americanexpress
+
+sprite $AmericanexpressXs [10x10/16z] uwS3
+
+sprite $AmericanexpressSm [12x12/16z] unza
+
+sprite $AmericanexpressMd [16x16/16z] un_X
+
+sprite $AmericanexpressLg [20x20/16z] unzKO1G
+
+!procedure Americanexpress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Americanexpress', $name, $tech)
+!endprocedure

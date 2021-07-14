@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Egnyte
+
+sprite $EgnyteXs [10x10/16z] uwS3
+
+sprite $EgnyteSm [12x12/16z] unza
+
+sprite $EgnyteMd [16x16/16z] un_X
+
+sprite $EgnyteLg [20x20/16z] unzKO1G
+
+!procedure Egnyte($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Egnyte', $name, $tech)
+!endprocedure

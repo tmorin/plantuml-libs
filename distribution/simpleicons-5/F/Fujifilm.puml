@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fujifilm
+
+sprite $FujifilmXs [10x10/16z] uwS3
+
+sprite $FujifilmSm [12x12/16z] unza
+
+sprite $FujifilmMd [16x16/16z] un_X
+
+sprite $FujifilmLg [20x20/16z] unzKO1G
+
+!procedure Fujifilm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fujifilm', $name, $tech)
+!endprocedure

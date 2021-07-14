@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sqlite
+
+sprite $SqliteXs [10x10/16z] uwS3
+
+sprite $SqliteSm [12x12/16z] unza
+
+sprite $SqliteMd [16x16/16z] un_X
+
+sprite $SqliteLg [20x20/16z] unzKO1G
+
+!procedure Sqlite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sqlite', $name, $tech)
+!endprocedure

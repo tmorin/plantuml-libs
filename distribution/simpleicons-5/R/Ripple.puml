@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Ripple
+
+sprite $RippleXs [10x10/16z] uwS3
+
+sprite $RippleSm [12x12/16z] unza
+
+sprite $RippleMd [16x16/16z] un_X
+
+sprite $RippleLg [20x20/16z] unzKO1G
+
+!procedure Ripple($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Ripple', $name, $tech)
+!endprocedure

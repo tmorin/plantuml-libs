@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Loom
+
+sprite $LoomXs [10x10/16z] uwS3
+
+sprite $LoomSm [12x12/16z] unza
+
+sprite $LoomMd [16x16/16z] un_X
+
+sprite $LoomLg [20x20/16z] unzKO1G
+
+!procedure Loom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Loom', $name, $tech)
+!endprocedure

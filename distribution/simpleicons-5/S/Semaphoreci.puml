@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Semaphoreci
+
+sprite $SemaphoreciXs [10x10/16z] uwS3
+
+sprite $SemaphoreciSm [12x12/16z] unza
+
+sprite $SemaphoreciMd [16x16/16z] un_X
+
+sprite $SemaphoreciLg [20x20/16z] unzKO1G
+
+!procedure Semaphoreci($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Semaphoreci', $name, $tech)
+!endprocedure

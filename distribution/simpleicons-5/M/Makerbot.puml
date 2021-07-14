@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Makerbot
+
+sprite $MakerbotXs [10x10/16z] uwS3
+
+sprite $MakerbotSm [12x12/16z] unza
+
+sprite $MakerbotMd [16x16/16z] un_X
+
+sprite $MakerbotLg [20x20/16z] unzKO1G
+
+!procedure Makerbot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Makerbot', $name, $tech)
+!endprocedure

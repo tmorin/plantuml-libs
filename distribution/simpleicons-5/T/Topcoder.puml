@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Topcoder
+
+sprite $TopcoderXs [10x10/16z] uwS3
+
+sprite $TopcoderSm [12x12/16z] unza
+
+sprite $TopcoderMd [16x16/16z] un_X
+
+sprite $TopcoderLg [20x20/16z] unzKO1G
+
+!procedure Topcoder($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Topcoder', $name, $tech)
+!endprocedure

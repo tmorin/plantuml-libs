@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Directus
+
+sprite $DirectusXs [10x10/16z] uwS3
+
+sprite $DirectusSm [12x12/16z] unza
+
+sprite $DirectusMd [16x16/16z] un_X
+
+sprite $DirectusLg [20x20/16z] unzKO1G
+
+!procedure Directus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Directus', $name, $tech)
+!endprocedure

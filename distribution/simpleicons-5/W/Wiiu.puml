@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Wiiu
+
+sprite $WiiuXs [10x10/16z] uwS3
+
+sprite $WiiuSm [12x12/16z] unza
+
+sprite $WiiuMd [16x16/16z] un_X
+
+sprite $WiiuLg [20x20/16z] unzKO1G
+
+!procedure Wiiu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Wiiu', $name, $tech)
+!endprocedure

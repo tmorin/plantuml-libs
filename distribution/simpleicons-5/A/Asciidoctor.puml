@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Asciidoctor
+
+sprite $AsciidoctorXs [10x10/16z] uwS3
+
+sprite $AsciidoctorSm [12x12/16z] unza
+
+sprite $AsciidoctorMd [16x16/16z] un_X
+
+sprite $AsciidoctorLg [20x20/16z] unzKO1G
+
+!procedure Asciidoctor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Asciidoctor', $name, $tech)
+!endprocedure

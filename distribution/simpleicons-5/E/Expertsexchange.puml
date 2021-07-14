@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Expertsexchange
+
+sprite $ExpertsexchangeXs [10x10/16z] uwS3
+
+sprite $ExpertsexchangeSm [12x12/16z] unza
+
+sprite $ExpertsexchangeMd [16x16/16z] un_X
+
+sprite $ExpertsexchangeLg [20x20/16z] unzKO1G
+
+!procedure Expertsexchange($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Expertsexchange', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Digikeyelectronics
+
+sprite $DigikeyelectronicsXs [10x10/16z] uwS3
+
+sprite $DigikeyelectronicsSm [12x12/16z] unza
+
+sprite $DigikeyelectronicsMd [16x16/16z] un_X
+
+sprite $DigikeyelectronicsLg [20x20/16z] unzKO1G
+
+!procedure Digikeyelectronics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Digikeyelectronics', $name, $tech)
+!endprocedure

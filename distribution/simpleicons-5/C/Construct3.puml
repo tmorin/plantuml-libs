@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Construct3
+
+sprite $Construct3Xs [10x10/16z] uwS3
+
+sprite $Construct3Sm [12x12/16z] unza
+
+sprite $Construct3Md [16x16/16z] un_X
+
+sprite $Construct3Lg [20x20/16z] unzKO1G
+
+!procedure Construct3($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Construct3', $name, $tech)
+!endprocedure

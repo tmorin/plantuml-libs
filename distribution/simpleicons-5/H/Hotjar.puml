@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Hotjar
+
+sprite $HotjarXs [10x10/16z] uwS3
+
+sprite $HotjarSm [12x12/16z] unza
+
+sprite $HotjarMd [16x16/16z] un_X
+
+sprite $HotjarLg [20x20/16z] unzKO1G
+
+!procedure Hotjar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Hotjar', $name, $tech)
+!endprocedure

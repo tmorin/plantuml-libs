@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/Vivino
+
+sprite $VivinoXs [10x10/16z] uwS3
+
+sprite $VivinoSm [12x12/16z] unza
+
+sprite $VivinoMd [16x16/16z] un_X
+
+sprite $VivinoLg [20x20/16z] unzKO1G
+
+!procedure Vivino($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/Vivino', $name, $tech)
+!endprocedure

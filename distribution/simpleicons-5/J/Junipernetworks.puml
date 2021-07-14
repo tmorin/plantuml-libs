@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Junipernetworks
+
+sprite $JunipernetworksXs [10x10/16z] uwS3
+
+sprite $JunipernetworksSm [12x12/16z] unza
+
+sprite $JunipernetworksMd [16x16/16z] un_X
+
+sprite $JunipernetworksLg [20x20/16z] unzKO1G
+
+!procedure Junipernetworks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Junipernetworks', $name, $tech)
+!endprocedure

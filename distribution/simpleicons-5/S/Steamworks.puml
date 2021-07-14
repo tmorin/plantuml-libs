@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Steamworks
+
+sprite $SteamworksXs [10x10/16z] uwS3
+
+sprite $SteamworksSm [12x12/16z] unza
+
+sprite $SteamworksMd [16x16/16z] un_X
+
+sprite $SteamworksLg [20x20/16z] unzKO1G
+
+!procedure Steamworks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Steamworks', $name, $tech)
+!endprocedure

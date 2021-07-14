@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Ipfs
+
+sprite $IpfsXs [10x10/16z] uwS3
+
+sprite $IpfsSm [12x12/16z] unza
+
+sprite $IpfsMd [16x16/16z] un_X
+
+sprite $IpfsLg [20x20/16z] unzKO1G
+
+!procedure Ipfs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Ipfs', $name, $tech)
+!endprocedure

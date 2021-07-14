@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Arangodb
+
+sprite $ArangodbXs [10x10/16z] uwS3
+
+sprite $ArangodbSm [12x12/16z] unza
+
+sprite $ArangodbMd [16x16/16z] un_X
+
+sprite $ArangodbLg [20x20/16z] unzKO1G
+
+!procedure Arangodb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Arangodb', $name, $tech)
+!endprocedure

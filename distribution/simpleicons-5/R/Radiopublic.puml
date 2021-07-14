@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Radiopublic
+
+sprite $RadiopublicXs [10x10/16z] uwS3
+
+sprite $RadiopublicSm [12x12/16z] unza
+
+sprite $RadiopublicMd [16x16/16z] un_X
+
+sprite $RadiopublicLg [20x20/16z] unzKO1G
+
+!procedure Radiopublic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Radiopublic', $name, $tech)
+!endprocedure

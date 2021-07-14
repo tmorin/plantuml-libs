@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Trustedshops
+
+sprite $TrustedshopsXs [10x10/16z] uwS3
+
+sprite $TrustedshopsSm [12x12/16z] unza
+
+sprite $TrustedshopsMd [16x16/16z] un_X
+
+sprite $TrustedshopsLg [20x20/16z] unzKO1G
+
+!procedure Trustedshops($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Trustedshops', $name, $tech)
+!endprocedure

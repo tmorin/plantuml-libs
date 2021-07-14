@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Jinja
+
+sprite $JinjaXs [10x10/16z] uwS3
+
+sprite $JinjaSm [12x12/16z] unza
+
+sprite $JinjaMd [16x16/16z] un_X
+
+sprite $JinjaLg [20x20/16z] unzKO1G
+
+!procedure Jinja($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Jinja', $name, $tech)
+!endprocedure

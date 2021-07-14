@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gentoo
+
+sprite $GentooXs [10x10/16z] uwS3
+
+sprite $GentooSm [12x12/16z] unza
+
+sprite $GentooMd [16x16/16z] un_X
+
+sprite $GentooLg [20x20/16z] unzKO1G
+
+!procedure Gentoo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gentoo', $name, $tech)
+!endprocedure

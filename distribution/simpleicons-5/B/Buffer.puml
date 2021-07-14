@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Buffer
+
+sprite $BufferXs [10x10/16z] uwS3
+
+sprite $BufferSm [12x12/16z] unza
+
+sprite $BufferMd [16x16/16z] un_X
+
+sprite $BufferLg [20x20/16z] unzKO1G
+
+!procedure Buffer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Buffer', $name, $tech)
+!endprocedure

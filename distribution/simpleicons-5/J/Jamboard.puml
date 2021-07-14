@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Jamboard
+
+sprite $JamboardXs [10x10/16z] uwS3
+
+sprite $JamboardSm [12x12/16z] unza
+
+sprite $JamboardMd [16x16/16z] un_X
+
+sprite $JamboardLg [20x20/16z] unzKO1G
+
+!procedure Jamboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Jamboard', $name, $tech)
+!endprocedure

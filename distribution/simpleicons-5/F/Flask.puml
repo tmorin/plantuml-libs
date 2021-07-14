@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Flask
+
+sprite $FlaskXs [10x10/16z] uwS3
+
+sprite $FlaskSm [12x12/16z] unza
+
+sprite $FlaskMd [16x16/16z] un_X
+
+sprite $FlaskLg [20x20/16z] unzKO1G
+
+!procedure Flask($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Flask', $name, $tech)
+!endprocedure

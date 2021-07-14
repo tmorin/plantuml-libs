@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Eventstore
+
+sprite $EventstoreXs [10x10/16z] uwS3
+
+sprite $EventstoreSm [12x12/16z] unza
+
+sprite $EventstoreMd [16x16/16z] un_X
+
+sprite $EventstoreLg [20x20/16z] unzKO1G
+
+!procedure Eventstore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Eventstore', $name, $tech)
+!endprocedure

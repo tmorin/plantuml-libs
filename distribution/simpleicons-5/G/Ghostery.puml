@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Ghostery
+
+sprite $GhosteryXs [10x10/16z] uwS3
+
+sprite $GhosterySm [12x12/16z] unza
+
+sprite $GhosteryMd [16x16/16z] un_X
+
+sprite $GhosteryLg [20x20/16z] unzKO1G
+
+!procedure Ghostery($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Ghostery', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Raspberrypi
+
+sprite $RaspberrypiXs [10x10/16z] uwS3
+
+sprite $RaspberrypiSm [12x12/16z] unza
+
+sprite $RaspberrypiMd [16x16/16z] un_X
+
+sprite $RaspberrypiLg [20x20/16z] unzKO1G
+
+!procedure Raspberrypi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Raspberrypi', $name, $tech)
+!endprocedure

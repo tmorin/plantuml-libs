@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kaggle
+
+sprite $KaggleXs [10x10/16z] uwS3
+
+sprite $KaggleSm [12x12/16z] unza
+
+sprite $KaggleMd [16x16/16z] un_X
+
+sprite $KaggleLg [20x20/16z] unzKO1G
+
+!procedure Kaggle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kaggle', $name, $tech)
+!endprocedure

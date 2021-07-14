@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Trainerroad
+
+sprite $TrainerroadXs [10x10/16z] uwS3
+
+sprite $TrainerroadSm [12x12/16z] unza
+
+sprite $TrainerroadMd [16x16/16z] un_X
+
+sprite $TrainerroadLg [20x20/16z] unzKO1G
+
+!procedure Trainerroad($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Trainerroad', $name, $tech)
+!endprocedure

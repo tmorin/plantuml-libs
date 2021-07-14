@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Telegraph
+
+sprite $TelegraphXs [10x10/16z] uwS3
+
+sprite $TelegraphSm [12x12/16z] unza
+
+sprite $TelegraphMd [16x16/16z] un_X
+
+sprite $TelegraphLg [20x20/16z] unzKO1G
+
+!procedure Telegraph($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Telegraph', $name, $tech)
+!endprocedure

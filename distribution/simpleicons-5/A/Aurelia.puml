@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Aurelia
+
+sprite $AureliaXs [10x10/16z] uwS3
+
+sprite $AureliaSm [12x12/16z] unza
+
+sprite $AureliaMd [16x16/16z] un_X
+
+sprite $AureliaLg [20x20/16z] unzKO1G
+
+!procedure Aurelia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Aurelia', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Slides
+
+sprite $SlidesXs [10x10/16z] uwS3
+
+sprite $SlidesSm [12x12/16z] unza
+
+sprite $SlidesMd [16x16/16z] un_X
+
+sprite $SlidesLg [20x20/16z] unzKO1G
+
+!procedure Slides($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Slides', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Readthedocs
+
+sprite $ReadthedocsXs [10x10/16z] uwS3
+
+sprite $ReadthedocsSm [12x12/16z] unza
+
+sprite $ReadthedocsMd [16x16/16z] un_X
+
+sprite $ReadthedocsLg [20x20/16z] unzKO1G
+
+!procedure Readthedocs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Readthedocs', $name, $tech)
+!endprocedure

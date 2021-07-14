@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Houzz
+
+sprite $HouzzXs [10x10/16z] uwS3
+
+sprite $HouzzSm [12x12/16z] unza
+
+sprite $HouzzMd [16x16/16z] un_X
+
+sprite $HouzzLg [20x20/16z] unzKO1G
+
+!procedure Houzz($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Houzz', $name, $tech)
+!endprocedure

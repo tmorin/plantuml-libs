@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Issuu
+
+sprite $IssuuXs [10x10/16z] uwS3
+
+sprite $IssuuSm [12x12/16z] unza
+
+sprite $IssuuMd [16x16/16z] un_X
+
+sprite $IssuuLg [20x20/16z] unzKO1G
+
+!procedure Issuu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Issuu', $name, $tech)
+!endprocedure

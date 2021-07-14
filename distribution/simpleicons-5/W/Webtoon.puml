@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Webtoon
+
+sprite $WebtoonXs [10x10/16z] uwS3
+
+sprite $WebtoonSm [12x12/16z] unza
+
+sprite $WebtoonMd [16x16/16z] un_X
+
+sprite $WebtoonLg [20x20/16z] unzKO1G
+
+!procedure Webtoon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Webtoon', $name, $tech)
+!endprocedure

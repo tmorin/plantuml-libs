@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fastify
+
+sprite $FastifyXs [10x10/16z] uwS3
+
+sprite $FastifySm [12x12/16z] unza
+
+sprite $FastifyMd [16x16/16z] un_X
+
+sprite $FastifyLg [20x20/16z] unzKO1G
+
+!procedure Fastify($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fastify', $name, $tech)
+!endprocedure

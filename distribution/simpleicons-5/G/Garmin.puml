@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Garmin
+
+sprite $GarminXs [10x10/16z] uwS3
+
+sprite $GarminSm [12x12/16z] unza
+
+sprite $GarminMd [16x16/16z] un_X
+
+sprite $GarminLg [20x20/16z] unzKO1G
+
+!procedure Garmin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Garmin', $name, $tech)
+!endprocedure

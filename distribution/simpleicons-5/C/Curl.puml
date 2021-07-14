@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Curl
+
+sprite $CurlXs [10x10/16z] uwS3
+
+sprite $CurlSm [12x12/16z] unza
+
+sprite $CurlMd [16x16/16z] un_X
+
+sprite $CurlLg [20x20/16z] unzKO1G
+
+!procedure Curl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Curl', $name, $tech)
+!endprocedure

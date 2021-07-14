@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Beijingsubway
+
+sprite $BeijingsubwayXs [10x10/16z] uwS3
+
+sprite $BeijingsubwaySm [12x12/16z] unza
+
+sprite $BeijingsubwayMd [16x16/16z] un_X
+
+sprite $BeijingsubwayLg [20x20/16z] unzKO1G
+
+!procedure Beijingsubway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Beijingsubway', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Flutter
+
+sprite $FlutterXs [10x10/16z] uwS3
+
+sprite $FlutterSm [12x12/16z] unza
+
+sprite $FlutterMd [16x16/16z] un_X
+
+sprite $FlutterLg [20x20/16z] unzKO1G
+
+!procedure Flutter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Flutter', $name, $tech)
+!endprocedure

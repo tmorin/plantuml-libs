@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Discogs
+
+sprite $DiscogsXs [10x10/16z] uwS3
+
+sprite $DiscogsSm [12x12/16z] unza
+
+sprite $DiscogsMd [16x16/16z] un_X
+
+sprite $DiscogsLg [20x20/16z] unzKO1G
+
+!procedure Discogs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Discogs', $name, $tech)
+!endprocedure

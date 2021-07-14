@@ -1,0 +1,63 @@
+# Ckeditor4
+
+
+```text
+simpleicons-5/C/Ckeditor4
+```
+
+```text
+include('simpleicons-5/C/Ckeditor4')
+```
+
+
+
+| Illustration | Ckeditor4 |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-5/C/Ckeditor4.png) | ![illustration for Ckeditor4](../../simpleicons-5/C/Ckeditor4.Local.png) |
+
+
+
+
+## Ckeditor4
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Ckeditor4
+include('simpleicons-5/C/Ckeditor4')
+
+' renders the element
+Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Ckeditor4
+include('simpleicons-5/C/Ckeditor4')
+
+' renders the element
+Ckeditor4('Ckeditor4', 'Ckeditor4', 'an optional tech label')
+@enduml
+```
+

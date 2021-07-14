@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/W3C
+
+sprite $W3CXs [10x10/16z] uwS3
+
+sprite $W3CSm [12x12/16z] unza
+
+sprite $W3CMd [16x16/16z] un_X
+
+sprite $W3CLg [20x20/16z] unzKO1G
+
+!procedure W3C($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/W3C', $name, $tech)
+!endprocedure

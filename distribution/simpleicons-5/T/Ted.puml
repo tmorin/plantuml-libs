@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Ted
+
+sprite $TedXs [10x10/16z] uwS3
+
+sprite $TedSm [12x12/16z] unza
+
+sprite $TedMd [16x16/16z] un_X
+
+sprite $TedLg [20x20/16z] unzKO1G
+
+!procedure Ted($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Ted', $name, $tech)
+!endprocedure

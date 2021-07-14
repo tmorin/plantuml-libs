@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/_/_1001Tracklists
+
+sprite $_1001TracklistsXs [10x10/16z] uwS3
+
+sprite $_1001TracklistsSm [12x12/16z] unza
+
+sprite $_1001TracklistsMd [16x16/16z] un_X
+
+sprite $_1001TracklistsLg [20x20/16z] unzKO1G
+
+!procedure _1001Tracklists($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/_/_1001Tracklists', $name, $tech)
+!endprocedure

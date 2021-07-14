@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Canva
+
+sprite $CanvaXs [10x10/16z] uwS3
+
+sprite $CanvaSm [12x12/16z] unza
+
+sprite $CanvaMd [16x16/16z] un_X
+
+sprite $CanvaLg [20x20/16z] unzKO1G
+
+!procedure Canva($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Canva', $name, $tech)
+!endprocedure

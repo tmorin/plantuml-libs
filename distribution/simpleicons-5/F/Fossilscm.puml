@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fossilscm
+
+sprite $FossilscmXs [10x10/16z] uwS3
+
+sprite $FossilscmSm [12x12/16z] unza
+
+sprite $FossilscmMd [16x16/16z] un_X
+
+sprite $FossilscmLg [20x20/16z] unzKO1G
+
+!procedure Fossilscm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fossilscm', $name, $tech)
+!endprocedure

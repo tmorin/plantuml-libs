@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Atom
+
+sprite $AtomXs [10x10/16z] uwS3
+
+sprite $AtomSm [12x12/16z] unza
+
+sprite $AtomMd [16x16/16z] un_X
+
+sprite $AtomLg [20x20/16z] unzKO1G
+
+!procedure Atom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Atom', $name, $tech)
+!endprocedure

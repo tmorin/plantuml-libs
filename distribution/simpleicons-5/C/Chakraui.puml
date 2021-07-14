@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Chakraui
+
+sprite $ChakrauiXs [10x10/16z] uwS3
+
+sprite $ChakrauiSm [12x12/16z] unza
+
+sprite $ChakrauiMd [16x16/16z] un_X
+
+sprite $ChakrauiLg [20x20/16z] unzKO1G
+
+!procedure Chakraui($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Chakraui', $name, $tech)
+!endprocedure

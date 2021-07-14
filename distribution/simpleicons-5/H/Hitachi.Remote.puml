@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Hitachi
+include('simpleicons-5/H/Hitachi')
+
+' renders the element
+Hitachi('Hitachi', 'Hitachi', 'an optional tech label')
+@enduml

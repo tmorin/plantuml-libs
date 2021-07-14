@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Taobao
+
+sprite $TaobaoXs [10x10/16z] uwS3
+
+sprite $TaobaoSm [12x12/16z] unza
+
+sprite $TaobaoMd [16x16/16z] un_X
+
+sprite $TaobaoLg [20x20/16z] unzKO1G
+
+!procedure Taobao($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Taobao', $name, $tech)
+!endprocedure

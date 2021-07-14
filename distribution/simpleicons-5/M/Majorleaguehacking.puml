@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Majorleaguehacking
+
+sprite $MajorleaguehackingXs [10x10/16z] uwS3
+
+sprite $MajorleaguehackingSm [12x12/16z] unza
+
+sprite $MajorleaguehackingMd [16x16/16z] un_X
+
+sprite $MajorleaguehackingLg [20x20/16z] unzKO1G
+
+!procedure Majorleaguehacking($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Majorleaguehacking', $name, $tech)
+!endprocedure

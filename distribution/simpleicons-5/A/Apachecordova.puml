@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Apachecordova
+
+sprite $ApachecordovaXs [10x10/16z] uwS3
+
+sprite $ApachecordovaSm [12x12/16z] unza
+
+sprite $ApachecordovaMd [16x16/16z] un_X
+
+sprite $ApachecordovaLg [20x20/16z] unzKO1G
+
+!procedure Apachecordova($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Apachecordova', $name, $tech)
+!endprocedure

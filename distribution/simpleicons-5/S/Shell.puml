@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Shell
+
+sprite $ShellXs [10x10/16z] uwS3
+
+sprite $ShellSm [12x12/16z] unza
+
+sprite $ShellMd [16x16/16z] un_X
+
+sprite $ShellLg [20x20/16z] unzKO1G
+
+!procedure Shell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Shell', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Influxdb
+include('simpleicons-5/I/Influxdb')
+
+' renders the element
+Influxdb('Influxdb', 'Influxdb', 'an optional tech label')
+@enduml

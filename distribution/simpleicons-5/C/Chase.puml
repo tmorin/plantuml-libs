@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Chase
+
+sprite $ChaseXs [10x10/16z] uwS3
+
+sprite $ChaseSm [12x12/16z] unza
+
+sprite $ChaseMd [16x16/16z] un_X
+
+sprite $ChaseLg [20x20/16z] unzKO1G
+
+!procedure Chase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Chase', $name, $tech)
+!endprocedure

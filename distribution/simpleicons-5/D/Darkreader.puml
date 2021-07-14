@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Darkreader
+
+sprite $DarkreaderXs [10x10/16z] uwS3
+
+sprite $DarkreaderSm [12x12/16z] unza
+
+sprite $DarkreaderMd [16x16/16z] un_X
+
+sprite $DarkreaderLg [20x20/16z] unzKO1G
+
+!procedure Darkreader($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Darkreader', $name, $tech)
+!endprocedure

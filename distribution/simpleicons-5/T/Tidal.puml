@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Tidal
+
+sprite $TidalXs [10x10/16z] uwS3
+
+sprite $TidalSm [12x12/16z] unza
+
+sprite $TidalMd [16x16/16z] un_X
+
+sprite $TidalLg [20x20/16z] unzKO1G
+
+!procedure Tidal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Tidal', $name, $tech)
+!endprocedure

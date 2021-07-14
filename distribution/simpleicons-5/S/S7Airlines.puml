@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/S7Airlines
+
+sprite $S7AirlinesXs [10x10/16z] uwS3
+
+sprite $S7AirlinesSm [12x12/16z] unza
+
+sprite $S7AirlinesMd [16x16/16z] un_X
+
+sprite $S7AirlinesLg [20x20/16z] unzKO1G
+
+!procedure S7Airlines($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/S7Airlines', $name, $tech)
+!endprocedure

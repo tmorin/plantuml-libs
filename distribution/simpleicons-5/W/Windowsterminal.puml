@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Windowsterminal
+
+sprite $WindowsterminalXs [10x10/16z] uwS3
+
+sprite $WindowsterminalSm [12x12/16z] unza
+
+sprite $WindowsterminalMd [16x16/16z] un_X
+
+sprite $WindowsterminalLg [20x20/16z] unzKO1G
+
+!procedure Windowsterminal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Windowsterminal', $name, $tech)
+!endprocedure

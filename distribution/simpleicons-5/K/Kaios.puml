@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kaios
+
+sprite $KaiosXs [10x10/16z] uwS3
+
+sprite $KaiosSm [12x12/16z] unza
+
+sprite $KaiosMd [16x16/16z] un_X
+
+sprite $KaiosLg [20x20/16z] unzKO1G
+
+!procedure Kaios($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kaios', $name, $tech)
+!endprocedure

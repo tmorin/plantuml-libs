@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cockroachlabs
+
+sprite $CockroachlabsXs [10x10/16z] uwS3
+
+sprite $CockroachlabsSm [12x12/16z] unza
+
+sprite $CockroachlabsMd [16x16/16z] un_X
+
+sprite $CockroachlabsLg [20x20/16z] unzKO1G
+
+!procedure Cockroachlabs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cockroachlabs', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftexcel
+
+sprite $MicrosoftexcelXs [10x10/16z] uwS3
+
+sprite $MicrosoftexcelSm [12x12/16z] unza
+
+sprite $MicrosoftexcelMd [16x16/16z] un_X
+
+sprite $MicrosoftexcelLg [20x20/16z] unzKO1G
+
+!procedure Microsoftexcel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftexcel', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Dogecoin
+
+sprite $DogecoinXs [10x10/16z] uwS3
+
+sprite $DogecoinSm [12x12/16z] unza
+
+sprite $DogecoinMd [16x16/16z] un_X
+
+sprite $DogecoinLg [20x20/16z] unzKO1G
+
+!procedure Dogecoin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Dogecoin', $name, $tech)
+!endprocedure

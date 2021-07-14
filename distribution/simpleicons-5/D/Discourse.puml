@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Discourse
+
+sprite $DiscourseXs [10x10/16z] uwS3
+
+sprite $DiscourseSm [12x12/16z] unza
+
+sprite $DiscourseMd [16x16/16z] un_X
+
+sprite $DiscourseLg [20x20/16z] unzKO1G
+
+!procedure Discourse($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Discourse', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mitsubishi
+
+sprite $MitsubishiXs [10x10/16z] uwS3
+
+sprite $MitsubishiSm [12x12/16z] unza
+
+sprite $MitsubishiMd [16x16/16z] un_X
+
+sprite $MitsubishiLg [20x20/16z] unzKO1G
+
+!procedure Mitsubishi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mitsubishi', $name, $tech)
+!endprocedure

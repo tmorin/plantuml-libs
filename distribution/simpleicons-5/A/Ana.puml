@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Ana
+
+sprite $AnaXs [10x10/16z] uwS3
+
+sprite $AnaSm [12x12/16z] unza
+
+sprite $AnaMd [16x16/16z] un_X
+
+sprite $AnaLg [20x20/16z] unzKO1G
+
+!procedure Ana($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Ana', $name, $tech)
+!endprocedure

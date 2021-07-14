@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/Nationalgrid
+
+sprite $NationalgridXs [10x10/16z] uwS3
+
+sprite $NationalgridSm [12x12/16z] unza
+
+sprite $NationalgridMd [16x16/16z] un_X
+
+sprite $NationalgridLg [20x20/16z] unzKO1G
+
+!procedure Nationalgrid($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/Nationalgrid', $name, $tech)
+!endprocedure

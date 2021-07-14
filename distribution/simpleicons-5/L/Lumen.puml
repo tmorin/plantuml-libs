@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Lumen
+
+sprite $LumenXs [10x10/16z] uwS3
+
+sprite $LumenSm [12x12/16z] unza
+
+sprite $LumenMd [16x16/16z] un_X
+
+sprite $LumenLg [20x20/16z] unzKO1G
+
+!procedure Lumen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Lumen', $name, $tech)
+!endprocedure

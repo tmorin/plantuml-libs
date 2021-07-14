@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Jellyfin
+
+sprite $JellyfinXs [10x10/16z] uwS3
+
+sprite $JellyfinSm [12x12/16z] unza
+
+sprite $JellyfinMd [16x16/16z] un_X
+
+sprite $JellyfinLg [20x20/16z] unzKO1G
+
+!procedure Jellyfin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Jellyfin', $name, $tech)
+!endprocedure

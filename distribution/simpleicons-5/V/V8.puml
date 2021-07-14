@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/V8
+
+sprite $V8Xs [10x10/16z] uwS3
+
+sprite $V8Sm [12x12/16z] unza
+
+sprite $V8Md [16x16/16z] un_X
+
+sprite $V8Lg [20x20/16z] unzKO1G
+
+!procedure V8($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/V8', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bootstrap
+
+sprite $BootstrapXs [10x10/16z] uwS3
+
+sprite $BootstrapSm [12x12/16z] unza
+
+sprite $BootstrapMd [16x16/16z] un_X
+
+sprite $BootstrapLg [20x20/16z] unzKO1G
+
+!procedure Bootstrap($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bootstrap', $name, $tech)
+!endprocedure

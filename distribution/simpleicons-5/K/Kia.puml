@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kia
+
+sprite $KiaXs [10x10/16z] uwS3
+
+sprite $KiaSm [12x12/16z] unza
+
+sprite $KiaMd [16x16/16z] un_X
+
+sprite $KiaLg [20x20/16z] unzKO1G
+
+!procedure Kia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kia', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codio
+
+sprite $CodioXs [10x10/16z] uwS3
+
+sprite $CodioSm [12x12/16z] unza
+
+sprite $CodioMd [16x16/16z] un_X
+
+sprite $CodioLg [20x20/16z] unzKO1G
+
+!procedure Codio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codio', $name, $tech)
+!endprocedure

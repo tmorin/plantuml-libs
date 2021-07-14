@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sparkasse
+
+sprite $SparkasseXs [10x10/16z] uwS3
+
+sprite $SparkasseSm [12x12/16z] unza
+
+sprite $SparkasseMd [16x16/16z] un_X
+
+sprite $SparkasseLg [20x20/16z] unzKO1G
+
+!procedure Sparkasse($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sparkasse', $name, $tech)
+!endprocedure

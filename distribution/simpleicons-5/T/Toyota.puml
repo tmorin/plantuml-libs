@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Toyota
+
+sprite $ToyotaXs [10x10/16z] uwS3
+
+sprite $ToyotaSm [12x12/16z] unza
+
+sprite $ToyotaMd [16x16/16z] un_X
+
+sprite $ToyotaLg [20x20/16z] unzKO1G
+
+!procedure Toyota($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Toyota', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Editorconfig
+
+sprite $EditorconfigXs [10x10/16z] uwS3
+
+sprite $EditorconfigSm [12x12/16z] unza
+
+sprite $EditorconfigMd [16x16/16z] un_X
+
+sprite $EditorconfigLg [20x20/16z] unzKO1G
+
+!procedure Editorconfig($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Editorconfig', $name, $tech)
+!endprocedure

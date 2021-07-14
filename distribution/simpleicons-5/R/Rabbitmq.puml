@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Rabbitmq
+
+sprite $RabbitmqXs [10x10/16z] uwS3
+
+sprite $RabbitmqSm [12x12/16z] unza
+
+sprite $RabbitmqMd [16x16/16z] un_X
+
+sprite $RabbitmqLg [20x20/16z] unzKO1G
+
+!procedure Rabbitmq($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Rabbitmq', $name, $tech)
+!endprocedure

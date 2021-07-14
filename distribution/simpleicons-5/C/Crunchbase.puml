@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Crunchbase
+
+sprite $CrunchbaseXs [10x10/16z] uwS3
+
+sprite $CrunchbaseSm [12x12/16z] unza
+
+sprite $CrunchbaseMd [16x16/16z] un_X
+
+sprite $CrunchbaseLg [20x20/16z] unzKO1G
+
+!procedure Crunchbase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Crunchbase', $name, $tech)
+!endprocedure

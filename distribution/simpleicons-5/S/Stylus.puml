@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Stylus
+
+sprite $StylusXs [10x10/16z] uwS3
+
+sprite $StylusSm [12x12/16z] unza
+
+sprite $StylusMd [16x16/16z] un_X
+
+sprite $StylusLg [20x20/16z] unzKO1G
+
+!procedure Stylus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Stylus', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Packagist
+
+sprite $PackagistXs [10x10/16z] uwS3
+
+sprite $PackagistSm [12x12/16z] unza
+
+sprite $PackagistMd [16x16/16z] un_X
+
+sprite $PackagistLg [20x20/16z] unzKO1G
+
+!procedure Packagist($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Packagist', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Haveibeenpwned
+
+sprite $HaveibeenpwnedXs [10x10/16z] uwS3
+
+sprite $HaveibeenpwnedSm [12x12/16z] unza
+
+sprite $HaveibeenpwnedMd [16x16/16z] un_X
+
+sprite $HaveibeenpwnedLg [20x20/16z] unzKO1G
+
+!procedure Haveibeenpwned($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Haveibeenpwned', $name, $tech)
+!endprocedure

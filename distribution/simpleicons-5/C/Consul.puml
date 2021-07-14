@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Consul
+
+sprite $ConsulXs [10x10/16z] uwS3
+
+sprite $ConsulSm [12x12/16z] unza
+
+sprite $ConsulMd [16x16/16z] un_X
+
+sprite $ConsulLg [20x20/16z] unzKO1G
+
+!procedure Consul($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Consul', $name, $tech)
+!endprocedure

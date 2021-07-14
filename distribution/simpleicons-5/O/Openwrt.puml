@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/O/Openwrt
+
+sprite $OpenwrtXs [10x10/16z] uwS3
+
+sprite $OpenwrtSm [12x12/16z] unza
+
+sprite $OpenwrtMd [16x16/16z] un_X
+
+sprite $OpenwrtLg [20x20/16z] unzKO1G
+
+!procedure Openwrt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/O/Openwrt', $name, $tech)
+!endprocedure

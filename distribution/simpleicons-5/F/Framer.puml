@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Framer
+
+sprite $FramerXs [10x10/16z] uwS3
+
+sprite $FramerSm [12x12/16z] unza
+
+sprite $FramerMd [16x16/16z] un_X
+
+sprite $FramerLg [20x20/16z] unzKO1G
+
+!procedure Framer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Framer', $name, $tech)
+!endprocedure

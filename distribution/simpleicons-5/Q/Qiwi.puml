@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Q/Qiwi
+
+sprite $QiwiXs [10x10/16z] uwS3
+
+sprite $QiwiSm [12x12/16z] unza
+
+sprite $QiwiMd [16x16/16z] un_X
+
+sprite $QiwiLg [20x20/16z] unzKO1G
+
+!procedure Qiwi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Q/Qiwi', $name, $tech)
+!endprocedure

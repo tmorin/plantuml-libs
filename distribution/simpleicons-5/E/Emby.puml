@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Emby
+
+sprite $EmbyXs [10x10/16z] uwS3
+
+sprite $EmbySm [12x12/16z] unza
+
+sprite $EmbyMd [16x16/16z] un_X
+
+sprite $EmbyLg [20x20/16z] unzKO1G
+
+!procedure Emby($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Emby', $name, $tech)
+!endprocedure

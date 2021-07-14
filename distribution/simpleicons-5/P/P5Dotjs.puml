@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/P5Dotjs
+
+sprite $P5DotjsXs [10x10/16z] uwS3
+
+sprite $P5DotjsSm [12x12/16z] unza
+
+sprite $P5DotjsMd [16x16/16z] un_X
+
+sprite $P5DotjsLg [20x20/16z] unzKO1G
+
+!procedure P5Dotjs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/P5Dotjs', $name, $tech)
+!endprocedure

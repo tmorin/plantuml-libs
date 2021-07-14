@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Steamdb
+
+sprite $SteamdbXs [10x10/16z] uwS3
+
+sprite $SteamdbSm [12x12/16z] unza
+
+sprite $SteamdbMd [16x16/16z] un_X
+
+sprite $SteamdbLg [20x20/16z] unzKO1G
+
+!procedure Steamdb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Steamdb', $name, $tech)
+!endprocedure

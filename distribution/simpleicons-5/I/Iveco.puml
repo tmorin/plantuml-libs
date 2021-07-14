@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Iveco
+
+sprite $IvecoXs [10x10/16z] uwS3
+
+sprite $IvecoSm [12x12/16z] unza
+
+sprite $IvecoMd [16x16/16z] un_X
+
+sprite $IvecoLg [20x20/16z] unzKO1G
+
+!procedure Iveco($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Iveco', $name, $tech)
+!endprocedure

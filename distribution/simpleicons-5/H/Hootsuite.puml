@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Hootsuite
+
+sprite $HootsuiteXs [10x10/16z] uwS3
+
+sprite $HootsuiteSm [12x12/16z] unza
+
+sprite $HootsuiteMd [16x16/16z] un_X
+
+sprite $HootsuiteLg [20x20/16z] unzKO1G
+
+!procedure Hootsuite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Hootsuite', $name, $tech)
+!endprocedure

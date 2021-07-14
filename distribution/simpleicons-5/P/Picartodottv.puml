@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Picartodottv
+
+sprite $PicartodottvXs [10x10/16z] uwS3
+
+sprite $PicartodottvSm [12x12/16z] unza
+
+sprite $PicartodottvMd [16x16/16z] un_X
+
+sprite $PicartodottvLg [20x20/16z] unzKO1G
+
+!procedure Picartodottv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Picartodottv', $name, $tech)
+!endprocedure

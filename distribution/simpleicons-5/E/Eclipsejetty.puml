@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Eclipsejetty
+
+sprite $EclipsejettyXs [10x10/16z] uwS3
+
+sprite $EclipsejettySm [12x12/16z] unza
+
+sprite $EclipsejettyMd [16x16/16z] un_X
+
+sprite $EclipsejettyLg [20x20/16z] unzKO1G
+
+!procedure Eclipsejetty($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Eclipsejetty', $name, $tech)
+!endprocedure

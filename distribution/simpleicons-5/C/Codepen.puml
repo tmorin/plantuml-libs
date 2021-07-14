@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codepen
+
+sprite $CodepenXs [10x10/16z] uwS3
+
+sprite $CodepenSm [12x12/16z] unza
+
+sprite $CodepenMd [16x16/16z] un_X
+
+sprite $CodepenLg [20x20/16z] unzKO1G
+
+!procedure Codepen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codepen', $name, $tech)
+!endprocedure

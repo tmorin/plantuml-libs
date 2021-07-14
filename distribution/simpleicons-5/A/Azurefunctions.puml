@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Azurefunctions
+
+sprite $AzurefunctionsXs [10x10/16z] uwS3
+
+sprite $AzurefunctionsSm [12x12/16z] unza
+
+sprite $AzurefunctionsMd [16x16/16z] un_X
+
+sprite $AzurefunctionsLg [20x20/16z] unzKO1G
+
+!procedure Azurefunctions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Azurefunctions', $name, $tech)
+!endprocedure

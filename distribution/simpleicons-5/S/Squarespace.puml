@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Squarespace
+
+sprite $SquarespaceXs [10x10/16z] uwS3
+
+sprite $SquarespaceSm [12x12/16z] unza
+
+sprite $SquarespaceMd [16x16/16z] un_X
+
+sprite $SquarespaceLg [20x20/16z] unzKO1G
+
+!procedure Squarespace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Squarespace', $name, $tech)
+!endprocedure

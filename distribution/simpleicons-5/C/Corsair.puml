@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Corsair
+
+sprite $CorsairXs [10x10/16z] uwS3
+
+sprite $CorsairSm [12x12/16z] unza
+
+sprite $CorsairMd [16x16/16z] un_X
+
+sprite $CorsairLg [20x20/16z] unzKO1G
+
+!procedure Corsair($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Corsair', $name, $tech)
+!endprocedure

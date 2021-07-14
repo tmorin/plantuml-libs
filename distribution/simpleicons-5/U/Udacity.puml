@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Udacity
+
+sprite $UdacityXs [10x10/16z] uwS3
+
+sprite $UdacitySm [12x12/16z] unza
+
+sprite $UdacityMd [16x16/16z] un_X
+
+sprite $UdacityLg [20x20/16z] unzKO1G
+
+!procedure Udacity($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Udacity', $name, $tech)
+!endprocedure

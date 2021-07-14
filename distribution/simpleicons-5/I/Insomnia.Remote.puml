@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Insomnia
+include('simpleicons-5/I/Insomnia')
+
+' renders the element
+Insomnia('Insomnia', 'Insomnia', 'an optional tech label')
+@enduml

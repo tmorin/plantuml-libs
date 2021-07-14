@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Suzuki
+
+sprite $SuzukiXs [10x10/16z] uwS3
+
+sprite $SuzukiSm [12x12/16z] unza
+
+sprite $SuzukiMd [16x16/16z] un_X
+
+sprite $SuzukiLg [20x20/16z] unzKO1G
+
+!procedure Suzuki($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Suzuki', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gogdotcom
+
+sprite $GogdotcomXs [10x10/16z] uwS3
+
+sprite $GogdotcomSm [12x12/16z] unza
+
+sprite $GogdotcomMd [16x16/16z] un_X
+
+sprite $GogdotcomLg [20x20/16z] unzKO1G
+
+!procedure Gogdotcom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gogdotcom', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Piwigo
+
+sprite $PiwigoXs [10x10/16z] uwS3
+
+sprite $PiwigoSm [12x12/16z] unza
+
+sprite $PiwigoMd [16x16/16z] un_X
+
+sprite $PiwigoLg [20x20/16z] unzKO1G
+
+!procedure Piwigo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Piwigo', $name, $tech)
+!endprocedure

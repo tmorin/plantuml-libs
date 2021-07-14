@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Dart
+
+sprite $DartXs [10x10/16z] uwS3
+
+sprite $DartSm [12x12/16z] unza
+
+sprite $DartMd [16x16/16z] un_X
+
+sprite $DartLg [20x20/16z] unzKO1G
+
+!procedure Dart($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Dart', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Travisci
+
+sprite $TravisciXs [10x10/16z] uwS3
+
+sprite $TravisciSm [12x12/16z] unza
+
+sprite $TravisciMd [16x16/16z] un_X
+
+sprite $TravisciLg [20x20/16z] unzKO1G
+
+!procedure Travisci($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Travisci', $name, $tech)
+!endprocedure

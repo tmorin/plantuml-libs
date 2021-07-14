@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/N26
+
+sprite $N26Xs [10x10/16z] uwS3
+
+sprite $N26Sm [12x12/16z] unza
+
+sprite $N26Md [16x16/16z] un_X
+
+sprite $N26Lg [20x20/16z] unzKO1G
+
+!procedure N26($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/N26', $name, $tech)
+!endprocedure

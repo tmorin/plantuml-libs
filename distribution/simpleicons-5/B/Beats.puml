@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Beats
+
+sprite $BeatsXs [10x10/16z] uwS3
+
+sprite $BeatsSm [12x12/16z] unza
+
+sprite $BeatsMd [16x16/16z] un_X
+
+sprite $BeatsLg [20x20/16z] unzKO1G
+
+!procedure Beats($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Beats', $name, $tech)
+!endprocedure

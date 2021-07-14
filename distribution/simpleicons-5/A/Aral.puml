@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Aral
+
+sprite $AralXs [10x10/16z] uwS3
+
+sprite $AralSm [12x12/16z] unza
+
+sprite $AralMd [16x16/16z] un_X
+
+sprite $AralLg [20x20/16z] unzKO1G
+
+!procedure Aral($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Aral', $name, $tech)
+!endprocedure

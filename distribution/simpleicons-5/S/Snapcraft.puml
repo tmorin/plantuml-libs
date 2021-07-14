@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Snapcraft
+
+sprite $SnapcraftXs [10x10/16z] uwS3
+
+sprite $SnapcraftSm [12x12/16z] unza
+
+sprite $SnapcraftMd [16x16/16z] un_X
+
+sprite $SnapcraftLg [20x20/16z] unzKO1G
+
+!procedure Snapcraft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Snapcraft', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Jira
+
+sprite $JiraXs [10x10/16z] uwS3
+
+sprite $JiraSm [12x12/16z] unza
+
+sprite $JiraMd [16x16/16z] un_X
+
+sprite $JiraLg [20x20/16z] unzKO1G
+
+!procedure Jira($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Jira', $name, $tech)
+!endprocedure

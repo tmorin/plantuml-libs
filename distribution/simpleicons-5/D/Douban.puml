@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Douban
+
+sprite $DoubanXs [10x10/16z] uwS3
+
+sprite $DoubanSm [12x12/16z] unza
+
+sprite $DoubanMd [16x16/16z] un_X
+
+sprite $DoubanLg [20x20/16z] unzKO1G
+
+!procedure Douban($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Douban', $name, $tech)
+!endprocedure

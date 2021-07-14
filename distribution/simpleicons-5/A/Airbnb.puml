@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Airbnb
+
+sprite $AirbnbXs [10x10/16z] uwS3
+
+sprite $AirbnbSm [12x12/16z] unza
+
+sprite $AirbnbMd [16x16/16z] un_X
+
+sprite $AirbnbLg [20x20/16z] unzKO1G
+
+!procedure Airbnb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Airbnb', $name, $tech)
+!endprocedure

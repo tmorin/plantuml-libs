@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bugatti
+
+sprite $BugattiXs [10x10/16z] uwS3
+
+sprite $BugattiSm [12x12/16z] unza
+
+sprite $BugattiMd [16x16/16z] un_X
+
+sprite $BugattiLg [20x20/16z] unzKO1G
+
+!procedure Bugatti($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bugatti', $name, $tech)
+!endprocedure

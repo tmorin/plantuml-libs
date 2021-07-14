@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Trulia
+
+sprite $TruliaXs [10x10/16z] uwS3
+
+sprite $TruliaSm [12x12/16z] unza
+
+sprite $TruliaMd [16x16/16z] un_X
+
+sprite $TruliaLg [20x20/16z] unzKO1G
+
+!procedure Trulia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Trulia', $name, $tech)
+!endprocedure

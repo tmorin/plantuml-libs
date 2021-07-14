@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Y/Youtubetv
+
+sprite $YoutubetvXs [10x10/16z] uwS3
+
+sprite $YoutubetvSm [12x12/16z] unza
+
+sprite $YoutubetvMd [16x16/16z] un_X
+
+sprite $YoutubetvLg [20x20/16z] unzKO1G
+
+!procedure Youtubetv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Y/Youtubetv', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Dailymotion
+
+sprite $DailymotionXs [10x10/16z] uwS3
+
+sprite $DailymotionSm [12x12/16z] unza
+
+sprite $DailymotionMd [16x16/16z] un_X
+
+sprite $DailymotionLg [20x20/16z] unzKO1G
+
+!procedure Dailymotion($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Dailymotion', $name, $tech)
+!endprocedure

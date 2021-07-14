@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Tsnode
+
+sprite $TsnodeXs [10x10/16z] uwS3
+
+sprite $TsnodeSm [12x12/16z] unza
+
+sprite $TsnodeMd [16x16/16z] un_X
+
+sprite $TsnodeLg [20x20/16z] unzKO1G
+
+!procedure Tsnode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Tsnode', $name, $tech)
+!endprocedure

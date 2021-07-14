@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gerrit
+
+sprite $GerritXs [10x10/16z] uwS3
+
+sprite $GerritSm [12x12/16z] unza
+
+sprite $GerritMd [16x16/16z] un_X
+
+sprite $GerritLg [20x20/16z] unzKO1G
+
+!procedure Gerrit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gerrit', $name, $tech)
+!endprocedure

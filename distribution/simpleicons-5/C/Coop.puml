@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Coop
+
+sprite $CoopXs [10x10/16z] uwS3
+
+sprite $CoopSm [12x12/16z] unza
+
+sprite $CoopMd [16x16/16z] un_X
+
+sprite $CoopLg [20x20/16z] unzKO1G
+
+!procedure Coop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Coop', $name, $tech)
+!endprocedure

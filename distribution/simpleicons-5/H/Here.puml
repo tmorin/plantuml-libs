@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Here
+
+sprite $HereXs [10x10/16z] uwS3
+
+sprite $HereSm [12x12/16z] unza
+
+sprite $HereMd [16x16/16z] un_X
+
+sprite $HereLg [20x20/16z] unzKO1G
+
+!procedure Here($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Here', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Protools
+
+sprite $ProtoolsXs [10x10/16z] uwS3
+
+sprite $ProtoolsSm [12x12/16z] unza
+
+sprite $ProtoolsMd [16x16/16z] un_X
+
+sprite $ProtoolsLg [20x20/16z] unzKO1G
+
+!procedure Protools($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Protools', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Audible
+
+sprite $AudibleXs [10x10/16z] uwS3
+
+sprite $AudibleSm [12x12/16z] unza
+
+sprite $AudibleMd [16x16/16z] un_X
+
+sprite $AudibleLg [20x20/16z] unzKO1G
+
+!procedure Audible($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Audible', $name, $tech)
+!endprocedure

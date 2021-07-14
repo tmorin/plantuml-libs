@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Q/Quasar
+
+sprite $QuasarXs [10x10/16z] uwS3
+
+sprite $QuasarSm [12x12/16z] unza
+
+sprite $QuasarMd [16x16/16z] un_X
+
+sprite $QuasarLg [20x20/16z] unzKO1G
+
+!procedure Quasar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Q/Quasar', $name, $tech)
+!endprocedure

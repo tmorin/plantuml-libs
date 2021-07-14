@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Ubisoft
+
+sprite $UbisoftXs [10x10/16z] uwS3
+
+sprite $UbisoftSm [12x12/16z] unza
+
+sprite $UbisoftMd [16x16/16z] un_X
+
+sprite $UbisoftLg [20x20/16z] unzKO1G
+
+!procedure Ubisoft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Ubisoft', $name, $tech)
+!endprocedure

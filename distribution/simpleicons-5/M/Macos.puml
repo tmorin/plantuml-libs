@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Macos
+
+sprite $MacosXs [10x10/16z] uwS3
+
+sprite $MacosSm [12x12/16z] unza
+
+sprite $MacosMd [16x16/16z] un_X
+
+sprite $MacosLg [20x20/16z] unzKO1G
+
+!procedure Macos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Macos', $name, $tech)
+!endprocedure

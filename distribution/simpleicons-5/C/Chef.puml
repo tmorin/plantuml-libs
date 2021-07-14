@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Chef
+
+sprite $ChefXs [10x10/16z] uwS3
+
+sprite $ChefSm [12x12/16z] unza
+
+sprite $ChefMd [16x16/16z] un_X
+
+sprite $ChefLg [20x20/16z] unzKO1G
+
+!procedure Chef($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Chef', $name, $tech)
+!endprocedure

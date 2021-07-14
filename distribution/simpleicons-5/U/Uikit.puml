@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Uikit
+
+sprite $UikitXs [10x10/16z] uwS3
+
+sprite $UikitSm [12x12/16z] unza
+
+sprite $UikitMd [16x16/16z] un_X
+
+sprite $UikitLg [20x20/16z] unzKO1G
+
+!procedure Uikit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Uikit', $name, $tech)
+!endprocedure

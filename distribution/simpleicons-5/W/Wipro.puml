@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Wipro
+
+sprite $WiproXs [10x10/16z] uwS3
+
+sprite $WiproSm [12x12/16z] unza
+
+sprite $WiproMd [16x16/16z] un_X
+
+sprite $WiproLg [20x20/16z] unzKO1G
+
+!procedure Wipro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Wipro', $name, $tech)
+!endprocedure

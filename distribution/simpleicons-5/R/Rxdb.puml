@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Rxdb
+
+sprite $RxdbXs [10x10/16z] uwS3
+
+sprite $RxdbSm [12x12/16z] unza
+
+sprite $RxdbMd [16x16/16z] un_X
+
+sprite $RxdbLg [20x20/16z] unzKO1G
+
+!procedure Rxdb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Rxdb', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/HiveBlockchain
+
+sprite $HiveBlockchainXs [10x10/16z] uwS3
+
+sprite $HiveBlockchainSm [12x12/16z] unza
+
+sprite $HiveBlockchainMd [16x16/16z] un_X
+
+sprite $HiveBlockchainLg [20x20/16z] unzKO1G
+
+!procedure HiveBlockchain($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/HiveBlockchain', $name, $tech)
+!endprocedure

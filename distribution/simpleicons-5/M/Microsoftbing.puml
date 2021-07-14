@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftbing
+
+sprite $MicrosoftbingXs [10x10/16z] uwS3
+
+sprite $MicrosoftbingSm [12x12/16z] unza
+
+sprite $MicrosoftbingMd [16x16/16z] un_X
+
+sprite $MicrosoftbingLg [20x20/16z] unzKO1G
+
+!procedure Microsoftbing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftbing', $name, $tech)
+!endprocedure

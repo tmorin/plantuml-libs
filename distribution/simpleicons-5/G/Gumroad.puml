@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gumroad
+
+sprite $GumroadXs [10x10/16z] uwS3
+
+sprite $GumroadSm [12x12/16z] unza
+
+sprite $GumroadMd [16x16/16z] un_X
+
+sprite $GumroadLg [20x20/16z] unzKO1G
+
+!procedure Gumroad($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gumroad', $name, $tech)
+!endprocedure

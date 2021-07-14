@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bandrautomation
+
+sprite $BandrautomationXs [10x10/16z] uwS3
+
+sprite $BandrautomationSm [12x12/16z] unza
+
+sprite $BandrautomationMd [16x16/16z] un_X
+
+sprite $BandrautomationLg [20x20/16z] unzKO1G
+
+!procedure Bandrautomation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bandrautomation', $name, $tech)
+!endprocedure

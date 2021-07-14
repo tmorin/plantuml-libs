@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/X/Xamarin
+
+sprite $XamarinXs [10x10/16z] uwS3
+
+sprite $XamarinSm [12x12/16z] unza
+
+sprite $XamarinMd [16x16/16z] un_X
+
+sprite $XamarinLg [20x20/16z] unzKO1G
+
+!procedure Xamarin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/X/Xamarin', $name, $tech)
+!endprocedure

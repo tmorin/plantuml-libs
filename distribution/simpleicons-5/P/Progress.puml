@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Progress
+
+sprite $ProgressXs [10x10/16z] uwS3
+
+sprite $ProgressSm [12x12/16z] unza
+
+sprite $ProgressMd [16x16/16z] un_X
+
+sprite $ProgressLg [20x20/16z] unzKO1G
+
+!procedure Progress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Progress', $name, $tech)
+!endprocedure

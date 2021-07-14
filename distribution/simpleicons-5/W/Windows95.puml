@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Windows95
+
+sprite $Windows95Xs [10x10/16z] uwS3
+
+sprite $Windows95Sm [12x12/16z] unza
+
+sprite $Windows95Md [16x16/16z] un_X
+
+sprite $Windows95Lg [20x20/16z] unzKO1G
+
+!procedure Windows95($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Windows95', $name, $tech)
+!endprocedure

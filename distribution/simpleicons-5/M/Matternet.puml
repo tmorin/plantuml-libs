@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Matternet
+
+sprite $MatternetXs [10x10/16z] uwS3
+
+sprite $MatternetSm [12x12/16z] unza
+
+sprite $MatternetMd [16x16/16z] un_X
+
+sprite $MatternetLg [20x20/16z] unzKO1G
+
+!procedure Matternet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Matternet', $name, $tech)
+!endprocedure

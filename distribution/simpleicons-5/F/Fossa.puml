@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fossa
+
+sprite $FossaXs [10x10/16z] uwS3
+
+sprite $FossaSm [12x12/16z] unza
+
+sprite $FossaMd [16x16/16z] un_X
+
+sprite $FossaLg [20x20/16z] unzKO1G
+
+!procedure Fossa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fossa', $name, $tech)
+!endprocedure

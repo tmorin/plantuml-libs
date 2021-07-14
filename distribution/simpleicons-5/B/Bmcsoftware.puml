@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bmcsoftware
+
+sprite $BmcsoftwareXs [10x10/16z] uwS3
+
+sprite $BmcsoftwareSm [12x12/16z] unza
+
+sprite $BmcsoftwareMd [16x16/16z] un_X
+
+sprite $BmcsoftwareLg [20x20/16z] unzKO1G
+
+!procedure Bmcsoftware($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bmcsoftware', $name, $tech)
+!endprocedure

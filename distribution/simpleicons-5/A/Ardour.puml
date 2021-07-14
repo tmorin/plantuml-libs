@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Ardour
+
+sprite $ArdourXs [10x10/16z] uwS3
+
+sprite $ArdourSm [12x12/16z] unza
+
+sprite $ArdourMd [16x16/16z] un_X
+
+sprite $ArdourLg [20x20/16z] unzKO1G
+
+!procedure Ardour($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Ardour', $name, $tech)
+!endprocedure

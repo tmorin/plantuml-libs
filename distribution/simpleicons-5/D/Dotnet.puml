@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Dotnet
+
+sprite $DotnetXs [10x10/16z] uwS3
+
+sprite $DotnetSm [12x12/16z] unza
+
+sprite $DotnetMd [16x16/16z] un_X
+
+sprite $DotnetLg [20x20/16z] unzKO1G
+
+!procedure Dotnet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Dotnet', $name, $tech)
+!endprocedure

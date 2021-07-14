@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gamejolt
+
+sprite $GamejoltXs [10x10/16z] uwS3
+
+sprite $GamejoltSm [12x12/16z] unza
+
+sprite $GamejoltMd [16x16/16z] un_X
+
+sprite $GamejoltLg [20x20/16z] unzKO1G
+
+!procedure Gamejolt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gamejolt', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cloud66
+
+sprite $Cloud66Xs [10x10/16z] uwS3
+
+sprite $Cloud66Sm [12x12/16z] unza
+
+sprite $Cloud66Md [16x16/16z] un_X
+
+sprite $Cloud66Lg [20x20/16z] unzKO1G
+
+!procedure Cloud66($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cloud66', $name, $tech)
+!endprocedure

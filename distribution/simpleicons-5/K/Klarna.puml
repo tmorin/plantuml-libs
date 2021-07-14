@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Klarna
+
+sprite $KlarnaXs [10x10/16z] uwS3
+
+sprite $KlarnaSm [12x12/16z] unza
+
+sprite $KlarnaMd [16x16/16z] un_X
+
+sprite $KlarnaLg [20x20/16z] unzKO1G
+
+!procedure Klarna($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Klarna', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftexchange
+
+sprite $MicrosoftexchangeXs [10x10/16z] uwS3
+
+sprite $MicrosoftexchangeSm [12x12/16z] unza
+
+sprite $MicrosoftexchangeMd [16x16/16z] un_X
+
+sprite $MicrosoftexchangeLg [20x20/16z] unzKO1G
+
+!procedure Microsoftexchange($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftexchange', $name, $tech)
+!endprocedure

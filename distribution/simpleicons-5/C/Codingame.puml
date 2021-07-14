@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codingame
+
+sprite $CodingameXs [10x10/16z] uwS3
+
+sprite $CodingameSm [12x12/16z] unza
+
+sprite $CodingameMd [16x16/16z] un_X
+
+sprite $CodingameLg [20x20/16z] unzKO1G
+
+!procedure Codingame($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codingame', $name, $tech)
+!endprocedure

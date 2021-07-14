@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Producthunt
+
+sprite $ProducthuntXs [10x10/16z] uwS3
+
+sprite $ProducthuntSm [12x12/16z] unza
+
+sprite $ProducthuntMd [16x16/16z] un_X
+
+sprite $ProducthuntLg [20x20/16z] unzKO1G
+
+!procedure Producthunt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Producthunt', $name, $tech)
+!endprocedure

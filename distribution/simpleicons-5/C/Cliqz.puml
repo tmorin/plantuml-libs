@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cliqz
+
+sprite $CliqzXs [10x10/16z] uwS3
+
+sprite $CliqzSm [12x12/16z] unza
+
+sprite $CliqzMd [16x16/16z] un_X
+
+sprite $CliqzLg [20x20/16z] unzKO1G
+
+!procedure Cliqz($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cliqz', $name, $tech)
+!endprocedure

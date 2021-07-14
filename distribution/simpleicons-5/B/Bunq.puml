@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bunq
+
+sprite $BunqXs [10x10/16z] uwS3
+
+sprite $BunqSm [12x12/16z] unza
+
+sprite $BunqMd [16x16/16z] un_X
+
+sprite $BunqLg [20x20/16z] unzKO1G
+
+!procedure Bunq($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bunq', $name, $tech)
+!endprocedure

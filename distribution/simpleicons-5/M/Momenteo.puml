@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Momenteo
+
+sprite $MomenteoXs [10x10/16z] uwS3
+
+sprite $MomenteoSm [12x12/16z] unza
+
+sprite $MomenteoMd [16x16/16z] un_X
+
+sprite $MomenteoLg [20x20/16z] unzKO1G
+
+!procedure Momenteo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Momenteo', $name, $tech)
+!endprocedure

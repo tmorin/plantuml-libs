@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sketchup
+
+sprite $SketchupXs [10x10/16z] uwS3
+
+sprite $SketchupSm [12x12/16z] unza
+
+sprite $SketchupMd [16x16/16z] un_X
+
+sprite $SketchupLg [20x20/16z] unzKO1G
+
+!procedure Sketchup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sketchup', $name, $tech)
+!endprocedure

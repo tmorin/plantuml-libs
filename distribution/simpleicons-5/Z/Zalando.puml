@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Z/Zalando
+
+sprite $ZalandoXs [10x10/16z] uwS3
+
+sprite $ZalandoSm [12x12/16z] unza
+
+sprite $ZalandoMd [16x16/16z] un_X
+
+sprite $ZalandoLg [20x20/16z] unzKO1G
+
+!procedure Zalando($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Z/Zalando', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Crowdsource
+
+sprite $CrowdsourceXs [10x10/16z] uwS3
+
+sprite $CrowdsourceSm [12x12/16z] unza
+
+sprite $CrowdsourceMd [16x16/16z] un_X
+
+sprite $CrowdsourceLg [20x20/16z] unzKO1G
+
+!procedure Crowdsource($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Crowdsource', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Q/Quantcast
+
+sprite $QuantcastXs [10x10/16z] uwS3
+
+sprite $QuantcastSm [12x12/16z] unza
+
+sprite $QuantcastMd [16x16/16z] un_X
+
+sprite $QuantcastLg [20x20/16z] unzKO1G
+
+!procedure Quantcast($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Q/Quantcast', $name, $tech)
+!endprocedure

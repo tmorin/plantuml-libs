@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Ruby
+
+sprite $RubyXs [10x10/16z] uwS3
+
+sprite $RubySm [12x12/16z] unza
+
+sprite $RubyMd [16x16/16z] un_X
+
+sprite $RubyLg [20x20/16z] unzKO1G
+
+!procedure Ruby($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Ruby', $name, $tech)
+!endprocedure

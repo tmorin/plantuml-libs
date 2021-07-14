@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Treehouse
+
+sprite $TreehouseXs [10x10/16z] uwS3
+
+sprite $TreehouseSm [12x12/16z] unza
+
+sprite $TreehouseMd [16x16/16z] un_X
+
+sprite $TreehouseLg [20x20/16z] unzKO1G
+
+!procedure Treehouse($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Treehouse', $name, $tech)
+!endprocedure

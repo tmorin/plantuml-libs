@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sketchfab
+
+sprite $SketchfabXs [10x10/16z] uwS3
+
+sprite $SketchfabSm [12x12/16z] unza
+
+sprite $SketchfabMd [16x16/16z] un_X
+
+sprite $SketchfabLg [20x20/16z] unzKO1G
+
+!procedure Sketchfab($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sketchfab', $name, $tech)
+!endprocedure

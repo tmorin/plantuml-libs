@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Airplayaudio
+
+sprite $AirplayaudioXs [10x10/16z] uwS3
+
+sprite $AirplayaudioSm [12x12/16z] unza
+
+sprite $AirplayaudioMd [16x16/16z] un_X
+
+sprite $AirplayaudioLg [20x20/16z] unzKO1G
+
+!procedure Airplayaudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Airplayaudio', $name, $tech)
+!endprocedure

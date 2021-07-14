@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Stackpath
+
+sprite $StackpathXs [10x10/16z] uwS3
+
+sprite $StackpathSm [12x12/16z] unza
+
+sprite $StackpathMd [16x16/16z] un_X
+
+sprite $StackpathLg [20x20/16z] unzKO1G
+
+!procedure Stackpath($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Stackpath', $name, $tech)
+!endprocedure

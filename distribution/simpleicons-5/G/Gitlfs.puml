@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gitlfs
+
+sprite $GitlfsXs [10x10/16z] uwS3
+
+sprite $GitlfsSm [12x12/16z] unza
+
+sprite $GitlfsMd [16x16/16z] un_X
+
+sprite $GitlfsLg [20x20/16z] unzKO1G
+
+!procedure Gitlfs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gitlfs', $name, $tech)
+!endprocedure

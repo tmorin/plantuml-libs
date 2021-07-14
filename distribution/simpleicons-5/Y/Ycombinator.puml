@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Y/Ycombinator
+
+sprite $YcombinatorXs [10x10/16z] uwS3
+
+sprite $YcombinatorSm [12x12/16z] unza
+
+sprite $YcombinatorMd [16x16/16z] un_X
+
+sprite $YcombinatorLg [20x20/16z] unzKO1G
+
+!procedure Ycombinator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Y/Ycombinator', $name, $tech)
+!endprocedure

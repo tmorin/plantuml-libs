@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/J/Jeep
+
+sprite $JeepXs [10x10/16z] uwS3
+
+sprite $JeepSm [12x12/16z] unza
+
+sprite $JeepMd [16x16/16z] un_X
+
+sprite $JeepLg [20x20/16z] unzKO1G
+
+!procedure Jeep($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/J/Jeep', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Byte
+
+sprite $ByteXs [10x10/16z] uwS3
+
+sprite $ByteSm [12x12/16z] unza
+
+sprite $ByteMd [16x16/16z] un_X
+
+sprite $ByteLg [20x20/16z] unzKO1G
+
+!procedure Byte($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Byte', $name, $tech)
+!endprocedure

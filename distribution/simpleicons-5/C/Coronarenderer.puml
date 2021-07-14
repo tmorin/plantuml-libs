@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Coronarenderer
+
+sprite $CoronarendererXs [10x10/16z] uwS3
+
+sprite $CoronarendererSm [12x12/16z] unza
+
+sprite $CoronarendererMd [16x16/16z] un_X
+
+sprite $CoronarendererLg [20x20/16z] unzKO1G
+
+!procedure Coronarenderer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Coronarenderer', $name, $tech)
+!endprocedure

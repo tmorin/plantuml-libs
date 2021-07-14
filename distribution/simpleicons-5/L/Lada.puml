@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Lada
+
+sprite $LadaXs [10x10/16z] uwS3
+
+sprite $LadaSm [12x12/16z] unza
+
+sprite $LadaMd [16x16/16z] un_X
+
+sprite $LadaLg [20x20/16z] unzKO1G
+
+!procedure Lada($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Lada', $name, $tech)
+!endprocedure

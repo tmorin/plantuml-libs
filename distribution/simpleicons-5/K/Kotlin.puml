@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kotlin
+
+sprite $KotlinXs [10x10/16z] uwS3
+
+sprite $KotlinSm [12x12/16z] unza
+
+sprite $KotlinMd [16x16/16z] un_X
+
+sprite $KotlinLg [20x20/16z] unzKO1G
+
+!procedure Kotlin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kotlin', $name, $tech)
+!endprocedure

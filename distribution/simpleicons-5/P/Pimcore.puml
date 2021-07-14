@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Pimcore
+
+sprite $PimcoreXs [10x10/16z] uwS3
+
+sprite $PimcoreSm [12x12/16z] unza
+
+sprite $PimcoreMd [16x16/16z] un_X
+
+sprite $PimcoreLg [20x20/16z] unzKO1G
+
+!procedure Pimcore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Pimcore', $name, $tech)
+!endprocedure

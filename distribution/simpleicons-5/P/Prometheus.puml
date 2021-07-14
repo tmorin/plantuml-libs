@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Prometheus
+
+sprite $PrometheusXs [10x10/16z] uwS3
+
+sprite $PrometheusSm [12x12/16z] unza
+
+sprite $PrometheusMd [16x16/16z] un_X
+
+sprite $PrometheusLg [20x20/16z] unzKO1G
+
+!procedure Prometheus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Prometheus', $name, $tech)
+!endprocedure

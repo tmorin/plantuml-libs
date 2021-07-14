@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bugsnag
+
+sprite $BugsnagXs [10x10/16z] uwS3
+
+sprite $BugsnagSm [12x12/16z] unza
+
+sprite $BugsnagMd [16x16/16z] un_X
+
+sprite $BugsnagLg [20x20/16z] unzKO1G
+
+!procedure Bugsnag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bugsnag', $name, $tech)
+!endprocedure

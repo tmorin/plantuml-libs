@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fortinet
+
+sprite $FortinetXs [10x10/16z] uwS3
+
+sprite $FortinetSm [12x12/16z] unza
+
+sprite $FortinetMd [16x16/16z] un_X
+
+sprite $FortinetLg [20x20/16z] unzKO1G
+
+!procedure Fortinet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fortinet', $name, $tech)
+!endprocedure

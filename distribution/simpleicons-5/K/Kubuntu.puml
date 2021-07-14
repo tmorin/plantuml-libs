@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kubuntu
+
+sprite $KubuntuXs [10x10/16z] uwS3
+
+sprite $KubuntuSm [12x12/16z] unza
+
+sprite $KubuntuMd [16x16/16z] un_X
+
+sprite $KubuntuLg [20x20/16z] unzKO1G
+
+!procedure Kubuntu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kubuntu', $name, $tech)
+!endprocedure

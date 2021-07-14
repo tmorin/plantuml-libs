@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Asciinema
+
+sprite $AsciinemaXs [10x10/16z] uwS3
+
+sprite $AsciinemaSm [12x12/16z] unza
+
+sprite $AsciinemaMd [16x16/16z] un_X
+
+sprite $AsciinemaLg [20x20/16z] unzKO1G
+
+!procedure Asciinema($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Asciinema', $name, $tech)
+!endprocedure

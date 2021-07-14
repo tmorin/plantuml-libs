@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/Nintendo
+
+sprite $NintendoXs [10x10/16z] uwS3
+
+sprite $NintendoSm [12x12/16z] unza
+
+sprite $NintendoMd [16x16/16z] un_X
+
+sprite $NintendoLg [20x20/16z] unzKO1G
+
+!procedure Nintendo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/Nintendo', $name, $tech)
+!endprocedure

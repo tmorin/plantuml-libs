@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Y/Yamahacorporation
+
+sprite $YamahacorporationXs [10x10/16z] uwS3
+
+sprite $YamahacorporationSm [12x12/16z] unza
+
+sprite $YamahacorporationMd [16x16/16z] un_X
+
+sprite $YamahacorporationLg [20x20/16z] unzKO1G
+
+!procedure Yamahacorporation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Y/Yamahacorporation', $name, $tech)
+!endprocedure

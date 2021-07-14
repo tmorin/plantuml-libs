@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Librariesdotio
+
+sprite $LibrariesdotioXs [10x10/16z] uwS3
+
+sprite $LibrariesdotioSm [12x12/16z] unza
+
+sprite $LibrariesdotioMd [16x16/16z] un_X
+
+sprite $LibrariesdotioLg [20x20/16z] unzKO1G
+
+!procedure Librariesdotio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Librariesdotio', $name, $tech)
+!endprocedure

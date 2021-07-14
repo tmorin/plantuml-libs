@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sololearn
+
+sprite $SololearnXs [10x10/16z] uwS3
+
+sprite $SololearnSm [12x12/16z] unza
+
+sprite $SololearnMd [16x16/16z] un_X
+
+sprite $SololearnLg [20x20/16z] unzKO1G
+
+!procedure Sololearn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sololearn', $name, $tech)
+!endprocedure

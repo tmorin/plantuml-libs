@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Androidstudio
+
+sprite $AndroidstudioXs [10x10/16z] uwS3
+
+sprite $AndroidstudioSm [12x12/16z] unza
+
+sprite $AndroidstudioMd [16x16/16z] un_X
+
+sprite $AndroidstudioLg [20x20/16z] unzKO1G
+
+!procedure Androidstudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Androidstudio', $name, $tech)
+!endprocedure

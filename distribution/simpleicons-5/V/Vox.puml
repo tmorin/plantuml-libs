@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/Vox
+
+sprite $VoxXs [10x10/16z] uwS3
+
+sprite $VoxSm [12x12/16z] unza
+
+sprite $VoxMd [16x16/16z] un_X
+
+sprite $VoxLg [20x20/16z] unzKO1G
+
+!procedure Vox($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/Vox', $name, $tech)
+!endprocedure

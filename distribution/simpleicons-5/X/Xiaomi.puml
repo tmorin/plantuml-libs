@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/X/Xiaomi
+
+sprite $XiaomiXs [10x10/16z] uwS3
+
+sprite $XiaomiSm [12x12/16z] unza
+
+sprite $XiaomiMd [16x16/16z] un_X
+
+sprite $XiaomiLg [20x20/16z] unzKO1G
+
+!procedure Xiaomi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/X/Xiaomi', $name, $tech)
+!endprocedure

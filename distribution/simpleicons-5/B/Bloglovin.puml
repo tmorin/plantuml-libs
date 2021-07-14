@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bloglovin
+
+sprite $BloglovinXs [10x10/16z] uwS3
+
+sprite $BloglovinSm [12x12/16z] unza
+
+sprite $BloglovinMd [16x16/16z] un_X
+
+sprite $BloglovinLg [20x20/16z] unzKO1G
+
+!procedure Bloglovin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bloglovin', $name, $tech)
+!endprocedure

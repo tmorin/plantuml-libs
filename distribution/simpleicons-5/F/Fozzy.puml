@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fozzy
+
+sprite $FozzyXs [10x10/16z] uwS3
+
+sprite $FozzySm [12x12/16z] unza
+
+sprite $FozzyMd [16x16/16z] un_X
+
+sprite $FozzyLg [20x20/16z] unzKO1G
+
+!procedure Fozzy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fozzy', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Hubspot
+
+sprite $HubspotXs [10x10/16z] uwS3
+
+sprite $HubspotSm [12x12/16z] unza
+
+sprite $HubspotMd [16x16/16z] un_X
+
+sprite $HubspotLg [20x20/16z] unzKO1G
+
+!procedure Hubspot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Hubspot', $name, $tech)
+!endprocedure

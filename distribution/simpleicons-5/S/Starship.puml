@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Starship
+
+sprite $StarshipXs [10x10/16z] uwS3
+
+sprite $StarshipSm [12x12/16z] unza
+
+sprite $StarshipMd [16x16/16z] un_X
+
+sprite $StarshipLg [20x20/16z] unzKO1G
+
+!procedure Starship($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Starship', $name, $tech)
+!endprocedure

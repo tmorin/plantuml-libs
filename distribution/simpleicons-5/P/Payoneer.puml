@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Payoneer
+
+sprite $PayoneerXs [10x10/16z] uwS3
+
+sprite $PayoneerSm [12x12/16z] unza
+
+sprite $PayoneerMd [16x16/16z] un_X
+
+sprite $PayoneerLg [20x20/16z] unzKO1G
+
+!procedure Payoneer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Payoneer', $name, $tech)
+!endprocedure

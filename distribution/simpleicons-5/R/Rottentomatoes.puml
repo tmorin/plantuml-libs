@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Rottentomatoes
+
+sprite $RottentomatoesXs [10x10/16z] uwS3
+
+sprite $RottentomatoesSm [12x12/16z] unza
+
+sprite $RottentomatoesMd [16x16/16z] un_X
+
+sprite $RottentomatoesLg [20x20/16z] unzKO1G
+
+!procedure Rottentomatoes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Rottentomatoes', $name, $tech)
+!endprocedure

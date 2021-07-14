@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Clyp
+
+sprite $ClypXs [10x10/16z] uwS3
+
+sprite $ClypSm [12x12/16z] unza
+
+sprite $ClypMd [16x16/16z] un_X
+
+sprite $ClypLg [20x20/16z] unzKO1G
+
+!procedure Clyp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Clyp', $name, $tech)
+!endprocedure

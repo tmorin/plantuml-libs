@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Protonmail
+
+sprite $ProtonmailXs [10x10/16z] uwS3
+
+sprite $ProtonmailSm [12x12/16z] unza
+
+sprite $ProtonmailMd [16x16/16z] un_X
+
+sprite $ProtonmailLg [20x20/16z] unzKO1G
+
+!procedure Protonmail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Protonmail', $name, $tech)
+!endprocedure

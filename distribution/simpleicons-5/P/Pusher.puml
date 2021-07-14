@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Pusher
+
+sprite $PusherXs [10x10/16z] uwS3
+
+sprite $PusherSm [12x12/16z] unza
+
+sprite $PusherMd [16x16/16z] un_X
+
+sprite $PusherLg [20x20/16z] unzKO1G
+
+!procedure Pusher($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Pusher', $name, $tech)
+!endprocedure

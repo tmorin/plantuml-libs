@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Themighty
+
+sprite $ThemightyXs [10x10/16z] uwS3
+
+sprite $ThemightySm [12x12/16z] unza
+
+sprite $ThemightyMd [16x16/16z] un_X
+
+sprite $ThemightyLg [20x20/16z] unzKO1G
+
+!procedure Themighty($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Themighty', $name, $tech)
+!endprocedure

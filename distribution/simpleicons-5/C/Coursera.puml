@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Coursera
+
+sprite $CourseraXs [10x10/16z] uwS3
+
+sprite $CourseraSm [12x12/16z] unza
+
+sprite $CourseraMd [16x16/16z] un_X
+
+sprite $CourseraLg [20x20/16z] unzKO1G
+
+!procedure Coursera($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Coursera', $name, $tech)
+!endprocedure

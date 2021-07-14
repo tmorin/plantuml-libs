@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sat1
+
+sprite $Sat1Xs [10x10/16z] uwS3
+
+sprite $Sat1Sm [12x12/16z] unza
+
+sprite $Sat1Md [16x16/16z] un_X
+
+sprite $Sat1Lg [20x20/16z] unzKO1G
+
+!procedure Sat1($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sat1', $name, $tech)
+!endprocedure

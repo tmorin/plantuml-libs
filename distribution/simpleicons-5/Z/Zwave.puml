@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Z/Zwave
+
+sprite $ZwaveXs [10x10/16z] uwS3
+
+sprite $ZwaveSm [12x12/16z] unza
+
+sprite $ZwaveMd [16x16/16z] un_X
+
+sprite $ZwaveLg [20x20/16z] unzKO1G
+
+!procedure Zwave($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Z/Zwave', $name, $tech)
+!endprocedure

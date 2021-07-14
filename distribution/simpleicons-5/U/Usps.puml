@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Usps
+
+sprite $UspsXs [10x10/16z] uwS3
+
+sprite $UspsSm [12x12/16z] unza
+
+sprite $UspsMd [16x16/16z] un_X
+
+sprite $UspsLg [20x20/16z] unzKO1G
+
+!procedure Usps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Usps', $name, $tech)
+!endprocedure

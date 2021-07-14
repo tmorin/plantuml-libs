@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cashapp
+
+sprite $CashappXs [10x10/16z] uwS3
+
+sprite $CashappSm [12x12/16z] unza
+
+sprite $CashappMd [16x16/16z] un_X
+
+sprite $CashappLg [20x20/16z] unzKO1G
+
+!procedure Cashapp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cashapp', $name, $tech)
+!endprocedure

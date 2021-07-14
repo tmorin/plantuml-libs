@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Keepassxc
+
+sprite $KeepassxcXs [10x10/16z] uwS3
+
+sprite $KeepassxcSm [12x12/16z] unza
+
+sprite $KeepassxcMd [16x16/16z] un_X
+
+sprite $KeepassxcLg [20x20/16z] unzKO1G
+
+!procedure Keepassxc($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Keepassxc', $name, $tech)
+!endprocedure

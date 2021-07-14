@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kirby
+
+sprite $KirbyXs [10x10/16z] uwS3
+
+sprite $KirbySm [12x12/16z] unza
+
+sprite $KirbyMd [16x16/16z] un_X
+
+sprite $KirbyLg [20x20/16z] unzKO1G
+
+!procedure Kirby($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kirby', $name, $tech)
+!endprocedure

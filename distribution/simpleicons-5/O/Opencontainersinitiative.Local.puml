@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Opencontainersinitiative
+include('simpleicons-5/O/Opencontainersinitiative')
+
+' renders the element
+Opencontainersinitiative('Opencontainersinitiative', 'Opencontainersinitiative', 'an optional tech label')
+@enduml

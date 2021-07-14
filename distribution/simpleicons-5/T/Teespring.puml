@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Teespring
+
+sprite $TeespringXs [10x10/16z] uwS3
+
+sprite $TeespringSm [12x12/16z] unza
+
+sprite $TeespringMd [16x16/16z] un_X
+
+sprite $TeespringLg [20x20/16z] unzKO1G
+
+!procedure Teespring($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Teespring', $name, $tech)
+!endprocedure

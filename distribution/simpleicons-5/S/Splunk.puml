@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Splunk
+
+sprite $SplunkXs [10x10/16z] uwS3
+
+sprite $SplunkSm [12x12/16z] unza
+
+sprite $SplunkMd [16x16/16z] un_X
+
+sprite $SplunkLg [20x20/16z] unzKO1G
+
+!procedure Splunk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Splunk', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Playstation5
+
+sprite $Playstation5Xs [10x10/16z] uwS3
+
+sprite $Playstation5Sm [12x12/16z] unza
+
+sprite $Playstation5Md [16x16/16z] un_X
+
+sprite $Playstation5Lg [20x20/16z] unzKO1G
+
+!procedure Playstation5($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Playstation5', $name, $tech)
+!endprocedure

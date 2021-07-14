@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cycling74
+
+sprite $Cycling74Xs [10x10/16z] uwS3
+
+sprite $Cycling74Sm [12x12/16z] unza
+
+sprite $Cycling74Md [16x16/16z] un_X
+
+sprite $Cycling74Lg [20x20/16z] unzKO1G
+
+!procedure Cycling74($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cycling74', $name, $tech)
+!endprocedure

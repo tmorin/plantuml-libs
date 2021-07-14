@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bulma
+
+sprite $BulmaXs [10x10/16z] uwS3
+
+sprite $BulmaSm [12x12/16z] unza
+
+sprite $BulmaMd [16x16/16z] un_X
+
+sprite $BulmaLg [20x20/16z] unzKO1G
+
+!procedure Bulma($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bulma', $name, $tech)
+!endprocedure

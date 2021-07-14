@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Swiper
+
+sprite $SwiperXs [10x10/16z] uwS3
+
+sprite $SwiperSm [12x12/16z] unza
+
+sprite $SwiperMd [16x16/16z] un_X
+
+sprite $SwiperLg [20x20/16z] unzKO1G
+
+!procedure Swiper($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Swiper', $name, $tech)
+!endprocedure

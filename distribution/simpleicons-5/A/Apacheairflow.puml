@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Apacheairflow
+
+sprite $ApacheairflowXs [10x10/16z] uwS3
+
+sprite $ApacheairflowSm [12x12/16z] unza
+
+sprite $ApacheairflowMd [16x16/16z] un_X
+
+sprite $ApacheairflowLg [20x20/16z] unzKO1G
+
+!procedure Apacheairflow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Apacheairflow', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Inkscape
+
+sprite $InkscapeXs [10x10/16z] uwS3
+
+sprite $InkscapeSm [12x12/16z] unza
+
+sprite $InkscapeMd [16x16/16z] un_X
+
+sprite $InkscapeLg [20x20/16z] unzKO1G
+
+!procedure Inkscape($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Inkscape', $name, $tech)
+!endprocedure

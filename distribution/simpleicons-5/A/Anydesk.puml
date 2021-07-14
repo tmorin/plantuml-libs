@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Anydesk
+
+sprite $AnydeskXs [10x10/16z] uwS3
+
+sprite $AnydeskSm [12x12/16z] unza
+
+sprite $AnydeskMd [16x16/16z] un_X
+
+sprite $AnydeskLg [20x20/16z] unzKO1G
+
+!procedure Anydesk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Anydesk', $name, $tech)
+!endprocedure

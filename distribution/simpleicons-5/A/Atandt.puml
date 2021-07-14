@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Atandt
+
+sprite $AtandtXs [10x10/16z] uwS3
+
+sprite $AtandtSm [12x12/16z] unza
+
+sprite $AtandtMd [16x16/16z] un_X
+
+sprite $AtandtLg [20x20/16z] unzKO1G
+
+!procedure Atandt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Atandt', $name, $tech)
+!endprocedure

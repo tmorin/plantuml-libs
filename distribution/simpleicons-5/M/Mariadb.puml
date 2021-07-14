@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mariadb
+
+sprite $MariadbXs [10x10/16z] uwS3
+
+sprite $MariadbSm [12x12/16z] unza
+
+sprite $MariadbMd [16x16/16z] un_X
+
+sprite $MariadbLg [20x20/16z] unzKO1G
+
+!procedure Mariadb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mariadb', $name, $tech)
+!endprocedure

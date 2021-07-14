@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Pegasusairlines
+
+sprite $PegasusairlinesXs [10x10/16z] uwS3
+
+sprite $PegasusairlinesSm [12x12/16z] unza
+
+sprite $PegasusairlinesMd [16x16/16z] un_X
+
+sprite $PegasusairlinesLg [20x20/16z] unzKO1G
+
+!procedure Pegasusairlines($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Pegasusairlines', $name, $tech)
+!endprocedure

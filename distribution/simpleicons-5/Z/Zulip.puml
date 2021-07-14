@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Z/Zulip
+
+sprite $ZulipXs [10x10/16z] uwS3
+
+sprite $ZulipSm [12x12/16z] unza
+
+sprite $ZulipMd [16x16/16z] un_X
+
+sprite $ZulipLg [20x20/16z] unzKO1G
+
+!procedure Zulip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Z/Zulip', $name, $tech)
+!endprocedure

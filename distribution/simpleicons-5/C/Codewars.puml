@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codewars
+
+sprite $CodewarsXs [10x10/16z] uwS3
+
+sprite $CodewarsSm [12x12/16z] unza
+
+sprite $CodewarsMd [16x16/16z] un_X
+
+sprite $CodewarsLg [20x20/16z] unzKO1G
+
+!procedure Codewars($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codewars', $name, $tech)
+!endprocedure

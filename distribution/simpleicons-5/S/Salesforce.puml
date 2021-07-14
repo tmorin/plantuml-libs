@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Salesforce
+
+sprite $SalesforceXs [10x10/16z] uwS3
+
+sprite $SalesforceSm [12x12/16z] unza
+
+sprite $SalesforceMd [16x16/16z] un_X
+
+sprite $SalesforceLg [20x20/16z] unzKO1G
+
+!procedure Salesforce($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Salesforce', $name, $tech)
+!endprocedure

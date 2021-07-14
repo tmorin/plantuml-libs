@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kubernetes
+
+sprite $KubernetesXs [10x10/16z] uwS3
+
+sprite $KubernetesSm [12x12/16z] unza
+
+sprite $KubernetesMd [16x16/16z] un_X
+
+sprite $KubernetesLg [20x20/16z] unzKO1G
+
+!procedure Kubernetes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kubernetes', $name, $tech)
+!endprocedure

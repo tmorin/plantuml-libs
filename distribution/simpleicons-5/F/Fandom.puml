@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fandom
+
+sprite $FandomXs [10x10/16z] uwS3
+
+sprite $FandomSm [12x12/16z] unza
+
+sprite $FandomMd [16x16/16z] un_X
+
+sprite $FandomLg [20x20/16z] unzKO1G
+
+!procedure Fandom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fandom', $name, $tech)
+!endprocedure

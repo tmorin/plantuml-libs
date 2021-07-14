@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Reddit
+
+sprite $RedditXs [10x10/16z] uwS3
+
+sprite $RedditSm [12x12/16z] unza
+
+sprite $RedditMd [16x16/16z] un_X
+
+sprite $RedditLg [20x20/16z] unzKO1G
+
+!procedure Reddit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Reddit', $name, $tech)
+!endprocedure

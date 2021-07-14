@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Primevideo
+
+sprite $PrimevideoXs [10x10/16z] uwS3
+
+sprite $PrimevideoSm [12x12/16z] unza
+
+sprite $PrimevideoMd [16x16/16z] un_X
+
+sprite $PrimevideoLg [20x20/16z] unzKO1G
+
+!procedure Primevideo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Primevideo', $name, $tech)
+!endprocedure

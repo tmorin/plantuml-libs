@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Knowledgebase
+
+sprite $KnowledgebaseXs [10x10/16z] uwS3
+
+sprite $KnowledgebaseSm [12x12/16z] unza
+
+sprite $KnowledgebaseMd [16x16/16z] un_X
+
+sprite $KnowledgebaseLg [20x20/16z] unzKO1G
+
+!procedure Knowledgebase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Knowledgebase', $name, $tech)
+!endprocedure

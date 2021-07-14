@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Devrant
+
+sprite $DevrantXs [10x10/16z] uwS3
+
+sprite $DevrantSm [12x12/16z] unza
+
+sprite $DevrantMd [16x16/16z] un_X
+
+sprite $DevrantLg [20x20/16z] unzKO1G
+
+!procedure Devrant($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Devrant', $name, $tech)
+!endprocedure

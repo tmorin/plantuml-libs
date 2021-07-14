@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Accenture
+
+sprite $AccentureXs [10x10/16z] uwS3
+
+sprite $AccentureSm [12x12/16z] unza
+
+sprite $AccentureMd [16x16/16z] un_X
+
+sprite $AccentureLg [20x20/16z] unzKO1G
+
+!procedure Accenture($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Accenture', $name, $tech)
+!endprocedure

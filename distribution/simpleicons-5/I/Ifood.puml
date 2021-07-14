@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Ifood
+
+sprite $IfoodXs [10x10/16z] uwS3
+
+sprite $IfoodSm [12x12/16z] unza
+
+sprite $IfoodMd [16x16/16z] un_X
+
+sprite $IfoodLg [20x20/16z] unzKO1G
+
+!procedure Ifood($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Ifood', $name, $tech)
+!endprocedure

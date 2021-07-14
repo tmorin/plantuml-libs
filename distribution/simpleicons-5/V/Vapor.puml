@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/Vapor
+
+sprite $VaporXs [10x10/16z] uwS3
+
+sprite $VaporSm [12x12/16z] unza
+
+sprite $VaporMd [16x16/16z] un_X
+
+sprite $VaporLg [20x20/16z] unzKO1G
+
+!procedure Vapor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/Vapor', $name, $tech)
+!endprocedure

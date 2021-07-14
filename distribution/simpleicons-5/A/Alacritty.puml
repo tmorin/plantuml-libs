@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Alacritty
+
+sprite $AlacrittyXs [10x10/16z] uwS3
+
+sprite $AlacrittySm [12x12/16z] unza
+
+sprite $AlacrittyMd [16x16/16z] un_X
+
+sprite $AlacrittyLg [20x20/16z] unzKO1G
+
+!procedure Alacritty($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Alacritty', $name, $tech)
+!endprocedure

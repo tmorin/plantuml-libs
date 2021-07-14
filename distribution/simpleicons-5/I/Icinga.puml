@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Icinga
+
+sprite $IcingaXs [10x10/16z] uwS3
+
+sprite $IcingaSm [12x12/16z] unza
+
+sprite $IcingaMd [16x16/16z] un_X
+
+sprite $IcingaLg [20x20/16z] unzKO1G
+
+!procedure Icinga($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Icinga', $name, $tech)
+!endprocedure

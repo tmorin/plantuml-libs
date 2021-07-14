@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Checkmarx
+
+sprite $CheckmarxXs [10x10/16z] uwS3
+
+sprite $CheckmarxSm [12x12/16z] unza
+
+sprite $CheckmarxMd [16x16/16z] un_X
+
+sprite $CheckmarxLg [20x20/16z] unzKO1G
+
+!procedure Checkmarx($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Checkmarx', $name, $tech)
+!endprocedure

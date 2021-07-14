@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Theregister
+
+sprite $TheregisterXs [10x10/16z] uwS3
+
+sprite $TheregisterSm [12x12/16z] unza
+
+sprite $TheregisterMd [16x16/16z] un_X
+
+sprite $TheregisterLg [20x20/16z] unzKO1G
+
+!procedure Theregister($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Theregister', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Googlekeep
+
+sprite $GooglekeepXs [10x10/16z] uwS3
+
+sprite $GooglekeepSm [12x12/16z] unza
+
+sprite $GooglekeepMd [16x16/16z] un_X
+
+sprite $GooglekeepLg [20x20/16z] unzKO1G
+
+!procedure Googlekeep($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Googlekeep', $name, $tech)
+!endprocedure

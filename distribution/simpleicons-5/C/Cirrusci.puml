@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Cirrusci
+
+sprite $CirrusciXs [10x10/16z] uwS3
+
+sprite $CirrusciSm [12x12/16z] unza
+
+sprite $CirrusciMd [16x16/16z] un_X
+
+sprite $CirrusciLg [20x20/16z] unzKO1G
+
+!procedure Cirrusci($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Cirrusci', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Toggl
+
+sprite $TogglXs [10x10/16z] uwS3
+
+sprite $TogglSm [12x12/16z] unza
+
+sprite $TogglMd [16x16/16z] un_X
+
+sprite $TogglLg [20x20/16z] unzKO1G
+
+!procedure Toggl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Toggl', $name, $tech)
+!endprocedure

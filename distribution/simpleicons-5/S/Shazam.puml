@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Shazam
+
+sprite $ShazamXs [10x10/16z] uwS3
+
+sprite $ShazamSm [12x12/16z] unza
+
+sprite $ShazamMd [16x16/16z] un_X
+
+sprite $ShazamLg [20x20/16z] unzKO1G
+
+!procedure Shazam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Shazam', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/Nextdoor
+
+sprite $NextdoorXs [10x10/16z] uwS3
+
+sprite $NextdoorSm [12x12/16z] unza
+
+sprite $NextdoorMd [16x16/16z] un_X
+
+sprite $NextdoorLg [20x20/16z] unzKO1G
+
+!procedure Nextdoor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/Nextdoor', $name, $tech)
+!endprocedure

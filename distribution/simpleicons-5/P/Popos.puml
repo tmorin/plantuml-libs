@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Popos
+
+sprite $PoposXs [10x10/16z] uwS3
+
+sprite $PoposSm [12x12/16z] unza
+
+sprite $PoposMd [16x16/16z] un_X
+
+sprite $PoposLg [20x20/16z] unzKO1G
+
+!procedure Popos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Popos', $name, $tech)
+!endprocedure

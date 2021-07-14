@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/Nutanix
+
+sprite $NutanixXs [10x10/16z] uwS3
+
+sprite $NutanixSm [12x12/16z] unza
+
+sprite $NutanixMd [16x16/16z] un_X
+
+sprite $NutanixLg [20x20/16z] unzKO1G
+
+!procedure Nutanix($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/Nutanix', $name, $tech)
+!endprocedure

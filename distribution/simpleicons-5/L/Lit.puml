@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Lit
+
+sprite $LitXs [10x10/16z] uwS3
+
+sprite $LitSm [12x12/16z] unza
+
+sprite $LitMd [16x16/16z] un_X
+
+sprite $LitLg [20x20/16z] unzKO1G
+
+!procedure Lit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Lit', $name, $tech)
+!endprocedure

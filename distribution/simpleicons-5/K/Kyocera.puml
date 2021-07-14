@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kyocera
+
+sprite $KyoceraXs [10x10/16z] uwS3
+
+sprite $KyoceraSm [12x12/16z] unza
+
+sprite $KyoceraMd [16x16/16z] un_X
+
+sprite $KyoceraLg [20x20/16z] unzKO1G
+
+!procedure Kyocera($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kyocera', $name, $tech)
+!endprocedure

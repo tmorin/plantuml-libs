@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fila
+
+sprite $FilaXs [10x10/16z] uwS3
+
+sprite $FilaSm [12x12/16z] unza
+
+sprite $FilaMd [16x16/16z] un_X
+
+sprite $FilaLg [20x20/16z] unzKO1G
+
+!procedure Fila($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fila', $name, $tech)
+!endprocedure

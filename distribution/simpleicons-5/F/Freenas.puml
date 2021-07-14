@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Freenas
+
+sprite $FreenasXs [10x10/16z] uwS3
+
+sprite $FreenasSm [12x12/16z] unza
+
+sprite $FreenasMd [16x16/16z] un_X
+
+sprite $FreenasLg [20x20/16z] unzKO1G
+
+!procedure Freenas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Freenas', $name, $tech)
+!endprocedure

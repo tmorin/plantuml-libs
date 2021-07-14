@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Wheniwork
+
+sprite $WheniworkXs [10x10/16z] uwS3
+
+sprite $WheniworkSm [12x12/16z] unza
+
+sprite $WheniworkMd [16x16/16z] un_X
+
+sprite $WheniworkLg [20x20/16z] unzKO1G
+
+!procedure Wheniwork($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Wheniwork', $name, $tech)
+!endprocedure

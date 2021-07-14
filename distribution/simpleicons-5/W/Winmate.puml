@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/W/Winmate
+
+sprite $WinmateXs [10x10/16z] uwS3
+
+sprite $WinmateSm [12x12/16z] unza
+
+sprite $WinmateMd [16x16/16z] un_X
+
+sprite $WinmateLg [20x20/16z] unzKO1G
+
+!procedure Winmate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/W/Winmate', $name, $tech)
+!endprocedure

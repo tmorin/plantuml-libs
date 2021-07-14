@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Tplink
+
+sprite $TplinkXs [10x10/16z] uwS3
+
+sprite $TplinkSm [12x12/16z] unza
+
+sprite $TplinkMd [16x16/16z] un_X
+
+sprite $TplinkLg [20x20/16z] unzKO1G
+
+!procedure Tplink($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Tplink', $name, $tech)
+!endprocedure

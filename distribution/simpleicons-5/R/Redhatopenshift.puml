@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Redhatopenshift
+
+sprite $RedhatopenshiftXs [10x10/16z] uwS3
+
+sprite $RedhatopenshiftSm [12x12/16z] unza
+
+sprite $RedhatopenshiftMd [16x16/16z] un_X
+
+sprite $RedhatopenshiftLg [20x20/16z] unzKO1G
+
+!procedure Redhatopenshift($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Redhatopenshift', $name, $tech)
+!endprocedure

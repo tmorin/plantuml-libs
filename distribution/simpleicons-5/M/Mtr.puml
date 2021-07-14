@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mtr
+
+sprite $MtrXs [10x10/16z] uwS3
+
+sprite $MtrSm [12x12/16z] unza
+
+sprite $MtrMd [16x16/16z] un_X
+
+sprite $MtrLg [20x20/16z] unzKO1G
+
+!procedure Mtr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mtr', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Gatsby
+
+sprite $GatsbyXs [10x10/16z] uwS3
+
+sprite $GatsbySm [12x12/16z] unza
+
+sprite $GatsbyMd [16x16/16z] un_X
+
+sprite $GatsbyLg [20x20/16z] unzKO1G
+
+!procedure Gatsby($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Gatsby', $name, $tech)
+!endprocedure

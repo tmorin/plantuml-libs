@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Instagram
+
+sprite $InstagramXs [10x10/16z] uwS3
+
+sprite $InstagramSm [12x12/16z] unza
+
+sprite $InstagramMd [16x16/16z] un_X
+
+sprite $InstagramLg [20x20/16z] unzKO1G
+
+!procedure Instagram($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Instagram', $name, $tech)
+!endprocedure

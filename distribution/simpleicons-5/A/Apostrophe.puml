@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Apostrophe
+
+sprite $ApostropheXs [10x10/16z] uwS3
+
+sprite $ApostropheSm [12x12/16z] unza
+
+sprite $ApostropheMd [16x16/16z] un_X
+
+sprite $ApostropheLg [20x20/16z] unzKO1G
+
+!procedure Apostrophe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Apostrophe', $name, $tech)
+!endprocedure

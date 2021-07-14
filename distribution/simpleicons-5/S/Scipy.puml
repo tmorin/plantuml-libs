@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Scipy
+
+sprite $ScipyXs [10x10/16z] uwS3
+
+sprite $ScipySm [12x12/16z] unza
+
+sprite $ScipyMd [16x16/16z] un_X
+
+sprite $ScipyLg [20x20/16z] unzKO1G
+
+!procedure Scipy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Scipy', $name, $tech)
+!endprocedure

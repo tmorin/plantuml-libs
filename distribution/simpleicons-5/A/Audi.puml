@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Audi
+
+sprite $AudiXs [10x10/16z] uwS3
+
+sprite $AudiSm [12x12/16z] unza
+
+sprite $AudiMd [16x16/16z] un_X
+
+sprite $AudiLg [20x20/16z] unzKO1G
+
+!procedure Audi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Audi', $name, $tech)
+!endprocedure

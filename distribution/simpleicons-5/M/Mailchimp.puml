@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mailchimp
+
+sprite $MailchimpXs [10x10/16z] uwS3
+
+sprite $MailchimpSm [12x12/16z] unza
+
+sprite $MailchimpMd [16x16/16z] un_X
+
+sprite $MailchimpLg [20x20/16z] unzKO1G
+
+!procedure Mailchimp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mailchimp', $name, $tech)
+!endprocedure

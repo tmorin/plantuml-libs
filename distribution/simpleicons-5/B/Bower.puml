@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bower
+
+sprite $BowerXs [10x10/16z] uwS3
+
+sprite $BowerSm [12x12/16z] unza
+
+sprite $BowerMd [16x16/16z] un_X
+
+sprite $BowerLg [20x20/16z] unzKO1G
+
+!procedure Bower($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bower', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Edx
+
+sprite $EdxXs [10x10/16z] uwS3
+
+sprite $EdxSm [12x12/16z] unza
+
+sprite $EdxMd [16x16/16z] un_X
+
+sprite $EdxLg [20x20/16z] unzKO1G
+
+!procedure Edx($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Edx', $name, $tech)
+!endprocedure

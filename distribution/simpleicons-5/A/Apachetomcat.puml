@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Apachetomcat
+
+sprite $ApachetomcatXs [10x10/16z] uwS3
+
+sprite $ApachetomcatSm [12x12/16z] unza
+
+sprite $ApachetomcatMd [16x16/16z] un_X
+
+sprite $ApachetomcatLg [20x20/16z] unzKO1G
+
+!procedure Apachetomcat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Apachetomcat', $name, $tech)
+!endprocedure

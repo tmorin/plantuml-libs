@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/L/Leetcode
+
+sprite $LeetcodeXs [10x10/16z] uwS3
+
+sprite $LeetcodeSm [12x12/16z] unza
+
+sprite $LeetcodeMd [16x16/16z] un_X
+
+sprite $LeetcodeLg [20x20/16z] unzKO1G
+
+!procedure Leetcode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/L/Leetcode', $name, $tech)
+!endprocedure

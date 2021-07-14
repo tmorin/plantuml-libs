@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Antena3
+
+sprite $Antena3Xs [10x10/16z] uwS3
+
+sprite $Antena3Sm [12x12/16z] unza
+
+sprite $Antena3Md [16x16/16z] un_X
+
+sprite $Antena3Lg [20x20/16z] unzKO1G
+
+!procedure Antena3($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Antena3', $name, $tech)
+!endprocedure

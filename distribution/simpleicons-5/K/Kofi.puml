@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Kofi
+
+sprite $KofiXs [10x10/16z] uwS3
+
+sprite $KofiSm [12x12/16z] unza
+
+sprite $KofiMd [16x16/16z] un_X
+
+sprite $KofiLg [20x20/16z] unzKO1G
+
+!procedure Kofi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Kofi', $name, $tech)
+!endprocedure

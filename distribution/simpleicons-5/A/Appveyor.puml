@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Appveyor
+
+sprite $AppveyorXs [10x10/16z] uwS3
+
+sprite $AppveyorSm [12x12/16z] unza
+
+sprite $AppveyorMd [16x16/16z] un_X
+
+sprite $AppveyorLg [20x20/16z] unzKO1G
+
+!procedure Appveyor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Appveyor', $name, $tech)
+!endprocedure

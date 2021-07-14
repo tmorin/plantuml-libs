@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/O/Overleaf
+
+sprite $OverleafXs [10x10/16z] uwS3
+
+sprite $OverleafSm [12x12/16z] unza
+
+sprite $OverleafMd [16x16/16z] un_X
+
+sprite $OverleafLg [20x20/16z] unzKO1G
+
+!procedure Overleaf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/O/Overleaf', $name, $tech)
+!endprocedure

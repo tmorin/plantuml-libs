@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mxlinux
+
+sprite $MxlinuxXs [10x10/16z] uwS3
+
+sprite $MxlinuxSm [12x12/16z] unza
+
+sprite $MxlinuxMd [16x16/16z] un_X
+
+sprite $MxlinuxLg [20x20/16z] unzKO1G
+
+!procedure Mxlinux($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mxlinux', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Steemit
+
+sprite $SteemitXs [10x10/16z] uwS3
+
+sprite $SteemitSm [12x12/16z] unza
+
+sprite $SteemitMd [16x16/16z] un_X
+
+sprite $SteemitLg [20x20/16z] unzKO1G
+
+!procedure Steemit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Steemit', $name, $tech)
+!endprocedure

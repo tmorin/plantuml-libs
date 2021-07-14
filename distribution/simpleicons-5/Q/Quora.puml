@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Q/Quora
+
+sprite $QuoraXs [10x10/16z] uwS3
+
+sprite $QuoraSm [12x12/16z] unza
+
+sprite $QuoraMd [16x16/16z] un_X
+
+sprite $QuoraLg [20x20/16z] unzKO1G
+
+!procedure Quora($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Q/Quora', $name, $tech)
+!endprocedure

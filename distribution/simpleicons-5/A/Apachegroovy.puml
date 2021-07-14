@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Apachegroovy
+
+sprite $ApachegroovyXs [10x10/16z] uwS3
+
+sprite $ApachegroovySm [12x12/16z] unza
+
+sprite $ApachegroovyMd [16x16/16z] un_X
+
+sprite $ApachegroovyLg [20x20/16z] unzKO1G
+
+!procedure Apachegroovy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Apachegroovy', $name, $tech)
+!endprocedure

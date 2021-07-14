@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Creativecommons
+
+sprite $CreativecommonsXs [10x10/16z] uwS3
+
+sprite $CreativecommonsSm [12x12/16z] unza
+
+sprite $CreativecommonsMd [16x16/16z] un_X
+
+sprite $CreativecommonsLg [20x20/16z] unzKO1G
+
+!procedure Creativecommons($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Creativecommons', $name, $tech)
+!endprocedure

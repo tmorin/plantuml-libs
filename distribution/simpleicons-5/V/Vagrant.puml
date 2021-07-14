@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/Vagrant
+
+sprite $VagrantXs [10x10/16z] uwS3
+
+sprite $VagrantSm [12x12/16z] unza
+
+sprite $VagrantMd [16x16/16z] un_X
+
+sprite $VagrantLg [20x20/16z] unzKO1G
+
+!procedure Vagrant($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/Vagrant', $name, $tech)
+!endprocedure

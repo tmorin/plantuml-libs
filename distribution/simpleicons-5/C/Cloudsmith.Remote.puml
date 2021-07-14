@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Cloudsmith
+include('simpleicons-5/C/Cloudsmith')
+
+' renders the element
+Cloudsmith('Cloudsmith', 'Cloudsmith', 'an optional tech label')
+@enduml

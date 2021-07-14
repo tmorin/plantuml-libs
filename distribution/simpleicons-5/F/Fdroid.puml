@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fdroid
+
+sprite $FdroidXs [10x10/16z] uwS3
+
+sprite $FdroidSm [12x12/16z] unza
+
+sprite $FdroidMd [16x16/16z] un_X
+
+sprite $FdroidLg [20x20/16z] unzKO1G
+
+!procedure Fdroid($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fdroid', $name, $tech)
+!endprocedure

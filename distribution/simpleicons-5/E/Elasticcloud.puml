@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Elasticcloud
+
+sprite $ElasticcloudXs [10x10/16z] uwS3
+
+sprite $ElasticcloudSm [12x12/16z] unza
+
+sprite $ElasticcloudMd [16x16/16z] un_X
+
+sprite $ElasticcloudLg [20x20/16z] unzKO1G
+
+!procedure Elasticcloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Elasticcloud', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Torbrowser
+
+sprite $TorbrowserXs [10x10/16z] uwS3
+
+sprite $TorbrowserSm [12x12/16z] unza
+
+sprite $TorbrowserMd [16x16/16z] un_X
+
+sprite $TorbrowserLg [20x20/16z] unzKO1G
+
+!procedure Torbrowser($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Torbrowser', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftoffice
+
+sprite $MicrosoftofficeXs [10x10/16z] uwS3
+
+sprite $MicrosoftofficeSm [12x12/16z] unza
+
+sprite $MicrosoftofficeMd [16x16/16z] un_X
+
+sprite $MicrosoftofficeLg [20x20/16z] unzKO1G
+
+!procedure Microsoftoffice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftoffice', $name, $tech)
+!endprocedure

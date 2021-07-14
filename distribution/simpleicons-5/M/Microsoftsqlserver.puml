@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftsqlserver
+
+sprite $MicrosoftsqlserverXs [10x10/16z] uwS3
+
+sprite $MicrosoftsqlserverSm [12x12/16z] unza
+
+sprite $MicrosoftsqlserverMd [16x16/16z] un_X
+
+sprite $MicrosoftsqlserverLg [20x20/16z] unzKO1G
+
+!procedure Microsoftsqlserver($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftsqlserver', $name, $tech)
+!endprocedure

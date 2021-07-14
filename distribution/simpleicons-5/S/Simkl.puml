@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Simkl
+
+sprite $SimklXs [10x10/16z] uwS3
+
+sprite $SimklSm [12x12/16z] unza
+
+sprite $SimklMd [16x16/16z] un_X
+
+sprite $SimklLg [20x20/16z] unzKO1G
+
+!procedure Simkl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Simkl', $name, $tech)
+!endprocedure

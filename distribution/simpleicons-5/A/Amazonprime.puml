@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Amazonprime
+
+sprite $AmazonprimeXs [10x10/16z] uwS3
+
+sprite $AmazonprimeSm [12x12/16z] unza
+
+sprite $AmazonprimeMd [16x16/16z] un_X
+
+sprite $AmazonprimeLg [20x20/16z] unzKO1G
+
+!procedure Amazonprime($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Amazonprime', $name, $tech)
+!endprocedure

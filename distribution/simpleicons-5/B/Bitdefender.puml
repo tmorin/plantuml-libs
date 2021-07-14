@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Bitdefender
+
+sprite $BitdefenderXs [10x10/16z] uwS3
+
+sprite $BitdefenderSm [12x12/16z] unza
+
+sprite $BitdefenderMd [16x16/16z] un_X
+
+sprite $BitdefenderLg [20x20/16z] unzKO1G
+
+!procedure Bitdefender($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Bitdefender', $name, $tech)
+!endprocedure

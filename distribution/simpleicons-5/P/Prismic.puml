@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Prismic
+
+sprite $PrismicXs [10x10/16z] uwS3
+
+sprite $PrismicSm [12x12/16z] unza
+
+sprite $PrismicMd [16x16/16z] un_X
+
+sprite $PrismicLg [20x20/16z] unzKO1G
+
+!procedure Prismic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Prismic', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Prestashop
+
+sprite $PrestashopXs [10x10/16z] uwS3
+
+sprite $PrestashopSm [12x12/16z] unza
+
+sprite $PrestashopMd [16x16/16z] un_X
+
+sprite $PrestashopLg [20x20/16z] unzKO1G
+
+!procedure Prestashop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Prestashop', $name, $tech)
+!endprocedure

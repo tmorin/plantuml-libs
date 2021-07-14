@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Photocrowd
+
+sprite $PhotocrowdXs [10x10/16z] uwS3
+
+sprite $PhotocrowdSm [12x12/16z] unza
+
+sprite $PhotocrowdMd [16x16/16z] un_X
+
+sprite $PhotocrowdLg [20x20/16z] unzKO1G
+
+!procedure Photocrowd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Photocrowd', $name, $tech)
+!endprocedure

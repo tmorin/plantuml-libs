@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Ingress
+
+sprite $IngressXs [10x10/16z] uwS3
+
+sprite $IngressSm [12x12/16z] unza
+
+sprite $IngressMd [16x16/16z] un_X
+
+sprite $IngressLg [20x20/16z] unzKO1G
+
+!procedure Ingress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Ingress', $name, $tech)
+!endprocedure

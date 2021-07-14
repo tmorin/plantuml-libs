@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Ferrarinv
+
+sprite $FerrarinvXs [10x10/16z] uwS3
+
+sprite $FerrarinvSm [12x12/16z] unza
+
+sprite $FerrarinvMd [16x16/16z] un_X
+
+sprite $FerrarinvLg [20x20/16z] unzKO1G
+
+!procedure Ferrarinv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Ferrarinv', $name, $tech)
+!endprocedure

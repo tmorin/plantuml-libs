@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Githubactions
+
+sprite $GithubactionsXs [10x10/16z] uwS3
+
+sprite $GithubactionsSm [12x12/16z] unza
+
+sprite $GithubactionsMd [16x16/16z] un_X
+
+sprite $GithubactionsLg [20x20/16z] unzKO1G
+
+!procedure Githubactions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Githubactions', $name, $tech)
+!endprocedure

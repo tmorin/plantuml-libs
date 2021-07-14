@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/O/Opslevel
+
+sprite $OpslevelXs [10x10/16z] uwS3
+
+sprite $OpslevelSm [12x12/16z] unza
+
+sprite $OpslevelMd [16x16/16z] un_X
+
+sprite $OpslevelLg [20x20/16z] unzKO1G
+
+!procedure Opslevel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/O/Opslevel', $name, $tech)
+!endprocedure

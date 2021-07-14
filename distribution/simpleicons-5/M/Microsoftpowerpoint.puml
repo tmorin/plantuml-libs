@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Microsoftpowerpoint
+
+sprite $MicrosoftpowerpointXs [10x10/16z] uwS3
+
+sprite $MicrosoftpowerpointSm [12x12/16z] unza
+
+sprite $MicrosoftpowerpointMd [16x16/16z] un_X
+
+sprite $MicrosoftpowerpointLg [20x20/16z] unzKO1G
+
+!procedure Microsoftpowerpoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Microsoftpowerpoint', $name, $tech)
+!endprocedure

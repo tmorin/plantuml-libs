@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Materialui
+
+sprite $MaterialuiXs [10x10/16z] uwS3
+
+sprite $MaterialuiSm [12x12/16z] unza
+
+sprite $MaterialuiMd [16x16/16z] un_X
+
+sprite $MaterialuiLg [20x20/16z] unzKO1G
+
+!procedure Materialui($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Materialui', $name, $tech)
+!endprocedure

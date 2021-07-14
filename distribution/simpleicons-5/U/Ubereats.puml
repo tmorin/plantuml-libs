@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Ubereats
+
+sprite $UbereatsXs [10x10/16z] uwS3
+
+sprite $UbereatsSm [12x12/16z] unza
+
+sprite $UbereatsMd [16x16/16z] un_X
+
+sprite $UbereatsLg [20x20/16z] unzKO1G
+
+!procedure Ubereats($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Ubereats', $name, $tech)
+!endprocedure

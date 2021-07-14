@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Celery
+
+sprite $CeleryXs [10x10/16z] uwS3
+
+sprite $CelerySm [12x12/16z] unza
+
+sprite $CeleryMd [16x16/16z] un_X
+
+sprite $CeleryLg [20x20/16z] unzKO1G
+
+!procedure Celery($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Celery', $name, $tech)
+!endprocedure

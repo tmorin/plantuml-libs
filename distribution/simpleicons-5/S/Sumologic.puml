@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sumologic
+
+sprite $SumologicXs [10x10/16z] uwS3
+
+sprite $SumologicSm [12x12/16z] unza
+
+sprite $SumologicMd [16x16/16z] un_X
+
+sprite $SumologicLg [20x20/16z] unzKO1G
+
+!procedure Sumologic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sumologic', $name, $tech)
+!endprocedure

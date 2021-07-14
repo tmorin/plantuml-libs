@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Disqus
+
+sprite $DisqusXs [10x10/16z] uwS3
+
+sprite $DisqusSm [12x12/16z] unza
+
+sprite $DisqusMd [16x16/16z] un_X
+
+sprite $DisqusLg [20x20/16z] unzKO1G
+
+!procedure Disqus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Disqus', $name, $tech)
+!endprocedure

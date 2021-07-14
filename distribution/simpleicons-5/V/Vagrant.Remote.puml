@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Vagrant
+include('simpleicons-5/V/Vagrant')
+
+' renders the element
+Vagrant('Vagrant', 'Vagrant', 'an optional tech label')
+@enduml

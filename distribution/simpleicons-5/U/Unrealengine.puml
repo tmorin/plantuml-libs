@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/U/Unrealengine
+
+sprite $UnrealengineXs [10x10/16z] uwS3
+
+sprite $UnrealengineSm [12x12/16z] unza
+
+sprite $UnrealengineMd [16x16/16z] un_X
+
+sprite $UnrealengineLg [20x20/16z] unzKO1G
+
+!procedure Unrealengine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/U/Unrealengine', $name, $tech)
+!endprocedure

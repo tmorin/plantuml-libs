@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Hp
+
+sprite $HpXs [10x10/16z] uwS3
+
+sprite $HpSm [12x12/16z] unza
+
+sprite $HpMd [16x16/16z] un_X
+
+sprite $HpLg [20x20/16z] unzKO1G
+
+!procedure Hp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Hp', $name, $tech)
+!endprocedure

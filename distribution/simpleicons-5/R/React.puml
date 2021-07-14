@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/React
+
+sprite $ReactXs [10x10/16z] uwS3
+
+sprite $ReactSm [12x12/16z] unza
+
+sprite $ReactMd [16x16/16z] un_X
+
+sprite $ReactLg [20x20/16z] unzKO1G
+
+!procedure React($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/React', $name, $tech)
+!endprocedure

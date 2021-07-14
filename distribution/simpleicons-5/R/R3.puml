@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/R3
+
+sprite $R3Xs [10x10/16z] uwS3
+
+sprite $R3Sm [12x12/16z] unza
+
+sprite $R3Md [16x16/16z] un_X
+
+sprite $R3Lg [20x20/16z] unzKO1G
+
+!procedure R3($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/R3', $name, $tech)
+!endprocedure

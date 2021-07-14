@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sitepoint
+
+sprite $SitepointXs [10x10/16z] uwS3
+
+sprite $SitepointSm [12x12/16z] unza
+
+sprite $SitepointMd [16x16/16z] un_X
+
+sprite $SitepointLg [20x20/16z] unzKO1G
+
+!procedure Sitepoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sitepoint', $name, $tech)
+!endprocedure

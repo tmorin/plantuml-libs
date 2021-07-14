@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Ssrn
+
+sprite $SsrnXs [10x10/16z] uwS3
+
+sprite $SsrnSm [12x12/16z] unza
+
+sprite $SsrnMd [16x16/16z] un_X
+
+sprite $SsrnLg [20x20/16z] unzKO1G
+
+!procedure Ssrn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Ssrn', $name, $tech)
+!endprocedure

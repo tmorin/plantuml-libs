@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/F/Fujitsu
+
+sprite $FujitsuXs [10x10/16z] uwS3
+
+sprite $FujitsuSm [12x12/16z] unza
+
+sprite $FujitsuMd [16x16/16z] un_X
+
+sprite $FujitsuLg [20x20/16z] unzKO1G
+
+!procedure Fujitsu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/F/Fujitsu', $name, $tech)
+!endprocedure

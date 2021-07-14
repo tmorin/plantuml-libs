@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Q/Quickbooks
+
+sprite $QuickbooksXs [10x10/16z] uwS3
+
+sprite $QuickbooksSm [12x12/16z] unza
+
+sprite $QuickbooksMd [16x16/16z] un_X
+
+sprite $QuickbooksLg [20x20/16z] unzKO1G
+
+!procedure Quickbooks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Q/Quickbooks', $name, $tech)
+!endprocedure

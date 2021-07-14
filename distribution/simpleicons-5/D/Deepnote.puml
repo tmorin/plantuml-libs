@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Deepnote
+
+sprite $DeepnoteXs [10x10/16z] uwS3
+
+sprite $DeepnoteSm [12x12/16z] unza
+
+sprite $DeepnoteMd [16x16/16z] un_X
+
+sprite $DeepnoteLg [20x20/16z] unzKO1G
+
+!procedure Deepnote($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Deepnote', $name, $tech)
+!endprocedure

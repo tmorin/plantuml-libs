@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/O/Okta
+
+sprite $OktaXs [10x10/16z] uwS3
+
+sprite $OktaSm [12x12/16z] unza
+
+sprite $OktaMd [16x16/16z] un_X
+
+sprite $OktaLg [20x20/16z] unzKO1G
+
+!procedure Okta($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/O/Okta', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Countingworkspro
+
+sprite $CountingworksproXs [10x10/16z] uwS3
+
+sprite $CountingworksproSm [12x12/16z] unza
+
+sprite $CountingworksproMd [16x16/16z] un_X
+
+sprite $CountingworksproLg [20x20/16z] unzKO1G
+
+!procedure Countingworkspro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Countingworkspro', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/V/Venmo
+
+sprite $VenmoXs [10x10/16z] uwS3
+
+sprite $VenmoSm [12x12/16z] unza
+
+sprite $VenmoMd [16x16/16z] un_X
+
+sprite $VenmoLg [20x20/16z] unzKO1G
+
+!procedure Venmo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/V/Venmo', $name, $tech)
+!endprocedure

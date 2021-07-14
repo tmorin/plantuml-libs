@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/I/Informatica
+
+sprite $InformaticaXs [10x10/16z] uwS3
+
+sprite $InformaticaSm [12x12/16z] unza
+
+sprite $InformaticaMd [16x16/16z] un_X
+
+sprite $InformaticaLg [20x20/16z] unzKO1G
+
+!procedure Informatica($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/I/Informatica', $name, $tech)
+!endprocedure

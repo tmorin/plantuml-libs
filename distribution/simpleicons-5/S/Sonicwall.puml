@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Sonicwall
+
+sprite $SonicwallXs [10x10/16z] uwS3
+
+sprite $SonicwallSm [12x12/16z] unza
+
+sprite $SonicwallMd [16x16/16z] un_X
+
+sprite $SonicwallLg [20x20/16z] unzKO1G
+
+!procedure Sonicwall($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Sonicwall', $name, $tech)
+!endprocedure

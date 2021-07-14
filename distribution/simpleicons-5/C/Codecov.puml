@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/C/Codecov
+
+sprite $CodecovXs [10x10/16z] uwS3
+
+sprite $CodecovSm [12x12/16z] unza
+
+sprite $CodecovMd [16x16/16z] un_X
+
+sprite $CodecovLg [20x20/16z] unzKO1G
+
+!procedure Codecov($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/C/Codecov', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/E/Embarcadero
+
+sprite $EmbarcaderoXs [10x10/16z] uwS3
+
+sprite $EmbarcaderoSm [12x12/16z] unza
+
+sprite $EmbarcaderoMd [16x16/16z] un_X
+
+sprite $EmbarcaderoLg [20x20/16z] unzKO1G
+
+!procedure Embarcadero($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/E/Embarcadero', $name, $tech)
+!endprocedure

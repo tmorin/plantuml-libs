@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Metabase
+
+sprite $MetabaseXs [10x10/16z] uwS3
+
+sprite $MetabaseSm [12x12/16z] unza
+
+sprite $MetabaseMd [16x16/16z] un_X
+
+sprite $MetabaseLg [20x20/16z] unzKO1G
+
+!procedure Metabase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Metabase', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/A/Atlassian
+
+sprite $AtlassianXs [10x10/16z] uwS3
+
+sprite $AtlassianSm [12x12/16z] unza
+
+sprite $AtlassianMd [16x16/16z] un_X
+
+sprite $AtlassianLg [20x20/16z] unzKO1G
+
+!procedure Atlassian($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Atlassian', $name, $tech)
+!endprocedure

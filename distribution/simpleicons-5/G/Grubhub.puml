@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/G/Grubhub
+
+sprite $GrubhubXs [10x10/16z] uwS3
+
+sprite $GrubhubSm [12x12/16z] unza
+
+sprite $GrubhubMd [16x16/16z] un_X
+
+sprite $GrubhubLg [20x20/16z] unzKO1G
+
+!procedure Grubhub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/G/Grubhub', $name, $tech)
+!endprocedure
