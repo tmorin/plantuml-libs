@@ -1,16 +1,16 @@
 name: Continous Integration
 
-#on: [ push, pull_request ]
+on: [ push, pull_request ]
 
-on:
-  workflow_dispatch:
-    inputs:
-      pkgName:
-        description: The name of the package.
-        required: true
-      pkgVersion:
-        description: The version of the package.
-        required: false
+#on:
+#  workflow_dispatch:
+#    inputs:
+#      pkgName:
+#        description: The name of the package.
+#        required: true
+#      pkgVersion:
+#        description: The version of the package.
+#        required: false
 
 jobs:
   build:
@@ -24,6 +24,8 @@ jobs:
           node-version: '14.x'
           registry-url: 'https://registry.npmjs.org'
           scope: '@tmorin'
+      - name: "Install system dependencies"
+        run: sudo apt install graphviz
       - name: "Cache Node.js modules"
         uses: actions/cache@v2
         with:
@@ -34,5 +36,5 @@ jobs:
             ${{ runner.OS }}-
       - name: "Install dependencies"
         run: npm ci --no-progress
-      - name: "Test yaml generation"
-        run: npm run generate:yaml
+      - name: "Test"
+        run: npm test

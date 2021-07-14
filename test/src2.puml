@@ -1,0 +1,12 @@
+@startuml src2-diag1
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../distribution"
+!include $LIB_BASE_LOCATION/bootstrap.puml
+include('aws-20210131/bootstrap')
+include('aws-20210131/Architecture/Analytics/AmazonAthena')
+AmazonAthenaGroup('AmazonAthenaGroup', 'Amazon Athena Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
