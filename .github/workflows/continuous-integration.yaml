@@ -25,7 +25,7 @@ jobs:
           registry-url: 'https://registry.npmjs.org'
           scope: '@tmorin'
       - name: "Install system dependencies"
-        run: sudo apt install graphviz
+        run: sudo apt install graphviz zip
       - name: "Cache Node.js modules"
         uses: actions/cache@v2
         with:
@@ -38,3 +38,14 @@ jobs:
         run: npm ci --no-progress
       - name: "Test"
         run: npm test
+      - name: "Create .cache directory"
+        run: mkdir -p .cache
+        working-directory: distribution
+      - name: "Zip distribution"
+        run: zip -r ../.cache/tmorin-plantuml-libs.zip *
+        working-directory: distribution
+      - name: "Upload the deb package"
+        uses: actions/upload-artifact@v2
+        with:
+          name: tmorin-plantuml-libs.zip
+          path: .cache/tmorin-plantuml-libs.zip
