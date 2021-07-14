@@ -9,7 +9,7 @@ sudo chown -R "$uid":"$gid" .workdir distribution
 docker run --rm \
   -v "$(pwd)/.workdir:/workdir" \
   -v "$(pwd)/distribution:/distribution" \
-  thibaultmorin/plantuml-generator:feat-generate-library plantuml-generator \
+  thibaultmorin/plantuml-generator:0 plantuml-generator \
   --log-level Debug \
   library generate library.yaml \
   -c=All -O=/distribution

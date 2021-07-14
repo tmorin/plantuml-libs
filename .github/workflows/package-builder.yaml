@@ -55,7 +55,7 @@ jobs:
   generate-distribution:
     name: Generate the distribution
     runs-on: ubuntu-20.04
-    container: docker://thibaultmorin/plantuml-generator:feat-generate-library
+    container: docker://thibaultmorin/plantuml-generator:0
     needs: [ generate-workdir ]
     steps:
       - uses: actions/checkout@v2

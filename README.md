@@ -53,10 +53,9 @@ npm run generate-library
 
 ```shell
 docker run --rm \
-docker run --rm \
   -v "$(pwd)/.workdir:/workdir" \
   -v "$(pwd)/distribution:/distribution" \
-  thibaultmorin/plantuml-generator:feat-generate-library plantuml-generator \
-  library generate library.yaml \
+  thibaultmorin/plantuml-generator:0 \
+  plantuml-generator library generate library.yaml \
   -c=All -O=/distribution
 ```
