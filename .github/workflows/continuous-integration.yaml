@@ -40,7 +40,6 @@ jobs:
         run: npm test
       - name: "Create .cache directory"
         run: mkdir -p .cache
-        working-directory: distribution
       - name: "Zip distribution"
         run: zip -r ../.cache/tmorin-plantuml-libs.zip *
         working-directory: distribution
