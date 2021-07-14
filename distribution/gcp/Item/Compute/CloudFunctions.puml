@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Compute/CloudFunctions
+
+sprite $CloudFunctionsXs [10x10/16z] HKo55G0X5BeEXSV-qzhAxm0aIhs46nBk85vVlNqNyVJl0xvezjAJlsPOnSeP
+
+sprite $CloudFunctionsSm [12x12/16z] LKq50e102BDf-FzhRRqTdLkX9D6LYF8CCryrprInqhEdDNBJfzOjayJSJXFgQhp1NyH4BfG3
+
+sprite $CloudFunctionsMd [16x16/16z] PG-52G112B23S_zflzEpEse6ivysmDnr8jZXWfvv1V0g0JdTonIAsm_QVENNPwqoZj1XDZI2hVkzli_xxLEGVa-xj_ypmme
+
+sprite $CloudFunctionsLg [20x20/16z] {
+TT1L6eGm40FWXv5TIBxX_gV5dTJRlzwX4SXF2-vujU1c_yt-PYjoemldvJ3xrM4r8nOBtewBrIBlbe6bdAtcPKjUUvin-igiFjWojLQS8U-YxgpU9lv0_9Ny
+Knqc
+}
+
+!procedure CloudFunctions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Compute/CloudFunctions', $name, $tech)
+!endprocedure
+
+!procedure CloudFunctionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudFunctionsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure CloudFunctionsGroup($id, $name='Cloud Functions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudFunctionsMd>', $name, $tech)
+!endprocedure

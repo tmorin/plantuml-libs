@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/CloudAi/CloudTranslationApi
+
+sprite $CloudTranslationApiXs [10x10/16z] HKl50S103Fh5WVsdhVSk7aGxo1xoFYepeXwmqU-XYU3qStbSaak9cAgikI18b-kJDkzQSG8
+
+sprite $CloudTranslationApiSm [12x12/16z] NKl50S102FlraCZ-qzOT9-9VjAwZQcGLjnjerC11CPLroJD2JEvtJUcEtisnPdQk3WQjZWoik3PPioy_PC7lM
+
+sprite $CloudTranslationApiMd [16x16/16z] {
+ROxL0GCm24J_u3Xi_sqRhRy8BlsN-ZI9buC0LCPdsnS-CQ7Vd1mQzLMHob1svNLG5IC5SUmG6M60nrH08-2eNOugezdml9O936pjkh8S7exiYutS6j-bzlV3
+0m
+}
+
+sprite $CloudTranslationApiLg [20x20/16z] {
+bSn50iCm40F0cwn5_V-thI5mR2SnBUalxQ6t_agm9sqv9c3kFC7oZU1xG9SaH-Z5uQenMY_DaJRBCfvuOi2a8kCf741AGThJYm5Mcndh3h4Sbenax921BNdu
+ZB7ti7qMbzHKhIbe4KxNYx7NNdf4pBsYzQiF
+}
+
+!procedure CloudTranslationApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/CloudTranslationApi', $name, $tech)
+!endprocedure
+
+!procedure CloudTranslationApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudTranslationApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure CloudTranslationApiGroup($id, $name='Cloud Translation Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudTranslationApiMd>', $name, $tech)
+!endprocedure

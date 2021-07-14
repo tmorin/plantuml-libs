@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Compute/CloudGpu
+
+sprite $CloudGpuXs [10x10/16z] JKor0G1132fZoFxJlil51R2jmtpQL7VDEMGTbh2gH9nLNUfHzJLDdzFrvLcDXx6e_Cex
+
+sprite $CloudGpuSm [12x12/16z] NKvL0WKW3FfbeEF-ftrXwxg7xNGpZIXIRA7GI7OI8L41fWMvbkPCA8CfiCLMjBWrIsskxL9jTzzyVsqCNm
+
+sprite $CloudGpuMd [16x16/16z] RO_L0KDH24D_IKBf_jk-w-uSdFzZYI45rJ1W3hWXEhPL54f84cHIf10cJ4vJylooi4VsJoo39uOQ_sYDcx-QVyyofLeFRFMkVjP-htdkzG4
+
+sprite $CloudGpuLg [20x20/16z] {
+TP174WH020Alu2Zy_xTRJjhCoMep_gTAETFAybLW2D10N9H43604c0VXHHDM4019S0PHkqgsXgnTgHxJ4tf-3vORDYjmiaQpbnQ1ABDxB-jxlDdfTR1ExzqH
+TNRSMvJolUNUp7FpZz_-UF37grTF_-a1
+}
+
+!procedure CloudGpu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Compute/CloudGpu', $name, $tech)
+!endprocedure
+
+!procedure CloudGpuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudGpuMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure CloudGpuGroup($id, $name='Cloud Gpu', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudGpuMd>', $name, $tech)
+!endprocedure

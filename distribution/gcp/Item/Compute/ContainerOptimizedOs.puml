@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Compute/ContainerOptimizedOs
+
+sprite $ContainerOptimizedOsXs [10x10/16z] JOp90G9120I_5aCr-KUhxhryw7jcefdjcYfw1nZ_C5WVb5WfOE4V0JG65zMIlJ7IhvLd-GS
+
+sprite $ContainerOptimizedOsSm [12x12/16z] NOx70KHH20Al3lAm_set_ZmNip1VajamW7-fYXMZNzUq9zy93bMAcP2514r2N59raz-EHCplLftlxU-dVZ-VMgU7Dm
+
+sprite $ContainerOptimizedOsMd [16x16/16z] RO-r5G0n34FRBnco_xH7Vgbogeo2zOVqWznT2IIXcXPuTftm3KGgCz-5dZQVfG3NLoxJ7G95jVpqMeriWNSFDgJntEljrOs7ht0Ct-XPsQDt-jb-GNNaEN43
+
+sprite $ContainerOptimizedOsLg [20x20/16z] {
+TP175iGm24Et4iBu_hUT4UcDLVBzG6L-J-L_wam6qSEn8m48IGHqGl1UQOC3IB66znBeTK9J813bdV22ztAJAFfA-gNlKw4PI3Dvdur1dXXa-GmiB7P6V-Mk
+qIpxR_5Y3vBQ2rVFadridlUufspd3W96drsTE_sU7m
+}
+
+!procedure ContainerOptimizedOs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Compute/ContainerOptimizedOs', $name, $tech)
+!endprocedure
+
+!procedure ContainerOptimizedOsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerOptimizedOsMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ContainerOptimizedOsGroup($id, $name='Container Optimized Os', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerOptimizedOsMd>', $name, $tech)
+!endprocedure

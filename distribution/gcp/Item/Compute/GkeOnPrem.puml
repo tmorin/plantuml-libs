@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/Compute/GkeOnPrem
+
+sprite $GkeOnPremXs [10x10/16z] 9Kd50S0W47irXks_RU4qUkxiVU5nW3nXqARdsRG0yTl7WwIis-OAnLVPL7Ap9Me4uzmPdxrEJTCF
+
+sprite $GkeOnPremSm [12x12/16z] FKr50eLG2FmXCF7Y_gUrbHNJyxWnvdCjqnTd91auf5eW59cSKr1b5gDsy_uNmFASldwTVvs_Zxzd2UoETfGgWaZVMo6zo_Up0G
+
+sprite $GkeOnPremMd [16x16/16z] {
+RKz5eWHG2FgXWl3Y_hUTxc5dKFih5hcUHcL4whePgg3Dm7dX-2y9a8ZZvZYNMKTGyU_Z0sMW2cp4FCxLBe2aklPbHXtdzcC6sBSxO1rdQl4yExFDdgi3bx0T
+MN95tpAF_0Sm7mK6vzfVSG
+}
+
+sprite $GkeOnPremLg [20x20/16z] {
+VT3L0GCX40JGZtKPhlzkiyHzJdaunxzKlGkSoF4iAvbKYNtTccG8IG4r7rpQA954frbMU6Xj4-8grubLCyaQJ2lOoCQGYq6gpMt4FPDo3zXSFJ2oZVjcPhej
+wibqq2EUsYNsQ37j-cfWIOIgUwx3ntQIoQeZUdRDZElkWbarpxiUkgQLI8saNivAo3lmTe2rZdyv0G
+}
+
+!procedure GkeOnPrem($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Compute/GkeOnPrem', $name, $tech)
+!endprocedure
+
+!procedure GkeOnPremCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GkeOnPremMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure GkeOnPremGroup($id, $name='Gke On Prem', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GkeOnPremMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAi/VideoIntelligenceApi
+
+sprite $VideoIntelligenceApiXs [10x10/16z] JOp50S00309_pH7TVzgwnGMOpxfxptqem67V2vbXeIeMWPng6TTqVFT8rSluL7ws0G
+
+sprite $VideoIntelligenceApiSm [12x12/16z] TOo34G1H34I7MNoa_shFnXi4Y_p3TgbsczOE2bBKvjvf0eWYJZl290kdNTVT373rW88PjPT-Tlup0W
+
+sprite $VideoIntelligenceApiMd [16x16/16z] bOwr0KCn34Gx7HdstpQ6KFkVKNppAUOYwzOujWe48g3FbcKZHj7BDZrdj39GLMZSjjPNqUBQAxdyPxUuKF_vMIaAqNDj43HgpUjhNlxrFES5
+
+sprite $VideoIntelligenceApiLg [20x20/16z] {
+fT1N0iCW30FGFyaMCht_RHjMvsUKoMFpk9K-Cp-7p95mZlSnW2IY1S6hkMeORG6oBgiCZxuIiSAA65QP17EPbtaLD5CV5ZMfRUjsWFmQpymsXC7BylHj5cWd
+sBksaOGIc6jkzTvRZ7V_FuD1D_C4
+}
+
+!procedure VideoIntelligenceApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/VideoIntelligenceApi', $name, $tech)
+!endprocedure
+
+!procedure VideoIntelligenceApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VideoIntelligenceApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure VideoIntelligenceApiGroup($id, $name='Video Intelligence Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VideoIntelligenceApiMd>', $name, $tech)
+!endprocedure

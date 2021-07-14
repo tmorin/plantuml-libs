@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersHighMemoryMachine
+
+sprite $ModifiersHighMemoryMachineXs [10x10/16z] uwS3
+
+sprite $ModifiersHighMemoryMachineSm [12x12/16z] unza
+
+sprite $ModifiersHighMemoryMachineMd [16x16/16z] un_X
+
+sprite $ModifiersHighMemoryMachineLg [20x20/16z] unzKO1G
+
+!procedure ModifiersHighMemoryMachine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersHighMemoryMachine', $name, $tech)
+!endprocedure
+
+!procedure ModifiersHighMemoryMachineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersHighMemoryMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersHighMemoryMachineGroup($id, $name='Modifiers High Memory Machine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersHighMemoryMachineMd>', $name, $tech)
+!endprocedure

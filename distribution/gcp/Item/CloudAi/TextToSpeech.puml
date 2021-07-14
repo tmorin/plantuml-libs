@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAi/TextToSpeech
+
+sprite $TextToSpeechXs [10x10/16z] NKp50G1027hQil-srsa7WC_2Mub4gjGYeYhS9ZUJEaMVl4wQzIlrg_KTrPGZZyXb1G
+
+sprite $TextToSpeechSm [12x12/16z] RSst0KGn20JHb9r5q7-rTz_xaNkAw8z67SnWkf5o6Cqsf29MJqcJQxKdpny3PhAgMOsprnnv6TMF_W
+
+sprite $TextToSpeechMd [16x16/16z] ZOv70WGW30AF1aZv_szNt7vphEdCDSNyin7H-qbjfhA2i8srLbG4NdQR0k9bYnl4iUjb6zkKym_71jtFEExzcgVSXaezRnJnBq-Q6nu
+
+sprite $TextToSpeechLg [20x20/16z] {
+dP150a8n30Lt9NbIxdzRI8CxV-fJptuJyraXyj4o8hIMg_2ndGoqqoZWYCopCmepCcAvAqnSdMEnYsSNQCVqmqlGAur6xRASHeDop0ZNcnkNqvGVV-R7c23u
+BLBVEG
+}
+
+!procedure TextToSpeech($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/TextToSpeech', $name, $tech)
+!endprocedure
+
+!procedure TextToSpeechCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TextToSpeechMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure TextToSpeechGroup($id, $name='Text To Speech', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TextToSpeechMd>', $name, $tech)
+!endprocedure

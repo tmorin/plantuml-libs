@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/CloudDataflow
+
+sprite $CloudDataflowXs [10x10/16z] uwS3
+
+sprite $CloudDataflowSm [12x12/16z] unza
+
+sprite $CloudDataflowMd [16x16/16z] un_X
+
+sprite $CloudDataflowLg [20x20/16z] unzKO1G
+
+!procedure CloudDataflow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/CloudDataflow', $name, $tech)
+!endprocedure
+
+!procedure CloudDataflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDataflowMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure CloudDataflowGroup($id, $name='Cloud Dataflow', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDataflowMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/IdentitySecurity/KeyAccessJustifications
+
+sprite $KeyAccessJustificationsXs [10x10/16z] LOp50SHG448lkyaRfVzglvuoBe2sjQvL4dKE4FRkCMcbnPgSZ8orgjx89jVD7Wng3Nyhpwt3k-j7TW8
+
+sprite $KeyAccessJustificationsSm [12x12/16z] JOt50OK03CM-04rz_sbnowdof7UgRqhzd08Gz9WbAc4NODtkiibIpCqBtGACY0wsiMJ2JAXj7DHbUtKp49r7MKxnAhsd1G
+
+sprite $KeyAccessJustificationsMd [16x16/16z] {
+TOm5WWD020FlQaXa___RKlTP1PAi7w2V2WeHi6vb33ddsb04RTnh1Cu9WPlSdb8Pvz1vMTrst0LWUnvU_OU0p5iUThkum7EvtuMO0PrBphIyfhZWmxRMCvhf
+Ruu
+}
+
+sprite $KeyAccessJustificationsLg [20x20/16z] {
+XSrL6iGW40FW1_ebutF_ssvRMBVWFzO_ar5lfl2djPahGKlBAoK1KWZ2-Xg1U7Kg6LVADG-5Nidcr3L8dxyRO1KxPGiGlQvOYEvKvDvF93EEXLDxfGZDwaw1
+NqqsGCoKW5rfR1G2sFjfjHEyGc7PUJqrGE-EdQxX61BzdEAc_PgA_fyB
+}
+
+!procedure KeyAccessJustifications($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentitySecurity/KeyAccessJustifications', $name, $tech)
+!endprocedure
+
+!procedure KeyAccessJustificationsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KeyAccessJustificationsMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+
+!procedure KeyAccessJustificationsGroup($id, $name='Key Access Justifications', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KeyAccessJustificationsMd>', $name, $tech)
+!endprocedure

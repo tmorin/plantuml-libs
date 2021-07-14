@@ -1,0 +1,39 @@
+' definition of the Item gcp/Item/OpenSourceIcons/KubernetesName
+
+sprite $KubernetesNameXs [58x9/16z] {
+ZOr7ZWH020FFBh3v_szNeCrfffjOml8uy_wIUVvP_X1I_vv-NVkpKfLFtblp2kxovbTmIjCXGqU2dXJK170XVA2dHSLBf_UWLQg972h2AAKksMe737CWBIze
+MEnfINvNrhICO9MUeGR2WLR64f0MlPwGg5wZpjEUpye3VGxOdXZ5ibL1lDQUCysRiZZ0-DMD2eZ4CvksCzaosvRib8tZLr_7Aoy
+}
+
+sprite $KubernetesNameSm [70x11/16z] {
+dOvdTWO1209_WuZtlsqUcjwJhwmxbdcCFQy-mNzyp7gD7Vpxfy6t-BD5zASMU-oKOBTte4xK5BS2eSmAscq5ihTdBjIG7i8D0EmnWSHAwSA1RXRKFkaj5Kia
+BnQsm2bK4ssYsmK9i7TMboMBXJAnMKuPmrbg39eW2PcP5Jep0UH6Js-XKcijlEZzrbAI_Cv2IGgc5-WP4Pma8xHTn4B5UXVpncAWMjxLxa1v985krZHf4mYc
+L2uP77BE4jqEemPg56XdJJFs_SVtt78lDtcrSZjluDOU
+}
+
+sprite $KubernetesNameMd [93x15/16z] {
+jP99iYGn24FNIA2y_stRCdQEcvu-2r18wHSkoiUFLf9lIqJ-5xOGU7iLyMTmwUVW3FuPNFfSIz8QUaPeU6Uds70HA05r70G7tDLxBooL68gY1tX6711FM-8o
+H5iruOBte8Xost2h8rkb2QCmHqUrrOxK6Rod6BhXz2TFEELxoMcvwPYgvgX9y77VTKPU0vVH7mt3y33m1SzvwObXOX5wl-Wc7qjCLf-7ZGKFv0b7m_CBxy8J
+pj5s5BdXswYZq6SUQ-4TJgyb0jNFumt_HC8sHfMPppyqCXUSbNknhCfwmzrkKMIb3LIbVtHMRRXRb4ENuRDGZoVnXjVvE79EQHiwdnWvMisUTDMX5Z9C96P8
+Uh4zScfbH-jW6x31dZzRlm
+}
+
+sprite $KubernetesNameLg [116x19/16z] {
+pP9NmYCn28EV3PBc_hVT62sC_oJRgz9S9Bu9zlKl90BlDm3z8MQkbM-HiHR_DdFzF5F0NsV6Mle_cGA0_Rqn05JCZ8Y-I8Y8f3i7Zubj27H3iznc9jnVPiSk
+RNUYcOe70HVsk6ZStrR8DwhaH2cl-8AZDtHx7qE6pSqqyYtJhkW9fmxlHHWvfEX7oN5uCMAbcP7rsA_CbB8ct37jkkc4H5KBnQYdod9mobFIr2Y7mzBPgJTC
+UW9N91skxwqemBr8qeNx3i6n_QFwdpxPPl8BJ1VkndsPUJg6EQtTSzndd-qqCxx8Z59-cNaxJcPOTVCDTGIVeMw2JgPF29vON-njSMQZwddGKiujJ9-NFKaC
+4qBiMaKEICWlCT4EU2Ce-EvNJ0y794uatHhEXJUp1LUnz0NcEEAy8_cc7fifkzd9Wu_kIebVOev3LsVXC_IGHpa2zC-UYTZIERHKCqx20vtJyJlB7aqilVql
+z0a
+}
+
+!procedure KubernetesName($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OpenSourceIcons/KubernetesName', $name, $tech)
+!endprocedure
+
+!procedure KubernetesNameCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KubernetesNameMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+
+!procedure KubernetesNameGroup($id, $name='Kubernetes Name', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KubernetesNameMd>', $name, $tech)
+!endprocedure

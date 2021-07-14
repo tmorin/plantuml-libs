@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/OpenSourceIcons/ForsetiLockup
+
+sprite $ForsetiLockupXs [16x9/16z] RSR50GD130F0px85_LUR7FCO9CzGSYxm8TeOFNmG9Cedo7UKlq6aY2MzD4BJWbELM5kljRVQ9bFKFm
+
+sprite $ForsetiLockupSm [20x11/16z] XOW54WK1249_6eFW_K-xdLFx3A9Nyl_x_RElo28pJBSEg09kNHUdnxwXqYnFvHsgnLcMvHm4Tf52TIsh-KlpaRC0qcJCBARBIQONwLCO0G
+
+sprite $ForsetiLockupMd [26x15/16z] {
+fOi55aCX40Cho8Vi9lU_RKDTdtLOduTkH2_7O-cXTrXBCwNomxG1C_k74H0P0UY3Y5KpFmsH-a7-LepKdqJGcU8Q7faA10c62AoDWWsTyEmbhdzibr4uPcGc
+8ltCZ1WJwHcefPHMpEQfrRQLDfh7Mau
+}
+
+sprite $ForsetiLockupLg [33x19/16z] {
+hOy7Zi0W30GbsO2TNSF_VtlUwxsF8jT90kSPN6vcldZU1sukpF6-43ulCJtU5pA0tdV8zuK2MDKHzRwmmNjnd_VX_KRnNJPaY3yOH9qlbFFl0DJzz6iewfmA
+LC1MfU4kjA0J5YHegl5v48eIe0d1U-504dNiebBjQa5b0TIu1KPaNaoX57cjn5gna5UtAySmy-bkPYEi2NECCIDzkFLp0m
+}
+
+!procedure ForsetiLockup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OpenSourceIcons/ForsetiLockup', $name, $tech)
+!endprocedure
+
+!procedure ForsetiLockupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ForsetiLockupMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+
+!procedure ForsetiLockupGroup($id, $name='Forseti Lockup', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ForsetiLockupMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/CloudAi/AutoMl
+
+sprite $AutoMlXs [10x10/16z] JKp50S0m2ApYSFjFMsyIFfnZk3HphGkKYXZ5XLmqCjnkwU95Uq7rCcpT4X6Hlgyt3v9jtT-oCVcuUm8
+
+sprite $AutoMlSm [12x12/16z] LOcr0S1030EBDyWoxJzjgCirWji_bLNihpO0EhuUGD0_KSyxCstvtVFQOxl4SspBqTdcFFWvVAwXXvvZim_ma2ErByrYSF_S
+
+sprite $AutoMlMd [16x16/16z] {
+ROr55aCn30CN0RDw_zjMp_dbJd02ykqV03kUwgeM8dbfAWdTUXJMBjlH7ZIlYe0v5LGx_-P2XsadGSRmJlDJPOmX7LTzlSUOoKq68Yg4rrT5t-AJkkguRbKg
+qmuf4djEGHi1gQB-SWS
+}
+
+sprite $AutoMlLg [20x20/16z] {
+bOz93iKm24CNfFxClVzjVq0eMVTrji1sto-4cNcewfLIUECCsD6C2pM0SwJWnWGuoxqfviAIBdTi1X8hJi3uA17lXxVNE3z4DPXbDcDC6-icx3EsjeGimnFm
+cx4QZ1GMPz2CDGg8KB5yf6J0Uf7u_Z30LW5Fl0TL3UsUN_W3
+}
+
+!procedure AutoMl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/AutoMl', $name, $tech)
+!endprocedure
+
+!procedure AutoMlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutoMlMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure AutoMlGroup($id, $name='Auto Ml', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutoMlMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/StorageDatabases/CloudBigtable
+
+sprite $CloudBigtableXs [10x10/16z] JOor0S0m40ChaN7_QSFWQnu4ys3CXvxqwr5DgXvR9G6o7ngEpVS6ETT6K8zHfEjOMxxg7G
+
+sprite $CloudBigtableSm [12x12/16z] POt50S1G24DhFF9z_sthpebu-roDiHvlTbnf_KfONY2k1ZUcoT4ghBzf_pNX2lZrErghec6WK5OXhMp-Rrqt0m
+
+sprite $CloudBigtableMd [16x16/16z] {
+RSw50SCm40F0ai3u-s_RC2ind3cUa-jHBIVblh6Aa5KM9Pa2n7b96cQ7KD3a1kht_SABEtyOVkNL6Y2d1BRLbft8TNxOO0ubJyuaGDfU7bbaWQkc9Kgbno4r
+ntF-
+}
+
+sprite $CloudBigtableLg [20x20/16z] {
+VT150WH124FHHGT-wBBxttRS9SjNWgn_wVE3fZtUXJBrVBL3Ye9s5rDEXo3Rk10u5912zCjVBRT4snPOUR7L174qPTsjfqGgsDyCx3fQUp9pj1srjtiEqUV5
+YEseHudojPdHCYrbkl2HBcb9eO3-l8F2HRsjQzXV5jZNlnm
+}
+
+!procedure CloudBigtable($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/CloudBigtable', $name, $tech)
+!endprocedure
+
+!procedure CloudBigtableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudBigtableMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure CloudBigtableGroup($id, $name='Cloud Bigtable', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudBigtableMd>', $name, $tech)
+!endprocedure

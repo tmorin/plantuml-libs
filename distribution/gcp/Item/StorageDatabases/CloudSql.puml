@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/StorageDatabases/CloudSql
+
+sprite $CloudSqlXs [10x10/16z] DOk50SGm24NlsiA3wFxJneFpfOuefQue4Ozb7X2J-JZp9-DYNggVRam4Os4W-CKSMsONmZXcvBKx
+
+sprite $CloudSqlSm [12x12/16z] NKg54GGn27mXAz7-kxs1Z1wwTburvNdHCcHv9MRptfrEh0XriYSc4L2_E39_CsOBq2Cn6cbJYIV-ZT0wLHsgHDNUzHu
+
+sprite $CloudSqlMd [16x16/16z] {
+RKz70WCm23ea8c9A_l_QxjroSZBsNnpKVdLM8gd7f0cKo5gtsuZilHSpVUtdYB8xSUlD62CIeExth9XWYyzxilIyhyTzt-vHvmcehtlUxxVEz-3Z_Wnp3gJy
+beVltJjE
+}
+
+sprite $CloudSqlLg [20x20/16z] {
+VT052W1120LGmB4dxd_RrUt-z4EiyPVQ7Y8iMi_Ib8XOHFVQhXnYBX7lYtb1afhLmbnN0oZQezwPQBMA083caatRQYgfAUQhER25XbGzznDZDJtwDOBK59Aj
+drbgYX_zo0mXHUZe1wHg8RHPbxBrO-lx3tZjT_cNKycRh-cUyfq9
+}
+
+!procedure CloudSql($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/CloudSql', $name, $tech)
+!endprocedure
+
+!procedure CloudSqlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudSqlMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure CloudSqlGroup($id, $name='Cloud Sql', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudSqlMd>', $name, $tech)
+!endprocedure

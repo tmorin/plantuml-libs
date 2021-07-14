@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAi/CloudVisionApi
+
+sprite $CloudVisionApiXs [10x10/16z] LSgr0S0m40F0yAEa_QSDkVBLfmcWeSwpz8d3_GY9VkRhS2giiihYQvPf8xPPQo0rUG
+
+sprite $CloudVisionApiSm [12x12/16z] VOob0S0030HDc7x_QSkrEHDum4ABzBSM4t4zQv1a2iMrEcbvb91VRx7sQ9DRABKgqtnhJDN-ed4VB9m
+
+sprite $CloudVisionApiMd [16x16/16z] ZOn70eHG24CNOEXo_ziEJ7Vd-nL8qlV8l9JExB_g52PYETzbWTYDIUfbFUZ8OPyfWmcLghMocB5W_he7MC6yKiFsN_46YH3Ob2zS0F7-4IBH_rJrFHu
+
+sprite $CloudVisionApiLg [20x20/16z] {
+hS-t0GCn243HWfD4PlzjJN1kxL-9nyNuGqxaNsGRODi7oO9ioKkSBu1p02xs1ytK6npIdIJ6R9AuDSbM7PmGkTVBqixUQC5bXdiVwo_BWpgpQwx9ekDJE1IF
+UkhBuvNXpb2_VZV9uolXfD-x0G
+}
+
+!procedure CloudVisionApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/CloudVisionApi', $name, $tech)
+!endprocedure
+
+!procedure CloudVisionApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudVisionApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure CloudVisionApiGroup($id, $name='Cloud Vision Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudVisionApiMd>', $name, $tech)
+!endprocedure

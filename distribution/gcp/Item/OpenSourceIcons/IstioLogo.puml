@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/OpenSourceIcons/IstioLogo
+
+sprite $IstioLogoXs [10x10/16z] LKp50G102FgQiF-qr-b7cj_XeCoDmhRfkaGtzIcfgOvIUhWd5yItMW4
+
+sprite $IstioLogoSm [12x12/16z] PKsr0S1026pXBFjF6_Ud0Kwd_-Hr-_M8hxjlmcnTDz0u2JVw8WW1l598wV8gG_q2
+
+sprite $IstioLogoMd [16x16/16z] ZOor0SC040FR5oNxJsjclaxu_qOEMZbe7JHsXGZQnGH-gpI9RO6zvb8mUWsliSoE9P_O_YdB_94M
+
+sprite $IstioLogoLg [20x20/16z] bSx55SH030FGiy1E_zKkGp8yElvdqB6RR9WQA3UC3ODB2g8SJ168gva4T1tZqv2NCRnCbx6tCSzZRplN8MLBucdGZbVieXteo4iPEu_Tt04
+
+!procedure IstioLogo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OpenSourceIcons/IstioLogo', $name, $tech)
+!endprocedure
+
+!procedure IstioLogoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IstioLogoMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+
+!procedure IstioLogoGroup($id, $name='Istio Logo', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IstioLogoMd>', $name, $tech)
+!endprocedure

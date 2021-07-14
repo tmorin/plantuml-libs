@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element ApigeeSenseCard
+include('gcp/Item/ApiPlatformEcosystems/ApigeeSense')
+
+' renders the element
+ApigeeSenseCard('ApigeeSenseCard', 'Apigee Sense Card', 'an optional description')
+@enduml

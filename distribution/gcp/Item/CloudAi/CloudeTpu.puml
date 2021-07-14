@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAi/CloudeTpu
+
+sprite $CloudeTpuXs [10x10/16z] JKp50G0n3Fe5g-m_xRaqBi1Sh3jnFmS218_Hq763vmmJ2RccuyXZCjowu8l18_glijWE
+
+sprite $CloudeTpuSm [12x12/16z] LKt50SDG5BeL_St-qyRrkSBqbUwobmF4QcERheMyjbrhKed5hOPJaJZhTQ7pnlsRnmrayuT-C1-khom
+
+sprite $CloudeTpuMd [16x16/16z] RO-35S10340VBp_UVzlQZOt-W-gQwNITP2O_N1cCcSHtLn10P0qK0zCizzbOPYIuccAGUxui5MGsDZ_HqBhg3I-Diruigtsht_RDCBlYttk-zrx__C44
+
+sprite $CloudeTpuLg [20x20/16z] {
+bP053iHG24IZEDFxtnR9kk-qtnv1Zt-K5Z13M5wPamPHAFa5AHCppM8zEVgWqK1VTwE-gGFGjf8D2sLMKNVLx5iCGp1d8n5fQ-3iY_3KXZI-P-Rjh05UTlOL
+EyonlkSSsYsOsEGu-nfQQUTujpNJrFocj_iPl9dLxoe
+}
+
+!procedure CloudeTpu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/CloudeTpu', $name, $tech)
+!endprocedure
+
+!procedure CloudeTpuCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudeTpuMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure CloudeTpuGroup($id, $name='Cloude Tpu', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudeTpuMd>', $name, $tech)
+!endprocedure

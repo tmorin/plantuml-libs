@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element ComputeEngineCard
+include('gcp/Item/ExpandedProductCardIcons/ComputeEngine')
+
+' renders the element
+ComputeEngineCard('ComputeEngineCard', 'Compute Engine Card', 'an optional description')
+@enduml

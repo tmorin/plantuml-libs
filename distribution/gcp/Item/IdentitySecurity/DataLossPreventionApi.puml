@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/IdentitySecurity/DataLossPreventionApi
+
+sprite $DataLossPreventionApiXs [10x10/16z] TKl30G013FiMmVxJdeswWMyXRKTbzlntLVLKPEMKKz74T1GnQwjxjR3z6oC
+
+sprite $DataLossPreventionApiSm [12x12/16z] VSN90SHG20BGgyZMVxMp9Zd-fq0FjAj-9S8kP3VV1J-_oM8uerca5cSN5FjX0EhViW-cPsy
+
+sprite $DataLossPreventionApiMd [16x16/16z] dSq53a9140FGwAOoszx_jBX5WV-Ye-rladuO0NftDYYHITFA53OKacQh8HKmuenQ6g3M6W92kyU6R6DizOQuc7SuPU--6EadkOUT0G
+
+sprite $DataLossPreventionApiLg [20x20/16z] {
+hSur0WGn30F0wjQIJF__xIrZcwaISmzG4TKFASpyKKHG8dIKU2YW14jm9ACxB8p8D7P2ch_Bg1IHReW2O_ukTVCNRjEa04m_N-O70vIx4q6VUpS2I63-NXmp
+nlC-PbK_EBpVnEgFwb7-
+}
+
+!procedure DataLossPreventionApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentitySecurity/DataLossPreventionApi', $name, $tech)
+!endprocedure
+
+!procedure DataLossPreventionApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataLossPreventionApiMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+
+!procedure DataLossPreventionApiGroup($id, $name='Data Loss Prevention Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataLossPreventionApiMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/IdentitySecurity/Beyondcorp
+
+sprite $BeyondcorpXs [10x10/16z] DSh50GCm30F0TwnOj_-qvHf5G0jkChDqffspv7sQS4vXz8_g4zQmvoABUvAveBl54m
+
+sprite $BeyondcorpSm [12x12/16z] HOx50G0m20E_vKXX_sdhWZl9Gt5yTNTO5P0mYnNMqIgCM6LtNPaOUuaVnt1kVeuDDTPjQfv6iBjYa1w0MAu3
+
+sprite $BeyondcorpMd [16x16/16z] RSj95WCm20BGhQ2I-z-sbCu36_9zvFoFT8QjEnfEDIPSFwKfL2o0ShEWa-PcrgHB1TYvb0TZknBCrUIxD_kx_H3OTsy-Td52eLC4DwJkz-8CmqH3Pyw_N
+
+sprite $BeyondcorpLg [20x20/16z] {
+XOz7eiLG24Ad1nMp_zMc-ykh9BVPWEKRNFxpwigiGkH47201LjoXWl1U6uWxPb2U0m1VeyIC3abzN1AOAUsBH8gePI2TE_0RIqsT7sD0FiI2_6D9SIbMn8Hy
+ZnOv72rDJf7NJSmKWzpjl4EJHuBevG-wTapa5JO
+}
+
+!procedure Beyondcorp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentitySecurity/Beyondcorp', $name, $tech)
+!endprocedure
+
+!procedure BeyondcorpCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BeyondcorpMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+
+!procedure BeyondcorpGroup($id, $name='Beyondcorp', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BeyondcorpMd>', $name, $tech)
+!endprocedure

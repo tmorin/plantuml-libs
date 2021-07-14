@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudAi/Dialogflow
+
+sprite $DialogflowXs [10x10/16z] LSYd0S1030D0bdULzf_MZUM82WV00tlFi4M-8LFJz_CaGzHT9RQjRT0j2WuJSPwqv4y3
+
+sprite $DialogflowSm [12x12/16z] PSQv5O0m34J1ZBVIDzh-g_KTmKJZ3oJEcfv9RPrpPYj1WgnvAI2aysFUSHgUYbNAMofUN-2V0G
+
+sprite $DialogflowMd [16x16/16z] TSwr0G0W30312e_iFotkaEykA7z3xscNqTfuRAAiN9dGpmXZFs0nM9SdMSv2iysJB3iy-flyuFWJk287wuDZSTeXRn4G2oK
+
+sprite $DialogflowLg [20x20/16z] dSo52S1044HHz5YV_hiD4tVx-5l1NH47aTOazi8MJSgOv8tLSbkZcGQL4cgZYL0f8ejHALjZFmo-a6EgnbLDh5BAiZJzjCBEDB0lyL07
+
+!procedure Dialogflow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/Dialogflow', $name, $tech)
+!endprocedure
+
+!procedure DialogflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DialogflowMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DialogflowMd>', $name, $tech)
+!endprocedure

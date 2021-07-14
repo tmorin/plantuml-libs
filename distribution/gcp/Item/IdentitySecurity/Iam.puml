@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/IdentitySecurity/Iam
+
+sprite $IamXs [10x10/16z] DOor0G0m3CEcCFZ_QylL4Z1WqOr3cQZNMeBPN3K0P-b-s_ybQvLf0Ytxr1rthRPrdVKjlta2
+
+sprite $IamSm [12x12/16z] LOt50G0n2C1-47p_RS-bQN6RbNOi-lHCHG7VenJHAg1Edsux_H8HCqw_LIpBuPX6TztOx8JcFiMkTbmZyRa8BBxBVPeD
+
+sprite $IamMd [16x16/16z] {
+RSx70KCn20FG6q6YxRzj3AJdw-GdD-eoGOiNqbJafl0S7ZLFu6qSQWHEmQUjoZ-DJ7vwxolclIEuyzZQBiBfLUVzLDbUyHX0Uf6OxNrHuv2lWTdlC-iL1wCk
+SmS
+}
+
+sprite $IamLg [20x20/16z] {
+VP3L0S0m20N_uE7xRzjGzujVdFeXFMucb1bYUJB2HCG0DDPTO5fK8zakg948HHExuz7D7_UrbsczOtKDseYxhlSsCjIoertD616MdW2sz99FBcj1YRnRtvSj
+9uw10LexEIHalNH7cHZsYAbd_J01
+}
+
+!procedure Iam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentitySecurity/Iam', $name, $tech)
+!endprocedure
+
+!procedure IamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IamMd>', 'IdentitySecurity', $funcName, $content)
+!endprocedure
+
+!procedure IamGroup($id, $name='Iam', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IamMd>', $name, $tech)
+!endprocedure

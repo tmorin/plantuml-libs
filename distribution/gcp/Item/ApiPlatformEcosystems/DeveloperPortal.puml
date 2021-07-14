@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ApiPlatformEcosystems/DeveloperPortal
+
+sprite $DeveloperPortalXs [10x10/16z] uySEkBcukC4CFbuU7bu-88EJYuiJX14ik2n21tO
+
+sprite $DeveloperPortalSm [12x12/16z] uyS3UBcvUM5CBXuUBbu8av-FYukF7yJXuk3c109k3YvKDa8DGY-ocNW
+
+sprite $DeveloperPortalMd [16x16/16z] dKs53S1048gU4_QVjkxzsBa3Eu9O17VhKHN-613WsLQIgRh6MbirTyrKTzFwzR_x7zw8BoCIxCWC
+
+sprite $DeveloperPortalLg [20x20/16z] jO-r0G0n24Mxu-FxRtiUR_EYEEGMGlb2erKnH5N0hLBzlbsBmc-5CUpxtyyj65tSBsvbu220o9tkzq2iTNDihG6kDTQzh7kkistX1
+
+!procedure DeveloperPortal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiPlatformEcosystems/DeveloperPortal', $name, $tech)
+!endprocedure
+
+!procedure DeveloperPortalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DeveloperPortalMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+
+!procedure DeveloperPortalGroup($id, $name='Developer Portal', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DeveloperPortalMd>', $name, $tech)
+!endprocedure

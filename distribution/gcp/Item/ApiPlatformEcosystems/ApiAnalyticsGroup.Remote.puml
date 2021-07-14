@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element ApiAnalyticsGroup
+include('gcp/Item/ApiPlatformEcosystems/ApiAnalytics')
+
+' renders the element
+ApiAnalyticsGroup('ApiAnalyticsGroup', 'Api Analytics Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

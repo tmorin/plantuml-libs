@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Networking/CloudDns
+
+sprite $CloudDnsXs [10x10/16z] JOo53O0030GJwhx_jZnHhgxNOC0r4xEgsZGzH0fc8y8yixQ5XTNiFnquCNUVcscpnXTSEBD7x87kpxy
+
+sprite $CloudDnsSm [12x12/16z] JOq53W0X40DpWNNf_r-BnMxGjHPTXxwWQSv9Sj2k-Oqn-23zyfDV7k7kgX6Hft_S_Elvz__pEEgfUZs0EpgddWTNnuZCFV2eUiy6
+
+sprite $CloudDnsMd [16x16/16z] PStN0G8W30HG-f6Yj_-s9jZr_K0wVmcEBSb8zDR3EYJYLh_Z23vZrxHWoKdTQK4qs7y_Mlc8_-_jUIpieBnpuFByMi0OUDmJXDdxH13ocXJGy-6l6m
+
+sprite $CloudDnsLg [20x20/16z] {
+ZS_50S0W3030KZI-_xHrL-w3nko9qe8NQaP-aHOythNkVkUQ-zqzbfTjJ6N6O-493uTvDrnHd8IOycp9LrUtTLMzb4bE6MPYAygPRAKyekXz91xfDaVmFcpv
+14Smti6qFUGRs8SU
+}
+
+!procedure CloudDns($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/CloudDns', $name, $tech)
+!endprocedure
+
+!procedure CloudDnsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDnsMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure CloudDnsGroup($id, $name='Cloud Dns', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDnsMd>', $name, $tech)
+!endprocedure

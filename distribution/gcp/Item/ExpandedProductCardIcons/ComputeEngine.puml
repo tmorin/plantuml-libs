@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ComputeEngine
+
+sprite $ComputeEngineXs [10x10/16z] uwS3
+
+sprite $ComputeEngineSm [12x12/16z] unza
+
+sprite $ComputeEngineMd [16x16/16z] un_X
+
+sprite $ComputeEngineLg [20x20/16z] unzKO1G
+
+!procedure ComputeEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ComputeEngine', $name, $tech)
+!endprocedure
+
+!procedure ComputeEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ComputeEngineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ComputeEngineGroup($id, $name='Compute Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ComputeEngineMd>', $name, $tech)
+!endprocedure

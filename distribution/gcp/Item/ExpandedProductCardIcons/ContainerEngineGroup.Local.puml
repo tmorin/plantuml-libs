@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element ContainerEngineGroup
+include('gcp/Item/ExpandedProductCardIcons/ContainerEngine')
+
+' renders the element
+ContainerEngineGroup('ContainerEngineGroup', 'Container Engine Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

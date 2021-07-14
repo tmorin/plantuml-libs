@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ApiPlatformEcosystems/CloudEndpoints
+
+sprite $CloudEndpointsXs [10x10/16z] RSgr0S1030Ima1bk_sb3trgrCF80CW74bTsfYIPp8dVkvWZLK6garLS2QxjZz
+
+sprite $CloudEndpointsSm [12x12/16z] TOl10S1G14Cl7o2n_xRD0dq0vFu1bHIYR3NNgDsN49qukY7U2uIJaQY8MdCUSaZg9jLDGUdLdQ22k7y-
+
+sprite $CloudEndpointsMd [16x16/16z] dSvL0WCm20FGZngoXFlVTc7wtrTNg0j02VbPsZmzX6MrdFFH8yoWWMiuN91cUc9ZqwSuRLg_zeeZWJMqfbao1JOMF__y_vMqw7ztltuXFrbTU08
+
+sprite $CloudEndpointsLg [20x20/16z] {
+jS_50KGX30JGGv0XDlrtkoHh5Vo7E-4JmhEQp6uQnj1g7J2-sP3Dfe2pn9GPp8i1d3uE4Sqzhvs6XUz97ys98LPpG-cxUIwfEMB1gUTI7X7mobCNDn_rN0b0
+MUx9yVlWvriw1jZ-GQK7d_02
+}
+
+!procedure CloudEndpoints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiPlatformEcosystems/CloudEndpoints', $name, $tech)
+!endprocedure
+
+!procedure CloudEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudEndpointsMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+
+!procedure CloudEndpointsGroup($id, $name='Cloud Endpoints', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudEndpointsMd>', $name, $tech)
+!endprocedure

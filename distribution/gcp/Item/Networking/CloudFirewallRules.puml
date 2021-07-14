@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Networking/CloudFirewallRules
+
+sprite $CloudFirewallRulesXs [10x10/16z] LKor0S104AeVtN_RqCJE1QZjPAK18AsaYcPH0-CS20a92UHtWZ3Jd_6eFCeN
+
+sprite $CloudFirewallRulesSm [12x12/16z] NOx50K0124AlreFzj_sTTekraW-hoioPrPGCGgl0Mg-jc5DhlOTUYMcxgmfMyu-VcMVtV_FvzSQm
+
+sprite $CloudFirewallRulesMd [16x16/16z] PO_L0G0n24C_gmdxJtjroxqg3gRas03wayrIQ03zITM1TQzZpPuOGoKoDNlq4RuHKB_L1oJMeURxoysVnx_d2oUVrjD-D9_EenG
+
+sprite $CloudFirewallRulesLg [20x20/16z] RP350GCn40E_yOBKVxL9xiosvhECL20gP5FmrpuLe2b1mYiO2YLfvhG6tIpVVePIMnLOxvVq1bi_LAQYTb4-NGltc3F27MeNkRD0_K3j8d-g-04
+
+!procedure CloudFirewallRules($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/CloudFirewallRules', $name, $tech)
+!endprocedure
+
+!procedure CloudFirewallRulesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudFirewallRulesMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure CloudFirewallRulesGroup($id, $name='Cloud Firewall Rules', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudFirewallRulesMd>', $name, $tech)
+!endprocedure

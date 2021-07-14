@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ManagementTools/Stackdriver
+
+sprite $StackdriverXs [10x10/16z] JOkb0G0m30H5cFUVjgHw9dcQZrJLwFCq0Q3P-Gm0L3YdXLcCMNlSpFrzSGQkdBTuNvj3HKJrV6m
+
+sprite $StackdriverSm [12x12/16z] NOpJ0KC134K_OlNklssVTMBYJLTL7oaJaULlpNL99JMND6aXN6q0LrNFnGLG4P57thwG-mvooME_nMo3_ITc1H_-
+
+sprite $StackdriverMd [16x16/16z] ZSv50W9H201GauxxtzPFE5jzEvhy0q5Htr1Vp-EbD8buFmipy7Ht-5O4i1FwgsEf9LJJM5XdvwbBqIiEQlhjJ-sORVTby3JKlMRKZAu7fLY5Ftq
+
+sprite $StackdriverLg [20x20/16z] {
+bOz54WD13CI2PlZ_QqFkYlUwEghK0ts6Z1_PIpqVFvxXVwVtGPqJAX-ZA9WKIqPcHaIpTYZ-P4HItun6FKA84AOC5lJZUqtv40VNYZ1tsm6dUqUtGSQ-fUiG
+wgWDVV_MfGXpbYD1d-CD
+}
+
+!procedure Stackdriver($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ManagementTools/Stackdriver', $name, $tech)
+!endprocedure
+
+!procedure StackdriverCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$StackdriverMd>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure StackdriverGroup($id, $name='Stackdriver', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$StackdriverMd>', $name, $tech)
+!endprocedure

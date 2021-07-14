@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DataTransfer/TransferAppliance
+
+sprite $TransferApplianceXs [10x10/16z] uySE-7X0W9-Vbuk74mJu-BWuURX008d5pmEJHUZ01W
+
+sprite $TransferApplianceSm [12x12/16z] uoSIS7E201SVFoyd5pSNbCt50MI30JyA6w46LIyH
+
+sprite $TransferApplianceMd [16x16/16z] hSqb0W0W3030DfV_lnPF8yAb-VA74E55HsAYHeUCN9dT3iyKH3BXJMjUv-kzwz-h3W
+
+sprite $TransferApplianceLg [20x20/16z] lSur0W1120F0QXMI_F-rvtvRCnsEubY_G0i0xAsUV4cnvEozNQ25cn4tBfcyiEVibRkJFfuL1ZS6lmn-ZZ03
+
+!procedure TransferAppliance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataTransfer/TransferAppliance', $name, $tech)
+!endprocedure
+
+!procedure TransferApplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TransferApplianceMd>', 'DataTransfer', $funcName, $content)
+!endprocedure
+
+!procedure TransferApplianceGroup($id, $name='Transfer Appliance', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TransferApplianceMd>', $name, $tech)
+!endprocedure

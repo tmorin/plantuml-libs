@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/StorageDatabases/Datastore
+
+sprite $DatastoreXs [10x10/16z] HKo35GH151jyi_zg3yluAVsYwXg1g8So06HDdYlBp5L_gZ8r4HEjN9Csy8PC124IudnVNdm1
+
+sprite $DatastoreSm [12x12/16z] TKl50OH030GsFf7-gpq_VXlFo6oYtHmHG62A5jjvAXtKnNJV0o1_cdcDS8TxJFD1ifQ-RDtqlkbrIqzul0Alcbqy0G
+
+sprite $DatastoreMd [16x16/16z] bSTL0iGm24LH75vIsVzkXuptipS2vxmR8cAW2hE_UPwfQd1cWnBNnqG68LesSuI8GqNQ-shhzlNQQynkVMseQAcgPt_L9fABkMrcKMhMdfar2i3eDy-xFG
+
+sprite $DatastoreLg [20x20/16z] {
+hOx30GHG34I_5VNVxKxMzZl46Fi9TIvBLC5Oe_S-5ynWr7BEPSmSGXeZXP1FjRIjHTX7jGR6hANKdUNTNo1WPuzQX9cHkuKkRgwb5R2pZ1fKnDwsdzo-M_E_
+qg5b3cTd3rhiRsm
+}
+
+!procedure Datastore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/Datastore', $name, $tech)
+!endprocedure
+
+!procedure DatastoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatastoreMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure DatastoreGroup($id, $name='Datastore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatastoreMd>', $name, $tech)
+!endprocedure

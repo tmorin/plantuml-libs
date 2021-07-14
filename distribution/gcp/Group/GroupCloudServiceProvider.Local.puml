@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element GroupCloudServiceProvider
+include('gcp/Group/GroupCloudServiceProvider')
+
+GroupCloudServiceProvider('GroupCloudServiceProvider', 'Group Cloud Service Provider', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

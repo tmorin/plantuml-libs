@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/CloudDataproc
+
+sprite $CloudDataprocXs [10x10/16z] uwS3
+
+sprite $CloudDataprocSm [12x12/16z] unza
+
+sprite $CloudDataprocMd [16x16/16z] un_X
+
+sprite $CloudDataprocLg [20x20/16z] unzKO1G
+
+!procedure CloudDataproc($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/CloudDataproc', $name, $tech)
+!endprocedure
+
+!procedure CloudDataprocCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDataprocMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure CloudDataprocGroup($id, $name='Cloud Dataproc', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDataprocMd>', $name, $tech)
+!endprocedure

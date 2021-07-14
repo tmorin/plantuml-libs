@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/BigData/PubSub
+
+sprite $PubSubXs [10x10/16z] 9Ko50S0m39grZSB_rqvON02-ritVC0RKcsOwXp6J5YJGOpJmVUEwea7EaLLvBT85DvUCgqb8SWy
+
+sprite $PubSubSm [12x12/16z] FSor0GCm50FHWEdZxJzjm7JDKoN-PNAAMkFkKe8vHg0wmRiZCe74IZ6IUIBljymhgTr4h5U5yHwmIKjK9xCnk6LElW
+
+sprite $PubSubMd [16x16/16z] {
+RKtJ0KLH3FkeTRB_jC-ugfdWKiPijhqJ-RPFvlpMvGr40EtrkjK4ykdgwxcFGOiq9khxeqIwfHCY-HA6XHkpkTkJevcaC8DYudxUVb_r_TCvR_x9_W6g3ZQo
+8XOkvGu
+}
+
+sprite $PubSubLg [20x20/16z] {
+VO_55O0m44GFawopz5yjxX8aEl9-ttZIFPzd1D1JLe7w53B05ubgJAF890lHHUn4Carcqo14FfzrJBRhZBXRp17PvzmxJH5dg6Dw_5vhyvbT2SAu08NDVTKA
+KCMTELmgoYAcCycm4UfCTHBgoY6nq5muDXlHLji-ovccyOm
+}
+
+!procedure PubSub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/PubSub', $name, $tech)
+!endprocedure
+
+!procedure PubSubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PubSubMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure PubSubGroup($id, $name='Pub Sub', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PubSubMd>', $name, $tech)
+!endprocedure

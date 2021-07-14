@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/OpenSourceIcons/ForsetiLogo
+
+sprite $ForsetiLogoXs [9x9/16z] HOQ50S10308hV2e9iF-qTK5FInj7nAe0MZGWC6TLvOpyHTlCOlgKw2pVqaUkrB4x
+
+sprite $ForsetiLogoSm [11x11/16z] JKhL0SHG3Ffu7Y3iF-rTlOrYvgYbb3RbkO5QwqvAxGl4whMq806GqSwFyp9jv_Q53Uqb6VHT-S4wqwTEQFz_
+
+sprite $ForsetiLogoMd [15x15/16z] XSh50GD024JHo2f_1lglDcwtl1MqohkVRzg8hChTpY-jH_RsIFehFhPaMp7QlS0I89lHjaKy8UyaG7fi1Ab0MNSfGePwCqxmfyvxYwmV-bCRzDj8eNgu0W
+
+sprite $ForsetiLogoLg [19x19/16z] {
+TSi5RaKn34JHGfBgUS3xtss3xSShz1avCnNjUrP-uEpvgcN2n8PCj0ctEA6KsbghPHrp2Ccs5FkbmI81a3Owrij2x00vAeqf1-akQ-o968SvbZon6uMOiXEW
+H21lZPa4c0yXe0Vo2zCRenz--Ggx7Ve5
+}
+
+!procedure ForsetiLogo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OpenSourceIcons/ForsetiLogo', $name, $tech)
+!endprocedure
+
+!procedure ForsetiLogoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ForsetiLogoMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+
+!procedure ForsetiLogoGroup($id, $name='Forseti Logo', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ForsetiLogoMd>', $name, $tech)
+!endprocedure

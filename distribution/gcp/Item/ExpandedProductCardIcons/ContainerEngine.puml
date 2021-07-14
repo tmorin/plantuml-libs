@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ContainerEngine
+
+sprite $ContainerEngineXs [10x10/16z] uwS3
+
+sprite $ContainerEngineSm [12x12/16z] unza
+
+sprite $ContainerEngineMd [16x16/16z] un_X
+
+sprite $ContainerEngineLg [20x20/16z] unzKO1G
+
+!procedure ContainerEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ContainerEngine', $name, $tech)
+!endprocedure
+
+!procedure ContainerEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerEngineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ContainerEngineGroup($id, $name='Container Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerEngineMd>', $name, $tech)
+!endprocedure

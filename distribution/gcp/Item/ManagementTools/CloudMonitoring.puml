@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ManagementTools/CloudMonitoring
+
+sprite $CloudMonitoringXs [10x10/16z] ROl50S1G24DFMB3zfwrx_yCbVLC7dIeRciaB8inB9sQcmbbBMR4g0AfBgbLjLZrc1W
+
+sprite $CloudMonitoringSm [12x12/16z] VSP10W0H34FHdIQGtF-qGBSpZxRVNrfDpOgIGgUZ0DaW2Po-iP6xaIXB6i3OnyTeRVZ70W
+
+sprite $CloudMonitoringMd [16x16/16z] bSSn0W0H40F0xZR9mlzVUm2qfflyod7ndFbTU6xNQIPY7r8jqIzGw4Ye_MXtDW0RprsAPZ7bBObK-xi2
+
+sprite $CloudMonitoringLg [20x20/16z] jSYreKC134MnxlbSu_xJVWWpHwNcFNra_XHsX9h9vKJUEHD7vsu4uk1mHGZ4-WhaR0YelvF4ZgI_IqxaJCUActciz6nqBfOzHqAWcE_u1G
+
+!procedure CloudMonitoring($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ManagementTools/CloudMonitoring', $name, $tech)
+!endprocedure
+
+!procedure CloudMonitoringCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudMonitoringMd>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure CloudMonitoringGroup($id, $name='Cloud Monitoring', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudMonitoringMd>', $name, $tech)
+!endprocedure

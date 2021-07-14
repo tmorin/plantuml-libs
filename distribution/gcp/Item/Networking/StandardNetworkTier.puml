@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Networking/StandardNetworkTier
+
+sprite $StandardNetworkTierXs [10x10/16z] VS5B0ODG00Emu_ksyUzs0WOadZKfkAUzmJdxakYMkOc6Sqbz-W4
+
+sprite $StandardNetworkTierSm [12x12/16z] ZOd70G0m20AVQGhxRvjZ0yyAU8PUlP93tK9NvpqKeabmtxuHLivX-HaG7lC1
+
+sprite $StandardNetworkTierMd [16x16/16z] hKgp0GG140nNW_whVPxImtBaYwKZ8QQ9pHf0ukYVONVn2sP-RhKgVs5-Bv9cPidMDz3zZMPo2U0Bz5CD-Ebw0m
+
+sprite $StandardNetworkTierLg [20x20/16z] nOor0G0X54FRhs7_QN6lJt1U9BmsS0E5C7p3CB1RFdGXP_7wW4fdp4hihQ8xbIHlifPf2QPSBKHibPNJISkRY5gk-8ogMteQzOjMf1Lb3y9V8m4
+
+!procedure StandardNetworkTier($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/StandardNetworkTier', $name, $tech)
+!endprocedure
+
+!procedure StandardNetworkTierCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$StandardNetworkTierMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure StandardNetworkTierGroup($id, $name='Standard Network Tier', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$StandardNetworkTierMd>', $name, $tech)
+!endprocedure

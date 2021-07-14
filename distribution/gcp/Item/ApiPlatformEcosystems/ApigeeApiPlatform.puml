@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/ApiPlatformEcosystems/ApigeeApiPlatform
+
+sprite $ApigeeApiPlatformXs [10x10/16z] 9Oot4SG0409Ju0Qs_shVI14UQ645BEMSKArISQkUVVM8l5a7zx8mlwbQyrzC9V55Cj2zxry
+
+sprite $ApigeeApiPlatformSm [12x12/16z] JOu54W1H24AdFyyHkVzjjyDkIMQIsxQMRA0pAhDKquoNzvRs8XFHLD55udqWASbxh2lUPqDTC-XSENUzFFJi0xYq5m5RH-kFOGC
+
+sprite $ApigeeApiPlatformMd [16x16/16z] {
+PK-54GH121jF0fUX_suVsFV3NUe6bkHM4U5n0GAPfCWE25UPeDmggiWk2Z1RIPDt9Hlov0q6mmwcE0CJ6Eqj6PzSVxRKQEMf3wBZmSyyp7nj3w8LUV8MP-Or
+UU-XcNksw_t8UUi63m
+}
+
+sprite $ApigeeApiPlatformLg [20x20/16z] {
+TL1Nei0m2Fe374tkVzidlhteSY0bthznkljny4nmhj44mBgtD8WsYr0642bbfMAO3SsxGCgKzBkGPWVDi81L4DiUv3ll8UfOoyzfoHOIY8qUQOAwHf0UMm47
+ty8KQV6r-Z4hs8MZ_ln7WTDjvLSlWLgJwrdKMHVrpckHpexGPkpHt_S0cjsXWLLsQVtVJd_Z1G
+}
+
+!procedure ApigeeApiPlatform($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiPlatformEcosystems/ApigeeApiPlatform', $name, $tech)
+!endprocedure
+
+!procedure ApigeeApiPlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApigeeApiPlatformMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+
+!procedure ApigeeApiPlatformGroup($id, $name='Apigee Api Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApigeeApiPlatformMd>', $name, $tech)
+!endprocedure

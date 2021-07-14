@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/BigData/Dataproc
+
+sprite $DataprocXs [10x10/16z] HKc50SC029ibEFn_xUej4frrUiu9og6RmJWKY3mpesvrA3k0cAB1G6SNx2SEaQsD5QpccGK
+
+sprite $DataprocSm [12x12/16z] NKt50GC12FiWmVUVjZqtN9FvI0ZwA8kDxHnpgfurCVbrxYAnNTjoK49QqoAigGJ10f9E91HOtfLPifUuV7JcIfJrvly3
+
+sprite $DataprocMd [16x16/16z] {
+XKr55aGn25kGGBttl-s4SVzLOY_xwvfzFCCEGtd0HNR7VBWbDdia1X2G_i04OptXfhptMrT5twigb951C-4U6H8Ha5u30jMwCDS0uEHi4AuWpOT-aTbHFLh-
+FQg-etK2
+}
+
+sprite $DataprocLg [20x20/16z] {
+ZSvLbeHG30JGZuemiRV_tKvncdR5kT7rwPXvb3JLU201pxmpnzOEl-kbKgjWzmPFWp-O098FjPkfnToPJfd0yYnTILkJ2eu_TkDXkzcvQH4KDisdXi5eoHLQ
+r0M2l_rh3bEAERo3Tgw55x_0CyupzFHb_3ZlKdDUYn-_7_y
+}
+
+!procedure Dataproc($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/Dataproc', $name, $tech)
+!endprocedure
+
+!procedure DataprocCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataprocMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure DataprocGroup($id, $name='Dataproc', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataprocMd>', $name, $tech)
+!endprocedure

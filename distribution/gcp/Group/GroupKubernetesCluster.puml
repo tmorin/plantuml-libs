@@ -1,0 +1,17 @@
+' definition of the Item gcp/Group/GroupKubernetesCluster
+
+!procedure GroupKubernetesCluster($id, $name='Kubernetes cluster', $tech='')
+  GroupElement($id, 'GroupKubernetesCluster', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupKubernetesCluster>> {
+  StereotypeFontColor $GCP_FRONT
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_FRONT
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #FCE4EC
+  shadowing false
+}

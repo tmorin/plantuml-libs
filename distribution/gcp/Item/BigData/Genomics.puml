@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/BigData/Genomics
+
+sprite $GenomicsXs [10x10/16z] BSgt0S0W44MnoePB_-q_BLcrU8GijloBEj84xXxzFqFTgbYgp2IMlySA8Ciwg3zZCo6U2G
+
+sprite $GenomicsSm [12x12/16z] JSk54SCm44JHS0x_zj-jnoJf3HokLbcz8mr5vAxiXqG1xOMajd2FJ-Z0_q-VRU_zsSPd_x7zG7a3UvIVLUuYX0MzgzHg0m
+
+sprite $GenomicsMd [16x16/16z] {
+PSzLWWGm20FGZmeaaEN-fzqHElxgNkh7twiNrtuOs1B3gX9nYDFhHbr3tKbp0BJXvnfcakAEUj2SglOxZasHcJm_yM44u9QzLr1tUdLISI2hR23POD51l4Bx
+SG4
+}
+
+sprite $GenomicsLg [20x20/16z] {
+ZT1L5a8n30JGZzGdoUn_jvmg3k_MNNXPQ-ORBILZpyk19e8nJmz72E3Wd0nknW6vejCeXGjIhXs296vgj5ASgCe7LQIo-z6d5VI-rfHRae3QvGGkHQAYgtdr
+cJcCJvVlht4zMkjz8WtbsFzYzCtwlAjk
+}
+
+!procedure Genomics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/Genomics', $name, $tech)
+!endprocedure
+
+!procedure GenomicsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GenomicsMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure GenomicsGroup($id, $name='Genomics', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GenomicsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/DeveloperTools/CloudBuild
+
+sprite $CloudBuildXs [10x10/16z] HOp50S0020CVI92Mx3zjNUw3H7WmmvisgtCVYAhuIXOy4aWoD91bVcx8J3qtyKh8iIqc3h4-mmNaa7_p3W
+
+sprite $CloudBuildSm [12x12/16z] HKt50O1037kaBdJ_QN6ukYPpopQVb4e-LHi1qBxM2eZGtPIecOUfpoHODTpmrkwkJqsUxdBLHI3pCyHSpoI2Zo7DOZ4_rG4
+
+sprite $CloudBuildMd [16x16/16z] {
+RK_50S1037h4myd-qzQzvt6W3rTBRmyNIYHnHghHjXIRMsInHPU7o-f7g7X4giOsHDdW6e0przKdThLqADr-lFm8-CCdGMOQxRxpOdZooc2Zb0i1MxCdmnPi
+nbvl0HM9iT8P
+}
+
+sprite $CloudBuildLg [20x20/16z] {
+VP1LWeOm38GV6feHmjx_jeltzq7xnVFtI-LNiZ0QwebeQgi2outcRAScdOYn7mzNde4hZ6vX_QIyiOeapCoQIGJsRAlPw9tYlCPVhAqe3RmowPKbZ1UMAe9M
+3BOrAxktTh9Q0rPHiJVjU_xLZWsDFHHYP_rfN-v0Q7bPO5NzMla_
+}
+
+!procedure CloudBuild($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DeveloperTools/CloudBuild', $name, $tech)
+!endprocedure
+
+!procedure CloudBuildCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudBuildMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure CloudBuildGroup($id, $name='Cloud Build', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudBuildMd>', $name, $tech)
+!endprocedure

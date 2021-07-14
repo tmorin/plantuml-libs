@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/StorageDatabases/CloudStorage
+
+sprite $CloudStorageXs [10x10/16z] uuS3Fcu8uE7dPMLcOcPcOcBZ1R6Om2m-JWumuE93i12o21qmKxZv42O3
+
+sprite $CloudStorageSm [12x12/16z] NSs53S0m34HHDKp-j_-qPNw2nAmti1s870wnGFREEUycdxV_nhcGKQ-dhkS_zFJyPv-Txrjl2m
+
+sprite $CloudStorageMd [16x16/16z] uoS4UBYvu82Rbv-VavKP3jWumNmc861cPcJ4nOS3LY2VbuSR3dXuqVWKcu_cNXw2tWC
+
+sprite $CloudStorageLg [20x20/16z] fT350G0G501GtR7_jBgvUKT--nz6SBRWqgOtHl22SbFVK8On0d2-mIo_WVdMfM3AoXibY_BchJKBQ_tzvloTAwuUhrdUCxFsDkMt-mQvnuS8
+
+!procedure CloudStorage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/CloudStorage', $name, $tech)
+!endprocedure
+
+!procedure CloudStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudStorageMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure CloudStorageGroup($id, $name='Cloud Storage', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudStorageMd>', $name, $tech)
+!endprocedure

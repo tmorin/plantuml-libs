@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Generic/Generic
+
+sprite $GenericXs [10x10/16z] JSor0G1020F04YVxJ_ikN8K6SI3uY5c9d4epTLMEmKSbEQkKCRCSR6wFKlta3W
+
+sprite $GenericSm [12x12/16z] JSsr0G0n3C30CYpjF-r3-2gpPPCKfmHn6t4fAqvDM-fnjij_NErgh_E7z7fCNUpnmlrBDby
+
+sprite $GenericMd [16x16/16z] TS-r0G1130F1q2Yh_sgVyM2pIGniI_-KfEiddzdzPv1u7U0Mud8-gqxNxJgDspXjMKTfq_rpj_-qhG
+
+sprite $GenericLg [20x20/16z] bT2r0G0X4031bFF-gtt5dGq7ntefLwaPkoe-Du3QGCm4eWNwCHYm-HY2YSN46rWM-7cQICDQIaR17B8Fzz-sRzq_xNK3
+
+!procedure Generic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Generic/Generic', $name, $tech)
+!endprocedure
+
+!procedure GenericCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GenericMd>', 'Generic', $funcName, $content)
+!endprocedure
+
+!procedure GenericGroup($id, $name='Generic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GenericMd>', $name, $tech)
+!endprocedure

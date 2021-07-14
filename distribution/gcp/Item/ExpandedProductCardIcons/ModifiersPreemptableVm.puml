@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersPreemptableVm
+
+sprite $ModifiersPreemptableVmXs [10x10/16z] uwS3
+
+sprite $ModifiersPreemptableVmSm [12x12/16z] unza
+
+sprite $ModifiersPreemptableVmMd [16x16/16z] un_X
+
+sprite $ModifiersPreemptableVmLg [20x20/16z] unzKO1G
+
+!procedure ModifiersPreemptableVm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersPreemptableVm', $name, $tech)
+!endprocedure
+
+!procedure ModifiersPreemptableVmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersPreemptableVmMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersPreemptableVmGroup($id, $name='Modifiers Preemptable Vm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersPreemptableVmMd>', $name, $tech)
+!endprocedure

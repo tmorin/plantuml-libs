@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Networking/CloudExternalIpAddresses
+
+sprite $CloudExternalIpAddressesXs [10x10/16z] DSQv5S0m34EnKbIUFxd_jl692jc0U4oe6qfgzCt9YINjpKBEqkDDSuMdlT9K8-5mVW
+
+sprite $CloudExternalIpAddressesSm [12x12/16z] NOt50G0W24MFVAJstrRiU4fN33nfki69EuW81jRqgQYQ0znyRUqCJBzDcSVqmt1yfTzdRPJcWmPeToVfLW
+
+sprite $CloudExternalIpAddressesMd [16x16/16z] ZSor0KG130BGAYxiF-tfTtzT170c_IE1Yg-4gvewOFmbxMfjlzdZOxvBuUCxwppFVTzvqC1o3idrpF5avgW_7-RPTmwR5NRU
+
+sprite $CloudExternalIpAddressesLg [20x20/16z] hSw53SGm341HKS2y_xG7Xd8hwXT5BsHxJjdJhV7qs4nc16u4V-CU3VqP68KDm5_avs2cwVQzPzlEKbRvScyqu6JOvmicMa5P7sjbsyAKTubTzmK
+
+!procedure CloudExternalIpAddresses($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/CloudExternalIpAddresses', $name, $tech)
+!endprocedure
+
+!procedure CloudExternalIpAddressesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudExternalIpAddressesMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure CloudExternalIpAddressesGroup($id, $name='Cloud External Ip Addresses', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudExternalIpAddressesMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/BigData/Dataprep
+
+sprite $DataprepXs [10x10/16z] LKp50G1027hQil-qrsa7W6Q9RHQhYxACALpLnic3HLN796EQtqbf0yUdSfKh
+
+sprite $DataprepSm [12x12/16z] NOr50aG124AtAdN_qyxyhhSnWNo1huupn-IQgUBUImDkUunHrTr8-EXZUQ3SsdbuwfdrvGy
+
+sprite $DataprepMd [16x16/16z] RO-54G0X30J7Fp9tz5_juywYyIIySUwoOlwf2bKpTbd4LKGuWesB7KX779aifcXyKa6LALCEvEgVe9Ly37kzsP6LVlZiTyxp9W8
+
+sprite $DataprepLg [20x20/16z] {
+VL2r0KL132eFkP3zf_qkpoaZM5zXPZSAvdQocmLm0IJ_inf2uO75B1pQpZhLWPFyFkNkISWllAIeXoH-u6l6nuphMPxdqV9tgR6K7MylxBtdvQprpkRB3fPT
+xJkzmXq
+}
+
+!procedure Dataprep($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/Dataprep', $name, $tech)
+!endprocedure
+
+!procedure DataprepCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataprepMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure DataprepGroup($id, $name='Dataprep', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataprepMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ManagementTools/Trace
+
+sprite $TraceXs [10x10/16z] HSkr0G1H30BGwiU1_QSzbzT44K1Tu3PtnoheniDz3NUFpEJV_TT3Ln_ECJqEEDCuQGS
+
+sprite $TraceSm [12x12/16z] ROkr0G0X00ExLxZiFotkS5LKW0eyzyD1ZnlP215nHvx0owY7JRatJTi4_JJTDnu
+
+sprite $TraceMd [16x16/16z] VSor0S0m30J0IapxJnlcsBvEy5zV9YBnc0KHxJaJaJ_cZ8WQSDtOnjU-3V5Al_FlloaZ3xLX8jxeCTzz6nNHpRzl1W
+
+sprite $TraceLg [20x20/16z] ZSsr0S0m40F0AYpOVzem6wzxb6E45Vs1TjLNzWP_SIMNwUG7kbC_7BXbdBh-W5WlVljaL139__xuHFHuUckpt2CUSim2
+
+!procedure Trace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ManagementTools/Trace', $name, $tech)
+!endprocedure
+
+!procedure TraceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TraceMd>', 'ManagementTools', $funcName, $content)
+!endprocedure
+
+!procedure TraceGroup($id, $name='Trace', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TraceMd>', $name, $tech)
+!endprocedure

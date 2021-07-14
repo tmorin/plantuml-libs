@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/DeveloperTools/ToolsForPowershell
+
+sprite $ToolsForPowershellXs [10x10/16z] RKl50G012BgqXVsdlVpQId2EpkntfyjnM1GXUcIfAQ3_TO8L8ceUdwEgESSD
+
+sprite $ToolsForPowershellSm [12x12/16z] ZOl50S0m30DBWf2y_xRD2BcFBQeZLWmusU-0tmzicXKItrgIbSZ0YYIcfjj7iM7iGMAxPTKHFm
+
+sprite $ToolsForPowershellMd [16x16/16z] hKst0S0m21je4adC_z_6zGDh0jMwWTSxdlsafuk8uS6WFZE8Wkv4j2e8L31i0MCLBLKuVshdMw3xcU4q_Nf1ht7j_UZ5PwzxyDOD_
+
+sprite $ToolsForPowershellLg [20x20/16z] {
+lOs7YGKn4CM0oS7U_hizNVebh4Ys6F6UzqY7l9z_vxIAYFfipuywgcqODO-EEAWR4YdYU-WhFN6hMYgw185qNZWV7Cd5jU6OfA0zjpWBSHH9Z34QpeOgmp2z
+pIZCP3yVAg7kynfV
+}
+
+!procedure ToolsForPowershell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DeveloperTools/ToolsForPowershell', $name, $tech)
+!endprocedure
+
+!procedure ToolsForPowershellCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ToolsForPowershellMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure ToolsForPowershellGroup($id, $name='Tools For Powershell', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ToolsForPowershellMd>', $name, $tech)
+!endprocedure

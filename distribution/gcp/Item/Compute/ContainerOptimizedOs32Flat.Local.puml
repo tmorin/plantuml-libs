@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element ContainerOptimizedOs32Flat
+include('gcp/Item/Compute/ContainerOptimizedOs32Flat')
+
+' renders the element
+ContainerOptimizedOs32Flat('ContainerOptimizedOs32Flat', 'Container Optimized Os32 Flat', 'an optional tech label')
+@enduml

@@ -1,0 +1,17 @@
+' definition of the Item gcp/Group/GroupExternalDataSources
+
+!procedure GroupExternalDataSources($id, $name='External data sources', $tech='')
+  GroupElement($id, 'GroupExternalDataSources', $name, $tech)
+!endprocedure
+
+skinparam Rectangle<<GroupExternalDataSources>> {
+  StereotypeFontColor $GCP_FRONT
+  BorderThickness 0
+  BorderColor none
+  BorderStyle solid
+  FontStyle none
+  FontColor $GCP_FRONT
+  FontSize $FONT_SIZE_MD
+  BackgroundColor #FFF8E1
+  shadowing false
+}

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element Cloudapis521
+include('gcp/Item/ManagementTools/Cloudapis521')
+
+' renders the element
+Cloudapis521('Cloudapis521', 'Cloudapis521', 'an optional tech label')
+@enduml

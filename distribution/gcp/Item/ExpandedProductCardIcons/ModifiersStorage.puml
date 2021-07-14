@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersStorage
+
+sprite $ModifiersStorageXs [10x10/16z] uwS3
+
+sprite $ModifiersStorageSm [12x12/16z] unza
+
+sprite $ModifiersStorageMd [16x16/16z] un_X
+
+sprite $ModifiersStorageLg [20x20/16z] unzKO1G
+
+!procedure ModifiersStorage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersStorage', $name, $tech)
+!endprocedure
+
+!procedure ModifiersStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersStorageMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersStorageGroup($id, $name='Modifiers Storage', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersStorageMd>', $name, $tech)
+!endprocedure

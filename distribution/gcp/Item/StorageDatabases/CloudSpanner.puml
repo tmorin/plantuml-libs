@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/StorageDatabases/CloudSpanner
+
+sprite $CloudSpannerXs [10x10/16z] JSZ50S1040B0UDQ0_gkDoyq7KIiZwswsMDojbXMwnNsXoXm5OPxMY7MQmJINt98gXmGl_NO
+
+sprite $CloudSpannerSm [12x12/16z] NKk50S0m29jYJSF_rywrE95ieXJWlcSBkqxEazntGgm-1eyR9TIsiObj4ZKtcOmqbo13t9ZLTJD2dPieSBY2-OqL
+
+sprite $CloudSpannerMd [16x16/16z] {
+RKxL0K8n44DwRljlImLucg-SHEeMaPcxqS2SV9lvhOQwdnljPyU673k39CxQWsLtx074ticS65Y8cAMJ7DxlRcR6sDwD-wmwlODHjSyPWjECKMPffHKTJAlI
+dFPaZmy
+}
+
+sprite $CloudSpannerLg [20x20/16z] {
+bKv5jaKn21j04mgaT_-h_VBSXH4dldrteZHr3Rcto7M9jLare1jiy0RJC0DYNGMkEP3hhlXFzHvRYQZBA9O2Z9Wgpd-rOERZ7mh2pVu7bRdxO4ePu--r-iEe
+0dgt72Xn5wi9w83znUq-_hz7ChG7pojgzlRv_G8
+}
+
+!procedure CloudSpanner($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/CloudSpanner', $name, $tech)
+!endprocedure
+
+!procedure CloudSpannerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudSpannerMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure CloudSpannerGroup($id, $name='Cloud Spanner', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudSpannerMd>', $name, $tech)
+!endprocedure

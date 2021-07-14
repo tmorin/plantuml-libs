@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/BigData/Dataflow
+
+sprite $DataflowXs [10x10/16z] DOc55S0W34JhZJpkxpzj1OYT0Wr4dx28BfeTLmZGvUvXlp9bwXRe_fMfMgVNvntY7pSF-gWVBm
+
+sprite $DataflowSm [12x12/16z] LOwr0GH154AJCMIE_gkzTNlHLo0hlznuo70EK1kFQlRQ-i1-Y3xNQd2l6J70LW-42hdNRRi1Fx-xrQYDZvSkhpl60W
+
+sprite $DataflowMd [16x16/16z] {
+ROx50S9G44Glwzf_jmmEITxNzTaBsdEsS5wCYxdvnzuI4kjlc8b4zLsWfAqshlwqpNQ5doyOnPkngp8FMs178gxxG6I61RxuzhDdlyyyriyyKFohPzl4t68-
+TXGcmhxW1W
+}
+
+sprite $DataflowLg [20x20/16z] {
+TL1L0a0X2FiG6VRzR_l2xYQtfUi8Fdvd64t24e8LcOo66MByc1k55CEE5iUAYC7I0w4KFCjNe8P6JVOzT4mEYCKevkr2z3O5QbFYr-lSbw53iUbcusgBhwta
+sgN7w_133sfOJ0EuO6xSg79hWS8QOYTP0EE3MRJwFl4zh-C1
+}
+
+!procedure Dataflow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/Dataflow', $name, $tech)
+!endprocedure
+
+!procedure DataflowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataflowMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure DataflowGroup($id, $name='Dataflow', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataflowMd>', $name, $tech)
+!endprocedure

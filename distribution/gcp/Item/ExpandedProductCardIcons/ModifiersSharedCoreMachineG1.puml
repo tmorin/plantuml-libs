@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersSharedCoreMachineG1
+
+sprite $ModifiersSharedCoreMachineG1Xs [10x10/16z] uwS3
+
+sprite $ModifiersSharedCoreMachineG1Sm [12x12/16z] unza
+
+sprite $ModifiersSharedCoreMachineG1Md [16x16/16z] un_X
+
+sprite $ModifiersSharedCoreMachineG1Lg [20x20/16z] unzKO1G
+
+!procedure ModifiersSharedCoreMachineG1($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersSharedCoreMachineG1', $name, $tech)
+!endprocedure
+
+!procedure ModifiersSharedCoreMachineG1Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersSharedCoreMachineG1Md>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersSharedCoreMachineG1Group($id, $name='Modifiers Shared Core Machine G1', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersSharedCoreMachineG1Md>', $name, $tech)
+!endprocedure

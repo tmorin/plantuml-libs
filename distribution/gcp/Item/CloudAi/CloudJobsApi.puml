@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudAi/CloudJobsApi
+
+sprite $CloudJobsApiXs [10x10/16z] DSRN0OCm5C30172tdlQVbivzdIV0Ir1RdQ6axPAGRRriKsfDzw8pwZs6r7IQzj56d5Je-0bF1m
+
+sprite $CloudJobsApiSm [12x12/16z] NSS50iGm24JHtJR1OUv_shh_20-iLHMEKbHiamaJ4uakfd6l9S2jdIvJQOVDGsLt6H27eSjgRii3qbGDPmKFV9i1
+
+sprite $CloudJobsApiMd [16x16/16z] ROk50S1020FhEEo_RLFNUoLIlxY0k6ObnTx-ITCqZjjHp37q9_IPj_nzTX6LuPo35GgTioeg8jTiw8WCAvXD8erz8v1L1bONuUcRSE6OVva1
+
+sprite $CloudJobsApiLg [20x20/16z] {
+bT250OKm34NHBwH4N_UV5dVduWTlliYxLeGojSq884fsrsG0Ed8YAefYM55thVrNsHiB4KbhWmgBySgKrHjD2mlkJyZ2dD6ORymRCnOQQWmi0MV1MEvkwuhr
+cAXOI8Vh888zHhwg1W
+}
+
+!procedure CloudJobsApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/CloudJobsApi', $name, $tech)
+!endprocedure
+
+!procedure CloudJobsApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudJobsApiMd>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure CloudJobsApiGroup($id, $name='Cloud Jobs Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudJobsApiMd>', $name, $tech)
+!endprocedure

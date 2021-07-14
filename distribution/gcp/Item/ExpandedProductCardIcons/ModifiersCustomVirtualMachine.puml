@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersCustomVirtualMachine
+
+sprite $ModifiersCustomVirtualMachineXs [10x10/16z] uwS3
+
+sprite $ModifiersCustomVirtualMachineSm [12x12/16z] unza
+
+sprite $ModifiersCustomVirtualMachineMd [16x16/16z] un_X
+
+sprite $ModifiersCustomVirtualMachineLg [20x20/16z] unzKO1G
+
+!procedure ModifiersCustomVirtualMachine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersCustomVirtualMachine', $name, $tech)
+!endprocedure
+
+!procedure ModifiersCustomVirtualMachineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersCustomVirtualMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersCustomVirtualMachineGroup($id, $name='Modifiers Custom Virtual Machine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersCustomVirtualMachineMd>', $name, $tech)
+!endprocedure

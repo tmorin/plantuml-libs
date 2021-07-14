@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ExpandedProductCardIcons/ModifiersAutoscaling
+
+sprite $ModifiersAutoscalingXs [10x10/16z] uwS3
+
+sprite $ModifiersAutoscalingSm [12x12/16z] unza
+
+sprite $ModifiersAutoscalingMd [16x16/16z] un_X
+
+sprite $ModifiersAutoscalingLg [20x20/16z] unzKO1G
+
+!procedure ModifiersAutoscaling($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ModifiersAutoscaling', $name, $tech)
+!endprocedure
+
+!procedure ModifiersAutoscalingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ModifiersAutoscalingMd>', 'ExpandedProductCardIcons', $funcName, $content)
+!endprocedure
+
+!procedure ModifiersAutoscalingGroup($id, $name='Modifiers Autoscaling', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersAutoscalingMd>', $name, $tech)
+!endprocedure

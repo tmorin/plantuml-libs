@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/StorageDatabases/PersistentDisk
+
+sprite $PersistentDiskXs [10x10/16z] 7Sd50S0020F0EaxstxQ1UqNGkHg8PmNJBKuroKrLcSf2Ff44KXWo6YXU5ff09_carCM4Mi0F
+
+sprite $PersistentDiskSm [12x12/16z] 9Sl50SL020JGB-Wkqd-tOSYxeDDTkQgdPLeyGzAVGRQdIC0FqLL0uDuGKRNforH58W8_2c6EdrosFyVXxTtM_jHhsWS
+
+sprite $PersistentDiskMd [16x16/16z] POt50S1020JZWlPVRGIBtFnWJHjeBUY-OImWxdbnC6uGH_F6pR0yJXF2oo_Cib-7zSVUTUxNt_BeNg38qsPWtXfRUVCUb3z87GhMXXC
+
+sprite $PersistentDiskLg [20x20/16z] VSu53WGn243HrU9m_zEEaUhAYv5VZUzK1fgjF0VbRtkL2bihqVJcmac61lDPFAQr-S7E1WVAHkTy9lD3FPlWV4ZMneYShNsZjH6D-n9XQupDtsOwiFXk1m
+
+!procedure PersistentDisk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/StorageDatabases/PersistentDisk', $name, $tech)
+!endprocedure
+
+!procedure PersistentDiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PersistentDiskMd>', 'StorageDatabases', $funcName, $content)
+!endprocedure
+
+!procedure PersistentDiskGroup($id, $name='Persistent Disk', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PersistentDiskMd>', $name, $tech)
+!endprocedure

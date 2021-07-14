@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DeveloperTools/ArtifactRegistry
+
+sprite $ArtifactRegistryXs [10x10/16z] uwS3
+
+sprite $ArtifactRegistrySm [12x12/16z] unza
+
+sprite $ArtifactRegistryMd [16x16/16z] un_X
+
+sprite $ArtifactRegistryLg [20x20/16z] unzKO1G
+
+!procedure ArtifactRegistry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DeveloperTools/ArtifactRegistry', $name, $tech)
+!endprocedure
+
+!procedure ArtifactRegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ArtifactRegistryMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure ArtifactRegistryGroup($id, $name='Artifact Registry', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ArtifactRegistryMd>', $name, $tech)
+!endprocedure

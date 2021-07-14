@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ApiPlatformEcosystems/ApiMonetization
+
+sprite $ApiMonetizationXs [10x10/16z] BKkr0G0m2Dig4Fd_sYeE4VyGNH7zRuBvhpboFYOo4EzAvBtYh7Tf7Z8ZfZppNjSXwyHP6m
+
+sprite $ApiMonetizationSm [12x12/16z] HKlL0SKm2FoAaBFzfttQbWYSvZvEmrbD2XV0LEFbF_O4jowymFhfX273XydPtC1ddAGQ1wKYwz_jymO
+
+sprite $ApiMonetizationMd [16x16/16z] VKu50aKn2FejEC7xd_PtlrXFgLuPWB-_EXpqqn_vrJp1f3-zVIZYYRVQhAxnRCQX53HU_JX-_QLsNIy_y0ATa90chlq2nDkV0chwr_TVjoJLIZlryVyQ5m
+
+sprite $ApiMonetizationLg [20x20/16z] {
+ZOy5eWCm34A_J4X9uFwtNMNkzRue_ZoIkaVQ_kCRvcetiThlw0RUfD_yetFS-QNRdkT_q6QxoHV_cwgUh_l6DTDWk32pUboUOpDeaPgw63dZ0B5l0Unxnk8h
+zZoM2ELYgLXwbRAhvfwVf-C
+}
+
+!procedure ApiMonetization($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApiPlatformEcosystems/ApiMonetization', $name, $tech)
+!endprocedure
+
+!procedure ApiMonetizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApiMonetizationMd>', 'ApiPlatformEcosystems', $funcName, $content)
+!endprocedure
+
+!procedure ApiMonetizationGroup($id, $name='Api Monetization', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApiMonetizationMd>', $name, $tech)
+!endprocedure

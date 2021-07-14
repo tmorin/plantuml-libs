@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/BigData/DataStudio
+
+sprite $DataStudioXs [10x10/16z] HOp50G1120DVE2JzLtj-k_D18hm1m8SmyxntcAevY9cgxY7ykkEHrhRLdRYthsKrdm
+
+sprite $DataStudioSm [12x12/16z] NOq52W1040AfxVh_QwyekI4srVbeLpNBroSpYrg_lOg8-cao3jrzT--XtXrw_44jUc8MiW4
+
+sprite $DataStudioMd [16x16/16z] RO-53G0n30D5fU3-qpxZgISAnyuvRZj-fz9ghQrrk_9UzxntkVjNVlT3Tuxz67rZo7rhO1KvvtcF_wY7Ukc7h
+
+sprite $DataStudioLg [20x20/16z] VP150i1020DFkpZy_xLrRzgvuIJrIovSCouqm-97AgZF43F7qTQFtD6OeAz2U4PqJVd6UJDbdIBM0ji3vJvduGtq2_WPQaCU0A-GfvWH
+
+!procedure DataStudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/DataStudio', $name, $tech)
+!endprocedure
+
+!procedure DataStudioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataStudioMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure DataStudioGroup($id, $name='Data Studio', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataStudioMd>', $name, $tech)
+!endprocedure

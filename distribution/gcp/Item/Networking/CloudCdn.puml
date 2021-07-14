@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Networking/CloudCdn
+
+sprite $CloudCdnXs [10x10/16z] LOp50S1G34Bh0fJiFstzsxj4aBXn_7ZT_uqRz7ueGFGjRHXdRgjZ1-PLUAmIUQXAj2r_ymK
+
+sprite $CloudCdnSm [12x12/16z] NOs53G1H34BF6be8-VjFU-ulKWNQd-JTLa1NJ_liYmMGjVs6CGOTsHfX16XiUebLalxQo_F9-hC
+
+sprite $CloudCdnMd [16x16/16z] RKzL0W9G23F8npRlVrgxbJzWUVW_WuzrMU1jfKKbNpjIwkTES008l7DpR6-1j7LUnqBOxxsei3bpemJpFEzrDK4sF2BHUVCa1H8YV_n-ylpaVVNvFoS
+
+sprite $CloudCdnLg [20x20/16z] {
+VL3N5SGm2FlW31BFmFxRNdfFv4e7rHSYRghUB6ugKLoK9aRbMQV8SbnYiohZ89jsw03lQdrDZrGHKIQaZSfeObc3hXahJLeCEbDMwQ32y5AdDWFggJzLO_hQ
+P1337k01nhMNZvu_Pbiv-EHgvVGBVm
+}
+
+!procedure CloudCdn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/CloudCdn', $name, $tech)
+!endprocedure
+
+!procedure CloudCdnCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudCdnMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure CloudCdnGroup($id, $name='Cloud Cdn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudCdnMd>', $name, $tech)
+!endprocedure

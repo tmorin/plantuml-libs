@@ -1,0 +1,45 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+left to right direction
+
+include('material-4/Hardware/Laptop')
+include('material-4/Hardware/PhoneAndroid')
+include('material-4/Device/Storage')
+
+include('gcp/Item/Networking/CloudDns')
+include('gcp/Item/Networking/CloudLoadBalancing')
+include('gcp/Item/Compute/ComputeEngine')
+include('gcp/Group/GroupProjectZone')
+include('gcp/Group/GroupInstances')
+
+Laptop('laptop', '')
+PhoneAndroid('phone', '')
+CloudDns('dns')
+GroupProjectZone('project') {
+  CloudLoadBalancing('lb')
+  GroupInstances('grp_instances', 'Instance Group') {
+    ComputeEngineCard('instances','Serving Instances', 'Multiple Instances')
+  }
+  GroupInstances('grp_heartbeat', 'Instance Group') {
+    ComputeEngineCard('heartbeat', 'Heartbeat and Snapshot System', 'Multiple Instances')
+  }
+  Storage('storage', 'Persistent Disk Snapshot')
+}
+
+laptop --> dns
+phone --> dns
+dns --> lb
+lb --> instances
+heartbeat <-> instances
+instances --> storage
+
+@enduml

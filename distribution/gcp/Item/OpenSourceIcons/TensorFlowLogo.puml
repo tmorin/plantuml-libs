@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/OpenSourceIcons/TensorFlowLogo
+
+sprite $TensorFlowLogoXs [9x9/16z] 9SQr0G1130Em9eQZUFzf7oifoMBDJhQgK5n-e0G89FUornY2JdUoHCpaZNp-y3F7xeSR
+
+sprite $TensorFlowLogoSm [11x11/16z] FOr50G0W300_S-tV5kTWRZq90gdbfC04hL9mMYO0ekaGYJ3DUE5fh2ugZEYzvafNSNeJPIRfwvBLTwCFpkVM
+
+sprite $TensorFlowLogoMd [15x15/16z] {
+HKp50G0n37f4gUw_xP6UKGss3qQez_rWGaL4SzImcgceAI_CPp0FLrLp3hmzCiFDwZY10SvUn-jbFN8C193CENjFywQDnR4VuDJaFqQ4jtzarHDzHdpJRXpR
+Fou4vlsz
+}
+
+sprite $TensorFlowLogoLg [18x19/16z] {
+VSxL0SHG24JH3sHuIl_Txh1k2T5xedcVuOgPhrbG4R6-7nt6fgcDwjtP3BSop1nU9mIWJ0ttTaS4NCtex9hU8e97Eg5cvceKCbYWrwTdZ9mDw6G-xFFnDtjV
+HTHtteSIS3Dy2Ca_1A3qV1DshFoIcMUIhMIzo-x0VCG5
+}
+
+!procedure TensorFlowLogo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OpenSourceIcons/TensorFlowLogo', $name, $tech)
+!endprocedure
+
+!procedure TensorFlowLogoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TensorFlowLogoMd>', 'OpenSourceIcons', $funcName, $content)
+!endprocedure
+
+!procedure TensorFlowLogoGroup($id, $name='Tensor Flow Logo', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TensorFlowLogoMd>', $name, $tech)
+!endprocedure

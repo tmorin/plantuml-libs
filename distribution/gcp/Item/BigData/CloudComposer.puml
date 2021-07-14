@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/BigData/CloudComposer
+
+sprite $CloudComposerXs [10x10/16z] DSP14W0G30F0IqsReFd_Qm7sj58x97Kx-fgxcVjQWgKGkHPqPvm5U8VLi-xuCyUTMi_CBaq
+
+sprite $CloudComposerSm [12x12/16z] HSP10W0G24JHHGDDSF_J0l2fNgqbhqeT1Qp2j0T403zjf0Xfqne9CEgsXM3NgdmU7HlvxF4TG5LJJfTSIvc_TW
+
+sprite $CloudComposerMd [16x16/16z] PSwr0S0W443Hubnox3zjt82FFYhQLCbR7LuGxd0vJOYda4wtY100sO-JPUeAi6zMf_MnldOH_tb_yFnxBrvRxnQH_lhyZtH6uBzBnD8zm_rqtmO
+
+sprite $CloudComposerLg [20x20/16z] {
+XT0r5i0W44NH0XtD_bSRJt1urJ-tGRP-Ibdw69aicfYrze5plARCJFOKEeS-9W30pXZ7vv37ECRus3Nc9X0ZI6b8PvLTmTIUkoHBTvRVqjiOAZDcOUbFLPX5
+qnyq7G
+}
+
+!procedure CloudComposer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/CloudComposer', $name, $tech)
+!endprocedure
+
+!procedure CloudComposerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudComposerMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure CloudComposerGroup($id, $name='Cloud Composer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudComposerMd>', $name, $tech)
+!endprocedure

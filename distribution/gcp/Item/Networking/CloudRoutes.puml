@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/Networking/CloudRoutes
+
+sprite $CloudRoutesXs [10x10/16z] NOn50W1H249t8_0Lxt_QwNuRW-WVHRSf5sA2FI06GwkohkdiRIFspGeHmkW2N0IuFlSMkHyM
+
+sprite $CloudRoutesSm [12x12/16z] ROor0GD030ChCsZ_RQCFqvaHVyYXgrgwD6jiU6mg2M3ICwmyE3wJR73pvENUQ92vBdJaOasT4v90di_DqU01Rp-u
+
+sprite $CloudRoutesMd [16x16/16z] {
+VOz50aG1249tYbZtl-qmtVzjx63_ChLlj7D5agqY0REONJcOfLsWwW54kVcjhWp0yBxD2mBQCVau1A2Uz-W9O0PvdTRQ1280Qb-OUIzn8LTUQ72Ij_e3pH_f
+kN42
+}
+
+sprite $CloudRoutesLg [20x20/16z] {
+XP350G0n20H_43JzTtiRpdsUWzF_oBmxRt7BCffbY8WF8ynCn5Rv056X6Ox52SeMjDeCAyxefSIbbd9L53bxNp58IypR5MRFSt9VJviFcVlEWVPIBSFGeWOG
+Q1Y-OAlpqM0Xu9ZhdbIHDQzdvluNYTkl9Fv_kZC1
+}
+
+!procedure CloudRoutes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Networking/CloudRoutes', $name, $tech)
+!endprocedure
+
+!procedure CloudRoutesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudRoutesMd>', 'Networking', $funcName, $content)
+!endprocedure
+
+!procedure CloudRoutesGroup($id, $name='Cloud Routes', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudRoutesMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/CloudAi/AdvancedSolutionsLab1
+
+sprite $AdvancedSolutionsLab1Xs [10x10/16z] FKp50S1037er0f7zj-rvN80ULjNRGZLcJtTLHtP3Z3H1DyLKJJYcJytq6nFKITVnhG4Qq5firPpzAVy
+
+sprite $AdvancedSolutionsLab1Sm [12x12/16z] NOt50K0n24DF8JZxR_jTNulR_6ZLEhqWmEZLBPgvcx5M7y882bQ_AIPSVw--W2iYgrzGpLJkFNRIiv84cC-jdXyB
+
+sprite $AdvancedSolutionsLab1Md [16x16/16z] {
+RSzL0WD120FGMX88xFJ-frshomZm_iBr_x7VDGKGqqF38Y1vx3HZagrEUJSKxdO8TnDf9uZQBJZ8C7Gp8P7Rl_a2b5t0nPkJvQnAcxcvKwNSIzy2TG10t7HB
+27XyxVF_B
+}
+
+sprite $AdvancedSolutionsLab1Lg [20x20/16z] {
+VP253GLG20CZzB0d-s_xtUL236_tFyRuI3NqQsQ6cScVMbVYaWXoNJE1p_Ogxnd4EkTGJle88yGyDxeXLlT2CjzdN2xy24AtN2ecu3EKjrp8aoFfYblEP7H4
+OrptBOpZIFTsbt7-PK8lh-xoLLn_6KKU8wbZtELDnoJ3vtwYPAPwjm_63qz_SW
+}
+
+!procedure AdvancedSolutionsLab1($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudAi/AdvancedSolutionsLab1', $name, $tech)
+!endprocedure
+
+!procedure AdvancedSolutionsLab1Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AdvancedSolutionsLab1Md>', 'CloudAi', $funcName, $content)
+!endprocedure
+
+!procedure AdvancedSolutionsLab1Group($id, $name='Advanced Solutions Lab1', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AdvancedSolutionsLab1Md>', $name, $tech)
+!endprocedure

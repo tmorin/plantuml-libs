@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/BigData/DataLab
+
+sprite $DataLabXs [10x10/16z] LKp50O0m37n6JjX_MXpQvfFpRJdfGyGBJFf5m8l8nYiPTOleohn5dY3vpkao3m
+
+sprite $DataLabSm [12x12/16z] NKp50S103FesmVQVjcvtSG4o6_tDwdSnzK40lX3WVJIxttDGzwE1hhfKkfRTBjLpxaT_jwDl
+
+sprite $DataLabMd [16x16/16z] ROtL0G0n348_ey3-qvxxzTMR01fJVByRhoSPzIeNNW8iFDjZuTcGG3xReylnA3SpxeOEBilxSglC20-Uwl8DdFNSdbTYvmOqO0O
+
+sprite $DataLabLg [20x20/16z] {
+ZOx55GH144AlK0LC_j6kwrZtF_AmvGnd8uNQ-Y9l99DhZIrDJ7JTw9KDtV3wIi9Ll6YZLb69X7urtYmg_3uKVFFMhp7iuWs0-Tg45_huq7nftpkD5_tpM4-y
+7785
+}
+
+!procedure DataLab($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BigData/DataLab', $name, $tech)
+!endprocedure
+
+!procedure DataLabCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataLabMd>', 'BigData', $funcName, $content)
+!endprocedure
+
+!procedure DataLabGroup($id, $name='Data Lab', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataLabMd>', $name, $tech)
+!endprocedure

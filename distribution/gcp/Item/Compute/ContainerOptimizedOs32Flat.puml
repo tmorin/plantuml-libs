@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Compute/ContainerOptimizedOs32Flat
+
+sprite $ContainerOptimizedOs32FlatXs [10x10/16z] uwS3
+
+sprite $ContainerOptimizedOs32FlatSm [12x12/16z] unza
+
+sprite $ContainerOptimizedOs32FlatMd [16x16/16z] un_X
+
+sprite $ContainerOptimizedOs32FlatLg [20x20/16z] unzKO1G
+
+!procedure ContainerOptimizedOs32Flat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Compute/ContainerOptimizedOs32Flat', $name, $tech)
+!endprocedure
+
+!procedure ContainerOptimizedOs32FlatCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerOptimizedOs32FlatMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure ContainerOptimizedOs32FlatGroup($id, $name='Container Optimized Os32 Flat', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerOptimizedOs32FlatMd>', $name, $tech)
+!endprocedure
