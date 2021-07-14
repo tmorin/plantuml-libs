@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/SimCard
+
+sprite $SimCardXs [10x10/16z] uwS3
+
+sprite $SimCardSm [12x12/16z] unza
+
+sprite $SimCardMd [16x16/16z] un_X
+
+sprite $SimCardLg [20x20/16z] unzKO1G
+
+!procedure SimCard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/SimCard', $name, $tech)
+!endprocedure

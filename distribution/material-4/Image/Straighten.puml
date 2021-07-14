@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Straighten
+
+sprite $StraightenXs [10x10/16z] uwS3
+
+sprite $StraightenSm [12x12/16z] unza
+
+sprite $StraightenMd [16x16/16z] un_X
+
+sprite $StraightenLg [20x20/16z] unzKO1G
+
+!procedure Straighten($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Straighten', $name, $tech)
+!endprocedure

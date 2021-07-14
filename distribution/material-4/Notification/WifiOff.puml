@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/WifiOff
+
+sprite $WifiOffXs [10x10/16z] uwS3
+
+sprite $WifiOffSm [12x12/16z] unza
+
+sprite $WifiOffMd [16x16/16z] un_X
+
+sprite $WifiOffLg [20x20/16z] unzKO1G
+
+!procedure WifiOff($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Notification/WifiOff', $name, $tech)
+!endprocedure

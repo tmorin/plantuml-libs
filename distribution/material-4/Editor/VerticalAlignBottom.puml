@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/VerticalAlignBottom
+
+sprite $VerticalAlignBottomXs [10x10/16z] uwS3
+
+sprite $VerticalAlignBottomSm [12x12/16z] unza
+
+sprite $VerticalAlignBottomMd [16x16/16z] un_X
+
+sprite $VerticalAlignBottomLg [20x20/16z] unzKO1G
+
+!procedure VerticalAlignBottom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/VerticalAlignBottom', $name, $tech)
+!endprocedure

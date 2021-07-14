@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalHospital
+
+sprite $LocalHospitalXs [10x10/16z] uwS3
+
+sprite $LocalHospitalSm [12x12/16z] unza
+
+sprite $LocalHospitalMd [16x16/16z] un_X
+
+sprite $LocalHospitalLg [20x20/16z] unzKO1G
+
+!procedure LocalHospital($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalHospital', $name, $tech)
+!endprocedure

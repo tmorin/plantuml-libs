@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FlightTakeoff
+
+sprite $FlightTakeoffXs [10x10/16z] uwS3
+
+sprite $FlightTakeoffSm [12x12/16z] unza
+
+sprite $FlightTakeoffMd [16x16/16z] un_X
+
+sprite $FlightTakeoffLg [20x20/16z] unzKO1G
+
+!procedure FlightTakeoff($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/FlightTakeoff', $name, $tech)
+!endprocedure

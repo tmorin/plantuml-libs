@@ -1,0 +1,63 @@
+# Countertops
+
+
+```text
+material-4/Places/Countertops
+```
+
+```text
+include('material-4/Places/Countertops')
+```
+
+
+
+| Illustration | Countertops |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Places/Countertops.png) | ![illustration for Countertops](../../material-4/Places/Countertops.Local.png) |
+
+
+
+
+## Countertops
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Countertops
+include('material-4/Places/Countertops')
+
+' renders the element
+Countertops('Countertops', 'Countertops', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Countertops
+include('material-4/Places/Countertops')
+
+' renders the element
+Countertops('Countertops', 'Countertops', 'an optional tech label')
+@enduml
+```
+

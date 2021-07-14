@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Note
+
+sprite $NoteXs [10x10/16z] uwS3
+
+sprite $NoteSm [12x12/16z] unza
+
+sprite $NoteMd [16x16/16z] un_X
+
+sprite $NoteLg [20x20/16z] unzKO1G
+
+!procedure Note($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Note', $name, $tech)
+!endprocedure

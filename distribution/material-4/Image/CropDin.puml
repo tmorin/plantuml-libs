@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/CropDin
+
+sprite $CropDinXs [10x10/16z] uwS3
+
+sprite $CropDinSm [12x12/16z] unza
+
+sprite $CropDinMd [16x16/16z] un_X
+
+sprite $CropDinLg [20x20/16z] unzKO1G
+
+!procedure CropDin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/CropDin', $name, $tech)
+!endprocedure

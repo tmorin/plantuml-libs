@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/KeyboardVoice
+
+sprite $KeyboardVoiceXs [10x10/16z] uwS3
+
+sprite $KeyboardVoiceSm [12x12/16z] unza
+
+sprite $KeyboardVoiceMd [16x16/16z] un_X
+
+sprite $KeyboardVoiceLg [20x20/16z] unzKO1G
+
+!procedure KeyboardVoice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardVoice', $name, $tech)
+!endprocedure

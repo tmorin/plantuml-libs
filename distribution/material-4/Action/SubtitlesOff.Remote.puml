@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SubtitlesOff
+include('material-4/Action/SubtitlesOff')
+
+' renders the element
+SubtitlesOff('SubtitlesOff', 'Subtitles Off', 'an optional tech label')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element FeaturedPlayList
+include('material-4/Av/FeaturedPlayList')
+
+' renders the element
+FeaturedPlayList('FeaturedPlayList', 'Featured Play List', 'an optional tech label')
+@enduml

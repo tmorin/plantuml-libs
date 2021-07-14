@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/StrikethroughS
+
+sprite $StrikethroughSXs [10x10/16z] uwS3
+
+sprite $StrikethroughSSm [12x12/16z] unza
+
+sprite $StrikethroughSMd [16x16/16z] un_X
+
+sprite $StrikethroughSLg [20x20/16z] unzKO1G
+
+!procedure StrikethroughS($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/StrikethroughS', $name, $tech)
+!endprocedure

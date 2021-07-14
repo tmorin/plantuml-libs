@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ThumbDown
+
+sprite $ThumbDownXs [10x10/16z] uwS3
+
+sprite $ThumbDownSm [12x12/16z] unza
+
+sprite $ThumbDownMd [16x16/16z] un_X
+
+sprite $ThumbDownLg [20x20/16z] unzKO1G
+
+!procedure ThumbDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/ThumbDown', $name, $tech)
+!endprocedure

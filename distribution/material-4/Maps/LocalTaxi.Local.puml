@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element LocalTaxi
+include('material-4/Maps/LocalTaxi')
+
+' renders the element
+LocalTaxi('LocalTaxi', 'Local Taxi', 'an optional tech label')
+@enduml

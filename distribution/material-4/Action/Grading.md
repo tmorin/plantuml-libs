@@ -1,0 +1,63 @@
+# Grading
+
+
+```text
+material-4/Action/Grading
+```
+
+```text
+include('material-4/Action/Grading')
+```
+
+
+
+| Illustration | Grading |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Action/Grading.png) | ![illustration for Grading](../../material-4/Action/Grading.Local.png) |
+
+
+
+
+## Grading
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Grading
+include('material-4/Action/Grading')
+
+' renders the element
+Grading('Grading', 'Grading', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Grading
+include('material-4/Action/Grading')
+
+' renders the element
+Grading('Grading', 'Grading', 'an optional tech label')
+@enduml
+```
+

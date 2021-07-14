@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/LibraryMusic
+
+sprite $LibraryMusicXs [10x10/16z] uwS3
+
+sprite $LibraryMusicSm [12x12/16z] unza
+
+sprite $LibraryMusicMd [16x16/16z] un_X
+
+sprite $LibraryMusicLg [20x20/16z] unzKO1G
+
+!procedure LibraryMusic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/LibraryMusic', $name, $tech)
+!endprocedure

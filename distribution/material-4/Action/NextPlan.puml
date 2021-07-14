@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/NextPlan
+
+sprite $NextPlanXs [10x10/16z] uwS3
+
+sprite $NextPlanSm [12x12/16z] unza
+
+sprite $NextPlanMd [16x16/16z] un_X
+
+sprite $NextPlanLg [20x20/16z] unzKO1G
+
+!procedure NextPlan($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/NextPlan', $name, $tech)
+!endprocedure

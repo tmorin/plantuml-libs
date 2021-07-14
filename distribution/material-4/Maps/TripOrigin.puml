@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/TripOrigin
+
+sprite $TripOriginXs [10x10/16z] uwS3
+
+sprite $TripOriginSm [12x12/16z] unza
+
+sprite $TripOriginMd [16x16/16z] un_X
+
+sprite $TripOriginLg [20x20/16z] unzKO1G
+
+!procedure TripOrigin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/TripOrigin', $name, $tech)
+!endprocedure

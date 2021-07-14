@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/SignalCellularConnectedNoInternet4Bar
+
+sprite $SignalCellularConnectedNoInternet4BarXs [10x10/16z] uwS3
+
+sprite $SignalCellularConnectedNoInternet4BarSm [12x12/16z] unza
+
+sprite $SignalCellularConnectedNoInternet4BarMd [16x16/16z] un_X
+
+sprite $SignalCellularConnectedNoInternet4BarLg [20x20/16z] unzKO1G
+
+!procedure SignalCellularConnectedNoInternet4Bar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/SignalCellularConnectedNoInternet4Bar', $name, $tech)
+!endprocedure

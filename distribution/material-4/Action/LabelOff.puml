@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LabelOff
+
+sprite $LabelOffXs [10x10/16z] uwS3
+
+sprite $LabelOffSm [12x12/16z] unza
+
+sprite $LabelOffMd [16x16/16z] un_X
+
+sprite $LabelOffLg [20x20/16z] unzKO1G
+
+!procedure LabelOff($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelOff', $name, $tech)
+!endprocedure

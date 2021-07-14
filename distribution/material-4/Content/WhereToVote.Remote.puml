@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element WhereToVote
+include('material-4/Content/WhereToVote')
+
+' renders the element
+WhereToVote('WhereToVote', 'Where To Vote', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/DoNotTouch
+
+sprite $DoNotTouchXs [10x10/16z] uwS3
+
+sprite $DoNotTouchSm [12x12/16z] unza
+
+sprite $DoNotTouchMd [16x16/16z] un_X
+
+sprite $DoNotTouchLg [20x20/16z] unzKO1G
+
+!procedure DoNotTouch($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/DoNotTouch', $name, $tech)
+!endprocedure

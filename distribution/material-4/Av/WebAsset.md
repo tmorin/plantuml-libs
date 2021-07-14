@@ -1,0 +1,63 @@
+# WebAsset
+
+
+```text
+material-4/Av/WebAsset
+```
+
+```text
+include('material-4/Av/WebAsset')
+```
+
+
+
+| Illustration | WebAsset |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Av/WebAsset.png) | ![illustration for WebAsset](../../material-4/Av/WebAsset.Local.png) |
+
+
+
+
+## WebAsset
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element WebAsset
+include('material-4/Av/WebAsset')
+
+' renders the element
+WebAsset('WebAsset', 'Web Asset', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element WebAsset
+include('material-4/Av/WebAsset')
+
+' renders the element
+WebAsset('WebAsset', 'Web Asset', 'an optional tech label')
+@enduml
+```
+

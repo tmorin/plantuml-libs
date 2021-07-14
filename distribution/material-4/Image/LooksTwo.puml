@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/LooksTwo
+
+sprite $LooksTwoXs [10x10/16z] uwS3
+
+sprite $LooksTwoSm [12x12/16z] unza
+
+sprite $LooksTwoMd [16x16/16z] un_X
+
+sprite $LooksTwoLg [20x20/16z] unzKO1G
+
+!procedure LooksTwo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/LooksTwo', $name, $tech)
+!endprocedure

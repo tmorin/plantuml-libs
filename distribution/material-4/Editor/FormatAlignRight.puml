@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/FormatAlignRight
+
+sprite $FormatAlignRightXs [10x10/16z] uwS3
+
+sprite $FormatAlignRightSm [12x12/16z] unza
+
+sprite $FormatAlignRightMd [16x16/16z] un_X
+
+sprite $FormatAlignRightLg [20x20/16z] unzKO1G
+
+!procedure FormatAlignRight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/FormatAlignRight', $name, $tech)
+!endprocedure

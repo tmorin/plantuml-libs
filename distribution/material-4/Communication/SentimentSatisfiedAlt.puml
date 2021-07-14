@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/SentimentSatisfiedAlt
+
+sprite $SentimentSatisfiedAltXs [10x10/16z] uwS3
+
+sprite $SentimentSatisfiedAltSm [12x12/16z] unza
+
+sprite $SentimentSatisfiedAltMd [16x16/16z] un_X
+
+sprite $SentimentSatisfiedAltLg [20x20/16z] unzKO1G
+
+!procedure SentimentSatisfiedAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/SentimentSatisfiedAlt', $name, $tech)
+!endprocedure

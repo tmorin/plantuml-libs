@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Hd
+
+sprite $HdXs [10x10/16z] uwS3
+
+sprite $HdSm [12x12/16z] unza
+
+sprite $HdMd [16x16/16z] un_X
+
+sprite $HdLg [20x20/16z] unzKO1G
+
+!procedure Hd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Hd', $name, $tech)
+!endprocedure

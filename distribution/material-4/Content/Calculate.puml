@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Calculate
+
+sprite $CalculateXs [10x10/16z] uwS3
+
+sprite $CalculateSm [12x12/16z] unza
+
+sprite $CalculateMd [16x16/16z] un_X
+
+sprite $CalculateLg [20x20/16z] unzKO1G
+
+!procedure Calculate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/Calculate', $name, $tech)
+!endprocedure

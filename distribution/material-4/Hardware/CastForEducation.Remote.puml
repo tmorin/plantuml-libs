@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element CastForEducation
+include('material-4/Hardware/CastForEducation')
+
+' renders the element
+CastForEducation('CastForEducation', 'Cast For Education', 'an optional tech label')
+@enduml

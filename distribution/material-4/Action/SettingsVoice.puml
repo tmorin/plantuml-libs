@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SettingsVoice
+
+sprite $SettingsVoiceXs [10x10/16z] uwS3
+
+sprite $SettingsVoiceSm [12x12/16z] unza
+
+sprite $SettingsVoiceMd [16x16/16z] un_X
+
+sprite $SettingsVoiceLg [20x20/16z] unzKO1G
+
+!procedure SettingsVoice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsVoice', $name, $tech)
+!endprocedure

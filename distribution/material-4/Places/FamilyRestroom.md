@@ -1,0 +1,63 @@
+# FamilyRestroom
+
+
+```text
+material-4/Places/FamilyRestroom
+```
+
+```text
+include('material-4/Places/FamilyRestroom')
+```
+
+
+
+| Illustration | FamilyRestroom |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Places/FamilyRestroom.png) | ![illustration for FamilyRestroom](../../material-4/Places/FamilyRestroom.Local.png) |
+
+
+
+
+## FamilyRestroom
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element FamilyRestroom
+include('material-4/Places/FamilyRestroom')
+
+' renders the element
+FamilyRestroom('FamilyRestroom', 'Family Restroom', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element FamilyRestroom
+include('material-4/Places/FamilyRestroom')
+
+' renders the element
+FamilyRestroom('FamilyRestroom', 'Family Restroom', 'an optional tech label')
+@enduml
+```
+

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element _6FtApart
+include('material-4/Social/_6FtApart')
+
+' renders the element
+_6FtApart('6ftApart', '6ft Apart', 'an optional tech label')
+@enduml

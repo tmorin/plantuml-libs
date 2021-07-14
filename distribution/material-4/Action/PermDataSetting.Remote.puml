@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element PermDataSetting
+include('material-4/Action/PermDataSetting')
+
+' renders the element
+PermDataSetting('PermDataSetting', 'Perm Data Setting', 'an optional tech label')
+@enduml

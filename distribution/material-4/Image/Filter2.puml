@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Filter2
+
+sprite $Filter2Xs [10x10/16z] uwS3
+
+sprite $Filter2Sm [12x12/16z] unza
+
+sprite $Filter2Md [16x16/16z] un_X
+
+sprite $Filter2Lg [20x20/16z] unzKO1G
+
+!procedure Filter2($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Filter2', $name, $tech)
+!endprocedure

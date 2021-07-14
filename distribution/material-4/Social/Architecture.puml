@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/Architecture
+
+sprite $ArchitectureXs [10x10/16z] uwS3
+
+sprite $ArchitectureSm [12x12/16z] unza
+
+sprite $ArchitectureMd [16x16/16z] un_X
+
+sprite $ArchitectureLg [20x20/16z] unzKO1G
+
+!procedure Architecture($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/Architecture', $name, $tech)
+!endprocedure

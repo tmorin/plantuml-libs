@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/NoStroller
+
+sprite $NoStrollerXs [10x10/16z] uwS3
+
+sprite $NoStrollerSm [12x12/16z] unza
+
+sprite $NoStrollerMd [16x16/16z] un_X
+
+sprite $NoStrollerLg [20x20/16z] unzKO1G
+
+!procedure NoStroller($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/NoStroller', $name, $tech)
+!endprocedure

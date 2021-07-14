@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FlipToFront
+
+sprite $FlipToFrontXs [10x10/16z] uwS3
+
+sprite $FlipToFrontSm [12x12/16z] unza
+
+sprite $FlipToFrontMd [16x16/16z] un_X
+
+sprite $FlipToFrontLg [20x20/16z] unzKO1G
+
+!procedure FlipToFront($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/FlipToFront', $name, $tech)
+!endprocedure

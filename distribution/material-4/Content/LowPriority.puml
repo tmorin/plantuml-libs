@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/LowPriority
+
+sprite $LowPriorityXs [10x10/16z] uwS3
+
+sprite $LowPrioritySm [12x12/16z] unza
+
+sprite $LowPriorityMd [16x16/16z] un_X
+
+sprite $LowPriorityLg [20x20/16z] unzKO1G
+
+!procedure LowPriority($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/LowPriority', $name, $tech)
+!endprocedure

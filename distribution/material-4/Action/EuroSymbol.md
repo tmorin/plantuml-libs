@@ -1,0 +1,63 @@
+# EuroSymbol
+
+
+```text
+material-4/Action/EuroSymbol
+```
+
+```text
+include('material-4/Action/EuroSymbol')
+```
+
+
+
+| Illustration | EuroSymbol |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Action/EuroSymbol.png) | ![illustration for EuroSymbol](../../material-4/Action/EuroSymbol.Local.png) |
+
+
+
+
+## EuroSymbol
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element EuroSymbol
+include('material-4/Action/EuroSymbol')
+
+' renders the element
+EuroSymbol('EuroSymbol', 'Euro Symbol', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element EuroSymbol
+include('material-4/Action/EuroSymbol')
+
+' renders the element
+EuroSymbol('EuroSymbol', 'Euro Symbol', 'an optional tech label')
+@enduml
+```
+

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/DataUsage
+
+sprite $DataUsageXs [10x10/16z] uwS3
+
+sprite $DataUsageSm [12x12/16z] unza
+
+sprite $DataUsageMd [16x16/16z] un_X
+
+sprite $DataUsageLg [20x20/16z] unzKO1G
+
+!procedure DataUsage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/DataUsage', $name, $tech)
+!endprocedure

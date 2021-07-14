@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element MotionPhotosPause
+include('material-4/Image/MotionPhotosPause')
+
+' renders the element
+MotionPhotosPause('MotionPhotosPause', 'Motion Photos Pause', 'an optional tech label')
+@enduml

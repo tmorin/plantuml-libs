@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalAirport
+
+sprite $LocalAirportXs [10x10/16z] uwS3
+
+sprite $LocalAirportSm [12x12/16z] unza
+
+sprite $LocalAirportMd [16x16/16z] un_X
+
+sprite $LocalAirportLg [20x20/16z] unzKO1G
+
+!procedure LocalAirport($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalAirport', $name, $tech)
+!endprocedure

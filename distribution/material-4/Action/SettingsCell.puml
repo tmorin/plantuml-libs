@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SettingsCell
+
+sprite $SettingsCellXs [10x10/16z] uwS3
+
+sprite $SettingsCellSm [12x12/16z] unza
+
+sprite $SettingsCellMd [16x16/16z] un_X
+
+sprite $SettingsCellLg [20x20/16z] unzKO1G
+
+!procedure SettingsCell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsCell', $name, $tech)
+!endprocedure

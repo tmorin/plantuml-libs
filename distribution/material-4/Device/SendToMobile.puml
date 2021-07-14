@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/SendToMobile
+
+sprite $SendToMobileXs [10x10/16z] uwS3
+
+sprite $SendToMobileSm [12x12/16z] unza
+
+sprite $SendToMobileMd [16x16/16z] un_X
+
+sprite $SendToMobileLg [20x20/16z] unzKO1G
+
+!procedure SendToMobile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/SendToMobile', $name, $tech)
+!endprocedure

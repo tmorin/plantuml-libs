@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/PersonAddAlt
+
+sprite $PersonAddAltXs [10x10/16z] uwS3
+
+sprite $PersonAddAltSm [12x12/16z] unza
+
+sprite $PersonAddAltMd [16x16/16z] un_X
+
+sprite $PersonAddAltLg [20x20/16z] unzKO1G
+
+!procedure PersonAddAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/PersonAddAlt', $name, $tech)
+!endprocedure

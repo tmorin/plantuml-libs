@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Pets
+
+sprite $PetsXs [10x10/16z] uwS3
+
+sprite $PetsSm [12x12/16z] unza
+
+sprite $PetsMd [16x16/16z] un_X
+
+sprite $PetsLg [20x20/16z] unzKO1G
+
+!procedure Pets($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Pets', $name, $tech)
+!endprocedure

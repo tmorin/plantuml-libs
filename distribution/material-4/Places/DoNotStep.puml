@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/DoNotStep
+
+sprite $DoNotStepXs [10x10/16z] uwS3
+
+sprite $DoNotStepSm [12x12/16z] unza
+
+sprite $DoNotStepMd [16x16/16z] un_X
+
+sprite $DoNotStepLg [20x20/16z] unzKO1G
+
+!procedure DoNotStep($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/DoNotStep', $name, $tech)
+!endprocedure

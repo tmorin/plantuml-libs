@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/RestoreFromTrash
+
+sprite $RestoreFromTrashXs [10x10/16z] uwS3
+
+sprite $RestoreFromTrashSm [12x12/16z] unza
+
+sprite $RestoreFromTrashMd [16x16/16z] un_X
+
+sprite $RestoreFromTrashLg [20x20/16z] unzKO1G
+
+!procedure RestoreFromTrash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/RestoreFromTrash', $name, $tech)
+!endprocedure

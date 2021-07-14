@@ -1,0 +1,63 @@
+# Keyboard
+
+
+```text
+material-4/Hardware/Keyboard
+```
+
+```text
+include('material-4/Hardware/Keyboard')
+```
+
+
+
+| Illustration | Keyboard |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Hardware/Keyboard.png) | ![illustration for Keyboard](../../material-4/Hardware/Keyboard.Local.png) |
+
+
+
+
+## Keyboard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Keyboard
+include('material-4/Hardware/Keyboard')
+
+' renders the element
+Keyboard('Keyboard', 'Keyboard', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Keyboard
+include('material-4/Hardware/Keyboard')
+
+' renders the element
+Keyboard('Keyboard', 'Keyboard', 'an optional tech label')
+@enduml
+```
+

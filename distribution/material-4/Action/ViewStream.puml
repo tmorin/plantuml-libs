@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ViewStream
+
+sprite $ViewStreamXs [10x10/16z] uwS3
+
+sprite $ViewStreamSm [12x12/16z] unza
+
+sprite $ViewStreamMd [16x16/16z] un_X
+
+sprite $ViewStreamLg [20x20/16z] unzKO1G
+
+!procedure ViewStream($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewStream', $name, $tech)
+!endprocedure

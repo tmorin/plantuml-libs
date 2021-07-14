@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/KeyboardArrowUp
+
+sprite $KeyboardArrowUpXs [10x10/16z] uwS3
+
+sprite $KeyboardArrowUpSm [12x12/16z] unza
+
+sprite $KeyboardArrowUpMd [16x16/16z] un_X
+
+sprite $KeyboardArrowUpLg [20x20/16z] unzKO1G
+
+!procedure KeyboardArrowUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/KeyboardArrowUp', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/SquareFoot
+
+sprite $SquareFootXs [10x10/16z] uwS3
+
+sprite $SquareFootSm [12x12/16z] unza
+
+sprite $SquareFootMd [16x16/16z] un_X
+
+sprite $SquareFootLg [20x20/16z] unzKO1G
+
+!procedure SquareFoot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/SquareFoot', $name, $tech)
+!endprocedure

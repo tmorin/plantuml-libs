@@ -1,0 +1,63 @@
+# ThumbUpOffAlt
+
+
+```text
+material-4/Action/ThumbUpOffAlt
+```
+
+```text
+include('material-4/Action/ThumbUpOffAlt')
+```
+
+
+
+| Illustration | ThumbUpOffAlt |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Action/ThumbUpOffAlt.png) | ![illustration for ThumbUpOffAlt](../../material-4/Action/ThumbUpOffAlt.Local.png) |
+
+
+
+
+## ThumbUpOffAlt
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ThumbUpOffAlt
+include('material-4/Action/ThumbUpOffAlt')
+
+' renders the element
+ThumbUpOffAlt('ThumbUpOffAlt', 'Thumb Up Off Alt', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ThumbUpOffAlt
+include('material-4/Action/ThumbUpOffAlt')
+
+' renders the element
+ThumbUpOffAlt('ThumbUpOffAlt', 'Thumb Up Off Alt', 'an optional tech label')
+@enduml
+```
+

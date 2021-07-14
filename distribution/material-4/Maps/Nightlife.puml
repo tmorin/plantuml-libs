@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/Nightlife
+
+sprite $NightlifeXs [10x10/16z] uwS3
+
+sprite $NightlifeSm [12x12/16z] unza
+
+sprite $NightlifeMd [16x16/16z] un_X
+
+sprite $NightlifeLg [20x20/16z] unzKO1G
+
+!procedure Nightlife($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Nightlife', $name, $tech)
+!endprocedure

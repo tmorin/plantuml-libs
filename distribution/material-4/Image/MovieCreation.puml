@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/MovieCreation
+
+sprite $MovieCreationXs [10x10/16z] uwS3
+
+sprite $MovieCreationSm [12x12/16z] unza
+
+sprite $MovieCreationMd [16x16/16z] un_X
+
+sprite $MovieCreationLg [20x20/16z] unzKO1G
+
+!procedure MovieCreation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/MovieCreation', $name, $tech)
+!endprocedure

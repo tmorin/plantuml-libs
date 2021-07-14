@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AlarmOn
+
+sprite $AlarmOnXs [10x10/16z] uwS3
+
+sprite $AlarmOnSm [12x12/16z] unza
+
+sprite $AlarmOnMd [16x16/16z] un_X
+
+sprite $AlarmOnLg [20x20/16z] unzKO1G
+
+!procedure AlarmOn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/AlarmOn', $name, $tech)
+!endprocedure

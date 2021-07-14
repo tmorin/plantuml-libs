@@ -1,0 +1,13 @@
+' definition of the Item material-4/Notification/TapAndPlay
+
+sprite $TapAndPlayXs [10x10/16z] uwS3
+
+sprite $TapAndPlaySm [12x12/16z] unza
+
+sprite $TapAndPlayMd [16x16/16z] un_X
+
+sprite $TapAndPlayLg [20x20/16z] unzKO1G
+
+!procedure TapAndPlay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Notification/TapAndPlay', $name, $tech)
+!endprocedure

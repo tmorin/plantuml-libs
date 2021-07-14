@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/ContentPaste
+
+sprite $ContentPasteXs [10x10/16z] uwS3
+
+sprite $ContentPasteSm [12x12/16z] unza
+
+sprite $ContentPasteMd [16x16/16z] un_X
+
+sprite $ContentPasteLg [20x20/16z] unzKO1G
+
+!procedure ContentPaste($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/ContentPaste', $name, $tech)
+!endprocedure

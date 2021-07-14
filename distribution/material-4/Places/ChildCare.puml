@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/ChildCare
+
+sprite $ChildCareXs [10x10/16z] uwS3
+
+sprite $ChildCareSm [12x12/16z] unza
+
+sprite $ChildCareMd [16x16/16z] un_X
+
+sprite $ChildCareLg [20x20/16z] unzKO1G
+
+!procedure ChildCare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/ChildCare', $name, $tech)
+!endprocedure

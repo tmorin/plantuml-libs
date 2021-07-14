@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ControlPointDuplicate
+include('material-4/Image/ControlPointDuplicate')
+
+' renders the element
+ControlPointDuplicate('ControlPointDuplicate', 'Control Point Duplicate', 'an optional tech label')
+@enduml

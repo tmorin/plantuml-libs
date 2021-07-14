@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Pending
+
+sprite $PendingXs [10x10/16z] uwS3
+
+sprite $PendingSm [12x12/16z] unza
+
+sprite $PendingMd [16x16/16z] un_X
+
+sprite $PendingLg [20x20/16z] unzKO1G
+
+!procedure Pending($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Pending', $name, $tech)
+!endprocedure

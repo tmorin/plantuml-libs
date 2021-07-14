@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Unarchive
+
+sprite $UnarchiveXs [10x10/16z] uwS3
+
+sprite $UnarchiveSm [12x12/16z] unza
+
+sprite $UnarchiveMd [16x16/16z] un_X
+
+sprite $UnarchiveLg [20x20/16z] unzKO1G
+
+!procedure Unarchive($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/Unarchive', $name, $tech)
+!endprocedure

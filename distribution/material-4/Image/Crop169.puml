@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Crop169
+
+sprite $Crop169Xs [10x10/16z] uwS3
+
+sprite $Crop169Sm [12x12/16z] unza
+
+sprite $Crop169Md [16x16/16z] un_X
+
+sprite $Crop169Lg [20x20/16z] unzKO1G
+
+!procedure Crop169($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Crop169', $name, $tech)
+!endprocedure

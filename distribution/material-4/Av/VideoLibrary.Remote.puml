@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element VideoLibrary
+include('material-4/Av/VideoLibrary')
+
+' renders the element
+VideoLibrary('VideoLibrary', 'Video Library', 'an optional tech label')
+@enduml

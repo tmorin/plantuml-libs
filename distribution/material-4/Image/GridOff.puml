@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/GridOff
+
+sprite $GridOffXs [10x10/16z] uwS3
+
+sprite $GridOffSm [12x12/16z] unza
+
+sprite $GridOffMd [16x16/16z] un_X
+
+sprite $GridOffLg [20x20/16z] unzKO1G
+
+!procedure GridOff($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/GridOff', $name, $tech)
+!endprocedure

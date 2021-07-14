@@ -1,0 +1,63 @@
+# Equalizer
+
+
+```text
+material-4/Av/Equalizer
+```
+
+```text
+include('material-4/Av/Equalizer')
+```
+
+
+
+| Illustration | Equalizer |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Av/Equalizer.png) | ![illustration for Equalizer](../../material-4/Av/Equalizer.Local.png) |
+
+
+
+
+## Equalizer
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Equalizer
+include('material-4/Av/Equalizer')
+
+' renders the element
+Equalizer('Equalizer', 'Equalizer', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Equalizer
+include('material-4/Av/Equalizer')
+
+' renders the element
+Equalizer('Equalizer', 'Equalizer', 'an optional tech label')
+@enduml
+```
+

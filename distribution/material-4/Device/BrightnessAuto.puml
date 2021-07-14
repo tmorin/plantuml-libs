@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/BrightnessAuto
+
+sprite $BrightnessAutoXs [10x10/16z] uwS3
+
+sprite $BrightnessAutoSm [12x12/16z] unza
+
+sprite $BrightnessAutoMd [16x16/16z] un_X
+
+sprite $BrightnessAutoLg [20x20/16z] unzKO1G
+
+!procedure BrightnessAuto($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/BrightnessAuto', $name, $tech)
+!endprocedure

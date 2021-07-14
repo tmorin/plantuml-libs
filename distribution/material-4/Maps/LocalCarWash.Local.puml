@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element LocalCarWash
+include('material-4/Maps/LocalCarWash')
+
+' renders the element
+LocalCarWash('LocalCarWash', 'Local Car Wash', 'an optional tech label')
+@enduml

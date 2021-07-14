@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element CloudUpload
+include('material-4/File/CloudUpload')
+
+' renders the element
+CloudUpload('CloudUpload', 'Cloud Upload', 'an optional tech label')
+@enduml

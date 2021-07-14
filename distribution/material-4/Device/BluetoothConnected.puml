@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/BluetoothConnected
+
+sprite $BluetoothConnectedXs [10x10/16z] uwS3
+
+sprite $BluetoothConnectedSm [12x12/16z] unza
+
+sprite $BluetoothConnectedMd [16x16/16z] un_X
+
+sprite $BluetoothConnectedLg [20x20/16z] unzKO1G
+
+!procedure BluetoothConnected($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/BluetoothConnected', $name, $tech)
+!endprocedure

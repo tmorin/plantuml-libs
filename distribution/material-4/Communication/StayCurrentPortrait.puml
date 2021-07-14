@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/StayCurrentPortrait
+
+sprite $StayCurrentPortraitXs [10x10/16z] uwS3
+
+sprite $StayCurrentPortraitSm [12x12/16z] unza
+
+sprite $StayCurrentPortraitMd [16x16/16z] un_X
+
+sprite $StayCurrentPortraitLg [20x20/16z] unzKO1G
+
+!procedure StayCurrentPortrait($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/StayCurrentPortrait', $name, $tech)
+!endprocedure

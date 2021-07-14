@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/IntegrationInstructions
+
+sprite $IntegrationInstructionsXs [10x10/16z] uwS3
+
+sprite $IntegrationInstructionsSm [12x12/16z] unza
+
+sprite $IntegrationInstructionsMd [16x16/16z] un_X
+
+sprite $IntegrationInstructionsLg [20x20/16z] unzKO1G
+
+!procedure IntegrationInstructions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/IntegrationInstructions', $name, $tech)
+!endprocedure

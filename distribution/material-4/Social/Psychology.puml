@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/Psychology
+
+sprite $PsychologyXs [10x10/16z] uwS3
+
+sprite $PsychologySm [12x12/16z] unza
+
+sprite $PsychologyMd [16x16/16z] un_X
+
+sprite $PsychologyLg [20x20/16z] unzKO1G
+
+!procedure Psychology($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/Psychology', $name, $tech)
+!endprocedure

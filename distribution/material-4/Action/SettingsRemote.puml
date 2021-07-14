@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SettingsRemote
+
+sprite $SettingsRemoteXs [10x10/16z] uwS3
+
+sprite $SettingsRemoteSm [12x12/16z] unza
+
+sprite $SettingsRemoteMd [16x16/16z] un_X
+
+sprite $SettingsRemoteLg [20x20/16z] unzKO1G
+
+!procedure SettingsRemote($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsRemote', $name, $tech)
+!endprocedure

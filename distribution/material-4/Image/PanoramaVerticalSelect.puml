@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/PanoramaVerticalSelect
+
+sprite $PanoramaVerticalSelectXs [10x10/16z] uwS3
+
+sprite $PanoramaVerticalSelectSm [12x12/16z] unza
+
+sprite $PanoramaVerticalSelectMd [16x16/16z] un_X
+
+sprite $PanoramaVerticalSelectLg [20x20/16z] unzKO1G
+
+!procedure PanoramaVerticalSelect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaVerticalSelect', $name, $tech)
+!endprocedure

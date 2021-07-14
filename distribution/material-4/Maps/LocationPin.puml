@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocationPin
+
+sprite $LocationPinXs [10x10/16z] uwS3
+
+sprite $LocationPinSm [12x12/16z] unza
+
+sprite $LocationPinMd [16x16/16z] un_X
+
+sprite $LocationPinLg [20x20/16z] unzKO1G
+
+!procedure LocationPin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocationPin', $name, $tech)
+!endprocedure

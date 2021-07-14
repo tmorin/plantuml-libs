@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/AutoStories
+
+sprite $AutoStoriesXs [10x10/16z] uwS3
+
+sprite $AutoStoriesSm [12x12/16z] unza
+
+sprite $AutoStoriesMd [16x16/16z] un_X
+
+sprite $AutoStoriesLg [20x20/16z] unzKO1G
+
+!procedure AutoStories($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/AutoStories', $name, $tech)
+!endprocedure

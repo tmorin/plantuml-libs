@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/Memory
+
+sprite $MemoryXs [10x10/16z] uwS3
+
+sprite $MemorySm [12x12/16z] unza
+
+sprite $MemoryMd [16x16/16z] un_X
+
+sprite $MemoryLg [20x20/16z] unzKO1G
+
+!procedure Memory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Memory', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/CancelScheduleSend
+
+sprite $CancelScheduleSendXs [10x10/16z] uwS3
+
+sprite $CancelScheduleSendSm [12x12/16z] unza
+
+sprite $CancelScheduleSendMd [16x16/16z] un_X
+
+sprite $CancelScheduleSendLg [20x20/16z] unzKO1G
+
+!procedure CancelScheduleSend($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/CancelScheduleSend', $name, $tech)
+!endprocedure

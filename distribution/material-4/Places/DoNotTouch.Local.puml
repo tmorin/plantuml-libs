@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element DoNotTouch
+include('material-4/Places/DoNotTouch')
+
+' renders the element
+DoNotTouch('DoNotTouch', 'Do Not Touch', 'an optional tech label')
+@enduml

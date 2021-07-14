@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/Casino
+
+sprite $CasinoXs [10x10/16z] uwS3
+
+sprite $CasinoSm [12x12/16z] unza
+
+sprite $CasinoMd [16x16/16z] un_X
+
+sprite $CasinoLg [20x20/16z] unzKO1G
+
+!procedure Casino($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/Casino', $name, $tech)
+!endprocedure

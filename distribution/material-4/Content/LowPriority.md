@@ -1,0 +1,63 @@
+# LowPriority
+
+
+```text
+material-4/Content/LowPriority
+```
+
+```text
+include('material-4/Content/LowPriority')
+```
+
+
+
+| Illustration | LowPriority |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Content/LowPriority.png) | ![illustration for LowPriority](../../material-4/Content/LowPriority.Local.png) |
+
+
+
+
+## LowPriority
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element LowPriority
+include('material-4/Content/LowPriority')
+
+' renders the element
+LowPriority('LowPriority', 'Low Priority', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element LowPriority
+include('material-4/Content/LowPriority')
+
+' renders the element
+LowPriority('LowPriority', 'Low Priority', 'an optional tech label')
+@enduml
+```
+

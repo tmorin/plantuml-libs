@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Help
+
+sprite $HelpXs [10x10/16z] uwS3
+
+sprite $HelpSm [12x12/16z] unza
+
+sprite $HelpMd [16x16/16z] un_X
+
+sprite $HelpLg [20x20/16z] unzKO1G
+
+!procedure Help($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Help', $name, $tech)
+!endprocedure

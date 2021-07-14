@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/_6Mp
+
+sprite $_6MpXs [10x10/16z] uwS3
+
+sprite $_6MpSm [12x12/16z] unza
+
+sprite $_6MpMd [16x16/16z] un_X
+
+sprite $_6MpLg [20x20/16z] unzKO1G
+
+!procedure _6Mp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/_6Mp', $name, $tech)
+!endprocedure

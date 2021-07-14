@@ -1,0 +1,63 @@
+# ReceiptLong
+
+
+```text
+material-4/Image/ReceiptLong
+```
+
+```text
+include('material-4/Image/ReceiptLong')
+```
+
+
+
+| Illustration | ReceiptLong |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Image/ReceiptLong.png) | ![illustration for ReceiptLong](../../material-4/Image/ReceiptLong.Local.png) |
+
+
+
+
+## ReceiptLong
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ReceiptLong
+include('material-4/Image/ReceiptLong')
+
+' renders the element
+ReceiptLong('ReceiptLong', 'Receipt Long', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ReceiptLong
+include('material-4/Image/ReceiptLong')
+
+' renders the element
+ReceiptLong('ReceiptLong', 'Receipt Long', 'an optional tech label')
+@enduml
+```
+

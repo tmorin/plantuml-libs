@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Loyalty
+
+sprite $LoyaltyXs [10x10/16z] uwS3
+
+sprite $LoyaltySm [12x12/16z] unza
+
+sprite $LoyaltyMd [16x16/16z] un_X
+
+sprite $LoyaltyLg [20x20/16z] unzKO1G
+
+!procedure Loyalty($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Loyalty', $name, $tech)
+!endprocedure

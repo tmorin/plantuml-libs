@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/ThumbDownAlt
+
+sprite $ThumbDownAltXs [10x10/16z] uwS3
+
+sprite $ThumbDownAltSm [12x12/16z] unza
+
+sprite $ThumbDownAltMd [16x16/16z] un_X
+
+sprite $ThumbDownAltLg [20x20/16z] unzKO1G
+
+!procedure ThumbDownAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/ThumbDownAlt', $name, $tech)
+!endprocedure

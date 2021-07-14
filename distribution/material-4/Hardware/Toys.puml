@@ -1,0 +1,13 @@
+' definition of the Item material-4/Hardware/Toys
+
+sprite $ToysXs [10x10/16z] uwS3
+
+sprite $ToysSm [12x12/16z] unza
+
+sprite $ToysMd [16x16/16z] un_X
+
+sprite $ToysLg [20x20/16z] unzKO1G
+
+!procedure Toys($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Hardware/Toys', $name, $tech)
+!endprocedure

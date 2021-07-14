@@ -1,0 +1,63 @@
+# TurnedIn
+
+
+```text
+material-4/Action/TurnedIn
+```
+
+```text
+include('material-4/Action/TurnedIn')
+```
+
+
+
+| Illustration | TurnedIn |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Action/TurnedIn.png) | ![illustration for TurnedIn](../../material-4/Action/TurnedIn.Local.png) |
+
+
+
+
+## TurnedIn
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element TurnedIn
+include('material-4/Action/TurnedIn')
+
+' renders the element
+TurnedIn('TurnedIn', 'Turned In', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element TurnedIn
+include('material-4/Action/TurnedIn')
+
+' renders the element
+TurnedIn('TurnedIn', 'Turned In', 'an optional tech label')
+@enduml
+```
+

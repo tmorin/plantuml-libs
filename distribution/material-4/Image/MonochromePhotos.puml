@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/MonochromePhotos
+
+sprite $MonochromePhotosXs [10x10/16z] uwS3
+
+sprite $MonochromePhotosSm [12x12/16z] unza
+
+sprite $MonochromePhotosMd [16x16/16z] un_X
+
+sprite $MonochromePhotosLg [20x20/16z] unzKO1G
+
+!procedure MonochromePhotos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/MonochromePhotos', $name, $tech)
+!endprocedure

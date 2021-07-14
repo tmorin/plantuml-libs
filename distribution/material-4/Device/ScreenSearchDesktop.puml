@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/ScreenSearchDesktop
+
+sprite $ScreenSearchDesktopXs [10x10/16z] uwS3
+
+sprite $ScreenSearchDesktopSm [12x12/16z] unza
+
+sprite $ScreenSearchDesktopMd [16x16/16z] un_X
+
+sprite $ScreenSearchDesktopLg [20x20/16z] unzKO1G
+
+!procedure ScreenSearchDesktop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/ScreenSearchDesktop', $name, $tech)
+!endprocedure

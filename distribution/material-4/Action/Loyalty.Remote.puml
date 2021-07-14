@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Loyalty
+include('material-4/Action/Loyalty')
+
+' renders the element
+Loyalty('Loyalty', 'Loyalty', 'an optional tech label')
+@enduml

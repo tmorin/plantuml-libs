@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Commute
+
+sprite $CommuteXs [10x10/16z] uwS3
+
+sprite $CommuteSm [12x12/16z] unza
+
+sprite $CommuteMd [16x16/16z] un_X
+
+sprite $CommuteLg [20x20/16z] unzKO1G
+
+!procedure Commute($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Commute', $name, $tech)
+!endprocedure

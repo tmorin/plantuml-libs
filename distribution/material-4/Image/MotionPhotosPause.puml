@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/MotionPhotosPause
+
+sprite $MotionPhotosPauseXs [10x10/16z] uwS3
+
+sprite $MotionPhotosPauseSm [12x12/16z] unza
+
+sprite $MotionPhotosPauseMd [16x16/16z] un_X
+
+sprite $MotionPhotosPauseLg [20x20/16z] unzKO1G
+
+!procedure MotionPhotosPause($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/MotionPhotosPause', $name, $tech)
+!endprocedure

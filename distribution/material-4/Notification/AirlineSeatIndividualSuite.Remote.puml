@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element AirlineSeatIndividualSuite
+include('material-4/Notification/AirlineSeatIndividualSuite')
+
+' renders the element
+AirlineSeatIndividualSuite('AirlineSeatIndividualSuite', 'Airline Seat Individual Suite', 'an optional tech label')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element GroupAdd
+include('material-4/Social/GroupAdd')
+
+' renders the element
+GroupAdd('GroupAdd', 'Group Add', 'an optional tech label')
+@enduml

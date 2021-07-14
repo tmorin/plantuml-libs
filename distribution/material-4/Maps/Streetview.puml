@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/Streetview
+
+sprite $StreetviewXs [10x10/16z] uwS3
+
+sprite $StreetviewSm [12x12/16z] unza
+
+sprite $StreetviewMd [16x16/16z] un_X
+
+sprite $StreetviewLg [20x20/16z] unzKO1G
+
+!procedure Streetview($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Streetview', $name, $tech)
+!endprocedure

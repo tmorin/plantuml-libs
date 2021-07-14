@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Verified
+
+sprite $VerifiedXs [10x10/16z] uwS3
+
+sprite $VerifiedSm [12x12/16z] unza
+
+sprite $VerifiedMd [16x16/16z] un_X
+
+sprite $VerifiedLg [20x20/16z] unzKO1G
+
+!procedure Verified($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Verified', $name, $tech)
+!endprocedure

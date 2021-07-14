@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SystemUpdateAlt
+
+sprite $SystemUpdateAltXs [10x10/16z] uwS3
+
+sprite $SystemUpdateAltSm [12x12/16z] unza
+
+sprite $SystemUpdateAltMd [16x16/16z] un_X
+
+sprite $SystemUpdateAltLg [20x20/16z] unzKO1G
+
+!procedure SystemUpdateAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/SystemUpdateAlt', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/NorthEast
+
+sprite $NorthEastXs [10x10/16z] uwS3
+
+sprite $NorthEastSm [12x12/16z] unza
+
+sprite $NorthEastMd [16x16/16z] un_X
+
+sprite $NorthEastLg [20x20/16z] unzKO1G
+
+!procedure NorthEast($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/NorthEast', $name, $tech)
+!endprocedure

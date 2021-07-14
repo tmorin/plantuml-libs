@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/EditAttributes
+
+sprite $EditAttributesXs [10x10/16z] uwS3
+
+sprite $EditAttributesSm [12x12/16z] unza
+
+sprite $EditAttributesMd [16x16/16z] un_X
+
+sprite $EditAttributesLg [20x20/16z] unzKO1G
+
+!procedure EditAttributes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/EditAttributes', $name, $tech)
+!endprocedure

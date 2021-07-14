@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Forward10
+
+sprite $Forward10Xs [10x10/16z] uwS3
+
+sprite $Forward10Sm [12x12/16z] unza
+
+sprite $Forward10Md [16x16/16z] un_X
+
+sprite $Forward10Lg [20x20/16z] unzKO1G
+
+!procedure Forward10($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Forward10', $name, $tech)
+!endprocedure

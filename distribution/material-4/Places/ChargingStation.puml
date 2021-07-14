@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/ChargingStation
+
+sprite $ChargingStationXs [10x10/16z] uwS3
+
+sprite $ChargingStationSm [12x12/16z] unza
+
+sprite $ChargingStationMd [16x16/16z] un_X
+
+sprite $ChargingStationLg [20x20/16z] unzKO1G
+
+!procedure ChargingStation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/ChargingStation', $name, $tech)
+!endprocedure

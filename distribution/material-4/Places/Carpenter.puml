@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/Carpenter
+
+sprite $CarpenterXs [10x10/16z] uwS3
+
+sprite $CarpenterSm [12x12/16z] unza
+
+sprite $CarpenterMd [16x16/16z] un_X
+
+sprite $CarpenterLg [20x20/16z] unzKO1G
+
+!procedure Carpenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/Carpenter', $name, $tech)
+!endprocedure

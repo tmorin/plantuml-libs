@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Fastfood
+include('material-4/Maps/Fastfood')
+
+' renders the element
+Fastfood('Fastfood', 'Fastfood', 'an optional tech label')
+@enduml

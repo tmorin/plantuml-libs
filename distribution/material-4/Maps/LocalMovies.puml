@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalMovies
+
+sprite $LocalMoviesXs [10x10/16z] uwS3
+
+sprite $LocalMoviesSm [12x12/16z] unza
+
+sprite $LocalMoviesMd [16x16/16z] un_X
+
+sprite $LocalMoviesLg [20x20/16z] unzKO1G
+
+!procedure LocalMovies($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalMovies', $name, $tech)
+!endprocedure

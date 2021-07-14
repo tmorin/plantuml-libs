@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element PermDeviceInformation
+include('material-4/Action/PermDeviceInformation')
+
+' renders the element
+PermDeviceInformation('PermDeviceInformation', 'Perm Device Information', 'an optional tech label')
+@enduml

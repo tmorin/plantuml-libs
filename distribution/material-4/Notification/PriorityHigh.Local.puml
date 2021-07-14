@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element PriorityHigh
+include('material-4/Notification/PriorityHigh')
+
+' renders the element
+PriorityHigh('PriorityHigh', 'Priority High', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/Height
+
+sprite $HeightXs [10x10/16z] uwS3
+
+sprite $HeightSm [12x12/16z] unza
+
+sprite $HeightMd [16x16/16z] un_X
+
+sprite $HeightLg [20x20/16z] unzKO1G
+
+!procedure Height($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/Height', $name, $tech)
+!endprocedure

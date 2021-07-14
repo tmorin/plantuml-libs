@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element BorderInner
+include('material-4/Editor/BorderInner')
+
+' renders the element
+BorderInner('BorderInner', 'Border Inner', 'an optional tech label')
+@enduml

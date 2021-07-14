@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/AssignmentReturn
+
+sprite $AssignmentReturnXs [10x10/16z] uwS3
+
+sprite $AssignmentReturnSm [12x12/16z] unza
+
+sprite $AssignmentReturnMd [16x16/16z] un_X
+
+sprite $AssignmentReturnLg [20x20/16z] unzKO1G
+
+!procedure AssignmentReturn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/AssignmentReturn', $name, $tech)
+!endprocedure

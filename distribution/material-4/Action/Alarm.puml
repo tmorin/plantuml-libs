@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Alarm
+
+sprite $AlarmXs [10x10/16z] uwS3
+
+sprite $AlarmSm [12x12/16z] unza
+
+sprite $AlarmMd [16x16/16z] un_X
+
+sprite $AlarmLg [20x20/16z] unzKO1G
+
+!procedure Alarm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Alarm', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Device/NetworkWifi
+
+sprite $NetworkWifiXs [10x10/16z] uwS3
+
+sprite $NetworkWifiSm [12x12/16z] unza
+
+sprite $NetworkWifiMd [16x16/16z] un_X
+
+sprite $NetworkWifiLg [20x20/16z] unzKO1G
+
+!procedure NetworkWifi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Device/NetworkWifi', $name, $tech)
+!endprocedure

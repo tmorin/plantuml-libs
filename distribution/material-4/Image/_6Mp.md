@@ -1,0 +1,63 @@
+# _6Mp
+
+
+```text
+material-4/Image/_6Mp
+```
+
+```text
+include('material-4/Image/_6Mp')
+```
+
+
+
+| Illustration | _6Mp |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Image/_6Mp.png) | ![illustration for _6Mp](../../material-4/Image/_6Mp.Local.png) |
+
+
+
+
+## _6Mp
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element _6Mp
+include('material-4/Image/_6Mp')
+
+' renders the element
+_6Mp('6mp', '6mp', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element _6Mp
+include('material-4/Image/_6Mp')
+
+' renders the element
+_6Mp('6mp', '6mp', 'an optional tech label')
+@enduml
+```
+

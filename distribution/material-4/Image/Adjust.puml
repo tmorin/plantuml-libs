@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Adjust
+
+sprite $AdjustXs [10x10/16z] uwS3
+
+sprite $AdjustSm [12x12/16z] unza
+
+sprite $AdjustMd [16x16/16z] un_X
+
+sprite $AdjustLg [20x20/16z] unzKO1G
+
+!procedure Adjust($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Adjust', $name, $tech)
+!endprocedure

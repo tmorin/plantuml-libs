@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element MonetizationOn
+include('material-4/Editor/MonetizationOn')
+
+' renders the element
+MonetizationOn('MonetizationOn', 'Monetization On', 'an optional tech label')
+@enduml

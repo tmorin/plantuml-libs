@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Collections
+
+sprite $CollectionsXs [10x10/16z] uwS3
+
+sprite $CollectionsSm [12x12/16z] unza
+
+sprite $CollectionsMd [16x16/16z] un_X
+
+sprite $CollectionsLg [20x20/16z] unzKO1G
+
+!procedure Collections($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Collections', $name, $tech)
+!endprocedure

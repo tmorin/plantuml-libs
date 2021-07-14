@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/BorderTop
+
+sprite $BorderTopXs [10x10/16z] uwS3
+
+sprite $BorderTopSm [12x12/16z] unza
+
+sprite $BorderTopMd [16x16/16z] un_X
+
+sprite $BorderTopLg [20x20/16z] unzKO1G
+
+!procedure BorderTop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/BorderTop', $name, $tech)
+!endprocedure

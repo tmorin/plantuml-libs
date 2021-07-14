@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/Badge
+
+sprite $BadgeXs [10x10/16z] uwS3
+
+sprite $BadgeSm [12x12/16z] unza
+
+sprite $BadgeMd [16x16/16z] un_X
+
+sprite $BadgeLg [20x20/16z] unzKO1G
+
+!procedure Badge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/Badge', $name, $tech)
+!endprocedure

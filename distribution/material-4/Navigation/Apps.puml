@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/Apps
+
+sprite $AppsXs [10x10/16z] uwS3
+
+sprite $AppsSm [12x12/16z] unza
+
+sprite $AppsMd [16x16/16z] un_X
+
+sprite $AppsLg [20x20/16z] unzKO1G
+
+!procedure Apps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/Apps', $name, $tech)
+!endprocedure

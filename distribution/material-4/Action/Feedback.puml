@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Feedback
+
+sprite $FeedbackXs [10x10/16z] uwS3
+
+sprite $FeedbackSm [12x12/16z] unza
+
+sprite $FeedbackMd [16x16/16z] un_X
+
+sprite $FeedbackLg [20x20/16z] unzKO1G
+
+!procedure Feedback($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Feedback', $name, $tech)
+!endprocedure

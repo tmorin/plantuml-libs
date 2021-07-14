@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/Mood
+
+sprite $MoodXs [10x10/16z] uwS3
+
+sprite $MoodSm [12x12/16z] unza
+
+sprite $MoodMd [16x16/16z] un_X
+
+sprite $MoodLg [20x20/16z] unzKO1G
+
+!procedure Mood($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/Mood', $name, $tech)
+!endprocedure

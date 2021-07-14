@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/SortByAlpha
+
+sprite $SortByAlphaXs [10x10/16z] uwS3
+
+sprite $SortByAlphaSm [12x12/16z] unza
+
+sprite $SortByAlphaMd [16x16/16z] un_X
+
+sprite $SortByAlphaLg [20x20/16z] unzKO1G
+
+!procedure SortByAlpha($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/SortByAlpha', $name, $tech)
+!endprocedure

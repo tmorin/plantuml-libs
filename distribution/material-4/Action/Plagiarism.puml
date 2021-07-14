@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Plagiarism
+
+sprite $PlagiarismXs [10x10/16z] uwS3
+
+sprite $PlagiarismSm [12x12/16z] unza
+
+sprite $PlagiarismMd [16x16/16z] un_X
+
+sprite $PlagiarismLg [20x20/16z] unzKO1G
+
+!procedure Plagiarism($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Plagiarism', $name, $tech)
+!endprocedure

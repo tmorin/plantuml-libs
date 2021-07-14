@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Web
+
+sprite $WebXs [10x10/16z] uwS3
+
+sprite $WebSm [12x12/16z] unza
+
+sprite $WebMd [16x16/16z] un_X
+
+sprite $WebLg [20x20/16z] unzKO1G
+
+!procedure Web($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Web', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/PermCameraMic
+
+sprite $PermCameraMicXs [10x10/16z] uwS3
+
+sprite $PermCameraMicSm [12x12/16z] unza
+
+sprite $PermCameraMicMd [16x16/16z] un_X
+
+sprite $PermCameraMicLg [20x20/16z] unzKO1G
+
+!procedure PermCameraMic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/PermCameraMic', $name, $tech)
+!endprocedure

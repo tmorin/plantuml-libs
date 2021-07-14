@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/PhonelinkRing
+
+sprite $PhonelinkRingXs [10x10/16z] uwS3
+
+sprite $PhonelinkRingSm [12x12/16z] unza
+
+sprite $PhonelinkRingMd [16x16/16z] un_X
+
+sprite $PhonelinkRingLg [20x20/16z] unzKO1G
+
+!procedure PhonelinkRing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/PhonelinkRing', $name, $tech)
+!endprocedure

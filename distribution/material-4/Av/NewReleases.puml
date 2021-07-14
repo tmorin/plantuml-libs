@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/NewReleases
+
+sprite $NewReleasesXs [10x10/16z] uwS3
+
+sprite $NewReleasesSm [12x12/16z] unza
+
+sprite $NewReleasesMd [16x16/16z] un_X
+
+sprite $NewReleasesLg [20x20/16z] unzKO1G
+
+!procedure NewReleases($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/NewReleases', $name, $tech)
+!endprocedure

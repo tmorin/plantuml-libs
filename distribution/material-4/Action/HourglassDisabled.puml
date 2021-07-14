@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/HourglassDisabled
+
+sprite $HourglassDisabledXs [10x10/16z] uwS3
+
+sprite $HourglassDisabledSm [12x12/16z] unza
+
+sprite $HourglassDisabledMd [16x16/16z] un_X
+
+sprite $HourglassDisabledLg [20x20/16z] unzKO1G
+
+!procedure HourglassDisabled($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/HourglassDisabled', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element AccessAlarm
+include('material-4/Device/AccessAlarm')
+
+' renders the element
+AccessAlarm('AccessAlarm', 'Access Alarm', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/VideoSettings
+
+sprite $VideoSettingsXs [10x10/16z] uwS3
+
+sprite $VideoSettingsSm [12x12/16z] unza
+
+sprite $VideoSettingsMd [16x16/16z] un_X
+
+sprite $VideoSettingsLg [20x20/16z] unzKO1G
+
+!procedure VideoSettings($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/VideoSettings', $name, $tech)
+!endprocedure

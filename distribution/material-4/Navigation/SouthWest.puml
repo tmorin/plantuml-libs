@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/SouthWest
+
+sprite $SouthWestXs [10x10/16z] uwS3
+
+sprite $SouthWestSm [12x12/16z] unza
+
+sprite $SouthWestMd [16x16/16z] un_X
+
+sprite $SouthWestLg [20x20/16z] unzKO1G
+
+!procedure SouthWest($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/SouthWest', $name, $tech)
+!endprocedure

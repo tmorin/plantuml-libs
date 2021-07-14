@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SquareFoot
+include('material-4/Content/SquareFoot')
+
+' renders the element
+SquareFoot('SquareFoot', 'Square Foot', 'an optional tech label')
+@enduml

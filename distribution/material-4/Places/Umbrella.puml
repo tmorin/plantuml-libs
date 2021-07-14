@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/Umbrella
+
+sprite $UmbrellaXs [10x10/16z] uwS3
+
+sprite $UmbrellaSm [12x12/16z] unza
+
+sprite $UmbrellaMd [16x16/16z] un_X
+
+sprite $UmbrellaLg [20x20/16z] unzKO1G
+
+!procedure Umbrella($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/Umbrella', $name, $tech)
+!endprocedure

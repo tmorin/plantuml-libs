@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element FilterListAlt
+include('material-4/Action/FilterListAlt')
+
+' renders the element
+FilterListAlt('FilterListAlt', 'Filter List Alt', 'an optional tech label')
+@enduml

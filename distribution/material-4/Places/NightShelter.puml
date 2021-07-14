@@ -1,0 +1,13 @@
+' definition of the Item material-4/Places/NightShelter
+
+sprite $NightShelterXs [10x10/16z] uwS3
+
+sprite $NightShelterSm [12x12/16z] unza
+
+sprite $NightShelterMd [16x16/16z] un_X
+
+sprite $NightShelterLg [20x20/16z] unzKO1G
+
+!procedure NightShelter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Places/NightShelter', $name, $tech)
+!endprocedure

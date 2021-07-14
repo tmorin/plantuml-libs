@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Brightness7
+
+sprite $Brightness7Xs [10x10/16z] uwS3
+
+sprite $Brightness7Sm [12x12/16z] unza
+
+sprite $Brightness7Md [16x16/16z] un_X
+
+sprite $Brightness7Lg [20x20/16z] unzKO1G
+
+!procedure Brightness7($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Brightness7', $name, $tech)
+!endprocedure

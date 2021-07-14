@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LineStyle
+
+sprite $LineStyleXs [10x10/16z] uwS3
+
+sprite $LineStyleSm [12x12/16z] unza
+
+sprite $LineStyleMd [16x16/16z] un_X
+
+sprite $LineStyleLg [20x20/16z] unzKO1G
+
+!procedure LineStyle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/LineStyle', $name, $tech)
+!endprocedure

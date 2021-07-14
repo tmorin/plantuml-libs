@@ -1,0 +1,13 @@
+' definition of the Item material-4/File/Folder
+
+sprite $FolderXs [10x10/16z] uwS3
+
+sprite $FolderSm [12x12/16z] unza
+
+sprite $FolderMd [16x16/16z] un_X
+
+sprite $FolderLg [20x20/16z] unzKO1G
+
+!procedure Folder($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/File/Folder', $name, $tech)
+!endprocedure

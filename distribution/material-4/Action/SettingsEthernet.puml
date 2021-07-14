@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/SettingsEthernet
+
+sprite $SettingsEthernetXs [10x10/16z] uwS3
+
+sprite $SettingsEthernetSm [12x12/16z] unza
+
+sprite $SettingsEthernetMd [16x16/16z] un_X
+
+sprite $SettingsEthernetLg [20x20/16z] unzKO1G
+
+!procedure SettingsEthernet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/SettingsEthernet', $name, $tech)
+!endprocedure

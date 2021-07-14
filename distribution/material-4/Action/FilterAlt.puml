@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/FilterAlt
+
+sprite $FilterAltXs [10x10/16z] uwS3
+
+sprite $FilterAltSm [12x12/16z] unza
+
+sprite $FilterAltMd [16x16/16z] un_X
+
+sprite $FilterAltLg [20x20/16z] unzKO1G
+
+!procedure FilterAlt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/FilterAlt', $name, $tech)
+!endprocedure

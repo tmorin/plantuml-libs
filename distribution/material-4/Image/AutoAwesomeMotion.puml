@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/AutoAwesomeMotion
+
+sprite $AutoAwesomeMotionXs [10x10/16z] uwS3
+
+sprite $AutoAwesomeMotionSm [12x12/16z] unza
+
+sprite $AutoAwesomeMotionMd [16x16/16z] un_X
+
+sprite $AutoAwesomeMotionLg [20x20/16z] unzKO1G
+
+!procedure AutoAwesomeMotion($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/AutoAwesomeMotion', $name, $tech)
+!endprocedure

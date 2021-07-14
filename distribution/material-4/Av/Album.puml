@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Album
+
+sprite $AlbumXs [10x10/16z] uwS3
+
+sprite $AlbumSm [12x12/16z] unza
+
+sprite $AlbumMd [16x16/16z] un_X
+
+sprite $AlbumLg [20x20/16z] unzKO1G
+
+!procedure Album($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Album', $name, $tech)
+!endprocedure

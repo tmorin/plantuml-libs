@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element PanoramaFishEye
+include('material-4/Image/PanoramaFishEye')
+
+' renders the element
+PanoramaFishEye('PanoramaFishEye', 'Panorama Fish Eye', 'an optional tech label')
+@enduml

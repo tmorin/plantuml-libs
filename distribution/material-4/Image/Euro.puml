@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Euro
+
+sprite $EuroXs [10x10/16z] uwS3
+
+sprite $EuroSm [12x12/16z] unza
+
+sprite $EuroMd [16x16/16z] un_X
+
+sprite $EuroLg [20x20/16z] unzKO1G
+
+!procedure Euro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Euro', $name, $tech)
+!endprocedure

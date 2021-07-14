@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalCafe
+
+sprite $LocalCafeXs [10x10/16z] uwS3
+
+sprite $LocalCafeSm [12x12/16z] unza
+
+sprite $LocalCafeMd [16x16/16z] un_X
+
+sprite $LocalCafeLg [20x20/16z] unzKO1G
+
+!procedure LocalCafe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalCafe', $name, $tech)
+!endprocedure

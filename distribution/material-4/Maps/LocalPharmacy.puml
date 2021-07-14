@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/LocalPharmacy
+
+sprite $LocalPharmacyXs [10x10/16z] uwS3
+
+sprite $LocalPharmacySm [12x12/16z] unza
+
+sprite $LocalPharmacyMd [16x16/16z] un_X
+
+sprite $LocalPharmacyLg [20x20/16z] unzKO1G
+
+!procedure LocalPharmacy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/LocalPharmacy', $name, $tech)
+!endprocedure

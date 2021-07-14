@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/ElectricalServices
+
+sprite $ElectricalServicesXs [10x10/16z] uwS3
+
+sprite $ElectricalServicesSm [12x12/16z] unza
+
+sprite $ElectricalServicesMd [16x16/16z] un_X
+
+sprite $ElectricalServicesLg [20x20/16z] unzKO1G
+
+!procedure ElectricalServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/ElectricalServices', $name, $tech)
+!endprocedure

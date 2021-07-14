@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Lens
+
+sprite $LensXs [10x10/16z] uwS3
+
+sprite $LensSm [12x12/16z] unza
+
+sprite $LensMd [16x16/16z] un_X
+
+sprite $LensLg [20x20/16z] unzKO1G
+
+!procedure Lens($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Lens', $name, $tech)
+!endprocedure

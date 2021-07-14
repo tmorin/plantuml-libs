@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/Tune
+
+sprite $TuneXs [10x10/16z] uwS3
+
+sprite $TuneSm [12x12/16z] unza
+
+sprite $TuneMd [16x16/16z] un_X
+
+sprite $TuneLg [20x20/16z] unzKO1G
+
+!procedure Tune($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/Tune', $name, $tech)
+!endprocedure

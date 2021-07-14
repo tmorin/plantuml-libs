@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/LinkedCamera
+
+sprite $LinkedCameraXs [10x10/16z] uwS3
+
+sprite $LinkedCameraSm [12x12/16z] unza
+
+sprite $LinkedCameraMd [16x16/16z] un_X
+
+sprite $LinkedCameraLg [20x20/16z] unzKO1G
+
+!procedure LinkedCamera($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/LinkedCamera', $name, $tech)
+!endprocedure

@@ -1,0 +1,63 @@
+# Crop
+
+
+```text
+material-4/Image/Crop
+```
+
+```text
+include('material-4/Image/Crop')
+```
+
+
+
+| Illustration | Crop |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Image/Crop.png) | ![illustration for Crop](../../material-4/Image/Crop.Local.png) |
+
+
+
+
+## Crop
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Crop
+include('material-4/Image/Crop')
+
+' renders the element
+Crop('Crop', 'Crop', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element Crop
+include('material-4/Image/Crop')
+
+' renders the element
+Crop('Crop', 'Crop', 'an optional tech label')
+@enduml
+```
+

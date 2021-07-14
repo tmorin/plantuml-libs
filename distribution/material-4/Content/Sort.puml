@@ -1,0 +1,13 @@
+' definition of the Item material-4/Content/Sort
+
+sprite $SortXs [10x10/16z] uwS3
+
+sprite $SortSm [12x12/16z] unza
+
+sprite $SortMd [16x16/16z] un_X
+
+sprite $SortLg [20x20/16z] unzKO1G
+
+!procedure Sort($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Content/Sort', $name, $tech)
+!endprocedure

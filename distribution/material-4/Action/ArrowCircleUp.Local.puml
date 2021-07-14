@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element ArrowCircleUp
+include('material-4/Action/ArrowCircleUp')
+
+' renders the element
+ArrowCircleUp('ArrowCircleUp', 'Arrow Circle Up', 'an optional tech label')
+@enduml

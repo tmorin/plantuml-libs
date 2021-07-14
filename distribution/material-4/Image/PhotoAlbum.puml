@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/PhotoAlbum
+
+sprite $PhotoAlbumXs [10x10/16z] uwS3
+
+sprite $PhotoAlbumSm [12x12/16z] unza
+
+sprite $PhotoAlbumMd [16x16/16z] un_X
+
+sprite $PhotoAlbumLg [20x20/16z] unzKO1G
+
+!procedure PhotoAlbum($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/PhotoAlbum', $name, $tech)
+!endprocedure

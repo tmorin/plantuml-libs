@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element CloudDone
+include('material-4/File/CloudDone')
+
+' renders the element
+CloudDone('CloudDone', 'Cloud Done', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/PermPhoneMsg
+
+sprite $PermPhoneMsgXs [10x10/16z] uwS3
+
+sprite $PermPhoneMsgSm [12x12/16z] unza
+
+sprite $PermPhoneMsgMd [16x16/16z] un_X
+
+sprite $PermPhoneMsgLg [20x20/16z] unzKO1G
+
+!procedure PermPhoneMsg($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/PermPhoneMsg', $name, $tech)
+!endprocedure

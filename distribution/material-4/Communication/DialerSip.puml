@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/DialerSip
+
+sprite $DialerSipXs [10x10/16z] uwS3
+
+sprite $DialerSipSm [12x12/16z] unza
+
+sprite $DialerSipMd [16x16/16z] un_X
+
+sprite $DialerSipLg [20x20/16z] unzKO1G
+
+!procedure DialerSip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/DialerSip', $name, $tech)
+!endprocedure

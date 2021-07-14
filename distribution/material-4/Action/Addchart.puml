@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Addchart
+
+sprite $AddchartXs [10x10/16z] uwS3
+
+sprite $AddchartSm [12x12/16z] unza
+
+sprite $AddchartMd [16x16/16z] un_X
+
+sprite $AddchartLg [20x20/16z] unzKO1G
+
+!procedure Addchart($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Addchart', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Lightbulb
+
+sprite $LightbulbXs [10x10/16z] uwS3
+
+sprite $LightbulbSm [12x12/16z] unza
+
+sprite $LightbulbMd [16x16/16z] un_X
+
+sprite $LightbulbLg [20x20/16z] unzKO1G
+
+!procedure Lightbulb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Lightbulb', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/AssistantPhoto
+
+sprite $AssistantPhotoXs [10x10/16z] uwS3
+
+sprite $AssistantPhotoSm [12x12/16z] unza
+
+sprite $AssistantPhotoMd [16x16/16z] un_X
+
+sprite $AssistantPhotoLg [20x20/16z] unzKO1G
+
+!procedure AssistantPhoto($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/AssistantPhoto', $name, $tech)
+!endprocedure

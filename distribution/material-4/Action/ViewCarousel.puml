@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/ViewCarousel
+
+sprite $ViewCarouselXs [10x10/16z] uwS3
+
+sprite $ViewCarouselSm [12x12/16z] unza
+
+sprite $ViewCarouselMd [16x16/16z] un_X
+
+sprite $ViewCarouselLg [20x20/16z] unzKO1G
+
+!procedure ViewCarousel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/ViewCarousel', $name, $tech)
+!endprocedure

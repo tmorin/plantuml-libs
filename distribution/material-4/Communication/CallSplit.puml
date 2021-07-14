@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/CallSplit
+
+sprite $CallSplitXs [10x10/16z] uwS3
+
+sprite $CallSplitSm [12x12/16z] unza
+
+sprite $CallSplitMd [16x16/16z] un_X
+
+sprite $CallSplitLg [20x20/16z] unzKO1G
+
+!procedure CallSplit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/CallSplit', $name, $tech)
+!endprocedure

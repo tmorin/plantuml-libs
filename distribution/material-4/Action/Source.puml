@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/Source
+
+sprite $SourceXs [10x10/16z] uwS3
+
+sprite $SourceSm [12x12/16z] unza
+
+sprite $SourceMd [16x16/16z] un_X
+
+sprite $SourceLg [20x20/16z] unzKO1G
+
+!procedure Source($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/Source', $name, $tech)
+!endprocedure

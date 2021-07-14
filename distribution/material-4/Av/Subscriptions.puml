@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/Subscriptions
+
+sprite $SubscriptionsXs [10x10/16z] uwS3
+
+sprite $SubscriptionsSm [12x12/16z] unza
+
+sprite $SubscriptionsMd [16x16/16z] un_X
+
+sprite $SubscriptionsLg [20x20/16z] unzKO1G
+
+!procedure Subscriptions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/Subscriptions', $name, $tech)
+!endprocedure

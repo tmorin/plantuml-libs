@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element VolumeDown
+include('material-4/Av/VolumeDown')
+
+' renders the element
+VolumeDown('VolumeDown', 'Volume Down', 'an optional tech label')
+@enduml

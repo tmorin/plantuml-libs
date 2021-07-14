@@ -1,0 +1,13 @@
+' definition of the Item material-4/Maps/MedicalServices
+
+sprite $MedicalServicesXs [10x10/16z] uwS3
+
+sprite $MedicalServicesSm [12x12/16z] unza
+
+sprite $MedicalServicesMd [16x16/16z] un_X
+
+sprite $MedicalServicesLg [20x20/16z] unzKO1G
+
+!procedure MedicalServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Maps/MedicalServices', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Editor/ModeComment
+
+sprite $ModeCommentXs [10x10/16z] uwS3
+
+sprite $ModeCommentSm [12x12/16z] unza
+
+sprite $ModeCommentMd [16x16/16z] un_X
+
+sprite $ModeCommentLg [20x20/16z] unzKO1G
+
+!procedure ModeComment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Editor/ModeComment', $name, $tech)
+!endprocedure

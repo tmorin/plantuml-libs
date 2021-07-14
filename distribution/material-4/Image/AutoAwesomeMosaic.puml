@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/AutoAwesomeMosaic
+
+sprite $AutoAwesomeMosaicXs [10x10/16z] uwS3
+
+sprite $AutoAwesomeMosaicSm [12x12/16z] unza
+
+sprite $AutoAwesomeMosaicMd [16x16/16z] un_X
+
+sprite $AutoAwesomeMosaicLg [20x20/16z] unzKO1G
+
+!procedure AutoAwesomeMosaic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/AutoAwesomeMosaic', $name, $tech)
+!endprocedure

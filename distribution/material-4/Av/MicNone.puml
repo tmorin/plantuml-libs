@@ -1,0 +1,13 @@
+' definition of the Item material-4/Av/MicNone
+
+sprite $MicNoneXs [10x10/16z] uwS3
+
+sprite $MicNoneSm [12x12/16z] unza
+
+sprite $MicNoneMd [16x16/16z] un_X
+
+sprite $MicNoneLg [20x20/16z] unzKO1G
+
+!procedure MicNone($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Av/MicNone', $name, $tech)
+!endprocedure

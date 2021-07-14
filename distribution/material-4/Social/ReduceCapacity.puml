@@ -1,0 +1,13 @@
+' definition of the Item material-4/Social/ReduceCapacity
+
+sprite $ReduceCapacityXs [10x10/16z] uwS3
+
+sprite $ReduceCapacitySm [12x12/16z] unza
+
+sprite $ReduceCapacityMd [16x16/16z] un_X
+
+sprite $ReduceCapacityLg [20x20/16z] unzKO1G
+
+!procedure ReduceCapacity($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Social/ReduceCapacity', $name, $tech)
+!endprocedure

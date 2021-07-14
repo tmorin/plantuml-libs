@@ -1,0 +1,63 @@
+# SettingsInputHdmi
+
+
+```text
+material-4/Action/SettingsInputHdmi
+```
+
+```text
+include('material-4/Action/SettingsInputHdmi')
+```
+
+
+
+| Illustration | SettingsInputHdmi |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Action/SettingsInputHdmi.png) | ![illustration for SettingsInputHdmi](../../material-4/Action/SettingsInputHdmi.Local.png) |
+
+
+
+
+## SettingsInputHdmi
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SettingsInputHdmi
+include('material-4/Action/SettingsInputHdmi')
+
+' renders the element
+SettingsInputHdmi('SettingsInputHdmi', 'Settings Input Hdmi', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element SettingsInputHdmi
+include('material-4/Action/SettingsInputHdmi')
+
+' renders the element
+SettingsInputHdmi('SettingsInputHdmi', 'Settings Input Hdmi', 'an optional tech label')
+@enduml
+```
+

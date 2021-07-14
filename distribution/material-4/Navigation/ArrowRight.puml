@@ -1,0 +1,13 @@
+' definition of the Item material-4/Navigation/ArrowRight
+
+sprite $ArrowRightXs [10x10/16z] uwS3
+
+sprite $ArrowRightSm [12x12/16z] unza
+
+sprite $ArrowRightMd [16x16/16z] un_X
+
+sprite $ArrowRightLg [20x20/16z] unzKO1G
+
+!procedure ArrowRight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Navigation/ArrowRight', $name, $tech)
+!endprocedure

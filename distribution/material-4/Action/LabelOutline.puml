@@ -1,0 +1,13 @@
+' definition of the Item material-4/Action/LabelOutline
+
+sprite $LabelOutlineXs [10x10/16z] uwS3
+
+sprite $LabelOutlineSm [12x12/16z] unza
+
+sprite $LabelOutlineMd [16x16/16z] un_X
+
+sprite $LabelOutlineLg [20x20/16z] unzKO1G
+
+!procedure LabelOutline($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Action/LabelOutline', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item material-4/Image/PanoramaHorizontal
+
+sprite $PanoramaHorizontalXs [10x10/16z] uwS3
+
+sprite $PanoramaHorizontalSm [12x12/16z] unza
+
+sprite $PanoramaHorizontalMd [16x16/16z] un_X
+
+sprite $PanoramaHorizontalLg [20x20/16z] unzKO1G
+
+!procedure PanoramaHorizontal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Image/PanoramaHorizontal', $name, $tech)
+!endprocedure

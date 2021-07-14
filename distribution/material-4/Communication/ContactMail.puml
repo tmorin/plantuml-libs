@@ -1,0 +1,13 @@
+' definition of the Item material-4/Communication/ContactMail
+
+sprite $ContactMailXs [10x10/16z] uwS3
+
+sprite $ContactMailSm [12x12/16z] unza
+
+sprite $ContactMailMd [16x16/16z] un_X
+
+sprite $ContactMailLg [20x20/16z] unzKO1G
+
+!procedure ContactMail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'material-4/Communication/ContactMail', $name, $tech)
+!endprocedure

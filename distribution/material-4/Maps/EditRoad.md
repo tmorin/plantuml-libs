@@ -1,0 +1,63 @@
+# EditRoad
+
+
+```text
+material-4/Maps/EditRoad
+```
+
+```text
+include('material-4/Maps/EditRoad')
+```
+
+
+
+| Illustration | EditRoad |
+| :---: | :---: |
+| ![illustration for Illustration](../../material-4/Maps/EditRoad.png) | ![illustration for EditRoad](../../material-4/Maps/EditRoad.Local.png) |
+
+
+
+
+## EditRoad
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element EditRoad
+include('material-4/Maps/EditRoad')
+
+' renders the element
+EditRoad('EditRoad', 'Edit Road', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('material-4/bootstrap')
+
+' loads the Item which embeds the element EditRoad
+include('material-4/Maps/EditRoad')
+
+' renders the element
+EditRoad('EditRoad', 'Edit Road', 'an optional tech label')
+@enduml
+```
+
