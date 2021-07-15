@@ -13,39 +13,58 @@ on: [ push, pull_request ]
 #        required: false
 
 jobs:
-  build:
+  Build:
     name: Build
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: "Setup node"
-        uses: actions/setup-node@v1
-        with:
-          node-version: '14.x'
-          registry-url: 'https://registry.npmjs.org'
-          scope: '@tmorin'
-      - name: "Install system dependencies"
-        run: sudo apt install graphviz zip
-      - name: "Cache Node.js modules"
-        uses: actions/cache@v2
-        with:
-          path: ~/.npm
-          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-node-
-            ${{ runner.OS }}-
-      - name: "Install dependencies"
-        run: npm ci --no-progress
-      - name: "Test"
-        run: npm test
+#      - name: "Setup node"
+#        uses: actions/setup-node@v1
+#        with:
+#          node-version: '14.x'
+#          registry-url: 'https://registry.npmjs.org'
+#          scope: '@tmorin'
+#      - name: "Install system dependencies"
+#        run: sudo apt install graphviz zip
+#      - name: "Cache Node.js modules"
+#        uses: actions/cache@v2
+#        with:
+#          path: ~/.npm
+#          key: ${{ runner.OS }}-node-${{ hashFiles('**/package-lock.json') }}
+#          restore-keys: |
+#            ${{ runner.OS }}-node-
+#            ${{ runner.OS }}-
+#      - name: "Install dependencies"
+#        run: npm ci --no-progress
+#      - name: "Test"
+#        run: npm test
       - name: "Create .cache directory"
         run: mkdir -p .cache
-      - name: "Zip distribution"
+      - name: "Zip distribution artifact"
         run: zip -r ../.cache/tmorin-plantuml-libs.zip *
         working-directory: distribution
-      - name: "Upload the deb package"
+      - name: "Upload the artifacts"
         uses: actions/upload-artifact@v2
         with:
-          name: tmorin-plantuml-libs.zip
+          name: artifacts
           path: |
             .cache/tmorin-plantuml-libs.zip
+
+  GithubRelease:
+    name: Github Release
+    runs-on: ubuntu-20.04
+    needs: [ Build ]
+    if: ${{ startsWith(github.ref, 'refs/tags/') }}
+    steps:
+      - uses: actions/checkout@v2
+      - name: "Download all artifacts"
+        uses: actions/download-artifact@v2
+      - name: "Create the release"
+        uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          artifacts: "artifacts/tmorin-plantuml-libs.zip"
+          omitName: true
+          omitBody: true
+          draft: false
+          token: ${{ secrets.GITHUB_TOKEN }}
