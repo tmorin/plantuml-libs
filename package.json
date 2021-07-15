@@ -1,6 +1,6 @@
 {
   "name": "@tmorin/plantuml-libs",
-  "version": "4.0.0-alpha.0",
+  "version": "4.0.0-alpha.1",
   "description": "Set of libraries for [PlantUML](https://plantuml.com).",
   "license": "MIT",
   "homepage": "https://github.com/tmorin/plantuml-libs#readme",
@@ -21,6 +21,22 @@
   "publishConfig": {
     "access": "public"
   },
+  "keywords": [
+    "plantuml",
+    "library",
+    "diagram",
+    "sprite",
+    "icon",
+    "aws",
+    "azure",
+    "c4model",
+    "eip",
+    "eventstorming",
+    "fontawesome",
+    "gcp",
+    "material",
+    "simpleicons"
+  ],
   "scripts": {
     "alpha": "standard-version --skip.changelog --skip.tag --prerelease alpha",
     "alpha:publish": "git push --all && npm publish --tag canary",
