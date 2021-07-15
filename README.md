@@ -9,16 +9,18 @@ The **version 3** of the library is available in the **v3.x branch**.
 
 ## Presentation
 
-This repository hosts a [PlantUML] lib which provides several `packages`.
+This repository hosts a [PlantUML] lib which provides several packages.
 Each package focus on a particular technology/approach: Amazon Web Services (AWS), Azure, C4 Model or even EventStorming and more.
 
-Additionally, a CLI utility, working with NodeJS, is also provided within the NPN package. Its purpose is to speedup the generation of PlantUML source file, i.e. the PNG.
+Additionally, a CLI utility, working with NodeJS, is also provided within the NPN package.
+Its purpose is to speedup the rendering of PlantUML source files, i.e. the generation of PNG.
 
 [PlantUML]: https://plantuml.com
 
 ## Contributing
 
-Thanks for your interest in contributing! There are many ways to contribute to this project.
+Thanks for your interest in contributing!
+There are many ways to contribute to this project.
 Get started [here](.github/CONTRIBUTING.md).
 
 ## Install
@@ -27,7 +29,6 @@ The library can be installed from several channels:
 
 - The NPM package is available on the NPM registry: [@tmorin/plantuml-libs].
 - From the [GitHub Releases] page, an archive of the library can be downloaded. 
-
 
 [@tmorin/plantuml-libs]: https://www.npmjs.com/package/@tmorin/plantuml-libs
 [GitHub Releases]: https://github.com/tmorin/plantuml-libs/releases
@@ -85,7 +86,7 @@ Alternatively, the command line `plantuml-generator`, from [tmorin/plantuml-gene
 
 The build of the library is based on two steps:
 
-- generate a work directory (`.workdir`) which contains the library manifest, and some additional resources like Tera template, pictures ...
+- generate a work directory (`.workdir`) which contains the library manifest, and some additional resources like Tera templates, pictures ...
 - generate the distribution directory (`.distribution`) which contains the PlantUML resources as well as the documentation
 
 ### Generate the work directory
