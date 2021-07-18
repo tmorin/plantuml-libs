@@ -1,6 +1,6 @@
 # N
 
-The module contains 57 items.
+The module contains 60 items.
 
 
 
@@ -24,6 +24,7 @@ The module contains 57 items.
 | ![illustration of simpleicons-5/N/Netapp](../../simpleicons-5/N/Netapp.png) | [simpleicons-5/N/Netapp](../../simpleicons-5/N/Netapp.md) |
 | ![illustration of simpleicons-5/N/Netflix](../../simpleicons-5/N/Netflix.png) | [simpleicons-5/N/Netflix](../../simpleicons-5/N/Netflix.md) |
 | ![illustration of simpleicons-5/N/Netlify](../../simpleicons-5/N/Netlify.png) | [simpleicons-5/N/Netlify](../../simpleicons-5/N/Netlify.md) |
+| ![illustration of simpleicons-5/N/Nette](../../simpleicons-5/N/Nette.png) | [simpleicons-5/N/Nette](../../simpleicons-5/N/Nette.md) |
 | ![illustration of simpleicons-5/N/Newjapanprowrestling](../../simpleicons-5/N/Newjapanprowrestling.png) | [simpleicons-5/N/Newjapanprowrestling](../../simpleicons-5/N/Newjapanprowrestling.md) |
 | ![illustration of simpleicons-5/N/Newrelic](../../simpleicons-5/N/Newrelic.png) | [simpleicons-5/N/Newrelic](../../simpleicons-5/N/Newrelic.md) |
 | ![illustration of simpleicons-5/N/Newyorktimes](../../simpleicons-5/N/Newyorktimes.png) | [simpleicons-5/N/Newyorktimes](../../simpleicons-5/N/Newyorktimes.md) |
@@ -34,6 +35,7 @@ The module contains 57 items.
 | ![illustration of simpleicons-5/N/Nginx](../../simpleicons-5/N/Nginx.png) | [simpleicons-5/N/Nginx](../../simpleicons-5/N/Nginx.md) |
 | ![illustration of simpleicons-5/N/Ngrok](../../simpleicons-5/N/Ngrok.png) | [simpleicons-5/N/Ngrok](../../simpleicons-5/N/Ngrok.md) |
 | ![illustration of simpleicons-5/N/Niconico](../../simpleicons-5/N/Niconico.png) | [simpleicons-5/N/Niconico](../../simpleicons-5/N/Niconico.md) |
+| ![illustration of simpleicons-5/N/Nike](../../simpleicons-5/N/Nike.png) | [simpleicons-5/N/Nike](../../simpleicons-5/N/Nike.md) |
 | ![illustration of simpleicons-5/N/Nim](../../simpleicons-5/N/Nim.png) | [simpleicons-5/N/Nim](../../simpleicons-5/N/Nim.md) |
 | ![illustration of simpleicons-5/N/Nintendo](../../simpleicons-5/N/Nintendo.png) | [simpleicons-5/N/Nintendo](../../simpleicons-5/N/Nintendo.md) |
 | ![illustration of simpleicons-5/N/Nintendo3Ds](../../simpleicons-5/N/Nintendo3Ds.png) | [simpleicons-5/N/Nintendo3Ds](../../simpleicons-5/N/Nintendo3Ds.md) |
@@ -46,6 +48,7 @@ The module contains 57 items.
 | ![illustration of simpleicons-5/N/Nodemon](../../simpleicons-5/N/Nodemon.png) | [simpleicons-5/N/Nodemon](../../simpleicons-5/N/Nodemon.md) |
 | ![illustration of simpleicons-5/N/Nodered](../../simpleicons-5/N/Nodered.png) | [simpleicons-5/N/Nodered](../../simpleicons-5/N/Nodered.md) |
 | ![illustration of simpleicons-5/N/Nokia](../../simpleicons-5/N/Nokia.png) | [simpleicons-5/N/Nokia](../../simpleicons-5/N/Nokia.md) |
+| ![illustration of simpleicons-5/N/Nordvpn](../../simpleicons-5/N/Nordvpn.png) | [simpleicons-5/N/Nordvpn](../../simpleicons-5/N/Nordvpn.md) |
 | ![illustration of simpleicons-5/N/Norwegian](../../simpleicons-5/N/Norwegian.png) | [simpleicons-5/N/Norwegian](../../simpleicons-5/N/Norwegian.md) |
 | ![illustration of simpleicons-5/N/Notepadplusplus](../../simpleicons-5/N/Notepadplusplus.png) | [simpleicons-5/N/Notepadplusplus](../../simpleicons-5/N/Notepadplusplus.md) |
 | ![illustration of simpleicons-5/N/Notion](../../simpleicons-5/N/Notion.png) | [simpleicons-5/N/Notion](../../simpleicons-5/N/Notion.md) |

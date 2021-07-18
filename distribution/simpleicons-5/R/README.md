@@ -1,6 +1,6 @@
 # R
 
-The module contains 76 items.
+The module contains 80 items.
 
 
 
@@ -12,16 +12,19 @@ The module contains 76 items.
 | ![illustration of simpleicons-5/R/Racket](../../simpleicons-5/R/Racket.png) | [simpleicons-5/R/Racket](../../simpleicons-5/R/Racket.md) |
 | ![illustration of simpleicons-5/R/Radar](../../simpleicons-5/R/Radar.png) | [simpleicons-5/R/Radar](../../simpleicons-5/R/Radar.md) |
 | ![illustration of simpleicons-5/R/Radiopublic](../../simpleicons-5/R/Radiopublic.png) | [simpleicons-5/R/Radiopublic](../../simpleicons-5/R/Radiopublic.md) |
+| ![illustration of simpleicons-5/R/Railway](../../simpleicons-5/R/Railway.png) | [simpleicons-5/R/Railway](../../simpleicons-5/R/Railway.md) |
 | ![illustration of simpleicons-5/R/Rainmeter](../../simpleicons-5/R/Rainmeter.png) | [simpleicons-5/R/Rainmeter](../../simpleicons-5/R/Rainmeter.md) |
 | ![illustration of simpleicons-5/R/Rakuten](../../simpleicons-5/R/Rakuten.png) | [simpleicons-5/R/Rakuten](../../simpleicons-5/R/Rakuten.md) |
 | ![illustration of simpleicons-5/R/Ram](../../simpleicons-5/R/Ram.png) | [simpleicons-5/R/Ram](../../simpleicons-5/R/Ram.md) |
 | ![illustration of simpleicons-5/R/Rancher](../../simpleicons-5/R/Rancher.png) | [simpleicons-5/R/Rancher](../../simpleicons-5/R/Rancher.md) |
 | ![illustration of simpleicons-5/R/Raspberrypi](../../simpleicons-5/R/Raspberrypi.png) | [simpleicons-5/R/Raspberrypi](../../simpleicons-5/R/Raspberrypi.md) |
 | ![illustration of simpleicons-5/R/Razer](../../simpleicons-5/R/Razer.png) | [simpleicons-5/R/Razer](../../simpleicons-5/R/Razer.md) |
+| ![illustration of simpleicons-5/R/Razorpay](../../simpleicons-5/R/Razorpay.png) | [simpleicons-5/R/Razorpay](../../simpleicons-5/R/Razorpay.md) |
 | ![illustration of simpleicons-5/R/React](../../simpleicons-5/R/React.png) | [simpleicons-5/R/React](../../simpleicons-5/R/React.md) |
 | ![illustration of simpleicons-5/R/Reactivex](../../simpleicons-5/R/Reactivex.png) | [simpleicons-5/R/Reactivex](../../simpleicons-5/R/Reactivex.md) |
 | ![illustration of simpleicons-5/R/Reactos](../../simpleicons-5/R/Reactos.png) | [simpleicons-5/R/Reactos](../../simpleicons-5/R/Reactos.md) |
 | ![illustration of simpleicons-5/R/Reactrouter](../../simpleicons-5/R/Reactrouter.png) | [simpleicons-5/R/Reactrouter](../../simpleicons-5/R/Reactrouter.md) |
+| ![illustration of simpleicons-5/R/Reacttable](../../simpleicons-5/R/Reacttable.png) | [simpleicons-5/R/Reacttable](../../simpleicons-5/R/Reacttable.md) |
 | ![illustration of simpleicons-5/R/Readthedocs](../../simpleicons-5/R/Readthedocs.png) | [simpleicons-5/R/Readthedocs](../../simpleicons-5/R/Readthedocs.md) |
 | ![illustration of simpleicons-5/R/Realm](../../simpleicons-5/R/Realm.png) | [simpleicons-5/R/Realm](../../simpleicons-5/R/Realm.md) |
 | ![illustration of simpleicons-5/R/Reason](../../simpleicons-5/R/Reason.png) | [simpleicons-5/R/Reason](../../simpleicons-5/R/Reason.md) |
@@ -34,6 +37,7 @@ The module contains 76 items.
 | ![illustration of simpleicons-5/R/Redux](../../simpleicons-5/R/Redux.png) | [simpleicons-5/R/Redux](../../simpleicons-5/R/Redux.md) |
 | ![illustration of simpleicons-5/R/Reduxsaga](../../simpleicons-5/R/Reduxsaga.png) | [simpleicons-5/R/Reduxsaga](../../simpleicons-5/R/Reduxsaga.md) |
 | ![illustration of simpleicons-5/R/Redwoodjs](../../simpleicons-5/R/Redwoodjs.png) | [simpleicons-5/R/Redwoodjs](../../simpleicons-5/R/Redwoodjs.md) |
+| ![illustration of simpleicons-5/R/Reebok](../../simpleicons-5/R/Reebok.png) | [simpleicons-5/R/Reebok](../../simpleicons-5/R/Reebok.md) |
 | ![illustration of simpleicons-5/R/Relianceindustrieslimited](../../simpleicons-5/R/Relianceindustrieslimited.png) | [simpleicons-5/R/Relianceindustrieslimited](../../simpleicons-5/R/Relianceindustrieslimited.md) |
 | ![illustration of simpleicons-5/R/Renault](../../simpleicons-5/R/Renault.png) | [simpleicons-5/R/Renault](../../simpleicons-5/R/Renault.md) |
 | ![illustration of simpleicons-5/R/Renovatebot](../../simpleicons-5/R/Renovatebot.png) | [simpleicons-5/R/Renovatebot](../../simpleicons-5/R/Renovatebot.md) |

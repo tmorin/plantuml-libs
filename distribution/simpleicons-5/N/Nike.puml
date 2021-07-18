@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/N/Nike
+
+sprite $NikeXs [10x10/16z] uwS3
+
+sprite $NikeSm [12x12/16z] unza
+
+sprite $NikeMd [16x16/16z] un_X
+
+sprite $NikeLg [20x20/16z] unzKO1G
+
+!procedure Nike($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/N/Nike', $name, $tech)
+!endprocedure

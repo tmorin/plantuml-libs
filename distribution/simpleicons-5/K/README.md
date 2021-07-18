@@ -1,6 +1,6 @@
 # K
 
-The module contains 44 items.
+The module contains 47 items.
 
 
 
@@ -18,6 +18,7 @@ The module contains 44 items.
 | ![illustration of simpleicons-5/K/Kaspersky](../../simpleicons-5/K/Kaspersky.png) | [simpleicons-5/K/Kaspersky](../../simpleicons-5/K/Kaspersky.md) |
 | ![illustration of simpleicons-5/K/Katacoda](../../simpleicons-5/K/Katacoda.png) | [simpleicons-5/K/Katacoda](../../simpleicons-5/K/Katacoda.md) |
 | ![illustration of simpleicons-5/K/Katana](../../simpleicons-5/K/Katana.png) | [simpleicons-5/K/Katana](../../simpleicons-5/K/Katana.md) |
+| ![illustration of simpleicons-5/K/Kaufland](../../simpleicons-5/K/Kaufland.png) | [simpleicons-5/K/Kaufland](../../simpleicons-5/K/Kaufland.md) |
 | ![illustration of simpleicons-5/K/Kde](../../simpleicons-5/K/Kde.png) | [simpleicons-5/K/Kde](../../simpleicons-5/K/Kde.md) |
 | ![illustration of simpleicons-5/K/Kdenlive](../../simpleicons-5/K/Kdenlive.png) | [simpleicons-5/K/Kdenlive](../../simpleicons-5/K/Kdenlive.md) |
 | ![illustration of simpleicons-5/K/Keepassxc](../../simpleicons-5/K/Keepassxc.png) | [simpleicons-5/K/Keepassxc](../../simpleicons-5/K/Keepassxc.md) |
@@ -25,6 +26,7 @@ The module contains 44 items.
 | ![illustration of simpleicons-5/K/Keras](../../simpleicons-5/K/Keras.png) | [simpleicons-5/K/Keras](../../simpleicons-5/K/Keras.md) |
 | ![illustration of simpleicons-5/K/Keybase](../../simpleicons-5/K/Keybase.png) | [simpleicons-5/K/Keybase](../../simpleicons-5/K/Keybase.md) |
 | ![illustration of simpleicons-5/K/Keycdn](../../simpleicons-5/K/Keycdn.png) | [simpleicons-5/K/Keycdn](../../simpleicons-5/K/Keycdn.md) |
+| ![illustration of simpleicons-5/K/Kfc](../../simpleicons-5/K/Kfc.png) | [simpleicons-5/K/Kfc](../../simpleicons-5/K/Kfc.md) |
 | ![illustration of simpleicons-5/K/Khanacademy](../../simpleicons-5/K/Khanacademy.png) | [simpleicons-5/K/Khanacademy](../../simpleicons-5/K/Khanacademy.md) |
 | ![illustration of simpleicons-5/K/Khronosgroup](../../simpleicons-5/K/Khronosgroup.png) | [simpleicons-5/K/Khronosgroup](../../simpleicons-5/K/Khronosgroup.md) |
 | ![illustration of simpleicons-5/K/Kia](../../simpleicons-5/K/Kia.png) | [simpleicons-5/K/Kia](../../simpleicons-5/K/Kia.md) |
@@ -44,6 +46,7 @@ The module contains 44 items.
 | ![illustration of simpleicons-5/K/Kofi](../../simpleicons-5/K/Kofi.png) | [simpleicons-5/K/Kofi](../../simpleicons-5/K/Kofi.md) |
 | ![illustration of simpleicons-5/K/Komoot](../../simpleicons-5/K/Komoot.png) | [simpleicons-5/K/Komoot](../../simpleicons-5/K/Komoot.md) |
 | ![illustration of simpleicons-5/K/Kongregate](../../simpleicons-5/K/Kongregate.png) | [simpleicons-5/K/Kongregate](../../simpleicons-5/K/Kongregate.md) |
+| ![illustration of simpleicons-5/K/Konva](../../simpleicons-5/K/Konva.png) | [simpleicons-5/K/Konva](../../simpleicons-5/K/Konva.md) |
 | ![illustration of simpleicons-5/K/Kotlin](../../simpleicons-5/K/Kotlin.png) | [simpleicons-5/K/Kotlin](../../simpleicons-5/K/Kotlin.md) |
 | ![illustration of simpleicons-5/K/Krita](../../simpleicons-5/K/Krita.png) | [simpleicons-5/K/Krita](../../simpleicons-5/K/Krita.md) |
 | ![illustration of simpleicons-5/K/Ktm](../../simpleicons-5/K/Ktm.png) | [simpleicons-5/K/Ktm](../../simpleicons-5/K/Ktm.md) |

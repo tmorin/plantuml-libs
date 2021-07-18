@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Platformdotsh
+
+sprite $PlatformdotshXs [10x10/16z] uwS3
+
+sprite $PlatformdotshSm [12x12/16z] unza
+
+sprite $PlatformdotshMd [16x16/16z] un_X
+
+sprite $PlatformdotshLg [20x20/16z] unzKO1G
+
+!procedure Platformdotsh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Platformdotsh', $name, $tech)
+!endprocedure

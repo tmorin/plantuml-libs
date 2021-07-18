@@ -8,7 +8,7 @@ import {toCamelCase} from "../../../../workdir-generator/naming";
 import {promisify} from "util";
 import {unifyItems} from "../../../../workdir-generator/discovery";
 
-const ICONS_VERSION = "5.1.0"
+const ICONS_VERSION = "5.7.0"
 const ICONS_URL = `https://github.com/simple-icons/simple-icons/archive/${ICONS_VERSION}.zip`
 
 type ItemsByModules = { [key: string]: Array<Item> };

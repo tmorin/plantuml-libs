@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/S/Spond
+
+sprite $SpondXs [10x10/16z] uwS3
+
+sprite $SpondSm [12x12/16z] unza
+
+sprite $SpondMd [16x16/16z] un_X
+
+sprite $SpondLg [20x20/16z] unzKO1G
+
+!procedure Spond($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/S/Spond', $name, $tech)
+!endprocedure

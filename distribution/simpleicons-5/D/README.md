@@ -1,6 +1,6 @@
 # D
 
-The module contains 81 items.
+The module contains 83 items.
 
 
 
@@ -26,6 +26,7 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/D/Datto](../../simpleicons-5/D/Datto.png) | [simpleicons-5/D/Datto](../../simpleicons-5/D/Datto.md) |
 | ![illustration of simpleicons-5/D/Dazn](../../simpleicons-5/D/Dazn.png) | [simpleicons-5/D/Dazn](../../simpleicons-5/D/Dazn.md) |
 | ![illustration of simpleicons-5/D/Dblp](../../simpleicons-5/D/Dblp.png) | [simpleicons-5/D/Dblp](../../simpleicons-5/D/Dblp.md) |
+| ![illustration of simpleicons-5/D/Dbt](../../simpleicons-5/D/Dbt.png) | [simpleicons-5/D/Dbt](../../simpleicons-5/D/Dbt.md) |
 | ![illustration of simpleicons-5/D/Dcentertainment](../../simpleicons-5/D/Dcentertainment.png) | [simpleicons-5/D/Dcentertainment](../../simpleicons-5/D/Dcentertainment.md) |
 | ![illustration of simpleicons-5/D/Debian](../../simpleicons-5/D/Debian.png) | [simpleicons-5/D/Debian](../../simpleicons-5/D/Debian.md) |
 | ![illustration of simpleicons-5/D/Deepin](../../simpleicons-5/D/Deepin.png) | [simpleicons-5/D/Deepin](../../simpleicons-5/D/Deepin.md) |
@@ -72,6 +73,7 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/D/Doordash](../../simpleicons-5/D/Doordash.png) | [simpleicons-5/D/Doordash](../../simpleicons-5/D/Doordash.md) |
 | ![illustration of simpleicons-5/D/Dotnet](../../simpleicons-5/D/Dotnet.png) | [simpleicons-5/D/Dotnet](../../simpleicons-5/D/Dotnet.md) |
 | ![illustration of simpleicons-5/D/Douban](../../simpleicons-5/D/Douban.png) | [simpleicons-5/D/Douban](../../simpleicons-5/D/Douban.md) |
+| ![illustration of simpleicons-5/D/Doubanread](../../simpleicons-5/D/Doubanread.png) | [simpleicons-5/D/Doubanread](../../simpleicons-5/D/Doubanread.md) |
 | ![illustration of simpleicons-5/D/Draugiemdotlv](../../simpleicons-5/D/Draugiemdotlv.png) | [simpleicons-5/D/Draugiemdotlv](../../simpleicons-5/D/Draugiemdotlv.md) |
 | ![illustration of simpleicons-5/D/Dribbble](../../simpleicons-5/D/Dribbble.png) | [simpleicons-5/D/Dribbble](../../simpleicons-5/D/Dribbble.md) |
 | ![illustration of simpleicons-5/D/Drone](../../simpleicons-5/D/Drone.png) | [simpleicons-5/D/Drone](../../simpleicons-5/D/Drone.md) |

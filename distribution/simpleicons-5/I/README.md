@@ -1,6 +1,6 @@
 # I
 
-The module contains 53 items.
+The module contains 54 items.
 
 
 
@@ -17,6 +17,7 @@ The module contains 53 items.
 | ![illustration of simpleicons-5/I/Iconfinder](../../simpleicons-5/I/Iconfinder.png) | [simpleicons-5/I/Iconfinder](../../simpleicons-5/I/Iconfinder.md) |
 | ![illustration of simpleicons-5/I/Iconify](../../simpleicons-5/I/Iconify.png) | [simpleicons-5/I/Iconify](../../simpleicons-5/I/Iconify.md) |
 | ![illustration of simpleicons-5/I/Iconjar](../../simpleicons-5/I/Iconjar.png) | [simpleicons-5/I/Iconjar](../../simpleicons-5/I/Iconjar.md) |
+| ![illustration of simpleicons-5/I/Icons8](../../simpleicons-5/I/Icons8.png) | [simpleicons-5/I/Icons8](../../simpleicons-5/I/Icons8.md) |
 | ![illustration of simpleicons-5/I/Icq](../../simpleicons-5/I/Icq.png) | [simpleicons-5/I/Icq](../../simpleicons-5/I/Icq.md) |
 | ![illustration of simpleicons-5/I/Ieee](../../simpleicons-5/I/Ieee.png) | [simpleicons-5/I/Ieee](../../simpleicons-5/I/Ieee.md) |
 | ![illustration of simpleicons-5/I/Ifixit](../../simpleicons-5/I/Ifixit.png) | [simpleicons-5/I/Ifixit](../../simpleicons-5/I/Ifixit.md) |

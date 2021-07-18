@@ -1,6 +1,6 @@
 # A
 
-The module contains 180 items.
+The module contains 183 items.
 
 
 
@@ -24,6 +24,7 @@ The module contains 180 items.
 | ![illustration of simpleicons-5/A/Adblockplus](../../simpleicons-5/A/Adblockplus.png) | [simpleicons-5/A/Adblockplus](../../simpleicons-5/A/Adblockplus.md) |
 | ![illustration of simpleicons-5/A/Addthis](../../simpleicons-5/A/Addthis.png) | [simpleicons-5/A/Addthis](../../simpleicons-5/A/Addthis.md) |
 | ![illustration of simpleicons-5/A/Adguard](../../simpleicons-5/A/Adguard.png) | [simpleicons-5/A/Adguard](../../simpleicons-5/A/Adguard.md) |
+| ![illustration of simpleicons-5/A/Adidas](../../simpleicons-5/A/Adidas.png) | [simpleicons-5/A/Adidas](../../simpleicons-5/A/Adidas.md) |
 | ![illustration of simpleicons-5/A/Adobe](../../simpleicons-5/A/Adobe.png) | [simpleicons-5/A/Adobe](../../simpleicons-5/A/Adobe.md) |
 | ![illustration of simpleicons-5/A/Adobeacrobatreader](../../simpleicons-5/A/Adobeacrobatreader.png) | [simpleicons-5/A/Adobeacrobatreader](../../simpleicons-5/A/Adobeacrobatreader.md) |
 | ![illustration of simpleicons-5/A/Adobeaftereffects](../../simpleicons-5/A/Adobeaftereffects.png) | [simpleicons-5/A/Adobeaftereffects](../../simpleicons-5/A/Adobeaftereffects.md) |
@@ -43,6 +44,7 @@ The module contains 180 items.
 | ![illustration of simpleicons-5/A/Aeroflot](../../simpleicons-5/A/Aeroflot.png) | [simpleicons-5/A/Aeroflot](../../simpleicons-5/A/Aeroflot.md) |
 | ![illustration of simpleicons-5/A/Aeromexico](../../simpleicons-5/A/Aeromexico.png) | [simpleicons-5/A/Aeromexico](../../simpleicons-5/A/Aeromexico.md) |
 | ![illustration of simpleicons-5/A/Aerospike](../../simpleicons-5/A/Aerospike.png) | [simpleicons-5/A/Aerospike](../../simpleicons-5/A/Aerospike.md) |
+| ![illustration of simpleicons-5/A/Aew](../../simpleicons-5/A/Aew.png) | [simpleicons-5/A/Aew](../../simpleicons-5/A/Aew.md) |
 | ![illustration of simpleicons-5/A/Affinity](../../simpleicons-5/A/Affinity.png) | [simpleicons-5/A/Affinity](../../simpleicons-5/A/Affinity.md) |
 | ![illustration of simpleicons-5/A/Affinitydesigner](../../simpleicons-5/A/Affinitydesigner.png) | [simpleicons-5/A/Affinitydesigner](../../simpleicons-5/A/Affinitydesigner.md) |
 | ![illustration of simpleicons-5/A/Affinityphoto](../../simpleicons-5/A/Affinityphoto.png) | [simpleicons-5/A/Affinityphoto](../../simpleicons-5/A/Affinityphoto.md) |
@@ -133,6 +135,7 @@ The module contains 180 items.
 | ![illustration of simpleicons-5/A/Aparat](../../simpleicons-5/A/Aparat.png) | [simpleicons-5/A/Aparat](../../simpleicons-5/A/Aparat.md) |
 | ![illustration of simpleicons-5/A/Apollographql](../../simpleicons-5/A/Apollographql.png) | [simpleicons-5/A/Apollographql](../../simpleicons-5/A/Apollographql.md) |
 | ![illustration of simpleicons-5/A/Apostrophe](../../simpleicons-5/A/Apostrophe.png) | [simpleicons-5/A/Apostrophe](../../simpleicons-5/A/Apostrophe.md) |
+| ![illustration of simpleicons-5/A/Appannie](../../simpleicons-5/A/Appannie.png) | [simpleicons-5/A/Appannie](../../simpleicons-5/A/Appannie.md) |
 | ![illustration of simpleicons-5/A/Apple](../../simpleicons-5/A/Apple.png) | [simpleicons-5/A/Apple](../../simpleicons-5/A/Apple.md) |
 | ![illustration of simpleicons-5/A/Applearcade](../../simpleicons-5/A/Applearcade.png) | [simpleicons-5/A/Applearcade](../../simpleicons-5/A/Applearcade.md) |
 | ![illustration of simpleicons-5/A/Applemusic](../../simpleicons-5/A/Applemusic.png) | [simpleicons-5/A/Applemusic](../../simpleicons-5/A/Applemusic.md) |

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/B/Boehringeringelheim
+
+sprite $BoehringeringelheimXs [10x10/16z] uwS3
+
+sprite $BoehringeringelheimSm [12x12/16z] unza
+
+sprite $BoehringeringelheimMd [16x16/16z] un_X
+
+sprite $BoehringeringelheimLg [20x20/16z] unzKO1G
+
+!procedure Boehringeringelheim($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/B/Boehringeringelheim', $name, $tech)
+!endprocedure

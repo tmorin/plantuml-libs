@@ -1,6 +1,6 @@
 # F
 
-The module contains 79 items.
+The module contains 81 items.
 
 
 
@@ -70,6 +70,7 @@ The module contains 79 items.
 | ![illustration of simpleicons-5/F/Fossa](../../simpleicons-5/F/Fossa.png) | [simpleicons-5/F/Fossa](../../simpleicons-5/F/Fossa.md) |
 | ![illustration of simpleicons-5/F/Fossilscm](../../simpleicons-5/F/Fossilscm.png) | [simpleicons-5/F/Fossilscm](../../simpleicons-5/F/Fossilscm.md) |
 | ![illustration of simpleicons-5/F/Foursquare](../../simpleicons-5/F/Foursquare.png) | [simpleicons-5/F/Foursquare](../../simpleicons-5/F/Foursquare.md) |
+| ![illustration of simpleicons-5/F/Foursquarecityguide](../../simpleicons-5/F/Foursquarecityguide.png) | [simpleicons-5/F/Foursquarecityguide](../../simpleicons-5/F/Foursquarecityguide.md) |
 | ![illustration of simpleicons-5/F/Foxtel](../../simpleicons-5/F/Foxtel.png) | [simpleicons-5/F/Foxtel](../../simpleicons-5/F/Foxtel.md) |
 | ![illustration of simpleicons-5/F/Fozzy](../../simpleicons-5/F/Fozzy.png) | [simpleicons-5/F/Fozzy](../../simpleicons-5/F/Fozzy.md) |
 | ![illustration of simpleicons-5/F/Framer](../../simpleicons-5/F/Framer.png) | [simpleicons-5/F/Framer](../../simpleicons-5/F/Framer.md) |
@@ -79,6 +80,7 @@ The module contains 79 items.
 | ![illustration of simpleicons-5/F/Freedesktopdotorg](../../simpleicons-5/F/Freedesktopdotorg.png) | [simpleicons-5/F/Freedesktopdotorg](../../simpleicons-5/F/Freedesktopdotorg.md) |
 | ![illustration of simpleicons-5/F/Freelancer](../../simpleicons-5/F/Freelancer.png) | [simpleicons-5/F/Freelancer](../../simpleicons-5/F/Freelancer.md) |
 | ![illustration of simpleicons-5/F/Freenas](../../simpleicons-5/F/Freenas.png) | [simpleicons-5/F/Freenas](../../simpleicons-5/F/Freenas.md) |
+| ![illustration of simpleicons-5/F/Frontendmentor](../../simpleicons-5/F/Frontendmentor.png) | [simpleicons-5/F/Frontendmentor](../../simpleicons-5/F/Frontendmentor.md) |
 | ![illustration of simpleicons-5/F/Fsecure](../../simpleicons-5/F/Fsecure.png) | [simpleicons-5/F/Fsecure](../../simpleicons-5/F/Fsecure.md) |
 | ![illustration of simpleicons-5/F/Fujifilm](../../simpleicons-5/F/Fujifilm.png) | [simpleicons-5/F/Fujifilm](../../simpleicons-5/F/Fujifilm.md) |
 | ![illustration of simpleicons-5/F/Fujitsu](../../simpleicons-5/F/Fujitsu.png) | [simpleicons-5/F/Fujitsu](../../simpleicons-5/F/Fujitsu.md) |

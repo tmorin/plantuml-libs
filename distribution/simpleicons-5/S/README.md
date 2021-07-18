@@ -1,6 +1,6 @@
 # S
 
-The module contains 196 items.
+The module contains 200 items.
 
 
 
@@ -48,6 +48,7 @@ The module contains 196 items.
 | ![illustration of simpleicons-5/S/Sensu](../../simpleicons-5/S/Sensu.png) | [simpleicons-5/S/Sensu](../../simpleicons-5/S/Sensu.md) |
 | ![illustration of simpleicons-5/S/Sentry](../../simpleicons-5/S/Sentry.png) | [simpleicons-5/S/Sentry](../../simpleicons-5/S/Sentry.md) |
 | ![illustration of simpleicons-5/S/Sepa](../../simpleicons-5/S/Sepa.png) | [simpleicons-5/S/Sepa](../../simpleicons-5/S/Sepa.md) |
+| ![illustration of simpleicons-5/S/Sequelize](../../simpleicons-5/S/Sequelize.png) | [simpleicons-5/S/Sequelize](../../simpleicons-5/S/Sequelize.md) |
 | ![illustration of simpleicons-5/S/Serverfault](../../simpleicons-5/S/Serverfault.png) | [simpleicons-5/S/Serverfault](../../simpleicons-5/S/Serverfault.md) |
 | ![illustration of simpleicons-5/S/Serverless](../../simpleicons-5/S/Serverless.png) | [simpleicons-5/S/Serverless](../../simpleicons-5/S/Serverless.md) |
 | ![illustration of simpleicons-5/S/Sfml](../../simpleicons-5/S/Sfml.png) | [simpleicons-5/S/Sfml](../../simpleicons-5/S/Sfml.md) |
@@ -130,8 +131,10 @@ The module contains 196 items.
 | ![illustration of simpleicons-5/S/Spinnaker](../../simpleicons-5/S/Spinnaker.png) | [simpleicons-5/S/Spinnaker](../../simpleicons-5/S/Spinnaker.md) |
 | ![illustration of simpleicons-5/S/Spinrilla](../../simpleicons-5/S/Spinrilla.png) | [simpleicons-5/S/Spinrilla](../../simpleicons-5/S/Spinrilla.md) |
 | ![illustration of simpleicons-5/S/Splunk](../../simpleicons-5/S/Splunk.png) | [simpleicons-5/S/Splunk](../../simpleicons-5/S/Splunk.md) |
+| ![illustration of simpleicons-5/S/Spond](../../simpleicons-5/S/Spond.png) | [simpleicons-5/S/Spond](../../simpleicons-5/S/Spond.md) |
 | ![illustration of simpleicons-5/S/Spotify](../../simpleicons-5/S/Spotify.png) | [simpleicons-5/S/Spotify](../../simpleicons-5/S/Spotify.md) |
 | ![illustration of simpleicons-5/S/Spotlight](../../simpleicons-5/S/Spotlight.png) | [simpleicons-5/S/Spotlight](../../simpleicons-5/S/Spotlight.md) |
+| ![illustration of simpleicons-5/S/Spreadshirt](../../simpleicons-5/S/Spreadshirt.png) | [simpleicons-5/S/Spreadshirt](../../simpleicons-5/S/Spreadshirt.md) |
 | ![illustration of simpleicons-5/S/Spreaker](../../simpleicons-5/S/Spreaker.png) | [simpleicons-5/S/Spreaker](../../simpleicons-5/S/Spreaker.md) |
 | ![illustration of simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.png) | [simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.md) |
 | ![illustration of simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.png) | [simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.md) |
@@ -148,6 +151,7 @@ The module contains 196 items.
 | ![illustration of simpleicons-5/S/Stackshare](../../simpleicons-5/S/Stackshare.png) | [simpleicons-5/S/Stackshare](../../simpleicons-5/S/Stackshare.md) |
 | ![illustration of simpleicons-5/S/Stadia](../../simpleicons-5/S/Stadia.png) | [simpleicons-5/S/Stadia](../../simpleicons-5/S/Stadia.md) |
 | ![illustration of simpleicons-5/S/Staffbase](../../simpleicons-5/S/Staffbase.png) | [simpleicons-5/S/Staffbase](../../simpleicons-5/S/Staffbase.md) |
+| ![illustration of simpleicons-5/S/Starbucks](../../simpleicons-5/S/Starbucks.png) | [simpleicons-5/S/Starbucks](../../simpleicons-5/S/Starbucks.md) |
 | ![illustration of simpleicons-5/S/Starlingbank](../../simpleicons-5/S/Starlingbank.png) | [simpleicons-5/S/Starlingbank](../../simpleicons-5/S/Starlingbank.md) |
 | ![illustration of simpleicons-5/S/Starship](../../simpleicons-5/S/Starship.png) | [simpleicons-5/S/Starship](../../simpleicons-5/S/Starship.md) |
 | ![illustration of simpleicons-5/S/Startrek](../../simpleicons-5/S/Startrek.png) | [simpleicons-5/S/Startrek](../../simpleicons-5/S/Startrek.md) |

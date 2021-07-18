@@ -1,12 +1,13 @@
 # Z
 
-The module contains 23 items.
+The module contains 25 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-5/Z/Zalando](../../simpleicons-5/Z/Zalando.png) | [simpleicons-5/Z/Zalando](../../simpleicons-5/Z/Zalando.md) |
+| ![illustration of simpleicons-5/Z/Zalo](../../simpleicons-5/Z/Zalo.png) | [simpleicons-5/Z/Zalo](../../simpleicons-5/Z/Zalo.md) |
 | ![illustration of simpleicons-5/Z/Zapier](../../simpleicons-5/Z/Zapier.png) | [simpleicons-5/Z/Zapier](../../simpleicons-5/Z/Zapier.md) |
 | ![illustration of simpleicons-5/Z/Zdf](../../simpleicons-5/Z/Zdf.png) | [simpleicons-5/Z/Zdf](../../simpleicons-5/Z/Zdf.md) |
 | ![illustration of simpleicons-5/Z/Zelle](../../simpleicons-5/Z/Zelle.png) | [simpleicons-5/Z/Zelle](../../simpleicons-5/Z/Zelle.md) |
@@ -18,6 +19,7 @@ The module contains 23 items.
 | ![illustration of simpleicons-5/Z/Zeromq](../../simpleicons-5/Z/Zeromq.png) | [simpleicons-5/Z/Zeromq](../../simpleicons-5/Z/Zeromq.md) |
 | ![illustration of simpleicons-5/Z/Zerply](../../simpleicons-5/Z/Zerply.png) | [simpleicons-5/Z/Zerply](../../simpleicons-5/Z/Zerply.md) |
 | ![illustration of simpleicons-5/Z/Zhihu](../../simpleicons-5/Z/Zhihu.png) | [simpleicons-5/Z/Zhihu](../../simpleicons-5/Z/Zhihu.md) |
+| ![illustration of simpleicons-5/Z/Zig](../../simpleicons-5/Z/Zig.png) | [simpleicons-5/Z/Zig](../../simpleicons-5/Z/Zig.md) |
 | ![illustration of simpleicons-5/Z/Zigbee](../../simpleicons-5/Z/Zigbee.png) | [simpleicons-5/Z/Zigbee](../../simpleicons-5/Z/Zigbee.md) |
 | ![illustration of simpleicons-5/Z/Zillow](../../simpleicons-5/Z/Zillow.png) | [simpleicons-5/Z/Zillow](../../simpleicons-5/Z/Zillow.md) |
 | ![illustration of simpleicons-5/Z/Zingat](../../simpleicons-5/Z/Zingat.png) | [simpleicons-5/Z/Zingat](../../simpleicons-5/Z/Zingat.md) |

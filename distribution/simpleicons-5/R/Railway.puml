@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/R/Railway
+
+sprite $RailwayXs [10x10/16z] uwS3
+
+sprite $RailwaySm [12x12/16z] unza
+
+sprite $RailwayMd [16x16/16z] un_X
+
+sprite $RailwayLg [20x20/16z] unzKO1G
+
+!procedure Railway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Railway', $name, $tech)
+!endprocedure

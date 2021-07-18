@@ -1,6 +1,6 @@
 # C
 
-The module contains 134 items.
+The module contains 137 items.
 
 
 
@@ -51,6 +51,7 @@ The module contains 134 items.
 | ![illustration of simpleicons-5/C/Citrix](../../simpleicons-5/C/Citrix.png) | [simpleicons-5/C/Citrix](../../simpleicons-5/C/Citrix.md) |
 | ![illustration of simpleicons-5/C/Citroen](../../simpleicons-5/C/Citroen.png) | [simpleicons-5/C/Citroen](../../simpleicons-5/C/Citroen.md) |
 | ![illustration of simpleicons-5/C/Civicrm](../../simpleicons-5/C/Civicrm.png) | [simpleicons-5/C/Civicrm](../../simpleicons-5/C/Civicrm.md) |
+| ![illustration of simpleicons-5/C/Civo](../../simpleicons-5/C/Civo.png) | [simpleicons-5/C/Civo](../../simpleicons-5/C/Civo.md) |
 | ![illustration of simpleicons-5/C/Ckeditor4](../../simpleicons-5/C/Ckeditor4.png) | [simpleicons-5/C/Ckeditor4](../../simpleicons-5/C/Ckeditor4.md) |
 | ![illustration of simpleicons-5/C/Claris](../../simpleicons-5/C/Claris.png) | [simpleicons-5/C/Claris](../../simpleicons-5/C/Claris.md) |
 | ![illustration of simpleicons-5/C/Clickup](../../simpleicons-5/C/Clickup.png) | [simpleicons-5/C/Clickup](../../simpleicons-5/C/Clickup.md) |
@@ -63,6 +64,7 @@ The module contains 134 items.
 | ![illustration of simpleicons-5/C/Cloudcannon](../../simpleicons-5/C/Cloudcannon.png) | [simpleicons-5/C/Cloudcannon](../../simpleicons-5/C/Cloudcannon.md) |
 | ![illustration of simpleicons-5/C/Cloudera](../../simpleicons-5/C/Cloudera.png) | [simpleicons-5/C/Cloudera](../../simpleicons-5/C/Cloudera.md) |
 | ![illustration of simpleicons-5/C/Cloudflare](../../simpleicons-5/C/Cloudflare.png) | [simpleicons-5/C/Cloudflare](../../simpleicons-5/C/Cloudflare.md) |
+| ![illustration of simpleicons-5/C/Cloudfoundry](../../simpleicons-5/C/Cloudfoundry.png) | [simpleicons-5/C/Cloudfoundry](../../simpleicons-5/C/Cloudfoundry.md) |
 | ![illustration of simpleicons-5/C/Cloudsmith](../../simpleicons-5/C/Cloudsmith.png) | [simpleicons-5/C/Cloudsmith](../../simpleicons-5/C/Cloudsmith.md) |
 | ![illustration of simpleicons-5/C/Cloudways](../../simpleicons-5/C/Cloudways.png) | [simpleicons-5/C/Cloudways](../../simpleicons-5/C/Cloudways.md) |
 | ![illustration of simpleicons-5/C/Clubhouse](../../simpleicons-5/C/Clubhouse.png) | [simpleicons-5/C/Clubhouse](../../simpleicons-5/C/Clubhouse.md) |
@@ -140,6 +142,7 @@ The module contains 134 items.
 | ![illustration of simpleicons-5/C/Curseforge](../../simpleicons-5/C/Curseforge.png) | [simpleicons-5/C/Curseforge](../../simpleicons-5/C/Curseforge.md) |
 | ![illustration of simpleicons-5/C/Cycling74](../../simpleicons-5/C/Cycling74.png) | [simpleicons-5/C/Cycling74](../../simpleicons-5/C/Cycling74.md) |
 | ![illustration of simpleicons-5/C/Cypress](../../simpleicons-5/C/Cypress.png) | [simpleicons-5/C/Cypress](../../simpleicons-5/C/Cypress.md) |
+| ![illustration of simpleicons-5/C/Cytoscapedotjs](../../simpleicons-5/C/Cytoscapedotjs.png) | [simpleicons-5/C/Cytoscapedotjs](../../simpleicons-5/C/Cytoscapedotjs.md) |
 
 
 

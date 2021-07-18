@@ -1,6 +1,6 @@
 # J
 
-The module contains 40 items.
+The module contains 41 items.
 
 
 
@@ -32,6 +32,7 @@ The module contains 40 items.
 | ![illustration of simpleicons-5/J/Jitsi](../../simpleicons-5/J/Jitsi.png) | [simpleicons-5/J/Jitsi](../../simpleicons-5/J/Jitsi.md) |
 | ![illustration of simpleicons-5/J/Johndeere](../../simpleicons-5/J/Johndeere.png) | [simpleicons-5/J/Johndeere](../../simpleicons-5/J/Johndeere.md) |
 | ![illustration of simpleicons-5/J/Joomla](../../simpleicons-5/J/Joomla.png) | [simpleicons-5/J/Joomla](../../simpleicons-5/J/Joomla.md) |
+| ![illustration of simpleicons-5/J/Jordan](../../simpleicons-5/J/Jordan.png) | [simpleicons-5/J/Jordan](../../simpleicons-5/J/Jordan.md) |
 | ![illustration of simpleicons-5/J/Jpeg](../../simpleicons-5/J/Jpeg.png) | [simpleicons-5/J/Jpeg](../../simpleicons-5/J/Jpeg.md) |
 | ![illustration of simpleicons-5/J/Jquery](../../simpleicons-5/J/Jquery.png) | [simpleicons-5/J/Jquery](../../simpleicons-5/J/Jquery.md) |
 | ![illustration of simpleicons-5/J/Jrgroup](../../simpleicons-5/J/Jrgroup.png) | [simpleicons-5/J/Jrgroup](../../simpleicons-5/J/Jrgroup.md) |

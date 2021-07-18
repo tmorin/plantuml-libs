@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/K/Konva
+
+sprite $KonvaXs [10x10/16z] uwS3
+
+sprite $KonvaSm [12x12/16z] unza
+
+sprite $KonvaMd [16x16/16z] un_X
+
+sprite $KonvaLg [20x20/16z] unzKO1G
+
+!procedure Konva($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/K/Konva', $name, $tech)
+!endprocedure

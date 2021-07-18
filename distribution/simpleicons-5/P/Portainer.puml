@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Portainer
+
+sprite $PortainerXs [10x10/16z] uwS3
+
+sprite $PortainerSm [12x12/16z] unza
+
+sprite $PortainerMd [16x16/16z] un_X
+
+sprite $PortainerLg [20x20/16z] unzKO1G
+
+!procedure Portainer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Portainer', $name, $tech)
+!endprocedure

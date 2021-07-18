@@ -1,11 +1,12 @@
 # E
 
-The module contains 57 items.
+The module contains 59 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-5/E/E](../../simpleicons-5/E/E.png) | [simpleicons-5/E/E](../../simpleicons-5/E/E.md) |
 | ![illustration of simpleicons-5/E/Ea](../../simpleicons-5/E/Ea.png) | [simpleicons-5/E/Ea](../../simpleicons-5/E/Ea.md) |
 | ![illustration of simpleicons-5/E/Eagle](../../simpleicons-5/E/Eagle.png) | [simpleicons-5/E/Eagle](../../simpleicons-5/E/Eagle.md) |
 | ![illustration of simpleicons-5/E/Easyjet](../../simpleicons-5/E/Easyjet.png) | [simpleicons-5/E/Easyjet](../../simpleicons-5/E/Easyjet.md) |
@@ -62,6 +63,7 @@ The module contains 57 items.
 | ![illustration of simpleicons-5/E/Expertsexchange](../../simpleicons-5/E/Expertsexchange.png) | [simpleicons-5/E/Expertsexchange](../../simpleicons-5/E/Expertsexchange.md) |
 | ![illustration of simpleicons-5/E/Expo](../../simpleicons-5/E/Expo.png) | [simpleicons-5/E/Expo](../../simpleicons-5/E/Expo.md) |
 | ![illustration of simpleicons-5/E/Express](../../simpleicons-5/E/Express.png) | [simpleicons-5/E/Express](../../simpleicons-5/E/Express.md) |
+| ![illustration of simpleicons-5/E/Expressvpn](../../simpleicons-5/E/Expressvpn.png) | [simpleicons-5/E/Expressvpn](../../simpleicons-5/E/Expressvpn.md) |
 | ![illustration of simpleicons-5/E/Eyeem](../../simpleicons-5/E/Eyeem.png) | [simpleicons-5/E/Eyeem](../../simpleicons-5/E/Eyeem.md) |
 
 

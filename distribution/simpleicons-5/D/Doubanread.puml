@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/D/Doubanread
+
+sprite $DoubanreadXs [10x10/16z] uwS3
+
+sprite $DoubanreadSm [12x12/16z] unza
+
+sprite $DoubanreadMd [16x16/16z] un_X
+
+sprite $DoubanreadLg [20x20/16z] unzKO1G
+
+!procedure Doubanread($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/D/Doubanread', $name, $tech)
+!endprocedure

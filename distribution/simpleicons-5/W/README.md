@@ -1,6 +1,6 @@
 # W
 
-The module contains 65 items.
+The module contains 66 items.
 
 
 
@@ -10,6 +10,7 @@ The module contains 65 items.
 | ![illustration of simpleicons-5/W/Wagtail](../../simpleicons-5/W/Wagtail.png) | [simpleicons-5/W/Wagtail](../../simpleicons-5/W/Wagtail.md) |
 | ![illustration of simpleicons-5/W/Wakatime](../../simpleicons-5/W/Wakatime.png) | [simpleicons-5/W/Wakatime](../../simpleicons-5/W/Wakatime.md) |
 | ![illustration of simpleicons-5/W/Walkman](../../simpleicons-5/W/Walkman.png) | [simpleicons-5/W/Walkman](../../simpleicons-5/W/Walkman.md) |
+| ![illustration of simpleicons-5/W/Wallabag](../../simpleicons-5/W/Wallabag.png) | [simpleicons-5/W/Wallabag](../../simpleicons-5/W/Wallabag.md) |
 | ![illustration of simpleicons-5/W/Wappalyzer](../../simpleicons-5/W/Wappalyzer.png) | [simpleicons-5/W/Wappalyzer](../../simpleicons-5/W/Wappalyzer.md) |
 | ![illustration of simpleicons-5/W/Warnerbros](../../simpleicons-5/W/Warnerbros.png) | [simpleicons-5/W/Warnerbros](../../simpleicons-5/W/Warnerbros.md) |
 | ![illustration of simpleicons-5/W/Wattpad](../../simpleicons-5/W/Wattpad.png) | [simpleicons-5/W/Wattpad](../../simpleicons-5/W/Wattpad.md) |

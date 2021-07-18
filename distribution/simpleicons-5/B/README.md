@@ -1,6 +1,6 @@
 # B
 
-The module contains 78 items.
+The module contains 82 items.
 
 
 
@@ -32,9 +32,11 @@ The module contains 78 items.
 | ![illustration of simpleicons-5/B/Bentley](../../simpleicons-5/B/Bentley.png) | [simpleicons-5/B/Bentley](../../simpleicons-5/B/Bentley.md) |
 | ![illustration of simpleicons-5/B/Betfair](../../simpleicons-5/B/Betfair.png) | [simpleicons-5/B/Betfair](../../simpleicons-5/B/Betfair.md) |
 | ![illustration of simpleicons-5/B/Bigbasket](../../simpleicons-5/B/Bigbasket.png) | [simpleicons-5/B/Bigbasket](../../simpleicons-5/B/Bigbasket.md) |
+| ![illustration of simpleicons-5/B/Bigbluebutton](../../simpleicons-5/B/Bigbluebutton.png) | [simpleicons-5/B/Bigbluebutton](../../simpleicons-5/B/Bigbluebutton.md) |
 | ![illustration of simpleicons-5/B/Bigcartel](../../simpleicons-5/B/Bigcartel.png) | [simpleicons-5/B/Bigcartel](../../simpleicons-5/B/Bigcartel.md) |
 | ![illustration of simpleicons-5/B/Bigcommerce](../../simpleicons-5/B/Bigcommerce.png) | [simpleicons-5/B/Bigcommerce](../../simpleicons-5/B/Bigcommerce.md) |
 | ![illustration of simpleicons-5/B/Bilibili](../../simpleicons-5/B/Bilibili.png) | [simpleicons-5/B/Bilibili](../../simpleicons-5/B/Bilibili.md) |
+| ![illustration of simpleicons-5/B/Binance](../../simpleicons-5/B/Binance.png) | [simpleicons-5/B/Binance](../../simpleicons-5/B/Binance.md) |
 | ![illustration of simpleicons-5/B/Bit](../../simpleicons-5/B/Bit.png) | [simpleicons-5/B/Bit](../../simpleicons-5/B/Bit.md) |
 | ![illustration of simpleicons-5/B/Bitbucket](../../simpleicons-5/B/Bitbucket.png) | [simpleicons-5/B/Bitbucket](../../simpleicons-5/B/Bitbucket.md) |
 | ![illustration of simpleicons-5/B/Bitcoin](../../simpleicons-5/B/Bitcoin.png) | [simpleicons-5/B/Bitcoin](../../simpleicons-5/B/Bitcoin.md) |
@@ -56,6 +58,7 @@ The module contains 78 items.
 | ![illustration of simpleicons-5/B/Bluetooth](../../simpleicons-5/B/Bluetooth.png) | [simpleicons-5/B/Bluetooth](../../simpleicons-5/B/Bluetooth.md) |
 | ![illustration of simpleicons-5/B/Bmcsoftware](../../simpleicons-5/B/Bmcsoftware.png) | [simpleicons-5/B/Bmcsoftware](../../simpleicons-5/B/Bmcsoftware.md) |
 | ![illustration of simpleicons-5/B/Bmw](../../simpleicons-5/B/Bmw.png) | [simpleicons-5/B/Bmw](../../simpleicons-5/B/Bmw.md) |
+| ![illustration of simpleicons-5/B/Boehringeringelheim](../../simpleicons-5/B/Boehringeringelheim.png) | [simpleicons-5/B/Boehringeringelheim](../../simpleicons-5/B/Boehringeringelheim.md) |
 | ![illustration of simpleicons-5/B/Boeing](../../simpleicons-5/B/Boeing.png) | [simpleicons-5/B/Boeing](../../simpleicons-5/B/Boeing.md) |
 | ![illustration of simpleicons-5/B/Bookbub](../../simpleicons-5/B/Bookbub.png) | [simpleicons-5/B/Bookbub](../../simpleicons-5/B/Bookbub.md) |
 | ![illustration of simpleicons-5/B/Bookmeter](../../simpleicons-5/B/Bookmeter.png) | [simpleicons-5/B/Bookmeter](../../simpleicons-5/B/Bookmeter.md) |
@@ -84,6 +87,7 @@ The module contains 78 items.
 | ![illustration of simpleicons-5/B/Buymeacoffee](../../simpleicons-5/B/Buymeacoffee.png) | [simpleicons-5/B/Buymeacoffee](../../simpleicons-5/B/Buymeacoffee.md) |
 | ![illustration of simpleicons-5/B/Buzzfeed](../../simpleicons-5/B/Buzzfeed.png) | [simpleicons-5/B/Buzzfeed](../../simpleicons-5/B/Buzzfeed.md) |
 | ![illustration of simpleicons-5/B/Byte](../../simpleicons-5/B/Byte.png) | [simpleicons-5/B/Byte](../../simpleicons-5/B/Byte.md) |
+| ![illustration of simpleicons-5/B/Bytedance](../../simpleicons-5/B/Bytedance.png) | [simpleicons-5/B/Bytedance](../../simpleicons-5/B/Bytedance.md) |
 
 
 
