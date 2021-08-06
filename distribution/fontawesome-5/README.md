@@ -18,7 +18,7 @@ include('fontawesome-5/bootstrap')
 
 The package provides 3 modules.
 
-- [fontawesome-5/Brands](../fontawesome-5/Brands/README.md) with 458 items
+- [fontawesome-5/Brands](../fontawesome-5/Brands/README.md) with 457 items
 - [fontawesome-5/Regular](../fontawesome-5/Regular/README.md) with 152 items
 - [fontawesome-5/Solid](../fontawesome-5/Solid/README.md) with 1002 items
 

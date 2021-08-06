@@ -1,6 +1,6 @@
 # Brands
 
-The module contains 458 items.
+The module contains 457 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -521,7 +521,6 @@ The module contains 458 items.
 | ![illustration of fontawesome-5/Brands/Tiktok](../../fontawesome-5/Brands/Tiktok.png) | [fontawesome-5/Brands/Tiktok](../../fontawesome-5/Brands/Tiktok.md) |
 | ![illustration of fontawesome-5/Brands/TradeFederation](../../fontawesome-5/Brands/TradeFederation.png) | [fontawesome-5/Brands/TradeFederation](../../fontawesome-5/Brands/TradeFederation.md) |
 | ![illustration of fontawesome-5/Brands/Trello](../../fontawesome-5/Brands/Trello.png) | [fontawesome-5/Brands/Trello](../../fontawesome-5/Brands/Trello.md) |
-| ![illustration of fontawesome-5/Brands/Tripadvisor](../../fontawesome-5/Brands/Tripadvisor.png) | [fontawesome-5/Brands/Tripadvisor](../../fontawesome-5/Brands/Tripadvisor.md) |
 | ![illustration of fontawesome-5/Brands/Tumblr](../../fontawesome-5/Brands/Tumblr.png) | [fontawesome-5/Brands/Tumblr](../../fontawesome-5/Brands/Tumblr.md) |
 | ![illustration of fontawesome-5/Brands/TumblrSquare](../../fontawesome-5/Brands/TumblrSquare.png) | [fontawesome-5/Brands/TumblrSquare](../../fontawesome-5/Brands/TumblrSquare.md) |
 | ![illustration of fontawesome-5/Brands/Twitch](../../fontawesome-5/Brands/Twitch.png) | [fontawesome-5/Brands/Twitch](../../fontawesome-5/Brands/Twitch.md) |
