@@ -1,6 +1,6 @@
 # D
 
-The module contains 83 items.
+The module contains 85 items.
 
 
 
@@ -74,6 +74,7 @@ The module contains 83 items.
 | ![illustration of simpleicons-5/D/Dotnet](../../simpleicons-5/D/Dotnet.png) | [simpleicons-5/D/Dotnet](../../simpleicons-5/D/Dotnet.md) |
 | ![illustration of simpleicons-5/D/Douban](../../simpleicons-5/D/Douban.png) | [simpleicons-5/D/Douban](../../simpleicons-5/D/Douban.md) |
 | ![illustration of simpleicons-5/D/Doubanread](../../simpleicons-5/D/Doubanread.png) | [simpleicons-5/D/Doubanread](../../simpleicons-5/D/Doubanread.md) |
+| ![illustration of simpleicons-5/D/Dpd](../../simpleicons-5/D/Dpd.png) | [simpleicons-5/D/Dpd](../../simpleicons-5/D/Dpd.md) |
 | ![illustration of simpleicons-5/D/Draugiemdotlv](../../simpleicons-5/D/Draugiemdotlv.png) | [simpleicons-5/D/Draugiemdotlv](../../simpleicons-5/D/Draugiemdotlv.md) |
 | ![illustration of simpleicons-5/D/Dribbble](../../simpleicons-5/D/Dribbble.png) | [simpleicons-5/D/Dribbble](../../simpleicons-5/D/Dribbble.md) |
 | ![illustration of simpleicons-5/D/Drone](../../simpleicons-5/D/Drone.png) | [simpleicons-5/D/Drone](../../simpleicons-5/D/Drone.md) |
@@ -83,6 +84,7 @@ The module contains 83 items.
 | ![illustration of simpleicons-5/D/Dsautomobiles](../../simpleicons-5/D/Dsautomobiles.png) | [simpleicons-5/D/Dsautomobiles](../../simpleicons-5/D/Dsautomobiles.md) |
 | ![illustration of simpleicons-5/D/Dtube](../../simpleicons-5/D/Dtube.png) | [simpleicons-5/D/Dtube](../../simpleicons-5/D/Dtube.md) |
 | ![illustration of simpleicons-5/D/Duckduckgo](../../simpleicons-5/D/Duckduckgo.png) | [simpleicons-5/D/Duckduckgo](../../simpleicons-5/D/Duckduckgo.md) |
+| ![illustration of simpleicons-5/D/Dungeonsanddragons](../../simpleicons-5/D/Dungeonsanddragons.png) | [simpleicons-5/D/Dungeonsanddragons](../../simpleicons-5/D/Dungeonsanddragons.md) |
 | ![illustration of simpleicons-5/D/Dunked](../../simpleicons-5/D/Dunked.png) | [simpleicons-5/D/Dunked](../../simpleicons-5/D/Dunked.md) |
 | ![illustration of simpleicons-5/D/Duolingo](../../simpleicons-5/D/Duolingo.png) | [simpleicons-5/D/Duolingo](../../simpleicons-5/D/Duolingo.md) |
 | ![illustration of simpleicons-5/D/Dwavesystems](../../simpleicons-5/D/Dwavesystems.png) | [simpleicons-5/D/Dwavesystems](../../simpleicons-5/D/Dwavesystems.md) |

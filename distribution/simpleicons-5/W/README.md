@@ -1,6 +1,6 @@
 # W
 
-The module contains 66 items.
+The module contains 67 items.
 
 
 
@@ -46,6 +46,7 @@ The module contains 66 items.
 | ![illustration of simpleicons-5/W/Wikipedia](../../simpleicons-5/W/Wikipedia.png) | [simpleicons-5/W/Wikipedia](../../simpleicons-5/W/Wikipedia.md) |
 | ![illustration of simpleicons-5/W/Wikiquote](../../simpleicons-5/W/Wikiquote.png) | [simpleicons-5/W/Wikiquote](../../simpleicons-5/W/Wikiquote.md) |
 | ![illustration of simpleicons-5/W/Wikivoyage](../../simpleicons-5/W/Wikivoyage.png) | [simpleicons-5/W/Wikivoyage](../../simpleicons-5/W/Wikivoyage.md) |
+| ![illustration of simpleicons-5/W/Windicss](../../simpleicons-5/W/Windicss.png) | [simpleicons-5/W/Windicss](../../simpleicons-5/W/Windicss.md) |
 | ![illustration of simpleicons-5/W/Windows](../../simpleicons-5/W/Windows.png) | [simpleicons-5/W/Windows](../../simpleicons-5/W/Windows.md) |
 | ![illustration of simpleicons-5/W/Windows95](../../simpleicons-5/W/Windows95.png) | [simpleicons-5/W/Windows95](../../simpleicons-5/W/Windows95.md) |
 | ![illustration of simpleicons-5/W/Windowsterminal](../../simpleicons-5/W/Windowsterminal.png) | [simpleicons-5/W/Windowsterminal](../../simpleicons-5/W/Windowsterminal.md) |

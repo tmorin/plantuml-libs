@@ -1,6 +1,6 @@
 # I
 
-The module contains 54 items.
+The module contains 55 items.
 
 
 
@@ -57,6 +57,7 @@ The module contains 54 items.
 | ![illustration of simpleicons-5/I/Iota](../../simpleicons-5/I/Iota.png) | [simpleicons-5/I/Iota](../../simpleicons-5/I/Iota.md) |
 | ![illustration of simpleicons-5/I/Ipfs](../../simpleicons-5/I/Ipfs.png) | [simpleicons-5/I/Ipfs](../../simpleicons-5/I/Ipfs.md) |
 | ![illustration of simpleicons-5/I/Issuu](../../simpleicons-5/I/Issuu.png) | [simpleicons-5/I/Issuu](../../simpleicons-5/I/Issuu.md) |
+| ![illustration of simpleicons-5/I/Istio](../../simpleicons-5/I/Istio.png) | [simpleicons-5/I/Istio](../../simpleicons-5/I/Istio.md) |
 | ![illustration of simpleicons-5/I/Itchdotio](../../simpleicons-5/I/Itchdotio.png) | [simpleicons-5/I/Itchdotio](../../simpleicons-5/I/Itchdotio.md) |
 | ![illustration of simpleicons-5/I/Itunes](../../simpleicons-5/I/Itunes.png) | [simpleicons-5/I/Itunes](../../simpleicons-5/I/Itunes.md) |
 | ![illustration of simpleicons-5/I/Iveco](../../simpleicons-5/I/Iveco.png) | [simpleicons-5/I/Iveco](../../simpleicons-5/I/Iveco.md) |

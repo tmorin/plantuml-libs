@@ -1,6 +1,6 @@
 # P
 
-The module contains 142 items.
+The module contains 143 items.
 
 
 
@@ -8,6 +8,7 @@ The module contains 142 items.
 |:---:|---|
 | ![illustration of simpleicons-5/P/P5Dotjs](../../simpleicons-5/P/P5Dotjs.png) | [simpleicons-5/P/P5Dotjs](../../simpleicons-5/P/P5Dotjs.md) |
 | ![illustration of simpleicons-5/P/Packagist](../../simpleicons-5/P/Packagist.png) | [simpleicons-5/P/Packagist](../../simpleicons-5/P/Packagist.md) |
+| ![illustration of simpleicons-5/P/Packer](../../simpleicons-5/P/Packer.png) | [simpleicons-5/P/Packer](../../simpleicons-5/P/Packer.md) |
 | ![illustration of simpleicons-5/P/Paddypower](../../simpleicons-5/P/Paddypower.png) | [simpleicons-5/P/Paddypower](../../simpleicons-5/P/Paddypower.md) |
 | ![illustration of simpleicons-5/P/Pagekit](../../simpleicons-5/P/Pagekit.png) | [simpleicons-5/P/Pagekit](../../simpleicons-5/P/Pagekit.md) |
 | ![illustration of simpleicons-5/P/Pagerduty](../../simpleicons-5/P/Pagerduty.png) | [simpleicons-5/P/Pagerduty](../../simpleicons-5/P/Pagerduty.md) |
