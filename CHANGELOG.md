@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.2.0](https://github.com/tmorin/plantuml-libs/compare/v4.1.0...v4.2.0) (2021-08-07)
+
+
+### Features
+
+* **fontawesome-5:** upgrade to 5.15.4 ([0b29941](https://github.com/tmorin/plantuml-libs/commit/0b299414e002e953d112c385056daa0bd651f211))
+* **simpleicons-5:** upgrade to 5.8.1 ([d8e48df](https://github.com/tmorin/plantuml-libs/commit/d8e48dfd339353933a97781d32cf125f5a288439))
+
 ## [4.1.0](https://github.com/tmorin/plantuml-libs/compare/v4.0.0...v4.1.0) (2021-07-18)
 
 
