@@ -1,6 +1,6 @@
 # A
 
-The module contains 183 items.
+The module contains 184 items.
 
 
 
@@ -65,6 +65,7 @@ The module contains 183 items.
 | ![illustration of simpleicons-5/A/Airtable](../../simpleicons-5/A/Airtable.png) | [simpleicons-5/A/Airtable](../../simpleicons-5/A/Airtable.md) |
 | ![illustration of simpleicons-5/A/Alacritty](../../simpleicons-5/A/Alacritty.png) | [simpleicons-5/A/Alacritty](../../simpleicons-5/A/Alacritty.md) |
 | ![illustration of simpleicons-5/A/Alfaromeo](../../simpleicons-5/A/Alfaromeo.png) | [simpleicons-5/A/Alfaromeo](../../simpleicons-5/A/Alfaromeo.md) |
+| ![illustration of simpleicons-5/A/Alfred](../../simpleicons-5/A/Alfred.png) | [simpleicons-5/A/Alfred](../../simpleicons-5/A/Alfred.md) |
 | ![illustration of simpleicons-5/A/Algolia](../../simpleicons-5/A/Algolia.png) | [simpleicons-5/A/Algolia](../../simpleicons-5/A/Algolia.md) |
 | ![illustration of simpleicons-5/A/Alibabacloud](../../simpleicons-5/A/Alibabacloud.png) | [simpleicons-5/A/Alibabacloud](../../simpleicons-5/A/Alibabacloud.md) |
 | ![illustration of simpleicons-5/A/Alibabadotcom](../../simpleicons-5/A/Alibabadotcom.png) | [simpleicons-5/A/Alibabadotcom](../../simpleicons-5/A/Alibabadotcom.md) |

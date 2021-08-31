@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/H/Hetzner
+
+sprite $HetznerXs [10x10/16z] uwS3
+
+sprite $HetznerSm [12x12/16z] unza
+
+sprite $HetznerMd [16x16/16z] un_X
+
+sprite $HetznerLg [20x20/16z] unzKO1G
+
+!procedure Hetzner($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/H/Hetzner', $name, $tech)
+!endprocedure

@@ -1,6 +1,6 @@
 # R
 
-The module contains 80 items.
+The module contains 81 items.
 
 
 
@@ -56,6 +56,7 @@ The module contains 80 items.
 | ![illustration of simpleicons-5/R/Rezgo](../../simpleicons-5/R/Rezgo.png) | [simpleicons-5/R/Rezgo](../../simpleicons-5/R/Rezgo.md) |
 | ![illustration of simpleicons-5/R/Rhinoceros](../../simpleicons-5/R/Rhinoceros.png) | [simpleicons-5/R/Rhinoceros](../../simpleicons-5/R/Rhinoceros.md) |
 | ![illustration of simpleicons-5/R/Rider](../../simpleicons-5/R/Rider.png) | [simpleicons-5/R/Rider](../../simpleicons-5/R/Rider.md) |
+| ![illustration of simpleicons-5/R/Rimacautomobili](../../simpleicons-5/R/Rimacautomobili.png) | [simpleicons-5/R/Rimacautomobili](../../simpleicons-5/R/Rimacautomobili.md) |
 | ![illustration of simpleicons-5/R/Ring](../../simpleicons-5/R/Ring.png) | [simpleicons-5/R/Ring](../../simpleicons-5/R/Ring.md) |
 | ![illustration of simpleicons-5/R/Riotgames](../../simpleicons-5/R/Riotgames.png) | [simpleicons-5/R/Riotgames](../../simpleicons-5/R/Riotgames.md) |
 | ![illustration of simpleicons-5/R/Ripple](../../simpleicons-5/R/Ripple.png) | [simpleicons-5/R/Ripple](../../simpleicons-5/R/Ripple.md) |

@@ -1,6 +1,6 @@
 # T
 
-The module contains 103 items.
+The module contains 104 items.
 
 
 
@@ -14,6 +14,7 @@ The module contains 103 items.
 | ![illustration of simpleicons-5/T/Tampermonkey](../../simpleicons-5/T/Tampermonkey.png) | [simpleicons-5/T/Tampermonkey](../../simpleicons-5/T/Tampermonkey.md) |
 | ![illustration of simpleicons-5/T/Taobao](../../simpleicons-5/T/Taobao.png) | [simpleicons-5/T/Taobao](../../simpleicons-5/T/Taobao.md) |
 | ![illustration of simpleicons-5/T/Tapas](../../simpleicons-5/T/Tapas.png) | [simpleicons-5/T/Tapas](../../simpleicons-5/T/Tapas.md) |
+| ![illustration of simpleicons-5/T/Target](../../simpleicons-5/T/Target.png) | [simpleicons-5/T/Target](../../simpleicons-5/T/Target.md) |
 | ![illustration of simpleicons-5/T/Tasmota](../../simpleicons-5/T/Tasmota.png) | [simpleicons-5/T/Tasmota](../../simpleicons-5/T/Tasmota.md) |
 | ![illustration of simpleicons-5/T/Tata](../../simpleicons-5/T/Tata.png) | [simpleicons-5/T/Tata](../../simpleicons-5/T/Tata.md) |
 | ![illustration of simpleicons-5/T/Taxbuzz](../../simpleicons-5/T/Taxbuzz.png) | [simpleicons-5/T/Taxbuzz](../../simpleicons-5/T/Taxbuzz.md) |

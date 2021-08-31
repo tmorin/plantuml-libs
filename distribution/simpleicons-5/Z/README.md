@@ -1,6 +1,6 @@
 # Z
 
-The module contains 25 items.
+The module contains 26 items.
 
 
 
@@ -15,6 +15,7 @@ The module contains 25 items.
 | ![illustration of simpleicons-5/Z/Zendesk](../../simpleicons-5/Z/Zendesk.png) | [simpleicons-5/Z/Zendesk](../../simpleicons-5/Z/Zendesk.md) |
 | ![illustration of simpleicons-5/Z/Zendframework](../../simpleicons-5/Z/Zendframework.png) | [simpleicons-5/Z/Zendframework](../../simpleicons-5/Z/Zendframework.md) |
 | ![illustration of simpleicons-5/Z/Zenn](../../simpleicons-5/Z/Zenn.png) | [simpleicons-5/Z/Zenn](../../simpleicons-5/Z/Zenn.md) |
+| ![illustration of simpleicons-5/Z/Zenodo](../../simpleicons-5/Z/Zenodo.png) | [simpleicons-5/Z/Zenodo](../../simpleicons-5/Z/Zenodo.md) |
 | ![illustration of simpleicons-5/Z/Zerodha](../../simpleicons-5/Z/Zerodha.png) | [simpleicons-5/Z/Zerodha](../../simpleicons-5/Z/Zerodha.md) |
 | ![illustration of simpleicons-5/Z/Zeromq](../../simpleicons-5/Z/Zeromq.png) | [simpleicons-5/Z/Zeromq](../../simpleicons-5/Z/Zeromq.md) |
 | ![illustration of simpleicons-5/Z/Zerply](../../simpleicons-5/Z/Zerply.png) | [simpleicons-5/Z/Zerply](../../simpleicons-5/Z/Zerply.md) |

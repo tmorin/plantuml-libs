@@ -1,6 +1,6 @@
 # H
 
-The module contains 63 items.
+The module contains 64 items.
 
 
 
@@ -34,6 +34,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-5/H/Helpdesk](../../simpleicons-5/H/Helpdesk.png) | [simpleicons-5/H/Helpdesk](../../simpleicons-5/H/Helpdesk.md) |
 | ![illustration of simpleicons-5/H/Here](../../simpleicons-5/H/Here.png) | [simpleicons-5/H/Here](../../simpleicons-5/H/Here.md) |
 | ![illustration of simpleicons-5/H/Heroku](../../simpleicons-5/H/Heroku.png) | [simpleicons-5/H/Heroku](../../simpleicons-5/H/Heroku.md) |
+| ![illustration of simpleicons-5/H/Hetzner](../../simpleicons-5/H/Hetzner.png) | [simpleicons-5/H/Hetzner](../../simpleicons-5/H/Hetzner.md) |
 | ![illustration of simpleicons-5/H/Hexo](../../simpleicons-5/H/Hexo.png) | [simpleicons-5/H/Hexo](../../simpleicons-5/H/Hexo.md) |
 | ![illustration of simpleicons-5/H/Hey](../../simpleicons-5/H/Hey.png) | [simpleicons-5/H/Hey](../../simpleicons-5/H/Hey.md) |
 | ![illustration of simpleicons-5/H/Hibernate](../../simpleicons-5/H/Hibernate.png) | [simpleicons-5/H/Hibernate](../../simpleicons-5/H/Hibernate.md) |

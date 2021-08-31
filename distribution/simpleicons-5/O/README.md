@@ -1,6 +1,6 @@
 # O
 
-The module contains 55 items.
+The module contains 56 items.
 
 
 
@@ -35,6 +35,7 @@ The module contains 55 items.
 | ![illustration of simpleicons-5/O/Opengl](../../simpleicons-5/O/Opengl.png) | [simpleicons-5/O/Opengl](../../simpleicons-5/O/Opengl.md) |
 | ![illustration of simpleicons-5/O/Openid](../../simpleicons-5/O/Openid.png) | [simpleicons-5/O/Openid](../../simpleicons-5/O/Openid.md) |
 | ![illustration of simpleicons-5/O/Openlayers](../../simpleicons-5/O/Openlayers.png) | [simpleicons-5/O/Openlayers](../../simpleicons-5/O/Openlayers.md) |
+| ![illustration of simpleicons-5/O/Openmined](../../simpleicons-5/O/Openmined.png) | [simpleicons-5/O/Openmined](../../simpleicons-5/O/Openmined.md) |
 | ![illustration of simpleicons-5/O/Opennebula](../../simpleicons-5/O/Opennebula.png) | [simpleicons-5/O/Opennebula](../../simpleicons-5/O/Opennebula.md) |
 | ![illustration of simpleicons-5/O/Opensourceinitiative](../../simpleicons-5/O/Opensourceinitiative.png) | [simpleicons-5/O/Opensourceinitiative](../../simpleicons-5/O/Opensourceinitiative.md) |
 | ![illustration of simpleicons-5/O/Openssl](../../simpleicons-5/O/Openssl.png) | [simpleicons-5/O/Openssl](../../simpleicons-5/O/Openssl.md) |

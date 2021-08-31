@@ -1,6 +1,6 @@
 # D
 
-The module contains 85 items.
+The module contains 86 items.
 
 
 
@@ -45,6 +45,7 @@ The module contains 85 items.
 | ![illustration of simpleicons-5/D/Deutschebahn](../../simpleicons-5/D/Deutschebahn.png) | [simpleicons-5/D/Deutschebahn](../../simpleicons-5/D/Deutschebahn.md) |
 | ![illustration of simpleicons-5/D/Deutschebank](../../simpleicons-5/D/Deutschebank.png) | [simpleicons-5/D/Deutschebank](../../simpleicons-5/D/Deutschebank.md) |
 | ![illustration of simpleicons-5/D/Devdotto](../../simpleicons-5/D/Devdotto.png) | [simpleicons-5/D/Devdotto](../../simpleicons-5/D/Devdotto.md) |
+| ![illustration of simpleicons-5/D/Devexpress](../../simpleicons-5/D/Devexpress.png) | [simpleicons-5/D/Devexpress](../../simpleicons-5/D/Devexpress.md) |
 | ![illustration of simpleicons-5/D/Deviantart](../../simpleicons-5/D/Deviantart.png) | [simpleicons-5/D/Deviantart](../../simpleicons-5/D/Deviantart.md) |
 | ![illustration of simpleicons-5/D/Devpost](../../simpleicons-5/D/Devpost.png) | [simpleicons-5/D/Devpost](../../simpleicons-5/D/Devpost.md) |
 | ![illustration of simpleicons-5/D/Devrant](../../simpleicons-5/D/Devrant.png) | [simpleicons-5/D/Devrant](../../simpleicons-5/D/Devrant.md) |

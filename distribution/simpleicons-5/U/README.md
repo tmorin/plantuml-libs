@@ -1,6 +1,6 @@
 # U
 
-The module contains 29 items.
+The module contains 30 items.
 
 
 
@@ -19,6 +19,7 @@ The module contains 29 items.
 | ![illustration of simpleicons-5/U/Ulule](../../simpleicons-5/U/Ulule.png) | [simpleicons-5/U/Ulule](../../simpleicons-5/U/Ulule.md) |
 | ![illustration of simpleicons-5/U/Umbraco](../../simpleicons-5/U/Umbraco.png) | [simpleicons-5/U/Umbraco](../../simpleicons-5/U/Umbraco.md) |
 | ![illustration of simpleicons-5/U/Unacademy](../../simpleicons-5/U/Unacademy.png) | [simpleicons-5/U/Unacademy](../../simpleicons-5/U/Unacademy.md) |
+| ![illustration of simpleicons-5/U/Underarmour](../../simpleicons-5/U/Underarmour.png) | [simpleicons-5/U/Underarmour](../../simpleicons-5/U/Underarmour.md) |
 | ![illustration of simpleicons-5/U/Undertale](../../simpleicons-5/U/Undertale.png) | [simpleicons-5/U/Undertale](../../simpleicons-5/U/Undertale.md) |
 | ![illustration of simpleicons-5/U/Unicode](../../simpleicons-5/U/Unicode.png) | [simpleicons-5/U/Unicode](../../simpleicons-5/U/Unicode.md) |
 | ![illustration of simpleicons-5/U/Unilever](../../simpleicons-5/U/Unilever.png) | [simpleicons-5/U/Unilever](../../simpleicons-5/U/Unilever.md) |

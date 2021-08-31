@@ -1,6 +1,6 @@
 # L
 
-The module contains 60 items.
+The module contains 61 items.
 
 
 
@@ -34,6 +34,7 @@ The module contains 60 items.
 | ![illustration of simpleicons-5/L/Libreoffice](../../simpleicons-5/L/Libreoffice.png) | [simpleicons-5/L/Libreoffice](../../simpleicons-5/L/Libreoffice.md) |
 | ![illustration of simpleicons-5/L/Libuv](../../simpleicons-5/L/Libuv.png) | [simpleicons-5/L/Libuv](../../simpleicons-5/L/Libuv.md) |
 | ![illustration of simpleicons-5/L/Lichess](../../simpleicons-5/L/Lichess.png) | [simpleicons-5/L/Lichess](../../simpleicons-5/L/Lichess.md) |
+| ![illustration of simpleicons-5/L/Lidl](../../simpleicons-5/L/Lidl.png) | [simpleicons-5/L/Lidl](../../simpleicons-5/L/Lidl.md) |
 | ![illustration of simpleicons-5/L/Lifx](../../simpleicons-5/L/Lifx.png) | [simpleicons-5/L/Lifx](../../simpleicons-5/L/Lifx.md) |
 | ![illustration of simpleicons-5/L/Lighthouse](../../simpleicons-5/L/Lighthouse.png) | [simpleicons-5/L/Lighthouse](../../simpleicons-5/L/Lighthouse.md) |
 | ![illustration of simpleicons-5/L/Line](../../simpleicons-5/L/Line.png) | [simpleicons-5/L/Line](../../simpleicons-5/L/Line.md) |

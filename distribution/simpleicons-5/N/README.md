@@ -1,6 +1,6 @@
 # N
 
-The module contains 60 items.
+The module contains 61 items.
 
 
 
@@ -25,6 +25,7 @@ The module contains 60 items.
 | ![illustration of simpleicons-5/N/Netflix](../../simpleicons-5/N/Netflix.png) | [simpleicons-5/N/Netflix](../../simpleicons-5/N/Netflix.md) |
 | ![illustration of simpleicons-5/N/Netlify](../../simpleicons-5/N/Netlify.png) | [simpleicons-5/N/Netlify](../../simpleicons-5/N/Netlify.md) |
 | ![illustration of simpleicons-5/N/Nette](../../simpleicons-5/N/Nette.png) | [simpleicons-5/N/Nette](../../simpleicons-5/N/Nette.md) |
+| ![illustration of simpleicons-5/N/Newbalance](../../simpleicons-5/N/Newbalance.png) | [simpleicons-5/N/Newbalance](../../simpleicons-5/N/Newbalance.md) |
 | ![illustration of simpleicons-5/N/Newjapanprowrestling](../../simpleicons-5/N/Newjapanprowrestling.png) | [simpleicons-5/N/Newjapanprowrestling](../../simpleicons-5/N/Newjapanprowrestling.md) |
 | ![illustration of simpleicons-5/N/Newrelic](../../simpleicons-5/N/Newrelic.png) | [simpleicons-5/N/Newrelic](../../simpleicons-5/N/Newrelic.md) |
 | ![illustration of simpleicons-5/N/Newyorktimes](../../simpleicons-5/N/Newyorktimes.png) | [simpleicons-5/N/Newyorktimes](../../simpleicons-5/N/Newyorktimes.md) |

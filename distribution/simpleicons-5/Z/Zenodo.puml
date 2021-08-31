@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/Z/Zenodo
+
+sprite $ZenodoXs [10x10/16z] uwS3
+
+sprite $ZenodoSm [12x12/16z] unza
+
+sprite $ZenodoMd [16x16/16z] un_X
+
+sprite $ZenodoLg [20x20/16z] unzKO1G
+
+!procedure Zenodo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/Z/Zenodo', $name, $tech)
+!endprocedure

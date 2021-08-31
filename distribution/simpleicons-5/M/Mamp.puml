@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/M/Mamp
+
+sprite $MampXs [10x10/16z] uwS3
+
+sprite $MampSm [12x12/16z] unza
+
+sprite $MampMd [16x16/16z] un_X
+
+sprite $MampLg [20x20/16z] unzKO1G
+
+!procedure Mamp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/M/Mamp', $name, $tech)
+!endprocedure

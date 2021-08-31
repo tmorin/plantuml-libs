@@ -1,6 +1,6 @@
 # S
 
-The module contains 200 items.
+The module contains 203 items.
 
 
 
@@ -52,6 +52,7 @@ The module contains 200 items.
 | ![illustration of simpleicons-5/S/Serverfault](../../simpleicons-5/S/Serverfault.png) | [simpleicons-5/S/Serverfault](../../simpleicons-5/S/Serverfault.md) |
 | ![illustration of simpleicons-5/S/Serverless](../../simpleicons-5/S/Serverless.png) | [simpleicons-5/S/Serverless](../../simpleicons-5/S/Serverless.md) |
 | ![illustration of simpleicons-5/S/Sfml](../../simpleicons-5/S/Sfml.png) | [simpleicons-5/S/Sfml](../../simpleicons-5/S/Sfml.md) |
+| ![illustration of simpleicons-5/S/Shadow](../../simpleicons-5/S/Shadow.png) | [simpleicons-5/S/Shadow](../../simpleicons-5/S/Shadow.md) |
 | ![illustration of simpleicons-5/S/Shanghaimetro](../../simpleicons-5/S/Shanghaimetro.png) | [simpleicons-5/S/Shanghaimetro](../../simpleicons-5/S/Shanghaimetro.md) |
 | ![illustration of simpleicons-5/S/Sharp](../../simpleicons-5/S/Sharp.png) | [simpleicons-5/S/Sharp](../../simpleicons-5/S/Sharp.md) |
 | ![illustration of simpleicons-5/S/Shazam](../../simpleicons-5/S/Shazam.png) | [simpleicons-5/S/Shazam](../../simpleicons-5/S/Shazam.md) |
@@ -137,6 +138,7 @@ The module contains 200 items.
 | ![illustration of simpleicons-5/S/Spreadshirt](../../simpleicons-5/S/Spreadshirt.png) | [simpleicons-5/S/Spreadshirt](../../simpleicons-5/S/Spreadshirt.md) |
 | ![illustration of simpleicons-5/S/Spreaker](../../simpleicons-5/S/Spreaker.png) | [simpleicons-5/S/Spreaker](../../simpleicons-5/S/Spreaker.md) |
 | ![illustration of simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.png) | [simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.md) |
+| ![illustration of simpleicons-5/S/SpringCreators](../../simpleicons-5/S/SpringCreators.png) | [simpleicons-5/S/SpringCreators](../../simpleicons-5/S/SpringCreators.md) |
 | ![illustration of simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.png) | [simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.md) |
 | ![illustration of simpleicons-5/S/Spyderide](../../simpleicons-5/S/Spyderide.png) | [simpleicons-5/S/Spyderide](../../simpleicons-5/S/Spyderide.md) |
 | ![illustration of simpleicons-5/S/Sqlite](../../simpleicons-5/S/Sqlite.png) | [simpleicons-5/S/Sqlite](../../simpleicons-5/S/Sqlite.md) |
@@ -170,6 +172,7 @@ The module contains 200 items.
 | ![illustration of simpleicons-5/S/Stimulus](../../simpleicons-5/S/Stimulus.png) | [simpleicons-5/S/Stimulus](../../simpleicons-5/S/Stimulus.md) |
 | ![illustration of simpleicons-5/S/Stitcher](../../simpleicons-5/S/Stitcher.png) | [simpleicons-5/S/Stitcher](../../simpleicons-5/S/Stitcher.md) |
 | ![illustration of simpleicons-5/S/Stmicroelectronics](../../simpleicons-5/S/Stmicroelectronics.png) | [simpleicons-5/S/Stmicroelectronics](../../simpleicons-5/S/Stmicroelectronics.md) |
+| ![illustration of simpleicons-5/S/Stopstalk](../../simpleicons-5/S/Stopstalk.png) | [simpleicons-5/S/Stopstalk](../../simpleicons-5/S/Stopstalk.md) |
 | ![illustration of simpleicons-5/S/Storyblok](../../simpleicons-5/S/Storyblok.png) | [simpleicons-5/S/Storyblok](../../simpleicons-5/S/Storyblok.md) |
 | ![illustration of simpleicons-5/S/Storybook](../../simpleicons-5/S/Storybook.png) | [simpleicons-5/S/Storybook](../../simpleicons-5/S/Storybook.md) |
 | ![illustration of simpleicons-5/S/Strapi](../../simpleicons-5/S/Strapi.png) | [simpleicons-5/S/Strapi](../../simpleicons-5/S/Strapi.md) |

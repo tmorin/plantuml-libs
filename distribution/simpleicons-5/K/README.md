@@ -1,6 +1,6 @@
 # K
 
-The module contains 47 items.
+The module contains 48 items.
 
 
 
@@ -33,6 +33,7 @@ The module contains 47 items.
 | ![illustration of simpleicons-5/K/Kibana](../../simpleicons-5/K/Kibana.png) | [simpleicons-5/K/Kibana](../../simpleicons-5/K/Kibana.md) |
 | ![illustration of simpleicons-5/K/Kickstarter](../../simpleicons-5/K/Kickstarter.png) | [simpleicons-5/K/Kickstarter](../../simpleicons-5/K/Kickstarter.md) |
 | ![illustration of simpleicons-5/K/Kik](../../simpleicons-5/K/Kik.png) | [simpleicons-5/K/Kik](../../simpleicons-5/K/Kik.md) |
+| ![illustration of simpleicons-5/K/Kinopoisk](../../simpleicons-5/K/Kinopoisk.png) | [simpleicons-5/K/Kinopoisk](../../simpleicons-5/K/Kinopoisk.md) |
 | ![illustration of simpleicons-5/K/Kirby](../../simpleicons-5/K/Kirby.png) | [simpleicons-5/K/Kirby](../../simpleicons-5/K/Kirby.md) |
 | ![illustration of simpleicons-5/K/Kitsu](../../simpleicons-5/K/Kitsu.png) | [simpleicons-5/K/Kitsu](../../simpleicons-5/K/Kitsu.md) |
 | ![illustration of simpleicons-5/K/Klarna](../../simpleicons-5/K/Klarna.png) | [simpleicons-5/K/Klarna](../../simpleicons-5/K/Klarna.md) |

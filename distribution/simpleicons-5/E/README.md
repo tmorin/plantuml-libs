@@ -1,6 +1,6 @@
 # E
 
-The module contains 59 items.
+The module contains 62 items.
 
 
 
@@ -17,6 +17,7 @@ The module contains 59 items.
 | ![illustration of simpleicons-5/E/Eclipsemosquitto](../../simpleicons-5/E/Eclipsemosquitto.png) | [simpleicons-5/E/Eclipsemosquitto](../../simpleicons-5/E/Eclipsemosquitto.md) |
 | ![illustration of simpleicons-5/E/Eclipsevertdotx](../../simpleicons-5/E/Eclipsevertdotx.png) | [simpleicons-5/E/Eclipsevertdotx](../../simpleicons-5/E/Eclipsevertdotx.md) |
 | ![illustration of simpleicons-5/E/Editorconfig](../../simpleicons-5/E/Editorconfig.png) | [simpleicons-5/E/Editorconfig](../../simpleicons-5/E/Editorconfig.md) |
+| ![illustration of simpleicons-5/E/Edotleclerc](../../simpleicons-5/E/Edotleclerc.png) | [simpleicons-5/E/Edotleclerc](../../simpleicons-5/E/Edotleclerc.md) |
 | ![illustration of simpleicons-5/E/Edx](../../simpleicons-5/E/Edx.png) | [simpleicons-5/E/Edx](../../simpleicons-5/E/Edx.md) |
 | ![illustration of simpleicons-5/E/Egghead](../../simpleicons-5/E/Egghead.png) | [simpleicons-5/E/Egghead](../../simpleicons-5/E/Egghead.md) |
 | ![illustration of simpleicons-5/E/Egnyte](../../simpleicons-5/E/Egnyte.png) | [simpleicons-5/E/Egnyte](../../simpleicons-5/E/Egnyte.md) |
@@ -45,12 +46,14 @@ The module contains 59 items.
 | ![illustration of simpleicons-5/E/Epel](../../simpleicons-5/E/Epel.png) | [simpleicons-5/E/Epel](../../simpleicons-5/E/Epel.md) |
 | ![illustration of simpleicons-5/E/Epicgames](../../simpleicons-5/E/Epicgames.png) | [simpleicons-5/E/Epicgames](../../simpleicons-5/E/Epicgames.md) |
 | ![illustration of simpleicons-5/E/Epson](../../simpleicons-5/E/Epson.png) | [simpleicons-5/E/Epson](../../simpleicons-5/E/Epson.md) |
+| ![illustration of simpleicons-5/E/Equinixmetal](../../simpleicons-5/E/Equinixmetal.png) | [simpleicons-5/E/Equinixmetal](../../simpleicons-5/E/Equinixmetal.md) |
 | ![illustration of simpleicons-5/E/Erlang](../../simpleicons-5/E/Erlang.png) | [simpleicons-5/E/Erlang](../../simpleicons-5/E/Erlang.md) |
 | ![illustration of simpleicons-5/E/Esea](../../simpleicons-5/E/Esea.png) | [simpleicons-5/E/Esea](../../simpleicons-5/E/Esea.md) |
 | ![illustration of simpleicons-5/E/Eslgaming](../../simpleicons-5/E/Eslgaming.png) | [simpleicons-5/E/Eslgaming](../../simpleicons-5/E/Eslgaming.md) |
 | ![illustration of simpleicons-5/E/Eslint](../../simpleicons-5/E/Eslint.png) | [simpleicons-5/E/Eslint](../../simpleicons-5/E/Eslint.md) |
 | ![illustration of simpleicons-5/E/Esphome](../../simpleicons-5/E/Esphome.png) | [simpleicons-5/E/Esphome](../../simpleicons-5/E/Esphome.md) |
 | ![illustration of simpleicons-5/E/Espressif](../../simpleicons-5/E/Espressif.png) | [simpleicons-5/E/Espressif](../../simpleicons-5/E/Espressif.md) |
+| ![illustration of simpleicons-5/E/Etcd](../../simpleicons-5/E/Etcd.png) | [simpleicons-5/E/Etcd](../../simpleicons-5/E/Etcd.md) |
 | ![illustration of simpleicons-5/E/Ethereum](../../simpleicons-5/E/Ethereum.png) | [simpleicons-5/E/Ethereum](../../simpleicons-5/E/Ethereum.md) |
 | ![illustration of simpleicons-5/E/Ethiopianairlines](../../simpleicons-5/E/Ethiopianairlines.png) | [simpleicons-5/E/Ethiopianairlines](../../simpleicons-5/E/Ethiopianairlines.md) |
 | ![illustration of simpleicons-5/E/Etihadairways](../../simpleicons-5/E/Etihadairways.png) | [simpleicons-5/E/Etihadairways](../../simpleicons-5/E/Etihadairways.md) |

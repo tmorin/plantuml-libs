@@ -1,6 +1,6 @@
 # M
 
-The module contains 114 items.
+The module contains 116 items.
 
 
 
@@ -15,6 +15,7 @@ The module contains 114 items.
 | ![illustration of simpleicons-5/M/Maildotru](../../simpleicons-5/M/Maildotru.png) | [simpleicons-5/M/Maildotru](../../simpleicons-5/M/Maildotru.md) |
 | ![illustration of simpleicons-5/M/Majorleaguehacking](../../simpleicons-5/M/Majorleaguehacking.png) | [simpleicons-5/M/Majorleaguehacking](../../simpleicons-5/M/Majorleaguehacking.md) |
 | ![illustration of simpleicons-5/M/Makerbot](../../simpleicons-5/M/Makerbot.png) | [simpleicons-5/M/Makerbot](../../simpleicons-5/M/Makerbot.md) |
+| ![illustration of simpleicons-5/M/Mamp](../../simpleicons-5/M/Mamp.png) | [simpleicons-5/M/Mamp](../../simpleicons-5/M/Mamp.md) |
 | ![illustration of simpleicons-5/M/Man](../../simpleicons-5/M/Man.png) | [simpleicons-5/M/Man](../../simpleicons-5/M/Man.md) |
 | ![illustration of simpleicons-5/M/Manageiq](../../simpleicons-5/M/Manageiq.png) | [simpleicons-5/M/Manageiq](../../simpleicons-5/M/Manageiq.md) |
 | ![illustration of simpleicons-5/M/Manjaro](../../simpleicons-5/M/Manjaro.png) | [simpleicons-5/M/Manjaro](../../simpleicons-5/M/Manjaro.md) |
@@ -94,6 +95,7 @@ The module contains 114 items.
 | ![illustration of simpleicons-5/M/Mitsubishi](../../simpleicons-5/M/Mitsubishi.png) | [simpleicons-5/M/Mitsubishi](../../simpleicons-5/M/Mitsubishi.md) |
 | ![illustration of simpleicons-5/M/Mix](../../simpleicons-5/M/Mix.png) | [simpleicons-5/M/Mix](../../simpleicons-5/M/Mix.md) |
 | ![illustration of simpleicons-5/M/Mixcloud](../../simpleicons-5/M/Mixcloud.png) | [simpleicons-5/M/Mixcloud](../../simpleicons-5/M/Mixcloud.md) |
+| ![illustration of simpleicons-5/M/Mlb](../../simpleicons-5/M/Mlb.png) | [simpleicons-5/M/Mlb](../../simpleicons-5/M/Mlb.md) |
 | ![illustration of simpleicons-5/M/Mobx](../../simpleicons-5/M/Mobx.png) | [simpleicons-5/M/Mobx](../../simpleicons-5/M/Mobx.md) |
 | ![illustration of simpleicons-5/M/Mobxstatetree](../../simpleicons-5/M/Mobxstatetree.png) | [simpleicons-5/M/Mobxstatetree](../../simpleicons-5/M/Mobxstatetree.md) |
 | ![illustration of simpleicons-5/M/Mocha](../../simpleicons-5/M/Mocha.png) | [simpleicons-5/M/Mocha](../../simpleicons-5/M/Mocha.md) |

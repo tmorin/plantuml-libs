@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Target
+
+sprite $TargetXs [10x10/16z] uwS3
+
+sprite $TargetSm [12x12/16z] unza
+
+sprite $TargetMd [16x16/16z] un_X
+
+sprite $TargetLg [20x20/16z] unzKO1G
+
+!procedure Target($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Target', $name, $tech)
+!endprocedure
