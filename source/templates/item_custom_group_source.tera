@@ -2,7 +2,7 @@
 {% block elements %}
 {% for element in data.elements -%}
 
-{% if element.type == "CustomElement" -%}
+{% if element.type == "Custom" -%}
 !procedure {{ element.procedure_name }}($id, $name='{{ element.properties.label }}', $tech='')
   {% if element.properties.sprite_name -%}
     IconGroupElement($id, '{{ element.procedure_name }}', '<${{ element.properties.sprite_name }}>', $name, $tech)

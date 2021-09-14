@@ -1,7 +1,7 @@
 {% extends "item_source.tera" %}
 {% block elements %}
 {%- for element in data.elements %}
-{%- if element.type == "CustomElement" %}
+{%- if element.type == "Custom" %}
 
 skinparam {{ element.properties.shape }}<<{{ element.properties.name }}>> {
     StereotypeFontSize {{ element.properties.st_font_size }}

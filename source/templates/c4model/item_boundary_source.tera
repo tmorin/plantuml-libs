@@ -1,7 +1,7 @@
 {% extends "item_source.tera" %}
 {% block elements %}
 {%- for element in data.elements %}
-{%- if element.type == "CustomElement" %}
+{%- if element.type == "Custom" %}
 !procedure {{ element.procedure_name }}($id, $name, $tech="")
   C4Boundary('{{ element.properties.type }}', $id, $name, $tech)
 !endprocedure

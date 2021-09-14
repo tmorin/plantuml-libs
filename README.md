@@ -101,7 +101,7 @@ npm run generate-library
 docker run --rm \
   -v "$(pwd)/.workdir:/workdir" \
   -v "$(pwd)/distribution:/distribution" \
-  thibaultmorin/plantuml-generator:0 \
+  thibaultmorin/plantuml-generator:1 \
   plantuml-generator library generate library.yaml \
   -c=All -O=/distribution
 ```
