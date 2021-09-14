@@ -1,12 +1,18 @@
 ' definition of the Item fontawesome-5/Regular/Laugh
 
-sprite $LaughXs [9x9/16z] uwSs
+sprite $LaughXs [9x10/16z] 9S650SD0000XwjxRVzkyWE5agTUd3zqD_uVSkEXr4lbaUzokfmO_QP1NXiuy6ZW
 
-sprite $LaughSm [11x11/16z] unye
+sprite $LaughSm [11x12/16z] 5SYr0SG0000XufxRVzeNIi0u0Egje0MkQ0BkHzQNw3eCAnUr0hpxfVuaJzKedUxQjDC3lVXdhNm1
 
-sprite $LaughMd [15x15/16z] un_k
+sprite $LaughMd [15x16/16z] {
+HS-50GGX4C30d0kI_gjzGGTtbcfT68B5Jg7XlvvCTKIr6o5ATxZX1MLpWEmkFAwGXDr_pKAhDCDa458kNd0Hh5vkCR1RW8dJdSDoHn18NXJHiqKGpYlgGR6q
+cu0l
+}
 
-sprite $LaughLg [19x19/16z] uwSF60K
+sprite $LaughLg [19x20/16z] {
+LS-5eKKX3C3Ge5TBzf_s2pmzk5EUSk9J3QVpDJtKUpzKstCc2jEc1u06BrgXUyDBKb1W7Sppx8u1NO6iW1vco0Q00ZhaswNoxVGMw4y5mcO7dovG56vTodmf
+hE1optDaXJJtxR0xLgm9bbsVxLK0sj3Cb7qANjgbZcDj-GK
+}
 
 !procedure Laugh($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'fontawesome-5/Regular/Laugh', $name, $tech)

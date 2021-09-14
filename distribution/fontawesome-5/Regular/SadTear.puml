@@ -1,12 +1,18 @@
 ' definition of the Item fontawesome-5/Regular/SadTear
 
-sprite $SadTearXs [9x9/16z] uwSs
+sprite $SadTearXs [9x10/16z] 9SM50S103CD0bRdQVziFN6ARC57qUdt0dV0VIF6Q4EIHTcmhnl7r67T9S8R300C
 
-sprite $SadTearSm [11x11/16z] unye
+sprite $SadTearSm [11x12/16z] 5Skr0SG0000XufxRVzeNUi0u0Egje0MkQ0BkHqoiT9tEY5e1tlqoFsOavOrq6fYqqmEzSDT_-m8
 
-sprite $SadTearMd [15x15/16z] un_k
+sprite $SadTearMd [15x16/16z] {
+FSh55SKm0C0mX_CQyFxJVYZfB2uny1gUCYSTG5mk0EMIdJ3bKKpOU6spq0pNAYuX25G1tS3B8I1S3CBoE3H25mVRGTc2Ysec0JI6mB9ncbQ0eQEsgOLJyEy0
+-08
+}
 
-sprite $SadTearLg [19x19/16z] uwSF60K
+sprite $SadTearLg [19x20/16z] {
+LSp50SH05CDG9SEe_gjTndVxOFDs7loAouV-MMzrrgQQtfiLU2ZQ07JneH6oawz3GVbLhBZWM0LWTa2R9nG5WWAw1UWHe1LWgFphJW5su6sPp92Lxk1EKTXw
+JZN3wM8P6Gf4VUGu5G9tPwQwWQ87Bqsvgpe2GBvtyd3wjlX8GztjvEuA
+}
 
 !procedure SadTear($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'fontawesome-5/Regular/SadTear', $name, $tech)

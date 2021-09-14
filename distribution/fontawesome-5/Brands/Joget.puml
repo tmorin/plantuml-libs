@@ -1,12 +1,18 @@
 ' definition of the Item fontawesome-5/Brands/Joget
 
-sprite $JogetXs [9x9/16z] uwSs
+sprite $JogetXs [9x10/16z] BSE30SG00C30UwF8_jFM0To0VZGGk7sylSByKqHrUzJWrONjB_8hVExR_T-n0W
 
-sprite $JogetSm [11x11/16z] unye
+sprite $JogetSm [11x12/16z] FSR50SD00C0mvvYz_xJbHY_nTl7Z2ka881_UuzeqbW8uqGOdK6rASKjitl1jjfo-1KWDlYq7O7kE1Pu
 
-sprite $JogetMd [15x15/16z] un_k
+sprite $JogetMd [15x16/16z] {
+LSm50aGX203H-Lt8tF-q6xZvR0cwSU3Zr4oTA0R5Lll2ImJ4mOSJmXXQpycv4Ph0KENhQVNA78DqKGTEDvrebty6_s0vHnwsngewKWIQkjQh7vTQnqBfxKuU
+xW
+}
 
-sprite $JogetLg [19x19/16z] uwSF60K
+sprite $JogetLg [19x20/16z] {
+PT252KH134NHD-wv_LUxzcrW3nxYkdYdNLpyT5qC-wKaI5V4wrHe-W0z0b7AE6qgqY_L3qm7gf0IGBhJcgd2aHC9ah3XpeXRn4ONT80fJMn2bfZdudECtbjh
+jPBu8nusFxaiBNwkjHn9_im-BPDKzj3YtFTQFbnFEMfzwB1qImEmTgIy0G
+}
 
 !procedure Joget($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'fontawesome-5/Brands/Joget', $name, $tech)

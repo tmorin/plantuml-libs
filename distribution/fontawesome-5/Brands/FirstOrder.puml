@@ -1,12 +1,18 @@
 ' definition of the Item fontawesome-5/Brands/FirstOrder
 
-sprite $FirstOrderXs [8x9/16z] uwSI
+sprite $FirstOrderXs [8x10/16z] FOU50S0m40A9-z_-qzOR75qOUk0eLy8W3QjSQ50lm-vLv_Vl60NrcEjKaBH0EW4
 
-sprite $FirstOrderSm [10x11/16z] uwSh
+sprite $FirstOrderSm [10x12/16z] HOs30G0n301h1RV_j6zS6okSIBYfXHLFHsLDhHvw8GE3Sdp0QMjWdCmrRWUEtE_5fozraa4LFGvadDB2YHK_z0u
 
-sprite $FirstOrderMd [14x15/16z] unzs
+sprite $FirstOrderMd [14x16/16z] {
+HSV50G0n3CH01ytP_giz1hqqTEVqPzooFzzZ06Yh75zNMqfUBQOJZyY93hY0JUHO1n1eg29wuk8wL1gkikWXmzkf-YBya8TVc8ag34Oam53KcXqD5P6IFObO
+POaQUZOwYv5WOtegg-SrEm
+}
 
-sprite $FirstOrderLg [17x19/16z] uwSKZ08
+sprite $FirstOrderLg [17x20/16z] {
+JO-50G0X203rBHJXzf_skywa8Tn837-oPz7muQt0VZ_UcXqpHhQqYmjnUidep1Inq5gZ9nobT_SqfQ3GmUWqQBjYDEUaZtOeZ0yz54F6BRgS7fqFzrsXMRcH
+vV1mvuvnv51GAyP9chiYmq1XKiy-5ilg4KMPZNhCB1QPGKfYBiHmeD80pxE5cqYSjLlu8Uefd6m
+}
 
 !procedure FirstOrder($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'fontawesome-5/Brands/FirstOrder', $name, $tech)
