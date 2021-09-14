@@ -1,12 +1,18 @@
 ' definition of the Item material-4/Image/ControlPoint
 
-sprite $ControlPointXs [10x10/16z] uwS3
+sprite $ControlPointXs [10x10/16z] LKY30G0n4CkZHlQVjkPTZEl8qDonbhVAHkFx5sKv2OVOD_bqQugFBmJHJlYtQ0O
 
-sprite $ControlPointSm [12x12/16z] unza
+sprite $ControlPointSm [12x12/16z] NKY54S0m4A9nP_zjUt7vn_6UYtgaJAS2ROknBTHLDfqTkNn84go79612tMz-rLq1Qlog6PR45jieclq
 
-sprite $ControlPointMd [16x16/16z] un_X
+sprite $ControlPointMd [16x16/16z] {
+ROg50KCn24InxuJRVzi6gBSl0YVq7-PtvKZMknA4pR5ZjCRLazlmg4uPch4zDFb8SoenY32jw0I5aw7pHt_B7zjJn_amsUUtWCkD72btAWPyqIrIDXe0BgO_
+t
+}
 
-sprite $ControlPointLg [20x20/16z] unzKO1G
+sprite $ControlPointLg [20x20/16z] {
+bSm5aa0n2C3GGBzLS__Jhhll6siX0_zpgSx2grFNw5DNygHhFjVvN7MUf0RtzB49eDWVF_awOmZWuiqitG0xNDSrhDTLm0hOm2V7Ou838gAQ4O0di7nxxp20
+pVFDJBctJA0S0FKneBWAZwg3HqL70hjEdaNtqSbRUnjNyhrR
+}
 
 !procedure ControlPoint($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'material-4/Image/ControlPoint', $name, $tech)

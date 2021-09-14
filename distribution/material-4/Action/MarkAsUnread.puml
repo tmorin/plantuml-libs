@@ -1,12 +1,15 @@
 ' definition of the Item material-4/Action/MarkAsUnread
 
-sprite $MarkAsUnreadXs [10x10/16z] uwS3
+sprite $MarkAsUnreadXs [10x10/16z] LOc50G0n4C9urpRxJrlNd0AQi4kvw23-j8Y7n1S-Av3vasSC_59AqtUJUDNm
 
-sprite $MarkAsUnreadSm [12x12/16z] unza
+sprite $MarkAsUnreadSm [12x12/16z] RSO50W0X2011wZhs_w-zJdKL64dhNb4p7Qfejktqsvwy6u-6tSpiJRQx5Z3bC8J2vjWDXqLAbcyh
 
-sprite $MarkAsUnreadMd [16x16/16z] un_X
+sprite $MarkAsUnreadMd [16x16/16z] RSo55GGX54FHP7omrt-tUx3re1Vv-Xz_Q8ViTnsA97V2MHSdGbqNv7McsRnIlRAKXhWEHosGP8QffLoeTZDKLUlkPbhVNhuiBpFwoGC
 
-sprite $MarkAsUnreadLg [20x20/16z] unzKO1G
+sprite $MarkAsUnreadLg [20x20/16z] {
+bS-r0GD04CJ0VUPJ_zMQcJsXCka_pipfJfYOiO8kl46M4YntIXEA3Wfq7J3rX2xZojoXDMwDKrCozYo9UMhcbO0ajouDPb2K7t1fUyilU6Z0fIcyQ7hLAbUN
+lM5NGp_R0W
+}
 
 !procedure MarkAsUnread($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'material-4/Action/MarkAsUnread', $name, $tech)

@@ -1,12 +1,15 @@
 ' definition of the Item material-4/Image/Healing
 
-sprite $HealingXs [10x10/16z] uwS3
+sprite $HealingXs [10x10/16z] Oq06_60C8a2Gdnyg0WHSC36OD2E4mGzYy8CO42bE41CamWkIvW5Ye4u
 
-sprite $HealingSm [12x12/16z] unza
+sprite $HealingSm [12x12/16z] LSor0GD134JHTmmBwhzRUyBxaJJaoxhY9kSOcxTAJaQhF-oDdBaTlPMS8QVQa5gUiV5Km5Z8UNJh94y6SYAi-04
 
-sprite $HealingMd [16x16/16z] un_X
+sprite $HealingMd [16x16/16z] ROw50GCX40HnX-s_szp4RLvNW7F_yAyt74Lx3xMxR5xHf32GLjKKy2lC9G7_sLvJwIunACU31DAOv3Qd03iV9mKC96mhUuoW6qmNzSmvvMq1fzmb1k-C_E42
 
-sprite $HealingLg [20x20/16z] unzKO1G
+sprite $HealingLg [20x20/16z] {
+bSu5ZWGn34JHvd3g_hVTahyYt24tvicq_H99PtoRzaLP9R19qmXTVawJWynasemGcKgHFIIY-d3hYLuJ6Zw0pTcO0UpAexHEbeF2hUhOnPwGDDlXh092KdEM
+Lm8XqSju-BqeLlAn-7KW8_Oyr4mBsPC6u61Fii3EzwhRg_W3
+}
 
 !procedure Healing($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'material-4/Image/Healing', $name, $tech)

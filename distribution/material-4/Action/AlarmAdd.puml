@@ -1,12 +1,18 @@
 ' definition of the Item material-4/Action/AlarmAdd
 
-sprite $AlarmAddXs [10x10/16z] uwS3
+sprite $AlarmAddXs [10x10/16z] DSA54O00000XxFRttzOhEG30X0TBOoKS3uB-Tc-lS14XLe96Qy1y3_W
 
-sprite $AlarmAddSm [12x12/16z] unza
+sprite $AlarmAddSm [12x12/16z] LKk50G0X4C9ksN_Q3zlh8t27RrF-erJuP407w1ZeTQIg00oRXctqDhdjM5dLmAIaxFpO8G2GpQM8lcecCKB8jbu
 
-sprite $AlarmAddMd [16x16/16z] un_X
+sprite $AlarmAddMd [16x16/16z] {
+RKw5WSLG2AFFBMJ_QIlftNVSYVsWxJtDpFAW6eqjB9BTm73cp9qegP5nhdiWQNxSyyPodiHr05TQU9hmC3PXmPtkPWn_EPo0yizvFJplNP_WoXkZVDUu7gyS
+gmk6A83ai5zq
+}
 
-sprite $AlarmAddLg [20x20/16z] unzKO1G
+sprite $AlarmAddLg [20x20/16z] {
+bSn5WaGX30JGmZrr_zjE85ysO_qM4CSd9C2i2XF831UYrne7jaG6BzmwEWLgY6jaJx5CCXJQdSRrN7dkJNsTryTJh3RfzAsqrrPjqsgEpMeL4255DEUqMW5u
+zBSstbreVLjyQva9MsBLDsGe8SnYmU4M4s24ovz5LZmQ3uam9lPP7Nxs1G
+}
 
 !procedure AlarmAdd($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'material-4/Action/AlarmAdd', $name, $tech)

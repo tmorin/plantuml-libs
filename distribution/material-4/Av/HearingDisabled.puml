@@ -1,12 +1,18 @@
 ' definition of the Item material-4/Av/HearingDisabled
 
-sprite $HearingDisabledXs [10x10/16z] uwS3
+sprite $HearingDisabledXs [10x10/16z] Oq06FFoy3Fn0cfyTH42PZ8oiJ40MM9IH5SY2Y09bOKnsC8EN2QW0fW_CPEI1y04
 
-sprite $HearingDisabledSm [12x12/16z] unza
+sprite $HearingDisabledSm [12x12/16z] NSc54KCn0CDGXJdUVzhsC-d8xyodr1nc04fKFuJi3akfRW9Q7uHWVwwz8eVE1R7NveAr3e8T6igSC8Qro1y
 
-sprite $HearingDisabledMd [16x16/16z] un_X
+sprite $HearingDisabledMd [16x16/16z] {
+POo54GCm4CCKvlF-sxOkWu9FmlmHWg-6QJHTcLH5eAYH_6pE0MXg48YAIG1JQgo29XuWHezqphh73mVgA72dUeGYu9smuKcnz1sYRWTc39Y2PoAhLfM7mtIf
+FoIHBm9S
+}
 
-sprite $HearingDisabledLg [20x20/16z] unzKO1G
+sprite $HearingDisabledLg [20x20/16z] {
+XOy5WWGX3C1Is74w-Vzl3pZteFMMVuaAhpGr2oY3wjPFNaqFYid0hfoaAvVnhgm1EgC63cKOB1Qy6DnhZfmDN9W9F-ICJpg69uU49tpqZ6HnWS-Uf7mWfcS_
+7z2xAmeVI0k-UxK5mlQQSw91y_5fzaMTRNtqZBDLNd3bHvu
+}
 
 !procedure HearingDisabled($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'material-4/Av/HearingDisabled', $name, $tech)
