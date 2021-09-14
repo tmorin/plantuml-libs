@@ -1,12 +1,18 @@
 ' definition of the Item gcp/Item/ExpandedProductCardIcons/CloudDataflow
 
-sprite $CloudDataflowXs [10x10/16z] uwS3
+sprite $CloudDataflowXs [10x10/16z] 5SI50SG008F0UwaB-qzRIG3C-00LC5UWoQumaBS28IAK5AY0iN-u0G
 
-sprite $CloudDataflowSm [12x12/16z] unza
+sprite $CloudDataflowSm [12x12/16z] DOg30G0W44Mpw-q_RJv_gLrfRrEl1e7oiG4-18sZNHYkqh9OyjtJ3uzFjqTYRB3VpISIZIEVWlgH1WKRB
 
-sprite $CloudDataflowMd [16x16/16z] un_X
+sprite $CloudDataflowMd [16x16/16z] {
+HSZL0G0X081Gh4kL_QUzZlS7d5Q0CC0jw8msFgCQ-1HFaLlK9KgtSWhs01cotWqKWKbE2v04mWYGpDogl6Pv1GEmVZFeI6XGxN2Qj3XfvbNLaLzNLrwB1f8c
+O0S
+}
 
-sprite $CloudDataflowLg [20x20/16z] unzKO1G
+sprite $CloudDataflowLg [20x20/16z] {
+PO-50O0m4CI-tcBPVrhaS0WUNarKhqTpTb5Wy9PWydOpi97iYHk1R4ygY4keK6ou2iFHfOTYLhPF81nk--cBfZbSKBj9BNnoScLKqK7tqSj1lEVSIYjULLN9
+vQClYb1qlVegNeo7Yu2tXhC6F5OREZBgTZ6oeGOF-LCPfWWyL4656cYB1G
+}
 
 !procedure CloudDataflow($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/CloudDataflow', $name, $tech)

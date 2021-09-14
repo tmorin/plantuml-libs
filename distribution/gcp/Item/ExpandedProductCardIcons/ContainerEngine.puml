@@ -1,12 +1,18 @@
 ' definition of the Item gcp/Item/ExpandedProductCardIcons/ContainerEngine
 
-sprite $ContainerEngineXs [10x10/16z] uwS3
+sprite $ContainerEngineXs [10x10/16z] NSZ74G8030F19MUk_suPVR6LxRxOVQep3f5Z37tdETNZhVtmbznmYHuekpRu0G
 
-sprite $ContainerEngineSm [12x12/16z] unza
+sprite $ContainerEngineSm [12x12/16z] NOU50S0m3CDSvkh_RyUenAITgOiEnBs5DL73IZIjjcgsBGPGrh5swol-wY3uTuOD25FALCTemn5MProsOfbikG
 
-sprite $ContainerEngineMd [16x16/16z] un_X
+sprite $ContainerEngineMd [16x16/16z] {
+TSwr0SGm40NHBsPD_zKUh2doP6-5EjkoBW5LLvKbF4HJ12yX5RQJ1jc6-ZLmslqyFoITzW3hyey-uGgFGV3c7yrxccbIGNYv_NEoNrY1ynV3kCYo71JDSthj
+HDON
+}
 
-sprite $ContainerEngineLg [20x20/16z] unzKO1G
+sprite $ContainerEngineLg [20x20/16z] {
+NP054W0n2CIeU_F_rvvndf5b0bMvS5D-s06KZneGQE1lauuHzk7f3cDWxCc-XTO1xIMEoB3NeWCmZzxb8ihBMIS0HVhBCQnl9i7RGHVuEtukydUEukVXkfjL
+tNKjzWpeNisyVen-Vu42NFqAOOi2KHw005K-11ZNiXK
+}
 
 !procedure ContainerEngine($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'gcp/Item/ExpandedProductCardIcons/ContainerEngine', $name, $tech)
