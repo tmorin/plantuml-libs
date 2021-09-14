@@ -1,15 +1,12 @@
 ' definition of the Item azure-4/Item/General/ServiceStorageQueue
 
-sprite $ServiceStorageQueueXs [10x10/16z] FSR70S0W30D0a4G7U_zfqyEzphSvFhEtJo-YfAHKCW9Y99ZBDvLx07cDWO2kjVfflfq
+sprite $ServiceStorageQueueXs [10x10/16z] Oy06k620WHK665WP61WPMPYOe2nML1ORcCNCpCR01WC8um
 
-sprite $ServiceStorageQueueSm [12x12/16z] NOo55G0X34ChoSDX_sdFbL_NyQ7LXrRoGqanX5qtKe2gcy4T8RY8dMK84F4fT-UTOyyZZqC2ZD__uyCA
+sprite $ServiceStorageQueueSm [12x12/16z] TSQ34G0140ImFQF_Vjz6Hi6VFjrkghQ10JHXbltykWCyNKJy_XCkHW
 
-sprite $ServiceStorageQueueMd [16x16/16z] NOs50SGm30DZ2iF-q_wNM_c29cbv9h1Q1PgFQmPgCXNH7TksfMGS0ZCH2xFiCK6SiPxFM8X4VIoYMno_STpYgtVts-AIW38To_47
+sprite $ServiceStorageQueueMd [16x16/16z] fSUr0S0m402nCppkFt3IXT7gn9FOS7BhSDb2EY2b5Acr3hsrDbzbTTNZjsWRbPq9
 
-sprite $ServiceStorageQueueLg [20x20/16z] {
-ZSc50O0m34JHo5rms7zRtAsl_jibQkgRfYflgiTMt5G5RugSq05i01-0-T1au3g03nzxmzhygP5vSM_5sapLu8EnnRN5qBWrxar5b3OWrXOSZ7iiYhgygRj4
-FG
-}
+sprite $ServiceStorageQueueLg [20x20/16z] fSc30G0n4031dD5_lsyR6q_AdtANFJRPnOqH8Z8rIRjpPwM9e8dRtzdupEIjgIwiIVJCO6-xZepAmse
 
 !procedure ServiceStorageQueue($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'azure-4/Item/General/ServiceStorageQueue', $name, $tech)
