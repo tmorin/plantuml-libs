@@ -1,18 +1,8 @@
-name: Package Builder
+name: Library Builder
 
 on:
   workflow_dispatch:
-    inputs:
-      pkgName:
-        description: The name of the package.
-        required: true
-      pkgVersion:
-        description: The version of the package.
-        required: false
-
-env:
-  PACKAGE_URN: ${{ github.event.inputs.pkgName }}
-  PACKAGE_VERSION: ${{ github.event.inputs.pkgVersion }}
+    inputs: {}
 
 jobs:
   generate-workdir:
@@ -34,7 +24,7 @@ jobs:
       - name: "Install dependencies"
         run: npm ci --no-progress
       - name: "Generate the workdir"
-        run: npm run generate:workdir -- -p "${{ env.PACKAGE_URN }}"
+        run: npm run generate:workdir
       - name: "Tar tmp directory"
         run: |
           mkdir -p .tmp
@@ -64,8 +54,10 @@ jobs:
           name: workdir
       - name: "Provide the .tmp directory"
         run: tar xf tmp.tar
+      - name: "Delete the distribution content"
+        run: rm -Rf distribution/*
       - name: "Generate the distribution"
-        run: plantuml-generator library generate library.yaml --urn "${{ env.PACKAGE_URN }}" --clean-urn "${{ env.PACKAGE_URN }}"
+        run: plantuml-generator library generate library.yaml
       - name: "Tar distribution directory"
         run: tar cf distribution.tar distribution
       - name: "Upload the distribution"
@@ -90,19 +82,12 @@ jobs:
           tar xf distribution.tar
           rm distribution.tar
       - run: ls -hla
-      - name: "Format the commit message"
-        uses: haya14busa/action-cond@v1
-        id: commit_message
-        with:
-          cond: "${{ env.PACKAGE_VERSION != null && env.PACKAGE_VERSION != '' }}"
-          if_true: "feat(${{ env.PACKAGE_URN }}): upgrade to ${{ env.PACKAGE_VERSION }}"
-          if_false: "feat(${{ env.PACKAGE_URN }}): refresh the package"
       - name: "Commit changes"
         run: |
           git config --local user.email "package_builder@users.noreply.github.com"
           git config --local user.name "package_builder"
           git add -A
-          git commit -m "${{ steps.commit_message.outputs.value }}"
+          git commit -m "feat: refresh all packages"
       - name: "Push the changes"
         uses: ad-m/github-push-action@master
         with:

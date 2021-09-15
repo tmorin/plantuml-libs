@@ -2,16 +2,6 @@ name: Continous Integration
 
 on: [ push, pull_request ]
 
-#on:
-#  workflow_dispatch:
-#    inputs:
-#      pkgName:
-#        description: The name of the package.
-#        required: true
-#      pkgVersion:
-#        description: The version of the package.
-#        required: false
-
 jobs:
   Build:
     name: Build
