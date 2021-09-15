@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMap
+include('aws-20210730/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMap('AwsCloudMap', 'Aws Cloud Map', 'an optional tech label')
+@enduml

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsFargateCard
+include('aws-20210730/Architecture/Containers/AwsFargate')
+
+' renders the element
+AwsFargateCard('AwsFargateCard', 'Aws Fargate Card', 'an optional description')
+@enduml

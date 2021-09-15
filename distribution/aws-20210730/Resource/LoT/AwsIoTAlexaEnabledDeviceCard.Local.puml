@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsIoTAlexaEnabledDeviceCard
+include('aws-20210730/Resource/LoT/AwsIoTAlexaEnabledDevice')
+
+' renders the element
+AwsIoTAlexaEnabledDeviceCard('AwsIoTAlexaEnabledDeviceCard', 'Aws Io T Alexa Enabled Device Card', 'an optional description')
+@enduml

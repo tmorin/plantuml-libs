@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/GeneralIcons/TapeStorage
+
+sprite $TapeStorageXs [10x10/16z] XS450S0m000Wvjw_xWFSm8-pAVCG5qI7TGHRSfOjiia5pQCB
+
+sprite $TapeStorageSm [12x12/16z] ZSP70SCm400mUQ_ZJxTDWi1woPq2CkfKcZDCbgQJYf2_QTiHbT22nPcnzuwrtFW3
+
+sprite $TapeStorageMd [16x16/16z] hS49GGGm302mxD_QubykZmOkyG43Q1syCtQWvep9QObG7fVIgalTJPwozfQDho2LYnA2FiX5ZFuMlU3cctyYjd_x0G
+
+sprite $TapeStorageLg [20x20/16z] {
+lSG5WGH030ImB5FhN-wZXyk0Jsd5lrhzYpmHCFAUN93ZKBAO-s9jLlNW2AqYUQntnWgB36iCmPj9bgN4fKsRFN1TTJHkLR8zH7FgGuk_cssylFVcwNq_eE_X
+tre-v1i
+}
+
+!procedure TapeStorage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/GeneralIcons/TapeStorage', $name, $tech)
+!endprocedure
+
+!procedure TapeStorageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TapeStorageMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure TapeStorageGroup($id, $name='Tape Storage', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$TapeStorageMd>', $name, $tech)
+!endprocedure

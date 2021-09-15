@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleNotificationServiceHttpNotification
+include('aws-20210730/Resource/ApplicationIntegration/AmazonSimpleNotificationServiceHttpNotification')
+
+' renders the element
+AmazonSimpleNotificationServiceHttpNotification('AmazonSimpleNotificationServiceHttpNotification', 'Amazon Simple Notification Service Http Notification', 'an optional tech label')
+@enduml

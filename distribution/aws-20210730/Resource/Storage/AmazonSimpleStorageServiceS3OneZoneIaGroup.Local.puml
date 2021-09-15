@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3OneZoneIaGroup
+include('aws-20210730/Resource/Storage/AmazonSimpleStorageServiceS3OneZoneIa')
+
+' renders the element
+AmazonSimpleStorageServiceS3OneZoneIaGroup('AmazonSimpleStorageServiceS3OneZoneIaGroup', 'Amazon Simple Storage Service S3 One Zone Ia Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

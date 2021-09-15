@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/ManagementGovernance/AwsSystemsManagerPatchManager
+
+sprite $AwsSystemsManagerPatchManagerXs [10x10/16z] Oq05R52QYuk1WGKkoiADp6BZWh21J2YB0S9YOM61AkA6QG3J
+
+sprite $AwsSystemsManagerPatchManagerSm [12x12/16z] POg53GD130JdpD1_lz6JACOb_chm1xWxLNR1xdOeEv2x0-I5lwG8p8jXmVk35xvkLG5wOJE3Y-oSStZgi5pr0m
+
+sprite $AwsSystemsManagerPatchManagerMd [16x16/16z] TSVN0SCm34F19v6gs7_V8BtPztUS45ysYbTa43MvMSRj7Hl6nmiFZszUka28b-mmbHyrhOA5rVi7KAs0ZTlJAZTh9DtSku6oy-NP2m
+
+sprite $AwsSystemsManagerPatchManagerLg [20x20/16z] {
+VSw54G0X30NHnINzztlySt_ZEv24FwxoOBbYvpT381VpVczTz3P65ga9IpFEpgtaKaf0ylxkz7njplpz96fsdJCBK4C_l-o1mVLsQafBIuZ9th9UH65fvTva
+j8X9u91hfd0Lg7fpTwG9
+}
+
+!procedure AwsSystemsManagerPatchManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/ManagementGovernance/AwsSystemsManagerPatchManager', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerPatchManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerPatchManagerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerPatchManagerGroup($id, $name='Aws Systems Manager Patch Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerPatchManagerMd>', $name, $tech)
+!endprocedure

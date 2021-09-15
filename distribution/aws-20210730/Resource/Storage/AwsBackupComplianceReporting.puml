@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/Storage/AwsBackupComplianceReporting
+
+sprite $AwsBackupComplianceReportingXs [10x10/16z] NSkr0S0m00F1JupQVs0pNodW58Hev9mJl2oDXz4QpKjWSpHVyvC1
+
+sprite $AwsBackupComplianceReportingSm [12x12/16z] NSQt0O10302nSxRt7nZuKA5A_5HR1qiWAAKDABPGh1Ebt0zGvmQqdGSvS8wktLjOSx-SzpMy
+
+sprite $AwsBackupComplianceReportingMd [16x16/16z] ROo30G0n301ZxB_meyQL5y4DH0t49av96aIczha3A7ya41NdGlEFxpSycTI7vvT4QyxyFzxyJO0Jo9HF-Zvx_vYlFCt_ajzl-4TpZ6oygGS
+
+sprite $AwsBackupComplianceReportingLg [20x20/16z] {
+VO-50KGn2CL2aVBs7_XSlgUA0rT46okc99xdIzSGU45uLF6a6CeN9UYF3lym_he52vsLMh7M2I1wgPFn9EElymBmP54t3SSdAvsZ4YkT2HAmXOuPF5dLfMPu
+obSwy3JWQhQs1MFon6j10dS
+}
+
+!procedure AwsBackupComplianceReporting($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Storage/AwsBackupComplianceReporting', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupComplianceReportingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupComplianceReportingMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupComplianceReportingGroup($id, $name='Aws Backup Compliance Reporting', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupComplianceReportingMd>', $name, $tech)
+!endprocedure

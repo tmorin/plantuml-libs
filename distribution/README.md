@@ -2,9 +2,10 @@
 
 ## Packages
 
-The library provides 10 packages.
+The library provides 11 packages.
 
 - [aws-20210131](aws-20210131/README.md)
+- [aws-20210730](aws-20210730/README.md)
 - [azure-4](azure-4/README.md)
 - [c4model](c4model/README.md)
 - [eip-1](eip-1/README.md)

@@ -40,6 +40,7 @@ The resources can be browsed, from GitHub, with Markdown pages directly in the [
 The available packages:
 
 - [aws-20210131](distribution/aws-20210131/README.md)
+- [aws-20210730](distribution/aws-20210730/README.md)
 - [azure-4](distribution/azure-4/README.md)
 - [c4model](distribution/c4model/README.md)
 - [eip-1](distribution/eip-1/README.md)

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsOrganizationsManagementAccountCard
+include('aws-20210730/Resource/ManagementGovernance/AwsOrganizationsManagementAccount')
+
+' renders the element
+AwsOrganizationsManagementAccountCard('AwsOrganizationsManagementAccountCard', 'Aws Organizations Management Account Card', 'an optional description')
+@enduml

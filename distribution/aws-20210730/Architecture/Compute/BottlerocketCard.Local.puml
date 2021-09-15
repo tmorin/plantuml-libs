@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element BottlerocketCard
+include('aws-20210730/Architecture/Compute/Bottlerocket')
+
+' renders the element
+BottlerocketCard('BottlerocketCard', 'Bottlerocket Card', 'an optional description')
+@enduml

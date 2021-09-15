@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint
+
+sprite $AmazonApiGatewayEndpointXs [10x10/16z] JKk50S0m36BCo__tHkgMeDWFuvS1bF2uAageYiIAD14ggYrz42hy4mGa6S01
+
+sprite $AmazonApiGatewayEndpointSm [12x12/16z] LSg55S0m54BH5xVzzosX7hrmFlzLerOE9luKn9GWzXrY2iWK9Y5ZStai-zVdKEo1-oul1QuXKs7k9Hm
+
+sprite $AmazonApiGatewayEndpointMd [16x16/16z] VSa53iDG40FH2IVs_UzRxKWL5VpnUVcIfPdqpO0fyc5zWCnskjq5deBxED5a8SHISz0VRlDthfTnMO9Umdv2eECyqc9dZhGmqgGJ-G8
+
+sprite $AmazonApiGatewayEndpointLg [20x20/16z] {
+bSi56WGX509WRENT_xmRi9qpsF-7-1g6qnueNoytPCKrK-XMd2-nr7Ihn91Lkic4IdIP9filDyk1t5yCVwr7s7R-JJVhysoDG5njJgHpkqs0IpQx2MhALhsI
+cux9oEo8hjWTA4S
+}
+
+!procedure AmazonApiGatewayEndpoint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/ApplicationIntegration/AmazonApiGatewayEndpoint', $name, $tech)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayEndpointMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonApiGatewayEndpointGroup($id, $name='Amazon Api Gateway Endpoint', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonApiGatewayEndpointMd>', $name, $tech)
+!endprocedure

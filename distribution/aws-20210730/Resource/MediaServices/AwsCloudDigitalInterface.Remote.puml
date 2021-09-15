@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsCloudDigitalInterface
+include('aws-20210730/Resource/MediaServices/AwsCloudDigitalInterface')
+
+' renders the element
+AwsCloudDigitalInterface('AwsCloudDigitalInterface', 'Aws Cloud Digital Interface', 'an optional tech label')
+@enduml

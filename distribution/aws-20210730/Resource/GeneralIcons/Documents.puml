@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/GeneralIcons/Documents
+
+sprite $DocumentsXs [10x10/16z] JOg34G0m0CHIU_znQ-Nq23yEY3T9FvCkm4wbt3I3v78qm_4H0YcbeG4
+
+sprite $DocumentsSm [12x12/16z] NOg30K0n34HhlSl-utwpuSbDrKC8YYTisr4yIDjn6vpuqDA91r0lZ9a_zU3tUs0LhmUFmOrBZ1kz19a3jjmA
+
+sprite $DocumentsMd [16x16/16z] RSs50O0W40NG2vfp_t5LEZ_vIBWbn9IdqSSoIBMh1baSGl3DTTfDAJYCESFFdt4U-y_b--WdaoOqEEniYCuD2_n_2-SaizN6SlgVkPmI0PQKV_u1
+
+sprite $DocumentsLg [20x20/16z] {
+ZSg55OGm44NH7ntllrnSLtaGksVmjU9hSZ4goz6L3xBTCXt8Xu7vnQgg-carOdt9ozoBrLZYHtDqjPfVvt91Vp4M2xAx2N95tAnOKchHhjOQ8ZBaQd3FCAks
+fbXAb0Wfp_M6hTupQb-QdoC
+}
+
+!procedure Documents($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/GeneralIcons/Documents', $name, $tech)
+!endprocedure
+
+!procedure DocumentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DocumentsMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DocumentsGroup($id, $name='Documents', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DocumentsMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/NetworkingAndContentDelivery/AmazonCloudFrontStreamingDistribution
+
+sprite $AmazonCloudFrontStreamingDistributionXs [10x10/16z] Oq06t53Cm0YckH4Yd71v3ZYB6Q47HB93nK0KbEJaOEO6YW
+
+sprite $AmazonCloudFrontStreamingDistributionSm [12x12/16z] LSY50GD120J0EHVwhpUU5rXtlnGjZm0zaR-M4WBpQr_f6iUGZxmDydyFZ0WKEW8RQVABwB6Zu0a
+
+sprite $AmazonCloudFrontStreamingDistributionMd [16x16/16z] RKg50KHH249zYVlFUy7lC2cyLIIPj9LPkdwR4EN_ZXqbzkiD23yuvWQsv-25ZnldBT_bHqTA2OCr2PbRQjfV46t-l_nVqRh-2KLSJ7Ymcz0N
+
+sprite $AmazonCloudFrontStreamingDistributionLg [20x20/16z] {
+TOq50iKm34Afj-7-v_qIcOy9BuvtjIcKKR2hiwel9hYaOyFgRaNQNvFTknYsyUPb0QrkkSqdBhcP8TTSRHjkKDgrJmyCXQ4vPIQz3VJvO-RefpLE6lG288cn
+TULbnubDARYoEFM5JOkpbaQhRSgjrUJy1G
+}
+
+!procedure AmazonCloudFrontStreamingDistribution($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/NetworkingAndContentDelivery/AmazonCloudFrontStreamingDistribution', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudFrontStreamingDistributionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontStreamingDistributionMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudFrontStreamingDistributionGroup($id, $name='Amazon Cloud Front Streaming Distribution', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudFrontStreamingDistributionMd>', $name, $tech)
+!endprocedure

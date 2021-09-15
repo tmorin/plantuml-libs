@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/DeveloperTools/AwsCodeBuild
+
+sprite $AwsCodeBuildXs [10x10/16z] FSR70KCn34CnoPsFtd_Tv7US03gi0ryXutGkMgjPwp82GfAji-h721GnpZKoSsYROKvx-t3k3m
+
+sprite $AwsCodeBuildSm [12x12/16z] JSUv5GCn4CDGwoP1zL-ltoZQ7m7Wei9duATJNlUkVLfVrRiRoxO2cj2QxOHcWLMTOIrvlTOK6x_kXEARx1sUUrCeVm
+
+sprite $AwsCodeBuildMd [16x16/16z] {
+NOc50KGX3CK-zTUo_xo7dWLDcebDR39_ozJlC9Jfu7ikX2REfchBs-FixZGEeaO8aWGOawhX8aaCikMLBQMDYeZjpt17CpyUDEO6nVOA7NDti-EKaWVqwQHr
+GnzXSVqll
+}
+
+sprite $AwsCodeBuildLg [20x20/16z] {
+PSY50S0m20LHYF8ltN_Ukb-K1-WiZk2F_72pNcuyhRXTbSjIr99wpUjxc5dnadFslBJO0A9v0IbfAyQ22WoG7JWML1IdMUxDqs53ha86Gb4F8x6OSdI_hTjc
+XaKxBJ0o5AJRYcE-TLcAEZYJfjLgo-E1quOm7ZWjU7RR7sS
+}
+
+!procedure AwsCodeBuild($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/DeveloperTools/AwsCodeBuild', $name, $tech)
+!endprocedure
+
+!procedure AwsCodeBuildCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeBuildMd>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeBuildGroup($id, $name='Aws Code Build', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeBuildMd>', $name, $tech)
+!endprocedure

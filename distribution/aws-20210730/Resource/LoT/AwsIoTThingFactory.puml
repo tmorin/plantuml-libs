@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Resource/LoT/AwsIoTThingFactory
+
+sprite $AwsIoTThingFactoryXs [10x10/16z] ROp50S0m3CHKhlOVk1XEzBAFgDXKQXRniyAp8Mu28guw8GBp18xsRW
+
+sprite $AwsIoTThingFactorySm [12x12/16z] LSst0GGn3CH0I7HW_mM_ZMuoskMfEDlyJFujL7gX6WkoA7iGJjOmz7ZOh3qBkdHMqxUruTk_jGgaUdG4rhz-vBu1
+
+sprite $AwsIoTThingFactoryMd [16x16/16z] {
+ROvN0e0m34AX3GtS_y1k_V9rPeCV12EiUirMbDMjkanyY6SKdgSHGgephh4yALvnvweOreJSLppfN2u2oMax0AmON129Src3gBxYubgMwhAFxy0gg-Qbze37
+QH50wSCueMXcL16uA3JCUQdU0G
+}
+
+sprite $AwsIoTThingFactoryLg [20x20/16z] {
+TP070eH030B9flB_3v_9DUlO2Q0kdZ2eWRFzSAWVjSeTPMWIUw9pdYX5GtRAr_XSIGLO7v_gfhM_ShHKWNbhWnRbdsNs3aXDbcoDlGCep1MJ_N3msLXbvsCu
+bxFsVH1iciYkhnhfKo8-lJi-caL5Ld2saCVr0nIouBCrBm
+}
+
+!procedure AwsIoTThingFactory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/LoT/AwsIoTThingFactory', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingFactoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingFactoryMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingFactoryGroup($id, $name='Aws Io T Thing Factory', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingFactoryMd>', $name, $tech)
+!endprocedure

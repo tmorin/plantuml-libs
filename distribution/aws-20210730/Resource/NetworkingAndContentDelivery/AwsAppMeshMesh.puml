@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/NetworkingAndContentDelivery/AwsAppMeshMesh
+
+sprite $AwsAppMeshMeshXs [10x10/16z] PKe30W0W45l6_l_Ux8uJhk85oJgmW1z8_ZdRSiOt50YdQSBqdQat0m
+
+sprite $AwsAppMeshMeshSm [12x12/16z] NSk5OGGm20NG5qzW_tdRSyFvuZUoUzyDuz6J9ON69B9eIOdHm28KpxicieZzzcRPBAjDq59unWxm3m
+
+sprite $AwsAppMeshMeshMd [16x16/16z] ROw50SKW30MFU67_UR_KxT3uuvqn6Xn8er_ZNUOR20C886b2DfVLxjKXMxJPReEPsHoZ4cRirj-E-Jftahbg_dax-a6ApNRDi-dg1hWIKsaL1qrl-ds2cIy
+
+sprite $AwsAppMeshMeshLg [20x20/16z] {
+VL05baCn22GupFtlkzybspQupmlzUjKyfp08NtFZcGIl6M0jYG_QpAg3rdR6m2ENQsH28KTkjDisXJhx-BwyUPRHIUySLfvodfutlgEksrr6hs4XPtncb7Bb
+gbPycjJ9Yur58BgtGmcmhjYMt6-TmFo14LOqFxNB_GC
+}
+
+!procedure AwsAppMeshMesh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/NetworkingAndContentDelivery/AwsAppMeshMesh', $name, $tech)
+!endprocedure
+
+!procedure AwsAppMeshMeshCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshMeshMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsAppMeshMeshGroup($id, $name='Aws App Mesh Mesh', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshMeshMd>', $name, $tech)
+!endprocedure

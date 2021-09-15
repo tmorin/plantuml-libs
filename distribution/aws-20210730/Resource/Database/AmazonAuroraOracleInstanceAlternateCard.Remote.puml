@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonAuroraOracleInstanceAlternateCard
+include('aws-20210730/Resource/Database/AmazonAuroraOracleInstanceAlternate')
+
+' renders the element
+AmazonAuroraOracleInstanceAlternateCard('AmazonAuroraOracleInstanceAlternateCard', 'Amazon Aurora Oracle Instance Alternate Card', 'an optional description')
+@enduml

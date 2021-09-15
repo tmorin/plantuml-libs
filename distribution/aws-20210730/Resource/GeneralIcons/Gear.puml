@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/GeneralIcons/Gear
+
+sprite $GearXs [10x10/16z] LKd50G0X34jxBko_Bf4NbIYM6LnDxU3y_1F5oDVWaFFD5QFGPlKNwHkKPw9HuWa
+
+sprite $GearSm [12x12/16z] NSE5SSD054NH8otEtwV-oqqCWxxWbt4_mBfpcPaNcYy7eNhez4kXjEEY8npF56m9eR8PlaFXgddBA5_E2Vm3
+
+sprite $GearMd [16x16/16z] RSsteLXH3CKmtFI2TBp_kkv-PiSA_kpj3e3nJp7dRZ1A3PnxD0I0lQ1OIQ7nrhGkXAgb4HWtylbUH2O5QpF3F6HOJSD-SByR-UbloCgBphc1evXi02i9y1y
+
+sprite $GearLg [20x20/16z] {
+VSl7eSL020F0OPrjr7-vFuSzlRc192_qXyDa8GW5qETztyYHUmMwhC1Ahp1EimRdZkfSa08tphCilV0CT9w_VP3i6hh00UFd5s0Vq-zQmENxToHeg9kH58wL
+9ST-tUW20GOullUNIJNO7_bEUwy0zembI5rjageHpFOF1NW7
+}
+
+!procedure Gear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/GeneralIcons/Gear', $name, $tech)
+!endprocedure
+
+!procedure GearCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GearMd>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure GearGroup($id, $name='Gear', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GearMd>', $name, $tech)
+!endprocedure

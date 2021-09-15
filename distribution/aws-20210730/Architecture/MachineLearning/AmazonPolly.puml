@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/MachineLearning/AmazonPolly
+
+sprite $AmazonPollyXs [10x10/16z] DSR50S0m40Cmbmp9_lisT7h9WmOoEHsZi9eeM6qHY9jZeuxjCKS0x3PaiFiftAlv0G
+
+sprite $AmazonPollySm [12x12/16z] HSa74e1040B1YxiC_l-zPhsfH1UwohE8W0M8tbz0H_F1jSbom_H48zi9c-lK1NiOokmXsOfea5NQV5MZZdFVuEhS2mS
+
+sprite $AmazonPollyMd [16x16/16z] {
+LOs55G914CNOyJdwxvUyZ-SqMHlHec3tfyZtxI0_PhTFm6t7pplWpktl6HTIdTFc8xzmo9gG4_Ze51ivwxVEIKiQRjrCzGovs5Wu-FqLJkM9njy1fl2V0FX_
+U
+}
+
+sprite $AmazonPollyLg [20x20/16z] {
+PSq70eD024HHEeEv_tspI6BzzkSM_CefkgetrWl7-kM2RHcPIXTiouA1Jnmh8w83jx423AknRHcH1KY40cDRfgvC5J37M8zCzFI40BjXJrs8sG6CzKPAiex0
+ggUAY59LkKB7fhBgkEtp-M6oXxB5OLrrGRiTMjDXLsnxZVm2
+}
+
+!procedure AmazonPolly($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/MachineLearning/AmazonPolly', $name, $tech)
+!endprocedure
+
+!procedure AmazonPollyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonPollyMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonPollyGroup($id, $name='Amazon Polly', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonPollyMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtps
+
+sprite $AwsTransferFamilyAwsFtpsXs [10x10/16z] NOc50G0n4C9ugMN_VUj-2aHtmH1bNkdFa_KB5FNghP3mL_LdtPG-LKMM9NDVKJbB
+
+sprite $AwsTransferFamilyAwsFtpsSm [12x12/16z] RSU50S1024FHVmQ4_GUkUz4NVgh4nOw198SXV21W3a47vLopBGlIZ6IUpOXM3nELpMqk-cQ3KMUJIPrT8ie4
+
+sprite $AwsTransferFamilyAwsFtpsMd [16x16/16z] TSk30G0n343HNuJxxtisoho0_rNoJYVkX02BQG4YJafRUyA1oN3CwEuYTLgpImrc0vawtNwOX6QS9YTUZNAurTPQeU-sERIptoTdmsVZZZAZMtT6
+
+sprite $AwsTransferFamilyAwsFtpsLg [20x20/16z] {
+XSe55WGW30FHWJP8xt_WnTOjQFyBVvFQEqMEL-gG-qiBO3QzppXWgauK9PG1ka_rOS2nv8uUhCGARTZuvscLdMdWVhU8OH7zqTG0QpmQth3WRgVPU3MCHpFB
+SvFyRW6LGWaUh4wJL9dcjHkd1q8Ec8J0C2OeSG4
+}
+
+!procedure AwsTransferFamilyAwsFtps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtps', $name, $tech)
+!endprocedure
+
+!procedure AwsTransferFamilyAwsFtpsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyAwsFtpsMd>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsTransferFamilyAwsFtpsGroup($id, $name='Aws Transfer Family Aws Ftps', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsTransferFamilyAwsFtpsMd>', $name, $tech)
+!endprocedure

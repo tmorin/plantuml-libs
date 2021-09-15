@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/Storage/AwsBackup
+
+sprite $AwsBackupXs [10x10/16z] FOh50G0W3CHmoB7_lcYRrqbW77hlUCIZJaffH-tOToWxwGlQ14AzAOdI65FAKWymTzm02m
+
+sprite $AwsBackupSm [12x12/16z] JOa73W0X3CF4nk7__xqqMcT6RHMunJ7yWaHBn7jV5R9ELZPIwpJhNdPjYdxBkyidViNnuJxfx09uZYsnuWw3-G
+
+sprite $AwsBackupMd [16x16/16z] {
+NOp10S0W2CHwe6fm_trBfI_pIm18LZ4_k09NeD2eyFkIMOKWQGDRVbOYq0FBvvgopyCVD5Yzkux7g9VOAhUmu-tt7g4k1fGpFS15Xfq-fuynv2Gx0vPhkCft
+573y2Yy
+}
+
+sprite $AwsBackupLg [20x20/16z] {
+RSY5bGH124LH73wJVxxBwIvPUwLSJBNBDqnN_xDQjZHqupMfXTUSXNDXlqG5AR4NUz1TXWiLR3xOtGP19GbLLTXhgMn52N0oysDJu2rAQfiWSsWkFQOD0ehW
+UIpHS7M002nhuGPW5ezzFaCP4fC50TDZfJmtqhQDhZ1TMrrRUl4B
+}
+
+!procedure AwsBackup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/Storage/AwsBackup', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupGroup($id, $name='Aws Backup', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupMd>', $name, $tech)
+!endprocedure

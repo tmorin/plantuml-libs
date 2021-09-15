@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/ApplicationIntegration/AmazonEventBridgeSchema
+
+sprite $AmazonEventBridgeSchemaXs [10x10/16z] Oy04J62I6yhY1cCcY10NK0mYnCd63HLZXwZZ0d5Gz3910Gi
+
+sprite $AmazonEventBridgeSchemaSm [12x12/16z] JSc54S0m3C10XS7xxzjJEJ6--R-IdxT9GbYS0nQ4iz3PN7FgtfnNPCX4qM4-3eNAkkQ94PUZwljzSG
+
+sprite $AmazonEventBridgeSchemaMd [16x16/16z] ROw30G0n5CLgPVzv3xLIVZ-nGvf1fE9MDTfikbt-CHl5ha6c_1J2N9zAHR6Xs9gOxL8gupml9ZVgLPZx5_C_tFND85ZmBm
+
+sprite $AmazonEventBridgeSchemaLg [20x20/16z] {
+VO-50SGW0CI2o-q_xqknUbei7COTLMS2ueIDozKRfvqRmx9D3BSoCilX2DNY33jd5QaLzYvjEzhfl3HSb7Ov0zILsr16YRqBuBDXdmlZNPekP82jqkjxDyBE
+sHC-4k8P-mK
+}
+
+!procedure AmazonEventBridgeSchema($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/ApplicationIntegration/AmazonEventBridgeSchema', $name, $tech)
+!endprocedure
+
+!procedure AmazonEventBridgeSchemaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeSchemaMd>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeSchemaGroup($id, $name='Amazon Event Bridge Schema', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeSchemaMd>', $name, $tech)
+!endprocedure

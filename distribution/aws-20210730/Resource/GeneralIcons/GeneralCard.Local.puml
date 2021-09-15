@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element GeneralCard
+include('aws-20210730/Resource/GeneralIcons/General')
+
+' renders the element
+GeneralCard('GeneralCard', 'General Card', 'an optional description')
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcNetworkAccessControlListGroup
+include('aws-20210730/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList')
+
+' renders the element
+AmazonVpcNetworkAccessControlListGroup('AmazonVpcNetworkAccessControlListGroup', 'Amazon Vpc Network Access Control List Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

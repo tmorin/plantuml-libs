@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticBlockStoreSnapshotGroup
+include('aws-20210730/Resource/Storage/AmazonElasticBlockStoreSnapshot')
+
+' renders the element
+AmazonElasticBlockStoreSnapshotGroup('AmazonElasticBlockStoreSnapshotGroup', 'Amazon Elastic Block Store Snapshot Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

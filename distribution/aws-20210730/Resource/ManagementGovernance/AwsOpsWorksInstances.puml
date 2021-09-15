@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/ManagementGovernance/AwsOpsWorksInstances
+
+sprite $AwsOpsWorksInstancesXs [10x10/16z] JKc30G113AkL_UTzuugGrk4WW6HH_qHm1n2vj0VWcbyjhGYd068x
+
+sprite $AwsOpsWorksInstancesSm [12x12/16z] NSg53G0n581GQb_td_TSI_AYyArLtHYr1WNPA12e-YL_VoswCKhv_wQ-YVd_FFy_8cyh
+
+sprite $AwsOpsWorksInstancesMd [16x16/16z] XOv50W9H34DJeqF-_UzBYlkyHLs2TnQvG94r5WGEOomBm6U-kezWTsV94EzGO9E9bDbsxz6intYMcH4f46DCnb42AMCk4-_x-_bDZuTCdm
+
+sprite $AwsOpsWorksInstancesLg [20x20/16z] {
+hP053i9W58FxMrz6xtzVkeue3claotF18rraeIk8iI3xsGODnUZyt5TLMnkReHX5F58V5Z22co6IUwsX6CN_Tjc54Hp6Uly3dV23tdkrKOPYJ6BHSggr3gDV
+0G
+}
+
+!procedure AwsOpsWorksInstances($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/ManagementGovernance/AwsOpsWorksInstances', $name, $tech)
+!endprocedure
+
+!procedure AwsOpsWorksInstancesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksInstancesMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOpsWorksInstancesGroup($id, $name='Aws Ops Works Instances', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksInstancesMd>', $name, $tech)
+!endprocedure

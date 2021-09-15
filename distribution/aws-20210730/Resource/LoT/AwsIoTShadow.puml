@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Resource/LoT/AwsIoTShadow
+
+sprite $AwsIoTShadowXs [10x10/16z] JSQ50G0X34FH3zNiF_2vy2e9gqbpka85C3W926UGqH3fGX5OrqcW5_91SBLvqmu
+
+sprite $AwsIoTShadowSm [12x12/16z] LSd50G0120F1nQ7_WizrFf24lmYTwrKs4yAchnL8kmHOjf1CqdWMFKom_IQd5Em18maD9S94qQcKRd_VP0K
+
+sprite $AwsIoTShadowMd [16x16/16z] {
+PStL0KDH2C3GuB3_mkrpoz-v0l1DfYTlBFxDwTbFEpRlJvKG_hLVB-DF9lTANVxkQcgmIAMOlvKPqGabCSypwMtHKIwSUw1u0WrMNelB_rJ7oTLgO6Q8wTzI
+z_W1
+}
+
+sprite $AwsIoTShadowLg [20x20/16z] {
+TS-50IGW34JH7y_qN_09w_Pm9_oKgmbUo85jdgoVfXFdoXSEQMxTyjlYeo-36rUUskU9ry8GLGbcK9t5EY9g19AXw2Bgx9icfM9LHGKnla_218Hs7YGEUmQ0
+tW6Y-nPXJtFcCjD0bQ2JJYieII1Tv_oLW7eJ_0K
+}
+
+!procedure AwsIoTShadow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/LoT/AwsIoTShadow', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTShadowCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTShadowMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTShadowGroup($id, $name='Aws Io T Shadow', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTShadowMd>', $name, $tech)
+!endprocedure

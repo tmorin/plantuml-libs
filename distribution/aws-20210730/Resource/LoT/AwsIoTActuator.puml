@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/LoT/AwsIoTActuator
+
+sprite $AwsIoTActuatorXs [10x10/16z] DSP70S0m00GWidF-1NUN5m1W6y10EZJ28gXe81GW83-PNVUild82
+
+sprite $AwsIoTActuatorSm [12x12/16z] LSg52GHG5C2mFFcs_y3d6YXQ_sB5zZ9nJa04E13C32Q9pxzmNc6U1DLlx5XiPgJTonfbPjeVUGK
+
+sprite $AwsIoTActuatorMd [16x16/16z] ROw54GGn30Cbi_jl-CVEyvr2ks7S9QlgIvVxhMBJiyAEEt7I2odJfSsA3kxIvv9r3XqFUL_lYunWjbi4tc5_w3i0nVByKS9gl4nGT2XodGgeAgXIi_CxU
+
+sprite $AwsIoTActuatorLg [20x20/16z] {
+TSg5bKKn24NH4opGVyEpxjX_kYCehtnFEoVHG3P7ZMHc898ECYiIH3aYuyUu9r0e_UL8CJzHdr85QoHSsuQi0SbrN3oELdLlR8pkJWvcYfiyBbofHsrWjNQh
+6FMi8g0ZDTTHrBgFVdq_UsVgvKNm1G
+}
+
+!procedure AwsIoTActuator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/LoT/AwsIoTActuator', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTActuatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTActuatorMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTActuatorGroup($id, $name='Aws Io T Actuator', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTActuatorMd>', $name, $tech)
+!endprocedure

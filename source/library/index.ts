@@ -2,6 +2,7 @@ import {DefaultPackageContext, LibraryFactory} from "../../workdir-generator/fac
 import {Library, Package} from "../../workdir-generator/manifest";
 import {Eip1Factory} from "./packages/eip-1";
 import {Aws20210131Factory} from "./packages/aws-20210131";
+import {Aws20210730Factory} from "./packages/aws-20210730";
 import {AzureV2Factory} from "./packages/azure-4";
 import {Fontawesome5Factory} from "./packages/fontawesome-5";
 import {C4modelFactory} from "./packages/c4model";
@@ -13,6 +14,7 @@ import {Homecloud1Factory} from "./packages/homecloud-1";
 
 const PACKAGE_FACTORIES = [
     new Aws20210131Factory(),
+    new Aws20210730Factory(),
     new AzureV2Factory(),
     new C4modelFactory(),
     new Eip1Factory(),

@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Architecture/Analytics/AmazonRedshift
+
+sprite $AmazonRedshiftXs [10x10/16z] FSR70S0W00Enq3bx_tr3rqj0drhZLV2DfjubIkunZ8t2cJxIcCSg1Bf7qHYsMwmVQzO0Fm
+
+sprite $AmazonRedshiftSm [12x12/16z] HOlL0S0m44BRo5s0_UUDo_j2qIaJT-0PTcd_7xmR4dOQaeOSxMhWZrlpnpTc6jhmZuz42uKOI79sojAYP-VMuW1e
+
+sprite $AmazonRedshiftMd [16x16/16z] LSp70G0X24HH9G_st-yAc-VslW6rkERkEFU4_3ayAn2RAMc5tC6YRyZbD2DY8dtSFqnxd1N6npeWCBoUvjj0h7ACJBInrhRFNI_luCYQj2i44yrcU-MrzZyS
+
+sprite $AmazonRedshiftLg [20x20/16z] {
+PSi93WH1249HQzE2llzzXpYcrv_z1P3jir30Ix-MoA8rnro5J3JFPH-95CAZ_bOcz6KpjdThfz41HEpOBrEztOrfjXfkHcjO0o_hVPaCqkDluOG3PKVQCX9f
+wX3A1YWyJHZ137QQqFhoQGsd2HMeJakioZxu0m
+}
+
+!procedure AmazonRedshift($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/Analytics/AmazonRedshift', $name, $tech)
+!endprocedure
+
+!procedure AmazonRedshiftCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRedshiftMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRedshiftGroup($id, $name='Amazon Redshift', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonRedshiftMd>', $name, $tech)
+!endprocedure

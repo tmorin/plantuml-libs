@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleStorageServiceS3StorageLens
+include('aws-20210730/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens')
+
+' renders the element
+AmazonSimpleStorageServiceS3StorageLens('AmazonSimpleStorageServiceS3StorageLens', 'Amazon Simple Storage Service S3 Storage Lens', 'an optional tech label')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsTransferFamilyAwsFtp
+include('aws-20210730/Resource/MigrationAndTransfer/AwsTransferFamilyAwsFtp')
+
+' renders the element
+AwsTransferFamilyAwsFtp('AwsTransferFamilyAwsFtp', 'Aws Transfer Family Aws Ftp', 'an optional tech label')
+@enduml

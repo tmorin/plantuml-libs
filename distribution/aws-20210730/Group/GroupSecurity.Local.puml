@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element GroupSecurity
+include('aws-20210730/Group/GroupSecurity')
+
+GroupSecurity('GroupSecurity', 'Group Security', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

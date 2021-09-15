@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Resource/LoT/AwsIoTThingTemperatureVibrationSensor
+
+sprite $AwsIoTThingTemperatureVibrationSensorXs [10x10/16z] JOp50G0n3CDKJBJ_mCTGyykicAa-Uq2xiXpP1a4jGWkEl9PuXEDUQ9oBtaxayhS3
+
+sprite $AwsIoTThingTemperatureVibrationSensorSm [12x12/16z] LOst5KKn34AlqJi2zX_unyha3cu8DG8W_kE1iTXXo80tuGY3xAJdO57lTqDBB5f3WmoQG0I6zRzvuhJnkNxV
+
+sprite $AwsIoTThingTemperatureVibrationSensorMd [16x16/16z] {
+RSz70WGW24FHa2Y1-rzuS7hxrkTE_8aoEkW7rogsPE8KMnANfXfgaK8hPxTux1M5kjl5MYnN9cm3P6TKpmj6w6RkOm2UFKGJumXu5aN0kmJ09EmtEm6EqSvZ
+dCgFwkz_7avC5m
+}
+
+sprite $AwsIoTThingTemperatureVibrationSensorLg [20x20/16z] {
+TP17bWL12CC4b0jy_mDF-3bqMpizhSpPKj7umjFjc7UNCtxGN3O0X02e1MGDsT0rL56gG3B32c4agbL439iEXTb9AQ3RE7Si6w2c5p0CVN4sjG3RR9wThKlN
+6HUdV7OKJY-zTX3Zb85d1vQhtplAFTmxw5NFJN7PKckMBzJvVn25s1S0VW4
+}
+
+!procedure AwsIoTThingTemperatureVibrationSensor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/LoT/AwsIoTThingTemperatureVibrationSensor', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureVibrationSensorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureVibrationSensorMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingTemperatureVibrationSensorGroup($id, $name='Aws Io T Thing Temperature Vibration Sensor', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureVibrationSensorMd>', $name, $tech)
+!endprocedure

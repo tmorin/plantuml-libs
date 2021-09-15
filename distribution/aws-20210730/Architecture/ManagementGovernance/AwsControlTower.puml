@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Architecture/ManagementGovernance/AwsControlTower
+
+sprite $AwsControlTowerXs [10x10/16z] FSjH0W0G20DG09lxtzTGzVMg3S2wCoU2l4oNf33g4nCoH67cb37lhRBSsdwKi2yNhnuf7W
+
+sprite $AwsControlTowerSm [12x12/16z] JSZ70GD134BHIShzzsk1D_qJZ-WScLbya1yaOCwI67fjwnq0xZ76N8T_MivO4Lx4sj4L8SaD8EmFVW
+
+sprite $AwsControlTowerMd [16x16/16z] NSZ70KD1309HQIEm_TVh81p_tERn6Tn-n0lm0g8RCCW0R8CA6jjQxnS7aUHw_oGYntp_PC-CY3tymjO8if70AT1CLZW5UwCPZa5JxpTGyXUu-WlS0G
+
+sprite $AwsControlTowerLg [20x20/16z] {
+RSY7aKGn2C1G746u_thtHxYmrcZIuyuYlMA3R90DUfea-WzgeByepDd20fkeXjqeO0LcIqDfrakrCTC4bL94Yj3rDJSrgZIiGfWtSohN5wxrg4vXSfVMr2jl
+QxtAuClStDD2htRcOQ691m
+}
+
+!procedure AwsControlTower($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/ManagementGovernance/AwsControlTower', $name, $tech)
+!endprocedure
+
+!procedure AwsControlTowerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsControlTowerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsControlTowerGroup($id, $name='Aws Control Tower', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsControlTowerMd>', $name, $tech)
+!endprocedure

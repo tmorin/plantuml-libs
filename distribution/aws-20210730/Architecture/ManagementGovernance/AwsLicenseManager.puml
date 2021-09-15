@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Architecture/ManagementGovernance/AwsLicenseManager
+
+sprite $AwsLicenseManagerXs [10x10/16z] FSR70S1G24Cna_vW_ttZNtKIy3NlosxsNMwwai9hVMYpuzBQe-2hrek0QYLfgspW1m
+
+sprite $AwsLicenseManagerSm [12x12/16z] JOg54G0X0CCEBIdxpukzvgJAecqayGk66XPQmQQgqi9QRDTzQBU70BTtoH7kFggmGjzzojlJknLZgd7x5IpRs-zmW0a
+
+sprite $AwsLicenseManagerMd [16x16/16z] PSh70GCm24DHLx3a_VSDBLstzm6-arCRViAR6MYKM5CFfFc8uBJc7xGWEdrIvf-1iIRUvcnB87XvhTwxmCBD--uACywzRcePruAECMSVlMmVx1n4sK8k_1CU
+
+sprite $AwsLicenseManagerLg [20x20/16z] {
+RSp7OGDH24LHClFu_VTh0yhINHu2fkjUTlY1-CQrr2qNgorspMWtgyOY4fV9OZK6Q19UQmpOv4-hsAV0kua4-viLX4m9Z1VJT19F1bxtEAJt6iyPAvOG7yF3
+AaonXlDVfSWLAYBqj8v1DJ8sklsokjlNvXy
+}
+
+!procedure AwsLicenseManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/ManagementGovernance/AwsLicenseManager', $name, $tech)
+!endprocedure
+
+!procedure AwsLicenseManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsLicenseManagerMd>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsLicenseManagerGroup($id, $name='Aws License Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLicenseManagerMd>', $name, $tech)
+!endprocedure

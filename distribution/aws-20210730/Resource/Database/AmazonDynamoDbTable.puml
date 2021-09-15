@@ -1,0 +1,21 @@
+' definition of the Item aws-20210730/Resource/Database/AmazonDynamoDbTable
+
+sprite $AmazonDynamoDbTableXs [10x10/16z] Oq02d3nWYfc1avk74mmOU600IPOP1X1YsDLnye2LiG8
+
+sprite $AmazonDynamoDbTableSm [12x12/16z] LSh50S1030F1DONxRpTqwFaO96OcAiM9e1G7gcWr_zDkXbNf7wvUd6oRRbNgd8SUnVK
+
+sprite $AmazonDynamoDbTableMd [16x16/16z] XSkr5KDH40DHdOK7qlPVhnD_fXlFuAmaqueGmX8BGj6inu8mCzW6ocuZ5zU_I1DNS7VuoixzzQ-oMX5Z31kh_lcJDAxc3m
+
+sprite $AmazonDynamoDbTableLg [20x20/16z] ZSv70eHG20FG68ROSl_p3Ykx_lzsTF1ajKqV9GpCD7QXvzmyh_Hy8B20HmDykw7-6-jgUjrPY88ugXkP2vqxTTzu_6ygd8v-_ViYAXUx55BIe2F-0G
+
+!procedure AmazonDynamoDbTable($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Database/AmazonDynamoDbTable', $name, $tech)
+!endprocedure
+
+!procedure AmazonDynamoDbTableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbTableMd>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbTableGroup($id, $name='Amazon Dynamo Db Table', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbTableMd>', $name, $tech)
+!endprocedure

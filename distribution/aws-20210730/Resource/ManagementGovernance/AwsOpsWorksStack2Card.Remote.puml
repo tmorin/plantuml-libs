@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AwsOpsWorksStack2Card
+include('aws-20210730/Resource/ManagementGovernance/AwsOpsWorksStack2')
+
+' renders the element
+AwsOpsWorksStack2Card('AwsOpsWorksStack2Card', 'Aws Ops Works Stack2 Card', 'an optional description')
+@enduml

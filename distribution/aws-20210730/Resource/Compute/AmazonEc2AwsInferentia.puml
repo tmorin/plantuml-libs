@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/Compute/AmazonEc2AwsInferentia
+
+sprite $AmazonEc2AwsInferentiaXs [10x10/16z] LOo30G1024LpV_-5ptoPz8EWYtQNxewHUREUOMMWM5bqtz5-DV3dNmK
+
+sprite $AmazonEc2AwsInferentiaSm [12x12/16z] NSs53KGn30Kmg_2Q_HS-_6n547QNfff0PKEYVQbeQT2iHXfT4sglLprdleQG-AkmQlrYtFw-0G
+
+sprite $AmazonEc2AwsInferentiaMd [16x16/16z] TO-50G0n30Af0VilN7sNgyOJV408xeTBZEhByvvYZZlg8hjs4q4IGyXfi198CQOjBRNi2IL7SDhjYzrUzfnBploD5mS6j_eRM_rktV3dFBEmj_8D
+
+sprite $AmazonEc2AwsInferentiaLg [20x20/16z] {
+VP050aCn24FJJmAv_uLdXVdswiN1Bn82Z5p8FtygNyPiWIk59u80CWqS0wAIDxsZjF7Maun3s1YHYgqtVwqtVrHW_knNMrkjHqeKFRayw-rSrdgBiJg6coVR
+9wQEU4Biiej9caKM__MK243Wmatj3
+}
+
+!procedure AmazonEc2AwsInferentia($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Compute/AmazonEc2AwsInferentia', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2AwsInferentiaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AwsInferentiaMd>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AwsInferentiaGroup($id, $name='Amazon Ec2 Aws Inferentia', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AwsInferentiaMd>', $name, $tech)
+!endprocedure

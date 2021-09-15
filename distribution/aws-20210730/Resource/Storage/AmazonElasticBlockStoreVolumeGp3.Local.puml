@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-20210730/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticBlockStoreVolumeGp3
+include('aws-20210730/Resource/Storage/AmazonElasticBlockStoreVolumeGp3')
+
+' renders the element
+AmazonElasticBlockStoreVolumeGp3('AmazonElasticBlockStoreVolumeGp3', 'Amazon Elastic Block Store Volume Gp3', 'an optional tech label')
+@enduml

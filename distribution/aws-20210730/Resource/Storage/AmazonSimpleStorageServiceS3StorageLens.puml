@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens
+
+sprite $AmazonSimpleStorageServiceS3StorageLensXs [10x10/16z] JOk54G0W30E3y_ilp65rYoW4UnJESI9hgi9C-qaVx_iKXU1Z3zqnzYZQaL93MW
+
+sprite $AmazonSimpleStorageServiceS3StorageLensSm [12x12/16z] LKk50GGn3AADxx_mmvzN4XIVOvDxUGtXNDe6eeEJHd9UEZ6gZc1h3IV6EfK9OawN9VqeHcfYQnpDCqYxMxaV
+
+sprite $AmazonSimpleStorageServiceS3StorageLensMd [16x16/16z] {
+PKk54GGn44hMwR_X3zozCxE2hN_i16O6iqMHBsFiBFk8uimWdKcBxY7dUq0nb26Qoqnv-DcCrbOSITtX3V4rlGIWhdg9olFG5PBBglAYvhVUjxsvN_qSRi4M
+EkG-
+}
+
+sprite $AmazonSimpleStorageServiceS3StorageLensLg [20x20/16z] {
+TL055eKm36FLvFu7HZfxNoWUPJlUHZq18jqcalH5akrvKZuyAEmp9ny94swbRMe9bFXEiEGzy3QyPiktexmLnP5NK4RWUI9bO1wtlc7ygMfoP397cX7mZXsn
+AdO3DpRNHlt0gdZ99FSYfyxrOpTgjgoQcZZlx8-9vRi
+}
+
+!procedure AmazonSimpleStorageServiceS3StorageLens($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Storage/AmazonSimpleStorageServiceS3StorageLens', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StorageLensCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3StorageLensMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3StorageLensGroup($id, $name='Amazon Simple Storage Service S3 Storage Lens', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3StorageLensMd>', $name, $tech)
+!endprocedure

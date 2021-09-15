@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/Analytics/AwsGlueDataCatalog
+
+sprite $AwsGlueDataCatalogXs [10x10/16z] HSR50G0m202ngzl-yzQ1l88PFEsi77UZrS5TWln69Fobp1z3nvk_sW8
+
+sprite $AwsGlueDataCatalogSm [12x12/16z] JSP50G0n402nAIxvrtjOoYkSF5aUS2oN5-ErrN6YvXRZ1kHnAi6yazUfZ7TzvUzYh_SQ_iit
+
+sprite $AwsGlueDataCatalogMd [16x16/16z] RSZ50S0m3CNGdvZj_USjSwFR4xwrx9LdjRWZUknPx0RjzTiiiepJRhoSmkdc7g5-6GN0SHlySIry6YtUZeUxx-bXzAEHgzSTPW
+
+sprite $AwsGlueDataCatalogLg [20x20/16z] {
+XSz50iKW54FH87b8zh_UUejywSNF37nDWlhARa11opsMdvgbfsOXX4Z6xMW6gQHSL35OpfkfDn9RnjxsOzy6OmGiZ0RjSpBIE1kiUCmc-TV_jfhLfzCyYc-5
+tSnWVSGA
+}
+
+!procedure AwsGlueDataCatalog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Analytics/AwsGlueDataCatalog', $name, $tech)
+!endprocedure
+
+!procedure AwsGlueDataCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueDataCatalogMd>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AwsGlueDataCatalogGroup($id, $name='Aws Glue Data Catalog', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueDataCatalogMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/MigrationTransfer/AwsMigrationEvaluator
+
+sprite $AwsMigrationEvaluatorXs [10x10/16z] DSQt0S0m40CnAlFU--zhHLJmDARUuNLFgy38rdn07iwU2m5scWk9CkmriEmlpkTscNu
+
+sprite $AwsMigrationEvaluatorSm [12x12/16z] HSVN0GD12CJG2mkCrlttwm67qzUJkdAP2SymSyxO8PN2GtVgQc-eYz0XUwyYa2xRXRXEIMRbmPdsQtS1s3E5isVetW
+
+sprite $AwsMigrationEvaluatorMd [16x16/16z] {
+LShPWGKW24DHP8_JVxz3U7k-F5TwLxkS0LzbZPyBF8Cy0ntLEczZe2lLMqBfow3QdM7h2ISHqgsslbA082Vu-a9yUA9dDF-WE2-7-e6fqdztLu4P_GmAZdu6
+xEYVy0y
+}
+
+sprite $AwsMigrationEvaluatorLg [20x20/16z] {
+RSZ70S9030H0PUtY_llbq97jUGwUUgi7yfoyIBuptlc-53npZbc0Tg9ySgvQBA4ICdUR50gGNRblqgG1c01pAyEQr4WWDFUrh6BG0PXYRgq6or4QMFRTX4B2
+g_4mXOA0Nf3FkHIT3jrt7Elc4rn-ZiBFVNPxtqyUupVl
+}
+
+!procedure AwsMigrationEvaluator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/MigrationTransfer/AwsMigrationEvaluator', $name, $tech)
+!endprocedure
+
+!procedure AwsMigrationEvaluatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationEvaluatorMd>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMigrationEvaluatorGroup($id, $name='Aws Migration Evaluator', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationEvaluatorMd>', $name, $tech)
+!endprocedure

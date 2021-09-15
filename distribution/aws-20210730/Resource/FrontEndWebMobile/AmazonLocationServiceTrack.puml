@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/FrontEndWebMobile/AmazonLocationServiceTrack
+
+sprite $AmazonLocationServiceTrackXs [10x10/16z] Oq02N9oS38mW1ZC8SoCaa9dSK1B1ue2hOGRHN4223IJ20jC3
+
+sprite $AmazonLocationServiceTrackSm [12x12/16z] LOs30G0m40DhtVxprdexKRyaZ34spPhSGqd_ElwDt30JZ53kQ5KZmIhpP54hNY7ViW4
+
+sprite $AmazonLocationServiceTrackMd [16x16/16z] PKq50WGX4CAMuV_llTYrdKx0AMO1W3VhFKHIKEj3VHBfiSirgDSWyU12O_5wuANsGkXPDt6YdAVhhG5GBAtrnDBJsCQTOoVrjhLV
+
+sprite $AmazonLocationServiceTrackLg [20x20/16z] {
+ZP053a0n24FBB2kz_tc_k-v5Id304z7hfYkEx1mGYgs-cXbiWDaFnRPe5Eu4VtAgrMcIxEeKOjbiQTEj1fgtFJPtZQvoF1gMITQ3IylbSNCbJi9KRUsazQGI
+jb-LY0iSAc_aMreF
+}
+
+!procedure AmazonLocationServiceTrack($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/FrontEndWebMobile/AmazonLocationServiceTrack', $name, $tech)
+!endprocedure
+
+!procedure AmazonLocationServiceTrackCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceTrackMd>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLocationServiceTrackGroup($id, $name='Amazon Location Service Track', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceTrackMd>', $name, $tech)
+!endprocedure

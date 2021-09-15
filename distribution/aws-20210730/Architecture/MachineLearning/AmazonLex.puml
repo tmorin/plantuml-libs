@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/MachineLearning/AmazonLex
+
+sprite $AmazonLexXs [10x10/16z] DSR70S0m30CnfaayUVzzuueNt6KN0QSGkK1ASbzXtFKL8cNr5UWAkRhxZaTkrS5bjrtu0G
+
+sprite $AmazonLexSm [12x12/16z] HSV70G8m5CDGKcqb---BFrMd9rTAUs_u3sYaNGDHxqCfbgNX-32WL_6X2xNcEC6ZxBVfnFTKU67Vrr35_ta2
+
+sprite $AmazonLexMd [16x16/16z] {
+LSx7OKKn24HHCWpklry3Fz_TcHUaklAA2VXQplWupomRtR0MLJ7XlCQg6Y9SvnxFsr5QTMwGWENITUyFa45H3tT2GSI-t_GsDgEFMpAyAiP_Z-6kXHf_1WF6
+ds4R_mx_
+}
+
+sprite $AmazonLexLg [20x20/16z] {
+PSrL0iGm20HGl4Dw__ikHDOw-Sh3i7EjH2VpYVd4jjmZSR1fV_HqpZPLaH33ncb482B3nj5c5KSPbesyS8vl78N2QUvkzPoM5PBL2YC22Ck6PnahInkMZJPI
+ZcZ3M2bB9iUtkLGYLThkUsirkb7YsC7WRT-TdMs_MFRiV04
+}
+
+!procedure AmazonLex($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/MachineLearning/AmazonLex', $name, $tech)
+!endprocedure
+
+!procedure AmazonLexCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonLexMd>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonLexGroup($id, $name='Amazon Lex', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonLexMd>', $name, $tech)
+!endprocedure

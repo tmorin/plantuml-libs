@@ -1,0 +1,21 @@
+' definition of the Item aws-20210730/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes
+
+sprite $AmazonElasticBlockStoreMultipleVolumesXs [10x10/16z] RSR50S0W542n1z_t7xZk9QSmqW4i09LLjO1LONMDmHfzLTAupG
+
+sprite $AmazonElasticBlockStoreMultipleVolumesSm [12x12/16z] XSP50G1140Em3dVz2pvcp2jurQgAS-aZYkVmcNiGWL70ekq7_-vf0SvmqGC
+
+sprite $AmazonElasticBlockStoreMultipleVolumesMd [16x16/16z] bSlL0S0m409GJbFs7xZkdlTr0lYc8ooAZTHz-gQFAEvfGCPCIMa0oaIT73h4H1ocmkEEcltSzzG8iCnS1Dyw
+
+sprite $AmazonElasticBlockStoreMultipleVolumesLg [20x20/16z] jSYr0GD040F1FNxrNx2PdHWd4V2TMaV6XGz7gzQfcl9aqYQxWSYuICboOFf2KHLIC5m8egHw-k3_dzdzvzbL5OnVo2ACdQWhthC5
+
+!procedure AmazonElasticBlockStoreMultipleVolumes($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Storage/AmazonElasticBlockStoreMultipleVolumes', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreMultipleVolumesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreMultipleVolumesMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreMultipleVolumesGroup($id, $name='Amazon Elastic Block Store Multiple Volumes', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreMultipleVolumesMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Resource/LoT/AwsIoTThingRelay
+
+sprite $AwsIoTThingRelayXs [10x10/16z] JOp50G0n3CFK1ht_mCTGVG86Lh8b_QT1SDqM52JLLeZpQDEzgQxjzWdSJdhfsm4
+
+sprite $AwsIoTThingRelaySm [12x12/16z] LSt9TKKn20KmWNroeV-2ywVLKmFor7gdmUJdSg9HvX1B_GaTmwRJDXJEheagU-te2DeqyHFSoUnEwl6-
+
+sprite $AwsIoTThingRelayMd [16x16/16z] {
+ROz70e0m20I79MRX_nyMsyr9fGC_A4s7_8bhbJhJkiKuygD6p2KEXhcSkkKEHdXabw10MTW6YJP4xJBGVTk7bUuYKhXV_mWqiaQEtbZ2diERtnianA2HOIX_
+rEyydxmPJW
+}
+
+sprite $AwsIoTThingRelayLg [20x20/16z] {
+TT39OMKn20J0adW8o3_W6VjltgjFG9_mbvshp2qVkxFwwsvtpolbflaG5tOqvUOYCfRCOTWuH6LOgycAf6UBN5GDygHTgqNNXURqJawlYGipWwY4ZfX9D3qh
+cMeVFRlIcbq-UjEIR3vwu-RmqGit-z6ZhlZGuURAohxcblZxVwoGpYtm7m
+}
+
+!procedure AwsIoTThingRelay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/LoT/AwsIoTThingRelay', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingRelayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingRelayMd>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingRelayGroup($id, $name='Aws Io T Thing Relay', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingRelayMd>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-20210730/Resource/Storage/AmazonElasticBlockStoreVolume
+
+sprite $AmazonElasticBlockStoreVolumeXs [10x10/16z] Oq02R70MEnXm0bcS4C103c040oO6
+
+sprite $AmazonElasticBlockStoreVolumeSm [12x12/16z] Oq05x8mWm0PYSa1461c111CKWDZCKAMSL6HpG04d0m
+
+sprite $AmazonElasticBlockStoreVolumeMd [16x16/16z] pST70K0X30Mmrztw5_pt10IGMp1GUPApJZWbTk9og_t4h_rXZpYEXyzmgnUm0W
+
+sprite $AmazonElasticBlockStoreVolumeLg [20x20/16z] tSh50G0X40J11bRp3_ZS9G7gDy8VprrXOy8kMTNW8BPjVf6o_cwstzNsCwxwwhnSrBLJkwem0W
+
+!procedure AmazonElasticBlockStoreVolume($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/Storage/AmazonElasticBlockStoreVolume', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreVolumeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreVolumeMd>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreVolumeGroup($id, $name='Amazon Elastic Block Store Volume', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreVolumeMd>', $name, $tech)
+!endprocedure

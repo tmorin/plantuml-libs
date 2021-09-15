@@ -1,0 +1,27 @@
+' definition of the Item aws-20210730/Architecture/CustomerEnablement/AwsManagedServices
+
+sprite $AwsManagedServicesXs [10x10/16z] FSR70GCn30Gn9OOTglzsxSju0NJ80ry1UZJTMzE7ikXYkgGgXANQiMBO6ZfNGVEcVHO6xAVm1m
+
+sprite $AwsManagedServicesSm [12x12/16z] JSV70O0m5CFGz5Z-x3yl7QAJdisPphp09qQRt2yXCjUFMMbC5Auz5Hs02BlqpaWwFgQpKgcSxs7JpZzJfsJOBlXgMx03
+
+sprite $AwsManagedServicesMd [16x16/16z] {
+NSZN0OKm3CNGn4xnbTb_tLVeeByZq5PimVFm6flTh4vfTpGK2fSsErQ7HGmf4aBqQQhwbud9wDXGh4uOKNeK5L-Tq4KtXJOxz4ffOsvEdu2Ps-vazAYZJhJa
+5Z05BBV1tw_n1G
+}
+
+sprite $AwsManagedServicesLg [20x20/16z] {
+RSZ7OSLG30CmTObytd_UkELt744I_-R67yaVoV-SllF_Q5hjCi3ZHW7iuGNydnAXNWKRxBb8pb0RQ6y0Uwx5qe1IF2fnMdiw4pKq67BEsvDGQiO4HExRKq0W
+6ed_Kz8a8yJaSUCaXaYhkcydJLAwKfwtKDcfK2EmhNyanueajcVot_OZjn_v1m
+}
+
+!procedure AwsManagedServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Architecture/CustomerEnablement/AwsManagedServices', $name, $tech)
+!endprocedure
+
+!procedure AwsManagedServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsManagedServicesMd>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsManagedServicesGroup($id, $name='Aws Managed Services', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsManagedServicesMd>', $name, $tech)
+!endprocedure

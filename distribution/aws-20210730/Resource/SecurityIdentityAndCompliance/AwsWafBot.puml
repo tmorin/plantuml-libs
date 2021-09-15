@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Resource/SecurityIdentityAndCompliance/AwsWafBot
+
+sprite $AwsWafBotXs [10x10/16z] TSR50G0X000WhiFzvxNr9o-iX9cxzki2tSwBHyWBFzuZh-lxa
+
+sprite $AwsWafBotSm [12x12/16z] NSR50SGm300msMbu_tcFiNh9sIW-olAHEzvjH4B9joMytLuDHCJjJVzSWh3CZmr9mXK
+
+sprite $AwsWafBotMd [16x16/16z] RKq50e1021jXmV__wn6sT6xu5pD-z0vxzE9uzOzx5zP-MBOXDjoZu1UE__IRhWn4akeH5eTRxnS1AaMFfcQAV-Ux62XJUrzYQmTs
+
+sprite $AwsWafBotLg [20x20/16z] {
+VS-55SCm40DG6Gwr_xvzAbFopUp3cUJ2DmVnhQtnW_YnVkxR30yEt0sXgbb3WAultBzNJp-Qwyo0C7hTvbO2fQdO08_dmEw4CBaURypv26OSlkijl5VoY31K
+rSIxhShkEou
+}
+
+!procedure AwsWafBot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Resource/SecurityIdentityAndCompliance/AwsWafBot', $name, $tech)
+!endprocedure
+
+!procedure AwsWafBotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBotMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafBotGroup($id, $name='Aws Waf Bot', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotMd>', $name, $tech)
+!endprocedure

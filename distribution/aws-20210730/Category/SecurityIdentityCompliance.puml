@@ -1,0 +1,24 @@
+' definition of the Item aws-20210730/Category/SecurityIdentityCompliance
+
+sprite $SecurityIdentityComplianceXs [10x10/16z] HSQ34G1100Imywh_Uj_8AFZfm0FWO_EgtKiRvHhKzCnTHKJSZZK9YMk3hiM7UtTt
+
+sprite $SecurityIdentityComplianceSm [12x12/16z] JOm53W0m20EJRL0e_t_lt8u8KC6F3sm0y3j8rwm9Uy-Me7jFVTJtpjntDmIP-pxw447r7bvxK92vz-1Wx_je
+
+sprite $SecurityIdentityComplianceMd [16x16/16z] NSe53WG134BHR8tIlVzzXt4X-dx0TzpM-s2OLv3tWDl3zYoFsx2oSBzSfB7YQPTv_MSsK_uhWAkTfAnG61-ptGgHxOcMNLPm87DEA-mxV0VPN_ij
+
+sprite $SecurityIdentityComplianceLg [20x20/16z] {
+RSY54SCm40H0wr7txh_VY67Y7Lx_mdeH4N93boVVjxDSZDBpQYgP2Tc-0EU7AKb-ZdC62E3hvFku7iwBSPWN9X7ZKEyjHzHE2GMvloMJ8ZZ4yxgIcep82UjA
+EhjRgNqbXtrdxjjPZ_xz
+}
+
+!procedure SecurityIdentityCompliance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-20210730/Category/SecurityIdentityCompliance', $name, $tech)
+!endprocedure
+
+!procedure SecurityIdentityComplianceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityIdentityComplianceMd>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityIdentityComplianceGroup($id, $name='Security Identity Compliance', $tech='')
+  IconGroupElement($id, 'SecurityIdentityCompliance', '<$SecurityIdentityComplianceMd>', $name, $tech)
+!endprocedure
