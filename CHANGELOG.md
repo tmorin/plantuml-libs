@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.4.0](https://github.com/tmorin/plantuml-libs/compare/v4.3.1...v4.4.0) (2021-09-16)
+
+
+### Features
+
+* **aws-20210730:** add the package ([844bf15](https://github.com/tmorin/plantuml-libs/commit/844bf15a91cca3aed147b3f7c30c40d95e72d048))
+
 ### [4.3.1](https://github.com/tmorin/plantuml-libs/compare/v4.3.0...v4.3.1) (2021-09-15)
 
 
