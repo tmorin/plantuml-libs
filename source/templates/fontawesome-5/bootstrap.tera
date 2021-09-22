@@ -16,24 +16,4 @@ skinparam Card<<IconElement>> {
     shadowing false
 }
 
-skinparam Rectangle<<IconCard>> {
-    BorderThickness 1
-    BorderColor $FONT_COLOR
-    BackgroundColor #FFFFFF
-    FontColor $FONT_COLOR
-    shadowing true
-}
-
-skinparam Rectangle<<IconGroup>> {
-  StereotypeFontColor $FONT_COLOR
-  BorderThickness 1
-  BorderColor $FONT_COLOR
-  BorderStyle solid
-  FontStyle none
-  FontColor $FONT_COLOR
-  FontSize $FONT_SIZE_MD
-  BackgroundColor transparent
-  shadowing false
-}
-
 {% endblock content %}

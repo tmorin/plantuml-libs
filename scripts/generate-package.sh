@@ -18,8 +18,7 @@ docker run --rm \
   -v "$(pwd)/.workdir:/workdir" \
   -v "$(pwd)/distribution:/distribution" \
   thibaultmorin/plantuml-generator:1 \
-  --log-level Info \
-  library generate library.yaml \
+  plantuml-generator library generate library.yaml \
   --urn="$1" --clean-urn="$1" -O=/distribution
 
 sync
