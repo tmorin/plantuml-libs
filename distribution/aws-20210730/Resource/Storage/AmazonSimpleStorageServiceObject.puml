@@ -16,9 +16,9 @@ hEJd7m
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceObjectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceObjectMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceObjectLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceObjectGroup($id, $name='Amazon Simple Storage Service Object', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceObjectMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceObjectLg>', $name, $tech)
 !endprocedure

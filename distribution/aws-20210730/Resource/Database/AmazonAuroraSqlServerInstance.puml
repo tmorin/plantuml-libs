@@ -16,9 +16,9 @@ sUz_nDbw3WtMhd-8GrENnB95pN4XMrA0X07y0G
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraSqlServerInstanceMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraSqlServerInstanceLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceGroup($id, $name='Amazon Aurora Sql Server Instance', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraSqlServerInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraSqlServerInstanceLg>', $name, $tech)
 !endprocedure

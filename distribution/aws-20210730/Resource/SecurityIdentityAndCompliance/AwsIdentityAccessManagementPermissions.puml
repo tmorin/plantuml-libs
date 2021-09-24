@@ -13,9 +13,9 @@ sprite $AwsIdentityAccessManagementPermissionsLg [20x20/16z] ZOt50S0m30CTDMZjFs-
 !endprocedure
 
 !procedure AwsIdentityAccessManagementPermissionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementPermissionsMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementPermissionsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementPermissionsGroup($id, $name='Aws Identity Access Management Permissions', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementPermissionsMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementPermissionsLg>', $name, $tech)
 !endprocedure

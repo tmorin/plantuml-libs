@@ -16,9 +16,9 @@ pxtCALhWqzJP7niF6wmn6o-6_8TjkscjbMRXQF4rsTRv5W5_
 !endprocedure
 
 !procedure AmazonEc2RescueCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2RescueMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2RescueLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2RescueGroup($id, $name='Amazon Ec2 Rescue', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2RescueMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2RescueLg>', $name, $tech)
 !endprocedure

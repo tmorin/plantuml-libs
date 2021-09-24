@@ -16,9 +16,9 @@ YvPl5b9TJgjozy-IzhFp1
 !endprocedure
 
 !procedure AwsCloudFormationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudFormationGroup($id, $name='Aws Cloud Formation', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationLg>', $name, $tech)
 !endprocedure

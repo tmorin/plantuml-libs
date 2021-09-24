@@ -19,9 +19,9 @@ hZv1AAdObpkW7HZdxeuICEvRqJwQaRf3pnpXKsgTpNVpIG4y0W
 !endprocedure
 
 !procedure AwsSystemsManagerMaintenanceWindowsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerMaintenanceWindowsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerMaintenanceWindowsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerMaintenanceWindowsGroup($id, $name='Aws Systems Manager Maintenance Windows', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerMaintenanceWindowsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerMaintenanceWindowsLg>', $name, $tech)
 !endprocedure

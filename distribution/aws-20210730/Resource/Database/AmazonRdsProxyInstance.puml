@@ -16,9 +16,9 @@ y-d3iPOpjjAZzuxu2GFH0Vm3
 !endprocedure
 
 !procedure AmazonRdsProxyInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonRdsProxyInstanceMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsProxyInstanceLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonRdsProxyInstanceGroup($id, $name='Amazon Rds Proxy Instance', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsProxyInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsProxyInstanceLg>', $name, $tech)
 !endprocedure

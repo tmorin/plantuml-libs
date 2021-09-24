@@ -19,9 +19,9 @@ ZO-50GCn30CLCcd_UTjdfWjVoCOLJMPMnpp1ZOF502FIuW8JdZ-vIfwSmRi-xLoY0ZcOHfVfqtlMh0ok
 !endprocedure
 
 !procedure AwsAppMeshVirtualServiceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualServiceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualServiceLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsAppMeshVirtualServiceGroup($id, $name='Aws App Mesh Virtual Service', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualServiceMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualServiceLg>', $name, $tech)
 !endprocedure

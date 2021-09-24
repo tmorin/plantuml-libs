@@ -19,9 +19,9 @@ QPdMOw724C0KFpOnZQUl3trj8aeCnNtj8eGSmBMBDyU-SVp0Fm
 !endprocedure
 
 !procedure AwsFirewallManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsFirewallManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsFirewallManagerLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsFirewallManagerGroup($id, $name='Aws Firewall Manager', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsFirewallManagerMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsFirewallManagerLg>', $name, $tech)
 !endprocedure

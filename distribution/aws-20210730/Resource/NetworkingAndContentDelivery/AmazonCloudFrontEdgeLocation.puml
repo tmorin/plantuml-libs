@@ -13,9 +13,9 @@ sprite $AmazonCloudFrontEdgeLocationLg [20x20/16z] jO_50K0n24DJ1xB_lDzTJxmg3dY2D
 !endprocedure
 
 !procedure AmazonCloudFrontEdgeLocationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontEdgeLocationMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudFrontEdgeLocationLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudFrontEdgeLocationGroup($id, $name='Amazon Cloud Front Edge Location', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudFrontEdgeLocationMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonCloudFrontEdgeLocationLg>', $name, $tech)
 !endprocedure

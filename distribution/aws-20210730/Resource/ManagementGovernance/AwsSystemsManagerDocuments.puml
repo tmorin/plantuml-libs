@@ -13,9 +13,9 @@ sprite $AwsSystemsManagerDocumentsLg [20x20/16z] XSk53G0n34DHbo7xptjGvZvHzELWZQA
 !endprocedure
 
 !procedure AwsSystemsManagerDocumentsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerDocumentsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerDocumentsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerDocumentsGroup($id, $name='Aws Systems Manager Documents', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerDocumentsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerDocumentsLg>', $name, $tech)
 !endprocedure

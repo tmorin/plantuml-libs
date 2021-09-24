@@ -13,9 +13,9 @@ sprite $CorporateDataCenterLg [20x20/16z] hOtL0SCm50EDyhlz1sx3pCbz2la07oeMMWBSIl
 !endprocedure
 
 !procedure CorporateDataCenterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CorporateDataCenterMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CorporateDataCenterLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure CorporateDataCenterGroup($id, $name='Corporate Data Center', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$CorporateDataCenterMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$CorporateDataCenterLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AwsOpsWorksStack2Lg [20x20/16z] Oy06kBZH0Gi3DxeY9ZPIn4R5cD002ni32niwO0G
 !endprocedure
 
 !procedure AwsOpsWorksStack2Card($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksStack2Md>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksStack2Lg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksStack2Group($id, $name='Aws Ops Works Stack2', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksStack2Md>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksStack2Lg>', $name, $tech)
 !endprocedure

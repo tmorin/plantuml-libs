@@ -19,9 +19,9 @@ avc0c2XUffqHXfmWqcB8c29n6kxMfjtC7SJjifHflaG1uaQyhZKUPIFU_M5_y
 !endprocedure
 
 !procedure AmazonDynamoDbCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonDynamoDbGroup($id, $name='Amazon Dynamo Db', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbLg>', $name, $tech)
 !endprocedure

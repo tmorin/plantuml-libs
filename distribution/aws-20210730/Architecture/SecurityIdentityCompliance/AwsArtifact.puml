@@ -19,9 +19,9 @@ RSYt0KCX50D0U5bY_trDhFolF5prP2O-aX_9cs5gUPCxenK0R-zcQgXCMPBl8Y00l6VrTvqG4mrfA3sN
 !endprocedure
 
 !procedure AwsArtifactCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsArtifactMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsArtifactLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsArtifactGroup($id, $name='Aws Artifact', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsArtifactMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsArtifactLg>', $name, $tech)
 !endprocedure

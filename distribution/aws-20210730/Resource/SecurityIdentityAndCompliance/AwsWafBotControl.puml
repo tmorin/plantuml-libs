@@ -19,9 +19,9 @@ ohN3fbnRoSc7lkyjHkRLgSma6gm6Z0i1mRth17U1i6gcraJKRX0FqP8AqxyFvmO
 !endprocedure
 
 !procedure AwsWafBotControlCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafBotControlMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBotControlLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafBotControlGroup($id, $name='Aws Waf Bot Control', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotControlMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotControlLg>', $name, $tech)
 !endprocedure

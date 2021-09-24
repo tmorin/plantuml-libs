@@ -16,9 +16,9 @@ o8ECREHZyQ6TKy7T_319uKSwNxTr2ynZGsYRGLKPlwO1pzu
 !endprocedure
 
 !procedure AwsWafBadBotCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafBadBotMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBadBotLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafBadBotGroup($id, $name='Aws Waf Bad Bot', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBadBotMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBadBotLg>', $name, $tech)
 !endprocedure

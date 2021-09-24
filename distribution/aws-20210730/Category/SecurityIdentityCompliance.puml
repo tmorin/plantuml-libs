@@ -16,9 +16,9 @@ EhjRgNqbXtrdxjjPZ_xz
 !endprocedure
 
 !procedure SecurityIdentityComplianceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SecurityIdentityComplianceMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$SecurityIdentityComplianceLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure SecurityIdentityComplianceGroup($id, $name='Security Identity Compliance', $tech='')
-  IconGroupElement($id, 'SecurityIdentityCompliance', '<$SecurityIdentityComplianceMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityCompliance', '<$SecurityIdentityComplianceLg>', $name, $tech)
 !endprocedure

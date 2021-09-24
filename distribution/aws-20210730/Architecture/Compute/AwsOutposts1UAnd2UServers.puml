@@ -13,9 +13,9 @@ sprite $AwsOutposts1UAnd2UServersLg [20x20/16z] RSg53S0m4CNGuFTr_u7BuLZyP9xKodVC
 !endprocedure
 
 !procedure AwsOutposts1UAnd2UServersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOutposts1UAnd2UServersMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOutposts1UAnd2UServersLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsOutposts1UAnd2UServersGroup($id, $name='Aws Outposts1 U And2 U Servers', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsOutposts1UAnd2UServersMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutposts1UAnd2UServersLg>', $name, $tech)
 !endprocedure

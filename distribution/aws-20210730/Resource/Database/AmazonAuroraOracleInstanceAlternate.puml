@@ -13,9 +13,9 @@ sprite $AmazonAuroraOracleInstanceAlternateLg [20x20/16z] rSZ50G9G342nzwNU_TV57H
 !endprocedure
 
 !procedure AmazonAuroraOracleInstanceAlternateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraOracleInstanceAlternateMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraOracleInstanceAlternateLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraOracleInstanceAlternateGroup($id, $name='Amazon Aurora Oracle Instance Alternate', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraOracleInstanceAlternateMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraOracleInstanceAlternateLg>', $name, $tech)
 !endprocedure

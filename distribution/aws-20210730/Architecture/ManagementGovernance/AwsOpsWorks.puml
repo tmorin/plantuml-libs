@@ -19,9 +19,9 @@ fXJIsE7vT1tzDJjChDDLqyvO0R_6ij_D7G
 !endprocedure
 
 !procedure AwsOpsWorksCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksGroup($id, $name='Aws Ops Works', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksLg>', $name, $tech)
 !endprocedure

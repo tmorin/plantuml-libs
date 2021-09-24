@@ -16,9 +16,9 @@ sHC-4k8P-mK
 !endprocedure
 
 !procedure AmazonEventBridgeSchemaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeSchemaMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeSchemaLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEventBridgeSchemaGroup($id, $name='Amazon Event Bridge Schema', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeSchemaMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeSchemaLg>', $name, $tech)
 !endprocedure

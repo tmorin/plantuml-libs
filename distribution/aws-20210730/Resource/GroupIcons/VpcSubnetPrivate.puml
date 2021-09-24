@@ -13,9 +13,9 @@ sprite $VpcSubnetPrivateLg [20x20/16z] jOs50O0m40C9x_iFZBjBUzMt93AXe6AJCcskJPBQo
 !endprocedure
 
 !procedure VpcSubnetPrivateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$VpcSubnetPrivateMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$VpcSubnetPrivateLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure VpcSubnetPrivateGroup($id, $name='Vpc Subnet Private', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$VpcSubnetPrivateMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$VpcSubnetPrivateLg>', $name, $tech)
 !endprocedure

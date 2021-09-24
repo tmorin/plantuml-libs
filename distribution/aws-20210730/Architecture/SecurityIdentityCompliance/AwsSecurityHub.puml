@@ -19,9 +19,9 @@ xFt2KAeA1YnvsBDNNex0OnEbxCBN9X9b3Um3PzC-iV_0Fm
 !endprocedure
 
 !procedure AwsSecurityHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSecurityHubGroup($id, $name='Aws Security Hub', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSecurityHubMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSecurityHubLg>', $name, $tech)
 !endprocedure

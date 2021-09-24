@@ -16,9 +16,9 @@ jWewt8WoF6oKzz62KNAtRtnR9tWvmHi
 !endprocedure
 
 !procedure AwsBatchCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBatchMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBatchLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsBatchGroup($id, $name='Aws Batch', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsBatchMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsBatchLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ TP054e002C3e-F-71UoQlHiM_2700ZdBWGBhtOLV21ddSCLwJbVdoUkKqjwL2TaxvdP1VMbTC8BKBERs
 !endprocedure
 
 !procedure AwsIoTThingHouseCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingHouseMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingHouseLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingHouseGroup($id, $name='Aws Io T Thing House', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingHouseMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingHouseLg>', $name, $tech)
 !endprocedure

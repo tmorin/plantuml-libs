@@ -16,9 +16,9 @@ VSt5WGG130F1Dblv1tomZ5DFWyI1NBNnP0f3pgFgYMLuCc1rltZb2C2J6o-45rwSHSHfLZBM0JagdMQO
 !endprocedure
 
 !procedure AwsIoTHardwareBoardCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTHardwareBoardMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTHardwareBoardLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTHardwareBoardGroup($id, $name='Aws Io T Hardware Board', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTHardwareBoardMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTHardwareBoardLg>', $name, $tech)
 !endprocedure

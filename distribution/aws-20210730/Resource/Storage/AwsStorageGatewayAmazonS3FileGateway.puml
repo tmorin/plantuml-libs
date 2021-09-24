@@ -16,9 +16,9 @@ cIzPJoq
 !endprocedure
 
 !procedure AwsStorageGatewayAmazonS3FileGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayAmazonS3FileGatewayMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayAmazonS3FileGatewayLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsStorageGatewayAmazonS3FileGatewayGroup($id, $name='Aws Storage Gateway Amazon S3 File Gateway', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayAmazonS3FileGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayAmazonS3FileGatewayLg>', $name, $tech)
 !endprocedure

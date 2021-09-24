@@ -13,9 +13,9 @@ sprite $AwsIoTEchoLg [20x20/16z] hKo35KLH3AkRx3_mvxEEhef8xaysY8ujHBDlSwwGqVMFsOf
 !endprocedure
 
 !procedure AwsIoTEchoCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTEchoMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEchoLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTEchoGroup($id, $name='Aws Io T Echo', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTEchoMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTEchoLg>', $name, $tech)
 !endprocedure

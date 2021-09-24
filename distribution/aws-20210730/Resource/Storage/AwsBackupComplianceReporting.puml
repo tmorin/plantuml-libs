@@ -16,9 +16,9 @@ obSwy3JWQhQs1MFon6j10dS
 !endprocedure
 
 !procedure AwsBackupComplianceReportingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupComplianceReportingMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupComplianceReportingLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupComplianceReportingGroup($id, $name='Aws Backup Compliance Reporting', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupComplianceReportingMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupComplianceReportingLg>', $name, $tech)
 !endprocedure

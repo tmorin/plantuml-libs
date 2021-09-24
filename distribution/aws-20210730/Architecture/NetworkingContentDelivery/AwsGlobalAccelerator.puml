@@ -19,9 +19,9 @@ XIb4KshOG7O6WYn-NHCTNybb0mDf3RPj8DmZ1J-sVxujMxZQzXyV
 !endprocedure
 
 !procedure AwsGlobalAcceleratorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsGlobalAcceleratorMd>', 'NetworkingContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsGlobalAcceleratorLg>', 'NetworkingContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsGlobalAcceleratorGroup($id, $name='Aws Global Accelerator', $tech='')
-  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsGlobalAcceleratorMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsGlobalAcceleratorLg>', $name, $tech)
 !endprocedure

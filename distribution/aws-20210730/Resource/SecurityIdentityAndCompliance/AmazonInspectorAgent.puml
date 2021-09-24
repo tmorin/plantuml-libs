@@ -19,9 +19,9 @@ LTFhVaC-1KasBNiSHqhjrABzVco0a0oqRiUPrJkW0dRoJYUKVnnpiu8FGkACRm
 !endprocedure
 
 !procedure AmazonInspectorAgentCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonInspectorAgentMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonInspectorAgentLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonInspectorAgentGroup($id, $name='Amazon Inspector Agent', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AmazonInspectorAgentMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AmazonInspectorAgentLg>', $name, $tech)
 !endprocedure

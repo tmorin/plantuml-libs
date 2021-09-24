@@ -19,9 +19,9 @@ TMXSrsagwNNTyZUIwEuyAqTbpoFbOtv48OgO1_a1
 !endprocedure
 
 !procedure AwsIoTThingDoorLockCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingDoorLockMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingDoorLockLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingDoorLockGroup($id, $name='Aws Io T Thing Door Lock', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingDoorLockMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingDoorLockLg>', $name, $tech)
 !endprocedure

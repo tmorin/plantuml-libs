@@ -13,9 +13,9 @@ sprite $AwsIoTAnalyticsDatasetLg [20x20/16z] XSs50O102010Mjb_OFCxptmInhmGOrQaaV2
 !endprocedure
 
 !procedure AwsIoTAnalyticsDatasetCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsDatasetMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsDatasetLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTAnalyticsDatasetGroup($id, $name='Aws Io T Analytics Dataset', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsDatasetMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsDatasetLg>', $name, $tech)
 !endprocedure

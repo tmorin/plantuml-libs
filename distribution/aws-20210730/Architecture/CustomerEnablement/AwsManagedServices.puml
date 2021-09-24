@@ -19,9 +19,9 @@ RSZ7OSLG30CmTObytd_UkELt744I_-R67yaVoV-SllF_Q5hjCi3ZHW7iuGNydnAXNWKRxBb8pb0RQ6y0
 !endprocedure
 
 !procedure AwsManagedServicesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsManagedServicesMd>', 'CustomerEnablement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsManagedServicesLg>', 'CustomerEnablement', $funcName, $content)
 !endprocedure
 
 !procedure AwsManagedServicesGroup($id, $name='Aws Managed Services', $tech='')
-  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsManagedServicesMd>', $name, $tech)
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsManagedServicesLg>', $name, $tech)
 !endprocedure

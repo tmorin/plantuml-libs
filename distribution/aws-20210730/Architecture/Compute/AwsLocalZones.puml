@@ -16,9 +16,9 @@ nXBME2OqSjTsx48ogAvJTRti99Affzt-u1q
 !endprocedure
 
 !procedure AwsLocalZonesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsLocalZonesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsLocalZonesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsLocalZonesGroup($id, $name='Aws Local Zones', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsLocalZonesMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLocalZonesLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ cux9oEo8hjWTA4S
 !endprocedure
 
 !procedure AmazonApiGatewayEndpointCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayEndpointMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonApiGatewayEndpointLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonApiGatewayEndpointGroup($id, $name='Amazon Api Gateway Endpoint', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonApiGatewayEndpointMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonApiGatewayEndpointLg>', $name, $tech)
 !endprocedure

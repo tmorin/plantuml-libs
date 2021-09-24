@@ -19,9 +19,9 @@ UIpHS7M002nhuGPW5ezzFaCP4fC50TDZfJmtqhQDhZ1TMrrRUl4B
 !endprocedure
 
 !procedure AwsBackupCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupGroup($id, $name='Aws Backup', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupLg>', $name, $tech)
 !endprocedure

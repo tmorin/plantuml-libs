@@ -13,9 +13,9 @@ sprite $ArVrLg [20x20/16z] RSi74e0W34HHXVJS_xxEnXxz5k0DqRycFoAqgdXbUxWrO0rX3M7H4
 !endprocedure
 
 !procedure ArVrCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ArVrMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ArVrLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure ArVrGroup($id, $name='Ar Vr', $tech='')
-  IconGroupElement($id, 'ArVr', '<$ArVrMd>', $name, $tech)
+  IconGroupElement($id, 'ArVr', '<$ArVrLg>', $name, $tech)
 !endprocedure

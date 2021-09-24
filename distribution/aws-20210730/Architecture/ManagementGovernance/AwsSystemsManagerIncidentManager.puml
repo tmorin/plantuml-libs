@@ -19,9 +19,9 @@ RSm50WGX34DHj91o__jk2cJzZ_8GxAOQ4VuWVb5chRtGD-K1b2xqG2C1jTU37bY2k6accLkO6RcLQyD8
 !endprocedure
 
 !procedure AwsSystemsManagerIncidentManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerIncidentManagerMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerIncidentManagerLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerIncidentManagerGroup($id, $name='Aws Systems Manager Incident Manager', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerIncidentManagerMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerIncidentManagerLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ L7Rf_0S
 !endprocedure
 
 !procedure AmazonFSxForWindowsFileServerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForWindowsFileServerMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonFSxForWindowsFileServerLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonFSxForWindowsFileServerGroup($id, $name='Amazon F Sx For Windows File Server', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForWindowsFileServerMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonFSxForWindowsFileServerLg>', $name, $tech)
 !endprocedure

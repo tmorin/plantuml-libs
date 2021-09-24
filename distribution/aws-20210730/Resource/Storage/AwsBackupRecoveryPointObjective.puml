@@ -16,9 +16,9 @@ TS77OGGW300mWN7RV-5yqqxosSdPgGS0E-3j1J11v44bO0_QG3-G5tkyW06BbpSjH14tiJRg5Yndz-gm
 !endprocedure
 
 !procedure AwsBackupRecoveryPointObjectiveCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupRecoveryPointObjectiveMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupRecoveryPointObjectiveLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupRecoveryPointObjectiveGroup($id, $name='Aws Backup Recovery Point Objective', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupRecoveryPointObjectiveMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupRecoveryPointObjectiveLg>', $name, $tech)
 !endprocedure

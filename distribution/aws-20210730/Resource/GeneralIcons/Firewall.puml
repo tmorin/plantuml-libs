@@ -16,9 +16,9 @@ TzPa5h5UlBRTKQFaGNefnxUUfJtdl1xm3
 !endprocedure
 
 !procedure FirewallCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$FirewallMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$FirewallLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure FirewallGroup($id, $name='Firewall', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$FirewallMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$FirewallLg>', $name, $tech)
 !endprocedure

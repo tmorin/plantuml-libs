@@ -13,9 +13,9 @@ sprite $AwsWafLabelsLg [20x20/16z] TOw10G0G2C0g0F_V2m1eWA421XaAk2iAK0XJj8Ds4j0VY
 !endprocedure
 
 !procedure AwsWafLabelsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafLabelsMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafLabelsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafLabelsGroup($id, $name='Aws Waf Labels', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafLabelsMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafLabelsLg>', $name, $tech)
 !endprocedure

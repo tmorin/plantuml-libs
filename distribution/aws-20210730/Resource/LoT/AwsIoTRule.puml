@@ -13,9 +13,9 @@ sprite $AwsIoTRuleLg [20x20/16z] lSh50KCn30DGcQtz5-vdphKlOCH8avXLAtQ5m8G2ddkMhrv
 !endprocedure
 
 !procedure AwsIoTRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTRuleMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTRuleLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTRuleGroup($id, $name='Aws Io T Rule', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTRuleMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTRuleLg>', $name, $tech)
 !endprocedure

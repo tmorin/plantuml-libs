@@ -16,9 +16,9 @@ TSo54KKn20NHZM6t_tg_wvETZ9q0d3Gp0RqpwDBjYNVTG33QYFKKQpURGguf1xfRShCQSq6r05Z1mpGA
 !endprocedure
 
 !procedure AwsWafManagedRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafManagedRuleMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafManagedRuleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafManagedRuleGroup($id, $name='Aws Waf Managed Rule', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafManagedRuleMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafManagedRuleLg>', $name, $tech)
 !endprocedure

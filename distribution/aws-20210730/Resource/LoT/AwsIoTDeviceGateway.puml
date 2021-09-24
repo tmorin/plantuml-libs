@@ -16,9 +16,9 @@ nbF-dja2
 !endprocedure
 
 !procedure AwsIoTDeviceGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceGatewayMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDeviceGatewayLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTDeviceGatewayGroup($id, $name='Aws Io T Device Gateway', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTDeviceGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTDeviceGatewayLg>', $name, $tech)
 !endprocedure

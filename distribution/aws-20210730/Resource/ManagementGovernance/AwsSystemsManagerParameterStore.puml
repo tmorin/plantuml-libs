@@ -16,9 +16,9 @@ V2puUh-nsWqwxIff7j5OMU4
 !endprocedure
 
 !procedure AwsSystemsManagerParameterStoreCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerParameterStoreMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerParameterStoreLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerParameterStoreGroup($id, $name='Aws Systems Manager Parameter Store', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerParameterStoreMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerParameterStoreLg>', $name, $tech)
 !endprocedure

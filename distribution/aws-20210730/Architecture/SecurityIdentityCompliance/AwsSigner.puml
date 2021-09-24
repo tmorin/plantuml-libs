@@ -19,9 +19,9 @@ RwAbBHS19bOtqJp3IXM6RKHc4GLfQpIRDd0i9nD1LHtRhmJMrlEEzWSV
 !endprocedure
 
 !procedure AwsSignerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSignerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSignerLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSignerGroup($id, $name='Aws Signer', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSignerMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSignerLg>', $name, $tech)
 !endprocedure

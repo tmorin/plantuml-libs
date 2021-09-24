@@ -13,9 +13,9 @@ sprite $AmazonDynamoDbItemLg [20x20/16z] lOv55WD124IBgI0lSF_hniRQrlajk615rW5FHP5
 !endprocedure
 
 !procedure AmazonDynamoDbItemCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbItemMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbItemLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonDynamoDbItemGroup($id, $name='Amazon Dynamo Db Item', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbItemMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbItemLg>', $name, $tech)
 !endprocedure

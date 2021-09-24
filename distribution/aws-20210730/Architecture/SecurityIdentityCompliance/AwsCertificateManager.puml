@@ -16,9 +16,9 @@ SomJtbrBEtkItA9tq-mFoXzK
 !endprocedure
 
 !procedure AwsCertificateManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCertificateManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCertificateManagerLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCertificateManagerGroup($id, $name='Aws Certificate Manager', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCertificateManagerMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCertificateManagerLg>', $name, $tech)
 !endprocedure

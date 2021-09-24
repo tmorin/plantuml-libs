@@ -13,9 +13,9 @@ sprite $AwsOpsWorksMonitoringLg [20x20/16z] hSY35GHH542n-_NOVxrhSvJZi9t2cqnUUIlP
 !endprocedure
 
 !procedure AwsOpsWorksMonitoringCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksMonitoringMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksMonitoringLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksMonitoringGroup($id, $name='Aws Ops Works Monitoring', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksMonitoringMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksMonitoringLg>', $name, $tech)
 !endprocedure

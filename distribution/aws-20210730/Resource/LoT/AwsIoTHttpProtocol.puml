@@ -13,9 +13,9 @@ sprite $AwsIoTHttpProtocolLg [20x20/16z] rS_70G8n34JHhp23rN_3N61p0_jkjZAFF2UhmSd
 !endprocedure
 
 !procedure AwsIoTHttpProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTHttpProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTHttpProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTHttpProtocolGroup($id, $name='Aws Io T Http Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTHttpProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTHttpProtocolLg>', $name, $tech)
 !endprocedure

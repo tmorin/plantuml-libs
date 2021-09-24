@@ -19,9 +19,9 @@ bzbQiXHrnB_lE2l42YvZUbRgWWa7_lg8Eaw24ty7Nl7qs-1lWty
 !endprocedure
 
 !procedure AmazonAuroraCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraGroup($id, $name='Amazon Aurora', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraLg>', $name, $tech)
 !endprocedure

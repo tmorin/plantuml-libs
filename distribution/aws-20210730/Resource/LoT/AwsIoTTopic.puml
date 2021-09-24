@@ -13,9 +13,9 @@ sprite $AwsIoTTopicLg [20x20/16z] rSg55SCm40JHuzljl-34p2x08_vFyffoxcZ67lQJfMMqKY
 !endprocedure
 
 !procedure AwsIoTTopicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTTopicMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTTopicLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTTopicGroup($id, $name='Aws Io T Topic', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTTopicMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTTopicLg>', $name, $tech)
 !endprocedure

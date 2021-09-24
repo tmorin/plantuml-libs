@@ -16,9 +16,9 @@ mMZGyx87M-tDg_Rhac9XGXBt9K_tlJC7EGC
 !endprocedure
 
 !procedure AwsShieldCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsShieldMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsShieldLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsShieldGroup($id, $name='Aws Shield', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsShieldMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsShieldLg>', $name, $tech)
 !endprocedure

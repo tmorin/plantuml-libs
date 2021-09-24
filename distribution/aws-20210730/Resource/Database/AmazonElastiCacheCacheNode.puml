@@ -13,9 +13,9 @@ sprite $AmazonElastiCacheCacheNodeLg [20x20/16z] rSZL0OKm54J14zcziVxRVQv00ypdSCX
 !endprocedure
 
 !procedure AmazonElastiCacheCacheNodeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheCacheNodeMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonElastiCacheCacheNodeLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonElastiCacheCacheNodeGroup($id, $name='Amazon Elasti Cache Cache Node', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonElastiCacheCacheNodeMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonElastiCacheCacheNodeLg>', $name, $tech)
 !endprocedure

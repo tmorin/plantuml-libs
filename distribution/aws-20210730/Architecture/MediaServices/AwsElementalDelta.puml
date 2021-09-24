@@ -16,9 +16,9 @@ mSSVt
 !endprocedure
 
 !procedure AwsElementalDeltaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElementalDeltaMd>', 'MediaServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalDeltaLg>', 'MediaServices', $funcName, $content)
 !endprocedure
 
 !procedure AwsElementalDeltaGroup($id, $name='Aws Elemental Delta', $tech='')
-  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalDeltaMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalDeltaLg>', $name, $tech)
 !endprocedure

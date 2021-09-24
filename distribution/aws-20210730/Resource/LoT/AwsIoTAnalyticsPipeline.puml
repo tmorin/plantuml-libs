@@ -13,9 +13,9 @@ sprite $AwsIoTAnalyticsPipelineLg [20x20/16z] lSYr0SCm54319ttUV-34JAtXokCB7X7AAW
 !endprocedure
 
 !procedure AwsIoTAnalyticsPipelineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsPipelineMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsPipelineLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTAnalyticsPipelineGroup($id, $name='Aws Io T Analytics Pipeline', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsPipelineMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsPipelineLg>', $name, $tech)
 !endprocedure

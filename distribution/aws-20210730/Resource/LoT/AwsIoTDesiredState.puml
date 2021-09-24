@@ -19,9 +19,9 @@ Q8G4zt1OqI6pNHRNgxzzFJg3vHlo0OUOgkrb4q8fFiptuXeB
 !endprocedure
 
 !procedure AwsIoTDesiredStateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTDesiredStateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDesiredStateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTDesiredStateGroup($id, $name='Aws Io T Desired State', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTDesiredStateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTDesiredStateLg>', $name, $tech)
 !endprocedure

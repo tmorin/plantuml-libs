@@ -13,9 +13,9 @@ sprite $AwsIoTReportedStateLg [20x20/16z] hOm54iG030A94Fd_Xo_dRcrtZC7m4g--9NKiuf
 !endprocedure
 
 !procedure AwsIoTReportedStateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTReportedStateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTReportedStateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTReportedStateGroup($id, $name='Aws Io T Reported State', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTReportedStateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTReportedStateLg>', $name, $tech)
 !endprocedure

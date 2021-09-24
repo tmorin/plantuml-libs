@@ -19,9 +19,9 @@ iYX1UicDoZRpI2aq6BujMiGoTOv5jsdZWSGtvVHipA5t8xcqZ7VXycCV-0S
 !endprocedure
 
 !procedure AwsActivateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsActivateMd>', 'CustomerEnablement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsActivateLg>', 'CustomerEnablement', $funcName, $content)
 !endprocedure
 
 !procedure AwsActivateGroup($id, $name='Aws Activate', $tech='')
-  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsActivateMd>', $name, $tech)
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsActivateLg>', $name, $tech)
 !endprocedure

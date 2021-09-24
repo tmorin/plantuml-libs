@@ -16,9 +16,9 @@ mWTDXeFB-EGfqHljmXOs0m
 !endprocedure
 
 !procedure AmazonEc2T4GInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2T4GInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2T4GInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2T4GInstanceGroup($id, $name='Amazon Ec2 T4g Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2T4GInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2T4GInstanceLg>', $name, $tech)
 !endprocedure

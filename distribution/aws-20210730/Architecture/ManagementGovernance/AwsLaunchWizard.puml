@@ -19,9 +19,9 @@ BBn0C9fcylvdLsl5SYT541RJokSzkpzqwrZBmMLTTykE7lm2
 !endprocedure
 
 !procedure AwsLaunchWizardCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsLaunchWizardMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsLaunchWizardLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsLaunchWizardGroup($id, $name='Aws Launch Wizard', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLaunchWizardMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsLaunchWizardLg>', $name, $tech)
 !endprocedure

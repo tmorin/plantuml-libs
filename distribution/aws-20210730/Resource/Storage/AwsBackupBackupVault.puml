@@ -19,9 +19,9 @@ RO-50KCn24GFX_q7hb18xL_y1SMLidwbAFo8R9b6k7umOIi6O3KCW8TjS3ciJj1grXJgvf84jOyS9Us8
 !endprocedure
 
 !procedure AwsBackupBackupVaultCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupVaultMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupVaultLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupBackupVaultGroup($id, $name='Aws Backup Backup Vault', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupVaultMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupVaultLg>', $name, $tech)
 !endprocedure

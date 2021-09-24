@@ -19,9 +19,9 @@ RSn50WD124HHQAoAkVzv8wJZyvSFuOHdTOydo1FaCvHRFB2VPWwK3FR6o3bNtEgD0junnWOZLgefKB6j
 !endprocedure
 
 !procedure AwsBackintAgentCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackintAgentMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackintAgentLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackintAgentGroup($id, $name='Aws Backint Agent', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsBackintAgentMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsBackintAgentLg>', $name, $tech)
 !endprocedure

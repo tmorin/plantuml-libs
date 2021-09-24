@@ -16,9 +16,9 @@ rUQyPESSRRKHMLhVvs032Nd56hrvH3hgAybxffG_
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceGroup($id, $name='Amazon Aurora Postgre Sql Instance', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceLg>', $name, $tech)
 !endprocedure

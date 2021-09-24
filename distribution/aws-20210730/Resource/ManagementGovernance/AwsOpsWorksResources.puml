@@ -16,9 +16,9 @@ HVHSkAvAEikv1cuB
 !endprocedure
 
 !procedure AwsOpsWorksResourcesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksResourcesMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksResourcesLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksResourcesGroup($id, $name='Aws Ops Works Resources', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksResourcesMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksResourcesLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ iRBSC77CkxRHBIgKm34jpyBRWez9QDN1RMrF6raTjFw8V1g1EjXB09x66wQsB_u1
 !endprocedure
 
 !procedure AmazonRdsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonRdsMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonRdsLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonRdsGroup($id, $name='Amazon Rds', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonRdsLg>', $name, $tech)
 !endprocedure

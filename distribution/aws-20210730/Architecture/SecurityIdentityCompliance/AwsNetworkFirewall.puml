@@ -19,9 +19,9 @@ Ie2XMXkznCrqgdAKROIMdSsWROLIoEO-t75jbN2esG3Q6lk3iks1NTiN_W4
 !endprocedure
 
 !procedure AwsNetworkFirewallCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsNetworkFirewallGroup($id, $name='Aws Network Firewall', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsNetworkFirewallMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsNetworkFirewallLg>', $name, $tech)
 !endprocedure

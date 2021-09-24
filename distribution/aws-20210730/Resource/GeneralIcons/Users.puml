@@ -16,9 +16,9 @@ m7KoqsIuw91ClpR18tZPVE4vfiPw2l51k-NyHyhnETZbEUSiAZR_nQJ_4l87
 !endprocedure
 
 !procedure UsersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$UsersMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$UsersLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure UsersGroup($id, $name='Users', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$UsersMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$UsersLg>', $name, $tech)
 !endprocedure

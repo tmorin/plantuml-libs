@@ -16,9 +16,9 @@ oIZofTPtCDRIYThCB-GV
 !endprocedure
 
 !procedure AwsSystemsManagerInventoryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerInventoryMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerInventoryLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerInventoryGroup($id, $name='Aws Systems Manager Inventory', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerInventoryMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerInventoryLg>', $name, $tech)
 !endprocedure

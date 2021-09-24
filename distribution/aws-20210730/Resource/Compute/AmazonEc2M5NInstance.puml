@@ -16,9 +16,9 @@ mYVpydHdTtNhILE7eSCk6CnQ
 !endprocedure
 
 !procedure AmazonEc2M5NInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2M5NInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2M5NInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2M5NInstanceGroup($id, $name='Amazon Ec2 M5n Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2M5NInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2M5NInstanceLg>', $name, $tech)
 !endprocedure

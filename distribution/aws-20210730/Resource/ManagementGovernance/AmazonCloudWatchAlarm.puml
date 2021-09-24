@@ -13,9 +13,9 @@ sprite $AmazonCloudWatchAlarmLg [20x20/16z] jSZL0SKW50JHmM6t_tgVIpnVEUWTJcMfhXAK
 !endprocedure
 
 !procedure AmazonCloudWatchAlarmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchAlarmMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchAlarmLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudWatchAlarmGroup($id, $name='Amazon Cloud Watch Alarm', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchAlarmMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchAlarmLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ fOq53aD124HdSVgv_taB6wlhIt0PFEAeMmp_4DdGE06MyzPeIz7stWb75L_tQiA3NbtVgjxtehtOTQ_Q
 !endprocedure
 
 !procedure AmazonDynamoDbStreamCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStreamMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStreamLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonDynamoDbStreamGroup($id, $name='Amazon Dynamo Db Stream', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbStreamMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbStreamLg>', $name, $tech)
 !endprocedure

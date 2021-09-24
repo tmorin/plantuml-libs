@@ -19,9 +19,9 @@ g_4mXOA0Nf3FkHIT3jrt7Elc4rn-ZiBFVNPxtqyUupVl
 !endprocedure
 
 !procedure AwsMigrationEvaluatorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsMigrationEvaluatorMd>', 'MigrationTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationEvaluatorLg>', 'MigrationTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsMigrationEvaluatorGroup($id, $name='Aws Migration Evaluator', $tech='')
-  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationEvaluatorMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationEvaluatorLg>', $name, $tech)
 !endprocedure

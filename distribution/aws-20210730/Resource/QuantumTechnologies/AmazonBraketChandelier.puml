@@ -13,9 +13,9 @@ sprite $AmazonBraketChandelierLg [20x20/16z] dSm5WWCW34JH7naszx_mrelL7qw49meIHmI
 !endprocedure
 
 !procedure AmazonBraketChandelierCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonBraketChandelierMd>', 'QuantumTechnologies', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonBraketChandelierLg>', 'QuantumTechnologies', $funcName, $content)
 !endprocedure
 
 !procedure AmazonBraketChandelierGroup($id, $name='Amazon Braket Chandelier', $tech='')
-  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketChandelierMd>', $name, $tech)
+  IconGroupElement($id, 'QuantumTechnologiesFamily', '<$AmazonBraketChandelierLg>', $name, $tech)
 !endprocedure

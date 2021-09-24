@@ -19,9 +19,9 @@ VSm5ea0X24JHQuBC_jVxutKVMqVuOf6vSWPN8ofNJULIJBsMvd6utYBgsrLcvPL9Q-nqN2gJP42L4QeA
 !endprocedure
 
 !procedure AmazonCloudWatchSyntheticsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchSyntheticsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchSyntheticsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudWatchSyntheticsGroup($id, $name='Amazon Cloud Watch Synthetics', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchSyntheticsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchSyntheticsLg>', $name, $tech)
 !endprocedure

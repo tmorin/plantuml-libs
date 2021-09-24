@@ -16,9 +16,9 @@ xGO37Ce1bbjKuF9cDGUpXDSDNFVDls_o3m
 !endprocedure
 
 !procedure AwsElementalMediaPackageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaPackageMd>', 'MediaServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaPackageLg>', 'MediaServices', $funcName, $content)
 !endprocedure
 
 !procedure AwsElementalMediaPackageGroup($id, $name='Aws Elemental Media Package', $tech='')
-  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaPackageMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaPackageLg>', $name, $tech)
 !endprocedure

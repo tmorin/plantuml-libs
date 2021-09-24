@@ -16,9 +16,9 @@ mSSVt
 !endprocedure
 
 !procedure AwsElementalAppliancesSoftwareCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElementalAppliancesSoftwareMd>', 'MediaServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalAppliancesSoftwareLg>', 'MediaServices', $funcName, $content)
 !endprocedure
 
 !procedure AwsElementalAppliancesSoftwareGroup($id, $name='Aws Elemental Appliances Software', $tech='')
-  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalAppliancesSoftwareMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalAppliancesSoftwareLg>', $name, $tech)
 !endprocedure

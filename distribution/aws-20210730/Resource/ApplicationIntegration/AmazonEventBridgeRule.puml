@@ -16,9 +16,9 @@ u_PJjNdg5m
 !endprocedure
 
 !procedure AmazonEventBridgeRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeRuleMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeRuleLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEventBridgeRuleGroup($id, $name='Amazon Event Bridge Rule', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeRuleMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeRuleLg>', $name, $tech)
 !endprocedure

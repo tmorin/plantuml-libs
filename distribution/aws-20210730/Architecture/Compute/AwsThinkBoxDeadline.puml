@@ -16,9 +16,9 @@ RSZ50SC034KnVzDpzn-u78wE0g0tzSOvUpdkZgvOTpaBvU7Q0zIPsxa0P9tjonbDINIMFZdV2oi4blsz
 !endprocedure
 
 !procedure AwsThinkBoxDeadlineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxDeadlineMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxDeadlineLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsThinkBoxDeadlineGroup($id, $name='Aws Think Box Deadline', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxDeadlineMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxDeadlineLg>', $name, $tech)
 !endprocedure

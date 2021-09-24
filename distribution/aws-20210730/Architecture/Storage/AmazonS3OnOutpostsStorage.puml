@@ -19,9 +19,9 @@ NSs50OH034JH-6L2__tUuFBnnmfOd_tsm6xzseqh-5hSI7EmhdFaRQ2TE42WCfDsuWojMTqxpKp0HAI2
 !endprocedure
 
 !procedure AmazonS3OnOutpostsStorageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonS3OnOutpostsStorageMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonS3OnOutpostsStorageLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonS3OnOutpostsStorageGroup($id, $name='Amazon S3 On Outposts Storage', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonS3OnOutpostsStorageMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonS3OnOutpostsStorageLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ fdxi1rStJGH0fA4B-m8
 !endprocedure
 
 !procedure AmazonEc2G3InstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2G3InstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2G3InstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2G3InstanceGroup($id, $name='Amazon Ec2 G3 Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2G3InstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2G3InstanceLg>', $name, $tech)
 !endprocedure

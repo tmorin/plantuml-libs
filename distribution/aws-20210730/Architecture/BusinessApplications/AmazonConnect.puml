@@ -19,9 +19,9 @@ YQyn82pG4mI3qmAbc7UPuz5kNvm_E7zm0G
 !endprocedure
 
 !procedure AmazonConnectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonConnectMd>', 'BusinessApplications', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonConnectLg>', 'BusinessApplications', $funcName, $content)
 !endprocedure
 
 !procedure AmazonConnectGroup($id, $name='Amazon Connect', $tech='')
-  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonConnectMd>', $name, $tech)
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonConnectLg>', $name, $tech)
 !endprocedure

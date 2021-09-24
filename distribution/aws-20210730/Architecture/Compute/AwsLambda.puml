@@ -16,9 +16,9 @@ PnNiSzhWVMVcsphTroUw0m
 !endprocedure
 
 !procedure AwsLambdaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsLambdaMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsLambdaLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsLambdaGroup($id, $name='Aws Lambda', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsLambdaMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsLambdaLg>', $name, $tech)
 !endprocedure

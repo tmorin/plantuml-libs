@@ -13,9 +13,9 @@ sprite $AwsIoTGreengrassRecipeLg [20x20/16z] dSo50O1020NGJyF-2zlTFhsYS25gH4kiq3E
 !endprocedure
 
 !procedure AwsIoTGreengrassRecipeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassRecipeMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassRecipeLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTGreengrassRecipeGroup($id, $name='Aws Io T Greengrass Recipe', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassRecipeMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassRecipeLg>', $name, $tech)
 !endprocedure

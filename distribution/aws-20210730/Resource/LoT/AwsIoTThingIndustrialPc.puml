@@ -16,9 +16,9 @@ C_oM7VJKAxNf7LZrRhK1pDZfm4GMgrFJYFV-0HOeZ6dy-G8
 !endprocedure
 
 !procedure AwsIoTThingIndustrialPcCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingIndustrialPcMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingIndustrialPcLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingIndustrialPcGroup($id, $name='Aws Io T Thing Industrial Pc', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingIndustrialPcMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingIndustrialPcLg>', $name, $tech)
 !endprocedure

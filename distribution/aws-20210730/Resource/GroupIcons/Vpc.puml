@@ -13,9 +13,9 @@ sprite $VpcLg [20x20/16z] lSo50GCX343HGs9__tqhE0Eq3oV2_sYLuFO4LELKsYvnvbQQH6Oo1N
 !endprocedure
 
 !procedure VpcCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$VpcMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$VpcLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure VpcGroup($id, $name='Vpc', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$VpcMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$VpcLg>', $name, $tech)
 !endprocedure

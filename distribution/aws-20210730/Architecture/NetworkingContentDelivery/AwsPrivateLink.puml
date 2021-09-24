@@ -16,9 +16,9 @@ RSg55S0m30FH60AIzz-tJfckcF-4jN7MC-2bVvP8V9VaTqb-bzomc9I7SIWomTqCirvSBnEcc5cJVbYX
 !endprocedure
 
 !procedure AwsPrivateLinkCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsPrivateLinkMd>', 'NetworkingContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsPrivateLinkLg>', 'NetworkingContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsPrivateLinkGroup($id, $name='Aws Private Link', $tech='')
-  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsPrivateLinkMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsPrivateLinkLg>', $name, $tech)
 !endprocedure

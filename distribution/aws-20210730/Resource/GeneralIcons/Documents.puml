@@ -16,9 +16,9 @@ fbXAb0Wfp_M6hTupQb-QdoC
 !endprocedure
 
 !procedure DocumentsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DocumentsMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DocumentsLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure DocumentsGroup($id, $name='Documents', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$DocumentsMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DocumentsLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ RSrP0iH014LHuwFtl-6E2fdlvwb2L3ZphNWYnk9jXQe-scG2YDvDQjpiQjexhqRHo0mWsmQfR277dZEM
 !endprocedure
 
 !procedure NiceDcvCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$NiceDcvMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$NiceDcvLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure NiceDcvGroup($id, $name='Nice Dcv', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$NiceDcvMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$NiceDcvLg>', $name, $tech)
 !endprocedure

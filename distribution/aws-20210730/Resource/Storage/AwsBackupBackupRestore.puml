@@ -19,9 +19,9 @@ jXrGsRUC3p70vfTdxCtr0RzAAzfzDfmFgeYxip3hnpnShDENJsMNsZvyTpBZO_uC
 !endprocedure
 
 !procedure AwsBackupBackupRestoreCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupRestoreMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupRestoreLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupBackupRestoreGroup($id, $name='Aws Backup Backup Restore', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupRestoreMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupRestoreLg>', $name, $tech)
 !endprocedure

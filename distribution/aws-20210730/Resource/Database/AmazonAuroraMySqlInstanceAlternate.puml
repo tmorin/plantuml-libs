@@ -13,9 +13,9 @@ sprite $AmazonAuroraMySqlInstanceAlternateLg [20x20/16z] pSZL0G8m54MnqsUrk_-wkCC
 !endprocedure
 
 !procedure AmazonAuroraMySqlInstanceAlternateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMySqlInstanceAlternateMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMySqlInstanceAlternateLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraMySqlInstanceAlternateGroup($id, $name='Amazon Aurora My Sql Instance Alternate', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMySqlInstanceAlternateMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMySqlInstanceAlternateLg>', $name, $tech)
 !endprocedure

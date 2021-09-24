@@ -19,9 +19,9 @@ TP250KCn24GlEFiFN47glQzvEFWd0GkoheSKhEyi_4KXnNpYMtQFqsAUQHsbD7x6pCRhn-oIvAeRm0UY
 !endprocedure
 
 !procedure AwsIoTThingCoffeePotCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCoffeePotMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCoffeePotLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingCoffeePotGroup($id, $name='Aws Io T Thing Coffee Pot', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingCoffeePotMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingCoffeePotLg>', $name, $tech)
 !endprocedure

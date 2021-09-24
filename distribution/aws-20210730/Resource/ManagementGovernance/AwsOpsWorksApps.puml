@@ -13,9 +13,9 @@ sprite $AwsOpsWorksAppsLg [20x20/16z] Oy06kBZH0Gi3DxeYPbQAnB01RYvqW4tl41LZHWEih0
 !endprocedure
 
 !procedure AwsOpsWorksAppsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksAppsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksAppsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksAppsGroup($id, $name='Aws Ops Works Apps', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksAppsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksAppsLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ TP17bWL12CC4b0jy_mDF-3bqMpizhSpPKj7umjFjc7UNCtxGN3O0X02e1MGDsT0rL56gG3B32c4agbL4
 !endprocedure
 
 !procedure AwsIoTThingTemperatureVibrationSensorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureVibrationSensorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureVibrationSensorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingTemperatureVibrationSensorGroup($id, $name='Aws Io T Thing Temperature Vibration Sensor', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureVibrationSensorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureVibrationSensorLg>', $name, $tech)
 !endprocedure

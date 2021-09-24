@@ -16,9 +16,9 @@ bL253G1122lU_IT-TpqqmIcUA140aO9yYKMnvyNO62lioBmtcJp4AlssBk9Obs6tTNrC9YzhZ2GinTmD
 !endprocedure
 
 !procedure AmazonEc2TrainiumInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2TrainiumInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2TrainiumInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2TrainiumInstanceGroup($id, $name='Amazon Ec2 Trainium Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2TrainiumInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2TrainiumInstanceLg>', $name, $tech)
 !endprocedure

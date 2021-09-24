@@ -13,9 +13,9 @@ sprite $AmazonLocationServiceRoutesLg [20x20/16z] PSu5WWKW24NHYyzc_-kT-Mrmx0GWqk
 !endprocedure
 
 !procedure AmazonLocationServiceRoutesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceRoutesMd>', 'FrontEndWebMobile', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonLocationServiceRoutesLg>', 'FrontEndWebMobile', $funcName, $content)
 !endprocedure
 
 !procedure AmazonLocationServiceRoutesGroup($id, $name='Amazon Location Service Routes', $tech='')
-  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceRoutesMd>', $name, $tech)
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AmazonLocationServiceRoutesLg>', $name, $tech)
 !endprocedure

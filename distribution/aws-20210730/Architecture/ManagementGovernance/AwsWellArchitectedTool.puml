@@ -19,9 +19,9 @@ NXPfZLEv-vm5ytL1CrC1B8lIgWO3fs4rYP8zEXrRa-LQDNXTR0QhrSLcxPt6hlW3
 !endprocedure
 
 !procedure AwsWellArchitectedToolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWellArchitectedToolMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWellArchitectedToolLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWellArchitectedToolGroup($id, $name='Aws Well Architected Tool', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsWellArchitectedToolMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsWellArchitectedToolLg>', $name, $tech)
 !endprocedure

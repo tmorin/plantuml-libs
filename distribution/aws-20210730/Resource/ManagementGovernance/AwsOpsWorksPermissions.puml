@@ -13,9 +13,9 @@ sprite $AwsOpsWorksPermissionsLg [20x20/16z] hSg54SGW04JHnMNxh_Sak8xbus_09HqOr4Z
 !endprocedure
 
 !procedure AwsOpsWorksPermissionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksPermissionsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksPermissionsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksPermissionsGroup($id, $name='Aws Ops Works Permissions', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksPermissionsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksPermissionsLg>', $name, $tech)
 !endprocedure

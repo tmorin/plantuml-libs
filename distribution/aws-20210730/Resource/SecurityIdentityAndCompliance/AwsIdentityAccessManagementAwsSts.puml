@@ -13,9 +13,9 @@ sprite $AwsIdentityAccessManagementAwsStsLg [20x20/16z] hSwr0GH130D0xPgj_llzFuRu
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAwsStsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAwsStsMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAwsStsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAwsStsGroup($id, $name='Aws Identity Access Management Aws Sts', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAwsStsMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAwsStsLg>', $name, $tech)
 !endprocedure

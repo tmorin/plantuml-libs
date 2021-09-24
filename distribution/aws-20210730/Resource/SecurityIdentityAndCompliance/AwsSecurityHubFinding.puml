@@ -16,9 +16,9 @@ mAJSe72CiJ-BXCEUGz8Cyj9LU4rk5U02
 !endprocedure
 
 !procedure AwsSecurityHubFindingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubFindingMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSecurityHubFindingLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSecurityHubFindingGroup($id, $name='Aws Security Hub Finding', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsSecurityHubFindingMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsSecurityHubFindingLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $OfficeBuildingLg [20x20/16z] pOl50GGn24L9biNflznnr-kyA5_W7egUkjEql_1_q1p
 !endprocedure
 
 !procedure OfficeBuildingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$OfficeBuildingMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$OfficeBuildingLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure OfficeBuildingGroup($id, $name='Office Building', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$OfficeBuildingMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$OfficeBuildingLg>', $name, $tech)
 !endprocedure

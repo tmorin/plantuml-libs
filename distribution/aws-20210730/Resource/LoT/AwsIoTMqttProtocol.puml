@@ -13,9 +13,9 @@ sprite $AwsIoTMqttProtocolLg [20x20/16z] rO-50G8m30HVA_iFZ3iim5NZ2NuozXih9vNmpYO
 !endprocedure
 
 !procedure AwsIoTMqttProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTMqttProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTMqttProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTMqttProtocolGroup($id, $name='Aws Io T Mqtt Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTMqttProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTMqttProtocolLg>', $name, $tech)
 !endprocedure

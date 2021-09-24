@@ -13,9 +13,9 @@ sprite $AmazonAuroraPiopsInstanceLg [20x20/16z] tSZ50G9G342nro_r_TV57IOWn_2JLx_A
 !endprocedure
 
 !procedure AmazonAuroraPiopsInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPiopsInstanceMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPiopsInstanceLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraPiopsInstanceGroup($id, $name='Amazon Aurora Piops Instance', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPiopsInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPiopsInstanceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ wjDcpigGcMkmfwbnOWrw0m
 !endprocedure
 
 !procedure AwsIoTGreengrassArtifactCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassArtifactMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassArtifactLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTGreengrassArtifactGroup($id, $name='Aws Io T Greengrass Artifact', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassArtifactMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassArtifactLg>', $name, $tech)
 !endprocedure

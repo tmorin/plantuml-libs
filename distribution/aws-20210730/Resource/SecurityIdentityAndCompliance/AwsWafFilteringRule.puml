@@ -19,9 +19,9 @@ jZb8dCJGRR2Ior52Tl_-ymqCYHdt7AhODVspGx5h8LoMWXrhxkwD4Cjy3yGh
 !endprocedure
 
 !procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafFilteringRuleMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafFilteringRuleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafFilteringRuleGroup($id, $name='Aws Waf Filtering Rule', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafFilteringRuleMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafFilteringRuleLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ fZMF3m0thJ_X6hz0RGC
 !endprocedure
 
 !procedure AwsIoTSensorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTSensorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSensorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTSensorGroup($id, $name='Aws Io T Sensor', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTSensorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTSensorLg>', $name, $tech)
 !endprocedure

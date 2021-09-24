@@ -13,9 +13,9 @@ sprite $AmazonCloudWatchLogsLg [20x20/16z] fS_50SCm343HRn3lFs-PkScxsMBMc6Vl_fwDn
 !endprocedure
 
 !procedure AmazonCloudWatchLogsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchLogsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchLogsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudWatchLogsGroup($id, $name='Amazon Cloud Watch Logs', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchLogsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchLogsLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ AnZSXgqGDexbtNXQSP9i3lVt0_y1
 !endprocedure
 
 !procedure AwsNitroEnclavesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsNitroEnclavesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsNitroEnclavesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsNitroEnclavesGroup($id, $name='Aws Nitro Enclaves', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsNitroEnclavesMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsNitroEnclavesLg>', $name, $tech)
 !endprocedure

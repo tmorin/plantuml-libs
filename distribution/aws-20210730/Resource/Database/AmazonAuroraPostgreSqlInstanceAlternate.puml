@@ -13,9 +13,9 @@ sprite $AmazonAuroraPostgreSqlInstanceAlternateLg [20x20/16z] rSY50SKW303HWnYs_x
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceAlternateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceAlternateMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraPostgreSqlInstanceAlternateLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraPostgreSqlInstanceAlternateGroup($id, $name='Amazon Aurora Postgre Sql Instance Alternate', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceAlternateMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraPostgreSqlInstanceAlternateLg>', $name, $tech)
 !endprocedure

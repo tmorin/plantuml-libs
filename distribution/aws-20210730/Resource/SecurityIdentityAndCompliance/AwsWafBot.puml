@@ -16,9 +16,9 @@ rSIxhShkEou
 !endprocedure
 
 !procedure AwsWafBotCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafBotMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBotLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafBotGroup($id, $name='Aws Waf Bot', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotLg>', $name, $tech)
 !endprocedure

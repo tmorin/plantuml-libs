@@ -16,9 +16,9 @@ GrVDs1xLQtvhecrtMe8eBjfbFdDS7YONkuxHPzLqRyIQ3V0D
 !endprocedure
 
 !procedure AwsIdentityAccessManagementMfaTokenCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementMfaTokenMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementMfaTokenLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementMfaTokenGroup($id, $name='Aws Identity Access Management Mfa Token', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementMfaTokenMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementMfaTokenLg>', $name, $tech)
 !endprocedure

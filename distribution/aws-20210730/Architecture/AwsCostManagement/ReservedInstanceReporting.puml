@@ -19,9 +19,9 @@ QJAW0N9ClGZe7C0oRtDFddi-Jra6YPCCmAXiHgYcRKN-MNLjwSKN
 !endprocedure
 
 !procedure ReservedInstanceReportingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ReservedInstanceReportingMd>', 'AwsCostManagement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ReservedInstanceReportingLg>', 'AwsCostManagement', $funcName, $content)
 !endprocedure
 
 !procedure ReservedInstanceReportingGroup($id, $name='Reserved Instance Reporting', $tech='')
-  IconGroupElement($id, 'AwsCostManagementFamily', '<$ReservedInstanceReportingMd>', $name, $tech)
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$ReservedInstanceReportingLg>', $name, $tech)
 !endprocedure

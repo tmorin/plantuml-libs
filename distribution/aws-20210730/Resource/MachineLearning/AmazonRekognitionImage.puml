@@ -19,9 +19,9 @@ M39a3pnO0CaSvx0c720BUk3kSxuIl3IxKx45Y08VuvY-1tYXERkJof6Pmq_k_F0C
 !endprocedure
 
 !procedure AmazonRekognitionImageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonRekognitionImageMd>', 'MachineLearning', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonRekognitionImageLg>', 'MachineLearning', $funcName, $content)
 !endprocedure
 
 !procedure AmazonRekognitionImageGroup($id, $name='Amazon Rekognition Image', $tech='')
-  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonRekognitionImageMd>', $name, $tech)
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonRekognitionImageLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ f8SUZfppYXlbcCBFL0F41OSl
 !endprocedure
 
 !procedure AmazonEc2InstanceWithCloudWatchCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2InstanceWithCloudWatchMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2InstanceWithCloudWatchLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2InstanceWithCloudWatchGroup($id, $name='Amazon Ec2 Instance With Cloud Watch', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2InstanceWithCloudWatchMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2InstanceWithCloudWatchLg>', $name, $tech)
 !endprocedure

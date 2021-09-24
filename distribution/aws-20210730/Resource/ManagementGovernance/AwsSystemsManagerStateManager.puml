@@ -19,9 +19,9 @@ yXXtb0Ml1a3U_zk-AbcddY4OL7ajY4hjDG4k
 !endprocedure
 
 !procedure AwsSystemsManagerStateManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerStateManagerMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerStateManagerLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerStateManagerGroup($id, $name='Aws Systems Manager State Manager', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerStateManagerMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerStateManagerLg>', $name, $tech)
 !endprocedure

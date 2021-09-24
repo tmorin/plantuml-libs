@@ -16,9 +16,9 @@ GHMs9WgyTZ80GSS0QyjoS-lS2zMN7NZQD_vy8ty
 !endprocedure
 
 !procedure AwsThinkBoxXMeshCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxXMeshMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxXMeshLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsThinkBoxXMeshGroup($id, $name='Aws Think Box X Mesh', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxXMeshMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxXMeshLg>', $name, $tech)
 !endprocedure

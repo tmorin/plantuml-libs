@@ -13,9 +13,9 @@ sprite $AwsStepFunctionLg [20x20/16z] hSr50W8120NGaPRx7rZAP6Ez7Vdz7mXjzTXnzG3bkQ
 !endprocedure
 
 !procedure AwsStepFunctionCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStepFunctionMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStepFunctionLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure AwsStepFunctionGroup($id, $name='Aws Step Function', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$AwsStepFunctionMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$AwsStepFunctionLg>', $name, $tech)
 !endprocedure

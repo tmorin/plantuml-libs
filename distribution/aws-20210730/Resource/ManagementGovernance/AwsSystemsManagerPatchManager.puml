@@ -16,9 +16,9 @@ j8X9u91hfd0Lg7fpTwG9
 !endprocedure
 
 !procedure AwsSystemsManagerPatchManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerPatchManagerMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerPatchManagerLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerPatchManagerGroup($id, $name='Aws Systems Manager Patch Manager', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerPatchManagerMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerPatchManagerLg>', $name, $tech)
 !endprocedure

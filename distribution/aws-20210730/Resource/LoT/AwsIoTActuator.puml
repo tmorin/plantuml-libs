@@ -16,9 +16,9 @@ TSg5bKKn24NH4opGVyEpxjX_kYCehtnFEoVHG3P7ZMHc898ECYiIH3aYuyUu9r0e_UL8CJzHdr85QoHS
 !endprocedure
 
 !procedure AwsIoTActuatorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTActuatorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTActuatorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTActuatorGroup($id, $name='Aws Io T Actuator', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTActuatorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTActuatorLg>', $name, $tech)
 !endprocedure

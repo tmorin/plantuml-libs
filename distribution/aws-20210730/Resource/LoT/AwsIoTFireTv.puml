@@ -13,9 +13,9 @@ sprite $AwsIoTFireTvLg [20x20/16z] hSsr0S1G20JGms7_WUEU9l9VXnvQgnj3uOBVz1GxJPhtE
 !endprocedure
 
 !procedure AwsIoTFireTvCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTFireTvMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTFireTvLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTFireTvGroup($id, $name='Aws Io T Fire Tv', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTFireTvMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTFireTvLg>', $name, $tech)
 !endprocedure

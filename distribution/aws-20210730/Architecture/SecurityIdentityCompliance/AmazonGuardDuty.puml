@@ -19,9 +19,9 @@ kUTH0mJJ6OIIakK1wBL3umHoTv-rke8XEhHsI7eAoMiN0V3YMTpM_k47
 !endprocedure
 
 !procedure AmazonGuardDutyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonGuardDutyMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonGuardDutyLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonGuardDutyGroup($id, $name='Amazon Guard Duty', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonGuardDutyMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AmazonGuardDutyLg>', $name, $tech)
 !endprocedure

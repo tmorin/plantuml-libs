@@ -16,9 +16,9 @@ _zAdHm
 !endprocedure
 
 !procedure AwsElasticBeanstalkDeploymentCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElasticBeanstalkDeploymentMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElasticBeanstalkDeploymentLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsElasticBeanstalkDeploymentGroup($id, $name='Aws Elastic Beanstalk Deployment', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsElasticBeanstalkDeploymentMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsElasticBeanstalkDeploymentLg>', $name, $tech)
 !endprocedure

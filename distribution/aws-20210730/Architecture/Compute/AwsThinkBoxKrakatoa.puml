@@ -16,9 +16,9 @@ HmnZ9w-qMDHgOEogje-SBhTw0szsWvkzwSyN_0K
 !endprocedure
 
 !procedure AwsThinkBoxKrakatoaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxKrakatoaMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxKrakatoaLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsThinkBoxKrakatoaGroup($id, $name='Aws Think Box Krakatoa', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxKrakatoaMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxKrakatoaLg>', $name, $tech)
 !endprocedure

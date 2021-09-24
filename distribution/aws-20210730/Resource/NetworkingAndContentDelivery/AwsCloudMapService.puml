@@ -16,9 +16,9 @@ ejCC-0S
 !endprocedure
 
 !procedure AwsCloudMapServiceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapServiceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapServiceLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudMapServiceGroup($id, $name='Aws Cloud Map Service', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapServiceMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapServiceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ xkOmK9e6InZCmULi-LVCeRVr4bOIhUaB
 !endprocedure
 
 !procedure AwsAppMeshVirtualNodeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualNodeMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAppMeshVirtualNodeLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsAppMeshVirtualNodeGroup($id, $name='Aws App Mesh Virtual Node', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualNodeMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsAppMeshVirtualNodeLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AwsIoTLoRaWanProtocolLg [20x20/16z] rSp70SKW30DG2Mm9zX_uboGNsW1v5tTZ9_ga
 !endprocedure
 
 !procedure AwsIoTLoRaWanProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTLoRaWanProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTLoRaWanProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTLoRaWanProtocolGroup($id, $name='Aws Io T Lo Ra Wan Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTLoRaWanProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTLoRaWanProtocolLg>', $name, $tech)
 !endprocedure

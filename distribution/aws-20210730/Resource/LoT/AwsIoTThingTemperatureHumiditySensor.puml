@@ -19,9 +19,9 @@ UzDwilDowjaksai6dkrarhCTw9fzx81A_gE9GQhKwI6_wmS48Mp32mS
 !endprocedure
 
 !procedure AwsIoTThingTemperatureHumiditySensorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureHumiditySensorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingTemperatureHumiditySensorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTThingTemperatureHumiditySensorGroup($id, $name='Aws Io T Thing Temperature Humidity Sensor', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureHumiditySensorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingTemperatureHumiditySensorLg>', $name, $tech)
 !endprocedure

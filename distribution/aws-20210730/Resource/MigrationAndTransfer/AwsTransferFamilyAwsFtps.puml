@@ -16,9 +16,9 @@ SvFyRW6LGWaUh4wJL9dcjHkd1q8Ec8J0C2OeSG4
 !endprocedure
 
 !procedure AwsTransferFamilyAwsFtpsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyAwsFtpsMd>', 'MigrationAndTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyAwsFtpsLg>', 'MigrationAndTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsTransferFamilyAwsFtpsGroup($id, $name='Aws Transfer Family Aws Ftps', $tech='')
-  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsTransferFamilyAwsFtpsMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsTransferFamilyAwsFtpsLg>', $name, $tech)
 !endprocedure

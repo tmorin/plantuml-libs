@@ -16,9 +16,9 @@ RSo54G903031-8N-6uOtv8SRtmYZ-fIlkB6ESTkDDI5KupO3vyTAf_5jHBeN7sn0JIoWn5ocDNCtBMri
 !endprocedure
 
 !procedure AwsParallelClusterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsParallelClusterMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsParallelClusterLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsParallelClusterGroup($id, $name='Aws Parallel Cluster', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsParallelClusterMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsParallelClusterLg>', $name, $tech)
 !endprocedure

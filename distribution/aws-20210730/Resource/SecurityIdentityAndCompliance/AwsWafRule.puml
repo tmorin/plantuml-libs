@@ -13,9 +13,9 @@ sprite $AwsWafRuleLg [20x20/16z] ZOs53G0n24MfeVlFUnehalH5uHjaM031mD73Z_rlJiRW8yo
 !endprocedure
 
 !procedure AwsWafRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsWafRuleMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsWafRuleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsWafRuleGroup($id, $name='Aws Waf Rule', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafRuleMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafRuleLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonAuroraMariaDbInstanceAlternateLg [20x20/16z] rSX50G8050MmzrtxryKT2
 !endprocedure
 
 !procedure AmazonAuroraMariaDbInstanceAlternateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMariaDbInstanceAlternateMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraMariaDbInstanceAlternateLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraMariaDbInstanceAlternateGroup($id, $name='Amazon Aurora Maria Db Instance Alternate', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMariaDbInstanceAlternateMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraMariaDbInstanceAlternateLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonSimpleStorageServiceGlacierVaultLg [20x20/16z] tOk50O0m30JZil_0EDG
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceGlacierVaultCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGlacierVaultMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceGlacierVaultLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonSimpleStorageServiceGlacierVaultGroup($id, $name='Amazon Simple Storage Service Glacier Vault', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGlacierVaultMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceGlacierVaultLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ HZQSbUtCjyzcrk_JkXF_Fl0V
 !endprocedure
 
 !procedure AwsAppRunnerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAppRunnerMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAppRunnerLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsAppRunnerGroup($id, $name='Aws App Runner', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsAppRunnerMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsAppRunnerLg>', $name, $tech)
 !endprocedure

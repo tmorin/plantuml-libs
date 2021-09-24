@@ -19,9 +19,9 @@ FKOsyVO0-EowlKxijjUhUw0ZEODhjtL8fWIFhKBpozRNLh_X1m
 !endprocedure
 
 !procedure SavingsPlansCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SavingsPlansMd>', 'AwsCostManagement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$SavingsPlansLg>', 'AwsCostManagement', $funcName, $content)
 !endprocedure
 
 !procedure SavingsPlansGroup($id, $name='Savings Plans', $tech='')
-  IconGroupElement($id, 'AwsCostManagementFamily', '<$SavingsPlansMd>', $name, $tech)
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$SavingsPlansLg>', $name, $tech)
 !endprocedure

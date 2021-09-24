@@ -13,9 +13,9 @@ sprite $MobileClientLg [20x20/16z] tSY53G0n3C10bodPVzndXWLwiiZyghAAvye69GGGmwxCp
 !endprocedure
 
 !procedure MobileClientCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$MobileClientMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$MobileClientLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure MobileClientGroup($id, $name='Mobile Client', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$MobileClientMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$MobileClientLg>', $name, $tech)
 !endprocedure

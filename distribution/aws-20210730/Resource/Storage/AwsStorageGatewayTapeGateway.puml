@@ -16,9 +16,9 @@ pJ9ICL8vnX1xCrO6tm
 !endprocedure
 
 !procedure AwsStorageGatewayTapeGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayTapeGatewayMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayTapeGatewayLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsStorageGatewayTapeGatewayGroup($id, $name='Aws Storage Gateway Tape Gateway', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayTapeGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayTapeGatewayLg>', $name, $tech)
 !endprocedure

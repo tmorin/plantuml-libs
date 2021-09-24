@@ -16,9 +16,9 @@ F7JsEwMUWPdbTq2GNovdQxVBqm4hTyrAXjT6xTNv4m
 !endprocedure
 
 !procedure AwsBackupRecoveryTimeObjectiveCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBackupRecoveryTimeObjectiveMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupRecoveryTimeObjectiveLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsBackupRecoveryTimeObjectiveGroup($id, $name='Aws Backup Recovery Time Objective', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsBackupRecoveryTimeObjectiveMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupRecoveryTimeObjectiveLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ lrqnvaZwoWW
 !endprocedure
 
 !procedure AwsDirectoryServiceSimpleAdCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceSimpleAdMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceSimpleAdLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsDirectoryServiceSimpleAdGroup($id, $name='Aws Directory Service Simple Ad', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceSimpleAdMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceSimpleAdLg>', $name, $tech)
 !endprocedure

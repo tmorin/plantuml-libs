@@ -16,9 +16,9 @@ QxtAuClStDD2htRcOQ691m
 !endprocedure
 
 !procedure AwsControlTowerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsControlTowerMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsControlTowerLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsControlTowerGroup($id, $name='Aws Control Tower', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsControlTowerMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsControlTowerLg>', $name, $tech)
 !endprocedure

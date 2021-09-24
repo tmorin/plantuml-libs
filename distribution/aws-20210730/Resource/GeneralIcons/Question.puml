@@ -13,9 +13,9 @@ sprite $QuestionLg [20x20/16z] ZOo54GGX0CGMr-s_t9VpmnqocQ0_T4WvkISHTFlrOCh_lB_61
 !endprocedure
 
 !procedure QuestionCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$QuestionMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$QuestionLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure QuestionGroup($id, $name='Question', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$QuestionMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$QuestionLg>', $name, $tech)
 !endprocedure

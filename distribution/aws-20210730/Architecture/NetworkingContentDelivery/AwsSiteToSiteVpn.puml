@@ -16,9 +16,9 @@ aBI7-8n4YXq4hvXmbdOrIllX1m
 !endprocedure
 
 !procedure AwsSiteToSiteVpnCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSiteToSiteVpnMd>', 'NetworkingContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSiteToSiteVpnLg>', 'NetworkingContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsSiteToSiteVpnGroup($id, $name='Aws Site To Site Vpn', $tech='')
-  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsSiteToSiteVpnMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentDeliveryFamily', '<$AwsSiteToSiteVpnLg>', $name, $tech)
 !endprocedure

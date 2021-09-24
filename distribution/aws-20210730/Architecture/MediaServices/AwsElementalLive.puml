@@ -16,9 +16,9 @@ mSSVt
 !endprocedure
 
 !procedure AwsElementalLiveCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElementalLiveMd>', 'MediaServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalLiveLg>', 'MediaServices', $funcName, $content)
 !endprocedure
 
 !procedure AwsElementalLiveGroup($id, $name='Aws Elemental Live', $tech='')
-  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalLiveMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalLiveLg>', $name, $tech)
 !endprocedure

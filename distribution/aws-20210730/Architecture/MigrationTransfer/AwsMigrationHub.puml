@@ -19,9 +19,9 @@ aXYzqPcClSbbWCSSK3WIQCkkQwkCSiTs7NhPKxKxzecst-KT
 !endprocedure
 
 !procedure AwsMigrationHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsMigrationHubMd>', 'MigrationTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationHubLg>', 'MigrationTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsMigrationHubGroup($id, $name='Aws Migration Hub', $tech='')
-  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationHubMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationHubLg>', $name, $tech)
 !endprocedure

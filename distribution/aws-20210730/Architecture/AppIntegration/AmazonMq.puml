@@ -19,9 +19,9 @@ RSv50iH020NHeFsBtF-yupwfvMi1kAPdwne7o05oWFEWTiidpXMzOu4wVLrnhcWuGAzwsj35DLNNqnBO
 !endprocedure
 
 !procedure AmazonMqCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonMqMd>', 'AppIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonMqLg>', 'AppIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonMqGroup($id, $name='Amazon Mq', $tech='')
-  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonMqMd>', $name, $tech)
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonMqLg>', $name, $tech)
 !endprocedure
