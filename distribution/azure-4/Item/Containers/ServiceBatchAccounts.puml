@@ -16,9 +16,9 @@ u1y
 !endprocedure
 
 !procedure ServiceBatchAccountsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBatchAccountsMd>', 'Containers', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBatchAccountsLg>', 'Containers', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBatchAccountsGroup($id, $name='Service Batch Accounts', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBatchAccountsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBatchAccountsLg>', $name, $tech)
 !endprocedure

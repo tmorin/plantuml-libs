@@ -13,9 +13,9 @@ sprite $ServiceStorageContainerLg [20x20/16z] fSZ50G0X4CNG3uptt--wk-IMXp_5Bdril8
 !endprocedure
 
 !procedure ServiceStorageContainerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorageContainerMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageContainerLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStorageContainerGroup($id, $name='Service Storage Container', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageContainerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageContainerLg>', $name, $tech)
 !endprocedure

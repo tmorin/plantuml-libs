@@ -13,9 +13,9 @@ sprite $ServiceManagementPortalLg [20x20/16z] Ow04i72W0mO6Lavqm4Yq61C8i2A3GIZ6XW
 !endprocedure
 
 !procedure ServiceManagementPortalCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceManagementPortalMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagementPortalLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceManagementPortalGroup($id, $name='Service Management Portal', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementPortalMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementPortalLg>', $name, $tech)
 !endprocedure

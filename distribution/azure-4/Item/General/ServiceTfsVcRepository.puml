@@ -16,9 +16,9 @@ knt_LVKoSfEZ8daNON9h0G
 !endprocedure
 
 !procedure ServiceTfsVcRepositoryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTfsVcRepositoryMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTfsVcRepositoryLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTfsVcRepositoryGroup($id, $name='Service Tfs Vc Repository', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTfsVcRepositoryMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTfsVcRepositoryLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceAzureCloudShellLg [20x20/16z] fT3L0SCW403GSsp_UTi4Y_lxX7FuW6M50DH
 !endprocedure
 
 !procedure ServiceAzureCloudShellCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCloudShellMd>', 'Preview', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureCloudShellLg>', 'Preview', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureCloudShellGroup($id, $name='Service Azure Cloud Shell', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCloudShellMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureCloudShellLg>', $name, $tech)
 !endprocedure

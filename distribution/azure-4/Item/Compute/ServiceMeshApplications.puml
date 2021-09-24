@@ -16,9 +16,9 @@ HDKWFpIL2BHOs2bBSjnrIPpn3rpHhjGN
 !endprocedure
 
 !procedure ServiceMeshApplicationsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMeshApplicationsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMeshApplicationsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMeshApplicationsGroup($id, $name='Service Mesh Applications', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMeshApplicationsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMeshApplicationsLg>', $name, $tech)
 !endprocedure

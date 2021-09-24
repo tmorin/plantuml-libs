@@ -13,9 +13,9 @@ sprite $ServiceAppServiceDomainsLg [20x20/16z] fOq54W0X54A_Ydt_-ouoiTtF9aRxGzzHg
 !endprocedure
 
 !procedure ServiceAppServiceDomainsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceDomainsMd>', 'AppServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceDomainsLg>', 'AppServices', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAppServiceDomainsGroup($id, $name='Service App Service Domains', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceDomainsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceDomainsLg>', $name, $tech)
 !endprocedure

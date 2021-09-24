@@ -13,9 +13,9 @@ sprite $ServiceDiagnosticsSettingsLg [20x20/16z] hSk52G113031UD9_nV_dYj_Y0mltL6N
 !endprocedure
 
 !procedure ServiceDiagnosticsSettingsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDiagnosticsSettingsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDiagnosticsSettingsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDiagnosticsSettingsGroup($id, $name='Service Diagnostics Settings', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiagnosticsSettingsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiagnosticsSettingsLg>', $name, $tech)
 !endprocedure

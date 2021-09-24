@@ -16,9 +16,9 @@ biTIuWy
 !endprocedure
 
 !procedure ServiceDeviceSecurityAppleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityAppleMd>', 'Intune', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityAppleLg>', 'Intune', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDeviceSecurityAppleGroup($id, $name='Service Device Security Apple', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityAppleMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityAppleLg>', $name, $tech)
 !endprocedure

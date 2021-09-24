@@ -13,9 +13,9 @@ sprite $ServiceWebSlotsLg [20x20/16z] fOn50i1020F3Rg2K__-txYvpZ0nkoBBFIAn8MLkMIn
 !endprocedure
 
 !procedure ServiceWebSlotsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceWebSlotsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceWebSlotsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceWebSlotsGroup($id, $name='Service Web Slots', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebSlotsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWebSlotsLg>', $name, $tech)
 !endprocedure

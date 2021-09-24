@@ -13,9 +13,9 @@ sprite $ServiceAppServiceEnvironmentsLg [20x20/16z] dSy54W9030F0r5Bu_uFHvd3TiSn9
 !endprocedure
 
 !procedure ServiceAppServiceEnvironmentsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceEnvironmentsMd>', 'AppServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceEnvironmentsLg>', 'AppServices', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAppServiceEnvironmentsGroup($id, $name='Service App Service Environments', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceEnvironmentsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceEnvironmentsLg>', $name, $tech)
 !endprocedure

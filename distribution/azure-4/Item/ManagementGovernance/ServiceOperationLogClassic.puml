@@ -13,9 +13,9 @@ sprite $ServiceOperationLogClassicLg [20x20/16z] hT2r0G0n3C30n6pll-ypCqJbbKh7YVA
 !endprocedure
 
 !procedure ServiceOperationLogClassicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceOperationLogClassicMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceOperationLogClassicLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceOperationLogClassicGroup($id, $name='Service Operation Log Classic', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceOperationLogClassicMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOperationLogClassicLg>', $name, $tech)
 !endprocedure

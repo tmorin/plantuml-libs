@@ -16,9 +16,9 @@ VifR
 !endprocedure
 
 !procedure ServiceLoadTestCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLoadTestMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLoadTestLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLoadTestGroup($id, $name='Service Load Test', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadTestMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadTestLg>', $name, $tech)
 !endprocedure

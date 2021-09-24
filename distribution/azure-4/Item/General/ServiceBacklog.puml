@@ -13,9 +13,9 @@ sprite $ServiceBacklogLg [20x20/16z] bSsr0SC034JHVsBjlt2gCDcl4nwdbFD8e2eHDw93tU1
 !endprocedure
 
 !procedure ServiceBacklogCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBacklogMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBacklogLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBacklogGroup($id, $name='Service Backlog', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBacklogMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBacklogLg>', $name, $tech)
 !endprocedure

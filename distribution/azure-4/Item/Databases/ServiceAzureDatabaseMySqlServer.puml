@@ -16,9 +16,9 @@ ldA2JJroWfDOH8RRmEe7
 !endprocedure
 
 !procedure ServiceAzureDatabaseMySqlServerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabaseMySqlServerMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDatabaseMySqlServerLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureDatabaseMySqlServerGroup($id, $name='Service Azure Database My Sql Server', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabaseMySqlServerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDatabaseMySqlServerLg>', $name, $tech)
 !endprocedure

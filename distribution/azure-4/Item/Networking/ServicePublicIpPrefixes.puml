@@ -13,9 +13,9 @@ sprite $ServicePublicIpPrefixesLg [20x20/16z] ZSW53WGm20H0lFl_5rygAN0-yQ4_YLrC1o
 !endprocedure
 
 !procedure ServicePublicIpPrefixesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePublicIpPrefixesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePublicIpPrefixesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServicePublicIpPrefixesGroup($id, $name='Service Public Ip Prefixes', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpPrefixesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePublicIpPrefixesLg>', $name, $tech)
 !endprocedure

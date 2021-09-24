@@ -19,9 +19,9 @@ bSq7WWGX24HHG2YblFzz5tPodlcTNnlaQIfgdUg5r4yDlR888CBzD3GALrPpgER1zaPzT8wzJyPpFrkg
 !endprocedure
 
 !procedure ServiceSqlServerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlServerMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlServerLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSqlServerGroup($id, $name='Service Sql Server', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlServerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlServerLg>', $name, $tech)
 !endprocedure

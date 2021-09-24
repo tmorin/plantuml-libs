@@ -13,9 +13,9 @@ sprite $ServiceAzureNetAppFilesLg [20x20/16z] fSi53e1034JHfZxS_xwuE-oFzgL39U5G59
 !endprocedure
 
 !procedure ServiceAzureNetAppFilesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureNetAppFilesMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureNetAppFilesLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureNetAppFilesGroup($id, $name='Service Azure Net App Files', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureNetAppFilesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureNetAppFilesLg>', $name, $tech)
 !endprocedure

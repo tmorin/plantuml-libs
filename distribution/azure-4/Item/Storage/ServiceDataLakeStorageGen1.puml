@@ -13,9 +13,9 @@ sprite $ServiceDataLakeStorageGen1Lg [20x20/16z] ZSY54O104C30UxV-wyLpEFoEPIAzt4g
 !endprocedure
 
 !procedure ServiceDataLakeStorageGen1Card($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataLakeStorageGen1Md>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataLakeStorageGen1Lg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataLakeStorageGen1Group($id, $name='Service Data Lake Storage Gen1', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataLakeStorageGen1Md>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataLakeStorageGen1Lg>', $name, $tech)
 !endprocedure

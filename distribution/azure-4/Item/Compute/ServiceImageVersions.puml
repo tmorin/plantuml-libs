@@ -16,9 +16,9 @@ PcNfjSNrDRhgKrj5roRy
 !endprocedure
 
 !procedure ServiceImageVersionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceImageVersionsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageVersionsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceImageVersionsGroup($id, $name='Service Image Versions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageVersionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageVersionsLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ AK9a1
 !endprocedure
 
 !procedure ServiceInfrastructureBackupCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceInfrastructureBackupMd>', 'AzureStack', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceInfrastructureBackupLg>', 'AzureStack', $funcName, $content)
 !endprocedure
 
 !procedure ServiceInfrastructureBackupGroup($id, $name='Service Infrastructure Backup', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceInfrastructureBackupMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceInfrastructureBackupLg>', $name, $tech)
 !endprocedure

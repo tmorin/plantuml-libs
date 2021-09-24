@@ -16,9 +16,9 @@ VSg75KCX34DH0v9CzbyukAINzoltoFurvdYJgMWz4rJnRVMwfDmTu7chHnuTIKnQHM69F5RKoNEw8o0E
 !endprocedure
 
 !procedure ServiceSshKeysCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSshKeysMd>', 'Other', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSshKeysLg>', 'Other', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSshKeysGroup($id, $name='Service Ssh Keys', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSshKeysMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSshKeysLg>', $name, $tech)
 !endprocedure

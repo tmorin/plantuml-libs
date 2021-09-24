@@ -13,9 +13,9 @@ sprite $ServiceActivityLogLg [20x20/16z] hT2r0G0n3C30n6pll-ypCqJbbKh7YVAYQ8aqBqh
 !endprocedure
 
 !procedure ServiceActivityLogCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceActivityLogMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceActivityLogLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceActivityLogGroup($id, $name='Service Activity Log', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceActivityLogMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceActivityLogLg>', $name, $tech)
 !endprocedure

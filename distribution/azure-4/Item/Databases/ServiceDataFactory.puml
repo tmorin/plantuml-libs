@@ -13,9 +13,9 @@ sprite $ServiceDataFactoryLg [20x20/16z] fSm50WGX30F02fRc_-yzltNVu0DKbg9gxcwgGql
 !endprocedure
 
 !procedure ServiceDataFactoryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataFactoryMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataFactoryLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataFactoryGroup($id, $name='Service Data Factory', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataFactoryMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataFactoryLg>', $name, $tech)
 !endprocedure

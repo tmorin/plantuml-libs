@@ -16,9 +16,9 @@ PbAus7aTbZm5U8AwPm4
 !endprocedure
 
 !procedure ServiceConditionalAccessCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceConditionalAccessMd>', 'Security', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceConditionalAccessLg>', 'Security', $funcName, $content)
 !endprocedure
 
 !procedure ServiceConditionalAccessGroup($id, $name='Service Conditional Access', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceConditionalAccessMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceConditionalAccessLg>', $name, $tech)
 !endprocedure

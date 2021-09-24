@@ -16,9 +16,9 @@ mJr9YXSEPxFfjcsEHOHd4uEpU2BqmGy
 !endprocedure
 
 !procedure ServiceSsdCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSsdMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSsdLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSsdGroup($id, $name='Service Ssd', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSsdMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSsdLg>', $name, $tech)
 !endprocedure

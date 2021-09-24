@@ -16,9 +16,9 @@ Q_Trz3PNdRKv-
 !endprocedure
 
 !procedure ServiceResourceMoverCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceResourceMoverMd>', 'Other', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceMoverLg>', 'Other', $funcName, $content)
 !endprocedure
 
 !procedure ServiceResourceMoverGroup($id, $name='Service Resource Mover', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceMoverMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceMoverLg>', $name, $tech)
 !endprocedure

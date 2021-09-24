@@ -13,9 +13,9 @@ sprite $ServiceStorSimpleDeviceManagersLg [20x20/16z] VSk50S0m20J0ns7_XKlgVb4CFy
 !endprocedure
 
 !procedure ServiceStorSimpleDeviceManagersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorSimpleDeviceManagersMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorSimpleDeviceManagersLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStorSimpleDeviceManagersGroup($id, $name='Service Stor Simple Device Managers', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDeviceManagersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorSimpleDeviceManagersLg>', $name, $tech)
 !endprocedure

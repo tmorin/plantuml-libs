@@ -13,9 +13,9 @@ sprite $ServiceAzureDataCatalogLg [20x20/16z] dSY30GH1343HcFtNUyPQVvW7Yp7JD-QFoJ
 !endprocedure
 
 !procedure ServiceAzureDataCatalogCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataCatalogMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataCatalogLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureDataCatalogGroup($id, $name='Service Azure Data Catalog', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataCatalogMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataCatalogLg>', $name, $tech)
 !endprocedure

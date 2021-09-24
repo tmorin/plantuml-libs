@@ -13,9 +13,9 @@ sprite $ServiceBlobBlockLg [20x20/16z] fSg34G0n443HMFttkzx16I_-a_37sXc_Mjqfr9QOD
 !endprocedure
 
 !procedure ServiceBlobBlockCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBlobBlockMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBlobBlockLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBlobBlockGroup($id, $name='Service Blob Block', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlobBlockMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlobBlockLg>', $name, $tech)
 !endprocedure

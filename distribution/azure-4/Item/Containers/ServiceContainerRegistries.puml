@@ -16,9 +16,9 @@ idgIRFtagRp1c85VdDNjtIIIIDw9Bm
 !endprocedure
 
 !procedure ServiceContainerRegistriesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceContainerRegistriesMd>', 'Containers', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceContainerRegistriesLg>', 'Containers', $funcName, $content)
 !endprocedure
 
 !procedure ServiceContainerRegistriesGroup($id, $name='Service Container Registries', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerRegistriesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerRegistriesLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceProximityPlacementGroupsLg [20x20/16z] fT053aG120FH8jDLxd_STPVOVr
 !endprocedure
 
 !procedure ServiceProximityPlacementGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceProximityPlacementGroupsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceProximityPlacementGroupsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceProximityPlacementGroupsGroup($id, $name='Service Proximity Placement Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceProximityPlacementGroupsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceProximityPlacementGroupsLg>', $name, $tech)
 !endprocedure

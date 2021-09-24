@@ -16,9 +16,9 @@ cgfK5pm7K9rpfe8EBrSNAT5EbJBL3_fAzGq
 !endprocedure
 
 !procedure ServiceNatCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNatMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceNatLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceNatGroup($id, $name='Service Nat', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNatMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNatLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ AtlPMTq_tN3L2Wi
 !endprocedure
 
 !procedure ServiceCostAnalysisCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCostAnalysisMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostAnalysisLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCostAnalysisGroup($id, $name='Service Cost Analysis', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAnalysisMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAnalysisLg>', $name, $tech)
 !endprocedure

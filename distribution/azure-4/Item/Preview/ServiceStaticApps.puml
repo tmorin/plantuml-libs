@@ -16,9 +16,9 @@ y0aqqWC
 !endprocedure
 
 !procedure ServiceStaticAppsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStaticAppsMd>', 'Preview', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStaticAppsLg>', 'Preview', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStaticAppsGroup($id, $name='Service Static Apps', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStaticAppsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStaticAppsLg>', $name, $tech)
 !endprocedure

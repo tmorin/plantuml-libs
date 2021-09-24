@@ -13,9 +13,9 @@ sprite $ServiceMobileEngagementLg [20x20/16z] dSr15W0G201HKFLq__C205PcvwDKok5CjS
 !endprocedure
 
 !procedure ServiceMobileEngagementCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMobileEngagementMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMobileEngagementLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMobileEngagementGroup($id, $name='Service Mobile Engagement', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMobileEngagementMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMobileEngagementLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ XYQkIzHlyD6BPj9rdTVr1m
 !endprocedure
 
 !procedure ServiceBranchCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBranchMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBranchLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBranchGroup($id, $name='Service Branch', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBranchMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBranchLg>', $name, $tech)
 !endprocedure

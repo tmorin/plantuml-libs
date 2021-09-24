@@ -13,9 +13,9 @@ sprite $ServiceVersionsLg [20x20/16z] fSZL0O1G2010a6R_VUrkVVTvSAhQw4jpmxySwuQCPo
 !endprocedure
 
 !procedure ServiceVersionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVersionsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceVersionsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceVersionsGroup($id, $name='Service Versions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVersionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVersionsLg>', $name, $tech)
 !endprocedure

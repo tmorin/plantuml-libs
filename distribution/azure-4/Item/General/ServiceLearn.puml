@@ -13,9 +13,9 @@ sprite $ServiceLearnLg [20x20/16z] fOk30K0n34Il2lUVzzl6AtD0G_0PGqTKp73_99f9z5_BH
 !endprocedure
 
 !procedure ServiceLearnCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLearnMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLearnLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLearnGroup($id, $name='Service Learn', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLearnMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLearnLg>', $name, $tech)
 !endprocedure

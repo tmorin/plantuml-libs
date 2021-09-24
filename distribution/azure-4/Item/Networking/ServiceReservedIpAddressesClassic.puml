@@ -13,9 +13,9 @@ sprite $ServiceReservedIpAddressesClassicLg [20x20/16z] bSs50S0m203169BVVz-wUoyk
 !endprocedure
 
 !procedure ServiceReservedIpAddressesClassicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceReservedIpAddressesClassicMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceReservedIpAddressesClassicLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceReservedIpAddressesClassicGroup($id, $name='Service Reserved Ip Addresses Classic', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservedIpAddressesClassicMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservedIpAddressesClassicLg>', $name, $tech)
 !endprocedure

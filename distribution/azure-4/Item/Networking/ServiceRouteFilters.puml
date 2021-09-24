@@ -13,9 +13,9 @@ sprite $ServiceRouteFiltersLg [20x20/16z] hSx50SCm343HBx05--zR22VNzfriCNysveMm-B
 !endprocedure
 
 !procedure ServiceRouteFiltersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceRouteFiltersMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceRouteFiltersLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceRouteFiltersGroup($id, $name='Service Route Filters', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceRouteFiltersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRouteFiltersLg>', $name, $tech)
 !endprocedure

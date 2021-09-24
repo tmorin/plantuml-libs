@@ -13,9 +13,9 @@ sprite $ServiceJourneyHubLg [20x20/16z] hSk54S0W44JHZzD_nM5dH-B-q3DsfI6IX3ma24Nm
 !endprocedure
 
 !procedure ServiceJourneyHubCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceJourneyHubMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceJourneyHubLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceJourneyHubGroup($id, $name='Service Journey Hub', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceJourneyHubMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceJourneyHubLg>', $name, $tech)
 !endprocedure

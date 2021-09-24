@@ -16,9 +16,9 @@ pVifALrPuUDi
 !endprocedure
 
 !procedure ServiceLogicAppsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogicAppsLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLogicAppsGroup($id, $name='Service Logic Apps', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogicAppsLg>', $name, $tech)
 !endprocedure

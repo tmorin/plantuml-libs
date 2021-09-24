@@ -13,9 +13,9 @@ sprite $ServiceNetworkSecurityGroupsLg [20x20/16z] jSw74G9024HHpbjY_mKhinWem3VvN
 !endprocedure
 
 !procedure ServiceNetworkSecurityGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkSecurityGroupsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkSecurityGroupsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceNetworkSecurityGroupsGroup($id, $name='Service Network Security Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkSecurityGroupsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkSecurityGroupsLg>', $name, $tech)
 !endprocedure

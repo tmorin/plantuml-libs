@@ -13,9 +13,9 @@ sprite $ServiceStorageAccountsClassicLg [20x20/16z] Ow04S680Teh4M3402r0CrKvcx68u
 !endprocedure
 
 !procedure ServiceStorageAccountsClassicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAccountsClassicMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAccountsClassicLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStorageAccountsClassicGroup($id, $name='Service Storage Accounts Classic', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAccountsClassicMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAccountsClassicLg>', $name, $tech)
 !endprocedure

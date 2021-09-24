@@ -13,9 +13,9 @@ sprite $ServiceRelaysLg [20x20/16z] VO-50G0X201fs7_XJxlEFWjW1GjrF6kmcSTfp-UWWnf7
 !endprocedure
 
 !procedure ServiceRelaysCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceRelaysMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceRelaysLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceRelaysGroup($id, $name='Service Relays', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceRelaysMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRelaysLg>', $name, $tech)
 !endprocedure

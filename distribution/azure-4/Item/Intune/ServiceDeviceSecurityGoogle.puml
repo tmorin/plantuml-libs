@@ -13,9 +13,9 @@ sprite $ServiceDeviceSecurityGoogleLg [20x20/16z] PSY73S0m20J0nxJzDuvnUwIS-g68kQ
 !endprocedure
 
 !procedure ServiceDeviceSecurityGoogleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityGoogleMd>', 'Intune', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityGoogleLg>', 'Intune', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDeviceSecurityGoogleGroup($id, $name='Service Device Security Google', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityGoogleMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityGoogleLg>', $name, $tech)
 !endprocedure

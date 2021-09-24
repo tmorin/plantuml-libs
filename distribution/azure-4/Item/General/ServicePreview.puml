@@ -13,9 +13,9 @@ sprite $ServicePreviewLg [20x20/16z] rOo53G0n54Bvkl_6ftMwG5-CODWZCNAWb-mbUybUafU
 !endprocedure
 
 !procedure ServicePreviewCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePreviewMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePreviewLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServicePreviewGroup($id, $name='Service Preview', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePreviewMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePreviewLg>', $name, $tech)
 !endprocedure

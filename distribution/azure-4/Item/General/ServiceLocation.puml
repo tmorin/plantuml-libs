@@ -16,9 +16,9 @@ FDCb0puq0sY_IqUOC0WKpKZS_G4
 !endprocedure
 
 !procedure ServiceLocationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLocationMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLocationLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLocationGroup($id, $name='Service Location', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLocationMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLocationLg>', $name, $tech)
 !endprocedure

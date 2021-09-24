@@ -13,9 +13,9 @@ sprite $ServiceControlsLg [20x20/16z] lSw53S1020NGt-3ils_TOvKpzCK044bxzHHCBrDFrL
 !endprocedure
 
 !procedure ServiceControlsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceControlsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceControlsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceControlsGroup($id, $name='Service Controls', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsLg>', $name, $tech)
 !endprocedure

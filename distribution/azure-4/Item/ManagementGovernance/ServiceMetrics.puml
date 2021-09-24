@@ -16,9 +16,9 @@ qxPmCNS_RLJzoynCTF-394L9anK
 !endprocedure
 
 !procedure ServiceMetricsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMetricsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMetricsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMetricsGroup($id, $name='Service Metrics', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMetricsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMetricsLg>', $name, $tech)
 !endprocedure

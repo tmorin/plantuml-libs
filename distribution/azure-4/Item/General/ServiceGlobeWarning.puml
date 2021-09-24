@@ -19,9 +19,9 @@ aOPsSB9CKlrwOwISMhxKUcf-Llw3l3zaqvk-
 !endprocedure
 
 !procedure ServiceGlobeWarningCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeWarningMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceGlobeWarningLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceGlobeWarningGroup($id, $name='Service Globe Warning', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeWarningMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGlobeWarningLg>', $name, $tech)
 !endprocedure

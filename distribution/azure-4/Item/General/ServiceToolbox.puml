@@ -13,9 +13,9 @@ sprite $ServiceToolboxLg [20x20/16z] bSe55e1024LHLFZM_jThJ7TSdNe7cYAMJukzDnh_mEp
 !endprocedure
 
 !procedure ServiceToolboxCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceToolboxMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceToolboxLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceToolboxGroup($id, $name='Service Toolbox', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceToolboxMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceToolboxLg>', $name, $tech)
 !endprocedure

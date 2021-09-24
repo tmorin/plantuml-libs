@@ -16,9 +16,9 @@ ZT350S0m34DHooHt_u7Bp2_yZv4xvcUGlF2VBOGzWz6XJB0tDP2fTDatGweprrO3mgsYRzNBiG5UAc02
 !endprocedure
 
 !procedure ServiceAzureSqlVmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlVmMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlVmLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureSqlVmGroup($id, $name='Service Azure Sql Vm', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlVmMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlVmLg>', $name, $tech)
 !endprocedure

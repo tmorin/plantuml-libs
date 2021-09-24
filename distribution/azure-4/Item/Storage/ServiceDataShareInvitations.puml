@@ -13,9 +13,9 @@ sprite $ServiceDataShareInvitationsLg [20x20/16z] hSi53e1034JH8Ysr-ryNMPSu--ClCx
 !endprocedure
 
 !procedure ServiceDataShareInvitationsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataShareInvitationsMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataShareInvitationsLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataShareInvitationsGroup($id, $name='Service Data Share Invitations', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataShareInvitationsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataShareInvitationsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceMediaFileLg [20x20/16z] bSg53K0X54FHul3st_ShxjnOSr9qOzfdHB8m3OcE1
 !endprocedure
 
 !procedure ServiceMediaFileCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMediaFileMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMediaFileLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMediaFileGroup($id, $name='Service Media File', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMediaFileMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMediaFileLg>', $name, $tech)
 !endprocedure

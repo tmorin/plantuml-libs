@@ -16,9 +16,9 @@ DbKrSskFkqVxy8RJLYpI1jgO-mO
 !endprocedure
 
 !procedure ServiceServerFarmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceServerFarmMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceServerFarmLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceServerFarmGroup($id, $name='Service Server Farm', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceServerFarmMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceServerFarmLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ sW9RrIWjFwCQ33Ug0Nk3TSL5z9xwWRlw0G
 !endprocedure
 
 !procedure ServiceLoadBalancersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLoadBalancersMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLoadBalancersLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLoadBalancersGroup($id, $name='Service Load Balancers', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadBalancersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLoadBalancersLg>', $name, $tech)
 !endprocedure

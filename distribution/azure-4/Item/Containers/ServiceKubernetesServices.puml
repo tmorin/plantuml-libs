@@ -16,9 +16,9 @@ SuJjD_LgZXTwGpST_zaQiUe57GlcAdUu
 !endprocedure
 
 !procedure ServiceKubernetesServicesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesServicesMd>', 'Containers', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceKubernetesServicesLg>', 'Containers', $funcName, $content)
 !endprocedure
 
 !procedure ServiceKubernetesServicesGroup($id, $name='Service Kubernetes Services', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesServicesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKubernetesServicesLg>', $name, $tech)
 !endprocedure

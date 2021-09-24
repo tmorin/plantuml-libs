@@ -13,9 +13,9 @@ sprite $ServiceFtpLg [20x20/16z] fOk30KLH3CLIVko_xxEDNFQ0DyHl2UJ_pmJz_wNMT8ArsXB
 !endprocedure
 
 !procedure ServiceFtpCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFtpMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFtpLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFtpGroup($id, $name='Service Ftp', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFtpMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFtpLg>', $name, $tech)
 !endprocedure

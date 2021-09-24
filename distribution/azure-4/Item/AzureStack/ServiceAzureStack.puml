@@ -19,9 +19,9 @@ RHnx5s2HZKV3vf7kGryrgNctReseqUgm2m
 !endprocedure
 
 !procedure ServiceAzureStackCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackMd>', 'AzureStack', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackLg>', 'AzureStack', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureStackGroup($id, $name='Service Azure Stack', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackLg>', $name, $tech)
 !endprocedure

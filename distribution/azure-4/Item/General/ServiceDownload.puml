@@ -13,9 +13,9 @@ sprite $ServiceDownloadLg [20x20/16z] VSe73W8024FHbXsv_tcTuDQNHJx5F-w65NKJiPSYER
 !endprocedure
 
 !procedure ServiceDownloadCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDownloadMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDownloadLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDownloadGroup($id, $name='Service Download', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDownloadMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDownloadLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ evq
 !endprocedure
 
 !procedure ServiceWorkspacesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceWorkspacesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkspacesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceWorkspacesGroup($id, $name='Service Workspaces', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkspacesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkspacesLg>', $name, $tech)
 !endprocedure

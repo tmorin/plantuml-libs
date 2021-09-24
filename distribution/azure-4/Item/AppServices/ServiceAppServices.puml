@@ -19,9 +19,9 @@ UpIlaMT8r_JHi8jz0rF3smNKdUtbnEaIYIuNshEtdP3i9trXo31e3vtrKR4e8qQIZrRfNNpXcjCdrWi
 !endprocedure
 
 !procedure ServiceAppServicesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAppServicesMd>', 'AppServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServicesLg>', 'AppServices', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAppServicesGroup($id, $name='Service App Services', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServicesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServicesLg>', $name, $tech)
 !endprocedure

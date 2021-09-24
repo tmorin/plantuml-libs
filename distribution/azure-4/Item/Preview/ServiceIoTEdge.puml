@@ -13,9 +13,9 @@ sprite $ServiceIoTEdgeLg [20x20/16z] hSYt4O004CH0lJtwRnZlITb88mwUmLFMohZKWLFK8Tb
 !endprocedure
 
 !procedure ServiceIoTEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceIoTEdgeMd>', 'Preview', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceIoTEdgeLg>', 'Preview', $funcName, $content)
 !endprocedure
 
 !procedure ServiceIoTEdgeGroup($id, $name='Service Io T Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTEdgeMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIoTEdgeLg>', $name, $tech)
 !endprocedure

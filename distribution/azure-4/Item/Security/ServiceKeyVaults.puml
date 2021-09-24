@@ -19,9 +19,9 @@ NXl7nbby5WsaZhalcuj02sUuJvWoTYLZk3j4Nm9hAJobld0qgZ87kny
 !endprocedure
 
 !procedure ServiceKeyVaultsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceKeyVaultsMd>', 'Security', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceKeyVaultsLg>', 'Security', $funcName, $content)
 !endprocedure
 
 !procedure ServiceKeyVaultsGroup($id, $name='Service Key Vaults', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceKeyVaultsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceKeyVaultsLg>', $name, $tech)
 !endprocedure

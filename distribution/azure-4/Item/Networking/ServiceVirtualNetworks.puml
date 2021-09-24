@@ -13,9 +13,9 @@ sprite $ServiceVirtualNetworksLg [20x20/16z] jOhL3KKn3CKSQix-2p-8TF6_BiOoEt27eIy
 !endprocedure
 
 !procedure ServiceVirtualNetworksCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualNetworksMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualNetworksLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceVirtualNetworksGroup($id, $name='Service Virtual Networks', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualNetworksMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualNetworksLg>', $name, $tech)
 !endprocedure

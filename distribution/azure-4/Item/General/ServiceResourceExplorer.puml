@@ -13,9 +13,9 @@ sprite $ServiceResourceExplorerLg [20x20/16z] ZS_50O0m343H4Dr_Og3kykllLhZjGLzZfa
 !endprocedure
 
 !procedure ServiceResourceExplorerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceResourceExplorerMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceExplorerLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceResourceExplorerGroup($id, $name='Service Resource Explorer', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceExplorerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceExplorerLg>', $name, $tech)
 !endprocedure

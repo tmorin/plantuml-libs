@@ -16,9 +16,9 @@ hSg54ODG50NHVHwW_tfnbz4SzEzSFgW3fXn4p2SciYVrZSe-ysPn3BjKMMXsM-lQJVVd5X5oRKrCzD9Y
 !endprocedure
 
 !procedure ServiceManagedDatabaseCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceManagedDatabaseMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagedDatabaseLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceManagedDatabaseGroup($id, $name='Service Managed Database', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedDatabaseMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagedDatabaseLg>', $name, $tech)
 !endprocedure

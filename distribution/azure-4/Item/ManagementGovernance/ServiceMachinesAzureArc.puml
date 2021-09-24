@@ -13,9 +13,9 @@ sprite $ServiceMachinesAzureArcLg [20x20/16z] lSm53e103011dCh_tul3DX31xZO-bMAgxK
 !endprocedure
 
 !procedure ServiceMachinesAzureArcCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMachinesAzureArcMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachinesAzureArcLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMachinesAzureArcGroup($id, $name='Service Machines Azure Arc', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachinesAzureArcMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachinesAzureArcLg>', $name, $tech)
 !endprocedure

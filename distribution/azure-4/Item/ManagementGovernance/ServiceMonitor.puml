@@ -19,9 +19,9 @@ YOZziahuiEsTBzNVszdpETK0Cf_4JjYVKxBwxKEz_uYnwyeUFebIgmxhFm
 !endprocedure
 
 !procedure ServiceMonitorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMonitorLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMonitorGroup($id, $name='Service Monitor', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMonitorLg>', $name, $tech)
 !endprocedure

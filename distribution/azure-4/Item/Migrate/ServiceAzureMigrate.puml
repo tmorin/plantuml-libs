@@ -16,9 +16,9 @@ yBCF
 !endprocedure
 
 !procedure ServiceAzureMigrateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMigrateMd>', 'Migrate', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureMigrateLg>', 'Migrate', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureMigrateGroup($id, $name='Service Azure Migrate', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMigrateMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureMigrateLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceDataBoxEdgeLg [20x20/16z] hSkr0GH134DHsVf3_HTy39xiO5yeq062tfjLkT-
 !endprocedure
 
 !procedure ServiceDataBoxEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataBoxEdgeMd>', 'Migrate', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataBoxEdgeLg>', 'Migrate', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataBoxEdgeGroup($id, $name='Service Data Box Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxEdgeMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxEdgeLg>', $name, $tech)
 !endprocedure

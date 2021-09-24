@@ -16,9 +16,9 @@ ltvdrWwD6plG8OkgNXayJ2i
 !endprocedure
 
 !procedure ServiceSqlDatabaseCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDatabaseMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDatabaseLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSqlDatabaseGroup($id, $name='Service Sql Database', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDatabaseMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDatabaseLg>', $name, $tech)
 !endprocedure

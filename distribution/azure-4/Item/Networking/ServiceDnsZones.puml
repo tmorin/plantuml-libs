@@ -19,9 +19,9 @@ TSz7TeL044DHTK1FOl_xTU3tCIFVOUNIlnPtVrnwjNOR-8lEcwO_Q18zRhVaqO9-bC0d1ZHJsctZy4XA
 !endprocedure
 
 !procedure ServiceDnsZonesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDnsZonesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDnsZonesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDnsZonesGroup($id, $name='Service Dns Zones', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDnsZonesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDnsZonesLg>', $name, $tech)
 !endprocedure

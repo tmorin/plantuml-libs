@@ -13,9 +13,9 @@ sprite $ServiceNotificationHubNamespacesLg [20x20/16z] bSYr0GD10CH0-HRwxzYG-9aca
 !endprocedure
 
 !procedure ServiceNotificationHubNamespacesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNotificationHubNamespacesMd>', 'Web', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceNotificationHubNamespacesLg>', 'Web', $funcName, $content)
 !endprocedure
 
 !procedure ServiceNotificationHubNamespacesGroup($id, $name='Service Notification Hub Namespaces', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNotificationHubNamespacesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNotificationHubNamespacesLg>', $name, $tech)
 !endprocedure

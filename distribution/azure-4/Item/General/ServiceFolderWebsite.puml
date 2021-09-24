@@ -13,9 +13,9 @@ sprite $ServiceFolderWebsiteLg [20x20/16z] bSg54SD050DHpMK_zLzmoCps6rv9DzbWqOQ9x
 !endprocedure
 
 !procedure ServiceFolderWebsiteCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFolderWebsiteMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFolderWebsiteLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFolderWebsiteGroup($id, $name='Service Folder Website', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderWebsiteMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderWebsiteLg>', $name, $tech)
 !endprocedure

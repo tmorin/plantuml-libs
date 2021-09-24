@@ -13,9 +13,9 @@ sprite $ServiceAppServiceCertificatesLg [20x20/16z] TSk53G0n34DH1yhxptjOXgU8lXni
 !endprocedure
 
 !procedure ServiceAppServiceCertificatesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceCertificatesMd>', 'AppServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAppServiceCertificatesLg>', 'AppServices', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAppServiceCertificatesGroup($id, $name='Service App Service Certificates', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceCertificatesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAppServiceCertificatesLg>', $name, $tech)
 !endprocedure

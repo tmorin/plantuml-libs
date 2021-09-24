@@ -13,9 +13,9 @@ sprite $ServiceHeartLg [20x20/16z] ZSt50K0X30FGu53sd_ShxkzOIN1EqaC2SFJuHee-vX_zG
 !endprocedure
 
 !procedure ServiceHeartCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceHeartMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceHeartLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceHeartGroup($id, $name='Service Heart', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceHeartMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceHeartLg>', $name, $tech)
 !endprocedure

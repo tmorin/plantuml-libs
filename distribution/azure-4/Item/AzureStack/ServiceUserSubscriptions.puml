@@ -16,9 +16,9 @@ rq3wUtTyQkpsFV78ugJJ3m
 !endprocedure
 
 !procedure ServiceUserSubscriptionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceUserSubscriptionsMd>', 'AzureStack', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceUserSubscriptionsLg>', 'AzureStack', $funcName, $content)
 !endprocedure
 
 !procedure ServiceUserSubscriptionsGroup($id, $name='Service User Subscriptions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceUserSubscriptionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceUserSubscriptionsLg>', $name, $tech)
 !endprocedure

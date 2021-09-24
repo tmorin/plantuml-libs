@@ -13,9 +13,9 @@ sprite $ServiceCounterLg [20x20/16z] fO-50GCn3CJCjF_0lPIPNc65RDh2F53FdIiO1za1bcC
 !endprocedure
 
 !procedure ServiceCounterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCounterMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCounterLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCounterGroup($id, $name='Service Counter', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCounterMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCounterLg>', $name, $tech)
 !endprocedure

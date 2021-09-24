@@ -16,9 +16,9 @@ fSfL0WCX30JG8Pwz_u7RWTM_oaEY-9ywAMwSuWqdYuETlLKdOH9M9v3cam1WjA5yvL9LkTPGvLecirUH
 !endprocedure
 
 !procedure ServiceAzureSqlCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureSqlGroup($id, $name='Service Azure Sql', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlLg>', $name, $tech)
 !endprocedure

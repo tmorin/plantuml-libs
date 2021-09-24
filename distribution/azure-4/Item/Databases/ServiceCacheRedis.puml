@@ -13,9 +13,9 @@ sprite $ServiceCacheRedisLg [20x20/16z] fS-34KGn543HP_PVxvhVEACxSU0CPBbXmjyYkn6K
 !endprocedure
 
 !procedure ServiceCacheRedisCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCacheRedisMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCacheRedisLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCacheRedisGroup($id, $name='Service Cache Redis', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCacheRedisMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCacheRedisLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceSqlDataWarehousesLg [20x20/16z] hSYr0O1G30N0v0cw_xoum--uyg8CmcDIi
 !endprocedure
 
 !procedure ServiceSqlDataWarehousesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDataWarehousesMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlDataWarehousesLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSqlDataWarehousesGroup($id, $name='Service Sql Data Warehouses', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDataWarehousesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlDataWarehousesLg>', $name, $tech)
 !endprocedure

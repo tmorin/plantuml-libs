@@ -19,9 +19,9 @@ lJ3uOvCCe93O93m8hH8a4wDHE1bV33-tJDenV_y
 !endprocedure
 
 !procedure ServiceAvailabilitySetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAvailabilitySetsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAvailabilitySetsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAvailabilitySetsGroup($id, $name='Service Availability Sets', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvailabilitySetsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvailabilitySetsLg>', $name, $tech)
 !endprocedure

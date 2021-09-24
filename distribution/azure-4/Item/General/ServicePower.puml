@@ -13,9 +13,9 @@ sprite $ServicePowerLg [20x20/16z] XSu53W1124DHQClzZxnkIB8__aR0dk98zWcThck9T9G81
 !endprocedure
 
 !procedure ServicePowerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePowerMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePowerLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServicePowerGroup($id, $name='Service Power', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerLg>', $name, $tech)
 !endprocedure

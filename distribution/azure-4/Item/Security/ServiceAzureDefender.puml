@@ -16,9 +16,9 @@ dfHaJli2
 !endprocedure
 
 !procedure ServiceAzureDefenderCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDefenderMd>', 'Security', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDefenderLg>', 'Security', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureDefenderGroup($id, $name='Service Azure Defender', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDefenderMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDefenderLg>', $name, $tech)
 !endprocedure

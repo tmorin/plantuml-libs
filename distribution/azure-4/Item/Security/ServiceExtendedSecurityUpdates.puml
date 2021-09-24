@@ -16,9 +16,9 @@ DE1YARdZgiOH_NU_mwlhtE85
 !endprocedure
 
 !procedure ServiceExtendedSecurityUpdatesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceExtendedSecurityUpdatesMd>', 'Security', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceExtendedSecurityUpdatesLg>', 'Security', $funcName, $content)
 !endprocedure
 
 !procedure ServiceExtendedSecurityUpdatesGroup($id, $name='Service Extended Security Updates', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtendedSecurityUpdatesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtendedSecurityUpdatesLg>', $name, $tech)
 !endprocedure

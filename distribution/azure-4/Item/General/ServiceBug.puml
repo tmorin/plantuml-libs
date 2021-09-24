@@ -16,9 +16,9 @@ hK7rdPafRO_CKnHspL1tu_O7
 !endprocedure
 
 !procedure ServiceBugCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBugMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBugLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBugGroup($id, $name='Service Bug', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBugMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBugLg>', $name, $tech)
 !endprocedure

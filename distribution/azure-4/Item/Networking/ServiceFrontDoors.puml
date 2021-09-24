@@ -16,9 +16,9 @@ q3RXR8QNVW
 !endprocedure
 
 !procedure ServiceFrontDoorsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFrontDoorsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFrontDoorsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFrontDoorsGroup($id, $name='Service Front Doors', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrontDoorsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFrontDoorsLg>', $name, $tech)
 !endprocedure

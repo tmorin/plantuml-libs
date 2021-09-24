@@ -16,9 +16,9 @@ N4DxqQtmephwvNub7_-VCMXS6eq_JQh9IxBQd1uY3u8h
 !endprocedure
 
 !procedure ServiceImagesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceImagesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceImagesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceImagesGroup($id, $name='Service Images', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceImagesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImagesLg>', $name, $tech)
 !endprocedure

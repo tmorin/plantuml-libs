@@ -16,9 +16,9 @@ iZufoTQQQhArffhKzwHMkId9gMu
 !endprocedure
 
 !procedure ServiceSqlElasticPoolsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlElasticPoolsMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlElasticPoolsLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSqlElasticPoolsGroup($id, $name='Service Sql Elastic Pools', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlElasticPoolsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlElasticPoolsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceMarketplaceLg [20x20/16z] VSk53G1124HH6E6s_uRFtNviU0dnNNMjx3nJnt3
 !endprocedure
 
 !procedure ServiceMarketplaceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMarketplaceMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMarketplaceLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMarketplaceGroup($id, $name='Service Marketplace', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMarketplaceMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMarketplaceLg>', $name, $tech)
 !endprocedure

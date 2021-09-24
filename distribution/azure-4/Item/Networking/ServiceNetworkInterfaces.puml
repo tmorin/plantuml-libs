@@ -16,9 +16,9 @@ Ly8lusVqjWi
 !endprocedure
 
 !procedure ServiceNetworkInterfacesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkInterfacesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceNetworkInterfacesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceNetworkInterfacesGroup($id, $name='Service Network Interfaces', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkInterfacesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceNetworkInterfacesLg>', $name, $tech)
 !endprocedure

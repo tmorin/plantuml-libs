@@ -16,9 +16,9 @@ IyOXCxwq0m
 !endprocedure
 
 !procedure ServiceDataSharesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataSharesMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataSharesLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataSharesGroup($id, $name='Service Data Shares', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataSharesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataSharesLg>', $name, $tech)
 !endprocedure

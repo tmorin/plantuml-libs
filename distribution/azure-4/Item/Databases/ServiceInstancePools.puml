@@ -16,9 +16,9 @@ BBLXCKqQ4LC9yxG0gW2OjhDTj5jYbZLs8krPx5o87W
 !endprocedure
 
 !procedure ServiceInstancePoolsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceInstancePoolsMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceInstancePoolsLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceInstancePoolsGroup($id, $name='Service Instance Pools', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceInstancePoolsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceInstancePoolsLg>', $name, $tech)
 !endprocedure

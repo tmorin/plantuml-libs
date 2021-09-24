@@ -13,9 +13,9 @@ sprite $ServiceAbsMemberLg [20x20/16z] VSo52KGn44NHSJOl_VUxn0t-nSy8VQMkbuYN-9QIJ
 !endprocedure
 
 !procedure ServiceAbsMemberCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAbsMemberMd>', 'Blockchain', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAbsMemberLg>', 'Blockchain', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAbsMemberGroup($id, $name='Service Abs Member', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAbsMemberMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAbsMemberLg>', $name, $tech)
 !endprocedure

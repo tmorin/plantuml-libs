@@ -13,9 +13,9 @@ sprite $ServiceFolderBlankLg [20x20/16z] Oo0IiC80YXXCYXbJ7Gip7224XZPWeG0m8fd310N
 !endprocedure
 
 !procedure ServiceFolderBlankCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFolderBlankMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFolderBlankLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFolderBlankGroup($id, $name='Service Folder Blank', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderBlankMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFolderBlankLg>', $name, $tech)
 !endprocedure

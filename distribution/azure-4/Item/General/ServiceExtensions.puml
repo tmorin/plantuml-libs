@@ -13,9 +13,9 @@ sprite $ServiceExtensionsLg [20x20/16z] fSY54SCm00ImD_kw_xvDOcRKiJ14Vevgd0RtG0oP
 !endprocedure
 
 !procedure ServiceExtensionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceExtensionsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceExtensionsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceExtensionsGroup($id, $name='Service Extensions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtensionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceExtensionsLg>', $name, $tech)
 !endprocedure

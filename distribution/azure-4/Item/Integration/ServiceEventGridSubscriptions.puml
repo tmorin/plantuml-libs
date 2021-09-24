@@ -13,9 +13,9 @@ sprite $ServiceEventGridSubscriptionsLg [20x20/16z] ZSy54iDG24NHYxpVwVuNN6y2yJEE
 !endprocedure
 
 !procedure ServiceEventGridSubscriptionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridSubscriptionsMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridSubscriptionsLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceEventGridSubscriptionsGroup($id, $name='Service Event Grid Subscriptions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridSubscriptionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridSubscriptionsLg>', $name, $tech)
 !endprocedure

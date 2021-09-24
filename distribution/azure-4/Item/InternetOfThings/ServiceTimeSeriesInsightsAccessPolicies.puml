@@ -13,9 +13,9 @@ sprite $ServiceTimeSeriesInsightsAccessPoliciesLg [20x20/16z] VT072WH10091ntR__-
 !endprocedure
 
 !procedure ServiceTimeSeriesInsightsAccessPoliciesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesInsightsAccessPoliciesMd>', 'InternetOfThings', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesInsightsAccessPoliciesLg>', 'InternetOfThings', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTimeSeriesInsightsAccessPoliciesGroup($id, $name='Service Time Series Insights Access Policies', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesInsightsAccessPoliciesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesInsightsAccessPoliciesLg>', $name, $tech)
 !endprocedure

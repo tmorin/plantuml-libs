@@ -13,9 +13,9 @@ sprite $ServiceStorageQueueLg [20x20/16z] fSc30G0n4031dD5_lsyR6q_AdtANFJRPnOqH8Z
 !endprocedure
 
 !procedure ServiceStorageQueueCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorageQueueMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageQueueLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStorageQueueGroup($id, $name='Service Storage Queue', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageQueueMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageQueueLg>', $name, $tech)
 !endprocedure

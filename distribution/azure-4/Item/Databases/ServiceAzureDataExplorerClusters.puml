@@ -16,9 +16,9 @@ Z5KTSdbPCzMQV8qzg4gC6wbcKR7YXYcLowNkYoFWtG4
 !endprocedure
 
 !procedure ServiceAzureDataExplorerClustersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataExplorerClustersMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDataExplorerClustersLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureDataExplorerClustersGroup($id, $name='Service Azure Data Explorer Clusters', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataExplorerClustersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDataExplorerClustersLg>', $name, $tech)
 !endprocedure

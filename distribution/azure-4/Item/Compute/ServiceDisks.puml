@@ -16,9 +16,9 @@ RiGTSRXLyiBqKbG6hpMHQeZ1DRtj1
 !endprocedure
 
 !procedure ServiceDisksCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDisksMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisksLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDisksGroup($id, $name='Service Disks', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksLg>', $name, $tech)
 !endprocedure

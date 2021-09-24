@@ -16,9 +16,9 @@ VG
 !endprocedure
 
 !procedure ServiceDeviceSecurityWindowsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityWindowsMd>', 'Intune', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDeviceSecurityWindowsLg>', 'Intune', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDeviceSecurityWindowsGroup($id, $name='Service Device Security Windows', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityWindowsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDeviceSecurityWindowsLg>', $name, $tech)
 !endprocedure

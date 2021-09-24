@@ -13,9 +13,9 @@ sprite $ServiceDataBoxLg [20x20/16z] TSl5WKC124NHYy-d_tud1l6SvHD-ixmmdaGEM9xB6Ug
 !endprocedure
 
 !procedure ServiceDataBoxCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDataBoxMd>', 'Migrate', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDataBoxLg>', 'Migrate', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDataBoxGroup($id, $name='Service Data Box', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDataBoxLg>', $name, $tech)
 !endprocedure

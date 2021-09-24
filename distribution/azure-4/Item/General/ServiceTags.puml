@@ -16,9 +16,9 @@ Mua9wGy
 !endprocedure
 
 !procedure ServiceTagsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTagsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTagsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTagsGroup($id, $name='Service Tags', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagsLg>', $name, $tech)
 !endprocedure

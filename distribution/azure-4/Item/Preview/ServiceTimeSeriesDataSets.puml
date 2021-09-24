@@ -16,9 +16,9 @@ ltvdrWwD6plG8OkgNXayJ2i
 !endprocedure
 
 !procedure ServiceTimeSeriesDataSetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesDataSetsMd>', 'Preview', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTimeSeriesDataSetsLg>', 'Preview', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTimeSeriesDataSetsGroup($id, $name='Service Time Series Data Sets', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesDataSetsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTimeSeriesDataSetsLg>', $name, $tech)
 !endprocedure

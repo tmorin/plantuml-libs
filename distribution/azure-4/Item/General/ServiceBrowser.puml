@@ -13,9 +13,9 @@ sprite $ServiceBrowserLg [20x20/16z] Ow04S6403g0O2ueQ3h0OEoiou0IBOUfbnG0iWrwC3GE
 !endprocedure
 
 !procedure ServiceBrowserCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBrowserMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBrowserLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBrowserGroup($id, $name='Service Browser', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBrowserMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBrowserLg>', $name, $tech)
 !endprocedure

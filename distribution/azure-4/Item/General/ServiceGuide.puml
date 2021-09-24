@@ -16,9 +16,9 @@ m1TMNxa8Y8LwDI5aLbNo432f94lDmsrWzGy
 !endprocedure
 
 !procedure ServiceGuideCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceGuideMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceGuideLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceGuideGroup($id, $name='Service Guide', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceGuideMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceGuideLg>', $name, $tech)
 !endprocedure

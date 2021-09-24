@@ -13,9 +13,9 @@ sprite $ServiceAzureWorkbooksLg [20x20/16z] ZSm50i0W34FHUNxlV-1vEfVW3sXHrSUqL5U2
 !endprocedure
 
 !procedure ServiceAzureWorkbooksCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureWorkbooksMd>', 'Preview', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureWorkbooksLg>', 'Preview', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureWorkbooksGroup($id, $name='Service Azure Workbooks', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureWorkbooksMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureWorkbooksLg>', $name, $tech)
 !endprocedure

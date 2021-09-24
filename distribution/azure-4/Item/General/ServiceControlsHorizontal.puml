@@ -13,9 +13,9 @@ sprite $ServiceControlsHorizontalLg [20x20/16z] lSz50i1030B0K87y_yCLBdMNkUt6unh4
 !endprocedure
 
 !procedure ServiceControlsHorizontalCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceControlsHorizontalMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceControlsHorizontalLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceControlsHorizontalGroup($id, $name='Service Controls Horizontal', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsHorizontalMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceControlsHorizontalLg>', $name, $tech)
 !endprocedure

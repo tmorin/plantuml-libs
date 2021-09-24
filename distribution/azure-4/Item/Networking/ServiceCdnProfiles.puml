@@ -13,9 +13,9 @@ sprite $ServiceCdnProfilesLg [20x20/16z] jSsr0G0n30D0C-m_y3E4okHAWmGBKJjWEt4rinl
 !endprocedure
 
 !procedure ServiceCdnProfilesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCdnProfilesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCdnProfilesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCdnProfilesGroup($id, $name='Service Cdn Profiles', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCdnProfilesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCdnProfilesLg>', $name, $tech)
 !endprocedure

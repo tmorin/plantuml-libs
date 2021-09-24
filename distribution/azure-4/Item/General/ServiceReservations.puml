@@ -19,9 +19,9 @@ aAC5Dg04qymKfci147uSv5p0LRjLuQkwRTVYhMS
 !endprocedure
 
 !procedure ServiceReservationsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceReservationsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceReservationsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceReservationsGroup($id, $name='Service Reservations', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservationsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceReservationsLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ imIwwyeq2lS2whIUIjXjr5zcYouNoa5MTN5lLISUYbILJ2u
 !endprocedure
 
 !procedure ServiceCostBudgetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCostBudgetsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostBudgetsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCostBudgetsGroup($id, $name='Service Cost Budgets', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostBudgetsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostBudgetsLg>', $name, $tech)
 !endprocedure

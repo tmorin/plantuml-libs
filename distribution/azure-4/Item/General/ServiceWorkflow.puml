@@ -13,9 +13,9 @@ sprite $ServiceWorkflowLg [20x20/16z] dSs50O0m40J1TwJ_Wk5mZIq-H6Yj7v7HjJ7SVVIxuT
 !endprocedure
 
 !procedure ServiceWorkflowCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceWorkflowMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkflowLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceWorkflowGroup($id, $name='Service Workflow', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkflowMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkflowLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceErrorLg [20x20/16z] XSo50SCm30J0jxZx3no6LobdjW2_MQmK94wKbIV3OUGD6
 !endprocedure
 
 !procedure ServiceErrorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceErrorMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceErrorLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceErrorGroup($id, $name='Service Error', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceErrorMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceErrorLg>', $name, $tech)
 !endprocedure

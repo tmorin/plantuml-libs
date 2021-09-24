@@ -13,9 +13,9 @@ sprite $ServiceIntegrationAccountsLg [20x20/16z] dSz75i0W24NH7phiVx_fbPEHBqMz8y5
 !endprocedure
 
 !procedure ServiceIntegrationAccountsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceIntegrationAccountsMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceIntegrationAccountsLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceIntegrationAccountsGroup($id, $name='Service Integration Accounts', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntegrationAccountsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIntegrationAccountsLg>', $name, $tech)
 !endprocedure

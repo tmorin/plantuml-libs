@@ -13,9 +13,9 @@ sprite $ServiceLogStreamingLg [20x20/16z] bP3L0GH134A9CVrNV7wxu_B-uW7qYV2Cz4uP9G
 !endprocedure
 
 !procedure ServiceLogStreamingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLogStreamingMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLogStreamingLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLogStreamingGroup($id, $name='Service Log Streaming', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogStreamingMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLogStreamingLg>', $name, $tech)
 !endprocedure

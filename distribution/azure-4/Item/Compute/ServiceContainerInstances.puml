@@ -16,9 +16,9 @@ T7MzZHIiNWn_CIjhg3ejmZYG7G
 !endprocedure
 
 !procedure ServiceContainerInstancesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceContainerInstancesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceContainerInstancesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceContainerInstancesGroup($id, $name='Service Container Instances', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerInstancesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceContainerInstancesLg>', $name, $tech)
 !endprocedure

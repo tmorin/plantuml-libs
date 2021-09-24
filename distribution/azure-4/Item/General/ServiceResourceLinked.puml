@@ -16,9 +16,9 @@ ZLdY4JQh0-DO7SlV9ks1bS9U-bhz0G
 !endprocedure
 
 !procedure ServiceResourceLinkedCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceResourceLinkedMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceLinkedLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceResourceLinkedGroup($id, $name='Service Resource Linked', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceLinkedMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceLinkedLg>', $name, $tech)
 !endprocedure

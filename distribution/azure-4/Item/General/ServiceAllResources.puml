@@ -13,9 +13,9 @@ sprite $ServiceAllResourcesLg [20x20/16z] hO-r0S0m30GjrluB6pvDcAyGOzc3hQDY0u9TYd
 !endprocedure
 
 !procedure ServiceAllResourcesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAllResourcesMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAllResourcesLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAllResourcesGroup($id, $name='Service All Resources', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAllResourcesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAllResourcesLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ XSZ50GGn30Im2PdwxtSfP1_gAOXj69GMtQUsvNbrONSqg3yyYhKFP_JXhCtZVKRnG7ofwxOshzHXdQ2q
 !endprocedure
 
 !procedure ServiceFilesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFilesMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFilesLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFilesGroup($id, $name='Service Files', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFilesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFilesLg>', $name, $tech)
 !endprocedure

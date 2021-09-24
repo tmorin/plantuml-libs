@@ -13,9 +13,9 @@ sprite $ServiceCostAlertsLg [20x20/16z] bOY50S102CGEP_-5wzJjyq88_Y8N27P1uGjAPLQD
 !endprocedure
 
 !procedure ServiceCostAlertsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCostAlertsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCostAlertsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCostAlertsGroup($id, $name='Service Cost Alerts', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAlertsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCostAlertsLg>', $name, $tech)
 !endprocedure

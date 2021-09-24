@@ -19,9 +19,9 @@ NG1KNS5QxhsxP_6ASfTomXDknoVrhYVzHBoJH-6JnOdc2W
 !endprocedure
 
 !procedure ServiceBizTalkCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBizTalkMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBizTalkLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBizTalkGroup($id, $name='Service Biz Talk', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBizTalkMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBizTalkLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceVirtualMachinesClassicLg [20x20/16z] TSZL0K0X34DHg9VzztsAo_rAJjY4
 !endprocedure
 
 !procedure ServiceVirtualMachinesClassicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualMachinesClassicMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualMachinesClassicLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceVirtualMachinesClassicGroup($id, $name='Service Virtual Machines Classic', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualMachinesClassicMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualMachinesClassicLg>', $name, $tech)
 !endprocedure

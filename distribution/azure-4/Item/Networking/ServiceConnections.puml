@@ -19,9 +19,9 @@ Y_IHBqFJZBMLZbOMSrf84vKet9d48z14OgOywl04
 !endprocedure
 
 !procedure ServiceConnectionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceConnectionsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceConnectionsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceConnectionsGroup($id, $name='Service Connections', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceConnectionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceConnectionsLg>', $name, $tech)
 !endprocedure

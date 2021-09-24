@@ -16,9 +16,9 @@ BQIKSP8rMP1kR3M9K_EY4G
 !endprocedure
 
 !procedure ServiceManagementGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceManagementGroupsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceManagementGroupsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceManagementGroupsGroup($id, $name='Service Management Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementGroupsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceManagementGroupsLg>', $name, $tech)
 !endprocedure

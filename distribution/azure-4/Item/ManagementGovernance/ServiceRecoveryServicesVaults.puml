@@ -16,9 +16,9 @@ tW
 !endprocedure
 
 !procedure ServiceRecoveryServicesVaultsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceRecoveryServicesVaultsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceRecoveryServicesVaultsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceRecoveryServicesVaultsGroup($id, $name='Service Recovery Services Vaults', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceRecoveryServicesVaultsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceRecoveryServicesVaultsLg>', $name, $tech)
 !endprocedure

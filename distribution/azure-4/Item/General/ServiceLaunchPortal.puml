@@ -13,9 +13,9 @@ sprite $ServiceLaunchPortalLg [20x20/16z] bStL0G0W24NHPxB_n7Qtz_CeW5jAXtfS6OicKu
 !endprocedure
 
 !procedure ServiceLaunchPortalCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceLaunchPortalMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceLaunchPortalLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceLaunchPortalGroup($id, $name='Service Launch Portal', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceLaunchPortalMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceLaunchPortalLg>', $name, $tech)
 !endprocedure

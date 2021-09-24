@@ -13,9 +13,9 @@ sprite $ServiceImageLg [20x20/16z] fSo53S0W54NHnxUM_GV6dJYtnGu9UCbT0NebnTZHQPoVs
 !endprocedure
 
 !procedure ServiceImageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceImageMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceImageGroup($id, $name='Service Image', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageLg>', $name, $tech)
 !endprocedure

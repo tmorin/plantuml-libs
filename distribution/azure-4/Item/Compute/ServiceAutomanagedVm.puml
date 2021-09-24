@@ -16,9 +16,9 @@ Ifn5BXmxEs3q
 !endprocedure
 
 !procedure ServiceAutomanagedVmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAutomanagedVmMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAutomanagedVmLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAutomanagedVmGroup($id, $name='Service Automanaged Vm', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAutomanagedVmMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAutomanagedVmLg>', $name, $tech)
 !endprocedure

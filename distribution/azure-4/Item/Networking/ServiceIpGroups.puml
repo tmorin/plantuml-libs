@@ -13,9 +13,9 @@ sprite $ServiceIpGroupsLg [20x20/16z] fSxL0G8n303GayRQ_VUb6i7XNlxYsnM5feAMWydbG2
 !endprocedure
 
 !procedure ServiceIpGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceIpGroupsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceIpGroupsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceIpGroupsGroup($id, $name='Service Ip Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceIpGroupsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceIpGroupsLg>', $name, $tech)
 !endprocedure

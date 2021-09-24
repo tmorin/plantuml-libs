@@ -16,9 +16,9 @@ gf9tvCNPZG
 !endprocedure
 
 !procedure ServiceImportExportJobsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceImportExportJobsMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceImportExportJobsLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceImportExportJobsGroup($id, $name='Service Import Export Jobs', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceImportExportJobsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImportExportJobsLg>', $name, $tech)
 !endprocedure

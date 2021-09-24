@@ -16,9 +16,9 @@ VT3L0KCX44JHMPj7_nLdSOYTpuk3hun9K3aJ4XcdsMpnrR1eRnxPHAlQ0fK4O57LXjNKggijgt6lDUxc
 !endprocedure
 
 !procedure ServiceTemplateSpecsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTemplateSpecsMd>', 'Other', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTemplateSpecsLg>', 'Other', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTemplateSpecsGroup($id, $name='Service Template Specs', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTemplateSpecsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTemplateSpecsLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ mOvskgxicc1MMlNP7G
 !endprocedure
 
 !procedure ServiceResourceGroupsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceResourceGroupsMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceResourceGroupsLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceResourceGroupsGroup($id, $name='Service Resource Groups', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceGroupsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceResourceGroupsLg>', $name, $tech)
 !endprocedure

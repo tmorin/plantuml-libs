@@ -16,9 +16,9 @@ F04
 !endprocedure
 
 !procedure ServiceComplianceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceComplianceMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceComplianceLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceComplianceGroup($id, $name='Service Compliance', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceComplianceMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceComplianceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ MsiR1ClH4OonjAW52MD_s0u
 !endprocedure
 
 !procedure ServiceAzureArcCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureArcMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureArcLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureArcGroup($id, $name='Service Azure Arc', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureArcMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureArcLg>', $name, $tech)
 !endprocedure

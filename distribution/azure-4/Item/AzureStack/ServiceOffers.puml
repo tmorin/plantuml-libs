@@ -16,9 +16,9 @@ o1AanQ0rBZbITC42qGLphAwjTCtjQ0O
 !endprocedure
 
 !procedure ServiceOffersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceOffersMd>', 'AzureStack', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceOffersLg>', 'AzureStack', $funcName, $content)
 !endprocedure
 
 !procedure ServiceOffersGroup($id, $name='Service Offers', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceOffersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceOffersLg>', $name, $tech)
 !endprocedure

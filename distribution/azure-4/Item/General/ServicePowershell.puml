@@ -13,9 +13,9 @@ sprite $ServicePowershellLg [20x20/16z] Ow04S6403eh4M3402munPaOCCOGWGWmiY2d6WYd6
 !endprocedure
 
 !procedure ServicePowershellCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePowershellMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePowershellLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServicePowershellGroup($id, $name='Service Powershell', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePowershellMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowershellLg>', $name, $tech)
 !endprocedure

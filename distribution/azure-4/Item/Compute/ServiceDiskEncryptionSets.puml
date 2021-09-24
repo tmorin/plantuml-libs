@@ -19,9 +19,9 @@ gloatiP6m7aZueWDQbdbJNgCKklGVSTuD8NgORlxnc83CBKlRguGUAEfA_6FH5utqonppUy2
 !endprocedure
 
 !procedure ServiceDiskEncryptionSetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDiskEncryptionSetsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDiskEncryptionSetsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDiskEncryptionSetsGroup($id, $name='Service Disk Encryption Sets', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiskEncryptionSetsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDiskEncryptionSetsLg>', $name, $tech)
 !endprocedure

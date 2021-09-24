@@ -19,9 +19,9 @@ txuB4q0Ua0sO3Tlvd2MCjYm0KhUExxu3ZnpVGnh9KZ5BJQoIZ3ndmR8qOFKB
 !endprocedure
 
 !procedure ServiceSchedulerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSchedulerMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSchedulerLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSchedulerGroup($id, $name='Service Scheduler', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSchedulerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSchedulerLg>', $name, $tech)
 !endprocedure

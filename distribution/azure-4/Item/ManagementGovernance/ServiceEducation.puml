@@ -13,9 +13,9 @@ sprite $ServiceEducationLg [20x20/16z] fSf50eH044FHDEN5_SyBj8txlELFyB-YxivNoOTo-
 !endprocedure
 
 !procedure ServiceEducationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEducationMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceEducationLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceEducationGroup($id, $name='Service Education', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEducationMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEducationLg>', $name, $tech)
 !endprocedure

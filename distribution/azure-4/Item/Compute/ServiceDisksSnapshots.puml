@@ -19,9 +19,9 @@ VP05WeH030J78_V__rwCRLOBwnJZRHdjmR1gzFtakbMdNmB0zT4lrzmDAauwWsvKj-Nvp_6GRlETT5DX
 !endprocedure
 
 !procedure ServiceDisksSnapshotsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDisksSnapshotsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDisksSnapshotsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDisksSnapshotsGroup($id, $name='Service Disks Snapshots', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksSnapshotsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDisksSnapshotsLg>', $name, $tech)
 !endprocedure

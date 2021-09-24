@@ -16,9 +16,9 @@ TRhPSMD_p5Mqxcy
 !endprocedure
 
 !procedure ServicePrivateLinkCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePrivateLinkMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePrivateLinkLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServicePrivateLinkGroup($id, $name='Service Private Link', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePrivateLinkMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePrivateLinkLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceStorageAzureFilesLg [20x20/16z] fSZ50G0X4CNG3uptt--wk-IMXp_5Bdril
 !endprocedure
 
 !procedure ServiceStorageAzureFilesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAzureFilesMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceStorageAzureFilesLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceStorageAzureFilesGroup($id, $name='Service Storage Azure Files', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAzureFilesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceStorageAzureFilesLg>', $name, $tech)
 !endprocedure

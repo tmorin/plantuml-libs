@@ -13,9 +13,9 @@ sprite $ServiceTagLg [20x20/16z] VSg34G0m0CNGNsl_UMlhdNF1dyZuaQnpOajIWuqe2mtgv9g
 !endprocedure
 
 !procedure ServiceTagCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTagMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTagLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTagGroup($id, $name='Service Tag', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTagLg>', $name, $tech)
 !endprocedure

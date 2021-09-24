@@ -16,9 +16,9 @@ fmy
 !endprocedure
 
 !procedure ServiceAzureAdIdentityProtectionCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdIdentityProtectionMd>', 'Identity', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureAdIdentityProtectionLg>', 'Identity', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureAdIdentityProtectionGroup($id, $name='Service Azure Ad Identity Protection', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdIdentityProtectionMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureAdIdentityProtectionLg>', $name, $tech)
 !endprocedure

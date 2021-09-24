@@ -13,9 +13,9 @@ sprite $ServiceProcessExplorerLg [20x20/16z] XSxL0S0m20JGmowqsN_Ukklxmu7SPU5Lfk7
 !endprocedure
 
 !procedure ServiceProcessExplorerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceProcessExplorerMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceProcessExplorerLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceProcessExplorerGroup($id, $name='Service Process Explorer', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceProcessExplorerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceProcessExplorerLg>', $name, $tech)
 !endprocedure

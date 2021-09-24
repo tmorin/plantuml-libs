@@ -13,9 +13,9 @@ sprite $ServiceDevConsoleLg [20x20/16z] Ow04S6403eh4M3402munPaOCCOGWGWmiY2d6WYd6
 !endprocedure
 
 !procedure ServiceDevConsoleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDevConsoleMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDevConsoleLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDevConsoleGroup($id, $name='Service Dev Console', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDevConsoleMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDevConsoleLg>', $name, $tech)
 !endprocedure

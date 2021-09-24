@@ -13,9 +13,9 @@ sprite $ServiceCommitLg [20x20/16z] ZOz50aGX34FHDDp_mZFvR71uQBrr9oByg4e05Yhqdiag
 !endprocedure
 
 !procedure ServiceCommitCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceCommitMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceCommitLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceCommitGroup($id, $name='Service Commit', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceCommitMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceCommitLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceAzureDevOpsLg [20x20/16z] ZSg55S0W303H0wBxBrntlHRxBxnLRypipgmTHNr
 !endprocedure
 
 !procedure ServiceAzureDevOpsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDevOpsMd>', 'DevOps', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureDevOpsLg>', 'DevOps', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureDevOpsGroup($id, $name='Service Azure Dev Ops', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDevOpsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureDevOpsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceAzureSqlServerStretchDatabasesLg [20x20/16z] hSYr0O1G30N0v0cw_xou
 !endprocedure
 
 !procedure ServiceAzureSqlServerStretchDatabasesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlServerStretchDatabasesMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureSqlServerStretchDatabasesLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureSqlServerStretchDatabasesGroup($id, $name='Service Azure Sql Server Stretch Databases', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlServerStretchDatabasesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureSqlServerStretchDatabasesLg>', $name, $tech)
 !endprocedure

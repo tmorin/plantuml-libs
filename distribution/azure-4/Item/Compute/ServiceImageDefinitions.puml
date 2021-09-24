@@ -16,9 +16,9 @@ NKmxvcFiEdarVdy
 !endprocedure
 
 !procedure ServiceImageDefinitionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceImageDefinitionsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceImageDefinitionsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceImageDefinitionsGroup($id, $name='Service Image Definitions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageDefinitionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceImageDefinitionsLg>', $name, $tech)
 !endprocedure

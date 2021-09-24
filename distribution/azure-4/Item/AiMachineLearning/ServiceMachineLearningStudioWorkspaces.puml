@@ -13,9 +13,9 @@ sprite $ServiceMachineLearningStudioWorkspacesLg [20x20/16z] fT350SGW54LH-3xqN_2
 !endprocedure
 
 !procedure ServiceMachineLearningStudioWorkspacesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioWorkspacesMd>', 'AiMachineLearning', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMachineLearningStudioWorkspacesLg>', 'AiMachineLearning', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMachineLearningStudioWorkspacesGroup($id, $name='Service Machine Learning Studio Workspaces', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioWorkspacesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMachineLearningStudioWorkspacesLg>', $name, $tech)
 !endprocedure

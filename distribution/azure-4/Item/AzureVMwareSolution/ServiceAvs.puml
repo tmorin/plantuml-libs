@@ -16,9 +16,9 @@ VbS
 !endprocedure
 
 !procedure ServiceAvsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAvsMd>', 'AzureVMwareSolution', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAvsLg>', 'AzureVMwareSolution', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAvsGroup($id, $name='Service Avs', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAvsLg>', $name, $tech)
 !endprocedure

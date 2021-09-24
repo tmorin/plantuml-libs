@@ -13,9 +13,9 @@ sprite $ServiceDashboardLg [20x20/16z] fSY50O0m44FHd2JiFp7k3ltLUoWeyXZlIZW9R14ns
 !endprocedure
 
 !procedure ServiceDashboardCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceDashboardMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceDashboardLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceDashboardGroup($id, $name='Service Dashboard', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceDashboardMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceDashboardLg>', $name, $tech)
 !endprocedure

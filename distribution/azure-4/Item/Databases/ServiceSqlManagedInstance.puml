@@ -19,9 +19,9 @@ RSi55eGm34NHU7v6zhzSe3hwe7PFI_-odVuns-OPZsVBtyr-RVTkuzhztShgz-sZXxZQrekHl5dah5kq
 !endprocedure
 
 !procedure ServiceSqlManagedInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSqlManagedInstanceMd>', 'Databases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSqlManagedInstanceLg>', 'Databases', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSqlManagedInstanceGroup($id, $name='Service Sql Managed Instance', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlManagedInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSqlManagedInstanceLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceBlueprintsLg [20x20/16z] RT250S0W30J0kEm_SBrelihXG1N9mDNoIcKwPJ0W
 !endprocedure
 
 !procedure ServiceBlueprintsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceBlueprintsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceBlueprintsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceBlueprintsGroup($id, $name='Service Blueprints', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlueprintsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceBlueprintsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceVirtualMachineLg [20x20/16z] bSlL0S1030BGWulkFt3TlUyl0S0p-ql5PZuX
 !endprocedure
 
 !procedure ServiceVirtualMachineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualMachineMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceVirtualMachineLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceVirtualMachineGroup($id, $name='Service Virtual Machine', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualMachineMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVirtualMachineLg>', $name, $tech)
 !endprocedure

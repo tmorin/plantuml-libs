@@ -13,9 +13,9 @@ sprite $ServiceMobileLg [20x20/16z] jSYr0SD0402mFwRzvqtC39LLgdLOLssYFH7P7S7iqqDH
 !endprocedure
 
 !procedure ServiceMobileCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMobileMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMobileLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMobileGroup($id, $name='Service Mobile', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMobileMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMobileLg>', $name, $tech)
 !endprocedure

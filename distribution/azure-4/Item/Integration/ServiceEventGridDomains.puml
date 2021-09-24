@@ -13,9 +13,9 @@ sprite $ServiceEventGridDomainsLg [20x20/16z] ZSy54iDG24NHYxpVwVuNN6y2yJEEmrLZRI
 !endprocedure
 
 !procedure ServiceEventGridDomainsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridDomainsMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridDomainsLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceEventGridDomainsGroup($id, $name='Service Event Grid Domains', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridDomainsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridDomainsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceAzureStackEdgeLg [20x20/16z] hSx50SD034HHmT-rqt_1eP4Cf-0x2iV-00RZ
 !endprocedure
 
 !procedure ServiceAzureStackEdgeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceAzureStackEdgeLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure ServiceAzureStackEdgeGroup($id, $name='Service Azure Stack Edge', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceAzureStackEdgeLg>', $name, $tech)
 !endprocedure

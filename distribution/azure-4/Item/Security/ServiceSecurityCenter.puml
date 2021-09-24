@@ -16,9 +16,9 @@ y4WA7XIRkWC
 !endprocedure
 
 !procedure ServiceSecurityCenterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSecurityCenterMd>', 'Security', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSecurityCenterLg>', 'Security', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSecurityCenterGroup($id, $name='Service Security Center', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSecurityCenterMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSecurityCenterLg>', $name, $tech)
 !endprocedure

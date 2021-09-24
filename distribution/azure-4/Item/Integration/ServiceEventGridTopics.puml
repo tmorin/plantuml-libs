@@ -13,9 +13,9 @@ sprite $ServiceEventGridTopicsLg [20x20/16z] ZT230G0n30NGw2VxJtn6tRxQe5LUQ_O1b57
 !endprocedure
 
 !procedure ServiceEventGridTopicsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridTopicsMd>', 'Integration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventGridTopicsLg>', 'Integration', $funcName, $content)
 !endprocedure
 
 !procedure ServiceEventGridTopicsGroup($id, $name='Service Event Grid Topics', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridTopicsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventGridTopicsLg>', $name, $tech)
 !endprocedure

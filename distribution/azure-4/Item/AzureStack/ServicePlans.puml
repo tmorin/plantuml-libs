@@ -13,9 +13,9 @@ sprite $ServicePlansLg [20x20/16z] VSr15iGG403H0k3-zvr90W3rh3wwsMTpJZJJf5mK6slOM
 !endprocedure
 
 !procedure ServicePlansCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePlansMd>', 'AzureStack', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePlansLg>', 'AzureStack', $funcName, $content)
 !endprocedure
 
 !procedure ServicePlansGroup($id, $name='Service Plans', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePlansMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePlansLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceTableLg [20x20/16z] fSg55GCn30HHcKJz5vnLZfc-UPxf2z_GJuqt6Xe1fzWQj
 !endprocedure
 
 !procedure ServiceTableCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceTableMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceTableLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceTableGroup($id, $name='Service Table', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceTableMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceTableLg>', $name, $tech)
 !endprocedure

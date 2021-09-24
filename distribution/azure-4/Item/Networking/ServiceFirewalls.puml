@@ -16,9 +16,9 @@ TQSV
 !endprocedure
 
 !procedure ServiceFirewallsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFirewallsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFirewallsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFirewallsGroup($id, $name='Service Firewalls', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFirewallsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFirewallsLg>', $name, $tech)
 !endprocedure

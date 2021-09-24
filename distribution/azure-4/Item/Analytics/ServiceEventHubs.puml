@@ -13,9 +13,9 @@ sprite $ServiceEventHubsLg [20x20/16z] ZP250S0m20I1b_qthhlcsXWEqOhllCZY1An7sGYbe
 !endprocedure
 
 !procedure ServiceEventHubsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceEventHubsMd>', 'Analytics', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceEventHubsLg>', 'Analytics', $funcName, $content)
 !endprocedure
 
 !procedure ServiceEventHubsGroup($id, $name='Service Event Hubs', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventHubsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceEventHubsLg>', $name, $tech)
 !endprocedure

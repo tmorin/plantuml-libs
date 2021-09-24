@@ -16,9 +16,9 @@ iqkH5t4BrbHDpmkQqNOFXEoUV7G
 !endprocedure
 
 !procedure ServiceMyCustomersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceMyCustomersMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceMyCustomersLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure ServiceMyCustomersGroup($id, $name='Service My Customers', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceMyCustomersMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceMyCustomersLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceWorkbooksLg [20x20/16z] TSs53S0m44DHbmxtdxSCIPn-yPCiuoUNfIWFqcKem
 !endprocedure
 
 !procedure ServiceWorkbooksCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceWorkbooksMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceWorkbooksLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceWorkbooksGroup($id, $name='Service Workbooks', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkbooksMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceWorkbooksLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceFileLg [20x20/16z] VSm54i0W30NHZylzxrllakgECOyaKifdekpTNcx3U7JG66
 !endprocedure
 
 !procedure ServiceFileCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceFileMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceFileLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServiceFileGroup($id, $name='Service File', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceFileMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceFileLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ServiceSharedImageGalleriesLg [20x20/16z] XSYr0GGn40ImXJ7tN-_3WHaKYfQGCl
 !endprocedure
 
 !procedure ServiceSharedImageGalleriesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceSharedImageGalleriesMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceSharedImageGalleriesLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceSharedImageGalleriesGroup($id, $name='Service Shared Image Galleries', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceSharedImageGalleriesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceSharedImageGalleriesLg>', $name, $tech)
 !endprocedure

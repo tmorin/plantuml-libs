@@ -16,9 +16,9 @@ SAEG1GNh0NjC5vm7c6m1fy0-MM3E5jioEKomUH9Wzcxv3
 !endprocedure
 
 !procedure ServicePowerUpCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServicePowerUpMd>', 'General', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServicePowerUpLg>', 'General', $funcName, $content)
 !endprocedure
 
 !procedure ServicePowerUpGroup($id, $name='Service Power Up', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerUpMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServicePowerUpLg>', $name, $tech)
 !endprocedure

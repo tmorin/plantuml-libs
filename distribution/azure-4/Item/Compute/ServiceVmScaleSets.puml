@@ -16,9 +16,9 @@ ZESiR1dTKrTw1H71_0a
 !endprocedure
 
 !procedure ServiceVmScaleSetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServiceVmScaleSetsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServiceVmScaleSetsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure ServiceVmScaleSetsGroup($id, $name='Service Vm Scale Sets', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ServiceVmScaleSetsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ServiceVmScaleSetsLg>', $name, $tech)
 !endprocedure
