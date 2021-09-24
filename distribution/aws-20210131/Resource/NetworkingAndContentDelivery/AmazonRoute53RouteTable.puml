@@ -16,9 +16,9 @@ KOlDJMZqzSuWpGL7NTK_lSa74m
 !endprocedure
 
 !procedure AmazonRoute53RouteTableCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53RouteTableMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53RouteTableLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AmazonRoute53RouteTableGroup($id, $name='Amazon Route53 Route Table', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53RouteTableMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53RouteTableLg>', $name, $tech)
 !endprocedure

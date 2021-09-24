@@ -13,9 +13,9 @@ sprite $ServerContentsLg [20x20/16z] uwGOC39103EI61E2HeYnWfK1nGYeus070Mpg28knC80
 !endprocedure
 
 !procedure ServerContentsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ServerContentsMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ServerContentsLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure ServerContentsGroup($id, $name='Server Contents', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$ServerContentsMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$ServerContentsLg>', $name, $tech)
 !endprocedure

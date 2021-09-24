@@ -16,9 +16,9 @@ ed3WjfDElRfY0za1
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistSecurityCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistSecurityMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistSecurityLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistSecurityGroup($id, $name='Aws Trusted Advisor Checklist Security', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistSecurityMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistSecurityLg>', $name, $tech)
 !endprocedure

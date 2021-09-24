@@ -19,9 +19,9 @@ Ykf8VQ5x6aLtnQnZZITV11eRhEIaiHUn9CSk9iOkrjWV_08
 !endprocedure
 
 !procedure AwsCloudHsmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudHsmMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudHsmLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudHsmGroup($id, $name='Aws Cloud Hsm', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCloudHsmMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsCloudHsmLg>', $name, $tech)
 !endprocedure

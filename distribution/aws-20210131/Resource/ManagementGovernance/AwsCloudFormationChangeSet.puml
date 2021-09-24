@@ -16,9 +16,9 @@ tUSTftrEaXSB2xjtiXXFTTW3
 !endprocedure
 
 !procedure AwsCloudFormationChangeSetCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationChangeSetMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationChangeSetLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudFormationChangeSetGroup($id, $name='Aws Cloud Formation Change Set', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationChangeSetMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationChangeSetLg>', $name, $tech)
 !endprocedure

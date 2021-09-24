@@ -19,9 +19,9 @@ Q8G4zt1OqI6pNHRNgxzzFJg3vHlo0OUOgkrb4q8fFiptuXeB
 !endprocedure
 
 !procedure IoTDesiredStateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTDesiredStateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTDesiredStateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTDesiredStateGroup($id, $name='Io T Desired State', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTDesiredStateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTDesiredStateLg>', $name, $tech)
 !endprocedure

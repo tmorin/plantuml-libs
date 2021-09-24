@@ -19,9 +19,9 @@ oZfov3NtRMj3XpH_6WVeRKlzxBQ7bhNUk0C
 !endprocedure
 
 !procedure AwsServerMigrationServiceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsServerMigrationServiceMd>', 'MigrationTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsServerMigrationServiceLg>', 'MigrationTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsServerMigrationServiceGroup($id, $name='Aws Server Migration Service', $tech='')
-  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsServerMigrationServiceMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsServerMigrationServiceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ Oj-yOQ-gkdqqlkel
 !endprocedure
 
 !procedure SpotFleetCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SpotFleetMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$SpotFleetLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure SpotFleetGroup($id, $name='Spot Fleet', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$SpotFleetMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$SpotFleetLg>', $name, $tech)
 !endprocedure

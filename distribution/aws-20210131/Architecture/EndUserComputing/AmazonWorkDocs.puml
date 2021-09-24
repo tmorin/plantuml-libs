@@ -16,9 +16,9 @@ F6ohfOQ5NISpXUnwHIOhVU8_
 !endprocedure
 
 !procedure AmazonWorkDocsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonWorkDocsMd>', 'EndUserComputing', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkDocsLg>', 'EndUserComputing', $funcName, $content)
 !endprocedure
 
 !procedure AmazonWorkDocsGroup($id, $name='Amazon Work Docs', $tech='')
-  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkDocsMd>', $name, $tech)
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkDocsLg>', $name, $tech)
 !endprocedure

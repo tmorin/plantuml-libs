@@ -19,9 +19,9 @@ PAFZGMcPOWnxxPdkRA2r2p5CVDPk9Cf1QpU-tVQ3nm-U
 !endprocedure
 
 !procedure AlexaForBusinessCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AlexaForBusinessMd>', 'BusinessApplication', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AlexaForBusinessLg>', 'BusinessApplication', $funcName, $content)
 !endprocedure
 
 !procedure AlexaForBusinessGroup($id, $name='Alexa For Business', $tech='')
-  IconGroupElement($id, 'BusinessApplicationFamily', '<$AlexaForBusinessMd>', $name, $tech)
+  IconGroupElement($id, 'BusinessApplicationFamily', '<$AlexaForBusinessLg>', $name, $tech)
 !endprocedure

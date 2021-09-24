@@ -13,9 +13,9 @@ sprite $AmazonIoTLoRaWanProtocolLg [20x20/16z] rSp70SKW30DG2Mm9zX_uboGNsW1v5tTZ9
 !endprocedure
 
 !procedure AmazonIoTLoRaWanProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonIoTLoRaWanProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonIoTLoRaWanProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AmazonIoTLoRaWanProtocolGroup($id, $name='Amazon Io T Lo Ra Wan Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AmazonIoTLoRaWanProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AmazonIoTLoRaWanProtocolLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ Lcl1y9FwaMPa9zb0h9csZeQwX1c9Z3mi_2ZiYni
 !endprocedure
 
 !procedure AwsAuditManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAuditManagerMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAuditManagerLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsAuditManagerGroup($id, $name='Aws Audit Manager', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsAuditManagerMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsAuditManagerLg>', $name, $tech)
 !endprocedure

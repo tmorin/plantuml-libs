@@ -19,9 +19,9 @@ TP054e002C3e-F-71UoQlHiM_2700ZdBWGBhtOLV21ddSCLwJbVdoUkKqjwL2TaxvdP1VMbTC8BKBERs
 !endprocedure
 
 !procedure IoTThingHouseCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingHouseMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingHouseLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingHouseGroup($id, $name='Io T Thing House', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingHouseMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingHouseLg>', $name, $tech)
 !endprocedure

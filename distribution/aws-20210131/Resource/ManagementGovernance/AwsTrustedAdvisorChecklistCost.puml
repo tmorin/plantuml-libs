@@ -16,9 +16,9 @@ M9fGnkYAHIzpnggLEU7Wdd7fltu
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistCostCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistCostMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistCostLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistCostGroup($id, $name='Aws Trusted Advisor Checklist Cost', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistCostMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistCostLg>', $name, $tech)
 !endprocedure

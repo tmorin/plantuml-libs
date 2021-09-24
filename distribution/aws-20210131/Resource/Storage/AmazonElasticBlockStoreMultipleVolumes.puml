@@ -13,9 +13,9 @@ sprite $AmazonElasticBlockStoreMultipleVolumesLg [20x20/16z] jSYr0GD040F1FNxrNx2
 !endprocedure
 
 !procedure AmazonElasticBlockStoreMultipleVolumesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreMultipleVolumesMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreMultipleVolumesLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreMultipleVolumesGroup($id, $name='Amazon Elastic Block Store Multiple Volumes', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreMultipleVolumesMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreMultipleVolumesLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AwsStorageGatewayNonCachedVolumeLg [20x20/16z] xSX70O0030F0fBl-1RCtIE2UX
 !endprocedure
 
 !procedure AwsStorageGatewayNonCachedVolumeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayNonCachedVolumeMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayNonCachedVolumeLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsStorageGatewayNonCachedVolumeGroup($id, $name='Aws Storage Gateway Non Cached Volume', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayNonCachedVolumeMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayNonCachedVolumeLg>', $name, $tech)
 !endprocedure

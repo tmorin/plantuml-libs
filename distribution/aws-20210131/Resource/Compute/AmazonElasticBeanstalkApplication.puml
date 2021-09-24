@@ -13,9 +13,9 @@ sprite $AmazonElasticBeanstalkApplicationLg [20x20/16z] lG-35G1HADV-2v-_yNpPW2s8
 !endprocedure
 
 !procedure AmazonElasticBeanstalkApplicationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBeanstalkApplicationMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBeanstalkApplicationLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonElasticBeanstalkApplicationGroup($id, $name='Amazon Elastic Beanstalk Application', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonElasticBeanstalkApplicationMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonElasticBeanstalkApplicationLg>', $name, $tech)
 !endprocedure

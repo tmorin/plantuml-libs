@@ -16,9 +16,9 @@ bL250S0m24lm_n-Ukw_57N3t0WuKWeW7csTrVoOws1ARfzRdHUri6NOPvxwF2zSfhgewdEBct5vtJhOk
 !endprocedure
 
 !procedure AmazonEc2T2InstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2T2InstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2T2InstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2T2InstanceGroup($id, $name='Amazon Ec2 T2 Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2T2InstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2T2InstanceLg>', $name, $tech)
 !endprocedure

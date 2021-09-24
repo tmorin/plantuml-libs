@@ -16,9 +16,9 @@ rc8Osok0-I3eTWC
 !endprocedure
 
 !procedure AwsDirectConnectGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectGatewayLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsDirectConnectGatewayGroup($id, $name='Aws Direct Connect Gateway', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsDirectConnectGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsDirectConnectGatewayLg>', $name, $tech)
 !endprocedure

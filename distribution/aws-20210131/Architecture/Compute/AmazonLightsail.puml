@@ -16,9 +16,9 @@ iIayWVqwF3DCZDvnwe_iZ_nzv1y
 !endprocedure
 
 !procedure AmazonLightsailCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonLightsailMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonLightsailLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonLightsailGroup($id, $name='Amazon Lightsail', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonLightsailMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonLightsailLg>', $name, $tech)
 !endprocedure

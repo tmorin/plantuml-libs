@@ -13,9 +13,9 @@ sprite $AmazonEc2InstanceLg [20x20/16z] bL250S0m20kU_n-Ukw_57N3t4W4GASW7MnIxFnCR
 !endprocedure
 
 !procedure AmazonEc2InstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2InstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2InstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2InstanceGroup($id, $name='Amazon Ec2 Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2InstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2InstanceLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ Izm-z0hQ9Suf8upc4iVChWwNJSk5YosoCYlxHpdVtezbBET7y0a
 !endprocedure
 
 !procedure IoTThingThermostatCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingThermostatMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingThermostatLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingThermostatGroup($id, $name='Io T Thing Thermostat', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingThermostatMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingThermostatLg>', $name, $tech)
 !endprocedure

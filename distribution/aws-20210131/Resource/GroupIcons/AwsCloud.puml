@@ -13,9 +13,9 @@ sprite $AwsCloudLg [20x20/16z] nSor0GHH24NHEynNuFLVxhfBjd8I7FrF1Iyf97EOfsuoQvGvE
 !endprocedure
 
 !procedure AwsCloudCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudGroup($id, $name='Aws Cloud', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$AwsCloudMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$AwsCloudLg>', $name, $tech)
 !endprocedure

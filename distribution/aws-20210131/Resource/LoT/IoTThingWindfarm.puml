@@ -16,9 +16,9 @@ gwkxE5d9OAS6CUHaVtq1
 !endprocedure
 
 !procedure IoTThingWindfarmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingWindfarmMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingWindfarmLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingWindfarmGroup($id, $name='Io T Thing Windfarm', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingWindfarmMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingWindfarmLg>', $name, $tech)
 !endprocedure

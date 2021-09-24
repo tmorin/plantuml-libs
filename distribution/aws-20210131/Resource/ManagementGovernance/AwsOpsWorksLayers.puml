@@ -13,9 +13,9 @@ sprite $AwsOpsWorksLayersLg [20x20/16z] Oy06kBZH0Gi3DxeYPbRgYp6Z0LPM1XOsTC38G0dW
 !endprocedure
 
 !procedure AwsOpsWorksLayersCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksLayersMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOpsWorksLayersLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOpsWorksLayersGroup($id, $name='Aws Ops Works Layers', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksLayersMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOpsWorksLayersLg>', $name, $tech)
 !endprocedure

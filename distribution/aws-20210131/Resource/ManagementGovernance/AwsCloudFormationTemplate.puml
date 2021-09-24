@@ -13,9 +13,9 @@ sprite $AwsCloudFormationTemplateLg [20x20/16z] ZOs50SCm3C0SC_n_xrPcKXio2QwfFKFC
 !endprocedure
 
 !procedure AwsCloudFormationTemplateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationTemplateMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationTemplateLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudFormationTemplateGroup($id, $name='Aws Cloud Formation Template', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationTemplateMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationTemplateLg>', $name, $tech)
 !endprocedure

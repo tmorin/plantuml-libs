@@ -19,9 +19,9 @@ wwfNVM6ZgOPxUWnqf2F_ZLuV-mV12lfl07m3
 !endprocedure
 
 !procedure IoTThingBankCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingBankMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingBankLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingBankGroup($id, $name='Io T Thing Bank', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingBankMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingBankLg>', $name, $tech)
 !endprocedure

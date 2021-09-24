@@ -19,9 +19,9 @@ CPlvLKZOyyG_y-R3H38iwKn4sZ2FEtZBR1S-RUd53m
 !endprocedure
 
 !procedure AwsBudgetsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsBudgetsMd>', 'AwsCostManagement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsBudgetsLg>', 'AwsCostManagement', $funcName, $content)
 !endprocedure
 
 !procedure AwsBudgetsGroup($id, $name='Aws Budgets', $tech='')
-  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsBudgetsMd>', $name, $tech)
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsBudgetsLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonElasticContainerServiceTaskLg [20x20/16z] dOt50GC1409XlV-6atFtUQ8u
 !endprocedure
 
 !procedure AmazonElasticContainerServiceTaskCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceTaskMd>', 'Containers', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticContainerServiceTaskLg>', 'Containers', $funcName, $content)
 !endprocedure
 
 !procedure AmazonElasticContainerServiceTaskGroup($id, $name='Amazon Elastic Container Service Task', $tech='')
-  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceTaskMd>', $name, $tech)
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonElasticContainerServiceTaskLg>', $name, $tech)
 !endprocedure

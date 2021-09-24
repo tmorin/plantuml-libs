@@ -13,9 +13,9 @@ sprite $IoTRuleLg [20x20/16z] lSh50KCn30DGcQtz5-vdphKlOCH8avXLAtQ5m8G2ddkMhrv4Jh
 !endprocedure
 
 !procedure IoTRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTRuleMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTRuleLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTRuleGroup($id, $name='Io T Rule', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTRuleMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTRuleLg>', $name, $tech)
 !endprocedure

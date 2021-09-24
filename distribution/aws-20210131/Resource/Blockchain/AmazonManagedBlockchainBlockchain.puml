@@ -13,9 +13,9 @@ sprite $AmazonManagedBlockchainBlockchainLg [20x20/16z] pOk10G1H14A3rFuJtp75Vm24
 !endprocedure
 
 !procedure AmazonManagedBlockchainBlockchainCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonManagedBlockchainBlockchainMd>', 'Blockchain', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedBlockchainBlockchainLg>', 'Blockchain', $funcName, $content)
 !endprocedure
 
 !procedure AmazonManagedBlockchainBlockchainGroup($id, $name='Amazon Managed Blockchain Blockchain', $tech='')
-  IconGroupElement($id, 'BlockchainFamily', '<$AmazonManagedBlockchainBlockchainMd>', $name, $tech)
+  IconGroupElement($id, 'BlockchainFamily', '<$AmazonManagedBlockchainBlockchainLg>', $name, $tech)
 !endprocedure

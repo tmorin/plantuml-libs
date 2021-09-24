@@ -16,9 +16,9 @@ m62rYGEsNSXMDQoSjRbdetZQXCC-yEy3_m4
 !endprocedure
 
 !procedure AwsElementalMediaLiveCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaLiveMd>', 'MediaServices', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsElementalMediaLiveLg>', 'MediaServices', $funcName, $content)
 !endprocedure
 
 !procedure AwsElementalMediaLiveGroup($id, $name='Aws Elemental Media Live', $tech='')
-  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaLiveMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServicesFamily', '<$AwsElementalMediaLiveLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ Y1iFOW5kF4xSEmRCnLmdrbu2nk8XAvepcOTXhjJ1LJKFopCssU9LP6bmTGG
 !endprocedure
 
 !procedure ElasticLoadBalancingGatewayLoadBalancerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingGatewayLoadBalancerMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingGatewayLoadBalancerLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure ElasticLoadBalancingGatewayLoadBalancerGroup($id, $name='Elastic Load Balancing Gateway Load Balancer', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$ElasticLoadBalancingGatewayLoadBalancerMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$ElasticLoadBalancingGatewayLoadBalancerLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $IoTHttp2ProtocolLg [20x20/16z] rSl70SKm309Gm4AszX_ub_IsGDwHWaTP9oD-aN1MH
 !endprocedure
 
 !procedure IoTHttp2ProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTHttp2ProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTHttp2ProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTHttp2ProtocolGroup($id, $name='Io T Http2 Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTHttp2ProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTHttp2ProtocolLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ VP050aCn24FJJmAv_uLdXVdswiN1Bn82Z5p8FtygNyPiWIk59u80CWqS0wAIDxsZjF7Maun3s1YHYgqt
 !endprocedure
 
 !procedure AmazonEc2AwsInferentiaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AwsInferentiaMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AwsInferentiaLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2AwsInferentiaGroup($id, $name='Amazon Ec2 Aws Inferentia', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AwsInferentiaMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AwsInferentiaLg>', $name, $tech)
 !endprocedure

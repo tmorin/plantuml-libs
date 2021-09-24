@@ -13,9 +13,9 @@ sprite $IoTMqttProtocolLg [20x20/16z] rO-50G8m30HVA_iFZ3iim5NZ2NuozXih9vNmpYOsFb
 !endprocedure
 
 !procedure IoTMqttProtocolCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTMqttProtocolMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTMqttProtocolLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTMqttProtocolGroup($id, $name='Io T Mqtt Protocol', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTMqttProtocolMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTMqttProtocolLg>', $name, $tech)
 !endprocedure

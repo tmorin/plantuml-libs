@@ -19,9 +19,9 @@ O0nEWVeuwtGQ2ohyRPT5NYmtkOjM3YsFOXHFTdd3aO7Y5ikvrm1c05R-SLkhUC7ggiHJdkGBfH6_ADvv
 !endprocedure
 
 !procedure AwsCloudMapNamespaceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapNamespaceMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapNamespaceLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudMapNamespaceGroup($id, $name='Aws Cloud Map Namespace', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapNamespaceMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapNamespaceLg>', $name, $tech)
 !endprocedure

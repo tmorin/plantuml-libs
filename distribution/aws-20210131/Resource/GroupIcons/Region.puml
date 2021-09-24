@@ -13,9 +13,9 @@ sprite $RegionLg [20x20/16z] uwGKi3DX4MF0ef2H5GOGOZ2zp1mOOcpid1XYp42CePSHIOm11f0
 !endprocedure
 
 !procedure RegionCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$RegionMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$RegionLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure RegionGroup($id, $name='Region', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$RegionMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$RegionLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ tSnWVSGA
 !endprocedure
 
 !procedure AwsGlueDataCatalogCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsGlueDataCatalogMd>', 'Analytics', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsGlueDataCatalogLg>', 'Analytics', $funcName, $content)
 !endprocedure
 
 !procedure AwsGlueDataCatalogGroup($id, $name='Aws Glue Data Catalog', $tech='')
-  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueDataCatalogMd>', $name, $tech)
+  IconGroupElement($id, 'AnalyticsFamily', '<$AwsGlueDataCatalogLg>', $name, $tech)
 !endprocedure

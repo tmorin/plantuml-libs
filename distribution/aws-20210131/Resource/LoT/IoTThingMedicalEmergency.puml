@@ -19,9 +19,9 @@ a_MLDytHqCY8ZEg7o-_-0OGGte_63W
 !endprocedure
 
 !procedure IoTThingMedicalEmergencyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingMedicalEmergencyMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingMedicalEmergencyLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingMedicalEmergencyGroup($id, $name='Io T Thing Medical Emergency', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingMedicalEmergencyMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingMedicalEmergencyLg>', $name, $tech)
 !endprocedure

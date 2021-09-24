@@ -19,9 +19,9 @@ coa__1iN6rLfRHbIObgc-tiBLYOoxWO2zGo0vSoetMyP_sPo04AYirC6brnMOmFm2m
 !endprocedure
 
 !procedure AppMeshVirtualGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AppMeshVirtualGatewayMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AppMeshVirtualGatewayLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AppMeshVirtualGatewayGroup($id, $name='App Mesh Virtual Gateway', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AppMeshVirtualGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AppMeshVirtualGatewayLg>', $name, $tech)
 !endprocedure

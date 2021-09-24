@@ -16,9 +16,9 @@ VSt5WGG130F1Dblv1tomZ5DFWyI1NBNnP0f3pgFgYMLuCc1rltZb2C2J6o-45rwSHSHfLZBM0JagdMQO
 !endprocedure
 
 !procedure IoTHardwareBoardCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTHardwareBoardMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTHardwareBoardLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTHardwareBoardGroup($id, $name='Io T Hardware Board', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTHardwareBoardMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTHardwareBoardLg>', $name, $tech)
 !endprocedure

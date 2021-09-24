@@ -16,9 +16,9 @@ h_UhDVg-x_TX0m
 !endprocedure
 
 !procedure AmazonCloudwatchRuleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchRuleMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchRuleLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudwatchRuleGroup($id, $name='Amazon Cloudwatch Rule', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchRuleMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchRuleLg>', $name, $tech)
 !endprocedure

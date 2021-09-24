@@ -16,9 +16,9 @@ tShcmhGO5f4cFVjd8PCcxW
 !endprocedure
 
 !procedure AwsAutoScalingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAutoScalingMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAutoScalingLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsAutoScalingGroup($id, $name='Aws Auto Scaling', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAutoScalingMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAutoScalingLg>', $name, $tech)
 !endprocedure

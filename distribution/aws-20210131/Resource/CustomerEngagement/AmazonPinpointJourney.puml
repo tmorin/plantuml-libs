@@ -16,9 +16,9 @@ eQFZe4XQRNIMbnEQasQcnaICZEMdHSN3fqr6Axav_T03
 !endprocedure
 
 !procedure AmazonPinpointJourneyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonPinpointJourneyMd>', 'CustomerEngagement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonPinpointJourneyLg>', 'CustomerEngagement', $funcName, $content)
 !endprocedure
 
 !procedure AmazonPinpointJourneyGroup($id, $name='Amazon Pinpoint Journey', $tech='')
-  IconGroupElement($id, 'CustomerEngagementFamily', '<$AmazonPinpointJourneyMd>', $name, $tech)
+  IconGroupElement($id, 'CustomerEngagementFamily', '<$AmazonPinpointJourneyLg>', $name, $tech)
 !endprocedure

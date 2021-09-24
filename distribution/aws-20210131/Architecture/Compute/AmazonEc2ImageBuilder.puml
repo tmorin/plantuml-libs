@@ -16,9 +16,9 @@ pQmKQdNYSQD3NOkPsNbLYVizyBhV_FjD9m
 !endprocedure
 
 !procedure AmazonEc2ImageBuilderCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ImageBuilderMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ImageBuilderLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2ImageBuilderGroup($id, $name='Amazon Ec2 Image Builder', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ImageBuilderMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ImageBuilderLg>', $name, $tech)
 !endprocedure

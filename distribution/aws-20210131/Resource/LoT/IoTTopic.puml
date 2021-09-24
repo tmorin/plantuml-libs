@@ -13,9 +13,9 @@ sprite $IoTTopicLg [20x20/16z] rSg55SCm40JHuzljl-34p2x08_vFyffoxcZ67lQJfMMqKY6-4
 !endprocedure
 
 !procedure IoTTopicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTTopicMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTTopicLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTTopicGroup($id, $name='Io T Topic', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTTopicMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTTopicLg>', $name, $tech)
 !endprocedure

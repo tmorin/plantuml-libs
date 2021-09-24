@@ -16,9 +16,9 @@ JF4BDeezsDBNqB9dv0y
 !endprocedure
 
 !procedure AwsSnowconeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSnowconeMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSnowconeLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsSnowconeGroup($id, $name='Aws Snowcone', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsSnowconeMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsSnowconeLg>', $name, $tech)
 !endprocedure

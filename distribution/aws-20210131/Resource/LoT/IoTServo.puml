@@ -13,9 +13,9 @@ sprite $IoTServoLg [20x20/16z] fSZ50KKX30NH0MAt_uA_omjR1itXf6Lx0wrFzlgbt17V530ov
 !endprocedure
 
 !procedure IoTServoCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTServoMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTServoLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTServoGroup($id, $name='Io T Servo', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTServoMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTServoLg>', $name, $tech)
 !endprocedure

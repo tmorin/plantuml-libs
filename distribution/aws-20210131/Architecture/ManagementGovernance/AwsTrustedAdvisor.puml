@@ -19,9 +19,9 @@ RStL0G0X30DGj4ro-yzxXlqq-CFu1ol-XG4oG0QeIJLxwXCriFMQgfM16cYDcQbkKsIAhPVNSgLlgwfc
 !endprocedure
 
 !procedure AwsTrustedAdvisorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsTrustedAdvisorGroup($id, $name='Aws Trusted Advisor', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorLg>', $name, $tech)
 !endprocedure

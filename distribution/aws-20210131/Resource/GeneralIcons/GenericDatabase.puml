@@ -13,9 +13,9 @@ sprite $GenericDatabaseLg [20x20/16z] tKj50SLG37jKJltB_JW60yibN6x1wW1SQKa2OrAKzX
 !endprocedure
 
 !procedure GenericDatabaseCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$GenericDatabaseMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$GenericDatabaseLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure GenericDatabaseGroup($id, $name='Generic Database', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$GenericDatabaseMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$GenericDatabaseLg>', $name, $tech)
 !endprocedure

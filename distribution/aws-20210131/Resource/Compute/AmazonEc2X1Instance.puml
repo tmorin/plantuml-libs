@@ -16,9 +16,9 @@ hPAc2i64bR2OZG
 !endprocedure
 
 !procedure AmazonEc2X1InstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2X1InstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2X1InstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2X1InstanceGroup($id, $name='Amazon Ec2 X1 Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2X1InstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2X1InstanceLg>', $name, $tech)
 !endprocedure

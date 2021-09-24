@@ -16,9 +16,9 @@ CElFFS-ShSL4vnuaFeg3SbjyPTAYcLxEcctSONU5lODxkW
 !endprocedure
 
 !procedure AmazonEc2SpotInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2SpotInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2SpotInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2SpotInstanceGroup($id, $name='Amazon Ec2 Spot Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2SpotInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2SpotInstanceLg>', $name, $tech)
 !endprocedure

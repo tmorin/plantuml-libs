@@ -13,9 +13,9 @@ sprite $ElasticBeanstalkContainerLg [20x20/16z] hSYt0GC130Cn9Ogt_yBEsUsZ10Um-R6X
 !endprocedure
 
 !procedure ElasticBeanstalkContainerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ElasticBeanstalkContainerMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ElasticBeanstalkContainerLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure ElasticBeanstalkContainerGroup($id, $name='Elastic Beanstalk Container', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$ElasticBeanstalkContainerMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$ElasticBeanstalkContainerLg>', $name, $tech)
 !endprocedure

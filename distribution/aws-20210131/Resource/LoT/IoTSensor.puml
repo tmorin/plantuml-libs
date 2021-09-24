@@ -16,9 +16,9 @@ fZMF3m0thJ_X6hz0RGC
 !endprocedure
 
 !procedure IoTSensorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTSensorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTSensorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTSensorGroup($id, $name='Io T Sensor', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTSensorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTSensorLg>', $name, $tech)
 !endprocedure

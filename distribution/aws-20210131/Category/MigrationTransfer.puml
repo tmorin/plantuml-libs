@@ -16,9 +16,9 @@ JvYdANODSjbkRFvH6FQ5WjECfzeMqXMKTpy
 !endprocedure
 
 !procedure MigrationTransferCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$MigrationTransferMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$MigrationTransferLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure MigrationTransferGroup($id, $name='Migration Transfer', $tech='')
-  IconGroupElement($id, 'MigrationTransfer', '<$MigrationTransferMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransfer', '<$MigrationTransferLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ TSg5bKKn24NH4opGVyEpxjX_kYCehtnFEoVHG3P7ZMHc898ECYiIH3aYuyUu9r0e_UL8CJzHdr85QoHS
 !endprocedure
 
 !procedure IoTActuatorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTActuatorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTActuatorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTActuatorGroup($id, $name='Io T Actuator', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTActuatorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTActuatorLg>', $name, $tech)
 !endprocedure

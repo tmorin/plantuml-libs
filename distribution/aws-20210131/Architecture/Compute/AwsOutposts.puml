@@ -16,9 +16,9 @@ wxgO1zdU-Fl02G
 !endprocedure
 
 !procedure AwsOutpostsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOutpostsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOutpostsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsOutpostsGroup($id, $name='Aws Outposts', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsOutpostsMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsOutpostsLg>', $name, $tech)
 !endprocedure

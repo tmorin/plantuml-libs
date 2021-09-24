@@ -13,9 +13,9 @@ sprite $AmazonSimpleQueueServiceMessageLg [20x20/16z] nG_50SD0w3YqiF--HUgIRt2NzH
 !endprocedure
 
 !procedure AmazonSimpleQueueServiceMessageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleQueueServiceMessageMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleQueueServiceMessageLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonSimpleQueueServiceMessageGroup($id, $name='Amazon Simple Queue Service Message', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleQueueServiceMessageMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleQueueServiceMessageLg>', $name, $tech)
 !endprocedure

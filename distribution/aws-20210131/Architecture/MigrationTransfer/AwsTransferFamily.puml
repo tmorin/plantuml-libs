@@ -19,9 +19,9 @@ B35RRPut0vzsQpDqAxOkkoD4Jrm
 !endprocedure
 
 !procedure AwsTransferFamilyCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyMd>', 'MigrationTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTransferFamilyLg>', 'MigrationTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsTransferFamilyGroup($id, $name='Aws Transfer Family', $tech='')
-  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsTransferFamilyMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsTransferFamilyLg>', $name, $tech)
 !endprocedure

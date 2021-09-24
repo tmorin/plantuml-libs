@@ -19,9 +19,9 @@ axEKG361nvAXMMBimUcwqz8Yrafeqr2YKzkJtlupqTRQ-04
 !endprocedure
 
 !procedure AwsAppConfigCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsAppConfigMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsAppConfigLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsAppConfigGroup($id, $name='Aws App Config', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAppConfigMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsAppConfigLg>', $name, $tech)
 !endprocedure

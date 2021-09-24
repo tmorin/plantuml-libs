@@ -13,9 +13,9 @@ sprite $AwsSystemsManagerRunCommandLg [20x20/16z] fSQ72KD134J1TqaNjlz-BLYG2_X36h
 !endprocedure
 
 !procedure AwsSystemsManagerRunCommandCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerRunCommandMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerRunCommandLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerRunCommandGroup($id, $name='Aws Systems Manager Run Command', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerRunCommandMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerRunCommandLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ iWmPllEK643WmZvi0m
 !endprocedure
 
 !procedure AmazonEc2MacInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2MacInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2MacInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2MacInstanceGroup($id, $name='Amazon Ec2 Mac Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2MacInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2MacInstanceLg>', $name, $tech)
 !endprocedure

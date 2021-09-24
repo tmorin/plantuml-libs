@@ -13,9 +13,9 @@ sprite $IoTEchoLg [20x20/16z] hKo35KLH3AkRx3_mvxEEhef8xaysY8ujHBDlSwwGqVMFsOfLyd
 !endprocedure
 
 !procedure IoTEchoCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTEchoMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTEchoLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTEchoGroup($id, $name='Io T Echo', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTEchoMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTEchoLg>', $name, $tech)
 !endprocedure

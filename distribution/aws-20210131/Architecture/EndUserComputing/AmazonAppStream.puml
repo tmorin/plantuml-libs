@@ -16,9 +16,9 @@ QFeUTYgKsnvAepxm
 !endprocedure
 
 !procedure AmazonAppStreamCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAppStreamMd>', 'EndUserComputing', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAppStreamLg>', 'EndUserComputing', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAppStreamGroup($id, $name='Amazon App Stream', $tech='')
-  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonAppStreamMd>', $name, $tech)
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonAppStreamLg>', $name, $tech)
 !endprocedure

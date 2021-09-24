@@ -13,9 +13,9 @@ sprite $AmazonEc2AutoScalingLg [20x20/16z] ZOor0GC14CDyhFqN3dEUr1crXS-_1x-c8UA_Y
 !endprocedure
 
 !procedure AmazonEc2AutoScalingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AutoScalingMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AutoScalingLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2AutoScalingGroup($id, $name='Amazon Ec2 Auto Scaling', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AutoScalingMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AutoScalingLg>', $name, $tech)
 !endprocedure

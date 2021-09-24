@@ -13,9 +13,9 @@ sprite $AwsCloudFormationStackLg [20x20/16z] fOt55G1124C7VKZ_zQwxop_W9EM8o2rIico
 !endprocedure
 
 !procedure AwsCloudFormationStackCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationStackMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudFormationStackLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudFormationStackGroup($id, $name='Aws Cloud Formation Stack', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationStackMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudFormationStackLg>', $name, $tech)
 !endprocedure

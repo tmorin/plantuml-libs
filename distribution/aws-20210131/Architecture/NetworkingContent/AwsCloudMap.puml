@@ -16,9 +16,9 @@ dBO7qWjYwZIsVN1ayMVX01hnBmJQ1VS5zmNt1Ry
 !endprocedure
 
 !procedure AwsCloudMapCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapMd>', 'NetworkingContent', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapLg>', 'NetworkingContent', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudMapGroup($id, $name='Aws Cloud Map', $tech='')
-  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsCloudMapMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsCloudMapLg>', $name, $tech)
 !endprocedure

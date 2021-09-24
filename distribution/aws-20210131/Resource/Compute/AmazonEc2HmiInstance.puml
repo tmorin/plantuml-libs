@@ -16,9 +16,9 @@ jQrFcXR9XYiucAq
 !endprocedure
 
 !procedure AmazonEc2HmiInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2HmiInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2HmiInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2HmiInstanceGroup($id, $name='Amazon Ec2 Hmi Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2HmiInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2HmiInstanceLg>', $name, $tech)
 !endprocedure

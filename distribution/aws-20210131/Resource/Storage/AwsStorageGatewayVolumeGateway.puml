@@ -13,9 +13,9 @@ sprite $AwsStorageGatewayVolumeGatewayLg [20x20/16z] dSy30aGn30JGE3FtF_0QtwhxoiX
 !endprocedure
 
 !procedure AwsStorageGatewayVolumeGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayVolumeGatewayMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayVolumeGatewayLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsStorageGatewayVolumeGatewayGroup($id, $name='Aws Storage Gateway Volume Gateway', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayVolumeGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayVolumeGatewayLg>', $name, $tech)
 !endprocedure

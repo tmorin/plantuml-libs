@@ -16,9 +16,9 @@ P4V9maU79LD_7_VNplCroH4-gzRQREa_YsK_vmq
 !endprocedure
 
 !procedure AwsIoTEventsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTEventsMd>', 'InternetOfThings', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEventsLg>', 'InternetOfThings', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTEventsGroup($id, $name='Aws Io T Events', $tech='')
-  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTEventsMd>', $name, $tech)
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTEventsLg>', $name, $tech)
 !endprocedure

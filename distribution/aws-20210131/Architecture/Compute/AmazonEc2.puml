@@ -16,9 +16,9 @@ O4odPSQHlEo8h_eLq-CFxW
 !endprocedure
 
 !procedure AmazonEc2Card($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2Md>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2Lg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2Group($id, $name='Amazon Ec2', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2Md>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2Lg>', $name, $tech)
 !endprocedure

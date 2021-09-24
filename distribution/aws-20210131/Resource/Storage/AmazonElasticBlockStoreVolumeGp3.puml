@@ -13,9 +13,9 @@ sprite $AmazonElasticBlockStoreVolumeGp3Lg [20x20/16z] hSv50aGX30FG84df_GyyyXNTy
 !endprocedure
 
 !procedure AmazonElasticBlockStoreVolumeGp3Card($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreVolumeGp3Md>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreVolumeGp3Lg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AmazonElasticBlockStoreVolumeGp3Group($id, $name='Amazon Elastic Block Store Volume Gp3', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreVolumeGp3Md>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreVolumeGp3Lg>', $name, $tech)
 !endprocedure

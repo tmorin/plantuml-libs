@@ -16,9 +16,9 @@ nPeQVetG6ad5lpr56dnQSz2EAMEhXuUiBOSx
 !endprocedure
 
 !procedure IoTAlexaSkillCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTAlexaSkillMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTAlexaSkillLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTAlexaSkillGroup($id, $name='Io T Alexa Skill', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTAlexaSkillMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTAlexaSkillLg>', $name, $tech)
 !endprocedure

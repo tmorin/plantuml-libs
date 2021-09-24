@@ -19,9 +19,9 @@ ox0h8yge9jY7EFRiQOLeisfnMA7aRfvMo92q0ndjZLy
 !endprocedure
 
 !procedure AwsDirectConnectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectMd>', 'NetworkingContent', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectConnectLg>', 'NetworkingContent', $funcName, $content)
 !endprocedure
 
 !procedure AwsDirectConnectGroup($id, $name='Aws Direct Connect', $tech='')
-  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsDirectConnectMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsDirectConnectLg>', $name, $tech)
 !endprocedure

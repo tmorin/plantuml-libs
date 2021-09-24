@@ -13,9 +13,9 @@ sprite $Ec2InstanceContainerLg [20x20/16z] fK-30S1038np-ozSs_sF3LI3GU49tyOO10tO9
 !endprocedure
 
 !procedure Ec2InstanceContainerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$Ec2InstanceContainerMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$Ec2InstanceContainerLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure Ec2InstanceContainerGroup($id, $name='Ec2 Instance Container', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$Ec2InstanceContainerMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$Ec2InstanceContainerLg>', $name, $tech)
 !endprocedure

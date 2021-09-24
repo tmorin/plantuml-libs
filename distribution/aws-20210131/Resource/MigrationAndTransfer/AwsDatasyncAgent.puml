@@ -16,9 +16,9 @@ AOJIhuoOs8q28m
 !endprocedure
 
 !procedure AwsDatasyncAgentCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsDatasyncAgentMd>', 'MigrationAndTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsDatasyncAgentLg>', 'MigrationAndTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsDatasyncAgentGroup($id, $name='Aws Datasync Agent', $tech='')
-  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsDatasyncAgentMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsDatasyncAgentLg>', $name, $tech)
 !endprocedure

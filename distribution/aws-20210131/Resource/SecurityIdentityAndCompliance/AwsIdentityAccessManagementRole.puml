@@ -16,9 +16,9 @@ h
 !endprocedure
 
 !procedure AwsIdentityAccessManagementRoleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementRoleMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementRoleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementRoleGroup($id, $name='Aws Identity Access Management Role', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementRoleMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementRoleLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ gFpQe3k1M8g_d5L-_kc6tTpHEFKF
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistPerformanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistPerformanceMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistPerformanceLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistPerformanceGroup($id, $name='Aws Trusted Advisor Checklist Performance', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistPerformanceMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistPerformanceLg>', $name, $tech)
 !endprocedure

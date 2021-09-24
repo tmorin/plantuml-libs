@@ -16,9 +16,9 @@ tre-v1i
 !endprocedure
 
 !procedure TapeStorageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$TapeStorageMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$TapeStorageLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure TapeStorageGroup($id, $name='Tape Storage', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$TapeStorageMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$TapeStorageLg>', $name, $tech)
 !endprocedure

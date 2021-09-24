@@ -19,9 +19,9 @@ TP250KCn24GlEFiFN47glQzvEFWd0GkoheSKhEyi_4KXnNpYMtQFqsAUQHsbD7x6pCRhn-oIvAeRm0UY
 !endprocedure
 
 !procedure IoTThingCoffeePotCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingCoffeePotMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingCoffeePotLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingCoffeePotGroup($id, $name='Io T Thing Coffee Pot', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingCoffeePotMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingCoffeePotLg>', $name, $tech)
 !endprocedure

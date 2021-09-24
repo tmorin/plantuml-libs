@@ -13,9 +13,9 @@ sprite $AmazonSimpleNotificationServiceTopicLg [20x20/16z] ZStL0SKW343H6o-m_xpFj
 !endprocedure
 
 !procedure AmazonSimpleNotificationServiceTopicCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleNotificationServiceTopicMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleNotificationServiceTopicLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonSimpleNotificationServiceTopicGroup($id, $name='Amazon Simple Notification Service Topic', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleNotificationServiceTopicMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonSimpleNotificationServiceTopicLg>', $name, $tech)
 !endprocedure

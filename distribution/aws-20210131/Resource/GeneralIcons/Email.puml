@@ -13,9 +13,9 @@ sprite $EmailLg [20x20/16z] hSYr0SLG54EnynYklV-udp5rL8gpzN5Ka6lvDTGHvaUFVB-aojiQ
 !endprocedure
 
 !procedure EmailCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$EmailMd>', 'GeneralIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$EmailLg>', 'GeneralIcons', $funcName, $content)
 !endprocedure
 
 !procedure EmailGroup($id, $name='Email', $tech='')
-  IconGroupElement($id, 'GeneralIconsFamily', '<$EmailMd>', $name, $tech)
+  IconGroupElement($id, 'GeneralIconsFamily', '<$EmailLg>', $name, $tech)
 !endprocedure

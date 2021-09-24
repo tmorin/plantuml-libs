@@ -19,9 +19,9 @@ pkNmGKjSwzo-tNv4IshYG9zbn6mq3BU5mzXf8Z82bn4hPH-aVV4F
 !endprocedure
 
 !procedure AwsTransitGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTransitGatewayMd>', 'NetworkingContent', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTransitGatewayLg>', 'NetworkingContent', $funcName, $content)
 !endprocedure
 
 !procedure AwsTransitGatewayGroup($id, $name='Aws Transit Gateway', $tech='')
-  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsTransitGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingContentFamily', '<$AwsTransitGatewayLg>', $name, $tech)
 !endprocedure

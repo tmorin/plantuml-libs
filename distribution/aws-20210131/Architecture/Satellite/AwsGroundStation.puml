@@ -16,9 +16,9 @@ HG3oIX_Uo_pwn2RXvbS9RCGzV9dzVM_-
 !endprocedure
 
 !procedure AwsGroundStationCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsGroundStationMd>', 'Satellite', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsGroundStationLg>', 'Satellite', $funcName, $content)
 !endprocedure
 
 !procedure AwsGroundStationGroup($id, $name='Aws Ground Station', $tech='')
-  IconGroupElement($id, 'SatelliteFamily', '<$AwsGroundStationMd>', $name, $tech)
+  IconGroupElement($id, 'SatelliteFamily', '<$AwsGroundStationLg>', $name, $tech)
 !endprocedure

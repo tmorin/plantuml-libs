@@ -13,9 +13,9 @@ sprite $AwsIdentityAccessManagementAddOnLg [20x20/16z] lSZL0SKm34FH6xAjQFzv7sC7w
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAddOnCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAddOnMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAddOnLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsIdentityAccessManagementAddOnGroup($id, $name='Aws Identity Access Management Add On', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAddOnMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAddOnLg>', $name, $tech)
 !endprocedure

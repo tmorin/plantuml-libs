@@ -16,9 +16,9 @@ Ckj27-FKXyweeKx3ZI83JzOvVW
 !endprocedure
 
 !procedure AwsOrganizationsAccountCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsAccountMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsAccountLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOrganizationsAccountGroup($id, $name='Aws Organizations Account', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsAccountMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsAccountLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonEventBridgeDefaultEventBusLg [20x20/16z] jSx55KKn24NH4nVwh_VfNJ3_i
 !endprocedure
 
 !procedure AmazonEventBridgeDefaultEventBusCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeDefaultEventBusMd>', 'ApplicationIntegration', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeDefaultEventBusLg>', 'ApplicationIntegration', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEventBridgeDefaultEventBusGroup($id, $name='Amazon Event Bridge Default Event Bus', $tech='')
-  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeDefaultEventBusMd>', $name, $tech)
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeDefaultEventBusLg>', $name, $tech)
 !endprocedure

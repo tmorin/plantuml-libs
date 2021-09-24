@@ -16,9 +16,9 @@ h8DtDM0DM0C-1jm1
 !endprocedure
 
 !procedure AwsServerlessApplicationRepositoryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsServerlessApplicationRepositoryMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsServerlessApplicationRepositoryLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsServerlessApplicationRepositoryGroup($id, $name='Aws Serverless Application Repository', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsServerlessApplicationRepositoryMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsServerlessApplicationRepositoryLg>', $name, $tech)
 !endprocedure

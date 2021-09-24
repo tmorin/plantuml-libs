@@ -13,9 +13,9 @@ sprite $AwsIoTGreengrassConnectorLg [20x20/16z] pOh70O1G34Bv7VPVMB1leE-GqF0pcaZv
 !endprocedure
 
 !procedure AwsIoTGreengrassConnectorCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassConnectorMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassConnectorLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTGreengrassConnectorGroup($id, $name='Aws Io T Greengrass Connector', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassConnectorMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassConnectorLg>', $name, $tech)
 !endprocedure

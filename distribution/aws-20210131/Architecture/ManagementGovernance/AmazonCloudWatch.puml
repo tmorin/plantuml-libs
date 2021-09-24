@@ -19,9 +19,9 @@ A5O0U1cuF7JZMgCmJGuPcm3XRKS7yMCzDdhX7G
 !endprocedure
 
 !procedure AmazonCloudWatchCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudWatchGroup($id, $name='Amazon Cloud Watch', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchLg>', $name, $tech)
 !endprocedure

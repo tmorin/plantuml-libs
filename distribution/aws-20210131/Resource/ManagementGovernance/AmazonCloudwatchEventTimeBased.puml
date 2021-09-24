@@ -13,9 +13,9 @@ sprite $AmazonCloudwatchEventTimeBasedLg [20x20/16z] jOtL0KCX34KlSTb_thezvQi7ueO
 !endprocedure
 
 !procedure AmazonCloudwatchEventTimeBasedCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchEventTimeBasedMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudwatchEventTimeBasedLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudwatchEventTimeBasedGroup($id, $name='Amazon Cloudwatch Event Time Based', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchEventTimeBasedMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudwatchEventTimeBasedLg>', $name, $tech)
 !endprocedure

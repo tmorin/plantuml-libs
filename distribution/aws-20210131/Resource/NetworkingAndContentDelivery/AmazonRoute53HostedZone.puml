@@ -16,9 +16,9 @@ Q17JHVRh7G
 !endprocedure
 
 !procedure AmazonRoute53HostedZoneCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53HostedZoneMd>', 'NetworkingAndContentDelivery', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53HostedZoneLg>', 'NetworkingAndContentDelivery', $funcName, $content)
 !endprocedure
 
 !procedure AmazonRoute53HostedZoneGroup($id, $name='Amazon Route53 Hosted Zone', $tech='')
-  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53HostedZoneMd>', $name, $tech)
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53HostedZoneLg>', $name, $tech)
 !endprocedure

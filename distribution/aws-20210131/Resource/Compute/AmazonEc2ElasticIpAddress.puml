@@ -13,9 +13,9 @@ sprite $AmazonEc2ElasticIpAddressLg [20x20/16z] nKw50G0X2AIv_HV-i7K1wURe8WcV5Gzp
 !endprocedure
 
 !procedure AmazonEc2ElasticIpAddressCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ElasticIpAddressMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2ElasticIpAddressLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2ElasticIpAddressGroup($id, $name='Amazon Ec2 Elastic Ip Address', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ElasticIpAddressMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2ElasticIpAddressLg>', $name, $tech)
 !endprocedure

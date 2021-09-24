@@ -13,9 +13,9 @@ sprite $AwsTrustedAdvisorChecklistLg [20x20/16z] dOq30iHG44CprltFkpRRlizHWi_CCwT
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsTrustedAdvisorChecklistLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsTrustedAdvisorChecklistGroup($id, $name='Aws Trusted Advisor Checklist', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsTrustedAdvisorChecklistLg>', $name, $tech)
 !endprocedure

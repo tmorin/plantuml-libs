@@ -19,9 +19,9 @@ RSYtbS103CJGMKzG_TTxXgl9X8VeKuKx__61V20VcBQXOyoBgmUhlPeNcmwZBLjXPocmNUorxU9kqLSB
 !endprocedure
 
 !procedure AwsOrganizationsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOrganizationsGroup($id, $name='Aws Organizations', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsLg>', $name, $tech)
 !endprocedure

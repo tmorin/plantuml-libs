@@ -19,9 +19,9 @@ ixuQOmmtByS6bzKzEQNDn9v4Tves-GWEy-wu
 !endprocedure
 
 !procedure AwsManagementConsoleCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsManagementConsoleMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsManagementConsoleLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsManagementConsoleGroup($id, $name='Aws Management Console', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsManagementConsoleMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsManagementConsoleLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ biMywhm-zBwVXHwuF55R1MX3ZTMsFmGTAry
 !endprocedure
 
 !procedure AwsDataSyncCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsDataSyncMd>', 'MigrationTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsDataSyncLg>', 'MigrationTransfer', $funcName, $content)
 !endprocedure
 
 !procedure AwsDataSyncGroup($id, $name='Aws Data Sync', $tech='')
-  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsDataSyncMd>', $name, $tech)
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsDataSyncLg>', $name, $tech)
 !endprocedure

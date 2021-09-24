@@ -19,9 +19,9 @@ TMXSrsagwNNTyZUIwEuyAqTbpoFbOtv48OgO1_a1
 !endprocedure
 
 !procedure IoTThingDoorLockCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingDoorLockMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingDoorLockLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingDoorLockGroup($id, $name='Io T Thing Door Lock', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingDoorLockMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingDoorLockLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonEc2AmiResourceLg [20x20/16z] dS-50GCn243HZxF_nFMUwujxO9LNZwKyfuAfX
 !endprocedure
 
 !procedure AmazonEc2AmiResourceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AmiResourceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AmiResourceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2AmiResourceGroup($id, $name='Amazon Ec2 Ami Resource', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AmiResourceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AmiResourceLg>', $name, $tech)
 !endprocedure

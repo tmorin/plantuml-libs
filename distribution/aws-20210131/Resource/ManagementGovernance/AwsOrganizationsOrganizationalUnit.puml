@@ -16,9 +16,9 @@ jySqPOB9LW
 !endprocedure
 
 !procedure AwsOrganizationsOrganizationalUnitCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsOrganizationalUnitMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsOrganizationalUnitLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsOrganizationsOrganizationalUnitGroup($id, $name='Aws Organizations Organizational Unit', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsOrganizationalUnitMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsOrganizationalUnitLg>', $name, $tech)
 !endprocedure

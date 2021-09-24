@@ -13,9 +13,9 @@ sprite $AutoScalingLg [20x20/16z] hSwd0S0030D1T__-4ySebQGTqoFnXr8kt9GBuyTc3KHkUw
 !endprocedure
 
 !procedure AutoScalingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AutoScalingMd>', 'GroupIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AutoScalingLg>', 'GroupIcons', $funcName, $content)
 !endprocedure
 
 !procedure AutoScalingGroup($id, $name='Auto Scaling', $tech='')
-  IconGroupElement($id, 'GroupIconsFamily', '<$AutoScalingMd>', $name, $tech)
+  IconGroupElement($id, 'GroupIconsFamily', '<$AutoScalingLg>', $name, $tech)
 !endprocedure

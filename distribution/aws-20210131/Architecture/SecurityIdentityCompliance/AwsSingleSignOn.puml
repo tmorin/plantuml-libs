@@ -16,9 +16,9 @@ TBJKWTrL1NdPHjArRKwxi3NeiWifARPTkFvziFxW2G
 !endprocedure
 
 !procedure AwsSingleSignOnCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSingleSignOnMd>', 'SecurityIdentityCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSingleSignOnLg>', 'SecurityIdentityCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSingleSignOnGroup($id, $name='Aws Single Sign On', $tech='')
-  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSingleSignOnMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsSingleSignOnLg>', $name, $tech)
 !endprocedure

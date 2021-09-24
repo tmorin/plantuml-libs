@@ -13,9 +13,9 @@ sprite $AwsStorageGatewayFileGatewayLg [20x20/16z] lKtL0SGW5EEU9Tb_uAjx-uj3j7sD0
 !endprocedure
 
 !procedure AwsStorageGatewayFileGatewayCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayFileGatewayMd>', 'Storage', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayFileGatewayLg>', 'Storage', $funcName, $content)
 !endprocedure
 
 !procedure AwsStorageGatewayFileGatewayGroup($id, $name='Aws Storage Gateway File Gateway', $tech='')
-  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayFileGatewayMd>', $name, $tech)
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayFileGatewayLg>', $name, $tech)
 !endprocedure

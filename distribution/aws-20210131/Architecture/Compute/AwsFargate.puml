@@ -16,9 +16,9 @@ T8YJjylIgFCSjrlbKhhWM7TImDjjy7xl-VSZ_m4
 !endprocedure
 
 !procedure AwsFargateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsFargateMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsFargateLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AwsFargateGroup($id, $name='Aws Fargate', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AwsFargateMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AwsFargateLg>', $name, $tech)
 !endprocedure

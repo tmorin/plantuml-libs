@@ -19,9 +19,9 @@ unYjFWJoQlqgBQYFvMpLo8u2W76gjwYEitdfMxWp1S-ayP0zZKao2PwBH0Ld_WC
 !endprocedure
 
 !procedure IoTLambdaFunctionCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTLambdaFunctionMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTLambdaFunctionLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTLambdaFunctionGroup($id, $name='Io T Lambda Function', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTLambdaFunctionMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTLambdaFunctionLg>', $name, $tech)
 !endprocedure

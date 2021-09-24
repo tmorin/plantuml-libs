@@ -13,9 +13,9 @@ sprite $IoTFireTvLg [20x20/16z] hSsr0S1G20JGms7_WUEU9l9VXnvQgnj3uOBVz1GxJPhtE4qm
 !endprocedure
 
 !procedure IoTFireTvCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTFireTvMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTFireTvLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTFireTvGroup($id, $name='Io T Fire Tv', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTFireTvMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTFireTvLg>', $name, $tech)
 !endprocedure

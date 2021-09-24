@@ -19,9 +19,9 @@ Ar7QaBGrRq0_A1xMYYUNKh7egVbJJUXlT9C6pmnRiwL-0G
 !endprocedure
 
 !procedure AwsNetworkFirewallEndpointsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallEndpointsMd>', 'SecurityIdentityAndCompliance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsNetworkFirewallEndpointsLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
 !endprocedure
 
 !procedure AwsNetworkFirewallEndpointsGroup($id, $name='Aws Network Firewall Endpoints', $tech='')
-  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsNetworkFirewallEndpointsMd>', $name, $tech)
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsNetworkFirewallEndpointsLg>', $name, $tech)
 !endprocedure

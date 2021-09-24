@@ -16,9 +16,9 @@ Ql5fL3bAlXhC5_MZtNwsDLq_cWIcxotWPcmN
 !endprocedure
 
 !procedure IoTCertificateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTCertificateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTCertificateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTCertificateGroup($id, $name='Io T Certificate', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTCertificateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTCertificateLg>', $name, $tech)
 !endprocedure

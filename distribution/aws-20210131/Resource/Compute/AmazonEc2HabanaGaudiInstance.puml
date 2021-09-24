@@ -16,9 +16,9 @@ vFYBXsv6-XJUBdlSTlkJfaQGE3Y4RG4
 !endprocedure
 
 !procedure AmazonEc2HabanaGaudiInstanceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonEc2HabanaGaudiInstanceMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2HabanaGaudiInstanceLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AmazonEc2HabanaGaudiInstanceGroup($id, $name='Amazon Ec2 Habana Gaudi Instance', $tech='')
-  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2HabanaGaudiInstanceMd>', $name, $tech)
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2HabanaGaudiInstanceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ DZKoeSp-BG
 !endprocedure
 
 !procedure MediaServicesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$MediaServicesMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$MediaServicesLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure MediaServicesGroup($id, $name='Media Services', $tech='')
-  IconGroupElement($id, 'MediaServices', '<$MediaServicesMd>', $name, $tech)
+  IconGroupElement($id, 'MediaServices', '<$MediaServicesLg>', $name, $tech)
 !endprocedure

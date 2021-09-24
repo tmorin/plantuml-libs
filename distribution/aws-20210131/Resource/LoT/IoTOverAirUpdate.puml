@@ -16,9 +16,9 @@ VfQ3LgXufj6NE04
 !endprocedure
 
 !procedure IoTOverAirUpdateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTOverAirUpdateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTOverAirUpdateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTOverAirUpdateGroup($id, $name='Io T Over Air Update', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTOverAirUpdateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTOverAirUpdateLg>', $name, $tech)
 !endprocedure

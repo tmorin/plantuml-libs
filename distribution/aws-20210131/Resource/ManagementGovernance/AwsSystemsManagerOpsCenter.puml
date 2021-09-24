@@ -16,9 +16,9 @@ jHe9z8mLQsVjOgOtCywW6jQ2Jpb_dnkx_3GcZm
 !endprocedure
 
 !procedure AwsSystemsManagerOpsCenterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerOpsCenterMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerOpsCenterLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsSystemsManagerOpsCenterGroup($id, $name='Aws Systems Manager Ops Center', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerOpsCenterMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerOpsCenterLg>', $name, $tech)
 !endprocedure

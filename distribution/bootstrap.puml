@@ -115,25 +115,25 @@ skinparam DefaultFontColor $FONT_COLOR
     !local $S="<color:" + $FONT_COLOR + ">" + $sprite + " </color>"
     !local $F=""
     !if ($techName != "") && ($funcName != "")
-        !$ST="<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>"
-        !$T="<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
         !$H=$T + "\l" + $S + $ST
         !$V=$V + $H
     !elseif ($techName != "")
-        !$ST="<color:" + $FONT_COLOR + ">" + $techName + "</color>"
+        !$ST="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR_LIGHT + ">" + $techName + "</color>" + "</size>"
         !$H=$S + $ST
         !$V=$V + $H
     !elseif ($funcName != "")
-        !$T=$S + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>"
-        !$H=$T
+        !$T="<size:" + $FONT_SIZE_MD + ">" + "<color:" + $FONT_COLOR + ">" + $funcName + "</color>" + "</size>"
+        !$H=$S + $T
         !$V=$V + $H
     !endif
     !if ($H != "") && ($content != "")
-        !$F="\l----\l<size:" + $FONT_SIZE_XS + ">" + $content + "</size>"
+        !$F="\n----\n" + $content
         !$V=$V + $F
     !elseif ($content != "")
-        !$F="\l<size:" + $FONT_SIZE_XS + " + $content + "</size>"
-        !$V=$V + $F
+        !$F=$content
+        !$V=$S + "\n" + $F
     !endif
     Rectangle $id <<$stereotype>> as "$V"
 !endprocedure

@@ -13,9 +13,9 @@ sprite $AmazonCloudSearchSearchDocumentsLg [20x20/16z] jSwr0SDG30JGky-m_xo9IM0g_
 !endprocedure
 
 !procedure AmazonCloudSearchSearchDocumentsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonCloudSearchSearchDocumentsMd>', 'Analytics', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudSearchSearchDocumentsLg>', 'Analytics', $funcName, $content)
 !endprocedure
 
 !procedure AmazonCloudSearchSearchDocumentsGroup($id, $name='Amazon Cloud Search Search Documents', $tech='')
-  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonCloudSearchSearchDocumentsMd>', $name, $tech)
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonCloudSearchSearchDocumentsLg>', $name, $tech)
 !endprocedure

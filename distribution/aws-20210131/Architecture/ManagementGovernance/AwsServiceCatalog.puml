@@ -19,9 +19,9 @@ UCV0HBGcaMlLHThKS38aRKie5HAXEskLzkPfrlMsEzuZzRQjklglLTvM-iOJ
 !endprocedure
 
 !procedure AwsServiceCatalogCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsServiceCatalogMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsServiceCatalogLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsServiceCatalogGroup($id, $name='Aws Service Catalog', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsServiceCatalogMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsServiceCatalogLg>', $name, $tech)
 !endprocedure

@@ -19,9 +19,9 @@ TP050aGX24H7oRd_XNVXTprR6doX40Lxx1Z4hdyP9r9H1CvusTdrBss-wedqtym_B0qPqCMMBU39LYDH
 !endprocedure
 
 !procedure IoTThingCarCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTThingCarMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTThingCarLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTThingCarGroup($id, $name='Io T Thing Car', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTThingCarMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTThingCarLg>', $name, $tech)
 !endprocedure

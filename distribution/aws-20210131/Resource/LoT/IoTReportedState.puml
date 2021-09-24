@@ -13,9 +13,9 @@ sprite $IoTReportedStateLg [20x20/16z] hOm54iG030A94Fd_Xo_dRcrtZC7m4g--9NKiufu6w
 !endprocedure
 
 !procedure IoTReportedStateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IoTReportedStateMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IoTReportedStateLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure IoTReportedStateGroup($id, $name='Io T Reported State', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$IoTReportedStateMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$IoTReportedStateLg>', $name, $tech)
 !endprocedure

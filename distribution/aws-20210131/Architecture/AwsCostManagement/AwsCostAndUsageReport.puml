@@ -19,9 +19,9 @@ ultLoFwYmyXpvSr-Fto9PkQWQde4B8Pa5JiOTFSrTDbd-GS
 !endprocedure
 
 !procedure AwsCostAndUsageReportCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCostAndUsageReportMd>', 'AwsCostManagement', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCostAndUsageReportLg>', 'AwsCostManagement', $funcName, $content)
 !endprocedure
 
 !procedure AwsCostAndUsageReportGroup($id, $name='Aws Cost And Usage Report', $tech='')
-  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsCostAndUsageReportMd>', $name, $tech)
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsCostAndUsageReportLg>', $name, $tech)
 !endprocedure

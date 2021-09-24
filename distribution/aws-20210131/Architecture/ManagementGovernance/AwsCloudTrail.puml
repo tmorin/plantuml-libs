@@ -16,9 +16,9 @@ YsvxwCvuc_V40m
 !endprocedure
 
 !procedure AwsCloudTrailCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailMd>', 'ManagementGovernance', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudTrailLg>', 'ManagementGovernance', $funcName, $content)
 !endprocedure
 
 !procedure AwsCloudTrailGroup($id, $name='Aws Cloud Trail', $tech='')
-  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailMd>', $name, $tech)
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsCloudTrailLg>', $name, $tech)
 !endprocedure

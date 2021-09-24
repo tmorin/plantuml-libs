@@ -13,9 +13,9 @@ sprite $AwsIoTAnalyticsNotebookLg [20x20/16z] XS_50GGn20NGZqF_1Q-CI-IT8YZQj6vaUH
 !endprocedure
 
 !procedure AwsIoTAnalyticsNotebookCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsNotebookMd>', 'LoT', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsNotebookLg>', 'LoT', $funcName, $content)
 !endprocedure
 
 !procedure AwsIoTAnalyticsNotebookGroup($id, $name='Aws Io T Analytics Notebook', $tech='')
-  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsNotebookMd>', $name, $tech)
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsNotebookLg>', $name, $tech)
 !endprocedure

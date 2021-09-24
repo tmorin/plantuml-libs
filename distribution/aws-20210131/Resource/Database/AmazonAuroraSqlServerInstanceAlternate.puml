@@ -13,9 +13,9 @@ sprite $AmazonAuroraSqlServerInstanceAlternateLg [20x20/16z] tSX50G90002mdMl_khX
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceAlternateCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraSqlServerInstanceAlternateMd>', 'Database', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AmazonAuroraSqlServerInstanceAlternateLg>', 'Database', $funcName, $content)
 !endprocedure
 
 !procedure AmazonAuroraSqlServerInstanceAlternateGroup($id, $name='Amazon Aurora Sql Server Instance Alternate', $tech='')
-  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraSqlServerInstanceAlternateMd>', $name, $tech)
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonAuroraSqlServerInstanceAlternateLg>', $name, $tech)
 !endprocedure
