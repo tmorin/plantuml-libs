@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.5.0](https://github.com/tmorin/plantuml-libs/compare/v4.4.0...v4.5.0) (2021-09-25)
+
+
+### Features
+
+* **aws-20210131:** refresh the package ([8492536](https://github.com/tmorin/plantuml-libs/commit/8492536832ed03b753b270d8a4824d74059c4126))
+* **aws-20210730:** refresh the package ([bf12107](https://github.com/tmorin/plantuml-libs/commit/bf12107a46c608e0f8a708b210d6a3ec0202609b))
+* **azure-4:** refresh the package ([005a68e](https://github.com/tmorin/plantuml-libs/commit/005a68ed8326baba8deb8d65897690bd56570e36))
+* **c4model:** refresh the package ([1805839](https://github.com/tmorin/plantuml-libs/commit/180583972ec956b4d58f8a9341676e3a02d9d683))
+* **eip-1:** refresh the package ([fda08dc](https://github.com/tmorin/plantuml-libs/commit/fda08dcb882cf284084d85530be811f22f7fa17a))
+* **fontawesome-5:** refresh the package ([1836c51](https://github.com/tmorin/plantuml-libs/commit/1836c51b5edc1f90b7ebafa33e9fc872f5870536))
+* **gcp:** refresh the package ([bfc35f8](https://github.com/tmorin/plantuml-libs/commit/bfc35f89020d493a161eb18a0c56ef440f1a6e70))
+* **homecloud-1:** refresh the package ([84f7679](https://github.com/tmorin/plantuml-libs/commit/84f76794485239be44bc0a1f0b8c3fef7d76c3ba))
+* increase the size of some texts and sprites ([aaba1d8](https://github.com/tmorin/plantuml-libs/commit/aaba1d810da904a5792b49ae0965f18d7c8ac83e))
+* **material-4:** refresh the package ([26db0e9](https://github.com/tmorin/plantuml-libs/commit/26db0e9264737cf938823609fdde3dc36f8c232b))
+* **simpleicons-5:** refresh the package ([7edf5ce](https://github.com/tmorin/plantuml-libs/commit/7edf5ceb37ee4c8ceac2a5fdb3ec55d75b50dcbc))
+
 ## [4.4.0](https://github.com/tmorin/plantuml-libs/compare/v4.3.1...v4.4.0) (2021-09-16)
 
 
