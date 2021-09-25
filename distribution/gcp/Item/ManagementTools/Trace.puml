@@ -13,9 +13,9 @@ sprite $TraceLg [20x20/16z] Oo0Qi840cM9C8C107c141o0xe8032jY85wCSiB2mmCnbXOaXsu5F
 !endprocedure
 
 !procedure TraceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$TraceMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$TraceLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure TraceGroup($id, $name='Trace', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$TraceMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$TraceLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ vHD_
 !endprocedure
 
 !procedure KeyAccessJustificationsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$KeyAccessJustificationsMd>', 'IdentitySecurity', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$KeyAccessJustificationsLg>', 'IdentitySecurity', $funcName, $content)
 !endprocedure
 
 !procedure KeyAccessJustificationsGroup($id, $name='Key Access Justifications', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$KeyAccessJustificationsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$KeyAccessJustificationsLg>', $name, $tech)
 !endprocedure

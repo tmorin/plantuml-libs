@@ -13,9 +13,9 @@ sprite $GenomicsLg [20x20/16z] fSZL0GCm3CL0-Ibri__2PMQup-Cleyy66i3sfD3YASDEpEcwv
 !endprocedure
 
 !procedure GenomicsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$GenomicsMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$GenomicsLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure GenomicsGroup($id, $name='Genomics', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$GenomicsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$GenomicsLg>', $name, $tech)
 !endprocedure

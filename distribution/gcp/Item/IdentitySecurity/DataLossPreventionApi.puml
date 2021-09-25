@@ -13,9 +13,9 @@ sprite $DataLossPreventionApiLg [20x20/16z] jSwr0G8034JHVz7RVs7SQU5ryV0dPI_lrbth
 !endprocedure
 
 !procedure DataLossPreventionApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataLossPreventionApiMd>', 'IdentitySecurity', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DataLossPreventionApiLg>', 'IdentitySecurity', $funcName, $content)
 !endprocedure
 
 !procedure DataLossPreventionApiGroup($id, $name='Data Loss Prevention Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataLossPreventionApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DataLossPreventionApiLg>', $name, $tech)
 !endprocedure

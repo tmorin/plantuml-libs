@@ -13,9 +13,9 @@ sprite $ModifiersHighCpuMachineLg [20x20/16z] hSY54SGm30LHmK5u--ysZ7yow3NgMP5SgS
 !endprocedure
 
 !procedure ModifiersHighCpuMachineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ModifiersHighCpuMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ModifiersHighCpuMachineLg>', 'ExpandedProductCardIcons', $funcName, $content)
 !endprocedure
 
 !procedure ModifiersHighCpuMachineGroup($id, $name='Modifiers High Cpu Machine', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ModifiersHighCpuMachineMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersHighCpuMachineLg>', $name, $tech)
 !endprocedure

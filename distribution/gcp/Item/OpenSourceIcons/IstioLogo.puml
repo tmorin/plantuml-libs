@@ -13,9 +13,9 @@ sprite $IstioLogoLg [20x20/16z] hSs54S0m30F0SgFz1mupauvyRpfsvCxPdJ7axCuOoLYo36ua
 !endprocedure
 
 !procedure IstioLogoCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$IstioLogoMd>', 'OpenSourceIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$IstioLogoLg>', 'OpenSourceIcons', $funcName, $content)
 !endprocedure
 
 !procedure IstioLogoGroup($id, $name='Istio Logo', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$IstioLogoMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$IstioLogoLg>', $name, $tech)
 !endprocedure

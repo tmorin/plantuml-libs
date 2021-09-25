@@ -16,9 +16,9 @@ YUci
 !endprocedure
 
 !procedure DebuggerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DebuggerMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DebuggerLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure DebuggerGroup($id, $name='Debugger', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DebuggerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DebuggerLg>', $name, $tech)
 !endprocedure

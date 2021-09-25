@@ -13,9 +13,9 @@ sprite $DataprepLg [20x20/16z] bT350GGW3031XHZzDtokEFD3efmAsxWJY3k-32FA3L-QlBaZG
 !endprocedure
 
 !procedure DataprepCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataprepMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DataprepLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure DataprepGroup($id, $name='Dataprep', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataprepMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DataprepLg>', $name, $tech)
 !endprocedure

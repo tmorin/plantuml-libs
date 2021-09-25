@@ -13,9 +13,9 @@ sprite $CloudNaturalLanguageApiLg [20x20/16z] fS_50G0X30J0wD9_nQUul3Au4mhH1sMI1t
 !endprocedure
 
 !procedure CloudNaturalLanguageApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudNaturalLanguageApiMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudNaturalLanguageApiLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure CloudNaturalLanguageApiGroup($id, $name='Cloud Natural Language Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudNaturalLanguageApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudNaturalLanguageApiLg>', $name, $tech)
 !endprocedure

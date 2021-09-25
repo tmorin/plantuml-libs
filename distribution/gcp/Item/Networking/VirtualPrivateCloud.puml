@@ -13,9 +13,9 @@ sprite $VirtualPrivateCloudLg [20x20/16z] fO-50KGn24EvaAJTV-6pxswlYaES9bDszqtRdK
 !endprocedure
 
 !procedure VirtualPrivateCloudCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$VirtualPrivateCloudMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$VirtualPrivateCloudLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure VirtualPrivateCloudGroup($id, $name='Virtual Private Cloud', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$VirtualPrivateCloudMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$VirtualPrivateCloudLg>', $name, $tech)
 !endprocedure

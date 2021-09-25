@@ -13,9 +13,9 @@ sprite $ModifiersPreemptableVmLg [20x20/16z] fT2r0SDG4C1GcJuPjF-qWMl2w5UgEM2VpG0
 !endprocedure
 
 !procedure ModifiersPreemptableVmCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ModifiersPreemptableVmMd>', 'ExpandedProductCardIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ModifiersPreemptableVmLg>', 'ExpandedProductCardIcons', $funcName, $content)
 !endprocedure
 
 !procedure ModifiersPreemptableVmGroup($id, $name='Modifiers Preemptable Vm', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ModifiersPreemptableVmMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersPreemptableVmLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $CloudSpannerLg [20x20/16z] fO-50GD120Jt6DZGVyDnjxSvnK7R6GnHNtH-rqNwGuVVT
 !endprocedure
 
 !procedure CloudSpannerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudSpannerMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudSpannerLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure CloudSpannerGroup($id, $name='Cloud Spanner', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudSpannerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudSpannerLg>', $name, $tech)
 !endprocedure

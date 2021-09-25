@@ -13,9 +13,9 @@ sprite $PartnerInterconnectLg [20x20/16z] lO_L0O10242bsNzYhvDVVPSqF7y1sjdriikSo3
 !endprocedure
 
 !procedure PartnerInterconnectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$PartnerInterconnectMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$PartnerInterconnectLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure PartnerInterconnectGroup($id, $name='Partner Interconnect', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$PartnerInterconnectMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$PartnerInterconnectLg>', $name, $tech)
 !endprocedure

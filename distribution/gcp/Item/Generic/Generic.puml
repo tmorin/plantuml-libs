@@ -13,9 +13,9 @@ sprite $GenericLg [20x20/16z] fS_50G0X30311MBzDtpkBlECXyTYGp_4V1TBWArZXPOjOeMHZx
 !endprocedure
 
 !procedure GenericCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$GenericMd>', 'Generic', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$GenericLg>', 'Generic', $funcName, $content)
 !endprocedure
 
 !procedure GenericGroup($id, $name='Generic', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$GenericMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$GenericLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ModifiersStorageLg [20x20/16z] Ow08iA815g0OFmyRBpyIu0M9SJ7mO8YX0LuSTZ2X0
 !endprocedure
 
 !procedure ModifiersStorageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ModifiersStorageMd>', 'ExpandedProductCardIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ModifiersStorageLg>', 'ExpandedProductCardIcons', $funcName, $content)
 !endprocedure
 
 !procedure ModifiersStorageGroup($id, $name='Modifiers Storage', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ModifiersStorageMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersStorageLg>', $name, $tech)
 !endprocedure

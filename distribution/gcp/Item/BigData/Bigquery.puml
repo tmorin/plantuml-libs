@@ -13,9 +13,9 @@ sprite $BigqueryLg [20x20/16z] bL253G0W39jd_p-C-s8Khs3m1RGA34o1NjGvLfZ9c8dfii6Mp
 !endprocedure
 
 !procedure BigqueryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$BigqueryMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$BigqueryLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure BigqueryGroup($id, $name='Bigquery', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$BigqueryMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$BigqueryLg>', $name, $tech)
 !endprocedure

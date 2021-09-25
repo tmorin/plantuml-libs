@@ -13,9 +13,9 @@ sprite $CloudTranslationApiLg [20x20/16z] fSu53iHG28JX_r4OkF-5rsNIo4g_A0x7bN0oFD
 !endprocedure
 
 !procedure CloudTranslationApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudTranslationApiMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudTranslationApiLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure CloudTranslationApiGroup($id, $name='Cloud Translation Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudTranslationApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudTranslationApiLg>', $name, $tech)
 !endprocedure

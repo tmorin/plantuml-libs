@@ -13,9 +13,9 @@ sprite $CloudDnsLg [20x20/16z] ZSw35S1G343HrtZ_XMlx7do4_AQpM8n_SlqJv3lllj_CYWlDP
 !endprocedure
 
 !procedure CloudDnsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudDnsMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudDnsLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudDnsGroup($id, $name='Cloud Dns', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudDnsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDnsLg>', $name, $tech)
 !endprocedure

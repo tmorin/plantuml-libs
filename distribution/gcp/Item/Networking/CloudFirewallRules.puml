@@ -13,9 +13,9 @@ sprite $CloudFirewallRulesLg [20x20/16z] fT350KCX403HWHNel-7OtEB9VoTqZQzj1Sj50qj
 !endprocedure
 
 !procedure CloudFirewallRulesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudFirewallRulesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudFirewallRulesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudFirewallRulesGroup($id, $name='Cloud Firewall Rules', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudFirewallRulesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudFirewallRulesLg>', $name, $tech)
 !endprocedure

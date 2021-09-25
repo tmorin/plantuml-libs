@@ -13,9 +13,9 @@ sprite $CloudNetworkLg [20x20/16z] bS-55O0m4C3GyyV-4nFSfS4_rafhgbTpjnlpgsLTK3ihl
 !endprocedure
 
 !procedure CloudNetworkCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudNetworkMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudNetworkLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudNetworkGroup($id, $name='Cloud Network', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudNetworkMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudNetworkLg>', $name, $tech)
 !endprocedure

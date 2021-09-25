@@ -13,9 +13,9 @@ sprite $PersistentDiskLg [20x20/16z] bSx50S0W30LG7FPVk5ui_exHx_H2dDbhhXDgeNpGMeV
 !endprocedure
 
 !procedure PersistentDiskCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$PersistentDiskMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$PersistentDiskLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure PersistentDiskGroup($id, $name='Persistent Disk', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$PersistentDiskMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$PersistentDiskLg>', $name, $tech)
 !endprocedure

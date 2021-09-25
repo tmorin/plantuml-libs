@@ -13,9 +13,9 @@ sprite $DataprocLg [20x20/16z] dK-50S0W35iJ-F_buUvrb-yMHDe8BNGnoqtCC7XGfsb3NKoti
 !endprocedure
 
 !procedure DataprocCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataprocMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DataprocLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure DataprocGroup($id, $name='Dataproc', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataprocMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DataprocLg>', $name, $tech)
 !endprocedure

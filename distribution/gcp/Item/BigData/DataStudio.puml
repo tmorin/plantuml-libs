@@ -13,9 +13,9 @@ sprite $DataStudioLg [20x20/16z] dO-54S1G24Dns7_XklVxE-Em9308FclRY8YxjxTywTdLqsk
 !endprocedure
 
 !procedure DataStudioCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataStudioMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DataStudioLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure DataStudioGroup($id, $name='Data Studio', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataStudioMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DataStudioLg>', $name, $tech)
 !endprocedure

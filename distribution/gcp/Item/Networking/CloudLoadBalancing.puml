@@ -13,9 +13,9 @@ sprite $CloudLoadBalancingLg [20x20/16z] fSd70S0m24DH1oGb-o_ibjxRFnXu3cyopwc4_pQ
 !endprocedure
 
 !procedure CloudLoadBalancingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudLoadBalancingMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudLoadBalancingLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudLoadBalancingGroup($id, $name='Cloud Load Balancing', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudLoadBalancingMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudLoadBalancingLg>', $name, $tech)
 !endprocedure

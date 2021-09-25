@@ -13,9 +13,9 @@ sprite $AppEngineLg [20x20/16z] hT253GD134JHyNp3zTzmI6Yj8FIM6VInq87MePgZZxGsyxIs
 !endprocedure
 
 !procedure AppEngineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$AppEngineMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$AppEngineLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure AppEngineGroup($id, $name='App Engine', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$AppEngineMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$AppEngineLg>', $name, $tech)
 !endprocedure

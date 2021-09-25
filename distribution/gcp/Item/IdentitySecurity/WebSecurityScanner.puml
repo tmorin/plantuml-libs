@@ -16,9 +16,9 @@ VkGD
 !endprocedure
 
 !procedure WebSecurityScannerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$WebSecurityScannerMd>', 'IdentitySecurity', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$WebSecurityScannerLg>', 'IdentitySecurity', $funcName, $content)
 !endprocedure
 
 !procedure WebSecurityScannerGroup($id, $name='Web Security Scanner', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$WebSecurityScannerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$WebSecurityScannerLg>', $name, $tech)
 !endprocedure

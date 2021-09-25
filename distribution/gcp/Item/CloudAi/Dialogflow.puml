@@ -13,9 +13,9 @@ sprite $DialogflowLg [20x20/16z] bSg53G0n049HgBB_mdTrZVN7o0jupGLpISukuaFF77HSBt6
 !endprocedure
 
 !procedure DialogflowCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DialogflowMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DialogflowLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure DialogflowGroup($id, $name='Dialogflow', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DialogflowMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DialogflowLg>', $name, $tech)
 !endprocedure

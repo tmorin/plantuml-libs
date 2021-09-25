@@ -13,9 +13,9 @@ sprite $CloudMonitoringLg [20x20/16z] lSY53SC050DHVtAz_y8DCucIfnCTFi6TUdhkssTj0L
 !endprocedure
 
 !procedure CloudMonitoringCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudMonitoringMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudMonitoringLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure CloudMonitoringGroup($id, $name='Cloud Monitoring', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudMonitoringMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudMonitoringLg>', $name, $tech)
 !endprocedure

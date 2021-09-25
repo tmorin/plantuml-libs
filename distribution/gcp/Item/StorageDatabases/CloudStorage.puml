@@ -13,9 +13,9 @@ sprite $CloudStorageLg [20x20/16z] fSwr0G1H20FGuEo_yBb-gNWb6fIeofVPLdFxrTB_DQAtX
 !endprocedure
 
 !procedure CloudStorageCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudStorageMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudStorageLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure CloudStorageGroup($id, $name='Cloud Storage', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudStorageMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudStorageLg>', $name, $tech)
 !endprocedure

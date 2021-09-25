@@ -13,9 +13,9 @@ sprite $StandardNetworkTierLg [20x20/16z] nKs50S0m3A9H_dzuMZzWYolWK_5z40x20qFCtb
 !endprocedure
 
 !procedure StandardNetworkTierCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$StandardNetworkTierMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$StandardNetworkTierLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure StandardNetworkTierGroup($id, $name='Standard Network Tier', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$StandardNetworkTierMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$StandardNetworkTierLg>', $name, $tech)
 !endprocedure

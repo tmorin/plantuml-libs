@@ -13,9 +13,9 @@ sprite $CloudVisionApiLg [20x20/16z] hOxL5G0X30HZx4l_5L_i_9V5Xq5eI_YFHB-GDI9l5gJ
 !endprocedure
 
 !procedure CloudVisionApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudVisionApiMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudVisionApiLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure CloudVisionApiGroup($id, $name='Cloud Vision Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudVisionApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudVisionApiLg>', $name, $tech)
 !endprocedure

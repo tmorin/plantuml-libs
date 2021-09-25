@@ -13,9 +13,9 @@ sprite $PremiumNetworkTierLg [20x20/16z] pScr0GC14CH07M__3PivzTE44ak8TBwOReQtLZa
 !endprocedure
 
 !procedure PremiumNetworkTierCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$PremiumNetworkTierMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$PremiumNetworkTierLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure PremiumNetworkTierGroup($id, $name='Premium Network Tier', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$PremiumNetworkTierMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$PremiumNetworkTierLg>', $name, $tech)
 !endprocedure

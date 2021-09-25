@@ -13,9 +13,9 @@ sprite $CloudJobsApiLg [20x20/16z] bOk30KH144CpJlyDd_6rUii9i8Zd4zrf4UuUTj3UrnVRe
 !endprocedure
 
 !procedure CloudJobsApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudJobsApiMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudJobsApiLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure CloudJobsApiGroup($id, $name='Cloud Jobs Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudJobsApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudJobsApiLg>', $name, $tech)
 !endprocedure

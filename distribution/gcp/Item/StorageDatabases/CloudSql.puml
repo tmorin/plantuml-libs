@@ -16,9 +16,9 @@ bSw54GGm20H03f8B_LVySNjdZ5bK_etWUecHxabF8QFdm1pBabkGDTbeivw1tCnG-bf_hnSjmdK2ecPa
 !endprocedure
 
 !procedure CloudSqlCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudSqlMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudSqlLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure CloudSqlGroup($id, $name='Cloud Sql', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudSqlMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudSqlLg>', $name, $tech)
 !endprocedure

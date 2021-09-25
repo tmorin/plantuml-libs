@@ -13,9 +13,9 @@ sprite $ToolsForPowershellLg [20x20/16z] lOw55KGX30IZqt_9nvBxrW23P5_S3fBYwmgvkbu
 !endprocedure
 
 !procedure ToolsForPowershellCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ToolsForPowershellMd>', 'DeveloperTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ToolsForPowershellLg>', 'DeveloperTools', $funcName, $content)
 !endprocedure
 
 !procedure ToolsForPowershellGroup($id, $name='Tools For Powershell', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ToolsForPowershellMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ToolsForPowershellLg>', $name, $tech)
 !endprocedure

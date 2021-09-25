@@ -13,9 +13,9 @@ sprite $CloudEndpointsLg [20x20/16z] lOw70OGm30DbItcq_y90UXPuBiMzu2ioeydoutAHGx6
 !endprocedure
 
 !procedure CloudEndpointsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudEndpointsMd>', 'ApiPlatformEcosystems', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudEndpointsLg>', 'ApiPlatformEcosystems', $funcName, $content)
 !endprocedure
 
 !procedure CloudEndpointsGroup($id, $name='Cloud Endpoints', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudEndpointsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudEndpointsLg>', $name, $tech)
 !endprocedure

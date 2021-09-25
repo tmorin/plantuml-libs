@@ -16,9 +16,9 @@ dJIpxBehtdK1
 !endprocedure
 
 !procedure ErrorReportingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ErrorReportingMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ErrorReportingLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure ErrorReportingGroup($id, $name='Error Reporting', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ErrorReportingMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ErrorReportingLg>', $name, $tech)
 !endprocedure

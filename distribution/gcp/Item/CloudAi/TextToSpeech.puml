@@ -13,9 +13,9 @@ sprite $TextToSpeechLg [20x20/16z] hSwr0GG14CD0Bxl_XX-FcIPK93mc75D5AYPe5VZABuCn-
 !endprocedure
 
 !procedure TextToSpeechCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$TextToSpeechMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$TextToSpeechLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure TextToSpeechGroup($id, $name='Text To Speech', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$TextToSpeechMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$TextToSpeechLg>', $name, $tech)
 !endprocedure

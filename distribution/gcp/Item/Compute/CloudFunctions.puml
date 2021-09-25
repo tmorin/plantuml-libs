@@ -13,9 +13,9 @@ sprite $CloudFunctionsLg [20x20/16z] bSu54i0W34HHmWTo_nFNszXOqPs7jZ-5aWJ8wGk6WDX
 !endprocedure
 
 !procedure CloudFunctionsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudFunctionsMd>', 'Compute', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudFunctionsLg>', 'Compute', $funcName, $content)
 !endprocedure
 
 !procedure CloudFunctionsGroup($id, $name='Cloud Functions', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudFunctionsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudFunctionsLg>', $name, $tech)
 !endprocedure

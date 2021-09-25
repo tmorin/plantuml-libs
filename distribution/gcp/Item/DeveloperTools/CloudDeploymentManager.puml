@@ -13,9 +13,9 @@ sprite $CloudDeploymentManagerLg [20x20/16z] fSs53SCm54NH1_wm_yHLc4KzuHi3_f8tOsg
 !endprocedure
 
 !procedure CloudDeploymentManagerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudDeploymentManagerMd>', 'DeveloperTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudDeploymentManagerLg>', 'DeveloperTools', $funcName, $content)
 !endprocedure
 
 !procedure CloudDeploymentManagerGroup($id, $name='Cloud Deployment Manager', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudDeploymentManagerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDeploymentManagerLg>', $name, $tech)
 !endprocedure

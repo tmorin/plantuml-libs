@@ -13,9 +13,9 @@ sprite $DeveloperPortalLg [20x20/16z] jOqv5W0n24ADGUJ-9vwdQMRlyXjNm7Q1cDV5I35ISN
 !endprocedure
 
 !procedure DeveloperPortalCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DeveloperPortalMd>', 'ApiPlatformEcosystems', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DeveloperPortalLg>', 'ApiPlatformEcosystems', $funcName, $content)
 !endprocedure
 
 !procedure DeveloperPortalGroup($id, $name='Developer Portal', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DeveloperPortalMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DeveloperPortalLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $StackdriverLg [20x20/16z] fSs53K9H44JHkpRGVyDVdmKYo8ck3lyolnbJD8ZEUikLBs
 !endprocedure
 
 !procedure StackdriverCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$StackdriverMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$StackdriverLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure StackdriverGroup($id, $name='Stackdriver', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$StackdriverMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$StackdriverLg>', $name, $tech)
 !endprocedure

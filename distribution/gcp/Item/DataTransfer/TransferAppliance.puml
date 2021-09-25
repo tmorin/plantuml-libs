@@ -13,9 +13,9 @@ sprite $TransferApplianceLg [20x20/16z] lSs54KCn30DGWwJV_IVkXM60l2EpxQ6OV9O-_ZgL
 !endprocedure
 
 !procedure TransferApplianceCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$TransferApplianceMd>', 'DataTransfer', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$TransferApplianceLg>', 'DataTransfer', $funcName, $content)
 !endprocedure
 
 !procedure TransferApplianceGroup($id, $name='Transfer Appliance', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$TransferApplianceMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$TransferApplianceLg>', $name, $tech)
 !endprocedure

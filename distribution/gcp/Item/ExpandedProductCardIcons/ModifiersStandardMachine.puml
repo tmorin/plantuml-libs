@@ -13,9 +13,9 @@ sprite $ModifiersStandardMachineLg [20x20/16z] lSY30K0n34NHsitRVzjlcxVCOSyYZBErO
 !endprocedure
 
 !procedure ModifiersStandardMachineCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ModifiersStandardMachineMd>', 'ExpandedProductCardIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ModifiersStandardMachineLg>', 'ExpandedProductCardIcons', $funcName, $content)
 !endprocedure
 
 !procedure ModifiersStandardMachineGroup($id, $name='Modifiers Standard Machine', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ModifiersStandardMachineMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersStandardMachineLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $ApiAnalyticsLg [20x20/16z] nSt50KKX34JH6s4o_JVyvMa9d0t4sQn-UAKyHLNGzkBW0
 !endprocedure
 
 !procedure ApiAnalyticsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ApiAnalyticsMd>', 'ApiPlatformEcosystems', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ApiAnalyticsLg>', 'ApiPlatformEcosystems', $funcName, $content)
 !endprocedure
 
 !procedure ApiAnalyticsGroup($id, $name='Api Analytics', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ApiAnalyticsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ApiAnalyticsLg>', $name, $tech)
 !endprocedure

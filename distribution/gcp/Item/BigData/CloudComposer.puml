@@ -13,9 +13,9 @@ sprite $CloudComposerLg [20x20/16z] bO-50G0X2031azX_ukzEpwH16e2DLbtfKK1x5fsP8Rrk
 !endprocedure
 
 !procedure CloudComposerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudComposerMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudComposerLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure CloudComposerGroup($id, $name='Cloud Composer', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudComposerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudComposerLg>', $name, $tech)
 !endprocedure

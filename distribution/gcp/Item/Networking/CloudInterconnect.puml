@@ -13,9 +13,9 @@ sprite $CloudInterconnectLg [20x20/16z] fT053i0m30F0heaj___5ApUYuGaBmVGVft2NEyox
 !endprocedure
 
 !procedure CloudInterconnectCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudInterconnectMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudInterconnectLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudInterconnectGroup($id, $name='Cloud Interconnect', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudInterconnectMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudInterconnectLg>', $name, $tech)
 !endprocedure

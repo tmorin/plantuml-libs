@@ -13,9 +13,9 @@ sprite $ModifiersAutoscalingLg [20x20/16z] fSi52i0m40NHHUgozpzjvOTXwphn1x5_zRwia
 !endprocedure
 
 !procedure ModifiersAutoscalingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ModifiersAutoscalingMd>', 'ExpandedProductCardIcons', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ModifiersAutoscalingLg>', 'ExpandedProductCardIcons', $funcName, $content)
 !endprocedure
 
 !procedure ModifiersAutoscalingGroup($id, $name='Modifiers Autoscaling', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ModifiersAutoscalingMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ModifiersAutoscalingLg>', $name, $tech)
 !endprocedure

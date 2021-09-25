@@ -13,9 +13,9 @@ sprite $CloudVpnLg [20x20/16z] fP350S0m200fSh3_nELNrrmyEFABgkBlNvxyIKno-PTD7-ghl
 !endprocedure
 
 !procedure CloudVpnCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudVpnMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudVpnLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudVpnGroup($id, $name='Cloud Vpn', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudVpnMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudVpnLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $CloudExternalIpAddressesLg [20x20/16z] lSp50S0m40D1cTr_mu4DCsT-1v9ko8YIN
 !endprocedure
 
 !procedure CloudExternalIpAddressesCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudExternalIpAddressesMd>', 'Networking', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudExternalIpAddressesLg>', 'Networking', $funcName, $content)
 !endprocedure
 
 !procedure CloudExternalIpAddressesGroup($id, $name='Cloud External Ip Addresses', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudExternalIpAddressesMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudExternalIpAddressesLg>', $name, $tech)
 !endprocedure

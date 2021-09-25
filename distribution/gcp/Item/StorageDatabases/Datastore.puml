@@ -13,9 +13,9 @@ sprite $DatastoreLg [20x20/16z] hSYr0O1044JHMwV_Yfav9C7b1okl_Pwovamv36Oe9KGaNJ5Z
 !endprocedure
 
 !procedure DatastoreCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DatastoreMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DatastoreLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure DatastoreGroup($id, $name='Datastore', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DatastoreMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DatastoreLg>', $name, $tech)
 !endprocedure

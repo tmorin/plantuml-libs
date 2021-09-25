@@ -13,9 +13,9 @@ sprite $DataLabLg [20x20/16z] bSx50GC130F1DRl_XiCvnlaQ9Evovnfh5jGbk43Vc97Ah6GkZM
 !endprocedure
 
 !procedure DataLabCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DataLabMd>', 'BigData', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DataLabLg>', 'BigData', $funcName, $content)
 !endprocedure
 
 !procedure DataLabGroup($id, $name='Data Lab', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DataLabMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DataLabLg>', $name, $tech)
 !endprocedure

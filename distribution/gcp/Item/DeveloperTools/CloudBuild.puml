@@ -13,9 +13,9 @@ sprite $CloudBuildLg [20x20/16z] bS-tbGL148LGNZ5Rf_DFUDLNBQp1l1xSpcoGKekvKbqqJl5
 !endprocedure
 
 !procedure CloudBuildCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudBuildMd>', 'DeveloperTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudBuildLg>', 'DeveloperTools', $funcName, $content)
 !endprocedure
 
 !procedure CloudBuildGroup($id, $name='Cloud Build', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudBuildMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudBuildLg>', $name, $tech)
 !endprocedure

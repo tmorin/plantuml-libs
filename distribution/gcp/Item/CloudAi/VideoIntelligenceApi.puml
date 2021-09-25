@@ -13,9 +13,9 @@ sprite $VideoIntelligenceApiLg [20x20/16z] jOz55WDH20GBwpVtlt2aYQypzHK7_euCvVjBr
 !endprocedure
 
 !procedure VideoIntelligenceApiCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$VideoIntelligenceApiMd>', 'CloudAi', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$VideoIntelligenceApiLg>', 'CloudAi', $funcName, $content)
 !endprocedure
 
 !procedure VideoIntelligenceApiGroup($id, $name='Video Intelligence Api', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$VideoIntelligenceApiMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$VideoIntelligenceApiLg>', $name, $tech)
 !endprocedure

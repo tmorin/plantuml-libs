@@ -13,9 +13,9 @@ sprite $CloudLoggingLg [20x20/16z] bOt50G0n20HnwB_XSurddgim3E-KDBG7dTKWGUAGSWqVB
 !endprocedure
 
 !procedure CloudLoggingCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CloudLoggingMd>', 'ManagementTools', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CloudLoggingLg>', 'ManagementTools', $funcName, $content)
 !endprocedure
 
 !procedure CloudLoggingGroup($id, $name='Cloud Logging', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CloudLoggingMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CloudLoggingLg>', $name, $tech)
 !endprocedure

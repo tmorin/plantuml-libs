@@ -13,9 +13,9 @@ sprite $FilestoreLg [20x20/16z] Ow0OC4C18qA8YHa646ACJ320gGgXaXa5CE6r4seAJ24R2B1p
 !endprocedure
 
 !procedure FilestoreCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$FilestoreMd>', 'StorageDatabases', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$FilestoreLg>', 'StorageDatabases', $funcName, $content)
 !endprocedure
 
 !procedure FilestoreGroup($id, $name='Filestore', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$FilestoreMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$FilestoreLg>', $name, $tech)
 !endprocedure
