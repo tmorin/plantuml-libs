@@ -13,9 +13,9 @@ sprite $DockerLg [20x20/16z] lOfLbWCm3CHYdl7z3xoXBVst2bfFuvSeyIxCBF3Xki7c-fNUgfj
 !endprocedure
 
 !procedure DockerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DockerMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DockerLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure DockerGroup($id, $name='Docker', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DockerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DockerLg>', $name, $tech)
 !endprocedure

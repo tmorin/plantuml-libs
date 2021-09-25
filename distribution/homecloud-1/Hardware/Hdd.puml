@@ -13,9 +13,9 @@ sprite $HddLg [22x20/16z] hSp50SH04CH0cRse_ACzPWRNQx1PHEk5me7M4mti90DdsXt-kT3jMs
 !endprocedure
 
 !procedure HddCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$HddMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$HddLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure HddGroup($id, $name='Hdd', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$HddMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$HddLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $DnsLg [20x20/16z] fSw35K1H30FGFBlTVzfl6_Uu3FxXbJBKifzhrDSoOBOr3wXjZOsYRM
 !endprocedure
 
 !procedure DnsCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DnsMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DnsLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure DnsGroup($id, $name='Dns', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DnsMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DnsLg>', $name, $tech)
 !endprocedure

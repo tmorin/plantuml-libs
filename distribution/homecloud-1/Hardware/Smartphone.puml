@@ -13,9 +13,9 @@ sprite $SmartphoneLg [20x20/16z] Oy05UFWXW8-F7IR4pey0C35Eh69iKC2341lEB2B3XGcB60C
 !endprocedure
 
 !procedure SmartphoneCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SmartphoneMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$SmartphoneLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure SmartphoneGroup($id, $name='Smartphone', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$SmartphoneMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$SmartphoneLg>', $name, $tech)
 !endprocedure

@@ -16,9 +16,9 @@ waTR
 !endprocedure
 
 !procedure VolumeCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$VolumeMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$VolumeLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure VolumeGroup($id, $name='Volume', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$VolumeMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeLg>', $name, $tech)
 !endprocedure

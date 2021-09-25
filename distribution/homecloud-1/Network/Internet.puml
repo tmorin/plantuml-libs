@@ -13,9 +13,9 @@ sprite $InternetLg [20x20/16z] hSor0SH044DHBVF-_giznadjbmr8EaDCtcmM05bV7aQA1UPt1
 !endprocedure
 
 !procedure InternetCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$InternetMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$InternetLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure InternetGroup($id, $name='Internet', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$InternetMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$InternetLg>', $name, $tech)
 !endprocedure

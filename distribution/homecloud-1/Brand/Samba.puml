@@ -13,9 +13,9 @@ sprite $SambaLg [20x20/16z] bT053e1044FHuWxtForkRTRcnNza14xj87AqYoenEDheQKtvbvsj
 !endprocedure
 
 !procedure SambaCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$SambaMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$SambaLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure SambaGroup($id, $name='Samba', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$SambaMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$SambaLg>', $name, $tech)
 !endprocedure

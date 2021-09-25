@@ -13,9 +13,9 @@ sprite $LaptopLg [20x20/16z] nSYr0G0X00ImUrTW_sbnBz6KGPtzY6sgM6PNz-ynHjIzYCsz_uY
 !endprocedure
 
 !procedure LaptopCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$LaptopMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$LaptopLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure LaptopGroup($id, $name='Laptop', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$LaptopMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$LaptopLg>', $name, $tech)
 !endprocedure

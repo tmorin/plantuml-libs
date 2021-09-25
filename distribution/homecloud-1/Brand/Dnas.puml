@@ -13,9 +13,9 @@ sprite $DnasLg [20x20/16z] fSY50SCm4CNGRsPh_sdBp4ralASLMKxPgy7S1zpQyStGJlcZ7V7So
 !endprocedure
 
 !procedure DnasCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$DnasMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$DnasLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure DnasGroup($id, $name='Dnas', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$DnasMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$DnasLg>', $name, $tech)
 !endprocedure

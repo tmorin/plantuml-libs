@@ -13,9 +13,9 @@ sprite $RegistryLg [20x20/16z] hOp50O0030Dng2NxJulpmUtgcloFY8pMYEIrI3tqI2vMEHb7F
 !endprocedure
 
 !procedure RegistryCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$RegistryMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$RegistryLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure RegistryGroup($id, $name='Registry', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$RegistryMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$RegistryLg>', $name, $tech)
 !endprocedure

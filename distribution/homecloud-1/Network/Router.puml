@@ -13,9 +13,9 @@ sprite $RouterLg [20x20/16z] hOi30a0X44Gtkxd_QRzjzE8Eg0WY8GDwAMcmzic1bdZ4dBRbuQp
 !endprocedure
 
 !procedure RouterCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$RouterMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$RouterLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure RouterGroup($id, $name='Router', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$RouterMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$RouterLg>', $name, $tech)
 !endprocedure

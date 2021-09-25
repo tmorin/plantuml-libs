@@ -13,9 +13,9 @@ sprite $StackLg [20x20/16z] bSsr0SH04CLGcTdglzh3vSml6_myDKbhLqSe-REHZGON1AiP_9oM
 !endprocedure
 
 !procedure StackCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$StackMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$StackLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure StackGroup($id, $name='Stack', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$StackMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$StackLg>', $name, $tech)
 !endprocedure

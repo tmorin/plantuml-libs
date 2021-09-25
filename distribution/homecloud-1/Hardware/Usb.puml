@@ -13,9 +13,9 @@ sprite $UsbLg [20x20/16z] VSw54KGX303HZplRVxNdai5s_279TIpFLB4Z1M0qN_1-n3XS0_yoyR
 !endprocedure
 
 !procedure UsbCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$UsbMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$UsbLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure UsbGroup($id, $name='Usb', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$UsbMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$UsbLg>', $name, $tech)
 !endprocedure

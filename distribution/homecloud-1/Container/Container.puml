@@ -13,9 +13,9 @@ sprite $ContainerLg [20x20/16z] rSYr0S0m30J0DxD__sd3t8GgdrZum_DAWBGdZcxu0JdheInY
 !endprocedure
 
 !procedure ContainerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$ContainerMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$ContainerLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure ContainerGroup($id, $name='Container', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$ContainerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerLg>', $name, $tech)
 !endprocedure

@@ -13,9 +13,9 @@ sprite $CalibrewebLg [20x20/16z] pSW54i9044JHhcNT-lwtfGU74Zp9MvsFd_Cq5N0qNMcISmp
 !endprocedure
 
 !procedure CalibrewebCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$CalibrewebMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$CalibrewebLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure CalibrewebGroup($id, $name='Calibreweb', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$CalibrewebMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$CalibrewebLg>', $name, $tech)
 !endprocedure

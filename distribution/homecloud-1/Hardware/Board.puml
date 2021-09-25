@@ -13,9 +13,9 @@ sprite $BoardLg [20x20/16z] fO-30K11243FIljF-stZ7NEfNw0iWKud66P8UbrP1eswBZmsf_lH
 !endprocedure
 
 !procedure BoardCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$BoardMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$BoardLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure BoardGroup($id, $name='Board', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$BoardMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$BoardLg>', $name, $tech)
 !endprocedure

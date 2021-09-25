@@ -13,9 +13,9 @@ sprite $PortainerLg [20x20/16z] VSg54GCW4031u_txBpXko6Jn6_XBbLMhDvCmXk3EYrLrrMFh
 !endprocedure
 
 !procedure PortainerCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$PortainerMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$PortainerLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure PortainerGroup($id, $name='Portainer', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$PortainerMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$PortainerLg>', $name, $tech)
 !endprocedure

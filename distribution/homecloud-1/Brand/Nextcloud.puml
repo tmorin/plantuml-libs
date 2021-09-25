@@ -13,9 +13,9 @@ sprite $NextcloudLg [20x20/16z] nSd70O1G381GVal2_WlRTGJV4VXRElcq3ajt3GRiIiK4jD_3
 !endprocedure
 
 !procedure NextcloudCard($id, $funcName="", $content="")
-  IconCardElement($id, 'IconCardElement', '<$NextcloudMd>', '', $funcName, $content)
+  IconCardElement($id, 'IconCardElement', '<$NextcloudLg>', '', $funcName, $content)
 !endprocedure
 
 !procedure NextcloudGroup($id, $name='Nextcloud', $tech='')
-  IconGroupElement($id, 'IconGroupElement', '<$NextcloudMd>', $name, $tech)
+  IconGroupElement($id, 'IconGroupElement', '<$NextcloudLg>', $name, $tech)
 !endprocedure
