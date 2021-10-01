@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.5.1](https://github.com/tmorin/plantuml-libs/compare/v4.5.0...v4.5.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* **homecloud-1:** the Nord constants were wrong ([38068e1](https://github.com/tmorin/plantuml-libs/commit/38068e1f85dfcf0b6e5b968866a11cca5e344982))
+
 ## [4.5.0](https://github.com/tmorin/plantuml-libs/compare/v4.4.0...v4.5.0) (2021-09-25)
 
 
