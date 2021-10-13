@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/tmorin/plantuml-libs/compare/v4.5.1...v5.0.0) (2021-10-13)
+
+
+### ⚠ BREAKING CHANGES
+
+* **homecloud-2:** `homecloud-1` has been deleted
+
+### Features
+
+* **homecloud-2:** add the package ([85bbdcf](https://github.com/tmorin/plantuml-libs/commit/85bbdcf673756aa2250f6421921260dc3c61e480))
+
 ### [4.5.1](https://github.com/tmorin/plantuml-libs/compare/v4.5.0...v4.5.1) (2021-10-01)
 
 
