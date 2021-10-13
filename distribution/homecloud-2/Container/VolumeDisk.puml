@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Container/VolumeDisk
+
+sprite $VolumeDiskXs [10x10/16z] Oy02-Fdu-FWXB3011Z19RY2B5yO20MOk80kYYec1cuSV1X3c0G
+
+sprite $VolumeDiskSm [12x12/16z] TSg50O0m40D0t27xRqjIrwky3XqxnEOu-NsuwM9EsqvGFZxFhHNb6XqstoRo-KAdpJsCY8R43m
+
+sprite $VolumeDiskMd [16x16/16z] XSc54S1G0C9GwaxsdxRkzjyPEHJIj9CzEnPRhmkQMR4zx7IsDhQBevbclNVkMRVtz5ITjquzQxS-eU1AyONk1W
+
+sprite $VolumeDiskLg [20x20/16z] fS_L0S0W34NH45pV_jFMtULKWFiLw0V6WES6b1Q0PUjN1yI1wbiVPpGIlJYqfQaLsoXYsN8_ILaqXTo1cPkXbfOSTaqjcrXUy7YMX3sAUSlGGpK
+
+!procedure VolumeDisk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeDisk', $name, $tech)
+!endprocedure
+
+!procedure VolumeDiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeDiskLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeDiskGroup($id, $name='Volume Disk', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeDiskLg>', $name, $tech)
+!endprocedure

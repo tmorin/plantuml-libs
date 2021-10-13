@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Container/Container
+
+sprite $ContainerXs [10x10/16z] Oy06-DaWW9-130W32EC
+
+sprite $ContainerSm [12x12/16z] Oy05-160WP-1XvEH1qW0MK38mmWYo6ApC3EmW0X-9FDvaAq5
+
+sprite $ContainerMd [16x16/16z] lSUr0SCm04N19sRz_QSDDJ6xytN77TUNG6DH3UJedTgDxOKnlvUOCbRzeNkFy-3Txoi5x19RRm
+
+sprite $ContainerLg [20x20/16z] rSYr0S0m30J0DxD__sd3t8GgdrZum_DAWBGdZcxu0JdheInY3f3BZpH31HJcPdvQYw4ab5RJh_BAGkPo5l5K3m
+
+!procedure Container($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Container', $name, $tech)
+!endprocedure
+
+!procedure ContainerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContainerGroup($id, $name='Container', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerLg>', $name, $tech)
+!endprocedure

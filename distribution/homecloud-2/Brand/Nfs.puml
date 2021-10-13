@@ -1,0 +1,24 @@
+' definition of the Item homecloud-2/Brand/Nfs
+
+sprite $NfsXs [10x10/16z] RSR10G0G34FH003PVre09v-s3vzOQ-NMMhEfJ0MaAKyihRQOeOYKUSEh0m
+
+sprite $NfsSm [12x12/16z] TOo50S0W30G_TV_zfotkS775W9q6b_FKxkEjkMoERTVGvfnVuyEEp-ThquZ9pIzyfzzv7gEWC84C1G
+
+sprite $NfsMd [16x16/16z] XOw30K0n44DJ-xB_jD_cAy_17wMER6RZp6elFx9CX3N2ZRciDOoiTW5N-_uceSXmxEed0nfboyjJFJUxLZ_g7Et0Cz0dSAK7
+
+sprite $NfsLg [20x20/16z] {
+fSi53iG030D1bo7kxVzVMuPZweYYbQCJKbQfTd2P0DTDinfYbKzjZLVMbkL5Cekz6SZcwwhLMTotUhwkMXaZOfHTxRoChtynXThEN3TvR9ckc-rKfHrpCuyK
+tRrINne
+}
+
+!procedure Nfs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Nfs', $name, $tech)
+!endprocedure
+
+!procedure NfsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NfsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NfsGroup($id, $name='Nfs', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NfsLg>', $name, $tech)
+!endprocedure

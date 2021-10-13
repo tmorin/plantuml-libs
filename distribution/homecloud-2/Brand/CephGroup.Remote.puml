@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element CephGroup
+include('homecloud-2/Brand/Ceph')
+
+' renders the element
+CephGroup('CephGroup', 'Ceph Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

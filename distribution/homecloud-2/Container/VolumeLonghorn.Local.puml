@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element VolumeLonghorn
+include('homecloud-2/Container/VolumeLonghorn')
+
+' renders the element
+VolumeLonghorn('VolumeLonghorn', 'Volume Longhorn', 'an optional tech label')
+@enduml

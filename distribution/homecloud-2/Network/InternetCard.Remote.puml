@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element InternetCard
+include('homecloud-2/Network/Internet')
+
+' renders the element
+InternetCard('InternetCard', 'Internet Card', 'an optional description')
+@enduml

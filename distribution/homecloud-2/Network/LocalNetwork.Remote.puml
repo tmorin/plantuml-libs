@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element LocalNetwork
+include('homecloud-2/Network/LocalNetwork')
+
+' renders the element
+LocalNetwork('LocalNetwork', 'Local Network', 'an optional tech label')
+@enduml

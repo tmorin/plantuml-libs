@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element VolumeK8SCard
+include('homecloud-2/Container/VolumeK8S')
+
+' renders the element
+VolumeK8SCard('VolumeK8sCard', 'Volume K8s Card', 'an optional description')
+@enduml

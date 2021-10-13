@@ -10,7 +10,7 @@ import {GcpFactory} from "./packages/gcp";
 import {EventstormingFactory} from "./packages/eventstorming";
 import {Material4Factory} from "./packages/material-4";
 import {Simpleicons5Factory} from "./packages/simpleicons-5";
-import {Homecloud1Factory} from "./packages/homecloud-1";
+import {Homecloud1Factory} from "./packages/homecloud-2";
 
 const PACKAGE_FACTORIES = [
     new Aws20210131Factory(),

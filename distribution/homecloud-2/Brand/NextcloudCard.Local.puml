@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('homecloud-2/bootstrap')
+
+' loads the Item which embeds the element NextcloudCard
+include('homecloud-2/Brand/Nextcloud')
+
+' renders the element
+NextcloudCard('NextcloudCard', 'Nextcloud Card', 'an optional description')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Hardware/SdCard
+
+sprite $SdCardXs [10x10/16z] Oq01_4300MRmyWC940F10WDIM2my8C3
+
+sprite $SdCardSm [12x12/16z] dSP50e100090x0Bv_sjjjuuxfq69alXs7zoDxExAhT4ztsoQydtwKVKjETf70vm
+
+sprite $SdCardMd [16x16/16z] nSUr0G0X00F0l2ja_sbnXvxh3cEBaohftA6280J-FpOzb1itiOKpcVC_VKT70m
+
+sprite $SdCardLg [20x20/16z] rSYr0O1G50F0uF2VPFzfSNTAhZnyn569cJ4m10_EkKW3WG2Tpuv77YxZoeylEJcaEXDSQ
+
+!procedure SdCard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Hardware/SdCard', $name, $tech)
+!endprocedure
+
+!procedure SdCardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SdCardLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SdCardGroup($id, $name='Sd Card', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SdCardLg>', $name, $tech)
+!endprocedure

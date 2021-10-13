@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Container/Manifest
+
+sprite $ManifestXs [10x10/16z] Oq05_706FuJ9mGy2414uanT8CuF5G8W38itBmCyDqSlAZsee
+
+sprite $ManifestSm [12x12/16z] NSV50O1G081Gx9RzfxNzzKu0fJ6coglLVnPV7L3xuX7JXTq9Tu1Dm857Rs_5Jqed
+
+sprite $ManifestMd [16x16/16z] ZSor0GDH30DGtMVM_jC63A4ghp4R_rdC-C272PUee3fTV4y_DYwQ0qCn8283XXmttP-iY0GE4qJcbYyNXEI52nysAxxuxgyx
+
+sprite $ManifestLg [20x20/16z] bSsr0SH04CLGcTdglzh3vSml6_myDKbhLqSe-REHZGON1AiP_9oMPhu6ImItGPbowSz0i5um-zKpslErAQ0Nh8OUeywmmEb549OwFIWSthDEK9fKMlt9Ksy
+
+!procedure Manifest($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/Manifest', $name, $tech)
+!endprocedure
+
+!procedure ManifestCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ManifestLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ManifestGroup($id, $name='Manifest', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ManifestLg>', $name, $tech)
+!endprocedure

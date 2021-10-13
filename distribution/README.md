@@ -12,7 +12,7 @@ The library provides 11 packages.
 - [eventstorming](eventstorming/README.md)
 - [fontawesome-5](fontawesome-5/README.md)
 - [gcp](gcp/README.md)
-- [homecloud-1](homecloud-1/README.md)
+- [homecloud-2](homecloud-2/README.md)
 - [material-4](material-4/README.md)
 - [simpleicons-5](simpleicons-5/README.md)
 

@@ -1,0 +1,21 @@
+' definition of the Item homecloud-2/Network/Internet
+
+sprite $InternetXs [10x10/16z] Oy01-FdveGmeXl2Pc1dO624IZFoyCCNCG1LmrVmGW6GM
+
+sprite $InternetSm [12x12/16z] VSYr0S0m00InCxD__sd3L4Mb-9EwvsHLVDUP0WW2r2qxLMA7Kv4ijsacDp7KJXBWJeQl5G
+
+sprite $InternetMd [16x16/16z] dSV50GCn44DHBPZXzrzjs7G9lK7fBmbmQdQmPw2sJ5eEwE7W4QiQoB9eE82g6Oar2wFXH0vIK_3I5dAJTdro1G
+
+sprite $InternetLg [20x20/16z] hSor0SH044DHBVF-_giznadjbmr8EaDCtcmM05bV7aQA1UPt1yzSf-h13KXw0jq5O7rBmc_k2UZAEFrocxQHiLd822I2sHM4AHGem1vVaqTmyclha2i
+
+!procedure Internet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Network/Internet', $name, $tech)
+!endprocedure
+
+!procedure InternetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$InternetLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure InternetGroup($id, $name='Internet', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$InternetLg>', $name, $tech)
+!endprocedure

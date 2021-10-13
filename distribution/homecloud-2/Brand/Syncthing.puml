@@ -1,0 +1,27 @@
+' definition of the Item homecloud-2/Brand/Syncthing
+
+sprite $SyncthingXs [10x10/16z] 5SR70O104CGmaxcqxhzRc9S4qBm3-Z9jILFnmbVJQYrwDDtL5_KcpH3L3Mdf3t1foWS
+
+sprite $SyncthingSm [12x12/16z] 9Sl50GCn44DHcTc__suJUTzbKB95rmVkkV3Q6U7eudPXkHyHUQfObsUs38xHTUXqAPOv1GaXBBp-9lTHD0cKMqhfwkzWJVe1
+
+sprite $SyncthingMd [16x16/16z] {
+DSS74iCm2031Guv8iU3-_zkCsqvTJhFSWqTvUNC8NH2CjW5qf8VnSK4vTY-lx84hlIKunKUGbi-RTjFx7r33VNA8OAZJAAQ7GcU97PvgMzYatyqJB85ovwCz
+mGHOkbuZowE7uQa1_W
+}
+
+sprite $SyncthingLg [20x20/16z] {
+HSe72iGm0CH09UvL___jOJ2NeQvOhhQT6Jx5QmKkrVeIfzfkSWTo7orIjTyNJJruDK5nC_IAeGiQgdy5TaNnas3PRDc_G4EteTsmVQC-gc_Leq8vK-U45CF3
+CLKq3tYNnxzXmskXARjOVZ4_-MHUZU6s3bc1fedX4S_Yw3e3F51wDy2H_F1NzLY9umS
+}
+
+!procedure Syncthing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Syncthing', $name, $tech)
+!endprocedure
+
+!procedure SyncthingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SyncthingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SyncthingGroup($id, $name='Syncthing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SyncthingLg>', $name, $tech)
+!endprocedure

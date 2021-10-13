@@ -1,0 +1,24 @@
+' definition of the Item homecloud-2/Brand/Dnas
+
+sprite $DnasXs [10x10/16z] RSQt0O0m0C0mqpl-_rf8dw99TFY-hta49i21Sidpp6Kkx2jd68kwUjrMD3y
+
+sprite $DnasSm [12x12/16z] TSg50SCm40J14xEs_sh3CNi4ZxgHUFlcbDStQI_raokc5zuvKVIeLpvcbmR-dJCavqomtvtQKUIT_s5OQUC9
+
+sprite $DnasMd [16x16/16z] XSk30GGn54NH6pkl_sg7QvxmYtzQtt4rTE92kZpja2unkZfY1uG0dF6KmJWNptZEEi58_eYh4iHvY988IKBJMkaoFyJ8rjP-YU-Kz0pxX5Sh
+
+sprite $DnasLg [20x20/16z] {
+fSo50GCX4031UyUExR_Ru77VLmQHFvffpJA2c0CkhNuD-DQQhED5qfjglXksdCCcqYsM3tBipGwDobhNhStWI612236aYYbiUq9DB-UMY_CMtP3TRhRRbWoI
+mR3BF87xnEjjktpO2G
+}
+
+!procedure Dnas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Dnas', $name, $tech)
+!endprocedure
+
+!procedure DnasCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DnasLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DnasGroup($id, $name='Dnas', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DnasLg>', $name, $tech)
+!endprocedure

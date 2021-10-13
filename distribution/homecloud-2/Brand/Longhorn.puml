@@ -1,0 +1,24 @@
+' definition of the Item homecloud-2/Brand/Longhorn
+
+sprite $LonghornXs [12x10/16z] JS650O0m0C2muax_lnQP9zncnstZdepG7OCBbSo00pF43B1O_ErMBm
+
+sprite $LonghornSm [14x12/16z] POk50O104CE2Ezr_MdZNd4kvbLalrJnbTvCcR33kfcm3The8Z44pSP7b5q8PzcfYKCzIJJy
+
+sprite $LonghornMd [19x16/16z] ZSgr0SD00C10sNucxJzjcAjSVKH_4FnFhNv8KmNV5eSAHrxUZBIHrS3DiNCpl9gHXrj_WD59VZfO1yrFXGf-wG1-0u8_vlHXwI_qrna
+
+sprite $LonghornLg [24x20/16z] {
+bSYr0GD040InUURR_girCrkXyAPd0w-NpFGl8-aUJZi9T6SUeqFLZHMFRnp4EcsKm87s0e-6JcOD7AMsT0Vw0AT740L9Znm8XXv56A0dZJqz0yXweHVJLrsl
+ONgbRG4
+}
+
+!procedure Longhorn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Brand/Longhorn', $name, $tech)
+!endprocedure
+
+!procedure LonghornCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LonghornLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LonghornGroup($id, $name='Longhorn', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LonghornLg>', $name, $tech)
+!endprocedure

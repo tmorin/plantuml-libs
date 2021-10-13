@@ -1,0 +1,24 @@
+' definition of the Item homecloud-2/Container/VolumeK8S
+
+sprite $VolumeK8SXs [10x10/16z] Oy02-Fdu-FWXB3010Y0M9uZW1X8iG348Yv-51S82Ci6oFFmmW30F
+
+sprite $VolumeK8SSm [12x12/16z] TSY54S0m3C30CZVQVzemmmUiypHmOhZcrf_WrHxRqt5gc9xXqWlRx13wlVTpyNrU8kuzPf8fem
+
+sprite $VolumeK8SMd [16x16/16z] XSc55S0m4CDGkypQVzeoKtvGxnHIDvCzMnPRm_hKitoRi9ipopLREWP8ZwxhZgezcjWoHpVO7FFvGKSVoBbITA6x0G
+
+sprite $VolumeK8SLg [20x20/16z] {
+fSo50OCm54NH5_VS_QUjknSEnBvf1Sk9lSPWxW6tiUEPePruq2LufJDpr2wn0kbukyIWDBYBUTJmsDlOe3b5qcqCVF2H-Z0lfUFr6dC0kiOUD3hFrCQZg1zj
+0G
+}
+
+!procedure VolumeK8S($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'homecloud-2/Container/VolumeK8S', $name, $tech)
+!endprocedure
+
+!procedure VolumeK8SCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VolumeK8SLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VolumeK8SGroup($id, $name='Volume K8s', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VolumeK8SLg>', $name, $tech)
+!endprocedure
