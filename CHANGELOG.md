@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/tmorin/plantuml-libs/compare/v5.0.0...v5.1.0) (2021-10-14)
+
+
+### Features
+
+* **homecloud-2:** review content for container ([b07ea86](https://github.com/tmorin/plantuml-libs/commit/b07ea8691f217917a347fa0f0d7702f696a9320f))
+
 ## [5.0.0](https://github.com/tmorin/plantuml-libs/compare/v4.5.1...v5.0.0) (2021-10-13)
 
 
