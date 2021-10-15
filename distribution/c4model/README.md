@@ -25,7 +25,7 @@ The package provides 2 modules.
 
 # Examples
 
-The package provides 6 examples.
+The package provides 7 examples.
 
 ## Deployment diagram
 
@@ -56,6 +56,11 @@ The package provides 6 examples.
 
 ![System Landscape diagram](../c4model/system_landscape_diagram.png)<br>
 [The source file.](../c4model/system_landscape_diagram.puml)
+
+## Main Artifacts
+
+![Main Artifacts](../c4model/main_artifacts.png)<br>
+[The source file.](../c4model/main_artifacts.puml)
 
 
 
