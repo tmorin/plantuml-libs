@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.2.0](https://github.com/tmorin/plantuml-libs/compare/v5.1.0...v5.2.0) (2021-10-15)
+
+
+### Features
+
+* **c4model:** review color palette ([9d301ac](https://github.com/tmorin/plantuml-libs/commit/9d301ac0253cfd4268787fc9ba3b62e77ffb398c))
+* **c4nord:** add new C4 Model flavor with Nord Theme ([fd365da](https://github.com/tmorin/plantuml-libs/commit/fd365daedfd75173b8d36354b30728233c1cd9dc))
+
 ## [5.1.0](https://github.com/tmorin/plantuml-libs/compare/v5.0.0...v5.1.0) (2021-10-14)
 
 
