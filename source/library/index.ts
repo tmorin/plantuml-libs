@@ -6,6 +6,7 @@ import {Aws20210730Factory} from "./packages/aws-20210730";
 import {AzureV2Factory} from "./packages/azure-4";
 import {Fontawesome5Factory} from "./packages/fontawesome-5";
 import {C4modelFactory} from "./packages/c4model";
+import {C4nordFactory} from "./packages/c4nord";
 import {GcpFactory} from "./packages/gcp";
 import {EventstormingFactory} from "./packages/eventstorming";
 import {Material4Factory} from "./packages/material-4";
@@ -17,6 +18,7 @@ const PACKAGE_FACTORIES = [
     new Aws20210730Factory(),
     new AzureV2Factory(),
     new C4modelFactory(),
+    new C4nordFactory(),
     new Eip1Factory(),
     new EventstormingFactory(),
     new Fontawesome5Factory(),

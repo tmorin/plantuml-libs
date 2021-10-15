@@ -43,6 +43,7 @@ The available packages:
 - [aws-20210730](distribution/aws-20210730/README.md)
 - [azure-4](distribution/azure-4/README.md)
 - [c4model](distribution/c4model/README.md)
+- [c4nord](distribution/c4nord/README.md) (c4model + Nord Theme)
 - [eip-1](distribution/eip-1/README.md)
 - [eventstorming](distribution/eventstorming/README.md)
 - [fontawesome-5](distribution/fontawesome-5/README.md)

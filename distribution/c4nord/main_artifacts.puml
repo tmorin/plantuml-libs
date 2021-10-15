@@ -1,0 +1,33 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION=".."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('c4nord/bootstrap')
+
+C4Legend()
+Title("Main artifacts")
+
+include('c4model/Boundary/EnterpriseBoundary')
+include('c4model/Element/ExternalSystem')
+include('c4model/Element/Person')
+include('c4model/Element/System')
+include('c4model/Element/Container')
+include('c4model/Element/Component')
+ExternalSystem(ext_sys, "External System", "the description of the  external system")
+Person(person, "Person", "the description of the person")
+EnterpriseBoundary(enterprise, "enterprise") {
+  System(system, "System", "the description of the system")
+  Container(container, "Container", "the description of the  container")
+  Component(component, "Component", "the description of the  component")
+}
+ext_sys --> system : C4Relationship("uses", "http")
+person --> system : C4Relationship("uses", "web")
+system --> container : C4Relationship("uses", "messaging")
+container --> component : C4Relationship("uses", "messaging")
+
+@enduml
