@@ -48,7 +48,7 @@ The available packages:
 - [eventstorming](distribution/eventstorming/README.md)
 - [fontawesome-5](distribution/fontawesome-5/README.md)
 - [gcp](distribution/gcp/README.md)
-- [homecloud-1](distribution/homecloud-1/README.md)
+- [homecloud-2](distribution/homecloud-2/README.md)
 - [material-4](distribution/material-4/README.md)
 - [simpleicons-5](distribution/simpleicons-5/README.md)
 
