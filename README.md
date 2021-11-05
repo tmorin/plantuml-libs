@@ -3,9 +3,9 @@
 [![Continous Integration](https://github.com/tmorin/plantuml-libs/actions/workflows/continuous-integration.yaml/badge.svg)](https://github.com/tmorin/plantuml-libs/actions/workflows/continuous-integration.yaml)
 [![npm version](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs.svg)](https://badge.fury.io/js/%40tmorin%2Fplantuml-libs)
 
-This is the **version 4** of the library.
+This is the **version 5** of the library.
 
-The **version 3** of the library is available in the **v3.x branch**.
+The **version 4** of the library is available in the **v4.x branch**.
 
 ## Presentation
 
