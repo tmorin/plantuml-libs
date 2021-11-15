@@ -1,0 +1,10 @@
+{% extends "item_source.tera" %}
+{% block elements %}
+{%- for element in data.elements %}
+{%- if element.type == "Custom" %}
+!procedure {{ element.procedure_name }}($id, $name="", $tech="")
+  DstGroup('{{ element.procedure_name }}', $id, $name, $tech)
+!endprocedure
+{%- endif %}
+{% endfor -%}
+{% endblock elements %}

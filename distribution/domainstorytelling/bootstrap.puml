@@ -1,0 +1,363 @@
+@startuml
+
+
+
+' Group
+
+!procedure DstGroup($stereotype, $id, $name="", $tech="")
+  !$s=""
+  ' name
+  !if ($name!="" && $tech!="")
+    !$s=$name + "\n<size:" + $FONT_SIZE_XS + ">[" + $tech + "]</size>"
+  !elseif ($name != "")
+    !$s=$name
+  !elseif ($tech != "")
+    !$s="<size:" + $FONT_SIZE_XS + ">[" + $tech + "]</size>"
+  !endif
+  rectangle $id <<$stereotype>> as "$s"
+!endprocedure
+
+' Activity
+
+!procedure Activity($index="", $label="", $color="")
+  !$s=""
+  ' index
+  !if ($index != "" && $color!="")
+    !$s="<back:" + $color + ">**" + $index + "**</back>"
+  !elseif ($index != "")
+    !$s="**" + $index + "**"
+  !endif
+  !if ($label!="")
+    ' label
+    !if ($s!="")
+      !$s=$s + "\n" + $label
+    !else
+      !$s=$label
+    !endif
+  !endif
+  ' output
+  "$s"
+!endprocedure
+
+hide stereotype
+
+skinparam defaultTextAlignment center
+skinparam wrapWidth 200
+skinparam maxMessageSize 150
+
+' Polar Night
+!global $HOMECLOUD_NORD_0="#2e3440"
+!global $HOMECLOUD_NORD_1="#3b4252"
+!global $HOMECLOUD_NORD_2="#434c5e"
+!global $HOMECLOUD_NORD_3="#4c566a"
+' Snow Storm
+!global $HOMECLOUD_NORD_4="#d8dee9"
+!global $HOMECLOUD_NORD_5="#e5e9f0"
+!global $HOMECLOUD_NORD_6="#eceff4"
+' Frost
+!global $HOMECLOUD_NORD_7="#8fbcbb"
+!global $HOMECLOUD_NORD_8="#88c0d0"
+!global $HOMECLOUD_NORD_9="#81a1c1"
+!global $HOMECLOUD_NORD_10="#5e81ac"
+' Aurora
+!global $HOMECLOUD_NORD_11="#bf616a"
+!global $HOMECLOUD_NORD_12="#d08770"
+!global $HOMECLOUD_NORD_13="#ebcb8b"
+!global $HOMECLOUD_NORD_14="#a3be8c"
+!global $HOMECLOUD_NORD_15="#b48ead"
+
+!global $FONT_COLOR=$HOMECLOUD_NORD_2
+!global $FONT_COLOR_LIGHT=$HOMECLOUD_NORD_3
+
+skinparam Arrow {
+    Color $FONT_COLOR
+    FontColor $FONT_COLOR
+    FontSize $FONT_SIZE_SM
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor none
+    BackgroundColor none
+    FontColor $FONT_COLOR
+    shadowing false
+}
+
+skinparam Rectangle<<IconCardElement>> {
+    BorderThickness 1
+    BorderColor $FONT_COLOR
+    BackgroundColor #FFFFFF
+    FontColor $FONT_COLOR_LIGHT
+    FontSize $FONT_SIZE_XS
+    shadowing true
+}
+
+skinparam Rectangle<<IconGroupElement>> {
+  StereotypeFontColor $FONT_COLOR_LIGHT
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_MD
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+skinparam Rectangle<<SolidGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle solid
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle dashed
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedGroup>> {
+  StereotypeFontColor $FONT_COLOR
+  BorderThickness 1
+  BorderColor $FONT_COLOR
+  BorderStyle dotted
+  FontStyle none
+  FontColor $FONT_COLOR
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedFrost10Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_10
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_10
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_10
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora11Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_11
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_11
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_11
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora12Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_12
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_12
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_12
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora13Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_13
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_13
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_13
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora14Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_14
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_14
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_14
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<SolidAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle solid
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DashedAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle dashed
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+skinparam Rectangle<<DottedAurora15Group>> {
+  StereotypeFontColor $HOMECLOUD_NORD_15
+  BorderThickness 1
+  BorderColor $HOMECLOUD_NORD_15
+  BorderStyle dotted
+  FontStyle none
+  FontColor $HOMECLOUD_NORD_15
+  FontSize $FONT_SIZE_SM
+  BackgroundColor transparent
+  shadowing false
+}
+
+
+
+
+@enduml

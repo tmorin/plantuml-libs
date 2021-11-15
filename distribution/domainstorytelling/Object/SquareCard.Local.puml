@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('domainstorytelling/bootstrap')
+
+' loads the Item which embeds the element SquareCard
+include('domainstorytelling/Object/Square')
+
+' renders the element
+SquareCard('SquareCard', 'Square Card', 'an optional description')
+@enduml

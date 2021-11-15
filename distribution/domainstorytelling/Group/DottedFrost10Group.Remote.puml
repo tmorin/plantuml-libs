@@ -1,0 +1,19 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('domainstorytelling/bootstrap')
+
+' loads the Item which embeds the element DottedFrost10Group
+include('domainstorytelling/Group/DottedFrost10Group')
+
+DottedFrost10Group('DottedFrost10Group', 'Dotted Frost10 Group', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

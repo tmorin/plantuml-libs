@@ -1,0 +1,56 @@
+{% extends "package_example.tera" %}
+
+{% block content %}
+Title("Groups", "From the book __Domain Storytelling__")
+
+include('domainstorytelling/Actor/User')
+include('domainstorytelling/Group/SolidGroup')
+include('fontawesome-5/Solid/TicketAlt')
+include('fontawesome-5/Solid/Film')
+include('fontawesome-5/Solid/Hamburger')
+
+User(moviegoer, "moviegoer")
+User(cashier, "cashier")
+User(usher, "usher")
+User(concession_stand, "concession stand")
+User(projectionist, "projectionist")
+
+SolidGroup("group_ticket", "ticket sales") {
+  TicketAlt(ticket_a, "ticket")
+}
+
+SolidGroup("group_entrance", "entrance control") {
+  TicketAlt(ticket_b, "ticket")
+  TicketAlt(ticket_c, "ticket")
+}
+
+SolidGroup("group_snack", "snack sales") {
+  Hamburger(snacks_and_drinks, "snacks and\ndrinks")
+}
+
+SolidGroup("group_projection", "movie projection") {
+  Film(movie_a, "movie")
+  Film(movie_b, "movie")
+}
+
+moviegoer Activity("02") -u-> snacks_and_drinks : buys
+snacks_and_drinks -u-> concession_stand : from
+
+moviegoer Activity("01") -u-> ticket_a : Activity("", "buys")
+ticket_a -u-> cashier : from
+
+moviegoer Activity("03") -d-> ticket_b : shows
+ticket_b -d-> usher : to
+
+usher Activity("04") -u-> ticket_c : checks
+ticket_c -u-> moviegoer : and fronts\nentrance to
+
+projectionist Activity("05") -u-> movie_a : starts
+movie_a -u-> moviegoer : for
+
+moviegoer Activity("06") --> movie_b : watches
+
+movie_b -[hidden]r- movie_a
+movie_a -[hidden]r- ticket_c
+ticket_c -[hidden]r- ticket_b
+{% endblock content -%}

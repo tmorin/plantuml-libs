@@ -7,11 +7,12 @@ import {AzureV2Factory} from "./packages/azure-4";
 import {Fontawesome5Factory} from "./packages/fontawesome-5";
 import {C4modelFactory} from "./packages/c4model";
 import {C4nordFactory} from "./packages/c4nord";
+import {DomainstorytellingFactory} from "./packages/domainstorytelling";
 import {GcpFactory} from "./packages/gcp";
 import {EventstormingFactory} from "./packages/eventstorming";
 import {Material4Factory} from "./packages/material-4";
 import {Simpleicons5Factory} from "./packages/simpleicons-5";
-import {Homecloud1Factory} from "./packages/homecloud-2";
+import {Homecloud2Factory} from "./packages/homecloud-2";
 
 const PACKAGE_FACTORIES = [
     new Aws20210131Factory(),
@@ -19,11 +20,12 @@ const PACKAGE_FACTORIES = [
     new AzureV2Factory(),
     new C4modelFactory(),
     new C4nordFactory(),
+    new DomainstorytellingFactory(),
     new Eip1Factory(),
     new EventstormingFactory(),
     new Fontawesome5Factory(),
     new GcpFactory(),
-    new Homecloud1Factory(),
+    new Homecloud2Factory(),
     new Material4Factory(),
     new Simpleicons5Factory(),
 ];

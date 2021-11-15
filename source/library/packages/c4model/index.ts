@@ -5,19 +5,19 @@ import F from "fs";
 import P from "path";
 import {toSnakeCase} from "../../../../workdir-generator/naming";
 
-export type ElementItemCsvRow = {
+type ElementItemCsvRow = {
     name: string,
     shape: string,
     stereotype: string,
     type: string,
 }
 
-export type BoundaryItemCsvRow = {
+type BoundaryItemCsvRow = {
     name: string,
     type: string,
 }
 
-export function createElementItems(path: string, urn: string): Array<Item> {
+function createElementItems(path: string, urn: string): Array<Item> {
     const element_items_as_csv: Array<ElementItemCsvRow> = parse(F.readFileSync(
         path,
         {encoding: "utf-8"}
@@ -45,7 +45,7 @@ export function createElementItems(path: string, urn: string): Array<Item> {
         });
 }
 
-export function createBoundaryItems(path: string, urn: string): Array<Item> {
+function createBoundaryItems(path: string, urn: string): Array<Item> {
     const boundary_items_as_csv: Array<BoundaryItemCsvRow> = parse(F.readFileSync(
         path,
         {encoding: "utf-8"}

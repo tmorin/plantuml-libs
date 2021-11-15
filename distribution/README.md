@@ -2,13 +2,14 @@
 
 ## Packages
 
-The library provides 12 packages.
+The library provides 13 packages.
 
 - [aws-20210131](aws-20210131/README.md)
 - [aws-20210730](aws-20210730/README.md)
 - [azure-4](azure-4/README.md)
 - [c4model](c4model/README.md)
 - [c4nord](c4nord/README.md)
+- [domainstorytelling](domainstorytelling/README.md)
 - [eip-1](eip-1/README.md)
 - [eventstorming](eventstorming/README.md)
 - [fontawesome-5](fontawesome-5/README.md)

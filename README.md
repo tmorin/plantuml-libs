@@ -39,18 +39,19 @@ The resources can be browsed, from GitHub, with Markdown pages directly in the [
 
 The available packages:
 
-- [aws-20210131](distribution/aws-20210131/README.md)
-- [aws-20210730](distribution/aws-20210730/README.md)
-- [azure-4](distribution/azure-4/README.md)
-- [c4model](distribution/c4model/README.md)
-- [c4nord](distribution/c4nord/README.md) (c4model + Nord Theme)
-- [eip-1](distribution/eip-1/README.md)
-- [eventstorming](distribution/eventstorming/README.md)
-- [fontawesome-5](distribution/fontawesome-5/README.md)
-- [gcp](distribution/gcp/README.md)
-- [homecloud-2](distribution/homecloud-2/README.md)
-- [material-4](distribution/material-4/README.md)
-- [simpleicons-5](distribution/simpleicons-5/README.md)
+- [AWS (2021-01-31)](distribution/aws-20210131/README.md)
+- [AWS (2021-07-30)](distribution/aws-20210730/README.md)
+- [Azure](distribution/azure-4/README.md)
+- [C4 Model](distribution/c4model/README.md)
+- [c4model + Nord Theme](distribution/c4nord/README.md)
+- [Domain Storytelling](distribution/domainstorytelling/README.md)
+- [Enterprise Integration Pattern](distribution/eip-1/README.md)
+- [Event Storming](distribution/eventstorming/README.md)
+- [Fontawesome](distribution/fontawesome-5/README.md)
+- [Gougle Compute Platform](distribution/gcp/README.md)
+- [Homecloud](distribution/homecloud-2/README.md)
+- [Material](distribution/material-4/README.md)
+- [Simpleicons](distribution/simpleicons-5/README.md)
 
 ## Generate diagrams with `gdiag`
 

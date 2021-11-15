@@ -1,0 +1,10 @@
+{% extends "item_snippet.tera" %}
+{% block procedures %}
+{%- if data.element_shape == "Custom" %}
+{{ data.procedure_name }}('{{ data.variable_name }}', '{{ data.primary_label }}', '{{ data.technical_label | default(value="an optional tech label") }}') {
+  note as note
+  the content of the boundary
+  end note
+}
+{%- endif %}
+{% endblock procedures %}

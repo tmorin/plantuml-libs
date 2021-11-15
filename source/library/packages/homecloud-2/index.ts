@@ -10,7 +10,7 @@ import {unifyItems} from "../../../../workdir-generator/discovery";
 
 type ItemsByModules = { [key: string]: Array<Item> };
 
-export class Homecloud1Factory implements PackageFactory {
+export class Homecloud2Factory implements PackageFactory {
 
     getUrn(): string {
         return "homecloud-2";

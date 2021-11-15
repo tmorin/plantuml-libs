@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -ex
+
 sync
 uid=$(id "$USER" -u)
 gid=$(id "$USER" -g)

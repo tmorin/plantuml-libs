@@ -1,0 +1,21 @@
+' definition of the Item domainstorytelling/Object/Circle
+
+sprite $CircleXs [10x10/16z] Om01PWOmOEK70I233KX1cFmmW60n8yImiM1Ca85G1W
+
+sprite $CircleSm [12x12/16z] PSZ50S0W00F0jBZlFotkt2U2Yg3peP2bXiwLTw08ozx9-xzTple1hbUEZ8ut0G
+
+sprite $CircleMd [16x16/16z] XSl70S0m34BHdzx3_jEcsnQdl9i4yAeQ86dqs7bjIhfq9cqg9o0p8LV9DNBytRkTBTWDT7v2woSmfIsS
+
+sprite $CircleLg [20x20/16z] ZSl50SGm00F13PlLVxN76ECy1RnD2tycfuUqyxRfYoUhNpF0hd_0f9C8JcSpobYKIPDoYtACPO6KPJjxbW7vB0i3TtCMtSM_uyjiqttpIgu
+
+!procedure Circle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'domainstorytelling/Object/Circle', $name, $tech)
+!endprocedure
+
+!procedure CircleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CircleLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CircleGroup($id, $name='Circle', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CircleLg>', $name, $tech)
+!endprocedure
