@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.0.0](https://github.com/tmorin/plantuml-libs/compare/v5.3.0...v6.0.0) (2021-11-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-20210131:** `aws-20210131` has been deleted
+
+### Features
+
+* **simpleicons-5:** upgrade to 5.23.0 ([e0a5010](https://github.com/tmorin/plantuml-libs/commit/e0a5010f4651a79ad9463b99a1733c6ccfbd40ad))
+
+
+* **aws-20210131:** remove the package ([f3c3bbd](https://github.com/tmorin/plantuml-libs/commit/f3c3bbd44a5073d82fdf2ec3b311504af137893f))
+
 ## [5.3.0](https://github.com/tmorin/plantuml-libs/compare/v5.2.0...v5.3.0) (2021-11-16)
 
 
