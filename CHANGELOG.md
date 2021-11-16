@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.3.0](https://github.com/tmorin/plantuml-libs/compare/v5.2.0...v5.3.0) (2021-11-16)
+
+
+### Features
+
+* **domainstorytelling:** add the package ([093abbd](https://github.com/tmorin/plantuml-libs/commit/093abbd2e6e47cf899f5d675f518c3ea6a83ee8e))
+
 ## [5.2.0](https://github.com/tmorin/plantuml-libs/compare/v5.1.0...v5.2.0) (2021-10-15)
 
 
