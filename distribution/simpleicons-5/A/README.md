@@ -1,11 +1,12 @@
 # A
 
-The module contains 184 items.
+The module contains 198 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-5/A/Abbott](../../simpleicons-5/A/Abbott.png) | [simpleicons-5/A/Abbott](../../simpleicons-5/A/Abbott.md) |
 | ![illustration of simpleicons-5/A/Abbrobotstudio](../../simpleicons-5/A/Abbrobotstudio.png) | [simpleicons-5/A/Abbrobotstudio](../../simpleicons-5/A/Abbrobotstudio.md) |
 | ![illustration of simpleicons-5/A/Abbvie](../../simpleicons-5/A/Abbvie.png) | [simpleicons-5/A/Abbvie](../../simpleicons-5/A/Abbvie.md) |
 | ![illustration of simpleicons-5/A/Abletonlive](../../simpleicons-5/A/Abletonlive.png) | [simpleicons-5/A/Abletonlive](../../simpleicons-5/A/Abletonlive.md) |
@@ -40,6 +41,7 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Adobepremierepro](../../simpleicons-5/A/Adobepremierepro.png) | [simpleicons-5/A/Adobepremierepro](../../simpleicons-5/A/Adobepremierepro.md) |
 | ![illustration of simpleicons-5/A/Adobexd](../../simpleicons-5/A/Adobexd.png) | [simpleicons-5/A/Adobexd](../../simpleicons-5/A/Adobexd.md) |
 | ![illustration of simpleicons-5/A/Adonisjs](../../simpleicons-5/A/Adonisjs.png) | [simpleicons-5/A/Adonisjs](../../simpleicons-5/A/Adonisjs.md) |
+| ![illustration of simpleicons-5/A/Adyen](../../simpleicons-5/A/Adyen.png) | [simpleicons-5/A/Adyen](../../simpleicons-5/A/Adyen.md) |
 | ![illustration of simpleicons-5/A/Aerlingus](../../simpleicons-5/A/Aerlingus.png) | [simpleicons-5/A/Aerlingus](../../simpleicons-5/A/Aerlingus.md) |
 | ![illustration of simpleicons-5/A/Aeroflot](../../simpleicons-5/A/Aeroflot.png) | [simpleicons-5/A/Aeroflot](../../simpleicons-5/A/Aeroflot.md) |
 | ![illustration of simpleicons-5/A/Aeromexico](../../simpleicons-5/A/Aeromexico.png) | [simpleicons-5/A/Aeromexico](../../simpleicons-5/A/Aeromexico.md) |
@@ -64,6 +66,8 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Airplayvideo](../../simpleicons-5/A/Airplayvideo.png) | [simpleicons-5/A/Airplayvideo](../../simpleicons-5/A/Airplayvideo.md) |
 | ![illustration of simpleicons-5/A/Airtable](../../simpleicons-5/A/Airtable.png) | [simpleicons-5/A/Airtable](../../simpleicons-5/A/Airtable.md) |
 | ![illustration of simpleicons-5/A/Alacritty](../../simpleicons-5/A/Alacritty.png) | [simpleicons-5/A/Alacritty](../../simpleicons-5/A/Alacritty.md) |
+| ![illustration of simpleicons-5/A/Aldinord](../../simpleicons-5/A/Aldinord.png) | [simpleicons-5/A/Aldinord](../../simpleicons-5/A/Aldinord.md) |
+| ![illustration of simpleicons-5/A/Aldisud](../../simpleicons-5/A/Aldisud.png) | [simpleicons-5/A/Aldisud](../../simpleicons-5/A/Aldisud.md) |
 | ![illustration of simpleicons-5/A/Alfaromeo](../../simpleicons-5/A/Alfaromeo.png) | [simpleicons-5/A/Alfaromeo](../../simpleicons-5/A/Alfaromeo.md) |
 | ![illustration of simpleicons-5/A/Alfred](../../simpleicons-5/A/Alfred.png) | [simpleicons-5/A/Alfred](../../simpleicons-5/A/Alfred.md) |
 | ![illustration of simpleicons-5/A/Algolia](../../simpleicons-5/A/Algolia.png) | [simpleicons-5/A/Algolia](../../simpleicons-5/A/Algolia.md) |
@@ -72,6 +76,7 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Aliexpress](../../simpleicons-5/A/Aliexpress.png) | [simpleicons-5/A/Aliexpress](../../simpleicons-5/A/Aliexpress.md) |
 | ![illustration of simpleicons-5/A/Alipay](../../simpleicons-5/A/Alipay.png) | [simpleicons-5/A/Alipay](../../simpleicons-5/A/Alipay.md) |
 | ![illustration of simpleicons-5/A/Alitalia](../../simpleicons-5/A/Alitalia.png) | [simpleicons-5/A/Alitalia](../../simpleicons-5/A/Alitalia.md) |
+| ![illustration of simpleicons-5/A/Allegro](../../simpleicons-5/A/Allegro.png) | [simpleicons-5/A/Allegro](../../simpleicons-5/A/Allegro.md) |
 | ![illustration of simpleicons-5/A/Alliedmodders](../../simpleicons-5/A/Alliedmodders.png) | [simpleicons-5/A/Alliedmodders](../../simpleicons-5/A/Alliedmodders.md) |
 | ![illustration of simpleicons-5/A/Allocine](../../simpleicons-5/A/Allocine.png) | [simpleicons-5/A/Allocine](../../simpleicons-5/A/Allocine.md) |
 | ![illustration of simpleicons-5/A/Alltrails](../../simpleicons-5/A/Alltrails.png) | [simpleicons-5/A/Alltrails](../../simpleicons-5/A/Alltrails.md) |
@@ -90,6 +95,7 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Amd](../../simpleicons-5/A/Amd.png) | [simpleicons-5/A/Amd](../../simpleicons-5/A/Amd.md) |
 | ![illustration of simpleicons-5/A/Americanairlines](../../simpleicons-5/A/Americanairlines.png) | [simpleicons-5/A/Americanairlines](../../simpleicons-5/A/Americanairlines.md) |
 | ![illustration of simpleicons-5/A/Americanexpress](../../simpleicons-5/A/Americanexpress.png) | [simpleicons-5/A/Americanexpress](../../simpleicons-5/A/Americanexpress.md) |
+| ![illustration of simpleicons-5/A/Amg](../../simpleicons-5/A/Amg.png) | [simpleicons-5/A/Amg](../../simpleicons-5/A/Amg.md) |
 | ![illustration of simpleicons-5/A/Amp](../../simpleicons-5/A/Amp.png) | [simpleicons-5/A/Amp](../../simpleicons-5/A/Amp.md) |
 | ![illustration of simpleicons-5/A/Amul](../../simpleicons-5/A/Amul.png) | [simpleicons-5/A/Amul](../../simpleicons-5/A/Amul.md) |
 | ![illustration of simpleicons-5/A/Ana](../../simpleicons-5/A/Ana.png) | [simpleicons-5/A/Ana](../../simpleicons-5/A/Ana.md) |
@@ -137,6 +143,7 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Apollographql](../../simpleicons-5/A/Apollographql.png) | [simpleicons-5/A/Apollographql](../../simpleicons-5/A/Apollographql.md) |
 | ![illustration of simpleicons-5/A/Apostrophe](../../simpleicons-5/A/Apostrophe.png) | [simpleicons-5/A/Apostrophe](../../simpleicons-5/A/Apostrophe.md) |
 | ![illustration of simpleicons-5/A/Appannie](../../simpleicons-5/A/Appannie.png) | [simpleicons-5/A/Appannie](../../simpleicons-5/A/Appannie.md) |
+| ![illustration of simpleicons-5/A/Appian](../../simpleicons-5/A/Appian.png) | [simpleicons-5/A/Appian](../../simpleicons-5/A/Appian.md) |
 | ![illustration of simpleicons-5/A/Apple](../../simpleicons-5/A/Apple.png) | [simpleicons-5/A/Apple](../../simpleicons-5/A/Apple.md) |
 | ![illustration of simpleicons-5/A/Applearcade](../../simpleicons-5/A/Applearcade.png) | [simpleicons-5/A/Applearcade](../../simpleicons-5/A/Applearcade.md) |
 | ![illustration of simpleicons-5/A/Applemusic](../../simpleicons-5/A/Applemusic.png) | [simpleicons-5/A/Applemusic](../../simpleicons-5/A/Applemusic.md) |
@@ -146,6 +153,8 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Appsignal](../../simpleicons-5/A/Appsignal.png) | [simpleicons-5/A/Appsignal](../../simpleicons-5/A/Appsignal.md) |
 | ![illustration of simpleicons-5/A/Appstore](../../simpleicons-5/A/Appstore.png) | [simpleicons-5/A/Appstore](../../simpleicons-5/A/Appstore.md) |
 | ![illustration of simpleicons-5/A/Appveyor](../../simpleicons-5/A/Appveyor.png) | [simpleicons-5/A/Appveyor](../../simpleicons-5/A/Appveyor.md) |
+| ![illustration of simpleicons-5/A/Appwrite](../../simpleicons-5/A/Appwrite.png) | [simpleicons-5/A/Appwrite](../../simpleicons-5/A/Appwrite.md) |
+| ![illustration of simpleicons-5/A/Aqua](../../simpleicons-5/A/Aqua.png) | [simpleicons-5/A/Aqua](../../simpleicons-5/A/Aqua.md) |
 | ![illustration of simpleicons-5/A/Aral](../../simpleicons-5/A/Aral.png) | [simpleicons-5/A/Aral](../../simpleicons-5/A/Aral.md) |
 | ![illustration of simpleicons-5/A/Arangodb](../../simpleicons-5/A/Arangodb.png) | [simpleicons-5/A/Arangodb](../../simpleicons-5/A/Arangodb.md) |
 | ![illustration of simpleicons-5/A/Archicad](../../simpleicons-5/A/Archicad.png) | [simpleicons-5/A/Archicad](../../simpleicons-5/A/Archicad.md) |
@@ -155,6 +164,8 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Arduino](../../simpleicons-5/A/Arduino.png) | [simpleicons-5/A/Arduino](../../simpleicons-5/A/Arduino.md) |
 | ![illustration of simpleicons-5/A/Arkecosystem](../../simpleicons-5/A/Arkecosystem.png) | [simpleicons-5/A/Arkecosystem](../../simpleicons-5/A/Arkecosystem.md) |
 | ![illustration of simpleicons-5/A/Arlo](../../simpleicons-5/A/Arlo.png) | [simpleicons-5/A/Arlo](../../simpleicons-5/A/Arlo.md) |
+| ![illustration of simpleicons-5/A/Arm](../../simpleicons-5/A/Arm.png) | [simpleicons-5/A/Arm](../../simpleicons-5/A/Arm.md) |
+| ![illustration of simpleicons-5/A/Artifacthub](../../simpleicons-5/A/Artifacthub.png) | [simpleicons-5/A/Artifacthub](../../simpleicons-5/A/Artifacthub.md) |
 | ![illustration of simpleicons-5/A/Artixlinux](../../simpleicons-5/A/Artixlinux.png) | [simpleicons-5/A/Artixlinux](../../simpleicons-5/A/Artixlinux.md) |
 | ![illustration of simpleicons-5/A/Artstation](../../simpleicons-5/A/Artstation.png) | [simpleicons-5/A/Artstation](../../simpleicons-5/A/Artstation.md) |
 | ![illustration of simpleicons-5/A/Arxiv](../../simpleicons-5/A/Arxiv.png) | [simpleicons-5/A/Arxiv](../../simpleicons-5/A/Arxiv.md) |
@@ -165,6 +176,7 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Askfm](../../simpleicons-5/A/Askfm.png) | [simpleicons-5/A/Askfm](../../simpleicons-5/A/Askfm.md) |
 | ![illustration of simpleicons-5/A/Askubuntu](../../simpleicons-5/A/Askubuntu.png) | [simpleicons-5/A/Askubuntu](../../simpleicons-5/A/Askubuntu.md) |
 | ![illustration of simpleicons-5/A/Assemblyscript](../../simpleicons-5/A/Assemblyscript.png) | [simpleicons-5/A/Assemblyscript](../../simpleicons-5/A/Assemblyscript.md) |
+| ![illustration of simpleicons-5/A/Astonmartin](../../simpleicons-5/A/Astonmartin.png) | [simpleicons-5/A/Astonmartin](../../simpleicons-5/A/Astonmartin.md) |
 | ![illustration of simpleicons-5/A/Asus](../../simpleicons-5/A/Asus.png) | [simpleicons-5/A/Asus](../../simpleicons-5/A/Asus.md) |
 | ![illustration of simpleicons-5/A/Atandt](../../simpleicons-5/A/Atandt.png) | [simpleicons-5/A/Atandt](../../simpleicons-5/A/Atandt.md) |
 | ![illustration of simpleicons-5/A/Atari](../../simpleicons-5/A/Atari.png) | [simpleicons-5/A/Atari](../../simpleicons-5/A/Atari.md) |
@@ -182,6 +194,8 @@ The module contains 184 items.
 | ![illustration of simpleicons-5/A/Autodesk](../../simpleicons-5/A/Autodesk.png) | [simpleicons-5/A/Autodesk](../../simpleicons-5/A/Autodesk.md) |
 | ![illustration of simpleicons-5/A/Autohotkey](../../simpleicons-5/A/Autohotkey.png) | [simpleicons-5/A/Autohotkey](../../simpleicons-5/A/Autohotkey.md) |
 | ![illustration of simpleicons-5/A/Automattic](../../simpleicons-5/A/Automattic.png) | [simpleicons-5/A/Automattic](../../simpleicons-5/A/Automattic.md) |
+| ![illustration of simpleicons-5/A/Autoprefixer](../../simpleicons-5/A/Autoprefixer.png) | [simpleicons-5/A/Autoprefixer](../../simpleicons-5/A/Autoprefixer.md) |
+| ![illustration of simpleicons-5/A/Avast](../../simpleicons-5/A/Avast.png) | [simpleicons-5/A/Avast](../../simpleicons-5/A/Avast.md) |
 | ![illustration of simpleicons-5/A/Awesomelists](../../simpleicons-5/A/Awesomelists.png) | [simpleicons-5/A/Awesomelists](../../simpleicons-5/A/Awesomelists.md) |
 | ![illustration of simpleicons-5/A/Awesomewm](../../simpleicons-5/A/Awesomewm.png) | [simpleicons-5/A/Awesomewm](../../simpleicons-5/A/Awesomewm.md) |
 | ![illustration of simpleicons-5/A/Awsamplify](../../simpleicons-5/A/Awsamplify.png) | [simpleicons-5/A/Awsamplify](../../simpleicons-5/A/Awsamplify.md) |

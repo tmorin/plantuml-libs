@@ -1,12 +1,13 @@
 # B
 
-The module contains 82 items.
+The module contains 88 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-5/B/Babel](../../simpleicons-5/B/Babel.png) | [simpleicons-5/B/Babel](../../simpleicons-5/B/Babel.md) |
+| ![illustration of simpleicons-5/B/Backbonedotjs](../../simpleicons-5/B/Backbonedotjs.png) | [simpleicons-5/B/Backbonedotjs](../../simpleicons-5/B/Backbonedotjs.md) |
 | ![illustration of simpleicons-5/B/Badgr](../../simpleicons-5/B/Badgr.png) | [simpleicons-5/B/Badgr](../../simpleicons-5/B/Badgr.md) |
 | ![illustration of simpleicons-5/B/Badoo](../../simpleicons-5/B/Badoo.png) | [simpleicons-5/B/Badoo](../../simpleicons-5/B/Badoo.md) |
 | ![illustration of simpleicons-5/B/Baidu](../../simpleicons-5/B/Baidu.png) | [simpleicons-5/B/Baidu](../../simpleicons-5/B/Baidu.md) |
@@ -29,6 +30,7 @@ The module contains 82 items.
 | ![illustration of simpleicons-5/B/Beatsbydre](../../simpleicons-5/B/Beatsbydre.png) | [simpleicons-5/B/Beatsbydre](../../simpleicons-5/B/Beatsbydre.md) |
 | ![illustration of simpleicons-5/B/Behance](../../simpleicons-5/B/Behance.png) | [simpleicons-5/B/Behance](../../simpleicons-5/B/Behance.md) |
 | ![illustration of simpleicons-5/B/Beijingsubway](../../simpleicons-5/B/Beijingsubway.png) | [simpleicons-5/B/Beijingsubway](../../simpleicons-5/B/Beijingsubway.md) |
+| ![illustration of simpleicons-5/B/Bem](../../simpleicons-5/B/Bem.png) | [simpleicons-5/B/Bem](../../simpleicons-5/B/Bem.md) |
 | ![illustration of simpleicons-5/B/Bentley](../../simpleicons-5/B/Bentley.png) | [simpleicons-5/B/Bentley](../../simpleicons-5/B/Bentley.md) |
 | ![illustration of simpleicons-5/B/Betfair](../../simpleicons-5/B/Betfair.png) | [simpleicons-5/B/Betfair](../../simpleicons-5/B/Betfair.md) |
 | ![illustration of simpleicons-5/B/Bigbasket](../../simpleicons-5/B/Bigbasket.png) | [simpleicons-5/B/Bigbasket](../../simpleicons-5/B/Bigbasket.md) |
@@ -37,6 +39,7 @@ The module contains 82 items.
 | ![illustration of simpleicons-5/B/Bigcommerce](../../simpleicons-5/B/Bigcommerce.png) | [simpleicons-5/B/Bigcommerce](../../simpleicons-5/B/Bigcommerce.md) |
 | ![illustration of simpleicons-5/B/Bilibili](../../simpleicons-5/B/Bilibili.png) | [simpleicons-5/B/Bilibili](../../simpleicons-5/B/Bilibili.md) |
 | ![illustration of simpleicons-5/B/Binance](../../simpleicons-5/B/Binance.png) | [simpleicons-5/B/Binance](../../simpleicons-5/B/Binance.md) |
+| ![illustration of simpleicons-5/B/Biolink](../../simpleicons-5/B/Biolink.png) | [simpleicons-5/B/Biolink](../../simpleicons-5/B/Biolink.md) |
 | ![illustration of simpleicons-5/B/Bit](../../simpleicons-5/B/Bit.png) | [simpleicons-5/B/Bit](../../simpleicons-5/B/Bit.md) |
 | ![illustration of simpleicons-5/B/Bitbucket](../../simpleicons-5/B/Bitbucket.png) | [simpleicons-5/B/Bitbucket](../../simpleicons-5/B/Bitbucket.md) |
 | ![illustration of simpleicons-5/B/Bitcoin](../../simpleicons-5/B/Bitcoin.png) | [simpleicons-5/B/Bitcoin](../../simpleicons-5/B/Bitcoin.md) |
@@ -67,6 +70,7 @@ The module contains 82 items.
 | ![illustration of simpleicons-5/B/Bootstrap](../../simpleicons-5/B/Bootstrap.png) | [simpleicons-5/B/Bootstrap](../../simpleicons-5/B/Bootstrap.md) |
 | ![illustration of simpleicons-5/B/Bosch](../../simpleicons-5/B/Bosch.png) | [simpleicons-5/B/Bosch](../../simpleicons-5/B/Bosch.md) |
 | ![illustration of simpleicons-5/B/Bose](../../simpleicons-5/B/Bose.png) | [simpleicons-5/B/Bose](../../simpleicons-5/B/Bose.md) |
+| ![illustration of simpleicons-5/B/Boulanger](../../simpleicons-5/B/Boulanger.png) | [simpleicons-5/B/Boulanger](../../simpleicons-5/B/Boulanger.md) |
 | ![illustration of simpleicons-5/B/Bower](../../simpleicons-5/B/Bower.png) | [simpleicons-5/B/Bower](../../simpleicons-5/B/Bower.md) |
 | ![illustration of simpleicons-5/B/Box](../../simpleicons-5/B/Box.png) | [simpleicons-5/B/Box](../../simpleicons-5/B/Box.md) |
 | ![illustration of simpleicons-5/B/Brandfolder](../../simpleicons-5/B/Brandfolder.png) | [simpleicons-5/B/Brandfolder](../../simpleicons-5/B/Brandfolder.md) |
@@ -82,8 +86,10 @@ The module contains 82 items.
 | ![illustration of simpleicons-5/B/Bugcrowd](../../simpleicons-5/B/Bugcrowd.png) | [simpleicons-5/B/Bugcrowd](../../simpleicons-5/B/Bugcrowd.md) |
 | ![illustration of simpleicons-5/B/Bugsnag](../../simpleicons-5/B/Bugsnag.png) | [simpleicons-5/B/Bugsnag](../../simpleicons-5/B/Bugsnag.md) |
 | ![illustration of simpleicons-5/B/Buildkite](../../simpleicons-5/B/Buildkite.png) | [simpleicons-5/B/Buildkite](../../simpleicons-5/B/Buildkite.md) |
+| ![illustration of simpleicons-5/B/Bukalapak](../../simpleicons-5/B/Bukalapak.png) | [simpleicons-5/B/Bukalapak](../../simpleicons-5/B/Bukalapak.md) |
 | ![illustration of simpleicons-5/B/Bulma](../../simpleicons-5/B/Bulma.png) | [simpleicons-5/B/Bulma](../../simpleicons-5/B/Bulma.md) |
 | ![illustration of simpleicons-5/B/Bunq](../../simpleicons-5/B/Bunq.png) | [simpleicons-5/B/Bunq](../../simpleicons-5/B/Bunq.md) |
+| ![illustration of simpleicons-5/B/Burgerking](../../simpleicons-5/B/Burgerking.png) | [simpleicons-5/B/Burgerking](../../simpleicons-5/B/Burgerking.md) |
 | ![illustration of simpleicons-5/B/Buymeacoffee](../../simpleicons-5/B/Buymeacoffee.png) | [simpleicons-5/B/Buymeacoffee](../../simpleicons-5/B/Buymeacoffee.md) |
 | ![illustration of simpleicons-5/B/Buzzfeed](../../simpleicons-5/B/Buzzfeed.png) | [simpleicons-5/B/Buzzfeed](../../simpleicons-5/B/Buzzfeed.md) |
 | ![illustration of simpleicons-5/B/Byte](../../simpleicons-5/B/Byte.png) | [simpleicons-5/B/Byte](../../simpleicons-5/B/Byte.md) |

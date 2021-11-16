@@ -1,6 +1,6 @@
 # H
 
-The module contains 64 items.
+The module contains 66 items.
 
 
 
@@ -15,6 +15,7 @@ The module contains 64 items.
 | ![illustration of simpleicons-5/H/Hackerrank](../../simpleicons-5/H/Hackerrank.png) | [simpleicons-5/H/Hackerrank](../../simpleicons-5/H/Hackerrank.md) |
 | ![illustration of simpleicons-5/H/Hackster](../../simpleicons-5/H/Hackster.png) | [simpleicons-5/H/Hackster](../../simpleicons-5/H/Hackster.md) |
 | ![illustration of simpleicons-5/H/Hackthebox](../../simpleicons-5/H/Hackthebox.png) | [simpleicons-5/H/Hackthebox](../../simpleicons-5/H/Hackthebox.md) |
+| ![illustration of simpleicons-5/H/Handlebarsdotjs](../../simpleicons-5/H/Handlebarsdotjs.png) | [simpleicons-5/H/Handlebarsdotjs](../../simpleicons-5/H/Handlebarsdotjs.md) |
 | ![illustration of simpleicons-5/H/Handshake](../../simpleicons-5/H/Handshake.png) | [simpleicons-5/H/Handshake](../../simpleicons-5/H/Handshake.md) |
 | ![illustration of simpleicons-5/H/HandshakeProtocol](../../simpleicons-5/H/HandshakeProtocol.png) | [simpleicons-5/H/HandshakeProtocol](../../simpleicons-5/H/HandshakeProtocol.md) |
 | ![illustration of simpleicons-5/H/Happycow](../../simpleicons-5/H/Happycow.png) | [simpleicons-5/H/Happycow](../../simpleicons-5/H/Happycow.md) |
@@ -32,6 +33,7 @@ The module contains 64 items.
 | ![illustration of simpleicons-5/H/Hellyhansen](../../simpleicons-5/H/Hellyhansen.png) | [simpleicons-5/H/Hellyhansen](../../simpleicons-5/H/Hellyhansen.md) |
 | ![illustration of simpleicons-5/H/Helm](../../simpleicons-5/H/Helm.png) | [simpleicons-5/H/Helm](../../simpleicons-5/H/Helm.md) |
 | ![illustration of simpleicons-5/H/Helpdesk](../../simpleicons-5/H/Helpdesk.png) | [simpleicons-5/H/Helpdesk](../../simpleicons-5/H/Helpdesk.md) |
+| ![illustration of simpleicons-5/H/Helpscout](../../simpleicons-5/H/Helpscout.png) | [simpleicons-5/H/Helpscout](../../simpleicons-5/H/Helpscout.md) |
 | ![illustration of simpleicons-5/H/Here](../../simpleicons-5/H/Here.png) | [simpleicons-5/H/Here](../../simpleicons-5/H/Here.md) |
 | ![illustration of simpleicons-5/H/Heroku](../../simpleicons-5/H/Heroku.png) | [simpleicons-5/H/Heroku](../../simpleicons-5/H/Heroku.md) |
 | ![illustration of simpleicons-5/H/Hetzner](../../simpleicons-5/H/Hetzner.png) | [simpleicons-5/H/Hetzner](../../simpleicons-5/H/Hetzner.md) |

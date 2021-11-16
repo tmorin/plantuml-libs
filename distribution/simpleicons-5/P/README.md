@@ -1,6 +1,6 @@
 # P
 
-The module contains 143 items.
+The module contains 151 items.
 
 
 
@@ -28,13 +28,17 @@ The module contains 143 items.
 | ![illustration of simpleicons-5/P/Paypal](../../simpleicons-5/P/Paypal.png) | [simpleicons-5/P/Paypal](../../simpleicons-5/P/Paypal.md) |
 | ![illustration of simpleicons-5/P/Paytm](../../simpleicons-5/P/Paytm.png) | [simpleicons-5/P/Paytm](../../simpleicons-5/P/Paytm.md) |
 | ![illustration of simpleicons-5/P/Pcgamingwiki](../../simpleicons-5/P/Pcgamingwiki.png) | [simpleicons-5/P/Pcgamingwiki](../../simpleicons-5/P/Pcgamingwiki.md) |
+| ![illustration of simpleicons-5/P/Peakdesign](../../simpleicons-5/P/Peakdesign.png) | [simpleicons-5/P/Peakdesign](../../simpleicons-5/P/Peakdesign.md) |
 | ![illustration of simpleicons-5/P/Peertube](../../simpleicons-5/P/Peertube.png) | [simpleicons-5/P/Peertube](../../simpleicons-5/P/Peertube.md) |
 | ![illustration of simpleicons-5/P/Pegasusairlines](../../simpleicons-5/P/Pegasusairlines.png) | [simpleicons-5/P/Pegasusairlines](../../simpleicons-5/P/Pegasusairlines.md) |
 | ![illustration of simpleicons-5/P/Pelican](../../simpleicons-5/P/Pelican.png) | [simpleicons-5/P/Pelican](../../simpleicons-5/P/Pelican.md) |
 | ![illustration of simpleicons-5/P/Peloton](../../simpleicons-5/P/Peloton.png) | [simpleicons-5/P/Peloton](../../simpleicons-5/P/Peloton.md) |
+| ![illustration of simpleicons-5/P/Penny](../../simpleicons-5/P/Penny.png) | [simpleicons-5/P/Penny](../../simpleicons-5/P/Penny.md) |
 | ![illustration of simpleicons-5/P/Pepsi](../../simpleicons-5/P/Pepsi.png) | [simpleicons-5/P/Pepsi](../../simpleicons-5/P/Pepsi.md) |
+| ![illustration of simpleicons-5/P/Percy](../../simpleicons-5/P/Percy.png) | [simpleicons-5/P/Percy](../../simpleicons-5/P/Percy.md) |
 | ![illustration of simpleicons-5/P/Perforce](../../simpleicons-5/P/Perforce.png) | [simpleicons-5/P/Perforce](../../simpleicons-5/P/Perforce.md) |
 | ![illustration of simpleicons-5/P/Perl](../../simpleicons-5/P/Perl.png) | [simpleicons-5/P/Perl](../../simpleicons-5/P/Perl.md) |
+| ![illustration of simpleicons-5/P/Personio](../../simpleicons-5/P/Personio.png) | [simpleicons-5/P/Personio](../../simpleicons-5/P/Personio.md) |
 | ![illustration of simpleicons-5/P/Peugeot](../../simpleicons-5/P/Peugeot.png) | [simpleicons-5/P/Peugeot](../../simpleicons-5/P/Peugeot.md) |
 | ![illustration of simpleicons-5/P/Pexels](../../simpleicons-5/P/Pexels.png) | [simpleicons-5/P/Pexels](../../simpleicons-5/P/Pexels.md) |
 | ![illustration of simpleicons-5/P/Pfsense](../../simpleicons-5/P/Pfsense.png) | [simpleicons-5/P/Pfsense](../../simpleicons-5/P/Pfsense.md) |
@@ -45,6 +49,7 @@ The module contains 143 items.
 | ![illustration of simpleicons-5/P/Photocrowd](../../simpleicons-5/P/Photocrowd.png) | [simpleicons-5/P/Photocrowd](../../simpleicons-5/P/Photocrowd.md) |
 | ![illustration of simpleicons-5/P/Photopea](../../simpleicons-5/P/Photopea.png) | [simpleicons-5/P/Photopea](../../simpleicons-5/P/Photopea.md) |
 | ![illustration of simpleicons-5/P/Php](../../simpleicons-5/P/Php.png) | [simpleicons-5/P/Php](../../simpleicons-5/P/Php.md) |
+| ![illustration of simpleicons-5/P/Phpmyadmin](../../simpleicons-5/P/Phpmyadmin.png) | [simpleicons-5/P/Phpmyadmin](../../simpleicons-5/P/Phpmyadmin.md) |
 | ![illustration of simpleicons-5/P/Phpstorm](../../simpleicons-5/P/Phpstorm.png) | [simpleicons-5/P/Phpstorm](../../simpleicons-5/P/Phpstorm.md) |
 | ![illustration of simpleicons-5/P/Picartodottv](../../simpleicons-5/P/Picartodottv.png) | [simpleicons-5/P/Picartodottv](../../simpleicons-5/P/Picartodottv.md) |
 | ![illustration of simpleicons-5/P/Picnic](../../simpleicons-5/P/Picnic.png) | [simpleicons-5/P/Picnic](../../simpleicons-5/P/Picnic.md) |
@@ -99,6 +104,7 @@ The module contains 143 items.
 | ![illustration of simpleicons-5/P/Postgresql](../../simpleicons-5/P/Postgresql.png) | [simpleicons-5/P/Postgresql](../../simpleicons-5/P/Postgresql.md) |
 | ![illustration of simpleicons-5/P/Postman](../../simpleicons-5/P/Postman.png) | [simpleicons-5/P/Postman](../../simpleicons-5/P/Postman.md) |
 | ![illustration of simpleicons-5/P/Postmates](../../simpleicons-5/P/Postmates.png) | [simpleicons-5/P/Postmates](../../simpleicons-5/P/Postmates.md) |
+| ![illustration of simpleicons-5/P/Powerapps](../../simpleicons-5/P/Powerapps.png) | [simpleicons-5/P/Powerapps](../../simpleicons-5/P/Powerapps.md) |
 | ![illustration of simpleicons-5/P/Powerbi](../../simpleicons-5/P/Powerbi.png) | [simpleicons-5/P/Powerbi](../../simpleicons-5/P/Powerbi.md) |
 | ![illustration of simpleicons-5/P/Powers](../../simpleicons-5/P/Powers.png) | [simpleicons-5/P/Powers](../../simpleicons-5/P/Powers.md) |
 | ![illustration of simpleicons-5/P/Powershell](../../simpleicons-5/P/Powershell.png) | [simpleicons-5/P/Powershell](../../simpleicons-5/P/Powershell.md) |
@@ -133,6 +139,7 @@ The module contains 143 items.
 | ![illustration of simpleicons-5/P/Publons](../../simpleicons-5/P/Publons.png) | [simpleicons-5/P/Publons](../../simpleicons-5/P/Publons.md) |
 | ![illustration of simpleicons-5/P/Pubmed](../../simpleicons-5/P/Pubmed.png) | [simpleicons-5/P/Pubmed](../../simpleicons-5/P/Pubmed.md) |
 | ![illustration of simpleicons-5/P/Pug](../../simpleicons-5/P/Pug.png) | [simpleicons-5/P/Pug](../../simpleicons-5/P/Pug.md) |
+| ![illustration of simpleicons-5/P/Pulumi](../../simpleicons-5/P/Pulumi.png) | [simpleicons-5/P/Pulumi](../../simpleicons-5/P/Pulumi.md) |
 | ![illustration of simpleicons-5/P/Puma](../../simpleicons-5/P/Puma.png) | [simpleicons-5/P/Puma](../../simpleicons-5/P/Puma.md) |
 | ![illustration of simpleicons-5/P/Puppet](../../simpleicons-5/P/Puppet.png) | [simpleicons-5/P/Puppet](../../simpleicons-5/P/Puppet.md) |
 | ![illustration of simpleicons-5/P/Puppeteer](../../simpleicons-5/P/Puppeteer.png) | [simpleicons-5/P/Puppeteer](../../simpleicons-5/P/Puppeteer.md) |
@@ -140,6 +147,7 @@ The module contains 143 items.
 | ![illustration of simpleicons-5/P/Purgecss](../../simpleicons-5/P/Purgecss.png) | [simpleicons-5/P/Purgecss](../../simpleicons-5/P/Purgecss.md) |
 | ![illustration of simpleicons-5/P/Purism](../../simpleicons-5/P/Purism.png) | [simpleicons-5/P/Purism](../../simpleicons-5/P/Purism.md) |
 | ![illustration of simpleicons-5/P/Pusher](../../simpleicons-5/P/Pusher.png) | [simpleicons-5/P/Pusher](../../simpleicons-5/P/Pusher.md) |
+| ![illustration of simpleicons-5/P/Pwa](../../simpleicons-5/P/Pwa.png) | [simpleicons-5/P/Pwa](../../simpleicons-5/P/Pwa.md) |
 | ![illustration of simpleicons-5/P/Pycharm](../../simpleicons-5/P/Pycharm.png) | [simpleicons-5/P/Pycharm](../../simpleicons-5/P/Pycharm.md) |
 | ![illustration of simpleicons-5/P/Pypi](../../simpleicons-5/P/Pypi.png) | [simpleicons-5/P/Pypi](../../simpleicons-5/P/Pypi.md) |
 | ![illustration of simpleicons-5/P/Pypy](../../simpleicons-5/P/Pypy.png) | [simpleicons-5/P/Pypy](../../simpleicons-5/P/Pypy.md) |

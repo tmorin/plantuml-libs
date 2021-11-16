@@ -1,6 +1,6 @@
 # C
 
-The module contains 138 items.
+The module contains 144 items.
 
 
 
@@ -14,6 +14,7 @@ The module contains 138 items.
 | ![illustration of simpleicons-5/C/Canonical](../../simpleicons-5/C/Canonical.png) | [simpleicons-5/C/Canonical](../../simpleicons-5/C/Canonical.md) |
 | ![illustration of simpleicons-5/C/Canva](../../simpleicons-5/C/Canva.png) | [simpleicons-5/C/Canva](../../simpleicons-5/C/Canva.md) |
 | ![illustration of simpleicons-5/C/Capacitor](../../simpleicons-5/C/Capacitor.png) | [simpleicons-5/C/Capacitor](../../simpleicons-5/C/Capacitor.md) |
+| ![illustration of simpleicons-5/C/Carrefour](../../simpleicons-5/C/Carrefour.png) | [simpleicons-5/C/Carrefour](../../simpleicons-5/C/Carrefour.md) |
 | ![illustration of simpleicons-5/C/Carthrottle](../../simpleicons-5/C/Carthrottle.png) | [simpleicons-5/C/Carthrottle](../../simpleicons-5/C/Carthrottle.md) |
 | ![illustration of simpleicons-5/C/Carto](../../simpleicons-5/C/Carto.png) | [simpleicons-5/C/Carto](../../simpleicons-5/C/Carto.md) |
 | ![illustration of simpleicons-5/C/Cashapp](../../simpleicons-5/C/Cashapp.png) | [simpleicons-5/C/Cashapp](../../simpleicons-5/C/Cashapp.md) |
@@ -71,6 +72,7 @@ The module contains 138 items.
 | ![illustration of simpleicons-5/C/Clyp](../../simpleicons-5/C/Clyp.png) | [simpleicons-5/C/Clyp](../../simpleicons-5/C/Clyp.md) |
 | ![illustration of simpleicons-5/C/Cmake](../../simpleicons-5/C/Cmake.png) | [simpleicons-5/C/Cmake](../../simpleicons-5/C/Cmake.md) |
 | ![illustration of simpleicons-5/C/Cnn](../../simpleicons-5/C/Cnn.png) | [simpleicons-5/C/Cnn](../../simpleicons-5/C/Cnn.md) |
+| ![illustration of simpleicons-5/C/Cockpit](../../simpleicons-5/C/Cockpit.png) | [simpleicons-5/C/Cockpit](../../simpleicons-5/C/Cockpit.md) |
 | ![illustration of simpleicons-5/C/Cockroachlabs](../../simpleicons-5/C/Cockroachlabs.png) | [simpleicons-5/C/Cockroachlabs](../../simpleicons-5/C/Cockroachlabs.md) |
 | ![illustration of simpleicons-5/C/Cocoapods](../../simpleicons-5/C/Cocoapods.png) | [simpleicons-5/C/Cocoapods](../../simpleicons-5/C/Cocoapods.md) |
 | ![illustration of simpleicons-5/C/Cocos](../../simpleicons-5/C/Cocos.png) | [simpleicons-5/C/Cocos](../../simpleicons-5/C/Cocos.md) |
@@ -90,6 +92,7 @@ The module contains 138 items.
 | ![illustration of simpleicons-5/C/Codenewbie](../../simpleicons-5/C/Codenewbie.png) | [simpleicons-5/C/Codenewbie](../../simpleicons-5/C/Codenewbie.md) |
 | ![illustration of simpleicons-5/C/Codepen](../../simpleicons-5/C/Codepen.png) | [simpleicons-5/C/Codepen](../../simpleicons-5/C/Codepen.md) |
 | ![illustration of simpleicons-5/C/Codeproject](../../simpleicons-5/C/Codeproject.png) | [simpleicons-5/C/Codeproject](../../simpleicons-5/C/Codeproject.md) |
+| ![illustration of simpleicons-5/C/Codereview](../../simpleicons-5/C/Codereview.png) | [simpleicons-5/C/Codereview](../../simpleicons-5/C/Codereview.md) |
 | ![illustration of simpleicons-5/C/Codersrank](../../simpleicons-5/C/Codersrank.png) | [simpleicons-5/C/Codersrank](../../simpleicons-5/C/Codersrank.md) |
 | ![illustration of simpleicons-5/C/Coderwall](../../simpleicons-5/C/Coderwall.png) | [simpleicons-5/C/Coderwall](../../simpleicons-5/C/Coderwall.md) |
 | ![illustration of simpleicons-5/C/Codesandbox](../../simpleicons-5/C/Codesandbox.png) | [simpleicons-5/C/Codesandbox](../../simpleicons-5/C/Codesandbox.md) |
@@ -100,10 +103,12 @@ The module contains 138 items.
 | ![illustration of simpleicons-5/C/Codio](../../simpleicons-5/C/Codio.png) | [simpleicons-5/C/Codio](../../simpleicons-5/C/Codio.md) |
 | ![illustration of simpleicons-5/C/Coffeescript](../../simpleicons-5/C/Coffeescript.png) | [simpleicons-5/C/Coffeescript](../../simpleicons-5/C/Coffeescript.md) |
 | ![illustration of simpleicons-5/C/Cognizant](../../simpleicons-5/C/Cognizant.png) | [simpleicons-5/C/Cognizant](../../simpleicons-5/C/Cognizant.md) |
+| ![illustration of simpleicons-5/C/Coil](../../simpleicons-5/C/Coil.png) | [simpleicons-5/C/Coil](../../simpleicons-5/C/Coil.md) |
 | ![illustration of simpleicons-5/C/Coinbase](../../simpleicons-5/C/Coinbase.png) | [simpleicons-5/C/Coinbase](../../simpleicons-5/C/Coinbase.md) |
 | ![illustration of simpleicons-5/C/Commerzbank](../../simpleicons-5/C/Commerzbank.png) | [simpleicons-5/C/Commerzbank](../../simpleicons-5/C/Commerzbank.md) |
 | ![illustration of simpleicons-5/C/Commonworkflowlanguage](../../simpleicons-5/C/Commonworkflowlanguage.png) | [simpleicons-5/C/Commonworkflowlanguage](../../simpleicons-5/C/Commonworkflowlanguage.md) |
 | ![illustration of simpleicons-5/C/Composer](../../simpleicons-5/C/Composer.png) | [simpleicons-5/C/Composer](../../simpleicons-5/C/Composer.md) |
+| ![illustration of simpleicons-5/C/Comsol](../../simpleicons-5/C/Comsol.png) | [simpleicons-5/C/Comsol](../../simpleicons-5/C/Comsol.md) |
 | ![illustration of simpleicons-5/C/Concourse](../../simpleicons-5/C/Concourse.png) | [simpleicons-5/C/Concourse](../../simpleicons-5/C/Concourse.md) |
 | ![illustration of simpleicons-5/C/Condaforge](../../simpleicons-5/C/Condaforge.png) | [simpleicons-5/C/Condaforge](../../simpleicons-5/C/Condaforge.md) |
 | ![illustration of simpleicons-5/C/Conekta](../../simpleicons-5/C/Conekta.png) | [simpleicons-5/C/Conekta](../../simpleicons-5/C/Conekta.md) |
@@ -127,6 +132,7 @@ The module contains 138 items.
 | ![illustration of simpleicons-5/C/Cpanel](../../simpleicons-5/C/Cpanel.png) | [simpleicons-5/C/Cpanel](../../simpleicons-5/C/Cpanel.md) |
 | ![illustration of simpleicons-5/C/Cplusplus](../../simpleicons-5/C/Cplusplus.png) | [simpleicons-5/C/Cplusplus](../../simpleicons-5/C/Cplusplus.md) |
 | ![illustration of simpleicons-5/C/Craftcms](../../simpleicons-5/C/Craftcms.png) | [simpleicons-5/C/Craftcms](../../simpleicons-5/C/Craftcms.md) |
+| ![illustration of simpleicons-5/C/Createreactapp](../../simpleicons-5/C/Createreactapp.png) | [simpleicons-5/C/Createreactapp](../../simpleicons-5/C/Createreactapp.md) |
 | ![illustration of simpleicons-5/C/Creativecommons](../../simpleicons-5/C/Creativecommons.png) | [simpleicons-5/C/Creativecommons](../../simpleicons-5/C/Creativecommons.md) |
 | ![illustration of simpleicons-5/C/Crehana](../../simpleicons-5/C/Crehana.png) | [simpleicons-5/C/Crehana](../../simpleicons-5/C/Crehana.md) |
 | ![illustration of simpleicons-5/C/Crowdin](../../simpleicons-5/C/Crowdin.png) | [simpleicons-5/C/Crowdin](../../simpleicons-5/C/Crowdin.md) |

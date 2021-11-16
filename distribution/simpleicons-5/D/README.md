@@ -1,6 +1,6 @@
 # D
 
-The module contains 86 items.
+The module contains 90 items.
 
 
 
@@ -20,6 +20,8 @@ The module contains 86 items.
 | ![illustration of simpleicons-5/D/Databricks](../../simpleicons-5/D/Databricks.png) | [simpleicons-5/D/Databricks](../../simpleicons-5/D/Databricks.md) |
 | ![illustration of simpleicons-5/D/Datacamp](../../simpleicons-5/D/Datacamp.png) | [simpleicons-5/D/Datacamp](../../simpleicons-5/D/Datacamp.md) |
 | ![illustration of simpleicons-5/D/Datadog](../../simpleicons-5/D/Datadog.png) | [simpleicons-5/D/Datadog](../../simpleicons-5/D/Datadog.md) |
+| ![illustration of simpleicons-5/D/Datagrip](../../simpleicons-5/D/Datagrip.png) | [simpleicons-5/D/Datagrip](../../simpleicons-5/D/Datagrip.md) |
+| ![illustration of simpleicons-5/D/Dataiku](../../simpleicons-5/D/Dataiku.png) | [simpleicons-5/D/Dataiku](../../simpleicons-5/D/Dataiku.md) |
 | ![illustration of simpleicons-5/D/Datastax](../../simpleicons-5/D/Datastax.png) | [simpleicons-5/D/Datastax](../../simpleicons-5/D/Datastax.md) |
 | ![illustration of simpleicons-5/D/Dataversioncontrol](../../simpleicons-5/D/Dataversioncontrol.png) | [simpleicons-5/D/Dataversioncontrol](../../simpleicons-5/D/Dataversioncontrol.md) |
 | ![illustration of simpleicons-5/D/Datocms](../../simpleicons-5/D/Datocms.png) | [simpleicons-5/D/Datocms](../../simpleicons-5/D/Datocms.md) |
@@ -29,6 +31,7 @@ The module contains 86 items.
 | ![illustration of simpleicons-5/D/Dbt](../../simpleicons-5/D/Dbt.png) | [simpleicons-5/D/Dbt](../../simpleicons-5/D/Dbt.md) |
 | ![illustration of simpleicons-5/D/Dcentertainment](../../simpleicons-5/D/Dcentertainment.png) | [simpleicons-5/D/Dcentertainment](../../simpleicons-5/D/Dcentertainment.md) |
 | ![illustration of simpleicons-5/D/Debian](../../simpleicons-5/D/Debian.png) | [simpleicons-5/D/Debian](../../simpleicons-5/D/Debian.md) |
+| ![illustration of simpleicons-5/D/Dedge](../../simpleicons-5/D/Dedge.png) | [simpleicons-5/D/Dedge](../../simpleicons-5/D/Dedge.md) |
 | ![illustration of simpleicons-5/D/Deepin](../../simpleicons-5/D/Deepin.png) | [simpleicons-5/D/Deepin](../../simpleicons-5/D/Deepin.md) |
 | ![illustration of simpleicons-5/D/Deepnote](../../simpleicons-5/D/Deepnote.png) | [simpleicons-5/D/Deepnote](../../simpleicons-5/D/Deepnote.md) |
 | ![illustration of simpleicons-5/D/Deezer](../../simpleicons-5/D/Deezer.png) | [simpleicons-5/D/Deezer](../../simpleicons-5/D/Deezer.md) |
@@ -66,6 +69,7 @@ The module contains 86 items.
 | ![illustration of simpleicons-5/D/Disqus](../../simpleicons-5/D/Disqus.png) | [simpleicons-5/D/Disqus](../../simpleicons-5/D/Disqus.md) |
 | ![illustration of simpleicons-5/D/Disroot](../../simpleicons-5/D/Disroot.png) | [simpleicons-5/D/Disroot](../../simpleicons-5/D/Disroot.md) |
 | ![illustration of simpleicons-5/D/Django](../../simpleicons-5/D/Django.png) | [simpleicons-5/D/Django](../../simpleicons-5/D/Django.md) |
+| ![illustration of simpleicons-5/D/Dlib](../../simpleicons-5/D/Dlib.png) | [simpleicons-5/D/Dlib](../../simpleicons-5/D/Dlib.md) |
 | ![illustration of simpleicons-5/D/Dlna](../../simpleicons-5/D/Dlna.png) | [simpleicons-5/D/Dlna](../../simpleicons-5/D/Dlna.md) |
 | ![illustration of simpleicons-5/D/Docker](../../simpleicons-5/D/Docker.png) | [simpleicons-5/D/Docker](../../simpleicons-5/D/Docker.md) |
 | ![illustration of simpleicons-5/D/Docusign](../../simpleicons-5/D/Docusign.png) | [simpleicons-5/D/Docusign](../../simpleicons-5/D/Docusign.md) |

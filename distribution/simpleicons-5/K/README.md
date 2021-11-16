@@ -1,6 +1,6 @@
 # K
 
-The module contains 48 items.
+The module contains 51 items.
 
 
 
@@ -41,6 +41,8 @@ The module contains 48 items.
 | ![illustration of simpleicons-5/K/Klook](../../simpleicons-5/K/Klook.png) | [simpleicons-5/K/Klook](../../simpleicons-5/K/Klook.md) |
 | ![illustration of simpleicons-5/K/Knowledgebase](../../simpleicons-5/K/Knowledgebase.png) | [simpleicons-5/K/Knowledgebase](../../simpleicons-5/K/Knowledgebase.md) |
 | ![illustration of simpleicons-5/K/Known](../../simpleicons-5/K/Known.png) | [simpleicons-5/K/Known](../../simpleicons-5/K/Known.md) |
+| ![illustration of simpleicons-5/K/Koa](../../simpleicons-5/K/Koa.png) | [simpleicons-5/K/Koa](../../simpleicons-5/K/Koa.md) |
+| ![illustration of simpleicons-5/K/Koc](../../simpleicons-5/K/Koc.png) | [simpleicons-5/K/Koc](../../simpleicons-5/K/Koc.md) |
 | ![illustration of simpleicons-5/K/Kodi](../../simpleicons-5/K/Kodi.png) | [simpleicons-5/K/Kodi](../../simpleicons-5/K/Kodi.md) |
 | ![illustration of simpleicons-5/K/Koding](../../simpleicons-5/K/Koding.png) | [simpleicons-5/K/Koding](../../simpleicons-5/K/Koding.md) |
 | ![illustration of simpleicons-5/K/Kofax](../../simpleicons-5/K/Kofax.png) | [simpleicons-5/K/Kofax](../../simpleicons-5/K/Kofax.md) |
@@ -51,6 +53,7 @@ The module contains 48 items.
 | ![illustration of simpleicons-5/K/Kotlin](../../simpleicons-5/K/Kotlin.png) | [simpleicons-5/K/Kotlin](../../simpleicons-5/K/Kotlin.md) |
 | ![illustration of simpleicons-5/K/Krita](../../simpleicons-5/K/Krita.png) | [simpleicons-5/K/Krita](../../simpleicons-5/K/Krita.md) |
 | ![illustration of simpleicons-5/K/Ktm](../../simpleicons-5/K/Ktm.png) | [simpleicons-5/K/Ktm](../../simpleicons-5/K/Ktm.md) |
+| ![illustration of simpleicons-5/K/Kuaishou](../../simpleicons-5/K/Kuaishou.png) | [simpleicons-5/K/Kuaishou](../../simpleicons-5/K/Kuaishou.md) |
 | ![illustration of simpleicons-5/K/Kubernetes](../../simpleicons-5/K/Kubernetes.png) | [simpleicons-5/K/Kubernetes](../../simpleicons-5/K/Kubernetes.md) |
 | ![illustration of simpleicons-5/K/Kubuntu](../../simpleicons-5/K/Kubuntu.png) | [simpleicons-5/K/Kubuntu](../../simpleicons-5/K/Kubuntu.md) |
 | ![illustration of simpleicons-5/K/Kyocera](../../simpleicons-5/K/Kyocera.png) | [simpleicons-5/K/Kyocera](../../simpleicons-5/K/Kyocera.md) |

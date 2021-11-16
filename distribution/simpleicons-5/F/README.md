@@ -1,6 +1,6 @@
 # F
 
-The module contains 81 items.
+The module contains 87 items.
 
 
 
@@ -45,6 +45,7 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/F/First](../../simpleicons-5/F/First.png) | [simpleicons-5/F/First](../../simpleicons-5/F/First.md) |
 | ![illustration of simpleicons-5/F/Fitbit](../../simpleicons-5/F/Fitbit.png) | [simpleicons-5/F/Fitbit](../../simpleicons-5/F/Fitbit.md) |
 | ![illustration of simpleicons-5/F/Fite](../../simpleicons-5/F/Fite.png) | [simpleicons-5/F/Fite](../../simpleicons-5/F/Fite.md) |
+| ![illustration of simpleicons-5/F/Fivem](../../simpleicons-5/F/Fivem.png) | [simpleicons-5/F/Fivem](../../simpleicons-5/F/Fivem.md) |
 | ![illustration of simpleicons-5/F/Fiverr](../../simpleicons-5/F/Fiverr.png) | [simpleicons-5/F/Fiverr](../../simpleicons-5/F/Fiverr.md) |
 | ![illustration of simpleicons-5/F/Flask](../../simpleicons-5/F/Flask.png) | [simpleicons-5/F/Flask](../../simpleicons-5/F/Flask.md) |
 | ![illustration of simpleicons-5/F/Flathub](../../simpleicons-5/F/Flathub.png) | [simpleicons-5/F/Flathub](../../simpleicons-5/F/Flathub.md) |
@@ -56,9 +57,11 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/F/Flood](../../simpleicons-5/F/Flood.png) | [simpleicons-5/F/Flood](../../simpleicons-5/F/Flood.md) |
 | ![illustration of simpleicons-5/F/Fluentd](../../simpleicons-5/F/Fluentd.png) | [simpleicons-5/F/Fluentd](../../simpleicons-5/F/Fluentd.md) |
 | ![illustration of simpleicons-5/F/Flutter](../../simpleicons-5/F/Flutter.png) | [simpleicons-5/F/Flutter](../../simpleicons-5/F/Flutter.md) |
+| ![illustration of simpleicons-5/F/Flyway](../../simpleicons-5/F/Flyway.png) | [simpleicons-5/F/Flyway](../../simpleicons-5/F/Flyway.md) |
 | ![illustration of simpleicons-5/F/Fmod](../../simpleicons-5/F/Fmod.png) | [simpleicons-5/F/Fmod](../../simpleicons-5/F/Fmod.md) |
 | ![illustration of simpleicons-5/F/Fnac](../../simpleicons-5/F/Fnac.png) | [simpleicons-5/F/Fnac](../../simpleicons-5/F/Fnac.md) |
 | ![illustration of simpleicons-5/F/Folium](../../simpleicons-5/F/Folium.png) | [simpleicons-5/F/Folium](../../simpleicons-5/F/Folium.md) |
+| ![illustration of simpleicons-5/F/Fonoma](../../simpleicons-5/F/Fonoma.png) | [simpleicons-5/F/Fonoma](../../simpleicons-5/F/Fonoma.md) |
 | ![illustration of simpleicons-5/F/Fontawesome](../../simpleicons-5/F/Fontawesome.png) | [simpleicons-5/F/Fontawesome](../../simpleicons-5/F/Fontawesome.md) |
 | ![illustration of simpleicons-5/F/Fontbase](../../simpleicons-5/F/Fontbase.png) | [simpleicons-5/F/Fontbase](../../simpleicons-5/F/Fontbase.md) |
 | ![illustration of simpleicons-5/F/Foodpanda](../../simpleicons-5/F/Foodpanda.png) | [simpleicons-5/F/Foodpanda](../../simpleicons-5/F/Foodpanda.md) |
@@ -74,6 +77,8 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/F/Foxtel](../../simpleicons-5/F/Foxtel.png) | [simpleicons-5/F/Foxtel](../../simpleicons-5/F/Foxtel.md) |
 | ![illustration of simpleicons-5/F/Fozzy](../../simpleicons-5/F/Fozzy.png) | [simpleicons-5/F/Fozzy](../../simpleicons-5/F/Fozzy.md) |
 | ![illustration of simpleicons-5/F/Framer](../../simpleicons-5/F/Framer.png) | [simpleicons-5/F/Framer](../../simpleicons-5/F/Framer.md) |
+| ![illustration of simpleicons-5/F/Framework7](../../simpleicons-5/F/Framework7.png) | [simpleicons-5/F/Framework7](../../simpleicons-5/F/Framework7.md) |
+| ![illustration of simpleicons-5/F/Franprix](../../simpleicons-5/F/Franprix.png) | [simpleicons-5/F/Franprix](../../simpleicons-5/F/Franprix.md) |
 | ![illustration of simpleicons-5/F/Fraunhofergesellschaft](../../simpleicons-5/F/Fraunhofergesellschaft.png) | [simpleicons-5/F/Fraunhofergesellschaft](../../simpleicons-5/F/Fraunhofergesellschaft.md) |
 | ![illustration of simpleicons-5/F/Freebsd](../../simpleicons-5/F/Freebsd.png) | [simpleicons-5/F/Freebsd](../../simpleicons-5/F/Freebsd.md) |
 | ![illustration of simpleicons-5/F/Freecodecamp](../../simpleicons-5/F/Freecodecamp.png) | [simpleicons-5/F/Freecodecamp](../../simpleicons-5/F/Freecodecamp.md) |
@@ -84,6 +89,7 @@ The module contains 81 items.
 | ![illustration of simpleicons-5/F/Fsecure](../../simpleicons-5/F/Fsecure.png) | [simpleicons-5/F/Fsecure](../../simpleicons-5/F/Fsecure.md) |
 | ![illustration of simpleicons-5/F/Fujifilm](../../simpleicons-5/F/Fujifilm.png) | [simpleicons-5/F/Fujifilm](../../simpleicons-5/F/Fujifilm.md) |
 | ![illustration of simpleicons-5/F/Fujitsu](../../simpleicons-5/F/Fujitsu.png) | [simpleicons-5/F/Fujitsu](../../simpleicons-5/F/Fujitsu.md) |
+| ![illustration of simpleicons-5/F/Funimation](../../simpleicons-5/F/Funimation.png) | [simpleicons-5/F/Funimation](../../simpleicons-5/F/Funimation.md) |
 | ![illustration of simpleicons-5/F/Furaffinity](../../simpleicons-5/F/Furaffinity.png) | [simpleicons-5/F/Furaffinity](../../simpleicons-5/F/Furaffinity.md) |
 | ![illustration of simpleicons-5/F/Furrynetwork](../../simpleicons-5/F/Furrynetwork.png) | [simpleicons-5/F/Furrynetwork](../../simpleicons-5/F/Furrynetwork.md) |
 | ![illustration of simpleicons-5/F/Futurelearn](../../simpleicons-5/F/Futurelearn.png) | [simpleicons-5/F/Futurelearn](../../simpleicons-5/F/Futurelearn.md) |

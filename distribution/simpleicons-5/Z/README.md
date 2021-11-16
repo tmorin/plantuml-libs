@@ -1,6 +1,6 @@
 # Z
 
-The module contains 26 items.
+The module contains 28 items.
 
 
 
@@ -9,6 +9,7 @@ The module contains 26 items.
 | ![illustration of simpleicons-5/Z/Zalando](../../simpleicons-5/Z/Zalando.png) | [simpleicons-5/Z/Zalando](../../simpleicons-5/Z/Zalando.md) |
 | ![illustration of simpleicons-5/Z/Zalo](../../simpleicons-5/Z/Zalo.png) | [simpleicons-5/Z/Zalo](../../simpleicons-5/Z/Zalo.md) |
 | ![illustration of simpleicons-5/Z/Zapier](../../simpleicons-5/Z/Zapier.png) | [simpleicons-5/Z/Zapier](../../simpleicons-5/Z/Zapier.md) |
+| ![illustration of simpleicons-5/Z/Zcash](../../simpleicons-5/Z/Zcash.png) | [simpleicons-5/Z/Zcash](../../simpleicons-5/Z/Zcash.md) |
 | ![illustration of simpleicons-5/Z/Zdf](../../simpleicons-5/Z/Zdf.png) | [simpleicons-5/Z/Zdf](../../simpleicons-5/Z/Zdf.md) |
 | ![illustration of simpleicons-5/Z/Zelle](../../simpleicons-5/Z/Zelle.png) | [simpleicons-5/Z/Zelle](../../simpleicons-5/Z/Zelle.md) |
 | ![illustration of simpleicons-5/Z/Zend](../../simpleicons-5/Z/Zend.png) | [simpleicons-5/Z/Zend](../../simpleicons-5/Z/Zend.md) |
@@ -32,6 +33,7 @@ The module contains 26 items.
 | ![illustration of simpleicons-5/Z/Zotero](../../simpleicons-5/Z/Zotero.png) | [simpleicons-5/Z/Zotero](../../simpleicons-5/Z/Zotero.md) |
 | ![illustration of simpleicons-5/Z/Zulip](../../simpleicons-5/Z/Zulip.png) | [simpleicons-5/Z/Zulip](../../simpleicons-5/Z/Zulip.md) |
 | ![illustration of simpleicons-5/Z/Zwave](../../simpleicons-5/Z/Zwave.png) | [simpleicons-5/Z/Zwave](../../simpleicons-5/Z/Zwave.md) |
+| ![illustration of simpleicons-5/Z/Zyte](../../simpleicons-5/Z/Zyte.png) | [simpleicons-5/Z/Zyte](../../simpleicons-5/Z/Zyte.md) |
 
 
 

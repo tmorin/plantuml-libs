@@ -1,6 +1,6 @@
 # W
 
-The module contains 67 items.
+The module contains 70 items.
 
 
 
@@ -11,6 +11,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-5/W/Wakatime](../../simpleicons-5/W/Wakatime.png) | [simpleicons-5/W/Wakatime](../../simpleicons-5/W/Wakatime.md) |
 | ![illustration of simpleicons-5/W/Walkman](../../simpleicons-5/W/Walkman.png) | [simpleicons-5/W/Walkman](../../simpleicons-5/W/Walkman.md) |
 | ![illustration of simpleicons-5/W/Wallabag](../../simpleicons-5/W/Wallabag.png) | [simpleicons-5/W/Wallabag](../../simpleicons-5/W/Wallabag.md) |
+| ![illustration of simpleicons-5/W/Walmart](../../simpleicons-5/W/Walmart.png) | [simpleicons-5/W/Walmart](../../simpleicons-5/W/Walmart.md) |
 | ![illustration of simpleicons-5/W/Wappalyzer](../../simpleicons-5/W/Wappalyzer.png) | [simpleicons-5/W/Wappalyzer](../../simpleicons-5/W/Wappalyzer.md) |
 | ![illustration of simpleicons-5/W/Warnerbros](../../simpleicons-5/W/Warnerbros.png) | [simpleicons-5/W/Warnerbros](../../simpleicons-5/W/Warnerbros.md) |
 | ![illustration of simpleicons-5/W/Wattpad](../../simpleicons-5/W/Wattpad.png) | [simpleicons-5/W/Wattpad](../../simpleicons-5/W/Wattpad.md) |
@@ -34,6 +35,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-5/W/Webtoon](../../simpleicons-5/W/Webtoon.png) | [simpleicons-5/W/Webtoon](../../simpleicons-5/W/Webtoon.md) |
 | ![illustration of simpleicons-5/W/Wechat](../../simpleicons-5/W/Wechat.png) | [simpleicons-5/W/Wechat](../../simpleicons-5/W/Wechat.md) |
 | ![illustration of simpleicons-5/W/Weightsandbiases](../../simpleicons-5/W/Weightsandbiases.png) | [simpleicons-5/W/Weightsandbiases](../../simpleicons-5/W/Weightsandbiases.md) |
+| ![illustration of simpleicons-5/W/Welcometothejungle](../../simpleicons-5/W/Welcometothejungle.png) | [simpleicons-5/W/Welcometothejungle](../../simpleicons-5/W/Welcometothejungle.md) |
 | ![illustration of simpleicons-5/W/Wemo](../../simpleicons-5/W/Wemo.png) | [simpleicons-5/W/Wemo](../../simpleicons-5/W/Wemo.md) |
 | ![illustration of simpleicons-5/W/Wetransfer](../../simpleicons-5/W/Wetransfer.png) | [simpleicons-5/W/Wetransfer](../../simpleicons-5/W/Wetransfer.md) |
 | ![illustration of simpleicons-5/W/Whatsapp](../../simpleicons-5/W/Whatsapp.png) | [simpleicons-5/W/Whatsapp](../../simpleicons-5/W/Whatsapp.md) |
@@ -42,6 +44,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-5/W/Wii](../../simpleicons-5/W/Wii.png) | [simpleicons-5/W/Wii](../../simpleicons-5/W/Wii.md) |
 | ![illustration of simpleicons-5/W/Wiiu](../../simpleicons-5/W/Wiiu.png) | [simpleicons-5/W/Wiiu](../../simpleicons-5/W/Wiiu.md) |
 | ![illustration of simpleicons-5/W/Wikidata](../../simpleicons-5/W/Wikidata.png) | [simpleicons-5/W/Wikidata](../../simpleicons-5/W/Wikidata.md) |
+| ![illustration of simpleicons-5/W/Wikidotjs](../../simpleicons-5/W/Wikidotjs.png) | [simpleicons-5/W/Wikidotjs](../../simpleicons-5/W/Wikidotjs.md) |
 | ![illustration of simpleicons-5/W/Wikimediacommons](../../simpleicons-5/W/Wikimediacommons.png) | [simpleicons-5/W/Wikimediacommons](../../simpleicons-5/W/Wikimediacommons.md) |
 | ![illustration of simpleicons-5/W/Wikipedia](../../simpleicons-5/W/Wikipedia.png) | [simpleicons-5/W/Wikipedia](../../simpleicons-5/W/Wikipedia.md) |
 | ![illustration of simpleicons-5/W/Wikiquote](../../simpleicons-5/W/Wikiquote.png) | [simpleicons-5/W/Wikiquote](../../simpleicons-5/W/Wikiquote.md) |

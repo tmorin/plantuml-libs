@@ -1,6 +1,6 @@
 # E
 
-The module contains 62 items.
+The module contains 64 items.
 
 
 
@@ -16,6 +16,7 @@ The module contains 62 items.
 | ![illustration of simpleicons-5/E/Eclipsejetty](../../simpleicons-5/E/Eclipsejetty.png) | [simpleicons-5/E/Eclipsejetty](../../simpleicons-5/E/Eclipsejetty.md) |
 | ![illustration of simpleicons-5/E/Eclipsemosquitto](../../simpleicons-5/E/Eclipsemosquitto.png) | [simpleicons-5/E/Eclipsemosquitto](../../simpleicons-5/E/Eclipsemosquitto.md) |
 | ![illustration of simpleicons-5/E/Eclipsevertdotx](../../simpleicons-5/E/Eclipsevertdotx.png) | [simpleicons-5/E/Eclipsevertdotx](../../simpleicons-5/E/Eclipsevertdotx.md) |
+| ![illustration of simpleicons-5/E/Edeka](../../simpleicons-5/E/Edeka.png) | [simpleicons-5/E/Edeka](../../simpleicons-5/E/Edeka.md) |
 | ![illustration of simpleicons-5/E/Editorconfig](../../simpleicons-5/E/Editorconfig.png) | [simpleicons-5/E/Editorconfig](../../simpleicons-5/E/Editorconfig.md) |
 | ![illustration of simpleicons-5/E/Edotleclerc](../../simpleicons-5/E/Edotleclerc.png) | [simpleicons-5/E/Edotleclerc](../../simpleicons-5/E/Edotleclerc.md) |
 | ![illustration of simpleicons-5/E/Edx](../../simpleicons-5/E/Edx.png) | [simpleicons-5/E/Edx](../../simpleicons-5/E/Edx.md) |
@@ -48,6 +49,7 @@ The module contains 62 items.
 | ![illustration of simpleicons-5/E/Epson](../../simpleicons-5/E/Epson.png) | [simpleicons-5/E/Epson](../../simpleicons-5/E/Epson.md) |
 | ![illustration of simpleicons-5/E/Equinixmetal](../../simpleicons-5/E/Equinixmetal.png) | [simpleicons-5/E/Equinixmetal](../../simpleicons-5/E/Equinixmetal.md) |
 | ![illustration of simpleicons-5/E/Erlang](../../simpleicons-5/E/Erlang.png) | [simpleicons-5/E/Erlang](../../simpleicons-5/E/Erlang.md) |
+| ![illustration of simpleicons-5/E/Esbuild](../../simpleicons-5/E/Esbuild.png) | [simpleicons-5/E/Esbuild](../../simpleicons-5/E/Esbuild.md) |
 | ![illustration of simpleicons-5/E/Esea](../../simpleicons-5/E/Esea.png) | [simpleicons-5/E/Esea](../../simpleicons-5/E/Esea.md) |
 | ![illustration of simpleicons-5/E/Eslgaming](../../simpleicons-5/E/Eslgaming.png) | [simpleicons-5/E/Eslgaming](../../simpleicons-5/E/Eslgaming.md) |
 | ![illustration of simpleicons-5/E/Eslint](../../simpleicons-5/E/Eslint.png) | [simpleicons-5/E/Eslint](../../simpleicons-5/E/Eslint.md) |

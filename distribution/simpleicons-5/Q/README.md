@@ -1,6 +1,6 @@
 # Q
 
-The module contains 23 items.
+The module contains 24 items.
 
 
 
@@ -17,6 +17,7 @@ The module contains 23 items.
 | ![illustration of simpleicons-5/Q/Qt](../../simpleicons-5/Q/Qt.png) | [simpleicons-5/Q/Qt](../../simpleicons-5/Q/Qt.md) |
 | ![illustration of simpleicons-5/Q/Qualcomm](../../simpleicons-5/Q/Qualcomm.png) | [simpleicons-5/Q/Qualcomm](../../simpleicons-5/Q/Qualcomm.md) |
 | ![illustration of simpleicons-5/Q/Qualtrics](../../simpleicons-5/Q/Qualtrics.png) | [simpleicons-5/Q/Qualtrics](../../simpleicons-5/Q/Qualtrics.md) |
+| ![illustration of simpleicons-5/Q/Qualys](../../simpleicons-5/Q/Qualys.png) | [simpleicons-5/Q/Qualys](../../simpleicons-5/Q/Qualys.md) |
 | ![illustration of simpleicons-5/Q/Quantcast](../../simpleicons-5/Q/Quantcast.png) | [simpleicons-5/Q/Quantcast](../../simpleicons-5/Q/Quantcast.md) |
 | ![illustration of simpleicons-5/Q/Quantconnect](../../simpleicons-5/Q/Quantconnect.png) | [simpleicons-5/Q/Quantconnect](../../simpleicons-5/Q/Quantconnect.md) |
 | ![illustration of simpleicons-5/Q/Quarkus](../../simpleicons-5/Q/Quarkus.png) | [simpleicons-5/Q/Quarkus](../../simpleicons-5/Q/Quarkus.md) |

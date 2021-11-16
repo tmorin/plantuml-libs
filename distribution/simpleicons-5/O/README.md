@@ -1,12 +1,13 @@
 # O
 
-The module contains 56 items.
+The module contains 59 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-5/O/Observable](../../simpleicons-5/O/Observable.png) | [simpleicons-5/O/Observable](../../simpleicons-5/O/Observable.md) |
+| ![illustration of simpleicons-5/O/Obsidian](../../simpleicons-5/O/Obsidian.png) | [simpleicons-5/O/Obsidian](../../simpleicons-5/O/Obsidian.md) |
 | ![illustration of simpleicons-5/O/Obsstudio](../../simpleicons-5/O/Obsstudio.png) | [simpleicons-5/O/Obsstudio](../../simpleicons-5/O/Obsstudio.md) |
 | ![illustration of simpleicons-5/O/Ocaml](../../simpleicons-5/O/Ocaml.png) | [simpleicons-5/O/Ocaml](../../simpleicons-5/O/Ocaml.md) |
 | ![illustration of simpleicons-5/O/Octave](../../simpleicons-5/O/Octave.png) | [simpleicons-5/O/Octave](../../simpleicons-5/O/Octave.md) |
@@ -14,6 +15,7 @@ The module contains 56 items.
 | ![illustration of simpleicons-5/O/Oculus](../../simpleicons-5/O/Oculus.png) | [simpleicons-5/O/Oculus](../../simpleicons-5/O/Oculus.md) |
 | ![illustration of simpleicons-5/O/Odnoklassniki](../../simpleicons-5/O/Odnoklassniki.png) | [simpleicons-5/O/Odnoklassniki](../../simpleicons-5/O/Odnoklassniki.md) |
 | ![illustration of simpleicons-5/O/Odysee](../../simpleicons-5/O/Odysee.png) | [simpleicons-5/O/Odysee](../../simpleicons-5/O/Odysee.md) |
+| ![illustration of simpleicons-5/O/Ohdear](../../simpleicons-5/O/Ohdear.png) | [simpleicons-5/O/Ohdear](../../simpleicons-5/O/Ohdear.md) |
 | ![illustration of simpleicons-5/O/Okcupid](../../simpleicons-5/O/Okcupid.png) | [simpleicons-5/O/Okcupid](../../simpleicons-5/O/Okcupid.md) |
 | ![illustration of simpleicons-5/O/Okta](../../simpleicons-5/O/Okta.png) | [simpleicons-5/O/Okta](../../simpleicons-5/O/Okta.md) |
 | ![illustration of simpleicons-5/O/Oneplus](../../simpleicons-5/O/Oneplus.png) | [simpleicons-5/O/Oneplus](../../simpleicons-5/O/Oneplus.md) |
@@ -50,6 +52,7 @@ The module contains 56 items.
 | ![illustration of simpleicons-5/O/Opslevel](../../simpleicons-5/O/Opslevel.png) | [simpleicons-5/O/Opslevel](../../simpleicons-5/O/Opslevel.md) |
 | ![illustration of simpleicons-5/O/Oracle](../../simpleicons-5/O/Oracle.png) | [simpleicons-5/O/Oracle](../../simpleicons-5/O/Oracle.md) |
 | ![illustration of simpleicons-5/O/Orcid](../../simpleicons-5/O/Orcid.png) | [simpleicons-5/O/Orcid](../../simpleicons-5/O/Orcid.md) |
+| ![illustration of simpleicons-5/O/Oreilly](../../simpleicons-5/O/Oreilly.png) | [simpleicons-5/O/Oreilly](../../simpleicons-5/O/Oreilly.md) |
 | ![illustration of simpleicons-5/O/Org](../../simpleicons-5/O/Org.png) | [simpleicons-5/O/Org](../../simpleicons-5/O/Org.md) |
 | ![illustration of simpleicons-5/O/Origin](../../simpleicons-5/O/Origin.png) | [simpleicons-5/O/Origin](../../simpleicons-5/O/Origin.md) |
 | ![illustration of simpleicons-5/O/Osano](../../simpleicons-5/O/Osano.png) | [simpleicons-5/O/Osano](../../simpleicons-5/O/Osano.md) |

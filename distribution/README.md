@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 14 packages.
+The library provides 13 packages.
 
 - [aws-20210730](aws-20210730/README.md)
 - [aws-q3-2021](aws-q3-2021/README.md)

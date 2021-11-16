@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-5/bootstrap')
+
+' loads the Item which embeds the element Testcafe
+include('simpleicons-5/T/Testcafe')
+
+' renders the element
+Testcafe('Testcafe', 'Testcafe', 'an optional tech label')
+@enduml

@@ -1,6 +1,6 @@
 # T
 
-The module contains 104 items.
+The module contains 109 items.
 
 
 
@@ -32,15 +32,19 @@ The module contains 104 items.
 | ![illustration of simpleicons-5/T/Teradata](../../simpleicons-5/T/Teradata.png) | [simpleicons-5/T/Teradata](../../simpleicons-5/T/Teradata.md) |
 | ![illustration of simpleicons-5/T/Teratail](../../simpleicons-5/T/Teratail.png) | [simpleicons-5/T/Teratail](../../simpleicons-5/T/Teratail.md) |
 | ![illustration of simpleicons-5/T/Terraform](../../simpleicons-5/T/Terraform.png) | [simpleicons-5/T/Terraform](../../simpleicons-5/T/Terraform.md) |
+| ![illustration of simpleicons-5/T/Tesco](../../simpleicons-5/T/Tesco.png) | [simpleicons-5/T/Tesco](../../simpleicons-5/T/Tesco.md) |
 | ![illustration of simpleicons-5/T/Tesla](../../simpleicons-5/T/Tesla.png) | [simpleicons-5/T/Tesla](../../simpleicons-5/T/Tesla.md) |
+| ![illustration of simpleicons-5/T/Testcafe](../../simpleicons-5/T/Testcafe.png) | [simpleicons-5/T/Testcafe](../../simpleicons-5/T/Testcafe.md) |
 | ![illustration of simpleicons-5/T/Testin](../../simpleicons-5/T/Testin.png) | [simpleicons-5/T/Testin](../../simpleicons-5/T/Testin.md) |
 | ![illustration of simpleicons-5/T/Testinglibrary](../../simpleicons-5/T/Testinglibrary.png) | [simpleicons-5/T/Testinglibrary](../../simpleicons-5/T/Testinglibrary.md) |
+| ![illustration of simpleicons-5/T/Tether](../../simpleicons-5/T/Tether.png) | [simpleicons-5/T/Tether](../../simpleicons-5/T/Tether.md) |
 | ![illustration of simpleicons-5/T/Textpattern](../../simpleicons-5/T/Textpattern.png) | [simpleicons-5/T/Textpattern](../../simpleicons-5/T/Textpattern.md) |
 | ![illustration of simpleicons-5/T/Theconversation](../../simpleicons-5/T/Theconversation.png) | [simpleicons-5/T/Theconversation](../../simpleicons-5/T/Theconversation.md) |
 | ![illustration of simpleicons-5/T/Theirishtimes](../../simpleicons-5/T/Theirishtimes.png) | [simpleicons-5/T/Theirishtimes](../../simpleicons-5/T/Theirishtimes.md) |
 | ![illustration of simpleicons-5/T/Themighty](../../simpleicons-5/T/Themighty.png) | [simpleicons-5/T/Themighty](../../simpleicons-5/T/Themighty.md) |
 | ![illustration of simpleicons-5/T/Themodelsresource](../../simpleicons-5/T/Themodelsresource.png) | [simpleicons-5/T/Themodelsresource](../../simpleicons-5/T/Themodelsresource.md) |
 | ![illustration of simpleicons-5/T/Themoviedatabase](../../simpleicons-5/T/Themoviedatabase.png) | [simpleicons-5/T/Themoviedatabase](../../simpleicons-5/T/Themoviedatabase.md) |
+| ![illustration of simpleicons-5/T/Thenorthface](../../simpleicons-5/T/Thenorthface.png) | [simpleicons-5/T/Thenorthface](../../simpleicons-5/T/Thenorthface.md) |
 | ![illustration of simpleicons-5/T/Theregister](../../simpleicons-5/T/Theregister.png) | [simpleicons-5/T/Theregister](../../simpleicons-5/T/Theregister.md) |
 | ![illustration of simpleicons-5/T/Thesoundsresource](../../simpleicons-5/T/Thesoundsresource.png) | [simpleicons-5/T/Thesoundsresource](../../simpleicons-5/T/Thesoundsresource.md) |
 | ![illustration of simpleicons-5/T/Thespritersresource](../../simpleicons-5/T/Thespritersresource.png) | [simpleicons-5/T/Thespritersresource](../../simpleicons-5/T/Thespritersresource.md) |
@@ -108,6 +112,7 @@ The module contains 104 items.
 | ![illustration of simpleicons-5/T/Twitch](../../simpleicons-5/T/Twitch.png) | [simpleicons-5/T/Twitch](../../simpleicons-5/T/Twitch.md) |
 | ![illustration of simpleicons-5/T/Twitter](../../simpleicons-5/T/Twitter.png) | [simpleicons-5/T/Twitter](../../simpleicons-5/T/Twitter.md) |
 | ![illustration of simpleicons-5/T/Twoo](../../simpleicons-5/T/Twoo.png) | [simpleicons-5/T/Twoo](../../simpleicons-5/T/Twoo.md) |
+| ![illustration of simpleicons-5/T/Typeform](../../simpleicons-5/T/Typeform.png) | [simpleicons-5/T/Typeform](../../simpleicons-5/T/Typeform.md) |
 | ![illustration of simpleicons-5/T/Typescript](../../simpleicons-5/T/Typescript.png) | [simpleicons-5/T/Typescript](../../simpleicons-5/T/Typescript.md) |
 | ![illustration of simpleicons-5/T/Typo3](../../simpleicons-5/T/Typo3.png) | [simpleicons-5/T/Typo3](../../simpleicons-5/T/Typo3.md) |
 

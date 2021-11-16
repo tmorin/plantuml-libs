@@ -1,6 +1,6 @@
 # U
 
-The module contains 30 items.
+The module contains 32 items.
 
 
 
@@ -20,6 +20,7 @@ The module contains 30 items.
 | ![illustration of simpleicons-5/U/Umbraco](../../simpleicons-5/U/Umbraco.png) | [simpleicons-5/U/Umbraco](../../simpleicons-5/U/Umbraco.md) |
 | ![illustration of simpleicons-5/U/Unacademy](../../simpleicons-5/U/Unacademy.png) | [simpleicons-5/U/Unacademy](../../simpleicons-5/U/Unacademy.md) |
 | ![illustration of simpleicons-5/U/Underarmour](../../simpleicons-5/U/Underarmour.png) | [simpleicons-5/U/Underarmour](../../simpleicons-5/U/Underarmour.md) |
+| ![illustration of simpleicons-5/U/Underscoredotjs](../../simpleicons-5/U/Underscoredotjs.png) | [simpleicons-5/U/Underscoredotjs](../../simpleicons-5/U/Underscoredotjs.md) |
 | ![illustration of simpleicons-5/U/Undertale](../../simpleicons-5/U/Undertale.png) | [simpleicons-5/U/Undertale](../../simpleicons-5/U/Undertale.md) |
 | ![illustration of simpleicons-5/U/Unicode](../../simpleicons-5/U/Unicode.png) | [simpleicons-5/U/Unicode](../../simpleicons-5/U/Unicode.md) |
 | ![illustration of simpleicons-5/U/Unilever](../../simpleicons-5/U/Unilever.png) | [simpleicons-5/U/Unilever](../../simpleicons-5/U/Unilever.md) |
@@ -34,6 +35,7 @@ The module contains 30 items.
 | ![illustration of simpleicons-5/U/Uplabs](../../simpleicons-5/U/Uplabs.png) | [simpleicons-5/U/Uplabs](../../simpleicons-5/U/Uplabs.md) |
 | ![illustration of simpleicons-5/U/Uploaded](../../simpleicons-5/U/Uploaded.png) | [simpleicons-5/U/Uploaded](../../simpleicons-5/U/Uploaded.md) |
 | ![illustration of simpleicons-5/U/Ups](../../simpleicons-5/U/Ups.png) | [simpleicons-5/U/Ups](../../simpleicons-5/U/Ups.md) |
+| ![illustration of simpleicons-5/U/Uptobox](../../simpleicons-5/U/Uptobox.png) | [simpleicons-5/U/Uptobox](../../simpleicons-5/U/Uptobox.md) |
 | ![illustration of simpleicons-5/U/Upwork](../../simpleicons-5/U/Upwork.png) | [simpleicons-5/U/Upwork](../../simpleicons-5/U/Upwork.md) |
 | ![illustration of simpleicons-5/U/Usps](../../simpleicons-5/U/Usps.png) | [simpleicons-5/U/Usps](../../simpleicons-5/U/Usps.md) |
 

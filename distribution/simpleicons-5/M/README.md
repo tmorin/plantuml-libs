@@ -1,6 +1,6 @@
 # M
 
-The module contains 116 items.
+The module contains 120 items.
 
 
 
@@ -45,6 +45,7 @@ The module contains 116 items.
 | ![illustration of simpleicons-5/M/Mclaren](../../simpleicons-5/M/Mclaren.png) | [simpleicons-5/M/Mclaren](../../simpleicons-5/M/Mclaren.md) |
 | ![illustration of simpleicons-5/M/Mdnwebdocs](../../simpleicons-5/M/Mdnwebdocs.png) | [simpleicons-5/M/Mdnwebdocs](../../simpleicons-5/M/Mdnwebdocs.md) |
 | ![illustration of simpleicons-5/M/Mediafire](../../simpleicons-5/M/Mediafire.png) | [simpleicons-5/M/Mediafire](../../simpleicons-5/M/Mediafire.md) |
+| ![illustration of simpleicons-5/M/Mediamarkt](../../simpleicons-5/M/Mediamarkt.png) | [simpleicons-5/M/Mediamarkt](../../simpleicons-5/M/Mediamarkt.md) |
 | ![illustration of simpleicons-5/M/Mediatek](../../simpleicons-5/M/Mediatek.png) | [simpleicons-5/M/Mediatek](../../simpleicons-5/M/Mediatek.md) |
 | ![illustration of simpleicons-5/M/Mediatemple](../../simpleicons-5/M/Mediatemple.png) | [simpleicons-5/M/Mediatemple](../../simpleicons-5/M/Mediatemple.md) |
 | ![illustration of simpleicons-5/M/Medium](../../simpleicons-5/M/Medium.png) | [simpleicons-5/M/Medium](../../simpleicons-5/M/Medium.md) |
@@ -52,6 +53,7 @@ The module contains 116 items.
 | ![illustration of simpleicons-5/M/Mega](../../simpleicons-5/M/Mega.png) | [simpleicons-5/M/Mega](../../simpleicons-5/M/Mega.md) |
 | ![illustration of simpleicons-5/M/Mendeley](../../simpleicons-5/M/Mendeley.png) | [simpleicons-5/M/Mendeley](../../simpleicons-5/M/Mendeley.md) |
 | ![illustration of simpleicons-5/M/Mercedes](../../simpleicons-5/M/Mercedes.png) | [simpleicons-5/M/Mercedes](../../simpleicons-5/M/Mercedes.md) |
+| ![illustration of simpleicons-5/M/Merck](../../simpleicons-5/M/Merck.png) | [simpleicons-5/M/Merck](../../simpleicons-5/M/Merck.md) |
 | ![illustration of simpleicons-5/M/Mercurial](../../simpleicons-5/M/Mercurial.png) | [simpleicons-5/M/Mercurial](../../simpleicons-5/M/Mercurial.md) |
 | ![illustration of simpleicons-5/M/Messenger](../../simpleicons-5/M/Messenger.png) | [simpleicons-5/M/Messenger](../../simpleicons-5/M/Messenger.md) |
 | ![illustration of simpleicons-5/M/Metabase](../../simpleicons-5/M/Metabase.png) | [simpleicons-5/M/Metabase](../../simpleicons-5/M/Metabase.md) |
@@ -112,8 +114,10 @@ The module contains 116 items.
 | ![illustration of simpleicons-5/M/Moscowmetro](../../simpleicons-5/M/Moscowmetro.png) | [simpleicons-5/M/Moscowmetro](../../simpleicons-5/M/Moscowmetro.md) |
 | ![illustration of simpleicons-5/M/Motorola](../../simpleicons-5/M/Motorola.png) | [simpleicons-5/M/Motorola](../../simpleicons-5/M/Motorola.md) |
 | ![illustration of simpleicons-5/M/Mozilla](../../simpleicons-5/M/Mozilla.png) | [simpleicons-5/M/Mozilla](../../simpleicons-5/M/Mozilla.md) |
+| ![illustration of simpleicons-5/M/Msi](../../simpleicons-5/M/Msi.png) | [simpleicons-5/M/Msi](../../simpleicons-5/M/Msi.md) |
 | ![illustration of simpleicons-5/M/Mta](../../simpleicons-5/M/Mta.png) | [simpleicons-5/M/Mta](../../simpleicons-5/M/Mta.md) |
 | ![illustration of simpleicons-5/M/Mtr](../../simpleicons-5/M/Mtr.png) | [simpleicons-5/M/Mtr](../../simpleicons-5/M/Mtr.md) |
+| ![illustration of simpleicons-5/M/Mulesoft](../../simpleicons-5/M/Mulesoft.png) | [simpleicons-5/M/Mulesoft](../../simpleicons-5/M/Mulesoft.md) |
 | ![illustration of simpleicons-5/M/Mumble](../../simpleicons-5/M/Mumble.png) | [simpleicons-5/M/Mumble](../../simpleicons-5/M/Mumble.md) |
 | ![illustration of simpleicons-5/M/Musescore](../../simpleicons-5/M/Musescore.png) | [simpleicons-5/M/Musescore](../../simpleicons-5/M/Musescore.md) |
 | ![illustration of simpleicons-5/M/Musicbrainz](../../simpleicons-5/M/Musicbrainz.png) | [simpleicons-5/M/Musicbrainz](../../simpleicons-5/M/Musicbrainz.md) |

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/P/Penny
+
+sprite $PennyXs [10x10/16z] Oo0MyB1o0G4d5nShFmJmiH6h5G
+
+sprite $PennySm [12x12/16z] fS450G0X542nRoVewzyM8Y2RtA3CD2sPXuOt8D1Nx7Fvlf3NPDC
+
+sprite $PennyMd [16x16/16z] lSC50G8n043Hc_jU_xH82FZo_1lENOUe3QSNjeLnPSBkpp55WkVxZta3
+
+sprite $PennyLg [20x20/16z] pOO50GGm3CJQyKhnh_R1nGuZhojYJRDXQjF6jTyVOL2v9ywas0Gw-Ul7yCTHBFLIWR9qDWUj5EHnVG4
+
+!procedure Penny($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/P/Penny', $name, $tech)
+!endprocedure

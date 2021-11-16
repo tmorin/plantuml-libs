@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-5/A/Avast
+
+sprite $AvastXs [10x10/16z] BOg50S0m20HZKE_jlsrmUsjM5zgyW05NWA3YQ0Q_OD4TXkc3clgsqndz1Bhh3vLfKc03
+
+sprite $AvastSm [12x12/16z] FSU50S0W4C30rBtPVreS3laysUD9fNvgo_ux-Ylzm9H7hhnOBE39hAVgnBsZ2F2UoxgAxswnxF1R_G2VsG4H
+
+sprite $AvastMd [16x16/16z] {
+FSp50O104CNGhEFflri6VTSltDhkclZiFWQ4P82YxWH31JPrUylrwsMy_JVDnrVOrGOA73uAe93LrJ01sm5gKj9yMEWxLT6KIXkBQrtneBjqNsiZhFuAOVFJ
+kMLl1-44
+}
+
+sprite $AvastLg [20x20/16z] {
+JSpN0OGm3C1GqRkr_xPdaXpmVb8jgcuBpvcFnURgQJIj_MNQFbSTS9ZsvohUr-bfGThRrchubB4PIPUchLvishtnDZZKyLE_CGLwKtc8YNJOWsbkpHDOhKNo
+6kZc8nP6EyABo-Z6zJ3bJYOdUcERVI4r_X6GDhy6YiaNZzNYcY3z
+}
+
+!procedure Avast($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/A/Avast', $name, $tech)
+!endprocedure

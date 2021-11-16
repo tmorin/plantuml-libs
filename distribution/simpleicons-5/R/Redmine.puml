@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-5/R/Redmine
+
+sprite $RedmineXs [10x10/16z] TScd0SH00C0mVKaltd_Ri6CHjBseG4aRNoV2EDnWyHdjwW1bU
+
+sprite $RedmineSm [12x12/16z] VSR50G0X30NHmPtVVxNhTje7IOO_JUcgQQLM2fia0P814xUr7Hf8XPqKON185IHEKlwq3-7gAouh
+
+sprite $RedmineMd [16x16/16z] dOl50GCX54Hd7N_zLnl1Jv65RsEwzGAmTfIi064hXECyzWXNnWinRyAqif2IT82j6CZnfMABbywCwbjjDVM0WJJZ1776-lAU
+
+sprite $RedmineLg [20x20/16z] {
+hSor0SD050JH4SF1z5-jc5FxPHzs-OEoxHe-NF6GCqajAeV7JqGJUYsJZYoAh1shig2Fx2neMMYgE7LQGtcLh5n0bRJaDEh8AdDfEXRceURM1aFXWfkBNesV
+NLB3PySFPW
+}
+
+!procedure Redmine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/R/Redmine', $name, $tech)
+!endprocedure

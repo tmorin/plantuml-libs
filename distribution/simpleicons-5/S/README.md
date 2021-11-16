@@ -1,12 +1,13 @@
 # S
 
-The module contains 203 items.
+The module contains 212 items.
 
 
 
 | |Name|
 |:---:|---|
 | ![illustration of simpleicons-5/S/S7Airlines](../../simpleicons-5/S/S7Airlines.png) | [simpleicons-5/S/S7Airlines](../../simpleicons-5/S/S7Airlines.md) |
+| ![illustration of simpleicons-5/S/Sabanci](../../simpleicons-5/S/Sabanci.png) | [simpleicons-5/S/Sabanci](../../simpleicons-5/S/Sabanci.md) |
 | ![illustration of simpleicons-5/S/Safari](../../simpleicons-5/S/Safari.png) | [simpleicons-5/S/Safari](../../simpleicons-5/S/Safari.md) |
 | ![illustration of simpleicons-5/S/Sahibinden](../../simpleicons-5/S/Sahibinden.png) | [simpleicons-5/S/Sahibinden](../../simpleicons-5/S/Sahibinden.md) |
 | ![illustration of simpleicons-5/S/Salesforce](../../simpleicons-5/S/Salesforce.png) | [simpleicons-5/S/Salesforce](../../simpleicons-5/S/Salesforce.md) |
@@ -25,6 +26,7 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Scikitlearn](../../simpleicons-5/S/Scikitlearn.png) | [simpleicons-5/S/Scikitlearn](../../simpleicons-5/S/Scikitlearn.md) |
 | ![illustration of simpleicons-5/S/Scipy](../../simpleicons-5/S/Scipy.png) | [simpleicons-5/S/Scipy](../../simpleicons-5/S/Scipy.md) |
 | ![illustration of simpleicons-5/S/Scopus](../../simpleicons-5/S/Scopus.png) | [simpleicons-5/S/Scopus](../../simpleicons-5/S/Scopus.md) |
+| ![illustration of simpleicons-5/S/Scpfoundation](../../simpleicons-5/S/Scpfoundation.png) | [simpleicons-5/S/Scpfoundation](../../simpleicons-5/S/Scpfoundation.md) |
 | ![illustration of simpleicons-5/S/Scratch](../../simpleicons-5/S/Scratch.png) | [simpleicons-5/S/Scratch](../../simpleicons-5/S/Scratch.md) |
 | ![illustration of simpleicons-5/S/Screencastify](../../simpleicons-5/S/Screencastify.png) | [simpleicons-5/S/Screencastify](../../simpleicons-5/S/Screencastify.md) |
 | ![illustration of simpleicons-5/S/Scribd](../../simpleicons-5/S/Scribd.png) | [simpleicons-5/S/Scribd](../../simpleicons-5/S/Scribd.md) |
@@ -82,6 +84,8 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Skoda](../../simpleicons-5/S/Skoda.png) | [simpleicons-5/S/Skoda](../../simpleicons-5/S/Skoda.md) |
 | ![illustration of simpleicons-5/S/Sky](../../simpleicons-5/S/Sky.png) | [simpleicons-5/S/Sky](../../simpleicons-5/S/Sky.md) |
 | ![illustration of simpleicons-5/S/Skyliner](../../simpleicons-5/S/Skyliner.png) | [simpleicons-5/S/Skyliner](../../simpleicons-5/S/Skyliner.md) |
+| ![illustration of simpleicons-5/S/Skynet](../../simpleicons-5/S/Skynet.png) | [simpleicons-5/S/Skynet](../../simpleicons-5/S/Skynet.md) |
+| ![illustration of simpleicons-5/S/Skypack](../../simpleicons-5/S/Skypack.png) | [simpleicons-5/S/Skypack](../../simpleicons-5/S/Skypack.md) |
 | ![illustration of simpleicons-5/S/Skype](../../simpleicons-5/S/Skype.png) | [simpleicons-5/S/Skype](../../simpleicons-5/S/Skype.md) |
 | ![illustration of simpleicons-5/S/Skypeforbusiness](../../simpleicons-5/S/Skypeforbusiness.png) | [simpleicons-5/S/Skypeforbusiness](../../simpleicons-5/S/Skypeforbusiness.md) |
 | ![illustration of simpleicons-5/S/Slack](../../simpleicons-5/S/Slack.png) | [simpleicons-5/S/Slack](../../simpleicons-5/S/Slack.md) |
@@ -99,6 +103,7 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Snapchat](../../simpleicons-5/S/Snapchat.png) | [simpleicons-5/S/Snapchat](../../simpleicons-5/S/Snapchat.md) |
 | ![illustration of simpleicons-5/S/Snapcraft](../../simpleicons-5/S/Snapcraft.png) | [simpleicons-5/S/Snapcraft](../../simpleicons-5/S/Snapcraft.md) |
 | ![illustration of simpleicons-5/S/Snowflake](../../simpleicons-5/S/Snowflake.png) | [simpleicons-5/S/Snowflake](../../simpleicons-5/S/Snowflake.md) |
+| ![illustration of simpleicons-5/S/Snowpack](../../simpleicons-5/S/Snowpack.png) | [simpleicons-5/S/Snowpack](../../simpleicons-5/S/Snowpack.md) |
 | ![illustration of simpleicons-5/S/Snyk](../../simpleicons-5/S/Snyk.png) | [simpleicons-5/S/Snyk](../../simpleicons-5/S/Snyk.md) |
 | ![illustration of simpleicons-5/S/Society6](../../simpleicons-5/S/Society6.png) | [simpleicons-5/S/Society6](../../simpleicons-5/S/Society6.md) |
 | ![illustration of simpleicons-5/S/Socketdotio](../../simpleicons-5/S/Socketdotio.png) | [simpleicons-5/S/Socketdotio](../../simpleicons-5/S/Socketdotio.md) |
@@ -114,10 +119,12 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Songoda](../../simpleicons-5/S/Songoda.png) | [simpleicons-5/S/Songoda](../../simpleicons-5/S/Songoda.md) |
 | ![illustration of simpleicons-5/S/Sonicwall](../../simpleicons-5/S/Sonicwall.png) | [simpleicons-5/S/Sonicwall](../../simpleicons-5/S/Sonicwall.md) |
 | ![illustration of simpleicons-5/S/Sonos](../../simpleicons-5/S/Sonos.png) | [simpleicons-5/S/Sonos](../../simpleicons-5/S/Sonos.md) |
+| ![illustration of simpleicons-5/S/Sony](../../simpleicons-5/S/Sony.png) | [simpleicons-5/S/Sony](../../simpleicons-5/S/Sony.md) |
 | ![illustration of simpleicons-5/S/Soundcloud](../../simpleicons-5/S/Soundcloud.png) | [simpleicons-5/S/Soundcloud](../../simpleicons-5/S/Soundcloud.md) |
 | ![illustration of simpleicons-5/S/Sourceengine](../../simpleicons-5/S/Sourceengine.png) | [simpleicons-5/S/Sourceengine](../../simpleicons-5/S/Sourceengine.md) |
 | ![illustration of simpleicons-5/S/Sourceforge](../../simpleicons-5/S/Sourceforge.png) | [simpleicons-5/S/Sourceforge](../../simpleicons-5/S/Sourceforge.md) |
 | ![illustration of simpleicons-5/S/Sourcegraph](../../simpleicons-5/S/Sourcegraph.png) | [simpleicons-5/S/Sourcegraph](../../simpleicons-5/S/Sourcegraph.md) |
+| ![illustration of simpleicons-5/S/Sourcetree](../../simpleicons-5/S/Sourcetree.png) | [simpleicons-5/S/Sourcetree](../../simpleicons-5/S/Sourcetree.md) |
 | ![illustration of simpleicons-5/S/Southwestairlines](../../simpleicons-5/S/Southwestairlines.png) | [simpleicons-5/S/Southwestairlines](../../simpleicons-5/S/Southwestairlines.md) |
 | ![illustration of simpleicons-5/S/Spacemacs](../../simpleicons-5/S/Spacemacs.png) | [simpleicons-5/S/Spacemacs](../../simpleicons-5/S/Spacemacs.md) |
 | ![illustration of simpleicons-5/S/Spacex](../../simpleicons-5/S/Spacex.png) | [simpleicons-5/S/Spacex](../../simpleicons-5/S/Spacex.md) |
@@ -140,6 +147,7 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.png) | [simpleicons-5/S/Spring](../../simpleicons-5/S/Spring.md) |
 | ![illustration of simpleicons-5/S/SpringCreators](../../simpleicons-5/S/SpringCreators.png) | [simpleicons-5/S/SpringCreators](../../simpleicons-5/S/SpringCreators.md) |
 | ![illustration of simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.png) | [simpleicons-5/S/Springboot](../../simpleicons-5/S/Springboot.md) |
+| ![illustration of simpleicons-5/S/Springsecurity](../../simpleicons-5/S/Springsecurity.png) | [simpleicons-5/S/Springsecurity](../../simpleicons-5/S/Springsecurity.md) |
 | ![illustration of simpleicons-5/S/Spyderide](../../simpleicons-5/S/Spyderide.png) | [simpleicons-5/S/Spyderide](../../simpleicons-5/S/Spyderide.md) |
 | ![illustration of simpleicons-5/S/Sqlite](../../simpleicons-5/S/Sqlite.png) | [simpleicons-5/S/Sqlite](../../simpleicons-5/S/Sqlite.md) |
 | ![illustration of simpleicons-5/S/Square](../../simpleicons-5/S/Square.png) | [simpleicons-5/S/Square](../../simpleicons-5/S/Square.md) |
@@ -164,6 +172,7 @@ The module contains 203 items.
 | ![illustration of simpleicons-5/S/Steam](../../simpleicons-5/S/Steam.png) | [simpleicons-5/S/Steam](../../simpleicons-5/S/Steam.md) |
 | ![illustration of simpleicons-5/S/Steamdb](../../simpleicons-5/S/Steamdb.png) | [simpleicons-5/S/Steamdb](../../simpleicons-5/S/Steamdb.md) |
 | ![illustration of simpleicons-5/S/Steamworks](../../simpleicons-5/S/Steamworks.png) | [simpleicons-5/S/Steamworks](../../simpleicons-5/S/Steamworks.md) |
+| ![illustration of simpleicons-5/S/Steelseries](../../simpleicons-5/S/Steelseries.png) | [simpleicons-5/S/Steelseries](../../simpleicons-5/S/Steelseries.md) |
 | ![illustration of simpleicons-5/S/Steem](../../simpleicons-5/S/Steem.png) | [simpleicons-5/S/Steem](../../simpleicons-5/S/Steem.md) |
 | ![illustration of simpleicons-5/S/Steemit](../../simpleicons-5/S/Steemit.png) | [simpleicons-5/S/Steemit](../../simpleicons-5/S/Steemit.md) |
 | ![illustration of simpleicons-5/S/Steinberg](../../simpleicons-5/S/Steinberg.png) | [simpleicons-5/S/Steinberg](../../simpleicons-5/S/Steinberg.md) |

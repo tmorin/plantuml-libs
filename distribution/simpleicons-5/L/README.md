@@ -1,6 +1,6 @@
 # L
 
-The module contains 61 items.
+The module contains 63 items.
 
 
 
@@ -51,8 +51,10 @@ The module contains 61 items.
 | ![illustration of simpleicons-5/L/Litecoin](../../simpleicons-5/L/Litecoin.png) | [simpleicons-5/L/Litecoin](../../simpleicons-5/L/Litecoin.md) |
 | ![illustration of simpleicons-5/L/Livechat](../../simpleicons-5/L/Livechat.png) | [simpleicons-5/L/Livechat](../../simpleicons-5/L/Livechat.md) |
 | ![illustration of simpleicons-5/L/Livejournal](../../simpleicons-5/L/Livejournal.png) | [simpleicons-5/L/Livejournal](../../simpleicons-5/L/Livejournal.md) |
+| ![illustration of simpleicons-5/L/Livewire](../../simpleicons-5/L/Livewire.png) | [simpleicons-5/L/Livewire](../../simpleicons-5/L/Livewire.md) |
 | ![illustration of simpleicons-5/L/Llvm](../../simpleicons-5/L/Llvm.png) | [simpleicons-5/L/Llvm](../../simpleicons-5/L/Llvm.md) |
 | ![illustration of simpleicons-5/L/Lmms](../../simpleicons-5/L/Lmms.png) | [simpleicons-5/L/Lmms](../../simpleicons-5/L/Lmms.md) |
+| ![illustration of simpleicons-5/L/Lodash](../../simpleicons-5/L/Lodash.png) | [simpleicons-5/L/Lodash](../../simpleicons-5/L/Lodash.md) |
 | ![illustration of simpleicons-5/L/Logitech](../../simpleicons-5/L/Logitech.png) | [simpleicons-5/L/Logitech](../../simpleicons-5/L/Logitech.md) |
 | ![illustration of simpleicons-5/L/Logmein](../../simpleicons-5/L/Logmein.png) | [simpleicons-5/L/Logmein](../../simpleicons-5/L/Logmein.md) |
 | ![illustration of simpleicons-5/L/Logstash](../../simpleicons-5/L/Logstash.png) | [simpleicons-5/L/Logstash](../../simpleicons-5/L/Logstash.md) |

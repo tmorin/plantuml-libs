@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-5/T/Testcafe
+
+sprite $TestcafeXs [10x10/16z] Oy03cE4CVbG6FpzCX8sVdu4Dn621I005O01X3W
+
+sprite $TestcafeSm [12x12/16z] XOR50SGm0CCKvdZ_QG-Adu9HlCgU61HExCiFy1iQoMcmifM6MR1Qp83iOSQmgXLkz0K
+
+sprite $TestcafeMd [16x16/16z] fSY30K0n34NHD3NV_jD-sxZb2Vr9YpM13TM2QcO9H7Ac07n3JJGF5cHa1apEfQDg7w7R2ytbeASCcCqwkga6
+
+sprite $TestcafeLg [20x20/16z] jOhL0GCW4CM0a_gz_RSjhd-Lu27kpv0TIe1T4e2pWX_1MHbuhtnyyQY6Z8H9gGP4uaajiYjHB0CHlQx5WVDFVJpZnhZ9Z9bJdBWlU0C
+
+!procedure Testcafe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-5/T/Testcafe', $name, $tech)
+!endprocedure

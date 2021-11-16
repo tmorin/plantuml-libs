@@ -1,15 +1,17 @@
 # I
 
-The module contains 55 items.
+The module contains 60 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-5/I/I18Next](../../simpleicons-5/I/I18Next.png) | [simpleicons-5/I/I18Next](../../simpleicons-5/I/I18Next.md) |
 | ![illustration of simpleicons-5/I/Iata](../../simpleicons-5/I/Iata.png) | [simpleicons-5/I/Iata](../../simpleicons-5/I/Iata.md) |
 | ![illustration of simpleicons-5/I/Ibeacon](../../simpleicons-5/I/Ibeacon.png) | [simpleicons-5/I/Ibeacon](../../simpleicons-5/I/Ibeacon.md) |
 | ![illustration of simpleicons-5/I/Ibm](../../simpleicons-5/I/Ibm.png) | [simpleicons-5/I/Ibm](../../simpleicons-5/I/Ibm.md) |
 | ![illustration of simpleicons-5/I/Ibmwatson](../../simpleicons-5/I/Ibmwatson.png) | [simpleicons-5/I/Ibmwatson](../../simpleicons-5/I/Ibmwatson.md) |
+| ![illustration of simpleicons-5/I/Iceland](../../simpleicons-5/I/Iceland.png) | [simpleicons-5/I/Iceland](../../simpleicons-5/I/Iceland.md) |
 | ![illustration of simpleicons-5/I/Icinga](../../simpleicons-5/I/Icinga.png) | [simpleicons-5/I/Icinga](../../simpleicons-5/I/Icinga.md) |
 | ![illustration of simpleicons-5/I/Icloud](../../simpleicons-5/I/Icloud.png) | [simpleicons-5/I/Icloud](../../simpleicons-5/I/Icloud.md) |
 | ![illustration of simpleicons-5/I/Icomoon](../../simpleicons-5/I/Icomoon.png) | [simpleicons-5/I/Icomoon](../../simpleicons-5/I/Icomoon.md) |
@@ -41,10 +43,12 @@ The module contains 55 items.
 | ![illustration of simpleicons-5/I/Instacart](../../simpleicons-5/I/Instacart.png) | [simpleicons-5/I/Instacart](../../simpleicons-5/I/Instacart.md) |
 | ![illustration of simpleicons-5/I/Instagram](../../simpleicons-5/I/Instagram.png) | [simpleicons-5/I/Instagram](../../simpleicons-5/I/Instagram.md) |
 | ![illustration of simpleicons-5/I/Instapaper](../../simpleicons-5/I/Instapaper.png) | [simpleicons-5/I/Instapaper](../../simpleicons-5/I/Instapaper.md) |
+| ![illustration of simpleicons-5/I/Instatus](../../simpleicons-5/I/Instatus.png) | [simpleicons-5/I/Instatus](../../simpleicons-5/I/Instatus.md) |
 | ![illustration of simpleicons-5/I/Instructables](../../simpleicons-5/I/Instructables.png) | [simpleicons-5/I/Instructables](../../simpleicons-5/I/Instructables.md) |
 | ![illustration of simpleicons-5/I/Integromat](../../simpleicons-5/I/Integromat.png) | [simpleicons-5/I/Integromat](../../simpleicons-5/I/Integromat.md) |
 | ![illustration of simpleicons-5/I/Intel](../../simpleicons-5/I/Intel.png) | [simpleicons-5/I/Intel](../../simpleicons-5/I/Intel.md) |
 | ![illustration of simpleicons-5/I/Intellijidea](../../simpleicons-5/I/Intellijidea.png) | [simpleicons-5/I/Intellijidea](../../simpleicons-5/I/Intellijidea.md) |
+| ![illustration of simpleicons-5/I/Interactjs](../../simpleicons-5/I/Interactjs.png) | [simpleicons-5/I/Interactjs](../../simpleicons-5/I/Interactjs.md) |
 | ![illustration of simpleicons-5/I/Intercom](../../simpleicons-5/I/Intercom.png) | [simpleicons-5/I/Intercom](../../simpleicons-5/I/Intercom.md) |
 | ![illustration of simpleicons-5/I/Internetarchive](../../simpleicons-5/I/Internetarchive.png) | [simpleicons-5/I/Internetarchive](../../simpleicons-5/I/Internetarchive.md) |
 | ![illustration of simpleicons-5/I/Internetexplorer](../../simpleicons-5/I/Internetexplorer.png) | [simpleicons-5/I/Internetexplorer](../../simpleicons-5/I/Internetexplorer.md) |
@@ -59,6 +63,7 @@ The module contains 55 items.
 | ![illustration of simpleicons-5/I/Issuu](../../simpleicons-5/I/Issuu.png) | [simpleicons-5/I/Issuu](../../simpleicons-5/I/Issuu.md) |
 | ![illustration of simpleicons-5/I/Istio](../../simpleicons-5/I/Istio.png) | [simpleicons-5/I/Istio](../../simpleicons-5/I/Istio.md) |
 | ![illustration of simpleicons-5/I/Itchdotio](../../simpleicons-5/I/Itchdotio.png) | [simpleicons-5/I/Itchdotio](../../simpleicons-5/I/Itchdotio.md) |
+| ![illustration of simpleicons-5/I/Iterm2](../../simpleicons-5/I/Iterm2.png) | [simpleicons-5/I/Iterm2](../../simpleicons-5/I/Iterm2.md) |
 | ![illustration of simpleicons-5/I/Itunes](../../simpleicons-5/I/Itunes.png) | [simpleicons-5/I/Itunes](../../simpleicons-5/I/Itunes.md) |
 | ![illustration of simpleicons-5/I/Iveco](../../simpleicons-5/I/Iveco.png) | [simpleicons-5/I/Iveco](../../simpleicons-5/I/Iveco.md) |
 
