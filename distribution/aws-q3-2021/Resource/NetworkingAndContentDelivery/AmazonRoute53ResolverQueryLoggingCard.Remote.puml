@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53ResolverQueryLoggingCard
+include('aws-q3-2021/Resource/NetworkingAndContentDelivery/AmazonRoute53ResolverQueryLogging')
+
+' renders the element
+AmazonRoute53ResolverQueryLoggingCard('AmazonRoute53ResolverQueryLoggingCard', 'Amazon Route53 Resolver Query Logging Card', 'an optional description')
+@enduml

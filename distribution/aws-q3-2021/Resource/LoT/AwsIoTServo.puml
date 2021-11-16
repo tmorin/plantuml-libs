@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTServo
+
+sprite $AwsIoTServoXs [10x10/16z] Oy06c860XPcPdHN2vUHaO8BBCO7vZ40MgXW31uJ52GC8um
+
+sprite $AwsIoTServoSm [12x12/16z] TSQr0G0X402muDp-0xzBHQfO6J_9AQIOp_EOpWywpXUffkTEp_COwNsdl__nsm4
+
+sprite $AwsIoTServoMd [16x16/16z] bOi54iHG24E3a_iVUAN6TAJolXB1MrWhN4wZTrqXBJDBimNhFFndfmAScGXG_9Zn-qRCB1MAwKjQKcTk1OJ772SCDtm1
+
+sprite $AwsIoTServoLg [20x20/16z] fSZ50KKX30NH0MAt_uA_omjR1itXf6Lx0wrFzlgbt17V530ovil--EHkCym_rlkO8i7KxNMDl9hbn3AR_VjRAMNT9B2oPWLFl5Xfppde3W
+
+!procedure AwsIoTServo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTServo', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTServoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTServoLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTServoGroup($id, $name='Aws Io T Servo', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTServoLg>', $name, $tech)
+!endprocedure

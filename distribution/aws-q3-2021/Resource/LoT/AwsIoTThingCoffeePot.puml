@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTThingCoffeePot
+
+sprite $AwsIoTThingCoffeePotXs [10x10/16z] PSor0SC00CJ0IupQVs1JPL3v80-coejX6AvgY9XaeAIh85dn5r_V3W
+
+sprite $AwsIoTThingCoffeePotSm [12x12/16z] LOq54W0n20ENA_h_3rywZ1NNX5S2czooV6KqTUWnXG0lxzQmmVpKtT36k387bD8rnZHFy4z3fRw1oTJsrjCh-V3-
+
+sprite $AwsIoTThingCoffeePotMd [16x16/16z] {
+RSd1LG0m3CDGfRMRUF-58G2Sq4tlyqzcI4c_suxpkgrl_Skr2YZnlhL-I7T-V79z1MTfUjrpe6vOJvW-m1FEK8yfW0a-XHgp1Mpj4_OhrcNLxxEuNO3yrx2L
+Qof7Mjr4CtKlm0S
+}
+
+sprite $AwsIoTThingCoffeePotLg [20x20/16z] {
+TP250KCn24GlEFiFN47glQzvEFWd0GkoheSKhEyi_4KXnNpYMtQFqsAUQHsbD7x6pCRhn-oIvAeRm0UYpf9LCFCbrePHTcoc8pYA8UzdBR-0LidpucSpJkBf
+9zqmAPv-22rebEjtVwoacoVmec5YOHwMTTdvkp-0SGXQrrrN
+}
+
+!procedure AwsIoTThingCoffeePot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTThingCoffeePot', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingCoffeePotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingCoffeePotLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingCoffeePotGroup($id, $name='Aws Io T Thing Coffee Pot', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingCoffeePotLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonFinSpaceCard
+include('aws-q3-2021/Architecture/Analytics/AmazonFinSpace')
+
+' renders the element
+AmazonFinSpaceCard('AmazonFinSpaceCard', 'Amazon Fin Space Card', 'an optional description')
+@enduml

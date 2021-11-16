@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/Storage/AwsBackupBackupVault
+
+sprite $AwsBackupBackupVaultXs [10x10/16z] PSQr0S1040F1UJxrNx0fjN3zrHYhMn_ju2DYIAD4VAIr_HJvsa17esrakW4
+
+sprite $AwsBackupBackupVaultSm [12x12/16z] JSh50GH140GWnglp3_XSbZUkUlkAHgzJZU107uBHz6Q9XgDu_abNzD0OsQOWyFrhhpE9_XCgq7FS0G
+
+sprite $AwsBackupBackupVaultMd [16x16/16z] {
+NOs50G0X30DJgjb_OEpzWnvonJ-iJr1OaNRS7cpb6XHWawRkkz239KFMik3yxzEa4BquWIMCpVomB0Yo54qFd-Fb2y3FUktoAzsZ10VlB3Zu3cVpUKCUbqu2
+0m
+}
+
+sprite $AwsBackupBackupVaultLg [20x20/16z] {
+RO-50KCn24GFX_q7hb18xL_y1SMLidwbAFo8R9b6k7umOIi6O3KCW8TjS3ciJj1grXJgvf84jOyS9Us8-cIpXb5EeCDi_iFAcx_o9aC912SO3KDYn7bwanfK
+7_rIX5a7NDOY1h3CVsK0aiItNLATNdtzp9s0Em
+}
+
+!procedure AwsBackupBackupVault($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Storage/AwsBackupBackupVault', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupBackupVaultCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupBackupVaultLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupBackupVaultGroup($id, $name='Aws Backup Backup Vault', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupBackupVaultLg>', $name, $tech)
+!endprocedure

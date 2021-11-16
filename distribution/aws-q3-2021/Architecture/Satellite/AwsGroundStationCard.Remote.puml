@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsGroundStationCard
+include('aws-q3-2021/Architecture/Satellite/AwsGroundStation')
+
+' renders the element
+AwsGroundStationCard('AwsGroundStationCard', 'Aws Ground Station Card', 'an optional description')
+@enduml

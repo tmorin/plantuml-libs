@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingCoffeePotCard
+include('aws-q3-2021/Resource/LoT/AwsIoTThingCoffeePot')
+
+' renders the element
+AwsIoTThingCoffeePotCard('AwsIoTThingCoffeePotCard', 'Aws Io T Thing Coffee Pot Card', 'an optional description')
+@enduml

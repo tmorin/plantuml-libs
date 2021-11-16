@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsCloud9Group
+include('aws-q3-2021/Architecture/DeveloperTools/AwsCloud9')
+
+' renders the element
+AwsCloud9Group('AwsCloud9Group', 'Aws Cloud9 Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

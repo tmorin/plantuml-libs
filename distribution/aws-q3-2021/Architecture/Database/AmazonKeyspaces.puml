@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Architecture/Database/AmazonKeyspaces
+
+sprite $AmazonKeyspacesXs [10x10/16z] FOhN0SDG38IKk8fx-yzhNFcw0hJimXTXDPGHQgD_hg60dlwTr5oDXWbqhXJOZCFuAsGO4-G
+
+sprite $AmazonKeyspacesSm [12x12/16z] JSS74W0X20H1ixk3_t_l5LIwDZ20anA_1RXzzEjgWLErHf_oiG81w3OxGlHcx6hWGhMPWxN99jy5_2B2ehmNYVG1
+
+sprite $AmazonKeyspacesMd [16x16/16z] {
+NSq70iCm20F06BmG_lzxAwhEAFFa1OIo5U2_mQqeMLzhj1qXcsOqFhBx66xbs4b34vRDY4mPthplSXhikaA7oCpayxO7KO_icJnd6ASyFVZIED-7HGop8UES
+L03vLZm
+}
+
+sprite $AmazonKeyspacesLg [20x20/16z] {
+RT050iGW34JHO961-vztcQQi__gh0o1EVeS_Y3-OPgFtuObfMe8D8Tucz-q-BamJ8xQoZJXfS1t328qu9-sA97MlvqPHiDQ7cwPDGHUHK4IMnjI1R_DjUDce
+hNVmyNZQNh0p0t0i4i-0BAAA594692vYXjFwW-iFFW
+}
+
+!procedure AmazonKeyspaces($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/Database/AmazonKeyspaces', $name, $tech)
+!endprocedure
+
+!procedure AmazonKeyspacesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKeyspacesLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKeyspacesGroup($id, $name='Amazon Keyspaces', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonKeyspacesLg>', $name, $tech)
+!endprocedure

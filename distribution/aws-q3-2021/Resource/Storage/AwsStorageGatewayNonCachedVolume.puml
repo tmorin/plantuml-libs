@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/Storage/AwsStorageGatewayNonCachedVolume
+
+sprite $AwsStorageGatewayNonCachedVolumeXs [10x10/16z] Oy00Z1IpE3avmIn68C79oCG
+
+sprite $AwsStorageGatewayNonCachedVolumeSm [12x12/16z] Oq01p8mGm0baCq75QCTcOs9YXh0vE80a4uW4
+
+sprite $AwsStorageGatewayNonCachedVolumeMd [16x16/16z] Oy00x1nmm0dc8wJOXWgVWusDZHs9pmB4C3uh9oSd4v06Ka3_0G
+
+sprite $AwsStorageGatewayNonCachedVolumeLg [20x20/16z] xSX70O0030F0fBl-1RCtIE2UXszzuyi5BXYN-wzwzZXCBfSarnDIrlE8S4mi9WAC
+
+!procedure AwsStorageGatewayNonCachedVolume($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Storage/AwsStorageGatewayNonCachedVolume', $name, $tech)
+!endprocedure
+
+!procedure AwsStorageGatewayNonCachedVolumeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsStorageGatewayNonCachedVolumeLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsStorageGatewayNonCachedVolumeGroup($id, $name='Aws Storage Gateway Non Cached Volume', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsStorageGatewayNonCachedVolumeLg>', $name, $tech)
+!endprocedure

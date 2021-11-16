@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsIdentityAccessManagementAwsIamAccessAnalyzer
+include('aws-q3-2021/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer')
+
+' renders the element
+AwsIdentityAccessManagementAwsIamAccessAnalyzer('AwsIdentityAccessManagementAwsIamAccessAnalyzer', 'Aws Identity Access Management Aws Iam Access Analyzer', 'an optional tech label')
+@enduml

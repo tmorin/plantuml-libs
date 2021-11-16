@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonRdsProxyInstanceAlternateCard
+include('aws-q3-2021/Resource/Database/AmazonRdsProxyInstanceAlternate')
+
+' renders the element
+AmazonRdsProxyInstanceAlternateCard('AmazonRdsProxyInstanceAlternateCard', 'Amazon Rds Proxy Instance Alternate Card', 'an optional description')
+@enduml

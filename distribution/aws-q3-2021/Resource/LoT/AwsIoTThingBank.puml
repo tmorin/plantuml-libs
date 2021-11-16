@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTThingBank
+
+sprite $AwsIoTThingBankXs [10x10/16z] ROor0G0X0CJoWcJ_WR4AE-t2eg2oAYNyW81472y9Dx_0ZpTU1G
+
+sprite $AwsIoTThingBankSm [12x12/16z] LSsd0SHG5C0m_UJL_GU-Yc8aPi_IsVopyzzIGSp55B4teeSJoOgOOuFJmgmCehxE7rpY7aJMj-lhdN_z-Bu1
+
+sprite $AwsIoTThingBankMd [16x16/16z] {
+POm5aWGW30Hx8Fh_3ry5RhtBaZ7unIbQjXzlUdj7fjjrdxWWybpbW4MCxssmehO9gac1mMwh6bz69JJZTu-Pz-z6CRyyvb_2ylpNTyEJtWpXy-DuNDRiJUX1
+CiXLwkKcSJ1gnixA7m
+}
+
+sprite $AwsIoTThingBankLg [20x20/16z] {
+TP05WWCW30G78il-_y5dkNexEF7mYIGA_uqhzV9t7aW0n3q2kWMm-zHOTOn45cmxHYz2A1ZAA1PPmWOQi3arjXZKUqx0dZ-BETrNFLglUiu7lJ2GWDTLpviX
+wwfNVM6ZgOPxUWnqf2F_ZLuV-mV12lfl07m3
+}
+
+!procedure AwsIoTThingBank($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTThingBank', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingBankCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingBankLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingBankGroup($id, $name='Aws Io T Thing Bank', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingBankLg>', $name, $tech)
+!endprocedure

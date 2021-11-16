@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsIdentityAccessManagementPermissions
+include('aws-q3-2021/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementPermissions')
+
+' renders the element
+AwsIdentityAccessManagementPermissions('AwsIdentityAccessManagementPermissions', 'Aws Identity Access Management Permissions', 'an optional tech label')
+@enduml

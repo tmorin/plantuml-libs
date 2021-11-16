@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus
+
+sprite $AmazonEventBridgeDefaultEventBusXs [10x10/16z] Oy05k64q4B83QIuWue8ASa3bEC6gE9Wv8Ln62CKE0iX60G
+
+sprite $AmazonEventBridgeDefaultEventBusSm [12x12/16z] VSX10a00202mLG3_Vo_GbHtdLsaZk_1QbGroKPd5rgy_8Z3Ar3Tvr2DzEW4
+
+sprite $AmazonEventBridgeDefaultEventBusMd [16x16/16z] dSUrOGH0000Wpct_UPDtTphyg3ihaKLpj1Xq813Q62CYeamQbh0YC25MW9Z10cD42qBJHWSnOJfA1_7kx_q3
+
+sprite $AmazonEventBridgeDefaultEventBusLg [20x20/16z] jSx55KKn24NH4nVwh_VfNJ3_ikCA_8rfb5QrPqYiwo3accuJsHLe-s9S5hTk-YWFYXLaLcwRa4pVQbnhUGvrKjPgNE6WT4_fMihYNZP2SHbakCQNJW
+
+!procedure AmazonEventBridgeDefaultEventBus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/ApplicationIntegration/AmazonEventBridgeDefaultEventBus', $name, $tech)
+!endprocedure
+
+!procedure AmazonEventBridgeDefaultEventBusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeDefaultEventBusLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeDefaultEventBusGroup($id, $name='Amazon Event Bridge Default Event Bus', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeDefaultEventBusLg>', $name, $tech)
+!endprocedure

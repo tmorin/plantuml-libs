@@ -37,6 +37,7 @@ The available packages:
 
 - [AWS (2021-01-31)](distribution/aws-20210131/README.md)
 - [AWS (2021-07-30)](distribution/aws-20210730/README.md)
+- [AWS (q3-2021)](distribution/aws-q3-2021/README.md)
 - [Azure](distribution/azure-4/README.md)
 - [C4 Model](distribution/c4model/README.md)
 - [c4model + Nord Theme](distribution/c4nord/README.md)

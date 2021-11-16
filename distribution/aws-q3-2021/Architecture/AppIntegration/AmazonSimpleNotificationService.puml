@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Architecture/AppIntegration/AmazonSimpleNotificationService
+
+sprite $AmazonSimpleNotificationServiceXs [10x10/16z] FSY54S0m0CD0XoDt_tqRrj6VW3vhZKSF9MdG9eshDDJ9cVLop0eX3jc9KVzisVJADzWqxj3W27u
+
+sprite $AmazonSimpleNotificationServiceSm [12x12/16z] JSc74SHG30BHdwN5_VTxo9VCf7q3NjOYWWTq8w8WeqFkdIbfWDtlpXqRftlrawstjjqATHYGbmyDqIPSnaGQk0iogjyeym8
+
+sprite $AmazonSimpleNotificationServiceMd [16x16/16z] {
+NOi5bWKm309h4TBxttS9-vtgp2Fev7-2mO_0ZwX_F6kxHBKuteqmYgAmL6Vj4DV1cGl90N40Omv_yPnhOSISOug1gcI9E_DIRCqWMbmAji3MFXItHPpYjG6o
+18qHn1AA-4Vy0G
+}
+
+sprite $AmazonSimpleNotificationServiceLg [20x20/16z] {
+RSk73SGm30H19eMb--_tHHD2UY_ou8wtVLiL7yW7ye59vtAQZVdYj5tBkKTX5YxlkylmjiGA0AzTsrvOpD1Z-vfk8im3PthR3hKT22egrfP1fXp5uNvpPFhY
+jTBdEMR7h6pfWhQKFDL69l0yfTWkZ0NNJaj476XhxRuih_qjVm
+}
+
+!procedure AmazonSimpleNotificationService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/AppIntegration/AmazonSimpleNotificationService', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleNotificationServiceLg>', 'AppIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleNotificationServiceGroup($id, $name='Amazon Simple Notification Service', $tech='')
+  IconGroupElement($id, 'AppIntegrationFamily', '<$AmazonSimpleNotificationServiceLg>', $name, $tech)
+!endprocedure

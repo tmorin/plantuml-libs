@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudWatchAlarm
+include('aws-q3-2021/Resource/ManagementGovernance/AmazonCloudWatchAlarm')
+
+' renders the element
+AmazonCloudWatchAlarm('AmazonCloudWatchAlarm', 'Amazon Cloud Watch Alarm', 'an optional tech label')
+@enduml

@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/GroupIcons/VpcSubnetPrivate
+
+sprite $VpcSubnetPrivateXs [10x10/16z] uyG1s9WHR0u8nGm4C55MJXOeYntEOeAo6440sIm
+
+sprite $VpcSubnetPrivateSm [12x12/16z] uyGBs94vh3066v8O8mZ0vLaHQjcHzJ4Xs0G
+
+sprite $VpcSubnetPrivateMd [16x16/16z] dOc50G0X203fs7_Wxqxro8DiGyYEIaCT3puKlhh6X6y-rz4XxUG1vt_InVFWOJDPG0y
+
+sprite $VpcSubnetPrivateLg [20x20/16z] jOs50O0m40C9x_iFZBjBUzMt93AXe6AJCcskJPBQotsLA_lkHKO9r3FdPFpmEkUopr7GBWVZRQwtli_jVJ4IVwa1
+
+!procedure VpcSubnetPrivate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/GroupIcons/VpcSubnetPrivate', $name, $tech)
+!endprocedure
+
+!procedure VpcSubnetPrivateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VpcSubnetPrivateLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure VpcSubnetPrivateGroup($id, $name='Vpc Subnet Private', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$VpcSubnetPrivateLg>', $name, $tech)
+!endprocedure

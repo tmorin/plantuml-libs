@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/Storage/AmazonElasticBlockStoreAmazonDataLifecycleManager
+
+sprite $AmazonElasticBlockStoreAmazonDataLifecycleManagerXs [10x10/16z] NSR50SD00CJ0iNsa_XjEVe55-LDVUtC91vdr9FURHiasZyAqq8pDJR3NrSKB
+
+sprite $AmazonElasticBlockStoreAmazonDataLifecycleManagerSm [12x12/16z] NSQvOSDG50CmIFp7u_u39tPhLF3hIG13P4EjwRmshq24Yjk665bPtz_lrVVqXYrcowDxdslWW09xfY_-0G
+
+sprite $AmazonElasticBlockStoreAmazonDataLifecycleManagerMd [16x16/16z] {
+PSk5WGCW30300sBiF_2xjeV6V7XIuuzHNHDyEEt3kZwUillUIIvSEy5OoGfdwvsQ8JbxnDxz4GndtucOPY_r4P-9Rh0_vYUNjeBUvnpG9XP9TsPEweJOMAZZ
+GpQSktpRFVKHUGK
+}
+
+sprite $AmazonElasticBlockStoreAmazonDataLifecycleManagerLg [20x20/16z] {
+VO-5WGGm20GNP_jl-0D_RXEV6E0NqVBc25AUpYYyH89wE-AuqXUPDYT9bb-b942vl04GsCu24CZENM-E1mClQnydbD2-kj1nHNhGBivjdIIjT5m0MkEi6qqG
+Yx3ttse726K17iVbBUdODyE0x3ZafgqOQj_O-PnQb7QPPU56CLMS53oY4NurVm
+}
+
+!procedure AmazonElasticBlockStoreAmazonDataLifecycleManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Storage/AmazonElasticBlockStoreAmazonDataLifecycleManager', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreAmazonDataLifecycleManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticBlockStoreAmazonDataLifecycleManagerLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticBlockStoreAmazonDataLifecycleManagerGroup($id, $name='Amazon Elastic Block Store Amazon Data Lifecycle Manager', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticBlockStoreAmazonDataLifecycleManagerLg>', $name, $tech)
+!endprocedure

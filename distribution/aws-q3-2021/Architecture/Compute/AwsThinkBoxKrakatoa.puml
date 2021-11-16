@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Architecture/Compute/AwsThinkBoxKrakatoa
+
+sprite $AwsThinkBoxKrakatoaXs [10x10/16z] FSQ73S0m40EnDsBfjF_4SISQ0KyIhqnjbiMoW_YgF1OwXUQQtO2nbA0WKuUppFq
+
+sprite $AwsThinkBoxKrakatoaSm [12x12/16z] JSa74W81349HKidzJsoAkikqzmUIUOlWAxY1ZQ5wY9z1UaPVnPwXrUvmWhOkAk1gQrS5GpYka8vUxPoFQ_q1
+
+sprite $AwsThinkBoxKrakatoaMd [16x16/16z] JSZB0GD0209HSGNIVyLXytLkRvpqZQJNI6-luNSeBXFYu6l1pf0GFsognsNCN6UaWt8Ktp5ccVCrBLLRU9iv3S3ZE06k0tRRyQswCs_1JT5oMjxZ2G
+
+sprite $AwsThinkBoxKrakatoaLg [20x20/16z] {
+RSW9GWCm30F1I8wrvVyVne7UxURqSCgZddZ7t8mtks7TbLjMlPbCj_na0eoIhfl93kLaIySkOmrLMQoa_somZfS4DnjaDrwP9_ysQB9cEQsRYIYH4PkhxPn9
+HmnZ9w-qMDHgOEogje-SBhTw0szsWvkzwSyN_0K
+}
+
+!procedure AwsThinkBoxKrakatoa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/Compute/AwsThinkBoxKrakatoa', $name, $tech)
+!endprocedure
+
+!procedure AwsThinkBoxKrakatoaCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsThinkBoxKrakatoaLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsThinkBoxKrakatoaGroup($id, $name='Aws Think Box Krakatoa', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsThinkBoxKrakatoaLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTPolicy
+
+sprite $AwsIoTPolicyXs [10x10/16z] VS6n0G0G00In0_Zz1mP09U5A7N-MomD2Nic3G5OXCXXU5G
+
+sprite $AwsIoTPolicySm [12x12/16z] JSp70S0m3090m4tilt3YxbDzWPU6-PF4nfplBztVqK_qJRjlGEmRi2qPhEt_XTQCKhiULZ15AGsl3m
+
+sprite $AwsIoTPolicyMd [16x16/16z] XOk50G0n20CJYku_yBlhLOdWZuePNUQasFZwEgFqD5Fyx4CkUPi-bHLJtch90RMymu_L0CeukunfqSmCf4QRslHXT9IRZz26b1ChOzqLE-96tEW1
+
+sprite $AwsIoTPolicyLg [20x20/16z] {
+ZOo50O0m40Fxdko_CEvwKFj8-ulLWgupoWAsMKE_1lOpeO-tBr_Fcq_FVSACOEnzyvw-wuD4p1B7r70lLwBSlP_vv2NwQsGn-dVETL1XHAGrP4RszFUrRuDo
+6RM-f01jl-a
+}
+
+!procedure AwsIoTPolicy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTPolicy', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTPolicyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTPolicyLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTPolicyGroup($id, $name='Aws Io T Policy', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTPolicyLg>', $name, $tech)
+!endprocedure

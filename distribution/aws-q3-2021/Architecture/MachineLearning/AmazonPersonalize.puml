@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Architecture/MachineLearning/AmazonPersonalize
+
+sprite $AmazonPersonalizeXs [10x10/16z] DSY93O0W0CLGRdvn_tsj93RNIsFRreAVL-iZKD9JzpuoDL6dbaoXxZLLcBJaELP1NM8l
+
+sprite $AmazonPersonalizeSm [12x12/16z] JSY74SD044BHsGph_lirvo29IV-1iz6wcxp11wXbwHIKGIyROJyOkAkNW1SYeTvnCzs0EjVAeNu9nOoX-c1vfhxn1W
+
+sprite $AmazonPersonalizeMd [16x16/16z] {
+LOpNGGL03CD8ju_zz-KSNjMVb89bbhwG7sMTNnly3pN_h7Cy1hPXjU4MSFcv7YWaRCDHC9f-HCjF8_XJZiXvk4s4et0vbs3g2FvmDCEBKlnkS6OvARz1D8Ny
+4RZ8ly8V
+}
+
+sprite $AmazonPersonalizeLg [20x20/16z] {
+RSXR5aCX20D0GGY9T__xxH7xRkTpoACERD9lwa_gaVNCrqqyKuq-lUXnyjGWSuAmlhNFbPF4A6JVJYZe1XgjhzCbgs3G_Dmo3j5o41N5FZbS0yWARhMsr9Ga
+6dlxVC6BC2Bxsf0g9JYtw-gSKeIdzBncb1xtN1sF-yohVUOD
+}
+
+!procedure AmazonPersonalize($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/MachineLearning/AmazonPersonalize', $name, $tech)
+!endprocedure
+
+!procedure AmazonPersonalizeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonPersonalizeLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonPersonalizeGroup($id, $name='Amazon Personalize', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonPersonalizeLg>', $name, $tech)
+!endprocedure

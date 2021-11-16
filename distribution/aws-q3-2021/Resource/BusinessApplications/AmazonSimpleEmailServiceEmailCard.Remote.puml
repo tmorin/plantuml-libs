@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonSimpleEmailServiceEmailCard
+include('aws-q3-2021/Resource/BusinessApplications/AmazonSimpleEmailServiceEmail')
+
+' renders the element
+AmazonSimpleEmailServiceEmailCard('AmazonSimpleEmailServiceEmailCard', 'Amazon Simple Email Service Email Card', 'an optional description')
+@enduml

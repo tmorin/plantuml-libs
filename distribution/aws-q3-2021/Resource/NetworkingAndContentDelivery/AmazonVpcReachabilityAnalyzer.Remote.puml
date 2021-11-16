@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcReachabilityAnalyzer
+include('aws-q3-2021/Resource/NetworkingAndContentDelivery/AmazonVpcReachabilityAnalyzer')
+
+' renders the element
+AmazonVpcReachabilityAnalyzer('AmazonVpcReachabilityAnalyzer', 'Amazon Vpc Reachability Analyzer', 'an optional tech label')
+@enduml

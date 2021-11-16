@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsCloudTrail
+include('aws-q3-2021/Architecture/ManagementGovernance/AwsCloudTrail')
+
+' renders the element
+AwsCloudTrail('AwsCloudTrail', 'Aws Cloud Trail', 'an optional tech label')
+@enduml

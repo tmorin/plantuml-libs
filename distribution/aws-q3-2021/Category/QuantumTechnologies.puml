@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Category/QuantumTechnologies
+
+sprite $QuantumTechnologiesXs [10x10/16z] JOgv0G0W4CBm3Vilh1wLgNZ2pmuhKVF55zRQVIOXL9jHOwYIbxf8CYoHvDX9vd41
+
+sprite $QuantumTechnologiesSm [12x12/16z] NSY50G0W30F1UjX_OTmVkuAlwBdVGxU7jw5AZ8ACgnCK18xk10eqDclxXNG74vWLrJNKjvLwM5v30G
+
+sprite $QuantumTechnologiesMd [16x16/16z] RSZ70KCn3CDGYn89xxzmUi_7xO6ZyiYkx_4qQUVQqnNfPPS6goRHrIAkdkZg3QQ0bRvvmnf0AtTlUmQBUbWmrMvnzmv3g86hhpK2tjxmxVsqlbfd
+
+sprite $QuantumTechnologiesLg [20x20/16z] {
+RSZ50S1048NGqS_sNt7Smut7Nr57kUSKSxhgZitkUhEsh0rF8-JniAvUfkgo08iCa_mqdysvh0Sequ2CgjrcjFJ5odJOo93DvasSPer5-EoNPQObPL4EkytH
+g37TRGJ1rcL3V6ryxS8Wlaq
+}
+
+!procedure QuantumTechnologies($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Category/QuantumTechnologies', $name, $tech)
+!endprocedure
+
+!procedure QuantumTechnologiesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$QuantumTechnologiesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure QuantumTechnologiesGroup($id, $name='Quantum Technologies', $tech='')
+  IconGroupElement($id, 'QuantumTechnologies', '<$QuantumTechnologiesLg>', $name, $tech)
+!endprocedure

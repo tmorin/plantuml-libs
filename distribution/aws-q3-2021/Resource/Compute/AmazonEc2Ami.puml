@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/Compute/AmazonEc2Ami
+
+sprite $AmazonEc2AmiXs [10x10/16z] Oq00LYZD0KGGm0pYiW05s80iDZPsDWusa1WJ121aaLa8lHnGTUm
+
+sprite $AmazonEc2AmiSm [12x12/16z] TSg30G113031ZTD_mszZ3Y5NBHipH6qbnNGH4loHzsRETNFR_yzDDZHMcsO4
+
+sprite $AmazonEc2AmiMd [16x16/16z] dShL0KCn34FHcnZtNxXzp7o-R4bibOm5I9Q4m6SuKHG2Ya0--P5PzzVPRl_XnsRTlw0Ln6ULFm
+
+sprite $AmazonEc2AmiLg [20x20/16z] dS-50GCn243HZxF_nFMUwujxO9LNZwKyfuAfXbgSy-TqzfZOUmvuTjwdo8jpJrNFgb_bCoSwnkPSkdl4i-fdgRrtxyyjuqrcKf5s7SlYoISK7W
+
+!procedure AmazonEc2Ami($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Compute/AmazonEc2Ami', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2AmiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AmiLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AmiGroup($id, $name='Amazon Ec2 Ami', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AmiLg>', $name, $tech)
+!endprocedure

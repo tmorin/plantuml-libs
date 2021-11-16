@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/MachineLearning/AmazonSageMakerNotebook
+
+sprite $AmazonSageMakerNotebookXs [10x10/16z] Oq02B50AbSK5142AbPs12GY0B0uki2GE5WixN2yh4nYm
+
+sprite $AmazonSageMakerNotebookSm [12x12/16z] POo54G0W203jsdzWY-ODwe-W6149SVKy3oMSV5OGud7EV_XvV4uzULg3dEF7KiW_cDpjd43S
+
+sprite $AmazonSageMakerNotebookMd [16x16/16z] TSt50SGm34JHdnYb_ljTCEEx2OUTIgF04n-U306i66pofjg9eqWr4LnYKYqQjhaaBjMgSPe_UPxgcfTSQY9J7VUykPO1Nm
+
+sprite $AmazonSageMakerNotebookLg [20x20/16z] XO-55SGm240f_hB_lYUD-u_Y06iuTF2huyOXIkgk81PXu9qVcycWYxUb0X9rg8AZd_nZ7umyJInBXABEG_1bZL-J_WfdlyZPxpxRVWvWmOQeG-b0-08
+
+!procedure AmazonSageMakerNotebook($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/MachineLearning/AmazonSageMakerNotebook', $name, $tech)
+!endprocedure
+
+!procedure AmazonSageMakerNotebookCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerNotebookLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerNotebookGroup($id, $name='Amazon Sage Maker Notebook', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerNotebookLg>', $name, $tech)
+!endprocedure

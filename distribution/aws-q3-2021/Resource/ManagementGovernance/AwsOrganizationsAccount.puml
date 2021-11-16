@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/ManagementGovernance/AwsOrganizationsAccount
+
+sprite $AwsOrganizationsAccountXs [10x10/16z] Oy04J30Qnk9Yu622271pSuDPC8AJanF8O8IeumOYg0v6i6ueO04
+
+sprite $AwsOrganizationsAccountSm [12x12/16z] JSp70S0W34FHJmUn_xu9tU_aAgpW3-5Wg9vRPusw_QZWHmr2KZlrCEgH8D_FRmDEPWRdJgPQHkZg7m
+
+sprite $AwsOrganizationsAccountMd [16x16/16z] NSst0G0X3CLGsMJ-_lDU3e2wLuarzJ7HUSl0w9ucL_fjFp9eU3hjyR2ePgRB0H1sDlXgS9BoPMj7nIB4-FzqBNzdmF9l5ACOZ3kdDLLs
+
+sprite $AwsOrganizationsAccountLg [20x20/16z] {
+XSxL0GKn20NHYGTk__K-MVUTpnC1hd8TAuX3iUuiw6mzjfCvVZHFv3wQ-Ryw_gRHV9hMzA_kREhLGfUbsUpVk867qS8GBRFEdH9dgna8UqC1nDvetkDeyL2k
+b7eiVW4
+}
+
+!procedure AwsOrganizationsAccount($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/ManagementGovernance/AwsOrganizationsAccount', $name, $tech)
+!endprocedure
+
+!procedure AwsOrganizationsAccountCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsOrganizationsAccountLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsOrganizationsAccountGroup($id, $name='Aws Organizations Account', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsOrganizationsAccountLg>', $name, $tech)
+!endprocedure

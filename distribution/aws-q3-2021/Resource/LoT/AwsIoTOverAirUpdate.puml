@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTOverAirUpdate
+
+sprite $AwsIoTOverAirUpdateXs [10x10/16z] Oy0EM1Wu8GmE8ERaH4W0cM0HDg0KdClAmCuEKGtcCOA54G
+
+sprite $AwsIoTOverAirUpdateSm [12x12/16z] TS775G8n40KmJNZck_-6EHDMygoJ1LJZ50Yqe09qEBXtSJNBGGGOFPJJIWElc_7b3G
+
+sprite $AwsIoTOverAirUpdateMd [16x16/16z] ZS65aGH040GWLgid_u1Vpnryf3VEzXwhdCmEfG42McQ0xM11YvCH2bALm1045OZ2SZJ80AOn0ztQADr1CcSvQrhps3S
+
+sprite $AwsIoTOverAirUpdateLg [20x20/16z] {
+fKx50KKn2CCX-m_yj7hxaXQNG7_3iuBt5AohWPB79DFebUhjGFPblNeDHnzToN0t27R2k5hV3OeB8OqH3yrTISZZ-xiDwqeZYqd3jzprx4VTfQWs8gGHxvJm
+VfQ3LgXufj6NE04
+}
+
+!procedure AwsIoTOverAirUpdate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTOverAirUpdate', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTOverAirUpdateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTOverAirUpdateLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTOverAirUpdateGroup($id, $name='Aws Io T Over Air Update', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTOverAirUpdateLg>', $name, $tech)
+!endprocedure

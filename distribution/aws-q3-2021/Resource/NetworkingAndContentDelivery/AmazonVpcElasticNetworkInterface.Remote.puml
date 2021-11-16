@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonVpcElasticNetworkInterface
+include('aws-q3-2021/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkInterface')
+
+' renders the element
+AmazonVpcElasticNetworkInterface('AmazonVpcElasticNetworkInterface', 'Amazon Vpc Elastic Network Interface', 'an optional tech label')
+@enduml

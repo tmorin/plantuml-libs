@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/GeneralIcons/Camera
+
+sprite $CameraXs [10x10/16z] RSUr0S0m0CJ02-FlFsxGxgpgf5c6XQ7EuuaOnaIFT6o_LePFripdezf0xGO
+
+sprite $CameraSm [12x12/16z] TSRL0KCn34Mn4qxis_t7BJqcVOb78U9c3j1b0sXZ5CAtogs34zmaOYs_GmBQQ_lGTBVSKfnEDoLmP0jdvmC
+
+sprite $CameraMd [16x16/16z] ZSUt0GCX44N1XuVTJ__jwhoBDDdmdxZWC0QU5XqMnHPYeJ46E2d0cBEpSDooeIfb0S89mNg4alj-iCd2vtMnaCxx291hFn-iIzKvJt0pOxlIqu3unDSF
+
+sprite $CameraLg [20x20/16z] {
+hOvL0eOX20JN1c7lVzol--NFiKS5y0VK9XGxGgRSvbrDgudgsit2iZTL5S2trvLStgBKoRavafTIikNvyUn8mfFdpCAmkOcUroNewTZM7ChJRU63-SLbMUkp
+qqMn2XHhvNHGAMIjZej3yTvPSReRgIBP0yMxZ
+}
+
+!procedure Camera($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/GeneralIcons/Camera', $name, $tech)
+!endprocedure
+
+!procedure CameraCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CameraLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure CameraGroup($id, $name='Camera', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$CameraLg>', $name, $tech)
+!endprocedure

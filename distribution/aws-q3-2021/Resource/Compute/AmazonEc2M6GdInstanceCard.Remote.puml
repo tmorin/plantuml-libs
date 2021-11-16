@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M6GdInstanceCard
+include('aws-q3-2021/Resource/Compute/AmazonEc2M6GdInstance')
+
+' renders the element
+AmazonEc2M6GdInstanceCard('AmazonEc2M6GdInstanceCard', 'Amazon Ec2 M6 Gd Instance Card', 'an optional description')
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2M5ZnInstance
+include('aws-q3-2021/Resource/Compute/AmazonEc2M5ZnInstance')
+
+' renders the element
+AmazonEc2M5ZnInstance('AmazonEc2M5ZnInstance', 'Amazon Ec2 M5 Zn Instance', 'an optional tech label')
+@enduml

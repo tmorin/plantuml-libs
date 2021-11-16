@@ -1,0 +1,20 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element TraditionalServerGroup
+include('aws-q3-2021/Resource/GeneralIcons/TraditionalServer')
+
+' renders the element
+TraditionalServerGroup('TraditionalServerGroup', 'Traditional Server Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

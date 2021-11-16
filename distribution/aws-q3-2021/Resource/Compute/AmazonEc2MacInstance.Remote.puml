@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2MacInstance
+include('aws-q3-2021/Resource/Compute/AmazonEc2MacInstance')
+
+' renders the element
+AmazonEc2MacInstance('AmazonEc2MacInstance', 'Amazon Ec2 Mac Instance', 'an optional tech label')
+@enduml

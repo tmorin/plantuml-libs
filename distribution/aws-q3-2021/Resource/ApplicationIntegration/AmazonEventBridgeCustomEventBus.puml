@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus
+
+sprite $AmazonEventBridgeCustomEventBusXs [10x10/16z] Oq01x52Qcu4JYE605KGmSJ60nDXWWamW1Ln06gmBo85fO6JW0DDmjG
+
+sprite $AmazonEventBridgeCustomEventBusSm [12x12/16z] NS790G8W302mWBsq--_hdyJh060ru8ToKVHkt0CXQ2RnXRCvWi361_IQ0OrOWAxn-WC
+
+sprite $AmazonEventBridgeCustomEventBusMd [16x16/16z] ZSlL0SDG34FH-yYu_xm5bp4vNmQ9NNg3mTMefNTk0a2WSwEgWaXLSs4Dl9Rh-zfo7N1zCScMZOn6_KcIKltkBIW2PikcKNm0DdF1ZP7HUTv_EW8
+
+sprite $AmazonEventBridgeCustomEventBusLg [20x20/16z] {
+bSe5WiGm20308MrZ_F-zPvpxJWHre-6hhFSgJrOJwPrDS0GjA46vDcYpOVVUL-YKrUm34dhrjGt6nLerjvHBjfMCdIzxMhO-AVkebZMysltGP-IfH0Rab5xi
+-i-rmpinxBbyaE4wVDJzvHu
+}
+
+!procedure AmazonEventBridgeCustomEventBus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/ApplicationIntegration/AmazonEventBridgeCustomEventBus', $name, $tech)
+!endprocedure
+
+!procedure AmazonEventBridgeCustomEventBusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEventBridgeCustomEventBusLg>', 'ApplicationIntegration', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEventBridgeCustomEventBusGroup($id, $name='Amazon Event Bridge Custom Event Bus', $tech='')
+  IconGroupElement($id, 'ApplicationIntegrationFamily', '<$AmazonEventBridgeCustomEventBusLg>', $name, $tech)
+!endprocedure

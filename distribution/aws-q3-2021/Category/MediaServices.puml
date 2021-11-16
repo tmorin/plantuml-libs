@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Category/MediaServices
+
+sprite $MediaServicesXs [10x10/16z] JSQr0G1130InDOxxR_WPJf5OzQN-Wex6io0ycn68TwJgt430iGENURi3
+
+sprite $MediaServicesSm [12x12/16z] NSp50GD13CNGGUdttt2oJEzYjXzivdmMQbknkDOw6ErLAaTkqJrFu-edRbWocCVlR3pog_W3
+
+sprite $MediaServicesMd [16x16/16z] RSZ90KGX409HHO7EF-9frzb-tLxvAUt8-Zs6lyQmCEDnyqWOnZHf6uLCHnekTg6cOtWCIilHUhThlmvdQBYEOMV38J7pzSZ-TXpZg_82
+
+sprite $MediaServicesLg [20x20/16z] {
+RSp50O0m40LHiZRfls7auv0vlXL6MPpvKIDOgxjCaxrqP2KBEthOT6pwsvHNixpDVBEmYisoRrPOahTrcJwypHsYFKpdgzLKULb7HWPS9dJWj5vLkLOesHxg
+DZKoeSp-BG
+}
+
+!procedure MediaServices($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Category/MediaServices', $name, $tech)
+!endprocedure
+
+!procedure MediaServicesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MediaServicesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MediaServicesGroup($id, $name='Media Services', $tech='')
+  IconGroupElement($id, 'MediaServices', '<$MediaServicesLg>', $name, $tech)
+!endprocedure

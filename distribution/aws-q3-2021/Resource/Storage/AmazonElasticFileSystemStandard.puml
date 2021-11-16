@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/Storage/AmazonElasticFileSystemStandard
+
+sprite $AmazonElasticFileSystemStandardXs [10x10/16z] LSY53S1030J1DKhNVy7XF8pPR9JlBCpAxyUDrBtUgU0N1fNakn64xYrURM2lE04
+
+sprite $AmazonElasticFileSystemStandardSm [12x12/16z] NSR5OGLG202m0C_OV-3sk-KKlpgy70z9TcrOgIhjNCHAMjjJe4ps4SuMFjwFOzRj-saU-ZpqFm
+
+sprite $AmazonElasticFileSystemStandardMd [16x16/16z] ROc75KD12CFiQuRz5uuXFVcw8lJ09SplNl4HmoyuoutyPawxYACX0sX7zOpIHkHIDGvQjhXgw4p_iWCCF_BLSmh8ZxtS77nsiyzZdtgJxc_Sp0_E3G
+
+sprite $AmazonElasticFileSystemStandardLg [20x20/16z] {
+VT076iGW449XHi38_I-ytyJjxQN_wU9FyYSb-i0oNl9fPOznjw0nfBHXf3BI0TAHjWM6s5brNXeScTSd9CLjyBvceWhKLDjPi7f3bTlABhXN3pCbG1FFPWio
+rvE1xANoP3i_tSkNPXlrsXwXLI-nJVErSG4
+}
+
+!procedure AmazonElasticFileSystemStandard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Storage/AmazonElasticFileSystemStandard', $name, $tech)
+!endprocedure
+
+!procedure AmazonElasticFileSystemStandardCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonElasticFileSystemStandardLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonElasticFileSystemStandardGroup($id, $name='Amazon Elastic File System Standard', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonElasticFileSystemStandardLg>', $name, $tech)
+!endprocedure

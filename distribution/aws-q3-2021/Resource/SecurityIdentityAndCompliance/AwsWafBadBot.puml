@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/SecurityIdentityAndCompliance/AwsWafBadBot
+
+sprite $AwsWafBadBotXs [10x10/16z] LOg50G112CDEyEm_xxlYj6d_uBdYc79gOzyLm4afhKuiavqKSLeX1u_WkzKlOWK
+
+sprite $AwsWafBadBotSm [12x12/16z] POp50KKn3CDKhkFzv_tm67G967YXSmqkU9CZOOaQ0l9mU5F8uJhNTP9p9GEIIGma0OmYl1TsjJg0dFQ6_0K
+
+sprite $AwsWafBadBotMd [16x16/16z] VOq50WL1249XKkJ-vzty7VicRC4VY3TSupA6SKFQA-6v_uTFms0PBN4ZNTXSS2TWvsq5oRcxdAri_gsiZLhF_SeYejUvkN4J7webS6De8uTvzZ-4HahuO0K
+
+sprite $AwsWafBadBotLg [20x20/16z] {
+bSV9OGCm24N1XmH8yFllDsHFx9FdDhnAIXvO8XxfNfw87-uEmxKOottX4PsO8av1tOW5utHU3PVn8ti3AVuG8GblFkIejGjCwCmsZCkf8RkVzr7aDZDHCLlu
+o8ECREHZyQ6TKy7T_319uKSwNxTr2ynZGsYRGLKPlwO1pzu
+}
+
+!procedure AwsWafBadBot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/SecurityIdentityAndCompliance/AwsWafBadBot', $name, $tech)
+!endprocedure
+
+!procedure AwsWafBadBotCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBadBotLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafBadBotGroup($id, $name='Aws Waf Bad Bot', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBadBotLg>', $name, $tech)
+!endprocedure

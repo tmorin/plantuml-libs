@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2G4DnInstance
+include('aws-q3-2021/Resource/Compute/AmazonEc2G4DnInstance')
+
+' renders the element
+AmazonEc2G4DnInstance('AmazonEc2G4DnInstance', 'Amazon Ec2 G4 Dn Instance', 'an optional tech label')
+@enduml

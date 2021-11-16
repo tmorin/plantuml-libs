@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsTransitGateway
+include('aws-q3-2021/Architecture/NetworkingContentDelivery/AwsTransitGateway')
+
+' renders the element
+AwsTransitGateway('AwsTransitGateway', 'Aws Transit Gateway', 'an optional tech label')
+@enduml

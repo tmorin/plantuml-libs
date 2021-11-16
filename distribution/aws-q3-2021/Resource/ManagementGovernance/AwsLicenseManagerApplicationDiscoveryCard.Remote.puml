@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsLicenseManagerApplicationDiscoveryCard
+include('aws-q3-2021/Resource/ManagementGovernance/AwsLicenseManagerApplicationDiscovery')
+
+' renders the element
+AwsLicenseManagerApplicationDiscoveryCard('AwsLicenseManagerApplicationDiscoveryCard', 'Aws License Manager Application Discovery Card', 'an optional description')
+@enduml

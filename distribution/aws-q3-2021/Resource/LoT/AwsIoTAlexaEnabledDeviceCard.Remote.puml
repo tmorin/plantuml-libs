@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsIoTAlexaEnabledDeviceCard
+include('aws-q3-2021/Resource/LoT/AwsIoTAlexaEnabledDevice')
+
+' renders the element
+AwsIoTAlexaEnabledDeviceCard('AwsIoTAlexaEnabledDeviceCard', 'Aws Io T Alexa Enabled Device Card', 'an optional description')
+@enduml

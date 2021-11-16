@@ -1,0 +1,19 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element GroupEc2InstanceContents
+include('aws-q3-2021/Group/GroupEc2InstanceContents')
+
+GroupEc2InstanceContents('GroupEc2InstanceContents', 'Group Ec2 Instance Contents', 'an optional tech label') {
+  note as note
+  the content of the boundary
+  end note
+}
+@enduml

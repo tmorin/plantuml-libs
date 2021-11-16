@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingGatewayLoadBalancer
+
+sprite $ElasticLoadBalancingGatewayLoadBalancerXs [10x10/16z] JOk50G0n20DJHMx_UT-bE16jmTCgrvldrmLO76-_GDUWGs3rmxXSSM1Tr_dCyCg1x
+
+sprite $ElasticLoadBalancingGatewayLoadBalancerSm [12x12/16z] LS673SCm40GmdWphOTt-ywQXXlGllTSKt04x961rg3Ii6ZTF4BNQfrsz7CFZfyh9tZCkjfzza077p_JqmXi
+
+sprite $ElasticLoadBalancingGatewayLoadBalancerMd [16x16/16z] {
+RSgtWGC120J0uJW7z5_l6v5g4iokRtAcfyEAES1T89grsx3UEH_oeAElw-hAOb17Mgb5bXDF7qhFJFMCcKozVI1uD35l8-_843UNcZ-PZGehxpkXmxfku2d8
+JgoiVWBy0W
+}
+
+sprite $ElasticLoadBalancingGatewayLoadBalancerLg [20x20/16z] {
+TSo70SKm24F1vo28ZVQVz_TURe3ZlvpjteEdj3XR7jnqSRUIYnuyjG2oUB2h0Gn8-2BsM922pSO0LO5X0aWypA0XIbhRxICIfssLxLZdZwre69iKu_wbs06K
+Y1iFOW5kF4xSEmRCnLmdrbu2nk8XAvepcOTXhjJ1LJKFopCssU9LP6bmTGG
+}
+
+!procedure ElasticLoadBalancingGatewayLoadBalancer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/NetworkingAndContentDelivery/ElasticLoadBalancingGatewayLoadBalancer', $name, $tech)
+!endprocedure
+
+!procedure ElasticLoadBalancingGatewayLoadBalancerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ElasticLoadBalancingGatewayLoadBalancerLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure ElasticLoadBalancingGatewayLoadBalancerGroup($id, $name='Elastic Load Balancing Gateway Load Balancer', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$ElasticLoadBalancingGatewayLoadBalancerLg>', $name, $tech)
+!endprocedure

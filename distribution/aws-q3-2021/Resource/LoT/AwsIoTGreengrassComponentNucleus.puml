@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Resource/LoT/AwsIoTGreengrassComponentNucleus
+
+sprite $AwsIoTGreengrassComponentNucleusXs [10x10/16z] 1S470O10000X_7tz2mi0mF81J09msN85qsTfc99WS0dxam03VW
+
+sprite $AwsIoTGreengrassComponentNucleusSm [12x12/16z] NSp7OGCn300mi1n5xJzmul8p1e1V9yDNJwsJYSBX1XudpLYcvCO-9kMwRAWLYDtItx3WeW_503lLbwzSy0y
+
+sprite $AwsIoTGreengrassComponentNucleusMd [16x16/16z] {
+PS-tWGHH20N1uhCpyF8F-BI-CjjhyDzk-NOI-IxRUgXxmE8Cye0-r9hp7eMxR4veDYtNROn9MUDQRcMj2hVKYWv2HYVZ7DHraTDOC8F6NQ3hDjlrO-4HQJ_K
+0fu1
+}
+
+sprite $AwsIoTGreengrassComponentNucleusLg [20x20/16z] {
+VO-50SL034A9NSB-0rVuhjJekoZ-QKsyeopGde5rvzGadvXyo355J2XRh27DzTqwKHpM0GuULA8YAbIGdVhs6LLpcA8X8_rmunW57WYH6i4BmJbTBrJazHTH
+gcFayTod47UmIbESAczDUvBRqiw-xxO2KbOOq0o0YRlopEIquKNZWtTvtUqE
+}
+
+!procedure AwsIoTGreengrassComponentNucleus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/LoT/AwsIoTGreengrassComponentNucleus', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentNucleusCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassComponentNucleusLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentNucleusGroup($id, $name='Aws Io T Greengrass Component Nucleus', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassComponentNucleusLg>', $name, $tech)
+!endprocedure

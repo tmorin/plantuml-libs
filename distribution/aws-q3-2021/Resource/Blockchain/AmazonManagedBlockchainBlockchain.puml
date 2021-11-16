@@ -1,0 +1,21 @@
+' definition of the Item aws-q3-2021/Resource/Blockchain/AmazonManagedBlockchainBlockchain
+
+sprite $AmazonManagedBlockchainBlockchainXs [10x10/16z] Oo0US30miBCoC3AmGhX05WSCuDS8
+
+sprite $AmazonManagedBlockchainBlockchainSm [12x12/16z] bOC90G0X2C3cKA1_uNjim1wcgEYwhpPiCxkGGm4LXPT8BOQy
+
+sprite $AmazonManagedBlockchainBlockchainMd [16x16/16z] jSV70S0W5CDGKVNtdpY66S8xkF1QgVF4le5Lgo8tIvG5XI3dB_jED6-mew_4t37usGS
+
+sprite $AmazonManagedBlockchainBlockchainLg [20x20/16z] pOk10G1H14A3rFuJtp75Vm24bsZ-L7B1vO3tO6vMRGd2PDF6j6MwTRl4ddaAONQNTbkGHzFo_Hsyd9U9X_W
+
+!procedure AmazonManagedBlockchainBlockchain($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/Blockchain/AmazonManagedBlockchainBlockchain', $name, $tech)
+!endprocedure
+
+!procedure AmazonManagedBlockchainBlockchainCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonManagedBlockchainBlockchainLg>', 'Blockchain', $funcName, $content)
+!endprocedure
+
+!procedure AmazonManagedBlockchainBlockchainGroup($id, $name='Amazon Managed Blockchain Blockchain', $tech='')
+  IconGroupElement($id, 'BlockchainFamily', '<$AmazonManagedBlockchainBlockchainLg>', $name, $tech)
+!endprocedure

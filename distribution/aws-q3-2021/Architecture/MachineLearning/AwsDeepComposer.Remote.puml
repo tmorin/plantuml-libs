@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q3-2021/bootstrap')
+
+' loads the Item which embeds the element AwsDeepComposer
+include('aws-q3-2021/Architecture/MachineLearning/AwsDeepComposer')
+
+' renders the element
+AwsDeepComposer('AwsDeepComposer', 'Aws Deep Composer', 'an optional tech label')
+@enduml

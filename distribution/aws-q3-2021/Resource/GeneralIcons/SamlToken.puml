@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Resource/GeneralIcons/SamlToken
+
+sprite $SamlTokenXs [10x10/16z] Oq05t60C8NXPEI0C7WO6LeW843C36RmW3YD8WWae16G0cOoy80QO2MB0c2
+
+sprite $SamlTokenSm [12x12/16z] PSZ50S0m5CDGXPCF-uzRvlhqB7vBCTVX6tC0ANQIKMrb17FGlJO1Z1H2H3UYTAjZ8mWZZOtRuIJ8JKxE
+
+sprite $SamlTokenMd [16x16/16z] TSt50S0W44JHluipq7-vyOHJ1dqeVnbdfdq472ABCOgyYBT1-TXKWVQov-w0BffAkbZ3nGOoe9myXqa_6G4JgOa99G5WdTw6lmJl01VNGecicCwFMB6FEm
+
+sprite $SamlTokenLg [20x20/16z] {
+VSq54iGm20LGYABtFswzXTLu_hm1-3_OL9XefaZ7TMEeFK8LaFAg77gZcXN0OCDPaqBp_TrRKjfblrf_LFD-rgpZL5LTwwchdGhzwOnsrPeu6oZU2ffjMHaE
+MYwrXmB5U1IxrINHNKDT4k1H8KE539LaH16czme
+}
+
+!procedure SamlToken($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Resource/GeneralIcons/SamlToken', $name, $tech)
+!endprocedure
+
+!procedure SamlTokenCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SamlTokenLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure SamlTokenGroup($id, $name='Saml Token', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$SamlTokenLg>', $name, $tech)
+!endprocedure

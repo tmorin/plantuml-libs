@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Architecture/EndUserComputing/AmazonWorkLink
+
+sprite $AmazonWorkLinkXs [10x10/16z] DOkr0S104CEU3ht_lb58bJ4XmBtgboWOo8BCZUfNsOxkWfE66lkScPODtCfIg6DcEuLyjnS
+
+sprite $AmazonWorkLinkSm [12x12/16z] HSg74S0m349HTmjb_tt3J-NQuo38TjPQqb-aKfr2aHhBOC4kcrjYuR4pCJTS9nyxah3OnslPb4cs_Iyd
+
+sprite $AmazonWorkLinkMd [16x16/16z] NOk70GCX4CD2nvVzzurFfFsBAcCsB9X6-ajmOGVUnqp69B0lyG5VxdiHGE2bjLPRAVP8RsxKlVzSTrUb4X5xgvf-79gIz2TU1Ea4zV2mEm21_Hgy
+
+sprite $AmazonWorkLinkLg [20x20/16z] {
+LSe73iDG38BXL5xmSl_xLZRfyA_z0PvAPKTkb76ZBEsJiCtmTDKqHYuhcT0WEx9oTpDaPjkXatJz8cpiZ9503x6CouwCCenTbtdtak4egcL8uTXzB-EVqJCc
+GvkK92R-R5oDIN_u1W
+}
+
+!procedure AmazonWorkLink($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/EndUserComputing/AmazonWorkLink', $name, $tech)
+!endprocedure
+
+!procedure AmazonWorkLinkCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkLinkLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkLinkGroup($id, $name='Amazon Work Link', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonWorkLinkLg>', $name, $tech)
+!endprocedure

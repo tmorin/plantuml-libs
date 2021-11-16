@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Architecture/MachineLearning/AmazonRekognition
+
+sprite $AmazonRekognitionXs [10x10/16z] DObP0a0X489ctc9Xzxzlkry2TQoCIN3lUAcO5pAsDHeznhMJFpIiRKBpUbuAVstx3jVEXGu
+
+sprite $AmazonRekognitionSm [12x12/16z] HOl7OGG02CD2jyd--vwvgfT4mJ6YkybVKD7H5-TM5dv1JXNCGxvC9n46-KuM_Ym0-RgdbGDOSRzK_Ez1EkMASuBoTuW7
+
+sprite $AmazonRekognitionMd [16x16/16z] {
+LSn15aGH44DHAQX4xt-_dPEH_sOtmDJfEEbPOZqtOd6XS3B4Q63kdS5SlJStPdobAZNBT-ChEvzknhUMmB7QKym3SlKWtNMzf1v2dFf8KDc_c-HAotu6qtu6
+oVuEVm
+}
+
+sprite $AmazonRekognitionLg [20x20/16z] {
+PSt90GGX24HHKBQoyyzt6ilP__4fKATaqG7_Y5-aWV96ccguZ8FRe3LLPyX1ajITrAIjjWcDa3GjsaB5u1sPLRJLba1iAzfIWxf9XFPlsYmf84VEshWwXOj4
+YiN6jRDXfcOmfp7SvS7h-a0t2Eq3uwQszq_sjWzi-_lv
+}
+
+!procedure AmazonRekognition($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/MachineLearning/AmazonRekognition', $name, $tech)
+!endprocedure
+
+!procedure AmazonRekognitionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRekognitionLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRekognitionGroup($id, $name='Amazon Rekognition', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonRekognitionLg>', $name, $tech)
+!endprocedure

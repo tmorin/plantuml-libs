@@ -1,0 +1,27 @@
+' definition of the Item aws-q3-2021/Architecture/MachineLearning/AmazonMonitron
+
+sprite $AmazonMonitronXs [10x10/16z] DSQt0S0m40CnPVxH--zhHLI8ITCOy3fNIsX8q4YbIJ8rXK95Tacbb9JdF20c6vEP_pprlLsc7m
+
+sprite $AmazonMonitronSm [12x12/16z] HOcv0KDH3CAURo3xxnkx-ZI0XCjikfly3kyyopsttHjH-sxNeCPdH6imFPP8pmq-PhSxsadpWQHYZ360dxIUPhDxZr0WkVkEUFa3
+
+sprite $AmazonMonitronMd [16x16/16z] {
+LSh15GCW409HGNN1zDzlS4y9jpyFzQftClkdjArchssLza6TX3OtfOsz4aATb3Dt8Ru9f2ISCv-lozl64Wfj4CCK1lXySUPxY6j8jqFHdgBQFbTWoee_2SMz
+pCrwJiZ0uInEwBaN_uSl
+}
+
+sprite $AmazonMonitronLg [20x20/16z] {
+PSr9WW0X24DH29GarltlspZq_7S-5NYhqrX9_r7wZxeu8kBYjI38xED6hL2UP06H2nSbHNDODY-R2rqWYO6ARLCLQIBBcMNODajoIROtFSSIC8T0kBbVUsX2
+KgmSKMphC4ec4NHsYuGPpwBnms9Ay6PXsVisLaIKHi3horRvXBfZLwNRb_tajjLl_
+}
+
+!procedure AmazonMonitron($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/MachineLearning/AmazonMonitron', $name, $tech)
+!endprocedure
+
+!procedure AmazonMonitronCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMonitronLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMonitronGroup($id, $name='Amazon Monitron', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonMonitronLg>', $name, $tech)
+!endprocedure

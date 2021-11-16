@@ -1,0 +1,24 @@
+' definition of the Item aws-q3-2021/Architecture/Containers/AmazonEksDistro
+
+sprite $AmazonEksDistroXs [10x10/16z] FSY73S103CD0VHEz_yIHquXs8E3k77wsvcc2qBBioffXLD6IMYKKHe2qJQKi4tMa2m
+
+sprite $AmazonEksDistroSm [12x12/16z] HSc73KDH349Hum9l_ubZyjjLEmX9l9hHDouZRIwJO3Tjg5Z3lSvQMDZ7hgYup0wWxQBG87lj9uOjsOSoRIVt0m
+
+sprite $AmazonEksDistroMd [16x16/16z] NSZ70SH03CF0LI2X_Yk-u6py1dppaIGUm-8rDeQZBsTZEmudv4zTNm_eTwHq_ZmO8HDtPoslTTcBK6tMAEMWYPz7DTHIXnBFhnIhKHlc7s6YpE7VsfhN-
+
+sprite $AmazonEksDistroLg [20x20/16z] {
+RSe5RaG130DH1oUz_uKRVIpi2FrasFgjDYvykurFHbG-Uf6yIh_C0wzkzyTAW2fsAIyBI8UsXUCvXpcEYDlcCWVps-Oq2wcaNuQe9FEoGKMe0fLEonpAh1D4
+d3Q8JKYP3OVjrTUgoKnWhcHHYbvwRTWQBdlrwki3VWC
+}
+
+!procedure AmazonEksDistro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q3-2021/Architecture/Containers/AmazonEksDistro', $name, $tech)
+!endprocedure
+
+!procedure AmazonEksDistroCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEksDistroLg>', 'Containers', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEksDistroGroup($id, $name='Amazon Eks Distro', $tech='')
+  IconGroupElement($id, 'ContainersFamily', '<$AmazonEksDistroLg>', $name, $tech)
+!endprocedure
