@@ -1,7 +1,6 @@
 import {DefaultPackageContext, LibraryFactory} from "../../workdir-generator/factories";
 import {Library, Package} from "../../workdir-generator/manifest";
 import {Eip1Factory} from "./packages/eip-1";
-import {Aws20210131Factory} from "./packages/aws-20210131";
 import {Aws20210730Factory} from "./packages/aws-20210730";
 import {AwsQ32021Factory} from "./packages/aws-q3-2021";
 import {AzureV2Factory} from "./packages/azure-4";
@@ -16,7 +15,6 @@ import {Simpleicons5Factory} from "./packages/simpleicons-5";
 import {Homecloud2Factory} from "./packages/homecloud-2";
 
 const PACKAGE_FACTORIES = [
-    new Aws20210131Factory(),
     new Aws20210730Factory(),
     new AwsQ32021Factory(),
     new AzureV2Factory(),
