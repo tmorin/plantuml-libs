@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [6.0.1](https://github.com/tmorin/plantuml-libs/compare/v6.0.0...v6.0.1) (2021-11-26)
+
+
+### Bug Fixes
+
+* the remote URL must be `https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution` ([9ea8aec](https://github.com/tmorin/plantuml-libs/commit/9ea8aec0b4ecc43755f424812788aa913bc51750)), closes [#17](https://github.com/tmorin/plantuml-libs/issues/17)
+
 ## [6.0.0](https://github.com/tmorin/plantuml-libs/compare/v5.3.0...v6.0.0) (2021-11-16)
 
 
