@@ -24,7 +24,7 @@ include('gcp/Item/Networking/PremiumNetworkTier')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -67,7 +67,7 @@ PremiumNetworkTier('PremiumNetworkTier', 'Premium Network Tier', 'an optional te
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -110,7 +110,7 @@ PremiumNetworkTierCard('PremiumNetworkTierCard', 'Premium Network Tier Card', 'a
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml

@@ -24,7 +24,7 @@ include('aws-q3-2021/Resource/Analytics/AmazonRedshiftDenseStorageNode')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -67,7 +67,7 @@ AmazonRedshiftDenseStorageNode('AmazonRedshiftDenseStorageNode', 'Amazon Redshif
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -110,7 +110,7 @@ AmazonRedshiftDenseStorageNodeCard('AmazonRedshiftDenseStorageNodeCard', 'Amazon
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml

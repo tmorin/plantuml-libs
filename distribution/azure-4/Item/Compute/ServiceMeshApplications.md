@@ -24,7 +24,7 @@ include('azure-4/Item/Compute/ServiceMeshApplications')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -67,7 +67,7 @@ ServiceMeshApplications('ServiceMeshApplications', 'Service Mesh Applications', 
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -110,7 +110,7 @@ ServiceMeshApplicationsCard('ServiceMeshApplicationsCard', 'Service Mesh Applica
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml

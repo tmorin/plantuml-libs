@@ -24,7 +24,7 @@ include('gcp/Item/ExpandedProductCardIcons/ModifiersSharedCoreMachineG1')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -67,7 +67,7 @@ ModifiersSharedCoreMachineG1('ModifiersSharedCoreMachineG1', 'Modifiers Shared C
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -110,7 +110,7 @@ ModifiersSharedCoreMachineG1Card('ModifiersSharedCoreMachineG1Card', 'Modifiers 
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml

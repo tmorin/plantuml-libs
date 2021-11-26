@@ -24,7 +24,7 @@ include('aws-20210730/Resource/Compute/AmazonEc2M4Instance')
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -67,7 +67,7 @@ AmazonEc2M4Instance('AmazonEc2M4Instance', 'Amazon Ec2 M4 Instance', 'an optiona
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml
@@ -110,7 +110,7 @@ AmazonEc2M4InstanceCard('AmazonEc2M4InstanceCard', 'Amazon Ec2 M4 Instance Card'
 ```plantuml
 @startuml
 ' configures the library
-!global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
 
 ' loads the library's bootstrap
 !include $LIB_BASE_LOCATION/bootstrap.puml

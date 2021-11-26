@@ -62,7 +62,7 @@ const create: LibraryFactory = async (context): Promise<Library> => {
     console.timeEnd("library generated")
     return {
         name: "tmorin/plantuml-libs",
-        remote_url: "https://github.com/tmorin/plantuml-libs/distribution",
+        remote_url: "https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution",
         packages,
         tera_discovery_pattern: "source/templates/**/*"
     }

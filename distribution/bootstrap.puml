@@ -7,7 +7,7 @@
 
 !if ($INCLUSION_MODE == "remote")
     !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
-        !global $LIB_BASE_LOCATION="https://github.com/tmorin/plantuml-libs/distribution"
+        !global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
     !endif
 !else
     !if (%not(%variable_exists("$LIB_BASE_LOCATION")))
