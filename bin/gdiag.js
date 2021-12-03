@@ -53,7 +53,7 @@ function getArgs() {
         })
         .option('plantuml-version', {
             alias: 'pv',
-            default: "1.2021.7",
+            default: "1.2021.15",
             describe: 'The version of PlantUML to use.',
             type: 'string'
         })
