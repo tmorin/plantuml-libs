@@ -7,22 +7,6 @@ const fetch = require('node-fetch')
 const moment = require('moment');
 const glob = require('glob');
 
-/**
- * @typedef Args
- * @type {object}
- * @property {string} wd
- * @property {string} td
- * @property {string} ld
- * @property {number} jc
- * @property {number} pv
- * @property {boolean} c
- */
-
-/**
- * @type Args
- */
-const ARGS = getArgs();
-
 function getArgs() {
     return require('yargs')
         .scriptName('gdiag')
@@ -53,7 +37,7 @@ function getArgs() {
         })
         .option('plantuml-version', {
             alias: 'pv',
-            default: "1.2021.15",
+            default: "1.2021.13",
             describe: 'The version of PlantUML to use.',
             type: 'string'
         })
@@ -67,6 +51,22 @@ function getArgs() {
         .usage('$0', 'Render PlantUML diagrams discovered (*.{puml,plantuml}) in the working directory.')
         .argv;
 }
+
+/**
+ * @typedef Args
+ * @type {object}
+ * @property {string} wd
+ * @property {string} td
+ * @property {string} ld
+ * @property {number} jc
+ * @property {number} pv
+ * @property {boolean} c
+ */
+
+/**
+ * @type Args
+ */
+const ARGS = getArgs();
 
 function getLatestRunFile() {
     return P.join(ARGS.td, 'LAST_RUN')
