@@ -81,7 +81,7 @@ export class Eip1Factory implements PackageFactory {
             "**/*.svg"
         );
 
-        const elementItems = unifyItems([...originalItems, ...additionalItems]);
+        const elementItems = unifyItems([...additionalItems, ...originalItems]);
 
         const itemsByModules = elementItems
             .sort((a, b) => a.urn.localeCompare(b.urn))

@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/ResultMessage
+
+sprite $ResultMessageXs [15x10/16z] Oy06M55uxEpiw5mKFffUT2u71mSobvsL1KKt2uAB
+
+sprite $ResultMessageSm [18x12/16z] Oy056D45sDdPCKMO2QbXO6CWIeIHaH5DX8kN1Lc4XPMLcvy5NICB2mxd0m
+
+sprite $ResultMessageMd [25x16/16z] hScr0S0m30LHiqLV-syRAiDqvRtmljxRmJ-GFlS8ql9tg-5F03DZ5w0a6sYr0buds0OKtmLHLGiNZG
+
+sprite $ResultMessageLg [31x20/16z] jSkr5S0m40JH5HoO-wzMTA6P9lrly5aKZb1A-omrtbClhOStkBB3Rb44Hn5-PjBQBlV5OxVFF0oqpP68HfwNdHjsQt_4fHxVb04
+
+!procedure ResultMessage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/ResultMessage', $name, $tech)
+!endprocedure
+
+!procedure ResultMessageGroup($id, $name='Result Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ResultMessageLg>', $name, $tech)
+!endprocedure

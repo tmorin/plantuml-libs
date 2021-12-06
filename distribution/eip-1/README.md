@@ -18,7 +18,7 @@ include('eip-1/bootstrap')
 
 The package provides 7 modules.
 
-- [eip-1/MessageConstruction](../eip-1/MessageConstruction/README.md) with 8 items
+- [eip-1/MessageConstruction](../eip-1/MessageConstruction/README.md) with 10 items
 - [eip-1/MessageRouting](../eip-1/MessageRouting/README.md) with 11 items
 - [eip-1/MessageTransformation](../eip-1/MessageTransformation/README.md) with 5 items
 - [eip-1/MessagingChannels](../eip-1/MessagingChannels/README.md) with 5 items

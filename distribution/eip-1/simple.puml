@@ -17,7 +17,7 @@ include('eip-1/MessagingChannels/DatatypeChannel')
 include('eip-1/MessagingSystems/MessageChannel')
 include('eip-1/MessagingEndpoints/CompetingConsumers')
 include('eip-1/MessagingEndpoints/Application')
-include('eip-1/MessageConstruction/DocumentMessage')
+include('eip-1/MessageConstruction/ResultMessage')
 
 Application('producer', 'producer')
 CommandMessage('cmd', 'a command')
@@ -26,7 +26,7 @@ DatatypeChannel('queue', 'command queue', 'DatatypeChannel')
 CompetingConsumers('handler', 'command handler', 'CompetingConsumers')
 MessageChannel('bus', 'event bus', 'MessageChannel')
 MessageChannel('channel', 'result channel', 'MessageChannel')
-DocumentMessage('result', 'a result')
+ResultMessage('result', 'a result')
 
 producer -> cmd
 cmd -> queue
