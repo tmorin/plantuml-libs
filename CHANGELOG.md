@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.2.0](https://github.com/tmorin/plantuml-libs/compare/v6.1.1...v6.2.0) (2021-12-06)
+
+
+### Features
+
+* **eip-1:** add new items for the Message Construction module + increase size about some existing items ([470e6c1](https://github.com/tmorin/plantuml-libs/commit/470e6c16c936a75a1902cfbffc8d6777c2c9780f))
+
 ### [6.1.1](https://github.com/tmorin/plantuml-libs/compare/v6.1.0...v6.1.1) (2021-12-04)
 
 
