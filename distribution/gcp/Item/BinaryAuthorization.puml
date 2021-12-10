@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/BinaryAuthorization
+
+sprite $BinaryAuthorizationXs [10x10/16z] Oq03R3061pkKmSW0Ot40COp53b7816Sn0mLP6I1CX2cC808
+
+sprite $BinaryAuthorizationSm [12x12/16z] VSR50SC0302nCtl_XTim9tg9JzhxSt-ptac9qEc6qzXqfMcPZqGHSp5YEwR9nHy
+
+sprite $BinaryAuthorizationMd [16x16/16z] ZOp50G8130Gdjad_5VC1pcL-gxobjh9dcsghXuskMEj0bYF5NpSC-TDkCeR8lsQwaQqE1EA71uMSjQ5aXOLnoWS
+
+sprite $BinaryAuthorizationLg [20x20/16z] dStL0KGn20NHGNFxRtZTz_bydWJWGFrFO_oHz6VT-Mic_an9_Hde2m8NhUwE3mj13hxC7bOlSqU9BkPl2rmNzUPTE2se-hvCVNy32xjGy9L7jFERiTGP
+
+!procedure BinaryAuthorization($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BinaryAuthorization', $name, $tech)
+!endprocedure
+
+!procedure BinaryAuthorizationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BinaryAuthorizationLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BinaryAuthorizationGroup($id, $name='Binary Authorization', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BinaryAuthorizationLg>', $name, $tech)
+!endprocedure

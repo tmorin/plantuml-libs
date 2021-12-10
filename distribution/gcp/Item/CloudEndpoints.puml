@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudEndpoints
+
+sprite $CloudEndpointsXs [10x10/16z] Oo00c9Y110U8nSp0nCG4OZApC71mS30mCu8a839GDSpOpG
+
+sprite $CloudEndpointsSm [12x12/16z] ZSdL0SC020JG1rTX_uMhoLyCENLjkl48r0zx8974yqR7VMO8vgwgf67AhxPIbzrv0m
+
+sprite $CloudEndpointsMd [16x16/16z] hOo35S1044H7X_uRZlKS_JNn0zBYgxVIn4plMF3MPszxwHcaSAu3z9bjKpsehRN0vlKFhUFFzI_afItYEIC
+
+sprite $CloudEndpointsLg [20x20/16z] lOw70OGm30DbItcq_y90UXPuBiMzu2ioeydoutAHGx67AyWOwkMhAsG2MG7i66a06maLzZG1RWZeVK9EgFdsEFN6e_TGxB9SWUNCSz6X3ry6_i03
+
+!procedure CloudEndpoints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEndpoints', $name, $tech)
+!endprocedure
+
+!procedure CloudEndpointsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudEndpointsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudEndpointsGroup($id, $name='Cloud Endpoints', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudEndpointsLg>', $name, $tech)
+!endprocedure

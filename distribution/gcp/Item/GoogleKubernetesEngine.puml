@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/GoogleKubernetesEngine
+
+sprite $GoogleKubernetesEngineXs [10x10/16z] Oq05p30Q29Z031XYO6802a5PR0mS41ORaCNE3DF812OPcI4yC1j4
+
+sprite $GoogleKubernetesEngineSm [12x12/16z] POt50S103CFagBJ_mcK-lG866kgPr9nJ8RhD7YlkSsayvs5Wwb_pUCo5XEum2_6iYChDqRG
+
+sprite $GoogleKubernetesEngineMd [16x16/16z] TSwr0G0n34DHGMZ_XOyX-2i_Ly8Yjh9LKPR_Zsp0qFEXUVvqNhS1dm6l0sd4oYcXbAKZu-4OucFTysZNusJLSstYZxNgTW
+
+sprite $GoogleKubernetesEngineLg [20x20/16z] bO-50S0m40AVz_qdRgpknE3Yz5SiE96Y7KNDfGXl5vKWnInB-pHa-Cwu4kdnXJapGtFFt2ZpoFp0u8F5maHBvnHIrYzCDg_7ufhTVgwdxVfbRK57WPuq0G
+
+!procedure GoogleKubernetesEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/GoogleKubernetesEngine', $name, $tech)
+!endprocedure
+
+!procedure GoogleKubernetesEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GoogleKubernetesEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GoogleKubernetesEngineGroup($id, $name='Google Kubernetes Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GoogleKubernetesEngineLg>', $name, $tech)
+!endprocedure

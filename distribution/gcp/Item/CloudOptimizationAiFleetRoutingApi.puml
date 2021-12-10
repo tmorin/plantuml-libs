@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudOptimizationAiFleetRoutingApi
+
+sprite $CloudOptimizationAiFleetRoutingApiXs [10x10/16z] Oy0969c013i70mC4CJ0pCB21M60A90LYmMNXwi0gKG4
+
+sprite $CloudOptimizationAiFleetRoutingApiSm [12x12/16z] RKk30G102Cor_yHlV-u0dy1rSdiypo2ol30qtncJhfJUqTNKRh1CSxzpHzcaRCEJrPz8
+
+sprite $CloudOptimizationAiFleetRoutingApiMd [16x16/16z] ZOhL5KD144B7sA7_XbUIvyx7FPXyblikGYn-9b8xwMRbLv0Ob1c5jkPPhZfdpG7nSLrp_EoIVzSaPgi3v6y2tAa_9p-Pw8YhR8vdDG
+
+sprite $CloudOptimizationAiFleetRoutingApiLg [20x20/16z] {
+dOv50WDH24CXMEv_uR5KHbPjyFVL_X6U24yuRfXtlmsRs83t296r5V2Ob8lChGJ5S9I88_UPIN2SM1qxN1yPEp4WD9wOtaZsWv4Ke_AP6GiHT6rmaz8ir7_b
+4FfHAm
+}
+
+!procedure CloudOptimizationAiFleetRoutingApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOptimizationAiFleetRoutingApi', $name, $tech)
+!endprocedure
+
+!procedure CloudOptimizationAiFleetRoutingApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudOptimizationAiFleetRoutingApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudOptimizationAiFleetRoutingApiGroup($id, $name='Cloud Optimization Ai Fleet Routing Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudOptimizationAiFleetRoutingApiLg>', $name, $tech)
+!endprocedure

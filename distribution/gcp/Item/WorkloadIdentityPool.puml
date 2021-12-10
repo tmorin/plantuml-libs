@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/WorkloadIdentityPool
+
+sprite $WorkloadIdentityPoolXs [10x10/16z] Oy0AM220WO43Ai06P34nCJ0oWbaCx30nPcOe2wg33Pjf
+
+sprite $WorkloadIdentityPoolSm [12x12/16z] Oo06i73002C3EnDKa8q9o6PYP6HWOMK2iu4aGfoPcG4e1MOZr3F1pS5f5G
+
+sprite $WorkloadIdentityPoolMd [16x16/16z] bSsr0S1020107FPVE7ctZgjm80rvePh7gRG35kev5MVU4bIbrOzx7l7gOt7qUOldlq7M3m
+
+sprite $WorkloadIdentityPoolLg [20x20/16z] hOt54G0W30I9f_-6SUVBuYT3-0yVO97yWeecHykrQL2uDCnGADQc1IQedy6ckJtTV6HDLN5fbBbobKCptgcQ-0c4toG
+
+!procedure WorkloadIdentityPool($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/WorkloadIdentityPool', $name, $tech)
+!endprocedure
+
+!procedure WorkloadIdentityPoolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$WorkloadIdentityPoolLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure WorkloadIdentityPoolGroup($id, $name='Workload Identity Pool', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$WorkloadIdentityPoolLg>', $name, $tech)
+!endprocedure

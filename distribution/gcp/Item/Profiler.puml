@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Profiler
+
+sprite $ProfilerXs [10x10/16z] NSct0K0n20FH8zt-6__Wphm6975HMKeTWHY2CujLkBwgZ3npq7B40Bm
+
+sprite $ProfilerSm [12x12/16z] NOk50G8130FJN1lsdnXubwjBzA9dflQ-REk0RWrBv-3EPzr6HfMb1G9Q-sO27gz2SUoL4Y9QIIRHGQtv1m
+
+sprite $ProfilerMd [16x16/16z] TOw54S00309ZiF_8XQlRd-NZyKcQKuic_gcPZi3UecPGrAxhabcrfUnM8jTo1-NjOFLS7LXzt6uVgyzOAxRzwRdh-IAwS7au9MxwO04
+
+sprite $ProfilerLg [20x20/16z] {
+bOu73WG1209HXFy_-Q8RhxUTD4A9uXmUwi6hWVX9jnAGSntwGFQrPF58j5QC303NsYYRJ8HpQqIrHrwBTEls4dhmTFMkss9xr-q8ydhZzakmXR7GZddTWIlf
+GNWWIiGNBW
+}
+
+!procedure Profiler($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Profiler', $name, $tech)
+!endprocedure
+
+!procedure ProfilerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ProfilerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ProfilerGroup($id, $name='Profiler', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ProfilerLg>', $name, $tech)
+!endprocedure

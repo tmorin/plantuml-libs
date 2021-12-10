@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/RetailApi
+
+sprite $RetailApiXs [10x10/16z] Oq02J2224SnaOM1Wum2pE9Y0B20JBCN6m0GH1086N82D3OmH
+
+sprite $RetailApiSm [12x12/16z] TSY50S0m2031nzb_ugRkXyElwBctC3CrigMOzRoFnyo5Y6RLWy8iELdEOlqRIC9iVcboCm4
+
+sprite $RetailApiMd [16x16/16z] XSS7bWCX40FH4Wn2zp_nFj8wsv_GNVoKT0Q5BGAgejtLLAoeNKmPJHIMraRRbIr2b73q38KZF73tmbQsdStZhpvjQ_xNRXM6yJ_x0m
+
+sprite $RetailApiLg [20x20/16z] ZSo50SDG20JGms__XMj0tLxo3SF_L0LZBrP5jA1WbUCaynpJBINKEYR4e6sCZc4b7NC2Ynq3zHPpsbaKRenDSPE15yIhud9yOJClybQMcJBdcph3_uu
+
+!procedure RetailApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/RetailApi', $name, $tech)
+!endprocedure
+
+!procedure RetailApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RetailApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RetailApiGroup($id, $name='Retail Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RetailApiLg>', $name, $tech)
+!endprocedure

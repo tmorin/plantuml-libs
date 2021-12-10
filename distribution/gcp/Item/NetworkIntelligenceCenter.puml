@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/NetworkIntelligenceCenter
+
+sprite $NetworkIntelligenceCenterXs [10x10/16z] Oy05cA4q1mC72mU4oGQbETWvE80On6HYOuEgv013h
+
+sprite $NetworkIntelligenceCenterSm [12x12/16z] ZOf70e0W40D3pVp_mpPWRofpITKk2QNXw4McQW1jc8O1aqUqfn5MQV4N-k84
+
+sprite $NetworkIntelligenceCenterMd [16x16/16z] dOor0G0130A9mluBlskRwr0CyR-aFfRK5jxAIuUZISGbCr6I0DfLfpP85Iviav_pJWDTSMjw2B7fXn9ch
+
+sprite $NetworkIntelligenceCenterLg [20x20/16z] jOv75iL0280ODShzB_nxcPTzc2ehk8gLPm5Q4FnupYKrri-DALGS9XkjiZ5Dg3RCyLQfC-hxuIC3dYgWrYybwEw1t5kU8cPlQLyzf8kTCRY8Em
+
+!procedure NetworkIntelligenceCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkIntelligenceCenter', $name, $tech)
+!endprocedure
+
+!procedure NetworkIntelligenceCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkIntelligenceCenterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkIntelligenceCenterGroup($id, $name='Network Intelligence Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NetworkIntelligenceCenterLg>', $name, $tech)
+!endprocedure

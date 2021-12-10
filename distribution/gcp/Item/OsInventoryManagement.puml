@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/OsInventoryManagement
+
+sprite $OsInventoryManagementXs [10x10/16z] Oq0174nGcWE8E21C41kX0A6M4Ie2KOW0R6n0CMO4duK1
+
+sprite $OsInventoryManagementSm [12x12/16z] NSQr0GC140InFPx-6xQVIP7qrLT0CDlNuNsygkpywd5JdeU0uzqQFmwoxI0mbPx-
+
+sprite $OsInventoryManagementMd [16x16/16z] XOp50SG0409PXVuRFebxveVY6jihIOk8do2qM5s38Exrm8iE86tLKbFQwkgjjZpsmwtneqZsJzC07vuZ79Iv5Kvy0G
+
+sprite $OsInventoryManagementLg [20x20/16z] {
+bT250SGW50JHXRzmqt_35tUV-8kZRmLahSgsAPLsaoQZIp5i9XiP-SbotyR6JYrxRnquhIq00LwPWGoKbINugRQ-sDB-EgSoMcqRdXTIxQtCOo2KGklSBc6T
+rm
+}
+
+!procedure OsInventoryManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsInventoryManagement', $name, $tech)
+!endprocedure
+
+!procedure OsInventoryManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OsInventoryManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure OsInventoryManagementGroup($id, $name='Os Inventory Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$OsInventoryManagementLg>', $name, $tech)
+!endprocedure

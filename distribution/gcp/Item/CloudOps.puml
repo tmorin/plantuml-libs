@@ -1,0 +1,27 @@
+' definition of the Item gcp/Item/CloudOps
+
+sprite $CloudOpsXs [10x10/16z] JSQ73KDH5C9GlmxxBnmhQl_S0dmbGk4igBjt6yle2xCel5qsrnO6-SzAOiTLYoBR3m
+
+sprite $CloudOpsSm [12x12/16z] NSR10KHH14FHwu6a_uPdRF-1X0yTJYg1kjyYx4q7POVgjGEmzo5pT6DH368JaTTKA4dH2uBLX0sa6l1r2FsjWny
+
+sprite $CloudOpsMd [16x16/16z] {
+RKy50WGW348NmFy_VEwwp3M0VsjJ4jV3fTXL56_kP6e3MpvUJ9YsaYvWsGBbBesBj9rQKvAOPMyLvBiBvHpRs8bgw9p2p6gY1HAbZO4BYDZ7eJfQZT0C9f0K
+espU-EqxakF9dwtZhmzzurq
+}
+
+sprite $CloudOpsLg [20x20/16z] {
+TT05kY0n20FWG95m_mjllie-p_ZFLF5t8hix0nzPVF57HOO1y2JxaLvo5fIPEaMHpmnhpVIfJ20uCbxAKPpj3bo2YRefyKS0fq02yq7xcusG0H509Pfu_-sY
+iL1qNGim89YwOZ-TBTGhRVy3ycF1TZuHUnqbIUEC_Art9qR1svTQ1eiMyVl-oHnuklTvOUSV
+}
+
+!procedure CloudOps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudOps', $name, $tech)
+!endprocedure
+
+!procedure CloudOpsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudOpsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudOpsGroup($id, $name='Cloud Ops', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudOpsLg>', $name, $tech)
+!endprocedure

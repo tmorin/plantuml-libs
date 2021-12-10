@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/DataLayers
+
+sprite $DataLayersXs [10x10/16z] TOY30G0124LVRl-5pqPzytDckeNbGPNkNY8z7w19jf00kN6TRpS2
+
+sprite $DataLayersSm [12x12/16z] VSc50SCm30315sl_XTim9sUB-I8cB4nCbP4Qr78oyUuMDO3gKG2Iq5rJXLGC2oOUuxnAhlu
+
+sprite $DataLayersMd [16x16/16z] ZOkr0K0n20KFP_-5lqlIvHfunY8oAJMpIOfX-bRFpy7i3P7k0aplEFj4tqNrJN1YANAgmbFEVXf4E-HTU7nDuq7JYITyAyeIEm
+
+sprite $DataLayersLg [20x20/16z] {
+hOnL0iCm3CLal_Wjzx_mgDpy3AgWILo1b6Fgd0nbAWvP2V9zyc1oRv3JVogglvX69fdS9tR6Mrye9fgbALkKzVRPm6iw8Ep9LqvGJICmaPuyDXjlJtFZGDhc
+J8XlUG
+}
+
+!procedure DataLayers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataLayers', $name, $tech)
+!endprocedure
+
+!procedure DataLayersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataLayersLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataLayersGroup($id, $name='Data Layers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataLayersLg>', $name, $tech)
+!endprocedure

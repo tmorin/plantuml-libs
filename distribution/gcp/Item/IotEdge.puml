@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/IotEdge
+
+sprite $IotEdgeXs [10x10/16z] ROk54S103CCSE9ttNxZCVON16c4RwAMhQafhJxACeGql1riiLgc5o2H5dzhKWna
+
+sprite $IotEdgeSm [12x12/16z] TSo54G0n24JH3Gj_qd_3vovl14T_0gAWDBDD9djgDo04MBArwRBf8H8aj-FK0a81fehjfppHtGW
+
+sprite $IotEdgeMd [16x16/16z] bOv74W9020I9NVp_nU9GUzVUI1xx5vybMDf4PWPT1HTV6tGjQvDDBahysb26B7zD6OjCPYxEjRr-jO7Ma1TGGtiIW8Pk1Sz6LzaFV
+
+sprite $IotEdgeLg [20x20/16z] {
+fSs74S0W30D0OSkwx3znH1-0JyKLJvA6LXsMhwC6OegqKf4yiJHAVk7KafaEsOobOwgGQZIqXcakB8t190Dt-uZfymyW6IAGjffLe1-7RbUQnBDNZhKmoSsE
+aOILB2Ll5yz6Ims1Lpy
+}
+
+!procedure IotEdge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IotEdge', $name, $tech)
+!endprocedure
+
+!procedure IotEdgeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IotEdgeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure IotEdgeGroup($id, $name='Iot Edge', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IotEdgeLg>', $name, $tech)
+!endprocedure

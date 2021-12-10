@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/UserPreferences
+
+sprite $UserPreferencesXs [10x10/16z] Oq01x9oS49eTo0AnsO600Sna0p8OW4nce2241MM0f97KCJ21zB9m8fa7
+
+sprite $UserPreferencesSm [12x12/16z] NOtL0K0X30CFg6N_WPyhzrM9C9FIEGnocmFRnjn06t2CF8kTCxzv71A6rCcTqWxjcS-6t0Njrxi2
+
+sprite $UserPreferencesMd [16x16/16z] RSw5aGKn40FHDced_uHF9UzzVeLj77xQgceVlJZMwfAxhf4p2Yhkt8sH7amPDaupxsxE3goN7lbB6ymzGUPevWMTzpHcHGF5bHJG1qlAO-jr_idJSXD_
+
+sprite $UserPreferencesLg [20x20/16z] {
+XT250G8n40J0ZPtqtp2dEFo-PkB1dp2hwYkDDnjsdx3prCqaJDNUGPaDpInWbmtiGe12SgIqKxXovEnR0yumCXAqZPzsogOJAZNlYSLPo5EJtDSNaBi-XN8d
+YosazxkXXCwwFByAaKXtkm4
+}
+
+!procedure UserPreferences($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/UserPreferences', $name, $tech)
+!endprocedure
+
+!procedure UserPreferencesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$UserPreferencesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure UserPreferencesGroup($id, $name='User Preferences', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$UserPreferencesLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element FinancialServicesMarketplace
+include('gcp/Item/FinancialServicesMarketplace')
+
+' renders the element
+FinancialServicesMarketplace('FinancialServicesMarketplace', 'Financial Services Marketplace', 'an optional tech label')
+@enduml

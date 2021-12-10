@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AiPlatformUnified
+
+sprite $AiPlatformUnifiedXs [10x10/16z] LKl50G1G1DNilx0y-S5B-CTk4N13R3H0R06rfBG-Mi0YRXIl-z662W
+
+sprite $AiPlatformUnifiedSm [12x12/16z] POl50O1040CZaEs_ObnEvXN5X3vbGSkbQ2XodeKJyos2uYLXPlskXwvdJuJu26RzimC
+
+sprite $AiPlatformUnifiedMd [16x16/16z] fOn50WGn40AB9alo_m-lZTx6wePo1a7GfigYPT7bec9QYWcRE6t92pc1UCcBq3ih9lfAJSBwwupzdyQB7G6Uw8KF
+
+sprite $AiPlatformUnifiedLg [20x20/16z] hSl50GD044BHFp1Bjl-6u-xsZWYVKcuIodYS1zWYCLM7p8MSfaRCWOr39noei3k9i0uh18xGQ5rzCvipAeTf45jbQvUfPuuhUvlDMHpLThTeBZd07pF4Coi
+
+!procedure AiPlatformUnified($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiPlatformUnified', $name, $tech)
+!endprocedure
+
+!procedure AiPlatformUnifiedCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AiPlatformUnifiedLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AiPlatformUnifiedGroup($id, $name='Ai Platform Unified', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AiPlatformUnifiedLg>', $name, $tech)
+!endprocedure

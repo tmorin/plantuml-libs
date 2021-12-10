@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CertificateAuthorityService
+
+sprite $CertificateAuthorityServiceXs [10x10/16z] DOc50G0W40BFrlq7zhk1mseJTQs0kWqLzz5ADNI2FbKj5Q3gX6htlMi2kaf
+
+sprite $CertificateAuthorityServiceSm [12x12/16z] DOo50S0m40AlKTX_uHAxTsKpk7mASsSdfeGIzmqu-SGMthcG-yi_eDdd2-3ay781LMfE3c78eR5fAGhm0m
+
+sprite $CertificateAuthorityServiceMd [16x16/16z] JSe74i0W00B1iyl_FnnaqYvr7RYR_2hRhNAh6dCidrISjTuHCRJfvtEH1BSzRx6-_TOyezkTaroS6TrSmFgv0JLkiPa1Mztk90yaRItkul1k-g1nkW
+
+sprite $CertificateAuthorityServiceLg [20x20/16z] {
+NP055i0m24EfqUJ-5rxWqTcVzbSGEpIt7tC3yFusEBGo2y0Usfq_qmG2IyPPMjyPf-sNqvkajZzkcr4iVVxhcXnVpXnJh-DAYaOHpY5MEWOv-NV1rtdLbguI
+gZwa0ptSFgq3d09wthsYg9r5BsblsW8nQd01
+}
+
+!procedure CertificateAuthorityService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CertificateAuthorityService', $name, $tech)
+!endprocedure
+
+!procedure CertificateAuthorityServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CertificateAuthorityServiceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CertificateAuthorityServiceGroup($id, $name='Certificate Authority Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CertificateAuthorityServiceLg>', $name, $tech)
+!endprocedure

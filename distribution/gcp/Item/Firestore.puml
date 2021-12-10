@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Firestore
+
+sprite $FirestoreXs [10x10/16z] NKc30G102Cor_y9lfYFyOvEGsMnevfxQrz9eARVWk4H4BAKTAW
+
+sprite $FirestoreSm [12x12/16z] POe54W0X30Enoly_NCcaO-mT45iVRyI-LrKWR_6qW4O9tHOJZdf2sHEOmtfcvcwBkDyrRDm9
+
+sprite $FirestoreMd [16x16/16z] TSx50S0m20LG7FQVk8sxvt7u0Hu3Lx7Pg13pRpFgOX9h5VgLwrgDIV9l56fnRAOZlEOPzZm4cVBgjx-dpXG1HqyU4Ju8FtNeDyDrV
+
+sprite $FirestoreLg [20x20/16z] bSsr0S1030D0mOFtNpZCdEkCmbyktZSakvIIk7JeNXdCLmEbF3JpqXDwsvumItrluQdIDgM_CsRQv6gRQwP3xfImzgHZqgfMuj29JZMseaSSUfauo7ZI0W
+
+!procedure Firestore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Firestore', $name, $tech)
+!endprocedure
+
+!procedure FirestoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FirestoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FirestoreGroup($id, $name='Firestore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$FirestoreLg>', $name, $tech)
+!endprocedure

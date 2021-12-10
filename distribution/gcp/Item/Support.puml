@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Support
+
+sprite $SupportXs [10x10/16z] Oq01x9mSg2nc86050GPs8E040R0ic49ZCU1Y0G
+
+sprite $SupportSm [12x12/16z] Oq07x9mSI6nEE9k5amaY1WASOC30niO6OKFqi47LOx8vaDWCMDciR10s
+
+sprite $SupportMd [16x16/16z] bSc55S0m30DHAJ7kFt2PkJzupxZccTkqhhbfFSnXgVDl52F2HpaYs1kw_s0qD5RlBOV6hoRxtMi1
+
+sprite $SupportLg [20x20/16z] jSg53S1G549HgfJz1wvzr-WxKMx0n4fTg92gu_8rJN_XAAQnUKS0xFGKT9ldsed0fXqmRRK7
+
+!procedure Support($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Support', $name, $tech)
+!endprocedure
+
+!procedure SupportCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SupportLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SupportGroup($id, $name='Support', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SupportLg>', $name, $tech)
+!endprocedure

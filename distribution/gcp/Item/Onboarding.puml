@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Onboarding
+
+sprite $OnboardingXs [10x10/16z] LOc54OC05CNIGYx7_WFZ-kKft-baBNVMgX-_Kqt0Q46W_6XNUyi-Dl2U1G
+
+sprite $OnboardingSm [12x12/16z] PSR50S0m0CGm1oxUV-8oLo_nKwxrQ3sMk02IumhdgopM1uGQ61Jt9qMtKn8T79fypG
+
+sprite $OnboardingMd [16x16/16z] ZKx50S0W43iBwVuB5xSVVXQHfsLWx4m1aFIH1dfEsiXcJghObN_Nl2OsXfetTCiHvJ94ENAW4YUsVE23B7caxUTqw23aQMK
+
+sprite $OnboardingLg [20x20/16z] bSt95GD120DHOIZhEV-0lMlMqzJnTmEwslWaOBEL6tniemqnkxy4MxChj34ZrTvut9SJv8-_9itVf1Yj6hutMGmabJJsng3KzchRkqeLwpz48vjwTBKN
+
+!procedure Onboarding($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Onboarding', $name, $tech)
+!endprocedure
+
+!procedure OnboardingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OnboardingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure OnboardingGroup($id, $name='Onboarding', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$OnboardingLg>', $name, $tech)
+!endprocedure

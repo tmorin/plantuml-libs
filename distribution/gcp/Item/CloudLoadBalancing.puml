@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudLoadBalancing
+
+sprite $CloudLoadBalancingXs [10x10/16z] LOO54S104CGEC_LlkC-q6Bdb3hnKzOcyn52Z5K-SbeiiC6go
+
+sprite $CloudLoadBalancingSm [12x12/16z] LOQ54S100C9eUBZklt1TqUWlxBR-yFZnfVdwB_UIDmvIfR4TZacsGtQt5FVF4mZORmK
+
+sprite $CloudLoadBalancingMd [16x16/16z] bSS50e1024HHOKBlVs6xU_y6lEgcc5kS0Dp7JsyrsthdgBVTMvDp-Ff7tJX0As4dO1VxN0S
+
+sprite $CloudLoadBalancingLg [20x20/16z] fSd70S0m24DH1oGb-o_ibjxRFnXu3cyopwc4_pQ4hf_lpBp4rckzKSjwSrbz-_-zGJqvWVmAQEhRcrGkoUlxqyoGpKoIbPVXg0G
+
+!procedure CloudLoadBalancing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudLoadBalancing', $name, $tech)
+!endprocedure
+
+!procedure CloudLoadBalancingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudLoadBalancingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudLoadBalancingGroup($id, $name='Cloud Load Balancing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudLoadBalancingLg>', $name, $tech)
+!endprocedure

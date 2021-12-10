@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Datashare
+
+sprite $DatashareXs [10x10/16z] LSj50G1130F0MMpz6px6VCA-Y3H1vgwIUgf6E1HcJcP7Erj4yFjsC0oi
+
+sprite $DatashareSm [12x12/16z] NSp5OGGm30J0iItgl-7acFJHif_R9O6U6MKTzjnnBjon7MohHnMtpA74ktjW7v5A5skcRpXnxZi0ouP_
+
+sprite $DatashareMd [16x16/16z] RSs54S0m30D0ixN_n0teofmtok-bEXzUrW0aYWo0zjPXd4x1S9skyhFXx9yrQZ4C6aYLOOld_EPwvVxHDWsMbOoR-okdstDOSUupJcZwvpe
+
+sprite $DatashareLg [20x20/16z] {
+bSx50KC120FGuEm_SOlKzUVuK1m9HMP0NAx2MNcql3FFAF9xCoZDwCrIiW_edM5MHesFAJOHLMC-csKjsnlEGCsgZj7jXWScGgy_1uFLrpIiBMTYVswpcdJJ
+jf2OuVjzYedUx3vi1ZR6nvm
+}
+
+!procedure Datashare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datashare', $name, $tech)
+!endprocedure
+
+!procedure DatashareCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatashareLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatashareGroup($id, $name='Datashare', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatashareLg>', $name, $tech)
+!endprocedure

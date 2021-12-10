@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudApis
+
+sprite $CloudApisXs [10x10/16z] Oq05R306CoESoS084G5BCWFLC49uJ20cc86ccHakmW1c
+
+sprite $CloudApisSm [12x12/16z] POo30G1130GtJlyDFywOcBYG9VLPC1o3w0kCHFm1x7-NjAp9L_mfeQBh-_c7nyBW1G
+
+sprite $CloudApisMd [16x16/16z] ZOu54e1030CtlKpW_n_6hQFiQJtyew9c3gVPmiMBCEAYIamsAXtcs4nX7p-8iO4P4a27up8F1DvClH9qdNS4QVD7cZxqcfqL
+
+sprite $CloudApisLg [20x20/16z] {
+bOy5WWGW30CdoH7u_uTltNtGUiklg8-gT3oeelPU1xdN7Q-BGeAn3D8b5xGi8BceHa7B-A1i1GiW4re3Z0OlyJSFVowUPwyBdjmXW8SvpBZJaRJc3ZSyODwn
+0G
+}
+
+!procedure CloudApis($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudApis', $name, $tech)
+!endprocedure
+
+!procedure CloudApisCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudApisLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudApisGroup($id, $name='Cloud Apis', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudApisLg>', $name, $tech)
+!endprocedure

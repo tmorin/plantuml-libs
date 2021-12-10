@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ContactCenterAi
+
+sprite $ContactCenterAiXs [10x10/16z] Oq05730Q2DZ13A082mShX0K4S1O72vZ5oC0AP86OG0uRJ3EgeG
+
+sprite $ContactCenterAiSm [12x12/16z] PSQ50S103CD0FINQV-4oDs0VlnatrNO8cxgoRZaUxZpixWJSJ4fgi4rHDsnkV6S6
+
+sprite $ContactCenterAiMd [16x16/16z] TSs30K0n34NHE7V_XR-DLvvIVg8t6VIL3P2RWkXo05rSX2xB-ExrOD-DojtOvhmv0LtwrPAj3lJCDGs4d84wiNxran4
+
+sprite $ContactCenterAiLg [20x20/16z] bSw53KDH34DHXxt_n7MPFbvHT1xYRCtu4QSQ_n2ZxAOVnsGLGsKFemmgDTJRSCjgmQI_vapyct3JRdyelgrkVmX-_W-cSQWQ7mNL63uhaGC_blZDiTC5
+
+!procedure ContactCenterAi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ContactCenterAi', $name, $tech)
+!endprocedure
+
+!procedure ContactCenterAiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContactCenterAiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContactCenterAiGroup($id, $name='Contact Center Ai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContactCenterAiLg>', $name, $tech)
+!endprocedure

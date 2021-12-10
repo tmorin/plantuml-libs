@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Dataplex
+
+sprite $DataplexXs [10x10/16z] LOY50S0m20HnRl-5wut0k-p77nBYCdqsVUOIjIVnG-2QM_xjEnZHRpa1
+
+sprite $DataplexSm [12x12/16z] PSQv0SCm40Cms9AEt7_X_5rGmPyDOBMzG8RQWVGsJXSOiUw5CBtyNWIar9N0Z387Q0F01Pu
+
+sprite $DataplexMd [16x16/16z] ZSd5eMLH20J0Ed0VTFu9ptntgrMBFpcRyQhJkTB0t0PXzy1s3k5AG5Lks5H0OrB7Km-IzTgxQuqdsHpboknJHpZJ1IObojDFxMI7LvtofVy
+
+sprite $DataplexLg [20x20/16z] {
+bSxLOK1H3CDG1Pwlzb-upDpp6JJ_DJRlzL5JxsfUAxeyCG5M6CzZjIvygb7AWtXSUY56daKeskgdsbnGQ83dsYM0-g4sn6MWdskjJy_WkMPW3hGcJxNpd8yW
+3oekArN4uPckQtXdzGmV3J-v1G
+}
+
+!procedure Dataplex($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Dataplex', $name, $tech)
+!endprocedure
+
+!procedure DataplexCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataplexLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataplexGroup($id, $name='Dataplex', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataplexLg>', $name, $tech)
+!endprocedure

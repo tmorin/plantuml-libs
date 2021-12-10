@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Genomics
+
+sprite $GenomicsXs [10x10/16z] Oy06cC60aPaHo6O2yH4o63GZ8nkOnGWJOU800JOaum
+
+sprite $GenomicsSm [12x12/16z] TOa50G112C1mw5_uvLo73xY15WbWx3AjvkxAFBYsDad3XqbKbPlEanWqOJ3o0W
+
+sprite $GenomicsMd [16x16/16z] XSk50G0X34FHX5za_uNFNHzQqo-y4cc8ooeBz2IFGgGr3WPJl38w0U-1bxC2jK699Kven1BvF0XkYr8asVhG0m
+
+sprite $GenomicsLg [20x20/16z] fSZL0GCm3CL0-Ibri__2PMQup-Cleyy66i3sfD3YASDEpEcwvrP5uTPDnUAMXbjrKmgrrLvSBPORVN5LN4ku53OqDK-wsOZWIGOVMmC
+
+!procedure Genomics($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Genomics', $name, $tech)
+!endprocedure
+
+!procedure GenomicsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GenomicsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GenomicsGroup($id, $name='Genomics', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GenomicsLg>', $name, $tech)
+!endprocedure

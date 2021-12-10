@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudRun
+
+sprite $CloudRunXs [10x10/16z] Oy0Ac1cO6A4i9WPcPfWWCvJ9mS0114064vW55c9cu621IQAP1W
+
+sprite $CloudRunSm [12x12/16z] TOk30S1G34IlyVuBLzzwCGv7cC2b9mRpLGwlCxUdCaIy_lBt_FMMzjyfYJdWWKGG50iF
+
+sprite $CloudRunMd [16x16/16z] XOk50G0W20I1j_QVsEuwam_wmamaD024mykC7k7mHw3FAO3MANFhECVXHAJCuGHiYJjD74PJwZh4h7CeOubJ8yJ5z97JkU41
+
+sprite $CloudRunLg [20x20/16z] fOq55i0W3CMAS_yJhnaEJoOVpske_8jrLiIPZJcs5IfZioj3rfooPl9vm6OVZMqkpJcmtKcTkSPywv6pYC-a_vTWKKbiPAX-84EPnHi9z6BDpEdcvNqk
+
+!procedure CloudRun($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRun', $name, $tech)
+!endprocedure
+
+!procedure CloudRunCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudRunLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudRunGroup($id, $name='Cloud Run', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudRunLg>', $name, $tech)
+!endprocedure

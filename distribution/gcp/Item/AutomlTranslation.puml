@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AutomlTranslation
+
+sprite $AutomlTranslationXs [10x10/16z] Oy0EE8204SA0YZ1nCB2niO5Op40IA0UHO6PWOkI0wsA3wUL0DWm
+
+sprite $AutomlTranslationSm [12x12/16z] TOp50G0W24Lfs7zYF-R9HoVzYMfMNkdkkbAqOdMvZ5JHzivXl289ed2l7hJG0mbE-_r_3
+
+sprite $AutomlTranslationMd [16x16/16z] ZOs50GD120InW-c_uUJTRKwnNVc0CQ1pN0pa50QqdhaCBXiQY7kwRSkglLhs5zLTtiSwV8S-zIwknS9Dp09a2yHiKJrhcH6VO_C1kU0F
+
+sprite $AutomlTranslationLg [20x20/16z] fS_50SL0203H0IBJVyDnp-NBM_U5VpLkWeFlkKwxTi4kLHvw3OYEKsf7TJE003YkNkfreLoRI21qlOzPLAnVI7PLL1BQSqYWKFCTOySk-uNAmLt3eTpmZH4
+
+!procedure AutomlTranslation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlTranslation', $name, $tech)
+!endprocedure
+
+!procedure AutomlTranslationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlTranslationLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlTranslationGroup($id, $name='Automl Translation', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlTranslationLg>', $name, $tech)
+!endprocedure

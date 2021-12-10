@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudCode
+
+sprite $CloudCodeXs [10x10/16z] XOR50G0W4CEAT_-92NoHgqQHIbb1VLC7EiDcnfODI1voqLKJ
+
+sprite $CloudCodeSm [12x12/16z] ZKd50O103AkJ_IUczaIk4gN3KIBMbQhvKZ8iMJIoaGZEn28ILU04M2Nak5ANB9EVydLk
+
+sprite $CloudCodeMd [16x16/16z] hOf75i10249b2iFzJnpBC_kKRnVi3-Q8XlkS_l26Llj6dkGeFnaFaii2EZx0VUH3oy_aI3AlieKasDQn1iFRiZTS
+
+sprite $CloudCodeLg [20x20/16z] lSpN5KCX30DGkGdjFt7eXmNoxWUuupCM-trB4VjzIXt6urYSQyBxMrnJ9FSbBxBGSJWRdQChLiW0i3aPc1YI0kolExQH5Lf_4vVKvXjur7mJV_43
+
+!procedure CloudCode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudCode', $name, $tech)
+!endprocedure
+
+!procedure CloudCodeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudCodeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudCodeGroup($id, $name='Cloud Code', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudCodeLg>', $name, $tech)
+!endprocedure

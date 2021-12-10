@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AssetInventory
+
+sprite $AssetInventoryXs [10x10/16z] Oy01c1dOOGms81F2W32PW1G70niR0vW9Pe2OO0QKYGe
+
+sprite $AssetInventorySm [12x12/16z] VKd50G0W448kzr_OrkSLYMe8-LB5v4gAN2EqMOZBqKZu_6N4ddpDcIOC53C
+
+sprite $AssetInventoryMd [16x16/16z] dSi53W0n24JHmRd_XLVRGdHbeky7y6iaY4OM5yv6O8HnR3B2e29M46A79v4Zx0xYA8wWW_DbiCB56kFLTW
+
+sprite $AssetInventoryLg [20x20/16z] jSe53iC034DHXtF_2u-tW7XjBOk-7YwQ229MOXTAcmcFY8oHd5xIUt9yP2M3PfCi3y68L9Z3y-L8dWAFPB0ae6IfaenI9KkL_AYIhn_V7G
+
+!procedure AssetInventory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AssetInventory', $name, $tech)
+!endprocedure
+
+!procedure AssetInventoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AssetInventoryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AssetInventoryGroup($id, $name='Asset Inventory', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AssetInventoryLg>', $name, $tech)
+!endprocedure

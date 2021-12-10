@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AnthosConfigManagement
+
+sprite $AnthosConfigManagementXs [10x10/16z] LOk50O0m30GlzcJ_XN5e6yyBQ-ZTuLBS1_G3cyDt6VPSBTMcHsUVFTxDZS41
+
+sprite $AnthosConfigManagementSm [12x12/16z] PSR5OGG1400WHhFzDvnpvuKV-Lhj9eXAgnQAFPf1ENIF-qCyd-dlVdbG0vdO0bIFBoS
+
+sprite $AnthosConfigManagementMd [16x16/16z] ZOw50GGn3CCKi9lz5tvcF1N2m2QYtDp9IhVhObKb6EGu1m7DuG-VxAGiUy7LzZemSRShY4UxgxZPjV3CTEjaHoKWe7rT9qvMtTVDi7WW77na3m
+
+sprite $AnthosConfigManagementLg [20x20/16z] {
+bT254KD1409GrbZwR_YxniCOyyuF_yPeZn91vaqZ70GPX_Wa004dSvza049Btt2cQ4a5u3JNqdItLaaFPWQp1wkghAkvH3Ah-x1A8AHse2OxhupbOTnVRHvh
+AyRjmK2o7Z-6vNYCuLD6
+}
+
+!procedure AnthosConfigManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AnthosConfigManagement', $name, $tech)
+!endprocedure
+
+!procedure AnthosConfigManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AnthosConfigManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AnthosConfigManagementGroup($id, $name='Anthos Config Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AnthosConfigManagementLg>', $name, $tech)
+!endprocedure

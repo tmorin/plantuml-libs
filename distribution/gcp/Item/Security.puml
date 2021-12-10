@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Security
+
+sprite $SecurityXs [10x10/16z] Oq01hEpi49gLWPqTp6PYG6E1PLc192US1HS3OJ39p0upZmr80W
+
+sprite $SecuritySm [12x12/16z] VSQ75O1020HHublxhzWnP-SE-7RBMreKtIuAt8n4VoQZuN29bOiLHfWbH5XmgPH68m
+
+sprite $SecurityMd [16x16/16z] bSy54a8n40FGzGptlp1a2totZFMbBli9n0JDJ02bBVj81HqsaMo7dOw7JaQO5sr_6xhzEvVMtjv56v0HevMSFe3cr437u0q
+
+sprite $SecurityLg [20x20/16z] hSy54iCm34HHONPw_mF7i5Av7SeFlv0j_mh4ksG2psfJqh7AeWdh5EoWyHLKDBlOcEnkdwRWCPuiQoxsP82mXoMoJDiSaCvfaxIaFuccRj4XRsbADm
+
+!procedure Security($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Security', $name, $tech)
+!endprocedure
+
+!procedure SecurityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityGroup($id, $name='Security', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SecurityLg>', $name, $tech)
+!endprocedure

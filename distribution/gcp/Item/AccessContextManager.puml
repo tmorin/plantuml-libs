@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AccessContextManager
+
+sprite $AccessContextManagerXs [10x10/16z] Oq05p7068pDSX176O6DWu0190Lbi31pCO2ORM0RCP8Rf1RAX0Cm
+
+sprite $AccessContextManagerSm [12x12/16z] PSU30SG050FGzt7OV-7QZUE5SA0gZvcJZXbYdxwXcoZJ_ke_igPDX-qeRAV2SS838m
+
+sprite $AccessContextManagerMd [16x16/16z] ZSfN0e0m20JHTBZ_YTsnhd-nvWsKlQlr-YV1oOQHRtKk7KPzA2yv2H0FENMgrtng7aokCDX4Lq2Y1MW1Ud3wTG
+
+sprite $AccessContextManagerLg [20x20/16z] bSq53W0X44FH3dx_4o-bEB4rvES5yFSnZpTv_wRwFGbESILDbq8BxbI9OoXBiINFbhXcKajMMz4PtgaPNG2MP49eQafRjsxI3xHaqwUKVUJpNEfwFW
+
+!procedure AccessContextManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AccessContextManager', $name, $tech)
+!endprocedure
+
+!procedure AccessContextManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AccessContextManagerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AccessContextManagerGroup($id, $name='Access Context Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AccessContextManagerLg>', $name, $tech)
+!endprocedure

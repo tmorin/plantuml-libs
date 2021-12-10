@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudApiGateway
+
+sprite $CloudApiGatewayXs [10x10/16z] Oq057706Wed2OcDau001TZ2V3GYGP37rWfK1
+
+sprite $CloudApiGatewaySm [12x12/16z] PSZ50S1030F1FPFSVyDXpdm4_DHTXJW5VPHS1BTXqg1wPNvSgo6nM6joAfgJJ5oCrGm
+
+sprite $CloudApiGatewayMd [16x16/16z] VSlL0SCm54FHQp_I_WktOKxEfu0NZPFAug0B7HVMiTo_azg-6Y7EX2HeqcSFptqhTkv4NiuSXO97Vm
+
+sprite $CloudApiGatewayLg [20x20/16z] bSx50SH030J15dhoJ_WOpLi_iHZLQcPIhfZbbAJcVORBMFWPJZqzSpCgkji0VqD5LJcWDwPQdPLK0DPFA7dpUdhcPkQ_T11Y-TiyPoePCpOPEwu
+
+!procedure CloudApiGateway($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudApiGateway', $name, $tech)
+!endprocedure
+
+!procedure CloudApiGatewayCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudApiGatewayLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudApiGatewayGroup($id, $name='Cloud Api Gateway', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudApiGatewayLg>', $name, $tech)
+!endprocedure

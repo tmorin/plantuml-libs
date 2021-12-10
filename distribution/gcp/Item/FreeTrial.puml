@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/FreeTrial
+
+sprite $FreeTrialXs [10x10/16z] ROY50G0G44MVPl-1TNFtc--vUXgKCSPbWkb9GWZ1PG9z-wPr2G
+
+sprite $FreeTrialSm [12x12/16z] VKW50e103E9MuFy_RBVUHkFt6acVk1H9d3ZFcLdKf80TkG73T9muxTXtx-JOik5w8m
+
+sprite $FreeTrialMd [16x16/16z] dSe30W1120NGZFjVU6qCth3wK44LnvjLrj8tDDSO4UunMjCZzvpVYXfo59uJcDXed4_FN9_oNJKI4O-B29u6
+
+sprite $FreeTrialLg [20x20/16z] jStL0SD0201G7Bh_mCcv_THVz53uahgxCOWds6A-a1RZIDmZQn4jKaoB7DCZHc_4G1zPYfKlGYRHzXRK5g-z-9SOIecPvu_0wsu
+
+!procedure FreeTrial($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/FreeTrial', $name, $tech)
+!endprocedure
+
+!procedure FreeTrialCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FreeTrialLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FreeTrialGroup($id, $name='Free Trial', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$FreeTrialLg>', $name, $tech)
+!endprocedure

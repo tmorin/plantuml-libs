@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/OsPatchManagement
+
+sprite $OsPatchManagementXs [10x10/16z] Oy0EsDdP6S4C3Z018faO69XXqgmCC0vO6gQ44Sfdvq0n3
+
+sprite $OsPatchManagementSm [12x12/16z] VOo50G0X30C3L6x_XTzTEAIQg4C3jZIhfeDDgPTrvjFFFD9ApAdDlHNRPh2DvthAgwBjhfWUZ
+
+sprite $OsPatchManagementMd [16x16/16z] ZSwrWGGW4030GLRwR_ZbZEHi8bZtdRdI4PrLorrj9jdr-49tmoZ0o0KxK3Em1t9XAEHqamK58d4cZUxxWddxJtDQlPm3gtCumWk_
+
+sprite $OsPatchManagementLg [20x20/16z] {
+bSs5OGKm203HmvBRV-5wl-kB2y3xYdFPUzkSskxS1iJnQW49gCaFXr-XVmdQanp6xoQlomeG4mkWrl5ke4_kVYkicfzbk7AeQ_Ddv8Sglq9-jHPKmbWSfMxT
+d2cxWml1Gvy
+}
+
+!procedure OsPatchManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsPatchManagement', $name, $tech)
+!endprocedure
+
+!procedure OsPatchManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OsPatchManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure OsPatchManagementGroup($id, $name='Os Patch Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$OsPatchManagementLg>', $name, $tech)
+!endprocedure

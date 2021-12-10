@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/OsConfigurationManagement
+
+sprite $OsConfigurationManagementXs [10x10/16z] Oq0570neW9M9aOE1YGCiny7E0P7dO6VWO8QmG034O0AoiMa74G
+
+sprite $OsConfigurationManagementSm [12x12/16z] PKm50G11369E_yIlvtC1S5XEi_zTWU3TvSwoucqet7QFIlumwht_8tc_uXtXnGZy7vlrQvhbhHS
+
+sprite $OsConfigurationManagementMd [16x16/16z] VSp7OGCm581GfD_OV-74lTll3donUBBafp6lKGsLEhjnSzIU1MUfYzR5XSAoxpCRDJbQgpnR6w2QXGwR-w4xU98yay_-0G
+
+sprite $OsConfigurationManagementLg [20x20/16z] dT230SH054NHzttxRtXj9ZbZGsibUkEjF-oKGzyRekGoG7BHvzsLN2bTPm0CGDtF14vvwmxcbCUzgm1N0lVEuUpUD-4KG0-QyoduVKjHkklEpNzbfL_s
+
+!procedure OsConfigurationManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/OsConfigurationManagement', $name, $tech)
+!endprocedure
+
+!procedure OsConfigurationManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OsConfigurationManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure OsConfigurationManagementGroup($id, $name='Os Configuration Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$OsConfigurationManagementLg>', $name, $tech)
+!endprocedure

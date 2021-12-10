@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ApigeeSense
+
+sprite $ApigeeSenseXs [10x10/16z] LOo53G0120CFQxh_mkzAX3g_i_q0zm50A65t2gmDgOW-44JWXXQD0SXd1Qc15G
+
+sprite $ApigeeSenseSm [12x12/16z] NKo70GG1324-tluJNwwNz09ypVOvAadjutyzfjTHC_wCSAvPTrYfTIv1vimEFFVM2gh0RWIhTKITeao2qqYkRG4
+
+sprite $ApigeeSenseMd [16x16/16z] ROw50S0m40BXbVqNhdjpqNSmXkJJR4bncwMLkAEstAaye-jLHjaT9GgfMZuILjiP9krsaN0aBnlknl0jDPHM10lTZir1HCRsRgJIwEkS0zD2yotOC686
+
+sprite $ApigeeSenseLg [20x20/16z] {
+bSx50GCm34FHRrAq_y9bvhvJOkO_uJtkZFU26pvfBjRn4_9Sgu2IG4xsOaujfJvtdFTL8ChMJIoAphZ6H0KPrRUnYifY8Y-nG124cDEDOT7g6GLU7BK5sG4s
+P-DL4JbsSf4-MDmgxt5FEyrxMm
+}
+
+!procedure ApigeeSense($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ApigeeSense', $name, $tech)
+!endprocedure
+
+!procedure ApigeeSenseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApigeeSenseLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ApigeeSenseGroup($id, $name='Apigee Sense', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApigeeSenseLg>', $name, $tech)
+!endprocedure

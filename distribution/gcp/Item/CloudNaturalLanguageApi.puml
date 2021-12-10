@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudNaturalLanguageApi
+
+sprite $CloudNaturalLanguageApiXs [10x10/16z] Oy06c9b191EGOeEAi09Pp430YCP2o3820PW55cHcOqKO1m
+
+sprite $CloudNaturalLanguageApiSm [12x12/16z] Oo06iBAnWMasDYO6LYQO89ZD30AeRDngs13YA6OY0G
+
+sprite $CloudNaturalLanguageApiMd [16x16/16z] Oo0PC34n8RCOsTZOe5mmYv4TePGPn0TY9WXWO8BocS60E3v2Fqu-mcdiwEx1S2yw
+
+sprite $CloudNaturalLanguageApiLg [20x20/16z] hOy35W0n34GdzVqlN2jhz3_462n7HfelQc0YlHvzdNEOSJcd0AgaiELaXQQSgj11tqrkSDct_yLkPis9DXtfkUWhF2K
+
+!procedure CloudNaturalLanguageApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudNaturalLanguageApi', $name, $tech)
+!endprocedure
+
+!procedure CloudNaturalLanguageApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudNaturalLanguageApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudNaturalLanguageApiGroup($id, $name='Cloud Natural Language Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudNaturalLanguageApiLg>', $name, $tech)
+!endprocedure

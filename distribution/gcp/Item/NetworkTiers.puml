@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/NetworkTiers
+
+sprite $NetworkTiersXs [10x10/16z] LSU54G0130B1Yp7qt_2xRXH-9DtFzTQPW6JdmkPYdGTGt1-L8su5h
+
+sprite $NetworkTiersSm [12x12/16z] NOo54O1030JZNFyLCp7aDwvqeYwJUIIQgN2eMXTQ7Ov8JmN0TC5eCNZ7V1MT0_b7bCdcJ9GYCXqglG4
+
+sprite $NetworkTiersMd [16x16/16z] RSx50G0n20J0HKF_3P_4RNuuk2EQ8_EVp666ZCbSHRxOSYY2x4jmZXajaJ1B4G15A2PJtDVq2W4GLvvZQBwet9_-uZpLCK3vkTCB
+
+sprite $NetworkTiersLg [20x20/16z] {
+bSs53GHH20JGiS_IVyFdvDnUZ623_xYEYAlKq6rlN3eIKucphlUsRxwkXnuornGnjcvZN7iRWEuE7XnwwwctLM5Sth6klNIVwofnakSt9Pj0Sgnn8LjOLSOD
+2SYrTnNZlJq
+}
+
+!procedure NetworkTiers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/NetworkTiers', $name, $tech)
+!endprocedure
+
+!procedure NetworkTiersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NetworkTiersLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure NetworkTiersGroup($id, $name='Network Tiers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$NetworkTiersLg>', $name, $tech)
+!endprocedure

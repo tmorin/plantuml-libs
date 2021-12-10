@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Datastream
+
+sprite $DatastreamXs [10x10/16z] Oy06k3Yvk91uo2nc8Cd5nWPaSh60nTX019m5bKK5
+
+sprite $DatastreamSm [12x12/16z] TSg50G0n20J1ZGBNVx_lBXD1-MD2ZKq1PKxQOWOYoB7izqvaAR7eRCuy1NLl5r5v6m4
+
+sprite $DatastreamMd [16x16/16z] XSo30KGn44NHEmfU__sk-NdY33Ybmlao2Qdn4VSbvq_NkikB6cQ46btzsQ-r98KamBWh0vl6M-DF-xvd8-hxVFOpFfmZLm
+
+sprite $DatastreamLg [20x20/16z] fSt50GGn34FHRvn4_VUxp0plPXH_aGPpv4rl8cdXKW8CENSaxgJosM8Om5IHcPXK3Ca0INHtu5gGb80tEm6GcbpekizjurOtPwKWyg9rpZKkr7J2-C4Q
+
+!procedure Datastream($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datastream', $name, $tech)
+!endprocedure
+
+!procedure DatastreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatastreamLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatastreamGroup($id, $name='Datastream', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatastreamLg>', $name, $tech)
+!endprocedure

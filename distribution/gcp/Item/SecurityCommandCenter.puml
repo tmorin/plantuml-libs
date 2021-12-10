@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/SecurityCommandCenter
+
+sprite $SecurityCommandCenterXs [10x10/16z] LSg30G1130J0EIRzD_nckFAhC41cxdiWsecO8i6S5UHGZiYHEG0xwZwr0W
+
+sprite $SecurityCommandCenterSm [12x12/16z] NOo50KDH20Fl2N3xBzn-DroIyBL9FwPKTAwZRhC5nwcEcSZEEg-M6VjGGj3iGDEZN9g3Oy79s_u
+
+sprite $SecurityCommandCenterMd [16x16/16z] ZOs54KKX30GldluRHc_UoDT55oBu1sj5bz2yU_l2xkVZ3ReoZ6xBWBmE4I0ppuNeSRB3CdqdqeEdWmLBMFwGkqFlZTJnm8Cj5xnZ0W
+
+sprite $SecurityCommandCenterLg [20x20/16z] {
+bSy50e1G20DG6kv_OMFVRcS_OqW_aqpkMz2i6gpAUPOQ0yCHh-tCLrjUM8qGMGqKOJZTbCUGkNHhifbk75O7mod3h7ral9ZRS6Rj0sk5jfbjFAm5ot_eMZER
+qIOEqosXLkWXFG
+}
+
+!procedure SecurityCommandCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityCommandCenter', $name, $tech)
+!endprocedure
+
+!procedure SecurityCommandCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityCommandCenterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityCommandCenterGroup($id, $name='Security Command Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SecurityCommandCenterLg>', $name, $tech)
+!endprocedure

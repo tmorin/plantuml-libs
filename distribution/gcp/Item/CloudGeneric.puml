@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudGeneric
+
+sprite $CloudGenericXs [10x10/16z] Oq003YXWGsKnCh11M61581P4EIESnSQ6LIyR5B02
+
+sprite $CloudGenericSm [12x12/16z] NSR50K0X342nL-_-2tyN8ASmYdm9rI-zNzyBU2wSx7nmEv_3s-MWTVsnN3xi
+
+sprite $CloudGenericMd [16x16/16z] Oy00ZCW0oEL01ZZvx2XyPg0vx0W-AzXWLYYV3MuLXCy8vxEYyz7Kmyq30pPCzn3cemC
+
+sprite $CloudGenericLg [20x20/16z] fO-35G0n40KdoQh_XiysvddnmMDYWtsO-MwM05lF2lJ3OJPCXkamoypuC6D1EfXnCBDXjX3Kenx_PxP1EQ86
+
+!procedure CloudGeneric($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudGeneric', $name, $tech)
+!endprocedure
+
+!procedure CloudGenericCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudGenericLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudGenericGroup($id, $name='Cloud Generic', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudGenericLg>', $name, $tech)
+!endprocedure

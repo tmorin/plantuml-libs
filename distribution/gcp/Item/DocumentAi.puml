@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DocumentAi
+
+sprite $DocumentAiXs [10x10/16z] Oy0AM9YP6JWOmIo460C70pCZ1q8CZSKCb0MpE81gW0W1
+
+sprite $DocumentAiSm [12x12/16z] TOo35G013CLIT_-5pqOUYW_-wMx4jXsmEdTqtvkYzVYJsryGEJrvwQ7E_YrqCW8
+
+sprite $DocumentAiMd [16x16/16z] ZKt70G0X20igWVqNFdjzdHL8mu-b98ysUEjTLz--joTsBm8OABEdmM9mNVobsBXPM7qOvUoL89yyiT6BbmMeJv64fc_jkp8
+
+sprite $DocumentAiLg [20x20/16z] fOw50SD030FFhFqNBZCtkKUpM8bf3n1NNofsW6GtlkCxBtmKttoctOdSFLSVLLJYTxuJ_L0xCqgUykvdp13fTpuYThjVQUuRtnv0kbRtxBZc_SeM
+
+!procedure DocumentAi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DocumentAi', $name, $tech)
+!endprocedure
+
+!procedure DocumentAiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DocumentAiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DocumentAiGroup($id, $name='Document Ai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DocumentAiLg>', $name, $tech)
+!endprocedure

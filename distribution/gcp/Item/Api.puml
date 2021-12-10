@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Api
+
+sprite $ApiXs [10x10/16z] Oy0FsDc1Y9qHH34o0ma6PcQW03CxK8296IB6W621r641
+
+sprite $ApiSm [12x12/16z] ZOc54S0m30E_Pr3tNxZCaCGWf6KiRFc8GARblNUqBUgGjFoYb-MgbywM1JFZPqO
+
+sprite $ApiMd [16x16/16z] fOg55S1024Dp0ddTV-66kki_WGZ-aiqAO5Rr2L0aq-UW01EOdHA8jz8Ukc5eqWQTK-W4I2_w1ve21RfPlwR0Ire
+
+sprite $ApiLg [20x20/16z] lSW54a9130JHpYRp1-v_OMfmAqLwDOz_L2Crb3GBb702foedRCfT5kEXj9zwCjeDjZgsIR5riftTbTjSRHJRPkfcL4oaTpQovj7AYMxeeXUf4r_k
+
+!procedure Api($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Api', $name, $tech)
+!endprocedure
+
+!procedure ApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ApiGroup($id, $name='Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ApiLg>', $name, $tech)
+!endprocedure

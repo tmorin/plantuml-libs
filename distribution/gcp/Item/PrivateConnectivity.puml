@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/PrivateConnectivity
+
+sprite $PrivateConnectivityXs [10x10/16z] TOR50S0m58NuHlUVk7vCdi9EyRzYVOGZK2K7LW3-XL9Pwm8
+
+sprite $PrivateConnectivitySm [12x12/16z] ZSQt0SCm40J11VvlrN_5eWzf9Xe-AdLS7Odib841HXb-Q04Om6OpJ2Ads3nO
+
+sprite $PrivateConnectivityMd [16x16/16z] hOp50S0m3CHCf-u_SHcVJI8psWYSbNgNxWLsmaP0tlNcurp8t99fkygyvworplqwz-FpaBAR18Mri
+
+sprite $PrivateConnectivityLg [20x20/16z] jKz50W0X4782zlyljlkyOXFgX6UGct0Ms4xbinRU3fU2cXNPRNauycY4Y6RRqAGwpQnmybNEhCSBfuqB0okx7ZP22wfjaGrdORxA-1q9
+
+!procedure PrivateConnectivity($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/PrivateConnectivity', $name, $tech)
+!endprocedure
+
+!procedure PrivateConnectivityCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PrivateConnectivityLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PrivateConnectivityGroup($id, $name='Private Connectivity', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PrivateConnectivityLg>', $name, $tech)
+!endprocedure

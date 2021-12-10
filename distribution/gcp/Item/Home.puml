@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Home
+
+sprite $HomeXs [10x10/16z] Oq05h7069okCmSxE2XLX1pB1320BmeImGB8WDJXO
+
+sprite $HomeSm [12x12/16z] ZSU30G1134JHlt7_5P_Dy0sNyXt3LsRsOMRCeMVsquU9W_kBbazEWvv0R_wu0m
+
+sprite $HomeMd [16x16/16z] hOvN0i0W2CLK28_U_y3TU_pLdQX0-MZSaBEeeBE0JW4d34tYGBI92GLQn8Pe4sIoiNnyCA5RQp5oMqh1nlqV7W
+
+sprite $HomeLg [20x20/16z] lT0t5eH04CJGTPhQkV-1yGXFYA9-F-jwtVOx4XmG3WYb8ah9Z5A9A949fK14YOWI4JzG_u1MuFL-ZQJv0iFrhFtwrYEs
+
+!procedure Home($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Home', $name, $tech)
+!endprocedure
+
+!procedure HomeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$HomeLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure HomeGroup($id, $name='Home', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$HomeLg>', $name, $tech)
+!endprocedure

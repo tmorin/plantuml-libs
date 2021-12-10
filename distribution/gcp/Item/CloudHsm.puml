@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudHsm
+
+sprite $CloudHsmXs [10x10/16z] LKk30G102BpS_Wk_cJlW3r-R0EbxBbwd-yOIwsIaJKTI-7OuuuaA
+
+sprite $CloudHsmSm [12x12/16z] RSU53S104CH07shxRpZCUOl6V3E_w4QT5q2F7Drsq4puOHgHX_EsfrJ6CNJmRWO
+
+sprite $CloudHsmMd [16x16/16z] ZKv50aHH20A3v_qlFFExovqqFfsvnFLr1o2k_w29mv_BJre6Okilo-sRHMZvAQ4OlesZF9PVmURhRyXgAM85uFBjVYHnTNy
+
+sprite $CloudHsmLg [20x20/16z] {
+bT170aGn209Ga4Yy_uMdb-Zkitmf5boDd4D2aUauYNfVRG_VDypJrjlYD841vFXGjjdBIiN5_XGkWJwCAA-TiFxsgX25NCFOZQZatksj42wNp5uOi6FivKMN
+SWS
+}
+
+!procedure CloudHsm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudHsm', $name, $tech)
+!endprocedure
+
+!procedure CloudHsmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudHsmLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudHsmGroup($id, $name='Cloud Hsm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudHsmLg>', $name, $tech)
+!endprocedure

@@ -15,7 +15,7 @@ include('gcp/bootstrap')
 
 The package provides 2 modules.
 
-- [gcp/Item](../gcp/Item/README.md) with 98 items
+- [gcp/Item](../gcp/Item/README.md) with 216 items
 - [gcp/Group](../gcp/Group/README.md) with 22 items
 
 

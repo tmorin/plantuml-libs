@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AiPlatform
+
+sprite $AiPlatformXs [10x10/16z] Oy0EMDaOs3WWJ3O63WZD1cHnS40O340c2v04YJ61P5b0B8X2A0i1
+
+sprite $AiPlatformSm [12x12/16z] TSl50GGm4CGmXIRRVyF737hR_kk9AXVfiMqOAyFSgo5jHlLUpAHXLZLuldsDsAD01chnRDuT0G
+
+sprite $AiPlatformMd [16x16/16z] ZKv50W0W2AEt_t_OrhDqC_aXCnDtkwbdbX2uUOcFtEqLeaRECwzLPIeAaciwXivz4SPk-nha7iZAMli4T5rJzv67HTphQn_Kyx_M7-Q5U_RbWpe
+
+sprite $AiPlatformLg [20x20/16z] {
+fOu73iCm30D9xV-_k60CMCNkkCJhe8M_gQh4pDIgo92h7Dimk9pJ6yl9NUEPLIGOqzstGPquaLAX67ySoPeRXWSgC7IHYt1azYsuC-zuB0Va2DomUEkBJJr9
+ENcTtJWi4U7Q3D_m0W
+}
+
+!procedure AiPlatform($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AiPlatform', $name, $tech)
+!endprocedure
+
+!procedure AiPlatformCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AiPlatformLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AiPlatformGroup($id, $name='Ai Platform', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AiPlatformLg>', $name, $tech)
+!endprocedure

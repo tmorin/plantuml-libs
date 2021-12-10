@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Datastore
+
+sprite $DatastoreXs [10x10/16z] Oy06c9YOM420YO6PcOsLWPcH0Pc501mCp41X9cPM91OM
+
+sprite $DatastoreSm [12x12/16z] ZOf70e1020F3P87_lzXsikjSKlK7sn1K19iFKH9oDyO97FujOISs1rz0PZaJFJ03
+
+sprite $DatastoreMd [16x16/16z] bSa70e0W34FHj35m_niRt7iyPNoAtx8X2HeGlgk4AIBTR0rV15nrhLMqeE6apJEdUUVsszAww3HA2g-2lte
+
+sprite $DatastoreLg [20x20/16z] hSX50e1G24LH6lU_OXzCxFRyvDBlf90LwGjD8TYPMKrmprhzZ74_QLx8GBblsXUPwQnWqZVQWAFTGYlwW-OYekmGweN-DW8
+
+!procedure Datastore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datastore', $name, $tech)
+!endprocedure
+
+!procedure DatastoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatastoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatastoreGroup($id, $name='Datastore', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatastoreLg>', $name, $tech)
+!endprocedure

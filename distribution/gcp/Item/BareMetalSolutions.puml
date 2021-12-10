@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/BareMetalSolutions
+
+sprite $BareMetalSolutionsXs [10x10/16z] TOcr0G0W30HnRl-58Lh6NbinCyLESGoxFWBNMzf11Tm59bjopWS
+
+sprite $BareMetalSolutionsSm [12x12/16z] VSX50GH140Im3BT_muVBb4-19scijUh-Sa7xlmMCTVohhXeAr0YHOcHeyQbH_9N83ju
+
+sprite $BareMetalSolutionsMd [16x16/16z] ZOw30G0n5CNIx_qdFfklJ4f-He-OwWS4zGFs8Wu8CekMcz_4XaG_xUL-lJPiLPN4D8pnVjPZwlRRdeHz6lVf
+
+sprite $BareMetalSolutionsLg [20x20/16z] hOor0KCn4CLqVFil7FvWkmcfV23-WRVCaIMzHiYuZE1Ehn7IkaNfRDHsbpffjsopUx5XyVnuaEUmbKZw57LGuLI5FAFe6uNJTuGZJRatne4TctEQoeTS0G
+
+!procedure BareMetalSolutions($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/BareMetalSolutions', $name, $tech)
+!endprocedure
+
+!procedure BareMetalSolutionsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BareMetalSolutionsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BareMetalSolutionsGroup($id, $name='Bare Metal Solutions', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BareMetalSolutionsLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Workflows
+
+sprite $WorkflowsXs [10x10/16z] JSR50GGn30GmEUD0_mqVm-eb5vKLGeTr6ilNOdI_kyWvVWQXAeOu9soKjpi
+
+sprite $WorkflowsSm [12x12/16z] LS7H0G5044F1bsGtT_qt33ymmp_R0WbOIpt70Ijf8G7pPN1QyTO6TExbJPc1vMj1YHrl2vwyU6f-FG4
+
+sprite $WorkflowsMd [16x16/16z] XOw50KCn20M12o_iFt7vrFqYkDX_0YIr0jv_hkXVLGhZq5xYhTtvPDyx3alAIyTQDZYNUDapOq-IHpCsq2f1Yh6DlJVkdl9P__XXIVRE2G
+
+sprite $WorkflowsLg [20x20/16z] {
+bP075iGW24I5Fqwu_udt6RAzs_rqnXyZG3RhcSIE81F9aXAna4mkYQjAENPcW6cxRPhfAS1x5fcIuie05fiJEA0xkGvT3JkUlNlPyjdzUtRuZGZ8PXqrrp6d
+LR6O1bNLeRLjtHuuhawg7OtlumG
+}
+
+!procedure Workflows($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Workflows', $name, $tech)
+!endprocedure
+
+!procedure WorkflowsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$WorkflowsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure WorkflowsGroup($id, $name='Workflows', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$WorkflowsLg>', $name, $tech)
+!endprocedure

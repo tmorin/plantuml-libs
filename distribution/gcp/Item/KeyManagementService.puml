@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/KeyManagementService
+
+sprite $KeyManagementServiceXs [10x10/16z] NKk50G101DJil_1t-k0I_XDpgLb4I4DcJOj8gC65e267PS-sM0Fh3Ai2
+
+sprite $KeyManagementServiceSm [12x12/16z] POk54S1G5CBuJxZilt3TonaM_UJJX0taQcs72dBtXIwlXxU0sj5U_JZWrQzMvTHHIsa8dThT3
+
+sprite $KeyManagementServiceMd [16x16/16z] TSg53S0m50DHVtAz_y9bJdB29nq66Tu5fRZWHL9hjDrS0rnhbwqK-JAeoLyE5FGokR8rToSPjZjm3RLv0kvXi-4io9MEEwE8RWi
+
+sprite $KeyManagementServiceLg [20x20/16z] {
+bSu53W0n24JHmQRS_yIRkaJtnry5yBT8tc0aCvE-hx2MBT-NQ82KYh8iuEcupS0iZpcOV8m2GsnJrXpPmhx7k0oLW6xbsDcjc-2ugCs8cPFHJN0YA-7CgXN1
+dTxozW4
+}
+
+!procedure KeyManagementService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/KeyManagementService', $name, $tech)
+!endprocedure
+
+!procedure KeyManagementServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$KeyManagementServiceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure KeyManagementServiceGroup($id, $name='Key Management Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$KeyManagementServiceLg>', $name, $tech)
+!endprocedure

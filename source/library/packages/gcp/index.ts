@@ -19,7 +19,7 @@ export class GcpFactory implements PackageFactory {
 
     private getItemUrn(imageSrcPath: string) {
         const parts = imageSrcPath.split(P.sep)
-            .slice(2)
+            .slice(1)
             .map(part => part.replace(/&/g, ' ')
                 .replace(/ /g, '-')
                 .replace(/-512/g, '')
@@ -27,9 +27,9 @@ export class GcpFactory implements PackageFactory {
                 .replace(/\.svg$/g, '')
             )
             .map(toCamelCase)
-            .filter(part => !!part);
+            .filter(part => !!part)
         const name = parts[parts.length - 1].replace(/^[0-9]/, (s) => `_${s}`);
-        return `${this.getUrn()}/Item/${parts.slice(0, -1).join("/")}/${name}`;
+        return `${this.getUrn()}/Item/${[...parts.slice(0, -1), name].join("/")}`;
     }
 
     private async discover(
@@ -44,10 +44,8 @@ export class GcpFactory implements PackageFactory {
             const absoluteImagePath = getAbsoluteImagePath(context, cwd, relativeImagePathToGlob);
             const imageSrcPath = P.relative(context.absoluteDstYamlDirPath, absoluteImagePath);
             const itemUrn = this.getItemUrn(relativeImagePathToGlob);
-            const itemFamily = itemUrn.split("/")[2];
             return {
                 urn: itemUrn,
-                family: itemFamily,
                 icon: {
                     type: "Source",
                     source: imageSrcPath
@@ -77,7 +75,7 @@ export class GcpFactory implements PackageFactory {
         const iconItems: Array<Item> = await this.discover(
             context,
             iconsZipDst,
-            "*/Products & Services/**/*.svg",
+            "**/*.svg",
         );
         context.info('found (%s) icons', iconItems.length)
 

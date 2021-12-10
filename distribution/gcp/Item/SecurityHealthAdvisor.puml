@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/SecurityHealthAdvisor
+
+sprite $SecurityHealthAdvisorXs [10x10/16z] PSk50S0m20J0YxF_mdKlpWluH-sbWEmUGK9441aqGm6Tut9wpvW1
+
+sprite $SecurityHealthAdvisorSm [12x12/16z] VKr50W0W21lD_pziApVftF0HSf5JkZFaTBxYhND47XwPexGpDo2LToqsmWCI25y2ksL91m
+
+sprite $SecurityHealthAdvisorMd [16x16/16z] ZOs50G0n308Xv6dtN_ZT_Qenm3yO-qYsf2L5Eu6GDCNX-TrYyXYNiYdN7WfCQKa1g7NjnoYVM0t3UxcUnWH5hAJLXti2ztG
+
+sprite $SecurityHealthAdvisorLg [20x20/16z] hSZL0KKn34En4xlnxVuJFsO6VOe_66tfSf9uxJJQ39JELc5F5wSxDpT9dLzNG6DZqtEZQPZ8dAjb69yk3ImJhEDr2XZex2fXm-R4QT2-JXdRnGKDYm-j
+
+!procedure SecurityHealthAdvisor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/SecurityHealthAdvisor', $name, $tech)
+!endprocedure
+
+!procedure SecurityHealthAdvisorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$SecurityHealthAdvisorLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure SecurityHealthAdvisorGroup($id, $name='Security Health Advisor', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$SecurityHealthAdvisorLg>', $name, $tech)
+!endprocedure

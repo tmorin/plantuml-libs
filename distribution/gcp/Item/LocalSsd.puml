@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/LocalSsd
+
+sprite $LocalSsdXs [10x10/16z] Oy0AM1Y112kOoS41GZ0cbC4EPxDpi81fHhWw5WpJ
+
+sprite $LocalSsdSm [12x12/16z] TOo30G113C1oRFPV-6sa9l_anPV5AoHb8GmRAqsfB6Z5Or1r_wD7OGMwd2HkZ
+
+sprite $LocalSsdMd [16x16/16z] bOt50SH030FDdluRFaWMVW4pIl9UhCwiFNg8NqgO1u13w-YF7RkJ0fUksGB7BEV0nQ3tlJPxEquRVDBrcHZNDkv2xkKB
+
+sprite $LocalSsdLg [20x20/16z] fOx50G0X40EpMAR_Xi_z-37eUZH8TBw5yrkvVRHONuCUJfeCX6ugArLFyfRv91cSacbtBU0jzrbTMcoveIS6YfuKOEjvUG9Wx-T7LZvLNhwxaJN83
+
+!procedure LocalSsd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/LocalSsd', $name, $tech)
+!endprocedure
+
+!procedure LocalSsdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$LocalSsdLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure LocalSsdGroup($id, $name='Local Ssd', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$LocalSsdLg>', $name, $tech)
+!endprocedure

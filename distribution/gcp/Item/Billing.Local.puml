@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element Billing
+include('gcp/Item/Billing')
+
+' renders the element
+Billing('Billing', 'Billing', 'an optional tech label')
+@enduml

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/RealWorldInsights
+
+sprite $RealWorldInsightsXs [10x10/16z] Oq00HWuEPWPs3Wu83qIniSCbcHcG05m54v22aXn84d0EX04
+
+sprite $RealWorldInsightsSm [12x12/16z] LOk30G0130ElpluBltarme_MW4a90iOBKB2pj-JmOX_Xs-uQ-ww7D-_5d-VwwiJE2W
+
+sprite $RealWorldInsightsMd [16x16/16z] PSZ50S1030F1DUZi_XiES-OZuCyLQrYchT5ojQCA7mNDgafhH4Mo4SVFIydUcthj1djFwZ4D8CN64ZOIsnQ78Q2TomZgc8VYpO-S0G
+
+sprite $RealWorldInsightsLg [20x20/16z] {
+TOy53W0X40CBQ_t_YozDph29mQpZGBD-lynkGw5FwP4AKT_EG8LIWW3lCZ80aM5vknQueGe63ivoTU2iKfLjK45v3ge0qN-PxvMyvLqpoAxUetJr6gKJ8mPl
+c5YpCAn-0G
+}
+
+!procedure RealWorldInsights($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/RealWorldInsights', $name, $tech)
+!endprocedure
+
+!procedure RealWorldInsightsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RealWorldInsightsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RealWorldInsightsGroup($id, $name='Real World Insights', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RealWorldInsightsLg>', $name, $tech)
+!endprocedure

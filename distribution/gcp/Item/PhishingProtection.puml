@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/PhishingProtection
+
+sprite $PhishingProtectionXs [10x10/16z] TS653S003C2m59Jr_uV789hD3tlXeiMfe1B02Z87D8ac6w5QQ52P6JuR
+
+sprite $PhishingProtectionSm [12x12/16z] VOp50S002CI27Uo_SDrU3QxyeQatPxYmaBW8eA-5S5eqU1688o_37Tck9aWrnwlZISmONrO
+
+sprite $PhishingProtectionMd [16x16/16z] ZSUteGGW30Km6SF3-o_ySxpgrCbpLXQ_EXb-dPZogtQkNzshais7hHVcM53v-9nZ8D7ko3QN2gkHiiR7TNSEFSZcT6vp3oflw9cvFbI1LNZq2W
+
+sprite $PhishingProtectionLg [20x20/16z] {
+fOz50iHG24E31Uv_uYdKknbB--tXmFzILZuPwKyeT5Gz_PnfDs9gHj9lp6PFFNDjB1SMMwfciY2bejQ8OSPqKBRY348DAd02MjxCjYB2JbPi5bt7p4aqyycd
+W8QHsRKBhM0Bi6fjmtZ4JA2H8VXSBm
+}
+
+!procedure PhishingProtection($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/PhishingProtection', $name, $tech)
+!endprocedure
+
+!procedure PhishingProtectionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PhishingProtectionLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PhishingProtectionGroup($id, $name='Phishing Protection', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PhishingProtectionLg>', $name, $tech)
+!endprocedure

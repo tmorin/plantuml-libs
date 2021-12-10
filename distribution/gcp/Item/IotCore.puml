@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/IotCore
+
+sprite $IotCoreXs [10x10/16z] LOg50S102CJo0cJ_XUkAdl6hS9m_rTXmMMBOBiI6c5aKPv8apxVFPfxdCedzh
+
+sprite $IotCoreSm [12x12/16z] NSY50GD130F1FP2b_XjEdcdCvgjNur19n2gBjZOOmI6QQRGe8NQ0DcnSnMf0ST2aEFxIkekTQ5mwgpy
+
+sprite $IotCoreMd [16x16/16z] TKy50WGm2B8G_l_YcruNIsAX_O6_CKh2dKH10zI6bj0rYCEbR74MICjzDb9SEGKkRohj8BD98wjlZuxQPc4tb2_Fcns1uP5rYmCMxG7SyXlljnA0i9-u
+
+sprite $IotCoreLg [20x20/16z] {
+bOi50WG1208nGF__uGttkcziHVm9kpjmH_KESO6bFc2TjAVH3grERzeYzePRs26Rj4KXknF0wTopF-bmlnE635KLzb3Wn3GwnVkTYJPpY3WX82SBOQSTcOcG
+WqdWXDkk54wo2tJX4QVX0oi
+}
+
+!procedure IotCore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IotCore', $name, $tech)
+!endprocedure
+
+!procedure IotCoreCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IotCoreLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure IotCoreGroup($id, $name='Iot Core', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IotCoreLg>', $name, $tech)
+!endprocedure

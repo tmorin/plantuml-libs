@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/VmwareEngine
+
+sprite $VmwareEngineXs [10x10/16z] LOY55G0n58CuBVilN5U-X1SEB8HgPB9TYbRZkeOf55F4vy4QjVKNAkz79G4
+
+sprite $VmwareEngineSm [12x12/16z] NSQr0GC140InFPx-6xQVIP7qrHlRZYtAbsKYg5vFn7tDt8UGrXUTnCou72UbqQ8oWuLM5AQJd_a3
+
+sprite $VmwareEngineMd [16x16/16z] TOw50KCn20M12BV_mbMa_N9H_Car6gH9a7Pyli-S4m5MsC2_7Sws7N3_ixqoRGzzsp5luxZj7Sa2Qw5cHaYPKz0M1-hnJGScTpm1
+
+sprite $VmwareEngineLg [20x20/16z] {
+bSy50iGW40F0zV3_5r-MytfJ0GQNcncVu6k8P_1ZzQgyZTsquiHycxAnjlwlJLMNvgCXqvVskw-5AzhoSsRC2gOvGsAdDSxgzwRWJpZYQnNH8mRpDd1kVLeV
+9Aly9v1obWS
+}
+
+!procedure VmwareEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/VmwareEngine', $name, $tech)
+!endprocedure
+
+!procedure VmwareEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VmwareEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VmwareEngineGroup($id, $name='Vmware Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VmwareEngineLg>', $name, $tech)
+!endprocedure

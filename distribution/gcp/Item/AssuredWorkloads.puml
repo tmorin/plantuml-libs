@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AssuredWorkloads
+
+sprite $AssuredWorkloadsXs [10x10/16z] LOl50S0W00CZBR3_mhZUAue7Bc679HX2rv58Ov3mA8MbJ48LZ_kY
+
+sprite $AssuredWorkloadsSm [12x12/16z] ROY70O1020F37qJtNzZUVKZNz-AEu7C4sUs8O3lNCcZSlfz5N1bAYWHSX7LUe_Iy6G
+
+sprite $AssuredWorkloadsMd [16x16/16z] ZSs54G1124FHa43c-c_utFsllZ7mAvexXMJddeJjcAYXT9ysUwWmrg3SNpdpqUJUuzJQcHBTKocfNC7mOCv1Ch5FC_Tr
+
+sprite $AssuredWorkloadsLg [20x20/16z] fOw35K1H34E3f_qN_hPnZzi8Bw5s9pd5pSbsIcajig7c6AQJMnXIotJgw4vJg3AOmM8KOY0MeFozTTErkNNrtDtOtUmmx9F8VhPwfkdOq7KyfWO
+
+!procedure AssuredWorkloads($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AssuredWorkloads', $name, $tech)
+!endprocedure
+
+!procedure AssuredWorkloadsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AssuredWorkloadsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AssuredWorkloadsGroup($id, $name='Assured Workloads', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AssuredWorkloadsLg>', $name, $tech)
+!endprocedure

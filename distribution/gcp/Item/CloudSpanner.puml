@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudSpanner
+
+sprite $CloudSpannerXs [10x10/16z] Oy01c1dOO2ms68k1Wm6DnSpCni71mWnL3iJCG0BCOaKo2m
+
+sprite $CloudSpannerSm [12x12/16z] VOU54O0m00CVdkQw_yAuMppyGNBixhGZEohFhQPMRPTPA9dFs41acpIHCmO
+
+sprite $CloudSpannerMd [16x16/16z] ZSZL0SLG3CDGXNop_yAFeToUByjSOaPDEmpLj2CNBJaJDPYftcytKjtv70yHaQCVHpo0XQS4ICz-gcSIUfT9-RdhVHXlpjeT
+
+sprite $CloudSpannerLg [20x20/16z] fO-50GD120Jt6DZGVyDnjxSvnK7R6GnHNtH-rqNwGuVVTGfSUgTwbIvFnzr8SLLnnEuJ2TnKx9fJD4Vof0kLKoTi1DVyhflkDeDl__AjyQZKpLneFWS
+
+!procedure CloudSpanner($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudSpanner', $name, $tech)
+!endprocedure
+
+!procedure CloudSpannerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudSpannerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudSpannerGroup($id, $name='Cloud Spanner', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudSpannerLg>', $name, $tech)
+!endprocedure

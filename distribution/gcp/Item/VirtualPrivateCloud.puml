@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/VirtualPrivateCloud
+
+sprite $VirtualPrivateCloudXs [10x10/16z] Oq00PbOs4Cd61cAnix61M0Wn1dOW0q82EI0ImSAkbua59CR4nWe
+
+sprite $VirtualPrivateCloudSm [12x12/16z] POp70S103C9qOBp_nkazBaWlU8xStY7ixYG-F9OsLsV02Y264z7cfRVBCHkEpgfVvv203JC
+
+sprite $VirtualPrivateCloudMd [16x16/16z] dOx50S0m24Lns7_YnltK5yK_N61Y-I2BQR6PpQfjOObfgr2YsQGg9PzQOIIpO5uVQhRe3_kfnoInsAw9OQ_v9ny
+
+sprite $VirtualPrivateCloudLg [20x20/16z] fO-50KGn24EvaAJTV-6pxswlYaES9bDszqtRdKxABvpeQl4NJNGalanYv_b2bT7Xshmg8rrf8upee1_haX8RpIjfSczUcryEvvt70knq06p56Xy
+
+!procedure VirtualPrivateCloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/VirtualPrivateCloud', $name, $tech)
+!endprocedure
+
+!procedure VirtualPrivateCloudCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VirtualPrivateCloudLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VirtualPrivateCloudGroup($id, $name='Virtual Private Cloud', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VirtualPrivateCloudLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CertificateManager
+
+sprite $CertificateManagerXs [10x10/16z] Oy0AEC00p6BWO0TomIn63XYBWmNAWYY6wM3XGDAC
+
+sprite $CertificateManagerSm [12x12/16z] TStL0K0X34FHv0ba_uLnbulq_1NNh5B90jxq9niAeat-JBIIeQyRJtKgESIKXWt4c0S
+
+sprite $CertificateManagerMd [16x16/16z] XSV10G0G34FH1CZ-2mF0gH_Q1pldPrpKRjghVm0VAwYPMlOHdo6bprdXSy1hZjmojShDCywEjSemgm
+
+sprite $CertificateManagerLg [20x20/16z] fSg55SGW44NHyVdzDuophid3xu7E9ObLwhR4jMtZflsBW-Hg3cJV6NAnFdcONuq5z606-0kp9rDvjDNL4hxAYoakMRSLNxgOu9hInjXTw8Sg
+
+!procedure CertificateManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CertificateManager', $name, $tech)
+!endprocedure
+
+!procedure CertificateManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CertificateManagerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CertificateManagerGroup($id, $name='Certificate Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CertificateManagerLg>', $name, $tech)
+!endprocedure

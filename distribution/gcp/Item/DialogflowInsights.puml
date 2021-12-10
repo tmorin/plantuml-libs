@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DialogflowInsights
+
+sprite $DialogflowInsightsXs [10x10/16z] Oq05p30Q160CLcOcc106YusB2ynYW0f1cAY60W
+
+sprite $DialogflowInsightsSm [12x12/16z] POp50S1020GNXcZ__KRFRrwmfWcl5_1_1X3mtj_PtjIRSgznxg1gUDrKmd2Dt
+
+sprite $DialogflowInsightsMd [16x16/16z] TOt50S0m4CEIw8hxxrjMEVBhm7Qga9yJy9mModCCs4rSN7Exw9gxHJtESiqZOmpE1Vf5dOqQbb6Sn4d8gS8C
+
+sprite $DialogflowInsightsLg [20x20/16z] bS_L0K0X241HmOJzztrfj_Vpc8ZJf8HAGBvXkSdNY9R-WiemDsMahSoNcr7AILRBVMGqL_jQGvc2Sh9wEFIRAlEI6uew48jk
+
+!procedure DialogflowInsights($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DialogflowInsights', $name, $tech)
+!endprocedure
+
+!procedure DialogflowInsightsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DialogflowInsightsLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DialogflowInsightsGroup($id, $name='Dialogflow Insights', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DialogflowInsightsLg>', $name, $tech)
+!endprocedure

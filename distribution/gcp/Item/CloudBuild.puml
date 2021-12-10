@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudBuild
+
+sprite $CloudBuildXs [10x10/16z] LKg30G1020mNzb_upNYYltHzKLMPYhQPbdkIJaJ94o5zef4RmSQLwQaA
+
+sprite $CloudBuildSm [12x12/16z] PSV50S1048LG_X3hl-6uBwS7JNcadbGzho8TfW1b60RqDDDjfzlIHUMSan0nV5i
+
+sprite $CloudBuildMd [16x16/16z] ZOw54S0m30C5eVqNBjUdutpGBEmXAopwHXNxOJa8_WaoY3wUCZwsCOOywR2nfiB6J9l0wc3Pjjw7fGPbVYqUgn32Iau
+
+sprite $CloudBuildLg [20x20/16z] bS-tbGL148LGNZ5Rf_DFUDLNBQp1l1xSpcoGKekvKbqqJl5CDJ1H5IdiOB3-JONkPe2JsHs7MUsBSLYktRWOevdDa2xAsHIY_pRZUVTlOQx4ubu_
+
+!procedure CloudBuild($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudBuild', $name, $tech)
+!endprocedure
+
+!procedure CloudBuildCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudBuildLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudBuildGroup($id, $name='Cloud Build', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudBuildLg>', $name, $tech)
+!endprocedure

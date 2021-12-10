@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/IdentityAwareProxy
+
+sprite $IdentityAwareProxyXs [10x10/16z] Oo08M3WO6DX033O8nS3CmC70oi3419P4g0F9ic8r0G
+
+sprite $IdentityAwareProxySm [12x12/16z] dSQr0G0n302nCtl_XH_J1rI90nhUX7ntalpY246RySe8JOQEn8KLDm
+
+sprite $IdentityAwareProxyMd [16x16/16z] jS45WGD1402mxE3vD_nGC518V4LTkrIvwwEi0ugLuvHpE4gBfZCIkCnCjATipghm4BDDfRVz0W
+
+sprite $IdentityAwareProxyLg [20x20/16z] nSlNeG8m30F0I-As_yAlq5a0xi-MvCjYff3beOCpMwQxEgAOnoeOJf7OS0v3v1Bxx0FhCEgFmdhi4xHNMN6obwptxtuCFk0N
+
+!procedure IdentityAwareProxy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/IdentityAwareProxy', $name, $tech)
+!endprocedure
+
+!procedure IdentityAwareProxyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$IdentityAwareProxyLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure IdentityAwareProxyGroup($id, $name='Identity Aware Proxy', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$IdentityAwareProxyLg>', $name, $tech)
+!endprocedure

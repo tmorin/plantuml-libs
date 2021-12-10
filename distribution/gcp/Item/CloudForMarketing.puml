@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudForMarketing
+
+sprite $CloudForMarketingXs [10x10/16z] Oy05M60C3WOE3WumWva3A0fcCB21fTX113C8SG0n231YCme
+
+sprite $CloudForMarketingSm [12x12/16z] ZS750GDG30KWlhra_uNhnnhuL-q3p8ZEAfIrMcdiDiB0g6fM748Z3FebFha2
+
+sprite $CloudForMarketingMd [16x16/16z] dS6tOGCm300mi8ZY_nSdYzje0twKFcolfpAXO-w5k3KniSOaigrezYou6sg20Bt_qjbRqyJGYS4bXe4i5cTVmhV-
+
+sprite $CloudForMarketingLg [20x20/16z] {
+jSt75G9G24JHnoTD_nLxngnhlIio_4iKttfhWq-259B0KceKrDQGZGdaXgY2mVQ4W8JGw60X9TGu2ypPJAcgDTkp0Ekh0aZVwhodv_cDSiDNivwr3PzTlIj-
+xW8
+}
+
+!procedure CloudForMarketing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudForMarketing', $name, $tech)
+!endprocedure
+
+!procedure CloudForMarketingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudForMarketingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudForMarketingGroup($id, $name='Cloud For Marketing', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudForMarketingLg>', $name, $tech)
+!endprocedure

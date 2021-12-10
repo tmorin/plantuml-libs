@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ErrorReporting
+
+sprite $ErrorReportingXs [10x10/16z] JSY54G1120J1mSa_ufTJj6kvA_ETWNdUROeCNhYs3RtPK4cqV4eC8PsNQla18eWN3m
+
+sprite $ErrorReportingSm [12x12/16z] NKm50W114672-l-7htEd0vYi6z77H2b2qZvBk5iBDM12iSyksFTiv3CpdZkD0Ifk7QfFjJxoC7BBhQy
+
+sprite $ErrorReportingMd [16x16/16z] RSk74GGn24DHQIq3_LTy-oyd4nyprhzdc_RWhWfjlV58EDnu_yL1XjrQOSM1cOaUPk-fDu_qRlZcZ4_xxhB2eeNfbbuBitIS3RuEyFTT
+
+sprite $ErrorReportingLg [20x20/16z] {
+bSc50GCW34JHWzZjFt7JO7Nv-0F_rDtTWDplo8iszdsLULjqTw-ZCO0ejB95pDinKj59oftHe4z681wjmNbdaMJriKnoeq1pRVCEY00DC7V5ncpHn5J9VT56
+dJIpxBehtdK1
+}
+
+!procedure ErrorReporting($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ErrorReporting', $name, $tech)
+!endprocedure
+
+!procedure ErrorReportingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ErrorReportingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ErrorReportingGroup($id, $name='Error Reporting', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ErrorReportingLg>', $name, $tech)
+!endprocedure

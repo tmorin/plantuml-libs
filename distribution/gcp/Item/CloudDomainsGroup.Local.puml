@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('gcp/bootstrap')
+
+' loads the Item which embeds the element CloudDomainsGroup
+include('gcp/Item/CloudDomains')
+
+' renders the element
+CloudDomainsGroup('CloudDomainsGroup', 'Cloud Domains Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

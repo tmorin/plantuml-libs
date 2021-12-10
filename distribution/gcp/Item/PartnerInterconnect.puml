@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/PartnerInterconnect
+
+sprite $PartnerInterconnectXs [10x10/16z] Oo0Cs20K1mS36pC76v0FOR6p8iI0W96HZP4Hkm4
+
+sprite $PartnerInterconnectSm [12x12/16z] Oo0ECBA109mBOp5pS32mCG891WPMDYYRZGaX3bUFPWvk
+
+sprite $PartnerInterconnectMd [16x16/16z] hOs50G0X3CJGzFPV-DrT2DJD5S3Jiymj0inY4rjhManAJIofZJrp3DjwIuBGn3HcFEWzZPpSVqKD
+
+sprite $PartnerInterconnectLg [20x20/16z] lO_L0O10242bsNzYhvDVVPSqF7y1sjdriikSo3f8BpQT9xAEqbkzYJOTKTAfhZfJYM9ZNTnB0W188H7EyGKl
+
+!procedure PartnerInterconnect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/PartnerInterconnect', $name, $tech)
+!endprocedure
+
+!procedure PartnerInterconnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$PartnerInterconnectLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure PartnerInterconnectGroup($id, $name='Partner Interconnect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PartnerInterconnectLg>', $name, $tech)
+!endprocedure

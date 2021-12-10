@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudInferenceApi
+
+sprite $CloudInferenceApiXs [10x10/16z] HKW50G0m2CFxDxvWWpdXj7HPMi_jybATFqOz2rAkHfH9AEy2
+
+sprite $CloudInferenceApiSm [12x12/16z] LSQ74S0W40D1XJ7zbsoH-HDXKU9zgJo2bmbdx6PNtpQxLwq_-kYehxijfs4SO_ds0m
+
+sprite $CloudInferenceApiMd [16x16/16z] XSm55e0m30HH9ilB_OyC4LowrL_9D8oe5PrjPnE8JXgrJI-sD5toY7cjJjnuUFPquCkHyfh3wEfA-vm5
+
+sprite $CloudInferenceApiLg [20x20/16z] bSc53S004CD0vsd_ZSlCjIYwy3dttNmpS-rDMaoJoMqnrxkPJSPeCeQCVPNpYF5FKOLIC8pEepHE-s6m6EpDusnJYs5YGIvh0G
+
+!procedure CloudInferenceApi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudInferenceApi', $name, $tech)
+!endprocedure
+
+!procedure CloudInferenceApiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudInferenceApiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudInferenceApiGroup($id, $name='Cloud Inference Api', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudInferenceApiLg>', $name, $tech)
+!endprocedure

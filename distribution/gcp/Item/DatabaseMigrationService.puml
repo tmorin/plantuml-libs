@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/DatabaseMigrationService
+
+sprite $DatabaseMigrationServiceXs [10x10/16z] LSh15K1050ImUFDtwBzY5o3d-1d0Vgo2B4oBH4V8fbf8xXUZG5e_9m
+
+sprite $DatabaseMigrationServiceSm [12x12/16z] TOl50S0m30DF1ZNxBrp-579c47Dwk3c9iO0LLQ0Ku9szH6OxE50IZLsS-uXRh21Dd6ioGxQu5GxUR
+
+sprite $DatabaseMigrationServiceMd [16x16/16z] ZSj50aKn34BHcq1fzx_XxwxlZ2B05eeVjxL68YxccWrfx70WNpe71begI5AO4ya9MEUjAJUT-F9LKSdWh2xvAucIS6wxBkshbY_jYrBpnHu
+
+sprite $DatabaseMigrationServiceLg [20x20/16z] {
+bOzN0i0m2491bEJ-9wxTuwzalpZnJyelYJ7jUA4nvoZRDyacsROMcBcRA-lyjGzhIJo9v3qPDsflJ-r9Uqfs4LaxmkOg4pnCiHcfRLbDI1nIwrrV6r5g8qGz
+h0WcK0_BsEB9xvObDH5UefpuhGK
+}
+
+!procedure DatabaseMigrationService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DatabaseMigrationService', $name, $tech)
+!endprocedure
+
+!procedure DatabaseMigrationServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatabaseMigrationServiceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatabaseMigrationServiceGroup($id, $name='Database Migration Service', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatabaseMigrationServiceLg>', $name, $tech)
+!endprocedure

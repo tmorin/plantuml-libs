@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DataStudio
+
+sprite $DataStudioXs [10x10/16z] Oy00Z62IZOsDdOCDnkI0Kd0-1oD4BH20QBWuGYyBmaG
+
+sprite $DataStudioSm [12x12/16z] Oy07s820WmEPpGZXC081L90TAiyAbcU7Se207SaWPX30D8S5PZu2
+
+sprite $DataStudioMd [16x16/16z] ZSwr0G0X30NG7y_-2v_IuBmAuZWZ_eXa5FxApDcVvQ6A5ttGb0P-D1bbMD7_7ZczX_Y3pWq
+
+sprite $DataStudioLg [20x20/16z] dO-54S1G24Dns7_XklVxE-Em9308FclRY8YxjxTywTdLqskFuTFqK4Xplw9_wwyO2xStEVVyvNqdbMg3dgrYDatqf92jpWm
+
+!procedure DataStudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataStudio', $name, $tech)
+!endprocedure
+
+!procedure DataStudioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataStudioLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataStudioGroup($id, $name='Data Studio', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataStudioLg>', $name, $tech)
+!endprocedure

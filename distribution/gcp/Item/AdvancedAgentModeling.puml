@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AdvancedAgentModeling
+
+sprite $AdvancedAgentModelingXs [10x10/16z] Oq05p30Q120CLbPMPYOGYvMJWmt2OcRZWhB0W0ccWmcc6TLG
+
+sprite $AdvancedAgentModelingSm [12x12/16z] Oy00J0WMCpCpbCSC0L1H3ZOsE9kJ0y5cu-A2irbOM81ig5w4GOmWKs00A8WE
+
+sprite $AdvancedAgentModelingMd [16x16/16z] TSx50KGX303HXS6I_llTRxZCxQ7v7JAZW8wysImBE9wgWuJWmMQx4Ey5Lqs86ZsTWwRH8VJ6zp-IQpFcpLfMi-dLTm4
+
+sprite $AdvancedAgentModelingLg [20x20/16z] bS_50SGW40NGSTd--usYiwVy2F1m-1fYBC9FLaNkMQPTKPOL7merlKeQTb66sMPgwPVPFixiboP_viQRYPddPlqiYz63zIfT29PG7rJiac84DLYXvWG
+
+!procedure AdvancedAgentModeling($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AdvancedAgentModeling', $name, $tech)
+!endprocedure
+
+!procedure AdvancedAgentModelingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AdvancedAgentModelingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AdvancedAgentModelingGroup($id, $name='Advanced Agent Modeling', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AdvancedAgentModelingLg>', $name, $tech)
+!endprocedure

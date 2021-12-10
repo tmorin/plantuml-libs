@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AppEngine
+
+sprite $AppEngineXs [10x10/16z] Oq05Z70M6up1pCmCPO0mM8Q9cO6TcOqLn6S7GgWqK1Gx
+
+sprite $AppEngineSm [12x12/16z] VOgr0K0n509v797z5_ukNQv1jQJ_rlai1ZzjYSRfMaSefDVLX-ddH27qOAm5Em
+
+sprite $AppEngineMd [16x16/16z] dOt50S1G3483BytVV-AwNohSy7Y9kbBVEAaJ4nDETAwmbnsGmXDH5OI28cjQJJCoqUqR4Asrenz6DheSMl470m
+
+sprite $AppEngineLg [20x20/16z] hT253GD134JHyNp3zTzmI6Yj8FIM6VInq87MePgZZxGsyxIsV3MzEc6NKeHHOAvdfgTkuMVq1DbTage4iiqbiWgz64tI4-iGAokDzsLiO7-0rvN_wmu
+
+!procedure AppEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AppEngine', $name, $tech)
+!endprocedure
+
+!procedure AppEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AppEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AppEngineGroup($id, $name='App Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AppEngineLg>', $name, $tech)
+!endprocedure

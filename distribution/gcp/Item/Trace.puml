@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Trace
+
+sprite $TraceXs [10x10/16z] Oq00DZOs31O2CC80I9QD0mYWQZ01GfOLf9OL
+
+sprite $TraceSm [12x12/16z] NSgr0G1020D07FPV-5sv1adW9QgqTpKxEz5PKx_n3bk_YQvrSOECnReHwEutI0DK
+
+sprite $TraceMd [16x16/16z] Oy00Z420p6LZOsF5msTW0W86mW2X7mmu800BdnKCs260I3DPMDWW0Eeak7aOV7G
+
+sprite $TraceLg [20x20/16z] Oo0Qi840cM9C8C107c141o0xe8032jY85wCSiB2mmCnbXOaXsu5FZ9ML5Q4N6m
+
+!procedure Trace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Trace', $name, $tech)
+!endprocedure
+
+!procedure TraceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TraceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TraceGroup($id, $name='Trace', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TraceLg>', $name, $tech)
+!endprocedure

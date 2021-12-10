@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Transfer
+
+sprite $TransferXs [10x10/16z] Oy0AM820WmF4ue00g3W7ka8EDXW30g1Yg
+
+sprite $TransferSm [12x12/16z] Oy0FsDd052i71301sImG9Zj23HCMZHnmGHQeNaOWcn7AXiYmOj48
+
+sprite $TransferMd [16x16/16z] ZSp50K0X201G6lPV-7VO-Yuqi0hvpoxXUDVnaMQDTFhtotyrYgoq2BlGDIp_orVpTr0-X9uT
+
+sprite $TransferLg [20x20/16z] hSt50G0n30D11RtzDtpC39cVKIg4f4aS04uzpqBUzwRDR3qWQGEq4tKhPcqusFOI2-gmebvaPXf1FinzhmO
+
+!procedure Transfer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Transfer', $name, $tech)
+!endprocedure
+
+!procedure TransferCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TransferLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TransferGroup($id, $name='Transfer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TransferLg>', $name, $tech)
+!endprocedure

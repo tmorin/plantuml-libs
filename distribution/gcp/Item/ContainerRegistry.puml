@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ContainerRegistry
+
+sprite $ContainerRegistryXs [10x10/16z] RSA72S0m00F1mmBX_HTEeQJw_ooBMrk6Og8gEVLyEWbW411tEm
+
+sprite $ContainerRegistrySm [12x12/16z] TSot0SC03CH0aC-q_yBELXQggy1jBd0G844eCJafg6b8fmGCFvk4z7NMK9ClXwoIR5vs-MzjWBvcrnC
+
+sprite $ContainerRegistryMd [16x16/16z] ZOi54e1030DxjSl_NypYC0RrRIRs8yPhZmY6SmK3P4P4dahph9vYHH_ihHVpiPlnkKN4mRXRrgcwMF1KRbpuQEl0mmxCUpYyhOCHFcC1
+
+sprite $ContainerRegistryLg [20x20/16z] {
+fP350GKX30L3Ngp_XdTnEtr1XmbEVoPW8azL7ACnhqu0KQBKHh0ICREeuCMPD1VHWzEHXTBfKYdCovMTaHM0vLHXda5SbpCFhySiX-mqHyAPJCVBsfc5mDM1
+rtk1TF_1mhJcqHVf1G
+}
+
+!procedure ContainerRegistry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ContainerRegistry', $name, $tech)
+!endprocedure
+
+!procedure ContainerRegistryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ContainerRegistryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ContainerRegistryGroup($id, $name='Container Registry', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ContainerRegistryLg>', $name, $tech)
+!endprocedure

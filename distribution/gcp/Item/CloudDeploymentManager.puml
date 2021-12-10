@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudDeploymentManager
+
+sprite $CloudDeploymentManagerXs [10x10/16z] Oy06s9WWW9M13SHbPc00izYPWII81GQeB2XW1N4PEHXW4gmW0G
+
+sprite $CloudDeploymentManagerSm [12x12/16z] TSh50S0W50FGI97z5yPpx4E-ua-fGHIbgPUxlDpLK3cvpugoa_segscxDYyuMYSUBZjE
+
+sprite $CloudDeploymentManagerMd [16x16/16z] XOs50G0n30A9i__2xoxjLME0Bdx10CauoJd6WLvYypCMWwdb7ejfwbnTOp50b_4rra-zCxuo6yrKrVm8DiZ2XSZCm1SZ
+
+sprite $CloudDeploymentManagerLg [20x20/16z] fSs53SCm54NH1_wm_yHLc4KzuHi3_f8tOsgXiuof3QmqtQxD7fTcGbRfqefJJkrDPYG1AFTc0CH4MnEnkUnxQ-6pfTrCZPwegZp3ZjsDcsaShobcngSV
+
+!procedure CloudDeploymentManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudDeploymentManager', $name, $tech)
+!endprocedure
+
+!procedure CloudDeploymentManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudDeploymentManagerLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudDeploymentManagerGroup($id, $name='Cloud Deployment Manager', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudDeploymentManagerLg>', $name, $tech)
+!endprocedure

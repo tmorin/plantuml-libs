@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudEkm
+
+sprite $CloudEkmXs [10x10/16z] Oq003YXW0xDOOIm680Io84eGIc6w40muYndEOW3h0m
+
+sprite $CloudEkmSm [12x12/16z] JSgr0G113CJ0ENR_3J-35Ir8PioNOiLBlJBUN5VqSMOiMlTmQIyfZfIbd7K5x
+
+sprite $CloudEkmMd [16x16/16z] VSlL0K0n34BHMoFil_1pbvwl2F2IhgRLLySUjxq2ElSWtDXsIJLBcWUno4kEpTRDN1awkzt_9ptsikql8m
+
+sprite $CloudEkmLg [20x20/16z] ZSo50O0m30J0Z__-2-EkFQZ5q8mN-HshkCOA0pl7niFXvrYDcywn1QUjS5G5AECKqsNgMT9nvSI5QDnYla_xx8N5FVROQualFG
+
+!procedure CloudEkm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudEkm', $name, $tech)
+!endprocedure
+
+!procedure CloudEkmCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudEkmLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudEkmGroup($id, $name='Cloud Ekm', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudEkmLg>', $name, $tech)
+!endprocedure

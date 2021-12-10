@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AutomlVideoIntelligence
+
+sprite $AutomlVideoIntelligenceXs [10x10/16z] Oy0EE8204SA0YZ1nC30pWrdCR0nCZ6mCC0a6HZYBWnscbmFPC
+
+sprite $AutomlVideoIntelligenceSm [12x12/16z] TOo30G01200lj__2R-Co-ITxPisx8iBMjDcHTZ45OiuH4PyZA69-MxKsPchYU3eZt1W1
+
+sprite $AutomlVideoIntelligenceMd [16x16/16z] PSp50S1024JHl-Zqtt3Syouu_FoPDkEiUw-BNKYvEiUIyv0IftFi3Warrhh1nnZ9M5ECjJQSLl4GlqV1BdjrZxNpipRVmDyC
+
+sprite $AutomlVideoIntelligenceLg [20x20/16z] {
+fSvN0eCW40JGsRxtFt76hl2Jn6S5jk4jxvtWrFDUTcUiS506O52FEaTOGWrc00beBQsgOibr9iWO1cw9S4_sqiL7ZN4coBasmmeFQst5az_3j5QFuVlWzxbt
+-CK7
+}
+
+!procedure AutomlVideoIntelligence($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlVideoIntelligence', $name, $tech)
+!endprocedure
+
+!procedure AutomlVideoIntelligenceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlVideoIntelligenceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlVideoIntelligenceGroup($id, $name='Automl Video Intelligence', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlVideoIntelligenceLg>', $name, $tech)
+!endprocedure

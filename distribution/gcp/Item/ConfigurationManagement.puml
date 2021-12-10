@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/ConfigurationManagement
+
+sprite $ConfigurationManagementXs [10x10/16z] Oy0Dc9d150UGXZ20B6QSB3OEc11K8m8
+
+sprite $ConfigurationManagementSm [12x12/16z] Oo00c1YX34Pc86O2iPWvE9YPcO5y8E00iraOqDbiO3OJH2kO3MO1fO5ig95iG0Cnx0C
+
+sprite $ConfigurationManagementMd [16x16/16z] bOe54e1030CtbpBq_n_6tTcJDi8FobwwQDqjaAP6PDhkX0QPEMW7VDBrf3se82OzfTqTT670M8Dc8X8g2oR40oq
+
+sprite $ConfigurationManagementLg [20x20/16z] hSYr0SDG34319upsNpZiJvNfokCsAh0oCGPk2WZQ9ghCJ03jyxwlTjNEuU0zsjb_d6Wd_pEq7Ut8_x59CV9xsawgmDx788nJNW
+
+!procedure ConfigurationManagement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ConfigurationManagement', $name, $tech)
+!endprocedure
+
+!procedure ConfigurationManagementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ConfigurationManagementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ConfigurationManagementGroup($id, $name='Configuration Management', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ConfigurationManagementLg>', $name, $tech)
+!endprocedure

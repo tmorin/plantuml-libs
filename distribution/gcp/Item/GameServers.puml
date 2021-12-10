@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/GameServers
+
+sprite $GameServersXs [10x10/16z] Oy05EE4CJWYJXOM1an5880Cc9WPs1YQm60TG1oipN0R4OeS01W
+
+sprite $GameServersSm [12x12/16z] TKi30W0125jk_t_msSWD-8tE12MJqrtGO3ZMMuncoyrkKBhvy38JjNbtRhttd6vTOxvr3um
+
+sprite $GameServersMd [16x16/16z] XSS5WWD0349HeYptl_1Iz_QD91y_nUmEY3KOEpCX-D-6ku0PpIIkJOhiQvjWnvRCBHkyAXe8_t_fvi8AnZvrutYlhOHGklR5gNNZVl8F
+
+sprite $GameServersLg [20x20/16z] {
+fOu54WGn20G7X_z_-CYjIygs8rCu-4P5moZpQ7BnOH5RPF_LhCBiuilwirYpMcs6ZxHPV3bWf5eEC2C6B47MwcjNRg11QDLzxe7ilZJm8eUl0bgColRDQ_r4
+h3l7cSdEFm
+}
+
+!procedure GameServers($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/GameServers', $name, $tech)
+!endprocedure
+
+!procedure GameServersCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$GameServersLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure GameServersGroup($id, $name='Game Servers', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$GameServersLg>', $name, $tech)
+!endprocedure

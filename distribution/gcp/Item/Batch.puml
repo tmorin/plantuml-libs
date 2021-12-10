@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Batch
+
+sprite $BatchXs [10x10/16z] Oo08E1WuE40q8pkG0MAo0264nS36mCW8P42LiU0m0G
+
+sprite $BatchSm [12x12/16z] ZSRL0S1G20F0UmRilt3rkt98ugVinxZCrbK5XAOEYzQcMITq8UxA7BcYt9ftEm
+
+sprite $BatchMd [16x16/16z] dOsr0GH154BVT_fl-7Gz73AS5TY3Z_UWEYXjI8gTfZFwmFyqDYhPXukySOOof7EW6VZGtEyxHvS_Z6My0G
+
+sprite $BatchLg [20x20/16z] jOwr5G1H20Jdezj_nUSUtpmYO8K_6TnGqqtAhbKpDD3CE5T66Qw5VLM3TaowbXdajL8lkuXbkEsMfI-_Tb-n1DHWt3EMfRUDcbVZsLc4-3BuXGa
+
+!procedure Batch($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Batch', $name, $tech)
+!endprocedure
+
+!procedure BatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BatchLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BatchGroup($id, $name='Batch', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BatchLg>', $name, $tech)
+!endprocedure

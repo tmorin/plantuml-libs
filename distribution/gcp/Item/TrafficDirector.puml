@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/TrafficDirector
+
+sprite $TrafficDirectorXs [10x10/16z] Oq01R1WiPY2B6IB20M9103ABZHagZz3Dn8PYAW
+
+sprite $TrafficDirectorSm [12x12/16z] NSp50S1G20FGuEo_SFlTtWaDNhHBTcmEwKNohZrYreKxbFUzYyYgCSyKT-hZ1m
+
+sprite $TrafficDirectorMd [16x16/16z] ZOp70O0m54BvO33xBsmln9FlHiKlcaPjVt93VC9Jwv9zxaeDiJir81jM3V-coFXtbSJKmBFGjEkat30GCba1
+
+sprite $TrafficDirectorLg [20x20/16z] bSe73eKX20DWB52v_uLTMJLl_dNofVOmV2Ld_6MDQUuo-uj5CLzwdLLO5cA6LhkR3jFqPNI_BBOjX5JzM7ENBewjr_5YLm9YKYLUCDEUPG8
+
+!procedure TrafficDirector($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/TrafficDirector', $name, $tech)
+!endprocedure
+
+!procedure TrafficDirectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$TrafficDirectorLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure TrafficDirectorGroup($id, $name='Traffic Director', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$TrafficDirectorLg>', $name, $tech)
+!endprocedure

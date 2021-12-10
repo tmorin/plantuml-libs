@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/AutomlTables
+
+sprite $AutomlTablesXs [10x10/16z] Oy0EE8204SA0YZ016Mmi81Op6mCp44Cbc1aOEU2ws61wEP0D0m
+
+sprite $AutomlTablesSm [12x12/16z] TOo50S0m2C22y__5wzo3A_zapwnvLqJOcZRusfLsr19Ypi56FaTqpjVL3MjbfWR7qndkJ
+
+sprite $AutomlTablesMd [16x16/16z] ZSd50GGn4C0m3oHn_mqVCww-OeFq9BXOdapEMiSH5rey60hCVknAPi8Cm0LLrKcuW0IoYcGvkIfevP4sPsCTAHUU5HTP9tom1m
+
+sprite $AutomlTablesLg [20x20/16z] {
+fS-r0KGn30DGXMJjl_21uMDpyBh4Z7zDfRR_wVv7YSkXT4cuiAXP3SSqUWTEl7WaMe-EHO_WPNZQU27GihKX_XfzXGuNd_0qmuMaVh-H-pxcJikhpFrlAE4R
+Jm
+}
+
+!procedure AutomlTables($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlTables', $name, $tech)
+!endprocedure
+
+!procedure AutomlTablesCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlTablesLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlTablesGroup($id, $name='Automl Tables', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlTablesLg>', $name, $tech)
+!endprocedure

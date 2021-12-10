@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/CloudInterconnect
+
+sprite $CloudInterconnectXs [10x10/16z] TKc35G102Csl_HS-6-4JFaD4MfZ5Z3VbMfJRsW8YSrLWQM2P2
+
+sprite $CloudInterconnectSm [12x12/16z] Oy03MDb004a0mcPc1efYiDave6mE9bng4EQWcuy
+
+sprite $CloudInterconnectMd [16x16/16z] ZOs50G0X201fs7_Xxx3rb2vO0VMcY0qoo1xBp6P6Qp66Vt74qlp1SPsellzvDt_f1cfs
+
+sprite $CloudInterconnectLg [20x20/16z] fT053i0m30F0heaj___5ApUYuGaBmVGVft2NEyoxmDPTDZDdyVhEtS9TEPKx2U5EuiyQnL5OiUuYuyqECAKNJW
+
+!procedure CloudInterconnect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudInterconnect', $name, $tech)
+!endprocedure
+
+!procedure CloudInterconnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudInterconnectLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudInterconnectGroup($id, $name='Cloud Interconnect', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudInterconnectLg>', $name, $tech)
+!endprocedure

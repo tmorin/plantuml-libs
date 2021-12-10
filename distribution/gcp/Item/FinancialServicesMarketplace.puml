@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/FinancialServicesMarketplace
+
+sprite $FinancialServicesMarketplaceXs [10x10/16z] Oq0573068pkKoSR4mi02OZ2pihAniQ4gPmRgOCR1GkW
+
+sprite $FinancialServicesMarketplaceSm [12x12/16z] XSZL0S0m409GIEue-ozSTylxGN17dNgdboungdDv5xXBXLDUEyn69rb6m
+
+sprite $FinancialServicesMarketplaceMd [16x16/16z] ZOp50G0n20HnwB_XSuadmuirw83vA-Zfg-20-Kz9s4ID_PN8JkBWtNw1cZSVVjppgp877FV_jFHNUpKx
+
+sprite $FinancialServicesMarketplaceLg [20x20/16z] jS-r0GK0309H8X3sN_YxkxxokiExP5qbT11d8Z0mpX43dHKnsOORUoc9cMrxi5DSqmPsijPw0m-KrcRZq0YXdJNmtvfQJPFJVl1nPGa
+
+!procedure FinancialServicesMarketplace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/FinancialServicesMarketplace', $name, $tech)
+!endprocedure
+
+!procedure FinancialServicesMarketplaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FinancialServicesMarketplaceLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FinancialServicesMarketplaceGroup($id, $name='Financial Services Marketplace', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$FinancialServicesMarketplaceLg>', $name, $tech)
+!endprocedure

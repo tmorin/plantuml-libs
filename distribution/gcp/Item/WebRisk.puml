@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/WebRisk
+
+sprite $WebRiskXs [10x10/16z] Oy06E8203GXO6JY0F6OW1h7O61au624i88QmW4oWD4GT8qWTN2ypmZW
+
+sprite $WebRiskSm [12x12/16z] TSR50S0W542nzxtxBrnt8ASmehcA3PJR8PHI9CtWU4BP_OdhOPYUnqtOdojVfOAjTCFR0W
+
+sprite $WebRiskMd [16x16/16z] bSV50GGm24JHmUc_uRYTLdu47lwDSkIpRhaD0o0L1i3BxWenlcOWv7Nx7rkVZ-4kZTSm9cnxJtlM31_PIF6j2W
+
+sprite $WebRiskLg [20x20/16z] fS-53GGn34JHCSsb_ufFXcLnllW5ZQtKEvlIriGfqcZtsWAPco0xpOAvM-z6vgPbShU0Wl8qmfVYOLvdrN0pa8hN6v1WqjrI1RZinygxjC-yXft-
+
+!procedure WebRisk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/WebRisk', $name, $tech)
+!endprocedure
+
+!procedure WebRiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$WebRiskLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure WebRiskGroup($id, $name='Web Risk', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$WebRiskLg>', $name, $tech)
+!endprocedure

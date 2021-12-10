@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/MigrateForComputeEngine
+
+sprite $MigrateForComputeEngineXs [10x10/16z] LOk30G1030DJT_-5txmQmKTs7yrWD6FqSSmSvzF9-j4XL4q1DBLVq34CAW
+
+sprite $MigrateForComputeEngineSm [12x12/16z] NOo50GD13CDyu5ZxBzm-ayAeBoND8vtCKNlHlNht8xVtlCK2EMtlWqeBXAo_Q39qLjQ7IKFDEdPA9qq7Vm
+
+sprite $MigrateForComputeEngineMd [16x16/16z] TOxL0K0X30E3fRV_ma_GBmwjHpVIjpPE2h5D9dMO6NLQo_eeNhQj3ieGQYE_icnOzTrs7HRJx_v2CQIF7a_OCdsLRaSeEFg2-cqbvIMUpxpn0W
+
+sprite $MigrateForComputeEngineLg [20x20/16z] {
+bSy50W8n3031UFR_BoQbkBFdSzRAdx5MvujnxIHgsEaqEPt1ZL6dqx7eRX-JKpgMG4YYcwelLdHkj1kxV1T2p4p6oeSSweZJMAyJngJfN9tU7PaWY2Hy6ztg
+zEry0op0nMNMKyLKyb2cofSE
+}
+
+!procedure MigrateForComputeEngine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/MigrateForComputeEngine', $name, $tech)
+!endprocedure
+
+!procedure MigrateForComputeEngineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$MigrateForComputeEngineLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure MigrateForComputeEngineGroup($id, $name='Migrate For Compute Engine', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MigrateForComputeEngineLg>', $name, $tech)
+!endprocedure

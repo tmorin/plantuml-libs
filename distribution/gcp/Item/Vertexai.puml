@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Vertexai
+
+sprite $VertexaiXs [10x10/16z] Oy09c64CDdOuYmEDnGoMPOCmMLYOi9i4
+
+sprite $VertexaiSm [12x12/16z] TOe74iG0209NOPZx_uSllITh5_X6S_VSkw3upNirqQgsIP75BzABHynxpwPkGfgPaiEEk3C
+
+sprite $VertexaiMd [16x16/16z] ZSh5WGH030Cm1GRwR_XmcVK9s3vGW7Mw4odXjBLzoikqh5CUmZ80eRGGD_tj44lJ944LK3E0g33qT5BPit6oX2lbiMy
+
+sprite $VertexaiLg [20x20/16z] {
+bOw50GH120Cd2N3NVyFlxZ-hUFW7lVY5CtFZ4q14SSP7Nvdr9izeM7BZ0qDOcziPmSDQDtaYshl1Dtb-p1E43AMBr4IdkMRcd1VlB_0q5n8eQimDZglFhWiB
+pIFTva-s
+}
+
+!procedure Vertexai($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Vertexai', $name, $tech)
+!endprocedure
+
+!procedure VertexaiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$VertexaiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure VertexaiGroup($id, $name='Vertexai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$VertexaiLg>', $name, $tech)
+!endprocedure

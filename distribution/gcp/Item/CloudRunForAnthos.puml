@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/CloudRunForAnthos
+
+sprite $CloudRunForAnthosXs [10x10/16z] Oy05E32P7EnG1YCx0mTOa9aPACZ121HX0hAPsK62JCpeHW4
+
+sprite $CloudRunForAnthosSm [12x12/16z] VOl50ODG04CZNxB_mYtky4vHV58FkhTT7Wg7VP49cZM5DkAMIKiSBl6YwyYWPUBE7m
+
+sprite $CloudRunForAnthosMd [16x16/16z] dSYt0GC140913ixGVyFIUvF-PhFucFLYZ5yUg1_C3FXXXuTziMIiPnSbWA1dPuHKrKxdQf4GIBPzc69jSHjIuDbRx_u
+
+sprite $CloudRunForAnthosLg [20x20/16z] {
+hSf50WCn04BH7qW6xd_XkdTLUJk4lv1uq_1g9k95SNcsBSZaaNfide_nIkRQk1j9eBFYGjRO68FaUlGHQKCxBXsoPPXDoz6m19OFqixhJvRN1KUIR5vOWs_i
+0G
+}
+
+!procedure CloudRunForAnthos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/CloudRunForAnthos', $name, $tech)
+!endprocedure
+
+!procedure CloudRunForAnthosCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CloudRunForAnthosLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CloudRunForAnthosGroup($id, $name='Cloud Run For Anthos', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$CloudRunForAnthosLg>', $name, $tech)
+!endprocedure

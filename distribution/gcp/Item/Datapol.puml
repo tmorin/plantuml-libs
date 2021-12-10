@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Datapol
+
+sprite $DatapolXs [10x10/16z] PKk50G101DJiF_5tQYxW3kRMuv9Wfdff_QasiDGU75Tkd5GxUxNoM2-iD14K
+
+sprite $DatapolSm [12x12/16z] NOk50S1020D3Zih-2rVVSI9Qmgv30Vi1bBiCARUcXZfao1DWmQNj_rnLINE0YohY7pS
+
+sprite $DatapolMd [16x16/16z] RKu50W0n21h2ulyVliBhsIrbHW3iCYTf6qSQ9Ele9Edngm_tsv53ShlhSmnsrpB7eAzTR-0qp-qsK98e0_64yKXwuMizyTtum-cRLW
+
+sprite $DatapolLg [20x20/16z] bO_L0S0W34JXfCt-2zTTuVt4vL8L9B7R2N30jaPxp2b2t1lpLD_jX1SVUww9XwDQx6YsPG2EopZIH71Yxnl1dZg9I3jjf1juqok9LxrUzEOFlHd0QB7OEpq
+
+!procedure Datapol($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Datapol', $name, $tech)
+!endprocedure
+
+!procedure DatapolCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DatapolLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DatapolGroup($id, $name='Datapol', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DatapolLg>', $name, $tech)
+!endprocedure

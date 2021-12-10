@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AutomlNaturalLanguage
+
+sprite $AutomlNaturalLanguageXs [10x10/16z] Oy0EE800oe8BCR72XK0iC0V4uc07ivYPcJdWcXcH3GC
+
+sprite $AutomlNaturalLanguageSm [12x12/16z] VOjH0W0W14C1tF_40R-zAjW67opPLYEXwKFWyCYhsrFtiP7iAHD7-AsJtI4bsnyF
+
+sprite $AutomlNaturalLanguageMd [16x16/16z] dSe55i0m20FGO8_S_yHRlNqs-LKW-8CLXZXh8R5B6inib5h68WA8eg02P9OBHKcgAfI9eUH96QNUWZ5APuL1ed2yS04
+
+sprite $AutomlNaturalLanguageLg [20x20/16z] fSkt0S103810Fadilx1pRdqry5lhcm8tTybjk0jkElX8vQDftVPNbfnQdbtbxBIn2Q0ie6lbS7QQV0pbrZRQkHGFS7DN-6i6
+
+!procedure AutomlNaturalLanguage($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlNaturalLanguage', $name, $tech)
+!endprocedure
+
+!procedure AutomlNaturalLanguageCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlNaturalLanguageLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlNaturalLanguageGroup($id, $name='Automl Natural Language', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlNaturalLanguageLg>', $name, $tech)
+!endprocedure

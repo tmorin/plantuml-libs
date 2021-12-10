@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/AutomlVision
+
+sprite $AutomlVisionXs [10x10/16z] Oy0EE8204SA0YZ3160pCR0niR40P69yHpk9WW-dbG3OC
+
+sprite $AutomlVisionSm [12x12/16z] TOo30G01200lj__2R-Co-ITxPisx8iBMjDcHTd27c7F8z2MYF5UjrrvD74zdk3C2
+
+sprite $AutomlVisionMd [16x16/16z] ZSx50GH130F17eEi_1C-Pjnw6iK6uPF5nVX4S59s7t5X9zorpSMztLA25k219GcM1mYWJjV6WhjwErHmqdDqR_la7YFoX0_s
+
+sprite $AutomlVisionLg [20x20/16z] fSxL0S0W30JGGtFxBumxFvLN1MBuox9HSu_tdYUzAz1faZZ8LgU7UKpbk9NsIVaWCVHpIxNIaWkafhQEeB5JfE30Eyok8sWfjk7PsRbdsE2D2
+
+!procedure AutomlVision($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/AutomlVision', $name, $tech)
+!endprocedure
+
+!procedure AutomlVisionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AutomlVisionLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AutomlVisionGroup($id, $name='Automl Vision', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AutomlVisionLg>', $name, $tech)
+!endprocedure

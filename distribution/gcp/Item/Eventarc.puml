@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Eventarc
+
+sprite $EventarcXs [10x10/16z] LKk30G102BpS_Wk_cJlW2qkPX_JcTS3RzBwpVssu6y3GzlWoH1_I1icwUd0V5G
+
+sprite $EventarcSm [12x12/16z] NOo54S103CFqTc3_ZNi-A2cC_94E17k0OoKNoMLW27k0MCz2WO6P0QMVdFHpjIJiymSdDwrUy-42
+
+sprite $EventarcMd [16x16/16z] XKu30WG12BpS_rzyQQqyMFo-0u3SpF8eI4Z5nnuCUqpK40qnjvU9qM9nj2LKrT86ombZuhaJpkRvG4CahWNBz-DCF3_0FFyPYDsDyhZ47m
+
+sprite $EventarcLg [20x20/16z] {
+bOy54aGn24ERf3_b_YVUgS7OMXKUtlvSJyHGgPGykjWvHIocXkqnVt8pyKQ9XraNzHH7koWbQtzsf4Ve87C9c8oNFQjHJjOlmn9MPiudj56BqsfL17rdkqWI
+psoisN0OBfDm_31d33yEQugrmFPflG
+}
+
+!procedure Eventarc($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Eventarc', $name, $tech)
+!endprocedure
+
+!procedure EventarcCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EventarcLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure EventarcGroup($id, $name='Eventarc', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EventarcLg>', $name, $tech)
+!endprocedure

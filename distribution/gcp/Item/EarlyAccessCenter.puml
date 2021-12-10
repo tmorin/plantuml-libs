@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/EarlyAccessCenter
+
+sprite $EarlyAccessCenterXs [10x10/16z] Oy01sA4q1uXWX30vEDWX3110PR53090DruS
+
+sprite $EarlyAccessCenterSm [12x12/16z] VSR50SC0302nCtl_XTim9tg9BtLECXAo4sNI8oRI8plSdP6Dq0BpHRCfJlu
+
+sprite $EarlyAccessCenterMd [16x16/16z] ZSp50GD130J1Nd7-2Tl7JFKI3j_OeIyMQeTPWBiYkbnK9rdK89Ri6Z7nGwzpdpgShqeFlRCL-vR6sHy
+
+sprite $EarlyAccessCenterLg [20x20/16z] hOv50W0X30EHIlx_uSKTRZkNUXFp0y9dJsajRSkyzWmjWvs_8R9-L6JK33mgVlJGu4jFhhrXHYhU45mMNK0sImjelWTyjeoShJS1
+
+!procedure EarlyAccessCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/EarlyAccessCenter', $name, $tech)
+!endprocedure
+
+!procedure EarlyAccessCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EarlyAccessCenterLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure EarlyAccessCenterGroup($id, $name='Early Access Center', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$EarlyAccessCenterLg>', $name, $tech)
+!endprocedure

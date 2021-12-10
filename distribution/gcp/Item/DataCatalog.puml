@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DataCatalog
+
+sprite $DataCatalogXs [10x10/16z] RSE30GH100J1Ma_-2RznQhYcjjGAqL842mI22ItKEM1-HX9RxW
+
+sprite $DataCatalogSm [12x12/16z] VKkr0S1024pm_HV6QH_dv7i56Do1Q6fMTuu_6wNkfRKdtiXPgXmLg3TgqvdARdhdHG
+
+sprite $DataCatalogMd [16x16/16z] ZOc50K9134DJp_uJSoqEtzv931Snl161aIr3aD9voQmjnWIyEbVsFnDrTZomXzCQSNj4O_NgzCqCpH4FFAcL4c-IfE0ADm
+
+sprite $DataCatalogLg [20x20/16z] hSx50GGX40J07gNpJ_W4vtMoMoyOnnsKVluLPgIAAZgIKcFEKMmqr3e1agXOQdy8067CsCHilOv9Yimxf4NIKBNvDMN9-38sPqkYIS4I19I6dV4D9tyH_EO9
+
+!procedure DataCatalog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataCatalog', $name, $tech)
+!endprocedure
+
+!procedure DataCatalogCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataCatalogLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataCatalogGroup($id, $name='Data Catalog', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataCatalogLg>', $name, $tech)
+!endprocedure

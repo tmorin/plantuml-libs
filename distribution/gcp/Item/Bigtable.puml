@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/Bigtable
+
+sprite $BigtableXs [10x10/16z] LKk30G102Epo_Wk_cJlG7xmF8H_RsoM2WOZComNfwtA4qBWwpyVpHWK
+
+sprite $BigtableSm [12x12/16z] PSp50S0m30D0KHBllt2PQxoNy2lUbDkXX5OsUctQgodRsGqAfTDK3qwZwOpgi3hEL0kVcW4
+
+sprite $BigtableMd [16x16/16z] ZSVNGKLH5491O1tsjV-6rPTpcB_HboPNyKBjkQiICOSn3cR7sYC1T3hsG7lrwaVRrRssrEHqJIR4XyTOuAA30gpgZ57GjT5pVm
+
+sprite $BigtableLg [20x20/16z] {
+bSZ7OKDH5491uDp7T_yDEobdQPQZJqrq3QrrjGMvIoVJ94J3OMW4bWbZ_OjC3971sY7YNqvNamvTkhZbVBbSN5ZK2JcTQxC9TBg4pSOUzXTC54IZ0qO07Uc4
+8h0kJNL7zCGF
+}
+
+!procedure Bigtable($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Bigtable', $name, $tech)
+!endprocedure
+
+!procedure BigtableCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$BigtableLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure BigtableGroup($id, $name='Bigtable', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$BigtableLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item gcp/Item/ManagedServiceForMicrosoftActiveDirectory
+
+sprite $ManagedServiceForMicrosoftActiveDirectoryXs [10x10/16z] Oy01s3WWD3Cpa0bdmKI1B3Psg1X4a174OWUhOm8Ae
+
+sprite $ManagedServiceForMicrosoftActiveDirectorySm [12x12/16z] VOl50G1120DnwB_XqtNBApPmaaKoI0RclsVYn-ll-V7cN03x4QJFk-V_3_p_eFzC-9yxtG
+
+sprite $ManagedServiceForMicrosoftActiveDirectoryMd [16x16/16z] ZKx50GGn448IGlyDdxikhn4Csn0zhovlYpK6Kbn0sq3MkkmoBEHokFsJpaV79DM5STbJFl9Jd_nqyIjlVdp80yMeyrV_E_O
+
+sprite $ManagedServiceForMicrosoftActiveDirectoryLg [20x20/16z] {
+bSs50GD124HHu5y6-gyuvwwp_jRiQ_98oWCsedvhY426YeLeuwtb2ec-giN5yDuMNEwsATawgCSycghfLmvCLXMzGOn_B5VnbeqrjK1lERurNPQeicrScMxx
+D7QRFm
+}
+
+!procedure ManagedServiceForMicrosoftActiveDirectory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/ManagedServiceForMicrosoftActiveDirectory', $name, $tech)
+!endprocedure
+
+!procedure ManagedServiceForMicrosoftActiveDirectoryCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ManagedServiceForMicrosoftActiveDirectoryLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure ManagedServiceForMicrosoftActiveDirectoryGroup($id, $name='Managed Service For Microsoft Active Directory', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$ManagedServiceForMicrosoftActiveDirectoryLg>', $name, $tech)
+!endprocedure

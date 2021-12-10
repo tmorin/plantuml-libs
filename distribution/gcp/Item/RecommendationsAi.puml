@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/RecommendationsAi
+
+sprite $RecommendationsAiXs [10x10/16z] LKg30G102BpS_Wk_6K_uIrevCbCN0Xf2HymggkfFkkVQ6aQkhRp8tQsjem8
+
+sprite $RecommendationsAiSm [12x12/16z] POk50SD030FrCku_SGsb96S6uG47cBiVAOo8Agn0zqJtP_PkHec2-CTxqsj1QIbCKWMhpGCHh3RDh7eMc_02
+
+sprite $RecommendationsAiMd [16x16/16z] TOs50GDH349fYUq_yKNEvNsD0Jxu3NlCnh8GYKqi7UVBZF_4n00x1i_ntkzc9g2tpfSpTlls8-fsmQuNdizxJ4h5-NHiYIAiRHyi
+
+sprite $RecommendationsAiLg [20x20/16z] bSw55O0m34NHMcJ_YObyt1-IdekMttN4jXvHdutTr9EnD_PbMEi5HdPAitcopREjjR3XXGbxPf9VS_kQHWEJqeI8XXjPtGd_ukRpfx55PkABD8u8y-wF9m
+
+!procedure RecommendationsAi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/RecommendationsAi', $name, $tech)
+!endprocedure
+
+!procedure RecommendationsAiCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$RecommendationsAiLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure RecommendationsAiGroup($id, $name='Recommendations Ai', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$RecommendationsAiLg>', $name, $tech)
+!endprocedure

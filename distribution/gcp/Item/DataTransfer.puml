@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/DataTransfer
+
+sprite $DataTransferXs [10x10/16z] Oy016DcW36O61YO8Wn58S310k6niR1mWENO6g207400f21SD
+
+sprite $DataTransferSm [12x12/16z] ZOg50G0n20CZRM7_YTzT3oV1JsItPMNVEAxsE78qzAtrz0VHFCgrRpLwYBeuDumh7G
+
+sprite $DataTransferMd [16x16/16z] dOhL0KKn3489F67_XUlsT-LK4WJl4EDG8UhtFTBwVMB9fa6DyWoiLSQlOZOj0wguDgjiH9TmumyG3JR_WCPjCW
+
+sprite $DataTransferLg [20x20/16z] jOs50GGW30DJx_uBl-2yww6r17-2n0Kx8YpclALAnBvrDO4rrOECCJZhKPFCzV52xHG59OEjq7AB33oRMuOM01yUsMXnI_8C7YOLdt04
+
+!procedure DataTransfer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/DataTransfer', $name, $tech)
+!endprocedure
+
+!procedure DataTransferCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DataTransferLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure DataTransferGroup($id, $name='Data Transfer', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DataTransferLg>', $name, $tech)
+!endprocedure

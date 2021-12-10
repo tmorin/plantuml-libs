@@ -1,0 +1,21 @@
+' definition of the Item gcp/Item/Administration
+
+sprite $AdministrationXs [10x10/16z] Oq00LbPsTYYB1SvYWhCOsDWvMO40f0x8OWDAWCKOs1YGM0XP10i
+
+sprite $AdministrationSm [12x12/16z] Oq06hAoixEpOs0mi32ZYxAmW017dO65XPMM1Y7E29S7YG3OJ2nixKU88DXi
+
+sprite $AdministrationMd [16x16/16z] XKm55a0X23COFEv_u1zsEvEL6K40HAJCkCw6oBGpWRcT7S6B8i1clqg0pNqAS9Yp7fumKz334sOFnZU7P_IFVVDiEvWN
+
+sprite $AdministrationLg [20x20/16z] hOo53S1054B9tGVI_GUkkzkBejWZHGrhCD5grrnxiUCXX9MNKpZs_mhsZDkrbqEiFVUijkgzQGieiEVzlNtWxL41
+
+!procedure Administration($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'gcp/Item/Administration', $name, $tech)
+!endprocedure
+
+!procedure AdministrationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AdministrationLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure AdministrationGroup($id, $name='Administration', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$AdministrationLg>', $name, $tech)
+!endprocedure
