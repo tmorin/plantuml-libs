@@ -26,7 +26,7 @@ include('homecloud-2/bootstrap')
 The package provides 4 modules.
 
 - [homecloud-2/Brand](../homecloud-2/Brand/README.md) with 17 items
-- [homecloud-2/Container](../homecloud-2/Container/README.md) with 7 items
+- [homecloud-2/Container](../homecloud-2/Container/README.md) with 6 items
 - [homecloud-2/Hardware](../homecloud-2/Hardware/README.md) with 6 items
 - [homecloud-2/Network](../homecloud-2/Network/README.md) with 4 items
 
