@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.3.0](https://github.com/tmorin/plantuml-libs/compare/v6.2.0...v6.3.0) (2021-12-11)
+
+
+### Features
+
+* **aws-20210730:** refresh the package ([f8bc746](https://github.com/tmorin/plantuml-libs/commit/f8bc7463cce91654c63b07c00572cebfaf088190))
+* **aws-q3-2021:** refresh the package ([8e11bf5](https://github.com/tmorin/plantuml-libs/commit/8e11bf53613487d23085a099b72727395354e360))
+* **azure-4:** refresh the package ([42b7e9a](https://github.com/tmorin/plantuml-libs/commit/42b7e9af20794f1ff56aab689a64fc0c7c8bf86a))
+* **c4model:** refresh the package ([1e1d35a](https://github.com/tmorin/plantuml-libs/commit/1e1d35a6b21de931e40040084b4269b4ad984bfc))
+* **c4nord:** refresh the package ([419ecf2](https://github.com/tmorin/plantuml-libs/commit/419ecf2e0c8eb31b2915b9cce435ba4bae3bea47))
+* **domainstorytelling:** refresh the package ([1a4efdd](https://github.com/tmorin/plantuml-libs/commit/1a4efdd4a058c23efb809b4afd39b605a8bb4b35))
+* **eip-1:** refresh the package ([0a6a3a9](https://github.com/tmorin/plantuml-libs/commit/0a6a3a9753aa602a35783fb04941164e3b774334))
+* **fontawesome-5:** refresh the package ([9b7dea3](https://github.com/tmorin/plantuml-libs/commit/9b7dea3cbafbdebe4f0179cf169e0e137cdd89b0))
+* **gcp:** refresh the package ([76dc3db](https://github.com/tmorin/plantuml-libs/commit/76dc3dba8f9372c4b8d343a83163d7d73c27ca45))
+* **homecloud-2:** refresh the package ([ab2b810](https://github.com/tmorin/plantuml-libs/commit/ab2b810e71c5f84e64706a8309e1f06d17bc00c8))
+* **material-4:** refresh the package ([fbdf325](https://github.com/tmorin/plantuml-libs/commit/fbdf3251c134b564c020375f1ef04cb6fd798ff8))
+* **simpleicons-5:** refresh the package ([508ef79](https://github.com/tmorin/plantuml-libs/commit/508ef794388058442cf4caf6d8ee02c8e9bf956a))
+
+
+### Bug Fixes
+
+* switch the color `none` to `transparent` because according to the context, sine PlantUML `1.2021.13`, the color `none` leads to NullPointerException in PlantUML ([169bf68](https://github.com/tmorin/plantuml-libs/commit/169bf685225ebf0dd7272f843226035c68cc3e6a))
+
 ## [6.2.0](https://github.com/tmorin/plantuml-libs/compare/v6.1.1...v6.2.0) (2021-12-06)
 
 
