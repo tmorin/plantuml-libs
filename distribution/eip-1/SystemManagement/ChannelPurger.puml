@@ -1,12 +1,15 @@
 ' definition of the Item eip-1/SystemManagement/ChannelPurger
 
-sprite $ChannelPurgerXs [15x10/16z] uq43J2W0AvUTXOKHcSlAmep4vMHbOKVYih2Y6iNEYDja1
+sprite $ChannelPurgerXs [15x10/16z] uqC3p2W0p6K30pWNn6HaXNCvG5mME9SPn6L6uR8WSJcOcM0c8m0c5m
 
-sprite $ChannelPurgerSm [18x12/16z] uy44JEW0bmWB5mS7EnkA6dOs5aPc515ETXP63XGH3g08cidOHDZGHTXPyBW77G
+sprite $ChannelPurgerSm [18x12/16z] uyC4pEW0bmWR6v1WPCGGOKSIOGUBe9Z31XI0Yy0KCRAXY702HT1ivs1bmUCUT
 
-sprite $ChannelPurgerMd [25x16/16z] fL0t0eGm3Bi3MmNu_tSfSvGfNgr-JM-RtCBZF2m16Xucglx_7XvDle_aeU_HuU7lmV0WEqjjwjhZmrsA3n29iRxL0m
+sprite $ChannelPurgerMd [25x16/16z] fT035e10403GDyfr_zlcMjluwoqOA12Im7-meEkwgmBeB1W_4EyA170EVw5pOEpuFS9PqPs0ddVq5uW7nWlO0po8IF1BMk
 
-sprite $ChannelPurgerLg [31x20/16z] lT6b5G0n403HjmoN_jizTe5r6Vlbj29SHRluoFGxLHzoCnDc0i0XqyyoPWnJPWHTCKpPp1x62UFBCULyMASSDoDDcPnldpAQcMuyHgla0W
+sprite $ChannelPurgerLg [31x20/16z] {
+jT654GCn40F0aG-3_NSRvXm4_ZMiDNlRXAhmH2pwa82lxG0uMDnLJpK0ZLakB05VzmJYazkLFUJLYKSm-xey7raINXmPi8HTvSZfenutXwMyT16MHvxtGxcA
+xW4
+}
 
 !procedure ChannelPurger($id, $name="", $tech="")
   IconElement($id, 'IconElement', 'eip-1/SystemManagement/ChannelPurger', $name, $tech)

@@ -9,7 +9,7 @@ import {getAbsoluteImagePath} from "../../../../workdir-generator/paths";
 import Fe from "fs-extra";
 import {promisify} from "util";
 
-const iconsVersion = "1.1";
+const iconsVersion = "1.2";
 const iconsUrl = `https://github.com/codeclou/enterprise-integration-pattern-shapes-for-gliffy/archive/refs/tags/${iconsVersion}.zip`
 
 export class Eip1Factory implements PackageFactory {
@@ -30,7 +30,19 @@ export class Eip1Factory implements PackageFactory {
             const absoluteImagePath = getAbsoluteImagePath(context, cwd, relativeImagePathToGlob);
             const imageSrcPath = P.relative(context.absoluteDstYamlDirPath, absoluteImagePath);
             const imageName = P.basename(relativeImagePathToGlob);
-            const parts = relativeImagePathToGlob.split(P.sep).pop().split("__");
+            const parts = relativeImagePathToGlob.split(P.sep)
+                .pop()
+                .replace("EIP_", "")
+                .split(/__|_/)
+                .reduce((all, current) => {
+                    if (all.length < 2) {
+                        all.push(current)
+                    } else {
+                        const last = all.pop()
+                        all.push(`${last}-${current}`)
+                    }
+                    return all
+                }, <Array<String>>[])
             const imageDstPath = [
                 [this.getUrn()],
                 ...parts.slice(0, -1).map(toCamelCase),

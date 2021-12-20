@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingChannels/MessageBus
+
+sprite $MessageBusXs [15x10/16z] Oy04RAXS5Z39nCI01R0omW585pCSCB82kHniCC38p40I
+
+sprite $MessageBusSm [18x12/16z] TSr50G0W3030EVGlZBlS1-RmPb09TFBjuTwXeXsM1fgaP3nFY3c5DZc4YRxt9e6Jzay4
+
+sprite $MessageBusMd [25x16/16z] dS-35S0m403GKxZ_lZLY_OVY31twUqEA0WhVDr5HGBu0SQKLInGWA62c63zZ3CSSuXtH7FE8zqYhOnQHuOual84OGeLcYAnNnEVl
+
+sprite $MessageBusLg [31x20/16z] ZSq53aGn20HGfaNlV-3rhvsGVJ4S-PFHP3ES9nkboMOQICBlpVNuN9DD-29olv1O5J2tKyG0ica32F9weq0sxSI4_8n9234X7P_I6TBIsH-7TExT9m
+
+!procedure MessageBus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/MessageBus', $name, $tech)
+!endprocedure
+
+!procedure MessageBusGroup($id, $name='Message Bus', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageBusLg>', $name, $tech)
+!endprocedure

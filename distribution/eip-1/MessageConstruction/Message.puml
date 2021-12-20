@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessageConstruction/Message
+
+sprite $MessageXs [15x10/16z] Oy06sDdHkNW14nEAQcPc55bEJdnwMLYmMGK
+
+sprite $MessageSm [18x12/16z] ZOo34G1140JNoZ_VjtbT7C8RwbV7dI-EEJH0MPUZOBbs6gx8usomYbuw64kd1m
+
+sprite $MessageMd [25x16/16z] bKwr0S0m35FGyF_1tRh4g2KWH8wvO68JKOy0qVHAq2TuRuibuhKiOi8b-kLAPB5qdLM0Iumn_li7
+
+sprite $MessageLg [31x20/16z] jT6r0S0W00LH_FZPVzzOZyEr3ySCvAeAkCfS89NPrjb4iAPIg5WNkxSAP-zZaK4lLsVNMTAnYrsGAwmGKlbNR9N_nMMwUm
+
+!procedure Message($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessageConstruction/Message', $name, $tech)
+!endprocedure
+
+!procedure MessageGroup($id, $name='Message', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageLg>', $name, $tech)
+!endprocedure

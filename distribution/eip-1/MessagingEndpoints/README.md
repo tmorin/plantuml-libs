@@ -8,7 +8,7 @@ The module contains 11 items.
 |:---:|---|
 | ![illustration of eip-1/MessagingEndpoints/Application](../../eip-1/MessagingEndpoints/Application.png) | [eip-1/MessagingEndpoints/Application](../../eip-1/MessagingEndpoints/Application.md) |
 | ![illustration of eip-1/MessagingEndpoints/CompetingConsumers](../../eip-1/MessagingEndpoints/CompetingConsumers.png) | [eip-1/MessagingEndpoints/CompetingConsumers](../../eip-1/MessagingEndpoints/CompetingConsumers.md) |
-| ![illustration of eip-1/MessagingEndpoints/DurableSubscriberLock](../../eip-1/MessagingEndpoints/DurableSubscriberLock.png) | [eip-1/MessagingEndpoints/DurableSubscriberLock](../../eip-1/MessagingEndpoints/DurableSubscriberLock.md) |
+| ![illustration of eip-1/MessagingEndpoints/DurableSubscriber](../../eip-1/MessagingEndpoints/DurableSubscriber.png) | [eip-1/MessagingEndpoints/DurableSubscriber](../../eip-1/MessagingEndpoints/DurableSubscriber.md) |
 | ![illustration of eip-1/MessagingEndpoints/Endpoint](../../eip-1/MessagingEndpoints/Endpoint.png) | [eip-1/MessagingEndpoints/Endpoint](../../eip-1/MessagingEndpoints/Endpoint.md) |
 | ![illustration of eip-1/MessagingEndpoints/EventDrivenConsumer](../../eip-1/MessagingEndpoints/EventDrivenConsumer.png) | [eip-1/MessagingEndpoints/EventDrivenConsumer](../../eip-1/MessagingEndpoints/EventDrivenConsumer.md) |
 | ![illustration of eip-1/MessagingEndpoints/MessageDispatcher](../../eip-1/MessagingEndpoints/MessageDispatcher.png) | [eip-1/MessagingEndpoints/MessageDispatcher](../../eip-1/MessagingEndpoints/MessageDispatcher.md) |

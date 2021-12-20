@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingChannels/PublishSubscribeChannel
+
+sprite $PublishSubscribeChannelXs [15x10/16z] Oo07C38oiZ5Zas210ZPMd7hPG82G1G
+
+sprite $PublishSubscribeChannelSm [18x12/16z] Ow0SiB4WyvX18epe8anGDWiOi08n6nkg6dJ0pCZ8o8OXpCf8fAC
+
+sprite $PublishSubscribeChannelMd [25x16/16z] OnWGmChAY2x420Qih4mO4Z06TWaaavXPa04R6ojs7KnOZC9f4pC8iB6nuF07CxL31W
+
+sprite $PublishSubscribeChannelLg [31x20/16z] rOs30K0n34IZk_qt_hQDryQIlw4CcSAqm4YRBBTsgIpBPNHlUzIWicGiJVkfsp7TfsoG1LpbTL8
+
+!procedure PublishSubscribeChannel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/PublishSubscribeChannel', $name, $tech)
+!endprocedure
+
+!procedure PublishSubscribeChannelGroup($id, $name='Publish Subscribe Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PublishSubscribeChannelLg>', $name, $tech)
+!endprocedure

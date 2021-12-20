@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageRouter
+
+sprite $MessageRouterXs [15x10/16z] uqC3p2W05vULZusD3SRbWycoS75nyO5PG0PElSnWQ_1R1
+
+sprite $MessageRouterSm [18x12/16z] uyC4pEW0lmWVcWWd6pkA22-IIYuWWAe7CGcPp084A28S1Do3
+
+sprite $MessageRouterMd [25x16/16z] hP3L0OGm343le77PVrlSvQkyUkF9LzeNwWLYpm8pBoDd0Lcvk-BMSJnBsGIY0vOqloDrf7oGRgICt5q1rBRaJWy
+
+sprite $MessageRouterLg [31x20/16z] lP750GCX44MJ5M3izz_jkhk_2umRTeYtI3utgswP2N0LwTpi9Amd9rsjhLvy_MCQchb28AqIu9fXTDgdJExCxVsc6GssR7RkeuibMxWS
+
+!procedure MessageRouter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageRouter', $name, $tech)
+!endprocedure
+
+!procedure MessageRouterGroup($id, $name='Message Router', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageRouterLg>', $name, $tech)
+!endprocedure

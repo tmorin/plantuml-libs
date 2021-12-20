@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingChannels/PointToPointChannel
+
+sprite $PointToPointChannelXs [15x10/16z] Ow0gO842DbRAp04
+
+sprite $PointToPointChannelSm [18x12/16z] Ow0FO8BIB730naPJ2m4
+
+sprite $PointToPointChannelMd [25x16/16z] OnZgW9KHpcHcGGPiRApOTJ0DPky
+
+sprite $PointToPointChannelLg [31x20/16z] Oo01Z09M5YGECmiwO6DZmQURUOI77W
+
+!procedure PointToPointChannel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingChannels/PointToPointChannel', $name, $tech)
+!endprocedure
+
+!procedure PointToPointChannelGroup($id, $name='Point To Point Channel', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PointToPointChannelLg>', $name, $tech)
+!endprocedure

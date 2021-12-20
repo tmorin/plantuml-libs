@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/MessageSingleRed
+
+sprite $MessageSingleRedXs [15x10/16z] Oy0As3XHkAn0BXx0piMAmcTXPA0G
+
+sprite $MessageSingleRedSm [18x12/16z] Oy0DED45E9WPqONOC7InSd6peeemSNEXYJ0mip0oq1O
+
+sprite $MessageSingleRedMd [25x16/16z] rSat0G0m30CmEply2HT0vrkzmWiIIwww3bN36h6LcUlewar4hSFCyAS1
+
+sprite $MessageSingleRedLg [31x20/16z] xSat0S0m30J0Lo_y0GU1qkpHjnus2h6xTf6uwHJ57S4jVchDyhcZf1epJS-R9bN5lUC2
+
+!procedure MessageSingleRed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/MessageSingleRed', $name, $tech)
+!endprocedure
+
+!procedure MessageSingleRedGroup($id, $name='Message Single Red', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$MessageSingleRedLg>', $name, $tech)
+!endprocedure

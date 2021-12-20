@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingEndpoints/DurableSubscriber
+
+sprite $DurableSubscriberXs [15x10/16z] Oo0Ui44e5aP6HZO69XP629SLJ38nWhaiBAoeUj2uR210X5K
+
+sprite $DurableSubscriberSm [18x12/16z] bOY50S0m3CFiDlZ_mMFcAMZXDsxRPBKtEYNjXm3DDwOdC_eZ8eeZ5uQarPF5Tre
+
+sprite $DurableSubscriberMd [25x16/16z] jScr0SC04C10FIVx3sncgkmh9LwXogNqj7C3_ba_5YQzT04fZyrW8IetepD5TmzksFEGYp78D2w5ye4M
+
+sprite $DurableSubscriberLg [31x20/16z] pSu53WDG20FG5kV-1vxxo8zCNnmjVi4pkMWRf33Gi7qt8lf-dWUx1e1W2NdNni6n6EovVHJS6TeJjHt7ahsZhSgv7MUh5Ahu4ri
+
+!procedure DurableSubscriber($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingEndpoints/DurableSubscriber', $name, $tech)
+!endprocedure
+
+!procedure DurableSubscriberGroup($id, $name='Durable Subscriber', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$DurableSubscriberLg>', $name, $tech)
+!endprocedure

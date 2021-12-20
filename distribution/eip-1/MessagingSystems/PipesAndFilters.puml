@@ -1,0 +1,17 @@
+' definition of the Item eip-1/MessagingSystems/PipesAndFilters
+
+sprite $PipesAndFiltersXs [15x10/16z] uqC3p2XWeBW
+
+sprite $PipesAndFiltersSm [18x12/16z] uyC4pEXWA8e
+
+sprite $PipesAndFiltersMd [25x16/16z] uyC9c740MagCIW
+
+sprite $PipesAndFiltersLg [31x20/16z] uoC0cF41bb5fP30gpO8Fi04
+
+!procedure PipesAndFilters($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'eip-1/MessagingSystems/PipesAndFilters', $name, $tech)
+!endprocedure
+
+!procedure PipesAndFiltersGroup($id, $name='Pipes And Filters', $tech='')
+  IconGroupElement($id, 'IconGroupElement', '<$PipesAndFiltersLg>', $name, $tech)
+!endprocedure
