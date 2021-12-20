@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [6.4.0](https://github.com/tmorin/plantuml-libs/compare/v6.3.0...v6.4.0) (2021-12-20)
+
+
+### Features
+
+* **eip-1:** upgrade to 1.2.0 ([235c57c](https://github.com/tmorin/plantuml-libs/commit/235c57ca7497ad798b11a65e0baf8f0d2085d296))
+
 ## [6.3.0](https://github.com/tmorin/plantuml-libs/compare/v6.2.0...v6.3.0) (2021-12-11)
 
 
