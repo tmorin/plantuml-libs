@@ -1,6 +1,6 @@
 import {PackageContext, PackageFactory} from "../../../../workdir-generator/factories";
 import {Item, Package} from "../../../../workdir-generator/manifest";
-import parse from "csv-parse/lib/sync";
+import {parse} from 'csv-parse/sync';
 import F from "fs";
 import P from "path";
 import {toSnakeCase} from "../../../../workdir-generator/naming";

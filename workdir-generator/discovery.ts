@@ -1,5 +1,5 @@
 import {Item} from "./manifest";
-import parse from "csv-parse/lib/sync";
+import {parse} from 'csv-parse/sync';
 import Fe from "fs-extra";
 import P from "path";
 import {toCamelCase, toCapitalize} from "./naming";

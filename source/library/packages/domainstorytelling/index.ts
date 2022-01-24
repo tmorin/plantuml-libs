@@ -2,13 +2,12 @@ import P from "path";
 import {promisify} from "util";
 import glob from "glob";
 import Fe from "fs-extra";
-import {capitalize} from "lodash";
 import {PackageContext, PackageFactory} from "../../../../workdir-generator/factories";
 import {Item, Package} from "../../../../workdir-generator/manifest";
 import {toCamelCase, toSnakeCase} from "../../../../workdir-generator/naming";
 import {getAbsoluteImagePath, render} from "../../../../workdir-generator/paths";
 import {unifyItems} from "../../../../workdir-generator/discovery";
-import parse from "csv-parse/lib/sync";
+import {parse} from 'csv-parse/sync';
 import F from "fs";
 
 type ItemsByModules = { [key: string]: Array<Item> };
