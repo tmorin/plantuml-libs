@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/S/Sinaweibo
+
+sprite $SinaweiboXs [10x10/16z] NSQr0OG0002nl3zw-q-BbQIAksRmXvWBFIrTvfU-qDSwgfJtbski7my5lC4E
+
+sprite $SinaweiboSm [12x12/16z] PSh50SD00C0m9pacxpzjcQktuDyUUOd930I5mqqOAcDYftctRGlbIg5BrSdsY2YRWhGbZpf7ojFEjpC
+
+sprite $SinaweiboMd [16x16/16z] {
+ZOl5OSH05CKqJB7LVxK1mobB-WoFZmbgXeCOZbAi05a5DaiIMAg4ce88Nzv4aQOwXoeWkZWO6g4v26ewX734lYaKZNH1fiAnnC4ykdReOTiJWQe63aBRrHvu
+n0y
+}
+
+sprite $SinaweiboLg [20x20/16z] {
+dSk5KK0n403H_HhFzjyjapdSuKNF-8zRE--atZL3sF9EQ5uifog0LkBNVSgnU-q-fJIhOa4O-cBlno6tQhtFCmqL8AFUXAV_gGSq7S0MoMbTrnADOuKRU5tf
+ATVWT3M36hCxCDoeCqQd9fRf1TS6HJq9HtFseT7qOZiFllK
+}
+
+!procedure Sinaweibo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Sinaweibo', $name, $tech)
+!endprocedure

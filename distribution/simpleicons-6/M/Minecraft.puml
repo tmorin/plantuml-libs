@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/M/Minecraft
+
+sprite $MinecraftXs [10x10/16z] Oo0QC34oWG4hDni33piJ0oC_iJe1
+
+sprite $MinecraftSm [12x12/16z] Ow04SB0pipCpCtEmC3Ep0W4x3pi3AoCdFmC38nGmC99g9
+
+sprite $MinecraftMd [16x16/16z] lS570O1G342nr_rd_SlbXWD8-9kg8d9gcQSriT4GwrhbmZ7kwTUX-TW3
+
+sprite $MinecraftLg [20x20/16z] pS570GCn0C0mnzcRFzj-UmmYyJfHW_-WPR3qrfUb9Ff9kSvICddrsfGGxYNVTZ-SXyVz
+
+!procedure Minecraft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Minecraft', $name, $tech)
+!endprocedure

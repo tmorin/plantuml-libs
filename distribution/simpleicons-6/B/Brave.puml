@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/B/Brave
+
+sprite $BraveXs [10x10/16z] BSUn0KG0002n_4C3j_-qW7I12bHLz7qMMKd9g3zzfz-GGZ4LVbK15Ku
+
+sprite $BraveSm [12x12/16z] BSc50S0W4C30rF7ilssnWtUwf1uCz-Vm710jxqEun-cHSFOZWW4g1xIBqvECH065yNT_Zhu2HU7G2pYreJ84Xx4UzlO7
+
+sprite $BraveMd [16x16/16z] {
+FOy54W0X203NRld_R-_0qJLfG76Yy11ZO_GZs1tCDtDO5YEJai7_byfH-A-EE2YY_WFmRCjhLsCuXluci6zKqlpwrIWx0YTWpB2pFDdyXaX_3LQqGV_QDpeS
+sct-ujvq7m
+}
+
+sprite $BraveLg [20x20/16z] {
+JP052i0m40IdST___xQ4uo1JNsa4Gxfq7ewCuiBGImIOaiOvBG-jRYAI0iwmlbIfBG6bPYoW0qHbzWAG_CON60196v0vK194wpPTIoMEGR201_iDI3gF5WwG
+V7rB-eWtWQJ4fKfIWp3l2rm-Vyt-uXkLcBup7dHmeYkJX-5xznAVq0y
+}
+
+!procedure Brave($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/B/Brave', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/K/Kinopoisk
+
+sprite $KinopoiskXs [10x10/16z] BOe53e0008ImM_x_MyScYqk0muNGE3BmgillmCDusufKB3dlcXmbEcxCfSM03m
+
+sprite $KinopoiskSm [12x12/16z] 9S650SC0402XgtlPVzhOGrKVpuPHHO7YLNVUVg6eiuzH9tpxYGTFbP7AhH2eU1JeuL_r0uzQ0G
+
+sprite $KinopoiskMd [16x16/16z] {
+DSw53KKn5CDGFuQ2zv_sGwHxoXILs8TjeGoDCwj5vpDL7G0gOFHSVe1J-wihrlcTVbVDUxAkxDMpKdRslEkNskn0joo-mAiBUOh2KcbEJYFh3BD-TkX9mif1
+hCO4-08
+}
+
+sprite $KinopoiskLg [20x20/16z] {
+JOu54iGm30DrRSEW___snX3OOYmOmocJFU0YqHaF75wKFIh7Mtqqv3jf1D4z4CLKIOhj-7uQopzozqtVeN2pPvDEnD2i3xJ5KhfH9sNtboDn4KW8fXimtqCs
+0CKs6zvtx44SnfwvNqW0lgLL6ZNAtmiby81DfZ82X3y
+}
+
+!procedure Kinopoisk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/K/Kinopoisk', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/M/Monero
+
+sprite $MoneroXs [10x10/16z] BSQ30SG00CNGTqQH_QUjFmE_tg13FxhqqidwHLrpax_UwMQSX1gRyEiKdXUi
+
+sprite $MoneroSm [12x12/16z] HSon0G0G0CJ0rm38_jC2aEggQ9Rmsh7RP3SOsDKYd66cIiB9J0upBA5fFpp5y3w91USzC-_D_rUD2kn51m
+
+sprite $MoneroMd [16x16/16z] JSzH0a0m40FH001p_zjg0ZfV-nQeqd2mDNex84rHmzTfKxNxvldZGYlGksWd68gVHQFYmzOIsjXUIBszsLaDs4tigyHomC0pD_CyGofJzVTkK6clwThgD1S
+
+sprite $MoneroLg [20x20/16z] {
+PSm74i0W24JHJSUwzxzjmfhkd-Oy0RI6K9bNlDfuLgQB-2hqHCQUoCLlbV8MqiSAoaCWJIOKwLHm4ufarKqeab4s7EWKPLd62N0gihKP1m2PpM2swZ4Zqiri
+WwAko9GTyQnQ6mly1dGuGSt_AMLKUO6t0m
+}
+
+!procedure Monero($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Monero', $name, $tech)
+!endprocedure

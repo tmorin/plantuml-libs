@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/R/Ryanair
+
+sprite $RyanairXs [10x10/16z] 7S650OG0000XFcrl_sajW3wWLuzLsO4O-uXsNatuvKsmPVy0-WGGW0-S
+
+sprite $RyanairSm [12x12/16z] NS65OGH100GWLivb-gysUJU0aWOaBLTRhLfIM8vZiYJiavIGMPS-dPMaR4GWSIW1OthThEwodBEdbDDBYX__
+
+sprite $RyanairMd [16x16/16z] {
+NSl5WGCm0C0mXpdUVzfZQAk_-B9FuiTsuvSH08vJlNwhH5sG8PO23DsmOvlv1W45H4nBG1kKjFB521GjYOki1O0AcuDy-HgXCmi_hWMHFztPG-DVCamU5IzF
+3Yy6Nzu1
+}
+
+sprite $RyanairLg [20x20/16z] {
+PSv50a8n303HAILVAfdxdnPttYuUxi9HUGcjDAzoU-HtBTstEH9KSurb6rxr2WSr88C2hr4tAB8cEOexe0BRXb5bzm1e0fD5R9YFuOJ9B26xtAWhGP8hRg-d
+XKFmReEXZOLOiV0qzGX97Ro5ReYLJschoBTXEQxyIFzI52j_wiQ_piCP
+}
+
+!procedure Ryanair($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/R/Ryanair', $name, $tech)
+!endprocedure

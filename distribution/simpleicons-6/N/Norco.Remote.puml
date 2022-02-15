@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-6/bootstrap')
+
+' loads the Item which embeds the element Norco
+include('simpleicons-6/N/Norco')
+
+' renders the element
+Norco('Norco', 'Norco', 'an optional tech label')
+@enduml

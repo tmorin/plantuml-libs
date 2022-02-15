@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/P/Pelican
+
+sprite $PelicanXs [10x10/16z] HKg30S1044lj_lxJdeq8__i-pxr1QdYTm2va4mYfKuyYZtmPd9rVRhoZ8utyCm
+
+sprite $PelicanSm [12x12/16z] POk50S102CJoxh3_j7LlS3bazDvQpQpe2HlX7DoI1hIrzzc3AQCVJvZZtpsaInNWx3cmZrvKtVzb1W
+
+sprite $PelicanMd [16x16/16z] {
+TKs50S0m24lTaF-_7NDF5OX0cOZ66BqNBD0B_DnmZMHlMDc2NT5aSztjNrKhs3vZ9UHP0qBBGUSsYCTkx32ZIWzjBjV8S76VmVEV0dQSevD-gSTgz4UFLihl
+U08
+}
+
+sprite $PelicanLg [20x20/16z] {
+TSk50O0W04JHevlRVrifMvz1VjHQSfEQ60m6mRkvRNdZiQZ0Wm10YqOp6izcB4KYYq2H0DAA1Pes8RfCDuPQ0Zh5JkAgiYcOOfl6n2u1b-OU9WxP2HpO1Lm9
+ThZ9vxLxgd0bFzBubxxBAd6n0G
+}
+
+!procedure Pelican($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pelican', $name, $tech)
+!endprocedure

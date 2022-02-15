@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/C/Coop
+
+sprite $CoopXs [10x10/16z] BOg50S0W0CCoz_N_RmbE7RuNuOPu1XXCWcg_XTLiInPk1N_ou6mYk8gfu4fG9Qesd2VC5We
+
+sprite $CoopSm [12x12/16z] DOW74e0m381mQnV__wsTj4auuFK6GZb1AslV115AzuVbbRNvSks4TCAjxeIUzL8ihrBZwobaCLAwArPoTGrqgc_m0m
+
+sprite $CoopMd [16x16/16z] {
+HSy73i0W30D0ipVy_xUDhRPOuyHC0c2S3ekVksh5P8ZZpCOzCs1B07G3wLidoABrxaSkUpOH3kDH9IpEEOANTz-JeUNMUwNWFNEqtlgHzUFRLttNqzPRxuQj
+lPc0ed5uJjzmBHy
+}
+
+sprite $CoopLg [20x20/16z] {
+FO-7aSGW4C3a0FoHr7-tFx1ZvBnH1jAmFopAcFK2ReEBucR0CAXeaD09-wu_kDPTAz37k3G1sj0E_00jW34bNpMolezQA0OlpG18BXwWgausztD3SB6PBXhm
+oLCDyav6KDsc8-oh5axRe_durHZwwdl-GxXrH2phxvZ-hLZTzfzBPyLGQpY_5qIiF1o-sEOV
+}
+
+!procedure Coop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Coop', $name, $tech)
+!endprocedure

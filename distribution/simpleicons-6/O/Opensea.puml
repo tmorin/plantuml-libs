@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/O/Opensea
+
+sprite $OpenseaXs [10x10/16z] BSQ75S0W3CHGfVTe_safz_XWMpINEvrn9PpKBPLrwJE1WQdTYzxcDxjoQG3RY0e
+
+sprite $OpenseaSm [12x12/16z] HOo50O1030E3Ezr_MuZ0Nrr1ZbfXolmfSJh9Nw1Bw-3muhaOaVxAcnFt-bRKxpFjsFVzhbhQ_vlJYncx3m
+
+sprite $OpenseaMd [16x16/16z] {
+JS-50S0W40F0u4xstxQ46eSxZoqCDeFNu2r133zJOswLqj_D7jmiA2c--uAg1WAMihT3O_3buUhxJjCpasODPqYaPe7OqJsY-heJDsr5L5s5o_5xYLZwEHHx
+H7C1
+}
+
+sprite $OpenseaLg [20x20/16z] {
+LT254SCm0C10DHoJzj-sPmYzcO7XBAQDbzqXpmo-d4_N8xoxVdRhlLTUANRW0DWTsCnnVpfFgyWl0fjDiOAvziq-5d05WasoAy2gSLMtVlT5AMs-shDRLdFB
+JuPDTMMo2aso0aw_g89lCytgWzjnVqxr1m
+}
+
+!procedure Opensea($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/O/Opensea', $name, $tech)
+!endprocedure

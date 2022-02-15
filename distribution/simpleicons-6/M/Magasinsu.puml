@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/M/Magasinsu
+
+sprite $MagasinsuXs [10x10/16z] JOQ50O1008ImM_QVrlY-X4RB1GZS15qTAngoaMWpKpTcEhdPLP0aqyp22m
+
+sprite $MagasinsuSm [12x12/16z] LSZ50SDG50CmXUdzUlzfonHT3CvQOye20UPyA-jXisUJaCEtN_BhRNdqUlrAdmVYm3Jtr41re5ReSgmjk04
+
+sprite $MagasinsuMd [16x16/16z] {
+PSV50OLG0C2muZpj_jD-mIMtm5jhpQcQOL4pYy49m96TCwJ8eR51Y0eg9Fkol64vbk5-k_lZT3yLPgtpyaO4N0nG4cq5cc7iW5vWpFmjRG1QkwNvtqMRrRBi
+2m
+}
+
+sprite $MagasinsuLg [20x20/16z] {
+TSW5WaGX3C3GVCKAkVzfLxekyz26XyhIfUFyAavILKZ3dG_X1R3ac-a6bnlVBS4ANOMMzs55Fjh86stpTskk_hiTsdwtpHY_s-dfPpDlGWGktmLWq1VGJHEu
+FS0JuBZlV37ovXiN0BkLTwV1kse7kFNYor57Z7gGdW4
+}
+
+!procedure Magasinsu($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Magasinsu', $name, $tech)
+!endprocedure

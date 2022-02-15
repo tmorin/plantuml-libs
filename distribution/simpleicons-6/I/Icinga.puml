@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/I/Icinga
+
+sprite $IcingaXs [10x10/16z] Om037WOeuEU7iHZ198pB1MA39FdueImWWB9WW1qYmeTX5W
+
+sprite $IcingaSm [12x12/16z] LOg50G112CDohi3-qxvhS5fEb0Upp4CzU_jOl1iJ81XW6uJfd_sYVtQFd-Vcy402uD7_-me
+
+sprite $IcingaMd [16x16/16z] VO-50G0n20DJTxB_jEyklIeEs163AoHlSZpa9rHB-26N33Xr_2SooOO9jIRX37BMqEgGB-M5Z-ftCmA0UaX6wVbfZyOrrcUITMUm4G
+
+sprite $IcingaLg [20x20/16z] {
+VO-50S0W4CHmX-m_RTs5jDZxYPDIn9C6wMa3te5K-JH9TN6thTwjpd9eiP6M2jPbO3CMs4_MgscDkgNFv1ZCt4jSRF4nxeozsUnMxqQEsRcxQT7kBmQjzAhg
+JAxiulojvpPIrrOWFqmZ
+}
+
+!procedure Icinga($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/I/Icinga', $name, $tech)
+!endprocedure

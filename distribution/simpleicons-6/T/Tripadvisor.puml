@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/T/Tripadvisor
+
+sprite $TripadvisorXs [10x10/16z] RKU50S0W068T1lzVQxVIO8sRvERQLKhNCQIxb_BnkVFHnG-U7-a37YywM
+
+sprite $TripadvisorSm [12x12/16z] VOh50S0m30EbCj_-qmRiTqDYZSwopi4sNCV3PujsfAdXeoPCuhDSJDyR-2ndGmALuy0G4ntrToe
+
+sprite $TripadvisorMd [16x16/16z] dOd55GCn4CKqzZAf_sxpJESagyi7yOPywBC5XOXPxtqhLqIWfG2hwiNbCJycHbhSxiZhGG-yUpubRxHdbdIGjIUQc2sKtE5IrzrKaq7cDpu
+
+sprite $TripadvisorLg [20x20/16z] {
+jO_50SCm5CLUE8OVxJzjm3n0gvDajlx2JiAcdDCqdK1mfpEubhT58YyuaWSj94v9LzPFZZUDlTlynh9Bq2sITcl3ca5wYAR176cr71Jp2DFBp4inqmdhv4Xa
+g_-ooTYBgNFg5pm
+}
+
+!procedure Tripadvisor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/T/Tripadvisor', $name, $tech)
+!endprocedure

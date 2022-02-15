@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/B/Bitcoinsv
+
+sprite $BitcoinsvXs [10x10/16z] HKg50S0m36Bku_zl6_TWaBguGujMLm9o4pIxSSc2wRYscxOAbBantHHqTMGBC
+
+sprite $BitcoinsvSm [12x12/16z] HKo54S0m4ABkpVxR9iZTkm6WFUs4hTbgrA8wiNwS5wmuHdzqRyjII70-VV_15hKZSvk4Fah_v_jhkNO
+
+sprite $BitcoinsvMd [16x16/16z] {
+LO-50GGW24N1RlQVzk9ZFfC60hvBPLfqKI8abituotBHfdCodA0mC2FEGE5n_v9qolzVNtAu4o6W_NzrsKKhCOA8MzQ4K3ecug0TuSdMvfMeoo4WxoEYipFD
+5m
+}
+
+sprite $BitcoinsvLg [20x20/16z] {
+JSy54WKW20JGjLlkVzeVgCo-IQLnjIqpWnIvLi0bfBqlrjyNIzOBpONxUTCyrDP7FNyh8e_o-ZHH1SsAPB-_r1EIiC9hJQhDyFh8z1Tl8aus0FUMMLXwK45q
+hhz3l2ZNGhGxq8Jf5z251QZ4MQQAMabVNm
+}
+
+!procedure Bitcoinsv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/B/Bitcoinsv', $name, $tech)
+!endprocedure

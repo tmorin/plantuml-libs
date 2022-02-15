@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/M/Monzo
+
+sprite $MonzoXs [10x10/16z] HSR70O1030F1vKC6zL_j9MTR6cfEhTA0DE4pSImTXYa7EWvCR0pDcwC7J0yT
+
+sprite $MonzoSm [12x12/16z] LSt50SK020MmzwKksN_QkgBXH5vXNty9TbB3JXhumRWVrKwApOFDKSdfL5cTpTcTq_kRpNqo0m
+
+sprite $MonzoMd [16x16/16z] PSW53WGn3C107rEs_lzlJobBMyoOqxh570Mk6eFAJJDqwjiHsk2d_Pt57bw36TAJ-cYEmsxImJA-WjtaJTDDSu7THtxBbN3fplu7
+
+sprite $MonzoLg [20x20/16z] {
+RSe54iGW04FHluh3_M_R8Xba6lmHdcC-pFXttMqf4qCfdIRw-dXNgYYgiKauwHu3HMPf_jMQUp7BhgQP_pK_cKdJICqCgr7Di1l964xZXOmiG-RWj02GDtEq
+h1RWpBjk5m
+}
+
+!procedure Monzo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Monzo', $name, $tech)
+!endprocedure

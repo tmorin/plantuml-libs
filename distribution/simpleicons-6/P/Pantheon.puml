@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/P/Pantheon
+
+sprite $PantheonXs [10x10/16z] Oq01p7067roCWmFAu6TXOu6oEBcue2n-Ldu661EkXHVLL
+
+sprite $PantheonSm [12x12/16z] Oq03JCWSVYGcFo-SpGC4C3OVApSV2uJ9oC_7nSKCKy_6n0PJmyhEpu9a41-c1GW
+
+sprite $PantheonMd [16x16/16z] NOu50WGX202ns_d_Qwzl5no33ddZv20SzhAcynXxWib8fPIWUW09xd96nzXzzjvr_dwXxPH0RTa7tIm4Y2OYbY47xIkU
+
+sprite $PantheonLg [20x20/16z] {
+TP053WDG24E_A_3kVzijCYFinT6swJyhg8qQ52c-KglXQnDGNrnFt4a0WVbJcutHMlugPOIBeZyrzZpdpD_QCa3S3-dknxrtoBsj__W5I8uBB5yqZP990JEe
+lPy-
+}
+
+!procedure Pantheon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pantheon', $name, $tech)
+!endprocedure

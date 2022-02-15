@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/P/Podman
+
+sprite $PodmanXs [10x10/16z] 3S470S0W000W_5_xjzq0fVxWWa0G2K1LtwHZjLcXf4A0qrQB3W7rD4zqxoK1CZu
+
+sprite $PodmanSm [12x12/16z] 7Sl70GD134BHFr72gVzo3VikYc0tU0oYi68JWZStDy_dvBslykXvlcpnw0Er9zQJ-HElhv0VzAgkrHHqIwN4rs6kYTiOnHlx0m
+
+sprite $PodmanMd [16x16/16z] {
+DOy50WGW20HdGINq_l_SQyUa0O2vll3dVfhxhAguXeG1u23x_fS44330OEtCI9z07M38i_Pq006o6Lx17wK_G6K6pI8dgoLmKt4ONMVjW_R46FubExflYfbP
+LLcTm2ZzXr4906lyJOkB3filBm
+}
+
+sprite $PodmanLg [20x20/16z] {
+LOzL0WCn24GV98j4slkVji9MtnVCe1I7lU13yiPvSU63oiSJ0-HPP2MAblqM1rLIvgTpdRfPq4slzao8MQUe3VEmNbcBwc5Eyp7Kge9pUi_mx4qE830uelbH
+5QAb1H8DSULzdZqhjtkVxgeWMn0w6MkkbMlEzBGg5qwix-a1r_Sp4P4UdXaHW2xqyeGdRLBqL8W7MF1bbpVuGz8_DNS
+}
+
+!procedure Podman($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Podman', $name, $tech)
+!endprocedure

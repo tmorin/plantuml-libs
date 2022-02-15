@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/W/Whatsapp
+
+sprite $WhatsappXs [10x10/16z] 5SM70S103C90qdkq_xOlpWQYapq5hSjigNyBNh6QEtfjZcZpWj8JH_2gWsv81W
+
+sprite $WhatsappSm [12x12/16z] FSR50SGm0C0mbyFUVzg31lGIVzb8fyyUzUtEtoDuSF4NAnBbvPtMMth0hN-lWESZY03grjzv8azl1Yt-7V05
+
+sprite $WhatsappMd [16x16/16z] {
+HSo53S103CLGbpdUVzlg-8c2dspzV2QQLoFKWqmNaiC0CAWcNtY4jGzctDXyUj8aFDeFJc5tf_8MqDvlKWTEW4XYihABBycb0JxSGNSBtens0L-D3JXDxQpd
+z9bS03y
+}
+
+sprite $WhatsappLg [20x20/16z] {
+JOu54i0W3C2AE_d_RtUbiqn9LMxgPcNvaS5OuL504ML0CxNFZx7ebfNaO-ifQLO8FsbFWDT5gcY33lcL497Z-kicZPFFVzcEvPVN9R9bR6qOalusX2GAuFNH
+Fu6dDSSvXZIY6EjqxGI99FaHMUh_Ag5727LLCsw0EywOVUdRacVn4WTASw9S
+}
+
+!procedure Whatsapp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/W/Whatsapp', $name, $tech)
+!endprocedure

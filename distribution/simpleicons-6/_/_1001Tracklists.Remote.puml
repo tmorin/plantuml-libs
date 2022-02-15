@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-6/bootstrap')
+
+' loads the Item which embeds the element _1001Tracklists
+include('simpleicons-6/_/_1001Tracklists')
+
+' renders the element
+_1001Tracklists('1001tracklists', '1001tracklists', 'an optional tech label')
+@enduml

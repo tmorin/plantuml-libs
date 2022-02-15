@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/L/Lemmy
+
+sprite $LemmyXs [10x10/16z] 1S470G0X00GWVhgz_cq5003m1wG7kF0taCqDWlLo0-bKG0200m
+
+sprite $LemmySm [12x12/16z] TScr0GGn40F0CSE1-w_s-KDFiYl9Jid_9mtEi-PwLWO9dyVPVRNFyXKHBCATOKoZXX0lw64vGx3r1
+
+sprite $LemmyMd [16x16/16z] bSh5OGH140F0sXtc_ACrmy--grUt9CyQi_bopPaRPcyffjuozqO7JAW6NuBD_FrFvdTE0zCUE4K0jN05bnqWkPjiMowWNYqvgNozBkw2o_zU0G
+
+sprite $LemmyLg [20x20/16z] {
+fSpLOGKX4030ESNP_gkDv-dd3SwAIvRtvpnBkDdZhBaiwBcdOp--zXCvODuAA_PzPxWvLffwAkx2N5dgwYvEi3tz-LNbW2FklOSzO0tPhruxMaySPQPRbwsI
+jEmcR_jObBACnRyTBJPiBle4
+}
+
+!procedure Lemmy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/L/Lemmy', $name, $tech)
+!endprocedure

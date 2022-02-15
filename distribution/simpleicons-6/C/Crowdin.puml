@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/C/Crowdin
+
+sprite $CrowdinXs [10x10/16z] JSR50K81040XxFRjFwtncnEs6ddLZSE1SkcDNUajO4mTFC2n92ZxTg3ku0i
+
+sprite $CrowdinSm [12x12/16z] LSl50S0m4CH0XTdglrh3_ZB68_wcObnWjn7gmQNFUKpzHXS6vREd85R9z_DbdeXRAIA3JlWIbyAn4zCOYGO
+
+sprite $CrowdinMd [16x16/16z] {
+RSo54GCm30J1CxE-_swZ2TEQBU2Vq4pEHiGLNH-xrzetN4CL5m9m91qOabPl4JcoRm5tlILyWsqJtoMw553cQGapS4sJToOTfiIgNEFtzYHn9IbmjBdhabrt
+u5aHU1TAvU42
+}
+
+sprite $CrowdinLg [20x20/16z] {
+VSy5biKm34FH5pXDx8BtlziPLv_fbYsL-A4FStSRlI0MJu2XitMfNEsHZDHwAy2CL2bsbcrEYAG774ZBqJn70zeo2XJLr8eeAlenGC61o3oS4HrK6mMa8V6l
+GQmLhhRyg8msba2wtglTXkIiP7GTe1_OePxHbUk9bCgLAk6yAhLmzmS
+}
+
+!procedure Crowdin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Crowdin', $name, $tech)
+!endprocedure

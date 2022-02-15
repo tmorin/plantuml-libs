@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/P/Pagekit
+
+sprite $PagekitXs [10x10/16z] O-270WOK5WC8aCZYvkQ6ic2cGEK1
+
+sprite $PagekitSm [12x12/16z] Os3YXm46D3OJ0mXmKPiDDv-LcPa71A3sCe01
+
+sprite $PagekitMd [16x16/16z] Os3WHmOCsFYyK03ZCp500DS0ybc0W0V6XxaQAn_AW00CFW
+
+sprite $PagekitLg [20x20/16z] Os3WHmCC32I9iJB103TSZ8a11hY6lXWt2F0Xn11XWLUCcmi8MA40LHu1CCK
+
+!procedure Pagekit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pagekit', $name, $tech)
+!endprocedure

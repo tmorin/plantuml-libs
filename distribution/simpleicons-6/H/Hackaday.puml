@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/H/Hackaday
+
+sprite $HackadayXs [10x10/16z] Oq02_52IYn_AOWDYNduWu0PpWO0F8W66434ci68-VYv-4E3YOuLA89a7
+
+sprite $HackadaySm [12x12/16z] LSg54SCm40NHDOgr_NUR-OFn4npo8SIv45zY2UhzZgkhWD4NSHWGvKGwnAbL_rQcQIfgOi67M1EGIFm1
+
+sprite $HackadayMd [16x16/16z] {
+PO_LeGCm3CGKvcZ_QHzZgo-pxtZYBBwn4C3qbQuB9-duogzxeheOgw9wW6PHTHZu8Ahgpzrarxtzpjia2JzvzgZPdxuQzLI0KAvDrUueHDNer3LKByloxSGK
+-NEtNu0L-APCNW4
+}
+
+sprite $HackadayLg [20x20/16z] {
+RT255S9044NHlwuph_zkEJWakUikkbHtq5UpPu7kllKXEKLlnb2O1fZUW8eSm9NcwYhSzUUWBUuoBBtimLDg-k35zP7foHd93hUQH2NqKGW0gw4lW0ZmdUOR
+M41otGKtcCvT0smgSbSRcuqCm3qL_lu0hI1rajuMKNUWZy1ud9hqgqWt
+}
+
+!procedure Hackaday($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/H/Hackaday', $name, $tech)
+!endprocedure

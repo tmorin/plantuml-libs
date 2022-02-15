@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/P/Pagseguro
+
+sprite $PagseguroXs [10x10/16z] 1S470S0m40GWkflrvzzj05eU4D08u34DHoCDY4e0UKy4J7muD0XuaB01
+
+sprite $PagseguroSm [12x12/16z] JKo50G0W3B9R-VzQMzS9Y6KPGHohksALSa_OeOCv_oRTx4RDQyvw8rhH0CGpXFgbl6XiFXWvqptzMWvW7e5v7G
+
+sprite $PagseguroMd [16x16/16z] {
+LSc5OGKW34NH6zp2st_QIjfl1-A4wjh6W_SefqKn0I4xW7Xg1to0zL40k0bXde7HWQugcmHRW5mNWfiTasI41T2qHLW4cGWYN3xlJXk42T1Y5Upal2l0CG2s
+L0dvpkwI0tm3
+}
+
+sprite $PagseguroLg [20x20/16z] {
+JS-5iG0n203HFRUGxR_QBmmdRoo2KevkM_ZOUbw7FKQAAvH-a9nvHJvwyEK2cm3BjbNqAjWWBc38D70V7CS-aCO6e8TqABC7TBldI8N51DFbFqgGj3q3hsE5
+ktgdIl7TGaeG3T9M2SF2AAMzyST11VYME5TAg1DfUIPJ7djlJOs5Vxy
+}
+
+!procedure Pagseguro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pagseguro', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/D/Docker
+
+sprite $DockerXs [10x10/16z] Oy05-24KDmS_aCK7v0DPG2O_0h1nG1bC331Xi4OWO4Gn2W
+
+sprite $DockerSm [12x12/16z] VOQ30G0n54DJ-sV_QSz6muUkk4EE8U-SWaz0dLlP2faQBnAT3mQmOvXOJWHCONLuQWG
+
+sprite $DockerMd [16x16/16z] ZOkr0K0n44A9-x7_jDyrrJqg33gC-_j0FDZgDxtUCpFjVUdxKzAcA5v0UWjpj961g9nf65yR0V_rsFXOi_lqjJjUk1EWOWK
+
+sprite $DockerLg [20x20/16z] {
+hOhL0SCm4CNK6ku5R_zfmvoVGcIMnHEKdcwkyio1NCQoj3AS4xdFdRMJYJ4fICCM8ytqmvXesMXz0AIbYnBLe2P_eidS920_ysRWh6hkZebmC1K3v_B5WPWj
+1xwc1m
+}
+
+!procedure Docker($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/D/Docker', $name, $tech)
+!endprocedure

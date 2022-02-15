@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/A/Amazon
+
+sprite $AmazonXs [10x10/16z] Oq01_FpyB5062841Er0G9eR1OWOnKOs0qcnWTM2z
+
+sprite $AmazonSm [12x12/16z] NOg50S1030AXxhV_jFNNYmTKOM3zTtWoCkAmGDWX_Ja4G_YpiQXWZDkogJrwFGmytGSyTby
+
+sprite $AmazonMd [16x16/16z] RKx50GGm20FgGhF_jETNpoj8XAuG03f6Zm_w37ZYFlSbTvu0JBC2mjFyfkiiLDwcVLu3kQ4nArqGvi4Na5FRPwVnMqPhgGfOAby_bqkI3tq2
+
+sprite $AmazonLg [20x20/16z] {
+VSk55OHG44FHcU-U_hlTBEuFpUKW7xdIMpOdwfXo1mh0Y9Lui7cTZEbiUhH8E9jozd8sBi_xrUJHFE_XPAFXtsvste2LFOtHyQxoLZJdhQr18ivgG_j_GOrM
+ETMbXYWqLh7cJhzuxrJcVW
+}
+
+!procedure Amazon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/A/Amazon', $name, $tech)
+!endprocedure

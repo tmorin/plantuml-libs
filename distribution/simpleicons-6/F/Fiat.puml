@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/F/Fiat
+
+sprite $FiatXs [10x10/16z] BOk50G0X30FpWaDl_sdngqiqISLf4Hz0KTDPk5-LKWfbRk7LX6IWXJddwdjQ4LgTmDNkPsV58j8
+
+sprite $FiatSm [12x12/16z] 9Oj70aGX34BvpGGikVzj1yUtecAZdZXS5sUWRVb4hfh1sschWtTlxEsDEw6CB9kep1MD-Ek-OaXb6Nx09siUhLcRK0CAj6nOC7Cfkmr-
+
+sprite $FiatMd [16x16/16z] {
+DS-54GGX40NHpnOwrlbdUvmr-if7dxgvDVtRKckNuyjdaE6HzQmFRVDj-f9sEV_6U2ImxgTtw_CmUuDjiTGHXZpX-7KUiUbLt5ykQOe91ikyjkXY5wAM6r_x
+lZwUWNLsXqnDIBwjG5BELX-wOkWMSNol4xF-0m5rjsul
+}
+
+sprite $FiatLg [20x20/16z] {
+JP05WaGX3CKUBYta_hTT-3iMF1JLYs5cHJ-KroZK-5PTON4Pj_-GYxT3lyL2VQAc-B1AobBHv0SZ7EUDPMxR33DdgKeqUXXovTOqy5fwk2vot3e9V0HRTCRZ
+UDpkUSDag1-dwpO5mnVp6zUfb9FSlkv6YaNwSMFXSku5yV-qcMH59eitTrfIHuatYkWoYBNsQRFLL4XwAEnYQtkle0_z_LEw_04
+}
+
+!procedure Fiat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/F/Fiat', $name, $tech)
+!endprocedure

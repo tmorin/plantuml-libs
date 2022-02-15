@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/N/Nubank
+
+sprite $NubankXs [10x10/16z] Oy0F-1duWGX8Sm4928iVDuiVko4
+
+sprite $NubankSm [12x12/16z] ZOQ30S1000DJkxV_j3NVuIb96MHY0_Q5ayTjkulPjlbmRJ2gnhQLYgrZAwzM
+
+sprite $NubankMd [16x16/16z] fSUr0GD10C0mXu-z_xPf0i-eJfptr08se4bfeEdxkm5k-dtp1Vplx9su_pUzNYiXt84G8DJ0Vcy
+
+sprite $NubankLg [20x20/16z] lSY50OHG3C3GuF0j-qzxxgxK-vWfWjh1Pj0fjGELMdCqXJM6euMDeULekh6iRrX_mwOR9Z3PUxHE7SWmZkFQXlLgOXhvGom1
+
+!procedure Nubank($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/N/Nubank', $name, $tech)
+!endprocedure

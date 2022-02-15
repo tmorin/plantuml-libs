@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/S/Sketchup
+
+sprite $SketchupXs [10x10/16z] 7Oh50K0n2CMgfo_PVreagS2JKLo6J8hUuS9_QgVsvNnTQZFt3WqtxjyVT8Yls5XF
+
+sprite $SketchupSm [12x12/16z] 5SW95e0W30FH0AsxplrlQp8i_QzA1wKKfMKjsEkQ3qZp9ds2N7W77CXwh29U2qJ71qmRRiHuYITeyIaRK_9lXwcpz_m1
+
+sprite $SketchupMd [16x16/16z] {
+HSt5WS0030CmbpdQVzg3edv19wVTae_JTbSRDRGpXYGT-fvgPhIPslBixuHkmDWxY-nKPZHrrccmfwntdQP3hCvwe49ipdfAGN1Cjgndkd249g4QOXtOatpx
+rfmwd6jvJABDlry
+}
+
+sprite $SketchupLg [20x20/16z] {
+LOy54i0W30GFT-x_lorDCfMjiX23aHO7VcGAop_6yM6QcIGxV7HXaom0F0z9tXkHXu26meUATfyaCoOFll60BOwCVfrtGpEdXpGjp05sg7wTGv2YZvFs6hgu
+R4up3N6Qig1B9fehvwY_ZoLiTJeFW47kKCH9X8DAZHK21ByUr_0Gr6tyg1ixGha
+}
+
+!procedure Sketchup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Sketchup', $name, $tech)
+!endprocedure

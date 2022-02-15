@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/T/Tesla
+
+sprite $TeslaXs [10x10/16z] VOR50S0W0CHIzsR_QN6-d0PONfy97hatF16zFBmLm7ALbaQRT8tf1OW
+
+sprite $TeslaSm [12x12/16z] ZSRL0O1G30F0mxMl-q-BmpULv628N3jq6NLDLNSbHHxZZ9d5AG8UUnsVIxQVn-IRFvx13W
+
+sprite $TeslaMd [16x16/16z] XOk54SLG3CFyc2xH_jD-PcXrPDIPl0mRKMSwUCz1iIo7b6QSG503MZ8vk4440wfq_lbLhgGh2z0BvSFhs_k7Ns_UIMz-e3V2XzUURxfo1
+
+sprite $TeslaLg [20x20/16z] {
+RSY53GGW0CNGZplTVzfp1LwigHvSwPFHej63oGD6ApcNse4Mr23ALu8aHZRt8LjuS6hSZUWKW5uw9CXr0fBibEIvkqVLctc_Nm3ryDpo1g15E3oTNpkyh5N7
+QrKmMWMqCMZNjGjwkm8
+}
+
+!procedure Tesla($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/T/Tesla', $name, $tech)
+!endprocedure

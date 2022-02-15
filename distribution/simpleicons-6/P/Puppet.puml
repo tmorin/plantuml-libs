@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/P/Puppet
+
+sprite $PuppetXs [10x10/16z] Os3Wv-TdW01-1WWB8WO3BCXCVWmL_10M7nzSW15T3G
+
+sprite $PuppetSm [12x12/16z] Os1Wv-VdPm0349iNmUPbWB8XQjWOu82HdvsL5Su3oZ5YORE1s33j27DmcGzb0m
+
+sprite $PuppetMd [16x16/16z] Os1Wu0S11ZZ0vFCoyABm-TZuCDIpCQ00Fh00kY8EL072V6GkBoylEvZ92WJy_2Iu5y77L0y
+
+sprite $PuppetLg [20x20/16z] fT035W0n40FGPEtS_xHhg_hFxHW0DMbn-7fh4PdUVkifmrtozfX9zUGUES55m9kURuqKJp1ZDxf5yAKGrJ4EkSlvRG
+
+!procedure Puppet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Puppet', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/D/Dell
+
+sprite $DellXs [10x10/16z] 1S690O0W30Im0As_tlxRci2H1e5r4403k0-PKn2o2Tg6RTjOW3W1w1lX1m
+
+sprite $DellSm [12x12/16z] DSUt0S0m40GWd9Fqj_-shfuEyEK6PC4H680GRLgqyKba-moYP8h1hQPhl-khnQ6LQ1UTWZbG5py
+
+sprite $DellMd [16x16/16z] {
+LSc73GGX30NHmI89Z7__rLxOl8yuCfkyD1CdZm9qLJOoTdrjoIKxk76RHl2ad5FBK25J81nhPNg9D70O-ZKAeQtxn9QoAL8iNytfF0dn5DJ-IbYPazVjdkTq
+Ip35w5C1y0K
+}
+
+sprite $DellLg [20x20/16z] {
+NSz5eWGn24NH6u6omDl_QhzqbvzPWhERKyEuSSLitHT5PQTWrpJpaHENN06qV-tIm9E78X0lsqpmfdacf4eL20QWC8AY9PhQ_XVg14WkjF-DuOGjMN9Ha_jm
+9st5l04hkBkv8yHB3QBn9AEA1nEm97VYtvg5WwiTwTjnlpZDKenK6Fz-0G
+}
+
+!procedure Dell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/D/Dell', $name, $tech)
+!endprocedure

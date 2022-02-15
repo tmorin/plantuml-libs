@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/C/Citroen
+
+sprite $CitroenXs [10x10/16z] TSY35SG0502m76hy_QUjZJp7Yv01KVdMa0l9d57ubFEXSD0gsgXzIxiU
+
+sprite $CitroenSm [12x12/16z] VSU53G9H50NH-vzRGl_LuWwx9pQ3FShhaQq4kMKPTAtR10uG9Ava47JBTNt5XsNixkOQREGAI8K7uzq9
+
+sprite $CitroenMd [16x16/16z] ZSZ50SGm4C10sSl1_gizPipy93RgpxLItEdIEdPFouQANh8rPsv5-RcbineKoSNKdEcULW1DBaE2i-9TS_M8xcxMCi97SiRCveKSRE6VFG
+
+sprite $CitroenLg [20x20/16z] {
+hSp5WKGn3C1GcPEF_LUxECpqV0fOV4ALSc9TaUB8qb4ukbmPXL8cTfecMKgZTbVrtmlAs8Y_da3XXxskT65Wfsi2K0Uzt3tkUibES8LaYLUBojH8MhFC1QIp
+iCxJJEWq13_ZA8R_Zk6k20_w1W
+}
+
+!procedure Citroen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Citroen', $name, $tech)
+!endprocedure

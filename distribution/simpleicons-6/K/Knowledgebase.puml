@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/K/Knowledgebase
+
+sprite $KnowledgebaseXs [10x10/16z] Oq02_Fm8WX-AWMmumG2LWYddWxEuu2oWF1G0EL06
+
+sprite $KnowledgebaseSm [12x12/16z] LSP50G0n00InBNF7lzfZp2lwcMXZySTfWkrW4ZlNs2u1qdMXzpe-iSyR_dh7GN3MMXz1F8RaIXzpj6oq0W
+
+sprite $KnowledgebaseMd [16x16/16z] ROm30aKX00JtcJNtF-r7reH5KC-x1BE_Je3jNuEDcTVjrWKTU9R9YUJq3Of_OrNc2HNPCSwcp3FSPTvWWNTRbtcUbtK7HCMZghZzju6__m8
+
+sprite $KnowledgebaseLg [20x20/16z] {
+RSY53O100CNG3vnRzvyMTsYiUVgljxhUQSq3dPOSS1bHwk1fL74O45TTQyC2g-dtrWrwcY3hRGQzx8f_QpzM8BqjpVos0GZM3FtSC1ZN0F4fQE1LrLn-aD5l
+4m
+}
+
+!procedure Knowledgebase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/K/Knowledgebase', $name, $tech)
+!endprocedure

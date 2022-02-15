@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-6/bootstrap')
+
+' loads the Item which embeds the element Crunchbase
+include('simpleicons-6/C/Crunchbase')
+
+' renders the element
+Crunchbase('Crunchbase', 'Crunchbase', 'an optional tech label')
+@enduml

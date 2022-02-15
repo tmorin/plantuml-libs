@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/T/Truenas
+
+sprite $TruenasXs [10x10/16z] RSUr0OG0002nU_VF_jjIuQHBnyY_-Y9SoZbzHA50focXwYaj3G
+
+sprite $TruenasSm [12x12/16z] VScrOKG1042XTz-T_QUDb55Q-iSXSvzcX5V1r8RxQ3mQrFFgyqxCduMw6z25ErWhn5MV1kcRTm
+
+sprite $TruenasMd [16x16/16z] ZSqr0eK04CJGxEAQ-vyMX-RhgoRLy9USc7d4v8Hsd7ezMYkWTjSmgix1FaO8KgqnY21qXXAQSxY3yD11RmcpshihWNF1wFDd2v1tZrogenCUBILlhG
+
+sprite $TruenasLg [20x20/16z] {
+bSwr0O1G54FH2zyr-q-BUySfduQ_3FPJ2VBqRhYDqbgJEcUbwQn9aLMLpjh6WDMg3O3NgWv0b4Om0eeqWF9zCy40PhqH06qAqBIpuFQRKJTWEF-9h4s2iP-f
+eB_oPJRkhjM1KpngF0rbgGN-cG4
+}
+
+!procedure Truenas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/T/Truenas', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/H/Homebridge
+
+sprite $HomebridgeXs [10x10/16z] 7SQr0S1000IWYtlOVzetAj9SzdJ0DR8GMte2Lqll3-jCs9d5Jh0BSk50aesH2W
+
+sprite $HomebridgeSm [12x12/16z] FOW75a0X283yiwLn_zEsYr9vI2VXPS9aQNfGc6fywSQagVwg-MxIways_MdSFy9d6l3GzEMJVk6v-Xc-ZvDJiZGCPgq
+
+sprite $HomebridgeMd [16x16/16z] {
+FOw55GGn20M1jGXa-gzs1TxTHF4loH5CbHz1SQMbV4o0-EmqnJUtYLSo0Y4Oc9HvRXwVpL7cO7SKY3JdKdOF0_2Hfh3xp3dDbx6Gp5VoqdQXNfFW51WTOCb9
+iGV0Nxrv9RxaByfCZ6Hz_mS
+}
+
+sprite $HomebridgeLg [20x20/16z] {
+JSm73iGm30D1NXB9ARBt_xyzIAc3lY2eopO8rqVZqcTT-DY-oHIa_Ksp8oG7kx_C0IrCW7IlcWAhjkfQDUCNL6EZLZu32ZI00UwuOOfSQYC9NvWQgcL0mFWv
+rgWY00V8bMMfMqJICETtS01qTP8S4CKqSLjdYgGDIdkJj5EkDAiOBprMIZUbFm
+}
+
+!procedure Homebridge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/H/Homebridge', $name, $tech)
+!endprocedure

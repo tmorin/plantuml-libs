@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/O/Onstar
+
+sprite $OnstarXs [10x10/16z] BSQ30SG00CNGTqQH_QUjFmE_tdRLhfyBXbxAjpJyzhdnhXv5UcSsIBhqzhi8hweFAm
+
+sprite $OnstarSm [12x12/16z] HSor0KLH381Gdbz9mlxJVfTJKS7JjC6dr2g0uTlyPYsdYGNeIDiKRR2JAYfKEspIN7RiX-Z6wUAu6kdNzVydG4orNN07
+
+sprite $OnstarMd [16x16/16z] {
+HSY50GD120NHVxOAJF_TXfo-rK6dmvcB7bP9DijPo-GsNUdDZfjaJ-ugz5MLMAK1lW5nW5Oh6c5qg4uLi6eeCM5RW9QT5pwP0fHDpxt0eiJTwc2bW_TpgmIV
+Bic-74LfFfDUT5gz1hEvqWy
+}
+
+sprite $OnstarLg [20x20/16z] {
+NSZ5OKKn3031VMYGhUs_skGppN5uQEau-L16ZvaZ-bnviFhK6boDwLlh07vKQ3kWjFUid3eXr09LTKEDIZUvMjJXL4SRhWmDbgJ0gP4AgWi91wIXigbk9CNA
+C4OAgf1Ks_NEiB3aX7WTNK-0vlC6uO_pO2twQGgqxgU0dyo-mTNnoY8lDUuEhlu1
+}
+
+!procedure Onstar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/O/Onstar', $name, $tech)
+!endprocedure

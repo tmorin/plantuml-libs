@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/Q/Quicklook
+
+sprite $QuicklookXs [10x10/16z] Om01RZ393m885YUKnS36py0CPd43CLYC1weII3B2MNmW2c4AFy8y
+
+sprite $QuicklookSm [12x12/16z] RKo50S0m24keA_zVE_VLYM9RPVzqMpASEq1xp5YlR3DNNECsxncppQOlJoY7FtTF7ftP5z57FnLIZncO0G
+
+sprite $QuicklookMd [16x16/16z] PSu55e0m30FGpFMrzpyjbkA1oP-32IE1SLbqZvYL-Ti_tG6aU3bXgWH4it0q97EETgIZO-Kfy7JZ-W57Apfhc0Ke4KLsCpsNxbNUxtKwdxRuzl0A
+
+sprite $QuicklookLg [20x20/16z] {
+VT250SGW50FGu4xsdxREXzDKUJWOSILZniRAAoAT4Z7-jwJUB9o5O5S3FEcWp3HtpzLXbHZACoJYi2x3JgluD0whIDFK_TLmOXNs_5WqYB7ZIgK_RIHxdvCc
+tUSPaER3L3FmYwsneVJ5TW
+}
+
+!procedure Quicklook($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/Q/Quicklook', $name, $tech)
+!endprocedure

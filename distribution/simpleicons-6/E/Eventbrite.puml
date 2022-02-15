@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/E/Eventbrite
+
+sprite $EventbriteXs [10x10/16z] LSY50O103C30u4xsdnPzlNfvJNmENnqOjEZ2TozAOsKOtiv73VrxXdzORW
+
+sprite $EventbriteSm [12x12/16z] NOo30G0W44L_Tkq_RVOx4msgC4cTSDBAI2buzRxbRKfgT3NbCVrGtOD7u-nhWhPhPQXUdF-kZSS90me
+
+sprite $EventbriteMd [16x16/16z] TSs54G0n20J0Ytkk_suV9ZRs6nS0YqyEL-PYrv5NMyUd0eqY0xQl40e3bIYyZ0Z0raarP8J17nMDsqolUdEuADRJ88T7eCgnKW5eV1n4UKSiWpVB1m
+
+sprite $EventbriteLg [20x20/16z] {
+VSw55GGX30JGmPtqt-sztApRNmLYM8NaSUIwKC5goCwTjoZfbbnO88eQ7Z29cy2nDXVv_-dSiQapOYbXgcoclffycm7zk2m1AfncFROte522_ZAPMvpVmp2r
+frYMggnu0fNao81aqx7nZVCnw0S
+}
+
+!procedure Eventbrite($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/E/Eventbrite', $name, $tech)
+!endprocedure

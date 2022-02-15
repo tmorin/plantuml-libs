@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/P/Probot
+
+sprite $ProbotXs [10x10/16z] LSQr0SG000GWNk9o-qyRLoh0u9JtwboSugjNQgGMFo4eyHL-d-BxPynlbna
+
+sprite $ProbotSm [12x12/16z] HSg50KGn2C3GVAj3zf_sN5u5vINuAVBtoUUJpwzdxbyAfG3j94IG1CCDPKVFa6lq4zOrGkeOXTddyTo16DVpdyP7UWS
+
+sprite $ProbotMd [16x16/16z] {
+LSh50G0X00F1nPtqt-svCBy8jy52IajsOlNcqWv3xHIRHlr8clmTsKa569eSsLSm0ntLaON483erwfrjjJPBz3rNQnnY4ewF9gDcWP-f5OuC9eNSZ04aiKkn
+pYDQUQqs
+}
+
+sprite $ProbotLg [20x20/16z] {
+RSg5jSKW0C3G55eSil-qNvvBBvu3TyVaY_QJLhzQa2_Pbtk_Mev-5Ojd8k-6ogTB6skOWRwwzTeCmCZC1DIA6Zh30vaqCmkr97Gnu-K73JLMbWNfJ1iJ5G5I
+lPwXNrgmvT5Xi-S-kJJO8jjnfC0EzmOXrjQlryEbyKtIpI_p5m
+}
+
+!procedure Probot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Probot', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/F/Flickr
+
+sprite $FlickrXs [10x10/16z] Oy0FEFZvWIIGOEG70Y032XXW13UO1LJ215QDrH
+
+sprite $FlickrSm [12x12/16z] Oo0Ly0C1XE9c1R4vWKmuO42Gh50s9r0XK3qVFpyJCSO3
+
+sprite $FlickrMd [16x16/16z] hOm50S0m4CGoviM_sa5FGfjdf3MzUWECwWKMe4ko9tJSXZ1YcCoSBGcQFqbss7K5uF2UgUK5
+
+sprite $FlickrLg [20x20/16z] nOxL0O0m44DhkEs_BOsW0y3xoVab_4Q_LIB35c7L2QhYe317ATfdE5-rRdiJiIhwQwuzG-iKmXKMdOMLn715E6nhkhoMy0ax
+
+!procedure Flickr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/F/Flickr', $name, $tech)
+!endprocedure

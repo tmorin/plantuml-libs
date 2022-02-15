@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/W/Webmin
+
+sprite $WebminXs [10x10/16z] BScr0SG0000XtYLo-qyRfmLcWBu5TFi8xltyHzJCJOJPNQf65SMTFr8zuXeh
+
+sprite $WebminSm [12x12/16z] DOh50GCm08I8UzX_sdhvd0Bq1N-yMlwUTNRu-tZ30ZWQ404LW7t00_6IAGDDAiCWg0q8Ni09Ies0Pjy4uFs7s7a2
+
+sprite $WebminMd [16x16/16z] {
+JS-50O0m4CNGuDxiForM_UYxEbzw9zgedalZW7fLoofXRDpBUaIjAiXecMpwZ0FmAsPqWSWZm0n-FkdZ3B9i__zFElM0ANxeu9HO1y9Np2js-EMC3ZyOon5-
+nYaU
+}
+
+sprite $WebminLg [20x20/16z] {
+NSs5SKKn30NHVMZszjzjnihdCoYy4FhS-Q7QplkdbulgTm-ckVdLsqY2DozwiNjXus5N2rZfat2wNA3SlfQCyRQ1Ra3JiVEqJNSOoZ8dR3jqO--0h6va6tX4
+HEY0UgwuPZXPid56UWP7b9NbC6PLCun9q1iCXnBKflPRrpZaLt1ty53KojCV
+}
+
+!procedure Webmin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/W/Webmin', $name, $tech)
+!endprocedure

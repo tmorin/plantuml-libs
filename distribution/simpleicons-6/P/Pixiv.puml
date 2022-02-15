@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/P/Pixiv
+
+sprite $PixivXs [10x10/16z] Os3W1mC-C0C1MA1yPX05OJ9W8n2ot0oi87DWV7w4UG
+
+sprite $PixivSm [12x12/16z] HOs30G0W54Glkzj_senNtm8ADn7WfsnTkSaO7j9qLN3JO2gRbY_3rDiNwVlWyeNoIavlv_SrCcTkm4y7
+
+sprite $PixivMd [16x16/16z] NSc50G0X509Gx9RzfxsqCHyVC1mf0k0MtwP7YZSs3MKuaW6jqGgjhjzZqcz2Vq_jLktj5hihqke2msuh0LKup96tDAeE2-w1toXk
+
+sprite $PixivLg [20x20/16z] {
+VSv50aCn203HYNku_sdhBTJ-B5y4W26cdO4YdpdagptaVn6W6PZEN--leFC2BBa5J_BZOOfPr7GFjS1MExY7-p8GjT3MNXMtZQqH8Dr4JKot8q-obkKxlgdf
+AAKp
+}
+
+!procedure Pixiv($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pixiv', $name, $tech)
+!endprocedure

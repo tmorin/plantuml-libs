@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/S/Steem
+
+sprite $SteemXs [10x10/16z] BOk50O103CI2Ezb_MkJwgSlniJdpOzZIX0aTrzegKzSPY3dhNLqKUMIp0ARMl
+
+sprite $SteemSm [12x12/16z] 9SZ5OSC000D0cTct_xHj4jr7aA_BdbAjghMUC8jtnyLm3ta75H7ixUks4uoszTRE2bj2lVbuwFiF
+
+sprite $SteemMd [16x16/16z] {
+JS-5SS1G50CmXpdQVzkUophwy32fvN4D-V6WjjJ0ZxTt_zm_mITg3AvRMDM2d7A8UZ178hCVURUyL-22OPAXEGomZnBZZkXTdrQyMLKlzM_wMfFa_d-jyTys
+7m
+}
+
+sprite $SteemLg [20x20/16z] {
+LSo74SCW0C10kTBH_jlcuEBs0pn_gLjFNe9_RUFFbyJaHmRGh-Ev3lq3Xzs8kZb4L9T3wEwhKr853nONdBhgIHDiH1_iRWJ1eJeiMC18KJqTEWfAKCK9tL6Q
+scZ-nKMdWzM_qpyW-SMGVTkO3X_SebCx67u
+}
+
+!procedure Steem($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Steem', $name, $tech)
+!endprocedure

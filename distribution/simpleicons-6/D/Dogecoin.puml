@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/D/Dogecoin
+
+sprite $DogecoinXs [10x10/16z] Om02Jdus1X3W1mDE80CAM44ie0GxK1J40YE848Z51XU3gkC3aa25C3MiK0O
+
+sprite $DogecoinSm [12x12/16z] FOk75G0n249Dxs7_RK_qNNwA1H2oqCM1yrfYRTRD1Oxt9xCkwm4f88UX6e7-xwi-wukmyhMK6WiNpXNbiEFs0m
+
+sprite $DogecoinMd [16x16/16z] JS_L0S0W30JGA-wt_xODplj2eXXiPVwmLKuUtSUZGV1HLZ24er3p6yQkI3llbGn8SghdJcXE5KBkIixv-JSaltFNw7-OzwwdjzbMQstB-gYy74Hvhvrwjla1
+
+sprite $DogecoinLg [20x20/16z] {
+JSw54S0W50FGjBXc_sahsEMTmNSigRDwYC2b6ImKQOTKtY7bzYpyxhBU77HPF36I0MXZZyHeuVdf8rI1MZiB3BU6NsR3FIgqDyywhx4RSNnshDPq0NDIq_l6
+HZUdqdniFFUF2yMwGHaCJgkEDQav_5u
+}
+
+!procedure Dogecoin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/D/Dogecoin', $name, $tech)
+!endprocedure

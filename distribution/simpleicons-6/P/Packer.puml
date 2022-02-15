@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/P/Packer
+
+sprite $PackerXs [10x10/16z] Oq01_DnGcX-8e2n-RY0JmkBZvsSXYWKp3y82
+
+sprite $PackerSm [12x12/16z] dSQt0S0m30In9vtZxJ-jhQnUgA1WLVTYPVOAA8V3mSjvWU7hIDSLtvJ_
+
+sprite $PackerMd [16x16/16z] hSUr0S0m44MnVs5--qyRChksEkapgZInvjC83F4hYqx0uc7eW2wTSmUoNz-juPVgiXFzUlVCyhrmXJy
+
+sprite $PackerLg [20x20/16z] lSgr5SH04C3GMUPL_zNUcTcf5VudcTDoZtPNe9mXIc38doSZTTIJqRHkWDvjh3Y6pjPVpNvlYhk9U92BdR8t6_EZtSgx_G4
+
+!procedure Packer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Packer', $name, $tech)
+!endprocedure

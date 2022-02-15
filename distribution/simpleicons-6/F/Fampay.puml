@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/F/Fampay
+
+sprite $FampayXs [10x10/16z] HKc30G0n4CkRRVQVjZWZH4wjWYIeps6vYHdg8n_Dl1ErGEUII2OLH7K
+
+sprite $FampaySm [12x12/16z] LOd50S1008EeUzb_skefhmJ8T33_wrJKXauLqELT6y3mhhDJW5uF_yci__etYTqzxR4EPAOMu0O
+
+sprite $FampayMd [16x16/16z] LSm50O100C30uRokVrfSBy3n5_bejJ9gO3UhDangXUHk04QjWxj4mqOxrT94MpPJLEsAog7pbE2T3To2El7gB5ta8oShNofVlVBJsV8dXnK
+
+sprite $FampayLg [20x20/16z] {
+PSo50SGW04FHu4xst_OkrDjNvIFuQdX9amMOd3XC_XaqVO92M4NBG4dmv97sw3gNPWma_DEWJ5WEB9n9PJXz8fOMbKgdOEUvcm67l2U3IrNe5dSwpneyiNks
+LqjQYPUkzhQtTmpuuC1NyS3o0m
+}
+
+!procedure Fampay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/F/Fampay', $name, $tech)
+!endprocedure

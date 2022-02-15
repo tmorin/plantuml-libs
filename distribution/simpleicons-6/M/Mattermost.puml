@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/M/Mattermost
+
+sprite $MattermostXs [10x10/16z] DOY50O003CE2E_d_MgnigmFCFTyfo98moJPWpOkW9UsN1ic99iXY3XZ-S0C
+
+sprite $MattermostSm [12x12/16z] BSY53G0X0C30lk7G_RVz88rTogo-dFJXlZO3u8rWd_GbTmI6Vc2TTjlfhe39nadqEPos0gz6y3G0-jIyFm
+
+sprite $MattermostMd [16x16/16z] {
+HOy72W0n20JtUekP___sM5XmKkqgcRrsDGDUgI8jOEE5D2s3xzKFGofEou1TLq54lyMEWux89qKvMUGjhu37UZvGKomue5iHyBOuTG9pKv9AcZH7ncanlKFo
+_W
+}
+
+sprite $MattermostLg [20x20/16z] {
+LKu54iGW4CCTyl_V7clNDYCROeDJj9FS1mL0lxS-qbKANTAxIOll90r3KonLq7iYCsKf0PZtdliKHbTOHdEwVm3T1JeGBMRQUMlDc7G3CViQi9dwMfsQsMp3
+k6zynKYz_H5fDiiugcmE3NHyOQilH1d9dvIXYR0pltu
+}
+
+!procedure Mattermost($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Mattermost', $name, $tech)
+!endprocedure

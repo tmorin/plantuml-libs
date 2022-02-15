@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/P/Pokemon
+
+sprite $PokemonXs [10x10/16z] Oo0My33oSF9piJ03cPmC78oy3CmS35oCd0py3Bni1BG2
+
+sprite $PokemonSm [12x12/16z] fS750O00302ngnVPVrtyZoNye6f8L1OTI4VCqbGBLXBIrgCvE1VZWHK
+
+sprite $PokemonMd [16x16/16z] jS455G80442nVsuy-hT5Ei36todWJ5801qRRPY0wFZmqedWAKC9NKPCZkT9oC6Cc2E0Ume-z0G
+
+sprite $PokemonLg [20x20/16z] pSQt0S9G3431fn-KXVVVbj8Zm5N7Nr9_sorq1S_DEUm31cTJYz0pWXeVPSYuu2OoO5lTO9_USco7djgW6AH8HY0FCAdE0bpWjPnV-G8
+
+!procedure Pokemon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Pokemon', $name, $tech)
+!endprocedure

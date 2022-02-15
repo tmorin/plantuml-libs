@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/C/Chatbot
+
+sprite $ChatbotXs [10x10/16z] FOc50S0W4CHIzsR_QN5uEONZ_VsV1UnpI1s_eHJ_lQ2O1v_HbXuRhggrk3D6
+
+sprite $ChatbotSm [12x12/16z] FSo50GC120D0uDsu_QUjzt594b7xrVfS8y9jLp5LPGqJkp6-Tchrcm_aGlEQMmxupAVXnXVhIphNbO0uONkTnf4U_zBoqvu
+
+sprite $ChatbotMd [16x16/16z] {
+LSlLOKCn44JHUIZUst-rYMtn-LaSIK_C1cR97v8kLXAx1svr2I9ekA6iyma6Ul8fwJ4TVCbHwQZtQvbppRlmr7oeS-L1V9tg8OKwPyOXcpd0p48FbkzbKLBl
+_W4
+}
+
+sprite $ChatbotLg [20x20/16z] {
+RSy50e0W44JHbUwv_stTmOvlFmj4YwMD0M3qcgomXcU1zCu9j5Roh5G-CQ9kSa-n0FLjNVbjWxRO7JoDPU57KoW07iOE6pJxiECVBZUTc95fzMSidfinYp1Z
+JEK7CEignrUh-CCQzaIRvWufScGuB2kFpFx0muQHinK
+}
+
+!procedure Chatbot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Chatbot', $name, $tech)
+!endprocedure

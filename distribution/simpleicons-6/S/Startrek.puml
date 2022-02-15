@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/S/Startrek
+
+sprite $StartrekXs [10x10/16z] DOk50G0X30FlNI7xJujKhYvXSf5eoKRoQdmWRx7Uklsrxj5ss1MAPAlYwehJ0G
+
+sprite $StartrekSm [12x12/16z] HSQr0GGn0C0m7qF0-q_x45GbYel9OrQXM88Q-JDRP13yEpR3pcv1ZWlHWeIe5wUBhEe6A835TW6y50TV
+
+sprite $StartrekMd [16x16/16z] {
+LSl50SKm30JHiQrmekc_se_1TnBiiXjuA4xSgToCQbxXoQzXtr9tAn1Ex9UIWWrqBwmk2U4Ep1NcsnxkyRveBMAY2aoEZf3xIl6xGg-QwYfVOQajMe6Lhpwu
+l04
+}
+
+sprite $StartrekLg [20x20/16z] {
+PSY53SD000J1DRpXQVllDZf1o2CUtauUDYl_r8LVJPLVnid7SWsDyXxzQCIjPr6DgckgWX4hkf32Y1iSJM3t3NOLk7q3h09JurOtYjZ160kxjiN1PKUr0WnL
+u3HkOjEv4COS6a1KHvrgltTS8QPyx10k_7W1
+}
+
+!procedure Startrek($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Startrek', $name, $tech)
+!endprocedure

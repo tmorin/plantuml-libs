@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/J/Jellyfin
+
+sprite $JellyfinXs [10x10/16z] DSR50OK0042XzpkL_QUrvKIhiGFENDpsrTqMYKfSKyOGgTVltiNNlTNWwJG3
+
+sprite $JellyfinSm [12x12/16z] HSX50GH10CJ0x337lzfZg4y3BuSVzLzrl6initrt3w00Iv1W11peHb_tfH8Ck1dgXLvMtev7TyinzwENVtS
+
+sprite $JellyfinMd [16x16/16z] LOw55GGX44FN3MP-_ztU1ITexC5IuCk85HWvW7NgyC5TwQNm2Jsz__TO6q6NM_AMk8B6NXl6bzyh0TqSU1HGEqehWJM7WhczycoLFdmaWXs5te0pG-A0xGS
+
+sprite $JellyfinLg [20x20/16z] {
+PStLeKKX34JHmPtTVxLFSkNO-eB8H1zXwwu0kehmA6B6hJGT4FILOKaUk8ozGxlU1aJzczz1PsE9Oy76x3kbzZbZAG1UicFI1gS0jbV1MTgsT6mFi0X9c2Oj
+S9zJfOyMPMlDlLE_W0v47HPVQum-viPadkJgXCFkIRy
+}
+
+!procedure Jellyfin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/J/Jellyfin', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/S/Sonarlint
+
+sprite $SonarlintXs [10x10/16z] 1S450S10000XvlxNl-q0hZPGixsBRj0cGDSycQ4uNDxjtdT00kGAXAtkuWS
+
+sprite $SonarlintSm [12x12/16z] DSR50SC030GmXSdExJzjkNe9NDa1IUsTG1PGyI_TuYzNJQDBsoJxdIo7EfEzOJ8GyHUfVrVI83TqtbQU
+
+sprite $SonarlintMd [16x16/16z] {
+JSc50S0W3031hrl2xpzjtGxYdDfqgNYabu53zJHXibDkhG4fF3fh7FWKE_dfJ7746OCIg6tlqfTftdzKBdPK1QvVMydF90OVay6MnoAGTizuTM4vwkHpg3qL
+TXi
+}
+
+sprite $SonarlintLg [20x20/16z] {
+LSo5WSKW403HYQ2tPFglzhv57yuAkxOPYPlYRipit1zPRNnfi5kr0-p7JXCKWpi5vQ5OSV2apPa9c6z_csJ_w5Q6Apg5YbZ4DZ1wwjsGncAYEDE566OpJuho
+C3k-dU_2nApSP0MQFhy-kfQzL-Z2LrADFbGvLRz6ukC5
+}
+
+!procedure Sonarlint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Sonarlint', $name, $tech)
+!endprocedure

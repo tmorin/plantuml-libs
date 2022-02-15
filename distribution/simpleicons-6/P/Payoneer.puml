@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/P/Payoneer
+
+sprite $PayoneerXs [10x10/16z] PSQr0O1000ImuCxjloqD_gdYBubWoOoGWEuApHLbT5TsbmC
+
+sprite $PayoneerSm [12x12/16z] RSZ50OG000Emd0lI_QV57VAfsBe1toG2akf6_UEMW4VbdezH8NUpRVsOtMjciNfTtoq
+
+sprite $PayoneerMd [16x16/16z] TS630KHH0C2mVZoZ-qzxDXB-szI1tAZEJfgSxMe0M0J86hboXwhSkL7iF4oYbHUBZLSENbLvuyAhMNWZRyhEcyAx8m
+
+sprite $PayoneerLg [20x20/16z] XSY50OHG3C3Gu7pD_jEUA_hgvLGRggLZvglum20lWsgUEcYTUKXgv4cvoveR_dxgm4VnqMh3ro2e_2b42mkTij0eIyMMXS6H9JDBiwmuiDHLLkh0Ii_Q5G
+
+!procedure Payoneer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Payoneer', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/C/Containerd
+
+sprite $ContainerdXs [10x10/16z] Os3WXm06x2m8XSo2O1YBYn-J1GB8fW
+
+sprite $ContainerdSm [12x12/16z] Os3WXm8k1XBO70oOR6u6882p8UAOR2ukLapr2FC1
+
+sprite $ContainerdMd [16x16/16z] Os1Wv4S01WOgyE5iN7mUPX10yBaPG0253rHF4f-BYmktUNoS483DlG
+
+sprite $ContainerdLg [20x20/16z] Os1WuEP71in04JgB0TcaYt4pG05XCLOE3WvqCIwWUUIAiNDnSP7W5fB21G
+
+!procedure Containerd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Containerd', $name, $tech)
+!endprocedure

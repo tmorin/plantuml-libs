@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/C/Cloudbees
+
+sprite $CloudbeesXs [10x10/16z] DSR50OK0040XVgU-_QUrvGGUWAhjzoWOGw3lkL-f-eFuT4wWqJ_mgDup
+
+sprite $CloudbeesSm [12x12/16z] JKs50S0m36AhA_zVMxUu0W3vOObdarMtGhhP9AxG973SxHkhFPtJhVv9Zd_-mBhvo5D3prfJl00XFeojh
+
+sprite $CloudbeesMd [16x16/16z] NOs50G0X30FR5noo_xIu7tf1IfdlemqK_AbWT7s0lwRTFG9LbvVhUVyTFlyB4dLH8r3eb82r_G6dbE_1VFzVJjD3BSlJHRdmOZgXyT105sLA
+
+sprite $CloudbeesLg [20x20/16z] {
+PT053iGm3011bqFs_l-t9mUaMBVbAKUy-v7OQNZtHXSZsQu5I9-ASYowmUQfj4pXyUq1RPd1DP-XonAKO1u3WsLwmiWUnnfilkhCQkRMMdDyj-VgUbGmp_Yt
+6eomzNJyU9iMnYoCv3CfXG6lGBj4VW
+}
+
+!procedure Cloudbees($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Cloudbees', $name, $tech)
+!endprocedure

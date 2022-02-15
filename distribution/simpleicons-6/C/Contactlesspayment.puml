@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/C/Contactlesspayment
+
+sprite $ContactlesspaymentXs [10x10/16z] RS450G0n50KWpcNo-hTTWGzgPx_101z8GZVnvtD-c9bixE1LMW
+
+sprite $ContactlesspaymentSm [12x12/16z] ZS450G91002m_RbV_xPG0DdyfJv82H8yD1AvdrjggmxthMpF0tbSCQC3SiPJmnEhBru
+
+sprite $ContactlesspaymentMd [16x16/16z] dS570SCm400msRwH7Vvi-ok0IBwO4TDV3nWDh0654G1zkiPSYGF7PRsvHHWUl8T-nz5YIjGpvylMR19kHSq51Gl5XEXbh4vV_
+
+sprite $ContactlesspaymentLg [20x20/16z] {
+jSlLeS0W04Mnu53TVzedrGaQvEiUdyZJCbTUfGM7sbnMX_5yT11xoqf9rMC_ZcmiM8uyrpNiISXLONFC-XJtOvGD7SR8HvjYHfHWiyUZc0D52H3Yv2WgYCKj
+TBVQSX1IRS4dVW4
+}
+
+!procedure Contactlesspayment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/C/Contactlesspayment', $name, $tech)
+!endprocedure

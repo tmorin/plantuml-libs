@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/I/Iconify
+
+sprite $IconifyXs [10x10/16z] 1S470S0m40GWkflrvzzj05fUa1kp4S3ZTe8qWX00Bm1JsZ4Z6XeDJn0s
+
+sprite $IconifySm [12x12/16z] FSQt0O1050KWp7hfxR-jtQS2zBo0F1Y10ABAz124rTNlAFkhl8PvuEeYj2Ityo70kM2kUtlpy0C
+
+sprite $IconifyMd [16x16/16z] {
+LSVLeS0W50Mmr80Az-m_xNFDNu1ZvbvyctdsjLKQa06O4xBvTZtCuLUjWXlsmPBZGLRC87D75lG7bTLVTRV_NueDi1EXvrYiFRjMscJFkvLWNbWto05FBQ1z
+bZMfgXIy0W
+}
+
+sprite $IconifyLg [20x20/16z] {
+PSm53WGX40NH6f_6wlwttH1OVx7MpnJDSiBRfIKYDUlAf3j3CUQeyhAPNgCtZvx5bqDm1sRq1k2DlFzjm6wKsNGwcW28Wox6iy4lI_gVdUr_Xa3T68uAgL8B
+R1hRiXS5F5ZTOAbs2SW28TqLE-ykUS2KdT67xdChBxTszQ1x
+}
+
+!procedure Iconify($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/I/Iconify', $name, $tech)
+!endprocedure

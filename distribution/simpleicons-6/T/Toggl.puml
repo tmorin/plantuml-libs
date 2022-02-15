@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/T/Toggl
+
+sprite $TogglXs [10x10/16z] Om02Jdus1X3W1mDE20D4i888Y0GdI8G1B0fdiO5OO8nG1pGC221SLYW3
+
+sprite $TogglSm [12x12/16z] BOk50GCn4CFSFeMr_xH1wnYiHIRemC4jRILlTwuh_ruf01dAXx3g1H4Q12Z1YlDVVgzxMbpvap1Daugt0m
+
+sprite $TogglMd [16x16/16z] {
+LK-50G0X4C9ktNzQW_j4hnk4QwCet6X346YfyQ0V-ugHroVvScj8NeVHT3W6yuuRSzIJddS8_08VnUvRBvkIVbigQlLqCe-p0HQCT7XP97LARl_2OwF-JK1_
+hba
+}
+
+sprite $TogglLg [20x20/16z] {
+JP054iDG24Gtdc_i_KzRWHs6roR13Q8Pvut2Gx4E21PQcWgzc3eaNAfLROIaXeuc-OtlWwV3TYWWmfldRc4qHRjjWCajcy53PbQrZBkz0BehQY8F6cb7A0jB
+m_mnBR8p66rA0j0e1FvqLdJ1gqObhyvykVO5
+}
+
+!procedure Toggl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/T/Toggl', $name, $tech)
+!endprocedure

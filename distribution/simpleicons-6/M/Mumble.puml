@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/M/Mumble
+
+sprite $MumbleXs [10x10/16z] BSQ50SC040EnAqD0-qyRVh1LzHuVLJdkKqY3vwMHdvXzdmp1DwykVVjTildGlNeGjG8
+
+sprite $MumbleSm [12x12/16z] FSR50S0m0CD0bRdQVzfm8ljnvCvtfoQRy5UwYhDWCtxPRJwkixdvLcd6ynx--OR5uHryz4p_IBt56qG
+
+sprite $MumbleMd [16x16/16z] {
+NSz5WeH05C3Gb7LZltB_quxWaDrRXhKyBmDdorIqrsYiMGhTRsMCbMBwypTmWJZTqOohmphyswfcEsIZg66GNOkCAZStvuSnlSp3EVYCDtSWniFxmQncKlsw
+4f9h2y0l
+}
+
+sprite $MumbleLg [20x20/16z] {
+PSo55KCX0CNGXplPVziUf9wlN4Its7fr-YXI6r1RjxhHrek-tkdGHBbkGvwo213Nci1BwTEw08a_ozUGIyOVem2o01F8rfy_SunjYW1DNoRewCSwuSyo-hC-
+DCgFuMNvjdrOvjCiMXLMoIR80wkT0_3omDIhD5arfzK3
+}
+
+!procedure Mumble($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/M/Mumble', $name, $tech)
+!endprocedure

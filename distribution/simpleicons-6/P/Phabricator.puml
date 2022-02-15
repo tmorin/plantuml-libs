@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/P/Phabricator
+
+sprite $PhabricatorXs [10x10/16z] LSh50O100CJ0u4xwhnOzdTyAjP6VFQi0yl9j6ZrG1P5LND4PBNwWgrAu0G
+
+sprite $PhabricatorSm [12x12/16z] NSR50K81040XxFRjFwtjBqwmj1fIzmBhODElxKxsKQekgkxs5r7AhJefshWwkGJj-PLRTJJt1
+
+sprite $PhabricatorMd [16x16/16z] ZSc5OKKX5C3GFCCX-q_RVdSxS9rVJ4KDd2L72aLd3ehBjPvAeK1rXkA0MGLqtZJH7OkkU1302GTqHGjDcswep0gedDh50XiRA02B5SxNKsVNniKSyiPB_m
+
+sprite $PhabricatorLg [20x20/16z] {
+bO_LeO0m5CM2UxF_j4yE_acWxNNXArtVy68mRFLjAje2imwtQRYbfr3H04QcQ9H5e8anjQerBMPGXqc5LZkA1LODm2QCTkbj4rkdSn-fg0mw0wfZdHSOSg-b
+lvIyXHEzjsrEWPDENUUKVp2gRXsV-0K
+}
+
+!procedure Phabricator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/P/Phabricator', $name, $tech)
+!endprocedure

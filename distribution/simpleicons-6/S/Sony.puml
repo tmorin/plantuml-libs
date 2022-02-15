@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-6/S/Sony
+
+sprite $SonyXs [10x10/16z] Oo0MiC9P_222Yuk1WrYj
+
+sprite $SonySm [12x12/16z] fS450S0W002mNN3htvOEiBdmjAAd_lROcpcNvct2u-DtPWC
+
+sprite $SonyMd [16x16/16z] lOO50S0m4CHIRX_zgns8s0x3pzBInXfTQXBbAPOhuOsz9-w5YEA6CXx-M3S
+
+sprite $SonyLg [20x20/16z] pSZ50S0m243H7nTi_stBiIFauV2wDaY37vzb8eEzYKl6wPCRGG3AkdfpRkHCeTlqkYM_-JkyxWC
+
+!procedure Sony($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Sony', $name, $tech)
+!endprocedure
