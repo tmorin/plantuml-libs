@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Minimize
+
+sprite $MinimizeXs [10x10/16z] JOZ50G0m20FJDtBxJritY0kjSo0GOc19AdOgTqFt_csdRtDIZAS1
+
+sprite $MinimizeSm [12x12/16z] JOg30G0n54DVxMR_QS_ePyJWAHkcX18gxWH7jUiAFioYHzASqzAEQ_XhpIJASUU5BUx3M7rOGI8Qd47Q0G
+
+sprite $MinimizeMd [16x16/16z] LOk50O0m30GFzzp-q-8IsjWRtS3tWaudYfcprL6Tj20CLNRWYSzTmfHm1OK92_EDbtjJ78zl_zwT3oXLboy_tPj8U0HCU08pTWcrYXqF3fsAbb1mTgSR
+
+sprite $MinimizeLg [20x20/16z] {
+ZSr50iGm34DH5SFH_MyxYelkQdx9UIKidF0kL147RZE0NQT4Df5G5v5EoPOy0y8v5KnVwu3GMOLgtkoFT6RJV4_hDVtV7aQRfc3D8j9w_st-MeVoPfIySJRo
+nYLGrSjwlvOT60OR51eBtdM67m
+}
+
+!procedure Minimize($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Minimize', $name, $tech)
+!endprocedure

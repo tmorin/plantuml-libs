@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BookQuran
+
+sprite $BookQuranXs [8x10/16z] O-070qP-161WuuLG_4nWceiVh8WBJ89PG0oIWiWoW01G308
+
+sprite $BookQuranSm [10x12/16z] DSV50SC05CMmruPH-qyR_ZhPyTehQjEzbSPh3cbX3SFkbYZDRyUcHFleHLvsvGG
+
+sprite $BookQuranMd [14x16/16z] PSl50SH05CDGXJdglzh53B_J1vlBQ7YMnxESfz41_MW0sMkXqsLuIYEJmlFRGC_B1mncEi3MOWxdyJ4f3WINU4LwcHdU
+
+sprite $BookQuranLg [17x20/16z] TSe53aCn40FH-HZEtF-s5LK1jK-qQvlif41sTVjRFZcpmm6KClu4hpD0VT8KN1eWZU3K3dwTuAAn9mKuZdMKcd-SRh3VGr5i38TYFuUasLNDsyy7
+
+!procedure BookQuran($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookQuran', $name, $tech)
+!endprocedure

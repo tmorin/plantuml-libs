@@ -1,0 +1,22 @@
+@startuml
+
+
+
+skinparam DefaultTextAlignment center
+
+skinparam Arrow {
+    FontColor $FONT_COLOR
+    Color $FONT_COLOR
+    Thickness 1
+}
+
+skinparam Card<<IconElement>> {
+    BorderThickness 0
+    BorderColor transparent
+    BackgroundColor transparent
+    shadowing false
+}
+
+
+
+@enduml

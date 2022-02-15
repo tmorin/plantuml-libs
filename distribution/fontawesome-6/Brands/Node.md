@@ -1,0 +1,63 @@
+# Node
+
+
+```text
+fontawesome-6/Brands/Node
+```
+
+```text
+include('fontawesome-6/Brands/Node')
+```
+
+
+
+| Illustration | Node |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Brands/Node.png) | ![illustration for Node](../../fontawesome-6/Brands/Node.Local.png) |
+
+
+
+
+## Node
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Node
+include('fontawesome-6/Brands/Node')
+
+' renders the element
+Node('Node', 'Node', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Node
+include('fontawesome-6/Brands/Node')
+
+' renders the element
+Node('Node', 'Node', 'an optional tech label')
+@enduml
+```
+

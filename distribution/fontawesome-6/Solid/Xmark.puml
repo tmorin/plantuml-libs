@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Xmark
+
+sprite $XmarkXs [6x10/16z] JSJ50S0m0CF0AtEz_xI1Nsn9XYqxVjby8Jskp1nPec4BM80A
+
+sprite $XmarkSm [7x12/16z] Oy02c7ZvWIGBFmC_FmCpFpS3aERd0ue0QGW9eY6O5oA2gXy
+
+sprite $XmarkMd [9x16/16z] TOd50O0m54DJzxxzfyLFGBz4jHvJRsw3VZ88gZHF2sd27T-i0lRa-2GUJ08PS5A5WJ_xZgokSVhC3W
+
+sprite $XmarkLg [12x20/16z] bOm10WCG30C30EJ_lrsiVS1su58KVv9OtIuFMRwwIT22QWj18MCz5Gf74uz8iM4CUJJjKWzDahHCBv0LWbTGh1lW0HrEAlY13m
+
+!procedure Xmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Xmark', $name, $tech)
+!endprocedure

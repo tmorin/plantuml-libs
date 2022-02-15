@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/LitecoinSign
+
+sprite $LitecoinSignXs [7x10/16z] Ou02PdumnO96yVDpC_3nOvTZ0m861duG
+
+sprite $LitecoinSignSm [9x12/16z] Oq00VZY36PF1n0kIvkG70bu61Zv-VWwu56u6603ryV210G
+
+sprite $LitecoinSignMd [12x16/16z] Oq01Z3m8DWy_Ct5iTcuecvSV29Y0J3v-4E1XX38vaDMJoERb0GEW5TpyC01oA0m
+
+sprite $LitecoinSignLg [15x20/16z] Oy00p2meN7v-9bGkCybS5ZYNXOs7dv-V3Sg50YQG4YYR2wAM3yJcG1Z4mOfcCcLS3ZOeO09p4G2TYme
+
+!procedure LitecoinSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LitecoinSign', $name, $tech)
+!endprocedure

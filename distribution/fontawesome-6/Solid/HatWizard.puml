@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HatWizard
+
+sprite $HatWizardXs [10x10/16z] DOk50G0X3CJU5SZ-qwAXtfF5EDqx7e37ojsFG6IJaprOlVYcvNstjqRxZ08
+
+sprite $HatWizardSm [12x12/16z] Oy02-FXXB0v-VbOeany8e4mUVWPc69iV8Su1PZD1XM4Q84fv8Mn-g3WtmZAm908
+
+sprite $HatWizardMd [16x16/16z] LOs50O0m40EhEDp-q-AGvgflIMY95isqKOLPKUOa_U70XSfiP_yi9IWhWyeFFYqzu3eil_CKLWr0UhAFOWBM8CMKJqA-ERLNfySv
+
+sprite $HatWizardLg [20x20/16z] {
+PS-35S10403HHQpflzhu_1-EAwdqKfkeRnoEyiPsO2okTXwQtIWVoMoWGnKAY-XMVsC_m8flJRw9mF9l-ynZ2LSTe5O6mzg9-48QnFb2fkpZzctvzFAO7sRp
+vmcsXaBBQHmN
+}
+
+!procedure HatWizard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HatWizard', $name, $tech)
+!endprocedure

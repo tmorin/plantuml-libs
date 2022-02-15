@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Toolbox
+
+sprite $ToolboxXs [10x10/16z] Oq06_200OS4mLi00mIWQeHW1sE0i
+
+sprite $ToolboxSm [12x12/16z] TSc50G0X2010Mvhzf_tkEAN3NVBPsakVafSfHJPbPXUU5hzWliq102bCAJI0QIpBNdncSs6_YtOQ0G
+
+sprite $ToolboxMd [16x16/16z] XSs50S1020F0r0L8zf-sxdhl0k29SLIjnrQp53CNHihdLwDi9BSIe8vgrxyQdERrdC6dQZRCkD0WHso_HhHrlgFEa9pr
+
+sprite $ToolboxLg [20x20/16z] bSk53SG034FHNuP4yVxRdjmUSvyWQ3xgnnqtaowu2asZfJekKWssg6SpH9Gop7NrIi_ezQ9qnCme0rtrj3B8lRnQhANPAamkBzcBYf9bw8XHh-3L2G
+
+!procedure Toolbox($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Toolbox', $name, $tech)
+!endprocedure

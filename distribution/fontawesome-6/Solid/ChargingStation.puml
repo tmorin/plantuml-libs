@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ChargingStation
+
+sprite $ChargingStationXs [11x10/16z] FSR50OC0002ngtkp_xGuv9N2hmLuRFsVFUiZhtZs9-_wFNiHuTAlmDFvwFLnD7fRL8q
+
+sprite $ChargingStationSm [13x12/16z] TSUn0G41542n1m3_il-q03hfKd3j3RZyShsOEhJ4AS_CHNPrMAOGoY_RS2x52HRlmFG_HuV6Mqzt
+
+sprite $ChargingStationMd [17x16/16z] {
+NSW55e0m30JHgU5axtzRNe9tglamoLku6wM_cAw0L6eAM0YWpLDr6Aa1QJVRC3NO7OA52N22V85ss2Jml_cL_P8bq1wApke5LvWwc7iOXTOl82c1xZ9amFH4
+T
+}
+
+sprite $ChargingStationLg [22x20/16z] {
+RSs50O0m34JHgtjk_scHuFBnHmN0e3Pmo_3CN9ekJM-LGZ9ZgJJ3NGNsgnKeksQHphPg0S1TXMkBwYR69DLnA6jTVQYMGvTqgYewIQ-Q0Aw9qpc0gdNSQvSU
+PP3sHmFZZtgc7xNia8-2IttH_53KKTOxRtNi_UiC
+}
+
+!procedure ChargingStation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChargingStation', $name, $tech)
+!endprocedure

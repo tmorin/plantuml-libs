@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Toilet
+
+sprite $ToiletXs [8x10/16z] O-U700O2D3yF0mXWoZD0AHO83G
+
+sprite $ToiletSm [10x12/16z] O-U70MOuYu6V6yBXOm0IM5byK9KGmC-2q8jWCVB35K6r0bamCG
+
+sprite $ToiletMd [14x16/16z] XSp50G0n4090uXxwh_Oyig-Rtme4xfgOq1dCMAbhQfNRDFnCccGqIccRUVCOEYCVtp-uGn6TssXnuO2B5rFbe742
+
+sprite $ToiletLg [17x20/16z] fSwr0KCn00DHcTdQVzlaC_Chhph7A_1SG1E0k0YDRo5nGJeoMuM6qBushM8YoTYa5BnpFcJ-WIkeN72GN02WEQbef2cWnOblVpWfE-47
+
+!procedure Toilet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Toilet', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ShekelSign
+
+sprite $ShekelSignXs [8x10/16z] TON50K0X08NudSh-qzfNNm0ZGHNqXSVcXMwdfliyVyy3LJ8
+
+sprite $ShekelSignSm [10x12/16z] XSQt0O0m0C0mqpl-_rf8NwD9D9jHY7hVjwOHEASz1-vflfqTrC6Obhp3olm64py
+
+sprite $ShekelSignMd [14x16/16z] bSV90OH030D1pRaBsAFyiyNYvac_kl1kA6-8ab6faD1BATL5gK2HwL1UWC5oQ65wo3x9c1z21loIuY5Jf0ycB5G18058IhC2
+
+sprite $ShekelSignLg [17x20/16z] jSp50O1044FHuCxllrfWtSwyuqmIDMPdb3MC5y5a3kHcgGEuP07beOSk7SmapF40MtquVpgSg3WOxM6BXsisRZZy8RWrivezRrVh1G
+
+!procedure ShekelSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShekelSign', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceKissBeam
+
+sprite $FaceKissBeamXs [10x10/16z] BOC50GGn082O--YVzlKGW67bYoQQ0znyiI0BIiIHYD8toiEg3QWLH7WUmZ-ABeKt
+
+sprite $FaceKissBeamSm [12x12/16z] DSQ50GCn40F12RxfhFwh3KUuOAO1akgLGEvWnH-f4hTSLSWistReakwlj8Ar4C5_id1iSf3YHZPKtZfu0W
+
+sprite $FaceKissBeamMd [16x16/16z] {
+JOh55GH1508PRVrT-MUxotWTa0Sws88swIOuIJ8JP9bEs40NAzrdFUpCyfckKmORVmrM4UpQyNsNDYMB07sXNPquRRfwvLAwmyncOsXdTKhUkoNOlI-kksGR
+zifPFHuCvny
+}
+
+sprite $FaceKissBeamLg [20x20/16z] {
+NP07OWCn3CDmUml_Vss7PRL9UCCKw4tN4TuhBzhiUgP2QamzEWhTbIvwlgEi5jWiL30_hiYH8-pk672eCAiZwE44ZZXpxzm7Q0YCmC2Oxb7vqELTRFLC4wvk
+1LrhCpLuD7hxyBYapx3LvTbQkBNoI3ZxK0XEtSdnZqvrG-fpXIgKTcqyb_i6
+}
+
+!procedure FaceKissBeam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceKissBeam', $name, $tech)
+!endprocedure

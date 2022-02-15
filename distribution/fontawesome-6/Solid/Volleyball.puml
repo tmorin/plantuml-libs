@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Volleyball
+
+sprite $VolleyballXs [10x10/16z] 7SI50SCm00CmRyMW_h-s94CUHJxcf9S48RRl1vnsGlbUfiFAQDIrXlYaHCk__FC0oGq
+
+sprite $VolleyballSm [12x12/16z] BSY50GCn30ImUwOasd_QaYkpy_N8ds3oMmdxKEk4IOysiHCU4y9Imv7Jmd6mtCp979vT2LbdS2Jj-OtIgUyR
+
+sprite $VolleyballMd [16x16/16z] {
+HSVLWGKX50MmCmPFvfB-grs1bVmbqrdoxquXewqoWefQvJgmlzr9OTk2sjZ3dRVZXU1K6LIm3Sft2OuRUv_DllxERFVCSY8llu8hVbKQUQPPabJlF9BzsBEO
+gkfQtqqZIJu1
+}
+
+sprite $VolleyballLg [20x20/16z] {
+JOu55WGX3CM2E__-frqfh6G6p_ijbxRb-2TJzOAuF1Tfi-rogl76ZXNTkPlrPbDCh5BYx0FfY4uIwCuiszs4IPOKlTrPk6HNjuflafQ8UjEnO7jlo3XDXNV9
+IJjMLWQ73uvescASW1HJFscRgX-BBicJz2FXtzfqVoRGhC41-DAAnsWiYwaf-92uw0TVRjWwrXC
+}
+
+!procedure Volleyball($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Volleyball', $name, $tech)
+!endprocedure

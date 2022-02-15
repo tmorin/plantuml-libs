@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BreadSlice
+
+sprite $BreadSliceXs [10x10/16z] Oq02JFmW06Jmmm0Fd8KGWqip4Ci2
+
+sprite $BreadSliceSm [12x12/16z] Oq05BFn0mCS4Pi400mC_Ti302sTo8IbY89tDmmS1x0m
+
+sprite $BreadSliceMd [16x16/16z] jSUr0S0W0031ZtlOVrhSeUMwesS-l__T9vVf4y45R287elHNFwepVTbM8Fyyu4zrfWGK
+
+sprite $BreadSliceLg [20x20/16z] pSYr0O1000J1nPthlrhSZyz_mY4iBSgop9D7wDApoKOzTK2XBv0PUhbH3faEFZj2r3VWr_1h1W
+
+!procedure BreadSlice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BreadSlice', $name, $tech)
+!endprocedure

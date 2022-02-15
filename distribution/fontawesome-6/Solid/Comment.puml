@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Comment
+
+sprite $CommentXs [10x10/16z] Oq06_200f5du8G0e0WFSS1OldCM0OF516KmCSAtSG0m1
+
+sprite $CommentSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTRycWDbj7TpLugV0sH4xuDVdP1dJezz7LN6O
+
+sprite $CommentMd [16x16/16z] RSa54iGW0C30u0x_V-rTlKKokXDM2PjhLBTKkoe7GtkJuDitQ7rkS1rS1il1z4o8pi175OWlDSVEW9II8o7e-WC
+
+sprite $CommentLg [20x20/16z] ZT3L0SKW50FGu4xsd_Qvj4NF7t8L4zfQ8t5W-INmfdYGtb4yU_zgBjbmWgt4FOKjmnROYF3DdG0gpoIQEmr0i5r1UKtZKYav6BmaqcF37G
+
+!procedure Comment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Comment', $name, $tech)
+!endprocedure

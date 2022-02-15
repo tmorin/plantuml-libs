@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Marker
+
+sprite $MarkerXs [10x10/16z] Ou02JZ393mOW1Wy3bCN601D3OZ0ZH9XHfHZW34v-Vaw8sG
+
+sprite $MarkerSm [12x12/16z] JOl50O1G08MmM_QVrlZDwIMPVYPWv9UtP7tSr9mxoAxg89KgbJl8gTveRZJor8l42m
+
+sprite $MarkerMd [16x16/16z] NSo54S0m30J13tEk_se3F-ORN5kIYlfLCM07M28x4yoRJcGVWT7AxEIkXhfB0ge9kYDFd7gv7boWykNIVUHaIh4xVCPU
+
+sprite $MarkerLg [20x20/16z] {
+PSw53SHG30DGb_lH-qzxs91YyGiYPYqRB8Fi2xzPX6WP3qrMB8BIrQLLhB4AwUnoEYBoZKKj4myCfkSs9EA_KscI_7Sg5Tb-GBBaYwYPa4b6fu9UAF0PvBmG
+ymO
+}
+
+!procedure Marker($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Marker', $name, $tech)
+!endprocedure

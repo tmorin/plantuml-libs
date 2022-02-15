@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Cat
+
+sprite $CatXs [11x10/16z] NSR50O100C2muaxtdnRdBAz0QG5n051byEbK2_Quxxg1Wrer5U1h2Tr3oNi2
+
+sprite $CatSm [13x12/16z] TOg50G0n30AfQyB-qxwxj37WyFNQr1rc5TfTLv1v4IHr0ZWBgQm2HAAIXbFFOduL4xsBwVs8ZbDuhC9ip5GZ
+
+sprite $CatMd [17x16/16z] XSYr0SCm04N1Pp7__QUD6LJbokCVmsi0pM6glKAZTJcw5AxOEV3I5SZimH6feTroHf54ajGu8ci72SwuT1_caF8SHNCODyM0ERfv8kXqnWe
+
+sprite $CatLg [22x20/16z] {
+dSo50GCX04FHu4xsdxQMe-x_b8VWtqmxVNYdFF8WOCXqKGL4alL1aVIHsa8RDII345IRHY2J4_E4OwbET4QuQQ8oSCb0yLBrrjsfQjzgcqyqu8a2ZphClQf-
+hNxf1CP9zm
+}
+
+!procedure Cat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cat', $name, $tech)
+!endprocedure

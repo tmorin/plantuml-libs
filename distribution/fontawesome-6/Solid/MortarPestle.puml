@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/MortarPestle
+
+sprite $MortarPestleXs [10x10/16z] Ou01NXY3dn-DmS710UJ00GCs5eG9qG5b85W
+
+sprite $MortarPestleSm [12x12/16z] Oq00VZYBaH_EvkJdPuN9mvbm0GH0ul0WiLaOcE1ie0vkA9CPo8RAGAs1iG4
+
+sprite $MortarPestleMd [16x16/16z] NOu54e0040BNRld_QsrbS2Sl289gYN6MC8ManMEJutICiyVg11YMH3zOOomOOuOYPq9G0tWSNUMauQQqEEubi0C
+
+sprite $MortarPestleLg [20x20/16z] ZSk54S10449HuXxwhpQkS94_kcyMM5sbaf0KAcdMpHJTY7Eoiwzo2NEnnv-XS48MC8Ii5ufWZotcCbqktRuKovDoMmBDOSbyZW
+
+!procedure MortarPestle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MortarPestle', $name, $tech)
+!endprocedure

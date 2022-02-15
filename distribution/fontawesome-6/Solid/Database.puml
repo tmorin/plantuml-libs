@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Database
+
+sprite $DatabaseXs [8x10/16z] Os1WuE7dOc1Wv4S53306K8g5WO4PncL4Y7FpSJ8meAi7
+
+sprite $DatabaseSm [10x12/16z] PSp50O1044FHZplflrfOrpTw2h0-kYT0lJTz7E5PzE2ColRqpJpkNaZd3CDoAoC6dZy
+
+sprite $DatabaseMd [14x16/16z] bOw54S1020JlNO7-gusxPz-5dKE7AooKD3gYhEWYz_3k19ALm80TQhcJccuj1ZsEVbWYA_ZItJ1bCrYILG2qFyKoUmlg6WKj
+
+sprite $DatabaseLg [17x20/16z] {
+bSrL0iCm283XFqhR8FU_xSRBNB-u0AHvMBZjZLHMt11A_CtZ0G_depFqvbW99xNUQguZakuo-XXoUFoYF9oTSjmUXPZ0sDLD9Uje5f5UEAjZVrL6um4FlmJQ
+DT84JW
+}
+
+!procedure Database($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Database', $name, $tech)
+!endprocedure

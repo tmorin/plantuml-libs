@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HouseCrack
+
+sprite $HouseCrackXs [11x10/16z] FSQ75S0m2CJGI-_H_jlwKMK3NzQcweObX7Mqu3DLFvqcMwyj8-Wenf9iOHm
+
+sprite $HouseCrackSm [13x12/16z] JSpL0O1G34FHu4xsdnQx0TxvgLUFiT9diJl5xij0RYpaiIMF_UaPZFWXYb7pNzGQlq9QNHJSdm
+
+sprite $HouseCrackMd [17x16/16z] NSp5WGCW00NHMNTU_zLkF07czhKhFwyjuAE90TzB3Z-RvdVJZEg9rR4nW7StQa017rqDjHa_DHRZgSn6FPkDvjCt_DKdg0C
+
+sprite $HouseCrackLg [22x20/16z] {
+PT053eKX30JX-TtP-v_sQTDDmnSh4m5AMXgzNT88rQclYUBMtmgcj3assKbGyVpQvE2ygETOD8LLClOZXY7RlfAd_4e3rmssleh8fIxnoL8zkMhmVvhN48CN
+yNlmvIMFy0O
+}
+
+!procedure HouseCrack($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseCrack', $name, $tech)
+!endprocedure

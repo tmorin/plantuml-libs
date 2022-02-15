@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Crop
+
+sprite $CropXs [10x10/16z] DSYr0G114CD09S_W_gkzPKLZmqDsWHAV7cbNH7rVAK0gK0gKn2ZANGa3
+
+sprite $CropSm [12x12/16z] BOh50SGm0CCSvcZ_QGzQwsMGT6IkH7uZ7CYyH6No7q1suE0CSJj3aFC_EaEKCvorrjWiQV9dRv3vEry
+
+sprite $CropMd [16x16/16z] HSjL0iCm3C1GjO51dEd-jrtP-di6M2RP3wRbrg9BQFt4cNwdcyEhBzHfBNMhgokm-VnDd_n6UkCWlJ587qnt7P3MB-bGnzuQne3Lgn8gM-iPOLiX6wxy0G
+
+sprite $CropLg [20x20/16z] {
+PSm54iGm34DHbo6W-z-sialHvE-MtcXYPaUojkFa3PWQEe6m-QS2r0EWhVYhbZhZU9ffmnoLc5bxNa5d9o6h5T-edKvgiLABbLgir1uIS-ejfuY6TBZzqHXj
+IENDhIHxalEq0rnT
+}
+
+!procedure Crop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Crop', $name, $tech)
+!endprocedure

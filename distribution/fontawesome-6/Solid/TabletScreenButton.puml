@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TabletScreenButton
+
+sprite $TabletScreenButtonXs [8x10/16z] O-070ru-VYZWOW01ecaGu8PY40y
+
+sprite $TabletScreenButtonSm [10x12/16z] O-3XXm1s80CE6220GXOt142D115i888PH
+
+sprite $TabletScreenButtonMd [14x16/16z] Os3ZHm0e1m5OcM605yXZPe01dW7WyN330CnrV2p8RcLYW7e2AWcX
+
+sprite $TabletScreenButtonLg [17x20/16z] Os3cuqS2F0nC_6W0Bey0l0m8m3Z41VYv4O07AI0mlGnbSKE31HvI36WXn0a
+
+!procedure TabletScreenButton($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TabletScreenButton', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Vial
+
+sprite $VialXs [10x10/16z] Om03NWOOuEU7ChZvWKm80oGAP_23fS0qWi60nW03E0C
+
+sprite $VialSm [12x12/16z] RSZL0K0X049HNeV1_jFQhVVh06BFXXAvLzT1GdFFn4rMAkaPKbXHUehwGiOtrj02
+
+sprite $VialMd [16x16/16z] VOo35SLG0CNoZIBxJrlhCOUN7FG4j1hefnhAg_7IDxrU9JTrboz0DP0Tj-FAMLAHBGk6iWdAq0Sft4Ev3XeEHW
+
+sprite $VialLg [20x20/16z] PSr50e1G549HRFrrzxzQks5uNg1NSgz_UXWDSPmmZF3704ZbZH7u_Gmd9G3Rol3Vojz6U2WuHQV9IJX59-6aqKd2IVL6uKCB
+
+!procedure Vial($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Vial', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/HandSparkles
+
+sprite $HandSparklesXs [12x10/16z] Om03NWOOu0T38E00ivduMLY137u8cvS798FA1WCWcucV6Sg6Y3A222GbG0hEOU1a1
+
+sprite $HandSparklesSm [15x12/16z] LSZ50SKm0CDGbJdQVzeF3UlaPsBRG4syT-E-mT7xaH5clH97WL5QClS4JCNTyT7qt4Dqv8qa_niq-lBVYdm1
+
+sprite $HandSparklesMd [20x16/16z] {
+RS-50O0m34JHrB7azj-MS3ZqumzhvIoeV5faGGgB72NV3D5D4Gv3UrYONB81yss-ToomT9lIP4xoiws-NT4Qx6SZO6vwM9GjNYsXaCOaDnObYPKRMKwSmkk_
+inH-aLKmvHHM
+}
+
+sprite $HandSparklesLg [25x20/16z] {
+VOi72WGn3CHcQthq_zyUXk3RBegBa0wqJNUMLJj8kow00gY275idc4sqWzYPpgBQGsi3odmKa2p8s78NqcBbJHXTT-5y2ST58pqBeBmKa86-CT00Z23DZ2tA
+6wlyNovDnv0AC7lZA08K3RgBOeVaR4ELIPgBz0C
+}
+
+!procedure HandSparkles($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandSparkles', $name, $tech)
+!endprocedure

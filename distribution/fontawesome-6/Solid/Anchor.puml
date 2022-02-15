@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Anchor
+
+sprite $AnchorXs [11x10/16z] BSR50O1G0CMmuaxtdnQ-l9n2TMs4UgOEX-cgXDe-rEymWRQEYdShBeocW3ONFm
+
+sprite $AnchorSm [13x12/16z] ROg53S1058Mewm_xJrlt7h4di14T5wfteJ3z3DeaddKpW02jzw9seMS9IazDu7w0p0EO0G
+
+sprite $AnchorMd [17x16/16z] LSw50OGm30LGtE7jF-rf9OrxVfVeERj84yG2o-M81H-zG-7niBGxdZP7_7F3d98hd_tGF7roIc5YF20LUXWMzZoniwSmsiTUm-LVTjz_5M19ODy
+
+sprite $AnchorLg [22x20/16z] {
+RO_50S0m30FTCD_-qvOvkPzHajnalFonRFoxxAHlKu6I_5_MC4c4_aFfFeWRgXM0vhk_e-MOeMOh5rEzzC9nLWwdxTqrKCzGJrS1rCQ6kRlrt8Bo-GkRPdl-
+NjcFJ-xLlKnNo5efY4evjfqTFcGvIJpiyHO
+}
+
+!procedure Anchor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Anchor', $name, $tech)
+!endprocedure

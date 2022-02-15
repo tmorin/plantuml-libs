@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CircleUser
+
+sprite $CircleUserXs [10x10/16z] JOor0G0W4CI2GtNxJujRtfLEKMIWIPd998mC_EYEx4rc4lML-mDbPddui6Oq
+
+sprite $CircleUserSm [12x12/16z] HOo50O103CI2ExV_jCZNKbT-3gqOCYnrB3t7tryjz-bHkR5Okgh0ltMMT_oiMlwh7RXqquBTym8
+
+sprite $CircleUserMd [16x16/16z] LS-55S0W40FGu4xstxOlKEFZpc49WytWCRWbYE5hQioV_cpElbCiAFwz9L1qpbF6lGre_358N1fFXfASSvK2tO5j_IZgy9R9_Mw0L3AgxJeo9ZLSx2-Q2m
+
+sprite $CircleUserLg [20x20/16z] {
+PSu73iGW30J0JUXr___Rav6HhSka0cvGRNDcE8Lg1IWwpRPCjosJh5QEJV-0-mCWygZmfMyVFVDxMp-ozV0F4AWclpA_OCFVx8LbMzevuINvuAgd6vfy_9Re
+KYE7DyeE0uv40rz6h0Jn0m
+}
+
+!procedure CircleUser($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleUser', $name, $tech)
+!endprocedure

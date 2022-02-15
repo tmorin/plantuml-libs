@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PumpMedical
+
+sprite $PumpMedicalXs [7x10/16z] BKc30S1044lxzlxJdXK2yq7doHob2WbghP4z9HX1FxjRtWKn
+
+sprite $PumpMedicalSm [9x12/16z] 5SY53OG0542nTuhJ_RSbl_5MrFWQrGSdKzzFwO2xOinPub-gRBsix_wk5jRGZT4VemS
+
+sprite $PumpMedicalMd [12x16/16z] JSg50OGm5C3Gu53B_jEUrbxbAx1eeKfgANcj-SzHysEx5DZsVGVE225ztG1MrvJdVtxXnoz_TfvGSwXXKy-wSwbtpPFDWjqADl06
+
+sprite $PumpMedicalLg [15x20/16z] {
+POw54KGX50E3XU_flzjxE3Etw0Q54IKH4nKo6JOjF9iMhgbjB1eBCBuC8B6GK8aQiEYdoRpd_dRDuAOlaLuRNTM4Gf12rQEaBblUto5CBCSOZ_xZMuiRqCRp
+jxf_qW4_
+}
+
+!procedure PumpMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PumpMedical', $name, $tech)
+!endprocedure

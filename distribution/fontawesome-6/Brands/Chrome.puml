@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Chrome
+
+sprite $ChromeXs [9x10/16z] 7Oc50G0X4CFohf3zfqLwKWLOo3ZdXSlCnMrDSGkQVZVY29AJm9F65IvVXGu
+
+sprite $ChromeSm [11x12/16z] HSp50OH000F0uB0s_LTxBl5NyiIK3u3_8jbGpj96ZqdAaTfwjGHd0u6Dawcn3lB_2Pyy4rWOIT9DxCaT
+
+sprite $ChromeMd [15x16/16z] {
+DSw53G0X50FGuaxtt_RIadin-8ud1eWjMeRnT_mpsy1AUem-rZwCO3Wia91opRnOQbXmEHamzCAaNL3GL4CoU1gEddgfEiAlLmxW-f1AAwy1Qlchgggs7bCL
+iE29KyyF
+}
+
+sprite $ChromeLg [19x20/16z] {
+LO-5WKKn3CDKvdh_QG-IZtfOCl0a1Zx9HyPyJL-zA5ypJWT8-Y91nOHExsEkVQv06qbVTb9eWYKrgij9W-8M3Pc690ZsVvcIiv-k31jAKl1T1niLA-BBk9Q_
+2watMBxN6o-0wClsDGRNRQ7fqqu0T5bETutmqk3wgITbzQexVCil
+}
+
+!procedure Chrome($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Chrome', $name, $tech)
+!endprocedure

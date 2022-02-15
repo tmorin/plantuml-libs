@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PenRuler
+
+sprite $PenRulerXs [10x10/16z] HSR50S80002nmvtiFotKcrVgKjMdNbuLBhnrGeYJPmcELV1Sy_ZOep71RKpH7m
+
+sprite $PenRulerSm [12x12/16z] JOg53S003CCynih_VpjbN0m16wcc0Es0NWrSXL8tBUV1fXGDrEG9J97wmVw2-eSv5nnp0tEjpK3GuW
+
+sprite $PenRulerMd [16x16/16z] NSv50WGX30NHQdV-_MyxnCQg1LvM0SQBQ6WJC4k2l1p12vXaZSQpVpEF-UfVlmoB7XiyT3lj_Zn0q6fuHJr4VvoBJNyqJzyynHTNsojPyp49SR4r9ZmZBm
+
+sprite $PenRulerLg [20x20/16z] {
+NSu53WKn203HMVVE_K_xfOIcMMBaeG3BHSRmH7weOz2YEi2bNXrfxJeudO0dh9QujR1CX5sgJoLTQkSUfI2Tq1EcZdHX0w2ZzjHOc9CECbhNcT9tNKxPbLIV
+UdV5w-EhQr7ElijrKMcKcG-Dc9As_jKWYbuhH4oL-08
+}
+
+!procedure PenRuler($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PenRuler', $name, $tech)
+!endprocedure

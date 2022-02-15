@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TruckFast
+
+sprite $TruckFastXs [12x10/16z] POl50S0m30DLvjx-soQcLyuCaZ0-6JEEjRyrDUsT0ouR3Ao9uI0exTYVuhfkon8lYjm
+
+sprite $TruckFastSm [15x12/16z] TSg54O1030NHnPtjlrha3ndddKHXCYO8FocQhigk1UZ3rmbOQ1MQLqfQ5rwJaVN4_n8CHeLSs0_QH7q3QiyD
+
+sprite $TruckFastMd [20x16/16z] {
+VP250GCX40GNT-Y_siXPFFEsDuy3M4SeKFenpCqFLrWnSpQIKL3F3Pbx7GDBvmbjSt_NpR0ZwS2S9pmmhDd3JKx_tRWx81-64pkS649Ob580uicW2iaIdLMa
+T9y-0LS
+}
+
+sprite $TruckFastLg [25x20/16z] {
+fSt5eOG04C3Gu4xwh_RBuB2-xveH87LJiUDUUI-qJyFe5I5VzQTIBc9vQBgvPCDi_L7FPJ7EOIwzEtEWLHQ9H-ltwXemV1sCiAyrb4iOWTQs-JEQ0DeKsmP4
+Bw6mur-ddGu47GTDMOezX4or07u1
+}
+
+!procedure TruckFast($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckFast', $name, $tech)
+!endprocedure

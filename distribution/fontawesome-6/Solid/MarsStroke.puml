@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/MarsStroke
+
+sprite $MarsStrokeXs [10x10/16z] VSQr5O000CJGe1tlxpyjJijfUZJGgu-WLcpKn4AAVYRGhHSE
+
+sprite $MarsStrokeSm [12x12/16z] POo30S104C1Ikzb_sXgFdCcBIfxhamzJWvOUcGzGQ5ciIWCAiU-iaawfDVELltzu69UAanq
+
+sprite $MarsStrokeMd [16x16/16z] NOu52aHH3CIctpttl-toVDWWeLuP01PEu36nUNm1BTxlQzK3rvBYWqvuUDqiae2o_5CgRoaqlzM2EUcfSS2KFCForyUkUE2sj_tr8F78Y53b1m
+
+sprite $MarsStrokeLg [20x20/16z] {
+VSs54SCm50JHioZcxR_Rp9dv3NsjI2SLTcxTlGKDbnOWTRTcMojjr-GvQc0gpFmOITQm6PURqOispwy7YfiloKOOzz-kKzactmZtHfIblPscMjRjhGNQeDW3
+MGislJRZddOH2_hm1m
+}
+
+!procedure MarsStroke($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MarsStroke', $name, $tech)
+!endprocedure

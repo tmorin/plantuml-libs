@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Aviato
+
+sprite $AviatoXs [12x10/16z] ZS470S1024MnTnlurB_SBWKaLCp9NY0r1ngcoS-5qI41JkgALAVY0G
+
+sprite $AviatoSm [15x12/16z] fS690O8m50MmzFLpGxl_jgwWadYZtEPZI7hVRISUQTmGqtEl3zsEggJD95KDMApYLny
+
+sprite $AviatoMd [20x16/16z] lS450GCn402mF1Qku5_j61HiYR_84X4SyiYY95jMRBepc8B5hAUpwqPifkOX17stTTDscDxsFi_LLoVNc7dV9RuEw-rFN04
+
+sprite $AviatoLg [25x20/16z] {
+pSd5WS0W002m8CKf-qzxhXiqttYeHCRLmNmZheQJBORDwgXgOicMb4nRA1FLGhR72kxEDiOitr5StEBu23PL6iBCI0HopkTSIKJ9W5Z6NgEVqyRUe_YH8gCe
+MLcau9_WCLu1
+}
+
+!procedure Aviato($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Aviato', $name, $tech)
+!endprocedure

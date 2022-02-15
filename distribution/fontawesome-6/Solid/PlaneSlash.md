@@ -1,0 +1,63 @@
+# PlaneSlash
+
+
+```text
+fontawesome-6/Solid/PlaneSlash
+```
+
+```text
+include('fontawesome-6/Solid/PlaneSlash')
+```
+
+
+
+| Illustration | PlaneSlash |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/PlaneSlash.png) | ![illustration for PlaneSlash](../../fontawesome-6/Solid/PlaneSlash.Local.png) |
+
+
+
+
+## PlaneSlash
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PlaneSlash
+include('fontawesome-6/Solid/PlaneSlash')
+
+' renders the element
+PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PlaneSlash
+include('fontawesome-6/Solid/PlaneSlash')
+
+' renders the element
+PlaneSlash('PlaneSlash', 'Plane Slash', 'an optional tech label')
+@enduml
+```
+

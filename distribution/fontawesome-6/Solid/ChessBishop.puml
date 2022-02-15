@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChessBishop
+
+sprite $ChessBishopXs [6x10/16z] 9SG50G0W00F1uSxtJujEJaeOIHLx11xOQ-2OvXM-JQQK8iFD1W
+
+sprite $ChessBishopSm [7x12/16z] HSM50S800CJ0uCxjFotK-v9KL9rclJXMK7Obn148AAWvD-0F
+
+sprite $ChessBishopMd [9x16/16z] HOo30S104C1Ikzb_sk9rEHDOjED7FL8obqxdHvcasPIIipHkbfoWf7ZhO86M72Qc-CFmqyDv9VRBmWi
+
+sprite $ChessBishopLg [12x20/16z] LOu50WGX00BjZl__zZXXQwonK0FotjiQia6NDxYJBtYXJgWs_2QwUMr4QUHfAYer8MpGyybboZmdxvYlD-NhT-xrhgtaxqvOO_V3UlaF
+
+!procedure ChessBishop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChessBishop', $name, $tech)
+!endprocedure

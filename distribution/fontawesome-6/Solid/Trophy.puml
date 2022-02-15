@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Trophy
+
+sprite $TrophyXs [11x10/16z] FSh50S0m0CD0bTdQVzfoSZy3uEFWuGjCVCMjji7o5TEhOWkRhuP7fnHEV1fLu08
+
+sprite $TrophySm [13x12/16z] JSm50O100C30uSxwfqNUBy01lG61qGA7hHMZWNkwM0n010DwMSNVZS3gRK1mf3dneb8oVmVm0W
+
+sprite $TrophyMd [17x16/16z] VSu50WCn2031FTTa___QAjHx4rVWeZSGJ0lGxFjkgfT5zLC5qm0kmcveQUJITmPOHC40ZZIQ6nCAT3f56ifDCIoaHQqZhnGEDffThHlf6VRY3
+
+sprite $TrophyLg [22x20/16z] {
+RS-55SH0203HYNkc_sfFUO6Jl-uBJwsNWyjX6Y2SfX5Wzh_pFAtUGs0tjR2v2QmcuBHrWyu4AD6M_mukpExrQprDx3lfDT1e6p4CXcM9E62pQWXjpa-a-DpA
+3rtubQTJkwfzGzKOTefP0ozt
+}
+
+!procedure Trophy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Trophy', $name, $tech)
+!endprocedure

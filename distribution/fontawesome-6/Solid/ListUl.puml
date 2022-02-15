@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ListUl
+
+sprite $ListUlXs [10x10/16z] Oq00VWIBXuaV391aEH6oV2mOiWn8ignGMMQO4
+
+sprite $ListUlSm [12x12/16z] PSh50O100C2muaxtdnQNaxn3g2huA3vO1gXlXDOHYblqxvLJkkc6ideZi0C
+
+sprite $ListUlMd [16x16/16z] ZSx50O1000F1nPtqNoskv_EF42DrPEDjG1A37dGgeBmL2NqzsNoRhBvXxyjk9FtBXvlhNmxv0yCA
+
+sprite $ListUlLg [20x20/16z] fSHL0a8X00NHULt0x7-rjX8_rhd1fmOZBNMdiuGQw2qn6O5-p3e-jasqaivW8N6xqHAxTh1isSm_WWwm7zc6cfWi4NM44BC31Zvn1W
+
+!procedure ListUl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ListUl', $name, $tech)
+!endprocedure

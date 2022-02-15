@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ShieldBlank
+
+sprite $ShieldBlankXs [10x10/16z] Om01VWOmOEC70H0V1WYmU804gXO6A1Dg8eG1
+
+sprite $ShieldBlankSm [12x12/16z] ZSQr0O0m002mu0x_NujNncQAHtNuZSUZnH5DZgJWiouU-PjKfhUrLt-tmWK
+
+sprite $ShieldBlankMd [16x16/16z] XSgr0SGm04FHRsPx_saFmghoEW6xk7Zewo_jmQrBDx14OQcNFD4SgP8DHZAWTx0wGxkYOpEFc3diiN1fr_aB
+
+sprite $ShieldBlankLg [20x20/16z] PT3L0GCW34NHYpliFstTqdS-8SvRFm4ZpdFN-CZdOtFd-h4A757Gju6-TVIjikKjqUJD4UKDqBOm9Km29tVTTa02A_m_BjwYEPMDd1ZZzfHvkW8
+
+!procedure ShieldBlank($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldBlank', $name, $tech)
+!endprocedure

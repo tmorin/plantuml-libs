@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/EarDeaf
+
+sprite $EarDeafXs [10x10/16z] DSY50S0m2031kZU__xIuSp1rV8qN6m1nyTzZ8tJ_AopEUPfkJfSF7CCc1EhrsDXnAG
+
+sprite $EarDeafSm [12x12/16z] JOo30G1H34FJdldst_RRQAYncCOqEt6vuf71je4LRSidprlas6lobfwrpXRlJozpZZ9wVFu-hcpPP_4fT
+
+sprite $EarDeafMd [16x16/16z] {
+LOw50G0X4CEAEzb_sdSDUbxzCFnC2wSxzUObGTtDoe5LpBkPeVemmUW0R07V68SPQ8KEWiEkEBf4dLYT9BCTdVOBt388HnzkSxSjkDlSPKpAQxxLXiFVsTMy
+QJ1ri08
+}
+
+sprite $EarDeafLg [20x20/16z] {
+PS_LeSKm3C1GXSgEzf_suIsVJxDvsLQULds7xFmPLLqIk8VS0Va_rBMFjMrgub_JOBPJTTyPThfgENVgE1iKpPhtM5OWH4TsQGBAVCPEMHExiV9hqUUF-Ro5
+hW4azQmoFa-NUnM4FghogZFxglWyhUonu1DR-FW6
+}
+
+!procedure EarDeaf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EarDeaf', $name, $tech)
+!endprocedure

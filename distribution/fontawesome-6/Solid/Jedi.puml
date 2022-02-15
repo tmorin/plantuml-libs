@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Jedi
+
+sprite $JediXs [11x10/16z] JOU50O0m0CE2E_d_McHUBoqCkGgtqC5WXsxqeA9s8uSEuKw4qfrGTpAwWdPxjoc00V02
+
+sprite $JediSm [13x12/16z] LKg50GGX30lkiF-stxH_XiJnFV4O7mL1z-T326eoZKC2EjD0gF0Q2YHqO3Fa5u0xPt76VVN2J5hUqHR8udRSghKxbly
+
+sprite $JediMd [17x16/16z] {
+HK-54G0X0EBJblsdDR2u4maJ4myEFdPgu-Bec6S0Sd1gR8QCJL6v7G55l05t0Rv90qlb_iOtkjod1_4PAgDp0D83IOglni7eZ3IEVYFfBYj_D_sWwGj1xm1x
+7cX3Lqu_83reeJkWH1X-m0t_T5q1
+}
+
+sprite $JediLg [22x20/16z] {
+LKu54WGn24jjfPR_l_Q4i596c2ZWcGFB9Dhg0D2wav5YfmKSWAIsScncSJPSBCCVBEnfKEkqUgiHssn7_wGQIguo89jb8IUCpKBjjgBmEiOgTW3pu5xr4G_j
+2XGzw7M8LZJTHBBZKK_p1cb-Dw5Nbef15VcJ0PL1BqGyTEqyfc8-1vyHi_2z27u1
+}
+
+!procedure Jedi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Jedi', $name, $tech)
+!endprocedure

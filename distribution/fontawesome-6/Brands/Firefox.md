@@ -1,0 +1,63 @@
+# Firefox
+
+
+```text
+fontawesome-6/Brands/Firefox
+```
+
+```text
+include('fontawesome-6/Brands/Firefox')
+```
+
+
+
+| Illustration | Firefox |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Brands/Firefox.png) | ![illustration for Firefox](../../fontawesome-6/Brands/Firefox.Local.png) |
+
+
+
+
+## Firefox
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Firefox
+include('fontawesome-6/Brands/Firefox')
+
+' renders the element
+Firefox('Firefox', 'Firefox', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Firefox
+include('fontawesome-6/Brands/Firefox')
+
+' renders the element
+Firefox('Firefox', 'Firefox', 'an optional tech label')
+@enduml
+```
+

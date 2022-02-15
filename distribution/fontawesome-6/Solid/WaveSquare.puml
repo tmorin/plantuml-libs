@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WaveSquare
+
+sprite $WaveSquareXs [12x10/16z] Oq05_400PmCHNZOVM34_M1S1BImi_AXM
+
+sprite $WaveSquareSm [15x12/16z] Oy00hFn0m0hdyl3p014Ibu61E2uVq1We5ym20IYN6S8cp0K119ULZu-F5qW3
+
+sprite $WaveSquareMd [20x16/16z] dSg55S0W00FHfExPVzkwuuV_1smDurBtebvR-UkRoZmVlyPbIx1fcdJRk3p71NJR_WANWClAvRLtsxAbsD3tUbkdBU8Pjx0q0m
+
+sprite $WaveSquareLg [25x20/16z] lSd50O0m0C30u0xxJulLzTVUCo5l67_ural2iwV72KpLHtzzxB69S8fnc749pCjhnXxhMqOKQtIyYet-5Hs2Fr23h0S
+
+!procedure WaveSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WaveSquare', $name, $tech)
+!endprocedure

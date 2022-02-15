@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HorseHead
+
+sprite $HorseHeadXs [10x10/16z] Ou00RWZ5oC_F3w8v-K40me0omHGZc0K3740UXCK7LWBbWDbS80xKD
+
+sprite $HorseHeadSm [12x12/16z] JKo50G0X4Fhkb_sdrUjkO39RPXjc03eV8FjbX1azNfr-mC_jzTbUJ9nzeJpdRy_tDj5osrBL5vu7
+
+sprite $HorseHeadMd [16x16/16z] LOw50S0W4CHmg6R_QN4D-dvY4UHcA40FGpuKXaN7zCo9ApORsNpd_wi93FwMm86qvGvCxd9fTrQXXHQU7IDAVzG-MkkjlMtY_zcesGa
+
+sprite $HorseHeadLg [20x20/16z] {
+PSw53G1124HHzjn__zMUJxB0YwDZpbhC6mzewq8vU5I5cKSzTbTaqM4gcwPgtNCBP6Y1_Quj8CN-rqIhQZLhISQ9XtKk3t_n0BqxTEIn4tJAgiGQNPR9HUdj
+HqMrXLox
+}
+
+!procedure HorseHead($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HorseHead', $name, $tech)
+!endprocedure

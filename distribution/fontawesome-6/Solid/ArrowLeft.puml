@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ArrowLeft
+
+sprite $ArrowLeftXs [8x10/16z] Oy04_52A4qBnWIa-VWXWu8TA8p6GDGC
+
+sprite $ArrowLeftSm [10x12/16z] Oy01-E4CVam68mJmySC0Gf815nFDV
+
+sprite $ArrowLeftMd [14x16/16z] XSc53GG14810TcF_P_HVxRahqGby5UKEgGSKU_nNnFwWDajrupxKZ3b0PLVpogD8xke
+
+sprite $ArrowLeftLg [17x20/16z] dSh50SG04090pYyw_NURNzpdjGlaha8v-KlgyV-ddVt6_-_WVvjgMpD1Kmo-2LuPU-0pIPQRvo89CjqqxvpM0G
+
+!procedure ArrowLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ArrowLeft', $name, $tech)
+!endprocedure

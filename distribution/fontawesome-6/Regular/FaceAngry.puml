@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceAngry
+
+sprite $FaceAngryXs [10x10/16z] BSA54SC0000XwXBv_QUDSy2lDwY7JpyQGIyvzNkegvdttV3-E2KgyWk4Lmt52W
+
+sprite $FaceAngrySm [12x12/16z] FSR50S80542nuFhxzfyMfpd5swsphvhB57JqTcyjCtBoTjHjR4fH5s8JdSTVGWtItUvYeHEDjnQOtauy0G
+
+sprite $FaceAngryMd [16x16/16z] {
+JOw55GCn3CN-XLdxRzjdfwI06UJapNpqONEfCXveCXRR17po4ikIzQKGvCaV3Xc9OvqcHmLF1mJdQlPt-uPz4_t3WyiGVRs1MDxtBkKjaqHKdxQXRrzqMLTR
+79E3Jo3W7DDV
+}
+
+sprite $FaceAngryLg [20x20/16z] {
+NT25WKCn3C1GVGuvsd_Q0vVxmWpSrUauUNDv5njtwjpkGvMaWxj3srlNdHvmENYdcJuK2qw8YxJL0LhTeAexNTr0fm3Q3ve642h0RUHq1Rf3lanFBpufIguB
+-mgm6eG7q5NT8DkhvbSj7AvmcKtbwRetcXRI6hgH3jNeK_NzuIcERFq2
+}
+
+!procedure FaceAngry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceAngry', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Stamp
+
+sprite $StampXs [10x10/16z] Om01VY26CFYXJ1OuYm6PnG6XmO0NoC043FoSOC33Zv05
+
+sprite $StampSm [12x12/16z] PSor0SC00CJ03yTu-qzhPb-bIXczPLNYiJJKIpVuPe7SkZRx9tQrtSyksraRcxe7
+
+sprite $StampMd [16x16/16z] LSl50K0n309GljRB_jFMBUyK0NI6BmuimbuDgxqxLW-cN_oBI59Z--KR_gZVaPCVrUszAKLAYX8Y_sSAlCiU5lA2B203
+
+sprite $StampLg [20x20/16z] ZSx50GD13CLGBVEe_sh3yCDvDxEvMXnur7jKaJnP2OrdX3PppxDfUhq1sPQv4LBtT68qRCtrZLJ05-leVmPVCUWKLeL1wp0ez3w3oYShUm
+
+!procedure Stamp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Stamp', $name, $tech)
+!endprocedure

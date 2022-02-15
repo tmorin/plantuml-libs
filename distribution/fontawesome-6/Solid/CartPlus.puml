@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CartPlus
+
+sprite $CartPlusXs [11x10/16z] FOg50G0X54BVTIhxJslBJshLZKkpEZmCWR_UTwWH5aT1kAp2YgyY44G6
+
+sprite $CartPlusSm [13x12/16z] HSdL5S0m509G6dVstxQSwFru0eR4a_W0WrBRUh9cJsdCnsXwOpmv051oqR3hMI0QptYDkCL0_8hOvgHR2py
+
+sprite $CartPlusMd [17x16/16z] LOs50SKW5CHITzX_sYyD6knuTcEC9orxZ34qt3142Jw0ug4FF2TF3WHV67_l2bnjom1CpZG0e9BRm3PaC73IeOsiHkQ2_-4Q5ST9TW7zbnfGZ7m1
+
+sprite $CartPlusLg [22x20/16z] {
+PSs53KGn30DG_p9x_saFKtuYAwX81fmAIRg3aSO1GAH8RgbQ2Wi95O3aLWrgvLUOrUMxcjMIDNAU0-cus_1bf1eb67mztE6FZ0ihrKRWLfZYPAGQk6eGPWK8
+fN37IAOxLhBTqPDXYsy
+}
+
+!procedure CartPlus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CartPlus', $name, $tech)
+!endprocedure

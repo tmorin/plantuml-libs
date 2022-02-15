@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Thumbtack
+
+sprite $ThumbtackXs [7x10/16z] O-3Z1m8E1duGu640qmne53yOy44e1ZZWPuDJ
+
+sprite $ThumbtackSm [9x12/16z] JSc30K0X543H-v6r_xHPfvvHgNj8WmBPAfKP5_2j-O7KX5O7ivh7JrJECgHuDmK
+
+sprite $ThumbtackMd [12x16/16z] TSP50G0n402nANFNlzfZXhm2ikbGPQV0z6LnAiXwpkVBw-LzRfTL0Za48wT-EUQWcUMYs3NHFsSs0W
+
+sprite $ThumbtackLg [15x20/16z] ZSVL0SKW00F0jCKj-q_xN72ulmCYVnIWc06GpUBfamJavNjdML5MbJL50tyau9Wv3-PIOa6LHS_bVLv9xlVyzWu
+
+!procedure Thumbtack($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Thumbtack', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Lock
+
+sprite $LockXs [8x10/16z] Os1WOEHd005-8606qQYOdpZ03QK1
+
+sprite $LockSm [10x12/16z] Om02Dduc1Z3W1m4GWmT8Cl4pWeHuGGGFdCKBnEG3DZWB
+
+sprite $LockMd [14x16/16z] lSc50K0H543Hdvgx_xIw9d1uVLKMUGsMucs31FKwQ1FSEMjCdqg--t4lqeClmDs2iovs2G
+
+sprite $LockLg [17x20/16z] pSg50SCm40J14xEs_sh3CHVW4JpgAy_XjCfyMFqaVeo-O4WAq9U5NLJ_9UQYOJvnW7rpu2InLmetrJWGU_K9
+
+!procedure Lock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Lock', $name, $tech)
+!endprocedure

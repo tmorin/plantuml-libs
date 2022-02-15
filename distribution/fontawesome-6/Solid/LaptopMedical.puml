@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/LaptopMedical
+
+sprite $LaptopMedicalXs [12x10/16z] Oq01_330mC343nM3iVaHR2v-BYWRh0LD3Pg9283C0G
+
+sprite $LaptopMedicalSm [15x12/16z] ROo34G0m40HZe_zgO-TtU4GlSMEgz6uGOvLqzjoIqPso3Zy9bTswqWv9U-7Y1JBXG6G
+
+sprite $LaptopMedicalMd [20x16/16z] VSo50SCW40NGZpkt_xHj7ESbs1dcGgvf73orE818MXI9n1KJA6A9bMCVeqiRIvFOV9udNc92eBXU9eneWarY0ElX3m
+
+sprite $LaptopMedicalLg [25x20/16z] fStL0KKn30BGrBtiF-rpkLO_lmb0DVf8qWlENEcGFWT1Ex7tO82XW_K9y9wV3dZpfODT7d_HwdyeCw409GO55759KiaT
+
+!procedure LaptopMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LaptopMedical', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/SquareParking
+
+sprite $SquareParkingXs [8x10/16z] Ou01VWm04sG0GXG-0ozK70uG7
+
+sprite $SquareParkingSm [10x12/16z] Oq00Vgo0buM54y82gM61i1ZvMHdWOZ0MK1GcYmfuu2m6RZu8O0S
+
+sprite $SquareParkingMd [14x16/16z] XSl50G113090rZtqN-svw_mI06TEDarv_h3M-lt0I9RBe3G7lLr20jirSgUB-wvoOyVThl6HEbs0sg47
+
+sprite $SquareParkingLg [17x20/16z] ZS_L0SCm34NHsuRnxJzjcCm-dsBXghyga6aQbMKkDyqdmCa8_7_m-mGAgGOpq1Y1KtJeqMNCC40ZK-oZHXOc6IfiAm
+
+!procedure SquareParking($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquareParking', $name, $tech)
+!endprocedure

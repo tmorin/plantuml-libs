@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Deviantart
+
+sprite $DeviantartXs [6x10/16z] Om02JduGoOy1GC9WaXlC0GlnG4NvW2G
+
+sprite $DeviantartSm [7x12/16z] Om01VduGoGoX-D402uI2o30oC312k11HX6fMa0A82G
+
+sprite $DeviantartMd [9x16/16z] Om03Jdv-28CVok00CjX0W1y9yC4OZ3060mS71pzK3oEC0PDZWZ7uO0naWzXWIc7sieCP
+
+sprite $DeviantartLg [12x20/16z] VStL0OKm40NHVOBBz5yj3eFVhvEinP82M8skz8UNP9AGYIRYz_kbyxUxyIHKLJL-Eu4kqPBwlEIdsz3_nJq
+
+!procedure Deviantart($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Deviantart', $name, $tech)
+!endprocedure

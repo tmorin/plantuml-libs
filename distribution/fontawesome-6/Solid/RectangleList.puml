@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/RectangleList
+
+sprite $RectangleListXs [11x10/16z] Oq02_DW10nTObfSeKHwmA1-A6889
+
+sprite $RectangleListSm [13x12/16z] Oq01_7W0ApyN683Ol0pyE3Hm4Id32nVdGLR4mCq71-m
+
+sprite $RectangleListMd [17x16/16z] ZSt50O1000F1uCxsNoskv_EEo5BFNrDUaw2lcViJ1ubS9qupVqC5mybNCGqrytXAUp5b6AJiHoi
+
+sprite $RectangleListLg [22x20/16z] bSp50GCm34DHXT7v-qzRPkwx6IIzaPz4YHTiyf-MOFOpJgIEBeoZ4g3NCpwAWfBEFlVE2ilE-4WolCxMPJlHqnRZ9uLNP3nBUcaB
+
+!procedure RectangleList($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RectangleList', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/TextHeight
+
+sprite $TextHeightXs [11x10/16z] VSQn0KG0002n_0F0xR-jKYTLlAwg5j8jhIhanzo0GBvRCJUZee8y
+
+sprite $TextHeightSm [13x12/16z] bSV50S0m4CH0XJdglzgWwUivN4gJdmbwqVtju_dr54_SyG5lU4rI6vh9DWKVSRztXUCy3ruBDm
+
+sprite $TextHeightMd [17x16/16z] hSZ50KCn3C1GVOQ0zj-sTXckVK6B7_rk8ZJm2L3HPT9fLZ1rmTiPJ8otC03JuZOHb9i8_3kKpRsyXT44SzMw4KwrG3EHgfKm16xYlG
+
+sprite $TextHeightLg [22x20/16z] {
+pSl74GC12CLGRSwe_svjS4vtwyGyvlEzyT4L6ZXyD2M6Wa_Dm9v7ev7_3KglqtZIwJvbvgfDNisu6Dq0LxrrLlX3FLmDVLEpqdOCZv6gAroV_zcWRhnfyiwF
+JW
+}
+
+!procedure TextHeight($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TextHeight', $name, $tech)
+!endprocedure

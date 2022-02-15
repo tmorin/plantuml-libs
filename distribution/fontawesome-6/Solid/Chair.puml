@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Chair
+
+sprite $ChairXs [8x10/16z] Os1WuENdP002VduGOc1XXj2i32Wq7F1300-KPe18mMa
+
+sprite $ChairSm [10x12/16z] TSRL0K0X3CNG-roGx3yjBbySQ1ib7gliXnToaTz6BwrgeFDquZipl7YKuMP5
+
+sprite $ChairMd [14x16/16z] bSUr0S0m00CmXpd-_zeoSxK9lKJIOcGvGaymCu1fR226QOfkUHee_smlrPMMtAgxWRHwLAYxAOmonTDQ
+
+sprite $ChairLg [17x20/16z] dSZ50SD00C0mXu-z_xHbvaPFSP3KEd4MFEavc5KPL3bG3X6Y0Q0pdmBh8Opdi07qFqJw4e-6-GvuhoGVnmSa7S-2zWJbR59Mn1O
+
+!procedure Chair($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Chair', $name, $tech)
+!endprocedure

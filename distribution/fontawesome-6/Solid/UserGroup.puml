@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserGroup
+
+sprite $UserGroupXs [12x10/16z] NSc50GCX400md7hsdxRl6ZWF8p6i4ju88r3eMzzuhuUAS9FnN5gBiTQj_pdvCW
+
+sprite $UserGroupSm [15x12/16z] RSd50K9H00EmOb-UPVzfSOUSAZdRcFBI8SEuLJ31fUr0xNYzUuywOmHJ_jXEyxnxb8sRQQ4c7e8nyJ3viCK9
+
+sprite $UserGroupMd [20x16/16z] bSX50aCn549HliKJzh_Q2jIzP_3aGYe3xaKU0NEh4soYuJY2MwPDupZTActfccg11iqPujIydHmxDgU_D5f4RIqgyMBeZaeNPJhEe7a1pNxVnhks1m
+
+sprite $UserGroupLg [25x20/16z] {
+dT250OKm30JGgsF9xJyjLlikF9nA15aGZNZcUFB7Z6ZHiJ1v1gg9nG8U10KRI5xvRY0z3-ZTW6UH3E-sAXjGIneBcf6x2GZbUPcfCIpk21irbhlPOCSxfQ4M
+M7X78MM43wpdGKO-cC4toi3R5Hi
+}
+
+!procedure UserGroup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserGroup', $name, $tech)
+!endprocedure

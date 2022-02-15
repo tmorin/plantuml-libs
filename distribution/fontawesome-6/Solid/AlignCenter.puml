@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/AlignCenter
+
+sprite $AlignCenterXs [8x10/16z] Ou03VX10SDcWW1y2Y5K7
+
+sprite $AlignCenterSm [10x12/16z] Oq02ZFmW06RoW02o73i_333omG0bUW4
+
+sprite $AlignCenterMd [14x16/16z] Oq07ZBny8C03uN7nGm0pXCiC1aoOcdYG03SlFp9WO4G6zBOF
+
+sprite $AlignCenterLg [17x20/16z] Oy06cDYW02R03mESK05Uc00h0r60bGq5CF7mem4sT04C8uQEIm4
+
+!procedure AlignCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AlignCenter', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/MobileButton
+
+sprite $MobileButtonXs [7x10/16z] O-070Mu8nKyInS8Bvm4
+
+sprite $MobileButtonSm [9x12/16z] O-3Y1mDc1duee2Q3WH5P1
+
+sprite $MobileButtonMd [12x16/16z] Os3cXm8-1WP-11WqR1O619kR0LqDBm
+
+sprite $MobileButtonLg [15x20/16z] Os3auuS3BWO6VcJ0WShb7ZPSFWP6P2uF0mEAObwOOcvalIm
+
+!procedure MobileButton($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MobileButton', $name, $tech)
+!endprocedure

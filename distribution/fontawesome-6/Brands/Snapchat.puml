@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Snapchat
+
+sprite $SnapchatXs [10x10/16z] Oq06l4mCd8nm7XUA70U2oGyZ4ImUc1ICnSi6vhA2L
+
+sprite $SnapchatSm [12x12/16z] NKt50S0W40iEf_jFM_JLSqtm4-EiuvQyGqgdzXDrXtuYl00XX5C7Na7g1SWhj3ll0T22AzmXU18TS8whAanlOeTZ0W
+
+sprite $SnapchatMd [16x16/16z] ROw55GH124CPTz9_jQlXTFz87euy0YYc60xd7s6stf8BRL3NjzAlgcPhefVaUhapJPsNz4Xx-lClImmS3ZHviuOWVjW58gqxMXxfbDmnhZrQ4180Tjq1
+
+sprite $SnapchatLg [20x20/16z] {
+TL055WGX56BivlwdtRBrhUrF0F-7pYJ3iveo1G3FnUXAlULYP7y4VzkGbzVfJMMnqVuQ1CmgfaRAiiAoh7XfXgcmFnQRQ3M8CLHzXuAjdWQOi8s70NJFPbCv
+08cxGgQMOAwTFRagGwSJ8_OoFjZ-VWC
+}
+
+!procedure Snapchat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Snapchat', $name, $tech)
+!endprocedure

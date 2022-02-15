@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Hand
+
+sprite $HandXs [10x10/16z] Om01FWO8u0T318iFncBZHsN108o5485BCiBLCG
+
+sprite $HandSm [12x12/16z] VSQr0G0X04MnTwxmzvyMjufK8R4KbnQX_3zzNuRBJfzPgxCTDGRQDrZgYMez
+
+sprite $HandMd [16x16/16z] bSYr0S0m00D1cTdQVzemgSntzxYQU3CTayRqsursSwUxt0yFUblLdUQq--adapZ5ZHnVOxmuh0EGqQ03P_5K1x02
+
+sprite $HandLg [20x20/16z] hT052WH150FHj7lN_K-xxd_nAVmHB7eMjxxB4bI5-ARE53I1rxF9VbZyQsnZ2OpbO-mp1N2_1c1tmFesHNwJHMJHoU3GlS2xprVlPLqw0m
+
+!procedure Hand($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hand', $name, $tech)
+!endprocedure

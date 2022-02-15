@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/CreditCard
+
+sprite $CreditCardXs [11x10/16z] Oq02_DW0GXgVKeHgVWnP92u
+
+sprite $CreditCardSm [13x12/16z] Oq01_BW02p90qSA83FZn0HvUVXuU7YY7cvUVcviRB8oiXe6R3mxO0G
+
+sprite $CreditCardMd [17x16/16z] dS630S1G50F0lDhPVzfQtxY3eLd-vg9XIAL3qA9ZbhgiMEuwtkPnuhXRQ2NK0AB01W
+
+sprite $CreditCardLg [22x20/16z] Oy01s3002mC3FnR0oyDFF6312XWe1lnq1q1BMVanBEVXvWOHGC2BLpSxTZEnQMB5xcC
+
+!procedure CreditCard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CreditCard', $name, $tech)
+!endprocedure

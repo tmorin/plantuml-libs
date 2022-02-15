@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/FreeCodeCamp
+
+sprite $FreeCodeCampXs [11x10/16z] ROU54S0W00E_Ndp_RJbSus4F1xnXN1pXXczVoaI69T8EapGLQ711Dma_7Jm
+
+sprite $FreeCodeCampSm [13x12/16z] VKs50GGn3ABkxVxRFidRULm13pBeGOgb1imaiSFfS6cJ9RPtuwikl7PMhkhYdGKIAaE0RGet6RakZ87zdt0dBm
+
+sprite $FreeCodeCampMd [17x16/16z] {
+ZOs50G8m40DJzsR_RNc2ErV9LH__q6uwO50wDKUB6QJK8Nh0XY3F6QfoamwIve_XI4BChWqxNtLf8oMRFJVETvRg9PfH6uH2qmOG9bAtj25qih9KRBcJ2uzN
+3W
+}
+
+sprite $FreeCodeCampLg [22x20/16z] {
+hOzLWeD068E3Ez_zJulyWhpjjWqoiJ7z0cltbltvPt3LPaXr24ACr4vA98giGAunA6bxkmNjT5VlQUEGgo9KlTq21j4JRZVQk80jucMqscWQwCF53tCEq-97
+7YPDav7PItcvWl9aaschZil9KCBotdNNwucvqB-m0m
+}
+
+!procedure FreeCodeCamp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/FreeCodeCamp', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Industry
+
+sprite $IndustryXs [11x10/16z] Oq02_Fmi22ORCfEJ7qG34GS_FpylFuW90QGnEG
+
+sprite $IndustrySm [13x12/16z] Oq01_FpyU3aSGCp42kQmyFCp0XbyG0m6VFn877woEKnySC
+
+sprite $IndustryMd [17x16/16z] lSZ50S0020J1WxXk_zN6tL_16Pt2wphRGGryWpZkPpw33pE5S8GA880HrlWHqZsOPDkGMW
+
+sprite $IndustryLg [22x20/16z] pSZ50S0m30H1CqlNVxLXvloyHesuoJfdJ-ZGPOxgUtM_DTbHuaOZmDsZ02pgW5uLOTM0iS4MNQfVtQMACmPnNGi
+
+!procedure Industry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Industry', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Paperclip
+
+sprite $PaperclipXs [8x10/16z] JSM50O000CEmuKx-_nQNIPjV5kpgT-mhxPHYHscDg5T5FHaMqVQ8xBi-e4ms
+
+sprite $PaperclipSm [10x12/16z] LSQt0SCm44MnJrvsUljlQuLAgA0d0_AEQtDa4ouTMrImNiSOnuSbtWjFb0jHnXxwME3DqZ4YsH8_gSySXIj_
+
+sprite $PaperclipMd [14x16/16z] ROw50GCX54DpXiFRVzfgg1xwBQBJ1T3UIJq6QIRXyJev5ANEJC0zE7nN9xw28DYDfRaJxfVb83Wv8jeOJYIAsXoLO7kxqGAZTZZUzc5vX5S
+
+sprite $PaperclipLg [17x20/16z] {
+TOy50WGX30Exxft___Q2SvOLCa3D_cfqu1ag3oHrxF5_T2oDq7ZSPF86a0utdiGkbbzWoUVbqjFkkqrmYwzoFg3pSP4VXpx9B7-cSxSPhftRd2No9BPL5mz8
+d8kOkMmfOd2cySkeimuc6_PuFsebouh6M-HhfXS
+}
+
+!procedure Paperclip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Paperclip', $name, $tech)
+!endprocedure

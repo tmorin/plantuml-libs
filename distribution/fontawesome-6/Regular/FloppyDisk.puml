@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/FloppyDisk
+
+sprite $FloppyDiskXs [8x10/16z] DSV50S0m4CH09UQN-g_Mx3bS7ZT4C2hcB4tIH1AGVRNj6q_U4Xu3
+
+sprite $FloppyDiskSm [10x12/16z] HSR50O1G5C2muaxtdnRvzd8AmGnS1RP3dDFMmM-_bTkPBCywjUqgO-3RUQsP77Usl
+
+sprite $FloppyDiskMd [14x16/16z] LSk50S0m30D1bRc__xHXyWLDihQ_U4EmqqaW5WLiC4JB137wte15CLIRKhoB7kqCqG7qw0Nc5ir3BLhKeeQ9aJHryW
+
+sprite $FloppyDiskLg [17x20/16z] {
+RSrN0e0W3C3GkBUv_st5hK0-7xGbhNrZps_0RB_QxlKkhg31sAjj9_q3a-iErqW05jtXge5X1vgpcWkUlb2iqmzAGryOToW-qCS_K8SVK1MGFzlf-abP_DKG
+jm4
+}
+
+!procedure FloppyDisk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FloppyDisk', $name, $tech)
+!endprocedure

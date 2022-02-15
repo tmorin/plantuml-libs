@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/LayerGroup
+
+sprite $LayerGroupXs [10x10/16z] DOl50K0X3CNIorVWxJyjKWbI3GU1emEO2bHWdlymV0V_vOnZCFIGnkq6PIm
+
+sprite $LayerGroupSm [12x12/16z] NOo30G0n302lThB_j6_sOdAWN3ZTCK3K6pVq1UwiGuxiiq9pSiHp2g8d0sAWRrcbk7FNqUS_6-SCLW
+
+sprite $LayerGroupMd [16x16/16z] TSs54GCn00F1Up23-kysreHfpIYkWdYHP0TNLNSHw7gLXzvnw4NVW7tggh5CTHX-oZPLhcSikyp3qsJPnklxxg5BAXpJ-TUOWo3Zl3xiV_Alhlbs0G
+
+sprite $LayerGroupLg [20x20/16z] {
+VSzL0W8W50NHeKku-r-joRFr_D4CfYdmmdLTP1wMJECgJZthuFHXJdqYwPq3qjB3y03kwT814SAIPiGFIHNgPM6VYroC_KQntvOzSmX0q9DrwmY4QPiTQJ_f
+OTaRZuwC2z3s6zdQo_hVmKl7WtNSd
+}
+
+!procedure LayerGroup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LayerGroup', $name, $tech)
+!endprocedure

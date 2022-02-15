@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TextSlash
+
+sprite $TextSlashXs [12x10/16z] HSV50S80002nuCxjFotKcr-Ex3g-cw5oZk2RdjoCJcMNpKLNYowAqRKhz-1MOmxz0G
+
+sprite $TextSlashSm [15x12/16z] LSg50O0m4C30u4xsdnQjNkMrRQYuO0BusFV_yTWzmGbMUGqEdHHKwfhAPaCoI-TKxthoENqqR-GrdGyUapS
+
+sprite $TextSlashMd [20x16/16z] {
+NS_50SKm3C1GnMNK_jD-ADSlS3B605dl2cMzpK2bPVQX0b2jgwhLggeMA_vc1KQxxGysdO8MWE0GMYc9Ef7Dhf0rvkJeGAkKsiBgm8C237VHCiywJyUcP-8c
+0BHbKpPi5hy
+}
+
+sprite $TextSlashLg [25x20/16z] {
+RT053iGm30NHNuR0tF-sArjULO5NneooPirbM2KTPyEU9DYrqVBVdF0Uj8hCWh6pYX-oFN0v7i1bXvUiyFYj7HQPMy7lPMNG29CqaR3mcGjUJMr4PsjP9AAh
+SN1uzwbEfVwxMn6xs0kVxRpXFjUOiVNhSJ6qlVCl8iJbj3i6-W4
+}
+
+!procedure TextSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TextSlash', $name, $tech)
+!endprocedure

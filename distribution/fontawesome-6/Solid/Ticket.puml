@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Ticket
+
+sprite $TicketXs [11x10/16z] Oy0AkFYH00CR6B3mi_8pG4HOW0mOavqV8GfaGW0xFpEIVWG
+
+sprite $TicketSm [13x12/16z] Oy096FbH0GiKWDYSK34EVdu690uV0oU2myYEa07huO40Dh0GDmJmW0n00YWk
+
+sprite $TicketMd [17x16/16z] XSp50G0X44FHZplqN-swwxkD9Fop-KJQTXVrPbwGLyxEY_rtM63F2u4uBw2U5_RMCK2jf6-JjCh38De5o1DkUW
+
+sprite $TicketLg [22x20/16z] fSs35K1H30FGFBlTVzfl6_UuIF0VyPwFV2RefV4Pniwa7gVBRDjEpT4q0_jfnj7K0VeW0STj5zCLnuEqaDk1uYEmPIS9l503
+
+!procedure Ticket($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Ticket', $name, $tech)
+!endprocedure

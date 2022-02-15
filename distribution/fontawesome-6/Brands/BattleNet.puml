@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/BattleNet
+
+sprite $BattleNetXs [10x10/16z] DSUt0SD0000XRELu-s-hwkc0mz0pck1vksTpVypH6OuW3lx_JRJq0ETH30y-
+
+sprite $BattleNetSm [12x12/16z] HSQ50GGn44BH7pSI-g_s_7RV2F2skKJx4u3LC5zgCwLn5W4qaXLINi2XGxJUlM8uOnaOwfY2eIIsuzOCCEogmvztuFRfJm
+
+sprite $BattleNetMd [16x16/16z] {
+NS650GH020InEJTW--_sNHCUWX-I-2X90m4aRhG5fGET6qEhv7PYGgwj-PAVHkM8csW19IIc0nWd0SEqkUabTPXzPGd03R4N4nSmAcjeiSfK01fvAbhhEN6Z
+gsHhyfHQzgCD7wbG-3EukG
+}
+
+sprite $BattleNetLg [20x20/16z] {
+RSv5OWH1581GIbfAkVzf8p-UcRTa1P_QvB-g9luQhhK9ZR3M5je5G2Q8GXRW8kJ9sdV9zPhxFe5pxQtENe6APiAaMUxbE5gkbcZM8i2f7Sze7QAbqVrCd0qp
+80rjqVQYtcGhdQ8GiuETpLoP8neMKkzMYbj70RBhcBeoygMeRkPXubkt9GytVoNNUVB4uebAU0K
+}
+
+!procedure BattleNet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/BattleNet', $name, $tech)
+!endprocedure

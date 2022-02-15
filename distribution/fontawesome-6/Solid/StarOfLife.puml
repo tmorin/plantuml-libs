@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/StarOfLife
+
+sprite $StarOfLifeXs [10x10/16z] FOo30K0n34Jl6yNjlstZ5nF2HWJTC_5DxBv1KZBnqdGWJ8ctnBrwvEY-TzUN-hS
+
+sprite $StarOfLifeSm [12x12/16z] NSsr0SG000CnFuQZ_QSDiwghxCmgEL3U-vLGBzthOj53ycNnoinigPv5bQ2dXl1UTWh5ysll4G
+
+sprite $StarOfLifeMd [16x16/16z] XS-r0GH100Cn7_Eg_sgV6PLDPkUi6FC8ttgjRjtEoSPyxgfG1mnOeIIRko47bOij5y1ogPcBDaddKHLOWmPA1khBde4apSFU-k-VFG
+
+sprite $StarOfLifeLg [20x20/16z] {
+bP3L0SDG2029ExV_j1KiyjLUyWm72HhOvS4E_2BRRZAuoaP6aGbOKzQh7HYJoHI0MGRkU4aBLzfBKcUIGd76aimKsfkavSPXJHaA71Y3XpgytpPa7MXRCvZy
+6BlRN9R_vxTUP6y
+}
+
+!procedure StarOfLife($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/StarOfLife', $name, $tech)
+!endprocedure

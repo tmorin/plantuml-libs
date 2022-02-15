@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/Hospital
+
+sprite $HospitalXs [12x10/16z] JOZ50G0n08DIzxB_jETIFWdeO0155zrAudp0-HBN6OAMd38m9A_addxmTosTkvy_tZzJgPqwMcK7
+
+sprite $HospitalSm [15x12/16z] ROk54S1040A9lzD_jtdt7JbWvn2mz4XaQ8M7gXZ0NFXy4DhTDw79y_CfldZhNdpM9yz5U7pLBDPJx5cghFP8jbHoMqyE_
+
+sprite $HospitalMd [20x16/16z] {
+VOq50e0m3CGAnU6M_xyMTzWopogsahCYkt0EBZSSTtmzZl-2uz7t54KXh0ToeogAPYinkwAdstC13OipNtEza5Z8TFMeZ_QxktA3xiv3IESMVRRdNWv8ENsS
+OtoP
+}
+
+sprite $HospitalLg [25x20/16z] {
+XOq5bWKn2C2gx9HAxd_RPLo-vKab3-8sb9KHtOt1mUGk1Ff-XVtsLqgfYDrANcQBOJTMPi4ubzPAIIbD9Yf6C94CM5Tc4uhXJJYZ0Y5u4-Sg4o5K5k8gabz5
+tJEwJXYhYBMEIsFZR8Z8GtYHVcbid0sH_7RYR0YSZQi0wYVHVeh61AhQQAh0K5tU5LpdBV8F
+}
+
+!procedure Hospital($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Hospital', $name, $tech)
+!endprocedure

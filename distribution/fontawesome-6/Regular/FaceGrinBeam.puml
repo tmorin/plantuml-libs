@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceGrinBeam
+
+sprite $FaceGrinBeamXs [10x10/16z] BS65OSG0000XufxRVzhg0noje2PR1zsWHIwMKSTap7uh7zUwUGVp8ragSWJ2KbVn3G
+
+sprite $FaceGrinBeamSm [12x12/16z] FSR50SCm50KmXSdVR_zfourE0bTsG5979P0LjDobIYoPLSXLkcvpI0v_sOi18n7oHgHnvI0RAP0EbRUD9m
+
+sprite $FaceGrinBeamMd [16x16/16z] {
+JSs55GGX303HESDX-k_sNjO_BaaW_ARznMcwouIN5i9mng8Slexup2Nv9ZuxsAVbJrZJBquJoVYUu4UE2PKdkppvYl_gKg5vf0rHQ97yGfhsDmo1gBCRfdrP
+iJRFXxU61V07
+}
+
+sprite $FaceGrinBeamLg [20x20/16z] {
+NSc5WO0m0C30K85wzf_s1NkvUigjBiVEBuUt6RcfAzvVzKc3MzRsffTcE1pyfjUYBu1iW6B11LM5f0RGQWG39aPXLD0b482DSDscoZ_T8VyiTmy8gsn0wXDG
+5A8F24wc6VARpdTGOAlBUG270bMvl0cQ5avXQkIKLMTVghoAfva1-0G
+}
+
+!procedure FaceGrinBeam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceGrinBeam', $name, $tech)
+!endprocedure

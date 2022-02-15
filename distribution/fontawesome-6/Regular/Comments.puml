@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/Comments
+
+sprite $CommentsXs [12x10/16z] HOo50S0m40AfDthxJnkNTm4a6Kvrirnoz9bTuxmGPUvv_-ZVjzOeNg0TJCJNlbN-sjvvf5e6
+
+sprite $CommentsSm [15x12/16z] JOw50GC120DJns__QMklk1DzgNXg9wWOOijUP_UOhIoJXEzfCUUkD8ZdQHTXdY_8fUWmMRPlNF-k_rbpOB5wJ6WZ6mC-
+
+sprite $CommentsMd [20x16/16z] {
+JSx5OGGn5C1G3PlLVxN9ak5T31zvYxQRrUPNPTXr1tYKpjRpn-sIxf7y03GPH2rGPH2u5TpvoVO1ojVjqzlkdji6XvRPrgflvznE3HmxGvO3tdIRRJlDErmK
+cOA-PIkhRQEg_m
+}
+
+sprite $CommentsLg [25x20/16z] {
+RT25bGGW40JHnftAFzfJUBFsSHVzgOkLzIfi_YslHnL8aifVQJ94gmOR06URWgv4bvc4qFzliP5Cf0bOaa0oWQRO0AT6agdyxJFWQOar6aE3fGkA_ZqjgJ1r
+R5GPdgFg6WG0Dh2hpEboUX7P2lTBiPtSqwSvu2mTTCcu1R1XEFjP6xhqGTx0Dm
+}
+
+!procedure Comments($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Comments', $name, $tech)
+!endprocedure

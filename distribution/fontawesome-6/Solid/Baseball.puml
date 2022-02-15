@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Baseball
+
+sprite $BaseballXs [10x10/16z] HOcr0G0W40CFXohxJul3MnIWAhD6UzeJKbhgkFg43VdogrZVNWlfT0m
+
+sprite $BaseballSm [12x12/16z] DSo55S0W303HKFVRVreaz_fn8Z4i727uwBmYhxxVSKmlQVa8hz9T3XGxbddyztqicuxgBxf-AVdR
+
+sprite $BaseballMd [16x16/16z] PSc53GH1581GrlKV_NTx8rb_KG95Zrl38RGn6MkQT6Pnv667CDcmQZ7ZfrMlhkmUQBhhVj1kzp3snWEp2KSsaqam7cq6X9U1P3SXZeHMRJU3v0y
+
+sprite $BaseballLg [20x20/16z] {
+VSy7YeOX30RXuRVB9tF_sowAGcZxMFFI4gwENoLeAghhn-M6nmYHq_k-A2hGF6W-uD7GftEZPGXLOHa0m-x_2kapIibUIpK88pqKjyNoINWKVZx4LZHYcnvj
+k2MEuaPLXQUhARiAsny
+}
+
+!procedure Baseball($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Baseball', $name, $tech)
+!endprocedure

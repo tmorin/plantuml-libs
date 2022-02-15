@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/VrCardboard
+
+sprite $VrCardboardXs [12x10/16z] Oy01kFXn0KO6RY09L04cMS4a6wOo3WO-4CKC8e3cGIW4
+
+sprite $VrCardboardSm [15x12/16z] Oy0B6Fa905uk2Cq19laO6DX0D50dbCiAuuBvKCNi2FqW6GHWPs3WWmX3I9X6D5S1
+
+sprite $VrCardboardMd [20x16/16z] fOx50O1G5CE2E-m_BMxVBQUdRV6b6cNoQaa3ihVAhw82hYhRg_6ichtwjlDL5dJBHNvMBsDfCtffFgdbIo4aEk3YhHKs
+
+sprite $VrCardboardLg [25x20/16z] hOx50KKn3CDKvdR_QJ_3OzOb79iBAMqI5zkrE6b_ULOgVNC5Y4zU0Ru3EaK4S1E3392_vvsy6T2RlK6T701gvg1xehe7NLriUP44JphbRku
+
+!procedure VrCardboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VrCardboard', $name, $tech)
+!endprocedure

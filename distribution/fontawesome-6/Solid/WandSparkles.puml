@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/WandSparkles
+
+sprite $WandSparklesXs [10x10/16z] 5SQ55S1050AmrBtil-qzla00N92Dn3wXq9SSKCmWoGNLpw88Vp8Lk2Z
+
+sprite $WandSparklesSm [12x12/16z] 9Sd50SGm40J1CfEaoJ_Q0--l0HnWm9QEXCQ9P5gJ1idAaiB0obGJPv81U98WABHbqmljELeXGY7u0W
+
+sprite $WandSparklesMd [16x16/16z] {
+JOw50GCn2029Usx_RVj0xIAuY5F4cIuwKKK4aQGQ-cLe8lgC1bFoXMtcWFM8ohMA3KHJpBnkVW3u6fsVgQoFcSoCV6flyIr0bNHXwHRGHQcGdwThEJjAmVRx
+qRZ_vWi
+}
+
+sprite $WandSparklesLg [20x20/16z] {
+NO-50SCW403ZEBV_jkMjTWdmBbjmX52ka5fpeO9B5zmg0E95KyqqOApdOTy2OAwa3dHhi0DuJOfr1aXUtl9k9ECqPMx20s0rWWpm_1cYRD0Gwi-E4y3Adlqp
+bemlU1-KI13n35DCL0zB_AnSbhVpD-lZrQwFARe-VwON
+}
+
+!procedure WandSparkles($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WandSparkles', $name, $tech)
+!endprocedure

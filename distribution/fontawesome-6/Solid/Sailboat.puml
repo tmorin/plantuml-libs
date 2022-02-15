@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Sailboat
+
+sprite $SailboatXs [11x10/16z] HSP50S1040ImClV6lzfbo2kJ-gQ2ApU0s26DG_leVYkqqDhRWZ9r6G
+
+sprite $SailboatSm [13x12/16z] JSU53S100CImbEdKx3zj6Tv2Srafs9UHLph_UMRWuXN_lFFD22IfSw5U2bWWVjeT
+
+sprite $SailboatMd [17x16/16z] NSp50O0034FHu4xsdnQj_-EhGDfHOb-1Y6qFdF06FX2F-84VJGA70WNOoKS5FQB3AGi2SjHqJ-Z-W7OhWQKAAxBik04
+
+sprite $SailboatLg [22x20/16z] RSp50SH05CDGXpdglzg5mA1rV1yKskK2hxDLceBwKm25SkkIuNXhyODNIN2BkWPiY4h_wf4gkkl8TBlrp9NXKWez95-xkLfSShXgC2gfBssNlW
+
+!procedure Sailboat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Sailboat', $name, $tech)
+!endprocedure

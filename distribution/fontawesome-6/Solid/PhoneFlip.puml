@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PhoneFlip
+
+sprite $PhoneFlipXs [10x10/16z] FOg50S0W4CHIzsR_QN5uFQFMiJQ0Mi4-q3iGwq0wm_vc88UwPa2-BQub0n4
+
+sprite $PhoneFlipSm [12x12/16z] Ou01NWOuuEFdvuUn-H5iTdvqSGI73qaSh1Q8UVZvUI26GLNpWYYOHWYB1we9RW8
+
+sprite $PhoneFlipMd [16x16/16z] XSu55W0X20JGWUsOn_rFknrswxS0VsceS8kTnJaER1KpCAQ3g-FniFoKuFf9kUFoEHtVBARn7Fb5iPVGZvERrXFfzVeAEm
+
+sprite $PhoneFlipLg [20x20/16z] {
+ROy53W0X30JB6Kx__ziBJcLYXDei46n-W66m4ibVm0RvG_dtAN-e_2Li5AhI_ZmGdlftqR-zZlfT85poVAUjPsf6Nrzs1ll6-Sg3soFZYPz6cu-4h6H3WrEl
+s6Bxq_G7
+}
+
+!procedure PhoneFlip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PhoneFlip', $name, $tech)
+!endprocedure

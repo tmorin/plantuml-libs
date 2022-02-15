@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Gem
+
+sprite $GemXs [10x10/16z] JOh50G0m20CXpzhjFstTq9Xz5GiWxmY7KkW038txYbCNNlK6RdQS1W
+
+sprite $GemSm [12x12/16z] NOs50S0W4CIkxit-q-8UU3SDu8dUktgNMxfXlva_c2SSqta6qo0AXqfmoV47zwxxdthiLI6w5W
+
+sprite $GemMd [16x16/16z] LSV50SKm081GwXxsd_PBu-y4H9qfH4JFSFWtR0i_c_AewwG336f0B_m1_qwCyOmH337cq6Ep1UnM0p-7sSZhD9eWElk5IvrftFt2GFG5
+
+sprite $GemLg [20x20/16z] {
+VOg50SGW0CIktgBxR_lSuney13FsEvAKXB6U7PjNjts2VDtfdNjie3ByqbvHxbGlhn-Wx1yy5hk_dfVsIEoR3g27VOiUI017Mv6pgLff4BcQoiks8dTRaQTN
+b1iM_
+}
+
+!procedure Gem($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gem', $name, $tech)
+!endprocedure

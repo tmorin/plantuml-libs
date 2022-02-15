@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceSadCry
+
+sprite $FaceSadCryXs [10x10/16z] BOS50GGn0CCoviM_siSh5s1O-K8JpG7k_o_87uwaea5vi6eBSyYFOVR_6av0WQ9BuGq
+
+sprite $FaceSadCrySm [12x12/16z] 9SQ74S0m3CD0f3VJs7_Rd4wlGb8-RvhcYLBrf0ofsXA45TZ0Bukvy1LzM6ZUGQRx9lRuT1-orNg10cnEW5Wk-04
+
+sprite $FaceSadCryMd [16x16/16z] {
+JSS50e0W40NHiHLOvlwdjUjjVav3c1iUuMNYqEZCeHW0ogstGCXhjCMPJtMGHeDhZuRqSrEXNOwjGiFBBDYXcIBOFDaZ9p5-sSheOCTYHx48X7OSYew_c-u8
+hQSAi04
+}
+
+sprite $FaceSadCryLg [20x20/16z] {
+JSy7aeKW0C3GACkda_lVTWV6zfGMfi6bJFkFZ-Hb12xg3DTLkLFd4hL-qaKZf9s-aJs-iXadf9O0Ggq1j1XmWQ1we5Fu2uG8fFqF5JZuQ7O1CqmhA4n_9Wuh
+HOLhw6xjRgU3OLmjNssTENKrkWaqAL1qjKsLfMfdEzN05bL7cwhVXxjxPFa7
+}
+
+!procedure FaceSadCry($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceSadCry', $name, $tech)
+!endprocedure

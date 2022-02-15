@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Pager
+
+sprite $PagerXs [10x10/16z] Oy02kFWH02g4nC8E6DaO6K4qCq8d7
+
+sprite $PagerSm [12x12/16z] Oy016FcH0IiB1700sN0bA6pS02Y9HHvP1DbU
+
+sprite $PagerMd [16x16/16z] XSUr0G0X002nmntsd_RTDLtuO_AHjEsgweqPhzYLX-lB_mIbYb5gku6ie3qJbuCyuge7
+
+sprite $PagerLg [20x20/16z] fSZ50O1G30FGVFTc_scH2-wyUl57urR8F1JiKkK8A_h7p_8l05u01CwKKbw6LdZ1S0--RHI5Xte
+
+!procedure Pager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pager', $name, $tech)
+!endprocedure

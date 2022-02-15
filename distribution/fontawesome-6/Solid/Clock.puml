@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Clock
+
+sprite $ClockXs [10x10/16z] Om02Jdus1X3W1mDE20D4i49OO5482mOOU8046uJ9W2B12MCmCB126G
+
+sprite $ClockSm [12x12/16z] Om01RduE1WZWXm0OanT4G4KX0aXiVcu46wQF1KHom0n1akL6LSdE0EVmWIpZXOa2
+
+sprite $ClockMd [16x16/16z] NO-50G0X203jLlQVziCYpgH1JNo7gjMXmo9EISDb_39CtBpRSIvRRUQBCdWXTo5lsibRiLJ-NwnkfuU86oemUNQF1FNHY3WnP9eN
+
+sprite $ClockLg [20x20/16z] {
+PP254GH120JxPLt8FzgNEzQxR0fdK4ALR9bmefGNYao44Hh4AUIQC6FMcw8Av8XvpfY49io8rJCsi91LPcauU6jQ1krOPC9T5OLpik5vn81mXY0k8NNGh5MA
+LviDVxu
+}
+
+!procedure Clock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clock', $name, $tech)
+!endprocedure

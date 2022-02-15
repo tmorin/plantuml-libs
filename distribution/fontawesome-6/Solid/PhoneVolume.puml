@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PhoneVolume
+
+sprite $PhoneVolumeXs [10x10/16z] FSQ50OC00CJ0gtkp_xGul8ONgqvrvnGLLv__Ij8xTFgTAWk-Fi_Gwk9y45rPwMS4
+
+sprite $PhoneVolumeSm [12x12/16z] FSR7OG91000n0PV3Jl_LEXkzXDrR1JqOVtz6rS-E7jqJYsFeQi8OKZqWwMX1fwJ6X8wV5w-Co_fpZb03uXC
+
+sprite $PhoneVolumeMd [16x16/16z] {
+JKq50e0m46BTu_-_zR0ngG4WDFpXIJe8ruV2nILKKJMIXCyMSSpsMNkAEtOibgSxqOZ4VVEajCTxDaI2nMw-YM1pJ0zFaYg_lSe4tjmRjxbYZI2-80HEDT-D
+zzDn-VOS
+}
+
+sprite $PhoneVolumeLg [20x20/16z] {
+NSs5bI11203HOdpQAlzixy6j_tO10DwNlnvrX_86AKmNAJG0B3lbKU2o01m3kWkMgQfCwxnX2TBouRGTAcNSX88s7HGDfe4kRPHmiNipFl8N9Npfpgz_hvtR
+CmlfekZ7CDJZke4ZE9sLrd82RBhHlEcc0R0y2ONDmWSzW65wACj6Ca5nKhQFNr_-0G
+}
+
+!procedure PhoneVolume($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PhoneVolume', $name, $tech)
+!endprocedure

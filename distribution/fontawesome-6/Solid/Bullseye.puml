@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Bullseye
+
+sprite $BullseyeXs [10x10/16z] BOc54K0n24FVrvQpxBzj3n8a2b3wwT5CjR3_K8VD9JeSJ_QVRDjzNInH0bhGKOSS
+
+sprite $BullseyeSm [12x12/16z] DOe53i10382O-_Z_RrV9E2aX9RdSQMnQ2MOjNInvADsKmyjUyeuPlb71_Uz7XXaJdgvtrDaD327gIuqWwmS
+
+sprite $BullseyeMd [16x16/16z] {
+DSo74OHG203HDVi3RF_Ttd3gcq06oX6EXK_uk2YBEe_jIesgAto32L5bgXrqHIkMPDV3IJe0FT7mG25OJKBTK4AUCBnGWEToCUcwShpFTI4jDztaL3ZJkR8h
+4BfJkfuLfngHlYMiMXBW1m
+}
+
+sprite $BullseyeLg [20x20/16z] {
+HOy54iGm30CLPkl_lxrHuxbi6p8BpZ3k2ZmQdPFWa8_nDrc6w2IdcpfU2ejgoJGeycVKPgzYqRL3tg6EeP8CsEIuiSUhJLJIhYrXC6BHa2W0vQYEaYAvhwqY
+Ti1uaCbwRVIHcpRboCSzpEiS75qABq3JaF6xXcay3Ly6hYmuZNwVgbPJp5tf2H-53_pfrt0An0y
+}
+
+!procedure Bullseye($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bullseye', $name, $tech)
+!endprocedure

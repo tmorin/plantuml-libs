@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Uber
+
+sprite $UberXs [8x10/16z] Ou027duC01G5Ko004q7cWoWuO87I
+
+sprite $UberSm [10x12/16z] Ou03DdxiW9c15S80gm8ns1ZOU44ic30FaEG2oyBLCKFakDbuKSnYu8C1
+
+sprite $UberMd [14x16/16z] XStL0O0W543HQxVkFwrADvmVU4tezfnFomgzxUeHLXLiA2gIdqiM5HdDyjF1TU-mo-X4iGU4snsSzoTr1H6TxmC
+
+sprite $UberLg [17x20/16z] dSx50GCn40D0cTdglzhac7cUYyAENTEP7mK1wCA9G2Tnu32eGm4ZmqwLKWvxdAmBtVQwC0X38MF0mL0HgwZMPJwakO6jFm
+
+!procedure Uber($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Uber', $name, $tech)
+!endprocedure

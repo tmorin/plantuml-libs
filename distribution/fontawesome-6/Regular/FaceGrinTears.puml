@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceGrinTears
+
+sprite $FaceGrinTearsXs [12x10/16z] 7SZ7OS80000nkNVV_jCcm5C2UmlWRhGt-IK8ih4JmsLzhNbe15oz_JYVniXGiMC8n0zTXNy
+
+sprite $FaceGrinTearsSm [15x12/16z] FSh50SKW00Mmr0ru-q_xfPPpdARKpkD8MuzaSAfnoWn3t08P9QGfEtgwpcvc8F5AIGgzSqWKY_mjQdyWpAtsne0v0spfdBgSu0i
+
+sprite $FaceGrinTearsMd [20x16/16z] {
+JT255SCm303HCoab-VRVjY-SRsRWCD9luMcw2qv5Nwn-JWxAeVlZ6EKITbOku3fkdck6CDCWqy6GGwnnpSxTlZpfI0sUfYuAX3fLAA4Kskzyo0ka0YnsYFHR
+7tVDQylVLIET0UMZWqjrTVx07m
+}
+
+sprite $FaceGrinTearsLg [25x20/16z] {
+NT05aiKW403HZkDz_zEkf2PyUIKu8qn7S-I5Bsip9DwTwWMiNOKfwKcekX9MNJvk4UBEevcvNHPOJ02Z0ygjku1wmD06EIBQ8NNE0R8AMoyyLc2BMKXwy4LT
+Yygtheuug7K7bclSdwheoGx3i46YMm66p9C4YzlyCWDdSvJrin6QcRJmM7J4yqihKqHeFQAysvktJFW5
+}
+
+!procedure FaceGrinTears($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceGrinTears', $name, $tech)
+!endprocedure

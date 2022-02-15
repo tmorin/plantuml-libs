@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/DigitalOcean
+
+sprite $DigitalOceanXs [10x10/16z] Om01PWOmOEK70GY3bndC17F153ylZ0K4S1OJErIMWHN8vGHhuMO06mDcWHa
+
+sprite $DigitalOceanSm [12x12/16z] FOkr0S104CCSvcZ_QPyEL1arMEJyTAukSVwHziK1cqnADmXaf4WzJQxtsH90upxa9Dscs6NQqWe
+
+sprite $DigitalOceanMd [16x16/16z] XSlN4KGX34DHlqo-_NUxep7wNX6F3R5p-Q8xcICvS3wJqQUE9n_NK5I904fabZegxfp00SDsxwzxdgyCzW5STdR9NxSsqpRZF4Fc4du
+
+sprite $DigitalOceanLg [20x20/16z] {
+ZOxL0SGm3CNiCcl_QGiluDpVgHWPhU2z_U0Rufgh6WcoMcdf8-iS-xbcEi1XebVJhr8gyybERwjCmFgvquAls84XL9JzxRfvdkt3qHQUzvOxWCaEZd2hIblN
+7IZjPO0zTrUtreKALmi3EB9v
+}
+
+!procedure DigitalOcean($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/DigitalOcean', $name, $tech)
+!endprocedure

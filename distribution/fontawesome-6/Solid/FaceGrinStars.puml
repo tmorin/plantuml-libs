@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/FaceGrinStars
+
+sprite $FaceGrinStarsXs [10x10/16z] JS650G81002XirlsdzRuXggRSt_0hKnEUVVsZ1jnpSRPsoZweniLrGdK5m
+
+sprite $FaceGrinStarsSm [12x12/16z] LSor0SC030J03yTu-qzh-ihNY9NJv9zIJTMLpdYnn9GyNFEfipLlDtzg9QIuTfl--dHOjBNWwku
+
+sprite $FaceGrinStarsMd [16x16/16z] {
+PS-50GCX343HuCxVVzkYjNku4rbSeoYv6bkGIS7LvvWlTM_MJ6Rs1BmMsrPTmQrJ2X2PsnfmnihmLFYbe8WlhTLi15ZbiFDkFwj50-VtQOmgu6MeNFvk_4Jp
+0W
+}
+
+sprite $FaceGrinStarsLg [20x20/16z] {
+TT3LOKKn30MmSnaJxJzjqUK-_GMCAKTth_bcKzgKuflZxnNdtokMofNwiqE2lcNfk9CBUp0c6RYIvCG1bNLFLkYGOu1XNaOFtFvQqM-bqjSympYDDK5Bmv2K
+7Kj6z9GLaXomvLM3LElGWThW0YNVKqDRykeP
+}
+
+!procedure FaceGrinStars($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceGrinStars', $name, $tech)
+!endprocedure

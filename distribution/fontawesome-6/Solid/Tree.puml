@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tree
+
+sprite $TreeXs [8x10/16z] LSMr0SD000Gm9MQy_QTzwgn6y1gIitSd-J6bmxWtM4UJV45G0G
+
+sprite $TreeSm [10x12/16z] FSY15G0G30FH003sdnQ8VkYzukYWCIfZ2oVAE2nNcrG3EdSUbUMGM5gFBqXXK_TV
+
+sprite $TreeMd [14x16/16z] JSc55GGn4CDGRvZLVxN7u1_K6xqT6R04M1umtd5uwy-OV0MVrMSqlYufyYTrgyipI8K_1Tp6AJmTqklLo-RztW4
+
+sprite $TreeLg [17x20/16z] NS_L0K8n44JHUHw__LUBis4uNv5LVRH3fi6k7mLWLRXuYVi1zhBnDVIqC7KzTKBMKo942Ii2_d9Yv2zr-OmTrkVOHYjky6_jBmFwIvaBoYpnS0S
+
+!procedure Tree($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tree', $name, $tech)
+!endprocedure

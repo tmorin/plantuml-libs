@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Playstation
+
+sprite $PlaystationXs [11x10/16z] TOU30S1000DJkxV_jEKRSHHZfFDpehLJK9y3pnpPjN8-tQvQtiz80wi-TEsRDm
+
+sprite $PlaystationSm [13x12/16z] POg30S1034NFJjx-qzPk-6L-HNiImDzadIUfJzB-iSoAdBEhIW2B-46YfCqfCCmIiAk3D--Q0G
+
+sprite $PlaystationMd [17x16/16z] TOo30K0n34HJks__QR-DAtEI7_Wd0QGd0U56U0VgHbX8Jw8zYV8Wpewim8lP9WVCH6E6iK1S8bGjTdwnlYyHbM4MRIffTW3Do8w4nyidHW
+
+sprite $PlaystationLg [22x20/16z] {
+XSs50S0W34HHtE7lFstTzQeyI28-ezIJEa0_AYHvLm-ecywlHpMF6XurFghzcoR31396kPa5vcEkGZ43wG8GHrL0ImdoyD26ibdJS2pEbTNOp3B8DQ2P-TJS
+Lm8Cv_VOkMysuXoDckarFG
+}
+
+!procedure Playstation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Playstation', $name, $tech)
+!endprocedure

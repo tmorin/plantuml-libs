@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Fill
+
+sprite $FillXs [10x10/16z] DSR70S0m2CLGvPQk_QTr_SW67X-LeeQYfKNDEMHrUvd0GiWgw
+
+sprite $FillSm [12x12/16z] FOZ50S1G58DIzxB_jD-US4b0nwG4PdrWylEnXy0XcNp0PFApMuIfNGDkagvvDMDCIf4nnwq
+
+sprite $FillMd [16x16/16z] LSg54SC00CD0jM7K_jE6oJxKds4cDYemQSKvTSyNPbMgVF32PC2almSAPWNiEE6dF9jqC4QP2Pa1FmAubmdCRwu
+
+sprite $FillLg [20x20/16z] {
+NP074iD02CGs7UEY__ystXI6GTSrrq3Qdvey8JmcB2N14fCb3uWDjhrBpEPnI8zj9oQajdE7pRBjhBjaW8SsgvEywoVpOjL8Y8HN8m4jJ7n-S3bTp5qcnguf
+LKJRDULCTl_w6m
+}
+
+!procedure Fill($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fill', $name, $tech)
+!endprocedure

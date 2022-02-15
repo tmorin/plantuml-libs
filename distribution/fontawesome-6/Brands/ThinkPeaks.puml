@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/ThinkPeaks
+
+sprite $ThinkPeaksXs [11x10/16z] FSh50O1000F1mPtqNotExISA6eMzk5GJtvmHiCKOC5NC5GjJi4SbzVVdepXKJW
+
+sprite $ThinkPeaksSm [13x12/16z] HS650SD050KWudvl_sdhpGUWKyOeCVfR7F5tNQVDLxDgfwyzJC913CXgxdHJe1_IYA_qb8qIdW
+
+sprite $ThinkPeaksMd [17x16/16z] TSw50GGX34JHZplJVxNdiiR3DM5XTFOq3LiJCzcmtQU-lI8an8-hnVjI_VO2RAwat2pO6HBOzBemD_UWkayEqrTV0D5vwLPw3Np917QAvq0Sn09t
+
+sprite $ThinkPeaksLg [22x20/16z] {
+PSu5aaKn24JH6tbnwFslTbn-YXEX36Z-58YwGoHl16jd4OXa4susYY5kHKXvE1ULxaMeNAaCWSQzK6alG5Zdpzn90Ck-wyv0Kh86WFAUq1pWp2A-F8v02SZ2
+Az-yZhCsW6fULsxudlBFUXq4IK3qFJLG8lhUymu
+}
+
+!procedure ThinkPeaks($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ThinkPeaks', $name, $tech)
+!endprocedure

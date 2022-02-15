@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/School
+
+sprite $SchoolXs [12x10/16z] LSQ50O105CFGu4xsdnOzVLzQFYTHe_8Pj6LxtwwA-461Bx_hlwnHtAZGlldvkju
+
+sprite $SchoolSm [15x12/16z] NOs50SGW4C3oMc_sdxQ64pWt0kEB2Yz8Z3hE-aa5-V2wxMO8_s8057WfOmpzpuQm1yAEgdc6klaDuSRMXYS
+
+sprite $SchoolMd [20x16/16z] {
+ROo54SKm5CDU6qRlFstO7wi3dnGGSbNv9G4mN-N6vbrq1keO05xDK7WZo8L5F6bSGnI0t7hTks-XJ3s_UmedwleML92tACD0uVMW2uKJPGrRdXVkqSeHmZPn
+3wq3
+}
+
+sprite $SchoolLg [25x20/16z] {
+VSt50G0n449HrkB9xx_QTRTtdG5qaetU6A1KUYZCtCixkTn2RMAKD6BYDOaiYkHhLQniOjL9-4gSPKRj6CvEszR4I43G3CXIsGvhH4el1t9huNn8nd5XBV-C
+n5cHheTEohoC1uqkXsmyerfQ8yQmkHusxuU6zqCP
+}
+
+!procedure School($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/School', $name, $tech)
+!endprocedure

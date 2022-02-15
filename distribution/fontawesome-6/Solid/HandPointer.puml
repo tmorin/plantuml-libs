@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HandPointer
+
+sprite $HandPointerXs [8x10/16z] Os1Wu6E007vSD3ytFvY60B0uaEI7qCpy_1mSFFmmQG
+
+sprite $HandPointerSm [10x12/16z] VSQt0O0m0C0mqpl-_rf87wD9m71GQ7zRM_2qwIlAvYW6h7576nRKZZy
+
+sprite $HandPointerMd [14x16/16z] dSUt5KCn5CFGzvKpzj_MHrcrGJPNUasUCZmg_mk-egzw9Ro2GEtI62nay0M4ldxgLUSZsrNxkYIpiz9vy0C
+
+sprite $HandPointerLg [17x20/16z] jSqt3W0X44DHRoA3xtzQWYj2lLzJFIm1LJuiaRnskF-0K0ok2KQHd44LXXdKGmhYk42LzOkF5r6qe9q1cis00ov16ESv08PJ7hqu0PIRtXi
+
+!procedure HandPointer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandPointer', $name, $tech)
+!endprocedure

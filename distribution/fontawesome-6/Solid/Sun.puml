@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Sun
+
+sprite $SunXs [10x10/16z] Os1Wu0DY7WOGuES78WWB181I898Dn0FBGUNvcS4i1eGODv22w4BeHPW7
+
+sprite $SunSm [12x12/16z] DOg50SH048GsoRdHVxVF6oUiJCZjc_6XSW8iP84agsBPiz_CDn27yNFVEdzIIkR6ajMj_xxpl9gEIFuRrXCoGImbasDXyG8
+
+sprite $SunMd [16x16/16z] {
+JOo55OD050GNEBVflzky3JhVLQRAB5r4a0BeeW8Bs7JYtAJ_SdMPevTc2GvKjP64qUE6VP4WrsVaRyIEsIT12b33Puwz5-BXT6AaNSULROchFuB-34vScW9u
+MnS7LT9P_m
+}
+
+sprite $SunLg [20x20/16z] {
+FS-5bS0W54JHIT1Wh_zgLvW35tU-jkKc3bqHagGEkYem1Q2hSmGTNCLtbGxGSwe0gvMms1w5B7riybG06BwuAG5TRFMyFI0_c1OyVZK5J1CyvJFdtqs-rZL1
+kmxuyWhJKz1nutXCKYW0QmACzCWcHv8v9fPZF3BmxXLTBzsDvtu1
+}
+
+!procedure Sun($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Sun', $name, $tech)
+!endprocedure

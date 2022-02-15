@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TemperatureQuarter
+
+sprite $TemperatureQuarterXs [6x10/16z] FOI50S0m08EO-_Z_sdgR0830h88NxhaUeq_kx2tkad_EygXJ1
+
+sprite $TemperatureQuarterSm [7x12/16z] POZ50S1G2CLIzsR_QP7pX-V0Ur5d7Ho2SBVDWyrjkkAF7QHjQQ57h2C1
+
+sprite $TemperatureQuarterMd [9x16/16z] ZSt50G0X34JHMSFXzryjpdsZBwUeHuuQOUWn02OCNGHfuCR_WPdm-DHnZoERcopArpthERXkMO9Uo0NEzqiD
+
+sprite $TemperatureQuarterLg [12x20/16z] dOb54aCn3CNq8Gow_sqxdkAwIcm_81XMdbI3C-Jfaz3R3VUpq0Pe_j7bJpsU-WWjkc3eYNJZs0uTST4hgomdcgxGsbdAMJarSUk-pw82moS7G0wrJdW
+
+!procedure TemperatureQuarter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureQuarter', $name, $tech)
+!endprocedure

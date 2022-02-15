@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/HandshakeAngle
+
+sprite $HandshakeAngleXs [12x10/16z] FSR50OC0002ngtkp_xGuv9KEdsCu0fKy9zH7mlLVv8GAmgKkDbKSxKIR4G
+
+sprite $HandshakeAngleSm [15x12/16z] JSUr0GD10C0mX_Fe_QSz9dLYSR1ugLItrPlaWnrmY7-IPwcv9YyVy5BybW8cVpxg1LmE9ydOHlQpeTAB8G8
+
+sprite $HandshakeAngleMd [20x16/16z] {
+NSn50e0m44FHKC7Xt_-qIBrzovaa6XnE0m-eSiTvyZlBXMhIRnAj69e06spfHhZf-kdcahIa6pzxXha3pC4znLlOpxCN7wTGZ6vgRAMZO3W5biehuUVCPr8s
+mQRE2m
+}
+
+sprite $HandshakeAngleLg [25x20/16z] {
+RT3L0O0m54FHuFNiFotswktv8nV7XDMOkKWU6ApyDMS65bVPFHk85DYoiZDyGGbTBWaIiAoV1IcSZC7ojruC-B0Bsx4X1IAGS1BYVCZ1ejP5TYLxeBYmKwHz
+864RTZV_5TpAxsm4P2uk_cDGuMV1I94d1Wy
+}
+
+!procedure HandshakeAngle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandshakeAngle', $name, $tech)
+!endprocedure

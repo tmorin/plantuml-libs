@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/LinkSlash
+
+sprite $LinkSlashXs [12x10/16z] JOs55O0m50E3ExV_jhp3sk-QjAa4kpI0pVRatN2IPwXrc8sE3BHEieQH8Nd7dEOZP2NpCpHASG4
+
+sprite $LinkSlashSm [15x12/16z] LKs50GCn42BkOVzjUrBxSuKOy10Epubarvv0AzWtRXRfDrNqubeiChL-IbZYt97-rzy0qfellPAROFVspOjadMzbOpF8BmyRlZnPUhWqlW
+
+sprite $LinkSlashMd [20x16/16z] {
+PO-55GGn20M9UwR_Rk_zixM9uk2RFQZiGrX0DBC0xglQYAul91lGB8t3PIA-GcQPA61kWWdqX6WUl8IVNu0aQ-cgwS3fgh-aJhQXIrtZB86a-KjfXQm8UVrq
+tvZD_Wf1ZqF6zb4cgA4JB9Jy7wCZWds1hB2-cnqiNW
+}
+
+sprite $LinkSlashLg [25x20/16z] {
+RP650GCX34LnXxV_j9KazVux8AvXkVzO4DxvD3aptga9wSFkZd6dYxtUtwu3Om9T9C3T4Mxvn1lu201u5K1HeiFnVZyjeJ-AaJWDeYcQFe-uCAsUf9KqgnkM
+kfjf4_zg7KILLvDFbKInZnBekFT4wL7q8r2NX0En_oWPeJI_TQs4Fx2T2rXigstnBEVO9WQAwXveqEn5eZmH7coksPlicUyA
+}
+
+!procedure LinkSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LinkSlash', $name, $tech)
+!endprocedure

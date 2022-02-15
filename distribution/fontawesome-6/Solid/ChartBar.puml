@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChartBar
+
+sprite $ChartBarXs [10x10/16z] Ou03NduOYvyVY800pE840bQO62z85bqTc4AOmWO5G44e
+
+sprite $ChartBarSm [12x12/16z] NSY54G0m2C30kil-qzO5-BDS663hxpfQJhj3dSJg3VpPvDkwpHPfSRCVNJ-cozC1
+
+sprite $ChartBarMd [16x16/16z] PSn50W0W4090n9Ev_t-jtSvj0_3ozoZ2PzQWyvMTivMEOuPkkFv3uNVUIQNM_FQh43k__WUk_eP_tahq1mUv0UgI0G
+
+sprite $ChartBarLg [20x20/16z] XT350GCX40LGtE7tNssoZiCxmZWPKVrJ1BetpDuaNldDuSLohdr8ajyeEz2gdiKbRjx6ywaipvA5vqqXCujw_LrKWr7qY1Yy3Vm1
+
+!procedure ChartBar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartBar', $name, $tech)
+!endprocedure

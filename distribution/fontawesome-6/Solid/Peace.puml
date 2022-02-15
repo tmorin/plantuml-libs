@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Peace
+
+sprite $PeaceXs [10x10/16z] HSQ50S800CJ0mvtiFotK-nfuT0Krwa4HNOJGOwEYddHDesJVH-GUBetY3m
+
+sprite $PeaceSm [12x12/16z] HSQ3WGG10CNGxDYl_shF-4nLfwrl-TOtlbwQAUgbSkVrmuTJFnp-TzCBb1oyn2skNegrE5wwFLKtMEiT
+
+sprite $PeaceMd [16x16/16z] {
+JSo55SGm30JH2IUcwR_RUvAFrlWD8dDqwy8dtPahjQXDxw4zdCjmOTK6FPW6NL6-FlIm_OnsZpztTGCkTRfwGJDov3C7gQe5dOYBNNLmQYFCeiwQHxhe2Pzg
+ms1cDJC0NW
+}
+
+sprite $PeaceLg [20x20/16z] {
+NP054iCm30IlO8Rz_syxchc6DZ6jP9HfcvbreM3MHuOBxL0xAOODwA4Sn3L9Aiu_6gBQidDR1Udc5ZJGpMNOJ_SXiF8ntZ3X238bVI73vMv85GHr05zeqIPO
+Mev3StxIs-k4qyTxjcZiAg2W0ol3Q01-mSI93ggVEIdu0G
+}
+
+!procedure Peace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Peace', $name, $tech)
+!endprocedure

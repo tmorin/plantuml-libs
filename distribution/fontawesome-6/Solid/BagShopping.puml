@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BagShopping
+
+sprite $BagShoppingXs [8x10/16z] Om02VY06K_nG7Xi34FEpiN6oiV4J2HYWD
+
+sprite $BagShoppingSm [10x12/16z] Om025du62E3Zv-Hd0RFu8HZ1OkH70enWJ3JWXRCOu2m
+
+sprite $BagShoppingMd [14x16/16z] jOt50O0m40GNjpsc_sfnvvr9paqRFPLECbRE2DPCTqR5eaQUaRTei0dROBV15wsfKgIX-DywAMS
+
+sprite $BagShoppingLg [17x20/16z] nSd50G0X44FHu3xflzfrbpCF_O2LbwfmmLcvTe4Ymzvc_IInSNJpqNuUbFU9oK-4tZiuVl6SjRXtGPaF0_QJ-O17DzX7Zm
+
+!procedure BagShopping($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BagShopping', $name, $tech)
+!endprocedure

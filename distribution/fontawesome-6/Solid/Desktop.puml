@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Desktop
+
+sprite $DesktopXs [11x10/16z] O-372lWOe80m4pjWu0G2VduG2LJ4nStFpyN5m
+
+sprite $DesktopSm [13x12/16z] O-1703v-LC001sHnS0Ds35iO4Jfv8C9C30m
+
+sprite $DesktopMd [17x16/16z] O-3ZHm4SlFmOW8KP2N011HWPa007hGJua04_4O0TNO212UnaFfWNO5O0fNWHTY7y3kG
+
+sprite $DesktopLg [22x20/16z] pSZ50O1G50Emul3bTVzfSNU770F5AK_n2C68y-zbE1Bn1X7dm4ygbcHIGukv47skKfe5fHHQbXqVkGm
+
+!procedure Desktop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Desktop', $name, $tech)
+!endprocedure

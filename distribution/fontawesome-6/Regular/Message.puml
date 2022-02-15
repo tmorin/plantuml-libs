@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/Message
+
+sprite $MessageXs [10x10/16z] O-3ZXm1kVWOeu8Epk8bbyR4oCZ8mC38oyZEmi7AnyhEoiWBv3EmG5G
+
+sprite $MessageSm [12x12/16z] O-3XXm4sNduE6E3dvsI00Qgn6K6sC720BOD8yYCakI0q
+
+sprite $MessageMd [16x16/16z] pSVL0O0m04F11FUt_xGuL2Re_Pqw8fjwSeeLTcDk6dX8jbSsUbzqMy2AB9i-1m
+
+sprite $MessageLg [20x20/16z] tT2r0SKm00DHcTct_xGVmzaWhpnrafkSDJbk9kXYSc_jCMqIp9S-p0yO_eBoVfPy2A4I9eGVex_qdrThYxgsQRHx0m
+
+!procedure Message($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Message', $name, $tech)
+!endprocedure

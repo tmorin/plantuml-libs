@@ -1,0 +1,63 @@
+# ApplePay
+
+
+```text
+fontawesome-6/Brands/ApplePay
+```
+
+```text
+include('fontawesome-6/Brands/ApplePay')
+```
+
+
+
+| Illustration | ApplePay |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Brands/ApplePay.png) | ![illustration for ApplePay](../../fontawesome-6/Brands/ApplePay.Local.png) |
+
+
+
+
+## ApplePay
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ApplePay
+include('fontawesome-6/Brands/ApplePay')
+
+' renders the element
+ApplePay('ApplePay', 'Apple Pay', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ApplePay
+include('fontawesome-6/Brands/ApplePay')
+
+' renders the element
+ApplePay('ApplePay', 'Apple Pay', 'an optional tech label')
+@enduml
+```
+

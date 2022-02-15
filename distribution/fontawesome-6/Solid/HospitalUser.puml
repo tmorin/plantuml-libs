@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HospitalUser
+
+sprite $HospitalUserXs [11x10/16z] O-070GOGu0S33WYJcO4DnkG7OWva1Vmy81uVa0damaJv8APm8QlbuOL8mfK1
+
+sprite $HospitalUserSm [13x12/16z] HOg50S1020DJz_x-q-9oE0c60MCuNnxhriS5tArihJYVB4S-lazQAQSUhs2sym4UGP-NpB1DOROUFmO
+
+sprite $HospitalUserMd [17x16/16z] NOs30G0W50LVTkq_RVRbwmCn3J09yxrDknhv2aVWZfYtDuNYJcd48PmVOlA5JI4H6qVmEyNNOW2hy250A03Nw6_HRcgdK3lEU9fEr2yA
+
+sprite $HospitalUserLg [22x20/16z] {
+ZP250SGW34L_lMZsd_O4TtWj5a_0oVCYm2bo1IablBdqWQgb1x3TbVH_ReiHYE_QIxUw1lEKbLHdWRIJcaC3jo6JgcQ4kyecpPxDABw5mVLocmVVGG495KOQ
+fST13Q0f40qs5gLV
+}
+
+!procedure HospitalUser($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HospitalUser', $name, $tech)
+!endprocedure

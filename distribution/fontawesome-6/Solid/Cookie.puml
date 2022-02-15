@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Cookie
+
+sprite $CookieXs [10x10/16z] Oq06_200Pa00c074K98RpkA7iLWX50DCaXr9BuJ9mS
+
+sprite $CookieSm [12x12/16z] NOo30S0m402lRhp_jB7lJLPEbpY8M5SuKxS1qGbguGPxhkeoO_PnZ9Nnz21H5Y
+
+sprite $CookieMd [16x16/16z] ROr50a0X448nsGttF-rFMvyv1JYHzS8IHLNci2GqO6KMhYGS_eSb9ZHXqCmGmvUuo7bA6Vd_5HR_Z2bX-B0I4WL7Axsu0G
+
+sprite $CookieLg [20x20/16z] {
+TOu54eH040C3wvh_l_OiJ1tQwFOedYaaPqixKscOTToHvIZsil68jxIqwwc9f4EaiO2YxOjv8TsuYia_7U7hj4fOjjs-tuYayKDbtwfjlnRs8w347VYIkIV0
+v5u9RoPZn-9JhH7Y3G
+}
+
+!procedure Cookie($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cookie', $name, $tech)
+!endprocedure

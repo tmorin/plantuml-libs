@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/CircleLeft
+
+sprite $CircleLeftXs [10x10/16z] DOc50S1030AfUs__RJzwKK36nIu75XrSzhofD-77vreyLouSFVlHddoVyLt8yRt1u_a
+
+sprite $CircleLeftSm [12x12/16z] DOo54S0m30E_ZAhstxQd97up4XwVT6nTiacw4rwFD4WO60kFadgQ4YuUXmMVWdf2mbtvIyS7M3tzukLmm0y
+
+sprite $CircleLeftMd [16x16/16z] {
+FOw50S102CIWhcJ_QIjONWyNPxuvLOgRO7MbiFdduluVgBY9wm-MPc6GFxY3Z9cGPC1DICoi72V1-EcJ741LVx_YhJF_GBZySxl6P66IuehafUKIZosUMuu1
+n_x_2m
+}
+
+sprite $CircleLeftLg [20x20/16z] {
+LP074eGm4CEMJgh-_ziRJ-83HBErz9YaJZtZnSMaRLP0t-OeMLLF3yXM3t3e0YlBiJcBcpleIWjs0ObjX9VhYXjcYMXZN32RIfMBhfvIkfKvkIJR-tv-XsAt
+qg9nZFUwXrDVuVkBL9EbbSWmhriRRFv3G2iTtfVSWFnut0y
+}
+
+!procedure CircleLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CircleLeft', $name, $tech)
+!endprocedure

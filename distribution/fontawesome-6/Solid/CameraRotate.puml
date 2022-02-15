@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/CameraRotate
+
+sprite $CameraRotateXs [10x10/16z] Oq06_4301AKHW0k88J9S22ae2rc0Zu4FocO34GXJ
+
+sprite $CameraRotateSm [12x12/16z] NSp50G0n2031ZJlqN-svPZuuJ7GpziIvg3ldxD09E94hBMhfx-JAHt-FFAADAy-0pE-6tFeA
+
+sprite $CameraRotateMd [16x16/16z] RSwr0GL1549HlgunZ_whNHct4t4pCFDnPiRIyipldNGAI2v-ZtxVLSKAZwdnaSntWTIZBt18LZUruPTxyQTLCIfOrCAhWGi
+
+sprite $CameraRotateLg [20x20/16z] VSx50G0X40J1nXtoZ_RSXNgk3l-CdIaksaPo46rtZjp5qZfoV5OiiqG-In9ib72jgVbpFMedTwjzCHyvDSWvZgYt6h5gkDQaOHRRNR37pzhUU9So7qO
+
+!procedure CameraRotate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CameraRotate', $name, $tech)
+!endprocedure

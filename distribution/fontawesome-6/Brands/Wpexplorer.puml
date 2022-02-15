@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Wpexplorer
+
+sprite $WpexplorerXs [10x10/16z] BKk50G112E8xBjX_MeEpbK34nniPl6ACBmwik2AfXubIj_uhbroRbADmujElTPNS0G
+
+sprite $WpexplorerSm [12x12/16z] 3SR70KCX00KWVhFhst_RX1DWfW5IiG81XD21hNgI3yxq_qvkIk3-UZvt0msQXUL21BnybG3VWNtArLBv0G
+
+sprite $WpexplorerMd [16x16/16z] {
+DS7B0OCm30KmyOSazjj_svug0LTbRlugwzplpWssl80goE5lBEfbxe3U1Kc0BTTY93CBf4uyaUm3dHryLqOkUjvWwyk3tXei6uZ0neAxtOKB4DJmbnjMR-3E
+1Un9TwVX1m
+}
+
+sprite $WpexplorerLg [20x20/16z] {
+JSy5hi0W403HgUDp_zD-sK3J5qDMcVAmtNmysd8kmxupwGMXcmbsNeTbFdrvmIEGRvPRuXsrCfam_hJKat2QMxJJNIKuelcMJTfgFG3Dg_Rb7DHMrfk9Qm1u
+3mXrMtk9X6Ed4agdz_d9-IwoUp1TKIFsaezvAzuiTMLTUivVUIL3Zuhy0W
+}
+
+!procedure Wpexplorer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Wpexplorer', $name, $tech)
+!endprocedure

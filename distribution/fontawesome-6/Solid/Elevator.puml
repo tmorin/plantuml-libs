@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Elevator
+
+sprite $ElevatorXs [10x10/16z] ROO50e0W0CHcj_l_Q-q4BWSKe0AQWnMlCfDY4awwAY2q3-7WhHK
+
+sprite $ElevatorSm [12x12/16z] TSc50O0m40F0u1R8_jkInwMzzXr0xv2vj5kM2cUIlXIbst4wTLGM84rEeOo2GO6K5iuoMAJnqVTgT5i1
+
+sprite $ElevatorMd [16x16/16z] XOtL5S0m30F33FjlMobble_pCmiG9EGxa4pz794sfhO3HCcKQ20sV3wYNFydos6rvlEpsNEkXdLVgBj1rjhCRlCucNtF6_R8R3JxcGa
+
+sprite $ElevatorLg [20x20/16z] {
+bSd50G9H4C3GhFkc_sxvCxZ3EoQ4iQ5e31Dfq0we3FqvQKrXp6IYg1rufrqUJ5G-s_r3JsknLwoU0PjASTjsjOBAiud1KE4d19qfHjD0w2IPUa8hQJSCTUYj
+qwwBpzXzD1q
+}
+
+!procedure Elevator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Elevator', $name, $tech)
+!endprocedure

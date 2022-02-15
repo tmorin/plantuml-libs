@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Check
+
+sprite $CheckXs [8x10/16z] Oy0EU20K9p-OOkLdu0Enm9YVWP-90SnWXYXYGTO8
+
+sprite $CheckSm [10x12/16z] Oy07c60CDdueWvMV6y9WvkTbu0EBylD324P-FWO87om2bS85
+
+sprite $CheckMd [14x16/16z] Oo0BC74ZS_ZvKJYSQ1nU28SHpE63AkRdvm9J82uZc0Fb0lL03GSf1iiWk5meZY36fG
+
+sprite $CheckLg [17x20/16z] hSUr0GD10C0mXu-z_xHXfaTrOdvDNbHzV_xteXNMxXxFGDFDxOqJTGjaBLoeAuhArKBDMdbG5HwMsdWLcE8
+
+!procedure Check($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Check', $name, $tech)
+!endprocedure

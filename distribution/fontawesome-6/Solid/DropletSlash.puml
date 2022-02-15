@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/DropletSlash
+
+sprite $DropletSlashXs [12x10/16z] 9SY5RGC104MnruRH-syRVPt5_c_EDVxhuQ_6AtJumBF32Mg-XMkZPsYSYUPFwQuvO_K3
+
+sprite $DropletSlashSm [15x12/16z] LOg50O104CE2Ezb_MlJzpzgcRG3u9-02e54hg6lKkxtcc44hJINzzHdbih3bM3pfifHJY7IZg_QSELTWyWO
+
+sprite $DropletSlashMd [20x16/16z] {
+PS-54SDG30Mm5-Pe_sdB_nhGiTdrb9ysnMZF1qEAXYf9Z_pH9N0ChfOTj8VWu2S7DM0wX99RuIvPGPy2LJhO3h7eKi4nnfBizXIREIl9T0YoLXLr-VHuNvB3
+xX7DRz0J
+}
+
+sprite $DropletSlashLg [25x20/16z] {
+PP050e0W300Dkkx_hpM6DJpRWzLIfWSpVIYmJ1qFNvEXhvo1-ZKEqlbi0FOZPAbuv6L8PEXaRI8FipRc4MqQUCogVgzIjr1rZY0D_WhhvQm8JedWkHCL9VmY
+eqb3AsULS2OoUaSufvJatw9R0RnKtAUvl7rmOsH_-7MUplT5jRc6dEuMviOE
+}
+
+!procedure DropletSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DropletSlash', $name, $tech)
+!endprocedure

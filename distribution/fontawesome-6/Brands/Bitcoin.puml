@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Bitcoin
+
+sprite $BitcoinXs [10x10/16z] 9Oc70S0W20GJUtV_RUMUK-3B1_4J-OA9mZb8-SxM19CHvGtYkZ9gGKbA82KU
+
+sprite $BitcoinSm [12x12/16z] DOe50e0m30C3p2t__oshtQIDGFdW70fDLbb4RdNhAE8ajP7HPUZEBVExRm5kSJw57xnJ7s3AtiWsA5ndqoYuf71_
+
+sprite $BitcoinMd [16x16/16z] {
+HOq50i0W3CI2E_p_jrlRIR1BCGmN-0b7sO-kyv94fyQyPOxFuTmpMiQM0XG9pJnp5acIKtTtsTp-8eAt9DDYtx_NrpEauHdgMsVlxNhK3tTrnm2h_mhnruUc
+5YLU
+}
+
+sprite $BitcoinLg [20x20/16z] {
+LOy50e0W40JtGBh-_rfhoR77Imn4uq1Y-wbsAjCM8A7jg4zPlYUKEYAbVLpUMCiQ1M1vlnLHcBMJ0J_2TDAQOcGLgWZn0Jr0ys5W0MH-O9Jx6qx7hlpnaL6_
+knDWpchx6jB4QJjNvXuimh0X9naVwbITCfN5H8M_VJSF
+}
+
+!procedure Bitcoin($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Bitcoin', $name, $tech)
+!endprocedure

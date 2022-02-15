@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Sellsy
+
+sprite $SellsyXs [12x10/16z] NSZ50OG000Emdk9a_sbnpwUIFE6is-X0eznFqIOjyYh39sJhVfSUldvL_qLYbn4
+
+sprite $SellsySm [15x12/16z] RSc55G0X40FHd0kI_gl57GRzRx7i8dKLGmdRpket_oCZLE8H9tvvanA5l7fYP9i0BfrJEom
+
+sprite $SellsyMd [20x16/16z] VSm30iGm54NHMpjl_wiTnZfjz4NNT3yBYK4_Cn5P4zQ8aSFFAMTUfC5ESi0sJpQm3B_OuATVc85VJBVTvvNJnNHMObegCHenNT__kNJT-ZX0cOkl8GQy0G
+
+sprite $SellsyLg [25x20/16z] {
+ZP250G0X4CEAEzr_sdTNWfD3qOIoLk6EuOJ1XSY5Y1EU6muR4k21uoQPCpMH59Ymvs2txLLkmbz40OvYsLqZR68w9IoX4kOWAC61V1TPlGYQDu4NKIT1RHXq
+cPkw_9Va4tb-u0sBTte
+}
+
+!procedure Sellsy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Sellsy', $name, $tech)
+!endprocedure

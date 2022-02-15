@@ -1,0 +1,63 @@
+# Chess
+
+
+```text
+fontawesome-6/Solid/Chess
+```
+
+```text
+include('fontawesome-6/Solid/Chess')
+```
+
+
+
+| Illustration | Chess |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/Chess.png) | ![illustration for Chess](../../fontawesome-6/Solid/Chess.Local.png) |
+
+
+
+
+## Chess
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Chess
+include('fontawesome-6/Solid/Chess')
+
+' renders the element
+Chess('Chess', 'Chess', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Chess
+include('fontawesome-6/Solid/Chess')
+
+' renders the element
+Chess('Chess', 'Chess', 'an optional tech label')
+@enduml
+```
+

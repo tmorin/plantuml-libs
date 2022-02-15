@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/Star
+
+sprite $StarXs [11x10/16z] LKg30G0n30oUrUq_RStmHAM4PW43gH_m1WcqcdVXNmbr4ySv8GCD5a1b4m
+
+sprite $StarSm [13x12/16z] JOs50GCW3C2AE_d_sWaUg9iCd3p0zVqRe68RJgZ0BuPg1PGCDB_gJmRqeVFr9OmIg-x5Q-bw1feVfSu0lUv-0G
+
+sprite $StarMd [17x16/16z] LKw50G0W39hTyl-rTcAk05fmd7u0Vnm0zZUulyM1v4qedn0xItHoi04z9f7Hu4crwDSoBVjhMzWPvythvuSVAs5LJgBJMjbUkHDM0SWCuP0ZDuQ6anZ3QYGg
+
+sprite $StarLg [22x20/16z] {
+RP35WG0n3CGcp57_rHuiavuoMmTsweD9V4i3VALs_5CwXjx90wVsI0uD90l5hI9D5jnIi32CEj33iNIUQyPaw8A593tr8bVTBxSiSjNboCoN4_9XTL2m7xPZ
+f52DL36NpyW0D8NBEw73Y42XNL-xL6PWN6pGIcLAqYy
+}
+
+!procedure Star($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Star', $name, $tech)
+!endprocedure

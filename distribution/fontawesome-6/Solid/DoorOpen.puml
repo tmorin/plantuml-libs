@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/DoorOpen
+
+sprite $DoorOpenXs [11x10/16z] Om01JWO8u0S23Z2B4Sm4OY0JAeh1P48InSS4qb0cFm
+
+sprite $DoorOpenSm [13x12/16z] Om03BWOeOEK70bueXn_CuGCIS0up2nUO0rN6Zet3W2934WV8H73u0G
+
+sprite $DoorOpenMd [17x16/16z] fOk50G0X30FpRcsp_xJlxi2XZM164gn41GVMMJW14Qa6mHPXkBAzaAObYxq0P2z2SH8Al5N2XLAv5smOzmBP0G
+
+sprite $DoorOpenLg [22x20/16z] fSq53i0W343HsjpkVzfjkCReZv47j13RRYYZvNp-bjoCsDOCyOdgZdDNxqf1H8vM_xPHtQYd13szDiKshH8tIkbXqbIb7m
+
+!procedure DoorOpen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DoorOpen', $name, $tech)
+!endprocedure

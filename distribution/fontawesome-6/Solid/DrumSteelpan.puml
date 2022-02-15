@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/DrumSteelpan
+
+sprite $DrumSteelpanXs [11x10/16z] ROl50S0m3CHKvch_QSkOH1_xY2-v1u0DWeod6gsWrm9XfZFDzBvyNiv11Ii
+
+sprite $DrumSteelpanSm [13x12/16z] ZOd50S103CEEET7-qvRvLGLjcm-U5R7BMn6ICTh0HrsCPLWEz6sZ-o6uBSdynRo4VVmhhiaeRdbc
+
+sprite $DrumSteelpanMd [17x16/16z] dS_50GGX40NHnftAFzlzwpQdULZr4JlaybYpHwSKpzlGF5WfOO8LK7irkcPJLC2aixP2WAvd4J91iK5sGvrfdBFvOVomy3DBv6dvzt_bNXS
+
+sprite $DrumSteelpanLg [22x20/16z] {
+jSx50S1020J0FO4eRF_Lnjr-cSy9Yaz9L5KYTj6vgp5HJWhLekJ80j0E7u0JWy0qVMHXixrXDZNa01EoLL8mghVs97tv3HnDnLCZEe2AAoCrPwd7ov-UsuEy
+CoJUOLjxOuB55d31knu
+}
+
+!procedure DrumSteelpan($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DrumSteelpan', $name, $tech)
+!endprocedure

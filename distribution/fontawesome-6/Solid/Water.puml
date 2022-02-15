@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Water
+
+sprite $WaterXs [11x10/16z] Oy0AsFZX0CHZPs3WO6PWP61WPG2H39mCl2WA4038usO6KVnO5G
+
+sprite $WaterSm [13x12/16z] TS630KHH0C2mVZoZ-qzxDXB-Q_OjwhvhwZPlXhoRG8-m3eOlM23l41Dii7ApiAfT7KCDRcfgseEyEW8
+
+sprite $WaterMd [17x16/16z] {
+ZOw54SGm40Db2EUa_hjzoy-SdJb67A2irakrtXEo6X7MknMRxX5bLWa9GCvDfT8rNl6I2PYa38IYoGk9rSb0fRXY8TwfY_LShJTS7jkjTruUu_snxUcn_Fcn
+4m
+}
+
+sprite $WaterLg [22x20/16z] {
+hSpLOGLH20JGkMx0zDzjbeqzz_E3WmzePDr2Diu0n4LBgBn4I3Nkrdz0mgQEvY7rxcK8kAOKk32m6xxPZDIMgxyRfGp_d9MNL5fjTEDxGz8ayHmIRZ5vo9n0
+D6vCb4w4Rl6Yi1hGH6L4bAaw2z8OUC8N
+}
+
+!procedure Water($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Water', $name, $tech)
+!endprocedure

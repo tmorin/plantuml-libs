@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/SteamSquare
+
+sprite $SteamSquareXs [8x10/16z] Ou02Lduam0EX69Xv83G36py37pyBK1a_47CnW4MPc92rC41f
+
+sprite $SteamSquareSm [10x12/16z] Oq00Vbo0WP4BoW0291O31uJ10oAPs1Z0gdWP6DXW6ZcOq4tYWm8U
+
+sprite $SteamSquareMd [14x16/16z] RSd50SGm00F1DRFLVxM7uMHU0ixwtAMXHrC7EC9U1jwEmqMkIx5CWfd2I6fy9Oal3mnzPmDGZ5P0rQR77FKawGXpm1i
+
+sprite $SteamSquareLg [17x20/16z] bSY30KGn44NH6pkl_shNniSP3rzyV6E2TgXJhoBE63qD9Z5OFOG0TFJ0_J5q4M24xBq4NLBdIX8doPdBw3hXmZNGJNUSLAiN1cRHYv2ArLzJ7z2xmQSZ
+
+!procedure SteamSquare($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/SteamSquare', $name, $tech)
+!endprocedure

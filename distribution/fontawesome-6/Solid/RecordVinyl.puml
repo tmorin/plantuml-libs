@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/RecordVinyl
+
+sprite $RecordVinylXs [10x10/16z] BOZL0G0124AvFhxOVre3VGQ1WdhHoD36FEtWJybX-j9oxtOhyAUAYS-Q1
+
+sprite $RecordVinylSm [12x12/16z] HOo50S0m2C2eU_d_suLPWwiOGwiywCD9uKbh7FXbkIpjdaYZBcBMcyX4vwJ9gDDmcEtxF5rzSfZcolc_1PQ-tGi
+
+sprite $RecordVinylMd [16x16/16z] {
+JO-50GCW30I3ExV_jcs-UZZHDr4EAzY70wBf5VXo_SqV--ryQ-uuKUPkOrMxVYqAawzsTwy38hY3o4jnQGFBmokE_8DkRgdf-tdDaYLqg-ZS27N_ezgJ_VSK
+yK_D0m
+}
+
+sprite $RecordVinylLg [20x20/16z] {
+LSo50SCm30NH7p33xRzjAuLVq7GwbKcFUacSngOJBqKEtkezzHBkLWrxcZW9jsYzrxEEgPM_heefHnTNXF56M25gW3sdFO3NrFdpLnAC15EOw05rp2wCC4a5
+vZarpcgLmGMj74Rd9Adm9LDvs-G23ztosGmoFm
+}
+
+!procedure RecordVinyl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RecordVinyl', $name, $tech)
+!endprocedure

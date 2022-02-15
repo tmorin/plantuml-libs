@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PuzzlePiece
+
+sprite $PuzzlePieceXs [10x10/16z] Om027aO6263XvsU00dv6C0a5o2o4C8A5a8MGg2m
+
+sprite $PuzzlePieceSm [12x12/16z] LOk30S105CLIkzb_slAORpnUpeQ8IiAPbsRRjaFt7J3Irtrv0WuJVIZDzjSjQO7Kow8Tt
+
+sprite $PuzzlePieceMd [16x16/16z] NOw30G0W54Ipw_QVDll5xoCTdIYvS01kMtqsYLZvr3S0XE2RZGl-sQBRp1mxwh-csU7keKyyzCfqzQCpfeLV_HkoVuvjZpsgMNkxlW8
+
+sprite $PuzzlePieceLg [20x20/16z] {
+VOw50GGX30GJNFP---_spnKOV80aig60oXFbZ7iwjxWaJoevoGj3wXMfr0NE0CYhunFRSAxdVlIIBkUbCBQ2hWuDnoUWbN2FLva7jS2x-dRBjZmTbcrwlRFB
+zd3bV3Wjgoxk3m
+}
+
+!procedure PuzzlePiece($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PuzzlePiece', $name, $tech)
+!endprocedure

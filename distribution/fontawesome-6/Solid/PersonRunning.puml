@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonRunning
+
+sprite $PersonRunningXs [8x10/16z] Om01VY16qFpi89APdviVmcVbXp209121Q4OmoSu8ud5oekW7
+
+sprite $PersonRunningSm [10x12/16z] BSZ50O1G0CFGu4xsdnQ-z5qgDDT0ACt8DGBicijpJ0NL8Mt8csUQNlG1L7WbF0Y17m
+
+sprite $PersonRunningMd [14x16/16z] POu30W0n40DJ7pV_V-sXnfJh86C47QGCrbMopbr3P-FYpvwCatHIJNq3_476axmfOgFr6wg69RvAHSEfscI_BdeSv9rhU00wATF6w2WX33gnM2y
+
+sprite $PersonRunningLg [17x20/16z] {
+NO-55KGX30I3EzD_jQSV7Joo-v19wdBWW2CGxu22A8C6LQsSvazSjRGEa9u8E2bmYewcWGSe0EuVw81Hl-Zg434nZQO0D5aqyQk_0NIHEcmPKkK9c9HI-6Vw
+_Ljp13p85QY_ymq
+}
+
+!procedure PersonRunning($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonRunning', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Retweet
+
+sprite $RetweetXs [12x10/16z] Oy09-Fb164X2ALPEJduk48S9BCtBWuyD15mmtHoSd8nWuv01
+
+sprite $RetweetSm [15x12/16z] Oo00sFWPWIGpCpCJYCVEpyyF4WC181T2Wm0Jc686aaHn8IJ4L7J382G2m7W8
+
+sprite $RetweetMd [20x16/16z] fSw53KD130DGVpm-xxzj7RcYCZnXEFZSqkvJv8IKBiKvqacQKq7ZwoRa5gDhvx7YQYWNEbVydwkJd3EYGdRPWSbmG6XmCY7uDUzJwiwAnou
+
+sprite $RetweetLg [25x20/16z] nSu54i9044JH7yzgt_-sLEFka5UoCift5Oqt_gN1bqaR-tzpZNQmf8qE29OsMOp59QKqx4XXVulOGe74JZxQ7kqqq6i3QtIKDlXIsHg3ZPXhk6h8l6K5
+
+!procedure Retweet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Retweet', $name, $tech)
+!endprocedure

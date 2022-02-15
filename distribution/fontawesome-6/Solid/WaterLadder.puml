@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/WaterLadder
+
+sprite $WaterLadderXs [11x10/16z] NOQ30S1000DJkxV_j6-7fquNI9yV8JO_0IS_Iy0y8YXWs07XkU3uOM5sy8Am
+
+sprite $WaterLadderSm [13x12/16z] POd50S0W00DJmo7xRrjSxn75Jg29IhvHBJsVc0FJ5407AjIIL4L9vOgqKcXFrhDOt91t50t32GYytk2oBbu_
+
+sprite $WaterLadderMd [17x16/16z] {
+ROm55aGX30C3xVT2xdzQ9EiooFJLy9SKb-pXSkPWE8RAJ93xmMlQIIYXbtbYUoOIb80z4hWd15d5A_7WbKWJL-BlZlf8RB8VoC3XGC8560SbvXzbXkCJLVzr
+NvVIw-y
+}
+
+sprite $WaterLadderLg [22x20/16z] {
+bSq55WCX34NHXyD8_lvtMtBgtjvHedmIQZdznPev6Pe2mEv_uBBaW2vdd0e8KW5ffvwAJQi7chygt4P3vnHDvHg5KzHzYbvzZzeuEaN_tZPkefTOXmXb3P08
+QmPMJMiT_h7MpB_Lz4gIOfHhRFxPQ18l7G
+}
+
+!procedure WaterLadder($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WaterLadder', $name, $tech)
+!endprocedure

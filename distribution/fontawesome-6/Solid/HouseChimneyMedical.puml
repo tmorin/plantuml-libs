@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HouseChimneyMedical
+
+sprite $HouseChimneyMedicalXs [11x10/16z] FSQ75G0X2C3GNE-N_RVrMI0AV6eRqQtBPvMzhlkpqjo_LTKowGcdKYbePmz85W
+
+sprite $HouseChimneyMedicalSm [13x12/16z] NOo30S0m403hnhV_jB7lpICZpgEZuJqWvux8NmeQDPzz2mx8hqpjlR4wxNPJ2srQKTcB
+
+sprite $HouseChimneyMedicalMd [17x16/16z] VOw50SGm30FrNsvYQ_zfos6ue5duC2CIICw0YBEL5zj8BYx-8Cx1mEBjON2E7ny-ltwlsG5ZNjVJF-eDQEnOd0RNe-CmDd8uMeufTW0d
+
+sprite $HouseChimneyMedicalLg [22x20/16z] {
+ZSxL0GCX54JHmVrD_zL6iUZk_OA3OkO4dqMI6e3tQc7cFOD6jecLpxoGyoQkbieNLNoKKzlKy1c0DNByK0xqpjrtkD8lwQizswSnVMZq_GivHW0npZ-ejzVE
+Q2tjJNk7YdTj3qrlge4h
+}
+
+!procedure HouseChimneyMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseChimneyMedical', $name, $tech)
+!endprocedure

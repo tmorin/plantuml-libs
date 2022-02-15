@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/SquarePhone
+
+sprite $SquarePhoneXs [8x10/16z] Ou01VdG04u9BmMYuQau6DY29AWa
+
+sprite $SquarePhoneSm [10x12/16z] Oq00Vgo0dG_Au69WX8anSC1PRFnm9WlS26J3UC089i7D1m7i
+
+sprite $SquarePhoneMd [14x16/16z] VSgr0G0X00J1nHtwh_RTXSbEk3FrK8HjVTvSWePw9WVwJ0NPBk2QAjH4scDcbezPSR-Nt9x4BO4uCG8
+
+sprite $SquarePhoneLg [17x20/16z] ZSyr0WKX34NHExYp_zL-gPYNYbF60rZfBS9MS-mRiqGD0CC67Wayu2HGUBQ2he7oZvGuJoJ00wGJIVmLiufnzLUs0UOM4UiB
+
+!procedure SquarePhone($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SquarePhone', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Wrench
+
+sprite $WrenchXs [10x10/16z] Om03Dbu62E3dvqSma5ZyO1OOm1dy40OlM0IcdXskaGrk0W
+
+sprite $WrenchSm [12x12/16z] HSY53S104CH0XpdRVxM1Fx9ePAp-cbr86fotqpTmbs-PBOfBiNUUWFCmNZT1EYLv0G
+
+sprite $WrenchMd [16x16/16z] ZSg53G11449HPjtflzjprnzz1AobvZQ0VMbZEr9wver8lSsuJowZUywElMkjNCortzIYiMEFMoPAs16PiIrS_djs
+
+sprite $WrenchLg [20x20/16z] TSo53GHH549HlkiB_LUxEiR8ZPCJS2YRPKYLdqocpcyoXQl2GRdhreb_RjiwASvxtodRshePzyfLyQgcAYCDgXosvEPH5HAglcn05P3v3TfKzUqD
+
+!procedure Wrench($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Wrench', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/AlignLeft
+
+sprite $AlignLeftXs [8x10/16z] Ou02NduWu6H003Oeu8S0OjK1
+
+sprite $AlignLeftSm [10x12/16z] Ou03TduGu0Eo67b0W1t8GfQ50KO-6A14Bm
+
+sprite $AlignLeftMd [14x16/16z] Oq05V1300-RmyaC18vZB305C39Y0aGS9S8Fq8G038pAWjtq
+
+sprite $AlignLeftLg [17x20/16z] Oy00R3300k7pyiC18qG1Ge21MC3AXWAOUFZH0DHGF4OF7PS2
+
+!procedure AlignLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AlignLeft', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserPen
+
+sprite $UserPenXs [12x10/16z] PSR50O100C2muaxtdnQNaxm2OC6ZLCVddiYFMXDRX4hjOKQypBFoV4ZA3W
+
+sprite $UserPenSm [15x12/16z] PSc53S100810wbxsdxOkBqGlS5JOyhTuzFFK_wkBKtohZzsX5V8KADkkgowkKdZNe0KyMl5a-_0M_kHe1m
+
+sprite $UserPenMd [20x16/16z] PSm53W8m44JHZzNRkVzfaMK3bH-Rl0fMLM0jwXDp5-d0x7QPhBfT9mjkpCcg7DZnR1pdXmspfcyHKAS7S36qVsTAjWDS_eOJ_KVrvZHPADA3Joy
+
+sprite $UserPenLg [25x20/16z] {
+fT2r0KGn30DGVMPh_scF78MxUrNG1BSyjg8ryMU228C1fLCNL_D1_hwO6JGLF_mnD0v-dFdB4JrArx1mCIY7_-S2u-MfnORVymMdkf3Hjmk0cvaPffc1cGtq
+StKWuvhwOGwNtfS_35d_Rm
+}
+
+!procedure UserPen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserPen', $name, $tech)
+!endprocedure

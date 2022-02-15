@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/VanShuttle
+
+sprite $VanShuttleXs [12x10/16z] Oq06_300PF8oyF8pyF02nH1i88SOmCJF0r7903O9264a9v00aKmC
+
+sprite $VanShuttleSm [15x12/16z] bOo54SCm4C2Kn6p_QVzfotnOFIC_-6Q3S2sl5alXPJleLud_4LesRx2KGp2d5FtnFgR0PdS0jCMLBHAS0G
+
+sprite $VanShuttleMd [20x16/16z] hOZ70K9H3CFyEire_st93xqSqK5Hh5zKdr_OvyGxbWIhDTCtZTRW846JZAGJLIemFpSrg63xgJZ_Pm7IpBwNwYbAZDwxisQeX_FJY3fbnO6UvQWX9MNJiou
+
+sprite $VanShuttleLg [25x20/16z] {
+nSd5GK0n403HYSkNwRzRMDoll6ITtxN-HORWTnrW-OCCg40pSj8SMNyyKFN-yS1GKNFEtSX5QmwNRl_TsK_Vp678ge2l2XHLKlK6jgq-kao0Tm4m1YLCZqYR
+CFJM1K43pvewU77hpLyU
+}
+
+!procedure VanShuttle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/VanShuttle', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Megaport
+
+sprite $MegaportXs [9x10/16z] 9Kg30G1H5EhmZVQVzfa9LW-Yo7Au_3jWSn1is6TTXXmq0yM0bLDuk10ZmGkqo441
+
+sprite $MegaportSm [11x12/16z] HSf5WGG10CJ0x32NVxN7a4zZdmollc5v-7PUEmgQS8TNhJZHT-FVRWnL5v5UJxxjQvUjh8x7w_c-OQbt
+
+sprite $MegaportMd [15x16/16z] {
+LOq50iGW40E3E_d_Rs_bh5cT5WXSCU2hHMwIsOaYP6ddJM_a1hPZi97W14HRijDjMBeTHzAHJzHsnJgvHNZR8HjBLIb4CTK_rJ5BcU7fEgjY5Vmv59Y2mTJr
+1G
+}
+
+sprite $MegaportLg [19x20/16z] {
+PSm55eGm4C3Gu3wv_sttTGSdQ7-5exhYNhlffiudXnhKgjqX5paLqJlPGfz_CvZ1ASVlcDyLneegRSettRKZJEelyakhfNBE0eEbBYLB8oKg66O8tTZoaA3I
+caqxwXT5sVyaIgEB_XzdQ_xL7csSTMLDJBda1m
+}
+
+!procedure Megaport($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Megaport', $name, $tech)
+!endprocedure

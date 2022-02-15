@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TengeSign
+
+sprite $TengeSignXs [7x10/16z] Ou00NdumO802DWY02_Ap0GaS51SJ0mC
+
+sprite $TengeSignSm [9x12/16z] Ou01TdueOEI10YnIV7ny_Fn00YJA3oA9PR0p0Wa
+
+sprite $TengeSignMd [12x16/16z] Oq06V730mykF00pCSC24h9oH1mwuKTGp0W4lFpE80YlavOVeevoDR3kO1
+
+sprite $TengeSignLg [15x20/16z] Oq03RCY0XPSV1R2XSXdm0rPaevXuY32A5SOOM2uZFnzM3m4
+
+!procedure TengeSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TengeSign', $name, $tech)
+!endprocedure

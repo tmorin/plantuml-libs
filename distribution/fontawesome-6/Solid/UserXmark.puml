@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserXmark
+
+sprite $UserXmarkXs [12x10/16z] 9S673GC1300Xqdjk_srVbW4wiSxLnsfO3HAg6xeReqzSgXStj8pM7us10m
+
+sprite $UserXmarkSm [15x12/16z] LOp50S0m30FLC6l_RHk6UzaYL3uQ738hvsNb-BA_2L20NcwzMJphQ-jNHWiNZlqNnbe9e00P7tbFSz4_m-Vd-_u
+
+sprite $UserXmarkMd [20x16/16z] ZSp50OK050Emu4xtd_QxAxazQPrCQJthSkHHaJCFXfmLt4mvgr2ZGPip51ciWPpCqDywSh0uIKOlakbrMQOq1dFEEZUvMTzNj_eYZvmi6tTx
+
+sprite $UserXmarkLg [25x20/16z] {
+XOy55iGW34HnYkR-frrBPWtxBJRpOehnhGSrOkc56mmIz9-UOTGX06mDRHwRiQFnRCBmrK6FyWf4NZrfh7Sq_-ayFVKi3qCI03vwv92Xnw2SD8WQXjl5nZ9R
+UXXldBt-6dq80EOzmHy50GEdY3i
+}
+
+!procedure UserXmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserXmark', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/FlagCheckered
+
+sprite $FlagCheckeredXs [11x10/16z] NOh50O1G08MmM_QVrlONbvTiLFi4L0C6a4a6QSMknz5EqTjI7bPlM4KRsDKA2KHx0W
+
+sprite $FlagCheckeredSm [13x12/16z] LSgr0SH00CH0sSUe_gjzniaMg51s1UW7VcqqAD6Pxg4nQpWDt8E2Y-apbDNUeQ6yRsseunLqJnyQTXx22TXu-mzN
+
+sprite $FlagCheckeredMd [17x16/16z] {
+ZSor0G0X44JHVuR3zbyjBkaDkYyOhW1VJ8gMEq6IbVvx9vWmjS67r8F8XUe0qUgd0XEyW1DvbDiT7M2NXjfp-GQk0xDqTt29H7qTs8ch8zdtjMaO5Iv6hkU6
+1fpyWW8
+}
+
+sprite $FlagCheckeredLg [22x20/16z] {
+hS-53SH034JHyJAx_seFHc4IvOkibom1tG6InyW0an61g5fqgiR8cNfiqbfL0rpZ_sbI8F-KOmNSgZL7Tr2lWR-dhDNhUjga_76dvQIHfqcmubeAZtVWycmF
+sdJghzAUNpmiVlcXR0WLQzOAW5NNNj4l
+}
+
+!procedure FlagCheckered($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FlagCheckered', $name, $tech)
+!endprocedure

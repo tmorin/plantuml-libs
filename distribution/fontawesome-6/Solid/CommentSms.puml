@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CommentSms
+
+sprite $CommentSmsXs [10x10/16z] JSR50SC000GWshZU_jF6ZHU-iaEP4xaDgMUXo9J0978pN_cxmX2N5G
+
+sprite $CommentSmsSm [12x12/16z] LSl50GH13CH0BGxQoZ_QOwoFiVctXDguIvyg-54ncjDgqP2KmTarZ3CNC17py_ENtNrfe36V7QFoSGK
+
+sprite $CommentSmsMd [16x16/16z] RS650SD03C10FOHZQ_zfozpSSQICUwwDX-P3SBNurc3s4_XjCc1lWqG1JOF1IYKeeQ6EOqrAPA9L2zdJdfsk-6Md-0dmBO7LbmwWEr1hvQOKlfm1
+
+sprite $CommentSmsLg [20x20/16z] {
+ZT350GGn30J1CRCw_sYF6RT-1g5-Y3adhmUPAwUpm8DnZkBP-TVR9M-gW-7zmaCFP9U00ShPJ05fgWLEijmq7N6kkC38CWqriKmL4aGfcw3992qGRuOghvna
+FFDwkukI7EyhM41nPQmrMzB9WAeDzW
+}
+
+!procedure CommentSms($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CommentSms', $name, $tech)
+!endprocedure

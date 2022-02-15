@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Video
+
+sprite $VideoXs [11x10/16z] Oy0A-A40mU97iFZvS38HQddW9Z0ZcGi
+
+sprite $VideoSm [13x12/16z] Oy09sFcX0CXcuaTmUFaH720ccSE7p65WusU4ilamN
+
+sprite $VideoMd [17x16/16z] jSY53S1000EnAsEK_QSjCuhUOlElQHSD4tdJ0b7ZdQ3maP1Fb3f0a5y3xCAR2Y0Xtl2i1m
+
+sprite $VideoLg [22x20/16z] lSZ50O1000InmPtjlrhSNI_Fy9gjgR1RpNMtNayRcsbjCqLkTAFDnTvSIAHqlJWUIJPARUuh0G
+
+!procedure Video($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Video', $name, $tech)
+!endprocedure

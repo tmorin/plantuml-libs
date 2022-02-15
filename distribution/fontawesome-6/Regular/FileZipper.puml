@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/FileZipper
+
+sprite $FileZipperXs [7x10/16z] JON50S0m08IeDyh-qyPUEG4SEQZa4hnSKfw7a6Nc4zsLlYNEeLJYY1q
+
+sprite $FileZipperSm [9x12/16z] DSR50O0m00ImmvtiFotQvfNii2UxsRuGIxgcmPE-BJ4bUTEaX3zJZMn_HlxaOrJS
+
+sprite $FileZipperMd [12x16/16z] FSm15W0H40BG003tl-rkyoJmmI0VomJ86u0Z12nkw3bf1eWHKvwJxuBPUp3clP_BFwvP8yXMG8QZzIRBy0woOZ-L3m
+
+sprite $FileZipperLg [15x20/16z] {
+RSx50O0m5C3GuDOs-q-BE-JsgfyykHK0SgzoI6Pach4ObArjNxbsbu2ovCww1hgkIml9OinO2WktBbPQt9YqlL7rOlvaQrrRdkpCCgkJsVCmD3N_Omoc_an9
+tkec
+}
+
+!procedure FileZipper($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FileZipper', $name, $tech)
+!endprocedure

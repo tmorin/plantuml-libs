@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChartLine
+
+sprite $ChartLineXs [10x10/16z] Ou03NduOYn_6uWEnM82Odnd8OkK70cQWB2jO1AIE7Qu3OGeR5005eG
+
+sprite $ChartLineSm [12x12/16z] NOo30S0m403hnhV_jB7lpMFYP-Jq_1pvXSavn9JS9vDRDIHtil_PyvV1yRfE
+
+sprite $ChartLineMd [16x16/16z] VSsr0S0m30NHBwKnt_xJXfdE-2hfNhaI_ERkWAUB7Monmtn5pNQ0cPCd9e2asJR_5axEfEiyky__SQALKrbSa-pI
+
+sprite $ChartLineLg [20x20/16z] ZO-54O0m40HnX-s_MoRkSj7VUHrosbBqGiBeONmncm3B5lK2is4Ry0WlLfDlnMXMpifhUb5UYgtA-HLUXWalyTy5qcodDKS_Us6BD8sa4eCcBACV
+
+!procedure ChartLine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartLine', $name, $tech)
+!endprocedure

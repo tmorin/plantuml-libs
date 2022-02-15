@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceDizzy
+
+sprite $FaceDizzyXs [10x10/16z] BSd50SCm000nbHkmR_zfYz5Ni7JtLHUF5jfzTLDxwjvo-KufX-t-O8H4HPPO2BVQYZS
+
+sprite $FaceDizzySm [12x12/16z] 9SO94i0W2CNGT5yevlwtxVpnAH2Yl9cqdzQa9_6PlDQDb-f6TE5sOFMY5ohw4E7TGBccCLjdV-a2Bx09HtOR5_m
+
+sprite $FaceDizzyMd [16x16/16z] {
+JOw5OG0X4C3oWalsdxO2L8AS2uimR1SSXfi4mAKPWEu0K0wl7OPlei7pzKTlp4c5zK-3e9NzHuSqgnVTuetAVsoUXQvjNy9f1bIn0rsz0IVH5svrkO5X19vb
+HfQOSTLk4suN4-0J
+}
+
+sprite $FaceDizzyLg [20x20/16z] {
+NP255KCX5CKkxcJ_RNkGsWyU_EbI9ZtgXyHbE5s0wUvKUQkkIu3whnOGreQUasAHJ3Dg1YGGTDWR8MQocCjZrdkWIL1md_lWR9oxjcTlBIGDG0yQ_UrSDDfC
+8acBxmuGtDwLbg51-7DhRDzTi2SEwwL7-gAh5XMoDdQ0-qG8Hfi0-f3PZA352m
+}
+
+!procedure FaceDizzy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceDizzy', $name, $tech)
+!endprocedure

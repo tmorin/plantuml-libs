@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Plug
+
+sprite $PlugXs [7x10/16z] JSM50O0m0CJ0mntsdnQhlYGCxFGNLr8p_JclFsgTViCr-pNo
+
+sprite $PlugSm [9x12/16z] JSQ50O1040Emu0xxJukzdhJXG3FXwjYl6ZswtfLcJ13xIEX5eOcDwrJX0G
+
+sprite $PlugMd [12x16/16z] XSQ50SC030CmRMN-_zeoOy0MluebooRup20qPrfkq-n6jJBO-IzPZRtJcJ-8Dw9g_Zox0m
+
+sprite $PlugLg [15x20/16z] ZSct5KCn5CKm_9nrzz_MZTFhn0w7E2umj14a4rnv_dbtSPx1D4yCMocrLgbyrigvqfzk76NoVBJYzsUVjcJmQqbqy0K
+
+!procedure Plug($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plug', $name, $tech)
+!endprocedure

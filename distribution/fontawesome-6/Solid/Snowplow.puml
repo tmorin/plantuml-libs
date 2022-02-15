@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Snowplow
+
+sprite $SnowplowXs [12x10/16z] FOg50O003CE2E_t_MvXclXPuf9L4FxsR5EjgCsfqXrPqsUvWdyRSZlsVLsps6ZJJ3lG1
+
+sprite $SnowplowSm [15x12/16z] JSl50G0X44FHuCxllzfruLr6emCmzUcSbb6oc7NKVKRYwlAx0p36q5MkrUjAEHOIz0iCqCGCNtFeXj5HGWzAe6eDLdO
+
+sprite $SnowplowMd [20x16/16z] {
+PSY50O0m4CNGNuLgzfyMTrAzfxK64FMim0yhtZaFRpEImFqim359fiAefTq6M9qT4qsoO0-ZBu5KY3hioAZYFjOxgtK-ELa8xcW4rnRhXB49hPS1KnUh91kK
+j5oZG0aaQ6ViC_8yqXBC
+}
+
+sprite $SnowplowLg [25x20/16z] {
+TOw50SGm482ene_zftrteOsI4ovKptG-ATxWW-wD-YM24qD_YrdNdu9Gk3q1flsU8-dC6HLuQVMsXcvtuRZrFK6wjUSR1Ph1jn2wuvVOzt4LVdCHyKVicdX1
+nxL6A35eGPRTAUbLZBFer62NrPEMgXEBrld9hfrPNR-BJp2fq7mbPauiUWG
+}
+
+!procedure Snowplow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Snowplow', $name, $tech)
+!endprocedure

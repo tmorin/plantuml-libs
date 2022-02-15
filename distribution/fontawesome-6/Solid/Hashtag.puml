@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Hashtag
+
+sprite $HashtagXs [8x10/16z] Oq00VY12qFnW06Imy3Fmy8A4EQ7Ip22Q6ogFhWq
+
+sprite $HashtagSm [10x12/16z] JSR50SH000GWuh8o_LTxBk65go7q7RQGWwCcjQPL-K8MSq06vsSaz7mqOyyyPvsHJi0oq707
+
+sprite $HashtagMd [14x16/16z] TOor0GHH448PIRv1_ztUhViBHW4yQRcL2GcmgKoa1X1g_z5wfxYKXguJWBiKSmbVGhRos58TyAd0I4bJOQyOEc5pP6PE9RuYYHCsrny
+
+sprite $HashtagLg [17x20/16z] {
+ROzL0e1020MnYsNkVrhZsRhpGQVbgMl9vWf08Ma75LnI33BR8p2v0-uUcnojuusPfmIHDac4sqe1MaLzNd46oYFGNKiE9aBo2i2uoW3TzDqwVGDMbWtKTTrA
+saOFrsxXS8IlktezFrgM1G
+}
+
+!procedure Hashtag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hashtag', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Virus
+
+sprite $VirusXs [11x10/16z] LOg50G0X30Fphd3xJulhrPieigbXpppXWuSzxv7ytfNNz85sRA3PYnM8ImbpnEu1
+
+sprite $VirusSm [13x12/16z] NOxL0S1G30AfUs__QIlFa_kA0WhCQc1NP40Tg2UE8qTeLjY1z43SfgCbdbwfdLREz0FDJzEHD5o25m
+
+sprite $VirusMd [17x16/16z] {
+RS_50KD1203HMVXkqt-rKU9vbrMCiWIVtE4XUa212QuEvrINFCpw_l08MooDnuy3L0U0jXuwmgwwBxMHvbq2lLSRAbUFJuC-kjqiTH7wyEWqc3GOJNZm0Dg_
+QSy
+}
+
+sprite $VirusLg [22x20/16z] {
+ZP250OKm30KVBcrp-q_x9RXpK8idcYbC9oIg4wbHxzwvb46Ir56EKY06_dGmIyMAJXCj2zf8YznsqZ6QIuDBicJCKiU2LC_nDh6hEaxfAu2spgTcdKA-JTId
+bOKpQSaAcwH-DQ1I3iqKrdk7_v67DrEFgwA-
+}
+
+!procedure Virus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Virus', $name, $tech)
+!endprocedure

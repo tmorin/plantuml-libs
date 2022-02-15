@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Hamsa
+
+sprite $HamsaXs [10x10/16z] TSR50S0m34DHbHlUVrh3lySWFUKiKcE5y49r9wPgHafF9azcV2097
+
+sprite $HamsaSm [12x12/16z] VOlL0O0m5CI2ExV_jX1eVvldSY3vYyqL-jDsoFpsIRlVxWor5_lLqhDPEeEmU1bDGsU6EJ-TuYa2F
+
+sprite $HamsaMd [16x16/16z] dSZ53KGn5CLGV-Rh_hiT1QJivmJzQ2OPPj2NQQ9wJ6sTAJxjlVpRiPpHNUb4zPhBD7bZmVImMg1wy0bH7r3TMNZL5y2Yb1_5P1UwM1m0Fm
+
+sprite $HamsaLg [20x20/16z] {
+jT2r0GGn40J1-GEnrFb7UypaVNdRtgnMBRg1h8CCOqCLh8srUV0FBVojhJwQCOPHz0KW6TCKPlFacLbJfjLw-AKLZ1f6Foa2PAbUKgL1OXGjasRxrQQLjhYb
+JLkE8te
+}
+
+!procedure Hamsa($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hamsa', $name, $tech)
+!endprocedure

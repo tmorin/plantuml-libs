@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/WindowRestore
+
+sprite $WindowRestoreXs [10x10/16z] JSQr0S0m00Cmjs7q_zU6IPFGi1Czw8WjV9mGU8VXNThJt0D2zbrR1G
+
+sprite $WindowRestoreSm [12x12/16z] TSR50O0m0C30u4xsdnPtsdiTGE46eBHUDG9DmKRQRbE1lOSKBpdQi8dVnpFkG-a1c04
+
+sprite $WindowRestoreMd [16x16/16z] XOy30a0X342pSV_JVcJtuho1WFCH5IJaAx-imnq8FuGRcUiC-cNMn_eMFCWao3NNNMQzRBpfP0p14D_8q8UsXzbU
+
+sprite $WindowRestoreLg [20x20/16z] bP250O0m30I3Ex__j51tlVhLGv83cdTI2YwdKBje5O1eBWpMNI2BTVDbETGcU0Zt-cxYBc3EEx8SFUw9t7GXSYimXMwOYEBp8ZUH_DrfW8hP6uVu1m
+
+!procedure WindowRestore($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/WindowRestore', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/SignHanging
+
+sprite $SignHangingXs [10x10/16z] Os3WPe01VYZDpGy3834s4039ia74SB2Ou2mCym
+
+sprite $SignHangingSm [12x12/16z] Os3WPK00VXOOYvSV0HXO-DbPe02aXWyYp0vYGvNm4SjcW1e3PYFiPOQn
+
+sprite $SignHangingMd [16x16/16z] hS-r0K0X30JGotS1RlzfSQzv7SG1qHXexjrB5AbLzMkES6ZUHxM7-cEhwOXlnKAMlF_fZMvyVFVczp_Svm
+
+sprite $SignHangingLg [20x20/16z] Os1WuEHcm03y_CnOn5XG1JZvCG4t5Z46PXP-VdOMPC08DO-P3GvWTZ0ZQuMAiGsG61CMCGOcX3UmXGk9Oeoe0W
+
+!procedure SignHanging($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SignHanging', $name, $tech)
+!endprocedure

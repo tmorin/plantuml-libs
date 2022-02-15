@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WineBottle
+
+sprite $WineBottleXs [10x10/16z] Ou02LWOOuEU7C_WX58p12sDmCR03MI06M1wg55KvmW06
+
+sprite $WineBottleSm [12x12/16z] JOp50S0W00DJnRdzfwtWUSKra2QzoPqUG8sXKrPg05-fP21K-Y6pIOdyqOYjNrcXKCa065MOGLy
+
+sprite $WineBottleMd [16x16/16z] ROu50W0X2C2k-zp_Nskts9iAJ7LxtLBQ2Gr38oYy4TeQy9JnpBXwzNayOFEIjw0NkzqMjuLioczkBpYjJWGioLGeh8Y0HHGq
+
+sprite $WineBottleLg [20x20/16z] PSw53SK024LHlalbxZzj7NzHJZ0fUNsavWaDlpJyiQTrmL_BFp3lCee6IwRMDPts2_IJJ-exJvquX2wvy1Ewzhm0-ylfvbzaaiTkSoGzXr929KMbZ9bM
+
+!procedure WineBottle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WineBottle', $name, $tech)
+!endprocedure

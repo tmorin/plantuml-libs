@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Pills
+
+sprite $PillsXs [11x10/16z] JSR50SC000IWQ-FA_jF6ZHVvmBLQ36VDwUOavTqV1fXh-u_YVtKu7jInFyMsX3uh
+
+sprite $PillsSm [13x12/16z] LSV50K81042XPxViFwtvankjxDXCyQJ1KpaCCUJ6VWfSmE4c-0Sj8swmEqA2WcTrFbPjxvTw0m
+
+sprite $PillsMd [17x16/16z] NSg53KKn5CDGFovx_sa_mrMFs0amstiY6ghyhRfNHpoi42-wVCDLCp7uLFY6PTrykdnZo660oZK5AJ5yIzKmKZ_J1PzXuL0hVCe2iF2nBC0T
+
+sprite $PillsLg [22x20/16z] {
+TSw50O0W503H7tRT_jFQHPtzL41AULEbo96cc783jHYCWIwmdqUMG3cV-qUjIbGdZff8kHh_YZrSSxLh0_BmfnEW5Yj7OZb5FTIHx-lxdadyULqn2ZnBNtY-
+FfPwVRetNJeVztvz-TmoIAaD
+}
+
+!procedure Pills($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pills', $name, $tech)
+!endprocedure

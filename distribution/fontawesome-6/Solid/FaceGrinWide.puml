@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FaceGrinWide
+
+sprite $FaceGrinWideXs [10x10/16z] HSR50O0000IWirlsdzOENkGmQ7Do6HAF9eHgO22BLFnQgrl8YGpSIHgdP0S
+
+sprite $FaceGrinWideSm [12x12/16z] LOo30G0W402piV-qkSUzAJQv1t7fbvi-JcgM-TxhpfVb7VFDop96w8zsvk9oylPIVvwMM5zhnNww4m
+
+sprite $FaceGrinWideMd [16x16/16z] PO-50G0X202nM_RVzgdlCsa08IqS3auMAaKaXnURPNmmrRbkzkQV5xCuWUTlkcKnBP6ZNN_6HtQ80_9OQ_R02UGOaJlAV35Ipxfl94rwCn3yKVBfU4zp
+
+sprite $FaceGrinWideLg [20x20/16z] {
+PO-50GKX34E3E-m_xPTSpXzQRo7AN3tYGbfYE8XreJnKf5Br82XNZvl86xWy3kN_v5tNULjAHRh1sr6Ql0re1oNofAytyHzFmvaUciTOPpN1m629dSn1x3yO
+8Z8KO8f4rP0Ag8keDmSIrWakgSa8bBu
+}
+
+!procedure FaceGrinWide($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FaceGrinWide', $name, $tech)
+!endprocedure

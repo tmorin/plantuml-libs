@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TruckPickup
+
+sprite $TruckPickupXs [12x10/16z] NOR50O0m0CG27vpiForIRq_3ABKocvNH_wjQlgnY5YGCk7gXry-J__xp0W
+
+sprite $TruckPickupSm [15x12/16z] RSUn0K1G0CN00E1zsNzQg83hZZ-gzoRt2vMvbzuUy2xFheCFLHmPJH4qu5agGO6e1LHRWAOq04Cgs04
+
+sprite $TruckPickupMd [20x16/16z] {
+VOu54WKn2CKUibwQ-v_skykcGYPZQ8VMUry-4XVU6emHiBota0poisa0dR4w0zS1rQJY4_lHNF19Au1Sk98pWAAHr_qAbuhHfONvt4phLLoIGG5NwMUvRWeF
+CLsnTpa2
+}
+
+sprite $TruckPickupLg [25x20/16z] {
+bP05WW8n40HxBPxK_rzx1uqxL3pZeyziOSUY1ngcFWWu4Xy5oJlpKy44F1LelPBC1hBF2dMU9IqyHOe_2mfFMJil201DsZZYMdmArbCTKDosVYbjWat2Nz0i
+w50JC4a9HW0s2sQCEpB0COrjM6IALTxn3m
+}
+
+!procedure TruckPickup($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckPickup', $name, $tech)
+!endprocedure

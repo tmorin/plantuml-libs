@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FileAudio
+
+sprite $FileAudioXs [7x10/16z] BOO50S0m0CFwZp7-rOwB4U0bzl7koczuiWYAVlLx3I0XdYO
+
+sprite $FileAudioSm [9x12/16z] ROkr0S0m0CDKvkh_QyFPuiMCwh-1HRn75nvLBElg4A_yAfn85UzNtiTv__s4VlqH0G
+
+sprite $FileAudioMd [12x16/16z] RSR50SGm00InDREd_seFmubUqk3B1cafjYU9zQJ3ISkTyzwpw1yyo6iiA7upXn46VUyaeM7xTipWAuawnTy0TKuIkpS
+
+sprite $FileAudioLg [15x20/16z] ZSV50SH04C0mXxCqxh_QOyRe9x9dJC1jKXV0UrsVw_fSrtk7yS2R-SXjOl1cLE4secP97d4G1SVXNcbhVs_2OVHi8Q85nOkiqlbezjtmjDW3
+
+!procedure FileAudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileAudio', $name, $tech)
+!endprocedure

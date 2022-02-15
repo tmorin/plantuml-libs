@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ClockRotateLeft
+
+sprite $ClockRotateLeftXs [10x10/16z] RSQf0S0W002nz2_gzjyMXICgC7hHNrL31NggImYs4m5yyQwugs82
+
+sprite $ClockRotateLeftSm [12x12/16z] PSc50OC040F0gnVD_jFYpaiKLFaRwI_pC2FlPDH_AgIfvnP5ODRkcZns_NXhPWtl_7YcH9EMaSRvqGC
+
+sprite $ClockRotateLeftMd [16x16/16z] {
+DS-55O0m303Hu5Hl_srZBuV-efNeMOn3lECHMMIl6NvWFjUtORdz41qs7luDGomuyGwvSTyWfoLXonoLL_cYbxD6i_rsry2PprV6pYxLvwo79zXp1l83QssS
+qKaKpoe
+}
+
+sprite $ClockRotateLeftLg [20x20/16z] {
+PT255SGm30JHDREt_sxlwI859_p3nf5hcpD32m0AjUM5o0hUQcB_TeHKINQr2ejakYmCGxqt09rUiQObkSic2SiiyslXPeqRahyP5fTiejeTgvgXt4qkl2fa
+Ub6atffvkqhtIQuSVApwctQ3XREgmvmW_G
+}
+
+!procedure ClockRotateLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClockRotateLeft', $name, $tech)
+!endprocedure

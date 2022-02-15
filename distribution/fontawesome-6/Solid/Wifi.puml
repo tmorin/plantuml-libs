@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Wifi
+
+sprite $WifiXs [12x10/16z] LOc30S1054DJks__QOlJTwWuFG19mf4G3KoblbAr0fqqf7hL2Qay4w8y7Me3gVFv2m
+
+sprite $WifiSm [15x12/16z] POs30G0W44Mpw--_RVQhiyWF3IYO7d0KOgowHAdeZYWT2M9F-Lv9hRzkAMA1G1dcK0hTGgyfTbtMetEj13rZDyvb
+
+sprite $WifiMd [20x16/16z] {
+VSt50GGn40D1cTcTVxJ7i5o_GUcSpNsqQFJZ-1dljWNeEVXG9j0bPS3hAmCcGzBIW8XzB_JHWvuAUZA_27qLe5i5W6yFijucLTeoMahTQYC1sXY0sVGiSFN-
+3W
+}
+
+sprite $WifiLg [25x20/16z] {
+ZSxL0OD044NHjufp-wys0gn6pz_uw3SNOWnMdPLiLEPt6elHuKZlNeSfJtc0gCBCm2O7JEeSAy2bLfj_ca6J3ZOTri477TnEDkjGNbczJEH9MVMNMUgP2HK1
+gp-jlEyTyjtEyR7zSoBVSFhj3W
+}
+
+!procedure Wifi($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Wifi', $name, $tech)
+!endprocedure

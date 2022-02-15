@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/FilePdf
+
+sprite $FilePdfXs [7x10/16z] BOY50G0n20FpBfNRVzlY43bXisbA-ZW8myoyczazzhFilCsWuIQ3RVmsB
+
+sprite $FilePdfSm [9x12/16z] LSQ50G0X3CNGZplPVzjp8T3sgRFNjT-SSm5H91bWnTw9-g0zcCwSA1K_Tp0bfntLQe_8tGO
+
+sprite $FilePdfMd [12x16/16z] RSU53S0m0CJ0BtEy_xPL62qwQyVrIfOX2MJxWD84luMrB8ltVTZrXh5DOKxud6SmN5ZFnapICZjpoMQj62Bt0m
+
+sprite $FilePdfLg [15x20/16z] {
+TSu50e0m0090T5tm_zVQ7UZYrkYfDHLJUftf0Qh3ajbpZPFgxzGVaLBYp3Dre-HlJFb6tcQJ-YiLr7cpqz99cNxbN0T9Rc4jT02CnKAsTdr65t2mYFc81EgI
+D08
+}
+
+!procedure FilePdf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FilePdf', $name, $tech)
+!endprocedure

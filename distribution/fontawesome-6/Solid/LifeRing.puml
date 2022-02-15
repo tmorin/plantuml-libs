@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/LifeRing
+
+sprite $LifeRingXs [10x10/16z] 9Sp5WSC000InCRFLVxK7YRuB_Jai_V7rYg5wB1cy7ZdqcXKovysY1qFow1s-hU_ba0KCVW4
+
+sprite $LifeRingSm [12x12/16z] BOq52WCm4C0ohL7o_z-EmDAU6t6SXDi_WwsbFlf0NP2vo3AUsoEKoPY2aPcMc6Rmex6kD0Oj-EPlu7PhFAunnkC7
+
+sprite $LifeRingMd [16x16/16z] {
+BOo74SGm3CCefxe9-s_xprEGOj0gahasCqfZQLFSVzUohRFTQGa9aCnfgsR7Pca2yJ4kk5ZI5osRquUdTmstoWBdoMszb4mf2LADGhNyXE566AHkdpBL4dZQ
+39mNPk_4X1JUPzB-0m
+}
+
+sprite $LifeRingLg [20x20/16z] {
+FL074i0m239xn___jWQvqeMuQCGHnjLTH8WIfIbnuWkbC2IkgaW4yxOERkHzWpYEyIASbI5Dy5TsWy_HOn-BUtZ5wT-0zl5gnQfMLj3AtM8It-n1bF6-yBQf
+sTkQ6zu5sb57WE-tsttHfrcIGr_hjg3mKVY_0lmxBpwEWPaygrDJp1qKPtKX4-5lOiKfY3u
+}
+
+!procedure LifeRing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LifeRing', $name, $tech)
+!endprocedure

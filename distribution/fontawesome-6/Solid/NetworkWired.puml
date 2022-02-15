@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/NetworkWired
+
+sprite $NetworkWiredXs [12x10/16z] Om02Tdv-VWOe03BX723Dn8yY3WCG5Xy_0i05-M6A8IIO3oQP-P750G
+
+sprite $NetworkWiredSm [15x12/16z] LSq53aGX00FH-Oxt_hVTnU55cecLxDCVWugP9yGbW_TQClDaHw5GDsa3157eMaxAV2ZUzoqkvKae03c1d0L7cV03
+
+sprite $NetworkWiredMd [20x16/16z] {
+PS-54S0W40NHZqNlsFwhZNlUs0wETiwgrOEpqqEbf9ISy1gBahvZDeuZhx6EdPvYD4gyjXtWBA_yAOHWfB2hb10aZGPkxLND4kp2evmsvmn9HbuuSHbBalOn
+BMmRyyK-jbTKm-xncHa
+}
+
+sprite $NetworkWiredLg [25x20/16z] {
+bSu55iD020JGYQ_1tF-sXLTAtNuyACB4iuu7l1YuCp4z1MOO-ISmkY7vRhZWtYQYf4Z7i-EkpShNLFa6IgtLeZMHpUuxtA0YaSl3efFF3mtOCr009a_YwYBG
+_Rr602u23MQFmEmYqFtTaz_Fc6wtgWm39m
+}
+
+!procedure NetworkWired($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NetworkWired', $name, $tech)
+!endprocedure

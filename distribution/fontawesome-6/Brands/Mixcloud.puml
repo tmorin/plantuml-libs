@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Mixcloud
+
+sprite $MixcloudXs [12x10/16z] Oy0D-Fdv-A5CRYOG7oeAejb1B3P6i0WxFpi_DpT25pC3FpiR2F2pyVCWcuTiE
+
+sprite $MixcloudSm [15x12/16z] XS750OLG0C2m0i-j-q_xNKyad2fgu6rEmCpJ9dVoe0gm0XtJu6cvMdP4dY9kQo8lcx4lWc-8_DeB_wu
+
+sprite $MixcloudMd [20x16/16z] bSg30GGn503HMSQP_gizs_U2J_uoB67YNjMkWHlD4LXlcxCSBDviMJbmFVm3EawMqtJ1kRhAHU-6BBP-qoCwojqUB8SUzcaycyrHXEPLnZNB4oT-j0K
+
+sprite $MixcloudLg [25x20/16z] {
+hSq3WWKm34NHLpEz-r_jyDiwDPBeuv81m-iKW05DnumgISueEfHtvyNnFK7_FFrlZKro04pzM_QtT88WIfrTDQ8mCJDE1nRWEbeOEaGNCv0B0vq0HuquXeuu
+nb-41jIyr_vhW5Gv5eGvfYxgU5qKgvxt3G
+}
+
+!procedure Mixcloud($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Mixcloud', $name, $tech)
+!endprocedure

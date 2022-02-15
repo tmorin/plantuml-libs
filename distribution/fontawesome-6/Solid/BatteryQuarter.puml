@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BatteryQuarter
+
+sprite $BatteryQuarterXs [11x10/16z] Oy0E-660WOUV4mA073uW7mHOS30v-17wMA3Qs96D1G
+
+sprite $BatteryQuarterSm [13x12/16z] Oy03c640oEP706P-VhWIVZv-VZP-FYY77oS7g0vk6Zylicbux0S
+
+sprite $BatteryQuarterMd [17x16/16z] dSwr0O1G34NH26vt_sbn-D8Wfum--S7w8UZM0YcPg3mOSD1X7ELKCQu581HuLN3tK2WxfY40ot9i_pnYyi82
+
+sprite $BatteryQuarterLg [22x20/16z] jSYr0GGX0031FLVO_gjzDoHy9XnQwSrjWAMTK_SjeQAHlkyxFiRNgaUoDjgeafgKrGg85WPWt58B_t05
+
+!procedure BatteryQuarter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BatteryQuarter', $name, $tech)
+!endprocedure

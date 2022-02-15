@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Globe
+
+sprite $GlobeXs [10x10/16z] BOQ50O0048ImM_RVLZyk8VIIKjqz0e8N5uxZJtJNISNGLhJe45HfEf9EWSLNX0y
+
+sprite $GlobeSm [12x12/16z] JOo50SCm30G_CUFjlsrbbN9YbBFrWHjcmrE4sqbNn_Eb1mCYnfWS0iQql4Bo_WA5SDyXXCjC-0n1-V_VCbRSv6tT5m
+
+sprite $GlobeMd [16x16/16z] {
+HSy50iGW34JH0L9F-FU_xNRM-d0d-ffwr1JSPPKCHWBjOdw6k503KYeeOQwxnXYz3PEhgAhOotIv1YAnxiP6FitbzUjPzoMj3vCRPUO-qjmzjGBF-uxaEpu3
+5jsITVFIT43M4Pozt7y1
+}
+
+sprite $GlobeLg [20x20/16z] {
+ROs5SGGm30JFJB6t_sxpqZFiZ1XET_BH6usOu6Zkg1k06Lqm7grGu3QPjnPQ6Aa0nNx15axtA8qBLSDf7elY1Pat5CntW9B0qJP__7Uzz_wuazfRprqkRpsl
+QhZtZljVR609PteiYiyRgcwd0t07OTw_pOU8W2Idt8wLG0-wVPfQHSO_
+}
+
+!procedure Globe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Globe', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Fedora
+
+sprite $FedoraXs [8x10/16z] FS710K00002X0m3QVri_rMz2TO4f53joOgaD7e752XmeK1y
+
+sprite $FedoraSm [10x12/16z] LSU50G0X40F1l2ji_zNYUZhHM2UmHf3APdoBvKaIWZVh8lrNoaWpwrJ23YqR6ofyUG
+
+sprite $FedoraMd [14x16/16z] PSw50SGm3C10bRdQVzhmOo-CDa_3SMyTrMBLavo-JA-JenjLi62Vq7imsr3KozVg1LQuNulP5PkZzsjrelrWjhSSBCfmjNHWycKZwHgo2
+
+sprite $FedoraLg [17x20/16z] {
+TS-5jKGn203HUUvC_zL-MGvPlt4FV37Eyq3JcNRIQjFNkEbWC4tTw1-8sjo3kc1YDpWrLXDN5kDXeZaW0Cl6k0JpOc7IuB9XqwZdJxNhTCBKgnT_jehFV-ji
+2lAkil77vk2ZNm
+}
+
+!procedure Fedora($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Fedora', $name, $tech)
+!endprocedure

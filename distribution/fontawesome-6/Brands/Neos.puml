@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Neos
+
+sprite $NeosXs [10x10/16z] NOc30S0m44LVtNZ_QMCVFZcT8qv2YqFIvjtKYQhj-N9m0WLwUpLb-Ebpkm
+
+sprite $NeosSm [12x12/16z] FSQ53KGX502mViVPVzhJ5nehSrOOStAoSIG5sQRutwQkxxJugH77vevdgF-xFSGtdlKJ2gU7YlqD
+
+sprite $NeosMd [16x16/16z] NSV5OOLG002m0Czr_sdh_K9kOUwzWRLtCYGQZbI8kXENWxyhjylqrny7zUKon-D7ePCVTtBG7a-SQF_Nw9oFXuk4rv-lrob_RpGolPIaLqV40Sad
+
+sprite $NeosLg [20x20/16z] {
+NSs5bKGX3030mULR_zMUtouFXu4anEUhPS3zTOvQQ6WWjuweS-F135wc_ivgixAP4yTcElfcEP1MYpWmLnle68kfX428YwL8HnrUPc3QQWn2WRLk8ktMCJPp
+eR-iuA0Guw-zQZQad1_wf1Pm8dO-0G
+}
+
+!procedure Neos($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Neos', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Medium
+
+sprite $MediumXs [12x10/16z] TSY50O0m3031nvtVVrhSQIyUebo07giZsWsbcznRxI9naxfWVxFK06e1cRpC
+
+sprite $MediumSm [15x12/16z] XSZ50KKX0C2mFiEX-q_xtJN7yCUihi3K0A977LJ4ipMfcFLig9jFmYr6LnVnR5fLPF8eWdO647hYQE7D7W
+
+sprite $MediumMd [20x16/16z] {
+bOo53GGn4CGSvap_tVuVW_0SiBGmVC5QNapzcG16Ck0MRnXO148d-ENtKUQgkR7yhQbVjRm5DzsecxhALKl775VDzEKlHOoZr32BZ1VChJI0JGB2KWeirC87
+VW
+}
+
+sprite $MediumLg [25x20/16z] {
+hSv50eDG303H2MvXxd_Q2WxRzcs-HFclwAOSMpPri9bSrG2XLa05ixkExVKvai5JGIndY-8LutPgunNp4KYlgYqGFjGUWT6hucmLNf5702z6skLCbCeJi9o1
+mhbm0VHgVeuH21V9ObGEKTKbFti3
+}
+
+!procedure Medium($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Medium', $name, $tech)
+!endprocedure

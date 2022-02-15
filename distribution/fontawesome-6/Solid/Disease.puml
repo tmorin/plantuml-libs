@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Disease
+
+sprite $DiseaseXs [10x10/16z] Oq05_Fnm1Zyp0mClFmI01S08Y3dvOQ8WWeaH98siZfC7o88RoCh
+
+sprite $DiseaseSm [12x12/16z] POo50S0W40DJBvhzfyMTUrTia4DAcs8XfARczepz9zZ900usS4V_nqwvjH_ryET18BYuSQAYlk0y
+
+sprite $DiseaseMd [16x16/16z] TOs50GCn30FzpBxzjst3V46J90FMTyx31vZAa5iC94oeMNp-umdG3RW0lbbkM4Mp6Gnjl69OnBtC9hzdVkhqy_7DnBFgCS_gXXC780MJ67u
+
+sprite $DiseaseLg [20x20/16z] {
+VO-53SH03C3IO_R-qpv4PN9xP2aahqpUdbK0wbN1GMMKEPezNLNdW9c33lGunqQ9G1QK8WO8ujcnH1zTPARCfnTXniW4aDS1z96MIGPxuetpwep6-ORYP8zL
+DycHFeVUyWK
+}
+
+!procedure Disease($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Disease', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Gear
+
+sprite $GearXs [10x10/16z] Om023du6AE3dvmTJKC02P_53f80a3v20iA3AEK0aGXqdBuXYvqSo3m
+
+sprite $GearSm [12x12/16z] LOs50S0W4CHILxZzfyKry6v4FbrK96NdmGR_NJvGmsJ_IfejDrTzLT-q_8uwWt_1mXcSbMswwm4
+
+sprite $GearMd [16x16/16z] JSsreSKm0C10FGuvj_-qdy7NgLBVXht9m6rgsFl64nYheuRPDSmwOQl0emQghhXNnqzVSAtyz0D70TSUu8pPw6LMxSysyBYkZxwTMFenFUiT
+
+sprite $GearLg [20x20/16z] {
+POu53WGn3CIcpCt_VtkvA0lDMcHPP2XrqyI9epzdIwP5m4rfXIs28GF7GXQ0FjIhpU2oQeD4URlqiY1ji2rSpObrQTTkbhRPDkuNCDM-pBRL1YPP8ZnP03HQ
+ZfIIE5rKIJW8jbtZI_q7
+}
+
+!procedure Gear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gear', $name, $tech)
+!endprocedure

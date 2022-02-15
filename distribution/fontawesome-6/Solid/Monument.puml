@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Monument
+
+sprite $MonumentXs [7x10/16z] Ou03Vdum2GGuA4OW1Y9M28-D4mWOEVd1
+
+sprite $MonumentSm [9x12/16z] JOg50S0W40FJufhzfyNjaFy86W8JIOxvatFJUmbzwJLsp5vYNnIGkPrtsIGkAW
+
+sprite $MonumentMd [12x16/16z] JSs35K0n343HZrfl_sbhtQCuJnUV3U898Ommq8XT1dt5xehJ5TF2xuebV_lMOmiXH7XxfUjT9bNZV_hgo1OIHm4
+
+sprite $MonumentLg [15x20/16z] LSo50SGW44HHt67wh_Ok2RRpemzJisgKg03sgkB9Y3bfp2eJKuRfcObP0Nbqt_GVrtSWBURvAPExnXolB4ulNJuzqaQaCgZ2_0C
+
+!procedure Monument($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Monument', $name, $tech)
+!endprocedure

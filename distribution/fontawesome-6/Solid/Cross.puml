@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Cross
+
+sprite $CrossXs [7x10/16z] Os1WuES74YWKFmg02kAZ
+
+sprite $CrossSm [9x12/16z] Om02Vdu6CE3XvsT2OZ1oS_Fpy_C0IGm0KSCCf4XX
+
+sprite $CrossMd [12x16/16z] Om01Vdu-1YZWuUVdPyB3PkJcvkO70XuGZGFm8R5XUfc1D3NPt53t
+
+sprite $CrossLg [15x20/16z] Om03Vdv-RWOuuE470aPKBXDXBYCt4F2300-GmSbF2k12vI9CPWQn1fJB1GyD
+
+!procedure Cross($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cross', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Receipt
+
+sprite $ReceiptXs [7x10/16z] Os9WOc1aOE170mn0W8l720HeoW4
+
+sprite $ReceiptSm [9x12/16z] Os9au6DWu63WuCS7k3Y0W0zPX044E955644YN5Yryu083du
+
+sprite $ReceiptMd [12x16/16z] ZOm50G0n548vdU_rJpjBm7S1xYHrwOchGGCYL5pJiSl0oD8nxIsWqoO
+
+sprite $ReceiptLg [15x20/16z] fS7L0SDG34Mncpmcd_sdBVglt4ZxacIRrAgq6H20D61aZifot9dZgU6uAN9yOMR7pTWSnnXL7LE48ECC
+
+!procedure Receipt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Receipt', $name, $tech)
+!endprocedure

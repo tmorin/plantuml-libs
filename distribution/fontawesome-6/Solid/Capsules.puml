@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Capsules
+
+sprite $CapsulesXs [11x10/16z] JSR50K81042XPxViFwtncnDjODfPxZYKTpVQMzfRyFQECuPWx0N2fQ2pUnLz0G
+
+sprite $CapsulesSm [13x12/16z] LSU5ZGD1002nMJqaX-w_sZ1QwBxyCbwn4mxLhcp-5nM5uYDP0tyq6FSCEzpJ1bRuAH1K0sgPkbcFdG4
+
+sprite $CapsulesMd [17x16/16z] {
+POv70iCm3CCOxyt__xQYkbkS84InZN_IRbyp1N2D6I0YcIPtLEuAX-6-rJ9DvPU7vSiVOPilvMTWzAz1Bg3r9dc6nUqodW7ynkzmrZDWFuoYmNY4ueyGb-PB
+WYUNwGq
+}
+
+sprite $CapsulesLg [22x20/16z] {
+TP250OH030G3vxhzT_iVmM7mIRB0qHSk-gS4ipmbGnJvebDy7sW5QeRWn4vkeuRvDu7RBM0IKT4G7XfFopVXQeCbdkpKpxCC6DFgV1zFDWCfGbWEIzWP9tlI
+PvkmqRSX_InZ6ql4x8FDMeMWTjKLh6GiCl_13m
+}
+
+!procedure Capsules($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Capsules', $name, $tech)
+!endprocedure

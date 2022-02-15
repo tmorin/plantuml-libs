@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/NoteSticky
+
+sprite $NoteStickyXs [8x10/16z] Ou01VYY0y5ZnqZ1r_40MXCyD4WDH
+
+sprite $NoteStickySm [10x12/16z] Oq00VZZWW8kmGLbynB3OWLeXB7uWWh6u-RbvEO20dnSeoiq70bmC3
+
+sprite $NoteStickyMd [14x16/16z] hSsr0S0m0CH0XVb__sd3fjxNgHAbGT7HZ2wHrAv5Kgob-CamvpLwKwpP6pZQk3K_RXS
+
+sprite $NoteStickyLg [17x20/16z] lSYr0KCn54Mn6thmmMV_QSDWggDI6bdj8j7QDy8g1L0j_nzdCzkgM7ce0inihwD81zeuW3K18OVo0f2ITdukchW1
+
+!procedure NoteSticky($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/NoteSticky', $name, $tech)
+!endprocedure

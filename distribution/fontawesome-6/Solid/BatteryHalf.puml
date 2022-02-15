@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BatteryHalf
+
+sprite $BatteryHalfXs [11x10/16z] Oy0E-660WOUV4mA073wG252M1GUJWn-XZmMgZHtPM
+
+sprite $BatteryHalfSm [13x12/16z] Oy03c640oEP706P-VhWIVZv-VZQG89Z3ZvC3L0StZPyNsJGyzWC
+
+sprite $BatteryHalfMd [17x16/16z] dSsr0S0m34HHcTb__sd3M0LUARYJ7tIffpmDk9EEDwUA0LNRJ6QUDWrOR0DU3SnY6xXChoVGmirSPYwql302
+
+sprite $BatteryHalfLg [22x20/16z] jSYr0O100C30u4xsdnPtAFahZr1Ydoh0jvfMw-f6HNlY5QjqMrVd6cXxbRjCAVq0lIy9a5Pt1NyO0G
+
+!procedure BatteryHalf($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BatteryHalf', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HatCowboy
+
+sprite $HatCowboyXs [12x10/16z] Oq03_Fpi_4mmDWX0c8n8R5uG4wI8cH-YX9-70SpYWaZoGNJ2TN20MOoezW
+
+sprite $HatCowboySm [15x12/16z] PSp50O104CNGu4xwhnQNbNSQ_P1hBMhvUFhw9cxNkssZMnUWyckb5dKg0CfLH_2t0Ynw6xWDTt1k1m
+
+sprite $HatCowboyMd [20x16/16z] VSpL0KCn34FH-p1ixJzjALG-NqRnsv5WARnG1PEfsfdK6CEcZY6zpjnIuveJy9iogAiDacm5M03sUglAYkcX08jU51wAfa2psUkaMTPrvOyh
+
+sprite $HatCowboyLg [25x20/16z] {
+dT230KCn04NH5-VpxZzj7TNjYGrzvCCvZqPtF91cG7Se9Wq2nTsIbShTxrJCwXYQ_Uw8-qEM-PBJCUSjTdSvZPwLPj0692FhKyuvHIUv6GZbtEtw6JQt6tWU
+RTBpaVAAZUB-kzpzDes9yxfjI_Rwsn4
+}
+
+!procedure HatCowboy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HatCowboy', $name, $tech)
+!endprocedure

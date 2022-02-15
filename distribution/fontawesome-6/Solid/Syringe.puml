@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Syringe
+
+sprite $SyringeXs [10x10/16z] Ou027YZDpy383sRmCV136Cn06ipYumSp8L8GINuO0o821WW6p6m
+
+sprite $SyringeSm [12x12/16z] HOg50S0W40EJkj_-qzQ0zuyfQcy0YxDYiq95f-aA51p67-OIdEvV-25A6YxULS451YvmJNL1KGy
+
+sprite $SyringeMd [16x16/16z] POx50KKX30JtkPBflzelkCnf1PAenbHOJWcAFxXa9TXr0ZEvHITtcOGFhjYQ2C4KsnXukviCZoyNi0d0v7c1oieLMtib1hlCyrmTDgdc2m
+
+sprite $SyringeLg [20x20/16z] {
+PS-54GGW30NHFLVo-wyMTtRy3PAmzN-mz0Iavq8ok6peP3V5XjWpOZhrx_IJNWaPvKlff7NwyDZHf76oMZpaqi4nY5d4slZHS0kX4QTn6gUnsxwKYttNKq-s
+t4a4
+}
+
+!procedure Syringe($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Syringe', $name, $tech)
+!endprocedure

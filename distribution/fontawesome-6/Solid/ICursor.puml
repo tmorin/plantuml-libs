@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ICursor
+
+sprite $ICursorXs [5x10/16z] O-1XOE1Zv0S21WOW1X9SK08aXk22PJb1OW
+
+sprite $ICursorSm [6x12/16z] HOY50O0m30GFTsx_QQ7Uv9qN1dTLuN419cawEu3gtVUkSNvqrHy
+
+sprite $ICursorMd [8x16/16z] TOh50S0m4CDKPcl_QGF_HiTdumuyYRghB9zwJO2UT5wNlndDrwzEyq-lsy2_qj4F-EoyQOLQ0G
+
+sprite $ICursorLg [10x20/16z] ZOt10KGH4CK20Bp-krrmtn-Od3BCRW0_wvJKh1P6Zm7qDGE7PV2i_hUNwH1V3qXbPOl_NW7tzfgJwOwYnTIYhkd8otu
+
+!procedure ICursor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ICursor', $name, $tech)
+!endprocedure

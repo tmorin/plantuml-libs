@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Dragon
+
+sprite $DragonXs [12x10/16z] JOg30O1G54Mpw-m_RH_Fl1fw0Nm2XMpj2qJ-KSy98itWsHLGo2jvhOoNXZUy2W
+
+sprite $DragonSm [15x12/16z] JOg50S0W30JHUllxJmlaKZiaUGcE8B9_cZM5S9eefYDk5Q2aJ3AU72IGf_4MKxOyhHmUJdTVFfdNunB4Kp-s3W
+
+sprite $DragonMd [20x16/16z] {
+PSg54KCX50NH-nrviFrN6y4dEVWEwWBLeuLH7PfsW6oWhpEUagD8bFW09YdHZ0-R3CxZ0Keg3eDDslQIyjrRLhVnTHc0K_5G-7RU-ZegKKKjF9LMzjFsouKu
+sX4Ih8m_UWC
+}
+
+sprite $DragonLg [25x20/16z] {
+TSpLeK0X30FGu4xsd_PwaIVd1saJJ8wYOHSfCdQMmc2L-0YAfCAjl9V61IwLbuWBfxdOlq5ApyTQOF6jXjRCMjnbyFNt4coTWuH9pSGjuXFuGUCsej2E0jXH
+LEpilv7mpq2Pk0sqJvKxm7N-mNJ-fHkS
+}
+
+!procedure Dragon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Dragon', $name, $tech)
+!endprocedure

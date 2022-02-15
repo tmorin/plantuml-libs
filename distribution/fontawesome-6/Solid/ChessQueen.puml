@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChessQueen
+
+sprite $ChessQueenXs [10x10/16z] Om01VY26CFZPOKm-k108CN3omm03WiKDeK7Q4InEC6104WC
+
+sprite $ChessQueenSm [12x12/16z] LOh50O1G08MmM_QVrlp9wGLyI4BFb7Vx63VejpUShBfeoz6PeSnzZb3cCSTCvTm
+
+sprite $ChessQueenMd [16x16/16z] PSY50O0m4C30u4xsdnQNobNpt1e9bIg1Ecaccx2cynevjT1eow9G5gikliwPeQnh2aE0WGOe_N7wi-DKL2yky_Bgh_HNiWC
+
+sprite $ChessQueenLg [20x20/16z] ZSx50G0X40F0u4xwh_RSbK4-grW5AbnaahZWm3NamLU9avJaz1-gvLIerd9BAbMv2jAn1Dw1Dn7tH07meW18FCE89ncZo2E9aU11nImSO27a3hFA8uFHRRqU
+
+!procedure ChessQueen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChessQueen', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Stumbleupon
+
+sprite $StumbleuponXs [10x10/16z] RSQr0O0000F1uCxjFoqE5T7FlohSH3GVLJTvZ-XhWuL0a8mi-RG3
+
+sprite $StumbleuponSm [12x12/16z] Oy03MFdv-M5iVY3WWp2PWA8m2MOWWuC9peQfPG6nmOYFduCDg17A1G96CCaFKiq2LCiBb4G6
+
+sprite $StumbleuponMd [16x16/16z] ZSx50OK030FGuCxRVzhlhkJMHhC9nJXL3sS3w_q6skjPqeRvUbSKONcwhtYvSTTFlDuptNo-LGYGz61AmpbkvbnPbjTTHTwm1m
+
+sprite $StumbleuponLg [20x20/16z] {
+fS-53KKn34FHFAQsP_zfFpF35KKXs_4_BOnNhSQEwRBdm4MhHX_ehayZ2kDjRwQvwUrusiDo_9UCqUAovqclmuHirrim8WSxfbD0NVGWnuRvL5PpJlt1qvAN
+DZvc3G
+}
+
+!procedure Stumbleupon($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Stumbleupon', $name, $tech)
+!endprocedure

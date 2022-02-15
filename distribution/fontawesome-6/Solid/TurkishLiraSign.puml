@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/TurkishLiraSign
+
+sprite $TurkishLiraSignXs [7x10/16z] HOU50O0m0CE2E_d_MfYlNWecKytgYphKT_4gi8ONobxhum4g_
+
+sprite $TurkishLiraSignSm [9x12/16z] HSY53G1148LGrdr-_zMU2x4N-DE7D2LmEbe1YXJy4j2k1IPLZWugdD23yY383bm1qsmus04
+
+sprite $TurkishLiraSignMd [12x16/16z] LKt50K1H2CBVOUm_xUkIav9m89utsmwSVxlP4hRaKCluamP9nqEuYsTZa-P1zJ2rywdTMZfRtxnjtlkyqtdcMpWlvuNV2ivQbb2E2
+
+sprite $TurkishLiraSignLg [15x20/16z] {
+PS_50G0X00D1t67xh_PSaBmoE6A9DWD1ZTJI5J0FdzYZo_8WwcVgcJ0dLOrWpgsuSUzvldbwkizj0E6vCYOHBEXR4gwz3yt8D1BoJmt8Yy6v0Cyd-F_GCOer
+Em
+}
+
+!procedure TurkishLiraSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TurkishLiraSign', $name, $tech)
+!endprocedure

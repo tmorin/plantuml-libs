@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/CircleDot
+
+sprite $CircleDotXs [10x10/16z] DKg30K115EeRX_RVzdfMWkhZ3IlomCDFe0U_GBtBu7UOBsfxEMhtKvhQoj3711vhPYy
+
+sprite $CircleDotSm [12x12/16z] 9Oe50iH020CvhP7E_t_RP9aLY5Ius6i07OAi_2iqQnsa8eFJFvUoaXIEVD0Uk_qJU7bV_NzxpTuriFbfrZk_C74V
+
+sprite $CircleDotMd [16x16/16z] {
+FSo73G0X34DHNs-1l_-s9mU5fv9cK3eQtwBI62xP0hSiQ2vGkPrmMDF9gX5-ljEbS-0A41d8-8Fb8Sk7RPu_CZRlIvO0_E6B2Dace-jaLmc76-SSpr7wU5k7
+bTJT_m
+}
+
+sprite $CircleDotLg [20x20/16z] {
+NP050iKm2CMOLydzJ_i5oYopjr2NGLRQBZSE1dq91UWoIZbKY-e69TG5RFyEeKBQOyoRVnD9q7zQ8CQ0pEA1c1GKwuXXkO_lTdELXbnzRMXbv_Y7PcxrSgmb
+WvgQwTBPv8Rzp_0w8k_rL7yA93TpXoLE2EXLuTubWNcVxWi
+}
+
+!procedure CircleDot($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CircleDot', $name, $tech)
+!endprocedure

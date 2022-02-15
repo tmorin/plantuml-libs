@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Envelope
+
+sprite $EnvelopeXs [10x10/16z] Oy02-E40aydAmS_FnuZWCm0XCk11Q803
+
+sprite $EnvelopeSm [12x12/16z] TSR50O1000InnPtflrhqNFAAAYQy4M_giCGfLq0di3HysWdD65j7gi5Ju0O
+
+sprite $EnvelopeMd [16x16/16z] XSV50GGn08NG7_VGVxNhElfEe3Ej_ug3Vv5_yl-BDtmCDQWQF2LDxfIvCmRur5Ja8yfeyAkpBV5Fze-MhW
+
+sprite $EnvelopeLg [20x20/16z] fSor0GH10810pjVflzftTvc82FxGUwVglTbxJDwYqZKlPKO5Bqm4DnQ2HmF5dKPt4nkjsqqZinS6aWFPAn7wvdUAzyZrrio7rW
+
+!procedure Envelope($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Envelope', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Feather
+
+sprite $FeatherXs [10x10/16z] FSQt0G0W30Cmqs7o_zS2gPe4rGX3aM66ccBBGAEJ77WuDN0F
+
+sprite $FeatherSm [12x12/16z] FSR50S1030CmbxdUVzeBHoyX_K-DPgcQgidcRt9vyjK3-lMckVJHRuAo_kzMvGrp4Kq
+
+sprite $FeatherMd [16x16/16z] NOxL0K0X009vQSl-qzfzVy0P62WQJ1mpes53rUZPEI97d5cJj9YvtDkY1vwvMcHzhhpoJsQyyovQrDVwDs_jZ1arueNxHiUdk181
+
+sprite $FeatherLg [20x20/16z] {
+NSu73WGX34DHJw6dtF-qsosPVMhe2qWWBik5JSqFbsH9ccXg8YQbITju7w9hExw7Wob-rm9tKW6mtxhm9hUyjO8ttjBbzA-E7zuQ8DuAioctVghSgjDizGjo
+g-2FCuad
+}
+
+!procedure Feather($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Feather', $name, $tech)
+!endprocedure

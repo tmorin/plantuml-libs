@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Italic
+
+sprite $ItalicXs [7x10/16z] Ou03VY00qJny42wOP89G_En8OjnWYesVZHL8GdG1
+
+sprite $ItalicSm [9x12/16z] Oq027FmW06GmyV3oy_20nK1y28CTGlF01VWWD0jS0CvW0f7iCDCO-K00o
+
+sprite $ItalicMd [12x16/16z] ROo35S1G54Dh1ljFM-Fh7Zm4LK9DdU3SLzzSGjlQKziyjkTvkzPxYT-T5RoRaWMUI-_nJTQ0JLprz4rp2JVdkWC
+
+sprite $ItalicLg [15x20/16z] RO_L0KKX5CDmX-m_xPEhMFwEjXKxt8KvgipDEUpA4mcnkmuWkn9gLramNTcWgoIuhimWEg1iLVQFUfNQ3QrpK9rJHrMuaVjiFLy
+
+!procedure Italic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Italic', $name, $tech)
+!endprocedure

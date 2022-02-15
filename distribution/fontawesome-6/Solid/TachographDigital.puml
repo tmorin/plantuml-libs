@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/TachographDigital
+
+sprite $TachographDigitalXs [12x10/16z] Oy01kFYH02zO29EDeWOamuAiXW-aZXb92RBv
+
+sprite $TachographDigitalSm [15x12/16z] VSU30S1050FGr6xsd_PilSzWQ69XDIuwC9OojYqBCNEXynh_hzQducFylrelmGno4W
+
+sprite $TachographDigitalMd [20x16/16z] bSg50S0m20J0Zokm_xHrzru4nLUk7cadLvATyDepcDI_lMkUF5dnx6djyN9MoKmuZg7VAvCf4r5o1kWZN6a1
+
+sprite $TachographDigitalLg [25x20/16z] jSc50GCX50FGu4xsdxRUSvS7tt6XmaakSfvk6FQWTTTXNc3AxrHUgGVKbg3o5Tm6BIfyIBxbz9TPqqSb5MV0bYb9OBSd
+
+!procedure TachographDigital($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TachographDigital', $name, $tech)
+!endprocedure

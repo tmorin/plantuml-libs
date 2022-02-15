@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 14 packages.
+The library provides 15 packages.
 
 - [aws-20210730](aws-20210730/README.md)
 - [aws-q3-2021](aws-q3-2021/README.md)
@@ -13,6 +13,7 @@ The library provides 14 packages.
 - [eip-1](eip-1/README.md)
 - [eventstorming](eventstorming/README.md)
 - [fontawesome-5](fontawesome-5/README.md)
+- [fontawesome-6](fontawesome-6/README.md)
 - [gcp](gcp/README.md)
 - [homecloud-2](homecloud-2/README.md)
 - [material-4](material-4/README.md)

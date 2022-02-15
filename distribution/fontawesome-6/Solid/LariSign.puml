@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/LariSign
+
+sprite $LariSignXs [7x10/16z] DSN50G0m2CNGVwbBzf-s2a6UlDgvT2wJ2KdqmNsj7yRG2uCIJxms
+
+sprite $LariSignSm [9x12/16z] JSR50SC000IWQ-FA_jF6ZHVvy9_6CntPJD0cQ8ufzWn6KPjZbjDVBgurBh_viW8
+
+sprite $LariSignMd [12x16/16z] NSt50OK030MmXplPVzglU4xrvc6iCjPRJDXYvYqkWUKJ5b11GazOJOLrssNMRl62-lnZE9zongircsB6EdzDYrEAqni
+
+sprite $LariSignLg [15x20/16z] {
+PSo55S0W40JHnPtflzkykFq8d4f_tadHw6309EOpBF08LqTKEBWrcW1r05WfmMITNHd1F5OPQ0xi4Qf11wrX1ZbMKWnIjkivG0y1x3E6yGmBz7StZ1GtjlCI
+UT7R0W
+}
+
+!procedure LariSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LariSign', $name, $tech)
+!endprocedure

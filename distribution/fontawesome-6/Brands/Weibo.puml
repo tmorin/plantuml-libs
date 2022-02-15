@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Weibo
+
+sprite $WeiboXs [10x10/16z] NSUr0OG0002nUrV8_jCY5P8kdL7rLMCAMOSHtT95aMiIfPTRnihxmQMT6G
+
+sprite $WeiboSm [12x12/16z] RSUr0GCm0C0mXpd-_zh2MD0c_j35MwW0JK25iDi5rQl1ZLfZLQWOMHUs3I-w12LVtgFPu7JsOBXuM-hWonC
+
+sprite $WeiboMd [16x16/16z] {
+TSg30KKn5C3GFDJ8_jD-6wUuvBysDbxrhbn49x05Xi2Y2iGkmkfPd8e8FgmPKJD0q0qMz9nNG8LnUIeaNIwrT8MiW0kkqmhQE6zjj17Op-NPqknjw5XvMDU5
+tuu
+}
+
+sprite $WeiboLg [20x20/16z] {
+bSY5OS103C10vPcr_xHbvfxP_EOg9V31LEMJeXSFXWfm3hW0ege0VHcgGFO1JGSsXEGRmOfSFZW-0A9itP47NJi03_Cw5Y2h5qmFTDK5g1CqW1xqvTUDS405
+r0meMBT6c7e0eWlwdf6mTSA3gItbeNhn8hMvrYWN_tCB
+}
+
+!procedure Weibo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Weibo', $name, $tech)
+!endprocedure

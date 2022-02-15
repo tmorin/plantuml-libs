@@ -1,0 +1,63 @@
+# ScaleUnbalanced
+
+
+```text
+fontawesome-6/Solid/ScaleUnbalanced
+```
+
+```text
+include('fontawesome-6/Solid/ScaleUnbalanced')
+```
+
+
+
+| Illustration | ScaleUnbalanced |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/ScaleUnbalanced.png) | ![illustration for ScaleUnbalanced](../../fontawesome-6/Solid/ScaleUnbalanced.Local.png) |
+
+
+
+
+## ScaleUnbalanced
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ScaleUnbalanced
+include('fontawesome-6/Solid/ScaleUnbalanced')
+
+' renders the element
+ScaleUnbalanced('ScaleUnbalanced', 'Scale Unbalanced', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ScaleUnbalanced
+include('fontawesome-6/Solid/ScaleUnbalanced')
+
+' renders the element
+ScaleUnbalanced('ScaleUnbalanced', 'Scale Unbalanced', 'an optional tech label')
+@enduml
+```
+

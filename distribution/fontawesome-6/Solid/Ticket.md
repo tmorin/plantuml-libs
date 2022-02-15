@@ -1,0 +1,63 @@
+# Ticket
+
+
+```text
+fontawesome-6/Solid/Ticket
+```
+
+```text
+include('fontawesome-6/Solid/Ticket')
+```
+
+
+
+| Illustration | Ticket |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/Ticket.png) | ![illustration for Ticket](../../fontawesome-6/Solid/Ticket.Local.png) |
+
+
+
+
+## Ticket
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Ticket
+include('fontawesome-6/Solid/Ticket')
+
+' renders the element
+Ticket('Ticket', 'Ticket', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Ticket
+include('fontawesome-6/Solid/Ticket')
+
+' renders the element
+Ticket('Ticket', 'Ticket', 'an optional tech label')
+@enduml
+```
+

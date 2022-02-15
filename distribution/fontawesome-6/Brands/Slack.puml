@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Slack
+
+sprite $SlackXs [8x10/16z] Oq00VY14qFpy89gV1qh35V6pyOFbc80qAniR0mCRYZu
+
+sprite $SlackSm [10x12/16z] NSor0G810C30uCxjFotEsrMfqjHTzhqHVQoZ3X0NlxhHu6PFiDAlAZgt-6qFNQid
+
+sprite $SlackMd [14x16/16z] POu50e0m30FRkUV_lsKP3ZUjHtveLmdjj03CKmzhBEiA6dDO2f9fAKvOL_YGD1-bzI80PlLST41nMLAZy8bjaauj9R-LbPULv42F8ni
+
+sprite $SlackLg [17x20/16z] {
+RS_50O1050FHBBR-f_zgSOTtd5EYVuEJ-budm7aesZL0Mm4Tpd1g6ft1MAGjU49Xqwm1E4C66a355a4gHOsPrri3o40TAmCuXoq6I6lmREHQhK7DCEklBp45
+lS-PTcu91T2XOcgWqPy9
+}
+
+!procedure Slack($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Slack', $name, $tech)
+!endprocedure

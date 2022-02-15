@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserTie
+
+sprite $UserTieXs [8x10/16z] JSg30SC050JGQsE-_QUDzNbAyfEzQWu0FZ_8Kqz-5j64g9ZepAm
+
+sprite $UserTieSm [10x12/16z] NSR50OK000MWzzEM_QUrcnEP_BooWEQOEVzZETVYauTVySvC6z4bYD1_y150fy48
+
+sprite $UserTieMd [14x16/16z] XSl50OG040F0uCxqN-q9_cD-kqcocRGvTU0u2XxdmAOuHZRLThKyXpPp7kUITsMRLPjsEnOIAUYsGoffq0IgHR7012CpM3rz0G
+
+sprite $UserTieLg [17x20/16z] {
+bSy53iGm00D1jmtJ_l-rHo4fmXknHLvrljLRc-6hQhePD1I6HnrJF8Tq3bvTOBWqq0Kj6S3fBu3Lv2YwQ1Bb5rW1gJdT_NpiLHHvW5jycGjwOt6zAi75J-Mh
+0PQVpE4D
+}
+
+!procedure UserTie($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserTie', $name, $tech)
+!endprocedure

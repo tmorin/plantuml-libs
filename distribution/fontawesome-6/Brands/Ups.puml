@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Ups
+
+sprite $UpsXs [7x10/16z] BSM50S1034BHN_Uo_xGNVGb0--IkInSkAaPXZxbvJuKV46u1PjoxWm4
+
+sprite $UpsSm [9x12/16z] FSY53KCn34NH6pP8UVjFstu-PlCfgOFZHrySNDoyKqTZdf-GzNelfQdwxY6rFZa8AEnxCPWJid8Q1VW3
+
+sprite $UpsMd [12x16/16z] LOY50G1H28NudUh-qrud5Zx-kD9dJmwydQZeQDkj7FXc1Mvtl9vxxYRcp2x7ad2xXhxbSHmvsviGJQRLwyWamDXHgh-yEKY33IUEdJAz1cxER0K
+
+sprite $UpsLg [15x20/16z] {
+PSU50SCm30NHCwWn__stRHYVGJhu2j4iEbPLfucaLKqMGuWrp_lWaBA6vvO5xkahUVhrvaazpIbw6SaKH3uJcOnR1bCvqmbCQPvI6T88yolEiC0e0KAapsSs
+4gjCh6Vw0JYncHghrC8SFN8moS7N7m
+}
+
+!procedure Ups($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Ups', $name, $tech)
+!endprocedure

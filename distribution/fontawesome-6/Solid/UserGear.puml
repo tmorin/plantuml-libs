@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/UserGear
+
+sprite $UserGearXs [12x10/16z] NSU50O104CJ0u4xwhnRdRKwNYnMVMbs-No_b_uKERFWiNg1Hh-7fozvB-_s32R3Z1
+
+sprite $UserGearSm [15x12/16z] LSdN0OCm30L0qJkt_xR9-m5yjdhzTUPwNV2EyDu7SRJNiI8Mt5chboopwETb6JgkY-g8CHSAqJ4Cp8ZIgahy
+
+sprite $UserGearMd [20x16/16z] {
+PSw54S0m3C10kypQVzg6MKUv3rbyDvkqxRWQKXZmZAQLtT7cohPojnJeSSjPQtpZTzB6xizV5HsKXnzyky8juXyc9H_gJgo5bjtv36YsSoRsKkuUyi4vJPMn
+t64-0m
+}
+
+sprite $UserGearLg [25x20/16z] {
+fSy53WKn20HGwjwv_sc_q5cFxuiIN9OmPfGd1-Nb3cJageBwiu5U9pmeoSs0cXhCSsC1W2gAPzzWdLxlpzRh7MQ0_ws9Zea1KE3ceck0HoB_4nsxgK7cA9n8
+mwxW91giL4F41H_apsTrobY9Bm
+}
+
+!procedure UserGear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserGear', $name, $tech)
+!endprocedure

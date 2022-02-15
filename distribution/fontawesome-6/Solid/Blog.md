@@ -1,0 +1,63 @@
+# Blog
+
+
+```text
+fontawesome-6/Solid/Blog
+```
+
+```text
+include('fontawesome-6/Solid/Blog')
+```
+
+
+
+| Illustration | Blog |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/Blog.png) | ![illustration for Blog](../../fontawesome-6/Solid/Blog.Local.png) |
+
+
+
+
+## Blog
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Blog
+include('fontawesome-6/Solid/Blog')
+
+' renders the element
+Blog('Blog', 'Blog', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Blog
+include('fontawesome-6/Solid/Blog')
+
+' renders the element
+Blog('Blog', 'Blog', 'an optional tech label')
+@enduml
+```
+

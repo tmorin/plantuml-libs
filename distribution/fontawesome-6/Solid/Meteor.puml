@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Meteor
+
+sprite $MeteorXs [10x10/16z] DS650OG0000XlbDl_sbjmUa6kbSOsz3ke_XLrrkYUfPGdf5lw8N-K1Lc
+
+sprite $MeteorSm [12x12/16z] HSf50e00449HxFRV_xOoM6yp0VfD2fe9o8EIdSVyhqY96cpgKEjmzEw7vbCLdzfJUQfqieCXuIIdkyg9PRq
+
+sprite $MeteorMd [16x16/16z] LKu50aKX3C9kkVzfVpps2fFG3MzC67o6MoJ570NZ_QBrD6yxySK3kQCleWNuRtz8S84RVby25XC6lN6F_n8skO361g38_ylQZpf9iMrqo22v5odvxhw8V04
+
+sprite $MeteorLg [20x20/16z] {
+PO-55O0m34H3tM__QUlw-52xEFtWaGwoBXK1qC820fsqV70mGqguO4qHU9YPRcoLF2entMvgPV0dtUb7BqSE26B3SqYgHRImiEkd6Sh0QJaAeZZJBIssiaFx
+skvMFS2rWmqtIRCjlOSELnB5XHd99k_qpm19qgG
+}
+
+!procedure Meteor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Meteor', $name, $tech)
+!endprocedure

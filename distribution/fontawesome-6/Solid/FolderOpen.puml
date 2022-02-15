@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FolderOpen
+
+sprite $FolderOpenXs [11x10/16z] Oq00DduWW33vOG29oGraCa6aGQBi23NySC06Op0X6S4AOp4p
+
+sprite $FolderOpenSm [13x12/16z] Oq01_4302cU3USpCp8n03W9WS3WP6640A80aoSq3Pw98iF1oOpUEdO6J3mPu6HW
+
+sprite $FolderOpenMd [17x16/16z] PSfL0W11209Gfdky_sctI_PzAO2VFZVr_OSStaGkVLVsG8aSb3DmzcQE06E-XaWEee7-wjNhUO1XrP_00meAO1G0Am
+
+sprite $FolderOpenLg [22x20/16z] TP3L0KKn24DJzsR_QPzUXvu_d0GwFlwmjsJanYtB0tlD2lHiKRFjo8uBTSjQFFajchppZP4ewI1bBxB8UZPD24qKIOkXR0MK1yBAdY2I3YlU
+
+!procedure FolderOpen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FolderOpen', $name, $tech)
+!endprocedure

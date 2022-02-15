@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BookAtlas
+
+sprite $BookAtlasXs [8x10/16z] HS650O0000EWsIt_Nsi7f74fVLAMApgAe1p71DgfYrC6lp4dSTi1
+
+sprite $BookAtlasSm [10x12/16z] JSor0S100810uXxsdpRoVXKLO7HZ2zXYN3B66XQMuQzk5QTGzv4FOup667b996Ol
+
+sprite $BookAtlasMd [14x16/16z] RSt50SGm34JHCRD__zKkXfDt4aigR98u-dUQ3uELZAIm92uPR3DjQI5gx6R95dilf-hNDwvfYaNGHsSpUJJzQW1Uguw3iG8D3ju
+
+sprite $BookAtlasLg [17x20/16z] {
+ZSJLWSKW00NHGLy4cFwhNOldQyyLI4ClcTMdw4lVFWBP2u56m0DrGLfCRZgMOfZ5pK9WgvkL9PJVucRGQvPbnLsa8uFPGu84nKk3CFotca_5feDBi2sQuodP
+y8NiqpS
+}
+
+!procedure BookAtlas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BookAtlas', $name, $tech)
+!endprocedure

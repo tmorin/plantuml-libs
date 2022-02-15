@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CloudRain
+
+sprite $CloudRainXs [10x10/16z] Os1Wu6LdW01-C42mE84C6E23ivZXB0Os60CPyCCGK9mBHB4
+
+sprite $CloudRainSm [12x12/16z] RSY50O0m3031nvtVVrfSsruyG6xEPLHdBTXu0J8lFPXM-69ut_nCMxbLjPKjhU1MfJBReAm
+
+sprite $CloudRainMd [16x16/16z] VSw50GGX30J0nJLi_zq--dutk2ReTAju8-oigcaj3Pym53wPTVsfEe0V9F6UuIS8tzcHm9F6Fp8wFcTrf2NK8zEH8DcU7UUwFjU21m
+
+sprite $CloudRainLg [20x20/16z] {
+bT254S90503HpMby---M-OCxl7CNGjhitDiC0xabE9ezYg658syDFFTDXEAjRHfWyL5EFjj_xCi-O_LHXUQTZN_qAV8auPXpVFXk0oQNurT5EQX0vCV263dt
+5Q3h1CFn5hl20G
+}
+
+!procedure CloudRain($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudRain', $name, $tech)
+!endprocedure

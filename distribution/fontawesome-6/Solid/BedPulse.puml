@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BedPulse
+
+sprite $BedPulseXs [12x10/16z] VSUt5S0m30FHKsA7T_jFw-nMdn7yEWzrUCiNxnKQL5eLHiMwp_U_WWttmiyJ
+
+sprite $BedPulseSm [15x12/16z] ZSVL0OK030F0F1SAj_-qk7rorUJmp-epIcVSZB6gDExZ8GlM_VEFTmLFRWYjnHetQTGfFaPF5-N4
+
+sprite $BedPulseMd [20x16/16z] {
+dStL0SGm30DGbGDojF-sPntJLrynHdneCtv8Vk_Txo6RGtUBWqkIr2R_E7PtkDCScrh92A4-aNrtR5O2LG5PPApVOs-M-YVcZlYEOG8-OoGZOkYCVVaKyevF
+r0K
+}
+
+sprite $BedPulseLg [25x20/16z] {
+jSc54GGX40NHZtCsdN-sL-i2bE_3QJLCVJz-EcCXp-4SyeTwXCFfUGrVoDVWfYq73uevPxS60w8AA0N1n4t1c4p1d6TXW63Y2cT7K1i2mASJvA6e5oPJU8wr
+OAAM7mK7Vm
+}
+
+!procedure BedPulse($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BedPulse', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Usps
+
+sprite $UspsXs [11x10/16z] Oy05kFaX0Cfb1ZF112Cx2nE4pyF40184CTcWyWnmNPmGm85iA
+
+sprite $UspsSm [13x12/16z] VSl50GCn40J1FZ5F_j4QH3-xX4lyOo-cgAyARIgsouAa33oFc878aI3mCs3CMzBZphnirMBvxGq
+
+sprite $UspsMd [17x16/16z] dSpL0KCX343Hs_1mst_RudnM3aw4luYDwT1CofKwI7zCBmdj0x2rKPrBgd-a_a4dOZDGEuyfeDlPFxe0OVQK-LJp7p3zQUi2v2YfReL6r2LyuGq
+
+sprite $UspsLg [22x20/16z] {
+jS_55SCm44NHPulnzrzjm3H7--HkX4FyqzwqsEmbsHChDv_RSUpceVfOLG0iYYsdwBKVjrR1fUoAZfqE5VhS8UculKkF1Evxw9P07g8ELYnYapXWbnG8CW19
+QQyws2qxPPNvXJS
+}
+
+!procedure Usps($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Usps', $name, $tech)
+!endprocedure

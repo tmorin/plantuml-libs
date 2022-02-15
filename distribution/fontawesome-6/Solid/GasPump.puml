@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/GasPump
+
+sprite $GasPumpXs [10x10/16z] DOd50O0m0CI2Ezb_MgJj_IAW2bHG105bDZIPIsZWQ2IXRW-XUoDu0G
+
+sprite $GasPumpSm [12x12/16z] LSR50O100C2muaxtdnOzpIlWYuy_dC0TK70gRlqVaBuNFyodUfFVUHpX6t03
+
+sprite $GasPumpMd [16x16/16z] NSo50O0m0CJ0nvtiFstTWrvDsWafjP6I_iFvvrfSCElay5xamdzUZi5qVeB_pnKy1uU2fSOSW_axBmjpPx4CFfVE3o1ohpJDxV6pN1O
+
+sprite $GasPumpLg [20x20/16z] RSe54eG008LGx9RxdtPxhI_JRm1clrLikTL0tm6qkWNQ0vrkFnHll1YjTgHvjUPdvQUlyRCjW2uDfhEjLPfEOMXQwH1ME8RXoXgchXTZN4P6FIFSsXC
+
+!procedure GasPump($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GasPump', $name, $tech)
+!endprocedure

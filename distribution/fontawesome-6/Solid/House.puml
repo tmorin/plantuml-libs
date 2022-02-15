@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/House
+
+sprite $HouseXs [11x10/16z] PSR50S0W00F0r8jc_sbnvrw7w44boIkFqTT6ch36zk9eImLgxLOF
+
+sprite $HouseSm [13x12/16z] TSV50K0X0CFGVbVe_jFYBZdbmNKlI7ta4L_ITFcdxokU5EQBP0cWU8__ppW0EOMmq
+
+sprite $HouseMd [17x16/16z] ZSZ50O100CJ0nPtqNoskv_DBT1bA_G3DjsSs_TkS1gDXD1hcBJFu7mmp1kct6lb6KnJJRsYJFiRlABK2
+
+sprite $HouseLg [22x20/16z] jSkr0GCm40D0cTdQVzemcQjSyoXyc8gH9oc1LkITGYFpoU87Fnm-AhyYNjWek5Fak3OSVPQjoXduCEoy1SGG1mxRUnkQxLzQy2usxHK
+
+!procedure House($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/House', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Github
+
+sprite $GithubXs [9x10/16z] 9Sd50SC0000XwetU_jD6-G9FeDDCjq4l61i3Ag3tNKCQel8FzU0JiGC
+
+sprite $GithubSm [11x12/16z] HOk54SGm4CJqc1ZLVxSPiuvXQRmPlEoqZQvUYV_hmjhQZcQ_TBAkDdcT1xpymwrII_Y2UhKSMgfTszeB7W
+
+sprite $GithubMd [15x16/16z] LOw50G0X4CEAEzb_sdSDUbwTMAE7oK4u0zpCtUHbxDQGBp5M8_27UG542BVPO89k7F0tA_ZRB23WKkJPpH70IlKS70WftN8aTLgzp72DEyrBWE7mxjSA
+
+sprite $GithubLg [19x20/16z] {
+PO-55SKW0CGErqVsd_PBlP0M2uVfn1azYOEDUcbkqYOCJ-gKOK2K2bIPcc8iPPit0eekW6g1h8lnTu0Ux1kEIR6c-bjPm2yd8YXqlqUsjtPrceD-R-rbmCJg
+BlK_Fq3GnhYEJsnoLrORvb2lMmUprNla2m
+}
+
+!procedure Github($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Github', $name, $tech)
+!endprocedure

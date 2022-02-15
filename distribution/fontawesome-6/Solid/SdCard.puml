@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/SdCard
+
+sprite $SdCardXs [7x10/16z] Os1WuEVdvm6I8C30pymFPdBmix7n4m6u8HG
+
+sprite $SdCardSm [9x12/16z] Os1WuEC70ZOG3GP0cW4CWG32e12mmHW
+
+sprite $SdCardMd [12x16/16z] lSQn4G0W20J1d_bGvVgl5Y2Z0a-1LHSmBSBGOUD74pq9NQRjo-tFrxHS
+
+sprite $SdCardLg [15x20/16z] rST50S0m04MnF-Oz_se7PL3GtABVZNLaWpiR_BireG7ry2qjr9qtvfLveGr7NjtfjXS
+
+!procedure SdCard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SdCard', $name, $tech)
+!endprocedure

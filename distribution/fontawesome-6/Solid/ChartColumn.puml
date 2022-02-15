@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChartColumn
+
+sprite $ChartColumnXs [10x10/16z] Ou03NduOYn_AOkC7i_YHMFnW5Zyc2s4A6nGmyCC
+
+sprite $ChartColumnSm [12x12/16z] PSR50O1000InnPtflreurxoYmaO-fDt-b_thFb2TqVt6Vku-xhfrQHz0oKAcvKr-
+
+sprite $ChartColumnMd [16x16/16z] TSV50SHG24LHP3Rewx_QYNjoly2XUtab80SuHklX1A_ckBh1TtDkvfgSqDK96LtuVJWWXUcFnIJ7dNpEqNag2DU8-D8
+
+sprite $ChartColumnLg [20x20/16z] dSYr0GHH2411sE_w-g_st26w2KSysTO2S_oSWhdyUMceEQZEDVT0NvV8Zuklc-o_BrDb46GZmhxT3_SMv1-7Oabqpd46
+
+!procedure ChartColumn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartColumn', $name, $tech)
+!endprocedure

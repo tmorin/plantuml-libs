@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Bacteria
+
+sprite $BacteriaXs [12x10/16z] LSY53G0n30H1W-0nst-rOJIEJevI0xf_fWs-Oi-BX1e3PJkv5uEeLvQfzS6Fz8B21
+
+sprite $BacteriaSm [15x12/16z] JOw50O104CEAEzb_MYnONiyRcVDI5C1dSb5eb427uJ4faCHhyRN8oiTYVQprALcjqqffPXKO8XCdFsbcPWS
+
+sprite $BacteriaMd [20x16/16z] {
+NSw55S0W40FGu4xstxOlKFzLu0oNZfyvIOytJah5mt0Rk6cPzGgGgfSIvvaxwZgg74uxLkTMVnqw63HkRya0bmGPb5WfHZiXSODRRw2uSMq1QQQqywRNbl-C
+wVGg1PSrTISRNWB55hpb6MWW1m
+}
+
+sprite $BacteriaLg [25x20/16z] {
+PP076aGn18GdlOhxttQ_y9hDdrumuALau8Jhu7dSTYpUZEFxWxS6V1FnWVHAPYk3DqLcju-UkLyM6ffA3_U_8Qj48Gv62Pe-49HOzJvZMg7vFYPTbzwdK5Yf
+xRQq6T7GWuHOn0_OtFdk73lQ--2XR1b1v4vJv_1KW60ejt1Q-6E8SE24Yqy3oWy
+}
+
+!procedure Bacteria($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bacteria', $name, $tech)
+!endprocedure

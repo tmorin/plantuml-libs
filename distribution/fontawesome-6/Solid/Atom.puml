@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Atom
+
+sprite $AtomXs [10x10/16z] DOh50S0m30DLxYkt_xGndzcI0jH0hZTmv8u8Vf-BCO1GBhUt7r8joX8Lr3G
+
+sprite $AtomSm [12x12/16z] DSh5OS00002XYtlOVzfwULFLe7yB-h7Un3qN_vRS6njvEb5XABP1AAYyfjmBVl_Xtr1Dv9xwXQfF
+
+sprite $AtomMd [16x16/16z] {
+JSV5WSH00C0mPvZTVxK7Yz5FF3KlRexQ-AYQbQUcMb0rGF8EjZ7xnFIYEeuJqAQ0AjScg09RvGXgX4iL8Al2j7GD_xsE5yjUVOh_lxm3hh6re7jLde9kvQkh
+5_z-0G
+}
+
+sprite $AtomLg [20x20/16z] {
+LT17Wa0H50NHAsUr_zLsu7Lm9Z-YaCmWwUK1bXuSLRzYAf2r82L_tt0qjpaaENXjAOCY65MGqhrPmML0xGo6ZMLmd5WWgECr0Nw_Ea5L0_RlWAnGfGsGpgwY
+ZQZGWTkIWTase6WjksFiF_6mWvXMLRXB60SpM8UnS88Uyz-mJm
+}
+
+!procedure Atom($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Atom', $name, $tech)
+!endprocedure

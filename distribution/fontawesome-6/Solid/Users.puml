@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Users
+
+sprite $UsersXs [12x10/16z] 9OQ73S1048D8xs7_RL-MkGBmpeJpX5-JaovyRTBiiSnpxAN6TzqBSrGUTMrgUDi51W
+
+sprite $UsersSm [15x12/16z] HSU55OKm50JHnUFJVxLVdXmk99cLTkGsx2AsnHKp0vOg71QEdxUgJM2rgBZsyhDTeF8din_7hbGnXynEaEc4NVe2
+
+sprite $UsersMd [20x16/16z] {
+RSZ50SGm4CLGXScs-gysC875T_a0ZDQ4Lozg2q6rkr9Udt--0ennJMeJlUBGGEyX-c79EM4OwfJp21umZ5t4xA6Aa1AHVAq10u-QB_sIKffRNXflF7mKBgCl
+N1PV6c03
+}
+
+sprite $UsersLg [25x20/16z] {
+ZOu5aiD030J7owp_lzQWqjo5apRs2d7I9O6eHYXoCa2sFrroiS6OgYmGLZFF0nXCKQZCQK2rJ55LOjc09aoDbNiujt6KT7MSUFMyMM1Q1ZCB0mFsRNPWQqfY
+JtFnpWecCudk5V0xaQtDoP8_AcwGM-9J7tAxpntRku33oG4
+}
+
+!procedure Users($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Users', $name, $tech)
+!endprocedure

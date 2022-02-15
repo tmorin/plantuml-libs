@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Trailer
+
+sprite $TrailerXs [12x10/16z] NSY50OG030F0lEBS_jFYtiPpkP_zYkXyP6BVJjbR9dQFtCEMVHF-j9a6Na0YSfnw2oC
+
+sprite $TrailerSm [15x12/16z] RSV50SGm00InDREd_seFmub-qWK74am64s3-wX2MFh3FDOV-7Mea6FyE18Y5d4KOlv14GGTc6AtU
+
+sprite $TrailerMd [20x16/16z] bSY50GCn3CNG7pWqQFzfoynzGKklUDwP90KFgWHBCiEo_-pl9a5pQbAT5fJukoKFpJY8smRUUi9TgyKMhPo4suHL076bMWo9qlfPaxHGHlG023qgHRUs
+
+sprite $TrailerLg [25x20/16z] {
+jSd50SG03C0m9sNq_jiUCqFr5G-LzOrahVAE0BodsmKwffQjCYddqOTcispeRPoCTwBl9lKc6jR2DURpQ1dK32-aqkiQe-U84eN9oF9CiAOmowt6jPaxEfLt
+hG
+}
+
+!procedure Trailer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Trailer', $name, $tech)
+!endprocedure

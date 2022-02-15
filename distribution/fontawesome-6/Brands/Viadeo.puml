@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Viadeo
+
+sprite $ViadeoXs [8x10/16z] LS710K00002X083RVrjlvIymzN3N-QIHgzMD3ZlScKQ8QBnOUeiF
+
+sprite $ViadeoSm [10x12/16z] LKg30S1044ljPlzftsT5YBMMvS3aG5j3VxbhWU1RDPmZMJxskwB_ld1S3LtNSDlbNc8R6orLGGO
+
+sprite $ViadeoMd [14x16/16z] RSUteTj0040nICpa-Tx-sxhx6HtyPO00tbvt0JnRVKurmbrbZb7K-Ngjbef_0HTe1nuhIy3hwk4Cs9SnsG8o1tg3Mnjca16enJ1x0xCgy1y
+
+sprite $ViadeoLg [17x20/16z] {
+NOw5OS0m4CHa21cg_QSDVLd6vuCWyO-Supc0O01K_Kb9D0r7i3vs_-rGPsJigXtTT49wh3OpPLCBwCvBhQ_Tt0ZYnG-2lDEUnvLWsnJOXM3MyTSXJQ1OmiwY
+00vUUiO9CCm0gTEixqyBfCOH2I6zZMO8YcmVjh0k
+}
+
+!procedure Viadeo($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Viadeo', $name, $tech)
+!endprocedure

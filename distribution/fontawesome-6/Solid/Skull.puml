@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Skull
+
+sprite $SkullXs [10x10/16z] FSR50OC0002nrBst_xGuv1Luzm2jZfHZ__BlhDuXxYcLyco5DM-Kz382
+
+sprite $SkullSm [12x12/16z] LSq50G81002nuSxrJuk-hi30hGkmwm-7HZGxjiApFNNjpZQKsgY7VRatsd7hxx2-R6kJuWq
+
+sprite $SkullMd [16x16/16z] LSU50SGm4CH01SrM_zK-X3E7osRjbf73uA5kSV4smEGJ-597tweQfxxjvYO1vpRh37H7e2hQ0EtR5jNckLVmeG5uAVnLJzEPWyOh1nsxGrFW2m
+
+sprite $SkullLg [20x20/16z] {
+XS-r0KGn0CDGVQR4sd_QOyPNgh8vQzTO9nwiNesSzJxYQDJNsFeAugiHtoqUnKTH1QAsq5uRHre0DdMzj-Mwh55xeD40gA8wqdi4LPteV0NC-kzm0qS-MBct
+lBUW2-h2sVhG0FO
+}
+
+!procedure Skull($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Skull', $name, $tech)
+!endprocedure

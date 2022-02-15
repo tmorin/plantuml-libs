@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChessKing
+
+sprite $ChessKingXs [8x10/16z] NSNN0K0X34BH-wfTzf_MmgSd0LWw9ZLlKmJ-_zTAaenpY-U1j86iJm
+
+sprite $ChessKingSm [10x12/16z] Om01FWOeuE1dWp2O-Fdv6M1CY0mCiC1P39WiBWOs40NH3MCX05mT9m
+
+sprite $ChessKingMd [14x16/16z] TSpL0S0W40FGr72u_RSjxho_amI9GyVHZOeyMoVh9xb-NYOWCe5srCDvSh3TTE7g9W1KQJ_fEjtmdWAUiONmGz_v0m
+
+sprite $ChessKingLg [17x20/16z] NSl50KKX3031VMx0zb_jTqcO-_1HLv9PYPhgmfzFZRz3RIF1edmiwzEXwyjOxHnsC6kOxHmcC9W0HYkm6mpaqtWw_XQUnhy1mAZ0Pi8T
+
+!procedure ChessKing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChessKing', $name, $tech)
+!endprocedure

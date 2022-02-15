@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CircleQuestion
+
+sprite $CircleQuestionXs [10x10/16z] HKg50G0X4EAxd_sdLQ-RmgYBEwIeTGKWDq5cN6DNJk50q2xeLbhdYWImEUW
+
+sprite $CircleQuestionSm [12x12/16z] ROo30K0X54NlHzR-qsRNUIOIod4KNA6dYPBIdqHlKlw3Vq-CgbZEvrMUyzB5tRFnto9YNEq6
+
+sprite $CircleQuestionMd [16x16/16z] LS-55S0W40FGrF7ilsrVEFJZpg5wCkE1BjDya8D3qPYBr3Rd-xwZEYSeaAJUeof0SxMRxIBoqFfwSwJ4VZ7DmHrOtUZdNlONPFczlFQFPIZd4iqF
+
+sprite $CircleQuestionLg [20x20/16z] {
+LP3L0SLG24FfTS_-qpubb9ulN29AFrX571NAZWp1qHdo38OysMQrb9AQB4jkJ1FczZcNEbrZ2G1Z1sHTSk595Gkj-uH1iu1O26BZxgTbCodLfWGESLdfU29V
+1ZogOFPLHjED-UUz0G
+}
+
+!procedure CircleQuestion($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CircleQuestion', $name, $tech)
+!endprocedure

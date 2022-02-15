@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Hammer
+
+sprite $HammerXs [11x10/16z] Om01JZu6AE070cuecmN8PaCIXx9WR6P-VYu63X2J0o80n7nGPL0nE1DcF
+
+sprite $HammerSm [13x12/16z] LOo54S1020IFkAV_RdzmM5mXt1_1M7x6AuegPh79nVU2-Nx48dVP7xR2uOgSwVbNVqx_ly8P
+
+sprite $HammerMd [17x16/16z] NOx50G0m20FhBljFMnVWFZW9EwHg6Q3KYVgDM4-7xl3VSAjHm4fTYBlZBQ-RzrGpqCWdks_BgSNuCUilgEMhDP7pn7H-vHVuqBe3
+
+sprite $HammerLg [22x20/16z] {
+RP254KGX30M3E-c_sXFyCUnNTY16Yy3LqKNcXWTPUP10gp9q940FRS5A7X3mj6QdzCTEkNRp6LIHJqsMKTSgok-jTkyeQwS_Wyrlv8R04RnauOO1EM9UauNv
+uTvAD-Kblm
+}
+
+!procedure Hammer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hammer', $name, $tech)
+!endprocedure

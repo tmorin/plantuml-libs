@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Bullhorn
+
+sprite $BullhornXs [10x10/16z] Ou01DXY3dnz6y_4pyeC10nk40W9a5WUOpGTaWNK15KDP340sX0Lc0W
+
+sprite $BullhornSm [12x12/16z] JOl50G0108AuRjb_skloPS6hldZjO1uR3UCqJRFQcDbJBPZJdI_z-_lJW65Ibuk5wxFuUOQVfois
+
+sprite $BullhornMd [16x16/16z] VSwr0KGn0CDGXJdUVzfZ-ApkLJRBp5pHIcP1fwLDrykfFHjFX2uJzIt3mteLBF3q9ykrPu_cvOv-kOSDFATYg9B6p_PpRscO6_Do-nl37G
+
+sprite $BullhornLg [20x20/16z] {
+bSe52WGn50JHZdlw_hTTOYD_iIdyKP0r3nd9Vv9cA4qDwCDicTNEaVCa51zbO5ZdgjLaWMcMguxHCdurx_In4ddNbm65Z-eoO2-gakJBHecaD2Xf8oDjf6uh
+UFG3
+}
+
+!procedure Bullhorn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bullhorn', $name, $tech)
+!endprocedure

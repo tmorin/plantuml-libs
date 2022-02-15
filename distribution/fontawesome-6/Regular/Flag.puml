@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/Flag
+
+sprite $FlagXs [10x10/16z] XSQr0S0m0C0mbxd-_zf2S8mczN1UV2uL_9oIxAtDEeQvmEgFhEu5
+
+sprite $FlagSm [12x12/16z] Os9WOEFZPW01VY3Wu-BbXm1E1XWWXyt4nWmtav-73sec5qG14r0EeHwL3G
+
+sprite $FlagMd [16x16/16z] lOwr0S0m3C0KPll_QyiuTQi2Ph05uf3CHXnw8xiOZWNRHKTciNdmXvrqepg3BTj2sVjyBDeV-Mx9u5t_RSy
+
+sprite $FlagLg [20x20/16z] pSYr0SGm0CNGRsPh_saFmrNAl4woNLBiSmJzcL6XiAefLLPHKbgZ0qah5uEJAg2BvxquWU6tTz9hwVmbVMKM3emsnhblWIxklubqzGO
+
+!procedure Flag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Flag', $name, $tech)
+!endprocedure

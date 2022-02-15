@@ -1,0 +1,63 @@
+# LocationDot
+
+
+```text
+fontawesome-6/Solid/LocationDot
+```
+
+```text
+include('fontawesome-6/Solid/LocationDot')
+```
+
+
+
+| Illustration | LocationDot |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/LocationDot.png) | ![illustration for LocationDot](../../fontawesome-6/Solid/LocationDot.Local.png) |
+
+
+
+
+## LocationDot
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element LocationDot
+include('fontawesome-6/Solid/LocationDot')
+
+' renders the element
+LocationDot('LocationDot', 'Location Dot', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element LocationDot
+include('fontawesome-6/Solid/LocationDot')
+
+' renders the element
+LocationDot('LocationDot', 'Location Dot', 'an optional tech label')
+@enduml
+```
+

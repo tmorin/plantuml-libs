@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Heading
+
+sprite $HeadingXs [8x10/16z] Ou02Ndv-1WOM8C4Ful5p8MWk803HOC25ASy6eddOGFeP-Va1
+
+sprite $HeadingSm [10x12/16z] Ou03Tdv-VY0591dv-Bc0B1v-NWPEe118a1651GO85a8MEmlPP3wGoRnyV
+
+sprite $HeadingMd [14x16/16z] bSwt5S0m549H52g5p_xRcaFbREjMl0uSHSI0fAanALdLAQWEAHuapEEzn6uBiALAW-mGZzFF912F3G
+
+sprite $HeadingLg [17x20/16z] hS_50S0m30D0bRdQVzem-rMuCCSGPcFAtV6YDS8uNNTsTGTZSLs0t16OTRoSkFSWJ6HoehtZjuc9F8SGlbdhJrfkvcZ3NrqNBGq
+
+!procedure Heading($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Heading', $name, $tech)
+!endprocedure

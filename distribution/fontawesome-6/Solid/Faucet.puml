@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Faucet
+
+sprite $FaucetXs [10x10/16z] Oy0A-7dvEVZvGInM4C495GMJG0am0FAn00QmC1UGG9W6
+
+sprite $FaucetSm [12x12/16z] TSJ50O100CJ0uBn8_zNYS3uhDFNWzHSV8u-5G6whhnKCEYFTE7gvdjEc7OiIEG
+
+sprite $FaucetMd [16x16/16z] ZSwr0GGX50JGmLbi-g_s18TeNmJVyOfBc6omEbCP5qNzPmww_eL49HIcJ1mAFHhFgSPuSDUVXXUXjMPLQWu_gdw1MF_jfdghb1ANBm
+
+sprite $FaucetLg [20x20/16z] fOq34aH150F7dkhxdtRnRNRXCObuZuJP3DG4eG1gs8sORXUix3eRPtwbY2KAbYjJeDX-2im8VUYCrEzcREqy6qXZZ1q-N2l-umVxCko4ZBKczMjqhJMBYtm1
+
+!procedure Faucet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Faucet', $name, $tech)
+!endprocedure

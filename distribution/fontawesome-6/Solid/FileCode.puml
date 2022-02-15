@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FileCode
+
+sprite $FileCodeXs [7x10/16z] O-3dvsTZ0990YXzAGG0Ra047N2220Opu6VdPWLmK
+
+sprite $FileCodeSm [9x12/16z] RSQ50OC040J1Jt2T_gl57KuteCyYBD0MEoXMIDBKbtuKosT4YIA83cfwfxeTHW
+
+sprite $FileCodeMd [12x16/16z] VSwr0KGn30JHDREd_sgFuVD4Jv5MWsSsI1zYUvBuchGmwMFdlFTywe-uo4nI-b0mzJhwwryKpv8cwJkWmfoSbnQ-0m
+
+sprite $FileCodeLg [15x20/16z] bSt50G0X44FHh1kG_hlT3CwHZxxJu6KA1u0gmbqY6tcFb7lAZTkkM3ijJhUyEbUL3TcHlKfgmqFhXeqBG62svW4ilJfVu6pReF03
+
+!procedure FileCode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileCode', $name, $tech)
+!endprocedure

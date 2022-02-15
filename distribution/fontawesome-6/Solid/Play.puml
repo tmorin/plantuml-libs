@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Play
+
+sprite $PlayXs [7x10/16z] Ou00LdumnGy4K8eVH6423eGS6qW7H1y
+
+sprite $PlaySm [9x12/16z] Ou03VbOe3GHm1ZyFY041B406Bi05eVYWYfaXkhWW9l92RG
+
+sprite $PlayMd [12x16/16z] XSt50O1034JHsU3w-wyMPyYDTuf7sTGvN81uOW3c54ENOYYEhq7-BLXullVDvVjLwzB1e5UHxG
+
+sprite $PlayLg [15x20/16z] bSx50O0040F17ExRVxMu70xxcrUYGs7Y5GFXHW0gsn7oFI7QatfFIFS4uqVrJh4SYjsGoJ7r9nlDrTlVCSXqMmS
+
+!procedure Play($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Play', $name, $tech)
+!endprocedure

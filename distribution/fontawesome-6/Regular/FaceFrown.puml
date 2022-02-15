@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceFrown
+
+sprite $FaceFrownXs [10x10/16z] 9S650SC00C0Wvglc_skh04DVfthvDT3ir4Tk3I-zjIfkq_T7HHAI8QVmgQdO0G
+
+sprite $FaceFrownSm [12x12/16z] FSR5GGG1542nh8r_Nl_Luf1JmDa6gDcde0LS_PSPiU95vn2Fg1r0st2haDnxsIDTwmFdhPK6z0RJbvKF
+
+sprite $FaceFrownMd [16x16/16z] {
+JOo54S0m3CI-J7Qq_xQzTr41an8LKt9qUaWk5faELfaW7U3nHiAoNcPwMNvfJ3nFQ1PAPtilq1yE7Bez5nawru6Pf1qHcfchMN_EZ4lSRbXEJujmvj0STvv1
+Jz6Sdm
+}
+
+sprite $FaceFrownLg [20x20/16z] {
+NS-5bSGm54DHnSol_seNT0PppUolXtvOHHyg3plg0JZniTHbiFIGOTocFCfIzPGPk7nfD74aTU_DEtXZ9xfDhezS-sZn5uBVt81k9WlPbKkI7GhL7G3S1O7R
+qyfmP86jJLPd-1XS7WTGHPQvgizrrm_rCHZGP653b6M0FVtsP-2siqU_
+}
+
+!procedure FaceFrown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceFrown', $name, $tech)
+!endprocedure

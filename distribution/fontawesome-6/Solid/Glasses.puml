@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Glasses
+
+sprite $GlassesXs [11x10/16z] JOQ50O1008ImM_QVrlY-X5QQLwBwlI0sE6qwm6BL_HVSN41SLbcSTncrXqrv0G
+
+sprite $GlassesSm [13x12/16z] NSc50OGm5C3G07NB_jEUAw_zphzf0LXcIF8G43nuwHdXvH3vC2uLs7LwyhZxA5t0RJmAh-khj5K0-ifS0G
+
+sprite $GlassesMd [17x16/16z] {
+RSx5WKH1481GwdjBDVb7kplkxyGHVZZwnCMMCu0wu5O59eE78kpo50OcBrnnuuM9mOl3rQ9k05Kz_A72DBmzf1f0D-eb3fiheEmM84MpgrnYAAkgm7mF8W8U
+yGy
+}
+
+sprite $GlassesLg [22x20/16z] {
+TOu54WGX30HdBHoM_lzlhoZMfP6uw9FPnfC-T0LWrg77fXHAo5gn6A1bWowCfFPbNG4fiBnu2uEkH6R1Or6YSDsXBiGA-AH604ZWRBWx5ogds2hNTOhHbnpE
+tYW8gpV3gfcSslG510Jx0Nq3ixQ28XsJv7H6QLwLHbm7lVC7
+}
+
+!procedure Glasses($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Glasses', $name, $tech)
+!endprocedure

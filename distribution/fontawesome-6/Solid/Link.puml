@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Link
+
+sprite $LinkXs [12x10/16z] PSR50S1030D1XJdRVxN6vncaqJWJKEX-AOhgPlP2SYupPohDfZPmP7z25we1rEC
+
+sprite $LinkSm [15x12/16z] TSc54SCm4031CuFW-kys4GxwUUVvY4sz-tqUnBn5ZuAWMevirRrI_LfquRCMAhStg-nMOG14goYDBcjH_ovg5RScBsRiVq_y
+
+sprite $LinkMd [20x16/16z] {
+XOy54eGm00E3rhl__-rDYe_T8X6ewHyDMBzLn-Gh5aZQYhJ09BCo666ddLNML476uj-3w0xNVww6oopI19DVqGDcDMHJ92zuT62jrvGADBLrybzNPs7FhWmi
+bkbzXWtYuYMNiEiYOnPzc79Fd-87
+}
+
+sprite $LinkLg [25x20/16z] {
+ZSu5Ok0m3031DONZ_Vzhxrgfp1EqBUAl-kay6vzSXeCtIW6cdgUwy-nKFQ43g92cgH1qUVvnrdg_H3xNKZVsdKrRRhYzx2zQo7aU_tlMt-8DqP-kFiTdlyne
+kR--r1liMYE-HQ798xqvdH5VtWp0_lZJ61d_PcHyLWYN4ieqLCBpR9VGfWvU7AQLZpOVtNnXhAFmmNy
+}
+
+!procedure Link($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Link', $name, $tech)
+!endprocedure

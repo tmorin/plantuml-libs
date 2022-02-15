@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Plus
+
+sprite $PlusXs [8x10/16z] Oq02_FXeVWZ0fuuPY04
+
+sprite $PlusSm [10x12/16z] Oq05h3068pzE5YCZ8nC_a61Wu8S1F3fWW1_L8W
+
+sprite $PlusMd [14x16/16z] Oo08kFcHUNpyZAJokFc0W9-V3mHO6FYH0GC38n3myJE3AB9iG00MVcok1m
+
+sprite $PlusLg [17x20/16z] Oo0Qy7EXyfdv-MagmCEF0bWP-541DmCB9mXmyVE3QGwQEem99e0GmHbI
+
+!procedure Plus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Plus', $name, $tech)
+!endprocedure

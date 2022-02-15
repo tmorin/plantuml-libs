@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/DoorClosed
+
+sprite $DoorClosedXs [11x10/16z] Os1Wu0S31ZYBdvje9WCV4Mhv4G
+
+sprite $DoorClosedSm [13x12/16z] Os1WuEC70ou6863ZXmBAE4mCP1h0Zmm
+
+sprite $DoorClosedMd [17x16/16z] Om02VXZWOG03FduuO0CBy2C09zK5cFZG11XOWGAqiPQ3bnT9W0_EGm
+
+sprite $DoorClosedLg [22x20/16z] Om01Fdu4u6I00duKm8PLb7jGYZ8oOHC5UHDJb9DhGDpBnCI4Aih3nCJ8Jm8
+
+!procedure DoorClosed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DoorClosed', $name, $tech)
+!endprocedure

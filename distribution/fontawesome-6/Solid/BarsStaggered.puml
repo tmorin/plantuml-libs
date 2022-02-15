@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BarsStaggered
+
+sprite $BarsStaggeredXs [10x10/16z] Oy02kFcXW04xm2VDZqKI
+
+sprite $BarsStaggeredSm [12x12/16z] Oy01UFdXW8611GOmb37200C3aWOSW94R1jWPs74e1m
+
+sprite $BarsStaggeredMd [16x16/16z] XSut0S10302n-xAaysURrTr281hZ5YvuFcd25XRqnYiyS7qIC0GwunBEu3Sbd1y
+
+sprite $BarsStaggeredLg [20x20/16z] fS6r0S0m44MnPsPx_srJtsz24Z-q8pgC8mOGeiLlwrWRE0f8pShyu8O8SDG2lqJaiGi
+
+!procedure BarsStaggered($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BarsStaggered', $name, $tech)
+!endprocedure

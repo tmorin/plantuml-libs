@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PlaneSlash
+
+sprite $PlaneSlashXs [12x10/16z] 9S670S90540XxDst_xIQ_8CZoj9HdIsz3cNaMzr0EJKu5GrLJzM7RfI-nhMu1meE_G4
+
+sprite $PlaneSlashSm [15x12/16z] JSV5eOC0042nr0ru-q_xfMXkEPzGcFMYu_Eiizd3aCfi6jsgxdFFHStGuODhrTkdQgHEb4iFk5nGqMGs5apDhG4y-WK
+
+sprite $PlaneSlashMd [20x16/16z] {
+LS-50S0W40J1mvtjlzgu3kwyBTfOi7fafYG3wEN0I42HNX34RsEIEZK2GxU0KU9WVqSjXp56Z-SSJU8bQPvjvsQaknCuDSd0CCOGzrvqLfi2sXpha_FZncjJ
+WImLfXu0RwGd8Dozg8FdFJHO0G
+}
+
+sprite $PlaneSlashLg [25x20/16z] {
+JT073WGX34DHas5w-VU_xOAraV9Kw60IZ-o3JTK3CLjmfxYXZ-O4FbdQu982lADgWCIaOWa_j3mCPrrWymilamgufGvsnz1a36wAIuCtBpDtuUHCXxHJ-6js
+pnp9vQcRm9vyV1rDk3czsJPuPtlX_tNljzwpxWuNZbGmlBabPFaRckoOwTFhn7_XmxKmgNty
+}
+
+!procedure PlaneSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneSlash', $name, $tech)
+!endprocedure

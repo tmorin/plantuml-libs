@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FontAwesome
+
+sprite $FontAwesomeXs [8x10/16z] Ou02NaucVWuWpGy3N61XV3H27IC70nihn1m
+
+sprite $FontAwesomeSm [10x12/16z] Ou03TZu69ZP648iV2R01-Ppyl40ML1b15WXpCxE2M1miN42A3oxBmCW6Om4
+
+sprite $FontAwesomeMd [14x16/16z] fOor0S0m40CVpRRsdpRCRQuJqfls581NB1GXZlZIVUrunnYBqllYbx9QxLODAsrWKy6iOALUErOX6c1wy18p
+
+sprite $FontAwesomeLg [17x20/16z] lSg53S0m44DHX_cy_xHb9d5V-2kuyJXhR52558r9ugwcB7oKfjygDB9mqB1JluRng0w0sSDk3D7Pq3X9OrZO500iOUSPyQq7
+
+!procedure FontAwesome($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FontAwesome', $name, $tech)
+!endprocedure

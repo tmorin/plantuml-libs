@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Lastfm
+
+sprite $LastfmXs [10x10/16z] Oy0F-860WPsVYv-Ddu613yW12O74GJAiO1OBb0Sbi
+
+sprite $LastfmSm [12x12/16z] ZSgr0SD00CLG-PYr_xI1Fk3NVU2Ee1ROEh6JlQ9W5pX68oXm-VxO1B03ekcKxaplTfu1OPrrySKJ
+
+sprite $LastfmMd [16x16/16z] fSA7TSDG3C10IB-gaDX_st24sBvt_EnLyu3JCj2dRmKTNKy3M0QLThusYjQSe53I0qky3iff0eTMOACTU2Ir7eSQAip8jmCxCZQV-WC
+
+sprite $LastfmLg [20x20/16z] {
+lSw5aGCm34JHDRD-_ztUMECEBiapewIVQ5ppJWTNz743vgTd0e8XAKEHtuxi2heCn9kVDmQ83TWz-9c3_iAr0tBJ9w4Q50Yw4cHT8B2ek4m6JL855N0IpvB2
+EBQxRfBpcAsYJ_i3
+}
+
+!procedure Lastfm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Lastfm', $name, $tech)
+!endprocedure

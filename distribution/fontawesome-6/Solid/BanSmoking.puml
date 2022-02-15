@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BanSmoking
+
+sprite $BanSmokingXs [10x10/16z] 7SQ50G0n2C30lFjd_scBf0MEx7AdihiA4o-uuPGynKkAO5MytMswYMIJbrpDtfiL1
+
+sprite $BanSmokingSm [12x12/16z] 9SY50S0m3C0mZrVq_zSM5GvJycTps-l1oQEW1l33WaSmmdT6ap3wSHoebrSoaV7tT1wA-314Gn5b2lg1Hg1OMKFNjmC
+
+sprite $BanSmokingMd [16x16/16z] {
+9Se94iH0249HZDdJ-kz_sndArwiKaXt55p8hnYKBO1rvDPHdGDAzAM1D6STV2ZQ19jZH0OSx4uG_nN5z0lel2iZ5ciRAukDQJD1a4xGoCmIaG12I0I-j4pG0
+VmiEsGkdtmLKDNYq3Qpz_m4
+}
+
+sprite $BanSmokingLg [20x20/16z] {
+HO-73SGm3CGkpLtX_ji-12blela8fbX9Vrb5sbGIkvJ0fc_ro6d0-DGXQSqOp_UkoxTrbqXUPTbYDtbyPIaxPT11KfPEWHV4wsLGuYJWAzSuOOMBiXORDvHm
+MSBJSD4KnDV1PA34omwFJa2xZDMttES1MBdEk-NDdOUD_dZXzIFd1m
+}
+
+!procedure BanSmoking($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BanSmoking', $name, $tech)
+!endprocedure

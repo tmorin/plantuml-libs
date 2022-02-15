@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FireFlameSimple
+
+sprite $FireFlameSimpleXs [7x10/16z] DOY50G0X3CJohf3zfyLfpu65Tjgr-bTjG--egywTpRlQ8dtaL2K3
+
+sprite $FireFlameSimpleSm [9x12/16z] HSo50O004090xFRsdzQExm2IfCfj5VS0RxSa0r04gL1I9uiVE9ll8No3SMB-T7O
+
+sprite $FireFlameSimpleMd [12x16/16z] JOs55S0m24Hft6__RVkGo8_W70cB3i2yBj3K7M02kn4A--RoI6Fh-Vj8ou6Dix79NS2YEnR5dq1zV7fw-CrFzXH9NE4bNYNw0G
+
+sprite $FireFlameSimpleLg [15x20/16z] {
+LSq75i0W309GkhVS_xPzY77G-TKaS9uPNMvo6KHEePqvHPCLJi5JEaFURk9NkX8BtTq23dtlMUzLHP_-NfMCyoR9steoN7qsFlfLFvDaGjAH8kwOsP80s_B0
+npe0_
+}
+
+!procedure FireFlameSimple($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FireFlameSimple', $name, $tech)
+!endprocedure

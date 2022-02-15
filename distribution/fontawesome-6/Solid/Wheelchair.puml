@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Wheelchair
+
+sprite $WheelchairXs [10x10/16z] POh50O100CEAEzb_MZZNVAeod0g0EWQ2GS1hJJnkgtKmA7nE9D83BgnxVm
+
+sprite $WheelchairSm [12x12/16z] HSc50GCW44FHZplPVzkc_k0ScuaVwT_Fyk_J_FTIx-_JxLU6QJFV7KautWSDO9iY_M9n8O7dLweUWgnxFk41
+
+sprite $WheelchairMd [16x16/16z] LOv50iHG349f-rt2_Myx4zdahQ80b298a4JkBn8lCckaTgV_fomgeI5SrVePsbyoP87r8h9DoePAN4Bv_dGAC1Y9TkouGnPGMtJU1qNRi75pJmRy
+
+sprite $WheelchairLg [20x20/16z] {
+ZP150WGX3C2OmJN_V-rAstND2G9LfwpcdW7A6_VoiS3c_Y7ryAmsuDa5OAqrzvl83cMPwj34zTvDLSd4Gq8z3w2abEBvaadwMz3MbuPuC2pqHfEFXMZtlPVp
+bth_4QmMhZ553OODXBRM0UptsgKT7lTy1
+}
+
+!procedure Wheelchair($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Wheelchair', $name, $tech)
+!endprocedure

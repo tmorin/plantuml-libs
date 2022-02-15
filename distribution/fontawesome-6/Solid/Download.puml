@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Download
+
+sprite $DownloadXs [10x10/16z] Om01FWOOuCVDukS0ilYP8Kn-VgWeXC4Cee0G2jZu-Rdu4G
+
+sprite $DownloadSm [12x12/16z] bOT50i104CBeSAdd_w-jh5yt8mGbRZKM9Zo8pxTSmMpiAeMijlLfVCcFSdR4o0i
+
+sprite $DownloadMd [16x16/16z] hSUt0GCn300nKcvUyVQVLZdsHWUPaZmI-hTh63TXt4ExWf4EI1XmCj6C3gSQAYUjeV9qNdx28r2fvM4JYLS1
+
+sprite $DownloadLg [20x20/16z] jSwr0O1G4C3GEzop_xRmNLjIlYeIcXvfWgqrzbzDesc-uGp6O0QDFJ1BXfy1XuGKKqucMXBDQGJJ88OEOWx7IB5pmNGCD0r2juEs5m
+
+!procedure Download($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Download', $name, $tech)
+!endprocedure

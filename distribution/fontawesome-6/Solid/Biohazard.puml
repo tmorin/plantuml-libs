@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Biohazard
+
+sprite $BiohazardXs [11x10/16z] DSl50OG000F1ELVO_gl5oIUE3rp1086kTSeeTEBXQOpU1ZBU_uzNQB_TeMS9w5-O0G
+
+sprite $BiohazardSm [13x12/16z] FSU50SGm4CH0XStglzg76EPmcL8_bR-p1pUrbDQ3N3U-OLTBrGeqbviCsgSVsSK81AbwxV9dBNeedTekkkOUJS0N
+
+sprite $BiohazardMd [17x16/16z] {
+HSY50O103C30lE4q-q-BozNBgUSomMqeNER4pKg_p9LbvkQIFA3SDEVQ6FqVJgMkEd6QzTT1U2cZbuQGpea650Tmn0bS23afnL2ISWfxF10sBeg7fDpQM3mW
+7rrruLMkGuF33W
+}
+
+sprite $BiohazardLg [22x20/16z] {
+PSy53WGX4031Nb-q___R2nFEAmhZXCIqhhoidMcHbzhUlnjCId9OLmjCyHnerezVMO_zvF3ZjslqA-eDuUX-AYk0VmueJYl9QSUJQ7m1isspB9pbu3R5xy9T
+u0HkXUvEzU1Img8NkqFq-Zp2WKjtmlYvvgzsc2wNqu4iRnk6cuKFNIlgmTkjda3M5lyF
+}
+
+!procedure Biohazard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Biohazard', $name, $tech)
+!endprocedure

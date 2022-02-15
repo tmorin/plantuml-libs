@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Reddit
+
+sprite $RedditXs [10x10/16z] DSc50G0X20NGVsdh_jFIFAMX7fZlA6b-QwgqMjypPMkNL_9p9YPqeL_brVCnTec60G
+
+sprite $RedditSm [12x12/16z] FOo50S0W4CHInRdzfyKXxyhWOP7LiJIqIAiR4r7lR1__6Y0uwP7W9S7etznOtDp4MpEYxMziQlw2fCbFuvLcjm8
+
+sprite $RedditMd [16x16/16z] {
+LOq55e0W40M7ilNV_xHqF0UsYuPnB9mgNmzV3S8lp8wVpOzE7WdKC7a-cxF7btrcNXWgnNVrpWj-hxD53FdV3qUFzpvG5bRb2RlbgXvj_t5N2mGjAFWLTiuQ
+-U8c
+}
+
+sprite $RedditLg [20x20/16z] {
+LSy50iKW30FGe1FASl_R_by8apSbQB64X8zmShWgbiA7eeDlqQDAQUG-HmQAqHACxC19oPxFsSz2b4DPnr_MYO8lZeU7oLS1YlbkoiOhm0Xip3ZkB64vnxHh
+xj1ogcbEhIe3GzB_Eionw_GL2Xy65x-HT2uLjtZuzgRa1m
+}
+
+!procedure Reddit($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Reddit', $name, $tech)
+!endprocedure

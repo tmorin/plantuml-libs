@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BackwardStep
+
+sprite $BackwardStepXs [6x10/16z] Oq02_BmC3CpyG9AB7qZo8m0lAvXaO0IH88KGzG
+
+sprite $BackwardStepSm [7x12/16z] LSN50O100C2muaxtdnOzpITKJe56XTwtsTTkgVsZ-GET3jxvtG
+
+sprite $BackwardStepMd [9x16/16z] PSV50O1G081Gx9RzfxNZ1wS7MSN8rQpNweNI6vKt6kzwq_Z01pwmwdg1HGgkIjvs
+
+sprite $BackwardStepLg [12x20/16z] ZSV50O100CJ0nPtqNoskvtbDb517To87c0uMF6vutFDuv35FC-wcxcDL7wluMDdZlVdnEVbKwAmRv6a5
+
+!procedure BackwardStep($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BackwardStep', $name, $tech)
+!endprocedure

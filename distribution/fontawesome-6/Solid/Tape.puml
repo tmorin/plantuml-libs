@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Tape
+
+sprite $TapeXs [11x10/16z] LSY53SG00CImUoY3zv-sZ155pYjqszIsJaEzOTJOi665_8bi6hP-kRuiozlD
+
+sprite $TapeSm [13x12/16z] NOl50K0n2CMeEzb_sk_QNE2PJ0J0NJydtvzn2Il-Z2fufRTZ1XmX9944BUE0QzESNgAnixTs-gMkCEl52W
+
+sprite $TapeMd [17x16/16z] {
+RSs50KCX34NHznNdxZyjNk_19Od-kbEwz18OtEESMP861mz67Kq-JperHpyhX16vIqf0FyHZnT0yfb780xi3UmEN7b-aZMPxN90odRe37dODXeVO14axxpHi
+BnK
+}
+
+sprite $TapeLg [22x20/16z] {
+VO-50O1024LfM_UVrW1ilQzNZuQIn8oVR0frLrPFX_W9GvYGfvkIZfcpZxE-L39OGuEVMRijeWw7Cm6flvjjroC1-JlY322J2JdjZfR5dRV-CkxImqW0UctO
+mzupts3lw8dDHIl5uShFvFIYdre
+}
+
+!procedure Tape($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tape', $name, $tech)
+!endprocedure

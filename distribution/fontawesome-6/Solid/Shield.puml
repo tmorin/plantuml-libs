@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Shield
+
+sprite $ShieldXs [10x10/16z] Om01VWOmOEK70X0RGd432QW00nOM7py33uG5mc0M28D9FgY947a
+
+sprite $ShieldSm [12x12/16z] JOi50e0m54AnM-v_Mm5rsrly0128ZuLcK7UxmQ1l0zEBYxK_clvkUld7hv_yVJrlVKDwFREHQZk4wKi_
+
+sprite $ShieldMd [16x16/16z] NOw50S0W0CCwz-N_Qt4FcgAAhAZXmRD7MO8SE9v98YBDBt1LTvpGkGPV-3g_s7GtxeUf-XI6wX-Rf3dx1lMt8PyL-BrlS4WbSFLKuIPljW
+
+sprite $ShieldLg [20x20/16z] {
+RSZ50OLG0C2mul2i-q_x1RSSmsQqvgA9_etiEdTbZchI6MsUjmSt055rk1xq6kw7JYyta1_NCLslrehsUaM1wsa0qlb6vUzy6lcRZbChPlj57U2KK3InQLGx
+DNFYB74Hr0vcNm
+}
+
+!procedure Shield($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Shield', $name, $tech)
+!endprocedure

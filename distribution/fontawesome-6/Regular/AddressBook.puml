@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/AddressBook
+
+sprite $AddressBookXs [10x10/16z] Os3W1mDc88C13FXHM21v10jT5gmPmKAJvG83VWO
+
+sprite $AddressBookSm [12x12/16z] NSg50O103C305lVilot1vLwg4Pp2TEnseuNtGEvvrzzv0xNvVWl8lV_RH-TEZuQZdvNok--znGe
+
+sprite $AddressBookMd [16x16/16z] RO-50G0X24M1wz2__xHswpDf83fHO28wqE1a3If0la7MIVwUJWRm1tahCjfu3PnTV9-FVwsV8BEN1O4I_qLPiZ_lWLM-ZLIL6UAkVZuB
+
+sprite $AddressBookLg [20x20/16z] {
+ZT350G0X00F1u4xwh_RSbNqE3e3CGmfZF6S7ilJO4om072qEiO9VPbAucYDP5WkB5Guj9XRB1-DYagHhE5TPQyrYVZREYSamcLki7DOcBXrCw3drUcwuslH2
+JSQzmeJ3r-_twG4
+}
+
+!procedure AddressBook($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/AddressBook', $name, $tech)
+!endprocedure

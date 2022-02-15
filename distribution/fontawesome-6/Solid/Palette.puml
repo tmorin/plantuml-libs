@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Palette
+
+sprite $PaletteXs [10x10/16z] HSY50O0m34JHmvs__xRGnbuy-XsiQkWEMrfRX5PexQ1Cc9M1xXQDcgDjYvh5dny
+
+sprite $PaletteSm [12x12/16z] JOo50S0W30I_xhtzfyKXkRWgyt2gGgMdrGbM-BB_r9hPFtWcEYUYyRTiSzzNkKALh-SH
+
+sprite $PaletteMd [16x16/16z] NOu55WGX34FJbV7I-zzsNWZ-aReWy_Uu3HKFiOCOrVJbxxI3V2GU9lkFeQ3C_hyQIFvpJBZUGhBHkkE7CQS7TpEkM4s7s6gRTNjK7jaVL3v3_0K
+
+sprite $PaletteLg [20x20/16z] {
+RT230SH004JHYTU__sgF4-Uj3Lbib5a72rO76GVnsDKhyPNsBZf5VgRVNcdyxOLhqY-R-N8j20Y3kroBt3KUJGDd1QJ2oGnZnr6Hs0sooaQo_jHd4MpI9e5f
+Ds4w2lwklpS
+}
+
+!procedure Palette($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Palette', $name, $tech)
+!endprocedure

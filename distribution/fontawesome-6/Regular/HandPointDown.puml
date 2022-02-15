@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/HandPointDown
+
+sprite $HandPointDownXs [8x10/16z] 5SZ50SK008FGzwKkx3zjvP80s6hctvSX-RnDbdubMXiCUtyj1gdZ_V0--1JS
+
+sprite $HandPointDownSm [10x12/16z] HOo50S1030AfMvhRVzftYGkWP0wUEtpt_VAAJyN83cd8a_J0ZWmpNbFYOEpdjMH4MW7F4_nFewzJg4tKAG8
+
+sprite $HandPointDownMd [14x16/16z] DOu54i102CJsf2xv_s-xb25ZmL6mOvwcuA1m09T-1e-xL5WVT05J7T2BUuRRmNeWim53LXBTVtHpyqn7Mu_8qeGm6QqTc4qPmJki5NK55QauyuC2gCOF
+
+sprite $HandPointDownLg [17x20/16z] {
+LSt50O104CNGuAoc_sfnVRVHps6gRih0QVRH0OqwSuZQW4PkWuNH2Pg6KvNP3ZSLA7essX3gbk6EoPxTaKjo3sc0NaSJGGYUCk5ijDPSZV6eoj68n6rSoMfz
+6-uoLyEuJrju6bxfJsE0VwFbqHX9DhmqAn-ZVbwi
+}
+
+!procedure HandPointDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandPointDown', $name, $tech)
+!endprocedure

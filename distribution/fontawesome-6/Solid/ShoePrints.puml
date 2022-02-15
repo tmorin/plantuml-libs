@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ShoePrints
+
+sprite $ShoePrintsXs [12x10/16z] Ou00RdusCCqF0sXi1WvEE1kga8y10y0KyCFq0fbmDbWSpWG
+
+sprite $ShoePrintsSm [15x12/16z] RSp50GCn34HHMpBJxx_QP9dVQOHcevsyHUYix5JLisGgvLfksbOUV0dMV0f0NPA8nlDFe3KsQapbBCqabyfP_G4
+
+sprite $ShoePrintsMd [20x16/16z] XS_50OLG44FHp7DF_zL-1GRdxd9sWHOwUz0rq3bdVnH9DJ9_hMwDNpDx-sLXN5FJPFoaOfi8dWfZPDb8vJ-7Rw6PGkr7f6tavjdO6RvjpU2NGBg-__O6
+
+sprite $ShoePrintsLg [25x20/16z] {
+fT350GGn30D0XJdglzg3PSRvceqPNyYaCM4jN66l6hG4IHHEeH7NWTm4qZh09Y2t0YtduT8wq9E5FOavqOIAn3l2EAkn8jcPnsJY80xlGDwupN8TKFWXhrTO
+DD8oe35X8blPeFC5
+}
+
+!procedure ShoePrints($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShoePrints', $name, $tech)
+!endprocedure

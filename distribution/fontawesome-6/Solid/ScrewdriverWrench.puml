@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/ScrewdriverWrench
+
+sprite $ScrewdriverWrenchXs [10x10/16z] 7SQ74S104C90EMUh_sv_u08iAnbXKp3H3ChAE3HwyLxkG6zz2sVrMrMur7iIoW4
+
+sprite $ScrewdriverWrenchSm [12x12/16z] BSsrOG110C0mF-D5-qyRTgNE_JT6nL87nw-zSLOjYAdKmpIy3rMJNluyiZtzah7pJnxuun4OnuV_ZVMFnVu5
+
+sprite $ScrewdriverWrenchMd [16x16/16z] {
+DOs55KH130Bvxg7_RY_Bl6DrOaYNqEPFBRk2vdEvDGU9Lm9xNuDsAVp1XwNPzZMYqtGcECzd0f6YqxUchN4BLWUURrUje1tV4eW10T37PWAW9tq4Ub1G_y0d
+a40rWGJq0m
+}
+
+sprite $ScrewdriverWrenchLg [20x20/16z] {
+JOy73WCW3CIEgPRb__-sYW9HhNLOP4arwJ7OCZfqDml0GhEmB64aHIIhFVK-ihM1h_-IfZkUWrjzrAy3SscjpJPvaVClf_vaKbd4jzMrEMCNZHCtqVsC8STV
+QM2izylGXlYvFDUCizylZlJ1cJMKzEMXTbNy7AJXAduc7TWAFgP-
+}
+
+!procedure ScrewdriverWrench($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ScrewdriverWrench', $name, $tech)
+!endprocedure

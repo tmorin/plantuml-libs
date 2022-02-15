@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/UnlockKeyhole
+
+sprite $UnlockKeyholeXs [8x10/16z] Os1WOEHd005-8606qKWOHE42G7bs18SRIWC
+
+sprite $UnlockKeyholeSm [10x12/16z] Om02Dduc1Z3W1m4GWmT8Ce5P_Bn0WWdE0ZC80OGQNcvK6JOu2m
+
+sprite $UnlockKeyholeMd [14x16/16z] bSV50OGm00J0ZNks_shlWEWBcT_WakWm99vqYoEzocGRAG04sZRYfB2jSOKiJHQMdrIbz9e2K5TJodm2xlu
+
+sprite $UnlockKeyholeLg [17x20/16z] hSp50GCW50FGu4xsdxQANweFvmkUV2qQa-U3HEFOYFP15W2Qp2EXdGKFkNr0uVXeH25b1u2x4FWl7aTxTtumfrJvfiG3k8jN
+
+!procedure UnlockKeyhole($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UnlockKeyhole', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Poop
+
+sprite $PoopXs [10x10/16z] Om01VX01OV6ZiRZvGG0i00Qi824800d1c5mm1WTS3C42
+
+sprite $PoopSm [12x12/16z] HSV50S0m0CD0bxdQVzfmudj9Af31vEQjSRp0F-USgPIvPnZ3yEaRlGZxiHcB
+
+sprite $PoopMd [16x16/16z] NOl50G0n48JsN2BqNstS-OqW1KwP0BDandW0HmsFiWJKdkDD9MULGpFsUMT0Y_oCRAAMB6EqSmIbc35BbYLx
+
+sprite $PoopLg [20x20/16z] ZSp50S0W44HHt67whpQEn_xnhP0SXIPJ0EYDXHl3G74mxGEEFClaKSk69dDZyYIg6kFZj_oH0nEg6sCtHjnC4MFAu5ztUoJC_rO
+
+!procedure Poop($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Poop', $name, $tech)
+!endprocedure

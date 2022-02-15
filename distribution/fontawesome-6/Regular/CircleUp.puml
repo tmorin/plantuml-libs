@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/CircleUp
+
+sprite $CircleUpXs [10x10/16z] 9SC50SC00C2md3-iVxN30WnzGRty6cW6VSJzyABYlhwcxmyXuNu8X4zDnGu
+
+sprite $CircleUpSm [12x12/16z] BSR50G81402nuBfC_zK29ta5lBe3QXvJq1Mys_l2Z51lz1ggdjI35dGV78E4Gv3UEACR3UW3q-B63m
+
+sprite $CircleUpMd [16x16/16z] {
+LOu54iGm30DTRd3__ziRoKTLQ3KnXNKCsX8V3LANtGAteJFqm2TkfolOt7ITh971PEpa82qq1pWSgvX-leiQaObXiJny9HpsySmusKM-Efx-5DkU-KozbS_7
+YZN5Bm
+}
+
+sprite $CircleUpLg [20x20/16z] {
+PP054WH12CHwNI7__-qL1SjPnZEEYiEvLtsmKTYa0l2ffev7tIeME5iriCI6LFFro2m1c8ATNNZqHg0smC6K7UZpdLP0lDhWprtSA84zEyxAzkD0yEr6JCQI
+hZR4U0G5m_o4A29NibLmzl6ZmTGH0hiSGCqEWIqANW
+}
+
+!procedure CircleUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CircleUp', $name, $tech)
+!endprocedure

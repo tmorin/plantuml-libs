@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Qrcode
+
+sprite $QrcodeXs [8x10/16z] NSgr0G0X0CNGd2ja_sdnYY_TO-HGKNsnrlyKw_rG9qTt3iVJ7MG
+
+sprite $QrcodeSm [10x12/16z] NSl50GC100EWr3tiFstzb3-PO9SRk6lqZcYS0nf8ssJRtjUNRFwNuLuDzvpyRa_Tl
+
+sprite $QrcodeMd [14x16/16z] POu70e0W30F3tl3_tvhMhL7exe6t-fmpqZRQD9R8eArTqGr6K-rQ3bqZMaQ35oErQOc0k5j3WJhjdoU6QqxUr7KtJtJpv5atprddJXwZOjl9uSLl0m
+
+sprite $QrcodeLg [17x20/16z] {
+TOw50O0m30GVUvpiForrRwykIGuDApMBsT4mRMBHDv_at43SlsR_c8cOkXSVwIykxY8-rHLpm2y0VSQ6iId93M0oZNfZq_RYtAKqvNoUPsvAJ9YZgRbOFqZZ
+fG
+}
+
+!procedure Qrcode($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Qrcode', $name, $tech)
+!endprocedure

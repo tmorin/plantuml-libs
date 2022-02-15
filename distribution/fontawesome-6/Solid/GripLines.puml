@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/GripLines
+
+sprite $GripLinesXs [8x10/16z] Oy05sA207m9WmhmmFWu
+
+sprite $GripLinesSm [10x12/16z] Oo0IiFF302CV362LvO41_EO1
+
+sprite $GripLinesMd [14x16/16z] Ow0AOEH10joy_CY0WH4Pe6daGm8yQFgOaG0JkIu3
+
+sprite $GripLinesLg [17x20/16z] Ow0FO6L30Kmy_6Y03Ls024FPK04BBs53wG8
+
+!procedure GripLines($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GripLines', $name, $tech)
+!endprocedure

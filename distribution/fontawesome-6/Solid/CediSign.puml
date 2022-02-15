@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/CediSign
+
+sprite $CediSignXs [6x10/16z] BSgn0K100C3005N8_jC2trnrm3Gze0zLjEkyXzBnElLAfpREzsy
+
+sprite $CediSignSm [7x12/16z] BOo30G0n4C3oHf7zfwrp9etCG1gl6eb6F_54Q0c2CrmpO4JsLdPWKu_rfG8
+
+sprite $CediSignMd [9x16/16z] FSg50SGW5C3GrF7iF-r9aOTyvQziT9OURziENBuuDTaKtR5mRAQ-NAGdpYIvzGHTISIoPR03ckh3dvNE35y
+
+sprite $CediSignLg [12x20/16z] JOw54GG1308vzsp_rRx4vdOi2iWP65HSt5tVNM_ysVybXPVFWpsW6rQ_7nV1Nhyhg6h3keQdwmlhUe2nQe5rlO9v3T998MdFyeYW1jixVt7umHS
+
+!procedure CediSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CediSign', $name, $tech)
+!endprocedure

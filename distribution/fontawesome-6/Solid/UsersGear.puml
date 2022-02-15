@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/UsersGear
+
+sprite $UsersGearXs [12x10/16z] BOQ50S0m409ftDb_sxwX1vm4rHZ08nK_CkCwGnbDdqZ9VahrLpnA8LH9Rax3JMQA1FK-zlw2hyuF
+
+sprite $UsersGearSm [15x12/16z] HOs50G0X30EBExV_j2zeNHCHZKnHZC3gH-5Mkmleai2CujnngpHQeETT8L4gEdwY70oY9ThyID3-PZrqmVmhrdyQy6Mq8MQiUW4
+
+sprite $UsersGearMd [20x16/16z] {
+PS-5ZKGn303H-HoU_hizsTg8xeKv1eedFxk_r1kIwWCOIBl_Rsxb5GfLlR9_42vu3TaFVSw1wJl7d0KCcCfjQ8OZ6_6cw32nuYYy2oPi9nodjfUVjuynzgs4
+oyJfovAaYMOd0uQYYMMu0Bgc1SqJ_W
+}
+
+sprite $UsersGearLg [25x20/16z] {
+PSy54WGX44FHZuqovFwttQ8XPVjAWxG0l3gmY8qWIHrBZWnDYUtJv0_oRxyhGFUJuEWt3zpxfIA6TYLu56QyMLBE2RIyaG6AfZDf-L3moyiN7ON-Q64e7FHC
+axIpIfPNRYTKOJ5NNUCN_bLDdx2cWBR6CZmJKkBHO95yaUP5zqMJyMcfUnxBAHPuXIyC6F7y1m
+}
+
+!procedure UsersGear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UsersGear', $name, $tech)
+!endprocedure

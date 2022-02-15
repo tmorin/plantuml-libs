@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Brands/Jira
+
+sprite $JiraXs [9x10/16z] Oq06_Fmm6iBY1mCmpSG59FXWF13c1c9Eg1fUk2w4EG
+
+sprite $JiraSm [11x12/16z] Oq03_Fm85epD3mPW5XH0PHc111yVa61YOE042O3OZ6n0WWEkbWkkZmTk6Y_S3ZuG2G
+
+sprite $JiraMd [15x16/16z] JSg54O1050FHu0xzLuia2zoUlfclLFEYuoXK7GT66654-qF_sYL6qchlvZSbUqEzuiKQ93jDSdWMbSAB75xpNW
+
+sprite $JiraLg [19x20/16z] POe55aGX3CHczxkrzpyjEXGBshoWi65aKntCge7Pg3HcKJ8R5JCDhRdpym7uv-yBi2lcYJqxoUylgftPHsVc09Hko-yUUtRMH1fpWiXahBlG88DXTsD0p7W
+
+!procedure Jira($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Jira', $name, $tech)
+!endprocedure

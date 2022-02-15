@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Padlet
+
+sprite $PadletXs [12x10/16z] Oq07_FmOR4vM8ERdPuUA0H6Ou6PWXh5vG19W0D72o0jYyJ52Z868eh81
+
+sprite $PadletSm [15x12/16z] JSc53S0m0CH0bpdUVzigd1CzaBsC5XdvNH3DH3wIkO5UBZ3DeAAdxggWZnwAii1zQhvEeijmBB53j0SzT8LiqrjfD2ZH3m
+
+sprite $PadletMd [20x16/16z] {
+PT23WSHG00N05plJVxLtgtY-ZMoMF1I6t2tapghEJvcFtcbYhNiNp1HR9wfKJ2pl-SOY1JgC23IIbM3ufIfJ4lE27afpFeRQIi-wHdxUy-QoGz5kVMsthPrp
+m8HjrjQtuFu3Zhv_
+}
+
+sprite $PadletLg [25x20/16z] {
+RT450eGm34JHGQl9l_zfiQml3-hUwgsikWUwjSAaEu3hninXU9T7AHY7_h4LOYy35xs1Bv8QbwH3hdMvDWCIX9ZJVOmgosU9mtB58nRx5Cy6Mu0YsJMzJz5m
+6ZwEmyB9EFNqle2It7jftLjfPz3BDJ6rnxfwMuVtL5hqOUJ9Ldrf48g-BH36czSm0_Iq0m
+}
+
+!procedure Padlet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Padlet', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonSwimming
+
+sprite $PersonSwimmingXs [11x10/16z] RSQ50OC040J1Jt2T_gl57KutlfMRfZ4lsOzsvaeWLd5mAq8s0NdAlzRb2kgU4AT6
+
+sprite $PersonSwimmingSm [13x12/16z] VS6rWSC0000nnSot_xGFdQj8lXZ1C435KxLJgOK9RdSr0lHl0nG5mZKpFkvUZ8PvOfePlVq2
+
+sprite $PersonSwimmingMd [17x16/16z] dOo3OGH0401lSSRqNstojcVDy0kvxOAMNdsR560JsB3FrZO8a3tDlcaOp70O7f0mkEoS7-XfvVZ6JXtP-iE2GH99u44xGoStw8pIe8aFLWvvXhVy0m
+
+sprite $PersonSwimmingLg [22x20/16z] {
+jSorWGH034DH3VFy_hizEpcE5bvcaFGs5PBa5cR89OpCnZYPZYaAk7s0Rx-Of2y3gWwkw8SCkA7lSExythQqWQil6uAa_gswLhdK9TUZxp0rv0lC62Tmuk4_
+5Kh3JLtCrG8zxGC
+}
+
+!procedure PersonSwimming($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonSwimming', $name, $tech)
+!endprocedure

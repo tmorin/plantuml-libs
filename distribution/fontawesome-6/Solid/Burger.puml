@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Burger
+
+sprite $BurgerXs [10x10/16z] Oq06_4301MKm0p6G0GLyK1P8a0_Au48IGm2463kC0G
+
+sprite $BurgerSm [12x12/16z] LS450SH00C2mRiTO_sgVCO5_GytSPHNrWCF3kqFmer7ssq7tBU0NVRubnaV1ZmvhFtMk
+
+sprite $BurgerMd [16x16/16z] RSQ50OG040Emu4xtd_PTi9oqBjNJCfQ-bhnrFEMfUBu5dlsjo4YJBUPi5HHRLDbOoPxiB5HRTDCMIxOAHRQW-ECE
+
+sprite $BurgerLg [20x20/16z] ZS-50SGm0810gl6m_xJlhhq9W1-cPLq67WnUPAwoHy6ZYPFcKPyycJb8EdWrA0U-wB3u2aPVyT7GVPR1Dn7VP8Al1ZwPoYjOjpQ7JHjx
+
+!procedure Burger($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Burger', $name, $tech)
+!endprocedure

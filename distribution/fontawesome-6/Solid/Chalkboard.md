@@ -1,0 +1,63 @@
+# Chalkboard
+
+
+```text
+fontawesome-6/Solid/Chalkboard
+```
+
+```text
+include('fontawesome-6/Solid/Chalkboard')
+```
+
+
+
+| Illustration | Chalkboard |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/Chalkboard.png) | ![illustration for Chalkboard](../../fontawesome-6/Solid/Chalkboard.Local.png) |
+
+
+
+
+## Chalkboard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Chalkboard
+include('fontawesome-6/Solid/Chalkboard')
+
+' renders the element
+Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Chalkboard
+include('fontawesome-6/Solid/Chalkboard')
+
+' renders the element
+Chalkboard('Chalkboard', 'Chalkboard', 'an optional tech label')
+@enduml
+```
+

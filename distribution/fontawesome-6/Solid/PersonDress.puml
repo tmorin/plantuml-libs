@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/PersonDress
+
+sprite $PersonDressXs [6x10/16z] FSI50S0W0CJ0rBtPVreSNWxu0JOPKGj-HPaJBszo0W-fHW
+
+sprite $PersonDressSm [7x12/16z] DSM70G0X3CD0VQ-W_QUbazW-uDcefurthxjyRqMrhs_ZzmvLMTgo6hq0W_ia0m
+
+sprite $PersonDressMd [9x16/16z] LSt50O003CNGu4xstvQFmplLIymjXrevb7T0mQcTfl8ODH8L7i1JTmUkTiReDLELrz1wV9Yq9Z8W_s0mmGO
+
+sprite $PersonDressLg [12x20/16z] VSsr0KH124NHzrr6Rl_LZaAqSY8STLUMsm2FZn6RpAClpX3UrIUwSrIPUen9Ki1jWeJ97fyWLeOtPidYh2OoBPBs1nxO5tjsWVGltc0VPoe
+
+!procedure PersonDress($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDress', $name, $tech)
+!endprocedure

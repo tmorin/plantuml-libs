@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/FileInvoice
+
+sprite $FileInvoiceXs [7x10/16z] O-3dvsTZ0990YXz20J4V6v06OWZW1ed0AGJWuuIn
+
+sprite $FileInvoiceSm [9x12/16z] LSQ50G0X3CNGVov8zjyMjmTj8o9_IUImJupZYC43vua_uXfy5kCWqX8PAo_Xg08
+
+sprite $FileInvoiceMd [12x16/16z] RSY54KC12C1Gh0va_sbht-MTvIB5Zrr4niJo9W8tz_usjszN9h_c1hU8nZqYnaz-iN7NGGEU_4Jks_n7VaqEE7DrBqPTtxon-
+
+sprite $FileInvoiceLg [15x20/16z] ZSc50S0W3031u0xxRzj8tHyzW3maS82HX3KWnyOHcVZecEZzBngNjJOXZSMGtlj21pM-WYKZ75BIVxY4_5bEgUoejRRZd3ceJm
+
+!procedure FileInvoice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FileInvoice', $name, $tech)
+!endprocedure

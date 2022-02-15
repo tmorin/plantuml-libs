@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/Map
+
+sprite $MapXs [11x10/16z] bSQt0S0W0C0mfuVg_w-bRAne4gj30t0Pz8olceDmHX3sUkdqQSfC_j01
+
+sprite $MapSm [13x12/16z] dOUr0GCm0CCKvkZ_QujRnvhD3v8dl3lAKQUkfRf1O5-ujkzfw_ypDBzFKpraFmWfyq6fm1C
+
+sprite $MapMd [17x16/16z] lS_50G8n40NGlwx9wxzQtE7Ck4j-mZJd1isUj0MCIGPqc8kXWjgZIufpdpK9DRT03FyDhEpT9T0NLDOPcnqZ-ijN6_Oshz1Sv14
+
+sprite $MapLg [22x20/16z] {
+rT0t0eGW58JX8MVc_gTLCjLkxwUaltpunqfSmeoziWcO54a8pwrw8GExiGl92CifepS7e5T0ED82esBLZiHdwnX5iQkgo4QngLnNnsRqEaOHE1K396OSYVJu
+xGK
+}
+
+!procedure Map($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Map', $name, $tech)
+!endprocedure

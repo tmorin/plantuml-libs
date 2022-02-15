@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ShuttleSpace
+
+sprite $ShuttleSpaceXs [12x10/16z] LSp50G0X34JHMLVu_LUBwxl4en62CMTJPE0zer1ItNHYT9smJ3_fUHru
+
+sprite $ShuttleSpaceSm [15x12/16z] NSt50G0n24JHkCFllzfrpRkXOoPr3FnRifNWdf8MDbVDX_flcVY9WwyEXSsuvFsNrBvntrmnDzjRDeyL
+
+sprite $ShuttleSpaceMd [20x16/16z] RS_50G0X44FH3Exflzfr1Hx-Rs0gwnIbIzI5fFwsUZOsUHjPaZcyQLVBBVkz3KhVm14A1q8oijSKydvwVLFOLRgOTsdyXyFB7ItXHo3oBoi
+
+sprite $ShuttleSpaceLg [25x20/16z] {
+ZT350KCX44NHznqPkFrN6_TWPmdZgfjsRTjKU0SPiEh7_lWWp_fot3vkJ9yCObWVz9QusT-sUqcAZj97ZbmKFknMFfS-Z28J5vwoJHIautwHYrt_3bXylDih
+jofSjrZk_h5fr1a
+}
+
+!procedure ShuttleSpace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShuttleSpace', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Rev
+
+sprite $RevXs [8x10/16z] Oq02_12IdvyFIF5mWzWi844Ea1GlK8ABWHy8EVcPW2HKCHWnyVE3s2
+
+sprite $RevSm [10x12/16z] LOm50i0m308pzzp_VpkOjbU9GjGSJro0nWaPHA_sdc7eL4UdeiKPw7koT6QPxYILcih1TlkSA1DpcXC
+
+sprite $RevMd [14x16/16z] RSZ50GGn581GOgF9f_zgrttdtO0ZYRTKZMSdhuARh0qhim3FcmpOvA6Pi0CQW1ikqDK28SwmgubR3I3S0MKnmSsYeDnK5PAkaBigGFU9c_Hm1W
+
+sprite $RevLg [17x20/16z] {
+TO-50SD03CGKvcZ_RMkxJ0h-mGF_QFdWED_irM3cpcQnFD8wSkmDGto3rKTT6sYKEtrwYpt1L6-5Kohc0GnE9R8QjD2wuFachCzAVliGLljKvedWS7rRjZC4
+DdUAz5BWr9PWDeNxuKBr8LJeANnm0G
+}
+
+!procedure Rev($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Rev', $name, $tech)
+!endprocedure

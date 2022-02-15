@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Superscript
+
+sprite $SuperscriptXs [10x10/16z] FOa50S1030Cpvfr_jK_b1XMpXu27hvDs6kblUBL_QQ006q9DQCMIEVgS2W
+
+sprite $SuperscriptSm [12x12/16z] LOg30G0n54DVxMR_QS_yZ7WgcmSspQ41I0rDeZnUcHqpXGHfF-YuPavs9NANf1To4JEqys6ES0RoVd-r0W
+
+sprite $SuperscriptMd [16x16/16z] {
+NOw54KDH40BX-zFjlziCyMH7pW_qpJ9_oW9sRmg9EtX0JmqiwbWRRD9WhhhNQMGpxnwxdGchf0eyRuU2xOGpxG-6dmPSKDvbPQRdvtA3nukgCE1u-mjBmYV-
+SmC
+}
+
+sprite $SuperscriptLg [20x20/16z] {
+bOv50iGm3CHSHbl__-rEANHR5J9MoDRYSsjce7KxO1j4AfLKsm6uYG5nRrPs6EM0oHxtL6O1zuKRz1f6y0dykmCJ9qyIIqe1Z9P8iutg46ljW6WMRh1qGBtJ
+xuRsP0vIGyUKpg9FwN7zwUkRNEalVW
+}
+
+!procedure Superscript($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Superscript', $name, $tech)
+!endprocedure

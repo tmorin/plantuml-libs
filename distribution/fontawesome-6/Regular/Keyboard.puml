@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/Keyboard
+
+sprite $KeyboardXs [11x10/16z] RSZ50O1000F1uCxsNoroRlE9g6ddTa2dM3lcVaFULs-nzsp5g_7-V7KWKFG2
+
+sprite $KeyboardSm [13x12/16z] Oy096FcH0Jj2WW_8uMVbuMFXP-07SeYMOO2O1E9m8cI0If40YWi
+
+sprite $KeyboardMd [17x16/16z] XSk30K0X543HcrtxJ_jjdlZ4FvjFf6rNbPCnaHh3ycvyfeG9H8AIupCbX4AZ11ez9_8q4lmsSZ8dKfxOBT5cOVvUHaIx07d2JGy
+
+sprite $KeyboardLg [22x20/16z] {
+fOo50GCn4CCSvdZ_RTjdPWMFXEzKRl6Hh6kQ0ZQ4Dfk9H7WAIrZAFbk9mlzV1WhVP4yCBZRRHEXcYuKXjeOm6eHiDiPzvctU0J7BwZemz8YD8LDn3zYo8Kay
+u0S
+}
+
+!procedure Keyboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Keyboard', $name, $tech)
+!endprocedure

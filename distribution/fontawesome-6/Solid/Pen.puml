@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Pen
+
+sprite $PenXs [10x10/16z] Ou02FXY3dvyVmc06ig0YG2Q40MJ26FpO6Gnm1ZlS9
+
+sprite $PenSm [12x12/16z] Ou01BdOuav-VdnV6vWLoOAACl50s7p-8mmHL2rA1O3AXCNaHJ0Oa9WCIavkVdmzc7m
+
+sprite $PenMd [16x16/16z] dOkr0O1G50E3E-m_xTVd9TT53eRpXkKhcFXyhdXxeUUd5H9xCTAvkIy6NIlZZxZuY10HuYXHvbSJa04
+
+sprite $PenLg [20x20/16z] jT2r5S0m00FH2tEq_xHXiAtQAl-xIiGRrv9aEjOP6IutXbL5QfAQkmn9Trb6T9KntQMHoXnKVrJyxrW5Jk14P_V0AaqDyNO
+
+!procedure Pen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pen', $name, $tech)
+!endprocedure

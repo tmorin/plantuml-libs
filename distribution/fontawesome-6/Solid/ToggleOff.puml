@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ToggleOff
+
+sprite $ToggleOffXs [11x10/16z] Oy01-A40oE9WO0I9yF6pytFoy_D1PFb0ac0c4n3oSuAPG76ORcGJ4
+
+sprite $ToggleOffSm [13x12/16z] VSd50ODG00MmXplPVzl-kfDhSc1mKoUBhJthQ68OxJdRpG8vGmyvqmkM59NOiWuv8othKcoS5sThtfq
+
+sprite $ToggleOffMd [17x16/16z] ZSpL0KGX44FHF1S6Rl_LhWJMzNoDHdyPKzW-r9OxaWQ8QRJP4nYLageWzuGuwMGG38MJB4j0XyasTgRWfAKK1BeTr2xKjSWE5Wd8oKhBpbojglf6xnm1
+
+sprite $ToggleOffLg [22x20/16z] {
+hT0tTiKm34L1A4jCi__LEb5qgXp-TBW7rOk7E7nIbXvzathKZlMsNJrdpeXjYg6n12aAZ1xKWxX06tMd4hfHPsZVwqJcUrsOMMPmZTeVMwoDSyIL53lYawtV
+2KhkAipVnu6u7QKEQOrVUWO
+}
+
+!procedure ToggleOff($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ToggleOff', $name, $tech)
+!endprocedure

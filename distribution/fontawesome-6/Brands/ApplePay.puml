@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/ApplePay
+
+sprite $ApplePayXs [12x10/16z] ZOl50SC008Heuyh-qyRTJr_mIGKe0F7q9WMbWWNMTOd-W3ojgRRSdLe
+
+sprite $ApplePaySm [15x12/16z] bScr0GD10C0mFno3zvysJ4r8hVZJ2jlAJTeIn4KkcWe1-sQXTXMKe4IvBIxYpgl1gtNXioC
+
+sprite $ApplePayMd [20x16/16z] hSe53W904CNGhklCl_zfSISEZR-K_rSYX9HuRG5zDcNkwLIc5uBOcmtBpyRPsZI2rORspQH5aHo5oTdw-GCH75k1QTkvsb0tilXgrY-AcPyw0W
+
+sprite $ApplePayLg [25x20/16z] {
+nSkrWGD140J0MZxQc_oZVGQHBPKrqEtLbenSIdQj1CpumBzrBlkipCOvo2Ia7f_Iz-FOnkTo3E8RviWjSa_MhOPs77-FYCXQH6n2j1HVc0tYi-7emLUb_ZsE
+xTo8YIvNr0HQoOL87idpz51kdkCT
+}
+
+!procedure ApplePay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/ApplePay', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BellConcierge
+
+sprite $BellConciergeXs [10x10/16z] Oy01UFXPe2n-Vdu83GRi30pC_1004e8n-M201o461m
+
+sprite $BellConciergeSm [12x12/16z] VSQr0S0m0C0mbxd-_zfYQ8ecKQEIf7Q-UCt-6i08plGMavt2RaRX1W
+
+sprite $BellConciergeMd [16x16/16z] ZSgr0S0m44FHSvZ__jE6IQhyEa5agQPf-kSEq8F4daDzfyHjkJ8VYpJdMmwTvLbo2hEWeb1XDW
+
+sprite $BellConciergeLg [20x20/16z] hSs35S1044NHzSIl_sfZM_Tm-DKFQAnw6U3KIeBPhjN2OcVW5_zxCjoDXY3BqkfoUAbXi-XtUg5OKtiojdo-aQcRAW
+
+!procedure BellConcierge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BellConcierge', $name, $tech)
+!endprocedure

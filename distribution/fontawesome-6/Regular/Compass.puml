@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/Compass
+
+sprite $CompassXs [10x10/16z] 1S450S10000Xvhxht_O1hdPGYwEBNj0cA5qBrQwGUFP35Kaxv0g4hPvY
+
+sprite $CompassSm [12x12/16z] FSY54SH008LGJgD_wR_Qs0fZR-1kSwQcMQ8F_zpj3iua2BnLSClDQXUmu1US0tKZCkkFwfsQ4vZA0X3L-vu
+
+sprite $CompassMd [16x16/16z] {
+DOh50GGX0CIoYfF-gpr1yXbby3JBmQOv2ICT6eUfDW1bSLkXxNXaNa_MEQhGVGGegXrUvzr-wWkeutpW78g0gdNaGpZSCOkLR7yPs7czsLI1vhlZT7NUitiu
+7NI0Bm
+}
+
+sprite $CompassLg [20x20/16z] {
+JP1NWeKm201vQdfWxd_RtGG-64sZWmJ3s5KIZK1V2G1xGpL2n9QWmCmY1yg_GnALUOI-d0tyfDC5yzJ6uNeFtbHDlJ9pLwE8UXXrSu_QMEUws4JutV0mHgLv
+9oGNkEN3zbuVL9GYysHqxli1aLyUqPcSnyaYEPxT9Oz6xaYXoo2xT2vQvF07
+}
+
+!procedure Compass($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Compass', $name, $tech)
+!endprocedure

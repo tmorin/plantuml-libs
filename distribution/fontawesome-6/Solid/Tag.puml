@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tag
+
+sprite $TagXs [8x10/16z] Ou02LduW0DByO02YmKmedv-R2SfWu8QfW59W1iGCRY06
+
+sprite $TagSm [10x12/16z] HSP50S0m002nsyhiNsqPyWfF6MvAcaFrnh5OXa0vt7-BkoESG3o1T08VG0C
+
+sprite $TagMd [14x16/16z] LSe54W0X241HOCBM-vzsG_gRRnHoStyjOgp3bQkZLH6WyJkmsESJgacdK2AKf4W4fi58m1LxOHfYBm
+
+sprite $TagLg [17x20/16z] RSpL0SKW04FHu0xxJ_kaHTFUlnm4ZxIzqcERrYiTsYmn_AI3WRmbTd3GRKax2ZzWgIHE4bHu1X8D86pRubzSNm9TvkwbQtki4ct0P8dtlW
+
+!procedure Tag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tag', $name, $tech)
+!endprocedure

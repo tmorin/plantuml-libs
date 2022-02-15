@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BusinessTime
+
+sprite $BusinessTimeXs [12x10/16z] JOY50O003CEAE_d_MdIMMLP91o23z__DE5CXNGLWiWmwZFvncI-yY3mt
+
+sprite $BusinessTimeSm [15x12/16z] LSc54G0W30J11FVllrlS5hq9DMWoRIavvo1cI9cyb19QYbOPLsiyv9lqGpEditB29ANabXv7IyIRj9vSXinek08
+
+sprite $BusinessTimeMd [20x16/16z] {
+PSq55e0m40FHu9ObzxyjBukt7nygi92D-DXqQl6YO6zRIOdc-_WkPUzy5RggJKw_Dc88DlXJmfwQEosIGYdRw2se1ybkS-j6VGnkiSMthTsp_nknNnFGFE3e
+T
+}
+
+sprite $BusinessTimeLg [25x20/16z] {
+ZSp50OLG44FHuCxjlzel3Fxqx4OIRGPCfSk-tnLwcFV5H9bnm37gRy5XCJogm67r7YRjdFf-XR6G0zEetTts8pyrPjMcuqVpVy5k3-o7btK_IFx3F3aHZPmM
+Rfg2Go_krBBJMxNQlxu
+}
+
+!procedure BusinessTime($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BusinessTime', $name, $tech)
+!endprocedure

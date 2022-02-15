@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PhotoFilm
+
+sprite $PhotoFilmXs [12x10/16z] JOkr0S0m4CJ276l_QOrFgWwdoiMWQQ9-5nBmm38ou4XLsskfiZ5oPvc4cZVDDDw3gWi
+
+sprite $PhotoFilmSm [15x12/16z] HSs50K0X24NH-pjKtlxJsd7i02XUTO52KpyoZiuv95yUnbKPBtoIZ7Aa6gylpNXTVl7vperYktDkX_evEuGE25fsI
+
+sprite $PhotoFilmMd [20x16/16z] {
+POm54WCn4CCspEl__xRrkLo5DQEOE7ZJf1oVl5pT_yu2W2mtrrhH0UR5AjtXHeUz_FLpwd8cL1UwfrAjjfjGVPmE_kJP3lmHBQOt1ZaorXrUrHhPi8HqkUFm
+GtYzNCCt36u
+}
+
+sprite $PhotoFilmLg [25x20/16z] {
+VT650O0m00F1u5B9_jDMWylXF0wauLK7uTtpX6S0t5zeUuN595CEpFiDO4jOwxm4sde5Yjk2GTyZqSKcM0M87iBqleOMEqe9Cmx3EPZniExt09zCvrDOURLg
+WOThC4LRWkvHaGtqByYrTNHjHVRj7kuKEZuXYm
+}
+
+!procedure PhotoFilm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PhotoFilm', $name, $tech)
+!endprocedure

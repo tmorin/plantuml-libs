@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/DeleteLeft
+
+sprite $DeleteLeftXs [11x10/16z] Oy05-A40mU87itWOc9Zu-Vd00imCC55sHYu65BN89Y
+
+sprite $DeleteLeftSm [13x12/16z] Oy0B-640cSqFORFpyRC0AOWu7mCB0uY2A605ic4ox0my80PSFo-wQUZs8
+
+sprite $DeleteLeftMd [17x16/16z] ZOo50O0m40CFTzX_MgpkJVLZrA7VDTfl7YyBtlmH_VyUxzb-ebF2DN5-7oixV--fY1MXAST6HoEpb-mwHOTYh2u2el49Q3K8y
+
+sprite $DeleteLeftLg [22x20/16z] hSg53KGn0CDGbxdPVzfZPlWMvYaiLDPLUOT5D-sV3pJfNa-OQ99bhwTdXscnskPrgi41DNNEmM5oYGR6Na-SCAgmrnDtBwc6ewBBJceUAZnMqyP5pV15Qm
+
+!procedure DeleteLeft($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/DeleteLeft', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceGrinSquint
+
+sprite $FaceGrinSquintXs [10x10/16z] 5S450SG0000Xvhxhd_O5u6ZrLvEjWsv_BRBWrJ4fZOg_tRLkti7yI9QA7FaBIrt55m
+
+sprite $FaceGrinSquintSm [12x12/16z] FSQ5hK81542nVi6vdFst9KyRgyMhEwkQnnHqjNXtbXbv3VhNaaPH3rcyTHz-y4kY1UdDgmVTQ2pwmBIuyGK
+
+sprite $FaceGrinSquintMd [16x16/16z] {
+JSc55GGn203HMPS0qt-tzpZ_2GvjIyV4H_foq2OzQM42A6-h0IbVkpEUUD7ofjm4T2Kis4rXwtPMG0MXBG4E-USax6gfS8i1PJl1OdU5FHqpX42wynBTTQck
+jv_3hAq07W
+}
+
+sprite $FaceGrinSquintLg [20x20/16z] {
+NOu5Uc112CRoN27tF-rkoyVKClhZD5VwxlpWi8c5HisbNTSmlJIRtdzCfJOusZJGFbiRykNqn8JTibvQWPTBlQwyEjS_hO3uL7iPGokSvdpXyPK_fBi7p7bE
+mFe4e2Wi3c0s23VO7ARIS_scAuq3EBGdROO9RZqfvj25ObED9rLXS5h4Lke_
+}
+
+!procedure FaceGrinSquint($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceGrinSquint', $name, $tech)
+!endprocedure

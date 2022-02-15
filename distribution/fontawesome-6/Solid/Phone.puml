@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Phone
+
+sprite $PhoneXs [10x10/16z] Os3WO800VY20iBZWB0Pa5WECXSRaPuGo-O0OoeIfuGIn
+
+sprite $PhoneSm [12x12/16z] JOl50O1G5CE2Ezb_MlJBwwaMQ4-I3dK8tkJxu7di7ZpKqq8OUcZwIgWRq9YKbkhJT0C
+
+sprite $PhoneMd [16x16/16z] NSs50S0W40F0u0xxJrilBq4F1H0dA75TgUIvxf3RuxZjbphmC4bRKEfb0yW3tFdor0VcCmv3Nx2FpQBWoLI6LmRimtO2
+
+sprite $PhoneLg [20x20/16z] LSvL0eL0509GR9rY_wjzuHISpvlWvoumQ-4V5AiL8jTQW0Yi87PM1mGhAFdX1-7M-jRPhXNXdbaa5rGZOU7FfSLIDEj2WofxhJevP7jVFH17vD_s1G
+
+!procedure Phone($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Phone', $name, $tech)
+!endprocedure

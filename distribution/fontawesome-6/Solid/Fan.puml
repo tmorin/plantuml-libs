@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Fan
+
+sprite $FanXs [10x10/16z] Om01FWOeuEU7CH0iC42m-3d1V0Y19ecf6ym
+
+sprite $FanSm [12x12/16z] NOo50S0m3CESyKh-_zeoAup8E3H-ikSSkOhvPxwS6nOavW_fcFYpn-JhjTJyHAxE-UkM9ny
+
+sprite $FanMd [16x16/16z] NKu50W0G4DFD_lzQtPCBxiX48ZS0t3IzdEFbhd7bWvayOC4UVq2POBW04bs9SJ0o-Jft2NiuwuBQd9C1oYdzMfALfaNcB_JYST42
+
+sprite $FanLg [20x20/16z] {
+PT350SKW00DGt27xJ_k5DcXEwIik6DqiAmM0Fmo_s9kWDxBTv6Qfcqqb1qKhc2clPInfZmMi2GKrnzHFKecHHOXPMMhedyguiA_FCxOfyov-CqPgzPw7mllT
+Lkvdw5kvwrKhD_W2
+}
+
+!procedure Fan($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Fan', $name, $tech)
+!endprocedure

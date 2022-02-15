@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HockeyPuck
+
+sprite $HockeyPuckXs [10x10/16z] Oy06-A60cnyEu69y_0XbSC23KCS4Oo
+
+sprite $HockeyPuckSm [12x12/16z] TSR50G0X00EmdYjq_sbnbxo2gOVUXPNPKnnRwa8a1mtnt2yRA8_rSxaNb3G
+
+sprite $HockeyPuckMd [16x16/16z] bSp50GHH309Go7VllzgLSPTtYm0U41DIJbxpFp2tMO2qjRgPiHup88k9Q0PBNRaN0g1A_-5rloxJb8WUHOGuyWK
+
+sprite $HockeyPuckLg [20x20/16z] fS-r0KGn0CDGXpdUVzg3puolL2Uy8rncfqRJ52uaIAvKRb1SgL3hzAD2PIyx0J1WgP8iJg4ZJEHrcMieN79OtcMqj8-vb9A3bRZX2m
+
+!procedure HockeyPuck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HockeyPuck', $name, $tech)
+!endprocedure

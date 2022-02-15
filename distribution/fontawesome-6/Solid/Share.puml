@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Share
+
+sprite $ShareXs [10x10/16z] Oq03_0WMFoEGPE870suW5mgOO0mM80Qg015iO6rG0Wxue3G
+
+sprite $ShareSm [12x12/16z] PSO50e0m3C30u4x-_rfS9jdQ7dcMlxLxLDRg3Co-uL_varK7u2IpSldQoxaBpbRvcp_j
+
+sprite $ShareMd [16x16/16z] TOs50O0m40FpkD_-q-9Gl-fReXBr4CORInIp_O7LpHd37GmuJ28W2gcYyded7ttcP_hpwyzdl9-JbUP-ePNFmgW0DeMO7nm
+
+sprite $ShareLg [20x20/16z] XS-r0S003CH0XJdQVzemutLMvUT7oZqfLvaQtfi6xC8uBXsboztghhgMKKta3TuKeLSnbQCg2PPVZC3rgQKnQDM4jRNhIBUzDREz4R4ebHjDkR7bNmy
+
+!procedure Share($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Share', $name, $tech)
+!endprocedure

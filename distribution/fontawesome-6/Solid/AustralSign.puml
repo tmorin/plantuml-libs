@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/AustralSign
+
+sprite $AustralSignXs [8x10/16z] Oq02_12AavyHmkNaXz0W2Jv-202hOkHdu8RnmOhv-HYWQW4
+
+sprite $AustralSignSm [10x12/16z] LSR50O100C2muaxtdnOzpIlKZDdjmrG-dNnh6ctSc-OqWaF0biE8sVvbZ_9oPURJjpS
+
+sprite $AustralSignMd [14x16/16z] ROw50GD13CFiCYJM_jEM-wo3C6W3zzI2oyn20mNi9g4ZG-MPrYyr2IJm-ZfCaHrEjddzSXNKYuQwDrDqWCE7AzbhJuQfKd4ODh9a_R6U
+
+sprite $AustralSignLg [17x20/16z] {
+TSw50GGX34JHmPtVVxNdmjh3DT6LOBNXG1k0ry80Q541xEP5WQeV3wQkRs3AGdWVRiq9MygbG2yFC4k9aY8OFHHuzriDjkGc-BS0qKXBYj3_N_w-jOmrPHtS
+0G
+}
+
+!procedure AustralSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/AustralSign', $name, $tech)
+!endprocedure

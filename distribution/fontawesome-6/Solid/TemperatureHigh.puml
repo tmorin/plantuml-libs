@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TemperatureHigh
+
+sprite $TemperatureHighXs [10x10/16z] Os1WvMK00duW0W8m2UHmW5XWo0KMWx9008q5P4ArWbbC_0niG6cu80W
+
+sprite $TemperatureHighSm [12x12/16z] POg50OGm0CJoWiljlot1BT3s31Whf1dW5u68ruUe2zHzlsZPjUP_QBdhJhsQFghohTruDbqbkvm
+
+sprite $TemperatureHighMd [16x16/16z] {
+RSVLOGKm3C10XGknjV-qxMF-kmDgRW3upWQaQWTKWwRZMs6PNTcEMKAE82HjkntVDNmuMnqFfrHuF7ouns_ZqcuI2xqyxJzQy_hjNChjHQaqhoSrKiVrX3xq
+7m
+}
+
+sprite $TemperatureHighLg [20x20/16z] {
+ZSkr0SD00CLGsJucxJzjcAkyyWD0NFFWhjguyce1x5uTZqW7iFIAGpCq1JGJbQJqiZ-oH52oCjezMphyoGwlubV6rcRV-SmU_i_wCollJCSbG-MfAKK3cdXG
+KISVvw4ihMZcOTT4JZJTULBhVdHTl6m-y6ceDjxE
+}
+
+!procedure TemperatureHigh($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureHigh', $name, $tech)
+!endprocedure

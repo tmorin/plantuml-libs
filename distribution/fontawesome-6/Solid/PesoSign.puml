@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/PesoSign
+
+sprite $PesoSignXs [7x10/16z] Ou02VY00Ka3CmG_YWFaW4KP-FWIFbnzP9GES0W
+
+sprite $PesoSignSm [9x12/16z] JSZ50G0X00F1uCxsN-svC9-8FfpCLNg78WEjDMY9X-Zcm9ZB8ncGdYqnlDE9hbiokkm
+
+sprite $PesoSignMd [12x16/16z] JSsr0KLH3CDGN_eOH_jF-vXEfKvwAhc8ffNPrQtVhOs4eWBnNm1_SrFogYlJ1Ra19pUPKKgf499n18lxzTV-whrgOxfEGTEbw3G3
+
+sprite $PesoSignLg [15x20/16z] TSxL0KCn243Hf_5mzv-sWjHx_d2MJsUwEoB2DGqpGJpKj6YyJkWAw9Ltcy0q0jrdOyl1An7UB1sg0cgAsHCOBrzfz1AUiVuuZdrzkHQ-mnLP_he2
+
+!procedure PesoSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PesoSign', $name, $tech)
+!endprocedure

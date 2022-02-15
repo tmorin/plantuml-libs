@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceFlushed
+
+sprite $FaceFlushedXs [10x10/16z] BS450SG0000XtcLo_TFE0NwzGJry-j48UkdMmvH-ZvgfSXtU7q2Y8hz0UDLGh
+
+sprite $FaceFlushedSm [12x12/16z] FSR70SCm0CGmkgkTkF-qwJ5UuArR-DBKwASdRyExaE0ssy0YzhXFQN9gBGSYMInXFO428bHr-Np0lk_W1OOt9q1yk-09
+
+sprite $FaceFlushedMd [16x16/16z] {
+HSMr0GH10810RjtflzftcG1uoTjvyRLzgpnTsdXQRW3b8xbWoqynO4ign6UFMIIMy-egRZ6965zLpEp-QiCf73kVUWb_GroGV08y51EaXm1BO5juMvRtplD3
+2o_1bmDm1m
+}
+
+sprite $FaceFlushedLg [20x20/16z] {
+JSa5bi0W303HWTHBcFkVTeLN-n3didVRmiVg9OEBskCwxGpQkCnwV5ONdM6ryQKZYXf0QhAvOIzkPJKuZ9eTtOtDOlG3EIsYNJQhKuvTBv8grPbmeWaffqsO
+rHLecj1TnlIbAC2w_mkWcgGpuD1Wp5M1Elq3LWLsXSkrWaCtXfeQ3BDgdbsLn-QGC_z-0G
+}
+
+!procedure FaceFlushed($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceFlushed', $name, $tech)
+!endprocedure

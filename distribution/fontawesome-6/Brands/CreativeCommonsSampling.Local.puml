@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element CreativeCommonsSampling
+include('fontawesome-6/Brands/CreativeCommonsSampling')
+
+' renders the element
+CreativeCommonsSampling('CreativeCommonsSampling', 'Creative Commons Sampling', 'an optional tech label')
+@enduml

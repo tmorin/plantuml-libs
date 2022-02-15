@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Behance
+
+sprite $BehanceXs [11x10/16z] RS450e80002nizlz_xLs0bkJmB8bKNH7sUJjE5UefGrGf81Qi-xh2W
+
+sprite $BehanceSm [13x12/16z] TSg55O1030FGm3kNPlzj2Ux_j6tmYvIkZtDEHIccQYk0vSfMzARKzTVBJSOQME-HiXVW03Wkgkf6Ud4GLmDk9W
+
+sprite $BehanceMd [17x16/16z] XKr50i0W31lkxVz_kxJOaKo9VazOXRa4B-0t4r43GRLsvWopzzw1Q127lctotoA8exo0tL5mnilpGO2qDYGIjdSJ8gjZbxPDTEA598KTyefPg5xNtlW1
+
+sprite $BehanceLg [22x20/16z] {
+fOu54iCm30HbPkl_l-tLF1vgamrwXVIQqib1d9ON6YVT_ffDCIPyAgpGNvfLeuOMbvK5toAczSmE3RYpfuLMKDixyoAJP9QmjXrRtmA3OsDRZMHtsLQMTE-m
+DuE0OIxu3tnGMa6RRvRqjCPRkf5QqNzy
+}
+
+!procedure Behance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Behance', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TeethOpen
+
+sprite $TeethOpenXs [11x10/16z] Oq02_7300yGC_9nW4Q0u0mk8uEE6CxcmQqEevMJdv-Jd01d4nezGm04
+
+sprite $TeethOpenSm [13x12/16z] LOk30K0n50ElThF_jD-yPuGVJG_UQQDBuvhbA316a18OjjHXncPIDCsQQOtuePU_HesSw9O9-hrXnhpeh
+
+sprite $TeethOpenMd [17x16/16z] {
+PSo50SCm3031JqmXwVUVjimzimNyM_Cj6lWjLw_wqBfvjpOtY0fc3HNQ2di10KsOFpymq-lAn-9FpqynTqlPefHSIh6M-jzKOGrmW1EJHKCZzV2s2Bzqc3x1
+6G
+}
+
+sprite $TeethOpenLg [22x20/16z] {
+TS_L0GCX403HESDX-kysN_6zXplBdVJZ1BB_mC0QgZf0A_XoNGfS0ibn5bNW43XVrL81lcUhFPXjilpNxaCBWZCmH_XQ_3Cz8Bb3SOCkiCnQgrgwceUQfcAW
+WdyAiGS
+}
+
+!procedure TeethOpen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TeethOpen', $name, $tech)
+!endprocedure

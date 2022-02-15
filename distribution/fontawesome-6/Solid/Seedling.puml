@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Seedling
+
+sprite $SeedlingXs [10x10/16z] Oq07_600PJ2227OG0UQo86IWgfc1B1Z0oG8
+
+sprite $SeedlingSm [12x12/16z] Oy026Fdv-PcPcK1CRduWu09YNWPsVX1WG90C43OtBuW9vS2CO0Qp4GOIPZFmW4a
+
+sprite $SeedlingMd [16x16/16z] fOe30a1124HdxRh_QRzjl4KDS85AHBDot99B3ggLcJiYjoYuGQAVHlOJWsQKNaACHbjkKOEUeLdFblYb2sFD6DS
+
+sprite $SeedlingLg [20x20/16z] hSt50GGn509GuXxwhtPrtEqTlm0EqDPQ34d-O21n8E0hyw_4RkhOq8ADVWQmaL7uLJ5yaNrfQOSWYmP6GubM_suneZ99ZoaoF3oRTsGgR7W3
+
+!procedure Seedling($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Seedling', $name, $tech)
+!endprocedure

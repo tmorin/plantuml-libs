@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CruzeiroSign
+
+sprite $CruzeiroSignXs [7x10/16z] DOM50G0X08JuJcN_QMqlW9bLNNazE4LgxYu_L7Rn15oQDdqLKCa
+
+sprite $CruzeiroSignSm [9x12/16z] JSg50O0m4CNGZplPVrk2zrLEKsY0qMXOVSOgCcaCciaDVCg0oPx6VpAvboQJ5ZCkqR1DLGu
+
+sprite $CruzeiroSignMd [12x16/16z] NOt50GCm4CCSvcZ_RTj0KQy3W_vnRHIpfyJ1IXrwz1bOLtlV0lEsqTyHWo2PqSTp1YVD4rD9Q-wPzPXhFb6GthE5ikU95006i1nciYWw6BFA7m
+
+sprite $CruzeiroSignLg [15x20/16z] {
+RSx7WG9130LHpRItbN-qkw2FXxgzjhAVnPpZ0njlEmgFgZJjKWSi0ATvnzgsGL2GNrJVDtNsO46xddLcqFlppZdfPX5EfoaOh-oGHGKqKP_YrGNwT87QXsRV
+hjC--mS
+}
+
+!procedure CruzeiroSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CruzeiroSign', $name, $tech)
+!endprocedure

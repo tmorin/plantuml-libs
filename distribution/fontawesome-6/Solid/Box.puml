@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Box
+
+sprite $BoxXs [8x10/16z] Ou01Fdv-1dv-DY3c1s4EJavE1Y3c9n8mG6a
+
+sprite $BoxSm [10x12/16z] Oq00Hdv-VWOG1X8G5ZUSnOzGnayou86p6BZv880T
+
+sprite $BoxMd [14x16/16z] jSUr0G0n30J15OI2_gjzHkSUuJ7msh1D2aZlE3VzIVvBRIVEapyzdVmIo8iL
+
+sprite $BoxLg [17x20/16z] pSY50S0W34JHN_VU_jDMSHY05my5m_YWVtl7uz2hNVu1hSA7O8yV7OeVnxpyci4iRKgrcfJWK6GWTGC
+
+!procedure Box($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Box', $name, $tech)
+!endprocedure

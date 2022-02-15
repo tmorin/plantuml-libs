@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PenFancy
+
+sprite $PenFancyXs [10x10/16z] Ou027XOeWv-V7yg0iRY136OGWnacmWMKH2W1ivZXB0OeYnd6O
+
+sprite $PenFancySm [12x12/16z] HOt50O1G34DJtD_-qm9VarCRLGVz2kWFladm-VWyIcnUOKdNm7-iKVNR3PVw_NXb5NUeu0C
+
+sprite $PenFancyMd [16x16/16z] LSt50GKW30FGuaxsd_OB6d9xLU6qmj80SAdm6jlCija7usOTT9jfKE_BPMpJPfV1UxXlYKDpxryZZHrK0zaBc5fGbTny0G
+
+sprite $PenFancyLg [20x20/16z] {
+VT1L0i0W30DGsiujzp_jDjp9NnwEAd8zKo6CFqTkC2cfDDHsELeYdOuaqbgJTFT_8j111gyWZwx4m5xUYjGolAdeumlRTTlyaVu4rfJz49YWmv64pMQhIaA4
+e_pj3m
+}
+
+!procedure PenFancy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PenFancy', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Square
+
+sprite $SquareXs [8x10/16z] Ou01Vie0J3y
+
+sprite $SquareSm [10x12/16z] Oq00Vbe17ZYBWPiF0jW1
+
+sprite $SquareMd [14x16/16z] Oq05h7nmmCl8nZyq02CAZu614G4O
+
+sprite $SquareLg [17x20/16z] Oy04RCY0bO617nNmyl2F9C2EBi30YyfdnGX
+
+!procedure Square($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Square', $name, $tech)
+!endprocedure

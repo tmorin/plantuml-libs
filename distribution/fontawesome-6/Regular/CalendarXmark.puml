@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/CalendarXmark
+
+sprite $CalendarXmarkXs [8x10/16z] NOV50K0X04BV3plOVrhx90qau1dMS2Rg0WjcjD1gg_DpMVtXC2d72NK
+
+sprite $CalendarXmarkSm [10x12/16z] VSdL5S0m34FHLsPf_sbBElxDJSp0_eRuED6vQIRqTlk9kx_3laWdR-asrJKqkpm
+
+sprite $CalendarXmarkMd [14x16/16z] ZOl50S0W40GtRi3qNoqEzysWjwACbzqwAFTE_JkFovHxFVZFQW0owdImo34c1HpNd0IVvlGHsCQqSofORosdJmPbDX8
+
+sprite $CalendarXmarkLg [17x20/16z] dSf75a8n3CNGzrjwhFslbWvsfjoXZlHm3hsOFYPwIfnhoBo2iIYDFym8G57zX4CFkuT2bS23e1Wj1053CHZa68m9oKDcQ0SFUksN1rVfp1Q0MBKx
+
+!procedure CalendarXmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarXmark', $name, $tech)
+!endprocedure

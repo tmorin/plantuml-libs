@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CirclePlay
+
+sprite $CirclePlayXs [10x10/16z] HOgr0G0W40E3GtNxJul3NnFLf96rODEUWRJSIMqv9GwIFEJjk9zubcQNTCq
+
+sprite $CirclePlaySm [12x12/16z] HKi55e0W55EwkVzjUJyt1POVOTxs2Qu0b0JetSJhrrXCveYhpfhmG1vhkfWxAbQ7LjlS1m
+
+sprite $CirclePlayMd [16x16/16z] LS-53S1G30FHAtEz_xQLcuzFb1Cw_9P7rq3sA6pOeE9rgt73ezQ8Z54AIpIiqK-qlIhu-RfApx8Xkgn0nbaMhMhH3re1xZPjRBxv
+
+sprite $CirclePlayLg [20x20/16z] {
+RO-53KGn5CFycGhxJtiOHIMB_J28A-MmKt1a4HT4BhYi2cwhWisx2b3RmcDtoaqmHz-nWqqk5GxSMhWvVmcbqm-x7PEViRiTMclljGmo3t9mzKgBp0Bwts1E
+NTpuyWO
+}
+
+!procedure CirclePlay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CirclePlay', $name, $tech)
+!endprocedure

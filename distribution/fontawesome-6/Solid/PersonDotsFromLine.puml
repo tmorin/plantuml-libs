@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonDotsFromLine
+
+sprite $PersonDotsFromLineXs [11x10/16z] HOo34G0m4C1gzxB_j3NoffXaAmw0-Qd_RN69uVPANSkMXsAkQaRlV9XHfqS7
+
+sprite $PersonDotsFromLineSm [13x12/16z] JSl50G0W509Gx9RzjxNZNNw2gNXS9DC_y1y2BgDkAqkj-Jx94-Adz7qbAwKdqQDrx6JFehEk4xr9_3G
+
+sprite $PersonDotsFromLineMd [17x16/16z] TSo50O0m34JHZpkt_xRaSEk3MepTt7ENAN0pEP2z0pcNyjr2fPca7e-mDjl7k5-slwpKhbkhzvPHeOcVsYy44I871vm2Cim1uzUibmK
+
+sprite $PersonDotsFromLineLg [22x20/16z] {
+TSy33W1H40JHNdoZxd_QjV6YIKKzEYICdZecHGyi-iyQFgjxLC-iqKFUuyDNio7wJYTa2hl6kQD3LhakDjbLe3ILXVVJRVWLMnQLQ2kJ5kh-MYUYP00rhVQQ
+F56JOo2RgAjcfqKNlrI-Z
+}
+
+!procedure PersonDotsFromLine($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonDotsFromLine', $name, $tech)
+!endprocedure

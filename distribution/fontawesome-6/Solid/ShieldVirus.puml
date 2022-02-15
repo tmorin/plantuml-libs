@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ShieldVirus
+
+sprite $ShieldVirusXs [10x10/16z] DOk30S1040GdThx_Qi_60ez1n3Oy05yzfWN-V2z8x22nTzn0MwBZh8D25
+
+sprite $ShieldVirusSm [12x12/16z] 9Sp50SH03CLGXOVLVxKB-UzYDYyX7lyEOAaErSgROL5HDw0cdpJOPlh0iMlZoavHGAVOCbPNDlD2TrwtkVa2
+
+sprite $ShieldVirusMd [16x16/16z] NOs50GCX40Jd7T_-gutS4XquDymklgXwSZhOzAOj8BFRP49BI34LySQJJzneU78yzGBBt7nH9Ar09qTfYNvclmtNohNjptPOzTwhpvtnkSkGoKp-Ge-u-Gu
+
+sprite $ShieldVirusLg [20x20/16z] {
+LSw73S0W44FHdzxF-syR-IWIBps03SsfcS7oo4wwJLrWqwL1xA3gHTM1x9Ok_B07sSI2HKv0gPTb-oVZkjqdst4jT1cqPbM6rJoWv-qbxmNUh2fwdQJrqK5e
+-ppDXfrg8Yc5xA9Izz4igWAhnbdL8scd-04
+}
+
+!procedure ShieldVirus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldVirus', $name, $tech)
+!endprocedure

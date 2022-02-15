@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/GooglePlay
+
+sprite $GooglePlayXs [10x10/16z] DKk53G0m26j6TDR_hyKQ9b35mXmQ1oNyGWLfGXMW46isKarC3TGkX2CG
+
+sprite $GooglePlaySm [12x12/16z] HOp50S0m30DJX_7sdxOKi5vYKus2QkLmgkDmggLDFWNNudHh2uiZ0amkjTe-VLjXRLt5hHzRy_wtcva7
+
+sprite $GooglePlayMd [16x16/16z] LSy56e0m34FXu4xkVrk-XxL5jlsPgrTzRAtLrhPc4tZC9d0NVe8ZcM3J4hPcck63APxrqrfzwFLE7UjjLCDlk00CcVWPjWhlvSeN
+
+sprite $GooglePlayLg [20x20/16z] {
+PSi55WD120JHMlVf-zyswIYmDl9VGTTpUmvDBCLEQK1JjQUqDXHpgLRCfRHcS-arsRjKidV9e2EOIqRlqGJlWM2C4vSyVFx9YJfiVvB55cY7OAQp8ve926QQ
+YMOwICyckYxJ0m
+}
+
+!procedure GooglePlay($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/GooglePlay', $name, $tech)
+!endprocedure

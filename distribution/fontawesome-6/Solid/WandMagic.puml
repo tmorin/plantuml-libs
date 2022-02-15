@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WandMagic
+
+sprite $WandMagicXs [10x10/16z] Ou027XY3dvyVnc3WHsVm4sJmmFKpm1a
+
+sprite $WandMagicSm [12x12/16z] Ou03VYGcFp-SoGkKW34P-NbW2fWGJ7va9Yy19gesA41Y0W
+
+sprite $WandMagicMd [16x16/16z] lSUt0G0X0CIm-np1-szB2Lu0TSge7YfmgoUe2xWSlNzKcDBgvd2Jssq
+
+sprite $WandMagicLg [20x20/16z] nT2d0S103CNGRzChsd_QD7JTCC8FIKEvQAm2fYw-HkKEWt81WpB08aMU5CoAlrMUbGfVFYzJdyrdRm
+
+!procedure WandMagic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WandMagic', $name, $tech)
+!endprocedure

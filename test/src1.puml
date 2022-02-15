@@ -2,7 +2,7 @@
 !global $INCLUSION_MODE="local"
 !global $LIB_BASE_LOCATION="../../distribution"
 !include $LIB_BASE_LOCATION/bootstrap.puml
-include('aws-20210730/bootstrap')
-include('aws-20210730/Architecture/Analytics/AmazonAthena')
+include('aws-q3-2021/bootstrap')
+include('aws-q3-2021/Architecture/Analytics/AmazonAthena')
 AmazonAthena('AmazonAthena', 'Amazon Athena', 'an optional tech label')
 @enduml

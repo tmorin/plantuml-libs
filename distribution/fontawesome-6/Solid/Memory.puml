@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Memory
+
+sprite $MemoryXs [11x10/16z] Oy0A-1600OGOs44qWaaCOE5dukVd1kb
+
+sprite $MemorySm [13x12/16z] VSUr0O1000Immvtiloqb_kcINuExhjUEsesGIcePxYbehjo5KD7ArG4
+
+sprite $MemoryMd [17x16/16z] ZSZ50OKm44NH5_VS_glzmWg7Cpvwrlf66fm87dna-WReNrfgA43VFxpPFLvmUtsFesaWDX1BMMjbhLd6Kjhx0W
+
+sprite $MemoryLg [22x20/16z] hOY53GH1548Pzw7_ReyVFRVTbw0uZESJDbzJOYTJ76ICYm9c3b4DnQoHxAYFhxm_UNsb-Srx2dWAVoD6cUyo3BDDhhL2aBagGpCRqWzS
+
+!procedure Memory($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Memory', $name, $tech)
+!endprocedure

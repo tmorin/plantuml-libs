@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CarRear
+
+sprite $CarRearXs [10x10/16z] Oq02VFmWm0HayGCncEI5i_ZXW8iHJ350IB0CAuW95ONeG6O1
+
+sprite $CarRearSm [12x12/16z] LSQr0SH00C0m9yVe_QTzHbNYdm-BH-UT3J1njuGg3uS7_iA7WLeKS1UNN_m_SZVTbCt3iOyh
+
+sprite $CarRearMd [16x16/16z] RSs55SCm40JHFJDg-kysRyBqZJhC7zFPT7It8q-Bnnw6NXDuReovEHai9tU3lmkS4jJ8jmftkyKuqSqdSpfk1lUWbK_XmsoPrJgWVFNty-uvLRdpzm8
+
+sprite $CarRearLg [20x20/16z] {
+TSs50O0m40J1mvtjlreqBeFcLJNjQ0mkTEAr-io46htWb0Np-sbWSB43xCSPmRIs7cnlA3KlbAngC5pZj-RK2uRty7EnoFBO-0taj9BgD06zh1tG5-jSRFjY
+BI1dSgV43G
+}
+
+!procedure CarRear($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarRear', $name, $tech)
+!endprocedure

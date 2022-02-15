@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Gauge
+
+sprite $GaugeXs [10x10/16z] FKh50G012EBwUBd_j7Oh1I_AYoZ9Oe4u3_nd2rkhL_CwlZOCvAMVj-XJQHW
+
+sprite $GaugeSm [12x12/16z] JOo50G0X30FltJ_xJuj3UqWr8VFefA9AJykNKvwKJvE-b3-v_tybAJiLtfAlw5HYutCEk7nD_r4wXHyekwKR0G
+
+sprite $GaugeMd [16x16/16z] {
+DKu75iKW34gwdTp_jly3BxGgon72lJ0o2Wl6AvNY5wT5BJcyJ9KZfTaywETBpGMuKNrZOH-bnN35f1PR612-s2PfMVV2orcltF7KmnpNwwVc9_umjHGEgqt-
+0m
+}
+
+sprite $GaugeLg [20x20/16z] {
+RO-50SGW00E3Ezb_sXUqmhNO1SKWL6QB2uw3eZ3WXN1L5hMrSIiQbDbfUm7TUOWnsYv0alJWPUqW75mbfTWk8ZGDvEKq99d9s2BT4hfAMdRKvJspStbHGNav
+0yc612vnO2FPwowHLnGQvgAmy6mKqqPV
+}
+
+!procedure Gauge($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Gauge', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/CalendarDays
+
+sprite $CalendarDaysXs [8x10/16z] POU50O0m40CFXzVzfyMzyO02rUfSRKZ-04BI5TyzLyRrrIGa9HS
+
+sprite $CalendarDaysSm [10x12/16z] Os1Wu09YFWOGu8TWHdwyW8s1dv61auE13viOVbask1
+
+sprite $CalendarDaysMd [14x16/16z] ZOs52G1130Hphc7xx_RF3Vk1k2mLcBOdW-fryoOpSg5wQV0VANCn1IjbgOXoCO8gzi9SZPkzcyPmCGDNxE7SVAfRumC
+
+sprite $CalendarDaysLg [17x20/16z] dOs30SL044Jd8rfD_zN6TlBkraBDtz0Iw76s9kL_cSYwH711Bdo1kxSg68r70cZLdobGR1ENNEzOdtsrG-aYf8WOhV709L81
+
+!procedure CalendarDays($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarDays', $name, $tech)
+!endprocedure

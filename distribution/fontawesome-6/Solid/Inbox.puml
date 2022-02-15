@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Inbox
+
+sprite $InboxXs [10x10/16z] Oq02_130mC373-434GjK1iY102GM3pzK7LQ040O
+
+sprite $InboxSm [12x12/16z] TS650O0m0C2muax_lnPtjeGNJv3ORmQXaPq9oiu6QtQZoA6sqPQLksoH6ySmdleP
+
+sprite $InboxMd [16x16/16z] ZSx50GGn241HufxVVxMhu_vkEBAZcBHlp8BznMOGgBzs6O689wzYC5DSCT_SnD5MiO23xiRspj_siVhJUI1iOb4hyWO
+
+sprite $InboxLg [20x20/16z] fSxL0O0m303HmvtRVrhSspzUNHFYykefOUNBi5tpZSMeNF9zeICthI7H_BKdbCf3gqVte2dQVVOgjEHfjC-qBbDEPTbhV-H-y9Qm6_nhD8I1deWP
+
+!procedure Inbox($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Inbox', $name, $tech)
+!endprocedure

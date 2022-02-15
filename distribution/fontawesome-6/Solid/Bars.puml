@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Bars
+
+sprite $BarsXs [8x10/16z] Oq03tFmGW2xEXqES7qqS
+
+sprite $BarsSm [10x12/16z] Oy02UFbXW8451f2a6M603w4E2s3aXW5sBEe
+
+sprite $BarsMd [14x16/16z] VS6n0G0G3031Xmf9zjzM-rNkQ8mdDyhOikYaH9OnXCwu5cLC0_i
+
+sprite $BarsLg [17x20/16z] bS6r0G0X002nUy5j_srfSKcuPrB3fGRVNtcuzwTQZAc1DXN9lSVLJ6gzeUROoW
+
+!procedure Bars($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bars', $name, $tech)
+!endprocedure

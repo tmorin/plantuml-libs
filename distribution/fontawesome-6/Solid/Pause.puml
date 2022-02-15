@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Pause
+
+sprite $PauseXs [6x10/16z] Oq02_FpyG8oVv0QJ4FK
+
+sprite $PauseSm [7x12/16z] Oq01xFpy30py8C30GWh52D47DGK
+
+sprite $PauseMd [9x16/16z] hSQt0O0m0C0mqpl-_rf8dR96asZTxmZRUpmgc35qpAOlg8mZm3XG_G
+
+sprite $PauseLg [12x20/16z] Oo02CF7pytC3QI35nmy230ni80hAPXz8DZU4pGIck7bvMO3kvE3XPSVb5m
+
+!procedure Pause($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pause', $name, $tech)
+!endprocedure

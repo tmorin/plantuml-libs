@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/PaperPlane
+
+sprite $PaperPlaneXs [10x10/16z] DOk50S0W40Elxit-qmBl7g5YhaEg7TSdB5bqsf8BDEMb7NXT_i0TpY-j8QK3
+
+sprite $PaperPlaneSm [12x12/16z] HSor0GH10810Rjtflzft8Pe8_lMVWdwfNs-xrylTXH4XAbZ8ee0JPYyQyG0dGFeSV5-ENbz7rO-DS0tk
+
+sprite $PaperPlaneMd [16x16/16z] {
+LO-5OSD0303F_AZRVzesYLdCm1lYvHLzU8i-_4arBhzhDNMlncMn406mQMQqWGb63M0N8og00eD3w7AwhC8OsdQNSYgTzwMFon9OJn_Lvdhwkf1qFFtzpm7-
+0G
+}
+
+sprite $PaperPlaneLg [20x20/16z] {
+POq74iGW4CES7gh-_ziRprwwKp22qUgJiNz8WnUgy68RlDY4KsWFKMcqaNoW1gZGjR05sO552LpdGxHBgv4AOuYicF5E7ON8Cs3m2kfGNGSBWyMzxhegM3s6
+GWeq7sSZG96JqH6SDhlScCMmFLY7jSA3GUZAZIqwymC
+}
+
+!procedure PaperPlane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/PaperPlane', $name, $tech)
+!endprocedure

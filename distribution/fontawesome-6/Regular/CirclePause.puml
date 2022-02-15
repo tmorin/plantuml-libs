@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/CirclePause
+
+sprite $CirclePauseXs [10x10/16z] 9SU55S10409Hufxflzk3n-f7hejTALXqS1blyoQaMPjvBJw9UAjdFweULtILkHiy60C
+
+sprite $CirclePauseSm [12x12/16z] HSQ75G0X20JHkHpNxRzRdv5Hu5FwVDEozSYkF2dzdWG9m_cMZJ_1dPhzX6-5orvslkQVbY-m6bFPSkc23
+
+sprite $CirclePauseMd [16x16/16z] NOg53S10548vzsF_RHj-KtqH54PQ70uNYoS5mf4LOd99oEiNENN6JQQ7dGSGf9l9PZfisc5zCiXV7h_ihhnaEi49mEE46vaH5rEVnNn5EScMTbw3fx7b3m
+
+sprite $CirclePauseLg [20x20/16z] {
+PP054i0W3C0wrpR__-tMmo5uYalaCjvTAWuYkYG5s193Lr9lYcvmT-e7Db-GL9AX_Co-qZidfs3UCqHszZ3nOadkICwGpYaCxk4TdB5pT0u4mWAH5JzkHaNP
+fCR7CtHVv3y7dVgvuGncLbZI3m7w6DHBJi1zEEu3
+}
+
+!procedure CirclePause($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CirclePause', $name, $tech)
+!endprocedure

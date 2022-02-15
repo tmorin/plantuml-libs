@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Cheese
+
+sprite $CheeseXs [10x10/16z] Oq05lFpy40O_240O42OhFum51_nu0HkS1G
+
+sprite $CheeseSm [12x12/16z] bS750O0m0C30u4xsdnRNzjKx8eLcd4RLaPsd5Z9lj3xWPIBcrme
+
+sprite $CheeseMd [16x16/16z] fSgr0O100C30u4xsdnPtgVxguqzRHvnYPp6RmbMwNNVCl83KAnflUEWV3DHxHtGt0W
+
+sprite $CheeseLg [20x20/16z] nSkr0O000C2muax_lnPtMyaUliLfo4NZ8EUeTHQmYjomA3pOta6wlLqBYLTKtl0WVU1FKkzuq0C
+
+!procedure Cheese($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cheese', $name, $tech)
+!endprocedure

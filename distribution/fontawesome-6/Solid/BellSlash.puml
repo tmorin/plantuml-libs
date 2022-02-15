@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BellSlash
+
+sprite $BellSlashXs [12x10/16z] FOl50S0m3CHKvch_QSE9FlRHJEQZO5ANInEF6MgX_fKb_tNuWxhNWJUjz9Ts3POhmocZnMG4
+
+sprite $BellSlashSm [15x12/16z] FOo50O1G44AnM_QVri9t_3ogRVHYoYDv-Uv3pDRk1tt6PmZGXuoRm3SIT-Qpj5LRXQDqVxYb5ncSp4EKoJS
+
+sprite $BellSlashMd [20x16/16z] {
+HS_50GKX54FHu4xwh_RBC2-S7Nh1DnnkmLHkF2O3J20TuFap8MIAF22JPaCA3IxFbxjnWCTjRzgb6UOvbFYpTFJiS8eeC82joN4VqbG9vlsfwMijTtfgErsr
+-0K
+}
+
+sprite $BellSlashLg [25x20/16z] {
+RT454e0m30J0gtll_w_58O5Xnv0sQZiU8q9qqk8KIIYDzDYvILOeyNWtauS2OKY2jmwbKt5G2aM7vYdmzlyZEA3z_IZCGEB9lECqmF4GyB1tY6-i-Hojt2Hy
+-ok0rrdu683LLueu0riencwmosI6A1BTxa65MfIPN04
+}
+
+!procedure BellSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BellSlash', $name, $tech)
+!endprocedure

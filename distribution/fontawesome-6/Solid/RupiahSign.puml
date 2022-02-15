@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/RupiahSign
+
+sprite $RupiahSignXs [10x10/16z] FSS50S1040F1bBdhN-tJCKoKzG4cQ24ajEoBYwXc6Lp-jgwl1-stn505
+
+sprite $RupiahSignSm [12x12/16z] JOh50O1G08MmM_QVrlZDwGKqBEgIifwtTyumMJDogtdNsmIUuC_EdwUigLxAykTh98vhyEbMMBgONm
+
+sprite $RupiahSignMd [16x16/16z] {
+NSi55iKW34JHmRyacVtljcUeyofm4Qn5n3_Tv2mUxgMJVhlC_zjE93FxfSD115MRBfHR6Znh26tumOxTeQrAGbCtgW8oomhoeCkZPiZw7VSr9C2OJYCTFsFM
+R0C
+}
+
+sprite $RupiahSignLg [20x20/16z] {
+RT054e0m34JHAWvx_zC2ZTJ_I2OFnynQ_c9BDwYxDcYjyTbxR-O21lDf-6LPV37tZmXgLzl-iKAGBG1tCdavpOdvGjw8XVgDnMItm4B6BNGEy1IBwLJQs49m
+-Ps1cwpx1vKjEDAehIweVG
+}
+
+!procedure RupiahSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/RupiahSign', $name, $tech)
+!endprocedure

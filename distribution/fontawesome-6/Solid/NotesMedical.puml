@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/NotesMedical
+
+sprite $NotesMedicalXs [10x10/16z] JSd50S0m40Cm5Txs_jEM8KgEIGz1FMBgPQs-dE7fOEpoN9zqmleqEm
+
+sprite $NotesMedicalSm [12x12/16z] LSg30G0W40NGdztjFstc2qV0qO26iXrQwZAuc42EqnB8YPtdcGCdHvEUFFuxGCzJQ9_f-MJHXDorRWK
+
+sprite $NotesMedicalMd [16x16/16z] RS_50O0m44JHZzjiflzgSOTtIzO1USUYzoa3SCUT3BqE3VQzmfcD_jvbdXvlYDkxP17dEsUXyvq4lVxgoRPt3ES9UbtGF9-GxG0c
+
+sprite $NotesMedicalLg [20x20/16z] XT2r0SKm54FH6se2qlxJVWYRJsa_1YRv8dQzt_hzpLw8JEaJCdH-6x71eSQRDYLlGFjDiDioRslZBQYdp1izUBSjw-jUVXExp1DZyfJw0W
+
+!procedure NotesMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/NotesMedical', $name, $tech)
+!endprocedure

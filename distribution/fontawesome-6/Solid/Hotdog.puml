@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Hotdog
+
+sprite $HotdogXs [10x10/16z] DOd50S1G58EeUzb_skylfm3K2U_IZgXni9zRpp3d_ujBFQtkzVmjjVDgFonno
+
+sprite $HotdogSm [12x12/16z] HOo55O1034E3Et__RQa-JXjLBFpMo3a3_tWHup4pwAN6-wP7vETrhpD-RBoU66-POOZnagAXHbynsihnzl43
+
+sprite $HotdogMd [16x16/16z] FSs54S1G2C3Gr9tiFsqDxdF6Gwbm0c8lzMetgluSakN6wBJOZrwmUJRAvSU-A1zt6jUN6ddgsxrGXwGcJpvA8__V6Zu08_yMBoEqaLsBvqSoM_LAFW
+
+sprite $HotdogLg [20x20/16z] {
+PSg53S004810wlxilstpTI5-WRFQ7c2Ewg9UNQXLnuCwrPtqk9xaXsPQVL5BKlUa4TN-ITBzIEQaYEga68eYQT8ug8B6lDHsfu75ut9YJh9iFQ-092Mkww29
+ydcX3RJFYrahVLs4wkk2okTrDAeTpDS5Am
+}
+
+!procedure Hotdog($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hotdog', $name, $tech)
+!endprocedure

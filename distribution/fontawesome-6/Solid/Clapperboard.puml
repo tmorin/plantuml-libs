@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Clapperboard
+
+sprite $ClapperboardXs [10x10/16z] Oq00Vcu6VduGGZ0u63Wv8OYVPC00Pm4
+
+sprite $ClapperboardSm [12x12/16z] Oq06_FmCZ43Cpi-BOF8my46O760cYd8A00yIcu6R3mRO
+
+sprite $ClapperboardMd [16x16/16z] lSS50S1030J1VUR4lzeo2-W4ZwyWuiZhIkkAge6iwadhoiyOxdXz3foprtBZGtzcFXdC4pC
+
+sprite $ClapperboardLg [20x20/16z] rOg55O0m4CLIzzx-q-8E2v3sBE_pYVTUBzqktGCYKg1D0-BILHL9YsgxCi-KMjIHEbM4a582itIL9lG7yaF2XwE-bEM34G
+
+!procedure Clapperboard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Clapperboard', $name, $tech)
+!endprocedure

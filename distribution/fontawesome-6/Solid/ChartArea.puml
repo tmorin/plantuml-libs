@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ChartArea
+
+sprite $ChartAreaXs [10x10/16z] Ou03NduOYn-91SRyJ60I310iVcGMmXGsA4380G
+
+sprite $ChartAreaSm [12x12/16z] NSP50S0m002nyShdNssPyyen-HbdltFz1hJZJlyfqWs5stwPueplNeRZTLq
+
+sprite $ChartAreaMd [16x16/16z] RSut0W0X0091qCgu_t_jvNnknNJeMtqJmiTnODDV1ehwEZTpvisPgytrjaSk7okUXT-VJA-FYdWd-TKC
+
+sprite $ChartAreaLg [20x20/16z] fS-r0O1G00DHtE7sdnQtxtPTNfTCLwFI38eHQ0EBR2qm7QjuhU9eNjZnje9VjutyksnAiFPFY_Ut6Hgf8aSjgpIcQGC
+
+!procedure ChartArea($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChartArea', $name, $tech)
+!endprocedure

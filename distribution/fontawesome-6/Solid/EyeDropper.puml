@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/EyeDropper
+
+sprite $EyeDropperXs [10x10/16z] Ou02VYZDmi_F3sL0MK0A9WONOcL0C80GBW9YiK4PN31T3
+
+sprite $EyeDropperSm [12x12/16z] HSk50G0X30F0yAva_scHAder-7g_8CSAclS9CvIt44dE-oYBL8oLcyvzGHapLl8lIdG
+
+sprite $EyeDropperMd [16x16/16z] NSU50S1G20FHr9tRVzgwXDuNUBAcA4q5m9m9HZDFVm-NbSciH920qTWAukO-EsR5S72uIAshe7BkNcPZ0HWLH57eQmC
+
+sprite $EyeDropperLg [20x20/16z] {
+PP053iH03CHIvlh_lprDQNTo5iOAXxEn93CYsbhrtEGiOLdkTWwosoZCyL3IrbTDagPQaBGiO52vPJ56j9ARPRLt-QsUB1GFJOZXoO8-NYR8IcwSNCK99BNo
+_ySDkaZy
+}
+
+!procedure EyeDropper($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/EyeDropper', $name, $tech)
+!endprocedure

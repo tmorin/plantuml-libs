@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Briefcase
+
+sprite $BriefcaseXs [10x10/16z] Os1WuEBdvsTY005-6CO76E00oiEb3iu2
+
+sprite $BriefcaseSm [12x12/16z] Om02VY3WPG03RXuE3Wv-PY2BcPc7avcPcP-DcOcNdp1WG08m0RWaq1oyUddvO807
+
+sprite $BriefcaseMd [16x16/16z] fSw54O0m44JHnPtjlrlc9_W8aXVNEs4o6gRe7UMAHWikm-4upXv1NqzEeviv8F8muyZa4edmhpI-KdQX1G
+
+sprite $BriefcaseLg [20x20/16z] Om03Bdu8O6A00mv-6624Y_50sPpyB3Z5-3409oy_xG435i061SWSg78-TBSYn2W7sFoBnLmUR6u6
+
+!procedure Briefcase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Briefcase', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ParachuteBox
+
+sprite $ParachuteBoxXs [10x10/16z] NSYt5G0n3CDGwc9dxB-j7r7wAoj5n00zk453gD-tjHoOROtwWEW_jmq
+
+sprite $ParachuteBoxSm [12x12/16z] TOR50OH00CG2wvh-gpsN5wC180WlfRJKk0x8ubC8xlPXgtE-E2Yf0txQCWZx19W1wOcNL0T_dXSyW3i
+
+sprite $ParachuteBoxMd [16x16/16z] ZSZL0KGX30NH-mmDcVwxNVH_3phHadbqt5LqJQuX8MT87vVqOZUBG8AOJpl-mMiiZurPqztHZsu-YQmETHxdD-pseebdTZLjLCDgqr4PBXt6yFpTcK733m
+
+sprite $ParachuteBoxLg [20x20/16z] {
+hSk5SS1044DH-PX__zqcHx4Bo1lQMKcwAa4VJrPaUapI5Z4FcpAQ4eWZFiod0-kun7oEjRXKLtaTbuc0XwxIUn_qNzOFXaJHvD4oNtf8dnzDaoNy_GRQFExy
+sj0LCEjNq2knFNe5Ddt4V_w9fMhv0G
+}
+
+!procedure ParachuteBox($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ParachuteBox', $name, $tech)
+!endprocedure

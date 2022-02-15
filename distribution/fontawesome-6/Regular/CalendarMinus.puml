@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Regular/CalendarMinus
+
+sprite $CalendarMinusXs [8x10/16z] Os3WPc1WO0HYVY3cOU3YHmCCOC2AH8C4MT75kNcuG80V
+
+sprite $CalendarMinusSm [10x12/16z] Os1Wu09YFWOGu8TWHdwyW8q10lXGM4pixEmG5YSF3myZGXQPnGOt1
+
+sprite $CalendarMinusMd [14x16/16z] Om02NWO4oS3A3o9Pm2Gh3oy_3n20I2PMVk814m80UGm8G9373T4FasC60I1DWYaWFW8
+
+sprite $CalendarMinusLg [17x20/16z] dSkr0S0m44DHXJb__sc3PdVtIe4U_QxFAUT0hv4-3wO_ECdCAmP7wWsKMip1nYS61v-skXY3ZMDDWCYjDm
+
+!procedure CalendarMinus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/CalendarMinus', $name, $tech)
+!endprocedure

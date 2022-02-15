@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/LocationArrow
+
+sprite $LocationArrowXs [8x10/16z] Oq05_12I7qWpymC13uWDue80WcQ5qWmm6Wu
+
+sprite $LocationArrowSm [10x12/16z] PSR50O100C2muaxtdnQNaxn2hkPIgW2TwWIp5_31HMs-yMxzHhRB3W
+
+sprite $LocationArrowMd [14x16/16z] ZSUr0SC00C0mjs7q_zU6cRM9J_wLCedjLFH-XOCV4DLEe70HWYjcTlBTsAxUBToDxN9MePor
+
+sprite $LocationArrowLg [17x20/16z] bSp50S1044BH7_VGVxLncUMsxyO8PEfLXLHEaYPUjIxDdOf1ZplgCm2TWW8KBTZWhWmzs63mGU43R53x01kC9DxApnVT3W
+
+!procedure LocationArrow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/LocationArrow', $name, $tech)
+!endprocedure

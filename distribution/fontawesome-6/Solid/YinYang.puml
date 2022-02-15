@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/YinYang
+
+sprite $YinYangXs [10x10/16z] HOh50O1G5CE2qrFsdnRv-hG644_-ibH-KEc1_qUDCzB_QGCYknGKH-Xeu0K
+
+sprite $YinYangSm [12x12/16z] JSl50G8144MnXplflrfaFPVHtz_3jP7HsEx6HL4zElDAbOvus8QguzXTrTqefyZOw-K9b-BsXdVLoxZj2m
+
+sprite $YinYangMd [16x16/16z] {
+9Ss55OH040JHnc6jyi_shjvyT4SJNPE-HPgK9zg0SHqTc9xzw31kiSUjcu0zK2EI0N0neZr1aokbKGuF7vIEMq7QM6RNIGbiwRX7ApVu392huVAaEtyUa4Vj
+eEN_3m
+}
+
+sprite $YinYangLg [20x20/16z] {
+PS_55S0m40DH1SoW_hlDMrlXVvp30YHrLe-7G6aRX0_fIjq1GBIObU8vrA83Wf8hcaA0x9eGrIB87SQtHOs9n2Low8_cIL4hlDJPF1_yR7oQDspaYgpKq4XW
+9nSaDOUL5iTaqPE8lC3Od5Oe6mR7o_-fvc0E
+}
+
+!procedure YinYang($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/YinYang', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserInjured
+
+sprite $UserInjuredXs [8x10/16z] FOU50S0m3CCqvld_Rzk6590DJ6Am2T6P1jqQq74Lc_TRzF1tQvbxwgPF0m
+
+sprite $UserInjuredSm [10x12/16z] NSR50GCn00InDREd_sgJOz9BMWIqWsARNY8hhUvrmEaZfMWasJGAW4H2ta-89102rZaY_04
+
+sprite $UserInjuredMd [14x16/16z] XSUr0GGn00InDREd_sgVyL2PzD28Uak0_7lGr9ZQqE31FHPVqnCFNJyTEbUJuoxTupeQZqw9suQyZq0rz-5SpmB6OmXi_wmRDE4A
+
+sprite $UserInjuredLg [17x20/16z] {
+ZOq5ZWKX0CMAmn_f_K-xHaPZs_XJ9jqjSb7KZKk9wlXL3o7NcWcrraC81uVWmUSjjEFp4DwT3WUBQkN_HCRnEd71oG3Oq1YThB3z2ZivvwPQy5UmKIke-vY2
+DANxonGMj6JrI9YY3FKR
+}
+
+!procedure UserInjured($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserInjured', $name, $tech)
+!endprocedure

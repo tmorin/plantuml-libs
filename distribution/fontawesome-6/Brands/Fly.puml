@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Fly
+
+sprite $FlyXs [7x10/16z] JSUr0O1000ImuCxjloqDB-c2vy8MGI9UEMKvoaG6lCirGYwTd7m
+
+sprite $FlySm [9x12/16z] HOg50O0m4CI2Ezb_MgWtxty7ZEzDH17Z7F5bHikpB2-74zx3qCt4yHAPVCZC52OA2lm
+
+sprite $FlyMd [12x16/16z] LSQrOSG0000ncTct_xPfGgzACDwTm51J7I_KhexXPIyg9_ryd3w-rg1oeLPrUh6MyeAdeNTRW6ev0Uhsww-CVptxUntm1G
+
+sprite $FlyLg [15x20/16z] {
+VSk54SCm40NHBsPj_zrcBaps3hu3MNwmg-v5c8svfYmFMnbym0W4urHfKW9aH49gd-plTChlb0Huur9SicUgiMhB0epgJLQ0c9bnwrPYPpnwr6WRhsSTqvk3
+JjhrNHtS6zk35m
+}
+
+!procedure Fly($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Fly', $name, $tech)
+!endprocedure

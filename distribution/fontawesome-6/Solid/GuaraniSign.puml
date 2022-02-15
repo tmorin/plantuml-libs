@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/GuaraniSign
+
+sprite $GuaraniSignXs [7x10/16z] DKk30G0n4CkRRVQVzcm403P4yBInqCBkbUU_NmoG7nnTuxCnUOR6edqA
+
+sprite $GuaraniSignSm [9x12/16z] JOo50S002CFAtFl_jmjCWwjWqesF2hqXfCM7WVwSeuw6I2AYcibG7RLEdshoGh3Ro-_p2G
+
+sprite $GuaraniSignMd [12x16/16z] FOl50S0m30DL3lhstxOEtakeZcbJEPUyZ7XqTTAfBWympm49Gj-NLmUsluMtQNCgt4rt4h7fwpX0CFQN2yEQTlb8J9ASr5HB6-qhRQt63m
+
+sprite $GuaraniSignLg [15x20/16z] {
+LSzN0i0G50NHHwew-rzjEcxcx-ZihQmcpQ1Sb6i5IFxLXRVz5b0ZHE2QJn3VlSz-I7BK1avOmHu-NLAI6aC82JpCRMy10pwk49vjxkR-7XFeETDZ-vSoXEd_
+NyatdW
+}
+
+!procedure GuaraniSign($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GuaraniSign', $name, $tech)
+!endprocedure

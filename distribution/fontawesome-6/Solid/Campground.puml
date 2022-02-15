@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Campground
+
+sprite $CampgroundXs [11x10/16z] Om027WO65WO8uEVdvs20is4i7dv-PWYBYHy8eD9W06NnGDXmafCD9eS2
+
+sprite $CampgroundSm [13x12/16z] NOo30S105CLUxMR_QS_ED-NvfLSPFb1cg_bGuAYvfyqvVNu2VnfDCLOV7gQ5tM_xvAF10W
+
+sprite $CampgroundMd [17x16/16z] NSo50SCm30H0XJct_xJbciuC-lXOfuWh2lIxCx8HedJGHGbRyu6-YI0IFyqvnLnmIp4J-2sfOFX__9tFzB9lERwJtDS7M3IU
+
+sprite $CampgroundLg [22x20/16z] {
+VS_50SH040D1sSlO-KTxQARw3agJwYKrgnq3JWsq1sI8sXi1ceuie1E0e8CAWD5EuEzmQzAr0REiHMVbDKbi3Vfn_5HjBmxyIHRcXDkEp4-QtoTipre_J_sn
+Cquy3mmN-Xi
+}
+
+!procedure Campground($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Campground', $name, $tech)
+!endprocedure

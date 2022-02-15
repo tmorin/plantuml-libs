@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/HandLizard
+
+sprite $HandLizardXs [10x10/16z] Oy02-FZvW82V7yZa1m9U1dvMY0HG12O8vh4ZYKC4kI42F7n05Xm
+
+sprite $HandLizardSm [12x12/16z] TKg35G0W44sFf_sdpQxpbr4gIA-CaPh6cCzGnVLangwagAT9YhRCcWzcYO9dWCrM2G
+
+sprite $HandLizardMd [16x16/16z] XSUr0GH100GWpdsd_shVNSdmpxHU36397QnnKMM5ND2dXN4-oiOMN6H40Zc1DXr9KrMLapLaROwSX24vgIw_IFhBBqeGTnLgB_O
+
+sprite $HandLizardLg [20x20/16z] {
+fOxL0OGm40NZdhp-gprP0V9rmg2PLNC3YmlJabl0KW2G6_1dKSMWxrb8X_XsyP23fBrEesOPIuu-X93HUMPvVn886GOuUhTQQv7vyLsTQTRUDq0ex3feRKNT
+oGJixgXWxOvaUBtSC5_o1
+}
+
+!procedure HandLizard($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/HandLizard', $name, $tech)
+!endprocedure

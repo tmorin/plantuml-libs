@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CommentDots
+
+sprite $CommentDotsXs [10x10/16z] Oq06_200f5dv8G0e0WDS888DHF3mim1b80GCCF126KmCSArSG0m1
+
+sprite $CommentDotsSm [12x12/16z] LOo30S104C1Ikzb_slAPCwbfJdNbvSrUPZ0nOsRN9kYRapN3MTnsCLr0Z-t_pZAHk04
+
+sprite $CommentDotsMd [16x16/16z] NSw50GCn3C10FOQZ_QSjatjXjBdxjwHXttdPV9dSLRysoFu2ezDewC7qu3dQjQ6Tv-XYX44dNW3ycZ6z7K0RiAuBt2qBmHK
+
+sprite $CommentDotsLg [20x20/16z] {
+TSQ53GDH5C2m77_E_jEM-QaMcV-cxJZsXG-7JnDtgnyQLvlVWCLVO71CHaNrKCV-d4E5h90UiwahwivupCK8WyhXhmcwtsPW-6K19ZyLhhgwivVMQrxXgkX1
+49q1
+}
+
+!procedure CommentDots($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CommentDots', $name, $tech)
+!endprocedure

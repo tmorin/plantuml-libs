@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Cube
+
+sprite $CubeXs [10x10/16z] Om017WOmu0S3RWPMVduGbmdCvGL9802C3H75P350M31nC0q
+
+sprite $CubeSm [12x12/16z] TOt50O0m300lV6gH_QV57Nfjt5XHDiHYeGApQMUYxUNOoBIu8nmUqFVjy4K3tnRlruPz3nC
+
+sprite $CubeMd [16x16/16z] dSsr0O1050FG0EUM_QSzjvhNVGq64N2yYOr_UX5OHTrx6Y_9fD1O3gtg7iyXobePtlgvZJpY0rnrhVxKyQeVIsBNFJy2xpco3xglZtfH
+
+sprite $CubeLg [20x20/16z] {
+jS_55SGm30JGCREd_sxt9J79z_r7iJ25gY7unaSnCw1vA4yayHKLRE6Z6pUJigKxB2foQWeFIocvCOwt14qX6-2A9U0_iIPZAdGIPypoqQ0IXUxnQg9_SdNy
+yVW1
+}
+
+!procedure Cube($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Cube', $name, $tech)
+!endprocedure

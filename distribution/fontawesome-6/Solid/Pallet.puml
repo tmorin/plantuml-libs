@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Pallet
+
+sprite $PalletXs [12x10/16z] Ow01u4S234pyG14mHX47
+
+sprite $PalletSm [15x12/16z] OnWWm8yA65ZusLbOMFXvWGGlFmjGdXcaY0T8yF2ZAmO
+
+sprite $PalletMd [20x16/16z] OnWcW9q74_1Z0GmilFpiB430oyy6enWOUFYP6HXGA0vUVdvU842ci9a7
+
+sprite $PalletLg [25x20/16z] xSor0G0X40LHt67wh_RaLt2IybR2CVzjl6P2W1nk5O9CLWYgULKp61dCwpi7qTqAE1aiPtdj1
+
+!procedure Pallet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Pallet', $name, $tech)
+!endprocedure

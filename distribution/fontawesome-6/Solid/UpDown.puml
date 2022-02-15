@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/UpDown
+
+sprite $UpDownXs [5x10/16z] Os1WP002VduG1fAS_FoSO2w2u01BW0Wm5m
+
+sprite $UpDownSm [6x12/16z] ROJ70G0X08EuQfVzfxNyJG2W0cZRqTnt1GqS-cXwWdjazO7cnmG
+
+sprite $UpDownMd [8x16/16z] XSh50O1G40FHmIsVwRzQR0lWNLOI7k6ZhOQcXkwdXM5KXw4Ay3U7v9d9Oc7_nW1vniYZESCD
+
+sprite $UpDownLg [10x20/16z] fSZ50SCm0CLGbMlK_jF6F47UvGFT8xEyj3BP5U3XbC0jLWz2AEC9Vo2e3xZJ_Xu_3uBB2_8fKDGFK_K7D
+
+!procedure UpDown($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UpDown', $name, $tech)
+!endprocedure

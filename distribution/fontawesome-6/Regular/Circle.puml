@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Regular/Circle
+
+sprite $CircleXs [10x10/16z] FSR50OC0002nrBst_xGuv1LuTGTryUX5Nz1DLhqk-xBvt1_Rqh5NMxZLfnW1
+
+sprite $CircleSm [12x12/16z] JSY53O100CNGHd0-tNzQ_AInb_AqEVEbMQ8lHvvsNtubICajpIxDSvgnzruuWVbuS1VLvru
+
+sprite $CircleMd [16x16/16z] NOe53W0X3C1sZlV_lxri12tQh68ycNX88rFvp0vmeYIoFj2wcwInT5vEqRXJUEXYGSqxi7dS_5Wy8AJ9AV9oTqqQPzwkRtsAle4sE36A_dy
+
+sprite $CircleLg [20x20/16z] {
+PP250SKm20LVtGAt_xHVuxasXeCYbnDsLHn4R544y2MghYWYABB1NOaYi4b751NXVzMSdCBL0XVB87FKOJ387i8WStQEJWP3BJCcO-jIR1yvtOWaNT2Bf1lE
+6CjWoHC2UnoWRlo7_TEz0G
+}
+
+!procedure Circle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/Circle', $name, $tech)
+!endprocedure

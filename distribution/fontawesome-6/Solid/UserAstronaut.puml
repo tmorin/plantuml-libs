@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/UserAstronaut
+
+sprite $UserAstronautXs [8x10/16z] FSV50OC0002nrBst_xGu_1AS0rK_UgENnELzN5LmxsHhV_LwlITKNZK2
+
+sprite $UserAstronautSm [10x12/16z] 7SR50S0m0CGmb-aQxpzjI2_HNMvC3ZD_4WEFd83BsClSBjqci3emQQ5RzDnk1OVXq1M80uLSsW
+
+sprite $UserAstronautMd [14x16/16z] HOe70iGW40AnT_d_Rq_MIpBMOO4nMV6mAVw-UCctLO8OxCSu4258CxV7PuJxPfxrBnPM2ecHJN2PyTI1NYJAzxHRyj4ToHKEKQfAg431L2wR3Z3x0G
+
+sprite $UserAstronautLg [17x20/16z] {
+JOzL0a0X40BProdtFwt56lCbirWGD_yTWvULhe9oDoSxDPC_XAb3BbZDppeaTd8RelGsDNu9FqCpFUgfSI7xm3dX_2CxbjNTGz37x7B9cS_t3tOLdZlpbLMu
+-oSDCbKyBq2hmrlYqvCp2G
+}
+
+!procedure UserAstronaut($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/UserAstronaut', $name, $tech)
+!endprocedure

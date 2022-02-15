@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Regular/FaceKissWinkHeart
+
+sprite $FaceKissWinkHeartXs [10x10/16z] DSI50OC000Inr1Lk_sbnyWAVdbPry-f3VwiUikjpqrqfXz_pXT3vtNmYh-9Hlunc
+
+sprite $FaceKissWinkHeartSm [12x12/16z] FSQ5RGG1400n_p6jflzk8un51cyNeEQUWWxmzLzcn8cLtY7wFdK3w1e84exyEkX3L3IsXGfJTPq_Vm
+
+sprite $FaceKissWinkHeartMd [16x16/16z] {
+JS65WTW0000XufxRVzhg6_XdURe6dvx-sy1GExXxe7oOktdoPMtKxjlR4egxPcjFwA1XsQZyr1NOyqz3_cdd7kTqmnDNOMs6BbiLJolloL25ktV5gTuPnlwP
+u3S
+}
+
+sprite $FaceKissWinkHeartLg [20x20/16z] {
+NT25TSKm5C1G_IHcqFxJ5dnUyPeP26qxCxyKmxe9whvZg4MNav2q_-eAcg0ONK5F-gDQSGDjdkOeW3RlKpwWEa2t0Ba1wUAvOQdyCvpHnrvNLCoMw7H7AHfB
+p32Kb5ccqxVYw7J3fJzhFQ3fwVA24drqhGIDBqcgQsmdxfjGFHR7Em
+}
+
+!procedure FaceKissWinkHeart($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Regular/FaceKissWinkHeart', $name, $tech)
+!endprocedure

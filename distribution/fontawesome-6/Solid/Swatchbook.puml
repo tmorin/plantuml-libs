@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Swatchbook
+
+sprite $SwatchbookXs [10x10/16z] O-3dvsS00tua5WC_Y8I8GGWGGk4YP65wWH1C8sIW8W
+
+sprite $SwatchbookSm [12x12/16z] HSg53S103CLGbxdUVzh2KI9w-JBgGhgVsipvsJlvk4MzIjEPdjGapx4lDAyqhtF2yNb9lEoLH5779T4N
+
+sprite $SwatchbookMd [16x16/16z] LSk50G0X30F0lA6bsN_RnoNeGGlcA6POSs_-7gd-kXzKzovIecOp9wr-hOVM_bk6UVN-RdlKPnvsEEmk4OdJ3ko9nNPIaFqDFdN7897ozato1m
+
+sprite $SwatchbookLg [20x20/16z] {
+PT053i0m34DHZp7p_K-xOYIh-U9NBbYR8R5bYFOD1hpLPbemvjoUvyis-xwo7tlDpDGktqziZtR4_GweEOrs8DW1evHDoU-dH20xX6xoVSW7Cil_MOXOcDkK
+c
+}
+
+!procedure Swatchbook($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Swatchbook', $name, $tech)
+!endprocedure

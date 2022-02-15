@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Book
+
+sprite $BookXs [8x10/16z] Os3b1mCcVWp0niR60Q8PW80V9-1Y0Cl3L
+
+sprite $BookSm [10x12/16z] Os3WXm0-C0CJiB800PeOCoCGy1C4B130pylF007y23i
+
+sprite $BookMd [14x16/16z] fS750O1G342nujwt_xJ8rrxmH6GWwGHhuDfGEugZiuFNbuxYgSCVMaSBK4iqKy4IWImO6m
+
+sprite $BookLg [17x20/16z] lSor0SGm04MnRsQ__QSz35UfeW4akSc1L-FCSZ6u9VY_ogB4lxvFVwoq23me-asWmzJEq2jukt5qSI7FsHi
+
+!procedure Book($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Book', $name, $tech)
+!endprocedure

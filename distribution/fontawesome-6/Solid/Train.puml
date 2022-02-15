@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Train
+
+sprite $TrainXs [8x10/16z] Os3b1m569dueu6800GJD1w6H0OZ71wKPO6Bi_21b3
+
+sprite $TrainSm [10x12/16z] TSc50S0W3031htlPVrhSvI0Emlfj4-0CkdaoDb5w2DtChVDYsjSaCreRcpx28r
+
+sprite $TrainMd [14x16/16z] XSp50G113090rZtqN-svwxoY08ah0_104iKixB9Vr9_EOjMcf1KVLSq3G9swUMcMqsLQkNE09OtMEf2O7XH6Ozi3
+
+sprite $TrainLg [17x20/16z] dS-r0OH0503HmPtflreSLhAxbwn-WshrCm6JYReqioX1TLqH57zUf4b_CCmcW3c_gBsiNafuTfMt-JdBOgA5JbsNWpfNGFLrhzxdEKooiWC
+
+!procedure Train($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Train', $name, $tech)
+!endprocedure

@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BugSlash
+
+sprite $BugSlashXs [12x10/16z] DOg30S105CLIkzb_slFtqqmjQMLX6kHfUDig-TttRHxEOeJgSp3r9foZEVy8YPmsY3mmcG4
+
+sprite $BugSlashSm [15x12/16z] DSlN0S0W409GOk_ilsr4lVTp5VT1PiL5DTnifeqECeWGWeSzH5uE3oL0vWrBVfU6Jh7N0i-9Q-nHWGMfrCWFIy-E5IurR9a_
+
+sprite $BugSlashMd [20x16/16z] {
+LSv50iGW44JHmkBXt_-sGuSQUojepxkcdIBRw0eCjwn0YbJG1pHrn_BXuCMXEXGbo0wkz6iuAnoIPUmRgf9Z3gJvlXpj4Ji9IOtW9QNSmF8qj98qxHxLsV_N
+YaZslqiKemeaXuu6cj-OB1tFb2IxUG4
+}
+
+sprite $BugSlashLg [25x20/16z] {
+RP254SGm30JF43HS_zr-9FFuDnpHZcn4uypHe1D92oNpuqOdaBu-XQdc9DzMi9J0a9m3aMOQvE051xpaXSP3diVvuIGfO-0vo5Zu_zyu86o1fzfSxDYfIG0S
+6wd9AjCW3wNbrhRBS0hmwXqtMOG4s4MODQ3RpSrANqCDYC_TbanTV212rR5LMFwlcCmV
+}
+
+!procedure BugSlash($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BugSlash', $name, $tech)
+!endprocedure

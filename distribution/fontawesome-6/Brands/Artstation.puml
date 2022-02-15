@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Brands/Artstation
+
+sprite $ArtstationXs [10x10/16z] Oq05_FmGcXN8OeU8G0H193y8WraGGIZWG30XIY3oG74Gu6FW1
+
+sprite $ArtstationSm [12x12/16z] NSd50K81040XxFRjFwtjBwvOkfT1tNoi3axbewXWMtVhsg26s9tUgAE_MstwelHrTepR_GDF
+
+sprite $ArtstationMd [16x16/16z] VSw50GCn3CLG7MEY_QSj_3A-CDfyLsjfU59KdgahLusmF5se3hbGY4vDRtjxwfeXBoRDh56770ViVsB6h7RUJBc0ta1lfV5cWvfqRm2E
+
+sprite $ArtstationLg [20x20/16z] {
+VOu54W0n20ChvvR___OggSkEiWCaOi9cKBM4OQdS3KCkLYxkIKcOLsUvUEFbufNM06qUv8lWW2GtyBrCVU39-rnq3nTtKN9mCOTzSjX78uEBuaNYSF8Mgbgy
+89b5FYDFqUC7
+}
+
+!procedure Artstation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Artstation', $name, $tech)
+!endprocedure

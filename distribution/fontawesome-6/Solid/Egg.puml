@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Egg
+
+sprite $EggXs [7x10/16z] DSN50G0X00InFS5b-gyM9v_egc2bdq7YMVFDGcKfJ0-BJcjr
+
+sprite $EggSm [9x12/16z] JSN50SC000IWQ-FA_jF6ZG_vm7XDdzH-a9Xh404wSIdEMfUufBvEVkSh
+
+sprite $EggMd [12x16/16z] NSxL0OKm5C3G07NB_jC-LyvFvIedJTsVrwbg12W-RO1kGrNejkqTKDRpFd7XIxLaFq9_twPVmI--rqNq3KW_Eq1L0t05
+
+sprite $EggLg [15x20/16z] TS-54O0m4031Vzol_swPkDyOIrmwBH_SKGUOr6a7boEXr-W3NPndaHbEITDla0l2S3x8hJ2jn4uGKbz9IjuKwNWc7BBaD0ygP6xj-WnCotbVkvgl7m
+
+!procedure Egg($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Egg', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Message
+
+sprite $MessageXs [10x10/16z] O-270cv-2W0VdCN0mih5py_Aoih8mC30piy00W
+
+sprite $MessageSm [12x12/16z] O-3XXm4sNdxQ0WPaDX20A1ZWvuBG
+
+sprite $MessageMd [16x16/16z] Os3dHm9y31pyGmimeFCP61aPUO4CTaOGO0037dv-A0lAvuCp0G
+
+sprite $MessageLg [20x20/16z] vSd50K0X0CFGVXUa-q-BEoFmZWaE3aHDbUPYD6VWH03dTLq_lIlO43rnHxNT69lUK5a
+
+!procedure Message($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Message', $name, $tech)
+!endprocedure

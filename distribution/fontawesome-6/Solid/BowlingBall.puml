@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BowlingBall
+
+sprite $BowlingBallXs [10x10/16z] Om02Jdus1X3W1mDEC8CDHB022PWeX8i2sE0i1WIB4yPWO625CW
+
+sprite $BowlingBallSm [12x12/16z] RSY50G0X30F0l0kI_QV57QvUU88l8aPfVPvu-7xVlYktuzCCX6yRE7fPORq_A8U6e_BN0W
+
+sprite $BowlingBallMd [16x16/16z] RO-55S0m24I1kjx-s_QXjVme3cGC1pQcv80pcSGeJfMXnBEdCuymHFNFa46Da_exaPj6jDa-CdzaUeld9r5qdupQyFuK5NbCSm4
+
+sprite $BowlingBallLg [20x20/16z] {
+VSo50OGm50FGdDGb-qzxKWdEWzet3A4oMwmu3kM5WIjX7NA5JOH2LkL6ioei1q2xUCMUNi7G6jiKnIe7atWdyyZo23meADmpU78FG3Y6WCYr5ngp2a4ycsBm
+zmK
+}
+
+!procedure BowlingBall($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BowlingBall', $name, $tech)
+!endprocedure
