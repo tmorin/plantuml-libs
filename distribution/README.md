@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 14 packages.
+The library provides 13 packages.
 
 - [aws-q3-2021](aws-q3-2021/README.md)
 - [azure-4](azure-4/README.md)
@@ -16,7 +16,6 @@ The library provides 14 packages.
 - [gcp](gcp/README.md)
 - [homecloud-2](homecloud-2/README.md)
 - [material-4](material-4/README.md)
-- [simpleicons-5](simpleicons-5/README.md)
 - [simpleicons-6](simpleicons-6/README.md)
 
 ## Include the library

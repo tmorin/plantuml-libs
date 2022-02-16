@@ -11,7 +11,6 @@ import {DomainstorytellingFactory} from "./packages/domainstorytelling";
 import {GcpFactory} from "./packages/gcp";
 import {EventstormingFactory} from "./packages/eventstorming";
 import {Material4Factory} from "./packages/material-4";
-import {Simpleicons5Factory} from "./packages/simpleicons-5";
 import {Simpleicons6Factory} from "./packages/simpleicons-6";
 import {Homecloud2Factory} from "./packages/homecloud-2";
 
@@ -28,7 +27,6 @@ const PACKAGE_FACTORIES = [
     new GcpFactory(),
     new Homecloud2Factory(),
     new Material4Factory(),
-    new Simpleicons5Factory(),
     new Simpleicons6Factory(),
 ];
 
