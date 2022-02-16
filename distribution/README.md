@@ -2,9 +2,8 @@
 
 ## Packages
 
-The library provides 15 packages.
+The library provides 14 packages.
 
-- [aws-20210730](aws-20210730/README.md)
 - [aws-q3-2021](aws-q3-2021/README.md)
 - [azure-4](azure-4/README.md)
 - [c4model](c4model/README.md)
