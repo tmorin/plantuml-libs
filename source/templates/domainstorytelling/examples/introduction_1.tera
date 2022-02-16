@@ -4,12 +4,12 @@
 Title("What is Domain Storytelling?", "From the book __Domain Storytelling__")
 
 include('domainstorytelling/Actor/User')
-include('fontawesome-5/Regular/CommentAlt')
-include('fontawesome-5/Regular/Image')
+include('fontawesome-6/Regular/CommentDots')
+include('fontawesome-6/Regular/Image')
 
 User('domain_expert', "domain expert")
 User('developer', "developer")
-CommentAlt('domain_story_a', 'domain story')
+CommentDots('domain_story_a', 'domain story')
 Image('domain_story_b', 'domain story')
 
 domain_expert -r-> domain_story_a : Activity("01", "tells")

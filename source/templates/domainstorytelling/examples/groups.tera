@@ -5,9 +5,9 @@ Title("Groups", "From the book __Domain Storytelling__")
 
 include('domainstorytelling/Actor/User')
 include('domainstorytelling/Group/SolidGroup')
-include('fontawesome-5/Solid/TicketAlt')
-include('fontawesome-5/Solid/Film')
-include('fontawesome-5/Solid/Hamburger')
+include('fontawesome-6/Solid/Ticket')
+include('fontawesome-6/Solid/Film')
+include('fontawesome-6/Solid/Burger')
 
 User(moviegoer, "moviegoer")
 User(cashier, "cashier")
@@ -16,16 +16,16 @@ User(concession_stand, "concession stand")
 User(projectionist, "projectionist")
 
 SolidGroup("group_ticket", "ticket sales") {
-  TicketAlt(ticket_a, "ticket")
+  Ticket(ticket_a, "ticket")
 }
 
 SolidGroup("group_entrance", "entrance control") {
-  TicketAlt(ticket_b, "ticket")
-  TicketAlt(ticket_c, "ticket")
+  Ticket(ticket_b, "ticket")
+  Ticket(ticket_c, "ticket")
 }
 
 SolidGroup("group_snack", "snack sales") {
-  Hamburger(snacks_and_drinks, "snacks and\ndrinks")
+  Burger(snacks_and_drinks, "snacks and\ndrinks")
 }
 
 SolidGroup("group_projection", "movie projection") {

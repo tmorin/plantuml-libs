@@ -2,7 +2,7 @@
 
 ## Packages
 
-The library provides 13 packages.
+The library provides 12 packages.
 
 - [aws-q3-2021](aws-q3-2021/README.md)
 - [azure-4](azure-4/README.md)
@@ -11,7 +11,6 @@ The library provides 13 packages.
 - [domainstorytelling](domainstorytelling/README.md)
 - [eip-1](eip-1/README.md)
 - [eventstorming](eventstorming/README.md)
-- [fontawesome-5](fontawesome-5/README.md)
 - [fontawesome-6](fontawesome-6/README.md)
 - [gcp](gcp/README.md)
 - [homecloud-2](homecloud-2/README.md)

@@ -4,9 +4,9 @@
 Title("Your First Domain Story", "From the book __Domain Storytelling__")
 
 include('domainstorytelling/Actor/User')
-include('fontawesome-5/Solid/TicketAlt')
-include('fontawesome-5/Solid/Film')
-include('fontawesome-5/Solid/Hamburger')
+include('fontawesome-6/Solid/Ticket')
+include('fontawesome-6/Solid/Film')
+include('fontawesome-6/Solid/Burger')
 
 User(moviegoer, "moviegoer")
 User(cashier, "cashier")
@@ -14,11 +14,11 @@ User(usher, "usher")
 User(concession_stand, "concession stand")
 User(projectionist, "projectionist")
 
-TicketAlt(ticket_a, "ticket")
-TicketAlt(ticket_b, "ticket")
-TicketAlt(ticket_c, "ticket")
+Ticket(ticket_a, "ticket")
+Ticket(ticket_b, "ticket")
+Ticket(ticket_c, "ticket")
 
-Hamburger(snacks_and_drinks, "snacks and\ndrinks")
+Burger(snacks_and_drinks, "snacks and\ndrinks")
 
 Film(movie_a, "movie")
 Film(movie_b, "movie")

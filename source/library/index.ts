@@ -3,7 +3,6 @@ import {Library, Package} from "../../workdir-generator/manifest";
 import {Eip1Factory} from "./packages/eip-1";
 import {AwsQ32021Factory} from "./packages/aws-q3-2021";
 import {AzureV2Factory} from "./packages/azure-4";
-import {Fontawesome5Factory} from "./packages/fontawesome-5";
 import {Fontawesome6Factory} from "./packages/fontawesome-6";
 import {C4modelFactory} from "./packages/c4model";
 import {C4nordFactory} from "./packages/c4nord";
@@ -22,7 +21,6 @@ const PACKAGE_FACTORIES = [
     new DomainstorytellingFactory(),
     new Eip1Factory(),
     new EventstormingFactory(),
-    new Fontawesome5Factory(),
     new Fontawesome6Factory(),
     new GcpFactory(),
     new Homecloud2Factory(),
