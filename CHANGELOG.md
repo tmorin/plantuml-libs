@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.0.0](https://github.com/tmorin/plantuml-libs/compare/v6.4.0...v7.0.0) (2022-02-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **fontawesome-5:** the package is `fontawesome-5` is removed from the distribution
+* **simpleicons-5:** the package is `simpleicons-5` is removed from the distribution
+* **aws-20210730:** the package is `aws-20210730` is removed from the distribution
+
+### Features
+
+* **aws-20210730:** remove the package ([994db04](https://github.com/tmorin/plantuml-libs/commit/994db04778d10829eea7cf0917e8da6bce05d804))
+* **fontawesome-5:** remove the package ([abe442f](https://github.com/tmorin/plantuml-libs/commit/abe442fc91962279bf8fc9329727201cf120bdcc))
+* **fontawesome-6:** add the package ([93d9898](https://github.com/tmorin/plantuml-libs/commit/93d9898e9821ccf3c107d3988befcb85ee8220bf))
+* **simpleicons-5:** remove the package ([b6dc455](https://github.com/tmorin/plantuml-libs/commit/b6dc4553c9c623be1412590ea37fd7e3ac2e61c6))
+* **simpleicons-6:** add the package ([9c65bb4](https://github.com/tmorin/plantuml-libs/commit/9c65bb48697a38623db5fcb5bedfe87fdd91afcc))
+
 ## [6.4.0](https://github.com/tmorin/plantuml-libs/compare/v6.3.0...v6.4.0) (2021-12-20)
 
 
