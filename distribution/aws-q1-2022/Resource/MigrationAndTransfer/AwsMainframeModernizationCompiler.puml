@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationCompiler
+
+sprite $AwsMainframeModernizationCompilerXs [10x10/16z] 5S470S0m40GWilFdtsy7081qFL0Wc612H020W68uNQz608l-cxm
+
+sprite $AwsMainframeModernizationCompilerSm [12x12/16z] NKo50G0m268j_l_lkkq0y9cbeHaZNIsUVTPJrLjOEDSMgQv8jLPBhOmHhbVVPG8LoXW6FqWOg24yExlLJm4
+
+sprite $AwsMainframeModernizationCompilerMd [16x16/16z] {
+ROs5OKKn200FXxV_lZNIxvVWncUkkRWHNKN7n8PsBE6dcKShdHYO4Ys0AcaCMgXkNCgWlJ4KwY0qVsYnj9ppE63CNvmXpJ0oqWgZ0DNrPvpjMlmaMVeuFWl0
+Dm
+}
+
+sprite $AwsMainframeModernizationCompilerLg [20x20/16z] {
+TSz7bi0m24J10jkIuFxtdUGmkLQylwBnl-x-4J8FHqPxLDG8CIlhIPjRjakxTG2nJx1Zx6UiFQnmx4hiTJPweydcREl8ADkaCe_bD8M9T1TPRXLElRdjTV-v
+jggKg_TQO2kcSs-9nbZ0N1D49xtxgWuOqoCxd-EobrkE6tW5
+}
+
+!procedure AwsMainframeModernizationCompiler($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationCompiler', $name, $tech)
+!endprocedure
+
+!procedure AwsMainframeModernizationCompilerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMainframeModernizationCompilerLg>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMainframeModernizationCompilerGroup($id, $name='Aws Mainframe Modernization Compiler', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsMainframeModernizationCompilerLg>', $name, $tech)
+!endprocedure

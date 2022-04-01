@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/ManagementGovernance/AwsSystemsManager
+
+sprite $AwsSystemsManagerXs [10x10/16z] FOfB5W0X3CBKjgzalFzznpyh804qaych7rJQhD-ea6Ms04nbjFaYdorCpKDzdYe5-gmUp3RhT7y
+
+sprite $AwsSystemsManagerSm [12x12/16z] JSZN0KCn349HTmJUVzzWvJM-xe5Ud07W1tBEEXCIbpc68QdIYtMwoLcwuLkwVwCKHd36bjSvWSMT0AFJdPXWTa8YVm
+
+sprite $AwsSystemsManagerMd [16x16/16z] {
+NSn50WCW34JHGcm8zxzlOzNP_OUS77eMEtzm_i2pI7GDU80YR94cUC3k5p9DhqzPgzKZrZAHDUrd1PbQDHkY0J82hjSCU-tKsw1ux2tnw3Pel552z00ulumk
+w5N_mHC
+}
+
+sprite $AwsSystemsManagerLg [20x20/16z] {
+RS_N0GGX24LHbVYO_ljTq67p_VEOiVFEAln1_6ARChymDaq3bZH6eHeo4ZeOXGkLcu-sqDaNyRhDvHOYzt6C8qh6IbnoJA9mbBloCSmQBcScKYshH9Jg0cP8
+sdN5ZWWmmAUZBT57niYkx5ZzdSdQTcmoKRIj5QUs3csjZGy
+}
+
+!procedure AwsSystemsManager($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AwsSystemsManager', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerGroup($id, $name='Aws Systems Manager', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerLg>', $name, $tech)
+!endprocedure

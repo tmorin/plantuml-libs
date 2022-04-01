@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53RoutingControls
+
+sprite $AmazonRoute53RoutingControlsXs [10x10/16z] JOk54G0n20Gt4vp-wtsNu9omX4oTmnlw0PfWv4VBWrv15u118wW8BIAF-PqIvzm1
+
+sprite $AmazonRoute53RoutingControlsSm [12x12/16z] LSgt0KHH308mlHpOVzwBrPSD5HxkKc-HJgU0JW1CpbdbV5mKDx39dwGQAAIBtpBd8pPEGwlKk_4hA05l
+
+sprite $AmazonRoute53RoutingControlsMd [16x16/16z] {
+PSO7GaKn20J02QybSF_x6kpwXxBhLGr6uRhWYQVgaLN738xBZ-GEzBKvg8XrxjTkh8ZQhrs1GWP7SX7rQTgFyYbZSadTCnXTrDgkZdQBYLo7LXWvJ-tEYHQx
+vJtyCj7U
+}
+
+sprite $AmazonRoute53RoutingControlsLg [20x20/16z] {
+TSw7WU0W40GmWHUCT_glz_DVFbKWtpWm6-O6difbvSfm9nVipRuNO--YKV7E25U3wPyPd6BaEVvwGBepz7_WKAVQNmrtuLeOoTIGLoHfzlHVvdZ8qFoVIr1B
+rs-dgkkljTohVWcflpB8HAKluBwXS_blPm5ZdIp6oLsygfpufFpt4m
+}
+
+!procedure AmazonRoute53RoutingControls($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53RoutingControls', $name, $tech)
+!endprocedure
+
+!procedure AmazonRoute53RoutingControlsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53RoutingControlsLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53RoutingControlsGroup($id, $name='Amazon Route53 Routing Controls', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53RoutingControlsLg>', $name, $tech)
+!endprocedure

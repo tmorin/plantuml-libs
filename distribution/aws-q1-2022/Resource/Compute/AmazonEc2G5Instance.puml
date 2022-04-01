@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Compute/AmazonEc2G5Instance
+
+sprite $AmazonEc2G5InstanceXs [10x10/16z] NOp50K0X3CLIx_uBVnSWbyeJPZhviMLh2eC68R0cGL4iHvzTnD2t0m
+
+sprite $AmazonEc2G5InstanceSm [12x12/16z] NOs50G0X4CE2jTr_uNSbS6xyKIKL0KGNiCj1HBryN47KGGST9NltawF7cAk7WsaFZe_VVtTN
+
+sprite $AmazonEc2G5InstanceMd [16x16/16z] TOy50e0m00AnWF-_M5qdkhZT4eiGWh_2YAU-pw4EU9yv-f3VQ0x9ppVy5RLUoLy7bBnzuePn-sCxUfuuj5lVyF9yCSVJUnBpOmP-0G
+
+sprite $AmazonEc2G5InstanceLg [20x20/16z] {
+bP250GD020EFHvBz5wwxzrs02E_Qq60cc0zlBSiwBtbu4pSj2vZntPkcNiPrtyTDvoakB4PrYWDTv-dDDj1XgXFIxdDC515rpsK5QvsvH3nmYRzqv4thEeMh
+figbAjKdJuk4fe93s1O
+}
+
+!procedure AmazonEc2G5Instance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2G5Instance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2G5InstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2G5InstanceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2G5InstanceGroup($id, $name='Amazon Ec2 G5 Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2G5InstanceLg>', $name, $tech)
+!endprocedure

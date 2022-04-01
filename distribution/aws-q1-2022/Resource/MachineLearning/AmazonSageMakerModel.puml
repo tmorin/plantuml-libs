@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/MachineLearning/AmazonSageMakerModel
+
+sprite $AmazonSageMakerModelXs [10x10/16z] JSQv4GD10CCmtlvY_mLxb1aH-ESNf3x4rorqTwA1IKdkvLxZ52cnEKzpEjvv0Nu
+
+sprite $AmazonSageMakerModelSm [12x12/16z] NS71OGGn20GmWJV6JFy5vt-I7xiz2ruJznuadrX_z5oIOwbltabZ5K-OYLFrAlkLPL_BSB7xRYfxSAOhRO59RUCV
+
+sprite $AmazonSageMakerModelMd [16x16/16z] {
+RSUteK8n54J18rsxst-_tm0lOxBXcr0YFpiAZc7ctUKUJ0g_Rgyn9GGGrN6njbzNr3BZBQ0ROTsB9G0XuF-GC_F-26Vb0T7MIjWUGi3f1GmHo-iA7MFfTPGf
+p9wfrwcbZNHuw30NW5y
+}
+
+sprite $AmazonSageMakerModelLg [20x20/16z] {
+TSa7Gc0X60FX2VLFxd_VNULXrw5_y7ThG_VWevwckDZX9Y-0W9edfmNQnnnAZoMP_PknXY4lpSUQ5nCWv3u99EGrTu0-Znb3RAcrDex1CS3xfMkAY2OMj7c-
+Hff9zKGe0rwWj4LcEjG6O5400RB2DSiXLCgvjggEMMjUOtW81RTQl5TUAJjyhispdlu3
+}
+
+!procedure AmazonSageMakerModel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonSageMakerModel', $name, $tech)
+!endprocedure
+
+!procedure AmazonSageMakerModelCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerModelLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerModelGroup($id, $name='Amazon Sage Maker Model', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerModelLg>', $name, $tech)
+!endprocedure

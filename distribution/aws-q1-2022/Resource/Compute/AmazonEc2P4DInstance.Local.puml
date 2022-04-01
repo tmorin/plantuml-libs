@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2P4DInstance
+include('aws-q1-2022/Resource/Compute/AmazonEc2P4DInstance')
+
+' renders the element
+AmazonEc2P4DInstance('AmazonEc2P4dInstance', 'Amazon Ec2 P4d Instance', 'an optional tech label')
+@enduml

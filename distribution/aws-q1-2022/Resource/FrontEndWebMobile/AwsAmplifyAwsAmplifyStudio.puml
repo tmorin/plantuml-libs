@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/FrontEndWebMobile/AwsAmplifyAwsAmplifyStudio
+
+sprite $AwsAmplifyAwsAmplifyStudioXs [10x10/16z] Oq00RXY0Cvc0B5O61Y02if1LSh4pi85PNDme4cnGUHW3eX4
+
+sprite $AwsAmplifyAwsAmplifyStudioSm [12x12/16z] LSg30G0n343HNyJxptlcAqA-yaKR1qRVyksSakWCBIUYW5BQbfoi3EHCHpks3zlsPd8me1kdcT7uMG4
+
+sprite $AwsAmplifyAwsAmplifyStudioMd [16x16/16z] PSh50S0m34FH7mTC-yzRvhwBGUAhl17tBY99gEzqkBFSKE2Kf5XlY7fZwulKuPf5dUNUgbQMqqXEYIdKpYx26t0Nl0kBLjcrrdWNX8K4fvQ63hYLBF0t0m
+
+sprite $AwsAmplifyAwsAmplifyStudioLg [20x20/16z] {
+ZSg50GCW3031HrFo-yzRTpyaohzyCP4dTI9ULNKSUr1UzZ07G1kNtifYCNIj6EHUvo0HaUHcH5yjgqLkRDcZm1nSX18S91Szcnnjk5ez1WT5hkHiJYwgvHmR
+DzfXogFXcZohXOzs
+}
+
+!procedure AwsAmplifyAwsAmplifyStudio($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/FrontEndWebMobile/AwsAmplifyAwsAmplifyStudio', $name, $tech)
+!endprocedure
+
+!procedure AwsAmplifyAwsAmplifyStudioCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsAmplifyAwsAmplifyStudioLg>', 'FrontEndWebMobile', $funcName, $content)
+!endprocedure
+
+!procedure AwsAmplifyAwsAmplifyStudioGroup($id, $name='Aws Amplify Aws Amplify Studio', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobileFamily', '<$AwsAmplifyAwsAmplifyStudioLg>', $name, $tech)
+!endprocedure

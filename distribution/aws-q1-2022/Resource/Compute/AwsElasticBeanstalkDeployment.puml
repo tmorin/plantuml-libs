@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Compute/AwsElasticBeanstalkDeployment
+
+sprite $AwsElasticBeanstalkDeploymentXs [10x10/16z] TSQt0OD000GmVRxz5xR9LAYIrsH94zPKMCsfYaMsd3B9kQsdyB4_
+
+sprite $AwsElasticBeanstalkDeploymentSm [12x12/16z] ZSR50SLG30CmFNJsN_WpjBSgO3j92wqoIrhrB2IQ0ak9iXdD8FOhbvUv6TrBxTe-9YxsEm
+
+sprite $AwsElasticBeanstalkDeploymentMd [16x16/16z] fOh50SG03CCKzluB7vRxhCAnkM4QEM0bgR52f3C9Q13pxGNGrWo8RuSA0h4aaQHXYOY0gB_DDVgU2U7yIVhlM2YPjOpjNfpR3O_kOEKD
+
+sprite $AwsElasticBeanstalkDeploymentLg [20x20/16z] {
+lSZ5GG0m3030QwFxBumxlBbu_2rw9u2ixhvqemQxWItHSajcp8M9qimsSxo-8YqVHPM-vkllDalKnn33MKmwOd471N9sAyZ6RHzM5s9zsWctDdsnJ_huPi7_
+_zAdHm
+}
+
+!procedure AwsElasticBeanstalkDeployment($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AwsElasticBeanstalkDeployment', $name, $tech)
+!endprocedure
+
+!procedure AwsElasticBeanstalkDeploymentCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsElasticBeanstalkDeploymentLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsElasticBeanstalkDeploymentGroup($id, $name='Aws Elastic Beanstalk Deployment', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsElasticBeanstalkDeploymentLg>', $name, $tech)
+!endprocedure

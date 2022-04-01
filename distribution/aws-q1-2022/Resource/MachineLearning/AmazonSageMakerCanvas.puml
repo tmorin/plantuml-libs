@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/MachineLearning/AmazonSageMakerCanvas
+
+sprite $AmazonSageMakerCanvasXs [10x10/16z] PSd50S0040B1FI3QVxznpxmG_ehsq44g8HI7BOrho95whobBKkwtBtJm3
+
+sprite $AmazonSageMakerCanvasSm [12x12/16z] JSY73SCm4CLGNadmJ_iFR5lzeH7a5hOKvZXTaR6ylxaaatWRhFjQ11_r_xPxx-PlL_9VF-n7RxsSjsjh3m
+
+sprite $AmazonSageMakerCanvasMd [16x16/16z] RSv50aGX30FGa2A1-zztf3BwtwvU_3hx2pP5eJnY-tGHDt5AMjJmVX9fUlpSKhnkgFtA-bTCUhpFZBY97iyEVlGRna35V89PndJv_vTr1m
+
+sprite $AmazonSageMakerCanvasLg [20x20/16z] {
+RSw54G0n24JHnJdwx_VSmkIFlmXWrb8zGw55lfi7XupchTXDMheRM8dq2A9y_vUlgUPfyxaAr9UUblXTrijiOhXDCkMnL3hDol0OFyQf08Qt18GrE_9yBPSp
+VtRcbZZCUxm1
+}
+
+!procedure AmazonSageMakerCanvas($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonSageMakerCanvas', $name, $tech)
+!endprocedure
+
+!procedure AmazonSageMakerCanvasCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSageMakerCanvasLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSageMakerCanvasGroup($id, $name='Amazon Sage Maker Canvas', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonSageMakerCanvasLg>', $name, $tech)
+!endprocedure

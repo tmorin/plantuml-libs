@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AwsBackupDatabase
+
+sprite $AwsBackupDatabaseXs [10x10/16z] TS490S1G20KW_gM-_eMNOE17Jc1VdWF7Kd803WA29HDWK2087m
+
+sprite $AwsBackupDatabaseSm [12x12/16z] NSkt0SD030F0-sIG-m_i95L2W-o9J02gDc043LrZrgkjZhHarVJr8fWAvzO3LeOv0fh10RloUuCpS2OV
+
+sprite $AwsBackupDatabaseMd [16x16/16z] RSxL0KCn34FHQvRt7xZCVOdf_8dZ9_cN5tsoQnGlsHgGSuDFDJbgGpaW1az088GK-AnMC388nnsOMm7wSVDm-irMABE4Nk70mEiHfplSlM8VdldoApR06G
+
+sprite $AwsBackupDatabaseLg [20x20/16z] {
+VSg5bKKX54Mn8FV1wR_WqU-syInywiZmM8c7sgv7gnWzxVuJM7M2RWQp1YCwrbp5hZdccbfgTziSfE4uY55wDdQjVSo3dWNxj3WO0zHmjG1ojNOokrsisibQ
+gMGdJJYLZePULzi5SiIfch9_MnQdaW5MbZTz0m
+}
+
+!procedure AwsBackupDatabase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupDatabase', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupDatabaseCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupDatabaseLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupDatabaseGroup($id, $name='Aws Backup Database', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupDatabaseLg>', $name, $tech)
+!endprocedure

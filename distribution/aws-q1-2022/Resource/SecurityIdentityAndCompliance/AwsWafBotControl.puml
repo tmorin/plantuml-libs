@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafBotControl
+
+sprite $AwsWafBotControlXs [10x10/16z] 5S450GH1000XJbUcVzuN041K8683WVHdoamanoCUtEzztmSs787PGry
+
+sprite $AwsWafBotControlSm [12x12/16z] JSQtOGCm40GmC3pJxJ-lBNL21Rz2Upb09bDpC37fHKC5nPFtjNKPDqFUlN7SpEyrMkxNFj0zJODJqtK4w6d8Fm
+
+sprite $AwsWafBotControlMd [16x16/16z] {
+NKg73GGW409B5Db_tqVzpYL7nJzyFirFG0-wI2ZpjU1MrtA_rRQljtv_zhmHBgEPF6b8l9XG8aChUNLNYM61t8d9gTtZ_81X7pyavrHxGL3oZGKGnyx6VA0d
+3MQKbJkpYxVY0m
+}
+
+sprite $AwsWafBotControlLg [20x20/16z] {
+RT073WCX34JHRx0Nmzp_lj58wScZzy8_5tV2tkf7vl6yTrO7DAIhRpEN1b07h32bLuuOM6EXz-q387KEjW8GR3rCPj_xk7DD83Mx9GY9ZNJTrpglhBa9tTU6
+ohN3fbnRoSc7lkyjHkRLgSma6gm6Z0i1mRth17U1i6gcraJKRX0FqP8AqxyFvmO
+}
+
+!procedure AwsWafBotControl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsWafBotControl', $name, $tech)
+!endprocedure
+
+!procedure AwsWafBotControlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafBotControlLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafBotControlGroup($id, $name='Aws Waf Bot Control', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafBotControlLg>', $name, $tech)
+!endprocedure

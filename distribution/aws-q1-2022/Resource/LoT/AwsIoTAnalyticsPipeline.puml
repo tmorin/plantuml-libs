@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTAnalyticsPipeline
+
+sprite $AwsIoTAnalyticsPipelineXs [10x10/16z] Oo04c460WH7CvcHY0B8W09N5oWfciB9XCm8
+
+sprite $AwsIoTAnalyticsPipelineSm [12x12/16z] ZOg50S1020Fl1KBt7xZkVZW9Vv3gF4MYqGX1GX3oPH-uxfk_bCH0AOK7EW
+
+sprite $AwsIoTAnalyticsPipelineMd [16x16/16z] fSTL0W0X203HiVN-5ruJVhPz1WoxKafUrq26aYPgrQuJO-2wk-ksmsZdwkrINQdJq8tremC
+
+sprite $AwsIoTAnalyticsPipelineLg [20x20/16z] lSYr0SCm54319ttUV-34JAtXokCB7X7AAWP20IchW6RpwMg_O53LaykD7hhArN9c5gpIp8qk8esL37ZQ7m
+
+!procedure AwsIoTAnalyticsPipeline($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAnalyticsPipeline', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTAnalyticsPipelineCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAnalyticsPipelineLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAnalyticsPipelineGroup($id, $name='Aws Io T Analytics Pipeline', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAnalyticsPipelineLg>', $name, $tech)
+!endprocedure

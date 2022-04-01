@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/ManagementGovernance/AmazonCloudWatch
+
+sprite $AmazonCloudWatchXs [10x10/16z] FSY74S0W581GkwBxxnj-6jVU0QneJdvkbMfmIzr3ARY6yYPcLxLDnJenSwzmf97LIou
+
+sprite $AmazonCloudWatchSm [12x12/16z] JSY50SD030J1n7IW_lkrmBIF8sMi0EW3AyF02LwmlKZQI_QkBf5ZMxzSU_wPmxyMYE6A-v6JQ6X58WR9-hyu0G
+
+sprite $AmazonCloudWatchMd [16x16/16z] {
+NOo50GCW3C16FV3_lyEcGLDZKOUSy1VWBz2tgSGDz1KmI3k1FWFAnBszlB49FQwTGydsFUD1AiTb7dSYQiuSKtJIg2YeCGCB5vK0nWrWfX7JRs12rFPFWEb_
+WIS
+}
+
+sprite $AmazonCloudWatchLg [20x20/16z] {
+RSo54KGn24LH71xflzwLPFYhT_mWsDMKp_07yGVn1_i84-c5lP41f0ps4nNFWjZ76Z8_wJ9A34eSS_I6y4BnCTi_GGLD-B7C9sfg28EEjOfP2W6M2LIjrIU9
+A5O0U1cuF7JZMgCmJGuPcm3XRKS7yMCzDdhX7G
+}
+
+!procedure AmazonCloudWatch($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/ManagementGovernance/AmazonCloudWatch', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudWatchCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchGroup($id, $name='Amazon Cloud Watch', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchLg>', $name, $tech)
+!endprocedure

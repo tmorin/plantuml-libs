@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/MigrationTransfer/AwsMigrationHub
+
+sprite $AwsMigrationHubXs [10x10/16z] DSR70S0m24KnN7cVx3zlt7KIaq-zIwzhrlgiL0t8xY6K79yBoQnMra1KY0XBpGfyiIxDxMeQ
+
+sprite $AwsMigrationHubSm [12x12/16z] HSTB0W8X4CHGlbqLlFzz1LfdiihpIRk8W1SSH8ATefO3yBIxOqWB1gDLz_sBoYp5pVjN8wYgzdu4bktFsid0_WjE-rzy0G
+
+sprite $AwsMigrationHubMd [16x16/16z] {
+LOnPWWKW2CFSWDQv_tsdzEtnAn60APE2_2fs_apGePQU0nrcp0W7MQpZZJdbLpx96ObZLpZCCmhOzil9ZR5q5FO0T7TWzfdhWJwx9rw-9tL-jVzTCm2IxO_0
+O2DNC3Jot_0F
+}
+
+sprite $AwsMigrationHubLg [20x20/16z] {
+RSi54WD1449HnheXU__xXf5uVlahu2btCPD-KNzGl_WqO20EQiNHQXd8tPGEnFoorCKtcqNiC6CiCx999TAOTPknIrdw8Dcup5Zc7z7PAxaD6lAgaBMJF3kI
+aXYzqPcClSbbWCSSK3WIQCkkQwkCSiTs7NhPKxKxzecst-KT
+}
+
+!procedure AwsMigrationHub($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/MigrationTransfer/AwsMigrationHub', $name, $tech)
+!endprocedure
+
+!procedure AwsMigrationHubCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMigrationHubLg>', 'MigrationTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMigrationHubGroup($id, $name='Aws Migration Hub', $tech='')
+  IconGroupElement($id, 'MigrationTransferFamily', '<$AwsMigrationHubLg>', $name, $tech)
+!endprocedure

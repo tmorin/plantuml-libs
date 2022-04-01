@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerRunCommand
+
+sprite $AwsSystemsManagerRunCommandXs [10x10/16z] TS630S100C30rCZ-yzPutb7HdoQKzIJplA2o0CgZ9J82pAU1tmu
+
+sprite $AwsSystemsManagerRunCommandSm [12x12/16z] VSd50S0m30J1DGdxhpTm_sHiCNzIZ35636aUZHZTTjBCYi53rrmy3f8eIVEeAPilDm
+
+sprite $AwsSystemsManagerRunCommandMd [16x16/16z] dScr0SKm5CLGcH_iFs_8j_wGKqgy4YwJScj51kCokwp2pPaF7AvQa-0I98z9vU8uc5bhmswTncqXit1Bn7b45OtQXUzE
+
+sprite $AwsSystemsManagerRunCommandLg [20x20/16z] fSQ72KD134J1TqaNjlz-BLYG2_X36hvhym_ipR8dj8HQkPsdX5uHDXP5SDAy7HdzGazDh0afCp0XvtA0b_hXsKBOwfIB7IY1YH8JUxq8R9wo-EO7
+
+!procedure AwsSystemsManagerRunCommand($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AwsSystemsManagerRunCommand', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerRunCommandCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerRunCommandLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerRunCommandGroup($id, $name='Aws Systems Manager Run Command', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerRunCommandLg>', $name, $tech)
+!endprocedure

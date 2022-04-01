@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTGreengrassComponentPublic
+
+sprite $AwsIoTGreengrassComponentPublicXs [10x10/16z] LSZ50KCn00KWuddx3rpl5uwuwOgVHi3GBOP3QqAgflcfaWX64JaQJm
+
+sprite $AwsIoTGreengrassComponentPublicSm [12x12/16z] NSd50S0m243HZyF-2pTswajm_ag5ozDwZGeOP3cpJu6oDQIX8WAfQ5FC2ck4NLSuKDfgkc_WnPQmTPeFZpRR1m
+
+sprite $AwsIoTGreengrassComponentPublicMd [16x16/16z] RSY5WKKn202mK5uBx3_mkNmBZjUwmxyrO_u_dRA8Kw1PLOUv81S3Li6WVKjwKan_e2QqKeorj1P3sUtZpi7D_P74thi-D0sgV3i1CexgZ0vykyQa6z6-lGC
+
+sprite $AwsIoTGreengrassComponentPublicLg [20x20/16z] {
+VP250GGm20Cf46J_XHzvD-gNrA1_OI7lI45vdi5nrq1eFh6PoynIrzK8xiR5V5snnrLNrTTdr_Pm4EI5UQ_GIawKuWYcQAFeN1xTCqWog9dcARPB4WnBGhEz
+WzR7sFNU1lR77TTFS_eZEt9BYPJeMSlzxHMdWpAyjES83deFndrw0G
+}
+
+!procedure AwsIoTGreengrassComponentPublic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTGreengrassComponentPublic', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentPublicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTGreengrassComponentPublicLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTGreengrassComponentPublicGroup($id, $name='Aws Io T Greengrass Component Public', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTGreengrassComponentPublicLg>', $name, $tech)
+!endprocedure

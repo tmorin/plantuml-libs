@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationConverter
+
+sprite $AwsMainframeModernizationConverterXs [10x10/16z] JKg50S0W3AlR__zkE5HZy5IDgmlG-DOkJY6Y8cvq_buzF3MQZiwbNWpm0m
+
+sprite $AwsMainframeModernizationConverterSm [12x12/16z] LSl50GH020Imh0Fzztkk-Q3ZNxQxH5-qI8A3DfAn69FYDD1RjUwjtisCKoT0eDwnzoB9Rqi-BAu
+
+sprite $AwsMainframeModernizationConverterMd [16x16/16z] TOvL0WCm24EHIkZz3xmipELz4AdQ3-h6LFBYY0YEgnlGbYm9ytxDVjz_aWCc0FXnODgJe_adkpDpD54Hp16bE9Vs9qU56L8FzmLxz1yi0Ek_TKcqLMGrHYu
+
+sprite $AwsMainframeModernizationConverterLg [20x20/16z] {
+bL250GGn24kWHlRVzwNsBfSAhlY4h0LRAcKin60PtgK80YWLW6iw8nkcRFAXys9OZeZIUHK2K9fb6qa8fCKkRAqr2DV_4Uh_OLsJ145QLK7vz5lTmTI9AxPK
+OgKh74hRdRUilPcT8n5x-ku-uS82oq8Npm
+}
+
+!procedure AwsMainframeModernizationConverter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationConverter', $name, $tech)
+!endprocedure
+
+!procedure AwsMainframeModernizationConverterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMainframeModernizationConverterLg>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMainframeModernizationConverterGroup($id, $name='Aws Mainframe Modernization Converter', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsMainframeModernizationConverterLg>', $name, $tech)
+!endprocedure

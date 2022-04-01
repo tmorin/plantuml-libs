@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/GeneralIcons/Disk
+
+sprite $DiskXs [10x10/16z] Oq06l53Cm0Jcye1vZ20HRY1c1CjnWDJmCd0oGXLn0Ybki0mZ4BE0TS6CuUPWuWQA
+
+sprite $DiskSm [12x12/16z] LSQ53KCn54FHyuDFYVUVjwAIyVhNazagO3sVUnv04TmHbCazUnoYCRQ4gyY88eAJmc01Bfxw82et0oy
+
+sprite $DiskMd [16x16/16z] {
+RSi73aGX24NHoxm94i7zBtSA6jE-bNBWQQagA-raLg_-VUuqhwlx71cWFrQkndEtDSotKtzfWsNU887bu0HGL5UNfzv0T9yob82C7iFZtoKRt-Nged7IiVze
+ejA5cXLRVG4
+}
+
+sprite $DiskLg [20x20/16z] {
+TOs5eGKW203FLcB_SN_0wpYbY--CewQxSMVw22jUkA2BAp8kgSeTY-HSFA807cvHt-4qXH7D-nIwrKlFYQw3-Pz4kUMy5Yki7jDjPirnQ6SLeCxis_sifaKW
+3kGrevzIJ-wXHR7QNX8fF2Gf1BF_-y83HSCCUqXTfuOsagdtilfkTQXt7cbpZaBo2m
+}
+
+!procedure Disk($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Disk', $name, $tech)
+!endprocedure
+
+!procedure DiskCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$DiskLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure DiskGroup($id, $name='Disk', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$DiskLg>', $name, $tech)
+!endprocedure

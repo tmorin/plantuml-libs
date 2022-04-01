@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/Compute/AmazonEc2AwsMicroserviceExtractorForNet
+
+sprite $AmazonEc2AwsMicroserviceExtractorForNetXs [10x10/16z] LKo50G0m2CBs_uVNQGU0pxBvxAUg8aa0dWSvBslLnyJpfiq5eA4YunJSQmK
+
+sprite $AmazonEc2AwsMicroserviceExtractorForNetSm [12x12/16z] NSQ5OGH030F1ERBLVyF9CmdNhxBhIGEhe1jc2cNa54NgaCStWb0zTURjfsApjApAfPrrm11FLG_u1m
+
+sprite $AmazonEc2AwsMicroserviceExtractorForNetMd [16x16/16z] {
+RKq50WH123B1_x_uHhtUjHFaNb3-tU44-glBpShePFdSH75w4w-Kf0csrtDRypbVj9Ew1plQVC-UBpBDgZuzgnhpkUzRBepj8oKZm80NK8wcEevESxGIEayV
+SUeM3m
+}
+
+sprite $AmazonEc2AwsMicroserviceExtractorForNetLg [20x20/16z] {
+VOrL5W1H24Br6R3_5SzXkh6l7zYV4d4ZnM7DSI6npPsuncL78NVKkJ2pf5RIBNOcMxIRBIm6h4IfXaXgaBwp16Cxzb6fxgLFEsjdGMzTPAkFe5oNSg58rSv6
+oc9XWQZkHWMInSp5trTNLOJjefdJhaAF7UsAycsT
+}
+
+!procedure AmazonEc2AwsMicroserviceExtractorForNet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2AwsMicroserviceExtractorForNet', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2AwsMicroserviceExtractorForNetCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2AwsMicroserviceExtractorForNetLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2AwsMicroserviceExtractorForNetGroup($id, $name='Amazon Ec2 Aws Microservice Extractor For Net', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2AwsMicroserviceExtractorForNetLg>', $name, $tech)
+!endprocedure

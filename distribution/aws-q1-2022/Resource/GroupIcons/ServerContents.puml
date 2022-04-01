@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/GroupIcons/ServerContents
+
+sprite $ServerContentsXs [10x10/16z] uyGEc40ODuk1WO69a3e4
+
+sprite $ServerContentsSm [12x12/16z] uyG3M8601SPXOc9YHvB3nkPWO6105YV4PW82HZGx0G
+
+sprite $ServerContentsMd [16x16/16z] uoG6i4C0dCy69faGV2OWO672BSy81Cnuv1c0W0bTddm-2oi80Fc40G
+
+sprite $ServerContentsLg [20x20/16z] uwGOC39103EI61E2HeYnWfK1nGYeus070Mpg28knC800DdLq5sE50dQIGXC
+
+!procedure ServerContents($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GroupIcons/ServerContents', $name, $tech)
+!endprocedure
+
+!procedure ServerContentsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$ServerContentsLg>', 'GroupIcons', $funcName, $content)
+!endprocedure
+
+!procedure ServerContentsGroup($id, $name='Server Contents', $tech='')
+  IconGroupElement($id, 'GroupIconsFamily', '<$ServerContentsLg>', $name, $tech)
+!endprocedure

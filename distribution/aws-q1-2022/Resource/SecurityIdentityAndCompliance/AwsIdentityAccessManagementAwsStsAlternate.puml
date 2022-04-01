@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsStsAlternate
+
+sprite $AwsIdentityAccessManagementAwsStsAlternateXs [10x10/16z] Oq05J2041koi41OtCpjKZ0M8eRACN30MN8oTWPiRmW8ns40iPX00QWS
+
+sprite $AwsIdentityAccessManagementAwsStsAlternateSm [12x12/16z] LOk50G0W408nl_QVryupFW1y93_HrWUaw5fZeuyWyEg3PkZgs-_SwX4Ls7rZzpsPLvzQfTCdbqPlEY5K
+
+sprite $AwsIdentityAccessManagementAwsStsAlternateMd [16x16/16z] TOl50SD04CHqiDn_lU6OhT-0E26vK001z2e5_9Ud8kIQ2upHb-pgHfCb5u2mv1RGOytWsLZombtsCMh8M79t2fKbwoVRjTzYGU49
+
+sprite $AwsIdentityAccessManagementAwsStsAlternateLg [20x20/16z] {
+XSs50SCm40D0FHlsdxSGL8eodmcVqoTbo69jwKMNGVEmc9czhjPXXKYsYQTXNisYbXbRX063pTTPPqChbPou6AGF1nlbZuMuEuAj04oy_57-42absqybcmAo
+z9iDerGiPa5n07S
+}
+
+!procedure AwsIdentityAccessManagementAwsStsAlternate($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsStsAlternate', $name, $tech)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsStsAlternateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAwsStsAlternateLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsStsAlternateGroup($id, $name='Aws Identity Access Management Aws Sts Alternate', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAwsStsAlternateLg>', $name, $tech)
+!endprocedure

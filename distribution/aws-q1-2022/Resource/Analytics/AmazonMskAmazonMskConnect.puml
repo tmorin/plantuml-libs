@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Analytics/AmazonMskAmazonMskConnect
+
+sprite $AmazonMskAmazonMskConnectXs [10x10/16z] Oq01ZCnm9WUCmSt0pGwXGO0JY9c0R2v649yRZ5ZWB6uE4CaCf3Y0D4mJ
+
+sprite $AmazonMskAmazonMskConnectSm [12x12/16z] NKq50WH126ASbl-_rxZRjXFmbQPtJVIhLcd_OerIOhvcr8CvASoVES1GaHorVCQEYdcIhXEzpJaO3lr3CIxa8ajn
+
+sprite $AmazonMskAmazonMskConnectMd [16x16/16z] RSU5eKKn20MmLBc5_UVzBi-27g_rTETITxb6tkNinOzn96FEQ71IdqYzEdgBX5OZmBMTL5CFq0BrC_I2Gj-T6ZyPPoqb8qBjYBqS_NH2TQpBZwpfpWAy0m
+
+sprite $AmazonMskAmazonMskConnectLg [20x20/16z] {
+VSg50KCn24NH6uZ1st_VVkf-8YZ_sE1TInTlbXEyqqxUZ6cllGu25wjneMb45U7q34feuvI6Ob4shigmsCsDuZOnBPGq4nSjW2u3aYiz_jalIp4VFLHLq1vx
+bUzEWjO1-V7FP0nC0d341dQLLzErURTaV7YqJW
+}
+
+!procedure AmazonMskAmazonMskConnect($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Analytics/AmazonMskAmazonMskConnect', $name, $tech)
+!endprocedure
+
+!procedure AmazonMskAmazonMskConnectCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonMskAmazonMskConnectLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonMskAmazonMskConnectGroup($id, $name='Amazon Msk Amazon Msk Connect', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonMskAmazonMskConnectLg>', $name, $tech)
+!endprocedure

@@ -1,19 +1,21 @@
-import {DefaultPackageContext, LibraryFactory} from "../../workdir-generator/factories";
-import {Library, Package} from "../../workdir-generator/manifest";
-import {Eip1Factory} from "./packages/eip-1";
+import {AwsQ12022Factory} from "./packages/aws-q1-2022";
 import {AwsQ32021Factory} from "./packages/aws-q3-2021";
 import {AzureV2Factory} from "./packages/azure-4";
-import {Fontawesome6Factory} from "./packages/fontawesome-6";
 import {C4modelFactory} from "./packages/c4model";
 import {C4nordFactory} from "./packages/c4nord";
+import {DefaultPackageContext, LibraryFactory} from "../../workdir-generator/factories";
 import {DomainstorytellingFactory} from "./packages/domainstorytelling";
-import {GcpFactory} from "./packages/gcp";
+import {Eip1Factory} from "./packages/eip-1";
 import {EventstormingFactory} from "./packages/eventstorming";
+import {Fontawesome6Factory} from "./packages/fontawesome-6";
+import {GcpFactory} from "./packages/gcp";
+import {Homecloud2Factory} from "./packages/homecloud-2";
+import {Library, Package} from "../../workdir-generator/manifest";
 import {Material4Factory} from "./packages/material-4";
 import {Simpleicons6Factory} from "./packages/simpleicons-6";
-import {Homecloud2Factory} from "./packages/homecloud-2";
 
 const PACKAGE_FACTORIES = [
+    new AwsQ12022Factory(),
     new AwsQ32021Factory(),
     new AzureV2Factory(),
     new C4modelFactory(),

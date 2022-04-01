@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticFileSystemFileSystem
+include('aws-q1-2022/Resource/Storage/AmazonElasticFileSystemFileSystem')
+
+' renders the element
+AmazonElasticFileSystemFileSystem('AmazonElasticFileSystemFileSystem', 'Amazon Elastic File System File System', 'an optional tech label')
+@enduml

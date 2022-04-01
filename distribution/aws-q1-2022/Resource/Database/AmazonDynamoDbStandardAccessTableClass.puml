@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/Database/AmazonDynamoDbStandardAccessTableClass
+
+sprite $AmazonDynamoDbStandardAccessTableClassXs [10x10/16z] Oq0272n0WXF4uc60aQmC75oi41P43CI4OsuGoGNdCu9eBh0o9Y01CmG
+
+sprite $AmazonDynamoDbStandardAccessTableClassSm [12x12/16z] LKg50S0W30jQ_V_U3OTg36-Pf5YqDYXJIWrRZI4nfri_sCt-ozvLQgYx6jIRqZ2uDZTnmoa3KI0g5WsxMk83
+
+sprite $AmazonDynamoDbStandardAccessTableClassMd [16x16/16z] {
+RSt5eKD1243HYup1zD_kCxucEIiSFh2TbpqeOPJft1AAhEhdC15jQrQ-mDnDu2SlebfvaI4LpgrS0WPm9QlQP3Q8LdcB9830GxWDzoUtpSqi0DqBkfdF7lMc
+FYlf_3Evd
+}
+
+sprite $AmazonDynamoDbStandardAccessTableClassLg [20x20/16z] {
+TT05WWKX30FGODNS_xghxNpFA0y7dpB48ZDTvaN6NNNEekLtFGetRpRRBEtCCUQMjBRpwn5-1d1dL_JLIB9CYkHWHI-mVWXaBMzo_ZVRE2u3ayoUZQ6rGaFR
+60xT_-RqGe7ZtrOVWYuE09CCT6Z_aqq3e1xXDkclPqkyPlszlm4
+}
+
+!procedure AmazonDynamoDbStandardAccessTableClass($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Database/AmazonDynamoDbStandardAccessTableClass', $name, $tech)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardAccessTableClassCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbStandardAccessTableClassLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbStandardAccessTableClassGroup($id, $name='Amazon Dynamo Db Standard Access Table Class', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbStandardAccessTableClassLg>', $name, $tech)
+!endprocedure

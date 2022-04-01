@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonCloudSearch
+include('aws-q1-2022/Architecture/Analytics/AmazonCloudSearch')
+
+' renders the element
+AmazonCloudSearch('AmazonCloudSearch', 'Amazon Cloud Search', 'an optional tech label')
+@enduml

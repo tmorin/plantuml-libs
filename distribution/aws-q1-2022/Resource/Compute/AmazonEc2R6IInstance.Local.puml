@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2R6IInstance
+include('aws-q1-2022/Resource/Compute/AmazonEc2R6IInstance')
+
+' renders the element
+AmazonEc2R6IInstance('AmazonEc2R6iInstance', 'Amazon Ec2 R6i Instance', 'an optional tech label')
+@enduml

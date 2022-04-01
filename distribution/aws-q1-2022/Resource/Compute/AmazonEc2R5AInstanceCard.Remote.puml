@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEc2R5AInstanceCard
+include('aws-q1-2022/Resource/Compute/AmazonEc2R5AInstance')
+
+' renders the element
+AmazonEc2R5AInstanceCard('AmazonEc2R5aInstanceCard', 'Amazon Ec2 R5a Instance Card', 'an optional description')
+@enduml

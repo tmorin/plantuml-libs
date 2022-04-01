@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights
+
+sprite $AmazonDevOpsGuruInsightsXs [10x10/16z] LSE53GGW00Imud3xx_kkJUfVRXXpDdD1DoAPa7Gb976sIQqaYhVw66-1Am
+
+sprite $AmazonDevOpsGuruInsightsSm [12x12/16z] PSR70SGm40EneLQ9xB_Voz762voCb8g7CAmIgqhUqDNHderCzsq4E50qbEmmWuJinKgf6UqR04pM4dFTR80smjVpLm
+
+sprite $AmazonDevOpsGuruInsightsMd [16x16/16z] {
+TSVPWGCW4CDGmIoCxVxxtTntylGbVXaEWnkvcLO1TOHnQs58dRI0lyh4MnllWESn392H6UY-Fba56W8h2MB6473RFjzMC9vd30dENoTS67NtWjqdAavAX6SZ
+uPMvE
+}
+
+sprite $AmazonDevOpsGuruInsightsLg [20x20/16z] {
+VSh5WG0020F1nI7z5tpkChy8_4yINwHMQ1Jm9YSyAiBEWUf75elQvn2m6O-yS_tvtc68pA2h1CX4zrjdgTYpq7WZdfHSf86L4l5YV0q_Eq3eKIgnqq8rY7ha
+hAxekx50-2FZaLQ0DUAUBPZPM_UDDxKpqq3F2ndFN22-SONWknK_5MyU
+}
+
+!procedure AmazonDevOpsGuruInsights($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MachineLearning/AmazonDevOpsGuruInsights', $name, $tech)
+!endprocedure
+
+!procedure AmazonDevOpsGuruInsightsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDevOpsGuruInsightsLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDevOpsGuruInsightsGroup($id, $name='Amazon Dev Ops Guru Insights', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonDevOpsGuruInsightsLg>', $name, $tech)
+!endprocedure

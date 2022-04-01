@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessAnalyzer
+
+sprite $AmazonVpcNetworkAccessAnalyzerXs [10x10/16z] JSY50G0n20J1ZIBNVxtl4dI0DHfn8ndeSWarq4dfN7aHdLT6nFcfFF6gch-gjUy
+
+sprite $AmazonVpcNetworkAccessAnalyzerSm [12x12/16z] LSg30G0n343HNyJxptlcAqB-J7jnwcnAsX4ush9lZEvP7G8cZDmYv9vJr8xe6zhHFxLgyyaR_SdztSbDhG
+
+sprite $AmazonVpcNetworkAccessAnalyzerMd [16x16/16z] RSV7eKCn200mOR-2OVzvVqrFT9CFeglFXoOqW0OZwmIIReOzO1roH29wewYUqGL7A8mv0mWDQ-b_pW0ADCVwfKQDZ0PGS-BXTkFnUTeU3m_lF-St
+
+sprite $AmazonVpcNetworkAccessAnalyzerLg [20x20/16z] {
+TSlLeKL120F0MSuw_TVxvBhE7oJnLTkvgYTvO4tkTe3UX8lOQCXSwQm7FHT1gvTfiQG38Wz45ZD7rfm5ncH27YdBPNP8Y973tGObcxpeMdUHJgApSvr8zkL7
+EP5bpPWZkhjqmFEFBUBv5pdUj_Lz6oUrkslzB7u1
+}
+
+!procedure AmazonVpcNetworkAccessAnalyzer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessAnalyzer', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcNetworkAccessAnalyzerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcNetworkAccessAnalyzerLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcNetworkAccessAnalyzerGroup($id, $name='Amazon Vpc Network Access Analyzer', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcNetworkAccessAnalyzerLg>', $name, $tech)
+!endprocedure

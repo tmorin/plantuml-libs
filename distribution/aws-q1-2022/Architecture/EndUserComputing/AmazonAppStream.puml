@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Architecture/EndUserComputing/AmazonAppStream
+
+sprite $AmazonAppStreamXs [10x10/16z] BSY74S003C90qWtils_STErFaNtP-vBB59htns5AoI-Pqj7tIIM1U49544-u21BX9hCV
+
+sprite $AmazonAppStreamSm [12x12/16z] DSc74S0m20H1K3xSVxycI3zfR_x4jc-j1I_2ehNXHkiPcnTk8nRXjkcMQnjkTH_B4DJzPGYeEsC1svr1x0S
+
+sprite $AmazonAppStreamMd [16x16/16z] NSr15i0G54DH0FdT_tuhEO3CxclHjAgLFk0eCfxly4NBEVjAmyyJlbOSWROpq0hZ5TaSxRRDJuVMR0G7FwpG3Kz_8tJ3qoFGyFG8qEWh_
+
+sprite $AmazonAppStreamLg [20x20/16z] {
+PSu73i1G209Glt_Itl--ZKWtsIyEbZ8p8mBy4J-aZNh7FGtsc6nZqb24QPDsJz8sl2TfmYbiCsnRgahhii99kotGQKXROJ59ixH5uwJnkqoJ5hEqVHTw68fC
+QFeUTYgKsnvAepxm
+}
+
+!procedure AmazonAppStream($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/EndUserComputing/AmazonAppStream', $name, $tech)
+!endprocedure
+
+!procedure AmazonAppStreamCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonAppStreamLg>', 'EndUserComputing', $funcName, $content)
+!endprocedure
+
+!procedure AmazonAppStreamGroup($id, $name='Amazon App Stream', $tech='')
+  IconGroupElement($id, 'EndUserComputingFamily', '<$AmazonAppStreamLg>', $name, $tech)
+!endprocedure

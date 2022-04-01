@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTDesiredState
+
+sprite $AwsIoTDesiredStateXs [10x10/16z] NOd50G0n48I8B_qNVAxXCm8lZG-Z-TngkHeK94yjOSrDxUbZAoddH7O5
+
+sprite $AwsIoTDesiredStateSm [12x12/16z] JOQ50GH14C8o2jj_mUzoQBZg4F5A1G7iBY00WWLCl5a0AVMRJO6_t3-6gd5efJ6rzhnOp3a-BoMn3ZjauWu
+
+sprite $AwsIoTDesiredStateMd [16x16/16z] {
+NOc55G1H2CEA5Ch-2vzhla1UyCSeAjTNOZVWdveGLhGIM27s8S3EHPTpPUBfD60QcfNR4zv0toxeuuMytIFsFhFw66aQWZrgJIUv5KXLsokoQkq9CxjU6a3l
+Q5jVTXWM
+}
+
+sprite $AwsIoTDesiredStateLg [20x20/16z] {
+RP3N5S0m20C1cwBz5mvAR_fGxbtSvJTJ4GL1E6icbN-7ZVt3R3G56wIxupbkUDVcp1ikjwQnxguhr2YUhX68Y8pBgOeHB1xZykCcuUbKH25kTFnTmBQ7pshd
+Q8G4zt1OqI6pNHRNgxzzFJg3vHlo0OUOgkrb4q8fFiptuXeB
+}
+
+!procedure AwsIoTDesiredState($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTDesiredState', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTDesiredStateCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTDesiredStateLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTDesiredStateGroup($id, $name='Aws Io T Desired State', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTDesiredStateLg>', $name, $tech)
+!endprocedure

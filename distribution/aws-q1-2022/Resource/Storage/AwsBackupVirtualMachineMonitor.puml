@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AwsBackupVirtualMachineMonitor
+
+sprite $AwsBackupVirtualMachineMonitorXs [10x10/16z] FSgr0GCn00J14UlwBzX-3XS0WAL0COI0f0bq10aedskC-vieaLO3LYdu0m
+
+sprite $AwsBackupVirtualMachineMonitorSm [12x12/16z] NKm54W0X40BT_F-7Zv79CvV4VnsEXqaDDK4W19lGerietYAkPdlPHz9rh1ms_uAA7larN_TOpabYGwCJywOF
+
+sprite $AwsBackupVirtualMachineMonitorMd [16x16/16z] {
+RK-50O1023pws7zWzUsYE_0BHVRfU850Yt5rmwMWZWnP0pL4ov1gYx15q8j3hIbiZLPRAKTcXQO0ekUcn33ZokSQlVgtVNhENpjvxNTTX5HqgdlJ7GF4mBLM
+hvUwQxDc
+}
+
+sprite $AwsBackupVirtualMachineMonitorLg [20x20/16z] {
+VSx5OIX020JGjmhJVy5V8tiAxemVA4cyDCpY3WPWfayVTk_K0YCSRjXaGGQuuu20O2J9GYPeJiCfUe8b6nYP1bGo05GQ8k3zjFkPktN1UU-j0y8f_jlu7xtu
+xeMiz_e8w36pLQpC4K2tKzoj6m2pnZW3Bvrx3y1l
+}
+
+!procedure AwsBackupVirtualMachineMonitor($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupVirtualMachineMonitor', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupVirtualMachineMonitorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupVirtualMachineMonitorLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupVirtualMachineMonitorGroup($id, $name='Aws Backup Virtual Machine Monitor', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupVirtualMachineMonitorLg>', $name, $tech)
+!endprocedure

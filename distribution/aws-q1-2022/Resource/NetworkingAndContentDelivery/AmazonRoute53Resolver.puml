@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver
+
+sprite $AmazonRoute53ResolverXs [10x10/16z] JSk30GH130NGDqRwh_UuYlFX4RMqaaOG_X4cyy6345bicsu9gdyNb_a_wuGt
+
+sprite $AmazonRoute53ResolverSm [12x12/16z] 7SI9OG8m5CFGbplntt_U5h0b0G0vUfgQJ1gO5Dg5JQE4YqRIkPJnsA5RfkPvofIYPOiBC3ez5xz0A_0F
+
+sprite $AmazonRoute53ResolverMd [16x16/16z] PSg5WGD024JHn_f2__MUQ_9nPZnJGHJcXDrsrPPL_JJwz4ko6emJS8E2gM3X_jwzeH0xlsnQrxEGIL9YALzzodztAkODNtrfno-5o3F0oc-fvP4h-ELRUWK
+
+sprite $AmazonRoute53ResolverLg [20x20/16z] {
+TSYtWHWW50KmaU6__VTrvyigvGyNUa7Vm9iPLaQQampOctqMRUz9OGO-j30As7U07jm9Todmm86m6zJ7pJS22iw4p7qd58IHwiWhUh6xTjiPoEWXJR67_X0U
+SodKh8PtrcCi1oRG1z98nuTpe380x2oWhPj5kpcJ3pCtVfW0_W4
+}
+
+!procedure AmazonRoute53Resolver($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53Resolver', $name, $tech)
+!endprocedure
+
+!procedure AmazonRoute53ResolverCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53ResolverLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53ResolverGroup($id, $name='Amazon Route53 Resolver', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53ResolverLg>', $name, $tech)
+!endprocedure

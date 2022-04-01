@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/GeneralIcons/Email
+
+sprite $EmailXs [10x10/16z] Oy06s6409i3612H0F5u648kH5yW0iRY1Ka0k4v0B0JpOZ0C
+
+sprite $EmailSm [12x12/16z] TSR50G11202nMHUW_tBFNV8ARsyQDj5mZKMCWYC6eC5yj65blOBE4tnZfOAS-342
+
+sprite $EmailMd [16x16/16z] bSUr0G0n40InCTEw_tAVCJnbmYhyU6RzL6AanarkEtwSsy9-49lGk5-ceydTxu6whSNpSfnItIxny4ECduRH2W
+
+sprite $EmailLg [20x20/16z] hSYr0SLG54EnynYklV-udp5rL8gpzN5Ka6lvDTGHvaUFVB-aojiQF0xsuCcLzp4MG5RcUyc6Ql6zlaaQY-BylfW07K3fUT7uskD-ploQwkmuQfpi2W
+
+!procedure Email($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/GeneralIcons/Email', $name, $tech)
+!endprocedure
+
+!procedure EmailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EmailLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure EmailGroup($id, $name='Email', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$EmailLg>', $name, $tech)
+!endprocedure

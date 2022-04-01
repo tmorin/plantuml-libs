@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AwsWellArchitectedTool
+include('aws-q1-2022/Architecture/ManagementGovernance/AwsWellArchitectedTool')
+
+' renders the element
+AwsWellArchitectedTool('AwsWellArchitectedTool', 'Aws Well Architected Tool', 'an optional tech label')
+@enduml

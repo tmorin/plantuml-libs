@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTSiteWiseDataStreams
+
+sprite $AwsIoTSiteWiseDataStreamsXs [10x10/16z] Oy04Z322bGsB92EKmSa9PB6oiy5u31mm9HWi
+
+sprite $AwsIoTSiteWiseDataStreamsSm [12x12/16z] XSR50G0X402n0LRxB_ZSDQ_mn4im2dTFbWErDKnzKDWDZrYVte92gyChPLoZZf_zlGS
+
+sprite $AwsIoTSiteWiseDataStreamsMd [16x16/16z] VSh50GH100B17WNo3_XSrkk7S45sUAjFWc_EAxVsowzJQmqezOMFyivcxPcJ_BCY4LnQUsUmZMdDUUMNI0szyjz1hbVxFzy1
+
+sprite $AwsIoTSiteWiseDataStreamsLg [20x20/16z] XSm54i0m449HjfHikF-1wwv_Z7aH_5Tiws89n6PHftooUQLKhjQG33nMKzjVjoQBeKqqcoMTp4uZ14l9nGe6zlH2p2opJSqMJJtP416RRRqQNkxz6Lf2uBnx
+
+!procedure AwsIoTSiteWiseDataStreams($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTSiteWiseDataStreams', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTSiteWiseDataStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSiteWiseDataStreamsLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSiteWiseDataStreamsGroup($id, $name='Aws Io T Site Wise Data Streams', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTSiteWiseDataStreamsLg>', $name, $tech)
+!endprocedure

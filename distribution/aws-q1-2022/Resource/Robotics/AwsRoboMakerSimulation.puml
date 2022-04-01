@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Robotics/AwsRoboMakerSimulation
+
+sprite $AwsRoboMakerSimulationXs [10x10/16z] Oy06M1WukC40BiBD0EI0A4u8bmF8P0Gos1ZOOR9iR6mi35W1
+
+sprite $AwsRoboMakerSimulationSm [12x12/16z] TSl50G0n30D1XTTn__KUCyp7AFt9oSj6uDe5RNrqcVcyiTxNFP1j_K6bjfghSdOMCQ_P3JWRNOm
+
+sprite $AwsRoboMakerSimulationMd [16x16/16z] XSrN0aKn14NHZPi4P_xZVRtNzQNZdtgIz49vpr6cuAv1zyHHX03MO9H3cmagocTgNkRJKdHXe3bLm8H9dFi5KLZv2DGjieuSV_a7X9diZeZmkEF57W
+
+sprite $AwsRoboMakerSimulationLg [20x20/16z] {
+fP250GGn20GXsM3RVx_Fk_lSnN2GVs14C2w14DfoNc1xkrlVtJhZl9H1chcgtyrUDfYIYRClifry6157sQHq9crBqNvd9aVeFbwSyzhS9RJ-UCoh2S20HIcU
+yjeEtDTyn1x85icwcS67R
+}
+
+!procedure AwsRoboMakerSimulation($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Robotics/AwsRoboMakerSimulation', $name, $tech)
+!endprocedure
+
+!procedure AwsRoboMakerSimulationCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRoboMakerSimulationLg>', 'Robotics', $funcName, $content)
+!endprocedure
+
+!procedure AwsRoboMakerSimulationGroup($id, $name='Aws Robo Maker Simulation', $tech='')
+  IconGroupElement($id, 'RoboticsFamily', '<$AwsRoboMakerSimulationLg>', $name, $tech)
+!endprocedure

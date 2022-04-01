@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTAlexaVoiceService
+
+sprite $AwsIoTAlexaVoiceServiceXs [10x10/16z] Oq01h9oSd70EcXISXgZWPEQ4i9XOE24iJXO61aQm73EGom4r3oW9
+
+sprite $AwsIoTAlexaVoiceServiceSm [12x12/16z] LOs50G0n20El0YJx3_okr-B6dw0vJhVYn92J4oKyFhJ7R_Zqop9n-6drTlQN8NNwzcOttzheYUAws-nW1G
+
+sprite $AwsIoTAlexaVoiceServiceMd [16x16/16z] RKr70e002D8KXVy_kBsB6zj-0AF9CmxQ45JTo9LUmNIpwXkl-lZKZPCVNuVlKix4QwCCOE2SwSqDBfeRDgvrfdJigGwUAzOkObYgSBeOH7ExDPhCgTcT
+
+sprite $AwsIoTAlexaVoiceServiceLg [20x20/16z] {
+TP250G0X201HylOV-Bl3zcZaRvYe2yiyXhzOtOOlB0_z_HTnPnNwgQVwODh4_67htxPmCWU5kEXrLDNgfaV7dCubPrUs_4uzr1QDDby7yvNDLwrCRRMjFZlA
+ocbHRVgMrxr_2Mn8L9fAJ7VuR3W2
+}
+
+!procedure AwsIoTAlexaVoiceService($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTAlexaVoiceService', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTAlexaVoiceServiceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTAlexaVoiceServiceLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTAlexaVoiceServiceGroup($id, $name='Aws Io T Alexa Voice Service', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTAlexaVoiceServiceLg>', $name, $tech)
+!endprocedure

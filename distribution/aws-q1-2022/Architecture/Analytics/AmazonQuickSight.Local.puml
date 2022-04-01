@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonQuickSight
+include('aws-q1-2022/Architecture/Analytics/AmazonQuickSight')
+
+' renders the element
+AmazonQuickSight('AmazonQuickSight', 'Amazon Quick Sight', 'an optional tech label')
+@enduml

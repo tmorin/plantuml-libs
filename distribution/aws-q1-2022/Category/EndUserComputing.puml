@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Category/EndUserComputing
+
+sprite $EndUserComputingXs [10x10/16z] HSW55e0m30JH55lX_lTbKsmg-I_u4ycCuuYgGoIDkOsAgG1BgrYjiMtQK8HjfUXiuc0qcIu
+
+sprite $EndUserComputingSm [12x12/16z] JKi74e0m3Bg6BkB__ol4YRPbhZ-u1RrppaMQcPgZWhvktW4eJ4ArMSLCT737Bhz54CsZp04m8iIF53mmluGW_eaJ
+
+sprite $EndUserComputingMd [16x16/16z] {
+NSpN0K8n34FHXvkaiF--n37z_Xsbu3-nGrTL1lqCRLNuAJ1sTa00OrcLkrbjhsqhWYIYlUIGY1ivNWvtaHVp-Fmd8fayJecIU7nVdPGPSVmQM1pFm9t6CwWp
+-4_N0m
+}
+
+sprite $EndUserComputingLg [20x20/16z] {
+RT25aKKX44HH6Etcvv_lOllybfz29xzIdzb_gZMTcEKiUjBjWTka7EKswh7IChl5C6Qjn_Pj440jUkMmGW0-LYvhZIeauTPNdqPLfSFAOSquSi2pO5cr4Tqi
+KO2rJhH7ZN0_h3VsajphVcsh8_RU_6ta702s7IjdouwLAqbvzmS
+}
+
+!procedure EndUserComputing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Category/EndUserComputing', $name, $tech)
+!endprocedure
+
+!procedure EndUserComputingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$EndUserComputingLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure EndUserComputingGroup($id, $name='End User Computing', $tech='')
+  IconGroupElement($id, 'EndUserComputing', '<$EndUserComputingLg>', $name, $tech)
+!endprocedure

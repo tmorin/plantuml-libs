@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/Database/AmazonDynamoDb
+
+sprite $AmazonDynamoDbXs [10x10/16z] FSR70KCn34CnoPsFtd_Tv7US03gi0r-1SHSKCrMq38kkBjd4rD2rGWJNCcE2jXszDc0VjG7-
+
+sprite $AmazonDynamoDbSm [12x12/16z] DSV70S0W581GkyBF_kkco-cXFAqd_zakEGy-3w4KNi_P4WLMQAaare88MvdSFOwiQMuZO_YwH-XIZdlMc3uTzzozlW
+
+sprite $AmazonDynamoDbMd [16x16/16z] {
+LSs74SGW44FHpO2u_kizxJXhulis0AnZynZmBVY4m-arqZeShlx3J1aEcuMmz1-R3jP1AyDcA1VCM2JD459pGTPj_Y_YEBs7QKg_SjhvVfa3E9p7A-Zme-5c
+IlP-7Ngu_0r_
+}
+
+sprite $AmazonDynamoDbLg [20x20/16z] {
+RSu50WKX20HGL7BO-rztOtw7xJC0G3rAtWl-8FuW3McgwiI7YVCIXxkLy_cOKuYq9HerJfwysRndbNdkpUp2lb0IKFCgMlM5dhPGYqGxKKKZAvnqDrTK3hTt
+avc0c2XUffqHXfmWqcB8c29n6kxMfjtC7SJjifHflaG1uaQyhZKUPIFU_M5_y
+}
+
+!procedure AmazonDynamoDb($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Database/AmazonDynamoDb', $name, $tech)
+!endprocedure
+
+!procedure AmazonDynamoDbCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonDynamoDbLg>', 'Database', $funcName, $content)
+!endprocedure
+
+!procedure AmazonDynamoDbGroup($id, $name='Amazon Dynamo Db', $tech='')
+  IconGroupElement($id, 'DatabaseFamily', '<$AmazonDynamoDbLg>', $name, $tech)
+!endprocedure

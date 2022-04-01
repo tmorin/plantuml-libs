@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/AwsCostManagement/AwsBudgets
+
+sprite $AwsBudgetsXs [10x10/16z] FSY74O1G3CDGqvp8V_zvwQ1hxmHzLLNyFBKzp2bgFPdWPoOoq3hLFi6jAKBg4TdUDZ56he03
+
+sprite $AwsBudgetsSm [12x12/16z] HOh50GGW0CDmchB_lEX9NfK0ElGD_t9pFEZbYXJtuvEhmiwoIVLuxUJ2o_tcl7FWPkUa4dSUBia6aXX3zS7EmmSs2m
+
+sprite $AwsBudgetsMd [16x16/16z] {
+NSrLWaCn34DHGq1Izh_U1u6PjlVlE60-OTNV-3FuTmUEeys0utdbCRgMEsmQqklQ3STY19_GVDcutN8wQ-MRzst1o6xaDbEPZS4ankEGrjeanv35pgU7LfoD
+dy4D
+}
+
+sprite $AwsBudgetsLg [20x20/16z] {
+PSp70GCn24HH9T0Cst-_1aNR-u-FG0-xFWkx-hR0QxtE9auJZDpmPUIqG3lMStCBD9ickObCWmL2LGZYcabJCAh8VHeIZsbQXg8SeRHZfdbG8g-XvixQiXkN
+CPlvLKZOyyG_y-R3H38iwKn4sZ2FEtZBR1S-RUd53m
+}
+
+!procedure AwsBudgets($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/AwsCostManagement/AwsBudgets', $name, $tech)
+!endprocedure
+
+!procedure AwsBudgetsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBudgetsLg>', 'AwsCostManagement', $funcName, $content)
+!endprocedure
+
+!procedure AwsBudgetsGroup($id, $name='Aws Budgets', $tech='')
+  IconGroupElement($id, 'AwsCostManagementFamily', '<$AwsBudgetsLg>', $name, $tech)
+!endprocedure

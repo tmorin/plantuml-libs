@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTThingMedicalEmergency
+
+sprite $AwsIoTThingMedicalEmergencyXs [10x10/16z] Oq01h9oSd0oeW1C4G58Cd0oCG0oYEHaPs80a6B91QAWwJcpc0G
+
+sprite $AwsIoTThingMedicalEmergencySm [12x12/16z] LSsd0G0W4C30yFtt7vYgY3eN_fpH_fZ-QWZdLG77Yb4mZiVne1qTo7RZ3WZR3exjWkBuTTprok-x
+
+sprite $AwsIoTThingMedicalEmergencyMd [16x16/16z] {
+PS_50S0m40D1AOVgl-0mUtzZDZ0MQ8Xk5oiKoghmdRXp0balP-xp5LlQvrk0emfOtRtFUucLnxoqcM2lNi7OrtDVFn5UcxDtXoDMQs_ty1xuKsq6WqrDuIJs
+70tX-Dy2
+}
+
+sprite $AwsIoTThingMedicalEmergencyLg [20x20/16z] {
+TP255O0m44Dpv7J_XNard8z7gE0F1GtLZmDxQNb3qGYSZ2_tkvREuTHYvCYc0HRipw10RMWfDfwskbObLTliLZKjH23EQjy-SxIICDnoRGu6t7B0Hk2UMvov
+a_MLDytHqCY8ZEg7o-_-0OGGte_63W
+}
+
+!procedure AwsIoTThingMedicalEmergency($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTThingMedicalEmergency', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTThingMedicalEmergencyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTThingMedicalEmergencyLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTThingMedicalEmergencyGroup($id, $name='Aws Io T Thing Medical Emergency', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTThingMedicalEmergencyLg>', $name, $tech)
+!endprocedure

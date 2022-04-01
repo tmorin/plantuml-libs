@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkAdapter
+
+sprite $AmazonVpcElasticNetworkAdapterXs [10x10/16z] NOo50G0W3CCw7Fh_lRXdhlXWSw71bdheYlIk8ZtHCwrh5cic63sFZbvVUFyh
+
+sprite $AmazonVpcElasticNetworkAdapterSm [12x12/16z] PSt50S102031FKFxhpVkcHSEVrhkM9H5hniIg96nGjVOKYGxfMnnQqjCBd60uVjCCyCe5TmssFqhkMCMCm
+
+sprite $AmazonVpcElasticNetworkAdapterMd [16x16/16z] TSx50KGn24NH-q84FlttEx7DsDdXy8-2Tr5PIhrwQCLPBiWLFxtx9L-nkbkVI9gTs0bMJDpOmiQAyHq3GWbvvosQFKOmusn8Gknrf5z5_lP_IzxYv9snl
+
+sprite $AmazonVpcElasticNetworkAdapterLg [20x20/16z] {
+XSZ50K9H0C2mFfVkFo_o5IV7y8UyS_36MbZ4VX3ZSZEUmFMQf5r8Iqfdb8sqkbsFtZM4ULnbafOBxjUIgIp7oEjHxY927YndW6bj2h9UKGqQmG3OvDGJmEWd
+KkU5GTvkyiRCcyBg2W
+}
+
+!procedure AmazonVpcElasticNetworkAdapter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonVpcElasticNetworkAdapter', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcElasticNetworkAdapterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcElasticNetworkAdapterLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcElasticNetworkAdapterGroup($id, $name='Amazon Vpc Elastic Network Adapter', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcElasticNetworkAdapterLg>', $name, $tech)
+!endprocedure

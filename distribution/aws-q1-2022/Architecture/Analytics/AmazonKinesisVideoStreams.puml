@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Architecture/Analytics/AmazonKinesisVideoStreams
+
+sprite $AmazonKinesisVideoStreamsXs [10x10/16z] FSR70KCn048ntFrW_tcJttKIi4zhyTMmxjeWxXLKvpMxIgNi61gWdTZRgYB9yfpZMdo0Fm
+
+sprite $AmazonKinesisVideoStreamsSm [12x12/16z] JSZP0SHG24BHjwc0_VSxp9RaV5sWuQEAZo7d-Gs9Pv6_LZBNgKyZcDCACimnvWHQHwXZxjOM58TWTsD9HRhDjz5jaf4l
+
+sprite $AmazonKinesisVideoStreamsMd [16x16/16z] {
+NSZ50S1G3CFG_h2T_USjisvFsAgppCJHFRZh6UHgkLqaOL70Omf24hUT9baPfhuRam6LhgT9sBGsXkqs9p2s4jLaOI290XJe9eMosiVXPXbN1qutXP2jEDmy
+m-hVM
+}
+
+sprite $AmazonKinesisVideoStreamsLg [20x20/16z] {
+PSk53K81303Hkh7_lhGDVBtuIowtEF9kwQflMwmLZujwrPfVB6fGah8xhH7J8Mxc5UXfJ4ZCijPIwG0aTdq5MJt2tSn-rXd1X8W_KxAirCqpubCr0CovmLXZ
+gPLp9MXR-sUGYeEhWEbdZL5MRPBviq7F4kjKVpROvHGvTkBsinT-0G
+}
+
+!procedure AmazonKinesisVideoStreams($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Architecture/Analytics/AmazonKinesisVideoStreams', $name, $tech)
+!endprocedure
+
+!procedure AmazonKinesisVideoStreamsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonKinesisVideoStreamsLg>', 'Analytics', $funcName, $content)
+!endprocedure
+
+!procedure AmazonKinesisVideoStreamsGroup($id, $name='Amazon Kinesis Video Streams', $tech='')
+  IconGroupElement($id, 'AnalyticsFamily', '<$AmazonKinesisVideoStreamsLg>', $name, $tech)
+!endprocedure

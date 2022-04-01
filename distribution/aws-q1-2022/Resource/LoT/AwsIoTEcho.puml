@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTEcho
+
+sprite $AwsIoTEchoXs [10x10/16z] PKc50G0W3CAM_m-sSqdY7ThsGqMISQhsKcLOKBLQkMop0oe
+
+sprite $AwsIoTEchoSm [12x12/16z] VKg30G0m3Akc_m-UhJA2hHoZk0B92ekbWbyNuy6EgMC07idVPIZFMPTW
+
+sprite $AwsIoTEchoMd [16x16/16z] dK-30KG12CszzX_uxjlE1Xs15e2IqHNBLZcFVXGI5JBwsdSzziiQQJNvtd0pV_8b08Hi-x_w16u4WoRWoEY_-GC
+
+sprite $AwsIoTEchoLg [20x20/16z] hKo35KLH3AkRx3_mvxEEhef8xaysY8ujHBDlSwwGqVMFsOfLydkYjjWqZCA0ggm2jfY8cefmWtKH0AiVyyPZc0Qic3WH5g3BzbXas3I_0G
+
+!procedure AwsIoTEcho($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTEcho', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTEchoCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTEchoLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTEchoGroup($id, $name='Aws Io T Echo', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTEchoLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AwsBackupAwsBackupSupportForVMwareWorkloads
+
+sprite $AwsBackupAwsBackupSupportForVMwareWorkloadsXs [10x10/16z] JSV50K0X5C2muBpz1_ukvDHQ9Trb8ExE452kwLvLcH8ZB4PSsbVT3W
+
+sprite $AwsBackupAwsBackupSupportForVMwareWorkloadsSm [12x12/16z] LOk50GC120CFJTb_uBxRuHA-A1WE0c3Qza99HXuVWX-auHpz5llwd2k4GBQhXMrfHtVoE4Z0vWGM
+
+sprite $AwsBackupAwsBackupSupportForVMwareWorkloadsMd [16x16/16z] RSs70GCn20D0Mf3OV-4OIC_hwza6v29M93wO_Qx5wq_9NASeWLG9RJ84ZrEypNVCtdFhBufapGB7EyQcbtiRwpwZm7Inry1ZxlxBydRn5MzJd_6nldDq1m
+
+sprite $AwsBackupAwsBackupSupportForVMwareWorkloadsLg [20x20/16z] {
+TSg5hSLG34J1kMYx_u8_F8PaHAkZTMfLvVAc6dPy9TPgmyq8LvMxNAr6HaGsvW2AFh7GQgCdngLrc4buR_PGg3leIo9S9SnfnBNDMsk5KHctcH5LG0jSMk_D
+pQDv2k3PebwjQskU-ZxuRST-0G
+}
+
+!procedure AwsBackupAwsBackupSupportForVMwareWorkloads($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupAwsBackupSupportForVMwareWorkloads', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForVMwareWorkloadsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupAwsBackupSupportForVMwareWorkloadsLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupAwsBackupSupportForVMwareWorkloadsGroup($id, $name='Aws Backup Aws Backup Support For V Mware Workloads', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupAwsBackupSupportForVMwareWorkloadsLg>', $name, $tech)
+!endprocedure

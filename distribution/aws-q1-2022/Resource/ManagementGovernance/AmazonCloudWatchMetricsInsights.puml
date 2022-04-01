@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights
+
+sprite $AmazonCloudWatchMetricsInsightsXs [10x10/16z] LSP50GG1000XrcNwvprNNlYnc55QzwEMa9DTDfmHHub8_6z-2UFSE705
+
+sprite $AmazonCloudWatchMetricsInsightsSm [12x12/16z] LOk50GD140BdNEY_tx1vdvCLW2zgmlH9wIncAMn8WvKtReVxHKdKc3ecAtetSYEYJwNqs4I_YlyLU8zKhhsHudUSlAKTaHy
+
+sprite $AmazonCloudWatchMetricsInsightsMd [16x16/16z] {
+ROe54WGW30CNADBa__-zwRajqaRumx8xXNoLlR6lsgjnZjeMFcUZ1gfZ18ZM41bWO8xIVO-mC6rJUWLNbhbg2DjWSTL9oYgVgrRFcltAUEfn9HfYsCcpx_Ca
+CnjSiNanVEK0N
+}
+
+sprite $AmazonCloudWatchMetricsInsightsLg [20x20/16z] {
+TOg5OS0m30GlJeI__xm5Gxbda1xuZplBpje-fnKyOYAqPnIscja99Vd8KKYIeLLwrnqqG5yaQ5xQ0DAcAi8xVCgxM8q89jqIo_DaazTCDKL94aZFzWpKMUAW
+S_dkzRMytlpN0vFatxpd1u9XYvGjRXPZFAunniK7bs_6bAy
+}
+
+!procedure AmazonCloudWatchMetricsInsights($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/ManagementGovernance/AmazonCloudWatchMetricsInsights', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudWatchMetricsInsightsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchMetricsInsightsLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchMetricsInsightsGroup($id, $name='Amazon Cloud Watch Metrics Insights', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchMetricsInsightsLg>', $name, $tech)
+!endprocedure

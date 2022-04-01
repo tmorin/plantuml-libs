@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Storage/AwsBackupRecoveryPointObjective
+
+sprite $AwsBackupRecoveryPointObjectiveXs [10x10/16z] 9S450G1140GWpdVw1tu501040WvOAspfHqF0i8GmEGSqDWSGQ_no0m
+
+sprite $AwsBackupRecoveryPointObjectiveSm [12x12/16z] NS6t0GD030GWFagt_y9kdC6VlcC7A2EiYT2QonYEEx2SRPj2q2osC0QRQz88YWNXua93f5_k0m
+
+sprite $AwsBackupRecoveryPointObjectiveMd [16x16/16z] RS77OGKm20KmuV8C-o-SOzgNVFIcUnR02LWDdCtaOA32tXeL17FQGzCJgIwts4M8jnWKD6-pZohiJGvQO70l69p22gJmu0no7Wtw5kobWG8U-SaN
+
+sprite $AwsBackupRecoveryPointObjectiveLg [20x20/16z] {
+TS77OGGW300mWN7RV-5yqqxosSdPgGS0E-3j1J11v44bO0_QG3-G5tkyW06BbpSjH14tiJRg5Yndz-gm9pKi7dUOcyvYWS748nyB8Z7lOLYmq2_mEXhoGdU0
+0GFE0VLW3-WDLDtBQs0Ki0pWzG7UKna_xINUJySN
+}
+
+!procedure AwsBackupRecoveryPointObjective($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Storage/AwsBackupRecoveryPointObjective', $name, $tech)
+!endprocedure
+
+!procedure AwsBackupRecoveryPointObjectiveCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsBackupRecoveryPointObjectiveLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AwsBackupRecoveryPointObjectiveGroup($id, $name='Aws Backup Recovery Point Objective', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AwsBackupRecoveryPointObjectiveLg>', $name, $tech)
+!endprocedure

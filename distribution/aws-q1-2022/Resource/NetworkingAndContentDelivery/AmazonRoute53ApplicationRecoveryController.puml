@@ -1,0 +1,27 @@
+' definition of the Item aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ApplicationRecoveryController
+
+sprite $AmazonRoute53ApplicationRecoveryControllerXs [10x10/16z] JOk30G1H3CLoHlQVzrjr7rZYFAvZUmIf8IzyxFrJcUmFg9kSq7JDtEVvvXa1
+
+sprite $AmazonRoute53ApplicationRecoveryControllerSm [12x12/16z] LSR70SD030F1aNI9OF_rElsCkFwKxSwb1uCBFsXK1OkB4Wwkv4vIXrQWtAQkAZdQm2s8WwhDStFdu3TmDNW3
+
+sprite $AmazonRoute53ApplicationRecoveryControllerMd [16x16/16z] {
+PSM7eKCn20F0WrTiOFzvVw_9WIJF9eZ1TS7ADRFqpB6Ju_AhkHDLDL31V6x3ZP8vTnwPSIH6H4-yAHTvA9zACrIykIU2IvFPcVCMsa3Hu9ORgwfW4BrFSFVs
+ANlhE_onVNe5
+}
+
+sprite $AmazonRoute53ApplicationRecoveryControllerLg [20x20/16z] {
+TOw50GCm20IFUFBxxzi2TRa8BlnX0PGJ_o3OJPMkAcDA5M0C6BE3ZT7W04syOOAQVRJtAQa1gxcsOOHluqoWwj0Du90-IKmvEtsp0NOMJlgGQubhvMJdz9sO
+XYno5IppVhGUljnbJfpQIUMv7pAGgxQl6DopZoftXZg1zUMgBSq6JvgM-EAPSW4
+}
+
+!procedure AmazonRoute53ApplicationRecoveryController($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ApplicationRecoveryController', $name, $tech)
+!endprocedure
+
+!procedure AmazonRoute53ApplicationRecoveryControllerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonRoute53ApplicationRecoveryControllerLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonRoute53ApplicationRecoveryControllerGroup($id, $name='Amazon Route53 Application Recovery Controller', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonRoute53ApplicationRecoveryControllerLg>', $name, $tech)
+!endprocedure

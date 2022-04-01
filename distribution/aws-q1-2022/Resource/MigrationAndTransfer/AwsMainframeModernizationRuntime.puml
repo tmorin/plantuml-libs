@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationRuntime
+
+sprite $AwsMainframeModernizationRuntimeXs [10x10/16z] Oo0C686O2OIP69Y160x0GYnCJ9mGDf1YmMu
+
+sprite $AwsMainframeModernizationRuntimeSm [12x12/16z] ZOl50O0m40GdUj9_mMn-ECovBByOPiOq6-22HBXYHf2XTAI6DMqBwt-slZur50qi_JCR
+
+sprite $AwsMainframeModernizationRuntimeMd [16x16/16z] fOp50O103C1oKjr_NzpvGUhAVso6jdYe2wW09OvQvffanYA2EZddnJgc7DFrcm940Lfhy_UZnYTeapC-C08
+
+sprite $AwsMainframeModernizationRuntimeLg [20x20/16z] lSKnWW8m20313G09_F_1HpZLobAd6Nv3zsMiMU1jrLG2deDLGdilZL9f1SEYGKoVkRiWtfGd4LcMqjAvJcPk8Xdxy9P1isJ4QOhVWc_u0m
+
+!procedure AwsMainframeModernizationRuntime($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/MigrationAndTransfer/AwsMainframeModernizationRuntime', $name, $tech)
+!endprocedure
+
+!procedure AwsMainframeModernizationRuntimeCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsMainframeModernizationRuntimeLg>', 'MigrationAndTransfer', $funcName, $content)
+!endprocedure
+
+!procedure AwsMainframeModernizationRuntimeGroup($id, $name='Aws Mainframe Modernization Runtime', $tech='')
+  IconGroupElement($id, 'MigrationAndTransferFamily', '<$AwsMainframeModernizationRuntimeLg>', $name, $tech)
+!endprocedure

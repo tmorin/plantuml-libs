@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonBraketSimulator1Card
+include('aws-q1-2022/Resource/QuantumTechnologies/AmazonBraketSimulator1')
+
+' renders the element
+AmazonBraketSimulator1Card('AmazonBraketSimulator1Card', 'Amazon Braket Simulator1 Card', 'an optional description')
+@enduml

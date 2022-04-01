@@ -1,0 +1,24 @@
+' definition of the Item aws-q1-2022/Resource/Compute/AmazonEc2M1MacInstance
+
+sprite $AmazonEc2M1MacInstanceXs [10x10/16z] LKo50G104F7bxB_mTrqNu4tybhHQvfwCDYOXpgz0A8-9FoDDAvzU0m
+
+sprite $AmazonEc2M1MacInstanceSm [12x12/16z] NOs50G0n20ElTh3_mkzQN1F-OYKh0gINW79AIXMnGLGGzSZaSvDK6RL4kMv01nCEaN5O__6k
+
+sprite $AmazonEc2M1MacInstanceMd [16x16/16z] RO-54G8m40GtDs7l-syOTtXtuGz86OetDptZNENLtNb00PjNeq826myR1DgBhrpytlFXvWCpOH40dBdcPMnyzczRVVKliiwCV_VN1ypVVn0PlFed
+
+sprite $AmazonEc2M1MacInstanceLg [20x20/16z] {
+bP25eKKn24DFBmba_uM_F7TfSGUUlSOGUj4lR9vCvaWAWE7YbO3kS6cRrY7E8FeOPmVepRq6g7OTudhKp27kd7jXIm8Rh4EFnC10Djb2kfWbBLFeCCjQ0m77
+M9JMLtlKnRCEuQEMef56hsug2emM0lW5
+}
+
+!procedure AmazonEc2M1MacInstance($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/Compute/AmazonEc2M1MacInstance', $name, $tech)
+!endprocedure
+
+!procedure AmazonEc2M1MacInstanceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonEc2M1MacInstanceLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AmazonEc2M1MacInstanceGroup($id, $name='Amazon Ec2 M1 Mac Instance', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AmazonEc2M1MacInstanceLg>', $name, $tech)
+!endprocedure

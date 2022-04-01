@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q1-2022/bootstrap')
+
+' loads the Item which embeds the element AwsBackupVirtualMachineMonitor
+include('aws-q1-2022/Resource/Storage/AwsBackupVirtualMachineMonitor')
+
+' renders the element
+AwsBackupVirtualMachineMonitor('AwsBackupVirtualMachineMonitor', 'Aws Backup Virtual Machine Monitor', 'an optional tech label')
+@enduml

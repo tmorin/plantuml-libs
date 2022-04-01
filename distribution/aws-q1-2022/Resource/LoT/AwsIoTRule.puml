@@ -1,0 +1,21 @@
+' definition of the Item aws-q1-2022/Resource/LoT/AwsIoTRule
+
+sprite $AwsIoTRuleXs [10x10/16z] Oq03d12AbPE1anCk16F0c1mCB50c2n2pusHnCZ4m0zK1
+
+sprite $AwsIoTRuleSm [12x12/16z] XSQr0SD0400mFV_jFt1YXiggv6qKKXbWTdAPTcKafzooqpJjQbBbl9_4TLyNSu4_
+
+sprite $AwsIoTRuleMd [16x16/16z] dSv50e1034FHTAH9xdzWt6757tsxuYFBqosrpOItUqroe9eTHvqDjtmNAPsa5LJkR3tG45bsHvVKw-7ryzjr7JG3UsbxvGW
+
+sprite $AwsIoTRuleLg [20x20/16z] lSh50KCn30DGcQtz5-vdphKlOCH8avXLAtQ5m8G2ddkMhrv4JhMHL5nL9Lw81ykPuigfqtDSL4mtBUgorJ9zW53FNYGddNNfELP_xe5BOKrSQ7X421O_
+
+!procedure AwsIoTRule($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q1-2022/Resource/LoT/AwsIoTRule', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTRuleLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTRuleGroup($id, $name='Aws Io T Rule', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTRuleLg>', $name, $tech)
+!endprocedure
