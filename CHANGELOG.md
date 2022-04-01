@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [7.1.0](https://github.com/tmorin/plantuml-libs/compare/v7.0.0...v7.1.0) (2022-04-01)
+
+
+### Features
+
+* **aws-q1-2022:** add the package ([58d300b](https://github.com/tmorin/plantuml-libs/commit/58d300b4a68b495cd0d9120cb5372f76b8bdd5be))
+* **fontawesome-6:** upgrade to 6.1.1 ([00d260a](https://github.com/tmorin/plantuml-libs/commit/00d260af1711d335053329ded2542bc673e0b8f0))
+* **simpleicons-6:** upgrade to 6.16.0 ([ed45aad](https://github.com/tmorin/plantuml-libs/commit/ed45aad679e783b5a79354a6ac5a2d0c681f9c01))
+
 ## [7.0.0](https://github.com/tmorin/plantuml-libs/compare/v6.4.0...v7.0.0) (2022-02-16)
 
 
