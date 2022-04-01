@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-6/S/Stardock
+
+sprite $StardockXs [10x10/16z] TSQr0OG0002nUrV8_jjIugdI2HuZ5LTINDwC5QBbvC9G8rtUhKm
+
+sprite $StardockSm [12x12/16z] VOgr0O0m00G_xhdzfyKx8DUyQeMnKeJJ0dMQn6q5QKXo8C_zY33r-0GylWfQ1YiPQcs0knvHN-m
+
+sprite $StardockMd [16x16/16z] bOn54i0m30CLvlZ_lssb6T_R3Qu9lqW58izLaUr5oizPAmIvb5U4j58xWrVLbmuL2LFfSTVFaDn7zNbBUh7j9cyFPdrksl7X9m4nuHiF
+
+sprite $StardockLg [20x20/16z] {
+hOzL0a8n30ItxjtxtvQNnU4BcVeaDVoHiiZBDF0WkMt3nIsRxhwomsINKjWtfKnAPLFEMz_3Wf12fGx0tKNWuVpR8h-v2JouTZaetbqVJWVgtdp9ydQbcwQM
+b2DdxMlHABX_eH-nMZqk-5OylkG4
+}
+
+!procedure Stardock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/S/Stardock', $name, $tech)
+!endprocedure

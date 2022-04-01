@@ -1,6 +1,6 @@
 # I
 
-The module contains 61 items.
+The module contains 63 items.
 
 
 
@@ -10,6 +10,7 @@ The module contains 61 items.
 | ![illustration of simpleicons-6/I/Iata](../../simpleicons-6/I/Iata.png) | [simpleicons-6/I/Iata](../../simpleicons-6/I/Iata.md) |
 | ![illustration of simpleicons-6/I/Ibeacon](../../simpleicons-6/I/Ibeacon.png) | [simpleicons-6/I/Ibeacon](../../simpleicons-6/I/Ibeacon.md) |
 | ![illustration of simpleicons-6/I/Ibm](../../simpleicons-6/I/Ibm.png) | [simpleicons-6/I/Ibm](../../simpleicons-6/I/Ibm.md) |
+| ![illustration of simpleicons-6/I/Ibmcloud](../../simpleicons-6/I/Ibmcloud.png) | [simpleicons-6/I/Ibmcloud](../../simpleicons-6/I/Ibmcloud.md) |
 | ![illustration of simpleicons-6/I/Ibmwatson](../../simpleicons-6/I/Ibmwatson.png) | [simpleicons-6/I/Ibmwatson](../../simpleicons-6/I/Ibmwatson.md) |
 | ![illustration of simpleicons-6/I/Iceland](../../simpleicons-6/I/Iceland.png) | [simpleicons-6/I/Iceland](../../simpleicons-6/I/Iceland.md) |
 | ![illustration of simpleicons-6/I/Icinga](../../simpleicons-6/I/Icinga.png) | [simpleicons-6/I/Icinga](../../simpleicons-6/I/Icinga.md) |
@@ -58,6 +59,7 @@ The module contains 61 items.
 | ![illustration of simpleicons-6/I/Invoiceninja](../../simpleicons-6/I/Invoiceninja.png) | [simpleicons-6/I/Invoiceninja](../../simpleicons-6/I/Invoiceninja.md) |
 | ![illustration of simpleicons-6/I/Iobroker](../../simpleicons-6/I/Iobroker.png) | [simpleicons-6/I/Iobroker](../../simpleicons-6/I/Iobroker.md) |
 | ![illustration of simpleicons-6/I/Ionic](../../simpleicons-6/I/Ionic.png) | [simpleicons-6/I/Ionic](../../simpleicons-6/I/Ionic.md) |
+| ![illustration of simpleicons-6/I/Ionos](../../simpleicons-6/I/Ionos.png) | [simpleicons-6/I/Ionos](../../simpleicons-6/I/Ionos.md) |
 | ![illustration of simpleicons-6/I/Ios](../../simpleicons-6/I/Ios.png) | [simpleicons-6/I/Ios](../../simpleicons-6/I/Ios.md) |
 | ![illustration of simpleicons-6/I/Iota](../../simpleicons-6/I/Iota.png) | [simpleicons-6/I/Iota](../../simpleicons-6/I/Iota.md) |
 | ![illustration of simpleicons-6/I/Ipfs](../../simpleicons-6/I/Ipfs.png) | [simpleicons-6/I/Ipfs](../../simpleicons-6/I/Ipfs.md) |

@@ -1,6 +1,6 @@
 # S
 
-The module contains 216 items.
+The module contains 222 items.
 
 
 
@@ -77,6 +77,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Simkl](../../simpleicons-6/S/Simkl.png) | [simpleicons-6/S/Simkl](../../simpleicons-6/S/Simkl.md) |
 | ![illustration of simpleicons-6/S/Simpleanalytics](../../simpleicons-6/S/Simpleanalytics.png) | [simpleicons-6/S/Simpleanalytics](../../simpleicons-6/S/Simpleanalytics.md) |
 | ![illustration of simpleicons-6/S/Simpleicons](../../simpleicons-6/S/Simpleicons.png) | [simpleicons-6/S/Simpleicons](../../simpleicons-6/S/Simpleicons.md) |
+| ![illustration of simpleicons-6/S/Simplenote](../../simpleicons-6/S/Simplenote.png) | [simpleicons-6/S/Simplenote](../../simpleicons-6/S/Simplenote.md) |
 | ![illustration of simpleicons-6/S/Sinaweibo](../../simpleicons-6/S/Sinaweibo.png) | [simpleicons-6/S/Sinaweibo](../../simpleicons-6/S/Sinaweibo.md) |
 | ![illustration of simpleicons-6/S/Singlestore](../../simpleicons-6/S/Singlestore.png) | [simpleicons-6/S/Singlestore](../../simpleicons-6/S/Singlestore.md) |
 | ![illustration of simpleicons-6/S/Sitepoint](../../simpleicons-6/S/Sitepoint.png) | [simpleicons-6/S/Sitepoint](../../simpleicons-6/S/Sitepoint.md) |
@@ -107,6 +108,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Snowflake](../../simpleicons-6/S/Snowflake.png) | [simpleicons-6/S/Snowflake](../../simpleicons-6/S/Snowflake.md) |
 | ![illustration of simpleicons-6/S/Snowpack](../../simpleicons-6/S/Snowpack.png) | [simpleicons-6/S/Snowpack](../../simpleicons-6/S/Snowpack.md) |
 | ![illustration of simpleicons-6/S/Snyk](../../simpleicons-6/S/Snyk.png) | [simpleicons-6/S/Snyk](../../simpleicons-6/S/Snyk.md) |
+| ![illustration of simpleicons-6/S/Socialblade](../../simpleicons-6/S/Socialblade.png) | [simpleicons-6/S/Socialblade](../../simpleicons-6/S/Socialblade.md) |
 | ![illustration of simpleicons-6/S/Society6](../../simpleicons-6/S/Society6.png) | [simpleicons-6/S/Society6](../../simpleicons-6/S/Society6.md) |
 | ![illustration of simpleicons-6/S/Socketdotio](../../simpleicons-6/S/Socketdotio.png) | [simpleicons-6/S/Socketdotio](../../simpleicons-6/S/Socketdotio.md) |
 | ![illustration of simpleicons-6/S/Sogou](../../simpleicons-6/S/Sogou.png) | [simpleicons-6/S/Sogou](../../simpleicons-6/S/Sogou.md) |
@@ -123,6 +125,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Sonicwall](../../simpleicons-6/S/Sonicwall.png) | [simpleicons-6/S/Sonicwall](../../simpleicons-6/S/Sonicwall.md) |
 | ![illustration of simpleicons-6/S/Sonos](../../simpleicons-6/S/Sonos.png) | [simpleicons-6/S/Sonos](../../simpleicons-6/S/Sonos.md) |
 | ![illustration of simpleicons-6/S/Sony](../../simpleicons-6/S/Sony.png) | [simpleicons-6/S/Sony](../../simpleicons-6/S/Sony.md) |
+| ![illustration of simpleicons-6/S/Soundcharts](../../simpleicons-6/S/Soundcharts.png) | [simpleicons-6/S/Soundcharts](../../simpleicons-6/S/Soundcharts.md) |
 | ![illustration of simpleicons-6/S/Soundcloud](../../simpleicons-6/S/Soundcloud.png) | [simpleicons-6/S/Soundcloud](../../simpleicons-6/S/Soundcloud.md) |
 | ![illustration of simpleicons-6/S/Sourceengine](../../simpleicons-6/S/Sourceengine.png) | [simpleicons-6/S/Sourceengine](../../simpleicons-6/S/Sourceengine.md) |
 | ![illustration of simpleicons-6/S/Sourceforge](../../simpleicons-6/S/Sourceforge.png) | [simpleicons-6/S/Sourceforge](../../simpleicons-6/S/Sourceforge.md) |
@@ -158,6 +161,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Squarespace](../../simpleicons-6/S/Squarespace.png) | [simpleicons-6/S/Squarespace](../../simpleicons-6/S/Squarespace.md) |
 | ![illustration of simpleicons-6/S/Ssrn](../../simpleicons-6/S/Ssrn.png) | [simpleicons-6/S/Ssrn](../../simpleicons-6/S/Ssrn.md) |
 | ![illustration of simpleicons-6/S/Stackbit](../../simpleicons-6/S/Stackbit.png) | [simpleicons-6/S/Stackbit](../../simpleicons-6/S/Stackbit.md) |
+| ![illustration of simpleicons-6/S/Stackedit](../../simpleicons-6/S/Stackedit.png) | [simpleicons-6/S/Stackedit](../../simpleicons-6/S/Stackedit.md) |
 | ![illustration of simpleicons-6/S/Stackexchange](../../simpleicons-6/S/Stackexchange.png) | [simpleicons-6/S/Stackexchange](../../simpleicons-6/S/Stackexchange.md) |
 | ![illustration of simpleicons-6/S/Stackoverflow](../../simpleicons-6/S/Stackoverflow.png) | [simpleicons-6/S/Stackoverflow](../../simpleicons-6/S/Stackoverflow.md) |
 | ![illustration of simpleicons-6/S/Stackpath](../../simpleicons-6/S/Stackpath.png) | [simpleicons-6/S/Stackpath](../../simpleicons-6/S/Stackpath.md) |
@@ -165,6 +169,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Stadia](../../simpleicons-6/S/Stadia.png) | [simpleicons-6/S/Stadia](../../simpleicons-6/S/Stadia.md) |
 | ![illustration of simpleicons-6/S/Staffbase](../../simpleicons-6/S/Staffbase.png) | [simpleicons-6/S/Staffbase](../../simpleicons-6/S/Staffbase.md) |
 | ![illustration of simpleicons-6/S/Starbucks](../../simpleicons-6/S/Starbucks.png) | [simpleicons-6/S/Starbucks](../../simpleicons-6/S/Starbucks.md) |
+| ![illustration of simpleicons-6/S/Stardock](../../simpleicons-6/S/Stardock.png) | [simpleicons-6/S/Stardock](../../simpleicons-6/S/Stardock.md) |
 | ![illustration of simpleicons-6/S/Starlingbank](../../simpleicons-6/S/Starlingbank.png) | [simpleicons-6/S/Starlingbank](../../simpleicons-6/S/Starlingbank.md) |
 | ![illustration of simpleicons-6/S/Starship](../../simpleicons-6/S/Starship.png) | [simpleicons-6/S/Starship](../../simpleicons-6/S/Starship.md) |
 | ![illustration of simpleicons-6/S/Startrek](../../simpleicons-6/S/Startrek.png) | [simpleicons-6/S/Startrek](../../simpleicons-6/S/Startrek.md) |
@@ -204,6 +209,7 @@ The module contains 216 items.
 | ![illustration of simpleicons-6/S/Suckless](../../simpleicons-6/S/Suckless.png) | [simpleicons-6/S/Suckless](../../simpleicons-6/S/Suckless.md) |
 | ![illustration of simpleicons-6/S/Sumologic](../../simpleicons-6/S/Sumologic.png) | [simpleicons-6/S/Sumologic](../../simpleicons-6/S/Sumologic.md) |
 | ![illustration of simpleicons-6/S/Supabase](../../simpleicons-6/S/Supabase.png) | [simpleicons-6/S/Supabase](../../simpleicons-6/S/Supabase.md) |
+| ![illustration of simpleicons-6/S/Supermicro](../../simpleicons-6/S/Supermicro.png) | [simpleicons-6/S/Supermicro](../../simpleicons-6/S/Supermicro.md) |
 | ![illustration of simpleicons-6/S/Superuser](../../simpleicons-6/S/Superuser.png) | [simpleicons-6/S/Superuser](../../simpleicons-6/S/Superuser.md) |
 | ![illustration of simpleicons-6/S/Surveymonkey](../../simpleicons-6/S/Surveymonkey.png) | [simpleicons-6/S/Surveymonkey](../../simpleicons-6/S/Surveymonkey.md) |
 | ![illustration of simpleicons-6/S/Suse](../../simpleicons-6/S/Suse.png) | [simpleicons-6/S/Suse](../../simpleicons-6/S/Suse.md) |

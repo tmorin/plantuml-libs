@@ -1,6 +1,6 @@
 # P
 
-The module contains 155 items.
+The module contains 158 items.
 
 
 
@@ -51,6 +51,7 @@ The module contains 155 items.
 | ![illustration of simpleicons-6/P/Php](../../simpleicons-6/P/Php.png) | [simpleicons-6/P/Php](../../simpleicons-6/P/Php.md) |
 | ![illustration of simpleicons-6/P/Phpmyadmin](../../simpleicons-6/P/Phpmyadmin.png) | [simpleicons-6/P/Phpmyadmin](../../simpleicons-6/P/Phpmyadmin.md) |
 | ![illustration of simpleicons-6/P/Phpstorm](../../simpleicons-6/P/Phpstorm.png) | [simpleicons-6/P/Phpstorm](../../simpleicons-6/P/Phpstorm.md) |
+| ![illustration of simpleicons-6/P/Picardsurgeles](../../simpleicons-6/P/Picardsurgeles.png) | [simpleicons-6/P/Picardsurgeles](../../simpleicons-6/P/Picardsurgeles.md) |
 | ![illustration of simpleicons-6/P/Picartodottv](../../simpleicons-6/P/Picartodottv.png) | [simpleicons-6/P/Picartodottv](../../simpleicons-6/P/Picartodottv.md) |
 | ![illustration of simpleicons-6/P/Picnic](../../simpleicons-6/P/Picnic.png) | [simpleicons-6/P/Picnic](../../simpleicons-6/P/Picnic.md) |
 | ![illustration of simpleicons-6/P/Picpay](../../simpleicons-6/P/Picpay.png) | [simpleicons-6/P/Picpay](../../simpleicons-6/P/Picpay.md) |
@@ -93,6 +94,7 @@ The module contains 155 items.
 | ![illustration of simpleicons-6/P/Pocketcasts](../../simpleicons-6/P/Pocketcasts.png) | [simpleicons-6/P/Pocketcasts](../../simpleicons-6/P/Pocketcasts.md) |
 | ![illustration of simpleicons-6/P/Podcastaddict](../../simpleicons-6/P/Podcastaddict.png) | [simpleicons-6/P/Podcastaddict](../../simpleicons-6/P/Podcastaddict.md) |
 | ![illustration of simpleicons-6/P/Podman](../../simpleicons-6/P/Podman.png) | [simpleicons-6/P/Podman](../../simpleicons-6/P/Podman.md) |
+| ![illustration of simpleicons-6/P/Poetry](../../simpleicons-6/P/Poetry.png) | [simpleicons-6/P/Poetry](../../simpleicons-6/P/Poetry.md) |
 | ![illustration of simpleicons-6/P/Pointy](../../simpleicons-6/P/Pointy.png) | [simpleicons-6/P/Pointy](../../simpleicons-6/P/Pointy.md) |
 | ![illustration of simpleicons-6/P/Pokemon](../../simpleicons-6/P/Pokemon.png) | [simpleicons-6/P/Pokemon](../../simpleicons-6/P/Pokemon.md) |
 | ![illustration of simpleicons-6/P/Polkadot](../../simpleicons-6/P/Polkadot.png) | [simpleicons-6/P/Polkadot](../../simpleicons-6/P/Polkadot.md) |
@@ -140,6 +142,7 @@ The module contains 155 items.
 | ![illustration of simpleicons-6/P/Protools](../../simpleicons-6/P/Protools.png) | [simpleicons-6/P/Protools](../../simpleicons-6/P/Protools.md) |
 | ![illustration of simpleicons-6/P/Protractor](../../simpleicons-6/P/Protractor.png) | [simpleicons-6/P/Protractor](../../simpleicons-6/P/Protractor.md) |
 | ![illustration of simpleicons-6/P/Proxmox](../../simpleicons-6/P/Proxmox.png) | [simpleicons-6/P/Proxmox](../../simpleicons-6/P/Proxmox.md) |
+| ![illustration of simpleicons-6/P/Pubg](../../simpleicons-6/P/Pubg.png) | [simpleicons-6/P/Pubg](../../simpleicons-6/P/Pubg.md) |
 | ![illustration of simpleicons-6/P/Publons](../../simpleicons-6/P/Publons.png) | [simpleicons-6/P/Publons](../../simpleicons-6/P/Publons.md) |
 | ![illustration of simpleicons-6/P/Pubmed](../../simpleicons-6/P/Pubmed.png) | [simpleicons-6/P/Pubmed](../../simpleicons-6/P/Pubmed.md) |
 | ![illustration of simpleicons-6/P/Pug](../../simpleicons-6/P/Pug.png) | [simpleicons-6/P/Pug](../../simpleicons-6/P/Pug.md) |

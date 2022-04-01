@@ -1,6 +1,6 @@
 # O
 
-The module contains 63 items.
+The module contains 66 items.
 
 
 
@@ -21,6 +21,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-6/O/Okta](../../simpleicons-6/O/Okta.png) | [simpleicons-6/O/Okta](../../simpleicons-6/O/Okta.md) |
 | ![illustration of simpleicons-6/O/Oneplus](../../simpleicons-6/O/Oneplus.png) | [simpleicons-6/O/Oneplus](../../simpleicons-6/O/Oneplus.md) |
 | ![illustration of simpleicons-6/O/Onlyfans](../../simpleicons-6/O/Onlyfans.png) | [simpleicons-6/O/Onlyfans](../../simpleicons-6/O/Onlyfans.md) |
+| ![illustration of simpleicons-6/O/Onlyoffice](../../simpleicons-6/O/Onlyoffice.png) | [simpleicons-6/O/Onlyoffice](../../simpleicons-6/O/Onlyoffice.md) |
 | ![illustration of simpleicons-6/O/Onnx](../../simpleicons-6/O/Onnx.png) | [simpleicons-6/O/Onnx](../../simpleicons-6/O/Onnx.md) |
 | ![illustration of simpleicons-6/O/Onstar](../../simpleicons-6/O/Onstar.png) | [simpleicons-6/O/Onstar](../../simpleicons-6/O/Onstar.md) |
 | ![illustration of simpleicons-6/O/Opel](../../simpleicons-6/O/Opel.png) | [simpleicons-6/O/Opel](../../simpleicons-6/O/Opel.md) |
@@ -41,6 +42,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-6/O/Openmined](../../simpleicons-6/O/Openmined.png) | [simpleicons-6/O/Openmined](../../simpleicons-6/O/Openmined.md) |
 | ![illustration of simpleicons-6/O/Opennebula](../../simpleicons-6/O/Opennebula.png) | [simpleicons-6/O/Opennebula](../../simpleicons-6/O/Opennebula.md) |
 | ![illustration of simpleicons-6/O/Opensea](../../simpleicons-6/O/Opensea.png) | [simpleicons-6/O/Opensea](../../simpleicons-6/O/Opensea.md) |
+| ![illustration of simpleicons-6/O/Opensearch](../../simpleicons-6/O/Opensearch.png) | [simpleicons-6/O/Opensearch](../../simpleicons-6/O/Opensearch.md) |
 | ![illustration of simpleicons-6/O/Opensourceinitiative](../../simpleicons-6/O/Opensourceinitiative.png) | [simpleicons-6/O/Opensourceinitiative](../../simpleicons-6/O/Opensourceinitiative.md) |
 | ![illustration of simpleicons-6/O/Openssl](../../simpleicons-6/O/Openssl.png) | [simpleicons-6/O/Openssl](../../simpleicons-6/O/Openssl.md) |
 | ![illustration of simpleicons-6/O/Openstack](../../simpleicons-6/O/Openstack.png) | [simpleicons-6/O/Openstack](../../simpleicons-6/O/Openstack.md) |
@@ -49,6 +51,7 @@ The module contains 63 items.
 | ![illustration of simpleicons-6/O/Opentelemetry](../../simpleicons-6/O/Opentelemetry.png) | [simpleicons-6/O/Opentelemetry](../../simpleicons-6/O/Opentelemetry.md) |
 | ![illustration of simpleicons-6/O/Openvpn](../../simpleicons-6/O/Openvpn.png) | [simpleicons-6/O/Openvpn](../../simpleicons-6/O/Openvpn.md) |
 | ![illustration of simpleicons-6/O/Openwrt](../../simpleicons-6/O/Openwrt.png) | [simpleicons-6/O/Openwrt](../../simpleicons-6/O/Openwrt.md) |
+| ![illustration of simpleicons-6/O/Openzfs](../../simpleicons-6/O/Openzfs.png) | [simpleicons-6/O/Openzfs](../../simpleicons-6/O/Openzfs.md) |
 | ![illustration of simpleicons-6/O/Opera](../../simpleicons-6/O/Opera.png) | [simpleicons-6/O/Opera](../../simpleicons-6/O/Opera.md) |
 | ![illustration of simpleicons-6/O/Opnsense](../../simpleicons-6/O/Opnsense.png) | [simpleicons-6/O/Opnsense](../../simpleicons-6/O/Opnsense.md) |
 | ![illustration of simpleicons-6/O/Opsgenie](../../simpleicons-6/O/Opsgenie.png) | [simpleicons-6/O/Opsgenie](../../simpleicons-6/O/Opsgenie.md) |

@@ -1,6 +1,6 @@
 # C
 
-The module contains 149 items.
+The module contains 156 items.
 
 
 
@@ -39,6 +39,7 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Checkio](../../simpleicons-6/C/Checkio.png) | [simpleicons-6/C/Checkio](../../simpleicons-6/C/Checkio.md) |
 | ![illustration of simpleicons-6/C/Checkmarx](../../simpleicons-6/C/Checkmarx.png) | [simpleicons-6/C/Checkmarx](../../simpleicons-6/C/Checkmarx.md) |
 | ![illustration of simpleicons-6/C/Chef](../../simpleicons-6/C/Chef.png) | [simpleicons-6/C/Chef](../../simpleicons-6/C/Chef.md) |
+| ![illustration of simpleicons-6/C/Chemex](../../simpleicons-6/C/Chemex.png) | [simpleicons-6/C/Chemex](../../simpleicons-6/C/Chemex.md) |
 | ![illustration of simpleicons-6/C/Chevrolet](../../simpleicons-6/C/Chevrolet.png) | [simpleicons-6/C/Chevrolet](../../simpleicons-6/C/Chevrolet.md) |
 | ![illustration of simpleicons-6/C/Chinaeasternairlines](../../simpleicons-6/C/Chinaeasternairlines.png) | [simpleicons-6/C/Chinaeasternairlines](../../simpleicons-6/C/Chinaeasternairlines.md) |
 | ![illustration of simpleicons-6/C/Chinasouthernairlines](../../simpleicons-6/C/Chinasouthernairlines.png) | [simpleicons-6/C/Chinasouthernairlines](../../simpleicons-6/C/Chinasouthernairlines.md) |
@@ -46,6 +47,7 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Chromecast](../../simpleicons-6/C/Chromecast.png) | [simpleicons-6/C/Chromecast](../../simpleicons-6/C/Chromecast.md) |
 | ![illustration of simpleicons-6/C/Chrysler](../../simpleicons-6/C/Chrysler.png) | [simpleicons-6/C/Chrysler](../../simpleicons-6/C/Chrysler.md) |
 | ![illustration of simpleicons-6/C/Chupachups](../../simpleicons-6/C/Chupachups.png) | [simpleicons-6/C/Chupachups](../../simpleicons-6/C/Chupachups.md) |
+| ![illustration of simpleicons-6/C/Cilium](../../simpleicons-6/C/Cilium.png) | [simpleicons-6/C/Cilium](../../simpleicons-6/C/Cilium.md) |
 | ![illustration of simpleicons-6/C/Cinema4D](../../simpleicons-6/C/Cinema4D.png) | [simpleicons-6/C/Cinema4D](../../simpleicons-6/C/Cinema4D.md) |
 | ![illustration of simpleicons-6/C/Circle](../../simpleicons-6/C/Circle.png) | [simpleicons-6/C/Circle](../../simpleicons-6/C/Circle.md) |
 | ![illustration of simpleicons-6/C/Circleci](../../simpleicons-6/C/Circleci.png) | [simpleicons-6/C/Circleci](../../simpleicons-6/C/Circleci.md) |
@@ -57,6 +59,7 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Civo](../../simpleicons-6/C/Civo.png) | [simpleicons-6/C/Civo](../../simpleicons-6/C/Civo.md) |
 | ![illustration of simpleicons-6/C/Ckeditor4](../../simpleicons-6/C/Ckeditor4.png) | [simpleicons-6/C/Ckeditor4](../../simpleicons-6/C/Ckeditor4.md) |
 | ![illustration of simpleicons-6/C/Claris](../../simpleicons-6/C/Claris.png) | [simpleicons-6/C/Claris](../../simpleicons-6/C/Claris.md) |
+| ![illustration of simpleicons-6/C/Clickhouse](../../simpleicons-6/C/Clickhouse.png) | [simpleicons-6/C/Clickhouse](../../simpleicons-6/C/Clickhouse.md) |
 | ![illustration of simpleicons-6/C/Clickup](../../simpleicons-6/C/Clickup.png) | [simpleicons-6/C/Clickup](../../simpleicons-6/C/Clickup.md) |
 | ![illustration of simpleicons-6/C/Clion](../../simpleicons-6/C/Clion.png) | [simpleicons-6/C/Clion](../../simpleicons-6/C/Clion.md) |
 | ![illustration of simpleicons-6/C/Cliqz](../../simpleicons-6/C/Cliqz.png) | [simpleicons-6/C/Cliqz](../../simpleicons-6/C/Cliqz.md) |
@@ -108,6 +111,7 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Cognizant](../../simpleicons-6/C/Cognizant.png) | [simpleicons-6/C/Cognizant](../../simpleicons-6/C/Cognizant.md) |
 | ![illustration of simpleicons-6/C/Coil](../../simpleicons-6/C/Coil.png) | [simpleicons-6/C/Coil](../../simpleicons-6/C/Coil.md) |
 | ![illustration of simpleicons-6/C/Coinbase](../../simpleicons-6/C/Coinbase.png) | [simpleicons-6/C/Coinbase](../../simpleicons-6/C/Coinbase.md) |
+| ![illustration of simpleicons-6/C/Coinmarketcap](../../simpleicons-6/C/Coinmarketcap.png) | [simpleicons-6/C/Coinmarketcap](../../simpleicons-6/C/Coinmarketcap.md) |
 | ![illustration of simpleicons-6/C/Commerzbank](../../simpleicons-6/C/Commerzbank.png) | [simpleicons-6/C/Commerzbank](../../simpleicons-6/C/Commerzbank.md) |
 | ![illustration of simpleicons-6/C/Commonworkflowlanguage](../../simpleicons-6/C/Commonworkflowlanguage.png) | [simpleicons-6/C/Commonworkflowlanguage](../../simpleicons-6/C/Commonworkflowlanguage.md) |
 | ![illustration of simpleicons-6/C/Composer](../../simpleicons-6/C/Composer.png) | [simpleicons-6/C/Composer](../../simpleicons-6/C/Composer.md) |
@@ -122,9 +126,11 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Contactlesspayment](../../simpleicons-6/C/Contactlesspayment.png) | [simpleicons-6/C/Contactlesspayment](../../simpleicons-6/C/Contactlesspayment.md) |
 | ![illustration of simpleicons-6/C/Containerd](../../simpleicons-6/C/Containerd.png) | [simpleicons-6/C/Containerd](../../simpleicons-6/C/Containerd.md) |
 | ![illustration of simpleicons-6/C/Contentful](../../simpleicons-6/C/Contentful.png) | [simpleicons-6/C/Contentful](../../simpleicons-6/C/Contentful.md) |
+| ![illustration of simpleicons-6/C/Conventionalcommits](../../simpleicons-6/C/Conventionalcommits.png) | [simpleicons-6/C/Conventionalcommits](../../simpleicons-6/C/Conventionalcommits.md) |
 | ![illustration of simpleicons-6/C/Convertio](../../simpleicons-6/C/Convertio.png) | [simpleicons-6/C/Convertio](../../simpleicons-6/C/Convertio.md) |
 | ![illustration of simpleicons-6/C/Cookiecutter](../../simpleicons-6/C/Cookiecutter.png) | [simpleicons-6/C/Cookiecutter](../../simpleicons-6/C/Cookiecutter.md) |
 | ![illustration of simpleicons-6/C/Coop](../../simpleicons-6/C/Coop.png) | [simpleicons-6/C/Coop](../../simpleicons-6/C/Coop.md) |
+| ![illustration of simpleicons-6/C/Cora](../../simpleicons-6/C/Cora.png) | [simpleicons-6/C/Cora](../../simpleicons-6/C/Cora.md) |
 | ![illustration of simpleicons-6/C/Coronaengine](../../simpleicons-6/C/Coronaengine.png) | [simpleicons-6/C/Coronaengine](../../simpleicons-6/C/Coronaengine.md) |
 | ![illustration of simpleicons-6/C/Coronarenderer](../../simpleicons-6/C/Coronarenderer.png) | [simpleicons-6/C/Coronarenderer](../../simpleicons-6/C/Coronarenderer.md) |
 | ![illustration of simpleicons-6/C/Corsair](../../simpleicons-6/C/Corsair.png) | [simpleicons-6/C/Corsair](../../simpleicons-6/C/Corsair.md) |
@@ -136,6 +142,7 @@ The module contains 149 items.
 | ![illustration of simpleicons-6/C/Cpanel](../../simpleicons-6/C/Cpanel.png) | [simpleicons-6/C/Cpanel](../../simpleicons-6/C/Cpanel.md) |
 | ![illustration of simpleicons-6/C/Cplusplus](../../simpleicons-6/C/Cplusplus.png) | [simpleicons-6/C/Cplusplus](../../simpleicons-6/C/Cplusplus.md) |
 | ![illustration of simpleicons-6/C/Craftcms](../../simpleicons-6/C/Craftcms.png) | [simpleicons-6/C/Craftcms](../../simpleicons-6/C/Craftcms.md) |
+| ![illustration of simpleicons-6/C/Cratedb](../../simpleicons-6/C/Cratedb.png) | [simpleicons-6/C/Cratedb](../../simpleicons-6/C/Cratedb.md) |
 | ![illustration of simpleicons-6/C/Createreactapp](../../simpleicons-6/C/Createreactapp.png) | [simpleicons-6/C/Createreactapp](../../simpleicons-6/C/Createreactapp.md) |
 | ![illustration of simpleicons-6/C/Creativecommons](../../simpleicons-6/C/Creativecommons.png) | [simpleicons-6/C/Creativecommons](../../simpleicons-6/C/Creativecommons.md) |
 | ![illustration of simpleicons-6/C/Credly](../../simpleicons-6/C/Credly.png) | [simpleicons-6/C/Credly](../../simpleicons-6/C/Credly.md) |

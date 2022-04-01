@@ -1,6 +1,6 @@
 # V
 
-The module contains 48 items.
+The module contains 49 items.
 
 
 
@@ -25,6 +25,7 @@ The module contains 48 items.
 | ![illustration of simpleicons-6/V/Verdaccio](../../simpleicons-6/V/Verdaccio.png) | [simpleicons-6/V/Verdaccio](../../simpleicons-6/V/Verdaccio.md) |
 | ![illustration of simpleicons-6/V/Veritas](../../simpleicons-6/V/Veritas.png) | [simpleicons-6/V/Veritas](../../simpleicons-6/V/Veritas.md) |
 | ![illustration of simpleicons-6/V/Verizon](../../simpleicons-6/V/Verizon.png) | [simpleicons-6/V/Verizon](../../simpleicons-6/V/Verizon.md) |
+| ![illustration of simpleicons-6/V/Vexxhost](../../simpleicons-6/V/Vexxhost.png) | [simpleicons-6/V/Vexxhost](../../simpleicons-6/V/Vexxhost.md) |
 | ![illustration of simpleicons-6/V/Vfairs](../../simpleicons-6/V/Vfairs.png) | [simpleicons-6/V/Vfairs](../../simpleicons-6/V/Vfairs.md) |
 | ![illustration of simpleicons-6/V/Viadeo](../../simpleicons-6/V/Viadeo.png) | [simpleicons-6/V/Viadeo](../../simpleicons-6/V/Viadeo.md) |
 | ![illustration of simpleicons-6/V/Viber](../../simpleicons-6/V/Viber.png) | [simpleicons-6/V/Viber](../../simpleicons-6/V/Viber.md) |

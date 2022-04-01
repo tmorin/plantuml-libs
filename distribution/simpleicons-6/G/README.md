@@ -1,6 +1,6 @@
 # G
 
-The module contains 115 items.
+The module contains 117 items.
 
 
 
@@ -45,6 +45,7 @@ The module contains 115 items.
 | ![illustration of simpleicons-6/G/Globus](../../simpleicons-6/G/Globus.png) | [simpleicons-6/G/Globus](../../simpleicons-6/G/Globus.md) |
 | ![illustration of simpleicons-6/G/Gmail](../../simpleicons-6/G/Gmail.png) | [simpleicons-6/G/Gmail](../../simpleicons-6/G/Gmail.md) |
 | ![illustration of simpleicons-6/G/Gnome](../../simpleicons-6/G/Gnome.png) | [simpleicons-6/G/Gnome](../../simpleicons-6/G/Gnome.md) |
+| ![illustration of simpleicons-6/G/Gnometerminal](../../simpleicons-6/G/Gnometerminal.png) | [simpleicons-6/G/Gnometerminal](../../simpleicons-6/G/Gnometerminal.md) |
 | ![illustration of simpleicons-6/G/Gnu](../../simpleicons-6/G/Gnu.png) | [simpleicons-6/G/Gnu](../../simpleicons-6/G/Gnu.md) |
 | ![illustration of simpleicons-6/G/Gnubash](../../simpleicons-6/G/Gnubash.png) | [simpleicons-6/G/Gnubash](../../simpleicons-6/G/Gnubash.md) |
 | ![illustration of simpleicons-6/G/Gnuemacs](../../simpleicons-6/G/Gnuemacs.png) | [simpleicons-6/G/Gnuemacs](../../simpleicons-6/G/Gnuemacs.md) |
@@ -103,6 +104,7 @@ The module contains 115 items.
 | ![illustration of simpleicons-6/G/Gradle](../../simpleicons-6/G/Gradle.png) | [simpleicons-6/G/Gradle](../../simpleicons-6/G/Gradle.md) |
 | ![illustration of simpleicons-6/G/Grafana](../../simpleicons-6/G/Grafana.png) | [simpleicons-6/G/Grafana](../../simpleicons-6/G/Grafana.md) |
 | ![illustration of simpleicons-6/G/Grammarly](../../simpleicons-6/G/Grammarly.png) | [simpleicons-6/G/Grammarly](../../simpleicons-6/G/Grammarly.md) |
+| ![illustration of simpleicons-6/G/Grandfrais](../../simpleicons-6/G/Grandfrais.png) | [simpleicons-6/G/Grandfrais](../../simpleicons-6/G/Grandfrais.md) |
 | ![illustration of simpleicons-6/G/Graphql](../../simpleicons-6/G/Graphql.png) | [simpleicons-6/G/Graphql](../../simpleicons-6/G/Graphql.md) |
 | ![illustration of simpleicons-6/G/Grav](../../simpleicons-6/G/Grav.png) | [simpleicons-6/G/Grav](../../simpleicons-6/G/Grav.md) |
 | ![illustration of simpleicons-6/G/Gravatar](../../simpleicons-6/G/Gravatar.png) | [simpleicons-6/G/Gravatar](../../simpleicons-6/G/Gravatar.md) |

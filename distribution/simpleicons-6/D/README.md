@@ -1,6 +1,6 @@
 # D
 
-The module contains 92 items.
+The module contains 95 items.
 
 
 
@@ -17,10 +17,12 @@ The module contains 92 items.
 | ![illustration of simpleicons-6/D/Daserste](../../simpleicons-6/D/Daserste.png) | [simpleicons-6/D/Daserste](../../simpleicons-6/D/Daserste.md) |
 | ![illustration of simpleicons-6/D/Dash](../../simpleicons-6/D/Dash.png) | [simpleicons-6/D/Dash](../../simpleicons-6/D/Dash.md) |
 | ![illustration of simpleicons-6/D/Dashlane](../../simpleicons-6/D/Dashlane.png) | [simpleicons-6/D/Dashlane](../../simpleicons-6/D/Dashlane.md) |
+| ![illustration of simpleicons-6/D/Dask](../../simpleicons-6/D/Dask.png) | [simpleicons-6/D/Dask](../../simpleicons-6/D/Dask.md) |
 | ![illustration of simpleicons-6/D/Dassaultsystemes](../../simpleicons-6/D/Dassaultsystemes.png) | [simpleicons-6/D/Dassaultsystemes](../../simpleicons-6/D/Dassaultsystemes.md) |
 | ![illustration of simpleicons-6/D/Databricks](../../simpleicons-6/D/Databricks.png) | [simpleicons-6/D/Databricks](../../simpleicons-6/D/Databricks.md) |
 | ![illustration of simpleicons-6/D/Datacamp](../../simpleicons-6/D/Datacamp.png) | [simpleicons-6/D/Datacamp](../../simpleicons-6/D/Datacamp.md) |
 | ![illustration of simpleicons-6/D/Datadog](../../simpleicons-6/D/Datadog.png) | [simpleicons-6/D/Datadog](../../simpleicons-6/D/Datadog.md) |
+| ![illustration of simpleicons-6/D/Datadotai](../../simpleicons-6/D/Datadotai.png) | [simpleicons-6/D/Datadotai](../../simpleicons-6/D/Datadotai.md) |
 | ![illustration of simpleicons-6/D/Datagrip](../../simpleicons-6/D/Datagrip.png) | [simpleicons-6/D/Datagrip](../../simpleicons-6/D/Datagrip.md) |
 | ![illustration of simpleicons-6/D/Dataiku](../../simpleicons-6/D/Dataiku.png) | [simpleicons-6/D/Dataiku](../../simpleicons-6/D/Dataiku.md) |
 | ![illustration of simpleicons-6/D/Datastax](../../simpleicons-6/D/Datastax.png) | [simpleicons-6/D/Datastax](../../simpleicons-6/D/Datastax.md) |
@@ -94,6 +96,7 @@ The module contains 92 items.
 | ![illustration of simpleicons-6/D/Dungeonsanddragons](../../simpleicons-6/D/Dungeonsanddragons.png) | [simpleicons-6/D/Dungeonsanddragons](../../simpleicons-6/D/Dungeonsanddragons.md) |
 | ![illustration of simpleicons-6/D/Dunked](../../simpleicons-6/D/Dunked.png) | [simpleicons-6/D/Dunked](../../simpleicons-6/D/Dunked.md) |
 | ![illustration of simpleicons-6/D/Duolingo](../../simpleicons-6/D/Duolingo.png) | [simpleicons-6/D/Duolingo](../../simpleicons-6/D/Duolingo.md) |
+| ![illustration of simpleicons-6/D/Dvc](../../simpleicons-6/D/Dvc.png) | [simpleicons-6/D/Dvc](../../simpleicons-6/D/Dvc.md) |
 | ![illustration of simpleicons-6/D/Dwavesystems](../../simpleicons-6/D/Dwavesystems.png) | [simpleicons-6/D/Dwavesystems](../../simpleicons-6/D/Dwavesystems.md) |
 | ![illustration of simpleicons-6/D/Dwm](../../simpleicons-6/D/Dwm.png) | [simpleicons-6/D/Dwm](../../simpleicons-6/D/Dwm.md) |
 | ![illustration of simpleicons-6/D/Dynamics365](../../simpleicons-6/D/Dynamics365.png) | [simpleicons-6/D/Dynamics365](../../simpleicons-6/D/Dynamics365.md) |

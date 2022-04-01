@@ -1,6 +1,6 @@
 # M
 
-The module contains 126 items.
+The module contains 127 items.
 
 
 
@@ -34,6 +34,7 @@ The module contains 126 items.
 | ![illustration of simpleicons-6/M/Materialdesignicons](../../simpleicons-6/M/Materialdesignicons.png) | [simpleicons-6/M/Materialdesignicons](../../simpleicons-6/M/Materialdesignicons.md) |
 | ![illustration of simpleicons-6/M/Matomo](../../simpleicons-6/M/Matomo.png) | [simpleicons-6/M/Matomo](../../simpleicons-6/M/Matomo.md) |
 | ![illustration of simpleicons-6/M/Matrix](../../simpleicons-6/M/Matrix.png) | [simpleicons-6/M/Matrix](../../simpleicons-6/M/Matrix.md) |
+| ![illustration of simpleicons-6/M/Matterdotjs](../../simpleicons-6/M/Matterdotjs.png) | [simpleicons-6/M/Matterdotjs](../../simpleicons-6/M/Matterdotjs.md) |
 | ![illustration of simpleicons-6/M/Mattermost](../../simpleicons-6/M/Mattermost.png) | [simpleicons-6/M/Mattermost](../../simpleicons-6/M/Mattermost.md) |
 | ![illustration of simpleicons-6/M/Matternet](../../simpleicons-6/M/Matternet.png) | [simpleicons-6/M/Matternet](../../simpleicons-6/M/Matternet.md) |
 | ![illustration of simpleicons-6/M/Max](../../simpleicons-6/M/Max.png) | [simpleicons-6/M/Max](../../simpleicons-6/M/Max.md) |

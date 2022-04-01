@@ -1,6 +1,6 @@
 # R
 
-The module contains 91 items.
+The module contains 94 items.
 
 
 
@@ -19,6 +19,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-6/R/Rancher](../../simpleicons-6/R/Rancher.png) | [simpleicons-6/R/Rancher](../../simpleicons-6/R/Rancher.md) |
 | ![illustration of simpleicons-6/R/Rarible](../../simpleicons-6/R/Rarible.png) | [simpleicons-6/R/Rarible](../../simpleicons-6/R/Rarible.md) |
 | ![illustration of simpleicons-6/R/Raspberrypi](../../simpleicons-6/R/Raspberrypi.png) | [simpleicons-6/R/Raspberrypi](../../simpleicons-6/R/Raspberrypi.md) |
+| ![illustration of simpleicons-6/R/Ray](../../simpleicons-6/R/Ray.png) | [simpleicons-6/R/Ray](../../simpleicons-6/R/Ray.md) |
 | ![illustration of simpleicons-6/R/Razer](../../simpleicons-6/R/Razer.png) | [simpleicons-6/R/Razer](../../simpleicons-6/R/Razer.md) |
 | ![illustration of simpleicons-6/R/Razorpay](../../simpleicons-6/R/Razorpay.png) | [simpleicons-6/R/Razorpay](../../simpleicons-6/R/Razorpay.md) |
 | ![illustration of simpleicons-6/R/React](../../simpleicons-6/R/React.png) | [simpleicons-6/R/React](../../simpleicons-6/R/React.md) |
@@ -47,6 +48,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-6/R/Renpy](../../simpleicons-6/R/Renpy.png) | [simpleicons-6/R/Renpy](../../simpleicons-6/R/Renpy.md) |
 | ![illustration of simpleicons-6/R/Renren](../../simpleicons-6/R/Renren.png) | [simpleicons-6/R/Renren](../../simpleicons-6/R/Renren.md) |
 | ![illustration of simpleicons-6/R/Replit](../../simpleicons-6/R/Replit.png) | [simpleicons-6/R/Replit](../../simpleicons-6/R/Replit.md) |
+| ![illustration of simpleicons-6/R/Republicofgamers](../../simpleicons-6/R/Republicofgamers.png) | [simpleicons-6/R/Republicofgamers](../../simpleicons-6/R/Republicofgamers.md) |
 | ![illustration of simpleicons-6/R/Rescript](../../simpleicons-6/R/Rescript.png) | [simpleicons-6/R/Rescript](../../simpleicons-6/R/Rescript.md) |
 | ![illustration of simpleicons-6/R/Rescuetime](../../simpleicons-6/R/Rescuetime.png) | [simpleicons-6/R/Rescuetime](../../simpleicons-6/R/Rescuetime.md) |
 | ![illustration of simpleicons-6/R/Researchgate](../../simpleicons-6/R/Researchgate.png) | [simpleicons-6/R/Researchgate](../../simpleicons-6/R/Researchgate.md) |
@@ -70,6 +72,7 @@ The module contains 91 items.
 | ![illustration of simpleicons-6/R/Roblox](../../simpleicons-6/R/Roblox.png) | [simpleicons-6/R/Roblox](../../simpleicons-6/R/Roblox.md) |
 | ![illustration of simpleicons-6/R/Robotframework](../../simpleicons-6/R/Robotframework.png) | [simpleicons-6/R/Robotframework](../../simpleicons-6/R/Robotframework.md) |
 | ![illustration of simpleicons-6/R/Rocketdotchat](../../simpleicons-6/R/Rocketdotchat.png) | [simpleicons-6/R/Rocketdotchat](../../simpleicons-6/R/Rocketdotchat.md) |
+| ![illustration of simpleicons-6/R/Rocksdb](../../simpleicons-6/R/Rocksdb.png) | [simpleicons-6/R/Rocksdb](../../simpleicons-6/R/Rocksdb.md) |
 | ![illustration of simpleicons-6/R/Rockylinux](../../simpleicons-6/R/Rockylinux.png) | [simpleicons-6/R/Rockylinux](../../simpleicons-6/R/Rockylinux.md) |
 | ![illustration of simpleicons-6/R/Roku](../../simpleicons-6/R/Roku.png) | [simpleicons-6/R/Roku](../../simpleicons-6/R/Roku.md) |
 | ![illustration of simpleicons-6/R/Rollsroyce](../../simpleicons-6/R/Rollsroyce.png) | [simpleicons-6/R/Rollsroyce](../../simpleicons-6/R/Rollsroyce.md) |

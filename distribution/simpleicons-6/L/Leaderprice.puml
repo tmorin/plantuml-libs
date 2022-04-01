@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-6/L/Leaderprice
+
+sprite $LeaderpriceXs [10x10/16z] LOg50G0X30Fphd3xJulhrPieigW0POMoRbgtqC9kz8DTKMAhjaU7rOG5sXgx1m
+
+sprite $LeaderpriceSm [12x12/16z] LOk50G1H24BnTwZiF-rrFZl0WU21Z6_x3BNj7ArRoAGQkVL2SgZGy6DgjIxmNTqGUvrPwt7W3axqQ9_XA2i
+
+sprite $LeaderpriceMd [16x16/16z] {
+LOw30KH130NVsfd-gptZPnOnz2780T6RaBm9-Mks_kPbTAsbgVMugwsa9Llg6HtMJ8Z5sHEiScQk-l4TM7MeOP1Y3ozx1j0Wnn4_cyRddnG_9Oit-hAyAMrl
+IkThtW4
+}
+
+sprite $LeaderpriceLg [20x20/16z] {
+TSg54GGX40NHZyF2JESVxRbJr_Whz2m4_HOWxmHX9yWRVVzi_PbqBIgaT3tI_PQ2vAf7qKGqwYnnZdurc_9L4DrdX2GOC7esE0h4iQhqBhslj4Md31khp1Rk
+ne2B8HLSTvE85-juSOlwt-IHwvtl9CsT9Dz9ccyw0m
+}
+
+!procedure Leaderprice($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-6/L/Leaderprice', $name, $tech)
+!endprocedure

@@ -1,17 +1,19 @@
 # K
 
-The module contains 52 items.
+The module contains 55 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-6/K/K3S](../../simpleicons-6/K/K3S.png) | [simpleicons-6/K/K3S](../../simpleicons-6/K/K3S.md) |
 | ![illustration of simpleicons-6/K/Kaggle](../../simpleicons-6/K/Kaggle.png) | [simpleicons-6/K/Kaggle](../../simpleicons-6/K/Kaggle.md) |
 | ![illustration of simpleicons-6/K/Kahoot](../../simpleicons-6/K/Kahoot.png) | [simpleicons-6/K/Kahoot](../../simpleicons-6/K/Kahoot.md) |
 | ![illustration of simpleicons-6/K/Kaios](../../simpleicons-6/K/Kaios.png) | [simpleicons-6/K/Kaios](../../simpleicons-6/K/Kaios.md) |
 | ![illustration of simpleicons-6/K/Kakao](../../simpleicons-6/K/Kakao.png) | [simpleicons-6/K/Kakao](../../simpleicons-6/K/Kakao.md) |
 | ![illustration of simpleicons-6/K/Kakaotalk](../../simpleicons-6/K/Kakaotalk.png) | [simpleicons-6/K/Kakaotalk](../../simpleicons-6/K/Kakaotalk.md) |
 | ![illustration of simpleicons-6/K/Kalilinux](../../simpleicons-6/K/Kalilinux.png) | [simpleicons-6/K/Kalilinux](../../simpleicons-6/K/Kalilinux.md) |
+| ![illustration of simpleicons-6/K/Kaniko](../../simpleicons-6/K/Kaniko.png) | [simpleicons-6/K/Kaniko](../../simpleicons-6/K/Kaniko.md) |
 | ![illustration of simpleicons-6/K/Karlsruherverkehrsverbund](../../simpleicons-6/K/Karlsruherverkehrsverbund.png) | [simpleicons-6/K/Karlsruherverkehrsverbund](../../simpleicons-6/K/Karlsruherverkehrsverbund.md) |
 | ![illustration of simpleicons-6/K/Kasasmart](../../simpleicons-6/K/Kasasmart.png) | [simpleicons-6/K/Kasasmart](../../simpleicons-6/K/Kasasmart.md) |
 | ![illustration of simpleicons-6/K/Kashflow](../../simpleicons-6/K/Kashflow.png) | [simpleicons-6/K/Kashflow](../../simpleicons-6/K/Kashflow.md) |
@@ -48,6 +50,7 @@ The module contains 52 items.
 | ![illustration of simpleicons-6/K/Kofax](../../simpleicons-6/K/Kofax.png) | [simpleicons-6/K/Kofax](../../simpleicons-6/K/Kofax.md) |
 | ![illustration of simpleicons-6/K/Kofi](../../simpleicons-6/K/Kofi.png) | [simpleicons-6/K/Kofi](../../simpleicons-6/K/Kofi.md) |
 | ![illustration of simpleicons-6/K/Komoot](../../simpleicons-6/K/Komoot.png) | [simpleicons-6/K/Komoot](../../simpleicons-6/K/Komoot.md) |
+| ![illustration of simpleicons-6/K/Konami](../../simpleicons-6/K/Konami.png) | [simpleicons-6/K/Konami](../../simpleicons-6/K/Konami.md) |
 | ![illustration of simpleicons-6/K/Kongregate](../../simpleicons-6/K/Kongregate.png) | [simpleicons-6/K/Kongregate](../../simpleicons-6/K/Kongregate.md) |
 | ![illustration of simpleicons-6/K/Konva](../../simpleicons-6/K/Konva.png) | [simpleicons-6/K/Konva](../../simpleicons-6/K/Konva.md) |
 | ![illustration of simpleicons-6/K/Kotlin](../../simpleicons-6/K/Kotlin.png) | [simpleicons-6/K/Kotlin](../../simpleicons-6/K/Kotlin.md) |

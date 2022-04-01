@@ -1,6 +1,6 @@
 # A
 
-The module contains 206 items.
+The module contains 209 items.
 
 
 
@@ -66,6 +66,7 @@ The module contains 206 items.
 | ![illustration of simpleicons-6/A/Airplayaudio](../../simpleicons-6/A/Airplayaudio.png) | [simpleicons-6/A/Airplayaudio](../../simpleicons-6/A/Airplayaudio.md) |
 | ![illustration of simpleicons-6/A/Airplayvideo](../../simpleicons-6/A/Airplayvideo.png) | [simpleicons-6/A/Airplayvideo](../../simpleicons-6/A/Airplayvideo.md) |
 | ![illustration of simpleicons-6/A/Airtable](../../simpleicons-6/A/Airtable.png) | [simpleicons-6/A/Airtable](../../simpleicons-6/A/Airtable.md) |
+| ![illustration of simpleicons-6/A/Ajv](../../simpleicons-6/A/Ajv.png) | [simpleicons-6/A/Ajv](../../simpleicons-6/A/Ajv.md) |
 | ![illustration of simpleicons-6/A/Alacritty](../../simpleicons-6/A/Alacritty.png) | [simpleicons-6/A/Alacritty](../../simpleicons-6/A/Alacritty.md) |
 | ![illustration of simpleicons-6/A/Albertheijn](../../simpleicons-6/A/Albertheijn.png) | [simpleicons-6/A/Albertheijn](../../simpleicons-6/A/Albertheijn.md) |
 | ![illustration of simpleicons-6/A/Aldinord](../../simpleicons-6/A/Aldinord.png) | [simpleicons-6/A/Aldinord](../../simpleicons-6/A/Aldinord.md) |
@@ -167,6 +168,7 @@ The module contains 206 items.
 | ![illustration of simpleicons-6/A/Archlinux](../../simpleicons-6/A/Archlinux.png) | [simpleicons-6/A/Archlinux](../../simpleicons-6/A/Archlinux.md) |
 | ![illustration of simpleicons-6/A/Ardour](../../simpleicons-6/A/Ardour.png) | [simpleicons-6/A/Ardour](../../simpleicons-6/A/Ardour.md) |
 | ![illustration of simpleicons-6/A/Arduino](../../simpleicons-6/A/Arduino.png) | [simpleicons-6/A/Arduino](../../simpleicons-6/A/Arduino.md) |
+| ![illustration of simpleicons-6/A/Argos](../../simpleicons-6/A/Argos.png) | [simpleicons-6/A/Argos](../../simpleicons-6/A/Argos.md) |
 | ![illustration of simpleicons-6/A/Arkecosystem](../../simpleicons-6/A/Arkecosystem.png) | [simpleicons-6/A/Arkecosystem](../../simpleicons-6/A/Arkecosystem.md) |
 | ![illustration of simpleicons-6/A/Arlo](../../simpleicons-6/A/Arlo.png) | [simpleicons-6/A/Arlo](../../simpleicons-6/A/Arlo.md) |
 | ![illustration of simpleicons-6/A/Arm](../../simpleicons-6/A/Arm.png) | [simpleicons-6/A/Arm](../../simpleicons-6/A/Arm.md) |
@@ -207,6 +209,7 @@ The module contains 206 items.
 | ![illustration of simpleicons-6/A/Awesomelists](../../simpleicons-6/A/Awesomelists.png) | [simpleicons-6/A/Awesomelists](../../simpleicons-6/A/Awesomelists.md) |
 | ![illustration of simpleicons-6/A/Awesomewm](../../simpleicons-6/A/Awesomewm.png) | [simpleicons-6/A/Awesomewm](../../simpleicons-6/A/Awesomewm.md) |
 | ![illustration of simpleicons-6/A/Awsamplify](../../simpleicons-6/A/Awsamplify.png) | [simpleicons-6/A/Awsamplify](../../simpleicons-6/A/Awsamplify.md) |
+| ![illustration of simpleicons-6/A/Awslambda](../../simpleicons-6/A/Awslambda.png) | [simpleicons-6/A/Awslambda](../../simpleicons-6/A/Awslambda.md) |
 | ![illustration of simpleicons-6/A/Azureartifacts](../../simpleicons-6/A/Azureartifacts.png) | [simpleicons-6/A/Azureartifacts](../../simpleicons-6/A/Azureartifacts.md) |
 | ![illustration of simpleicons-6/A/Azuredataexplorer](../../simpleicons-6/A/Azuredataexplorer.png) | [simpleicons-6/A/Azuredataexplorer](../../simpleicons-6/A/Azuredataexplorer.md) |
 | ![illustration of simpleicons-6/A/Azuredevops](../../simpleicons-6/A/Azuredevops.png) | [simpleicons-6/A/Azuredevops](../../simpleicons-6/A/Azuredevops.md) |

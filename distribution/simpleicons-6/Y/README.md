@@ -1,6 +1,6 @@
 # Y
 
-The module contains 15 items.
+The module contains 16 items.
 
 
 
@@ -15,6 +15,7 @@ The module contains 15 items.
 | ![illustration of simpleicons-6/Y/Ycombinator](../../simpleicons-6/Y/Ycombinator.png) | [simpleicons-6/Y/Ycombinator](../../simpleicons-6/Y/Ycombinator.md) |
 | ![illustration of simpleicons-6/Y/Yelp](../../simpleicons-6/Y/Yelp.png) | [simpleicons-6/Y/Yelp](../../simpleicons-6/Y/Yelp.md) |
 | ![illustration of simpleicons-6/Y/Yoast](../../simpleicons-6/Y/Yoast.png) | [simpleicons-6/Y/Yoast](../../simpleicons-6/Y/Yoast.md) |
+| ![illustration of simpleicons-6/Y/Yolo](../../simpleicons-6/Y/Yolo.png) | [simpleicons-6/Y/Yolo](../../simpleicons-6/Y/Yolo.md) |
 | ![illustration of simpleicons-6/Y/Yourtraveldottv](../../simpleicons-6/Y/Yourtraveldottv.png) | [simpleicons-6/Y/Yourtraveldottv](../../simpleicons-6/Y/Yourtraveldottv.md) |
 | ![illustration of simpleicons-6/Y/Youtube](../../simpleicons-6/Y/Youtube.png) | [simpleicons-6/Y/Youtube](../../simpleicons-6/Y/Youtube.md) |
 | ![illustration of simpleicons-6/Y/Youtubegaming](../../simpleicons-6/Y/Youtubegaming.png) | [simpleicons-6/Y/Youtubegaming](../../simpleicons-6/Y/Youtubegaming.md) |

@@ -1,14 +1,17 @@
 # Z
 
-The module contains 28 items.
+The module contains 31 items.
 
 
 
 | |Name|
 |:---:|---|
+| ![illustration of simpleicons-6/Z/Zabka](../../simpleicons-6/Z/Zabka.png) | [simpleicons-6/Z/Zabka](../../simpleicons-6/Z/Zabka.md) |
 | ![illustration of simpleicons-6/Z/Zalando](../../simpleicons-6/Z/Zalando.png) | [simpleicons-6/Z/Zalando](../../simpleicons-6/Z/Zalando.md) |
 | ![illustration of simpleicons-6/Z/Zalo](../../simpleicons-6/Z/Zalo.png) | [simpleicons-6/Z/Zalo](../../simpleicons-6/Z/Zalo.md) |
 | ![illustration of simpleicons-6/Z/Zapier](../../simpleicons-6/Z/Zapier.png) | [simpleicons-6/Z/Zapier](../../simpleicons-6/Z/Zapier.md) |
+| ![illustration of simpleicons-6/Z/Zara](../../simpleicons-6/Z/Zara.png) | [simpleicons-6/Z/Zara](../../simpleicons-6/Z/Zara.md) |
+| ![illustration of simpleicons-6/Z/Zazzle](../../simpleicons-6/Z/Zazzle.png) | [simpleicons-6/Z/Zazzle](../../simpleicons-6/Z/Zazzle.md) |
 | ![illustration of simpleicons-6/Z/Zcash](../../simpleicons-6/Z/Zcash.png) | [simpleicons-6/Z/Zcash](../../simpleicons-6/Z/Zcash.md) |
 | ![illustration of simpleicons-6/Z/Zdf](../../simpleicons-6/Z/Zdf.png) | [simpleicons-6/Z/Zdf](../../simpleicons-6/Z/Zdf.md) |
 | ![illustration of simpleicons-6/Z/Zelle](../../simpleicons-6/Z/Zelle.png) | [simpleicons-6/Z/Zelle](../../simpleicons-6/Z/Zelle.md) |

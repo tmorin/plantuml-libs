@@ -1,6 +1,6 @@
 # L
 
-The module contains 67 items.
+The module contains 72 items.
 
 
 
@@ -19,11 +19,13 @@ The module contains 67 items.
 | ![illustration of simpleicons-6/L/Latex](../../simpleicons-6/L/Latex.png) | [simpleicons-6/L/Latex](../../simpleicons-6/L/Latex.md) |
 | ![illustration of simpleicons-6/L/Launchpad](../../simpleicons-6/L/Launchpad.png) | [simpleicons-6/L/Launchpad](../../simpleicons-6/L/Launchpad.md) |
 | ![illustration of simpleicons-6/L/Lbry](../../simpleicons-6/L/Lbry.png) | [simpleicons-6/L/Lbry](../../simpleicons-6/L/Lbry.md) |
+| ![illustration of simpleicons-6/L/Leaderprice](../../simpleicons-6/L/Leaderprice.png) | [simpleicons-6/L/Leaderprice](../../simpleicons-6/L/Leaderprice.md) |
 | ![illustration of simpleicons-6/L/Leaflet](../../simpleicons-6/L/Leaflet.png) | [simpleicons-6/L/Leaflet](../../simpleicons-6/L/Leaflet.md) |
 | ![illustration of simpleicons-6/L/Leanpub](../../simpleicons-6/L/Leanpub.png) | [simpleicons-6/L/Leanpub](../../simpleicons-6/L/Leanpub.md) |
 | ![illustration of simpleicons-6/L/Leetcode](../../simpleicons-6/L/Leetcode.png) | [simpleicons-6/L/Leetcode](../../simpleicons-6/L/Leetcode.md) |
 | ![illustration of simpleicons-6/L/Lemmy](../../simpleicons-6/L/Lemmy.png) | [simpleicons-6/L/Lemmy](../../simpleicons-6/L/Lemmy.md) |
 | ![illustration of simpleicons-6/L/Lenovo](../../simpleicons-6/L/Lenovo.png) | [simpleicons-6/L/Lenovo](../../simpleicons-6/L/Lenovo.md) |
+| ![illustration of simpleicons-6/L/Lens](../../simpleicons-6/L/Lens.png) | [simpleicons-6/L/Lens](../../simpleicons-6/L/Lens.md) |
 | ![illustration of simpleicons-6/L/Lerna](../../simpleicons-6/L/Lerna.png) | [simpleicons-6/L/Lerna](../../simpleicons-6/L/Lerna.md) |
 | ![illustration of simpleicons-6/L/Leroymerlin](../../simpleicons-6/L/Leroymerlin.png) | [simpleicons-6/L/Leroymerlin](../../simpleicons-6/L/Leroymerlin.md) |
 | ![illustration of simpleicons-6/L/Less](../../simpleicons-6/L/Less.png) | [simpleicons-6/L/Less](../../simpleicons-6/L/Less.md) |
@@ -43,6 +45,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-6/L/Line](../../simpleicons-6/L/Line.png) | [simpleicons-6/L/Line](../../simpleicons-6/L/Line.md) |
 | ![illustration of simpleicons-6/L/Lineageos](../../simpleicons-6/L/Lineageos.png) | [simpleicons-6/L/Lineageos](../../simpleicons-6/L/Lineageos.md) |
 | ![illustration of simpleicons-6/L/Linkedin](../../simpleicons-6/L/Linkedin.png) | [simpleicons-6/L/Linkedin](../../simpleicons-6/L/Linkedin.md) |
+| ![illustration of simpleicons-6/L/Linkerd](../../simpleicons-6/L/Linkerd.png) | [simpleicons-6/L/Linkerd](../../simpleicons-6/L/Linkerd.md) |
 | ![illustration of simpleicons-6/L/Linkfire](../../simpleicons-6/L/Linkfire.png) | [simpleicons-6/L/Linkfire](../../simpleicons-6/L/Linkfire.md) |
 | ![illustration of simpleicons-6/L/Linktree](../../simpleicons-6/L/Linktree.png) | [simpleicons-6/L/Linktree](../../simpleicons-6/L/Linktree.md) |
 | ![illustration of simpleicons-6/L/Linode](../../simpleicons-6/L/Linode.png) | [simpleicons-6/L/Linode](../../simpleicons-6/L/Linode.md) |
@@ -51,6 +54,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-6/L/Linuxfoundation](../../simpleicons-6/L/Linuxfoundation.png) | [simpleicons-6/L/Linuxfoundation](../../simpleicons-6/L/Linuxfoundation.md) |
 | ![illustration of simpleicons-6/L/Linuxmint](../../simpleicons-6/L/Linuxmint.png) | [simpleicons-6/L/Linuxmint](../../simpleicons-6/L/Linuxmint.md) |
 | ![illustration of simpleicons-6/L/Lionair](../../simpleicons-6/L/Lionair.png) | [simpleicons-6/L/Lionair](../../simpleicons-6/L/Lionair.md) |
+| ![illustration of simpleicons-6/L/Liquibase](../../simpleicons-6/L/Liquibase.png) | [simpleicons-6/L/Liquibase](../../simpleicons-6/L/Liquibase.md) |
 | ![illustration of simpleicons-6/L/Lit](../../simpleicons-6/L/Lit.png) | [simpleicons-6/L/Lit](../../simpleicons-6/L/Lit.md) |
 | ![illustration of simpleicons-6/L/Litecoin](../../simpleicons-6/L/Litecoin.png) | [simpleicons-6/L/Litecoin](../../simpleicons-6/L/Litecoin.md) |
 | ![illustration of simpleicons-6/L/Livechat](../../simpleicons-6/L/Livechat.png) | [simpleicons-6/L/Livechat](../../simpleicons-6/L/Livechat.md) |
@@ -71,6 +75,7 @@ The module contains 67 items.
 | ![illustration of simpleicons-6/L/Lubuntu](../../simpleicons-6/L/Lubuntu.png) | [simpleicons-6/L/Lubuntu](../../simpleicons-6/L/Lubuntu.md) |
 | ![illustration of simpleicons-6/L/Lufthansa](../../simpleicons-6/L/Lufthansa.png) | [simpleicons-6/L/Lufthansa](../../simpleicons-6/L/Lufthansa.md) |
 | ![illustration of simpleicons-6/L/Lumen](../../simpleicons-6/L/Lumen.png) | [simpleicons-6/L/Lumen](../../simpleicons-6/L/Lumen.md) |
+| ![illustration of simpleicons-6/L/Lunacy](../../simpleicons-6/L/Lunacy.png) | [simpleicons-6/L/Lunacy](../../simpleicons-6/L/Lunacy.md) |
 | ![illustration of simpleicons-6/L/Lydia](../../simpleicons-6/L/Lydia.png) | [simpleicons-6/L/Lydia](../../simpleicons-6/L/Lydia.md) |
 | ![illustration of simpleicons-6/L/Lyft](../../simpleicons-6/L/Lyft.png) | [simpleicons-6/L/Lyft](../../simpleicons-6/L/Lyft.md) |
 

@@ -1,6 +1,6 @@
 # T
 
-The module contains 115 items.
+The module contains 116 items.
 
 
 
@@ -29,6 +29,7 @@ The module contains 115 items.
 | ![illustration of simpleicons-6/T/Tele5](../../simpleicons-6/T/Tele5.png) | [simpleicons-6/T/Tele5](../../simpleicons-6/T/Tele5.md) |
 | ![illustration of simpleicons-6/T/Telegram](../../simpleicons-6/T/Telegram.png) | [simpleicons-6/T/Telegram](../../simpleicons-6/T/Telegram.md) |
 | ![illustration of simpleicons-6/T/Telegraph](../../simpleicons-6/T/Telegraph.png) | [simpleicons-6/T/Telegraph](../../simpleicons-6/T/Telegraph.md) |
+| ![illustration of simpleicons-6/T/Temporal](../../simpleicons-6/T/Temporal.png) | [simpleicons-6/T/Temporal](../../simpleicons-6/T/Temporal.md) |
 | ![illustration of simpleicons-6/T/Tencentqq](../../simpleicons-6/T/Tencentqq.png) | [simpleicons-6/T/Tencentqq](../../simpleicons-6/T/Tencentqq.md) |
 | ![illustration of simpleicons-6/T/Tensorflow](../../simpleicons-6/T/Tensorflow.png) | [simpleicons-6/T/Tensorflow](../../simpleicons-6/T/Tensorflow.md) |
 | ![illustration of simpleicons-6/T/Teradata](../../simpleicons-6/T/Teradata.png) | [simpleicons-6/T/Teradata](../../simpleicons-6/T/Teradata.md) |
