@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BridgeLock
+
+sprite $BridgeLockXs [12x10/16z] POg30S105CLIkzb_sXg7poV2yYzOpv6gXSwsNLlRlleoy-A7aPj0TMEyZndk7hm3
+
+sprite $BridgeLockSm [15x12/16z] VOk35G0134F_MNdD_jEUhRe1j_0vAcfPUoM0JtKI5vpVGlRfnRI2phR0c3eM-Uu2zFicaUpl
+
+sprite $BridgeLockMd [20x16/16z] {
+ZSW50aGX24NHY_uMVVlVxHZJVMXunyeJ1zSpWx0gngNMfgdDG3KBecuJacVvjRQ9AkjEC3-UVcwg7d-MXScmGzrYIHI10X1LqPZaBgSgqaAZWSeb_lcbDp_C
+w8gw4m
+}
+
+sprite $BridgeLockLg [25x20/16z] {
+hSb50a913C3GVDSszpyjxfGTRtp2RyDOQ66m1AsLu6mNs6nXjO6GcpfqqvIEunXEuxYVjzmuc_pGqvIXHStl4AIHnbVOK53eDczYNdN5W9GpBrg0u1bkPUAY
+yuQpK1ikXhUmg_mdJ9f5UDDvSmG
+}
+
+!procedure BridgeLock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BridgeLock', $name, $tech)
+!endprocedure

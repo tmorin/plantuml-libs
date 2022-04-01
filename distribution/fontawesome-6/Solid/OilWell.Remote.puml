@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element OilWell
+include('fontawesome-6/Solid/OilWell')
+
+' renders the element
+OilWell('OilWell', 'Oil Well', 'an optional tech label')
+@enduml

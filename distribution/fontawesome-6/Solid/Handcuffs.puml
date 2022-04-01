@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/Handcuffs
+
+sprite $HandcuffsXs [12x10/16z] JOY54O100CE2Ezb_MkGzrwlnStCGwJkvJofBlFrz3Avcrqu9Mi99SA_VXpi-hN-it9ylBm
+
+sprite $HandcuffsSm [15x12/16z] DOk75O0W44DZf__zjvNS0mNI5L_LVHdZEyLT-xabBTwwmcylGh5IC0m2NyA6zmIheyBbH8niVDY3wpII2E0h4mxak79LdgdmXIGPq0y
+
+sprite $HandcuffsMd [20x16/16z] {
+LSm74WCX34DHRQFZV__JfdWmasWBZoQjz5lzqdymWNxIsUFEO_BSfiZPGqVeXh4reoNQ0Qul382wLIGW7Hsox2DrU0HU3aiN3FAgEkQZwBgMhd6w1eNk0baB
+uGSR9ZXTA8DDu53PqWE053hq1W
+}
+
+sprite $HandcuffsLg [25x20/16z] {
+PT253SKm34NH5oe5xlxJVh1Igt14GPDStQIHz1911-Y1gj4a5d7e8ldJ3BggHLChr_WroUqUIw4pegO5Das0HoxWDuc_HQO13FrLCDsQcRAqs-i2D0beCLGW
+2FeP8nHxQX_R2a46ggWo6moGiQ-aQptNY-WJtIwXcZWybEt_AiGCmNyVC4hC7Pe2iAMu0KdYv4a16_4AFf_O07gIlW
+}
+
+!procedure Handcuffs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Handcuffs', $name, $tech)
+!endprocedure

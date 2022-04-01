@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Hurricane
+
+sprite $HurricaneXs [8x10/16z] BOi50S1030Cpvfr_jL_c1YHDko8Wrmqi-N91msonYN7IMZBaSRKLDXa
+
+sprite $HurricaneSm [10x12/16z] DSgr0GCm0CH0cTdQVzfmhdi0g9MFe7ofaRVbs_fNnGEQ2Hn1GRgJzFjSkAwiJg3x1l0Vt_J04m
+
+sprite $HurricaneMd [14x16/16z] FSxL0SKW5C3Gr8jc_scVOESBhjEacqMzc5IPgceQoStX1NXKhoDe0eeAiEi9MM-s2YgSUb9iOK3ZNBJ1gmSGRJ-IMbmtNDfKQBP3TME8wiaqCby
+
+sprite $HurricaneLg [17x20/16z] {
+NO-50G0X202_-xtzfpK0yqmQ9kLoKyiBj3B0ryWEOAloYVAs0SeZygB2_G5IwW3Oq-_JiBE60xDwH24fVp7DebZIzPWDrkWO3whOSjyhzllWNwmSrdkbxRuV
+wVoHLYiWVLL6-O9RFW4
+}
+
+!procedure Hurricane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Hurricane', $name, $tech)
+!endprocedure

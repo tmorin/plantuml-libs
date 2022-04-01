@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/KitchenSet
+
+sprite $KitchenSetXs [11x10/16z] BOh50S0m08HeuthxJnldTGB4naCEVIS59wtS9TVOyO3uOk5WTyTuBla9yfsJa2elvfpDZHC
+
+sprite $KitchenSetSm [13x12/16z] DOk50S1038IeUzb_slSGbuF9Wq2ltnZ4xVvXMHR-KyN6UxsFpXubk-0CBWpKivQOGrFhDx5KQCECbJR47sVDSSa
+
+sprite $KitchenSetMd [17x16/16z] {
+JSq50eCm4031ZRK5hjd_lnQtGNCAV1rvIMuQDpimoQLALmmO8k97xwWrF9MGxTElGCBS7720b7DEe9MaFDm0_Eve0kwXV6ELIUK0NQr2xDeH2C7T5_vxuol0
+jlmLwEwkG6O1
+}
+
+sprite $KitchenSetLg [22x20/16z] {
+RSt70SGW34JH8KSn_LUxQnESt_6396nY4uk7o4u_emCggQwLL2e6U5QS0ftYfh-gnfr38tAlXIV8P_MC85d6XYGxqw_1A4GMN7WoEIyaTcPbosv4UYmk1WEq
+oxLJljR0pkDgLEyQmAcjAYmVjNhSAwf81Hur3-PMXOC0XaC4_W
+}
+
+!procedure KitchenSet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/KitchenSet', $name, $tech)
+!endprocedure

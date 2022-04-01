@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Worm
+
+sprite $WormXs [10x10/16z] Om039duk60C8m2m-VdOmYuM10II688682SvYuCR2OkJdvmDIS4q
+
+sprite $WormSm [12x12/16z] RSU50OLG3CNG-nKd-szB3ITFUgeANZlXdPoPn9p-OfbVCAeF6orfD1jiVPU_zhf7pup-md-yb_ajEGSj
+
+sprite $WormMd [16x16/16z] ZSwr0GKX00JHFNUc_sg_B9xTH3nSfGDMrN3jwht3q2plS-CPP-_NATtPamUxXl6sAJVR6w008Vc1sPkImtk7pZo0acVS8MtW_oP-0G
+
+sprite $WormLg [20x20/16z] {
+fT2reGCn54N1kymx_LVxqV0K-uGZLahznPwc0-ZgBFuhTY5TQpUMjRLHktOSabp51d0cotazhQuvKSZsjF-L_Gmlcp4bLxK5Ot9yO1kwvAxMmNAh5i_6PCPG
+lkz8tZ_MNR0c-GO
+}
+
+!procedure Worm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Worm', $name, $tech)
+!endprocedure

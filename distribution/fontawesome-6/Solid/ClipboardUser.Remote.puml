@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element ClipboardUser
+include('fontawesome-6/Solid/ClipboardUser')
+
+' renders the element
+ClipboardUser('ClipboardUser', 'Clipboard User', 'an optional tech label')
+@enduml

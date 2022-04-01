@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TruckFieldUn
+
+sprite $TruckFieldUnXs [12x10/16z] JOY50O103CI2Ezb_MkIzFQSzmtLDrlEFzExdXIbtVnwvhKUJ3q_o229PDmdQym8
+
+sprite $TruckFieldUnSm [15x12/16z] NS654SGm0C0mfnScxp_jCrRYvF299py64DmxkfDv2EYS21xOG5V1YJ4eR7zb_BMNvk03Kuc2ASRLm0Yk8H1iTe0wkGihmXK
+
+sprite $TruckFieldUnMd [20x16/16z] {
+RSz50WDH20JH_Xe3wlwdJJAkRzNK3jrgCV6q9LPcJIDdxpca1AzuyenNq2iC3IYMGof65hHTInfQXgaz9UGo8W8YARZGJSo92tD0wepcfMf8ejLQVLozI9Mk
+yLAZoyOb0-hwPzCaIVlr0m
+}
+
+sprite $TruckFieldUnLg [25x20/16z] {
+VT255GCX00JHnPtflzjm-k8VTz4V8Lwydl5aFC_dJTCXySvfOmQ4ETFAHeBe0MrOrAj19Xkmobkcvm7PVK3Gxu5M32ew1WfS0s5hQJZ3fKkJxwJsQo3z62Wi
+FNPkER5fB9AUt-rOv3nJKYNuPM0aCVrUR0tG9jEsh5xVEA5en-xfvvDE4wR-UG
+}
+
+!procedure TruckFieldUn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckFieldUn', $name, $tech)
+!endprocedure

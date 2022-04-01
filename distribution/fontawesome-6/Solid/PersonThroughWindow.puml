@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PersonThroughWindow
+
+sprite $PersonThroughWindowXs [12x10/16z] TSQd0GCn002n2_jYM_jFcrvGX9G_1brKCKxPt--m-Xo_x_1-pimC8EZfL7K3
+
+sprite $PersonThroughWindowSm [15x12/16z] NSV50SKm0CMmLwOasd_QprYVhFYjEXTJuiWz36Gml9afJSk7GRwSuSkYWGz3Hdk2Wr8j6yUXyoeWhrvt1G
+
+sprite $PersonThroughWindowMd [20x16/16z] {
+NSW5aeC000J1nPt-_sllak1qsTHayTPjwwsfVXRj4PGDIIZpCwESALAHsolCcMZlBodGvVbWUBuMFD-ajBdUh9ZyBFSNkeH-U_F4CYyKmy8qqN5OOvFoGBj5
+BWNP_0C
+}
+
+sprite $PersonThroughWindowLg [25x20/16z] {
+dOy55eGm5CIcxlttl-rsMXoURR0y0XLa-SHa-GCW1WmITQ5N65S2qBv20mppFKGHYqXxX86bs5TOOl0ECda7lq9vXI87_HQgT7MaH-1oc_U50zu3Xgcv_R27
+mYbgRPmWrVbYt2ad4OUYj0CEvZRtkC2LuPCe_V0V
+}
+
+!procedure PersonThroughWindow($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonThroughWindow', $name, $tech)
+!endprocedure

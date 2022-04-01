@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CarTunnel
+
+sprite $CarTunnelXs [10x10/16z] HSI50O0m0CJ0u4xsdnRglHU2mvN8v02B1Qj3EuBPY38vW65NILOlmndl1m
+
+sprite $CarTunnelSm [12x12/16z] FOe53i0W5CMckDp_jgHfyhi1poxekroo9IGePQgbSwsrOWZAzE2NiI37jL7go1EvxJu
+
+sprite $CarTunnelMd [16x16/16z] LSw50O0m34JHNyFXzj-Mkhow9cJXrMreNXKxYL7tfRKcJxlSMBGAMhsvCv5JnnhefFUPmKMMewNbIIoV4eSiS7yyTTsqzVKcBgsHVDwlumy
+
+sprite $CarTunnelLg [20x20/16z] {
+PSq52WGn50FGJDrp_zikVqTIwCF2LppguaZOP3wcnuERgf8qbIJgbW0y5F1KULequuBntE0HLEg8nyU0JkCnDFQvTAq6c7QXV3KE60wahoPRpTtkcZrKzqvO
+bXhDa-eF
+}
+
+!procedure CarTunnel($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CarTunnel', $name, $tech)
+!endprocedure

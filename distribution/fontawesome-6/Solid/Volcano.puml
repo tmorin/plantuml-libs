@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Volcano
+
+sprite $VolcanoXs [10x10/16z] Om01FWOmu0S39ZWB8ieBfD404roIdu4RmkHdv-VaPk07Cg20buiV1W
+
+sprite $VolcanoSm [12x12/16z] JSp50O104CNGu4xwhnPPVwVHJt2J6FtbqDGSzr_EHASKNTUrpqSiDnSrR0OGZwd4TvF6ChflgnS
+
+sprite $VolcanoMd [16x16/16z] LSp50G0n4090pZNGVxLnsSmNGN4IWoeY-zIiI1urIoiuIPzEUq5Owmhh9tcWU-qRiAleOuV5FEfQVsqhyR_vIzcHNdRWaeL5CseM
+
+sprite $VolcanoLg [20x20/16z] {
+XSx50SHG24NH5_y6j_zgH-DwTZYQH6-qvhW34Q96hDGdkNYIqoIJ0SpfjMA0zioIdeNvaLazNvrLZ4opY4aPe9fJQjG7PMYgSUM03mPHkHLizXDK-xYI7PEC
+lJvnb3bw0m
+}
+
+!procedure Volcano($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Volcano', $name, $tech)
+!endprocedure

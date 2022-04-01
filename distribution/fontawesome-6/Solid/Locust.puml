@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Locust
+
+sprite $LocustXs [11x10/16z] NS650G81000XxFRsdzRs2opLtM0Ra0YwTDr8ntvqxkCU_Kb4BbpTaIS
+
+sprite $LocustSm [13x12/16z] PSb70eH040B0Ckia_l_RlMosBjq0TqdbesK551UPG3Bdi0Ikz4mXQkJ5vwyX7yfdEgReGnrSmp9f56WU
+
+sprite $LocustMd [17x16/16z] TSo30KKn5C3GFDJ8_jD-6wVk1N-DaNWprScxgDojcQN0yqTHmFHie0Mgd1NfRkV7AgjjyGLJV4N4frQ5uXjMCpxC5IVPXIpGXIbOm0nWv6mvh_lj2
+
+sprite $LocustLg [22x20/16z] {
+XSo3eKGn503HUOWn_LVxiVQUE1Ty5UF64rNdSswgQkRPhfMhfPsMHZZJT5YWd7MrgK2om47nyDVTpidRpgPxEgonxziKDEC3eftf0u9KRyrLOGdUQmhuP836
+XnuLkXKKKCvxTC9qXsRcyD6W2TY1AGSEtlW5
+}
+
+!procedure Locust($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Locust', $name, $tech)
+!endprocedure

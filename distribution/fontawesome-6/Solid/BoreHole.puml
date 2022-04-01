@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BoreHole
+
+sprite $BoreHoleXs [10x10/16z] Om01FWOOu4TbSV7pSm5P_420WyK3Ot7pmm439qWC0G
+
+sprite $BoreHoleSm [12x12/16z] VSQ35S1G542nZ_hXxZzjRUKeOUPX5tbUHAOdaGvWUWP-BwJzmFO4qh8AeGGm3WC
+
+sprite $BoreHoleMd [16x16/16z] dSa33W1H54FHfszq_wiTCnhSg2UbhKwtElYbSob55iTfXOOfNLmnzzToTG1miSrJJYUPVvmfAMLSwcqR0VT6
+
+sprite $BoreHoleLg [20x20/16z] lSt50KCn30DGXpdQVzhsCpEzeq6Ybimq0zY5cJizSw5WcbaeIO-IRsPeV3UB0AOpb4Qpi3039G1SOCYGR2e6WkGQ6mHcyXy
+
+!procedure BoreHole($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BoreHole', $name, $tech)
+!endprocedure

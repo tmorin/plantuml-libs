@@ -1,6 +1,6 @@
 # Regular
 
-The module contains 161 items.
+The module contains 162 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -144,6 +144,7 @@ The module contains 161 items.
 | ![illustration of fontawesome-6/Regular/Flag](../../fontawesome-6/Regular/Flag.png) | [fontawesome-6/Regular/Flag](../../fontawesome-6/Regular/Flag.md) |
 | ![illustration of fontawesome-6/Regular/FloppyDisk](../../fontawesome-6/Regular/FloppyDisk.png) | [fontawesome-6/Regular/FloppyDisk](../../fontawesome-6/Regular/FloppyDisk.md) |
 | ![illustration of fontawesome-6/Regular/Folder](../../fontawesome-6/Regular/Folder.png) | [fontawesome-6/Regular/Folder](../../fontawesome-6/Regular/Folder.md) |
+| ![illustration of fontawesome-6/Regular/FolderClosed](../../fontawesome-6/Regular/FolderClosed.png) | [fontawesome-6/Regular/FolderClosed](../../fontawesome-6/Regular/FolderClosed.md) |
 | ![illustration of fontawesome-6/Regular/FolderOpen](../../fontawesome-6/Regular/FolderOpen.png) | [fontawesome-6/Regular/FolderOpen](../../fontawesome-6/Regular/FolderOpen.md) |
 | ![illustration of fontawesome-6/Regular/FontAwesome](../../fontawesome-6/Regular/FontAwesome.png) | [fontawesome-6/Regular/FontAwesome](../../fontawesome-6/Regular/FontAwesome.md) |
 | ![illustration of fontawesome-6/Regular/Futbol](../../fontawesome-6/Regular/Futbol.png) | [fontawesome-6/Regular/Futbol](../../fontawesome-6/Regular/Futbol.md) |

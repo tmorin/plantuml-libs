@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BuildingLock
+
+sprite $BuildingLockXs [11x10/16z] PSR50O1000InmPtjlreurxo270m5hcm3k-_w7CVhwgslqCiwi64MvExoeEiF
+
+sprite $BuildingLockSm [13x12/16z] ROhL0S1G38IkhZdsdxRkVV0JGUnKMk1aNyR5yB48zSf9PDuS6xYofQlZgb1fTcBae3BXAz6nn7EP0G
+
+sprite $BuildingLockMd [17x16/16z] NOo53G0n00AfUzb_sjVwXHY6oaR5H-4WVmOdfHbEKMjgEmm1ujKmIcP-L8OnY4ZvDOoW51IQUDtrGnAW8bbP7v6VeJb0-iuNWnDdTwC0vJJYCDnft
+
+sprite $BuildingLockLg [22x20/16z] {
+bOs5SSH05CKKMXhlL__LXexCeE67D5zqxen5ZRlgb2CL8lCcb94Q4EbVpIFLbEofMbFeXRT4g8-tmhjlL1cCiC_UK53KdF_VIkhnhtPn36jgmnNAcnE6pxAY
+0h6grcFrOwHMlFC3
+}
+
+!procedure BuildingLock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingLock', $name, $tech)
+!endprocedure

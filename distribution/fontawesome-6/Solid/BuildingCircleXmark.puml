@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BuildingCircleXmark
+
+sprite $BuildingCircleXmarkXs [12x10/16z] ROo54S103CDS9kUq_xIFEQx2A0RgC8cHXxP5dZcNVH4_Ewja0HU33xCmsK7vcwU9Cfz91G
+
+sprite $BuildingCircleXmarkSm [15x12/16z] NKk50O104C9ks7zQzVklWu1IF8YX4cD-RptaKr_Sm8ZwEZ55YLuSTN7KWzKwICZSUfeNgE8dlnoYvGC
+
+sprite $BuildingCircleXmarkMd [20x16/16z] {
+XKw54S0W40lkiF-s_QyR43nseBG33ZkOEY1thlroGLMlUBzn2bc2tld6rRpFIPyNrGdUYJCbYqUVtKDyr7qUFRSlUqiMhhb19pBZfAAcpH3d18ua018KrnTn
+vwXiUnbtSNNB6Im
+}
+
+sprite $BuildingCircleXmarkLg [25x20/16z] {
+fOt5eGKX5CM2lxa3fFzglxjBbaS9Nr1u8dn5UZ9yJVwH0NE2bVpU232JV6tqhdquUsZ-x_cQO2DhOcoDzFOyuJqDTGpt69xzEF2HualIq1oAxbS6QX0KNxDH
+VQNlEfuC2l5a0BSEeQaOl3IgsfAgRhsyCgJx0EMLCIbRzGBN
+}
+
+!procedure BuildingCircleXmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingCircleXmark', $name, $tech)
+!endprocedure

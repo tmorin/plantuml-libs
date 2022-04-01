@@ -1,0 +1,63 @@
+# PersonCircleCheck
+
+
+```text
+fontawesome-6/Solid/PersonCircleCheck
+```
+
+```text
+include('fontawesome-6/Solid/PersonCircleCheck')
+```
+
+
+
+| Illustration | PersonCircleCheck |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/PersonCircleCheck.png) | ![illustration for PersonCircleCheck](../../fontawesome-6/Solid/PersonCircleCheck.Local.png) |
+
+
+
+
+## PersonCircleCheck
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PersonCircleCheck
+include('fontawesome-6/Solid/PersonCircleCheck')
+
+' renders the element
+PersonCircleCheck('PersonCircleCheck', 'Person Circle Check', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PersonCircleCheck
+include('fontawesome-6/Solid/PersonCircleCheck')
+
+' renders the element
+PersonCircleCheck('PersonCircleCheck', 'Person Circle Check', 'an optional tech label')
+@enduml
+```
+

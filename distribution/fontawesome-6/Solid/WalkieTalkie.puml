@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/WalkieTalkie
+
+sprite $WalkieTalkieXs [7x10/16z] Ou025cOGoSmF1PoSd5pyg82F7wY0aPy1p46Z
+
+sprite $WalkieTalkieSm [9x12/16z] Os3WOu02VYZDpC_CpySB91201omF0dn00AGmf1WWF0I35uF13G
+
+sprite $WalkieTalkieMd [12x16/16z] ZSY53S0m34JH2tF-_jjMPH3rcIsvh4ldjQUks8rCXoCRRycj1givLh2APZNukluHPby1cfoineyzSj82
+
+sprite $WalkieTalkieLg [15x20/16z] bSo35SG050NHMSIO_gkDxToZpmSKNvOiRzg_abl0ppj9hxJtxIKUeXTTHXLgkJwcT25T1_2k3TVjnrbE3G
+
+!procedure WalkieTalkie($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WalkieTalkie', $name, $tech)
+!endprocedure

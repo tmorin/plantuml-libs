@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/NfcDirectional
+
+sprite $NfcDirectionalXs [10x10/16z] 1S670OD000GW4lrURlzj1HYxW106yOxWfGBlC2b3X0vHn2WHe6cEGVA0KiJc0m
+
+sprite $NfcDirectionalSm [12x12/16z] 3Sg54S0m30Gm1Sg9lV-szUde0Noh0uBK4Xw-N0JXRT8vR7hpUTtkJvJjD6NP7zlbLWUxZftcrafOKXyZBIw2aPE0VQl-uWS
+
+sprite $NfcDirectionalMd [16x16/16z] {
+9Sh5eKCn300mXH_4yVxJVcXr5Z1YAm0YIErCK18I_K1Iwfkfg9lWcKQocrM5CQ4Gv239r5uk4RoU8bsaaTn2wgtxhcrswH1MQO9Tv32wuoY1IZcS_rl3cyqX
+48KwCd0Ds0k9FO6Q8TSvy0i
+}
+
+sprite $NfcDirectionalLg [20x20/16z] {
+DSw5WTqm40JGPv3rXTD_jScHbta7SBGz5NYfffShwbedG1g4DoGN7ZaFzFwMRcqc3eoRslmqMqvdBa9ukfV2_T49PnxFe4pIYjA9NRH6MFlK3dTZFqBeEJG-
+ZwtQVEVpKc_7z6msOPJg3ACf-qLYiIyQvM9SB0k1YZfPnHa_kbELmHMq3dcoBWZeWpSvSm4b1S4CBttIP6GLy1y
+}
+
+!procedure NfcDirectional($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/NfcDirectional', $name, $tech)
+!endprocedure

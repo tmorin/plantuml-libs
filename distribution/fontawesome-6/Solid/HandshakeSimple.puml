@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HandshakeSimple
+
+sprite $HandshakeSimpleXs [12x10/16z] TS650O0m0C2muax_lnPtjeGuHMr15SL39gsdKl411GPN8vjUvMC6
+
+sprite $HandshakeSimpleSm [15x12/16z] XSa54W01249Ht0x7V__JRdU-2GNqgw3CWMHuhVKWgnXvsp8QDWisGbQpow0G9o70t9t5y6jWwxo223te0G
+
+sprite $HandshakeSimpleMd [20x16/16z] bSg30GGn54NH5pkt_shNnk04dzedDBbUdPugA73cTM9QxnEKkUgjDIvClNzF0cHvuqrHjOOtmmDHV1lgd4pUg09o9ppCKsrryTYEUXemGU-iaT628m
+
+sprite $HandshakeSimpleLg [25x20/16z] {
+hSk35KGn04JHYPtNVxLh6_yU3xGurndoR1HT6Z0KsVFQCgtrFg4gSzHxQuMzgSh6eRsGpAvrt2g2AOaxabV4gzr__02Y2eyrUPwGs8hSCRkFTX8NcYx4ouSk
+MVQYRja-Wkj9lri3
+}
+
+!procedure HandshakeSimple($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HandshakeSimple', $name, $tech)
+!endprocedure

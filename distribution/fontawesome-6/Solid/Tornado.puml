@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Tornado
+
+sprite $TornadoXs [8x10/16z] O-870ru-2Ct200CGFWC3BvZcH0X0M0me0CRdPm
+
+sprite $TornadoSm [10x12/16z] DSl50S0m5CDGbRdUVzf2bBpBH_UffZJ3Scg1sW7H1Tsj2OW0ZjPX31t7WP8PvUO5
+
+sprite $TornadoMd [14x16/16z] JSV7OSD040GmC6TE_zNQYgl33tqQqd8rwVH3wN6M3YadkfG5tG_qAU1eXwiTmuklzNYezKaw9LafEVa7
+
+sprite $TornadoLg [17x20/16z] RSwr0G0W40F0u0xxJujLGQuBlCbso6WNr3CBn2DhV6JY09n3reFcXxHx-CNYAr19mQBAENSzdGzBF1x-GfeSFPYxGypimDOLXvq7
+
+!procedure Tornado($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Tornado', $name, $tech)
+!endprocedure

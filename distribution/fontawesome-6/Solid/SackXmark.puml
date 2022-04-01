@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/SackXmark
+
+sprite $SackXmarkXs [10x10/16z] Os1Wu0S2JY0DOJ8W0wWi5vW10M064p-Gv8OePmUI760M4rG91qWMY64
+
+sprite $SackXmarkSm [12x12/16z] HSQ70SCW30NHRvlURlzj4_e3IQS_kXwhYvPIJduvvvMLBlHaILA1h_1KU0IWURw-NgL-Ac24wkn3N3y
+
+sprite $SackXmarkMd [16x16/16z] LSw50G0X30J1VLUu_gl5TN1DY9GOehv-stfHHBS52zqNF6rrAbj8NbKRmQDkoNyRf1y5e0X-DWKNIc1LShNKb9ZKiGdKNUtcfXb6ezq3
+
+sprite $SackXmarkLg [20x20/16z] {
+XSxL0KKX30FGu4xsd_P9hold2-eGd2KijbZ49TYnboIcCHBBdyOEPnaBorMRGuvx4j8ywEiiwF_FywS0KM8AbikL2hinWI8fhi7r6PVGRbjRGe4AddigaaIa
+oBm2BohCDVG5
+}
+
+!procedure SackXmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/SackXmark', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/FishFins
+
+sprite $FishFinsXs [11x10/16z] Oq03_4XCVX07I33oWm6G3GSC21f9b0Uk1cO2Awgv
+
+sprite $FishFinsSm [13x12/16z] NSV50O1G081Gx9RzfxNzzKu0fTvih06g0TYzx30gVi04KnAOsDt2ynYzz8GXg4OU9m
+
+sprite $FishFinsMd [17x16/16z] NSxL0SKW5C3Gr1Mo_xHFYvulk4xIEHPQUlK1tGU0uGJO_Ob0r8rWCeEjaQlwg3AO13OLEuDwMH0Di9a08v06RMJfq4md6WF96m
+
+sprite $FishFinsLg [22x20/16z] {
+XOs53SHG5CDSvcR_QGyAdy42ws4eq_MfhdGakpgRk7knSz5i_ULD3qVp748ZXn6wlsTvJ70efgSDwalWTM6zD7dT_OeuK0AM_q9p-4rsgUKljmaTN7fQvu1B
+t7gwCyJTXWfV
+}
+
+!procedure FishFins($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/FishFins', $name, $tech)
+!endprocedure

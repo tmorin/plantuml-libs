@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BuildingWheat
+
+sprite $BuildingWheatXs [12x10/16z] FSY50G0X30J1VSMv_gl5OU910vsc1ABrvo8cywWnCPhrdv8-MkU6c2xTEdzmUu-wr43RVs3l4ge
+
+sprite $BuildingWheatSm [15x12/16z] JOg55S0W4CLITxB_jdquGUw-OEQ3Y9KPZFBr2-5ptbvdbHTcckpb1pGOuZShwr2Ungxp3YnTnfwH_OwIRt6F4gBq1hycNz4V
+
+sprite $BuildingWheatMd [20x16/16z] {
+NOm5iaGX3C12-OBd_hVTwQo_eBMmVVBFdO-K1j02_CfL71JjzRIQju7XM6fbPS3AN75CzQpxllji5z-QG5dQolalUHjJ2Q--p9yKtlVTHxduZWsENxbGcdV6
+ppt7dtNkOW9e-WSGypkdXFv_vC3Cxni
+}
+
+sprite $BuildingWheatLg [25x20/16z] {
+VOy54iGW5CM2rflxttPRMBSCRonyO_Q9n9tP5m87AGA-4ZdGRs9UJx5NJxskO2QUOXUDBbtCO2JSHV2SNUkHmRNEVsS4o0d2koWA94zWMy7IXXyHF7WVllQo
+mIE3-v6bJgSWZV5uVCuOELXy5rbNs7qdeeQecuqz3pV1OghEzyNe9iPCezn5lXzOODHt4Mu7fXUnGzLKZbm
+}
+
+!procedure BuildingWheat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingWheat', $name, $tech)
+!endprocedure

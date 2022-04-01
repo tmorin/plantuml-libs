@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PlaneCircleXmark
+
+sprite $PlaneCircleXmarkXs [12x10/16z] RSh50OG000F1d0io_LUBE-mdcfvl5jZwvvM7Ltfg47o0Gkb6DVm9IUxy_AJt46W1
+
+sprite $PlaneCircleXmarkSm [15x12/16z] Om03FWPamC_FZShb9vRBomy2710E1py4CC0818yFeWn8C8AqGun0uo8KWxWyO1OZY6G4
+
+sprite $PlaneCircleXmarkMd [20x16/16z] {
+XS_50G8m40NHZNkc_sxXuyuSNtJjqhQtu0qxy6eR2Ez6_6y3bUrUuLAojAOxYkDQCL2sk2LITw9ci5qSud9vTsWOqVqlQK1njYxM07e0OpcuVm_jLaaseVlD
+rZdH0G
+}
+
+sprite $PlaneCircleXmarkLg [25x20/16z] {
+hT4r0iH030J1sPDbjlh_hpKpP5VXTBAWZOTUPO3UC2g_GgUdn2Z-4YechXjd5JgpOFTJ4L0dZO934WjNmKabDiPPAk1NWo2OH6bC1DIgPSjgnpqOhRiMfo1J
+VGIOg8ParDf2ni8JJ6BxWfQLSbPQGrGcR-XaiNxP
+}
+
+!procedure PlaneCircleXmark($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneCircleXmark', $name, $tech)
+!endprocedure

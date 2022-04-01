@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PersonWalkingLuggage
+include('fontawesome-6/Solid/PersonWalkingLuggage')
+
+' renders the element
+PersonWalkingLuggage('PersonWalkingLuggage', 'Person Walking Luggage', 'an optional tech label')
+@enduml

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/PlaneUp
+
+sprite $PlaneUpXs [10x10/16z] Om01FWOeuETdXxFuqLdy802YeO2N7m4ueUhuiEa
+
+sprite $PlaneUpSm [12x12/16z] RSp50OC03030jBZU_jFY3lU99nPz7EWkkQ-yHN5qhPFEBdFJ_GAHzfv_mFcID684
+
+sprite $PlaneUpMd [16x16/16z] ROt50S0m30F37D_-qvQvkOzHaZeGzG9uZkKpTy1yPlkMKwufiAEFg7qwNXnFL6L0xK3eXqXVUQunp4_mN1HuBHfK8-2MVWO
+
+sprite $PlaneUpLg [20x20/16z] dT350S0W40J0mvtjlzguBgzaViYfd5mNPW48mIACT_nH_xzBs5agiAdqwVwgG9fuV13rqOijsAHtVxfZw9axJBIyJR_lAZ0CLz2J4LS08uiP
+
+!procedure PlaneUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneUp', $name, $tech)
+!endprocedure

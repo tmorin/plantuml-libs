@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ShieldHalved
+
+sprite $ShieldHalvedXs [10x10/16z] ROgr0G0m20GlFRB_j7WPz8qkO-fv5x3Ft0_11wbZYte7NS8Fd4e2
+
+sprite $ShieldHalvedSm [12x12/16z] NOs54S1G349VtSl-qrQuxvmbACPDmAGVFR3_X_yHa_OfttkuMru7SxX70U4EX1HEBo0DleC2Bm
+
+sprite $ShieldHalvedMd [16x16/16z] NSm55eH040FHu4xT_xQx2Jw5_cuUEgftlHfnxRdQZ8ocFoEGcZtVSDhDyB4ADuKdHYqlGwNguzmkRup-oUNMzupZ6ZgbU81PPpjkqfMNL78_
+
+sprite $ShieldHalvedLg [20x20/16z] {
+RSy50e0W40NHiNl__KzhqupzBC0rMaDIi-ffYaI-_PD9Nups78uETZc3vjKEHGRCqfeRTLkmmaRMr5gfPKZjU4zIamx0Ofl-OspVOx05UsSHFVZTtI32zs2u
+-iV6YABNTv9coNg-BW
+}
+
+!procedure ShieldHalved($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShieldHalved', $name, $tech)
+!endprocedure

@@ -1,0 +1,63 @@
+# Bugs
+
+
+```text
+fontawesome-6/Solid/Bugs
+```
+
+```text
+include('fontawesome-6/Solid/Bugs')
+```
+
+
+
+| Illustration | Bugs |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/Bugs.png) | ![illustration for Bugs](../../fontawesome-6/Solid/Bugs.Local.png) |
+
+
+
+
+## Bugs
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Bugs
+include('fontawesome-6/Solid/Bugs')
+
+' renders the element
+Bugs('Bugs', 'Bugs', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element Bugs
+include('fontawesome-6/Solid/Bugs')
+
+' renders the element
+Bugs('Bugs', 'Bugs', 'an optional tech label')
+@enduml
+```
+

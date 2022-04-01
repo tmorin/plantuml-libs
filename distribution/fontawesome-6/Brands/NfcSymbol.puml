@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/NfcSymbol
+
+sprite $NfcSymbolXs [11x10/16z] LSg53OG00C30UnUa-szB16qQFvSQ-0VD_IdUqOy8-lea-psymf3Rvb5yQeJvnlVB0W
+
+sprite $NfcSymbolSm [13x12/16z] NOk50O103CI2Ezb_MfotUayemp2eLE0Pk1E-Bi1MkF9zpZZI27xwO1wfWoSUuaRyv8a7Me4J
+
+sprite $NfcSymbolMd [17x16/16z] {
+RKs54GCn3BF3hFsthLLVyJySeToEgJnZVVq1407swxySsLZyDxiou5JaoNTv8HQ5mcTz8WTqU59tDieWW2EoxA4651OSpxTFC91lOBn2vPNV6K4olf2c_fBn
+Ge3qQkoyNdyRAf_n
+}
+
+sprite $NfcSymbolLg [22x20/16z] {
+VP050WKX20NPj9txdtQBzpjiXyR-Z67HOts2CvJhaU4E5u1ylYPWS3X2By86qkvqimJfYY1dgnjLuTcLaMqMxfVoFMo3U5pX19FJC-42ezHcSA-NjecEu36Q
+-n60IPKuBU3fAi6gEXRFUnRkKfN9TDSEeBuX703vyN8GLXU4rRz8jDzZ1m
+}
+
+!procedure NfcSymbol($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/NfcSymbol', $name, $tech)
+!endprocedure

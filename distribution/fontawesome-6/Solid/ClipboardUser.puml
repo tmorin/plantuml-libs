@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ClipboardUser
+
+sprite $ClipboardUserXs [7x10/16z] Os1Wu6PZ009-Vdvs4C78pOy4GE88YfaBH793U61DK
+
+sprite $ClipboardUserSm [9x12/16z] TS750S0m4C0mbxdUVzhWVIDHV1UD1HmgimCVs2pmsO3T-rhT51PKfvyX0m
+
+sprite $ClipboardUserMd [12x16/16z] RSx50S0W341HtCdVVzgwbtT1ecgLSUh0egsNsWHnq5heB8pYrXXAjb_NjTV1BlVEhk__X_uejQxkLtFij7fiHTz1v3O3
+
+sprite $ClipboardUserLg [15x20/16z] TSo50S0W40F0r1Mo_xIuorNW5Sx9Vq4YQTm8NZgslj8IMFp948APJy_9AW9mv-Y4aSFDXddRMrVvOU4Kh2D7pkQZ2u4FdpLWPwiYgG4
+
+!procedure ClipboardUser($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ClipboardUser', $name, $tech)
+!endprocedure

@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/MobileRetro
+
+sprite $MobileRetroXs [6x10/16z] O-070Xu-VcuW0mfu6HWOe2GKyF0pSCFOxFmCR7mG7W
+
+sprite $MobileRetroSm [7x12/16z] HSM50O002011k_NttrQQ8tvu4SSZTz8M8Hb49tmVj-IyM2JNpIfvNousp0y
+
+sprite $MobileRetroMd [9x16/16z] RSR50O0m0C30u4xsdnRNjlSwMWzvxQi7VvfoCwdiocHYI5EXJbvAcsbiLIo6ll21bnK
+
+sprite $MobileRetroLg [12x20/16z] VSU55SCm40JH4REs_sxpGcRx2suEfv-ErMfAQi2obr9qvZ_oEmTVJptvC7hGUT_6kmlAdtimmllsyEw4uljERJMjMBE-
+
+!procedure MobileRetro($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MobileRetro', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/OilWell
+
+sprite $OilWellXs [11x10/16z] FS650OG0002X--vd_sbjXJQtMssuja5LWlI729TkHKhgUqeNVAlaztgftWuZ
+
+sprite $OilWellSm [13x12/16z] HSUr0GH10810Rjtflzft8MBujVYd_j6ry6e2AgL2zFYCDb_JhnTKY92VQ0GnW-K9ZSgp5_mX29Y0hV_k
+
+sprite $OilWellMd [17x16/16z] NSY50OL03C3GuDPUzf_s2mxljE6cYfO7TNu77o7KYjq2zEh0-gKufIigeGvFLBgA2l8C7LGDjAu1cAmKq74DZGLbjOOmGhihk2fdgCscQPHLciNySRsZ-F85
+
+sprite $OilWellLg [22x20/16z] {
+RS_L0SCm303HCnKTt_xRLgNm-nIBdTOR1rsTs7iQAZl5CDZJi6vkX678GFe6bRjVLr12TgM3KeS_TpI0F-DU2UleL82MWTi_UaaHUURlLtcrhIiF9VIH-4Nr
+2UjV5OfVVHDz-hE9wdGFslXAcflM77JaDnwUEO--
+}
+
+!procedure OilWell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/OilWell', $name, $tech)
+!endprocedure

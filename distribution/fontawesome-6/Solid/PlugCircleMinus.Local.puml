@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element PlugCircleMinus
+include('fontawesome-6/Solid/PlugCircleMinus')
+
+' renders the element
+PlugCircleMinus('PlugCircleMinus', 'Plug Circle Minus', 'an optional tech label')
+@enduml

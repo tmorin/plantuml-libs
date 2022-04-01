@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HillRockslide
+
+sprite $HillRockslideXs [11x10/16z] Oq01_0oi_An0ceyVnE57a9nWMGWRnkG7KenW9bGb342OS75c11i
+
+sprite $HillRockslideSm [13x12/16z] NOo50O0m30GVTsx_QN4QgUPLQMsh6jPxQb3N2hZ1-yq5K09un8Ss2hYd5YXeCB1BsrBGzZPOx0G
+
+sprite $HillRockslideMd [17x16/16z] RSs53O1G5CNGuaxttvRWtqxivYabxGZrli6b1WLru3IxSLBtDroLJUktu7g6fk7YQURdPRgsgh_WUCOvADXpCj02dQ4cBLZ3w63W-Z8Ru9GM3W
+
+sprite $HillRockslideLg [22x20/16z] {
+RSY73SCm40J1KtgPSVllrg2WTB27yLV6nN55M6maQGCsdKgI4gl4SCOELODLWA8XWFrLpvnIqhkIvV3ibQIXjxDQXiah7qcnIHc2nwuXSRByKmchbdVwWjjq
+w7_p0aw7Z6aQlW
+}
+
+!procedure HillRockslide($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HillRockslide', $name, $tech)
+!endprocedure

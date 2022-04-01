@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/ShopLock
+
+sprite $ShopLockXs [12x10/16z] RSR50O0m0C30u4xsdnRNjlSwc3orq7ZBy3Lx6-Gs2Rd0E26chkxVHLy1
+
+sprite $ShopLockSm [15x12/16z] RSV50O0m0C30u4xsdnRNjlSxo7m0-F6VNUdFfnK86RiCHWKi0CoHVlordT-w0yTXy_QGxWe
+
+sprite $ShopLockMd [20x16/16z] VS_50GD134DH3GSK__wh3TFYEvejQV0lwQunfJjcGWhcMcN9J9nh2vJ_fUIJidIEeeTJPANtOlEAcQmBIgHfB938arW26qzYtq-CpmynYNtinpeVdzzl
+
+sprite $ShopLockLg [25x20/16z] fSa30aGn4C3GV6iwkVzfrpPUtR0HtcZP2UzqRBG-05G-4b1yg6lriVJU4ceLvKPB1VtCFJKFbuQTIcj8osO-20hwA1J8BqBZmMteha8iEt4RJluEnPEayM0D
+
+!procedure ShopLock($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ShopLock', $name, $tech)
+!endprocedure

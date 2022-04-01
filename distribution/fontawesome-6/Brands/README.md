@@ -1,6 +1,6 @@
 # Brands
 
-The module contains 459 items.
+The module contains 462 items.
 
 - [A](#family-a)
 - [B](#family-b)
@@ -367,6 +367,8 @@ The module contains 459 items.
 |:---:|---|
 | ![illustration of fontawesome-6/Brands/Napster](../../fontawesome-6/Brands/Napster.png) | [fontawesome-6/Brands/Napster](../../fontawesome-6/Brands/Napster.md) |
 | ![illustration of fontawesome-6/Brands/Neos](../../fontawesome-6/Brands/Neos.png) | [fontawesome-6/Brands/Neos](../../fontawesome-6/Brands/Neos.md) |
+| ![illustration of fontawesome-6/Brands/NfcDirectional](../../fontawesome-6/Brands/NfcDirectional.png) | [fontawesome-6/Brands/NfcDirectional](../../fontawesome-6/Brands/NfcDirectional.md) |
+| ![illustration of fontawesome-6/Brands/NfcSymbol](../../fontawesome-6/Brands/NfcSymbol.png) | [fontawesome-6/Brands/NfcSymbol](../../fontawesome-6/Brands/NfcSymbol.md) |
 | ![illustration of fontawesome-6/Brands/Nimblr](../../fontawesome-6/Brands/Nimblr.png) | [fontawesome-6/Brands/Nimblr](../../fontawesome-6/Brands/Nimblr.md) |
 | ![illustration of fontawesome-6/Brands/Node](../../fontawesome-6/Brands/Node.png) | [fontawesome-6/Brands/Node](../../fontawesome-6/Brands/Node.md) |
 | ![illustration of fontawesome-6/Brands/NodeJs](../../fontawesome-6/Brands/NodeJs.png) | [fontawesome-6/Brands/NodeJs](../../fontawesome-6/Brands/NodeJs.md) |
@@ -460,6 +462,7 @@ The module contains 459 items.
 | ![illustration of fontawesome-6/Brands/Salesforce](../../fontawesome-6/Brands/Salesforce.png) | [fontawesome-6/Brands/Salesforce](../../fontawesome-6/Brands/Salesforce.md) |
 | ![illustration of fontawesome-6/Brands/Sass](../../fontawesome-6/Brands/Sass.png) | [fontawesome-6/Brands/Sass](../../fontawesome-6/Brands/Sass.md) |
 | ![illustration of fontawesome-6/Brands/Schlix](../../fontawesome-6/Brands/Schlix.png) | [fontawesome-6/Brands/Schlix](../../fontawesome-6/Brands/Schlix.md) |
+| ![illustration of fontawesome-6/Brands/Screenpal](../../fontawesome-6/Brands/Screenpal.png) | [fontawesome-6/Brands/Screenpal](../../fontawesome-6/Brands/Screenpal.md) |
 | ![illustration of fontawesome-6/Brands/Scribd](../../fontawesome-6/Brands/Scribd.png) | [fontawesome-6/Brands/Scribd](../../fontawesome-6/Brands/Scribd.md) |
 | ![illustration of fontawesome-6/Brands/Searchengin](../../fontawesome-6/Brands/Searchengin.png) | [fontawesome-6/Brands/Searchengin](../../fontawesome-6/Brands/Searchengin.md) |
 | ![illustration of fontawesome-6/Brands/Sellcast](../../fontawesome-6/Brands/Sellcast.png) | [fontawesome-6/Brands/Sellcast](../../fontawesome-6/Brands/Sellcast.md) |

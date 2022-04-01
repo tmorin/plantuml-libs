@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element HeartCircleBolt
+include('fontawesome-6/Solid/HeartCircleBolt')
+
+' renders the element
+HeartCircleBolt('HeartCircleBolt', 'Heart Circle Bolt', 'an optional tech label')
+@enduml

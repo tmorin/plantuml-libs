@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Bucket
+
+sprite $BucketXs [8x10/16z] LSM50O0m0CJ0mntsdnQllIHOZX6EId-mmj2QG3yVNvJUVq-srvtfTNK1
+
+sprite $BucketSm [10x12/16z] DSR50SC050KWshZ-_QUDFqx0NYjOQndNQb2W69PCR1MIoVwjCt_xwx_HP6Gd
+
+sprite $BucketMd [14x16/16z] ZSV50S0m3CLGbJb__sd3UEiBs2Au9BEI74gc4AiU0Yd-XaHd-3QIJy12DY_mTLwZ7diVp4DDG_6ldg5EuAqrum
+
+sprite $BucketLg [17x20/16z] VSd5eSC004CnbHlq_jD-2BDkVjRv9caUc6VdhbCcRwWJS4lelD92cQT1dHiIetVt5ONHlNXmkwyeix4DSTzihaEp3SKslBVXZdeRlbcuuPK5a5dDBm
+
+!procedure Bucket($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Bucket', $name, $tech)
+!endprocedure

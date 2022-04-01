@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PlugCircleBolt
+
+sprite $PlugCircleBoltXs [11x10/16z] NOR50S0m08IeUzb_siWzSmfSi19DWkU8UnGo0Y24kWTtVKz1nGK47Z61wsTMhG
+
+sprite $PlugCircleBoltSm [13x12/16z] ROk30K0X54NFDwlzfytMqnL8u28-vLhCmEvwy-UbudDWgMw8jnjB0BljpSbHmFSQm8DKFdRWSGJ1l1e
+
+sprite $PlugCircleBoltMd [17x16/16z] bSpL0SGW54JH6tUc_swNmN_t9DWpM1wYUw4AyYxz4LXMxwjtczvcnZurTnrHnE9l6GBb0fUIpMTO59XAGLoNDtXgO8730QvQiPG0-73mrH2ObHmjmEBtoGy
+
+sprite $PlugCircleBoltLg [22x20/16z] {
+dOy53iH030FTPVR_VtjAb795vtPfmW1QXIWiNBIHcvna_gJbJueGx70dY-aYc2PlCfgkxEmudp0XJR8xfISyBWXd-D0Zam6ukmuKBTgCRdB9WBMog9Ad1u2k
+rBmrxTHUbPhPaNHoDOgg0qXoJLUkrD64AyKspVC7
+}
+
+!procedure PlugCircleBolt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlugCircleBolt', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HouseSignal
+
+sprite $HouseSignalXs [11x10/16z] DKm50G0n4E9TD_gdFNS547QXxIDh6cJDJAifwlfvo_IIW8TuVpJM_7cUqqxtLg8A
+
+sprite $HouseSignalSm [13x12/16z] HSU50S0m3CH0bHly_QSDmmLiqLqdooVT3B-A5ogZvWTm6WmSTKBzpr2p1xY-LN3m2jVZbx217c25w8BOaG4
+
+sprite $HouseSignalMd [17x16/16z] NOk54S0W00E3Ezb_srvAbJ-BuiOC_B3atFmlSLpStlFcx-zNeB0sFfkoX5t5J02U89tjK38dpm10KasXm5KFSA3SGTR3FnCBmB5eueHyGoCwSJC9GvGtE
+
+sprite $HouseSignalLg [22x20/16z] {
+RS-5WSKW54JHYU4m_NUx-_WutFY90OPqm9ubuuQUqeA1lwuH8sihbcwKE5KmCHTZENc69vTJt67HcrwUVmPDPPWMk4cdb2dwdoCfB1NDUM4tg2LVaG0CQaYH
+n0kfg2zpi7ZeSTkS4hi0Ccz3yaN3vw0FFuH9_m
+}
+
+!procedure HouseSignal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseSignal', $name, $tech)
+!endprocedure

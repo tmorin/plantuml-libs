@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/Burst
+
+sprite $BurstXs [10x10/16z] NScr0GH100GWNfELwR_QSoVb3Hsa4T0oUTKFie0icfuThyTsv5-Z1mYC
+
+sprite $BurstSm [12x12/16z] JOk50G0n309ftlNsdxPkLua0vXJvbN34QYZpW_ivP6cWKboP5B6VDjIkkexQBLDuQZbJl-gBXXCLIWq
+
+sprite $BurstMd [16x16/16z] LSpL0SKm5CDGbJdQVze73P-_2_Puy0f4XmBSGgHke7Up28FATF6tQJR4AZDUWqPNR6vjmHvSLZj_Pj0tJBd-QHukdm6LISVt0T0D6CasYRu
+
+sprite $BurstLg [20x20/16z] {
+PStN0OGm3C1GKU-0EDf_Mdhd9RO_LIOsLUQGj6OHDXpKsEx0eNPMhuTJE1kS5IGhLjxLUz4RTeEduQpSH05L-DPdlsW6dxgIMU4fs7LUs7cJMVNkmbd9Gcr9
+AcHDBD9_xm1bQhbenrjloMu2
+}
+
+!procedure Burst($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Burst', $name, $tech)
+!endprocedure

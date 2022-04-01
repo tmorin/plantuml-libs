@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/CloudBolt
+
+sprite $CloudBoltXs [10x10/16z] Os1Wu6LdW01-C42mE84C6E03ao0-Cn3pi85vRFoCG1AXXHTk48p11Y81
+
+sprite $CloudBoltSm [12x12/16z] NSo50OH00C2m0kVM_QTzLp90WDsTbw4kFG1y0JPV6dZMsDH3zKYYqfLfyZiT1q_7ePsNPOGNURW2
+
+sprite $CloudBoltMd [16x16/16z] LSp50S0m00906dVstxPnkI-2IfI4IsQblkJHIMve8ZSvwqlI01_PSxAAjqyupKgoWw6ohFfTGIB1IW6G4eMqa5807QkS0nOfO-yU93ySXiID6TCF
+
+sprite $CloudBoltLg [20x20/16z] {
+PT25TKCn04FHP_WCsd_R7ZM9yPePiFXee_V80ccDV9twyD35Xrg1kU_0ibhF4U3IA4LLRoaBOEYxoUAMfTArIiWyPAjldgDimUCAoEE-myDNyBOxdN9ZgfYI
+PxxCK-S_F1b8AuDTYU8F
+}
+
+!procedure CloudBolt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/CloudBolt', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PlantWilt
+
+sprite $PlantWiltXs [10x10/16z] BOY30G0n54FFAFVVjj7x23RnzSrC48SzKzouecN2RjpPvdpWm9uEn8cu1G
+
+sprite $PlantWiltSm [12x12/16z] FSR50OC0002nrBst_xGuv1N0jRDDrS_satlm-5pZsesgd2hd-6v_PmhLirekd-Eevt5VZZi-0W
+
+sprite $PlantWiltMd [16x16/16z] TSi73aGn20DH_zupzx_joY1PTKSjBu3IzyrIUW16EC6nmPvbFsSe7CyrcAIrJJMPO7xBOp_jMlB-LfvZ0USCeBRuX5lQhe_YFeeTh-Bqrpy
+
+sprite $PlantWiltLg [20x20/16z] {
+ZSrL0eKm44FHu53B_bVx99tA_77nGmLJD_CAry5_UQQLjJXP91VT9oD3VMnGLmmd-G3OxTV6VxAZRKEoc541GKi4Pxe1il2duaq3DztPRIKl9Dbfzki2Ykok
+PYrkhXKrp9dVjnVWJRsnBm
+}
+
+!procedure PlantWilt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlantWilt', $name, $tech)
+!endprocedure

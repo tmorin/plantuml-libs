@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/BuildingCircleCheck
+
+sprite $BuildingCircleCheckXs [12x10/16z] NSp50O1G3C3Gu4xsdnRdsxlKYmzklhOdtsWgrZTtMDVXxHSxDQoeWu_5g1MhzxUJufj_sGa
+
+sprite $BuildingCircleCheckSm [15x12/16z] NOl50SGm0CDyMBRsdxOGJlGpI10u523pJd7di8yIjKjlbJYSZS7ZEVpAMNIyCCkFX__wnEFrJKU5iu4ZHR-2SW4
+
+sprite $BuildingCircleCheckMd [20x16/16z] {
+XSu50e0W00F0qSt-_rgx0wRKaIZSux3b959knayBgderrnTJo1AKo1UhUVixvtbHdPZhoKp9udQUtJRDJTt-ZNXvihTBetc9JcIWt2tE7JCPn4vSxe-AfEFD
+YCebnfrMKHR22
+}
+
+sprite $BuildingCircleCheckLg [25x20/16z] {
+fSr53iHG40DHV-nWr_rlEmfdcDwsB5aT9qcxZYj16wx5Zu8q319PyJvq4b7X9jGArHXgDuK_pyVfl4pdGURGXTlp81P5W1bkHb_RLcmIPy7O-5KGJ5mjLrnJ
+T9JOUBOjL2cpapGLTO0bhi8qAu5DSnLGtOBILHYKd6alNG
+}
+
+!procedure BuildingCircleCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingCircleCheck', $name, $tech)
+!endprocedure

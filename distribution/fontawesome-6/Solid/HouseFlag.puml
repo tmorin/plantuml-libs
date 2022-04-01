@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/HouseFlag
+
+sprite $HouseFlagXs [12x10/16z] Ou01FWZ5pGya-Fb191-OWX4W6enXR90219k12OKD997PF1Xi
+
+sprite $HouseFlagSm [15x12/16z] Oq00NXY3YHz4yWC1Y6O7qanmBWy_2B12kNn04io24d0kCqGEmGK2J2ul3nyo5qWInGK
+
+sprite $HouseFlagMd [20x16/16z] dSt50S0W30LGt27xJrk9rMxz-CFCC-isjuC8rX6Y000MxGnImQcxsm1ALCC9HKq5BJddXCGyNloQiVDZyklNblVnRVOSVrXdwsex
+
+sprite $HouseFlagLg [25x20/16z] hSd50GGn40D1cTdAFzh3PQR-31HcXOHHmZOBwUqdD4cI3Vp3FyjlOWQHR6GCcMrc11paUn0S5ZzGooSepa3Xa-OAr3M03oi0N0HySciW5g0-1wdPUdW3
+
+!procedure HouseFlag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseFlag', $name, $tech)
+!endprocedure

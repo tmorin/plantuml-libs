@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/MoneyBillWheat
+
+sprite $MoneyBillWheatXs [10x10/16z] FSV50OC0002ngtkp_xGuv9UgIwz-HVBapxFLxPfywNgvISeXYyzdIQSbr8k_jyN_Fm8
+
+sprite $MoneyBillWheatSm [12x12/16z] JOg50S0W40ElZcV_ROl3lNz29a7Wkq4wat9_zPpMMbmLljCvYmNF--qUCk78xo-lcaG5rrSZbHNkygxGhJRV3o6th2n-
+
+sprite $MoneyBillWheatMd [16x16/16z] {
+NOo50SH020GdNFHi--_s8RmFhWHd1Hc71xfKgeIqNnwW64YScXuMxxd78ComMkk5DJWpbDunYQbXiNcuQnhSePCieMb3tnn3_n2kbX5Jb9n0nA6ay7bqH9-S
+hsuvkDrAJ7zu
+}
+
+sprite $MoneyBillWheatLg [20x20/16z] {
+RSnLWWD1203HQXjf4kh-jzsDsxmV76woGUwmdWlGrT9qeZArGr5vr5jJeLrGKvYU64fwiV6kpd-Nvm5jhh05C9OEPsNH4ogNp5OqKSkc0VJH60hQ2ODZqszj
+UWHy4uJAfhf3yQA63m15toKNFiHpR_SYLQeNesvU4EgSlicPDd_a7m
+}
+
+!procedure MoneyBillWheat($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MoneyBillWheat', $name, $tech)
+!endprocedure

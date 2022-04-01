@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/ChildRifle
+
+sprite $ChildRifleXs [10x10/16z] NOQ50O1008ImM_QVrlRh4c3badUj0_4HtKUh2ZhZBNJPVf9okFlHSW8
+
+sprite $ChildRifleSm [12x12/16z] JSZ70O1G3CDGqJlUVrk-w9SNnS1M5qWZYRqEycjgOPiByxNha7XKFBBBUZMKjy7MMKVtkrd3h-i3
+
+sprite $ChildRifleMd [16x16/16z] LSW50WCn20NHlsuaS__Rba25JlGXhrsAi7pWqSZucEeEMxNcIL5BR_Ra0EQOUgkanzqq4xbn8yZ22rRjhNt1sthubBJmW1Gs6xxJ7QzOngD_4xwANm
+
+sprite $ChildRifleLg [20x20/16z] {
+RT050e0W00F0APtx_slDsSxaQB2cLIZa_XsvHDOvO4rQRTojoeBQtGqBrRTX7A4qMlqvTytRr7v9FfRGCOZ8i93dOfamLBIgNWZoGbcupAwsfbqMP0vElGUd
+lbfJrkRKzs7cOre_yBNnnyf-5g4TXrL8OWO
+}
+
+!procedure ChildRifle($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/ChildRifle', $name, $tech)
+!endprocedure

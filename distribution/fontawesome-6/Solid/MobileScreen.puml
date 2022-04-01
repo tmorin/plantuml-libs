@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/MobileScreen
+
+sprite $MobileScreenXs [7x10/16z] O-070Mu8nS_0pm04n51m3VnStFpy
+
+sprite $MobileScreenSm [9x12/16z] O-3Y1mDc1dueOE1d004EiXdS8C3B3pAGdHri81G
+
+sprite $MobileScreenMd [12x16/16z] Os3cXm8-1WP-102ocI40p6Q00BgmkI40o4Pr3qWL8uGD1xm
+
+sprite $MobileScreenLg [15x20/16z] Os3auuS3BWO6VcJ0WShb1d9P6Q1W275vkQ40p4K0E9U9aP4TYSlDnGMLvKPMp08
+
+!procedure MobileScreen($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/MobileScreen', $name, $tech)
+!endprocedure

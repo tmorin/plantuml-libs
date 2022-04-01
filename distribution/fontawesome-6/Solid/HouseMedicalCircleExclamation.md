@@ -1,0 +1,63 @@
+# HouseMedicalCircleExclamation
+
+
+```text
+fontawesome-6/Solid/HouseMedicalCircleExclamation
+```
+
+```text
+include('fontawesome-6/Solid/HouseMedicalCircleExclamation')
+```
+
+
+
+| Illustration | HouseMedicalCircleExclamation |
+| :---: | :---: |
+| ![illustration for Illustration](../../fontawesome-6/Solid/HouseMedicalCircleExclamation.png) | ![illustration for HouseMedicalCircleExclamation](../../fontawesome-6/Solid/HouseMedicalCircleExclamation.Local.png) |
+
+
+
+
+## HouseMedicalCircleExclamation
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element HouseMedicalCircleExclamation
+include('fontawesome-6/Solid/HouseMedicalCircleExclamation')
+
+' renders the element
+HouseMedicalCircleExclamation('HouseMedicalCircleExclamation', 'House Medical Circle Exclamation', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('fontawesome-6/bootstrap')
+
+' loads the Item which embeds the element HouseMedicalCircleExclamation
+include('fontawesome-6/Solid/HouseMedicalCircleExclamation')
+
+' renders the element
+HouseMedicalCircleExclamation('HouseMedicalCircleExclamation', 'House Medical Circle Exclamation', 'an optional tech label')
+@enduml
+```
+

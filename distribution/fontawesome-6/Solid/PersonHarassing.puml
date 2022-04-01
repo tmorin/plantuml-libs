@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PersonHarassing
+
+sprite $PersonHarassingXs [11x10/16z] DOf50e0m0CE2E_d_Qv5jxQKMe9-95DUKhSieIINRjIXET7q33i5U61SJDN4KVG4
+
+sprite $PersonHarassingSm [13x12/16z] JSV50SH00810adMb_shF9RmOWCKbHVaqZeDFnnZduGUguV8A2hXrwWjrpmT8m1PUW1D_oBO_r1yEwNe7
+
+sprite $PersonHarassingMd [17x16/16z] {
+NSc73OH030NH3vlZzD_joTQ9DB3fMLRlUdN2gRMF2mwGGj2hVkegZL4LIDSCIrS7tf9KXm7_YetA1GAxdjBcT8Z8Mb677EJXDrWEiNq0nWioy08uBfX-BBlo
+0m
+}
+
+sprite $PersonHarassingLg [22x20/16z] {
+ROrL0iOm6C9evzRS_xI_yCstF44go6HQFG6oghRDTrjhWlvYHnQzCv0klPscgLKQgNLGCBhG4ynkwTWF1izYFx5J-yeOLnSh0RPDJDLXimVxHdMhH5xjnXJb
+PjcjNpjs3-kL_c4pmTK2vMeZDDfiWkJGKDmOlW
+}
+
+!procedure PersonHarassing($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonHarassing', $name, $tech)
+!endprocedure

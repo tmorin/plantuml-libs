@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PlaneCircleCheck
+
+sprite $PlaneCircleCheckXs [12x10/16z] RSh50OG000F1d0io_LUBE-mdcfvl5jZwvvM7r-1g47o00gY6lxX9SkT7z1u2BG
+
+sprite $PlaneCircleCheckSm [15x12/16z] ZSS54e103C305lVy_xTCE7IKdBGRHrkyW_bB_dB5XeA1KfJlBMnmJJR6bZ3acWrI4R21NEIM_ha3
+
+sprite $PlaneCircleCheckMd [20x16/16z] {
+XSx50S0m3C10js7K_jEM6VMyW2rBLMx13IDmjGgekw7_BJ5c3-9OCc9ARWPfM7F2b1Is5k90tZAc9xRBt0I1Th1z5pEOD9h50a1KW6EnjCoewqf36M9RgL9c
+wW4
+}
+
+sprite $PlaneCircleCheckLg [25x20/16z] {
+hS_LOKKn3C1GNMPh_sbBmTBVEs6EAPRWJxFANrJt_nOUVXjKuoKBXvyMVbZCWjuKLYDRw3a0XCs0oSAcpO75P6zesoBLUzf0dkHGZQd5eH8ogIHjOONPjk0N
+JdMRh0kpoJ9Ox7owpLZDo0jnJ2oN3rFa_Uy
+}
+
+!procedure PlaneCircleCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlaneCircleCheck', $name, $tech)
+!endprocedure

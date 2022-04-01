@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PeopleRoof
+
+sprite $PeopleRoofXs [12x10/16z] DS570GD1000XhlST_sxp2W33twXsi1GADRDorVvY2i9cYG-UL9fHrLQ3ghUvEbIjFjKF
+
+sprite $PeopleRoofSm [15x12/16z] HSd5TS00042X7_Um_xPzTQxqRH_xDyBGjm6DwDFx4ojN6tFbh0xQ-kJfqrNTbRUMfK_U8Feq3LwiurW5Cq7vrBQkiERaU4kCFW
+
+sprite $PeopleRoofMd [20x16/16z] {
+NSo5bG0X303HMLyiqt-tzmBd7oV2botuPrDj_3RKfjvyUTKNwEf9kjNwrLFTsTG1SBIvgsFeHjANT2aRo-FNRPxz0i82ZBn-PcFYK9PeE5r4PRfREtpLyEvj
+1-YcKsNTO7D2nzSLK_K5ObqVFDGt0d3BQ_S3
+}
+
+sprite $PeopleRoofLg [25x20/16z] {
+RT25jLWX0C3Gu4_9_jls8Fr-SHU-U1j_ELKBFrMtm5T5zGwpUBuCEJ2qEOCfF6eltuuwW5krCcIchfeVzMIw_vySNxNQsLwDB57vuchyy5npgtLMiB3TceaE
+BwXiJHFTgV8g_-L4SeCQMABJ-W_laJC4foUhul-ZmEM9iyEbG74BXC1jTmAjgibtRNlfo0xw7LHvrq2jQWyU_m
+}
+
+!procedure PeopleRoof($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PeopleRoof', $name, $tech)
+!endprocedure

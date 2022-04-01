@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/HelicopterSymbol
+
+sprite $HelicopterSymbolXs [11x10/16z] JSc30GC144JH5pk__sg3ys88d03bKj0JYX9fBoBFe0gcmYktH4BPugKtNm
+
+sprite $HelicopterSymbolSm [13x12/16z] HOe54iGm30CLvkZ_lpt3jTs0j6D3oGW1JYKHITFEhU766IimnO15N0aclNU9XA1j0X0XHGH-QmFjas0Z8Nf6CW9Dko8PhVy
+
+sprite $HelicopterSymbolMd [17x16/16z] {
+LSm50aGX203H-LtAtF-q6x3vR0dA0IiVWmhQAADwGbD9kfDw_OGx5p2TX5isO7K6hRMviBfyFuO1LYEY7gJLH3fZO7KT1dq-HcRF_nueYnCeam6S1XF0Y8u0
+vZ_CUf5KmNoNJNddtm4
+}
+
+sprite $HelicopterSymbolLg [22x20/16z] {
+TSx5OG0n4CLGBPlLVxK1GpZlEFXP0bmNtzmgF5esMAghgZTJK_lo5jM7BcjXKVS-e9ax0HoPJTlimZYXcNCCQmIzPnMjS2hVgaMPd3BTFzNzdhinnbuztmkx
+xj_krlceVgjg1ABkj1aoa7LzsjXvTt2lZvUwCoILuL7h0tkqxqs7wkWslWYZMawwLm
+}
+
+!procedure HelicopterSymbol($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HelicopterSymbol', $name, $tech)
+!endprocedure

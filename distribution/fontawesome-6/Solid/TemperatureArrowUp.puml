@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TemperatureArrowUp
+
+sprite $TemperatureArrowUpXs [10x10/16z] Os1WvMM007uW054WnCuFvWDP72Wi88N60b4GhM0M4py36nUOXJ0F
+
+sprite $TemperatureArrowUpSm [12x12/16z] LOe54i00089ObpV-_zfrUgK2C7TSgLI1GT02Zsl0147rxcrixqxatwUWHuze--cDjq_XrJjLeEXO0G
+
+sprite $TemperatureArrowUpMd [16x16/16z] {
+XSk53GDH3C1G7tEy_xRLPt4jV05WZXT6eRgI5W-mw7PfidxmkkrJcAYUXCkxVCATxF3gw-bmUftvQuk_wjKW3hGwN6-Te_drE7JgdfJqrOpwXMx0ayodYQa9
+VW
+}
+
+sprite $TemperatureArrowUpLg [20x20/16z] {
+fOv7WiGm3CEOwcxy_xVBIK-kYuCambLcwMtIcuxfHrYtoauvrrqd2581cG9KQGMLCBbkimaAe1f7kA_vk4P_ErFfhlznvNJXTb3j15mkWmBCbilfi0EQIpnT
+jUkGxDRJZNWEgp8CfnEGfgdWO0hDTU10Ce5q_DDatVm1
+}
+
+!procedure TemperatureArrowUp($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TemperatureArrowUp', $name, $tech)
+!endprocedure

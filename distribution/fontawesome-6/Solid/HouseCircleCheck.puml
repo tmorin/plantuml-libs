@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/HouseCircleCheck
+
+sprite $HouseCircleCheckXs [12x10/16z] HSW54e10581Gx9RxtrOtFrDl8BNJKpjJdQarcEvRgMwCYPUfR127RkaV_pu
+
+sprite $HouseCircleCheckSm [15x12/16z] JSZ50SG03C2mvB2i_QSjG_oJOo_RA7sO7dNWqaWnYbN4TEjSHHmSXZHfloSZqfWVDuD9OK8k
+
+sprite $HouseCircleCheckMd [20x16/16z] PS_50S0m40D1nSpglzgmUPzZFFmT1MkIv4AEJsAao2_LARFcAd4excJbiP25pkd6qidywm1IjNeaTtFc-m_vMv7oYAIdwFR_7CTDrUhCbhFLFsZ0DqF-w08
+
+sprite $HouseCircleCheckLg [25x20/16z] {
+RSz50aCn24NHzrt3tVzggv0sSeOuoWOczSp0fjRAswdQmTUbKY9O7VyPb56I6wdOv6SMRhc5mgJDu1maerpCroBjEzafmbGSDMm4AnAAu04vCVj7CZJnbv0d
+Ll-WJ9p0Dj4c1i9U9hJY50dJrsHU_mG
+}
+
+!procedure HouseCircleCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/HouseCircleCheck', $name, $tech)
+!endprocedure

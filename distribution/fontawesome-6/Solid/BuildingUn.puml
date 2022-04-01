@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/BuildingUn
+
+sprite $BuildingUnXs [7x10/16z] O-171JnC320X9cO6X0mt0mCdd8S030nm2W
+
+sprite $BuildingUnSm [9x12/16z] ROo35S1004D_xMR_QOkpugSWYqiHQELUtU0VE-Bwn_tnbpZf1jJ6lBi1_xKVBm
+
+sprite $BuildingUnMd [12x16/16z] VSO54W0W24JHjLllVrexcFB3m4Cg9pFvKdj66EFnZ6tE2-noIMFJa6NPi76x1I97whVqyjv_NZu3Z1ZZ6U86
+
+sprite $BuildingUnLg [15x20/16z] dOt50GHH34A9PvJ-grstaTE-hp70o1zi4vsHIgmbn3CCkOM9t8I2LzX8CCrV8KD7Zatb6S0o0mpOAvp7MsXuTbTnlPqfH_x3whNrGcr3Emjj4wvN
+
+!procedure BuildingUn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingUn', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PersonCircleMinus
+
+sprite $PersonCircleMinusXs [11x10/16z] PScb0S100CNG5EtRVzkQyiLyIAMBnTG8diQxOfzcNCeirLMVTuO3
+
+sprite $PersonCircleMinusSm [13x12/16z] ROf50e1G50BvTk2R-v_MRcL3ZQIwrYMubQQvSkhxTAFWohT6m800KXC6vyU_516s_yiTMris0G
+
+sprite $PersonCircleMinusMd [17x16/16z] NSs55S0W40FGrF7ilstpSFXLJY7MOqNUU-34wi3YyVx3n57ILCxiGiDAgH2lEP3QvypVnp9BMacPMq7673Wbp84WSyNUSZBxSY1tNXI37m
+
+sprite $PersonCircleMinusLg [22x20/16z] {
+ZOu55i0W3CLAvmEQ-vzsxagU_PUgZ9Iet53WRZF0tNN4IoAbzxwuIcCad6NDpBcRbQFqh3GYPGIlKsjSR2bRCCWPSIQ1XToX-RgLuudLjbUhOrZVS2SR88pO
+oUfjm_bQVRIwscMxMr9SEdi
+}
+
+!procedure PersonCircleMinus($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonCircleMinus', $name, $tech)
+!endprocedure

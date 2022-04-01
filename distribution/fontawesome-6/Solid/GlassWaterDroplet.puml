@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/GlassWaterDroplet
+
+sprite $GlassWaterDropletXs [7x10/16z] PSN50OC000ImgnVD_jFYJZu9q00_UIOUGcGh6QiWtEi1
+
+sprite $GlassWaterDropletSm [9x12/16z] RSR50G0W241HksF_QQLlVWMUkzenzEkucn3tuE1hzxfeA0Ig8uRVtH-4zCEM6m4
+
+sprite $GlassWaterDropletMd [12x16/16z] JOc54GH148GulrNoZ_RzfuQoRi1WccZUsvVfxGrKG7ShJ8_tNkniwdlZeAlhPq_MyF8XzWhhPmTfzxHBsYSZzag4oHC
+
+sprite $GlassWaterDropletLg [15x20/16z] {
+LSU50KGX3C3GVCUp_xJdKeAqZs6eJD8-ioZVThtU72TmwAv0qWKkNNG1TK1MTAMeBXH5D-gRpO4UB6g1OKDFFcb5hpyBwYZVBp4CNVJ8WnQvKo9NSYHiCqb_
+BTm1
+}
+
+!procedure GlassWaterDroplet($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/GlassWaterDroplet', $name, $tech)
+!endprocedure

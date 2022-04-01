@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/PersonBurst
+
+sprite $PersonBurstXs [12x10/16z] Ou01FZ393oBOGIG_283581nUCCd031Pd1n5yo290DX0oCG6Pt71TB41X76m
+
+sprite $PersonBurstSm [15x12/16z] VOdL0SL0382e-x7_j4_ElqgK160Y8ltS3O1UdWhS4DrestK0KzIP9rut4wYwf_UKB0YBkE6W3bBnSQ3XyghpJxy
+
+sprite $PersonBurstMd [20x16/16z] {
+fSd7WSDG30FHKPP-clwhtRMfVFQxa01u6Hedj_CnocwWKvY8BWFq7eX4Q8OP67BU05WC7Qpdqpoi70-39-hn3429vroh0isaCzbHTQi2hj1Mw8YEZYTTt7ZJ
+yOTkS8L_
+}
+
+sprite $PersonBurstLg [25x20/16z] {
+nL7LWKCn37iOThJ_j675T-q0rPTaXcFYF3QI78g0JGL8wW1kqWpaGMx4rpHnUyIfyJ2Qq4OhPM8cd3v6VxAT9boJlZqaWp1QbuKeFLbkDHE5l2Vf6dzJWM8v
+f3Sy0RUwqT63tJZJ2XSPP-k3-h4l7Ty0KlwP8oA4yQaA
+}
+
+!procedure PersonBurst($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonBurst', $name, $tech)
+!endprocedure

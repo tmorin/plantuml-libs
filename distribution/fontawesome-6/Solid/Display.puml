@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/Display
+
+sprite $DisplayXs [11x10/16z] O-372lWOe80q9W8mS081Fp-81CfmSVFpSt4nC
+
+sprite $DisplaySm [13x12/16z] O-1703v-LC001zJWCCC1Fpk6BOm8nJmGOIO61W
+
+sprite $DisplayMd [17x16/16z] O-3ZHm4SlFmOW8KP2N011HWPa037m0dm80C-VdPqXpCmWPtC1_C2p02W52_298JVWHm
+
+sprite $DisplayLg [22x20/16z] tSYr0O1004MnZyFPstzQt9sMb97XA35y4RGJ_NlF5PnHMWqyK8qqevLhBJR6qZ76QEPPf5qq
+
+!procedure Display($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/Display', $name, $tech)
+!endprocedure

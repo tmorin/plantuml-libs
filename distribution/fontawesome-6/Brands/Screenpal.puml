@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Brands/Screenpal
+
+sprite $ScreenpalXs [10x10/16z] 9SO50GC14CJ0ANFZN-tJBGRy6INpruXVSFhy555Ghpb-RgNYKj481gm
+
+sprite $ScreenpalSm [12x12/16z] DSM5OS0008J0YtlOVzfwNm1u_QTvwW3NglBCD0RoSj-WbU9ie42zVfsjNrSBhdgDLMyLZdupmb0LFW4
+
+sprite $ScreenpalMd [16x16/16z] {
+JSo55SKm3CLGbTdQVzeFxvHkE0PEnSierSYfex46fI7S6BH0WLfNYSREZhOf8PnwKBiqWStQi1ho2mpkn9XtwF_pxAzaYqbTcLNRiqR0A3MLD3xW_N5mwl9g
+0Bu
+}
+
+sprite $ScreenpalLg [20x20/16z] {
+PSY50GCn3C10FOQZ_RUjotH1cQTryYEVIVh99uN3mTFYIj4GR-NcTC2k4r124kLXCqUpZe_POelcsBk59ot7Ye4mF85DpPnv9qnr1Q8t7WpbCnfqTG53HGEG
+nWg78L4CdPj5m_9u9s7p1cZUJUyMWbyID_D_1DcdXRUpZJdAniq5
+}
+
+!procedure Screenpal($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Brands/Screenpal', $name, $tech)
+!endprocedure

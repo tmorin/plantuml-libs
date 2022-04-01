@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/BuildingFlag
+
+sprite $BuildingFlagXs [12x10/16z] RSR50K0X30JH-Ix8zbyjjjSC97benGl85M-EZMphoVcHxOeEK667RBl84BW3
+
+sprite $BuildingFlagSm [15x12/16z] TOe30W1130Fdp3J_V-tPc4KRu1LHC-6TT9kz5Q53qaFA8H_bc8vZaWAEyYOt_cNPtYGSKdSv0W
+
+sprite $BuildingFlagMd [20x16/16z] XSo50S0W00F1r9tilsrnbwzo23ww3a105OYSIQ5YQhPh4UUYtf4jU6TmnXkPUEqTBAHicsNaEObZKczb2sJnUS4ex1qiDBPxBGt0o8x8OEq7
+
+sprite $BuildingFlagLg [25x20/16z] {
+fOt50SH0009PzwN_Qi-DyoJpHGQL3pXWH9oe54mWKpn2nGOAxmEWTu0UzZMe02qCDJYAOcAFzOTZd7WJuCJ9COxo02k1o3L8YJCbjbWaKBO7qwVt0O3qAV3_
+1aw2YLkm1m
+}
+
+!procedure BuildingFlag($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/BuildingFlag', $name, $tech)
+!endprocedure

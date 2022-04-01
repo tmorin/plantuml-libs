@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/PlugCircleCheck
+
+sprite $PlugCircleCheckXs [11x10/16z] NScr0S0m00F13tD-_saDAdsL02vOYKdm7ECUIGPT4kgUc4jwHfm47j797g-VMRK2
+
+sprite $PlugCircleCheckSm [13x12/16z] RKj50W0X21pxil7_rz9mKgafu0Dm4E_NVczWQWyxpnzFGSlRNjmwceEPSWhl4D0TQDfYo-G2XZe3
+
+sprite $PlugCircleCheckMd [17x16/16z] bSn50iGW50FGO3Kazx_j47mxhyM-0IwY-XocGkta7m7djNljOj9Y8PdBDqSCjJYx8p0kmCicZBF0Z0BAhP8u0vwtKG3l20G3NKH7QpW3bisz0d1wF_W1
+
+sprite $PlugCircleCheckLg [22x20/16z] {
+dOu53iGm30IdtE3-_xSdItPPT1FQJ1382MFkN1YamKPf-xJxdvPvzc4ytR9U2Dbqm-rwTPrWE-NAsgGokWqP0URpU8qumtLh0DdJu87DBDrdreeOR2HssxKP
+flFRnS8egGmwRL875EnNEuRbQXcQx_m1
+}
+
+!procedure PlugCircleCheck($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PlugCircleCheck', $name, $tech)
+!endprocedure

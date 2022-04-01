@@ -1,0 +1,16 @@
+' definition of the Item fontawesome-6/Solid/WheatAwn
+
+sprite $WheatAwnXs [10x10/16z] LOZ50S1008EeUzb_skffFW6eToX-f3W1kvlzv5SELNONRGTpWLdRJe1OMAJzW1i
+
+sprite $WheatAwnSm [12x12/16z] DOo54S1G24FJx_xsdxR6mGbn-Hqr0mde60OQruUgO9U0gG88KX3OAV0LosUwoDUiG01yZ-pJnzL3K4WcFm
+
+sprite $WheatAwnMd [16x16/16z] JSg55S1G24FHfAwy_RVjIVr-1QAVodvWijyIQ0h_wgxmgd2bxWSNzt3hODsUF628rAE87M39iCktr40h-GsNek4rAm0shJ3gr1AzRkRItJKi1gQxB5Rz7G
+
+sprite $WheatAwnLg [20x20/16z] {
+NOm72iH04CEStgF___PcXs5DJbGBB7rv9Jqozo9O9x1w22x1OfTg-gY1GA4st4gtpXkKWka2vZNKq5kFNfBLBHwAfHqtaRmNZJ5Ryr5ZWRjQhrxV6cvPLkki
+UxBNcE1IuPRfhQsh2xUA8vGqkXMSeVxv0G
+}
+
+!procedure WheatAwn($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/WheatAwn', $name, $tech)
+!endprocedure

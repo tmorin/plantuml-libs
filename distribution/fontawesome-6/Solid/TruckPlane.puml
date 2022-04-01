@@ -1,0 +1,19 @@
+' definition of the Item fontawesome-6/Solid/TruckPlane
+
+sprite $TruckPlaneXs [12x10/16z] Om02LWOuuEV7oUO70w1g11j2WEN104gnGTIp0vayA7h1D0yl0mCpFm
+
+sprite $TruckPlaneSm [15x12/16z] NOx50G0n3CFI7gFsdxQCqIjeMm9can5GhLMjVH9tQIa48SOMKflKTYZjVqI0Kr9BuADAhR4tiVtXkffogYGbuVS
+
+sprite $TruckPlaneMd [20x16/16z] {
+RSy53i0W44JHnPsv_sbhqrI07oCFbwikKmsO36lJIylbBZoMyNIIFwt-31YjuR7dS3pcQHrddVPKgnMXsGjAv1aqxehciWZ0-jzR6WSLJXzLQEuq7QRmpmLw
+1m
+}
+
+sprite $TruckPlaneLg [25x20/16z] {
+TS_50S0W44HHtDdflzfuSFxrHMRPcuricGB24d2r1Ru3iGSJQwe1YRO6x0GSQqYe49_I3GweyDz_2Q52dMnmLs4ig0KOtyprZ717RBWZ5A0N1AwacWwqk4lt
+Sift19Z_-Il7_xq6O2y4AHnLq1US
+}
+
+!procedure TruckPlane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/TruckPlane', $name, $tech)
+!endprocedure

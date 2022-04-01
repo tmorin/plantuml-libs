@@ -1,0 +1,13 @@
+' definition of the Item fontawesome-6/Solid/PersonCane
+
+sprite $PersonCaneXs [7x10/16z] HOV50G0X0CDo2Y-o_xIur0ly5mtAWVtPC2jmzGD6axtuPnK
+
+sprite $PersonCaneSm [9x12/16z] HOc50S0m20IlBWdS_jFM1NdbcD9nZpvY7MykPNWABG_h08QQChkeJC0bz1JfB_Z53W
+
+sprite $PersonCaneMd [12x16/16z] PSk50S0W3031u4xsdnPtli9XK6C8AyHuEC2ABJXdIQV2ccZ6Njs9E5hBlYoLPTaCqG0GwAQUjrEgUDuGrNIvZfyPkZfc
+
+sprite $PersonCaneLg [15x20/16z] ZSu53aCn30JHBKDYp_rlMrdhClqHvONbygI7WCCpnmCFiDANTcECuqq1LMkFIvDRfO4BE4kgGRN9UYnXOweeDkjcrwol3NFbpV38EHufBQ30R-h41G
+
+!procedure PersonCane($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'fontawesome-6/Solid/PersonCane', $name, $tech)
+!endprocedure
