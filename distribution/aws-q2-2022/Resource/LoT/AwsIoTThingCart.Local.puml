@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTThingCart
+include('aws-q2-2022/Resource/LoT/AwsIoTThingCart')
+
+' renders the element
+AwsIoTThingCart('AwsIoTThingCart', 'Aws Io T Thing Cart', 'an optional tech label')
+@enduml

@@ -1,0 +1,157 @@
+# AwsCloudMap
+
+
+```text
+aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap
+```
+
+```text
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+```
+
+
+
+| Illustration | AwsCloudMap | AwsCloudMapCard | AwsCloudMapGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap.png) | ![illustration for AwsCloudMap](../../../aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap.Local.png) | ![illustration for AwsCloudMapCard](../../../aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMapCard.Local.png) | ![illustration for AwsCloudMapGroup](../../../aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMapGroup.Local.png) |
+
+
+
+
+## AwsCloudMap
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMap
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMap('AwsCloudMap', 'Aws Cloud Map', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMap
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMap('AwsCloudMap', 'Aws Cloud Map', 'an optional tech label')
+@enduml
+```
+
+## AwsCloudMapCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMapCard
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMapCard('AwsCloudMapCard', 'Aws Cloud Map Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMapCard
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMapCard('AwsCloudMapCard', 'Aws Cloud Map Card', 'an optional description')
+@enduml
+```
+
+## AwsCloudMapGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMapGroup
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMapGroup('AwsCloudMapGroup', 'Aws Cloud Map Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsCloudMapGroup
+include('aws-q2-2022/Architecture/NetworkingContentDelivery/AwsCloudMap')
+
+' renders the element
+AwsCloudMapGroup('AwsCloudMapGroup', 'Aws Cloud Map Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

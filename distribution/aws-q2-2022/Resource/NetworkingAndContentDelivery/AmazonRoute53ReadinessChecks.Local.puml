@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonRoute53ReadinessChecks
+include('aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonRoute53ReadinessChecks')
+
+' renders the element
+AmazonRoute53ReadinessChecks('AmazonRoute53ReadinessChecks', 'Amazon Route53 Readiness Checks', 'an optional tech label')
+@enduml

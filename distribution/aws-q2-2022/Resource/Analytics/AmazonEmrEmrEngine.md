@@ -1,0 +1,157 @@
+# AmazonEmrEmrEngine
+
+
+```text
+aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine
+```
+
+```text
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+```
+
+
+
+| Illustration | AmazonEmrEmrEngine | AmazonEmrEmrEngineCard | AmazonEmrEmrEngineGroup |
+| :---: | :---: | :---: | :---: |
+| ![illustration for Illustration](../../../aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine.png) | ![illustration for AmazonEmrEmrEngine](../../../aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine.Local.png) | ![illustration for AmazonEmrEmrEngineCard](../../../aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngineCard.Local.png) | ![illustration for AmazonEmrEmrEngineGroup](../../../aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngineGroup.Local.png) |
+
+
+
+
+## AmazonEmrEmrEngine
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngine
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngine('AmazonEmrEmrEngine', 'Amazon Emr Emr Engine', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngine
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngine('AmazonEmrEmrEngine', 'Amazon Emr Emr Engine', 'an optional tech label')
+@enduml
+```
+
+## AmazonEmrEmrEngineCard
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngineCard
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngineCard('AmazonEmrEmrEngineCard', 'Amazon Emr Emr Engine Card', 'an optional description')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngineCard
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngineCard('AmazonEmrEmrEngineCard', 'Amazon Emr Emr Engine Card', 'an optional description')
+@enduml
+```
+
+## AmazonEmrEmrEngineGroup
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngineGroup
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngineGroup('AmazonEmrEmrEngineGroup', 'Amazon Emr Emr Engine Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonEmrEmrEngineGroup
+include('aws-q2-2022/Resource/Analytics/AmazonEmrEmrEngine')
+
+' renders the element
+AmazonEmrEmrEngineGroup('AmazonEmrEmrEngineGroup', 'Amazon Emr Emr Engine Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml
+```
+

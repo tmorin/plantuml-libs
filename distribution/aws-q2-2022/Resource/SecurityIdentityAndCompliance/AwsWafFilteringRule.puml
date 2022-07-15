@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule
+
+sprite $AwsWafFilteringRuleXs [10x10/16z] 1S450G0n000XNYVNl-y008JW1j7zObe8cS333Rb8W9T0iERTom4
+
+sprite $AwsWafFilteringRuleSm [12x12/16z] NS790S0W40GWl7Md_txp3_Z9R3jW0HEqSzzTDf5KLQvZql68naMZR3n111iC9lkYO8C2JYe37m
+
+sprite $AwsWafFilteringRuleMd [16x16/16z] {
+PO-50GCm408l_hB_l9MdtXXmSU2_ZCp8UCLi9SiLG_9qILlcRgV3WT586xttwOb3mjR-0upQavKDyCfjFM5874RJ7jsMqjvWAP_d0xooBM2sh_VDBJrUUwEz
+F-XnbAu
+}
+
+sprite $AwsWafFilteringRuleLg [20x20/16z] {
+TS-5eOKm343H6wEH_UTzXdqzE6sC_rdsz19kCSvR3QTsJXt7Kxdj4U68hgpAt1JwiuBE6Po359X3nyfyxsk7WGHas0sGiiUdyLO0fior0Li0glGnnxb0A8kF
+4LBE42a-5dtNcU__Dh-gKRa_zvMOp_ePkVCMTbjpgKbJdt6-4bNby0G
+}
+
+!procedure AwsWafFilteringRule($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsWafFilteringRule', $name, $tech)
+!endprocedure
+
+!procedure AwsWafFilteringRuleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWafFilteringRuleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsWafFilteringRuleGroup($id, $name='Aws Waf Filtering Rule', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsWafFilteringRuleLg>', $name, $tech)
+!endprocedure

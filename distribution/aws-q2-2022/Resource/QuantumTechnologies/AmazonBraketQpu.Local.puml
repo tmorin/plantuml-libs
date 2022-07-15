@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonBraketQpu
+include('aws-q2-2022/Resource/QuantumTechnologies/AmazonBraketQpu')
+
+' renders the element
+AmazonBraketQpu('AmazonBraketQpu', 'Amazon Braket Qpu', 'an optional tech label')
+@enduml

@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/InternetOfThings/AwsIoTTwinMaker
+
+sprite $AwsIoTTwinMakerXs [10x10/16z] BOh50G103CBgkl-yf-K599bnu-uvzJKCkhNolWeHLVG4EEsz9BV9Sr-hqpBwY6PNw5E_km4
+
+sprite $AwsIoTTwinMakerSm [12x12/16z] HOg54S0048Dgx_llMrBD6LoegjI2rIyNsseIiVCSXdJLUcMHsRs14eTNG69mRtIKQhGxcvj3sI1c1eddgqu
+
+sprite $AwsIoTTwinMakerMd [16x16/16z] {
+NOo50O0m30IfnRh_ldm4VQIzYoWY6VReJ-XF18v9hOGZ2JgEoIuCt7DaU8UPJgeTdPrj0HX392sOQkJYhWtfIaJ1fhwrOqQJ3Nym-T9zSKCTsIvQHvoSNNYA
+V-84
+}
+
+sprite $AwsIoTTwinMakerLg [20x20/16z] {
+NSy95e0W20JG64c1xd_Vn97NCgr-Ltp6AeD9U_Hl3phJcn8Vasw6iv2ZyZDHYP46hddQiJ0ccjHEN3KY3FxiVj1qGNDj0zQsHThgWIdD4GA8m9sxH4PqxoxD
+Q3LzR_LOSDooww9Dn72MHKEVoK7RKhtoMEMnhG_U
+}
+
+!procedure AwsIoTTwinMaker($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoTTwinMaker', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTTwinMakerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTTwinMakerLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTTwinMakerGroup($id, $name='Aws Io T Twin Maker', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoTTwinMakerLg>', $name, $tech)
+!endprocedure

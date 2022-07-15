@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/GeneralIcons/OfficeBuilding
+
+sprite $OfficeBuildingXs [10x10/16z] Oq03B6WiTZOWmGPcyJ8mil6YiS1g2Ca2
+
+sprite $OfficeBuildingSm [12x12/16z] bKd50G0W48AptNzVktzUa7X6I5dwY4thcbQDNDToQ0M2NHD_kJDr8f01
+
+sprite $OfficeBuildingMd [16x16/16z] dOp50KDH3CFq69Bzrsq_C_jc4eTI4T65hn5MFYszjPstfhV63NaUVQZ98986F-n89xtpEK39axVUGGZfCoy5o7dmw2ZW3m
+
+sprite $OfficeBuildingLg [20x20/16z] rKxL0GCn28tXiF-uxRdBzyK3pzBzGEz7tjMaFrevr2pXQwqK7MfG5aLYnD49TQbLvwIvOdPQQy79kbg9jRRcki9zXfjb7Vt_3m
+
+!procedure OfficeBuilding($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/GeneralIcons/OfficeBuilding', $name, $tech)
+!endprocedure
+
+!procedure OfficeBuildingCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$OfficeBuildingLg>', 'GeneralIcons', $funcName, $content)
+!endprocedure
+
+!procedure OfficeBuildingGroup($id, $name='Office Building', $tech='')
+  IconGroupElement($id, 'GeneralIconsFamily', '<$OfficeBuildingLg>', $name, $tech)
+!endprocedure

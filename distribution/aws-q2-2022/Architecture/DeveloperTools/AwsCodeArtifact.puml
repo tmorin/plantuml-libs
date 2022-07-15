@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/DeveloperTools/AwsCodeArtifact
+
+sprite $AwsCodeArtifactXs [10x10/16z] HSR50GD130Im2SVozj_kCUWbQl5Vs7jlAK_V-YzjGkLJtP97jdMGxxhsubbZQp3sOWO
+
+sprite $AwsCodeArtifactSm [12x12/16z] JSa73W0X50BHs6M-zp_lulP9UmJGRkxu3Pown-KijNEOZAusFCAM6_uYx9hIvH82Bhj4uhA3AhGk3zown-u
+
+sprite $AwsCodeArtifactMd [16x16/16z] LSY54G112CNGMGD-kFxRFRVDQ1xeAgvW5YQuFyeB0DNHk07eO4tLJqW8Yf2YoAHCWeOFKrLzVgYuVTyHSFzUDy0wpoVLA_Zx2QWAj3pW3i3o0lVFi04
+
+sprite $AwsCodeArtifactLg [20x20/16z] {
+RT1L0iKW30NHDEYTiF_jFgsN-JmuWBRw6XDaWgnOLZoPdMV-n2ldcK1ne2wolc90XkuDgNh_OSJNR3tTL3uS4JzBIgtUp5Xa9miC2W9J_LkFCAtNNErNII0l
+SBB0KmAIwx00g2wGne6ozPV62RV61CS4tm
+}
+
+!procedure AwsCodeArtifact($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCodeArtifact', $name, $tech)
+!endprocedure
+
+!procedure AwsCodeArtifactCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCodeArtifactLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCodeArtifactGroup($id, $name='Aws Code Artifact', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCodeArtifactLg>', $name, $tech)
+!endprocedure

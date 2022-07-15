@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonPinpoint
+include('aws-q2-2022/Architecture/BusinessApplications/AmazonPinpoint')
+
+' renders the element
+AmazonPinpoint('AmazonPinpoint', 'Amazon Pinpoint', 'an optional tech label')
+@enduml

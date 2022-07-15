@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsShield
+
+sprite $AwsShieldXs [10x10/16z] FSY74S0m24DHTv3OVz_GBj-5Ty3JIFYJphDB4t9rfBPlMtH1ZMUHyCnYCkHSldK58tm
+
+sprite $AwsShieldSm [12x12/16z] JSU53S0m4CLGDVJXzj-t2iUYP_KuWfzndrINdLJHqhGRLR1iYj1hCRhbn2P5k5QvVQaxQF2h70u3jhlxZFG3
+
+sprite $AwsShieldMd [16x16/16z] NSY50S0m24JHnZXX_tdh7kLz7Ol70lmB_WLlWNMKU5ondhMT3jSeBAYdOQX8jUgs3-jlCKyRPLgjJ4jZzO3AxdJhB8v0FPo4WdqqdawrKiFsvVIvBZzX0G
+
+sprite $AwsShieldLg [20x20/16z] {
+RSZ50S0m30D0Kq3o_lEMkRdduT1FhJKCaeCaZub-uPuIS7qScnLKRoXQhrD0bfSEkOy66E2ly-q2WiVnF3oEvosPZtCBh9bB1csvPGjypLmIJTQBaB3Zaag1
+mMZGyx87M-tDg_Rhac9XGXBt9K_tlJC7EGC
+}
+
+!procedure AwsShield($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/SecurityIdentityCompliance/AwsShield', $name, $tech)
+!endprocedure
+
+!procedure AwsShieldCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsShieldLg>', 'SecurityIdentityCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsShieldGroup($id, $name='Aws Shield', $tech='')
+  IconGroupElement($id, 'SecurityIdentityComplianceFamily', '<$AwsShieldLg>', $name, $tech)
+!endprocedure

@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/LoT/AwsIoTTopic
+
+sprite $AwsIoTTopicXs [10x10/16z] bSQn0G0G4C3006J_WK6b_QkENnxuOhv9Tpgqtt55XYrtOGC
+
+sprite $AwsIoTTopicSm [12x12/16z] fSsd0S103C10lRlt7pYzqmWT4vzQXkNEAZCoDei1kXlCbS7LB-lnhQe4PW
+
+sprite $AwsIoTTopicMd [16x16/16z] nKx50O103CjTBTb_ODpXJzqRV56AfDgPXu5zpribN9FdcbUtRMpBaH95xtk-B_wJWoiG9tRogbn1Zm
+
+sprite $AwsIoTTopicLg [20x20/16z] rSY54SC030J15-lxBpWnimlm3TqiNXFE7KrP04vcgbuW6h8I1uCJWzMAL9dNaRbQagngahuPjkJBrhfPRPliCBKa1OT4L5Ru0m
+
+!procedure AwsIoTTopic($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTTopic', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTTopicCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTTopicLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTTopicGroup($id, $name='Aws Io T Topic', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTTopicLg>', $name, $tech)
+!endprocedure

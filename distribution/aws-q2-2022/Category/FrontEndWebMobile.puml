@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Category/FrontEndWebMobile
+
+sprite $FrontEndWebMobileXs [10x10/16z] HSY53G0m3CJ0lY2u_xoba4KdywGtkJ6R0E17mvqhP7eB1TbXmP1zkJ-6WWS
+
+sprite $FrontEndWebMobileSm [12x12/16z] JOg52S0m00GXyfRzzsqKUjZByOyNMdHcbvlZ-VQRbmPWvwEzd9KDZYYhSENXKb9AsHb0oBxo98kP9HxGFW
+
+sprite $FrontEndWebMobileMd [16x16/16z] NSZ70GGn0CB0Ys3O_kjrplgDUFT3xTzw4Qg5LhQ5sZJ4NEYcGPMcIMUI-4zR9IoxMiKFWzkWjEnbapI1V_E3N7dT9TUAGtKVsQ-p1
+
+sprite $FrontEndWebMobileLg [20x20/16z] {
+RSe54i0W34HHVCbo__js8dL-Yxq9TgNyBI6BDoCWx8bgb9azEAen2xIPdWRHniQATXjjJjV3k3E6YTbYdbHKWuZPScEOX8tHEslllLssV8wuvpWqTW0zpA8d
+jzrusmFLqgzy
+}
+
+!procedure FrontEndWebMobile($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/FrontEndWebMobile', $name, $tech)
+!endprocedure
+
+!procedure FrontEndWebMobileCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$FrontEndWebMobileLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure FrontEndWebMobileGroup($id, $name='Front End Web Mobile', $tech='')
+  IconGroupElement($id, 'FrontEndWebMobile', '<$FrontEndWebMobileLg>', $name, $tech)
+!endprocedure

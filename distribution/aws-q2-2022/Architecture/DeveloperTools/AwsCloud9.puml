@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/DeveloperTools/AwsCloud9
+
+sprite $AwsCloud9Xs [10x10/16z] FSY53G102C30TsN_TN5exDBtBdUubtn9GQ_2_wJIxls_26zbsHsY8hqBFoua2G
+
+sprite $AwsCloud9Sm [12x12/16z] JSYv0G0X20NHlP71_kjT9vAN_0DIGxH16xHX_VZIKN01TwnH5V12XlqgbE_g6KEllr3EtPbj_
+
+sprite $AwsCloud9Md [16x16/16z] NSc54GGW54F1mVaB_RTxhhpHR8Xdynd_uW07E02KFj8B5deGAVUujHQPUVlRSw-4vFQE_lWdedKYF_wwg1dIOqSkfUHxSTlFl8fzm3vW7t05
+
+sprite $AwsCloud9Lg [20x20/16z] {
+RSY74KGX24LH0moVf_tNkv9s4jV80Q3Lbw51D8W6qI0QJ1bxpZyUf-MNVe77SCEImSln64xpBQfJoWPUZ0rLcM5yp8WM7kuoHp0UKXWM7egOVyFCsgDYc5Me
+L6-3jy7Ru6tm1m
+}
+
+!procedure AwsCloud9($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsCloud9', $name, $tech)
+!endprocedure
+
+!procedure AwsCloud9Card($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloud9Lg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloud9Group($id, $name='Aws Cloud9', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsCloud9Lg>', $name, $tech)
+!endprocedure

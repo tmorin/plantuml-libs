@@ -1,0 +1,21 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AmazonElasticContainerServiceContainer3Group
+include('aws-q2-2022/Resource/Containers/AmazonElasticContainerServiceContainer3')
+
+' renders the element
+AmazonElasticContainerServiceContainer3Group('AmazonElasticContainerServiceContainer3Group', 'Amazon Elastic Container Service Container3 Group', 'an optional tech label') {
+    note as note
+        the content of the group
+    end note
+}
+@enduml

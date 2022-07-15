@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Category/CustomerEnablement
+
+sprite $CustomerEnablementXs [10x10/16z] HOfH0a005C80s7F_yteLz5Lj-n_Epj7PwJgVQMEVgnkBXRsw3gfx5QUg6snqkygTRc-z0G
+
+sprite $CustomerEnablementSm [12x12/16z] JOl50K0n24E_eA7xhrktnuMOtW3UC3Ek_n3h_-fv_p-0tCX50r8L-T_-4FY3yuCm_hvdgt-A298cwzz4eFzMqGuL
+
+sprite $CustomerEnablementMd [16x16/16z] NSi73WGn34BHz0JO-vzt7JJzgpvapszj7FLTcfC4t8fi1gQ7m-mD9PR3e_cyB1mcoof01SBQ1cyhN1EUzjFbhagoqLwIwWYdnjDY6OtHza-ERliO3gTtVm
+
+sprite $CustomerEnablementLg [20x20/16z] {
+RSW10e0G44HH03Ew_tKh0FZ0FdzBo3tX9ObQA6KRkflUZ45PQ5EqcdH8IJjCfwD-3mgevaW3M02wM8p9B5WDtIZ5Ol4t1Th0nG98YjbqCFppCAPRf4Zc55aj
+vvNJO2hP4qiPYgcduD1ipsxYI7u
+}
+
+!procedure CustomerEnablement($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Category/CustomerEnablement', $name, $tech)
+!endprocedure
+
+!procedure CustomerEnablementCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$CustomerEnablementLg>', '', $funcName, $content)
+!endprocedure
+
+!procedure CustomerEnablementGroup($id, $name='Customer Enablement', $tech='')
+  IconGroupElement($id, 'CustomerEnablement', '<$CustomerEnablementLg>', $name, $tech)
+!endprocedure

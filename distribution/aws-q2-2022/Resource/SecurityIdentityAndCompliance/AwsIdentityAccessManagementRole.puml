@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementRole
+
+sprite $AwsIdentityAccessManagementRoleXs [10x10/16z] Oo04c9YO6TZ0B2uWvcQ04Goit50MCoi70oiBDrW8I682
+
+sprite $AwsIdentityAccessManagementRoleSm [12x12/16z] ZKZ50G0X34lTzf_tb3-qSPnUTjUACzqm-k8tQ3mYzEVdaS3JF6imw57YOMeGOtSt
+
+sprite $AwsIdentityAccessManagementRoleMd [16x16/16z] hS470S8040ImTFVl_EjbIe34Nop9zC9Nhli-oGAaSDu6BFKr2bryxMuea-j8cslZAAvabwWk9WlScGxhwWTF
+
+sprite $AwsIdentityAccessManagementRoleLg [20x20/16z] lOs70GCX30Fb1bZQVzvqVoP83jmR_iWIconySNd4gu8XfEs-k84hAKxxbMHZ43BVZc78UZUQ7iBtNMbhjimnbax1UBhzgFTkkXkieFBaT9OU6E3k-2rt
+
+!procedure AwsIdentityAccessManagementRole($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementRole', $name, $tech)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementRoleCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementRoleLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementRoleGroup($id, $name='Aws Identity Access Management Role', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementRoleLg>', $name, $tech)
+!endprocedure

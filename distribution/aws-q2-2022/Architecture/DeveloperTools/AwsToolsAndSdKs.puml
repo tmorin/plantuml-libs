@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/DeveloperTools/AwsToolsAndSdKs
+
+sprite $AwsToolsAndSdKsXs [10x10/16z] DSY55G0X40DHx2GJ-cyNP_M_W4RzexYS8YXgAgtq-psICZRB3X0v2YamvG_Dj0w-aL5rqbCT
+
+sprite $AwsToolsAndSdKsSm [12x12/16z] JOg54G0X40C79tlqN--Jzns9Wimq_08ElGm7so8fotvMI5BI32PDL6qY9fN4xQChTsJlNy6ls1JoRA0L9cFM5J07
+
+sprite $AwsToolsAndSdKsMd [16x16/16z] {
+NSW74iCm3CJ0wEmHUQ3__zqKbJHCNO1dEOFVmngn1gEGMzhBbfzrsSDd065RuInGH3_SKXbs5OBMKRE7Iv0qzEL0YEs2rWHCMu0XvU6gVYAKWAyQ7RTWTArH
+BF-D1m
+}
+
+sprite $AwsToolsAndSdKsLg [20x20/16z] {
+RSo74SGm2011PS7X_kjz6BspR_8I0DsJVtmW7yYEFSyTMKaIry3Tj0oDQdDSLkhnCqr70r8HfCHIgzKtpTpGqY2Mr4tDCK5ibT4Fip0qmzCeTpCaKMPIJiEW
+fGd8RfQdemAvivj94Ggz0ewRhKREYPLkEpBPsm9ttkq3Vm
+}
+
+!procedure AwsToolsAndSdKs($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/DeveloperTools/AwsToolsAndSdKs', $name, $tech)
+!endprocedure
+
+!procedure AwsToolsAndSdKsCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsToolsAndSdKsLg>', 'DeveloperTools', $funcName, $content)
+!endprocedure
+
+!procedure AwsToolsAndSdKsGroup($id, $name='Aws Tools And Sd Ks', $tech='')
+  IconGroupElement($id, 'DeveloperToolsFamily', '<$AwsToolsAndSdKsLg>', $name, $tech)
+!endprocedure

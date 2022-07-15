@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/MachineLearning/AmazonComprehendMedical
+
+sprite $AmazonComprehendMedicalXs [10x10/16z] DOh50G0W30DnIBh_lbJl5RcdNEKSeA8cPUvxDQ4rMuc6ixT6SY5SabZhARIex2TwhwdXYTJw0G
+
+sprite $AmazonComprehendMedicalSm [12x12/16z] HOh70SCm30CjYGL7xxzla7uVLCcqgIhu1o2NIGUuGb97T4EaBzBk7bH8RpyKE1tPpxPZ7yd-6jZAq3qJ_frSfTl1dcpiFy4y
+
+sprite $AmazonComprehendMedicalMd [16x16/16z] {
+LOu70eD020Ib7B3a__yDIwfZdT4hjUGI0_1Nra5xiuuJvF89TFCYOWpq0xE9gUCDICmf8hNUy42GjpSdsLMirjie6S9vwHTKDKzfl5mQW02bLOznxmck41jd
+u8QHQXXd85Zej_04
+}
+
+sprite $AmazonComprehendMedicalLg [20x20/16z] {
+RSq5Wi0W44FHmWW9lVzzDuEi__ehWjFOPKN-HVw3B1osYy9ZZjL5aSSrxrueImIV2XYzR0ezENRO9doIsYqYyjeiCzMxewDCURA2Cc0RZAxCmbCkKuqX0peC
+QjapgQ8PMXl7-YmCNGZP-yfy5WxhrD1ZUuja2r6PT4S298zTtCcgd_W1
+}
+
+!procedure AmazonComprehendMedical($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/MachineLearning/AmazonComprehendMedical', $name, $tech)
+!endprocedure
+
+!procedure AmazonComprehendMedicalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonComprehendMedicalLg>', 'MachineLearning', $funcName, $content)
+!endprocedure
+
+!procedure AmazonComprehendMedicalGroup($id, $name='Amazon Comprehend Medical', $tech='')
+  IconGroupElement($id, 'MachineLearningFamily', '<$AmazonComprehendMedicalLg>', $name, $tech)
+!endprocedure

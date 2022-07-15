@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator
+
+sprite $AwsFaultInjectionSimulatorXs [10x10/16z] FOh50G0W3CHmo7N_VIcQrqc0iUYT7mMHjA8y5dfOgMmXUD9OSbwfvLehmpmbuPY98AtaSG4J
+
+sprite $AwsFaultInjectionSimulatorSm [12x12/16z] JOov0G0n2CFo9nRxxtk6waGZFikyvDwhNuDrzrqDwBZMSWDqJP-TzC6HLZRGUPMGpjozjJRqmitkA8aefzpDmwHd0zLy
+
+sprite $AwsFaultInjectionSimulatorMd [16x16/16z] {
+NSW76WGX24FX3x0ayVxtNTZfPeg-dpKScpbkm0rK5NtO2KeOuAJ5A522qpk1TdPC4imlvh-xkf4HX9sDEPalpuOBITC1BELSF8TLuCPBLe6Bqja5mvKxk-3O
+sH_u0G
+}
+
+sprite $AwsFaultInjectionSimulatorLg [20x20/16z] {
+RSY50GGn20LHud_O_lkzo78-KHuxHMF57-GNmtgjB_HDgKDkWRwm3uOehHpqXHdLUOOip7kQN06LSfigEu5anzfYWsuJwyiqX9YLOvve8szH2_FHAMehJTTr
+BUoO4uLPzXTUisaK3moZcizUjlJkdpbXeO4F
+}
+
+!procedure AwsFaultInjectionSimulator($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/ManagementGovernance/AwsFaultInjectionSimulator', $name, $tech)
+!endprocedure
+
+!procedure AwsFaultInjectionSimulatorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsFaultInjectionSimulatorLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsFaultInjectionSimulatorGroup($id, $name='Aws Fault Injection Simulator', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsFaultInjectionSimulatorLg>', $name, $tech)
+!endprocedure

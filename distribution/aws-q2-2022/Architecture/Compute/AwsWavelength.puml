@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Compute/AwsWavelength
+
+sprite $AwsWavelengthXs [10x10/16z] FSR10G0G54EnWhw__y80SWhWfJL-LvgBR2Pvne6aXgiZvf9Tvi0bmLnajfXqjwmD
+
+sprite $AwsWavelengthSm [12x12/16z] HSU70GD02CD0giN-4oTE_G8dGE-pop_UpYm7iD8eFgvmIuVGa6cVdH-VAfxAjndyx2Eo0Su7zBNBvm4
+
+sprite $AwsWavelengthMd [16x16/16z] NSZ50G0n3CH0qrhfl-5ZZ7uZWBwJn6-qcCP9BwNdRGbLfzrEt3jYPmyeFCsjLBi7GGgIQEqUGGZVxkKcaLcHVNWuOVBkPFCv73g0qqFkrkoTRZ1Ett7xFrO
+
+sprite $AwsWavelengthLg [20x20/16z] {
+RSZ5WHW13CLGuvVJVy63ph9qUzpfixvYyRCr-CleZDJsYgmbfTkdTKANzDM2DfUPtbwIHRU7gsyRmExLHQhhjdcihIehfNXii4UzLLA-DawrfoLEQOt2PUak
+dBL9KK502DOcaYOnxjO6TxVYRJQ3u8SnmATjd_Zl3pm1
+}
+
+!procedure AwsWavelength($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/AwsWavelength', $name, $tech)
+!endprocedure
+
+!procedure AwsWavelengthCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsWavelengthLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure AwsWavelengthGroup($id, $name='Aws Wavelength', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$AwsWavelengthLg>', $name, $tech)
+!endprocedure

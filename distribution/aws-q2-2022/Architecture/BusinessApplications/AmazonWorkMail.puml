@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/BusinessApplications/AmazonWorkMail
+
+sprite $AmazonWorkMailXs [10x10/16z] FSY53G0m3C2mSUd_VrUEo0ffQ04tcOTpgfpxgeoRGdn89KuLIVAfdhTLTJy
+
+sprite $AmazonWorkMailSm [12x12/16z] JSc53G0m30F1CZZxpnievaLdULfZrU4645AALb6dj9wyZAWkOrj7iRMCiXvQXhfEecLuOxcrkXfgxJm2
+
+sprite $AmazonWorkMailMd [16x16/16z] NSZ70KCn20JHhooM_llr4foOsnk9RdGEoW0I6VqSjjbwtAUBTqOFemcxywR1GOguGNEGwGj6qd8rZR2efb6DQeIrVtfe3nbTnWi
+
+sprite $AmazonWorkMailLg [20x20/16z] {
+RSg54G9G30HHu5lkqd-zM1JPyJSBJw9p3luW_o29FNfF93alTUxhCSCjS8_bHlYvXwJHpZtHx7tkyVGbQS_pUNqPCH6cOOGRH3MCOL3LC7vRu7RJXc6xMiDC
+IMG2CtClx0iV
+}
+
+!procedure AmazonWorkMail($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/BusinessApplications/AmazonWorkMail', $name, $tech)
+!endprocedure
+
+!procedure AmazonWorkMailCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonWorkMailLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonWorkMailGroup($id, $name='Amazon Work Mail', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonWorkMailLg>', $name, $tech)
+!endprocedure

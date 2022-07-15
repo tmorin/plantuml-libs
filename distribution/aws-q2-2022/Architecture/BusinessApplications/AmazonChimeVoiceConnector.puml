@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/BusinessApplications/AmazonChimeVoiceConnector
+
+sprite $AmazonChimeVoiceConnectorXs [10x10/16z] FSR10G0G40Gn0BFNVxq0yWfJMwf-9HhfJ37JwffNA9KrHy7XcitEq32JK_NpjkgbkTM50G
+
+sprite $AmazonChimeVoiceConnectorSm [12x12/16z] JSV7OGD13CNG7UOFzb-lhIpXzA1xywZv6HxZyJGTKh_CXCwSk-EuwshTNOQKcfu5pice6ktItbX9Do-S2tjwaO2dbqVw1m
+
+sprite $AmazonChimeVoiceConnectorMd [16x16/16z] {
+NSpL0KCn3CLGGy3ost_V1altxoZ0NkprddyX_qBEq47bUAot1ag_ffhHjDiswOXwQ6nxKO6G2ijYgUlJSEB9CIGeMiNX6K492QN1y0XkQ53zU3xfaiMEPoWr
+nuv7E1l-2oy
+}
+
+sprite $AmazonChimeVoiceConnectorLg [20x20/16z] {
+RSZR0OGm20J0XOJ0alxxFVHywtmEDx5pTtvaVcGUwRvdhXc3qVjvbTwKHcNOVfNDJQa1nt6fb1fZr-r28bLjg8FSBxnZa8IsmVyHobYF35JEN3Wq6QBIbfzB
+4a40b0gIix9PMjDitGUvNgKWqpo4sA-oYlLYvrK2akMyojr-pvmV-GC
+}
+
+!procedure AmazonChimeVoiceConnector($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/BusinessApplications/AmazonChimeVoiceConnector', $name, $tech)
+!endprocedure
+
+!procedure AmazonChimeVoiceConnectorCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonChimeVoiceConnectorLg>', 'BusinessApplications', $funcName, $content)
+!endprocedure
+
+!procedure AmazonChimeVoiceConnectorGroup($id, $name='Amazon Chime Voice Connector', $tech='')
+  IconGroupElement($id, 'BusinessApplicationsFamily', '<$AmazonChimeVoiceConnectorLg>', $name, $tech)
+!endprocedure

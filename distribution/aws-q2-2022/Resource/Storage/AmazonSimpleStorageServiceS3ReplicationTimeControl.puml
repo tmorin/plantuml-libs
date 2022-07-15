@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3ReplicationTimeControl
+
+sprite $AmazonSimpleStorageServiceS3ReplicationTimeControlXs [10x10/16z] HKg50G112CAM_GV-k3Gft7AwE7zKADOt7-pf1KftRaHwe_nUupUTup49cRvJZOON
+
+sprite $AmazonSimpleStorageServiceS3ReplicationTimeControlSm [12x12/16z] LScr0GH040GWpdVwB_XTIV5dfwhIOAAlDM2FytfATgFD41DeR0TXq0HK1LiVHJ0Q9solHmSZLLbS0G
+
+sprite $AmazonSimpleStorageServiceS3ReplicationTimeControlMd [16x16/16z] {
+RK-74GH1238h_JVy1xEJ7xF81Vk3sjk9D_JwsqA5EHPtm6WkNtk88-zK28bF_wsj3y0cnQxLmnXPwP5yXv652RSEbeztd2XcwA9ASl7E6rTBX7brKCeWpbLA
+z--lRfBD3m
+}
+
+sprite $AmazonSimpleStorageServiceS3ReplicationTimeControlLg [20x20/16z] {
+TL07WaL111CpIkv_uMMpzPTNaEZitGEu0t-8I-Pr-6toYwhx4sq8MLqZYcHbzSZb4daBlwNRpM92xv_oEGIkHJOh8o9hj6yjS_yJ5oiuyIgbESH96rjGucVM
+QSeGjm6Hjf9iZCBcqazhbg6sQrZiJ1HI9vmOXUL2tPt8p-uBLK2zKUMo_jmmt4-Gv-7MWCmF
+}
+
+!procedure AmazonSimpleStorageServiceS3ReplicationTimeControl($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3ReplicationTimeControl', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ReplicationTimeControlCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3ReplicationTimeControlLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3ReplicationTimeControlGroup($id, $name='Amazon Simple Storage Service S3 Replication Time Control', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3ReplicationTimeControlLg>', $name, $tech)
+!endprocedure

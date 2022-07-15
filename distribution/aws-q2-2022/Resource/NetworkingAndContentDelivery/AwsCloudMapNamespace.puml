@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace
+
+sprite $AwsCloudMapNamespaceXs [10x10/16z] JSY54GCm0CGmDPpy_lEMoQSZ-wlCgIO42f7MA9UWb0TJR9mPWl8G3Sht1VG9Dm
+
+sprite $AwsCloudMapNamespaceSm [12x12/16z] LSR50GGn50KW8YF_fVzwrvKJ_bICWmmcrOH1tdTVtT_xw2HfkPcnMDZrqr2QE8xTF2rrw3rEi-xN6zPgKWLe2rm1
+
+sprite $AwsCloudMapNamespaceMd [16x16/16z] {
+PSV5WI0n40GmZTdL-STxi0pwoM-Pj486xATLbQhOw9D714Bu_6ZKlVVbBUSYUFczrJkLn4xqc5j_A53ce2WYUbD3bFLokQBAsZmFkidfux7kXOAS8QBV0v1I
+orSNy1S
+}
+
+sprite $AwsCloudMapNamespaceLg [20x20/16z] {
+TSy50YWX24NH0sECllslztV7DMdm7zx2Ss7DRwhEhXrvEYi5SrEfwDK8Ad15DmXh_QsJESRufgiatsfqb_XqtzuZl-XwzHRPnHcVTDUdovRAMmHdWRgsiF5E
+ijvsonXSChNevagtwmpdoaspKa_RgK_QwnijI9_XUiyfs1jk-iTiAnCmJcPykdVxXPaTVz5yuoC
+}
+
+!procedure AwsCloudMapNamespace($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AwsCloudMapNamespace', $name, $tech)
+!endprocedure
+
+!procedure AwsCloudMapNamespaceCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsCloudMapNamespaceLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AwsCloudMapNamespaceGroup($id, $name='Aws Cloud Map Namespace', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AwsCloudMapNamespaceLg>', $name, $tech)
+!endprocedure

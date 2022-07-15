@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/InternetOfThings/AwsIoT1Click
+
+sprite $AwsIoT1ClickXs [10x10/16z] DSY74S002810KqNTVz-GnhK_gi0oitwgMCH1japOeRliGBtS7eKTAFQEYc2SoaQQkW
+
+sprite $AwsIoT1ClickSm [12x12/16z] JOU74K0n28KkbbEU--_xUo5H0UY3sk4NG1mHf_VnkhnBmChL1n8uT9skuE1o8ZEDmoka1OiUON8WOKOxdCmHTsq
+
+sprite $AwsIoT1ClickMd [16x16/16z] {
+NOnP0aCn208RLyYx_tqhwTxnQrJWW0Sj-BVWtsAahBKeAnntXZvy1hrdqPOh48LXQr4Wp71SYyKXy-axUEYNDwG8Fl_Xw5lt0eyRiNkHKKbS4pVjL5ZaDOi1
+GI7NGZpzRt47
+}
+
+sprite $AwsIoT1ClickLg [20x20/16z] {
+RSw50SGW44HHd9r9__tU2dBsuoy904rsCpAx-i_asjmwPLiQEIpt9jjqWscTLHHfs19cKyjwKgGZqfGw-X2FWKEFtDismoomIZl6XbMzrcLPkSQqwjXMyYHy
+ZRa9tFJKo9p4FAaz3raAoO5cooa0rAAI49aTvJ_ZjPylNm
+}
+
+!procedure AwsIoT1Click($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/InternetOfThings/AwsIoT1Click', $name, $tech)
+!endprocedure
+
+!procedure AwsIoT1ClickCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoT1ClickLg>', 'InternetOfThings', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoT1ClickGroup($id, $name='Aws Io T1 Click', $tech='')
+  IconGroupElement($id, 'InternetOfThingsFamily', '<$AwsIoT1ClickLg>', $name, $tech)
+!endprocedure

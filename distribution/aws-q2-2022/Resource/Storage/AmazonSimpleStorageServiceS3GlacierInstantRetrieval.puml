@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstantRetrieval
+
+sprite $AmazonSimpleStorageServiceS3GlacierInstantRetrievalXs [10x10/16z] JKc50S0m2CCX_n-yrLiaIi-WWpOidu6D5CNBuOstUwPojudMCfGDpZy
+
+sprite $AmazonSimpleStorageServiceS3GlacierInstantRetrievalSm [12x12/16z] LKo30G102CpOV-7lxN22xr0g8NdMA6O73aYiXbwGGYnjVmLqSPUwT3GbecFhy8d0WXTEYTazY-W3PqGmAZG
+
+sprite $AmazonSimpleStorageServiceS3GlacierInstantRetrievalMd [16x16/16z] RSYrWGH030GmBHdwB_ZHuIaPyC7hhggk3Ln67dPLCvfWzixikTQvQo5fzYN1fLEX6mkS2tRVqulRZDT9C7Q0DRDM9GJG-ks3dBqwpa4y85TDMv6LdE8R
+
+sprite $AmazonSimpleStorageServiceS3GlacierInstantRetrievalLg [20x20/16z] {
+TKw50SC022Du_dzujCot1dVa2eZiPbVYaGdcmpLocnIG5-e8EgBbXNGHZ52m8rQiOzj8IdBGWSC_nVWst7UncLTkZYD5oXbwxScjk3_-e4lpp56Uq6BvRlY1
+lxeShVlvCuT6RMIFb8MGUnZFOHQ7dwylD8drGAOfr8COVcw7gau4dU06
+}
+
+!procedure AmazonSimpleStorageServiceS3GlacierInstantRetrieval($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/Storage/AmazonSimpleStorageServiceS3GlacierInstantRetrieval', $name, $tech)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierInstantRetrievalCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalLg>', 'Storage', $funcName, $content)
+!endprocedure
+
+!procedure AmazonSimpleStorageServiceS3GlacierInstantRetrievalGroup($id, $name='Amazon Simple Storage Service S3 Glacier Instant Retrieval', $tech='')
+  IconGroupElement($id, 'StorageFamily', '<$AmazonSimpleStorageServiceS3GlacierInstantRetrievalLg>', $name, $tech)
+!endprocedure

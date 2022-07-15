@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('aws-q2-2022/bootstrap')
+
+' loads the Item which embeds the element AwsIoTGreengrassStreamManager
+include('aws-q2-2022/Resource/LoT/AwsIoTGreengrassStreamManager')
+
+' renders the element
+AwsIoTGreengrassStreamManager('AwsIoTGreengrassStreamManager', 'Aws Io T Greengrass Stream Manager', 'an optional tech label')
+@enduml

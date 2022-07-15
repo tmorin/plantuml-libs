@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/LoT/AwsIoTAction
+
+sprite $AwsIoTActionXs [10x10/16z] Oq06d53CmCZ00M92U6n0p0vHm0nYmG0JaZvEk1YO2INPsPauWI8
+
+sprite $AwsIoTActionSm [12x12/16z] NKo50G112C9hzX_uuyfk0GHZbiev5TY6yPSASABMaZ6NcR9WxKVMEVPvvoNB51jMR8rpuU0lyG8
+
+sprite $AwsIoTActionMd [16x16/16z] FSof0S1G20Mml7y1-ozSLnSL002mfdiQm0IS0fhyOdvnMG4DYW4KY0Puy3H0GHd02zn_3YmSE1iC2lk04sY0Su1Ri2O0yke27m
+
+sprite $AwsIoTActionLg [20x20/16z] {
+TKw50GGn22FGDh3_m2_KNt8UFVaFfOTN74mDooTZKMvVhuxtRP213APKsdIcCZe72OhOB6lvaXxA1CVuo0zIttV3h9DLhNhuqEK2gTkr7k2YzZDkgkh-Sypn
+lDl7T0AE6UHM6JGj4IeNe9YlJm
+}
+
+!procedure AwsIoTAction($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTAction', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTActionCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTActionLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTActionGroup($id, $name='Aws Io T Action', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTActionLg>', $name, $tech)
+!endprocedure

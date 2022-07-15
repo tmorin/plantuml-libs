@@ -36,13 +36,13 @@ The resources can be browsed, from GitHub, with Markdown pages directly in the [
 The available packages:
 
 - [AWS (q1-2022)](distribution/aws-q1-2022/README.md)
+- [AWS (q2-2022)](distribution/aws-q2-2022/README.md)
 - [Azure](distribution/azure-4/README.md)
 - [C4 Model](distribution/c4model/README.md)
 - [c4model + Nord Theme](distribution/c4nord/README.md)
 - [Domain Storytelling](distribution/domainstorytelling/README.md)
 - [Enterprise Integration Pattern](distribution/eip-1/README.md)
 - [Event Storming](distribution/eventstorming/README.md)
-- [Fontawesome v5](distribution/fontawesome-5/README.md)
 - [Fontawesome v6](distribution/fontawesome-6/README.md)
 - [Gougle Compute Platform](distribution/gcp/README.md)
 - [Homecloud](distribution/homecloud-2/README.md)

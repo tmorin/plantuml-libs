@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Architecture/Compute/NiceEnginFrame
+
+sprite $NiceEnginFrameXs [10x10/16z] FSY53G0m4CF0F2RxJrokHIUJx5KLFvVA5fVWg6vnRqDB2s1EMIokfoZCIQsuqkS
+
+sprite $NiceEnginFrameSm [12x12/16z] JOk54GG1308d0al_3R-UnOC0_eV4u-7n09Ij-jygKBSTljDOSb80Gu-JsTEUf7VLBhvtPhO5v1Vy8e_d3G
+
+sprite $NiceEnginFrameMd [16x16/16z] NStN0SCW40HHxwMv_YisqK7pzrO26DKjC_aRAdaCx3BonmggtA-j5Eag3JTetp8OmqsyPg9So_TDRBdTzaMLnuXHMTHoYv2K6R3SgGXNCUeJfxvTFuOt
+
+sprite $NiceEnginFrameLg [20x20/16z] {
+RSZ50O00302n-fNz1yOTyWoBkkICFI_7yRqrB-nIrPvdbbI5ndL2Yff8fHydQ0AKHUHy3PNEfhHakSPHMwXJRkkrinEms2vGNnKLkbrhEHj1zejCAo0KXUtQ
+dLHna0AswpABS7LMVU3IdrplayDFJW
+}
+
+!procedure NiceEnginFrame($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/Compute/NiceEnginFrame', $name, $tech)
+!endprocedure
+
+!procedure NiceEnginFrameCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$NiceEnginFrameLg>', 'Compute', $funcName, $content)
+!endprocedure
+
+!procedure NiceEnginFrameGroup($id, $name='Nice Engin Frame', $tech='')
+  IconGroupElement($id, 'ComputeFamily', '<$NiceEnginFrameLg>', $name, $tech)
+!endprocedure

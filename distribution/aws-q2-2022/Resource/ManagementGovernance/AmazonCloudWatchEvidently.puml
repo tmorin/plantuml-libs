@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEvidently
+
+sprite $AmazonCloudWatchEvidentlyXs [10x10/16z] POd50G0X40Fd10dflrxyjnObJjcOlkGj9gfCyB8PhTwyIqcwoX1KI_mVl0m
+
+sprite $AmazonCloudWatchEvidentlySm [12x12/16z] XSY54O1G30FG_BhiFoyE9rZrNV1KBHUb-SWenbAxbsnJ5o_PRjJMcmcN2_5hb45hUOqP
+
+sprite $AmazonCloudWatchEvidentlyMd [16x16/16z] bOk50KKn20ElteRzv_totEMe04cueAYivlQhcQZQ9hrvSnt3710-EF73aLkglzzrUNE6VjHXrg_S_njc9vPpKxEoqgcycJC6QNe8MZvV
+
+sprite $AmazonCloudWatchEvidentlyLg [20x20/16z] {
+bSo50KD120FGd2BPVzy2TM_pzHw2x-dK9oEQFD1oZ1iR2uDhqAyagtEZPQwBQfUf2CyOCxQ17MVBitB6MEHgQu8GPYuc3LxxUh_EEiU3MUMXZ_bvDltJdlVD
+bjRIN9O7s0W6U_oZPYAjtiZt0G
+}
+
+!procedure AmazonCloudWatchEvidently($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AmazonCloudWatchEvidently', $name, $tech)
+!endprocedure
+
+!procedure AmazonCloudWatchEvidentlyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonCloudWatchEvidentlyLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AmazonCloudWatchEvidentlyGroup($id, $name='Amazon Cloud Watch Evidently', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AmazonCloudWatchEvidentlyLg>', $name, $tech)
+!endprocedure

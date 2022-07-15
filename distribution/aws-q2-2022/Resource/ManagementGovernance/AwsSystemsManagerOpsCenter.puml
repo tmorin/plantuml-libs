@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter
+
+sprite $AwsSystemsManagerOpsCenterXs [10x10/16z] 1S450G0m300WxfF-VGy0O3xTs31XcO37N5u0M3G0xJ4MY6Ku0D4V
+
+sprite $AwsSystemsManagerOpsCenterSm [12x12/16z] 1S610G0G40IW0Fpjlwy20DJEYWF5em0eXKrt6CZJ9ZTOW8u00e_BFGjgfEUm0JO5O5R_
+
+sprite $AwsSystemsManagerOpsCenterMd [16x16/16z] PS610KC040Im77Z-zj-t0pJXNxhjmm0E7Yom45v0WEkqK9mO1XPpA1Bq2LCy4nI00nu02XRWAiY7X-lj0ZkPeri-G48-B02it03WlVm
+
+sprite $AwsSystemsManagerOpsCenterLg [20x20/16z] {
+TSZNeG0X202me7UAiF-yh_UIp_ZNVRfoOlAcXnrMwm0axC1QW6jvCzARy2QQ0lV4W4Q20pNfWN51xuqQEOcT2HK1jI7cXlJLc32NBmfeNnmW3WJeVO2hiGCT
+FGk8of5pLAzcb3TNxaa7xi5NDN-Vawlz5C4Z
+}
+
+!procedure AwsSystemsManagerOpsCenter($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/ManagementGovernance/AwsSystemsManagerOpsCenter', $name, $tech)
+!endprocedure
+
+!procedure AwsSystemsManagerOpsCenterCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsSystemsManagerOpsCenterLg>', 'ManagementGovernance', $funcName, $content)
+!endprocedure
+
+!procedure AwsSystemsManagerOpsCenterGroup($id, $name='Aws Systems Manager Ops Center', $tech='')
+  IconGroupElement($id, 'ManagementGovernanceFamily', '<$AwsSystemsManagerOpsCenterLg>', $name, $tech)
+!endprocedure

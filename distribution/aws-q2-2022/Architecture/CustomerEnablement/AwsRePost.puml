@@ -1,0 +1,27 @@
+' definition of the Item aws-q2-2022/Architecture/CustomerEnablement/AwsRePost
+
+sprite $AwsRePostXs [10x10/16z] FSQ50G0W4090RE7TVrxx2qxYchv6pgMw2aUX0aItHMpHJ2N56EkIgPR2iBGeDN4SiaBZSiq4
+
+sprite $AwsRePostSm [12x12/16z] HOh70GCm20DD1-7zvqsKUXzLO4WJ_0Dzkva5FGh6mUaLniTKByn6gZZjulHHrKF_J131v2m94LNs16s6kM-F2E1-0da
+
+sprite $AwsRePostMd [16x16/16z] {
+NOm53WH13CC6Uft6tVz_zvRHGZjIG3kn0-_29wnghQ_KiNl3N2ksk-ELPV_950aZhE8-f2vbKdkjiNwEM3qf7gKjbDqJAkkLwkw9YSNC5j-3l0nld9vWxbre
+ki9owJ1TOMVwX1a
+}
+
+sprite $AwsRePostLg [20x20/16z] {
+PSv70WCX34DHKzp4tF-yST2G-dTwAm78KzpX5sc_I4CuoxU9nSx4ZZNeI3QTPgLfALMcPCG29b0BkIkEjM3GqdAXvIeKxRtpqenj6sEq_aoCLWZN-tcZLKY3
+giOnuXpJP_UcD28WK6-W7JHq7r5uVM1ECm7o-i8AmFM9hEmV7m
+}
+
+!procedure AwsRePost($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Architecture/CustomerEnablement/AwsRePost', $name, $tech)
+!endprocedure
+
+!procedure AwsRePostCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsRePostLg>', 'CustomerEnablement', $funcName, $content)
+!endprocedure
+
+!procedure AwsRePostGroup($id, $name='Aws Re Post', $tech='')
+  IconGroupElement($id, 'CustomerEnablementFamily', '<$AwsRePostLg>', $name, $tech)
+!endprocedure

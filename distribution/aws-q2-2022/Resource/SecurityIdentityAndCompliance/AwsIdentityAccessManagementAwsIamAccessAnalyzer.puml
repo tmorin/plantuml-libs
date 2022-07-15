@@ -1,0 +1,21 @@
+' definition of the Item aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer
+
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerXs [10x10/16z] Oy04t3065mUIA1SNc6A14DoS30oS34nC81wGmcSAApS
+
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerSm [12x12/16z] PS650GD140GWtavc-wytxW7yoxgnBpUbixXRV5bDe5ZCKkQmI3f8mk9jSJSmxoAuE-8C
+
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerMd [16x16/16z] VSl50KKn44BH6mzC__L-b-TdDG9SQ0wWwyjaG7mvUxMJ00OhabONBngHtxjC46bY25lVjptPqVa-Cw3q5JIMWiwA2tS
+
+sprite $AwsIdentityAccessManagementAwsIamAccessAnalyzerLg [20x20/16z] XT2r0KG13CDGnKU9lV-ynqp_bIh5CjaVBH00zuElhNbekzyR1VUsABQ7kxM004yjkRLrs8O9ZGOYQRWgIobAKd6Z8u0jdtgfzUxUFhuycMjxvitseo710G
+
+!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzer($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsIdentityAccessManagementAwsIamAccessAnalyzer', $name, $tech)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzerCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIdentityAccessManagementAwsIamAccessAnalyzerLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsIdentityAccessManagementAwsIamAccessAnalyzerGroup($id, $name='Aws Identity Access Management Aws Iam Access Analyzer', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsIdentityAccessManagementAwsIamAccessAnalyzerLg>', $name, $tech)
+!endprocedure

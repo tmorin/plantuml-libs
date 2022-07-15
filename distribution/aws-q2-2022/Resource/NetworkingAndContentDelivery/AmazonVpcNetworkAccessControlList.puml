@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList
+
+sprite $AmazonVpcNetworkAccessControlListXs [10x10/16z] JOg50S0m408fzTp-yyRj5TDUzDLHQIWCEUy_tI_hF0AxyF11INNtQh5-_yza9G4
+
+sprite $AmazonVpcNetworkAccessControlListSm [12x12/16z] NSo52KH140N1MjQ6UVddUzZPBwonzf0rJi06be_X48Z9jOe-PqgCSt1dkfq1DUq8C9dVMSFv9ZUTYHS
+
+sprite $AmazonVpcNetworkAccessControlListMd [16x16/16z] RSUtOGCn50Km73F_stzUPwiIEdYd9vK2a0VC2nI0Wl20ngO_30xX4Won15sjCYf9ZxXgpJKAFLbAPlTtnrOOfwfQQ0-J0KBXUXaFrAiBs1TQFG3whVs0Jm
+
+sprite $AmazonVpcNetworkAccessControlListLg [20x20/16z] {
+TP254GGn3CGKNz3RVxy_H_kiW1m6_hFDL8u2fgaUNd9NLeUhNLrUul5M8TWvdBjrbJXT5cprZDM6noVzy20Frrb8bAZad5CeDBT0P7QL3WWfPWI9AkvZpHOC
+0A_rsRlBpjtdmkbU0HQl93jL6A-e_eMUcBLVjKgLLqf4SF4
+}
+
+!procedure AmazonVpcNetworkAccessControlList($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/NetworkingAndContentDelivery/AmazonVpcNetworkAccessControlList', $name, $tech)
+!endprocedure
+
+!procedure AmazonVpcNetworkAccessControlListCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AmazonVpcNetworkAccessControlListLg>', 'NetworkingAndContentDelivery', $funcName, $content)
+!endprocedure
+
+!procedure AmazonVpcNetworkAccessControlListGroup($id, $name='Amazon Vpc Network Access Control List', $tech='')
+  IconGroupElement($id, 'NetworkingAndContentDeliveryFamily', '<$AmazonVpcNetworkAccessControlListLg>', $name, $tech)
+!endprocedure

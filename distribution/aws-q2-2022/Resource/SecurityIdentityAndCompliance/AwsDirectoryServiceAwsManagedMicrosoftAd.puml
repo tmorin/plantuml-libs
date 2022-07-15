@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAwsManagedMicrosoftAd
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdXs [10x10/16z] LSj50G0m30J1BPD_lMNAV8A7KFHjxLb1HahCNS816D1OCypytKsnbDW
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdSm [12x12/16z] ROpL0S0m449VFE7sdxVAJ-LS0DuM_ukWUYp0k2RthWvC4yxCfY1BgCuXycNAlSXyNMcRCTa1
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdMd [16x16/16z] RKo50G0W22DC_FzUktKcA_WZdAD6Vym2RX_zbJ3vC5rbKk-bICZOPCuNIGbtkxQwX7oV-oqmPdAct1q2Q92xkla7jAESq70X0G
+
+sprite $AwsDirectoryServiceAwsManagedMicrosoftAdLg [20x20/16z] {
+VP255ODG34NZkl-yBUxmuDizSVXItb4dNH4bzCqCGEoCH8QjRcO0U88-noyyiDrWeurhFKQMSvoS4StcINE2cQbNbUl0L5V6yq6xsS0827bW8Ro8EC1wj4DQ
+nMnaw0FRjSSxi7a8UcGGFIhWINy
+}
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAd($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/SecurityIdentityAndCompliance/AwsDirectoryServiceAwsManagedMicrosoftAd', $name, $tech)
+!endprocedure
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>', 'SecurityIdentityAndCompliance', $funcName, $content)
+!endprocedure
+
+!procedure AwsDirectoryServiceAwsManagedMicrosoftAdGroup($id, $name='Aws Directory Service Aws Managed Microsoft Ad', $tech='')
+  IconGroupElement($id, 'SecurityIdentityAndComplianceFamily', '<$AwsDirectoryServiceAwsManagedMicrosoftAdLg>', $name, $tech)
+!endprocedure

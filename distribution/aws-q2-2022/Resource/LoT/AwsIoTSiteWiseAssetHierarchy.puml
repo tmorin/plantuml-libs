@@ -1,0 +1,24 @@
+' definition of the Item aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAssetHierarchy
+
+sprite $AwsIoTSiteWiseAssetHierarchyXs [10x10/16z] LKg30G014Afp-m_yvZ7XLtoXtpypJwI2TCA1yfVgRNMc7DoG10R83VaA
+
+sprite $AwsIoTSiteWiseAssetHierarchySm [12x12/16z] NKo50G11208_3lSV-Bhj072Ro3M7EPC-vxzcjI10OfiB0nqLIdPcuP9FPtU0XOusGTvLv0a
+
+sprite $AwsIoTSiteWiseAssetHierarchyMd [16x16/16z] ROw50S1030Af7jb_u7hVBHv0unDsbLjr3dkPJbDCKz5zQqMxodd0vbJWMPYK1wQxltm9180Dc_G9YSVwsLDf0tHRVzOYwKTMn7xdlpq1
+
+sprite $AwsIoTSiteWiseAssetHierarchyLg [20x20/16z] {
+VP254S0m08J-u-m_SDqbdD2ZSNKmy6f1xvRyQeenFefjR5zJh7a6lRcEAr0c0MUjKfkRSh-5MkAaJBxkwqNjc5XMMDMMfXLMbSkXLgy0yV9MG11okhmLovVJ
+qhBNvXYc7DOppbur0W
+}
+
+!procedure AwsIoTSiteWiseAssetHierarchy($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'aws-q2-2022/Resource/LoT/AwsIoTSiteWiseAssetHierarchy', $name, $tech)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetHierarchyCard($id, $funcName="", $content="")
+  IconCardElement($id, 'IconCardElement', '<$AwsIoTSiteWiseAssetHierarchyLg>', 'LoT', $funcName, $content)
+!endprocedure
+
+!procedure AwsIoTSiteWiseAssetHierarchyGroup($id, $name='Aws Io T Site Wise Asset Hierarchy', $tech='')
+  IconGroupElement($id, 'LoTFamily', '<$AwsIoTSiteWiseAssetHierarchyLg>', $name, $tech)
+!endprocedure
