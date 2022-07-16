@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [8.0.0](https://github.com/tmorin/plantuml-libs/compare/v7.1.0...v8.0.0) (2022-07-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **aws-q3-2021:** the package is `aws-q3-2021` is removed from the distribution
+
+### Features
+
+* **aws-q2-2022:** add the package ([eed7307](https://github.com/tmorin/plantuml-libs/commit/eed73070f5c863adb8a6160135ecf82a083824a0))
+* **aws-q3-2021:** remove the package ([3443221](https://github.com/tmorin/plantuml-libs/commit/344322191917e3ebba5bc90a3fafb3a0a7a89acf))
+
 ## [7.1.0](https://github.com/tmorin/plantuml-libs/compare/v7.0.0...v7.1.0) (2022-04-01)
 
 
