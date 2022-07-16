@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/P/Pfsense
+
+sprite $PfsenseXs [10x10/16z] NSIt0S9G54KnmM_8P_zfSNYTTOEkNcfuDvxg2ytApxTKvYsevUwLMr5Z0m
+
+sprite $PfsenseSm [12x12/16z] JOgr0S0008EeU_Z_shgnHF4bdstvsS-VjXl6OhIZw0q78r1QioZ0_GlJumDXyBvRtVMoQ7BV7pO
+
+sprite $PfsenseMd [16x16/16z] NO-30S0m402lZhF_jlqORuCGPz2RUoqkCBi7w3NjgXMy20UbwW5mMIgfca5AGOelYEHRNWwH3vZI3a-M2ixYOmovt8eRsg3Gjk7FKywoprlAzVP2NE07
+
+sprite $PfsenseLg [20x20/16z] {
+TOy53i0W34KVqXbs_zik3JR5-TQKM9x3lw5mF943U8fuOq0eR-m9xR0spWV0P5LLOQ8FnMgW1OmpGBJwEcfigbTs-gnMhxU1KNLhDnsh_56lFO1q7kkeiXgN
+QSFC9Xm42-gFO7uQ_CEs5tO2
+}
+
+!procedure Pfsense($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Pfsense', $name, $tech)
+!endprocedure

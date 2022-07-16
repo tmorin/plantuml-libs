@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Stmicroelectronics
+include('simpleicons-7/S/Stmicroelectronics')
+
+' renders the element
+Stmicroelectronics('Stmicroelectronics', 'Stmicroelectronics', 'an optional tech label')
+@enduml

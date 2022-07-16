@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/G/Gravatar
+
+sprite $GravatarXs [10x10/16z] BSU50G0m20F1kil-qwBv2aVGVhCHmvTca76_LaLwvSr_8FsZgGar6QugOtvFLu01
+
+sprite $GravatarSm [12x12/16z] DOk54S0m00AfUt__QIDm-JDKXbC3EX7HD6dzRF09fgvrmmEo7gS7_ywcWt-7vM_D7NduOturFij3gW
+
+sprite $GravatarMd [16x16/16z] JOy50iGW0CCw5wJ_V-r9q6n0WwF2vh1emd_EcaDrfpgqL7UKacqwIOnSnPL_zK72gPCTXiDBYiK32V35jYhRFzThrE6iaxgEMboeKbyG9uN5mAel
+
+sprite $GravatarLg [20x20/16z] {
+LOy55iKm40AfUxd_QRz0bzTCXSt4KQmyvwgZ_bnTjVy57pOhabqSzqVn0iC4J4evT98UTZZWMDDmZDg7v1ddl4ds0EuueRfxkLExogBSh84YJhy-wj05hlV0
+oIDyzZ6ZD61ZYthtHlLP9I2i5fS7VG4
+}
+
+!procedure Gravatar($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Gravatar', $name, $tech)
+!endprocedure

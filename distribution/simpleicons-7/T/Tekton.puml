@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/T/Tekton
+
+sprite $TektonXs [10x10/16z] 5SO54S1000F1BNFZt-rF-7mikfrNW2JelxdA8la4uXKNDYRNZPVsxZuk-1N2
+
+sprite $TektonSm [12x12/16z] 9Sl5WGCm00F1CRFTVxK7YLwYTH5f2ygKtJ4Hj_MQSh6yFzq6nJj_0UZHcsM3ajfnn0ebbD9F6eSlNur9dJMFEa1UCT9XfkWO6Ry
+
+sprite $TektonMd [16x16/16z] {
+9SV7WG1120In6k-WoJ_QCwn-GXSe1NWFOBqT0rQCdTy8MWMHZq6DFr0De3YH2D8yjYBSnYCDjiwEoIM9FGk--0xUK30UzP1qf2MYSIfG05WgvWWms9lP7rY7
+njrTnmQVLGvDME5pch5kRTr9Ki7WIG2_
+}
+
+sprite $TektonLg [20x20/16z] {
+HSi7akKW30N01aT0ikv_sjr9hj-LNp1pXmssN22lKJEFF6BM6072o4RGQfhWSJPwRXWUC4oZlYt31AhjzUjKW59NLDMuwfFzNB_JzSakQjHApZUJUhXb5xng
+a_7erVInlU6gU5Rnd4Q2eq7hSjopkM3Hq6fFXeaURBeM9_O9OSxb6ilZTSTjhM6D1R0_fc5pg0Pu66lJngBUwnX7twltQumB_0S
+}
+
+!procedure Tekton($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/T/Tekton', $name, $tech)
+!endprocedure

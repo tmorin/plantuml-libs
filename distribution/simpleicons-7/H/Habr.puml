@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/H/Habr
+
+sprite $HabrXs [10x10/16z] 7Sd50G1124FHFovO_zMky2wGXDya2I5b02rCn3kmugSBPF_V7l-QQgMhHrW_q8x4AgJ2WbH9Bm
+
+sprite $HabrSm [12x12/16z] NSsr0GHH549HtdU5_glT7RSR7IAmbR1d2mF2FZZdwBQnjobfRXvQOiqBOzDQNpq6LmUiW-iOYOkT5J4isCgfL7kSuTiV
+
+sprite $HabrMd [16x16/16z] {
+LO-50SGW34Nn4Dz_sqElxSE9_d1euKCQCzPrZRKmDQ3hKRAQWtgAQRrh9_Q1yOxiBZvHu3eJM_K5MKhJVKGlp67wE_dvm51mVDXsK362FegESi3MDDTJlo0n
+fFWq2v0GN--A7psGyuWABrw-Fm
+}
+
+sprite $HabrLg [20x20/16z] {
+PSw5aI0W343HO77flzkx3Ap_KHuM-0mF_0vX0i2d6u1L6O_rTPH32GCnvdYog2pIjcNYNWzjgMTrBeze5zOjtAa9b-wyv4FsR5j6N2_dSTgsURqowmx3ooiV
+Ii6KlcqdhsKbpp5wo5sk6OqX-znfS8M6iQiJ4DpM4BIe_pBWMqH8B4rVOI_fkqoy6zzDOKpusu7l_GC
+}
+
+!procedure Habr($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Habr', $name, $tech)
+!endprocedure

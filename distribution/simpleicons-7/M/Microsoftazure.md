@@ -1,0 +1,63 @@
+# Microsoftazure
+
+
+```text
+simpleicons-7/M/Microsoftazure
+```
+
+```text
+include('simpleicons-7/M/Microsoftazure')
+```
+
+
+
+| Illustration | Microsoftazure |
+| :---: | :---: |
+| ![illustration for Illustration](../../simpleicons-7/M/Microsoftazure.png) | ![illustration for Microsoftazure](../../simpleicons-7/M/Microsoftazure.Local.png) |
+
+
+
+
+## Microsoftazure
+
+### Load remotely
+```plantuml
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Microsoftazure
+include('simpleicons-7/M/Microsoftazure')
+
+' renders the element
+Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label')
+@enduml
+```
+
+### Load locally
+```plantuml
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Microsoftazure
+include('simpleicons-7/M/Microsoftazure')
+
+' renders the element
+Microsoftazure('Microsoftazure', 'Microsoftazure', 'an optional tech label')
+@enduml
+```
+

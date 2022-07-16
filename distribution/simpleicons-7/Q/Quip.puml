@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/Q/Quip
+
+sprite $QuipXs [10x10/16z] FS770S0W4C0mV-Xmtd_Qz21nQMPk2jX07ZqXNX8sFabyaTaajTQujCulcRYT
+
+sprite $QuipSm [12x12/16z] HSYr0S0m00F13yUe_QSrmpK2AgUVJl7WbbgbkRGgF848ga3kO0hYKuVvRoQ3G5Nhr_xHipj1mLGn0m
+
+sprite $QuipMd [16x16/16z] LSV50OKm5031nOcyRF_LVi6Psx2Pmj9n2etST65ZOzCRMpCdAqJZPeU0cmgBapmPyRuPBokMnfETmBpyzO3OGus_PViY3qBuFjNbTJflNm
+
+sprite $QuipLg [20x20/16z] {
+NSx5eGH1481GHgfjXFoZ_RhIM-_82HxwxLcOXEgjNWiFAd-AzcVQU1eE06Ko30WtPgUWW0y1s12WZNy0jrsIy1QsoGfwWpFmbCmYcLZI2t89HFy7W2mEFWaz
+Hu7XIMw4tf4QD6VV
+}
+
+!procedure Quip($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/Q/Quip', $name, $tech)
+!endprocedure

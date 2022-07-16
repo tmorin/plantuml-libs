@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/G/Github
+
+sprite $GithubXs [10x10/16z] BOo54S10382eUzb_sxy8SINOI1w32JuB22F2aKcEEbiyNNgAdfd8lzsHnPlVo6O6
+
+sprite $GithubSm [12x12/16z] JOo55S1G3099tM__RVkWUb-Y85EzRWZhcngdwgPsLZ4x3mtCx3_P-kOBlBcWIxev7pmfiemC9EQttGa
+
+sprite $GithubMd [16x16/16z] FSw54S0m3C10bJdQVziwSFv31KstR1DfjvjeJDV8TCAbyApBUJ5fssQ8TjON1YDqoeu8fAVjBzabGaksYiMFPZRmI1_CbX3R4w7amEKOVTESzfw07m
+
+sprite $GithubLg [20x20/16z] {
+RP055iGW30M3E__-jrtIRB7NmGSFlLYdQKTL276gWeKILR5ZMJMS36MU9YPZND6adb7dUiBEqwZwwNeubidfxN9sthGm7-iY02w65XX8DN5yxt1X_bs12MJH
+wByqpIix76LBp8fCuqkcSzBjG7_T3BPfJLmYvWS
+}
+
+!procedure Github($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/G/Github', $name, $tech)
+!endprocedure

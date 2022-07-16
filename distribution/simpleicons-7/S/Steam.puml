@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Steam
+
+sprite $SteamXs [10x10/16z] FKg30S1044lTP_QVzd5MX5M93tPHwZS0y1OaLWw4ou3SfX6UE2We4xTb7ogO
+
+sprite $SteamSm [12x12/16z] HOo50G0W40AnM_QVreupFW6JH8yDDpzDv4c3p631dKV5DDC2W-Bt4YOxnEE0321dhfnKogxKpcbPQPthEtL01m
+
+sprite $SteamMd [16x16/16z] {
+JO-50G0n20FpBaZsdxPkLyK1XSie6ph6obr53cmHTTkLEfm_Y42uTJEIhoRXwl83V4ds9aAmVLlv9F4QbV9p5E5iZfdjw7L0outAwEWXZqj6MI1LE7lLQnbd
+bjcMQI8
+}
+
+sprite $SteamLg [20x20/16z] {
+JSu52i0m38NXlpP9vTt_jYEmG3wiZVDxZzOW6Vhj4Y4bJuIobnoQm2FrDElbMUPVKC20ZO-Cq641BrEoY5Ksi5ZI4mkWx6ODIT3a-CMxM0KtBEUldIx52gxL
+6g75zfLG8kJV8gczOpS5mFnUUWvvC8iJKWZ2AxbTSHy
+}
+
+!procedure Steam($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Steam', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/C/Consul
+
+sprite $ConsulXs [10x10/16z] 5S450SG0000XNkPo_TDE07o1i_P20GIObX4dRQ74iE93Vm4o1WDyUd43
+
+sprite $ConsulSm [12x12/16z] FSd50OKm00MmuCxRVzelq3RNUFHuvD53ZZPPUUohQ8uBL-YJR4Y6OBqnNNI9qEJcCOuaS7PWpH--
+
+sprite $ConsulMd [16x16/16z] HSxL0SGW403HGS-0wR_QioJi-u9r3YaJxlhpug0pGnxUZwyPmf0W-28ageJ9c08KxMH4FOQuZigN_2YGnMHYonHSX0dD7ly5ZEk2pk6Xi_UXhxXPNGdW0m
+
+sprite $ConsulLg [20x20/16z] {
+NOw54KGn20M1xx7jlzkR-70RVRXCpCIXYKRIPIfLnsQFspJoJaOW87-S5AUX7dMsvwasPwe17tSNlOJnHWghKv7paI0Qs3PcdOJE8KCjn_LmrM_5kWyxPxmd
+yJXTg1Nyq369o0tNDEmFvBErATkhB6HZiHg2TVK3
+}
+
+!procedure Consul($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/C/Consul', $name, $tech)
+!endprocedure

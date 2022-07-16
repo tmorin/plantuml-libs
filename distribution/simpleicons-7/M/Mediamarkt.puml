@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/M/Mediamarkt
+
+sprite $MediamarktXs [10x10/16z] 3SI70GD14CB0-NnnwRzR6oI1Ue2ADmyRvKFEbReFkMXlVRcPoSu_apdMqo4t-w10vHHS8lm
+
+sprite $MediamarktSm [12x12/16z] BOgr0GH14CEq30Fklzh7KsBaHsx-R7AnykSrwjC7Hr5agKwfUzUnjXE3pBC_jsMWMPfaZI68PjjtPe2OSSsK3N3fLhRAXjwd457vKOGAl04
+
+sprite $MediamarktMd [16x16/16z] {
+FOpNWKCX30G7456WxR_QEzilpDz6Ri9vAK82ygs3xRXqTOHIe4I2Iq_d96qFdPzkqQpLxHdNLwzOlTgqB1XUbyyXXQL0rztiabf3bt6gB_LUzaWR8qPgRRer
+4H1Av9pKCI70GbB9xV3L5_cq4e_kKcE863maYH80_m
+}
+
+sprite $MediamarktLg [20x20/16z] {
+JO-54GGm20Gtn0Mk_sv_yhxZo0bVubJ-ICg49l-iG88cwNtR4LDqdPejS_6CetjBxQyHoZRBBZD5x1tI13Ij75CDIajmr64VfcTRinKpNwIJ6y97QprcDr44
+wqu6OqgQ8vsK1TeeQRYalOJOTrYIRCpGwOkLDu9xkNIypZaGOk2D5dlCMOScSIkGfGBWtbAy-v2M91spZLxDltYWRf-P-N55vautcnVhfOl9-95SWlCQFG
+}
+
+!procedure Mediamarkt($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Mediamarkt', $name, $tech)
+!endprocedure

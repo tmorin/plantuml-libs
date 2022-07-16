@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/E/Express
+
+sprite $ExpressXs [10x10/16z] RS710K0000IW083RVri-0ELNNG9w8gmra4YxeorLJY5cmjS6
+
+sprite $ExpressSm [12x12/16z] ZS750OD0002m0EUw_xILVuN47KSx9mlRXKbM9C1v77PwmoO1jat6qf1PVGB15qy
+
+sprite $ExpressMd [16x16/16z] dS450GD1302mF1wt_jKE5Mo9Fsm08Ewz3G9C2LidaUmWC4mwK72FZRo_i2KQ025nWI0m2JWlPSTzKjU8Wmg67pq1
+
+sprite $ExpressLg [20x20/16z] {
+jSp55GGX44NHXplad-sS-kFxxejJmWrYyVohA_Yo7RI66ObQCSUMfQSD2sI-0XjYGFHsHyUCpedowuuMhla58AlbS7ovhTfGllsqjfQu3YjOUGT_tcbbOgob
+ctFi3aoGnSKU
+}
+
+!procedure Express($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/E/Express', $name, $tech)
+!endprocedure

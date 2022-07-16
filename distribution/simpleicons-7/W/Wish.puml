@@ -1,0 +1,13 @@
+' definition of the Item simpleicons-7/W/Wish
+
+sprite $WishXs [10x10/16z] Oy02cFbXB7P-VZYR3S82adpy3An02eJuGOWTB0O13211Lbv-BYJp
+
+sprite $WishSm [12x12/16z] Oy05s11CNdv-NcGEFq8AokRcXx1P-LaO-C1iJZ3D3n5dv-VduuAmmG2gYv4HYD6i1G
+
+sprite $WishMd [16x16/16z] bOq52WGm0CFcllN_hvqhSX8WD5Z9dr3OfoE0I4ypD1Wvq0IitHVjTcujrYoRH6_R79fSxpxHrTlWq9zF6jAnoGzzfm
+
+sprite $WishLg [20x20/16z] fSor0SGm5C1GXJdQVzg3eA6qolU1akgS6brJsrItU7dGGucQ3kIkQXk0FjnJhyqPsFRfjLqRw7HzJQrXrcFF_R8AFBO7NIwRwTIDHcslVs4SvNHXntOyAUiB
+
+!procedure Wish($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/W/Wish', $name, $tech)
+!endprocedure

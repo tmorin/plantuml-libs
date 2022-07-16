@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/B/Boots
+
+sprite $BootsXs [10x10/16z] XS470SCm0C0mv_-OFziHM5k93n4XDCWnMD4BDznrIb_iSgKwsOg91py
+
+sprite $BootsSm [12x12/16z] ZOZL0O0m34HVtNlxJul_0atEMRkS0u0r4742V0EIpBNwTDfGKvMV5A48GOCI_K0gF6VvlXq
+
+sprite $BootsMd [16x16/16z] fSJ50GCW04FHZmI7x3zjNUxjYy3_MfqyzG0viK83k7q3ewYncWuhHY1wQDDsAzG5A0uq0ykpLjXcLYeBUGDAcAZZdO0Jpp3s3F0L-DKL
+
+sprite $BootsLg [20x20/16z] {
+lSN7GK1H44BHoykP_hlrfvLxFJC0_qIjZCMdYSiCq2mkcdMG82mm5WgjbGKDaiEMt8ivnlLaBjNNJkR1_LfpEK7XCECEsKrJe6ZKhCNkvBWwi9mvqHEAxG58
+SvDDNFREF5QsVPW-aLyIV-W7
+}
+
+!procedure Boots($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/B/Boots', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Stitcher
+include('simpleicons-7/S/Stitcher')
+
+' renders the element
+Stitcher('Stitcher', 'Stitcher', 'an optional tech label')
+@enduml

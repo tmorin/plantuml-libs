@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/F/Flask
+
+sprite $FlaskXs [10x10/16z] JSZ50O0040F1uCxsNorwDf-8YbQ60IipCkSamzbPMrYMEEL0YzQlzXDmtW
+
+sprite $FlaskSm [12x12/16z] TSZ50O0m40J0ZIUd_LUB7xoOpmh-ZELHatSqUcxh83oaeKHVOwJepGPUN2aXg19zmrjPBLPVv0Cx
+
+sprite $FlaskMd [16x16/16z] PKw30G0n4AlTPlzftpYRCOgYoB5OwcPUvKyjYZEkX3SVkKrZrJh91tymvyXqti9p30svq06psZ218HhJDLh0-RISyb0TGEzhBWB6X_Fg3W
+
+sprite $FlaskLg [20x20/16z] {
+RT25iGCW44NHYpkl_sg_HXOcPnHPvQFaW5lrtBHcvTJKqrR2S7iKHoZ3mPDohKeu32zL861fKo1X3HN8vrrHtYL43dDLRatQZSQLCIsSmqhIBcGEUVMnwTUb
+f0uDp4leqcevjzxIUtKn5_tR4Slnvni
+}
+
+!procedure Flask($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/F/Flask', $name, $tech)
+!endprocedure

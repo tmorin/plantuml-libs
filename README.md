@@ -47,6 +47,7 @@ The available packages:
 - [Gougle Compute Platform](distribution/gcp/README.md)
 - [Homecloud](distribution/homecloud-2/README.md)
 - [Material (v4)](distribution/material-4/README.md)
+- [simpleicons-7](simpleicons-7/README.md)
 
 ## Generate diagrams with `gdiag`
 

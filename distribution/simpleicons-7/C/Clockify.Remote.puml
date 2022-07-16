@@ -1,0 +1,16 @@
+@startuml
+' configures the library
+!global $LIB_BASE_LOCATION="https://raw.githubusercontent.com/tmorin/plantuml-libs/master/distribution"
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Clockify
+include('simpleicons-7/C/Clockify')
+
+' renders the element
+Clockify('Clockify', 'Clockify', 'an optional tech label')
+@enduml

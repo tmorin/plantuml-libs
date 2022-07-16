@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/R/Realm
+
+sprite $RealmXs [10x10/16z] 7SV70ODG5C0mm-_L-s-R5tGJeT_CdyzhwHsa45Rc4CPv7LCbN0bRbqNz-j091lf-Xf20B23y
+
+sprite $RealmSm [12x12/16z] 9Oo50S104C9ITxB_j7qx5u1cTmw6kM8--sZMta6_Lx-uVFJROrjRrQ4msglUdgi66tBb16RV_L86A3cF7LGdcDA9cLdTeG
+
+sprite $RealmMd [16x16/16z] {
+FOx50KDH20HvBiZqtsr2vCy5PrS-D8ih3yQM1inl-QwK7AjdILUjlqKJSN1r28FjHP0lD_0bz2jjr4vahuB3xXjQraMSyjSCK4UBxFCU7dgsGz1MPs2IRFx_
+3ucvJFqs5DijXuvUmqkcu_lwgr79CcKXqbxcBm
+}
+
+sprite $RealmLg [20x20/16z] {
+HSu5WaCn24NH5sk9mDt_QiV2dvwuWf9vx2vz3DYlDt2A4XHLY54CUxOyOEHYPjz7LTfqQG2-Jq2um-f8k1upV5PXGfV16cqwcyaAVhbI4CGeAYDOaaepQs1A
+Xrzxmtb9jHP9DUZwnU3wP5qGvGaxgrJUmP6RqkQgAYXDsDOSISRffKquajJ8y_2pQdvxHtKoq0lqpm82phtq3G
+}
+
+!procedure Realm($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/R/Realm', $name, $tech)
+!endprocedure

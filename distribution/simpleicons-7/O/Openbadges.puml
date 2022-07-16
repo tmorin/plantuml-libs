@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/O/Openbadges
+
+sprite $OpenbadgesXs [10x10/16z] DSp50K0n309GybtB_jCsxky4l1vaNOCC42y_qE3zvHUMY3NbhY-1owyOHkVuLm
+
+sprite $OpenbadgesSm [12x12/16z] DSlL0SDG34FH4yv3xJzjkVV75W7LdpAJ5QmXhY2xMMD9hLAczVrhGhR_dwvc__bhOilNpshUwcZgj7yt6sPzcI_tIshW2G
+
+sprite $OpenbadgesMd [16x16/16z] {
+JS-rWGKm081GuXxsd_Rq6zqhuT7aiwMcbweLqG10SC4HWnkO5uP9n2oicEqW8WUM1xPl9vg5juiRT3vzOPaOnd_7QWjkEFzsBmFPIhX2TC0zC4tt0dGpmSb-
+BHm3sywhe1S0lW4
+}
+
+sprite $OpenbadgesLg [20x20/16z] {
+PP25WGGX4C2oYfF-gtsPyzlWmOSdbM-QUdwOxDpTz6LMvy8cVTZlIe_OIozeYKK5JkTXk6Nuxq1tLiEnX6jcI7wu0Okc3mVTuxAtmwRZVU_2Cjnfje-ztGde
+mvsQe5hZHtiubqE1wGavkkE_MsmnlNKhn9KBJFD_vIjK7PQfRhmOLkAg5x6gSkSN
+}
+
+!procedure Openbadges($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/O/Openbadges', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Staffbase
+
+sprite $StaffbaseXs [10x10/16z] 9S650SC0400XwjxRVzhO0poxWU9I-N-1P7Ix6dqPhyl3IEAKF58VuLhtOWK
+
+sprite $StaffbaseSm [12x12/16z] DS650SGm50KWwfh_zf_sj05mPVUNxFET96G6XiZYRuxeiZLTxbrNIzD5J0Dk8fVaJgcLt0nKGKigsNW3
+
+sprite $StaffbaseMd [16x16/16z] NSV5WKKn581GdiHlGl_LpdotimAuEgTZuodKfJOLqCJLS3f0UV6Wovid5jx2JJviDlba_7pzUUH35eFflJUS90zqXJQAmFJWZDMWc072jGEdzuLDhnR0Fm
+
+sprite $StaffbaseLg [20x20/16z] {
+PT2reSLG081GaklA_jD-UIwdf8IRkfs95z6RUOQ-Eu0w088N0TYNSd6aeth0Tl9Y2E4ziOGjRquRRjvfCdwrBhnhJhzR-shBOE6Tea3buZW11zCJxPUa1zsJ
+Gq5TKqqS2XI5f3gu9MYQuQBf-RAqvgRAG_LYdG3y0W
+}
+
+!procedure Staffbase($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Staffbase', $name, $tech)
+!endprocedure

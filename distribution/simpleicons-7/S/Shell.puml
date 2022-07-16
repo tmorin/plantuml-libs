@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/S/Shell
+
+sprite $ShellXs [10x10/16z] JSQr0SHG040XpYNozfysLdqgZ3hX5ZDH_1u-tSExcrRtx-z9lsd5pKD-WJ3iCji1
+
+sprite $ShellSm [12x12/16z] LS65ZSKm00Kmjq4fyFQVzb3qRPzQVe5aEMucEvRbaKSyJDQJ5eFUaTiER-r3lMUPJtbe8l6WoEA-O1VCLOfI0a_-yGq
+
+sprite $ShellMd [16x16/16z] {
+RSV5eSKm34N1COPz-w_sOvPl3DBnoP5V_QsPt3rZ9M3FjNCRPQLGiXGkDmbPZU5mcoM7S3fjcjETFKlH3GOhQpbDUjCzab1H1oUPMRzLAKD9_jvhomEfRzz_
+AVFj722_xYHfl7huymq
+}
+
+sprite $ShellLg [20x20/16z] {
+TSYtOGCn50KmV5vEVFjFQsMfCahuLsqzoJdvwVbOlGn99YwIT539QE6aEr-Px1mSR2G7UzQyOoXjIKh2P61rS1cojuGTPb6DPC-oCbXDHfqhwJ4tgyr84LiI
+vbAqPhQovaXdLbHZe19NUfb0mvPCR4afBti2fZGVPu2MmKVY9VquZjLnzxlydFoqpSSD
+}
+
+!procedure Shell($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Shell', $name, $tech)
+!endprocedure

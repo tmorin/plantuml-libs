@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/L/Launchpad
+
+sprite $LaunchpadXs [10x10/16z] LSR50K81040XxFRjFwtvanEMIWzSAzNMqKxkdlfHgps7kILjKQdWbF06
+
+sprite $LaunchpadSm [12x12/16z] VSob0GC10C30bBct_xH5zHWLTOqYZwfk2CVgGMsub5tnhBC8xAnyn-vERTC6kpzS6uIglxQjtW
+
+sprite $LaunchpadMd [16x16/16z] ZSUrOSL0042nTxwF9kq_RPZAg5EVRlqroFdJ4-7viITVPwaMFAgTetBjtc1lBAsFq04k2v_tuJR_zqSJpZeysiliOMdT6_VQOJJXKGqGx7sON-_7AhEgLm
+
+sprite $LaunchpadLg [20x20/16z] {
+hOz55WCn580Ozy_zJrk9zMLVugm2bPMPdiKJO-37e5-d3vNRwdHFvjJg4cELpm1iNpK3rmenWLvmdn03bp72vPS5TlqwnGAJVt5HtLZSKkeySzJ0dZu2IrgE
+CC1QqXZ2MaHqlGU9CPgxQ6p5qN6Uk99v0m
+}
+
+!procedure Launchpad($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/L/Launchpad', $name, $tech)
+!endprocedure

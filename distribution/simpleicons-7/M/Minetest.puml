@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/M/Minetest
+
+sprite $MinetestXs [10x10/16z] 1S450S10400WzkxNl-q009i02i67JfF1w3nwXHKXwacp8vGCviCT3Gjy5du
+
+sprite $MinetestSm [12x12/16z] FSQt0S0m300Wt9lq_xlPmWGUW0w0m3R_uzI5jCKrhWueRTVXuRxE6RFLFg2K4Sw5SzWETBtWBey5608-
+
+sprite $MinetestMd [16x16/16z] {
+LSwvLKH13031qkXhxaV-uUB07kMrrt1ywYdBjx3ggnzMV3JMQHj6quOSoqvKnWfSChVQeWNyo47f3NRsmuoIhXmNJbOvC-A0p5J1Qi3U7crO5XR_0ztAOWDS
+UDBRSO1V
+}
+
+sprite $MinetestLg [20x20/16z] {
+NSY5WKKX302mGF5d-qzx-ZtrWisdqRJgpGOkF1LmrLR7vm-svFENvv57WjvkxOZbb26FlMteEyA6Ww63CmcvzpgoCWEi9O-aLGvWrSk5grNaIPih45kqlThF
+R1wz0LSHLKZ30bGXIWscss-MavELp9GXJyhCa0v3wmwKvQQEH2Ejv6bFME5DMdcu-GO
+}
+
+!procedure Minetest($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/M/Minetest', $name, $tech)
+!endprocedure

@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/H/Homebrew
+
+sprite $HomebrewXs [10x10/16z] Oq05Z0mOW9s72KopWGXEC9EBdv-VWGFEuiLaCVE1jVBpW_G2
+
+sprite $HomebrewSm [12x12/16z] Om02BWO4uE12y5WuEJcWJ7Oc1WP6LhWC9rm9Y80gOcJYvmTAmDdy7Eo4sKmmDYS7s1m
+
+sprite $HomebrewMd [16x16/16z] fS-r0S0m3031byoy_xHXRdELGSZAyMQHnbDCF2Yh-obOG3YfadqXnZEPZnmLA7hUHSOOE937VJW9xjVzhbVNkrKExh753
+
+sprite $HomebrewLg [20x20/16z] {
+hSl55GCn54FHfpynK__L1ePX6vdlaLdYu9biuKwHf1jD8UKGx4pRjpE68424atbyI1LB1scURhuTjIsdekiblaJrEehAUOp10EBL-Z25ThPVZFyQ4tstKcQJ
+3-mMPZBZI9mVcW9pFW
+}
+
+!procedure Homebrew($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/H/Homebrew', $name, $tech)
+!endprocedure

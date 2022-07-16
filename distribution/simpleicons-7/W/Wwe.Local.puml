@@ -1,0 +1,17 @@
+@startuml
+' configures the library
+!global $INCLUSION_MODE="local"
+!global $LIB_BASE_LOCATION="../.."
+
+' loads the library's bootstrap
+!include $LIB_BASE_LOCATION/bootstrap.puml
+
+' loads the package bootstrap
+include('simpleicons-7/bootstrap')
+
+' loads the Item which embeds the element Wwe
+include('simpleicons-7/W/Wwe')
+
+' renders the element
+Wwe('Wwe', 'Wwe', 'an optional tech label')
+@enduml

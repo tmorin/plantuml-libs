@@ -1,0 +1,16 @@
+' definition of the Item simpleicons-7/S/Starship
+
+sprite $StarshipXs [10x10/16z] Om02Jdus1X3W1mDE80CAM24i4Ca9ON13922AsU1C40ygmmaI0Z4W0CG
+
+sprite $StarshipSm [12x12/16z] LOk50G0n30BhBljl-mcyzIeHm2Xz5qCs-LeCykRUHVeflRGLSgSivuoLPu0AqdvwDxQGLOnmB4CojXS
+
+sprite $StarshipMd [16x16/16z] HO-55S0m24IlSMV_RViE8Z-A0vGufNyuJ36oYN9P9Yuv33elLDe-AZvw9_w0pYUAWTdLOHuPI7A9J9pvwwAuK_YxXRpAUZtMpkB6JJljKJ4nJTVi9bxMdkO7
+
+sprite $StarshipLg [20x20/16z] {
+NOu54iL024FfkfBxd_OBJQVClX6SH4XNh2AE3B8l8N3qesKCjXOSsNujALPTmy9z6PYBnMR1YD94RnqyICKrBLFt-hJWRT763gvPGEhR4n1jLrLJtB9n4kJY
+tx2SdEqhayV10De_AYyztFAyBhy
+}
+
+!procedure Starship($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/S/Starship', $name, $tech)
+!endprocedure

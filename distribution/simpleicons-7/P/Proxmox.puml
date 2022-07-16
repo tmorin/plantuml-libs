@@ -1,0 +1,19 @@
+' definition of the Item simpleicons-7/P/Proxmox
+
+sprite $ProxmoxXs [10x10/16z] Oq02_FmGWfkV5KZoyuC95X0DaW7nk44CC1F6O0GneI8GRH0s4p_CF5u6
+
+sprite $ProxmoxSm [12x12/16z] LSpL0KDH30BGvBcV_RVjvRDn0UhFLlUeZ78qJ_4kMx72zr9DbaT06-saOYYkZ2-BYRNgP2QS7hsvieIHTsHYJqTjS7y
+
+sprite $ProxmoxMd [16x16/16z] {
+PSt50SCm44JHCLlu-gysVCkNbYd_BFtCcrhpeJ6IO4jsza4BZcPyx0JNG1OSq3gIxDWO3Nbp8Jxw2mI_UnEx1UVllEqdIt9Z1JlooQ8o3-IwWpsTlfGroM_H
+eEIF9m
+}
+
+sprite $ProxmoxLg [20x20/16z] {
+TOzN5aCX24IHPs_iVxUHWVHaFYXN3mFqHu7PgqSHH6IXaYD3L0o6EnedftR2m2_Zeb1VW1PU0UC2IeXcuLtMxnicsMVKWS9KCQgb9_AzkaVNrlsYiC9YI3rt
+qEbmksyjbuQDYS4DIA1fDjVZegud6Dm-XscUM1dUPfAV6TA3oUqM_TOD
+}
+
+!procedure Proxmox($id, $name="", $tech="")
+  IconElement($id, 'IconElement', 'simpleicons-7/P/Proxmox', $name, $tech)
+!endprocedure
