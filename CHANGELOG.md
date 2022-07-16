@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [9.0.0](https://github.com/tmorin/plantuml-libs/compare/v8.0.0...v9.0.0) (2022-07-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* **simpleicons-6:** the package is `simpleicons-6` is removed from the distribution
+
+### Features
+
+* **simpleicons-6:** remove the package ([806d0ef](https://github.com/tmorin/plantuml-libs/commit/806d0efb30787c31c5d1a1d0f2de1967128fc12e))
+* **simpleicons-7:** add the package ([0a284b2](https://github.com/tmorin/plantuml-libs/commit/0a284b27b057100380b4d6cd01635c589595cb86))
+
 ## [8.0.0](https://github.com/tmorin/plantuml-libs/compare/v7.1.0...v8.0.0) (2022-07-16)
 
 
